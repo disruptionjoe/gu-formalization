@@ -33,6 +33,7 @@ def load_inputs() -> dict:
         "qualification": json.loads(
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
+        "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
     }
 
 
@@ -94,6 +95,27 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check("strongest disjoint non-B2 native gate" in agenda_item["next_swing"],
           "agenda next swing is not the live route")
 
+    b5 = next(
+        item for item in data["agenda"]["work_items"]
+        if item["id"] == registry["b5_agenda_currency"]["work_item"]
+    )
+    b5_contract = registry["b5_agenda_currency"]
+    check(b5["state"] == b5_contract["state"], "B5 agenda state is stale")
+    check("RB6 recertification and the full-20 Gram-adjoint wave completed" in b5["latest_result"],
+          "B5 latest result does not retire RB6/Wave One")
+    check("EXTERNAL-VIA-GRAM" in b5["latest_result"],
+          "B5 graph-mixing branch ceiling lost")
+    check(b5_contract["live_reopener"] in b5["next_swing"],
+          "B5 live reopener missing")
+    check("Do not repeat RB6 recertification" in b5["next_swing"],
+          "B5 completed work is not forbidden as a repeat")
+    check("odd rank-128 spinor" in b5["current_authority"],
+          "B5 boundary multiplier typing lost")
+    check("source-native `B5-MIDDLE-DIFFERENTIAL` row remains" in data["b5_artifact"],
+          "B5 source-native/independent boundary lost")
+    check("## Hostile review and ceiling" in data["b5_artifact"],
+          "B5 currency hostile review missing")
+
     check(data["b2"]["basis"]["terminal_rows"] == 91, "B2 basis terminal count moved")
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
@@ -128,6 +150,10 @@ def selftest(base: dict) -> tuple[int, int]:
         "next_swing", "Qualify the only named materially distinct candidate"))
     add("agenda-latest-stale", lambda d: d["agenda"]["work_items"][2].__setitem__(
         "latest_result", "The hourly invariant-gapping campaign is complete"))
+    add("b5-rb6-repeat", lambda d: next(
+        item for item in d["agenda"]["work_items"]
+        if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"
+    ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
 

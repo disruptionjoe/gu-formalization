@@ -430,6 +430,27 @@ and
 | B5 marked class as edge mode | suggested adjacency only | explicitly unproved and forbidden without native boundary charge/algebra | boundary observable algebra and BFV representation | council/registry |
 | GU verdict | none | unchanged | complete physical theory and prediction chain | none |
 
+**B5 agenda currency reconciliation 2026-08-25 (completed RB6/Gram-adjoint
+sequence retired as live work; current owner reopener preserved).** The
+`B5-INDEPENDENT-RECONSTRUCTION` agenda row now agrees with the published
+2026-08-20--21 chain. RB6 exact-derivative recertification and the full-20
+Gram-adjoint computation are complete; the graph-mixing full-nine family
+remains `EXTERNAL-VIA-GRAM`. The separate strict branch already owns its
+fixed-background action/BV, curved-symbol, coflip/Green, closed-domain,
+polarization, reduced-class, positivity and boundary-phase results. Its live
+reopener requires either action/source-owned dynamical gravity with an even
+scalar Hamiltonian constraint/lapse or an independently owned physical
+boundary BFV packet. The source-native B5 row remains source-gapped. This is
+navigation and certificate reconciliation only; no scientific verdict moves.
+See `explorations/b5-agenda-currency-reconciliation-2026-08-25.md`.
+
+| claim | prior status | current status | weakest dependency | files updated |
+| --- | --- | --- | --- | --- |
+| RB6 / full-20 Gram-adjoint instruction | live agenda next swing despite completed receipts | historical; explicitly forbidden as a repeat | genuinely changed object | agenda / audit |
+| graph-mixing full-nine family | Gram-dependent | unchanged, `EXTERNAL-VIA-GRAM` | action-owned Gram/coefficient relation | agenda |
+| strict B5 physical pairing | action/domain chain complete but physical owner absent | unchanged; direct lapse port `WRONG_TYPE` | dynamical gravity or physical-boundary BFV owner | agenda / current state |
+| source-native B5 class | source-gapped | unchanged | stronger primary source packet | none |
+
 **B5 strict four-stage roll-support gate 2026-08-20 (eight-block ceiling;
 current full-nine target ineligible).** The typed
 `U0=S -> U1=I+R -> U2=(I+R)^vee_dens -> U3=S^vee_dens` complex, under the

@@ -7,7 +7,7 @@
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "c76352f496edc5ddc49949c8961403289f78ea9512f392de9cb19f3388b83650"
+      "sha256": "70d0c1bfb9770b62628d4a005af7ced97d39d4979643d7cd026be0dc74e2663e"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -26,6 +26,18 @@
       "sha256": "48b2c8ead73eb4cb390c9b511e274759058cadd63c9454d99d0c3001f4ca262d",
       "candidate_admitted": false,
       "root_candidate_state": "EMPTY_AT_CURRENT_SOURCE_AND_ACTION_OWNERSHIP"
+    },
+    "b5_gram_adjoint_result": {
+      "path": "explorations/b5-full20-gram-adjoint-universality-2026-08-20.md",
+      "sha256": "29c0951bd13eac9d43c31773dc7e4d77852d48b51293686c64cd39d0993f92f9"
+    },
+    "b5_boundary_phase_result": {
+      "path": "explorations/b5-signature-typed-reduced-phase-space-bvbfv-owner-2026-08-21.md",
+      "sha256": "6b713f8b572be0fb16a8678794396a0930fef712dd26797eb2fff22bd8376a62"
+    },
+    "b5_agenda_currency_result": {
+      "path": "explorations/b5-agenda-currency-reconciliation-2026-08-25.md",
+      "sha256": "380adc28dc05cd6af9571bbd0f5b6b1afcce3eed0bc2e5f67aabf53cdd333c1b"
     }
   },
   "live_frontier": {
@@ -60,6 +72,22 @@
       "Next audit the shared physical-quotient",
       "Qualify the only named materially distinct candidate"
     ]
+  },
+  "b5_agenda_currency": {
+    "work_item": "B5-INDEPENDENT-RECONSTRUCTION",
+    "state": "GATED_NEW_STRUCTURE",
+    "completed_work_forbidden_as_live": [
+      "RB6 exact-derivative recertification",
+      "full-20 Gram-adjoint wave",
+      "strict fixed-background action/BV chain",
+      "free positive-metric tests",
+      "fixed-background scalar-lapse comparison"
+    ],
+    "graph_mixing_family": "EXTERNAL-VIA-GRAM",
+    "strict_branch_current_result": "ODD_SPINOR_MULTIPLIER__SCALAR_LAPSE_WRONG_TYPE__PHYSICAL_PAIRING_UNOWNED",
+    "live_reopener": "B5-DYNAMICAL-GRAVITY-OR-PHYSICAL-BOUNDARY-BFV-REOPENER",
+    "source_native_b5_state": "BLOCKED_SOURCE_GAP",
+    "result_ref": "explorations/b5-agenda-currency-reconciliation-2026-08-25.md"
   },
   "protected_effects": {
     "ledger_verdict_change": false,
