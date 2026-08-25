@@ -174,10 +174,12 @@ check("half", "ambient chirality has two exact 64-dimensional eigenspaces",
 check("half", "every Clifford vector flips ambient half",
       all(g.mul(J).proportional_sign(J.mul(g)) == -1 for g in GAMMAS))
 
-plus_index = next(j for j in range(128) if J.perm[j] == j and J.sign[j] == 1)
-minus_index = next(j for j in range(128) if J.perm[j] == j and J.sign[j] == -1)
-s_plus = basis(plus_index)
-s_minus = basis(minus_index)
+plus_index = next((j for j in range(128) if J.perm[j] == j and J.sign[j] == 1), None)
+minus_index = next((j for j in range(128) if J.perm[j] == j and J.sign[j] == -1), None)
+check("half", "both exact half-spinor fixture indices exist",
+      plus_index is not None and minus_index is not None)
+s_plus = basis(plus_index if plus_index is not None else 0)
+s_minus = basis(minus_index if minus_index is not None else 0)
 check("half", "both exact half-spinor fixtures are live",
       chirality(s_plus, J) == 1 and chirality(s_minus, J) == -1)
 

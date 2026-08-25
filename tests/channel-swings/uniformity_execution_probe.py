@@ -79,7 +79,9 @@ def wall_at_t(t):
     qv = [qc(s, t=t) for s in sv]
     if qv[0] <= 0 or min(qv) > 0:
         return None
-    j = next(i for i in range(1, len(qv)) if qv[i] < 0)
+    j = next((i for i in range(1, len(qv)) if qv[i] < 0), None)
+    if j is None:
+        return None
     lo, hi = sv[j - 1], sv[j]
     for _ in range(50):
         m = 0.5 * (lo + hi)

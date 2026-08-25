@@ -223,7 +223,11 @@ helmholtz_live = 0
 for channel_index, (channel, operator) in enumerate(zip(channels_all, map_vectors)):
     first_entry = min(operator)
     first_input, first_output = first_entry
-    second_entry = next(key for key in sorted(operator) if key[0] != first_input)
+    second_entry = next((key for key in sorted(operator) if key[0] != first_input), None)
+    check("exact", "-".join(channel) + " has a second distinct input witness",
+          second_entry is not None)
+    if second_entry is None:
+        continue
     second_input, second_output = second_entry
 
     p = {first_input: gz(2), second_input: gz(-1)}

@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_control_flow_wave_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 114,
+    "probe_corpus": 981,
+    "baseline": 114
+  },
+  "after": {
+    "violations": 107,
+    "probe_corpus": 982,
+    "baseline": 107,
+    "repaired_violations": 7
+  },
+  "repair_packets": [
+    {
+      "id": "WALL_CROSSING_SENTINELS",
+      "result": "HARDENED",
+      "repaired_violations": 3,
+      "paths": [
+        "tests/channel-swings/operator_grade_end_probe.py",
+        "tests/channel-swings/uniformity_execution_probe.py"
+      ]
+    },
+    {
+      "id": "HALF_SPIN_FIXTURE_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 2,
+      "paths": [
+        "tests/channel-swings/joe_directed_cb8_h210_reverse_nabla_q_completion_probe.py"
+      ]
+    },
+    {
+      "id": "OPERATOR_SECOND_INPUT_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 1,
+      "paths": [
+        "tests/channel-swings/k77_wave2_action_polarization_common_observation_domain_probe.py"
+      ]
+    },
+    {
+      "id": "TOP_FORM_DUALIZATION_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 1,
+      "paths": [
+        "tests/channel-swings/pw2d_native_transported_shiab_action_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 4,
+    "caught": 4,
+    "classes": [
+      "zero_only_wall_sample",
+      "missing_half_spin_eigenspace",
+      "single_input_operator",
+      "full_degree_exterior_key"
+    ]
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; repair residual L1/L2 debt only through another semantically reviewed nonoverlapping cohort."
+}

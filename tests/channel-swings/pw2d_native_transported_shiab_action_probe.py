@@ -247,7 +247,9 @@ def coefficient_dual_source_t(
 ) -> M.SForm:
     result: M.SForm = {}
     for key in keys if keys is not None else sorted(source_density):
-        missing = next(index for index in range(M.N) if index not in key)
+        missing = next((index for index in range(M.N) if index not in key), None)
+        if missing is None:
+            continue
         coefficient = source_density[key]
         result[(missing,)] = M.sadd(result.get((missing,), {}), coefficient)
     return M.sfclean(result)

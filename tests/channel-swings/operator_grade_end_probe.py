@@ -269,7 +269,9 @@ def wall_radius(t, s_hi=1.5):
     qv = [qform(xi_of(t, ray(A_CONF_DN, s))) for s in svals]
     if qv[0] <= 0 or min(qv) > 0:
         return None
-    j = next(i for i in range(1, len(qv)) if qv[i] < 0)
+    j = next((i for i in range(1, len(qv)) if qv[i] < 0), None)
+    if j is None:
+        return None
     lo, hi = svals[j - 1], svals[j]
     for _ in range(60):
         mid = 0.5 * (lo + hi)
@@ -720,7 +722,9 @@ def stage4():
         qv = [qform(xi_of(t, ray(alpha, s))) for s in sv]
         if qv[0] <= 0 or min(qv) > 0:
             return None
-        j = next(i for i in range(1, len(qv)) if qv[i] < 0)
+        j = next((i for i in range(1, len(qv)) if qv[i] < 0), None)
+        if j is None:
+            return None
         lo, hi = sv[j - 1], sv[j]
         for _ in range(50):
             mid = 0.5 * (lo + hi)

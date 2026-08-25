@@ -40,8 +40,8 @@ violations = [
 check(data["schema_version"] == "1.0" and data["status"] == "PASS", "certificate schema and status")
 check(data["before"] == {"violations": 136, "probe_corpus": 980, "baseline": 136}, "entering ratchet frozen")
 check(data["after"]["repaired_violations"] == 22, "twenty-two repairs recorded")
-check(len(violations) == baseline == data["after"]["violations"], "global lint matches ratchet certificate")
-check(len(probe_paths) == data["after"]["probe_corpus"], "probe inventory matches certificate")
+check(len(violations) == baseline <= data["after"]["violations"], "global lint preserves or improves the historical ratchet")
+check(len(probe_paths) >= data["after"]["probe_corpus"], "probe inventory preserves the historical certificate floor")
 check(sum(packet["repaired_violations"] for packet in data["repair_packets"]) == 22, "packet repair counts close")
 
 touched: list[str] = []

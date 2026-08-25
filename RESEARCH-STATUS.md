@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Probe-authorship control-flow hardening wave
+
+Seven semantically reviewed crash-not-detection seams are repaired across four
+independent packets: three strict wall-crossing lookups, two half-spin fixture
+lookups, one distinct-input operator lookup and one full-degree exterior-
+complement lookup. Missing witnesses now return controlled sentinels or record
+explicit failed checks before safe placeholders are used. Every successful
+wall, spinor, operator-column and dual-coefficient value is unchanged.
+
+The repository-wide authorship ratchet falls from 114 reports across 981
+probes to 107 across 982. The coupled certificate passes 19/19 and catches all
+four hostile missing-witness classes; the historical witness certificate
+remains green at 33/33. CB8 passes 48/48 and the K77 polarization packet passes
+71/71. The transported-Shiab replay passes through the repaired dualization,
+naturality, transgression and action-jet checks, then reaches the measured
+five-minute local limit in a later inherited SymPy contraction and is stopped.
+All touched probes compile. This is mechanical certificate hardening only:
+source claims, all 91 v0.263 ledger dispositions, action ownership, the open
+SG4 phase, predictions, confirmations, papers, canon, release readiness and
+public posture remain unchanged. See
+`explorations/conditional-build/probe-authorship-control-flow-wave-2026-08-25.md`.
+
 ## 2026-08-25 — Probe-authorship witness-custody hardening wave
 
 Twenty-two semantically reviewed crash-not-detection seams are repaired across
