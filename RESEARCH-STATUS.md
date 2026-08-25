@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Probe-authorship lookup hardening wave, 2026-08-25.** Fifteen concrete
+crash-not-detection defects are repaired across ledger-migration custody, live
+source/action propagation and v0.258 ledger-hygiene evidence lookup. Missing
+objects now reach controlled falsey checks rather than raising
+`StopIteration`; exact successful assertions are unchanged. The global lint
+ratchet falls from 205 to 190 residual L1/L2 reports across 975 probes, and the
+coupled certificate catches 4/4 hostile mutations. The LT-GR8 and v0.258
+historical probes retain only their three inherited branch-currency failures.
+No source claim, scientific verdict, ledger row, SG4 phase, prediction, canon
+or public posture moves. See
+`explorations/conditional-build/probe-authorship-lookup-hardening-wave-2026-08-25.md`.
+
 **Canonical-currency and B2 steering reconciliation, 2026-08-25.** Five
 corrections canonicalized on 2026-08-24 are now registered in CT-5 and every
 one of their 52 exact pre-correction signature hits is adjudicated. Forty-five

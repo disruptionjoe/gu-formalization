@@ -68,6 +68,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     cited_exist = inputs["cited_exist"]
     assert isinstance(data, dict) and isinstance(cited_exist, dict)
     assert all(isinstance(s, str) for s in (result, spec, spec_test))
+    check(bool(cited_exist), "cited provenance set nonempty")
 
     # ---- the three rows are present and correctly classed ----------------
     added = {r["id"]: r for r in data["rows_added"]}
@@ -177,9 +178,16 @@ def selftest() -> int:
 
     changed = copy.deepcopy(baseline)
     changed["cited_exist"] = dict(changed["cited_exist"])
-    first = next(iter(changed["cited_exist"]))
-    changed["cited_exist"][first] = False
-    mutations.append(("broken-provenance", f"cited path exists: {first}", changed))
+    first = next(iter(changed["cited_exist"]), None)
+    if first is None:
+        mutations.append(("empty-provenance", "cited provenance set nonempty", changed))
+    else:
+        changed["cited_exist"][first] = False
+        mutations.append(("broken-provenance", f"cited path exists: {first}", changed))
+
+    changed = copy.deepcopy(baseline)
+    changed["cited_exist"] = {}
+    mutations.append(("missing-provenance-set", "cited provenance set nonempty", changed))
 
     changed = copy.deepcopy(baseline)
     changed["data"]["h41_status_checked"]["claim"] = "H41 is built"

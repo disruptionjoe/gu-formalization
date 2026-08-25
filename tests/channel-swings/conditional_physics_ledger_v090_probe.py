@@ -56,17 +56,18 @@ check("migration", "five v0.90 migrations append in declared order",
       [m["row_id"] for m in tail] == row_ids
       and all(m["from_version"] == "0.89" and m["to_version"] == "0.90" for m in tail))
 for row_id in row_ids:
-    before = next(r for r in old["rows"] if r["id"] == row_id)
-    after = next(r for r in new["rows"] if r["id"] == row_id)
+    before = next((r for r in old["rows"] if r.get("id") == row_id), {})
+    after = next((r for r in new["rows"] if r.get("id") == row_id), {})
     check("migration", f"{row_id}: verdict and reason kind survive",
-          (after["verdict"], after["reason_kind"]) == (before["verdict"], before["reason_kind"]))
+          (after.get("verdict"), after.get("reason_kind")) ==
+          (before.get("verdict"), before.get("reason_kind")) and bool(before) and bool(after))
     check("migration", f"{row_id}: current evidence points to Cartan composition",
-          after["evidence"] == "signature-generic-cartan-ward-compose-2026-08-08.md")
+          after.get("evidence") == "signature-generic-cartan-ward-compose-2026-08-08.md")
     check("migration", f"{row_id}: frontier grade preserves selected-action burden",
-          "OPEN" in after["frontier_grade"] and (
-              "CARTAN" in after["frontier_grade"]
-              or "FIELD_LIE" in after["frontier_grade"]
-              or "AUGMENTED_TORSION" in after["frontier_grade"]
+          "OPEN" in after.get("frontier_grade", "") and (
+              "CARTAN" in after.get("frontier_grade", "")
+              or "FIELD_LIE" in after.get("frontier_grade", "")
+              or "AUGMENTED_TORSION" in after.get("frontier_grade", "")
           ))
 
 check("theorem", "connection Cartan identity is exact", registry["exact_cartan"]["connection_identity"])

@@ -7,7 +7,7 @@
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "70d0c1bfb9770b62628d4a005af7ced97d39d4979643d7cd026be0dc74e2663e"
+      "sha256": "29a852d7a7844c702c30d7946181b91a659d8f54196a9bcba60ea2f5859dfaa8"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",

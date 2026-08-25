@@ -337,11 +337,11 @@ check("D", "LT-GR7's own evidence pointer cites the source row only -- it carrie
       ROWS["LT-GR7"]["evidence"], "cb-b-lagrangian-terms-2026-08-05.md:GR-7")
 CBB = (REPO / "explorations" / "conditional-build"
        / "cb-b-lagrangian-terms-2026-08-05.md").read_text().splitlines()
-u5b = next(l for l in CBB if l.startswith("| **U5** |"))
+u5b = next((l for l in CBB if l.startswith("| **U5** |")), "")
 check("E", "CB-B's own census assigns GR-7's scale supplier to the IMPORTED absolute "
            "scale object, keyed PRED-NORM-RANK",
       ("imported absolute scale" in u5b and "PRED-NORM-RANK" in u5b and "GR-7" in u5b), True)
-u7a = next(l for l in CBA.read_text().splitlines() if l.startswith("| **U7** |"))
+u7a = next((l for l in CBA.read_text().splitlines() if l.startswith("| **U7** |")), "")
 check("E", "and CB-A types that same object 'external, banked'",
       ("imported absolute scale" in u7a and "external, banked" in u7a), True)
 check("E", "so EXTERNAL_DATUM aligns the row with its own sources' typing, while "
@@ -454,7 +454,7 @@ check("C", "CONTROL every 'lost' token is still recoverable from migrations, so 
 print("\n== I. CB-A U1 CENSUS: 20 LABELS UNDER A COUNT OF 19 ==")
 
 cba = CBA.read_text().splitlines()
-line = next(l for l in cba if l.startswith("| `U1` |"))
+line = next((l for l in cba if l.startswith("| `U1` |")), "")
 check("E", "the census line is verbatim", line, "| `U1` | **19** | A1–A6, A8, B1–B6, C1–C6, G4 |")
 
 
@@ -472,9 +472,9 @@ def expand(spec):
 labels = expand("A1–A6, A8, B1–B6, C1–C6, G4")
 check("E", "the label string expands to 20 labels under a stated count of 19", len(labels), 20)
 check("E", "A6 is among them", "A6" in labels, True)
-a6 = next(l for l in cba if l.startswith("| **A6** |"))
+a6 = next((l for l in cba if l.startswith("| **A6** |")), "")
 check("E", "but CB-A types A6's own row NEEDS-U6, not NEEDS-U1", "**NEEDS-U6**" in a6, True)
-u6 = next(l for l in cba if l.startswith("| `U6` |"))
+u6 = next((l for l in cba if l.startswith("| `U6` |")), "")
 check("E", "and CB-A's census lists A6 as U6's only row", u6.strip().endswith("| 1 | A6 |"), True)
 check("E", "so the range must read A1-A5, and 19 is the correct count",
       len(expand("A1–A5, A8, B1–B6, C1–C6, G4")), 19)

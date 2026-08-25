@@ -54,11 +54,15 @@ rows = ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"]
 tail = new["migrations"][-5:]
 check("migration", "exactly five v0.89 migrations are appended", [m["row_id"] for m in tail] == rows and all(m["to_version"] == "0.89" for m in tail))
 for row_id in rows:
-    before = next(r for r in old["rows"] if r["id"] == row_id)
-    after = next(r for r in new["rows"] if r["id"] == row_id)
-    check("migration", f"{row_id}: verdict and reason kind are frozen", (after["verdict"], after["reason_kind"]) == (before["verdict"], before["reason_kind"]))
-    check("migration", f"{row_id}: distance is branch-aware", "signature-generic" in after["distance"] and "K77" in after["distance"])
-    check("migration", f"{row_id}: evidence points to the retype", after["evidence"] == "signature-rationale-and-build-branch-retype-2026-08-08.md")
+    before = next((r for r in old["rows"] if r.get("id") == row_id), {})
+    after = next((r for r in new["rows"] if r.get("id") == row_id), {})
+    check("migration", f"{row_id}: verdict and reason kind are frozen",
+          (after.get("verdict"), after.get("reason_kind")) ==
+          (before.get("verdict"), before.get("reason_kind")) and bool(before) and bool(after))
+    check("migration", f"{row_id}: distance is branch-aware",
+          "signature-generic" in after.get("distance", "") and "K77" in after.get("distance", ""))
+    check("migration", f"{row_id}: evidence points to the retype",
+          after.get("evidence") == "signature-rationale-and-build-branch-retype-2026-08-08.md")
 
 check("layer0", "K77 is author asserted", registry["fork_disposition"]["K77"] == "AUTHOR_ASSERTED_CONDITIONAL_BUILD")
 check("layer0", "K95 is geometry derived", registry["fork_disposition"]["K95"] == "GEOMETRY_DERIVED_COMPARATOR")

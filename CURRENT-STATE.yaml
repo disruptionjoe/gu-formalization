@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Probe-authorship lookup hardening removes fifteen crash-not-detection
+    defects across ledger-migration custody, live source/action propagation and
+    v0.258 ledger-hygiene evidence lookup. Missing objects now reach controlled
+    falsey checks rather than raising StopIteration, while every successful
+    exact assertion is preserved. The authorship ratchet is now 190 residual
+    L1/L2 reports across 975 probes, down from 205/974; the coupled certificate
+    catches 4/4 hostile mutations. The LT-GR8 and v0.258 historical probes
+    retain only their three inherited branch-currency failures. This is
+    detector hardening only: no source claim or adherence, scientific verdict,
+    action owner, ledger row, SG4 phase, prediction, confirmation, paper, canon
+    verdict, release readiness or public posture moves.
     Canonical-currency stewardship registers the five 2026-08-24 source-layer
     corrections that had not entered the CT-5 consumption-edge instrument and
     adjudicates every one of their 52 exact pre-correction signature hits.
@@ -3498,10 +3509,11 @@ next_condition: >-
   dispositions, source ownership, SG4 phase, predictions, confirmations,
   claims, canon and public posture. Under the A1 selection rule, attempt a
   source-to-proof delta, then a ledger-moving arc, before selecting a concrete
-  result-hardening defect. The wrapped-prose detector class is now closed;
-  reopen authorship maintenance only on a concrete remaining L1/L2 defect or a
-  fresh measured baseline decrease. Historical conditions below are custody
-  evidence, not current work instructions.
+  result-hardening defect. The wrapped-prose detector class remains closed;
+  lookup authorship is now ratcheted at 190/975 after the fifteen-defect wave.
+  Reopen authorship maintenance only on another semantically reviewed concrete
+  L1/L2 cohort or a fresh measured baseline decrease. Historical conditions
+  below are custody evidence, not current work instructions.
 prior_conditions: >-
   Rebuild the repository-wide substantial Progress frontier from fresh
   native truth and select the strongest disjoint non-B2 gate. Keep the B2

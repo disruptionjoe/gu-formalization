@@ -69,9 +69,10 @@ check("type", "LT-GR2c records exact stress and the adverse pole",
       rows10["LT-GR2c"]["reason_kind"] == "MISSING_CONSTRUCTION"
       and "ACTION_HILBERT_STRESS_EXACT" in rows10["LT-GR2c"]["mapping_grade"]
       and "DOUBLE_POLE" in rows10["LT-GR2c"]["mapping_grade"])
+lt_gr2d_migration = next((m for m in migrations if m.get("row_id") == "LT-GR2d"), {})
 check("type", "LT-GR2d is scope-corrected rather than over-fenced",
       rows10["LT-GR2d"]["reason_kind"] == "MISSING_CONSTRUCTION"
-      and next(m for m in migrations if m["row_id"] == "LT-GR2d")["meaning_changed"] is True)
+      and lt_gr2d_migration.get("meaning_changed") is True)
 check("type", "LT-GR5 retains the generalized propagation partner",
       "GENERALIZED_DOUBLE_POLE_PARTNER_REMAINS" in rows10["LT-GR5"]["mapping_grade"])
 check("type", "LT-GR6 separates Hilbert stress, literal VU, current and totalization",

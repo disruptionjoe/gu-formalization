@@ -198,8 +198,12 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
           "delta indexed deferred")
     check("ALREADY_OBSERVED" in boundary["packet_component_status"]["stress_energy_flux"],
           "boundary packet refined")
-    d4 = next(item for item in reverse["r2_r1_demand_interface"] if item["id"].startswith("D4_"))
-    check("TYPING_COMPLETE" in d4["status"], "reverse D4 status complete")
+    d4 = next(
+        (item for item in reverse["r2_r1_demand_interface"]
+         if item.get("id", "").startswith("D4_")),
+        {},
+    )
+    check("TYPING_COMPLETE" in d4.get("status", ""), "reverse D4 status complete")
     # D6 was the next demand when D4 closed; the 2026-08-23 D6 protocol freeze
     # legitimately advanced the pointer. The invariant is only that the queue
     # moved past D4 to D6 or beyond, never back to D4.

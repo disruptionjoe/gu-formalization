@@ -52,7 +52,12 @@ check("exact", "active row count remains 82", len(active) == 82)
 check("exact", "active verdict counts move one stale premise to needs", Counter(row["verdict"] for row in active) == Counter({"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5}))
 check("exact", "residue and quotient headline freezes", all(new["residue"][key] == old["residue"][key] for key in ("continuous_real", "function_valued_at_least", "open_discrete_forks", "quotients_ranked")))
 check("exact", "AC-G1 migration points to AC-G1a", any(m.get("row_id") == "AC-G1" and m.get("from_version") == "0.49" and m.get("to_version") == "0.50" and m.get("successor_id") == "AC-G1a" for m in new["migrations"]))
-check("program", "independent disposition is recorded", next(x for x in new["over_determined_escalations"] if x["row_id"] == "AC-G1")["status"].startswith("ADJUDICATED_STALE_PREMISE"))
+ac_g1_escalation = next(
+    (x for x in new["over_determined_escalations"] if x.get("row_id") == "AC-G1"),
+    {},
+)
+check("program", "independent disposition is recorded",
+      ac_g1_escalation.get("status", "").startswith("ADJUDICATED_STALE_PREMISE"))
 check("source", "settled horn returns source silence", new["source_return"] == result["source_return"] == "SOURCE-SILENT__SETTLED_CL77_ANOMALY_REPLACEMENT_GROUP_OR_RECEPTACLE")
 check("program", "P1 P2 P3 remain unused", result["external_datum"] == {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"})
 check("program", "Curt and third lane remain fenced", result["curt_track"] == "FORMALLY_SEPARATE_INSIDE_ERIC_LANE" and result["third_lane_gate"] == "NOT_PROMOTED")

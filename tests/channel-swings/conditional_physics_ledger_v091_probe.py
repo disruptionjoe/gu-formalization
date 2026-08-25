@@ -48,11 +48,17 @@ row_ids = ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"]
 tail = new["migrations"][-5:]
 check("migration", "five v0.91 migrations append in declared order", [m["row_id"] for m in tail] == row_ids and all(m["from_version"] == "0.90" and m["to_version"] == "0.91" for m in tail))
 for row_id in row_ids:
-    before = next(r for r in old["rows"] if r["id"] == row_id)
-    after = next(r for r in new["rows"] if r["id"] == row_id)
-    check("migration", f"{row_id}: verdict and reason kind survive", (after["verdict"], after["reason_kind"]) == (before["verdict"], before["reason_kind"]))
-    check("migration", f"{row_id}: evidence points to the object-separation result", after["evidence"] == "selected-k77-action-frechet-ward-object-separation-2026-08-08.md")
-    check("migration", f"{row_id}: frontier names an open transverse/J/K burden", "OPEN" in after["frontier_grade"] and any(token in after["frontier_grade"] for token in ("TRANSVERSE", "GRAM", "K_GREEN", "K_ADJOINT")))
+    before = next((r for r in old["rows"] if r.get("id") == row_id), {})
+    after = next((r for r in new["rows"] if r.get("id") == row_id), {})
+    check("migration", f"{row_id}: verdict and reason kind survive",
+          (after.get("verdict"), after.get("reason_kind")) ==
+          (before.get("verdict"), before.get("reason_kind")) and bool(before) and bool(after))
+    check("migration", f"{row_id}: evidence points to the object-separation result",
+          after.get("evidence") == "selected-k77-action-frechet-ward-object-separation-2026-08-08.md")
+    check("migration", f"{row_id}: frontier names an open transverse/J/K burden",
+          "OPEN" in after.get("frontier_grade", "") and
+          any(token in after.get("frontier_grade", "")
+              for token in ("TRANSVERSE", "GRAM", "K_GREEN", "K_ADJOINT")))
 
 check("theorem", "first-action bank remains exact and distinct", registry["exact_results"]["first_action_bank_rank"] == 14 and registry["layer0"]["raw_residual_jacobian"].endswith("DISTINCT_AND_PARTIAL"))
 check("theorem", "four Ward versus six transverse is recorded", registry["exact_results"]["physical_ward_orbit_rank"] == 4 and registry["exact_results"]["transverse_metric_rank"] == 6)
