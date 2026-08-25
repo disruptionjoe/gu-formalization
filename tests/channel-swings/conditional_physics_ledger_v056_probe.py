@@ -27,7 +27,10 @@ assert registry["exact_result"]["local_coefficient_freedom_at_fixed_background"]
 assert ledger["next_work_queue"][0]["rows"] == ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"]
 assert "Spencer/atlas integrability" in ledger["next_work_queue"][0]["why"]
 assert all(item["change"] == "MIGRATED_DISTANCE_ONLY" for item in ledger["wave_row_dispositions"])
-assert all("selected-source-varpi-cartan-composition" in next(row["evidence"] for row in ledger["rows"] if row["id"] == row_id)
-           for row_id in ("LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"))
+rows_by_id = {row["id"]: row for row in ledger["rows"]}
+target_rows = ("LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6")
+assert all(row_id in rows_by_id for row_id in target_rows)
+assert all("selected-source-varpi-cartan-composition" in rows_by_id[row_id]["evidence"]
+           for row_id in target_rows)
 assert all(value == "UNUSED" for value in registry["external_datum"].values())
 print("PASS 16/16: v0.56 preserves the headline meter and advances five rows to the covariant graph/Spencer gate")

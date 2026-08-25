@@ -206,7 +206,9 @@ def main():
     planted("ordinary BRST supplies W131 physical cohomology", ordinary_brst.sector == w131_needed.sector)
 
     # Registry/campaign boundaries and exact non-advances.
-    wave3 = next(wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION")
+    wave3 = next((wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION"), None)
+    if wave3 is None:
+        raise AssertionError("campaign is missing the Wave 3 observation row")
     b2c2a = wave3["result"]["wave3d"]["wave3d_b1"]["wave3d_b2a"]["wave3d_b2b"]["wave3d_b2c1"]["wave3d_b2c2a"]
     exact("registry records SOURCE-CORRECTS scope", registry["source_collision"]["disposition"] == "SOURCE-CORRECTS")
     exact("registry refuses a W131 Jordan cohomology retest", registry["w131_collision"]["jordan_cohomology_retested"] is False)

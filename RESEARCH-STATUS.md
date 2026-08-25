@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Probe-authorship retrieval hardening wave, 2026-08-25.** Twenty-four
+crash-not-detection seams are repaired across Eric/Curt campaign custody,
+historical ledger and source-input custody, and public-status/witness lookup.
+Missing rows, fixtures and source lines now reach explicit presence,
+cardinality or missing-key checks while successful first-match semantics and
+exact assertions remain unchanged. Sixteen touched probes replay green; four
+Eric/Curt probes retain only their inherited stale campaign-handoff
+assertions. The two heavy SymPy packets pass 38/38 and 40/40. The lint ratchet
+falls from 171 to 147 residual L1/L2 reports across 978 probes, and the coupled
+certificate catches 6/6 hostile controls. No source claim, scientific verdict,
+action owner, ledger row, SG4 phase, prediction, confirmation, paper, canon,
+release readiness or public posture moves. See
+`explorations/conditional-build/probe-authorship-retrieval-wave-2026-08-25.md`.
+
 **K77 probe-authorship singleton hardening wave, 2026-08-25.** Nineteen
 crash-not-detection defects are repaired across three coherent K77 packets:
 first-action/tangent singleton extraction, I2B symbol extraction and

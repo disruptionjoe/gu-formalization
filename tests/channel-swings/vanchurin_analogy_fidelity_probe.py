@@ -275,7 +275,10 @@ ANALOGIES: tuple[Analogy, ...] = (
 
 
 def by_key(key: str) -> Analogy:
-    return next(item for item in ANALOGIES if item.key == key)
+    matches = [item for item in ANALOGIES if item.key == key]
+    if len(matches) != 1:
+        raise AssertionError(f"expected exactly one analogy row for {key}, found {len(matches)}")
+    return matches[0]
 
 
 def cluster_summary(

@@ -349,7 +349,10 @@ def main() -> int:
         (ROOT / "lab/process/eric-curt-ten-wave-campaign.json").read_text(),
         object_pairs_hook=unique_object,
     )
-    wave3 = next(wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION")
+    wave3 = next((wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION"), None)
+    if wave3 is None:
+        print("FAIL: campaign is missing the Wave 3 observation row", flush=True)
+        return 1
     b2b = wave3["result"]["wave3d"]["wave3d_b1"]["wave3d_b2a"]["wave3d_b2b"]
     b2c1 = b2b["wave3d_b2c1"]
     b2c2a = b2c1["wave3d_b2c2a"]

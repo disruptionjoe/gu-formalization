@@ -31,7 +31,10 @@ assert registry["exact_result"]["pointwise_coefficient_freedom"] == 0
 assert ledger["next_work_queue"][0]["rows"] == ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"]
 assert "corrected K77" in ledger["next_work_queue"][0]["why"]
 assert all(item["change"] == "MIGRATED_MAPPING_GRADE_AND_EVIDENCE_ONLY" for item in ledger["wave_row_dispositions"])
-assert all("selected-k77-cartan-spencer-signature-correction" in next(row["evidence"] for row in ledger["rows"] if row["id"] == row_id)
-           for row_id in ("LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"))
+rows_by_id = {row["id"]: row for row in ledger["rows"]}
+target_rows = ("LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6")
+assert all(row_id in rows_by_id for row_id in target_rows)
+assert all("selected-k77-cartan-spencer-signature-correction" in rows_by_id[row_id]["evidence"]
+           for row_id in target_rows)
 assert all(value == "UNUSED" for value in registry["external_datum"].values())
 print("PASS 21/21: v0.57 preserves the headline meter and corrects five rows to the exact K77 coefficient chain")

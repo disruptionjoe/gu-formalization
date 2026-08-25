@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_retrieval_wave_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 171,
+    "probe_corpus": 977,
+    "baseline": 171
+  },
+  "after": {
+    "violations": 147,
+    "probe_corpus": 978,
+    "baseline": 147,
+    "repaired_violations": 24
+  },
+  "repair_packets": [
+    {
+      "id": "ERIC_CURT_CAMPAIGN_RETRIEVAL",
+      "result": "HARDENED",
+      "repaired_violations": 12,
+      "paths": {
+        "tests/channel-swings/eric_curt_wave2_carrier_port_census_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave2b_term_rank_ablation_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3a_observation_dual_leakage_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3b_cech_domain_quotient_probe.py": 1,
+        "tests/channel-swings/eric_curt_wave3c_y14_atlas_cauchy_domain_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3d_b1_h1_closedness_kill_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3d_b2a_native_time_flux_coercivity_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3d_b2b_positive_symmetrizer_jordan_obstruction_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3d_b2c_projected_gauge_quotient_gate_probe.py": 0,
+        "tests/channel-swings/eric_curt_wave3d_section_green_domain_probe.py": 0
+      }
+    },
+    {
+      "id": "LEDGER_AND_SOURCE_INPUT_RETRIEVAL",
+      "result": "HARDENED",
+      "repaired_violations": 7,
+      "paths": {
+        "tests/channel-swings/conditional_physics_ledger_v056_probe.py": 0,
+        "tests/channel-swings/conditional_physics_ledger_v057_probe.py": 0,
+        "tests/channel-swings/pw1_typed_experiment_selection_probe.py": 0,
+        "tests/channel-swings/pw2e_finite_native_shiab_descent_probe.py": 2,
+        "tests/channel-swings/pw2e_mixed_metric_frechet_native_ward_probe.py": 0,
+        "tests/channel-swings/resolver_wave_k77a_real_spinor_atomic_crosswalk_probe.py": 0
+      }
+    },
+    {
+      "id": "PUBLIC_STATUS_WITNESS_RETRIEVAL",
+      "result": "HARDENED",
+      "repaired_violations": 5,
+      "paths": {
+        "tests/channel-swings/uv_gravity_claim_grade_and_overlap_audit_probe.py": 0,
+        "tests/channel-swings/vanchurin_analogy_fidelity_probe.py": 0,
+        "tests/channel-swings/cb_a_representation_content_probe.py": 0
+      }
+    }
+  ],
+  "hostile_controls": {
+    "count": 6,
+    "caught": 6,
+    "classes": [
+      "missing_generator_default",
+      "missing_iterator_default",
+      "missing_mapping_row_default",
+      "empty_campaign_lookup",
+      "missing_selected_fixture",
+      "ratchet_certificate_mismatch"
+    ]
+  },
+  "validation": {
+    "green_probe_count": 16,
+    "inherited_only_failures": [
+      "eric_curt_wave3d_b2a_native_time_flux_coercivity_probe.py: inherited deepest-successor campaign assertion",
+      "eric_curt_wave3d_b2b_positive_symmetrizer_jordan_obstruction_probe.py: inherited typed-successor campaign assertion",
+      "eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py: inherited super-IG/RS campaign assertion",
+      "eric_curt_wave3d_b2c_projected_gauge_quotient_gate_probe.py: inherited B2C1/B2C2A campaign assertion"
+    ],
+    "selected_residual_l1": 3,
+    "selected_residual_boundary": "one singular-matrix pivot and two nonempty curvature fixtures remain outside this retrieval cohort"
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; repair residual L1/L2 debt only through another semantically reviewed concrete cohort."
+}

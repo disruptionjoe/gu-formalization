@@ -177,7 +177,9 @@ def colour_singlets(c: Counter, predicate) -> int:
         base_c = F(s, 1) / 3 if not isinstance(s, F) else s / 3
         # zero triality <=> the su(3)-singlet base (s/3,s/3,s/3) lies in the same
         # weight-lattice coset as the sector's states (differences are integers).
-        any_w = next(iter(sub))
+        any_w = next(iter(sub), None)
+        if any_w is None:
+            raise AssertionError("representation sector contains no weights")
         if (any_w[0] - base_c).denominator != 1:
             continue
         base = (base_c, base_c, base_c)

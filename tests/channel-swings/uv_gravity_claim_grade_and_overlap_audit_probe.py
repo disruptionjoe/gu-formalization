@@ -30,6 +30,15 @@ def load_bundle() -> dict[str, object]:
     }
 
 
+def paper_agenda_item(agenda: dict[str, object]) -> dict[str, object]:
+    matches = [
+        item for item in agenda["work_items"]
+        if item["id"] == "PAPER-UV-GRAVITY"
+    ]
+    require(len(matches) == 1, "agenda must contain exactly one UV-gravity paper row")
+    return matches[0]
+
+
 def validate(bundle: dict[str, object]) -> None:
     registry = bundle["registry"]
     agenda = bundle["agenda"]
@@ -52,7 +61,7 @@ def validate(bundle: dict[str, object]) -> None:
     require("FAILED_HARDENING_GATE" in str(bundle["staging"]), "staging disposition stale")
     require("PARKED_REQUIRES_RECONSTRUCTION" in str(bundle["inventory"]), "inventory disposition stale")
 
-    paper_item = next(item for item in agenda["work_items"] if item["id"] == "PAPER-UV-GRAVITY")
+    paper_item = paper_agenda_item(agenda)
     require(paper_item["state"] == "PARKED_REQUIRES_RECONSTRUCTION", "agenda paper state stale")
     require("heat-kernel" in paper_item["next_swing"], "agenda reopening packet incomplete")
 
@@ -81,11 +90,11 @@ def selftest(bundle: dict[str, object]) -> None:
     mutations.append(unfenced_paper)
 
     stale_agenda = copy.deepcopy(bundle)
-    next(item for item in stale_agenda["agenda"]["work_items"] if item["id"] == "PAPER-UV-GRAVITY")["state"] = "ACTIVE"
+    paper_agenda_item(stale_agenda["agenda"])["state"] = "ACTIVE"
     mutations.append(stale_agenda)
 
     incomplete_reopen = copy.deepcopy(bundle)
-    item = next(item for item in incomplete_reopen["agenda"]["work_items"] if item["id"] == "PAPER-UV-GRAVITY")
+    item = paper_agenda_item(incomplete_reopen["agenda"])
     item["next_swing"] = item["next_swing"].replace("heat-kernel", "curvature")
     mutations.append(incomplete_reopen)
 

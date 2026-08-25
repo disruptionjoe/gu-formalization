@@ -371,7 +371,9 @@ def main():
     exact("hostile patch remains locally split", multiply(retracts[2], bad_lift2) == identity(4))
     exact("hostile patch fails overlap descent", multiply(t12, bad_lift2) != multiply(lifts[1], h12))
 
-    wave3 = next(row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION")
+    wave3 = next((row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION"), None)
+    if wave3 is None:
+        raise AssertionError("campaign is missing the Wave 3 observation row")
     wave3b = wave3["result"]["wave3b"]
     gate = campaign["third_lane_promotion_gate"]
     exact("campaign records ECW3B finite boundary", wave3b["registry"] == "lab/process/eric-curt-wave3b-cech-domain-quotient.json" and wave3b["status_boundary"] == registry["wave_disposition"]["scientific_status"])

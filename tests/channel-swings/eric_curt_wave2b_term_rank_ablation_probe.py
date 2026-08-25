@@ -78,8 +78,10 @@ def main() -> None:
     campaign = json.loads(CAMPAIGN.read_text())
     port_census = json.loads(PORT_CENSUS.read_text())
     source_note = SOURCE_NOTE.read_text()
-    wave2 = next(row for row in campaign["waves"] if row["id"] == "ECW2-G3.5-CENSUS")
-    wave3 = next(row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION")
+    wave2 = next((row for row in campaign["waves"] if row["id"] == "ECW2-G3.5-CENSUS"), None)
+    wave3 = next((row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION"), None)
+    if wave2 is None or wave3 is None:
+        raise AssertionError("campaign is missing the Wave 2 or Wave 3 row")
 
     exact("Wave 2b registry is complete only for its frozen class", registry["status"] == "COMPLETE_FOR_FROZEN_G2_FIRST_LAYER_CLASS")
     exact("campaign records the frozen-class completion", wave2["status"] == "COMPLETE_FROZEN_G2_FIRST_LAYER_TERM_QUOTIENT__LATER_ACTION_CLASSES_REMAIN_OWNED")

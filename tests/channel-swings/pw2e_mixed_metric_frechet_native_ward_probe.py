@@ -153,9 +153,12 @@ def source_and_layer_zero() -> None:
         "identify the synthetic source_t fixture with source T_omega",
         all(token in synthetic_source for token in ("epsilon", "varpi", "d_0")),
     )
+    kappa_rows = [line for line in pack.splitlines() if "kappa_1" in line]
+    if not kappa_rows:
+        raise AssertionError("source packet must contain a kappa_1 row")
     reject(
         "identify the bosonic kappa1 distortion norm with a fermion/Yukawa mass term",
-        "Yukawa" in next(line for line in pack.splitlines() if "kappa_1" in line),
+        "Yukawa" in kappa_rows[0],
     )
 
 

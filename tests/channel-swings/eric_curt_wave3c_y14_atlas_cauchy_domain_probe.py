@@ -284,7 +284,9 @@ def main():
     exact("section pullback has Lorentz negative index one", inertia(pullback_metrics[2])[1] == 1)
     exact("physical three-surface has codimension eleven in Y14", 14 - 3 == 11)
 
-    wave3 = next(row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION")
+    wave3 = next((row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION"), None)
+    if wave3 is None:
+        raise AssertionError("campaign is missing the Wave 3 observation row")
     wave3c = wave3["result"]["wave3c"]
     gate = campaign["third_lane_promotion_gate"]
     exact("campaign records ECW3C actual-atlas boundary", wave3c["registry"] == "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json" and wave3c["status_boundary"] == registry["wave_disposition"]["scientific_status"])

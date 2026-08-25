@@ -80,7 +80,9 @@ def main() -> None:
     registry = json.loads(REGISTRY.read_text())
     primitives = {row["id"]: row for row in registry["primitives"]}
     vocabulary = set(registry["status_vocabulary"])
-    wave2 = next(row for row in campaign["waves"] if row["id"] == registry["wave"])
+    wave2 = next((row for row in campaign["waves"] if row["id"] == registry["wave"]), None)
+    if wave2 is None:
+        raise AssertionError("campaign is missing the registered Wave 2 row")
 
     exact("registry records the completed Wave 2b frozen-class continuation", registry["status"] == "PORT_CENSUS_COMPLETE__WAVE2B_FROZEN_G2_FIRST_LAYER_QUOTIENT_COMPLETE")
     exact("campaign Wave 2 records the frozen-class exit", wave2["status"] == "COMPLETE_FROZEN_G2_FIRST_LAYER_TERM_QUOTIENT__LATER_ACTION_CLASSES_REMAIN_OWNED")

@@ -164,7 +164,10 @@ def validate(data: dict[str, object]) -> list[str]:
             errors.append(f"frozen exact selection differs: {selected}")
         if any(fixture_id.startswith("R-") for fixture_id in selected):
             errors.append("reserved control leaked into selection")
-        if exact_rank([next(f["response"] for f in fixtures if f["id"] == fixture_id) for fixture_id in selected]) != 4:
+        fixtures_by_id = {fixture["id"]: fixture for fixture in fixtures}
+        if any(fixture_id not in fixtures_by_id for fixture_id in selected):
+            errors.append("selected discovery fixture is missing from the registry")
+        elif exact_rank([fixtures_by_id[fixture_id]["response"] for fixture_id in selected]) != 4:
             errors.append("selected discovery set lacks full exact rank")
 
     if "exact replay" not in data.get("reconstruction_rule", ""):

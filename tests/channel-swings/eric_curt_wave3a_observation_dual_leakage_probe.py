@@ -225,7 +225,9 @@ def main():
     exact("nonlinear leaking map leaves the image", not is_zero_vector(matvec(off_projector, fail_value)))
     exact("nonlinear paired maps differ upstairs", pass_value != fail_value)
 
-    wave3 = next(row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION")
+    wave3 = next((row for row in campaign["waves"] if row["id"] == "ECW3-G4-OBSERVATION"), None)
+    if wave3 is None:
+        raise AssertionError("campaign is missing the Wave 3 observation row")
     gate = campaign["third_lane_promotion_gate"]
     exact("campaign remains ready while ECW3A records a partial result", wave3["status"] == registry["wave_disposition"]["campaign_status"] and wave3["result"]["status_boundary"] == "DECISIVE_FINITE_MAP_AND_LEAKAGE_GATE_ONLY__ACTUAL_Y14_FUNCTOR_OPEN")
     exact("campaign points to the ECW3A registry", wave3["result"]["registry"] == "lab/process/eric-curt-wave3a-observation-dual-leakage.json")

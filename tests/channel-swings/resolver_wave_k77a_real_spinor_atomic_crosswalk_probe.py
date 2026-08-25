@@ -506,7 +506,9 @@ def source_and_ledger_checks(all_left_states: dict[str, tuple[F, F, F]]) -> None
         for scope, row_ids in ledger["obligation_scopes"].items()
         for row_id in row_ids
     }
-    actual_row = next(row for row in ledger["atomic_targets"] if row["row_id"] == "up_left")
+    actual_row = next((row for row in ledger["atomic_targets"] if row["row_id"] == "up_left"), None)
+    if actual_row is None:
+        raise AssertionError("atomic ledger is missing the up_left row")
     failed_gate = ledger["coherence_policy"]["inherited_gate_ids"][2]
     challenged_row = {
         **actual_row,

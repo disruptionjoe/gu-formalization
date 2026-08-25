@@ -259,7 +259,10 @@ def main() -> int:
         (ROOT / "lab/process/eric-curt-ten-wave-campaign.json").read_text(),
         object_pairs_hook=unique_object,
     )
-    wave3 = next(wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION")
+    wave3 = next((wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION"), None)
+    if wave3 is None:
+        print("FAIL: campaign is missing the Wave 3 observation row", flush=True)
+        return 1
     wave3d = wave3["result"]["wave3d"]
     check(
         "the machine registry records the computed section and Green inertias",

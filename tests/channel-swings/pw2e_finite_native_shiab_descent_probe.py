@@ -228,8 +228,12 @@ def source_and_layer_zero() -> None:
     reject("identify Cl(7,7) and Cl(9,5) as real Clifford bundles", False)
     reject("replace trace-reversed (6,4)/(9,5) by raw Frobenius or Curt (7,7)", False)
     synthetic_source = inspect.getsource(D.build_source_t)
-    preferred_row = next(line for line in pack.splitlines() if "preferred Shiab projection" in line)
-    kappa_row = next(line for line in pack.splitlines() if "kappa_1" in line)
+    preferred_rows = [line for line in pack.splitlines() if "preferred Shiab projection" in line]
+    kappa_rows = [line for line in pack.splitlines() if "kappa_1" in line]
+    if not preferred_rows or not kappa_rows:
+        raise AssertionError("source packet must contain a preferred-projection row and a kappa_1 row")
+    preferred_row = preferred_rows[0]
+    kappa_row = kappa_rows[0]
     reject(
         "identify the synthetic source_t fixture with source T_omega",
         all(token in synthetic_source for token in ("epsilon", "varpi", "d_0")),
