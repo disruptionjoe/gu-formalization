@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Probe-authorship domain-precondition hardening wave
+
+Nine fresh L1 seams are repaired across eight probes in three independent
+packets. Four exact inverse/solve routines now name a missing pivot before
+indexing; projected-beta and orbit-support consumers require live witnesses;
+and S3 representation transport and affine evaluator fixtures require unique
+basis images, a nonempty source-case bank and consistent part cardinality.
+Orbit representatives are now selected deterministically. Successful exact
+mathematics and scientific assertions are unchanged.
+
+The repository-wide authorship ratchet falls from 107 reports across 983
+probes to 98 across 984. The coupled certificate passes 27/27 and catches all
+eight hostile missing-domain classes. Six touched probes replay wholly green.
+The S3 transport probe retains only one inherited repository-evidence pin
+failure after passing its changed logic; the larger affine evaluator passes
+its changed fixture guards and reaches the measured five-minute SymPy ceiling
+with an inherited fixed-stratum byte-pin failure. This is mechanical
+certificate hardening only: source claims, all 91 v0.263 ledger dispositions,
+action ownership, SG4, predictions, confirmations, papers, canon, release
+readiness and public posture remain unchanged. See
+`explorations/probe-authorship-domain-precondition-wave-2026-08-25.md`.
+
 ## 2026-08-25 — Semantic-integrity typed-object custody wave
 
 All 46 typed-object declaration reds are closed across fifteen existing

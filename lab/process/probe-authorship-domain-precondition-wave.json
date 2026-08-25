@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_domain_precondition_wave_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 107,
+    "probe_corpus": 983,
+    "baseline": 107
+  },
+  "after": {
+    "violations": 98,
+    "probe_corpus": 984,
+    "baseline": 98,
+    "repaired_violations": 9
+  },
+  "repair_packets": [
+    {
+      "id": "EXACT_LINEAR_SOLVER_DOMAIN",
+      "result": "HARDENED",
+      "repaired_violations": 4,
+      "paths": [
+        "tests/channel-swings/h1_exhaustiveness_probe.py",
+        "tests/channel-swings/h4_class_generalization_probe.py",
+        "tests/channel-swings/joe_directed_cb4_h210_ps_observer_typing_probe.py",
+        "tests/channel-swings/eric_curt_wave3d_b2c7_two_connection_somatic_obstruction_probe.py"
+      ]
+    },
+    {
+      "id": "SOURCE_AND_ORBIT_WITNESS_DOMAIN",
+      "result": "HARDENED",
+      "repaired_violations": 3,
+      "paths": [
+        "tests/channel-swings/pw1_source_native_real_form_superig_probe.py",
+        "tests/channel-swings/nguyen_c1c2_real_form_probe.py"
+      ]
+    },
+    {
+      "id": "REPRESENTATION_AND_FIXTURE_DOMAIN",
+      "result": "HARDENED",
+      "repaired_violations": 2,
+      "paths": [
+        "tests/channel-swings/pw2fr2b2b2i1_s3_geometric_transport_probe.py",
+        "tests/channel-swings/pw2fr2b2b2i2_affine_first_size3_full_evaluator_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 8,
+    "caught": 8,
+    "classes": [
+      "singular_exact_matrix",
+      "missing_projected_beta_component",
+      "missing_projected_beta_entry",
+      "empty_orbit_support",
+      "missing_representation_image",
+      "duplicate_representation_image",
+      "empty_source_case_bank",
+      "inconsistent_source_case_parts"
+    ]
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; repair residual L1/L2 debt only through another semantically reviewed nonoverlapping cohort."
+}

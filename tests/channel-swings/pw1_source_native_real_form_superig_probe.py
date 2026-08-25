@@ -359,8 +359,12 @@ def main() -> None:
     checks += 2
 
     # Logical owner-independence plant: algebraic closure cannot imply a Ward identity.
-    live = next(component for component in projected_beta if not is_zero(component))
-    live_entry = next(value for value in list(live) if value != 0)
+    live_components = [component for component in projected_beta if not is_zero(component)]
+    assert live_components, "projected beta has no live component for the owner-independence plant"
+    live = live_components[0]
+    live_entries = [value for value in list(live) if value != 0]
+    assert live_entries, "selected projected-beta component has no live entry"
+    live_entry = live_entries[0]
     owner_independence_plant = sp.simplify(live_entry / 2)
     assert owner_independence_plant != 0
     checks += 1

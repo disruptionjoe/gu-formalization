@@ -51,7 +51,9 @@ def inverse(a):
     n = len(a)
     aug = [list(row) + unit for row, unit in zip(a, eye(n))]
     for col in range(n):
-        pivot = next(row for row in range(col, n) if aug[row][col])
+        pivots = [row for row in range(col, n) if aug[row][col]]
+        assert pivots, f"singular exact matrix: no pivot in column {col}"
+        pivot = pivots[0]
         aug[col], aug[pivot] = aug[pivot], aug[col]
         scale = aug[col][col]
         aug[col] = [value / scale for value in aug[col]]

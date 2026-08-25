@@ -276,7 +276,10 @@ def main() -> int:
         "action": 0,
     }
     affine_wrong_forward_rejected = False
-    part_count = len(next(iter(source_cases.values()))["parts"])
+    assert source_cases, "affine evaluator source-case bank is empty"
+    part_counts = {len(case["parts"]) for case in source_cases.values()}
+    assert len(part_counts) == 1, f"affine evaluator source cases disagree on part count: {part_counts}"
+    part_count, = part_counts
     for generator_name, base_action in I1.GENERATORS.items():
         owner_map, owner_representation = I1.owner_action(base_action)
         action14 = I1.frame_action(base_action, owner_representation)

@@ -489,7 +489,8 @@ def in_span(orbit_basis, target_sp, n):
     T = {(target_sp.perm[j], j): target_sp.sign[j] for j in range(n)}
     covered = {}
     for M in orbit_basis:
-        pos = next(iter(M))
+        assert M, "orbit-basis element has empty support"
+        pos = min(M)
         c = T.get(pos, 0) * M[pos]          # entries are +-1
         if c:
             for p, v in M.items():

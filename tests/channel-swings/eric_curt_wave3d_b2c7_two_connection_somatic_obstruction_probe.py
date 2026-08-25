@@ -140,7 +140,9 @@ def gaussian_solve(matrix, vector):
     augmented = [list(row) + [vector[i]] for i, row in enumerate(matrix)]
     n = len(augmented)
     for column in range(n):
-        pivot = next(row for row in range(column, n) if augmented[row][column] != 0)
+        pivots = [row for row in range(column, n) if augmented[row][column] != 0]
+        assert pivots, f"singular exact system: no pivot in column {column}"
+        pivot = pivots[0]
         augmented[column], augmented[pivot] = augmented[pivot], augmented[column]
         pivot_value = augmented[column][column]
         augmented[column] = [entry / pivot_value for entry in augmented[column]]

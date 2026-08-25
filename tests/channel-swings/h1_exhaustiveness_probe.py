@@ -123,7 +123,9 @@ def matinv(a):
     aug = [list(row) + [Fr(1) if i == j else Fr(0) for j in range(n)]
            for i, row in enumerate(a)]
     for col in range(n):
-        piv = next(r for r in range(col, n) if aug[r][col] != 0)
+        pivots = [r for r in range(col, n) if aug[r][col] != 0]
+        assert pivots, f"singular exact matrix: no pivot in column {col}"
+        piv = pivots[0]
         aug[col], aug[piv] = aug[piv], aug[col]
         pv = aug[col][col]
         aug[col] = [x / pv for x in aug[col]]

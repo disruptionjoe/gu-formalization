@@ -193,7 +193,11 @@ def owner_action(base_action: sp.Matrix) -> tuple[tuple[int, ...], sp.Matrix]:
     representation = sp.zeros(10)
     for source, owner in enumerate(SYM2):
         moved = sp.simplify(base_action.T * owner * base_action)
-        target = next(index for index, basis in enumerate(SYM2) if moved == basis)
+        targets = [index for index, basis in enumerate(SYM2) if moved == basis]
+        assert len(targets) == 1, (
+            f"owner basis is not closed uniquely under the base action: source={source}, targets={targets}"
+        )
+        target = targets[0]
         owner_map.append(target)
         representation[target, source] = 1
     return tuple(owner_map), representation
@@ -492,7 +496,7 @@ def finite_action_gate() -> dict[str, object]:
     remaining = set(all_cells)
     orbit_sizes = []
     while remaining:
-        seed = next(iter(remaining))
+        seed = min(remaining)
         orbit = {grid_action(element, seed) for element in group}
         remaining.difference_update(orbit)
         orbit_sizes.append(len(orbit))
