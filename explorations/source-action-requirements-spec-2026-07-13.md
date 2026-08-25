@@ -65,7 +65,7 @@ Composite items are split into lettered sub-rows so each row has exactly one cla
 
 | ID | Requirement | Class | Source artifact | Test |
 |---|---|---|---|---|
-| SA-Y1 | The Higgs carrier MUST be a form carrier Lambda^k(V14). Non-form carriers (e.g. Sym^2_0 V, dim 104) have dim Hom = 0: no Yukawa channel exists, exactly (checksum saturation of End(S) by forms). k = 0 is the unique mass-type (Dirac-Yukawa) channel, cross-chirality only; Majorana scalar on S+ x S+ is forbidden (SHIAB-05). | FORCED | explorations/yukawa-scoping-2026-07-13.md (Perspective 1, channel table); canon/shiab-existence-cl95.md | tests/yukawa-scoping/yukawa_trilinear_channels.py (20/20, exit 0) |
+| SA-Y1 | The Higgs carrier MUST be a form carrier Lambda^k(V14). Non-form carriers (e.g. Sym^2_0 V, dim 104) have dim Hom = 0: no Yukawa channel exists, exactly (checksum saturation of End(S) by forms). k = 0 is the unique bare mass-type (Dirac-Yukawa) channel, cross-chirality only; the bare zero-insertion Majorana scalar on S+ x S+ is absent (SHIAB-05), while odd class-2 insertions lie outside that Hom computation. | FORCED at the bare-channel scope | explorations/yukawa-scoping-2026-07-13.md (Perspective 1, channel table); canon/shiab-existence-cl95.md | tests/yukawa-scoping/yukawa_trilinear_channels.py (20/20, exit 0) |
 | SA-Y2 | WHICH Lambda^k the physical Higgs sits in (k = 0 for mass generation), plus which texture fork the physical Yukawa uses (charges-add / transpose-bilinear C channel giving the 1+2 block, vs charges-subtract / Krein sesquilinear giving diagonal). | DECLARATION | yukawa-scoping-2026-07-13.md (Perspectives 1-2; both forks computed) | same |
 | SA-Y3 | The Higgs vev (the scale multiplying the unique channel). | FIT | yukawa-scoping-2026-07-13.md ("what the source action must supply" (i)) | -- |
 | SA-Y4 | The three surviving complex couplings {y00, y12, y21} (9 -> 3 by the derived Z/3; singular values exactly {\|y00\|,\|y12\|,\|y21\|}; no forced degeneracy, ordering, or ratio). Supplied as three free numbers UNLESS SA-Y5 is taken. | FIT | yukawa-scoping-2026-07-13.md (Perspectives 2, 4) | tests/yukawa-scoping/yukawa_trilinear_channels.py |
@@ -73,7 +73,7 @@ Composite items are split into lettered sub-rows so each row has exactly one cla
 | SA-Y6 | The sector-to-flavor assignment (which Z/3 grading sector is which physical generation; identifying sector 0 with the top quark is the answer-as-premise trap, W60). | DECLARATION | yukawa-scoping-2026-07-13.md (Perspective 3) | -- |
 | SA-Y7a | The family-symmetry-breaking spurion's TYPE: forced to be a Z/3 DOUBLET spurion in Sym^2(Lambda^2_+) (Schur degeneracy of the collective pair; Sym^2 branching 2 singlets + 2 doublets; H64). | FORCED | explorations/H64-mass-selection-first-swing-2026-07-11.md | tests/W76_H64_mass_selection_swing.py (16/16, exit 0) |
 | SA-Y7b | The spurion's VALUES: split magnitude, hierarchy direction (sign), intra-collective mixing angle. Fully free, both signs, a continuum (H64: World A does not obtain). | FIT | H64-mass-selection-first-swing-2026-07-11.md | same |
-| SA-Y8 | The Majorana spurion, ONLY IF same-chirality masses are wanted: the equivariant channel is provably absent (dim Hom(S+ x S+, Lambda^0) = 0, SHIAB-05), so same-chirality mass requires an equivariance-breaking spurion the source action supplies. | DECLARATION (conditional) | canon/shiab-existence-cl95.md (SHIAB-05); yukawa-scoping-2026-07-13.md (control reproduction) | tests/yukawa-scoping/yukawa_trilinear_channels.py |
+| SA-Y8 | The supplied Majorana spurion branch, if same-chirality masses use the bare degree-zero route: `dim Hom(S+ x S+, Lambda^0) = 0` (SHIAB-05), so that bare route requires extra structure. This is not an exhaustive obstruction: odd class-2 insertions can admit nonzero pairing shapes, with action selection, reality, scale, domain and spectrum still open. | DECLARATION (conditional branch, not exhaustive) | canon/shiab-existence-cl95.md (SHIAB-05 and its corrected scope); yukawa-scoping-2026-07-13.md (control reproduction) | tests/yukawa-scoping/yukawa_trilinear_channels.py |
 
 ### Gravity / dark-energy sector (SA-G)
 
@@ -258,7 +258,8 @@ requirements. Classification of the ledger's epistemic direction:
 
 **Progressive (the object got MORE constrained; each is a theorem-grade narrowing):**
 
-- Non-form Higgs carriers eliminated; Majorana scalar channel eliminated (SA-Y1).
+- Non-form Higgs carriers eliminated; the bare degree-zero Majorana scalar
+  channel eliminated while inserted class-2 pairing shapes remain open (SA-Y1).
 - The spurion TYPE forced to a doublet (SA-Y7a).
 - Mod-3 FN engines proven sterile: the built structure cannot fake a hierarchy (inside SA-Y5).
 - The massless-RS branch eliminated (SA-U4).

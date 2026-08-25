@@ -8,6 +8,26 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Canonical-currency stale-consumer repair wave
+
+All seven known stale consumers exposed by the CC-11--CC-13 currency sweep
+are repaired across three independent semantic packets. The triplet Krein
+record now preserves the common total signature while restricting chirality-
+half nullity to odd timelike count; three SHIAB consumers preserve the bare
+degree-zero Hom zero without promoting it over odd class-2 insertions; and
+three SG4 consumers distinguish source-imported axis cardinality from measured
+non-elimination. Historical `STALE-FOUND` records remain preserved, followed
+by equal-scope clearing records, and the current five-row extension baseline
+is exactly `0/0/0/0/0`.
+
+The coupled certificate checks the seven corrected clauses, seven clearing
+records, three-packet manifest, governance fields and zero current audit state,
+and catches all seven hostile stale-scope mutations. This is semantic currency
+repair only: source claims, all 91 v0.263 ledger dispositions, action ownership,
+the open SG4 phase, predictions, confirmations, papers, canon, release
+readiness and public posture remain unchanged. See
+`explorations/conditional-build/canonical-currency-stale-consumer-repair-wave-2026-08-25.md`.
+
 ## 2026-08-25 — Probe-authorship custody hardening wave
 
 Eleven semantically reviewed crash-not-detection seams are repaired across

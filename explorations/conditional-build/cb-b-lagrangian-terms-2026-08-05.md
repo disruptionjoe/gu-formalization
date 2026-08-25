@@ -872,14 +872,16 @@ Four further things that are settled and worth stating precisely:
   sector-to-flavour is no longer a free assignment among three symmetric sectors.
   One of three is distinguishable **before** any physics input; which of the
   remaining two is which stays free (`source-action-term-by-term:155-161`).
-- **The Majorana channel is provably ABSENT from the equivariant family.**
+- **The bare degree-zero Majorana channel is provably absent.**
   `dim Hom_{Spin(9,5)}(S^+ (x) S^+, Lambda^0) = 0` exactly — the scalar
   charge-conjugation bilinear exists only off-diagonally on `S^+ <-> S^-` — with
   the hard checksum `16384 = 128^2` and all component errors `0.00e+00`
-  (`shiab-existence-cl95.md:83-84`, `SHIAB-05`). So a same-chirality Majorana
-  scalar mass **must** be supplied by an external source-action spurion, which is
-  `U10`, the twelve `sigma_A` — an **optional** branch, absent entirely on the
-  minimal no-same-chirality branch (`packet:668-695`).
+  (`shiab-existence-cl95.md:83-84`, `SHIAB-05`). This excludes only the bare
+  zero-insertion Hom domain. Odd class-2 insertions can admit nonzero pairing
+  shapes, so the computation does not prove that every same-chirality mass must
+  use an external spurion. `U10`, the twelve `sigma_A`, remains one optional
+  supplied branch; action selection, reality, scale, domain and spectrum for an
+  inserted route stay open (`packet:668-695`).
 
 > **Verdict: CHANNEL DETERMINED (unique, `dim Hom = 1`, cross-chirality, with two
 > class-exclusions banked); TEXTURE AND VALUES REQUIRE-UNKNOWN `U9` (and `U10`
@@ -891,9 +893,10 @@ Four further things that are settled and worth stating precisely:
 > with **no texture derived**. A ledger that reported this row as progress would
 > be measuring artifacts rather than residue.
 
-**T1** (named, untyped) for the texture; **T2** for the Majorana spurion (typed —
-a same-chirality scalar bilinear of specified rep-theoretic type — with the
-equivariant class exactly excluded, but no magnitude). The seesaw leg's own
+**T1** (named, untyped) for the texture; **T2** for the supplied Majorana
+spurion branch (typed — a same-chirality scalar bilinear of specified
+rep-theoretic type — with the bare degree-zero channel exactly excluded but
+inserted class-2 shapes still open, and no magnitude). The seesaw leg's own
 retrodiction gives `M_R in 1.1-6.0 x 10^14 GeV`, squarely inside the canonical
 GUT-seesaw window, but its external requirement is a GU-native `M_PS` (`M-M22`,
 unbuilt) plus a VEV in the `(10,1,3)`-type component of `Lambda^5` (channel
@@ -1198,10 +1201,12 @@ representations are dual to *each other* rather than self-dual, so the
 complexification contains no degree-zero form and the real invariant injects into
 it.
 
-> **Consequence, and it is good news for the ledger: the `SHIAB-05` exclusion is
-> FORK-ROBUST.** A same-chirality Majorana scalar mass must come from an external
-> spurion on **both** horns, so `SM-5`'s Majorana sub-row and the seesaw's
-> external requirement survive Wave K unchanged. **`VERIFIED_REPO_DISCONNECT`:**
+> **Consequence, scoped to the computed domain: the bare `SHIAB-05`
+> zero-insertion exclusion is real-form robust.** It excludes a bare
+> `Lambda^0` same-chirality scalar on both horns, but it does not exclude odd
+> class-2 insertions or prove that every Majorana mass must use an external
+> spurion. `SM-5` therefore keeps the supplied-spurion route while the inserted
+> action-owned route remains open. **`VERIFIED_REPO_DISCONNECT`:**
 > `canon/shiab-existence-cl95.md`'s `SHIAB-05`/`SHIAB-06` discussion does not cite
 > K77-A §2, so the canon still reads as if the exclusion were `(9,5)`-only. That
 > is a one-line canon repair, not a computation, and it is reported to the register

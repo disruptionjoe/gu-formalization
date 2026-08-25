@@ -110,8 +110,9 @@ exact and tilted-group robust.
    radiative mechanisms.
 3. **Whatever SG4 declares.** `canon/gu-forces-field-space-declaration-RESULTS.md`
    establishes that GU-as-stated does not force a unique completion and leaves
-   a measured 2-bit residual, and that **SG4 -- the source action's field-space
-   declaration -- is the open decider**. An SG4 completion is free to declare
+   two source-imported axes whose survival, not cardinality, was measured, and
+   that **SG4 -- the source action's field-space declaration -- is the open
+   decider**. An SG4 completion is free to declare
    fields outside the 2B table. This artifact is scoped to GU's *stated*
    content and says nothing about that freedom.
 4. **The condensate route.** See below.

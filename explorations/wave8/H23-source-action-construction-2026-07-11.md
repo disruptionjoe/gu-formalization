@@ -100,8 +100,9 @@ constructed dynamics the massive ghost **clears in the Krein sense**.
 covariant operator, not a tuned coincidence. That is exactly why it is **sign-blind**: the parity
 *pairs* generation with mirror (K-balanced eigenspaces), it does not *select*. `[P,S]=0` buys
 gravity's positivity; it does **not** buy the generation count. This matches the canon fence
-verbatim (`{K,chi}=0 forces Re tr(chi Pi_+)=0`; SHIAB-05: the same-chirality Majorana channel is
-absent from the equivariant family). **Generation count stays OPEN** -- no chiral selection is
+verbatim (`{K,chi}=0 forces Re tr(chi Pi_+)=0`; SHIAB-05: the bare
+degree-zero same-chirality Majorana channel is absent). Odd class-2 insertions
+are outside that Hom computation and remain open. **Generation count stays OPEN** -- no chiral selection is
 manufactured here, and any that appeared would be the p-hacking the program has avoided.
 
 ### (D) The IDENTIFICATION is NOT forced -- a codimension-8165 soldering
@@ -141,7 +142,7 @@ its overall normalization free. So `mu_DW` stays exactly where H24/H25 left it: 
 | spin-lift map `so(9,5) -> End_H(S)` | exact homomorphism, unique canonical lift | **CONSTRUCTED** (residual 0) |
 | gauge group real form | non-compact `Sp(32,32;H)`, `beta_S` sig `(64,64)` | **CONSTRUCTED**; sharpens canon "Sp(64)" |
 | `[P,S]=0` (positivity) | `M_D` Krein-self-adjoint, `K M_D = M_D^dag K` | **HOLDS** (residual 0), but **sign-blind** |
-| chiral selection / generation count | absent from covariant family | **OPEN** (unchanged; canon fence) |
+| chiral selection / generation count | absent from the bare degree-zero channel; inserted class-2 routes open | **OPEN** (unchanged; canon fence) |
 | `A = spin-lift(grad^gimmel)` identification | codim-8165 soldering, not forced by kinematics or by `S=|theta|^2` | **NOT FORCED** (structural postulate) |
 | `mu_DW` scale | dimensionless ratio fixed (H25); dimensionful scale free | **NOT FIXED** |
 

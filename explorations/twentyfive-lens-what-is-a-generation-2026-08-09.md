@@ -61,10 +61,12 @@ Not assumptions. These are computed and in canon:
   `−11.25`, spread `1.7e-13`). A generation is a `(3,2)` of `su(2)₊ × su(2)₋` tensored with
   `16 + 16̄`; `192 = 3·2·32`. **The generation structure lives in a spin-1 sector** — not spin-0,
   not spin-½.
-- Restricted to that sector the Krein form has signature **exactly `(+96, −96, 0)`** in `(9,5)`,
-  `(7,7)` and `(14,0)` alike, with each chirality half **totally null**
-  (`‖K(+,+)‖ ≈ ‖K(−,−)‖ ≈ 1.8e-14`). The form pairs a generation *only* with its mirror.
-  `96 = 3 (SU(2)₊) × 2 (SU(2)₋) × 16`.
+- Restricted to that sector the Krein form has total signature **exactly
+  `(+96, −96, 0)`** in `(9,5)`, `(7,7)` and `(14,0)` alike. The chirality
+  halves are totally null and cross-paired in the odd-`q` `(9,5)` and `(7,7)`
+  signatures (`{K,chi}=0`), but the Euclidean `(14,0)` control has definite
+  opposite halves. Thus the mirror-pair reading is licensed only on the two
+  odd-`q` branches. `96 = 3 (SU(2)₊) × 2 (SU(2)₋) × 16`.
 - **Net chiral asymmetry is identically zero**, every signature, real and quaternionic. Every
   maximal positive-norm subspace is 50/50. That is a theorem, not a gap.
 - **Quaternionic-parity wall (C-07).** Every GU-native primitive commutes with `J_quat`, residual
@@ -108,7 +110,8 @@ one odd route among many; it is the canonical one.**
 inference. **High/medium.**
 
 **3. Krein-space / ghost-parity physicist. — *A generation is the surviving half of a mirror pair.***
-The honest reading of `(+96, −96, 0)` with totally null halves is that the geometry hands you
+On the odd-`q` `(9,5)` and `(7,7)` branches, the honest reading of
+`(+96, −96, 0)` with totally null halves is that the geometry hands you
 **six**, in three mirror pairs, with a form that pairs each generation *only* with its mirror. A
 generation has no length of its own, only a pairing with its twin. Under the granted source action a
 ghost parity `Z₂` (the symmetry swapping generation ↔ mirror) commutes with the dynamics, and the
@@ -380,8 +383,11 @@ is the router, and the external datum is the shard count* (lens 21). It gets all
 suppliers, and the reason for the internal impossibility into one clause a physicist and an
 infrastructure engineer would both accept.
 
-**The best reframe is lens 12's.** The geometry's own answer to "how many" is **six, in three mirror
-pairs** — that is what `(+96, −96, 0)` with totally null halves says. We have been asking "why
+**The best reframe is lens 12's on the odd-`q` branches.** The geometry's own
+answer to "how many" there is **six, in three mirror pairs** — that is what
+`(+96, −96, 0)` with totally null halves says in `(9,5)` and `(7,7)`. The
+Euclidean `(14,0)` control has definite opposite chirality halves and does not
+support that reading. We have been asking "why
 three?" when the better-posed question is **"why does exactly one of each pair render, and who
 decides?"** The second question has a named answer (the source action, via ghost parity) and the
 first does not.

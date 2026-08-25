@@ -37,8 +37,9 @@ IDS = (
     "CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE",
 )
 EXPECTED_COUNTS = dict(zip(IDS, (10, 29, 4, 6, 3)))
-EXPECTED_BASELINES = dict(zip(IDS, (1, 3, 3, 0, 0)))
-EXPECTED_STALE = {
+EXPECTED_CURRENT_COUNTS = dict(zip(IDS, (9, 29, 1, 6, 3)))
+EXPECTED_BASELINES = dict(zip(IDS, (0, 0, 0, 0, 0)))
+EXPECTED_HISTORICAL_STALE = {
     IDS[0]: {"explorations/twentyfive-lens-what-is-a-generation-2026-08-09.md"},
     IDS[1]: {
         "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md",
@@ -53,6 +54,7 @@ EXPECTED_STALE = {
     IDS[3]: set(),
     IDS[4]: set(),
 }
+EXPECTED_CURRENT_STALE = {cid: set() for cid in IDS}
 
 
 def _load_audit():
@@ -104,8 +106,8 @@ def validate_static(state: dict) -> list[str]:
         if len(selected) != EXPECTED_COUNTS[cid]:
             failures.append(f"{cid} sidecar count {len(selected)} != {EXPECTED_COUNTS[cid]}")
         stale = {str(c.get("file")) for c in selected if c.get("verdict") == "STALE-FOUND"}
-        if stale != EXPECTED_STALE[cid]:
-            failures.append(f"{cid} stale partition changed")
+        if stale != EXPECTED_HISTORICAL_STALE[cid]:
+            failures.append(f"{cid} historical stale partition changed")
         for c in selected:
             if c.get("verdict") == "STALE-FOUND" and c.get("pointer") != EVIDENCE.relative_to(ROOT).as_posix():
                 failures.append(f"{cid} stale pointer missing for {c.get('file')}")
@@ -137,7 +139,7 @@ def validate_static(state: dict) -> list[str]:
         failures.append("RS-WAVE-SERIES activation lost the empty-root/reopen contract")
 
     summary = str((state["current"].get("current_result") or {}).get("summary", ""))
-    if "52 exact pre-correction signature hits" not in summary or "Ratchet baselines are 1/3/3/0/0" not in summary:
+    if "52 exact pre-correction signature hits" not in summary or "current stale baselines are 0/0/0/0/0" not in summary:
         failures.append("CURRENT-STATE lacks the reconciliation summary")
     evidence = state["evidence"]
     for term in ("**52**", "**45**", "**7**", "RS-WAVE-SERIES remains ACTIVE only as a current steering guard"):
@@ -157,19 +159,18 @@ def validate_dynamic(state: dict) -> list[str]:
         for c in state["sidecar"].get("checks", [])
         if c.get("by") == WORK_ITEM
     }
-    measured: set[tuple[str, str]] = set()
     for cid in IDS:
         row = result["per"][cid]
         candidates = set(row["unchecked"] + row["known_stale"] + row["cleared"] + row["fenced"] + row["repaired"])
-        measured.update((path, cid) for path in candidates)
-        if len(candidates) != EXPECTED_COUNTS[cid] or row["unchecked"]:
-            failures.append(f"{cid} candidate census/unadjudicated set changed")
-        if set(row["known_stale"]) != EXPECTED_STALE[cid]:
-            failures.append(f"{cid} audit stale set changed")
+        if len(candidates) != EXPECTED_CURRENT_COUNTS[cid] or row["unchecked"]:
+            failures.append(f"{cid} current candidate census/unadjudicated set changed")
+        if set(row["known_stale"]) != EXPECTED_CURRENT_STALE[cid]:
+            failures.append(f"{cid} current audit stale set changed")
         if row["baseline"] != EXPECTED_BASELINES[cid]:
             failures.append(f"{cid} computed baseline changed")
-    if measured != recorded:
-        failures.append("measured candidate pairs differ from stewardship sidecar pairs")
+    # The original 52-pair sidecar remains historical custody. Repairs may
+    # remove stale language from the signature's current hit set, so current
+    # measured pairs are intentionally not required to equal that old census.
 
     run = subprocess.run([sys.executable, str(CT5)], cwd=ROOT, text=True, capture_output=True)
     if run.returncode != 0 or "70/70 checks pass" not in run.stdout:
@@ -232,8 +233,8 @@ def main() -> int:
         for failure in failures:
             print(f"[FAIL] {failure}")
         return 1
-    print("[PASS] canonical-currency census 52/52; verdicts 45 cleared / 7 known stale")
-    print("[PASS] B2 steering and 1/3/3/0/0 ratchet baselines reconciled; CT-5 70/70")
+    print("[PASS] canonical-currency census 52/52; historical 45/7 partition preserved")
+    print("[PASS] B2 steering and current 0/0/0/0/0 stale baselines reconciled; CT-5 70/70")
     if args.selftest:
         escaped = selftest(state)
         if escaped:

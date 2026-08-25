@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "result_id": "CC1113-REPAIR-2026-08-25",
+  "status": "COMPLETE",
+  "scope": "repository semantic currency only",
+  "historical_stale_count": 7,
+  "current_stale_count": 0,
+  "packets": [
+    {
+      "correction_id": "CC-11-ODD-Q-KREIN-HALF-NULLITY",
+      "files": ["explorations/twentyfive-lens-what-is-a-generation-2026-08-09.md"],
+      "before": "half-nullity asserted across (9,5), (7,7), and (14,0)",
+      "after": "total signature preserved across all three; half-nullity restricted to odd-q, with definite Euclidean halves"
+    },
+    {
+      "correction_id": "CC-12-SHIAB-ZERO-INSERTION-SCOPE",
+      "files": [
+        "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md",
+        "explorations/source-action-requirements-spec-2026-07-13.md",
+        "explorations/wave8/H23-source-action-construction-2026-07-11.md"
+      ],
+      "before": "bare Lambda0 Hom zero promoted to an all-family external-spurion requirement",
+      "after": "bare zero retained; odd class-2 insertion shapes and their owners remain open"
+    },
+    {
+      "correction_id": "CC-13-SG4-IMPORTED-AXIS-CARDINALITY",
+      "files": [
+        "explorations/W177-build-connection-curvature-c2-2026-07-14.md",
+        "lab/active-research/joe-directed/anomaly-cancellation/ac1-rs-content-cannot-obstruct-and-anomalies-cannot-select-2026-08-14.md",
+        "lab/active-research/joe-directed/majorana-126-neutrino/mj2-no-native-126-carrier-2026-08-14.md"
+      ],
+      "before": "two-bit SG4 cardinality described as measured",
+      "after": "two axes identified as source-imported; enumeration measures non-elimination only"
+    }
+  ],
+  "protected_no_movement": [
+    "source_claims",
+    "conditional_physics_ledger_v0.263",
+    "action_ownership",
+    "sg4_phase",
+    "predictions",
+    "confirmations",
+    "canon",
+    "public_posture"
+  ],
+  "evidence": {
+    "artifact": "explorations/conditional-build/canonical-currency-stale-consumer-repair-wave-2026-08-25.md",
+    "probe": "tests/channel-swings/canonical_currency_stale_consumer_repair_wave_probe.py",
+    "sidecar_work_item": "CC1113-REPAIR-2026-08-25",
+    "expected_current_baselines": {
+      "CC-11-ODD-Q-KREIN-HALF-NULLITY": 0,
+      "CC-12-SHIAB-ZERO-INSERTION-SCOPE": 0,
+      "CC-13-SG4-IMPORTED-AXIS-CARDINALITY": 0,
+      "CC-14-SG4-OBSERVED-EPOCH-BINNING": 0,
+      "CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE": 0
+    }
+  }
+}

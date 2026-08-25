@@ -511,6 +511,16 @@ checks:
   - {file: lab/active-research/joe-directed/lens-digs/ldc-vev-selector-adjudication-2026-08-17.md, correction_id: CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
   - {file: lab/methods/gu-base-categories.md, correction_id: CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: GU-FORMALIZATION-STEWARDSHIP-2026-08-25}
 
+  # CC-11--CC-13 owner repairs, 2026-08-25. These clearing records preserve
+  # the earlier STALE-FOUND history while taking precedence at equal scope.
+  - {file: explorations/twentyfive-lens-what-is-a-generation-2026-08-09.md, correction_id: CC-11-ODD-Q-KREIN-HALF-NULLITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: CC1113-REPAIR-2026-08-25, note: 'Total signature preserved; half-nullity restricted to odd-q (9,5)/(7,7), with definite (14,0) control.'}
+  - {file: explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: CC1113-REPAIR-2026-08-25, note: 'Bare Lambda0 Hom zero preserved; inserted class-2 pairing shapes left open.'}
+  - {file: explorations/source-action-requirements-spec-2026-07-13.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: CC1113-REPAIR-2026-08-25, note: 'Requirement table now scopes the obstruction to the bare zero-insertion channel.'}
+  - {file: explorations/wave8/H23-source-action-construction-2026-07-11.md, correction_id: CC-12-SHIAB-ZERO-INSERTION-SCOPE, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: CC1113-REPAIR-2026-08-25, note: 'Bare degree-zero absence retained; broader inserted family not excluded.'}
+  - {file: explorations/W177-build-connection-curvature-c2-2026-07-14.md, correction_id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: CC1113-REPAIR-2026-08-25, note: 'Two-axis cardinality identified as source-imported; enumeration measures survival only.'}
+  - {file: lab/active-research/joe-directed/anomaly-cancellation/ac1-rs-content-cannot-obstruct-and-anomalies-cannot-select-2026-08-14.md, correction_id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: CC1113-REPAIR-2026-08-25, note: 'Selector table now distinguishes source-imported axes from measured non-elimination.'}
+  - {file: lab/active-research/joe-directed/majorana-126-neutrino/mj2-no-native-126-carrier-2026-08-14.md, correction_id: CC-13-SG4-IMPORTED-AXIS-CARDINALITY, verdict: CLEARED-CONSISTENT, date: '2026-08-25', by: CC1113-REPAIR-2026-08-25, note: 'SG4 residual wording now states imported axes and measured survival.'}
+
 # -------------------------------------------------------------------------
 # RATCHET BASELINE.  Per correction: the dirty count measured when the
 # correction's 7-day grace period is armed.  The gate is RED if the dirty count
@@ -539,8 +549,8 @@ ratchet:
     CC-08-DARK-PARTNER-OBLIGATION: 6
     CC-09-YUKAWA-REPULSIVE-SIGN: 28
     CC-10-UCSD-EDITED-DERIVATIVE: 45
-    CC-11-ODD-Q-KREIN-HALF-NULLITY: 1
-    CC-12-SHIAB-ZERO-INSERTION-SCOPE: 3
-    CC-13-SG4-IMPORTED-AXIS-CARDINALITY: 3
+    CC-11-ODD-Q-KREIN-HALF-NULLITY: 0
+    CC-12-SHIAB-ZERO-INSERTION-SCOPE: 0
+    CC-13-SG4-IMPORTED-AXIS-CARDINALITY: 0
     CC-14-SG4-OBSERVED-EPOCH-BINNING: 0
     CC-15-SG4-ONE-WAY-CONSISTENCY-PRICE: 0

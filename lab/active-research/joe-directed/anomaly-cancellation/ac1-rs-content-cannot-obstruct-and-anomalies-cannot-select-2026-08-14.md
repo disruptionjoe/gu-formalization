@@ -56,7 +56,7 @@ much of this route it already owns:
 | the **14d local system solved wholesale** | `explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md` | rank 5 on a 15-dim content lattice, kernel dim 10, `W = 0` derived not assumed, gauge-group fork proved irrelevant to the local row |
 | **the four SM anomaly zeros of the chiral 16 (spin-1/2)** | `explorations/W222-falsify-sm-emergence-anomaly-hypercharge-2026-07-14.md`; `tests/one-residual/sm_mirror_anomaly_free.py`; `tests/W224_falsify_nielsen_ninomiya_chirality.py` | `U(1)^3 = 0`, `grav^2-U(1) = 0`, `SU(2)^2-U(1) = 0`, `SU(3)^3 = 0`; Witten `SU(2)` absent (4 doublets, even); the Pati-Salam hypercharge match |
 | the `-21 / -20 / -19` and `-42 / -40 / -38` column | `canon/carrier-bit-decision-campaign-RESULTS.md`; `canon/gamma-traceless-38-adjudication-RESULTS.md` | the carrier bit itself, at literature-fetched grade (PTZ PRD 106 (2022) 025022; Homma-Semmelmann eq (11), Prop 3.1(i); Bilal eq 11.47; Baer-Mazzeo) |
-| "nothing routes around SG4" | `canon/exhaustiveness-by-type-RESULTS.md`; `canon/gu-forces-field-space-declaration-RESULTS.md` | the decider is unique; GU-as-stated leaves a measured 2-bit SG4 residual |
+| "nothing routes around SG4" | `canon/exhaustiveness-by-type-RESULTS.md`; `canon/gu-forces-field-space-declaration-RESULTS.md` | the decider is unique; GU-as-stated leaves two source-imported SG4 axes, and the enumeration measures only that neither is eliminated |
 | "an anomaly/GS carrier is not a source-action selector" | `absorbed/gu-source-action/ANOMALY-GREEN-SCHWARZ-CARRIER-PACKET-2026-07-05.md` | "No closedness is earned" for the anomaly/GS carrier channel |
 
 **Honest accounting: roughly 40% of this route was already owned.** In

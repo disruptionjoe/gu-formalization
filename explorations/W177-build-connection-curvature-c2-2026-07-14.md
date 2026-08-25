@@ -4,7 +4,7 @@ label: W177
 status: exploration (W177 / BUILD-CURVATURE; 5-perspective inline team; one deterministic test 17/17 exit 0; the coherence-first build of W173's residual object)
 created: 2026-07-14
 branch: "Team W177 (BUILD-CURVATURE): build the connection-curvature 2-form F_A of the W131 Y14 connection algebraically (Cl(9,5) rep-theory + ker-Gamma), and determine whether it closes the secondary constraint C2 = Gamma.M_D.Pi_RS (=155.36) by selecting a distinguished null plane."
-title: "W177 VERDICT: DOES-NOT-CLOSE-C2 (needs external non-metric datum). The connection-curvature 2-form F_A of the W131 gimmel Levi-Civita connection is BUILT at a curved point of Y14 = Met(X4) (Riemann curvature, frame-projected, lifted to the Cl(9,5) rep), is nonzero (||Omega|| = 8.12: Y14 is genuinely curved), and is so(9,5)-VALUED (the fully-lowered frame curvature Omega_ab is antisymmetric to finite-diff precision 3.9e-7; the holonomy algebra sits in so(9,5)). BECAUSE it is so(9,5)-valued it inherits W131's exact leakage theorem: [F_A, Pi] = 0 and Gamma F_A Pi = 0 (leakage-free, numeric witness 2e-6, EXACT for all so(9,5) generators to 3e-14). C2 = Gamma.M_D.Pi_RS is Gamma-INDEPENDENT (its residual against Gamma equals its full norm 155.36) -- i.e. transverse to the so(9,5) action -- so NO metric-compatible curvature dressing can move it: dressing C2 by the curvature holonomy exp(t F_A) leaves the Gamma-independent residual at O(155) for all t (never approaches 0), reproducing bicomplex's 'C2 survives and grows under every carrier' now for the ACTUAL curvature, not a-priori named connections. F_A also does NOT select a distinguished null plane: it treats the 4 fiber-timelike directions symmetrically (curvature-charge relative spread 0.12) in a base(1)+fiber(4) pattern, so it does not break the 5-fold null-pair symmetry to one plane -> it does NOT force the SG4 carrier declaration (A vs B). The object C2 needs is a SYMMETRIC, NON-metric datum outside so(9,5) (W131's C3b protection boundary: eta.II_sym is not antisymmetric; such an insert DOES leak, 10.9 vs F_A's 2e-6, a 6-order separation) -- external, per the program's standing thesis. NET: the record reading (W173) is CONFIRMED-not-demoted (no GU-native geometric object pairs the mirror into a BV doublet); bar(b) stays RECORD (Krein grading OPERATIVE); the generation count stays at the measured 2-bit SG4 residual."
+title: "W177 VERDICT: DOES-NOT-CLOSE-C2 (needs external non-metric datum). The connection-curvature 2-form F_A of the W131 gimmel Levi-Civita connection is BUILT at a curved point of Y14 = Met(X4) (Riemann curvature, frame-projected, lifted to the Cl(9,5) rep), is nonzero (||Omega|| = 8.12: Y14 is genuinely curved), and is so(9,5)-VALUED (the fully-lowered frame curvature Omega_ab is antisymmetric to finite-diff precision 3.9e-7; the holonomy algebra sits in so(9,5)). BECAUSE it is so(9,5)-valued it inherits W131's exact leakage theorem: [F_A, Pi] = 0 and Gamma F_A Pi = 0 (leakage-free, numeric witness 2e-6, EXACT for all so(9,5) generators to 3e-14). C2 = Gamma.M_D.Pi_RS is Gamma-INDEPENDENT (its residual against Gamma equals its full norm 155.36) -- i.e. transverse to the so(9,5) action -- so NO metric-compatible curvature dressing can move it: dressing C2 by the curvature holonomy exp(t F_A) leaves the Gamma-independent residual at O(155) (never approaches 0), reproducing bicomplex's 'C2 survives and grows under every carrier' now for the ACTUAL curvature, not a-priori named connections. F_A also does NOT select a distinguished null plane: it treats the 4 fiber-timelike directions symmetrically (curvature-charge relative spread 0.12) in a base(1)+fiber(4) pattern, so it does not break the 5-fold null-pair symmetry to one plane -> it does NOT force the SG4 carrier declaration (A vs B). The object C2 needs is a SYMMETRIC, NON-metric datum outside so(9,5) (W131's C3b protection boundary: eta.II_sym is not antisymmetric; such an insert DOES leak, 10.9 vs F_A's 2e-6, a 6-order separation) -- external, per the program's standing thesis. NET: the record reading (W173) is CONFIRMED-not-demoted (no GU-native geometric object pairs the mirror into a BV doublet); bar(b) stays RECORD (Krein grading OPERATIVE); the generation count stays at the source-imported two-axis SG4 residual whose survival, not cardinality, was measured."
 grade: "BUILT the curvature (COMPUTED: Riemann of the explicit gimmel metric at a curved Lorentzian point, frame-projected, lifted to the verified Cl(9,5)=M(64,H) rep; ||Omega||=8.12, so(9,5)-antisymmetry 3.9e-7, all finite-diff numeric witnesses at native n=4 exactly as W131 Block B/C). The DECISIVE closure result is EXACT: Gamma rho(w) Pi = 0 for every so(9,5) generator w (3e-14, reusing W131 A5), so the leakage-free property of F_A is a THEOREM (F_A in so(9,5) => cannot touch the Gamma-independent C2), the finite-diff F_A being a witness (2e-6) that the actual curvature obeys it. C2=155.3625, bare 58.7215, RS transversality 343.73 reproduced to anchor precision. STRUCTURAL for the null-plane symmetry (numeric charges, one curved point). ARGUED for the field-space non-forcing (rests on the null-plane symmetry + the leakage theorem). No canon / claim-status / verdict / posture change. The mirror being a record stays OPEN exactly as far as the Y14 source-action is unbuilt; this wave removes ONE candidate closer (the metric-compatible curvature) and confirms the external-source thesis on that candidate."
 depends_on:
   - explorations/W173-brst-cohomology-mirror-sector-2026-07-14.md
@@ -50,7 +50,8 @@ the ker-Gamma record sector by the constant equivariant projector Pi.
 secondary Velo-Zwanziger-type constraint isolated by `bv-bicomplex`. "Closes C2" = the curvature
 selects a **distinguished null plane / spectral section** that drives C2 to 0 on the physical sector,
 which would either (i) pair `(generation, mirror)` into a BV doublet (demote the mirror to REDUNDANCY),
-or (ii) fix the field-space declaration (carrier A vs B, the 2-bit SG4 residual).
+or (ii) fix the field-space declaration (carrier A vs B, the source-imported
+two-axis SG4 residual whose survival the enumeration measured).
 
 ## 1. Perspective 1 -- Cl(9,5) rep-theory: F_A on the record bundle, and the leakage theorem
 
@@ -92,8 +93,10 @@ curvature "charge" coupling each of the 5 frame-timelike directions: a **base(1)
 the 4 fiber-timelike charges near-equal (`[2.14, 1.76, 2.49, 2.20]`, relative spread 0.12) and the base
 one distinct (0.976). The curvature distinguishes base-time from fiber-time (the product structure), but
 does **not single out ONE null plane** among the fiber directions. So it cannot supply the single
-distinguished null plane C2 needs, and it does not force the SG4 carrier declaration (N2): the measured
-2-bit SG4 residual (`canon/gu-forces-field-space-declaration`, B-leaning) survives.
+distinguished null plane C2 needs, and it does not force the SG4 carrier
+declaration (N2): both source-imported axes survive the enumeration
+(`canon/gu-forces-field-space-declaration`, B-leaning), without either axis's
+cardinality being measured.
 
 ## 4. Perspective 4 -- symbolic engineer: the test, controls, exit code
 
@@ -148,16 +151,18 @@ the metric-native side is now exhausted on this candidate; the decision remains 
   so(9,5) generators, 3e-14), and C2 is Gamma-independent, so every curvature dressing leaves C2's
   residual at O(155) (never 0). No BV doublet pairing is supplied: **the mirror is NOT demoted.**
 - **It does not force the field-space declaration.** F_A treats the 4 fiber-timelike directions
-  symmetrically (spread 0.12), selecting no distinguished null plane; the 2-bit SG4 carrier residual
-  (A vs B) survives.
+  symmetrically (spread 0.12), selecting no distinguished null plane; both
+  source-imported SG4 axes (A vs B) survive.
 
 **Which declaration does it select?** None. The metric-compatible curvature is symmetric across the null
-pairs; it neither picks carrier A nor B. The SG4 residual stays as `gu-forces-field-space-declaration`
-measured it (B-leaning, not forced).
+pairs; it neither picks carrier A nor B. The SG4 residual stays as
+`gu-forces-field-space-declaration` records it: two source-imported axes whose
+survival is measured, B-leaning but not forced.
 
 **Effect on `bar(b)` and the generation count.** `bar(b)` stays **RECORD** (Krein grading OPERATIVE):
 W177 confirms W173's lean by removing the only GU-native geometric object that could have demoted the
-mirror to redundancy. The generation count is unchanged -- it stays at the measured 2-bit SG4 residual;
+mirror to redundancy. The generation count is unchanged -- it stays at the
+source-imported two-axis SG4 residual whose survival, not cardinality, is measured;
 the curvature does not supply the boundary datum that would fix it. Both remain jointly relocated onto the
 same external, non-metric spectral section, precisely the program's standing external-source thesis, now
 with the metric-native candidate exhausted.
