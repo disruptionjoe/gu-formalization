@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Observed-positivity and dark-partner currency wave
+
+The complete aged `CC-02-OBSERVED-POSITIVITY-OPEN` and
+`CC-08-DARK-PARTNER-OBLIGATION` dirty cohorts are adjudicated across fifteen
+documents. All eleven apparent positivity conflicts bind narrower objects:
+an asymptotic-freedom coupling sign, tree/loop metric, collision wall,
+standard Tomita--Takesaki construction, or SUSY positive-Hilbert control. None
+turns the source-attested ambient indefinite Killing/Krein structure into a
+source disavowal of positivity on a future observed physical quotient.
+
+All four dark-partner candidates likewise preserve source-named
+Looking-Glass/dark-spinorial content or use “defect term” for a
+representation-theoretic summand. They keep physical placement, quotient and
+decoupling as obligations rather than calling the 128 remainder an established
+defect of the construction. No consumer edit is required. Exact sidecar
+records lower the two dirty counts from `11/4` to `0/0`, reduce the total live
+dirty queue from `174` to `159`, and raise cleared pairs from `75` to `90`.
+The coupled certificate catches all eighteen missing, duplicate, wrong-verdict
+and wrong-correction hostile mutations. No source claim, scientific verdict,
+action owner, ledger row, SG4 phase, prediction, confirmation, canon verdict,
+paper, release readiness or public posture moves.
+
 ## 2026-08-25 — Canonical-currency aged-cohort route-switch wave
 
 The complete nine-document aged CC-03, CC-04 and CC-07 dirty cohort is now
