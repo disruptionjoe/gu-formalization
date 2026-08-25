@@ -111,7 +111,7 @@ check("pointer", "LANES points to both v0.233 surfaces",
       "conditional-physics-ledger-v0.233.json" in lanes
       and "conditional-physics-ledger-v0.233.md" in lanes)
 check("pointer", "NEXT-STEPS exposes the exhausted minimal family",
-      "MINIMAL COVARIANT-REDUCTION ACTION OWNERSHIP" in next_steps
+      "MINIMAL COVARIANT-REDUCTION ACTION OWNERSHIP" in " ".join(next_steps.split())
       and "zero-surplus" in next_steps and "nonlinear source-action" in next_steps)
 
 required = [

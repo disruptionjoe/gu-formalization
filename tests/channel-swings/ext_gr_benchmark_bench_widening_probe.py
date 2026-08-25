@@ -108,7 +108,9 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("GU-COMPARATOR-ROUTING-CLASSIFICATION: BRIDGE_OR_SEMANTIC_BOUNDARY" in result, "routing class")
     check("```gu-typed-objects" in result, "typed objects")
     check("7-0" in result, "council disposition recorded")
-    check("does not exist" in result or "which does not exist" in result, "PPN discharge ceiling in doc")
+    check("does not exist" in " ".join(result.split())
+          or "which does not exist" in " ".join(result.split()),
+          "PPN discharge ceiling in doc")
     check("MISSING_CONSTRUCTION" in result, "realization obligation in doc")
     for phrase in FORBIDDEN_SUMMARY_GRAMMAR:
         check(phrase not in result, f"forbidden grammar absent: {phrase}")

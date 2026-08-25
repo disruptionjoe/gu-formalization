@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Probe-authorship wrapped-prose closure, 2026-08-25.** All 28 remaining
+wrapped-prose false-negative seams are repaired across four historical-ledger
+and twelve live scientific/control probes. The repository-wide lint now finds
+zero L4 violations and the ratchet is lowered from 233 to 205 residual L1/L2
+violations across 973 probes. The coupled certificate catches 5/5 hostile
+mutations. Ten touched probes replay green; six retain only inherited branch-
+currency fixture failures and add no new failure. This hardens detector
+behavior without moving source claims, ledger rows, SG4, predictions,
+confirmations, canon, release or public posture. See
+`explorations/conditional-build/probe-authorship-wrapped-prose-closure-2026-08-25.md`.
+
 **Current-frontier probe-authorship hardening, 2026-08-25.** Twenty mechanical
 failure-detector defects are repaired across the live propagation cohort:
 missing-row lookups now fail under controlled checks, wrapped prose is

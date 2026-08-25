@@ -205,7 +205,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     # moved past D4 to D6 or beyond, never back to D4.
     check("D6" in reverse["next_demand"] or "QUEUE_EMPTY" in reverse["next_demand"],
           "reverse packet selects D6 next")
-    check("D4" in state and "already lands in the observed" in state, "current state records D4 split")
+    check("D4" in state and "already lands in the observed" in " ".join(state.split()),
+          "current state records D4 split")
     check("LT-GR8 D4" in next_steps, "next steps records D4")
     items = {item["id"]: item for item in agenda["work_items"]}
     check("D6" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"], "agenda selects D6 next")

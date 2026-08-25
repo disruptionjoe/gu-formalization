@@ -36,7 +36,8 @@ check("source", "canon types the reconstructed spinor map Omega2(S) to Omega1(S)
 check("source", "the 2021 draft path is adjoint-valued Omega2 to Omega13", "candidate `Omega2(ad) -> Omega13(ad)` Shiab" in k77b)
 check("source", "the UCSD spinor symbol is hosted but underdefined", "source_hosted_but_underdefined" in ucsd and "Omega^2(Y^14; E) -> Omega^1(Y^14; E)" in ucsd)
 check("source", "W125 explicitly builds contract minus one-sixth wedge as T3", "contract - (1/6) wedge" in w125)
-check("source", "SA-C2 distinguishes the projector and analytic-template fork", "g = 1 kinematic projector" in spec and "F-analytic" in spec)
+check("source", "SA-C2 distinguishes the projector and analytic-template fork",
+      "g = 1 kinematic projector" in " ".join(spec.split()) and "F-analytic" in spec)
 check("type", "spinor map adjoint map projector and analytic vertex are not one typed object", True)
 
 print("\nB. SAME SPINOR LINE, NOT SAME WHOLE CURE")

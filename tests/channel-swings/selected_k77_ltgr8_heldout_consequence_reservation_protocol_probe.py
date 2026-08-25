@@ -152,7 +152,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("GU-COMPARATOR-ROUTING" in result, "routing notice")
     check("GU-COMPARATOR-ROUTING-CLASSIFICATION: BRIDGE_OR_SEMANTIC_BOUNDARY" in result, "routing class")
     check("```gu-typed-objects" in result, "typed objects")
-    check("before any packet exists" in result, "frozen before packet")
+    check("before any packet exists" in " ".join(result.split()), "frozen before packet")
     check("INADMISSIBLE" in result or "inadmissible" in result, "inadmissibility in doc")
     check("voids prediction credit" in result, "void condition in doc")
     check("prediction candidate" in result, "success ceiling in doc")
@@ -162,7 +162,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
 
     # Workspace propagation.
     check("D6" in state and "protocol" in state, "state records D6 protocol")
-    check("D6 is complete at" in state and "must not be selected again" in state,
+    check("D6 is complete at" in " ".join(state.split())
+          and "must not be selected again" in " ".join(state.split()),
           "state forbids duplicate D6 selection")
     check("Next\n  freeze D6's single held-out consequence" not in state,
           "stale next-D6 continuation absent")

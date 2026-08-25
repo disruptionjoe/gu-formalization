@@ -89,14 +89,16 @@ check("exact", "the registry books shells but not a Q1 pole",
       and registry["result"]["q1_pole"].startswith("CONDITIONAL"))
 check("type", "the scalar-enlarged zero-field Hessian is retired as mistyped",
       "Scalar-enlarged vacuum Hessian: no new block" in view
-      and "complete Hessian" in result and "vanishes at the zero-field point" in result)
+      and "complete Hessian" in " ".join(result.split())
+      and "vanishes at the zero-field point" in " ".join(result.split()))
 check("exact", "global residue and quotient count are unchanged", new["residue"] == old["residue"])
 check("type", "external P1/P2/P3 remain unused", set(registry["external_datum"].values()) == {"UNUSED"})
 check("exact", "the human ledger reports the unchanged meter",
       "82/82" in view and "33 SAME" in view and "84 continuous" in view
       and "Quotients ranked: 4 scoped" in view)
 check("type", "the result excludes pole and full-QFT promotion",
-      "No interacting `C`, Q1 pole" in result and "on-shell numerator" in result)
+      "No interacting `C`, Q1 pole" in " ".join(result.split())
+      and "on-shell numerator" in " ".join(result.split()))
 
 check("planted", "PLANT a real shell is not a booked pole",
       registry["result"]["q1_pole"] != "PROVED_POLE")

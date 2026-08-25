@@ -106,7 +106,7 @@ check("pointer", "LANES points to both v0.232 surfaces",
       and "conditional-physics-ledger-v0.232.md" in lanes)
 check("pointer", "NEXT-STEPS exposes the BV-KT typing correction",
       "SOURCE/BV--KOSZUL--TATE EXACT SEQUENCE" in next_steps
-      and "Koszul--Tate resolves their Euler ideal" in next_steps
+      and "Koszul--Tate resolves their Euler ideal" in " ".join(next_steps.split())
       and "new action-owned" in next_steps)
 
 required = [

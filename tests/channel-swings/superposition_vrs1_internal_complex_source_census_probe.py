@@ -61,7 +61,9 @@ check("quantifier", "the natural split-orbit tangent candidate is exhausted", q[
 check("quantifier", "future action-admissible sources remain unexhausted", q["all_future_action_admissible_complex_sources_exhausted"] is False)
 check("quantifier", "H-Q* is not killed", q["intrinsic_superposition_hypothesis_killed"] is False)
 check("quantifier", "no action-owned physical J is claimed", q["current_action_owned_physical_complex_structure_constructed"] is False)
-check("quantifier", "the result states all three exhaustion levels", "Three different exhaustion claims" in result and "Every non-diagonal, nonlocal" in result)
+check("quantifier", "the result states all three exhaustion levels",
+      "Three different exhaustion claims" in " ".join(result.split())
+      and "Every non-diagonal, nonlocal" in " ".join(result.split()))
 
 print("\nC. INHERITED EXACT AND TYPE EVIDENCE")
 by_id = {family["id"]: family for family in families}

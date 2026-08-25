@@ -101,8 +101,8 @@ check("exact", "the human ledger reports the unchanged meter",
       "82/82" in view and "33 SAME" in view and "84 continuous" in view
       and "Quotients ranked: 4 scoped" in view)
 check("type", "the result excludes physical-vacuum and full-QFT promotion",
-      "not yet a physical-vacuum theorem" in result
-      and "quantum Fock-space `C`" in result)
+      "not yet a physical-vacuum theorem" in " ".join(result.split())
+      and "quantum Fock-space `C`" in " ".join(result.split()))
 
 check("planted", "PLANT background C is not full interacting C",
       registry["result"]["full_nonlinear_or_qft_c"] == "OPEN")

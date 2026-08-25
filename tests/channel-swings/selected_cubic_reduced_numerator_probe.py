@@ -183,7 +183,8 @@ check("type", "four touched rows and their migration are recorded",
       registry["ledger"]["touched_rows"] == ["LT-GR2b", "LT-GR3", "LT-GR5", "LT-SM8"])
 check("type", "source return is SOURCE-SILENT", registry["source_return"] == "SOURCE-SILENT")
 check("type", "summary refuses Q1 physical-sheet and unitarity promotion",
-      "No Q1 pole, physical-sheet placement or unitarity verdict is claimed" in result)
+      "No Q1 pole, physical-sheet placement or unitarity verdict is claimed"
+      in " ".join(result.split()))
 check("type", "hostile review carries both epistemic charges and symplectic veto",
       "summary_outruns_artifact" in review
       and "rigor_defends_superseded_or_mistyped_object" in review

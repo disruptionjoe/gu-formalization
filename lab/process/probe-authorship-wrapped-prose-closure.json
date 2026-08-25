@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_wrapped_prose_closure_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 233,
+    "probe_corpus": 972,
+    "baseline": 233
+  },
+  "after": {
+    "violations": 205,
+    "probe_corpus": 973,
+    "baseline": 205,
+    "repaired_violations": 28,
+    "remaining_wrapped_prose_violations": 0
+  },
+  "repair_packets": [
+    {
+      "id": "LEDGER_HISTORY_WRAPPED_PROSE",
+      "result": "CLOSED",
+      "paths": [
+        "tests/channel-swings/conditional_physics_ledger_v016_probe.py",
+        "tests/channel-swings/conditional_physics_ledger_v017_probe.py",
+        "tests/channel-swings/conditional_physics_ledger_v0232_probe.py",
+        "tests/channel-swings/conditional_physics_ledger_v0233_probe.py"
+      ]
+    },
+    {
+      "id": "LIVE_SCIENTIFIC_AND_CONTROL_WRAPPED_PROSE",
+      "result": "CLOSED",
+      "paths": [
+        "tests/channel-swings/ext_gr_benchmark_bench_widening_probe.py",
+        "tests/channel-swings/joe_directed_cb3_h210_source_observation_crosswalk_probe.py",
+        "tests/channel-swings/precontract_wave_0c_typed_identity_theorem_scope_probe.py",
+        "tests/channel-swings/selected_cubic_qft_threshold_numerator_probe.py",
+        "tests/channel-swings/selected_cubic_reduced_numerator_probe.py",
+        "tests/channel-swings/selected_k77_ltgr8_heldout_consequence_reservation_protocol_probe.py",
+        "tests/channel-swings/selected_k77_ltgr8_observed_boundary_carrier_typing_probe.py",
+        "tests/channel-swings/selected_k77_ltgr8_observed_stress_composition_typing_probe.py",
+        "tests/channel-swings/selected_k77_ltgr8_reverse_track_descent_r6_to_r3_probe.py",
+        "tests/channel-swings/selected_k77_sr1g_released_action_repair_ownership_exhaustion_probe.py",
+        "tests/channel-swings/source_action_spec_build_wave_currency_probe.py",
+        "tests/channel-swings/superposition_vrs1_internal_complex_source_census_probe.py"
+      ]
+    },
+    {
+      "id": "RATCHET_AND_HOSTILE_CERTIFICATE",
+      "result": "HARDENED",
+      "paths": [
+        "process_gates/probe_authorship_lint.py",
+        "tests/channel-swings/probe_authorship_wrapped_prose_closure_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 5,
+    "caught": 5,
+    "classes": [
+      "raw_result_wrapped_prose",
+      "raw_state_wrapped_prose",
+      "raw_spec_wrapped_prose",
+      "raw_register_wrapped_prose",
+      "ratchet_mismatch"
+    ]
+  },
+  "baseline_replays": {
+    "passing": 10,
+    "inherited_branch_currency_failures": 6,
+    "inherited_failure_scope": "historical pointer or superseded agenda expectations only",
+    "new_failures": 0
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; the wrapped-prose class is closed, and remaining authorship debt is L1/L2 only."
+}

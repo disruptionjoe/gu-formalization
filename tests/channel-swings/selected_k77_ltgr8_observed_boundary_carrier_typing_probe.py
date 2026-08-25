@@ -177,8 +177,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
           or "verdict unchanged" in delta["proposed_effect"]["summary"].lower(), "delta requests no verdict change")
 
     # Workspace propagation.
-    check("LT-GR8 typing step" in state or "typing step is executed" in state, "state records execution")
-    check("LT-GR8 CARRIER AND BOUNDARY TYPING" in next_steps, "next steps announcement")
+    check("LT-GR8 typing step" in " ".join(state.split())
+          or "typing step is executed" in " ".join(state.split()),
+          "state records execution")
+    check("LT-GR8 CARRIER AND BOUNDARY TYPING" in " ".join(next_steps.split()),
+          "next steps announcement")
     items = {item["id"]: item for item in agenda["work_items"]}
     check("typing step is executed" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"]
           or "typing swing is executed" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"],

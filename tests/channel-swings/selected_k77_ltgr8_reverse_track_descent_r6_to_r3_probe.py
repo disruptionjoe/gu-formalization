@@ -113,11 +113,15 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("GU-COMPARATOR-ROUTING" in result, "routing notice")
     check("GU-COMPARATOR-ROUTING-CLASSIFICATION: BRIDGE_OR_SEMANTIC_BOUNDARY" in result, "routing class")
     check("```gu-typed-objects" in result, "typed objects")
-    check("R6 -> R5 -> R4 -> R3" in result or "R6 → R5 → R4 → R3" in result
-          or "`R6 -> R5 -> R4 -> R3`" in result, "descent order in doc")
+    check("R6 -> R5 -> R4 -> R3" in " ".join(result.split())
+          or "R6 → R5 → R4 → R3" in " ".join(result.split())
+          or "`R6 -> R5 -> R4 -> R3`" in " ".join(result.split()),
+          "descent order in doc")
     check("homonym" in result, "homonym guard in doc")
-    check("a definition, not a claim" in result, "temperature is a definition")
-    check("WITHOUT demanding a global modular" in result, "one-sided KMS in doc")
+    check("a definition, not a claim" in " ".join(result.split()),
+          "temperature is a definition")
+    check("WITHOUT demanding a global modular" in " ".join(result.split()),
+          "one-sided KMS in doc")
     check("Demands, not constructions" in result or "DEMANDS, NOT CONSTRUCTIONS" in result,
           "demand-grade ceiling")
     check("remains `NEEDS`" in result or "remains NEEDS" in result, "LT-GR8 stays NEEDS")
@@ -125,7 +129,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
         check(phrase not in result, f"forbidden grammar absent: {phrase}")
 
     check("reverse track" in state and "R6" in state, "state records descent")
-    check("LT-GR8 REVERSE TRACK DESCENDS" in next_steps, "next steps announcement")
+    check("LT-GR8 REVERSE TRACK DESCENDS" in " ".join(next_steps.split()),
+          "next steps announcement")
     items = {item["id"]: item for item in agenda["work_items"]}
     check("descend" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"]
           or "descent" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"],

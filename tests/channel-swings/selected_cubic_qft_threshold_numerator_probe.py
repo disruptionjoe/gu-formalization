@@ -178,7 +178,7 @@ check("type", "the fixed-theta Hessian coefficient c is not the selected momentu
 check("type", "gauge, BV or equation-of-motion redundancy may force the numerator to vanish", True)
 check("type", "physical-sheet pole placement and H59 loop unitarity remain downstream", True)
 check("type", "the symplectic reviewer requires descent to reduced covariant phase space",
-      "reduced covariant phase space" in result
+      "reduced covariant phase space" in " ".join(result.split())
       and "Symplectic geometry" in review
       and "presymplectic characteristic kernel" in review)
 

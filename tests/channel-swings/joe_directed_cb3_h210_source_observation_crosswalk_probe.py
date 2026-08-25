@@ -112,8 +112,8 @@ def source_checks(repo: Path) -> dict[str, bool]:
         ),
         "he1 forbids renaming 144 as imposter": "Nothing here renames the imposter." in he1,
         "source predicts third-family 144 combination": (
-            "third generation will combine" in register
-            and "Pati-Salam-level unification" in register
+            "third generation will combine" in " ".join(register.split())
+            and "Pati-Salam-level unification" in " ".join(register.split())
         ),
     }
 

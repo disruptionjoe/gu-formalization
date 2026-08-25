@@ -99,7 +99,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check(before["FORCED"] == after["FORCED"], "tally arithmetic: FORCED unchanged")
     check(before["DECLARATION"] + 1 == after["DECLARATION"], "tally arithmetic: one DECLARATION")
     check(before["FIT"] + 2 == after["FIT"], "tally arithmetic: two FITs")
-    check("31 requirement rows: 8 FORCED, 10 DECLARATION, 13 FIT" in spec, "spec tallies updated")
+    check("31 requirement rows: 8 FORCED, 10 DECLARATION, 13 FIT"
+          in " ".join(spec.split()), "spec tallies updated")
     check("31 rows" in spec, "spec inline row count updated")
     check("len(TABLE) == 31" in spec_test, "spec test row assertion updated")
 

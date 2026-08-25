@@ -71,16 +71,17 @@ action_ids = re.findall(r"^- id: SC-ACT-(\d+)$", register, re.MULTILINE)
 check("census", "the registered SC-ACT family is exactly 01 through 06",
       action_ids == ["01", "02", "03", "04", "05", "06"])
 check("source", "SC-ACT-01 is the printed first bosonic action",
-      "The purely bosonic first-order action" in register
+      "The purely bosonic first-order action" in " ".join(register.split())
       and "1/3[T_omega,T_omega]" in register)
 check("source", "SC-ACT-04 is the printed residual-square second action",
       "I^B_2 = ||Upsilon^B_omega||^2" in register
       and "second-order Lagrangian" in register)
 check("source", "SC-ACT-05 is a total Euler-residual equation rather than a third action",
-      "Bosonic and fermionic variations are packaged into one total Euler residual" in register)
+      "Bosonic and fermionic variations are packaged into one total Euler residual"
+      in " ".join(register.split()))
 check("source", "SC-ACT-06 is a moduli/deformation-complex assertion rather than an action term",
-      "rich moduli of classical solutions" in register
-      and "elliptic deformation complex" in register)
+      "rich moduli of classical solutions" in " ".join(register.split())
+      and "elliptic deformation complex" in " ".join(register.split()))
 check("source", "the source reinspection finds exactly the two-layer square architecture",
       "SOURCE-CONFIRMS-TWO-LAYER-SQUARE-ARCHITECTURE" in two_layer
       and "SOURCE-DISPLAYS-BOSONIC-NORM-SQUARE" in two_layer)
@@ -171,7 +172,8 @@ check("theorem", "the checked source owns no primal constraint excluding that ra
 check("theorem", "ordinary gauge or KT descent cannot be substituted for a primal restriction",
       "KT differential" in bvkt and "declare an off-shell Euler covector zero" in bvkt)
 check("theorem", "a hypothetical total-residual norm would retain the bosonic runaway on the zero-fermion slice",
-      "Upsilon_omega = Upsilon^B_omega + Upsilon^F_omega" in register)
+      "Upsilon_omega = Upsilon^B_omega + Upsilon^F_omega"
+      in " ".join(register.split()))
 check("result", "the checked released source grammar owns no bounded repair for the embedded source-instability carrier",
       True)
 
