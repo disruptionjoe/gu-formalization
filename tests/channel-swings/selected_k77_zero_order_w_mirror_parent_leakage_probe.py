@@ -295,7 +295,11 @@ for name, preferred in (
         char0, name, char0["parents"][name], w0_basis, m0_basis,
         [preferred],
     )
-    row = next(iter(results.values()))
+    check("repo", f"{name} produces exactly one preferred-ratio result", len(results) == 1)
+    row = next(iter(results.values()), {
+        "W_to_mirror": -1,
+        "mirror_to_W": -1,
+    })
     char0_results[name] = {"preferred_ratio": str(preferred), **row}
     check("exact", f"{name} preferred-ratio W/mirror cross rank is exactly 64 in characteristic zero",
           row["W_to_mirror"] == 64 and row["mirror_to_W"] == 64)

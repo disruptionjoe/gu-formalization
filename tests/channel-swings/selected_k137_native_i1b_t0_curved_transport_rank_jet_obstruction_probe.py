@@ -51,8 +51,12 @@ for distinction in (
 
 print("\nB. EXACT GAUGE-REDUCED RANK STRATIFICATION")
 shell_rows = ns["ns"]["shell_rows"]
-a4 = next(row for row in shell_rows if row["radius_squared"] == 4)
-a121 = next(row for row in shell_rows if row["radius_squared"] == 121)
+a4_rows = [row for row in shell_rows if row["radius_squared"] == 4]
+a121_rows = [row for row in shell_rows if row["radius_squared"] == 121]
+check("shell", "the shell census contains exactly one a=4 row", len(a4_rows) == 1)
+check("shell", "the shell census contains exactly one a=121 row", len(a121_rows) == 1)
+a4 = a4_rows[0] if a4_rows else {"full_coupled_nullity": 4}
+a121 = a121_rows[0] if a121_rows else {"full_coupled_nullity": 4}
 null_quotient = ns["schur_radical_basis"].rank() - ns["gauge"].rank()
 k135 = ns["ns"]
 x = sp.sqrt(17)

@@ -294,7 +294,8 @@ def dynkin(mult):
     M = index_matrix(mult)
     off = all(M[i][j] == 0 for i in range(5) for j in range(5) if i != j)
     diag = {M[i][i] for i in range(5)}
-    return off and len(diag) == 1, next(iter(diag))
+    value = next(iter(diag), None)
+    return off and len(diag) == 1, value
 
 
 ok10, T10 = dynkin(Counter(W10))

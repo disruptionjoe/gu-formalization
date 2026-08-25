@@ -39,7 +39,11 @@ import nguyen_c1c2_real_form_probe as c12
 def load_build_structures():
     source = (TESTS / "selected_k77_induced_fermion_principal_discriminator.py").read_text()
     tree = ast.parse(source)
-    node = next(n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == "build_structures")
+    nodes = [n for n in tree.body if isinstance(n, ast.FunctionDef) and n.name == "build_structures"]
+    check("repo", "source probe exposes exactly one build_structures function", len(nodes) == 1)
+    if len(nodes) != 1:
+        raise SystemExit(1)
+    node = nodes[0]
     namespace = {
         "identity_matrix": __import__("sage.all", fromlist=["identity_matrix"]).identity_matrix,
         "matrix": matrix,

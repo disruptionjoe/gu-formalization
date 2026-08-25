@@ -93,7 +93,9 @@ check("quotient", "the five classes split as two A-null plus three A-visible",
 
 print("\nC. SHELL-NEIGHBORHOOD AND LOCAL-DOMAIN CONSEQUENCES")
 shell_rows = ns["shell_rows"]
-a4 = next(row for row in shell_rows if row["radius_squared"] == 4)
+a4_rows = [row for row in shell_rows if row["radius_squared"] == 4]
+check("shell", "the shell census contains exactly one a=4 row", len(a4_rows) == 1)
+a4 = a4_rows[0] if a4_rows else {"full_coupled_nullity": 0, "local_coupled_nullity": 0}
 check("shell", "all 27 coupled spacelike shell rows remain available", len(shell_rows) == 27)
 check("shell", "a=4 supplies non-gauge shell kernel after metric coupling",
       a4["full_coupled_nullity"] > 4 and a4["local_coupled_nullity"] > 4)

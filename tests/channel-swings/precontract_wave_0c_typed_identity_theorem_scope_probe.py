@@ -96,8 +96,10 @@ check("type", "topology quantization boundary spectra RG and fitted scales requi
 
 print("\nE. LEDGER DISPOSITION")
 ledger = json.loads(read("lab/process/conditional-physics-ledger-v0.1.json"))
-row = next(item for item in ledger["rows"] if item["id"] == "LT-SM3b")
-check("exact", "LT-SM3b is retained as over-determined but typed stale-premise", row["verdict"] == "OVER_DETERMINED" and row["reason_kind"] == "STALE_PREMISE")
+matches = [item for item in ledger["rows"] if item["id"] == "LT-SM3b"]
+check("repo", "ledger contains exactly one LT-SM3b row", len(matches) == 1)
+row = matches[0] if matches else {}
+check("exact", "LT-SM3b is retained as over-determined but typed stale-premise", row.get("verdict") == "OVER_DETERMINED" and row.get("reason_kind") == "STALE_PREMISE")
 check("type", "failure of the reconstructed pure contraction is not called failure of the adjoint source Shiab", True)
 
 print("\nCOUNTS " + " ".join(f"{k}={v}" for k,v in sorted(COUNTS.items())))

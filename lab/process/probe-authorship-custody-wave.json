@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_custody_wave_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 147,
+    "probe_corpus": 978,
+    "baseline": 147
+  },
+  "after": {
+    "violations": 136,
+    "probe_corpus": 979,
+    "baseline": 136,
+    "repaired_violations": 11
+  },
+  "repair_packets": [
+    {
+      "id": "REGISTRY_AND_SHELL_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 6,
+      "paths": [
+        "tests/channel-swings/precontract_wave_0c_typed_identity_theorem_scope_probe.py",
+        "tests/channel-swings/selected_k109_rsap_concrete_positivity_domain_owner_census_probe.py",
+        "tests/channel-swings/selected_k136_native_i1b_t0_microlocal_boundary_domain_probe.py",
+        "tests/channel-swings/selected_k137_native_i1b_t0_curved_transport_rank_jet_obstruction_probe.py"
+      ]
+    },
+    {
+      "id": "EXTRACTED_STRUCTURE_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 3,
+      "paths": [
+        "tests/channel-swings/selected_k77_w_mirror_antilinear_hq_pairing_probe.py",
+        "tests/channel-swings/selected_k77_w_mirror_trace_hq_isotropy_correction_probe.py",
+        "tests/channel-swings/joe_directed_imposter_separation_probe.py"
+      ]
+    },
+    {
+      "id": "PARTNER_AND_CARDINALITY_CUSTODY",
+      "result": "HARDENED",
+      "repaired_violations": 2,
+      "paths": [
+        "tests/channel-swings/full20_chimeric_bv_first_write_probe.py",
+        "tests/channel-swings/selected_k77_zero_order_w_mirror_parent_leakage_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 7,
+    "caught": 7,
+    "classes": [
+      "missing_registry_row",
+      "duplicate_registry_row",
+      "missing_shell_row",
+      "missing_extracted_function",
+      "missing_partner",
+      "empty_dynkin_diagonal",
+      "duplicate_preferred_result"
+    ]
+  },
+  "validation": {
+    "wholly_green_probe_count": 7,
+    "inherited_only_failures": [
+      "selected_k136_native_i1b_t0_microlocal_boundary_domain_probe.py: inherited K134/K135 replay and roadmap currency assertions",
+      "selected_k137_native_i1b_t0_curved_transport_rank_jet_obstruction_probe.py: inherited K134/K135/K136 replay and roadmap currency assertions"
+    ],
+    "selected_residual_l1": 0
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; repair residual L1/L2 debt only through another semantically reviewed nonoverlapping cohort."
+}

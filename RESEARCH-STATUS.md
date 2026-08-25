@@ -8,6 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Probe-authorship custody hardening wave
+
+Eleven semantically reviewed crash-not-detection seams are repaired across
+registry/shell identity, extracted-function custody and relational
+partner/cardinality checks. Missing or duplicate objects now reach controlled
+failures before dereference or compilation, while all successful scientific
+assertions are unchanged. The repository-wide authorship ratchet falls from
+147 reports across 978 probes to 136 across 979; the coupled certificate
+catches 7/7 hostile controls. Seven touched probes replay wholly green, while
+K136/K137 retain only their inherited predecessor/roadmap currency failures.
+
+This is mechanical certificate hardening only. Source claims and adherence,
+action ownership, all 91 v0.263 ledger dispositions, SG4, predictions,
+confirmations, papers, canon, release readiness and public posture are
+unchanged. Further authorship work requires a newly reviewed nonoverlapping
+cohort; proved-nonempty theorem iterators and immutable historical count pins
+remain outside this wave.
+
 **Probe-authorship retrieval hardening wave, 2026-08-25.** Twenty-four
 crash-not-detection seams are repaired across Eric/Curt campaign custody,
 historical ledger and source-input custody, and public-status/witness lookup.

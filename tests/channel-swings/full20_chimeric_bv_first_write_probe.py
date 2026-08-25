@@ -459,7 +459,9 @@ def validate_bv_bundle(
     assert all(coordinate.origin in ALLOWED_BV_ORIGINS for coordinate in coordinates)
     for coordinate in coordinates:
         assert coordinate.partner in names
-        partner = next(item for item in coordinates if item.name == coordinate.partner)
+        partners = [item for item in coordinates if item.name == coordinate.partner]
+        check(f"{coordinate.name} has exactly one BV partner", len(partners) == 1)
+        partner = partners[0] if partners else coordinate
         assert partner.partner == coordinate.name
         assert coordinate.dimension == partner.dimension
         assert coordinate.form + partner.form == 14

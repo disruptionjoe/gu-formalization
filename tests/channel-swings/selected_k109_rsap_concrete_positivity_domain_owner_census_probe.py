@@ -82,12 +82,14 @@ check("domain", "the observed defect domain explicitly does not prove positivity
       "does not prove positive energy" in green_text)
 check("domain", "the ultrahyperbolic restriction is explicitly not a physical closed domain",
       "not a physical\nclosed domain" in nonlocal_text)
+moving_j_rows = [row for row in vrs1["candidate_families"] if row["id"] == "CS-MOVE"]
 check("moving_j", "moving J10 remains fibrewise-only",
-      next(row for row in vrs1["candidate_families"] if row["id"] == "CS-MOVE")["status"]
-      == "NOT_YET_FALSIFIED_PARTIAL_CONSTRUCTION")
+      len(moving_j_rows) == 1
+      and moving_j_rows[0]["status"] == "NOT_YET_FALSIFIED_PARTIAL_CONSTRUCTION")
+i2_rows = [row for row in vrs1["candidate_families"] if row["id"] == "CS-I2"]
 check("i2", "I2 is typed as a differential owner rather than standalone J",
-      next(row for row in vrs1["candidate_families"] if row["id"] == "CS-I2")["status"]
-      == "RETYPED_AS_DIFFERENTIAL_OWNER__KILLED_AS_STANDALONE_J")
+      len(i2_rows) == 1
+      and i2_rows[0]["status"] == "RETYPED_AS_DIFFERENTIAL_OWNER__KILLED_AS_STANDALONE_J")
 check("composite", "the surviving composite is named but not constructed",
       vrs1["surviving_composite"]["status"] == "NOT_YET_FALSIFIED__NOT_CONSTRUCTED")
 
