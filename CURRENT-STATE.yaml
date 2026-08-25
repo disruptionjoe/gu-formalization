@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 94000957ec31ae7fb71550a49ff8426b9c046686
+revision_basis: 0c46451e9de4f8804ea18494f33ff4f742866755
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Current-frontier probe-authorship hardening repairs twenty mechanical
+    failure-detector defects across missing-row lookups, wrapped-prose checks,
+    negation-satisfiable predicates and stale historical/current assertions.
+    The repository-wide lint ratchet is now 233 residual violations across 972
+    probes, down from the entering 253/971 state and from the stale 254
+    baseline. The coupled certificate catches 4/4 hostile mutations; the
+    repaired propagation probes and exact Lie/cotangent controls pass. This is
+    detector hardening only: no source claim or adherence, scientific verdict,
+    action owner, ledger row, SG4 phase, prediction, confirmation, paper,
+    canon verdict, release readiness or public posture moves.
     B5 agenda currency now agrees with the already-published 2026-08-20--21
     independent-construction chain. RB6 exact-derivative recertification and
     the full-20 Gram-adjoint wave are complete, not live work; the graph-mixing
