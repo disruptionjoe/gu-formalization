@@ -2,11 +2,26 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-24"
+updated_at: "2026-08-25"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**SC-GEN-53 prediction-seed currency reconciliation, 2026-08-25.** The
+owner-authoritative prediction agenda no longer asks future work to repeat
+HE-1's completed complex `16`/`144` restriction. HE-1 already supplies the
+degree-two Dynkin-index separator `2` versus `34`, minimal-subgroup witness
+`max |Q| = 1` versus `2`, and the family-indexed mass-channel ladder
+`0 -> 2 -> 11`. The J5 equation-(12.22) imposter `128` remains distinct from
+the WG-P03 `144` partner sector; neither is silently transported to a physical
+Spin(6,4) carrier. `SC-GEN-53` stays `ASSERTS / PARTIAL`, and no prediction
+packet graduates because the numerical energy scale, physical observable map,
+predeclared threshold, real-form bridge and `PH-K1-PHYSICAL` carrier remain
+open. PP1, PP2 and PP3 are unchanged. No source polarity or adherence level,
+action owner, SG4 phase, ledger row, prediction, confirmation, paper, priority,
+canon or public posture moves. See
+`explorations/sc-gen53-prediction-seed-currency-reconciliation-2026-08-25.md`.
 
 **Residual source-claim typing wave, 2026-08-24.** `SC-SIG-53`, `SC-META-05`
 and `SC-GEN-52` move from `UNTYPED` to `ADHERED`; `SC-PRE-50` moves from

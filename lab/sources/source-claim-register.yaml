@@ -1914,11 +1914,16 @@ claims:
     evidence:
     - explorations/lane2-sc-gen-53-tripwire-seed-2026-08-12.md
     - explorations/portfolio-correction-wave-2026-08-12.md
-    pinned_at: DIRECT-20260812-PORTFOLIO-CORRECTION-WAVE
-    date: 2026-08-12
-    note: 'prediction research now owns a typed seed. The source supplies no energy scale,
-      invariant discriminator, observable, or predeclared threshold, and the
-      physical-carrier bridge remains open; it is not a prediction packet.'
+    - lab/active-research/joe-directed/high-energy-two-plus-one/he1-imposter-separation-invariant-2026-08-14.md
+    - explorations/sc-gen53-prediction-seed-currency-reconciliation-2026-08-25.md
+    pinned_at: sc-gen53-prediction-seed-currency-reconciliation-2026-08-25
+    date: 2026-08-25
+    note: 'Prediction research owns a typed seed and the complex-representation invariant is supplied:
+      HE-1 separates 16 from the distinct WG-P03 144 partner by Dynkin index 2 versus 34
+      and records the family-indexed mass-channel ladder 0 -> 2 -> 11. The source still
+      supplies no numerical energy scale, physical observable map, or predeclared threshold;
+      the Spin(6,4) real-form and physical-carrier bridge remain open. This is not a
+      prediction packet, and the J5 equation-12.22 imposter 128 is not renamed as the 144.'
 - id: SC-GEN-54
   polarity: ASSERTS
   claim: What fixes the effective number of generations at three is the extension of the inhomogeneous

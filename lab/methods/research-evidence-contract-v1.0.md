@@ -280,10 +280,14 @@ adds a typed canonicity-distance meter. It books no quotient: the local
 20-dimensional `J` orbit collapses only if the physical BV/action stabilizer
 acts with rank 20. Ten rank-128 transverse defects are pairwise disjoint and
 span rank 1280; v0.228 supersedes only its open mixed-boost carrier typing. Source
-claim `SC-GEN-54` is a named but unbuilt supercharge-to-three mechanism, and
-`SC-GEN-53` is a Lane-2 seed without a scale or observable. Build therefore
-owns the action/BV stabilizer and physical carrier before any count, anomaly or
-positivity promotion.
+claim `SC-GEN-54` is a named but unbuilt supercharge-to-three mechanism.
+`SC-GEN-53` remains a Lane-2 seed rather than a packet: HE-1 supplies the exact
+complex `16`/`144` representation separator and mass-channel ladder, but no
+numerical energy scale, physical observable map or predeclared threshold, and
+the Spin(6,4) real-form/physical-carrier bridge remains open. Build therefore
+owns the action/BV stabilizer and physical carrier before any count, anomaly,
+prediction or positivity promotion; the completed HE-1 restriction is not run
+again.
 
 The v0.226 action-owner comparison closes the corrected-square arithmetic on
 the constant trace-`H_q`, moving-`Q_u`, fixed-background 196-cell bank.  The
