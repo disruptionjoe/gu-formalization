@@ -12,9 +12,10 @@ process_gates/homonym_register_audit.py.  This certificate proves:
 
   LEG 1  PRIOR ART — every pre-existing surface exists with its exact row
          counts; the consolidation absorbed, it did not invent.
-  LEG 2  the register parses, the gate passes on it, and the seeded shape is
-         exactly as published (37 entries, 30/1/1/5 by kind, 37/37 receipts,
-         4 sensing blocks, 3 documented sensing refusals, 1 contrary control).
+  LEG 2  the register parses, the gate passes on it, and the append-only live
+         shape is count-pinned (41 entries, 33/1/2/5 by kind, 41/41 receipts,
+         with the original 37-entry seed preserved as the floor; 4 sensing
+         blocks, 3 documented sensing refusals, 1 contrary control).
   LEG 3  INCIDENT RE-VERIFICATION — each new entry's incident is re-checked
          against the PRIMARY artifact, not against the register's citation of
          it.  Includes the exact heading census that corrects the tasking's
@@ -189,13 +190,17 @@ def leg2_register_and_gate() -> None:
     # PIN BUMPED 2026-08-17 (third bump): +1 for the PV-1 work-item-id
     # prefix_collision the wave-3 briefs caused and DS-1 caught. The
     # deliberate two-file act, per design.
-    check(f"register has exactly 40 entries (found {len(entries)})", len(entries) == 40)
+    # PIN BUMPED 2026-08-24: +1 for SC-GRP-04's paid `10` collision, registered
+    # only after its source-typing artifact was committed at 2471a600. The
+    # defining real vector ten, complex SU(5) matter ten and GR symmetric-
+    # tensor carrier are unlike objects; this same act moves the count pin.
+    check(f"register has exactly 41 entries (found {len(entries)})", len(entries) == 41)
     kinds = {}
     for e in entries:
         kinds[e["kind"]] = kinds.get(e["kind"], 0) + 1
-    check(f"kinds: 32 homonym / 1 near_collision / 2 prefix_collision / "
+    check(f"kinds: 33 homonym / 1 near_collision / 2 prefix_collision / "
           f"5 transcription_variant (found {kinds})",
-          kinds == {"homonym": 32, "near_collision": 1,
+          kinds == {"homonym": 33, "near_collision": 1,
                     "prefix_collision": 2, "transcription_variant": 5})
     vpsb = next((e for e in entries if e.get("token") == "v_PSB"), {})
     check("v_PSB stays homonym: same token/two referents, not the "
@@ -205,13 +210,21 @@ def leg2_register_and_gate() -> None:
           vpsb.get("receipt", {}).get("incident", "")
           and "two spellings one token apart" in
           vpsb.get("receipt", {}).get("incident", ""))
-    check("receipts: 40/40 entries carry incident + paid_by",
+    ten = next((e for e in entries if e.get("token") == "10"), {})
+    check("`10` has three unlike typed senses and the commit-first receipt",
+          ten.get("kind") == "homonym"
+          and len(ten.get("senses", [])) == 3
+          and "Lambda^2 C^5" in str(ten.get("senses", []))
+          and "Sym^2(T*X)" in str(ten.get("senses", []))
+          and "2471a600115dae9cefabcd1e430cfe5ed6daa6ec" in
+          ten.get("receipt", {}).get("incident", ""))
+    check("receipts: 41/41 entries carry incident + paid_by",
           sum(1 for e in entries
               if e.get("receipt", {}).get("incident")
-              and e.get("receipt", {}).get("paid_by")) == 40)
+              and e.get("receipt", {}).get("paid_by")) == 41)
     check("every disambiguator is attested (0 coined names)",
           sum(1 for e in entries
-              if e.get("disambiguator", {}).get("attested_at")) == 40)
+              if e.get("disambiguator", {}).get("attested_at")) == 41)
     check("sensing blocks: exactly 4 (cone, Classification:, CHIRAL, the impossible chain)",
           sum(1 for e in entries if e.get("sensing")) == 4)
     check("sensing refusals documented: exactly 3 (positive, so(1,3), BD-)",
@@ -456,9 +469,9 @@ MUTATIONS = (
     ("gate subprocess launched on the wrong file (a red gate must red the probe)",
      'gate = subprocess.run([sys.executable, str(ROOT / GATE)],',
      'gate = subprocess.run([sys.executable, str(ROOT / REGISTER)],'),
-    # Needle synced 2026-08-17 with the v_PSB pin bump (30 -> 31 homonyms).
+    # Needle synced 2026-08-24 with the `10` pin bump (32 -> 33 homonyms).
     ("kind histogram expectation corrupted",
-     '{"homonym": 32, "near_collision": 1,\n                    "prefix_collision": 2, "transcription_variant": 5}',
+     '{"homonym": 33, "near_collision": 1,\n                    "prefix_collision": 2, "transcription_variant": 5}',
      '{"homonym": 29, "near_collision": 2,\n                    "prefix_collision": 2, "transcription_variant": 5}'),
     ("heading census detector reads prose lines, not headings",
      'carriers = sorted(\n        p.name for p in corpus\n        if any(ln.lstrip().startswith("#") and heading in ln\n               for ln in p.read_text(encoding="utf-8").splitlines()))',
@@ -567,7 +580,8 @@ DISPOSITION
   authorities, and leaves the per-wave layer0 blocks and [ASR] glosses in
   place as the scoped instruments they are.
 
-  37 entries, 37 receipts, 0 coined disambiguators.  4 warn-only sensors
+  41 entries, 41 receipts, 0 coined disambiguators.  The original 37-entry
+  seed remains the append-only floor.  4 warn-only sensors
   (cone; the claim-status Classification heading; unglossed CHIRAL; the
   killed Spin(6,4)/Spin(3,2) spelling).  3 documented sensing refusals
   (positive, so(1,3), BD-) — a gate that reds on the word "positive" would

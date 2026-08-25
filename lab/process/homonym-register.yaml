@@ -78,7 +78,7 @@
 # Certificate: tests/channel-swings/joe_directed_fx3_homonym_register.py.
 
 version: 1
-updated: 2026-08-16
+updated: 2026-08-24
 owner: lab/active-research/joe-directed/homonym/fx3-homonym-register-and-gate-2026-08-16.md
 gate: process_gates/homonym_register_audit.py
 seeded:
@@ -1262,6 +1262,47 @@ entries:
       quote: "the name
   collision stands and future consumers should cite by path"
       quote_at: "lab/active-research/joe-directed/grading-bridge/ds1-the-stock-sits-at-the-pole-and-waits-on-the-reality-map-2026-08-17.md"
+
+  - token: "10"
+    kind: homonym
+    provenance: sc-grp04-2026-08-24
+    senses:
+      - definition: >-
+          the defining real rank-ten vector carrier common to the compact
+          Spin(10) vector with SU(5) restriction, the noncompact Spin(6,4)
+          vector with SU(3,2) restriction, and the Pati-Salam
+          (6,1,1)+(1,2,2) restriction
+        namespace: GU source diagram / defining real vector carrier
+        locus: "explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md:73"
+      - definition: >-
+          the conventional Georgi--Glashow SU(5) matter irrep Lambda^2 C^5,
+          of complex dimension ten and real dimension twenty, with centre
+          weight two rather than the defining vector's weight one
+        namespace: conventional SU(5) matter representation
+        locus: "explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md:77"
+      - definition: >-
+          the ten real components of the GR symmetric Euler-tensor carrier in
+          Sym^2(T*X), with four contracted-Bianchi identities and no action-
+          owned map from that carrier contact to an internal physical quotient
+        namespace: General Relativity equation / metric-fibre carrier
+        locus: "explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md:78"
+    disambiguator:
+      rule: >-
+        name the carrier and scalar field, never the bare numeral: GU defining
+        real vector ten, SU(5) matter Lambda^2 C^5 ten, or GR Sym^2(T*X)
+        equation carrier; equal printed numerals permit no result transfer
+      attested_at: ["explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md:86"]
+    receipt:
+      incident: >-
+        SC-GRP-04 found three unlike objects compressed by the printed numeral
+        ten and proved the most tempting identification impossible by real
+        dimension and centre character. The paid artifact was durably
+        committed first at 2471a600115dae9cefabcd1e430cfe5ed6daa6ec and
+        explicitly deferred central registration to this later count-pinned
+        act.
+      paid_by: ["explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md:71", "explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md:159"]
+      quote: "central `10` homonym-register graduation is deliberately deferred"
+      quote_at: "explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md"
 contrary_controls:
 
   - token: gimmel

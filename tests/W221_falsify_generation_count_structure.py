@@ -71,8 +71,10 @@ No canon / verdict / posture change: count stays {1,3}; H59 stays OPEN.
 """
 
 import itertools
+import pathlib
 
 CHECKS = []
+ROOT = pathlib.Path(__file__).resolve().parents[1]
 
 
 def check(name, condition, detail=""):
@@ -83,6 +85,55 @@ def check(name, condition, detail=""):
         line += f"  ::  {detail}"
     print(line)
     return bool(condition)
+
+
+# ------------------------------------------------------------------------------
+# Paper coherence after the 2026-08-03 J5 RESOLVED(A) source adjudication.
+#
+# The paper had carried the accepted resolution in section 11.3 while eleven
+# surrounding surfaces still described the same label fork as open.  This leg
+# pins the resolved SOURCE-LABEL state and separately pins PH-K1-PHYSICAL open;
+# it does not re-run the source adjudication or promote a physical family.
+# ------------------------------------------------------------------------------
+
+paper_path = ROOT / "papers/drafts/one-generation-not-three/draft.md"
+paper = paper_path.read_text(encoding="utf-8")
+paper_norm = " ".join(paper.split())
+
+check("PAPER1.updated_after_coherence_reconciliation",
+      "updated: 2026-08-24" in paper)
+check("PAPER2.frontmatter_carries_resolved_A_label_only",
+      "Imposter label attachment RESOLVED(A) at confidence 0.90" in paper
+      and "does not resolve PH-K1-PHYSICAL" in paper)
+check("PAPER3.results_table_carries_resolved_A",
+      "| R14 | A/B referent adjudication typed, dependents tabled |" in paper
+      and "**RESOLVED(A)** at confidence 0.90 for label attachment only" in paper)
+check("PAPER4.section_11_is_adjudication_not_open_fork",
+      '## 11. The referent adjudication: which block is "the imposter"?' in paper
+      and "**Status: RESOLVED(A), confidence 0.90**" in paper)
+check("PAPER5_physical_chirality_stays_open",
+      "PH-K1-PHYSICAL remains **OPEN/BLOCKED**" in paper
+      and "physical chiral third family remains OPEN/BLOCKED" in paper)
+check("PAPER6_reversal_conditions_replace_future_open_fork",
+      "**K1 (source reversal).**" in paper
+      and "**K2 (typing reversal).**" in paper)
+
+STALE_OPEN_FORK_PHRASES = (
+    "Imposter A/B referent fork OPEN",
+    'the referent of the program\'s own word "imposter" is an **open fork**',
+    'the referent of "imposter" is an open two-way fork',
+    "| R14 | A/B referent fork typed",
+    "an open referent fork about which block",
+    "It does not resolve the imposter referent fork",
+    "This section states an open fork honestly rather than resolving it",
+    "If Reading B wins:",
+    "If Reading A wins:",
+    "resolution of the §11 referent fork",
+    "Which block the program's own label names is open",
+    "The §11 fork resolves to Reading B",
+)
+for index, stale in enumerate(STALE_OPEN_FORK_PHRASES, start=1):
+    check(f"PAPER_STALE_{index:02d}.absent", stale not in paper_norm, stale)
 
 
 # ------------------------------------------------------------------------------

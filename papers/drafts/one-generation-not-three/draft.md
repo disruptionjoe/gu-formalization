@@ -5,14 +5,13 @@ doc_type: paper
 paper_slug: one-generation-not-three
 seed: "drafting-factory seed 'two-plus-one-mechanism', 2026-08-03 (Joe-approved); KK-gravitino prior-art gate PAID via papers/drafts/no-go-class-relative-survey.md §2.6"
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-24
 author: "release identity per papers/published/INDEX.md; to be fixed at release (Joe-gated)"
-deposit_status: "PRE-DEPOSIT. No external step (deposit, endorsement request, posting, or citation outside the repo) before Joe review. Any verdict-adjacent consequence is J5-gated: hostile field-specialist review (two-sided charge — overclaim AND over-fencing) before deposit."
+deposit_status: "PRE-DEPOSIT. No external step (deposit, endorsement request, posting, or citation outside the repo) before Joe review. The J5 hostile field-specialist review passed with corrections on 2026-08-03 for the Reading-A label attachment only; it did not resolve physical chirality, carrier, scale, or release readiness."
 canon_verdict_change: none
 gates:
   - "Joe-review-gated before ANY external step"
-  - "J5 hostile field-specialist review before deposit"
-  - "Imposter A/B referent fork OPEN (explorations/imposter-reading-adjudication-2026-08-03.md); §11 and every label-attachment in this paper must be revisited if it resolves"
+  - "Imposter label attachment RESOLVED(A) at confidence 0.90 after J5 hostile review; this is source-label custody only and does not resolve PH-K1-PHYSICAL"
   - "Reference-completion pass required before deposit (see References headnote)"
 depends_on:
   - lab/process/hinge-panel-synthesis-2026-08-03.md
@@ -36,9 +35,10 @@ caveats hold throughout: **(a)** every decomposition number in this paper is a *
 index**; multiplicity mod 3 is not index mod 3, and no block count is a generation count (five independent
 buttresses, §8.4); **(b)** all operator-level results live on a **kinematic** carrier reconstructed from
 public sources; the physical carrier does not currently exist as a defined object (§2.3), and nothing here
-transports to an interacting theory; **(c)** the referent of the program's own word "imposter" is an
-**open fork** between two provably distinct subspaces; this paper states the fork rather than resolving it,
-and flags every label-attachment that depends on it (§11); **(d)** the product-rule decomposition itself is
+transports to an interacting theory; **(c)** the source-label referent of the program's singular
+"Imposter Third Generation" is **RESOLVED(A)** to the 128-dimensional defect block at confidence 0.90
+after hostile review, while a looser p.53 plural usage remains a recorded source caveat and no physical
+third-family identification follows (§11); **(d)** the product-rule decomposition itself is
 prior-art-shadowed by standard Kaluza-Klein supergravity technology; the novelty claimed here is in the
 defect framing, the exact structure theory, the limitative results, and the source-critical scholarship,
 not in the existence of the three-term branching (§13); **(e)** the prediction candidates of §14 are
@@ -77,8 +77,9 @@ that we hard-fence: multiplicity, not index.
 The limits are the point. Five independent results kill every count reading; the block is kinematically
 vectorlike under both signatures (the honest obstruction to any naive three-generations reading); the
 program's own 2021 draft labels only the third term a generation, falsifying the popular reading of the
-slogan; the referent of "imposter" is an open two-way fork which we state rather than resolve; and any
-chiral use of the spin-3/2 reading owes an unpaid exit from the Witten (1983) Kaluza-Klein gravitino class.
+slogan; the accepted source adjudication attaches that singular label to the 128-dimensional defect block,
+not the spin-3/2 RS slot; and any chiral use of the latter owes an unpaid exit from the Witten (1983)
+Kaluza-Klein gravitino class.
 One structural discriminator survives at candidate grade: the imposter is not a Leibniz partner, so it must
 behave differently from the two true families at high energy — with the reunification scale honestly
 unconstrained.
@@ -94,15 +95,15 @@ unconstrained.
 | R3 | (10,−4) antidiagonal characterization; Γ∘ι_B = 4·I, Γ∘ι_F = 10·I | Exact, machine-verified, allocation-invariant (5 allocations × 2 signatures) | Kinematic carrier only |
 | R4 | Orthogonal direct sum; imposter an exact tight frame (X†X = 560·I) | Exact, machine-verified | Kinematic carrier only |
 | R5 | Separator/cut-vertex theorem | Exact on the frozen B5 symbol matrix | Matrix-level, reconstruction-grade carrier |
-| R6 | Reunification asymmetry 10⊗16 = 144 ⊕ 16; stranded spin-3/2 slots (two routes) | Green assert (in-repo); two independent routes | Label-attachment rides the A/B fork (§11) |
+| R6 | Reunification asymmetry 10⊗16 = 144 ⊕ 16; stranded spin-3/2 slots (two routes) | Green assert (in-repo); two independent routes | Reading-A label attachment is source-resolved; physical transport remains open (§11) |
 | R7 | Krein form-type: all blocks neutral; imposter uniquely β-type ("pairs like spin-1/2") | Exact | Non-transportable to interacting spectrum |
 | R8 | Arity law (b(k−1) defect copies; 2k−1 blocks) and affine-functor form | Internal analytic result | — |
 | R9 | Coboundary theorem: defect is exact, class zero | Internal analytic result | Kills protected-quantity readings (§8.4) |
 | R10 | Split canonical to the tautological section; 4+10 uniquely mod-3-clean ({3⁰,3¹,3²}), unique for ambient n ∈ {10..20} | Exact finite check | **HARD FENCE**: multiplicity, not index; post-hoc; supplies no count |
 | R11 | Count killed five independent ways | Five separate artifacts (§8.4) | This is the paper's central limitative claim |
 | R12 | PH-K1-KINEMATIC: the 128 is kinematically vectorlike, both signatures, all allocations | Deterministic finite computation, 318 checks, hostile-reviewed | PH-K1-PHYSICAL remains OPEN/BLOCKED; no V−A or anomaly verdict (§9) |
-| R13 | Source result: the 2021 draft labels ONLY the third term a generation; "2+1" is a homonym across two decompositions | Source-critical, primary-text | Full census in §10; F/Q/Z factor-2 typing still open |
-| R14 | A/B referent fork typed, dependents tabled | Typing decision | **OPEN**; nothing in this paper resolves it (§11) |
+| R13 | Source result: the 2021 draft labels ONLY the third term a generation; "2+1" is a homonym across two decompositions | Source-critical, primary-text | Full census in §10; F/Q/Z factor-2 source typing closed 2026-08-03 |
+| R14 | A/B referent adjudication typed, dependents tabled | Source-critical typing decision + hostile review | **RESOLVED(A)** at confidence 0.90 for label attachment only (§11) |
 | R15 | Witten 1983 class burden located on the RS reading | Prior-art gate (citation-and-burden, not a verdict) | §12 |
 | R16 | High-energy discriminator; exotic-charge companions | **Candidate grade only** | Scale structurally free (~15 decades); shape-level (§14) |
 
@@ -139,8 +140,8 @@ The answers, at the strength earned:
    class is exact, hence topologically trivial; and the program's own primary text labels only the third
    term a generation (§§8–10).
 5. **What remains** is a mechanism that *locates* one distinguished family-shaped block with unusually
-   sharp structure, an open referent fork about which block the program's word "imposter" names, an unpaid
-   prior-art burden at spin 3/2, and one structural high-energy discriminator at candidate grade
+   sharp structure, a source-resolved Reading-A label that still lacks a physical chiral-family bridge, an
+   unpaid prior-art burden at spin 3/2, and one structural high-energy discriminator at candidate grade
    (§§11–14).
 
 The title states the result: this mechanism, as it stands on the reconstructed carrier, yields one
@@ -151,8 +152,9 @@ distinguished generation-shaped object — not three generations.
 This paper does not claim that GU is correct or incorrect physics. It does not claim a generation count of
 any value, from this mechanism or any other; the five kill results of §8.4 are precisely the reasons no
 such claim is available from this material. It does not claim that the kinematic carrier used throughout is
-the physical carrier (no physical projector/quotient has been constructed; §2.3). It does not resolve the
-imposter referent fork (§11). It does not claim the product-rule branching is new mathematics (§13). And
+the physical carrier (no physical projector/quotient has been constructed; §2.3). Its source-resolved
+imposter label does not establish a physical third generation (§11). It does not claim the product-rule
+branching is new mathematics (§13). And
 its prediction candidates (§14) are explicitly shape-level: no energy scale is derived, so no experiment is
 named that must see anything.
 
@@ -176,7 +178,8 @@ use as SAME-OBJECT, HOMONYM, or UNCERTAIN. Four rulings govern this paper throug
 - **"(9,5)" as split vs signature**: "(9,5)" and "(7,7)" name *ambient signatures*; the product rule's
   scope condition concerns *splits* of 14 (the excluded odd/odd cases are splits such as 3+11 or 9+5 *as
   splits*). GU's split is 4+10, even/even, so the product rule applies under either ambient signature.
-- **"imposter"**: a homonym with a disputed referent; typed in §11 and never silently resolved.
+- **"imposter"**: the singular source label is resolved to Reading A in §11; the p.53 plural usage is a
+  separate source caveat, and neither usage silently becomes a physical-family identification.
 - **"chirality"**: the grading computed in §9 is the ambient 14-dimensional volume-word grading restricted
   to the constraint kernel, refined by the joint (ω₄, ω₁₀) grading — not a 4D Weyl index of a physical
   field.
@@ -406,9 +409,9 @@ with two computed facts attached:
    have none — the corresponding (3,2)×144 cells are empty, established by two independent routes.
 
 So "reunification" is not a symmetric re-merging of three peer families: the mechanism singles out the
-same distinguished block on the way up that it created on the way down. (Label-attachment caveat: which
-physical family "the imposter" names rides the §11 fork; the branching facts themselves are
-reading-independent statements about the subspaces.)
+same distinguished block on the way up that it created on the way down. (Label-attachment caveat: §11
+resolves the singular source label to the 128, but which physical family—if any—the block realizes remains
+open; the branching facts themselves are reading-independent statements about the subspaces.)
 
 ---
 
@@ -561,9 +564,9 @@ equivariant identification with the source module, not through a naive base-rest
 ### 9.3 What a physical reading requires
 
 PH-K1-PHYSICAL remains **OPEN/BLOCKED**. For the vectorlike kinematics to become a physical verdict —
-in either direction — the program must supply: (i) resolution of the §11 referent fork (which block is
-the third family at all); (ii) the physical carrier (observation/VEV/BRST/reality/Standard-Model gauge
-maps; Π_RS^phys currently does not exist); and (iii) a chiral-selection or mirror-decoupling mechanism if
+in either direction — the program must supply: (i) the physical carrier (observation/VEV/BRST/reality/
+Standard-Model gauge maps; Π_RS^phys currently does not exist); and (ii) a chiral-selection or mirror-
+decoupling mechanism if
 the observed V−A structure is to emerge from a kinematically balanced block. Until then the honest
 statement is: **the naive reading "the product rule's three blocks are the three observed generations" is
 obstructed at the first computable checkpoint** — the candidate third block is, kinematically, a
@@ -610,7 +613,7 @@ product-rule numbers, now carrying the author's own labels; and the author's "re
 into the single Spin(7,7) irrep of dimension 832. **Typing gate closed (2026-08-03):** the factor of two
 is typed by the source itself as the two ambient chirality halves — the draft prints 64± and 832± as
 graded dimensions and eq (12.20) dimension-superscripts one chirality half as S̸⁶⁴_{L/R} — closing
-decision criterion #1 in the §11 fork.
+decision criterion #1 in the §11 adjudication.
 
 ### 10.4 The statement census and the assignment discrepancy
 
@@ -638,40 +641,40 @@ mathematical claim at all.
 
 ---
 
-## 11. The referent fork: which block is "the imposter"?
+## 11. The referent adjudication: which block is "the imposter"?
 
-This section states an open fork honestly rather than resolving it. Nothing in this paper adjudicates it,
-and per program governance nothing may without a hostile field-specialist review.
+This section preserves the two typed readings, then records their source-critical adjudication. The named
+decider and hostile field-specialist review have run: the singular source label is RESOLVED(A) at confidence
+0.90. That result is label attachment only; physical chirality and carrier transport remain open.
 
 ### 11.1 The two readings
 
-The objects are settled and provably distinct; the *label* is not.
+The objects are settled and provably distinct. The historical question was which one the singular source
+label named; §11.3 resolves that question while retaining the rejected reading for dependency custody.
 
 - **Reading A** — the imposter is the **128**: S(V₄)⊗S(W₁₀), Lorentz spin-1/2, the defect term of §3.
   This is the reading of the product-rule line of work and of §§4–7 and 9 above: the (10, −4)
   antidiagonal, the unique β-type Krein pairing ("pairs like a spin-1/2 Dirac field"), and the F ↦ 128
-  textual decode (§10.3, gated).
+  textual decode (§10.3, source-typed).
 - **Reading B** — the imposter is the **384**: RS(3,1)⊗S(6,4), Lorentz spin-3/2, whose internal Weyl
   content is one 16 = one Standard-Model family. This is the reading of the program's earlier branching
   closure and of its generation-count falsification test, whose SURVIVES verdict *depends on* Reading B.
 
-The fork is asymmetric in an under-appreciated way: under Reading B, all of "2+1" lives inside the one
+The historical fork was asymmetric in an under-appreciated way: under Reading B, all of "2+1" lives inside the one
 product-rule decomposition (the 128 carries the two spin-1/2 families, the 384 the third); under Reading
 A, the "+1" is the 128 and the two true generations do not live in the product rule at all (§10.2). **The
-fork moves the location of all three families, not just the third.**
+fork would move the location of all three families, not just the third.**
 
 ### 11.2 What rides on each reading
 
 Reading-independent (survives both horns): the product-rule identity and its traceful control; dim ker Γ =
 1664 = 13·128; the separator and reunification computations as facts about the subspaces; the five count
 kills; and the mod-3-clean arithmetic of §7.2. Reading-dependent: every occurrence of the *words* "imposter"
-and "third generation" as attached to a specific block — including the ones in this paper's §§4–7, which
-are written in Reading A's voice because that is where the surviving mathematics lives, with this section
-as the standing disclaimer. If Reading B wins: the §§4–7 mathematics survives as structure theory of the
-128, the hinge-adjacent program loses its claim to be about the third generation, the §9 obstruction
-transfers to the 384 in the Witten-1983 form (§12), and the program's older SURVIVES verdict is re-scoped
-rather than fired. If Reading A wins: the older branching-closure statements about the RS term as a
-generation need correction banners, and the spin-3/2 family faces §12 directly anyway.
+and "third generation" as attached to a specific block. The accepted Reading-A disposition licenses that
+language for the 128 at source-label grade, requires correction banners on older Reading-B artifacts, and
+leaves the spin-3/2 384 under §12's burden. The rejected Reading-B counterfactual is retained only to show
+what would have moved: §§4–7 would remain mathematics of the 128, while their third-generation label would
+be struck and the §9 obstruction would transfer to the 384 in Witten-1983 form. It is not current status.
 
 ### 11.3 Resolution (2026-08-03): the label attaches to Reading A
 
@@ -718,14 +721,14 @@ token the Dirac-sector exit does not automatically *transfer* to spin 3/2, where
 (gamma-tracelessness — the very origin of the mechanism, §3.2), gauge-fixing, and ghost structure all
 differ. Class membership must be argued for the RS sector on its own; to date it has not been.
 
-Any chiral use of the Reading-B family therefore owes one of two payments: **(1)** an explicit RS-sector
+Any chiral use of the RS 384 as a family therefore owes one of two payments: **(1)** an explicit RS-sector
 exit argument from the 1983 class (an open obligation, not a corollary of the Dirac-sector argument), or
 **(2)** acceptance of the vectorlike conclusion for the RS-derived family — which forfeits it as the
 chiral third generation and moves the claim onto Reading A, where §9's kinematic obstruction is already
 confirmed. The honest data all lean the same way without constituting a verdict: the ledger's chiralities
 appear symmetrically (96 each), the falsification test finds equal Weyl content both ways, and the §9
 grading is exactly balanced. This is a citation-and-burden gate, not a result — but it is a gate this
-paper's subject cannot route around, whichever way the §11 fork resolves.
+paper's subject cannot route around; the §11 label resolution does not discharge it.
 
 ---
 
@@ -830,7 +833,8 @@ paper's subject, though one branch would kill an adjacent retrodiction.
    vectorlike (§9), the physical carrier does not exist as an object (§2.3), and the interior-cannot-force
    theorem (LNF) stands above all of it. The mechanism locates one distinguished block; it does not
    produce three of anything.
-4. **The referent.** Which block the program's own label names is open (§11).
+4. **The referent.** The singular source label is RESOLVED(A) at confidence 0.90; whether the 128 realizes
+   a physical chiral third family remains OPEN/BLOCKED (§§9, 11).
 5. **The scale.** Free over ~fifteen decades (§14.1).
 6. **The external ledger.** The program's standing external-datum ledger (an orientation datum, an
    X-sector datum, and a realized count datum) is *not* reduced by this mechanism; an earlier in-program
@@ -841,12 +845,12 @@ paper's subject, though one branch would kill an adjacent retrodiction.
 
 Stated in advance, per program discipline. This paper's claims die, in whole or in part, if:
 
-- **K1 (referent).** The §11 fork resolves to Reading B *and* the RS sector pays no Witten-1983 exit: the
-  §§4–7 structure theory survives as mathematics of the 128, but every "third generation" label in the
-  Reading-A voice must be struck, and the paper's framing narrows to structure-plus-limits.
-- **K2 (textual).** The F/Q/Z factor-2 typing (§10.3) fails to map F onto the 128: the textual leg of
-  Reading A dies, and §10.1's "only the third term" finding must be re-examined against the corrected
-  decode.
+- **K1 (source reversal).** New primary-source evidence overturns the J5-reviewed Reading-A attachment:
+  §§4–7 survive as mathematics of the 128, but every source-level "third generation" label in the
+  Reading-A voice is withdrawn and the dependency table is reopened under a new hostile review.
+- **K2 (typing reversal).** A demonstrated defect in the F/Q/Z factor-2 typing (§10.3) breaks the map from
+  F to the 128: the textual leg of Reading A dies, and §10.1's "only the third term" finding is re-examined
+  against the corrected decode.
 - **K3 (physical chirality).** A physical carrier is built and PH-K1-PHYSICAL resolves with no chiral
   selection or mirror decoupling: the block cannot be the observed third family, and §14's discriminators
   become moot for it.
@@ -883,9 +887,10 @@ to ignore and too fenced to spend: multiplicities, not indices.
 
 What the mechanism does not do is count. Five independent results close that door; the block's kinematics
 are vectorlike under both candidate signatures; the defect's class is zero; the program's own primary text
-labels only one term a generation and sources the "2" from a different decomposition entirely; the
-referent of "imposter" is an open fork; and the spin-3/2 reading owes Witten (1983) an exit it has not
-paid. What survives is exactly what the title says: one generation-shaped object, located with unusual
+labels only one term a generation and sources the "2" from a different decomposition entirely; the J5-
+reviewed source adjudication attaches that singular label to the 128 without making it a physical chiral
+family; and the spin-3/2 reading owes Witten (1983) an exit it has not paid. What survives is exactly what
+the title says: one generation-shaped object, located with unusual
 precision — plus one honest structural discriminator, waiting on a scale the theory does not yet supply.
 
 The paper's standing claim is deliberately modest and, we believe, durable: **the 2+1 mechanism is a
