@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**SG4 bit-2 reconciliation protocol enrollment, 2026-08-24.** The open phase
+fork now names exactly two authorized surfaces and preserves their different
+questions: Lane 1 may select a realized phase only through an action-owned
+constructed stationary vacuum, while `SC-CHI-01` states a condition on that
+phase. Conflict fires only if the constructed vacuum has `varpi` VEV
+significantly above zero; prose, emphasis and hedge-strength differences do
+not fire it. A future fired conflict must enter the next coherent ledger mint
+under the standing four `OVER_DETERMINED` dispositions. No entry is filed now,
+no consumer may cite bit 2 as resolved, and ledger v0.263 remains byte-
+identical. See
+`explorations/sg4-bit2-reconciliation-protocol-enrollment-2026-08-24.md`.
+
 **SG4 observed-epoch binning independent review, 2026-08-24.** The source's
 decreased/small-nonzero `varpi` regime may not be assigned to either binary
 bit-2 endpoint at current grade. No source/action object supplies the required

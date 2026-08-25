@@ -330,15 +330,17 @@ items:
     title: Enroll SG4 bit 2 in the existing over-determined reconciliation protocol
     origin: LD-D card 15, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census
     owner: SG4 axis owner, referred to the integration owner
-    status: QUEUED
+    status: DONE
     activation: >-
-      Before any artifact claims bit 2 resolved, preserve the two distinct
-      questions: Lane 1 selects a stationary phase, while SC-CHI-01 states a
-      condition on that phase. Conflict means only an action-owned stationary
-      vacuum with varpi VEV significantly above zero. On that event file an
-      over_determined_escalations entry under the standing four dispositions;
-      prose disagreement or hedge strength alone is not conflict.
-    next_check: "2026-08-25"
+      receipt: sg4-bit2-reconciliation-protocol-enrollment-2026-08-24.md.
+      The SG4 fork now freezes exactly two authorized surfaces and their
+      different questions. Conflict fires only on an action-owned constructed
+      stationary vacuum with varpi VEV significantly above zero; prose,
+      emphasis and hedge-strength differences do not fire it. A future fired
+      conflict must enter the next coherent ledger mint under the standing
+      four OVER_DETERMINED dispositions. No entry is filed now because the
+      trigger has not fired, and no consumer may cite bit 2 as resolved.
+    next_check: "2026-08-31"
   - id: SG4-BIT-2-SOURCE-SILENCE-FALLBACK
     title: Retype the three G6 rows only after permanent source silence and construction blockage are both proved
     origin: LD-D card 19, 2026-08-17; independently retained by the 2026-08-24 proposal-integration census

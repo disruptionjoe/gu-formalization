@@ -73,8 +73,34 @@ forks:
       must declare this id through fork_assumed. Settlement additionally
       requires a distinct independent review of both the result and proposed
       wording, enforced by fork_depth_audit.py.
+    reconciliation:
+      protocol_id: SG4-BIT-2-RECONCILIATION
+      authorized_surfaces:
+        - id: LANE-1-STATIONARY-PHASE
+          question: Which phase is realized by an action-owned constructed stationary vacuum?
+        - id: SC-CHI-01
+          question: What condition does the source state on the realized phase?
+      question_relation: DIFFERENT_QUESTIONS__NEITHER_OVERRIDES_THE_OTHER
+      conflict_trigger: >-
+        FIRES_ONLY_IF_LANE_1_CONSTRUCTS_AN_ACTION_OWNED_STATIONARY_VACUUM_WITH_VARPI_VEV_SIGNIFICANTLY_ABOVE_ZERO
+      non_conflicts:
+        - prose disagreement
+        - differing emphasis
+        - differing hedge strength
+        - the current absence of a constructed stationary vacuum
+      on_conflict:
+        action: FILE_OVER_DETERMINED_ESCALATION_IN_NEXT_COHERENT_LEDGER_MINT
+        owner: sg4-bit-2-selector
+        allowed_dispositions:
+          - GENUINE_FALSIFICATION
+          - FORK_ARTIFACT
+          - SCOPE_ERROR
+          - STALE_PREMISE
+      current_state: NOT_FIRED__NO_ACTION_OWNED_STATIONARY_VACUUM
+      unresolved_use_rule: NO_CONSUMER_MAY_CITE_BIT_2_AS_RESOLVED
     sources:
       - lab/active-research/joe-directed/lens-digs/ldd-sg4-bit2-selector-governance-2026-08-17.md
+      - explorations/sg4-bit2-reconciliation-protocol-enrollment-2026-08-24.md
       - lab/sources/source-claim-register.yaml
       - lab/active-research/joe-directed/seesaw-tradeoff/st1-tradeoff-dissolves-into-sg4-bit-2-2026-08-16.md
       - lab/methods/gu-base-categories.md
