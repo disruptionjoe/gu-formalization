@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Source-claim object-typing wave, 2026-08-24.** `SC-SIG-51` and `SC-GRP-04`
+move from `UNTYPED` to `PARTIAL` without polarity changes. The four normalized
+trace/traceless sign forms are exact, with inertias `(7,3)`, `(6,4)`, `(4,6)`
+and `(3,7)`, while the spoken experiment selector remains source-underdefined:
+no experiment, observable, dataset, threshold, action or exact failure map is
+supplied. The phantom ten is typed as the real rank-ten vector carrier shared
+by the compact `Spin(10)` vector with `SU(5)` restriction and noncompact
+`Spin(6,4)` vector with `SU(3,2)` restriction, with Pati--Salam `6+4`; it is
+not the complex SU(5) matter
+`10 = Lambda^2 C^5`. The Einstein equation tensor and metric-fibre tangent
+share the `Sym^2(T*X)` carrier, but the hoped-for dynamical explanation remains
+unbuilt. Ledger v0.263, SG4, actions, predictions, papers, canon and public
+posture are unchanged. See
+`explorations/sc-sig51-four-metric-experiment-audit-2026-08-24.md` and
+`explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md`.
+
 **SG4 bit-2 reconciliation protocol enrollment, 2026-08-24.** The open phase
 fork now names exactly two authorized surfaces and preserves their different
 questions: Lane 1 may select a realized phase only through an action-owned

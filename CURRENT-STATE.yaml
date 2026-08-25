@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f185d80798511bf8c43c72adf224d4a1b1b10004
+revision_basis: 0a1076c9db04bece92fc04257d2a557474bd51b9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The source-claim object-typing wave moves SC-SIG-51 and SC-GRP-04 from
+    UNTYPED to PARTIAL without changing either polarity. SC-SIG-51's exact
+    content is the already-banked four normalized trace/traceless sign forms
+    with inertias (7,3), (6,4), (4,6), (3,7); its separate experimental
+    selector remains SOURCE-UNDERDEFINED because no experiment, observable,
+    dataset, threshold, action or failure map is named, and no conventional
+    comparator is imported. SC-GRP-04's phantom ten is the real rank-ten
+    vector carrier shared by the compact Spin(10) vector with SU(5) restriction
+    and noncompact Spin(6,4) vector with SU(3,2) restriction, branching as 6+4
+    under Pati-Salam; it is not
+    the complex SU(5) matter 10=Lambda^2 C^5. The GR Euler tensor and metric-
+    fibre tangent share the Sym^2(T*X) rank-ten type, but no action-owned map
+    derives an internal reduction or physical sector from the Einstein
+    equations. Immutable ledger v0.263, the SG4 phase fork, actions,
+    predictions, confirmations, papers, canon and public posture do not move.
     The SG4 bit-2 reconciliation entry gap is now closed without selecting a
     phase or inventing a current conflict. The open fork names exactly two
     authorized surfaces: Lane 1 may select a realized phase only from an

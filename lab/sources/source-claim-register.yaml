@@ -25,8 +25,8 @@ register:
     sentence polarity verbatim; frame regression under compression is the measured failure mode.'
   - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
     target claim.'
-  adjudication_headline: 'ADHERED 82 / PARTIAL 20 / UNTYPED 9 / IGNORED 0 / CONTRADICTED 0; core: hard-core
-    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-24 SC-GRP-50 registration; no source claim proven)'
+  adjudication_headline: 'ADHERED 82 / PARTIAL 22 / UNTYPED 7 / IGNORED 0 / CONTRADICTED 0; core: hard-core
+    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-24 SC-SIG-51 and SC-GRP-04 object typing; no source claim proven)'
 claims:
 - id: SC-GEO-01
   polarity: ASSERTS
@@ -392,13 +392,23 @@ claims:
     p.30 credits Pati-Salam with not leading 'immediately to proton decay like the original SU(5) model'.
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: PARTIAL
     evidence:
-    - DERIVATION-PROGRESS.md:494
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: The phantom-10 / tied-to-GR's-10-equations hope appears on no repo surface; nearest object (IC1
-      soldering 10-dim rep) is the metric fibre 10, a different 10. No custody either.
+    - explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md
+    - tests/channel-swings/sc_grp04_phantom_ten_object_separation_probe.py
+    pinned_at: 0a1076c9db04bece92fc04257d2a557474bd51b9
+    date: 2026-08-24
+    note: >-
+      PARTIAL. The phantom carrier is now typed as the real rank-ten vector
+      printed as V^10 on draft p.28 and developed through eq. (4.9): the
+      compact Spin(10) vector with SU(5) restriction and the noncompact
+      Spin(6,4) vector with SU(3,2) restriction, with exact Pati-Salam
+      restriction (6,1,1)+(1,2,2). It is not the complex SU(5) matter
+      10=Lambda^2 C^5; the Z5 characters force the relevant Hom to vanish. The
+      GR equation carrier and metric-fibre tangent both have type Sym^2(T*X)=
+      9+1, but no action-owned variational or physical-quotient map derives an
+      internal reduction from the Einstein tensor; the proposed fundamental
+      explanation remains a source hope.
 - id: SC-GRP-05
   polarity: ASSERTS
   claim: The Inhomogeneous Gauge Group is defined as the semi-direct product of the gauge group with ad-valued
@@ -2103,14 +2113,23 @@ claims:
     argument not spoken; 07-20 row 3 tags it a cheap bounded check candidate.
   core: auxiliary
   adherence:
-    adherence: UNTYPED
+    adherence: PARTIAL
     evidence:
-    - lab/process/layer0-fork-registry.yaml:95-104
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: 'The four-metrics enumeration and two-ruled-out-by-experiment argument (custody: WG-A07/row
-      3, tagged a cheap bounded check) was never typed or run; three of the four forms were mirror-checked
-      for a different purpose.'
+    - explorations/source-wave-observer-view-adjudication-2026-07-20.md:252-278
+    - explorations/sc-sig51-four-metric-experiment-audit-2026-08-24.md
+    - tests/channel-swings/sc_sig51_four_metric_experiment_audit_probe.py
+    pinned_at: 0a1076c9db04bece92fc04257d2a557474bd51b9
+    date: 2026-08-24
+    note: >-
+      PARTIAL. The already-banked invariant trace/traceless split gives exactly
+      four nondegenerate forms under the source's plus-or-minus-one
+      normalization, with inertias (7,3), (6,4), (4,6), (3,7). The separate
+      experimental selector remains SOURCE-UNDERDEFINED: no named experiment,
+      observable, dataset, threshold, action or exact failure map is supplied,
+      and no conventional DeWitt/GR comparator is imported as GU authority.
+      The Pati-Salam maximal-compact criterion selects the trace-reversed
+      chamber only as an authorial external criterion, not an experiment or a
+      selector of lambda=1/2 within that chamber.
 - id: SC-SIG-52
   polarity: ASSERTS
   claim: Pati-Salam is naturally Spin(6) x Spin(4) when the trace portion of the space of metrics is put
