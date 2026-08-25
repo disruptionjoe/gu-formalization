@@ -50,6 +50,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     result = str(inputs["result"])
     state = str(inputs["state"])
     next_steps = str(inputs["next_steps"])
+    gate_flat = " ".join(gate.split())
+    result_flat = " ".join(result.split())
     modules = IMPORT_LINE.findall(entrypoint)
 
     check(data["schema_version"] == "1.0", "schema")
@@ -63,7 +65,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("LEAN_LIBRARY_CERTIFICATES" not in gate, "duplicated inventory removed")
     check("lab\" / \"methods\" / \"claim-status-consistency.md" in gate, "live owner reference")
     check("runbooks\" / \"claim-status-consistency-quality-workflow.md" not in gate, "removed runbook reference retired")
-    check("library,\n            imported | manual" in gate, "complete library equality")
+    check("library, imported | manual" in gate_flat, "complete library equality")
 
     for module in modules:
         relative = module.replace(".", "/") + ".lean"
@@ -77,12 +79,17 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("GU-COMPARATOR-ROUTING" in result, "routing notice")
     check("GU-COMPARATOR-ROUTING-CLASSIFICATION: INTERNAL_STRUCTURAL_ONLY" in result, "routing class")
     check("```gu-typed-objects" in result, "typed objects")
-    check("proves no new theorem" in result, "claim ceiling")
+    check("proves no new theorem" in result_flat, "claim ceiling")
     check("post-T3 frontier replay" in state, "current state")
     check("L10 RECONCILES" in next_steps, "next steps")
 
     items = {item["id"]: item for item in agenda["work_items"]}
-    check("L10 live certificate-surface reconciliation are complete" in items["PROOF-STABLE-KERNELS"]["next_swing"], "agenda closes L10")
+    check(
+        "L10 Lean certificate-surface reconciliation"
+        in items["PROOF-STABLE-KERNELS"]["next_swing"]
+        and "are complete" in items["PROOF-STABLE-KERNELS"]["next_swing"],
+        "agenda closes L10",
+    )
     check(data["theorem_body_change"] == "none", "theorem bodies unchanged")
     check(data["scientific_ledger_verdict_change"] == "none", "scientific verdict unchanged")
     check(data["canon_verdict_change"] == "none", "canon unchanged")

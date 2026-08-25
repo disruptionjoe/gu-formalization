@@ -15,6 +15,7 @@ import contextlib
 import io
 import json
 from pathlib import Path
+import re
 import runpy
 
 from sage.all import QQ, block_matrix, matrix, zero_matrix
@@ -92,7 +93,12 @@ print("\nD. SOURCE OWNERSHIP AND SIGNS")
 mu = cartan["invariant_predecessor"]["mu"]
 check("source", "the exact endpoint charge is nonzero", mu != 0)
 check("source", "the one source epsilon carries the original endpoint momentum sign", mu + mu == 2 * mu and 2 * mu != 0)
-check("source", "the source-owned parent is formal rather than a selected edge dynamics", "formal" in read(RESULT).lower() and "physical" in read(REVIEW).lower())
+check(
+    "source",
+    "the source-owned parent is formal rather than a selected edge dynamics",
+    re.search(r"\bformal\b", read(RESULT).lower()) is not None
+    and re.search(r"\bphysical\b", read(REVIEW).lower()) is not None,
+)
 check("source", "the source return does not assert an independent opposite copy", "SOURCE-SILENT" in read(SOURCE))
 
 

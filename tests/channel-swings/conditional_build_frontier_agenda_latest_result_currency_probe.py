@@ -78,7 +78,10 @@ def selftest():
         r = json.loads(REGISTRY.read_text(encoding="utf-8"))
         lr = json.loads(LIVE_REGISTRY.read_text(encoding="utf-8"))
         t = artifact
-        b5 = next(item for item in a["work_items"] if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION")
+        b5 = next(
+            (item for item in a["work_items"] if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"),
+            {},
+        )
         if label == "stale agenda date":
             a["updated_at"] = "2026-08-23"
         elif label == "stale B5 step":

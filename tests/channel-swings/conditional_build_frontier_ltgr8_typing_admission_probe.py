@@ -55,6 +55,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     next_steps = inputs["next_steps"]
     assert isinstance(data, dict) and isinstance(ledger, dict) and isinstance(agenda, dict)
     assert isinstance(result, str) and isinstance(state, str) and isinstance(next_steps, str)
+    result_flat = " ".join(result.split())
+    state_flat = " ".join(state.split())
 
     check(data["schema_version"] == "1.0", "schema")
     check(data["registered_cbrs1_admissible_candidate_count"] == 0, "empty admitted set")
@@ -88,21 +90,26 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("GU-COMPARATOR-ROUTING" in result, "routing notice")
     check("GU-COMPARATOR-ROUTING-CLASSIFICATION: INTERNAL_STRUCTURAL_ONLY" in result, "routing class")
     check("```gu-typed-objects" in result, "typed objects")
-    check(DELTA_TEMPLATE.split(" -> ")[0] in result and "evidence that would reopen it" in result, "delta template in doc")
-    check("labeled maintenance" in result, "maintenance rule in doc")
-    check("owner-before-evaluation" in result, "CBRS-1 boundary named")
-    check("does not advance CBRS-2" in result or "not advance CBRS-2" in result or "does not open it" in result, "no CBRS-2 advance")
-    check("true only because the enumeration was incomplete" in result, "claim-indexed binding of prior replay sentence")
-    check("No scientific ledger verdict" in result, "claim ceiling")
+    check(DELTA_TEMPLATE.split(" -> ")[0] in result_flat and "evidence that would reopen it" in result_flat, "delta template in doc")
+    check("labeled maintenance" in result_flat, "maintenance rule in doc")
+    check("owner-before-evaluation" in result_flat, "CBRS-1 boundary named")
+    check("does not advance CBRS-2" in result_flat or "not advance CBRS-2" in result_flat or "does not open it" in result_flat, "no CBRS-2 advance")
+    check("true only because the enumeration was incomplete" in result_flat, "claim-indexed binding of prior replay sentence")
+    check("No scientific ledger verdict" in result_flat, "claim ceiling")
     for phrase in FORBIDDEN_SUMMARY_GRAMMAR:
-        check(phrase not in result, f"forbidden grammar absent: {phrase}")
+        check(phrase not in result_flat, f"forbidden grammar absent: {phrase}")
 
-    check("first type the K77-to-observed-3+1 carrier and boundary map" in state, "state licenses typing step")
+    check("first type the K77-to-observed-3+1 carrier and boundary map" in state_flat, "state licenses typing step")
     check("LT-GR8 typing arc" in state, "state records admission")
     check("LT-GR8 TYPING ARC" in next_steps, "next steps announcement")
 
     items = {item["id"]: item for item in agenda["work_items"]}
-    check("LT-GR8" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"], "agenda selects typing swing")
+    proof_state = items["PROOF-STABLE-KERNELS"]["next_swing"]
+    check(
+        "LT-GR8 reds are cleared" in proof_state
+        and "typed-carrier audit" in proof_state,
+        "agenda records the later LT-GR8 hardening close",
+    )
 
     check(data["ledger_verdict_change"] == "none", "ledger unchanged")
     check(data["canon_verdict_change"] == "none", "canon unchanged")
@@ -163,9 +170,9 @@ def selftest() -> int:
     changed = copy.deepcopy(baseline)
     items = changed["agenda"]["work_items"]
     for item in items:
-        if item["id"] == "CONDITIONAL-BUILD-REVERSE-SCAFFOLD":
+        if item["id"] == "PROOF-STABLE-KERNELS":
             item["next_swing"] = item["next_swing"].replace("LT-GR8", "LT-REMOVED")
-    mutations.append(("agenda-revert", "agenda selects typing swing", changed))
+    mutations.append(("agenda-revert", "agenda records the later LT-GR8 hardening close", changed))
 
     ok = True
     for name, expected, mutated in mutations:

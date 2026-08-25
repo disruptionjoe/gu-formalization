@@ -23,10 +23,12 @@ def check(condition: bool, label: str) -> None:
 
 data = json.loads(REGISTRY.read_text())
 result = RESULT.read_text()
+result_flat = " ".join(result.split())
 lean = LEAN.read_text()
 root_lean = (ROOT / "Lean/GUFormalization.lean").read_text()
 ledger = (ROOT / "lab/process/lean-verification-lane-LEDGER.md").read_text()
 state = (ROOT / "CURRENT-STATE.yaml").read_text()
+state_flat = " ".join(state.split())
 agenda = json.loads((ROOT / "lab/process/RESEARCH-AGENDA.json").read_text())
 
 check(data["schema_version"] == "1.0", "schema")
@@ -53,9 +55,9 @@ for required in {
 check("GU-COMPARATOR-ROUTING" in result, "routing notice")
 check("GU-COMPARATOR-ROUTING-CLASSIFICATION: INTERNAL_STRUCTURAL_ONLY" in result, "routing class")
 check("```gu-typed-objects" in result, "typed objects")
-check("registry-relative" in result, "claim ceiling")
-check("not a universal no-go" in result.lower(), "no universal no-go")
-check("L8 chi-parity kernel" in result, "next gate")
+check("registry-relative" in result_flat, "claim ceiling")
+check("not a universal no-go" in result_flat.lower(), "no universal no-go")
+check("L8 chi-parity kernel" in result_flat, "next gate")
 
 for theorem in data["l7"]["theorems"]:
     check(f"theorem {theorem}" in lean, f"Lean theorem {theorem}")
@@ -70,12 +72,16 @@ check("LEAN-VERIFIED" in ledger and "L7 THEOREM D" in ledger, "ledger closure")
 check(data["l7"]["source"] in result, "source path propagated")
 check(data["l7"]["exact_companion"] in result, "companion path propagated")
 
-check("admissible set is empty" in state, "current state frontier")
+check("admissible set is empty" in state_flat, "current state frontier")
 check("power-mean" in state.lower(), "current state L7")
 items = {item["id"]: item for item in agenda["work_items"]}
 check("PROOF-STABLE-KERNELS" in items, "proof agenda item")
 check("L8" in items["PROOF-STABLE-KERNELS"]["next_swing"], "agenda advances to L8")
-check("park" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"].lower(), "agenda parks CBRS-1")
+check(
+    "strongest disjoint non-B2 native gate"
+    in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"],
+    "agenda keeps the empty B2 root out of selection",
+)
 
 check(data["ledger_verdict_change"] == "none", "ledger unchanged")
 check(data["source_ownership_change"] == "none", "source ownership unchanged")

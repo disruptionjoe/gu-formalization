@@ -49,6 +49,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     agenda = inputs["agenda"]
     assert isinstance(data, dict) and isinstance(agenda, dict)
     assert all(isinstance(x, str) for x in (result, lean, root_lean, readme, ledger, state))
+    result_flat = " ".join(result.split())
+    state_flat = " ".join(state.split())
 
     check(data["schema_version"] == "1.0", "schema")
     check(data["admissible_candidate_count"] == 0, "empty admitted set")
@@ -76,12 +78,21 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("L8 THEOREM E` — **DONE" in ledger, "ledger closure")
     check("finite ordinary/weighted matrix power-trace parity only" in ledger, "ledger claim ceiling")
 
-    check("L8 gate is now Lean-verified" in state, "current state L8")
+    check("L8 gate is now Lean-verified" in state_flat, "current state L8")
     check("L9" in state, "current state advances to L9")
     items = {item["id"]: item for item in agenda["work_items"]}
     check("PROOF-STABLE-KERNELS" in items, "proof agenda item")
-    check("Execute L9 next" in items["PROOF-STABLE-KERNELS"]["next_swing"], "agenda advances to L9")
-    check("park" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"].lower(), "agenda keeps CBRS-1 parked")
+    check(
+        "L8 chi-conjugation trace-parity kernel"
+        in items["PROOF-STABLE-KERNELS"]["next_swing"]
+        and "are complete" in items["PROOF-STABLE-KERNELS"]["next_swing"],
+        "agenda records L8 complete",
+    )
+    check(
+        "strongest disjoint non-B2 native gate"
+        in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"],
+        "agenda keeps the empty B2 root out of selection",
+    )
 
     check(data["ledger_verdict_change"] == "none", "ledger unchanged")
     check(data["source_ownership_change"] == "none", "source ownership unchanged")

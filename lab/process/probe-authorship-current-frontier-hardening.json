@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_current_frontier_hardening_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 253,
+    "probe_corpus": 971,
+    "baseline": 254
+  },
+  "after": {
+    "violations": 233,
+    "probe_corpus": 972,
+    "baseline": 233,
+    "repaired_violations": 20
+  },
+  "repair_packets": [
+    {
+      "id": "CURRENT_FRONTIER_LOOKUP_AND_WRAPPED_PROSE",
+      "result": "HARDENED",
+      "paths": [
+        "tests/channel-swings/conditional_build_frontier_agenda_latest_result_currency_probe.py",
+        "tests/channel-swings/conditional_build_frontier_antilinear_null_images_probe.py",
+        "tests/channel-swings/conditional_build_frontier_l10_lean_certificate_surface_probe.py",
+        "tests/channel-swings/conditional_build_frontier_l7_power_mean_probe.py",
+        "tests/channel-swings/conditional_build_frontier_l8_chi_parity_probe.py",
+        "tests/channel-swings/conditional_build_frontier_l9_involution_projectors_probe.py",
+        "tests/channel-swings/conditional_build_frontier_ltgr8_typing_admission_probe.py",
+        "tests/channel-swings/conditional_build_frontier_pin14_t1_agenda_reconciliation_probe.py"
+      ]
+    },
+    {
+      "id": "NEGATION_SATISFIABLE_FALSE_GREEN",
+      "result": "HARDENED",
+      "paths": [
+        "tests/channel-swings/selected_k77_boundary_edge_lie_closure_gate_probe.py",
+        "tests/channel-swings/selected_k77_source_epsilon_cotangent_parent_probe.py"
+      ]
+    },
+    {
+      "id": "RATCHET_AND_COUPLED_CERTIFICATE",
+      "result": "HARDENED",
+      "paths": [
+        "process_gates/probe_authorship_lint.py",
+        "tests/channel-swings/probe_authorship_current_frontier_hardening_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 4,
+    "caught": 4,
+    "classes": [
+      "crash_not_detection",
+      "wrapped_prose_false_negative",
+      "negation_satisfiable_false_green",
+      "ratchet_mismatch"
+    ]
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; reopen probe-authorship hardening only on a new concrete detector defect or a fresh baseline decrease."
+}

@@ -3,6 +3,7 @@
 
 import json
 from pathlib import Path
+import re
 import subprocess
 import sys
 
@@ -56,9 +57,31 @@ def main():
     validate(agenda, registry, artifact)
     current_state = CURRENT_STATE.read_text(encoding="utf-8")
     next_steps = NEXT_STEPS.read_text(encoding="utf-8-sig")
-    check("current-state basis is starting revision", "revision_basis: 770bafb142c26c5a68b764c92245c7fad218f584" in current_state)
+    next_steps_flat = " ".join(next_steps.split())
+    basis_match = re.search(r"(?m)^revision_basis:\s*([0-9a-f]{40})\s*$", current_state)
+    basis = basis_match.group(1) if basis_match else ""
+    ancestry = subprocess.run(
+        ["git", "merge-base", "--is-ancestor", basis, "HEAD"],
+        cwd=ROOT,
+        check=False,
+    ) if basis else None
+    distance = subprocess.run(
+        ["git", "rev-list", "--count", f"{basis}..HEAD"],
+        cwd=ROOT,
+        text=True,
+        capture_output=True,
+        check=False,
+    ) if basis else None
+    check(
+        "current-state basis is a recent ancestor",
+        ancestry is not None
+        and ancestry.returncode == 0
+        and distance is not None
+        and distance.returncode == 0
+        and int(distance.stdout.strip()) <= 1,
+    )
     check("current-state preserves open class map", "That map remains open" in current_state and "OPERATOR-END-PENCIL" in current_state)
-    check("contributor front door removes duplicate work", "Do not rerun it" in next_steps and "T3 remains blocked" in next_steps)
+    check("contributor front door removes duplicate work", "Do not rerun it" in next_steps_flat and "T3 remains blocked" in next_steps_flat)
     gate = subprocess.run([sys.executable, str(PIN_GATE)], cwd=ROOT, text=True,
                           capture_output=True, check=False)
     check("existing Pin derivation gate passes", gate.returncode == 0 and "PIN14-EXACT-Z2" in gate.stdout)
@@ -82,7 +105,10 @@ def selftest():
         a = json.loads(AGENDA.read_text(encoding="utf-8-sig"))
         r = json.loads(REGISTRY.read_text(encoding="utf-8"))
         t = artifact
-        item = next(item for item in a["work_items"] if item["id"] == "ANOMALY-DESCENT-HARDENING")
+        item = next(
+            (item for item in a["work_items"] if item["id"] == "ANOMALY-DESCENT-HARDENING"),
+            {},
+        )
         if label == "stale T1 pointer":
             item["next_swing"] = "T1 hourly-eligible now, shot in progress"
         elif label == "class realization falsely closed":

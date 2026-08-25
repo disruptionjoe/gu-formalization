@@ -40,7 +40,7 @@ SCOPE = "tests/channel-swings/*_probe.py"
 # Violations present when the lint was installed (2026-08-23): pre-existing debt
 # across 937 probes, none of it introduced by this gate. Lower as probes are
 # repaired; never raise it to make a red go green. Retirement condition: 0.
-LINT_BASELINE = 254
+LINT_BASELINE = 233
 
 # L1: next(...) with no default argument. Regex cannot balance parens, so
 # the call is scanned to its matching close and checked for a top-level comma.

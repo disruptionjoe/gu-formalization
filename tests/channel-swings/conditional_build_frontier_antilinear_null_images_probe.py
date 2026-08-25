@@ -45,6 +45,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     assert isinstance(data, dict) and isinstance(agenda, dict)
     assert all(isinstance(item, str) for item in strings)
     result, lean, readme, ledger, state, next_steps = strings
+    result_flat = " ".join(result.split())
+    state_flat = " ".join(state.split())
 
     check(data["schema_version"] == "1.0", "schema")
     check(data["registered_cbrs1_admissible_candidate_count"] == 0, "empty admitted set")
@@ -57,9 +59,9 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("GU-COMPARATOR-ROUTING-CLASSIFICATION: INTERNAL_STRUCTURAL_ONLY" in result, "routing class")
     check("```gu-typed-objects" in result, "typed objects")
     check("V15-1" in result and "CARRIER-20260810" in result, "corrections explained")
-    check("K-null Lorentzian half" in result and "not a" in result, "Lorentzian transfer ceiling")
-    check("does not imply nullness" in result, "map type does not imply isotropy")
-    check("L10 old-file triage is now eligible only" in result, "conditional L10 fallback")
+    check("K-null Lorentzian half" in result_flat and "not a" in result_flat, "Lorentzian transfer ceiling")
+    check("does not imply nullness" in result_flat, "map type does not imply isotropy")
+    check("L10 old-file triage is now eligible only" in result_flat, "conditional L10 fallback")
 
     for theorem in data["t3"]["theorems"]:
         check(f"theorem {theorem}" in lean, f"Lean theorem {theorem}")
@@ -76,7 +78,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("T3 | Antilinear null-image transversality" in ledger, "T3 ledger row retained")
     check("`LEAN-VERIFIED`; corrected finite" in ledger, "T3 ledger closure")
     check("Post-L9 T3 correction follow-through" in ledger, "execution order closure")
-    check("stable queue's remaining T3" in state, "current state T3")
+    check("stable queue's remaining T3" in state_flat, "current state T3")
     check("T3 ANTILINEAR NULL-IMAGE" in next_steps, "next steps T3")
 
     items = {item["id"]: item for item in agenda["work_items"]}
@@ -87,7 +89,11 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("T3 corrected finite antilinear null-image kernel" in next_swing
           and "are complete" in next_swing, "agenda closes T3")
     check("Rebuild the substantial frontier" in next_swing, "agenda rebuilds frontier")
-    check("park" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"].lower(), "agenda keeps CBRS-1 parked")
+    check(
+        "strongest disjoint non-B2 native gate"
+        in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"],
+        "agenda keeps the empty B2 root out of selection",
+    )
 
     check(data["ledger_verdict_change"] == "none", "ledger unchanged")
     check(data["source_ownership_change"] == "none", "source ownership unchanged")

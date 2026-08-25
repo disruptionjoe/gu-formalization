@@ -54,6 +54,8 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     assert isinstance(data, dict) and isinstance(agenda, dict)
     assert all(isinstance(item, str) for item in strings)
     result, lean, root_lean, readme, ledger, state, next_steps = strings
+    result_flat = " ".join(result.split())
+    state_flat = " ".join(state.split())
 
     check(data["schema_version"] == "1.0", "schema")
     check(data["admissible_candidate_count"] == 0, "empty admitted set")
@@ -69,7 +71,7 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("```gu-typed-objects" in result, "typed objects")
     check("registry-relative" in result, "claim ceiling")
     check("not a universal" in result.lower(), "no universal no-go")
-    check("L10 old-file triage is conditional" in result, "conditional L10 next gate")
+    check("L10 old-file triage is conditional" in result_flat, "conditional L10 next gate")
 
     for theorem in data["l9"]["theorems"]:
         check(f"theorem {theorem}" in lean, f"Lean theorem {theorem}")
@@ -81,14 +83,23 @@ def collect_failures(inputs: dict[str, object]) -> tuple[int, list[str]]:
     check("import GUFormalization.InvolutionProjectorKernels" in root_lean, "default target import")
     check("InvolutionProjectorKernels.lean`" in readme, "Lean README surface")
     check("L9 THEOREMS F AND G` — **DONE" in ledger, "ledger closure")
-    check("abstract inner-involution" in state, "current state L9")
+    check("abstract inner-involution" in state_flat, "current state L9")
     check("L9 ABSTRACT INVOLUTION" in next_steps, "next steps L9")
 
     items = {item["id"]: item for item in agenda["work_items"]}
     check("PROOF-STABLE-KERNELS" in items, "proof agenda item")
-    check("L9 abstract involution/projector kernels are complete" in items["PROOF-STABLE-KERNELS"]["next_swing"], "agenda closes L9")
+    check(
+        "L9 abstract involution/projector kernels"
+        in items["PROOF-STABLE-KERNELS"]["next_swing"]
+        and "are complete" in items["PROOF-STABLE-KERNELS"]["next_swing"],
+        "agenda closes L9",
+    )
     check("Rebuild the substantial frontier" in items["PROOF-STABLE-KERNELS"]["next_swing"], "agenda rebuilds frontier")
-    check("park" in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"].lower(), "agenda keeps CBRS-1 parked")
+    check(
+        "strongest disjoint non-B2 native gate"
+        in items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]["next_swing"],
+        "agenda keeps the empty B2 root out of selection",
+    )
 
     check(data["ledger_verdict_change"] == "none", "ledger unchanged")
     check(data["source_ownership_change"] == "none", "source ownership unchanged")

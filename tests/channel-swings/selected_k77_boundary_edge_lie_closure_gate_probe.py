@@ -16,6 +16,7 @@ from __future__ import annotations
 from collections import Counter
 import json
 from pathlib import Path
+import re
 import sys
 
 import sympy as sp
@@ -116,7 +117,7 @@ check("prior", "the predecessor records the exact rank 25 = 17 + 8 tangent image
 check("prior", "all 51 split generators preserve W and all 40 mixed generators move it",
       "51 generators" in prior and "40 mixed" in prior)
 check("prior", "a group-valued edge frame already exists only conditionally in another boundary packet",
-      "group-valued edge frame" in edge and "conditional" in edge.lower())
+      "group-valued edge frame" in edge and re.search(r"\bconditional\b", edge.lower()) is not None)
 check("source", "the source does not select a W/mirror boundary polarization",
       "SOURCE-SILENT" in source and "physical boundary selector" in source)
 for label in (

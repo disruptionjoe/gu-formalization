@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current-frontier probe-authorship hardening, 2026-08-25.** Twenty mechanical
+failure-detector defects are repaired across the live propagation cohort:
+missing-row lookups now fail under controlled checks, wrapped prose is
+whitespace-normalized before exact phrase assertions, two negation-satisfiable
+predicates require standalone words, and stale historical/current assertions
+now follow the branch-relative owner state. The repository-wide lint ratchet is
+lowered from 254 to 233 residual violations across the resulting 972 probes,
+so the already-proved improvement can no longer absorb one regression. The
+coupled certificate catches 4/4 hostile mutations. This verifies detector
+behavior, not the guarded scientific claims; no source, ledger, SG4,
+prediction, confirmation, canon, release or public posture moves. See
+`explorations/conditional-build/probe-authorship-current-frontier-hardening-2026-08-25.md`.
+
 **Current-frontier semantic-currency hardening, 2026-08-25.** The branch-
 relative orientation surface now separates its single operative
 `next_condition` from preserved `prior_conditions`. The live condition keeps
