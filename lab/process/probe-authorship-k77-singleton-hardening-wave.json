@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_authorship_k77_singleton_hardening_wave_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 190,
+    "probe_corpus": 976,
+    "baseline": 190
+  },
+  "after": {
+    "violations": 171,
+    "probe_corpus": 977,
+    "baseline": 171,
+    "repaired_violations": 19
+  },
+  "repair_packets": [
+    {
+      "id": "FIRST_ACTION_AND_TANGENT_SINGLETONS",
+      "result": "HARDENED",
+      "repaired_violations": 9,
+      "paths": [
+        "tests/channel-swings/selected_k77_cbrs1g_whole_grade_frontier_probe.py",
+        "tests/channel-swings/selected_k77_cbrs1j_complete_tangent_probe.py",
+        "tests/channel-swings/selected_k77_cbrs1o_j4_aligned_hessian_probe.py",
+        "tests/channel-swings/selected_k77_first_action_tangent_closure_probe.py",
+        "tests/channel-swings/selected_k77_moving_epsilon_first_action_completion_probe.py",
+        "tests/channel-swings/selected_k77_common_field_dupsilon_varpi_block_probe.py"
+      ]
+    },
+    {
+      "id": "I2B_SYMBOL_SINGLETONS",
+      "result": "HARDENED",
+      "repaired_violations": 4,
+      "paths": [
+        "tests/channel-swings/selected_k77_i2b_cartan_symbol_involutivity_probe.py",
+        "tests/channel-swings/selected_k77_i2b_observation_contact_spencer_probe.py"
+      ]
+    },
+    {
+      "id": "SR1_AND_COADJOINT_LIVE_SINGLETONS",
+      "result": "HARDENED",
+      "repaired_violations": 6,
+      "paths": [
+        "tests/channel-swings/selected_k77_coadjoint_invariant_variation_gate_probe.py",
+        "tests/channel-swings/selected_k77_sr1c_parallel_two_jet_qualification_probe.py",
+        "tests/channel-swings/selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py"
+      ]
+    }
+  ],
+  "hostile_controls": {
+    "count": 5,
+    "caught": 5,
+    "classes": [
+      "missing_generator_default",
+      "missing_iterator_default",
+      "missing_dictionary_value_default",
+      "empty_singleton_control",
+      "ratchet_certificate_mismatch"
+    ]
+  },
+  "validation": {
+    "green_probes": [
+      "selected_k77_cbrs1g_whole_grade_frontier_probe.py:47/47",
+      "selected_k77_first_action_tangent_closure_probe.py:28/28",
+      "selected_k77_moving_epsilon_first_action_completion_probe.py:400/400",
+      "selected_k77_common_field_dupsilon_varpi_block_probe.py:68/68",
+      "selected_k77_coadjoint_invariant_variation_gate_probe.py:38/38",
+      "selected_k77_i2b_cartan_symbol_involutivity_probe.py:49/49",
+      "selected_k77_i2b_observation_contact_spencer_probe.py:50/50",
+      "selected_k77_sr1c_parallel_two_jet_qualification_probe.py:25/25",
+      "selected_k77_sr1f_observer_qb_vertical_boundedness_probe.py:35/35"
+    ],
+    "inherited_only_failures": [
+      "selected_k77_cbrs1j_complete_tangent_probe.py: all scientific and shape checks pass; inherited stale research-agenda propagation assertion remains",
+      "selected_k77_cbrs1o_j4_aligned_hessian_probe.py: all scientific and shape checks pass; inherited stale agenda/front-door propagation assertion remains"
+    ],
+    "excluded_after_measured_attempt": [
+      "selected_k77_minimal_hessian_tangent_closure_probe.py: stale exact-bank dependency before edited line",
+      "selected_k77_observation_stabilizer_subbundle_probe.py: stale tangent-bank dependency before edited line",
+      "selected_k77_i2b_real_curvature_euler_image_probe.py: stale predecessor exact-bank dependency before edited line",
+      "selected_k77_cbrs1l_broken_symmetry_tangent_probe.py and selected_k77_cbrs1n_j4_complete_tangent_probe.py: redundant high-cost siblings removed after decision-grade 1G/1J coverage"
+    ]
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the repository-wide substantial frontier; repair residual L1/L2 debt only through another semantically reviewed concrete cohort."
+}

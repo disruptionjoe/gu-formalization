@@ -359,9 +359,14 @@ def hook_rep(owner: str, p: int):
 def bilinear(sign: int, left, right):
     left_owners = {key[0] for key in left}
     right_owners = {key[0] for key in right}
-    assert len(left_owners) == len(right_owners) == 1
-    left_owner = next(iter(left_owners))
-    right_owner = next(iter(right_owners))
+    if len(left_owners) != 1 or len(right_owners) != 1:
+        label = "bilinear inputs each retain exactly one owner"
+        if label not in FAILURES:
+            FAILURES.append(label)
+            print(f"FAIL [shape] {label}", flush=True)
+        return Fraction(0)
+    left_owner = next(iter(left_owners), "")
+    right_owner = next(iter(right_owners), "")
     if left_owner == "T" and right_owner == "B":
         return bilinear(sign, right, left)
     total = Fraction(0)

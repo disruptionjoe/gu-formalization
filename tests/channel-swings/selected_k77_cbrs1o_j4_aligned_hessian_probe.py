@@ -374,7 +374,7 @@ for pair, orbit in zip(broken_generators, broken_orbits):
     keys = {component_key(slot, mask) for _, slot, mask in orbit}
     check("orbit", f"broken generator {pair} occupies one canonical component",
           len(keys) == 1)
-    broken_keys.append(next(iter(keys)))
+    broken_keys.append(next(iter(keys), (-1, -1)))
 orbit_rows = sorted({key for orbit in broken_orbits for key in orbit})
 orbit_matrix = sp.Matrix([
     [orbit.get(row, 0) for orbit in broken_orbits] for row in orbit_rows])

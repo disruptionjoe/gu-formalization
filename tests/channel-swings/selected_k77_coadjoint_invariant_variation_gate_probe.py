@@ -216,7 +216,10 @@ print("\nD. CONTROLS AND CLAIM CEILING")
 # predecessor Kirillov matrix maps an algebra parameter to such a charge
 # tangent; test a live column rather than merely asserting invariance.
 kirillov = prior["kirillov"]
-orbit_column = next(kirillov.column(j) for j in range(91) if kirillov.column(j) != 0)
+live_orbit_columns = [kirillov.column(j) for j in range(91) if kirillov.column(j) != 0]
+check("control", "the predecessor Kirillov matrix has a live orbit column",
+      bool(live_orbit_columns))
+orbit_column = next(iter(live_orbit_columns), vector(QQ, kirillov.nrows()))
 check("control", "CONTROL an infinitesimal coadjoint-orbit direction kills all seven derivatives",
       invariant_gradient * orbit_column == vector(QQ, 7))
 check("plant", "PLANT treating the action-owned derivative as orbit tangent is rejected",

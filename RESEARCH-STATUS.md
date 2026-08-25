@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**K77 probe-authorship singleton hardening wave, 2026-08-25.** Nineteen
+crash-not-detection defects are repaired across three coherent K77 packets:
+first-action/tangent singleton extraction, I2B symbol extraction and
+SR1/coadjoint live-object extraction. Missing owner sets, sparse cells, pivots
+and live columns now reach controlled falsey checks or safe sentinels rather
+than exception-only exits. Nine touched probes replay fully green; CBRS-1J and
+CBRS-1O retain only their inherited stale agenda/front-door propagation
+assertions after every scientific and shape check passes. The lint ratchet
+falls from 190 to 171 residual L1/L2 reports across 977 probes, and the coupled
+certificate catches 5/5 hostile controls. No source claim, scientific verdict,
+action owner, ledger row, SG4 phase, prediction, confirmation, paper, canon,
+release readiness or public posture moves. See
+`explorations/conditional-build/k77-probe-authorship-singleton-hardening-wave-2026-08-25.md`.
+
 **Source-meta philosophy and process adherence wave, 2026-08-25.** The two
 remaining author-voiced meta rows now have exact source-handling verdicts.
 `SC-META-02` moves `UNTYPED -> PARTIAL`: the repository directly engages the

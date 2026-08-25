@@ -142,13 +142,17 @@ for column, (u, q_u) in enumerate(zip(grade1, q_grade1)):
 check("theorem", "constant b and t mixed components vanish coefficientwise",
       not mixed_constant and not mixed_b and not mixed_t)
 
-horizontal_keys = {
-    next(iter(M["flatten"](value)))
-    for value in P["P"]["P"]["horizontal_basis"]
-}
+def singleton_flat_key(value):
+    flattened = M["flatten"](value)
+    return next(iter(flattened), None) if len(flattened) == 1 else None
+
+
+horizontal_keys = {singleton_flat_key(value) for value in P["P"]["P"]["horizontal_basis"]}
+check("shape", "every horizontal basis value has exactly one flattened key",
+      None not in horizontal_keys)
 horizontal_rows = [
     row for row, value in enumerate(grade2)
-    if next(iter(M["flatten"](value))) in horizontal_keys
+    if singleton_flat_key(value) in horizontal_keys
 ]
 offslice_rows = [row for row in range(1274) if row not in set(horizontal_rows)]
 check("exact", "actual repository basis splits grade two into horizontal 24 and off-slice 1250",

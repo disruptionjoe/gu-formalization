@@ -110,13 +110,13 @@ check("carrier", "both selected point-carrier rays stay normal to the adapted Lo
       and support_outside_observed(SR1E["mixed_plane"]["T"]))
 check("residual", "each selected residual still has one Lambda13-Cl1 cell",
       all(len(M["flatten"](value)) == 1
-          and next(iter(M["flatten"](value)))[0].bit_count() == 13
-          and next(iter(M["flatten"](value)))[1].bit_count() == 1
+          and next(iter(M["flatten"](value)), (0, 0))[0].bit_count() == 13
+          and next(iter(M["flatten"](value)), (0, 0))[1].bit_count() == 1
           for value in (positive_residual, mixed_residual)))
 check("hodge", "Hodge sends both residuals to one normal one-form Cl1 cell",
       all(len(M["flatten"](value)) == 1
-          and next(iter(M["flatten"](value)))[0].bit_count() == 1
-          and next(iter(M["flatten"](value)))[1].bit_count() == 1
+          and next(iter(M["flatten"](value)), (0, 0))[0].bit_count() == 1
+          and next(iter(M["flatten"](value)), (0, 0))[1].bit_count() == 1
           and support_outside_observed(value)
           for value in (positive_hodge, mixed_hodge)))
 

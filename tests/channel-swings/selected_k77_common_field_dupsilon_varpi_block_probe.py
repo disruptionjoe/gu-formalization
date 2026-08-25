@@ -64,10 +64,14 @@ check("source", "source prints the varpi-direction residual Upsilon",
       and r"\Upsilon^B_\omega" in source)
 check("source", "source prints Xi as exterior-covariant D-omega Upsilon redundancy",
       r"\Xi_\omega=D_\omega\Upsilon_\omega" in source and "redundant" in source)
-source_row = next(row for row in collision["rows"] if row["id"] == "PW2F-SRC-10-VARIATION-AND-PAIRING-OWNERSHIP")
+source_row = next(
+    (row for row in collision["rows"]
+     if row.get("id") == "PW2F-SRC-10-VARIATION-AND-PAIRING-OWNERSHIP"),
+    {},
+)
 check("source", "source remains silent on the complete epsilon and metric owner policy",
-      source_row["disposition"] == "SOURCE-SILENT"
-      and "epsilon/metric owner policy" in source_row["collision"])
+      source_row.get("disposition") == "SOURCE-SILENT"
+      and "epsilon/metric owner policy" in source_row.get("collision", ""))
 for label in (
     "first-action zero-jet Hessian versus raw residual Frechet Jacobian",
     "D-omega Upsilon exterior prolongation versus D-epsilon Upsilon field derivative",

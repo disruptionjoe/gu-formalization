@@ -94,7 +94,10 @@ print("\nC. LIVE TRANSVERSE DIFFERENTIAL OF THE LOCAL EULER FORMULA")
 # solved point value of s before differentiating erases this live derivative.
 A = P["J"]["action_matrix"]
 check("prior", "the symmetric-DT action map has exact rank 195", A.rank() == 195)
-live_column_index = next(index for index in range(A.ncols()) if A.column(index))
+live_column_index = next((index for index in range(A.ncols()) if A.column(index)), None)
+check("prior", "the symmetric-DT action map has a live column",
+      live_column_index is not None)
+live_column_index = 0 if live_column_index is None else live_column_index
 delta_s = vector(QQ, [1 if index == live_column_index else 0 for index in range(A.ncols())])
 delta_et = A * delta_s
 delta_eb = 2 * delta_et

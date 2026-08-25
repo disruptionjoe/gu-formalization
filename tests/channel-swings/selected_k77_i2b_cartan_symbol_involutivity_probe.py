@@ -109,11 +109,13 @@ def signature(value: dict) -> tuple[int, int] | None:
     if not value:
         return None
     if len(value) != 1:
-        raise AssertionError("principal response is no longer one-cell sparse")
-    mask, clifford = next(iter(value.items()))
+        check("shape", "principal response remains one-cell sparse", False)
+        return None
+    mask, clifford = next(iter(value.items()), (None, {}))
     if len(clifford) != 1:
-        raise AssertionError("principal Clifford response is no longer one-cell sparse")
-    return mask, next(iter(clifford))
+        check("shape", "principal Clifford response remains one-cell sparse", False)
+        return None
+    return mask, next(iter(clifford), -1)
 
 
 signatures = [[signature(value) for value in direction] for direction in responses]

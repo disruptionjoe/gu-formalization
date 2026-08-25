@@ -75,10 +75,17 @@ primitive_parent = C["P"]
 primitive = primitive_parent["P"]
 linear_combination = primitive["linear_combination"]
 horizontal_basis = primitive["horizontal_basis"]
-horizontal_keys = {next(iter(M["flatten"](u))) for u in horizontal_basis}
+def singleton_flat_key(value):
+    flattened = M["flatten"](value)
+    return next(iter(flattened), None) if len(flattened) == 1 else None
+
+
+horizontal_keys = {singleton_flat_key(u) for u in horizontal_basis}
+check("shape", "every horizontal basis value has exactly one flattened key",
+      None not in horizontal_keys)
 horizontal_rows = {
     row for row, u in enumerate(grade2)
-    if next(iter(M["flatten"](u))) in horizontal_keys
+    if singleton_flat_key(u) in horizontal_keys
 }
 offslice_rows = set(range(len(grade2))) - horizontal_rows
 BRANCHES = (

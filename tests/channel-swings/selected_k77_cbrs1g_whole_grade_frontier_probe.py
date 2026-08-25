@@ -186,8 +186,10 @@ check("signature", "the distinguished positive axis leaves six positive and seve
 check("planted", "PLANT signature classes are not inferred from contiguous index ranges",
       positive_ordinary != tuple(range(1, 7))
       and negative != tuple(range(7, 14)))
-check("symmetry", "the anisotropic background coefficient is constant on all thirteen peer axes",
-      len({next(iter(background_t[1 << slot].values())) for slot in range(1, N)}) == 1)
+peer_coefficients = [next(iter(background_t[1 << slot].values()), None) for slot in range(1, N)]
+check("symmetry", "the anisotropic background coefficient is present and constant on all thirteen peer axes",
+      all(value is not None for value in peer_coefficients)
+      and len(set(peer_coefficients)) == 1)
 
 
 def axis_kind(slot: int) -> str:

@@ -131,12 +131,14 @@ check("fingerprint", "each directional response has support rank 182",
 def signature(value: dict) -> tuple[int, int] | None:
     if not value:
         return None
-    check_outer = len(value) == 1
-    mask, clifford = next(iter(value.items()))
-    check_inner = len(clifford) == 1
-    if not (check_outer and check_inner):
-        raise AssertionError("principal response ceased to be a one-cell residual")
-    return mask, next(iter(clifford))
+    if len(value) != 1:
+        check("shape", "principal response remains a one-cell residual", False)
+        return None
+    mask, clifford = next(iter(value.items()), (None, {}))
+    if len(clifford) != 1:
+        check("shape", "principal Clifford response remains a one-cell residual", False)
+        return None
+    return mask, next(iter(clifford), -1)
 
 
 signatures = [[signature(value) for value in direction] for direction in responses]
