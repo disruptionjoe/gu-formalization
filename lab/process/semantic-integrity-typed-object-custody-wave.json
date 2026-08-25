@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "semantic_integrity_typed_object_custody_certificate",
+  "created": "2026-08-25",
+  "status": "PASS",
+  "method_refs": [
+    "process_gates/typed_carrier_declaration_audit.py",
+    "process_gates/kill_target_claim_audit.py",
+    "tests/channel-swings/current_frontier_semantic_currency_audit.py"
+  ],
+  "typed_object_custody": {
+    "before_red": 46,
+    "after_red": 0,
+    "before_blocks": 177,
+    "after_blocks": 181,
+    "repaired_existing_blocks": 12,
+    "added_blocks": 3,
+    "paths": [
+      "explorations/program-velocity-council-2026-08-23.md",
+      "explorations/ext-gr-benchmark-bench-widening-council-2026-08-23.md",
+      "explorations/conditional-build/ext-sm-cosmo-anchors-acceptance-and-descents-2026-08-23.md",
+      "explorations/conditional-build/selected-k77-ltgr8-f1-pobs-pipeline-binding-2026-08-23.md",
+      "explorations/conditional-build/selected-k77-ltgr8-heldout-consequence-reservation-protocol-2026-08-23.md",
+      "explorations/conditional-build/ext-gr-anchors-reverse-track-descents-r5-to-r3-2026-08-23.md",
+      "explorations/conditional-build/selected-k77-ltgr8-f0-mixed-wedge-heldout-readmission-2026-08-23.md",
+      "explorations/conditional-build/conditional-physics-ledger-v0.261.md",
+      "explorations/conditional-build/d4-contraction-rank-is-j-independent-2026-08-23.md",
+      "explorations/conditional-build/ledger-advance-wave-result-2026-08-23.md",
+      "explorations/conditional-build/conditional-benchmark-delta-integration-2026-08-23.md",
+      "explorations/conditional-build/selected-k77-ltgr8-reverse-track-descent-r6-to-r3-2026-08-23.md",
+      "lab/active-research/joe-directed/bit1-price/bp2-nonuniform-corner-decoupling-owner-census-2026-08-20.md",
+      "lab/active-research/joe-directed/soldered-ad/sa2-two-lorentz-source-package-classifier-2026-08-20.md",
+      "lab/process/hostile-reviews/2026-08-20-joe-directed-three-conditional-compositions-review.md"
+    ]
+  },
+  "kill_target_custody": {
+    "before_red": 3,
+    "after_red": 0,
+    "baseline_after": 0,
+    "paths": [
+      "explorations/conditional-build/selected-k77-zorro-dewitt-trace-curvature-obstruction-2026-08-14.md",
+      "lab/process/hostile-reviews/2026-08-14-selected-k77-regular-cartan-global-realization-obstruction-review.md",
+      "lab/process/hostile-reviews/2026-08-14-selected-k77-opposite-edge-dependent-selector-obstruction-review.md"
+    ]
+  },
+  "frontier_currency": {
+    "before_red": 1,
+    "after_red": 0,
+    "agenda_sha256": "7134940d4fbb51d280245cd567a316de56fc1a0b7ae05d38809641cf097b020a",
+    "probe_authorship_state": "107/983"
+  },
+  "hostile_controls": {
+    "count": 7,
+    "caught": 7,
+    "classes": [
+      "bad_layer_token",
+      "bad_map_type",
+      "untokened_action_owner",
+      "pairing_without_carrier",
+      "missing_typed_object_block",
+      "untyped_negative_target",
+      "stale_agenda_digest"
+    ]
+  },
+  "excluded_author_reserved_backlog": {
+    "source_native_comparator_unclassified": 5,
+    "reason": "Four artifacts have no author-declared type and one has contradictory author prose; later committers may not guess."
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  }
+}

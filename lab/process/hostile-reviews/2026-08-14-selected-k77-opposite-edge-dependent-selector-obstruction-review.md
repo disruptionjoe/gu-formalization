@@ -3,6 +3,8 @@ artifact_type: hostile_result_review
 created: 2026-08-14
 status: PASS_AS_CHARGE_ONLY_EQUIVARIANT_SELECTOR_NO_GO__UNIVERSAL_EDGE_AND_PHYSICAL_PROMOTIONS_REJECTED
 subject: explorations/conditional-build/selected-k77-opposite-edge-dependent-selector-obstruction-2026-08-14.md
+target_claim: NONE-NOT-A-KILL
+target_claim_note: "Reviews the repository-internal charge-only equivariant-selector obstruction; independent-edge and physical routes remain open."
 ---
 
 # Hostile review: opposite-edge dependent selector obstruction

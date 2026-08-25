@@ -39,12 +39,12 @@ grows. Mechanism commitment and confirmation credit are NONE.
 
 ```gu-typed-objects
 result: two accepted R6 anchors with frozen R5/R4/R3 demand packets, two R2/R1 interfaces, and the consolidated owner ledger extended to seven owners (v2, superset-checked against v1)
-carrier: none constructed -- demands bind a hypothesized observed 3+1 system LAYER=target-side CHIRALITY=observed-side demand only; total-theory chirality is NOT part of the benchmark
-pairing: none constructed; the SM R3 packet DEMANDS a positive or Krein-superselected physical quotient (LT-SM8, K109 entry gate)
+carrier: demands over a hypothesized observed 3+1 system LAYER=observed CHIRALITY=N/A; total-theory chirality is not part of the benchmark
+pairing: demanded positive or Krein-superselected form, not constructed ON=future-physical-quotient
 real_structure: N/A at specification grade
 grading: N/A at specification grade
-action_owner: none -- no gauge sector, breaking mechanism, count, background or expansion history is selected or constructed
-target: the EXT-SM-STRUCTURE and EXT-COSMO-BACKGROUND realization obligations MAP-TYPE=demand-specification
+action_owner: N/A -- no gauge sector, breaking mechanism, count, background or expansion history is selected or constructed
+target: the EXT-SM-STRUCTURE and EXT-COSMO-BACKGROUND realization obligations MAP-TYPE=not-a-map
 ```
 
 ## Acceptance

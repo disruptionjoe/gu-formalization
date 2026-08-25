@@ -31,12 +31,12 @@ softening them.
 
 ```gu-typed-objects
 result: 24 diagnoses of program velocity across eight lenses, with dissents preserved, plus a prioritized action plan including explicit refusals
-carrier: program process, scheduler behavior, ledger and surface maintenance LAYER=process CHIRALITY=N/A
+carrier: program process, scheduler behavior, ledger and surface maintenance LAYER=UNTYPED CHIRALITY=N/A
 pairing: diagnosis paired to checkable repository facts where one exists ON=repository-history
 real_structure: N/A
 grading: opinion at council grade; every cited fact is checkable, every judgement is labelled as such
-action_owner: none -- no physics object is introduced
-target: program velocity MAP-TYPE=diagnosis
+action_owner: N/A -- no physics object is introduced
+target: program velocity MAP-TYPE=not-a-map
 ```
 
 ---

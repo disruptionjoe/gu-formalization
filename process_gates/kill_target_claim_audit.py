@@ -54,9 +54,9 @@ LEDGER_GLOB = "lab/process/conditional-physics-ledger-v0.*.json"
 # exclusion. This is the gate's documented retirement condition.
 LEDGER_BASELINE = 0
 # Reds present when scope was widened from `explorations/` to the whole repo
-# (2026-08-14).  These are pre-existing, owned elsewhere, and enumerated in the
-# control-change record.  Never raise this to make a new red go green.
-SCOPE_BASELINE = 3
+# (2026-08-14) were typed on 2026-08-25. The scope baseline is now retired at
+# zero; never raise it to make a new red go green.
+SCOPE_BASELINE = 0
 CUTOFF = "2026-08-12"
 # House style writes results both in prose ("route killed") and in
 # UNDERSCORE_CAPS tokens ("..._ROUTE_KILLED"); underscores are word chars,

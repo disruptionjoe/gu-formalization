@@ -33,12 +33,12 @@ instantiation of any demand on an actual background remains CBRS-blocked.
 
 ```gu-typed-objects
 result: frozen R5/R4/R3 demand packets for the three accepted gravitational anchors, three R2/R1 interfaces, and one consolidated five-owner R1 demand ledger with triangulation counts
-carrier: none constructed -- demands are stated over a hypothesized observed 3+1 Lorentzian system LAYER=target-side CHIRALITY=N/A
-pairing: none constructed
+carrier: demands over a hypothesized observed 3+1 Lorentzian system LAYER=observed CHIRALITY=N/A
+pairing: NONE
 real_structure: N/A at specification grade
 grading: N/A at specification grade
-action_owner: none -- no action term, coefficient, background, matter coupling or spectrum is selected; every dependency is labeled comparator-driven and frozen before any target-facing comparison
-target: the EXT-GR-STRONGFIELD, EXT-GR-PPN and EXT-GR-ROTATION realization obligations MAP-TYPE=demand-specification
+action_owner: N/A -- no action term, coefficient, background, matter coupling or spectrum is selected; every dependency is labeled comparator-driven and frozen before any target-facing comparison
+target: the EXT-GR-STRONGFIELD, EXT-GR-PPN and EXT-GR-ROTATION realization obligations MAP-TYPE=not-a-map
 ```
 
 ## Descent A — EXT-GR-STRONGFIELD

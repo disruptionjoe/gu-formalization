@@ -36,12 +36,12 @@ remain NONE.
 
 ```gu-typed-objects
 result: the held-out consequence family (primary and fallback), its selection rule, and the packet-time reservation protocol, frozen before any packet exists
-carrier: none constructed -- preregistration objects only LAYER=protocol CHIRALITY=N/A
-pairing: none constructed
+carrier: process-level preregistration family, not a mathematical carrier LAYER=UNTYPED CHIRALITY=N/A
+pairing: NONE
 real_structure: N/A at protocol grade
 grading: N/A at protocol grade
-action_owner: none -- no action, packet, consequence value, dataset read, or comparison statistic is constructed; recorded W113 dark-energy numbers are cited at their recorded grade as ALREADY-READ and therefore inadmissible as held-out data
-target: LT-GR8 demand D6 MAP-TYPE=preregistration
+action_owner: N/A -- no action, packet, consequence value, dataset read, or comparison statistic is constructed; recorded W113 dark-energy numbers are cited at their recorded grade as ALREADY-READ and therefore inadmissible as held-out data
+target: LT-GR8 demand D6 MAP-TYPE=not-a-map
 ```
 
 ## Result first

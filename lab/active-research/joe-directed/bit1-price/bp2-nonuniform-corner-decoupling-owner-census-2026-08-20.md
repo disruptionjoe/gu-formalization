@@ -38,6 +38,16 @@ scripts:
 
 # BP2 — non-uniform corner-decoupling owner census
 
+```gu-typed-objects
+result: conditional rank and kernel formula for the minimum non-uniform family incidence, with no owned physical decoupling map
+carrier: M_3 tensor S_16 family-stage domain and L_selected tensor W codomain LAYER=toy CHIRALITY=S-CHIRALITY-UNTYPED
+pairing: NONE
+real_structure: complex modules with the conjugate half retained independently
+grading: family-index grading and unbarred-versus-conjugate-half split
+action_owner: repository-construction -- the incidence is conditional and no source action owns a decoupling map
+target: the conditional family-stage incidence map MAP-TYPE=homomorphism
+```
+
 ## Result first
 
 Accept B1P1's declared support theorem

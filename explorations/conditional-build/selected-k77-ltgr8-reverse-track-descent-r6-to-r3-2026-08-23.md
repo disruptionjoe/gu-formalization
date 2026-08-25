@@ -32,12 +32,12 @@ remain NONE; reverse-only success remains compatibility.
 
 ```gu-typed-objects
 result: the reverse track's target-side rungs frozen as typed demand packets (R5 accounting, R4 boundary/algebra, R3 constraints/state space) plus the terminal R2/R1 demand interface
-carrier: none constructed -- demands are stated over a hypothesized observed 3+1 Lorentzian system LAYER=target-side CHIRALITY=N/A
-pairing: none constructed; the R3 packet DEMANDS a positive or Krein-superselected physical pairing and cites the K109 entry gate
+carrier: demands over a hypothesized observed 3+1 Lorentzian system LAYER=observed CHIRALITY=N/A
+pairing: demanded positive or Krein-superselected form, not constructed ON=future-physical-quotient
 real_structure: N/A at specification grade
 grading: N/A at specification grade
-action_owner: none -- no action term, boundary law, state, ensemble, contour or measure is selected; every dependency is labeled comparator-driven and frozen before any target-facing comparison
-target: LT-GR8's realization obligation, approached from the benchmark side MAP-TYPE=demand-specification
+action_owner: N/A -- no action term, boundary law, state, ensemble, contour or measure is selected; every dependency is labeled comparator-driven and frozen before any target-facing comparison
+target: LT-GR8's realization obligation, approached from the benchmark side MAP-TYPE=not-a-map
 ```
 
 ## Rung registry and execution order

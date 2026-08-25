@@ -23,8 +23,8 @@ benchmarks to existing rows without minting duplicates.
 
 ```gu-typed-objects
 result: three external gravitational targets appended and two external benchmark anchors linked to existing realization rows
-carrier: append-only conditional-physics ledger and observed-side comparator records
-pairing: each external benchmark paired only with its explicitly linked GU realization obligations
+carrier: append-only conditional-physics ledger and observed-side comparator records LAYER=UNTYPED CHIRALITY=N/A
+pairing: each external benchmark paired only with its explicitly linked GU realization obligations ON=ledger-rows
 real_structure: N/A
 grading: scoped benchmark integration; native realizations retain their prior grades
 action_owner: repository-construction -- no source action or coefficient is introduced

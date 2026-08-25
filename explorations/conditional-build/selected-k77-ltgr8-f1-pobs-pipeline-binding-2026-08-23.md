@@ -36,12 +36,12 @@ reads no data.
 
 ```gu-typed-objects
 result: F1's confrontation is bound to the P-OBS wake and the frozen PP1/PP3 kill surfaces as its sole execution machinery, with a five-step release checklist
-carrier: none constructed LAYER=protocol CHIRALITY=N/A
-pairing: none constructed
+carrier: process-level preregistration pathway, not a mathematical carrier LAYER=UNTYPED CHIRALITY=N/A
+pairing: NONE
 real_structure: N/A at protocol grade
 grading: N/A at protocol grade
-action_owner: none -- no statistic, surface, dataset, packet or observable is created or modified; PP1/PP3 remain frozen exactly as recorded
-target: the D6/F1 execution pathway MAP-TYPE=binding
+action_owner: N/A -- no statistic, surface, dataset, packet or observable is created or modified; PP1/PP3 remain frozen exactly as recorded
+target: the D6/F1 execution pathway MAP-TYPE=not-a-map
 ```
 
 ## The binding

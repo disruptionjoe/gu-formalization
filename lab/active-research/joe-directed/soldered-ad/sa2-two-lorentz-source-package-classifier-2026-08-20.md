@@ -62,6 +62,16 @@ scripts:
 
 # SA-2 — two Lorentz embeddings, one exact source-package discriminator
 
+```gu-typed-objects
+result: exact conditional classification of the F, M_3, 16, 144 and 16 tensor 144 packages under the block and endogenous Lorentz embeddings
+carrier: source-printed external-spin and internal-partner packages under two repository-constructed restrictions LAYER=source-print CHIRALITY=S-CHIRALITY-UNTYPED
+pairing: invariant tensor pairing used for the simultaneous-fixed-vector test ON=16-tensor-144
+real_structure: split so(6,4) with complexified weight computation
+grading: doubled Lorentz weights and Pati-Salam owner-summand grading
+action_owner: repository-construction -- the restrictions classify source custody but do not select a physical Lorentz embedding
+target: source-package modules under so(1,3)_H and so(1,3)_endo MAP-TYPE=restriction
+```
+
 ## Result in plain language
 
 The already-soldered bundle contains two genuinely different candidates for

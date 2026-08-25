@@ -22,8 +22,8 @@ canon_verdict_change: none
 
 ```gu-typed-objects
 result: two cursor-ordered conditional evidence deltas incorporated into ledger v0.261
-carrier: append-only conditional-physics ledger and benchmark registries
-pairing: scoped external targets paired only with their named realization rows
+carrier: append-only conditional-physics ledger and benchmark registries LAYER=UNTYPED CHIRALITY=N/A
+pairing: scoped external targets paired only with their named realization rows ON=ledger-rows
 real_structure: N/A
 grading: ledger integration; no new physics computation
 action_owner: repository-construction -- no source action or parameter is introduced

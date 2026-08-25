@@ -2,6 +2,8 @@
 artifact_type: hostile_result_review
 created: 2026-08-14
 status: SCOPED_SURVIVES__UNIVERSAL_NO_GO_REJECTED
+target_claim: NONE-NOT-A-KILL
+target_claim_note: "Reviews a repository-internal untwisted-product globalization obstruction and explicitly rejects a universal/source-global no-go."
 ---
 
 # Hostile review: regular-Cartan globalization obstruction

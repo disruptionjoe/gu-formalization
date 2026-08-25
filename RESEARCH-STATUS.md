@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-25 — Semantic-integrity typed-object custody wave
+
+All 46 typed-object declaration reds are closed across fifteen existing
+artifacts. Twelve malformed blocks now use the repository's closed layer,
+chirality, owner and map vocabularies, and three previously missing blocks type
+their actual representation-theory, incidence and hostile-review objects.
+Where a process surface or combined review has no single mathematical carrier
+or arrow, it says `UNTYPED` or `not-a-map`; the repair does not replace honest
+ambiguity with a plausible token.
+
+Three inherited negative-result surfaces now bind their kill language to the
+actual repository-internal candidate or obstruction rather than to an unnamed
+source claim, lowering the kill-target scope baseline from three to zero. The
+current-frontier certificate is also rebound to the live agenda and the 107/
+983 authorship state after its coupled probe enters the corpus. Typed-object
+and kill-target gates pass at zero reds;
+their planted controls remain effective. This is semantic custody only: source
+claims, all 91 v0.263 ledger dispositions, action ownership, SG4, predictions,
+confirmations, papers, canon, release readiness and public posture remain
+unchanged. See
+`explorations/semantic-integrity-typed-object-custody-wave-2026-08-25.md`.
+
 ## 2026-08-25 — Probe-authorship control-flow hardening wave
 
 Seven semantically reviewed crash-not-detection seams are repaired across four

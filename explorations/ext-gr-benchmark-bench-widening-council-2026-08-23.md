@@ -34,12 +34,12 @@ recovery is compatibility. Acceptance authority is Joe (direct chat,
 
 ```gu-typed-objects
 result: three scoped external benchmark rows accepted (strong-field, PPN, rotation-curve), each with recorded in-repo state, required separations and claim ceiling
-carrier: none constructed -- benchmark statements bind observed phenomenology, not GU objects LAYER=R6 CHIRALITY=N/A
-pairing: none constructed
+carrier: benchmark statements over observed phenomenology, not GU objects LAYER=observed CHIRALITY=N/A
+pairing: NONE
 real_structure: N/A at benchmark grade
 grading: N/A at benchmark grade
-action_owner: none -- no action, background, reduction or observable is constructed; each anchor's GU/K77 realization is a missing construction
-target: the external benchmark register MAP-TYPE=acceptance
+action_owner: N/A -- no action, background, reduction or observable is constructed; each anchor's GU/K77 realization is a missing construction
+target: the external benchmark register MAP-TYPE=evaluation
 ```
 
 ## EXT-GR-STRONGFIELD — vacuum strong-field phenomenology

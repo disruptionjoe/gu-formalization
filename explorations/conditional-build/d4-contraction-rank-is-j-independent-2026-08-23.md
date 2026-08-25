@@ -24,11 +24,11 @@ canon_verdict_change: none
 
 ```gu-typed-objects
 result: the rank-10 / kernel-95 D4 contraction certificate is independent of the section jet J, so it holds identically at the Riemannian reduction; the proposed non-metricity retyping does not bind it
-carrier: D = [I_4 ; J] as a 14x4 real matrix and the induced map on Sym^2 LAYER=typing CHIRALITY=N/A
-pairing: none beyond the symmetric square; no metric pairing is used in the rank argument
+carrier: D = [I_4 ; J] as a 14x4 real matrix and the induced map on Sym^2 LAYER=toy CHIRALITY=N/A
+pairing: symmetric-square contraction T maps to transpose(D) T D ON=Sym2-of-the-14-dimensional-model
 real_structure: real
 grading: degree-two symmetric tensors
-action_owner: none -- no action, coefficient or field content is introduced
+action_owner: repository-construction -- no source action, coefficient or field content is introduced
 target: the scope of a proposed retyping MAP-TYPE=evaluation
 ```
 

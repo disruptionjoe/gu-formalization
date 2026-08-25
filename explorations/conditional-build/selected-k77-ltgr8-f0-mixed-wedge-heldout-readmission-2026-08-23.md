@@ -31,12 +31,12 @@ tensor, no thermodynamic object, and reads no target-facing value.
 
 ```gu-typed-objects
 result: family F0 admitted -- a packet-internal held-out zero test on one frozen mixed null direction, evaluating in addition to (never instead of) the selected external family
-carrier: future observed orthonormal tetrad with metric diag(-1,+1,+1,+1), minus-first, declared locally for this observed-side tetrad only; no carrier is constructed LAYER=observed-packet-grade CHIRALITY=N/A
+carrier: future observed orthonormal tetrad with metric diag(-1,+1,+1,+1), minus-first, declared locally for this observed-side tetrad only; no carrier is constructed LAYER=observed CHIRALITY=N/A
 pairing: tensor contraction k^a R_ab k^b on frozen null directions; no state or Hilbert pairing is constructed ON=future-instantiated-observed-system
 real_structure: real
 grading: degree-zero symmetric tensor response
-action_owner: none -- R_ab remains a typed future residual placeholder whose owners are the D1-D5 dependencies
-target: LT-GR8 demand D6 family amendment MAP-TYPE=evaluation-functional
+action_owner: N/A -- R_ab remains a typed future residual placeholder whose owners are the D1-D5 dependencies
+target: LT-GR8 demand D6 family amendment MAP-TYPE=evaluation
 ```
 
 ## Provenance and ratification

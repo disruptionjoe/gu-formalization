@@ -30,6 +30,16 @@ canonical_effect: none
 
 # Hostile review — three conditional compositions
 
+```gu-typed-objects
+result: independent hostile-review verdict after four bounded repairs across SA2, BP2 and Z3R2
+carrier: three distinct repository constructions reviewed together LAYER=UNTYPED CHIRALITY=S-CHIRALITY-UNTYPED
+pairing: hostile charges paired with their producing artifacts and exact probes ON=reviewed-artifact-set
+real_structure: UNTYPED across the combined review set
+grading: conditional exact cores plus adversarial review; no physical selection
+action_owner: N/A -- the review introduces no source action or physical owner
+target: the three conditional-composition results MAP-TYPE=evaluation
+```
+
 ## Verdict first
 
 The initial wave was scientifically useful and its three exact cores survived,

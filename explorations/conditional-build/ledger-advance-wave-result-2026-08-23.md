@@ -32,12 +32,12 @@ and states what is actually worth doing.
 
 ```gu-typed-objects
 result: zero verified ledger upgrades from thirty-eight proposals; a five-class failure taxonomy; a verified grant partition with two unintegrated collapses; three verified structural blockers; two corrections to the commissioning ranking
-carrier: the canonical ledger v0.262 and the source-claim register LAYER=survey CHIRALITY=N/A
+carrier: the canonical ledger v0.262 and the source-claim register LAYER=UNTYPED CHIRALITY=N/A
 pairing: proposed upgrades paired against independent refutation ON=recorded-artifacts
 real_structure: N/A
 grading: survey and adjudication at wave grade; every claim reproduced below was re-verified against the live ledger by the author
-action_owner: none -- no action, coefficient or physics object is introduced
-target: ledger upgradeability MAP-TYPE=survey
+action_owner: N/A -- no action, coefficient or physics object is introduced
+target: ledger upgradeability MAP-TYPE=evaluation
 ```
 
 ## The headline

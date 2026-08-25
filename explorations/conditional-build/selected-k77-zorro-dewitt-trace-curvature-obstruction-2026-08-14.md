@@ -7,6 +7,8 @@ lane_id: SRC-RES-COH-01
 registry: lab/process/selected-k77-zorro-dewitt-trace-curvature-obstruction.json
 canon_verdict_change: none
 ledger_row_changes: none
+target_claim: NONE-NOT-A-KILL
+target_claim_note: "Kills only the two frozen repository-reconstructed nonzero Zorro/DeWitt branch candidates; the source-global completion remains open."
 ---
 
 # K77 Zorro/DeWitt trace-curvature obstruction
