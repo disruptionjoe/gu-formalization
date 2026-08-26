@@ -517,7 +517,7 @@ def run_probe(cfg: dict | None = None) -> dict:
           not any(per[c]["aged"] for c in CANON_IDS if c in per))
 
     cfg_t2 = copy.deepcopy(cfg_t)
-    cfg_t2["drop_check_ids"] = _fixa_drops()
+    cfg_t2["drop_check_ids"] = _fixa_drops() + _live_extension_drops()
     rt2 = G.ratchet_failures(G.compute(cfg_t2))
     check("T", "aged with the six repairs dropped: the ratchet BREAKS (dirty grew past baseline)",
           len(rt2) >= 1 and any("RATCHET BROKEN" in s for s in rt2), rt2[:2])
@@ -613,8 +613,22 @@ def _m_all_register_token(cfg):
     cfg["all_register_token"] = "NOT-A-REAL-TOKEN"
 
 
+def _live_extension_drops():
+    sidecar = yaml.safe_load(
+        (ROOT / "lab" / "process" / "canonical-currency-checks.yaml")
+        .read_text(encoding="utf-8")
+    )
+    return tuple(
+        (str(c.get("file")), str(c.get("correction_id")), str(c.get("by")))
+        for c in sidecar.get("checks", [])
+        if c.get("by") not in SEED_AUTHORS
+        and (c.get("correction_id") == "ALL-REGISTER"
+             or c.get("correction_id") in set(CANON_IDS))
+    )
+
+
 def _m_drop_repairs(cfg):
-    cfg["drop_check_ids"] = _fixa_drops()
+    cfg["drop_check_ids"] = _fixa_drops() + _live_extension_drops()
 
 
 def _m_empty_family(cfg):

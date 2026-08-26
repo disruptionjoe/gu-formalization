@@ -31,6 +31,15 @@ cross_repo:
 
 # W224 -- Falsification probe: the Nielsen-Ninomiya chirality no-go against GU
 
+> [!CAUTION]
+> **Canonical chirality/VEV correction (2026-08-26).** This historical probe
+> tests a repository-built mirror-gapping/SMG route; it does not exhaust
+> source-native chirality. `SC-CHI-01` asserts a hedged VEV-conditional
+> emergent split, and SG4 bit 2 remains the open selector. The statements below
+> that chirality is produced *only* by the condensate are superseded. Neither
+> the source mechanism nor its action is built; the Nielsen--Ninomiya, anomaly
+> and SMG calculations remain unchanged.
+
 Test / falsification certificate: `tests/W224_falsify_nielsen_ninomiya_chirality.py` (exit 0,
 positive controls first). Five perspectives ran INLINE in one worker (lattice / Nielsen-Ninomiya
 specialist; index-theory / overlap-Ginsparg-Wilson specialist; domain-wall / Y14-projection

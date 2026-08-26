@@ -15,6 +15,15 @@ scripts:
 
 # W222 -- Falsification probe: does GU's 4D shadow give the actual Standard Model?
 
+> [!CAUTION]
+> **Canonical chirality/VEV correction (2026-08-26).** This historical probe
+> tests a repository-built mirror-gapping/SMG route; it does not exhaust
+> source-native chirality. `SC-CHI-01` asserts a hedged VEV-conditional
+> emergent split, and SG4 bit 2 remains the open selector. The statements below
+> that chirality is produced *only* by the condensate are superseded. Neither
+> the source mechanism nor its action is built; the anomaly and hypercharge
+> computations remain unchanged.
+
 ## The leg and the method
 
 This probe attacks ONE leg of Geometric Unity: **Standard-Model emergence** -- specifically

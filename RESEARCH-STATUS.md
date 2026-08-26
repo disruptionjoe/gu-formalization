@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-26 — Chirality/VEV canonical-currency wave
+
+The complete aged `CC-06-CHIRALITY-VEV-CONDITIONAL` dirty cohort is
+adjudicated across twenty-six documents. Twenty-three apparent conflicts
+already distinguish an author-stated but hedged VEV/decoupling route from its
+missing action, selector and physicalization, or are explicitly scoped
+comparators, controls and steelman proposals.
+
+Three historical falsification artifacts genuinely promoted the repository's
+mirror-gapping/SMG construction into the only possible chirality-production
+route. Each now carries a prominent forward-only fence: `SC-CHI-01` asserts a
+VEV-conditional emergent split, SG4 bit 2 remains the open selector, and the
+repository condensate is one comparator rather than exhaustive source
+semantics. Their anomaly, hypercharge, Nielsen--Ninomiya and SMG calculations
+remain intact.
+
+Twenty-nine append-only custody records lower CC-06 from `26` dirty pairs to
+zero, reduce the total live queue from `70` to `44`, and raise cleared pairs
+from `179` to `205`. The coupled certificate catches all thirty-five missing,
+duplicate, verdict, correction and repair-fence mutations. The prior CC-05
+certificate now owns its correction-local consistent and repaired sets rather
+than the mutable repository-global aggregate. No source polarity or adherence,
+scientific verdict, action owner, ledger row, SG4 phase, prediction,
+confirmation, canon verdict, paper, release readiness or public posture moves.
+
 ## 2026-08-26 — Subtractive-two-plus-one canonical-currency wave
 
 The complete aged `CC-05-SUBTRACTIVE-TWO-PLUS-ONE` dirty cohort is adjudicated

@@ -26,6 +26,15 @@ numbering_note: "The DE leg was filed under label W220 (its front-matter records
 
 # W223 -- Falsification scorecard: the four-leg non-naive wave of 2026-07-14
 
+> [!CAUTION]
+> **Canonical chirality/VEV correction (2026-08-26).** This historical
+> scorecard inherits a repository-built mirror-gapping/SMG route; it does not
+> exhaust source-native chirality. `SC-CHI-01` asserts a hedged
+> VEV-conditional emergent split, and SG4 bit 2 remains the open selector. The
+> statements below that chirality is produced *only* by the condensate are
+> superseded. Neither the source mechanism nor its action is built; the four
+> historical falsification-leg calculations remain unchanged.
+
 This note is an **additive synthesis**. It computes nothing new, imports nothing external, and
 moves no canon, verdict, claim-status, or posture. It reads the four source notes filed on
 2026-07-14 and records, in one place, what the day's non-naive falsification wave actually

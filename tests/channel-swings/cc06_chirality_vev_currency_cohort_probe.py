@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Coupled certificate for the complete aged CC-05 subtractive-2+1 cohort."""
+"""Coupled certificate for the complete aged CC-06 chirality/VEV cohort."""
 from __future__ import annotations
 
 import argparse
@@ -12,70 +12,52 @@ import yaml
 ROOT = Path(__file__).resolve().parents[2]
 SIDECAR = ROOT / "lab/process/canonical-currency-checks.yaml"
 AUDIT = ROOT / "process_gates/canonical_currency_audit.py"
-CORRECTION = "CC-05-SUBTRACTIVE-TWO-PLUS-ONE"
-WAVE = "CC05-WAVE-2026-08-26"
-REPAIR = "CC05-REPAIR-2026-08-26"
+CORRECTION = "CC-06-CHIRALITY-VEV-CONDITIONAL"
+WAVE = "CC06-WAVE-2026-08-26"
+REPAIR = "CC06-REPAIR-2026-08-26"
 
 EXPECTED = {
-    "canon/exhaustiveness-by-type-RESULTS.md",
-    "canon/final-verdict-generation-count-and-the-open-bridge.md",
-    "canon/forcing-slot-toy-rs-RESULTS.md",
-    "canon/single-decider-integer-index-RESULTS.md",
-    "canon/six-axis-escape-hatch-map-RESULTS.md",
-    "canon/three-generations-locate-not-force-CRT-RESULTS.md",
-    "explorations/63-perspective-steelman-narratives-2026-07-20.md",
-    "explorations/W221-falsify-generation-count-structure-2026-07-14.md",
-    "explorations/ac-e1-daifreed-shadow-recomputation-2026-08-12.md",
-    "explorations/boyle-turok-foil-class-relative-typing-2026-08-03.md",
-    "explorations/conditional-build/selected-k77-coupled-euler-complex-scope-2026-08-08.md",
-    "explorations/cptt-triality-native-action-gate-2026-07-15.md",
-    "explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md",
-    "explorations/external-datum-ledger-and-the-2plus1-product-rule-2026-07-29.md",
-    "explorations/frontier-design-packets-index-2026-08-11.md",
-    "explorations/generation-sector/n5-generation-count-synthesis-2026-06-23.md",
-    "explorations/generation-sector/oq3a-gu-variational-k3-selection-2026-06-23.md",
-    "explorations/generation-sector/oq3a-k3-variational-selection-2026-06-23.md",
-    "explorations/generation-sector/oq3c-index-additivity-2026-06-23.md",
-    "explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md",
-    "explorations/n4-two-z3s-2026-07-20.md",
+    "explorations/W222-falsify-sm-emergence-anomaly-hypercharge-2026-07-14.md",
+    "explorations/W223-falsification-scorecard-synthesis-2026-07-14.md",
+    "explorations/W224-falsify-nielsen-ninomiya-chirality-2026-07-14.md",
+    "explorations/c3c-covariant-constancy-structure-2026-08-13.md",
+    "explorations/conditional-build/selected-k77-w-mirror-real-action-wholesale-gate-2026-08-14.md",
+    "explorations/conditional-build/trace-omega-higgs-chirality-compose-reconciliation-2026-08-05.md",
+    "explorations/cycle-gates-and-audits/resolver-wave-k77a-real-spinor-observation-atomic-particle-crosswalk-disposition-2026-08-04.md",
+    "explorations/cycle-gates-and-audits/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-disposition-2026-08-04.md",
+    "explorations/eric-native-physics-equation-replacement-atlas-2026-07-31.md",
+    "explorations/k77-post-b2-science-council-next-eight-wave-rendezvous-2026-08-04.md",
     "explorations/old-vs-eric-ten-specialist-gap-opportunity-council-2026-07-31.md",
-    "explorations/path5-branchC-three-generations-firewall-2026-07-11.md",
-    "explorations/perspective-and-dialectic/4d-reduction-62-perspective-steelman-hegelian-2026-06-22.md",
-    "explorations/portfolio-correction-wave-2026-08-12.md",
-    "explorations/representation-theory-noncompact/n5-discrete-series-gl4r-2026-06-23.md",
-    "explorations/shiab-operator/sc1-oq2c-null-mode-interpretation-2026-06-23.md",
-    "explorations/source-action-term-by-term-against-the-spec-2026-07-29.md",
-    "explorations/three-seam-prongB-no-fourth-generation-2026-07-21.md",
-    "explorations/two-track-perspective-sweep-2026-07-11/A-orthodox-rigor.md",
-    "explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md",
-    "explorations/z3-receptacle-design-packet-2026-08-11.md",
-    "lab/deep-research/dr1-identification-boundary-eta-2026-06-28.md",
-    "lab/deep-research/hardening-report-batch-2026-06-28.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/process/hinge-panel-synthesis-2026-08-03.md",
+    "explorations/over-determined-rows-review-considerations-2026-08-07.md",
+    "explorations/perspective-and-dialectic/all-perspective-tri-theory-combination-steelman-hegelian-2026-07-06.md",
+    "explorations/recovery-nogo-sm-selector-swing2-construction-2026-07-16.md",
+    "explorations/resolver-wave-k-conditional-active-shiab-b1-variation-2026-08-04.md",
+    "explorations/resolver-wave-k77a-real-spinor-observation-atomic-particle-crosswalk-2026-08-04.md",
+    "explorations/signature-chirality-conjugation-check-2026-08-13.md",
+    "explorations/type-ii1-spectral/type-ii1-sm-checklist-tightening-2026-06-23.md",
+    "lab/active-research/conditional-source-action-toy-construction-program-2026-07-26.md",
+    "lab/active-research/joe-directed/ledger-advancement/la1-embedding-grant-is-zero-bit-and-group-a-is-already-banked-2026-08-15.md",
+    "lab/active-research/joe-directed/ledger-advancement/la4-representation-axis-has-13-grants-and-a-one-vertex-cut-2026-08-15.md",
     "lab/process/improvement-register-2026-08-03.md",
+    "lab/process/science-council-program-efficiency-2026-08-04.md",
     "lab/sources/claim-mining-toe-weinstein-2026-07-20.md",
-    "lab/sources/secondary-summary-boyle-turok-circulating-claims-2026-08-05.md",
+    "lab/sources/claim-mining-toe-weinstein-complete-2026-07-31.md",
+    "lab/sources/selected-k77-w-mirror-real-action-wholesale-gate-source-return-2026-08-14.md",
 }
 
 REPAIRED = {
-    "explorations/W221-falsify-generation-count-structure-2026-07-14.md",
-    "explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md",
-    "explorations/generation-sector/n5-generation-count-synthesis-2026-06-23.md",
-    "explorations/generation-sector/oq3a-gu-variational-k3-selection-2026-06-23.md",
-    "explorations/generation-sector/oq3a-k3-variational-selection-2026-06-23.md",
-    "explorations/generation-sector/oq3c-index-additivity-2026-06-23.md",
-    "explorations/representation-theory-noncompact/n5-discrete-series-gl4r-2026-06-23.md",
-    "explorations/shiab-operator/sc1-oq2c-null-mode-interpretation-2026-06-23.md",
-    "explorations/two-track-perspective-sweep-2026-07-11/A-orthodox-rigor.md",
+    "explorations/W222-falsify-sm-emergence-anomaly-hypercharge-2026-07-14.md",
+    "explorations/W223-falsification-scorecard-synthesis-2026-07-14.md",
+    "explorations/W224-falsify-nielsen-ninomiya-chirality-2026-07-14.md",
 }
 
 BANNER_TOKENS = (
-    "Canonical subtractive-2+1 correction (2026-08-26)",
-    "not an additive",
-    "n_g -> n_g - 1",
-    "distinguished",
-    "multiplicity",
+    "Canonical chirality/VEV correction (2026-08-26)",
+    "SC-CHI-01",
+    "VEV-conditional",
+    "SG4 bit 2",
+    "only",
+    "superseded",
 )
 
 
@@ -105,7 +87,7 @@ def validate_records(records: list[dict]) -> list[str]:
         for row in selected
     ]
     if set(actual) != expected_record_keys():
-        failures.append("cohort record membership differs from the reviewed 30+9 custody set")
+        failures.append("cohort record membership differs from the reviewed 23+3 custody set")
     if len(actual) != len(set(actual)):
         failures.append("cohort contains a duplicate file/verdict/author record")
     for row in selected:
@@ -139,11 +121,20 @@ def validate_dynamic() -> list[str]:
     result = audit.compute(cfg)
     row = result["per"][CORRECTION]
     if row["dirty"] != 0 or row["unchecked"] or row["known_stale"]:
-        failures.append("CC-05 remains dirty")
+        failures.append("CC-06 remains dirty")
     if not EXPECTED.issubset(set(row["cleared"]) | set(row["repaired"])):
-        failures.append("CC-05 did not clear every reviewed candidate")
-    if len(row["repaired"]) != 10:
-        failures.append(f"CC-05 repaired count is {len(row['repaired'])}, expected 10")
+        failures.append("CC-06 did not clear every reviewed candidate")
+    if len(row["repaired"]) != 5:
+        failures.append(f"CC-06 repaired count is {len(row['repaired'])}, expected 5")
+    live_dirty = sum(item["dirty"] for item in result["per"].values())
+    if live_dirty != 44:
+        failures.append(f"live dirty queue is {live_dirty}, expected 44")
+    cleared = sum(
+        len(item["cleared"]) + len(item["fenced"]) + len(item["repaired"])
+        for item in result["per"].values()
+    )
+    if cleared != 205:
+        failures.append(f"live cleared total is {cleared}, expected 205")
     return failures
 
 
@@ -190,14 +181,14 @@ def main() -> int:
         for failure in failures:
             print(f"[FAIL] {failure}")
         return 1
-    print("[PASS] complete CC-05 cohort clears with exact scope and repair custody")
+    print("[PASS] complete CC-06 cohort clears with exact source-native scope and repair custody")
     if args.selftest:
         escaped = selftest(records)
         if escaped:
             for failure in escaped:
                 print(f"[FAIL] {failure}")
             return 1
-        print("[PASS] selftest catches 60/60 record and repair-fence mutations")
+        print("[PASS] selftest catches 35/35 record and repair-fence mutations")
     return 0
 
 
