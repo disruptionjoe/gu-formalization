@@ -1,3 +1,10 @@
+---
+title: "Verification: What Is Proved, Computed, and Conjectural"
+status: process
+doc_type: verification-map
+updated_at: "2026-08-26"
+---
+
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
 Outsider entry point. This program uses internal labels ("theorem-grade", "closed", "confirmed"); this file

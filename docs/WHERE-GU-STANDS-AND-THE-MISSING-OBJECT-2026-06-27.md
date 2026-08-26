@@ -1,3 +1,11 @@
+---
+title: "Where GU Stands and the Missing Object"
+status: active_research
+doc_type: capstone-summary
+created: "2026-06-27"
+updated_at: "2026-08-03"
+---
+
 # Where GU stands, and the one missing object
 
 **Date:** 2026-06-27. **Status:** capstone summary of the 2026-06-24..27 campaign. **Verdict:** GU's

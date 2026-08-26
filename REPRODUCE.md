@@ -1,3 +1,10 @@
+---
+title: "Reproducing the Computational Certificates"
+status: process
+doc_type: reproduction-guide
+updated_at: "2026-08-26"
+---
+
 # Reproducing the computational certificates
 
 This repository backs every load-bearing computational claim with a **certificate**: a standalone

@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Residue-to-Physics Derivation Program"
 started: 2026-06-22
 status: in_progress

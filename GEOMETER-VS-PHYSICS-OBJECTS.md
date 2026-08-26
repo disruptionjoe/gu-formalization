@@ -1,3 +1,10 @@
+---
+title: "GU Objects: Geometer and Physics Construction Routing"
+status: active_research
+doc_type: object-routing-authority
+updated_at: "2026-08-26"
+---
+
 # GU objects: the geometer's construction vs the physics default (read before attacking any GU object)
 
 Standing reference for every team/agent working GU. Geometric Unity is a GEOMETER'S program (Weinstein):

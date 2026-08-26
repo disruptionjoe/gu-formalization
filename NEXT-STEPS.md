@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
