@@ -58,3 +58,18 @@ def anchors() -> dict:
     comm = float(np.linalg.norm(Pi_RS @ M_D - M_D @ Pi_RS))
     c2 = float(np.linalg.norm(Gamma @ M_D @ Pi_RS))
     return {"bare_commutator": comm, "C2": c2}
+
+
+def main() -> None:
+    """Execute the shared substrate's load-bearing anchors directly."""
+    values = anchors()
+    assert abs(values["bare_commutator"] - 58.7215) < 1e-2
+    assert abs(values["C2"] - 155.3625) < 1e-2
+    print("generation-sector bridge anchors")
+    print(f"  bare commutator: {values['bare_commutator']:.4f}")
+    print(f"  C2: {values['C2']:.4f}")
+    print("VERDICT: PASS - shared Cl(9,5) substrate anchors reproduced")
+
+
+if __name__ == "__main__":
+    main()

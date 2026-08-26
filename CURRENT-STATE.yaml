@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9c861a3d8886fb622c31dece5c4a023b06c9c1d3
+revision_basis: 87d8e59754a7321a769167556096da1b542299fd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Certificate-independence and dependency custody now closes three live
+    improvement-register packets. The boundary-eta verifier independently
+    reconstructs its lens-space values from the exact symbolic
+    Gilkey/Donnelly finite sum, agrees with the closed polynomial for every
+    q=-12..12, and reproduces the L(3;1) factor-3 positive control. The shared
+    generation bridge now executes and asserts its 58.7215 commutator and
+    155.3625 C2 anchors under `__main__`; its library status no longer hides an
+    unexecuted contract. The three remaining current silent matrix-exponential
+    fallbacks are removed in favor of the hash-pinned SciPy 1.18.0 dependency,
+    and the six-check shape gate prevents their return. P-H8, P-H11 and P-M3
+    close evidence-specifically, reducing the inherited register writeback
+    queue from 28 to 25. No source claim, scientific verdict, action owner,
+    scientific ledger row, SG4 phase, prediction, confirmation, paper, canon
+    verdict, release state or public posture moves.
     Exceptional-point monodromy and exact branching-dictionary work now gives
     two evidence-specific register proposals reproducible dispositions. In the
     Pais--Uhlenbeck toy, one complex loop swaps the two opposite-Krein branches
@@ -3785,7 +3799,9 @@ next_condition: >-
   aged cohorts are complete; CC-05, CC-06 and CC-10 are also complete. The
   live canonical-currency queue is zero. Do not repeat a cleared cohort without
   new evidence. M-S3 and M-M4 are now evidence-specifically executed; do not
-  repeat their EP-monodromy or D7/D5 dictionary builds. Forty-six unexecuted
+  repeat their EP-monodromy or D7/D5 dictionary builds. P-H8, P-H11 and P-M3
+  are now evidence-specifically executed; do not repeat their shared-library,
+  boundary-eta independence or silent-`expm` repairs. Twenty-five unexecuted
   improvement-register proposals remain and require fresh frontier selection,
   not inherited priority.
   Historical conditions below are

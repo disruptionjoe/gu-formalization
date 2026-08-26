@@ -150,6 +150,64 @@ def imported_module_stems(tree: ast.AST) -> set[str]:
     return stems
 
 
+def main_guard_calls(tree: ast.AST, function_name: str) -> bool:
+    """Return whether a module's ``__main__`` guard calls ``function_name``."""
+    for node in tree.body:
+        if not isinstance(node, ast.If):
+            continue
+        test = node.test
+        if not (
+            isinstance(test, ast.Compare)
+            and isinstance(test.left, ast.Name)
+            and test.left.id == "__name__"
+            and len(test.ops) == 1
+            and isinstance(test.ops[0], ast.Eq)
+            and len(test.comparators) == 1
+            and isinstance(test.comparators[0], ast.Constant)
+            and test.comparators[0].value == "__main__"
+        ):
+            continue
+        return any(
+            isinstance(child, ast.Call)
+            and isinstance(child.func, ast.Name)
+            and child.func.id == function_name
+            for statement in node.body
+            for child in ast.walk(statement)
+        )
+    return False
+
+
+def silent_scipy_expm_fallbacks(files: list[str]) -> list[str]:
+    """Find SciPy ``expm`` imports whose exception path defines another expm."""
+    violations: list[str] = []
+    for rel in files:
+        try:
+            tree = parse(rel)
+        except SyntaxError:
+            continue
+        for node in ast.walk(tree):
+            if not isinstance(node, ast.Try):
+                continue
+            imports_scipy_expm = any(
+                isinstance(child, ast.ImportFrom)
+                and child.module == "scipy.linalg"
+                and any(alias.name == "expm" for alias in child.names)
+                for statement in node.body
+                for child in ast.walk(statement)
+            )
+            defines_fallback = any(
+                isinstance(child, (ast.FunctionDef, ast.AsyncFunctionDef))
+                and child.name == "expm"
+                for handler in node.handlers
+                for statement in handler.body
+                for child in ast.walk(statement)
+            )
+            if imports_scipy_expm and defines_fallback:
+                violations.append(rel)
+                break
+    return sorted(violations)
+
+
 def detect_library_modules(files: list[str]) -> tuple[frozenset[str], list[str]]:
     """Return (library modules by import census, ambiguity errors).
 
@@ -236,6 +294,37 @@ class CertificateShapeAudit(unittest.TestCase):
             [],
             counted_libraries,
             "library modules are being counted as certificates by the harness",
+        )
+
+    def test_generation_bridge_executes_anchors_under_main(self) -> None:
+        rel = "tests/generation-sector/gen_sector_bridge.py"
+        tree = parse(rel)
+        self.assertTrue(
+            main_guard_calls(tree, "main"),
+            "gen_sector_bridge.py must execute its anchor contract under __main__",
+        )
+        main_functions = [
+            node for node in tree.body
+            if isinstance(node, ast.FunctionDef) and node.name == "main"
+        ]
+        self.assertEqual(1, len(main_functions))
+        self.assertTrue(
+            any(
+                isinstance(node, ast.Call)
+                and isinstance(node.func, ast.Name)
+                and node.func.id == "anchors"
+                for node in ast.walk(main_functions[0])
+            ),
+            "gen_sector_bridge.main() must call anchors() rather than restate values",
+        )
+
+    def test_no_silent_scipy_expm_fallbacks(self) -> None:
+        violations = silent_scipy_expm_fallbacks(tracked_tests_files())
+        self.assertEqual(
+            [],
+            violations,
+            "SciPy expm is hash-pinned for exact reproduction; silent local "
+            "fallbacks require independent cross-validation and are forbidden",
         )
 
     def test_every_swept_certificate_has_a_failure_path(self) -> None:

@@ -43,23 +43,13 @@ import os
 import sys
 
 import numpy as np
+from scipy.linalg import expm
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 if HERE not in sys.path:
     sys.path.insert(0, HERE)
 
 import oq_rk1_cl95_explicit_rep as cl95  # verified Cl(9,5) rep
-
-try:
-    from scipy.linalg import expm
-except Exception:  # pragma: no cover
-    def expm(A, terms=24):
-        out = np.eye(A.shape[0], dtype=complex)
-        term = np.eye(A.shape[0], dtype=complex)
-        for k in range(1, terms):
-            term = term @ A / k
-            out = out + term
-        return out
 
 N = 14
 DIM = 128

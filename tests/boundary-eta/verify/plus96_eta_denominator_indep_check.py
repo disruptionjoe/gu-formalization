@@ -2,16 +2,20 @@
 """Independent boundary-eta denominator check for the +96 selector fork.
 
 This verifier does not import the existing boundary-eta certificates. It
-rechecks the exact denominator arithmetic and the finite-dimensional block-form
-fact used by those scripts: an internal selector of the form I_frame tensor U
-has zero projection onto tangent-frame so(4) generators, while the self-dual
-tangential carrier has nonzero frame charge. Therefore the +96 selector cannot
-feed the gravitational -p1/24 channel where the order-3 denominator lives.
+re-derives the lens-space values from the exact Gilkey/Donnelly finite sum and
+checks them against a separate closed-polynomial route. It also rebuilds the
+finite-dimensional block-form fact used by the direct certificates: an internal
+selector of the form I_frame tensor U has zero projection onto tangent-frame
+so(4) generators, while the self-dual tangential carrier has nonzero frame
+charge. Therefore the +96 selector cannot feed the gravitational -p1/24
+channel where the order-3 denominator lives.
 """
 
 from __future__ import annotations
 
 from fractions import Fraction
+
+import sympy as sp
 
 
 def mod_one(value: Fraction) -> Fraction:
@@ -46,15 +50,29 @@ def charge_q_eta_l2(q: int) -> Fraction:
     return mod_one(Fraction(2 * q * q - 4 * q + 1, 8))
 
 
-def l3_defect_control(q: int) -> Fraction:
-    """Exact real Gilkey defect for L(3;1,1), reduced mod 1.
+def lens_dirac_eta_finite_sum(p: int, q: int) -> Fraction:
+    """Exact Gilkey/Donnelly quotient sum, independently reduced mod 1.
 
-    The p=3 roots obey zeta + zeta^2 = -1 and sin(pi/3)^2 = 3/4.
-    Thus q=0 gives 2/9, while q=1,2 give -1/9 mod 1 = 8/9.
+    For the fixed spin-structure convention, the reduced defect is
+
+        (1 / 4p) sum_{k=1}^{p-1} zeta_p^(kq) / sin(pi k / p)^2.
+
+    The symbolic cyclotomic/trigonometric route shares no implementation with
+    ``charge_q_eta_l2`` and is the actual second derivation required of this
+    verifier.
     """
-    if q % 3 == 0:
-        return Fraction(2, 9)
-    return Fraction(8, 9)
+    zeta = sp.exp(2 * sp.pi * sp.I / p)
+    total = sp.Integer(0)
+    for k in range(1, p):
+        total += zeta ** (k * q) / sp.sin(sp.pi * k / p) ** 2
+    value = sp.re(sp.simplify(sp.expand_complex(total / (4 * p))))
+    value = sp.nsimplify(value)
+    return mod_one(Fraction(int(sp.numer(value)), int(sp.denom(value))))
+
+
+def l3_defect_control(q: int) -> Fraction:
+    """Closed-form L(3;1,1) positive control, reduced mod 1."""
+    return Fraction(2, 9) if q % 3 == 0 else Fraction(8, 9)
 
 
 def su2_tangential_e_invariant() -> Fraction:
@@ -114,10 +132,14 @@ def tangential_carrier_frame_projection(frame_generator: list[list[int]]) -> int
 
 def main() -> None:
     charge_values = {q: charge_q_eta_l2(q) for q in range(-12, 13)}
+    finite_sum_values = {q: lens_dirac_eta_finite_sum(2, q) for q in range(-12, 13)}
+    assert finite_sum_values == charge_values
     assert all(value.denominator == 8 for value in charge_values.values())
     assert all(is_two_primary_or_zero(value) for value in charge_values.values())
 
     l3_controls = {q: l3_defect_control(q) for q in range(3)}
+    l3_finite_sum = {q: lens_dirac_eta_finite_sum(3, q) for q in range(3)}
+    assert l3_finite_sum == l3_controls
     assert any(has_three_primary(value) for value in l3_controls.values())
 
     gauge_adjoint_eta = Fraction(3, 8)
@@ -143,8 +165,9 @@ def main() -> None:
     assert is_two_primary_or_zero(plus96_framing_eta)
 
     print("boundary-eta +96 independent denominator check")
+    print("  L(2;1) finite-sum route agrees with the closed polynomial for q=-12..12")
     print(f"  L(2;1) charge-q denominators: {sorted({v.denominator for v in charge_values.values()})}")
-    print(f"  L(3;1) control values: {[str(l3_controls[q]) for q in range(3)]}")
+    print(f"  L(3;1) finite-sum/control values: {[str(l3_controls[q]) for q in range(3)]}")
     print(f"  gauge-adjoint eta: {gauge_adjoint_eta}")
     print(f"  tangential e_R: {tangential_e}")
     print(f"  internal selector frame projections: {internal_projections}")

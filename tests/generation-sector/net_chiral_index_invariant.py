@@ -27,13 +27,7 @@ Claims verified:
   (E) the real GU triplet (ghost_parity_krein construction) reproduces (A)-(C).
 """
 import numpy as np
-
-try:
-    from scipy.linalg import expm
-except Exception:  # pragma: no cover
-    def expm(M):
-        w, V = np.linalg.eig(M)
-        return (V * np.exp(w)) @ np.linalg.inv(V)
+from scipy.linalg import expm
 
 rng = np.random.default_rng(0)
 n = 96
