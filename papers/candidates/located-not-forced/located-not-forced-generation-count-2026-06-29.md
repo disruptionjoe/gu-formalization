@@ -623,7 +623,13 @@ structure is likewise an active lane -- e.g. the division-algebra trialities of 
 where two generations arise as spinors and a third through a Cartan factorization; our Clifford-RS route is
 mechanically distinct, but the question is not untouched. We claim no novelty for "topology constrains
 family number." Section 14 makes this canonical Markdown bibliographically self-contained.
-Our narrow novelty claim (the canonical source and release TeX use the same scope): Wang 2023's title
+Sati-Schreiber (arXiv:2103.01877) is a still closer stable-homotopy neighbor: it uses the order of the third
+stable stem and refined Adams data for a physical brane count in M/F-theory. Wan's discrete-anomaly formulas
+(arXiv:2506.19710v5) and the adjacent Wan-Wang/Wang TQFT, dark-matter and leptogenesis papers
+(arXiv:2512.25038, 2502.21319, 2501.00607) further establish the positive anomaly/symmetry-extension lane.
+None of these sources constructs the LNF Clifford-RS carrier, its delimited L4 2-primary obstruction, the
+carrier-specific inverse-blindness assembly, or the missing integer family index.
+Our narrow novelty claim (the live Markdown and adjacent TeX use the same scope): Wang 2023's title
 arithmetic `24/8 = 3` already pulls
 the odd 3-primary factor out of `Z/24` as the family number, and Wan-Wang-Yau 2026 v2 explicitly separates the
 2- and 3-primary parts and uses CRT. We therefore claim **no** novelty for the bare factorization, primary
@@ -776,6 +782,17 @@ publication date remain unset until Zenodo assigns and records them.
 22. E. P. Wigner, *Group Theory and Its Application to the Quantum Mechanics
     of Atomic Spectra*, Academic Press, New York (1959), translated from the
     1931 German edition.
+23. H. Sati and U. Schreiber, “M/F-Theory as Mf-Theory,”
+    [arXiv:2103.01877](https://arxiv.org/abs/2103.01877) (2021; revised 2023).
+24. Z. Wan, “Anomaly of 4d Weyl fermion with discrete symmetries,”
+    [arXiv:2506.19710v5](https://arxiv.org/abs/2506.19710) (2025; revised 2026).
+25. Z. Wan and J. Wang, “Anomalous (3+1)d Fermionic Topological Quantum Field
+    Theories via Symmetry Extension,”
+    [arXiv:2512.25038](https://arxiv.org/abs/2512.25038) (2025).
+26. J. Wang, “Topological Quantum Dark Matter via Global Anomaly
+    Cancellation,” [arXiv:2502.21319](https://arxiv.org/abs/2502.21319) (2025).
+27. J. Wang, “Topological Leptogenesis,”
+    [arXiv:2501.00607](https://arxiv.org/abs/2501.00607) (2025).
 
 ---
 

@@ -2,13 +2,85 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-21"
+updated_at: "2026-08-26"
 ---
 
 # Source and Media Index
 
 Additional source-custody and reinspection records retained by the native
 research boundary:
+
+## GU prior-art collision monitor — 2025–2026 public formalization attempts
+
+> **GU-COMPARATOR-ROUTING — scope before inference.** This artifact contains or
+> borders a conventional particle-physics comparator. Any result about a
+> standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126`
+> Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-
+> mass route binds only that named model. It is not evidence for or against
+> Weinstein's source-native mechanism without an explicit typed bridge. Read
+> `lab/methods/source-native-comparator-routing.md` and follow its source-native
+> pointers before reusing this result.
+
+**GU comparator classification:** `BRIDGE_OR_SEMANTIC_BOUNDARY`.
+
+This 2026-08-26 review monitors two public, author-uploaded GU formalization
+attempts identified by the improvement register. Direct file-byte download was
+rejected by the host during this pass; the public full-text renderings, DOI
+records and displayed claims were inspected. The review does not reproduce,
+endorse or refute either paper as a whole.
+
+### Cohen 2025 — Resonant Quantum Geometry rescue
+
+- Pablo Solorzano Cohen, “Mathematical Rescue of Weinstein's Geometric Unity:
+  Resonant Quantum Geometry Resolution of Higher-Dimensional Anomalies,” July
+  2025, DOI [10.13140/RG.2.2.17374.34881](https://doi.org/10.13140/RG.2.2.17374.34881).
+- The paper introduces an RQG wavefunction, fractal-resonance function,
+  coherence threshold, regularized Shiab expression and claimed resonance,
+  anomaly-cancellation and phenomenology numerics.
+- **Theorem-versus-stipulation finding:** the load-bearing resonance law,
+  threshold, regularization multiplier and numeric matching rules enter as
+  introduced definitions or asserted consequences in the inspected text. The
+  displayed anomaly cancellation and particle-count equalities are not a
+  source-native derivation of Weinstein's Shiab/action or a theorem meeting
+  this repository's typed carrier, control and claim-ceiling requirements.
+- **Collision:** terminology and claimed problem coverage overlap at Shiab,
+  anomalies and particle counts. No theorem-level collision is presently
+  established with this repository's source-to-shadow reductions, LNF carrier
+  result or native action gates. Revisit only if a proof supplies the missing
+  typed maps and derivations.
+
+### Cox 2025/2026 — semidirect-covariant classical scaffold
+
+- Joseph Thomas Cox, “Geometric Unity I: From Heuristic Proposal to Testable
+  Framework,” October 2025, DOI
+  [10.5281/zenodo.17252989](https://doi.org/10.5281/zenodo.17252989), superseded
+  for current monitoring by “Geometric Unity from First Principles I:
+  Semidirect-Covariant Geometry on Y and Induced Dynamics on X,” April 2026,
+  DOI [10.5281/zenodo.19800512](https://doi.org/10.5281/zenodo.19800512).
+- The current paper defines Shiab as a wedge-star scalar density on admissible
+  same-degree bundle-valued forms, introduces completed connection/curvature
+  and torsion variables, and states a fixed-embedding projection-variation
+  theorem under boundary and corner hypotheses.
+- **Theorem-versus-stipulation finding:** this is a theorem-scoped classical
+  construction, not merely a numerical stipulation. Its own scope limits it to
+  explicit assumptions and the classical scaffold; it does not claim a unique
+  reduction/compactification, completed matter embedding, anomaly closure,
+  BRST/BV quantization, renormalization or observable recovery.
+- **Collision:** there is material overlap with this repository's Shiab
+  existence/uniqueness, completed-curvature/torsion and projection-variation
+  work. The strongest live risk is scope-sensitive: the 2025 “uniqueness”
+  wording must be compared against the exact admissible form class and
+  boundary quotient before any priority or novelty statement. There is no
+  direct collision with LNF's generation-count carrier/no-go result.
+
+Disposition: treat Cohen as a monitored stipulation-driven alternative until
+its load-bearing equalities acquire derivations and typed source-native maps.
+Treat Cox as a substantive theorem-scoped neighbor; before future Shiab,
+completed-curvature or projection-variation novelty wording, compare the exact
+domains, semidirect action, admissible degrees, boundary equivalence and
+fixed-versus-moving embedding assumptions. Neither work moves a GU scientific
+verdict, LNF claim grade, source-native action owner, publication state or
+repository-wide priority in this review.
 
 The complete 2026-08-14 K77 source-return chain is indexed here without
 changing any return's source/repository attribution or claim ceiling:
