@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Exceptional-point monodromy and form-spinor dictionary
+
+- `big-swing/vg_v4_exceptional_point_monodromy.py` transports the two low
+  Pais--Uhlenbeck branches around `delta=epsilon^2=0` at two truncations and
+  two radii. It verifies the one-loop swap, two-loop return, opposite Krein
+  signs, finite conditioning, and the decisive distinction between the
+  off-diagonal monodromy and diagonal ghost parity (`38/38`).
+
+- `generation-sector/d7_form_spinor_branching_dictionary_sage.py` rebuilds
+  the canonical D7 `Lambda^k(V14) tensor S+/-` dictionary through the Hodge
+  midpoint and exact D5 Pati--Salam controls. It verifies cache equality,
+  dimensions, multiplicities, duals, compact Frobenius--Schur types and the
+  named branching identities (`60/60`). Run it with `sage -python`;
+  `--dump` prints the canonical JSON cache.
+
 ## Conditional benchmark delta integration gate
 
 - `channel-swings/conditional_ledger_verdict_context_integration_probe.py`

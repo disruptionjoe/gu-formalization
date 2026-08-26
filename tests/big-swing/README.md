@@ -88,6 +88,7 @@ The public boundary stays:
 | `vg_v2_fourth_seat_gauge_indefiniteness.py` | verification gates | Fourth-seat gauge-indefiniteness screen. |
 | `vg_v3_j_commutant_conformal_native.py` | verification gates | J-commutant conformal-native screen. |
 | `vg_v4_quantize_break_commuting_square.py` | verification gates | Quantized commuting-square break attempt. |
+| `vg_v4_exceptional_point_monodromy.py` | verification gates | Exceptional-point branch transport distinguishes the one-loop state swap from diagonal ghost parity. |
 | `vg_v5_breaking_coset_topology.py` | verification gates | Breaking-coset topology screen. |
 | `vg_v6_conformal_constrained_scatter.py` | verification gates | Conformal constrained-scatter check. |
 | `vg_v7_cp2_equivariant_payoff.py` | verification gates | CP2 equivariant-payoff check. |

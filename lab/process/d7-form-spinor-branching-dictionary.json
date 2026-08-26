@@ -1,0 +1,2170 @@
+{
+  "artifact_type": "exact_form_spinor_branching_dictionary",
+  "claim_ceiling": "algebraic branching and reality typing only; no real-form, action, selector, count, source or physical-sector selection",
+  "created": "2026-08-26",
+  "d5_pati_salam_controls": {
+    "10x16+": [
+      {
+        "dimension": 16,
+        "dual_dynkin": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "dynkin": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 144,
+        "dual_dynkin": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "dynkin": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      }
+    ],
+    "10x16-": [
+      {
+        "dimension": 16,
+        "dual_dynkin": [
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "dynkin": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 144,
+        "dual_dynkin": [
+          1,
+          0,
+          0,
+          0,
+          1
+        ],
+        "dynkin": [
+          1,
+          0,
+          0,
+          1,
+          0
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      }
+    ],
+    "16+x144+": [
+      {
+        "dimension": 210,
+        "dual_dynkin": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "dynkin": [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 45,
+        "dual_dynkin": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "dynkin": [
+          0,
+          1,
+          0,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 1050,
+        "dual_dynkin": [
+          1,
+          0,
+          0,
+          2,
+          0
+        ],
+        "dynkin": [
+          1,
+          0,
+          0,
+          0,
+          2
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 945,
+        "dual_dynkin": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "dynkin": [
+          1,
+          0,
+          1,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 54,
+        "dual_dynkin": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "dynkin": [
+          2,
+          0,
+          0,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      }
+    ],
+    "16+x144-": [
+      {
+        "dimension": 126,
+        "dual_dynkin": [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "dynkin": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 120,
+        "dual_dynkin": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "dynkin": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 10,
+        "dual_dynkin": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "dynkin": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 1728,
+        "dual_dynkin": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "dynkin": [
+          1,
+          0,
+          0,
+          1,
+          1
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 320,
+        "dual_dynkin": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "dynkin": [
+          1,
+          1,
+          0,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      }
+    ],
+    "sym2_16+": [
+      {
+        "dimension": 126,
+        "dual_dynkin": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "dynkin": [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 10,
+        "dual_dynkin": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "dynkin": [
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      }
+    ],
+    "wedge2_16+": [
+      {
+        "dimension": 120,
+        "dual_dynkin": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "dynkin": [
+          0,
+          0,
+          1,
+          0,
+          0
+        ],
+        "frobenius_schur": 1,
+        "multiplicity": 1
+      }
+    ],
+    "wedge5_10": [
+      {
+        "dimension": 126,
+        "dual_dynkin": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "dynkin": [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      },
+      {
+        "dimension": 126,
+        "dual_dynkin": [
+          0,
+          0,
+          0,
+          0,
+          2
+        ],
+        "dynkin": [
+          0,
+          0,
+          0,
+          2,
+          0
+        ],
+        "frobenius_schur": 0,
+        "multiplicity": 1
+      }
+    ]
+  },
+  "d7_form_spinor": [
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 0,
+      "expected_dimension": 64,
+      "hodge_partner_degree": 14
+    },
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 1,
+      "expected_dimension": 896,
+      "hodge_partner_degree": 13
+    },
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 2,
+      "expected_dimension": 5824,
+      "hodge_partner_degree": 12
+    },
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 3,
+      "expected_dimension": 23296,
+      "hodge_partner_degree": 11
+    },
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 4,
+      "expected_dimension": 64064,
+      "hodge_partner_degree": 10
+    },
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 5,
+      "expected_dimension": 128128,
+      "hodge_partner_degree": 9
+    },
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 6,
+      "expected_dimension": 192192,
+      "hodge_partner_degree": 8
+    },
+    {
+      "chirality": "S+",
+      "constituents": [
+        {
+          "dimension": 27456,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 7,
+      "expected_dimension": 219648,
+      "hodge_partner_degree": 7
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 0,
+      "expected_dimension": 64,
+      "hodge_partner_degree": 14
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 1,
+      "expected_dimension": 896,
+      "hodge_partner_degree": 13
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 2,
+      "expected_dimension": 5824,
+      "hodge_partner_degree": 12
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 3,
+      "expected_dimension": 23296,
+      "hodge_partner_degree": 11
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 4,
+      "expected_dimension": 64064,
+      "hodge_partner_degree": 10
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 5,
+      "expected_dimension": 128128,
+      "hodge_partner_degree": 9
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 6,
+      "expected_dimension": 192192,
+      "hodge_partner_degree": 8
+    },
+    {
+      "chirality": "S-",
+      "constituents": [
+        {
+          "dimension": 64,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            2,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            2
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 27456,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            3
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            3,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 64064,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 40768,
+          "dual_dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            0,
+            0,
+            1,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 17472,
+          "dual_dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            0,
+            0,
+            1,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 4928,
+          "dual_dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "dynkin": [
+            0,
+            1,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        },
+        {
+          "dimension": 832,
+          "dual_dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            0,
+            1
+          ],
+          "dynkin": [
+            1,
+            0,
+            0,
+            0,
+            0,
+            1,
+            0
+          ],
+          "frobenius_schur": 0,
+          "multiplicity": 1
+        }
+      ],
+      "degree": 7,
+      "expected_dimension": 219648,
+      "hodge_partner_degree": 7
+    }
+  ],
+  "schema_version": "1.0",
+  "scope": "complexified D7 exterior-form spinors plus exact D5 Pati-Salam controls"
+}

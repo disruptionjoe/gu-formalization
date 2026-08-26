@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-26 — Exceptional-point monodromy and branching-dictionary wave
+
+Two independent register rows now have exact, reproducible dispositions. The
+M-S3 Pais--Uhlenbeck certificate transports the two low branches around the
+second-order exceptional point at two truncations and two loop radii. One loop
+swaps the opposite-Krein branches and two loops restore them, but the swap is
+off-diagonal and anticommutes with the measured diagonal ghost grading. Thus
+the exceptional-point monodromy exchanges ghost labels; it is not the
+Turok--Bateman ghost-parity operator. All `38/38` checks pass.
+
+M-M4 now has one canonical D7/D5 cache and one Sage reproducer. It reconstructs
+`Lambda^k(V14) tensor S+/-` through the Hodge midpoint, exact D5 Pati--Salam
+controls, dimensions, multiplicities, duals and compact Frobenius--Schur types.
+Fresh reconstruction equals the committed cache and passes `60/60` checks.
+
+Both results are explicitly `INTERNAL_STRUCTURAL_ONLY`. The monodromy result is
+finite toy spectral structure; the dictionary is complexified compact
+representation theory. Neither supplies a GU source action, real-form bridge,
+physical selector, Higgs/VEV mechanism, family count, chirality, prediction,
+confirmation, canon verdict or public-posture change. The evidence-specific
+register queue falls by exactly two rows; no neighboring proposal is promoted.
+
 ## 2026-08-26 — Current-integrity contract wave
 
 Three independent present-tense integrity packets are repaired without moving

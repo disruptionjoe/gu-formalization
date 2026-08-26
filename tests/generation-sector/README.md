@@ -79,6 +79,7 @@ The public boundary stays:
 |---|---|---|
 | `q5_spin10_vector_spinor_product.py` | Dependency-free exact D5 representation-ring derivation of all four `16x144` products. | Conditional on a complex-linear internal operator, a 126 occurs in the dualized Hom factor, not the bare same-label tensor; the physical pairing is unbuilt. |
 | `q5_spin10_vector_spinor_product_sage.py` | Independent Sage 10.9 Weyl-character certificate for the shared Q5/Q6 dictionary. | Confirms the D5 products, `Lambda5(10)`, spinor squares, and the D7 exterior-square identity. |
+| `d7_form_spinor_branching_dictionary_sage.py` | Canonical Sage reconstruction of the D7 exterior-form/spinor dictionary and D5 controls. | Caches exact Dynkin labels, multiplicities, dimensions, duals and compact Frobenius--Schur types through the D7 Hodge midpoint. |
 | `q6_lambda5_spin10_pati_salam.py` | Bidegree-tagged Lambda5 and Pati--Salam right-neutrino channel derivation. | Complex support passes, but raw real Lambda5 has the wrong K-adjoint class for an Sp connection generator; admissible placement, C reality, VEV, and mass remain open. |
 
 ### Wave D Native Connection Placement
