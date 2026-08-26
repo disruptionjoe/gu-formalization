@@ -16,13 +16,15 @@ Two caveats hold throughout and are stated once here in full:
   `2^a` or `2^a * 3`, the carrier's own signature `(+96, -96)`, and the homotopy moduli `8, 3, 24`. Nothing is
   normalized to `3`, `8`, `24`, `chi(K3)`, or any other physically suggestive value. The number three, where it
   appears, is a *multiplicand* inside a dimension, never the output of a congruence.
-- **(ii) Verification is exact-integer and (for one leg) canon-corroborated; the Lean is proof-terms-written,
-  not machine-verified in this pass.** See Section 5 for the full, honest grading. In short: the claims of this
+- **(ii) Verification is exact-integer and (for one leg) canon-corroborated; the Lean core is machine-
+  typechecked at internal tier.** See Section 5 for the full, honest grading. In short: the claims of this
   paper stand on the exact-integer certificate `tests/big-swing/R4_crt_two_arena.py` (re-run this session,
   exit 0) and, for fact (A), on the independent canon corroboration `canon/shiab-existence-cl95.md` (SHIAB-05,
-  exact, checksum `16384 = 128^2`, component errors `0.00e+00`). The Lean source
-  `tests/big-swing/R4_TwoArena.lean` is written free of `sorry` and `axiom`, but its recompilation was **not**
-  reproduced here, and we do **not** advertise it as machine-verified.
+  exact, checksum `16384 = 128^2`, component errors `0.00e+00`). The proof-bearing Lean module now lives in
+  the pinned default target at `Lean/GUFormalization/R4TwoArena.lean`; the stable compatibility entrypoint is
+  `tests/big-swing/R4_TwoArena.lean`. It was typechecked with no `sorry` and no `axiom` on 2026-07-03 and its
+  default-target integration was reverified on 2026-07-22, as recorded in
+  `canon/two-arena-rep-theory-core-RESULTS.md`.
 
 ---
 
@@ -124,7 +126,8 @@ and all component errors `0.00e+00` (`tests/chase/MOVE-4/move4_spinor_square_for
 `tests/chase/MOVE-4/verify/indep_check.py`). This is exact, unconditional representation theory of `Spin(9,5)`,
 independent of whether GU is correct; it settles only which channels the equivariant family contains.
 
-**Scope of the Lean core.** `tests/big-swing/R4_TwoArena.lean` (namespace `WeightParity`) states the exact
+**Scope of the Lean core.** `Lean/GUFormalization/R4TwoArena.lean` (stable compatibility entrypoint
+`tests/big-swing/R4_TwoArena.lean`; namespace `WeightParity`) states the exact
 combinatorial obstruction as arithmetic: `minusCount_neg` (negation sends the minus-count `m` to `r - m`),
 `neg_flips_chirality` / `no_same_chirality_zero_weight` (for `r` odd, no even-chirality weight has an
 even-chirality negative), the self-dual control `even_r_self_pairs` (for `r` even), instantiated at `r = 7`
@@ -132,8 +135,8 @@ even-chirality negative), the self-dual control `even_r_self_pairs` (for `r` eve
 (the same-chirality zero-weight count vanishes). What it does **not** cover is the representation-theoretic
 implication "no zero weight => no trivial summand" (a weight-count is a necessary condition) or the exact
 `dim = 1` cross-pairing; those come from the explicit Clifford null-space computation and the SHIAB-05
-corroboration, not from the Lean. And, per Section 5, the Lean is proof-terms-written, not machine-verified in
-this pass.
+corroboration, not from the Lean. Per Section 5, only those named arithmetic and weight-parity statements are
+machine-typechecked; the representation-theoretic implication and cross-pairing remain outside that Lean core.
 
 ---
 
@@ -171,13 +174,15 @@ all 24 elements and inverted by CRT reconstruction); disjointness (`<3> ∩ <8> 
 (`e_R = 1/12` has additive order 12 in `Q/Z`, 3-primary component `4 e_R = 1/3` of order 3; `|Im J_3| = 24 = 8*3`,
 `gcd(8,3) = 1`).
 
-### Lean core (proof-terms-written; see Section 5 for grade)
+### Lean core (machine-typechecked at internal tier; see Section 5 for grade)
 
 `R4_TwoArena.lean` (namespace `CRT`) writes proof terms for: `twoArena : ZMod 24 ~=+* ZMod 8 x ZMod 3` via
 `ZMod.chineseRemainder`; `eq_zero_of_coprime_nsmul` (an element killed by two coprime integers is `0`, via
 `addOrderOf | gcd = 1`); `two_primary_blind (f : ZMod 24 ->+ ZMod (2^k)) : f 8 = 0`; and `arenas_disjoint` (the
-only common multiple of 3 and 8 in `Z/24` is `0`). The source contains no `sorry` and no `axiom`. Recompilation
-was not reproduced in this pass (Section 5); the canonical content stands on the exact-integer certificate above.
+only common multiple of 3 and 8 in `Z/24` is `0`). The proof-bearing module is in the pinned default target at
+`Lean/GUFormalization/R4TwoArena.lean`, contains no `sorry` and no `axiom`, and has a recorded successful
+typecheck and default-target integration receipt (Section 5). The canonical content also stands independently
+on the exact-integer certificate above.
 
 ### Why this is the arithmetic spine of "located, not forced"
 
@@ -242,25 +247,18 @@ asserted by the source run; the canon SHIAB-05 corroboration is the independent 
 **Fact (C) — 2-primary arithmetic, implied by the integer certificates.** The factorizations are elementary and
 are entailed by the same exact-integer material; the risk here is essentially nil.
 
-**The Lean layer — proof terms written, source free of `sorry` / `axiom`, recompilation NOT reproduced.** This
-is the critical honesty point. `tests/big-swing/R4_TwoArena.lean` is written to compile against the repo's
-mathlib and contains no `sorry` and no `axiom` in its source. However:
+**The Lean layer — machine-typechecked at internal tier, source free of `sorry` / `axiom`.** The earlier
+unprovisioned-mathlib caveat is superseded. The proof-bearing module now lives at
+`Lean/GUFormalization/R4TwoArena.lean` in the pinned default target, with the stable compatibility entrypoint
+`tests/big-swing/R4_TwoArena.lean`. The canonical receipt records a successful typecheck on 2026-07-03 and
+default-target integration reverified on 2026-07-22, with no `sorry` and no `axiom`; see
+`canon/two-arena-rep-theory-core-RESULTS.md` lines carrying the `Lean TYPECHECKS` receipt.
 
-- Its recompilation was **not** reproduced in this pass. We have not observed `lake env lean` (or equivalent)
-  return exit 0 on this file in this session.
-- The sibling Lean file `Lean/GUFormalization/LocatedNotForcedLegs.lean` — the same repo's parallel
-  located-not-forced Lean skeleton — states explicitly in its own header: "Lean 4.32.0-rc1 IS installed on this
-  machine (via elan), but mathlib is NOT provisioned (no `.lake`), so this `import Mathlib` file has **not** been
-  typechecked. Proof terms are written out (no `sorry`), but do NOT cite any statement here as 'proved in Lean'
-  until it compiles." `R4_TwoArena.lean` also does `import Mathlib` and is subject to the same unprovisioned-mathlib
-  status.
-
-Therefore we grade the Lean as **"proof terms written, source free of `sorry`/`axiom` — recompilation not
-reproduced,"** NOT as machine-verified. The source-exploration front matter's phrase "Lean 4 compiled, no sorry,
-no axiom" overstates what was reproduced; the accurate statement is that the proof terms are written and the
-source is clean, but a clean recompilation against a provisioned mathlib has not been observed here. Do not cite
-any statement in this note as "proved in Lean." Every claim of this note stands independently on the
-exact-integer certificate (fact B) and on the exact computation plus SHIAB-05 canon corroboration (fact A).
+This verifies only the explicitly named CRT, coprimality/blindness, and weight-parity statements encoded in
+that module. It does **not** mechanize the external Adams input `pi_3^s = Z/24`, the implication from weight
+count to absence of a trivial summand, the exact cross-pairing dimension, any representation-to-index bridge,
+or a GU physical premise. Every claim of this note also retains its independent exact-integer or SHIAB-05
+evidence described above.
 
 **Verification tier.** All verification reported here is **internal**: computations reproduced and adversarially
 reviewed within the same AI-directed process that produced them; no result has been independently replicated or
@@ -274,7 +272,7 @@ strongest internal evidence available; they are not a substitute for external re
 | (A) `dim Hom_{so(9,5)}(S^+ (x) S^+, Lambda^0) = 0`; cross-pairing `= 1` | Exact computation (2 bases, 2 signatures, controls) + independent canon corroboration (SHIAB-05, checksum `16384`, errors `0.00e+00`) |
 | (B) `pi_3^s = Z/24 = Z/8 (+) Z/3`, disjoint; 2-primary blindness `f(8)=0` | Exact-integer certified, exhaustive, exit 0 (re-run this session); `pi_3^s = Z/24` cited from Adams (not re-proved) |
 | (C) generator dims `2+2+2+2 = 2^3`; `96 = 2^5·3`; `192 = 2^6·3`; `3 ∤ 2^k` | 2-primary arithmetic, entailed by the integer certificates |
-| Lean proof terms (`R4_TwoArena.lean`), all three legs | Proof terms written, source free of `sorry`/`axiom` — recompilation NOT reproduced; do not cite as machine-verified |
+| Lean core (`Lean/GUFormalization/R4TwoArena.lean`), named arithmetic and weight-parity statements | Machine-typechecked at internal tier; pinned default-target integration reverified 2026-07-22; no `sorry`/`axiom` |
 | A generation count / any GU physical premise | Not claimed; out of scope |
 
 ---
@@ -310,8 +308,9 @@ the three that the generation-sector program depends on, decoupled from the prog
 - **No representation-theory-to-index bridge.** The step from "same-chirality invariant scalar bilinear is
   absent" to any physical mass or index statement, and the `order-3-class -> integer-3` identification, remain
   exactly as open as `canon/three-generations-locate-not-force-CRT-RESULTS.md` records. They are out of scope.
-- **No machine-verified Lean.** Per Section 5, the Lean is proof-terms-written with clean source, not recompiled
-  here. Do not cite any statement as "proved in Lean."
+- **No whole-paper Lean verification.** Per Section 5, the named arithmetic and weight-parity statements are
+  machine-typechecked, but the Adams input, representation-theoretic implications, cross-pairing, index bridge,
+  and all GU physical premises remain outside the Lean core.
 - **No external replication.** All verification is internal tier.
 
 ---
@@ -330,11 +329,13 @@ combinatorics). Independent canon corroboration: `canon/shiab-existence-cl95.md`
 computation `tests/chase/MOVE-4/move4_spinor_square_forms.py` and independent recheck
 `tests/chase/MOVE-4/verify/indep_check.py` (checksum `16384 = 128^2`, errors `0.00e+00`).
 
-**Lean source.** `tests/big-swing/R4_TwoArena.lean` — namespaces `WeightParity` (fact A obstruction), `CRT`
-(fact B), `TwoPrimaryGenerators` (fact C). Source free of `sorry` and `axiom`. Intended compilation:
-`~/.elan/bin/lake env lean tests/big-swing/R4_TwoArena.lean` against the repo's provisioned mathlib. **Not
-recompiled in this pass**; mathlib provisioning status is the same caveat noted in
-`Lean/GUFormalization/LocatedNotForcedLegs.lean`. Treat as proof-terms-written, not machine-verified.
+**Lean source.** `Lean/GUFormalization/R4TwoArena.lean` — namespaces `WeightParity` (fact A obstruction),
+`CRT` (fact B), and `TwoPrimaryGenerators` (fact C); stable compatibility entrypoint
+`tests/big-swing/R4_TwoArena.lean`. The proof-bearing module is in the pinned default target, is free of
+`sorry` and `axiom`, and has a successful typecheck plus default-target integration receipt recorded in
+`canon/two-arena-rep-theory-core-RESULTS.md` (2026-07-03; integration reverified 2026-07-22). This is
+machine verification of the encoded statements at internal tier, not independent replication or verification
+of the paper's out-of-module inputs and implications.
 
 **Sources.** Source exploration: `explorations/big-swing-2026-07-03/R4-two-arena-rep-theory-core.md`. Canon spine
 this note serves: `canon/two-arena-rep-theory-core-RESULTS.md`. Fact (A) canon corroboration:

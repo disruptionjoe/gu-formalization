@@ -2,7 +2,7 @@
 title: "Contributing"
 status: canon
 doc_type: overview
-updated_at: "2026-06-25"
+updated_at: "2026-08-26"
 ---
 
 # Contributing
@@ -24,7 +24,10 @@ The work in this repository sits at the intersection of differential geometry, g
 
 If you don't fit those boxes but think the work is interesting, you are still welcome. The repository explicitly invites perspectives the maintainer hasn't considered.
 
-The math content is technical. The methodology — Hegelian dialectical synthesis across heterodox lenses — is not. Contributions at either level are valued.
+The math content is technical. The working method is a structured comparison of competing constructions,
+with positive controls, explicit failure conditions, hostile review, and evidence-graded synthesis; the
+repository also serves as a public demonstration of that agent-assisted research method. Contributions at
+either level are valued.
 
 ---
 

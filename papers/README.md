@@ -32,6 +32,10 @@ subfolders at a time, so its location always tells the truth about where it stan
     unexecuted.
   - [UV Structure Fourth Order Gravity](candidates/uv-structure-fourth-order-gravity/) - UV/fourth-order
     gravity candidate.
+- **Historical package:** [`drafts/arxiv-submission-package-v7.md`](drafts/arxiv-submission-package-v7.md)
+  is an abandoned packaging branch retained for provenance and marked `DO NOT SUBMIT`; it is not the live
+  arXiv source. The live *Located, Not Forced* arXiv source is
+  [`candidates/located-not-forced`](candidates/located-not-forced).
 - **Published:** see [`published/INDEX.md`](published/INDEX.md) (the canonical posted-status ledger).
   - [Observer Value Selection Theorem](published/observer-value-selection-theorem/) — "A Diagonal No-Go for
     Self-Valuations and an Invariance Classification", DOI [10.5281/zenodo.21343484](https://doi.org/10.5281/zenodo.21343484), posted 2026-07-13.

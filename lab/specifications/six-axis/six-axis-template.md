@@ -2,7 +2,7 @@
 title: "Six-Axis Candidate Specification Template"
 status: canon
 doc_type: specification
-updated_at: "2026-05-31"
+updated_at: "2026-07-10"
 ---
 
 # Six-Axis Candidate Specification Template

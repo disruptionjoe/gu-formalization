@@ -2,7 +2,7 @@
 title: "No-Go / Forgetful-Image Map"
 status: canon
 doc_type: canon
-updated_at: "2026-06-23"
+updated_at: "2026-08-09"
 ---
 
 # No-Go / Forgetful-Image Map
