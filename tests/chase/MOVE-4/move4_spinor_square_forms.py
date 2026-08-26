@@ -174,7 +174,7 @@ def main():
     # support = dim of invariant bilinears on each block (0 or 1)
     supp = {k: float(v[0]) for k, v in blk.items()}
     rep["scalar_bilinear_block_support"] = supp
-    rep["bilinear_gram_smallest"] = [0.0]  # placeholder (block method)
+    rep["bilinear_solver"] = "blockwise invariant-nullspace dimensions (no Gram spectrum computed)"
 
     # ---- D. Per-degree chirality grading ----
     # Verify Gamma_A omega = (-1)^k omega Gamma_A (parity) and classify each degree's
@@ -249,7 +249,7 @@ def main():
     print("C. Spin-invariant bilinear space (scalar / Lambda^0 / charge conjugation):")
     print(f"   dim of invariant bilinears on S(x)S = {rep['n_invariant_bilinears']}  "
           f"(expected 2: on S+xS- and S-xS+)")
-    print(f"   smallest Gram eigenvalues: {['%.2e'%x for x in rep['bilinear_gram_smallest']]}")
+    print(f"   solver: {rep['bilinear_solver']}")
     s = rep['scalar_bilinear_block_support']
     print(f"   scalar (Lambda^0) invariant-bilinear dimension per chirality block:")
     print(f"        S+xS+ = {int(s['++'])}   S+xS- = {int(s['+-'])}")

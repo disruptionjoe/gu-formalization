@@ -7,12 +7,18 @@ exits nonzero if anything fails. This guide lets an outside skeptic re-run all o
 ## What you need
 
 - **Python 3.9+** (developed/verified on 3.14). Standard library only for many certs.
-- **numpy, scipy, sympy** for the certs that do linear algebra / symbolic checks:
+- **numpy, scipy, sympy** for the certs that do linear algebra / symbolic checks.
+  For an exact reproduction of the maintained numeric environment, use the
+  hash-pinned lock:
   ```
-  pip install -r requirements.txt
+  pip install --require-hashes -r requirements.lock
   ```
-  (Verified versions: numpy 2.4.6, scipy 1.18.0, sympy 1.14.0. Pins are not required — the
-  certificates check exact and structural facts, not floating-point tolerances.)
+  The verified environment is NumPy 2.5.1, SciPy 1.18.0, SymPy 1.14.0, and
+  mpmath 1.3.0. `requirements.txt` remains a convenient unpinned declaration
+  of the three direct dependencies, but it is not the exact reproduction
+  surface. Many certificates check exact or structural facts; others use
+  declared floating-point tolerances, which is why `requirements.lock` records
+  the tested builds.
 
   On a Homebrew-managed Python (macOS), that bare `pip install` is refused: the interpreter is
   PEP 668 "externally managed." Use a venv, or certs that import `scipy`/`sympy` will fail with
@@ -20,7 +26,7 @@ exits nonzero if anything fails. This guide lets an outside skeptic re-run all o
   mathematical one:
   ```
   python3 -m venv _local/cas-venv
-  ./_local/cas-venv/bin/pip install -r requirements.txt
+  ./_local/cas-venv/bin/pip install --require-hashes -r requirements.lock
   ./_local/cas-venv/bin/python scripts/reproduce_all.py --quick --tracked-only
   ```
 - **Lean 4.32.0-rc1 via [elan](https://github.com/leanprover/elan)** — *only* for the separate Lean

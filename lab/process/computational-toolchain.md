@@ -3,7 +3,7 @@ title: "Computational Toolchain: what is available, and which named gates it unb
 status: process
 doc_type: toolchain-inventory
 created: 2026-08-02
-updated: 2026-08-02
+updated: 2026-08-26
 ---
 
 # Computational toolchain
@@ -30,7 +30,7 @@ CAS decomposition to a physical count.
 
 | Tool | Status | Purpose |
 |---|---|---|
-| Python 3.14 + numpy / scipy / sympy | available | The 780-certificate harness. `requirements.txt`, pin-free by design. |
+| Python 3.14 + numpy / scipy / sympy | available | The tracked certificate harness. `requirements.lock` pins the maintained numeric environment; `requirements.txt` remains the unpinned direct-dependency declaration. |
 | Lean 4.32.0-rc1 + mathlib | available | Finite proof kernels. Toolchain and mathlib revision both pinned. |
 | python-flint 0.9.0 (FLINT 3 / Arb) | **available** | Certified interval / ball arithmetic. `requirements-optional.txt`, hash-pinned. |
 | SageMath 10.9 | **available** (2026-08-03) | Lie-theoretic CAS. App bundle at `/Applications/SageMath-10-9.app`; binary path below. |
@@ -71,22 +71,21 @@ Sage bundles Singular (Gröbner bases via `.groebner_basis()`) and can pull QEPC
 as an optional package, so it covers both the Lie-theory and the real-algebraic-
 geometry needs below in one install.
 
-## Gates whose stated resolution path is a CAS
+## Historical CAS gates and current custody
 
-These are **existing** repository items. Each already names a CAS computation as
-its upgrade path; none is resolved by this file. Citations are to
-`DERIVATION-PROGRESS.md` line numbers at the time of writing.
+These are **existing** repository items that named a CAS computation as an
+upgrade path. The status column distinguishes algebraic work now closed by the
+M-M4 dictionary from gates whose real blocker is semantic, action-owned, or
+still genuinely computational. Citations are to `DERIVATION-PROGRESS.md` line
+numbers at the time of writing.
 
-| Gate | What the repo already says | Bears on |
+| Gate | Current custody | Bears on |
 |---|---|---|
-| `OQ-RK1` (:1255) | "Decisive circularity-free gate: CAS computation of `rank(Pi_RS * E_+ * Pi_RS)` in `M(64,H)`, which would return 4 or 8 directly." **CORRECTION 2026-08-03: this gate is SPEC-blocked, not CAS-blocked** — `tests/oq_rk1_e_rs_eff_assembly.py` returns `BLOCKED_NEEDS_SPEC` because `Pi_RS^phys` / `E_RS^eff` do not exist in the repo. A CAS narrows the 416 decomposition (the D2xD5 branching is already filed in `explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md`); it cannot select the physical summand. Layer-0 applies. | `rank_H(S_RS^+)` = 4 vs 8 — Candidate A vs the undismissed Candidate B. Generation-sector. |
-| `FC2` (:1555) | "Explicit CAS computation confirming the proposed `E^{-1}` formula." | Velo-Zwanziger E-block invertibility — the precondition holding 14D at `CONDITIONALLY_EVADED`. |
-| `FC-MULT` (:1987) | "Reconstruction grade pending LiE verification: if LiE returns multiplicity > 1, `dim_H Hom > 1` and uniqueness weakens." | Shiab uniqueness. Can weaken the claim, not only confirm it. |
-| `FC-IRR` (:1987) | "A formal proof requires the `D_7` branching law or a LiE weight computation." | Irreducibility of `ker(c)`, SC1-OQ1A §3.3 Step 3. |
-| `FC-HW` (:1987) | Highest-weight assignment `omega_1 + omega_7` for `ker(c)`, reconstruction grade. | SC1-OQ1A. |
-| `OQ-CG-2` (:1987) | "LiE/SageMath numerical verification is the upgrade path to RESOLVED." | SC1-OQ1A aggregate verdict, currently `CONDITIONALLY_RESOLVED`. |
-| `OQ1` / `FC-LIE` (:1969, :2052) | "Upgrade to verified requires CAS computation in LiE or SageMath" — multiplicity of `(1,2,2)` in `adj(Sp(16))\|_{G_PS}`. | Higgs emergence gate. |
-| gimmel curvature (:616) | "The single remaining gap is the explicit CAS computation of the gimmel Riemann tensor tangential projection." | `R_fail` / Einstein-emergence chain. |
+| `OQ-RK1` (:1255) | **SPEC-blocked, not CAS-bound.** `tests/oq_rk1_e_rs_eff_assembly.py` returns `BLOCKED_NEEDS_SPEC` because `Pi_RS^phys` / `E_RS^eff` do not exist. The filed decomposition cannot select the physical summand. | `rank_H(S_RS^+)` = 4 vs 8. |
+| `FC2` (:1555) | **Still CAS-bound** at its stated algebraic ceiling: explicitly verify the proposed `E^{-1}` formula. | Velo--Zwanziger E-block invertibility. |
+| `FC-MULT`, `FC-IRR`, `FC-HW`, `OQ-CG-2` (:1987) | **Algebraic CAS work executed by M-M4.** The exact D7 cache and 60/60 Sage certificate close the branching, highest-weight, multiplicity, dimension, duality, and compact-reality computations. Physical/source conclusions remain separately typed. | SC1-OQ1A algebraic inputs and Shiab existence/uniqueness controls. |
+| `OQ1` / `FC-LIE` (:1969, :2052) | **Algebraic D5 controls executed by M-M4; physical selection remains non-CAS.** The dictionary proves `Sym^2(16+) = 10 + 126+`, `Lambda^2(16+) = 120`, `Lambda^5(10) = 126+ + 126-`, and the named `16+ tensor 144+/-` decompositions. It supplies no GU real form, action owner, source-native Higgs/VEV bridge, or physical selector. | Higgs-emergence comparator and bridge question. |
+| gimmel curvature (:616) | **Still CAS-bound**: the explicit gimmel Riemann tangential projection has not been filed. | `R_fail` / Einstein-emergence chain. |
 
 Practical note: LiE is effectively unmaintained. Sage's `WeylCharacterRing` with
 `branching_rule`, or GAP's `SLA` package, is the maintained equivalent for the
