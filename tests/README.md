@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Control order
+
+For a new or materially revised certificate, execute the positive controls
+before the claim-bearing assertion whenever the same machinery supports both.
+A failure should first distinguish broken fixtures, imports, conventions, or
+evaluators from a false foreground claim. Then run the foreground assertion
+and its negative or mutation controls. If dependency or cost makes that order
+impossible, state the exception and the independent machinery check in the
+certificate itself.
+
+This is an execution-order convention, not evidence that every historical
+certificate already follows it. The current improvement register names three
+historical violations without preserving their filenames; do not guess or
+silently rewrite files from that incomplete record.
+
 ## Exceptional-point monodromy and form-spinor dictionary
 
 - `big-swing/vg_v4_exceptional_point_monodromy.py` transports the two low

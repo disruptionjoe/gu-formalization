@@ -101,6 +101,37 @@ locality (or fails at the cut); Family 2 buys unitarity at the cost of bounded m
 first result: at loop level, unitarity of fourth-order gravity is a **trade against micro-causality/locality**,
 and the trade is bounded to the ghost scale `~1/m_2`.
 
+### The two families partition the Kallen-Lehmann axioms
+
+W133 makes this trade sharp on the scalar two-ghost cut. Given the real part
+shared by the two prescriptions, Schwarz reality, real-axis cut-plane
+analyticity, and the agreed asymptotics, a once-subtracted dispersion relation
+forces the full even-cut absorptive weight `+1`, the graded answer. The
+Lee-Wick prescription remains consistent by relocating that content to
+off-axis conjugate branch discontinuities; it gives up the real-axis
+analyticity assumption rather than satisfying the same dispersion problem
+with zero weight.
+
+The resulting Kallen-Lehmann deviation pair
+`(analyticity defect, positivity defect)` is `(0, 1)` for keep-and-grade and
+`(1, 0)` for removal, in units of the full cut at each family's own locus.
+Thus the ghost residue makes real-axis analyticity and nonnegative spectral
+weight jointly unavailable in this tested class, while a normal-sign control
+satisfies both. The partition is exact for the weight arithmetic and
+numerically controlled for the dispersion magnitudes; it does not choose a
+physical family.
+
+The family discriminator is also not practically observable in the tested
+fixed-scale branch. Although the two-ghost threshold lies at roughly
+`6.2--10.5 meV` (`18.8--31.8 um`), the first family-dependent static-potential
+term is loop-level and about `10^-61` relative at its natural radius. This is a
+consistency discriminator, not an accessible prediction. The calculation is
+scalar-core only: spin-2 tensor numerators, the complete interacting metric,
+and all-orders positivity remain open. Reproduce the bounded result with
+`tests/W133_evencut_discriminator_dispersion.py` (`15/15`, exit 0); see
+`explorations/path2-wave5-evencut-family-discriminator-2026-07-14.md` for the
+full derivation and caveats.
+
 ## 4. Result 2: the grading is RG-contingent, but RG-stable for asymptotic freedom
 
 The adversarial construction (`tests/W52`) sharpens Family 1. The positivity-defining grading is **dynamical**
