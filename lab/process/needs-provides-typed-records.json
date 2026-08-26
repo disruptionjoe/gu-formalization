@@ -579,14 +579,14 @@
     },
     {
       "key": "I_4",
-      "dom": "UNTYPED",
+      "dom": "C4",
       "cod": "UNTYPED",
       "map_type": "evaluation",
       "source_file": "explorations/conditional-build/d4-contraction-rank-is-j-independent-2026-08-23.md",
       "receipt": {
         "site": "FILE:explorations/conditional-build/d4-contraction-rank-is-j-independent-2026-08-23.md",
         "rule": "fx2-block-layer-carrier",
-        "quote": "carrier: D = [I_4 ; J] as a 14x4 real matrix and the induced map on Sym^2 LAYER=typing CHIRALITY=N/A"
+        "quote": "carrier: D = [I_4 ; J] as a 14x4 real matrix and the induced map on Sym^2 LAYER=toy CHIRALITY=N/A"
       }
     },
     {

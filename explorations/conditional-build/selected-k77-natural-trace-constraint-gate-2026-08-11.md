@@ -27,6 +27,12 @@ Jordan quotient map remains rank 128 when restricted to `ker C`. Therefore the
 constrained evolution is still non-diagonalizable. The entire natural
 zero-order constraint route is killed wholesale.
 
+**Conditioning disclosure.** Because the constrained operator retains a
+nonzero square-zero Jordan remainder, its eigenvector-basis condition number
+is infinite or undefined; there is no finite conditioning estimate to report.
+No numerical pseudospectral radius is computed. The scope verdict rests on
+the exact rank-128 Jordan identity, not on a floating-point eigenbasis.
+
 In plain English: the geometry supplies a trace relation that travels
 consistently with the equations, but the bad generalized modes also satisfy
 that relation. Imposing it does not remove them.

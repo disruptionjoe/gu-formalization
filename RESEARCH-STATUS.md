@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-26 — Current-integrity contract wave
+
+Three independent present-tense integrity packets are repaired without moving
+research truth. The typed needs/provides sidecar re-derives `I_4` from the live
+`LAYER=toy` declaration as carrier C4 and replaces its stale receipt quote.
+Three artifacts that prove a nonzero square-zero Jordan remainder now state
+the corresponding conditioning fact explicitly: an eigenvector-basis condition
+number is infinite or undefined, while no numerical pseudospectral radius is
+claimed.
+
+The exploration, lab, automation and source indexes now match their live
+native surfaces. This includes the two integrity exploration families, the
+lab evidence/methods surfaces, the POSIX Lean wrapper in place of the retired
+automation `runs/` directory, and the complete ten-item 2026-08-14 K77
+source-return chain. The two inventory audits carry the same current surface
+sets and their selftest fixture no longer preserves the retired entry.
+
+Focused contracts and planted controls pass. This is typing, disclosure,
+detector and navigation custody only: no source claim, scientific verdict,
+action owner, ledger row, SG4 phase, prediction, confirmation, canon verdict,
+paper, release readiness or public posture moves.
+
 ## 2026-08-26 — Noncurrency audit-integrity wave
 
 Three current integrity packets are repaired without changing research truth.

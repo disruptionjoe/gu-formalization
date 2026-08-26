@@ -22,7 +22,7 @@ CODE_SPAN = re.compile(r"`([^`]+)`")
 
 EXPECTED_AUTOMATION_ENTRIES = (
     "check-lean.ps1",
-    "runs",
+    "check-lean.sh",
     "evidence",
     "logs",
     "tmp",
@@ -90,8 +90,11 @@ class LabAutomationReadmeSurfaceMapAudit(unittest.TestCase):
         self.assertEqual([], missing_boundary_phrases(self.text))
 
     def test_helper_ignores_nonlocal_code_spans(self) -> None:
-        sample = "`runs/` `check-lean.ps1` `canon/` `papers/published/`"
-        self.assertEqual({"runs", "check-lean.ps1"}, documented_local_entries(sample))
+        sample = "`runs/` `check-lean.ps1` `check-lean.sh` `canon/` `papers/published/`"
+        self.assertEqual(
+            {"check-lean.ps1", "check-lean.sh"},
+            documented_local_entries(sample),
+        )
 
 
 if __name__ == "__main__":

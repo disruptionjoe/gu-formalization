@@ -37,6 +37,12 @@ has signature `(7,7)` and is ultrahyperbolic; `PD-ULTRAHYPERBOLIC-DOMAIN`
 forbids importing Lorentzian Cauchy theory. The result is a necessary section
 gate and an adverse result for that route, not an ambient existence theorem.
 
+The spectral-conditioning charge is also explicit. A nonzero square-zero
+Jordan remainder makes the eigenvector-basis condition number infinite or
+undefined, so there is no honest finite condition number to quote. No
+numerical pseudospectral radius was computed; the review relies on the exact
+Jordan identity and rank rather than a tolerance-sensitive diagonalization.
+
 ## Charge 2 — where is rigor defending a superseded or mistyped object?
 
 The July B2B no-go acted on the isolated W131 gamma-traceless carrier and could

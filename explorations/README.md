@@ -7,6 +7,11 @@ updated_at: "2026-08-21"
 
 # Explorations
 
+Navigation for the two current integrity-focused exploration families:
+
+- [`hardening/`](hardening/) — exact certificate and reproducibility hardening.
+- [`process-integrity/`](process-integrity/) — process-contract and detector-integrity results.
+
 ## Invariant-gapping, reality-intersection and R5 rescope wave (2026-08-24)
 
 `generation-sector/invariant-gapping-reality-rescope-wave-2026-08-24.md`

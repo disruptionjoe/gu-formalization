@@ -11,7 +11,6 @@ check helper. This is **operational record, not load-bearing research** -- an ou
 - `check-lean.sh` - required macOS/POSIX-host counterpart. It uses `shlock` on the same host-local
   private orchestration overlay temp-lock identity, supports the optional update/cache preparation steps, and runs the default
   target without the Lake-5-incompatible `-j1` argument.
-- `runs/` — per-run prompts and logs from automated cycles.
 - `evidence/` — captured outputs / receipts from runs.
 - `logs/` — run logs.
 - `tmp/` — scratch.

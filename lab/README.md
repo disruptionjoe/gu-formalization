@@ -8,7 +8,9 @@ the durable, reviewed results live in `canon/` and `papers/`.
 - [`roadmap/`](roadmap/) — ranked next steps, publish-potential analysis, and contributor routing.
 - [`process/`](process/) — perspective passes, dialectics, and synthesis history.
 - [`deep-research/`](deep-research/) — external deep-research briefs and adversarial-hardening passes.
+- [`evidence/`](evidence/) — retained native evidence packets and exact supporting records.
 - [`literature/`](literature/) — literature-review briefs.
+- [`methods/`](methods/) — target-native research, typing, routing, and verification methods.
 - [`sources/`](sources/) — media/source provenance and claim-mining surfaces.
 - [`specifications/`](specifications/) — reusable specification templates and candidate specs (the six-axis
   format and worked examples).

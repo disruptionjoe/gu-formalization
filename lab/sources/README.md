@@ -10,6 +10,20 @@ updated_at: "2026-08-21"
 Additional source-custody and reinspection records retained by the native
 research boundary:
 
+The complete 2026-08-14 K77 source-return chain is indexed here without
+changing any return's source/repository attribution or claim ceiling:
+
+- [`selected-k77-tautological-total-residual-zero-background-source-return-2026-08-14.md`](selected-k77-tautological-total-residual-zero-background-source-return-2026-08-14.md)
+- [`selected-k77-regular-cartan-global-realization-source-return-2026-08-14.md`](selected-k77-regular-cartan-global-realization-source-return-2026-08-14.md)
+- [`selected-k77-native-connection-curvature-jet-gate-source-return-2026-08-14.md`](selected-k77-native-connection-curvature-jet-gate-source-return-2026-08-14.md)
+- [`selected-k77-cartan-slice-edge-cancellation-source-return-2026-08-14.md`](selected-k77-cartan-slice-edge-cancellation-source-return-2026-08-14.md)
+- [`selected-k77-rank128-normal-module-mixed-boost-source-return-2026-08-14.md`](selected-k77-rank128-normal-module-mixed-boost-source-return-2026-08-14.md)
+- [`selected-k77-source-epsilon-cotangent-parent-source-return-2026-08-14.md`](selected-k77-source-epsilon-cotangent-parent-source-return-2026-08-14.md)
+- [`selected-k77-endpoint-coadjoint-edge-cancellation-source-return-2026-08-14.md`](selected-k77-endpoint-coadjoint-edge-cancellation-source-return-2026-08-14.md)
+- [`selected-k77-opposite-edge-dependent-selector-obstruction-source-return-2026-08-14.md`](selected-k77-opposite-edge-dependent-selector-obstruction-source-return-2026-08-14.md)
+- [`selected-k77-coadjoint-invariant-variation-source-return-2026-08-14.md`](selected-k77-coadjoint-invariant-variation-source-return-2026-08-14.md)
+- [`selected-k77-cartan-slice-cotangent-realization-source-return-2026-08-14.md`](selected-k77-cartan-slice-cotangent-realization-source-return-2026-08-14.md)
+
 - [`jacobson-gravitational-entropy-primary-pack-2026-08-21.md`](jacobson-gravitational-entropy-primary-pack-2026-08-21.md)
   - verifies and registers the five 2023--2025 Jacobson/collaborator primaries
     on gravitational partition functions, lapse contours, simplicial de

@@ -33,6 +33,12 @@ each generator similar to a symmetric matrix, so the positive simultaneous-
 symmetrizer cone is empty. This kills the standard **unreduced** strong/
 symmetric-hyperbolic maximal-dissipative Cauchy route.
 
+**Conditioning disclosure.** The exact nonzero square-zero remainder proves
+that each `E_j` is defective, so an eigenvector-basis condition number is
+infinite or undefined rather than a finite numerical estimate. No numerical
+pseudospectral radius is computed here; the conclusion uses the exact Jordan
+identity and rank, not a tolerance-sensitive eigendecomposition.
+
 It does not kill every closed graph realization. The ambient Y14 operator is
 ultrahyperbolic, so ordinary Lorentzian Cauchy theory was never an ambient
 domain theorem. A source-derived invariant reduction or an explicit nonlocal

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 346c70e056ccc23c45352a557057d72807a0ac89
+revision_basis: d80a68c4fa5b2d78cabe90993ad492b25654361f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Current-integrity contract hardening restores three independent live
+    packets. The typed needs/provides sidecar now re-derives `I_4` from its
+    live `LAYER=toy` declaration as carrier C4 with an exact receipt quote.
+    Three post-binding Jordan-defect artifacts now disclose that their proven
+    non-diagonalizable operators have an infinite or undefined eigenvector-
+    basis condition number while leaving numerical pseudospectral radius
+    uncomputed. Native exploration, lab, automation and source inventories now
+    match their live surfaces, including the complete ten-item 2026-08-14 K77
+    source-return chain. This is scientific-custody and navigation hardening
+    only: no source claim, scientific verdict, action owner, ledger row, SG4
+    phase, prediction, confirmation, paper, canon verdict, release readiness
+    or public posture moves.
     Noncurrency audit-integrity hardening restores two live process gates after
     the native `research-portfolio.json` to `RESEARCH-AGENDA.json` migration,
     adds the three missing tracked anomaly/P3 probe inventory entries, and
