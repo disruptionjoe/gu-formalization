@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b628d8bd4279b58a0f7c0fb2c32328eb63082113
+revision_basis: 346c70e056ccc23c45352a557057d72807a0ac89
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,15 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Noncurrency audit-integrity hardening restores two live process gates after
+    the native `research-portfolio.json` to `RESEARCH-AGENDA.json` migration,
+    adds the three missing tracked anomaly/P3 probe inventory entries, and
+    completes all eight post-cutover disposition-schema fields across three
+    historical artifacts from facts already explicit in their bodies and the
+    live ledger. The six focused gates now pass 92 checks, including their
+    planted negative controls. No source claim, scientific verdict, action
+    owner, ledger row, SG4 phase, prediction, confirmation, paper, canon
+    verdict, release readiness or public posture moves.
     Canonical-currency provenance review adjudicates all forty-four aged CC-10
     candidates. Thirty-one are scoped locators, source-search controls,
     negative-receipt machinery or signature false positives; thirteen genuine

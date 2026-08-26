@@ -15,7 +15,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-PORTFOLIO = ROOT / "lab" / "process" / "research-portfolio.json"
+AGENDA = ROOT / "lab" / "process" / "RESEARCH-AGENDA.json"
 RECOVERY_MATRIX = ROOT / "lab" / "process" / "recovery-certification-matrix.json"
 H46B_TEST = ROOT / "tests" / "wave45" / "H46B_referee_grade_desi_verification.py"
 H46B_NOTE = (
@@ -40,9 +40,9 @@ def read(path: Path) -> str:
 class DeAmpDiagnosticClosureAudit(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
-        cls.portfolio = json.loads(read(PORTFOLIO))
+        cls.agenda = json.loads(read(AGENDA))
         cls.matrix = json.loads(read(RECOVERY_MATRIX))
-        cls.lanes = {lane["id"]: lane for lane in cls.portfolio["lanes"]}
+        cls.work_items = {item["id"]: item for item in cls.agenda["work_items"]}
         cls.h46b_test = read(H46B_TEST)
         cls.h46b_note = read(H46B_NOTE)
         cls.h46c_test = read(H46C_TEST)
@@ -68,14 +68,15 @@ class DeAmpDiagnosticClosureAudit(unittest.TestCase):
         missing = [path.relative_to(ROOT).as_posix() for path in required if not path.is_file()]
         self.assertEqual([], missing)
 
-    def test_portfolio_keeps_de_amp_diagnostic_and_source_gated(self) -> None:
-        lane = self.lanes["DE-AMP-DIAGNOSTIC"]
-        self.assertEqual("diagnostic", lane["track"])
-        self.assertTrue(lane["hourly_eligible"])
-        self.assertIn("H46B", lane["next_swing"])
-        self.assertIn("data hygiene", lane["forbidden_shortcut"])
-        self.assertIn("not a decisive or distinctive GU prediction", lane["forbidden_shortcut"])
-        self.assertIn("Only H46B-verified likelihood inputs", lane["forbidden_shortcut"])
+    def test_agenda_keeps_de_amp_closed_and_source_gated(self) -> None:
+        item = self.work_items["DE-AMP-DIAGNOSTIC"]
+        self.assertEqual("diagnostic", item["track"])
+        self.assertEqual("RESOLVED_NO_GO", item["state"])
+        self.assertIn("None on the current construction", item["next_swing"])
+        self.assertIn("corrected official likelihood input", item["next_swing"])
+        self.assertIn("data hygiene", item["forbidden_shortcut"])
+        self.assertIn("not a decisive or distinctive GU prediction", item["forbidden_shortcut"])
+        self.assertIn("Only H46B-verified likelihood inputs", item["forbidden_shortcut"])
 
     def test_recovery_matrix_classifies_de_amp_as_negative_control(self) -> None:
         controls = {

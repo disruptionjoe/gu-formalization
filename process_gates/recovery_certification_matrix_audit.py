@@ -16,7 +16,7 @@ MATRIX = ROOT / "lab" / "process" / "recovery-certification-matrix.json"
 ASSESSMENT = (
     ROOT / "lab" / "process" / "recovery-certification-assessment-2026-07-15.md"
 )
-PORTFOLIO = ROOT / "lab" / "process" / "research-portfolio.json"
+AGENDA = ROOT / "lab" / "process" / "RESEARCH-AGENDA.json"
 
 
 def read(path: Path) -> str:
@@ -27,16 +27,16 @@ class RecoveryCertificationMatrixAudit(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.matrix = json.loads(read(MATRIX))
-        cls.portfolio = json.loads(read(PORTFOLIO))
+        cls.agenda = json.loads(read(AGENDA))
         cls.items = cls.matrix["items"]
         cls.by_id = {item["id"]: item for item in cls.items}
         cls.lane = next(
             item
-            for item in cls.portfolio["work_items"]
+            for item in cls.agenda["work_items"]
             if item["id"] == "RECOVERY-CERTIFICATION"
         )
-        cls.portfolio_by_id = {
-            item["id"]: item for item in cls.portfolio["work_items"]
+        cls.agenda_by_id = {
+            item["id"]: item for item in cls.agenda["work_items"]
         }
 
     def test_exact_contract_plus_seven_conditions(self) -> None:
@@ -168,7 +168,7 @@ class RecoveryCertificationMatrixAudit(unittest.TestCase):
         missing = [path for path in paths if not (ROOT / path).is_file()]
         self.assertEqual([], missing)
 
-    def test_portfolio_consumes_the_assessment_without_opening_gates(self) -> None:
+    def test_agenda_consumes_the_assessment_without_opening_gates(self) -> None:
         internal = {item["id"]: item for item in self.lane["internal_work_items"]}
         self.assertEqual("lab/process/recovery-certification-matrix.json", self.lane["assessment_source"])
         lane_one_matrix_items = set(self.by_id) - {
@@ -181,10 +181,12 @@ class RecoveryCertificationMatrixAudit(unittest.TestCase):
         self.assertIn("current registered target set is complete", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
         self.assertIn("three broad swings", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
         self.assertEqual("GATED_P2C", internal["ADAPTER-RETURN-CERTIFICATION"]["state"])
-        self.assertEqual("2", self.portfolio_by_id["FIXED-NATIVE-QUANTITY"]["lane_id"])
-        self.assertEqual("GATED_NEW_STRUCTURE", self.portfolio_by_id["FIXED-NATIVE-QUANTITY"]["state"])
-        self.assertEqual("2", self.portfolio_by_id["BLIND-QUANTITATIVE-CONFRONTATION"]["lane_id"])
-        self.assertEqual("GATED_FIXED_QUANTITY", self.portfolio_by_id["BLIND-QUANTITATIVE-CONFRONTATION"]["state"])
+        fixed = self.agenda_by_id["FIXED-NATIVE-QUANTITY"]
+        blind = self.agenda_by_id["BLIND-QUANTITATIVE-CONFRONTATION"]
+        self.assertNotIn("lane_id", fixed)
+        self.assertEqual("GATED_NEW_STRUCTURE", fixed["state"])
+        self.assertNotIn("lane_id", blind)
+        self.assertEqual("GATED_FIXED_QUANTITY", blind["state"])
         self.assertEqual(
             "PARKED",
             internal["GR-DYNAMICAL-BENCHMARKS"]["state"],

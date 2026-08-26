@@ -14,6 +14,12 @@ repo_access: READ-ONLY (gu-formalization untouched, working tree clean; all writ
 title: "AC-E1 discharge attempt: independent recomputation of the 4D Standard-Model Dai-Freed shadow. RESULT: DERIVED_CONDITIONAL on the Spin/G_SM leg -- all four Omega^Spin_5(B(G_SM/Gamma_n)) recomputed from scratch by AHSS with dual-Sq^2 differentials and matching Davighi-Gripaios-Lohitsiri Table 1 exactly (Z/2, 0, Z/2, 0 for n = 1,2,3,6), with 3/3 independent controls (BSU(2)=Z/2, BU(1)=0, BSU(3)=0) matching Garcia-Etxebarria-Montero. NO DISAGREEMENT with the cited result; the revival trigger is NOT fired. But a SCOPE CORRECTION is earned: the group is NOT zero for two of the four global forms, so 'carries no obstruction' is a statement about the image of the SM CONTENT, not about the receptacle; and the row's word 'saturated' with its '16' belongs to a DIFFERENT object (Omega_5^{Spin x_{Z2} Z4} = Z/16) that the row never names and GU never assumes."
 grade: "COMPUTED / exact. The AHSS computation is a new in-repo derivation (ac_e1_ahss_omega_spin_5.py, exit 0, 7/7 agreement with two published sources, 3 positive controls, d_2 o d_2 = 0 checked numerically, image-inside-kernel checked). The Z/16 leg is VERIFIED-not-derived at the group level (Smith isomorphism imported) but its saturation arithmetic is derived. Primary sources actually read: DGL arXiv:1910.11277 (PDF text extracted, Eqs 4.22/4.38/4.40/4.45 and Table 1 read verbatim); Wan-Wang arXiv:2006.16996 (PDF text extracted, Eqs 5.6/5.8 read verbatim); GEM arXiv:1808.00009 (via ar5iv, Eqs 36/51/57). No ledger edit. No verdict, canon, bar, count or posture moves."
 fork_assumed: none
+search_space_dim: "4 Standard Model global-form cases plus 3 independent positive controls; decided wholesale"
+free_object_delta: 0
+residue_touched:
+  - id: AC-E1
+    grade: T0
+    note: EVIDENCE_ONLY_NO_LEDGER_MOVEMENT
 forks_touched_not_assumed:
   - "SIGNATURE-AMBIENT (open) -- irrelevant here. Every object in this artifact lives on the 4D shadow X^4 and its 5D mapping-torus receptacle, not on the Y^14 ambient. No (9,5)/(7,7) datum enters."
   - "GENERATION-COUNT-CODOMAIN (open) -- touched only to CONFIRM the standing 2-vs-3-primary disjointness: the Z/16 leg is generation-SENSITIVE but 2-primary, coprime to the Z/3 arena. Consistent with canon/two-primary-lemma.md; nothing moves."

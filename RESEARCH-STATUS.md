@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-26 — Noncurrency audit-integrity wave
+
+Three current integrity packets are repaired without changing research truth.
+The DE-amplitude closure and recovery-certification gates now consume the
+native `RESEARCH-AGENDA.json` surface created by the 2026-08-03 public-boundary
+migration instead of crashing on the retired `research-portfolio.json` path;
+their assertions use owner-native work state and no longer expect removed
+service-Lane metadata.
+
+The anomaly manifest now names its tracked `cb_c_anomaly_rank.py` executable,
+and the root test manifest names the two tracked P3 normal/tangential and
+replacement-surplus probes. Three post-cutover wave artifacts now carry the
+required fork, search-space, free-object and graded-residue declarations using
+facts already explicit in their bodies and the live ledger. The live wave
+schema falls from eight violations to zero.
+
+The six focused gates pass ninety-two checks, including their embedded planted
+negative controls. This is detector and navigation hardening only: no source
+claim, scientific verdict, action owner, ledger row, SG4 phase, prediction,
+confirmation, canon verdict, paper, release readiness or public posture moves.
+
 ## 2026-08-26 — UCSD-transcript provenance canonical-currency wave
 
 The complete aged `CC-10-UCSD-EDITED-DERIVATIVE` dirty cohort is adjudicated

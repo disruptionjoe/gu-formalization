@@ -8,6 +8,10 @@ gate_before: SIGN_REPAIR_CLUSTER_STOPPED__COUPLED_FUNCTIONAL_BUILD_PRIMARY__FERM
 gate_after: CURRENT_BEGINS_CUBIC__ZERO_FERMION_HESSIAN_DIRECT_SUM__PHYSICAL_FERMION_OPERATOR_OPEN
 route_disposition: BUILD_PRIMARY_BOSONIC_STRESS_BV__SEPARATE_NONZERO_FERMION_OPERATOR_BRANCH
 source_collision: SOURCE-CONFIRMS-SINGLE-TOTAL-BOSON-FERMION-RESIDUAL-AND-NO-SEPARATE-BRIDGE__SOURCE-SILENT-COMPLETE-DIRAC-OPERATOR-AND-NONZERO-FERMION-BACKGROUND
+fork_assumed: none
+search_space_dim: "complete derivative support of the even bilinear class S_B plus bar-z D(b) z, together with one exact rational fixture"
+free_object_delta: 0
+residue_touched: none
 canon_verdict_change: none
 ---
 

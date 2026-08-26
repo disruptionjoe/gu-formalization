@@ -1344,6 +1344,16 @@ the map: which directory/group supports which claim.
   vanish. Nonzero self-dual controls expose the cancellation but require a new
   reduction. The direct P3 amplitude horn is killed (`61/61`).
 
+- `channel-swings/selected_k77_p3_normal_tangential_support_probe.py` separates
+  the source curvature's zero normal-cycle support from its rank-four
+  horizontal support, checks the rank-six combined self-dual form slots, and
+  keeps action restriction and any soldering replacement outside the result.
+
+- `channel-swings/selected_k77_p3_replacement_surplus_probe.py` classifies the
+  natural horizontal-to-normal replacement space, its smaller one-vector
+  ansatz, and Lorentzian self-duality controls while preserving action-derived
+  replacement as the only open zero-cost route.
+
 - `channel-swings/selected_k77_p3_characteristic_amplitude_selector_probe.py`
   composes the existing P3 framed four-cycle with the v0.142 one-amplitude
   source family. It proves the exact degree-`m` scaling and, for degree two,

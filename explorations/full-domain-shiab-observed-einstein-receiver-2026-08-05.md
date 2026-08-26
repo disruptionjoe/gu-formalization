@@ -13,7 +13,9 @@ fork_stack_acknowledged: "Lorentz (1,3) horizontal plus trace-reversed Frobenius
 search_space_dim: "complete 10-dimensional observed Sym2 target inside the Bianchi-selected candidate's complete Riemann kernel; zero fitted coefficients"
 free_object_delta: 0
 residue_touched:
-  - "LT-GR1:EVIDENCE_ONLY_NO_GRADE_MOVEMENT"
+  - id: LT-GR1
+    grade: T0
+    note: EVIDENCE_ONLY_NO_GRADE_MOVEMENT
   - "LT-GR1b:T4"
 canon_verdict_change: none
 ---
