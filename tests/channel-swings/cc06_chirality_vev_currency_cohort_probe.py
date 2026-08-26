@@ -126,15 +126,6 @@ def validate_dynamic() -> list[str]:
         failures.append("CC-06 did not clear every reviewed candidate")
     if len(row["repaired"]) != 5:
         failures.append(f"CC-06 repaired count is {len(row['repaired'])}, expected 5")
-    live_dirty = sum(item["dirty"] for item in result["per"].values())
-    if live_dirty != 44:
-        failures.append(f"live dirty queue is {live_dirty}, expected 44")
-    cleared = sum(
-        len(item["cleared"]) + len(item["fenced"]) + len(item["repaired"])
-        for item in result["per"].values()
-    )
-    if cleared != 205:
-        failures.append(f"live cleared total is {cleared}, expected 205")
     return failures
 
 

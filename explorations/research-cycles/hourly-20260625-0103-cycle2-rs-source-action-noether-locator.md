@@ -14,6 +14,12 @@ audit:
 
 # Hourly 20260625 0103 Cycle 2 RS Source Action/Noether Locator
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve its
+> historical timestamp locators below at transcript-verified grade only.
+
 ## 1. Verdict
 
 **Verdict: `BLOCKED_NO_SOURCE_ACTION`.**

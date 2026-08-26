@@ -8,6 +8,13 @@ updated_at: "2026-06-22"
 
 # Weinstein UCSD April 2025 Talk — Formal Analysis Against Repo Canon
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical extraction and timestamp locators below at transcript-verified
+> grade only.
+
 > **Canonical subtractive-2+1 correction (2026-08-26).** Preserve the historical analysis below, but do not consume its old additive generation-count result. CC-05/HE-1 makes the source partition **not an additive** count: it is the unlabeled subtractive rule `n_g -> n_g - 1`, with the distinguished imposter family removed. Separate index, representation, and multiplicity results remain historical evidence but do not force the physical generation count. The conflicting count status below is superseded forward-only.
 
 **Status.** Exploration-grade throughout. No finding here is promoted to active research or canon without meeting the promotion criteria in `RESEARCH-STATUS.md`.

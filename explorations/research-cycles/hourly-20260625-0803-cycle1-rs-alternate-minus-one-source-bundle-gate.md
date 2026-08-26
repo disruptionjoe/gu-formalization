@@ -11,6 +11,12 @@ companion_audit: "tests/hourly_20260625_0803_cycle1_rs_alternate_minus_one_sourc
 
 # Hourly 20260625 0803 Cycle 1 RS Alternate Minus-One Source Bundle Gate
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical hosted candidate below at transcript-verified grade only.
+
 ## 1. Verdict
 
 Verdict: **underdefined hosted candidate, not closed**.

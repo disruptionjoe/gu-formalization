@@ -12,6 +12,12 @@ companion_audit: "tests/hourly_20260625_0203_cycle3_ucsd_visual_slide_capture_ba
 
 # Hourly 20260625 0203 Cycle 3 UCSD Visual Slide Capture Batch
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical capture targets below at transcript-verified grade only.
+
 ## 1. Verdict
 
 Verdict: **conditional batch specified, proof restart blocked**.

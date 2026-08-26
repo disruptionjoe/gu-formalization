@@ -7,6 +7,13 @@ source_return: SOURCE-CONFIRMS
 
 # Selected-branch BV and FLRW source reinspection
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical source return, but use this copy's timestamp locators at
+> transcript-verified grade only.
+
 ## Decisive return: `SOURCE-CONFIRMS`
 
 The primary sources state the same limited architecture used by this wave:

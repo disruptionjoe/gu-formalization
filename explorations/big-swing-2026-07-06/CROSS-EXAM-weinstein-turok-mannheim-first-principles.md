@@ -20,6 +20,13 @@ external_refs:
 
 # First-principles cross-examination: Weinstein vs Bateman-Turok vs Mannheim
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical analysis and timestamp locators below at transcript-verified
+> grade only.
+
 Companion to today's big swing. Posture: no source is an authority here; each program is examined
 against the mathematics it actually exhibits and against this repo's machine-checked receipts.
 External material is calibration/stress-test input, never support (posture rule, standing).

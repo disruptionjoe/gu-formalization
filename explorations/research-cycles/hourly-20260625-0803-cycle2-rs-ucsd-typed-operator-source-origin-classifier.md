@@ -11,6 +11,13 @@ companion_audit: "tests/hourly_20260625_0803_cycle2_rs_ucsd_typed_operator_sourc
 
 # Hourly 20260625 0803 Cycle 2 RS UCSD Typed Operator Source-Origin Classifier
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical source-origin classification below at transcript-verified grade
+> only.
+
 ## 1. Verdict
 
 Verdict: **conditional source-origin host, underdefined as a typed pure-RS

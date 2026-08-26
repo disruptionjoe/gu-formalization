@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-26 — UCSD-transcript provenance canonical-currency wave
+
+The complete aged `CC-10-UCSD-EDITED-DERIVATIVE` dirty cohort is adjudicated
+across forty-four documents. Thirty-one matches are scoped locators, source-
+search controls, negative-receipt machinery, or signature false positives in
+which “primary source” names another object. Thirteen historical consumers do
+assign primary-source weight to the repository's local UCSD transcript copy.
+
+Those thirteen now carry prominent forward-only fences: the local copy is an
+edited derivative, its chain sentence at `[00:45:00]` was restored on
+2026-08-15, and audio confirmation remains owed. Historical deductions and
+timestamp locators remain usable at transcript-verified grade; no speech
+content is erased or re-derived.
+
+Fifty-seven append-only custody records lower CC-10 from `44` dirty pairs to
+zero, reduce the total live queue from `44` to zero, and raise cleared pairs
+from `205` to `249`. The coupled certificate catches all seventy-three
+missing, duplicate, verdict, correction and repair-fence mutations. The prior
+CC-06 certificate now owns correction-local custody rather than mutable
+repository-global totals. No source claim, scientific verdict, action owner,
+ledger row, SG4 phase, prediction, confirmation, canon verdict, paper, release
+readiness or public posture moves.
+
 ## 2026-08-26 — Chirality/VEV canonical-currency wave
 
 The complete aged `CC-06-CHIRALITY-VEV-CONDITIONAL` dirty cohort is

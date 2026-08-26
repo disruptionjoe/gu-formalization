@@ -10,6 +10,12 @@ owned_path: "explorations/hourly-20260626-0502-cycle1-negative-primary-dgu-sourc
 
 # Negative Primary Source Receipt For DGU01 Same-Operator Packet
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the scoped
+> negative and its timestamp locators below at transcript-verified grade only.
+
 ## 1. Verdict
 
 Verdict: **closed**, as a scoped negative receipt over the already-inspected

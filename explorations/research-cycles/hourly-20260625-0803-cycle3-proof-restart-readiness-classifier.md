@@ -11,6 +11,12 @@ companion_audit: "tests/hourly_20260625_0803_cycle3_proof_restart_readiness_clas
 
 # Hourly 20260625 0803 Cycle 3 Proof Restart Readiness Classifier
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve its
+> historical locator role below at transcript-verified grade only.
+
 ## 1. Verdict.
 
 Verdict: **proof restart forbidden globally**.

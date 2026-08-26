@@ -13,6 +13,13 @@ status: this supersedes the five-row summary in gap-assessment.md with updated C
 
 # Full Synthesis: Nguyen Critique vs. Four Repos
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical synthesis and timestamp locators below at transcript-verified
+> grade only.
+
 This document extends `nguyen-critique-gap-assessment.md` with findings from a full
 survey of all four repos, including temporal-issuance (TI). Two source corrections,
 updated column verdicts, and ranked buildable next steps.

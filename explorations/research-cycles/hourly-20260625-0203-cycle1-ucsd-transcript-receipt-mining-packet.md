@@ -12,6 +12,13 @@ companion_audit: "tests/hourly_20260625_0203_cycle1_ucsd_transcript_receipt_mini
 
 # Hourly 20260625 0203 Cycle 1 UCSD Transcript Receipt Mining Packet
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical mining packet and timestamp locators below at transcript-verified
+> grade only.
+
 ## 1. Verdict
 
 Verdict: **blocked**.

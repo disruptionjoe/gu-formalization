@@ -13,6 +13,13 @@ external_actions: none
 
 # Prong A source-extraction: the source-owned domain selector
 
+> **Canonical UCSD-transcript provenance correction (2026-08-26).** The local
+> `lab/literature/weinstein-ucsd-2025-04-transcript.md` copy is an **edited
+> derivative**, not a primary source. Its chain sentence at `[00:45:00]` was
+> restored on 2026-08-15; audio confirmation remains owed. Preserve the
+> historical search result while treating this corpus member at
+> transcript-verified grade only.
+
 Adversarial truth-test, not advocacy. This mines the Weinstein PRIMARY corpus
 against ONE frozen demand list for the source-owned boundary/domain data that
 `OPERATOR-END-PENCIL` and `B5-MIDDLE-DIFFERENTIAL` both need, and that the L7
