@@ -202,7 +202,7 @@ def s6_pontryagin_and_euler():
     The ONLY nonzero characteristic number of S^6 is the Euler number chi(S^6) = 2 (even sphere),
     which lives in the Euler/Gauss-Bonnet channel -- NOT the spin-Dirac (A-hat) channel."""
     ahat_S6 = F(0)          # all p_i[S^6] = 0
-    euler_S6 = 2            # chi(S^6) = 2
+    euler_S6 = 1 + (-1) ** 6  # chi(S^n) = 1 + (-1)^n, here n=6
     return ahat_S6, euler_S6
 
 

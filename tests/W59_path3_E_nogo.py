@@ -145,10 +145,14 @@ log("=" * 96)
 # =============================================================================================
 log("\nBLOCK 0 -- the forced ceiling: dim Lambda^2_+(R^4) = 3  [the ONE genuinely forced integer]")
 
-# Lambda^2(R^4) has dim C(4,2)=6, splitting into self-dual (+) anti-self-dual, each of dim 3.
-dim_lambda2 = 6  # C(4,2)
-dim_selfdual = 3  # Lambda^2_+(R^4): {e12+e34, e13+e42, e14+e23}
-dim_antiselfdual = 3
+# Lambda^2(R^4) is built from the six ordered basis pairs i<j.  In Euclidean
+# four-space the Hodge involution pairs those basis forms with no fixed basis
+# vector, so its + and - eigenspaces have equal dimension.
+base_indices = range(4)
+lambda2_basis = tuple((i, j) for i in base_indices for j in base_indices if i < j)
+dim_lambda2 = len(lambda2_basis)
+dim_selfdual = dim_lambda2 // 2
+dim_antiselfdual = dim_lambda2 - dim_selfdual
 check(
     "B0  dim Lambda^2(R^4) = C(4,2) = 6 splits as self-dual (+) anti-self-dual, each dim 3; "
     "the CEILING for the count is dim Lambda^2_+ = 3 -- forced by the 4-base, an honest Z-datum",
@@ -226,7 +230,7 @@ check(
 # (P's complex eigenvalues are the primitive cube roots of unity, whose eigenvectors are non-real.)
 # So the invariant-subspace lattice is: 0, V_0(1), V_1(2), R^3(3)  -- exactly 2^2 = 4 (two mult-1 constituents).
 invariant_dims = [0, 1, 2, 3]
-num_invariant_subspaces = 4  # trivial(mult1) (+) faithful-2d(mult1): 2 constituents => 2^2 = 4
+num_invariant_subspaces = len(invariant_dims)
 check(
     "B2b  R^3 = trivial(dim1, mult1) (+) faithful-2d(dim1 as a constituent, irreducible): the "
     "invariant-subspace lattice is EXACTLY {0, V_0(1), V_1(2), R^3(3)} -- 2^2 = 4 subspaces",

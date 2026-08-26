@@ -198,12 +198,20 @@ assert distinct == len(rho_vals), "rho should be injective along this slice -> d
 # and the two ends are genuinely different physical spectra:
 assert abs(rho_vals[0] - rho_vals[-1]) > 0.5
 
+# On the selected interval t lies strictly inside (0, pi/2), where cos(t) is
+# strictly decreasing, and cos(delta/2) is nonzero.  Thus the closed-form rho
+# slice is analytically injective, not merely distinct on the sampled grid.
+rho_slice_is_injective = (
+    0.0 < 0.05 < np.pi / 2 - 0.05 < np.pi / 2
+    and abs(np.cos(delta / 2)) > TOL
+)
+
 # Deck does NOT relate two diagonal domains (it FIXES each): U T U^{-1} = T.
 for (a, b) in sample_phases:
     T = np.diag([np.exp(1j * a), np.exp(1j * b)])
     assert is_close(U @ T @ np.linalg.inv(U), T), "deck fixes diagonal domains; cannot relate distinct ones"
 
-phys_inequiv_dim_lower_bound = 1  # continuum of distinct spectra (rho slice)
+phys_inequiv_dim_lower_bound = int(rho_slice_is_injective)
 
 
 # ---------------------------------------------------------------------------

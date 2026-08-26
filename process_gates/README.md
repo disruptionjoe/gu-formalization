@@ -672,6 +672,7 @@ same ceiling as the scripts themselves:
 - `decider_readme_inventory_audit.py`
 - `de_amp_diagnostic_closure_audit.py`
 - `dgu_guarded_symbol_certificate_audit.py`
+- `direct_numeric_assertion_custody_audit.py`
 - `docs_readme_surface_map_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
 - `eric_lane_decisive_source_collision_audit.py`

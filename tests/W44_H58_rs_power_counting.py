@@ -75,6 +75,12 @@ def log(msg: str = "") -> None:
     print(msg, flush=True)
 
 
+def declared_numeric_input(name: str, value: int, rationale: str) -> F:
+    """Type an irreducible numeric premise instead of presenting it as derived evidence."""
+    assert name.strip() and rationale.strip(), "declared numeric inputs require identity and rationale"
+    return F(value)
+
+
 # =====================================================================================
 # PART A -- Propagator momentum degrees (DATA) and the superficial-degree formula.
 # =====================================================================================
@@ -293,7 +299,12 @@ COUPLING_DIM = {"alpha_Weyl": F(0), "beta_R2": F(0), "B_kinetic": F(0),
 all_nonneg = all(c >= 0 for c in COUPLING_DIM.values())
 # For a graph with external legs E_ext and vertices from these couplings:
 #   D = 4 - sum_ext[field] - sum_v[coupling]  <= 4  (since every [coupling] >= 0, ext dims >= 0).
-D_dimident_bound = 4  # sup over graphs with no external legs and only zero-dim couplings
+ambient_spacetime_dimension = declared_numeric_input(
+    "ambient spacetime dimension",
+    4,
+    "the certificate tests the explicitly four-dimensional reduced physics branch",
+)
+D_dimident_bound = ambient_spacetime_dimension  # attained with no external legs and marginal couplings
 check("C3  dimensional identity D = 4 - sum_ext[field] - sum_v[coupling]: ALL GU couplings have "
       "mass-dimension >= 0 (alpha_Weyl=0, [B]-kinetic=0, RS vertices=+3), so D <= 4 for every "
       "graph -- independent confirmation of C1 [COMPUTED, exact rational arithmetic]",
