@@ -61,6 +61,81 @@
     "interacting physical quotient pairing and unitarity argument",
     "primary-source novelty matrix for the exact theorem"
   ],
+  "factory_hardening_response": {
+    "request_ref": "drafting-factory#PAPER-SEEDS.md#GU-SEED-UV-GRAVITY",
+    "issued_at": "2026-08-26",
+    "overall_disposition": "ANSWERED_BY_EXPLICIT_DECLINE",
+    "factory_state_recommendation": "KEEP_SOURCE_HARDENING_FIRST_DO_NOT_DRAFT",
+    "scope": "GU-owned evidence return only; no Drafting Factory write, paper rewrite, scientific promotion, or external action",
+    "packets": [
+      {
+        "id": "PROJECTED_SPIN_3_2_BETA_COEFFICIENT",
+        "answer": "NOT_SUPPLIED",
+        "surviving_grade": "W45_ESTIMATED_C2_AND_GUESSED_R2_INPUTS_ONLY",
+        "decisive_evidence": [
+          "tests/W45_H57_stage1_beta_system.py",
+          "UVG-ASYMPTOTIC-FREEDOM"
+        ],
+        "missing_owner": "curved projected-RS heat-kernel or equivalent divergence calculation on the complete action/gauge/ghost/domain complex",
+        "reopen_condition": "derive or source-verify both projected-spin-3/2 C2 and R2 coefficients on the claimed physical coupling domain"
+      },
+      {
+        "id": "UNITARITY_BOUNDARY",
+        "answer": "BOUNDARY_ONLY_NOT_THEOREM",
+        "surviving_grade": "KREIN_PSEUDOUNITARY_PLUS_FREE_OR_FINITE_MODEL_CONDITIONAL_IDENTITIES",
+        "decisive_evidence": [
+          "tests/W48_path2_A_cutkosky.py",
+          "tests/W54_path2_target3_no_local_metric.py",
+          "UVG-UNITARITY"
+        ],
+        "missing_owner": "typed interacting physical quotient, positive conserved pairing, common domain and field-theoretic optical theorem",
+        "reopen_condition": "construct the interacting quotient/pairing and prove the claimed unitarity statement at its stated locality and domain grade"
+      },
+      {
+        "id": "ASYMPTOTIC_SAFETY_ESCAPE",
+        "answer": "OPEN_UNCONSTRUCTED_ESCAPE",
+        "surviving_grade": "LITERATURE_OCCUPIED_SCENARIO_NOT_A_GU_COMPLETION",
+        "decisive_evidence": [
+          "https://arxiv.org/abs/1705.03896",
+          "https://arxiv.org/abs/2111.04696",
+          "UVG-ASYMPTOTIC-FREEDOM",
+          "UVG-SCALARON-SIGN"
+        ],
+        "missing_owner": "non-Gaussian projected-RS ultraviolet completion with its physical domain and scalaron-sign consequence",
+        "reopen_condition": "exhibit and control a non-Gaussian completion for the exact action rather than cite generic asymptotic-safety possibility"
+      },
+      {
+        "id": "PRIOR_ART_DELTAS",
+        "answer": "BOUNDED_MATRIX_SUPPLIED_NO_NOVELTY_PROOF",
+        "surviving_grade": "FIVE_PRIMARY_FAMILIES_BOUND_THE_GENERIC_BASELINE",
+        "decisive_evidence": [
+          "https://arxiv.org/abs/1403.4226",
+          "https://arxiv.org/abs/1705.03896",
+          "https://arxiv.org/abs/2109.12743",
+          "https://arxiv.org/abs/2111.04696",
+          "https://arxiv.org/abs/2305.00106"
+        ],
+        "missing_owner": "claim-by-claim primary-source matrix for the exact completed projected-RS theorem",
+        "reopen_condition": "bind each theorem component to its closest primary predecessor after the missing calculation exists"
+      },
+      {
+        "id": "DISTINCTIVE_GU_NOVELTY",
+        "answer": "NOT_ESTABLISHED",
+        "surviving_grade": "COMPATIBILITY_AND_CONDITIONAL_MODEL_COMPONENTS_ONLY",
+        "decisive_evidence": [
+          "UVG-RS-RENORMALIZABILITY",
+          "UVG-PREDICTIVITY",
+          "UVG-UNITARITY"
+        ],
+        "missing_owner": "complete theorem-level projected-RS assembly demonstrably distinct from generic quadratic-gravity and standard Rarita-Schwinger baselines",
+        "reopen_condition": "first complete the exact action, divergence, beta, domain and quotient packet, then test whether its joint theorem has a nonempty GU-specific delta"
+      }
+    ],
+    "closure_ceiling": "The Factory hardening request is answered; the UV-gravity candidate remains FAILED_HARDENING_GATE and PARKED_REQUIRES_RECONSTRUCTION",
+    "scientific_verdict_change": "none",
+    "paper_lifecycle_change": "none",
+    "public_posture_change": "none"
+  },
   "canon_verdict_change": "none",
   "public_posture_change": "none"
 }

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Regression gate for the 2026-08-23 UV-gravity candidate hardening result."""
+"""Regression gate for the UV-gravity hardening and Factory response custody."""
 
 from __future__ import annotations
 
@@ -54,6 +54,21 @@ def validate(bundle: dict[str, object]) -> None:
     require(len(registry["primary_sources"]) == 5, "primary-source packet drift")
     require(len(registry["reopen_requires"]) == 5, "reopening packet drift")
 
+    response = registry["factory_hardening_response"]
+    require(response["overall_disposition"] == "ANSWERED_BY_EXPLICIT_DECLINE", "Factory response disposition drift")
+    require(response["factory_state_recommendation"] == "KEEP_SOURCE_HARDENING_FIRST_DO_NOT_DRAFT", "Factory state recommendation drift")
+    require(len(response["packets"]) == 5, "Factory response must answer all five requests")
+    require({row["id"] for row in response["packets"]} == {
+        "PROJECTED_SPIN_3_2_BETA_COEFFICIENT", "UNITARITY_BOUNDARY",
+        "ASYMPTOTIC_SAFETY_ESCAPE", "PRIOR_ART_DELTAS", "DISTINCTIVE_GU_NOVELTY",
+    }, "Factory response packet identity drift")
+    require(all(row["answer"] not in {"READY", "PASS", "SUPPLIED"} for row in response["packets"]), "response may not promote readiness")
+    require(all(row["surviving_grade"] and row["missing_owner"] and row["reopen_condition"] for row in response["packets"]), "response packet lost its grade, owner, or reopen condition")
+    require("remains FAILED_HARDENING_GATE" in response["closure_ceiling"], "Factory response lost the hardening ceiling")
+    require(response["scientific_verdict_change"] == "none", "Factory response moved a scientific verdict")
+    require(response["paper_lifecycle_change"] == "none", "Factory response moved paper lifecycle")
+    require(response["public_posture_change"] == "none", "Factory response moved public posture")
+
     paper = str(bundle["paper"])
     for token in ("FAILED_HARDENING_GATE", "PARKED_REQUIRES_RECONSTRUCTION", "historical drafting evidence"):
         require(token in paper, f"paper fence missing {token}")
@@ -102,6 +117,22 @@ def selftest(bundle: dict[str, object]) -> None:
     stale_status["status"] = str(stale_status["status"]).replace("FAILED_HARDENING_GATE", "UNREVIEWED")
     mutations.append(stale_status)
 
+    incomplete_factory_response = copy.deepcopy(bundle)
+    incomplete_factory_response["registry"]["factory_hardening_response"]["packets"].pop()
+    mutations.append(incomplete_factory_response)
+
+    readiness_promotion = copy.deepcopy(bundle)
+    readiness_promotion["registry"]["factory_hardening_response"]["packets"][0]["answer"] = "READY"
+    mutations.append(readiness_promotion)
+
+    missing_reopen_owner = copy.deepcopy(bundle)
+    missing_reopen_owner["registry"]["factory_hardening_response"]["packets"][1]["missing_owner"] = ""
+    mutations.append(missing_reopen_owner)
+
+    lifecycle_move = copy.deepcopy(bundle)
+    lifecycle_move["registry"]["factory_hardening_response"]["paper_lifecycle_change"] = "draft"
+    mutations.append(lifecycle_move)
+
     for index, mutation in enumerate(mutations, start=1):
         try:
             validate(mutation)
@@ -117,6 +148,6 @@ bundle = load_bundle()
 validate(bundle)
 if args.selftest:
     selftest(bundle)
-    print("UV gravity claim-grade and overlap audit selftest: PASS (6/6 caught)")
+    print("UV gravity claim-grade and Factory response selftest: PASS (10/10 caught)")
 else:
-    print("UV gravity claim-grade and overlap audit: PASS")
+    print("UV gravity claim-grade and Factory response: PASS")
