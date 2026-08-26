@@ -2,11 +2,33 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-25"
+updated_at: "2026-08-26"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-08-26 — MET(X)-argument canonical-currency wave
+
+The complete aged `CC-01-MET-X-ARGUMENT` dirty cohort is adjudicated across
+twenty-two documents in three semantic packets: native action/section usage,
+named background comparators, and explicitly speculative selection proposals.
+The review distinguishes `MET(X)` as the second argument of the source action
+from a selected observation section, a linearization or homogeneous-space
+reference metric, a comparator background, and the gimmel metric on `Y`.
+
+No document treats a canonical base metric on `X` as source-supplied furniture.
+The closest apparent conflicts either select a preferred metric through a
+declared candidate variational mechanism, use a fixed metric only inside a
+named comparator, or call the metric bundle/gimmel structure canonical while
+explicitly leaving the base section unchosen. No consumer prose requires
+repair. Twenty-two exact sidecar records lower `CC-01` from `22` dirty pairs to
+zero, reduce the total live dirty queue from `159` to `137`, and raise cleared
+pairs from `90` to `112`. The coupled certificate catches all twenty-five
+missing, duplicate, wrong-verdict and wrong-correction hostile mutations. No
+source claim, scientific verdict, action owner, ledger row, SG4 phase,
+prediction, confirmation, canon verdict, paper, release readiness or public
+posture moves.
 
 ## 2026-08-25 — Observed-positivity and dark-partner currency wave
 
