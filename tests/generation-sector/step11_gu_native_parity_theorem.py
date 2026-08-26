@@ -13,9 +13,10 @@ THEOREM (verified here).
       vector-index generators M_ij, the constraint projector Pi_RS, its complement Q, and the twisted
       Dirac symbol M_D. (Max H-linearity defect ~ 1e-11.)
   (b) Hence the WHOLE GU-native algebra they generate is closed inside the J_quat-commutant
-      M(14,C) (x) M(64,H) -- which is exactly the statement Cl(9,5) = M(64,H) (the real Clifford
-      algebra IS the quaternionic-linear algebra). Verified: random real-coefficient products+sums of
-      primitives stay H-linear (defect ~ 1e-10).
+      M(14,R) (x) M(64,H) = M(896,H) -- the real first factor is forced because scalar-i is
+      J-antilinear, while Cl(9,5) = M(64,H) is exactly the quaternionic-linear spinor algebra.
+      Verified: random real-coefficient products+sums of primitives stay H-linear (defect ~ 1e-10),
+      and the real dimensions agree exactly: 14^2 * 4 * 64^2 = 4 * 896^2 = 3,211,264.
   (c) KRAMERS: any Hermitian operator commuting with an antiunitary J (J^2 = -1) has eigenspaces of
       even complex dimension, so its signature is EVEN. Therefore every GU-native Hermitian carrier
       has an EVEN index. (Verified: GU-native carrier signatures are all even.)
@@ -81,6 +82,21 @@ def main():
     I14 = np.eye(N)
     ID = np.eye(DIM, dtype=complex)
 
+    # Durable exact arithmetic for the corrected full-commutant identification.
+    # End_R(R^14) contributes 14^2 real dimensions; M(64,H) contributes
+    # 4*64^2; their real tensor product is M(14*64,H) = M(896,H).
+    vector_real_dim = N * N
+    spinor_h_dim = DIM // 2
+    full_h_rank = N * spinor_h_dim
+    tensor_real_dim = vector_real_dim * 4 * spinor_h_dim**2
+    commutant_real_dim = 4 * full_h_rank**2
+    assert spinor_h_dim == 64
+    assert full_h_rank == 896
+    assert tensor_real_dim == commutant_real_dim == 3_211_264
+    print("\n[0a] Corrected full-commutant dimension identity:")
+    print("    M(14,R) (x)_R M(64,H) = M(896,H)")
+    print(f"    14^2 * (4*64^2) = 4*896^2 = {commutant_real_dim:,} real dimensions")
+
     def hl(X):                                    # H-linearity defect: ||J X J^-1 - X||
         return float(np.linalg.norm(Jf @ X.conj() @ Jfi - X))
 
@@ -141,7 +157,8 @@ def main():
     native_even = all(s % 2 == 0 for s in native_sig)
     foreign_breaks = (i_defect > 1.0 and foreign_defect > 1.0 and foreign_sig % 2 == 1)
     print("\n=== VERDICT ===")
-    print(f"GU-native algebra is H-linear (in the J_quat-commutant M(14,C)(x)M(64,H))? {native_hlinear}")
+    print(f"GU-native algebra is H-linear (in the J_quat-commutant M(14,R)(x)M(64,H)=M(896,H))? "
+          f"{native_hlinear}")
     print(f"=> every GU-native carrier has EVEN index (Kramers)?                       {native_even}")
     print(f"the odd-3 escape is FOREIGN (non-H-linear / essential scalar-i)?           {foreign_breaks}")
     print("\nTHEOREM: GU's quaternionic structure forces an EVEN generation index. An odd count such as")
