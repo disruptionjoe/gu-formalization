@@ -1,5 +1,13 @@
 # H51 (Wave 31) -- Compute the DeWitt coefficient `c_L`, and settle GU's first prediction
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** The range and `c_L=3/8`
+> computation below remain intact, but every historical `alpha=1/3`
+> massive-spin-2 assignment is superseded. The ghost massive-spin-2 term is
+> `-4/3`, repulsive; `+1/3` is the separate attractive scalaron. H36 remains
+> excluded a fortiori, while this file supplies no new `|alpha|=4/3`
+> experimental crossing. See corrected H10.
+
 **Object.** H50 (wave30) showed that ONE scale `mu_DW` sets both the O(M^0) DeWitt-Lambda (`rho_Lambda = c_L*mu_DW^4`) and the massive spin-2 mass (`m2 = sqrt(m2_eff)*mu_DW`). Under the H36 identification `rho_Lambda = ` observed dark energy, `mu_DW` **cancels** and the predicted Yukawa range is a convention-independent geometric number,
 
 ```

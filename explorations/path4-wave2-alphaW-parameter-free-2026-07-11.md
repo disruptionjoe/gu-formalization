@@ -21,6 +21,13 @@ scripts:
 
 # Path4 wave2 -- is alpha_W(f_0) parameter-free?
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** The front-matter phrase
+> “Yukawa strength 1/3” is superseded. The body already carries the corrected
+> `alpha_Y=-4/3`: the ghost massive-spin-2 term is repulsive, while `+1/3` is
+> the distinct attractive scalaron term. This correction does not change the
+> file's parameter-independence result.
+
 Test: `tests/W66_path4_wave2_alphaW.py` (deterministic, no randomness, exit 0). Baselines
 `W61` (Branch A) and `W65` (Branch E) both still exit 0.
 

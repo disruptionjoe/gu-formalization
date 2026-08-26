@@ -28,6 +28,14 @@ scripts:
 
 # The Source-Action Requirements Spec (H41)
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** Historical
+> `alpha=1/3` massive-spin-2 rows below are superseded. For the Einstein--Weyl
+> branch the ghost massive-spin-2 coefficient is `-4/3`, repulsive; `+1/3` is
+> the separate attractive scalaron coefficient. The H36 conditional remains
+> excluded, while its corrected experimental crossing is not supplied by this
+> requirements map. See corrected H10.
+
 **What this is.** The program's arc has collapsed onto one unbuilt object: the source action
 (H41), the coherence keystone (it fixes the gauge-vacuum, soldering, count, and cure faces at
 once, H40) and the falsifiability keystone (every empirical channel is gated on the free scale

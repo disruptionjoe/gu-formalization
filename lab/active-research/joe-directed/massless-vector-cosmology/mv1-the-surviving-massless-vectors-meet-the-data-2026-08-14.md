@@ -33,6 +33,14 @@ scripts:
 
 # MV-1 — the surviving massless vectors meet the data
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** The comparator row below
+> preserves a historical `alpha=1/3` assignment that is superseded. The ghost
+> massive-spin-2 coefficient is `-4/3`, repulsive; `+1/3` belongs to the
+> distinct attractive scalaron. This does not affect MV-1's disjoint massless
+> `B-L` vector result, and no new `|alpha|=4/3` bound is imported here. See
+> corrected H10.
+
 ## 0. What this is, said first
 
 **This route produces an EXCLUSION, not a recovery of physics.** It contains no

@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-26 — Yukawa-sign canonical-currency wave
+
+The complete aged `CC-09-YUKAWA-REPULSIVE-SIGN` dirty cohort is adjudicated
+across twenty-eight documents. Nineteen apparent conflicts bind distinct
+objects: scalaron or Einstein coefficients, spin-projector thirds,
+representation data, matter Yukawas or generic interaction labels. They make
+no massive-spin-2 static-potential assignment.
+
+Nine historical consumers genuinely preserve the superseded `+1/3`
+attractive massive-spin-2 reading. Each now carries a prominent forward-only
+fence distinguishing the `-4/3` repulsive ghost term from the separate `+1/3`
+attractive scalaron. Historical evidence, range computations and the H36
+conditional exclusion remain intact; the correction makes that exclusion
+stronger in magnitude but does not invent a new `|alpha|=4/3` experimental
+crossing.
+
+Thirty-seven append-only custody records lower CC-09 from `28` dirty pairs to
+zero, reduce the total live queue from `137` to `109`, and raise cleared pairs
+from `112` to `140`. The coupled certificate catches all forty-nine missing,
+duplicate, verdict, correction and repair-fence mutations. The CC-01
+certificate is repaired to own its exact selected cohort instead of the
+mutable repository-global aggregate and again catches all twenty-five hostile
+mutations. No source claim, scientific verdict, action owner, ledger row, SG4
+phase, prediction, confirmation, canon verdict, paper, release readiness or
+public posture moves.
+
 ## 2026-08-26 — MET(X)-argument canonical-currency wave
 
 The complete aged `CC-01-MET-X-ARGUMENT` dirty cohort is adjudicated across

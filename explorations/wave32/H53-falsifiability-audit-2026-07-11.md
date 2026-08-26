@@ -1,5 +1,13 @@
 # H53 (Wave 32) -- Falsifiability audit of the GU reconstruction program
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** Historical
+> `alpha=1/3` massive-spin-2 claims below are superseded. The ghost
+> massive-spin-2 term is `-4/3`, repulsive; `+1/3` is the distinct attractive
+> scalaron. The H36 conditional remains self-falsified a fortiori, and the
+> scale-hideability/falsifiability classification is unchanged. No new
+> `|alpha|=4/3` experimental crossing is claimed here; see corrected H10.
+
 **Object.** GU just made its first parameter-linked prediction and had it conditionally FALSIFIED. The
 chain: everything empirical gates on ONE scale `mu_DW` (H49); the only PRINCIPLED identification of
 `mu_DW` -- H36, DeWitt-Lambda = the observed dark-energy scale -- gives a sub-mm Stelle-Yukawa deviation

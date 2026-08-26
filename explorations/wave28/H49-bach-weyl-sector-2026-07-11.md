@@ -20,6 +20,15 @@ depends_on:
 
 # H49 -- the Bach/Weyl graviton sector
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** The historical potential
+> `1+(1/3)e^{-m_2r}` below has the massive and scalar assignments reversed.
+> The ghost massive-spin-2 term has coefficient `-4/3` and is repulsive; the
+> distinct `+1/3` term is the attractive scalaron and is absent on H49's
+> no-`R^2` branch. The short-range window remains the live scale-dependent
+> observable, but no new `|alpha|=4/3` crossing is inferred here. See corrected
+> H10.
+
 **The object.** The full-roster two-track sweep (families A + C + E) converged: the decidable axis
 for the observer-type-geometry (OTG) class is NOT geometry-vs-information (both smuggle the metric,
 ill-posed) but the spin-2 action ORDER. This one sector needs neither the unbuilt source action nor

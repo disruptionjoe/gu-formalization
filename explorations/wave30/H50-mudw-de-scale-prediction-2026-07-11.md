@@ -1,5 +1,14 @@
 # H50 (Wave 30) -- The first-prediction test: does `mu_DW` = the dark-energy scale, and what does GU then predict?
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** Every historical
+> `alpha=1/3` massive-spin-2 assignment below is superseded. The H50 range
+> calculation is unchanged, but its ghost massive-spin-2 coefficient is
+> `-4/3`, repulsive; `+1/3` is the distinct attractive scalaron. H36 remains
+> excluded a fortiori because the corrected deviation is four times larger in
+> magnitude. This artifact does not invent a new `|alpha|=4/3` experimental
+> crossing; see corrected H10 for the coefficient derivation.
+
 **Object.** Everything empirical in GU is gated on ONE scale, `mu_DW` (H49/wave28). H50 asks whether GU's structure *sets* that scale via the O(M^0) DeWitt-Lambda (H24) identified with the observed dark energy (H36), and whether the resulting sub-millimetre gravity deviation is a genuine falsifiable prediction or is already **excluded by its own prediction**. Both outcomes are successes; no preferred result.
 
 **Test:** `tests/wave30/H50_mudw_de_scale_prediction.py` -- deterministic, exit 0.

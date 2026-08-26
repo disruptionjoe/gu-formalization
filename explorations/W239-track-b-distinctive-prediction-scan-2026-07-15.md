@@ -30,6 +30,15 @@ external_refs:
 
 # W239 Track B: distinctive novel prediction scan
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** The historical
+> `alpha=1/3` massive-spin-2 assignment below is superseded. The ghost
+> massive-spin-2 term is `-4/3` and repulsive; `+1/3` is the distinct
+> attractive scalaron term. The H36 conditional remains excluded (the
+> corrected deviation is four times larger in magnitude), but this artifact
+> does not supply a new `|alpha|=4/3` experimental crossing. Read the corrected
+> derivation in `explorations/wave22/H10-ppn-weak-field-2026-07-11.md`.
+
 ## Result
 
 **No current GU result clears the Track B bar.** The scan required one candidate to be all of the

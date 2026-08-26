@@ -19,6 +19,14 @@ scripts:
 
 # Path 4 Branch E -- the prosecution
 
+> [!IMPORTANT]
+> **Canonical Yukawa-sign correction (2026-08-26).** The historical
+> `alpha=1/3` massive-spin-2 assignment below is superseded. The ghost
+> massive-spin-2 term is `-4/3` and repulsive; `+1/3` belongs to the distinct
+> attractive scalaron. The prosecuted H36 conditional remains excluded a
+> fortiori, but no new `|alpha|=4/3` crossing is inferred here. See the
+> corrected H10 derivation.
+
 **Role discipline (read first).** This branch is the PROSECUTOR. Its job is to build the strongest
 honest case *against* each of the four candidate forced-family-invariants, on three axes:
 Q-forced (family-invariant, independent of `beta/alpha`, `mu_DW`, `alpha`), Q-novel (not a
