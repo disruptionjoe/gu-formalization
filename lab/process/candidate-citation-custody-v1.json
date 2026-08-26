@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "status": "protected_apply_review_required",
+  "verified_at": "2026-08-26",
+  "scope": "P-M14 three-candidate primary-source citation custody; source identity, claim scope, and protected correction requirements only, never paper readiness",
+  "candidates": [
+    {
+      "candidate_id": "keep-and-grade-loop-cost",
+      "citation_status": "VERIFIED_SCOPED",
+      "readiness_status": "NOT_READY_SCIENTIFIC_GAPS_REMAIN",
+      "protected_paths": [
+        "papers/candidates/keep-and-grade-loop-cost/keep-and-grade-loop-cost-2026-07-11.md",
+        "papers/candidates/keep-and-grade-loop-cost/STAGING-NOTES.md"
+      ],
+      "required_corrections": [
+        "Add the verified primary identities for the load-bearing Stelle, PT/pseudo-Hermitian, Lee-Wick/CLOP, fakeon and unstable-resonance families.",
+        "Keep Kuntz, Nakayama and Bateman-Turok as broad adjacency labels unless separately verified.",
+        "Preserve the interacting metric, conformal-factor and finite-width continuation gaps."
+      ],
+      "adverse_findings": [
+        "The sources support the named Stelle, PT/pseudo-Hermitian, Lee-Wick/CLOP, fakeon and unstable-ghost families, not the candidate's new loop calculations.",
+        "Citation resolution does not close the interacting positive-metric, conformal-factor or Euclidean-continuation gaps."
+      ],
+      "primary_sources": [
+        {"key": "STELLE-1977", "identifier": "doi:10.1103/PhysRevD.16.953", "url": "https://doi.org/10.1103/PhysRevD.16.953"},
+        {"key": "BENDER-BOETTCHER-1998", "identifier": "doi:10.1103/PhysRevLett.80.5243", "url": "https://doi.org/10.1103/PhysRevLett.80.5243"},
+        {"key": "BENDER-BRODY-JONES-2002", "identifier": "doi:10.1103/PhysRevLett.89.270401", "url": "https://doi.org/10.1103/PhysRevLett.89.270401"},
+        {"key": "MOSTAFAZADEH-2002", "identifier": "doi:10.1063/1.1418246", "url": "https://doi.org/10.1063/1.1418246"},
+        {"key": "BENDER-MANNHEIM-2008", "identifier": "doi:10.1103/PhysRevLett.100.110402", "url": "https://doi.org/10.1103/PhysRevLett.100.110402"},
+        {"key": "LEE-WICK-1969", "identifier": "doi:10.1016/0550-3213(69)90098-4", "url": "https://doi.org/10.1016/0550-3213(69)90098-4"},
+        {"key": "CLOP-1969", "identifier": "doi:10.1016/0550-3213(69)90169-2", "url": "https://doi.org/10.1016/0550-3213(69)90169-2"},
+        {"key": "ANSELMI-PIVA-2017", "identifier": "arXiv:1703.04584", "url": "https://arxiv.org/abs/1703.04584"},
+        {"key": "ANSELMI-PIVA-2018", "identifier": "arXiv:1806.03605", "url": "https://arxiv.org/abs/1806.03605"},
+        {"key": "GRINSTEIN-OCONNELL-WISE-2007", "identifier": "arXiv:0704.1845", "url": "https://arxiv.org/abs/0704.1845"},
+        {"key": "DONOGHUE-MENEZES-2019", "identifier": "arXiv:1908.02416", "url": "https://arxiv.org/abs/1908.02416"}
+      ]
+    },
+    {
+      "candidate_id": "generation-number-boundary-odd-primary",
+      "citation_status": "VERIFIED_WITH_ADVERSE_SCOPE_CORRECTION",
+      "readiness_status": "NOT_READY_NOVELTY_AND_BRIDGE_GAPS_REMAIN",
+      "protected_paths": [
+        "papers/candidates/generation-number-boundary-odd-primary/generation-number-boundary-odd-primary-2026-07-11.md",
+        "papers/candidates/generation-number-boundary-odd-primary/STAGING-NOTES.md"
+      ],
+      "required_corrections": [
+        "Make the gauged-baryon-triality, framing/robustness, symmetry-extension and TQFT assumptions explicit.",
+        "Demote the generic equivariant Spin/KO Z/3 generation-count row to a candidate route unless an explicit reduction map is constructed.",
+        "Preserve the Krein/compact-Brillouin-zone bridge and full novelty comparison as open."
+      ],
+      "adverse_findings": [
+        "Garcia-Etxebarria-Montero's Z/9 generation constraint is conditional on gauged baryon triality.",
+        "Wan-Wang-Yau's N_c=N_f=3 result is conditional on its symmetry-extension and TQFT assumptions.",
+        "No verified primary source in this pass makes a generic equivariant Spin/KO G-index a Z/3-valued generation-count theorem."
+      ],
+      "primary_sources": [
+        {"key": "GARCIA-ETXEBARRIA-MONTERO-2019", "identifier": "arXiv:1808.00009", "url": "https://arxiv.org/abs/1808.00009"},
+        {"key": "WAN-WANG-2020", "identifier": "arXiv:1910.14668", "url": "https://arxiv.org/abs/1910.14668"},
+        {"key": "WAN-WANG-YAU-2026-V2", "identifier": "arXiv:2605.26202v2", "url": "https://arxiv.org/abs/2605.26202v2"},
+        {"key": "WANG-2023", "identifier": "arXiv:2312.14928", "url": "https://arxiv.org/abs/2312.14928"},
+        {"key": "NIELSEN-NINOMIYA-1981", "identifier": "Nucl.Phys.B185:20-40", "url": "https://doi.org/10.1016/0550-3213(81)90361-8"},
+        {"key": "CALLAN-HARVEY-1985", "identifier": "doi:10.1016/0550-3213(85)90489-4", "url": "https://doi.org/10.1016/0550-3213(85)90489-4"},
+        {"key": "KAPLAN-1992", "identifier": "doi:10.1016/0370-2693(92)91112-M", "url": "https://doi.org/10.1016/0370-2693(92)91112-M"},
+        {"key": "DAI-FREED-PHASES-2016", "identifier": "arXiv:1607.01873", "url": "https://arxiv.org/abs/1607.01873"}
+      ]
+    },
+    {
+      "candidate_id": "observer-value-selection",
+      "citation_status": "VERIFIED_BIBLIOGRAPHY_SUPERSEDED_PHYSICAL_CLAIM",
+      "readiness_status": "NOT_READY_PHYSICAL_REALIZATION_BROKEN",
+      "protected_paths": [
+        "papers/candidates/observer-value-selection/observer-value-selection-2026-07-11.md",
+        "papers/candidates/observer-value-selection/STAGING-NOTES.md"
+      ],
+      "required_corrections": [
+        "Add the verified Lawvere, Bisognano-Wichmann, Gottschalk, Shulman, PT/pseudo-Hermitian and Curie identities with their limited scopes.",
+        "State that Gottschalk is bounded-Krein and Shulman is rank-one rather than an infinite-rank physical realization.",
+        "Apply W98's later physical-realization break and preserve only the separately narrowed Set-level theorem."
+      ],
+      "adverse_findings": [
+        "Lawvere supports the diagonal frame, not a physical selection mechanism.",
+        "Bisognano-Wichmann and Gottschalk support bounded modular-flow statements in their stated settings; Shulman is rank-one only.",
+        "The repository's later W98 break supersedes the draft's claim that physical realization is complete modulo one rank-greater-than-one residual."
+      ],
+      "primary_sources": [
+        {"key": "LAWVERE-1969", "identifier": "doi:10.1007/BFb0080769", "url": "https://doi.org/10.1007/BFb0080769"},
+        {"key": "BISOGNANO-WICHMANN-1975", "identifier": "doi:10.1063/1.522605", "url": "https://doi.org/10.1063/1.522605"},
+        {"key": "BISOGNANO-WICHMANN-1976", "identifier": "doi:10.1063/1.522898", "url": "https://doi.org/10.1063/1.522898"},
+        {"key": "GOTTSCHALK-2002", "identifier": "doi:10.1063/1.1503151", "url": "https://doi.org/10.1063/1.1503151"},
+        {"key": "SHULMAN-1997", "identifier": "doi:10.1142/S0129055X97000270", "url": "https://doi.org/10.1142/S0129055X97000270"},
+        {"key": "BENDER-MANNHEIM-2008", "identifier": "arXiv:0706.0207", "url": "https://arxiv.org/abs/0706.0207"},
+        {"key": "MOSTAFAZADEH-2005", "identifier": "arXiv:quant-ph/0508214", "url": "https://arxiv.org/abs/quant-ph/0508214"},
+        {"key": "CURIE-1894", "identifier": "doi:10.1051/jphystap:018940030039300", "url": "https://doi.org/10.1051/jphystap:018940030039300"}
+      ]
+    }
+  ]
+}
