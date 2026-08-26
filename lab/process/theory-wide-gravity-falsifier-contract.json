@@ -1,0 +1,175 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "theory_wide_falsifier_contract",
+  "created": "2026-08-26",
+  "status": "THEORY_WIDE_FALSIFIER_NOT_YET_ADMISSIBLE__W229_RECORD_CURRENT_BRANCH_BOUNDED_NO_GO_PRESERVED__K77_NATIVE_FORWARD_PACKET_REQUIRED",
+  "ledger_row": "LT-GR9",
+  "historical_name": "ELProjectedGRShadowTheorem",
+  "target_claim": "GU-AS-RELEASED-STRONGFIELD",
+  "target_claim_verdict": "NOT_ADJUDICATED",
+  "target_claim_note": "The whole-theory target is the checked released GU grammar on the selected K77 real form with its source-owned fields, coefficients, variations and reductions frozen. It is not the W203/W229 K95 record-current reconstruction and it is not an open-ended class containing arbitrary future completions.",
+  "canonical_effect": "pending_integration",
+  "steering_effect": "unchanged",
+  "input_pins": {
+    "owner_revision": "444a0f902d6086acec09e8189507416812160247",
+    "ledger": {
+      "path": "lab/process/conditional-physics-ledger-v0.263.json",
+      "sha256": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+    },
+    "source_claim_register": {
+      "path": "lab/sources/source-claim-register.yaml",
+      "sha256": "1d52ccb0b737de5f671fcd57ed1da2429eff3cf64e03a03f64fc4471092d47f4",
+      "action_claim_ids": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-03", "SC-ACT-04", "SC-ACT-05", "SC-ACT-06"]
+    },
+    "recovery_no_go_register": {
+      "path": "lab/process/recovery-no-go-defense-register.json",
+      "sha256": "540f1674170389f21797dcfdab6d5f71971c3e159d2f90bfcdece087ee547f57"
+    },
+    "w154_w229_owner_qualification": {
+      "path": "lab/process/w154-w229-k77-action-owner-qualification.json",
+      "sha256": "48b2c8ead73eb4cb390c9b511e274759058cadd63c9454d99d0c3001f4ca262d"
+    },
+    "strongfield_bucket_disposition": {
+      "path": "lab/process/gravitational-anchor-bucket-disposition-and-first-fitting-construction.json",
+      "sha256": "fd6f3e6072b2631de2651ff5dce5f13b892cbf8baef63be2db9f62e6e6334771"
+    }
+  },
+  "falsification_domains": [
+    {
+      "id": "D0-W229-RECORD-CURRENT",
+      "quantifier_domain": "The frozen W203/W229 record-current exact-vacuum construction and its predeclared bounded escape census.",
+      "current_result": "BOUNDED_NO_GO",
+      "theory_wide": false,
+      "reason": "The principled Schwarzschild quadratic trace-free residual is nonzero while Psi=0 gives J=0, theta=0 and no source/YM cancellation tensor; kappa and Z_U cannot tune zero into minus QTF. W154/W229 is a conditional K95 composite and is nonadmitted as the selected K77 action owner."
+    },
+    {
+      "id": "D1-GU-AS-RELEASED-STRONGFIELD",
+      "quantifier_domain": "SC-ACT-01 through SC-ACT-06 on the selected K77 real form, after all source-owned fields, coefficients, variations, constraints, boundary conditions and the native Y=MET(X) to observed-X reduction are frozen target-blind.",
+      "current_result": "NOT_ADJUDICATED",
+      "theory_wide": true,
+      "reason": "No present artifact jointly owns even SF-1 and SF-4, so the universal domain and native stationary solution space do not yet exist as an evaluable object."
+    },
+    {
+      "id": "D2-ARBITRARY-FUTURE-COMPLETIONS",
+      "quantifier_domain": "Any future action, field, constraint, adapter or boundary completion someone might later call GU.",
+      "current_result": "INVALID_FALSIFICATION_TARGET",
+      "theory_wide": false,
+      "reason": "An unbounded completion class has no frozen universal quantifier. A new unowned term proposed after a D1 kill is a new construction, not an escape inside the tested released theory."
+    }
+  ],
+  "current_residual_receipt": {
+    "imported_metric": "Schwarzschild and Kerr controls, not native solutions",
+    "linear_order": "All five built projected-section terms vanish on the imported Psi=0 Schwarzschild/Kerr slices at linear order in M, with Kerr rotation carried through the harmonic multipole argument.",
+    "quadratic_order": "A nonzero trace-free Q(B) residual survives in the principled native second-fundamental-form branch. Existing records use different radial-order conventions; nonzero and quadratic in M are the contract facts.",
+    "record_current_source": "Psi=0 implies J=0 and theta=0 in the W229 record-current branch, hence no cancellation tensor.",
+    "result": "D0-W229-RECORD-CURRENT is BOUNDED_NO_GO; no D1 verdict follows."
+  },
+  "strongfield_requirements": [
+    {
+      "id": "SF-1",
+      "owner": "action and observed equation",
+      "requirement": "Derive the complete selected-K77 vacuum equation, projected section residual, coefficients including alpha_W, and E_s^theta from the released action grammar with all Euler and Hilbert roles frozen target-blind.",
+      "current_state": "MISSING",
+      "evidence": "W154/W229 is nonadmitted as K77 owner; SC-ACT-02 is an annotated recovery sketch rather than the observed equation; no coefficient-complete native strong-field action packet exists."
+    },
+    {
+      "id": "SF-2",
+      "owner": "matter and motion",
+      "requirement": "Derive the observed matter coupling and the worldline or ray equation used for timelike and null motion.",
+      "current_state": "MISSING",
+      "evidence": "The imported geodesic structure has comparator value only; no source-owned observed coupling packet is registered for LT-GR9."
+    },
+    {
+      "id": "SF-3",
+      "owner": "observation and causal reduction",
+      "requirement": "Construct the K77/Y=MET(X) to observed Lorentzian X reduction, gauge/constraint quotient, causal region, boundary data and hyperbolic evolution problem.",
+      "current_state": "MISSING",
+      "evidence": "The current action qualification records missing intrinsic MET(X) Hilbert roles, observation variables and complete domains; Euclidean moduli language in SC-ACT-06 is not this Lorentzian reduction."
+    },
+    {
+      "id": "SF-4",
+      "owner": "stationary background",
+      "requirement": "Solve the native reduced equations for at least one stationary horizon-bearing asymptotically admissible background without importing Schwarzschild or Kerr.",
+      "current_state": "MISSING",
+      "evidence": "W225/W238 import the target metrics; the local tautological K77 residual-zero candidate lacks native Y legality, global section, free-edge legality and strong-field interpretation."
+    },
+    {
+      "id": "SF-5",
+      "owner": "perturbations and observables",
+      "requirement": "Derive the branch-specific perturbation operator, physical boundary conditions, characteristic or quasinormal spectrum, and the shadow/ringdown comparator map.",
+      "current_state": "MISSING",
+      "evidence": "No branch-specific strong-field K_total/L_total, closed domain, physical quotient, ray map or ringdown spectrum is constructed."
+    }
+  ],
+  "decision_logic": {
+    "admission": [
+      "D1 quantifier domain is frozen and source/action complete.",
+      "SF-1, SF-2 and SF-3 are constructed before inspecting a target metric or target-shaped residual.",
+      "The stationary ansatz, boundary class, gauge/constraint quotient and numerical tolerances are preregistered.",
+      "Any allowed coefficient or datum is fixed independently of the strong-field target."
+    ],
+    "theory_wide_kill_horns": [
+      {
+        "id": "K1-NONEXISTENCE",
+        "condition": "The admitted D1 equations have no stationary horizon-bearing solution in the frozen physical domain.",
+        "verdict": "GU-AS-RELEASED-STRONGFIELD FALSIFIED"
+      },
+      {
+        "id": "K2-UNIVERSAL-PHYSICAL-RESIDUAL",
+        "condition": "Every admitted stationary candidate has a nonzero, non-gauge, non-constraint projected residual or fails the native boundary/domain conditions.",
+        "verdict": "GU-AS-RELEASED-STRONGFIELD FALSIFIED"
+      },
+      {
+        "id": "K3-UNIVERSAL-OBSERVABLE-CONFLICT",
+        "condition": "Native stationary solutions exist, but every solution in the frozen class violates the preregistered motion, shadow or leading ringdown comparator after nuisance freedom and uncertainty are accounted for.",
+        "verdict": "GU-AS-RELEASED-STRONGFIELD FALSIFIED"
+      }
+    ],
+    "clear_condition": "At least one target-blind native stationary horizon-bearing solution survives the physical quotient and boundary conditions, and its derived matter/ray coupling plus leading shadow and ringdown outputs pass the frozen comparator. This clears the strong-field leg at the stated grade; it does not prove uniqueness or all of GU.",
+    "invalid_shortcuts": [
+      "Import Schwarzschild or Kerr as the GU stationary background.",
+      "Define a source or ambient term as minus the observed residual.",
+      "Transfer W154/W229 K95 ownership through dimension, notation or complexification alone.",
+      "Promote a branch-local bounded no-go into D1 without action-domain completeness.",
+      "Treat an unbounded future-completion class as the theory-wide quantifier domain.",
+      "Call a zero linear residual an exact strong-field clearance while the quadratic residual or observables remain open."
+    ]
+  },
+  "next_frontier": [
+    {
+      "id": "TWG-2A-K77-ACTION-COMPLETE-INTERFACE",
+      "priority": 1,
+      "objective": "Freeze the SC-ACT-01 through SC-ACT-06 selected-K77 field/action/variation domain and derive the observed vacuum equation through SF-1 and SF-3, before choosing a black-hole metric.",
+      "success": "A coefficient-complete target-blind observed strong-field operator and physical domain.",
+      "failure": "A proved source/action inconsistency or no legal observed reduction closes D1 before metric comparison."
+    },
+    {
+      "id": "TWG-2B-STATIONARY-HORIZON-SOLVE",
+      "priority": 2,
+      "depends_on": "TWG-2A-K77-ACTION-COMPLETE-INTERFACE",
+      "objective": "Solve the admitted equations on a preregistered stationary spherical class first, then the axisymmetric class only if the spherical gate survives.",
+      "success": "A native horizon-bearing family with boundary and gauge certificates.",
+      "failure": "K1 or K2 fires for the complete frozen class."
+    },
+    {
+      "id": "TWG-2C-MOTION-SHADOW-RINGDOWN",
+      "priority": 3,
+      "depends_on": "TWG-2B-STATIONARY-HORIZON-SOLVE",
+      "objective": "Derive ray/matter motion and the branch perturbation operator, then confront shadow scale and leading ringdown ratios without retuning.",
+      "success": "The LT-GR9 comparator is cleared at its frozen scope.",
+      "failure": "K3 fires."
+    }
+  ],
+  "changes": {
+    "ledger": "none",
+    "claim_status": "none",
+    "source_ownership": "none",
+    "canon": "none",
+    "prediction": "none",
+    "confirmation": "none",
+    "public_posture": "none",
+    "scheduled_priority": "none"
+  },
+  "artifact": "lab/active-research/joe-directed/theory-wide-gravity/twg1-the-theory-wide-test-is-action-complete-black-hole-existence-2026-08-26.md",
+  "probe": "tests/channel-swings/joe_directed_twg1_theory_wide_gravity_falsifier_contract.py"
+}
