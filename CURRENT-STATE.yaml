@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d80a68c4fa5b2d78cabe90993ad492b25654361f
+revision_basis: ba5b4bec2093f62da13b539923d600a190d38b93
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Exceptional-point monodromy and exact branching-dictionary work now gives
+    two evidence-specific register proposals reproducible dispositions. In the
+    Pais--Uhlenbeck toy, one complex loop swaps the two opposite-Krein branches
+    and two loops restore them, but the off-diagonal transport anticommutes
+    with rather than equals the diagonal ghost parity; 38/38 checks pass. The
+    D7/D5 Sage build caches every exterior-form/spinor decomposition through
+    the Hodge midpoint plus Pati--Salam controls, with exact dimensions,
+    multiplicities, duals and compact Frobenius--Schur types; 60/60 checks
+    pass. Both artifacts are INTERNAL_STRUCTURAL_ONLY. They supply no GU real
+    form, action, source bridge, physical selector, Higgs/VEV route, family
+    count, chirality, prediction, confirmation, canon verdict or public-
+    posture change.
     Current-integrity contract hardening restores three independent live
     packets. The typed needs/provides sidecar now re-derives `I_4` from its
     live `LAYER=toy` declaration as carrier C4 with an exact receipt quote.
@@ -3770,10 +3782,12 @@ next_condition: >-
   is complete at zero current known-stale consumers across the five-row
   extension; do not repeat the seven repaired consumer edits without a new
   correction or a newly detected stale consumer. CC-01/02/03/04/07/08/09
-  aged cohorts are complete; CC-05 and CC-06 are also complete. The live
-  canonical-currency queue is 44 and CC-10 is the only remaining complete aged
-  cohort. Reconstruct its priority against fresh noncurrency work rather than
-  inheriting it, and do not repeat a cleared cohort without new evidence.
+  aged cohorts are complete; CC-05, CC-06 and CC-10 are also complete. The
+  live canonical-currency queue is zero. Do not repeat a cleared cohort without
+  new evidence. M-S3 and M-M4 are now evidence-specifically executed; do not
+  repeat their EP-monodromy or D7/D5 dictionary builds. Forty-six unexecuted
+  improvement-register proposals remain and require fresh frontier selection,
+  not inherited priority.
   Historical conditions below are
   custody evidence, not current work instructions.
 prior_conditions: >-
