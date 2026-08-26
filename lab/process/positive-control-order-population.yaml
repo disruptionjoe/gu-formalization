@@ -1,0 +1,22 @@
+schema_version: "1.0"
+frozen_revision: 34480643297d42c2b488bf77e6a84577cb0c206a
+scope: tracked tests/**/*.py and process_gates/*.py
+method: >-
+  AST census of enforcing assert/check calls whose source contains a positive
+  or planted-positive control label and a claim, verdict, or foreground label.
+population_digest_sha256: f223f40ba6e2e9353df89a9c5a714e46836445e44891c21732c2da3099bb591b
+counts:
+  comparable_files: 24
+  ordered: 18
+  legacy_exceptions: 6
+legacy_exceptions:
+  - tests/channel-swings/joe_directed_b1p1_three_corner_support_prices_the_chiral_grant.py
+  - tests/channel-swings/joe_directed_ct5_canonical_corrections_as_dirty_bits.py
+  - tests/channel-swings/joe_directed_ds1_the_stock_sits_at_the_pole_and_waits_on_the_reality_map.py
+  - tests/channel-swings/joe_directed_lda_sg4_bit2_type_and_transport.py
+  - tests/channel-swings/n6_fingerprint_probe.py
+  - tests/dc-h1/time_orientation_home_probe.py
+future_rule: >-
+  No new exception may enter this machine-detectable population. A materially
+  revised legacy exception must move its same-machinery positive control ahead
+  of the foreground enforcement or document the dependency exception in source.

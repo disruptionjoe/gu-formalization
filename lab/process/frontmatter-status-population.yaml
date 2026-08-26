@@ -1,0 +1,25 @@
+schema_version: "1.0"
+frozen_revision: 34480643297d42c2b488bf77e6a84577cb0c206a
+scope: tracked Markdown files with a scalar top-level frontmatter status
+mapping_digest_sha256: 4e2dbb3d828e03c472102f04f198eda1cee9699c93ac6d959ebd12d5f12268a2
+counts:
+  tracked_markdown: 4054
+  status_bearing: 2831
+  document_role: 1379
+  legacy_untyped: 1452
+  distinct_values: 918
+  distinct_legacy_values: 911
+axes:
+  document_role:
+    metadata_key: status
+    values: [canon, active_research, exploration, process, archive, source, draft]
+  claim_verdict:
+    metadata_key: claim_verdict
+    boundary: governed by lab/methods/claim-status-consistency.md
+  operational_state:
+    metadata_key: operational_state
+    boundary: local workflow, review, run, or append-only ledger state
+future_rule: >-
+  New Markdown documents and intentional changes to a legacy untyped status
+  must use the axis-specific key. Existing values are a protected legacy
+  population and are never normalized by string substitution.

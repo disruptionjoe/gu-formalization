@@ -38,11 +38,18 @@ frontmatter key named `status` for verdicts, run phases, review outcomes, and
 append-only ledger states. Those values are not silently added to the seven-
 value document-role vocabulary and are not normalized by this crosswalk.
 
-Until the repository freezes a complete population and assigns schemas to
-those non-role uses, consumers must treat an untyped `status` value outside the
-seven document roles as local to its artifact. A future vocabulary lint must
-first distinguish document role from verdict and operational state; it must
-not rewrite protected scientific meaning by string substitution.
+The complete tracked population is frozen in
+`lab/process/frontmatter-status-population.yaml`: 2,831 status-bearing files,
+including 1,452 legacy untyped uses. Those historical values remain local to
+their artifacts and protected by a content-addressed ratchet; they are not a
+global vocabulary and are never rewritten by string substitution.
+
+New Markdown documents, and intentional changes to a legacy non-role value,
+use the axis-specific keys selected by that contract: `status` for the seven
+document roles, `claim_verdict` for scientific disposition, and
+`operational_state` for run, review, workflow or append-only ledger state.
+Changing the frozen mapping requires an explicit manifest update and semantic
+review rather than silent normalization.
 
 ## Change discipline
 
