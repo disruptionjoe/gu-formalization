@@ -16,6 +16,8 @@ grade: "interpretive strategic assessment, perspectives inline (one worker), no 
 
 # Two-Track Perspective Sweep, Slice A: Orthodox / Rigor / Mainstream-Physics Gatekeeper Family
 
+> **Canonical subtractive-2+1 correction (2026-08-26).** Preserve the historical analysis below, but do not consume its old additive generation-count result. CC-05/HE-1 makes the source partition **not an additive** count: it is the unlabeled subtractive rule `n_g -> n_g - 1`, with the distinguished imposter family removed. Separate index, representation, and multiplicity results remain historical evidence but do not force the physical generation count. The conflicting count status below is superseded forward-only.
+
 Fourteen rigor-side lenses, instantiated from the repo's real rosters (science-advisory council;
 21-perspective post-v3 validator; 91-perspective double-major sweep). Perspectives run inline. Each answers Q1-Q4
 compressed; then a slice synthesis. The charge to this family is the harshest one: if GU is a dressed-up

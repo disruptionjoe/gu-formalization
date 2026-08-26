@@ -8,6 +8,8 @@ verdict: CONDITIONALLY_RESOLVED
 
 # SC1-OQ2c — Physical Interpretation of the Null-Mode Sector of D_GU
 
+> **Canonical subtractive-2+1 correction (2026-08-26).** Preserve the historical analysis below, but do not consume its old additive generation-count result. CC-05/HE-1 makes the source partition **not an additive** count: it is the unlabeled subtractive rule `n_g -> n_g - 1`, with the distinguished imposter family removed. Separate index, representation, and multiplicity results remain historical evidence but do not force the physical generation count. The conflicting count status below is superseded forward-only.
+
 ## 1. Problem Statement
 
 **What is being computed.** The Dirac-DeRham operator D_GU acts on sections Psi

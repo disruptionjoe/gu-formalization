@@ -17,11 +17,12 @@ ANSWER, in four parts, all certified below.
 
   (1) THE DETECTOR FIRES ON THE INCIDENT.  `explorations/z3-receptacle-design-
       packet-2026-08-11.md` -- the packet that engaged a route the following
-      week's 2+1 sharpening superseded, and which no gate could see -- is
-      DIRTY-UNCHECKED for CC-05-SUBTRACTIVE-TWO-PLUS-ONE in the live state,
-      and CLEAR once an adjudication for it is recorded.  BOTH states are
+      week's 2+1 sharpening superseded, and which no gate could see -- is now
+      cleared in the live sidecar.  CT-5 reconstructs its exact prior
+      DIRTY-UNCHECKED state by dropping that one dated clearance inside the
+      probe, then restores CLEAR with a planted adjudication.  BOTH states are
       exercised here (tags Z4, Z5), so the detector is shown to have two
-      outcomes rather than one.
+      outcomes rather than one without depending on the future backlog.
 
   (2) IT IS SPECIFIC, NOT INDISCRIMINATE.  A post-correction file that matches
       the same signature is NOT dirty (K1); a fenced comparator resolves
@@ -160,11 +161,9 @@ def check(tag: str, label: str, ok: bool, detail: str = "") -> bool:
 # --------------------------------------------------------------------------
 
 def _plant_z3_cleared() -> dict:
-    """SYNTHETIC.  No such record exists in the live sidecar and CT-5 did not
-    write one: LD-A/Arc-3 adjudicated SG4 bit 2, not this packet's currency,
-    and CT-5 is not licensed to adjudicate it.  The record is planted HERE so
-    the CLEARED half of the both-states proof is exercised without asserting an
-    adjudication that has not happened."""
+    """SYNTHETIC. The live clearance is deliberately removed from State A;
+    this independently authored plant restores State B so the transition
+    remains machinery evidence rather than a replay of live custody."""
     return {
         "file": Z3_PACKET, "correction_id": Z3_CORRECTION,
         "verdict": "CLEARED-CONSISTENT", "date": "2026-08-17",
@@ -390,6 +389,15 @@ def run_probe(cfg: dict | None = None) -> dict:
           surfaces_seen)
 
     # ------------------------------------------------- Z: both-states proof ---
+    # The packet is now legitimately clear in the append-only live sidecar.
+    # Reconstruct its exact pre-wave state by dropping only that clearance;
+    # later cohort work can therefore continue without invalidating CT-5.
+    cfg_a = copy.deepcopy(cfg)
+    cfg_a["drop_check_ids"] = tuple(cfg_a.get("drop_check_ids") or ()) + (
+        (Z3_PACKET, Z3_CORRECTION, "CC05-WAVE-2026-08-26"),
+    )
+    res_a = G.compute(cfg_a)
+    per_a = res_a["per"]
     corpus = {d["rel"]: d for d in res["corpus"]}
     pkt = corpus.get(Z3_PACKET)
     check("Z", "the Z/3 packet is in the audited corpus", pkt is not None)
@@ -402,14 +410,14 @@ def run_probe(cfg: dict | None = None) -> dict:
           pkt is not None and e05 is not None and pkt["date"] is not None
           and pkt["date"] < str(e05["canonical_since"]),
           None if pkt is None else pkt["date"])
-    check("Z", "STATE A -- live, no recorded check: the packet is DIRTY-UNCHECKED",
-          Z3_CORRECTION in per and Z3_PACKET in per[Z3_CORRECTION]["unchecked"])
+    check("Z", "STATE A -- with its exact live clearance dropped, the packet is DIRTY-UNCHECKED",
+          Z3_CORRECTION in per_a and Z3_PACKET in per_a[Z3_CORRECTION]["unchecked"])
     check("Z", "STATE A -- and it is not silently sitting in some cleared bucket",
-          Z3_CORRECTION in per and Z3_PACKET not in (
-              per[Z3_CORRECTION]["cleared"] + per[Z3_CORRECTION]["fenced"]
-              + per[Z3_CORRECTION]["repaired"]))
+          Z3_CORRECTION in per_a and Z3_PACKET not in (
+              per_a[Z3_CORRECTION]["cleared"] + per_a[Z3_CORRECTION]["fenced"]
+              + per_a[Z3_CORRECTION]["repaired"]))
 
-    cfg_b = copy.deepcopy(cfg)
+    cfg_b = copy.deepcopy(cfg_a)
     cfg_b["injected_checks"] = tuple(cfg_b.get("injected_checks") or ()) + (_plant_z3_cleared(),)
     res_b = G.compute(cfg_b)
     pb = res_b["per"].get(Z3_CORRECTION)
@@ -418,21 +426,21 @@ def run_probe(cfg: dict | None = None) -> dict:
     check("Z", "STATE B -- it lands in the cleared bucket, not merely vanishes",
           pb is not None and Z3_PACKET in pb["cleared"])
     check("Z", "STATE B -- CC-05's dirty count falls by exactly one",
-          pb is not None and Z3_CORRECTION in per
-          and per[Z3_CORRECTION]["dirty"] - pb["dirty"] == 1,
-          None if pb is None else (per[Z3_CORRECTION]["dirty"], pb["dirty"]))
+          pb is not None and Z3_CORRECTION in per_a
+          and per_a[Z3_CORRECTION]["dirty"] - pb["dirty"] == 1,
+          None if pb is None else (per_a[Z3_CORRECTION]["dirty"], pb["dirty"]))
 
-    cfg_c = copy.deepcopy(cfg)
+    cfg_c = copy.deepcopy(cfg_a)
     cfg_c["injected_checks"] = tuple(cfg_c.get("injected_checks") or ()) + (_plant_z3_stale(),)
     pc = G.compute(cfg_c)["per"].get(Z3_CORRECTION)
     check("Z", "STATE C -- a STALE-FOUND record does NOT clear: it becomes DIRTY-KNOWN-STALE",
           pc is not None and Z3_PACKET in pc["known_stale"] and Z3_PACKET not in pc["unchecked"])
     check("Z", "STATE C -- and the dirty count is unchanged (found is not fixed)",
-          pc is not None and Z3_CORRECTION in per and pc["dirty"] == per[Z3_CORRECTION]["dirty"],
+          pc is not None and Z3_CORRECTION in per_a and pc["dirty"] == per_a[Z3_CORRECTION]["dirty"],
           None if pc is None else pc["dirty"])
 
-    other = [cid for cid in CANON_IDS if cid != Z3_CORRECTION and cid in per
-             and (Z3_PACKET in per[cid]["unchecked"] or Z3_PACKET in per[cid]["known_stale"])]
+    other = [cid for cid in CANON_IDS if cid != Z3_CORRECTION and cid in per_a
+             and (Z3_PACKET in per_a[cid]["unchecked"] or Z3_PACKET in per_a[cid]["known_stale"])]
     check("Z", "specificity -- the packet is dirty for CC-05 and no other correction",
           other == [], other)
 
@@ -487,7 +495,7 @@ def run_probe(cfg: dict | None = None) -> dict:
     check("P", "owner exemption: a correction's own owner is never dirty for it",
           po is not None and po["dirty"] == 0, None if po is None else po["dirty"])
 
-    cfg_x = copy.deepcopy(cfg)
+    cfg_x = copy.deepcopy(cfg_a)
     cfg_x["injected_checks"] = tuple(cfg_x.get("injected_checks") or ()) + (
         _plant_z3_stale(),
         {"file": Z3_PACKET, "correction_id": "ALL-REGISTER", "verdict": "CLEARED-CONSISTENT",

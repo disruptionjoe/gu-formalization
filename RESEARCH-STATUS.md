@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-08-26 — Subtractive-two-plus-one canonical-currency wave
+
+The complete aged `CC-05-SUBTRACTIVE-TWO-PLUS-ONE` dirty cohort is adjudicated
+across thirty-nine documents. Thirty apparent conflicts are canon verdicts,
+correction-owner records, explicitly conditional or steelman material, or
+index/representation results that already refuse to force a physical count.
+
+Nine historical consumers genuinely preserve the superseded additive reading.
+Each now carries a prominent forward-only fence: the source's “two plus one”
+partition is unlabeled and subtractive, `n_g -> n_g - 1`, with the distinguished
+imposter family removed. Historical index, variational, null-mode and
+representation calculations remain intact, but no longer license additive
+generation production.
+
+Forty-eight append-only custody records lower CC-05 from `39` dirty pairs to
+zero, reduce the total live queue from `109` to `70`, and raise cleared pairs
+from `140` to `179`. The coupled certificate catches all sixty missing,
+duplicate, verdict, correction and repair-fence mutations. The adjacent CC-09
+certificate now owns its exact consistent and repaired sets instead of the
+mutable repository-global aggregate, so later correction waves cannot break
+its already-proved custody. CT-5 likewise reconstructs its historical
+unchecked Z/3 state by dropping the packet's exact new clearance inside the
+probe; its `70/70` checks and `13/13` machinery mutations pass without relying
+on future backlog size. No source claim,
+scientific verdict, action owner, ledger row, SG4 phase, prediction,
+confirmation, canon verdict, paper, release readiness or public posture moves.
+
 ## 2026-08-26 — Yukawa-sign canonical-currency wave
 
 The complete aged `CC-09-YUKAWA-REPULSIVE-SIGN` dirty cohort is adjudicated

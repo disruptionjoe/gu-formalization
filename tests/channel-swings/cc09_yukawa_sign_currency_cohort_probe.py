@@ -127,13 +127,10 @@ def validate_dynamic() -> list[str]:
     row = result["per"][CORRECTION]
     if row["dirty"] != 0 or row["unchecked"] or row["known_stale"]:
         failures.append("CC-09 remains dirty")
-    if not EXPECTED.issubset(set(row["cleared"]) | set(row["repaired"])):
-        failures.append("CC-09 did not clear every reviewed candidate")
-    if len(row["repaired"]) != 9:
-        failures.append(f"CC-09 repaired count is {len(row['repaired'])}, expected 9")
-    live_dirty = sum(item["dirty"] for item in result["per"].values())
-    if live_dirty != 109:
-        failures.append(f"live dirty queue is {live_dirty}, expected 109")
+    if set(row["cleared"]) & EXPECTED != EXPECTED - REPAIRED:
+        failures.append("CC-09 consistent set differs from its reviewed cohort")
+    if set(row["repaired"]) != REPAIRED:
+        failures.append("CC-09 repaired set differs from its exact repair custody")
     return failures
 
 
