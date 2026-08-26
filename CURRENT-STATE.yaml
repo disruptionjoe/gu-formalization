@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 87d8e59754a7321a769167556096da1b542299fd
+revision_basis: e574fbf46c7303a8c7bea527773735290d00f3ad
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Paper-certificate mutation custody now closes two live improvement-
+    register packets. One bounded process gate owns nine exact claim-breaking
+    substitutions across the three frozen paths cited by *Located, Not
+    Forced*, requires all three unmodified baselines to pass, and requires
+    every isolated mutant to exit nonzero; the live contract passes 3/3
+    baselines and 9/9 mutants. `ghost_parity_krein.py` now independently checks
+    that the exact base two-forms used by its construction are self-dual and
+    that the ambient metric is preserved by the expected `so(p,q)` vector
+    generators. Both structural residuals are machine-zero on `(9,5)`, `(7,7)`
+    and the `(14,0)` control, while the anti-self-dual and identity-metric
+    mutants fail. P-M1 and P-M2 close evidence-specifically, reducing the
+    inherited register writeback queue from 25 to 23. No source claim,
+    scientific verdict, action owner, scientific ledger row, SG4 phase,
+    prediction, confirmation, paper, canon verdict, release state or public
+    posture moves.
     Certificate-independence and dependency custody now closes three live
     improvement-register packets. The boundary-eta verifier independently
     reconstructs its lens-space values from the exact symbolic
@@ -3801,7 +3816,9 @@ next_condition: >-
   new evidence. M-S3 and M-M4 are now evidence-specifically executed; do not
   repeat their EP-monodromy or D7/D5 dictionary builds. P-H8, P-H11 and P-M3
   are now evidence-specifically executed; do not repeat their shared-library,
-  boundary-eta independence or silent-`expm` repairs. Twenty-five unexecuted
+  boundary-eta independence or silent-`expm` repairs. P-M1 and P-M2 are now
+  evidence-specifically executed; do not repeat their frozen-paper mutation
+  contract or self-dual/ambient-metric discriminators. Twenty-three unexecuted
   improvement-register proposals remain and require fresh frontier selection,
   not inherited priority.
   Historical conditions below are

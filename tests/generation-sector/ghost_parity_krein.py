@@ -41,18 +41,46 @@ def sgen(e, i, j):
 def lvec(i, j):
     M = np.zeros((N, N), dtype=complex); M[i, j] = 1; M[j, i] = -1; return M
 
-SD = [(0, 1, 2, 3), (0, 2, 3, 1), (0, 3, 1, 2)]   # self-dual SU(2)+ on Euclidean base {0,1,2,3}
+SD = [(0, 1, 2, 3, 1), (0, 2, 3, 1, 1), (0, 3, 1, 2, 1)]
+
+
+def self_duality_residual(a, b, c, d, relative_sign):
+    """Residual of *(e_a^e_b + sign e_c^e_d) = itself on oriented R^4."""
+    form = np.zeros((4, 4))
+    form[a, b], form[b, a] = 1.0, -1.0
+    form[c, d], form[d, c] = relative_sign, -relative_sign
+    star = np.zeros_like(form)
+    for i in range(4):
+        for j in range(4):
+            for k in range(4):
+                for ell in range(4):
+                    indices = (i, j, k, ell)
+                    if len(set(indices)) < 4:
+                        continue
+                    inversions = sum(
+                        indices[x] > indices[y]
+                        for x in range(4)
+                        for y in range(x + 1, 4)
+                    )
+                    star[i, j] += 0.5 * ((-1) ** inversions) * form[k, ell]
+    return np.linalg.norm(star - form)
 
 def analyze(timelike, label):
     e = [(1j * base[a] if a in timelike else base[a]) for a in range(14)]
     spacelike = [a for a in range(14) if a not in timelike]
     p, q = len(spacelike), len(timelike)
 
+    # Layer-0 object check: these exact forms, not an anti-self-dual substitute,
+    # define the SU(2)+ triplet named by the certificate.
+    sd_res = max(self_duality_residual(*form) for form in SD)
+    assert sd_res < 1e-12, (label, "base forms are not self-dual", sd_res)
+
     # gamma-trace constraint surface and the self-dual triplet sector
     Gamma = np.hstack(e)
     Pi = np.eye(N * DIM, dtype=complex) - Gamma.conj().T @ np.linalg.inv(Gamma @ Gamma.conj().T) @ Gamma
-    J = [np.kron(I14, sgen(e, a, b) + sgen(e, c, d)) + np.kron(lvec(a, b) + lvec(c, d), I128)
-         for (a, b, c, d) in SD]
+    J = [np.kron(I14, sgen(e, a, b) + orientation * sgen(e, c, d))
+         + np.kron(lvec(a, b) + orientation * lvec(c, d), I128)
+         for (a, b, c, d, orientation) in SD]
     w, Vv = np.linalg.eigh(Pi); W = Vv[:, w > 0.5]
     Cas = -(J[0] @ J[0] + J[1] @ J[1] + J[2] @ J[2])
     CasK = W.conj().T @ Cas @ W; CasK = 0.5 * (CasK + CasK.conj().T)
@@ -71,7 +99,27 @@ def analyze(timelike, label):
               for i in range(14) for j in range(i + 1, 14))   # pseudo-anti-Hermitian: beta sigma + sigma^d beta = 0
     assert res < 1e-9, (label, res)
 
-    etaV = np.diag([(-1.0 if a in timelike else 1.0) for a in range(14)]).astype(complex)
+    metric_signs = np.array([(-1.0 if a in timelike else 1.0) for a in range(14)])
+    etaV = np.diag(metric_signs).astype(complex)
+    # Object check independent of the terminal inertia: the actual ambient
+    # form must be preserved by the expected pseudo-orthogonal vector
+    # generators. An identity substitution fails on every mixed-signature
+    # boost even though the final (+96,-96) count can survive it.
+    vector_metric_residual = 0.0
+    for i in range(N):
+        for j in range(i + 1, N):
+            generator = np.zeros((N, N), dtype=complex)
+            generator[i, j] = 1.0
+            generator[j, i] = -metric_signs[i] / metric_signs[j]
+            vector_metric_residual = max(
+                vector_metric_residual,
+                np.linalg.norm(generator.conj().T @ etaV + etaV @ generator),
+            )
+    assert vector_metric_residual < 1e-12, (
+        label,
+        "ambient metric is not the expected so(p,q)-invariant form",
+        vector_metric_residual,
+    )
     K = np.kron(etaV, bS)
     B = Wt.conj().T @ K @ Wt
     # PRECONDITION added 2026-08-15.  The next line symmetrises B, and did so
@@ -93,7 +141,9 @@ def analyze(timelike, label):
     B = 0.5 * (B + B.conj().T)
     sig = np.linalg.eigvalsh(B)
     npl, nmi, nz = int(np.sum(sig > 1e-9)), int(np.sum(sig < -1e-9)), int(np.sum(np.abs(sig) < 1e-9))
-    print(f"{label} ({p},{q}): beta pseudo-anti-Herm residual {res:.0e} | "
+    print(f"{label} ({p},{q}): self-dual residual {sd_res:.0e} | "
+          f"ambient metric residual {vector_metric_residual:.0e} | "
+          f"beta pseudo-anti-Herm residual {res:.0e} | "
           f"triplet Krein signature (+{npl}, -{nmi}, 0:{nz}) -> "
           f"{'NEUTRAL/hyperbolic: 96 (generation,mirror) pairs' if npl == nmi else 'asymmetric'}")
     assert npl == nmi == 96, (label, npl, nmi)

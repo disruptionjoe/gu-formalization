@@ -23,6 +23,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current composition gate:
 
+- `paper_cited_certificate_mutation_audit.py` preserves executable mutation
+  custody for the three frozen certificates cited by *Located, Not Forced*.
+  It requires green baselines, exact single source substitutions, isolated
+  mutant execution, and nonzero exit for all nine stored claim-breaking
+  faults. This is failure-path custody, not a scientific-verdict gate.
+
 - `current_state_absolute_currency_audit.py` checks the public steering
   surface's `revision_basis` against repository `HEAD`, failing when commit or
   elapsed-time drift exceeds the preserved absolute-currency tolerance.
