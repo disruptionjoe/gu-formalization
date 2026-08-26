@@ -22,9 +22,10 @@ with the mechanism a Rarita-Schwinger product rule over a split V (+) W:
 THE COMPUTATION.  With the GAMMA-TRACELESS RS, RS(V) = V (x) S(V) - S(V):
   RS(V)(x)S(W) + S(V)(x)RS(W)  subtracts TWO copies of S(V)(x)S(W)
   RS(V (+) W)                  subtracts ONE
-so they differ by exactly one S(V)(x)S(W).  If that is exact, the third family
-is FORCED by gamma-tracelessness once the split is declared -- and P3 is NOT an
-external datum.
+so they differ by exactly one S(V)(x)S(W).  This exact identity forces a 2+1
+MULTIPLICITY decomposition once the split is declared.  It does not supply the
+realized CHIRAL INDEX named by P3; multiplicity and index are different typed
+objects.
 
 Deterministic, foreground, stdlib only, no writes, no network.
 EXIT 0 = ran and all controls passed; the PRINTED findings are the result.
@@ -155,33 +156,32 @@ if FAILURES:
     print("RESULT: VOID.")
     sys.exit(1)
 
-print("VERDICT: P3-IS-NOT-EXTERNAL (conditional on the split declaration)")
+print("VERDICT: MULTIPLICITY-ONLY; P3-REMAINS-EXTERNAL")
 print("=" * 74)
 print(
-    "\nLEDGER UPDATE.  The generation count does NOT need an external Z/3\n"
-    "carrier integer.  Given a DECLARED split V (+) W and the gamma-traceless\n"
-    "RS carrier -- both already GU commitments -- the 2 + 1 structure is\n"
-    "FORCED by the product rule.  The third family is the S(V) x S(W)\n"
-    "correction term that gamma-tracelessness leaves behind.\n"
-    "\nSo the missing pieces reduce from three to TWO:\n"
+    "\nLEDGER UPDATE.  Given a DECLARED split V (+) W and the gamma-traceless\n"
+    "RS carrier, the 2 + 1 MULTIPLICITY structure is forced by the product\n"
+    "rule.  The third block is the S(V) x S(W) correction term that\n"
+    "gamma-tracelessness leaves behind.  This does not derive the realized\n"
+    "chiral index or generation count.\n"
+    "\nThe external ledger therefore remains at THREE pieces:\n"
     "    P1  a Z/2 orientation      -- serves the six B5 chirality orbits AND\n"
     "                                  the Rung-2 wall orientation\n"
     "    P2  the X-sector datum     -- four orbits, type still unknown\n"
-    "    P3  WITHDRAWN as external  -- forced by the split + gamma-tracelessness\n"
+    "    P3  RETAINED as external   -- realized integer index/count datum\n"
 )
 print(
     "HONESTY.  This is dimension counting, not a representation-theoretic\n"
     "proof: it shows the MULTIPLICITIES work out exactly, and that the third\n"
     "term is not of Leibniz form.  It does NOT show the three factors carry\n"
     "the right internal quantum numbers, nor that the split is itself forced,\n"
-    "nor that the count is 3 rather than 2+1-with-different-physics.  Those\n"
-    "are separate and open.  The 2+1 reading also PREDICTS the third family\n"
-    "behaves differently at high energy -- a discriminator, not a free pass."
+    "nor that the realized chiral count is three.  Those are separate and\n"
+    "open.  The exact result constrains multiplicity and flavour structure;\n"
+    "it is not a generation-count prediction."
 )
 print(
     "\nWhat this does to the CRT framing: GU's own canon already grades\n"
     "order-3-class -> integer-3 as 'open and possibly a category error'.\n"
-    "This supports that worry from the other side -- if the count is 2+1 from\n"
-    "a product rule, no Z/3 torsion class is needed and Hom(Z/3,Z)=0 was\n"
-    "answering a question the structure does not ask."
+    "The product rule does not close that bridge: a three-block decomposition\n"
+    "does not mint an integer-valued chiral index."
 )

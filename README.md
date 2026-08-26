@@ -113,6 +113,7 @@ dark-energy no-phantom-crossing measurement is the one observation that turns th
 - **Lead result (published preprint):** `papers/candidates/located-not-forced/`
   ([DOI `10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143))
 - **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`
+- **Grade and status crosswalk:** `GRADES.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Tri-repo division of labor (GU leg: boundary content):** `lab/roadmap/tri-repo-division-of-labor-2026-07-02.md`
