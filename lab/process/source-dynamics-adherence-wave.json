@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "scope": "Four residual source-adherence rows across Euclidean deformation, curvature-mass, luminous/dark reconnection and higher-sector representation arcs",
+  "claim_ceiling": "Exact source-assertion and non-construction custody only. No ellipticity theorem, moduli construction, action-owned mass law, chiral decoupling theorem, dark-matter identity, inter-level representation map, observable, prediction confirmation, ledger row, canon, protected paper, release state or public posture moves.",
+  "headline_before": "ADHERED 98 / PARTIAL 12 / UNTYPED 1",
+  "headline_after": "ADHERED 102 / PARTIAL 8 / UNTYPED 1",
+  "records": [
+    {
+      "id": "SC-ACT-06",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "EUCLIDEAN_MODULI_AND_ELLIPTICITY_ASSERTION_CARRIED_WITHOUT_THEOREM",
+      "decisive_facts": [
+        "the draft asserts rich classical moduli and a Euclidean elliptic deformation complex after redundant Euler equations are discarded",
+        "the repository proves only the printed redundant-Xi relation and preserves the sect.10 Caveat Emptor",
+        "Lorentzian K77 Jordan defects do not adjudicate the distinct Euclidean claim"
+      ],
+      "preserved_ceiling": "no complete Euclidean symbol complex, gauge quotient, Fredholm domain, rich-moduli theorem or Seiberg-Witten priority adjudication is supplied",
+      "evidence": [
+        "lab/sources/source-claim-register.yaml#SC-ACT-06",
+        "RESEARCH-STATUS.md:232-244",
+        "tests/channel-swings/source_dynamics_adherence_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-CHI-52",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "CURVATURE_VEV_MASS_AND_DIRAC_WEYL_CHAIN_CARRIED_WITH_MISSING_DYNAMICS",
+      "decisive_facts": [
+        "the spoken chain is curvature to VEV to mass scale to sufficiently-low-mass Dirac/Weyl decoupling",
+        "drops sufficiently supplies no positive threshold and selects no additional SG4 phase",
+        "the repository's computed curvature/VEV horn does not own the mass law, physical carrier or decoupling theorem"
+      ],
+      "preserved_ceiling": "no action-owned mass function, sign/normalization, physical quotient, threshold or Weyl-sector theorem is inferred",
+      "evidence": [
+        "lab/sources/transcripts/toe-weinstein-gu-40-years.md:664-666",
+        "explorations/sg4-phase-source-cardinality-reconciliation-2026-08-24.md",
+        "tests/channel-swings/source_dynamics_adherence_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-CHI-53",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "BELIEF_GRADED_LUMINOUS_DARK_RECONNECTION_CHAIN_CARRIED",
+      "decisive_facts": [
+        "the source describes two chiral halves coupled by a VEV and decoupling into matter sectors at low curvature",
+        "the high-curvature luminous/dark reconnection is explicitly introduced as what the author believes",
+        "no coupling scale, dynamics, physical dark-matter carrier or observable is supplied"
+      ],
+      "preserved_ceiling": "the claim remains belief-graded source content rather than a constructed dark-sector mechanism or prediction packet",
+      "evidence": [
+        "lab/sources/transcripts/toe-weinstein-gu-40-years.md:666",
+        "explorations/frontier-design-packets-index-2026-08-11.md:48-53",
+        "tests/channel-swings/source_dynamics_adherence_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-PRE-54",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "HIGHER_SECTOR_STABLE_DIMENSION_AND_RECONNECTION_ASSERTION_CARRIED",
+      "decisive_facts": [
+        "the source asserts stable observed representation-space dimensions across higher GU groups",
+        "the source couples this to non-luminous matter becoming luminous-coupled at high curvature",
+        "no inter-level representation map, persistence proof, curvature scale, physical carrier or threshold is supplied"
+      ],
+      "preserved_ceiling": "no stable-dimension theorem, dark-matter identification, scale-bearing observable or confirmation is inferred",
+      "evidence": [
+        "lab/sources/transcripts/toe-weinstein-gu-40-years.md:716-718",
+        "lab/process/CURRENT-RESEARCH-CONTEXT.md:529-531",
+        "tests/channel-swings/source_dynamics_adherence_wave_probe.py"
+      ]
+    }
+  ]
+}
