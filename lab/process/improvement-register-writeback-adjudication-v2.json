@@ -127,9 +127,9 @@
     },
     {
       "id": "M-H14",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md",
-      "basis": "The GS-factorization content solve remains an open exact source-action constraint calculation."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/mh14-gs-content-factorization-2026-08-26.md",
+      "basis": "The exact fourteen-dimensional constraint is n_1/2 + 493 n_3/2 + 8128 n_SD = 0 for signed physical-quotient multiplicities. Same-sign nonzero content cannot clear the primitive p4 obstruction; clearing it leaves a decomposable residual and does not construct a source counterterm."
     },
     {
       "id": "M-H16",
@@ -253,9 +253,9 @@
     },
     {
       "id": "M-M30",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/mh7-dim13-restatement-2026-08-03.md",
-      "basis": "The fork merge is narrowed, but the hostile field-specialist review required before a fork-table edit remains outstanding."
+      "disposition": "EXECUTED",
+      "evidence": "lab/process/hostile-reviews/2026-08-26-m-m30-compact-carrier-implication-review.md",
+      "basis": "The required hostile review rejects JP1's compact-carrier exclusion as an untyped implication between the Met(X) orbit and a distinct ambient carrier summand. JP2's signature arithmetic remains planning-only under its frozen-fibre assumptions; no fork-table edit is licensed."
     },
     {
       "id": "M-S1",
