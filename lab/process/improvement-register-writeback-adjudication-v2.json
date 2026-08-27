@@ -56,8 +56,8 @@
     {
       "id": "P-L16",
       "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/imposter-reading-adjudication-2026-08-03.md",
-      "basis": "The 128 homonym is typed, but the compound row contains additional normalization, real-form, commutant, and wording corrections not all proved applied."
+      "evidence": "explorations/correction-custody-wave-2026-08-27.md",
+      "basis": "The unprotected W114 and NCG commutant residues now use the exact real factor and total algebra; the compound row remains live for its separately protected normalization, real-form, 128 and Pati--Salam wording corrections."
     },
     {
       "id": "M-C2",
@@ -133,9 +133,9 @@
     },
     {
       "id": "M-H16",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/judge-corrected-claims-addendum-2026-08-10.md",
-      "basis": "The true-RS successor remains requested; no completed winding-one preregistration at the named program surface is proved."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/prereg-rung2-dynamical-wall-and-selectability-test-2026-07-29.md",
+      "basis": "The named Rung-2 preregistration explicitly declares |winding|=1 as the null and distinguishes supplied-multiplicity hosting from target-blind selection; no dynamics or source-action conclusion is inferred."
     },
     {
       "id": "M-M6",

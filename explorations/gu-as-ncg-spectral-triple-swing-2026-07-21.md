@@ -122,7 +122,7 @@ GU supplies every ingredient of a spectral triple, and they assemble:
   trace-reversal; `canon/shiab-existence-cl95.md`). `Cl(9,5)` has index
   `(9-5) mod 8 = 4`, so `Cl(9,5) = M(64,H)` (Lawson-Michelsohn). Take
   `A_GU = M(64,H)` (or the GU-native operator subalgebra, contained in the
-  `J_quat`-commutant `M(14,C) (x) M(64,H)`).
+  `J_quat`-commutant `M(14,R) (x)_R M(64,H) = M(896,H)`).
 - **Hilbert space.** `H_GU = ` the spinor module `S = H^64` (dim_R 256), or the
   full Rarita-Schwinger / chimeric bundle `vector (x) spinor` (the `14 x 128`
   module carrying the RS index) on which `Pi_RS`, `M_D` act.

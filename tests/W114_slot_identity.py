@@ -9,7 +9,7 @@ the modular slot and its topological/index class fills the count slot.
 
 COMMON-LANGUAGE TYPING (T1):
   WALL 1 (Nguyen/generation): carrier = RS module C^(14*128); foreign-to = the J_quat-commutant
-    M(14,C)(x)M(64,H) = the whole GU-native algebra (Cl(9,5)); linearity type = FORCED non-quaternionic
+    M(14,R)(x)_R M(64,H) = M(896,H), the whole GU-native endomorphism algebra; linearity type = FORCED non-quaternionic
     (any J-even Hermitian has EVEN signature by Kramers -- the requirement PROVABLY excludes a
     quaternionic filler); payload = DISCRETE (an odd index/rank; arena {1,3}, 3-over-1 selection);
     location = the s3.1 shiab complexification point.

@@ -65,7 +65,7 @@ embedding into the real `M(64,H)` `J_quat` is constructed, killing the pun objec
 | Field | WALL 1 (Nguyen / generation) | WALL 2 (observer / modular) |
 |---|---|---|
 | **Carrier space** | RS module `C^(14x128)`, `Cl(9,5) = M(64,H)` | mode-tower Krein doublets; the asymptotic tail (Calkin class `[C] = 2[P]`) |
-| **Algebra it must be foreign to** | the `J_quat`-commutant `M(14,C)(x)M(64,H)` = the whole GU-native algebra | the observer-accessible (compact) ideal |
+| **Algebra it must be foreign to** | the `J_quat`-commutant `M(14,R)(x)_R M(64,H) = M(896,H)`, the whole GU-native endomorphism algebra | the observer-accessible (compact) ideal |
 | **Linearity type** | **FORCED non-quaternionic**: any `J`-even Hermitian has even signature (Kramers), so no quaternionic object can carry the payload | **NOT forced** (computed, Section 2): the *location* (the null line) is essentially complex and `J`-transverse, but the *filler* may be `J`-even |
 | **Payload** | discrete: an odd index/rank; arena `{1,3}`, the 3-over-1 selection | continuous: a positive invertible metric at infinity + a fixed modular phase |
 | **Location** | the §3.1 shiab complexification point | the asymptotic tail null line `e_null = (i,1)/sqrt2` |

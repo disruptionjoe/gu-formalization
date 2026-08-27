@@ -107,7 +107,16 @@ print("        => pure product of quadratics, NO independent order-8 Casimir => 
 # --- physics assembly (CONDITIONAL) ---
 r0, r1 = binomial(14,0), binomial(14,1)
 W = r0 - r1
-grav = R(64)*W*p4
+rank_only_unit = R(W)*p4
+d0_p4 = p4
+d1_p4 = R(-494, 2419200)
+honest_unit = d0_p4 - d1_p4
+grav = R(64)*honest_unit
+assert rank_only_unit == R(13, 2419200)
+assert honest_unit == R(493, 2419200)
+assert grav == R(493, 37800)
 print(f"\n[ASSEMBLY, conditional] rank0={r0} rank1={r1} => n+ - n- = {W}")
-print(f"  grav tr R^8 coeff = 64*({W})*({p4}) = {grav}  ; == 13/37800 ? {grav==R(13,37800)}")
+print(f"  rank-only convention per unit dim(S) = {rank_only_unit}; dim(S)-multiplied = {64*rank_only_unit}")
+print(f"  honest tangent-twisted C0 per unit dim(S) = D0-D1 = {honest_unit}")
+print(f"  grav tr R^8 coeff = 64*({honest_unit}) = {grav}  ; == 493/37800 ? {grav==R(493,37800)}")
 print(f"  headline non-factorizable under BOTH readings because grav coeff != 0: {grav!=0}")

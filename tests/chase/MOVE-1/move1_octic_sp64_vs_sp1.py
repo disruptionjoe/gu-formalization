@@ -226,7 +226,7 @@ def part_B():
 # PART C. Total local I_16 factorizability under both readings.
 #   Assumed GU content Omega^0(x)S^+ + Omega^1(x)S^-  (repo canon).
 #   gauge irreducible octic coeff (x (2pi)^-8) = (n_+ - n_-)/8! * prim_C8
-#   grav irreducible tr R^8 coeff             = dim(S)*(n_+ - n_-) * p4_grav
+#   grav irreducible tr R^8 coeff             = dim(S)*[ch(Omega^0)-ch(Omega^1)]*A-hat|p4
 #   Total local anomaly GS-factorizes  <=>  BOTH irreducible coeffs vanish.
 # ============================================================================
 def part_C(p4_grav, prim64_C8, prim1_C8):
@@ -236,11 +236,25 @@ def part_C(p4_grav, prim64_C8, prim1_C8):
     rank0, rank1 = comb(14,0), comb(14,1)     # Omega^0 -> 1, Omega^1 -> 14
     W = (+1)*rank0 + (-1)*rank1                # net chiral weight n_+ - n_- = -13
     dimS = 64                                   # dim of S as H^64 (reading-independent vector space)
-    Ngrav = dimS*W                              # = -832
-    grav_irr = F(Ngrav)*p4_grav                 # reading-INDEPENDENT
+    # Keep the historical rank-only convention visible, but do not mistake it
+    # for the honest tangent-twisted coefficient.  In the p4-only slice,
+    # D0=-1/2419200 and D1=-494/2419200, hence C0=D0-D1=493/2419200
+    # per unit dim(S).  Multiplication by dim(S)=64 gives 493/37800.
+    rank_only_unit = F(W)*p4_grav
+    d0_p4 = p4_grav
+    d1_p4 = F(-494, 2419200)
+    honest_unit = d0_p4 - d1_p4
+    grav_irr = F(dimS)*honest_unit               # reading-INDEPENDENT
+    assert rank_only_unit == F(13, 2419200)
+    assert honest_unit == F(493, 2419200)
+    assert grav_irr == F(493, 37800)
     print(f"  assumed content Omega^0(x)S^+ (rank {rank0}) + Omega^1(x)S^- (rank {rank1}); "
           f"n_+ - n_- = {W}")
-    print(f"  gravitational tr R^8 coeff = dim(S)*(n_+-n_-)*p4 = {Ngrav}*{p4_grav} = {grav_irr}  "
+    print(f"  rank-only multiplicity convention (per unit dim(S)) = {rank_only_unit}  "
+          f"(= 13/2419200; dim(S)-multiplied = {dimS*rank_only_unit})")
+    print(f"  honest tangent-twisted C0 p4 coeff (per unit dim(S)) = "
+          f"D0-D1 = {d0_p4}-({d1_p4}) = {honest_unit}")
+    print(f"  gravitational tr R^8 coeff = dim(S)*C0 = {dimS}*{honest_unit} = {grav_irr}  "
           f"(reading-INDEPENDENT)")
     out = {}
     for tag, primC8 in (("Sp(64)", prim64_C8), ("Sp(1)=right-H", prim1_C8)):
@@ -284,11 +298,11 @@ def main():
     print("   * The Sp(64) GAUGE octic red flag IS an artifact of the gauge-group reading:")
     print("     under the genuine Sp(1)=right-H commutant it becomes 128*(y^2)^4 -- a pure")
     print("     product of quadratics, GS-reducible, NO independent order-8 Casimir. FLIPS.")
-    print("   * BUT the pure-gravitational tr R^8 (p4) irreducible is READING-INDEPENDENT")
-    print("     and nonzero for the assumed net chiral count (n_+-n_- = -13 != 0), so the")
+    print("   * BUT the tangent-twisted gravitational tr R^8 (p4) irreducible is")
+    print("     READING-INDEPENDENT and nonzero for the assumed Omega^0/Omega^1 content, so the")
     print("     TOTAL local anomaly stays non-factorizable under BOTH readings.")
     print("   * Net: the triage's 'flip to artifact' is CONFIRMED for the gauge channel and")
-    print("     REFUTED for the headline -- the non-factorizability survives via gravity, not")
+    print("     REFUTED for the headline -- the non-factorizability survives via tangent-twisted gravity, not")
     print("     via the gauge group. (Grade: reconstruction; assumed content + assumed action.)")
     print("="*80)
 

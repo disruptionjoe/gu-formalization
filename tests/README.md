@@ -24,6 +24,14 @@ ratchets that exact population and permits no new exception. A materially
 revised exception must move the same-machinery positive control first or state
 the dependency/cost exception and its independent machinery check in source.
 
+## Correction-custody gate
+
+- `process_gates/correction_custody_wave_audit.py` pins the honest
+  tangent-twisted `493/2419200` anomaly coefficient alongside the retained
+  rank-only comparator, the real `M(14,R)` commutant factor and total
+  `M(896,H)`, the winding-one preregistration, and the M-H16/P-L16 writeback
+  boundary. `--selftest` catches five planted custody mutations.
+
 ## Exceptional-point monodromy and form-spinor dictionary
 
 - `big-swing/vg_v4_exceptional_point_monodromy.py` transports the two low
