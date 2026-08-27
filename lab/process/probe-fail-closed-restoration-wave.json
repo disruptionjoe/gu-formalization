@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "probe_fail_closed_restoration_wave_certificate",
+  "created": "2026-08-27",
+  "status": "PASS",
+  "method_ref": "process_gates/probe_authorship_lint.py",
+  "before": {
+    "violations": 92,
+    "probe_corpus": 1006,
+    "baseline": 89,
+    "gate_status": "RED"
+  },
+  "after": {
+    "violations": 89,
+    "probe_corpus": 1007,
+    "baseline": 89,
+    "gate_status": "PASS",
+    "repaired_violations": 3
+  },
+  "repair_packets": [
+    {
+      "id": "GEOMETRY_FIRST_PROGRAM_IDENTITY_LOOKUP",
+      "result": "FAIL_CLOSED",
+      "repaired_violations": 1,
+      "path": "tests/channel-swings/geometry_first_theory_passport_probe.py",
+      "defect": "A removed or renamed agenda row raised StopIteration before the program-identity assertion could fail.",
+      "repair": "Use a defaulted lookup and assert the row exists before dereference."
+    },
+    {
+      "id": "SOURCE_CLAIM_REGISTER_HEADLINE_WRAPPING",
+      "result": "WRAP_STABLE",
+      "repaired_violations": 1,
+      "path": "tests/channel-swings/source_claim_residual_wave_probe.py",
+      "defect": "A superseded exact source-register headline was searched in raw YAML text.",
+      "repair": "Parse the current wrapped adjudication census and prove it preserves the completed historical transition by monotone bounds."
+    },
+    {
+      "id": "SOURCE_ROLLUP_REGISTER_HEADLINE_WRAPPING",
+      "result": "WRAP_STABLE",
+      "repaired_violations": 1,
+      "path": "tests/channel-swings/source_scope_and_rollup_residual_wave_probe.py",
+      "defect": "A superseded exact source-register headline was searched in raw YAML text.",
+      "repair": "Parse the current wrapped adjudication census and prove it preserves the completed historical transition by monotone bounds."
+    }
+  ],
+  "semantic_exclusions": [
+    "construction_prong2_dynamical_probe.py uses next() on itertools.count(), an infinite iterator with a guaranteed witness",
+    "historical ledger-row equalities remain immutable snapshot assertions unless their owning probe proves shared-counter semantics",
+    "proved-nonempty theorem-domain iterators remain unchanged",
+    "author-reserved comparator classifications remain unchanged"
+  ],
+  "hostile_controls": {
+    "count": 6,
+    "caught": 6,
+    "classes": [
+      "missing_geometry_agenda_default",
+      "missing_geometry_presence_assertion",
+      "raw_source_claim_register_search",
+      "raw_source_rollup_register_search",
+      "source_claim_headline_mutation",
+      "source_rollup_headline_mutation"
+    ]
+  },
+  "validation": {
+    "geometry_first_theory_passport": "PASS 11 contracts and 9 hostile mutations",
+    "source_claim_residual": "PASS 13 checks and 8 hostile mutations",
+    "source_scope_rollup_residual": "PASS 15 checks and 9 hostile mutations",
+    "probe_authorship_lint": "PASS 89 findings at baseline 89 across 1007 probes",
+    "coupled_probe": "PASS"
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_ownership_or_adherence_change": "none",
+    "ledger_row_change": "none",
+    "sg4_phase_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_condition": "Rebuild the substantial repository frontier. Reopen probe-authorship hardening only on another semantically reviewed concrete defect or a fresh measured baseline decrease."
+}

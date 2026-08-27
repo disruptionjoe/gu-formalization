@@ -90,7 +90,8 @@ def main() -> int:
     assert not violations(passport), violations(passport)
 
     agenda = load(AGENDA)
-    item = next(row for row in agenda["work_items"] if row["id"] == AGENDA_ID)
+    item = next((row for row in agenda["work_items"] if row["id"] == AGENDA_ID), None)
+    assert item is not None, f"missing agenda item {AGENDA_ID}"
     assert item["program_identity"] == PROGRAM_ID
     assert item["theory_passport_ref"] == "lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml"
     assert item["critical_path"]["ordered_burdens"] == BURDENS

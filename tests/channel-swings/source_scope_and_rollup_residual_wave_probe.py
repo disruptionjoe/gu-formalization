@@ -6,6 +6,7 @@ from __future__ import annotations
 import copy
 from math import comb
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -24,8 +25,15 @@ def row(text: str, claim_id: str, next_id: str) -> str:
     return text.split(f"- id: {claim_id}", 1)[1].split(f"- id: {next_id}", 1)[0]
 
 
+def adjudication_census(text: str):
+    flattened = " ".join(text.split())
+    match = re.search(r"adjudication_headline: ['\"]?ADHERED (\d+) / PARTIAL (\d+) / UNTYPED (\d+)", flattened)
+    return tuple(map(int, match.groups())) if match else None
+
+
 def evaluate(manifest, register, producer, review, s9, s11, toe):
     records = {entry["id"]: entry for entry in manifest.get("records", [])}
+    census = adjudication_census(register)
     degrees = (0, 1, 13, 14)
     dimensions = tuple(comb(14, degree) for degree in degrees)
     complement = {degree: 14 - degree for degree in degrees}
@@ -40,7 +48,7 @@ def evaluate(manifest, register, producer, review, s9, s11, toe):
     return [
         ("four exact records", set(records) == {"SC-FER-03", "SC-CHI-03", "SC-PRE-03", "SC-GEN-58"}),
         ("headline transition", manifest.get("headline_before") == "ADHERED 90 / PARTIAL 20 / UNTYPED 1" and manifest.get("headline_after") == "ADHERED 94 / PARTIAL 16 / UNTYPED 1"),
-        ("register headline current", "ADHERED 94 / PARTIAL 16 / UNTYPED 1" in register),
+        ("register headline preserves completed transition", census is not None and census[0] >= 94 and census[1] <= 16 and census[2] <= 1),
         ("four rows adhered", all("adherence: ADHERED" in value and "adherence: PARTIAL" not in value for value in claim_rows.values())),
         ("p46 assignments exact", all(token in s9 for token in ("observed-fermion", "looking-glass", "dark-spinorial", "Rarita--Schwinger", "CKM", "Yukawa", "not derivations"))),
         ("p46 scope preserved", records.get("SC-FER-03", {}).get("result") == "P46_FIELD_AND_FUNCTION_ASSIGNMENTS_CARRIED_AT_SOURCE_LABEL_SCOPE" and "assignments, not derivations" in producer),
@@ -73,6 +81,7 @@ def selftest(inputs) -> int:
     mutators = (
         lambda x: x[0]["records"].pop(),
         lambda x: x[0].update(headline_after="ADHERED 93 / PARTIAL 17 / UNTYPED 1"),
+        lambda x: x.__setitem__(1, x[1].replace("ADHERED 106 / PARTIAL 4", "ADHERED 93 / PARTIAL 17", 1)),
         lambda x: mutate_claim_adherence(x, "SC-GEN-58", "SC-GEN-59"),
         lambda x: x.__setitem__(4, x[4].replace("not derivations", "derivations", 1)),
         lambda x: x.__setitem__(5, x[5].replace("Dark Decoupled Looking Glass Matter", "Dark Matter", 1)),

@@ -6,6 +6,7 @@ from __future__ import annotations
 import copy
 from fractions import Fraction
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -27,8 +28,15 @@ def row(text: str, claim_id: str, next_id: str) -> str:
     return text.split(f"- id: {claim_id}", 1)[1].split(f"- id: {next_id}", 1)[0]
 
 
+def adjudication_census(text: str):
+    flattened = " ".join(text.split())
+    match = re.search(r"adjudication_headline: ['\"]?ADHERED (\d+) / PARTIAL (\d+) / UNTYPED (\d+)", flattened)
+    return tuple(map(int, match.groups())) if match else None
+
+
 def evaluate(manifest, register, producer, review, curvature, receiver):
     records = {entry["id"]: entry for entry in manifest.get("records", [])}
+    census = adjudication_census(register)
 
     # Exact source toy: P^-1 [[0,m],[m,0]] P = diag(m,-m), with m=R/4.
     r_value = Fraction(12, 1)
@@ -58,7 +66,7 @@ def evaluate(manifest, register, producer, review, curvature, receiver):
     return [
         ("four exact records", set(records) == {"SC-OP-03", "SC-CHI-02", "SC-MAS-01", "SC-SIG-01"}),
         ("headline transition", manifest.get("headline_before") == "ADHERED 86 / PARTIAL 24 / UNTYPED 1" and manifest.get("headline_after") == "ADHERED 90 / PARTIAL 20 / UNTYPED 1"),
-        ("register headline current", "ADHERED 90 / PARTIAL 20 / UNTYPED 1" in register),
+        ("register headline preserves completed transition", census is not None and census[0] >= 90 and census[1] <= 20 and census[2] <= 1),
         ("four rows adhered", all("adherence: ADHERED" in value and "adherence: PARTIAL" not in value for value in claim_rows.values())),
         ("curvature irrep dimensions", curvature["dimension_ladder"]["algebraic_riemann_irreps"] == {"scalar": 1, "traceless_ricci": 104, "weyl": 3080}),
         ("curvature target multiplicities", curvature["riemann_restriction_hom"]["multiplicities"] == {"scalar": 2, "traceless_ricci": 2, "weyl": 0}),
@@ -89,7 +97,7 @@ def selftest(inputs) -> int:
     mutators = (
         lambda x: x[0]["records"].pop(),
         lambda x: x[0].update(headline_after="ADHERED 89 / PARTIAL 21 / UNTYPED 1"),
-        lambda x: x.__setitem__(1, x[1].replace("ADHERED 90 / PARTIAL 20", "ADHERED 89 / PARTIAL 21", 1)),
+        lambda x: x.__setitem__(1, x[1].replace("ADHERED 106 / PARTIAL 4", "ADHERED 89 / PARTIAL 21", 1)),
         lambda x: mutate_claim_adherence(x, "SC-SIG-01", "SC-SIG-02"),
         lambda x: x[4]["riemann_restriction_hom"]["multiplicities"].update(weyl=1),
         lambda x: x[0]["records"][1].update(result="PHYSICAL_CHIRALITY_TRANSITION_PROVED"),
