@@ -80,8 +80,8 @@
     {
       "id": "M-H5",
       "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/link-normal-bundle-orientation-framing-gates-2026-08-27.md",
-      "basis": "D1-D3 now prove the fixed-spine normal bundle trivial, its sphere row untwisted and its RP3xS6 model stably parallelizable, while deriving explicit conditional global w2 and p1 obstruction formulas. The reflection/horizontal-spin compatibility and full base eta-form integral remain open."
+      "evidence": "explorations/fixed-spine-product-eta-form-vanishing-2026-08-27.md",
+      "basis": "D1-D3 already fix an untwisted stably parallelizable RP3xS6 product row. On its chosen product geometry, the constant invertible vertical S6 Dirac family has zero degree-zero eta by chirality and zero positive-degree eta form by the constant connection and vanishing horizontal curvature. The old orientation-reversing reflection shortcut is rejected as Pin-type absent lift data; the actual global normal family, horizontal superconnection and base integral remain open."
     },
     {
       "id": "M-H6",
@@ -188,8 +188,8 @@
     {
       "id": "M-M18",
       "disposition": "VERIFIED_LIVE",
-      "evidence": "lab/process/anchor-council-2026-08-03/seat2-cosmology.md",
-      "basis": "The four DE additions remain preregistered work; the cited council is read-only and supplies no completed likelihood extensions."
+      "evidence": "explorations/des-dovekie-supernova-shape-leg-2026-08-27.md",
+      "basis": "DE-12 already supplies the internal positive control, and DE-14 now executes the official 1820-supernova DES Dovekie pure-shape likelihood with the full statistical-plus-systematic precision and analytic absolute-magnitude/H0-offset marginalization. The GU comparator is worse by Delta chi2 +19.20577 than same-Omega_m flat LCDM and +21.13734 than the SN-only best flat-LCDM fit. DE-13's exact DESI-chain correlation and DE-15's owner-frozen three-parameter Planck compression remain open."
     },
     {
       "id": "M-M19",
