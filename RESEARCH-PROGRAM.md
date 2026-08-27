@@ -2,7 +2,7 @@
 title: "Research Program: the geometry of the observer universe, and what forces it from outside"
 status: canon
 doc_type: program
-updated_at: "2026-07-07"
+updated_at: "2026-08-27"
 ---
 
 # Research Program: the geometry of the observer universe, and what forces it from outside
@@ -73,6 +73,28 @@ Keeping this line sharp is the program's credibility.
   non-arbitrary: named, constrained by the surrounding geometry, compatible with known Standard Model and
   anomaly structure, and cheaper than competing explanations. "Located, not forced" is a research standard,
   not a license to hide target data.
+
+## Geometry-first dynamical unification program
+
+`GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION` is the explicit program identity for the repository's existing
+conditional-build work. Its question is whether the observerse / Clifford-Rarita-Schwinger geometry can earn a
+single dynamical account of known physics rather than merely accommodate selected structures after the fact.
+"Geometry-first" names the order of construction, not a license to omit quantum fields, measurement, causal
+domains, or empirical confrontation.
+
+The program works through one falsifiable dependency chain:
+
+1. own a real, coefficient-complete action and its field/constraint grammar;
+2. construct a stationary vacuum and derive its stabilizer and mass spectrum;
+3. prove hyperbolicity and specify the physical causal domain;
+4. build the gauge/BV/BFV quotient, observables, and a conserved positive physical state space; and
+5. recover the controlled GR, Standard Model, quantum, thermodynamic, and cosmological limits before testing
+   held-out consequences against the strongest alternatives.
+
+Current execution remains the existing `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item. This name does not
+create a second workstream, reopen its currently empty B2 action-root candidate set, or promote any scientific
+grade. The program succeeds only through scoped constructions, recovery theorems, exact obstructions, or
+finite discriminators; a coherent geometric story by itself is not a result.
 
 ## The frontier: what is outside the observer universe
 

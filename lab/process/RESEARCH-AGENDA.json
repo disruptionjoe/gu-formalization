@@ -221,7 +221,9 @@
     },
     {
       "id": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
-      "title": "Reverse-scaffold one conditional physics build from the ledger's shared missing objects",
+      "program_identity": "GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION",
+      "program_ref": "RESEARCH-PROGRAM.md#geometry-first-dynamical-unification-program",
+      "title": "Geometry-first dynamical unification: reverse-scaffold one conditional physics build from the ledger's shared missing objects",
       "track": "north_star",
       "state": "ACTIVE",
       "owner": "gu-formalization",
