@@ -1,12 +1,11 @@
 ---
 artifact_type: exploration_result
 created: 2026-08-08
-status: INDEX_NOT_CONSTANT_ACROSS_THE_FREDHOLM_ADMISSIBLE_SET__NATURAL_PAIR_BLOCKED_ON_AN_UNENUMERATED_ROOT_SET
-grade: "ANALYSIS over filed data, with an exact arithmetic check of the window
-  structure. The multiplicity argument is definitional -- an indicial root is a
-  delta where the indicial family fails to be invertible, so its kernel is
-  nonzero -- and is not a numerical multiplicity computation. No multiplicity is
-  computed here and none is filed."
+status: exploration
+claim_verdict: PREMISE_SUPERSEDED__ROOT_SET_INCOMPLETE__INDEX_NONCONSTANCY_NOT_ESTABLISHED
+grade: "CORRECTED ANALYSIS. The five listed fibre roots are exact partial data,
+  but the unenumerated horizontal spectrum and unbounded two-sided Dirac root
+  set prevent the claimed complete-window and index-jump conclusion."
 canon_verdict_change: none
 priority_change: none
 row_change: none
@@ -16,6 +15,16 @@ follows:
 ---
 
 # The window index is not constant, and the natural pair is blocked
+
+> [!IMPORTANT]
+> **CORRECTION (2026-08-27).** The title is preserved as historical provenance,
+> but its conclusion is not established. The argument inherited the incomplete
+> root census and false half-infinite Window 0 from `oc2-b-parametrix-y14`.
+> Knowing five genuine roots does not prove that the displayed intervals are
+> Fredholm-admissible when the horizontal tau-shifted spectrum is unenumerated
+> and the full Dirac-type root set is unbounded in both directions. The next
+> condition is the complete owned indicial family plus the actual projected
+> sector and corner calculus; no index nonconstancy is currently banked.
 
 ## PRE-WAVE
 

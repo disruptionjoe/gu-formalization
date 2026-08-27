@@ -9,6 +9,19 @@ verdict: "CONDITIONAL_DISCRETE_SECTOR_FREDHOLM; FULL_UNPROJECTED_b-FREDHOLM_NOT_
 
 # OC2: b-Parametrix and Indicial Roots for D_GU on Noncompact Y^14
 
+> [!IMPORTANT]
+> **FORWARD-ONLY ANALYTIC-TYPING CORRECTION (2026-08-27).** Sections 3.7--12
+> used a finite fibre-root list as if it were the complete indicial spectrum.
+> A Dirac-type tangential spectrum is unbounded in both directions, and this
+> file itself leaves the horizontal tau-shifted spectrum unenumerated; hence
+> `Window 0 = (0,+infinity)` is not proved. The noncompact fibre face also
+> requires a many-body/fibred-boundary or comparable corner calculus, not this
+> single-face b argument. Finally, the assumed tau-twisted relative discrete
+> sector is not owned by the filed Flensted--Jensen data. The conditional
+> projected-sector Fredholm theorem, recommended positive weight and
+> reconstruction-grade index `24` are therefore retired. The formal indicial
+> family and finite listed roots remain historical partial data only.
+
 ## 1. Scope
 
 This note executes the b-calculus / scattering-parametrix program for D_GU on noncompact
@@ -625,15 +638,14 @@ those inputs.
 
 ## 12. Final Verdict
 
-**Verdict:** CONDITIONAL_DISCRETE_SECTOR_FREDHOLM; FULL_UNPROJECTED_b-FREDHOLM_NOT_DEFENSIBLE;
-WEIGHT_WINDOW_IDENTIFIED_CONDITIONALLY.
+**Corrected verdict (2026-08-27):** `PROJECTED_DISCRETE_SECTOR_AND_COMPLETE_WEIGHT_WINDOWS_UNOWNED`;
+`FULL_UNPROJECTED_b-FREDHOLM_NOT_DEFENSIBLE` remains as the historical
+single-face conclusion, not a many-body/corner theorem.
 
-The b-parametrix for D_GU on noncompact Y^14 is constructible on the tau-twisted
-discrete sector for delta in the identified weight windows. The indicial roots are
-explicitly named as the fiber Dirac eigenvalues {2sqrt(2), sqrt(14), 3sqrt(2), sqrt(20)}/R_s
-with continuum threshold 9/(2R_s). The natural weight Window 0 (delta > 0) gives the
-standard L^2 Fredholm regime. The Fredholm index on the discrete sector is 24 at
-reconstruction grade, by the APS route.
+The finite fibre numbers `{2sqrt(2), sqrt(14), 3sqrt(2), sqrt(20)}/R_s` and the
+stated continuum threshold do not exhaust the tangential/horizontal indicial
+spectrum. No half-infinite positive weight window, projected Fredholm operator,
+or discrete-sector index follows from this packet.
 
 The full unprojected operator is not Fredholm by b-calculus: split-signature null cone
 and continuous spectrum are structural obstructions.
@@ -643,5 +655,6 @@ is not established by scalar FJ/BC1 (failed), not established by the tau-correct
 (failed on structural grounds), and is currently supported only by the APS route on
 compact K3 (reconstruction grade, contingent on OQ-RK1 and OQ-RK2).
 
-Fredholm is conditionally established on the discrete sector; not established on the
-full noncompact Y^14.
+Fredholmness is not established on either an owned projected discrete sector or
+the full noncompact `Y^14`. Reopen only with an owned projection, the complete
+indicial/root data and a calculus appropriate to the actual corner geometry.

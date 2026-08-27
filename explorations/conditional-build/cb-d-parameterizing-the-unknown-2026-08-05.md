@@ -453,8 +453,8 @@ already-existing, already-owned object; the name is the contract.
 | **U10** | the `Lambda^5` VEV | magnitude + direction | channel located (`252 = 126 (+) 126bar`); VEV not earned | **1 real + a direction** |
 | **U11** | the Krein **positive form** | a positive-definite invariant inner product on the fermion module | **provably not GU-suppliable** while the internal group is non-compact | **imported; FORCED actively ruled out** |
 | **U12** | `sigma_c`, the non-equivariant compensator ghost | a ghost **outside** the Spin(9,5) family | **proven necessary**; construction unbuilt | **no domain yet** |
-| **U13** | `D1^dom`, the endpoint/boundary relation | a maximal-isotropic condition or an endpoint phase | **SOURCE-SILENT** | **no domain yet** |
-| **U14** | `D2^dom`, the noncompact asymptotic domain | a decay / self-adjoint domain at the fibre ends | **SOURCE-SILENT**, no locus at all | **no domain yet** |
+| **U13** | `D1^dom`, the endpoint/boundary relation | a maximal-isotropic condition or an endpoint phase | **SECTION-LEVEL MODULI CLOSED AT FILED SYMMETRY; AMBIENT DOMAIN SOURCE-SILENT** | On the filed `(832,832)` section trace the deck-fixed choices form `disjoint_union_k Gr(k,832)`, with maximal real dimension `346112`; no canonical selector exists. This does not construct an ambient ultrahyperbolic domain. |
+| **U14** | `D2^dom`, the noncompact asymptotic domain | a decay / self-adjoint domain at the fibre ends | **SOURCE-SILENT; COMPLETE INDICIAL SET AND AMBIENT LOCUS UNBUILT** | A weight/domain remains an external choice. The formerly advertised half-infinite `delta>0` window used an incomplete root set and is retired; no owner-grade full window classification exists. |
 | **U15** | `Pi_RS^phys` | a projector **SPEC** | undefined (`BLOCKED_NEEDS_SPEC`) | **no domain** |
 | **U16** | the BRST/quotient exit (M-H17) | a five-step **construction** | blocked on the unbuilt `Y^14` connection-curvature 2-form | **no domain** |
 | **U17** | SG4 / the family-index interface | the fine equivariant `rho` + four exposed objects | `BLOCKED_NEEDS_SPEC`; `pi_!` **not defined** on the non-convex fibre | **no domain** |

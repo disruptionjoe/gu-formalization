@@ -259,9 +259,9 @@
     },
     {
       "id": "M-S1",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "lab/process/path-dependencies.md",
-      "basis": "The missing-CSCO reinterpretation is recorded as a live correction obligation; the U13/U14 and R3 row-text changes are not all proved applied."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/analytic-typing-hardening-wave-2026-08-27.md",
+      "basis": "The owner dependency surface now types C as commutant-underdetermined with a CSCO as the named missing input, while the U13/U14 owner rows separate exact section moduli from the unbuilt ambient domain and complete weight window."
     },
     {
       "id": "M-S2",
