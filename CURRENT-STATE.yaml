@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: caf07d901c375bcdaab05e0afdcd52327ce171a4
+revision_basis: 67d460810917
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The exact-derivative reissue executes M-C2 across RB6, RB7 and W177:
+    the finite-difference floor is gone, the invariant `1+9` Hessian words
+    commute structurally, and the nonstationarity/zero-commutator kill
+    survives without constructing an action-owned selector. M-M12 now has a
+    functorial Pin+ invertible-field-theory/class-map statement and executable
+    character truth table; the ambient `Z/2` and its two characters are typed,
+    while the GU bordism class and anomaly evaluation remain unconstructed.
+    The writeback manifest is now 27 EXECUTED, 15 VERIFIED LIVE, one PREMISE
+    SHIFTED, one PREMISE CORRECTED and one RETIRED. No source, ledger, canon or
+    public truth moved.
     Three registered topology/quotient gates now execute at exact typed
     ceilings without moving source, ledger, canon or public truth. Bunke's
     universal eta invariant explicitly derives Adams `e`, but its torsion-

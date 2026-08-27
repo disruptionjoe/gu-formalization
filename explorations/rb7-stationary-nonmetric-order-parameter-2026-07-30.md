@@ -108,6 +108,24 @@ STABLE SOURCE-DERIVED FLAG:        OPEN
 
 No new external datum is accepted. P1/P2/P3 remain unchanged.
 
+## Track-A exact-derivative re-verdict (2026-08-27)
+
+The M-C2 re-run passes all 16 preregistered checks using closed-form first and
+second derivatives. The stationary residual remains `3.199039136`; the
+vertical response is `1.449e-14`, now a structural zero rather than an
+`s^-3` finite-difference observation; the contracted Bianchi discrepancy is
+`1.265e-14`; and the old signal-to-floor ratio converges to `0.7401` under the
+outer `O(h^2)` control. The mixed Gram identity
+
+\[
+G_{\mathrm{mixed}}=\tfrac9{32}(I+T_{\mathrm{tr}})
+\]
+
+has residual `2.216e-15`. The finite-difference control claims are superseded,
+and the nonstationarity/zero-commutator kill survives with exact evidence. No
+physical Hessian, stable source-derived flag, or action-owned polar operator
+is thereby constructed.
+
 ## Plain English
 
 This swing found a real reason the trace reversal matters beyond signature

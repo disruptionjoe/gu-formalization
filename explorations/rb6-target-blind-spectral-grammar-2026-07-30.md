@@ -151,6 +151,24 @@ P1/P2 and P3 remain unchanged. A frozen flag remains a new continuous
 external spurion, but it is not yet required: the written source fields now
 have an explicit type-correct route by which a dynamical flag could emerge.
 
+## Exact-derivative re-verdict (2026-08-27)
+
+M-C2's exact library replaces the finite-difference qualification in this
+packet. On W177 the invariant Hessian words reduce exactly to
+
+\[
+H_{\mathrm{Ric}}=-\tfrac12 I-\tfrac34T_{\mathrm{tr}},\qquad
+H_{R^2}=\tfrac78 I+\tfrac98T_{\mathrm{tr}},\qquad
+H_{RV^2}=\tfrac34(I+T_{\mathrm{tr}}).
+\]
+
+All eight preregistered checks pass. Their pairwise commutator norms are below
+`3e-15`, and the zero commutator persists at all three nearby control points.
+The old noise-floor wording is therefore historical: the invariant words are
+structurally commuting `1+9` nonselectors. This sharpens the failure but does
+not construct an action-owned nonmetric Hessian, polar branch, stationary
+orbit, or source-derived flag.
+
 ## Plain English
 
 The previous swing showed that the old soldering field does not secretly
