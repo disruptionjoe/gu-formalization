@@ -32,6 +32,14 @@ the dependency/cost exception and its independent machinery check in source.
   `M(896,H)`, the winding-one preregistration, and the M-H16/P-L16 writeback
   boundary. `--selftest` catches five planted custody mutations.
 
+## Geometry-first theory-passport gate
+
+- `channel-swings/geometry_first_theory_passport_probe.py` validates the
+  action/causal → physical-state → observable-export critical path, early
+  boundary and local-to-global burdens, freeze wall, live null, comparator
+  set, fail-closed Dynamic Unity export and zero-promotion posture. It rejects
+  nine planted semantic mutations using only the Python standard library.
+
 ## Exceptional-point monodromy and form-spinor dictionary
 
 - `big-swing/vg_v4_exceptional_point_monodromy.py` transports the two low

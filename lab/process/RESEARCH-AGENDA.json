@@ -223,6 +223,16 @@
       "id": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
       "program_identity": "GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION",
       "program_ref": "RESEARCH-PROGRAM.md#geometry-first-dynamical-unification-program",
+      "theory_passport_ref": "lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml",
+      "critical_path": {
+        "ordered_burdens": [
+          "action_causal_closure",
+          "physical_state_space",
+          "observable_export"
+        ],
+        "skip_policy": "forbidden"
+      },
+      "export_status": "NOT_READY",
       "title": "Geometry-first dynamical unification: reverse-scaffold one conditional physics build from the ledger's shared missing objects",
       "track": "north_star",
       "state": "ACTIVE",

@@ -96,6 +96,13 @@ create a second workstream, reopen its currently empty B2 action-root candidate 
 grade. The program succeeds only through scoped constructions, recovery theorems, exact obstructions, or
 finite discriminators; a coherent geometric story by itself is not a result.
 
+The machine-checkable theory passport at
+`lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml` makes the critical path operational. It requires
+action and causal closure before physical-state construction, and physical-state construction before observable
+export; boundary and local-to-global gates enter before scoring. Its freeze wall, live ordinary-physics null,
+held-out comparators and fail-closed Dynamic Unity export are research controls only. The passport adds no
+evidence, candidate, recovery result, prediction or scientific promotion.
+
 ## The frontier: what is outside the observer universe
 
 The interior -- the balanced, reversible matter geometry -- is the **observer universe**: the shape an observer

@@ -1,0 +1,85 @@
+{
+  "schema_version": "0.1",
+  "passport_id": "GU-GEOMETRY-FIRST-V0.1",
+  "program": {
+    "id": "GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION",
+    "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+    "repository": "gu-formalization",
+    "question": "Can observerse / Clifford-Rarita-Schwinger geometry earn one dynamical account of known physics rather than accommodate selected structures?"
+  },
+  "truth_status": {
+    "grade": "research_architecture_only",
+    "claim_effect": "none",
+    "current_root_candidate_set": []
+  },
+  "critical_path": [
+    {
+      "order": 1,
+      "id": "action_causal_closure",
+      "status": "blocked",
+      "depends_on": [],
+      "gate": "A source-owned or owner-native real coefficient-complete action must exist before downstream physical burdens can open.",
+      "required_objects": [
+        "real_coefficient_complete_action", "frozen_fields_constraints", "euler_noether_system",
+        "common_principal_polynomial", "shared_cauchy_surfaces", "hyperbolicity",
+        "physical_causal_domain_boundary", "green_boundary_form"
+      ],
+      "evidence_refs": []
+    },
+    {
+      "order": 2,
+      "id": "physical_state_space",
+      "status": "blocked",
+      "depends_on": ["action_causal_closure"],
+      "gate": "The action-owned system must descend through gauge and boundary reduction to a conserved positive physical state space.",
+      "required_objects": [
+        "coupled_gauge_bv_bfv_complex", "common_closed_domain", "reduced_physical_cohomology",
+        "conserved_positive_pairing", "local_to_global_descent", "holonomy_factorization"
+      ],
+      "evidence_refs": []
+    },
+    {
+      "order": 3,
+      "id": "observable_export",
+      "status": "blocked",
+      "depends_on": ["physical_state_space"],
+      "gate": "A controlled reduction must connect physical modes to an intervention and a finite recorded observable before export or comparison.",
+      "required_objects": [
+        "normal_mode_reduction", "controlled_memory_kernel_or_process", "preparation",
+        "intervention", "detector", "record", "finite_observable", "held_out_consequence"
+      ],
+      "evidence_refs": []
+    }
+  ],
+  "freeze_wall": {
+    "timing": "before_observable_scoring",
+    "frozen_before_scoring": [
+      "action_coefficients", "vacuum_background", "stabilizer_spectrum",
+      "causal_domain_boundary", "physical_quotient_state_pairing",
+      "projection_parameters", "held_out_consequence"
+    ]
+  },
+  "null_hypothesis": {
+    "id": "H0",
+    "status": "live",
+    "statement": "GU may supply useful classical geometry while ordinary quantization and standard physics supply the remaining empirical account.",
+    "defeat_condition": "A frozen GU construction must recover controlled limits and outperform the preregistered null or rival on a held-out consequence."
+  },
+  "comparators": [
+    "general_relativity", "standard_model", "ordinary_qft_eft_quantization",
+    "thermodynamics_cosmology", "non_gu_unification", "null_or_rival_model"
+  ],
+  "export_contract": {
+    "target": "dynamic-unity",
+    "status": "not_ready",
+    "required_payload": [
+      "qualified_action_and_domain", "physical_state_space_certificate",
+      "observable_process_map", "frozen_parameters_and_held_out_test",
+      "truth_grade_and_live_null"
+    ]
+  },
+  "promotion": {
+    "scientific_promotions": [],
+    "note": "This passport records burden order and fail-closed interfaces only; it supplies no new scientific evidence or grade."
+  }
+}

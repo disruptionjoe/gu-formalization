@@ -6,6 +6,8 @@ machinery behind the Six-Axis Testability white paper (`papers/candidates/six-ax
 
 - `six-axis/` — the six-axis specification template (`six-axis-template.md`) and worked examples
   (Type II_1 spectral SM, Sorkin causal set, RG universality class). See `six-axis/README.md`.
+- `theory-passport/` — a machine-checkable action → physical-state → observable-export
+  dependency contract, with a populated geometry-first GU instance and hostile mutation gate.
 - `type-ii1-spectral-sm/` — a candidate specification: the Type II_1 / Connes spectral Standard Model
   extension, with the finite-control checklist and extension requirements. See its `README.md`.
 - `old-vs-eric-object-dictionary-2026-07-31.md` — branch-local Layer-0 dictionary for the existing
