@@ -7,7 +7,7 @@
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "64c2a403fbe39550d39cdaca4c20501dde61658085082a1d299c3f1e46a96f29"
+      "sha256": "b27ceecece9001046580df736c0b5e854ae7965e1e2ece31dd9a0d8863917d82"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -45,6 +45,18 @@
         "SC-PRE-54"
       ],
       "scientific_mechanism_constructed": false
+    },
+    "source_structure_adherence": {
+      "path": "lab/process/source-structure-adherence-wave.json",
+      "sha256": "3a7471005b8ba195b81f9414810d4cc23f5804b89963e9f9582f6596589df6a5",
+      "headline": "ADHERED 106 / PARTIAL 4 / UNTYPED 1",
+      "closed_rows": [
+        "SC-GRP-50",
+        "SC-GEN-54",
+        "SC-GEO-50",
+        "SC-GEO-53"
+      ],
+      "global_or_physical_map_constructed": false
     },
     "b5_gram_adjoint_result": {
       "path": "explorations/b5-full20-gram-adjoint-universality-2026-08-20.md",
