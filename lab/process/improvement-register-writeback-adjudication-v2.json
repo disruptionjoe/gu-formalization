@@ -223,9 +223,9 @@
     },
     {
       "id": "M-M27",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "lab/process/anchor-council-2026-08-03/seat1-quantum-foundations.md",
-      "basis": "The read-only council mention supplies no all-L(p;q) Kirby-Melvin table."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/kirby-melvin-lens-framing-three-primary-control-2026-08-26.md",
+      "basis": "The exact all-lens signature-defect formula is reproduced and separated from the chosen stable-framing class. Honest framing shifts visit every Z/3 residue on the same spin lens space, so three-primary support is framing-relative rather than p=2-specific; the filed RP3 chosen-framing result remains unchanged."
     },
     {
       "id": "M-L7",
@@ -271,9 +271,9 @@
     },
     {
       "id": "M-S4",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "lab/process/path-dependencies.md",
-      "basis": "Arena enlargement remains an unscheduled but scientifically live escape; fixed-arena no-gos do not dispose it."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/bateman-turok-enlarged-arena-commutant-2026-08-26.md",
+      "basis": "The exact doubled-representation theorem gives End_A(V+V)=M2(End_A(V)) and a copy-swap involution even when the fixed commutant is scalar. A copy discriminator removes the swap and the native indefinite pairing stays indefinite, so automatic nontransfer is proved while a GU action, S-matrix and physical positivity remain unbuilt."
     },
     {
       "id": "M-S5",

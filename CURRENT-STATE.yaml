@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 325f1156a2bbc86b92a28a4591f3a0ddb5d7ed3e
+revision_basis: 581dc4d622aeddbb8a232fe76d9f1ebef681b885
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Two independent exact controls now execute M-M27 and M-S4 at their honest
+    ceilings without moving source, ledger, canon or public truth. The
+    Kirby--Melvin/Rademacher packet reproduces the all-`L(p;q)` signature
+    defect `4p s(q,p)` but proves that it is a different typed object from a
+    chosen framing's stable class: honest framing shifts move by `2 mod 24`
+    and reach every `Z/3` residue on the same spin lens space. The filed
+    `RP3` chosen framing retains `e_R=1/12` and class `2 mod 24`; its nonzero
+    3-primary part is framing-relative rather than a property special to
+    `p=2`. Independently, equivalent representation doubling proves
+    `End_A(V+V)=M2(End_A(V))` and introduces a copy-swap involution even when
+    the fixed commutant is scalar. A copy-discriminating owner removes it, and
+    the swap does not make the internal Krein form positive. Thus fixed-arena
+    obstruction language does not transfer automatically, while a GU action,
+    S-matrix, quotient and positive state space remain unbuilt. The writeback
+    manifest is now 22 EXECUTED, 20 VERIFIED LIVE, one PREMISE SHIFTED, one
+    PREMISE CORRECTED and one RETIRED.
     Two independent exact/review packets now execute M-H14 and M-M30 without
     moving source, ledger, canon or public truth. For signed quotient-level
     fourteen-dimensional multiplicities, the irreducible gravitational
