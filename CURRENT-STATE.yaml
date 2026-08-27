@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 84e35959b68f1f5ad209848a57ba8415b751e5d5
+revision_basis: b11dfd38bc420feac3ba85918240b96ecfcdddf0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,10 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    Complete improvement-register writeback adjudication removes the inherited
-    45-row ambiguity between landed fixes and merely fix-shaped references.
-    The frozen manifest classifies 15 rows EXECUTED, 27 VERIFIED LIVE, one
-    PREMISE SHIFTED, one PREMISE CORRECTED and one RETIRED. Its custody gate
+    Two exact result-hardening packets now execute M-H11, M-M7 and M-M24
+    without moving source, ledger, canon or public truth. On the incumbent
+    RB7 negative triplet, the generalized pencil inertia is `(2,1,0)` rather
+    than the old plain-eigenvalue reading; it remains indefinite. The exact
+    mixed Gram has the full-trace line as kernel, and a nonzero commuting
+    trace-field witness makes the proposed stabilizer noncoercive on the
+    frozen homogeneous slice. Independently, finite boundary kappa has no
+    firewall polarity by itself, and a fixed-kappa-one J-self-adjoint
+    Chebyshev family has `2n` simple defective parameter values for arbitrary
+    `n`, disproving a kappa-only exceptional-point count bound. The writeback
+    manifest is now 18 EXECUTED, 24 VERIFIED LIVE, one PREMISE SHIFTED, one
+    PREMISE CORRECTED and one RETIRED.
+    The original complete improvement-register writeback adjudication removed
+    the inherited 45-row ambiguity between landed fixes and merely fix-shaped
+    references. At that pass it classified 15 rows EXECUTED, 27 VERIFIED LIVE,
+    one PREMISE SHIFTED, one PREMISE CORRECTED and one RETIRED. Its custody gate
     passes the live population and catches 4/4 planted missing-record,
     disposition, evidence and row-marker regressions; the original register
     audit now falls from 45 candidates to zero. This is truth-map custody only:
@@ -3945,14 +3957,21 @@ next_condition: >-
   evidence-specifically executed; do not repeat their frozen-paper mutation
   contract or self-dual/ambient-metric discriminators. P-M6 is now evidence-
   specifically executed; do not repeat its derived-numeric assertion custody.
-  Eight unexecuted improvement-register proposals remain and require
-  fresh frontier selection, not inherited priority.
+  M-H11, M-M7 and M-M24 are now evidence-specifically executed; do not repeat
+  the incumbent RB7 inertia/Gram candidate or infer firewall polarity or an
+  exceptional-point count from kappa alone. Any RB7 reopening requires an
+  owned term that removes the exact commuting trace witness. Any boundary
+  reopening requires the actual boundary operator/Weyl family, with an
+  independent family-complexity datum for a quantitative EP bound. Remaining
+  verified-live improvement-register proposals require fresh frontier
+  selection, not inherited priority.
   P-C6, P-C7, P-H21 and P-H25 are now evidence-specifically executed; do not
   repeat their Lean-scope, W211-correction, ghost-parity sentence or capstone
   wording repairs. P-H22 and P-M8 are now evidence-specifically executed; do
   not repeat the multiplicity/index claim-ceiling repair or grade/status
-  crosswalk. P-M10 remains live at its expanded 2,830-document population and
-  must freeze a schema before any normalization or lint gate.
+  crosswalk. P-M10 is evidence-specifically executed at its expanded 2,830-
+  document population; do not repeat its schema freeze or normalization/lint
+  gate without a new population or schema delta.
   Historical conditions below are
   custody evidence, not current work instructions.
 prior_conditions: >-

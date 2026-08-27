@@ -109,9 +109,9 @@
     },
     {
       "id": "M-H11",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md",
-      "basis": "The invariant-inertia and commuting-cone coercivity classification remains an open scientific computation."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/rb7-invariant-inertia-and-commuting-cone-coercivity-2026-08-26.md",
+      "basis": "The exact finite homogeneous certificate reports generalized pencil inertia (2,1,0), preserves the saddle, and exhibits a nonzero commuting full-trace witness in the exact candidate Gram kernel, so the proposed stabilizer fails the necessary coercivity condition."
     },
     {
       "id": "M-H12",
@@ -145,9 +145,9 @@
     },
     {
       "id": "M-M7",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "lab/process/anchor-council-2026-08-03/adjudication.md",
-      "basis": "The council narrows the firewall-number reading but does not construct the boundary-triple Weyl function or classify its generalized Nevanlinna index."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/boundary-kappa-sign-and-exceptional-point-counterexample-2026-08-26.md",
+      "basis": "The exact implication adjudication shows that finite kappa alone has no firewall polarity; a direction still requires the unconstructed boundary operator and Weyl function."
     },
     {
       "id": "M-M9",
@@ -217,9 +217,9 @@
     },
     {
       "id": "M-M24",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "lab/process/anchor-council-2026-08-03/seat4-envelope.md",
-      "basis": "The council discusses the exceptional-point route without deriving a finite boundary kappa or a quantitative bound."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/boundary-kappa-sign-and-exceptional-point-counterexample-2026-08-26.md",
+      "basis": "An exact J-self-adjoint Chebyshev family has fixed Pontryagin index one and 2n simple defective parameter values for arbitrary n, disproving any exceptional-point count bound that depends only on kappa."
     },
     {
       "id": "M-M27",

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-26",
+  "register_items": ["M-M7", "M-M24"],
+  "grade": "exact finite-dimensional Pontryagin-space counterexample",
+  "claim_ceiling": "This certificate decides the kappa-only implication. It does not construct GU's boundary triple, Weyl function, generalized Nevanlinna class, boundary condition, or physical exceptional point.",
+  "metric": "J = diag(1,-1)",
+  "pontryagin_negative_index": 1,
+  "family": "A_n(t) = [[2 T_n(t), 1],[-1,-2 T_n(t)]] for t in (-1,1)",
+  "identities": [
+    "A_n(t)^T J = J A_n(t)",
+    "A_n(t)^2 = (4 T_n(t)^2 - 1) I",
+    "4 T_n(t)^2 - 1 has exactly 2n distinct simple roots in (-1,1)",
+    "at every root A_n is a nonzero rank-one nilpotent and hence defective"
+  ],
+  "dispositions": {
+    "M-M7": "finite kappa alone has no firewall polarity; the boundary operator remains unconstructed",
+    "M-M24": "retire the proposed kappa-only exceptional-point count bound; fixed kappa=1 admits 2n exceptional parameters for arbitrary n"
+  },
+  "probe": "tests/channel-swings/boundary_kappa_sign_and_exceptional_point_counterexample_probe.py"
+}

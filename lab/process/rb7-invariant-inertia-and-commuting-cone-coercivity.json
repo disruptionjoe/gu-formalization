@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-26",
+  "register_item": "M-H11",
+  "grade": "exact finite homogeneous algebra",
+  "claim_ceiling": "The certificate binds only the incumbent three-amplitude homogeneous truncation and the frozen exact mixed Gram. It is not the full GU action, a vacuum, a physical fluctuation operator, a mass calculation, or a source-native selector.",
+  "generalized_inertia": {
+    "hessian": "m^2 [[0,1,1],[1,0,1],[1,1,0]]",
+    "restricted_dewitt_metric": "-I_3",
+    "euclidean_hessian_inertia": [1, 2, 0],
+    "generalized_pencil_inertia": [2, 1, 0],
+    "generalized_eigenvalues": ["-2 m^2", "m^2", "m^2"],
+    "verdict": "indefinite; the incumbent nonzero isotropic triplet remains a saddle"
+  },
+  "candidate_gram": {
+    "operator": "(9/32)(I + T_tr) = (9/16) P_traceless",
+    "rank": 9,
+    "kernel": "the one-dimensional full-trace line",
+    "commuting_kernel_witness": "one nonzero homogeneous field component on the full-trace line; all other field components zero",
+    "coercivity_verdict": "fails the necessary kernel-intersection condition on the frozen D0=C=0 homogeneous slice"
+  },
+  "disposition": "M-H11_EXECUTED_AT_FINITE_HOMOGENEOUS_CLAIM_CEILING",
+  "probe": "tests/channel-swings/rb7_invariant_inertia_and_commuting_cone_coercivity_probe.py"
+}
