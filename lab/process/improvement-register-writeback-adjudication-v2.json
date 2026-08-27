@@ -121,9 +121,9 @@
     },
     {
       "id": "M-H13",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md",
-      "basis": "The record-accretion connection is preregistered, but the time-dependent background solve and shape refit are not supplied."
+      "disposition": "PREMISE_CORRECTED",
+      "evidence": "explorations/record-accretion-de-refit-typing-ceiling-2026-08-27.md",
+      "basis": "W187's r is a self-energy ratio absent from H(z), its square-root growth is modelled, and the actual record-sourced mean decreases with accretion. A background refit is a homonym until the record-to-FLRW bridge, backreacted N(z), and coupling target are owned."
     },
     {
       "id": "M-H14",
@@ -205,9 +205,9 @@
     },
     {
       "id": "M-M22",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
-      "basis": "Representation content is typed, but no standard two-loop RGE return with M_PS, M_U, and decay/oscillation scales is present."
+      "disposition": "PREMISE_CORRECTED",
+      "evidence": "explorations/pati-salam-rge-input-identifiability-2026-08-27.md",
+      "basis": "The standard 3/8 boundary normalization is bought group-theory input, not a scale result. M_PS and M_U are unidentifiable before a complete spectrum, beta matrices, Yukawa/scalar inputs, scheme and threshold-matching packet is owned; the exact ceiling is RGE_UNCOMPUTABLE_PREBETA."
     },
     {
       "id": "M-M23",
