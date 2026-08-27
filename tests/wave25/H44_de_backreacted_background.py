@@ -118,7 +118,7 @@ def _rk4_kg(Ngrid, H2, H2_mid, HpoH, HpoH_mid, M2, B0, BN0):
     return B, BN
 
 
-def solve_backreacted(M2, f0, z_start=Z_START, npts=1400, n_iter=60, tol=1e-12):
+def solve_backreacted(M2, f0, z_start=Z_START, npts=1400, n_iter=60, rtol=1e-12):
     """Self-consistent theta-backreacted background.
 
     Returns dict with N grid, a, z, B, Bdot, rho_theta, w_theta, H2, rho_L, and the
@@ -145,6 +145,7 @@ def solve_backreacted(M2, f0, z_start=Z_START, npts=1400, n_iter=60, tol=1e-12):
     rho_theta = np.zeros_like(Ngrid)
     p_theta = np.zeros_like(Ngrid)
     dmax = np.inf
+    drel = np.inf
     B = np.ones_like(Ngrid)
     BN = np.zeros_like(Ngrid)
 
@@ -165,16 +166,20 @@ def solve_backreacted(M2, f0, z_start=Z_START, npts=1400, n_iter=60, tol=1e-12):
         p_theta_new = A * (KE - PE)
         H2_new = rho_m + rho_L + rho_theta_new
 
-        dmax = float(np.max(np.abs(H2_new - H2)))
+        delta = np.abs(H2_new - H2)
+        scale = np.maximum(np.maximum(np.abs(H2_new), np.abs(H2)), 1.0)
+        dmax = float(np.max(delta))
+        drel = float(np.max(delta / scale))
         rho_theta, p_theta, H2 = rho_theta_new, p_theta_new, H2_new
-        if dmax < tol:
+        if drel < rtol:
             break
 
     Bdot = np.sqrt(H2) * BN
     w_theta = (0.5 * Bdot ** 2 - 0.5 * M2 * B ** 2) / (0.5 * Bdot ** 2 + 0.5 * M2 * B ** 2)
     return dict(N=Ngrid, a=a_g, z=1.0 / a_g - 1.0, B=B, Bdot=Bdot,
                 rho_theta=rho_theta, w_theta=w_theta, H2=H2, rho_L=rho_L, A=A,
-                converged_delta=dmax)
+                converged_delta=drel, converged_relative_delta=drel,
+                converged_absolute_delta=dmax)
 
 
 def wDE_backreacted(bg):
@@ -318,7 +323,8 @@ def main():
     log(f"     max|H2_backreacted - H2_LCDM| over z in [0,30] = {H2_err:.2e}")
     log(f"     rho_L(f0->0) = {bg0['rho_L']:.8f}  (LCDM OL = {OL}); |diff| = {rhoL_err:.2e}")
     log(f"     rho_theta(0) at f0=1e-6 = {bg0['rho_theta'][-1]:.3e} (-> 0)  "
-        f"[fixed-point converged delta = {bg0['converged_delta']:.1e}]")
+        f"[fixed-point relative residual = {bg0['converged_relative_delta']:.1e}; "
+        f"absolute update = {bg0['converged_absolute_delta']:.1e}]")
     check("f0->0 backreacted background reduces to LCDM to < 1e-4 (no ODE-integration bug)",
           H2_err < 1e-4 and rhoL_err < 1e-4, f"maxdH2={H2_err:.2e}")
 

@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "scope": "Four disjoint unprotected hardening arcs selected after the source, ledger and B2 frontiers remained blocked or empty",
+  "claim_ceiling": "Numerical and scope custody only. No source claim, ledger row, action owner, scientific verdict, canon, protected paper, release state or public posture moves.",
+  "records": [
+    {
+      "id": "P-M25",
+      "disposition": "PROTECTED_APPLY_REMAINS",
+      "result": "PATI_SALAM_SCOPE_FENCE_SPECIFIED_BUT_NOT_APPLIED",
+      "evidence": "lab/active-research/pati-salam-chain-verification.md",
+      "decisive_facts": [
+        "the source algebra is split Cl(7,7) / Spin(7,7)",
+        "the ambient-signature fork between the repository (9,5) reconstruction and source (7,7) presentation remains open",
+        "the complex Spin(10) / Pati-Salam branching is a conventional real-form-insensitive comparator"
+      ],
+      "preserved_result": "The protected verifier remains byte-unchanged; its group-theory verdict is not moved",
+      "reopen_condition": "A separately reviewed protected-surface pass; revisit the content only on changed source real-form or ambient-signature evidence, or an explicit typed real equivariant bridge"
+    },
+    {
+      "id": "P-L12",
+      "disposition": "EXECUTED",
+      "result": "H44_FIXED_POINT_STOP_IS_SCALE_AWARE",
+      "evidence": "tests/wave25/H44_de_backreacted_background.py",
+      "decisive_facts": [
+        "the convergence certificate is a dimensionless relative residual with a unit floor",
+        "the absolute update remains separately reported",
+        "the reproduced relative residual is 1.8e-16 and absolute update is 1.8e-15"
+      ],
+      "preserved_result": "All H44 scientific checks and verdicts remain unchanged",
+      "reopen_condition": "A changed solver scale, fixed-point quantity or convergence contract"
+    },
+    {
+      "id": "P-L13",
+      "disposition": "EXECUTED",
+      "result": "W129_DCHI2_CROSSING_IS_DIRECTLY_ROOT_SOLVED",
+      "evidence": "tests/W129_oq2_m2_band_sweep.py",
+      "decisive_facts": [
+        "the first increasing Delta chi2=9 straddle is refined with brentq through the calibrated likelihood",
+        "f0_9 is 0.0302, 0.0418 and 0.2213 for M2=8, 7 and 3",
+        "HOLDS-BAND-WIDE and the minimum CPL-matched Delta chi2=+33.46 are unchanged"
+      ],
+      "preserved_result": "The W129 band verdict and adverse CPL-matched conclusion remain unchanged",
+      "reopen_condition": "A changed likelihood, calibration, model or scan bracket"
+    },
+    {
+      "id": "M-M32",
+      "disposition": "EXECUTED",
+      "result": "M_M20_BOUNDARY_CONSEQUENCE_IS_EXPLICITLY_CONDITIONAL",
+      "evidence": "lab/process/improvement-register-2026-08-03.md",
+      "decisive_facts": [
+        "count boundary = firewall adapter is unproved",
+        "firewall adapter = BVP boundary is unproved",
+        "no boundary action or surplus consequence follows without owned maps"
+      ],
+      "preserved_result": "M-M20 remains a conditional research route rather than an established boundary consequence",
+      "reopen_condition": "D3 boundary operator/domain, D4 source/action ownership and an exhibited map for each identification"
+    }
+  ]
+}

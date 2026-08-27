@@ -33,7 +33,8 @@ WHAT IS COMPUTED PER BAND POINT (M^2, ansatz):
   3. dAIC vs LCDM at LCDM's own theta_star calibration (= the Planck point), k = (0,0)
      both sides: dAIC = chi^2_GU - chi^2_LCDM.
   4. The f0 bound: per-f0 CMB calibration scan; the dchi^2 = 9 crossing f0_9
-     (3-sigma-equivalent, 1 dof) and the best-case dchi^2 over the f0 scan.
+     (3-sigma-equivalent, 1 dof) refined by a direct bracketed Brent solve, and
+     the best-case dchi^2 over the f0 scan.
   5. The maximum CPL signal the allowed region can carry: (w0, wa) of the backreacted
      w_DE(z) at f0 = f0_9 (if the bound only allows w0 ~ -1, the allowed region is an
      LCDM mimic with no DESI CPL signal).
@@ -209,7 +210,7 @@ DESI_W0 = -0.752      # DESI DR2 CPL central w0 (arXiv:2503.14738 Eq. 28; H3-ver
 
 def f0_scan(M2, f0s, h_lcdm_cal, chi2_l, z_start=30.0):
     """Per-f0 CMB calibration scan at one M^2: dchi^2(f0) vs LCDM, the dchi^2 = 9
-    crossing (log-interpolated on the first increasing straddle), the scan minimum,
+    crossing (Brent-solved on the first increasing straddle), the scan minimum,
     and the CPL-matched amplitude f0_CPL where the calibrated w0(f0) reaches the DESI
     signal level w0 = -0.752 (log-interpolated on the w0(f0) scan; None if w0 never
     reaches it for f0 <= max scanned -- a pure LCDM mimic)."""
@@ -222,7 +223,18 @@ def f0_scan(M2, f0s, h_lcdm_cal, chi2_l, z_start=30.0):
     f0_9 = None
     for (fa, da, _), (fb, db, _) in zip(good, good[1:]):
         if da < 9.0 <= db:
-            f0_9 = float(np.exp(np.interp(9.0, [da, db], np.log([fa, fb]))))
+            def dchi2_minus_nine(f0):
+                p = calibrated_point(
+                    f0, M2, z_start=z_start, h_lcdm_cal=h_lcdm_cal,
+                    npts_cal=900, n_iter_cal=40, npts_bg=900, n_iter_bg=40,
+                )
+                if p is None:
+                    raise RuntimeError("CMB calibration failed inside f0_9 bracket")
+                return p["chi2"] - chi2_l - 9.0
+
+            f0_9 = float(brentq(
+                dchi2_minus_nine, fa, fb, xtol=1e-10, rtol=1e-10, maxiter=64,
+            ))
             break
     dmin = min(good, key=lambda r: r[1]) if good else (None, None, None)
     f0_cpl = None
