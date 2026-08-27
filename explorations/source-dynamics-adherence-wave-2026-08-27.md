@@ -1,6 +1,7 @@
 ---
 artifact_type: exploration
-status: complete
+status: exploration
+operational_state: complete
 doc_type: source_claim_adjudication
 created: 2026-08-27
 work_item: SOURCE-DYNAMICS-ADHERENCE-WAVE

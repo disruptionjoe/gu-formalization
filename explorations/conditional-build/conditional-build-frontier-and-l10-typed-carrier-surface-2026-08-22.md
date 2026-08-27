@@ -61,24 +61,27 @@ That made a CapacityOS-root invocation traverse unrelated repositories and
 eventually crash on non-text content, while a GU-root invocation produced the
 intended bounded verdict. The scan now roots at the gate's own repository and
 continues to emit repository-relative paths. Both invocation locations produce
-the same result: the three new LT-GR8 reds are gone, while the three older
-author-owned artifacts without declarations remain visible. Those older
-missing blocks are not retrofitted here; guessing their types would repeat the
-classification failure the gate exists to prevent.
+the same result. At the 2026-08-22 checkpoint the three new LT-GR8 reds were
+gone while three older author-owned artifacts without declarations remained
+visible. Their authors later supplied the missing declarations. Current-
+currency custody therefore requires the live gate to remain green at zero
+red rather than preserving that historical three-red population.
 
-The pending LT-GR8 conditional evidence delta is dispositioned `deferred` with
-no priority effect and its cursor advances. Its metric-only result is already
-present in branch-relative state; the canonical ledger verdict is unchanged,
-so minting a new ledger version solely to restate `NEEDS` would create churn
-without changing a scientific decision.
+The LT-GR8 conditional evidence delta remains indexed exactly once and
+dispositioned `deferred` with no priority effect. The global integration cursor
+may advance to later valid deltas; it is not an immutable LT-GR8 field. The
+metric-only result is already present in branch-relative state and the
+canonical ledger verdict is unchanged, so minting a new ledger version solely
+to restate `NEEDS` would create churn without changing a scientific decision.
 
 ## Hostile review and ceiling
 
-The strongest overclaim is that a green changed-scope result makes the whole
-typed-carrier surface green. It does not: three older missing author
-declarations remain red and visible. The strongest contrary route is to infer
-one composite LT-GR8 map type from its prose; the repair refuses and uses
-`UNTYPED`. The weakest reproducibility seam is caller working-directory drift;
+The strongest overclaim is that a green typed-carrier surface proves the
+scientific objects are fully typed. It does not: declared `UNTYPED` slots stay
+visible and the trigger ceiling remains explicit. The strongest contrary
+route is to infer one composite LT-GR8 map type from its prose; the repair
+refuses and uses `UNTYPED`. The weakest reproducibility seam is caller working-
+directory drift;
 the propagation probe invokes the same gate from both GU and CapacityOS roots
 and requires byte-identical output.
 

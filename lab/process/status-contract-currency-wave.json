@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "work_item": "STATUS-CONTRACT-CURRENCY-WAVE",
+  "scope": "machine-checkable document-role and operational-state currency plus current live L10 typed-carrier propagation",
+  "typed_paths": {
+    "exploration": [
+      "explorations/source-dynamics-adherence-wave-2026-08-27.md",
+      "explorations/source-residual-terminalization-wave-2026-08-27.md",
+      "explorations/source-structure-adherence-wave-2026-08-27.md",
+      "explorations/source-uncertainty-custody-wave-2026-08-27.md"
+    ],
+    "process": [
+      "lab/process/hostile-reviews/2026-08-27-probe-fail-closed-restoration-wave-review.md",
+      "lab/process/hostile-reviews/2026-08-27-source-dynamics-adherence-wave-review.md",
+      "lab/process/hostile-reviews/2026-08-27-source-residual-terminalization-wave-review.md",
+      "lab/process/hostile-reviews/2026-08-27-source-structure-adherence-wave-review.md",
+      "lab/process/hostile-reviews/2026-08-27-source-uncertainty-custody-wave-review.md"
+    ]
+  },
+  "operational_state_preservation": {
+    "complete": 8,
+    "review_complete": 1
+  },
+  "l10_currency": {
+    "historical_checkpoint": "three author-owned declaration reds remained on 2026-08-22",
+    "current_requirement": "typed_carrier_declaration_audit returns zero red from both GU and aggregate invocation roots",
+    "cursor_requirement": "the LT-GR8 delta remains indexed once with deferred disposition while the global integration cursor may advance to later valid deltas",
+    "scientific_ceiling": "unchanged; LT-GR8 remains NEEDS / MISSING_CONSTRUCTION"
+  },
+  "protected_exclusion": {
+    "path": "lab/active-research/joe-directed/theory-wide-gravity/twg1-the-theory-wide-test-is-action-complete-black-hole-existence-2026-08-26.md",
+    "git_blob": "2eac31630ce067348533ec1a6b29d46c33bf170a",
+    "sha256": "3944ec986c3473cfe716218ce9ce0d88a73c5353ffb30f2095754e9f2052d765",
+    "reason": "Joe-directed protected surface requiring separately reviewed authority"
+  },
+  "effect": {
+    "frontmatter_contract": "nine new legacy document-role values moved to declared axes and population ratchet refreshed",
+    "typed_carrier_contract": "historical propagation probe made current against live zero-red state",
+    "scientific_verdict_change": "none",
+    "source_status_change": "none",
+    "ledger_change": "none",
+    "canon_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/status_contract_currency_wave_probe.py"
+}

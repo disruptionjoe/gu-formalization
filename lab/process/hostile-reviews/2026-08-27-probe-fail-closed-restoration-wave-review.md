@@ -1,6 +1,7 @@
 ---
 title: "Hostile review: probe fail-closed restoration wave"
-status: complete
+status: process
+operational_state: complete
 doc_type: hostile_review
 created: "2026-08-27"
 target_claim: internal fail-closed probe custody

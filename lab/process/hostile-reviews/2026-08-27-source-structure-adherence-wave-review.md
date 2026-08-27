@@ -1,6 +1,6 @@
 ---
 artifact_type: hostile_review
-status: review_complete
+status: process
 operational_state: complete
 created: 2026-08-27
 target: explorations/source-structure-adherence-wave-2026-08-27.md

@@ -26,7 +26,7 @@
   "effect": {
     "scientific_verdict_change": "none",
     "certificate_effect": "repository-rooted scan plus reconciled LT-GR8 declarations",
-    "inherited_visible_debt": "three author-owned result artifacts still lack declarations",
+    "inherited_visible_debt": "none at the current live gate; the three author-owned 2026-08-22 reds were later supplied by their authors and the propagation probe now requires the live zero-red state",
     "delta_disposition": "GU-LTGR8-BOUNDARY-CARRIER-TYPING-2026-08-22 deferred with no priority effect"
   },
   "probe": "tests/channel-swings/conditional_build_frontier_l10_typed_carrier_surface_probe.py"

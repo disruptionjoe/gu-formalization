@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_GATE_RESTORED",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_GATE_RESTORED__STATUS_CONTRACT_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "7c01a9c17954be0b62da0f6d7634ee1ecf98555ca41312dccf16c077f18d3c9e"
+      "sha256": "933f188e760c64e3ed6e780f85bd5121a9a3f0d5e5051e627225392bcf721c64"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -78,6 +78,14 @@
       "after": "PASS 89 findings at baseline 89 across 1007 probes",
       "scientific_effect": "none"
     },
+    "status_contract_currency": {
+      "path": "lab/process/status-contract-currency-wave.json",
+      "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
+      "frontmatter_failures_after": 0,
+      "typed_carrier_red_after": 0,
+      "protected_twg1_edited": false,
+      "scientific_effect": "none"
+    },
     "b5_gram_adjoint_result": {
       "path": "explorations/b5-full20-gram-adjoint-universality-2026-08-20.md",
       "sha256": "29c0951bd13eac9d43c31773dc7e4d77852d48b51293686c64cd39d0993f92f9"
@@ -104,7 +112,8 @@
       "synthetic CBRS-1AC",
       "W154/W229 qualification",
       "HE-1",
-      "invariant-gapping campaign"
+      "invariant-gapping campaign",
+      "status-contract currency wave without a new semantic defect or fresh measured baseline decrease"
     ],
     "selection_order": [
       "fired source-to-proof reopener",

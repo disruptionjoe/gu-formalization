@@ -55,15 +55,17 @@ def main():
 
     root_run = run_gate(ROOT)
     aggregate_run = run_gate(CAPACITYOS)
-    check("repository invocation bounded red", root_run.returncode == 1)
-    check("aggregate invocation bounded red", aggregate_run.returncode == 1)
+    check("repository invocation is current green", root_run.returncode == 0)
+    check("aggregate invocation is current green", aggregate_run.returncode == 0)
     check("caller cwd cannot change report", root_run.stdout == aggregate_run.stdout)
     check("no crash in either invocation", not root_run.stderr and not aggregate_run.stderr)
-    check("three inherited reds remain", "typed_carrier_declaration_audit: 3 red" in root_run.stdout)
+    check("current inherited red population is zero", "typed_carrier_declaration_audit: 0 red" in root_run.stdout)
     check("LT-GR8 path no longer red", str(ARTIFACT.relative_to(ROOT)) not in root_run.stdout)
 
-    check("cursor advanced", index["integration_cursor"] == delta["delta_id"])
-    check("index disposition deferred", index["deltas"][-1]["status"] == "deferred")
+    indexed = [item for item in index["deltas"] if item["delta_id"] == delta["delta_id"]]
+    check("LT-GR8 delta indexed exactly once", len(indexed) == 1)
+    check("index disposition deferred", indexed[0]["status"] == "deferred")
+    check("integration cursor is current", index["integration_cursor"] == index["deltas"][-1]["delta_id"])
     check("delta disposition deferred", delta["integration"]["disposition"] == "deferred")
     check("priority unchanged", delta["integration"]["priority_effect"] == "none")
     check("verdict ceiling preserved", "NEEDS / MISSING_CONSTRUCTION" in delta["integration"]["reason"])

@@ -1,6 +1,6 @@
 ---
 artifact_type: hostile_review
-status: review_complete
+status: process
 operational_state: review_complete
 created: 2026-08-27
 target_claim: "SC-ACT-06; SC-CHI-52; SC-CHI-53; SC-PRE-54"

@@ -5115,3 +5115,16 @@ carrier. It passes `29/29` with Python 3.
 ```sh
 python3 tests/channel-swings/selected_k100_rsap_balanced_order_parameter_owner_census_probe.py
 ```
+
+## Status-contract currency wave
+
+`channel-swings/status_contract_currency_wave_probe.py` verifies the exact
+nine document-role/operational-state repairs, pins protected TWG1 byte and Git-
+blob identity, requires the frontmatter contract and typed-carrier gate to be
+green, and replays the L10 propagation probe against the current live zero-red
+state. It plants role and missing-axis mutations and changes no scientific
+claim.
+
+```sh
+python3 tests/channel-swings/status_contract_currency_wave_probe.py
+```
