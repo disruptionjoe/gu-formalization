@@ -25,8 +25,9 @@ register:
     sentence polarity verbatim; frame regression under compression is the measured failure mode.'
   - 'Baseline at filing: 5 of the last 40 conditional-build artifacts carried kill-language; 0 named a
     target claim.'
-  adjudication_headline: 'ADHERED 86 / PARTIAL 24 / UNTYPED 1 / IGNORED 0 / CONTRADICTED 0; core: hard-core
-    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-25 source-meta adherence wave; no source claim proven)'
+  adjudication_headline: 'ADHERED 90 / PARTIAL 20 / UNTYPED 1 / IGNORED 0 / CONTRADICTED 0; core: hard-core
+    49 / auxiliary 51 / disavowed-by-source 11 (2026-08-27 source-claim residual wave; four scoped source-to-proof
+    closures, no complete GU mechanism proven)'
 claims:
 - id: SC-GEO-01
   polarity: ASSERTS
@@ -217,14 +218,17 @@ claims:
     X^{1,3}/X^{3,1} the only provably anthropic ones.'
   core: auxiliary
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
     - GEOMETER-VS-PHYSICS-OBJECTS.md:27
     - lab/process/layer0-fork-registry.yaml:95-104
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: Fibre (4,6)=repo (6,4) mirror-verified and settled; but p.19 fn 2 (trace-sign 'non-forced')
-      and the anthropic base clause are typed nowhere - fn 2 belongs in the DECLARATION-floor inventory.
+    - CURRENT-STATE.yaml
+    pinned_at: 8b2122be3540
+    date: 2026-08-27
+    note: The source formula gives (4,6) at n=4,i=1; the repository's (6,4) is the ordered-sign mirror,
+      and adding the anthropic (1,3) base gives the source-side (7,7) total convention. The source's
+      non-forced trace-sign declaration and anthropic base scope are now explicit. This does not select
+      the open (9,5)/(7,7) ambient horn or transfer a reality convention.
 - id: SC-SIG-02
   polarity: DISAVOWS
   claim: The draft disavows the (3,7) fiber option as incompatible with the observed Standard Model.
@@ -583,15 +587,19 @@ claims:
     restated after (12.6), p.57. Normalized in-repo transcription: hourly cycle3 ig-shiab :111-112,120.'
   core: auxiliary
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
-    - lab/process/CURRENT-RESEARCH-CONTEXT.md:996-999
-    - lab/process/improvement-register-2026-08-03.md:1878-1880
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: Displayed candidate is the campaign's selected Shiab and rivals stay open, but its claimed Weyl-annihilation/Ricci-preservation
-      property is verified nowhere; the adjacent pure-trace family provably erases traceless Ricci - a
-      bounded K77 check would close this.
+    - lab/process/resolver-wave-k77b2-shiab-family-curvature-selector-transgression.json
+    - lab/process/full-domain-shiab-observed-einstein-receiver.json
+    - tests/channel-swings/resolver_wave_k77b2_shiab_family_curvature_selector_transgression_probe.py
+    - tests/channel-swings/full_domain_shiab_observed_einstein_receiver_probe.py
+    pinned_at: 8b2122be3540
+    date: 2026-08-27
+    note: Exact K77 restriction decomposes the algebraic Riemann carrier as scalar 1 plus traceless-Ricci
+      104 plus Weyl 3080, with target multiplicities 2,2,0. The displayed candidate therefore kills
+      Weyl while retaining nonzero independent scalar/Ricci responses, exactly at the source-claimed
+      pointwise scope. Rival Shiabs, source selection, same-action extension, observation and physics
+      remain open; the displayed ambient-Einstein/same-action intersection is separately killed.
 - id: SC-OP-04
   polarity: ASSERTS
   claim: The four-field Dirac-like matrix operator (9.16), on four distinct classical fields nu, nu-bar,
@@ -1062,15 +1070,17 @@ claims:
       low-curvature regime but does not locate a physical transition threshold.
   core: auxiliary
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
-    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1533
-    - canon/escape-corners-campaign-RESULTS.md:2
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: Curvature<->VEV linkage typed and tested (two-values-to-one passes, screening fails; the VEV
-      dial is named the generation mechanism), but the stylized (12.13) R~0 Weyl-decoupling toy itself
-      sits only in custody (WGS-05).
+    - lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md:236-291
+    - explorations/sg4-phase-source-cardinality-reconciliation-2026-08-24.md
+    - lab/active-research/joe-directed/rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md
+    pinned_at: 8b2122be3540
+    date: 2026-08-27
+    note: The two coupled Weyl equations form a two-by-two off-diagonal mass block with m=R(y)/4;
+      the sum/difference basis gives masses plus/minus m and exact algebraic decoupling at R=0. This
+      adheres only to the twice-stylized source toy. It supplies no physical threshold, curvature-to-VEV
+      action map, sign-changing wall, chiral count or complete GU mechanism.
 - id: SC-CHI-03
   polarity: ASSERTS
   claim: Eq (12.20) brace-labels the pulled-back left ambient Weyl half Luminous Standard Model family
@@ -1298,14 +1308,17 @@ claims:
     fences: weinstein-gu-primary-source-pack-2026-07-30.md:236-291 (WGS-05).'
   core: auxiliary
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
-    - lab/process/CURRENT-RESEARCH-CONTEXT.md:1531-1533
-    - canon/theta-field-flrw-dark-energy-eos.md:8-12
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: Mass-from-curvature is engaged on the DE/theta side, but the stylized m=R/4 toy is custody-only
-      (WGS-05, which also fences the full-20 placement as unexecuted).
+    - lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md:236-291
+    - explorations/sg4-phase-source-cardinality-reconciliation-2026-08-24.md
+    - lab/active-research/joe-directed/rwall/rw1-zero-locus-steers-not-hosts-2026-08-17.md
+    pinned_at: 8b2122be3540
+    date: 2026-08-27
+    note: On an approximately constant-curvature region the printed coefficient is exactly the constant
+      Dirac mass m=R/4, and the coupled Weyl block diagonalizes to plus/minus m. This closes only the
+      stylized local algebra. The spinless gauge-potential equality, full-20 placement, reality map,
+      physical observable and dynamical curvature background remain independently open.
 - id: SC-MAS-02
   polarity: ASSERTS
   claim: The field playing the fundamental-mass role is asserted, with an in-some-sense hedge, to be part
