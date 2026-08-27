@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "scope": "Four source-adherence rows across three independent source-scope arcs",
+  "claim_ceiling": "Source assignment, decomposition, prediction-perimeter and released-degree-grammar custody only. No physical mechanism, generation count, prediction, confirmation, ledger row, canon, protected paper, release state or public posture moves.",
+  "headline_before": "ADHERED 90 / PARTIAL 20 / UNTYPED 1",
+  "headline_after": "ADHERED 94 / PARTIAL 16 / UNTYPED 1",
+  "records": [
+    {
+      "id": "SC-FER-03",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "P46_FIELD_AND_FUNCTION_ASSIGNMENTS_CARRIED_AT_SOURCE_LABEL_SCOPE",
+      "decisive_facts": [
+        "chi is assigned observed, Looking-Glass, dark-spinorial and Rarita-Schwinger content",
+        "omega subfields are assigned CKM, Higgs-like, Yukawa and gauge functions",
+        "the source extraction explicitly classifies these as assignments rather than derivations"
+      ],
+      "preserved_ceiling": "no observed equation, particle identity, CKM matrix, Yukawa map, Higgs mechanism, gauge potential or physical quotient is derived",
+      "evidence": [
+        "lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md",
+        "tests/channel-swings/source_scope_and_rollup_residual_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-CHI-03",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "P61_AMBIENT_HALF_LABELS_AND_X_CHIRALITY_BRANCHING_CARRIED",
+      "decisive_facts": [
+        "the ambient left half is brace-labeled luminous and the right half dark decoupled Looking-Glass matter",
+        "each ambient half branches to one left- and one right-handed X spinor factor",
+        "each displayed half has complex dimension 64 and the pair has dimension 128"
+      ],
+      "preserved_ceiling": "plain spinors remain distinct from the equation-11.6 one-form carrier; no luminosity, decoupling, physical chirality or observed-sector map is proved",
+      "evidence": [
+        "lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md",
+        "tests/channel-swings/source_scope_and_rollup_residual_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-PRE-03",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "P67_ALGEBRAIC_VERSUS_ENERGY_SCALE_PREDICTION_PERIMETER_CARRIED",
+      "decisive_facts": [
+        "the draft offers algebraic internal-quantum-number predictions",
+        "the draft explicitly withholds energy-scale predictions absent further QFT work",
+        "representation labels cannot acquire empirical confirmation without a typed observable, scale and comparison procedure"
+      ],
+      "preserved_ceiling": "no prediction is added, retracted or confirmed and no existing null or fit is attached by implication",
+      "evidence": [
+        "lab/sources/source-claim-register.yaml",
+        "tests/channel-swings/source_scope_and_rollup_residual_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-GEN-58",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "ROLLED_0_1_13_14_GRAMMAR_CARRIED_WITH_NO_COUNT_MAP_FENCE",
+      "decisive_facts": [
+        "the released selected degrees are exactly 0, 1, 13 and 14",
+        "their exterior-power dimensions are 1, 14, 14 and 1",
+        "Hodge complement has exactly two orbits on the selected degrees, so the degree data do not exhibit an integer-three map"
+      ],
+      "preserved_ceiling": "the author's three-generation conclusion remains stated but unproved; the unreleased cyclic complex, physical quotient, index, torsion bridge and selector remain open",
+      "evidence": [
+        "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+        "tests/channel-swings/source_scope_and_rollup_residual_wave_probe.py"
+      ]
+    }
+  ]
+}
