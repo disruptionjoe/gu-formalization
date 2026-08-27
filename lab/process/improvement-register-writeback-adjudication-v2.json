@@ -20,8 +20,8 @@
     {
       "id": "P-H16",
       "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/judge-corrected-claims-addendum-2026-08-10.md",
-      "basis": "The successor-card and cross-reference work is still requested; the current hit describes the remaining action rather than proving publication-index reconciliation."
+      "evidence": "lab/process/improvement-register-2026-08-03.md",
+      "basis": "Live Zenodo metadata verifies PP3 and the related methodology report, but the unattended protected-surface gate forbids the publication-index correction; the exact protected action remains open."
     },
     {
       "id": "P-H26",
@@ -68,8 +68,8 @@
     {
       "id": "M-H2",
       "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/conditional-build/cb-d-parameterizing-the-unknown-2026-08-05.md",
-      "basis": "The cited artifact calls this a live challenge; the full real branching and protected SHIAB consequence correction are not both closed."
+      "evidence": "explorations/resolver-wave-c-rebased-q5-q6-mh7-2026-08-03.md",
+      "basis": "Wave C and Q6 already close the exact branching and real-form checklist through complex support; the row remains live only because the protected SHIAB-05 consequence sentence still requires a separately reviewed correction."
     },
     {
       "id": "M-H4",
@@ -241,9 +241,9 @@
     },
     {
       "id": "M-M28",
-      "disposition": "VERIFIED_LIVE",
-      "evidence": "explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md",
-      "basis": "Several Layer-0 fences are absorbed, while the dimension-13 and link-model fences remain live and must travel with future work."
+      "disposition": "EXECUTED",
+      "evidence": "explorations/resolver-wave-c-rebased-q5-q6-mh7-2026-08-03.md",
+      "basis": "Resolver Waves B/C and M-H7 carry every 128, 13, chirality, graded-factor and link-model fence without promoting a numerical coincidence to a typed map, carrier, framing, count or source claim."
     },
     {
       "id": "M-M29",
