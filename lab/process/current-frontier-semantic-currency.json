@@ -7,7 +7,7 @@
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "b27ceecece9001046580df736c0b5e854ae7965e1e2ece31dd9a0d8863917d82"
+      "sha256": "dd2e634c9f79dd058fac8f6d12924e8fda3bb07cb8866243c5bd8d73365489dd"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -58,6 +58,19 @@
       ],
       "global_or_physical_map_constructed": false
     },
+    "source_residual_terminalization": {
+      "path": "lab/process/source-residual-terminalization-wave.json",
+      "sha256": "c1aaee3b575b4ace158bacb3bcc1e9d59d6ef625a879feae3394bb8e858c688b",
+      "headline": "ADHERED 106 / PARTIAL 4 / UNTYPED 1",
+      "terminal_partial_rows": [
+        "SC-META-02",
+        "SC-GEN-53",
+        "SC-SIG-51",
+        "SC-PRE-50"
+      ],
+      "untyped_authorial_source_row": "SC-SIG-55",
+      "adherence_promotion": false
+    },
     "b5_gram_adjoint_result": {
       "path": "explorations/b5-full20-gram-adjoint-universality-2026-08-20.md",
       "sha256": "29c0951bd13eac9d43c31773dc7e4d77852d48b51293686c64cd39d0993f92f9"
@@ -87,8 +100,8 @@
       "invariant-gapping campaign"
     ],
     "selection_order": [
-      "source-to-proof delta",
-      "ledger-moving arc",
+      "fired source-to-proof reopener",
+      "newly open ledger row",
       "concrete result-hardening defect"
     ]
   },

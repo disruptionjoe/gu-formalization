@@ -1574,7 +1574,10 @@ claims:
       and comparative abduction, but it does not accept natural emergence or
       resemblance as proof of likely correctness. The source's own
       unprovability caveat is therefore preserved while the stronger
-      evidence-bearing standard remains authoritative.
+      evidence-bearing standard remains authoritative. TERMINAL_AT_CURRENT_EVIDENCE:
+      reopen only on an authorial operational criterion or new comparative
+      evidence that satisfies the repository evidence contract independently
+      of naturalness as proof.
 - id: SC-META-03
   polarity: ASSERTS
   claim: The draft warns that reconstruction problems spanning nearly 40 years occur throughout the document
@@ -1970,7 +1973,9 @@ claims:
       and records the family-indexed mass-channel ladder 0 -> 2 -> 11. The source still
       supplies no numerical energy scale, physical observable map, or predeclared threshold;
       the Spin(6,4) real-form and physical-carrier bridge remain open. This is not a
-      prediction packet, and the J5 equation-12.22 imposter 128 is not renamed as the 144.'
+      prediction packet, and the J5 equation-12.22 imposter 128 is not renamed as the 144.
+      TERMINAL_AT_CURRENT_EVIDENCE: reopen only on one packet jointly supplying
+      the scale, observable, threshold, real-form bridge and PH-K1-PHYSICAL carrier.'
 - id: SC-GEN-54
   polarity: ASSERTS
   claim: What fixes the effective number of generations at three is the extension of the inhomogeneous
@@ -2197,7 +2202,9 @@ claims:
       and no conventional DeWitt/GR comparator is imported as GU authority.
       The Pati-Salam maximal-compact criterion selects the trace-reversed
       chamber only as an authorial external criterion, not an experiment or a
-      selector of lambda=1/2 within that chamber.
+      selector of lambda=1/2 within that chamber. TERMINAL_AT_CURRENT_EVIDENCE:
+      reopen only on a source-owned experiment-to-form map or an admitted GU
+      action/domain whose data-blind instability or causal test selects the pair.
 - id: SC-SIG-52
   polarity: ASSERTS
   claim: Pati-Salam is naturally Spin(6) x Spin(4) when the trace portion of the space of metrics is put
@@ -2588,7 +2595,9 @@ claims:
       still SOURCE-UNDERDEFINED: no exact model, mass range, cross-section,
       decay signature, dataset, exclusion map or predeclared threshold is
       supplied. Existing collider nulls are not counted as confirmation and
-      no prediction packet is opened.
+      no prediction packet is opened. TERMINAL_AT_CURRENT_EVIDENCE: reopen only
+      on a frozen conventional model class and a predeclared map from named
+      collider searches and thresholds to the universal target.
 - id: SC-PRE-51
   polarity: ASSERTS
   claim: GU predicts spin-3/2 matter coupled to a 16-dimensional vector space resembling the standard-model

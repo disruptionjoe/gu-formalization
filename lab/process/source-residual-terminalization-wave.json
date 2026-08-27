@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "scope": "Four intentional PARTIAL source-adherence rows across philosophical, prediction, metric-selector and collider-target perimeters",
+  "claim_ceiling": "Current-evidence terminal custody only. No adherence promotion, likely-correctness inference, physical prediction, experiment-to-signature selector, collider confirmation, universal exclusion, action owner, ledger row, canon or public-posture move.",
+  "headline_before": "ADHERED 106 / PARTIAL 4 / UNTYPED 1",
+  "headline_after": "ADHERED 106 / PARTIAL 4 / UNTYPED 1",
+  "boundary_state": "TERMINAL_AT_CURRENT_EVIDENCE__EXACT_REOPENERS_REQUIRED",
+  "records": [
+    {
+      "id": "SC-META-02",
+      "adherence": "PARTIAL",
+      "terminal_state": "TERMINAL_PHILOSOPHY_BOUNDARY_AT_CURRENT_EVIDENCE",
+      "result": "NATURAL_UNIFYING_ARENA_GAMBIT_CARRIED_WITHOUT_LIKELY_CORRECTNESS_INFERENCE",
+      "decisive_facts": [
+        "the source explicitly presents natural emergence from minimal assumptions as a governing gambit and explicitly says it cannot be proven",
+        "the repository engages the gambit through refutation survival and comparative abduction rather than treating resemblance or naturalness as evidence of truth",
+        "adherence therefore requires preserving both the source motivation and the repository's stronger evidence standard"
+      ],
+      "exact_reopener": "an authorial operational criterion that makes the likelihood claim independently testable, or new comparative evidence that satisfies the repository's existing evidence contract without using naturalness as proof",
+      "preserved_ceiling": "the source philosophy is not a theorem, probability estimate, canon verdict or evidence that GU is likely correct"
+    },
+    {
+      "id": "SC-GEN-53",
+      "adherence": "PARTIAL",
+      "terminal_state": "TERMINAL_PREDICTION_SEED_AT_CURRENT_EVIDENCE",
+      "result": "TWO_PLUS_ONE_HIGH_ENERGY_ASSERTION_CARRIED_WITHOUT_PHYSICAL_PREDICTION_PACKET",
+      "decisive_facts": [
+        "the source asserts that two generations remain identical up to mass while one does not as energy increases",
+        "HE-1 supplies an exact complex 16-versus-144 separator and mass-channel ladder without identifying the J5 imposter 128 with that 144",
+        "no numerical energy scale, physical observable, predeclared threshold, Spin(6,4) real-form transport or PH-K1-PHYSICAL carrier is supplied"
+      ],
+      "exact_reopener": "one source- or action-owned packet jointly supplying the numerical energy scale, physical observable map, predeclared threshold, Spin(6,4) real-form bridge and PH-K1-PHYSICAL carrier",
+      "preserved_ceiling": "the complex representation separator is not a physical high-energy prediction, confirmation or family-count theorem"
+    },
+    {
+      "id": "SC-SIG-51",
+      "adherence": "PARTIAL",
+      "terminal_state": "TERMINAL_EXPERIMENT_SELECTOR_BOUNDARY_AT_CURRENT_EVIDENCE",
+      "result": "FOUR_NORMALIZED_FORMS_CARRIED_WITH_UNOWNED_EXPERIMENTAL_SELECTOR",
+      "decisive_facts": [
+        "the four normalized trace/traceless sign forms and inertias (7,3), (6,4), (4,6), (3,7) are exact",
+        "the source says two obvious forms are ruled out by experiment but names no experiment, observable, dataset, threshold, action or failure map",
+        "the maximal-compact and conventional DeWitt or GR controls do not become GU experimental authority without a typed bridge"
+      ],
+      "exact_reopener": "a source-owned experimental observable with an explicit map to the four normalized forms, or an admitted GU action/domain whose exact instability or causal test selects the same pair data-blind",
+      "preserved_ceiling": "the exact enumeration does not establish the empirical selector or choose a normalized coefficient within the surviving signature chamber"
+    },
+    {
+      "id": "SC-PRE-50",
+      "adherence": "PARTIAL",
+      "terminal_state": "TERMINAL_COLLIDER_TARGET_BOUNDARY_AT_CURRENT_EVIDENCE",
+      "result": "CONVENTIONAL_SUPERPARTNER_DISAVOWAL_CARRIED_WITH_UNDEFINED_UNIVERSAL_TARGET",
+      "decisive_facts": [
+        "the source categorically disavows spacetime-SUSY-shaped LHC superpartners and distinguishes them from the super-IG extension",
+        "the source supplies no finite model class, mass range, cross-section, decay signature, dataset, confidence rule or null-to-universal-claim map",
+        "the statement postdates public collider nulls, so existing non-observation is not preregistered confirmation"
+      ],
+      "exact_reopener": "a frozen conventional model class plus a predeclared mapping from named collider searches and thresholds to the universal target",
+      "preserved_ceiling": "no current collider null confirms GU, super-IG or the source's universal never claim"
+    }
+  ],
+  "excluded_residual": {
+    "id": "SC-SIG-55",
+    "adherence": "UNTYPED",
+    "reason": "the only evidence is an expositor's belief about the author's uncertainty",
+    "exact_reopener": "authorial source evidence that directly states or resolves the ambient-signature uncertainty"
+  }
+}
