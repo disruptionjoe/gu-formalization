@@ -1,6 +1,7 @@
 ---
 title: "M-M30 hostile review: the compact-carrier implication is not typed"
-status: review_complete
+status: process
+operational_state: review_complete
 doc_type: hostile_review
 created: "2026-08-26"
 grade: "TWO-SIDED TYPE AND IMPLICATION REVIEW; JP1 REJECTED, JP2 RETAINED FOR PLANNING ONLY"

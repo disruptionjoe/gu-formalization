@@ -2,7 +2,8 @@
 artifact_type: exploration_result
 doc_type: exact_representation_theorem
 created: 2026-08-26
-status: FIXED_ARENA_OBSTRUCTION_DOES_NOT_TRANSFER_AUTOMATICALLY
+status: exploration
+claim_verdict: FIXED_ARENA_OBSTRUCTION_DOES_NOT_TRANSFER_AUTOMATICALLY
 title: "Bateman--Turok enlarged-arena control: exact doubled commutant and pairing boundary"
 grade: "EXACT finite representation theorem at target-blind toy grade. The commutant identity and copy-parity controls are symbolic. No GU action, S-matrix, physical quotient, state space, positivity theorem or source-native enlargement is constructed."
 target_claim: M-S4-FIXED-ARENA-TRANSFER

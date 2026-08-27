@@ -770,6 +770,21 @@ checks:
   - {file: explorations/source-domain-selector-prongA-extraction-2026-07-21.md, correction_id: CC-10-UCSD-EDITED-DERIVATIVE, verdict: CLEARED-CONSISTENT, date: '2026-08-26', by: CC10-REPAIR-2026-08-26, note: 'Forward-only fence preserves the source-silent result while excluding the local derivative from primary-only provenance.'}
   - {file: lab/sources/selected-branch-bv-flrw-source-reinspection-2026-08-05.md, correction_id: CC-10-UCSD-EDITED-DERIVATIVE, verdict: CLEARED-CONSISTENT, date: '2026-08-26', by: CC10-REPAIR-2026-08-26, note: 'Forward-only fence preserves the limited source return and grades the UCSD locators as transcript-verified only.'}
 
+# Lane A 2026-08-27 production-boundary custody pass: the only remaining
+# unchecked CC-02 pair is a deliberately scoped free comparator. Its exact row
+# says comparator PC-3 positivity fails and explicitly forbids transport to
+# interacting K77 positivity, so it does not consume the superseded claim that
+# observed-quotient positivity is source-disavowed.
+  - file: lab/process/improvement-register-2026-08-03.md
+    correction_id: CC-02-OBSERVED-POSITIVITY-OPEN
+    verdict: FENCED-COMPARATOR
+    date: '2026-08-27'
+    by: RUN-20260827-094059-GU-LANE-A
+    note: >-
+      M-H17 reports failure only for the filed free comparator and expressly
+      forbids transfer to interacting K77 positivity; observed-quotient
+      positivity remains source-open.
+
 # -------------------------------------------------------------------------
 # RATCHET BASELINE.  Per correction: the dirty count measured when the
 # correction's 7-day grace period is armed.  The gate is RED if the dirty count

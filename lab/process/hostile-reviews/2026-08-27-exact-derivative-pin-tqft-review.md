@@ -1,7 +1,8 @@
 ---
 artifact_type: hostile_review
 created: 2026-08-27
-status: SURVIVES_WITH_EXACT_SCOPE
+status: process
+operational_state: SURVIVES_WITH_EXACT_SCOPE
 title: "Hostile review: exact derivatives and Pin-plus class-map typing"
 target_claim: NONE-NOT-A-KILL
 canon_verdict_change: none

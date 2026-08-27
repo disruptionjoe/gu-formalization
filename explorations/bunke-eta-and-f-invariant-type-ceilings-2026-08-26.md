@@ -2,7 +2,8 @@
 artifact_type: exploration_result
 doc_type: primary_source_topology_specialization
 created: 2026-08-26
-status: ETA_E_DICTIONARY_EXISTS__INTEGER_BRIDGE_ABSENT__F_ROUTE_MISTYPED
+status: exploration
+claim_verdict: ETA_E_DICTIONARY_EXISTS__INTEGER_BRIDGE_ABSENT__F_ROUTE_MISTYPED
 title: "Bunke eta/e dictionary and f-invariant domain: exact type ceilings for M-H8 and M-M6"
 grade: "PRIMARY-SOURCE SPECIALIZATION plus exact arithmetic/type certificate. Bunke's universal eta invariant derives Adams e as a special case. Bunke--Naumann's cited f-invariant has an even stable-stem domain and requires codimension-two almost-complex corner data. No universal-eta value, f-invariant value, GU class map, integer count or physical identification is constructed."
 target_claim: NONE-NOT-A-KILL

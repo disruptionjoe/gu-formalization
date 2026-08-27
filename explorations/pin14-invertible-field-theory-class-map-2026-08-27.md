@@ -2,7 +2,8 @@
 artifact_type: exploration_result
 doc_type: functorial_class_map_gate
 created: 2026-08-27
-status: FUNCTORIAL_STATEMENT_CLOSED__GU_CLASS_REALIZATION_UNDEFINED
+status: exploration
+claim_verdict: FUNCTORIAL_STATEMENT_CLOSED__GU_CLASS_REALIZATION_UNDEFINED
 title: "Pin-plus invertible field theory: the exact class-map truth table for M-M12"
 grade: "PRIMARY-SOURCE-SCOPED FUNCTORIAL STATEMENT plus EXACT finite-group certificate. The ambient group Omega^Pin+_14 = Z/2 is inherited from the repository's promoted derivation. No GU cycle, anomaly character, operator family, firewall protection or physical boundary theory is constructed."
 target_claim: NONE-NOT-A-KILL

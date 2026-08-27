@@ -2,7 +2,8 @@
 artifact_type: exploration_result
 doc_type: exact_topology_control
 created: 2026-08-26
-status: FRAMING_RELATIVE_NOT_LENS_SPACE_INVARIANT
+status: exploration
+claim_verdict: FRAMING_RELATIVE_NOT_LENS_SPACE_INVARIANT
 title: "Kirby--Melvin all-lens control: signature defect and 3-primary framing class are different typed objects"
 grade: "EXACT arithmetic and standard-result-applied topology at the stated scope. The Kirby--Melvin/Rademacher defect formula, Dedekind reciprocity, honest-framing affine action and stabilization shift are exact. The repository's chosen RP3 tangential framing remains standard-result-applied; its identification with GU's self-dual twist remains reconstruction-dependent."
 target_claim: NONE-NOT-A-KILL

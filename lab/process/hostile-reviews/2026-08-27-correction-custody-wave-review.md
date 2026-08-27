@@ -1,6 +1,7 @@
 ---
 title: "Hostile review: correction custody wave"
-status: complete
+status: process
+operational_state: complete
 doc_type: hostile_review
 created: "2026-08-27"
 typed_objects: EXEMPT-PROSE-ONLY
