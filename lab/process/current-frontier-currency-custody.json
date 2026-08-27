@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "current_frontier_currency_custody_certificate",
+  "created": "2026-08-27",
+  "status": "PASS",
+  "target_claim": "NONE-NOT-A-KILL",
+  "method_refs": [
+    "tests/channel-swings/current_frontier_semantic_currency_audit.py",
+    "process_gates/probe_authorship_lint.py",
+    "process_gates/frontmatter_status_schema_audit.py"
+  ],
+  "before": {
+    "next_condition_characters": 5411,
+    "current_frontier_audit": "RED_LIVE_NEXT_CONDITION_NOT_BOUNDED",
+    "probe_authorship_findings": 89,
+    "probe_corpus": 996,
+    "frontmatter_failures": 4,
+    "unprotected_prior_review_failure": true
+  },
+  "after": {
+    "next_condition_characters": 1827,
+    "latest_prior_condition_characters": 5411,
+    "current_frontier_audit": "PASS",
+    "probe_authorship_findings": 89,
+    "probe_corpus": 996,
+    "frontmatter_failures": 3,
+    "unprotected_prior_review_failure": false,
+    "protected_twg1_residue_preserved": true
+  },
+  "semantic_review": {
+    "residual_l1": "theorem-proved nonempty iterators or locally guarded homogeneous/singleton domains unless a later artifact-specific review proves otherwise",
+    "residual_l2": "exact theorem-local, probe-local or immutable historical count pins rather than a mechanical relaxation queue",
+    "result": "NO_LINT_BASELINE_DECREASE_LICENSED"
+  },
+  "hostile_controls": {
+    "current_frontier_mutations_caught": 10,
+    "current_frontier_mutations_total": 10
+  },
+  "protected_effects": {
+    "source_claim_change": false,
+    "ledger_row_change": false,
+    "scientific_verdict_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "canon_verdict_change": false,
+    "protected_paper_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "result_ref": "CURRENT-STATE.yaml#current_result"
+}

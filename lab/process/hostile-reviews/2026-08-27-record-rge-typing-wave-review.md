@@ -1,6 +1,7 @@
 ---
 title: "Hostile review — record/DE and Pati-Salam RGE typing wave"
-status: review
+status: process
+operational_state: review_complete
 doc_type: hostile-review
 created: "2026-08-27"
 review_verdict: "PASS_AT_PREMISE_AND_INPUT_CEILING"
