@@ -1,0 +1,285 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-26",
+  "scope": "Complete 45-row writeback queue emitted by register_writeback_audit.py at GU revision 84e35959b68f1f5ad209848a57ba8415b751e5d5",
+  "claim_ceiling": "Register-custody only. EXECUTED means the row's named endpoint is present at the cited owner surface; VERIFIED_LIVE means the evidence was reviewed but the requested endpoint remains open. No scientific verdict, canon status, paper lifecycle, release, prediction, confirmation, or public posture moves by implication.",
+  "disposition_vocabulary": [
+    "EXECUTED",
+    "VERIFIED_LIVE",
+    "PREMISE_SHIFTED",
+    "PREMISE_CORRECTED",
+    "RETIRED"
+  ],
+  "records": [
+    {
+      "id": "P-C2",
+      "disposition": "EXECUTED",
+      "evidence": "canon/source-action-seiberg-witten-RESULTS.md",
+      "basis": "The dated repair note records exact clustering, failure coupling, gated worst-flip handling, and corrected owner wording together with M-H6."
+    },
+    {
+      "id": "P-H16",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/judge-corrected-claims-addendum-2026-08-10.md",
+      "basis": "The successor-card and cross-reference work is still requested; the current hit describes the remaining action rather than proving publication-index reconciliation."
+    },
+    {
+      "id": "P-H26",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/framing-composite-mod3-2026-08-03.md",
+      "basis": "The hypothesis is now explicit in research evidence, but the row's versioned Zenodo correction remains a separately authorized protected publication action."
+    },
+    {
+      "id": "P-H28",
+      "disposition": "EXECUTED",
+      "evidence": "lab/process/CURRENT-RESEARCH-CONTEXT.md",
+      "basis": "The current owner context enforces that a wave must move a named gate, and later packets apply the rule as an admission condition."
+    },
+    {
+      "id": "P-H29",
+      "disposition": "EXECUTED",
+      "evidence": "AGENTS.md",
+      "basis": "The repository front door now makes analytic, exact, interval, or equivalently rigorous certification mandatory before citing a finite-difference null or kill."
+    },
+    {
+      "id": "P-M14",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "lab/process/candidate-citation-custody-v1.json",
+      "basis": "Source custody is complete for 3/3 candidates, but the exact protected paper corrections remain unapplied under the unattended protected-surface guard."
+    },
+    {
+      "id": "P-L11",
+      "disposition": "EXECUTED",
+      "evidence": "tests/wave25/H44_de_backreacted_background.py",
+      "basis": "The live certificate labels the midpoint implementation and its measured global second-order ceiling instead of claiming globally fourth-order deterministic RK4."
+    },
+    {
+      "id": "P-L16",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/imposter-reading-adjudication-2026-08-03.md",
+      "basis": "The 128 homonym is typed, but the compound row contains additional normalization, real-form, commutant, and wording corrections not all proved applied."
+    },
+    {
+      "id": "M-C2",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/b5-five-field-packet-design-2026-08-11.md",
+      "basis": "RB7 and W177 have exact-derivative re-verdicts and RB6 later gained one, but the row's complete cross-surface reissue remains broader than the cited completion evidence."
+    },
+    {
+      "id": "M-H2",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/conditional-build/cb-d-parameterizing-the-unknown-2026-08-05.md",
+      "basis": "The cited artifact calls this a live challenge; the full real branching and protected SHIAB consequence correction are not both closed."
+    },
+    {
+      "id": "M-H4",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "DERIVATION-PROGRESS.md",
+      "basis": "The signature/Frobenius problem remains named at the protected owner surface; no complete reality-class ledger and stabilizer-commutant return is established."
+    },
+    {
+      "id": "M-H5",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md",
+      "basis": "The dependency map preserves the eta-tilde bridge as an unresolved route rather than supplying the reflection and base-integral proof."
+    },
+    {
+      "id": "M-H6",
+      "disposition": "EXECUTED",
+      "evidence": "canon/source-action-seiberg-witten-RESULTS.md",
+      "basis": "The paired MOVE-5 repair uses exact integer clustering, gates the adverse control, and narrows the alternate-signature scope."
+    },
+    {
+      "id": "M-H7",
+      "disposition": "EXECUTED",
+      "evidence": "canon/pin14-bordism-derivation-RESULTS.md",
+      "basis": "The current result records the dimension-13 stable-stem restatement, vanishing J-image, and separation from the dimension-14 Pin-plus carrier."
+    },
+    {
+      "id": "M-H8",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md",
+      "basis": "The Bunke dictionary remains a proposed specialization; no complete two-page specialization and gap-(iii) disposition is present."
+    },
+    {
+      "id": "M-H10",
+      "disposition": "PREMISE_SHIFTED",
+      "evidence": "lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md",
+      "basis": "Generic elliptic boundary theory does not own GU's ultrahyperbolic domain. The current route waits for a source-owned operator/domain packet or an explicit nonlocal constrained-data construction."
+    },
+    {
+      "id": "M-H11",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md",
+      "basis": "The invariant-inertia and commuting-cone coercivity classification remains an open scientific computation."
+    },
+    {
+      "id": "M-H12",
+      "disposition": "EXECUTED",
+      "evidence": "canon/theta-field-flrw-dark-energy-eos.md",
+      "basis": "Correction DARK-ENERGY-07 carries the calibrated point-versus-family language while preserving the signal-level exclusion."
+    },
+    {
+      "id": "M-H13",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/atlas-derived-external-datum-hypotheses-2026-08-04.md",
+      "basis": "The record-accretion connection is preregistered, but the time-dependent background solve and shape refit are not supplied."
+    },
+    {
+      "id": "M-H14",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md",
+      "basis": "The GS-factorization content solve remains an open exact source-action constraint calculation."
+    },
+    {
+      "id": "M-H16",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/judge-corrected-claims-addendum-2026-08-10.md",
+      "basis": "The true-RS successor remains requested; no completed winding-one preregistration at the named program surface is proved."
+    },
+    {
+      "id": "M-M6",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/mh7-dim13-restatement-2026-08-03.md",
+      "basis": "The dimension-13 restatement preserves the f-invariant route but still requires the corner object and first model number."
+    },
+    {
+      "id": "M-M7",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "lab/process/anchor-council-2026-08-03/adjudication.md",
+      "basis": "The council narrows the firewall-number reading but does not construct the boundary-triple Weyl function or classify its generalized Nevanlinna index."
+    },
+    {
+      "id": "M-M9",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/framing-composite-mod3-2026-08-03.md",
+      "basis": "The framing composite resolves the integer ambiguity and isolates the 3-primary datum with its 2-primary immunity ceiling."
+    },
+    {
+      "id": "M-M10",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/rho-invariant-two-primary-immunity-lemma-2026-08-03.md",
+      "basis": "The requested rho-invariant 2-primary immunity lemma is filed at the exact pi-one equals Z/2 scope."
+    },
+    {
+      "id": "M-M11",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/pin14-smith-route-audit-2026-07-22.md",
+      "basis": "The ABP/Smith derivation and 2-primary versus 3-primary coprimality chain are explicitly promoted while class realization stays open."
+    },
+    {
+      "id": "M-M12",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "canon/pin14-bordism-derivation-RESULTS.md",
+      "basis": "The class-map question is now sharply stated, but the functorial TQFT realization or non-anomalous no-home result is not constructed."
+    },
+    {
+      "id": "M-M13",
+      "disposition": "EXECUTED",
+      "evidence": "canon/ko-degree-obstruction-ladder-RESULTS.md",
+      "basis": "The dated correction retypes the Rokhlin rung into spin degree four and preserves the unaffected 2-primary conclusion."
+    },
+    {
+      "id": "M-M16",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/anomaly-and-bordism/c2-is-global-y14-end-data-2026-06-27.md",
+      "basis": "The correction gives the closed-form C2 dependence, retires the global-percentage reading, and preserves FORCED_ANALOGY."
+    },
+    {
+      "id": "M-M18",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "lab/process/anchor-council-2026-08-03/seat2-cosmology.md",
+      "basis": "The four DE additions remain preregistered work; the cited council is read-only and supplies no completed likelihood extensions."
+    },
+    {
+      "id": "M-M19",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/su4c-seesaw-retrodiction-2026-08-03.md",
+      "basis": "The artifact explicitly retains the Lambda-five VEV surplus audit as the next bounded check after the real-branching owner."
+    },
+    {
+      "id": "M-M20",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/b5-five-field-packet-design-2026-08-11.md",
+      "basis": "The minimal boundary EFT matching object remains absent and is still a prerequisite for a computable B5 surplus."
+    },
+    {
+      "id": "M-M22",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/conditional-build/cb-a-representation-content-2026-08-05.md",
+      "basis": "Representation content is typed, but no standard two-loop RGE return with M_PS, M_U, and decay/oscillation scales is present."
+    },
+    {
+      "id": "M-M23",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/c1-domain-moduli-result-2026-08-08.md",
+      "basis": "The deck-fixed admissible domain space is classified as a disjoint union of connected Grassmannians with the exact maximum dimension and noncanonical-selector result."
+    },
+    {
+      "id": "M-M24",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "lab/process/anchor-council-2026-08-03/seat4-envelope.md",
+      "basis": "The council discusses the exceptional-point route without deriving a finite boundary kappa or a quantitative bound."
+    },
+    {
+      "id": "M-M27",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "lab/process/anchor-council-2026-08-03/seat1-quantum-foundations.md",
+      "basis": "The read-only council mention supplies no all-L(p;q) Kirby-Melvin table."
+    },
+    {
+      "id": "M-L7",
+      "disposition": "RETIRED",
+      "evidence": "explorations/z3-receptacle-design-packet-2026-08-11.md",
+      "basis": "The numerical spectral route cannot detect the 3-primary carrier and is retained only as an explicit wrong-instrument fence."
+    },
+    {
+      "id": "M-H17",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/conditional-build/cb-b-lagrangian-terms-2026-08-05.md",
+      "basis": "The BRST/quotient exit is registered but remains blocked by real-form ownership and the absent computed H0 plus descended pairing."
+    },
+    {
+      "id": "M-M28",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md",
+      "basis": "Several Layer-0 fences are absorbed, while the dimension-13 and link-model fences remain live and must travel with future work."
+    },
+    {
+      "id": "M-M29",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/dq4-rolling-mode-representation-type-2026-08-03.md",
+      "basis": "Wave A-3 supplies the requested read-first typing and absorption note for W224's rolling-mode representation result without upgrading its source grade."
+    },
+    {
+      "id": "M-M30",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "explorations/mh7-dim13-restatement-2026-08-03.md",
+      "basis": "The fork merge is narrowed, but the hostile field-specialist review required before a fork-table edit remains outstanding."
+    },
+    {
+      "id": "M-S1",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "lab/process/path-dependencies.md",
+      "basis": "The missing-CSCO reinterpretation is recorded as a live correction obligation; the U13/U14 and R3 row-text changes are not all proved applied."
+    },
+    {
+      "id": "M-S2",
+      "disposition": "EXECUTED",
+      "evidence": "process_gates/spectral_conditioning_disclosure_audit.py",
+      "basis": "The requested repository contract now requires conditioning or pseudospectral disclosure for near-defective spectral claims."
+    },
+    {
+      "id": "M-S4",
+      "disposition": "VERIFIED_LIVE",
+      "evidence": "lab/process/path-dependencies.md",
+      "basis": "Arena enlargement remains an unscheduled but scientifically live escape; fixed-arena no-gos do not dispose it."
+    },
+    {
+      "id": "M-S5",
+      "disposition": "PREMISE_CORRECTED",
+      "evidence": "lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md",
+      "basis": "The hidden premise gap is now owner-visible, source-grounded, and routed: generic well-posedness fails, while the viable comparison requires nonlocal constrained data on a codimension-one surface."
+    }
+  ]
+}
