@@ -396,14 +396,16 @@ claims:
     p.30 credits Pati-Salam with not leading 'immediately to proton decay like the original SU(5) model'.
   core: auxiliary
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
     - explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md
     - tests/channel-swings/sc_grp04_phantom_ten_object_separation_probe.py
-    pinned_at: 0a1076c9db04bece92fc04257d2a557474bd51b9
-    date: 2026-08-24
+    - explorations/source-uncertainty-custody-wave-2026-08-27.md
+    - tests/channel-swings/source_uncertainty_custody_wave_probe.py
+    pinned_at: RUN-20260827-170224-GU-SOURCE-UNCERTAINTY-CUSTODY-WAVE
+    date: 2026-08-27
     note: >-
-      PARTIAL. The phantom carrier is now typed as the real rank-ten vector
+      ADHERED at source-hope scope. The phantom carrier is typed as the real rank-ten vector
       printed as V^10 on draft p.28 and developed through eq. (4.9): the
       compact Spin(10) vector with SU(5) restriction and the noncompact
       Spin(6,4) vector with SU(3,2) restriction, with exact Pati-Salam
@@ -412,7 +414,7 @@ claims:
       GR equation carrier and metric-fibre tangent both have type Sym^2(T*X)=
       9+1, but no action-owned variational or physical-quotient map derives an
       internal reduction from the Einstein tensor; the proposed fundamental
-      explanation remains a source hope.
+      explanation remains a source hope rather than an owner-grade mechanism.
 - id: SC-GRP-05
   polarity: ASSERTS
   claim: The Inhomogeneous Gauge Group is defined as the semi-direct product of the gauge group with ad-valued
@@ -2625,13 +2627,19 @@ claims:
     answer.
   core: auxiliary
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
     - canon/escape-corners-campaign-RESULTS.md:2
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: No-mass-scale is engaged structurally (no invariant mass channel; mass rides the VEV dial) but
-      the author's own admission and its testability consequence are not carried into the prediction surfaces.
+    - explorations/source-uncertainty-custody-wave-2026-08-27.md
+    - tests/channel-swings/source_uncertainty_custody_wave_probe.py
+    pinned_at: RUN-20260827-170224-GU-SOURCE-UNCERTAINTY-CUSTODY-WAVE
+    date: 2026-08-27
+    note: >-
+      ADHERED as source uncertainty. The author supplies no mass scale and only
+      assumes a prohibition from electrical charge. Repository scale and VEV
+      fences are compatible with that admission but do not strengthen it. No
+      mass, search window, production/decay map, exclusion or confirmation is
+      inferred.
 - id: SC-PRE-54
   polarity: ASSERTS
   claim: At higher and higher groups the dimensions of the observed representation spaces will not change,
@@ -2952,16 +2960,21 @@ claims:
     because we wanted to avoid indefinite signature on the killing form ... We''re shielded experimentally.'''
   core: auxiliary
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
     - NEXT-STEPS.md:5106
     - NEXT-STEPS.md:5539
     - GEOMETER-VS-PHYSICS-OBJECTS.md:20
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: 'The max-compact-picks-Pati-Salam chain is computed, but the shielding claim is not carried
-      as a mechanism: the compact reduction is typed REDUCTION_EXTERNAL and positivity work runs on the
-      Krein keep-and-grade posture instead.'
+    - explorations/source-uncertainty-custody-wave-2026-08-27.md
+    - tests/channel-swings/source_uncertainty_custody_wave_probe.py
+    pinned_at: RUN-20260827-170224-GU-SOURCE-UNCERTAINTY-CUSTODY-WAVE
+    date: 2026-08-27
+    note: >-
+      ADHERED at source-claim scope. The maximal-compact Pati-Salam chain is
+      exact, while the source explicitly leaves the unbounded-spectrum problem
+      unknown and proposes shielding. Compact reduction remains
+      REDUCTION_EXTERNAL; no positive state space, bounded interacting
+      Hamiltonian or physical quotient is constructed.
 - id: SC-META-54
   polarity: DISAVOWS
   claim: There is no global section in GU — the interviewer's recollection of a global metric section
@@ -2980,15 +2993,19 @@ claims:
     posture in either direction.'
   core: disavowed-by-source
   adherence:
-    adherence: PARTIAL
+    adherence: ADHERED
     evidence:
     - lab/process/CURRENT-RESEARCH-CONTEXT.md:966-970
     - lab/process/layer0-fork-registry.yaml:404-418
-    pinned_at: b6d31fdb272e4c9c8d56454bb9575d4f2d2a26f1
-    date: 2026-08-11
-    note: Section-existence topology is computed (v0.79 kills arbitrary-X Lorentz sections) and section-vs-observerse
-      is a live fork, but nothing links these to the semantically-uncertain spoken denial (WG-A10a custody)
-      - fine as long as no surface asserts a settled global-section posture.
+    - explorations/source-uncertainty-custody-wave-2026-08-27.md
+    - tests/channel-swings/source_uncertainty_custody_wave_probe.py
+    pinned_at: RUN-20260827-170224-GU-SOURCE-UNCERTAINTY-CUSTODY-WAVE
+    date: 2026-08-27
+    note: >-
+      ADHERED as an authorial denial with semantic uncertainty. The exchange
+      does not identify the exact bundle and section strongly enough for a
+      topology theorem. Existing section-existence obstructions bind their own
+      typed objects and do not settle global triviality or observerse semantics.
 - id: SC-META-55
   polarity: DISAVOWS
   claim: 'Spacetime supersymmetry is totally rejected: Minkowski space is an approximation (''a fugazi''),

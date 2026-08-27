@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "scope": "Four source-adherence rows across four independent uncertainty and scope arcs",
+  "claim_ceiling": "Exact source-claim and uncertainty custody only. No action, explanation, mass scale, spectral-shielding theorem, topology theorem, prediction, confirmation, ledger row, canon, protected paper, release state or public posture moves.",
+  "headline_before": "ADHERED 94 / PARTIAL 16 / UNTYPED 1",
+  "headline_after": "ADHERED 98 / PARTIAL 12 / UNTYPED 1",
+  "records": [
+    {
+      "id": "SC-GRP-04",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "PHANTOM_TEN_CARRIER_AND_HOPED_GR_CONTACT_CARRIED_AT_SOURCE_SCOPE",
+      "decisive_facts": [
+        "the common phantom object is a real rank-ten vector carrier, not the complex SU(5) matter 10",
+        "the Einstein equation carrier and metric-fibre tangent also have real type Sym2(T*X)=9+1",
+        "the source presents their relation as a hoped-for explanation rather than an action-owned map"
+      ],
+      "preserved_ceiling": "no variational, physical-quotient or internal-reduction map is derived from the shared dimension or carrier contact",
+      "evidence": [
+        "explorations/sc-grp04-phantom-ten-object-separation-2026-08-24.md",
+        "tests/channel-swings/source_uncertainty_custody_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-PRE-53",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "UNKNOWN_NEW_MATTER_MASS_SCALE_AND_ASSUMED_PROHIBITION_CARRIED",
+      "decisive_facts": [
+        "the author supplies no mass scale for the proposed new matter",
+        "electrical charge is offered only as the basis of an assumed mass prohibition",
+        "absence of a scale prevents a predeclared search window or near-term testability claim"
+      ],
+      "preserved_ceiling": "no invariant mass, VEV selection, collider target, exclusion window or prediction confirmation is supplied",
+      "evidence": [
+        "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+        "tests/channel-swings/source_uncertainty_custody_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-META-53",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "MAXIMAL_COMPACT_CHAIN_AND_UNPROVED_SPECTRAL_SHIELDING_CARRIED",
+      "decisive_facts": [
+        "the maximal compact of the relevant noncompact real form supplies the Pati-Salam subgroup chain",
+        "the source explicitly leaves the unbounded-spectrum problem unknown",
+        "maximal-compact reduction does not itself construct a positive physical state space or bounded interacting Hamiltonian"
+      ],
+      "preserved_ceiling": "the shielding statement remains a source claim and REDUCTION_EXTERNAL, not a unitarity or positivity theorem",
+      "evidence": [
+        "GEOMETER-VS-PHYSICS-OBJECTS.md",
+        "lab/process/layer0-fork-registry.yaml",
+        "tests/channel-swings/source_uncertainty_custody_wave_probe.py"
+      ]
+    },
+    {
+      "id": "SC-META-54",
+      "prior_adherence": "PARTIAL",
+      "adherence": "ADHERED",
+      "result": "AUTHORIAL_GLOBAL_SECTION_DENIAL_CARRIED_WITH_SEMANTIC_UNCERTAINTY",
+      "decisive_facts": [
+        "the author rejects the interviewer's global-section recollection",
+        "the exchange does not identify the exact bundle, section or global/local notation strongly enough for a topology theorem",
+        "existing section-existence obstructions bind their own typed bundles and do not retroactively settle the exchange"
+      ],
+      "preserved_ceiling": "no universal no-section theorem, bundle triviality verdict or settled global-observerse semantics is inferred",
+      "evidence": [
+        "lab/process/layer0-fork-registry.yaml",
+        "tests/channel-swings/source_uncertainty_custody_wave_probe.py"
+      ]
+    }
+  ]
+}
