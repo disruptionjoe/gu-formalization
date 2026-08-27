@@ -24,7 +24,10 @@
         "common_principal_polynomial", "shared_cauchy_surfaces", "hyperbolicity",
         "physical_causal_domain_boundary", "green_boundary_form"
       ],
-      "evidence_refs": []
+      "evidence_refs": [
+        "lab/process/action-causal-closure-qualification-v0.1.json",
+        "explorations/conditional-build/action-causal-closure-qualification-wave-2026-08-27.md"
+      ]
     },
     {
       "order": 2,

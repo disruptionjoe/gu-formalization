@@ -1,0 +1,117 @@
+{
+  "schema_version": "0.1",
+  "artifact_type": "action_causal_closure_candidate_qualification",
+  "created": "2026-08-27",
+  "status": "THREE_CANDIDATES_QUALIFIED__ZERO_CLOSE_ALL_EIGHT_OBJECTS__NO_CROSS_PACKET_UNION",
+  "routing_classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "target_claim": "NONE-NOT-A-KILL",
+  "passport_ref": "lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml",
+  "burden_id": "action_causal_closure",
+  "qualification_states": ["qualified", "partial", "absent", "wrong_object"],
+  "required_objects": [
+    "real_coefficient_complete_action",
+    "frozen_fields_constraints",
+    "euler_noether_system",
+    "common_principal_polynomial",
+    "shared_cauchy_surfaces",
+    "hyperbolicity",
+    "physical_causal_domain_boundary",
+    "green_boundary_form"
+  ],
+  "candidate_packets": [
+    {
+      "id": "K77-I1B-MIXED-ORDER",
+      "construction": "source-native selected K77 first-transgression I1B Hessian at the local Ricci-flat T=0 fixed-boundary germ",
+      "carrier": "real Omega1(Cl(7,7)) distortion carrier coupled to metric variations; all-grade distortion dimension 229376 before the metric block",
+      "action_owner": "selected source-native I1B functional at the stated germ; not a coefficient-complete stationary global GU action",
+      "domain": "formal mixed-order Green class and stratum-local symbol reductions; no selected global closed causal domain",
+      "overall": "not_qualified",
+      "cells": {
+        "real_coefficient_complete_action": {"state": "partial", "reason": "The I1B functional and selected real K77 germ are owned, but a source-global stationary background, complete coefficient freeze and all coupled Euler roles are not."},
+        "frozen_fields_constraints": {"state": "partial", "reason": "The T=0 fixed-boundary germ freezes one local slice; it is not a global field and constraint packet."},
+        "euler_noether_system": {"state": "partial", "reason": "All-grade distortion Euler/Green data and four metric diffeomorphism Noether columns are explicit, but the distortion compatibility/KT tower is not action-owned."},
+        "common_principal_polynomial": {"state": "absent", "reason": "The mixed-order system has characteristic radicals on every tested conormal and no owned reduced common polynomial."},
+        "shared_cauchy_surfaces": {"state": "absent", "reason": "No global K77-to-observed hyperbolic cone or common Cauchy family is selected."},
+        "hyperbolicity": {"state": "absent", "reason": "Unreduced symmetric hyperbolicity and ordinary elliptic Calderon closure fail; a constraint-reduced formulation remains unbuilt."},
+        "physical_causal_domain_boundary": {"state": "partial", "reason": "A formal Green class and fixed-rank stratum quotients exist, but no physical boundary, integrable radical reduction or closed graph domain is selected."},
+        "green_boundary_form": {"state": "partial", "reason": "The action-owned formal mixed Green representative is exact at the frozen germ; it is not an operative global boundary form on a selected domain."}
+      },
+      "evidence_refs": [
+        "explorations/conditional-build/selected-k130-native-i1b-t0-green-domain-and-bv-obstruction-2026-08-16.md",
+        "explorations/conditional-build/selected-k131-native-i1b-t0-dae-bv-bfv-domain-packet-2026-08-16.md",
+        "explorations/conditional-build/selected-k132-native-i1b-t0-all-grade-noether-complex-2026-08-16.md",
+        "explorations/conditional-build/selected-k135-native-i1b-t0-coupled-shell-green-domain-2026-08-16.md"
+      ]
+    },
+    {
+      "id": "K95-B5-STRICT-RS",
+      "construction": "independent strict fixed-background massless Rarita-Schwinger action and linear BV complex on the plus-first (9,5) carrier",
+      "carrier": "real K95 strict eight-block RS carrier and its separately typed Euler/Hessian object",
+      "action_owner": "repository-constructed fixed-background quadratic massless RS action; the metric/coframe is not dynamical",
+      "domain": "minimal closed-domain family and neutral classical boundary-phase precursor; no selected physical causal boundary or positive reduced pairing",
+      "overall": "not_qualified",
+      "cells": {
+        "real_coefficient_complete_action": {"state": "partial", "reason": "The strict free RS action is exact on K95, but it is not the coupled K77 GU action and does not own a dynamical metric/coframe."},
+        "frozen_fields_constraints": {"state": "partial", "reason": "The strict linear field/ghost packet is typed, while the full coupled GU fields and scalar Hamiltonian constraint are absent."},
+        "euler_noether_system": {"state": "partial", "reason": "The strict action and linear BV complex close their own equations; the separately typed full-nine Euler object and Gram are not joined by a universal action bridge."},
+        "common_principal_polynomial": {"state": "partial", "reason": "The fixed-background linear principal operator is owned only on the K95 packet, not on a common coupled K77 system."},
+        "shared_cauchy_surfaces": {"state": "absent", "reason": "No physical causal region and shared Cauchy family for a complete GU system is selected."},
+        "hyperbolicity": {"state": "partial", "reason": "Local fixed-background principal and domain data do not establish a globally hyperbolic coupled theory."},
+        "physical_causal_domain_boundary": {"state": "partial", "reason": "A minimal closed-domain family exists, but its marked class is Green-null and no physical boundary ensemble or scalar lapse owner is supplied."},
+        "green_boundary_form": {"state": "partial", "reason": "The strict action owns a Green form and neutral boundary-phase precursor, not a physical boundary form on a positive reduced state space."}
+      },
+      "evidence_refs": [
+        "explorations/b5-strict-bv-action-bridge-2026-08-20.md",
+        "explorations/b5-curved-rs-bv-completion-2026-08-20.md",
+        "explorations/b5-polarized-closed-realization-2026-08-21.md",
+        "explorations/b5-signature-typed-reduced-phase-space-bvbfv-owner-2026-08-21.md"
+      ]
+    },
+    {
+      "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+      "construction": "conditional observed noncharacteristic incoming-projector family derived from a completed K77 principal coefficient pair",
+      "carrier": "real rank-1920 observed fermionic K77 carrier, distinct from the I1B distortion carrier",
+      "action_owner": "conditional principal coefficient pair only; no complete coupled action owner",
+      "domain": "local variable-coefficient negative-flux boundary data on noncharacteristic charts",
+      "overall": "not_qualified",
+      "cells": {
+        "real_coefficient_complete_action": {"state": "wrong_object", "reason": "The packet assumes principal action coefficients and derives a projector; it does not construct a complete action."},
+        "frozen_fields_constraints": {"state": "wrong_object", "reason": "It freezes neither the coupled fields nor a source-derived constraint complex."},
+        "euler_noether_system": {"state": "wrong_object", "reason": "No Euler/Noether system is constructed by the projector theorem."},
+        "common_principal_polynomial": {"state": "partial", "reason": "Exact Clifford principal relations exist on the rank-1920 fermionic carrier only, not on a common coupled system."},
+        "shared_cauchy_surfaces": {"state": "absent", "reason": "A boundary normal selects a projector member, but no global causal region or shared Cauchy surface is owned."},
+        "hyperbolicity": {"state": "partial", "reason": "Local noncharacteristic positive-energy chart data are conditional on regularity and global hyperbolicity."},
+        "physical_causal_domain_boundary": {"state": "partial", "reason": "The moving projector family is exact after a boundary normal is supplied; the action does not select a physical boundary or global domain."},
+        "green_boundary_form": {"state": "partial", "reason": "Both doubled-Majorana horns are pointwise Green-isotropic, but neither horn nor a global boundary theory is selected."}
+      },
+      "evidence_refs": [
+        "explorations/conditional-build/selected-k77-variable-incoming-projector-descent-2026-08-11.md",
+        "explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md"
+      ]
+    }
+  ],
+  "composability": {
+    "cross_packet_union_allowed": false,
+    "reason": "The packets differ in real signature, carrier, variational owner, field content and domain. Shared vocabulary is not an exhibited action-preserving typed bridge.",
+    "forbidden_unions": [
+      "K77 I1B distortion Green radicals plus K77 rank-1920 fermionic projector",
+      "K95 strict B5 action/BV complex plus K77 I1B or observed projector",
+      "candidate-local principal closure plus a separately selected physical boundary"
+    ]
+  },
+  "result": {
+    "burden_status": "blocked",
+    "qualified_candidate_ids": [],
+    "current_root_candidate_set": [],
+    "source_to_proof_delta": "The first passport burden is now candidate-local: existing K77 I1B, K95 B5 and K77 observed-projector packets each cover proper subsets, but no one real K77 action/background/domain owns all eight objects and their evidence cannot be unioned.",
+    "exact_reopener": "Supply one source-authenticated or owner-native real coefficient-complete K77 action on a frozen background whose full Euler/Noether system yields one common principal polynomial, a hyperbolic cone with shared Cauchy surfaces, a named physical causal boundary/domain and its action-owned Green form.",
+    "ledger_verdict_change": "none",
+    "source_ownership_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "result_ref": "explorations/conditional-build/action-causal-closure-qualification-wave-2026-08-27.md",
+  "probe_ref": "tests/channel-swings/action_causal_closure_qualification_probe.py"
+}

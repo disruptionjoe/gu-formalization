@@ -233,6 +233,13 @@
         "skip_policy": "forbidden"
       },
       "export_status": "NOT_READY",
+      "action_causal_qualification_2026_08_27": {
+        "status": "BLOCKED__THREE_CANDIDATES_QUALIFIED__ZERO_COMPLETE__NO_CROSS_PACKET_UNION",
+        "registry_ref": "lab/process/action-causal-closure-qualification-v0.1.json",
+        "result_ref": "explorations/conditional-build/action-causal-closure-qualification-wave-2026-08-27.md",
+        "source_to_proof_delta": "K77 I1B, K95 strict B5 and K77 observed-projector packets now have exact candidate-local coverage against the eight-object action/causal burden; no one packet closes it and their cells cannot be unioned across real forms, carriers, action owners or domains.",
+        "exact_reopener": "One source-authenticated or owner-native real coefficient-complete K77 action must own the frozen background, full Euler/Noether system, common principal polynomial, hyperbolic cone/shared Cauchy surfaces, physical causal boundary/domain and Green form."
+      },
       "title": "Geometry-first dynamical unification: reverse-scaffold one conditional physics build from the ledger's shared missing objects",
       "track": "north_star",
       "state": "ACTIVE",

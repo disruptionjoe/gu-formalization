@@ -7,7 +7,7 @@
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "c0fe93ab8aee3b20faceba18f888561e3876efba973ac86546b029ad38389f14"
+      "sha256": "b45b31136b5f4f06be1a01374362df64f18c0dbd391873258bdc61a8fd0f8676"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -26,6 +26,13 @@
       "sha256": "48b2c8ead73eb4cb390c9b511e274759058cadd63c9454d99d0c3001f4ca262d",
       "candidate_admitted": false,
       "root_candidate_state": "EMPTY_AT_CURRENT_SOURCE_AND_ACTION_OWNERSHIP"
+    },
+    "action_causal_qualification": {
+      "path": "lab/process/action-causal-closure-qualification-v0.1.json",
+      "sha256": "666154657e389be6977a4951d0d26e86876060dde3dcc98ae7d7d5510c4d6255",
+      "burden_status": "blocked",
+      "qualified_candidates": 0,
+      "cross_packet_union_allowed": false
     },
     "b5_gram_adjoint_result": {
       "path": "explorations/b5-full20-gram-adjoint-universality-2026-08-20.md",

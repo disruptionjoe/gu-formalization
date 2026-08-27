@@ -40,6 +40,12 @@ the dependency/cost exception and its independent machinery check in source.
   set, fail-closed Dynamic Unity export and zero-promotion posture. It rejects
   nine planted semantic mutations using only the Python standard library.
 
+- `channel-swings/action_causal_closure_qualification_probe.py` fixes the
+  passport's eight-object first-burden denominator, three current candidate
+  packets, packet-local evidence paths, zero complete candidates, forbidden
+  cross-packet union, empty B2 root and fail-closed export. It rejects eight
+  planted custody mutations.
+
 ## Exceptional-point monodromy and form-spinor dictionary
 
 - `big-swing/vg_v4_exceptional_point_monodromy.py` transports the two low
