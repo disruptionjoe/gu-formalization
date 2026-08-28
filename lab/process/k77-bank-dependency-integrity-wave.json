@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-28",
+  "work_item": "K77-BANK-DEPENDENCY-INTEGRITY-WAVE",
+  "scope": "exact-bank audit currency and canonical reconstruction stop",
+  "before": {
+    "audit_execution": "KEYERROR_ON_RETIRED_MANDATORY_EIGHT",
+    "ledger_contract": "HARD_CODED_V0_124_OR_V0_125_ONLY",
+    "exact_bank_stale_dependencies": 4,
+    "exact_bank_file_sha256": "4311ae91fd5585349f94bb6ed28ee61d0f3ff31a8914f49eb611b024be37f49f"
+  },
+  "after": {
+    "audit_checks_green": 29,
+    "audit_checks_total": 30,
+    "sole_red_assertion": "all 29 dependencies are present and current",
+    "current_ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "historical_bank_baseline": "lab/process/conditional-physics-ledger-v0.124.json",
+    "append_only_successor_edges_verified": 139,
+    "adaptive_universal_roles": 3,
+    "planted_controls_green": 6,
+    "exact_bank_stale_dependencies": [
+      "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py",
+      "tests/channel-swings/selected_cubic_gauge_rotated_lc_ward_owner_probe.py",
+      "tests/channel-swings/selected_invariant_constituent_operator_naturality_probe.py",
+      "tests/channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_probe.py"
+    ],
+    "canonical_builder_result": "REJECTED_HISTORICAL_PRODUCER_PASS_CERTIFICATE_BEFORE_FIXTURE_WRITE",
+    "fixture_written": false,
+    "exact_bank_file_sha256": "4311ae91fd5585349f94bb6ed28ee61d0f3ff31a8914f49eb611b024be37f49f",
+    "exact_bank_matches_pre_wave_backup": true,
+    "tangent_bank_written": false
+  },
+  "continuation_wake": "Expose or repair the immutable v0.122 producer's failed pass predicate in a separately admitted builder/probe run; then rebuild exact bank, tangent bank and downstream consumers in dependency order.",
+  "truth_effects": {
+    "scientific_payload_change": false,
+    "source_status_change": false,
+    "ledger_change": false,
+    "action_owner_change": false,
+    "canon_change": false,
+    "protected_surface_change": false,
+    "public_posture_change": false
+  },
+  "evidence": {
+    "result": "explorations/k77-bank-dependency-integrity-wave-2026-08-28.md",
+    "audit": "process_gates/k77_exact_bank_api_audit.py",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-28-k77-bank-dependency-integrity-wave-review.md"
+  }
+}

@@ -16,7 +16,7 @@ BANK = ROOT / "tests/fixtures/k77_exact_coefficient_bank_v1.json"
 API = ROOT / "tests/channel-swings/k77_exact_bank_api.py"
 BUILDER = ROOT / "tests/channel-swings/k77_exact_bank_build.py"
 CONTRACT = ROOT / "lab/methods/research-evidence-contract-v1.0.json"
-LEDGER = ROOT / "lab/process/conditional-physics-ledger-v0.124.json"
+BASELINE_LEDGER = ROOT / "lab/process/conditional-physics-ledger-v0.124.json"
 checks = []
 
 
@@ -50,31 +50,56 @@ def check(kind, label, condition):
 registry = strict(REGISTRY)
 bank = strict(BANK)
 contract = strict(CONTRACT)
-ledger = strict(LEDGER)
+baseline_ledger = strict(BASELINE_LEDGER)
+current_ledger_path = ROOT / contract["standing_ledger"]["ref"]
+current_ledger = strict(current_ledger_path)
 api_source = API.read_text()
 builder_source = BUILDER.read_text()
 ast.parse(api_source)
 ast.parse(builder_source)
 
 check("exact", "registry is API_PASS", registry["status"].startswith("API_PASS"))
-check("exact", "ledger v0.124 is current", ledger["schema_version"] == "0.124")
-current_migrations = [item for item in ledger["migrations"] if item["to_version"] == "0.124"]
+check("exact", "ledger v0.124 is the bank's historical baseline",
+      baseline_ledger["schema_version"] == "0.124")
+current_migrations = [
+    item for item in baseline_ledger["migrations"] if item["to_version"] == "0.124"
+]
 check("exact", "exactly six process-only row migrations are recorded",
       len(current_migrations) == 6 and all(item["old"] == item["new"] for item in current_migrations))
-check("exact", "headline accounting remains 32 19 26 5",
-      ledger["progress"]["verdict_counts"] == {
+check("exact", "historical headline accounting remains 32 19 26 5",
+      baseline_ledger["progress"]["verdict_counts"] == {
           "SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5})
-check("exact", "contract points to v0.124 or a declared append-only successor",
-      contract["standing_ledger"]["ref"].endswith(("v0.124.json", "v0.125.json")))
+
+cursor = current_ledger_path
+seen = set()
+while cursor != BASELINE_LEDGER and cursor not in seen and cursor.is_file():
+    seen.add(cursor)
+    payload = strict(cursor)
+    predecessor = payload.get("predecessor")
+    if not predecessor:
+        break
+    cursor = ROOT / predecessor
+check("exact", "contract current ledger is an append-only successor of v0.124",
+      contract["standing_ledger"]["append_only"] is True
+      and current_ledger_path.is_file()
+      and cursor == BASELINE_LEDGER)
+check("exact", "current ledger headline counts are internally complete",
+      sum(current_ledger["progress"]["verdict_counts"].values())
+      == current_ledger["progress"]["total"])
 check("exact", "fixture file hash matches registry",
       sha256(BANK.read_bytes()).hexdigest() == registry["bank"]["file_sha256"])
 check("exact", "construction hash matches canonical payload",
       construction_hash(bank) == bank["construction_hash"] == registry["bank"]["construction_hash"])
+stale_dependencies = [
+    relative
+    for relative, expected in bank["dependency_hashes"].items()
+    if not (ROOT / relative).is_file()
+    or sha256((ROOT / relative).read_bytes()).hexdigest() != expected
+]
 check("exact", "all 29 dependencies are present and current",
-      len(bank["dependency_hashes"]) == 29 and all(
-          (ROOT / relative).is_file()
-          and sha256((ROOT / relative).read_bytes()).hexdigest() == expected
-          for relative, expected in bank["dependency_hashes"].items()))
+      len(bank["dependency_hashes"]) == 29 and not stale_dependencies)
+if stale_dependencies:
+    print("STALE_DEPENDENCIES={}".format(",".join(stale_dependencies)))
 check("exact", "ordinary API contains no runpy, SymPy or NumPy",
       all(token not in api_source.lower() for token in ("runpy", "sympy", "numpy")))
 check("exact", "recursive producer is confined to builder",
@@ -97,9 +122,17 @@ check("exact", "no verdict canon or posture change",
       == registry["public_posture_change"] == "NONE")
 
 routing = contract["channels"]["VERIFY"]["efficient_specialist_routing"]
-check("exact", "efficient routing has exactly eight mandatory roles", len(routing["mandatory_eight"]) == 8)
 check("exact", "specialist routing is inline by default",
       routing["execution_mode"] == "INLINE_ROLES__NO_PERSPECTIVE_PER_SUBAGENT_DEFAULT")
+check("exact", "adaptive routing has the three universal roles",
+      set(routing["universal_core"]) == {
+          "LAYER0_SEMANTICS",
+          "PRIOR_ART_AND_SOURCE_COLLISION",
+          "CONSTRUCTION_VERSUS_SELECTION",
+      })
+check("exact", "retired mandatory-eight router cannot silently reactivate",
+      routing["superseded_generic_core"]
+      == "MANDATORY_EIGHT_RETIRED_BY_V0166_ADAPTIVE_ROUTER")
 check("exact", "trigger map covers exact computation and provenance",
       {"EXACT_COMPUTATION_ARCHITECTURE", "DISTRIBUTED_PROVENANCE"}.issubset(routing["object_triggered"]))
 check("exact", "lens output distinguishes math from analogy",
@@ -122,8 +155,13 @@ plant = deepcopy(bank)
 plant["scientific_scope"]["full_U64_64"] = "PORTED"
 check("planted", "PLANT silent full-unitary port fires", plant["scientific_scope"]["full_U64_64"] != "NOT_PORTED")
 plant_routing = deepcopy(routing)
-plant_routing["mandatory_eight"].pop()
-check("planted", "PLANT missing mandatory lens fires", len(plant_routing["mandatory_eight"]) != 8)
+plant_routing["universal_core"].pop()
+check("planted", "PLANT missing universal role fires",
+      len(plant_routing["universal_core"]) != 3)
+plant_routing = deepcopy(routing)
+plant_routing["object_triggered"].pop("DISTRIBUTED_PROVENANCE")
+check("planted", "PLANT missing provenance trigger fires",
+      "DISTRIBUTED_PROVENANCE" not in plant_routing["object_triggered"])
 plant_routing = deepcopy(routing)
 plant_routing["all_lenses_every_cell"] = True
 check("planted", "PLANT perspective-count theater fires", plant_routing["all_lenses_every_cell"] is not False)
