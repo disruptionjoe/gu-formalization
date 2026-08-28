@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b9f49c9c91ac
+revision_basis: cc3c38683250
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The v0.3 through v0.17 conditional-ledger certificate cohort is restored
+    without changing any historical ledger or scientific artifact. All fifteen
+    gates now validate their immutable version-local result plus an exact
+    predecessor walk from the live append-only v0.263 contract, rather than
+    requiring an old pointer to remain current. Hostile controls reject revoked
+    append-only authority, a skipped target, a cycle and a missing predecessor.
+    The cohort moves from 0/15 to 15/15 green and the full serialized census
+    improves from a fresh 274 green / 149 inherited red to 289 / 134 / 423 with
+    no timeout or newly red prior-green gate. No source status, action owner,
+    ledger row, SG4 phase, prediction, confirmation, canon, protected surface,
+    release state or public posture moved.
     The K77 exact/tangent bank chain is current again without moving scientific
     truth. The historical v0.122 producer reproduces all six causal/branch rank
     packets and now emits 31/31 after a later fail-closed custody check, while
@@ -3983,6 +3994,7 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/historical-ledger-snapshot-restoration-wave.json
     - lab/process/current-frontier-currency-custody.json
     - explorations/conditional-build/w154-w229-k77-action-owner-qualification-2026-08-24.md
     - lab/process/w154-w229-k77-action-owner-qualification.json
@@ -4329,8 +4341,10 @@ next_condition: >-
   M-M14 and P-L14 are closed at family-typing and scale-invariance ceilings.
   Reopen them only on the named actual-family/base-integral or absolute-rank
   inputs. Reopen repository/status/reproduction currency only on a concrete
-  red, population delta, discovery omission or semantic path-identity defect;
-  never normalize version-pinned audits.
+  red, population delta, discovery omission or semantic path-identity defect.
+  The v0.3--v0.17 historical snapshot cohort is current at 15/15 with four
+  hostile ancestry controls; reopen it only on a broken predecessor edge,
+  cycle, target skip, revoked append-only authority or version-local regression.
 
   The K77 exact/tangent bank dependency chain and builder-certificate contract
   are current. Reopen them only on a changed tracked dependency, malformed or

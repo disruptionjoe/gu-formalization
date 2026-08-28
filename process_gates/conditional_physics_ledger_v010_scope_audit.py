@@ -6,6 +6,8 @@ import hashlib
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -26,7 +28,6 @@ v9 = strict("lab/process/conditional-physics-ledger-v0.9.json")
 v10 = strict("lab/process/conditional-physics-ledger-v0.10.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/observed-upback-stress-normal-constraint-vacuum.json")
-lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.10.md").read_text()
 report = (ROOT / "explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md").read_text()
 source = (ROOT / "lab/sources/observed-upback-stress-source-reinspection-2026-08-05.md").read_text()
@@ -37,7 +38,6 @@ rows10 = {row["id"]: row for row in v10["rows"]}
 active = [row for row in rows10.values() if row.get("row_status") != "SUPERSEDED"]
 changed = {row_id for row_id in rows9 if rows9[row_id] != rows10[row_id]}
 migrations = [m for m in v10["migrations"] if m.get("to_version") == "0.10"]
-directive = contract["active_scientific_directives"][0]
 
 assert hashlib.sha256(v9p.read_bytes()).hexdigest() == "0ae17658c90f52895a76cd7bbba4079f3074ed40560a97f8efb682da6c0fdc66"
 assert v10["schema_version"] == "0.10"
@@ -78,11 +78,9 @@ assert registry["vacuum"]["stationary_hessian_inertia"] == [6, 4]
 assert registry["vacuum"]["full_nonlinear_T_cubic"] == "OPEN"
 assert registry["residue"]["P1_P2_P3"] == "UNCHANGED_UNUSED"
 
-assert contract["standing_ledger"]["ref"].endswith("v0.10.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.10.md")
-assert "conditional-physics-ledger-v0.10.json" in lanes
-assert directive["source_return"] == "SOURCE-CORRECTS"
-assert directive["next_gate"] == registry["next_gate"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.10.json"
+)
 assert "02:03:07" in source and "SOURCE-CORRECTS" in source
 assert "double pole" in report and "full nonlinear" in report
 assert "SUMMARY_OUTRUNS_ARTIFACT" in review

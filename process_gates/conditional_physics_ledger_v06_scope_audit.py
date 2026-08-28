@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,14 +24,12 @@ def strict(relative: str):
 ledger = strict("lab/process/conditional-physics-ledger-v0.6.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/k77-epsilon-gravitational-soldering-weld.json")
-lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.6.md").read_text()
 report = (ROOT / "explorations/conditional-build/k77-epsilon-gravitational-soldering-weld-2026-08-05.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-05-k77-epsilon-gravitational-soldering-weld-review.md").read_text()
 
 rows = {row["id"]: row for row in ledger["rows"]}
 active = [row for row in rows.values() if row.get("row_status") != "SUPERSEDED"]
-directive = contract["active_scientific_directives"][0]
 
 assert ledger["schema_version"] == "0.6"
 assert ledger["predecessor"].endswith("conditional-physics-ledger-v0.5.json")
@@ -46,11 +46,9 @@ assert "SIGMA_RANK10" in rows["LT-GR2c"]["mapping_grade"]
 assert "SAME_STRATUM_ORTHOGONAL_WELD_EXACT" in rows["LT-GR2c"]["mapping_grade"]
 assert "BULK_DEFECT_NORMALIZATION" in rows["LT-GR2c"]["mapping_grade"]
 
-assert contract["standing_ledger"]["ref"].endswith("v0.6.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.6.md")
-assert "conditional-physics-ledger-v0.6.json" in lanes
-assert directive["source_return"] == "SOURCE-SILENT"
-assert directive["next_gate"] == "CONSTRUCT_GLOBAL_FULL_EPSILON_IG_REDUCTION_OR_OBSTRUCTION_AND_TYPED_BULK_DEFECT_SUPPORT_NORMALIZATION__THEN_ASSEMBLE_NONLINEAR_EVEN_BV_AND_NULL_GREEN_DOMAIN"
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.6.json"
+)
 
 assert registry["receiver"]["rank_on_grade1_carrier"] == 10
 assert registry["projector"]["projector_rank"] == 10

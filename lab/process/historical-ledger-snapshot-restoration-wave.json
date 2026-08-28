@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "historical_ledger_snapshot_restoration_wave",
+  "created": "2026-08-28",
+  "status": "V03_THROUGH_V017_HISTORICAL_CERTIFICATES_CURRENT",
+  "document_role": "process",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only certificate transport; no scientific or ledger movement",
+  "contract": {
+    "historical_snapshot": "the exact named ledger and version-local evidence remain immutable",
+    "current_authority": "the live research-evidence contract names one append-only standing ledger",
+    "ancestry_proof": "walk predecessor edges from the live standing ledger to the exact historical target",
+    "failure_modes": [
+      "append-only authority absent",
+      "historical target skipped",
+      "predecessor cycle",
+      "missing predecessor",
+      "target file missing"
+    ]
+  },
+  "cohort": [
+    "v0.3",
+    "v0.4",
+    "v0.5",
+    "v0.6",
+    "v0.7",
+    "v0.8",
+    "v0.9",
+    "v0.10",
+    "v0.11",
+    "v0.12",
+    "v0.13",
+    "v0.14",
+    "v0.15",
+    "v0.16",
+    "v0.17"
+  ],
+  "validation": {
+    "cohort_before": "0/15 green under the live current-pointer contract",
+    "cohort_after": "15/15 green under historical snapshot plus append-only ancestry",
+    "hostile_ancestry_controls": "4/4 rejected",
+    "fresh_entry_process_gate_census": "274 green / 149 inherited red / 423",
+    "process_gate_census_after": "289 green / 134 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0
+  },
+  "hostile_review": {
+    "strongest_overclaim": "ancestry proves durable custody of each historical result, not that its old next gate remains current or that its scientific ceiling increased",
+    "strongest_contrary_case": "a chain may be syntactically linked while skipping the target, cycling, losing a predecessor, or operating without append-only authority; all four cases are planted and red",
+    "weakest_reproducibility_seam": "the shared predicate is imported from the v0.3 gate by the other fourteen gates, so the complete cohort and direct v0.3 hostile controls must run together",
+    "disagreements": [],
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "historical_ledger_files_changed": 0,
+    "historical_result_files_changed": 0,
+    "historical_source_files_changed": 0,
+    "historical_review_files_changed": 0,
+    "ledger_row_change": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "protected_surface_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "a broken or missing predecessor edge",
+    "a predecessor cycle",
+    "a historical target skipped by the live chain",
+    "revoked append-only ledger authority",
+    "a concrete version-local assertion regression"
+  ]
+}

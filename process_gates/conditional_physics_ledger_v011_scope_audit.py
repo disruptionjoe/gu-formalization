@@ -6,6 +6,8 @@ import hashlib
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,7 +26,6 @@ v10 = strict("lab/process/conditional-physics-ledger-v0.10.json")
 v11 = strict("lab/process/conditional-physics-ledger-v0.11.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/full-norm-pole-split-nonlinear-t-vacuum.json")
-lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.11.md").read_text()
 report = (ROOT / "explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md").read_text()
 source = (ROOT / "lab/sources/full-norm-gravity-source-reinspection-2026-08-05.md").read_text()
@@ -35,7 +36,6 @@ rows11 = {row["id"]: row for row in v11["rows"]}
 active = [row for row in rows11.values() if row.get("row_status") != "SUPERSEDED"]
 changed = {row_id for row_id in rows10 if rows10[row_id] != rows11[row_id]}
 migrations = [m for m in v11["migrations"] if m.get("to_version") == "0.11"]
-directive = contract["active_scientific_directives"][0]
 
 assert hashlib.sha256(v10p.read_bytes()).hexdigest() == "e9fe118810f1ed5915d1cae37d27b0a4ce1cadf69542924f1667584790a29040"
 assert v11["schema_version"] == "0.11"
@@ -72,11 +72,9 @@ assert registry["nonlinear_vacuum_control"]["stable_minimum_found"] is False
 assert registry["nonlinear_vacuum_control"]["selected_moving_k77_frechet_adjoint_vacuum"] == "OPEN"
 assert registry["residue"]["P1_P2_P3"] == "UNCHANGED_UNUSED"
 
-assert contract["standing_ledger"]["ref"].endswith("v0.11.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.11.md")
-assert "conditional-physics-ledger-v0.11.json" in lanes
-assert directive["source_return"] == "SOURCE-SILENT"
-assert directive["next_gate"] == registry["next_gate"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.11.json"
+)
 assert "SOURCE-SILENT" in source and "one-pole-total" in source
 assert "z(\\alpha_{II}\\kappa_1-z)" in report
 assert "SUMMARY_OUTRUNS_ARTIFACT" in review

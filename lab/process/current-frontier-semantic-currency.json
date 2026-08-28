@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
@@ -118,6 +118,14 @@
       "process_gate_census_after": "273 green / 150 inherited red / 423",
       "scientific_effect": "none"
     },
+    "historical_ledger_snapshot_restoration": {
+      "path": "lab/process/historical-ledger-snapshot-restoration-wave.json",
+      "sha256": "b78be0c70453783d9e3793dc3959f9f8e9ea22b1a215931e3a4b10680757e7b7",
+      "cohort_after": "15/15",
+      "hostile_ancestry_controls_after": "4/4",
+      "process_gate_census_after": "289 green / 134 inherited red / 423",
+      "scientific_effect": "none"
+    },
     "status_contract_currency": {
       "path": "lab/process/status-contract-currency-wave.json",
       "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
@@ -181,6 +189,7 @@
       "reproduction/status integrity wave without a new population delta or concrete discovery-scope defect",
       "probe-authorship hardening without a fresh L1-L4 regression or concrete missed/false-positive detector shape",
       "K77 exact/tangent bank reconstruction without a changed tracked dependency, producer-summary defect, payload drift or consumer failure",
+      "historical ledger v0.3-v0.17 snapshot restoration without an exact predecessor break, cycle, target skip, revoked append-only authority or version-local regression",
       "unattended paper lifecycle hardening; the five exact assertions require an explicitly reviewed protected publication-navigation pass"
     ],
     "selection_order": [
@@ -227,6 +236,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/k77-builder-certificate-restoration-wave-2026-08-28.md",
-  "probe_ref": "tests/channel-swings/k77_bank_builder_certificate_contract_probe.py"
+  "result_ref": "lab/process/historical-ledger-snapshot-restoration-wave.json",
+  "probe_ref": "process_gates/conditional_physics_ledger_v03_scope_audit.py"
 }

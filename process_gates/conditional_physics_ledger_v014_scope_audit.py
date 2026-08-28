@@ -6,6 +6,8 @@ import hashlib
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,7 +26,6 @@ v13 = strict("lab/process/conditional-physics-ledger-v0.13.json")
 v14 = strict("lab/process/conditional-physics-ledger-v0.14.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/selected-branch-bv-tt-curvature-vev-flrw.json")
-lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.14.md").read_text()
 report = (ROOT / "explorations/conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md").read_text()
 source = (ROOT / "lab/sources/selected-branch-bv-flrw-source-reinspection-2026-08-05.md").read_text()
@@ -35,7 +36,6 @@ rows14 = {row["id"]: row for row in v14["rows"]}
 active = [row for row in rows14.values() if row.get("row_status") != "SUPERSEDED"]
 changed = {row_id for row_id in rows13 if rows13[row_id] != rows14[row_id]}
 migrations = [item for item in v14["migrations"] if item.get("to_version") == "0.14"]
-directive = contract["active_scientific_directives"][0]
 expected = {"LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR3", "LT-GR5", "LT-GR6"}
 
 assert hashlib.sha256(v13p.read_bytes()).hexdigest() == "7e910115077e45d9b0d4e28f8237514bdb9792b65f684f1af4deac0c3af88677"
@@ -71,12 +71,9 @@ assert registry["exact_results"]["curvature_shift_susceptibility"] == "2/a"
 assert registry["boundaries"]["radiative_screening_local_horn"] == "FAILS"
 assert registry["boundaries"]["ambient_global_nonlocal_cosmology_horn"] == "OPEN"
 
-assert contract["standing_ledger"]["ref"].endswith("v0.14.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.14.md")
-assert "conditional-physics-ledger-v0.14.json" in lanes
-assert directive["source_return"] == "SOURCE-CONFIRMS"
-assert directive["next_gate"] == registry["next_gate"]
-assert directive["resolved_by"].endswith("selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md")
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.14.json"
+)
 assert "Decisive return: `SOURCE-CONFIRMS`" in source
 assert "dR/d rho_vac=2/a" in report and "rank ten" in report
 assert "SUMMARY_OUTRUNS_ARTIFACT" in review

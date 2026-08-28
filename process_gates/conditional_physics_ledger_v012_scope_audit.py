@@ -6,6 +6,8 @@ import hashlib
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,7 +26,6 @@ v11 = strict("lab/process/conditional-physics-ledger-v0.11.json")
 v12 = strict("lab/process/conditional-physics-ledger-v0.12.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/selected-moving-k77-vacuum-p2-norm-placement.json")
-lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.12.md").read_text()
 report = (ROOT / "explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md").read_text()
 source = (ROOT / "lab/sources/selected-moving-k77-vacuum-p2-source-reinspection-2026-08-05.md").read_text()
@@ -35,7 +36,6 @@ rows12 = {row["id"]: row for row in v12["rows"]}
 active = [row for row in rows12.values() if row.get("row_status") != "SUPERSEDED"]
 changed = {row_id for row_id in rows11 if rows11[row_id] != rows12[row_id]}
 migrations = [m for m in v12["migrations"] if m.get("to_version") == "0.12"]
-directive = contract["active_scientific_directives"][0]
 expected = {"LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"}
 
 assert hashlib.sha256(v11p.read_bytes()).hexdigest() == "9495e1279ef26dfb4360ad36ce4240ae44b804d91c42312a897be807486ce954"
@@ -75,13 +75,10 @@ assert registry["selected_vacuum"]["radial_hessian"] == "-14*kappa_1"
 assert registry["selected_vacuum"]["stable_physical_vacuum"] == "OPEN"
 assert registry["residue"]["external_P1_P2_P3"] == "UNCHANGED_UNUSED"
 
-assert contract["standing_ledger"]["ref"].endswith("v0.12.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.12.md")
-assert "conditional-physics-ledger-v0.12.json" in lanes
-assert directive["source_return"] == "SOURCE-CONFIRMS"
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.12.json"
+)
 assert registry["source_return"].startswith("SOURCE-CONFIRMS")
-assert directive["next_gate"] == registry["next_gate"]
-assert directive["resolved_by"].endswith("selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md")
 assert "SOURCE-CONFIRMS" in source and "REPO-DERIVES-COMPOSITION" in source
 assert "\\frac{\\kappa_1}{312}" in report and "-14\\kappa_1" in report
 assert "summary_outruns_artifact" in review

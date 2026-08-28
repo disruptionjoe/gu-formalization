@@ -3,8 +3,11 @@
 
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot, strict
+
 
 ROOT = Path(__file__).resolve().parents[1]
+CONTRACT = strict("lab/methods/research-evidence-contract-v1.0.json")
 
 
 def read(relative: str) -> str:
@@ -18,12 +21,14 @@ checks = {
     "registry exists": (ROOT / "lab/process/selected-cubic-qft-threshold-and-numerator-gate.json").exists(),
     "hostile review exists": (ROOT / "lab/process/hostile-reviews/2026-08-05-selected-cubic-qft-threshold-and-numerator-gate-review.md").exists(),
     "source record exists": (ROOT / "lab/sources/selected-cubic-qft-threshold-and-numerator-gate-source-reinspection-2026-08-05.md").exists(),
-    "LANES points to v0.17": "conditional-physics-ledger-v0.17.json" in read("lab/process/RESEARCH-AGENDA.json"),
+    "current ledger descends to v0.17": reaches_historical_snapshot(
+        CONTRACT, "lab/process/conditional-physics-ledger-v0.17.json"
+    ),
     "NEXT-STEPS points to v0.17": "conditional-physics-ledger-v0.17" in read("NEXT-STEPS.md"),
     "RESEARCH-STATUS points to result": "selected-cubic-qft-threshold-and-numerator-gate" in read("RESEARCH-STATUS.md"),
-    "context pack points to v0.17": "conditional-physics-ledger-v0.17" in read("lab/process/CURRENT-RESEARCH-CONTEXT.md"),
-    "contract points to v0.17": "conditional-physics-ledger-v0.17" in read("lab/methods/research-evidence-contract-v1.0.md"),
-    "contract JSON points to v0.17": "conditional-physics-ledger-v0.17" in read("lab/methods/research-evidence-contract-v1.0.json"),
+    "historical ledger version is exact": strict(
+        "lab/process/conditional-physics-ledger-v0.17.json"
+    )["schema_version"] == "0.17",
     "tests README names probe": "selected_cubic_qft_threshold_numerator_probe.py" in read("tests/README.md"),
     "process README names ledger audit": "conditional_physics_ledger_v017_scope_audit.py" in read("process_gates/README.md"),
     "explorations README names result": "selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md" in read("explorations/README.md"),

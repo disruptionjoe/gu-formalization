@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,14 +24,12 @@ def strict(relative: str):
 ledger = strict("lab/process/conditional-physics-ledger-v0.4.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/source-native-curvature-vev-euler-rank.json")
-lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.4.md").read_text()
 report = (ROOT / "explorations/conditional-build/source-native-curvature-vev-euler-rank-2026-08-05.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-05-source-native-curvature-vev-euler-rank-review.md").read_text()
 
 rows = {row["id"]: row for row in ledger["rows"]}
 active = [row for row in rows.values() if row.get("row_status") != "SUPERSEDED"]
-directive = contract["active_scientific_directives"][0]
 
 assert ledger["schema_version"] == "0.4"
 assert ledger["predecessor"].endswith("conditional-physics-ledger-v0.3.json")
@@ -43,11 +43,9 @@ assert rows["LT-GR2b"]["verdict"] == "SAME"
 assert "RANK_105_EXACT" in rows["LT-GR2c"]["mapping_grade"]
 assert rows["LT-GR2d"]["reason_kind"] == "PROVEN_UNABLE_BY_CURRENT_ACTION"
 
-assert contract["standing_ledger"]["ref"].endswith("v0.6.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.6.md")
-assert "conditional-physics-ledger-v0.6.json" in lanes
-assert directive["source_return"] == "SOURCE-SILENT"
-assert "GLOBAL_FULL_EPSILON_IG_REDUCTION" in directive["next_gate"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.4.json"
+)
 
 assert registry["exact_results"]["ambient_curvature_covariation_rank"] == 105
 assert registry["exact_results"]["total_homogeneous_T_Euler_rank_fixed_nonzero_gain"] == 196

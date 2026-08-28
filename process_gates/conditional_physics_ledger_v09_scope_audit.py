@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -22,14 +24,12 @@ def strict(relative: str):
 ledger = strict("lab/process/conditional-physics-ledger-v0.9.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 registry = strict("lab/process/k77-moving-observation-y14-domain-obstruction.json")
-lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 view = (ROOT / "explorations/conditional-build/conditional-physics-ledger-v0.9.md").read_text()
 report = (ROOT / "explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-05-k77-moving-observation-y14-domain-review.md").read_text()
 
 rows = {row["id"]: row for row in ledger["rows"]}
 active = [row for row in rows.values() if row.get("row_status") != "SUPERSEDED"]
-directive = contract["active_scientific_directives"][0]
 
 assert ledger["schema_version"] == "0.9"
 assert ledger["predecessor"].endswith("conditional-physics-ledger-v0.8.json")
@@ -47,11 +47,9 @@ assert "FIRST_JET_GERM_NO_LEAKAGE_EXACT" in rows["LT-GR2c"]["mapping_grade"]
 assert "PHYSICAL_STRESS_AND_CONSTRAINED_DOMAIN_OPEN" in rows["LT-GR2c"]["mapping_grade"]
 assert "PHYSICAL_UP_AND_BACK_STRESS_OPEN" in rows["LT-GR6"]["mapping_grade"]
 
-assert contract["standing_ledger"]["ref"].endswith("v0.9.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.9.md")
-assert "conditional-physics-ledger-v0.9.json" in lanes
-assert directive["source_return"] == "SOURCE-CORRECTS"
-assert directive["next_gate"] == registry["next_gate"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.9.json"
+)
 assert registry["observation"]["section_germ_no_leakage"] is True
 assert registry["global_shell"]["finite_jet_faithful"] is False
 assert registry["ambient_domain"]["standard_lorentzian_globally_hyperbolic_route"] == "SHARPLY_OBSTRUCTED"

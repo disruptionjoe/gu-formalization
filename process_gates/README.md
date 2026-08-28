@@ -1933,6 +1933,14 @@ preserves the frozen 78-row denominator and verdict counts.
 
 ## Conditional physics ledger v0.3 scope gate
 
+The v0.3--v0.17 certificate cohort treats each named ledger as an immutable
+historical snapshot. Every gate keeps its version-local scientific, source,
+review and scope assertions, and additionally proves that the live contract's
+append-only predecessor chain reaches that exact snapshot. Old current-pointer
+equality is deliberately not required. The v0.3 gate owns hostile controls for
+revoked append-only authority, a skipped target, a predecessor cycle and a
+missing predecessor.
+
 `conditional_physics_ledger_v03_scope_audit.py` preserves v0.2 byte-for-byte,
 requires the append-only five-way `LT-GR2` split, recomputes the 82 active
 targets, and wires the official interview source, Layer-0 flatness fence,
