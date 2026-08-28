@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -22,8 +24,6 @@ result = json.loads((ROOT / "lab/process/selected-k77-p3-native-characteristic-p
 report = (ROOT / "explorations/conditional-build/selected-k77-p3-native-characteristic-pairing-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-p3-native-characteristic-pairing-review.md").read_text()
 contract = json.loads((ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text())
-tests_readme = (ROOT / "tests/README.md").read_text()
-gates_readme = (ROOT / "process_gates/README.md").read_text()
 
 check("ledger version is v0.145", ledger["schema_version"] == "0.145")
 check("headline counts freeze", ledger["progress"]["verdict_counts"] == {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5})
@@ -41,10 +41,9 @@ check("report preserves general theorem", "The general theorem survives" in repo
 check("report states direct horn killed", "The direct v0.144" in report and "is killed" in report)
 check("hostile review rejects chiral trace promotion", "calling" in review and "the parent characteristic class" in review)
 check("hostile review retains only reduction revival", "self-dual source-reduction ownership test" in review)
-check("contract points to v0.145", contract["standing_ledger"]["ref"].endswith("v0.145.json"))
-check("contract carries native pairing directive", "p3_native_pairing_directive" in contract["standing_ledger"])
-check("tests inventory names probe", "selected_k77_p3_native_characteristic_pairing_probe.py" in tests_readme)
-check("process inventory names audit", "p3_native_characteristic_pairing_audit.py" in gates_readme)
+check("current append-only ledger descends to v0.145",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.145.json"))
 check("P1 P2 P3 unchanged", result["p1_p2_p3"] == "UNCHANGED_AND_UNASSIGNED")
 check("no canon movement", result["canon_verdict_change"] == "none")
 

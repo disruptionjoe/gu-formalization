@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS: Counter[str] = Counter()
@@ -108,8 +110,9 @@ check("analytic", "review refuses finite-rank-to-domain inflation",
 check("variational", "source-sign primalizers are not field relabelings",
       "not\nfield-subscript relabelings" in report or "not field-subscript relabelings" in report)
 
-check("routing", "contract and front doors point to v0.140",
-      contract["standing_ledger"]["ref"].endswith("v0.140.json") and "ledger v0.140" in routing)
+check("ledger", "current append-only ledger descends to v0.140",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.140.json"))
 check("routing", "sign-cluster stopping rule routes to new operator or functional build",
       "stopping rule" in routing and "coupled-functional" in routing)
 check("accounting", "no verdict residue quotient datum or P1/P2/P3 moves",

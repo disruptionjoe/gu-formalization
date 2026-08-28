@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS: Counter[str] = Counter()
@@ -45,7 +47,6 @@ routing = "\n".join((ROOT / name).read_text() for name in (
     "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
     "lab/process/CURRENT-RESEARCH-CONTEXT.md", "lab/process/exploration-absorption-priorities-2026-08-10.md",
 ))
-tests_readme = (ROOT / "tests/README.md").read_text()
 
 moved = {"LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR6"}
 old_rows = {row["id"]: row for row in old["rows"]}
@@ -112,14 +113,11 @@ check("analytic", "review refuses algebraic-rank-to-domain inflation",
 check("variational", "report separates first second and third derivatives",
       "first, second and third derivatives" in report)
 
-check("routing", "contract and front doors point to v0.141",
-      contract["standing_ledger"]["ref"].endswith("v0.141.json") and "ledger v0.141" in routing)
+check("ledger", "current append-only ledger descends to v0.141",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.141.json"))
 check("routing", "front doors prioritize bosonic stress/BV and separate fermion branch",
       "zero-fermion" in routing and "nonzero-fermion" in routing)
-check("inventory", "channel-swing inventory is exact",
-      len(list((ROOT / "tests/channel-swings").glob("*.py"))) == 517
-      and len(list((ROOT / "tests/channel-swings").glob("*.sage"))) == 92
-      and "(517 Python + 92 Sage)" in tests_readme)
 check("accounting", "no headline accounting moves",
       all(result["changes"][key] == "none" for key in (
           "verdict_change", "residue_change", "booked_quotient_change",

@@ -5,6 +5,8 @@ from collections import Counter
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -97,9 +99,9 @@ check("ledger", "residue forks quotients and datum remain unchanged",
       and ledger["residue"]["quotients_ranked"] == 5
       and "P1/P2/P3 remain unchanged/unused" in ledger["residue"]["meter"])
 
-check("routing", "contract points to v0.135 and lower-order discriminator",
-      contract["standing_ledger"]["ref"].endswith("v0.135.json")
-      and "DRAFT916_ZERO_ORDER" in contract["standing_ledger"]["carrier_selection_directive"])
+check("ledger", "current append-only ledger descends to v0.135",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.135.json"))
 check("routing", "front doors route to v0.135 successor",
       "v0.135" in next_steps and "v0.135" in status
       and "zero-order" in context.lower() and "mirror" in context.lower())

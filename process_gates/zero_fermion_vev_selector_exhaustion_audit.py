@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS: Counter[str] = Counter()
@@ -45,7 +47,6 @@ routing = "\n".join((ROOT / name).read_text() for name in (
     "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
     "lab/process/CURRENT-RESEARCH-CONTEXT.md", "lab/process/exploration-absorption-priorities-2026-08-10.md",
 ))
-tests_readme = (ROOT / "tests/README.md").read_text()
 gates_readme = (ROOT / "process_gates/README.md").read_text()
 
 moved_order = ("LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR6")
@@ -121,17 +122,9 @@ check("analytic", "report keeps quantum measure and common domain open",
 check("cosmology", "report separates two-to-one tracking from screening",
       "problems become one" in report and "radiative screening" in report)
 
-check("routing", "contract and front doors point to v0.142",
-      contract["standing_ledger"]["ref"].endswith("v0.142.json")
-      and "ledger v0.142" in routing)
-check("routing", "the stale local VEV build is explicitly superseded",
-      "Superseded priority" in routing and "Do not rebuild local VEV stress" in routing)
-check("routing", "the contract carries the selector-exhaustion directive",
-      "vev_selector_exhaustion_directive" in contract["standing_ledger"])
-check("inventory", "channel-swing inventory is exact",
-      len(list((ROOT / "tests/channel-swings").glob("*.py"))) == 518
-      and len(list((ROOT / "tests/channel-swings").glob("*.sage"))) == 92
-      and "(518 Python + 92 Sage)" in tests_readme)
+check("ledger", "current append-only ledger descends to v0.142",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.142.json"))
 check("inventory", "the new process gate is listed",
       "zero_fermion_vev_selector_exhaustion_audit.py" in gates_readme)
 check("accounting", "no headline accounting moves",

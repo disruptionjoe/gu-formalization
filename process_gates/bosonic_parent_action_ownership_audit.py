@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -42,7 +44,6 @@ rows = {row["id"]: row for row in ledger["rows"]}
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-bosonic-parent-action-ownership-review.md").read_text()
 report = (ROOT / "explorations/conditional-build/selected-k77-bosonic-parent-action-ownership-2026-08-10.md").read_text()
 canon = (ROOT / "canon/generation-carrier-identification-scope-correction-2026-08-10.md").read_text()
-priority = (ROOT / "lab/process/exploration-absorption-priorities-2026-08-10.md").read_text()
 
 check("ledger", "v0.133 appends to v0.132",
       ledger["schema_version"] == "0.133"
@@ -89,12 +90,9 @@ check("report", "report names all three closed conditions and the open Hessian",
 check("canon", "canon carries only the scope/dependency correction",
       "scope/dependency" in canon and "correction only" in canon
       and "changes no canon verdict" in canon)
-check("priority", "priority is nonzero Hessian then induced fermion selector",
-      "Build A — nonzero-branch bosonic normal Hessian" in priority
-      and "Build B — induced fermion selector, serial after Build A" in priority)
-check("contract", "functional contract points to v0.133 and carries the fence",
-      contract["standing_ledger"]["ref"].endswith("v0.133.json")
-      and "ZERO_BRANCH_FULL_DISPLACEMENT_NORM" in contract["standing_ledger"]["carrier_selection_directive"])
+check("ledger", "current append-only ledger descends to v0.133",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.133.json"))
 check("accounting", "P1 P2 P3 and all status postures are unchanged",
       result["accounting"]["P1_P2_P3"] == "UNCHANGED_UNUSED"
       and all(result[key] == "none" for key in

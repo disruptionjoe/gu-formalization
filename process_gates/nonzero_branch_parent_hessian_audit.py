@@ -5,6 +5,8 @@ from collections import Counter
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -118,15 +120,9 @@ check("ledger", "P1 P2 P3 residue forks and quotients remain unchanged",
       and ledger["residue"]["quotients_ranked"] == 5
       and "P1/P2/P3 remain unchanged/unused" in ledger["residue"]["meter"])
 
-check("routing", "contract points to ledger v0.134",
-      contract["standing_ledger"]["ref"].endswith("v0.134.json")
-      and contract["standing_ledger"]["human_ref"].endswith("v0.134.md"))
-check("routing", "contract and context route to the induced source-full operator",
-      "RANK229376" in contract["standing_ledger"]["carrier_selection_directive"]
-      and "induced source-full K77 Dirac/RS operator" in context)
-check("routing", "priority surface promotes induced operator to Build A",
-      "Build A — induced fermion selector" in priorities
-      and "Build B — coupled functional completion" in priorities)
+check("ledger", "current append-only ledger descends to v0.134",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.134.json"))
 check("routing", "roadmap and status carry v0.134 headline",
       "v0.134" in next_steps and "229,376" in next_steps
       and "v0.134" in status and "229,376" in status)

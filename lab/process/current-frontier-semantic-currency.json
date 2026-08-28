@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V040_V056_CURRENT__K77_CERTIFICATES_V083_V0100_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V040_V056_CURRENT__K77_CERTIFICATES_V083_V0100_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
@@ -166,6 +166,14 @@
       "restored_cohort_after": "14/14",
       "shared_hostile_ancestry_controls_after": "4/4",
       "process_gate_census_after": "379 green / 44 inherited red / 423",
+      "scientific_effect": "none"
+    },
+    "k77_v0131_v0145_historical_certificate_restoration": {
+      "path": "lab/process/k77-v0131-v0145-historical-certificate-restoration-wave.json",
+      "sha256": "33f0872dca82fc84f440093c4271a46e5480b55e84ad2692b8ea3a8aafaadc35",
+      "restored_cohort_after": "15/15",
+      "shared_hostile_ancestry_controls_after": "4/4",
+      "process_gate_census_after": "394 green / 29 inherited red / 423",
       "scientific_effect": "none"
     },
     "status_contract_currency": {

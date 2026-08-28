@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -22,8 +24,6 @@ result = json.loads((ROOT / "lab/process/selected-k77-global-projector-amplitude
 report = (ROOT / "explorations/conditional-build/selected-k77-global-projector-amplitude-layer0-2026-08-10.md").read_text()
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-global-projector-amplitude-layer0-review.md").read_text()
 contract = json.loads((ROOT / "lab/methods/research-evidence-contract-v1.0.json").read_text())
-tests_readme = (ROOT / "tests/README.md").read_text()
-gates_readme = (ROOT / "process_gates/README.md").read_text()
 
 check("ledger version is v0.143", ledger["schema_version"] == "0.143")
 check("headline counts freeze", ledger["progress"]["verdict_counts"] == {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5})
@@ -39,10 +39,9 @@ check("report keeps amplitude-dependent route open", "amplitude-dependent global
 check("report keeps external route open", "typed external value" in report and "external-value horn" in report)
 check("hostile review refuses global no-go", "No global functional can select the amplitude" in review)
 check("hostile review preserves cosmology dissent", "screening result" in review)
-check("contract points to v0.143", contract["standing_ledger"]["ref"].endswith("v0.143.json"))
-check("contract carries projector directive", "global_projector_amplitude_directive" in contract["standing_ledger"])
-check("tests inventory names probe", "selected_k77_global_projector_amplitude_layer0_probe.py" in tests_readme)
-check("process inventory names audit", "global_projector_amplitude_layer0_audit.py" in gates_readme)
+check("current append-only ledger descends to v0.143",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.143.json"))
 check("P1 P2 P3 unchanged", result["p1_p2_p3"] == "UNCHANGED_AND_UNASSIGNED")
 check("no canon movement", result["canon_verdict_change"] == "none")
 

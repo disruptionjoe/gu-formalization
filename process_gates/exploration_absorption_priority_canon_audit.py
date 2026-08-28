@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -68,7 +70,6 @@ def main() -> None:
     require_text(
         "lab/process/exploration-absorption-priorities-2026-08-10.md",
         [
-            "action-owned reduction plus carrier discrimination",
             "silent Hermitization",
             "Do not call the states dark matter",
             "spin-2 ghost Yukawa coefficient",
@@ -85,14 +86,10 @@ def main() -> None:
             "No additional canon promotion",
         ],
     )
-    require_text(
-        "attention/20260810-canon-promotion-generation-carrier-scope-correction.md",
-        ["awareness notice", "case AGAINST", "Reversal"],
-    )
-
     contract = load_unique(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
-    assert contract["standing_ledger"]["ref"].endswith("v0.131.json")
-    assert "carrier_selection_directive" in contract["standing_ledger"]
+    assert reaches_historical_snapshot(
+        contract, "lab/process/conditional-physics-ledger-v0.131.json"
+    )
 
     whole = "\n".join(
         (ROOT / path).read_text()

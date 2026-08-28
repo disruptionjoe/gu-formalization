@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS: Counter[str] = Counter()
@@ -100,9 +102,9 @@ check("variational", "solution-space tangent is fenced",
       "pointwise field tangent into the gauge orbit" not in report
       and "tangent to the full stationary solution space" in report)
 
-check("routing", "contract and front doors point to v0.137",
-      contract["standing_ledger"]["ref"].endswith("v0.137.json")
-      and "ledger v0.137" in routing)
+check("ledger", "current append-only ledger descends to v0.137",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.137.json"))
 check("routing", "next gate is four-field BV/domain or adapter",
       "four-field BV/constraint/domain" in routing and "different adapter" in routing)
 check("accounting", "no verdict residue quotient datum or P1/P2/P3 moves",

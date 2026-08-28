@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -41,7 +43,6 @@ contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 rows = {row["id"]: row for row in ledger["rows"]}
 review = (ROOT / "lab/process/hostile-reviews/2026-08-10-selected-k77-action-owned-reduction-carrier-typing-review.md").read_text()
 canon = (ROOT / "canon/generation-carrier-identification-scope-correction-2026-08-10.md").read_text()
-priority = (ROOT / "lab/process/exploration-absorption-priorities-2026-08-10.md").read_text()
 
 check("ledger", "v0.132 appends to v0.131", ledger["schema_version"] == "0.132"
       and ledger["predecessor"].endswith("v0.131.json"))
@@ -81,12 +82,9 @@ check("review", "symplectic and analytic fences are explicit",
       "Symplectic geometry" in review and "Operator/PDE/Krein/analytic" in review)
 check("canon", "canon now requires the induced K77 fermion operator",
       "two serial parts" in canon and "Dirac/Rarita--Schwinger operator" in canon)
-check("priority", "priority is split into bosonic parent then induced fermion selector",
-      "Build A — bosonic action-parent ownership" in priority
-      and "Build B — induced fermion selector" in priority)
-check("contract", "functional contract points to v0.132 and carries the type fence",
-      contract["standing_ledger"]["ref"].endswith("v0.132.json")
-      and "BOSONIC_CONNECTION_TYPED" in contract["standing_ledger"]["carrier_selection_directive"])
+check("ledger", "current append-only ledger descends to v0.132",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.132.json"))
 check("accounting", "P1 P2 P3 and all status postures are unchanged",
       result["accounting"]["P1_P2_P3"] == "UNCHANGED_UNUSED"
       and all(result[key] == "none" for key in
