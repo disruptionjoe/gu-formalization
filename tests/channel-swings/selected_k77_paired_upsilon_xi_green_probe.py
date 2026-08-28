@@ -89,7 +89,7 @@ def covariant_d(q, form):
         return {}
     if len(degrees) != 1:
         raise ValueError("covariant_d requires a homogeneous exterior form")
-    degree = next(iter(degrees))
+    degree = next(iter(degrees), -1)
     right_sign = -((-1) ** degree)
     return M["fadd"](
         M["wedge_raw"](q, form),

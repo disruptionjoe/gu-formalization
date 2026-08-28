@@ -93,7 +93,9 @@ def colour_singlets(weights: Counter, predicate) -> int:
     total = 0
     for (coordinate_sum, _h4, _h5), sector in sectors.items():
         base_coordinate = coordinate_sum / 3
-        sample = next(iter(sector))
+        sample = next(iter(sector), None)
+        if sample is None:
+            continue
         if (sample[0] - base_coordinate).denominator != 1:
             continue
         base = (base_coordinate,) * 3

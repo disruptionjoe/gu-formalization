@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-28",
+  "result": "PROBE_L1_CATEGORY_CLOSED",
+  "baseline_before": 84,
+  "baseline_after": 70,
+  "probe_population_before": 1012,
+  "probe_population_after": 1013,
+  "l1_before": 14,
+  "l1_after": 0,
+  "repair_families": [
+    {
+      "id": "INFINITE_ITERATOR_EXHAUSTION_CUSTODY",
+      "selections": 2,
+      "failure_value": "minus_1",
+      "paths": [
+        "tests/channel-swings/construction_prong2_dynamical_probe.py",
+        "tests/channel-swings/shard_cycle_prong2_dynamics_probe.py"
+      ]
+    },
+    {
+      "id": "CARDINALITY_GUARDED_SELECTION_CUSTODY",
+      "selections": 6,
+      "failure_value": "none_or_minus_1_with_existing_guard",
+      "paths": [
+        "tests/channel-swings/joe_directed_sn1_observed_neutrino_mass_pencil_probe.py",
+        "tests/channel-swings/joe_directed_sn3_existing_varpi_xd_incidence_probe.py",
+        "tests/channel-swings/rb1b_native_bosonic_shiab_probe.py",
+        "tests/channel-swings/rb1c_native_grade3_curvature_probe.py",
+        "tests/channel-swings/selected_k77_paired_upsilon_xi_green_probe.py"
+      ]
+    },
+    {
+      "id": "CONSTRUCTION_DOMAIN_NONEMPTY_CUSTODY",
+      "selections": 6,
+      "failure_value": "empty_form_or_minus_1_with_controlled_failure",
+      "paths": [
+        "tests/channel-swings/k77_wave2_euler_shell_two_connection_probe.py",
+        "tests/channel-swings/k77_wave2_two_connection_action_owner_probe.py",
+        "tests/channel-swings/resolver_wave_g_q6_native_tilted_source_port_probe.py"
+      ]
+    }
+  ],
+  "claim_ceiling": "Probe control-flow custody only; successful scientific values and all target verdicts are unchanged.",
+  "forbidden_inferences": [
+    "A zero-L1 lint state establishes a scientific claim.",
+    "Explicit defaults prove the underlying construction domains are physically realized.",
+    "The residual L2 findings are automatically defects or executable work."
+  ],
+  "next_condition": "Rebuild the repository-wide substantial frontier. L1 is closed at zero; any future L1 finding is a fresh regression. Review L2 only semantically and do not normalize immutable historical counts."
+}

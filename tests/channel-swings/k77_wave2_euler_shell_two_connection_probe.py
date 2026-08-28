@@ -237,7 +237,9 @@ def add_forms(*forms: Form) -> Form:
     masks = set().union(*(form.keys() for form in forms))
     if not masks:
         return {}
-    sample = next(next(iter(form.values())) for form in forms if form)
+    sample = next((value for form in forms for value in form.values()), None)
+    if sample is None:
+        return {}
     result: Form = {}
     for mask in masks:
         value = sp.zeros(*sample.shape)
@@ -258,7 +260,9 @@ def scale_form(scalar: sp.Expr, form: Form) -> Form:
 def wedge(left: Form, right: Form) -> Form:
     if not left or not right:
         return {}
-    sample = next(iter(left.values()))
+    sample = next(iter(left.values()), None)
+    if sample is None:
+        return {}
     result: Form = {}
     for left_mask, left_matrix in left.items():
         for right_mask, right_matrix in right.items():

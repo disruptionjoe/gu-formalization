@@ -403,8 +403,12 @@ for form5 in vertical_forms:
     phi = {form5: Fraction(1)}
     image = wave_f.j_q(phi, Fraction(1), Fraction(1))
     all_images_pass &= wave_f.port_projector(image, Fraction(1), Fraction(1)) == image
-    hostile_key = (next(index for index in range(14) if index not in form5),
-                   tuple(sorted((next(index for index in range(14) if index not in form5),) + form5)))
+    outside_index = next((index for index in range(14) if index not in form5), -1)
+    if outside_index < 0:
+        all_images_pass = False
+        adjoint_pass = False
+        continue
+    hostile_key = (outside_index, tuple(sorted((outside_index,) + form5)))
     hostile = {hostile_key: Fraction(2, 3)}
     adjoint_pass &= tensor_pair(image, hostile) == form_pair(phi, wave_f.delta_q(hostile, Fraction(1), Fraction(1)))
 check("exact", "all 252 internal five-blade images are fixed by Pext", all_images_pass)

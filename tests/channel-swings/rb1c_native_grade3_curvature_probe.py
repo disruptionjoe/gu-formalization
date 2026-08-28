@@ -319,7 +319,7 @@ def form_degree(form: Form) -> int:
     degrees = {len(key) for key in form}
     if len(degrees) != 1:
         raise ValueError(f"inhomogeneous or empty form: {degrees}")
-    return next(iter(degrees))
+    return next(iter(degrees), -1)
 
 
 def form_norm(form: Form) -> float:

@@ -100,7 +100,10 @@ class Poly:
         if exponent == -1:
             if len(self.terms) != 1:
                 raise ValueError("inverse is implemented only for monomials")
-            monomial, coefficient = next(iter(self.terms.items()))
+            item = next(iter(self.terms.items()), None)
+            if item is None:
+                raise ValueError("a monomial inverse requires one nonzero term")
+            monomial, coefficient = item
             return Poly({tuple(-value for value in monomial): 1 / coefficient})
         if exponent < 0:
             return (self ** -1) ** (-exponent)
