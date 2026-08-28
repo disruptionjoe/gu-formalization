@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-28",
+  "result": "COMPARATOR_ROUTING_SCOPE_RESTORED_WITH_PROTECTED_EXACT_CONTENT_EXEMPTION",
+  "entering_population": {"candidate_artifacts": 151, "registered": 145, "unclassified": 6, "ratchet_baseline": 5},
+  "final_population": {"candidate_artifacts": 151, "exact_content_exemptions": 1, "derived_scope": 150, "registered": 145, "unclassified": 5, "ratchet_baseline": 5},
+  "scope_exemption": {
+    "path": "lab/active-research/joe-directed/theory-wide-gravity/twg1-the-theory-wide-test-is-action-complete-black-hole-existence-2026-08-26.md",
+    "sha256": "3944ec986c3473cfe716218ce9ce0d88a73c5353ffb30f2095754e9f2052d765",
+    "git_blob": "2eac31630ce067348533ec1a6b29d46c33bf170a",
+    "scope": "OUTSIDE_LISTED_PARTICLE_PHYSICS_COMPARATORS",
+    "protected_artifact_edited": false,
+    "routing_classification_assigned": false
+  },
+  "preserved_legacy_gaps": [
+    "lab/active-research/joe-directed/coset-versus-gauge/cg1-p-is-a-declared-coset-not-a-gauge-sector-2026-08-14.md",
+    "lab/active-research/joe-directed/cosmological-constant-sign/cc1-killing-signature-cannot-sign-lambda-2026-08-14.md",
+    "lab/active-research/joe-directed/four-d-mode-decomposition/md1-form-leg-survives-ad-leg-is-untyped-2026-08-14.md",
+    "lab/active-research/joe-directed/metric-cone-boundedness/mc1-the-cone-does-not-bound-and-the-negative-direction-is-the-cone-itself-2026-08-14.md",
+    "lab/active-research/joe-directed/phi-reduction/phi2-spin-extended-target-has-rank-five-and-phi1s-containment-survives-2026-08-15.md"
+  ],
+  "hostile_controls": {
+    "count": 10,
+    "caught": 10,
+    "classes": ["candidate_population_retained", "single_explicit_exemption", "no_retrofit_classification", "live_exemption_validation", "entering_six_gap_reproduction", "final_five_gap_ratchet", "exemption_removal", "protected_byte_drift", "registered_artifact_exemption", "true_registration_removal"]
+  },
+  "claim_ceiling": "Comparator-routing scope and protected-artifact custody only; no scientific claim, source status, action owner, ledger row, SG4 phase, prediction, confirmation, canon, release state or public posture changes.",
+  "next_condition": "Rebuild the repository-wide substantial frontier. Reopen this scope boundary only when a candidate artifact is proved outside or newly inside the method's listed particle-physics comparator families, or when an exempt artifact's exact bytes change."
+}

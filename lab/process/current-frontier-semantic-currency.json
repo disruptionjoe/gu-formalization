@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_ZERO__STATUS_AND_REPRODUCTION_CONTRACTS_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__COMPARATOR_SCOPE_AND_PROBE_AUTHORSHIP_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "02b8fb032a185032b862458f035d0cb894b83e2b2e8b55ebfae5320bc36c0089"
+      "sha256": "84ec1c178d28997afae8c7d55080fd2af6593bfad7bc93136d511278adcb5209"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -85,6 +85,14 @@
       "after": "zero L1-L4 findings across 1014 probes",
       "historical_or_wave_snapshot_pins_preserved": 51,
       "exact_scientific_or_certificate_local_pins_preserved": 19,
+      "scientific_effect": "none"
+    },
+    "comparator_scope_hardening": {
+      "path": "lab/process/source-native-comparator-scope-hardening-wave.json",
+      "sha256": "65dbfc64a3ee878640ba5bb40bc17412c44a3f37077d647388c2ec74a1cb8b56",
+      "before": "151 candidates / 145 registered / 6 unclassified against baseline 5",
+      "after": "151 candidates / 1 exact-content exemption / 150 in scope / 145 registered / 5 unclassified",
+      "protected_twg1_edited": false,
       "scientific_effect": "none"
     },
     "status_contract_currency": {
@@ -194,6 +202,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/probe-l2-semantic-closure-wave-2026-08-28.md",
-  "probe_ref": "tests/channel-swings/probe_l2_semantic_closure_wave_probe.py"
+  "result_ref": "explorations/source-native-comparator-scope-hardening-wave-2026-08-28.md",
+  "probe_ref": "tests/channel-swings/source_native_comparator_scope_hardening_wave_probe.py"
 }

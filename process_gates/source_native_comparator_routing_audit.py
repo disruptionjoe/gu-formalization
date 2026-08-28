@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 from pathlib import Path
 import unittest
@@ -12,8 +13,10 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 NON_ARTIFACT_DOC_TYPES = ("overview", "stewardship_record")
 REGISTRY_PATH = ROOT / "lab/process/source-native-comparator-routing-registry.json"
+SCOPE_EXEMPTIONS_PATH = ROOT / "lab/process/source-native-comparator-routing-scope-exemptions.json"
 METHOD = "lab/methods/source-native-comparator-routing.md"
 MARKER = "GU-COMPARATOR-ROUTING"
+OUTSIDE_LISTED_SCOPE = "OUTSIDE_LISTED_PARTICLE_PHYSICS_COMPARATORS"
 
 
 def classification_pattern(classification: str) -> str:
@@ -32,7 +35,7 @@ def classification_pattern(classification: str) -> str:
     return r"Classification:\s*[*_]{0,2}`" + re.escape(classification) + r"`"
 
 
-def discovered_artifacts() -> set[str]:
+def candidate_artifacts() -> set[str]:
     result: set[str] = set()
     # Scope is DERIVED FROM CONVENTION, not enumerated.  The previous token
     # list named seven namespaces and rotted as soon as new ones were created:
@@ -69,6 +72,70 @@ def discovered_artifacts() -> set[str]:
     )
     result.update(path for path in explicit if (ROOT / path).exists())
     return result
+
+
+def scope_exemption_entries() -> list[dict[str, str]]:
+    payload = json.loads(SCOPE_EXEMPTIONS_PATH.read_text(encoding="utf-8"))
+    return payload["artifacts"]
+
+
+def scope_exemption_errors(
+    entries: list[dict[str, str]],
+    candidates: set[str],
+    registered: set[str],
+    content_loader=None,
+) -> list[str]:
+    """Validate exact-content exclusions before they can narrow scope.
+
+    The exemption registry is deliberately separate from routing
+    classification. It may say only that a reviewed artifact is outside the
+    method's listed particle-physics comparator families; it may not assign a
+    source/comparator/bridge type to the protected artifact.
+    """
+    if content_loader is None:
+        content_loader = lambda relative: (ROOT / relative).read_bytes()
+    errors: list[str] = []
+    paths = [entry.get("path", "") for entry in entries]
+    if len(paths) != len(set(paths)):
+        errors.append("duplicate scope-exemption path")
+    for entry in entries:
+        path = entry.get("path", "")
+        if path not in candidates:
+            errors.append(f"{path}: exemption is not in candidate scope")
+            continue
+        if path in registered:
+            errors.append(f"{path}: registered artifact cannot also be exempt")
+        if entry.get("scope") != OUTSIDE_LISTED_SCOPE:
+            errors.append(f"{path}: unsupported scope exemption")
+        if not str(entry.get("reason", "")).strip():
+            errors.append(f"{path}: missing exemption reason")
+        try:
+            actual = hashlib.sha256(content_loader(path)).hexdigest()
+        except OSError as exc:
+            errors.append(f"{path}: unreadable exempt artifact: {exc}")
+            continue
+        if entry.get("sha256") != actual:
+            errors.append(f"{path}: exemption sha256 does not match current bytes")
+    return errors
+
+
+def coverage_gap(
+    candidates: set[str], registered: set[str], exempted: set[str]
+) -> set[str]:
+    return candidates - registered - exempted
+
+
+def discovered_artifacts() -> set[str]:
+    candidates = candidate_artifacts()
+    registered = {
+        entry["path"]
+        for entry in json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))["artifacts"]
+    }
+    entries = scope_exemption_entries()
+    errors = scope_exemption_errors(entries, candidates, registered)
+    if errors:
+        raise AssertionError("invalid comparator scope exemptions: " + "; ".join(errors))
+    return candidates - {entry["path"] for entry in entries}
 
 
 # Unclassified artifacts present when scope was widened from the seven-token
@@ -112,10 +179,22 @@ class SourceNativeComparatorRoutingAudit(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.registry = json.loads(REGISTRY_PATH.read_text(encoding="utf-8"))
         cls.entries = cls.registry["artifacts"]
+        cls.candidates = candidate_artifacts()
+        cls.exemptions = scope_exemption_entries()
+
+    def test_scope_exemptions_are_exact_and_fail_closed(self) -> None:
+        registered = {entry["path"] for entry in self.entries}
+        self.assertEqual(
+            [],
+            scope_exemption_errors(
+                self.exemptions, self.candidates, registered
+            ),
+        )
 
     def test_registry_covers_live_comparator_surfaces(self) -> None:
         registered = {entry["path"] for entry in self.entries}
-        discovered = discovered_artifacts()
+        exempted = {entry["path"] for entry in self.exemptions}
+        discovered = self.candidates - exempted
         self.assertEqual(len(registered), len(self.entries), "duplicate registry path")
 
         # Every registered path must still exist in the derived scope.
@@ -128,7 +207,7 @@ class SourceNativeComparatorRoutingAudit(unittest.TestCase):
         # them is the method owner's call, not this gate's -- guessing a
         # CONVENTIONAL_COMPARATOR / BRIDGE / SOURCE_NATIVE label here would be
         # exactly the unsourced attribution this method exists to prevent.
-        gap = sorted(discovered - registered)
+        gap = sorted(coverage_gap(self.candidates, registered, exempted))
         print(f"\nsource_native_comparator_routing_audit[coverage]: "
               f"{len(discovered)} in derived scope, {len(registered)} registered, "
               f"{len(gap)} UNCLASSIFIED (baseline {UNCLASSIFIED_BASELINE}).")

@@ -3291,7 +3291,11 @@ Requires every live Higgs/VEV, family-index, chirality, Majorana/126,
 anomaly, symmetry-breaking and vector-mass comparator surface to repeat the
 mandatory routing notice, point to the source-native method, and carry a typed
 classification. It prevents a conventional-route exclusion from silently
-becoming an adverse GU verdict or default successor.
+becoming an adverse GU verdict or default successor. Exact-content exclusions
+for proved out-of-method artifacts live in
+`lab/process/source-native-comparator-routing-scope-exemptions.json`; the gate
+validates their candidate membership, registration disjointness, reason and
+SHA-256 pin before narrowing scope.
 
 ## Current custody and schema gates
 

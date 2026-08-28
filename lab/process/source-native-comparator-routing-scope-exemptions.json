@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-28",
+  "scope": "Exact-content exclusions from the source-native comparator routing audit candidate set; these rows assign no routing classification and cannot modify their protected artifacts.",
+  "allowed_scope": "OUTSIDE_LISTED_PARTICLE_PHYSICS_COMPARATORS",
+  "artifacts": [
+    {
+      "path": "lab/active-research/joe-directed/theory-wide-gravity/twg1-the-theory-wide-test-is-action-complete-black-hole-existence-2026-08-26.md",
+      "sha256": "3944ec986c3473cfe716218ce9ce0d88a73c5353ffb30f2095754e9f2052d765",
+      "git_blob": "2eac31630ce067348533ec1a6b29d46c33bf170a",
+      "scope": "OUTSIDE_LISTED_PARTICLE_PHYSICS_COMPARATORS",
+      "reason": "TWG1 compares imported and native strong-field gravity constructions (Schwarzschild, Kerr, W229 and selected-K77 action completeness). It contains none of the method's ordinary family-index/chirality, Higgs/VEV, Majorana/126, anomaly-selector, VEV-only-breaking or familiar vector-mass comparator families."
+    }
+  ]
+}
