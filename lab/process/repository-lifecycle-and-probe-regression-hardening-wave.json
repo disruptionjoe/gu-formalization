@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-28",
+  "work_item": "REPOSITORY-LIFECYCLE-AND-PROBE-REGRESSION-HARDENING-WAVE",
+  "scope": "controlled L1 witness repair and exact protected paper-lifecycle wakes",
+  "before": {
+    "probe_authorship": {"violations": 1, "category": "L1", "probes": 1015, "source": "tests/channel-swings/source_native_comparator_scope_hardening_wave_probe.py:58"},
+    "candidate_inventory_audit": {"failing_assertions": 3, "missing_directory_row": "observer-value-selection-theorem", "untyped_missing_staging_note_rows": 1},
+    "root_lifecycle_audit": {"failing_assertions": 2, "staged_reference_error": "published candidate-source references counted as staged while one published build-residue directory was absent", "published_reference_error": "nonempty published tree tested against an obsolete empty-tree assertion"}
+  },
+  "after": {
+    "probe_authorship": {"violations": 0, "categories": ["L1", "L2", "L3", "L4"], "probes": 1015, "baseline_raised": false},
+    "comparator_scope_certificate": {"checks_green": 11, "checks_total": 11},
+    "protected_surface_audit": {"tests_green": 3, "tests_total": 3, "paper_paths_changed": false},
+    "candidate_inventory_audit": {"failing_assertions": 3, "disposition": "protected reviewed wake"},
+    "root_lifecycle_audit": {"failing_assertions": 2, "disposition": "protected reviewed wake"}
+  },
+  "protected_effects": {
+    "paper_path_changed": false,
+    "paper_payload_moved_or_deleted": false,
+    "publication_status_change": false,
+    "doi_or_posted_date_change": false,
+    "scientific_verdict_change": false,
+    "source_status_change": false,
+    "ledger_change": false,
+    "canon_change": false,
+    "public_posture_change": false
+  },
+  "evidence": {
+    "result": "explorations/repository-lifecycle-and-probe-regression-hardening-wave-2026-08-28.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-28-repository-lifecycle-and-probe-regression-hardening-wave-review.md",
+    "probe_gate": "process_gates/probe_authorship_lint.py",
+    "protected_gate": "process_gates/protected_surface_diff_audit.py",
+    "candidate_wake": "process_gates/papers_candidates_readme_inventory_audit.py",
+    "lifecycle_wake": "process_gates/papers_readme_lifecycle_map_audit.py"
+  }
+}

@@ -55,22 +55,27 @@ changed_errors = AUDIT.scope_exemption_errors(
 check("any protected-artifact byte change invalidates the exemption",
       any("sha256" in error for error in changed_errors))
 
-known = next(iter(registered))
-bad_entries = copy.deepcopy(entries)
-bad_entries.append({
-    "path": known,
-    "sha256": AUDIT.hashlib.sha256((ROOT / known).read_bytes()).hexdigest(),
-    "scope": AUDIT.OUTSIDE_LISTED_SCOPE,
-    "reason": "planted invalid exemption of an already classified comparator",
-})
-bad_errors = AUDIT.scope_exemption_errors(bad_entries, candidates, registered)
-check("a registered comparator cannot be hidden behind a scope exemption",
-      any("registered artifact cannot also be exempt" in error for error in bad_errors))
+known = next(iter(registered), None)
+check("the mutation fixture has at least one registered comparator", known is not None)
+if known is not None:
+    bad_entries = copy.deepcopy(entries)
+    bad_entries.append({
+        "path": known,
+        "sha256": AUDIT.hashlib.sha256((ROOT / known).read_bytes()).hexdigest(),
+        "scope": AUDIT.OUTSIDE_LISTED_SCOPE,
+        "reason": "planted invalid exemption of an already classified comparator",
+    })
+    bad_errors = AUDIT.scope_exemption_errors(bad_entries, candidates, registered)
+    check("a registered comparator cannot be hidden behind a scope exemption",
+          any("registered artifact cannot also be exempt" in error for error in bad_errors))
 
-synthetic_registered = set(registered)
-synthetic_registered.remove(known)
-check("removing one true comparator registration reopens the ratchet",
-      len(AUDIT.coverage_gap(candidates, synthetic_registered, exempted)) == 6)
+    synthetic_registered = set(registered)
+    synthetic_registered.remove(known)
+    check("removing one true comparator registration reopens the ratchet",
+          len(AUDIT.coverage_gap(candidates, synthetic_registered, exempted)) == 6)
+else:
+    check("a registered comparator cannot be hidden behind a scope exemption", False)
+    check("removing one true comparator registration reopens the ratchet", False)
 
 failures = 0
 for label, passed in CHECKS:

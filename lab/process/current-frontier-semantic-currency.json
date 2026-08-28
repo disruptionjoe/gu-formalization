@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__COMPARATOR_SCOPE_AND_PROBE_AUTHORSHIP_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "84ec1c178d28997afae8c7d55080fd2af6593bfad7bc93136d511278adcb5209"
+      "sha256": "9a92db37861277273d2bfa09665cc1158915d32afe45ecebd59889b8fbf0d2a5"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -95,6 +95,16 @@
       "protected_twg1_edited": false,
       "scientific_effect": "none"
     },
+    "repository_lifecycle_probe_integrity": {
+      "path": "lab/process/repository-lifecycle-and-probe-regression-hardening-wave.json",
+      "sha256": "cd1bbbc8b955f9170bab1ba4d7c4bbd57947c7f5c8bc8528e47e463e876b1156",
+      "probe_authorship_after": "zero L1-L4 findings across 1015 probes",
+      "candidate_inventory_after": "3 exact assertion failures / protected reviewed wake",
+      "paper_lifecycle_after": "2 exact assertion failures / protected reviewed wake",
+      "protected_surface_audit": "3 of 3 green / no papers path changed",
+      "publication_status_change": false,
+      "scientific_effect": "none"
+    },
     "status_contract_currency": {
       "path": "lab/process/status-contract-currency-wave.json",
       "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
@@ -156,7 +166,8 @@
       "status-contract currency wave without a new semantic defect or fresh measured baseline decrease",
       "repository-surface currency wave without a new concrete red or measured population change",
       "reproduction/status integrity wave without a new population delta or concrete discovery-scope defect",
-      "probe-authorship hardening without a fresh L1-L4 regression or concrete missed/false-positive detector shape"
+      "probe-authorship hardening without a fresh L1-L4 regression or concrete missed/false-positive detector shape",
+      "unattended paper lifecycle hardening; the five exact assertions require an explicitly reviewed protected publication-navigation pass"
     ],
     "selection_order": [
       "fired source-to-proof reopener",
@@ -202,6 +213,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/source-native-comparator-scope-hardening-wave-2026-08-28.md",
+  "result_ref": "explorations/repository-lifecycle-and-probe-regression-hardening-wave-2026-08-28.md",
   "probe_ref": "tests/channel-swings/source_native_comparator_scope_hardening_wave_probe.py"
 }
