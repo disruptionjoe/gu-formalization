@@ -105,6 +105,19 @@
       "publication_status_change": false,
       "scientific_effect": "none"
     },
+    "k77_builder_certificate_restoration": {
+      "path": "lab/process/k77-builder-certificate-restoration-wave.json",
+      "sha256": "62fba00a76d5184a1c01340b778e20a8f34439b76a3415e543103aae90421850",
+      "exact_builder_before": "historical producer PASS 31/31 rejected by literal PASS 30/30 pin",
+      "exact_builder_after": "positive final N/N plus empty failure collection",
+      "exact_bank_audit_after": "30/30",
+      "exact_scientific_payload_changed": false,
+      "tangent_rank": 594,
+      "tangent_vectors_changed": false,
+      "probe_authorship_after": "zero L1-L4 findings across 1016 probes",
+      "process_gate_census_after": "273 green / 150 inherited red / 423",
+      "scientific_effect": "none"
+    },
     "status_contract_currency": {
       "path": "lab/process/status-contract-currency-wave.json",
       "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
@@ -167,6 +180,7 @@
       "repository-surface currency wave without a new concrete red or measured population change",
       "reproduction/status integrity wave without a new population delta or concrete discovery-scope defect",
       "probe-authorship hardening without a fresh L1-L4 regression or concrete missed/false-positive detector shape",
+      "K77 exact/tangent bank reconstruction without a changed tracked dependency, producer-summary defect, payload drift or consumer failure",
       "unattended paper lifecycle hardening; the five exact assertions require an explicitly reviewed protected publication-navigation pass"
     ],
     "selection_order": [
@@ -213,6 +227,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/repository-lifecycle-and-probe-regression-hardening-wave-2026-08-28.md",
-  "probe_ref": "tests/channel-swings/source_native_comparator_scope_hardening_wave_probe.py"
+  "result_ref": "explorations/k77-builder-certificate-restoration-wave-2026-08-28.md",
+  "probe_ref": "tests/channel-swings/k77_bank_builder_certificate_contract_probe.py"
 }

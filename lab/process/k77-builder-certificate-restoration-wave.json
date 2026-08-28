@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-28",
+  "work_item": "K77-BUILDER-CERTIFICATE-RESTORATION-WAVE",
+  "scope": "count-agnostic producer certificate contract and ordered bank reconstruction",
+  "before": {
+    "historical_producer_result": "PASS_31_OF_31",
+    "exact_builder_required_literal": "PASS_30_OF_30",
+    "exact_bank_file_sha256": "4311ae91fd5585349f94bb6ed28ee61d0f3ff31a8914f49eb611b024be37f49f",
+    "tangent_bank_file_sha256": "ff85d1d703072b21e0e58d0cf470f24816691cf6689734d0e0e00b051d9d87dd"
+  },
+  "after": {
+    "builder_contract_probe": "PASS_14_OF_14",
+    "certificate_contract": "POSITIVE_FINAL_N_OF_N_AND_EMPTY_FAILURE_COLLECTION",
+    "diagnostics": ["parsed_summary", "named_failures", "output_tail"],
+    "exact_bank_file_sha256": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8",
+    "exact_bank_construction_hash": "5e2f449da746e3bdcf5e288182af6d39f4d84c175073a3b21c8fe72958033a68",
+    "exact_bank_changed_dependencies": 4,
+    "exact_scientific_payload_equal": true,
+    "tangent_bank_file_sha256": "7a6af298de07ae9d2f37af77e65ce8bc84741e743f3b68b5ebeec5a07a07c36f",
+    "tangent_bank_construction_hash": "dd9845f239aefc0f749784ef8be071a653263aef691d6754d2318843e627db17",
+    "tangent_bank_changed_dependencies": 4,
+    "tangent_rank": 594,
+    "tangent_nnz": 1850,
+    "tangent_vectors_equal": true,
+    "validation": {
+      "exact_bank_audit": "PASS_30_OF_30",
+      "exact_bank_api": "PASS_27_OF_27",
+      "moving_metric_consumer": "PASS_49_OF_49",
+      "complete_euler_jet_consumer": "PASS_74_OF_74",
+      "observation_stabilizer_consumer": "PASS_79_OF_79",
+      "observation_stabilizer_audit": "PASS_15_OF_15",
+      "probe_authorship": "ZERO_FINDINGS_ACROSS_1016_PROBES",
+      "repository_surface_currency": "PASS_40_OF_40",
+      "process_gate_census": "273_GREEN__150_INHERITED_RED__423_TOTAL"
+    }
+  },
+  "truth_effects": {
+    "scientific_payload_change": false,
+    "source_status_change": false,
+    "ledger_change": false,
+    "action_owner_change": false,
+    "canon_change": false,
+    "protected_surface_change": false,
+    "public_posture_change": false
+  },
+  "evidence": {
+    "result": "explorations/k77-builder-certificate-restoration-wave-2026-08-28.md",
+    "contract_probe": "tests/channel-swings/k77_bank_builder_certificate_contract_probe.py",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-28-k77-builder-certificate-restoration-wave-review.md"
+  }
+}

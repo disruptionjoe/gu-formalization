@@ -16,6 +16,7 @@ from io import StringIO
 from pathlib import Path
 import argparse
 import json
+import re
 import runpy
 
 
@@ -26,6 +27,7 @@ SOURCE_CUSTODY = (
     ROOT / "lab/sources/selected-k77-metric-epsilon-hessian-source-reinspection-2026-08-09.md",
     ROOT / "lab/sources/selected-k77-moving-epsilon-first-action-source-reinspection-2026-08-09.md",
 )
+PRODUCER_SUMMARY = re.compile(r"^(?:RESULT:\s*)?PASS\s+(\d+)/(\d+)(?:\s.*)?$")
 
 
 def digest(path: Path) -> str:
@@ -48,6 +50,24 @@ def canonical(payload: dict) -> bytes:
     return (json.dumps(payload, sort_keys=True, separators=(",", ":")) + "\n").encode()
 
 
+def require_producer_pass(output: str, failures, label: str) -> tuple[int, int]:
+    """Require one positive final N/N certificate without pinning N itself."""
+    summary = None
+    for line in reversed(output.splitlines()):
+        match = PRODUCER_SUMMARY.fullmatch(line.strip())
+        if match:
+            summary = tuple(map(int, match.groups()))
+            break
+    failure_list = list(failures)
+    if failure_list or summary is None or summary[0] <= 0 or summary[0] != summary[1]:
+        tail = [line for line in output.splitlines() if line.strip()][-8:]
+        raise RuntimeError(
+            f"{label} did not pass: summary={summary!r}; "
+            f"failures={failure_list!r}; output_tail={tail!r}"
+        )
+    return summary
+
+
 def build() -> dict:
     dependencies: set[Path] = {PRODUCER}
     original = runpy.run_path
@@ -66,8 +86,9 @@ def build() -> dict:
     finally:
         runpy.run_path = original
 
-    if namespace["FAILURES"] or "PASS 30/30" not in capture.getvalue():
-        raise RuntimeError("immutable v0.122 producer did not pass")
+    require_producer_pass(
+        capture.getvalue(), namespace["FAILURES"], "immutable v0.122 producer"
+    )
 
     carrier = namespace["C"]
     algebra = carrier["M"]
