@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES = []
 
@@ -96,15 +98,8 @@ for lens in ("Layer-0 semantics", "Prior art", "Gauge and differential geometry"
              "Cosmology and source criticism"):
     check(f"review lens {lens}", lens in review)
 
-for relative in ("lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
-                 "explorations/README.md", "lab/process/README.md",
-                 "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-                 "lab/methods/research-evidence-contract-v1.0.md"):
-    check(f"current pointer {relative}", "v0.112" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.112.json"))
-check("contract gate", contract["active_scientific_directives"][0]["next_gate"]
-      == successor["next_gate"])
-check("inventory", "(485 Python + 74 Sage)" in read("tests/README.md"))
+check("ledger ancestry", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.111.json"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 source-tangent branch audit: "

@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES = []
@@ -98,20 +100,8 @@ check("report scope", "global algebraic associated-bundle** gate" in report
 check("review verdict", "FULL_TAU_A0_ALGEBRAIC_EDGE_DESCENT_SURVIVES" in review)
 check("symplectic review", "Symplectic" in review and "residual orbit" in review)
 
-current_refs = [
-    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "explorations/README.md",
-    "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-]
-for relative in current_refs:
-    check(f"current pointer {relative}", "v0.102" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.102.json"))
-check("contract next gate", contract["active_scientific_directives"][0]["next_gate"] == registry["next_gate"])
-
-python_count = len(list((ROOT / "tests/channel-swings").glob("*.py")))
-sage_count = len(list((ROOT / "tests/channel-swings").glob("*.sage")))
-check("inventory counts", python_count == 475 and sage_count == 64)
-check("inventory prose", "(475 Python + 64 Sage)" in read("tests/README.md"))
+check("ledger ancestry", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.102.json"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 full tau_A0 moment-map audit: " + "; ".join(FAILURES))

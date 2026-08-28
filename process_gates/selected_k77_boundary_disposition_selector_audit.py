@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES = []
@@ -101,20 +103,8 @@ check("report scope", "The first demand is not yet a source quotation or action 
 check("review verdict", "CONDITIONAL_EDGE_SELECTOR_SURVIVES__SOURCE_AND_ACTION_SELECTION_CLAIM_REJECTED" in review)
 check("symplectic review", "Symplectic geometry" in review and "charged physical symmetries" in review)
 
-current_refs = [
-    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "explorations/README.md",
-    "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-]
-for relative in current_refs:
-    check(f"current pointer {relative}", "v0.101" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.101.json"))
-check("contract next gate", contract["active_scientific_directives"][0]["next_gate"] == registry["next_gate"])
-
-python_count = len(list((ROOT / "tests/channel-swings").glob("*.py")))
-sage_count = len(list((ROOT / "tests/channel-swings").glob("*.sage")))
-check("inventory counts", python_count == 474 and sage_count == 63)
-check("inventory prose", "(474 Python + 63 Sage)" in read("tests/README.md"))
+check("ledger ancestry", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.101.json"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 boundary disposition selector audit: " + "; ".join(FAILURES))

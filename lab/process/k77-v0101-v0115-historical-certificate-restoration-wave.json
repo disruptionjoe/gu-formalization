@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "k77_v0101_v0115_historical_certificate_restoration_wave",
+  "created": "2026-08-28",
+  "status": "COMPLETE__15_OF_15_HISTORICAL_CERTIFICATES_RESTORED",
+  "document_role": "process_certificate",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only restoration of historical K77 v0.101-v0.115 certificate transport",
+  "gu_comparator_routing": "NOT_TRIGGERED__NO_NEW_SCIENTIFIC_OR_COMPARATOR_RESULT",
+  "gu_typed_objects": {
+    "exemption": "PROCESS_ONLY_NO_NEW_SCIENTIFIC_OBJECT"
+  },
+  "contract": {
+    "historical_snapshot": "each certificate keeps its exact named ledger and version-local boundary, branch, action, source, review, control, accounting and migration evidence immutable",
+    "current_authority": "the live research-evidence contract names one append-only standing ledger",
+    "ancestry_proof": "walk predecessor edges from the live standing ledger to each exact historical snapshot",
+    "superseded_checks_removed": [
+      "historical ledger remains the live standing pointer",
+      "historical agenda, directive or successor remains active",
+      "historical contract next gate remains current",
+      "historical front-door or inventory wording remains current"
+    ],
+    "preserved_inputs": [
+      "version-local ledger assertions",
+      "version-local result and exact-computation assertions",
+      "source-return assertions",
+      "hostile-review assertions",
+      "planted-control assertions",
+      "accounting assertions",
+      "migration assertions"
+    ],
+    "failure_modes": [
+      "append-only authority absent",
+      "historical target skipped",
+      "predecessor cycle",
+      "missing predecessor",
+      "target file missing",
+      "version-local scientific or evidence regression"
+    ]
+  },
+  "cohort": {
+    "ledger_span": "v0.101-v0.115",
+    "total_checkpoints": 15,
+    "restored_certificates": 15,
+    "execution_packets": [
+      "v0.101-v0.104",
+      "v0.105-v0.108",
+      "v0.109-v0.115"
+    ],
+    "gates": [
+      "selected_k77_boundary_disposition_selector_audit.py",
+      "selected_k77_full_tau_a0_moment_map_audit.py",
+      "selected_k77_sobolev_edge_current_algebra_audit.py",
+      "selected_k77_stationary_gram_boundary_strata_audit.py",
+      "selected_k77_primitive_epsilon_common_bank_audit.py",
+      "selected_k77_common_first_action_epsilon_hessian_audit.py",
+      "selected_k77_direct_metric_euler_audit.py",
+      "selected_k77_curvature_vev_trace_audit.py",
+      "selected_k77_source_euler_two_to_one_audit.py",
+      "selected_k77_nonconstant_atlas_xi_prolongation_audit.py",
+      "selected_k77_source_tangent_branch_stationarity_audit.py",
+      "selected_k77_full_parent_branch_stationarity_audit.py",
+      "selected_k77_branch_boundary_amplitude_classification_audit.py",
+      "selected_k77_branch_bfv_no_selector_audit.py",
+      "selected_k77_relative_edge_bitorsor_topology_audit.py"
+    ]
+  },
+  "validation": {
+    "restored_cohort_before": "0/15 green under mutable current-pointer, agenda, successor, contract, inventory and front-door expectations",
+    "restored_cohort_after": "15/15 green under historical snapshot plus append-only ancestry",
+    "shared_hostile_ancestry_controls": "4/4 rejected in conditional_physics_ledger_v03_scope_audit.py",
+    "process_gate_census_before": "394 green / 29 inherited red / 423",
+    "process_gate_census_after": "409 green / 14 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0
+  },
+  "hostile_review": {
+    "strongest_overclaim": "append-only ancestry proves durable custody of each historical checkpoint, not that an old agenda or successor remains current or that any scientific grade increased",
+    "strongest_contrary_case": "removing current routing and inventory assertions could erase local scientific content; every historical ledger, result, source, review, computation, control, accounting and migration assertion remains",
+    "weakest_reproducibility_seam": "all fifteen restored gates import one ancestry predicate, so the complete cohort and the predicate's four planted controls run together",
+    "disagreements": [],
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "certificate_files_changed": 15,
+    "historical_ledger_files_changed": 0,
+    "historical_result_files_changed": 0,
+    "historical_source_files_changed": 0,
+    "historical_review_files_changed": 0,
+    "ledger_row_change": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "protected_surface_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "a broken or missing predecessor edge",
+    "a predecessor cycle",
+    "a historical target skipped by the live chain",
+    "revoked append-only ledger authority",
+    "a concrete version-local scientific, source, review, computation, control, accounting or migration regression"
+  ]
+}

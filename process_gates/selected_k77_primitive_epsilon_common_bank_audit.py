@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES = []
@@ -125,20 +127,8 @@ check("review verdict", "SURVIVES_WITH_SCOPE_NARROWING__PRINCIPAL_SELECTED_SPIN_
 check("required reviews", "Layer-0 semantics" in review and "Analytic/Krein" in review
       and "Symplectic" in review and "Variational" in review)
 
-current_refs = [
-    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "explorations/README.md",
-    "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-]
-for relative in current_refs:
-    check(f"current pointer {relative}", "v0.105" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.105.json"))
-check("contract next gate", contract["active_scientific_directives"][0]["next_gate"]
-      == registry["next_gate"])
-
-python_count = len(list((ROOT / "tests/channel-swings").glob("*.py")))
-sage_count = len(list((ROOT / "tests/channel-swings").glob("*.sage")))
-check("inventory prose", f"({python_count} Python + {sage_count} Sage)" in read("tests/README.md"))
+check("ledger ancestry", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.105.json"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 primitive epsilon bank audit: " + "; ".join(FAILURES))

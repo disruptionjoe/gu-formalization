@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f6f620e6d6b4
+revision_basis: 77535cb99b28
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The complete K77 v0.101 through v0.115 historical checkpoint family is
+    current without changing any historical ledger, result, source, review,
+    computation, probe or scientific artifact. Fifteen red certificates now
+    retain their exact version-local boundary, branch, action, source, review,
+    control, accounting and migration assertions while proving an exact
+    predecessor walk from live append-only ledger v0.263, instead of requiring
+    an old standing ledger, agenda, successor, contract, inventory or front
+    door to remain current. The full serialized census improves exactly from
+    394 green / 29 inherited red to 409 / 14 / 423 with no timeout or
+    previously green regression. No source status, action owner, ledger row,
+    SG4 phase, prediction, confirmation, canon, protected surface, release
+    state or public posture moved.
     The complete K77 v0.131 through v0.145 historical checkpoint family is
     current without changing any historical ledger, result, source, review,
     computation, probe or scientific artifact. Fifteen red certificates now
