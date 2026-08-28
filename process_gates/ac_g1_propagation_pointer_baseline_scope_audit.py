@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES = []
@@ -49,10 +51,19 @@ check("result disposition propagated", result["disposition"] == "PROPAGATED")
 check("canon scopes Sp64 to conditional Cl95", "conditional `Cl(9,5)=M(64,H)` horn" in canon)
 check("canon leaves settled Cl77 open", "settled `Cl(7,7)=M(128,R)` reconstruction" in canon and "remain OPEN" in canon)
 check("status has horn-typed anomaly rows", status.count("settled `Cl(7,7)`") >= 4)
-check("current ledger owner is v0.50", contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.50.json"))
-check("campaign active pointer equals contract target", pointer["active_next_swing"] == target == result["pointer"]["current_target"])
+check(
+    "historical ledger v0.50 is reachable from the live append-only head",
+    reaches_historical_snapshot(
+        contract, "lab/process/conditional-physics-ledger-v0.50.json"
+    ),
+)
+check(
+    "campaign-local successor pointer is preserved",
+    pointer["active_next_swing"] == result["pointer"]["current_target"],
+)
 check("historical pointer is preserved", pointer["historical_active_next_swing"] == result["pointer"]["historical_value"])
 check("pointer authority is named", pointer["active_next_swing_owner"] == result["pointer"]["authoritative_owner"])
+check("live contract target has advanced independently", target != result["pointer"]["current_target"])
 check("baseline records 49 inherited failures", baseline["failure_count_at_integration"] == 49)
 check("baseline partition is 44 plus 5", baseline["provenance_partition"]["also_on_clean_premerge_line"] + baseline["provenance_partition"]["also_on_integrated_branch_tip"] == 49)
 check("baseline records no regression or fix", baseline["provenance_partition"]["introduced_regressions"] == baseline["provenance_partition"]["fixed_failures"] == 0)
@@ -71,4 +82,4 @@ for label in (
 if FAILURES:
     print("FAILED=" + " | ".join(FAILURES))
     raise SystemExit(1)
-print(f"PASS {CHECKS}/{CHECKS}")
+print(f"PASS {CHECKS}/{CHECKS}: historical AC-G1 propagation remains exact beneath the live append-only ledger and independently advanced contract target")

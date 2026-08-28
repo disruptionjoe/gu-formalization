@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 required = [
@@ -48,6 +50,7 @@ report = (ROOT / required[1]).read_text()
 review = (ROOT / required[3]).read_text()
 source = (ROOT / required[6]).read_text()
 contract = (ROOT / "lab/methods/research-evidence-contract-v1.0.md").read_text()
+contract_data = strict("lab/methods/research-evidence-contract-v1.0.json")
 lanes = (ROOT / "lab/process/RESEARCH-AGENDA.json").read_text()
 
 check("ledger_current", ledger["status"] == "CURRENT_APPEND_ONLY_LEDGER_V0_222")
@@ -74,8 +77,17 @@ check("h_homonym", "HMINUS_EQUALS_X_OF_SPLUS" in registry["carrier"]["h_homonym"
 check("hostile_three_charges", all(f"Charge {index}" in review for index in (1, 2, 3)))
 check("required_lenses", all(word in review for word in ("Layer-0", "Prior art", "Symplectic", "Analytic")))
 check("source_silent", "Source-silent" in source and "Q_B" in source)
-check("contract_pointer", "conditional-physics-ledger-v0.222.json" in contract)
-check("lanes_pointer", "conditional-physics-ledger-v0.222.json" in lanes)
+check(
+    "contract_ancestry",
+    reaches_historical_snapshot(
+        contract_data,
+        "lab/process/conditional-physics-ledger-v0.222.json",
+    ),
+)
+check(
+    "lanes_live_pointer",
+    contract_data["standing_ledger"]["ref"] in lanes,
+)
 check("no_status_change", registry["claim_status_change"] == registry["canon_verdict_change"] == registry["public_posture_change"] == "NONE")
 check("stationary_zero_not_selection", "does not turn that" in report and "direction on at its stationary point" in report, planted=True)
 check("no_global_section", "pointwise" in report and "global associated-bundle" in report, planted=True)
@@ -89,4 +101,4 @@ print(f"CHECKS={exact} exact + {planted} planted; failures={len(failed)}")
 if failed:
     print("FAILED=" + ",".join(failed))
     raise SystemExit(1)
-print("RESULT=PASS")
+print("RESULT=PASS: historical v0.222 I2B contact/Euler certificate remains exact beneath the live append-only ledger")

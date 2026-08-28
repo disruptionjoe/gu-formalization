@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -67,10 +69,10 @@ require(set(process_gate["requirements"]) == {
     "BOUNDED_EQUIVALENCE_REPLAY", "NO_RECURSIVE_FULL_PREDECESSOR_REBUILD",
 }, "process requirements")
 require(
-    contract["standing_ledger"]["ref"].endswith(
-        ("v0.123.json", "v0.124.json", "v0.125.json")
+    reaches_historical_snapshot(
+        contract, "lab/process/conditional-physics-ledger-v0.123.json"
     ),
-    "contract ledger wiring",
+    "append-only contract ancestry",
 )
 rank_one = ledger["next_work_queue"][0]
 require(rank_one["rank"] == 1 and "durable versioned API" in rank_one["why"], "rank-one process dispatch")
@@ -96,4 +98,4 @@ require([entry["row_id"] for entry in ledger["migrations"][-6:]] == [
     "LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6",
 ], "migration order")
 
-print(f"PASS selected K77 moving-epsilon first-action completion audit: {len(checks)}/{len(checks)}")
+print(f"PASS historical K77 moving-epsilon first-action completion audit: {len(checks)}/{len(checks)} exact assertions beneath the live append-only ledger")

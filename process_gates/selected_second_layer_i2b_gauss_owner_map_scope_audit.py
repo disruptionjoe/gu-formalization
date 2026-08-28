@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -59,12 +61,12 @@ assert "superseded or mistyped object" in review
 assert "mandatory_symplectic_lens: completed" in review
 assert "norm-square architecture" in source
 
-directive = contract["active_scientific_directives"][0]
-assert "FULL_1274_BY_100_RESIDUAL_TARGET" in directive["next_gate"]
-assert "SOURCE-SILENT" in directive["source_return"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.38.json"
+)
 assert registry["external_datum"] == {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"}
 assert registry["curt_track"] == "FORMALLY_SEPARATE_INSIDE_ERIC_LANE"
 assert registry["third_lane"] == "NOT_PROMOTED"
 assert registry["claim_status_change"] == registry["canon_verdict_change"] == registry["public_posture_change"] == "NONE"
 
-print("SELECTED_SECOND_LAYER_I2B_GAUSS_OWNER_MAP_SCOPE_AUDIT_PASS")
+print("PASS: historical v0.38 I2B/Gauss owner-map certificate is immutable and reachable from the current append-only ledger without full-residual, quotient, datum, canon or posture inflation")

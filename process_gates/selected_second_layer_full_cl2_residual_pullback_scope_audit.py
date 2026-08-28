@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -52,12 +54,12 @@ assert "summary outran the artifact" in review.lower()
 assert "superseded or mistyped object" in review
 assert "SOURCE-DISPLAYS-BOSONIC-NORM-SQUARE" in source
 
-directive = contract["active_scientific_directives"][0]
-assert "TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT" in directive["next_gate"]
-assert directive["source_return"] == registry["source_return"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.39.json"
+)
 assert registry["external_datum"] == {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"}
 assert registry["curt_track"] == "FORMALLY_SEPARATE_INSIDE_ERIC_LANE"
 assert registry["third_lane"] == "NOT_PROMOTED"
 assert registry["claim_status_change"] == registry["canon_verdict_change"] == registry["public_posture_change"] == "NONE"
 
-print("SELECTED_SECOND_LAYER_FULL_CL2_RESIDUAL_PULLBACK_SCOPE_AUDIT_PASS")
+print("PASS: historical v0.39 full-Cl2 residual certificate is immutable and reachable from the current append-only ledger without Euler, quotient, datum, canon or posture inflation")

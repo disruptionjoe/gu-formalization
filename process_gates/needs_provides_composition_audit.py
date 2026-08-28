@@ -908,6 +908,29 @@ ADJUDICATED: dict[str, tuple[str, str]] = {
         "LT-GR9 cites W225 and the alpha_W route; composition is evidence "
         "availability, not a selected observed-gravity construction.",
     ),
+    "ART:lab/active-research/joe-directed/theory-wide-gravity/twg1-the-theory-wide-test-is-action-complete-black-hole-existence-2026-08-26.md::E_s^theta": (
+        UNTYPED,
+        "TWG-1 section 'Arcs 3 and 4' types E_s^theta as part of missing "
+        "SF-1 on the complete selected-K77 vacuum equation. Its released-"
+        "action audit explicitly refuses W154/W229 ownership of D1, so a "
+        "same-name provider does not compose across that real-form/action "
+        "boundary.",
+    ),
+    "ART:lab/active-research/joe-directed/theory-wide-gravity/twg1-the-theory-wide-test-is-action-complete-black-hole-existence-2026-08-26.md::Z_U": (
+        UNTYPED,
+        "TWG-1 preserves Z_U only inside the record-current W229 bounded "
+        "no-go and explicitly states that W154/W229 cannot own D1: K95 does "
+        "not transfer to K77, coefficient and Euler/Hilbert roles are "
+        "incomplete, and the exact W154 identity conflicts with a nonzero-Z_U "
+        "completion. Token identity is therefore not a typed supply join.",
+    ),
+    "ART:lab/active-research/joe-directed/theory-wide-gravity/twg1-the-theory-wide-test-is-action-complete-black-hole-existence-2026-08-26.md::alpha_W": (
+        UNTYPED,
+        "TWG-1 section 'Arcs 3 and 4' includes alpha_W in missing SF-1 for "
+        "the complete selected-K77 equation, while its released-action audit "
+        "rules the historical W154/W229 branch out as that action owner. The "
+        "detector found shared notation, not a carrier/action/observable bridge.",
+    ),
 }
 
 # Historical adjudications whose need sites have been superseded stay as

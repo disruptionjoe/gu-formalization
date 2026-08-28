@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "remaining_nonprotected_gate_hardening_wave",
+  "created": "2026-08-28",
+  "status": "COMPLETE__6_OF_6_NONPROTECTED_GATES_RESTORED_OR_ADJUDICATED",
+  "document_role": "process_certificate",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only restoration of historical certificate transport and evidence-local typing of fresh needs/provides collisions",
+  "gu_comparator_routing": "NOT_TRIGGERED__NO_NEW_SCIENTIFIC_OR_COMPARATOR_RESULT",
+  "gu_typed_objects": {
+    "exemption": "PROCESS_ONLY_NO_NEW_SCIENTIFIC_OBJECT"
+  },
+  "historical_certificate_contract": {
+    "standing_ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "append_only_authority": true,
+    "historical_snapshots": [
+      "lab/process/conditional-physics-ledger-v0.38.json",
+      "lab/process/conditional-physics-ledger-v0.39.json",
+      "lab/process/conditional-physics-ledger-v0.50.json",
+      "lab/process/conditional-physics-ledger-v0.123.json",
+      "lab/process/conditional-physics-ledger-v0.222.json"
+    ],
+    "exact_finite_predecessor_walk": "5/5",
+    "preserved_assertions": [
+      "AC-G1 propagation disposition, horn typing, historical pointer, baseline provenance and planted controls",
+      "v0.38 I2B/Gauss dimensions, inertia, coefficients, leakage, source silence and non-promotion fences",
+      "v0.39 full-Cl2 target, coefficients, inertia, source return, review and non-promotion fences",
+      "v0.123 moving-epsilon ranks, support counts, source/review receipts, process requirements, accounting and migrations",
+      "v0.222 contact/Euler fingerprints, pairings, intersections, source/review, accounting, migrations and planted controls"
+    ],
+    "superseded_checks_removed": [
+      "historical v0.50 remains the live standing-ledger head",
+      "historical campaign-local successor equals the independently advanced live contract target",
+      "v0.38 and v0.39 next-gate directives remain the active contract directive",
+      "v0.123 remains one of three permitted live contract heads",
+      "v0.222 remains the live contract and research-agenda ledger pointer"
+    ],
+    "failure_modes": [
+      "append-only ledger authority removed",
+      "predecessor chain missing, skipped or cyclic",
+      "historical snapshot absent",
+      "version-local result, source, review, control, accounting, migration or non-promotion assertion changed"
+    ]
+  },
+  "needs_provides_contract": {
+    "candidate_pairs": 87,
+    "tier1_pairs": 47,
+    "wide_rows": 40,
+    "unadjudicated_before": 3,
+    "unadjudicated_after": 0,
+    "baseline": 0,
+    "new_types": {
+      "UNTYPED": [
+        "TWG1::E_s^theta",
+        "TWG1::Z_U",
+        "TWG1::alpha_W"
+      ]
+    },
+    "typing_basis": "TWG-1 itself declares alpha_W and E_s^theta missing from SF-1 on the complete selected-K77 vacuum equation and refuses W154/W229 ownership of D1 because K95 does not transfer to K77, coefficients and Euler/Hilbert roles are incomplete, and the W154 identity conflicts with nonzero-Z_U completion",
+    "composition_claim": "none; shared notation is not a carrier/action/observable bridge",
+    "protected_twg1_edited": false
+  },
+  "validation": {
+    "selected_cohort_before": "0/6 green",
+    "selected_cohort_after": "6/6 green",
+    "historical_ancestry_controls": "inherited shared finite-walk missing/skip/cycle/append-only controls remain green",
+    "needs_provides_ratcheted_pairs": "87/87 typed with zero stale adjudications",
+    "process_gate_census_before": "414 green / 9 inherited red / 423",
+    "process_gate_census_after": "420 green / 3 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0,
+    "remaining_red": [
+      "hostile_review_lens_coverage_audit.py::LT-GR4 independent adjudication",
+      "papers_candidates_readme_inventory_audit.py::protected candidate navigation",
+      "papers_readme_lifecycle_map_audit.py::protected root lifecycle navigation"
+    ]
+  },
+  "hostile_review": {
+    "strongest_overclaim": "green historical certificates prove durable reproduction of their filed results, not that their former next gates, ledgers or campaign pointers are current; UNTYPED TWG1 pairs prove only that same-name supply is not yet a typed join",
+    "strongest_contrary_case": "removing live-pointer equality could hide a missing old result; every historical gate retains its exact local evidence and fails closed unless the live append-only chain reaches its exact snapshot",
+    "weakest_reproducibility_seam": "the ancestry helper is shared; its own planted controls reject revoked append-only authority, a skipped target, a cycle and a missing predecessor, while each restored gate retains independent version-local assertions",
+    "disagreements": [],
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "certificate_files_changed": 6,
+    "historical_ledger_files_changed": 0,
+    "historical_registry_files_changed": 0,
+    "historical_result_files_changed": 0,
+    "historical_source_files_changed": 0,
+    "historical_review_files_changed": 0,
+    "historical_probe_files_changed": 0,
+    "protected_twg1_files_changed": 0,
+    "protected_paper_files_changed": 0,
+    "ledger_row_change": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "a historical snapshot becomes unreachable from the live append-only ledger",
+    "a version-local result, source, review, control, accounting, migration or non-promotion assertion regresses",
+    "TWG1 or a supplier gains an explicit selected-K77 carrier/action/observable bridge that changes one of the three UNTYPED pair classifications",
+    "the needs/provides detector derives a fresh unadjudicated pair"
+  ]
+}
