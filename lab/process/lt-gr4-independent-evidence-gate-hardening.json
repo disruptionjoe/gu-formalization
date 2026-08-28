@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "lt_gr4_independent_evidence_gate_hardening",
+  "created": "2026-08-28",
+  "status": "COMPLETE__LIVE_INDEPENDENT_DISPOSITION_VERIFIED__LEDGER_IMMUTABLE",
+  "document_role": "process_certificate",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only reconciliation of the LT-GR4 independence audit with already-filed independent evidence",
+  "gu_comparator_routing": "NOT_TRIGGERED__NO_NEW_COMPARATOR_OR_SCIENTIFIC_RESULT",
+  "gu_typed_objects": {
+    "exemption": "PROCESS_ONLY_NO_NEW_SCIENTIFIC_OBJECT"
+  },
+  "independence_contract": {
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_changed": false,
+    "finder_evidence_retained": "cb-b-lagrangian-terms-2026-08-05.md:GR-4",
+    "live_register": "lab/process/phenomenology-disposition-register-v0.1.json",
+    "independent_registry": "lab/process/overdetermined-vacuum-stabilizer-row-disposition-wave.json",
+    "independent_result": "explorations/conditional-build/overdetermined-vacuum-stabilizer-row-disposition-wave-2026-08-24.md",
+    "row_id": "LT-GR4",
+    "terminal_outcome": "PRECISE_IMPOSSIBILITY",
+    "impossibility_id": "PI-PORTED-NEGATIVE-R2-SIGN-NATIVE-STABILITY-1",
+    "target_claim_ceiling": "NONE-NOT-A-KILL",
+    "independent_nonfinder_source": "explorations/scalaron-normsign-and-vacuum-2026-07-11.md",
+    "bounded_meaning": "The pure fourth-order ported-negative-sign class is tachyonic; the GU-native running sign and justified higher-derivative completions remain open."
+  },
+  "validation": {
+    "focused_gate_before": "1 red",
+    "focused_gate_after": "3/3 tests green",
+    "hostile_mutations": "4/4 caught: missing live row, finder-only source set, widened target claim, protected-effect movement",
+    "independent_wave_probe": "PASS with 9/9 planted mutations caught",
+    "live_disposition_register_probe": "411/411",
+    "process_gate_census_before": "420 green / 3 inherited red / 423",
+    "process_gate_census_after": "421 green / 2 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0,
+    "remaining_red": [
+      "papers_candidates_readme_inventory_audit.py::protected candidate navigation",
+      "papers_readme_lifecycle_map_audit.py::protected root lifecycle navigation"
+    ]
+  },
+  "hostile_review": {
+    "strongest_overclaim": "A green independence gate does not compute a GU-native R2 running sign and does not turn the ported sign into a GU verdict.",
+    "strongest_contrary_case": "A terminal register could merely repeat finder prose; the gate therefore requires a non-finder source, exact live and registry row agreement, a bounded impossibility object, the audited NONE-NOT-A-KILL ceiling and zero protected effects.",
+    "weakest_reproducibility_seam": "The audit trusts a live-register evidence path; it resolves and parses that registry, verifies its result path, and fails closed on malformed or absent evidence.",
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "ledger_file_changed": false,
+    "ledger_row_change": false,
+    "new_scientific_adjudication": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "protected_paper_files_changed": 0,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "the live LT-GR4 disposition pointer disappears or no longer resolves",
+    "the independent result loses its bounded target-claim ceiling or non-finder evidence",
+    "a GU-native R2 running sign or justified higher-derivative completion changes the scientific row itself"
+  ]
+}
