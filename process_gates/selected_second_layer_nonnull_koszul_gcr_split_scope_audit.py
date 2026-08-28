@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -35,22 +37,13 @@ assert registry["rerun"] == "61/61 PASS"
 assert ledger["schema_version"] == "0.48"
 assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
 assert ledger["residue"]["quotients_ranked"] == 4
-assert "conditional-physics-ledger-v0.48.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.48.json")
-directive = contract["active_scientific_directives"][0]
-assert "NONNULL_KOSZUL_CONNECTION_PART_BUILT" in directive["status"]
-assert directive["next_run_method"]["target"] == "SOURCE_NATIVE_TRANSVERSE_GCR_OWNER_AND_NULL_SCREEN"
-assert "IDENTIFY_TRANSVERSE_REMAINDER" in directive["next_gate"]
-assert "CONSTRUCT_NULL_SCREEN" in directive["next_gate"]
-assert "SYMPLECTIC_GEOMETRY" in directive["next_run_method"]["mandatory_reviews"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.48.json"
+)
 for token in ("28", "117", "rank four", "null", "Symplectic", "SOURCE-CONFIRMS", "SOURCE-SILENT"):
     assert token in report
 for lens in ("differential geometry", "representation theory", "variational PDE", "symplectic geometry", "Krein/operator theory", "source criticism", "repo archaeology"):
     assert lens in review
 for fence in ("has not been identified", "No scalar", "P1/P2/P3 remain"):
     assert fence in report
-assert "CURRENT NON-NULL KOSZUL/GCR FENCE" in context
-assert "NEXT RUN: TRANSVERSE GCR OWNER AND NULL SCREEN" in next_steps
-assert "ledger v0.48; five" in status
-
-print("PASS: the non-null connection part is constructed, transverse GCR ownership and null continuation remain open, and no datum, quotient, canon or posture inflation occurred")
+print("PASS: historical v0.48 Koszul/GCR certificate is immutable and reachable from the current append-only ledger without datum, quotient, canon or posture inflation")

@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -35,21 +37,13 @@ assert registry["frontier_delta"] == {"headline_delta": "NONE", "conditions_clos
 assert ledger["schema_version"] == "0.42"
 assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
 assert ledger["residue"]["quotients_ranked"] == 4
-assert "conditional-physics-ledger-v0.42.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.42.json")
-directive = contract["active_scientific_directives"][0]
-assert "METRIC_ONLY_OFFTT_WARD_DEFECT_RANK4" in directive["status"]
-assert directive["next_run_method"]["target"] == "FULL_COMOVING_DUPSILON_AND_COUPLED_WARD_DESCENT"
-assert "FULL_COMOVING_DUPSILON" in directive["next_gate"]
-assert "SYMPLECTIC_GEOMETRY" in directive["next_run_method"]["mandatory_reviews"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.42.json"
+)
 for token in ("1157/3589", "rank four", "rank K_metric", "full co-moving", "Symplectic geometry", "SOURCE-SILENT"):
     assert token in report
 for lens in ("Differential geometry", "Representation theory", "Variational PDE", "Symplectic geometry", "Krein/operator theory", "Source criticism"):
     assert lens in review
 for fence in ("not** yet a scalar particle pole", "No scalar pole, coefficient, external datum or fifth quotient", "P1/P2/P3 remain unused"):
     assert fence in report
-assert "CURRENT OFF-TT WARD/OWNER FENCE" in context
-assert "NEXT RUN: FULL CO-MOVING D UPSILON" in next_steps
-assert "ledger v0.42; five distance/priority" in status
-
-print("PASS: off-TT metric recovery, Ward failure and action-owner correction are wired without scalar-pole, full-action, domain, datum, quotient or posture inflation")
+print("PASS: historical v0.42 off-TT Ward/owner certificate is immutable and reachable from the current append-only ledger without scalar-pole, full-action, domain, datum, quotient or posture inflation")

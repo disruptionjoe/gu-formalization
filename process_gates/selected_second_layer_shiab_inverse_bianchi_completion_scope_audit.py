@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -37,22 +39,13 @@ assert registry["rerun"] == "50/50 PASS"
 assert ledger["schema_version"] == "0.47"
 assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
 assert ledger["residue"]["quotients_ranked"] == 4
-assert "conditional-physics-ledger-v0.47.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.47.json")
-directive = contract["active_scientific_directives"][0]
-assert "SPLIT_PREIMAGES_NOT_PRINCIPAL_BIANCHI" in directive["status"]
-assert directive["next_run_method"]["target"] == "SOURCE_NATIVE_TOTAL_GAUSS_CODAZZI_RICCI_AND_RAW_DUPSILON_NATURALITY"
-assert "CONSTRUCT_SOURCE_NATIVE_GAUSS_CODAZZI_RICCI" in directive["next_gate"]
-assert "NO_SPLIT_JET_IDENTIFICATION" in directive["next_gate"]
-assert "SYMPLECTIC_GEOMETRY" in directive["next_run_method"]["mandatory_reviews"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.47.json"
+)
 for token in ("1,274", "rank fourteen", "split", "Symplectic", "SOURCE-CONFIRMS", "SOURCE-SILENT"):
     assert token in report
 for lens in ("differential geometry", "representation theory", "variational PDE", "symplectic geometry", "Krein/operator theory", "source criticism", "repo archaeology"):
     assert lens in review
 for fence in ("does not exclude a total", "No scalar", "P1/P2/P3 remain"):
     assert fence in report
-assert "CURRENT SHIAB-INVERSE/BIANCHI FENCE" in context
-assert "NEXT RUN: TOTAL GAUSS-CODAZZI-RICCI COMPLETION" in next_steps
-assert "ledger v0.47; five" in status
-
-print("PASS: the unique split inverse is rejected as a standalone connection-curvature jet, total GCR completion is next, and no datum, quotient, canon or posture inflation occurred")
+print("PASS: historical v0.47 Shiab/Bianchi certificate is immutable and reachable from the current append-only ledger without datum, quotient, canon or posture inflation")

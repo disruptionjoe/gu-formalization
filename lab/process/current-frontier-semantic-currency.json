@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V040_V056_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
@@ -134,6 +134,15 @@
       "process_gate_census_after": "312 green / 111 inherited red / 423",
       "scientific_effect": "none"
     },
+    "second_layer_historical_certificate_restoration": {
+      "path": "lab/process/second-layer-historical-certificate-restoration-wave.json",
+      "sha256": "50152ef0892fca5710fce0b1b4ed09c07a885abb19b9114ae6351dab46d40a40",
+      "cohort_after": "15/15",
+      "shared_hostile_ancestry_controls_after": "4/4",
+      "frontmatter_failures_after": 0,
+      "process_gate_census_after": "327 green / 96 inherited red / 423",
+      "scientific_effect": "none"
+    },
     "status_contract_currency": {
       "path": "lab/process/status-contract-currency-wave.json",
       "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
@@ -245,6 +254,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/historical-ledger-snapshot-restoration-wave.json",
+  "result_ref": "lab/process/second-layer-historical-certificate-restoration-wave.json",
   "probe_ref": "process_gates/conditional_physics_ledger_v03_scope_audit.py"
 }

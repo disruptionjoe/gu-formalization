@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -45,15 +47,9 @@ assert "SOURCE-SILENT" in registry["source_return"]
 assert ledger["schema_version"] == "0.41"
 assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
 assert ledger["residue"]["quotients_ranked"] == 4
-assert "conditional-physics-ledger-v0.41.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.41.json")
-
-directive = contract["active_scientific_directives"][0]
-assert "MASSIVE_SO3_SPIN2_DIM5_EXACT" in directive["status"]
-assert "SPIN0_POLYNOMIAL" in directive["status"]
-assert directive["next_run_method"]["target"] == "ACTUAL_BACKGROUND_SUBTRACTED_OFF_TT_SECTION_SECOND_VARIATION_AND_SPIN0_POLYNOMIAL"
-assert "DERIVE_SPIN0_POLYNOMIAL" in directive["next_gate"]
-assert "SYMPLECTIC_GEOMETRY" in directive["next_run_method"]["mandatory_reviews"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.41.json"
+)
 
 for token in (
     "dimension five",
@@ -84,8 +80,4 @@ for fence in (
 ):
     assert fence in report
 
-assert "CURRENT MASSIVE SO(3) CLOSURE FENCE" in context
-assert "NEXT RUN: OFF-TT SPIN-ZERO ACTION BLOCK" in next_steps
-assert "ledger v0.41; five distance/priority" in status
-
-print("PASS: massive SO3 spin-two closure and the independent spin-zero identifiability boundary are wired without physical-state, scalar-coefficient, massless-constraint, domain, datum or public-posture inflation")
+print("PASS: historical v0.41 massive SO3 certificate is immutable and reachable from the current append-only ledger without physical-state, scalar-coefficient, massless-constraint, domain, datum or public-posture inflation")

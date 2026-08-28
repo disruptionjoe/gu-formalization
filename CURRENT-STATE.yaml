@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e0352d5b6bcb
+revision_basis: b524bc0fc9d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The 15 red second-layer certificates spanning conditional ledgers v0.40
+    through v0.56 are restored without changing any historical ledger, result,
+    source, review or registry artifact. They now validate immutable
+    version-local science plus an exact predecessor walk from the live
+    append-only v0.263 contract rather than requiring old ledgers, directives
+    or native front doors to remain current. The immediately preceding Run's
+    new process report is also typed under the protected frontmatter schema,
+    which returns to zero failures with all three planted mutations caught.
+    The full serialized census improves from 311 green / 112 inherited red to
+    327 / 96 / 423 with no timeout or previously green regression. No source
+    status, action owner, ledger row, SG4 phase, prediction, confirmation,
+    canon, protected surface, release state or public posture moved.
     The v0.150 through v0.172 K77 historical certificate cohort is restored
     without changing any historical ledger, result, source, review or registry
     artifact. All 23 gates now validate their immutable version-local science
@@ -4005,6 +4017,7 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/second-layer-historical-certificate-restoration-wave.json
     - lab/process/historical-ledger-snapshot-restoration-wave.json
     - lab/process/current-frontier-currency-custody.json
     - explorations/conditional-build/w154-w229-k77-action-owner-qualification-2026-08-24.md
@@ -4349,19 +4362,17 @@ next_condition: >-
   action-root set is empty. Do not synthesize CBRS-1AC, transfer K95 ownership,
   choose a reality convention or execute downstream physicalization owners.
 
-  M-M14 and P-L14 are closed at family-typing and scale-invariance ceilings.
-  Reopen them only on the named actual-family/base-integral or absolute-rank
-  inputs. Reopen repository/status/reproduction currency only on a concrete
-  red, population delta, discovery omission or semantic path-identity defect.
-  The v0.3--v0.17 historical snapshot cohort is current at 15/15 with four
-  hostile ancestry controls; reopen it only on a broken predecessor edge,
-  cycle, target skip, revoked append-only authority or version-local regression.
+  Reopen M-M14/P-L14 only on their named family/base-integral or absolute-rank
+  inputs; reopen maintenance only on a concrete currency or detector regression.
+  The v0.3--v0.17, v0.40--v0.56 second-layer and v0.150--v0.172 K77
+  historical cohorts are current at 15/15, 15/15 and 23/23 with four hostile
+  ancestry controls. Reopen only on a broken predecessor, cycle, target skip,
+  revoked append-only authority or version-local regression. Frontmatter
+  custody reopens only on a concrete population or mapping drift.
 
-  The K77 exact/tangent bank dependency chain and builder-certificate contract
-  are current. Reopen them only on a changed tracked dependency, malformed or
-  red producer summary, scientific payload drift, new API consumer failure or
-  concrete missed/false-positive certificate shape; do not replay the bank
-  rebuild merely because instrumentation counts change.
+  Reopen the current K77 exact/tangent bank only on dependency or payload drift,
+  a malformed/red producer summary, a new consumer failure or a concrete
+  certificate-shape defect.
 
   Probe authorship is zero across L1--L4 and 1,016 probes; reopen only on a
   fresh regression or concrete missed/false-positive detector shape. Paper

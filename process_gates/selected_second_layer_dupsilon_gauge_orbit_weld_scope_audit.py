@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 ROOT = Path(__file__).resolve().parents[1]
 
 
@@ -35,21 +37,13 @@ assert registry["frontier_delta"] == {"headline_delta": "NONE", "conditions_clos
 assert ledger["schema_version"] == "0.43"
 assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
 assert ledger["residue"]["quotients_ranked"] == 4
-assert "conditional-physics-ledger-v0.43.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.43.json")
-directive = contract["active_scientific_directives"][0]
-assert "RANK4_CONNECTION_ORBIT_WELD_FORCED" in directive["status"]
-assert directive["next_run_method"]["target"] == "ACTUAL_SELECTED_DUPSILON_FOUR_CONNECTION_DIFFEO_COLUMNS"
-assert "FOUR_CONNECTION_DIFFEO_COLUMNS" in directive["next_gate"]
-assert "SYMPLECTIC_GEOMETRY" in directive["next_run_method"]["mandatory_reviews"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.43.json"
+)
 for token in ("exactly rank four", "twelve connection directions", "Xi=D Upsilon", "Symplectic geometry", "SOURCE-SILENT"):
     assert token in report
 for lens in ("Differential geometry", "Representation theory", "Variational PDE", "Symplectic geometry", "Krein/operator theory", "Source criticism", "Repo archaeology"):
     assert lens in review
 for fence in ("not the diffeomorphism Ward identity", "not\nunique on the other twelve", "No scalar pole, coefficient, external datum or fifth quotient"):
     assert fence in report
-assert "CURRENT D UPSILON GAUGE-ORBIT WELD FENCE" in context
-assert "NEXT RUN: FOUR ACTUAL D UPSILON COLUMNS" in next_steps
-assert "ledger v0.43; five distance/priority" in status
-
-print("PASS: rank-four residual/connection orbit matching is wired without action-derivative, scalar, BV/BFV, domain, datum, quotient or posture inflation")
+print("PASS: historical v0.43 D Upsilon orbit-weld certificate is immutable and reachable from the current append-only ledger without action-derivative, scalar, BV/BFV, domain, datum, quotient or posture inflation")

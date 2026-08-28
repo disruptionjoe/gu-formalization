@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "second_layer_historical_certificate_restoration_wave",
+  "created": "2026-08-28",
+  "status": "SECOND_LAYER_V040_THROUGH_V056_HISTORICAL_CERTIFICATES_CURRENT__FRONTMATTER_CUSTODY_RESTORED",
+  "document_role": "process",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only certificate and schema transport; no scientific or ledger movement",
+  "contract": {
+    "historical_snapshot": "each certificate keeps its exact named ledger and version-local evidence immutable",
+    "current_authority": "the live research-evidence contract names one append-only standing ledger",
+    "ancestry_proof": "walk predecessor edges from the live standing ledger to each exact historical snapshot",
+    "superseded_checks_removed": [
+      "historical ledger remains the live standing pointer",
+      "historical directive remains the active scientific directive",
+      "historical native front door remains current"
+    ],
+    "frontmatter_custody": "new process reports use the typed process role and the protected population manifest matches the exact tracked mapping",
+    "failure_modes": [
+      "append-only authority absent",
+      "historical target skipped",
+      "predecessor cycle",
+      "missing predecessor",
+      "target file missing",
+      "untyped new legacy status",
+      "frontmatter population or mapping drift"
+    ]
+  },
+  "cohort": {
+    "ledger_span": "v0.40-v0.56",
+    "certificate_gates": 15,
+    "execution_packets": [
+      "v0.40-v0.45",
+      "v0.46-v0.51",
+      "v0.54-v0.56"
+    ],
+    "gates": [
+      "selected_second_layer_tt_euler_preboundary_helicity_scope_audit.py",
+      "selected_second_layer_massive_so3_closure_scope_audit.py",
+      "selected_second_layer_offtt_scalar_ward_owner_scope_audit.py",
+      "selected_second_layer_dupsilon_gauge_orbit_weld_scope_audit.py",
+      "selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py",
+      "selected_second_layer_observation_owner_retype_scope_audit.py",
+      "selected_second_layer_normal_jet_carrier_compatibility_scope_audit.py",
+      "selected_second_layer_shiab_inverse_bianchi_completion_scope_audit.py",
+      "selected_second_layer_nonnull_koszul_gcr_split_scope_audit.py",
+      "selected_second_layer_gcr_exterior_degree_owner_retype_scope_audit.py",
+      "selected_second_layer_translation_curvature_principal_owner_scope_audit.py",
+      "selected_second_layer_transverse117_residual_zero_owner_class_scope_audit.py",
+      "selected_invariant_constituent_operator_naturality_scope_audit.py",
+      "selected_second_layer_residual_constituent_operator_correction_scope_audit.py",
+      "selected_nonzero_background_cartan_spencer_owner_scope_audit.py"
+    ]
+  },
+  "validation": {
+    "cohort_before": "0/15 green under mutable historical current-state expectations",
+    "cohort_after": "15/15 green under historical snapshot plus append-only ancestry",
+    "shared_hostile_ancestry_controls": "4/4 rejected in conditional_physics_ledger_v03_scope_audit.py",
+    "frontmatter_before": "3 failures: population drift, mapping drift and one new untyped legacy status",
+    "frontmatter_after": "0 failures plus 3/3 planted population mutations caught",
+    "process_gate_census_before": "311 green / 112 inherited red / 423",
+    "process_gate_census_after": "327 green / 96 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0
+  },
+  "hostile_review": {
+    "strongest_overclaim": "ancestry proves durable historical custody, not that an old directive remains current or that any scientific grade increased",
+    "strongest_contrary_case": "removing old directive checks could delete real version-local science; all scientific payload, source, review, accounting, result and inventory assertions remain and were replayed",
+    "weakest_reproducibility_seam": "all gates share one ancestry predicate and frontmatter custody depends on an exact tracked mapping; the four ancestry controls and three schema mutations therefore run with the cohort",
+    "disagreements": [],
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "certificate_files_changed": 15,
+    "historical_ledger_files_changed": 0,
+    "historical_result_files_changed": 0,
+    "historical_source_files_changed": 0,
+    "historical_review_files_changed": 0,
+    "historical_registry_files_changed": 0,
+    "ledger_row_change": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "protected_surface_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "a broken or missing predecessor edge",
+    "a predecessor cycle",
+    "a historical target skipped by the live chain",
+    "revoked append-only ledger authority",
+    "a concrete version-local assertion regression",
+    "a new frontmatter population or mapping drift"
+  ]
+}

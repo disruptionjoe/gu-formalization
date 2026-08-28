@@ -1,7 +1,7 @@
 ---
 title: "K77 historical certificate restoration wave"
 created: "2026-08-28"
-status: complete
+status: process
 doc_type: process_report
 typed_objects: EXEMPT-PROSE-ONLY
 target_claim: NONE-NOT-A-KILL

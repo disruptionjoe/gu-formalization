@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -38,22 +40,13 @@ assert registry["frontier_delta"] == {"headline_delta": "NONE", "conditions_clos
 assert ledger["schema_version"] == "0.45"
 assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
 assert ledger["residue"]["quotients_ranked"] == 4
-assert "conditional-physics-ledger-v0.45.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.45.json")
-directive = contract["active_scientific_directives"][0]
-assert "INDEPENDENT_OBSERVATION_COLUMN_REJECTED" in directive["status"]
-assert directive["next_run_method"]["target"] == "SOURCE_NATIVE_J1_UPSILON_NORMAL_JET_AND_TOTAL_METRIC_SECTION_DERIVATIVE"
-assert "SOURCE_NATIVE_J1_UPSILON_NORMAL_JET" in directive["next_gate"]
-assert "CONDITIONAL_FULL_II_OWNER_MAP" in directive["next_gate"]
-assert "SYMPLECTIC_GEOMETRY" in directive["next_run_method"]["mandatory_reviews"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.45.json"
+)
 for token in ("same rank-four", "Observation transport cannot be", "normal first jet", "Symplectic geometry", "SOURCE-CORRECTS", "SOURCE-SILENT"):
     assert token in report
 for lens in ("Differential geometry", "Representation theory", "Variational PDE", "Symplectic geometry", "Krein/operator theory", "Source criticism", "Repo archaeology"):
     assert lens in review
 for fence in ("does **not** make observation irrelevant", "No scalar pole", "P1/P2/P3 remain unused"):
     assert fence in report
-assert "CURRENT OBSERVATION-OWNER FENCE" in context
-assert "NEXT RUN: SOURCE-NATIVE NORMAL JET" in next_steps
-assert "ledger v0.45; five" in status
-
-print("PASS: observation is wired as a receiver and dependent metric-section chain rule, with source-normal-jet ownership open and no scalar, domain, BV/BFV, datum, quotient or posture inflation")
+print("PASS: historical v0.45 observation-owner certificate is immutable and reachable from the current append-only ledger without scalar, domain, BV/BFV, datum, quotient or posture inflation")

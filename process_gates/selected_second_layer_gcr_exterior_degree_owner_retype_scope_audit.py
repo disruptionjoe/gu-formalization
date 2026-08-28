@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -61,17 +63,9 @@ assert ledger["frontier_delta"] == {"headline_delta": "NONE", "conditions_closed
 assert ledger["next_work_queue"][0]["rank"] == 1
 assert "odd augmented-torsion/translation-curvature" in ledger["next_work_queue"][0]["why"]
 
-current_ledger_ref = contract["standing_ledger"]["ref"]
-assert current_ledger_ref in lanes
-current_version = current_ledger_ref.removesuffix(".json").rsplit("v", 1)[1]
-assert tuple(map(int, current_version.split("."))) >= (0, 49)
-directive = contract["active_scientific_directives"][0]
-assert "DIRECT_CL2_GCR_OWNER_KILLED" in directive["status"]
-assert "SINGLE_Q_ADAPTER_KILLED" in directive["status"]
-assert directive["next_run_method"]["target"] == "SOURCE_NATIVE_ODD_CURVATURE_OR_RICHER_SOLDERING_OWNER_AND_NULL_SCREEN"
-assert "CONSTRUCT_SOURCE_NATIVE_ODD_AUGMENTED_TORSION_OR_TRANSLATION_CURVATURE_PACKET" in directive["next_gate"]
-assert "CONSTRUCT_NULL_SCREEN" in directive["next_gate"]
-assert "SYMPLECTIC_GEOMETRY" in directive["next_run_method"]["mandatory_reviews"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.49.json"
+)
 
 for token in ("8,281", "grades one or five", "rank-1,274", "28 + 117", "rank thirteen", "SOURCE-SILENT", "P1/P2/P3 remain"):
     assert token in report
@@ -79,12 +73,9 @@ for lens in ("Differential geometry", "Representation theory", "Variational PDE"
     assert lens in review
 for fence in ("not directly", "type analogy only", "No Euler equation", "no third lane"):
     assert fence in report
-assert "CURRENT GCR GRADE/OWNER FENCE" in context
-assert "GCR CLIFFORD-GRADE OWNER RETYPE" in next_steps
-assert "ledger v0.49; five" in status
 assert registry["external_datum"] == {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"}
 assert registry["curt_track"] == "FORMALLY_SEPARATE_INSIDE_ERIC_LANE"
 assert registry["third_lane_gate"] == "NOT_PROMOTED"
 assert registry["claim_status_change"] == registry["canon_verdict_change"] == registry["public_posture_change"] == "none"
 
-print("PASS: direct Cl2 GCR and single-q ownership are excluded, the exact Cl1 packet survives, and the odd-source/null-screen successor is wired without residue, quotient, datum, canon or posture inflation")
+print("PASS: historical v0.49 GCR owner-retype certificate is immutable and reachable from the current append-only ledger without residue, quotient, datum, canon or posture inflation")
