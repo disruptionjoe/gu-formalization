@@ -109,7 +109,7 @@ check("T", "numpy C agrees with exact C bit-for-bit",
 def order24(x): return 24 // gcd(x % 24, 24) if x % 24 else 1
 check("T", "order(J(k)) = 24/gcd(k,24) for ALL k in 0..23; 3-Sylow = {0,8,16}; "
            "64 -> 16, -64 -> 8",
-      all(order24(k) == next(n for n in range(1, 25) if (n * k) % 24 == 0) for k in range(24))
+      all(order24(k) == next((n for n in range(1, 25) if (n * k) % 24 == 0), -1) for k in range(24))
       and sorted(x for x in range(24) if (3 * x) % 24 == 0) == [0, 8, 16]
       and 64 % 24 == 16 and (-64) % 24 == 8)
 

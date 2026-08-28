@@ -55,7 +55,7 @@ check("T", "J_quat^2 = -1 (C Cbar = -I)", np.max(np.abs(C @ C.conj() + np.eye(12
 res = max(float(np.max(np.abs(e[k] @ C - C @ e[k].conj()))) for k in (0, 4, 9, 13))
 check("T", "sample e_a exactly J_quat-commuting", res == 0.0)
 
-def order24(x): return next(n for n in range(1, 25) if (n * x) % 24 == 0)
+def order24(x): return next((n for n in range(1, 25) if (n * x) % 24 == 0), 0)
 check("T", "3-Sylow of Z/24 = {0,8,16}; order(8)=order(16)=3",
       sorted(x for x in range(24) if (3 * x) % 24 == 0) == [0, 8, 16]
       and order24(8) == 3 and order24(16) == 3)
@@ -162,7 +162,8 @@ for legs in ((9, 0, 1, 2), (13, 3, 7, 8)):
                    for j in range(4)] for i in range(4)])
     d_fwd = float(np.max(np.abs(M - F4))); d_inv = float(np.max(np.abs(M - F4.T)))
     which = "Ad_Lambda = F_v" if d_fwd < d_inv else "Ad_Lambda = F_v^-1 (transport = Lambda^dag)"
-    c_off = next(c for c in range(9) if c not in legs)
+    c_off = next((c for c in range(9) if c not in legs), -1)
+    check("T", f"R2 legs {legs}: an off-base control leg exists", c_off >= 0)
     off = float(np.max(np.abs(L @ G[c_off] - G[c_off] @ L)))
     check("E", f"R2 legs {legs}: Lambda spin-lifts the native deck family exactly "
                f"({which}); identity off the base legs", min(d_fwd, d_inv) < 1e-9

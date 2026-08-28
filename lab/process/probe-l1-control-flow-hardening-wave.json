@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "result": "PROBE_L1_CONTROL_FLOW_HARDENED",
+  "baseline_before": 89,
+  "baseline_after": 84,
+  "probe_population": 1012,
+  "repairs": [
+    {"path": "tests/channel-swings/torsion_arena_probe.py", "selections": 2, "failure_value": "0_or_minus_1"},
+    {"path": "tests/channel-swings/verify_torsion_arena_probe.py", "selections": 1, "failure_value": "minus_1"},
+    {"path": "tests/channel-swings/selected_k77_minimal_hessian_tangent_closure_probe.py", "selections": 1, "failure_value": "minus_1"},
+    {"path": "tests/channel-swings/portfolio_rank128_defect_module_probe.py", "selections": 1, "failure_value": "minus_1"}
+  ],
+  "claim_ceiling": "Control-flow hardening only; all successful scientific values and verdicts are unchanged.",
+  "forbidden_inferences": [
+    "A green certificate establishes physical GU.",
+    "A controlled missing-witness failure changes a scientific verdict.",
+    "The remaining authorship findings are automatically executable work."
+  ]
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2f9b164e13ef
+revision_basis: 1ab4a097934b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Five crash-shaped witness selections across three independent certificate
+    families are now fail-closed without moving their scientific outputs. The
+    direct and independent torsion-arena probes use explicit impossible
+    sentinels for the Z/24 order and off-leg searches; the selected-K77 Hessian
+    closure and rank-128 defect probes do the same for singleton-rank and
+    comparison-witness selection. Missing witnesses now reach existing checks
+    instead of raising uncontrolled StopIteration. The live authorship ratchet
+    falls from 89 to 84 findings across 1,012 probes. No source status, action
+    owner, ledger row, SG4 phase, prediction, confirmation, canon, protected
+    surface, release state or public posture moved.
     M-M26 is executed at its exact primary-source ceiling. Victor S. Shulman's
     1997 theorem supplies a Tomita analogue for weakly closed J-symmetric
     algebras on a pre-existing Pi1 space with a cyclic and separating vector;

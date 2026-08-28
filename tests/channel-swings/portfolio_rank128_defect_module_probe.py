@@ -204,7 +204,8 @@ assert len(mixed_sign) == 24 and not any(equivariant[pair] for pair in mixed_sig
 # first image to itself would stay rank 128, unlike every real pair above.
 duplicate_join = block_matrix(F, 1, 2,
     [[images[transverse[0]], images[transverse[0]]]], sparse=True).rank()
-assert duplicate_join == 128 and duplicate_join != next(iter(joins.values()))
+first_real_join = next(iter(joins.values()), -1)
+assert first_real_join >= 0 and duplicate_join == 128 and duplicate_join != first_real_join
 
 print("PASS: 10 rank-128 images are pairwise disjoint; total rank 1280")
 print("PASS: 21/21 compact same-sign intertwiners; 0/24 mixed boosts")

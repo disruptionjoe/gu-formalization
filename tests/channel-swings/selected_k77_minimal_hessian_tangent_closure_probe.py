@@ -577,7 +577,7 @@ for kind, label in (
 ):
     check(kind, label, True)
 
-symbolwise_closure_rank = next(iter(final_ranks)) if len(final_ranks) == 1 else -1
+symbolwise_closure_rank = next(iter(final_ranks), -1) if len(final_ranks) == 1 else -1
 disposition = (
     "FULL_GRADE2_FORCED_AT_LOCAL_PRINCIPAL_SELECTED_SPIN_GATE"
     if full_joint_rank == 1250 else
