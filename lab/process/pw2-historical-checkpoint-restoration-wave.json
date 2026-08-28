@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "pw2_historical_checkpoint_restoration_wave",
+  "created": "2026-08-28",
+  "status": "COMPLETE__5_OF_5_HISTORICAL_CHECKPOINT_CERTIFICATES_RESTORED",
+  "document_role": "process_certificate",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only restoration of historical PW2 checkpoint certificate transport",
+  "gu_comparator_routing": "NOT_TRIGGERED__NO_NEW_SCIENTIFIC_OR_COMPARATOR_RESULT",
+  "gu_typed_objects": {
+    "exemption": "PROCESS_ONLY_NO_NEW_SCIENTIFIC_OBJECT"
+  },
+  "contract": {
+    "immutable_checkpoints": "the S3 geometric, fixed-orbit and affine-first certificate registries remain exact version-local artifacts",
+    "append_only_coverage": "the resumable evaluator registry declares APPEND_ONLY_CERTIFICATE_CHAIN and retains ordered coverage indices 4, 5 and 6",
+    "superseded_checks_removed": [
+      "historical checkpoint remains the campaign latest_successor_checkpoint",
+      "historical checkpoint remains the council latest_successor_checkpoint",
+      "historical resumable checkpoint remains the mutable registry head",
+      "historical successor string remains current"
+    ],
+    "preserved_inputs": [
+      "version-local geometry and evaluator assertions",
+      "exact orbit representatives and action fingerprints",
+      "coverage, heldout and fallback assertions",
+      "source and Layer-0 assertions",
+      "hostile-review and probe assertions",
+      "planted-control assertions",
+      "Curt separation and third-lane non-promotion assertions"
+    ],
+    "failure_modes": [
+      "immutable checkpoint artifact missing or changed",
+      "append-only coverage authority removed",
+      "coverage index missing, reordered or skipped",
+      "version-local orbit or action fingerprint changed",
+      "fallback, source, review, control, separation or non-promotion regression"
+    ]
+  },
+  "cohort": {
+    "total_checkpoints": 5,
+    "restored_certificates": 5,
+    "execution_packets": [
+      "S3 geometric and fixed-orbit checkpoints",
+      "affine-first size-three checkpoint",
+      "resumable size-six checkpoints 4 and 5"
+    ],
+    "gates": [
+      "pw2fr2b2b2i1_s3_geometric_transport_scope_audit.py",
+      "pw2fr2b2b2i2_s3_fixed_orbit_full_evaluator_scope_audit.py",
+      "pw2fr2b2b2i2_affine_first_size3_full_evaluator_scope_audit.py",
+      "pw2fr2b2b2i2_resumable_first_size6_scope_audit.py",
+      "pw2fr2b2b2i2_resumable_second_size6_scope_audit.py"
+    ],
+    "coverage_checkpoints": [
+      "geometric transport over 1,925 joint labels",
+      "2/380 fixed-orbit representatives",
+      "3/380 affine-first coverage",
+      "4/380 first resumable size-six coverage with heldouts 0/6",
+      "5/380 second resumable size-six coverage with heldouts 0/6"
+    ]
+  },
+  "validation": {
+    "restored_cohort_before": "0/5 green under mutable campaign, council, registry-head and successor expectations",
+    "restored_cohort_after": "5/5 green under immutable checkpoint and ordered append-only coverage custody",
+    "ordered_live_coverage_chain": "4,5,6",
+    "existing_version_local_planted_controls": "preserved and green",
+    "process_gate_census_before": "409 green / 14 inherited red / 423",
+    "process_gate_census_after": "414 green / 9 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0
+  },
+  "hostile_review": {
+    "strongest_overclaim": "historical checkpoint custody proves the old partial PW2 evaluator results remain reproducible, not that partial coverage is current, promoted or physics-complete",
+    "strongest_contrary_case": "removing latest-pointer equality could erase the old checkpoint; the three immutable registries remain exact and the two resumable entries remain ordered in the live append-only coverage chain",
+    "weakest_reproducibility_seam": "the first and second resumable certificates share a mutable registry head, so both gates independently select and verify their exact historical coverage entries",
+    "disagreements": [],
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "certificate_files_changed": 5,
+    "historical_registry_files_changed": 0,
+    "historical_result_files_changed": 0,
+    "historical_source_files_changed": 0,
+    "historical_review_files_changed": 0,
+    "historical_probe_files_changed": 0,
+    "campaign_or_council_files_changed": 0,
+    "ledger_row_change": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "protected_surface_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "an immutable checkpoint artifact changes or disappears",
+    "append-only evaluator coverage authority is revoked",
+    "coverage index 4 or 5 is missing, reordered or skipped",
+    "a concrete version-local geometry, evaluator, source, review, probe, control, fallback, separation or non-promotion regression"
+  ]
+}

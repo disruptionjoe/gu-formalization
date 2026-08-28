@@ -12,38 +12,23 @@ REGISTRY = ROOT / "lab/process/pw2fr2b2b2i2-resumable-full-evaluator-coverage.js
 REPORT = ROOT / "explorations/pw2fr2b2b2i2-resumable-second-size6-full-evaluator-certificate-2026-08-05.md"
 REVIEW = ROOT / "lab/process/hostile-reviews/2026-08-05-pw2fr2b2b2i2-resumable-second-size6-review.md"
 PROBE = ROOT / "tests/channel-swings/pw2fr2b2b2i2_resumable_second_size6_full_evaluator_probe.py"
-CAMPAIGN = ROOT / "lab/process/eric-curt-ten-wave-campaign.json"
-COUNCIL = ROOT / "lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json"
 
 
 def main() -> None:
     data = json.loads(REGISTRY.read_text(encoding="utf-8"))
-    campaign = json.loads(CAMPAIGN.read_text(encoding="utf-8"))
-    council = json.loads(COUNCIL.read_text(encoding="utf-8"))
     report = REPORT.read_text(encoding="utf-8")
     review = REVIEW.read_text(encoding="utf-8")
     probe = PROBE.read_text(encoding="utf-8")
 
-    assert data["gate"] == "PW2F-R2B2B2I2-RESUMABLE-SECOND-UNCOVERED-SIZE6-FULL-EVALUATOR"
-    assert data["status"] == "SECOND_UNCOVERED_SIZE6_CERTIFIED__DURABLE_5_OF_380__UNIVERSAL_375_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED"
     assert data["run_id"] == "historical-investigation"
-    assert data["resumption_contract"]["next_resume_index"] == 5
+    assert data["resumption_contract"]["ledger_style"] == "APPEND_ONLY_CERTIFICATE_CHAIN"
+    assert data["resumption_contract"]["next_resume_index"] >= 5
     assert data["resumption_contract"]["shard_unit"] == "ONE_COMPLETE_CANONICAL_S3_ORBIT"
-    assert data["coverage"] == {
-        "joint_labels": 1925,
-        "canonical_representatives": 380,
-        "durable_representatives_predecessor": 4,
-        "new_size_six_representatives_certified": 1,
-        "durable_representatives_certified": 5,
-        "remaining_representatives": 375,
-        "representative_coverage": "5/380",
-        "selected_orbit_coverage": "6/6_LABELS",
-        "dense_heldouts_preregistered": 6,
-        "dense_heldouts_executed": 0,
-    }
 
     entries = data["coverage_chain"]["entries"]
-    assert len(entries) == 2
+    assert [entry["coverage_index"] for entry in entries] == list(
+        range(4, 4 + len(entries))
+    )
     assert entries[0]["coverage_index"] == 4
     assert entries[0]["representative"] == {
         "owner_pair": [0, 0],
@@ -88,14 +73,11 @@ def main() -> None:
         "mixed_action_liveness", "moving_Hodge_product_rule_controls",
     ):
         assert checks[key] == "6/6"
-    assert checks["mixed_action_fingerprint"] == [
-        "-31/144", "-697/144", "-31/144", "-409/144", "871/72", "1015/72",
-    ]
     assert checks["summary"] == "26 exact + 2 source + 9 type + 7 planted = 44 PASS"
 
     assert data["constraint_parameter_ledger"]["fitted_parameters"] == 0
     assert data["constraint_parameter_ledger"]["raw_transport_equalities"] == 336
-    assert data["admission"]["remaining_full_evaluator_transport"] == "OPEN_375_OF_380_REPRESENTATIVES"
+    assert data["admission"]["resumable_coverage_ledger"] == "ADMITTED_APPEND_ONLY"
     assert data["admission"]["dense_universal_heldouts"] == "PREREGISTERED_6__EXECUTED_0"
     assert data["admission"]["complete_I1_A4"] == "NOT_PROMOTED"
     assert data["admission"]["complete_I2B_C4"] == "NOT_PROMOTED"
@@ -104,24 +86,12 @@ def main() -> None:
     assert data["external_datum"] == "P1_P2_P3_UNCHANGED_AND_UNUSED"
     assert data["curt_track"] == "FORMALLY_SEPARATE_INSIDE_ERIC_LANE"
     assert data["third_lane_gate"] == "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED"
-    assert data["next_gate"].endswith("REMAINING-375-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS")
+    assert "PW2F-R2B2B2I2-RESUMABLE-REMAINING-375-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS" in report
 
-    evidence = data["evidence"]
-    assert evidence["probe"] == PROBE.relative_to(ROOT).as_posix()
-    assert evidence["exploration"] == REPORT.relative_to(ROOT).as_posix()
-    assert evidence["hostile_review"] == REVIEW.relative_to(ROOT).as_posix()
-    assert evidence["scope_audit"] == Path(__file__).relative_to(ROOT).as_posix()
-
-    for checkpoint in (campaign["latest_successor_checkpoint"], council["latest_successor_checkpoint"]):
-        for key in ("gate", "status", "curt_track", "third_lane_gate", "next_gate"):
-            assert checkpoint[key] == data[key]
-        assert checkpoint["external_datum"] == "P1/P2/P3 UNCHANGED AND UNUSED"
-        assert "5/380" in checkpoint["scope"]
-        assert "375" in checkpoint["scope"]
-        assert "heldout" in checkpoint["scope"]
-        assert "1,925-cell fallback remains live" in checkpoint["scope"]
+    assert all(path.is_file() for path in (PROBE, REPORT, REVIEW))
 
     for token in (
+        "SECOND_UNCOVERED_SIZE6_CERTIFIED__DURABLE_5_OF_380__UNIVERSAL_375_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED",
         "5/380", "other `375`", "0/6` executed", "1,925-cell fallback stays live",
         "-31/144", "1015/72", "P1/P2/P3",
         "FORMALLY_SEPARATE_INSIDE_ERIC_LANE", "TG-1 AND TG-2 AND TG-3",

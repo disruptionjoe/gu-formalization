@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 77535cb99b28
+revision_basis: 2d19a1d666a8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The five historical PW2 checkpoint certificates are current without
+    changing any historical registry, result, source, review, probe, campaign,
+    council or scientific artifact. The geometric, fixed-orbit and affine
+    checkpoints retain their exact immutable registries; the first and second
+    resumable size-six checkpoints retain their exact ordered entries in the
+    live append-only 4-to-5-to-6 evaluator coverage chain. All version-local
+    geometry, action fingerprints, coverage, heldout, fallback, source,
+    control, Curt-separation and non-promotion assertions remain while obsolete
+    requirements that a historical checkpoint remain the mutable campaign,
+    council or registry head are removed. The full serialized census improves
+    exactly from 409 green / 14 inherited red to 414 / 9 / 423 with no timeout
+    or previously green regression. No source status, action owner, ledger row,
+    SG4 phase, prediction, confirmation, canon, protected surface, release
+    state or public posture moved.
     The complete K77 v0.101 through v0.115 historical checkpoint family is
     current without changing any historical ledger, result, source, review,
     computation, probe or scientific artifact. Fifteen red certificates now

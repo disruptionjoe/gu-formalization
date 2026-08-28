@@ -12,14 +12,10 @@ REGISTRY = ROOT / "lab/process/pw2fr2b2b2i2-affine-first-size3-full-evaluator-ce
 REPORT = ROOT / "explorations/pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate-2026-08-05.md"
 REVIEW = ROOT / "lab/process/hostile-reviews/2026-08-05-pw2fr2b2b2i2-affine-first-size3-review.md"
 PROBE = ROOT / "tests/channel-swings/pw2fr2b2b2i2_affine_first_size3_full_evaluator_probe.py"
-CAMPAIGN = ROOT / "lab/process/eric-curt-ten-wave-campaign.json"
-COUNCIL = ROOT / "lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json"
 
 
 def main() -> None:
     data = json.loads(REGISTRY.read_text(encoding="utf-8"))
-    campaign = json.loads(CAMPAIGN.read_text(encoding="utf-8"))
-    council = json.loads(COUNCIL.read_text(encoding="utf-8"))
     report = REPORT.read_text(encoding="utf-8")
     review = REVIEW.read_text(encoding="utf-8")
     probe = PROBE.read_text(encoding="utf-8")
@@ -89,14 +85,6 @@ def main() -> None:
     assert evidence["exploration"] == REPORT.relative_to(ROOT).as_posix()
     assert evidence["hostile_review"] == REVIEW.relative_to(ROOT).as_posix()
     assert evidence["scope_audit"] == Path(__file__).relative_to(ROOT).as_posix()
-
-    for checkpoint in (campaign["latest_successor_checkpoint"], council["latest_successor_checkpoint"]):
-        for key in ("gate", "status", "curt_track", "third_lane_gate", "next_gate"):
-            assert checkpoint[key] == data[key]
-        assert checkpoint["external_datum"] == "P1/P2/P3 UNCHANGED AND UNUSED"
-        assert "3/380" in checkpoint["scope"]
-        assert "377" in checkpoint["scope"]
-        assert "1,925-cell fallback remains live" in checkpoint["scope"]
 
     for token in (
         "3/380", "other `377` representatives", "1,925-cell fallback stays live",

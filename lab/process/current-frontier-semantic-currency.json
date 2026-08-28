@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V040_V056_CURRENT__K77_CERTIFICATES_V083_V0115_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V040_V056_CURRENT__K77_CERTIFICATES_V083_V0115_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
@@ -184,6 +184,14 @@
       "process_gate_census_after": "409 green / 14 inherited red / 423",
       "scientific_effect": "none"
     },
+    "pw2_historical_checkpoint_restoration": {
+      "path": "lab/process/pw2-historical-checkpoint-restoration-wave.json",
+      "sha256": "8da2394af6f88692ee616a199162d35d97ce3c0cc7997c97ebcd7c10128a4864",
+      "restored_cohort_after": "5/5",
+      "ordered_live_coverage_chain": "4,5,6",
+      "process_gate_census_after": "414 green / 9 inherited red / 423",
+      "scientific_effect": "none"
+    },
     "status_contract_currency": {
       "path": "lab/process/status-contract-currency-wave.json",
       "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
@@ -253,6 +261,7 @@
       "K77 historical certificate v0.101-v0.115 restoration without an exact predecessor break, cycle, target skip, revoked append-only authority or version-local regression",
       "K77 historical certificate v0.177-v0.190 restoration without an exact predecessor break, cycle, target skip, revoked append-only authority or version-local regression",
       "K77 Wave-2 historical certificate restoration without campaign/wave identity drift, required emission loss, or a version-local scientific/source/review/probe regression",
+      "PW2 historical checkpoint restoration without immutable-registry drift, revoked append-only coverage authority, a missing/reordered/skipped coverage entry, or a version-local regression",
       "unattended paper lifecycle hardening; the five exact assertions require an explicitly reviewed protected publication-navigation pass"
     ],
     "selection_order": [
@@ -299,6 +308,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k77-v0101-v0115-historical-certificate-restoration-wave.json",
+  "result_ref": "lab/process/pw2-historical-checkpoint-restoration-wave.json",
   "probe_ref": "process_gates/k77_action_concomitant_residual_flag_gate_audit.py"
 }

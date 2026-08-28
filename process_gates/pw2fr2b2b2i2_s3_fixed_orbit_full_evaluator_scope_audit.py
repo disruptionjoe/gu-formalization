@@ -12,14 +12,10 @@ REGISTRY = ROOT / "lab/process/pw2fr2b2b2i2-s3-fixed-orbit-full-evaluator-certif
 REPORT = ROOT / "explorations/pw2fr2b2b2i2-s3-fixed-orbit-full-evaluator-certificate-2026-08-05.md"
 REVIEW = ROOT / "lab/process/hostile-reviews/2026-08-05-pw2fr2b2b2i2-fixed-orbit-review.md"
 PROBE = ROOT / "tests/channel-swings/pw2fr2b2b2i2_s3_fixed_orbit_full_evaluator_probe.py"
-CAMPAIGN = ROOT / "lab/process/eric-curt-ten-wave-campaign.json"
-COUNCIL = ROOT / "lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json"
 
 
 def main() -> None:
     data = json.loads(REGISTRY.read_text(encoding="utf-8"))
-    campaign = json.loads(CAMPAIGN.read_text(encoding="utf-8"))
-    council = json.loads(COUNCIL.read_text(encoding="utf-8"))
     report = REPORT.read_text(encoding="utf-8")
     review = REVIEW.read_text(encoding="utf-8")
     probe = PROBE.read_text(encoding="utf-8")
@@ -93,17 +89,6 @@ def main() -> None:
     assert evidence["exploration"] == REPORT.relative_to(ROOT).as_posix()
     assert evidence["hostile_review"] == REVIEW.relative_to(ROOT).as_posix()
     assert evidence["scope_audit"] == Path(__file__).relative_to(ROOT).as_posix()
-
-    for checkpoint in (
-        campaign["latest_successor_checkpoint"],
-        council["latest_successor_checkpoint"],
-    ):
-        for key in ("gate", "status", "curt_track", "third_lane_gate", "next_gate"):
-            assert checkpoint[key] == data[key]
-        assert checkpoint["external_datum"] == "P1/P2/P3 UNCHANGED AND UNUSED"
-        assert "2/380" in checkpoint["scope"]
-        assert "378" in checkpoint["scope"]
-        assert "1,925-cell fallback remains live" in checkpoint["scope"]
 
     required_tokens = (
         "FULL_EVALUATOR_CERTIFIED_ON_COMPLETE_S3_FIXED_ORBIT_STRATUM__UNIVERSAL_378_OPEN",
