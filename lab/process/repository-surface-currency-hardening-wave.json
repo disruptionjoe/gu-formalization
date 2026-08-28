@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "work_item": "REPOSITORY-SURFACE-CURRENCY-HARDENING-WAVE",
+  "scope": "six current repository-native navigation, transport, inventory and generated-view contracts",
+  "packets": [
+    {
+      "id": "ANOMALY-TEST-INVENTORY",
+      "before": "one tracked exact certificate absent from tests/anomaly/README.md",
+      "after": "all three local anomaly certificates inventoried with direct commands"
+    },
+    {
+      "id": "THEORY-PASSPORT-SURFACE-MAP-ENFORCEMENT",
+      "before": "live theory-passport directory omitted from the audit expected set",
+      "after": "all three direct specification directories and READMEs enforced"
+    },
+    {
+      "id": "TERMINAL-LEDGER-LEARNING-TRANSPORT",
+      "before": "ratified transport contract pointed to v0.242",
+      "after": "machine and human pointers match terminal ledger v0.263"
+    },
+    {
+      "id": "TEST-MANIFEST-COUNT-RATCHETS",
+      "before": "four direct-directory rows were one low and mixed channel-swing counts were unenforced",
+      "after": "all direct rows and 1121 Python plus 93 Sage channel-swing files are machine checked"
+    },
+    {
+      "id": "PROCESS-GATE-README-INVENTORY",
+      "before": "five live process gates absent from the local README",
+      "after": "all 423 live process-gate scripts are named"
+    },
+    {
+      "id": "PATH-DEPENDENCY-GENERATED-VIEW",
+      "before": "seven source chains and 59 receipts valid but Markdown render stale",
+      "after": "generated Markdown exactly matches the validated YAML source"
+    }
+  ],
+  "excluded": {
+    "historical_version_pinned_audits": "regression fixtures, not current-pointer contracts",
+    "papers_lifecycle_maps": "release-facing interpretation outside this mechanical wave",
+    "LT-GR4": "requires an independent owner adjudication",
+    "TWG1": "protected Joe-directed surface"
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_status_change": "none",
+    "ledger_change": "none",
+    "canon_change": "none",
+    "paper_lifecycle_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/repository_surface_currency_hardening_wave_probe.py"
+}

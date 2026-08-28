@@ -216,9 +216,8 @@ graph TD
 | 4 | `EXACT` | R3's balance is caused by CHI, not by quaternionic structure: {K,chi} = 0 exactly, and the whole native algebra lies in the chirality commutant. | `tests/krein_parity_dichotomy_jk_anticommutation.py` |
 | 5 | `EXACT` | Balance requires ANTIcommutation with K. Kramers alone gives only EVENNESS. GU's J_quat COMMUTES with the Krein Gram ([beta_S, J_quat] = 0.0e+00). | `tests/krein_parity_dichotomy_jk_anticommutation.py` |
 | 6 | `EXACT` | chi is the Clifford volume element and exists in every even dimension, so the chi wall is NOT horn-specific. | `tests/krein_parity_dichotomy_jk_anticommutation.py` |
-| 7 | `TYPED REINTERPRETATION` | A spectral metric operator `C` is fixed only up to the relevant commutant. Non-uniqueness therefore names a missing complete set of commuting observables (CSCO); it is not a theorem that no supplied CSCO can select `C`. | `explorations/specialist-panel-on-the-degenerate-point-2026-08-08.md` |
 
-**CHECK.** Before citing R3 as a blocker, ask: is the claim SPECTRAL or KINEMATIC? Spectral no-goes do not constrain an embedding-defined parity. For a spectral claim, say that `C` is determined only up to the commutant and name the CSCO as the missing selection input; do not turn underdetermination into nonexistence. Also state whether the arena is FIXED -- every GU test so far searched a fixed arena's commutant, and TB's mechanism works by enlarging it.
+**CHECK.** Before citing R3 as a blocker, ask: is the claim SPECTRAL or KINEMATIC? Spectral no-goes do not constrain an embedding-defined parity. Also state whether the arena is FIXED -- every GU test so far searched a fixed arena's commutant, and TB's mechanism works by enlarging it.
 
 **Traps that actually happened:**
 

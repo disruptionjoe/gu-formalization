@@ -2480,9 +2480,9 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | Directory | What it covers |
 |---|---|
 | `woit-principles/` (5) | exact finite controls for Cartan/Palatini soldering, OS/right-handed transfer, `Gr(2,C^4)` geometry, Lorentzian/Euclidean twistor real slices, and finite OS spectral positivity/failure witnesses |
-| `generation-sector/` (34) | the generation-count core: Krein signature, net chiral index, chirality kills, Wave-A Reading-A kinematic grading, Wave-B hinge-symbol leakage, Wave-C exact Spin(10)/Lambda5/Pati-Salam channels, and Wave-D exact exterior/Sage native-connection placement certificates (paper-cited surface; frozen paths remain frozen), with a local script map and README inventory gate |
+| `generation-sector/` (35) | the generation-count core: Krein signature, net chiral index, chirality kills, Wave-A Reading-A kinematic grading, Wave-B hinge-symbol leakage, Wave-C exact Spin(10)/Lambda5/Pati-Salam channels, and Wave-D exact exterior/Sage native-connection placement certificates (paper-cited surface; frozen paths remain frozen), with a local script map and README inventory gate |
 | `observable-algebra/` (5) | finite compression-algebra commutant/trichotomy probes plus exact Wave-B compact-isotypic, Sage character, and neutrality certificates; kinematic carrier evidence only, not a physical observable-algebra, quotient, or signature-selection theorem |
-| `de-certification/` (6) | Wave-A internal likelihood consistency, proxy shape-inverse witnesses, the finite W230/conditional FLRW mapping fixture, the synthetic-injection pipeline-unbiasedness control (known truths, DR2-covariance noise), and the exact-rational composition-map first-arrow certificate; register status for C10 / M-H13 / native bridge moves only via the register |
+| `de-certification/` (7) | Wave-A internal likelihood consistency, proxy shape-inverse witnesses, the finite W230/conditional FLRW mapping fixture, the synthetic-injection pipeline-unbiasedness control (known truths, DR2-covariance noise), and the exact-rational composition-map first-arrow certificate; register status for C10 / M-H13 / native bridge moves only via the register |
 | `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
 | `source-action/` (12) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper), with a local script map and README inventory gate |
 | `gu-independent/` (11) | the GU-independent class-level structural no-go, with a local script map and README inventory gate |
@@ -2492,13 +2492,13 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `carrier-bit-decision/` (13) | the carrier-bit decision campaign: four analysis legs plus independent referees, with a local script/analysis map and README inventory gate |
 | `escape-corners/` (16) | the carrier-bit escape-corners campaign: four analysis legs, corner-open audits, independent referees, and checked-in run logs, with a local script/analysis/log map and README inventory gate |
 | `anchored-leads/` (7) | the anchored-leads candidate screens, including an independent Jones-index finite-type recheck, with a local script map and README inventory gate |
-| `big-swing/` (48) | adversarial big-swing packets for generation-count, boundary, framed-bordism, mirror-sector, and capability-wall leads, with a local script map and README inventory gate |
+| `big-swing/` (49) | adversarial big-swing packets for generation-count, boundary, framed-bordism, mirror-sector, and capability-wall leads, with a local script map and README inventory gate |
 | `internal-paths/` (4) | internal follow-up path certificates for OQ-RK1 rank, Y14 bundle index pieces, non-compact signed-readout witnesses, and Sp-family anomaly gates, with a local script map and README inventory gate |
 | `symbolic-proofs/` (1) | symbolic structure-level certificates for the core theorem package, with a local script map and README inventory gate |
 | `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map and README inventory gate |
 | `chase/` (0) | nested MOVE-1..MOVE-5 chase-to-kill verdict scripts, with a local script map and README inventory gate |
 | `boundary-eta/` (4) | the boundary eta-invariant / tangential fork, with a local script map, nested independent denominator checks, and README inventory gate |
-| `anomaly/` (2) | frontstage anomaly gate validators: the Sp(1) 2-primary Dai-Freed AHSS gate and the conditional-build anomaly-rank probe, with a local script map and README inventory gate |
+| `anomaly/` (3) | frontstage anomaly gate validators: the Sp(1) 2-primary Dai-Freed AHSS gate, the conditional-build anomaly-rank probe, and the quotient-aware M-H14 content-factorization certificate, with a local script map and README inventory gate |
 | `sm-boundary/` (1) | SM-shaped boundary anomaly-inflow toy, with a local script map, nested independent algebraic verifier, and README inventory gate |
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures, with a local script map and README inventory gate |
 | `pati-salam/` (1) | reproduction harness for the active-research Pati-Salam chain verification scripts, with a local harness map and README inventory gate |
@@ -2506,7 +2506,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (686 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the SR-1H action-owned point-carrier census, W/mirror action-pairing ownership theorem, trace-Hq base/normal correction, trace-`H_q` full-connection compatibility gate, v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (1121 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the repository-surface currency hardening certificate, SR-1H action-owned point-carrier census, W/mirror action-pairing ownership theorem, trace-Hq base/normal correction, trace-`H_q` full-connection compatibility gate, v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `research-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -5127,4 +5127,17 @@ claim.
 
 ```sh
 python3 tests/channel-swings/status_contract_currency_wave_probe.py
+```
+
+## Repository-surface currency hardening wave
+
+`channel-swings/repository_surface_currency_hardening_wave_probe.py` couples
+six current repository contracts: anomaly-test inventory, specification-
+directory enforcement, terminal-ledger learning transport, direct and mixed
+test-population ratchets, process-gate README inventory, and generated path-
+dependency currency. It runs all six native gates and plants one mutation per
+packet without changing any scientific or paper-lifecycle state.
+
+```sh
+python3 tests/channel-swings/repository_surface_currency_hardening_wave_probe.py
 ```

@@ -19,6 +19,7 @@ README = SPECIFICATIONS / "README.md"
 
 EXPECTED_SPECIFICATION_DIRS = {
     "six-axis",
+    "theory-passport",
     "type-ii1-spectral-sm",
 }
 
@@ -79,7 +80,7 @@ class LabSpecificationsReadmeSurfaceMapAudit(unittest.TestCase):
             with self.subTest(directory_name=directory_name):
                 self.assertTrue((SPECIFICATIONS / directory_name / "README.md").is_file())
                 bullet = bullet_for_directory(self.text, directory_name)
-                self.assertIn("README.md", bullet)
+                self.assertTrue(bullet.startswith(f"- `{directory_name}/`"))
 
     def test_specifications_readme_preserves_specification_boundary(self) -> None:
         normalized = " ".join(self.text.split())

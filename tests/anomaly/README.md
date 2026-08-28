@@ -16,11 +16,13 @@ and does not update public posture.
 | script | supports | note |
 |---|---|---|
 | `cb_c_anomaly_rank.py` | `explorations/conditional-build/cb-c-anomaly-conditions-2026-08-05.md` | Reproduces the exact local anomaly-rank checks for the frozen CB-C construction packet; it does not select the physical fermion content or move an anomaly verdict. |
+| `mh14_gs_content_factorization.py` | `explorations/mh14-gs-content-factorization-2026-08-26.md` | Certifies the quotient-aware degree-16 Green--Schwarz content equation and its exact residual ceiling; it does not prove full anomaly cancellation or supply physical multiplicities. |
 | `sp1_2primary_gate_validator.py` | `lab/active-research/anomaly/sp1-2primary-dai-freed-gate-2026-07-06.md` | Checks the untwisted `BSp(1)` Dai-Freed degree-15 AHSS front page and 2-primary controls. |
 
 Run directly:
 
 ```text
 python tests/anomaly/cb_c_anomaly_rank.py
+python tests/anomaly/mh14_gs_content_factorization.py --selftest
 python tests/anomaly/sp1_2primary_gate_validator.py
 ```

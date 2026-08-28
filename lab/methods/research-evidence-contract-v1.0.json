@@ -5,8 +5,8 @@
   "ratified_by": "Joe direct chat",
   "standing_ledger": {
     "owner": "gu-formalization",
-    "ref": "lab/process/conditional-physics-ledger-v0.242.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.242.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.263.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.263.md",
     "accounting_ref": "lab/process/conditional-ledger-priority-decision-2026-08-07.json",
     "immutable_row_record_count": 84,
     "active_canonical_target_count": 82,

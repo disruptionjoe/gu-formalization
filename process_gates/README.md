@@ -3292,3 +3292,19 @@ anomaly, symmetry-breaking and vector-mass comparator surface to repeat the
 mandatory routing notice, point to the source-native method, and carry a typed
 classification. It prevents a conventional-route exclusion from silently
 becoming an adverse GU verdict or default successor.
+
+## Current custody and schema gates
+
+These live gates are repository-integrity controls, not scientific verdicts:
+
+- `correction_custody_wave_audit.py` checks the correction-custody wave's
+  declared records and unchanged scientific ceiling.
+- `external_datum_claim_ceiling_audit.py` preserves the boundary between an
+  external datum and a source-native derivation claim.
+- `frontmatter_status_schema_audit.py` separates document role from
+  operational state and maintains the tracked-population ratchet.
+- `improvement_register_writeback_adjudication_audit.py` verifies typed
+  writeback dispositions without turning register maintenance into research
+  promotion.
+- `positive_control_order_audit.py` requires positive controls to establish a
+  clean baseline before negative or hostile mutations are credited.
