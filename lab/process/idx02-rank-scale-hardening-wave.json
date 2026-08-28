@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "work_item": "IDX02-RANK-SCALE-HARDENING-WAVE",
+  "scope": "family-reduction analytic semantics and scale-covariant certificate rank decisions",
+  "packets": [
+    {
+      "id": "M-M14-IDX-02-FAMILY-ETA-SEMANTICS",
+      "before": "fixed-fibre A-hat and eta checks were promoted into an unearned vanishing family eta form and GAUGE fork",
+      "after": "the surviving family eta-form base integral is explicit and the unconstructed actual GU family leaves the fork unresolved"
+    },
+    {
+      "id": "P-L14-SCALE-COVARIANT-RANK",
+      "before": "four live certificate surfaces used absolute or unit-floored singular-value thresholds for rank decisions",
+      "after": "rank is measured relative to each nonzero matrix scale or a covariantly scaling parent-word magnitude and is invariant under nonzero scalar rescaling"
+    }
+  ],
+  "analytic_ceiling": {
+    "fixed_fibre_facts": ["A-hat[S6]=0", "eta(S6)=0", "kernel rank=0"],
+    "actual_family_term": "integral_B A-hat(TB) wedge eta-tilde(D^Z)",
+    "actual_family_status": "UNCOMPUTED",
+    "fork": "UNRESOLVED",
+    "forced_integer_three": false
+  },
+  "rank_contract": {
+    "policy": "singular values greater than relative_tolerance times the largest nonzero singular value or a declared covariant parent-word magnitude",
+    "rescaling_controls": [1e-12, 1.0, 1e12],
+    "affected_surfaces": 4,
+    "zero_matrix_rank": 0
+  },
+  "mutation_catches": 5,
+  "process_gate_census": {
+    "total": 423,
+    "before": {"green": 271, "red": 152},
+    "after": {"green": 271, "red": 152},
+    "historical_or_authority_bounded_reds_normalized": false
+  },
+  "integrity_census": {
+    "probe_authorship": "89 findings across 1011 probes",
+    "typed_carrier_red": 0,
+    "kill_target_red": 0,
+    "canonical_currency_dirty_pairs": 0
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_status_change": "none",
+    "ledger_change": "none",
+    "canon_change": "none",
+    "paper_lifecycle_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/idx02_rank_scale_hardening_wave_probe.py"
+}

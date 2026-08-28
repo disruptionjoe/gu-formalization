@@ -14,9 +14,10 @@ F^10 = GL(4,R)/O(3,1) deformation-retracts (Mostow/Cartan; the Z_2 is the O(1) t
 to its parallelizable SPINE RP^3 = L(2;1) (dim 3). The normal bundle of that spine inside F^10
 has rank 10-3 = 7, so the LINK of the noncompact fiber end is the unit sphere bundle of that
 rank-7 bundle: a 9-dim S^6-bundle over RP^3. Combined with the 4-dim base X^4 the genuine link
-of Y^14 is 13-dimensional. The honest reduction is therefore Bismut-Cheeger / Dai adiabatic-limit
-collapse of the EVEN-dim S^6 fiber, landing a scalar e-invariant on the RP^3 spine -- an actual
-computation, not the phrase "the spine is RP^3."
+of Y^14 is 13-dimensional. The honest reduction would use the Bismut-Cheeger / Dai adiabatic
+limit for the EVEN-dimensional S^6 family. The surviving term is the base integral of A-hat
+against the family eta form; it is not a scalar e-invariant obtained merely from the fibre index,
+and the actual GU family is not constructed here.
 
 WHAT THIS SCRIPT DOES
   PART A  reproduce the five controls in the SAME run (trust anchor):
@@ -32,9 +33,9 @@ WHAT THIS SCRIPT DOES
             eta(S^6)  = 0  EXACT (round Dirac spectrum +-(3+k) is +/- symmetric)
             chi(S^6)  = 2        (the ONE nonzero S^6 invariant -- but Euler/Gauss-Bonnet is the
                                   NON-chiral channel; it cannot feed a chiral Dirac/RS index)
-          => the even S^6 fiber is TRANSPARENT to the spin-Dirac (A-hat) channel: it contributes
-             ZERO to the order-3, and the adiabatic-limit reduction lands the scalar e-invariant
-             on the RP^3 spine as the 2-PRIMARY charge-q lens eta (the index/gauge channel).
+          => these facts remove the kernel/Dai correction for the fixed round product, but do
+             NOT force the eta form of a varying S^6 family to vanish. The honest unresolved
+             term is int A-hat wedge eta-tilde over the appropriate base.
           The 3-primary e_R = 1/12 lives ONLY in the SEPARATE tangential Lambda^2_+ framing of the
           spine (frame charge ~33.94, p_1=4), which the fiber reduction does NOT produce.
   PART C  integer extraction + fork + the explicit theorem-vs-gated grade.
@@ -258,7 +259,7 @@ def part_b_fibered_reduction(ctrl):
     # --- B2. S^6 characteristic numbers: A-hat = 0 (transparent), Euler = 2 (wrong channel)
     ahat_S6, euler_S6 = s6_pontryagin_and_euler()
     print(f"\n[B2] A-hat[S^6] = {ahat_S6}  (TS^6 stably trivial; all p_i[S^6]=0)  "
-          f"=> spin-Dirac channel TRANSPARENT")
+          f"=> the fibre index has rank zero")
     print(f"     chi(S^6)   = {euler_S6}  (the ONLY nonzero S^6 characteristic number) -- but it is")
     print(f"     the EULER/Gauss-Bonnet channel, which is NON-chiral and contributes 0 to a chiral")
     print(f"     Dirac/RS index. So the one nonzero S^6 invariant cannot carry the generation count.")
@@ -267,14 +268,14 @@ def part_b_fibered_reduction(ctrl):
     # --- B3. the Bismut-Cheeger / Dai adiabatic-limit reduction over the EVEN fiber
     print("\n[B3] Bismut-Cheeger / Dai adiabatic-limit reduction (collapse the S^6 fiber):")
     print("     For a closed-fiber spin fibration Z -> M -> B,")
-    print("        eta-bar(D_M)  =  int_B A-hat(TB) ^ eta-hat(D^Z)  +  eta-bar(D_B (x) Ind D^Z)  (mod Z).")
-    print("     Z = S^6 is EVEN-dimensional, so the Bismut-Cheeger eta-FORM eta-hat(D^Z) = 0 (eta-")
-    print("     forms live on ODD-dim-fiber families; an even fiber contributes only via its index")
-    print("     bundle Ind D^Z in K(B)). And rank Ind D^{S^6} = A-hat[S^6] = 0. THEREFORE the fiber")
-    print("     is transparent: the reduction lands a scalar e-invariant on the RP^3 spine equal to")
-    print("     the index/gauge boundary defect = the charge-q lens Dirac eta (2q^2-4q+1)/8.")
+    print("        eta-bar(D_M)  =  int_B A-hat(TB) wedge eta-tilde(D^Z)  +  eta-bar(D_B (x) Ind D^Z)  (mod Z).")
+    print("     For EVEN-dimensional fibres the family eta form is precisely a surviving term; it is")
+    print("     not removed by A-hat[S^6]=0. Lichnerowicz invertibility removes the kernel-bundle/Dai")
+    print("     correction on the fixed round product, while the actual varying-family contribution")
+    print("     remains int_B A-hat(TB) wedge eta-tilde(D^Z). No actual GU horizontal")
+    print("     superconnection or base integral is constructed here.")
     e_red_gauge_channel = lens.lens_dirac_eta_charge_q(1)    # representative charge; 2-primary
-    print(f"     reduced scalar e-invariant on RP^3 (index/gauge channel, e.g. q=1) = "
+    print(f"     independent lens-space gauge control (not the family reduction output, q=1) = "
           f"{e_red_gauge_channel}  -> denom {prime_factor_string(e_red_gauge_channel.denominator)}  "
           f"[2-PRIMARY]")
     assert is_2primary(e_red_gauge_channel.denominator)
@@ -286,12 +287,15 @@ def part_b_fibered_reduction(ctrl):
           f"{fc_net:.2f}")
     print(f"     (SD {fc_sd:.2f} - ASD {fc_asd:.2f}), purely self-dual => p_1=4 => e_R = 1/12, "
           f"3-primary. This is the ~33.94 measurement of the boundary-eta DECOUPLE.")
-    print(f"     The S^6 fiber (A-hat=0, eta=0) carries NONE of this: fiber channel and framing")
-    print(f"     channel are orthogonal -- exactly the CRT Z/8 (+) Z/3 split.")
+    print(f"     The fixed S^6 operator (A-hat=0, eta=0) does not produce this datum. The unknown")
+    print(f"     family eta form prevents any stronger orthogonality or fork-selection conclusion.")
     assert fc_net > 1.0 and abs(fc_asd) < 1e-6
 
     return dict(eta_S6=eta_S6, ahat_S6=ahat_S6, euler_S6=euler_S6,
-                e_red_gauge_channel=e_red_gauge_channel, frame_net_selfdual=fc_net)
+                e_red_gauge_channel=e_red_gauge_channel,
+                eta_form_status="ACTUAL_FAMILY_UNCOMPUTED",
+                reduction_term="INTEGRAL_AHAT_WEDGE_ETA_TILDE",
+                frame_net_selfdual=fc_net)
 
 
 # ============================================================================================
@@ -339,32 +343,29 @@ def part_c_integer_and_fork(ctrl, fib):
     print(f"     Pati-Salam chain gives 1, tilting AGAINST three.)")
     assert not any_three
 
-    # --- C3. the FORK, resolved BY the fibered-boundary computation ------------------------
-    # The S^6 even fiber reduction is A-hat-transparent and lands the 2-primary lens eta (GAUGE
-    # channel). The 3-primary e_R=1/12 requires the SEPARATE tangential Lambda^2_+ framing, which
-    # the reduction does NOT produce -- it is an independent datum gated on the source action that
-    # declares whether Lambda^2_+ enters as a framing (tangential) or a coefficient (gauge).
+    # --- C3. the FORK remains unresolved at the actually computed ceiling ------------------
+    # The scalar lens-space eta values below are independent controls.  The family reduction
+    # instead contains a base integral of the family eta form, which has not been constructed for
+    # GU's horizontal family.  It therefore cannot select either fork horn.
     reduced_denom = fib["e_red_gauge_channel"].denominator   # 8 = 2^3
-    fork_from_reduction = "GAUGE" if is_2primary(reduced_denom) else "TANGENTIAL"
-    print(f"\n[C3] FORK resolved BY the reduction: the S^6-fiber adiabatic limit lands the scalar")
-    print(f"     e-invariant on RP^3 with denominator {reduced_denom} = {prime_factor_string(reduced_denom)} "
-          f"=> {fork_from_reduction} (2-primary).")
-    print(f"     The 3-primary e_R = 1/12 (denom 12 = 2^2.3) is the SEPARATE tangential framing the")
-    print(f"     fiber reduction never produces; whether GU activates it is GATED on the source action.")
-    print(f"     => the fibered-boundary reduction does NOT force tangential; on the fiber channel it")
-    print(f"        lands GAUGE/2-primary, with the tangential 3-primary a separately gated datum.")
+    fork_from_reduction = "UNRESOLVED"
+    print(f"\n[C3] FORK unresolved by the computed reduction ceiling:")
+    print(f"     the scalar RP^3 control has denominator {reduced_denom} = "
+          f"{prime_factor_string(reduced_denom)}, but it is not the family-reduction output.")
+    print("     The actual output contains integral_B A-hat(TB) wedge eta-tilde(D^Z).")
+    print("     GU's horizontal family/superconnection and this base integral are unconstructed.")
+    print("     => neither the GAUGE nor TANGENTIAL horn is selected by this certificate.")
 
     # --- C4. the three bridges: theorem vs gated, explicitly --------------------------------
     print("\n[C4] THE THREE BRIDGES -- theorem-vs-gated grade (honest):")
     print("  (i)  FIBERED-BOUNDARY REDUCTION:")
     print("       - Bismut-Cheeger (1989) + Dai (1991) adiabatic-limit theorem for CLOSED-fiber spin")
-    print("         fibrations is a THEOREM; the even-fiber transparency (A-hat[S^6]=0, eta(S^6)=0,")
-    print("         eta-form=0) is COMPUTED here. => the reduction MACHINERY is a theorem and the")
-    print("         S^6 contribution is computed = 0 (transparent).  [PROVEN/COMPUTED]")
+    print("         fibrations is a THEOREM; A-hat[S^6]=0 and eta(S^6)=0 are fixed-fibre checks.")
+    print("         They do NOT set the varying family eta form to zero.  [PROVEN fixed facts;")
+    print("         ACTUAL FAMILY TERM UNCOMPUTED]")
     print("       - Applying it to GU's ACTUAL boundary operator (the twisted RS operator) is GATED:")
     print("         that operator is the unbuilt source action. The Dai tau / spectral-flow term")
-    print("         vanishes generically (fiber index 0 => no kernel jump) but its vanishing on the")
-    print("         actual operator is GATED.  [GATED on unbuilt source action]")
+    print("         is not evaluated for the actual family.  [GATED on unbuilt source action/family]")
     print("  (ii) TWISTED RARITA-SCHWINGER INDEX (number of surviving Spin(10) 16s):")
     print("       - The BULK anomaly-inflow coefficient (spin-1/2 leg = 8*A-hat(K3) = 16) is")
     print("         COMPUTED from bulk topology without the dynamical operator.  [PROVEN/COMPUTED]")
@@ -378,7 +379,10 @@ def part_c_integer_and_fork(ctrl, fib):
                 if (not any_three) else "FORCED")
     return dict(spin_half_leg=spin_half_leg, candidate_24=candidate_24,
                 candidate_three=candidate_three, any_computable_three=any_three,
-                fork_from_reduction=fork_from_reduction, decision=decision)
+                fork_from_reduction=fork_from_reduction,
+                eta_form_status="ACTUAL_FAMILY_UNCOMPUTED",
+                reduction_term="INTEGRAL_AHAT_WEDGE_ETA_TILDE",
+                decision=decision)
 
 
 def main():
@@ -402,16 +406,16 @@ def main():
           f"(GU's own verified chain -> ONE; tilts AGAINST three)")
     print(f"  the '3' = 24/8 = (16 + 8)/8                         : GATED (the +8 RS leg; every "
           f"analytic route failed) + possible category error")
-    print(f"  FORK resolved BY the fibered-boundary reduction    : {res['fork_from_reduction']}  "
-          f"(S^6 even fiber A-hat-transparent -> 2-primary lens eta, denom 8 = 2^3)")
+    print(f"  FORK status after fibered-boundary reduction       : {res['fork_from_reduction']}  "
+          f"(actual family eta-form/base integral uncomputed)")
     print(f"  the 3-primary e_R = 1/12 (denom 12 = 2^2 . 3)      : SEPARATE tangential framing, NOT")
     print(f"      produced by the reduction; GATED on the source action's framing-vs-gauge declaration")
     print()
     print(f"  DECISION RULE OUTCOME: integer is NOT 3 (computable routes give 1/16/0; the 3 is gated)")
-    print(f"    AND the fibered-boundary reduction lands the fiber channel GAUGE (2-primary).")
+    print(f"    AND the fibered-boundary reduction does not resolve the fork at this ceiling.")
     print(f"  ==> {res['decision']}")
     print(f"  The strong 'GU FORCES three' reading is not earned from this angle. The LOCATE result")
-    print(f"  stands alone: the S^6-fiber reduction is a THEOREM and is computed = transparent; the")
+    print(f"  stands alone: the reduction theorem is available, but GU's family eta form is uncomputed; the")
     print(f"  order-3 carrier (tangential e_R=1/12) survives but is HOMOTOPY-FIXED and gated, and the")
     print(f"  net chiral generation integer is gated on the unbuilt RS source action (and tilts to 1).")
     print(SEP)
@@ -424,8 +428,10 @@ def main():
     assert fib["eta_S6"] == 0 and fib["ahat_S6"] == 0 and fib["euler_S6"] == 2
     assert is_2primary(fib["e_red_gauge_channel"].denominator)
     assert not res["any_computable_three"]
-    assert res["fork_from_reduction"] == "GAUGE"
-    print("\nALL ASSERTS PASSED. (controls reproduced; S^6 fiber transparent; integer != 3; fork GAUGE)")
+    assert res["eta_form_status"] == "ACTUAL_FAMILY_UNCOMPUTED"
+    assert res["reduction_term"] == "INTEGRAL_AHAT_WEDGE_ETA_TILDE"
+    assert res["fork_from_reduction"] == "UNRESOLVED"
+    print("\nALL ASSERTS PASSED. (controls reproduced; integer != 3; family eta/fork uncomputed)")
 
     return dict(ctrl=ctrl, fib=fib, res=res)
 

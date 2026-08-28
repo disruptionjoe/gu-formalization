@@ -15,10 +15,10 @@ MANIFEST = ROOT / "lab/process/improvement-register-writeback-adjudication-v2.js
 REGISTER = ROOT / "lab/process/improvement-register-2026-08-03.md"
 
 EXPECTED_IDS = {
-    "P-C2", "P-H16", "P-H26", "P-H28", "P-H29", "P-M14", "P-L11", "P-L16",
+    "P-C2", "P-H16", "P-H26", "P-H28", "P-H29", "P-M14", "P-L11", "P-L14", "P-L16",
     "M-C2", "M-H2", "M-H4", "M-H5", "M-H6", "M-H7", "M-H8", "M-H10",
     "M-H11", "M-H12", "M-H13", "M-H14", "M-H16", "M-M6", "M-M7", "M-M9",
-    "M-M10", "M-M11", "M-M12", "M-M13", "M-M16", "M-M18", "M-M19", "M-M20",
+    "M-M10", "M-M11", "M-M12", "M-M13", "M-M14", "M-M16", "M-M18", "M-M19", "M-M20",
     "M-M22", "M-M23", "M-M24", "M-M27", "M-L7", "M-H17", "M-M28", "M-M29",
     "M-M30", "M-S1", "M-S2", "M-S4", "M-S5",
 }

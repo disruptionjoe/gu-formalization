@@ -67,6 +67,21 @@ def fro(A):
     return float(np.linalg.norm(A))
 
 
+def scale_covariant_rank(matrix, relative_tolerance=1e-7, reference_scale=None):
+    """Numerical rank relative to the matrix or a covariant external scale."""
+    singular_values = np.linalg.svd(matrix, compute_uv=False)
+    if singular_values.size == 0:
+        return 0
+    scale = (
+        float(np.max(singular_values))
+        if reference_scale is None
+        else abs(float(reference_scale))
+    )
+    if scale == 0.0:
+        return 0
+    return int(np.sum(singular_values > relative_tolerance * scale))
+
+
 def proj_onto_kernel(M):
     gram = M @ M.conj().T
     return np.eye(M.shape[1], dtype=complex) - M.conj().T @ np.linalg.pinv(gram) @ M
@@ -272,8 +287,8 @@ def main():
     s_raw[o2:o2 + d1, o1:o1 + d1] = M_KT
     s_raw[o3:o3 + d0, o2:o2 + d1] = gauge.conj().T
     s2_raw = fro(s_raw @ s_raw)
-    rank_MKT = int(np.linalg.matrix_rank(M_KT, tol=1e-7))
-    rank_AW = int(np.linalg.matrix_rank(A_W, tol=1e-7))
+    rank_MKT = scale_covariant_rank(M_KT)
+    rank_AW = scale_covariant_rank(A_W)
     bare_final = fro(Pi_RS @ M_D - M_D @ Pi_RS)
     nC2_dressed = dressed_C2(Wd_b)
 

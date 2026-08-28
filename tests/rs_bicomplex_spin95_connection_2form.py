@@ -62,6 +62,21 @@ def fro(A):
     return float(np.linalg.norm(A))
 
 
+def scale_covariant_rank(matrix, relative_tolerance=1e-7, reference_scale=None):
+    """Numerical rank relative to the matrix or a covariant external scale."""
+    singular_values = np.linalg.svd(matrix, compute_uv=False)
+    if singular_values.size == 0:
+        return 0
+    scale = (
+        float(np.max(singular_values))
+        if reference_scale is None
+        else abs(float(reference_scale))
+    )
+    if scale == 0.0:
+        return 0
+    return int(np.sum(singular_values > relative_tolerance * scale))
+
+
 def proj_onto_kernel(M):
     """Orthogonal projector onto ker(M) for M with full row rank-ish (pinv-robust)."""
     gram = M @ M.conj().T
@@ -304,8 +319,8 @@ def main():
     slong2 = fro(s_long @ s_long)
     anti = fro(s_KT @ s_long + s_long @ s_KT)
 
-    rank_MKT = int(np.linalg.matrix_rank(M_KT, tol=1e-7))
-    rank_AW = int(np.linalg.matrix_rank(A_W, tol=1e-7))
+    rank_MKT = scale_covariant_rank(M_KT)
+    rank_AW = scale_covariant_rank(A_W)
 
     # NON-VACUITY control: replace projected A_W with RAW gauge map -> B_W gauge != 0
     A_raw = gauge

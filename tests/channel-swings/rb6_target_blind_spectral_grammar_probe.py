@@ -64,6 +64,25 @@ def fro(value: np.ndarray) -> float:
     return float(np.linalg.norm(value))
 
 
+def scale_covariant_rank(
+    matrix: np.ndarray,
+    relative_tolerance: float = ZERO_THRESHOLD,
+    reference_scale: float | None = None,
+) -> int:
+    """Numerical rank relative to the matrix or a covariant external scale."""
+    singular_values = np.linalg.svd(matrix, compute_uv=False)
+    if singular_values.size == 0:
+        return 0
+    scale = (
+        float(np.max(singular_values))
+        if reference_scale is None
+        else abs(float(reference_scale))
+    )
+    if scale == 0.0:
+        return 0
+    return int(np.sum(singular_values > relative_tolerance * scale))
+
+
 def check(label: str, condition: bool, detail: str = "") -> None:
     global CHECK_COUNT
     CHECK_COUNT += 1
@@ -321,9 +340,7 @@ def stabilizer_dimension(
             for generator in algebra_generators(signed_metric)
         ]
     )
-    singular_values = np.linalg.svd(columns, compute_uv=False)
-    scale = max(1.0, float(np.max(singular_values)))
-    rank = int(np.sum(singular_values > CONCOMITANT_RESOLUTION * scale))
+    rank = scale_covariant_rank(columns, CONCOMITANT_RESOLUTION)
     return columns.shape[1] - rank
 
 
@@ -337,7 +354,7 @@ def spectral_report(
     adjoint_defect = relative_defect(metric_adjoint(matrix, metric), matrix)
     values, vectors = np.linalg.eig(matrix)
     real_branch = max_abs(values.imag) < 3.0e-6
-    vector_rank = np.linalg.matrix_rank(vectors, tol=2.0e-7)
+    vector_rank = scale_covariant_rank(vectors, 2.0e-7)
     diagonalizable = vector_rank == matrix.shape[0]
     if real_branch:
         real_values = values.real
@@ -354,12 +371,7 @@ def spectral_report(
             left, singular_values, _right = np.linalg.svd(
                 real_span, full_matrices=False
             )
-            span_rank = int(
-                np.sum(
-                    singular_values
-                    > 2.0e-7 * max(1.0, float(np.max(singular_values)))
-                )
-            )
+            span_rank = scale_covariant_rank(real_span, 2.0e-7)
             basis = left[:, :span_rank]
             negative_inertia = inertia(basis.T @ metric @ basis, 2.0e-6)
         else:
@@ -372,7 +384,7 @@ def spectral_report(
     return SpectralReport(
         name=name,
         adjoint_defect=adjoint_defect,
-        matrix_rank=int(np.linalg.matrix_rank(matrix, tol=ZERO_THRESHOLD)),
+        matrix_rank=scale_covariant_rank(matrix, ZERO_THRESHOLD),
         real_branch=real_branch,
         diagonalizable=diagonalizable,
         gap=gap,
@@ -385,13 +397,17 @@ def spectral_report(
     )
 
 
-def polar_report(name: str, matrix: np.ndarray, metric: np.ndarray) -> PolarReport:
+def polar_report(
+    name: str,
+    matrix: np.ndarray,
+    metric: np.ndarray,
+    rank_reference_scale: float | None = None,
+) -> PolarReport:
     skew_defect = relative_defect(metric_adjoint(matrix, metric), -matrix)
     singular_values = np.linalg.svd(matrix, compute_uv=False)
     smallest = float(np.min(singular_values))
-    scale = max(1.0, float(np.max(singular_values)))
-    matrix_rank = int(
-        np.sum(singular_values > CONCOMITANT_RESOLUTION * scale)
+    matrix_rank = scale_covariant_rank(
+        matrix, CONCOMITANT_RESOLUTION, rank_reference_scale
     )
     minus_square = -matrix @ matrix
     values, vectors = np.linalg.eig(minus_square)
@@ -399,7 +415,7 @@ def polar_report(name: str, matrix: np.ndarray, metric: np.ndarray) -> PolarRepo
         branch = "SINGULAR"
     elif max_abs(values.imag) >= 3.0e-6:
         branch = "NONREAL-MINUS-SQUARE"
-    elif np.linalg.matrix_rank(vectors, tol=2.0e-7) < matrix.shape[0]:
+    elif scale_covariant_rank(vectors, 2.0e-7) < matrix.shape[0]:
         branch = "NONDIAGONALIZABLE"
     elif float(np.min(values.real)) <= ZERO_THRESHOLD:
         branch = "NO-POSITIVE-REAL-BRANCH"
@@ -571,6 +587,22 @@ def main() -> int:
         ),
         "trace_vertical_curvature_square_commutator": commutator(
             trace_word, h_values["vertical_curvature_square_sharp"]
+        ),
+    }
+    q_rank_reference_scales = {
+        "ricci_trace_commutator": fro(h_values["ricci_sharp"]) * fro(trace_word),
+        "ricci_curvature_square_commutator": (
+            fro(h_values["ricci_sharp"]) * fro(h_values["curvature_square_sharp"])
+        ),
+        "trace_curvature_square_commutator": (
+            fro(trace_word) * fro(h_values["curvature_square_sharp"])
+        ),
+        "ricci_vertical_curvature_square_commutator": (
+            fro(h_values["ricci_sharp"])
+            * fro(h_values["vertical_curvature_square_sharp"])
+        ),
+        "trace_vertical_curvature_square_commutator": (
+            fro(trace_word) * fro(h_values["vertical_curvature_square_sharp"])
         ),
     }
     check(
@@ -791,7 +823,12 @@ def main() -> int:
     print("D. POST-FREEZE COMMUTATOR WORDS AND POLAR GATE")
     print("=" * 96)
     q_reports = [
-        polar_report(word.name, q_values[word.name], vertical_metric)
+        polar_report(
+            word.name,
+            q_values[word.name],
+            vertical_metric,
+            q_rank_reference_scales[word.name],
+        )
         for word in Q_WORDS
     ]
     for report in q_reports:

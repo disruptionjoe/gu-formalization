@@ -54,6 +54,12 @@
       "basis": "The live certificate labels the midpoint implementation and its measured global second-order ceiling instead of claiming globally fourth-order deterministic RK4."
     },
     {
+      "id": "P-L14",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/idx02-rank-scale-hardening-wave-2026-08-27.md",
+      "basis": "RB6 and three Rarita--Schwinger C2 certificates now use singular-value rank cutoffs relative to each nonzero matrix scale or a covariantly scaling parent-word magnitude; the coupled probe preserves decisions under twelve-order rescaling and rejects four planted absolute-cut regressions."
+    },
+    {
       "id": "P-L16",
       "disposition": "VERIFIED_LIVE",
       "evidence": "explorations/correction-custody-wave-2026-08-27.md",
@@ -178,6 +184,12 @@
       "disposition": "EXECUTED",
       "evidence": "canon/ko-degree-obstruction-ladder-RESULTS.md",
       "basis": "The dated correction retypes the Rokhlin rung into spin degree four and preserves the unaffected 2-primary conclusion."
+    },
+    {
+      "id": "M-M14",
+      "disposition": "EXECUTED",
+      "evidence": "explorations/idx02-rank-scale-hardening-wave-2026-08-27.md",
+      "basis": "The decider now separates fixed-fibre A-hat, eta and kernel facts from the surviving family eta-form base integral. Because GU's actual horizontal family and superconnection remain unconstructed, the fork is unresolved while the independent integer controls remain unchanged."
     },
     {
       "id": "M-M16",
