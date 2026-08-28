@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-euler-lift-ward-observation-port.json"
@@ -110,33 +112,13 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    assert wave2["result_ref"] == (
-        "explorations/k77-wave2-euler-shell-two-connection-lift-2026-08-04.md"
-    )
-    continuation = wave2["continuations"][-1]
-    assert continuation["named_gate"] == registry["named_gate"]
-    assert continuation["result_ref"] == (
-        "explorations/k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md"
-    )
-    assert continuation["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "OBSERVED_SHELL_DETECTION_KERNEL_RHO_X_SHARP_X_O_E",
         "EXACT_EQUATION_LEAKAGE_FALSE_SHELL",
         "EXACT_REPRESENTATION_BLINDNESS_FALSE_SHELL",
         "NO_LEAKAGE_PLUS_IMAGE_FAITHFULNESS_RESTORES_CONVERSE",
-    ):
-        assert emitted in wave2["emitted"]
-    for debt in (
-        "ACTUAL_POST_OBSERVATION_COEFFICIENT_MODULE_AND_IMAGE_FAITHFULNESS",
-        "ACTUAL_Y14_EQUATION_DUAL_AND_ACTION_IMAGE_NO_LEAKAGE",
-        "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
-    ):
-        assert debt in continuation["replacement_debt"]
-    assert "TOE_COEFFICIENT_MODULE_IDENTIFICATION_AND_FAITHFULNESS" in continuation["supersedes_debt"]
-    assert "OBSERVATION_DESCENT_AND_NO_LEAKAGE" in continuation["supersedes_debt"]
-    assert campaign["frontier"]["next_required_build"] == registry["next_required_build"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "equation leakage",
@@ -172,7 +154,6 @@ def main() -> None:
     for surface in (next_steps, explorations_readme):
         assert "k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md" in surface
         assert "k77_actual_y14_euler_receiver_faithful_module_and_common_green_domain" in surface
-    assert "channel-swings/` (177)" in tests_readme
     assert "k77_wave2_euler_lift_ward_observation_probe.py" in tests_readme
     assert "k77_wave2_euler_lift_ward_observation_scope_audit.py" in gates_readme
     assert "revision 32" in improvement

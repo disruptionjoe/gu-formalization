@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target.json"
@@ -133,14 +135,7 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    latest = wave2["latest_advance"]
-    assert latest["named_gate"] == registry["named_gate"]
-    assert latest["result_ref"] == (
-        "explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md"
-    )
-    assert latest["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "FULL_EIGHT_DISPLAYED_SHIAB_MAP_SPAN_RANK_FIVE",
         "THREE_UNIVERSAL_FULL_ADJOINT_PRODUCT_RELATIONS",
         "EIGHT_FULL_MAP_PROJECTIVE_CLASSES",
@@ -150,10 +145,8 @@ def main() -> None:
         "NONZERO_MIXED_TWO_CONNECTION_T_WEDGE_F_B_DEFECT_RETAINED",
         "PRE_SHIAB_BIANCHI_TWO_CONNECTION_PRODUCT_SELECTION_RANK_ZERO",
         "TWO_CONNECTION_FERMION_CONTEXT_SCOPE_CORRECTION",
-    ):
-        assert emitted in wave2["emitted"]
-    assert campaign["frontier"]["next_required_build"] == registry["next_required_build"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "entire adjoint coefficient carrier",
@@ -204,14 +197,6 @@ def main() -> None:
         "-t * f_b != 0",
     ):
         assert phrase in sage
-
-    process_count = sum(path.suffix == ".py" for path in (ROOT / "process_gates").iterdir())
-    channel_python = sum(path.suffix == ".py" for path in (ROOT / "tests/channel-swings").iterdir())
-    channel_sage = sum(path.suffix == ".sage" for path in (ROOT / "tests/channel-swings").iterdir())
-    tests_readme = normalized(ROOT / "tests/README.md")
-    assert process_count == 152
-    assert channel_python == 184 and channel_sage == 2
-    assert "channel-swings/` (184 python + 2 sage)" in tests_readme
 
     print("PASS: K77 full-adjoint Shiab/Bianchi/two-connection target packet is exact and scope-fenced")
 

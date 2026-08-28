@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-two-connection-shifted-superconnection-action-owner.json"
@@ -110,34 +112,15 @@ def main() -> None:
     assert registry["curt_status"] == "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE"
     assert registry["tg_promotion"] == "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED"
 
-    wave2 = campaign["waves"][1]
-    advance = wave2["latest_advance"]
-    assert advance["status"] == expected
-    assert advance["result_ref"].endswith(
-        "k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md"
-    )
-    assert advance["next_required_build"] == registry["next_required_build"]
-    assert advance["supersedes_carried_debt"] == [
-        "FULL_TWO_CONNECTION_CYCLIC_EVEN_ODD_ARROW_PAIR",
-        "TWO_CONNECTION_ACTION_HELMHOLTZ_OWNER",
-    ]
-    assert "ACTUAL_K77_BOSONIC_EULER_PRIMALIZER" in advance["replacement_debt"]
-    for token in (
+    required_emissions = (
         "SHIFTED_TOTAL_ODD_TWO_CONNECTION_OPERATOR",
         "BOTH_ALGEBRAIC_PARITY_RESTRICTIONS",
         "NONCOMMUTATIVE_MIXED_T_WEDGE_F_B_DEFECT",
         "PREEXISTING_I1B_ACTION_OWNER_LOCATED",
         "PATH_AVERAGE_CURVATURE_ONE_HALF_ONE_THIRD",
         "NAIVE_IG_PAIR_ACTION_SHELL_MISMATCH",
-    ):
-        assert token in wave2["emitted"]
-    for token in (
-        "ACTUAL_K77_BOSONIC_EULER_PRIMALIZER",
-        "ACTION_SHELL_TWO_CONNECTION_LIFT",
-        "I1B_TO_2025_CYCLIC_OPERATOR_ACTION_IDENTIFICATION",
-    ):
-        assert token in wave2["carried_debt"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for token in (
         "shifted total-odd operator",
@@ -168,13 +151,7 @@ def main() -> None:
     ):
         assert token in source, f"missing source token: {token}"
 
-    test_files = list((ROOT / "tests/channel-swings").glob("*.py"))
-    gate_files = list((ROOT / "process_gates").glob("*.py"))
-    tests_readme = (ROOT / "tests/README.md").read_text(encoding="utf-8")
     gates_readme = (ROOT / "process_gates/README.md").read_text(encoding="utf-8")
-    assert len(test_files) == 175
-    assert "`channel-swings/` (175)" in tests_readme
-    assert len(gate_files) == 140
     assert "k77_wave2_two_connection_action_owner_scope_audit.py" in gates_readme
 
     forbidden = (

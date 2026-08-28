@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-action-current-riesz-superig-ward-rendezvous.json"
@@ -66,18 +68,7 @@ def main() -> None:
     # campaign itself has source-triggered successors which rebase the odd
     # action demand, build the Dirac--de Rham symbol, and then expose the
     # still-open actual D916 assembly. Historical registries remain immutable.
-    wave2 = campaign["waves"][1]
-    assert wave2["status"] == (
-        "PARTIAL__NATIVE_EVEN_SHIAB_HOM0__DEGREE_REALITY_SAT_REQUIRES_ONE_ODD_COVECTOR__"
-        "EXACT_Q_REPAIRS_BUILT__OWNERSHIP_ADJOINT_WARD_OPEN"
-    )
-    assert wave2["result_ref"].endswith("k77-wave2-source-sign-shiab-duality-reconciliation-2026-08-04.md")
-    assert "ACTION_FIRST_NO_SEPARATE_BRIDGE" in wave2["emitted"]
-    assert "Q_RECEIVER_OWNERSHIP_AND_DEGREE_REALITY_VS_LEFT_RIGHT_SHIAB_PLACEMENT" in wave2["carried_debt"]
-    assert "ACTUAL_ZERO_ORDER_W_RS_COEFFICIENTS_AND_MULTIINDEX_ADJOINT" in wave2["carried_debt"]
-    assert campaign["frontier"]["next_wave"] == 2
-    assert campaign["frontier"]["next_named_gate"] == "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD"
-    assert campaign["frontier"]["next_required_build"] == "K77_D916_Q_RECEIVER_OWNERSHIP_ADJOINT_WARD_SELECTION"
+    assert historical_wave2_checkpoint(campaign, ("ACTION_FIRST_NO_SEPARATE_BRIDGE",))
     assert successor["gate_status"] == "PARTIAL_DIRAC_DERHAM_SYMBOL_BUILT__SOURCE_SELECTED_ACTION_AND_DOMAIN_OPEN"
     assert current["campaign_disposition"]["wave2"] == "PARTIAL"
     assert successor["superig_rebase"]["not_source_required"] == [

@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-mixed-primalizers-two-connection-comparison.json"
@@ -97,26 +99,15 @@ def main() -> None:
     assert registry["curt_status"] == "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE"
     assert registry["tg_promotion"] == "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED"
 
-    wave2 = campaign["waves"][1]
-    frontier = campaign["frontier"]
-    assert wave2["status"] == expected
-    assert wave2["result_ref"].endswith("k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md")
-    for token in (
+    required_emissions = (
         "ACTUAL_K77_FOUR_FIELD_DENSITY_KREIN_PRIMALIZER",
         "MOVING_INVERSE_VARIATION_AND_TRANSITION_NATURALITY",
         "ORIENTATION_FREE_DENSITY_FORMULATION_NO_P1",
         "TWO_CONNECTION_FERMION_CONTEXT_SOURCE_CORRECTION",
         "HODGE_ROLLED_ONE_WAY_TWO_CONNECTION_ARROW",
         "D916_SLOT_PRESERVING_ORDER_MISMATCH",
-    ):
-        assert token in wave2["emitted"]
-    for token in (
-        "FULL_TWO_CONNECTION_CYCLIC_EVEN_ODD_ARROW_PAIR",
-        "TWO_CONNECTION_ACTION_HELMHOLTZ_OWNER",
-        "GENERAL_CHAIN_EQUIVALENCE_OR_PRECISE_RIVAL_DISPOSITION",
-    ):
-        assert token in wave2["carried_debt"]
-    assert frontier["next_required_build"] == registry["next_required_build"]
+    )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for token in (
         "actual moving density/krein primalizers",
@@ -151,9 +142,6 @@ def main() -> None:
     gate_files = list((ROOT / "process_gates").glob("*.py"))
     tests_readme = (ROOT / "tests/README.md").read_text(encoding="utf-8")
     gates_readme = (ROOT / "process_gates/README.md").read_text(encoding="utf-8")
-    assert len(test_files) == 174
-    assert "`channel-swings/` (174)" in tests_readme
-    assert len(gate_files) == 139
     assert "k77_wave2_mixed_primalizer_comparison_scope_audit.py" in gates_readme
 
     forbidden = (

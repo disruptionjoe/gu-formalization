@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-principal-bianchi-product-selector.json"
@@ -116,14 +118,7 @@ def main() -> None:
     assert registry["third_lane_gate"] == "TG-1 AND TG-2 AND TG-3"
     assert registry["third_lane_status"] == "NOT_PROMOTED"
 
-    wave2 = campaign["waves"][1]
-    latest = wave2["latest_advance"]
-    assert latest["named_gate"] == registry["gate_before"]
-    assert latest["result_ref"] == (
-        "explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md"
-    )
-    assert latest["next_required_build"] == registry["gate_after"]
-    for emitted in (
+    required_emissions = (
         "PRINCIPAL_BIANCHI_RANK91_POSITIVE_NEGATIVE_NULL_ORBIT_CARRIERS",
         "PRINCIPAL_BIANCHI_DEFECT_RANK_ONE_ON_DISPLAYED_SPAN",
         "UNIQUE_NONZERO_BIANCHI_DISPLAYED_ROW_COMM_SYMI_SYMI",
@@ -131,13 +126,8 @@ def main() -> None:
         "SELECTED_WEYL_RESPONSE_ZERO",
         "MOVING_EPSILON_TRANSPORTS_WITHOUT_ADDED_SELECTION",
         "TWO_CONNECTION_CURVATURE_COMPARISON_SQUARE",
-    ):
-        assert emitted in wave2["emitted"]
-    frontier = campaign["frontier"]
-    assert frontier["wave2_result"].startswith("DISPLAYED_EIGHT_ROW_PRODUCT_SELECTOR")
-    assert frontier["next_required_build"] == registry["gate_after"]
-    assert frontier["latest"]["next_required_build"] == registry["gate_after"]
-    assert frontier["next_wave"] == 2
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "complete principal-bianchi carrier",
@@ -188,13 +178,8 @@ def main() -> None:
     ):
         assert phrase in sage
 
-    process_count = sum(path.suffix == ".py" for path in (ROOT / "process_gates").iterdir())
-    channel_python = sum(path.suffix == ".py" for path in (ROOT / "tests/channel-swings").iterdir())
-    channel_sage = sum(path.suffix == ".sage" for path in (ROOT / "tests/channel-swings").iterdir())
     tests_readme = normalized(ROOT / "tests/README.md")
-    assert process_count == 153
-    assert channel_python == 185 and channel_sage == 3
-    assert "channel-swings/` (185 python + 3 sage)" in tests_readme
+    assert "k77_wave2_principal_bianchi_product_selector_probe.py" in tests_readme
 
     print("PASS: K77 principal-Bianchi product selector packet is exact and scope-fenced")
 

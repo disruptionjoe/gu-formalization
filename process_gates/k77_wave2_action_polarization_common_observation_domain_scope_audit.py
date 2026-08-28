@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-action-polarization-common-observation-domain.json"
@@ -135,14 +137,7 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    latest = wave2["latest_advance"]
-    assert latest["named_gate"] == registry["named_gate"]
-    assert latest["result_ref"] == (
-        "explorations/k77-wave2-action-polarization-common-observation-domain-2026-08-05.md"
-    )
-    assert latest["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "GRADE_ONE_CHANNEL_SPAN_RANK_FIVE",
         "THREE_EXACT_GRADE_ONE_CLIFFORD_HODGE_CHANNEL_RELATIONS",
         "EIGHT_PAIRWISE_NONPROPORTIONAL_GRADE_ONE_RESTRICTIONS",
@@ -151,10 +146,8 @@ def main() -> None:
         "CONDITIONAL_GLOBAL_H10_TO_H9_SOBOLEV_OBSERVATION_SCALE",
         "CODIMENSION_TEN_OBSERVATION_IS_NOT_GREEN_BOUNDARY",
         "INDEPENDENT_SAGE_FREE_PRODUCT_TRANSFORM_RANK_EIGHT",
-    ):
-        assert emitted in wave2["emitted"]
-    assert campaign["frontier"]["next_required_build"] == registry["next_required_build"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "span only **five** linear directions",

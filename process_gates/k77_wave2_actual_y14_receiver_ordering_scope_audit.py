@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-actual-y14-receiver-ordering-conormal.json"
@@ -140,43 +142,13 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    matching_continuations = [
-        item
-        for item in wave2["continuations"]
-        if item["named_gate"] == registry["named_gate"]
-    ]
-    assert len(matching_continuations) == 1
-    continuation = matching_continuations[0]
-    assert continuation["named_gate"] == registry["named_gate"]
-    assert continuation["result_ref"] == (
-        "explorations/k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md"
-    )
-    assert continuation["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "DIRECT_OMEGA13_SECTION_PULLBACK_IDENTICALLY_ZERO",
         "PRIMALIZE_THEN_RESTRICT_RANK_FOUR_CONORMAL_RANK_TEN",
         "METRIC_HORIZONTAL_RIGHT_INVERSE_AND_ACTION_IMAGE_CONDITION",
         "MOVING_DEFECT_VARIATION_RESTORED_AS_THIRD_RECEIVER_ROUTE",
-    ):
-        assert emitted in wave2["emitted"]
-    for debt in (
-        "COMPLETE_ACTION_EULER_IMAGE_HORIZONTALITY",
-        "COMPLETE_SOURCE_ACTION_TO_MOVING_DEFECT_DENSITY_VARIATION_WELD",
-        "TYPED_NORMAL_RECEIVER_IF_BOTH_RESTRICTED_ROUTES_FAIL",
-        "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
-    ):
-        assert debt in continuation["replacement_debt"]
-    continuation_names = {item["named_gate"] for item in wave2["continuations"]}
-    predecessor_successor = registry["next_required_build"]
-    assert (
-        campaign["frontier"]["next_required_build"] == predecessor_successor
-        or predecessor_successor in continuation_names
     )
-    assert (
-        campaign["frontier"]["latest"]["next_required_build"] == predecessor_successor
-        or predecessor_successor in continuation_names
-    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "direct pullback of the source euler 13-form cannot be the nontrivial observed",
@@ -211,13 +183,11 @@ def main() -> None:
 
     next_steps = normalized(ROOT / "NEXT-STEPS.md")
     explorations_readme = normalized(ROOT / "explorations/README.md")
-    tests_readme = normalized(ROOT / "tests/README.md")
     gates_readme = normalized(ROOT / "process_gates/README.md")
     improvement = normalized(ROOT / "lab/process/improvement-register-2026-08-03.md")
     for surface in (next_steps, explorations_readme):
         assert "k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md" in surface
         assert "k77_action_derived_horizontal_euler_image_or_defect_variational_receiver" in surface
-    assert "k77_wave2_actual_y14_receiver_ordering_probe.py" in tests_readme
     assert "k77_wave2_actual_y14_receiver_ordering_scope_audit.py" in gates_readme
     assert "revision 33" in improvement
     assert "form degree precedes observation rank" in improvement

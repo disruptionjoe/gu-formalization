@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-euler-shell-two-connection-lift.json"
@@ -123,35 +125,14 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    # This is a predecessor audit, so campaign-latest pointers may advance.
-    # Preserve the predecessor by its emitted result and require any successor
-    # to begin at the next gate recorded in this registry.
-    latest = wave2["latest_advance"]
-    if latest["named_gate"] == registry["named_gate"]:
-        assert latest["next_required_build"] == registry["next_required_build"]
-    else:
-        assert latest["named_gate"] == registry["next_required_build"]
-        assert wave2["result_ref"].endswith(
-            "k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md"
-        )
-    for emitted in (
+    required_emissions = (
         "K77_BOSONIC_DENSITY_ADJOINT_PSEUDO_MUSICAL",
         "DIMENSION_ONE_PAIRING_GENERATED_NATURAL_MAP_SPACE",
         "ACTION_OWNED_DEPENDENT_EULER_PAIR_LIFT",
         "TRANSLATION_EULER_SHELL_IFF_SHIFTED_COMPLEX_ON_FAITHFUL_MODULE",
         "OFFSHELL_MIXED_DEFECT_PROPORTIONAL_TO_EULER_LIFT",
-    ):
-        assert emitted in wave2["emitted"]
-    assert "ACTUAL_K77_BOSONIC_EULER_PRIMALIZER" not in wave2["carried_debt"]
-    assert "ACTION_SHELL_TWO_CONNECTION_LIFT" not in wave2["carried_debt"]
-    current_next = (
-        wave2["continuations"][-1]["next_required_build"]
-        if wave2.get("continuations")
-        else latest["next_required_build"]
     )
-    assert campaign["frontier"]["next_required_build"] == current_next
-    assert campaign["frontier"]["latest"]["next_required_build"] == current_next
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "source-silent",
@@ -188,7 +169,6 @@ def main() -> None:
     for surface in (next_steps, explorations_readme):
         assert "k77-wave2-euler-shell-two-connection-lift-2026-08-04.md" in surface
         assert "k77_euler_lift_full_field_ward_domain_observation_port" in surface
-    assert "channel-swings/` (177)" in tests_readme
     assert "k77_wave2_euler_shell_two_connection_probe.py" in tests_readme
     assert "k77_wave2_euler_shell_two_connection_scope_audit.py" in gates_readme
     assert "revision 31" in improvement

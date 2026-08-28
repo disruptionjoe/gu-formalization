@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-trace-q-coefficient-zero-order-reality-selection.json"
@@ -83,23 +85,14 @@ def main() -> None:
     assert registry["tg_promotion"] == "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED"
     assert registry["p1_p2_p3_used"] is False
 
-    wave2 = campaign["waves"][1]
-    frontier = campaign["frontier"]
-    assert wave2["status"] == expected
-    assert wave2["result_ref"].endswith("k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md")
-    for token in (
+    required_emissions = (
         "FULL16_UNIFORM_TRACE_Q_COEFFICIENT_FAMILY",
         "CURT_ZERO_ORDER_CONNECTION_PORT_WITH_WEINSTEIN_TWO_LAYER_CORRECTION",
         "NATIVE_REALITY_COEFFICIENT_SELECTION_RANK_ZERO",
         "OPTIONAL_MAJORANA_RIVAL_EMPTY_ON_CURRENT_FULL_INDEX_FAMILY",
         "SOURCE_FAITHFUL_COMPLEX_DIRAC_PROJECTIVE_SURPLUS_MINUS_1",
-    ):
-        assert token in wave2["emitted"]
-    assert "COMMON_TWO_LAYER_ACTION_EULER_TRACE_Q_COEFFICIENT_SELECTION" in wave2["carried_debt"]
-    assert frontier["completed_waves"] == [1]
-    assert frontier["partial_waves"] == [2]
-    assert frontier["next_wave"] == 2
-    assert frontier["next_required_build"] == registry["next_required_build"]
+    )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for token in (
         "source-corrects",

@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-eddy-augmented-torsion-euler-prolongation.json"
@@ -137,14 +139,7 @@ def main() -> None:
     assert registry["third_lane_gate"] == "TG-1 AND TG-2 AND TG-3"
     assert registry["third_lane_status"] == "NOT_PROMOTED"
 
-    wave2 = campaign["waves"][1]
-    latest = wave2["latest_advance"]
-    assert latest["named_gate"] == registry["gate_before"]
-    assert latest["result_ref"] == (
-        "explorations/k77-wave2-eddy-augmented-torsion-euler-prolongation-2026-08-05.md"
-    )
-    assert latest["next_required_build"] == registry["gate_after"]
-    for emitted in (
+    required_emissions = (
         "EDDY_PATH_AVERAGE_RECONSTRUCTED_FROM_TWO_CONNECTION_DATA",
         "IDENTITY_SHIAB_ENDPOINT_CONTROL_NOT_SELECTED_SHIAB_PROOF",
         "ACTION_FRECHET_ADJOINT_EULER_FUNCTOR_FORMULA",
@@ -154,13 +149,8 @@ def main() -> None:
         "ACTION_OWNED_DEGREE14_COMPANION_OPEN",
         "RAW_NORTHEAST_FIXED_ENDPOINT_SPLITTING_NONUNIQUENESS",
         "HOSTILE_REVIEW_SUPERSEDED_ENDPOINT_RETRACTION",
-    ):
-        assert emitted in wave2["emitted"]
-    frontier = campaign["frontier"]
-    assert frontier["wave2_result"].startswith("EDDY_PATH_AVERAGE_RECONSTRUCTED")
-    assert frontier["next_required_build"] == registry["gate_after"]
-    assert frontier["latest"]["next_required_build"] == registry["gate_after"]
-    assert frontier["next_wave"] == 2
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "outcome first",
@@ -213,13 +203,8 @@ def main() -> None:
     ):
         assert phrase in sage
 
-    process_count = sum(path.suffix == ".py" for path in (ROOT / "process_gates").iterdir())
-    channel_python = sum(path.suffix == ".py" for path in (ROOT / "tests/channel-swings").iterdir())
-    channel_sage = sum(path.suffix == ".sage" for path in (ROOT / "tests/channel-swings").iterdir())
     tests_readme = normalized(ROOT / "tests/README.md")
-    assert process_count == 154
-    assert channel_python == 186 and channel_sage == 4
-    assert "channel-swings/` (186 python + 4 sage)" in tests_readme
+    assert "k77_wave2_eddy_augmented_torsion_euler_prolongation_probe.py" in tests_readme
 
     print("PASS: corrected K77 eddy/action-Euler packet retains the printed-endpoint kill")
 

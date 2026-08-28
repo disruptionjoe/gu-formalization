@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-moving-shiab-epsilon-ward-green-domain.json"
@@ -147,14 +149,7 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    continuation = wave2["latest_advance"]
-    assert continuation["named_gate"] == registry["named_gate"]
-    assert continuation["result_ref"] == (
-        "explorations/k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md"
-    )
-    assert continuation["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "EXHAUSTIVE_EIGHT_CHANNEL_K77_MOVING_SHIAB_FAMILY",
         "ALL_EIGHT_CHANNELS_HAVE_85_OF_85_MIXED_NORMAL_SUPPORT",
         "FULL_GRADE_ONE_RANK_VECTOR_1190_1190_1190_1190_14_14_374_374",
@@ -162,10 +157,8 @@ def main() -> None:
         "PRIMITIVE_EPSILON_EULER_CHAIN",
         "COMPLETE_OFFSHELL_HOMOGENEOUS_EVEN_WARD_OWNER_FIXTURE",
         "COMPACT_CORE_H10_TO_H9_CLOSED_GREEN_GRAPH",
-    ):
-        assert emitted in wave2["emitted"]
-    assert campaign["frontier"]["next_required_build"] == registry["next_required_build"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "support is not coefficient rank",

@@ -3,6 +3,7 @@
 
 from __future__ import annotations
 
+from copy import deepcopy
 import json
 from pathlib import Path
 
@@ -31,6 +32,22 @@ def load_json(path: Path):
 
 def normalized(path: Path) -> str:
     return " ".join(path.read_text(encoding="utf-8").lower().split())
+
+
+def historical_wave2_checkpoint(campaign, required_emissions) -> bool:
+    """Validate immutable Wave-2 identity and its append-only emitted facts."""
+    if campaign.get("artifact") != "K77_POST_B2_NEXT_EIGHT_WAVE_RENDEZVOUS_CAMPAIGN":
+        return False
+    if campaign.get("version") != "2026-08-04":
+        return False
+    wave2_rows = [wave for wave in campaign.get("waves", []) if wave.get("ordinal") == 2]
+    if len(wave2_rows) != 1:
+        return False
+    wave2 = wave2_rows[0]
+    if wave2.get("id") != "RENDEZVOUS_ACTION_CURRENT_RIESZ_SUPERIG_WARD":
+        return False
+    emitted = wave2.get("emitted")
+    return isinstance(emitted, list) and set(required_emissions).issubset(emitted)
 
 
 def main() -> None:
@@ -167,18 +184,7 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    continuation = next(
-        item
-        for item in wave2["continuations"]
-        if item["named_gate"] == registry["named_gate"]
-    )
-    assert continuation["named_gate"] == registry["named_gate"]
-    assert continuation["result_ref"] == (
-        "explorations/k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md"
-    )
-    assert continuation["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "NONZERO_KAPPA_CONORMAL_SOURCE_ACTION_WITNESS",
         "AUTOMATIC_FULL_TRANSLATION_DOMAIN_HORIZONTALITY_KILLED",
         "CANONICAL_PULLBACK_PLUS_VERTICAL_COEFFICIENT_FIELD_ISOMORPHISM",
@@ -186,20 +192,21 @@ def main() -> None:
         "OMEGA13_FOUR_PLUS_TEN_BIGRADING",
         "DEGREE3_CONNECTION_PLUS_VERTICAL_VALUED_DEGREE4_EQUATIONS",
         "LOCAL_RECEIVER_RANK14_PAIRING_EXACT",
-    ):
-        assert emitted in wave2["emitted"]
-    for debt in (
-        "COMPLETE_SOURCE_ACTION_DEFECT_CURRENT_LOCALIZATION",
-        "MOVING_SECTION_AND_VERTICAL_DENSITY_VARIATION",
-        "FULL_TILTED_WARD_BV_AND_GLOBAL_DESCENT",
-        "ACTUAL_POST_OBSERVATION_COEFFICIENT_MODULE_AND_IMAGE_FAITHFULNESS",
-        "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
-    ):
-        assert debt in continuation["replacement_debt"]
-    assert any(
-        item["next_required_build"] == registry["next_required_build"]
-        for item in wave2["continuations"]
     )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
+
+    wrong_artifact = deepcopy(campaign)
+    wrong_artifact["artifact"] = "OTHER_CAMPAIGN"
+    assert not historical_wave2_checkpoint(wrong_artifact, required_emissions)
+    wrong_wave = deepcopy(campaign)
+    wrong_wave["waves"][1]["id"] = "OTHER_WAVE"
+    assert not historical_wave2_checkpoint(wrong_wave, required_emissions)
+    missing_emission = deepcopy(campaign)
+    missing_emission["waves"][1]["emitted"].remove(required_emissions[0])
+    assert not historical_wave2_checkpoint(missing_emission, required_emissions)
+    duplicate_wave = deepcopy(campaign)
+    duplicate_wave["waves"].append(deepcopy(duplicate_wave["waves"][1]))
+    assert not historical_wave2_checkpoint(duplicate_wave, required_emissions)
 
     for phrase in (
         "the canonical field map along a section",

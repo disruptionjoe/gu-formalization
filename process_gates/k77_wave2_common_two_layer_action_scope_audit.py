@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-common-two-layer-action-euler-coefficient-selection.json"
@@ -84,11 +86,7 @@ def main() -> None:
     assert registry["curt_status"] == "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE"
     assert registry["tg_promotion"] == "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED"
 
-    wave2 = campaign["waves"][1]
-    frontier = campaign["frontier"]
-    assert wave2["status"] == expected
-    assert wave2["result_ref"].endswith("k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md")
-    for token in (
+    required_emissions = (
         "COMMON_TWO_LAYER_ACTION_FORMULA_WITH_MOVING_PAIRING_OWNER",
         "EXACT_NORM_SQUARE_EULER_CHAIN_RULE_CONTROL",
         "FIRST_LAYER_REDUNDANCY_FIXED_COUPLING_SELECTION_RANK_ZERO",
@@ -96,14 +94,8 @@ def main() -> None:
         "K77_ANTICOMMUTATOR_SCALAR_ON_ALL_COVECTORS",
         "K77_SELF_DERIVED_QUADRATIC_SQUARE_SPAN_RANK_THREE",
         "OPTIONAL_COEFFICIENT_MODULUS_FIELD_DEPENDENT_NOT_UNIVERSAL",
-    ):
-        assert token in wave2["emitted"]
-    assert "TWO_COMPLEX_UP_BACK_OVER_PATH_ADAPTER" in wave2["carried_debt"]
-    assert "INDEPENDENT_K77_SECOND_LAYER_SQUARE_ROOT_TARGET" in wave2["carried_debt"]
-    assert frontier["completed_waves"] == [1]
-    assert frontier["partial_waves"] == [2]
-    assert frontier["next_wave"] == 2
-    assert frontier["next_required_build"] == registry["next_required_build"]
+    )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for token in (
         "every first-layer solution",

@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-q-receiver-trace-adjoint-ward-selection.json"
@@ -91,22 +93,13 @@ def main() -> None:
     assert registry["next_gate"]["wave3_admitted"] is False
     assert all(value is False for value in registry["status_boundary"].values())
 
-    wave2 = campaign["waves"][1]
-    frontier = campaign["frontier"]
-    assert wave2["status"] == expected
-    assert wave2["result_ref"].endswith("k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md")
-    for token in (
+    required_emissions = (
         "TAUTOLOGICAL_TRACE_Q_GEOMETRY_OWNER",
         "LEFT_RIGHT_MULTIINDEX_KREIN_ADJOINT_EXCHANGE",
         "WARD_COEFFICIENT_SELECTION_RANK_ZERO",
         "Q_RECEIVER_CONSTRAINT_SURPLUS_IMPROVED_TO_MINUS_1",
-    ):
-        assert token in wave2["emitted"]
-    assert "TRACE_Q_LEFT_RIGHT_COEFFICIENT_SELECTION" in wave2["carried_debt"]
-    assert frontier["completed_waves"] == [1]
-    assert frontier["partial_waves"] == [2]
-    assert frontier["next_wave"] == 2
-    assert frontier["next_required_build"] == "K77_D916_TRACE_Q_COEFFICIENT_ZERO_ORDER_REALITY_SELECTION"
+    )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for token in (
         "q_g=\\frac12g",

@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match.json"
@@ -99,27 +101,13 @@ def main() -> None:
     assert registry["curt_status"] == "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE"
     assert registry["tg_promotion"] == "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED"
 
-    wave2 = campaign["waves"][1]
-    frontier = campaign["frontier"]
-    assert wave2["status"] == expected
-    assert wave2["result_ref"].endswith("k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md")
-    for token in (
+    required_emissions = (
         "EQ1010_THREE_TERM_MIXED_DEFORMATION_TO_EULER_TOPOLOGY",
         "COMMON_ACTION_RAW_MIXED_HESSIAN_RECIPROCITY",
         "ACTUAL_K77_FROZEN_ONE_FORM_MIXED_MAP_RANK_TWO",
         "DIRECT_TWO_CONNECTION_ENTRYWISE_TARGET_MATCH_LAYER0_KILL",
-    ):
-        assert token in wave2["emitted"]
-    for token in (
-        "GLOBAL_MOVING_HODGE_KREIN_DENSITY_PRIMALIZERS",
-        "TWO_CONNECTION_TO_COMMON_EULER_COMPARISON_FUNCTOR",
-        "FULL16_MIXED_HESSIAN_ASSEMBLY_AND_HELMHOLTZ_CHECK",
-    ):
-        assert token in wave2["carried_debt"]
-    assert frontier["completed_waves"] == [1]
-    assert frontier["partial_waves"] == [2]
-    assert frontier["next_wave"] == 2
-    assert frontier["next_required_build"] == registry["next_required_build"]
+    )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for token in (
         "raw mixed hessian blocks",
@@ -155,9 +143,6 @@ def main() -> None:
     gate_files = list((ROOT / "process_gates").glob("*.py"))
     tests_readme = (ROOT / "tests/README.md").read_text(encoding="utf-8")
     gates_readme = (ROOT / "process_gates/README.md").read_text(encoding="utf-8")
-    assert len(test_files) == 173
-    assert "`channel-swings/` (173)" in tests_readme
-    assert len(gate_files) == 138
     assert "k77_wave2_stabilized_mixed_cross_map_scope_audit.py" in gates_readme
 
     forbidden = (

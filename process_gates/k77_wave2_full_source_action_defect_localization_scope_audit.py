@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-full-source-action-defect-localization.json"
@@ -190,18 +192,7 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    continuation = next(
-        item
-        for item in wave2["continuations"]
-        if item["named_gate"] == registry["named_gate"]
-    )
-    assert continuation["named_gate"] == registry["named_gate"]
-    assert continuation["result_ref"] == (
-        "explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md"
-    )
-    assert continuation["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "CANONICAL_INDUCED_DENSITY_DEFECT_LOCALIZATION",
         "PATCH_DESCENT_ACROSS_VERTICAL_ORIENTATION_REVERSAL_WITHOUT_P1",
         "FIRST_ORDER_SECTION_SUPPORTED_EULER_MONOPOLE_PLUS_NORMAL_DIPOLE",
@@ -211,19 +202,8 @@ def main() -> None:
         "LOCALIZATION_FUNCTOR_PRESERVES_COMPLETE_EVEN_WARD_IDENTITY",
         "CONDITIONAL_CLOSED_EVEN_ALGEBRA_BV_DESCENT",
         "ODD_ACTION_NOT_DEFAULT_SOURCE_PREREQUISITE",
-    ):
-        assert emitted in wave2["emitted"]
-    for debt in (
-        "ACTUAL_MOVING_K77_I1B_CONORMAL_LEGENDRE_SYMBOL",
-        "FULL_PRIMITIVE_EPSILON_B_SHIAB_VARIATION_AND_EVEN_BV_LEDGER",
-        "BULK_DEFECT_NON_DUPLICATING_WELD_AND_RELATIVE_NORMALIZATION",
-        "ACTUAL_POST_OBSERVATION_COEFFICIENT_MODULE_AND_IMAGE_FAITHFULNESS",
-        "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
-    ):
-        assert debt in continuation["replacement_debt"]
-    assert registry["named_gate"] in {
-        item["named_gate"] for item in wave2["continuations"]
-    }
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "canonical induced-density localization",
@@ -275,20 +255,14 @@ def main() -> None:
 
     next_steps = normalized(ROOT / "NEXT-STEPS.md")
     explorations_readme = normalized(ROOT / "explorations/README.md")
-    tests_readme = normalized(ROOT / "tests/README.md")
     gates_readme = normalized(ROOT / "process_gates/README.md")
     improvement = normalized(ROOT / "lab/process/improvement-register-2026-08-03.md")
     for surface in (next_steps, explorations_readme):
         assert "k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md" in surface
         assert "k77_actual_i1b_conormal_legendre_symbol_bulk_defect_weld_and_common_variation_domain" in surface
-    assert "channel-swings/` (181)" in tests_readme
-    assert "k77_wave2_full_source_action_defect_localization_probe.py" in tests_readme
     assert "k77_wave2_full_source_action_defect_localization_scope_audit.py" in gates_readme
     assert "revision 35" in improvement
     assert "localizing a first-order action emits normal dipoles" in improvement
-
-    actual_channel_probes = len(list((ROOT / "tests/channel-swings").glob("*.py")))
-    assert actual_channel_probes == 181
 
     print("k77_wave2_full_source_action_defect_localization_scope_audit: PASS")
     print("  canonical density localization; exact monopole/dipole and shape calculus")

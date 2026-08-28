@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b524bc0fc9d
+revision_basis: 09873f992751
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The complete 24-gate K77 Wave-2 historical certificate cohort is restored
+    without changing the historical campaign, results, sources, reviews,
+    probes or registries. Each certificate now validates immutable campaign
+    identity, Wave-2 identity, its version-local scientific evidence and the
+    append-only emitted facts it actually consumes, instead of requiring old
+    latest/frontier/debt pointers or repository inventory totals to remain
+    current. Four shared hostile mutations reject the wrong campaign, wrong
+    wave, a missing required emission and a duplicate Wave-2 ordinal. The
+    cohort moves from 1/24 to 24/24 green and the full serialized census
+    improves from 327 green / 96 inherited red to 350 / 73 / 423 with no
+    timeout or previously green regression. No scientific status, action
+    owner, ledger row, SG4 phase, prediction, confirmation, canon, protected
+    surface, release state or public posture moved.
     The 15 red second-layer certificates spanning conditional ledgers v0.40
     through v0.56 are restored without changing any historical ledger, result,
     source, review or registry artifact. They now validate immutable
@@ -4364,11 +4377,13 @@ next_condition: >-
 
   Reopen M-M14/P-L14 only on their named family/base-integral or absolute-rank
   inputs; reopen maintenance only on a concrete currency or detector regression.
-  The v0.3--v0.17, v0.40--v0.56 second-layer and v0.150--v0.172 K77
-  historical cohorts are current at 15/15, 15/15 and 23/23 with four hostile
-  ancestry controls. Reopen only on a broken predecessor, cycle, target skip,
-  revoked append-only authority or version-local regression. Frontmatter
-  custody reopens only on a concrete population or mapping drift.
+  The v0.3--v0.17, v0.40--v0.56 second-layer, v0.150--v0.172 K77 and complete
+  K77 Wave-2 historical cohorts are current at 15/15, 15/15, 23/23 and 24/24.
+  Wave-2 has four hostile controls; reopen only on campaign/wave identity drift,
+  required emission loss, or version-local evidence regression. Reopen the ledger-derived cohorts
+  only on a broken predecessor, cycle, target skip, revoked append-only
+  authority or version-local regression. Frontmatter custody reopens only on a
+  concrete population or mapping drift.
 
   Reopen the current K77 exact/tangent bank only on dependency or payload drift,
   a malformed/red producer summary, a new consumer failure or a concrete

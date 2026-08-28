@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-source-sign-shiab-duality-reconciliation.json"
@@ -89,16 +91,7 @@ def main() -> None:
     assert registry["next_gate"]["wave3_admitted"] is False
     assert all(value is False for value in registry["status_boundary"].values())
 
-    wave2 = campaign["waves"][1]
-    frontier = campaign["frontier"]
-    assert wave2["status"] == expected
-    assert wave2["result_ref"].endswith("k77-wave2-source-sign-shiab-duality-reconciliation-2026-08-04.md")
-    assert "SOURCE_NATIVE_EVEN_SHIAB_D7_HOM_ZERO" in wave2["emitted"]
-    assert "Q_RECEIVER_OWNERSHIP_AND_DEGREE_REALITY_VS_LEFT_RIGHT_SHIAB_PLACEMENT" in wave2["carried_debt"]
-    assert frontier["completed_waves"] == [1]
-    assert frontier["partial_waves"] == [2]
-    assert frontier["next_wave"] == 2
-    assert frontier["next_required_build"] == "K77_D916_Q_RECEIVER_OWNERSHIP_ADJOINT_WARD_SELECTION"
+    assert historical_wave2_checkpoint(campaign, ("SOURCE_NATIVE_EVEN_SHIAB_D7_HOM_ZERO",))
 
     for token in (
         "three-way fork",

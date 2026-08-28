@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "historical_certificate_restoration_wave",
+  "created": "2026-08-28",
+  "status": "COMPLETE__24_OF_24_WAVE2_CERTIFICATES_CURRENT",
+  "document_role": "process_certificate",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only restoration of historical Wave-2 certificate transport",
+  "gu_comparator_routing": "NOT_TRIGGERED__NO_NEW_SCIENTIFIC_OR_COMPARATOR_RESULT",
+  "gu_typed_objects": {
+    "exemption": "PROCESS_ONLY_NO_NEW_SCIENTIFIC_OBJECT"
+  },
+  "contract": {
+    "historical_campaign": "lab/process/k77-post-b2-next-eight-wave-campaign.json",
+    "campaign_identity": "K77_POST_B2_NEXT_EIGHT_WAVE_RENDEZVOUS_CAMPAIGN",
+    "campaign_version": "2026-08-04",
+    "wave_ordinal": 2,
+    "wave_id": "RENDEZVOUS_ACTION_CURRENT_RIESZ_SUPERIG_WARD",
+    "mutable_fields_forbidden_as_historical_certificate_inputs": [
+      "latest_advance",
+      "frontier",
+      "continuations",
+      "replacement_debt",
+      "carried_debt",
+      "repository inventory totals"
+    ],
+    "preserved_inputs": [
+      "version-local scientific assertions",
+      "version-local registry assertions",
+      "source assertions",
+      "hostile-review assertions",
+      "probe assertions",
+      "append-only emitted facts required by each certificate"
+    ]
+  },
+  "cohort": [
+    "k77_wave2_action_owned_degree14_northeast_scope_audit.py",
+    "k77_wave2_action_polarization_common_observation_domain_scope_audit.py",
+    "k77_wave2_action_ward_scope_audit.py",
+    "k77_wave2_actual_draft916_blockwise_scope_audit.py",
+    "k77_wave2_actual_y14_receiver_ordering_scope_audit.py",
+    "k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit.py",
+    "k77_wave2_common_two_layer_action_scope_audit.py",
+    "k77_wave2_dirac_derham_superig_rebase_scope_audit.py",
+    "k77_wave2_eddy_augmented_torsion_euler_prolongation_scope_audit.py",
+    "k77_wave2_euler_lift_ward_observation_scope_audit.py",
+    "k77_wave2_euler_shell_two_connection_scope_audit.py",
+    "k77_wave2_full_adjoint_shiab_bianchi_two_connection_target_scope_audit.py",
+    "k77_wave2_full_source_action_defect_localization_scope_audit.py",
+    "k77_wave2_global_draft916_krein_preboundary_scope_audit.py",
+    "k77_wave2_i1b_conormal_symbol_weld_domain_scope_audit.py",
+    "k77_wave2_mixed_primalizer_comparison_scope_audit.py",
+    "k77_wave2_moving_shiab_epsilon_ward_green_domain_scope_audit.py",
+    "k77_wave2_principal_bianchi_product_selector_scope_audit.py",
+    "k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py",
+    "k77_wave2_source_sign_shiab_duality_scope_audit.py",
+    "k77_wave2_stabilized_mixed_cross_map_scope_audit.py",
+    "k77_wave2_trace_q_coefficient_zero_order_reality_scope_audit.py",
+    "k77_wave2_two_connection_action_owner_scope_audit.py",
+    "k77_wave2_up_back_over_target_scope_audit.py"
+  ],
+  "validation": {
+    "before": "1 green / 23 red",
+    "cohort_after": "24 green / 0 red",
+    "shared_hostile_controls_after": "4/4",
+    "process_gate_census_before": "327 green / 96 inherited red / 423",
+    "process_gate_census_after": "350 green / 73 inherited red / 423"
+  },
+  "hostile_review": {
+    "wrong_campaign_identity_rejected": true,
+    "wrong_wave_identity_rejected": true,
+    "missing_required_emission_rejected": true,
+    "duplicate_wave_ordinal_rejected": true
+  },
+  "effects": {
+    "historical_campaign_changed": false,
+    "historical_result_changed": false,
+    "source_or_review_changed": false,
+    "scientific_status_changed": false,
+    "action_owner_changed": false,
+    "ledger_or_sg4_changed": false,
+    "prediction_or_confirmation_changed": false,
+    "canon_changed": false,
+    "protected_surface_changed": false,
+    "release_or_public_posture_changed": false
+  },
+  "reopen_only_on": [
+    "campaign identity or version drift",
+    "Wave-2 identity ambiguity",
+    "required append-only emission loss",
+    "version-local scientific, source, review or probe regression"
+  ]
+}

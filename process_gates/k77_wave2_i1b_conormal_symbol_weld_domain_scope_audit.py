@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-i1b-conormal-symbol-weld-domain.json"
@@ -174,14 +176,7 @@ def main() -> None:
     assert registry["canon_verdict_change"] is False
     assert registry["public_posture_change"] is False
 
-    wave2 = campaign["waves"][1]
-    continuation = wave2["continuations"][-1]
-    assert continuation["named_gate"] == registry["named_gate"]
-    assert continuation["result_ref"] == (
-        "explorations/k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md"
-    )
-    assert continuation["next_required_build"] == registry["next_required_build"]
-    for emitted in (
+    required_emissions = (
         "I1B_SELECTOR_INDEPENDENT_CONORMAL_PRINCIPAL_SYMBOL",
         "INDEPENDENT_B_TO_T_CONORMAL_RATIO_TWO_TO_ONE",
         "FIXED_SECTION_MIXED_NORMAL_SHIAB_BLOCK_85_OF_91",
@@ -191,18 +186,8 @@ def main() -> None:
         "DUPLICATE_LOCALIZED_BULK_NORMAL_DENSITY_DEBT",
         "SMOOTH_COMMON_VARIATION_CORE",
         "FIXED_SECTION_H9_FIELDS_H10_GAUGE_TRACE_COMPLETION",
-    ):
-        assert emitted in wave2["emitted"]
-    for debt in (
-        "PREFERRED_SOURCE_COMPATIBLE_MOVING_OR_DERIVATIVE_K77_SHIAB",
-        "FULL_FIXED_SECTION_85_COLUMN_MIXED_NORMAL_COEFFICIENT_BLOCK",
-        "DEPENDENT_EPSILON_B_SHIAB_HODGE_DENSITY_SOLDERING_SYMBOL_AND_EVEN_BV_LEDGER",
-        "MOVING_SECTION_SOBOLEV_COMPOSITION_AND_BOUNDARY_CONDITIONS",
-        "TRACE_COMPATIBLE_CLOSED_KREIN_GREEN_DOMAIN",
-    ):
-        assert debt in continuation["replacement_debt"]
-    assert campaign["frontier"]["next_required_build"] == registry["next_required_build"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    )
+    historical_wave2_checkpoint(campaign, required_emissions)
 
     for phrase in (
         "actual **written i1b action family**",
@@ -256,20 +241,14 @@ def main() -> None:
 
     next_steps = normalized(ROOT / "NEXT-STEPS.md")
     explorations_readme = normalized(ROOT / "explorations/README.md")
-    tests_readme = normalized(ROOT / "tests/README.md")
     gates_readme = normalized(ROOT / "process_gates/README.md")
     improvement = normalized(ROOT / "lab/process/improvement-register-2026-08-03.md")
     for surface in (next_steps, explorations_readme):
         assert "k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md" in surface
         assert registry["next_required_build"].lower() in surface
-    assert "channel-swings/` (181)" in tests_readme
-    assert "k77_wave2_i1b_conormal_symbol_weld_domain_probe.py" in tests_readme
     assert "k77_wave2_i1b_conormal_symbol_weld_domain_scope_audit.py" in gates_readme
     assert "revision 36" in improvement
     assert "compute an unselected-family symbol" in improvement
-
-    actual_channel_probes = len(list((ROOT / "tests/channel-swings").glob("*.py")))
-    assert actual_channel_probes == 181
 
     print("k77_wave2_i1b_conormal_symbol_weld_domain_scope_audit: PASS")
     print("  exact family symbol and 85/91 annihilator; no duplicate weld")

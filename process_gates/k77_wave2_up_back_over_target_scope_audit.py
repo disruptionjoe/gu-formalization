@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit import historical_wave2_checkpoint
+
 
 ROOT = Path(__file__).resolve().parents[1]
 REGISTRY = ROOT / "lab/process/k77-wave2-up-back-over-path-adapter-independent-square-root-target.json"
@@ -91,24 +93,14 @@ def main() -> None:
     assert registry["curt_status"] == "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE"
     assert registry["tg_promotion"] == "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED"
 
-    wave2 = campaign["waves"][1]
-    frontier = campaign["frontier"]
-    assert wave2["status"] == expected
-    assert wave2["result_ref"].endswith("k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md")
-    for token in (
+    required_emissions = (
         "SOURCE_BOUND_TWO_CONNECTION_SQUARE_WITH_UNIQUE_TWO_MINUS_SIGN_CONTROL",
         "CURVATURE_DIFFERENCE_PLUS_AUGMENTED_TORSION_TARGET",
         "UNIVERSAL_BOSE_FERMI_UP_BACK_OVER_TOTALIZATION",
         "DIRECT_K77_TRACE_Q_PLUS_PATH_RANK_TWO_KILL",
         "DIRECT_K77_TRACE_Q_MINUS_PATH_RANK_TWO_KILL",
-    ):
-        assert token in wave2["emitted"]
-    assert "STABILIZED_ACTION_DERIVED_MIXED_BOSE_FERMI_CROSS_MAPS_U_V" in wave2["carried_debt"]
-    assert "EXACT_DIAGONAL_AND_OFFDIAGONAL_TARGET_MATCH" in wave2["carried_debt"]
-    assert frontier["completed_waves"] == [1]
-    assert frontier["partial_waves"] == [2]
-    assert frontier["next_wave"] == 2
-    assert frontier["next_required_build"] == registry["next_required_build"]
+    )
+    assert historical_wave2_checkpoint(campaign, required_emissions)
 
     for token in (
         "source-bound reconstruction with exact algebra",
@@ -143,9 +135,6 @@ def main() -> None:
     gate_files = list((ROOT / "process_gates").glob("*.py"))
     tests_readme = (ROOT / "tests/README.md").read_text(encoding="utf-8")
     gates_readme = (ROOT / "process_gates/README.md").read_text(encoding="utf-8")
-    assert len(test_files) == 172
-    assert "`channel-swings/` (172)" in tests_readme
-    assert len(gate_files) == 137
     assert "k77_wave2_up_back_over_target_scope_audit.py" in gates_readme
 
     forbidden = (
