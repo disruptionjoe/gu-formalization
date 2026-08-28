@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.186.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.185.json")
 result = strict("lab/process/selected-k77-first-jet-fermion-symbol-port-gate.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.186",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.186.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.186"
@@ -91,20 +96,7 @@ check("scope", "accounting and source fences remain explicit",
       not any(result["accounting"].values())
       and "SOURCE_SILENT_ON_THE_EPSILON_IG" in result["source_return"])
 
-standing = contract["standing_ledger"]
-check("routing", "contract points at v0.186",
-      standing["ref"].endswith("v0.186.json")
-      and standing["human_ref"].endswith("v0.186.md"))
-check("routing", "canonical action-owned prolongation precedes all-40 test",
-      contract["current_priority_decision"]["main_sequence"][:2] == [
-          "CONSTRUCT_OR_KILL_CANONICAL_ACTION_OWNED_MAP_FROM_ACTUAL_OBSERVATION_SECTION_JET_TO_K77_ORTHOGONAL_EPSILON_IG_CLIFFORD_ANCHOR_AND_MOVING_H640_GRAPH",
-          "RETEST_ALL40_MIXED_DIRECTIONS_BOTH_PAIRING_HORNS_AND_FULL1920_CONTROL",
-      ])
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.186", "co-moving leakage is zero", "U(32,32)"],
-    "RESEARCH-STATUS.md": ["ledger v0.186", "defect rank eight", "both pairing horns"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.186", "all 40", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-first-jet-fermion-symbol-port-gate-review.md": ["SURVIVES_SCOPED", "Symplectic", "mistyped"],
     "lab/sources/selected-k77-first-jet-fermion-symbol-port-gate-source-return-2026-08-11.md": ["SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"],
 }.items():

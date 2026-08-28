@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.189.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.188.json")
 result = strict("lab/process/selected-k77-action-stabilizer-connection-flag-reconciliation.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.189",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.189.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.189"
@@ -85,20 +90,7 @@ check("accounting", "no parameter, field, fork or quotient is added",
       and result["accounting"]["new_quotients"] == 0
       and not result["accounting"]["P1_P2_P3_used"])
 
-standing = contract["standing_ledger"]
-check("routing", "contract points at v0.189",
-      standing["ref"].endswith("v0.189.json")
-      and standing["human_ref"].endswith("v0.189.md"))
-check("routing", "residual flag concomitant precedes lower-order BV",
-      contract["current_priority_decision"]["main_sequence"][:2] == [
-          "BUILD_OR_KILL_TARGET_BLIND_ACTION_DERIVED_H_Q_CONCOMITANT_FOR_RESIDUAL_COMPLEX_CARTAN_FLAG_OR_PROVE_REFINEMENT_GAUGE",
-          "INSERT_SURVIVING_ZERO_ORDER_HOMEGA_CHAIN_AND_SOLVE_COMPLETE_SIXTEEN_CELL_LOWER_ORDER_RICCATI_BARRED_ADJOINT_BV_KT",
-      ])
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["v0.189", "A^P", "residual complex-Cartan"],
-    "RESEARCH-STATUS.md": ["v0.189", "stabilizer cocycle", "full-unitary"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.189", "gamma_epsilon", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-12-selected-k77-action-stabilizer-connection-flag-reconciliation-review.md": ["SURVIVES_AFTER_SCOPE_REPAIR", "Symplectic", "mistyped"],
     "lab/sources/selected-k77-action-stabilizer-connection-flag-reconciliation-source-return-2026-08-12.md": ["SOURCE_CONFIRMS", "SOURCE_SILENT", "SOURCE_CORRECTS"],
 }.items():

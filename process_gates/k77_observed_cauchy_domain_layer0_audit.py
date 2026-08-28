@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS: Counter[str] = Counter()
@@ -40,6 +42,9 @@ previous = strict("lab/process/conditional-physics-ledger-v0.177.json")
 result = strict("lab/process/selected-k77-observed-cauchy-domain-layer0.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 v173 = strict("lab/process/selected-k77-wedge-shiab-southeast-completion.json")
+
+check("ledger", "current append-only ledger descends to v0.178",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.178.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.178"
@@ -85,18 +90,7 @@ check("scope", "P1/P2/P3, verdict, residue, quotient and canon stay still",
       and not result["booked_residue_change"] and not result["quotient_change"]
       and not result["canon_verdict_change"] and not result["public_posture_change"])
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.178",
-      standing["ref"].endswith("v0.178.json")
-      and standing["human_ref"].endswith("v0.178.md"))
-check("routing", "successor starts with the variable observed and spatial boundary domains",
-      contract["current_priority_decision"]["main_sequence"][0]
-      == "CONSTRUCT_VARIABLE_COEFFICIENT_OBSERVED_REAL_SYMMETRIC_HYPERBOLIC_DOMAIN_AND_ACTION_OWNED_SPATIAL_BOUNDARY_PROJECTOR_OR_PROVE_OBSTRUCTION")
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.178", "rank two"],
-    "RESEARCH-STATUS.md": ["ledger v0.178", "symmetric-hyperbolic"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.178", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-observed-cauchy-domain-layer0-review.md": ["SURVIVES_WITH_SCOPE_REPAIR", "4/4/2"],
     "lab/sources/selected-k77-observed-cauchy-domain-layer0-source-return-2026-08-11.md": ["SOURCE-SILENT", "spatial"],
 }.items():

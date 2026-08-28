@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.184.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.183.json")
 result = strict("lab/process/selected-k77-h640-ambient-observed-riccati-boundary.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.184",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.184.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.184"
@@ -84,20 +89,7 @@ check("scope", "source and accounting fences remain explicit",
       "SOURCE_SILENT_ON_H640_GRAPH" in result["source_return"]
       and not any(result["accounting"].values()))
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.184",
-      standing["ref"].endswith("v0.184.json")
-      and standing["human_ref"].endswith("v0.184.md"))
-check("routing", "vertical adapter precedes the sixteen-cell solve",
-      contract["current_priority_decision"]["main_sequence"][:2] == [
-          "CONSTRUCT_OR_KILL_SOURCE_ACTION_OWNED_VERTICAL_HIGGS_SOLDERING_ADAPTER_ON_H640_WITH_FULL1920_CONTROL",
-          "SOLVE_COMPLETE_SIXTEEN_CELL_GRAPH_RICCATI_BARRED_ADJOINT_AND_BV_KT_ONLY_AFTER_ADAPTER_TYPING",
-      ])
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.184", "Higgs/soldering adapter", "rank 1,920"],
-    "RESEARCH-STATUS.md": ["ledger v0.184", "transverse `Y^14`", "rank 128"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.184", "vertical adapter", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-h640-ambient-observed-riccati-boundary-review.md": ["SURVIVES_SCOPED", "symplectic/BV-BFV", "ordinary pullback"],
     "lab/sources/selected-k77-h640-ambient-observed-riccati-boundary-source-return-2026-08-11.md": ["SOURCE-SILENT", "not a quotation"],
 }.items():

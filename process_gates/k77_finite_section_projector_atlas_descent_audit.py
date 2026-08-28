@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.188.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.187.json")
 result = strict("lab/process/selected-k77-finite-section-projector-atlas-descent.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.188",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.188.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.188"
@@ -91,20 +96,7 @@ check("exact", "two-field 39-check certificate is clean",
       and result["checks"]["fields"] == [1009, 1013]
       and result["checks"]["all_forty_tangent_directions"])
 
-standing = contract["standing_ledger"]
-check("routing", "contract points at v0.188",
-      standing["ref"].endswith("v0.188.json")
-      and standing["human_ref"].endswith("v0.188.md"))
-check("routing", "action-owned full flag precedes lower-order BV",
-      contract["current_priority_decision"]["main_sequence"][:2] == [
-          "COMPOSE_WITH_ACTION_EPSILON_IG_GAUGE_ROTATED_LEVI_CIVITA_AND_COMPLETE_COMPLEX_CARTAN_FLAG",
-          "INSERT_SURVIVING_ZERO_ORDER_HOMEGA_CHAIN_AND_SOLVE_COMPLETE_SIXTEEN_CELL_LOWER_ORDER_RICCATI_BARRED_ADJOINT_BV_KT",
-      ])
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["v0.188", "eta-self-adjoint", "stabilizer cocycle"],
-    "RESEARCH-STATUS.md": ["v0.188", "fractional atlas", "epsilon_IG"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.188", "null Gram boundary", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-12-selected-k77-finite-section-projector-atlas-descent-review.md": ["SURVIVES_SCOPED", "Symplectic", "mistyped"],
     "lab/sources/selected-k77-finite-section-projector-atlas-descent-source-return-2026-08-12.md": ["SOURCE_CONFIRMS", "SOURCE_SILENT", "SOURCE_CORRECTS"],
 }.items():

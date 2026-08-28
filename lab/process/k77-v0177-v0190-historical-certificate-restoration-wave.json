@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "k77_v0177_v0190_historical_certificate_restoration_wave",
+  "created": "2026-08-28",
+  "status": "COMPLETE__14_OF_14_HISTORICAL_CERTIFICATES_RESTORED",
+  "document_role": "process_certificate",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only restoration of historical K77 v0.177-v0.190 certificate transport",
+  "gu_comparator_routing": "NOT_TRIGGERED__NO_NEW_SCIENTIFIC_OR_COMPARATOR_RESULT",
+  "gu_typed_objects": {
+    "exemption": "PROCESS_ONLY_NO_NEW_SCIENTIFIC_OBJECT"
+  },
+  "contract": {
+    "historical_snapshot": "each certificate keeps its exact named ledger and version-local Green, BV, Cartan, source, review, control, accounting and migration evidence immutable",
+    "current_authority": "the live research-evidence contract names one append-only standing ledger",
+    "ancestry_proof": "walk predecessor edges from the live standing ledger to each exact historical snapshot",
+    "superseded_checks_removed": [
+      "historical ledger remains the live standing pointer",
+      "historical priority or successor remains active",
+      "historical front-door wording remains current"
+    ],
+    "preserved_inputs": [
+      "version-local ledger assertions",
+      "version-local result and exact-computation assertions",
+      "source-return assertions",
+      "hostile-review assertions",
+      "planted-control assertions",
+      "accounting assertions",
+      "migration assertions"
+    ],
+    "failure_modes": [
+      "append-only authority absent",
+      "historical target skipped",
+      "predecessor cycle",
+      "missing predecessor",
+      "target file missing",
+      "version-local scientific or evidence regression"
+    ]
+  },
+  "cohort": {
+    "ledger_span": "v0.177-v0.190",
+    "total_checkpoints": 14,
+    "restored_certificates": 14,
+    "execution_packets": [
+      "v0.177-v0.180",
+      "v0.181-v0.184",
+      "v0.185-v0.190"
+    ],
+    "gates": [
+      "k77_graded_green_reality_graphs_audit.py",
+      "k77_observed_cauchy_domain_layer0_audit.py",
+      "k77_energy_green_boundary_horn_composition_audit.py",
+      "k77_variable_incoming_projector_descent_audit.py",
+      "k77_boundary_bv_observation_cohomology_audit.py",
+      "k77_zero_seed_h640_action_closure_controls_audit.py",
+      "k77_h640_observation_pullback_bv_typing_audit.py",
+      "k77_h640_ambient_observed_riccati_boundary_audit.py",
+      "k77_vertical_soldering_adapter_order_gate_audit.py",
+      "k77_first_jet_fermion_symbol_port_gate_audit.py",
+      "k77_canonical_section_jet_cartan_spin_prolongation_audit.py",
+      "k77_finite_section_projector_atlas_descent_audit.py",
+      "k77_action_stabilizer_connection_flag_reconciliation_audit.py",
+      "k77_action_concomitant_residual_flag_gate_audit.py"
+    ]
+  },
+  "validation": {
+    "restored_cohort_before": "0/14 green under mutable current-pointer, priority, successor and front-door expectations",
+    "restored_cohort_after": "14/14 green under historical snapshot plus append-only ancestry",
+    "shared_hostile_ancestry_controls": "4/4 rejected in conditional_physics_ledger_v03_scope_audit.py",
+    "process_gate_census_before": "365 green / 58 inherited red / 423",
+    "process_gate_census_after": "379 green / 44 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0
+  },
+  "hostile_review": {
+    "strongest_overclaim": "append-only ancestry proves durable custody of each historical checkpoint, not that an old priority remains current or that any scientific grade increased",
+    "strongest_contrary_case": "removing current front-door assertions could erase local scientific content; every historical ledger, result, source, review, computation, control, accounting and migration assertion remains",
+    "weakest_reproducibility_seam": "all fourteen restored gates import one ancestry predicate, so the complete cohort and the predicate's four planted controls run together",
+    "disagreements": [],
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "certificate_files_changed": 14,
+    "historical_ledger_files_changed": 0,
+    "historical_result_files_changed": 0,
+    "historical_source_files_changed": 0,
+    "historical_review_files_changed": 0,
+    "ledger_row_change": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "protected_surface_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "a broken or missing predecessor edge",
+    "a predecessor cycle",
+    "a historical target skipped by the live chain",
+    "revoked append-only ledger authority",
+    "a concrete version-local scientific, source, review, computation, control, accounting or migration regression"
+  ]
+}

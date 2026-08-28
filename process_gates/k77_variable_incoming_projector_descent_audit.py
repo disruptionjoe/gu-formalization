@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.180.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.179.json")
 result = strict("lab/process/selected-k77-variable-incoming-projector-descent.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.180",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.180.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.180"
@@ -88,18 +93,7 @@ check("scope", "P1/P2/P3, verdict, residue, quotient and canon stay still",
       and not result["booked_residue_change"] and not result["quotient_change"]
       and not result["canon_verdict_change"] and not result["public_posture_change"])
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.180",
-      standing["ref"].endswith("v0.180.json")
-      and standing["human_ref"].endswith("v0.180.md"))
-check("routing", "successor starts with constraint/BV and mirror cohomology",
-      contract["current_priority_decision"]["main_sequence"][0]
-      == "COMPOSE_ACTION_DERIVED_INCOMING_PROJECTOR_WITH_CONSTRAINT_BV_AND_OBSERVATION")
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.180", "projector family"],
-    "RESEARCH-STATUS.md": ["ledger v0.180", "boundary geometry"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.180", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-variable-incoming-projector-descent-review.md": ["SURVIVES_SCOPED", "Symplectic"],
     "lab/sources/selected-k77-variable-incoming-projector-descent-source-return-2026-08-11.md": ["SOURCE-SILENT", "projector"],
 }.items():

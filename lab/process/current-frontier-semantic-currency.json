@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V040_V056_CURRENT__K77_CERTIFICATES_V083_V0100_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V040_V056_CURRENT__K77_CERTIFICATES_V083_V0100_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
@@ -160,6 +160,14 @@
       "process_gate_census_after": "365 green / 58 inherited red / 423",
       "scientific_effect": "none"
     },
+    "k77_v0177_v0190_historical_certificate_restoration": {
+      "path": "lab/process/k77-v0177-v0190-historical-certificate-restoration-wave.json",
+      "sha256": "7c940acf2ea3897ef19139d5e090e45450e74cf01ee0db3e38e670148d7ddfd2",
+      "restored_cohort_after": "14/14",
+      "shared_hostile_ancestry_controls_after": "4/4",
+      "process_gate_census_after": "379 green / 44 inherited red / 423",
+      "scientific_effect": "none"
+    },
     "status_contract_currency": {
       "path": "lab/process/status-contract-currency-wave.json",
       "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
@@ -226,6 +234,7 @@
       "historical ledger v0.3-v0.17 snapshot restoration without an exact predecessor break, cycle, target skip, revoked append-only authority or version-local regression",
       "K77 historical certificate v0.150-v0.172 restoration without an exact predecessor break, cycle, target skip, revoked append-only authority or version-local regression",
       "K77 historical certificate v0.83-v0.100 restoration without an exact predecessor break, cycle, target skip, revoked append-only authority or version-local regression",
+      "K77 historical certificate v0.177-v0.190 restoration without an exact predecessor break, cycle, target skip, revoked append-only authority or version-local regression",
       "K77 Wave-2 historical certificate restoration without campaign/wave identity drift, required emission loss, or a version-local scientific/source/review/probe regression",
       "unattended paper lifecycle hardening; the five exact assertions require an explicitly reviewed protected publication-navigation pass"
     ],
@@ -273,6 +282,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/k77-v083-v0100-historical-certificate-restoration-wave.json",
-  "probe_ref": "process_gates/selected_k77_action_noether_preboundary_audit.py"
+  "result_ref": "lab/process/k77-v0177-v0190-historical-certificate-restoration-wave.json",
+  "probe_ref": "process_gates/k77_action_concomitant_residual_flag_gate_audit.py"
 }

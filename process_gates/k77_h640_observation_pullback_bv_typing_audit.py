@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.183.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.182.json")
 result = strict("lab/process/selected-k77-h640-observation-pullback-bv-typing.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.183",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.183.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.183"
@@ -112,20 +117,7 @@ check("scope", "source silence and public-accounting fences remain explicit",
       and not result["accounting"]["canon_verdict_change"]
       and not result["accounting"]["public_posture_change"])
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.183",
-      standing["ref"].endswith("v0.183.json")
-      and standing["human_ref"].endswith("v0.183.md"))
-check("routing", "successor is complete graph/Riccati before BV/KT",
-      contract["current_priority_decision"]["main_sequence"][:2] == [
-          "SOLVE_OR_KILL_COMPLETE_SIXTEEN_CELL_LOWER_ORDER_GRAPH_RICCATI_AND_BARRED_ADJOINT_ON_H640_WITH_FULL1920_CONTROL",
-          "BUILD_OBSERVED_BV_KOSZUL_TATE_AND_EQUATION_DUAL_IF_GRAPH_SYSTEM_CLOSES",
-      ])
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.183", "sixteen-cell", "rank 1,920"],
-    "RESEARCH-STATUS.md": ["ledger v0.183", "rank-128 action-derived graph", "rank 2,560"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.183", "is not", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-h640-observation-pullback-bv-typing-review.md": ["SURVIVES_SCOPED", "symplectic/BV-BFV", "intersection rank 512"],
     "lab/sources/selected-k77-h640-observation-pullback-bv-typing-source-return-2026-08-11.md": ["SOURCE-SILENT", "repository construction"],
 }.items():

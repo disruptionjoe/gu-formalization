@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.182.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.181.json")
 result = strict("lab/process/selected-k77-zero-seed-h640-action-closure-controls.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.182",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.182.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.182"
@@ -106,18 +111,7 @@ check("scope", "source selection, physical cohomology and public accounting rema
       and not result["accounting"]["canon_verdict_change"]
       and not result["accounting"]["public_posture_change"])
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.182",
-      standing["ref"].endswith("v0.182.json")
-      and standing["human_ref"].endswith("v0.182.md"))
-check("routing", "successor is full BV/KT on H640 with full-carrier control",
-      contract["current_priority_decision"]["main_sequence"][0]
-      == "DERIVE_COMPLETE_LOWER_ORDER_BARRED_DUAL_ANTIFIELD_BV_KOSZUL_TATE_ON_H640_WITH_FULL1920_CONTROL")
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.182", "mandatory control"],
-    "RESEARCH-STATUS.md": ["ledger v0.182", "distinct rank-1280"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.182", "source-selected physical"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-zero-seed-h640-action-closure-controls-review.md": ["SURVIVES_SCOPED", "Symplectic", "equal rank 1280"],
     "lab/sources/selected-k77-zero-seed-h640-action-closure-controls-source-return-2026-08-11.md": ["SOURCE-SILENT", "repository construction"],
 }.items():

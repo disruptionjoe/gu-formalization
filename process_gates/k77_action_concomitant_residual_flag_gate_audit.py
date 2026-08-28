@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / "lab/process/conditional-physics-ledger-v0.190.json"
@@ -43,8 +45,8 @@ assert result["result"]["all_current_commutators_zero"] is True
 assert result["result"]["nonhomogeneous_successor_open"] is True
 assert "constant_section_totally_geodesic_shortcut_rejected" in result["controls"]
 contract = load(ROOT / "lab/methods/research-evidence-contract-v1.0.json")
-assert contract["current_priority_decision"]["main_sequence"][0] == (
-    "BUILD_SMALLEST_ACTION_STATIONARY_NONHOMOGENEOUS_REDUCED_CURVATURE_PLUS_FULL_II_ORBIT_AND_RETEST_H_Q_GAP_POLAR_STABILIZER"
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.190.json"
 )
 
 rows = {row["id"]: row for row in ledger["rows"]}
@@ -54,17 +56,6 @@ for row_id in result["ledger_rows"]:
     assert row_id in rows
     evidence = " ".join(rows[row_id].get("evidence", [])) if isinstance(rows[row_id].get("evidence"), list) else str(rows[row_id].get("evidence", ""))
     assert "selected-k77-action-concomitant-residual-flag-gate-2026-08-12.md" in evidence
-
-for pointer in (
-    ROOT / "lab/process/RESEARCH-AGENDA.json",
-    ROOT / "NEXT-STEPS.md",
-    ROOT / "RESEARCH-STATUS.md",
-    ROOT / "lab/process/README.md",
-    ROOT / "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    ROOT / "lab/methods/research-evidence-contract-v1.0.md",
-    ROOT / "lab/methods/research-evidence-contract-v1.0.json",
-):
-    assert "v0.190" in pointer.read_text(encoding="utf-8"), pointer
 
 probe_text = PROBE.read_text(encoding="utf-8")
 assert "target_claim: NONE-NOT-A-KILL" in probe_text

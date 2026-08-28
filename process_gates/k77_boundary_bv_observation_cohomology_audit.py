@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.181.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.180.json")
 result = strict("lab/process/selected-k77-boundary-bv-observation-cohomology.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.181",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.181.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.181"
@@ -101,18 +106,7 @@ check("scope", "P1/P2/P3 and all public accounting remain still",
       and not result["booked_residue_change"] and not result["quotient_change"]
       and not result["canon_verdict_change"] and not result["public_posture_change"])
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.181",
-      standing["ref"].endswith("v0.181.json")
-      and standing["human_ref"].endswith("v0.181.md"))
-check("routing", "successor begins with H640 discriminator controls",
-      contract["current_priority_decision"]["main_sequence"][0]
-      == "CONTROL_COMMON_H640_AGAINST_RANDOM192_OLD_ONE_FORM640_AND832")
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.181", "H640=512+128"],
-    "RESEARCH-STATUS.md": ["ledger v0.181", "old one-form 640"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.181", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-boundary-bv-observation-cohomology-review.md": ["SURVIVES_SCOPED", "symplectic/BFV"],
     "lab/sources/selected-k77-boundary-bv-observation-cohomology-source-return-2026-08-11.md": ["SOURCE-SILENT", "SOURCE_CONFIRMS_FOUR_FIELD"],
 }.items():

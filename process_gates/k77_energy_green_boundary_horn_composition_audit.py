@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.179.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.178.json")
 result = strict("lab/process/selected-k77-energy-green-boundary-horn-composition.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.179",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.179.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.179"
@@ -80,18 +85,7 @@ check("scope", "P1/P2/P3, verdict, residue, quotient and canon stay still",
       and not result["booked_residue_change"] and not result["quotient_change"]
       and not result["canon_verdict_change"] and not result["public_posture_change"])
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.179",
-      standing["ref"].endswith("v0.179.json")
-      and standing["human_ref"].endswith("v0.179.md"))
-check("routing", "successor starts with variable observed graph transport and ownership",
-      contract["current_priority_decision"]["main_sequence"][0]
-      == "GLOBALIZE_COMMON_DOUBLED_MAJORANA_INCOMING_RELATION_AND_TEST_ACTION_OWNERSHIP_OR_TRANSPORT")
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.179", "rank 960"],
-    "RESEARCH-STATUS.md": ["ledger v0.179", "doubled Majorana"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.179", "two `U(32,32)` halves"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-energy-green-boundary-horn-composition-review.md": ["LAYER0_REVERSAL", "rank `960`"],
     "lab/sources/selected-k77-energy-green-boundary-horn-composition-source-return-2026-08-11.md": ["SOURCE-SILENT", "incoming"],
 }.items():

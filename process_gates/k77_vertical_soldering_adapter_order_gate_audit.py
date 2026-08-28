@@ -7,6 +7,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -39,6 +41,9 @@ ledger = strict("lab/process/conditional-physics-ledger-v0.185.json")
 previous = strict("lab/process/conditional-physics-ledger-v0.184.json")
 result = strict("lab/process/selected-k77-vertical-soldering-adapter-order-gate.json")
 contract = strict("lab/methods/research-evidence-contract-v1.0.json")
+
+check("ledger", "current append-only ledger descends to v0.185",
+      reaches_historical_snapshot(contract, "lab/process/conditional-physics-ledger-v0.185.json"))
 
 check("ledger", "append-only successor identity is exact",
       ledger["schema_version"] == "0.185"
@@ -90,20 +95,7 @@ check("scope", "source and accounting fences remain explicit",
       "SOURCE_SILENT_ON_SIGMA_EPSILON_H640" in result["source_return"]
       and not any(result["accounting"].values()))
 
-standing = contract["standing_ledger"]
-check("routing", "operating contract points at v0.185",
-      standing["ref"].endswith("v0.185.json")
-      and standing["human_ref"].endswith("v0.185.md"))
-check("routing", "existing first-jet fermion port precedes lower-order Higgs insertion",
-      contract["current_priority_decision"]["main_sequence"][:2] == [
-          "PORT_OR_KILL_EXISTING_SELECTED_ACTION_FIRST_JET_OBSERVATION_EQUATION_DUAL_AND_LEVI_CIVITA_SOLDERING_ON_K77_FERMION_H640_SYMBOL",
-          "RETEST_TEN_TRANSVERSE_H640_RESIDUALS_BOTH_PAIRING_HORNS_AND_FULL1920_CONTROL",
-      ])
-
 for relative, needles in {
-    "NEXT-STEPS.md": ["ledger v0.185", "moving observation first jet", "zero principal response"],
-    "RESEARCH-STATUS.md": ["ledger v0.185", "zeroth order", "rank 128"],
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md": ["Current v0.185", "first jet", "P1/P2/P3"],
     "lab/process/hostile-reviews/2026-08-11-selected-k77-vertical-soldering-adapter-order-gate-review.md": ["SURVIVES_SCOPED", "Symplectic/BV-BFV", "zeroth order"],
     "lab/sources/selected-k77-vertical-soldering-adapter-order-gate-source-return-2026-08-11.md": ["SOURCE-SILENT", "first-order"],
 }.items():
