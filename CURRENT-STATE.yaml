@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 31a2b9c5729a
+revision_basis: e01555d66905
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Two current repository-integrity contracts are restored without moving
+    scientific truth. The frontmatter status ratchet now covers the complete
+    final tracked Markdown population, including this wave's typed result and
+    hostile review, without normalizing legacy status values. The public
+    reproduction scope audit now distinguishes the absolute root
+    process_gates directory from the legitimate tests/process_gates
+    certificate subtree and positively requires that nested certificate to
+    remain discoverable. The coupled probe verifies both clean baselines and
+    catches planted count, digest and directory-pruning mutations. No source
+    status, action owner, ledger row, SG4 phase, prediction, confirmation,
+    canon, protected paper, release state or public posture moved.
     Six current repository-surface contracts are restored without moving
     scientific truth. The anomaly test map now names all three tracked exact
     certificates; the specification surface audit includes the live theory-
@@ -4230,10 +4241,10 @@ next_condition: >-
   version-pinned audits. Papers lifecycle maps, protected TWG1 and LT-GR4
   remain outside this result.
 
-  The probe-authorship gate is restored to its unchanged 89-finding baseline
-  across 1007 probes. Do not replay the geometry-first lookup or the two
-  source-register wrapping repairs; reopen this hardening arc only on another
-  semantically reviewed concrete defect or a fresh measured baseline decrease.
+  The reproduction and status integrity wave closes the two newly measured
+  current defects: final status-population currency and absolute-root public
+  reproduction scope. Reopen only on a new typed-population delta, a concrete
+  certificate-discovery omission or another semantic path-identity defect.
 
   The frontmatter status contract passes at zero failures after nine non-
   protected role/state repairs, and the L10 propagation probe now requires the

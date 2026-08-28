@@ -179,14 +179,21 @@ class ReproduceHarnessScopeAudit(unittest.TestCase):
             sorted(relpath(path) for path in discovered),
         )
 
-    def test_process_gates_and_skip_directories_are_out_of_certificate_scope(self) -> None:
+    def test_root_process_gates_and_skip_directories_are_out_of_certificate_scope(self) -> None:
         module = load_harness()
 
         full = discovered_paths(module, [module.TESTS_DIR, *module.PAPER_CERT_DIRS])
         for path in full:
             rel_parts = path.relative_to(ROOT).parts
-            self.assertNotIn(PROCESS_GATES_DIR.name, rel_parts, relpath(path))
+            self.assertNotIn(PROCESS_GATES_DIR.resolve(), path.resolve().parents, relpath(path))
             self.assertFalse(any(part in SKIP_DIR_NAMES for part in rel_parts), relpath(path))
+
+        nested_test_dir = (TESTS_DIR / "process_gates").resolve()
+        if nested_test_dir.is_dir():
+            self.assertTrue(
+                any(nested_test_dir in path.resolve().parents for path in full),
+                "tests/process_gates is certificate scope, not root governance machinery",
+            )
 
     def test_list_mode_prints_repository_relative_slash_paths(self) -> None:
         module = load_harness()

@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_GATE_RESTORED__STATUS_CONTRACT_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_GATE_RESTORED__STATUS_AND_REPRODUCTION_CONTRACTS_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "297224ae9c7d0477f40bf5983f52420d6d1bae26edb5824c25ee16c4f544db47"
+      "sha256": "369fd0e70c5135e4aecf98e141c598c2455470db6a8a5ead62ac1c48bc5e720a"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -93,6 +93,14 @@
       "historical_version_pinned_audits_normalized": false,
       "scientific_effect": "none"
     },
+    "reproduction_status_integrity": {
+      "path": "lab/process/reproduction-status-integrity-wave.json",
+      "sha256": "274895be3e8caa372cd2d3fc9dfac0c8b9cb9e4fff104d018aed18b7bfd6779a",
+      "frontmatter_failures_after": 0,
+      "nested_test_scope_restored": true,
+      "historical_scientific_audits_normalized": false,
+      "scientific_effect": "none"
+    },
     "b5_gram_adjoint_result": {
       "path": "explorations/b5-full20-gram-adjoint-universality-2026-08-20.md",
       "sha256": "29c0951bd13eac9d43c31773dc7e4d77852d48b51293686c64cd39d0993f92f9"
@@ -121,7 +129,8 @@
       "HE-1",
       "invariant-gapping campaign",
       "status-contract currency wave without a new semantic defect or fresh measured baseline decrease",
-      "repository-surface currency wave without a new concrete red or measured population change"
+      "repository-surface currency wave without a new concrete red or measured population change",
+      "reproduction/status integrity wave without a new population delta or concrete discovery-scope defect"
     ],
     "selection_order": [
       "fired source-to-proof reopener",
@@ -167,6 +176,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/repository-surface-currency-hardening-wave-2026-08-27.md",
-  "probe_ref": "tests/channel-swings/repository_surface_currency_hardening_wave_probe.py"
+  "result_ref": "explorations/reproduction-status-integrity-wave-2026-08-27.md",
+  "probe_ref": "tests/channel-swings/reproduction_status_integrity_wave_probe.py"
 }

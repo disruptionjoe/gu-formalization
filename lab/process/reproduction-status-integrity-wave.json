@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-27",
+  "work_item": "REPRODUCTION-STATUS-INTEGRITY-WAVE",
+  "scope": "tracked-Markdown status population and public certificate discovery contract",
+  "packets": [
+    {
+      "id": "FRONTMATTER-STATUS-POPULATION-CURRENCY",
+      "before": "the frozen mapping omitted two correctly typed artifacts from the preceding wave",
+      "after": "the final tracked Markdown population and path/status digest are ratcheted without legacy normalization"
+    },
+    {
+      "id": "REPRODUCTION-HARNESS-NESTED-TEST-SCOPE",
+      "before": "basename matching rejected tests/process_gates as though it were root process_gates",
+      "after": "absolute root identity excludes governance machinery while preserving nested certificate scope"
+    }
+  ],
+  "process_gate_census": {
+    "total": 423,
+    "before": {"green": 269, "red": 154},
+    "after": {"green": 271, "red": 152},
+    "historical_or_authority_bounded_reds_normalized": false
+  },
+  "excluded": {
+    "source_to_proof": "no exact registered source, map, selector, target or authorial reopener fired",
+    "ledger": "91 terminal dispositions and zero open rows",
+    "b2": "named action-root candidate set remains empty",
+    "historical_scientific_audits": "version-pinned regression fixtures",
+    "release_and_protected_surfaces": "paper lifecycle, protected TWG1 and LT-GR4 remain outside this result"
+  },
+  "effect": {
+    "scientific_verdict_change": "none",
+    "source_status_change": "none",
+    "ledger_change": "none",
+    "canon_change": "none",
+    "paper_lifecycle_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/reproduction_status_integrity_wave_probe.py"
+}
