@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 report = (ROOT / "explorations/conditional-build/selected-k77-principal-ward-gamma-epsilon-reconciliation-2026-08-08.md").read_text(encoding="utf-8")
@@ -51,9 +53,9 @@ assert ledger["frontier_delta"] == {
     "conditions_opened": 0,
     "remaining_named_conditions": 2,
 }
-assert contract["standing_ledger"]["ref"].endswith("v0.86.json")
-assert "principal_ward_gamma_epsilon_reconciliation" in contract["active_scientific_directives"][0]
-assert "CONSTRUCT_RANK3_MOVING_SHIAB_HODGE" in json.dumps(contract)
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.86.json"
+)
 assert "Mandatory symplectic review" in review
 assert "Krein/operator theory" in report
 assert "Complex/path-integral" in report

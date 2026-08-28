@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -67,9 +69,9 @@ v095 = [item for item in ledger["migrations"] if item.get("to_version") == "0.95
 assert len(v095) == 5
 assert {item["row_id"] for item in v095} == {"LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"}
 
-assert contract["standing_ledger"]["ref"].endswith("v0.95.json")
-assert "LOCAL_FIXED_VARPI_DG_UPSILON" in contract["standing_ledger"]["signature_branch_directive"]
-assert "FORMAL_ADJOINT" in contract["active_scientific_directives"][0]["next_run_method"]["target"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.95.json"
+)
 
 for term in (
     "three separately nonzero derivatives",
@@ -101,16 +103,5 @@ for relative in (
 ):
     ast.parse((ROOT / relative).read_text(encoding="utf-8"))
 assert (ROOT / "tests/channel-swings/selected_k77_fixed_varpi_normal_frechet_closure_independent.sage").exists()
-
-for relative in (
-    "lab/process/RESEARCH-AGENDA.json",
-    "NEXT-STEPS.md",
-    "RESEARCH-STATUS.md",
-    "explorations/README.md",
-    "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-):
-    assert "v0.95" in (ROOT / relative).read_text(encoding="utf-8")
 
 print("PASS selected K77 fixed-varpi normal Frechet closure audit")

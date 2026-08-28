@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -69,11 +71,9 @@ v098 = [item for item in ledger["migrations"] if item.get("to_version") == "0.98
 assert len(v098) == 5
 assert {item["row_id"] for item in v098} == {"LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"}
 
-assert contract["standing_ledger"]["ref"].endswith("v0.98.json")
-directive = contract["standing_ledger"]["signature_branch_directive"]
-assert "MATCHED_Q_METRIC_CARTAN_MOVING_SHIAB_PHYSICAL_WARD_ZERO" in directive
-assert "GRADE1_GAMMA_NOT_REQUIRED" in directive
-assert "NEXT_BUILD_COMMON_KLOC_GREEN_THEN_ACTION_EULER_NOETHER_PRESYMPLECTIC" in directive
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.98.json"
+)
 
 for term in (
     "complete Ward column has empty", "physical Jacobian", "rank `3`",
@@ -100,13 +100,5 @@ for relative in (
 ):
     ast.parse((ROOT / relative).read_text(encoding="utf-8"))
 assert (ROOT / "tests/channel-swings/selected_k77_source_native_diffeomorphism_ward_closure_independent.sage").exists()
-
-for relative in (
-    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
-    "explorations/README.md", "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-):
-    assert "v0.98" in (ROOT / relative).read_text(encoding="utf-8")
 
 print("PASS selected K77 source-native physical-diffeomorphism Ward audit")

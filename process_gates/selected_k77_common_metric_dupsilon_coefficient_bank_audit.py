@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -76,11 +78,9 @@ v097 = [item for item in ledger["migrations"] if item.get("to_version") == "0.97
 assert len(v097) == 5
 assert {item["row_id"] for item in v097} == {"LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"}
 
-assert contract["standing_ledger"]["ref"].endswith("v0.97.json")
-directive = contract["standing_ledger"]["signature_branch_directive"]
-assert "COMMON_DG_BANK_RANK9X4_COMBINED20_TRANSVERSE6" in directive
-assert "PRIOR_WARD_METRIC_OWNER_REJECTED" in directive
-assert "NEXT_BUILD_COMPLETE_PRIMITIVE_DEPSILON_AND_PHYSICAL_DIFFEO_TRANSPORT" in directive
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.97.json"
+)
 
 for term in (
     "rank-twenty", "rank six", "rank-four Ward defect",
@@ -108,13 +108,5 @@ for relative in (
 ):
     ast.parse((ROOT / relative).read_text(encoding="utf-8"))
 assert (ROOT / "tests/channel-swings/selected_k77_common_metric_dupsilon_coefficient_bank_independent.sage").exists()
-
-for relative in (
-    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
-    "explorations/README.md", "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-):
-    assert "v0.97" in (ROOT / relative).read_text(encoding="utf-8")
 
 print("PASS selected K77 common metric D-Upsilon coefficient-bank audit")

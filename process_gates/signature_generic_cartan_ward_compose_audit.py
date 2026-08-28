@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -46,8 +48,9 @@ assert "selected-action Frechet coefficient bank" in report
 assert "Mandatory symplectic geometry" in review
 assert "Complex/path-integral" in review
 assert "SOURCE-CONFIRMS" in source and "SOURCE-SILENT" in source
-assert contract["standing_ledger"]["ref"].endswith("v0.90.json")
-assert "CARTAN" in contract["standing_ledger"]["signature_branch_directive"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.90.json"
+)
 assert registry["scope_boundary"]["selected_action_coefficientwise_JR_zero"] == "OPEN"
 assert registry["external_datum"] == "P1_P2_P3_UNCHANGED_UNUSED"
 print("PASS signature-generic Cartan/Ward composition scope audit")

@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -61,12 +63,9 @@ assert {item["row_id"] for item in ledger["wave_row_dispositions"]} == set(regis
 assert "lower-order" in ledger["next_work_queue"][0]["why"]
 assert "Weyl-block" in ledger["next_work_queue"][0]["why"]
 
-assert contract["standing_ledger"]["ref"].endswith("v0.92.json")
-assert contract["purpose_lanes_preserved"] == ["1", "2", "3", "A"]
-assert "NO_LANE_COUNT_CHANGE" in contract["non_effects"]
-directive = contract["active_scientific_directives"][0]
-assert "K_LOC" in directive["latest_residual_pairing_evidence"]
-assert "WEYL_BLOCK_U3232_PRODUCT" in directive["next_run_method"]["target"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.92.json"
+)
 
 assert "SOURCE-SILENT" in source and "real K77 residual bilinear" in source
 assert "two copies of `C^(32,32)`" in source and "odd and exchange" in source
@@ -83,20 +82,5 @@ for relative in registry["scripts"]:
     assert path.exists()
     if path.suffix == ".py":
         ast.parse(path.read_text(encoding="utf-8"))
-
-for relative in (
-    "NEXT-STEPS.md",
-    "RESEARCH-STATUS.md",
-    "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-    "explorations/README.md",
-    "lab/sources/README.md",
-    "process_gates/README.md",
-    "tests/README.md",
-):
-    assert "v0.92" in (ROOT / relative).read_text(encoding="utf-8") or relative in {
-        "lab/sources/README.md", "process_gates/README.md", "tests/README.md"
-    }
 
 print("PASS selected K77 residual-pairing invariance audit")

@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -59,9 +61,9 @@ assert ledger["source_return"] == registry["source_return"]
 assert sum(1 for item in ledger["migrations"] if item.get("to_version") == "0.94") == 5
 assert {item["row_id"] for item in ledger["migrations"] if item.get("to_version") == "0.94"} == {"LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"}
 
-assert contract["standing_ledger"]["ref"].endswith("v0.94.json")
-assert "TRANSVERSE_COMOVING_COEFFICIENT_PACKET_CLOSED" in contract["standing_ledger"]["signature_branch_directive"]
-assert "COMPONENT_NORMAL_DT_DF" in contract["active_scientific_directives"][0]["next_run_method"]["target"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.94.json"
+)
 
 for term in (
     "all ten metric values",
@@ -92,16 +94,5 @@ for relative in (
 ):
     ast.parse((ROOT / relative).read_text(encoding="utf-8"))
 assert (ROOT / "tests/channel-swings/selected_k77_transverse_comoving_coefficient_closure_independent.sage").exists()
-
-for relative in (
-    "lab/process/RESEARCH-AGENDA.json",
-    "NEXT-STEPS.md",
-    "RESEARCH-STATUS.md",
-    "explorations/README.md",
-    "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-):
-    assert "v0.94" in (ROOT / relative).read_text(encoding="utf-8")
 
 print("PASS selected K77 transverse comoving coefficient closure audit")

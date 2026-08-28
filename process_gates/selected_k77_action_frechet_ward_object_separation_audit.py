@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -40,9 +42,9 @@ assert ledger["predecessor"].endswith("v0.90.json")
 assert ledger["progress"]["verdict_counts"] == {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5}
 assert ledger["residue"]["continuous_real"] == 84
 assert ledger["residue"]["quotients_ranked"] == 5
-assert contract["standing_ledger"]["ref"].endswith("v0.91.json")
-assert contract["purpose_lanes_preserved"] == ["1", "2", "3", "A"]
-assert "NO_LANE_COUNT_CHANGE" in contract["non_effects"]
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.91.json"
+)
 
 for relative in registry["scripts"].values():
     if not isinstance(relative, str) or not relative.endswith(".py"):

@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -68,11 +70,9 @@ v100 = [item for item in ledger["migrations"] if item.get("to_version") == "0.10
 assert len(v100) == 5
 assert {item["row_id"] for item in v100} == {"LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"}
 
-assert contract["standing_ledger"]["ref"].endswith("v0.100.json")
-directive = contract["standing_ledger"]["signature_branch_directive"]
-assert "LOCAL_SELECTED_ACTION_NOETHER_EXACT_NONZERO_RESIDUAL_CONTROL" in directive
-assert "COMPACT_SUPPORT_PRESYMPLECTIC_BASIC" in directive
-assert "UNRESTRICTED_BOUNDARY_MOMENT_MAP_LIVE" in directive
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.100.json"
+)
 
 for term in (
     "nonzero residual", "primitive epsilon", "E_B-E_T",
@@ -100,16 +100,5 @@ for relative in (
 ):
     ast.parse((ROOT / relative).read_text(encoding="utf-8"))
 assert (ROOT / "tests/channel-swings/selected_k77_action_noether_preboundary_independent.sage").exists()
-
-for relative in (
-    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
-    "explorations/README.md", "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-):
-    assert "v0.100" in (ROOT / relative).read_text(encoding="utf-8")
-
-tests_manifest = (ROOT / "tests/README.md").read_text(encoding="utf-8")
-assert "473 Python + 62 Sage" in tests_manifest
 
 print("PASS selected K77 action Noether/preboundary audit")

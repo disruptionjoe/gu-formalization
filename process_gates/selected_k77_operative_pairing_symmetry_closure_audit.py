@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -29,8 +31,6 @@ contract = strict("lab/methods/research-evidence-contract-v1.0.json")
 report = (ROOT / "explorations/conditional-build/selected-k77-operative-pairing-symmetry-closure-2026-08-08.md").read_text(encoding="utf-8")
 review = (ROOT / registry["hostile_review"]).read_text(encoding="utf-8")
 source = (ROOT / "lab/sources/selected-k77-residual-pairing-source-reinspection-2026-08-08.md").read_text(encoding="utf-8")
-dependency = (ROOT / "lab/process/path-dependencies.md").read_text(encoding="utf-8")
-self_audit = (ROOT / "explorations/twentyfive-lens-self-assessment-against-signature-findings-2026-08-08.md").read_text(encoding="utf-8")
 
 assert registry["status"].startswith("SELECTED_GRADE125_SPIN_NATIVE")
 assert registry["closure"]["spin77"] == {
@@ -76,11 +76,9 @@ assert {item["row_id"] for item in ledger["wave_row_dispositions"]} == set(regis
 assert "conditionall" not in ledger["next_work_queue"][0]["why"].lower()
 assert "conditional Spin-native" in ledger["next_work_queue"][0]["why"]
 
-assert contract["standing_ledger"]["ref"].endswith("v0.93.json")
-assert "CLOSURE16382" in contract["standing_ledger"]["residual_pairing_directive"]
-directive = contract["active_scientific_directives"][0]
-assert "SPIN_NATIVE" in directive["latest_residual_pairing_evidence"]
-assert directive["next_run_method"]["target"].startswith("CONSTRUCT_LOWER_ORDER_COMPLETE_TRANSVERSE_DG_UPSILON")
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.93.json"
+)
 
 assert "two copies of `C^(32,32)`" in source
 assert "principal bundle has structure group" in source
@@ -91,26 +89,10 @@ for term in ("2,107", "16,382", "16,383", "two `C^(32,32)` Weyl halves", "full `
 for forbidden in ("positive Hilbert space is constructed", "formal adjoint is constructed", "source selects the action parent"):
     assert forbidden not in report
 
-assert "R3's theorem-level balance for `chi`-even cores" in dependency
-assert "odd/mixed-core balance remains measured" in dependency
-assert "Superseded live-test handoff" in self_audit
-assert "source-action queue returns" in self_audit
-
 for relative in registry["scripts"]:
     path = ROOT / relative
     assert path.exists()
     if path.suffix == ".py":
         ast.parse(path.read_text(encoding="utf-8"))
-
-for relative in (
-    "lab/process/RESEARCH-AGENDA.json",
-    "NEXT-STEPS.md",
-    "RESEARCH-STATUS.md",
-    "explorations/README.md",
-    "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-):
-    assert "v0.93" in (ROOT / relative).read_text(encoding="utf-8")
 
 print("PASS selected K77 operative pairing-symmetry closure audit")

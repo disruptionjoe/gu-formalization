@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 report = (ROOT / "explorations/conditional-build/selected-k77-gamma-soldered-epsilon-dupsilon-orbit-2026-08-08.md").read_text()
@@ -53,9 +55,9 @@ assert ledger["frontier_delta"] == {
     "conditions_opened": 0,
     "remaining_named_conditions": 2,
 }
-assert contract["standing_ledger"]["ref"].endswith("v0.84.json")
-assert "latest_gamma_epsilon_orbit_evidence" in contract["active_scientific_directives"][0]
-assert "CONSTRUCT_COMPLETE_PHYSICAL_DG_UPSILON_SIX_TRANSVERSE" in json.dumps(contract)
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.84.json"
+)
 assert "symplectic" in review
 assert "Krein/operator theory" in report
 assert "Complex/path-integral" in report

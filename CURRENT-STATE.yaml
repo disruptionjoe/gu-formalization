@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 09873f992751
+revision_basis: da41d487dfd9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The complete K77 v0.83 through v0.100 historical checkpoint family is
+    current without changing any historical ledger, registry, report, source,
+    review or scientific artifact. Fifteen red certificates now retain their
+    exact version-local science, computations, constraints and accounting
+    while proving an exact predecessor walk from live append-only ledger
+    v0.263, instead of requiring an old standing ledger, directive, next gate,
+    front door or inventory total to remain current. Together with the three
+    checkpoints already independent of mutable pointers, the family is 18/18
+    green. The full serialized census improves exactly from 350 green / 73
+    inherited red to 365 / 58 / 423 with no timeout or previously green
+    regression. No source status, action owner, ledger row, SG4 phase,
+    prediction, confirmation, canon, protected surface, release state or
+    public posture moved.
     The complete 24-gate K77 Wave-2 historical certificate cohort is restored
     without changing the historical campaign, results, sources, reviews,
     probes or registries. Each certificate now validates immutable campaign
@@ -4377,8 +4390,9 @@ next_condition: >-
 
   Reopen M-M14/P-L14 only on their named family/base-integral or absolute-rank
   inputs; reopen maintenance only on a concrete currency or detector regression.
-  The v0.3--v0.17, v0.40--v0.56 second-layer, v0.150--v0.172 K77 and complete
-  K77 Wave-2 historical cohorts are current at 15/15, 15/15, 23/23 and 24/24.
+  The v0.3--v0.17, v0.40--v0.56 second-layer, v0.83--v0.100 K77,
+  v0.150--v0.172 K77 and complete K77 Wave-2 historical cohorts are current at
+  15/15, 15/15, 18/18, 23/23 and 24/24.
   Wave-2 has four hostile controls; reopen only on campaign/wave identity drift,
   required emission loss, or version-local evidence regression. Reopen the ledger-derived cohorts
   only on a broken predecessor, cycle, target skip, revoked append-only

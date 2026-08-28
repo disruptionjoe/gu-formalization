@@ -5,6 +5,8 @@ from pathlib import Path
 import ast
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -70,11 +72,9 @@ v096 = [item for item in ledger["migrations"] if item.get("to_version") == "0.96
 assert len(v096) == 5
 assert {item["row_id"] for item in v096} == {"LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"}
 
-assert contract["standing_ledger"]["ref"].endswith("v0.96.json")
-directive = contract["standing_ledger"]["signature_branch_directive"]
-assert "DVARPI_EQUATION_DUAL_GREEN_EXACT" in directive
-assert "NEXT_EMIT_DG_COMMON_BANK_AND_BUILD_FULL_PRIMITIVE_DEPSILON" in directive
-assert "FIELD_RIESZ_REQUIRED_ONLY_FOR_OPERATOR_REPRESENTATIVE" in directive
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.96.json"
+)
 
 for term in (
     "rank `13`", "rank `24`", "field **covector**", "Symplectic geometry",
@@ -101,13 +101,5 @@ for relative in (
 ):
     ast.parse((ROOT / relative).read_text(encoding="utf-8"))
 assert (ROOT / "tests/channel-swings/selected_k77_common_field_formal_adjoint_green_independent.sage").exists()
-
-for relative in (
-    "lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
-    "explorations/README.md", "lab/process/README.md",
-    "lab/process/CURRENT-RESEARCH-CONTEXT.md",
-    "lab/methods/research-evidence-contract-v1.0.md",
-):
-    assert "v0.96" in (ROOT / relative).read_text(encoding="utf-8")
 
 print("PASS selected K77 common-field formal-adjoint Green audit")

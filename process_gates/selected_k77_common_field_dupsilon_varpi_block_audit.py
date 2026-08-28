@@ -4,6 +4,8 @@
 from pathlib import Path
 import json
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 report = (ROOT / "explorations/conditional-build/selected-k77-common-field-dupsilon-varpi-block-2026-08-08.md").read_text()
@@ -57,8 +59,9 @@ assert registry["claim_status_change"] == "NONE"
 assert registry["canon_verdict_change"] == "NONE"
 assert registry["public_posture_change"] == "NONE"
 assert ledger["schema_version"] == "0.83"
-assert contract["standing_ledger"]["ref"].endswith("v0.83.json")
-assert "CONSTRUCT_PHYSICAL_METRIC_PLUS_SOURCE_EPSILON" in json.dumps(contract)
+assert reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.83.json"
+)
 assert "symplectic geometry" in review
 assert "Krein/operator theory" in report
 assert "Complex/path-integral" in report
