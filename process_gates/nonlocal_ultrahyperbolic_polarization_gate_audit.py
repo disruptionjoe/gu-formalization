@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -73,8 +75,9 @@ check("hostile charge one blocks the scalar overclaim", "Craig--Weinstein repair
 check("hostile charge two separates support from polarization", "polynomial kernel" in review and "nonlocal support projector" in review)
 check("hostile charge three retains live gates", "needs-recheck" in review and "dissolved`: none" in review)
 check("human report says conditional rather than physical", "conditional flat principal-domain ingredient" in report)
-check("lanes points at v0.170", "conditional-physics-ledger-v0.170.json" in lanes)
-check("contract points at v0.170", contract["standing_ledger"]["ref"].endswith("v0.170.json"))
+check("current append-only ledger descends to v0.170", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.170.json"
+))
 check("next steps names Green successor", "strict-center" in next_steps and "Green" in next_steps)
 check("research status carries scoped result", "conditional flat principal-domain ingredient" in status)
 check("canon and public posture do not move", result["accounting"]["canon_change"] is False and result["accounting"]["public_posture_change"] is False)

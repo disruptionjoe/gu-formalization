@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -70,14 +72,10 @@ check("hostile review contains symplectic lens", "**Symplectic/BV--BFV:**" in re
 check("hostile review retains external route", "EXPLICIT_EXTERNAL_DATUM_ROUTE_LIVE" in review)
 check("source confirms A0", "distinguished A0" in source)
 check("source silence is explicit", "SOURCE-SILENT" in source)
-check("contract points at v0.151", contract["standing_ledger"]["ref"].endswith("v0.151.json"))
+check("current append-only ledger descends to v0.151", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.151.json"
+))
 check("contract carries relative ownership directive", "relative_chiral_transgression_ownership_directive" in contract["standing_ledger"])
-check("contract prose points at v0.151", "conditional-physics-ledger-v0.151.json" in contract_md)
-check("lanes points at v0.151", "conditional-physics-ledger-v0.151.json" in lanes)
-check("next steps leads with v0.151", "RELATIVE CHIRAL-TRANSGRESSION OWNERSHIP GATE (ledger v0.151)" in next_steps)
-check("research status leads with v0.151", "ledger v0.151" in status.split("Predecessor result", 1)[0])
-check("context pack leads with v0.151", "Current v0.151 relative chiral-selector ownership fence" in context)
-check("priorities lead with v0.151", "Ledger v0.151 closes" in priorities)
 check("tests inventory names probe", "selected_k77_relative_chiral_transgression_ownership_probe.py" in tests_readme)
 check("process inventory names audit", "relative_chiral_transgression_ownership_audit.py" in gates_readme)
 check("source inventory names receipt", "selected-k77-relative-chiral-transgression-ownership-source-reinspection-2026-08-10.md" in sources_readme)

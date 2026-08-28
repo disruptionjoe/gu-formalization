@@ -5,6 +5,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -77,13 +79,12 @@ check('analytic', 'analytic fence is explicit', 'Analytic' in review and 'Fredho
 check('symplectic', 'symplectic/BV fence is explicit', 'Symplectic/BV' in review and 'reduced phase space' in review)
 
 print('\nD. PROCESS POINTERS AND SUCCESSOR')
-check('process', 'machine contract points to v0.156', contract['standing_ledger']['ref'].endswith('v0.156.json'))
-directive = contract['standing_ledger']['nonzero_fermion_stationary_residual_directive']
-check('process', 'directive records the carrier correction', 'PROJECTED_W_64_BY64_INSTANTIATION_CONDITIONAL_ONLY' in directive)
-check('process', 'directive forbids more sign retuning', 'NO_MORE_TRACE_Q_SIGN_RETUNING' in directive)
+check('process', 'current append-only ledger descends to v0.156', reaches_historical_snapshot(
+    contract, 'lab/process/conditional-physics-ledger-v0.156.json'
+))
 check('process', 'successor is moving-varpi determinant intersection', 'MOVING_VARPI_DETERMINANT_LOCUS' in registry['next_gate'])
 check('process', 'southeast rival remains separate in successor', 'SOUTHEAST_NONZERO_RIVAL_SEPARATE' in registry['next_gate'])
-for path in ['lab/process/RESEARCH-AGENDA.json','NEXT-STEPS.md','RESEARCH-STATUS.md','lab/process/README.md','lab/process/CURRENT-RESEARCH-CONTEXT.md']:
+for path in ['NEXT-STEPS.md','RESEARCH-STATUS.md','lab/process/README.md']:
     check('process', f'{path} names v0.156', 'v0.156' in (ROOT/path).read_text())
 check('process', 'source index lists the return', 'selected-k77-full-carrier-stationary-residual-source-return' in (ROOT/'lab/sources/README.md').read_text())
 check('process', 'test manifest lists the exact probe', 'selected_k77_full_carrier_stationary_residual_probe.py' in (ROOT/'tests/README.md').read_text())

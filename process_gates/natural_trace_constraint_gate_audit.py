@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -74,8 +76,9 @@ check("hostile charge two preserves physical versus BV typing", "physical relati
 check("hostile charge three retains live routes", "needs-recheck" in review and "nonzero-southeast" in review)
 check("source return records silence", "SOURCE-SILENT" in source and "does not state or derive" in source)
 check("human report refuses all-constraint overclaim", "does not reach" in report.lower() or "live routes" in report.lower())
-check("lanes points at v0.169", "conditional-physics-ledger-v0.169.json" in lanes)
-check("contract points at v0.169", contract["standing_ledger"]["ref"].endswith("v0.169.json"))
+check("current append-only ledger descends to v0.169", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.169.json"
+))
 check("next steps names nonlocal successor", "Craig-Weinstein-style nonlocal" in next_steps)
 check("research status carries scoped result", "natural zero-order constraint route is killed" in status)
 check("canon and public posture do not move", result["accounting"]["canon_change"] is False and result["accounting"]["public_posture_change"] is False)

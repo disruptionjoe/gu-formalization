@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "k77_historical_certificate_restoration_wave",
+  "created": "2026-08-28",
+  "status": "V0150_THROUGH_V0172_HISTORICAL_CERTIFICATES_CURRENT",
+  "document_role": "process",
+  "target_claim": "NONE-NOT-A-KILL",
+  "scope": "process-only certificate transport; no scientific or ledger movement",
+  "contract": {
+    "historical_snapshot": "the exact named ledger and version-local evidence remain immutable",
+    "current_authority": "the live research-evidence contract names one append-only standing ledger",
+    "ancestry_proof": "walk predecessor edges from the live standing ledger to the exact historical target",
+    "superseded_checks_removed": [
+      "historical ledger remains the live standing pointer",
+      "historical native front door remains current",
+      "historical active directive remains the leading directive",
+      "historical inventory population remains the current population"
+    ],
+    "failure_modes": [
+      "append-only authority absent",
+      "historical target skipped",
+      "predecessor cycle",
+      "missing predecessor",
+      "target file missing"
+    ]
+  },
+  "cohort": {
+    "first": "v0.150",
+    "last": "v0.172",
+    "versions": 23,
+    "certificate_gates": 23,
+    "execution_packets": [
+      "v0.150-v0.157",
+      "v0.158-v0.165",
+      "v0.166-v0.172"
+    ]
+  },
+  "validation": {
+    "cohort_before": "0/23 green under the live current-pointer contract",
+    "cohort_after": "23/23 green under historical snapshot plus append-only ancestry",
+    "shared_hostile_ancestry_controls": "4/4 rejected in conditional_physics_ledger_v03_scope_audit.py",
+    "process_gate_census_before": "289 green / 134 inherited red / 423",
+    "process_gate_census_after": "312 green / 111 inherited red / 423",
+    "timeouts": 0,
+    "newly_red_previously_green_gates": 0
+  },
+  "hostile_review": {
+    "strongest_overclaim": "ancestry proves durable custody of each historical result, not that its old next gate remains current or that its scientific ceiling increased",
+    "strongest_contrary_case": "a certificate can be made green by deleting current-pointer checks while also deleting historical scientific checks; every version-local result, source, review, accounting, successor and inventory assertion that remains true was retained and replayed",
+    "weakest_reproducibility_seam": "all 23 gates import one shared ancestry predicate, so the cohort must run with the predicate's four direct hostile controls",
+    "disagreements": [],
+    "finding": "PASS_WITH_PROCESS_ONLY_SCOPE"
+  },
+  "effects": {
+    "certificate_files_changed": 23,
+    "historical_ledger_files_changed": 0,
+    "historical_result_files_changed": 0,
+    "historical_source_files_changed": 0,
+    "historical_review_files_changed": 0,
+    "historical_registry_files_changed": 0,
+    "ledger_row_change": false,
+    "source_status_change": false,
+    "action_owner_change": false,
+    "sg4_phase_change": false,
+    "prediction_or_confirmation_change": false,
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "protected_surface_change": false,
+    "release_readiness_change": false,
+    "public_posture_change": false
+  },
+  "reopen_only_on": [
+    "a broken or missing predecessor edge",
+    "a predecessor cycle",
+    "a historical target skipped by the live chain",
+    "revoked append-only ledger authority",
+    "a concrete version-local assertion regression"
+  ]
+}

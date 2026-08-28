@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES: list[str] = []
@@ -67,7 +69,9 @@ check("source-derived reduction stays open", result["domain"]["source_derived_re
 check("characteristic quotient is not promoted", result["domain"]["conditional_characteristic_quotient"].startswith("NOT_PROMOTED"))
 check("graph and P1 P2 P3 stay unselected", result["selection"] == {"graph_selected": False, "minimum_coordinates_transported": 120, "P1_P2_P3": "UNUSED"})
 check("no canon residue quotient or posture movement", set(result["accounting"].values()) == {"none"})
-check("contract points to v0.168", contract["standing_ledger"]["ref"].endswith("v0.168.json") and contract["standing_ledger"]["human_ref"].endswith("v0.168.md"))
+check("current append-only ledger descends to v0.168", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.168.json"
+))
 check("postflight mailbox disposition is recorded", ledger["collision_disposition"].endswith("POSTFLIGHT_MAILBOX_NO_NEWER_ITEM_OR_PRIORITY_CHANGE"))
 
 if FAILURES:

@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -107,15 +109,10 @@ check("hostile review contains dissent", "## Dissent" in review)
 check("source confirms block grammar", "SOURCE-CONFIRMS" in source and "block arena" in source)
 check("source silence explicit", "SOURCE-SILENT" in source and "maximal rank" in source)
 
-check("contract points at v0.155", contract["standing_ledger"]["ref"].endswith("v0.155.json"))
+check("current append-only ledger descends to v0.155", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.155.json"
+))
 check("contract has stationary directive", "nonzero_fermion_stationary_residual_directive" in contract["standing_ledger"])
-check("contract prose points at v0.155", "conditional-physics-ledger-v0.155.json" in contract_md)
-check("lanes points at v0.155", "conditional-physics-ledger-v0.155.json" in lanes)
-check("next steps leads with v0.155", "STATIONARY SCHUR REDUCTION (ledger v0.155)" in next_steps)
-check("research status leads with v0.155", "ledger v0.155" in status.split("ledger v0.154", 1)[0])
-check("context pack leads with v0.155", "Current v0.155 nonzero-fermion stationary fence" in context)
-check("priorities lead with v0.155", "Ledger v0.155 narrows" in priorities)
-check("process README points at v0.155", "Current append-only progress surface: ledger v0.155" in process_readme)
 check("human ledger records residual target", "conditionally reduce the stationary problem to `64 x 64`" in ledger_md)
 check("tests inventory names probe", "selected_k77_nonzero_fermion_stationary_schur_reduction_probe.py" in tests_readme)
 check("process inventory names audit", "nonzero_fermion_stationary_schur_reduction_audit.py" in gates_readme)

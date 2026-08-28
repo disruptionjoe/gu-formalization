@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES: list[str] = []
@@ -64,7 +66,9 @@ check("graph lower bound remains 120", result["selection"]["minimum_symmetric_mu
 check("analytic domain remains open", set(result["analytic_domain"].values()) == {"OPEN"})
 check("P1 P2 P3 unchanged", result["p1_p2_p3_change"] == "none")
 check("no canon or posture movement", result["canon_verdict_change"] == result["public_posture_change"] == "none")
-check("contract points to v0.166", contract["standing_ledger"]["ref"].endswith("v0.166.json") and contract["standing_ledger"]["human_ref"].endswith("v0.166.md"))
+check("current append-only ledger descends to v0.166", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.166.json"
+))
 check("adaptive preflight has exactly three universal lenses", contract["preflight"]["universal_core"] == ["LAYER0_SEMANTICS", "PRIOR_ART_AND_SOURCE_COLLISION", "CONSTRUCTION_VERSUS_SELECTION"])
 check("adaptive preflight records five routing fields", len(contract["preflight"]["required_lens_record"]) == 5)
 router = contract["channels"]["VERIFY"]["efficient_specialist_routing"]

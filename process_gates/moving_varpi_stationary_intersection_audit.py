@@ -5,6 +5,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -100,13 +102,12 @@ for lens in ["Layer-0 semantics", "Prior art", "Differential geometry", "Represe
     check("hostile", f"hostile review includes {lens}", lens in review)
 
 print("\nD. PROCESS POINTERS AND SUCCESSOR")
-check("process", "machine contract points to v0.157", contract["standing_ledger"]["ref"].endswith("v0.157.json"))
-directive = contract["standing_ledger"]["nonzero_fermion_stationary_residual_directive"]
-check("process", "directive records the exact tautological graph", "RANK1792_NULLITY128" in directive)
-check("process", "directive keeps W and mirror separate", "GRAPH_OUTSIDE_RS_W_MIRROR" in directive)
+check("process", "current append-only ledger descends to v0.157", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.157.json"
+))
 check("process", "successor couples current and differential domain", "DIFFERENTIAL_BV_GREEN_DOMAIN" in registry["next_gate"])
 check("process", "successor forbids count inference", "NO_COUNT_INFERENCE" in registry["next_gate"])
-for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md"]:
+for path in ["NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md"]:
     check("process", f"{path} names v0.157", "v0.157" in (ROOT / path).read_text())
 check("process", "source index lists the return", "selected-k77-moving-varpi-stationary-intersection-source-return" in (ROOT / "lab/sources/README.md").read_text())
 check("process", "test manifest lists the exact probe", "selected_k77_moving_varpi_stationary_intersection_probe.py" in (ROOT / "tests/README.md").read_text())

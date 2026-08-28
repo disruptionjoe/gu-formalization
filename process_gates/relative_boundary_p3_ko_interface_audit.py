@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -94,14 +96,10 @@ check("hostile review contains dissent", "## Dissent" in review)
 check("source confirms arena", "SOURCE-CONFIRMS" in source and "Chern--Simons-like" in source)
 check("source silence is explicit", "SOURCE-SILENT" in source)
 
-check("contract points at v0.154", contract["standing_ledger"]["ref"].endswith("v0.154.json"))
+check("current append-only ledger descends to v0.154", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.154.json"
+))
 check("contract carries P3 KO directive", "p3_relative_ko_interface_directive" in contract["standing_ledger"])
-check("contract prose points at v0.154", "conditional-physics-ledger-v0.154.json" in contract_md)
-check("lanes points at v0.154", "conditional-physics-ledger-v0.154.json" in lanes)
-check("next steps leads with v0.154", "RELATIVE-BOUNDARY/P3 REAL-KO INTERFACE (ledger v0.154)" in next_steps)
-check("research status leads with v0.154", "ledger v0.154" in status.split("predecessor to v0.154", 1)[0])
-check("context pack leads with v0.154", "Current v0.154 relative-boundary/P3 real-KO fence" in context)
-check("priorities lead with v0.154", "Ledger v0.154 constructs" in priorities)
 check("human ledger records zero surplus", "Strict surplus remains" in ledger_md and "`1-1=0`" in ledger_md)
 check("tests inventory names probe", "selected_k77_relative_boundary_p3_ko_interface_probe.py" in tests_readme)
 check("process inventory names audit", "relative_boundary_p3_ko_interface_audit.py" in gates_readme)

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cc3c38683250
+revision_basis: e0352d5b6bcb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The v0.150 through v0.172 K77 historical certificate cohort is restored
+    without changing any historical ledger, result, source, review or registry
+    artifact. All 23 gates now validate their immutable version-local science
+    plus an exact predecessor walk from the live append-only v0.263 contract,
+    rather than requiring a historical ledger, native front door, directive or
+    inventory population to remain current. The cohort moves from 0/23 to
+    23/23 green and the full serialized census improves from 289 green / 134
+    inherited red to 312 / 111 / 423 with no timeout or newly red prior-green
+    gate. No source status, action owner, ledger row, SG4 phase, prediction,
+    confirmation, canon, protected surface, release state or public posture
+    moved.
     The v0.3 through v0.17 conditional-ledger certificate cohort is restored
     without changing any historical ledger or scientific artifact. All fifteen
     gates now validate their immutable version-local result plus an exact

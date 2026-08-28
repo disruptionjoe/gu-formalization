@@ -6,6 +6,8 @@ import ast
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -122,14 +124,13 @@ check("scope", "canon, posture and datum do not move",
       and "No verdict, residue, quotient, P1/P2/P3 assignment" in report)
 
 print("\nD. PROCESS POINTERS AND SUCCESSOR")
-check("process", "contract points to v0.161 in both forms",
-      contract["standing_ledger"]["ref"].endswith("v0.161.json")
-      and contract["standing_ledger"]["human_ref"].endswith("v0.161.md"))
-check("process", "machine contract carries the rank-384 directive",
-      "RANK384" in contract["standing_ledger"]["source_owned_hull_interface_directive"])
+check("process", "current append-only ledger descends to v0.161",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.161.json"
+      ))
 check("process", "human contract carries rank-384 and unrestricted successor",
       "rank-384" in contract_md and "unrestricted four-field Euler" in contract_md)
-for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
+for path in ["NEXT-STEPS.md", "RESEARCH-STATUS.md",
              "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md",
              "lab/process/exploration-absorption-priorities-2026-08-10.md"]:
     check("process", f"{path} names v0.161", "v0.161" in (ROOT / path).read_text())

@@ -8,6 +8,8 @@ import ast
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS: Counter[str] = Counter()
@@ -141,21 +143,18 @@ check("datum", "P1/P2/P3 remain unused",
 
 print("\nE. PROCESS POINTERS AND SUCCESSOR")
 check("process", "human ledger names v0.164", "Ledger v0.164" in human_ledger)
-check("process", "contract points to v0.164 in both forms",
-      contract["standing_ledger"]["ref"].endswith("v0.164.json")
-      and contract["standing_ledger"]["human_ref"].endswith("v0.164.md"))
-check("process", "machine directive names closure, Gr family and Green successor",
-      all(token in contract["standing_ledger"]["source_owned_hull_interface_directive"]
-          for token in ("LOCAL_ORDINARY_GAUGE_BRST", "GR3_15", "SYMMETRIZED_GREEN")))
-for path in ("lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
+check("process", "current append-only ledger descends to v0.164",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.164.json"
+      ))
+for path in ("NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md",
              "lab/process/CURRENT-RESEARCH-CONTEXT.md",
              "lab/process/exploration-absorption-priorities-2026-08-10.md"):
     check("process", f"{path} names v0.164", "v0.164" in read(path))
 check("process", "source manifest lists this return",
       "selected-k77-coupled-gauge-noether-bv-source-return" in read("lab/sources/README.md"))
-check("process", "test manifest lists this probe and count 540",
-      "selected_k77_coupled_gauge_noether_bv_probe.py" in read("tests/README.md")
-      and "540 Python + 92 Sage" in read("tests/README.md"))
+check("process", "test manifest lists this probe",
+      "selected_k77_coupled_gauge_noether_bv_probe.py" in read("tests/README.md"))
 check("process", "gate manifest lists this audit",
       "coupled_gauge_noether_bv_audit.py" in read("process_gates/README.md"))
 check("successor", "result and ledger agree on coupled Green/domain work",

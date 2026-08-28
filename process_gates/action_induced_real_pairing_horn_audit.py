@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -80,14 +82,10 @@ check("hostile review scopes source derivation", "GU derives the pairing" in rev
 check("source confirms norm-square arena", "SOURCE-CONFIRMS" in source and "norm-squared" in source)
 check("source silence is explicit", "SOURCE-SILENT" in source)
 check("source fork is explicit", "SOURCE-FORK" in source)
-check("contract points at v0.153", contract["standing_ledger"]["ref"].endswith("v0.153.json"))
+check("current append-only ledger descends to v0.153", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.153.json"
+))
 check("contract carries pairing directive", "action_induced_real_pairing_horn_directive" in contract["standing_ledger"])
-check("contract prose points at v0.153", "conditional-physics-ledger-v0.153.json" in contract_md)
-check("lanes points at v0.153", "conditional-physics-ledger-v0.153.json" in lanes)
-check("next steps leads with v0.153", "ACTION-INDUCED REAL-PAIRING/HORN GATE (ledger v0.153)" in next_steps)
-check("research status leads with v0.153", "ledger v0.153" in status.split("predecessor to v0.153", 1)[0])
-check("context pack leads with v0.153", "Current v0.153 selected real-pairing/horn fence" in context)
-check("priorities lead with v0.153", "Ledger v0.153 closes" in priorities)
 check("human ledger records exact zero surplus", "strict surplus is exactly `0`" in ledger_md)
 check("tests inventory names probe", "selected_k77_action_induced_real_pairing_horn_probe.py" in tests_readme)
 check("process inventory names audit", "action_induced_real_pairing_horn_audit.py" in gates_readme)

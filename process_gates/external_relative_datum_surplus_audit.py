@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -75,14 +77,10 @@ check("hostile review contains symplectic lens", "**Symplectic/BV--BFV:**" in re
 check("hostile review scopes rather than kills path", "CONDITIONAL_SELECTION_PATH_EXISTS" in review)
 check("source confirms grammar", "SOURCE_CONFIRMS" in source and "Chern--Simons-like" in source)
 check("source silence is explicit", "SOURCE_SILENT" in source)
-check("contract points at v0.152", contract["standing_ledger"]["ref"].endswith("v0.152.json"))
+check("current append-only ledger descends to v0.152", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.152.json"
+))
 check("contract carries surplus directive", "external_relative_datum_surplus_directive" in contract["standing_ledger"])
-check("contract prose points at v0.152", "conditional-physics-ledger-v0.152.json" in contract_md)
-check("lanes points at v0.152", "conditional-physics-ledger-v0.152.json" in lanes)
-check("next steps leads with v0.152", "EXTERNAL RELATIVE-DATUM SURPLUS GATE (ledger v0.152)" in next_steps)
-check("research status leads with v0.152", "ledger v0.152" in status.split("predecessor to v0.152", 1)[0])
-check("context pack leads with v0.152", "Current v0.152 external relative-datum surplus fence" in context)
-check("priorities lead with v0.152", "Ledger v0.152 establishes" in priorities)
 check("human ledger records nonpositive surplus", "strict surplus is `-1`" in ledger_md and "crediting small-gauge/BFV compatibility" in ledger_md)
 check("tests inventory names probe", "selected_k77_external_relative_datum_surplus_probe.py" in tests_readme)
 check("process inventory names audit", "external_relative_datum_surplus_audit.py" in gates_readme)

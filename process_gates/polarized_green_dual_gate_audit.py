@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -78,8 +80,9 @@ check("hostile charge two prevents BV relabeling", "silently" in review and "gau
 check("hostile charge three keeps operator completion separate", "operator-completion" in review)
 check("symplectic lens is explicit", "symplectic" in review and "coisotropic" in review)
 check("human report records scoped adverse result", "scoped adverse" in report.lower())
-check("lanes points at v0.171", "conditional-physics-ledger-v0.171.json" in lanes)
-check("contract points at v0.171", contract["standing_ledger"]["ref"].endswith("v0.171.json"))
+check("current append-only ledger descends to v0.171", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.171.json"
+))
 check("next steps names owned-image successor", "im Nsharp" in next_steps and "moment map" in next_steps)
 check("research status carries the nonbasic quotient", "does not descend" in status and "rank-128" in status)
 check("P1 P2 P3 remain unused", result["accounting"]["P1_P2_P3"] == "UNCHANGED_UNUSED")

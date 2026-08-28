@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -82,8 +84,9 @@ check("hostile charge two catches characteristic homonym", "word `characteristic
 check("hostile charge three lists dispositions", "dissolved" in review and "needs-recheck" in review)
 check("symplectic lens is explicit", "Symplectic" in review and "charged" in review)
 check("human report records zero-fermion scope", "zero-fermion" in report and "256-dimensional" in report)
-check("lanes points at v0.172", "conditional-physics-ledger-v0.172.json" in lanes)
-check("contract points at v0.172", contract["standing_ledger"]["ref"].endswith("v0.172.json"))
+check("current append-only ledger descends to v0.172", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.172.json"
+))
 check("next steps promotes operator completion", "OPERATOR" in next_steps.upper() and "wedge-Shiab" in next_steps)
 check("research status carries the surviving radical", "256-dimensional" in status and "zero-fermion" in status)
 check("P1 P2 P3 remain unused", result["accounting"]["P1_P2_P3"] == "UNCHANGED_UNUSED")

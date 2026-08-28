@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES: list[str] = []
@@ -65,7 +67,9 @@ check("P1 P2 P3 remain unused", result["selection"]["P1_P2_P3"] == "UNUSED")
 check("nonnull successor is hyperbolic-domain typed", "MAXIMAL_DISSIPATIVE" in result["analytic_successor"]["nonnull"] and "CALDERON_ONLY_IF_ELLIPTIC" in result["analytic_successor"]["nonnull"])
 check("null successor is a separate characteristic relation", result["analytic_successor"]["null"].startswith("SEPARATE_CHARACTERISTIC_RELATION"))
 check("no canon residue quotient or posture movement", set(result["accounting"].values()) == {"none"})
-check("contract points to v0.167", contract["standing_ledger"]["ref"].endswith("v0.167.json") and contract["standing_ledger"]["human_ref"].endswith("v0.167.md"))
+check("current append-only ledger descends to v0.167", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.167.json"
+))
 check("postflight mailbox disposition is recorded", ledger["collision_disposition"].endswith("POSTFLIGHT_MAILBOX_NO_NEWER_ITEM_OR_PRIORITY_CHANGE"))
 
 if FAILURES:

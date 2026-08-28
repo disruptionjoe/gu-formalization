@@ -5,6 +5,8 @@ from collections import Counter
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -112,16 +114,13 @@ check("scope", "canon public posture and P1/P2/P3 do not move",
       and registry["p1_p2_p3"] == "UNCHANGED_UNUSED_FOR_LOCAL_CLOSURE")
 
 print("\nD. PROCESS AND EXECUTABLE FENCES")
-check("process", "machine contract points to v0.160 in both forms",
-      contract["standing_ledger"]["ref"].endswith("v0.160.json")
-      and contract["standing_ledger"]["human_ref"].endswith("v0.160.md"))
+check("process", "current append-only ledger descends to v0.160",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.160.json"
+      ))
 check("process", "machine contract carries the source-owned-hull directive",
       "source_owned_hull_interface_directive" in contract["standing_ledger"])
-check("process", "human contract names the v0.160 correction and fixed reduction",
-      "conditional-physics-ledger-v0.160.json" in contract_md
-      and "P_epsilon u=u" in contract_md)
-for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
-             "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md"]:
+for path in ["NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/README.md"]:
     check("process", f"{path} names v0.160", "v0.160" in (ROOT / path).read_text())
 check("process", "priority surface names the action-owned moving reduction",
       "P_epsilon u=u" in (ROOT / "lab/process/exploration-absorption-priorities-2026-08-10.md").read_text())

@@ -6,6 +6,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 FAILURES: list[str] = []
@@ -58,8 +60,9 @@ check("naive moving reality is rejected", result["reality"]["naive_total_extensi
 check("actual K77 domain remains open", result["reality"]["physical_k77_antilinear_reality"] == "OPEN" and result["reality"]["calderon_or_maximal_dissipative_domain"] == "OPEN")
 check("P1 P2 P3 unchanged", result["p1_p2_p3_change"] == "none")
 check("no canon or public posture movement", result["canon_verdict_change"] == result["public_posture_change"] == "none")
-check("contract points to v0.165", contract["standing_ledger"]["ref"].endswith("v0.165.json") and contract["standing_ledger"]["human_ref"].endswith("v0.165.md"))
-check("contract carries the new domain directive", "NAIVE_MOVING_TOTAL_REALITY" in contract["standing_ledger"]["source_owned_hull_interface_directive"])
+check("current append-only ledger descends to v0.165", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.165.json"
+))
 check("contract requires bounded postflight mailbox disposition", contract["postflight_mailbox"]["scope"] == "ONE_BOUNDED_GU_MAILBOX_DELTA_REVIEW" and contract["postflight_mailbox"]["unbounded_archaeology_forbidden"] is True)
 
 if FAILURES:

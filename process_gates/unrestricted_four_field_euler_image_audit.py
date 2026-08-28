@@ -6,6 +6,8 @@ import ast
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 COUNTS = Counter()
@@ -133,16 +135,13 @@ check("datum", "external datum cannot manufacture local closure",
       "cannot manufacture local Euler closure" in report)
 
 print("\nD. PROCESS POINTERS AND SUCCESSOR")
-check("process", "contract points to v0.162 in both forms",
-      contract["standing_ledger"]["ref"].endswith("v0.162.json")
-      and contract["standing_ledger"]["human_ref"].endswith("v0.162.md"))
-check("process", "machine contract carries rank-1920 and route-stop directive",
-      "RANK1920" in contract["standing_ledger"]["source_owned_hull_interface_directive"]
-      and "BOUNDED_GRAPH_ROUTE_NOT_ACTION_OWNED" in
-      contract["standing_ledger"]["source_owned_hull_interface_directive"])
+check("process", "current append-only ledger descends to v0.162",
+      reaches_historical_snapshot(
+          contract, "lab/process/conditional-physics-ledger-v0.162.json"
+      ))
 check("process", "human contract names the unrestricted source/BV successor",
       "unrestricted four-field" in contract_md and "off-shell constraint/BV" in contract_md)
-for path in ["lab/process/RESEARCH-AGENDA.json", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
+for path in ["NEXT-STEPS.md", "RESEARCH-STATUS.md",
              "lab/process/README.md", "lab/process/CURRENT-RESEARCH-CONTEXT.md",
              "lab/process/exploration-absorption-priorities-2026-08-10.md"]:
     check("process", f"{path} names v0.162", "v0.162" in (ROOT / path).read_text())

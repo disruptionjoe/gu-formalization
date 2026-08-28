@@ -4,6 +4,8 @@
 import json
 from pathlib import Path
 
+from conditional_physics_ledger_v03_scope_audit import reaches_historical_snapshot
+
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKS = 0
@@ -64,12 +66,13 @@ check("hostile review contains symplectic lens", "**Symplectic/BV:**" in review)
 check("source return is explicit", "SOURCE_CONFIRMS_LORENTZIAN_OBSERVER_SECTOR" in source)
 check("Rokhlin scope correction is appended", "Correction of theorem scope (2026-08-10; append-only)" in correction)
 check("correction retracts simple-connectivity restriction", "Simple\nconnectivity is not a hypothesis" in correction)
-check("contract points at v0.150", contract["standing_ledger"]["ref"].endswith("v0.150.json"))
+check("current append-only ledger descends to v0.150", reaches_historical_snapshot(
+    contract, "lab/process/conditional-physics-ledger-v0.150.json"
+))
 check("contract carries Lorentzian class directive", "lorentzian_chiral_class_pairing_directive" in contract["standing_ledger"])
-check("lanes points at v0.150", "conditional-physics-ledger-v0.150.json" in lanes)
-check("next steps leads with v0.150", "LORENTZIAN CHIRAL-CLASS/PAIRING GATE (ledger v0.150)" in next_steps)
-check("research status leads with v0.150", "ledger v0.150" in status.split("Predecessor result", 1)[0])
-check("tests inventory names probe", "selected_k77_lorentzian_chiral_class_pairing_probe.py" in tests_readme)
+check("historical probe remains present", (
+    ROOT / "tests/channel-swings/selected_k77_lorentzian_chiral_class_pairing_probe.py"
+).is_file())
 check("process inventory names audit", "lorentzian_chiral_class_pairing_audit.py" in gates_readme)
 check("P1 P2 P3 unchanged", result["p1_p2_p3_assignment_change"] is False)
 check("no canon movement", result["canon_verdict_change"] is False)
