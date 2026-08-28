@@ -159,7 +159,9 @@ ghost's **norm** problem, and `sigma` is what makes it land.
 
 1. **LOOP unitarity is OPEN.** Tree/algebraic-grade unitarity is established; loop
    unitarity is an open positivity-vs-causality trade (cost bounded to `~1/m`; the
-   rank-`>1` Krein modular-conjugation theorem is an open operator-algebra frontier).
+   Shulman's cited theorem closes the specified Pi1 slice only; the
+   higher-rank/infinite-index modular-conjugation construction needed here is
+   not supplied by that result and remains an open operator-algebra frontier).
    `sigma` does **nothing** to close it. So a *full* resolution is not earned —
    PARTIAL is the ceiling.
 2. **The AF-forced TACHYON is untouched, and by the paper's own structure it must

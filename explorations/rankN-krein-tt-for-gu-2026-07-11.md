@@ -5,7 +5,7 @@ created: 2026-07-12
 hypothesis: H61 / H61a (the observer-conjecture Krein-TT critical path)
 conjecture: "the source action IS the observer (CONJECTURE-source-action-is-the-observer-2026-07-11.md)"
 branch: "rankN -- does PT-unbrokenness (W83) SUFFICE to extend the Krein modular conjugation to GU's genuinely-indefinite, infinite-rank, type-III region algebra (W77's IFF), or is there a RESIDUAL type-III obstruction BEYOND PT-unbrokenness?"
-title: "rankN Krein-TT for GU. VERDICT = RESIDUAL TYPE-III OBSTRUCTION (with the SUBTLE removable-ghost horn named). The naive composition -- W77 (rank>1 Krein-TT extends IFF Delta=S^+S is modular-PT-unbroken) x W83 (the AS branch IS PT-unbroken on the physical sector) -- does NOT close. PT-unbrokenness is the claim that Delta has real-positive spectrum; 'standard Tomita-Takesaki then applies' would require the indefinite algebra to be QUASI-HERMITIAN, i.e. to admit a metric operator that is BOUNDED WITH BOUNDED INVERSE (a bounded similarity to a positive-metric/self-adjoint algebra). The decisive fact: PT-unbroken => quasi-Hermitian holds at FINITE rank (every bounded operator on a Pontryagin Pi_kappa space is DEFINITIZABLE, Langer; a diagonalizable real-spectrum operator is boundedly similar to a self-adjoint one, Mostafazadeh) -- and there the ghost is REMOVABLE, so keep-and-grade is trivial. At INFINITE rank / type III (GU's actual region algebra) the implication FAILS: real-positive spectrum (complete eigenvectors, not a Riesz basis) admits only a bounded metric with UNBOUNDED INVERSE (Krejcirik-Siegl 2012, the imaginary cubic oscillator: NOT similar to self-adjoint, only QUASI-similar), and general self-adjoint operators on infinite-rank Krein spaces are NOT definitizable, so there is NO spectral function, NO eta-positive square root of Delta, and hence NO modular conjugation J from real-positive spectrum alone. So PT-unbrokenness is NECESSARY but NOT SUFFICIENT at type III. The residual condition -- UNIFORM boundedness of the metric across the mode tower / definitizability -- is INDEPENDENT of AS-selection, so the two named conditions do NOT collapse to one ('only Reuter-FP-genuine remains' is FALSE). The removability dichotomy (arXiv:2606.13251, positive-KMS <=> quasi-Hermiticity, which contradicts keep-and-grade) is reconciled as a genuine XOR: HORN Q (quasi-Hermitian => standard TT closes BUT the ghost is removable, keep-and-grade trivial -- a DIFFERENT important conclusion) vs HORN K (genuine kept ghost => keep-and-grade nontrivial BUT standard TT does NOT apply, the infinite-rank Krein conjugation theorem is genuinely needed and does not exist). A repo-native indication places GU on HORN K: W52/R1 give ||C|| -> infinity approaching the exceptional (Jordan) locus, and W53 places that locus (m2^2 -> 0) at the free UV fixed point the AS trajectory approaches, so the metric conditioning plausibly DEGRADES in the UV -> inverse metric plausibly unbounded -> genuine ghost, obstruction stands, NOT removable. Indication, not proof."
+title: "rankN Krein-TT for GU: finite-rank closure does not transfer to the GU infinite-index case; the required higher-rank modular construction remains unestablished here"
 grade: "exploration / two independent derivations that AGREE (D1 functional-analytic: definitizability/spectral-function for eta-selfadjoint operators is a finite-rank/Pontryagin phenomenon, so real-positive spectrum at infinite rank does not yield an eta-positive square root -> no J; D2 quasi-Hermiticity dichotomy: positive-KMS <=> bounded-invertible metric, which either removes the ghost or fails to exist). Deterministic tests/W84_rankN_krein_tt.py (5/5, numpy-only, exit 0) + literature check (2026-07-12, read-only: Krejcirik-Siegl PRD 86 (2012) 121702 [bounded metric, unbounded inverse]; Langer definitizable-operator theory [Pi_kappa definitizable, general Krein-selfadjoint not]; arXiv:2606.13251 [positive-KMS <=> quasi-Hermiticity]; Shulman Pi_1). The finite-rank collapse (T1), the infinite-rank failure of the implication (T2, Krejcirik-Siegl surrogate), the independence of the closure condition from PT-unbrokenness (T3), and the removability XOR (T4) are PROVEN on the toy; the claim that GU's region algebra sits on HORN K is an INDICATION (W52/R1 + W53), not proven. No canon, RESEARCH-STATUS, CANON, claim-status, verdict, or public-posture change. The conjecture remains a conjecture; H61/H61a remain OPEN (now with the residual sharpened: PT-unbroken is necessary but not sufficient; the residual is uniform-metric/definitizability)."
 depends_on:
   - explorations/H61a-rank2-krein-tomita-case-study-2026-07-11.md
@@ -28,7 +28,7 @@ external_refs:
   - "H. Langer, Spectral functions of definitizable operators in Krein spaces -- spectral theorem under definitizability; in Pontryagin Pi_kappa every bounded operator is definitizable; no such theorem for general self-adjoint operators on infinite-rank Krein spaces"
   - "A. Mostafazadeh, pseudo-Hermitian QM -- finite-dim: diagonalizable + real spectrum <=> quasi-Hermitian (a positive-definite metric exists)"
   - "arXiv:2606.13251, KMS conditions for non-Hermitian systems -- positivity of the biorthogonal thermal state <=> quasi-Hermiticity"
-  - "V. S. Shulman, Rev. Math. Phys. 9 (1997) 749 -- the rank-1 quasivector Tomita theorem; no Pi_kappa (kappa>=2) conjugation theorem exists"
+  - "V. S. Shulman, 'Quasivectors and Tomita--Takesaki Theory for Operator Algebras on Pi1-Spaces,' Reviews in Mathematical Physics 9(6) (1997), 749--783, DOI 10.1142/S0129055X97000270 -- a precise Tomita analogue for a weakly closed J-symmetric algebra on a pre-existing Pi1 space with a cyclic and separating vector; the cited paper supplies no higher-rank extension"
 ---
 
 # rankN -- does PT-unbrokenness close the rank>1 Krein Tomita-Takesaki for GU?
@@ -54,6 +54,26 @@ genuine-ghost HORN K instead.
 
 **Artifacts:** this file + deterministic `tests/W84_rankN_krein_tt.py` (5/5, numpy-only, exit 0).
 **Not committed. Not a claim-status change.** Exploration-grade.
+
+## 2026-08-27 M-M26 primary-source correction
+
+Primary metadata verifies the relevant result as Victor S. Shulman's
+“Quasivectors and Tomita--Takesaki Theory for Operator Algebras on
+Pi1-Spaces,” *Reviews in Mathematical Physics* **9**(6) (1997), 749--783,
+DOI `10.1142/S0129055X97000270`. The theorem is scoped to a weakly closed
+`J`-symmetric operator algebra with identity on a pre-existing Pi1
+Pontryagin space and assumes a cyclic and separating vector. At that scope it
+provides a working modular theory, a precise analogue of Tomita's fundamental
+theorem, and a double-commutant theorem.
+
+This closes the improvement register's rank-one citation request, but it
+does not construct the indefinite form, derive `J`, cover GU's infinite negative
+index, or prove that no higher-rank result exists anywhere in the literature.
+The honest repository statement is therefore: the cited theorem solves the
+specified Pi1 slice; the higher-rank/infinite-index construction needed by the
+GU interpretation remains unestablished here. The older absolute
+literature-nonexistence wording is superseded by this evidence ceiling; the
+residual physical and operator-algebra verdicts do not move.
 
 ---
 
@@ -125,8 +145,9 @@ rank-1 and `W77` -- is **finite-rank-specific** and does not extend to infinite 
   arXiv:2606.13251's "positive-KMS `<=>` quasi-Hermiticity" and its "contradicts keep-and-grade."
 - **HORN K (metric bounded, inverse UNBOUNDED = genuinely indefinite):** the ghost is **not removable**
   (only quasi-similar), keep-and-grade is **nontrivial** -- **but** the theory is not quasi-Hermitian,
-  standard TT does **not** apply, and one is thrown back on the **non-existent** infinite-rank Krein
-  conjugation theorem.
+  standard TT does **not** apply, and one is thrown back on an infinite-rank
+  Krein conjugation theorem not supplied by the cited Pi1 result and not
+  established in this repository.
 
 **Referee headline.** Neither horn yields "PT-unbroken `=>` a *genuine kept-ghost* rank>1 Krein-TT closes."
 Either the ghost is removable (and the interesting structure evaporates) or the obstruction survives. The
