@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__IDX02_AND_RANK_SCALE_HARDENED__STATUS_AND_REPRODUCTION_CONTRACTS_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_ZERO__STATUS_AND_REPRODUCTION_CONTRACTS_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "39f98bd1b6c5dafc2b897bcd53c817491d36559b3eec0058447d7271d8c13865"
+      "sha256": "02b8fb032a185032b862458f035d0cb894b83e2b2e8b55ebfae5320bc36c0089"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -78,6 +78,15 @@
       "after": "PASS 89 findings at baseline 89 across 1007 probes",
       "scientific_effect": "none"
     },
+    "probe_l2_semantic_closure": {
+      "path": "lab/process/probe-l2-semantic-closure-wave.json",
+      "sha256": "bbfa538b5360f84dd32d6514454c4005de51ac8489c10737a285eadce1e0d001",
+      "before": "70 L2 findings across 1013 probes",
+      "after": "zero L1-L4 findings across 1014 probes",
+      "historical_or_wave_snapshot_pins_preserved": 51,
+      "exact_scientific_or_certificate_local_pins_preserved": 19,
+      "scientific_effect": "none"
+    },
     "status_contract_currency": {
       "path": "lab/process/status-contract-currency-wave.json",
       "sha256": "ca028d50f9badd82ab5cb249165730c4583817077885f53f2685516a1921edb8",
@@ -138,7 +147,8 @@
       "invariant-gapping campaign",
       "status-contract currency wave without a new semantic defect or fresh measured baseline decrease",
       "repository-surface currency wave without a new concrete red or measured population change",
-      "reproduction/status integrity wave without a new population delta or concrete discovery-scope defect"
+      "reproduction/status integrity wave without a new population delta or concrete discovery-scope defect",
+      "probe-authorship hardening without a fresh L1-L4 regression or concrete missed/false-positive detector shape"
     ],
     "selection_order": [
       "fired source-to-proof reopener",
@@ -184,6 +194,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/idx02-rank-scale-hardening-wave-2026-08-27.md",
-  "probe_ref": "tests/channel-swings/idx02_rank_scale_hardening_wave_probe.py"
+  "result_ref": "explorations/probe-l2-semantic-closure-wave-2026-08-28.md",
+  "probe_ref": "tests/channel-swings/probe_l2_semantic_closure_wave_probe.py"
 }

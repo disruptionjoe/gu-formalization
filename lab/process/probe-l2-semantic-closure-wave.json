@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-28",
+  "result": "PROBE_L2_CATEGORY_SEMANTICALLY_CLOSED",
+  "baseline_before": 70,
+  "baseline_after": 0,
+  "probe_population_before": 1013,
+  "probe_population_after": 1014,
+  "l2_before": 70,
+  "l2_after": 0,
+  "reviewed_partition": {
+    "immutable_historical_or_wave_snapshot_pins": 51,
+    "exact_scientific_or_certificate_local_invariants": 19,
+    "moving_shared_state_pins": 0
+  },
+  "detector_repair": {
+    "before": "any quoted token on the source line could supply L2 label semantics, and total alone was treated as a moving counter marker",
+    "after": "only direct string arguments of check(...) supply label semantics, and the label must name both unambiguous moving shared state and a counter",
+    "line_oriented_ceiling": true
+  },
+  "hostile_controls": {
+    "count": 10,
+    "caught": 10,
+    "classes": [
+      "moving_shared_literal_equality",
+      "moving_shared_nonregression",
+      "quoted_expression_key",
+      "exact_algebraic_cardinality",
+      "condition_first_call_style",
+      "entering_inventory_reproduction",
+      "historical_snapshot_partition",
+      "exact_invariant_partition",
+      "live_zero_findings",
+      "zero_ratchet"
+    ]
+  },
+  "claim_ceiling": "Probe-authorship classification only; scientific values and all target verdicts are unchanged.",
+  "forbidden_inferences": [
+    "A zero probe-authorship lint state establishes a scientific claim.",
+    "Every literal count in a probe is stale.",
+    "The line-oriented detector recognizes multiline or dynamically generated check labels."
+  ],
+  "next_condition": "Rebuild the repository-wide substantial frontier. Any future L1-L4 finding is a fresh regression; reopen authorship hardening only on a concrete missed or false-positive detector shape."
+}
