@@ -15,8 +15,11 @@ required to fail via a genuine named check.
 """
 from __future__ import annotations
 
+import argparse
 import re
 import sys
+import tempfile
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 import yaml
@@ -28,6 +31,7 @@ REQUIRED = ("id", "title", "origin", "owner", "status", "activation", "next_chec
 DATE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 FAIL: list[str] = []
+DUE: list[str] = []
 N = 0
 
 
@@ -66,9 +70,30 @@ def check(label: str, ok: bool) -> None:
         print(f"[FAIL] {label}")
 
 
-def audit(path: Path) -> int:
-    global N, FAIL
-    N, FAIL = 0, []
+def parse_date(value: object) -> date | None:
+    text = str(value)
+    if not DATE.match(text):
+        return None
+    try:
+        return date.fromisoformat(text)
+    except ValueError:
+        return None
+
+
+def resolve_as_of(value: str | None) -> date:
+    """Resolve an explicit audit date, defaulting visibly to the UTC day."""
+    if value is None:
+        return datetime.now(timezone.utc).date()
+    parsed = parse_date(value)
+    if parsed is None:
+        raise ValueError("--as-of must be a real calendar date in YYYY-MM-DD form")
+    return parsed
+
+
+def audit(path: Path, as_of: date | None = None) -> int:
+    global N, FAIL, DUE
+    N, FAIL, DUE = 0, [], []
+    as_of = as_of or resolve_as_of(None)
     try:
         data = yaml.load(path.read_text(encoding="utf-8"), Loader=UniqueKeyLoader)
     except yaml.YAMLError as exc:
@@ -89,7 +114,14 @@ def audit(path: Path) -> int:
         for f in REQUIRED:
             check(f"{iid}: field `{f}` present and nonempty", bool(i.get(f)))
         check(f"{iid}: status in vocabulary", i.get("status") in vocab)
-        check(f"{iid}: next_check is date-shaped", bool(DATE.match(str(i.get("next_check", "")))))
+        next_check = parse_date(i.get("next_check", ""))
+        check(f"{iid}: next_check is a real calendar date", next_check is not None)
+        if (
+            next_check is not None
+            and next_check < as_of
+            and i.get("status") not in ("DONE", "DECLINED")
+        ):
+            DUE.append(iid)
         # DONE and DECLINED must carry their receipt/grounds inside `activation`
         # or `origin` -- an item may not leave the queue bare.
         if i.get("status") in ("DONE", "DECLINED"):
@@ -97,20 +129,22 @@ def audit(path: Path) -> int:
             check(f"{iid}: {i['status']} carries a receipt or grounds",
                   len(blob) > 20)
     active = [i["id"] for i in items if i.get("status") == "ACTIVE"]
+    due_text = ", ".join(DUE) if DUE else "none"
+    print(f"upgrade_program_register_audit: as_of={as_of.isoformat()}; "
+          f"{len(DUE)} overdue nonterminal: {due_text}")
     print(f"upgrade_program_register_audit: {len(items)} items "
           f"({len(active)} ACTIVE: {', '.join(active) if active else 'none'}); "
           f"{len(FAIL)} failed of {N} checks.")
     return 1 if FAIL else 0
 
 
-def selftest() -> int:
+def selftest(as_of: date) -> int:
     print("SELFTEST: clean baseline FIRST")
-    if audit(REGISTER) != 0:
+    if audit(REGISTER, as_of) != 0:
         print("BASELINE RED -- mutation results would be meaningless. ABORT.")
         return 1
     print("baseline GREEN; planting corruptions on a copy\n")
     src = REGISTER.read_text(encoding="utf-8")
-    tmp = REGISTER.parent / "_upgrade_register_mutant.yaml"
     plants = (
         ("status outside vocabulary", "status: ACTIVE", "status: SOMEDAY"),
         ("owner deleted", "owner: Joe", "owner: \"\""),
@@ -123,20 +157,42 @@ def selftest() -> int:
         ),
     )
     ok = True
-    for label, old, new in plants:
-        if old not in src:
-            print(f"  PLANT NOT APPLICABLE (needle missing): {label}")
-            ok = False
-            continue
-        tmp.write_text(src.replace(old, new, 1), encoding="utf-8")
-        rc = audit(tmp)
-        caught = rc == 1 and FAIL  # genuine [FAIL] lines, not a crash
-        print(f"  {'caught via genuine [FAIL]' if caught else 'NOT CAUGHT'}: {label}\n")
-        ok = ok and bool(caught)
-    tmp.unlink(missing_ok=True)
+    with tempfile.TemporaryDirectory(prefix="gu-upgrade-register-") as tmpdir:
+        tmp = Path(tmpdir) / "register-mutant.yaml"
+        for label, old, new in plants:
+            if old not in src:
+                print(f"  PLANT NOT APPLICABLE (needle missing): {label}")
+                ok = False
+                continue
+            tmp.write_text(src.replace(old, new, 1), encoding="utf-8")
+            rc = audit(tmp, as_of)
+            caught = rc == 1 and FAIL  # genuine [FAIL] lines, not a crash
+            print(f"  {'caught via genuine [FAIL]' if caught else 'NOT CAUGHT'}: {label}\n")
+            ok = ok and bool(caught)
     print("SELFTEST " + ("PASSED" if ok else "FAILED"))
     return 0 if ok else 1
 
 
+def main() -> int:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Audit upgrade-program register structure and report overdue "
+            "nonterminal review rows without activating or reprioritizing them."
+        )
+    )
+    parser.add_argument("--selftest", action="store_true")
+    parser.add_argument(
+        "--as-of",
+        metavar="YYYY-MM-DD",
+        help="deterministic review date (default: current UTC date)",
+    )
+    args = parser.parse_args()
+    try:
+        as_of = resolve_as_of(args.as_of)
+    except ValueError as exc:
+        parser.error(str(exc))
+    return selftest(as_of) if args.selftest else audit(REGISTER, as_of)
+
+
 if __name__ == "__main__":
-    sys.exit(selftest() if "--selftest" in sys.argv else audit(REGISTER))
+    sys.exit(main())

@@ -624,7 +624,7 @@ same ceiling as the scripts themselves:
 | `needs_provides_typed_join_audit.py` | Adds domain/codomain and registered-homonym sense typing to NEEDS/SUPPLY joins so token matches can be verified, rejected, or left explicitly untyped without guessing. |
 | `probe_authorship_lint.py` | Ratchets four recurrent probe-authoring defects: crash-not-detection, stale global pins, negation-satisfiable predicates, and raw wrapped-prose searches; it does not certify the probes' scientific claims. |
 | `typed_carrier_declaration_audit.py` | Requires result-bearing dated artifacts in its derived scope to declare carrier, pairing, real structure, grading, action owner and target, while preserving explicit `UNTYPED` and audited prose-only outcomes. |
-| `upgrade_program_register_audit.py` | Enforces that the upgrade-program register remains uniquely keyed, owned, status-typed and date-routed; it does not judge or activate the registered ideas. |
+| `upgrade_program_register_audit.py` | Enforces that the upgrade-program register remains uniquely keyed, owned, status-typed and date-routed; reports overdue nonterminal rows at an explicit `--as-of` date (default UTC today) as review signals only, without judging, activating or reprioritizing the registered ideas. |
 
 - `absorbed_readme_surface_map_audit.py`
 - `antilinear_bound_readme_inventory_audit.py`
