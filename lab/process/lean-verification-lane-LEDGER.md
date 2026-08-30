@@ -56,7 +56,8 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein transversality, corrected finite star-semilinear image typing with explicit null-image premises and zero `intersectionDifference`, and 2-primary identities; no physical-real-form, Fredholm, observed-handedness, function-space, or generation-selection theorem | `LEAN-VERIFIED`; authoritative finite located-not-forced certificate, with T3 correction follow-through verified 2026-08-22; prior release receipt remains the 2026-07-23 zenodo package `VERIFICATION.md` |
 | `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` | Finite census encoding for the LNF paper; exhaustiveness/closure by `decide` over the encoded item list; census numerals are imported data, not derivations | `LEAN-VERIFIED`; 2026-07-23 zenodo receipt (`papers/candidates/located-not-forced/zenodo-package-v1.0.0/VERIFICATION.md`) |
 | `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | `LEAN-VERIFIED`; 2026-07-22 baseline |
-| `Lean/GUFormalization/GroupActionFixedPoints.lean` | Pure set-level classification of pointwise group-action invariance by valuation-range containment in the common fixed-point set, with exact no-invariant corollaries; no physical group action, observer, dynamics, selection or GU verdict | `LEAN-VERIFIED`; 2026-08-29 targeted and default-target build; manual axiom receipt is axiom-free except the set-extensional equality lemma's standard `propext` and `Quot.sound` |
+| `Lean/GUFormalization/GroupActionFixedPoints.lean` | Pure set-level valuation-space classification: invariant valuations are equivalent to functions into the common fixed-point subtype; on inhabited domains existence is equivalent to nonempty common fixed points; exact no-invariant corollaries follow. No physical group action, observer, dynamics, selection or GU verdict is encoded | `LEAN-VERIFIED`; 2026-08-29 targeted and serialized default-target build; theorem-level receipt reports only standard `propext` / `Quot.sound` where set or subtype extensionality is used |
+| `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-29 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
 | `Lean/GUFormalization/CoflipCore.lean` | Concrete Q×Q coflip accounting, Part A derived | `LEAN-VERIFIED`; 2026-07-22 baseline |
@@ -137,6 +138,14 @@ is claimed.
     manual `ResidualSelectionAxioms.lean` receipt remains explicitly outside the
     default target and informational. Future old-file triage reopens only on a
     new concrete certificate-confusion defect.
+
+**Post-L10 group-action classification hardening — DONE 2026-08-29.** The
+set-level result now identifies the complete invariant-valuation space with
+functions into the common fixed-point subtype and proves, for inhabited
+domains, that invariant valuations exist exactly when that subtype is
+nonempty. A dedicated axiom receipt is part of the default target. This remains
+pure mathematics: no physical action, observer, dynamics, selector, carrier,
+or GU verdict is constructed.
 
 ## Part D: lock and progress contract
 

@@ -5,6 +5,7 @@ import GUFormalization.LocatedNotForcedLegs
 import GUFormalization.LocatedNotForcedFiniteCore
 import GUFormalization.ResidualSelection
 import GUFormalization.GroupActionFixedPoints
+import GUFormalization.GroupActionFixedPointsAxioms
 import GUFormalization.R4TwoArena
 import GUFormalization.CoflipCore
 import GUFormalization.CoflipAbstract

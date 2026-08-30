@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2fae593d41aa
+revision_basis: 33831e97097c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,15 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The group-action certificate now classifies the complete valuation space:
+    invariant valuations are Lean-equivalent to functions valued in the common
+    fixed-point subtype, and on an inhabited domain they exist exactly when
+    that subtype is nonempty. A dedicated axiom receipt is part of the default
+    Lean target and reports only standard propext/Quot.sound dependencies where
+    set or subtype extensionality is used. This is pure set-level mathematics;
+    it constructs no physical action, observer, dynamics, selector or GU
+    verdict and moves no source, action, ledger, SG4, prediction, confirmation,
+    canon, paper, release, grade or public posture.
     The set-level group-action fixed-point classification is now Lean-verified:
     pointwise invariance is equivalent to valuation-range containment in the
     common fixed-point set, with empty-fixed-set and fixed-point-free-element
@@ -4513,6 +4522,12 @@ next_condition: >-
   family and horizontal superconnection; M-M18 needs owner-frozen DESI/Planck
   inputs; boundary work needs an owned action/operator/domain packet. Protected
   publication payloads, P-M25 and TWG1 require separate authority.
+
+  The group-action valuation-space classification and its default-target axiom
+  receipt are current. Reopen this proof-hardening arc only on a semantic
+  counterexample, theorem elaboration failure, unexpected axiom dependency,
+  certificate-map drift or a genuinely stronger source-owned mathematical
+  statement; do not infer a physical action or selection mechanism from it.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

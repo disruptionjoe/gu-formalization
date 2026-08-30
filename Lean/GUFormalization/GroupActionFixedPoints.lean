@@ -25,6 +25,12 @@ def commonFixedPoints : Set B := {b | ∀ g : G, g • b = b}
 /-- A valuation fixed pointwise by every element of the acting group. -/
 def PointwiseInvariant (p : A → B) : Prop := ∀ g : G, ∀ a : A, g • p a = p a
 
+/-- The subtype of values fixed by every element of the acting group. -/
+abbrev FixedPointValue := {b : B // b ∈ commonFixedPoints (G := G) (B := B)}
+
+/-- The subtype of valuations fixed pointwise by the acting group. -/
+abbrev InvariantValuation := {p : A → B // PointwiseInvariant (G := G) p}
+
 theorem mem_commonFixedPoints_iff (b : B) :
     b ∈ commonFixedPoints (G := G) (B := B) ↔ ∀ g : G, g • b = b := by
   rfl
@@ -50,6 +56,39 @@ theorem pointwiseInvariant_iff_values_mem (p : A → B) :
   · intro h g a
     exact h a g
 
+/-- Invariant valuations are exactly functions valued in the common fixed-point subtype. -/
+def invariantValuationEquivFixedPointValuation :
+    InvariantValuation (G := G) (A := A) (B := B) ≃
+      (A → FixedPointValue (G := G) (B := B)) where
+  toFun p := fun a =>
+    ⟨p.1 a, (pointwiseInvariant_iff_values_mem (G := G) p.1).mp p.2 a⟩
+  invFun q :=
+    ⟨fun a => (q a).1,
+      (pointwiseInvariant_iff_values_mem (G := G) (fun a => (q a).1)).mpr
+        (fun a => (q a).2)⟩
+  left_inv p := by
+    apply Subtype.ext
+    rfl
+  right_inv q := by
+    funext a
+    apply Subtype.ext
+    rfl
+
+/-- On an inhabited domain, an invariant valuation exists exactly when the common
+fixed-point set is nonempty. -/
+theorem exists_pointwiseInvariant_iff_commonFixedPoints_nonempty
+    [Nonempty A] :
+    (∃ p : A → B, PointwiseInvariant (G := G) p) ↔
+      (commonFixedPoints (G := G) (B := B)).Nonempty := by
+  constructor
+  · rintro ⟨p, hp⟩
+    obtain ⟨a⟩ := ‹Nonempty A›
+    exact ⟨p a, (pointwiseInvariant_iff_values_mem (G := G) p).mp hp a⟩
+  · rintro ⟨b, hb⟩
+    refine ⟨fun _ => b, ?_⟩
+    exact (pointwiseInvariant_iff_values_mem (G := G) (fun _ : A => b)).mpr
+      (fun _ => hb)
+
 /-- One fixed-point-free group element empties the common fixed-point set. -/
 theorem commonFixedPoints_eq_empty_of_fixpointFreeElement
     (g : G) (hg : ∀ b : B, g • b ≠ b) :
@@ -71,6 +110,27 @@ theorem no_pointwiseInvariant_of_commonFixedPoints_eq_empty
     (pointwiseInvariant_iff_values_mem (G := G) p).mp h a
   rw [hfixed] at hmem
   exact hmem.elim
+
+/-- On an inhabited domain, no invariant valuation exists exactly when the
+common fixed-point set is empty. -/
+theorem no_pointwiseInvariant_iff_commonFixedPoints_eq_empty
+    [Nonempty A] :
+    (∀ p : A → B, ¬ PointwiseInvariant (G := G) p) ↔
+      commonFixedPoints (G := G) (B := B) = ∅ := by
+  constructor
+  · intro h
+    ext b
+    constructor
+    · intro hb
+      have hinvariant : PointwiseInvariant (G := G) (fun _ : A => b) :=
+        (pointwiseInvariant_iff_values_mem (G := G) (fun _ : A => b)).mpr
+          (fun _ => hb)
+      exact (h (fun _ : A => b) hinvariant).elim
+    · intro hb
+      exact hb.elim
+  · intro hfixed p
+    exact no_pointwiseInvariant_of_commonFixedPoints_eq_empty
+      (G := G) (A := A) (B := B) hfixed p
 
 /-- Direct no-invariant corollary from a fixed-point-free acting element. -/
 theorem no_pointwiseInvariant_of_fixpointFreeElement
