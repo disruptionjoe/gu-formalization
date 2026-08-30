@@ -42,6 +42,8 @@ Checks:
   (XIII) The balanced-product orbit quotient carries the induced action and
          satisfies the induction-restriction adjunction, including trivial-
          subgroup and nontrivial quotient controls.
+  (XIV) Induction along the identity collapses equivariantly to the seed, and
+        induction along a composite agrees with nested induction.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -1194,6 +1196,88 @@ check(
     and identity_induction[6] == identity_induction[7],
 )
 
+print("(XIV) INDUCTION IDENTITY AND COMPOSITION COHERENCE:")
+
+
+def finite_induced_carrier(H, G, B, phi, act_B):
+    raw_pairs = list(product(G, B))
+    act_pair = lambda h, pair: (
+        (pair[0] - phi(h)) % len(G),
+        act_B(h, pair[1]),
+    )
+    classes, class_of = orbit_quotient(H, raw_pairs, act_pair)
+    act_induced = lambda x, q: class_of[
+        ((x + classes[q][0][0]) % len(G), classes[q][0][1])
+    ]
+    return classes, class_of, act_induced
+
+
+identity_classes, identity_class_of, identity_act = finite_induced_carrier(
+    c2, c2, c2, lambda g: g, act_c2_regular,
+)
+identity_values = {
+    q: {(g + b) % 2 for g, b in orbit}
+    for q, orbit in enumerate(identity_classes)
+}
+check(
+    "identity induction evaluation is well-defined on every balanced class",
+    all(len(values) == 1 for values in identity_values.values()),
+)
+identity_map = {q: next(iter(values)) for q, values in identity_values.items()}
+check(
+    "identity induction collapses bijectively to the two-point seed",
+    len(identity_classes) == 2 and set(identity_map.values()) == set(c2),
+)
+check(
+    "identity induction collapse is C2-equivariant",
+    all(
+        identity_map[identity_act(g, q)] == act_c2_regular(g, identity_map[q])
+        for g in c2 for q in range(len(identity_classes))
+    ),
+)
+
+K1 = [0]
+H2 = c2
+G4 = list(range(4))
+phi_trivial = lambda _k: 0
+psi_double = lambda h: 2 * h
+act_k_trivial = lambda _k, value: value
+direct_classes, direct_class_of, direct_act = finite_induced_carrier(
+    K1, G4, B2, lambda k: psi_double(phi_trivial(k)), act_k_trivial,
+)
+inner_classes, inner_class_of, inner_act = finite_induced_carrier(
+    K1, H2, B2, phi_trivial, act_k_trivial,
+)
+nested_classes, nested_class_of, nested_act = finite_induced_carrier(
+    H2, G4, list(range(len(inner_classes))), psi_double, inner_act,
+)
+nested_flat_values = {}
+for q, outer_orbit in enumerate(nested_classes):
+    values = set()
+    for g, inner_q in outer_orbit:
+        for h, b in inner_classes[inner_q]:
+            values.add(direct_class_of[((g + psi_double(h)) % 4, b)])
+    nested_flat_values[q] = values
+check(
+    "nested induction flattening is well-defined across both quotient layers",
+    all(len(values) == 1 for values in nested_flat_values.values()),
+)
+nested_flat_map = {
+    q: next(iter(values)) for q, values in nested_flat_values.items()
+}
+check(
+    "direct and iterated induction have the same eight-class carrier",
+    len(direct_classes) == len(nested_classes) == 8
+    and set(nested_flat_map.values()) == set(range(len(direct_classes))),
+)
+check(
+    "composition flattening is C4-equivariant",
+    all(
+        nested_flat_map[nested_act(g, q)] == direct_act(g, nested_flat_map[q])
+        for g in G4 for q in range(len(nested_classes))
+    ),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -1225,6 +1309,8 @@ print("  realizes the restriction-coinduction adjunction on the finite controls.
 print("  The balanced-product quotient carries the complementary induced action, and")
 print("  evaluation on [1,b] realizes the induction-restriction adjunction, including")
 print("  trivial-subgroup and nontrivial quotient controls with explicit inverse.")
+print("  Identity induction collapses equivariantly to its seed, while nested")
+print("  induction flattens equivariantly to induction along the composite map.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

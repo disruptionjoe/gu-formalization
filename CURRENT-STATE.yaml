@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 14034fab17f1
+revision_basis: 837e15944b8e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Induction is now coherent under identity and composition at set level.
+    Lean proves that induction along the identity homomorphism is equivariantly
+    equivalent to the original supplied action, and that induction along
+    K -> H -> G is equivariantly equivalent to nested induction. The explicit
+    flattening [g,[h,b]] |-> [g*psi(h),b] is proved well-defined across both
+    balanced-product quotient layers, with both inverse laws and G-equivariance.
+    W99 checks identity collapse and a genuinely nested trivial-to-C2-to-C4
+    eight-class control. This supplies the quotient-associativity prerequisite
+    for future Mackey structure but constructs no physical action, carrier,
+    observer, dynamics, selector or GU verdict; source, action, ledger, SG4,
+    prediction, confirmation, canon, paper, release, grade and public posture
+    do not move.
     The abstract change-of-groups interface is now two-sided at set level.
     Lean constructs induction along phi : H ->* G as the orbit quotient of
     G x B under h.(g,b)=(g*phi(h)^-1,h.b), proves that left G-translation

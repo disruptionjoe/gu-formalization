@@ -3,6 +3,7 @@ import GUFormalization.GroupActionCoproducts
 import GUFormalization.EquivariantInternalHom
 import GUFormalization.GroupActionChangeOfGroups
 import GUFormalization.GroupActionInduction
+import GUFormalization.GroupActionInductionCoherence
 
 /-!
 # Axiom receipt for the group-action fixed-point classification
@@ -16,6 +17,7 @@ open GUFormalization.GroupActionFixedPoints
 open GUFormalization.EquivariantInternalHom
 open GUFormalization.GroupActionChangeOfGroups
 open GUFormalization.GroupActionInduction
+open GUFormalization.GroupActionInductionCoherence
 
 #print axioms mem_commonFixedPoints_iff
 #print axioms pointwiseInvariant_iff_range_subset
@@ -74,6 +76,10 @@ open GUFormalization.GroupActionInduction
 #print axioms inductionRestrictionEquiv
 #print axioms natCard_induction_eq_restriction
 #print axioms nonempty_induction_iff_restriction
+#print axioms inductionIdentityEquiv
+#print axioms inductionIdentityEquiv_equivariant
+#print axioms inductionCompositionEquiv
+#print axioms inductionCompositionEquiv_equivariant
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv
 #print axioms orbitIndexEquivOfDomainEquiv_mk
