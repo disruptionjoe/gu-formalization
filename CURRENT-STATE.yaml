@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4cb9894a586f
+revision_basis: d7f84dfe51d1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The subgroup Mackey decomposition now has a canonical,
+    representative-free layer. Lean partitions Res_K^G Ind_H^G(B) by its
+    intrinsic double-coset index, proves left K preserves every actual fiber,
+    and gives an explicit K-equivariant equivalence from the dependent
+    coproduct of those fibers to the complete restricted induction. The prior
+    transported-intersection summands remain equivalent to this canonical
+    partition through their common target, but only that comparison uses
+    chosen representatives. W99 checks the intrinsic nonnormal S3 fibers
+    partition all six classes and are K-stable before representatives are
+    chosen. The quotient machinery's established propext, Classical.choice
+    and Quot.sound receipt is unchanged; the canonical definition itself
+    calls no representative selector. This constructs no physical action,
+    carrier, observer, dynamics, selector or GU verdict, and source, action,
+    ledger, SG4, prediction, confirmation, canon, paper, release, grade and
+    public posture do not move.
     The global subgroup Mackey decomposition is now Lean-verified at set level.
     For subgroups H,K <= G and an arbitrary supplied H-set B, Lean chooses one
     representative of every explicit double-coset class K\\G/H, forms the

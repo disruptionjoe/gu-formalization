@@ -1469,6 +1469,33 @@ check(
 )
 
 chosen_double_coset_reps = [orbit[0] for orbit in double_cosets]
+canonical_double_index = {
+    q: double_coset_of[target_seed_classes[q][0][0]]
+    for q in range(len(target_seed_classes))
+}
+canonical_mackey_fibers = {
+    double_q: {
+        q for q in range(len(target_seed_classes))
+        if canonical_double_index[q] == double_q
+    }
+    for double_q in range(len(double_cosets))
+}
+check(
+    "canonical double-coset fibers partition restricted induction without representatives",
+    set().union(*canonical_mackey_fibers.values())
+    == set(range(len(target_seed_classes)))
+    and sum(len(fiber) for fiber in canonical_mackey_fibers.values())
+    == len(target_seed_classes),
+)
+check(
+    "the restricted K-action preserves every canonical double-coset fiber",
+    all(
+        target_seed_act(k, q) in fiber
+        for fiber in canonical_mackey_fibers.values()
+        for q in fiber
+        for k in K_s3
+    ),
+)
 chosen_mackey_summands = [
     finite_mackey_summand(g) for g in chosen_double_coset_reps
 ]

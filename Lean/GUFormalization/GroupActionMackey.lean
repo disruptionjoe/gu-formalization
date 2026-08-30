@@ -17,6 +17,11 @@ then constructs the representative Mackey summand
 and proves it `K`-equivariantly equivalent to its image in
 `Res_K^G Ind_H^G(B)` under `[k,b] ↦ [kg,b]`.
 
+Finally, it partitions the restricted induced carrier by its intrinsic
+double-coset index. The dependent coproduct of these actual fibers is
+canonically `K`-equivalent to the carrier without choosing representatives;
+the classical representative theorem is retained as a separate comparison.
+
 The left-right action is fixed explicitly as `(k,h) • g = k * g * h⁻¹`.
 All actions are named non-instances.  These are pure set-level laws for
 supplied subgroup actions; they construct no physical action, carrier,
@@ -611,6 +616,99 @@ theorem restrictedInducedDoubleCosetIndex_mk (K H : Subgroup G)
       doubleCosetMk K H g :=
   rfl
 
+/-! ## The canonical choice-free Mackey fibers -/
+
+/-- Left multiplication by `K` preserves the intrinsic double-coset index of
+the restricted induced carrier. -/
+theorem restrictedInducedDoubleCosetIndex_smul (K H : Subgroup G)
+    {B : Type*} [MulAction H B] (k : K) (x : SubgroupInducedCarrier H B) :
+    restrictedInducedDoubleCosetIndex K H
+        (@SMul.smul K (SubgroupInducedCarrier H B)
+          (restrictedSubgroupInducedMulAction K H B).toSMul k x) =
+      restrictedInducedDoubleCosetIndex K H x := by
+  letI targetPairAction := inductionPairMulAction (B := B) H.subtype
+  letI targetAction := restrictedSubgroupInducedMulAction K H B
+  letI doubleAction := doubleCosetMulAction K H
+  induction x using Quotient.inductionOn'
+  case _ p =>
+    change
+      doubleCosetMk K H ((k : G) * p.1) = doubleCosetMk K H p.1
+    apply Quotient.sound
+    refine ⟨(k, 1), ?_⟩
+    change (k : G) * p.1 * (1 : G)⁻¹ = (k : G) * p.1
+    simp
+
+/-- The canonical fiber over one double coset.  Unlike a representative
+Mackey summand, this is a literal subtype of the target and makes no choice. -/
+abbrev MackeyFiberCarrier (K H : Subgroup G) (B : Type*) [MulAction H B]
+    (q : DoubleCosetCarrier K H) :=
+  {x : SubgroupInducedCarrier H B //
+    restrictedInducedDoubleCosetIndex K H x = q}
+
+/-- The restricted left `K`-action on one canonical double-coset fiber. -/
+@[implicit_reducible]
+def mackeyFiberMulAction (K H : Subgroup G) (B : Type*) [MulAction H B]
+    (q : DoubleCosetCarrier K H) : MulAction K (MackeyFiberCarrier K H B q) where
+  smul k x :=
+    ⟨@SMul.smul K (SubgroupInducedCarrier H B)
+        (restrictedSubgroupInducedMulAction K H B).toSMul k x.1,
+      (restrictedInducedDoubleCosetIndex_smul K H k x.1).trans x.2⟩
+  one_smul x := by
+    apply Subtype.ext
+    exact (restrictedSubgroupInducedMulAction K H B).one_smul x.1
+  mul_smul k l x := by
+    apply Subtype.ext
+    exact (restrictedSubgroupInducedMulAction K H B).mul_smul k l x.1
+
+/-- The dependent coproduct of the actual index fibers.  This is the
+representative-free carrier underlying the canonical Mackey partition. -/
+abbrev CanonicalMackeyCoproductCarrier (K H : Subgroup G) (B : Type*)
+    [MulAction H B] :=
+  Σ q : DoubleCosetCarrier K H, MackeyFiberCarrier K H B q
+
+/-- The fiberwise `K`-action on the canonical coproduct. -/
+@[implicit_reducible]
+def canonicalMackeyCoproductMulAction (K H : Subgroup G) (B : Type*)
+    [MulAction H B] : MulAction K (CanonicalMackeyCoproductCarrier K H B) where
+  smul k x :=
+    ⟨x.1,
+      @SMul.smul K (MackeyFiberCarrier K H B x.1)
+        (mackeyFiberMulAction K H B x.1).toSMul k x.2⟩
+  one_smul x := by
+    rcases x with ⟨q, z⟩
+    exact Sigma.ext rfl (heq_of_eq ((mackeyFiberMulAction K H B q).one_smul z))
+  mul_smul k l x := by
+    rcases x with ⟨q, z⟩
+    exact Sigma.ext rfl
+      (heq_of_eq ((mackeyFiberMulAction K H B q).mul_smul k l z))
+
+/-- Every indexed family is canonically the dependent coproduct of its actual
+fibers.  Here this gives a representative-free Mackey decomposition of the
+restricted induced carrier. -/
+def canonicalMackeyCoproductEquivRestrictedInduced
+    (K H : Subgroup G) {B : Type*} [MulAction H B] :
+    CanonicalMackeyCoproductCarrier K H B ≃ SubgroupInducedCarrier H B where
+  toFun x := x.2.1
+  invFun x := ⟨restrictedInducedDoubleCosetIndex K H x, ⟨x, rfl⟩⟩
+  left_inv x := by
+    rcases x with ⟨q, ⟨z, hz⟩⟩
+    cases hz
+    rfl
+  right_inv _ := rfl
+
+/-- The canonical fiber decomposition commutes with the explicit left
+`K`-actions and requires no representative transport. -/
+theorem canonicalMackeyCoproductEquivRestrictedInduced_equivariant
+    (K H : Subgroup G) {B : Type*} [MulAction H B]
+    (k : K) (x : CanonicalMackeyCoproductCarrier K H B) :
+    canonicalMackeyCoproductEquivRestrictedInduced K H
+        (@SMul.smul K (CanonicalMackeyCoproductCarrier K H B)
+          (canonicalMackeyCoproductMulAction K H B).toSMul k x) =
+      @SMul.smul K (SubgroupInducedCarrier H B)
+        (restrictedSubgroupInducedMulAction K H B).toSMul k
+        (canonicalMackeyCoproductEquivRestrictedInduced K H x) :=
+  rfl
+
 /-- The dependent coproduct of transported-intersection inductions, one
 summand for the chosen representative of each double coset. -/
 abbrev MackeyCoproductCarrier (K H : Subgroup G) (B : Type*)
@@ -800,6 +898,16 @@ theorem mackeyCoproductEquivRestrictedInduced_equivariant
   rcases x with ⟨q, s⟩
   exact mackeySummandToRestrictedInduced_equivariant K H
     (doubleCosetRepresentative K H q) k s
+
+/-- The representative-based Mackey coproduct and the canonical fiber
+coproduct are equivalent through their common restricted-induced carrier.
+Only this comparison inherits the representative choice; the canonical
+fiber equivalence above does not. -/
+noncomputable def mackeyCoproductEquivCanonicalFibers
+    (K H : Subgroup G) {B : Type*} [MulAction H B] :
+    MackeyCoproductCarrier K H B ≃ CanonicalMackeyCoproductCarrier K H B :=
+  (mackeyCoproductEquivRestrictedInduced K H).trans
+    (canonicalMackeyCoproductEquivRestrictedInduced K H).symm
 
 end GroupActionMackey
 end GUFormalization

@@ -96,11 +96,17 @@ open GUFormalization.GroupActionMackey
 #print axioms doubleCosetRepresentative
 #print axioms doubleCosetMk_representative
 #print axioms restrictedInducedDoubleCosetIndex
+#print axioms restrictedInducedDoubleCosetIndex_smul
+#print axioms mackeyFiberMulAction
+#print axioms canonicalMackeyCoproductMulAction
+#print axioms canonicalMackeyCoproductEquivRestrictedInduced
+#print axioms canonicalMackeyCoproductEquivRestrictedInduced_equivariant
 #print axioms restrictedInducedDoubleCosetIndex_mackeyCoproduct
 #print axioms mackeyCoproductToRestrictedInduced_injective
 #print axioms mackeyCoproductToRestrictedInduced_surjective
 #print axioms mackeyCoproductEquivRestrictedInduced
 #print axioms mackeyCoproductEquivRestrictedInduced_equivariant
+#print axioms mackeyCoproductEquivCanonicalFibers
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv
 #print axioms orbitIndexEquivOfDomainEquiv_mk
