@@ -27,6 +27,9 @@ Checks:
   (VIII) Equivariant relabeling of the domain preserves the complete map space;
          when every point stabilizer imposes one common fixed-value condition,
          the census is the common factor raised to the number of domain orbits.
+  (IX)  Equivariant relabeling of the codomain preserves the complete map and
+        fixed-seed spaces; domain relabeling induces a bijection of orbit sets,
+        and domain/codomain transports commute.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -622,6 +625,114 @@ check(
     f"fixed_sets={mixed_fixed_sets}",
 )
 
+print("(IX) CODOMAIN EQUIVALENCE AND ORBIT-QUOTIENT NATURALITY:")
+group = list(range(2))
+domain = [0, 1, 2]
+relabeled_domain = ["left", "right", "fixed"]
+domain_equiv = dict(zip(domain, relabeled_domain))
+domain_equiv_symm = {value: key for key, value in domain_equiv.items()}
+act_domain = lambda g, a: (1 - a) if (g % 2 and a < 2) else a
+act_relabeled = lambda g, c: domain_equiv[act_domain(g, domain_equiv_symm[c])]
+act_codomain = lambda g, b: cyclic_act(flip3, g, b)
+relabeled_grades = [-1, 0, 1]
+codomain_equiv = dict(zip(B3, relabeled_grades))
+codomain_equiv_symm = {value: key for key, value in codomain_equiv.items()}
+act_relabeled_codomain = lambda g, value: codomain_equiv[
+    cyclic_act(flip3, g, codomain_equiv_symm[value])
+]
+check(
+    "boundary-fixing codomain relabeling is equivariant",
+    all(
+        codomain_equiv[cyclic_act(flip3, g, b)]
+        == act_relabeled_codomain(g, codomain_equiv[b])
+        for g in group for b in B3
+    ),
+)
+source_maps = equivariant_maps(group, domain, B3, act_domain, act_codomain)
+target_maps = equivariant_maps(
+    group, domain, relabeled_grades, act_domain, act_relabeled_codomain
+)
+postcomposed_maps = {
+    tuple(codomain_equiv[mapping[a]] for a in domain)
+    for mapping in source_maps
+}
+target_tuples = {
+    tuple(mapping[a] for a in domain) for mapping in target_maps
+}
+check(
+    "equivariant codomain relabeling preserves map cardinality",
+    len(source_maps) == len(target_maps),
+    f"source={len(source_maps)}, target={len(target_maps)}",
+)
+check(
+    "postcomposition transports the complete equivariant-map space",
+    postcomposed_maps == target_tuples,
+)
+
+source_common_fixed = [
+    b for b in B3 if all(cyclic_act(flip3, g, b) == b for g in group)
+]
+target_common_fixed = [
+    b for b in relabeled_grades
+    if all(act_relabeled_codomain(g, b) == b for g in group)
+]
+check(
+    "codomain equivalence transports common fixed values",
+    sorted(codomain_equiv[b] for b in source_common_fixed)
+    == sorted(target_common_fixed),
+)
+for a in domain:
+    source_fixed = stabilizer_fixed_values(
+        group, a, B3, act_domain, act_codomain
+    )
+    target_fixed = stabilizer_fixed_values(
+        group, a, relabeled_grades, act_domain, act_relabeled_codomain
+    )
+    check(
+        f"codomain equivalence transports the stabilizer-fixed seed at {a}",
+        sorted(codomain_equiv[b] for b in source_fixed) == sorted(target_fixed),
+    )
+
+source_orbits = {
+    frozenset(act_domain(g, a) for g in group)
+    for a in domain
+}
+target_orbits = {
+    frozenset(act_relabeled(g, c) for g in group)
+    for c in relabeled_domain
+}
+transported_orbits = {
+    frozenset(domain_equiv[a] for a in orbit) for orbit in source_orbits
+}
+check(
+    "equivariant domain relabeling induces a bijection of orbit quotients",
+    transported_orbits == target_orbits,
+    f"source={source_orbits}, target={target_orbits}",
+)
+
+def transport_domain(mapping):
+    return {c: mapping[domain_equiv_symm[c]] for c in relabeled_domain}
+
+
+def transport_codomain(mapping):
+    return {key: codomain_equiv[value] for key, value in mapping.items()}
+
+
+domain_then_codomain = {
+    tuple(transport_codomain(transport_domain(mapping))[c]
+          for c in relabeled_domain)
+    for mapping in source_maps
+}
+codomain_then_domain = {
+    tuple(transport_domain(transport_codomain(mapping))[c]
+          for c in relabeled_domain)
+    for mapping in source_maps
+}
+check(
+    "domain precomposition and codomain postcomposition commute",
+    domain_then_codomain == codomain_then_domain,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -638,6 +749,8 @@ print("  |B|^|A/G|, with the empty quotient retaining its unique empty function.
 print("  Equivariant domain relabeling preserves the complete map space, and a uniform")
 print("  stabilizer condition reduces the product to |B^H|^|A/G|; a mixed hostile")
 print("  control confirms that unequal stabilizer-fixed sets do not satisfy the premise.")
+print("  Equivariant codomain relabeling preserves map and fixed-seed spaces; domain")
+print("  relabeling transports the orbit quotient, and the two coordinate changes commute.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

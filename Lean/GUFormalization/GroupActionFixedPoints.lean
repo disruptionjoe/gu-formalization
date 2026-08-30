@@ -103,6 +103,65 @@ theorem nonempty_equivariantMap_iff_of_domainEquiv [MulAction G A]
       Nonempty (EquivariantMap (G := G) (A := C) (B := B)) :=
   (equivariantMapEquivOfDomainEquiv (G := G) (B := B) e he).nonempty_congr
 
+/-- Equivariantly equivalent codomains have equivalent spaces of equivariant
+maps from the same acted-on domain. The equivalence is postcomposition with
+the codomain equivalence and its inverse. -/
+def equivariantMapEquivOfCodomainEquiv [MulAction G A] [MulAction G C]
+    (e : B ≃ C) (he : ∀ g : G, ∀ b : B, e (g • b) = g • e b) :
+    EquivariantMap (G := G) (A := A) (B := B) ≃
+      EquivariantMap (G := G) (A := A) (B := C) where
+  toFun f :=
+    ⟨fun a => e (f.1 a), by
+      intro g a
+      change e (f.1 (g • a)) = g • e (f.1 a)
+      rw [f.2, he]⟩
+  invFun f :=
+    ⟨fun a => e.symm (f.1 a), by
+      intro g a
+      change e.symm (f.1 (g • a)) = g • e.symm (f.1 a)
+      rw [f.2, equiv_symm_smul (G := G) e he]⟩
+  left_inv f := by
+    apply Subtype.ext
+    funext a
+    simp
+  right_inv f := by
+    apply Subtype.ext
+    funext a
+    simp
+
+/-- Finite equivariant-map counts are invariant under an equivariant change of
+codomain coordinates. -/
+theorem natCard_equivariantMap_eq_of_codomainEquiv [MulAction G A]
+    [MulAction G C] [Finite A] [Finite B] [Finite C]
+    (e : B ≃ C) (he : ∀ g : G, ∀ b : B, e (g • b) = g • e b) :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := B)) =
+      Nat.card (EquivariantMap (G := G) (A := A) (B := C)) := by
+  exact Nat.card_congr (equivariantMapEquivOfCodomainEquiv
+    (G := G) (A := A) e he)
+
+/-- Existence of an equivariant map is invariant under an equivariant change
+of codomain coordinates. -/
+theorem nonempty_equivariantMap_iff_of_codomainEquiv [MulAction G A]
+    [MulAction G C]
+    (e : B ≃ C) (he : ∀ g : G, ∀ b : B, e (g • b) = g • e b) :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔
+      Nonempty (EquivariantMap (G := G) (A := A) (B := C)) :=
+  (equivariantMapEquivOfCodomainEquiv (G := G) (A := A) e he).nonempty_congr
+
+/-- Domain precomposition and codomain postcomposition commute. Thus the
+equivariant-map classification is functorial in both coordinates. -/
+theorem equivariantMap_domainEquiv_codomainEquiv_commute
+    [MulAction G A] [MulAction G C] {D : Type*} [MulAction G D]
+    (eA : A ≃ C) (heA : ∀ g : G, ∀ a : A, eA (g • a) = g • eA a)
+    (eB : B ≃ D) (heB : ∀ g : G, ∀ b : B, eB (g • b) = g • eB b)
+    (f : EquivariantMap (G := G) (A := A) (B := B)) :
+    equivariantMapEquivOfCodomainEquiv (G := G) (A := C) eB heB
+        (equivariantMapEquivOfDomainEquiv (G := G) (B := B) eA heA f) =
+      equivariantMapEquivOfDomainEquiv (G := G) (B := D) eA heA
+        (equivariantMapEquivOfCodomainEquiv (G := G) (A := A) eB heB f) := by
+  apply Subtype.ext
+  rfl
+
 /-- Values fixed by every group element stabilizing `a₀`. -/
 def stabilizerFixedValues [MulAction G A] (a₀ : A) : Set B :=
   {b | ∀ g : G, g • a₀ = a₀ → g • b = b}
@@ -110,6 +169,62 @@ def stabilizerFixedValues [MulAction G A] (a₀ : A) : Set B :=
 /-- The subtype of values fixed by the stabilizer of `a₀`. -/
 abbrev StabilizerFixedValue [MulAction G A] (a₀ : A) :=
   {b : B // b ∈ stabilizerFixedValues (G := G) a₀}
+
+/-- An equivariant codomain equivalence transports the common fixed-point
+subtype. -/
+def fixedPointValueEquivOfCodomainEquiv [MulAction G C]
+    (e : B ≃ C) (he : ∀ g : G, ∀ b : B, e (g • b) = g • e b) :
+    FixedPointValue (G := G) (B := B) ≃
+      FixedPointValue (G := G) (B := C) where
+  toFun b :=
+    ⟨e b.1, fun g => by rw [← he, b.2 g]⟩
+  invFun c :=
+    ⟨e.symm c.1, fun g => by
+      rw [← equiv_symm_smul (G := G) e he, c.2 g]⟩
+  left_inv b := by
+    apply Subtype.ext
+    simp
+  right_inv c := by
+    apply Subtype.ext
+    simp
+
+/-- An equivariant codomain equivalence transports the values fixed by any
+specified point stabilizer. -/
+def stabilizerFixedValueEquivOfCodomainEquiv [MulAction G A] [MulAction G C]
+    (a : A) (e : B ≃ C)
+    (he : ∀ g : G, ∀ b : B, e (g • b) = g • e b) :
+    StabilizerFixedValue (G := G) (B := B) a ≃
+      StabilizerFixedValue (G := G) (B := C) a where
+  toFun b :=
+    ⟨e b.1, fun g hg => by rw [← he, b.2 g hg]⟩
+  invFun c :=
+    ⟨e.symm c.1, fun g hg => by
+      rw [← equiv_symm_smul (G := G) e he, c.2 g hg]⟩
+  left_inv b := by
+    apply Subtype.ext
+    simp
+  right_inv c := by
+    apply Subtype.ext
+    simp
+
+/-- Common fixed-point counts are invariant under an equivariant change of
+codomain coordinates. -/
+theorem natCard_fixedPointValue_eq_of_codomainEquiv [MulAction G C]
+    [Finite B] [Finite C]
+    (e : B ≃ C) (he : ∀ g : G, ∀ b : B, e (g • b) = g • e b) :
+    Nat.card (FixedPointValue (G := G) (B := B)) =
+      Nat.card (FixedPointValue (G := G) (B := C)) := by
+  exact Nat.card_congr (fixedPointValueEquivOfCodomainEquiv (G := G) e he)
+
+/-- Every point-stabilizer seed count is invariant under an equivariant change
+of codomain coordinates. -/
+theorem natCard_stabilizerFixedValue_eq_of_codomainEquiv [MulAction G A]
+    [MulAction G C] [Finite B] [Finite C] (a : A)
+    (e : B ≃ C) (he : ∀ g : G, ∀ b : B, e (g • b) = g • e b) :
+    Nat.card (StabilizerFixedValue (G := G) (B := B) a) =
+      Nat.card (StabilizerFixedValue (G := G) (B := C) a) := by
+  exact Nat.card_congr
+    (stabilizerFixedValueEquivOfCodomainEquiv (G := G) a e he)
 
 theorem mem_commonFixedPoints_iff (b : B) :
     b ∈ commonFixedPoints (G := G) (B := B) ↔ ∀ g : G, g • b = b := by
@@ -287,6 +402,50 @@ theorem nonempty_equivariantMap_iff_stabilizerFixedValue [MulAction G A]
 
 /-- The orbit index of the supplied action on `A`. -/
 abbrev OrbitIndex [MulAction G A] := MulAction.orbitRel.Quotient G A
+
+/-- An equivariant map sends orbit-equivalent domain points to orbit-equivalent
+codomain points, so it descends to the orbit quotient. -/
+def orbitIndexMapOfEquivariantEquiv [MulAction G A] [MulAction G C]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a) :
+    OrbitIndex (G := G) (A := A) → OrbitIndex (G := G) (A := C) :=
+  Quotient.map e (by
+    intro a b hab
+    rcases hab with ⟨g, rfl⟩
+    rw [he]
+    exact MulAction.mem_orbit _ g)
+
+/-- An equivariant domain equivalence induces an equivalence of orbit
+quotients. No orbit representatives or choices are needed for this transport. -/
+def orbitIndexEquivOfDomainEquiv [MulAction G A] [MulAction G C]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a) :
+    OrbitIndex (G := G) (A := A) ≃ OrbitIndex (G := G) (A := C) where
+  toFun := orbitIndexMapOfEquivariantEquiv (G := G) e he
+  invFun := orbitIndexMapOfEquivariantEquiv (G := G) e.symm
+    (equiv_symm_smul (G := G) e he)
+  left_inv ω := by
+    induction ω using Quotient.inductionOn'
+    simp [orbitIndexMapOfEquivariantEquiv]
+  right_inv ω := by
+    induction ω using Quotient.inductionOn'
+    simp [orbitIndexMapOfEquivariantEquiv]
+
+/-- The induced orbit equivalence sends the orbit class of a point to the
+orbit class of its image. -/
+theorem orbitIndexEquivOfDomainEquiv_mk [MulAction G A] [MulAction G C]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a) (a : A) :
+    orbitIndexEquivOfDomainEquiv (G := G) e he
+        (Quotient.mk'' a : OrbitIndex (G := G) (A := A)) =
+      (Quotient.mk'' (e a) : OrbitIndex (G := G) (A := C)) := by
+  rfl
+
+/-- Finite orbit counts are invariant under an equivariant change of domain
+coordinates. -/
+theorem natCard_orbitIndex_eq_of_domainEquiv [MulAction G A]
+    [MulAction G C] [Finite A] [Finite C]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a) :
+    Nat.card (OrbitIndex (G := G) (A := A)) =
+      Nat.card (OrbitIndex (G := G) (A := C)) := by
+  exact Nat.card_congr (orbitIndexEquivOfDomainEquiv (G := G) e he)
 
 noncomputable instance orbitIndexFintype [MulAction G A] [Fintype A] :
     Fintype (OrbitIndex (G := G) (A := A)) :=
