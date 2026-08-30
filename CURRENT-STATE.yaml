@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 67552dde14da
+revision_basis: 7e80cb264395
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Equivariant-map functoriality and the uniform-stabilizer closed form are
+    now Lean-verified. Precomposition with an equivariant domain equivalence
+    gives an explicit equivalence of the complete map spaces, preserving finite
+    cardinality and existence. If every point stabilizer imposes the same
+    codomain fixed-value condition as one basepoint, equivariant maps are
+    exactly arbitrary functions A/G -> B^H; finite types therefore satisfy
+    |Eqv(A,B)| = |B^H|^|A/G|, with existence exactly when the common seed type
+    is inhabited. W99 checks an equivariant domain relabeling, two nontrivial
+    uniform-stabilizer families, and a mixed free/fixed hostile control that
+    rejects the uniform hypothesis. This is pure set-level mathematics; it
+    constructs no physical action, observer, dynamics, selector or GU verdict,
+    and source, action, ledger, SG4, prediction, confirmation, canon, paper,
+    release, grade and public posture do not move.
     Orbit-representative invariance and the two quotient closed forms are now
     Lean-verified. Acting by g on B gives an explicit equivalence between the
     stabilizer-fixed seed types at a and g.a, so factor cardinality is

@@ -21,7 +21,7 @@ set_option autoImplicit false
 namespace GUFormalization
 namespace GroupActionFixedPoints
 
-variable {G A B : Type*} [Group G] [MulAction G B]
+variable {G A B C : Type*} [Group G] [MulAction G B]
 
 /-- Points of `B` fixed by every element of the acting group. -/
 def commonFixedPoints : Set B := {b | ∀ g : G, g • b = b}
@@ -49,6 +49,59 @@ def Equivariant [MulAction G A] (f : A → B) : Prop :=
 
 /-- The subtype of maps intertwining the supplied actions. -/
 abbrev EquivariantMap [MulAction G A] := {f : A → B // Equivariant (G := G) f}
+
+/-- The inverse of an equivariant equivalence is equivariant. -/
+private theorem equiv_symm_smul [MulAction G A] [MulAction G C]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a)
+    (g : G) (c : C) :
+    e.symm (g • c) = g • e.symm c := by
+  apply e.injective
+  rw [e.apply_symm_apply, he, e.apply_symm_apply]
+
+/-- Equivariantly equivalent domains have equivalent spaces of equivariant
+maps into the same acted-on codomain. The equivalence is precomposition with
+the domain equivalence and its inverse. -/
+def equivariantMapEquivOfDomainEquiv [MulAction G A] [MulAction G C]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a) :
+    EquivariantMap (G := G) (A := A) (B := B) ≃
+      EquivariantMap (G := G) (A := C) (B := B) where
+  toFun f :=
+    ⟨fun c => f.1 (e.symm c), by
+      intro g c
+      change f.1 (e.symm (g • c)) = g • f.1 (e.symm c)
+      rw [equiv_symm_smul (G := G) e he, f.2]⟩
+  invFun f :=
+    ⟨fun a => f.1 (e a), by
+      intro g a
+      change f.1 (e (g • a)) = g • f.1 (e a)
+      rw [he, f.2]⟩
+  left_inv f := by
+    apply Subtype.ext
+    funext a
+    simp
+  right_inv f := by
+    apply Subtype.ext
+    funext c
+    simp
+
+/-- Finite equivariant-map counts are invariant under an equivariant change of
+domain coordinates. -/
+theorem natCard_equivariantMap_eq_of_domainEquiv [MulAction G A]
+    [MulAction G C] [Finite A] [Finite C] [Finite B]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a) :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := B)) =
+      Nat.card (EquivariantMap (G := G) (A := C) (B := B)) := by
+  exact Nat.card_congr (equivariantMapEquivOfDomainEquiv
+    (G := G) (B := B) e he)
+
+/-- Existence of an equivariant map is invariant under an equivariant change
+of domain coordinates. -/
+theorem nonempty_equivariantMap_iff_of_domainEquiv [MulAction G A]
+    [MulAction G C]
+    (e : A ≃ C) (he : ∀ g : G, ∀ a : A, e (g • a) = g • e a) :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔
+      Nonempty (EquivariantMap (G := G) (A := C) (B := B)) :=
+  (equivariantMapEquivOfDomainEquiv (G := G) (B := B) e he).nonempty_congr
 
 /-- Values fixed by every group element stabilizing `a₀`. -/
 def stabilizerFixedValues [MulAction G A] (a₀ : A) : Set B :=
@@ -372,6 +425,65 @@ theorem nonempty_equivariantMap_iff_forall_orbit_stabilizerFixedValue
     exact ⟨(equivariantMapEquivOrbitStabilizerFixedSection
       (G := G) (A := A) (B := B)).symm
         (fun ω => Classical.choice (h ω))⟩
+
+/-- Equal stabilizer-fixed sets define equivalent seed-value subtypes. -/
+def stabilizerFixedValueEquiv_of_fixedSets_eq [MulAction G A]
+    {a a₀ : A}
+    (h : stabilizerFixedValues (G := G) (B := B) a =
+      stabilizerFixedValues (G := G) (B := B) a₀) :
+    StabilizerFixedValue (G := G) (B := B) a ≃
+      StabilizerFixedValue (G := G) (B := B) a₀ :=
+  Equiv.setCongr h
+
+/-- If every point stabilizer imposes the same fixed-value condition as the
+stabilizer at `a₀`, equivariant maps are exactly arbitrary choices of one such
+seed value per domain orbit. -/
+noncomputable def equivariantMapEquivOrbitValuation_of_fixedSets_eq
+    [MulAction G A] (a₀ : A)
+    (huniform : ∀ a : A,
+      stabilizerFixedValues (G := G) (B := B) a =
+        stabilizerFixedValues (G := G) (B := B) a₀) :
+    EquivariantMap (G := G) (A := A) (B := B) ≃
+      (OrbitIndex (G := G) (A := A) →
+        StabilizerFixedValue (G := G) (B := B) a₀) :=
+  (equivariantMapEquivOrbitStabilizerFixedSection
+    (G := G) (A := A) (B := B)).trans
+      (Equiv.piCongrRight (fun ω =>
+        stabilizerFixedValueEquiv_of_fixedSets_eq
+          (G := G) (B := B)
+          (huniform (orbitRepresentative (G := G) (A := A) ω))))
+
+/-- For finite types with a uniform stabilizer-fixed condition, the exact
+equivariant-map count is one common factor raised to the number of orbits. -/
+theorem natCard_equivariantMap_of_fixedSets_eq [MulAction G A]
+    [Fintype A] [Finite B] (a₀ : A)
+    (huniform : ∀ a : A,
+      stabilizerFixedValues (G := G) (B := B) a =
+        stabilizerFixedValues (G := G) (B := B) a₀) :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := B)) =
+      Nat.card (StabilizerFixedValue (G := G) (B := B) a₀) ^
+        Nat.card (OrbitIndex (G := G) (A := A)) := by
+  rw [Nat.card_congr
+    (equivariantMapEquivOrbitValuation_of_fixedSets_eq
+      (G := G) (B := B) a₀ huniform)]
+  exact Nat.card_fun
+
+/-- With a uniform stabilizer-fixed condition, an equivariant map exists
+exactly when the common seed-value subtype is inhabited. -/
+theorem nonempty_equivariantMap_iff_stabilizerFixedValue_of_fixedSets_eq
+    [MulAction G A] (a₀ : A)
+    (huniform : ∀ a : A,
+      stabilizerFixedValues (G := G) (B := B) a =
+        stabilizerFixedValues (G := G) (B := B) a₀) :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔
+      Nonempty (StabilizerFixedValue (G := G) (B := B) a₀) := by
+  constructor
+  · rintro ⟨f⟩
+    exact ⟨(equivariantMapEquivOrbitValuation_of_fixedSets_eq
+      (G := G) (B := B) a₀ huniform f) (Quotient.mk'' a₀)⟩
+  · rintro ⟨b⟩
+    exact ⟨(equivariantMapEquivOrbitValuation_of_fixedSets_eq
+      (G := G) (B := B) a₀ huniform).symm (fun _ => b)⟩
 
 /-- Acting by `g` on the codomain transports stabilizer-fixed seeds from `a`
 to `g • a`. This makes the conjugacy invariance of the orbit factors explicit,

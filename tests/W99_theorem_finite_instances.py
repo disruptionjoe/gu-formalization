@@ -24,6 +24,9 @@ Checks:
   (VII) Stabilizer-fixed seed spaces are transported bijectively between orbit
         representatives; free domain actions and trivial codomain actions both
         reduce the census to |B| raised to the number of domain orbits.
+  (VIII) Equivariant relabeling of the domain preserves the complete map space;
+         when every point stabilizer imposes one common fixed-value condition,
+         the census is the common factor raised to the number of domain orbits.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -528,6 +531,97 @@ for label, group, domain, grades, act_domain, act_codomain in trivial_codomain_c
         f"actual={actual}, expected={len(grades)}^{len(representatives)}={expected}",
     )
 
+print("(VIII) DOMAIN EQUIVALENCE AND UNIFORM-STABILIZER CLOSED FORM:")
+group = list(range(2))
+domain = [0, 1, 2]
+relabeled_domain = ["left", "right", "fixed"]
+domain_equiv = dict(zip(domain, relabeled_domain))
+domain_equiv_symm = {value: key for key, value in domain_equiv.items()}
+act_domain = lambda g, a: (1 - a) if (g % 2 and a < 2) else a
+act_relabeled = lambda g, c: domain_equiv[act_domain(g, domain_equiv_symm[c])]
+act_codomain = lambda g, b: cyclic_act(flip3, g, b)
+maps = equivariant_maps(group, domain, B3, act_domain, act_codomain)
+relabeled_maps = equivariant_maps(
+    group, relabeled_domain, B3, act_relabeled, act_codomain
+)
+transported_maps = {
+    tuple(mapping[domain_equiv_symm[c]] for c in relabeled_domain)
+    for mapping in maps
+}
+target_maps = {
+    tuple(mapping[c] for c in relabeled_domain) for mapping in relabeled_maps
+}
+check(
+    "mixed C2 action relabeling is equivariant",
+    all(
+        domain_equiv[act_domain(g, a)] == act_relabeled(g, domain_equiv[a])
+        for g in group for a in domain
+    ),
+)
+check(
+    "equivariant domain relabeling preserves map cardinality",
+    len(maps) == len(relabeled_maps),
+    f"source={len(maps)}, target={len(relabeled_maps)}",
+)
+check(
+    "precomposition transports the complete equivariant-map space",
+    transported_maps == target_maps,
+)
+
+uniform_cases = (
+    (
+        "two C4 two-coset orbits / parity-flip codomain",
+        list(range(4)), list(range(4)), B3,
+        lambda g, a: (a // 2) * 2 + ((a + g) % 2),
+        lambda g, b: cyclic_act(flip3, g, b),
+    ),
+    (
+        "three fixed C2 points / boundary-fixing codomain",
+        list(range(2)), list(range(3)), B3,
+        lambda _g, a: a,
+        lambda g, b: cyclic_act(flip3, g, b),
+    ),
+)
+for label, group, domain, grades, act_domain, act_codomain in uniform_cases:
+    representatives = orbit_representatives(group, domain, act_domain)
+    fixed_sets = [
+        stabilizer_fixed_values(
+            group, a, grades, act_domain, act_codomain
+        )
+        for a in domain
+    ]
+    common_factor = fixed_sets[0]
+    actual = len(equivariant_maps(
+        group, domain, grades, act_domain, act_codomain
+    ))
+    expected = len(common_factor) ** len(representatives)
+    check(
+        f"{label}: every point has the same stabilizer-fixed set",
+        all(factor == common_factor for factor in fixed_sets),
+        f"fixed_sets={fixed_sets}",
+    )
+    check(
+        f"{label}: |Eqv(A,B)|=|B^H|^|A/G|",
+        actual == expected,
+        f"actual={actual}, expected={len(common_factor)}^{len(representatives)}={expected}",
+    )
+
+mixed_group = list(range(2))
+mixed_domain = [0, 1, 2]
+mixed_fixed_sets = [
+    stabilizer_fixed_values(
+        mixed_group, a, B3,
+        lambda g, x: (1 - x) if (g % 2 and x < 2) else x,
+        lambda g, b: cyclic_act(flip3, g, b),
+    )
+    for a in mixed_domain
+]
+check(
+    "mixed free/fixed domain is rejected by the uniform-stabilizer hypothesis",
+    any(factor != mixed_fixed_sets[0] for factor in mixed_fixed_sets[1:]),
+    f"fixed_sets={mixed_fixed_sets}",
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -541,6 +635,9 @@ print("  contributes its own stabilizer-fixed seed factor, including the empty p
 print("  Acting between orbit representatives transports those seed factors bijectively.")
 print("  Free domain actions and trivial codomain actions both reduce the product to")
 print("  |B|^|A/G|, with the empty quotient retaining its unique empty function.")
+print("  Equivariant domain relabeling preserves the complete map space, and a uniform")
+print("  stabilizer condition reduces the product to |B^H|^|A/G|; a mixed hostile")
+print("  control confirms that unequal stabilizer-fixed sets do not satisfy the premise.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")
