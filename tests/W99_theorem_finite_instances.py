@@ -36,6 +36,9 @@ Checks:
   (XI)  Equivariant maps out of an indexed coproduct decompose into component
         families, while the conjugation function-space action identifies
         equivariant maps with fixed points and satisfies equivariant currying.
+  (XII) Restriction along a surjective group homomorphism preserves complete
+        equivariant-map and fixed-point spaces; non-surjective restriction may
+        enlarge them, and explicit coinduction satisfies the finite adjunction.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -985,6 +988,106 @@ check(
     len(uncurried_maps) == len(curried_maps) == 27,
 )
 
+print("(XII) CHANGE OF ACTING GROUPS AND COINDUCTION:")
+c4 = list(range(4))
+c2 = list(range(2))
+phi_c4_c2 = lambda h: h % 2
+act_c2_regular = lambda g, value: (value + g) % 2
+act_c4_restricted = lambda h, value: act_c2_regular(phi_c4_c2(h), value)
+c2_equivariant = equivariant_maps(
+    c2, c2, c2, act_c2_regular, act_c2_regular
+)
+c4_restricted_equivariant = equivariant_maps(
+    c4, c2, c2, act_c4_restricted, act_c4_restricted
+)
+check(
+    "surjective C4 -> C2 restriction preserves the complete map space",
+    {
+        tuple(mapping[a] for a in c2)
+        for mapping in c2_equivariant
+    }
+    == {
+        tuple(mapping[a] for a in c2)
+        for mapping in c4_restricted_equivariant
+    },
+)
+check(
+    "surjective C4 -> C2 restriction preserves the exact two-map count",
+    len(c2_equivariant) == len(c4_restricted_equivariant) == 2,
+)
+flip3_fixed_under_c2 = [
+    value for value in B3
+    if all(cyclic_act(flip3, g, value) == value for g in c2)
+]
+flip3_fixed_under_c4_restriction = [
+    value for value in B3
+    if all(cyclic_act(flip3, phi_c4_c2(h), value) == value for h in c4)
+]
+check(
+    "surjective restriction preserves the common fixed-point subtype",
+    flip3_fixed_under_c2 == flip3_fixed_under_c4_restriction == ["boundary"],
+)
+trivial_group = [0]
+trivially_restricted_maps = equivariant_maps(
+    trivial_group, c2, c2,
+    lambda _h, value: value,
+    lambda _h, value: value,
+)
+check(
+    "non-surjective restriction can strictly enlarge the map space",
+    len(c2_equivariant) == 2 and len(trivially_restricted_maps) == 4,
+)
+
+# For the unique map 1 -> C2 and a trivial 1-action on B2, the coinduced
+# carrier is every function C2 -> B2. C2 acts on those functions by right
+# translation, and the adjunction sends f : C2 -> B2 to
+# F(a)(g) = f(g + a).
+coinduced_carrier = list(product(B2, repeat=len(c2)))
+act_coinduced = lambda x, values: tuple(
+    values[(g + x) % 2] for g in c2
+)
+restricted_map_space = list(all_valuations(c2, B2))
+coinduced_equivariant_maps = equivariant_maps(
+    c2, c2, coinduced_carrier, act_c2_regular, act_coinduced
+)
+check(
+    "trivial-subgroup coinduced carrier contains all four functions",
+    len(coinduced_carrier) == 4,
+)
+check(
+    "restriction and coinduction have the same four-map census",
+    len(restricted_map_space) == len(coinduced_equivariant_maps) == 4,
+)
+adjunction_images = {
+    tuple(
+        tuple(mapping[(g + a) % 2] for g in c2)
+        for a in c2
+    )
+    for mapping in restricted_map_space
+}
+actual_coinduced_maps = {
+    tuple(mapping[a] for a in c2)
+    for mapping in coinduced_equivariant_maps
+}
+check(
+    "finite restriction-coinduction formula reaches the complete map space",
+    adjunction_images == actual_coinduced_maps,
+)
+check(
+    "evaluation at the identity inverts every finite adjunction image",
+    all(
+        tuple(image[a][0] for a in c2) ==
+        tuple(mapping[a] for a in c2)
+        for mapping, image in zip(restricted_map_space, [
+            tuple(
+                tuple(mapping[(g + a) % 2] for g in c2)
+                for a in c2
+            )
+            for mapping in restricted_map_space
+        ])
+    ),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -1010,6 +1113,9 @@ print("  Dually, maps out of indexed acted-on coproducts split into component fa
 print("  the empty index and empty components retain their singleton map-space factors.")
 print("  The conjugation action on function spaces has exactly the equivariant maps as")
 print("  fixed points, and diagonal-domain equivariance is preserved by currying.")
+print("  Surjective change of acting groups preserves complete map and fixed-point")
+print("  spaces, non-surjective restriction need not, and right-translation coinduction")
+print("  realizes the restriction-coinduction adjunction on the finite controls.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")
