@@ -57,9 +57,9 @@ items:
     title: "Drain the 188-pair dirty queue, steering surfaces first (CURRENT-RESEARCH-CONTEXT, two generation-count canon files under CC-05, the s9 extraction under CC-08); ratchet bites 2026-08-21"
     origin: ct5 dirty-set census
     owner: steward passes + any agent consuming a listed file (clear-on-consume per the preflight input-currency clause)
-    status: QUEUED
-    activation: continuous; ratchet enforcement from 2026-08-21
-    next_check: "2026-08-21"
+    status: DONE
+    activation: "receipt: canonical-currency audit as of 2026-08-30 reports zero dirty file/correction pairs across 15 registered corrections and 318 recorded checks; the original 188-pair queue is drained. Reopen only on a new canonical correction or a newly detected stale consumer."
+    next_check: "2026-08-30"
   - id: LEDGER-FULL-ROW-RETYPE
     title: Full (layer, grant, carrier) retype of all v0.259 rows (beyond mint-touched accretion)
     origin: CT step 2 full; deferred as adjudication-heavy

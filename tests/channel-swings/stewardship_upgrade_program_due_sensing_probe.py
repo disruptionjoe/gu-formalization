@@ -91,11 +91,10 @@ def main() -> int:
     with contextlib.redirect_stdout(actual):
         rc = gate.audit(
             ROOT / "lab" / "process" / "upgrade-program-register.yaml",
-            date(2026, 8, 29),
+            date(2026, 8, 30),
         )
     expected = {
         "CT2-SCHEMA-FINDINGS",
-        "CC-DIRTY-QUEUE-DRAIN",
         "LEDGER-FULL-ROW-RETYPE",
         "FX1-BD1-PAIR-FLIP",
         "MINT-RESIDUE-AC-ROWS",
@@ -105,7 +104,17 @@ def main() -> int:
         "RW1-CHANNEL-INHERITANCES",
     }
     if rc != 0 or set(gate.DUE) != expected:
-        failures.append(f"live 2026-08-29 due set mismatch: {gate.DUE!r}")
+        failures.append(f"live 2026-08-30 due set mismatch: {gate.DUE!r}")
+
+    register_data = yaml.safe_load(
+        (ROOT / "lab" / "process" / "upgrade-program-register.yaml").read_text(
+            encoding="utf-8"
+        )
+    )
+    rows = {row["id"]: row for row in register_data["items"]}
+    currency_row = rows["CC-DIRTY-QUEUE-DRAIN"]
+    if currency_row["status"] != "DONE" or "zero dirty" not in currency_row["activation"]:
+        failures.append("canonical-currency queue completion is not durably receipted")
 
     bad_date = subprocess.run(
         [sys.executable, str(GATE_PATH), "--as-of", "2026-02-30"],
@@ -125,7 +134,7 @@ def main() -> int:
             print(f"[FAIL] {failure}")
         print(f"stewardship_upgrade_program_due_sensing_probe: {len(failures)} failures")
         return 1
-    print("stewardship_upgrade_program_due_sensing_probe: 5/5 controls passed")
+    print("stewardship_upgrade_program_due_sensing_probe: 6/6 controls passed")
     return 0
 
 
