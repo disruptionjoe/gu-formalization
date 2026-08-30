@@ -1,7 +1,7 @@
 import GUFormalization.GroupActionInductionCoherence
 
 /-!
-# The first Mackey interface for set-level subgroup induction
+# Mackey interfaces for set-level subgroup induction
 
 For subgroups `H K ≤ G`, induction of the one-point `H`-set is the right
 coset carrier `G / H`.  Restricting its action to `K` and then taking
@@ -9,7 +9,13 @@ coset carrier `G / H`.  Restricting its action to `K` and then taking
 that identification by explicit quotient maps and identifies the stabilizer
 of the induced class of `g` with the transported intersection condition
 
-`k * g = g * h` for some `h : H`.
+`k * g = g * h` for some `h : H`.  For an arbitrary supplied `H`-set `B`, it
+then constructs the representative Mackey summand
+
+`K ×_(K ∩ gHg⁻¹) {}^gB`
+
+and proves it `K`-equivariantly equivalent to its image in
+`Res_K^G Ind_H^G(B)` under `[k,b] ↦ [kg,b]`.
 
 The left-right action is fixed explicitly as `(k,h) • g = k * g * h⁻¹`.
 All actions are named non-instances.  These are pure set-level laws for
@@ -270,6 +276,298 @@ theorem stabilizer_restrictedInducedPoint_eq_transportedIntersection
   ext k
   rw [MulAction.mem_stabilizer_iff]
   exact restrictedInducedPoint_stabilizer_iff K H k g
+
+/-! ## The nontrivial-seed Mackey summand -/
+
+/-- The induced `G`-set `G ×_H B` for an arbitrary supplied `H`-action. -/
+abbrev SubgroupInducedCarrier (H : Subgroup G) (B : Type*)
+    [MulAction H B] :=
+  @InducedCarrier H G B inferInstance inferInstance inferInstance H.subtype
+
+/-- The explicit left `G`-action on `G ×_H B`. -/
+@[implicit_reducible]
+def subgroupInducedMulAction (H : Subgroup G) (B : Type*)
+    [MulAction H B] : MulAction G (SubgroupInducedCarrier H B) :=
+  @inducedMulAction H G B inferInstance inferInstance inferInstance H.subtype
+
+/-- Restriction of the general induced carrier from `G` to `K`. -/
+@[implicit_reducible]
+def restrictedSubgroupInducedMulAction (K H : Subgroup G) (B : Type*)
+    [MulAction H B] : MulAction K (SubgroupInducedCarrier H B) :=
+  @restrictedMulAction K G (SubgroupInducedCarrier H B) inferInstance
+    inferInstance (subgroupInducedMulAction H B) K.subtype
+
+/-- Conjugation transports the representative stabilizer into `H`.  The
+codomain membership proof uses the exact witness stored by
+`transportedIntersection`; the value itself is the explicit formula
+`g⁻¹kg`. -/
+def transportedIntersectionToH (K H : Subgroup G) (g : G) :
+    transportedIntersection K H g →* H where
+  toFun k :=
+    ⟨g⁻¹ * (k : G) * g, by
+      rcases k.property with ⟨h, hk⟩
+      have moved := congrArg (fun x : G => g⁻¹ * x) hk
+      have heq : g⁻¹ * (k : G) * g = (h : G) := by
+        simpa [mul_assoc] using moved
+      rw [heq]
+      exact h.property⟩
+  map_one' := by
+    apply Subtype.ext
+    simp
+  map_mul' k l := by
+    apply Subtype.ext
+    change g⁻¹ * (((k * l : transportedIntersection K H g) : K) : G) * g =
+      (g⁻¹ * (k : G) * g) * (g⁻¹ * (l : G) * g)
+    simp [mul_assoc]
+
+/-- The action on a Mackey seed is the original `H`-action restricted along
+the transported-intersection homomorphism `k ↦ g⁻¹kg`. -/
+@[implicit_reducible]
+def transportedSeedMulAction (K H : Subgroup G) (g : G)
+    {B : Type*} [MulAction H B] :
+    MulAction (transportedIntersection K H g) B :=
+  @restrictedMulAction (transportedIntersection K H g) H B inferInstance
+    inferInstance inferInstance (transportedIntersectionToH K H g)
+
+/-- The representative-`g` Mackey summand
+`K ×_(K ∩ gHg⁻¹) {}^gB`. -/
+abbrev MackeySummandCarrier (K H : Subgroup G) (g : G) (B : Type*)
+    [MulAction H B] :=
+  @InducedCarrier (transportedIntersection K H g) K B inferInstance
+    inferInstance (transportedSeedMulAction K H g)
+    (transportedIntersection K H g).subtype
+
+/-- The explicit left `K`-action on the representative Mackey summand. -/
+@[implicit_reducible]
+def mackeySummandMulAction (K H : Subgroup G) (g : G) (B : Type*)
+    [MulAction H B] : MulAction K (MackeySummandCarrier K H g B) :=
+  @inducedMulAction (transportedIntersection K H g) K B inferInstance
+    inferInstance (transportedSeedMulAction K H g)
+    (transportedIntersection K H g).subtype
+
+/-- The transported subgroup equation in the orientation used by the
+balanced-product descent. -/
+theorem transportedIntersectionToH_spec (K H : Subgroup G) (g : G)
+    (k : transportedIntersection K H g) :
+    (k : G) * g = g * (transportedIntersectionToH K H g k : G) := by
+  change (k : G) * g = g * (g⁻¹ * (k : G) * g)
+  simp [mul_assoc]
+
+/-- Map the representative Mackey summand into the restricted induced
+carrier by `[k,b] ↦ [kg,b]`.  The transported action is exactly what makes
+this descend through the source balanced product. -/
+def mackeySummandToRestrictedInduced (K H : Subgroup G) (g : G)
+    {B : Type*} [MulAction H B] :
+    MackeySummandCarrier K H g B → SubgroupInducedCarrier H B := by
+  letI transportedAction := transportedSeedMulAction (B := B) K H g
+  letI summandPairAction := inductionPairMulAction
+    (B := B) (transportedIntersection K H g).subtype
+  letI targetPairAction := inductionPairMulAction (B := B) H.subtype
+  intro q
+  exact Quotient.liftOn' q
+    (fun p : K × B => inducedMk H.subtype ((p.1 : G) * g) p.2) (by
+      intro a b hab
+      rw [MulAction.orbitRel_apply] at hab
+      rcases hab with ⟨l, hab⟩
+      rw [← hab]
+      let h : H := transportedIntersectionToH K H g l
+      have hlg : ((l⁻¹ : transportedIntersection K H g) : G) * g =
+          g * (h : G)⁻¹ := by
+        change (l : G)⁻¹ * g = g * (g⁻¹ * (l : G) * g)⁻¹
+        simp [mul_assoc]
+      change
+        inducedMk H.subtype
+            (((b.1 * (l : K)⁻¹ : K) : G) * g)
+            (@SMul.smul (transportedIntersection K H g) B
+              transportedAction.toSMul l b.2) =
+          inducedMk H.subtype ((b.1 : G) * g) b.2
+      change
+        inducedMk H.subtype
+            (((b.1 * (l : K)⁻¹ : K) : G) * g) (h • b.2) =
+          inducedMk H.subtype ((b.1 : G) * g) b.2
+      rw [show (((b.1 * (l : K)⁻¹ : K) : G) * g) =
+          ((b.1 : G) * g) * (h : G)⁻¹ by
+        calc
+          (b.1 : G) * (l : G)⁻¹ * g =
+              (b.1 : G) * ((l : G)⁻¹ * g) := by rw [mul_assoc]
+          _ = (b.1 : G) * (g * (h : G)⁻¹) :=
+            congrArg (fun x : G => (b.1 : G) * x) hlg
+          _ = (b.1 : G) * g * (h : G)⁻¹ := by rw [mul_assoc]]
+      simpa [mul_assoc] using
+        (inducedMk_mul_phi H.subtype
+          (((b.1 : G) * g) * (h : G)⁻¹) h b.2).symm)
+
+/-- The summand map commutes with the explicit left `K`-actions. -/
+theorem mackeySummandToRestrictedInduced_equivariant
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B]
+    (k : K) (q : MackeySummandCarrier K H g B) :
+    mackeySummandToRestrictedInduced K H g
+        (@SMul.smul K (MackeySummandCarrier K H g B)
+          (mackeySummandMulAction K H g B).toSMul k q) =
+      @SMul.smul K (SubgroupInducedCarrier H B)
+        (restrictedSubgroupInducedMulAction K H B).toSMul k
+        (mackeySummandToRestrictedInduced K H g q) := by
+  letI transportedAction := transportedSeedMulAction (B := B) K H g
+  letI summandPairAction := inductionPairMulAction
+    (B := B) (transportedIntersection K H g).subtype
+  letI summandAction := mackeySummandMulAction K H g B
+  letI targetPairAction := inductionPairMulAction (B := B) H.subtype
+  letI targetAction := subgroupInducedMulAction H B
+  letI restrictedAction := restrictedSubgroupInducedMulAction K H B
+  induction q using Quotient.inductionOn'
+  case _ p =>
+    change inducedMk H.subtype ((((k : K) * p.1 : K) : G) * g) p.2 =
+      inducedMk H.subtype ((k : G) * ((p.1 : G) * g)) p.2
+    apply congrArg Quotient.mk''
+    ext
+    · simp [mul_assoc]
+    · rfl
+
+/-- Equality after mapping into `Res_K^G Ind_H^G(B)` already holds in the
+representative Mackey summand.  The proof extracts the target quotient witness
+and turns it into an actual element of `K ∩ gHg⁻¹`. -/
+theorem mackeySummandToRestrictedInduced_injective
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B] :
+    Function.Injective (mackeySummandToRestrictedInduced
+      (B := B) K H g) := by
+  letI transportedAction := transportedSeedMulAction (B := B) K H g
+  letI summandPairAction := inductionPairMulAction
+    (B := B) (transportedIntersection K H g).subtype
+  letI targetPairAction := inductionPairMulAction (B := B) H.subtype
+  intro q r hqr
+  induction q using Quotient.inductionOn'
+  case _ p =>
+    induction r using Quotient.inductionOn'
+    case _ s =>
+      change inducedMk H.subtype ((p.1 : G) * g) p.2 =
+        inducedMk H.subtype ((s.1 : G) * g) s.2 at hqr
+      obtain ⟨h, hp⟩ := Quotient.exact hqr
+      change
+        ((s.1 : G) * g * (h : G)⁻¹, h • s.2) =
+          ((p.1 : G) * g, p.2) at hp
+      have hfirst := congrArg Prod.fst hp
+      have hsecond := congrArg Prod.snd hp
+      have hmove : (s.1 : G) * g = ((p.1 : G) * g) * (h : G) := by
+        have moved := congrArg (fun x : G => x * (h : G)) hfirst
+        simpa [mul_assoc] using moved
+      have hlg : (((p.1⁻¹ * s.1 : K) : G) * g) = g * (h : G) := by
+        calc
+          (((p.1⁻¹ * s.1 : K) : G) * g) =
+              (p.1 : G)⁻¹ * ((s.1 : G) * g) := by simp [mul_assoc]
+          _ = (p.1 : G)⁻¹ * (((p.1 : G) * g) * (h : G)) := by
+            rw [hmove]
+          _ = g * (h : G) := by simp [mul_assoc]
+      let l : transportedIntersection K H g :=
+        ⟨p.1⁻¹ * s.1, ⟨h, hlg⟩⟩
+      have hlh : transportedIntersectionToH K H g l = h := by
+        apply Subtype.ext
+        change g⁻¹ * (((p.1⁻¹ * s.1 : K) : G)) * g = (h : G)
+        have moved := congrArg (fun x : G => g⁻¹ * x) hlg
+        simpa [mul_assoc] using moved
+      have hlb :
+          @SMul.smul (transportedIntersection K H g) B
+            transportedAction.toSMul l s.2 = p.2 := by
+        change (transportedIntersectionToH K H g l) • s.2 = p.2
+        rw [hlh]
+        exact hsecond
+      have balanced := inducedMk_mul_phi
+        (transportedIntersection K H g).subtype p.1 l s.2
+      change
+        inducedMk (transportedIntersection K H g).subtype
+            (p.1 * (l : K)) s.2 =
+          inducedMk (transportedIntersection K H g).subtype p.1
+            (@SMul.smul (transportedIntersection K H g) B
+              transportedAction.toSMul l s.2) at balanced
+      change
+        inducedMk (transportedIntersection K H g).subtype p.1 p.2 =
+          inducedMk (transportedIntersection K H g).subtype s.1 s.2
+      simpa [l, hlb] using balanced.symm
+
+/-- The actual subset of the restricted induced carrier occupied by the
+representative-`g` Mackey summand. -/
+abbrev MackeySummandImage (K H : Subgroup G) (g : G)
+    {B : Type*} [MulAction H B] :=
+  Set.range (mackeySummandToRestrictedInduced (B := B) K H g)
+
+/-- Membership in the representative summand has the concrete form expected
+from the double coset of `g`: the class has a representative `[kg,b]` for
+some `k : K` and seed `b : B`. -/
+theorem mem_mackeySummandImage_iff (K H : Subgroup G) (g : G)
+    {B : Type*} [MulAction H B] (q : SubgroupInducedCarrier H B) :
+    q ∈ MackeySummandImage (B := B) K H g ↔
+      ∃ k : K, ∃ b : B, q = inducedMk H.subtype ((k : G) * g) b := by
+  letI transportedAction := transportedSeedMulAction (B := B) K H g
+  letI summandPairAction := inductionPairMulAction
+    (B := B) (transportedIntersection K H g).subtype
+  constructor
+  · rintro ⟨s, rfl⟩
+    induction s using Quotient.inductionOn'
+    case _ p => exact ⟨p.1, p.2, rfl⟩
+  · rintro ⟨k, b, rfl⟩
+    exact ⟨inducedMk (transportedIntersection K H g).subtype k b, rfl⟩
+
+/-- Equip the image with the restricted left `K`-action.  Stability follows
+from equivariance of the summand map. -/
+@[implicit_reducible]
+def mackeySummandImageMulAction (K H : Subgroup G) (g : G)
+    {B : Type*} [MulAction H B] :
+    MulAction K (MackeySummandImage (B := B) K H g) := by
+  letI summandAction := mackeySummandMulAction K H g B
+  letI targetAction := restrictedSubgroupInducedMulAction K H B
+  exact {
+    smul k q :=
+      ⟨k • q.1, by
+        rcases q.2 with ⟨s, hs⟩
+        refine ⟨k • s, ?_⟩
+        change
+          mackeySummandToRestrictedInduced K H g
+              (@SMul.smul K (MackeySummandCarrier K H g B)
+                (mackeySummandMulAction K H g B).toSMul k s) =
+            @SMul.smul K (SubgroupInducedCarrier H B)
+              (restrictedSubgroupInducedMulAction K H B).toSMul k q.1
+        rw [mackeySummandToRestrictedInduced_equivariant K H g k s]
+        exact congrArg
+          (fun x => @SMul.smul K (SubgroupInducedCarrier H B)
+            (restrictedSubgroupInducedMulAction K H B).toSMul k x) hs⟩
+    one_smul q := by
+      apply Subtype.ext
+      exact (restrictedSubgroupInducedMulAction K H B).one_smul q.1
+    mul_smul k l q := by
+      apply Subtype.ext
+      exact (restrictedSubgroupInducedMulAction K H B).mul_smul k l q.1 }
+
+/-- The induced transported-intersection carrier is exactly the
+representative Mackey summand inside the restricted induced `G`-set. -/
+noncomputable def mackeySummandEquivImage (K H : Subgroup G) (g : G)
+    {B : Type*} [MulAction H B] :
+    MackeySummandCarrier K H g B ≃ MackeySummandImage (B := B) K H g :=
+  Equiv.ofBijective
+    (fun s =>
+      ⟨mackeySummandToRestrictedInduced K H g s, ⟨s, rfl⟩⟩)
+    ⟨by
+      intro a b hab
+      apply mackeySummandToRestrictedInduced_injective K H g
+      exact congrArg Subtype.val hab,
+     by
+      intro q
+      rcases q.2 with ⟨s, hs⟩
+      refine ⟨s, ?_⟩
+      apply Subtype.ext
+      exact hs⟩
+
+/-- The summand equivalence is `K`-equivariant for the explicit actions on
+both sides. -/
+theorem mackeySummandEquivImage_equivariant
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B]
+    (k : K) (s : MackeySummandCarrier K H g B) :
+    mackeySummandEquivImage K H g
+        (@SMul.smul K (MackeySummandCarrier K H g B)
+          (mackeySummandMulAction K H g B).toSMul k s) =
+      @SMul.smul K (MackeySummandImage (B := B) K H g)
+        (mackeySummandImageMulAction (B := B) K H g).toSMul k
+        (mackeySummandEquivImage K H g s) := by
+  apply Subtype.ext
+  exact mackeySummandToRestrictedInduced_equivariant K H g k s
 
 end GroupActionMackey
 end GUFormalization

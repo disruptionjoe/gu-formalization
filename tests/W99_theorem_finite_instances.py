@@ -1373,6 +1373,101 @@ check(
     and len(restricted_stabilizer(s3_c012)) == 1,
 )
 
+
+def finite_induced_carrier_group(H, G, B, mul, inv, phi, act_B):
+    """Balanced-product induction for a finite group given by operations."""
+    raw_pairs = list(product(G, B))
+    act_pair = lambda h, pair: (
+        mul(pair[0], inv(phi(h))),
+        act_B(h, pair[1]),
+    )
+    classes, class_of = orbit_quotient(H, raw_pairs, act_pair)
+    act_induced = lambda x, q: class_of[
+        (mul(x, classes[q][0][0]), classes[q][0][1])
+    ]
+    return classes, class_of, act_induced
+
+
+act_h_seed = lambda h, b: b if h == s3_one else 1 - b
+target_seed_classes, target_seed_class_of, target_seed_act = (
+    finite_induced_carrier_group(
+        H_s3, s3, B2, perm_mul, perm_inv, lambda h: h, act_h_seed,
+    )
+)
+
+
+def transported_h(g, k):
+    matches = [
+        h for h in H_s3 if perm_mul(k, g) == perm_mul(g, h)
+    ]
+    assert len(matches) == 1
+    return matches[0]
+
+
+def finite_mackey_summand(g):
+    subgroup = [k for k in K_s3 if transported_h_exists(g, k)]
+    action = lambda k, b: act_h_seed(transported_h(g, k), b)
+    classes, class_of, act = finite_induced_carrier_group(
+        subgroup, K_s3, B2, perm_mul, perm_inv, lambda k: k, action,
+    )
+    image_values = {
+        q: {
+            target_seed_class_of[(perm_mul(k, g), b)]
+            for k, b in orbit
+        }
+        for q, orbit in enumerate(classes)
+    }
+    image_map = {
+        q: next(iter(values)) for q, values in image_values.items()
+    }
+    return classes, act, image_values, image_map
+
+
+def transported_h_exists(g, k):
+    return any(perm_mul(k, g) == perm_mul(g, h) for h in H_s3)
+
+
+identity_summand = finite_mackey_summand(s3_one)
+cycle_summand = finite_mackey_summand(s3_c012)
+check(
+    "nontrivial H-seed induction has six balanced classes",
+    len(target_seed_classes) == 6,
+)
+check(
+    "identity representative carries the two-class full-intersection summand",
+    len(identity_summand[0]) == 2
+    and all(len(values) == 1 for values in identity_summand[2].values()),
+)
+check(
+    "three-cycle representative carries the four-class trivial-intersection summand",
+    len(cycle_summand[0]) == 4
+    and all(len(values) == 1 for values in cycle_summand[2].values()),
+)
+check(
+    "both nontrivial-seed summand maps are injective",
+    len(set(identity_summand[3].values())) == len(identity_summand[0])
+    and len(set(cycle_summand[3].values())) == len(cycle_summand[0]),
+)
+check(
+    "the two representative summands partition the complete restricted induction",
+    set(identity_summand[3].values()).isdisjoint(
+        set(cycle_summand[3].values())
+    )
+    and set(identity_summand[3].values())
+    | set(cycle_summand[3].values())
+    == set(range(len(target_seed_classes))),
+)
+check(
+    "the nontrivial-seed summand maps are K-equivariant",
+    all(
+        summand[3][summand[1](k, q)]
+        == target_seed_act(k, summand[3][q])
+        for summand in (identity_summand, cycle_summand)
+        for k in K_s3
+        for q in range(len(summand[0]))
+    ),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -1408,6 +1503,9 @@ print("  Identity induction collapses equivariantly to its seed, while nested")
 print("  induction flattens equivariantly to induction along the composite map.")
 print("  For nonnormal S3 subgroups, restricted point induction has exactly the")
 print("  double-coset orbit partition and the transported-intersection stabilizers.")
+print("  With a nontrivial two-point H-seed, the transported-intersection inductions")
+print("  map injectively and K-equivariantly to disjoint two- and four-class summands")
+print("  whose union is the complete six-class restricted induced carrier.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

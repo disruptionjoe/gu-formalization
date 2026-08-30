@@ -86,6 +86,13 @@ open GUFormalization.GroupActionMackey
 #print axioms restrictedInducedPointOrbitEquivDoubleCoset
 #print axioms restrictedInducedPoint_stabilizer_iff
 #print axioms stabilizer_restrictedInducedPoint_eq_transportedIntersection
+#print axioms transportedIntersectionToH
+#print axioms transportedIntersectionToH_spec
+#print axioms mackeySummandToRestrictedInduced
+#print axioms mackeySummandToRestrictedInduced_injective
+#print axioms mem_mackeySummandImage_iff
+#print axioms mackeySummandEquivImage
+#print axioms mackeySummandEquivImage_equivariant
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv
 #print axioms orbitIndexEquivOfDomainEquiv_mk
