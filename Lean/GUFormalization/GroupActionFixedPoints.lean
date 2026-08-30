@@ -1,5 +1,6 @@
 import Mathlib.Algebra.Group.Action.Defs
 import Mathlib.Data.Set.Lattice
+import Mathlib.SetTheory.Cardinal.Finite
 
 /-!
 # Group-action fixed-point classification
@@ -73,6 +74,34 @@ def invariantValuationEquivFixedPointValuation :
     funext a
     apply Subtype.ext
     rfl
+
+/-- For a finite domain and codomain, invariant valuations are counted exactly
+by the number of common fixed values raised to the size of the domain. -/
+theorem natCard_invariantValuation
+    [Finite A] [Finite B] :
+    Nat.card (InvariantValuation (G := G) (A := A) (B := B)) =
+      Nat.card (FixedPointValue (G := G) (B := B)) ^ Nat.card A := by
+  rw [Nat.card_congr
+    (invariantValuationEquivFixedPointValuation (G := G) (A := A) (B := B))]
+  exact Nat.card_fun
+
+/-- On a finite inhabited domain, the invariant-valuation space has cardinality
+zero exactly when the common fixed-point subtype has cardinality zero. -/
+theorem natCard_invariantValuation_eq_zero_iff
+    [Finite A] [Finite B] [Nonempty A] :
+    Nat.card (InvariantValuation (G := G) (A := A) (B := B)) = 0 ↔
+      Nat.card (FixedPointValue (G := G) (B := B)) = 0 := by
+  rw [natCard_invariantValuation (G := G) (A := A) (B := B), Nat.pow_eq_zero]
+  exact and_iff_left (Nat.ne_of_gt Nat.card_pos)
+
+/-- An empty finite domain has exactly one invariant valuation, independently
+of the common fixed-point set. -/
+theorem natCard_invariantValuation_eq_one_of_isEmpty
+    [Finite A] [Finite B] [IsEmpty A] :
+    Nat.card (InvariantValuation (G := G) (A := A) (B := B)) = 1 := by
+  rw [natCard_invariantValuation (G := G) (A := A) (B := B)]
+  have hcard : Nat.card A = 0 := Nat.card_eq_zero.mpr (Or.inl inferInstance)
+  rw [hcard, pow_zero]
 
 /-- On an inhabited domain, an invariant valuation exists exactly when the common
 fixed-point set is nonempty. -/

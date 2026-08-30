@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 33831e97097c
+revision_basis: bff9b2880960
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,12 +9,24 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The finite group-action census is now Lean-verified: for finite domains and
+    codomains, the number of invariant valuations is exactly the number of
+    common fixed values raised to the domain cardinality. On inhabited domains
+    that count is zero exactly when the fixed-point subtype has count zero;
+    on the empty domain there is exactly one invariant valuation even when the
+    fixed set is empty. W99 exhaustively checks swap, identity, boundary-fixed
+    and fixed-point-free controls through domain size zero, and the inherited
+    channel-swings manifest count is reconciled to 1,129 Python files. This is
+    pure finite/set-level mathematics and integrity custody; it constructs no
+    physical action, observer, dynamics, selector or GU verdict and moves no
+    source, action, ledger, SG4, prediction, confirmation, canon, paper,
+    release, grade or public posture.
     The group-action certificate now classifies the complete valuation space:
     invariant valuations are Lean-equivalent to functions valued in the common
     fixed-point subtype, and on an inhabited domain they exist exactly when
     that subtype is nonempty. A dedicated axiom receipt is part of the default
-    Lean target and reports only standard propext/Quot.sound dependencies where
-    set or subtype extensionality is used. This is pure set-level mathematics;
+    Lean target and reports only standard propext/Classical.choice/Quot.sound
+    dependencies for extensionality and finite-cardinality machinery. This is pure set-level mathematics;
     it constructs no physical action, observer, dynamics, selector or GU
     verdict and moves no source, action, ledger, SG4, prediction, confirmation,
     canon, paper, release, grade or public posture.
@@ -4523,11 +4535,12 @@ next_condition: >-
   inputs; boundary work needs an owned action/operator/domain packet. Protected
   publication payloads, P-M25 and TWG1 require separate authority.
 
-  The group-action valuation-space classification and its default-target axiom
-  receipt are current. Reopen this proof-hardening arc only on a semantic
-  counterexample, theorem elaboration failure, unexpected axiom dependency,
-  certificate-map drift or a genuinely stronger source-owned mathematical
-  statement; do not infer a physical action or selection mechanism from it.
+  The group-action valuation-space classification, exact finite census,
+  inhabited/empty-domain edge cases and default-target axiom receipt are
+  current. Reopen this proof-hardening arc only on a semantic counterexample,
+  theorem elaboration failure, unexpected axiom dependency, certificate-map
+  drift or a genuinely stronger source-owned mathematical statement; do not
+  infer a physical action or selection mechanism from it.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

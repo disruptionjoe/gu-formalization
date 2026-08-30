@@ -11,6 +11,8 @@ Checks:
   (I-a) If alpha is fixed-point-free, every alpha-twisted diagonal escapes every row.
   (I-b) Independently of alpha, no WPS map A x A -> B exists when |B| >= 2.
   (II)  A valuation is alpha-invariant exactly when every value in its image is fixed.
+  (III) The finite invariant-valuation census is |Fix(alpha)|^|A|, including
+        the unique empty-domain valuation when Fix(alpha) is empty.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -73,6 +75,10 @@ def invariant(p, A, alpha):
     return all(alpha[p[x]] == p[x] for x in A)
 
 
+def invariant_count(A, B, alpha):
+    return sum(invariant(p, A, alpha) for p in all_valuations(A, B))
+
+
 B2 = [0, 1]
 swap = {0: 1, 1: 0}
 ident = {0: 0, 1: 1}
@@ -113,6 +119,33 @@ for n in (1, 2, 3):
         f"|A|={n}: no swap-invariant valuation",
         not any(invariant(p, A, swap) for p in all_valuations(A, B2)),
     )
+
+print("(III) EXACT FINITE INVARIANT-VALUATION CENSUS:")
+finite_actions = (
+    ("two-grade swap", B2, swap),
+    ("two-grade identity", B2, ident),
+    (
+        "three-grade boundary-fixing flip",
+        ["below", "boundary", "above"],
+        {"below": "above", "boundary": "boundary", "above": "below"},
+    ),
+    (
+        "three-grade cycle",
+        ["below", "boundary", "above"],
+        {"below": "boundary", "boundary": "above", "above": "below"},
+    ),
+)
+for label, grades, alpha in finite_actions:
+    fixed_count = sum(alpha[b] == b for b in grades)
+    for n in (0, 1, 2, 3):
+        domain = list(range(n))
+        actual = invariant_count(domain, grades, alpha)
+        expected = fixed_count**n
+        check(
+            f"{label}, |A|={n}: |Inv|=|Fix|^|A|",
+            actual == expected,
+            f"actual={actual}, expected={fixed_count}^{n}={expected}",
+        )
 
 print("CONTROL: identity alpha has fixed points, but WPS remains a separate question:")
 A = [0, 1]
@@ -162,6 +195,8 @@ for n in (1, 2):
 
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
+print("  They also confirm the exact finite census, including 0^0 = 1 for the")
+print("  unique valuation on an empty domain.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")
