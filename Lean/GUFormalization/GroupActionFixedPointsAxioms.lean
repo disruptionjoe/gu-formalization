@@ -23,6 +23,9 @@ open GUFormalization.GroupActionFixedPoints
 #print axioms equivariantMapEquivStabilizerFixedValue
 #print axioms natCard_equivariantMap
 #print axioms nonempty_equivariantMap_iff_stabilizerFixedValue
+#print axioms equivariantMapEquivOrbitStabilizerFixedSection
+#print axioms natCard_equivariantMap_orbitProduct
+#print axioms nonempty_equivariantMap_iff_forall_orbit_stabilizerFixedValue
 #print axioms stabilizerFixedValues_regular_one
 #print axioms exists_pointwiseInvariant_iff_commonFixedPoints_nonempty
 #print axioms commonFixedPoints_eq_empty_of_fixpointFreeElement

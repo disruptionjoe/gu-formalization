@@ -18,6 +18,9 @@ Checks:
         and their count is the full codomain size, not its fixed-point count.
   (V)   For a transitive finite group action, equivariant maps are determined
         by the values fixed by one point stabilizer, including non-free cases.
+  (VI)  For an arbitrary finite group action, equivariant maps are determined
+        by one stabilizer-fixed value per domain orbit and their count is the
+        product of the orbitwise fixed-value counts.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -125,6 +128,16 @@ def equivariant_maps(group, domain, grades, act_domain, act_codomain):
 def stabilizer_fixed_values(group, basepoint, grades, act_domain, act_codomain):
     stabilizer = [g for g in group if act_domain(g, basepoint) == basepoint]
     return [b for b in grades if all(act_codomain(g, b) == b for g in stabilizer)]
+
+
+def orbit_representatives(group, domain, act_domain):
+    representatives = []
+    seen = set()
+    for a in domain:
+        if a not in seen:
+            representatives.append(a)
+            seen.update(act_domain(g, a) for g in group)
+    return representatives
 
 
 B2 = [0, 1]
@@ -331,6 +344,82 @@ check(
     "the order-two stabilizer acts fixed-point-freely on the codomain",
 )
 
+print("(VI) ARBITRARY-DOMAIN ORBIT-PRODUCT CLASSIFICATION:")
+arbitrary_cases = (
+    (
+        "C2 swap orbit plus fixed point / boundary-fixing flip",
+        list(range(2)),
+        [0, 1, 2],
+        B3,
+        lambda g, a: (1 - a) if (g % 2 and a < 2) else a,
+        lambda g, b: cyclic_act(flip3, g, b),
+    ),
+    (
+        "two C2-fixed domain points / fixed-point-free codomain",
+        list(range(2)),
+        [0, 1],
+        B2,
+        lambda _g, a: a,
+        lambda g, b: cyclic_act(swap, g, b),
+    ),
+    (
+        "C4 regular orbit plus two-coset orbit / regular codomain",
+        list(range(4)),
+        list(range(6)),
+        list(range(4)),
+        lambda g, a: (g + a) % 4 if a < 4 else 4 + ((g + a - 4) % 2),
+        lambda g, b: (g + b) % 4,
+    ),
+    (
+        "empty C2 domain / fixed-point-free codomain",
+        list(range(2)),
+        [],
+        B2,
+        lambda _g, a: a,
+        lambda g, b: cyclic_act(swap, g, b),
+    ),
+)
+for label, group, domain, grades, act_domain, act_codomain in arbitrary_cases:
+    maps = equivariant_maps(group, domain, grades, act_domain, act_codomain)
+    representatives = orbit_representatives(group, domain, act_domain)
+    fixed_factors = [
+        stabilizer_fixed_values(
+            group, representative, grades, act_domain, act_codomain
+        )
+        for representative in representatives
+    ]
+    expected_count = 1
+    for factor in fixed_factors:
+        expected_count *= len(factor)
+    actual_seeds = sorted(tuple(mapping[a] for a in representatives) for mapping in maps)
+    expected_seeds = sorted(product(*fixed_factors))
+    check(
+        f"{label}: |Eqv(A,B)|=product_orbits |B^Stab|",
+        len(maps) == expected_count,
+        f"actual={len(maps)}, expected={expected_count}, factors={[len(x) for x in fixed_factors]}",
+    )
+    check(
+        f"{label}: orbit-representative evaluation is bijective",
+        actual_seeds == expected_seeds,
+    )
+
+check(
+    "mixed free/fixed C2 domain has three equivariant maps",
+    len(equivariant_maps(
+        list(range(2)), [0, 1, 2], B3,
+        lambda g, a: (1 - a) if (g % 2 and a < 2) else a,
+        lambda g, b: cyclic_act(flip3, g, b)
+    )) == 3,
+    "the free orbit contributes three seeds and the fixed orbit contributes one",
+)
+check(
+    "the empty domain has one equivariant map as an empty orbit product",
+    len(equivariant_maps(
+        list(range(2)), [], B2, lambda _g, a: a,
+        lambda g, b: cyclic_act(swap, g, b)
+    )) == 1,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -339,6 +428,8 @@ print("  For acted-on domains, they confirm the separate regular-action theorem:
 print("  equivariant maps are seeded freely at identity and counted by |B|.")
 print("  For general transitive domains, they confirm the sharper orbit-stabilizer")
 print("  theorem: only basepoint values fixed by its stabilizer seed equivariant maps.")
+print("  For arbitrary domains, they confirm the orbit-product theorem: each orbit")
+print("  contributes its own stabilizer-fixed seed factor, including the empty product.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

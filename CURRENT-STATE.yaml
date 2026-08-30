@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 982c81d79c0d
+revision_basis: 4011a76076f0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,20 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The arbitrary acted-on-domain classification is now Lean-verified:
+    equivariant maps A -> B are exactly dependent choices of one codomain
+    value fixed by the chosen representative's stabilizer for every orbit in
+    A/G. For finite types the exact count is the product over domain orbits of
+    |B^Stab(a_omega)|, and a map exists exactly when every factor is inhabited.
+    Quotient representatives and classical transport are explicit in the
+    axiom receipt, while transport independence is proved. W99 checks mixed
+    free/fixed, fixed-only, regular-plus-coset and empty-domain controls, where
+    orbit factors differ and the empty product is one. The transitive and
+    regular-torsor theorems remain the one-orbit special cases. This is pure
+    set-level mathematics; it constructs no physical action, observer,
+    dynamics, selector or GU verdict, and source, action, ledger, SG4,
+    prediction, confirmation, canon, paper, release, grade and public posture
+    do not move.
     The transitive acted-on-domain theorem is now Lean-verified: for any
     transitive G-set A and basepoint a0, evaluation identifies equivariant maps
     A -> B exactly with codomain values fixed by Stab(a0). For finite types the

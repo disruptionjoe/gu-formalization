@@ -56,7 +56,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein transversality, corrected finite star-semilinear image typing with explicit null-image premises and zero `intersectionDifference`, and 2-primary identities; no physical-real-form, Fredholm, observed-handedness, function-space, or generation-selection theorem | `LEAN-VERIFIED`; authoritative finite located-not-forced certificate, with T3 correction follow-through verified 2026-08-22; prior release receipt remains the 2026-07-23 zenodo package `VERIFICATION.md` |
 | `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` | Finite census encoding for the LNF paper; exhaustiveness/closure by `decide` over the encoded item list; census numerals are imported data, not derivations | `LEAN-VERIFIED`; 2026-07-23 zenodo receipt (`papers/candidates/located-not-forced/zenodo-package-v1.0.0/VERIFICATION.md`) |
 | `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | `LEAN-VERIFIED`; 2026-07-22 baseline |
-| `Lean/GUFormalization/GroupActionFixedPoints.lean` | Pure set-level valuation-space classification: invariant valuations are equivalent to functions into the common fixed-point subtype and satisfy `|Inv| = |Fix|^|A|`; separately, equivariant maps from a transitive acted-on domain are equivalent to basepoint values fixed by its stabilizer and satisfy `|Eqv(A,B)| = |B^Stab(a₀)|` for finite types. The regular torsor is the free `|B|` special case. No physical group action, observer, dynamics, selection or GU verdict is encoded | `LEAN-VERIFIED`; 2026-08-30 targeted and serialized default-target build; theorem-level receipt exposes the classical transporter choice and only standard Lean/mathlib axioms; W99 includes non-free singleton and C4/coset hostile controls |
+| `Lean/GUFormalization/GroupActionFixedPoints.lean` | Pure set-level valuation-space classification: invariant valuations are equivalent to functions into the common fixed-point subtype and satisfy `|Inv| = |Fix|^|A|`; separately, equivariant maps from an arbitrary acted-on domain form the dependent product of stabilizer-fixed seed values over the orbit quotient and satisfy the exact finite orbit-product census. The transitive and regular-torsor theorems are one-orbit special cases. No physical group action, observer, dynamics, selection or GU verdict is encoded | `LEAN-VERIFIED`; 2026-08-30 targeted and serialized default-target build; theorem-level receipt exposes quotient-representative and classical-transporter choice and only standard Lean/mathlib axioms; W99 includes mixed free/fixed, fixed-only, regular-plus-coset and empty-domain hostile controls |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
@@ -172,9 +172,23 @@ that its value is independent of the representative. Finite types satisfy
 `|Eqv(A,B)| = |B^Stab(a₀)|`, and an equivariant map exists exactly when the
 stabilizer-fixed subtype is inhabited. W99 tests non-free actions where the
 stabilizer leaves one value, all values, or no values; the earlier regular
-torsor theorem is recovered as the trivial-stabilizer case. This does not yet
-form the quotient-indexed product across several domain orbits and supplies no
-physical action, observer, dynamics, selector, carrier or GU verdict.
+torsor theorem is recovered as the trivial-stabilizer case. The arbitrary-orbit
+product below closes the remaining multi-orbit limitation. This theorem alone
+supplies no physical action, observer, dynamics, selector, carrier or GU verdict.
+
+**Arbitrary-orbit equivariance product — DONE 2026-08-30.** For any `G`-set
+`A`, Lean now identifies the complete equivariant-map space `A → B` with the
+dependent product, over `A/G`, of values fixed by the stabilizer of a chosen
+orbit representative. Quotient representatives and classical transport are
+explicit, and transported values are representative-independent. Finite types
+satisfy the exact product census
+`|Eqv(A,B)| = product_[omega in A/G] |B^Stab(a_omega)|`; existence is
+equivalent to every orbit factor being inhabited. W99 tests a mixed free/fixed
+action, two fixed orbits with no seed, a regular-plus-coset action with one
+empty factor, and the empty-domain empty product. The earlier transitive and
+regular-torsor theorems are recovered as one-orbit cases. This remains pure
+set-level mathematics and supplies no physical action, observer, dynamics,
+selector, carrier or GU verdict.
 
 ## Part D: lock and progress contract
 

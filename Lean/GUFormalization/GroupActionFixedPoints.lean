@@ -1,6 +1,8 @@
 import Mathlib.Algebra.Group.Action.Defs
 import Mathlib.Algebra.Group.Action.Pretransitive
+import Mathlib.Data.Fintype.EquivFin
 import Mathlib.Data.Set.Lattice
+import Mathlib.GroupTheory.GroupAction.Defs
 import Mathlib.SetTheory.Cardinal.Finite
 
 /-!
@@ -229,6 +231,147 @@ theorem nonempty_equivariantMap_iff_stabilizerFixedValue [MulAction G A]
     Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔
       Nonempty (StabilizerFixedValue (G := G) (B := B) a₀) :=
   (equivariantMapEquivStabilizerFixedValue (G := G) (B := B) a₀).nonempty_congr
+
+/-- The orbit index of the supplied action on `A`. -/
+abbrev OrbitIndex [MulAction G A] := MulAction.orbitRel.Quotient G A
+
+noncomputable instance orbitIndexFintype [MulAction G A] [Fintype A] :
+    Fintype (OrbitIndex (G := G) (A := A)) :=
+  Fintype.ofFinite (OrbitIndex (G := G) (A := A))
+
+/-- A classical representative of one orbit. Its use is exposed by the axiom
+receipt, and the classification below proves that transported values do not
+depend on this choice. -/
+noncomputable def orbitRepresentative [MulAction G A]
+    (ω : OrbitIndex (G := G) (A := A)) : A :=
+  Quotient.out ω
+
+/-- One stabilizer-fixed seed value for each orbit of the domain action. The
+factor is dependent because the chosen representative, and hence its
+stabilizer, may vary with the orbit. -/
+abbrev OrbitStabilizerFixedSection [MulAction G A] :=
+  ∀ ω : OrbitIndex (G := G) (A := A),
+    StabilizerFixedValue (G := G) (B := B)
+      (orbitRepresentative (G := G) (A := A) ω)
+
+private noncomputable def orbitTransporter [MulAction G A] (a : A) : G :=
+  Classical.choose (show
+    a ∈ MulAction.orbit G
+      (orbitRepresentative (G := G) (A := A)
+        (Quotient.mk'' a : OrbitIndex (G := G) (A := A))) by
+    exact Quotient.eq''.mp
+      (Quotient.out_eq'
+        (Quotient.mk'' a : OrbitIndex (G := G) (A := A))).symm)
+
+private theorem orbitTransporter_spec [MulAction G A] (a : A) :
+    orbitTransporter (G := G) a •
+        orbitRepresentative (G := G) (A := A)
+          (Quotient.mk'' a : OrbitIndex (G := G) (A := A)) = a :=
+  Classical.choose_spec (show
+    a ∈ MulAction.orbit G
+      (orbitRepresentative (G := G) (A := A)
+        (Quotient.mk'' a : OrbitIndex (G := G) (A := A))) by
+    exact Quotient.eq''.mp
+      (Quotient.out_eq'
+        (Quotient.mk'' a : OrbitIndex (G := G) (A := A))).symm)
+
+private theorem orbitIndex_smul [MulAction G A] (g : G) (a : A) :
+    (Quotient.mk'' (g • a) : OrbitIndex (G := G) (A := A)) =
+      Quotient.mk'' a :=
+  Quotient.sound (MulAction.mem_orbit a g)
+
+/-- For an arbitrary acted-on domain, equivariant maps are exactly independent
+stabilizer-fixed seed choices over all domain orbits. The inverse transports
+each seed within its orbit; representative independence is inherited from
+`stabilizerFixed_transport`. -/
+noncomputable def equivariantMapEquivOrbitStabilizerFixedSection [MulAction G A] :
+    EquivariantMap (G := G) (A := A) (B := B) ≃
+      OrbitStabilizerFixedSection (G := G) (A := A) (B := B) where
+  toFun f := fun ω =>
+    ⟨f.1 (orbitRepresentative (G := G) (A := A) ω), by
+      intro g hg
+      rw [← f.2 g (orbitRepresentative (G := G) (A := A) ω), hg]⟩
+  invFun q :=
+    ⟨(fun a => orbitTransporter (G := G) a •
+        (q (Quotient.mk'' a : OrbitIndex (G := G) (A := A))).1), by
+      intro g a
+      have hq := orbitIndex_smul (G := G) g a
+      change orbitTransporter (G := G) (g • a) •
+          (q (Quotient.mk'' (g • a) : OrbitIndex (G := G) (A := A))).1 =
+        g • (orbitTransporter (G := G) a •
+          (q (Quotient.mk'' a : OrbitIndex (G := G) (A := A))).1)
+      rw [hq, ← mul_smul]
+      apply stabilizerFixed_transport (G := G)
+        (orbitRepresentative (G := G) (A := A)
+          (Quotient.mk'' a : OrbitIndex (G := G) (A := A)))
+        (q (Quotient.mk'' a : OrbitIndex (G := G) (A := A))).2
+      calc
+        orbitTransporter (G := G) (g • a) •
+            orbitRepresentative (G := G) (A := A)
+              (Quotient.mk'' a : OrbitIndex (G := G) (A := A)) = g • a := by
+          rw [← hq]
+          exact orbitTransporter_spec (G := G) (g • a)
+        _ = (g * orbitTransporter (G := G) a) •
+            orbitRepresentative (G := G) (A := A)
+              (Quotient.mk'' a : OrbitIndex (G := G) (A := A)) := by
+          rw [mul_smul, orbitTransporter_spec (G := G) a]⟩
+  left_inv f := by
+    apply Subtype.ext
+    funext a
+    change orbitTransporter (G := G) a •
+        f.1 (orbitRepresentative (G := G) (A := A)
+          (Quotient.mk'' a : OrbitIndex (G := G) (A := A))) = f.1 a
+    rw [← f.2 (orbitTransporter (G := G) a)
+      (orbitRepresentative (G := G) (A := A)
+        (Quotient.mk'' a : OrbitIndex (G := G) (A := A))),
+      orbitTransporter_spec (G := G) a]
+  right_inv q := by
+    funext ω
+    apply Subtype.ext
+    have hq :
+        (Quotient.mk'' (orbitRepresentative (G := G) (A := A) ω) :
+          OrbitIndex (G := G) (A := A)) = ω :=
+      Quotient.out_eq' ω
+    change orbitTransporter (G := G)
+          (orbitRepresentative (G := G) (A := A) ω) •
+        (q (Quotient.mk''
+          (orbitRepresentative (G := G) (A := A) ω) :
+          OrbitIndex (G := G) (A := A))).1 = (q ω).1
+    rw [hq]
+    apply (q ω).2
+    have htransport := orbitTransporter_spec (G := G)
+      (orbitRepresentative (G := G) (A := A) ω)
+    rw [hq] at htransport
+    exact htransport
+
+/-- Finite equivariant maps from an arbitrary acted-on domain are counted by
+the product of the stabilizer-fixed seed counts over all domain orbits. -/
+theorem natCard_equivariantMap_orbitProduct [MulAction G A]
+    [Fintype A] [Finite B] :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := B)) =
+      ∏ ω : OrbitIndex (G := G) (A := A),
+        Nat.card (StabilizerFixedValue (G := G) (B := B)
+          (orbitRepresentative (G := G) (A := A) ω)) := by
+  rw [Nat.card_congr
+    (equivariantMapEquivOrbitStabilizerFixedSection
+      (G := G) (A := A) (B := B)), Nat.card_pi]
+
+/-- An equivariant map on an arbitrary domain exists exactly when every orbit
+has a seed value fixed by the stabilizer of its chosen representative. -/
+theorem nonempty_equivariantMap_iff_forall_orbit_stabilizerFixedValue
+    [MulAction G A] :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔
+      ∀ ω : OrbitIndex (G := G) (A := A),
+        Nonempty (StabilizerFixedValue (G := G) (B := B)
+          (orbitRepresentative (G := G) (A := A) ω)) := by
+  constructor
+  · intro h ω
+    exact ⟨(equivariantMapEquivOrbitStabilizerFixedSection
+      (G := G) (A := A) (B := B)) h.some ω⟩
+  · intro h
+    exact ⟨(equivariantMapEquivOrbitStabilizerFixedSection
+      (G := G) (A := A) (B := B)).symm
+        (fun ω => Classical.choice (h ω))⟩
 
 /-- The stabilizer of the identity for the regular left action is trivial, so
 every codomain value satisfies its fixed-value condition. -/
