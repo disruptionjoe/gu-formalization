@@ -1532,6 +1532,82 @@ check(
     ),
 )
 
+print("(XVI) FINITE PROOF-STABLE KERNEL CERTIFICATES:")
+
+shiab_dimensions = {
+    "spin_plus": 64,
+    "spin_minus": 64,
+    "vector_spin_plus": 832,
+    "vector_spin_minus": 832,
+    "two_form_spin_plus": 4928,
+    "two_form_spin_minus": 4928,
+}
+shiab_source = {
+    "+": {"spin_plus": 1, "vector_spin_minus": 1, "two_form_spin_plus": 1},
+    "-": {"spin_minus": 1, "vector_spin_plus": 1, "two_form_spin_minus": 1},
+}
+shiab_target = {
+    "+": {"spin_minus": 1, "vector_spin_plus": 1},
+    "-": {"spin_plus": 1, "vector_spin_minus": 1},
+}
+
+
+def representation_dimension(row):
+    return sum(
+        multiplicity * shiab_dimensions[label]
+        for label, multiplicity in row.items()
+    )
+
+
+def schur_overlap(source, target):
+    return sum(
+        source.get(label, 0) * target.get(label, 0)
+        for label in shiab_dimensions
+    )
+
+
+shiab_blocks = {
+    (source_chirality, target_chirality): schur_overlap(
+        shiab_source[source_chirality], shiab_target[target_chirality]
+    )
+    for source_chirality in ("+", "-")
+    for target_chirality in ("+", "-")
+}
+check(
+    "supplied Shiab decomposition rows have the declared product dimensions",
+    all(representation_dimension(row) == 91 * 64 for row in shiab_source.values())
+    and all(representation_dimension(row) == 14 * 64 for row in shiab_target.values()),
+)
+check(
+    "Shiab Schur overlap gives zero same-chirality blocks and two cross blocks",
+    shiab_blocks == {("+", "+"): 0, ("+", "-"): 2, ("-", "+"): 2, ("-", "-"): 0},
+)
+check(
+    "the supplied full-Dirac Shiab multiplicity is four and not unique",
+    sum(shiab_blocks.values()) == 4 and shiab_blocks[("+", "-")] != 1,
+)
+
+# Scalar exact control for the abstract block-kernel theorem.  With E=1,
+# A=5, B=2, C=3, the Schur complement is -1 and the only integer kernel
+# point in a symmetric witness box is zero.
+block_kernel = [
+    (x, y)
+    for x in range(-8, 9)
+    for y in range(-8, 9)
+    if 5 * x + 2 * y == 0 and 3 * x + y == 0
+]
+check(
+    "invertible E and injective Schur complement give a trivial block kernel",
+    block_kernel == [(0, 0)],
+)
+singular_block_witness = (0, 1)
+check(
+    "a singular eliminated block can carry a nonzero kernel witness",
+    singular_block_witness != (0, 0)
+    and 1 * singular_block_witness[0] + 0 * singular_block_witness[1] == 0
+    and 0 * singular_block_witness[0] + 0 * singular_block_witness[1] == 0,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -1570,6 +1646,10 @@ print("  double-coset orbit partition and the transported-intersection stabilize
 print("  With a nontrivial two-point H-seed, the transported-intersection inductions")
 print("  map injectively and K-equivariantly to disjoint two- and four-class summands")
 print("  whose union is the complete six-class restricted induced carrier.")
+print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
+print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
+print("  A determinant-free scalar block control confirms the explicit E-inverse and")
+print("  injective-Schur hypotheses, while a singular-E witness shows the premise matters.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

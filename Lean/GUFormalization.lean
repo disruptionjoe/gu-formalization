@@ -18,6 +18,8 @@ import GUFormalization.CoflipAbstract
 import GUFormalization.CompactImageObstructions
 import GUFormalization.CompactImageObstructionsAxioms
 import GUFormalization.FiniteResearchKernels
+import GUFormalization.ShiabMultiplicityCertificate
+import GUFormalization.VZSchurPrecondition
 import GUFormalization.FiniteResearchKernelsAxioms
 import GUFormalization.PowerMeanReduction
 import GUFormalization.ChiConjugationTraceParity

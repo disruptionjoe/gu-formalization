@@ -255,6 +255,18 @@
       "canonical_finite_control": "intrinsic nonnormal S3 double-coset fibers partition all 6 induced classes and are K-stable before representatives are chosen",
       "scientific_effect": "none"
     },
+    "shiab_multiplicity_finite_certificate": {
+      "path": "Lean/GUFormalization/ShiabMultiplicityCertificate.lean",
+      "result": "SUPPLIED_D7_ROWS_DIMENSION_CHECKED__CHIRAL_BLOCKS_0_2_2_0__FULL_DIRAC_4",
+      "premise_boundary": "irreducible decomposition rows are supplied exact certificate data; Lean does not construct D7 representation theory or the physical real form",
+      "scientific_effect": "none"
+    },
+    "vz_schur_precondition_certificate": {
+      "path": "Lean/GUFormalization/VZSchurPrecondition.lean",
+      "result": "LEFT_INVERTIBLE_E_PLUS_INJECTIVE_SCHUR_IMPLIES_TRIVIAL_BLOCK_KERNEL",
+      "premise_boundary": "actual GU operator identification, non-null-cone E inverse and FC-VZ-1 remain open",
+      "scientific_effect": "none"
+    },
     "b5_gram_adjoint_result": {
       "path": "explorations/b5-full20-gram-adjoint-universality-2026-08-20.md",
       "sha256": "29c0951bd13eac9d43c31773dc7e4d77852d48b51293686c64cd39d0993f92f9"

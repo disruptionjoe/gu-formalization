@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d7f84dfe51d1
+revision_basis: a0830c542771
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Two independent proof-stable kernels are now Lean-verified without moving
+    scientific status. The supplied complex D7 decomposition rows for
+    Lambda^2 V tensor S+/- and V tensor S+/- dimension-check and their finite
+    Schur overlap gives the chiral Shiab multiplicity matrix [[0,2],[2,0]] and
+    full-Dirac total 4; Lean checks that deduction but does not construct the
+    decompositions, the real-form count or a physical selector. Separately, a
+    determinant-free linear-map theorem proves that an explicit left inverse
+    for the eliminated E block plus injectivity of A-B E^-1 C forces the full
+    block kernel to vanish. It does not identify GU's actual operator, prove
+    cone invertibility or close FC-VZ-1. W99 carries exact positive and
+    singular-E controls. Source, action, ledger, SG4, prediction, confirmation,
+    canon, paper, release, grade and public posture do not move.
     The subgroup Mackey decomposition now has a canonical,
     representative-free layer. Lean partitions Res_K^G Ind_H^G(B) by its
     intrinsic double-coset index, proves left K preserves every actual fiber,
@@ -4669,7 +4681,14 @@ next_condition: >-
   inputs; boundary work needs an owned action/operator/domain packet. Protected
   publication payloads, P-M25 and TWG1 require separate authority.
 
-  The pointwise-invariance, arbitrary-orbit product, representative transport,
+  The supplied Shiab decomposition-to-multiplicity implication and the
+  determinant-free Schur kernel precondition are now Lean-checked at their
+  finite explicit-premise ceilings. Reopen them only for a corrected
+  decomposition row, real-form certificate, actual-operator bridge, cone
+  counterexample, elaboration failure, unexpected axiom dependency or
+  certificate-map drift; do not promote either to physical selector identity
+  or VZ closure. The pointwise-invariance, arbitrary-orbit product,
+  representative transport,
   quotient closed forms, domain/codomain functoriality, orbit naturality,
   indexed-codomain product laws, and both induction-restriction and
   restriction-coinduction adjunctions are current. Reopen this theorem family

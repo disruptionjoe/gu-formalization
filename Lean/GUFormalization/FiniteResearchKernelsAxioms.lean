@@ -1,4 +1,6 @@
 import GUFormalization.FiniteResearchKernels
+import GUFormalization.ShiabMultiplicityCertificate
+import GUFormalization.VZSchurPrecondition
 
 #print axioms GUFormalization.FiniteResearchKernels.trace_chirality_pure_imaginary
 #print axioms GUFormalization.FiniteResearchKernels.trace_chirality_real_zero
@@ -8,3 +10,7 @@ import GUFormalization.FiniteResearchKernels
 #print axioms GUFormalization.FiniteResearchKernels.PhaseBoundary.aligned_inequality
 #print axioms GUFormalization.FiniteResearchKernels.PhaseBoundary.boundary_equality
 #print axioms GUFormalization.FiniteResearchKernels.PhaseBoundary.mirror_blind_inequality
+#print axioms GUFormalization.ShiabMultiplicityCertificate.chirality_flipping_blocks_two
+#print axioms GUFormalization.ShiabMultiplicityCertificate.fullDiracMultiplicity
+#print axioms GUFormalization.ShiabMultiplicityCertificate.naturalBlockNotMultiplicityOne
+#print axioms GUFormalization.VZSchurPrecondition.blockKernelTrivial_of_leftInverse_and_schurInjective

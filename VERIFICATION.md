@@ -35,7 +35,13 @@ a compact verification package, and states plainly what would falsify the leadin
 ## What is proved / computed / imported / conjectural
 
 - **PROVED (L1):** flagship (a) as pure set-level math; several (c) cores (incl. a Lean-checked CRT
-  split); the no-local-positive-metric theorem (free case).
+  split); the no-local-positive-metric theorem (free case); and two finite
+  certificate deductions: the supplied Shiab decomposition rows give complex
+  chiral multiplicities `[[0,2],[2,0]]`, while an explicit left inverse for an
+  eliminated block plus Schur-complement injectivity forces the abstract block
+  kernel to vanish. The first does not construct the D7 decompositions or a
+  physical selector; the second does not identify GU's actual operator or
+  close FC-VZ-1.
 - **COMPUTED (L2):** all FRG/UV results (one-loop + ker-Gamma projector + partly ported agravity betas); the
   sectorial IFF-no-go; the source-action skeleton (O5).
 - **IMPORTED (cited, not re-derived):** standard higher-derivative-gravity betas (Fradkin-Tseytlin/
