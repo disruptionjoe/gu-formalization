@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 713b4a51f853
+revision_basis: 3442d031f376
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Indexed codomain products are now Lean-verified. Equivariant maps into an
+    arbitrary dependent product of acted-on codomains are exactly indexed
+    families of equivariant component maps; common-fixed and every point-
+    stabilizer-fixed seed space decompose by the same product. Finite counts
+    multiply and existence is coordinatewise, with classical choice explicit
+    for arbitrary index families. W99 checks a heterogeneous two-component
+    product, free and fixed stabilizers, the empty index and an empty factor.
+    This is pure set-level mathematics; it constructs no physical action,
+    observer, dynamics, selector or GU verdict, and source, action, ledger,
+    SG4, prediction, confirmation, canon, paper, release, grade and public
+    posture do not move.
     Equivariant-map bifunctoriality and orbit-quotient naturality are now
     Lean-verified. Postcomposition with an equivariant codomain equivalence
     gives an explicit equivalence of complete map spaces and transports both
@@ -4576,16 +4587,16 @@ next_condition: >-
   inputs; boundary work needs an owned action/operator/domain packet. Protected
   publication payloads, P-M25 and TWG1 require separate authority.
 
-  The pointwise-invariance census, regular-action boundary and transitive
-  orbit-stabilizer classification are current. The next honest mathematical
-  extension is the quotient-indexed product over multiple domain orbits with
-  explicit representative/choice custody and finite dependent-product
-  cardinality. Otherwise reopen proof hardening only on a semantic
-  counterexample, elaboration failure, unexpected axiom dependency,
-  certificate-map drift or a fresh measured regression. Probe authorship,
-  paper navigation, status currency and historical cohorts reopen only on
-  their concrete audited drift; no physical action, selection mechanism,
-  publication, release or scientific-status movement is implied.
+  The pointwise-invariance, arbitrary-orbit product, representative transport,
+  quotient closed forms, domain/codomain functoriality, orbit naturality and
+  indexed-codomain product laws are current. Reopen this theorem family only
+  for a genuinely stronger abstraction or a semantic counterexample,
+  elaboration failure, unexpected axiom dependency, certificate-map drift or
+  fresh measured regression; do not manufacture binary specializations or
+  routine corollaries. Probe authorship, paper navigation, status currency and
+  historical cohorts reopen only on their concrete audited drift; no physical
+  action, selection mechanism, publication, release or scientific-status
+  movement is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

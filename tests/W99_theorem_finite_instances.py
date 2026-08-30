@@ -30,6 +30,9 @@ Checks:
   (IX)  Equivariant relabeling of the codomain preserves the complete map and
         fixed-seed spaces; domain relabeling induces a bijection of orbit sets,
         and domain/codomain transports commute.
+  (X)   Equivariant maps, common-fixed values and point-stabilizer-fixed seeds
+        into an indexed product decompose exactly into their coordinate
+        families, with product cardinalities and empty-index/factor edges.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -147,6 +150,11 @@ def orbit_representatives(group, domain, act_domain):
             representatives.append(a)
             seen.update(act_domain(g, a) for g in group)
     return representatives
+
+
+def product_action(actions, g, value):
+    """Coordinatewise action on a heterogeneous finite product."""
+    return tuple(action(g, coordinate) for action, coordinate in zip(actions, value))
 
 
 B2 = [0, 1]
@@ -733,6 +741,120 @@ check(
     domain_then_codomain == codomain_then_domain,
 )
 
+print("(X) INDEXED-CODOMAIN PRODUCT PRESERVATION:")
+group = list(range(2))
+domain = [0, 1, 2]
+act_domain = lambda g, a: (1 - a) if (g % 2 and a < 2) else a
+component_grades = [B3, B2]
+component_actions = [
+    lambda g, b: cyclic_act(flip3, g, b),
+    lambda _g, b: b,
+]
+component_maps = [
+    equivariant_maps(group, domain, grades, act_domain, action)
+    for grades, action in zip(component_grades, component_actions)
+]
+product_grades = list(product(*component_grades))
+act_product = lambda g, value: product_action(component_actions, g, value)
+product_maps = equivariant_maps(
+    group, domain, product_grades, act_domain, act_product
+)
+assembled_maps = {
+    tuple(tuple(mapping[a] for mapping in family) for a in domain)
+    for family in product(*component_maps)
+}
+actual_product_maps = {
+    tuple(mapping[a] for a in domain) for mapping in product_maps
+}
+check(
+    "mixed C2 product: complete equivariant-map space is the coordinate product",
+    actual_product_maps == assembled_maps,
+)
+check(
+    "mixed C2 product: equivariant-map cardinalities multiply",
+    len(product_maps) == len(component_maps[0]) * len(component_maps[1]) == 12,
+    f"combined={len(product_maps)}, factors={[len(maps) for maps in component_maps]}",
+)
+
+component_common_fixed = [
+    [b for b in grades if all(action(g, b) == b for g in group)]
+    for grades, action in zip(component_grades, component_actions)
+]
+product_common_fixed = [
+    value for value in product_grades
+    if all(act_product(g, value) == value for g in group)
+]
+check(
+    "mixed C2 product: common-fixed values are coordinatewise",
+    set(product_common_fixed) == set(product(*component_common_fixed)),
+)
+check(
+    "mixed C2 product: common-fixed cardinalities multiply",
+    len(product_common_fixed)
+    == len(component_common_fixed[0]) * len(component_common_fixed[1]) == 2,
+)
+
+for basepoint, expected in ((0, 6), (2, 2)):
+    component_seeds = [
+        stabilizer_fixed_values(
+            group, basepoint, grades, act_domain, action
+        )
+        for grades, action in zip(component_grades, component_actions)
+    ]
+    product_seeds = stabilizer_fixed_values(
+        group, basepoint, product_grades, act_domain, act_product
+    )
+    check(
+        f"mixed C2 product: stabilizer seed at {basepoint} is coordinatewise",
+        set(product_seeds) == set(product(*component_seeds)),
+    )
+    check(
+        f"mixed C2 product: stabilizer seed count at {basepoint} multiplies",
+        len(product_seeds)
+        == len(component_seeds[0]) * len(component_seeds[1]) == expected,
+        f"combined={len(product_seeds)}, factors={[len(seed) for seed in component_seeds]}",
+    )
+
+empty_index_grades = [()]
+empty_index_maps = equivariant_maps(
+    group, domain, empty_index_grades, act_domain, lambda _g, value: value
+)
+check(
+    "empty codomain index has exactly one equivariant map",
+    len(empty_index_maps) == 1,
+)
+check(
+    "empty codomain index has one common-fixed value",
+    len(empty_index_grades) == 1,
+)
+
+fixed_domain = [0]
+empty_factor_grades = [B2, B2]
+empty_factor_actions = [
+    lambda g, b: cyclic_act(swap, g, b),
+    lambda _g, b: b,
+]
+empty_factor_product = list(product(*empty_factor_grades))
+empty_factor_act = lambda g, value: product_action(
+    empty_factor_actions, g, value
+)
+empty_factor_component_maps = [
+    equivariant_maps(
+        group, fixed_domain, grades, lambda _g, a: a, action
+    )
+    for grades, action in zip(empty_factor_grades, empty_factor_actions)
+]
+empty_factor_product_maps = equivariant_maps(
+    group, fixed_domain, empty_factor_product, lambda _g, a: a,
+    empty_factor_act,
+)
+check(
+    "one empty equivariant-map factor annihilates the indexed product",
+    len(empty_factor_component_maps[0]) == 0
+    and len(empty_factor_component_maps[1]) == 2
+    and len(empty_factor_product_maps) == 0,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -751,6 +873,9 @@ print("  stabilizer condition reduces the product to |B^H|^|A/G|; a mixed hostil
 print("  control confirms that unequal stabilizer-fixed sets do not satisfy the premise.")
 print("  Equivariant codomain relabeling preserves map and fixed-seed spaces; domain")
 print("  relabeling transports the orbit quotient, and the two coordinate changes commute.")
+print("  Equivariant maps into indexed codomain products decompose coordinatewise, as do")
+print("  common-fixed and stabilizer-fixed seeds; finite counts multiply, the empty index")
+print("  contributes one map, and an empty component factor annihilates the product.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

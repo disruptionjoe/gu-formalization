@@ -1,4 +1,5 @@
 import Mathlib.Algebra.Group.Action.Defs
+import Mathlib.Algebra.Group.Action.Pi
 import Mathlib.Algebra.Group.Action.Pretransitive
 import Mathlib.Data.Fintype.EquivFin
 import Mathlib.Data.Set.Lattice
@@ -162,6 +163,50 @@ theorem equivariantMap_domainEquiv_codomainEquiv_commute
   apply Subtype.ext
   rfl
 
+/-- Equivariant maps into an indexed product of acted-on codomains are exactly
+indexed families of equivariant maps. This is the product-preservation law for
+the codomain coordinate of the equivariant-map construction. -/
+def equivariantMapEquivPi {I : Type*} {D : I → Type*}
+    [MulAction G A] [∀ i, MulAction G (D i)] :
+    EquivariantMap (G := G) (A := A) (B := ∀ i, D i) ≃
+      (∀ i, EquivariantMap (G := G) (A := A) (B := D i)) where
+  toFun f := fun i =>
+    ⟨fun a => f.1 a i, by
+      intro g a
+      exact congrFun (f.2 g a) i⟩
+  invFun fs :=
+    ⟨fun a i => (fs i).1 a, by
+      intro g a
+      funext i
+      exact (fs i).2 g a⟩
+  left_inv f := by
+    apply Subtype.ext
+    rfl
+  right_inv fs := by
+    funext i
+    apply Subtype.ext
+    rfl
+
+/-- For a finite index, domain and component codomains, the equivariant-map
+count into the indexed product is the product of the component counts. -/
+theorem natCard_equivariantMap_pi {I : Type*} {D : I → Type*}
+    [MulAction G A] [∀ i, MulAction G (D i)] [Fintype I]
+    [Finite A] [∀ i, Finite (D i)] :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := ∀ i, D i)) =
+      ∏ i, Nat.card (EquivariantMap (G := G) (A := A) (B := D i)) := by
+  rw [Nat.card_congr (equivariantMapEquivPi (G := G) (A := A) (D := D)),
+    Nat.card_pi]
+
+/-- An equivariant map into an indexed product exists exactly when every
+component admits an equivariant map. The reverse direction uses choice for the
+possibly infinite index family. -/
+theorem nonempty_equivariantMap_pi_iff {I : Type*} {D : I → Type*}
+    [MulAction G A] [∀ i, MulAction G (D i)] :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := ∀ i, D i)) ↔
+      ∀ i, Nonempty (EquivariantMap (G := G) (A := A) (B := D i)) :=
+  (equivariantMapEquivPi (G := G) (A := A) (D := D)).nonempty_congr.trans
+    Classical.nonempty_pi
+
 /-- Values fixed by every group element stabilizing `a₀`. -/
 def stabilizerFixedValues [MulAction G A] (a₀ : A) : Set B :=
   {b | ∀ g : G, g • a₀ = a₀ → g • b = b}
@@ -169,6 +214,82 @@ def stabilizerFixedValues [MulAction G A] (a₀ : A) : Set B :=
 /-- The subtype of values fixed by the stabilizer of `a₀`. -/
 abbrev StabilizerFixedValue [MulAction G A] (a₀ : A) :=
   {b : B // b ∈ stabilizerFixedValues (G := G) a₀}
+
+/-- Common-fixed values in an indexed product are exactly indexed families of
+common-fixed component values. -/
+def fixedPointValueEquivPi {I : Type*} {D : I → Type*}
+    [∀ i, MulAction G (D i)] :
+    FixedPointValue (G := G) (B := ∀ i, D i) ≃
+      (∀ i, FixedPointValue (G := G) (B := D i)) where
+  toFun b := fun i =>
+    ⟨b.1 i, fun g => congrFun (b.2 g) i⟩
+  invFun bs :=
+    ⟨fun i => (bs i).1, fun g => by
+      funext i
+      exact (bs i).2 g⟩
+  left_inv b := by
+    apply Subtype.ext
+    rfl
+  right_inv bs := by
+    funext i
+    apply Subtype.ext
+    rfl
+
+/-- Values in an indexed product fixed by the stabilizer of `a` are exactly
+indexed families of component values fixed by that stabilizer. -/
+def stabilizerFixedValueEquivPi {I : Type*} {D : I → Type*}
+    [MulAction G A] [∀ i, MulAction G (D i)] (a : A) :
+    StabilizerFixedValue (G := G) (B := ∀ i, D i) a ≃
+      (∀ i, StabilizerFixedValue (G := G) (B := D i) a) where
+  toFun b := fun i =>
+    ⟨b.1 i, fun g hg => congrFun (b.2 g hg) i⟩
+  invFun bs :=
+    ⟨fun i => (bs i).1, fun g hg => by
+      funext i
+      exact (bs i).2 g hg⟩
+  left_inv b := by
+    apply Subtype.ext
+    rfl
+  right_inv bs := by
+    funext i
+    apply Subtype.ext
+    rfl
+
+/-- For a finite index of finite component codomains, the common-fixed seed
+count in the indexed product is the product of the component seed counts. -/
+theorem natCard_fixedPointValue_pi {I : Type*} {D : I → Type*}
+    [∀ i, MulAction G (D i)] [Fintype I] [∀ i, Finite (D i)] :
+    Nat.card (FixedPointValue (G := G) (B := ∀ i, D i)) =
+      ∏ i, Nat.card (FixedPointValue (G := G) (B := D i)) := by
+  rw [Nat.card_congr (fixedPointValueEquivPi (G := G) (D := D)), Nat.card_pi]
+
+/-- For a finite index of finite component codomains, every point-stabilizer
+seed count in the indexed product is the product of its component counts. -/
+theorem natCard_stabilizerFixedValue_pi {I : Type*} {D : I → Type*}
+    [MulAction G A] [∀ i, MulAction G (D i)] [Fintype I]
+    [∀ i, Finite (D i)] (a : A) :
+    Nat.card (StabilizerFixedValue (G := G) (B := ∀ i, D i) a) =
+      ∏ i, Nat.card (StabilizerFixedValue (G := G) (B := D i) a) := by
+  rw [Nat.card_congr
+    (stabilizerFixedValueEquivPi (G := G) (A := A) (D := D) a), Nat.card_pi]
+
+/-- A common-fixed value exists in an indexed product exactly when every
+component has a common-fixed value. -/
+theorem nonempty_fixedPointValue_pi_iff {I : Type*} {D : I → Type*}
+    [∀ i, MulAction G (D i)] :
+    Nonempty (FixedPointValue (G := G) (B := ∀ i, D i)) ↔
+      ∀ i, Nonempty (FixedPointValue (G := G) (B := D i)) :=
+  (fixedPointValueEquivPi (G := G) (D := D)).nonempty_congr.trans
+    Classical.nonempty_pi
+
+/-- A value fixed by the stabilizer of `a` exists in an indexed product
+exactly when every component has such a fixed value. -/
+theorem nonempty_stabilizerFixedValue_pi_iff {I : Type*} {D : I → Type*}
+    [MulAction G A] [∀ i, MulAction G (D i)] (a : A) :
+    Nonempty (StabilizerFixedValue (G := G) (B := ∀ i, D i) a) ↔
+      ∀ i, Nonempty (StabilizerFixedValue (G := G) (B := D i) a) :=
+  (stabilizerFixedValueEquivPi (G := G) (A := A) (D := D) a).nonempty_congr.trans
+    Classical.nonempty_pi
 
 /-- An equivariant codomain equivalence transports the common fixed-point
 subtype. -/
