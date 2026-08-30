@@ -98,6 +98,15 @@ open GUFormalization.GroupActionMackey
 #print axioms restrictedInducedDoubleCosetIndex
 #print axioms restrictedInducedDoubleCosetIndex_smul
 #print axioms mackeyFiberMulAction
+#print axioms restrictedInducedDoubleCosetIndex_mackeySummand
+#print axioms mackeySummandToFiber
+#print axioms mackeySummandToFiber_surjective
+#print axioms mackeySummandEquivFiber
+#print axioms mackeySummandEquivFiber_equivariant
+#print axioms mackeyFiberEquivOfEq
+#print axioms mackeySummandEquivOfDoubleCosetEq
+#print axioms mackeySummandEquivOfDoubleCosetEq_assembly
+#print axioms mackeySummandEquivOfDoubleCosetEq_equivariant
 #print axioms canonicalMackeyCoproductMulAction
 #print axioms canonicalMackeyCoproductEquivRestrictedInduced
 #print axioms canonicalMackeyCoproductEquivRestrictedInduced_equivariant

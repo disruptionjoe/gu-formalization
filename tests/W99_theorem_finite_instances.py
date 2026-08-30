@@ -47,7 +47,9 @@ Checks:
   (XV)  For nonnormal subgroups of S3, the K-orbits of the restricted induced
         point carrier are exactly K\\G/H, representative stabilizers equal
         the transported subgroup-intersection condition, and equivariant seed
-        maps preserve the canonical Mackey fibers naturally.
+        maps preserve the canonical Mackey fibers naturally. Distinct
+        representatives of one double coset produce equivariantly equivalent
+        summands through their common intrinsic fiber.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -1488,6 +1490,48 @@ check(
     and sum(len(fiber) for fiber in canonical_mackey_fibers.values())
     == len(target_seed_classes),
 )
+
+# A distinct representative of the nontrivial double coset must produce the
+# same intrinsic fiber. Inverting its injective assembly map on that fiber
+# gives the representative-change equivalence, which must commute with both
+# assembly and the left K-action.
+cycle_double_q = double_coset_of[s3_c012]
+alternate_cycle_rep = next(
+    g for g in double_cosets[cycle_double_q] if g != s3_c012
+)
+alternate_cycle_summand = finite_mackey_summand(alternate_cycle_rep)
+alternate_cycle_inverse = {
+    target_q: summand_q
+    for summand_q, target_q in alternate_cycle_summand[3].items()
+}
+representative_change = {
+    summand_q: alternate_cycle_inverse[target_q]
+    for summand_q, target_q in cycle_summand[3].items()
+}
+check(
+    "distinct same-double-coset representatives assemble onto one intrinsic fiber",
+    alternate_cycle_rep != s3_c012
+    and set(cycle_summand[3].values())
+    == set(alternate_cycle_summand[3].values())
+    == canonical_mackey_fibers[cycle_double_q],
+)
+check(
+    "representative change is bijective and commutes with assembly",
+    len(set(representative_change.values())) == len(cycle_summand[0])
+    and all(
+        alternate_cycle_summand[3][representative_change[q]]
+        == cycle_summand[3][q]
+        for q in range(len(cycle_summand[0]))
+    ),
+)
+check(
+    "representative-change equivalence is K-equivariant",
+    all(
+        representative_change[cycle_summand[1](k, q)]
+        == alternate_cycle_summand[1](k, representative_change[q])
+        for k in K_s3 for q in range(len(cycle_summand[0]))
+    ),
+)
 check(
     "the restricted K-action preserves every canonical double-coset fiber",
     all(
@@ -1695,6 +1739,8 @@ print("  map injectively and K-equivariantly to disjoint two- and four-class sum
 print("  whose union is the complete six-class restricted induced carrier.")
 print("  Equivariant seed maps descend to that carrier, preserve its intrinsic")
 print("  double-coset fibers, commute with K, and act naturally on canonical assembly.")
+print("  Distinct representatives of one double coset give equivariantly equivalent")
+print("  summands through the same intrinsic fiber, with assembly unchanged.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

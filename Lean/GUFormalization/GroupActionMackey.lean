@@ -674,6 +674,178 @@ def mackeyFiberMulAction (K H : Subgroup G) (B : Type*) [MulAction H B]
     apply Subtype.ext
     exact (restrictedSubgroupInducedMulAction K H B).mul_smul k l x.1
 
+/-! ## Representative summands as intrinsic fibers -/
+
+/-- A representative Mackey summand lands in the intrinsic fiber indexed by
+the representative's own double coset. -/
+theorem restrictedInducedDoubleCosetIndex_mackeySummand
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B]
+    (s : MackeySummandCarrier K H g B) :
+    restrictedInducedDoubleCosetIndex K H
+        (mackeySummandToRestrictedInduced K H g s) =
+      doubleCosetMk K H g := by
+  letI transportedAction := transportedSeedMulAction (B := B) K H g
+  letI summandPairAction := inductionPairMulAction
+    (B := B) (transportedIntersection K H g).subtype
+  letI doubleAction := doubleCosetMulAction K H
+  induction s using Quotient.inductionOn'
+  case _ p =>
+    change doubleCosetMk K H ((p.1 : G) * g) = doubleCosetMk K H g
+    apply Quotient.sound
+    refine ⟨(p.1, 1), ?_⟩
+    change (p.1 : G) * g * (1 : G)⁻¹ = (p.1 : G) * g
+    simp
+
+/-- Map a representative Mackey summand into the actual intrinsic fiber over
+its double coset. This is the representative-level bridge to the canonical,
+choice-free decomposition. -/
+def mackeySummandToFiber (K H : Subgroup G) (g : G)
+    {B : Type*} [MulAction H B] :
+    MackeySummandCarrier K H g B →
+      MackeyFiberCarrier K H B (doubleCosetMk K H g) := fun s =>
+  ⟨mackeySummandToRestrictedInduced K H g s,
+    restrictedInducedDoubleCosetIndex_mackeySummand K H g s⟩
+
+/-- The representative-to-fiber map is injective because its value in the
+restricted induced carrier is already injective. -/
+theorem mackeySummandToFiber_injective
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B] :
+    Function.Injective (mackeySummandToFiber (B := B) K H g) := by
+  intro s t hst
+  apply mackeySummandToRestrictedInduced_injective K H g
+  exact congrArg Subtype.val hst
+
+/-- Every element of the intrinsic fiber over `KgH` has a representative in
+the transported-intersection summand based at `g`. The proof extracts an
+actual `K × H` quotient witness rather than comparing cardinalities. -/
+theorem mackeySummandToFiber_surjective
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B] :
+    Function.Surjective (mackeySummandToFiber (B := B) K H g) := by
+  letI targetPairAction := inductionPairMulAction (B := B) H.subtype
+  letI doubleAction := doubleCosetMulAction K H
+  rintro ⟨z, hz⟩
+  induction z using Quotient.inductionOn'
+  case _ p =>
+    change doubleCosetMk K H p.1 = doubleCosetMk K H g at hz
+    have hrep : doubleCosetMk K H g = doubleCosetMk K H p.1 := hz.symm
+    obtain ⟨kh, hkh⟩ := Quotient.exact hrep
+    letI transportedAction := transportedSeedMulAction (B := B) K H g
+    letI summandPairAction := inductionPairMulAction
+      (B := B) (transportedIntersection K H g).subtype
+    let s : MackeySummandCarrier K H g B :=
+      inducedMk (transportedIntersection K H g).subtype
+        kh.1⁻¹ (kh.2 • p.2)
+    refine ⟨s, ?_⟩
+    apply Subtype.ext
+    change
+      inducedMk H.subtype (((kh.1⁻¹ : K) : G) * g) (kh.2 • p.2) =
+        inducedMk H.subtype p.1 p.2
+    have hfirst :
+        (kh.1 : G) * p.1 * (kh.2 : G)⁻¹ = g := hkh
+    have hmove :
+        (((kh.1⁻¹ : K) : G) * g) = p.1 * (kh.2 : G)⁻¹ := by
+      rw [← hfirst]
+      simp [mul_assoc]
+    rw [hmove]
+    simpa [mul_assoc] using
+      (inducedMk_mul_phi H.subtype
+        (p.1 * (kh.2 : G)⁻¹) kh.2 p.2).symm
+
+/-- A representative transported-intersection summand is exactly its
+intrinsic double-coset fiber. -/
+noncomputable def mackeySummandEquivFiber
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B] :
+    MackeySummandCarrier K H g B ≃
+      MackeyFiberCarrier K H B (doubleCosetMk K H g) :=
+  Equiv.ofBijective (mackeySummandToFiber K H g)
+    ⟨mackeySummandToFiber_injective K H g,
+      mackeySummandToFiber_surjective K H g⟩
+
+@[simp]
+theorem mackeySummandEquivFiber_apply
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B]
+    (s : MackeySummandCarrier K H g B) :
+    (mackeySummandEquivFiber K H g s).1 =
+      mackeySummandToRestrictedInduced K H g s :=
+  rfl
+
+/-- The representative-to-intrinsic-fiber equivalence is `K`-equivariant. -/
+theorem mackeySummandEquivFiber_equivariant
+    (K H : Subgroup G) (g : G) {B : Type*} [MulAction H B]
+    (k : K) (s : MackeySummandCarrier K H g B) :
+    mackeySummandEquivFiber K H g
+        (@SMul.smul K (MackeySummandCarrier K H g B)
+          (mackeySummandMulAction K H g B).toSMul k s) =
+      @SMul.smul K
+        (MackeyFiberCarrier K H B (doubleCosetMk K H g))
+        (mackeyFiberMulAction K H B (doubleCosetMk K H g)).toSMul k
+        (mackeySummandEquivFiber K H g s) := by
+  apply Subtype.ext
+  exact mackeySummandToRestrictedInduced_equivariant K H g k s
+
+/-- Equal double-coset indices give a transport equivalence between the
+corresponding intrinsic fibers. -/
+def mackeyFiberEquivOfEq (K H : Subgroup G) {B : Type*} [MulAction H B]
+    {q r : DoubleCosetCarrier K H} (hqr : q = r) :
+    MackeyFiberCarrier K H B q ≃ MackeyFiberCarrier K H B r := by
+  subst r
+  exact Equiv.refl _
+
+@[simp]
+theorem mackeyFiberEquivOfEq_val
+    (K H : Subgroup G) {B : Type*} [MulAction H B]
+    {q r : DoubleCosetCarrier K H} (hqr : q = r)
+    (x : MackeyFiberCarrier K H B q) :
+    (mackeyFiberEquivOfEq (B := B) K H hqr x).1 = x.1 := by
+  subst r
+  rfl
+
+/-- Two representative Mackey summands based in the same double coset are
+equivalent through their common intrinsic fiber. No explicit `K × H` witness is
+chosen by this comparison; the inverse remains noncomputable through the
+established quotient/classical-choice surface exposed by the axiom receipt. -/
+noncomputable def mackeySummandEquivOfDoubleCosetEq
+    (K H : Subgroup G) (g g' : G) {B : Type*} [MulAction H B]
+    (hgg' : doubleCosetMk K H g = doubleCosetMk K H g') :
+    MackeySummandCarrier K H g B ≃ MackeySummandCarrier K H g' B :=
+  (mackeySummandEquivFiber K H g).trans
+    ((mackeyFiberEquivOfEq (B := B) K H hgg').trans
+      (mackeySummandEquivFiber K H g').symm)
+
+/-- Changing the representative inside one double coset does not change the
+assembled point of the restricted induced carrier. -/
+theorem mackeySummandEquivOfDoubleCosetEq_assembly
+    (K H : Subgroup G) (g g' : G) {B : Type*} [MulAction H B]
+    (hgg' : doubleCosetMk K H g = doubleCosetMk K H g')
+    (s : MackeySummandCarrier K H g B) :
+    mackeySummandToRestrictedInduced K H g'
+        (mackeySummandEquivOfDoubleCosetEq K H g g' hgg' s) =
+      mackeySummandToRestrictedInduced K H g s := by
+  have hfiber := (mackeySummandEquivFiber (B := B) K H g').apply_symm_apply
+    (mackeyFiberEquivOfEq (B := B) K H hgg'
+      (mackeySummandEquivFiber K H g s))
+  simpa only [mackeySummandEquivOfDoubleCosetEq, Equiv.trans_apply,
+    mackeySummandEquivFiber_apply, mackeyFiberEquivOfEq_val] using
+      congrArg Subtype.val hfiber
+
+/-- The representative-change equivalence commutes with the explicit left
+`K`-actions. -/
+theorem mackeySummandEquivOfDoubleCosetEq_equivariant
+    (K H : Subgroup G) (g g' : G) {B : Type*} [MulAction H B]
+    (hgg' : doubleCosetMk K H g = doubleCosetMk K H g')
+    (k : K) (s : MackeySummandCarrier K H g B) :
+    mackeySummandEquivOfDoubleCosetEq K H g g' hgg'
+        (@SMul.smul K (MackeySummandCarrier K H g B)
+          (mackeySummandMulAction K H g B).toSMul k s) =
+      @SMul.smul K (MackeySummandCarrier K H g' B)
+        (mackeySummandMulAction K H g' B).toSMul k
+        (mackeySummandEquivOfDoubleCosetEq K H g g' hgg' s) := by
+  apply mackeySummandToRestrictedInduced_injective K H g'
+  rw [mackeySummandEquivOfDoubleCosetEq_assembly]
+  rw [mackeySummandToRestrictedInduced_equivariant]
+  rw [mackeySummandToRestrictedInduced_equivariant]
+  rw [mackeySummandEquivOfDoubleCosetEq_assembly]
+
 /-- The dependent coproduct of the actual index fibers.  This is the
 representative-free carrier underlying the canonical Mackey partition. -/
 abbrev CanonicalMackeyCoproductCarrier (K H : Subgroup G) (B : Type*)
