@@ -1156,10 +1156,13 @@ posture guard only; it does not run the Pati-Salam harness or change verdicts.
 ## Protected surface diff gate
 
 `protected_surface_diff_audit.py` checks the current local Git diff plus untracked files for
-paths that scheduled Progress runs should not touch without explicit review: canon/status/posture
-surfaces, protected licenses, papers, Lean proof surfaces, active-research packets, absorbed
-source-action material, and the claim-status ledger/runbook. This is a governance guard for
-staging discipline, not a mathematical certificate and not a verdict on the changed content.
+paths outside ordinary Progress authority: canon/status/posture surfaces, protected licenses,
+scientific paper content, active-research packets, absorbed source-action material, and the
+claim-status ledger/runbook. Lean proof files and the two publication-navigation maps
+`papers/README.md` and `papers/candidates/README.md` are ordinary governed Progress work;
+their native proof, inventory, lifecycle, review, and no-external-action controls still apply.
+This is a governance guard for staging discipline, not a mathematical certificate and not a
+verdict on the changed content.
 
 ## Queue review freshness gate
 

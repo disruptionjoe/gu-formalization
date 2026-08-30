@@ -3,7 +3,7 @@
 
 This is a scheduled-run guard, not a mathematical certificate. It fails when
 the current working tree, staged diff, or untracked file set touches surfaces
-that require explicit review in unattended Progress runs.
+that remain outside ordinary Progress authority.
 """
 
 from __future__ import annotations
@@ -34,13 +34,13 @@ PROTECTED_EXACT_PATHS = {
 PROTECTED_PREFIXES = {
     "canon/",
     "papers/",
-    "Lean/",
     "lab/active-research/",
     "absorbed/gu-source-action/",
 }
 
-PROTECTED_SUFFIXES = {
-    ".lean",
+ORDINARY_PROGRESS_EXACT_PATHS = {
+    "papers/README.md",
+    "papers/candidates/README.md",
 }
 
 
@@ -57,16 +57,15 @@ def normalize_path(path: str) -> str:
 def protection_reason(relpath: str) -> str | None:
     path = normalize_path(relpath)
 
+    if path in ORDINARY_PROGRESS_EXACT_PATHS or path.startswith("Lean/"):
+        return None
+
     if path in PROTECTED_EXACT_PATHS:
         return "protected exact path"
 
     for prefix in sorted(PROTECTED_PREFIXES):
         if path.startswith(prefix):
             return f"protected prefix {prefix}"
-
-    suffix = Path(path).suffix
-    if suffix in PROTECTED_SUFFIXES:
-        return f"protected suffix {suffix}"
 
     return None
 
@@ -118,8 +117,6 @@ class ProtectedSurfaceDiffAudit(unittest.TestCase):
             "LICENSE-CODE.md",
             "canon/firewall-boundary-hypothesis.md",
             "papers/candidates/located-not-forced/example.md",
-            "Lean/GUFormalization.lean",
-            "tests/big-swing/R4_TwoArena.lean",
             "lab/active-research/anomaly/example.md",
             "absorbed/gu-source-action/RS-BRST-CARRIER-PACKET-2026-07-05.md",
             "lab/sources/claim-ledger.md",
@@ -133,6 +130,11 @@ class ProtectedSurfaceDiffAudit(unittest.TestCase):
         allowed_examples = {
             "process_gates/protected_surface_diff_audit.py",
             "process_gates/README.md",
+            "papers/README.md",
+            "papers/candidates/README.md",
+            "Lean/GUFormalization.lean",
+            "Lean/GUFormalization/GroupActionFixedPoints.lean",
+            "tests/big-swing/R4_TwoArena.lean",
             "tests/README.md",
             "tests/pati-salam/run_pati_salam_chain_checks.py",
             "REPRODUCE.md",
