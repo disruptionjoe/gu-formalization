@@ -16,6 +16,8 @@ Checks:
   (IV)  For the regular left action of a finite cyclic group on itself,
         equivariant maps are determined uniquely by their value at identity
         and their count is the full codomain size, not its fixed-point count.
+  (V)   For a transitive finite group action, equivariant maps are determined
+        by the values fixed by one point stabilizer, including non-free cases.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -102,6 +104,27 @@ def regular_equivariant_maps(order, grades, alpha):
         for mapping in all_valuations(list(range(order)), grades)
         if regular_equivariant(mapping, order, alpha)
     ]
+
+
+def equivariant(mapping, group, domain, act_domain, act_codomain):
+    return all(
+        mapping[act_domain(g, a)] == act_codomain(g, mapping[a])
+        for g in group
+        for a in domain
+    )
+
+
+def equivariant_maps(group, domain, grades, act_domain, act_codomain):
+    return [
+        mapping
+        for mapping in all_valuations(domain, grades)
+        if equivariant(mapping, group, domain, act_domain, act_codomain)
+    ]
+
+
+def stabilizer_fixed_values(group, basepoint, grades, act_domain, act_codomain):
+    stabilizer = [g for g in group if act_domain(g, basepoint) == basepoint]
+    return [b for b in grades if all(act_codomain(g, b) == b for g in stabilizer)]
 
 
 B2 = [0, 1]
@@ -247,12 +270,75 @@ check(
     len(regular_equivariant_maps(2, [], {})) == 0,
 )
 
+print("(V) TRANSITIVE ORBIT-STABILIZER EQUIVARIANT-MAP CLASSIFICATION:")
+transitive_cases = (
+    (
+        "C2 trivial singleton / boundary-fixing flip",
+        list(range(2)),
+        [0],
+        B3,
+        lambda _g, _a: 0,
+        lambda g, b: cyclic_act(flip3, g, b),
+    ),
+    (
+        "C4 on two cosets / C4 regular codomain",
+        list(range(4)),
+        list(range(2)),
+        list(range(4)),
+        lambda g, a: (g + a) % 2,
+        lambda g, b: (g + b) % 4,
+    ),
+    (
+        "C4 on two cosets / parity codomain",
+        list(range(4)),
+        list(range(2)),
+        B2,
+        lambda g, a: (g + a) % 2,
+        lambda g, b: (g + b) % 2,
+    ),
+)
+for label, group, domain, grades, act_domain, act_codomain in transitive_cases:
+    maps = equivariant_maps(group, domain, grades, act_domain, act_codomain)
+    for basepoint in domain:
+        fixed = stabilizer_fixed_values(
+            group, basepoint, grades, act_domain, act_codomain
+        )
+        basepoint_values = [mapping[basepoint] for mapping in maps]
+        check(
+            f"{label}, basepoint={basepoint}: |Eqv(A,B)|=|B^Stab|",
+            len(maps) == len(fixed),
+            f"actual={len(maps)}, expected={len(fixed)}",
+        )
+        check(
+            f"{label}, basepoint={basepoint}: evaluation is bijective",
+            sorted(basepoint_values) == sorted(fixed),
+        )
+
+check(
+    "non-free singleton action retains only the boundary value",
+    len(equivariant_maps(
+        list(range(2)), [0], B3, lambda _g, _a: 0,
+        lambda g, b: cyclic_act(flip3, g, b)
+    )) == 1,
+    "the full stabilizer removes below and above",
+)
+check(
+    "C4 two-coset action can have no equivariant map",
+    len(equivariant_maps(
+        list(range(4)), list(range(2)), list(range(4)),
+        lambda g, a: (g + a) % 2, lambda g, b: (g + b) % 4
+    )) == 0,
+    "the order-two stabilizer acts fixed-point-freely on the codomain",
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
 print("  unique valuation on an empty domain.")
 print("  For acted-on domains, they confirm the separate regular-action theorem:")
 print("  equivariant maps are seeded freely at identity and counted by |B|.")
+print("  For general transitive domains, they confirm the sharper orbit-stabilizer")
+print("  theorem: only basepoint values fixed by its stabilizer seed equivariant maps.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

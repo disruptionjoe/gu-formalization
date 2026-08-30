@@ -56,8 +56,8 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein transversality, corrected finite star-semilinear image typing with explicit null-image premises and zero `intersectionDifference`, and 2-primary identities; no physical-real-form, Fredholm, observed-handedness, function-space, or generation-selection theorem | `LEAN-VERIFIED`; authoritative finite located-not-forced certificate, with T3 correction follow-through verified 2026-08-22; prior release receipt remains the 2026-07-23 zenodo package `VERIFICATION.md` |
 | `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` | Finite census encoding for the LNF paper; exhaustiveness/closure by `decide` over the encoded item list; census numerals are imported data, not derivations | `LEAN-VERIFIED`; 2026-07-23 zenodo receipt (`papers/candidates/located-not-forced/zenodo-package-v1.0.0/VERIFICATION.md`) |
 | `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | `LEAN-VERIFIED`; 2026-07-22 baseline |
-| `Lean/GUFormalization/GroupActionFixedPoints.lean` | Pure set-level valuation-space classification: invariant valuations are equivalent to functions into the common fixed-point subtype; finite domains and codomains satisfy the exact census `|Inv| = |Fix|^|A|`, including the inhabited zero criterion and empty-domain singleton exception; exact no-invariant corollaries follow. No physical group action, observer, dynamics, selection or GU verdict is encoded | `LEAN-VERIFIED`; 2026-08-29 targeted and serialized default-target build; theorem-level receipt reports only standard Lean/mathlib axioms and the finite exhaustive controls include the exponent-zero edge case |
-| `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-29 serialized default-target build; informational output checked with the proof module |
+| `Lean/GUFormalization/GroupActionFixedPoints.lean` | Pure set-level valuation-space classification: invariant valuations are equivalent to functions into the common fixed-point subtype and satisfy `|Inv| = |Fix|^|A|`; separately, equivariant maps from a transitive acted-on domain are equivalent to basepoint values fixed by its stabilizer and satisfy `|Eqv(A,B)| = |B^Stab(a₀)|` for finite types. The regular torsor is the free `|B|` special case. No physical group action, observer, dynamics, selection or GU verdict is encoded | `LEAN-VERIFIED`; 2026-08-30 targeted and serialized default-target build; theorem-level receipt exposes the classical transporter choice and only standard Lean/mathlib axioms; W99 includes non-free singleton and C4/coset hostile controls |
+| `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
 | `Lean/GUFormalization/CoflipCore.lean` | Concrete Q×Q coflip accounting, Part A derived | `LEAN-VERIFIED`; 2026-07-22 baseline |
@@ -163,6 +163,18 @@ C2 identity and C3 cycle controls, including the hostile fixed-point-free case
 where regular equivariant maps exist despite an empty common fixed set. This is
 pure set-level mathematics and supplies no physical action or physical domain action,
 observer, selector, carrier or GU verdict.
+
+**Transitive orbit–stabilizer equivariance census — DONE 2026-08-30.** For any
+transitive `G`-set `A` and chosen basepoint `a₀`, Lean now identifies the
+complete equivariant-map space `A → B` with values fixed by `Stab(a₀)`.
+A classical transporter constructs the inverse, and a separate lemma proves
+that its value is independent of the representative. Finite types satisfy
+`|Eqv(A,B)| = |B^Stab(a₀)|`, and an equivariant map exists exactly when the
+stabilizer-fixed subtype is inhabited. W99 tests non-free actions where the
+stabilizer leaves one value, all values, or no values; the earlier regular
+torsor theorem is recovered as the trivial-stabilizer case. This does not yet
+form the quotient-indexed product across several domain orbits and supplies no
+physical action, observer, dynamics, selector, carrier or GU verdict.
 
 ## Part D: lock and progress contract
 

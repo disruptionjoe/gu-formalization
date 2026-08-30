@@ -20,6 +20,10 @@ open GUFormalization.GroupActionFixedPoints
 #print axioms regularEquivariantMapEquivValue
 #print axioms existsUnique_regularEquivariantMap_eval
 #print axioms natCard_regularEquivariantMap
+#print axioms equivariantMapEquivStabilizerFixedValue
+#print axioms natCard_equivariantMap
+#print axioms nonempty_equivariantMap_iff_stabilizerFixedValue
+#print axioms stabilizerFixedValues_regular_one
 #print axioms exists_pointwiseInvariant_iff_commonFixedPoints_nonempty
 #print axioms commonFixedPoints_eq_empty_of_fixpointFreeElement
 #print axioms no_pointwiseInvariant_of_commonFixedPoints_eq_empty

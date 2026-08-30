@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 93817639e638
+revision_basis: 982c81d79c0d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The transitive acted-on-domain theorem is now Lean-verified: for any
+    transitive G-set A and basepoint a0, evaluation identifies equivariant maps
+    A -> B exactly with codomain values fixed by Stab(a0). For finite types the
+    exact count is |Eqv(A,B)| = |B^Stab(a0)|, and existence is equivalent to
+    that fixed-value subtype being inhabited. The classical transporter is
+    explicit in the axiom receipt and representative independence is proved.
+    W99 checks non-free singleton and C4-on-two-cosets cases where the
+    stabilizer leaves one, all or no codomain values. The regular left torsor
+    remains the trivial-stabilizer |B| special case. This is pure set-level
+    mathematics; it constructs no physical action, observer, dynamics,
+    selector or GU verdict, and source, action, ledger, SG4, prediction,
+    confirmation, canon, paper, release, grade and public posture do not move.
     The acted-on-domain boundary is now Lean-verified: equivariant maps from
     the regular left G-torsor are exactly determined by one freely chosen
     codomain value through evaluation at the identity, so for finite codomains
@@ -4497,60 +4509,30 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Rebuild the substantial repository frontier and select the strongest
-  disjoint non-B2 gate. Follow A1: check for a fired source-to-proof reopener,
-  then a newly open ledger row, then concrete result hardening. The source
-  register remains ADHERED 106 / PARTIAL 4 / UNTYPED 1; its five residual rows
-  require their exact registered source, map, selector or target packets.
-  ledger v0.263 remains 91 terminal and 0 open rows, and the current named B2
-  action-root set is empty. Do not synthesize CBRS-1AC, transfer K95 ownership,
-  choose a reality convention or execute downstream physicalization owners.
-
-  Reopen M-M14/P-L14 only on their named family/base-integral or absolute-rank
-  inputs; reopen maintenance only on a concrete currency or detector regression.
-  The v0.3--v0.17, v0.40--v0.56 second-layer, v0.83--v0.100 K77,
-  v0.150--v0.172 K77 and complete K77 Wave-2 historical cohorts are current at
-  15/15, 15/15, 18/18, 23/23 and 24/24.
-  Wave-2 has four hostile controls; reopen only on campaign/wave identity drift,
-  required emission loss, or version-local evidence regression. Reopen the ledger-derived cohorts
-  only on a broken predecessor, cycle, target skip, revoked append-only
-  authority or version-local regression. Frontmatter custody reopens only on a
-  concrete population or mapping drift.
-
-  Reopen the current K77 exact/tangent bank only on dependency or payload drift,
-  a malformed/red producer summary, a new consumer failure or a concrete
-  certificate-shape defect.
-
-  Probe authorship is zero across L1--L4 and 1,017 probes; reopen only on a
-  fresh regression or concrete missed/false-positive detector shape. Paper
-  lifecycle navigation is green at four candidate-inventory and five root-map
-  assertions. Reopen it only on tracked inventory drift, a broken local link,
-  or loss of an explicit publication boundary; neither control independently
-  verifies science or a live venue, and no publication or release action is
-  implied. The remaining nonprotected
-  historical/pointer cohort is 6/6
-  green, the needs/provides ratchet has zero unadjudicated pairs, LT-GR4 is
-  independently current at 3/3 with four hostile mutations caught, and the
-  previously recorded full census was 421/2/423; the two remaining red gates
-  are now repaired. Reopen that cohort only on
-  broken append-only ancestry, a version-local assertion regression, a new
-  typed selected-K77 bridge for one of the three TWG1 pairs or a fresh
-  unadjudicated needs/provides pair. Reopen LT-GR4 only if its live/registry
-  agreement, bounded precise-impossibility id, non-finder source or focused
-  hostile control regresses.
+  disjoint non-B2 gate. Follow A1: first check exact source-to-proof reopeners,
+  then newly open ledger rows, then concrete result hardening. The source
+  register remains ADHERED 106 / PARTIAL 4 / UNTYPED 1; ledger v0.263 remains
+  91 terminal and 0 open rows; the current named B2 action-root set is empty.
+  Do not synthesize CBRS-1AC, transfer K95 ownership, choose a reality
+  convention or execute downstream physicalization owners.
 
   Reopen B2 only on a source-authenticated or owner-native coefficient-complete
-  K77 action, genuine real Spin-equivariant bridge, or independently normalized
-  action class with complete variational ownership. M-H5 still needs the global
+  K77 action, genuine real Spin-equivariant bridge or independently normalized
+  action class with complete variational ownership. M-H5 needs its global
   family and horizontal superconnection; M-M18 needs owner-frozen DESI/Planck
   inputs; boundary work needs an owned action/operator/domain packet. Protected
   publication payloads, P-M25 and TWG1 require separate authority.
 
-  The group-action valuation-space classification, exact finite census,
-  inhabited/empty-domain edge cases and default-target axiom receipt are
-  current. Reopen this proof-hardening arc only on a semantic counterexample,
-  theorem elaboration failure, unexpected axiom dependency, certificate-map
-  drift or a genuinely stronger source-owned mathematical statement; do not
-  infer a physical action or selection mechanism from it.
+  The pointwise-invariance census, regular-action boundary and transitive
+  orbit-stabilizer classification are current. The next honest mathematical
+  extension is the quotient-indexed product over multiple domain orbits with
+  explicit representative/choice custody and finite dependent-product
+  cardinality. Otherwise reopen proof hardening only on a semantic
+  counterexample, elaboration failure, unexpected axiom dependency,
+  certificate-map drift or a fresh measured regression. Probe authorship,
+  paper navigation, status currency and historical cohorts reopen only on
+  their concrete audited drift; no physical action, selection mechanism,
+  publication, release or scientific-status movement is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

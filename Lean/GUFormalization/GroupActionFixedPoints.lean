@@ -1,4 +1,5 @@
 import Mathlib.Algebra.Group.Action.Defs
+import Mathlib.Algebra.Group.Action.Pretransitive
 import Mathlib.Data.Set.Lattice
 import Mathlib.SetTheory.Cardinal.Finite
 
@@ -39,6 +40,21 @@ def RegularEquivariant (f : G → B) : Prop :=
 
 /-- The subtype of equivariant maps from the regular left `G`-torsor. -/
 abbrev RegularEquivariantMap := {f : G → B // RegularEquivariant (G := G) f}
+
+/-- A map intertwining the supplied actions on its domain and codomain. -/
+def Equivariant [MulAction G A] (f : A → B) : Prop :=
+  ∀ g : G, ∀ a : A, f (g • a) = g • f a
+
+/-- The subtype of maps intertwining the supplied actions. -/
+abbrev EquivariantMap [MulAction G A] := {f : A → B // Equivariant (G := G) f}
+
+/-- Values fixed by every group element stabilizing `a₀`. -/
+def stabilizerFixedValues [MulAction G A] (a₀ : A) : Set B :=
+  {b | ∀ g : G, g • a₀ = a₀ → g • b = b}
+
+/-- The subtype of values fixed by the stabilizer of `a₀`. -/
+abbrev StabilizerFixedValue [MulAction G A] (a₀ : A) :=
+  {b : B // b ∈ stabilizerFixedValues (G := G) a₀}
 
 theorem mem_commonFixedPoints_iff (b : B) :
     b ∈ commonFixedPoints (G := G) (B := B) ↔ ∀ g : G, g • b = b := by
@@ -143,6 +159,83 @@ codomain values, not merely the common fixed values. -/
 theorem natCard_regularEquivariantMap [Finite B] :
     Nat.card (RegularEquivariantMap (G := G) (B := B)) = Nat.card B := by
   exact Nat.card_congr (regularEquivariantMapEquivValue (G := G) (B := B))
+
+private noncomputable def transporter [MulAction G A]
+    [MulAction.IsPretransitive G A] (a₀ a : A) : G :=
+  Classical.choose (MulAction.exists_smul_eq G a₀ a)
+
+private theorem transporter_spec [MulAction G A]
+    [MulAction.IsPretransitive G A] (a₀ a : A) :
+    transporter (G := G) a₀ a • a₀ = a :=
+  Classical.choose_spec (MulAction.exists_smul_eq G a₀ a)
+
+/-- A stabilizer-fixed value has representative-independent transport along
+its orbit. -/
+private theorem stabilizerFixed_transport [MulAction G A]
+    (a₀ : A) {b : B}
+    (hb : b ∈ stabilizerFixedValues (G := G) a₀)
+    {x y : G} (hxy : x • a₀ = y • a₀) :
+    x • b = y • b := by
+  have hstab : (y⁻¹ * x) • a₀ = a₀ := by
+    rw [mul_smul, hxy]
+    simp
+  have hfix := hb (y⁻¹ * x) hstab
+  calc
+    x • b = y • ((y⁻¹ * x) • b) := by simp [mul_smul]
+    _ = y • b := congrArg (fun z : B => y • z) hfix
+
+/-- On a transitive domain, evaluation at `a₀` classifies equivariant maps
+by the values fixed by the stabilizer of `a₀`. The inverse uses a classical
+choice of transporter; representative independence is proved above. -/
+noncomputable def equivariantMapEquivStabilizerFixedValue [MulAction G A]
+    [MulAction.IsPretransitive G A] (a₀ : A) :
+    EquivariantMap (G := G) (A := A) (B := B) ≃
+      StabilizerFixedValue (G := G) (B := B) a₀ where
+  toFun f :=
+    ⟨f.1 a₀, by
+      intro g hg
+      rw [← f.2 g a₀, hg]⟩
+  invFun b :=
+    ⟨(fun a : A => transporter (G := G) a₀ a • (b.1 : B)), by
+      intro g a
+      rw [← mul_smul]
+      apply stabilizerFixed_transport (G := G) a₀ b.2
+      rw [transporter_spec (G := G) a₀ (g • a),
+        mul_smul, transporter_spec (G := G) a₀ a]⟩
+  left_inv f := by
+    apply Subtype.ext
+    funext a
+    change transporter (G := G) a₀ a • f.1 a₀ = f.1 a
+    rw [← f.2 (transporter (G := G) a₀ a) a₀,
+      transporter_spec (G := G) a₀ a]
+  right_inv b := by
+    apply Subtype.ext
+    change transporter (G := G) a₀ a₀ • b.1 = b.1
+    exact b.2 _ (transporter_spec (G := G) a₀ a₀)
+
+/-- Finite equivariant maps from a transitive domain are counted by the values
+fixed by one point stabilizer. -/
+theorem natCard_equivariantMap [MulAction G A]
+    [MulAction.IsPretransitive G A] [Finite A] [Finite B] (a₀ : A) :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := B)) =
+      Nat.card (StabilizerFixedValue (G := G) (B := B) a₀) := by
+  exact Nat.card_congr
+    (equivariantMapEquivStabilizerFixedValue (G := G) (B := B) a₀)
+
+/-- A transitive-domain equivariant map exists exactly when the codomain has a
+value fixed by the stabilizer of the chosen basepoint. -/
+theorem nonempty_equivariantMap_iff_stabilizerFixedValue [MulAction G A]
+    [MulAction.IsPretransitive G A] (a₀ : A) :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔
+      Nonempty (StabilizerFixedValue (G := G) (B := B) a₀) :=
+  (equivariantMapEquivStabilizerFixedValue (G := G) (B := B) a₀).nonempty_congr
+
+/-- The stabilizer of the identity for the regular left action is trivial, so
+every codomain value satisfies its fixed-value condition. -/
+theorem stabilizerFixedValues_regular_one :
+    stabilizerFixedValues (G := G) (A := G) (B := B) 1 = Set.univ := by
+  ext b
+  simp [stabilizerFixedValues]
 
 /-- On an inhabited domain, an invariant valuation exists exactly when the common
 fixed-point set is nonempty. -/
