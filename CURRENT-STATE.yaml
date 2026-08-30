@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8f511b1529c8
+revision_basis: 2fae593d41aa
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,15 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The set-level group-action fixed-point classification is now Lean-verified:
+    pointwise invariance is equivalent to valuation-range containment in the
+    common fixed-point set, with empty-fixed-set and fixed-point-free-element
+    no-invariant corollaries. The two paper-navigation audits are green after
+    switching their inventories from incidental filesystem residue to tracked
+    repository truth and repairing the two README maps. This closes a formal
+    proof gap and five navigation assertions; it does not construct a physical
+    action, falsify or validate GU, change scientific paper content, publish a
+    release, or move claim grade, canon, or public posture.
     The LT-GR4 independence gate now verifies the already-filed independent
     2026-08-24 disposition through the live phenomenology register instead of
     requiring immutable ledger v0.263 to replace its original finder citation.
@@ -4482,15 +4491,16 @@ next_condition: >-
 
   Probe authorship is zero across L1--L4 and 1,017 probes; reopen only on a
   fresh regression or concrete missed/false-positive detector shape. Paper
-  lifecycle navigation remains red at three candidate-inventory assertions and
-  two root-map assertions. Both navigation READMEs are ordinary governed
-  Progress scope and should be repaired when this hardening arc is selected;
-  neither control independently verifies science or a live venue, and no
-  publication or release action is implied. The remaining nonprotected
+  lifecycle navigation is green at four candidate-inventory and five root-map
+  assertions. Reopen it only on tracked inventory drift, a broken local link,
+  or loss of an explicit publication boundary; neither control independently
+  verifies science or a live venue, and no publication or release action is
+  implied. The remaining nonprotected
   historical/pointer cohort is 6/6
   green, the needs/provides ratchet has zero unadjudicated pairs, LT-GR4 is
   independently current at 3/3 with four hostile mutations caught, and the
-  full census is 421/2/423 with no nonprotected red. Reopen that cohort only on
+  previously recorded full census was 421/2/423; the two remaining red gates
+  are now repaired. Reopen that cohort only on
   broken append-only ancestry, a version-local assertion regression, a new
   typed selected-K77 bridge for one of the three TWG1 pairs or a fresh
   unadjudicated needs/provides pair. Reopen LT-GR4 only if its live/registry

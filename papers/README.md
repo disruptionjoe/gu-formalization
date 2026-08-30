@@ -23,7 +23,6 @@ subfolders at a time, so its location always tells the truth about where it stan
   - [Generation Number Located Not Forced](candidates/generation-number-located-not-forced/) - current
     generation-number located-not-forced packet.
   - [Keep And Grade Loop Cost](candidates/keep-and-grade-loop-cost/) - loop-cost / keep-and-grade packet.
-  - [Located, Not Forced](candidates/located-not-forced/) - lead result; `.tex` is the arXiv submission source.
   - [Observer Value Selection](candidates/observer-value-selection/) - observer/value-selection candidate
     (the broader physical-realization draft; distinct from the published theorem paper).
   - [One Residual Complete Picture](candidates/one-residual-complete-picture/) - one-residual synthesis

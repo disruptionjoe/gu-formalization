@@ -10,6 +10,7 @@ candidate and published status.
 from __future__ import annotations
 
 import re
+import subprocess
 import unittest
 from dataclasses import dataclass
 from pathlib import Path
@@ -64,10 +65,18 @@ def local_links(text: str) -> list[LocalLink]:
 
 
 def live_candidate_directories() -> set[str]:
+    prefix = CANDIDATES.relative_to(ROOT).as_posix() + "/"
+    result = subprocess.run(
+        ["git", "ls-files", "--", prefix],
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        check=True,
+    )
     return {
-        path.name
-        for path in CANDIDATES.iterdir()
-        if path.is_dir() and not path.name.startswith((".", "__"))
+        line.removeprefix(prefix).split("/", 1)[0]
+        for line in result.stdout.splitlines()
+        if "/" in line.removeprefix(prefix)
     }
 
 
@@ -82,9 +91,9 @@ def candidate_directory_link_counts(text: str) -> dict[str, int]:
 
 def candidates_with_staging_notes() -> set[str]:
     return {
-        path.name
-        for path in CANDIDATES.iterdir()
-        if path.is_dir() and (path / "STAGING-NOTES.md").exists()
+        candidate
+        for candidate in live_candidate_directories()
+        if (CANDIDATES / candidate / "STAGING-NOTES.md").is_file()
     }
 
 

@@ -10,6 +10,7 @@ Joe-confirmed boundaries around candidate and published status.
 from __future__ import annotations
 
 import re
+import subprocess
 import unittest
 from dataclasses import dataclass
 from pathlib import Path
@@ -71,10 +72,18 @@ def live_stage_directories() -> set[str]:
 
 
 def live_candidate_directories() -> set[str]:
+    prefix = CANDIDATES.relative_to(ROOT).as_posix() + "/"
+    result = subprocess.run(
+        ["git", "ls-files", "--", prefix],
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        check=True,
+    )
     return {
-        path.name
-        for path in CANDIDATES.iterdir()
-        if path.is_dir() and not path.name.startswith((".", "__"))
+        line.removeprefix(prefix).split("/", 1)[0]
+        for line in result.stdout.splitlines()
+        if "/" in line.removeprefix(prefix)
     }
 
 
@@ -86,10 +95,20 @@ def candidate_directory_reference_counts(text: str) -> dict[str, int]:
 
 
 def published_payload_entries() -> list[str]:
+    prefix = PUBLISHED.relative_to(ROOT).as_posix() + "/"
+    result = subprocess.run(
+        ["git", "ls-files", "--", prefix],
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        check=True,
+    )
     return sorted(
-        path.name
-        for path in PUBLISHED.iterdir()
-        if path.name != "README.md" and not path.name.startswith((".", "__"))
+        {
+            line.removeprefix(prefix).split("/", 1)[0]
+            for line in result.stdout.splitlines()
+            if line.removeprefix(prefix) != "README.md"
+        }
     )
 
 
@@ -137,9 +156,13 @@ class PapersReadmeLifecycleMapAudit(unittest.TestCase):
         missing = [phrase for phrase in BOUNDARY_PHRASES if phrase not in normalized]
         self.assertEqual([], missing)
 
-    def test_published_empty_marker_matches_empty_published_folder(self) -> None:
-        self.assertEqual([], published_payload_entries())
-        self.assertIn("Published:** none yet", self.text)
+    def test_published_map_matches_tracked_published_payload(self) -> None:
+        entries = published_payload_entries()
+        self.assertNotEqual([], entries)
+        self.assertNotIn("Published:** none yet", self.text)
+        for entry in entries:
+            with self.subTest(entry=entry):
+                self.assertIn(f"published/{entry}", self.text)
 
 
 if __name__ == "__main__":
