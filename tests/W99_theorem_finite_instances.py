@@ -21,6 +21,9 @@ Checks:
   (VI)  For an arbitrary finite group action, equivariant maps are determined
         by one stabilizer-fixed value per domain orbit and their count is the
         product of the orbitwise fixed-value counts.
+  (VII) Stabilizer-fixed seed spaces are transported bijectively between orbit
+        representatives; free domain actions and trivial codomain actions both
+        reduce the census to |B| raised to the number of domain orbits.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -420,6 +423,111 @@ check(
     )) == 1,
 )
 
+print("(VII) REPRESENTATIVE TRANSPORT AND QUOTIENT CLOSED FORMS:")
+representative_transport_cases = (
+    (
+        "free C2 orbit / boundary-fixing codomain",
+        list(range(2)), [0, 1], B3,
+        lambda g, a: (g + a) % 2,
+        lambda g, b: cyclic_act(flip3, g, b),
+        0, 1,
+    ),
+    (
+        "fixed C2 orbit / boundary-fixing codomain",
+        list(range(2)), [0], B3,
+        lambda _g, _a: 0,
+        lambda g, b: cyclic_act(flip3, g, b),
+        0, 1,
+    ),
+)
+for label, group, domain, grades, act_domain, act_codomain, a, g in representative_transport_cases:
+    source = stabilizer_fixed_values(group, a, grades, act_domain, act_codomain)
+    target_a = act_domain(g, a)
+    target = stabilizer_fixed_values(group, target_a, grades, act_domain, act_codomain)
+    transported = sorted(act_codomain(g, b) for b in source)
+    check(
+        f"{label}: codomain action transports stabilizer-fixed seeds bijectively",
+        transported == sorted(target),
+        f"source={source}, transported={transported}, target={target}",
+    )
+    check(
+        f"{label}: orbit-representative seed count is unchanged",
+        len(source) == len(target),
+    )
+
+free_action_cases = (
+    (
+        "two free C2 orbits / boundary-fixing codomain",
+        list(range(2)), list(range(4)), B3,
+        lambda g, a: (a // 2) * 2 + ((a + g) % 2),
+        lambda g, b: cyclic_act(flip3, g, b),
+    ),
+    (
+        "two regular C3 orbits / regular codomain",
+        list(range(3)), list(range(6)), list(range(3)),
+        lambda g, a: (a // 3) * 3 + ((a + g) % 3),
+        lambda g, b: (g + b) % 3,
+    ),
+    (
+        "empty free C2 domain / empty codomain",
+        list(range(2)), [], [],
+        lambda _g, a: a,
+        lambda _g, b: b,
+    ),
+)
+for label, group, domain, grades, act_domain, act_codomain in free_action_cases:
+    representatives = orbit_representatives(group, domain, act_domain)
+    is_free = all(
+        g == 0 or act_domain(g, a) != a
+        for g in group for a in domain
+    )
+    actual = len(equivariant_maps(
+        group, domain, grades, act_domain, act_codomain
+    ))
+    expected = len(grades) ** len(representatives)
+    check(f"{label}: domain action is free", is_free)
+    check(
+        f"{label}: |Eqv(A,B)|=|B|^|A/G|",
+        actual == expected,
+        f"actual={actual}, expected={len(grades)}^{len(representatives)}={expected}",
+    )
+
+trivial_codomain_cases = (
+    (
+        "mixed free/fixed C2 domain / trivial three-value codomain",
+        list(range(2)), [0, 1, 2], B3,
+        lambda g, a: (1 - a) if (g % 2 and a < 2) else a,
+        lambda _g, b: b,
+    ),
+    (
+        "regular-plus-coset C4 domain / trivial two-value codomain",
+        list(range(4)), list(range(6)), B2,
+        lambda g, a: (g + a) % 4 if a < 4 else 4 + ((g + a - 4) % 2),
+        lambda _g, b: b,
+    ),
+    (
+        "empty C2 domain / empty trivial codomain",
+        list(range(2)), [], [],
+        lambda _g, a: a,
+        lambda _g, b: b,
+    ),
+)
+for label, group, domain, grades, act_domain, act_codomain in trivial_codomain_cases:
+    representatives = orbit_representatives(group, domain, act_domain)
+    is_trivial = all(
+        act_codomain(g, b) == b for g in group for b in grades
+    )
+    actual = len(equivariant_maps(
+        group, domain, grades, act_domain, act_codomain
+    ))
+    expected = len(grades) ** len(representatives)
+    check(f"{label}: codomain action is trivial", is_trivial)
+    check(
+        f"{label}: orbit-constant maps satisfy |Eqv(A,B)|=|B|^|A/G|",
+        actual == expected,
+        f"actual={actual}, expected={len(grades)}^{len(representatives)}={expected}",
+    )
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -430,6 +538,9 @@ print("  For general transitive domains, they confirm the sharper orbit-stabiliz
 print("  theorem: only basepoint values fixed by its stabilizer seed equivariant maps.")
 print("  For arbitrary domains, they confirm the orbit-product theorem: each orbit")
 print("  contributes its own stabilizer-fixed seed factor, including the empty product.")
+print("  Acting between orbit representatives transports those seed factors bijectively.")
+print("  Free domain actions and trivial codomain actions both reduce the product to")
+print("  |B|^|A/G|, with the empty quotient retaining its unique empty function.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

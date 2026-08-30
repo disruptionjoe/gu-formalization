@@ -373,6 +373,150 @@ theorem nonempty_equivariantMap_iff_forall_orbit_stabilizerFixedValue
       (G := G) (A := A) (B := B)).symm
         (fun ω => Classical.choice (h ω))⟩
 
+/-- Acting by `g` on the codomain transports stabilizer-fixed seeds from `a`
+to `g • a`. This makes the conjugacy invariance of the orbit factors explicit,
+rather than hiding it behind a chosen quotient representative. -/
+def stabilizerFixedValueEquiv_smul [MulAction G A] (g : G) (a : A) :
+    StabilizerFixedValue (G := G) (B := B) a ≃
+      StabilizerFixedValue (G := G) (B := B) (g • a) where
+  toFun b :=
+    ⟨g • b.1, by
+      intro h hh
+      have hconj : (g⁻¹ * h * g) • a = a := by
+        simpa [mul_smul] using congrArg (fun x : A => g⁻¹ • x) hh
+      have hfix := b.2 (g⁻¹ * h * g) hconj
+      calc
+        h • (g • b.1) = g • ((g⁻¹ * h * g) • b.1) := by simp [mul_smul]
+        _ = g • b.1 := congrArg (fun x : B => g • x) hfix⟩
+  invFun b :=
+    ⟨g⁻¹ • b.1, by
+      intro h hh
+      have hconj : (g * h * g⁻¹) • (g • a) = g • a := by
+        simpa [mul_smul] using congrArg (fun x : A => g • x) hh
+      have hfix := b.2 (g * h * g⁻¹) hconj
+      calc
+        h • (g⁻¹ • b.1) = g⁻¹ • ((g * h * g⁻¹) • b.1) := by
+          simp [mul_smul]
+        _ = g⁻¹ • b.1 := congrArg (fun x : B => g⁻¹ • x) hfix⟩
+  left_inv b := by
+    apply Subtype.ext
+    simp
+  right_inv b := by
+    apply Subtype.ext
+    simp
+
+/-- Stabilizer-fixed seed counts do not depend on which representative of an
+orbit is used. -/
+theorem natCard_stabilizerFixedValue_smul [MulAction G A] [Finite B]
+    (g : G) (a : A) :
+    Nat.card (StabilizerFixedValue (G := G) (B := B) a) =
+      Nat.card (StabilizerFixedValue (G := G) (B := B) (g • a)) := by
+  exact Nat.card_congr (stabilizerFixedValueEquiv_smul (G := G) (B := B) g a)
+
+/-- Under a free domain action, every codomain value is fixed by every point
+stabilizer because each point stabilizer is trivial. -/
+def stabilizerFixedValueEquivValue_of_isCancelSMul [MulAction G A]
+    [IsCancelSMul G A] (a : A) :
+    StabilizerFixedValue (G := G) (B := B) a ≃ B where
+  toFun b := b.1
+  invFun b :=
+    ⟨b, by
+      intro g hg
+      have hgone : g = 1 := IsCancelSMul.eq_one_of_smul hg
+      simp [hgone]⟩
+  left_inv b := by
+    apply Subtype.ext
+    rfl
+  right_inv _ := rfl
+
+/-- For a free action on the domain, equivariant maps are exactly arbitrary
+codomain-valued functions on the orbit quotient. -/
+noncomputable def equivariantMapEquivOrbitValuation_of_isCancelSMul
+    [MulAction G A] [IsCancelSMul G A] :
+    EquivariantMap (G := G) (A := A) (B := B) ≃
+      (OrbitIndex (G := G) (A := A) → B) :=
+  (equivariantMapEquivOrbitStabilizerFixedSection
+    (G := G) (A := A) (B := B)).trans
+      (Equiv.piCongrRight (fun ω =>
+        stabilizerFixedValueEquivValue_of_isCancelSMul
+          (G := G) (B := B)
+          (orbitRepresentative (G := G) (A := A) ω)))
+
+/-- For a finite free domain action, one arbitrary codomain value may be chosen
+per domain orbit. -/
+theorem natCard_equivariantMap_of_isCancelSMul [MulAction G A]
+    [IsCancelSMul G A] [Fintype A] [Finite B] :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := B)) =
+      Nat.card B ^ Nat.card (OrbitIndex (G := G) (A := A)) := by
+  rw [Nat.card_congr
+    (equivariantMapEquivOrbitValuation_of_isCancelSMul
+      (G := G) (A := A) (B := B))]
+  exact Nat.card_fun
+
+/-- On an inhabited free domain, an equivariant map exists exactly when the
+codomain is inhabited. -/
+theorem nonempty_equivariantMap_iff_nonempty_of_isCancelSMul [MulAction G A]
+    [IsCancelSMul G A] [Nonempty A] :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔ Nonempty B := by
+  constructor
+  · rintro ⟨f⟩
+    obtain ⟨a⟩ := ‹Nonempty A›
+    exact ⟨(equivariantMapEquivOrbitValuation_of_isCancelSMul
+      (G := G) (A := A) (B := B) f) (Quotient.mk'' a)⟩
+  · rintro ⟨b⟩
+    exact ⟨(equivariantMapEquivOrbitValuation_of_isCancelSMul
+      (G := G) (A := A) (B := B)).symm (fun _ => b)⟩
+
+/-- If the codomain action is trivial, every codomain value is fixed by every
+point stabilizer. -/
+def stabilizerFixedValueEquivValue_of_trivial [MulAction G A] (a : A)
+    (htriv : ∀ g : G, ∀ b : B, g • b = b) :
+    StabilizerFixedValue (G := G) (B := B) a ≃ B where
+  toFun b := b.1
+  invFun b := ⟨b, fun g _ => htriv g b⟩
+  left_inv b := by
+    apply Subtype.ext
+    rfl
+  right_inv _ := rfl
+
+/-- With a trivial codomain action, equivariant maps are precisely the
+orbit-constant maps, hence arbitrary functions from the orbit quotient. -/
+noncomputable def equivariantMapEquivOrbitValuation_of_trivial [MulAction G A]
+    (htriv : ∀ g : G, ∀ b : B, g • b = b) :
+    EquivariantMap (G := G) (A := A) (B := B) ≃
+      (OrbitIndex (G := G) (A := A) → B) :=
+  (equivariantMapEquivOrbitStabilizerFixedSection
+    (G := G) (A := A) (B := B)).trans
+      (Equiv.piCongrRight (fun ω =>
+        stabilizerFixedValueEquivValue_of_trivial
+          (G := G) (B := B)
+          (orbitRepresentative (G := G) (A := A) ω) htriv))
+
+/-- For finite types with trivial codomain action, equivariant maps are counted
+by the codomain size raised to the number of domain orbits. -/
+theorem natCard_equivariantMap_of_trivial [MulAction G A] [Fintype A]
+    [Finite B] (htriv : ∀ g : G, ∀ b : B, g • b = b) :
+    Nat.card (EquivariantMap (G := G) (A := A) (B := B)) =
+      Nat.card B ^ Nat.card (OrbitIndex (G := G) (A := A)) := by
+  rw [Nat.card_congr
+    (equivariantMapEquivOrbitValuation_of_trivial
+      (G := G) (A := A) (B := B) htriv)]
+  exact Nat.card_fun
+
+/-- On an inhabited domain with trivial codomain action, an equivariant map
+exists exactly when the codomain is inhabited. -/
+theorem nonempty_equivariantMap_iff_nonempty_of_trivial [MulAction G A]
+    [Nonempty A] (htriv : ∀ g : G, ∀ b : B, g • b = b) :
+    Nonempty (EquivariantMap (G := G) (A := A) (B := B)) ↔ Nonempty B := by
+  constructor
+  · rintro ⟨f⟩
+    obtain ⟨a⟩ := ‹Nonempty A›
+    exact ⟨(equivariantMapEquivOrbitValuation_of_trivial
+      (G := G) (A := A) (B := B) htriv f) (Quotient.mk'' a)⟩
+  · rintro ⟨b⟩
+    exact ⟨(equivariantMapEquivOrbitValuation_of_trivial
+      (G := G) (A := A) (B := B) htriv).symm (fun _ => b)⟩
+
 /-- The stabilizer of the identity for the regular left action is trivial, so
 every codomain value satisfies its fixed-value condition. -/
 theorem stabilizerFixedValues_regular_one :
