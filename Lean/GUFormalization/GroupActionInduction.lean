@@ -15,6 +15,10 @@ induction-restriction adjunction
 
 `Hom_G (Ind_phi B, C) ≃ Hom_H (B, Res_phi C)`.
 
+Equivariant maps of supplied `H`-sets also descend to the quotient. The
+resulting induced maps are `G`-equivariant and preserve identities and
+composition, so the construction is functorial in the seed action.
+
 All actions introduced here are explicit named values rather than global
 instances. The results are pure set-level mathematics: they construct no
 physical group action, observer, selector, dynamics, or Geometric Unity
@@ -107,6 +111,75 @@ theorem induced_smul_mk [MulAction H B] (phi : H →* G)
     Quotient.map' (fun p : G × B => (x * p.1, p.2)) _
       (Quotient.mk'' (g, b)) = Quotient.mk'' (x * g, b)
   exact Quotient.map'_mk'' _ _ _
+
+/-! ## Functoriality in the supplied seed action -/
+
+/-- An equivariant map of supplied `H`-sets descends to the balanced-product
+quotient by applying it in the seed coordinate. -/
+def inducedMap [MulAction H B] [MulAction H C] (phi : H →* G)
+    (f : @EquivariantMap H B C _ inferInstance inferInstance) :
+    InducedCarrier (B := B) phi → InducedCarrier (B := C) phi := by
+  letI sourceAction := inductionPairMulAction (B := B) phi
+  letI targetAction := inductionPairMulAction (B := C) phi
+  intro q
+  exact Quotient.liftOn' q (fun p : G × B => inducedMk phi p.1 (f.1 p.2)) (by
+    intro a b hab
+    rw [MulAction.orbitRel_apply] at hab
+    rcases hab with ⟨h, hab⟩
+    rw [← hab]
+    apply Quotient.sound
+    refine ⟨h, ?_⟩
+    change
+      (b.1 * (phi h)⁻¹, h • f.1 b.2) =
+        (b.1 * (phi h)⁻¹, f.1 (h • b.2))
+    ext
+    · rfl
+    · exact (f.2 h b.2).symm)
+
+@[simp]
+theorem inducedMap_mk [MulAction H B] [MulAction H C] (phi : H →* G)
+    (f : @EquivariantMap H B C _ inferInstance inferInstance)
+    (g : G) (b : B) :
+    inducedMap phi f (inducedMk phi g b) = inducedMk phi g (f.1 b) :=
+  rfl
+
+/-- Seed maps induce `G`-equivariant maps on the induced carriers. -/
+theorem inducedMap_equivariant [MulAction H B] [MulAction H C]
+    (phi : H →* G)
+    (f : @EquivariantMap H B C _ inferInstance inferInstance)
+    (g : G) (x : InducedCarrier (B := B) phi) :
+    inducedMap phi f
+        (@SMul.smul G (InducedCarrier (B := B) phi)
+          (inducedMulAction phi).toSMul g x) =
+      @SMul.smul G (InducedCarrier (B := C) phi)
+        (inducedMulAction phi).toSMul g (inducedMap phi f x) := by
+  induction x using Quotient.inductionOn'
+  case _ p => rfl
+
+/-- The induced map of the identity seed map is the identity. -/
+theorem inducedMap_id [MulAction H B] (phi : H →* G)
+    (x : InducedCarrier (B := B) phi) :
+    inducedMap phi
+        (⟨id, by intro h b; rfl⟩ :
+          @EquivariantMap H B B _ inferInstance inferInstance) x = x := by
+  induction x using Quotient.inductionOn'
+  case _ p => rfl
+
+/-- Induction preserves composition of equivariant seed maps. -/
+theorem inducedMap_comp {D : Type*} [MulAction H B] [MulAction H C]
+    [MulAction H D] (phi : H →* G)
+    (f : @EquivariantMap H B C _ inferInstance inferInstance)
+    (g : @EquivariantMap H C D _ inferInstance inferInstance)
+    (x : InducedCarrier (B := B) phi) :
+    inducedMap phi g (inducedMap phi f x) =
+      inducedMap phi
+        (⟨g.1 ∘ f.1, by
+          intro h b
+          change g.1 (f.1 (h • b)) = h • g.1 (f.1 b)
+          rw [f.2, g.2]⟩ :
+          @EquivariantMap H B D _ inferInstance inferInstance) x := by
+  induction x using Quotient.inductionOn'
+  case _ p => rfl
 
 /-- `G`-equivariant maps out of the induced carrier. -/
 abbrev InducedEquivariantMap [MulAction H B] [MulAction G C]

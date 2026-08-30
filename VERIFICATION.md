@@ -35,7 +35,9 @@ a compact verification package, and states plainly what would falsify the leadin
 ## What is proved / computed / imported / conjectural
 
 - **PROVED (L1):** flagship (a) as pure set-level math; several (c) cores (incl. a Lean-checked CRT
-  split); the no-local-positive-metric theorem (free case); and two finite
+  split); the no-local-positive-metric theorem (free case); functoriality of
+  set-level subgroup induction in equivariant seed maps and naturality of the
+  representative-free Mackey fiber decomposition; and two finite
   certificate deductions: the supplied Shiab decomposition rows give complex
   chiral multiplicities `[[0,2],[2,0]]`, while an explicit left inverse for an
   eliminated block plus Schur-complement injectivity forces the abstract block

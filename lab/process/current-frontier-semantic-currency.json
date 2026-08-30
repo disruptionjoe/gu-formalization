@@ -252,6 +252,8 @@
       "global_representative_coproduct": "LEAN_VERIFIED_CHOICE_DEPENDENT_K_EQUIVARIANT_EQUIVALENCE",
       "global_finite_control": "chosen nonnormal S3 representatives assemble the 2+4 summands bijectively and K-equivariantly onto all 6 induced classes",
       "canonical_fiber_coproduct": "LEAN_VERIFIED_REPRESENTATIVE_FREE_K_EQUIVARIANT_EQUIVALENCE",
+      "seed_map_functoriality": "LEAN_VERIFIED_IDENTITY_COMPOSITION_AND_G_EQUIVARIANCE",
+      "canonical_seed_map_naturality": "LEAN_VERIFIED_INDEX_PRESERVING_K_EQUIVARIANT_COMMUTING_SQUARE",
       "canonical_finite_control": "intrinsic nonnormal S3 double-coset fibers partition all 6 induced classes and are K-stable before representatives are chosen",
       "scientific_effect": "none"
     },

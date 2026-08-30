@@ -45,8 +45,9 @@ Checks:
   (XIV) Induction along the identity collapses equivariantly to the seed, and
         induction along a composite agrees with nested induction.
   (XV)  For nonnormal subgroups of S3, the K-orbits of the restricted induced
-        point carrier are exactly K\\G/H, and representative stabilizers equal
-        the transported subgroup-intersection condition.
+        point carrier are exactly K\\G/H, representative stabilizers equal
+        the transported subgroup-intersection condition, and equivariant seed
+        maps preserve the canonical Mackey fibers naturally.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -1496,6 +1497,52 @@ check(
         for k in K_s3
     ),
 )
+
+# The nontrivial seed involution commutes with the H-action. Applying it in
+# the seed coordinate must descend to induction, preserve every canonical
+# double-coset fiber, commute with K, and square to the identity.
+seed_involution = lambda b: 1 - b
+induced_seed_map_values = {
+    q: {
+        target_seed_class_of[(g, seed_involution(b))]
+        for g, b in orbit
+    }
+    for q, orbit in enumerate(target_seed_classes)
+}
+check(
+    "equivariant seed involution descends well-definedly to the balanced quotient",
+    all(len(values) == 1 for values in induced_seed_map_values.values()),
+)
+induced_seed_map = {
+    q: next(iter(values)) for q, values in induced_seed_map_values.items()
+}
+check(
+    "induced seed map preserves the intrinsic double-coset index fiberwise",
+    all(
+        canonical_double_index[induced_seed_map[q]] == canonical_double_index[q]
+        for q in range(len(target_seed_classes))
+    ),
+)
+check(
+    "induced seed map is K-equivariant and its square is the identity",
+    all(
+        induced_seed_map[target_seed_act(k, q)]
+        == target_seed_act(k, induced_seed_map[q])
+        for k in K_s3 for q in range(len(target_seed_classes))
+    )
+    and all(
+        induced_seed_map[induced_seed_map[q]] == q
+        for q in range(len(target_seed_classes))
+    ),
+)
+check(
+    "canonical fiber assembly is natural under the induced seed map",
+    all(
+        induced_seed_map[q] in canonical_mackey_fibers[double_q]
+        for double_q, fiber in canonical_mackey_fibers.items()
+        for q in fiber
+    ),
+)
 chosen_mackey_summands = [
     finite_mackey_summand(g) for g in chosen_double_coset_reps
 ]
@@ -1646,6 +1693,8 @@ print("  double-coset orbit partition and the transported-intersection stabilize
 print("  With a nontrivial two-point H-seed, the transported-intersection inductions")
 print("  map injectively and K-equivariantly to disjoint two- and four-class summands")
 print("  whose union is the complete six-class restricted induced carrier.")
+print("  Equivariant seed maps descend to that carrier, preserve its intrinsic")
+print("  double-coset fibers, commute with K, and act naturally on canonical assembly.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

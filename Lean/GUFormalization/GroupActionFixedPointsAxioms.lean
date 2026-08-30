@@ -101,6 +101,14 @@ open GUFormalization.GroupActionMackey
 #print axioms canonicalMackeyCoproductMulAction
 #print axioms canonicalMackeyCoproductEquivRestrictedInduced
 #print axioms canonicalMackeyCoproductEquivRestrictedInduced_equivariant
+#print axioms inducedMap
+#print axioms inducedMap_equivariant
+#print axioms inducedMap_comp
+#print axioms restrictedInducedDoubleCosetIndex_inducedMap
+#print axioms canonicalMackeyCoproductMap
+#print axioms canonicalMackeyCoproduct_naturality
+#print axioms canonicalMackeyCoproductMap_equivariant
+#print axioms canonicalMackeyCoproductMap_id
 #print axioms restrictedInducedDoubleCosetIndex_mackeyCoproduct
 #print axioms mackeyCoproductToRestrictedInduced_injective
 #print axioms mackeyCoproductToRestrictedInduced_surjective

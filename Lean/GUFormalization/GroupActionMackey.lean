@@ -21,6 +21,8 @@ Finally, it partitions the restricted induced carrier by its intrinsic
 double-coset index. The dependent coproduct of these actual fibers is
 canonically `K`-equivalent to the carrier without choosing representatives;
 the classical representative theorem is retained as a separate comparison.
+Equivariant maps of supplied seeds preserve the intrinsic index, act
+fiberwise on this canonical coproduct, and commute with its assembly map.
 
 The left-right action is fixed explicitly as `(k,h) • g = k * g * h⁻¹`.
 All actions are named non-instances.  These are pure set-level laws for
@@ -33,7 +35,7 @@ set_option autoImplicit false
 namespace GUFormalization
 namespace GroupActionMackey
 
-open GroupActionChangeOfGroups GroupActionInduction
+open GroupActionFixedPoints GroupActionChangeOfGroups GroupActionInduction
 
 variable {G : Type*} [Group G]
 
@@ -616,6 +618,18 @@ theorem restrictedInducedDoubleCosetIndex_mk (K H : Subgroup G)
       doubleCosetMk K H g :=
   rfl
 
+/-- Applying an equivariant map to the supplied seed does not change the
+intrinsic double-coset index of an induced class. -/
+theorem restrictedInducedDoubleCosetIndex_inducedMap (K H : Subgroup G)
+    {B C : Type*} [MulAction H B] [MulAction H C]
+    (f : @EquivariantMap H B C _ inferInstance inferInstance)
+    (x : SubgroupInducedCarrier H B) :
+    restrictedInducedDoubleCosetIndex K H
+        (inducedMap H.subtype f x) =
+      restrictedInducedDoubleCosetIndex K H x := by
+  induction x using Quotient.inductionOn'
+  case _ p => rfl
+
 /-! ## The canonical choice-free Mackey fibers -/
 
 /-- Left multiplication by `K` preserves the intrinsic double-coset index of
@@ -696,6 +710,40 @@ def canonicalMackeyCoproductEquivRestrictedInduced
     rfl
   right_inv _ := rfl
 
+/-- An equivariant seed map acts fiberwise on the canonical Mackey coproduct;
+the double-coset coordinate is unchanged. -/
+def canonicalMackeyCoproductMap (K H : Subgroup G)
+    {B C : Type*} [MulAction H B] [MulAction H C]
+    (f : @EquivariantMap H B C _ inferInstance inferInstance) :
+    CanonicalMackeyCoproductCarrier K H B →
+      CanonicalMackeyCoproductCarrier K H C := fun x =>
+  ⟨x.1, ⟨inducedMap H.subtype f x.2.1,
+    (restrictedInducedDoubleCosetIndex_inducedMap K H f x.2.1).trans x.2.2⟩⟩
+
+/-- The canonical Mackey decomposition is natural in the supplied seed map:
+assembling after the fiberwise map equals inducing the seed map first. -/
+theorem canonicalMackeyCoproduct_naturality (K H : Subgroup G)
+    {B C : Type*} [MulAction H B] [MulAction H C]
+    (f : @EquivariantMap H B C _ inferInstance inferInstance)
+    (x : CanonicalMackeyCoproductCarrier K H B) :
+    canonicalMackeyCoproductEquivRestrictedInduced K H
+        (canonicalMackeyCoproductMap K H f x) =
+      inducedMap H.subtype f
+        (canonicalMackeyCoproductEquivRestrictedInduced K H x) :=
+  rfl
+
+/-- Fiberwise canonical Mackey maps preserve identity seed maps. -/
+theorem canonicalMackeyCoproductMap_id (K H : Subgroup G)
+    {B : Type*} [MulAction H B]
+    (x : CanonicalMackeyCoproductCarrier K H B) :
+    canonicalMackeyCoproductMap K H
+        (⟨id, by intro h b; rfl⟩ :
+          @EquivariantMap H B B _ inferInstance inferInstance) x = x := by
+  apply (canonicalMackeyCoproductEquivRestrictedInduced K H).injective
+  rw [canonicalMackeyCoproduct_naturality]
+  exact inducedMap_id H.subtype
+    (canonicalMackeyCoproductEquivRestrictedInduced K H x)
+
 /-- The canonical fiber decomposition commutes with the explicit left
 `K`-actions and requires no representative transport. -/
 theorem canonicalMackeyCoproductEquivRestrictedInduced_equivariant
@@ -708,6 +756,26 @@ theorem canonicalMackeyCoproductEquivRestrictedInduced_equivariant
         (restrictedSubgroupInducedMulAction K H B).toSMul k
         (canonicalMackeyCoproductEquivRestrictedInduced K H x) :=
   rfl
+
+/-- The fiberwise canonical Mackey map is equivariant for the restricted
+left `K`-actions. -/
+theorem canonicalMackeyCoproductMap_equivariant (K H : Subgroup G)
+    {B C : Type*} [MulAction H B] [MulAction H C]
+    (f : @EquivariantMap H B C _ inferInstance inferInstance)
+    (k : K) (x : CanonicalMackeyCoproductCarrier K H B) :
+    canonicalMackeyCoproductMap K H f
+        (@SMul.smul K (CanonicalMackeyCoproductCarrier K H B)
+          (canonicalMackeyCoproductMulAction K H B).toSMul k x) =
+      @SMul.smul K (CanonicalMackeyCoproductCarrier K H C)
+        (canonicalMackeyCoproductMulAction K H C).toSMul k
+        (canonicalMackeyCoproductMap K H f x) := by
+  apply (canonicalMackeyCoproductEquivRestrictedInduced K H).injective
+  rw [canonicalMackeyCoproduct_naturality]
+  rw [canonicalMackeyCoproductEquivRestrictedInduced_equivariant]
+  rw [canonicalMackeyCoproductEquivRestrictedInduced_equivariant]
+  rw [canonicalMackeyCoproduct_naturality]
+  exact inducedMap_equivariant H.subtype f (k : G)
+    (canonicalMackeyCoproductEquivRestrictedInduced K H x)
 
 /-- The dependent coproduct of transported-intersection inductions, one
 summand for the chosen representative of each double coset. -/
