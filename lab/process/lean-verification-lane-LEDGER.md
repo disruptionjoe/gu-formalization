@@ -62,6 +62,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionChangeOfGroups.lean` | Pure set-level change of acting groups: actions restrict explicitly along `phi : H ->* G`; surjective `phi` preserves the complete equivariant-map and fixed-point spaces; coinduced functions with right translation satisfy the restriction-coinduction adjunction, with exact finite-cardinality and existence consequences | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; all added actions are named non-instances; the theorem-level receipt exposes no new axiom dependency; W99 checks a C4-to-C2 surjection, a non-surjective strictness control, and a nontrivial coinduction census |
 | `Lean/GUFormalization/GroupActionInduction.lean` | Pure set-level induction: the explicit `H`-action on `G × B` generates the balanced-product quotient, left `G`-translation descends, and induction is left adjoint to restriction with finite-cardinality and existence consequences | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; quotient relation, inverse placement and actions are explicit; theorem-level receipt exposes only the established `propext`, `Classical.choice` and `Quot.sound` surface; W99 checks trivial-subgroup and nontrivial identity-homomorphism carriers plus the complete universal-property image/inverse |
 | `Lean/GUFormalization/GroupActionInductionCoherence.lean` | Pure set-level coherence: induction along the identity is equivariantly equivalent to the seed action, and induction along a composite is equivariantly equivalent to iterated induction through the explicit flattening `[g,[h,b]] ↦ [g * psi(h),b]` | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; inner and outer balanced relations, both inverse laws and `G`-equivariance are explicit; W99 checks identity collapse and a genuinely nested trivial-to-C2-to-C4 composition |
+| `Lean/GUFormalization/GroupActionMackey.lean` | Pure set-level subgroup Mackey interface: `K`-orbits of `Res_K^G Ind_H^G(1)` are explicitly equivalent to `K\\G/H`, and the representative stabilizer is the transported intersection subgroup `k*g = g*h` | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; both quotient layers, left-right order, actual stabilizer witnesses and named non-global actions are explicit; W99 checks a nonnormal `S3` carrier with full and trivial stabilizers |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
@@ -234,6 +235,20 @@ component factor. The axiom receipt adds nothing beyond the established
 `propext`, `Classical.choice` and `Quot.sound` surface. This remains pure
 set-level mathematics and supplies no physical action, observer, dynamics,
 selector, carrier or GU verdict.
+
+**Subgroup Mackey double-coset interface — DONE 2026-08-30.** For subgroups
+`H K <= G`, Lean defines the explicit left-right action
+`(k,h).g = k*g*h^-1` and proves that the `K`-orbit quotient of the restricted
+induced point carrier `Res_K^G Ind_H^G(1)` is equivalent to the single
+double-coset quotient `K\\G/H`. The stabilizer of `[g,star]` is exactly the
+transported intersection subgroup defined by the witness equation
+`k*g = g*h`; quotient equality is unpacked to an actual `h : H`, not inferred
+from a count. W99 checks the nonnormal `S3` example with one fixed right coset,
+one two-coset orbit, two double cosets and the expected full/trivial
+stabilizers. This establishes the orbit/stabilizer layer needed by a later full
+Mackey summand theorem for nontrivial seeds. It remains pure supplied-action
+mathematics and constructs no physical action, carrier, observer, dynamics,
+selector or GU verdict.
 
 ## Part D: lock and progress contract
 

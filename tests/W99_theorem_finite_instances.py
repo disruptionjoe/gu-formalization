@@ -44,6 +44,9 @@ Checks:
          subgroup and nontrivial quotient controls.
   (XIV) Induction along the identity collapses equivariantly to the seed, and
         induction along a composite agrees with nested induction.
+  (XV)  For nonnormal subgroups of S3, the K-orbits of the restricted induced
+        point carrier are exactly K\\G/H, and representative stabilizers equal
+        the transported subgroup-intersection condition.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -54,7 +57,7 @@ Deterministic, Python standard library only, exit 0 on success.
 """
 from __future__ import annotations
 
-from itertools import product
+from itertools import permutations, product
 
 FAIL = []
 
@@ -1278,6 +1281,98 @@ check(
     ),
 )
 
+print("(XV) SUBGROUP MACKEY DOUBLE-COSET INTERFACE:")
+
+
+def perm_mul(p, q):
+    """Permutation product p*q: apply q first, then p."""
+    return tuple(p[q[i]] for i in range(len(p)))
+
+
+def perm_inv(p):
+    inverse = [0] * len(p)
+    for i, image in enumerate(p):
+        inverse[image] = i
+    return tuple(inverse)
+
+
+s3 = list(permutations(range(3)))
+s3_one = (0, 1, 2)
+s3_t01 = (1, 0, 2)
+s3_c012 = (1, 2, 0)
+K_s3 = [s3_one, s3_t01]
+H_s3 = [s3_one, s3_t01]
+right_cosets, right_coset_of = orbit_quotient(
+    H_s3,
+    s3,
+    lambda h, g: perm_mul(g, perm_inv(h)),
+)
+restricted_k_action = lambda k, q: right_coset_of[
+    perm_mul(k, right_cosets[q][0])
+]
+restricted_orbits, restricted_orbit_of = orbit_quotient(
+    K_s3,
+    list(range(len(right_cosets))),
+    restricted_k_action,
+)
+double_cosets, double_coset_of = orbit_quotient(
+    list(product(K_s3, H_s3)),
+    s3,
+    lambda kh, g: perm_mul(perm_mul(kh[0], g), perm_inv(kh[1])),
+)
+check(
+    "S3 induction from a transposition subgroup has three right cosets",
+    len(right_cosets) == 3 and sorted(map(len, right_cosets)) == [2, 2, 2],
+)
+check(
+    "restricted K-action has one fixed coset and one two-coset orbit",
+    len(restricted_orbits) == 2
+    and sorted(map(len, restricted_orbits)) == [1, 2],
+)
+check(
+    "the explicit left-right action has the two nonnormal S3 double cosets",
+    len(double_cosets) == 2 and sorted(map(len, double_cosets)) == [2, 4],
+)
+orbit_to_double_values = {}
+for outer_q, right_coset_indexes in enumerate(restricted_orbits):
+    values = {
+        double_coset_of[g]
+        for right_q in right_coset_indexes
+        for g in right_cosets[right_q]
+    }
+    orbit_to_double_values[outer_q] = values
+check(
+    "nested restricted-induction orbits map well-definedly and bijectively to double cosets",
+    all(len(values) == 1 for values in orbit_to_double_values.values())
+    and {
+        next(iter(values)) for values in orbit_to_double_values.values()
+    } == set(range(len(double_cosets))),
+)
+
+
+def restricted_stabilizer(g):
+    q = right_coset_of[g]
+    return {k for k in K_s3 if restricted_k_action(k, q) == q}
+
+
+def transported_intersection(g):
+    return {
+        k for k in K_s3
+        if any(perm_mul(k, g) == perm_mul(g, h) for h in H_s3)
+    }
+
+
+check(
+    "the identity-coset stabilizer is the full transported intersection",
+    restricted_stabilizer(s3_one) == transported_intersection(s3_one)
+    and len(restricted_stabilizer(s3_one)) == 2,
+)
+check(
+    "a nonnormal three-cycle representative has trivial transported stabilizer",
+    restricted_stabilizer(s3_c012) == transported_intersection(s3_c012)
+    and len(restricted_stabilizer(s3_c012)) == 1,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -1311,6 +1406,8 @@ print("  evaluation on [1,b] realizes the induction-restriction adjunction, incl
 print("  trivial-subgroup and nontrivial quotient controls with explicit inverse.")
 print("  Identity induction collapses equivariantly to its seed, while nested")
 print("  induction flattens equivariantly to induction along the composite map.")
+print("  For nonnormal S3 subgroups, restricted point induction has exactly the")
+print("  double-coset orbit partition and the transported-intersection stabilizers.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

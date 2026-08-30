@@ -10,6 +10,7 @@ import GUFormalization.EquivariantInternalHom
 import GUFormalization.GroupActionChangeOfGroups
 import GUFormalization.GroupActionInduction
 import GUFormalization.GroupActionInductionCoherence
+import GUFormalization.GroupActionMackey
 import GUFormalization.GroupActionFixedPointsAxioms
 import GUFormalization.R4TwoArena
 import GUFormalization.CoflipCore
