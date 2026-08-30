@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bff9b2880960
+revision_basis: 93817639e638
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The acted-on-domain boundary is now Lean-verified: equivariant maps from
+    the regular left G-torsor are exactly determined by one freely chosen
+    codomain value through evaluation at the identity, so for finite codomains
+    their cardinality is |B|. W99 checks C2 swap, C2 identity and C3 cycle
+    controls, including a fixed-point-free codomain action with two regular
+    equivariant maps. This sharply separates equivariance from the earlier
+    pointwise-invariance count |Fix_G(B)|^|A|. It remains pure set-level
+    mathematics and constructs no physical action, observer, dynamics,
+    selector or GU verdict; source, action, ledger, SG4, prediction,
+    confirmation, canon, paper, release, grade and public posture do not move.
     The finite group-action census is now Lean-verified: for finite domains and
     codomains, the number of invariant valuations is exactly the number of
     common fixed values raised to the domain cardinality. On inhabited domains

@@ -13,6 +13,9 @@ Checks:
   (II)  A valuation is alpha-invariant exactly when every value in its image is fixed.
   (III) The finite invariant-valuation census is |Fix(alpha)|^|A|, including
         the unique empty-domain valuation when Fix(alpha) is empty.
+  (IV)  For the regular left action of a finite cyclic group on itself,
+        equivariant maps are determined uniquely by their value at identity
+        and their count is the full codomain size, not its fixed-point count.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -77,6 +80,28 @@ def invariant(p, A, alpha):
 
 def invariant_count(A, B, alpha):
     return sum(invariant(p, A, alpha) for p in all_valuations(A, B))
+
+
+def cyclic_act(alpha, power, value):
+    for _ in range(power):
+        value = alpha[value]
+    return value
+
+
+def regular_equivariant(mapping, order, alpha):
+    return all(
+        mapping[(g + x) % order] == cyclic_act(alpha, g, mapping[x])
+        for g in range(order)
+        for x in range(order)
+    )
+
+
+def regular_equivariant_maps(order, grades, alpha):
+    return [
+        mapping
+        for mapping in all_valuations(list(range(order)), grades)
+        if regular_equivariant(mapping, order, alpha)
+    ]
 
 
 B2 = [0, 1]
@@ -193,10 +218,41 @@ for n in (1, 2):
         not any(invariant(p, A3, cycle3) for p in all_valuations(A3, B3)),
     )
 
+print("(IV) REGULAR-DOMAIN EQUIVARIANT-MAP CLASSIFICATION:")
+regular_cases = (
+    ("C2 swap", 2, B2, swap),
+    ("C2 identity", 2, B2, ident),
+    ("C3 cycle", 3, B3, cycle3),
+)
+for label, order, grades, alpha in regular_cases:
+    maps = regular_equivariant_maps(order, grades, alpha)
+    identity_values = [mapping[0] for mapping in maps]
+    check(
+        f"{label}: |Eqv(G,B)|=|B|",
+        len(maps) == len(grades),
+        f"actual={len(maps)}, expected={len(grades)}",
+    )
+    check(
+        f"{label}: evaluation at identity is bijective",
+        sorted(identity_values) == sorted(grades),
+    )
+
+check(
+    "fixed-point-free C2 swap still has two regular equivariant maps",
+    len(regular_equivariant_maps(2, B2, swap)) == 2,
+    "domain transport replaces pointwise fixedness",
+)
+check(
+    "an empty codomain has no regular equivariant map",
+    len(regular_equivariant_maps(2, [], {})) == 0,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
 print("  unique valuation on an empty domain.")
+print("  For acted-on domains, they confirm the separate regular-action theorem:")
+print("  equivariant maps are seeded freely at identity and counted by |B|.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

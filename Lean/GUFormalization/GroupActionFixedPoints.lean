@@ -32,6 +32,14 @@ abbrev FixedPointValue := {b : B // b ∈ commonFixedPoints (G := G) (B := B)}
 /-- The subtype of valuations fixed pointwise by the acting group. -/
 abbrev InvariantValuation := {p : A → B // PointwiseInvariant (G := G) p}
 
+/-- Maps from the regular left `G`-torsor that intertwine left multiplication
+with the given action on `B`. -/
+def RegularEquivariant (f : G → B) : Prop :=
+  ∀ g x : G, f (g * x) = g • f x
+
+/-- The subtype of equivariant maps from the regular left `G`-torsor. -/
+abbrev RegularEquivariantMap := {f : G → B // RegularEquivariant (G := G) f}
+
 theorem mem_commonFixedPoints_iff (b : B) :
     b ∈ commonFixedPoints (G := G) (B := B) ↔ ∀ g : G, g • b = b := by
   rfl
@@ -102,6 +110,39 @@ theorem natCard_invariantValuation_eq_one_of_isEmpty
   rw [natCard_invariantValuation (G := G) (A := A) (B := B)]
   have hcard : Nat.card A = 0 := Nat.card_eq_zero.mpr (Or.inl inferInstance)
   rw [hcard, pow_zero]
+
+/-- Evaluation at the identity classifies regular-domain equivariant maps. -/
+def regularEquivariantMapEquivValue :
+    RegularEquivariantMap (G := G) (B := B) ≃ B where
+  toFun f := f.1 1
+  invFun b :=
+    ⟨fun g => g • b, by
+      intro g x
+      exact mul_smul g x b⟩
+  left_inv f := by
+    apply Subtype.ext
+    funext g
+    simpa using (f.2 g 1).symm
+  right_inv b := one_smul G b
+
+/-- Every codomain value seeds a unique equivariant map from the regular left
+`G`-torsor. In particular, no global fixed-point condition is required. -/
+theorem existsUnique_regularEquivariantMap_eval (b : B) :
+    ∃! f : RegularEquivariantMap (G := G) (B := B), f.1 1 = b := by
+  refine ⟨(regularEquivariantMapEquivValue (G := G) (B := B)).symm b, ?_, ?_⟩
+  · exact (regularEquivariantMapEquivValue (G := G) (B := B)).apply_symm_apply b
+  · intro f hf
+    apply (regularEquivariantMapEquivValue (G := G) (B := B)).injective
+    change f.1 1 =
+      ((regularEquivariantMapEquivValue (G := G) (B := B)).symm b).1 1
+    rw [hf]
+    exact ((regularEquivariantMapEquivValue (G := G) (B := B)).apply_symm_apply b).symm
+
+/-- For a finite codomain, regular-domain equivariant maps are counted by all
+codomain values, not merely the common fixed values. -/
+theorem natCard_regularEquivariantMap [Finite B] :
+    Nat.card (RegularEquivariantMap (G := G) (B := B)) = Nat.card B := by
+  exact Nat.card_congr (regularEquivariantMapEquivValue (G := G) (B := B))
 
 /-- On an inhabited domain, an invariant valuation exists exactly when the common
 fixed-point set is nonempty. -/

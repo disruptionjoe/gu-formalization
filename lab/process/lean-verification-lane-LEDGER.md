@@ -154,6 +154,16 @@ empty-domain singleton exception are separate Lean theorems, and W99 checks
 swap, identity, boundary-fixed and fixed-point-free actions through domain
 size zero. No physical interpretation is added.
 
+**Regular-domain equivariance boundary — DONE 2026-08-30.** The acted-on-domain
+case is now separated formally from pointwise invariance. For the regular left
+`G`-torsor, evaluation at the identity is a Lean equivalence between
+equivariant maps `G → B` and all values of `B`; every identity value seeds a
+unique map, and finite codomains give `|Eqv(G,B)| = |B|`. W99 checks C2 swap,
+C2 identity and C3 cycle controls, including the hostile fixed-point-free case
+where regular equivariant maps exist despite an empty common fixed set. This is
+pure set-level mathematics and supplies no physical action or physical domain action,
+observer, selector, carrier or GU verdict.
+
 ## Part D: lock and progress contract
 
 On Windows, every invocation uses `lab/automation/check-lean.ps1`. Its exclusive file handle is host-local.

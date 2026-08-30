@@ -17,6 +17,9 @@ open GUFormalization.GroupActionFixedPoints
 #print axioms natCard_invariantValuation
 #print axioms natCard_invariantValuation_eq_zero_iff
 #print axioms natCard_invariantValuation_eq_one_of_isEmpty
+#print axioms regularEquivariantMapEquivValue
+#print axioms existsUnique_regularEquivariantMap_eval
+#print axioms natCard_regularEquivariantMap
 #print axioms exists_pointwiseInvariant_iff_commonFixedPoints_nonempty
 #print axioms commonFixedPoints_eq_empty_of_fixpointFreeElement
 #print axioms no_pointwiseInvariant_of_commonFixedPoints_eq_empty
