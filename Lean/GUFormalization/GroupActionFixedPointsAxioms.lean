@@ -1,4 +1,6 @@
 import GUFormalization.GroupActionFixedPoints
+import GUFormalization.GroupActionCoproducts
+import GUFormalization.EquivariantInternalHom
 
 /-!
 # Axiom receipt for the group-action fixed-point classification
@@ -9,6 +11,7 @@ report the exact axioms on which each exported theorem depends.
 -/
 
 open GUFormalization.GroupActionFixedPoints
+open GUFormalization.EquivariantInternalHom
 
 #print axioms mem_commonFixedPoints_iff
 #print axioms pointwiseInvariant_iff_range_subset
@@ -43,6 +46,12 @@ open GUFormalization.GroupActionFixedPoints
 #print axioms natCard_stabilizerFixedValue_pi
 #print axioms nonempty_fixedPointValue_pi_iff
 #print axioms nonempty_stabilizerFixedValue_pi_iff
+#print axioms equivariantMapEquivSigma
+#print axioms natCard_equivariantMap_sigma
+#print axioms nonempty_equivariantMap_sigma_iff
+#print axioms internalHomMulAction
+#print axioms internalHomFixedPointEquivEquivariantMap
+#print axioms equivariantMapCurry
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv
 #print axioms orbitIndexEquivOfDomainEquiv_mk

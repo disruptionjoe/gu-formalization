@@ -33,6 +33,9 @@ Checks:
   (X)   Equivariant maps, common-fixed values and point-stabilizer-fixed seeds
         into an indexed product decompose exactly into their coordinate
         families, with product cardinalities and empty-index/factor edges.
+  (XI)  Equivariant maps out of an indexed coproduct decompose into component
+        families, while the conjugation function-space action identifies
+        equivariant maps with fixed points and satisfies equivariant currying.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -855,6 +858,133 @@ check(
     and len(empty_factor_product_maps) == 0,
 )
 
+print("(XI) DOMAIN COPRODUCTS AND THE EQUIVARIANT INTERNAL HOM:")
+group = list(range(2))
+coproduct_components = [[0, 1], ["fixed"]]
+tagged_domain = [
+    (index, value)
+    for index, component in enumerate(coproduct_components)
+    for value in component
+]
+component_domain_actions = [
+    lambda g, value: 1 - value if g % 2 else value,
+    lambda _g, value: value,
+]
+act_tagged_domain = lambda g, tagged: (
+    tagged[0], component_domain_actions[tagged[0]](g, tagged[1])
+)
+act_codomain = lambda g, value: cyclic_act(flip3, g, value)
+coproduct_maps = equivariant_maps(
+    group, tagged_domain, B3, act_tagged_domain, act_codomain
+)
+component_map_spaces = [
+    equivariant_maps(group, component, B3, action, act_codomain)
+    for component, action in zip(coproduct_components, component_domain_actions)
+]
+assembled_coproduct_maps = {
+    tuple(
+        family[index][value]
+        for index, component in enumerate(coproduct_components)
+        for value in component
+    )
+    for family in product(*component_map_spaces)
+}
+actual_coproduct_maps = {
+    tuple(mapping[tagged] for tagged in tagged_domain)
+    for mapping in coproduct_maps
+}
+check(
+    "heterogeneous C2 coproduct: maps split exactly into component families",
+    actual_coproduct_maps == assembled_coproduct_maps,
+)
+check(
+    "heterogeneous C2 coproduct: component map cardinalities multiply",
+    len(coproduct_maps)
+    == len(component_map_spaces[0]) * len(component_map_spaces[1]) == 3,
+    f"combined={len(coproduct_maps)}, factors={[len(maps) for maps in component_map_spaces]}",
+)
+empty_coproduct_maps = equivariant_maps(
+    group, [], [], lambda _g, tagged: tagged, lambda _g, value: value
+)
+check(
+    "empty coproduct has one map even into the empty codomain",
+    len(empty_coproduct_maps) == 1,
+)
+empty_component_spaces = [
+    equivariant_maps(group, [], B3, lambda _g, value: value, act_codomain),
+    component_map_spaces[1],
+]
+check(
+    "an empty coproduct component contributes the singleton map-space factor",
+    len(empty_component_spaces[0]) == 1
+    and len(empty_component_spaces[1]) == 1,
+)
+
+c3 = list(range(3))
+regular3 = list(range(3))
+act_regular3 = lambda g, value: (value + g) % 3
+function_values = list(product(regular3, repeat=len(regular3)))
+
+
+def conjugation_function_action(g, values):
+    """(g.f)(c) = g.f(g^-1.c) for the regular C3 action."""
+    return tuple(
+        act_regular3(g, values[(c - g) % 3])
+        for c in regular3
+    )
+
+
+fixed_functions = [
+    values for values in function_values
+    if all(conjugation_function_action(g, values) == values for g in c3)
+]
+regular_equivariant_functions = equivariant_maps(
+    c3, regular3, regular3, act_regular3, act_regular3
+)
+regular_equivariant_tuples = {
+    tuple(mapping[c] for c in regular3)
+    for mapping in regular_equivariant_functions
+}
+check(
+    "C3 internal hom: conjugation-fixed functions are exactly equivariant maps",
+    set(fixed_functions) == regular_equivariant_tuples,
+)
+check(
+    "C3 internal hom: inverse placement leaves exactly three fixed functions",
+    len(fixed_functions) == 3,
+)
+
+diagonal_domain = list(product(regular3, regular3))
+act_diagonal = lambda g, pair: (
+    act_regular3(g, pair[0]), act_regular3(g, pair[1])
+)
+uncurried_maps = equivariant_maps(
+    c3, diagonal_domain, regular3, act_diagonal, act_regular3
+)
+curried_maps = equivariant_maps(
+    c3, regular3, function_values, act_regular3,
+    conjugation_function_action,
+)
+curried_from_uncurried = {
+    tuple(
+        tuple(mapping[(a, c)] for c in regular3)
+        for a in regular3
+    )
+    for mapping in uncurried_maps
+}
+actual_curried = {
+    tuple(mapping[a] for a in regular3)
+    for mapping in curried_maps
+}
+check(
+    "C3 exponential law: currying transports the complete equivariant-map space",
+    curried_from_uncurried == actual_curried,
+)
+check(
+    "C3 exponential law: both sides have the predicted 27 maps",
+    len(uncurried_maps) == len(curried_maps) == 27,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -876,6 +1006,10 @@ print("  relabeling transports the orbit quotient, and the two coordinate change
 print("  Equivariant maps into indexed codomain products decompose coordinatewise, as do")
 print("  common-fixed and stabilizer-fixed seeds; finite counts multiply, the empty index")
 print("  contributes one map, and an empty component factor annihilates the product.")
+print("  Dually, maps out of indexed acted-on coproducts split into component families;")
+print("  the empty index and empty components retain their singleton map-space factors.")
+print("  The conjugation action on function spaces has exactly the equivariant maps as")
+print("  fixed points, and diagonal-domain equivariance is preserved by currying.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")
