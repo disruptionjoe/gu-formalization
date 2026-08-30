@@ -124,6 +124,9 @@ open GUFormalization.GroupActionMackey
 #print axioms mackeyCoproductEquivRestrictedInduced
 #print axioms mackeyCoproductEquivRestrictedInduced_equivariant
 #print axioms mackeyCoproductEquivCanonicalFibers
+#print axioms restrictedInducedEquivariantMapEquivMackeySeedFamily
+#print axioms natCard_restrictedInducedEquivariantMap_eq_mackeySeedFamily
+#print axioms nonempty_restrictedInducedEquivariantMap_iff_mackeySeedFamily
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv
 #print axioms orbitIndexEquivOfDomainEquiv_mk

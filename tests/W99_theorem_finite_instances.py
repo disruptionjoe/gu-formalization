@@ -1623,6 +1623,86 @@ check(
     ),
 )
 
+# Hom-form Mackey control. Use a three-point K-set whose nonidentity element
+# swaps 0 and 1 and fixes 2. Restriction to each transported intersection
+# gives one seed-map factor, and the global equivalence must identify the
+# complete K-equivariant map space with the Cartesian product of those factors.
+mackey_codomain = tuple(range(3))
+mackey_codomain_act = lambda k, c: (
+    c if k == s3_one or c == 2 else 1 - c
+)
+
+
+def enumerate_equivariant_maps(domain, codomain, acting_group, act_domain, act_codomain):
+    maps = []
+    for values in product(codomain, repeat=len(domain)):
+        if all(
+            values[act_domain(group_element, x)]
+            == act_codomain(group_element, values[x])
+            for group_element in acting_group
+            for x in domain
+        ):
+            maps.append(values)
+    return maps
+
+
+restricted_induced_homs = enumerate_equivariant_maps(
+    range(len(target_seed_classes)),
+    mackey_codomain,
+    K_s3,
+    target_seed_act,
+    mackey_codomain_act,
+)
+mackey_seed_hom_factors = []
+for representative in chosen_double_coset_reps:
+    intersection = [
+        k for k in K_s3 if transported_h_exists(representative, k)
+    ]
+    transported_seed_act = lambda k, b, representative=representative: (
+        act_h_seed(transported_h(representative, k), b)
+    )
+    mackey_seed_hom_factors.append(
+        enumerate_equivariant_maps(
+            B2,
+            mackey_codomain,
+            intersection,
+            transported_seed_act,
+            mackey_codomain_act,
+        )
+    )
+
+
+def restrict_mackey_hom_to_seeds(values):
+    return tuple(
+        tuple(values[target_seed_class_of[(representative, b)]] for b in B2)
+        for representative in chosen_double_coset_reps
+    )
+
+
+restricted_seed_families = {
+    restrict_mackey_hom_to_seeds(values)
+    for values in restricted_induced_homs
+}
+all_seed_families = set(product(*mackey_seed_hom_factors))
+check(
+    "Hom-form Mackey factors have the expected nonnormal S3 cardinalities",
+    [len(factor) for factor in mackey_seed_hom_factors] == [3, 9]
+    and len(restricted_induced_homs) == 27,
+)
+check(
+    "restriction to transported seeds realizes the complete Hom-form Mackey product",
+    restricted_seed_families == all_seed_families
+    and len(restricted_seed_families) == len(restricted_induced_homs),
+)
+check(
+    "a non-equivariant target map cannot masquerade as a complete Mackey seed family",
+    any(
+        restrict_mackey_hom_to_seeds(values) not in all_seed_families
+        for values in product(mackey_codomain, repeat=len(target_seed_classes))
+        if values not in restricted_induced_homs
+    ),
+)
+
 print("(XVI) FINITE PROOF-STABLE KERNEL CERTIFICATES:")
 
 shiab_dimensions = {
@@ -1741,6 +1821,8 @@ print("  Equivariant seed maps descend to that carrier, preserve its intrinsic")
 print("  double-coset fibers, commute with K, and act naturally on canonical assembly.")
 print("  Distinct representatives of one double coset give equivariantly equivalent")
 print("  summands through the same intrinsic fiber, with assembly unchanged.")
+print("  The Hom-form Mackey map space is the product of transported-intersection")
+print("  seed-map factors; the nonnormal S3 control realizes 27 = 3 x 9 exactly.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

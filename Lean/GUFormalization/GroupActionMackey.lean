@@ -1,4 +1,5 @@
 import GUFormalization.GroupActionInductionCoherence
+import GUFormalization.GroupActionCoproducts
 
 /-!
 # Mackey interfaces for set-level subgroup induction
@@ -23,6 +24,9 @@ canonically `K`-equivalent to the carrier without choosing representatives;
 the classical representative theorem is retained as a separate comparison.
 Equivariant maps of supplied seeds preserve the intrinsic index, act
 fiberwise on this canonical coproduct, and commute with its assembly map.
+The resulting decomposition also satisfies the Hom-form Mackey law:
+equivariant maps out of the restricted induced carrier are exactly dependent
+families of transported-intersection-equivariant seed maps.
 
 The left-right action is fixed explicitly as `(k,h) • g = k * g * h⁻¹`.
 All actions are named non-instances.  These are pure set-level laws for
@@ -1148,6 +1152,94 @@ noncomputable def mackeyCoproductEquivCanonicalFibers
     MackeyCoproductCarrier K H B ≃ CanonicalMackeyCoproductCarrier K H B :=
   (mackeyCoproductEquivRestrictedInduced K H).trans
     (canonicalMackeyCoproductEquivRestrictedInduced K H).symm
+
+/-! ## The Hom-form Mackey theorem -/
+
+/-- `K`-equivariant maps out of the restricted induced carrier.  The
+restricted action is supplied explicitly rather than installed globally. -/
+abbrev RestrictedInducedEquivariantMap (K H : Subgroup G)
+    (B C : Type*) [MulAction H B] [MulAction K C] :=
+  @EquivariantMap K (SubgroupInducedCarrier H B) C inferInstance
+    inferInstance (restrictedSubgroupInducedMulAction K H B)
+
+/-- The seed-map factor attached to one Mackey double coset.  Its acting
+group is the transported intersection, its source action is the conjugated
+`H`-action, and its target action is restriction of the supplied `K`-action. -/
+abbrev MackeySeedEquivariantMap (K H : Subgroup G)
+    (B C : Type*) [MulAction H B] [MulAction K C]
+    (q : DoubleCosetCarrier K H) :=
+  @EquivariantMap
+    (transportedIntersection K H (doubleCosetRepresentative K H q)) B C
+    inferInstance
+    (@restrictedMulAction
+      (transportedIntersection K H (doubleCosetRepresentative K H q)) K C
+      inferInstance inferInstance inferInstance
+      (transportedIntersection K H (doubleCosetRepresentative K H q)).subtype)
+    (transportedSeedMulAction K H (doubleCosetRepresentative K H q))
+
+/-- The dependent family of transported-intersection seed maps occurring on
+the right side of the set-level Hom-form Mackey theorem. -/
+abbrev MackeySeedHomFamily (K H : Subgroup G)
+    (B C : Type*) [MulAction H B] [MulAction K C] :=
+  ∀ q : DoubleCosetCarrier K H, MackeySeedEquivariantMap K H B C q
+
+/-- Hom-form Mackey equivalence for supplied set actions:
+
+`Hom_K(Res_K^G Ind_H^G B, C)` is equivalent to the dependent family of
+`Hom_(K ∩ gHg⁻¹)({}^gB, Res C)` indexed by `K \\ G / H`.
+
+The proof composes three already checked universal properties: the global
+Mackey carrier equivalence, maps out of a dependent coproduct, and the
+induction-restriction adjunction on each transported-intersection summand.
+Representative choice is explicit in the right-hand seed family. -/
+noncomputable def restrictedInducedEquivariantMapEquivMackeySeedFamily
+    (K H : Subgroup G) (B C : Type*) [MulAction H B] [MulAction K C] :
+    RestrictedInducedEquivariantMap K H B C ≃
+      MackeySeedHomFamily K H B C := by
+  classical
+  letI restrictedAction : MulAction K (SubgroupInducedCarrier H B) :=
+    restrictedSubgroupInducedMulAction K H B
+  letI coproductAction : MulAction K (MackeyCoproductCarrier K H B) :=
+    mackeyCoproductMulAction K H B
+  letI summandActions :
+      ∀ q : DoubleCosetCarrier K H,
+        MulAction K
+          (MackeySummandCarrier K H (doubleCosetRepresentative K H q) B) :=
+    fun q => mackeySummandMulAction K H (doubleCosetRepresentative K H q) B
+  let domainEquiv :=
+    equivariantMapEquivOfDomainEquiv (G := K) (B := C)
+      (mackeyCoproductEquivRestrictedInduced (B := B) K H)
+      (mackeyCoproductEquivRestrictedInduced_equivariant (B := B) K H)
+  let coproductEquiv :=
+    equivariantMapEquivSigma (G := K) (B := C)
+      (A := fun q : DoubleCosetCarrier K H =>
+        MackeySummandCarrier K H (doubleCosetRepresentative K H q) B)
+  let seedEquiv := Equiv.piCongrRight (fun q : DoubleCosetCarrier K H => by
+    letI seedAction :
+        MulAction
+          (transportedIntersection K H (doubleCosetRepresentative K H q)) B :=
+      transportedSeedMulAction K H (doubleCosetRepresentative K H q)
+    exact inductionRestrictionEquiv
+      (B := B) (C := C)
+      (transportedIntersection K H (doubleCosetRepresentative K H q)).subtype)
+  exact domainEquiv.symm.trans (coproductEquiv.trans seedEquiv)
+
+/-- The Hom-form Mackey equivalence preserves exact cardinality, including
+empty and infinite edge cases through `Nat.card`. -/
+theorem natCard_restrictedInducedEquivariantMap_eq_mackeySeedFamily
+    (K H : Subgroup G) (B C : Type*) [MulAction H B] [MulAction K C] :
+    Nat.card (RestrictedInducedEquivariantMap K H B C) =
+      Nat.card (MackeySeedHomFamily K H B C) :=
+  Nat.card_congr
+    (restrictedInducedEquivariantMapEquivMackeySeedFamily K H B C)
+
+/-- A `K`-equivariant map out of the restricted induced carrier exists
+exactly when the complete transported-intersection seed-map family exists. -/
+theorem nonempty_restrictedInducedEquivariantMap_iff_mackeySeedFamily
+    (K H : Subgroup G) (B C : Type*) [MulAction H B] [MulAction K C] :
+    Nonempty (RestrictedInducedEquivariantMap K H B C) ↔
+      Nonempty (MackeySeedHomFamily K H B C) :=
+  (restrictedInducedEquivariantMapEquivMackeySeedFamily K H B C).nonempty_congr
 
 end GroupActionMackey
 end GUFormalization
