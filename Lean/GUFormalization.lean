@@ -8,6 +8,7 @@ import GUFormalization.GroupActionFixedPoints
 import GUFormalization.GroupActionCoproducts
 import GUFormalization.EquivariantInternalHom
 import GUFormalization.GroupActionChangeOfGroups
+import GUFormalization.GroupActionInduction
 import GUFormalization.GroupActionFixedPointsAxioms
 import GUFormalization.R4TwoArena
 import GUFormalization.CoflipCore

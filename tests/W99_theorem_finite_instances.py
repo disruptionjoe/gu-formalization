@@ -39,6 +39,9 @@ Checks:
   (XII) Restriction along a surjective group homomorphism preserves complete
         equivariant-map and fixed-point spaces; non-surjective restriction may
         enlarge them, and explicit coinduction satisfies the finite adjunction.
+  (XIII) The balanced-product orbit quotient carries the induced action and
+         satisfies the induction-restriction adjunction, including trivial-
+         subgroup and nontrivial quotient controls.
   Controls:
     * identity alpha can make a diagonal equal a row, but does not create WPS for |B| >= 2;
     * a singleton codomain admits WPS;
@@ -156,6 +159,21 @@ def orbit_representatives(group, domain, act_domain):
             representatives.append(a)
             seen.update(act_domain(g, a) for g in group)
     return representatives
+
+
+def orbit_quotient(group, domain, act_domain):
+    """Return finite orbit classes and the class index of every point."""
+    classes = []
+    class_of = {}
+    for point in domain:
+        if point in class_of:
+            continue
+        orbit = tuple(sorted({act_domain(g, point) for g in group}))
+        index = len(classes)
+        classes.append(orbit)
+        for member in orbit:
+            class_of[member] = index
+    return classes, class_of
 
 
 def product_action(actions, g, value):
@@ -1088,6 +1106,94 @@ check(
     ),
 )
 
+print("(XIII) INDUCTION AND THE BALANCED-PRODUCT QUOTIENT:")
+
+
+def finite_induction_control(H, G, B, phi, act_B, act_C):
+    """Construct G x_H B and both finite sides of the adjunction."""
+    raw_pairs = list(product(G, B))
+    act_pair = lambda h, pair: (
+        (pair[0] - phi(h)) % len(G),
+        act_B(h, pair[1]),
+    )
+    classes, class_of = orbit_quotient(H, raw_pairs, act_pair)
+    quotient = list(range(len(classes)))
+    act_induced = lambda x, q: class_of[
+        ((x + classes[q][0][0]) % len(G), classes[q][0][1])
+    ]
+    induced_maps = equivariant_maps(G, quotient, c2, act_induced, act_C)
+    act_restricted_C = lambda h, value: act_C(phi(h), value)
+    seed_maps = equivariant_maps(H, B, c2, act_B, act_restricted_C)
+    evaluated = {
+        tuple(mapping[class_of[(0, b)]] for b in B)
+        for mapping in induced_maps
+    }
+    seed_space = {tuple(mapping[b] for b in B) for mapping in seed_maps}
+    inverse_images = set()
+    inverse_well_defined = True
+    for seed in seed_maps:
+        values = []
+        for orbit in classes:
+            candidate_values = {
+                act_C(g, seed[b]) for g, b in orbit
+            }
+            inverse_well_defined &= len(candidate_values) == 1
+            values.append(next(iter(candidate_values)))
+        inverse_images.add(tuple(values))
+    actual_induced = {
+        tuple(mapping[q] for q in quotient) for mapping in induced_maps
+    }
+    return (
+        classes,
+        induced_maps,
+        seed_maps,
+        evaluated,
+        seed_space,
+        inverse_well_defined,
+        inverse_images,
+        actual_induced,
+    )
+
+
+trivial_induction = finite_induction_control(
+    [0], c2, B2, lambda _h: 0,
+    lambda _h, value: value,
+    act_c2_regular,
+)
+check(
+    "trivial-subgroup induction retains all four raw G x B classes",
+    len(trivial_induction[0]) == 4,
+)
+check(
+    "trivial-subgroup induction and restriction have the same four-map census",
+    len(trivial_induction[1]) == len(trivial_induction[2]) == 4,
+)
+check(
+    "trivial-subgroup adjunction evaluation reaches every seed map",
+    trivial_induction[3] == trivial_induction[4],
+)
+check(
+    "trivial-subgroup inverse is quotient-well-defined and complete",
+    trivial_induction[5] and trivial_induction[6] == trivial_induction[7],
+)
+
+identity_induction = finite_induction_control(
+    c2, c2, c2, lambda h: h,
+    act_c2_regular,
+    act_c2_regular,
+)
+check(
+    "identity induction collapses four raw pairs to two balanced classes",
+    len(identity_induction[0]) == 2,
+)
+check(
+    "nontrivial balanced quotient preserves the complete two-map adjunction",
+    len(identity_induction[1]) == len(identity_induction[2]) == 2
+    and identity_induction[3] == identity_induction[4]
+    and identity_induction[5]
+    and identity_induction[6] == identity_induction[7],
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -1116,6 +1222,9 @@ print("  fixed points, and diagonal-domain equivariance is preserved by currying
 print("  Surjective change of acting groups preserves complete map and fixed-point")
 print("  spaces, non-surjective restriction need not, and right-translation coinduction")
 print("  realizes the restriction-coinduction adjunction on the finite controls.")
+print("  The balanced-product quotient carries the complementary induced action, and")
+print("  evaluation on [1,b] realizes the induction-restriction adjunction, including")
+print("  trivial-subgroup and nontrivial quotient controls with explicit inverse.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

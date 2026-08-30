@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 05b44958cf04
+revision_basis: 14034fab17f1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The abstract change-of-groups interface is now two-sided at set level.
+    Lean constructs induction along phi : H ->* G as the orbit quotient of
+    G x B under h.(g,b)=(g*phi(h)^-1,h.b), proves that left G-translation
+    descends to a named non-instance action, and verifies the exact
+    induction-restriction adjunction Hom_G(Ind B,C) ~= Hom_H(B,Res C), with
+    finite-count and existence consequences. W99 checks the trivial-subgroup
+    four-class carrier, a nontrivial identity-homomorphism quotient, complete
+    map-space image, quotient well-definedness and explicit inverse. Together
+    with coinduction this completes both adjoints to restriction for supplied
+    set actions. No physical action, carrier, observer, dynamics, selector or
+    GU verdict is constructed; source, action, ledger, SG4, prediction,
+    confirmation, canon, paper, release, grade and public posture do not move.
     The abstract group-action family now changes acting groups explicitly.
     Lean constructs restriction along any group homomorphism phi : H ->* G,
     proves that surjective phi preserves the complete equivariant-map and
@@ -4616,9 +4628,10 @@ next_condition: >-
   publication payloads, P-M25 and TWG1 require separate authority.
 
   The pointwise-invariance, arbitrary-orbit product, representative transport,
-  quotient closed forms, domain/codomain functoriality, orbit naturality and
-  indexed-codomain product laws and change-of-acting-groups adjunction are
-  current. Reopen this theorem family only for a genuinely stronger
+  quotient closed forms, domain/codomain functoriality, orbit naturality,
+  indexed-codomain product laws, and both induction-restriction and
+  restriction-coinduction adjunctions are current. Reopen this theorem family
+  only for a genuinely stronger
   abstraction or a semantic counterexample,
   elaboration failure, unexpected axiom dependency, certificate-map drift or
   fresh measured regression; do not manufacture binary specializations or
