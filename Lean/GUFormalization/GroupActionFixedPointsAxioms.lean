@@ -93,6 +93,14 @@ open GUFormalization.GroupActionMackey
 #print axioms mem_mackeySummandImage_iff
 #print axioms mackeySummandEquivImage
 #print axioms mackeySummandEquivImage_equivariant
+#print axioms doubleCosetRepresentative
+#print axioms doubleCosetMk_representative
+#print axioms restrictedInducedDoubleCosetIndex
+#print axioms restrictedInducedDoubleCosetIndex_mackeyCoproduct
+#print axioms mackeyCoproductToRestrictedInduced_injective
+#print axioms mackeyCoproductToRestrictedInduced_surjective
+#print axioms mackeyCoproductEquivRestrictedInduced
+#print axioms mackeyCoproductEquivRestrictedInduced_equivariant
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv
 #print axioms orbitIndexEquivOfDomainEquiv_mk

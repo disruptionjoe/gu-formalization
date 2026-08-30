@@ -569,5 +569,237 @@ theorem mackeySummandEquivImage_equivariant
   apply Subtype.ext
   exact mackeySummandToRestrictedInduced_equivariant K H g k s
 
+/-! ## The global choice-dependent Mackey coproduct -/
+
+/-- Choose one representative of every explicit double-coset class.  This is
+the only representative choice used by the global decomposition. -/
+noncomputable def doubleCosetRepresentative (K H : Subgroup G)
+    (q : DoubleCosetCarrier K H) : G :=
+  Quotient.out q
+
+/-- The chosen representative belongs to the double-coset class it
+represents. -/
+theorem doubleCosetMk_representative (K H : Subgroup G)
+    (q : DoubleCosetCarrier K H) :
+    doubleCosetMk K H (doubleCosetRepresentative K H q) = q :=
+  Quotient.out_eq' q
+
+/-- Forget the seed while remembering the double coset of an induced class.
+The map is well-defined because the balanced right `H`-relation stays within
+one double coset. -/
+def restrictedInducedDoubleCosetIndex (K H : Subgroup G)
+    {B : Type*} [MulAction H B] :
+    SubgroupInducedCarrier H B → DoubleCosetCarrier K H := by
+  letI pairAction := inductionPairMulAction (B := B) H.subtype
+  letI doubleAction := doubleCosetMulAction K H
+  intro q
+  exact Quotient.liftOn' q
+    (fun p : G × B => doubleCosetMk K H p.1) (by
+      intro a b hab
+      rw [MulAction.orbitRel_apply] at hab
+      rcases hab with ⟨h, hab⟩
+      rw [← hab]
+      apply Quotient.sound
+      refine ⟨(1, h), ?_⟩
+      exact show (1 : G) * b.1 * (h : G)⁻¹ = b.1 * (h : G)⁻¹ by
+        simp)
+
+@[simp]
+theorem restrictedInducedDoubleCosetIndex_mk (K H : Subgroup G)
+    {B : Type*} [MulAction H B] (g : G) (b : B) :
+    restrictedInducedDoubleCosetIndex K H (inducedMk H.subtype g b) =
+      doubleCosetMk K H g :=
+  rfl
+
+/-- The dependent coproduct of transported-intersection inductions, one
+summand for the chosen representative of each double coset. -/
+abbrev MackeyCoproductCarrier (K H : Subgroup G) (B : Type*)
+    [MulAction H B] :=
+  Σ q : DoubleCosetCarrier K H,
+    MackeySummandCarrier K H (doubleCosetRepresentative K H q) B
+
+/-- The fiberwise left `K`-action on the Mackey coproduct.  The double-coset
+index is fixed and `K` acts inside the corresponding induced summand. -/
+@[implicit_reducible]
+noncomputable def mackeyCoproductMulAction (K H : Subgroup G) (B : Type*)
+    [MulAction H B] : MulAction K (MackeyCoproductCarrier K H B) where
+  smul k x :=
+    ⟨x.1,
+      @SMul.smul K
+        (MackeySummandCarrier K H (doubleCosetRepresentative K H x.1) B)
+        (mackeySummandMulAction K H (doubleCosetRepresentative K H x.1) B).toSMul
+        k x.2⟩
+  one_smul x := by
+    rcases x with ⟨q, s⟩
+    change
+      (⟨q,
+        @SMul.smul K
+          (MackeySummandCarrier K H (doubleCosetRepresentative K H q) B)
+          (mackeySummandMulAction K H
+            (doubleCosetRepresentative K H q) B).toSMul 1 s⟩ :
+          MackeyCoproductCarrier K H B) =
+        (⟨q, s⟩ : MackeyCoproductCarrier K H B)
+    exact Sigma.ext rfl (heq_of_eq
+      ((mackeySummandMulAction K H
+        (doubleCosetRepresentative K H q) B).one_smul s))
+  mul_smul k l x := by
+    rcases x with ⟨q, s⟩
+    change
+      (⟨q,
+        @SMul.smul K
+          (MackeySummandCarrier K H (doubleCosetRepresentative K H q) B)
+          (mackeySummandMulAction K H
+            (doubleCosetRepresentative K H q) B).toSMul (k * l) s⟩ :
+          MackeyCoproductCarrier K H B) =
+        (⟨q,
+          @SMul.smul K
+            (MackeySummandCarrier K H (doubleCosetRepresentative K H q) B)
+            (mackeySummandMulAction K H
+              (doubleCosetRepresentative K H q) B).toSMul k
+            (@SMul.smul K
+              (MackeySummandCarrier K H
+                (doubleCosetRepresentative K H q) B)
+              (mackeySummandMulAction K H
+                (doubleCosetRepresentative K H q) B).toSMul l s)⟩ :
+          MackeyCoproductCarrier K H B)
+    exact Sigma.ext rfl (heq_of_eq
+      ((mackeySummandMulAction K H
+        (doubleCosetRepresentative K H q) B).mul_smul k l s))
+
+/-- Assemble the chosen representative summands inside the restricted
+induced carrier. -/
+noncomputable def mackeyCoproductToRestrictedInduced (K H : Subgroup G)
+    {B : Type*} [MulAction H B] :
+    MackeyCoproductCarrier K H B → SubgroupInducedCarrier H B :=
+  fun x => mackeySummandToRestrictedInduced K H
+    (doubleCosetRepresentative K H x.1) x.2
+
+/-- Every assembled element remembers exactly its coproduct index. -/
+theorem restrictedInducedDoubleCosetIndex_mackeyCoproduct
+    (K H : Subgroup G) {B : Type*} [MulAction H B]
+    (x : MackeyCoproductCarrier K H B) :
+    restrictedInducedDoubleCosetIndex K H
+        (mackeyCoproductToRestrictedInduced K H x) = x.1 := by
+  rcases x with ⟨q, s⟩
+  letI transportedAction := transportedSeedMulAction
+    (B := B) K H (doubleCosetRepresentative K H q)
+  letI summandPairAction := inductionPairMulAction
+    (B := B) (transportedIntersection K H
+      (doubleCosetRepresentative K H q)).subtype
+  induction s using Quotient.inductionOn'
+  case _ p =>
+    calc
+      restrictedInducedDoubleCosetIndex K H
+          (mackeyCoproductToRestrictedInduced K H
+            ⟨q, Quotient.mk'' p⟩) =
+          doubleCosetMk K H
+            ((p.1 : G) * doubleCosetRepresentative K H q) := rfl
+      _ = doubleCosetMk K H (doubleCosetRepresentative K H q) := by
+        apply Quotient.sound
+        refine ⟨(p.1, 1), ?_⟩
+        change
+          (p.1 : G) * doubleCosetRepresentative K H q * (1 : G)⁻¹ =
+            (p.1 : G) * doubleCosetRepresentative K H q
+        simp
+      _ = q := doubleCosetMk_representative K H q
+
+/-- Distinct double-coset fibers cannot meet, and each representative-level
+summand map is injective. -/
+theorem mackeyCoproductToRestrictedInduced_injective
+    (K H : Subgroup G) {B : Type*} [MulAction H B] :
+    Function.Injective
+      (mackeyCoproductToRestrictedInduced (B := B) K H) := by
+  intro x y hxy
+  have hindex : x.1 = y.1 := by
+    calc
+      x.1 = restrictedInducedDoubleCosetIndex K H
+          (mackeyCoproductToRestrictedInduced K H x) :=
+        (restrictedInducedDoubleCosetIndex_mackeyCoproduct K H x).symm
+      _ = restrictedInducedDoubleCosetIndex K H
+          (mackeyCoproductToRestrictedInduced K H y) := congrArg _ hxy
+      _ = y.1 :=
+        restrictedInducedDoubleCosetIndex_mackeyCoproduct K H y
+  rcases x with ⟨q, x⟩
+  rcases y with ⟨r, y⟩
+  change q = r at hindex
+  subst r
+  exact Sigma.ext rfl (heq_of_eq
+    (mackeySummandToRestrictedInduced_injective K H
+      (doubleCosetRepresentative K H q) hxy))
+
+/-- Every restricted induced class lies in the summand indexed by its double
+coset.  Surjectivity uses an actual `K × H` orbit witness relating the chosen
+representative to the supplied representative. -/
+theorem mackeyCoproductToRestrictedInduced_surjective
+    (K H : Subgroup G) {B : Type*} [MulAction H B] :
+    Function.Surjective
+      (mackeyCoproductToRestrictedInduced (B := B) K H) := by
+  letI targetPairAction := inductionPairMulAction (B := B) H.subtype
+  letI doubleAction := doubleCosetMulAction K H
+  intro z
+  induction z using Quotient.inductionOn'
+  case _ p =>
+    let q : DoubleCosetCarrier K H := doubleCosetMk K H p.1
+    have hrep :
+        doubleCosetMk K H (doubleCosetRepresentative K H q) =
+          doubleCosetMk K H p.1 := by
+      exact doubleCosetMk_representative K H q
+    obtain ⟨kh, hkh⟩ := Quotient.exact hrep
+    letI transportedAction := transportedSeedMulAction
+      (B := B) K H (doubleCosetRepresentative K H q)
+    letI summandPairAction := inductionPairMulAction
+      (B := B) (transportedIntersection K H
+        (doubleCosetRepresentative K H q)).subtype
+    let s : MackeySummandCarrier K H
+        (doubleCosetRepresentative K H q) B :=
+      inducedMk
+        (transportedIntersection K H
+          (doubleCosetRepresentative K H q)).subtype
+        kh.1⁻¹ (kh.2 • p.2)
+    refine ⟨⟨q, s⟩, ?_⟩
+    change
+      inducedMk H.subtype
+          (((kh.1⁻¹ : K) : G) * doubleCosetRepresentative K H q)
+          (kh.2 • p.2) =
+        inducedMk H.subtype p.1 p.2
+    have hfirst :
+        ((kh.1 : G) * p.1 * (kh.2 : G)⁻¹) =
+          doubleCosetRepresentative K H q := by
+      exact hkh
+    have hmove :
+        (((kh.1⁻¹ : K) : G) * doubleCosetRepresentative K H q) =
+          p.1 * (kh.2 : G)⁻¹ := by
+      rw [← hfirst]
+      simp [mul_assoc]
+    rw [hmove]
+    simpa [mul_assoc] using
+      (inducedMk_mul_phi H.subtype
+        (p.1 * (kh.2 : G)⁻¹) kh.2 p.2).symm
+
+/-- Global set-level Mackey decomposition for a supplied `H`-set.  The
+equivalence depends on the explicit classical choice of one representative in
+each double coset. -/
+noncomputable def mackeyCoproductEquivRestrictedInduced
+    (K H : Subgroup G) {B : Type*} [MulAction H B] :
+    MackeyCoproductCarrier K H B ≃ SubgroupInducedCarrier H B :=
+  Equiv.ofBijective (mackeyCoproductToRestrictedInduced K H)
+    ⟨mackeyCoproductToRestrictedInduced_injective K H,
+      mackeyCoproductToRestrictedInduced_surjective K H⟩
+
+/-- The global Mackey equivalence commutes with the explicit left `K`-actions
+on the coproduct and the restricted induced carrier. -/
+theorem mackeyCoproductEquivRestrictedInduced_equivariant
+    (K H : Subgroup G) {B : Type*} [MulAction H B]
+    (k : K) (x : MackeyCoproductCarrier K H B) :
+    mackeyCoproductEquivRestrictedInduced K H
+        (@SMul.smul K (MackeyCoproductCarrier K H B)
+          (mackeyCoproductMulAction K H B).toSMul k x) =
+      @SMul.smul K (SubgroupInducedCarrier H B)
+        (restrictedSubgroupInducedMulAction K H B).toSMul k
+        (mackeyCoproductEquivRestrictedInduced K H x) := by
+  rcases x with ⟨q, s⟩
+  exact mackeySummandToRestrictedInduced_equivariant K H
+    (doubleCosetRepresentative K H q) k s
+
 end GroupActionMackey
 end GUFormalization

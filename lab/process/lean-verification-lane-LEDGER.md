@@ -62,7 +62,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionChangeOfGroups.lean` | Pure set-level change of acting groups: actions restrict explicitly along `phi : H ->* G`; surjective `phi` preserves the complete equivariant-map and fixed-point spaces; coinduced functions with right translation satisfy the restriction-coinduction adjunction, with exact finite-cardinality and existence consequences | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; all added actions are named non-instances; the theorem-level receipt exposes no new axiom dependency; W99 checks a C4-to-C2 surjection, a non-surjective strictness control, and a nontrivial coinduction census |
 | `Lean/GUFormalization/GroupActionInduction.lean` | Pure set-level induction: the explicit `H`-action on `G × B` generates the balanced-product quotient, left `G`-translation descends, and induction is left adjoint to restriction with finite-cardinality and existence consequences | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; quotient relation, inverse placement and actions are explicit; theorem-level receipt exposes only the established `propext`, `Classical.choice` and `Quot.sound` surface; W99 checks trivial-subgroup and nontrivial identity-homomorphism carriers plus the complete universal-property image/inverse |
 | `Lean/GUFormalization/GroupActionInductionCoherence.lean` | Pure set-level coherence: induction along the identity is equivariantly equivalent to the seed action, and induction along a composite is equivariantly equivalent to iterated induction through the explicit flattening `[g,[h,b]] ↦ [g * psi(h),b]` | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; inner and outer balanced relations, both inverse laws and `G`-equivariance are explicit; W99 checks identity collapse and a genuinely nested trivial-to-C2-to-C4 composition |
-| `Lean/GUFormalization/GroupActionMackey.lean` | Pure set-level subgroup Mackey interfaces: `K`-orbits of `Res_K^G Ind_H^G(1)` are explicitly equivalent to `K\\G/H`, the representative stabilizer is `k*g = g*h`, and for an arbitrary supplied `H`-set `B` the induced transported-intersection carrier `K ×_(K ∩ gHg⁻¹) {}^gB` is `K`-equivariantly equivalent to the concrete `[kg,b]` summand in `Res_K^G Ind_H^G(B)` | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; conjugation direction, both balanced quotients, injectivity, image quantifiers and named non-global actions are explicit; W99 checks a nonnormal `S3` carrier whose nontrivial two-point seed splits into disjoint two- and four-class summands covering all six induced classes |
+| `Lean/GUFormalization/GroupActionMackey.lean` | Complete pure set-level subgroup Mackey decomposition: `K`-orbits of `Res_K^G Ind_H^G(1)` are `K\\G/H`; each supplied `H`-set summand is the transported-intersection induction `K ×_(K ∩ gHg⁻¹) {}^gB`; and a classical representative choice gives a dependent-coproduct `K`-equivalence with all of `Res_K^G Ind_H^G(B)` | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; representative choice, double-coset index, quotient witnesses, fiberwise action, global bijection and equivariance are explicit; W99 checks chosen nonnormal `S3` representatives assembling disjoint two- and four-class summands bijectively and equivariantly onto all six induced classes |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
@@ -236,7 +236,7 @@ component factor. The axiom receipt adds nothing beyond the established
 set-level mathematics and supplies no physical action, observer, dynamics,
 selector, carrier or GU verdict.
 
-**Subgroup Mackey summand interface — DONE 2026-08-30.** For subgroups
+**Global subgroup Mackey decomposition — DONE 2026-08-30.** For subgroups
 `H K <= G`, Lean defines the explicit left-right action
 `(k,h).g = k*g*h^-1` and proves that the `K`-orbit quotient of the restricted
 induced point carrier `Res_K^G Ind_H^G(1)` is equivalent to the single
@@ -249,10 +249,15 @@ defines the transported action through `g^-1*k*g : H`, induces it from
 `K`-equivariant equivalence onto exactly the classes admitting a representative
 `[k*g,b]`. W99 checks the nonnormal `S3` example with a nontrivial two-point
 seed: the full- and trivial-intersection representatives give disjoint two- and
-four-class summands whose union is the complete six-class restricted induction.
-The choice-dependent global coproduct over double-coset representatives remains
-open. This remains pure supplied-action mathematics and constructs no physical
-action, carrier, observer, dynamics, selector or GU verdict.
+four-class summands. Lean now chooses one representative of every explicit
+double-coset class, forms the dependent coproduct of all such summands, and
+proves `[q,[k,b]] |-> [k*g_q,b]` is a `K`-equivariant equivalence with the
+complete restricted induction. The proof exposes the classical choice,
+double-coset index and actual `K × H` quotient witnesses. W99 checks that its
+chosen nonnormal `S3` representatives assemble bijectively and equivariantly
+onto all six classes. This remains pure supplied-action mathematics and
+constructs no physical action, carrier, observer, dynamics, selector or GU
+verdict.
 
 ## Part D: lock and progress contract
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bbbef31f8e0c
+revision_basis: 4cb9894a586f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,22 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The nontrivial-seed subgroup Mackey summand interface is now Lean-verified
-    at set level. For subgroups H,K <= G, an arbitrary supplied H-set B and
-    representative g, Lean defines the transported-intersection homomorphism
-    k |-> g^-1*k*g : K intersect gHg^-1 -> H, restricts the seed action along
-    it, and proves that [k,b] |-> [k*g,b] is an injective K-equivariant
-    equivalence from K x_(K intersect gHg^-1) {}^gB onto exactly the classes
-    in Res_K^G Ind_H^G(B) admitting a representative [k*g,b]. The prior
-    trivial-seed result still identifies the orbit quotient with K\\G/H and
-    its point stabilizer with k*g=g*h. W99 checks a nonnormal S3 control with
-    a nontrivial two-point seed: the full- and trivial-intersection
-    representatives give disjoint two- and four-class summands covering all
-    six restricted-induced classes. The choice-dependent global coproduct over
-    double-coset representatives remains open. This constructs no physical
-    action, carrier, observer, dynamics, selector or GU verdict, and source,
-    action, ledger, SG4, prediction, confirmation, canon, paper, release,
-    grade and public posture do not move.
+    The global subgroup Mackey decomposition is now Lean-verified at set level.
+    For subgroups H,K <= G and an arbitrary supplied H-set B, Lean chooses one
+    representative of every explicit double-coset class K\\G/H, forms the
+    dependent coproduct of the transported-intersection inductions
+    K x_(K intersect gHg^-1) {}^gB, and proves that [q,[k,b]] |-> [k*g_q,b]
+    is a K-equivariant equivalence with Res_K^G Ind_H^G(B). Injectivity uses an
+    exact double-coset index map and the representative-summand injection;
+    surjectivity extracts an actual K x H quotient witness. W99 checks that a
+    deterministic choice of representatives in the nonnormal S3 control
+    assembles the two- and four-class summands bijectively and equivariantly
+    onto all six restricted-induced classes. The theorem is explicitly
+    classical-choice-dependent. It constructs no physical action, carrier,
+    observer, dynamics, selector or GU verdict, and source, action, ledger,
+    SG4, prediction, confirmation, canon, paper, release, grade and public
+    posture do not move.
     Induction is now coherent under identity and composition at set level.
     Lean proves that induction along the identity homomorphism is equivariantly
     equivalent to the original supplied action, and that induction along

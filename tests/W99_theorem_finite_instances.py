@@ -1468,6 +1468,43 @@ check(
     ),
 )
 
+chosen_double_coset_reps = [orbit[0] for orbit in double_cosets]
+chosen_mackey_summands = [
+    finite_mackey_summand(g) for g in chosen_double_coset_reps
+]
+global_mackey_assembly = {
+    (double_q, summand_q): summand[3][summand_q]
+    for double_q, summand in enumerate(chosen_mackey_summands)
+    for summand_q in range(len(summand[0]))
+}
+check(
+    "chosen representatives index exactly their double-coset classes",
+    all(
+        double_coset_of[g] == double_q
+        for double_q, g in enumerate(chosen_double_coset_reps)
+    ),
+)
+check(
+    "the chosen-summand coproduct assembles bijectively onto restricted induction",
+    len(set(global_mackey_assembly.values()))
+    == len(global_mackey_assembly)
+    == len(target_seed_classes)
+    and set(global_mackey_assembly.values())
+    == set(range(len(target_seed_classes))),
+)
+check(
+    "the global Mackey coproduct assembly is K-equivariant and index-preserving",
+    all(
+        global_mackey_assembly[(double_q, summand[1](k, summand_q))]
+        == target_seed_act(
+            k, global_mackey_assembly[(double_q, summand_q)]
+        )
+        for double_q, summand in enumerate(chosen_mackey_summands)
+        for k in K_s3
+        for summand_q in range(len(summand[0]))
+    ),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
