@@ -7,6 +7,16 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 CANONICAL MACKEY ASSEMBLY IS A NATURAL ISOMORPHISM.** The
+> representative-free coproduct and restricted induction now define functors
+> from supplied `H`-actions to supplied `K`-actions, and canonical assembly is
+> a natural isomorphism between them. Mathlib's free-linearization functor
+> transports the complete result to `K`-representations over any commutative
+> ring. The finite nonnormal-`S3` control checks identity, composition and the
+> naturality square. This is categorical algebra on supplied actions—not an
+> additive Mackey functor on physical representations. Reopen only for an
+> additive Mackey-functor theorem with owned premises or a concrete defect.
+
 > **2026-08-31 CANONICAL MACKEY DECOMPOSITION BUNDLED AS A PERMUTATION-
 > REPRESENTATION EQUIVALENCE.** The free modules on the canonical coproduct
 > and restricted-induced carrier now carry explicit `K`-representations, and

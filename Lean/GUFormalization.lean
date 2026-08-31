@@ -13,6 +13,7 @@ import GUFormalization.GroupActionInductionCoherence
 import GUFormalization.GroupActionMackey
 import GUFormalization.GroupActionMackeyLinearization
 import GUFormalization.GroupActionMackeyRepresentations
+import GUFormalization.GroupActionMackeyCategory
 import GUFormalization.GroupActionFixedPointsAxioms
 import GUFormalization.R4TwoArena
 import GUFormalization.CoflipCore

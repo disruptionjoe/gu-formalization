@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Categorical Mackey natural isomorphism (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The representative-free Mackey construction and restricted induction are functors from supplied `H`-actions to supplied `K`-actions, and canonical assembly is a natural isomorphism between them | `Lean/GUFormalization/GroupActionMackeyCategory.lean`; default-target axiom receipt | L1 exact categorical algebra from supplied actions |
+| Applying Mathlib's standard free-linearization functor gives a natural isomorphism of `K`-representation functors over any commutative ring | Lean `canonicalMackeyRepresentationNatIso` | L1 exact functorial consequence |
+| Identity, composition and the complete naturality square hold in the nonnormal `S3` control | `tests/W99_theorem_finite_instances.py` | finite confirmation only |
+| Additive Mackey functor, physical representation, source-native action, coupling or selector | not constructed by this functor packaging | open / explicitly excluded |
+
 ## Mackey permutation-representation equivalence (2026-08-31)
 
 | Claim | Evidence | Honest grade |

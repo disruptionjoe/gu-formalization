@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e512cf547988
+revision_basis: 2ff4839867bb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,17 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
-    The canonical representative-free Mackey carrier equivalence is now an
-    exact equivalence of K-permutation representations over any semiring. Lean
-    bundles the linearized supplied actions with their identity and product
-    laws, proves the canonical free-module equivalence is an intertwiner, and
-    over any commutative semiring exposes the induced R[K]-module isomorphism.
-    W99 checks the nonnormal S3 representation laws and every basis
-    intertwining square, and rejects a nonbijective hostile generator. This is
-    structured representation theory generated freely from the already-
-    supplied set actions, not an additive Mackey functor on physical
-    representations; no source action, coupling, coefficient, selector or GU
-    verdict moves.
+    The canonical representative-free Mackey construction and restricted
+    induction are now functors from supplied H-actions to supplied K-actions,
+    with canonical assembly a natural isomorphism between them. Applying
+    Mathlib's standard free-linearization functor gives the corresponding
+    natural isomorphism of K-representations over any commutative ring. W99
+    checks identity, composition and the complete nonnormal-S3 naturality
+    square; the axiom receipt exposes only the inherited quotient axioms. This
+    is categorical algebra on already-supplied set actions, not an additive
+    Mackey functor on physical representations; no source action, coupling,
+    coefficient, selector or GU verdict moves.
     The lowest-degree source-compatible WG-P03 family/144 coupling is now
     classified at paired-real representation grade. The bare family/partner
     product has no scalar. Each conjugate same-label complex product contains
@@ -4805,10 +4804,10 @@ next_condition: >-
   indexed-codomain product laws, both induction-restriction and
   restriction-coinduction adjunctions, induction functoriality, canonical
   Mackey seed-map naturality, representative independence, the Hom-form
-  Mackey equivalence and the bundled permutation-representation/group-algebra
-  equivalence are current. Reopen this theorem family only for a genuinely
-  additive Mackey-functor or stronger categorical theorem with owned premises,
-  or a semantic counterexample,
+  Mackey equivalence, bundled permutation representations and the natural
+  isomorphism of supplied action/linearized-representation functors are current.
+  Reopen this theorem family only for a genuinely additive Mackey-functor
+  theorem with owned premises, or a semantic counterexample,
   elaboration failure, unexpected axiom dependency, certificate-map drift or
   fresh measured regression; do not manufacture binary specializations or
   routine corollaries. Probe authorship, paper navigation, status currency and

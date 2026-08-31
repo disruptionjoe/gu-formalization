@@ -1725,6 +1725,37 @@ canonical_seed_map = {
     source: assembly_inverse[induced_seed_map[target]]
     for source, target in global_mackey_assembly.items()
 }
+canonical_identity_map = {source: source for source in global_mackey_assembly}
+restricted_induced_identity_map = {
+    target: target for target in range(len(target_seed_classes))
+}
+check(
+    "canonical Mackey and restricted-induction action functors preserve identity",
+    all(canonical_identity_map[source] == source for source in canonical_identity_map)
+    and all(
+        restricted_induced_identity_map[target] == target
+        for target in restricted_induced_identity_map
+    ),
+)
+check(
+    "canonical Mackey and restricted-induction action functors preserve composition",
+    all(
+        canonical_seed_map[canonical_seed_map[source]] == source
+        for source in canonical_seed_map
+    )
+    and all(
+        induced_seed_map[induced_seed_map[target]] == target
+        for target in induced_seed_map
+    ),
+)
+check(
+    "canonical Mackey assembly is a natural isomorphism on every action carrier",
+    all(
+        global_mackey_assembly[canonical_seed_map[source]]
+        == induced_seed_map[global_mackey_assembly[source]]
+        for source in global_mackey_assembly
+    ),
+)
 free_mackey_vector = {(0, 0): 2, (1, 1): -3, (1, 3): 5}
 assembled_free_mackey_vector = linearize_finite_map(
     free_mackey_vector, global_mackey_assembly
@@ -1961,6 +1992,8 @@ print("  basis transport fails the support law as required.")
 print("  The linearized K-actions satisfy the representation identity and product laws,")
 print("  canonical assembly is a representation intertwiner on every basis vector, and")
 print("  a nonbijective hostile generator fails the C2 group law as required.")
+print("  At action-functor level, identity and composition are preserved and canonical")
+print("  assembly satisfies the complete naturality square before linearization.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")
