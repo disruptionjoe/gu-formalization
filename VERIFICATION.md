@@ -2,10 +2,18 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-08-30"
+updated_at: "2026-08-31"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## Source-native adjoint/144 coupling degree ladder (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The paired-real family/144 system has one cubic adjoint-`45` invariant vertex, obtained by pairing the multiplicity-one `45` lines in the two conjugate same-label complex products | `tests/channel-swings/source_native_adjoint_144_coupling_probe.py` composed with the exact Q5 dictionary | exact representation-grade availability |
+| No nonzero Pati-Salam-preserving linear adjoint background exists; the first symmetric-quadratic owners are `54` and `210`, each with one PS singlet, while the alternating `45` and `945` owners have none | exact weight-character derivation of `Sym^2(45)=1+54+210+770` and `Lambda^2(45)=45+945`, plus the held HE-4 PS counts; 23/23 controls including hostile mutations | exact representation-grade obstruction and feasibility classification |
+| Source action placement, form-leg contraction, family covector, coefficient, physical operator, mass, observed sector, scale, threshold or prediction | not established by this gate | open / explicitly excluded |
 
 ## Source-native Spin(6,4) observation sectors (2026-08-30)
 

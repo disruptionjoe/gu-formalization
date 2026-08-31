@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f98bdd91eebb
+revision_basis: 787a96a2f927
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,22 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The lowest-degree source-compatible WG-P03 family/144 coupling is now
+    classified at paired-real representation grade. The bare family/partner
+    product has no scalar. Each conjugate same-label complex product contains
+    one adjoint 45, so the two lines pair into an available real cubic
+    connection vertex; crossed labels contain none. But 45 restricted to
+    Pati-Salam has no singlet, so no nonzero PS-preserving linear adjoint
+    background can activate that vertex as a zero-order mixing. Exact
+    decomposition gives Sym^2(45)=1+54+210+770 and Lambda^2(45)=45+945. The
+    symmetric product reaches exactly the held 54 and 210 partner owners, each
+    with one PS singlet, while the alternating product reaches only 45 and 945,
+    both with none. All 23 exact and mutation controls pass. Equivalent true-
+    family copies have identical allowed coupling spaces; no family covector,
+    quadratic owner, form-leg contraction, coefficient, background or
+    physical operator is selected. This is representation feasibility plus an
+    exact source-instantiation gap, not a mass, generation, spectrum, scale,
+    observable, prediction or GU verdict.
     The source-native Spin(6,4) real-sector and observation gate is now exact
     at representation grade. A real 32-dimensional Cl(6,4) construction has
     volume square -1, so normalized complex chirality is exchanged by real
@@ -4704,11 +4720,12 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Which source-owned observation/reduction datum can turn the now-exact paired
-  Spin(6,4) 16+/16- and 144+/144- sectors into observed sectors despite the
-  proved failure of literal section pullback to preserve the ambient gamma
-  kernel, and what is the lowest-degree source-compatible coupling that can be
-  classified without choosing an unowned physical quotient or mass model?
+  Which source/action-owned equation-9.16 insertion fixes the one-form-leg
+  contraction, real/Krein coefficient relation, family covector and selection
+  between the now-exact 45 cubic vertex and the quadratic 54/210
+  Pati-Salam-preserving channels, and can it supply a coefficient-complete
+  curvature-sensitive physical operator without inventing a mass model or
+  observed quotient?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -4717,6 +4734,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The WG-P03 coupling gate is closed at representation grade. Do not repeat the
+  Q5/HE-4 branching or the new adjoint degree ladder. The paired-real cubic
+  45 vertex is available, but 45 has no Pati-Salam singlet; the first
+  PS-preserving background owners are the two independent symmetric-quadratic
+  channels 54 and 210. Reopen source instantiation only on an action-owned map
+  that types the internal-45 projection, equation-9.16 half and barred/
+  unbarred placement, one-form-leg contraction, Sym^2 versus Lambda^2 product,
+  real/Krein coefficient relation, family covector and nonzero stationary
+  background or interaction meaning. A conventional 126 VEV is not that map.
+
+  The conditional low-curvature effective-chirality theorem remains deferred.
+  Representation-channel availability is not yet the source-compatible
+  coefficient-complete operator block required to release it. Reopen only when
+  a curvature-sensitive physical operator, domain and quotient are frozen;
+  otherwise record the exact missing datum and reroute capacity.
+
   The source-native real-sector gate is closed at representation grade and the
   naive observation bridge is obstructed. Do not repeat complex 16/144
   branching, infer a generation count from 144 multiplicity, identify a single

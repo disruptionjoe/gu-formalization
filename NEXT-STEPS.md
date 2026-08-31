@@ -2,10 +2,22 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-30"
+updated_at: "2026-08-31"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-31 WG-P03 ADJOINT/144 DEGREE LADDER CLOSED AT REPRESENTATION
+> GRADE.** The paired-real family/partner system has no bare scalar, one
+> conjugate-paired cubic adjoint-`45` vertex, and no Pati-Salam-preserving
+> linear adjoint background because `Inv_PS(45)=0`. The first PS-preserving
+> owners occur in `Sym^2(45)=1+54+210+770`: the `54` and `210` each supply one
+> singlet. `Lambda^2(45)=45+945` supplies none. Equivalent family copies have
+> identical allowed spaces, so no family, coefficient, form-leg contraction or
+> physical mass is selected. Reopen only on an action-owned equation-9.16 map
+> fixing those data. The low-curvature operator theorem remains deferred until
+> that map is coefficient-complete and physically typed. See
+> `explorations/source-native-adjoint-144-coupling-classification-2026-08-31.md`.
 
 > **2026-08-30 SOURCE-NATIVE SPIN(6,4) REAL SECTORS CLOSED; LITERAL
 > OBSERVATION PULLBACK DOES NOT PRESERVE THE AMBIENT GAMMA KERNEL.** The
