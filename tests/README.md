@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Computational-interface Wave 1 controls
+
+- `channel-swings/computational_interface_wave1_probe.py` checks the scoped
+  external-port taxonomy, a 24-state automorphism-orbit micro-world, hidden
+  solver-order and planted third-type failures, exact supplied-split projector
+  dependence over a common kernel, source-currency markers, and the distinction
+  between an empty action grammar and scoped UNSAT. `--selftest` passes `25/25`
+  controls including six hostile mutations. The finite world validates the
+  audit machinery; it is not a GU physical model.
+
 ## Split naturality and correspondence-composition controls
 
 - `channel-swings/source_native_corrected_observation_naturality_probe.py`
