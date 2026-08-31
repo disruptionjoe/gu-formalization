@@ -88,6 +88,7 @@ def checks(model: Model) -> list[tuple[str, bool]]:
     p = projector(model.gamma, model.right_inv)
     p_alt = projector(model.gamma, model.alternate_right_inv)
     x: Vector = (Q(2), Q(0), Q(5))
+    noncycle: Vector = (Q(0), Q(1), Q(0))
     gauge: Vector = (Q(3),)
     y = add(x, matvec(model.d0, gauge))
     px = matvec(p, x)
@@ -111,6 +112,7 @@ def checks(model: Model) -> list[tuple[str, bool]]:
         ("equation-ignores-trace", matmul(model.d1, p) == model.d1),
         ("alternate-equation-ignores-trace", matmul(model.d1, p_alt) == model.d1),
         ("source-field-is-cycle", matvec(model.d1, x) == (Q(0),)),
+        ("planted-noncycle-is-excluded", matvec(model.d1, noncycle) != (Q(0),)),
         ("corrected-field-is-cycle", matvec(model.d1, px) == (Q(0),)),
         ("alternate-corrected-field-is-cycle", matvec(model.d1, matvec(p_alt, x)) == (Q(0),)),
         ("gauge-shift-is-cycle", matvec(model.d1, matvec(model.d0, gauge)) == (Q(0),)),
@@ -120,6 +122,9 @@ def checks(model: Model) -> list[tuple[str, bool]]:
         ("strict-source-rank-zero", model.source_rank == 0),
         ("owner-axes-remain-distinct", model.owner_axes_distinct),
         ("lean-three-stage-complex", "structure ThreeStageComplex" in lean),
+        ("lean-cycle-subtype", "abbrev Cycle" in lean and "{x : C1 // IsCycle C x}" in lean),
+        ("lean-quotient-is-cycle-restricted", "Setoid (Cycle C)" in lean),
+        ("lean-chain-map-restricts-to-cycles", "def ChainMap.mapCycle" in lean),
         ("lean-corrected-chain-map", "def correctedChainMap" in lean),
         ("lean-cohomology-descent", "def correctedCohomologyMap" in lean),
         ("lean-source-nonselection", "strictSource_does_not_select_injective_actionFamily" in lean),
@@ -142,6 +147,7 @@ def selftest() -> bool:
     missing = ROOT / "tests/channel-swings/__missing_action_observation_artifact__"
     mutants = [
         ("broken-chain-square", replace(BASE, d1=matrix([[1, 1, 0]])), "chain-square-zero"),
+        ("admitted-noncycle", replace(BASE, d1=zero(1, 3)), "planted-noncycle-is-excluded"),
         ("wrong-right-inverse", replace(BASE, right_inv=matrix([[0], [0], [2]])), "right-inverse"),
         ("collapsed-split-control", replace(BASE, alternate_right_inv=BASE.right_inv), "split-projectors-distinct"),
         ("invented-source-rank", replace(BASE, source_rank=1), "strict-source-rank-zero"),

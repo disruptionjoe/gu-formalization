@@ -26,12 +26,12 @@ lean:
 
 ```gu-typed-objects
 result: exact three-stage action-complex and corrected-observation descent interface, plus packet-relative action nonselection theorem
-carrier: supplied gauge, field and equation modules with supplied linear differentials LAYER=abstract-source-native-interface CHIRALITY=UNTYPED
-pairing: NONE; no Green, Krein, symplectic, positive or probabilistic pairing is constructed
+carrier: supplied gauge, field and equation modules with supplied linear differentials LAYER=UNTYPED CHIRALITY=S-CHIRALITY-UNTYPED
+pairing: NONE
 real_structure: UNTYPED
 grading: three stages gauge -> field -> equation; candidate middle cohomology is cycles modulo gauge images
-action_owner: supplied mathematical datum; an injective two-owner coefficient family remains unselected by source-coefficient packet v0.1
-target: corrected observation as a chain map and representative-level descent to middle cycle classes MAP-TYPE=chain-map
+action_owner: UNTYPED; supplied mathematical datum only, with the physical action owner unconstructed
+target: quotient of the middle cycle subtype by gauge images and its induced corrected-observation map MAP-TYPE=quotient
 ```
 
 # Result
@@ -52,6 +52,15 @@ gauge equivalence, which is the representative-level condition required for
 an induced map on the middle quotient. Lean also proves reflexivity, symmetry
 and transitivity of that relation, constructs `CandidateCohomology` as the
 actual quotient, and defines the induced map on quotient classes.
+
+An immediate independent review caught and repaired an important first-version
+typing error: the original `CandidateCohomology` declaration quotiented the
+whole field carrier by gauge images, even though the prose called it cycles
+modulo gauge images. The repaired definition first forms the subtype
+`{x // d1 x = 0}` and quotients only that subtype. A chain map now explicitly
+restricts to this cycle carrier before `Quotient.map` is formed. The planted
+finite control includes a noncycle field and rejects its admission as a class
+representative. No downstream physical claim was promoted during the repair.
 
 For an observed Clifford contraction `Gamma`, supplied right inverse `j`, and
 projector

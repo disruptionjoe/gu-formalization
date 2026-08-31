@@ -10,9 +10,23 @@ the map: which directory/group supports which claim.
   exact rational three-stage complex, two distinct split projectors with one
   gamma kernel, the two action--projector weld laws, cycle and gauge-class
   descent, source-rank/owner-axis nonselection, theorem inventory, and the
-  physical claim ceiling. `--selftest` requires seven hostile mutations to
+  physical claim ceiling. It includes a planted noncycle that must be excluded
+  from the actual middle-cycle quotient. `--selftest` requires eight hostile mutations to
   fire; crashes never count as catches. The finite carrier certifies the
   interface only and is not a GU physical model.
+
+## Computational-interface Wave 2 controls
+
+- `channel-swings/external_input_interface_equivalence_probe.py` checks the
+  exact decoder/bijection interface, tagged-code disjointness, no missing
+  ports, automorphism compatibility, and planted third-type, overlap,
+  missing-port and hidden-order controls (`13/13`). It does not establish an
+  exhaustive GU external-input carrier.
+- `channel-swings/group_action_burnside_biset_coend_probe.py` checks the
+  fixed-middle balance quotient on the nonnormal `S3` subgroup example,
+  double-coset cardinality, regular identity laws, associativity, and exact
+  under-/over-quotient hostile controls (`11/11`). It does not certify a full
+  coend or Mackey 2-functor.
 
 ## Computational-interface Wave 1 controls
 
@@ -2577,7 +2591,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (1134 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the source-native corrected-observation naturality and family/owner identifiability certificates, paired-real adjoint/144 coupling degree ladder, the Spin(6,4) real-sector/observation-kernel certificate, K77 builder-certificate contract probe, comparator-scope hardening certificate, L2 semantic-closure certificate, L1 category-closure certificate, M-M26 Pi1 modular-scope certificate, IDX-02 family-reduction/rank-scale hardening certificate, reproduction/status integrity certificate, repository-surface currency hardening certificate, SR-1H action-owned point-carrier census, W/mirror action-pairing ownership theorem, trace-Hq base/normal correction, trace-`H_q` full-connection compatibility gate, v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (1139 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the source-native corrected-observation naturality and family/owner identifiability certificates, paired-real adjoint/144 coupling degree ladder, the Spin(6,4) real-sector/observation-kernel certificate, K77 builder-certificate contract probe, comparator-scope hardening certificate, L2 semantic-closure certificate, L1 category-closure certificate, M-M26 Pi1 modular-scope certificate, IDX-02 family-reduction/rank-scale hardening certificate, reproduction/status integrity certificate, repository-surface currency hardening certificate, SR-1H action-owned point-carrier census, W/mirror action-pairing ownership theorem, trace-Hq base/normal correction, trace-`H_q` full-connection compatibility gate, v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `research-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |

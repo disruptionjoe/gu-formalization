@@ -7,6 +7,24 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 COMPUTATIONAL-INTERFACE BIG WAVE: TWO EXACT BOUNDARIES AND ONE
+> INTEGRITY REPAIR.** The action--observation middle quotient now really is the
+> quotient of the cycle subtype by gauge images; a planted noncycle prevents
+> regression to the former whole-field quotient. Separately, an exact external-
+> input decoder exists iff the supplied classifier is bijective, while hostile
+> controls show why a third type, overlap, missing port, automorphism mismatch,
+> or hidden solver order defeats the advertised interface. In the Burnside
+> lane, restriction-correspondence composition satisfies the fixed-middle
+> balance law, descends through its equivalence closure, and obeys three-stage
+> coherence; an exact nonnormal `S3` control distinguishes the balanced quotient
+> from both under- and over-quotients. No exhaustive GU input classifier, full
+> coend, universal property, Mackey 2-functor, source-selected action, or
+> physical state space follows. Reopen on a source-owned admitted input carrier
+> and bijective classifier, or on an all-object dinatural coend construction.
+> See `explorations/external-input-interface-equivalence-2026-08-31.md`,
+> `explorations/group-action-burnside-biset-coend-2026-08-31.md`, and
+> `explorations/source-native-action-observation-complex-2026-08-31.md`.
+
 > **2026-08-31 ACTION--OBSERVATION WELD AND MINIMAL PHYSICAL-CANDIDATE COMPLEX
 > CONSTRUCTED.** Lean now packages the smallest three-stage complex
 > `gauge -> field -> equation`, proves gauge images are cycles, and proves

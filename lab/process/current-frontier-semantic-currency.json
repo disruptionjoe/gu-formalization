@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__WG_P03_ADJOINT_COUPLING_DEGREE_LADDER_CURRENT__SOURCE_NATIVE_SPIN64_REAL_SECTORS_CURRENT__OBSERVATION_GAMMA_KERNEL_OBSTRUCTION_CURRENT__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT__GROUP_ACTION_MACKEY_FREE_MODULE_LINEARIZATION_CURRENT__GROUP_ACTION_MACKEY_PERMUTATION_REPRESENTATION_CURRENT__GROUP_ACTION_MACKEY_CATEGORICAL_NATURAL_ISOMORPHISM_CURRENT__GROUP_ACTION_MACKEY_RAW_ADDITIVITY_BOUNDARY_CURRENT__GROUP_ACTION_MACKEY_BURNSIDE_GROUP_CURRENT__GROUP_ACTION_ARBITRARY_SPAN_CATEGORY_CURRENT__GROUP_ACTION_ADDITIVE_BURNSIDE_SPAN_CATEGORY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_ENDOMORPHISM_MACKEY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_REPRESENTABLE_MACKEY_FUNCTOR_CURRENT__GROUP_ACTION_BURNSIDE_SPAN_CATEGORICAL_RESTRICTION_CURRENT__SOURCE_NATIVE_CORRECTED_OBSERVATION_PROJECTOR_CURRENT__SOURCE_NATIVE_CORRECTED_OBSERVATION_SPLIT_NATURALITY_CURRENT__SOURCE_NATIVE_FAMILY_OWNER_IDENTIFIABILITY_CURRENT__GROUP_ACTION_BURNSIDE_RESTRICTION_CORRESPONDENCE_CURRENT__GROUP_ACTION_BURNSIDE_RESTRICTION_CORRESPONDENCE_COMPOSITION_CURRENT__SOURCE_NATIVE_ACTION_OBSERVATION_COMPLEX_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__WG_P03_ADJOINT_COUPLING_DEGREE_LADDER_CURRENT__SOURCE_NATIVE_SPIN64_REAL_SECTORS_CURRENT__OBSERVATION_GAMMA_KERNEL_OBSTRUCTION_CURRENT__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT__GROUP_ACTION_MACKEY_FREE_MODULE_LINEARIZATION_CURRENT__GROUP_ACTION_MACKEY_PERMUTATION_REPRESENTATION_CURRENT__GROUP_ACTION_MACKEY_CATEGORICAL_NATURAL_ISOMORPHISM_CURRENT__GROUP_ACTION_MACKEY_RAW_ADDITIVITY_BOUNDARY_CURRENT__GROUP_ACTION_MACKEY_BURNSIDE_GROUP_CURRENT__GROUP_ACTION_ARBITRARY_SPAN_CATEGORY_CURRENT__GROUP_ACTION_ADDITIVE_BURNSIDE_SPAN_CATEGORY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_ENDOMORPHISM_MACKEY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_REPRESENTABLE_MACKEY_FUNCTOR_CURRENT__GROUP_ACTION_BURNSIDE_SPAN_CATEGORICAL_RESTRICTION_CURRENT__SOURCE_NATIVE_CORRECTED_OBSERVATION_PROJECTOR_CURRENT__SOURCE_NATIVE_CORRECTED_OBSERVATION_SPLIT_NATURALITY_CURRENT__SOURCE_NATIVE_FAMILY_OWNER_IDENTIFIABILITY_CURRENT__GROUP_ACTION_BURNSIDE_RESTRICTION_CORRESPONDENCE_CURRENT__GROUP_ACTION_BURNSIDE_RESTRICTION_CORRESPONDENCE_COMPOSITION_CURRENT__SOURCE_NATIVE_ACTION_OBSERVATION_CYCLE_QUOTIENT_REPAIRED__EXTERNAL_INPUT_INTERFACE_CONDITIONAL_EQUIVALENCE_CURRENT__GROUP_ACTION_BURNSIDE_FIXED_MIDDLE_BALANCE_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "01beba315223524e37bf9eba9f551af9f7a3c57ce21fedc4feffebebfb4471cd"
+      "sha256": "4e72e3713f202dacdc3292f8029a198f61c5f56603c4d046f5098ecb7a82af1f"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -422,18 +422,42 @@
     "exact_reopener": "a new source edition or complete action packet supplying the missing covector, owner relation, normalization and real/Krein closure"
   },
   "source_native_action_observation_complex_2026_08_31": {
-    "status": "THREE_STAGE_COMPLEX_AND_CORRECTED_OBSERVATION_DESCENT_EXACT__SOURCE_ACTION_SPLIT_DOMAIN_AND_POSITIVITY_UNSELECTED",
+    "status": "THREE_STAGE_COMPLEX_AND_ACTUAL_CYCLE_QUOTIENT_DESCENT_EXACT__SOURCE_ACTION_SPLIT_DOMAIN_AND_POSITIVITY_UNSELECTED",
     "result_ref": "explorations/source-native-action-observation-complex-2026-08-31.md",
-    "result_sha256": "7e7aee0ad48e28b8ed7273df75f60b5e6ae9f75f1ff1931f6ae3853d23302906",
+    "result_sha256": "c9a8153b7e7ed084721ff8ca02aab76f19192f4128724c16cdd36e89ad33f6ff",
     "probe_ref": "tests/channel-swings/source_native_action_observation_complex_probe.py",
-    "probe_sha256": "4a2cbb4c8e9ce0294df76252bddaef24faba50f5d28484b5ec478c82565dccbb",
+    "probe_sha256": "b8c0457cc1d2dd47043b07ae6209056259e5ffc5cf5652d297ca8eae1d6125c6",
     "lean_ref": "Lean/GUFormalization/SourceNativeActionObservationComplex.lean",
-    "lean_sha256": "c2d82d60e833302f33444570005f018d62151e8e44b9d117b5eb094e1a1504d0",
-    "controls": "27/27 exact rational interface checks and 7/7 hostile mutations caught",
-    "algebraic_result": "a supplied three-stage gauge/field/equation complex and split-corrected observation descend to cycles and gauge-equivalence representatives when the projector fixes observed gauge images and the equation map ignores the removed trace direction",
+    "lean_sha256": "69aee7b923862023938a7a9bed7a9c9444694844ae73e44ea07461f7a26ad5a1",
+    "controls": "31/31 exact rational interface checks and 8/8 hostile mutations caught, including a planted noncycle",
+    "algebraic_result": "a supplied three-stage gauge/field/equation complex and split-corrected observation descend through the actual middle-cycle subtype quotient by gauge images when the projector fixes observed gauge images and the equation map ignores the removed trace direction",
     "source_result": "the frozen strict packet cannot select an injectively parameterized two-owner action family; prior split naturality independently leaves the observation projector unselected",
     "claim_ceiling": "conditional physical-candidate complex only; no source-selected action, split, K77 BV/KT differential, analytic domain, positive physical Hilbert space, probability rule, observed family, prediction or GU verdict",
     "exact_reopener": "a source/action-owned K77 packet supplying concrete differentials, Noether identity, observation split, both weld laws, coefficient closure, and any claimed real/Krein analytic and positive state-space completion"
+  },
+  "external_input_interface_equivalence_2026_08_31": {
+    "status": "EXACT_DECODER_IFF_BIJECTIVE_CLASSIFIER__GU_EXHAUSTIVE_TWO_TYPE_EQUIVALENCE_UNESTABLISHED",
+    "result_ref": "explorations/external-input-interface-equivalence-2026-08-31.md",
+    "result_sha256": "61b213605ce5abadb2ee530e08c6312defec345f07f5ed65f748417627abdc56",
+    "probe_ref": "tests/channel-swings/external_input_interface_equivalence_probe.py",
+    "probe_sha256": "6055b0e03f5ed1ee1135856fba324265d60ee371060b768a516fedaa67b32de2",
+    "lean_ref": "Lean/GUFormalization/ExternalInputInterface.lean",
+    "lean_sha256": "b5064f594f01d9f3c22dc2d0d1e338147b1c80e3e0c5ec9614647ef19290f57f",
+    "controls": "13/13 exact and hostile controls including third type, overlap, missing port, automorphism mismatch and hidden solver order",
+    "claim_ceiling": "conditional set-level interface only; no exhaustive GU external-input carrier, classifier, physical groupoid equivalence, prediction or GU verdict",
+    "exact_reopener": "a source-owned admitted external-input carrier plus an exhaustive classifier with inverse and preserved automorphism, ownership and physical-equivalence structure"
+  },
+  "group_action_burnside_fixed_middle_balance_2026_08_31": {
+    "status": "FIXED_MIDDLE_BALANCE_QUOTIENT_AND_THREE_STAGE_COHERENCE_EXACT__FULL_COEND_UNCONSTRUCTED",
+    "result_ref": "explorations/group-action-burnside-biset-coend-2026-08-31.md",
+    "result_sha256": "000e2baf6074961f64ea5bf0ab5c544e50d21a4a620d47552c7fee350d20f240",
+    "probe_ref": "tests/channel-swings/group_action_burnside_biset_coend_probe.py",
+    "probe_sha256": "22730db1836f34068e42456c82bc5c41b461a2c3d88d755649f54eb89be28934",
+    "lean_ref": "Lean/GUFormalization/GroupActionBurnsideBisetCoend.lean",
+    "lean_sha256": "a6d4a6d764be2666e73235492f23dbd2105e256b23f9591bae4a3c8bdca75c4a",
+    "controls": "11/11 exact nonnormal S3 balance, identity, associativity and hostile quotient controls",
+    "claim_ceiling": "fixed-intermediate balance quotient only; no all-object coend, dinatural universal property, biset bicategory, Mackey 2-functor or physical/source realization",
+    "exact_reopener": "an all-object intermediate construction with object-changing dinaturality and a proved universal mapping property"
   },
   "wg_p03_adjoint_144_coupling_2026_08_31": {
     "status": "REPRESENTATION_THEOREM_READY__LINEAR_PS_BACKGROUND_OBSTRUCTED__QUADRATIC_54_210_AVAILABLE__SOURCE_INSTANTIATION_TYPE_MISSING",

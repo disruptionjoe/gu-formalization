@@ -18,6 +18,8 @@ import GUFormalization.GroupActionBurnsideMackeyFunctor
 import GUFormalization.GroupActionBurnsideSpanRestriction
 import GUFormalization.GroupActionBurnsideSpanCorrespondence
 import GUFormalization.GroupActionBurnsideSpanCorrespondenceComposition
+import GUFormalization.GroupActionBurnsideBisetCoend
+import GUFormalization.ExternalInputInterface
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
 import GUFormalization.SourceNativeCorrectedObservation
@@ -55,6 +57,8 @@ open GUFormalization.GroupActionBurnsideMackeyFunctor
 open GUFormalization.GroupActionBurnsideSpanRestriction
 open GUFormalization.GroupActionBurnsideSpanCorrespondence
 open GUFormalization.GroupActionBurnsideSpanCorrespondenceComposition
+open GUFormalization.GroupActionBurnsideBisetCoend
+open GUFormalization.ExternalInputInterface
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
 open GUFormalization.SourceNativeCorrectedObservation
@@ -236,6 +240,16 @@ open GUFormalization.SourceNativeActionObservationComplex
 #print axioms compose_add_left
 #print axioms compose_add_right
 #print axioms compose_graphElements
+#print axioms compose_middle_balance
+#print axioms compose_eq_of_eqvGen
+#print axioms compose_associativity_coherence
+#print axioms exists_exact_decoder_iff_bijective
+#print axioms no_missing_port
+#print axioms no_overlap
+#print axioms unique_code
+#print axioms nontrivial_automorphism_control
+#print axioms planted_third_type_control
+#print axioms hidden_solver_order_control
 #print axioms exists_ambient_kernel_observed_trace_ne_zero
 #print axioms kernel_preservation_iff_factorization
 #print axioms descentFactor_unique
@@ -257,6 +271,7 @@ open GUFormalization.SourceNativeActionObservationComplex
 #print axioms gaugeImage_isCycle
 #print axioms ChainMap.mapsCycle
 #print axioms ChainMap.mapsCohomologous
+#print axioms ChainMap.mapsCohomologousCycles
 #print axioms cohomologous_refl
 #print axioms cohomologous_symm
 #print axioms cohomologous_trans

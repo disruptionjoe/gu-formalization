@@ -78,14 +78,28 @@ theorem cohomologous_trans
   refine ⟨g + h, ?_⟩
   simp [add_assoc]
 
-/-- Gauge equivalence as an actual equivalence relation on the field stage. -/
-def cohomologySetoid (C : ThreeStageComplex R C0 C1 C2) : Setoid C1 where
-  r := Cohomologous C
-  iseqv := ⟨cohomologous_refl C, cohomologous_symm C,
-    cohomologous_trans C⟩
+/-- The actual middle-cycle carrier.  Keeping the cycle proof in the type
+prevents a noncycle field from representing a cohomology class. -/
+abbrev Cycle (C : ThreeStageComplex R C0 C1 C2) :=
+  {x : C1 // IsCycle C x}
 
-/-- The algebraic middle quotient.  Its physical interpretation remains an
-extra ownership/domain/pairing obligation. -/
+/-- Gauge equivalence restricted to middle cycles. -/
+def CohomologousCycles (C : ThreeStageComplex R C0 C1 C2)
+    (x y : Cycle C) : Prop :=
+  Cohomologous C x.1 y.1
+
+/-- Gauge equivalence as an equivalence relation on the cycle subtype, not on
+the whole field stage. -/
+def cohomologySetoid (C : ThreeStageComplex R C0 C1 C2) : Setoid (Cycle C) where
+  r := CohomologousCycles C
+  iseqv := {
+    refl := fun x => cohomologous_refl C x.1
+    symm := fun {_ _} hxy => cohomologous_symm C hxy
+    trans := fun {_ _ _} hxy hyz => cohomologous_trans C hxy hyz
+  }
+
+/-- The algebraic middle-cycle quotient `ker d1 / im d0`.  Its physical
+interpretation remains an extra ownership/domain/pairing obligation. -/
 abbrev CandidateCohomology (C : ThreeStageComplex R C0 C1 C2) :=
   Quotient (cohomologySetoid C)
 
@@ -120,6 +134,14 @@ theorem ChainMap.mapsCycle
     D.d1 (f.f1 x) = f.f2 (C.d1 x) := h
     _ = 0 := by rw [hx, map_zero]
 
+/-- A chain map restricts its middle component to the actual cycle
+subtypes. -/
+def ChainMap.mapCycle
+    {C : ThreeStageComplex R C0 C1 C2}
+    {D : ThreeStageComplex R D0 D1 D2}
+    (f : ChainMap C D) : Cycle C → Cycle D :=
+  fun x => ⟨f.f1 x.1, f.mapsCycle x.2⟩
+
 /-- A chain map respects gauge equivalence, so its middle map is well-defined
 on cycle classes whenever the representative quotient is formed. -/
 theorem ChainMap.mapsCohomologous
@@ -134,12 +156,22 @@ theorem ChainMap.mapsCohomologous
   change f.f1 (C.d0 g) = D.d0 (f.f0 g) at h
   rw [h]
 
-/-- A chain map induces a map of the candidate middle quotients. -/
+/-- The cycle-restricted middle map respects gauge equivalence. -/
+theorem ChainMap.mapsCohomologousCycles
+    {C : ThreeStageComplex R C0 C1 C2}
+    {D : ThreeStageComplex R D0 D1 D2}
+    (f : ChainMap C D) {x y : Cycle C}
+    (hxy : CohomologousCycles C x y) :
+    CohomologousCycles D (f.mapCycle x) (f.mapCycle y) := by
+  exact f.mapsCohomologous hxy
+
+/-- A chain map induces a map of the actual candidate middle-cycle
+quotients. -/
 def ChainMap.cohomologyMap
     {C : ThreeStageComplex R C0 C1 C2}
     {D : ThreeStageComplex R D0 D1 D2}
     (f : ChainMap C D) : CandidateCohomology C → CandidateCohomology D :=
-  Quotient.map f.f1 (fun _ _ hxy => f.mapsCohomologous hxy)
+  Quotient.map f.mapCycle (fun _ _ hxy => f.mapsCohomologousCycles hxy)
 
 /-- Correct only the field-stage component of a supplied observation chain
 map by the selected Clifford-kernel projector. -/
