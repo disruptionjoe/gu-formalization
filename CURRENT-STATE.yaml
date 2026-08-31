@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e73b8f536152
+revision_basis: f98bdd91eebb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The source-native Spin(6,4) real-sector and observation gate is now exact
+    at representation grade. A real 32-dimensional Cl(6,4) construction has
+    volume square -1, so normalized complex chirality is exchanged by real
+    conjugation: the complex 16+ and 16- half-spinors, and likewise the 144+
+    and 144- gamma kernels, are paired rather than separately real. Clifford
+    contraction has an explicit right inverse and gives exact 16/144 sector
+    sequences. But actual observation pullback does not preserve the ambient
+    gamma kernel: even for a constant section, an explicit ambient gamma-
+    traceless vector-spinor pulls back to a one-form spinor with nonzero 4D
+    gamma trace. All 41 integer-algebra controls pass. Thus the ambient
+    Omega0 / gamma-trace / gamma-kernel split does not yet define three
+    canonical observed sectors; a source-owned Clifford-trace intertwiner,
+    corrected observed kernel, or physical quotient/dynamics is required.
+    This is a bridge obstruction, not a generation-count, physical-chirality,
+    mass, action, source-claim or GU verdict.
     The Hom-form subgroup Mackey theorem is now Lean-verified for supplied set
     actions. For subgroups H,K <= G, an H-set B and a K-set C, K-equivariant
     maps Res_K^G Ind_H^G(B) -> C are explicitly equivalent to the dependent
@@ -4689,15 +4704,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  With the source register terminally typed at ADHERED 106 / PARTIAL 4 /
-  UNTYPED 1, ledger v0.263 terminal, and the named B2 action-root set empty at
-  current source/action ownership, what is the strongest disjoint non-B2 native
-  Progress gate, specifically concrete result hardening, in a freshly rebuilt
-  repository-wide frontier?
-  A source row, ledger row or horn-native coefficient-complete K77 action may
-  re-enter only when its exact registered reopener supplies the missing source,
-  physical map, action, real structure, domain or observable before target
-  evaluation.
+  Which source-owned observation/reduction datum can turn the now-exact paired
+  Spin(6,4) 16+/16- and 144+/144- sectors into observed sectors despite the
+  proved failure of literal section pullback to preserve the ambient gamma
+  kernel, and what is the lowest-degree source-compatible coupling that can be
+  classified without choosing an unowned physical quotient or mass model?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -4706,6 +4717,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The source-native real-sector gate is closed at representation grade and the
+  naive observation bridge is obstructed. Do not repeat complex 16/144
+  branching, infer a generation count from 144 multiplicity, identify a single
+  half-spin or gamma kernel as a real physical family, or assume that section
+  pullback preserves gamma trace. Reopen the observed 2+1 theorem only on a
+  source-owned lift/retraction intertwining Clifford contraction, a corrected
+  observed kernel with representation and quotient meaning, or action/BV/
+  boundary/domain dynamics whose physical cohomology supplies the sector map.
+
+  The next accepted source-native priority is the WG-P03 third-family/144-
+  partner coupling feasibility test. It may now consume the paired real-sector
+  theorem, but must use the source-native connection/adjoint carrier, preserve
+  the distinct imposter-128 label, and stop at the lowest-degree invariant-
+  coupling theorem or obstruction. It may not substitute a conventional
+  126-VEV owner, choose a mass spectrum, or claim a prediction packet without
+  the still-missing physical observable, numerical scale and threshold.
+
   Rebuild the substantial repository frontier and select the strongest
   disjoint non-B2 gate. Follow A1: first check exact source-to-proof reopeners,
   then newly open ledger rows, then concrete result hardening. The source

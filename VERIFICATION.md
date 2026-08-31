@@ -7,6 +7,14 @@ updated_at: "2026-08-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Source-native Spin(6,4) observation sectors (2026-08-30)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The real `Cl(6,4)` structure exchanges complex `16+ / 16-` half-spinors and `144+ / 144-` gamma kernels while preserving each paired total | `tests/channel-swings/source_native_spin64_observation_sector_probe.py` (real integer 32x32 Clifford construction, volume/chirality and split-surjectivity controls) | exact representation-grade |
+| Literal section pullback does not preserve the ambient gamma kernel | general Clifford witness in `explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md`; finite exact hostile control in the probe | theorem-grade algebraic obstruction to the naive bridge |
+| Observed generations, physical chirality, masses, action, quotient and source claim | not established by this gate | open / explicitly excluded |
+
 Outsider entry point. This program uses internal labels ("theorem-grade", "closed", "confirmed"); this file
 exists so you do NOT have to trust them. It classifies the flagship results into three honesty levels, gives each
 a compact verification package, and states plainly what would falsify the leading interpretations. Companion to

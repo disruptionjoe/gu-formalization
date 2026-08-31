@@ -2,10 +2,24 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-24"
+updated_at: "2026-08-30"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-30 SOURCE-NATIVE SPIN(6,4) REAL SECTORS CLOSED; LITERAL
+> OBSERVATION PULLBACK DOES NOT PRESERVE THE AMBIENT GAMMA KERNEL.** The
+> complex `16+ / 16-` and `144+ / 144-` sectors are exchanged by the real
+> structure and only their paired totals are real. A general exact witness
+> shows an ambient gamma-traceless one-form spinor can pull back to nonzero 4D
+> gamma trace, even for a constant section. Therefore the ambient
+> `Omega0 / trace / kernel` split is not yet an observed `2+1` theorem. Reopen
+> only on a source-owned Clifford-trace intertwiner, corrected observed kernel,
+> or physical quotient/dynamics. Next classify the lowest-degree WG-P03
+> source-compatible coupling on these paired sectors, using the connection/
+> adjoint carrier and preserving the distinct imposter `128`; do not import a
+> conventional `126` VEV, mass spectrum, generation count or prediction claim.
+> See `explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md`.
 
 > **2026-08-24 W154/W229 K77 OWNER QUALIFICATION: CONDITIONAL K95 COMPOSITE
 > NONADMITTED; NAMED B2 ROOT SET EMPTY.** W229's K95 Schur and Gaussian-parent

@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__SOURCE_NATIVE_SPIN64_REAL_SECTORS_CURRENT__OBSERVATION_GAMMA_KERNEL_OBSTRUCTION_CURRENT__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "117f5b99d04bca35596841020e747755dcad9bfedf7d8780740c1f3dbe2dbd96"
+      "sha256": "fe6a8bdd8342fce6a3d24ea7db084e388a5ea984fdb9ce98aa0d12c4bdfb80d1"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -288,19 +288,31 @@
       "sha256": "380adc28dc05cd6af9571bbd0f5b6b1afcce3eed0bc2e5f67aabf53cdd333c1b"
     }
   },
+  "source_native_spin64_observation_2026_08_30": {
+    "status": "REPRESENTATION_SECTORS_EXACT__NAIVE_OBSERVATION_BRIDGE_OBSTRUCTED",
+    "result_ref": "explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md",
+    "probe_ref": "tests/channel-swings/source_native_spin64_observation_sector_probe.py",
+    "controls": "41/41 exact integer-algebra checks",
+    "real_sector_result": "real conjugation exchanges complex 16+/16- and 144+/144-; paired totals are real",
+    "observation_result": "literal section pullback does not map ambient ker Gamma into observed ker Gamma",
+    "claim_ceiling": "no generation count, physical chirality, mass, action, quotient, source-claim verdict or GU verdict",
+    "exact_reopener": "source-owned Clifford-trace intertwiner, corrected observed kernel with quotient meaning, or action/BV/boundary/domain physical cohomology"
+  },
   "live_frontier": {
-    "current_question_contains": "strongest disjoint non-B2 native Progress gate",
-    "selected_condition": "REBUILD_REPOSITORY_WIDE_FRONTIER__SELECT_STRONGEST_DISJOINT_NON_B2_GATE",
+    "current_question_contains": "paired Spin(6,4) 16+/16- and 144+/144- sectors",
+    "selected_condition": "CLASSIFY_LOWEST_DEGREE_WG_P03_SOURCE_COMPATIBLE_COUPLING",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "source-authenticated or owner-native coefficient-complete K77 pre-density action",
       "genuine real Spin-equivariant action bridge",
-      "materially distinct K77 action class with independent normalization and complete variational ownership"
+      "materially distinct K77 action class with independent normalization and complete variational ownership",
+      "source-owned Clifford-trace observation intertwiner or physical quotient"
     ],
     "forbidden_repeats": [
       "synthetic CBRS-1AC",
       "W154/W229 qualification",
       "HE-1",
+      "source-native Spin(6,4) real-sector theorem or observation-kernel obstruction without a changed bridge input",
       "invariant-gapping campaign",
       "status-contract currency wave without a new semantic defect or fresh measured baseline decrease",
       "repository-surface currency wave without a new concrete red or measured population change",
@@ -361,6 +373,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "lab/process/remaining-nonprotected-gate-hardening-wave.json",
-  "probe_ref": "process_gates/k77_action_concomitant_residual_flag_gate_audit.py"
+  "result_ref": "explorations/source-native-spin64-observation-sector-obstruction-2026-08-30.md",
+  "probe_ref": "tests/channel-swings/source_native_spin64_observation_sector_probe.py"
 }
