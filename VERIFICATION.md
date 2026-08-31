@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Burnside Mackey law on point endomorphisms (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite supplied actions modulo equivariant equivalence are additively equivalent to spans from the trivial point action to itself, by using the action as apex | `Lean/GUFormalization/GroupActionBurnsideSpanMackey.lean`; Lean `PointSpanClass.monoidEquiv` | L1 exact supplied-action algebra |
+| Grothendieck completion identifies the additive Burnside group with the additive point-endomorphism group of the completed span category | Lean `pointEndomorphismEquiv` and `pointEndomorphismEquiv_burnsideOf`; default-target axiom receipt | L1 exact additive category algebra |
+| Subgroup restriction and induction transport to point-endomorphism additive homomorphisms, and restriction after induction satisfies the dependent double-coset coproduct identity | Lean `pointRestriction`, `pointInduction`, and `pointRestriction_pointInduction_eq_mackeyCoproduct`; nonnormal `S3` control in `tests/W99_theorem_finite_instances.py` | L1 additive Mackey law on point endomorphisms |
+| A category-valued Mackey functor on every span object, source-native realization, physical representation, selector, prediction, or GU verdict | not constructed by the point-endomorphism theorem | open / explicitly excluded |
+
 ## Additive Burnside span category (2026-08-31)
 
 | Claim | Evidence | Honest grade |
@@ -15,7 +24,7 @@ updated_at: "2026-08-31"
 | Finite equivariant pullback composition distributes over span coproduct in both variables | Lean `sumCompEquiv`, `compSumEquiv`, `SpanClass.add_comp`, and `SpanClass.comp_add` | L1 exact bilinearity before completion |
 | Homwise Grothendieck completion supplies additive inverses, bilinear composition, a category, and a `Preadditive` instance | Lean `BurnsideSpanHom.comp_of_of`, `BurnsideSpanHom.assoc`, and `AdditiveBurnsideSpanObject.preadditive_category_laws`; default-target axiom receipt | L1 exact preadditive category theory on supplied finite actions |
 | On trivial actions the completed hom groups are modeled by integer multiplicity matrices, with bilinear matrix multiplication | `tests/W99_theorem_finite_instances.py` | finite confirmation only |
-| A Mackey functor across subgroup change, source-native realization, physical representation, selector, prediction, or GU verdict | not constructed by this additive span completion | open / explicitly excluded |
+| The point-endomorphism Mackey law is supplied separately above; a category-valued Mackey functor on every span object, source-native realization, physical representation, selector, prediction, or GU verdict | not constructed by this additive span completion | open / explicitly excluded |
 
 ## Finite-action span category (2026-08-31)
 
@@ -33,7 +42,7 @@ updated_at: "2026-08-31"
 | Finite supplied actions modulo equivariant equivalence form a commutative monoid under disjoint coproduct, whose Grothendieck completion is an additive Burnside group | `Lean/GUFormalization/GroupActionBurnside.lean`; default-target axiom receipt | L1 exact group-action algebra |
 | Subgroup restriction and induction preserve equivariant equivalence and disjoint coproduct and therefore descend to additive homomorphisms of Burnside groups | Lean `restriction`, `induction`, `restriction_of`, and `induction_of` | L1 exact categorical algebra for finite supplied actions |
 | For finite `G` and subgroups `K,H`, restriction after induction equals the Burnside class of the dependent coproduct over `K \\ G / H` of the transported-intersection induced conjugate seed actions | Lean `restriction_induction_of_eq_mackeyCoproduct`; nonnormal `S3` control in `tests/W99_theorem_finite_instances.py` | L1 additive Mackey double-coset identity |
-| Arbitrary-span composition and homwise preadditive completion are supplied separately by the span modules above; a Mackey functor across subgroup change, physical representation category, source-native action, coupling, selector or GU verdict | not constructed by this object-level finite-action Burnside group | open / explicitly excluded |
+| Arbitrary-span composition, homwise preadditive completion, and the point-endomorphism Mackey law are supplied separately by the span modules above; a category-valued Mackey functor on every span object, physical representation category, source-native action, coupling, selector or GU verdict | not constructed by this object-level finite-action Burnside group | open / explicitly excluded |
 
 ## Free preadditive Mackey envelope (2026-08-31)
 
@@ -60,7 +69,7 @@ updated_at: "2026-08-31"
 | For any supplied group, there is no action morphism from its nonempty one-point trivial action to its empty trivial action | `Lean/GUFormalization/GroupActionMackeyAdditivityBoundary.lean`; default-target axiom receipt | L1 exact categorical obstruction |
 | The ordinary category of supplied actions admits no preadditive structure and no zero object | Lean `action_preadditive_false` and `action_has_no_zero_object` | L1 exact consequence of the empty point-to-empty hom-set |
 | The existing canonical Mackey natural isomorphism is not by itself an additive Mackey functor | the source category lacks the hom-set zero required by preadditivity; W99 checks the empty/singleton finite witness | exact scope boundary on the current construction |
-| The completed span category bypasses this obstruction by changing the homs; a Mackey functor across subgroup change, double-coset compatibility on that category, or physical realization | not constructed by this obstruction theorem | open / explicitly excluded |
+| The completed span category bypasses this obstruction by changing the homs, and the point-endomorphism double-coset law is supplied separately; a category-valued Mackey functor on every span object or physical realization | not constructed by this obstruction theorem | open / explicitly excluded |
 
 ## Categorical Mackey natural isomorphism (2026-08-31)
 

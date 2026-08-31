@@ -19,6 +19,7 @@ import GUFormalization.GroupActionAdditiveEnvelope
 import GUFormalization.GroupActionBurnside
 import GUFormalization.GroupActionSpanCategory
 import GUFormalization.GroupActionBurnsideSpanCategory
+import GUFormalization.GroupActionBurnsideSpanMackey
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
 import GUFormalization.SourceNativeRealSector

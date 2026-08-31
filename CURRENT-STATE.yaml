@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2929063c5f92
+revision_basis: 15b9b611d120
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The two supplied finite-action Burnside constructions now meet exactly at
+    the trivial point action. Lean proves that finite actions modulo
+    equivariant equivalence are additively equivalent to point-to-point span
+    classes by sending an action to the span whose apex is that action, and
+    lifts this equivalence through Grothendieck completion. Transported
+    subgroup restriction and induction therefore act on the completed point-
+    endomorphism groups, where restriction after induction satisfies the same
+    dependent double-coset coproduct identity. W99 independently checks the
+    nonnormal-S3 class and detects either omitted summand. This is the Burnside
+    Mackey law on point endomorphisms, not a category-valued Mackey functor on
+    every span object, physical representation, source-native action,
+    selector, prediction, or GU verdict.
     The arbitrary finite supplied-action span category now has its additive
     Burnside completion. Disjoint coproduct of span apices makes every raw
     hom-set a commutative monoid, finite equivariant pullback distributes in
@@ -17,9 +29,11 @@ current_result:
     the category and preadditive laws. Graph spans remain covariant map
     generators and converse graphs remain transfer-direction generators.
     W99 independently checks the trivial-action integer multiplicity-matrix
-    model. This is not yet a Mackey functor across subgroup change, a physical
-    representation, source-native action, selector, prediction, or GU verdict;
-    no separate categorical universal property is asserted.
+    model. The point-endomorphism Mackey law is now supplied separately, but
+    this module alone is not a category-valued Mackey functor on every span
+    object, physical representation, source-native action, selector,
+    prediction, or GU verdict; no separate categorical universal property is
+    asserted.
     The supplied finite-action Mackey family now has its arbitrary-span
     category. Lean defines arbitrary equivariant spans, identifies them under
     equivariant isomorphism of their apex commuting with both legs, and
@@ -4816,7 +4830,7 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Rebuild the substantial repository frontier and select the strongest
-  disjoint non-B2 gate. Follow A1: first check exact source-to-proof reopeners,
+  disjoint non-B2 gate. Follow A1: check exact source-to-proof reopeners,
   then newly open ledger rows, then concrete result hardening. The ledger v0.263
   remains 91 terminal and 0 open rows, and the current named B2 action-root set
   is empty. Do not synthesize CBRS-1AC, transfer K95 ownership, choose a
@@ -4839,10 +4853,12 @@ next_condition: >-
   neither a generation count nor a physical family.
 
   The supplied finite-action Mackey family now has its additive Burnside group,
-  its category of arbitrary equivariant spans composed by finite pullback, and
-  the homwise Grothendieck-completed preadditive Burnside span category. The
-  next categorical successor requires a Mackey-functor formulation with
-  separately owned restriction/transfer compatibility premises. Reopen this
+  its category of arbitrary equivariant spans composed by finite pullback, the
+  homwise Grothendieck-completed preadditive Burnside span category, and the
+  transported Mackey double-coset law on the trivial point's completed
+  endomorphism group. The next categorical successor requires a category-
+  valued Mackey-functor formulation on every span object with separately owned
+  restriction/transfer functors and coherence premises. Reopen this
   arc only for that stronger theorem, a source-owned realization, or a concrete
   proof, elaboration, axiom, certificate, or semantic defect. The raw action
   category remains nonpreadditive; its obstruction is bypassed only in the

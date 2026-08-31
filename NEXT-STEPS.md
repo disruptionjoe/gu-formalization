@@ -7,6 +7,18 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 BURNSIDE MACKEY LAW LIFTED TO POINT ENDOMORPHISMS.** Lean now
+> identifies the additive Burnside group of supplied finite actions with the
+> completed endomorphism group of the trivial point action in the Burnside span
+> category. Subgroup restriction and induction transport through that
+> equivalence, and restriction after induction satisfies the dependent double-
+> coset coproduct identity in the point-endomorphism group. W99 checks the
+> nonnormal-`S3` class and rejects either omitted summand. This is not yet a
+> category-valued Mackey functor on every span object, a physical
+> representation, source action, selector, prediction, or GU verdict. Reopen
+> only for a full span-functor Mackey formulation with its coherence premises,
+> a source-owned realization, or a concrete proof/certificate defect.
+
 > **2026-08-31 ADDITIVE BURNSIDE SPAN CATEGORY CONSTRUCTED.** Disjoint
 > coproduct of span apices now gives every finite-action span hom-set a
 > commutative monoid; finite equivariant pullback distributes over it on both
@@ -14,10 +26,10 @@ updated_at: "2026-08-31"
 > completion and proves the resulting category is preadditive. Graph and
 > converse-graph spans remain covariant and transfer-direction generators.
 > W99 checks the independent integer multiplicity-matrix model, including both
-> distributivity laws and formal negatives. This is not yet a Mackey functor
-> across subgroup change, a physical representation, source action, selector,
-> prediction, or GU verdict. Reopen only for a Mackey-functor theorem with
-> separately owned premises, source realization, or a concrete defect.
+> distributivity laws and formal negatives. The point-endomorphism Mackey law
+> is now supplied separately above, but a category-valued Mackey functor on all
+> span objects, physical representation, source action, selector, prediction,
+> or GU verdict remains open.
 
 > **2026-08-31 FINITE-ACTION SPAN CATEGORY CONSTRUCTED.** Lean now
 > forms arbitrary equivariant spans between finite supplied actions, quotients
@@ -42,10 +54,11 @@ updated_at: "2026-08-31"
 > intersection induction summands over double cosets. W99 checks the complete
 > nonnormal-`S3` 2+4 decomposition and detects either omitted summand. This is
 > supplied finite-action algebra. The separate arbitrary-span category now has
-> its homwise additive completion, but no Mackey functor across subgroup change,
-> physical representation, source action, selector, prediction, or GU verdict.
-> Reopen only for that stronger Mackey compatibility, a source-owned
-> realization, or a concrete certificate defect.
+> its homwise additive completion and transported point-endomorphism Mackey
+> law. A category-valued Mackey functor on every span object, physical
+> representation, source action, selector, prediction, or GU verdict remains
+> open. Reopen only for that stronger coherence, a source-owned realization,
+> or a concrete certificate defect.
 
 > **2026-08-31 CANONICAL MACKEY NATURALITY LIFTS TO A FREE PREADDITIVE
 > ENVELOPE.** Lean now replaces each supplied-action hom-set by finite formal

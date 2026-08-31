@@ -1663,6 +1663,15 @@ check(
     == sum(sum(signature) for signature in summand_burnside_signatures)
     == len(target_seed_classes),
 )
+check(
+    "point-endomorphism transport preserves the nonnormal-S3 Mackey class",
+    tuple(restricted_burnside_signature)
+    == tuple(coproduct_burnside_signature)
+    and tuple(restricted_burnside_signature)
+    != tuple(summand_burnside_signatures[0])
+    and tuple(restricted_burnside_signature)
+    != tuple(summand_burnside_signatures[1]),
+)
 
 # Hom-form Mackey control. Use a three-point K-set whose nonidentity element
 # swaps 0 and 1 and fixes 2. Restriction to each transported intersection
@@ -2241,6 +2250,8 @@ print("  The finite-action Burnside group now makes disjoint coproduct additive 
 print("  descends subgroup restriction and induction; the nonnormal-S3 control checks")
 print("  that restriction after induction is exactly the 2+4 double-coset coproduct.")
 print("  Omitting either transported-intersection transfer summand changes its class.")
+print("  Identifying a finite action with its point-to-point apex span preserves this")
+print("  nonnormal-S3 class and transports the same Mackey law to point endomorphisms.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")
