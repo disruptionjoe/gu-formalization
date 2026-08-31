@@ -7,7 +7,7 @@
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "a1ef414890303ffc31c288a896a4b74dc16eb932cec3be2ed85af420428c8dae"
+      "sha256": "2734cf12b919640db02638ad735f59edb87987e998d99711de8ea351b7da7927"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -247,6 +247,7 @@
     },
     "group_action_mackey_nontrivial_summand": {
       "path": "Lean/GUFormalization/GroupActionMackey.lean",
+      "sha256": "f5239d7ebaf72cd8d85e0d624cf1675ee9e199892962ba70ab0736aba29bb047",
       "result": "TRANSPORTED_INTERSECTION_INDUCTION_EQUIVARIANTLY_IDENTIFIED_WITH_EXACT_DOUBLE_COSET_SUMMAND",
       "finite_control": "nonnormal S3 with nontrivial two-point seed splits into disjoint 2+4 classes covering all 6 induced classes",
       "global_representative_coproduct": "LEAN_VERIFIED_CHOICE_DEPENDENT_K_EQUIVARIANT_EQUIVALENCE",
@@ -277,12 +278,14 @@
     },
     "shiab_multiplicity_finite_certificate": {
       "path": "Lean/GUFormalization/ShiabMultiplicityCertificate.lean",
+      "sha256": "ad685443ec54da5e7ffa4695986274d0ef96b3e9a3e233da9a695ebaa877d60e",
       "result": "SUPPLIED_D7_ROWS_DIMENSION_CHECKED__CHIRAL_BLOCKS_0_2_2_0__FULL_DIRAC_4",
       "premise_boundary": "irreducible decomposition rows are supplied exact certificate data; Lean does not construct D7 representation theory or the physical real form",
       "scientific_effect": "none"
     },
     "vz_schur_precondition_certificate": {
       "path": "Lean/GUFormalization/VZSchurPrecondition.lean",
+      "sha256": "acc5a8d944cf97e9e16a62385fbf1e91b024eadc91080115933e6d9b401ce670",
       "result": "LEFT_INVERTIBLE_E_PLUS_INJECTIVE_SCHUR_IMPLIES_TRIVIAL_BLOCK_KERNEL",
       "premise_boundary": "actual GU operator identification, non-null-cone E inverse and FC-VZ-1 remain open",
       "scientific_effect": "none"
