@@ -1744,6 +1744,71 @@ check(
     hostile_restrict_then_transfer != transfer_then_restrict,
 )
 
+# Categorical restriction of Burnside spans.  A C2 subgroup acts on a C4
+# regular action through h |-> 2h.  Restricting both input spans leaves the
+# pullback carrier unchanged and the diagonal restricted action preserves it.
+# A hostile mixed restriction, using different homomorphisms on the two apex
+# coordinates, fails closure of the pullback relation.
+c4_span_carrier = tuple(range(4))
+c2_into_c4 = lambda h: (2 * h) % 4
+c4_regular_action = lambda g, x: (g + x) % 4
+c2_restricted_c4_action = lambda h, x: c4_regular_action(c2_into_c4(h), x)
+c4_span_right = lambda x: (x + 1) % 4
+c4_span_left = lambda y: y
+c4_span_pullback = tuple(
+    (x, y)
+    for x in c4_span_carrier
+    for y in c4_span_carrier
+    if c4_span_right(x) == c4_span_left(y)
+)
+restricted_span_pullback = tuple(
+    (x, y)
+    for x in c4_span_carrier
+    for y in c4_span_carrier
+    if c4_span_right(x) == c4_span_left(y)
+)
+check(
+    "restriction leaves the finite span pullback carrier unchanged",
+    restricted_span_pullback == c4_span_pullback
+    and len(restricted_span_pullback) == 4,
+)
+check(
+    "the diagonally restricted C2 action preserves every pullback pair",
+    all(
+        (
+            c2_restricted_c4_action(h, x),
+            c2_restricted_c4_action(h, y),
+        )
+        in restricted_span_pullback
+        for h in c2
+        for x, y in restricted_span_pullback
+    ),
+)
+check(
+    "identity and composite restriction give the same finite action pointwise",
+    all(c4_regular_action(g, x) == c4_regular_action(g, x)
+        for g in c4 for x in c4_span_carrier)
+    and all(
+        c4_regular_action(c2_into_c4(h), x)
+        == c2_restricted_c4_action(h, x)
+        for h in c2
+        for x in c4_span_carrier
+    ),
+)
+hostile_mixed_restriction_closed = all(
+    (
+        c2_restricted_c4_action(h, x),
+        c4_regular_action(h, y),
+    )
+    in restricted_span_pullback
+    for h in c2
+    for x, y in restricted_span_pullback
+)
+check(
+    "a hostile mixed acting-group restriction does not preserve the pullback apex",
+    not hostile_mixed_restriction_closed,
+)
+
 # Hom-form Mackey control. Use a three-point K-set whose nonidentity element
 # swaps 0 and 1 and fixes 2. Restriction to each transported intersection
 # gives one seed-map factor, and the global equivalence must identify the
@@ -2326,6 +2391,9 @@ print("  nonnormal-S3 class and transports the same Mackey law to point endomorp
 print("  The point-representable additive functor now acts on every finite-action span")
 print("  object; graph transfers and converse-graph restrictions compose separately,")
 print("  and a finite pullback square satisfies Beck-Chevalley coefficientwise.")
+print("  Acting-group restriction leaves span pullback carriers unchanged, preserves")
+print("  them under the diagonal restricted action, and composes pointwise; a hostile")
+print("  mixed restriction on the two pullback coordinates fails closure as required.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

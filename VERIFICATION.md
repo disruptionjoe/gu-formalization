@@ -7,6 +7,17 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Additive Burnside span restriction (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Restriction of supplied finite actions along any group homomorphism extends to raw spans and span-isomorphism classes | `Lean/GUFormalization/GroupActionBurnsideSpanRestriction.lean`; Lean `RawSpan.restrict`, `RawSpan.Equiv.restrict`, and `SpanClass.restrict` | L1 exact supplied-action algebra |
+| Restriction preserves the finite pullback apex used for span composition, the empty span, and disjoint coproduct of apices | Lean `restrictCompEquiv`, `restrictZeroEquiv`, `restrictSumEquiv`, and `SpanClass.restrict_comp` | L1 exact finite-limit/additive compatibility |
+| Homwise Grothendieck completion yields an additive functor between completed Burnside span categories, preserving identities, composition, graph spans, and converse-graph spans | Lean `BurnsideSpanHom.restrict`, `BurnsideSpanHom.restrict_comp`, `restrictionFunctor`, `restrictionFunctor_graph`, and `restrictionFunctor_converseGraph`; default-target axiom receipt | L1 exact preadditive-category construction |
+| Identity and iterated acting-group restriction are coherent on supplied actions and equivariant maps | Lean `FiniteAction.restrictIdentityEquiv`, `FiniteAction.restrictCompositionEquiv`, and `ActionMap.restrict_composition_apply` | L1 exact object/map coherence |
+| A finite `C2 -> C4` control preserves the pullback carrier and diagonal restricted action, while mixed homomorphisms on the two coordinates fail closure | `tests/W99_theorem_finite_instances.py` | finite confirmation and hostile mutation only |
+| Categorical induction, a biset/correspondence Mackey 2-functor, adjunction or ambidexterity on span categories, classification, physical/source realization, selector, prediction, or GU verdict | not constructed; ordinary induction does not generally preserve pullbacks | open / explicitly excluded |
+
 ## All-object point-representable Burnside Mackey functor (2026-08-31)
 
 | Claim | Evidence | Honest grade |
@@ -15,7 +26,7 @@ updated_at: "2026-08-31"
 | Graph spans define named transfers and converse graphs define named restrictions; both preserve identities and reverse/preserve composition in the stated directions | Lean `transfer_identity`, `restriction_identity`, `transfer_composition`, and `restriction_composition`; default-target axiom receipt | L1 exact span-category algebra |
 | For the canonical equivariant pullback of `f : A -> C` and `g : B -> C`, restriction after transfer equals transfer after restriction | Lean `graph_converse_pullback` and `restriction_transfer_eq_transfer_restriction` | L1 canonical-pullback Beck-Chevalley law |
 | The integer-valued finite-set model satisfies the same pullback equality, while a hostile non-pullback relation does not | `tests/W99_theorem_finite_instances.py` | finite confirmation and mutation control only |
-| Classification of Mackey functors, a nonrepresentable target-category functor, subgroup-change functors between Burnside categories, physical/source realization, selector, prediction, or GU verdict | not constructed by this representable fixed-`G` functor | open / explicitly excluded |
+| Classification of Mackey functors, a nonrepresentable target-category functor, categorical induction/correspondence coherence, physical/source realization, selector, prediction, or GU verdict | categorical restriction is supplied separately above; the remaining structures are not constructed by this representable fixed-`G` functor | open / explicitly excluded |
 
 ## Burnside Mackey law on point endomorphisms (2026-08-31)
 

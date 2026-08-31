@@ -7,6 +7,19 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 ADDITIVE BURNSIDE SPAN RESTRICTION FUNCTOR CONSTRUCTED.**
+> Lean now restricts completed finite-action Burnside span categories along
+> every supplied group homomorphism. Restriction preserves finite pullback
+> composition, identities, homwise addition, graph generators, and
+> converse-graph generators; identity and composite restriction are explicit
+> on supplied actions and maps. W99 independently checks the unchanged
+> pullback carrier and diagonal restricted action, and rejects a hostile mixed
+> acting-group restriction. This is categorical restriction, not categorical
+> induction: ordinary induction does not generally preserve the pullbacks
+> defining span composition. A stronger successor needs a correctly typed
+> biset/correspondence construction, its coherence, or a concrete defect; no
+> physical/source realization, selector, prediction, or GU verdict moves.
+
 > **2026-08-31 ALL-OBJECT POINT-REPRESENTABLE BURNSIDE MACKEY FUNCTOR
 > CONSTRUCTED.** Lean now defines an additive functor from the completed finite
 > supplied-action Burnside span category to additive commutative groups by
@@ -17,8 +30,9 @@ updated_at: "2026-08-31"
 > non-pullback relation. This is one representable functor internal to a fixed
 > supplied `G`-action category—not a classification, subgroup-change functor,
 > physical/source realization, selector, prediction, or GU verdict. Reopen
-> only for a genuinely nonrepresentable target-category Mackey functor,
-> subgroup-change coherence, source realization, or a concrete defect.
+> only for a genuinely nonrepresentable target-category Mackey functor, the
+> remaining correctly typed induction/correspondence coherence, source
+> realization, or a concrete defect.
 
 > **2026-08-31 BURNSIDE MACKEY LAW LIFTED TO POINT ENDOMORPHISMS.** Lean now
 > identifies the additive Burnside group of supplied finite actions with the

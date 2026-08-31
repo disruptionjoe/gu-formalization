@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 785829c9038b
+revision_basis: 5f807cd883cc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Acting-group restriction now extends to the completed finite-action
+    Burnside span categories. For every supplied homomorphism H -> K, Lean
+    restricts objects, equivariant maps, raw spans and span-isomorphism
+    classes, proves that the finite pullback apex used for composition is
+    preserved, and lifts the construction through homwise Grothendieck
+    completion to an additive functor from the K-category to the H-category.
+    It preserves identities, composition, graph and converse-graph
+    generators, and addition; identity and iterated restriction are coherent
+    on supplied actions and maps. W99 independently checks the unchanged
+    pullback carrier, diagonal restricted action, composite restriction and a
+    hostile mixed restriction that fails closure. This is categorical
+    restriction only. Ordinary induction is not asserted as a span-category
+    functor because it does not generally preserve pullbacks; no full
+    cross-subgroup Mackey 2-functor, classification, physical representation,
+    source-native action, selector, prediction, or GU verdict follows.
     The completed finite supplied-action Burnside span category now carries an
     explicit additive point-representable Mackey functor. Lean defines its
     value on every span object as the additive group of completed morphisms

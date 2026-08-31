@@ -73,6 +73,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionBurnsideSpanCategory.lean` | Gives span hom-sets disjoint-coproduct commutative-monoid structure, proves pullback composition distributes in both variables, and Grothendieck-completes every hom to a preadditive Burnside span category | `LEAN-VERIFIED`; 2026-08-31 focused integration; category, bilinearity and graph-generator laws elaborate with only the established `propext`, `Classical.choice`, and `Quot.sound` surface; W99 checks integer multiplicity-matrix addition, formal inverses and both distributivity laws; the point-endomorphism law and all-object point-representable functor are supplied separately, while physical/source realization remains open |
 | `Lean/GUFormalization/GroupActionBurnsideSpanMackey.lean` | Identifies the supplied-action Burnside group with the completed point-endomorphism group, transports subgroup restriction and induction, and proves the double-coset law there | `LEAN-VERIFIED`; 2026-08-31 focused integration; quotient and Grothendieck inverses are explicit and the theorem reuses the independently proved finite-action Mackey law; W99 checks the nonnormal-S3 point-apex class and omitted-summand controls; the all-object point-representable functor is supplied separately; no physical/source Mackey functor, source action or GU claim |
 | `Lean/GUFormalization/GroupActionBurnsideMackeyFunctor.lean` | Defines the additive point-representable functor `A ↦ Hom(point,A)` on every completed finite supplied-action Burnside span object, with graph transfers, converse-graph restrictions, identity/composition laws, and canonical-pullback Beck-Chevalley | `LEAN-VERIFIED`; 2026-08-31 focused integration; W99 checks the integer-valued finite-set law and rejects a hostile non-pullback relation; this is one fixed-`G` representable functor, not a classification, subgroup-change theory, physical/source realization or GU claim |
+| `Lean/GUFormalization/GroupActionBurnsideSpanRestriction.lean` | Restricts completed finite-action Burnside span categories along supplied group homomorphisms, preserving finite pullback composition, identities, addition, graph spans, and converse-graph spans | `LEAN-VERIFIED`; 2026-08-31 focused integration; identity and composite restriction are explicit on actions/maps and W99 rejects mixed acting-group restriction on a pullback; categorical induction, biset/correspondence coherence, physical/source realization and GU claims remain outside the theorem |
 | `Lean/GUFormalization/SourceNativeSpin64Observation.lean` | General horizontal/normal gamma-kernel leakage theorem from an explicit normal right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; literal pullback obstruction only, with no physical quotient, observed family, mass or action claim |
 | `Lean/GUFormalization/SourceNativeObservationDescent.lean` | Exact iff and uniqueness criterion for descent of an ambient Clifford kernel through observation when ambient contraction has a supplied right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; explicit algebraic acceptance condition only, with no source-owned factor, physical quotient, family, mass or action claim |
 | `Lean/GUFormalization/SourceNativeRealSector.lean` | A supplied linear involution modeling conjugation and anticommuting with chirality linearly exchanges the positive and negative chirality kernels | `LEAN-VERIFIED`; 2026-08-31 focused integration; scalar-antilinearity, the Clifford representation and physical sector identity remain outside Lean |
@@ -349,6 +350,19 @@ integer-valued finite-set calculation and a hostile non-pullback relation.
 This is one representable fixed-`G` functor, not a classification, a
 nonrepresentable target-category functor, subgroup-change coherence, a
 physical/source realization, or a GU verdict.
+
+**Additive Burnside span categorical restriction — DONE 2026-08-31.** Lean
+now restricts finite supplied-action spans along arbitrary group
+homomorphisms, proves restriction preserves the finite pullback apex,
+disjoint-coproduct addition and completed bilinear composition, and packages
+the result as an additive functor between completed Burnside span categories.
+Graph and converse-graph generators are preserved; identity and iterated
+restriction are coherent on supplied actions and equivariant maps. W99 checks
+the finite pullback carrier and diagonal restricted action and rejects a mixed
+homomorphism mutation. This is categorical restriction only: ordinary
+induction is not promoted because it does not generally preserve pullbacks,
+and no biset/correspondence Mackey 2-functor, physical/source realization or GU
+verdict is constructed.
 
 **Source-native observation and adjoint-coupling kernels — DONE 2026-08-31.**
 Lean proves the general horizontal/normal gamma-kernel leakage theorem from an
