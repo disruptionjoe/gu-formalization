@@ -14,6 +14,7 @@ import GUFormalization.GroupActionMackey
 import GUFormalization.GroupActionMackeyLinearization
 import GUFormalization.GroupActionMackeyRepresentations
 import GUFormalization.GroupActionMackeyCategory
+import GUFormalization.GroupActionMackeyAdditivityBoundary
 import GUFormalization.GroupActionFixedPointsAxioms
 import GUFormalization.R4TwoArena
 import GUFormalization.CoflipCore

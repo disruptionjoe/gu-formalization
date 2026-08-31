@@ -1756,6 +1756,30 @@ check(
         for source in global_mackey_assembly
     ),
 )
+
+# The ordinary category of supplied actions is not preadditive. Already for
+# the trivial group, there is no total map from the nonempty one-point action
+# to the empty action, while a preadditive category would supply a zero
+# morphism between every pair of objects.
+trivial_point_carrier = (0,)
+trivial_empty_carrier = ()
+point_to_empty_maps = [
+    values
+    for values in product(trivial_empty_carrier, repeat=len(trivial_point_carrier))
+]
+empty_to_point_maps = list(
+    product(trivial_point_carrier, repeat=len(trivial_empty_carrier))
+)
+check(
+    "the raw action category has no point-to-empty morphism",
+    trivial_point_carrier
+    and not trivial_empty_carrier
+    and point_to_empty_maps == [],
+)
+check(
+    "the empty-to-point direction retains its unique empty map",
+    empty_to_point_maps == [()],
+)
 free_mackey_vector = {(0, 0): 2, (1, 1): -3, (1, 3): 5}
 assembled_free_mackey_vector = linearize_finite_map(
     free_mackey_vector, global_mackey_assembly
@@ -1994,6 +2018,9 @@ print("  canonical assembly is a representation intertwiner on every basis vecto
 print("  a nonbijective hostile generator fails the C2 group law as required.")
 print("  At action-functor level, identity and composition are preserved and canonical")
 print("  assembly satisfies the complete naturality square before linearization.")
+print("  The raw supplied-action category has no point-to-empty morphism, so it is")
+print("  not preadditive and the current natural isomorphism is not yet an additive")
+print("  Mackey functor; an additive span/transfer completion remains separate work.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

@@ -7,6 +7,17 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 RAW SUPPLIED-ACTION CATEGORY IS NOT ADDITIVE.** Lean proves
+> that, for every supplied group, there is no action morphism from the
+> nonempty one-point trivial action to the empty trivial action. Hence the raw
+> action category cannot be preadditive and has no zero object. The canonical
+> Mackey natural isomorphism is therefore not itself an additive Mackey
+> functor. Reopen this theorem family only with an owned additive
+> span/Burnside-style completion, restriction and transfer data, and their
+> double-coset compatibility—or on a concrete proof/certificate defect. This
+> is a constructive scope boundary, not a no-go for such completions and not a
+> physical claim.
+
 > **2026-08-31 CANONICAL MACKEY ASSEMBLY IS A NATURAL ISOMORPHISM.** The
 > representative-free coproduct and restricted induction now define functors
 > from supplied `H`-actions to supplied `K`-actions, and canonical assembly is

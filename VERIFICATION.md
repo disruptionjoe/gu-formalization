@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Raw-action additivity obstruction (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For any supplied group, there is no action morphism from its nonempty one-point trivial action to its empty trivial action | `Lean/GUFormalization/GroupActionMackeyAdditivityBoundary.lean`; default-target axiom receipt | L1 exact categorical obstruction |
+| The ordinary category of supplied actions admits no preadditive structure and no zero object | Lean `action_preadditive_false` and `action_has_no_zero_object` | L1 exact consequence of the empty point-to-empty hom-set |
+| The existing canonical Mackey natural isomorphism is not by itself an additive Mackey functor | the source category lacks the hom-set zero required by preadditivity; W99 checks the empty/singleton finite witness | exact scope boundary on the current construction |
+| Additive span/Burnside completion, restriction/transfer data, double-coset compatibility on that completion, or physical realization | not constructed by this obstruction theorem | open / explicitly excluded |
+
 ## Categorical Mackey natural isomorphism (2026-08-31)
 
 | Claim | Evidence | Honest grade |

@@ -66,6 +66,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionMackeyLinearization.lean` | Free finitely-supported module lift of the canonical Mackey carrier equivalence, with basis/support preservation, seed-map naturality and supplied-`K`-action equivariance | `LEAN-VERIFIED`; 2026-08-31 focused integration; no new choice beyond the inherited quotient carrier, and no physical representation, action coefficient or additive Mackey-functor claim; W99 checks exact coefficients, support, naturality, both `S3` subgroup elements and a noninjective hostile collapse |
 | `Lean/GUFormalization/GroupActionMackeyRepresentations.lean` | Bundles the canonical and restricted-induced free modules as `K`-permutation representations, proves canonical assembly is a representation equivalence, and derives the `R[K]`-module isomorphism for commutative semirings | `LEAN-VERIFIED`; 2026-08-31 focused integration; action identity/product and intertwining are theorem fields, with no physical/source representation claim; W99 checks both representation laws, every nonnormal-`S3` basis square and a hostile nonbijective generator |
 | `Lean/GUFormalization/GroupActionMackeyCategory.lean` | Packages the representative-free Mackey construction and restricted induction as functors on supplied actions, proves canonical assembly is a natural isomorphism, and transports it through Mathlib linearization to representation functors | `LEAN-VERIFIED`; 2026-08-31 serialized default-target integration; identity, composition and naturality are explicit proof obligations; no additive/physical Mackey-functor claim; W99 checks the complete nonnormal-`S3` functor/naturality control |
+| `Lean/GUFormalization/GroupActionMackeyAdditivityBoundary.lean` | Proves the raw category of supplied group actions has no point-to-empty morphism and therefore cannot be preadditive or have a zero object | `LEAN-VERIFIED`; 2026-08-31 focused integration; exact semantic obstruction to promoting the current raw-source natural isomorphism into an additive Mackey functor; no span/Burnside completion, transfer data or physical realization is constructed; W99 checks the empty/singleton finite witness |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
@@ -304,6 +305,17 @@ commutative ring. W99 checks identity, composition and the full nonnormal-`S3`
 naturality square. This is the stronger categorical reopening condition; it is
 not an additive Mackey functor on physical representations and supplies no
 source action, coupling, coefficient, selector or GU verdict.
+
+**Raw-action additivity obstruction — DONE 2026-08-31.** Lean proves that
+the ordinary category of supplied group actions has no morphism from the
+nonempty one-point trivial action to the empty trivial action. Since a
+preadditive category supplies a zero morphism between every pair of objects,
+the raw action category cannot be preadditive; a zero object is excluded by
+the same witness. Thus the existing Mackey natural isomorphism is not itself
+an additive Mackey functor. A genuine successor must separately own an
+additive span/Burnside-style completion, restriction and transfer data, and
+their double-coset compatibility. This is a constructive categorical boundary,
+not a no-go for such completions and not a physical claim.
 
 ## Part D: lock and progress contract
 

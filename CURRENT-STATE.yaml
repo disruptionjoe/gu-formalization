@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2ff4839867bb
+revision_basis: a6b210976155
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,15 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The additive boundary of the canonical Mackey theorem is now exact. For
+    every supplied group, the ordinary action category has no morphism from
+    its nonempty one-point trivial action to its empty trivial action, so it
+    cannot be preadditive and has no zero object. The existing natural
+    isomorphism is therefore not itself an additive Mackey functor. A genuine
+    successor must separately construct an additive span/Burnside-style
+    source, restriction and transfer data, and their double-coset law. This is
+    a categorical scope obstruction, not a no-go for such a completion and
+    not a physical statement.
     The canonical representative-free Mackey construction and restricted
     induction are now functors from supplied H-actions to supplied K-actions,
     with canonical assembly a natural isomorphism between them. Applying
@@ -4744,6 +4753,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The current Mackey theorem family is closed at its raw supplied-action
+  categorical ceiling. Do not call free linearization additive Mackey-functor
+  structure: the raw action category is Lean-proved nonpreadditive and has no
+  zero object. Reopen only with an owned additive span/Burnside-style
+  completion carrying restriction and transfer data plus the double-coset
+  compatibility law, or on a concrete proof, elaboration, axiom or certificate
+  defect. The obstruction does not exclude such a completion.
+
   The WG-P03 coupling gate is closed at representation grade. Do not repeat the
   Q5/HE-4 branching or the new adjoint degree ladder. The paired-real cubic
   45 vertex is available, but 45 has no Pati-Salam singlet; the first
