@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c34b9f0ec6e4
+revision_basis: d44324e5cc1a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -4771,84 +4771,38 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  The current Mackey theorem family is closed at its raw supplied-action
-  categorical ceiling. Do not call free linearization additive Mackey-functor
-  structure: the raw action category is Lean-proved nonpreadditive and has no
-  zero object. Reopen only with an owned additive span/Burnside-style
-  completion carrying restriction and transfer data plus the double-coset
-  compatibility law, or on a concrete proof, elaboration, axiom or certificate
-  defect. The obstruction does not exclude such a completion.
-
-  The WG-P03 coupling gate is closed at representation grade. Do not repeat the
-  Q5/HE-4 branching or the new adjoint degree ladder. The paired-real cubic
-  45 vertex is available, but 45 has no Pati-Salam singlet; the first
-  PS-preserving background owners are the two independent symmetric-quadratic
-  channels 54 and 210. Reopen source instantiation only on an action-owned map
-  that types the internal-45 projection, equation-9.16 half and barred/
-  unbarred placement, one-form-leg contraction, Sym^2 versus Lambda^2 product,
-  real/Krein coefficient relation, family covector and nonzero stationary
-  background or interaction meaning. A conventional 126 VEV is not that map.
-
-  The conditional low-curvature effective-chirality theorem remains deferred.
-  Representation-channel availability is not yet the source-compatible
-  coefficient-complete operator block required to release it. Reopen only when
-  a curvature-sensitive physical operator, domain and quotient are frozen;
-  otherwise record the exact missing datum and reroute capacity.
-
-  The source-native real-sector gate is closed at representation grade and the
-  naive observation bridge is obstructed. Do not repeat complex 16/144
-  branching, infer a generation count from 144 multiplicity, identify a single
-  half-spin or gamma kernel as a real physical family, or assume that section
-  pullback preserves gamma trace. Reopen the observed 2+1 theorem only on a
-  source-owned lift/retraction intertwining Clifford contraction, a corrected
-  observed kernel with representation and quotient meaning, or action/BV/
-  boundary/domain dynamics whose physical cohomology supplies the sector map.
-
-  The next accepted source-native priority is the WG-P03 third-family/144-
-  partner coupling feasibility test. It may now consume the paired real-sector
-  theorem, but must use the source-native connection/adjoint carrier, preserve
-  the distinct imposter-128 label, and stop at the lowest-degree invariant-
-  coupling theorem or obstruction. It may not substitute a conventional
-  126-VEV owner, choose a mass spectrum, or claim a prediction packet without
-  the still-missing physical observable, numerical scale and threshold.
-
   Rebuild the substantial repository frontier and select the strongest
   disjoint non-B2 gate. Follow A1: first check exact source-to-proof reopeners,
-  then newly open ledger rows, then concrete result hardening. The source
-  register remains ADHERED 106 / PARTIAL 4 / UNTYPED 1; ledger v0.263 remains
-  91 terminal and 0 open rows; the current named B2 action-root set is empty.
-  Do not synthesize CBRS-1AC, transfer K95 ownership, choose a reality
-  convention or execute downstream physicalization owners.
+  then newly open ledger rows, then concrete result hardening. The ledger v0.263
+  remains 91 terminal and 0 open rows, and the current named B2 action-root set
+  is empty. Do not synthesize CBRS-1AC, transfer K95 ownership, choose a
+  reality convention, or execute downstream physicalization owners.
 
-  Reopen B2 only on a source-authenticated or owner-native coefficient-complete
-  K77 action, genuine real Spin-equivariant bridge or independently normalized
-  action class with complete variational ownership. M-H5 needs its global
-  family and horizontal superconnection; M-M18 needs owner-frozen DESI/Planck
-  inputs; boundary work needs an owned action/operator/domain packet. Protected
-  publication payloads, P-M25 and TWG1 require separate authority.
+  WG-P03 is closed at paired-real representation grade: the cubic 45 channel
+  exists, 45 has no Pati-Salam singlet, and symmetric 54/210 are the first
+  preserving background owners. Reopen it only on an action-owned equation-
+  9.16 map fixing the internal-45 projection, barred/unbarred half, one-form
+  contraction, product symmetry, real/Krein coefficient relation, family
+  covector, and nonzero interaction meaning. A conventional 126 VEV is not
+  that map.
 
-  The supplied Shiab decomposition-to-multiplicity implication and the
-  determinant-free Schur kernel precondition are now Lean-checked at their
-  finite explicit-premise ceilings. Reopen them only for a corrected
-  decomposition row, real-form certificate, actual-operator bridge, cone
-  counterexample, elaboration failure, unexpected axiom dependency or
-  certificate-map drift; do not promote either to physical selector identity
-  or VZ closure. The pointwise-invariance, arbitrary-orbit product,
-  representative transport,
-  quotient closed forms, domain/codomain functoriality, orbit naturality,
-  indexed-codomain product laws, both induction-restriction and
-  restriction-coinduction adjunctions, induction functoriality, canonical
-  Mackey seed-map naturality, representative independence, the Hom-form
-  Mackey equivalence, bundled permutation representations and the natural
-  isomorphism of supplied action/linearized-representation functors are current.
-  Reopen this theorem family only for a genuinely additive Mackey-functor
-  theorem with owned premises, or a semantic counterexample,
-  elaboration failure, unexpected axiom dependency, certificate-map drift or
-  fresh measured regression; do not manufacture binary specializations or
-  routine corollaries. Probe authorship, paper navigation, status currency and
-  historical cohorts reopen only on their concrete audited drift; no physical
-  action, selection mechanism, publication, release or scientific-status
-  movement is implied.
+  The observation and real-sector certificates are explicit-premise algebraic
+  tests, not a physical bridge. Reopen observed 2+1 only on a source-owned
+  Clifford-trace intertwiner, corrected observed kernel, or physical
+  quotient/cohomology with representation meaning. The low-curvature
+  chirality successor still requires a coefficient-complete curvature-
+  sensitive operator, domain, and quotient; 144 multiplicity alone supplies
+  neither a generation count nor a physical family.
+
+  The supplied-action Mackey family is current through naturality and free
+  linearization, but its source category is nonpreadditive. Reopen only with an
+  owned additive span/Burnside-style completion carrying restriction,
+  transfer, and double-coset compatibility, or on a concrete proof,
+  elaboration, axiom, certificate, or semantic defect. Other proof and
+  integrity families reopen only on measured drift. Protected publication
+  payloads, P-M25, and TWG1 require separate authority. No physical action,
+  selection mechanism, publication, release, or scientific-status movement
+  is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not
