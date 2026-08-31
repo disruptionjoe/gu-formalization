@@ -10,6 +10,8 @@ import GUFormalization.GroupActionMackeyRepresentations
 import GUFormalization.GroupActionMackeyCategory
 import GUFormalization.GroupActionMackeyAdditivityBoundary
 import GUFormalization.SourceNativeSpin64Observation
+import GUFormalization.SourceNativeObservationDescent
+import GUFormalization.SourceNativeRealSector
 import GUFormalization.SourceNativeAdjointCoupling
 
 /-!
@@ -31,6 +33,8 @@ open GUFormalization.GroupActionMackeyRepresentations
 open GUFormalization.GroupActionMackeyCategory
 open GUFormalization.GroupActionMackeyAdditivityBoundary
 open GUFormalization.SourceNativeSpin64Observation
+open GUFormalization.SourceNativeObservationDescent
+open GUFormalization.SourceNativeRealSector
 open GUFormalization.SourceNativeAdjointCoupling
 
 #print axioms mem_commonFixedPoints_iff
@@ -158,6 +162,9 @@ open GUFormalization.SourceNativeAdjointCoupling
 #print axioms no_point_to_empty
 #print axioms action_preadditive_false
 #print axioms exists_ambient_kernel_observed_trace_ne_zero
+#print axioms kernel_preservation_iff_factorization
+#print axioms descentFactor_unique
+#print axioms conjugationSectorEquiv
 #print axioms quadratic_ps_owner_split
 #print axioms action_has_no_zero_object
 #print axioms orbitIndexMapOfEquivariantEquiv

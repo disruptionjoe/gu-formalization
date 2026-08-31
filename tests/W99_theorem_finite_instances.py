@@ -1990,6 +1990,54 @@ check(
     and 0 * singular_block_witness[0] + 0 * singular_block_witness[1] == 0,
 )
 
+print("(XVII) OBSERVATION DESCENT AND PAIRED REAL-SECTOR CONTROLS:")
+
+# gamma_A(x,y)=x+y has right inverse s |-> (s,0).  The good observation is
+# exactly gamma_A, so it preserves the kernel and factors through gamma_A.
+ambient_gamma = lambda v: v[0] + v[1]
+right_inverse = lambda s: (s, 0)
+good_observation = lambda v: v[0] + v[1]
+hostile_observation = lambda v: v[0]
+factor = lambda s: good_observation(right_inverse(s))
+descent_box = [(x, y) for x in range(-4, 5) for y in range(-4, 5)]
+check(
+    "split-surjective kernel preservation agrees with explicit factorization",
+    all(
+        good_observation(v) == factor(ambient_gamma(v))
+        for v in descent_box
+    )
+    and all(
+        ambient_gamma(v) != 0 or good_observation(v) == 0
+        for v in descent_box
+    ),
+)
+check(
+    "a hostile observation that does not factor fails kernel preservation",
+    ambient_gamma((1, -1)) == 0 and hostile_observation((1, -1)) != 0,
+)
+
+chirality = lambda v: (v[0], -v[1])
+conjugation = lambda v: (v[1], v[0])
+hostile_conjugation = lambda v: v
+sample = [(x, y) for x in range(-3, 4) for y in range(-3, 4)]
+check(
+    "swap conjugation is involutive and anticommutes with chirality",
+    all(conjugation(conjugation(v)) == v for v in sample)
+    and all(
+        chirality(conjugation(v))
+        == tuple(-z for z in conjugation(chirality(v)))
+        for v in sample
+    ),
+)
+check(
+    "anticommuting conjugation exchanges plus and minus sectors",
+    chirality(conjugation((2, 0)))
+    == tuple(-z for z in conjugation((2, 0)))
+    and chirality(conjugation((0, 3))) == conjugation((0, 3))
+    and chirality(hostile_conjugation((2, 0)))
+    != tuple(-z for z in hostile_conjugation((2, 0))),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -2049,6 +2097,10 @@ print("  The supplied Shiab decomposition rows dimension-check and their Schur o
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")
 print("  injective-Schur hypotheses, while a singular-E witness shows the premise matters.")
+print("  Split-surjective observation preserves the ambient kernel exactly through the")
+print("  displayed factorization control; a hostile nonfactorizing observation leaks it.")
+print("  Involutive swap conjugation anticommutes with chirality and exchanges its two")
+print("  eigensectors; commuting identity conjugation is rejected by the hostile control.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

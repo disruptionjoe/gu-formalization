@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 429815a26cc6
+revision_basis: c34b9f0ec6e4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The source-native observation and real-sector claims now have two stronger
+    exact Lean criteria. When ambient Clifford contraction has a supplied
+    right inverse, observation preserves its kernel if and only if observed
+    contraction factors uniquely through ambient contraction; the factor is
+    explicit. Independently, a supplied linear involution modeling real
+    conjugation and anticommuting with chirality gives a linear equivalence
+    between the positive and negative chirality kernels. These are
+    explicit-premise algebraic acceptance tests,
+    not constructions of the source-owned observation factor, physical
+    quotient, Clifford representation, family, action, mass or GU verdict.
     The two newest source-native representation results now have independent
     Lean kernels. A general linear-algebra theorem proves that an invertible
     normal Clifford component produces ambient gamma-kernel elements whose

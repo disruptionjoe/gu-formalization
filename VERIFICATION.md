@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Observation descent and paired real-sector criteria (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| With a supplied right inverse for ambient Clifford contraction, observation preserves its kernel iff observed contraction factors through ambient contraction | `Lean/GUFormalization/SourceNativeObservationDescent.lean`; default-target axiom receipt | L1 exact linear algebra from explicit premises |
+| The factor is explicitly `gammaB ∘ observe ∘ rightInv` and is unique | Lean `descentFactor_unique` | L1 exact split-surjection consequence |
+| A supplied linear involution modeling conjugation and anticommuting with chirality exchanges the positive and negative chirality kernels by a linear equivalence | `Lean/GUFormalization/SourceNativeRealSector.lean`; default-target axiom receipt | L1 exact algebra from explicit premises; no scalar-antilinear structure is constructed |
+| The actual source-owned observation factor/quotient, Clifford representation, physical real sector, observed family, action, mass or GU verdict | not constructed by these criteria | open / explicitly excluded |
+
 ## Raw-action additivity obstruction (2026-08-31)
 
 | Claim | Evidence | Honest grade |

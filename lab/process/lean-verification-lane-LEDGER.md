@@ -68,6 +68,8 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionMackeyCategory.lean` | Packages the representative-free Mackey construction and restricted induction as functors on supplied actions, proves canonical assembly is a natural isomorphism, and transports it through Mathlib linearization to representation functors | `LEAN-VERIFIED`; 2026-08-31 serialized default-target integration; identity, composition and naturality are explicit proof obligations; no additive/physical Mackey-functor claim; W99 checks the complete nonnormal-`S3` functor/naturality control |
 | `Lean/GUFormalization/GroupActionMackeyAdditivityBoundary.lean` | Proves the raw category of supplied group actions has no point-to-empty morphism and therefore cannot be preadditive or have a zero object | `LEAN-VERIFIED`; 2026-08-31 focused integration; exact semantic obstruction to promoting the current raw-source natural isomorphism into an additive Mackey functor; no span/Burnside completion, transfer data or physical realization is constructed; W99 checks the empty/singleton finite witness |
 | `Lean/GUFormalization/SourceNativeSpin64Observation.lean` | General horizontal/normal gamma-kernel leakage theorem from an explicit normal right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; literal pullback obstruction only, with no physical quotient, observed family, mass or action claim |
+| `Lean/GUFormalization/SourceNativeObservationDescent.lean` | Exact iff and uniqueness criterion for descent of an ambient Clifford kernel through observation when ambient contraction has a supplied right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; explicit algebraic acceptance condition only, with no source-owned factor, physical quotient, family, mass or action claim |
+| `Lean/GUFormalization/SourceNativeRealSector.lean` | A supplied linear involution modeling conjugation and anticommuting with chirality linearly exchanges the positive and negative chirality kernels | `LEAN-VERIFIED`; 2026-08-31 focused integration; scalar-antilinearity, the Clifford representation and physical sector identity remain outside Lean |
 | `Lean/GUFormalization/SourceNativeAdjointCoupling.lean` | Finite supplied-support certificate for cubic adjoint availability and the symmetric 54/210 versus alternating 45/945 Pati--Salam owner split | `LEAN-VERIFIED`; 2026-08-31 focused integration; decomposition tables remain premises and no source coefficient, family selector or mass is constructed |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
@@ -327,6 +329,15 @@ linear PS owner, symmetric `54/210` owners and no alternating PS owner. These
 certificates harden the two banked representation results without deriving
 their decomposition inputs or constructing an observation quotient, action
 coefficient, family selector, mass, prediction or GU verdict.
+
+**Observation descent and paired real-sector criteria — DONE 2026-08-31.**
+Lean proves the exact split-surjective factorization criterion for preserving
+the ambient Clifford kernel, including uniqueness of the factor, and proves
+that a supplied linear involution modeling conjugation and anticommuting with
+chirality gives a linear equivalence of the two chirality kernels. These
+theorems expose every premise and do not construct the source-owned factor,
+physical quotient, scalar-antilinear real structure, Clifford representation,
+observed family, action or mass.
 
 ## Part D: lock and progress contract
 
