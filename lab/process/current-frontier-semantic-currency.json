@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__WG_P03_ADJOINT_COUPLING_DEGREE_LADDER_CURRENT__SOURCE_NATIVE_SPIN64_REAL_SECTORS_CURRENT__OBSERVATION_GAMMA_KERNEL_OBSTRUCTION_CURRENT__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT__GROUP_ACTION_MACKEY_FREE_MODULE_LINEARIZATION_CURRENT__GROUP_ACTION_MACKEY_PERMUTATION_REPRESENTATION_CURRENT__GROUP_ACTION_MACKEY_CATEGORICAL_NATURAL_ISOMORPHISM_CURRENT__GROUP_ACTION_MACKEY_RAW_ADDITIVITY_BOUNDARY_CURRENT__GROUP_ACTION_MACKEY_BURNSIDE_GROUP_CURRENT__GROUP_ACTION_ARBITRARY_SPAN_CATEGORY_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__WG_P03_ADJOINT_COUPLING_DEGREE_LADDER_CURRENT__SOURCE_NATIVE_SPIN64_REAL_SECTORS_CURRENT__OBSERVATION_GAMMA_KERNEL_OBSTRUCTION_CURRENT__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT__GROUP_ACTION_MACKEY_FREE_MODULE_LINEARIZATION_CURRENT__GROUP_ACTION_MACKEY_PERMUTATION_REPRESENTATION_CURRENT__GROUP_ACTION_MACKEY_CATEGORICAL_NATURAL_ISOMORPHISM_CURRENT__GROUP_ACTION_MACKEY_RAW_ADDITIVITY_BOUNDARY_CURRENT__GROUP_ACTION_MACKEY_BURNSIDE_GROUP_CURRENT__GROUP_ACTION_ARBITRARY_SPAN_CATEGORY_CURRENT__GROUP_ACTION_ADDITIVE_BURNSIDE_SPAN_CATEGORY_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "c74bc034e3c231223d519ca40b9fb27887b8b2e2c5f117296aac09c171d0481e"
+      "sha256": "5c3305300beb91fd912a3667aabebf7b737943072699b4673bd9ccab2e27760d"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -273,11 +273,11 @@
       "categorical_scope": "categorical algebra on supplied actions; no additive Mackey functor, physical representation or source-native action",
       "raw_additivity_boundary": "LEAN_VERIFIED_POINT_TO_EMPTY_HOM_EMPTY__ACTION_CATEGORY_NOT_PREADDITIVE__NO_ZERO_OBJECT",
       "raw_additivity_finite_control": "trivial-group singleton-to-empty map space is empty while empty-to-singleton has its unique empty map",
-      "raw_additivity_scope": "blocks promotion of the current raw-source functors only; additive span/Burnside completion and restriction/transfer data remain unconstructed",
+      "raw_additivity_scope": "blocks promotion of the current raw-source functors only; the separately constructed completed span category changes the homs, while a Mackey functor across subgroup change remains unconstructed",
       "burnside_group": "LEAN_VERIFIED_EQUIVARIANT_EQUIVALENCE_QUOTIENT__COPRODUCT_ADDITION__GROTHENDIECK_GROUP__ADDITIVE_RESTRICTION_AND_INDUCTION",
       "burnside_mackey": "LEAN_VERIFIED_RESTRICTION_AFTER_INDUCTION_EQUALS_DEPENDENT_DOUBLE_COSET_COPRODUCT_OF_TRANSPORTED_INTERSECTION_INDUCTIONS",
       "burnside_finite_control": "nonnormal S3 restricted induction has orbit-size multiset [2,4]; the complete two-summand coproduct matches and either omission changes the class",
-      "burnside_scope": "finite supplied-action algebra only; no universal category of arbitrary spans and their composition, physical representation or source-native action",
+      "burnside_scope": "finite supplied-action algebra only; arbitrary-span composition and homwise preadditive completion are separately constructed, but no Mackey functor across subgroup change, physical representation or source-native action follows",
       "scientific_effect": "none"
     },
     "group_action_burnside_group": {
@@ -285,7 +285,15 @@
       "sha256": "9abcd7cec7427785b5b0006094cb27184782d9829e7b4501580d80b636cf214e",
       "result": "FINITE_ACTION_BURNSIDE_GROUP_WITH_ADDITIVE_RESTRICTION_INDUCTION_AND_MACKEY_DOUBLE_COSET_IDENTITY",
       "finite_control": "nonnormal S3 restriction-induction class is exactly the transported-intersection 2+4 coproduct and changes when either summand is omitted",
-      "scope": "finite supplied-action algebra only; no universal category of arbitrary spans and their composition, physical representation, source-native action or GU verdict",
+      "scope": "finite supplied-action algebra only; arbitrary-span composition and homwise preadditive completion are separately constructed, but no Mackey functor across subgroup change, physical representation, source-native action or GU verdict follows",
+      "scientific_effect": "none"
+    },
+    "group_action_additive_burnside_span_category": {
+      "path": "Lean/GUFormalization/GroupActionBurnsideSpanCategory.lean",
+      "sha256": "649bbcf98506eb5e00d83841e4a9002d945114e5862a95e6116ca9adc0043ffd",
+      "result": "HOMWISE_COPRODUCT_ADDITION__BILINEAR_PULLBACK_COMPOSITION__GROTHENDIECK_COMPLETED_PREADDITIVE_CATEGORY",
+      "finite_control": "trivial-action span multiplicities add entrywise, compose by matrix multiplication, distribute in both variables and acquire formal integer negatives",
+      "scope": "finite supplied-action span algebra only; no Mackey functor across subgroup change, physical representation, source-native action or GU verdict",
       "scientific_effect": "none"
     },
     "shiab_multiplicity_finite_certificate": {

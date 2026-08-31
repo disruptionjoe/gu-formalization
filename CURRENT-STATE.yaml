@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fc50a9e38bca
+revision_basis: 2929063c5f92
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,17 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The arbitrary finite supplied-action span category now has its additive
+    Burnside completion. Disjoint coproduct of span apices makes every raw
+    hom-set a commutative monoid, finite equivariant pullback distributes in
+    both variables, and homwise Grothendieck completion supplies additive
+    inverses. Lean packages the resulting composition as bilinear and proves
+    the category and preadditive laws. Graph spans remain covariant map
+    generators and converse graphs remain transfer-direction generators.
+    W99 independently checks the trivial-action integer multiplicity-matrix
+    model. This is not yet a Mackey functor across subgroup change, a physical
+    representation, source-native action, selector, prediction, or GU verdict;
+    no separate categorical universal property is asserted.
     The supplied finite-action Mackey family now has its arbitrary-span
     category. Lean defines arbitrary equivariant spans, identifies them under
     equivariant isomorphism of their apex commuting with both legs, and
@@ -4827,18 +4838,18 @@ next_condition: >-
   sensitive operator, domain, and quotient; 144 multiplicity alone supplies
   neither a generation count nor a physical family.
 
-  The supplied finite-action Mackey family now has both its additive Burnside
-  group and a universal category of arbitrary equivariant spans composed by
-  finite pullback. The next categorical successor is homwise disjoint-coproduct
-  addition and group completion or preadditivity, followed only then by a
-  Mackey-functor formulation with separately owned premises. Reopen this arc
-  only for that stronger additive enrichment, a source-owned realization, or a
-  concrete proof, elaboration, axiom, certificate, or semantic defect. The raw
-  action category remains nonpreadditive; the span category does not yet claim
-  additive homs. Other proof and integrity families reopen only on measured
-  drift. Protected publication payloads, P-M25, and TWG1 require separate
-  authority. No physical action, selection mechanism, publication, release,
-  or scientific-status movement is implied.
+  The supplied finite-action Mackey family now has its additive Burnside group,
+  its category of arbitrary equivariant spans composed by finite pullback, and
+  the homwise Grothendieck-completed preadditive Burnside span category. The
+  next categorical successor requires a Mackey-functor formulation with
+  separately owned restriction/transfer compatibility premises. Reopen this
+  arc only for that stronger theorem, a source-owned realization, or a concrete
+  proof, elaboration, axiom, certificate, or semantic defect. The raw action
+  category remains nonpreadditive; its obstruction is bypassed only in the
+  separately constructed completed span category. Other proof and integrity
+  families reopen only on measured drift. Protected publication payloads,
+  P-M25, and TWG1 require separate authority. No physical action, selection
+  mechanism, publication, release, or scientific-status movement is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

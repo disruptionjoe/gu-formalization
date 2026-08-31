@@ -7,6 +7,18 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 ADDITIVE BURNSIDE SPAN CATEGORY CONSTRUCTED.** Disjoint
+> coproduct of span apices now gives every finite-action span hom-set a
+> commutative monoid; finite equivariant pullback distributes over it on both
+> sides. Lean extends this bilinear composition through homwise Grothendieck
+> completion and proves the resulting category is preadditive. Graph and
+> converse-graph spans remain covariant and transfer-direction generators.
+> W99 checks the independent integer multiplicity-matrix model, including both
+> distributivity laws and formal negatives. This is not yet a Mackey functor
+> across subgroup change, a physical representation, source action, selector,
+> prediction, or GU verdict. Reopen only for a Mackey-functor theorem with
+> separately owned premises, source realization, or a concrete defect.
+
 > **2026-08-31 FINITE-ACTION SPAN CATEGORY CONSTRUCTED.** Lean now
 > forms arbitrary equivariant spans between finite supplied actions, quotients
 > them by equivariant apex isomorphism, and composes them by finite equivariant
@@ -16,11 +28,11 @@ updated_at: "2026-08-31"
 > invertible. W99 independently checks the trivial-action multiplicity-matrix
 > model, where pullback composition is matrix multiplication, and rejects a
 > hostile entrywise pairing. No separate categorical universal property is
-> claimed. This is not yet homwise coproduct addition, a
-> preadditive/group-completed Burnside category, a Mackey functor valued there,
-> a physical representation, source action, selector, prediction, or GU
-> verdict. Reopen this arc only for that additive enrichment or a concrete
-> proof, elaboration, axiom, or certificate defect.
+> claimed. Its homwise coproduct and group completion are now supplied by the
+> separate additive Burnside span module above. This raw category alone is not
+> a Mackey functor, physical representation, source action, selector,
+> prediction, or GU verdict. Reopen it only for a concrete proof, elaboration,
+> axiom, or certificate defect.
 
 > **2026-08-31 FINITE-ACTION BURNSIDE GROUP SATISFIES THE MACKEY DOUBLE-COSET
 > LAW.** Lean now quotients finite supplied actions by equivariant equivalence,
@@ -29,11 +41,11 @@ updated_at: "2026-08-31"
 > after induction is exactly the dependent coproduct of transported-
 > intersection induction summands over double cosets. W99 checks the complete
 > nonnormal-`S3` 2+4 decomposition and detects either omitted summand. This is
-> supplied finite-action algebra—not the separately constructed arbitrary-span
-> category's additive enrichment, a physical representation, source action,
-> selector, prediction, or GU verdict. Reopen only for homwise span addition
-> and group completion, a source-owned realization, or a concrete certificate
-> defect.
+> supplied finite-action algebra. The separate arbitrary-span category now has
+> its homwise additive completion, but no Mackey functor across subgroup change,
+> physical representation, source action, selector, prediction, or GU verdict.
+> Reopen only for that stronger Mackey compatibility, a source-owned
+> realization, or a concrete certificate defect.
 
 > **2026-08-31 CANONICAL MACKEY NATURALITY LIFTS TO A FREE PREADDITIVE
 > ENVELOPE.** Lean now replaces each supplied-action hom-set by finite formal

@@ -12,6 +12,7 @@ import GUFormalization.GroupActionMackeyAdditivityBoundary
 import GUFormalization.GroupActionAdditiveEnvelope
 import GUFormalization.GroupActionBurnside
 import GUFormalization.GroupActionSpanCategory
+import GUFormalization.GroupActionBurnsideSpanCategory
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
 import GUFormalization.SourceNativeRealSector
@@ -38,6 +39,7 @@ open GUFormalization.GroupActionMackeyAdditivityBoundary
 open GUFormalization.GroupActionAdditiveEnvelope
 open GUFormalization.GroupActionBurnside
 open GUFormalization.GroupActionSpanCategory
+open GUFormalization.GroupActionBurnsideSpanCategory
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
 open GUFormalization.SourceNativeRealSector
@@ -181,6 +183,12 @@ open GUFormalization.SourceNativeAdjointCoupling
 #print axioms RawSpan.assocEquiv
 #print axioms BurnsideSpanObject.category_laws
 #print axioms BurnsideSpanObject.graph_composition
+#print axioms RawSpan.sumCompEquiv
+#print axioms RawSpan.compSumEquiv
+#print axioms BurnsideSpanHom.comp_of_of
+#print axioms BurnsideSpanHom.assoc
+#print axioms AdditiveBurnsideSpanObject.preadditive_category_laws
+#print axioms AdditiveBurnsideSpanObject.graph_composition
 #print axioms exists_ambient_kernel_observed_trace_ne_zero
 #print axioms kernel_preservation_iff_factorization
 #print axioms descentFactor_unique

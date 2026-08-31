@@ -2143,6 +2143,42 @@ check(
     hostile_entrywise != span_comp(span_ab, span_bc),
 )
 
+print("(XX) ADDITIVE BURNSIDE SPAN-CATEGORY CONTROLS:")
+
+
+def span_add(left, right):
+    return [
+        [left[i][j] + right[i][j] for j in range(len(left[0]))]
+        for i in range(len(left))
+    ]
+
+
+def span_neg(matrix):
+    return [[-entry for entry in row] for row in matrix]
+
+
+span_ab_prime = [[0, 1, 2], [3, 0, 1]]
+span_bc_prime = [[2, 1], [0, 2], [1, 0]]
+check(
+    "span pullback composition distributes over apex coproduct in both variables",
+    span_comp(span_add(span_ab, span_ab_prime), span_bc)
+    == span_add(span_comp(span_ab, span_bc), span_comp(span_ab_prime, span_bc))
+    and span_comp(span_ab, span_add(span_bc, span_bc_prime))
+    == span_add(span_comp(span_ab, span_bc), span_comp(span_ab, span_bc_prime)),
+)
+zero_ab = [[0 for _ in row] for row in span_ab]
+check(
+    "Grothendieck completion supplies additive inverses homwise",
+    span_add(span_ab, span_neg(span_ab)) == zero_ab,
+)
+check(
+    "completed pullback composition is bilinear on formal differences",
+    span_comp(span_neg(span_ab), span_bc)
+    == span_neg(span_comp(span_ab, span_bc))
+    and span_comp(span_ab, span_neg(span_bc))
+    == span_neg(span_comp(span_ab, span_bc)),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -2216,6 +2252,9 @@ print("  eigensectors; commuting identity conjugation is rejected by the hostile
 print("  Arbitrary finite spans compose by pullback: on trivial actions their fiber")
 print("  multiplicity matrices have exact identity and associativity laws, while a")
 print("  hostile entrywise pairing is rejected as the wrong composition.")
+print("  Disjoint-coproduct addition is entrywise addition of span multiplicities;")
+print("  pullback composition distributes on both sides, and integer group completion")
+print("  supplies additive inverses with bilinear composition.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")
