@@ -9,6 +9,7 @@ import GUFormalization.GroupActionMackeyLinearization
 import GUFormalization.GroupActionMackeyRepresentations
 import GUFormalization.GroupActionMackeyCategory
 import GUFormalization.GroupActionMackeyAdditivityBoundary
+import GUFormalization.GroupActionAdditiveEnvelope
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
 import GUFormalization.SourceNativeRealSector
@@ -32,6 +33,7 @@ open GUFormalization.GroupActionMackeyLinearization
 open GUFormalization.GroupActionMackeyRepresentations
 open GUFormalization.GroupActionMackeyCategory
 open GUFormalization.GroupActionMackeyAdditivityBoundary
+open GUFormalization.GroupActionAdditiveEnvelope
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
 open GUFormalization.SourceNativeRealSector
@@ -161,6 +163,9 @@ open GUFormalization.SourceNativeAdjointCoupling
 #print axioms canonicalMackeyRepresentationNatIso
 #print axioms no_point_to_empty
 #print axioms action_preadditive_false
+#print axioms freeFunctor_map_single
+#print axioms canonicalMackeyAdditiveEnvelopeNatIso
+#print axioms point_to_empty_envelope_eq_zero
 #print axioms exists_ambient_kernel_observed_trace_ne_zero
 #print axioms kernel_preservation_iff_factorization
 #print axioms descentFactor_unique

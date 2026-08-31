@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d44324e5cc1a
+revision_basis: ff134b233ac5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The canonical supplied-action Mackey natural isomorphism now lifts to
+    Mathlib's free integer-linear envelopes. Every raw hom-set is replaced by
+    finite formal integer combinations, functors lift linearly, and natural
+    isomorphisms lift functorially. In particular, the previously empty
+    point-to-empty hom-set becomes exactly the singleton formal zero without
+    manufacturing an original action map. This is a preadditive hom
+    completion only, not a span/Burnside category: it constructs no span
+    morphisms, coproduct-as-sum relations, restriction or transfer data,
+    double-coset transfer law, physical representation, source-native action,
+    or GU verdict.
     The source-native observation and real-sector claims now have two stronger
     exact Lean criteria. When ambient Clifford contraction has a supplied
     right inverse, observation preserves its kernel if and only if observed
@@ -4794,11 +4804,13 @@ next_condition: >-
   sensitive operator, domain, and quotient; 144 multiplicity alone supplies
   neither a generation count nor a physical family.
 
-  The supplied-action Mackey family is current through naturality and free
-  linearization, but its source category is nonpreadditive. Reopen only with an
-  owned additive span/Burnside-style completion carrying restriction,
-  transfer, and double-coset compatibility, or on a concrete proof,
-  elaboration, axiom, certificate, or semantic defect. Other proof and
+  The supplied-action Mackey family is current through naturality, free
+  linearization, and the free preadditive hom envelope. The raw category
+  remains nonpreadditive, while the free envelope adds formal sums but no new
+  span morphisms or transfer structure. Reopen only with an owned
+  span/Burnside-style completion carrying coproduct-as-sum relations,
+  restriction, transfer, and double-coset compatibility, or on a concrete
+  proof, elaboration, axiom, certificate, or semantic defect. Other proof and
   integrity families reopen only on measured drift. Protected publication
   payloads, P-M25, and TWG1 require separate authority. No physical action,
   selection mechanism, publication, release, or scientific-status movement

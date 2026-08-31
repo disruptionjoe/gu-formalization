@@ -67,6 +67,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionMackeyRepresentations.lean` | Bundles the canonical and restricted-induced free modules as `K`-permutation representations, proves canonical assembly is a representation equivalence, and derives the `R[K]`-module isomorphism for commutative semirings | `LEAN-VERIFIED`; 2026-08-31 focused integration; action identity/product and intertwining are theorem fields, with no physical/source representation claim; W99 checks both representation laws, every nonnormal-`S3` basis square and a hostile nonbijective generator |
 | `Lean/GUFormalization/GroupActionMackeyCategory.lean` | Packages the representative-free Mackey construction and restricted induction as functors on supplied actions, proves canonical assembly is a natural isomorphism, and transports it through Mathlib linearization to representation functors | `LEAN-VERIFIED`; 2026-08-31 serialized default-target integration; identity, composition and naturality are explicit proof obligations; no additive/physical Mackey-functor claim; W99 checks the complete nonnormal-`S3` functor/naturality control |
 | `Lean/GUFormalization/GroupActionMackeyAdditivityBoundary.lean` | Proves the raw category of supplied group actions has no point-to-empty morphism and therefore cannot be preadditive or have a zero object | `LEAN-VERIFIED`; 2026-08-31 focused integration; exact semantic obstruction to promoting the current raw-source natural isomorphism into an additive Mackey functor; no span/Burnside completion, transfer data or physical realization is constructed; W99 checks the empty/singleton finite witness |
+| `Lean/GUFormalization/GroupActionAdditiveEnvelope.lean` | Lifts supplied-action functors and natural isomorphisms to Mathlib's free integer-linear categories and applies the construction to canonical Mackey naturality | `LEAN-VERIFIED`; 2026-08-31 focused and serialized default-target integration; the point-to-empty hom becomes exactly formal zero, with no new raw action map, span/Burnside morphism, restriction/transfer data or physical realization; W99 checks coefficientwise additivity and the empty-generator edge |
 | `Lean/GUFormalization/SourceNativeSpin64Observation.lean` | General horizontal/normal gamma-kernel leakage theorem from an explicit normal right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; literal pullback obstruction only, with no physical quotient, observed family, mass or action claim |
 | `Lean/GUFormalization/SourceNativeObservationDescent.lean` | Exact iff and uniqueness criterion for descent of an ambient Clifford kernel through observation when ambient contraction has a supplied right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; explicit algebraic acceptance condition only, with no source-owned factor, physical quotient, family, mass or action claim |
 | `Lean/GUFormalization/SourceNativeRealSector.lean` | A supplied linear involution modeling conjugation and anticommuting with chirality linearly exchanges the positive and negative chirality kernels | `LEAN-VERIFIED`; 2026-08-31 focused integration; scalar-antilinearity, the Clifford representation and physical sector identity remain outside Lean |
@@ -320,6 +321,17 @@ an additive Mackey functor. A genuine successor must separately own an
 additive span/Burnside-style completion, restriction and transfer data, and
 their double-coset compatibility. This is a constructive categorical boundary,
 not a no-go for such completions and not a physical claim.
+
+**Free preadditive Mackey envelope — DONE 2026-08-31.** Lean now uses
+Mathlib's free integer-linear category to add formal sums to every supplied-
+action hom-set, lifts arbitrary functors and natural isomorphisms, and applies
+that lift to the canonical representative-free Mackey natural isomorphism.
+The raw point-to-empty hom-set becomes exactly the singleton formal zero, but
+no original action map is manufactured. W99 checks coefficientwise additivity
+and this empty-generator edge. This is a free hom additivization, not a
+span/Burnside category: it supplies no new span morphisms, coproduct-as-sum
+relations, restriction or transfer maps, double-coset transfer law, physical
+representation, source-native action or GU verdict.
 
 **Source-native observation and adjoint-coupling kernels — DONE 2026-08-31.**
 Lean proves the general horizontal/normal gamma-kernel leakage theorem from an

@@ -1782,6 +1782,33 @@ check(
     empty_to_point_maps == [()],
 )
 
+# Free additivization replaces each raw hom-set by finitely supported integer
+# combinations. The empty point-to-empty generator set therefore has one
+# element, the zero combination, while a bijective Mackey assembly extends
+# coefficientwise and additively.
+point_to_empty_free_hom = [{}]
+check(
+    "the free additive envelope has exactly the formal zero point-to-empty morphism",
+    point_to_empty_maps == [] and point_to_empty_free_hom == [{}],
+)
+free_left = dict(list(global_mackey_assembly.items())[:2])
+free_vector_a = {source: coefficient for source, coefficient in zip(free_left, (2, -1))}
+free_vector_b = {source: coefficient for source, coefficient in zip(free_left, (-3, 4))}
+free_vector_sum = {
+    source: free_vector_a.get(source, 0) + free_vector_b.get(source, 0)
+    for source in free_left
+}
+check(
+    "canonical Mackey assembly extends additively to formal integer combinations",
+    linearize_finite_map(free_vector_sum, global_mackey_assembly)
+    == {
+        target:
+        linearize_finite_map(free_vector_a, global_mackey_assembly).get(target, 0)
+        + linearize_finite_map(free_vector_b, global_mackey_assembly).get(target, 0)
+        for target in free_left.values()
+    },
+)
+
 # A one-dimensional exact instance of the general observation-pullback
 # obstruction: the normal gamma map is invertible, the ambient trace cancels,
 # and literal pullback retains the nonzero horizontal trace.
@@ -2093,6 +2120,9 @@ print("  assembly satisfies the complete naturality square before linearization.
 print("  The raw supplied-action category has no point-to-empty morphism, so it is")
 print("  not preadditive and the current natural isomorphism is not yet an additive")
 print("  Mackey functor; an additive span/transfer completion remains separate work.")
+print("  Its free integer-linear envelope adds the unique formal zero in the empty")
+print("  hom-set and lifts canonical Mackey assembly coefficientwise and additively,")
+print("  without manufacturing span morphisms or restriction/transfer structure.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

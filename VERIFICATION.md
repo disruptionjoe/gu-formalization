@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Free preadditive Mackey envelope (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every supplied-action functor lifts to the free integer-linear envelopes, preserving each basis morphism with its coefficient | `Lean/GUFormalization/GroupActionAdditiveEnvelope.lean`; default-target axiom receipt | L1 exact category algebra using Mathlib's free linear category |
+| The canonical supplied-action Mackey natural isomorphism lifts to a natural isomorphism of the free preadditive envelopes | Lean `canonicalMackeyAdditiveEnvelopeNatIso` | L1 exact functorial consequence |
+| The empty raw point-to-empty hom-set becomes exactly the singleton formal zero hom-group, while no original action map is created | Lean `point_to_empty_envelope_eq_zero`; finite control in `tests/W99_theorem_finite_instances.py` | L1 exact boundary; finite control is confirmation only |
+| Span/Burnside morphisms, coproduct-as-sum relations, restriction/transfer data, double-coset transfer law, physical representation, source-native action or GU claim | not constructed by free hom additivization | open / explicitly excluded |
+
 ## Observation descent and paired real-sector criteria (2026-08-31)
 
 | Claim | Evidence | Honest grade |

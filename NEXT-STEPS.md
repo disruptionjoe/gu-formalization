@@ -7,6 +7,17 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 CANONICAL MACKEY NATURALITY LIFTS TO A FREE PREADDITIVE
+> ENVELOPE.** Lean now replaces each supplied-action hom-set by finite formal
+> integer combinations, lifts functors and natural isomorphisms, and obtains a
+> natural isomorphism between the free preadditive envelopes of the canonical
+> Mackey construction and restricted induction. The raw point-to-empty
+> hom-set becomes exactly the singleton formal zero without creating an
+> original action map. This is not a span/Burnside category and supplies no
+> coproduct-as-sum relations, restriction/transfer data, double-coset transfer
+> law, physical representation, source action, or GU claim. Reopen only with
+> that genuinely stronger structure or a concrete certificate defect.
+
 > **2026-08-31 SOURCE-NATIVE OBSERVATION AND ADJOINT COUPLING KERNELS ARE
 > LEAN-CHECKED.** Lean now proves the general horizontal/normal gamma-kernel
 > lift whose literal observation pullback retains nonzero horizontal trace,
