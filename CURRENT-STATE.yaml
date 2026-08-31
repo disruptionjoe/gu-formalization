@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5f807cd883cc
+revision_basis: 7c9b97640c07
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    A split-surjective observed Clifford contraction now has an exact canonical
+    algebraic correction. For supplied Gamma_B and right inverse j_B, Lean
+    constructs P_B = 1 - j_B Gamma_B, proves that it lands in and fixes exactly
+    ker Gamma_B, is idempotent, and gives a linear equivalence between the full
+    observed carrier and ker Gamma_B times the trace carrier. Composing P_B
+    with literal observation cancels the previously proved gamma-trace leakage
+    and changes nothing exactly on already gamma-traceless outputs. An
+    independent exact Clifford-matrix probe passes 23/23 controls, including
+    hostile identity and wrong-sign corrections. This is a repository-derived
+    algebraic bridge candidate relative to a supplied split. No source action,
+    Clifford-trace normalization, real/Krein adjoint, constraint/BV complex,
+    boundary condition, physical domain, quotient meaning, observed family,
+    chirality, mass, generation count, prediction, or GU verdict is selected.
+    Literal observation pullback remains non-kernel-preserving; the correction
+    is extra structure, not a retraction of that obstruction.
     Acting-group restriction now extends to the completed finite-action
     Burnside span categories. For every supplied homomorphism H -> K, Lean
     restricts objects, equivariant maps, raw spans and span-isomorphism
@@ -4843,12 +4858,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Which source/action-owned equation-9.16 insertion fixes the one-form-leg
-  contraction, real/Krein coefficient relation, family covector and selection
-  between the now-exact 45 cubic vertex and the quadratic 54/210
-  Pati-Salam-preserving channels, and can it supply a coefficient-complete
-  curvature-sensitive physical operator without inventing a mass model or
-  observed quotient?
+  Does a source/action-owned Clifford-trace insertion, observation
+  intertwiner, constraint/BV complex or boundary/domain construction select
+  the now-exact trace-subtraction projector and give its corrected kernel
+  representation or physical quotient meaning, while the independent
+  equation-9.16 coupling packet remains coefficient-incomplete?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -4864,6 +4878,16 @@ next_condition: >-
   is empty. Do not synthesize CBRS-1AC, transfer K95 ownership, choose a
   reality convention, or execute downstream physicalization owners.
 
+  The corrected observed gamma kernel is constructed at exact algebraic grade
+  relative to a supplied split: P_B = 1 - j_B Gamma_B is idempotent, its fixed
+  space is ker Gamma_B, and B is linearly equivalent to ker Gamma_B times S.
+  Reopen observed 2+1 only when the source/action owns Gamma_B and j_B plus the
+  observation spinor intertwiner, or when a constraint/BV/boundary/domain
+  complex proves that this projector induces a representation-meaningful
+  physical quotient/cohomology. A different source-owned complement may
+  replace it if it passes the same kernel/trace laws. Do not call the algebraic
+  correction source-selected, physically canonical, or a family sector.
+
   WG-P03 is closed at paired-real representation grade: the cubic 45 channel
   exists, 45 has no Pati-Salam singlet, and symmetric 54/210 are the first
   preserving background owners. Reopen it only on an action-owned equation-
@@ -4873,9 +4897,7 @@ next_condition: >-
   that map.
 
   The observation and real-sector certificates are explicit-premise algebraic
-  tests, not a physical bridge. Reopen observed 2+1 only on a source-owned
-  Clifford-trace intertwiner, corrected observed kernel, or physical
-  quotient/cohomology with representation meaning. The low-curvature
+  tests, not a physical bridge. The low-curvature
   chirality successor still requires a coefficient-complete curvature-
   sensitive operator, domain, and quotient; 144 multiplicity alone supplies
   neither a generation count nor a physical family.

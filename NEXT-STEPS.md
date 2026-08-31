@@ -7,6 +7,21 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 CORRECTED OBSERVED GAMMA-KERNEL PROJECTOR CONSTRUCTED.**
+> Given a supplied right inverse `j_B` to observed Clifford contraction
+> `Gamma_B`, Lean constructs `P_B = 1 - j_B Gamma_B`, proves that it is the
+> idempotent projector onto `ker Gamma_B`, and proves the full carrier split
+> `B ~= ker(Gamma_B) x S`. Composing it with literal observation cancels the
+> known gamma-trace leakage and agrees with literal observation exactly on
+> already gamma-traceless outputs. An independent exact Clifford probe passes
+> `23/23`, including hostile identity and wrong-sign maps. This is an algebraic
+> correction relative to a supplied split—not a source-owned observation map,
+> physical quotient, observed family, chirality or mass mechanism. Reopen for
+> source/action ownership of the split and intertwiner, or a constraint/BV/
+> boundary/domain proof that the projector induces physical cohomology with
+> representation meaning. See
+> `explorations/source-native-corrected-observation-projector-2026-08-31.md`.
+
 > **2026-08-31 ADDITIVE BURNSIDE SPAN RESTRICTION FUNCTOR CONSTRUCTED.**
 > Lean now restricts completed finite-action Burnside span categories along
 > every supplied group homomorphism. Restriction preserves finite pullback

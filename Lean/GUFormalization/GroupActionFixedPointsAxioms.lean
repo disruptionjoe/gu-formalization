@@ -18,6 +18,7 @@ import GUFormalization.GroupActionBurnsideMackeyFunctor
 import GUFormalization.GroupActionBurnsideSpanRestriction
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
+import GUFormalization.SourceNativeCorrectedObservation
 import GUFormalization.SourceNativeRealSector
 import GUFormalization.SourceNativeAdjointCoupling
 
@@ -48,6 +49,7 @@ open GUFormalization.GroupActionBurnsideMackeyFunctor
 open GUFormalization.GroupActionBurnsideSpanRestriction
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
+open GUFormalization.SourceNativeCorrectedObservation
 open GUFormalization.SourceNativeRealSector
 open GUFormalization.SourceNativeAdjointCoupling
 
@@ -219,6 +221,9 @@ open GUFormalization.SourceNativeAdjointCoupling
 #print axioms exists_ambient_kernel_observed_trace_ne_zero
 #print axioms kernel_preservation_iff_factorization
 #print axioms descentFactor_unique
+#print axioms kernelProjector_idempotent
+#print axioms kernelTraceEquiv
+#print axioms correctedObservation_eq_observe_iff
 #print axioms conjugationSectorEquiv
 #print axioms quadratic_ps_owner_split
 #print axioms action_has_no_zero_object

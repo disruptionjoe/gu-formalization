@@ -76,6 +76,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionBurnsideSpanRestriction.lean` | Restricts completed finite-action Burnside span categories along supplied group homomorphisms, preserving finite pullback composition, identities, addition, graph spans, and converse-graph spans | `LEAN-VERIFIED`; 2026-08-31 focused integration; identity and composite restriction are explicit on actions/maps and W99 rejects mixed acting-group restriction on a pullback; categorical induction, biset/correspondence coherence, physical/source realization and GU claims remain outside the theorem |
 | `Lean/GUFormalization/SourceNativeSpin64Observation.lean` | General horizontal/normal gamma-kernel leakage theorem from an explicit normal right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; literal pullback obstruction only, with no physical quotient, observed family, mass or action claim |
 | `Lean/GUFormalization/SourceNativeObservationDescent.lean` | Exact iff and uniqueness criterion for descent of an ambient Clifford kernel through observation when ambient contraction has a supplied right inverse | `LEAN-VERIFIED`; 2026-08-31 focused integration; explicit algebraic acceptance condition only, with no source-owned factor, physical quotient, family, mass or action claim |
+| `Lean/GUFormalization/SourceNativeCorrectedObservation.lean` | Canonical trace-subtraction projector from a supplied observed Clifford right inverse, including idempotence, kernel-times-trace decomposition, and corrected-observation laws | `LEAN-VERIFIED`; 2026-08-31 focused and serialized default-target integration; the split remains supplied and no source/action selection, physical quotient, representation meaning, family, chirality, mass, prediction or GU claim is constructed |
 | `Lean/GUFormalization/SourceNativeRealSector.lean` | A supplied linear involution modeling conjugation and anticommuting with chirality linearly exchanges the positive and negative chirality kernels | `LEAN-VERIFIED`; 2026-08-31 focused integration; scalar-antilinearity, the Clifford representation and physical sector identity remain outside Lean |
 | `Lean/GUFormalization/SourceNativeAdjointCoupling.lean` | Finite supplied-support certificate for cubic adjoint availability and the symmetric 54/210 versus alternating 45/945 Pati--Salam owner split | `LEAN-VERIFIED`; 2026-08-31 focused integration; decomposition tables remain premises and no source coefficient, family selector or mass is constructed |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
@@ -381,6 +382,17 @@ chirality gives a linear equivalence of the two chirality kernels. These
 theorems expose every premise and do not construct the source-owned factor,
 physical quotient, scalar-antilinear real structure, Clifford representation,
 observed family, action or mass.
+
+**Corrected observed gamma-kernel projector — DONE 2026-08-31.** Lean now
+constructs `P = 1 - j Gamma` from a supplied observed Clifford right inverse,
+proves that its fixed space and image are exactly `ker Gamma`, proves
+idempotence, and packages the complete carrier decomposition as a linear
+equivalence with `ker Gamma × trace`. Composing it with any observation map
+removes exactly its observed trace and changes nothing on already
+gamma-traceless outputs. The exact finite Clifford control passes `23/23` and
+rejects identity and wrong-sign hostile maps. The split remains supplied: Lean
+does not prove source/action ownership, a physical quotient, representation
+meaning, observed family, chirality, mass, prediction or GU verdict.
 
 ## Part D: lock and progress contract
 

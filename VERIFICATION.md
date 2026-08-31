@@ -74,14 +74,16 @@ updated_at: "2026-08-31"
 | The empty raw point-to-empty hom-set becomes exactly the singleton formal zero hom-group, while no original action map is created | Lean `point_to_empty_envelope_eq_zero`; finite control in `tests/W99_theorem_finite_instances.py` | L1 exact boundary; finite control is confirmation only |
 | Span morphisms, arbitrary-span composition, Burnside coproduct quotient, restriction/transfer data, double-coset transfer law, physical representation, source-native action or GU claim | not constructed by free hom additivization; the separate finite-action Burnside group below supplies only the stated finite additive Mackey structure | open here / separately narrowed |
 
-## Observation descent and paired real-sector criteria (2026-08-31)
+## Corrected observation, descent and paired real-sector criteria (2026-08-31)
 
 | Claim | Evidence | Honest grade |
 | --- | --- | --- |
 | With a supplied right inverse for ambient Clifford contraction, observation preserves its kernel iff observed contraction factors through ambient contraction | `Lean/GUFormalization/SourceNativeObservationDescent.lean`; default-target axiom receipt | L1 exact linear algebra from explicit premises |
 | The factor is explicitly `gammaB ∘ observe ∘ rightInv` and is unique | Lean `descentFactor_unique` | L1 exact split-surjection consequence |
+| A supplied right inverse `j_B` to the observed contraction canonically gives `P_B = 1 - j_B Gamma_B`, whose image and fixed points are exactly `ker Gamma_B`, with `P_B^2=P_B` | `Lean/GUFormalization/SourceNativeCorrectedObservation.lean`; default-target axiom receipt | L1 exact linear algebra from the supplied split |
+| The observed carrier decomposes by an explicit linear equivalence `B ~= ker(Gamma_B) x S`, and corrected observation cancels exactly the trace insertion while agreeing with literal observation on already gamma-traceless outputs | Lean `kernelTraceEquiv`, `observe_eq_corrected_add_trace`, and `correctedObservation_eq_observe_iff`; `tests/channel-swings/source_native_corrected_observation_probe.py` (`23/23`) | L1 exact theorem; finite exact reproduction is confirmation only |
 | A supplied linear involution modeling conjugation and anticommuting with chirality exchanges the positive and negative chirality kernels by a linear equivalence | `Lean/GUFormalization/SourceNativeRealSector.lean`; default-target axiom receipt | L1 exact algebra from explicit premises; no scalar-antilinear structure is constructed |
-| The actual source-owned observation factor/quotient, Clifford representation, physical real sector, observed family, action, mass or GU verdict | not constructed by these criteria | open / explicitly excluded |
+| Selection of the split by the source/action, a constraint/BV/boundary/domain physical quotient, representation meaning, physical real sector, observed family, action, mass or GU verdict | not constructed by these criteria | open / explicitly excluded |
 
 ## Raw-action additivity obstruction (2026-08-31)
 
