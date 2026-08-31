@@ -414,3 +414,13 @@ A run makes progress only by producing a current green baseline, integrating an 
 retiring a misleading certificate lookalike, adding a newly `LEAN-VERIFIED` kernel, repairing a
 `LEAN-PARTIAL` kernel, or recording an exact faithfulness/mathlib obstruction that prevents a false theorem
 from entering Lean. Do not manufacture a trivial theorem to appear busy.
+**Additive coend and pairing transport — DONE 2026-08-31.**
+`Lean/GUFormalization/GroupActionBurnsideAdditiveCoend.lean` presents the
+all-middle restriction-correspondence coend as the free abelian group modulo
+left-additivity, right-additivity and balance, and proves unique factorization
+for every biadditive balanced evaluator.
+`Lean/GUFormalization/CandidateCohomologyPairingTransport.lean` separately
+proves left/right nondegeneracy of the descended candidate pairing is invariant
+under an explicit pairing-preserving quotient equivalence. Exact controls pass
+10/10 and 10/10. No source action, analytic/positive physical completion,
+bicategory, ambidexterity or Mackey 2-functor is inferred.

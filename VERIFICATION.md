@@ -321,3 +321,15 @@ exact cubic/linear/quadratic owner split. The theorem statements do not derive
 the representation tables or construct physical/source-owned data. Axiom
 output is recorded by the default group-action receipt module; W99 carries
 independent positive and negative finite controls.
+## 2026-08-31 — Additive coend and pairing transport Lean-checked
+
+`Lean/GUFormalization/GroupActionBurnsideAdditiveCoend.lean` presents the
+additive coend as a free abelian group quotient by the generated left/right
+additivity and arbitrary-middle balance relations, and proves existence and
+uniqueness of the induced additive homomorphism for every biadditive balanced
+evaluator. `Lean/GUFormalization/CandidateCohomologyPairingTransport.lean`
+proves both quotient nondegeneracy directions are invariant under a supplied
+zero- and pairing-preserving equivalence. Exact finite controls reject omitted
+additivity/balance, zero-moving equivalences, pairing changes, and extra
+radicals. These theorems supply neither bicategorical/Mackey-2 structure nor a
+source-selected analytic or physical pairing.

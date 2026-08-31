@@ -19,7 +19,9 @@ import GUFormalization.GroupActionBurnsideSpanRestriction
 import GUFormalization.GroupActionBurnsideSpanCorrespondence
 import GUFormalization.GroupActionBurnsideSpanCorrespondenceComposition
 import GUFormalization.GroupActionBurnsideBisetCoend
+import GUFormalization.GroupActionBurnsideAdditiveCoend
 import GUFormalization.CandidateCohomologyPairing
+import GUFormalization.CandidateCohomologyPairingTransport
 import GUFormalization.ExternalInputInterface
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
@@ -59,7 +61,9 @@ open GUFormalization.GroupActionBurnsideSpanRestriction
 open GUFormalization.GroupActionBurnsideSpanCorrespondence
 open GUFormalization.GroupActionBurnsideSpanCorrespondenceComposition
 open GUFormalization.GroupActionBurnsideBisetCoend
+open GUFormalization.GroupActionBurnsideAdditiveCoend
 open GUFormalization.CandidateCohomologyPairing
+open GUFormalization.CandidateCohomologyPairingTransport
 open GUFormalization.ExternalInputInterface
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
@@ -249,6 +253,12 @@ open GUFormalization.SourceNativeActionObservationComplex
 #print axioms BalancedEvaluator.descend
 #print axioms BalancedEvaluator.descend_unique
 #print axioms compose_associativity_coherence
+#print axioms AdditiveBalancedEvaluator.relation_killed
+#print axioms AdditiveBalancedEvaluator.relations_le_kernel
+#print axioms AdditiveBalancedEvaluator.descend
+#print axioms AdditiveBalancedEvaluator.descend_unique
+#print axioms additiveBalancedCompose
+#print axioms additiveBalancedCompose_generator
 #print axioms exists_exact_decoder_iff_bijective
 #print axioms no_missing_port
 #print axioms no_overlap
@@ -289,6 +299,10 @@ open GUFormalization.SourceNativeActionObservationComplex
 #print axioms strictSource_does_not_select_injective_actionFamily
 #print axioms left_nondegenerate_iff_radical_is_gauge
 #print axioms right_nondegenerate_iff_radical_is_gauge
+#print axioms PairingEquivalence.leftNondegenerate_forward
+#print axioms PairingEquivalence.rightNondegenerate_forward
+#print axioms PairingEquivalence.leftNondegenerate_iff
+#print axioms PairingEquivalence.rightNondegenerate_iff
 #print axioms action_has_no_zero_object
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv

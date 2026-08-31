@@ -1,5 +1,5 @@
 schema_version: "1.0"
-frozen_revision: d4a4ad6b90ff8190cc7172a33f24a10b2b667a4b
+frozen_revision: e893089b57c050f77cfb3c2bb3beae89852fed82
 scope: tracked Markdown files with a scalar top-level frontmatter status
 mapping_digest_sha256: ff27135020adc9587b82486618b124c7aeb437d2612493b1d7d650ede5a4c082
 counts:

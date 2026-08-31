@@ -7,6 +7,22 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 ADDITIVE COEND AND PAIRING TRANSPORT CONSTRUCTED.** The
+> all-middle Burnside restriction-correspondence quotient is now upgraded to
+> the free abelian group modulo explicit left-additivity, right-additivity and
+> middle-balance relations. Every biadditive balanced evaluator factors
+> uniquely through the quotient; the exact GF(2) control distinguishes this
+> one-dimensional additive object from the four-class set quotient and from
+> missing-relation variants. Independently, left and right nondegeneracy of the
+> candidate-cohomology pairing are invariant under a supplied zero- and
+> pairing-preserving quotient equivalence. These are conditional algebraic
+> interfaces. The categorical reopener is genuine bicategory/2-morphism,
+> ambidexterity or Mackey-2 coherence; the physical reopener still requires a
+> source/action-owned pairing, quotient equivalence, analytic domain,
+> conservation and positive real/Krein completion. See
+> `explorations/group-action-burnside-additive-coend-2026-08-31.md` and
+> `explorations/candidate-cohomology-pairing-transport-2026-08-31.md`.
+
 > **2026-08-31 QUOTIENT PAIRING CRITERION AND ALL-MIDDLE COEND CONSTRUCTED.**
 > Lean now descends every two-sided gauge-basic bilinear form through the
 > actual middle cycle/gauge quotient and proves that left or right quotient
