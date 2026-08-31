@@ -2324,6 +2324,49 @@ check(
     == span_neg(span_comp(span_ab, span_bc)),
 )
 
+# Additive restriction correspondence control. Integer multiplicity matrices
+# model completed span homs for trivial finite actions. Precomposition by an
+# H-span and postcomposition by a restricted K-span commute by associativity.
+correspondence_left = [[1, -1], [2, 0]]
+correspondence_element = [[1, 0, 2], [0, 1, 1]]
+correspondence_right = [[1, 2], [0, 1], [3, 0]]
+check(
+    "the left and right additive restriction-correspondence actions commute",
+    span_comp(
+        span_comp(correspondence_left, correspondence_element),
+        correspondence_right,
+    )
+    == span_comp(
+        correspondence_left,
+        span_comp(correspondence_element, correspondence_right),
+    ),
+)
+check(
+    "restriction-correspondence actions preserve identities and addition",
+    span_comp(id_a, correspondence_element) == correspondence_element
+    and span_comp(correspondence_element, id_b) == correspondence_element
+    and span_comp(
+        correspondence_left,
+        span_add(correspondence_element, span_ab_prime),
+    )
+    == span_add(
+        span_comp(correspondence_left, correspondence_element),
+        span_comp(correspondence_left, span_ab_prime),
+    ),
+)
+hostile_correspondence_pairing = [
+    [
+        correspondence_left[i][j] * correspondence_element[i][j]
+        for j in range(2)
+    ]
+    for i in range(2)
+]
+check(
+    "hostile entrywise pairing is not a correspondence action",
+    hostile_correspondence_pairing
+    != span_comp(correspondence_left, correspondence_element),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")

@@ -7,6 +7,16 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Family/owner identifiability and Burnside restriction correspondence (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Family-exchange invariance is equivalent to equality of the two family coefficients, so it cannot select exactly one equivalent copy | `Lean/GUFormalization/SourceNativeFamilyOwnerIdentifiability.lean`; Lean `familySwapInvariant_iff` and `no_family_selection_from_swap_invariance`; exact finite hostile-mutation probe | L1 exact finite coefficient algebra from explicit symmetry |
+| Family symmetry does not select between the independent `54` and `210` quadratic-owner coordinates | Lean `family_symmetry_does_not_select_quadratic_owner` and `representation_support_identifiability_boundary`; explicit invariant owner-only packets | L1 exact identifiability boundary relative to the supplied owner-support theorem |
+| For `phi : H -> K`, `Hom_H(A, Res B)` has additive contravariant H-span and covariant restricted K-span actions, and they commute | `Lean/GUFormalization/GroupActionBurnsideSpanCorrespondence.lean`; Lean `leftAction`, `rightAction`, and `left_right_actions_commute`; default-target axiom receipt | L1 exact preadditive-category algebra |
+| For subgroup inclusion, the set-action induction/restriction adjunction maps equivariant maps to graph generators in the correspondence and both adjunction roundtrips are exact | Lean `inducedActionMapEquivRestrictedActionMap`, `inducedMapGraphElement`, and both roundtrip theorems; finite integer-matrix control checks the two commuting actions | L1 exact supplied-action/categorical interface; finite control is confirmation only |
+| A source action, family covector, `54`/`210` coefficients, an induction functor on span categories, full biset/Mackey 2-functor coherence, physical realization, selector, prediction, or GU verdict | not constructed; ordinary induction need not preserve span pullbacks | open / explicitly excluded |
+
 ## Additive Burnside span restriction (2026-08-31)
 
 | Claim | Evidence | Honest grade |

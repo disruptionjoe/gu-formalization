@@ -2,12 +2,12 @@
   "schema_version": "1.0",
   "artifact_type": "current_frontier_semantic_currency_registry",
   "created": "2026-08-25",
-  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__WG_P03_ADJOINT_COUPLING_DEGREE_LADDER_CURRENT__SOURCE_NATIVE_SPIN64_REAL_SECTORS_CURRENT__OBSERVATION_GAMMA_KERNEL_OBSTRUCTION_CURRENT__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT__GROUP_ACTION_MACKEY_FREE_MODULE_LINEARIZATION_CURRENT__GROUP_ACTION_MACKEY_PERMUTATION_REPRESENTATION_CURRENT__GROUP_ACTION_MACKEY_CATEGORICAL_NATURAL_ISOMORPHISM_CURRENT__GROUP_ACTION_MACKEY_RAW_ADDITIVITY_BOUNDARY_CURRENT__GROUP_ACTION_MACKEY_BURNSIDE_GROUP_CURRENT__GROUP_ACTION_ARBITRARY_SPAN_CATEGORY_CURRENT__GROUP_ACTION_ADDITIVE_BURNSIDE_SPAN_CATEGORY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_ENDOMORPHISM_MACKEY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_REPRESENTABLE_MACKEY_FUNCTOR_CURRENT__GROUP_ACTION_BURNSIDE_SPAN_CATEGORICAL_RESTRICTION_CURRENT",
+  "status": "ONE_LIVE_NEXT_CONDITION__HISTORICAL_CONDITIONS_SEPARATED__WG_P03_ADJOINT_COUPLING_DEGREE_LADDER_CURRENT__SOURCE_NATIVE_SPIN64_REAL_SECTORS_CURRENT__OBSERVATION_GAMMA_KERNEL_OBSTRUCTION_CURRENT__POST_W154_FRONTIER_PINNED__PROBE_AUTHORSHIP_CURRENT__HISTORICAL_LEDGER_V03_V017_CURRENT__SECOND_LAYER_CERTIFICATES_V038_V056_CURRENT__K77_CERTIFICATES_V083_V0123_CURRENT__K77_CERTIFICATES_V0131_V0145_CURRENT__K77_CERTIFICATES_V0177_V0190_CURRENT__K77_HISTORICAL_CERTIFICATES_V0150_V0172_CURRENT__K77_WAVE2_CERTIFICATES_CURRENT__PW2_HISTORICAL_CHECKPOINTS_CURRENT__I2B_V0222_CURRENT__NEEDS_PROVIDES_CURRENT__FRONTMATTER_CUSTODY_CURRENT__PROTECTED_PAPER_LIFECYCLE_WAKE_EXACT__LT_GR4_INDEPENDENT_ADJUDICATION_CURRENT__GROUP_ACTION_QUOTIENT_CLOSED_FORMS_CURRENT__GROUP_ACTION_DOMAIN_FUNCTORIALITY_AND_UNIFORM_STABILIZERS_CURRENT__GROUP_ACTION_BIFUNCTORIALITY_AND_ORBIT_NATURALITY_CURRENT__GROUP_ACTION_INDEXED_CODOMAIN_PRODUCTS_CURRENT__GROUP_ACTION_COPRODUCT_AND_INTERNAL_HOM_CURRENT__GROUP_ACTION_CHANGE_OF_GROUPS_CURRENT__GROUP_ACTION_INDUCTION_CURRENT__GROUP_ACTION_INDUCTION_COHERENCE_CURRENT__GROUP_ACTION_MACKEY_INTERFACE_CURRENT__GROUP_ACTION_MACKEY_NONTRIVIAL_SUMMAND_CURRENT__GROUP_ACTION_MACKEY_GLOBAL_COPRODUCT_CURRENT__GROUP_ACTION_MACKEY_REPRESENTATIVE_INDEPENDENCE_CURRENT__GROUP_ACTION_MACKEY_HOM_FORM_CURRENT__GROUP_ACTION_MACKEY_FREE_MODULE_LINEARIZATION_CURRENT__GROUP_ACTION_MACKEY_PERMUTATION_REPRESENTATION_CURRENT__GROUP_ACTION_MACKEY_CATEGORICAL_NATURAL_ISOMORPHISM_CURRENT__GROUP_ACTION_MACKEY_RAW_ADDITIVITY_BOUNDARY_CURRENT__GROUP_ACTION_MACKEY_BURNSIDE_GROUP_CURRENT__GROUP_ACTION_ARBITRARY_SPAN_CATEGORY_CURRENT__GROUP_ACTION_ADDITIVE_BURNSIDE_SPAN_CATEGORY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_ENDOMORPHISM_MACKEY_CURRENT__GROUP_ACTION_BURNSIDE_POINT_REPRESENTABLE_MACKEY_FUNCTOR_CURRENT__GROUP_ACTION_BURNSIDE_SPAN_CATEGORICAL_RESTRICTION_CURRENT__SOURCE_NATIVE_CORRECTED_OBSERVATION_PROJECTOR_CURRENT__SOURCE_NATIVE_FAMILY_OWNER_IDENTIFIABILITY_CURRENT__GROUP_ACTION_BURNSIDE_RESTRICTION_CORRESPONDENCE_CURRENT",
   "target_claim": "NONE-NOT-A-KILL",
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "f9de512b91acc937f594ae957ba24af5a04a0ad26111197919493fa92d01e04e"
+      "sha256": "c84470d667ba8bd0891179412dfcb8a250b2b9a09a13d0af70362d603e9cc992"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -321,6 +321,22 @@
       "scope": "categorical restriction only; ordinary induction is not asserted because it does not generally preserve pullbacks, and no biset/correspondence Mackey 2-functor, classification, physical representation, source-native action or GU verdict follows",
       "scientific_effect": "none"
     },
+    "group_action_burnside_restriction_correspondence": {
+      "path": "Lean/GUFormalization/GroupActionBurnsideSpanCorrespondence.lean",
+      "sha256": "9cc6a5b5e360c374b0af0f1a510c810c3e71b881a61b08d680b3ae0a360baeb4",
+      "result": "ADDITIVE_RESTRICTION_CORRESPONDENCE_HOM_H_A_RES_B__COMMUTING_LEFT_RIGHT_SPAN_ACTIONS__SUBGROUP_ADJUNCTION_GRAPH_ROUNDTRIPS",
+      "finite_control": "integer multiplicity matrices verify commuting actions, identities and additivity and reject hostile entrywise pairing",
+      "scope": "correctly typed correspondence only; not an induction functor on span categories or a full biset/Mackey 2-functor, physical representation, source-native action or GU verdict",
+      "scientific_effect": "none"
+    },
+    "source_native_family_owner_identifiability": {
+      "path": "Lean/GUFormalization/SourceNativeFamilyOwnerIdentifiability.lean",
+      "sha256": "50ef9817464bce4c7d0b8b26a93106071f9ce4ff66bee97cdc62aa89ae025617",
+      "result": "FAMILY_SWAP_INVARIANCE_IFF_EQUAL_COEFFICIENTS__NO_SINGLE_FAMILY_SELECTION__54_210_OWNER_AXES_INDEPENDENT",
+      "finite_control": "6/6 exact controls include asymmetric hostile packets and distinct invariant 54-only and 210-only packets",
+      "scope": "coefficient-identifiability boundary only; no source action, family covector, owner coefficient, mass, observed sector, physical selector or GU verdict",
+      "scientific_effect": "none"
+    },
     "source_native_corrected_observation_projector": {
       "path": "Lean/GUFormalization/SourceNativeCorrectedObservation.lean",
       "sha256": "14f068cbef5f513cfe114c9f442ab34a3d14ac6e4a5d5b3275294c10e3dcfad1",
@@ -378,6 +394,18 @@
     "algebraic_result": "P_B = 1 - j_B Gamma_B projects onto ker Gamma_B, B is linearly equivalent to ker Gamma_B times S, and corrected observation removes exactly the observed trace",
     "claim_ceiling": "no source/action selection of Gamma_B or j_B, no physical quotient/cohomology, representation meaning, observed family, chirality, mass, generation count, prediction or GU verdict",
     "exact_reopener": "source/action-owned split and observation spinor intertwiner, or constraint/BV/boundary/domain proof that the projector induces physical cohomology with representation meaning"
+  },
+  "big_wave_family_owner_burnside_correspondence_2026_08_31": {
+    "status": "TWO_EXACT_INTERFACES_CLOSED__PHYSICAL_AND_SOURCE_SELECTION_UNCHANGED",
+    "result_ref": "explorations/source-native-family-owner-and-burnside-correspondence-wave-2026-08-31.md",
+    "result_sha256": "442cc5c8b1b774812e00fdbd6c490d271786c04d99ad70c96f51e05801ca9ff5",
+    "probe_ref": "tests/channel-swings/source_native_family_owner_identifiability_probe.py",
+    "probe_sha256": "01232cd30abb05bbb672ecbaaa4fb1a25027698a44a88694d75188c83666ded2",
+    "family_lean_ref": "Lean/GUFormalization/SourceNativeFamilyOwnerIdentifiability.lean",
+    "correspondence_lean_ref": "Lean/GUFormalization/GroupActionBurnsideSpanCorrespondence.lean",
+    "controls": "6/6 exact family/owner controls plus W99 correspondence action controls",
+    "claim_ceiling": "no source action, family covector, owner coefficient, mass, physical selector, span-category induction functor, full Mackey 2-functor, prediction or GU verdict",
+    "exact_reopener": "coefficient-complete source action with family covector and independent 54/210 coefficients, or genuinely stronger biset composition/full Mackey 2-functor coherence"
   },
   "wg_p03_adjoint_144_coupling_2026_08_31": {
     "status": "REPRESENTATION_THEOREM_READY__LINEAR_PS_BACKGROUND_OBSTRUCTED__QUADRATIC_54_210_AVAILABLE__SOURCE_INSTANTIATION_TYPE_MISSING",
@@ -467,6 +495,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/source-native-corrected-observation-projector-2026-08-31.md",
-  "probe_ref": "tests/channel-swings/source_native_corrected_observation_probe.py"
+  "result_ref": "explorations/source-native-family-owner-and-burnside-correspondence-wave-2026-08-31.md",
+  "probe_ref": "tests/channel-swings/source_native_family_owner_identifiability_probe.py"
 }

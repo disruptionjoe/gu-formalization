@@ -16,11 +16,13 @@ import GUFormalization.GroupActionBurnsideSpanCategory
 import GUFormalization.GroupActionBurnsideSpanMackey
 import GUFormalization.GroupActionBurnsideMackeyFunctor
 import GUFormalization.GroupActionBurnsideSpanRestriction
+import GUFormalization.GroupActionBurnsideSpanCorrespondence
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
 import GUFormalization.SourceNativeCorrectedObservation
 import GUFormalization.SourceNativeRealSector
 import GUFormalization.SourceNativeAdjointCoupling
+import GUFormalization.SourceNativeFamilyOwnerIdentifiability
 
 /-!
 # Axiom receipt for the group-action fixed-point classification
@@ -47,11 +49,13 @@ open GUFormalization.GroupActionBurnsideSpanCategory
 open GUFormalization.GroupActionBurnsideSpanMackey
 open GUFormalization.GroupActionBurnsideMackeyFunctor
 open GUFormalization.GroupActionBurnsideSpanRestriction
+open GUFormalization.GroupActionBurnsideSpanCorrespondence
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
 open GUFormalization.SourceNativeCorrectedObservation
 open GUFormalization.SourceNativeRealSector
 open GUFormalization.SourceNativeAdjointCoupling
+open GUFormalization.SourceNativeFamilyOwnerIdentifiability
 
 #print axioms mem_commonFixedPoints_iff
 #print axioms pointwiseInvariant_iff_range_subset
@@ -218,6 +222,9 @@ open GUFormalization.SourceNativeAdjointCoupling
 #print axioms BurnsideSpanHom.restrict_comp
 #print axioms restrictionFunctor_graph
 #print axioms restrictionFunctor_converseGraph
+#print axioms left_right_actions_commute
+#print axioms induced_restricted_action_map_roundtrip
+#print axioms restricted_induced_action_map_roundtrip
 #print axioms exists_ambient_kernel_observed_trace_ne_zero
 #print axioms kernel_preservation_iff_factorization
 #print axioms descentFactor_unique
@@ -226,6 +233,9 @@ open GUFormalization.SourceNativeAdjointCoupling
 #print axioms correctedObservation_eq_observe_iff
 #print axioms conjugationSectorEquiv
 #print axioms quadratic_ps_owner_split
+#print axioms no_family_selection_from_swap_invariance
+#print axioms family_symmetry_does_not_select_quadratic_owner
+#print axioms representation_support_identifiability_boundary
 #print axioms action_has_no_zero_object
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv

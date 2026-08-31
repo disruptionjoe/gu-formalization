@@ -7,6 +7,21 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 BIG WAVE: TWO IDENTIFIABILITY/CORRESPONDENCE BOUNDARIES CLOSED.**
+> Lean now proves that exchange invariance of the two equivalent family copies
+> forces equal coefficients and therefore cannot select exactly one family;
+> explicit invariant `54`-only and `210`-only packets separately prove that
+> the same family symmetry does not choose the quadratic owner axis. In the
+> finite-action Burnside lane, the correctly typed additive correspondence
+> `Hom_H(A, Res B)` now has commuting left H-span and right restricted K-span
+> actions, and the subgroup induction/restriction adjunction lands in its graph
+> generators. This is not an induction functor on span categories, because
+> ordinary induction need not preserve pullbacks. The next substantive source
+> swing requires an action-owned family covector and independent `54`/`210`
+> coefficients; the physical lane still requires quotient/action/domain
+> meaning for corrected observation. See
+> `explorations/source-native-family-owner-and-burnside-correspondence-wave-2026-08-31.md`.
+
 > **2026-08-31 CORRECTED OBSERVED GAMMA-KERNEL PROJECTOR CONSTRUCTED.**
 > Given a supplied right inverse `j_B` to observed Clifford contraction
 > `Gamma_B`, Lean constructs `P_B = 1 - j_B Gamma_B`, proves that it is the

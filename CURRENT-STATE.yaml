@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7c9b97640c07
+revision_basis: 3161a4f5715a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The Big Wave closes two exact interfaces while preserving the scientific
+    ceiling. At the WG-P03 family/owner boundary, exchange invariance of the
+    two equivalent family copies is equivalent to equality of their
+    coefficients and therefore cannot select exactly one copy. Explicit
+    invariant 54-only and 210-only packets show independently that family
+    symmetry does not choose the quadratic owner axis. At the categorical
+    boundary, the additive correspondence Hom_H(A, Res B) has commuting
+    contravariant H-span and covariant restricted K-span actions, and subgroup
+    induction/restriction adjunction maps land in its graph generators with
+    exact roundtrips. This is not an induction functor on span categories:
+    ordinary induction need not preserve pullbacks. No source action, family
+    covector, owner coefficient, physical selector, full biset/Mackey
+    2-functor, prediction, or GU verdict is constructed.
     A split-surjective observed Clifford contraction now has an exact canonical
     algebraic correction. For supplied Gamma_B and right inverse j_B, Lean
     constructs P_B = 1 - j_B Gamma_B, proves that it lands in and fixes exactly
