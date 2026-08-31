@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Finite-action Burnside Mackey group (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite supplied actions modulo equivariant equivalence form a commutative monoid under disjoint coproduct, whose Grothendieck completion is an additive Burnside group | `Lean/GUFormalization/GroupActionBurnside.lean`; default-target axiom receipt | L1 exact group-action algebra |
+| Subgroup restriction and induction preserve equivariant equivalence and disjoint coproduct and therefore descend to additive homomorphisms of Burnside groups | Lean `restriction`, `induction`, `restriction_of`, and `induction_of` | L1 exact categorical algebra for finite supplied actions |
+| For finite `G` and subgroups `K,H`, restriction after induction equals the Burnside class of the dependent coproduct over `K \\ G / H` of the transported-intersection induced conjugate seed actions | Lean `restriction_induction_of_eq_mackeyCoproduct`; nonnormal `S3` control in `tests/W99_theorem_finite_instances.py` | L1 additive Mackey double-coset identity |
+| Universal span-category property, arbitrary-span composition, physical representation category, source-native action, coupling, selector or GU verdict | not constructed by this finite-action Burnside group | open / explicitly excluded |
+
 ## Free preadditive Mackey envelope (2026-08-31)
 
 | Claim | Evidence | Honest grade |
@@ -14,7 +23,7 @@ updated_at: "2026-08-31"
 | Every supplied-action functor lifts to the free integer-linear envelopes, preserving each basis morphism with its coefficient | `Lean/GUFormalization/GroupActionAdditiveEnvelope.lean`; default-target axiom receipt | L1 exact category algebra using Mathlib's free linear category |
 | The canonical supplied-action Mackey natural isomorphism lifts to a natural isomorphism of the free preadditive envelopes | Lean `canonicalMackeyAdditiveEnvelopeNatIso` | L1 exact functorial consequence |
 | The empty raw point-to-empty hom-set becomes exactly the singleton formal zero hom-group, while no original action map is created | Lean `point_to_empty_envelope_eq_zero`; finite control in `tests/W99_theorem_finite_instances.py` | L1 exact boundary; finite control is confirmation only |
-| Span/Burnside morphisms, coproduct-as-sum relations, restriction/transfer data, double-coset transfer law, physical representation, source-native action or GU claim | not constructed by free hom additivization | open / explicitly excluded |
+| Span morphisms, arbitrary-span composition, Burnside coproduct quotient, restriction/transfer data, double-coset transfer law, physical representation, source-native action or GU claim | not constructed by free hom additivization; the separate finite-action Burnside group below supplies only the stated finite additive Mackey structure | open here / separately narrowed |
 
 ## Observation descent and paired real-sector criteria (2026-08-31)
 

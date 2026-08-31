@@ -1624,6 +1624,46 @@ check(
     ),
 )
 
+print("(XVIII) FINITE-ACTION BURNSIDE MACKEY CONTROLS:")
+
+
+def burnside_orbit_signature(carrier, action):
+    """Orbit-size multiset: an additive finite K-set isomorphism invariant."""
+    orbits, _ = orbit_quotient(K_s3, list(carrier), action)
+    return tuple(sorted(len(orbit) for orbit in orbits))
+
+
+restricted_burnside_signature = burnside_orbit_signature(
+    range(len(target_seed_classes)), target_seed_act,
+)
+summand_burnside_signatures = [
+    burnside_orbit_signature(range(len(summand[0])), summand[1])
+    for summand in chosen_mackey_summands
+]
+coproduct_burnside_signature = tuple(
+    sorted(size for signature in summand_burnside_signatures for size in signature)
+)
+check(
+    "Burnside addition is disjoint coproduct on nonnormal-S3 orbit signatures",
+    coproduct_burnside_signature == restricted_burnside_signature,
+)
+check(
+    "restriction after induction has the complete transported-intersection Burnside class",
+    len(global_mackey_assembly) == len(target_seed_classes)
+    and coproduct_burnside_signature == restricted_burnside_signature,
+)
+check(
+    "omitting either double-coset transfer summand changes the Burnside class",
+    all(signature != restricted_burnside_signature
+        for signature in summand_burnside_signatures),
+)
+check(
+    "the Burnside double-coset identity preserves total carrier cardinality",
+    sum(restricted_burnside_signature)
+    == sum(sum(signature) for signature in summand_burnside_signatures)
+    == len(target_seed_classes),
+)
+
 # Hom-form Mackey control. Use a three-point K-set whose nonidentity element
 # swaps 0 and 1 and fixes 2. Restriction to each transported intersection
 # gives one seed-map factor, and the global equivalence must identify the
@@ -2123,6 +2163,10 @@ print("  Mackey functor; an additive span/transfer completion remains separate w
 print("  Its free integer-linear envelope adds the unique formal zero in the empty")
 print("  hom-set and lifts canonical Mackey assembly coefficientwise and additively,")
 print("  without manufacturing span morphisms or restriction/transfer structure.")
+print("  The finite-action Burnside group now makes disjoint coproduct additive and")
+print("  descends subgroup restriction and induction; the nonnormal-S3 control checks")
+print("  that restriction after induction is exactly the 2+4 double-coset coproduct.")
+print("  Omitting either transported-intersection transfer summand changes its class.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

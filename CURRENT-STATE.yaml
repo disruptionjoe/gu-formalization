@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ff134b233ac5
+revision_basis: ae7ce7b1ba9d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,16 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The supplied finite-action Mackey family now reaches an additive Burnside
+    group. Lean quotients finite supplied actions by equivariant equivalence,
+    identifies disjoint coproduct with addition, and descends subgroup
+    restriction and induction to additive homomorphisms. Its main theorem
+    proves restriction after induction equals the dependent coproduct of the
+    transported-intersection induction summands indexed by double cosets. The
+    nonnormal-S3 control checks the exact 2+4 decomposition and detects either
+    omitted summand. This is finite supplied-action algebra, not a universal
+    span category, physical representation, source-native action, selector,
+    prediction, or GU verdict.
     The canonical supplied-action Mackey natural isomorphism now lifts to
     Mathlib's free integer-linear envelopes. Every raw hom-set is replaced by
     finite formal integer combinations, functors lift linearly, and natural
@@ -4804,17 +4814,16 @@ next_condition: >-
   sensitive operator, domain, and quotient; 144 multiplicity alone supplies
   neither a generation count nor a physical family.
 
-  The supplied-action Mackey family is current through naturality, free
-  linearization, and the free preadditive hom envelope. The raw category
-  remains nonpreadditive, while the free envelope adds formal sums but no new
-  span morphisms or transfer structure. Reopen only with an owned
-  span/Burnside-style completion carrying coproduct-as-sum relations,
-  restriction, transfer, and double-coset compatibility, or on a concrete
-  proof, elaboration, axiom, certificate, or semantic defect. Other proof and
-  integrity families reopen only on measured drift. Protected publication
-  payloads, P-M25, and TWG1 require separate authority. No physical action,
-  selection mechanism, publication, release, or scientific-status movement
-  is implied.
+  The supplied finite-action Mackey family now has an additive Burnside group,
+  coproduct-as-sum, restriction, induction, and the double-coset identity.
+  Reopen it only for a genuinely stronger universal span-category theorem
+  (including arbitrary spans and their composition), a source-owned
+  realization, or a concrete proof, elaboration, axiom, certificate, or
+  semantic defect. The raw action category remains nonpreadditive and the free
+  hom envelope still creates no spans. Other proof and integrity families
+  reopen only on measured drift. Protected publication payloads, P-M25, and
+  TWG1 require separate authority. No physical action, selection mechanism,
+  publication, release, or scientific-status movement is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

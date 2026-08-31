@@ -7,6 +7,18 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 FINITE-ACTION BURNSIDE GROUP SATISFIES THE MACKEY DOUBLE-COSET
+> LAW.** Lean now quotients finite supplied actions by equivariant equivalence,
+> makes disjoint coproduct additive through group completion, and descends
+> subgroup restriction and induction to additive homomorphisms. Restriction
+> after induction is exactly the dependent coproduct of transported-
+> intersection induction summands over double cosets. W99 checks the complete
+> nonnormal-`S3` 2+4 decomposition and detects either omitted summand. This is
+> supplied finite-action algebra—not a universal category of arbitrary spans,
+> a physical representation, source action, selector, prediction, or GU
+> verdict. Reopen only for that stronger span-category theorem, a source-owned
+> realization, or a concrete certificate defect.
+
 > **2026-08-31 CANONICAL MACKEY NATURALITY LIFTS TO A FREE PREADDITIVE
 > ENVELOPE.** Lean now replaces each supplied-action hom-set by finite formal
 > integer combinations, lifts functors and natural isomorphisms, and obtains a
