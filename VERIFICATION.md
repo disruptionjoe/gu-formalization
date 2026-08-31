@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Finite-action span category (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite supplied `G`-actions and arbitrary equivariant spans, modulo equivariant isomorphism of the apex commuting with both legs, form a category | `Lean/GUFormalization/GroupActionSpanCategory.lean`; default-target axiom receipt | L1 exact category theory on supplied finite actions |
+| Identity is the diagonal span and composition is the finite equivariant pullback; explicit left/right unitors and the canonical reassociation of nested pullbacks prove the category laws | Lean `identityCompEquiv`, `compIdentityEquiv`, `assocEquiv`, and `BurnsideSpanObject.category_laws` | L1 exact group-action algebra |
+| Equivariant maps embed covariantly as graph spans, graph composition agrees with map composition, and converse graphs supply transfer-direction arrows without assuming an inverse | Lean `graphCompEquiv`, `graph_composition`, and `converseGraph`; finite multiplicity-matrix controls in `tests/W99_theorem_finite_instances.py` | L1 exact categorical consequence |
+| A separate categorical universal property, disjoint-coproduct addition on span homs, group completion/preadditivity, a Mackey functor valued in this category, source-native realization, physical representation, selector, prediction, or GU verdict | not constructed by the present span-category theorem | open / explicitly excluded |
+
 ## Finite-action Burnside Mackey group (2026-08-31)
 
 | Claim | Evidence | Honest grade |
@@ -14,7 +23,7 @@ updated_at: "2026-08-31"
 | Finite supplied actions modulo equivariant equivalence form a commutative monoid under disjoint coproduct, whose Grothendieck completion is an additive Burnside group | `Lean/GUFormalization/GroupActionBurnside.lean`; default-target axiom receipt | L1 exact group-action algebra |
 | Subgroup restriction and induction preserve equivariant equivalence and disjoint coproduct and therefore descend to additive homomorphisms of Burnside groups | Lean `restriction`, `induction`, `restriction_of`, and `induction_of` | L1 exact categorical algebra for finite supplied actions |
 | For finite `G` and subgroups `K,H`, restriction after induction equals the Burnside class of the dependent coproduct over `K \\ G / H` of the transported-intersection induced conjugate seed actions | Lean `restriction_induction_of_eq_mackeyCoproduct`; nonnormal `S3` control in `tests/W99_theorem_finite_instances.py` | L1 additive Mackey double-coset identity |
-| Universal span-category property, arbitrary-span composition, physical representation category, source-native action, coupling, selector or GU verdict | not constructed by this finite-action Burnside group | open / explicitly excluded |
+| Arbitrary-span composition is supplied separately by the finite-action span category above; homwise coproduct addition, group completion/preadditivity, physical representation category, source-native action, coupling, selector or GU verdict | not constructed by this finite-action Burnside group | open / explicitly excluded |
 
 ## Free preadditive Mackey envelope (2026-08-31)
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ae7ce7b1ba9d
+revision_basis: fc50a9e38bca
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The supplied finite-action Mackey family now has its arbitrary-span
+    category. Lean defines arbitrary equivariant spans, identifies them under
+    equivariant isomorphism of their apex commuting with both legs, and
+    composes their classes by finite equivariant pullback. Explicit left and
+    right unitors and the canonical nested-pullback associator prove the
+    category laws. Ordinary equivariant maps embed as graph spans and preserve
+    composition; converse graphs supply transfer-direction arrows without
+    assuming invertibility. W99 independently checks the trivial-action
+    multiplicity-matrix model. This is not yet homwise coproduct addition,
+    group completion or a preadditive Burnside category, a Mackey functor
+    valued there, a physical representation, source-native action, selector,
+    prediction, or GU verdict; no separate categorical universal property is
+    asserted.
     The supplied finite-action Mackey family now reaches an additive Burnside
     group. Lean quotients finite supplied actions by equivariant equivalence,
     identifies disjoint coproduct with addition, and descends subgroup
@@ -16,8 +29,8 @@ current_result:
     proves restriction after induction equals the dependent coproduct of the
     transported-intersection induction summands indexed by double cosets. The
     nonnormal-S3 control checks the exact 2+4 decomposition and detects either
-    omitted summand. This is finite supplied-action algebra, not a universal
-    span category, physical representation, source-native action, selector,
+    omitted summand. This is finite supplied-action algebra, not the separately
+    constructed arbitrary-span category, physical representation, source-native action, selector,
     prediction, or GU verdict.
     The canonical supplied-action Mackey natural isomorphism now lifts to
     Mathlib's free integer-linear envelopes. Every raw hom-set is replaced by
@@ -4814,16 +4827,18 @@ next_condition: >-
   sensitive operator, domain, and quotient; 144 multiplicity alone supplies
   neither a generation count nor a physical family.
 
-  The supplied finite-action Mackey family now has an additive Burnside group,
-  coproduct-as-sum, restriction, induction, and the double-coset identity.
-  Reopen it only for a genuinely stronger universal span-category theorem
-  (including arbitrary spans and their composition), a source-owned
-  realization, or a concrete proof, elaboration, axiom, certificate, or
-  semantic defect. The raw action category remains nonpreadditive and the free
-  hom envelope still creates no spans. Other proof and integrity families
-  reopen only on measured drift. Protected publication payloads, P-M25, and
-  TWG1 require separate authority. No physical action, selection mechanism,
-  publication, release, or scientific-status movement is implied.
+  The supplied finite-action Mackey family now has both its additive Burnside
+  group and a universal category of arbitrary equivariant spans composed by
+  finite pullback. The next categorical successor is homwise disjoint-coproduct
+  addition and group completion or preadditivity, followed only then by a
+  Mackey-functor formulation with separately owned premises. Reopen this arc
+  only for that stronger additive enrichment, a source-owned realization, or a
+  concrete proof, elaboration, axiom, certificate, or semantic defect. The raw
+  action category remains nonpreadditive; the span category does not yet claim
+  additive homs. Other proof and integrity families reopen only on measured
+  drift. Protected publication payloads, P-M25, and TWG1 require separate
+  authority. No physical action, selection mechanism, publication, release,
+  or scientific-status movement is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

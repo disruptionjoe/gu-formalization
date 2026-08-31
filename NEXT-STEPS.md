@@ -7,6 +7,21 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 FINITE-ACTION SPAN CATEGORY CONSTRUCTED.** Lean now
+> forms arbitrary equivariant spans between finite supplied actions, quotients
+> them by equivariant apex isomorphism, and composes them by finite equivariant
+> pullback. Explicit left/right unitors and a nested-pullback associator prove
+> the category laws. Graph spans preserve ordinary map composition; converse
+> graphs supply the transfer direction without pretending the map is
+> invertible. W99 independently checks the trivial-action multiplicity-matrix
+> model, where pullback composition is matrix multiplication, and rejects a
+> hostile entrywise pairing. No separate categorical universal property is
+> claimed. This is not yet homwise coproduct addition, a
+> preadditive/group-completed Burnside category, a Mackey functor valued there,
+> a physical representation, source action, selector, prediction, or GU
+> verdict. Reopen this arc only for that additive enrichment or a concrete
+> proof, elaboration, axiom, or certificate defect.
+
 > **2026-08-31 FINITE-ACTION BURNSIDE GROUP SATISFIES THE MACKEY DOUBLE-COSET
 > LAW.** Lean now quotients finite supplied actions by equivariant equivalence,
 > makes disjoint coproduct additive through group completion, and descends
@@ -14,10 +29,11 @@ updated_at: "2026-08-31"
 > after induction is exactly the dependent coproduct of transported-
 > intersection induction summands over double cosets. W99 checks the complete
 > nonnormal-`S3` 2+4 decomposition and detects either omitted summand. This is
-> supplied finite-action algebra—not a universal category of arbitrary spans,
-> a physical representation, source action, selector, prediction, or GU
-> verdict. Reopen only for that stronger span-category theorem, a source-owned
-> realization, or a concrete certificate defect.
+> supplied finite-action algebra—not the separately constructed arbitrary-span
+> category's additive enrichment, a physical representation, source action,
+> selector, prediction, or GU verdict. Reopen only for homwise span addition
+> and group completion, a source-owned realization, or a concrete certificate
+> defect.
 
 > **2026-08-31 CANONICAL MACKEY NATURALITY LIFTS TO A FREE PREADDITIVE
 > ENVELOPE.** Lean now replaces each supplied-action hom-set by finite formal

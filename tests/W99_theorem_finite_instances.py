@@ -2105,6 +2105,44 @@ check(
     != tuple(-z for z in hostile_conjugation((2, 0))),
 )
 
+print("(XIX) FINITE SPAN-CATEGORY CONTROLS:")
+
+# For trivial actions, an isomorphism class of finite spans A <- X -> B is
+# exactly a matrix of natural-number fiber multiplicities. Pullback
+# composition counts matching middle fibers, hence is matrix multiplication.
+def span_comp(left, right):
+    return [
+        [sum(left[i][j] * right[j][k] for j in range(len(right)))
+         for k in range(len(right[0]))]
+        for i in range(len(left))
+    ]
+
+
+span_ab = [[1, 2, 0], [0, 1, 1]]
+span_bc = [[1, 0], [2, 1], [1, 3]]
+span_cd = [[2, 1], [0, 1]]
+id_a = [[1, 0], [0, 1]]
+id_b = [[1, 0, 0], [0, 1, 0], [0, 0, 1]]
+check(
+    "finite span pullback composition has identity multiplicity matrices",
+    span_comp(id_a, span_ab) == span_ab
+    and span_comp(span_ab, id_b) == span_ab,
+)
+check(
+    "finite span pullback composition is associative on nontrivial fibers",
+    span_comp(span_comp(span_ab, span_bc), span_cd)
+    == span_comp(span_ab, span_comp(span_bc, span_cd)),
+)
+hostile_entrywise = [
+    [span_ab[i][j] * span_bc[i][j]
+     for j in range(min(len(span_ab[0]), len(span_bc[0])))]
+    for i in range(min(len(span_ab), len(span_bc)))
+]
+check(
+    "hostile entrywise pairing is not span pullback composition",
+    hostile_entrywise != span_comp(span_ab, span_bc),
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -2175,6 +2213,9 @@ print("  Split-surjective observation preserves the ambient kernel exactly throu
 print("  displayed factorization control; a hostile nonfactorizing observation leaks it.")
 print("  Involutive swap conjugation anticommutes with chirality and exchanges its two")
 print("  eigensectors; commuting identity conjugation is rejected by the hostile control.")
+print("  Arbitrary finite spans compose by pullback: on trivial actions their fiber")
+print("  multiplicity matrices have exact identity and associativity laws, while a")
+print("  hostile entrywise pairing is rejected as the wrong composition.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")
