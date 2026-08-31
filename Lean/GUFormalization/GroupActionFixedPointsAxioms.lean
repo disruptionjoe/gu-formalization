@@ -5,6 +5,7 @@ import GUFormalization.GroupActionChangeOfGroups
 import GUFormalization.GroupActionInduction
 import GUFormalization.GroupActionInductionCoherence
 import GUFormalization.GroupActionMackey
+import GUFormalization.GroupActionMackeyLinearization
 
 /-!
 # Axiom receipt for the group-action fixed-point classification
@@ -20,6 +21,7 @@ open GUFormalization.GroupActionChangeOfGroups
 open GUFormalization.GroupActionInduction
 open GUFormalization.GroupActionInductionCoherence
 open GUFormalization.GroupActionMackey
+open GUFormalization.GroupActionMackeyLinearization
 
 #print axioms mem_commonFixedPoints_iff
 #print axioms pointwiseInvariant_iff_range_subset
@@ -127,6 +129,13 @@ open GUFormalization.GroupActionMackey
 #print axioms restrictedInducedEquivariantMapEquivMackeySeedFamily
 #print axioms natCard_restrictedInducedEquivariantMap_eq_mackeySeedFamily
 #print axioms nonempty_restrictedInducedEquivariantMap_iff_mackeySeedFamily
+#print axioms linearizeMap
+#print axioms linearizeMap_comp
+#print axioms canonicalMackeyFreeLinearEquiv
+#print axioms canonicalMackeyFreeLinearEquiv_single
+#print axioms canonicalMackeyFreeLinearEquiv_naturality
+#print axioms canonicalMackeyFreeLinearEquiv_equivariant
+#print axioms canonicalMackeyFreeLinearEquiv_support_card
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv
 #print axioms orbitIndexEquivOfDomainEquiv_mk

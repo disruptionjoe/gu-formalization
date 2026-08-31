@@ -1703,6 +1703,80 @@ check(
     ),
 )
 
+# Free-module Mackey linearization control. A finitely supported coefficient
+# vector on the canonical coproduct is pushed forward by summing coefficients
+# over equal images. The canonical assembly is bijective, so support and
+# coefficients are preserved exactly; naturality and K-equivariance are the
+# linear extensions of the already-checked basis squares.
+def linearize_finite_map(vector, mapping):
+    out = {}
+    for basis, coefficient in vector.items():
+        image = mapping[basis] if isinstance(mapping, dict) else mapping(basis)
+        out[image] = out.get(image, 0) + coefficient
+        if out[image] == 0:
+            del out[image]
+    return out
+
+
+assembly_inverse = {
+    target: source for source, target in global_mackey_assembly.items()
+}
+canonical_seed_map = {
+    source: assembly_inverse[induced_seed_map[target]]
+    for source, target in global_mackey_assembly.items()
+}
+free_mackey_vector = {(0, 0): 2, (1, 1): -3, (1, 3): 5}
+assembled_free_mackey_vector = linearize_finite_map(
+    free_mackey_vector, global_mackey_assembly
+)
+check(
+    "free-module Mackey assembly preserves every basis coefficient and support size",
+    len(assembled_free_mackey_vector) == len(free_mackey_vector)
+    and all(
+        assembled_free_mackey_vector[global_mackey_assembly[source]] == coefficient
+        for source, coefficient in free_mackey_vector.items()
+    ),
+)
+check(
+    "free-module Mackey assembly is natural under the linearized seed map",
+    linearize_finite_map(
+        linearize_finite_map(free_mackey_vector, canonical_seed_map),
+        global_mackey_assembly,
+    )
+    == linearize_finite_map(assembled_free_mackey_vector, induced_seed_map),
+)
+for k in K_s3:
+    canonical_k_action = {
+        (double_q, summand_q): (
+            double_q,
+            chosen_mackey_summands[double_q][1](k, summand_q),
+        )
+        for double_q, summand in enumerate(chosen_mackey_summands)
+        for summand_q in range(len(summand[0]))
+    }
+    target_k_action = {
+        target: target_seed_act(k, target)
+        for target in range(len(target_seed_classes))
+    }
+    check(
+        f"free-module Mackey assembly intertwines the K action for {k}",
+        linearize_finite_map(
+            linearize_finite_map(free_mackey_vector, canonical_k_action),
+            global_mackey_assembly,
+        )
+        == linearize_finite_map(assembled_free_mackey_vector, target_k_action),
+    )
+
+# Hostile noninjective basis transport merges two coefficients and therefore
+# fails the support-preservation conclusion required of an equivalence.
+hostile_basis_collapse = dict(global_mackey_assembly)
+hostile_basis_collapse[(1, 3)] = hostile_basis_collapse[(1, 1)]
+check(
+    "a noninjective hostile basis transport cannot preserve free-module support",
+    len(linearize_finite_map(free_mackey_vector, hostile_basis_collapse))
+    < len(free_mackey_vector),
+)
+
 print("(XVI) FINITE PROOF-STABLE KERNEL CERTIFICATES:")
 
 shiab_dimensions = {
@@ -1823,6 +1897,9 @@ print("  Distinct representatives of one double coset give equivariantly equival
 print("  summands through the same intrinsic fiber, with assembly unchanged.")
 print("  The Hom-form Mackey map space is the product of transported-intersection")
 print("  seed-map factors; the nonnormal S3 control realizes 27 = 3 x 9 exactly.")
+print("  Free-module linearization preserves canonical Mackey basis coefficients,")
+print("  support size, seed-map naturality and K-equivariance; a noninjective hostile")
+print("  basis transport fails the support law as required.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

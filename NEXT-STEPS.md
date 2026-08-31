@@ -7,6 +7,16 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 CANONICAL MACKEY CARRIER LINEARIZED ON FREE MODULES.** The
+> representative-free set equivalence now lifts to an explicit linear
+> equivalence on finitely supported `R`-coefficients. Lean proves basis and
+> support preservation, seed-map naturality and equivariance for the supplied
+> `K`-actions; W99 checks the nonnormal `S3` instance and a hostile
+> noninjective collapse. This is exact algebraic hardening only—not an additive
+> Mackey functor on physical representations, a source action, coupling or
+> selector. Reopen this theorem family only for a genuinely stronger structured
+> representation/categorical abstraction or a concrete defect.
+
 > **2026-08-31 WG-P03 ADJOINT/144 DEGREE LADDER CLOSED AT REPRESENTATION
 > GRADE.** The paired-real family/partner system has no bare scalar, one
 > conjugate-paired cubic adjoint-`45` vertex, and no Pati-Salam-preserving

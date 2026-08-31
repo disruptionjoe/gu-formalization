@@ -4,7 +4,7 @@ status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
-updated: 2026-08-22
+updated: 2026-08-31
 owner_surface: lab/methods/lean-verification.md
 ---
 
@@ -63,6 +63,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionInduction.lean` | Pure set-level induction: the explicit `H`-action on `G × B` generates the balanced-product quotient, left `G`-translation descends, induction is left adjoint to restriction, and equivariant seed maps descend functorially with identity, composition and `G`-equivariance laws | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; quotient relation, inverse placement and actions are explicit; theorem-level receipt exposes only the established `propext`, `Classical.choice` and `Quot.sound` surface; W99 checks trivial-subgroup and nontrivial identity-homomorphism carriers plus the complete universal-property image/inverse |
 | `Lean/GUFormalization/GroupActionInductionCoherence.lean` | Pure set-level coherence: induction along the identity is equivariantly equivalent to the seed action, and induction along a composite is equivariantly equivalent to iterated induction through the explicit flattening `[g,[h,b]] ↦ [g * psi(h),b]` | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; inner and outer balanced relations, both inverse laws and `G`-equivariance are explicit; W99 checks identity collapse and a genuinely nested trivial-to-C2-to-C4 composition |
 | `Lean/GUFormalization/GroupActionMackey.lean` | Complete pure set-level subgroup Mackey decomposition: `K`-orbits of `Res_K^G Ind_H^G(1)` are `K\\G/H`; actual intrinsic index fibers give a canonical representative-free `K`-equivariant coproduct decomposition; seed maps act naturally; representative changes are explicit; and the Hom-form law identifies `K`-equivariant maps out of `Res Ind B` with the dependent family of transported-intersection seed-map spaces | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; the Hom-form equivalence composes domain transport, dependent-coproduct Hom and fiberwise induction-restriction with exact cardinality and existence consequences; theorem receipt exposes only the established `propext`, `Classical.choice` and `Quot.sound` surface; W99 checks the nonnormal `S3` map space has 27 elements on both sides as factors 3 and 9, with a hostile non-equivariant control |
+| `Lean/GUFormalization/GroupActionMackeyLinearization.lean` | Free finitely-supported module lift of the canonical Mackey carrier equivalence, with basis/support preservation, seed-map naturality and supplied-`K`-action equivariance | `LEAN-VERIFIED`; 2026-08-31 focused integration; no new choice beyond the inherited quotient carrier, and no physical representation, action coefficient or additive Mackey-functor claim; W99 checks exact coefficients, support, naturality, both `S3` subgroup elements and a noninjective hostile collapse |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
@@ -268,6 +269,17 @@ classical choice. W99 checks the intrinsic fibers partition and remain stable
 before representatives are chosen. This remains pure supplied-action mathematics and
 constructs no physical action, carrier, observer, dynamics, selector or GU
 verdict.
+
+**Free-module Mackey linearization — DONE 2026-08-31.** Lean applies the free
+finitely-supported `R`-module functor to the canonical representative-free
+Mackey carrier equivalence. The resulting linear equivalence maps each basis
+vector to its assembled restricted-induced class, preserves exact support
+cardinality, and intertwines both linearized equivariant seed maps and the
+explicit supplied `K`-actions. W99 checks these laws on the nonnormal `S3`
+control and rejects a noninjective hostile basis collapse. This is a genuine
+linear-algebra strengthening of the carrier theorem, but it is not an additive
+Mackey functor on physical representations and supplies no source action,
+coupling, coefficient, selector or GU verdict.
 
 ## Part D: lock and progress contract
 

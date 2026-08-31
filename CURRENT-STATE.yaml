@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 787a96a2f927
+revision_basis: 6b98d6fe0af8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,14 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The canonical representative-free Mackey carrier equivalence now has an
+    exact free-module linearization over any semiring. Lean proves basis-vector
+    and support-cardinality preservation, naturality for linearized equivariant
+    seed maps, and equivariance for the explicitly supplied K-actions. W99
+    checks the nonnormal S3 control, exact coefficients and a hostile
+    noninjective support collapse. This is free algebra on the already-supplied
+    set actions, not an additive Mackey functor on physical representations;
+    no source action, coupling, coefficient, selector or GU verdict moves.
     The lowest-degree source-compatible WG-P03 family/144 coupling is now
     classified at paired-real representation grade. The bare family/partner
     product has no scalar. Each conjugate same-label complex product contains

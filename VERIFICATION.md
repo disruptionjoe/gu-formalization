@@ -7,6 +7,14 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Free-module Mackey linearization (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The canonical representative-free Mackey carrier equivalence lifts to an `R`-linear equivalence of free finitely-supported modules | `Lean/GUFormalization/GroupActionMackeyLinearization.lean`; default-target axiom receipt | L1 exact algebra from the supplied set actions |
+| The lift preserves basis vectors and support cardinality and intertwines linearized seed maps and the supplied `K`-actions | Lean naturality/equivariance/support theorems; nonnormal `S3` controls in `tests/W99_theorem_finite_instances.py` | L1 exact algebra; finite controls are confirmation only |
+| Additive Mackey functor on physical representations, source-native action, coupling or selector | not constructed by free linearization | open / explicitly excluded |
+
 ## Source-native adjoint/144 coupling degree ladder (2026-08-31)
 
 | Claim | Evidence | Honest grade |
@@ -55,8 +63,10 @@ a compact verification package, and states plainly what would falsify the leadin
   set-level subgroup induction in equivariant seed maps, naturality of the
   representative-free Mackey fiber decomposition, equivariant
   representative-independence of transported-intersection Mackey summands,
-  and the Hom-form Mackey equivalence from restricted-induced maps to the
-  dependent family of transported-intersection seed-map spaces;
+  the Hom-form Mackey equivalence from restricted-induced maps to the
+  dependent family of transported-intersection seed-map spaces, and the
+  free-module lift of the canonical carrier equivalence with basis/support,
+  seed-map naturality and supplied-action equivariance laws;
   and two finite
   certificate deductions: the supplied Shiab decomposition rows give complex
   chiral multiplicities `[[0,2],[2,0]]`, while an explicit left inverse for an
