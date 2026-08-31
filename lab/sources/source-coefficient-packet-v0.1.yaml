@@ -1,0 +1,111 @@
+schema_version: "1.0"
+packet_id: GU-SOURCE-COEFFICIENTS-v0.1
+status: frozen_projection
+created: "2026-08-31"
+purpose: >-
+  Freeze the coefficient-relevant public-source edition used by exact rank
+  experiments. This is a projection of the ratified claim register, not a
+  second source ledger and not a source action.
+
+source_register:
+  path: lab/sources/source-claim-register.yaml
+  schema_version: "1.0"
+  sha256: dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6
+  projection_rule: >-
+    Resolve rows by id from this exact register edition and verify each
+    canonical row hash. Evidence and quotations remain owned by the register.
+
+edition_precedence:
+  - id: draft-2021
+    role: primary action and fermion architecture
+  - id: portal-2020
+    role: earlier unhedged corroboration for the stable 144 claim
+  - id: toe-2025
+    role: later spoken prediction and recombination wording
+  - rule: >-
+      A later spoken recollection supplements but does not silently rewrite a
+      pinned draft row. Conflicts or changed claims require a new packet.
+
+selected_rows:
+  - {id: SC-ACT-01, role: first-order bosonic action architecture, row_sha256: 841570e8c75156360bfe9bf00cd3bad8c1c21c8c603c69783a78a6672d1167d8}
+  - {id: SC-ACT-03, role: Dirac-pair order architecture, row_sha256: bf01168ee6cdbf719a052ce9607466ecca0a901e00692edf214f7f6d6da822c8}
+  - {id: SC-ACT-04, role: second-order residual-norm action architecture, row_sha256: e206388340529aa4517664b620573b2a0ae68843b7d5063830291fd75b41ea60}
+  - {id: SC-ACT-05, role: combined bosonic and fermionic Euler alternatives, row_sha256: 41cfb25c177e450a3ac792a2bcd12c57a4967a62a2eb86c16f799a7c61ae3464}
+  - {id: SC-FER-01, role: unified field and four named field components, row_sha256: 8aa5bb6661a95e3d06389a203fe9706d2e1cb229c4fb4f06373fc7a21bca8d01}
+  - {id: SC-FER-03, role: source assignment of observed and additional fermion content, row_sha256: f23acdc643e0d977e43d3696e2d9afe1fb350cfcc138d1efdfc70a1bb3bbe70f}
+  - {id: SC-FER-04, role: product rule and family-structure branching, row_sha256: dc4ed1aa0c6dbade4597e64c42644e7b51986f5e1b140c172f34d9e90f9a5800}
+  - {id: SC-FER-05, role: graded 16 and 144 carrier labels, row_sha256: 8d825b10df3858622c9cd3c6d22528064a95c7e4e0982dab49bcf71c144046f1}
+  - {id: SC-GEN-01, role: disavowal of three identical repeated generations, row_sha256: 1d7735c7ce75ef4d6dad0150232c9fbbf3d73bd16e3eb08ad31c8a054a9ab267}
+  - {id: SC-GEN-04, role: disavowal that the imposter is a true generation, row_sha256: 77aec7b2026ac5c3d9e772a966f3b083d00e767dd506ca2dfafe2914758b0e1e}
+  - {id: SC-GEN-05, role: source family-location synopsis, row_sha256: bf1e722a3092c3d2521ba887b298ddfaa9ce6d5b89c62265580c8648da1a45a8}
+  - {id: SC-GEN-57, role: later two-plus-one representation reading, row_sha256: 7b3f8d9cba8ead68c675e8ec51bc0419c720df45e9624a96ac96be662901812d}
+  - {id: SC-PRE-52, role: stable 144-coupled prediction and recombination claim, row_sha256: 5f3503941ee7ac6c93bd60088ddb320e4b7590e5bda1a7d2881e1a6068734bef}
+
+branch_declarations:
+  action_architecture:
+    allowed: [first_order_I1B, second_order_I2B, combined_euler_alternatives]
+    unresolved: >-
+      The packet does not select a complete coefficient-level fermion action,
+      background, contraction, real form, domain, or normalization.
+  family_semantics:
+    required: two_plus_one_not_three_identical_copies
+    unresolved: >-
+      Representation locations and the 144 prediction do not supply an action
+      covector on the family copies or identify an observed physical quotient.
+  owner_coordinates:
+    variables: [d54, d210]
+    unresolved: >-
+      The packet does not select either quadratic owner or a relation between
+      their independent coefficients.
+
+source_silent_slots:
+  - family_covector
+  - d54_value
+  - d210_value
+  - d54_to_d210_relation
+  - coefficient_normalization
+  - real_or_krein_coefficient_relation
+  - action_owned_internal_45_projection
+  - action_owned_form_leg_contraction
+  - physical_observation_quotient
+
+constraint_models:
+  strict_source:
+    variables: [d54_first, d54_second, d210_first, d210_second]
+    equations: []
+    evidence: >-
+      None of the selected source rows contains a scalar equation on these
+      four coefficient slots.
+  source_plus_representation_equivariance:
+    variables: [d54_first, d54_second, d210_first, d210_second]
+    equations:
+      - {coefficients: [1, -1, 0, 0], rhs: 0, meaning: equal 54 coefficients on equivalent family copies}
+      - {coefficients: [0, 0, 1, -1], rhs: 0, meaning: equal 210 coefficients on equivalent family copies}
+    evidence: >-
+      Repository-derived family exchange symmetry, explicitly not source
+      evidence, reduces four copy slots to two independent owner coordinates.
+  reconstruction_extensions:
+    - id: normalized_owner_ratio
+      status: declared_non_source
+      adds: one owner-relation equation plus a normalization
+    - id: action_owned_family_covector
+      status: declared_non_source
+      adds: a family covector and its action-level contraction
+    - id: real_krein_closure
+      status: declared_non_source
+      adds: a real or Krein coefficient relation from a complete action packet
+
+forbidden_imports:
+  - repository-derived 54/210 support as if it were source evidence
+  - a conventional SO(10) Higgs or Yukawa coefficient relation without a typed bridge
+  - fitted masses, mixing angles, or observed family data
+  - a manually selected observation projector or physical quotient
+  - the unreleased two-connection complex or any merged reconstruction of it
+  - any later source edition without minting a new packet version
+
+claim_ceiling: >-
+  This packet can prove source silence and rank nonuniqueness only for the
+  frozen edition. It cannot prove that no later source supplies the missing
+  data, construct a source action, select a family covector, fix a 54:210
+  ratio, identify observed matter, or move a GU verdict.
+

@@ -7,6 +7,16 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Frozen source coefficient packet and rank certificate (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Packet v0.1 is an immutable projection of thirteen exact action/family rows from the ratified source register at SHA-256 `dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6` | `lab/sources/source-coefficient-packet-v0.1.yaml`; full-register and canonical-row hash checks in `tests/channel-swings/source_coefficient_packet_rank_probe.py` | source-edition integrity certificate; quotations/evidence remain owned by the register |
+| The strict selected source slice supplies zero scalar equations on the four family-copy/owner coefficient slots | packet `constraint_models.strict_source`; exact probe (`11/11`) | packet-relative SOURCE-SILENT result, not a claim about future source editions |
+| Separately labeled family exchange contributes two independent equations and exact rank two, leaving two owner coordinates free | packet `source_plus_representation_equivariance`; exact rational RREF probe; prior representation-support theorem | L1 exact finite linear algebra; representation-derived, explicitly not source evidence |
+| A homogeneous coefficient constraint is unique at zero iff injective; any nonzero kernel direction gives a second solution; the strict zero constraint has distinct 54-axis and 210-axis solutions | `Lean/GUFormalization/SourceCoefficientRank.lean`; Lean `uniqueHomogeneousSolution_iff_injective`, `nonunique_of_nonzero_kernel`, and `strictSource_does_not_select_owner`; default-target axiom receipt | L1 generic exact linear algebra plus a packet-declared zero-constraint instantiation |
+| A source action, family covector, normalization, `54:210` relation, real/Krein closure, physical quotient, observed family, mass, prediction, or GU verdict | not constructed | open / explicitly excluded |
+
 ## Split naturality and restriction-correspondence composition (2026-08-31)
 
 | Claim | Evidence | Honest grade |

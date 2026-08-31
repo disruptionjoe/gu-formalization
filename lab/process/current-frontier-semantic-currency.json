@@ -7,7 +7,7 @@
   "basis": {
     "research_agenda": {
       "path": "lab/process/RESEARCH-AGENDA.json",
-      "sha256": "d706584125e2b80b19b74ce523309c023282884ae28710ad49d52f566071878d"
+      "sha256": "01beba315223524e37bf9eba9f551af9f7a3c57ce21fedc4feffebebfb4471cd"
     },
     "phenomenology_disposition_register": {
       "path": "lab/process/phenomenology-disposition-register-v0.1.json",
@@ -407,6 +407,20 @@
     "claim_ceiling": "no source action, family covector, owner coefficient, mass, physical selector, span-category induction functor, full Mackey 2-functor, prediction or GU verdict",
     "exact_reopener": "coefficient-complete source action with family covector and independent 54/210 coefficients, or genuinely stronger biset composition/full Mackey 2-functor coherence"
   },
+  "source_coefficient_packet_rank_2026_08_31": {
+    "status": "FROZEN_SOURCE_PACKET_STRICT_RANK_ZERO__REPRESENTATION_EXCHANGE_RANK_TWO__TWO_OWNER_COORDINATES_REMAIN",
+    "packet_ref": "lab/sources/source-coefficient-packet-v0.1.yaml",
+    "packet_sha256": "062b4c2d3a23519d6104aadf86aa686a976841caa133029cde40b01ea7995233",
+    "result_ref": "explorations/source-coefficient-packet-rank-certificate-2026-08-31.md",
+    "result_sha256": "6271dbfcf981c85eb63d84e667e08508a64eaeaa74b0f95a3b9119f6be8fb387",
+    "probe_ref": "tests/channel-swings/source_coefficient_packet_rank_probe.py",
+    "probe_sha256": "7d9836fbeaaac4b1a944d77192ec9bfadb618d6ab9d824289f18c6a9e64cf2ae",
+    "lean_ref": "Lean/GUFormalization/SourceCoefficientRank.lean",
+    "lean_sha256": "87ced56207cd8c23d8e8a03e3695c46c1aec2f1537713efcb7b8d9b7569e803d",
+    "controls": "11/11 packet-integrity and exact-rank controls including hostile owner-ratio and single-owner insertions",
+    "claim_ceiling": "packet-relative source silence only; no later-edition no-go, source action, family covector, normalization, 54:210 relation, real/Krein closure, physical quotient, prediction or GU verdict",
+    "exact_reopener": "a new source edition or complete action packet supplying the missing covector, owner relation, normalization and real/Krein closure"
+  },
   "wg_p03_adjoint_144_coupling_2026_08_31": {
     "status": "REPRESENTATION_THEOREM_READY__LINEAR_PS_BACKGROUND_OBSTRUCTED__QUADRATIC_54_210_AVAILABLE__SOURCE_INSTANTIATION_TYPE_MISSING",
     "result_ref": "explorations/source-native-adjoint-144-coupling-classification-2026-08-31.md",
@@ -420,13 +434,14 @@
   },
   "live_frontier": {
     "current_question_contains": "source/action-owned Clifford-trace insertion",
-    "selected_condition": "SOURCE_OR_DYNAMICS_SELECT_CORRECTED_OBSERVATION_PROJECTOR__PHYSICAL_QUOTIENT_MEANING_OPEN__WG_P03_SOURCE_INSTANTIATION_PARALLEL_OPEN",
+    "selected_condition": "FROZEN_PUBLIC_SOURCE_PACKET_RANK_TWO_AFTER_FAMILY_EXCHANGE__ACTION_OWNERSHIP_AND_PHYSICAL_QUOTIENT_OPEN",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "source-authenticated or owner-native coefficient-complete K77 pre-density action",
       "genuine real Spin-equivariant action bridge",
       "materially distinct K77 action class with independent normalization and complete variational ownership",
       "source/action-owned observed Clifford split plus observation spinor intertwiner",
+      "new source edition or complete action supplying a family covector, owner relation, normalization, and real/Krein coefficient closure",
       "constraint/BV/boundary/domain proof that the corrected projector induces physical cohomology with representation meaning"
     ],
     "forbidden_repeats": [
@@ -495,6 +510,6 @@
     "release_readiness_change": false,
     "public_posture_change": false
   },
-  "result_ref": "explorations/source-native-family-owner-and-burnside-correspondence-wave-2026-08-31.md",
-  "probe_ref": "tests/channel-swings/source_native_family_owner_identifiability_probe.py"
+  "result_ref": "explorations/source-coefficient-packet-rank-certificate-2026-08-31.md",
+  "probe_ref": "tests/channel-swings/source_coefficient_packet_rank_probe.py"
 }

@@ -15,6 +15,14 @@ the map: which directory/group supports which claim.
   restriction correspondences, outer-action associativity, graph-generator
   composition, and rejects hostile entrywise pairing.
 
+## Frozen source coefficient packet controls
+
+- `channel-swings/source_coefficient_packet_rank_probe.py` verifies the full
+  ratified-register hash, thirteen canonical projected-row hashes, polarity
+  preservation, strict-source rank zero, exact rank two after separately
+  labeled family exchange, and hostile owner-ratio/single-owner insertions
+  (`11/11` exact controls).
+
 ## Big Wave family/owner and Burnside correspondence controls
 
 - `channel-swings/source_native_family_owner_identifiability_probe.py`

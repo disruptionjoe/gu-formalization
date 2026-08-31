@@ -7,6 +7,19 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 FROZEN SOURCE COEFFICIENT PACKET: OWNER RANK REMAINS TWO.**
+> Packet v0.1 projects thirteen exact action/family rows from the ratified
+> source register by full-register and canonical-row hash. The strict source
+> model contains zero equations on four family-copy/owner coefficient slots.
+> Separately labeled family exchange has exact rank two and leaves two
+> independent owner coordinates. Lean proves the generic kernel discriminator
+> and the strict packet has distinct `54`-axis and `210`-axis solutions. This
+> is packet-relative source silence, not a no-go for a later source edition or
+> complete action. Reopen on an action/source-owned family covector, owner
+> relation, normalization, and real/Krein closure; physical observation still
+> requires its quotient/domain/pairing owners. See
+> `explorations/source-coefficient-packet-rank-certificate-2026-08-31.md`.
+
 > **2026-08-31 SPLIT NATURALITY AND RESTRICTION-COMPANION COMPOSITION
 > CONSTRUCTED.** Lean now proves that corrected Clifford-kernel projectors from
 > two supplied right inverses differ exactly by `(j2-j1) Gamma`, and coincide
