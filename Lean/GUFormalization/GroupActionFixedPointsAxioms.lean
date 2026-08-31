@@ -9,6 +9,8 @@ import GUFormalization.GroupActionMackeyLinearization
 import GUFormalization.GroupActionMackeyRepresentations
 import GUFormalization.GroupActionMackeyCategory
 import GUFormalization.GroupActionMackeyAdditivityBoundary
+import GUFormalization.SourceNativeSpin64Observation
+import GUFormalization.SourceNativeAdjointCoupling
 
 /-!
 # Axiom receipt for the group-action fixed-point classification
@@ -28,6 +30,8 @@ open GUFormalization.GroupActionMackeyLinearization
 open GUFormalization.GroupActionMackeyRepresentations
 open GUFormalization.GroupActionMackeyCategory
 open GUFormalization.GroupActionMackeyAdditivityBoundary
+open GUFormalization.SourceNativeSpin64Observation
+open GUFormalization.SourceNativeAdjointCoupling
 
 #print axioms mem_commonFixedPoints_iff
 #print axioms pointwiseInvariant_iff_range_subset
@@ -153,6 +157,8 @@ open GUFormalization.GroupActionMackeyAdditivityBoundary
 #print axioms canonicalMackeyRepresentationNatIso
 #print axioms no_point_to_empty
 #print axioms action_preadditive_false
+#print axioms exists_ambient_kernel_observed_trace_ne_zero
+#print axioms quadratic_ps_owner_split
 #print axioms action_has_no_zero_object
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv

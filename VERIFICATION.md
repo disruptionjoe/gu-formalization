@@ -181,3 +181,16 @@ from a dated incident in which a green instrument certified nothing:
 These rules bind new probes and repairs of old ones; they are not a mandate to
 retrofit every historical probe. Where an old probe is touched for another
 reason, bring its harness to this standard in the same change.
+
+## 2026-08-31 — Source-native representation kernels Lean-checked
+
+`Lean/GUFormalization/SourceNativeSpin64Observation.lean` proves the general
+linear-algebra obstruction behind the exact finite probe: if normal Clifford
+multiplication has a right inverse, a nonzero horizontal trace has an ambient
+gamma-traceless lift whose literal pullback retains that nonzero trace.
+`Lean/GUFormalization/SourceNativeAdjointCoupling.lean` checks the supplied
+finite representation supports and Pati--Salam multiplicities, yielding the
+exact cubic/linear/quadratic owner split. The theorem statements do not derive
+the representation tables or construct physical/source-owned data. Axiom
+output is recorded by the default group-action receipt module; W99 carries
+independent positive and negative finite controls.

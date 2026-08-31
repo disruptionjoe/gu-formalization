@@ -60,6 +60,7 @@ Deterministic, Python standard library only, exit 0 on success.
 """
 from __future__ import annotations
 
+from fractions import Fraction
 from itertools import permutations, product
 
 FAIL = []
@@ -1780,6 +1781,29 @@ check(
     "the empty-to-point direction retains its unique empty map",
     empty_to_point_maps == [()],
 )
+
+# A one-dimensional exact instance of the general observation-pullback
+# obstruction: the normal gamma map is invertible, the ambient trace cancels,
+# and literal pullback retains the nonzero horizontal trace.
+horizontal_trace = 2
+normal_gamma = 3
+normal_inverse_of_horizontal_trace = Fraction(horizontal_trace, normal_gamma)
+ambient_trace = horizontal_trace - normal_gamma * normal_inverse_of_horizontal_trace
+check("ambient gamma-kernel lift cancels exactly", ambient_trace == 0)
+check("literal observation retains nonzero horizontal trace", horizontal_trace != 0)
+
+# Finite representation-support mirror of the Lean adjoint/144 certificate.
+family_partner_support = {"45", "54", "210", "945", "1050"}
+symmetric_adjoint_support = {"1", "54", "210", "770"}
+alternating_adjoint_support = {"45", "945"}
+ps_singlets = {"45": 0, "54": 1, "210": 1, "945": 0, "1050": 0}
+symmetric_owners = family_partner_support & symmetric_adjoint_support
+alternating_owners = family_partner_support & alternating_adjoint_support
+check("cubic adjoint channel is available", "45" in family_partner_support)
+check("linear adjoint background has no PS singlet", ps_singlets["45"] == 0)
+check("symmetric quadratic owners are exactly 54 and 210", symmetric_owners == {"54", "210"})
+check("alternating quadratic owners are exactly 45 and 945", alternating_owners == {"45", "945"})
+check("only symmetric owners preserve PS", all(ps_singlets[x] == 1 for x in symmetric_owners) and all(ps_singlets[x] == 0 for x in alternating_owners))
 free_mackey_vector = {(0, 0): 2, (1, 1): -3, (1, 3): 5}
 assembled_free_mackey_vector = linearize_finite_map(
     free_mackey_vector, global_mackey_assembly

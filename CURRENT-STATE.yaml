@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a6b210976155
+revision_basis: 429815a26cc6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,14 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The two newest source-native representation results now have independent
+    Lean kernels. A general linear-algebra theorem proves that an invertible
+    normal Clifford component produces ambient gamma-kernel elements whose
+    literal observation pullback has nonzero observed gamma trace. A separate
+    finite certificate checks the adjoint/144 degree ladder and the exact
+    symmetric 54/210 versus alternating 45/945 Pati-Salam owner split. These
+    are proof hardening only: no physical quotient, source coefficient,
+    family selector, mass, observed sector or GU verdict moves.
     The additive boundary of the canonical Mackey theorem is now exact. For
     every supplied group, the ordinary action category has no morphism from
     its nonempty one-point trivial action to its empty trivial action, so it
@@ -4753,6 +4761,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  The Spin(6,4) observation obstruction and WG-P03 adjoint degree ladder are
+  now Lean-checked at their explicit-premise ceilings. Reopen either only on
+  a concrete proof/certificate defect or on the already named source-owned
+  bridge/action data; do not treat the new proof layer as physicalization.
+
   The current Mackey theorem family is closed at its raw supplied-action
   categorical ceiling. Do not call free linearization additive Mackey-functor
   structure: the raw action category is Lean-proved nonpreadditive and has no

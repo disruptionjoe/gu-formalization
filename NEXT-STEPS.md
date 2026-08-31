@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 SOURCE-NATIVE OBSERVATION AND ADJOINT COUPLING KERNELS ARE
+> LEAN-CHECKED.** Lean now proves the general horizontal/normal gamma-kernel
+> lift whose literal observation pullback retains nonzero horizontal trace,
+> and separately checks the supplied adjoint/144 support intersection giving
+> cubic `45`, no linear PS singlet, symmetric quadratic `54/210`, and no
+> alternating PS owner. These are independent proof-hardening certificates,
+> not new source data. They construct no physical quotient, observed family,
+> coefficient, family selector, mass, scale, prediction, or GU verdict.
+
 > **2026-08-31 RAW SUPPLIED-ACTION CATEGORY IS NOT ADDITIVE.** Lean proves
 > that, for every supplied group, there is no action morphism from the
 > nonempty one-point trivial action to the empty trivial action. Hence the raw
