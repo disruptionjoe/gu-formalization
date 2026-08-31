@@ -7,6 +7,21 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 SPLIT NATURALITY AND RESTRICTION-COMPANION COMPOSITION
+> CONSTRUCTED.** Lean now proves that corrected Clifford-kernel projectors from
+> two supplied right inverses differ exactly by `(j2-j1) Gamma`, and coincide
+> exactly when the splittings coincide. Corrected projectors/observations are
+> natural under explicit contraction and split intertwiners; a `6/6` exact
+> probe rejects contraction compatibility without split compatibility. The
+> additive restriction companions also compose along `H -> K -> L`, with
+> bilinearity, outer-action and graph-generator laws independently checked in
+> W99. This does not source-own a split, construct a physical quotient, define
+> categorical induction, or complete a Mackey 2-functor. The strongest source
+> successor remains an action-owned family covector and independent `54`/`210`
+> coefficients; the strongest observation successor remains a source-owned
+> intertwiner or physical constraint/BV/domain quotient. See
+> `explorations/source-native-split-naturality-and-burnside-correspondence-composition-2026-08-31.md`.
+
 > **2026-08-31 BIG WAVE: TWO IDENTIFIABILITY/CORRESPONDENCE BOUNDARIES CLOSED.**
 > Lean now proves that exchange invariance of the two equivalent family copies
 > forces equal coefficients and therefore cannot select exactly one family;

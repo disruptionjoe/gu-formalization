@@ -2367,6 +2367,59 @@ check(
     != span_comp(correspondence_left, correspondence_element),
 )
 
+# Composition of restriction companions is ordinary completed-span
+# composition after restricting the second element. On trivial actions the
+# restriction changes no entries, so integer matrix multiplication is exact.
+second_correspondence_element = [[1, 2], [0, 1], [3, -1]]
+second_correspondence_prime = [[0, 1], [2, 0], [-1, 1]]
+composed_correspondence = span_comp(
+    correspondence_element, second_correspondence_element
+)
+check(
+    "restriction-correspondence composition is bilinear in both inputs",
+    span_comp(
+        span_add(correspondence_element, span_ab_prime),
+        second_correspondence_element,
+    )
+    == span_add(
+        composed_correspondence,
+        span_comp(span_ab_prime, second_correspondence_element),
+    )
+    and span_comp(
+        correspondence_element,
+        span_add(second_correspondence_element, second_correspondence_prime),
+    )
+    == span_add(
+        composed_correspondence,
+        span_comp(correspondence_element, second_correspondence_prime),
+    ),
+)
+check(
+    "outer actions associate with restriction-correspondence composition",
+    span_comp(correspondence_left, composed_correspondence)
+    == span_comp(
+        span_comp(correspondence_left, correspondence_element),
+        second_correspondence_element,
+    ),
+)
+graph_first = [[1, 0, 0], [0, 0, 1]]
+graph_second = [[0, 1], [1, 0], [0, 1]]
+check(
+    "graph-generator correspondence composition is graph relation composition",
+    span_comp(graph_first, graph_second) == [[0, 1], [0, 1]],
+)
+hostile_composition = [
+    [
+        correspondence_element[i][j] * second_correspondence_element[i][j]
+        for j in range(2)
+    ]
+    for i in range(2)
+]
+check(
+    "hostile entrywise pairing is not restriction-correspondence composition",
+    hostile_composition != composed_correspondence,
+)
+
 print("\n[verdict]")
 print("  Small finite instances confirm the pointwise diagonal and invariance statements.")
 print("  They also confirm the exact finite census, including 0^0 = 1 for the")
@@ -2451,6 +2504,9 @@ print("  hostile entrywise pairing is rejected as the wrong composition.")
 print("  Disjoint-coproduct addition is entrywise addition of span multiplicities;")
 print("  pullback composition distributes on both sides, and integer group completion")
 print("  supplies additive inverses with bilinear composition.")
+print("  Restriction companions compose by restricting the second completed span and")
+print("  composing it with the first; bilinearity, outer associativity and graph")
+print("  generators agree, while hostile entrywise pairing is rejected.")
 print("  The controls also confirm that representing one twisted diagonal is not WPS and")
 print("  that the no-WPS result does not depend on the chosen endomap. Confirmation only:")
 print("  the paper's proof is mathematical and does not depend on this run.")

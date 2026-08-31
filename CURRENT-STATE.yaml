@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3161a4f5715a
+revision_basis: 21f57089bc41
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,21 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    Two further proof-stable interfaces are now exact. For the corrected
+    observation projector P_j = 1 - j Gamma, Lean proves
+    P_j1 - P_j2 = (j2 - j1) Gamma and, for a split-surjective contraction,
+    equality of projectors if and only if the supplied right inverses agree.
+    A carrier map intertwines corrected projectors and corrected observations
+    when it intertwines both the contractions and the selected splittings. An
+    independent exact probe passes 6/6 and rejects a contraction-only hostile
+    map that fails split compatibility. Separately, restriction
+    correspondences now compose along H -> K -> L by restricting the second
+    completed span and composing it with the first. The operation is additive
+    in both inputs, compatible with outer actions, and preserves graph
+    generators; W99 checks bilinearity, associativity and hostile controls.
+    These are conditional algebraic/categorical laws, not source selection of
+    a split, physical quotient, induction functor, coend classification, full
+    Mackey 2-functor, prediction, or GU verdict.
     The Big Wave closes two exact interfaces while preserving the scientific
     ceiling. At the WG-P03 family/owner boundary, exchange invariance of the
     two equivalent family copies is equivalent to equality of their

@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Split naturality and restriction-correspondence composition (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For a fixed contraction, projectors from two trace splittings differ by `(j2-j1) Gamma`; with one right-inverse law, projector equality is equivalent to equality of the splittings | `Lean/GUFormalization/SourceNativeCorrectedObservationNaturality.lean`; Lean `kernelProjector_sub_kernelProjector` and `kernelProjector_eq_iff_rightInverse_eq`; exact finite hostile probe | L1 exact linear algebra from supplied maps |
+| A carrier map intertwines corrected projectors and corrected observations when it intertwines both contractions and supplied splittings | Lean `kernelProjector_natural` and `correctedObservation_natural`; `tests/channel-swings/source_native_corrected_observation_naturality_probe.py` (`6/6`) | L1 conditional naturality theorem; finite model is confirmation only |
+| Restriction correspondences compose along `H -> K -> L` by restricting the second completed span and composing; the operation is bilinear and compatible with outer actions and graph generators | `Lean/GUFormalization/GroupActionBurnsideSpanCorrespondenceComposition.lean`; Lean `compose_add_left`, `compose_add_right`, `leftAction_compose`, `compose_rightAction`, and `compose_graphElements`; W99 integer-matrix controls | L1 exact preadditive-category construction |
+| A source-selected split, physical quotient/cohomology, categorical induction, coend/biset classification, ambidexterity, full Mackey 2-functor, physical/source realization, prediction, or GU verdict | not constructed | open / explicitly excluded |
+
 ## Family/owner identifiability and Burnside restriction correspondence (2026-08-31)
 
 | Claim | Evidence | Honest grade |
