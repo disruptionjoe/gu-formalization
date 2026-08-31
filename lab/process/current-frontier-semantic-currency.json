@@ -448,16 +448,42 @@
     "exact_reopener": "a source-owned admitted external-input carrier plus an exhaustive classifier with inverse and preserved automorphism, ownership and physical-equivalence structure"
   },
   "group_action_burnside_fixed_middle_balance_2026_08_31": {
-    "status": "FIXED_MIDDLE_BALANCE_QUOTIENT_AND_THREE_STAGE_COHERENCE_EXACT__FULL_COEND_UNCONSTRUCTED",
+    "status": "FIXED_MIDDLE_BALANCE_QUOTIENT_AND_THREE_STAGE_COHERENCE_EXACT__SUBSUMED_BY_ALL_MIDDLE_SET_VALUED_COEND",
     "result_ref": "explorations/group-action-burnside-biset-coend-2026-08-31.md",
     "result_sha256": "000e2baf6074961f64ea5bf0ab5c544e50d21a4a620d47552c7fee350d20f240",
     "probe_ref": "tests/channel-swings/group_action_burnside_biset_coend_probe.py",
     "probe_sha256": "22730db1836f34068e42456c82bc5c41b461a2c3d88d755649f54eb89be28934",
     "lean_ref": "Lean/GUFormalization/GroupActionBurnsideBisetCoend.lean",
-    "lean_sha256": "a6d4a6d764be2666e73235492f23dbd2105e256b23f9591bae4a3c8bdca75c4a",
+    "lean_sha256": "fcdef2f2fd6b824c3bb2cedd3136dc9ef2e2ebc85d7cf730a0f8c3baf303276a",
     "controls": "11/11 exact nonnormal S3 balance, identity, associativity and hostile quotient controls",
-    "claim_ceiling": "fixed-intermediate balance quotient only; no all-object coend, dinatural universal property, biset bicategory, Mackey 2-functor or physical/source realization",
-    "exact_reopener": "an all-object intermediate construction with object-changing dinaturality and a proved universal mapping property"
+    "claim_ceiling": "historical fixed-intermediate precursor; the same Lean module now also carries the all-middle set-valued factorization, while additive/category-valued coends, biset bicategory, Mackey 2-functor and physical/source realization remain open",
+    "exact_reopener": "see group_action_burnside_all_middle_coend_2026_08_31"
+  },
+  "candidate_cohomology_pairing_criterion_2026_08_31": {
+    "status": "TWO_SIDED_GAUGE_BASIC_DESCENT_EXACT__QUOTIENT_NONDEGENERACY_IFF_CYCLE_RADICAL_IS_GAUGE__PHYSICAL_PAIRING_UNOWNED",
+    "result_ref": "explorations/candidate-cohomology-pairing-criterion-2026-08-31.md",
+    "result_sha256": "08da7f8bc63a015cab621981d82359ea49428d46843a2efd65cdecc6be82226a",
+    "probe_ref": "tests/channel-swings/candidate_cohomology_pairing_probe.py",
+    "probe_sha256": "568c0f1f17ee671b93a1ac0022961f30d8ceda9f06d05ea691f0d566154ee7bd",
+    "lean_ref": "Lean/GUFormalization/CandidateCohomologyPairing.lean",
+    "lean_sha256": "d85888a10789d641438012984409b58d05b15cf5fbc4993b99f2196de076696b",
+    "controls": "12/12 exact GF(2) controls including a planted noncycle, non-basic representative failure and extra nongauge radical",
+    "algebraic_result": "a two-sided gauge-basic bilinear form descends through both arguments of the actual cycle/gauge quotient; left or right quotient nondegeneracy is equivalent to the corresponding cycle radical containing only gauge images",
+    "claim_ceiling": "conditional algebraic criterion only; no source action, action-owned pairing, analytic domain, selected real/Krein form, conservation, positivity, positive majorant, probability rule, observable, physical state space, prediction or GU verdict",
+    "exact_reopener": "an action/source-owned pairing plus common analytic domain, real/Krein ownership, conservation, positive completion or positive majorant, interacting observable and probability interpretation"
+  },
+  "group_action_burnside_all_middle_coend_2026_08_31": {
+    "status": "ALL_INTERMEDIATE_OBJECT_BALANCE_QUOTIENT_AND_SET_VALUED_FACTORIZATION_UNIQUENESS_EXACT",
+    "result_ref": "explorations/group-action-burnside-all-middle-coend-2026-08-31.md",
+    "result_sha256": "a08d79d881fa95bbb75a0921435ad1c8a05f8f51c031d7473bc7a80d5186d9d2",
+    "probe_ref": "tests/channel-swings/group_action_burnside_all_middle_coend_probe.py",
+    "probe_sha256": "2399f851fd1d417a5997974b6b27e8b2dbae93de17f02ea7773b390446e4f618",
+    "lean_ref": "Lean/GUFormalization/GroupActionBurnsideBisetCoend.lean",
+    "lean_sha256": "fcdef2f2fd6b824c3bb2cedd3136dc9ef2e2ebc85d7cf730a0f8c3baf303276a",
+    "controls": "11/11 all-middle factorization controls retaining the 11/11 nonnormal S3 fixed-middle discriminator and rejecting four-class under- and one-class over-quotients",
+    "categorical_result": "arbitrary intermediate morphisms generate an all-object balance quotient through which every set-valued balanced evaluator factors uniquely; restriction-correspondence composition descends",
+    "claim_ceiling": "set-valued coend presentation only; no additive/category-valued coend, biset bicategory, ambidexterity, Mackey 2-functor, source action, physical realization, prediction or GU verdict",
+    "exact_reopener": "an additive/category-valued coend, genuine bicategory or ambidexterity, full Mackey 2-functor coherence, source-owned realization, or concrete proof/certificate defect"
   },
   "wg_p03_adjoint_144_coupling_2026_08_31": {
     "status": "REPRESENTATION_THEOREM_READY__LINEAR_PS_BACKGROUND_OBSTRUCTED__QUADRATIC_54_210_AVAILABLE__SOURCE_INSTANTIATION_TYPE_MISSING",
@@ -472,7 +498,7 @@
   },
   "live_frontier": {
     "current_question_contains": "source/action-owned Clifford-trace insertion",
-    "selected_condition": "CONDITIONAL_ACTION_OBSERVATION_COMPLEX_DESCENT_EXACT__SOURCE_OWNERSHIP_ANALYTIC_DOMAIN_AND_POSITIVE_PHYSICAL_COMPLETION_OPEN",
+    "selected_condition": "CANDIDATE_COHOMOLOGY_PAIRING_CRITERION_EXACT__ACTION_OWNED_ANALYTIC_POSITIVE_PHYSICAL_COMPLETION_OPEN",
     "b2_root": "EMPTY_NAMED_OWNER_SET",
     "reopeners": [
       "source-authenticated or owner-native coefficient-complete K77 pre-density action",
@@ -481,6 +507,7 @@
       "source/action-owned observed Clifford split plus observation spinor intertwiner",
       "new source edition or complete action supplying a family covector, owner relation, normalization, and real/Krein coefficient closure",
       "constraint/BV/boundary/domain proof that the corrected projector induces physical cohomology with representation meaning"
+      ,"action-owned gauge-basic pairing whose cycle radical is exactly gauge, with a conserved positive real/Krein analytic completion and observable meaning"
     ],
     "forbidden_repeats": [
       "synthetic CBRS-1AC",

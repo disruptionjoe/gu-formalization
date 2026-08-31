@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Quotient pairing and all-middle coend Big Wave (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A supplied bilinear field-carrier form that annihilates gauge images in both arguments descends through both arguments of the actual middle cycle/gauge quotient | `Lean/GUFormalization/CandidateCohomologyPairing.lean`; `GaugeBasicPairing.descended`; exact GF(2) probe (`12/12`) | L1 exact conditional algebra; no action-owned form, domain, positivity, conservation or physical interpretation |
+| Left/right nondegeneracy on quotient classes is equivalent to the corresponding radical among cycles containing only gauge images | Lean `left_nondegenerate_iff_radical_is_gauge` and `right_nondegenerate_iff_radical_is_gauge`; planted extra-radical and non-basic controls | L1 exact iff criterion; algebraic nondegeneracy is not a positive physical Hilbert/Krein completion |
+| Burnside restriction correspondences admit an all-intermediate-object balance quotient, and every set-valued balanced evaluator factors through it uniquely | `Lean/GUFormalization/GroupActionBurnsideBisetCoend.lean`; `AllMiddleMove`, `AllMiddleBalancedQuotient`, `BalancedEvaluator.descend`, and `BalancedEvaluator.descend_unique`; exact probe (`11/11`) retaining the nonnormal `S3` control | L1 exact set-valued coend presentation; no additive/category-valued coend, bicategory, ambidexterity, Mackey 2-functor or source realization |
+| A source-selected physical pairing, additive/category-valued coend, biset bicategory, Mackey 2-functor, prediction, or GU verdict | not constructed | open / explicitly excluded |
+
 ## Computational-interface Big Wave (2026-08-31)
 
 | Claim | Evidence | Honest grade |
@@ -14,7 +23,7 @@ updated_at: "2026-08-31"
 | The candidate middle cohomology carrier is the actual cycle subtype modulo gauge equivalence, and chain maps restrict to cycles before quotient descent | `Lean/GUFormalization/SourceNativeActionObservationComplex.lean`; `Cycle`, `ChainMap.mapCycle`, `ChainMap.mapsCohomologousCycles`, and `ChainMap.cohomologyMap`; exact probe with a planted noncycle (`31/31`, self-test `8/8`) | L1 exact algebraic repair; no physical domain, completion, pairing or source-selected action |
 | A supplied external-input classifier has an exact two-sided decoder iff it is bijective; exactness forbids missing ports, overlapping codes and nonunique codes | `Lean/GUFormalization/ExternalInputInterface.lean`; `exists_exact_decoder_iff_bijective`, `no_missing_port`, `no_overlap`, `unique_code`; hostile probe (`13/13`) | L1 conditional set-level interface theorem; no exhaustive GU carrier or classifier |
 | A bare bijection does not automatically preserve external-input automorphisms, and planted third-type, overlap, missing-port and hidden-order controls reject shortcut classifications | Lean `nontrivial_automorphism_control`, `planted_third_type_control`, and `hidden_solver_order_control`; exact hostile probe | exact semantic boundary; physical groupoid/ownership structure remains open |
-| Burnside restriction-correspondence composition obeys the fixed-middle balance equation, descends through the generated equivalence closure, and is coherent over three stages | `Lean/GUFormalization/GroupActionBurnsideBisetCoend.lean`; `compose_middle_balance`, `compose_eq_of_eqvGen`, `balancedCompose`, and `compose_associativity_coherence`; nonnormal `S3` probe (`11/11`) | L1 exact fixed-middle categorical construction; no all-object coend, universal property, bicategory classification or Mackey 2-functor |
+| Burnside restriction-correspondence composition obeys the fixed-middle balance equation, descends through the generated equivalence closure, and is coherent over three stages | `Lean/GUFormalization/GroupActionBurnsideBisetCoend.lean`; `compose_middle_balance`, `compose_eq_of_eqvGen`, `balancedCompose`, and `compose_associativity_coherence`; nonnormal `S3` probe (`11/11`) | L1 exact fixed-middle precursor, now subsumed by the all-middle set-valued coend construction above |
 | An exhaustive GU two-type external-input equivalence, physical state quotient, category-wide coend, source-native biset realization, prediction, or GU verdict | not constructed | open / explicitly excluded |
 
 ## Frozen source coefficient packet and rank certificate (2026-08-31)

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 075d98371b8b
+revision_basis: d4a4ad6b90ff
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,23 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The quotient-interface Big Wave closes two exact structural successors.
+    A supplied bilinear form on the middle field carrier descends through the
+    actual cycle/gauge quotient when it annihilates gauge images in both
+    arguments. Lean proves that left or right nondegeneracy on quotient
+    classes is equivalent to the corresponding cycle radical containing only
+    gauge images; an exact GF(2) control rejects non-basic pairings, an extra
+    nongauge radical and a planted noncycle. This is an algebraic criterion,
+    not a selected analytic, positive, conserved or physical pairing.
+    Independently, Burnside restriction-correspondence composition now ranges
+    over every intermediate additive span object and arbitrary intermediate
+    morphism. The generated balance quotient carries descended composition,
+    and every set-valued balanced evaluator factors through it uniquely. Exact
+    controls distinguish its two classes from a four-class fixed-middle
+    under-quotient and one-class over-quotient. This is an all-middle
+    set-valued coend presentation, not an additive/category-valued coend,
+    biset bicategory, ambidexterity, Mackey 2-functor, source realization,
+    prediction or GU verdict.
     The computational-interface Big Wave closes two exact conditional
     boundaries and repairs one integrity defect. Candidate cohomology is now
     genuinely the quotient of the middle cycle subtype by gauge images, with
@@ -19,8 +36,9 @@ current_result:
     correspondence composition obeys the fixed-middle balance law, descends
     through its generated equivalence closure, and is coherent over three
     stages; an exact nonnormal S3 discriminator separates the required quotient
-    from under- and over-quotients. This is not an all-object coend, universal
-    property, biset bicategory, Mackey 2-functor, source-selected action,
+    from under- and over-quotients. This fixed-middle result is now subsumed by
+    the all-middle set-valued coend above; no biset bicategory, additive
+    category-valued coend, Mackey 2-functor, source-selected action,
     physical state space, prediction or GU verdict.
     The action--observation Wave 2 now constructs the smallest honest
     quotient-bearing interface: a supplied three-stage gauge-to-field-to-
@@ -4923,11 +4941,11 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does a source/action-owned Clifford-trace insertion, observation
-  intertwiner, constraint/BV complex or boundary/domain construction select
-  the now-exact trace-subtraction projector and give its corrected kernel
-  representation or physical quotient meaning, while the independent
-  equation-9.16 coupling packet remains coefficient-incomplete?
+  Does a source/action-owned Clifford-trace insertion, constraint/BV complex
+  or boundary/domain construction select the now-exact quotient and pairing
+  data, prove that the cycle radical is exactly gauge, and supply a conserved
+  positive real/Krein physical completion, while the independent equation-
+  9.16 coupling packet remains coefficient-incomplete?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -4960,12 +4978,20 @@ next_condition: >-
   curvature-sensitive operator, domain and quotient; 144 multiplicity alone
   supplies neither a generation count nor a physical family.
 
-  Reopen the completed Burnside-span arc only for a genuine nonrepresentable
-  target functor, subgroup-change categorical coherence, source realization,
+  The candidate-cohomology pairing criterion is now exact: two-sided gauge
+  basicness gives descent, and quotient nondegeneracy is equivalent to the
+  cycle radical containing only gauge images. Reopen physical-state language
+  only on an action-owned pairing, real/Krein structure, common analytic
+  domain, conservation, positivity or positive majorant, observable and
+  probability interpretation. Algebraic nondegeneracy alone is insufficient.
+
+  The Burnside-span arc now owns the all-intermediate-object set-valued coend
+  factorization. Reopen only for an additive/category-valued coend, genuine
+  bicategory/ambidexterity or Mackey 2-functor coherence, source realization,
   or concrete proof/certificate defect. Other proof and integrity families
   reopen only on measured drift. Protected publication payloads, P-M25 and
-  TWG1 require separate authority. No physical action, selection
-  mechanism, publication, release, or scientific-status movement is implied.
+  TWG1 require separate authority. No physical action, selection mechanism,
+  publication, release, or scientific-status movement is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

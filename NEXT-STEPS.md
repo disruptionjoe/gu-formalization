@@ -7,6 +7,23 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 QUOTIENT PAIRING CRITERION AND ALL-MIDDLE COEND CONSTRUCTED.**
+> Lean now descends every two-sided gauge-basic bilinear form through the
+> actual middle cycle/gauge quotient and proves that left or right quotient
+> nondegeneracy is equivalent to the corresponding cycle radical being exactly
+> gauge. This specifies the algebraic acceptance condition but does not choose
+> an action, domain, real/Krein form, positive majorant, conservation or
+> probability rule. Independently, restriction correspondences now form an
+> all-intermediate-object balanced quotient: every set-valued balanced
+> evaluator factors through it uniquely. Exact controls distinguish the
+> result from fixed-middle under-quotienting and over-quotienting. The next
+> physical reopener must own the analytic and positive pairing data; the next
+> categorical reopener must add category/additive-valued structure,
+> bicategorical coherence, ambidexterity, a Mackey 2-functor or source
+> realization. See
+> `explorations/candidate-cohomology-pairing-criterion-2026-08-31.md` and
+> `explorations/group-action-burnside-all-middle-coend-2026-08-31.md`.
+
 > **2026-08-31 COMPUTATIONAL-INTERFACE BIG WAVE: TWO EXACT BOUNDARIES AND ONE
 > INTEGRITY REPAIR.** The action--observation middle quotient now really is the
 > quotient of the cycle subtype by gauge images; a planted noncycle prevents
@@ -19,8 +36,9 @@ updated_at: "2026-08-31"
 > coherence; an exact nonnormal `S3` control distinguishes the balanced quotient
 > from both under- and over-quotients. No exhaustive GU input classifier, full
 > coend, universal property, Mackey 2-functor, source-selected action, or
-> physical state space follows. Reopen on a source-owned admitted input carrier
-> and bijective classifier, or on an all-object dinatural coend construction.
+> physical state space follows. The all-object set-valued coend reopener is now
+> completed above; the external-input route still requires a source-owned
+> admitted carrier and exhaustive symmetry-respecting classifier.
 > See `explorations/external-input-interface-equivalence-2026-08-31.md`,
 > `explorations/group-action-burnside-biset-coend-2026-08-31.md`, and
 > `explorations/source-native-action-observation-complex-2026-08-31.md`.
