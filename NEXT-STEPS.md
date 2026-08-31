@@ -7,17 +7,29 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 ALL-OBJECT POINT-REPRESENTABLE BURNSIDE MACKEY FUNCTOR
+> CONSTRUCTED.** Lean now defines an additive functor from the completed finite
+> supplied-action Burnside span category to additive commutative groups by
+> sending each object `A` to `Hom(point,A)`. Graph spans give named transfers,
+> converse graphs give named restrictions, and Lean proves identity,
+> composition, and canonical-pullback Beck-Chevalley laws. W99 independently
+> checks the integer-valued finite-set control and rejects a hostile
+> non-pullback relation. This is one representable functor internal to a fixed
+> supplied `G`-action category—not a classification, subgroup-change functor,
+> physical/source realization, selector, prediction, or GU verdict. Reopen
+> only for a genuinely nonrepresentable target-category Mackey functor,
+> subgroup-change coherence, source realization, or a concrete defect.
+
 > **2026-08-31 BURNSIDE MACKEY LAW LIFTED TO POINT ENDOMORPHISMS.** Lean now
 > identifies the additive Burnside group of supplied finite actions with the
 > completed endomorphism group of the trivial point action in the Burnside span
 > category. Subgroup restriction and induction transport through that
 > equivalence, and restriction after induction satisfies the dependent double-
 > coset coproduct identity in the point-endomorphism group. W99 checks the
-> nonnormal-`S3` class and rejects either omitted summand. This is not yet a
-> category-valued Mackey functor on every span object, a physical
-> representation, source action, selector, prediction, or GU verdict. Reopen
-> only for a full span-functor Mackey formulation with its coherence premises,
-> a source-owned realization, or a concrete proof/certificate defect.
+> nonnormal-`S3` class and rejects either omitted summand. The stronger
+> all-object point-representable functor is supplied separately above; this
+> theorem alone supplies no physical representation, source action, selector,
+> prediction, or GU verdict.
 
 > **2026-08-31 ADDITIVE BURNSIDE SPAN CATEGORY CONSTRUCTED.** Disjoint
 > coproduct of span apices now gives every finite-action span hom-set a
@@ -27,9 +39,9 @@ updated_at: "2026-08-31"
 > converse-graph spans remain covariant and transfer-direction generators.
 > W99 checks the independent integer multiplicity-matrix model, including both
 > distributivity laws and formal negatives. The point-endomorphism Mackey law
-> is now supplied separately above, but a category-valued Mackey functor on all
-> span objects, physical representation, source action, selector, prediction,
-> or GU verdict remains open.
+> and all-object point-representable functor are now supplied separately above;
+> this completion theorem alone supplies no physical representation, source
+> action, selector, prediction, or GU verdict.
 
 > **2026-08-31 FINITE-ACTION SPAN CATEGORY CONSTRUCTED.** Lean now
 > forms arbitrary equivariant spans between finite supplied actions, quotients
@@ -54,11 +66,11 @@ updated_at: "2026-08-31"
 > intersection induction summands over double cosets. W99 checks the complete
 > nonnormal-`S3` 2+4 decomposition and detects either omitted summand. This is
 > supplied finite-action algebra. The separate arbitrary-span category now has
-> its homwise additive completion and transported point-endomorphism Mackey
-> law. A category-valued Mackey functor on every span object, physical
-> representation, source action, selector, prediction, or GU verdict remains
-> open. Reopen only for that stronger coherence, a source-owned realization,
-> or a concrete certificate defect.
+> its homwise additive completion, transported point-endomorphism Mackey law,
+> and all-object point-representable functor. This object-level theorem alone
+> supplies no physical representation, source action, selector, prediction,
+> or GU verdict. Reopen only for genuinely stronger coherence, a source-owned
+> realization, or a concrete certificate defect.
 
 > **2026-08-31 CANONICAL MACKEY NATURALITY LIFTS TO A FREE PREADDITIVE
 > ENVELOPE.** Lean now replaces each supplied-action hom-set by finite formal

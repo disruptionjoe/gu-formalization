@@ -14,6 +14,7 @@ import GUFormalization.GroupActionBurnside
 import GUFormalization.GroupActionSpanCategory
 import GUFormalization.GroupActionBurnsideSpanCategory
 import GUFormalization.GroupActionBurnsideSpanMackey
+import GUFormalization.GroupActionBurnsideMackeyFunctor
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
 import GUFormalization.SourceNativeRealSector
@@ -42,6 +43,7 @@ open GUFormalization.GroupActionBurnside
 open GUFormalization.GroupActionSpanCategory
 open GUFormalization.GroupActionBurnsideSpanCategory
 open GUFormalization.GroupActionBurnsideSpanMackey
+open GUFormalization.GroupActionBurnsideMackeyFunctor
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
 open GUFormalization.SourceNativeRealSector
@@ -196,6 +198,14 @@ open GUFormalization.SourceNativeAdjointCoupling
 #print axioms pointRestriction_of
 #print axioms pointInduction_of
 #print axioms pointRestriction_pointInduction_eq_mackeyCoproduct
+#print axioms converseGraph_composition
+#print axioms graph_converse_pullback
+#print axioms transfer_identity
+#print axioms restriction_identity
+#print axioms transfer_composition
+#print axioms restriction_composition
+#print axioms restriction_transfer_eq_transfer_restriction
+#print axioms pointMackeyFunctor_laws
 #print axioms exists_ambient_kernel_observed_trace_ne_zero
 #print axioms kernel_preservation_iff_factorization
 #print axioms descentFactor_unique

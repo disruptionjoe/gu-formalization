@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 15b9b611d120
+revision_basis: 785829c9038b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,18 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The completed finite supplied-action Burnside span category now carries an
+    explicit additive point-representable Mackey functor. Lean defines its
+    value on every span object as the additive group of completed morphisms
+    from the trivial point, names graph-span transfer and converse-graph
+    restriction maps, proves their identity and composition laws, and proves
+    the canonical pullback Beck-Chevalley equality. W99 independently checks
+    the corresponding integer-valued functor for finite sets and distinguishes
+    a hostile non-pullback relation. This is one representable additive
+    functor internal to the supplied fixed-G Burnside span category. It does
+    not classify Mackey functors, construct subgroup-change functors between
+    Burnside categories, or supply a physical representation, source-native
+    action, selector, prediction, or GU verdict.
     The two supplied finite-action Burnside constructions now meet exactly at
     the trivial point action. Lean proves that finite actions modulo
     equivariant equivalence are additively equivalent to point-to-point span
@@ -18,9 +30,10 @@ current_result:
     endomorphism groups, where restriction after induction satisfies the same
     dependent double-coset coproduct identity. W99 independently checks the
     nonnormal-S3 class and detects either omitted summand. This is the Burnside
-    Mackey law on point endomorphisms, not a category-valued Mackey functor on
-    every span object, physical representation, source-native action,
-    selector, prediction, or GU verdict.
+    Mackey law on point endomorphisms. The stronger all-object representable
+    functor is supplied separately above; this theorem alone supplies no
+    physical representation, source-native action, selector, prediction, or
+    GU verdict.
     The arbitrary finite supplied-action span category now has its additive
     Burnside completion. Disjoint coproduct of span apices makes every raw
     hom-set a commutative monoid, finite equivariant pullback distributes in
@@ -29,10 +42,10 @@ current_result:
     the category and preadditive laws. Graph spans remain covariant map
     generators and converse graphs remain transfer-direction generators.
     W99 independently checks the trivial-action integer multiplicity-matrix
-    model. The point-endomorphism Mackey law is now supplied separately, but
-    this module alone is not a category-valued Mackey functor on every span
-    object, physical representation, source-native action, selector,
-    prediction, or GU verdict; no separate categorical universal property is
+    model. The point-endomorphism Mackey law and all-object point-representable
+    functor are now supplied separately, but this module alone constructs
+    neither; no physical representation, source-native action, selector,
+    prediction, GU verdict, or separate categorical universal property is
     asserted.
     The supplied finite-action Mackey family now has its arbitrary-span
     category. Lean defines arbitrary equivariant spans, identifies them under
@@ -4852,15 +4865,14 @@ next_condition: >-
   sensitive operator, domain, and quotient; 144 multiplicity alone supplies
   neither a generation count nor a physical family.
 
-  The supplied finite-action Mackey family now has its additive Burnside group,
-  its category of arbitrary equivariant spans composed by finite pullback, the
-  homwise Grothendieck-completed preadditive Burnside span category, and the
-  transported Mackey double-coset law on the trivial point's completed
-  endomorphism group. The next categorical successor requires a category-
-  valued Mackey-functor formulation on every span object with separately owned
-  restriction/transfer functors and coherence premises. Reopen this
-  arc only for that stronger theorem, a source-owned realization, or a concrete
-  proof, elaboration, axiom, certificate, or semantic defect. The raw action
+  The supplied finite-action Mackey family now has the additive Burnside group,
+  completed preadditive span category, point-endomorphism double-coset law, and
+  one all-object additive point-representable functor with graph transfers,
+  converse-graph restrictions, functoriality, and canonical-pullback
+  Beck-Chevalley. Reopen this arc only for a genuinely
+  nonrepresentable target-category Mackey functor, subgroup-change categorical
+  coherence between Burnside categories, a source-owned realization, or a
+  concrete proof, elaboration, axiom, certificate, or semantic defect. The raw action
   category remains nonpreadditive; its obstruction is bypassed only in the
   separately constructed completed span category. Other proof and integrity
   families reopen only on measured drift. Protected publication payloads,

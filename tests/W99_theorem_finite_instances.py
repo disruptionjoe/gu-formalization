@@ -1673,6 +1673,77 @@ check(
     != tuple(summand_burnside_signatures[1]),
 )
 
+# All-object representable Mackey-functor control.  For trivial actions, the
+# completed span group from the point to a finite set is the group of integer
+# multiplicities on that set.  Graph transfer sums over fibers, converse-graph
+# restriction pulls values back, and the canonical pullback square satisfies
+# Beck--Chevalley coefficientwise.
+pullback_B = ("b0", "b1", "b2", "b3")
+pullback_C = (0, 1)
+pullback_A = ("a0", "a1", "a2")
+pullback_f = {"b0": 0, "b1": 1, "b2": 0, "b3": 1}
+pullback_g = {"a0": 1, "a1": 0, "a2": 1}
+pullback_weights = {"b0": 3, "b1": -2, "b2": 5, "b3": 7}
+
+
+def span_transfer(domain, codomain, mapping, weights):
+    return {
+        target: sum(weights[source] for source in domain if mapping[source] == target)
+        for target in codomain
+    }
+
+
+def span_restriction(domain, mapping, weights):
+    return {source: weights[mapping[source]] for source in domain}
+
+
+pullback_P = tuple(
+    (b, a)
+    for b in pullback_B
+    for a in pullback_A
+    if pullback_f[b] == pullback_g[a]
+)
+transfer_then_restrict = span_restriction(
+    pullback_A,
+    pullback_g,
+    span_transfer(pullback_B, pullback_C, pullback_f, pullback_weights),
+)
+restrict_then_transfer = span_transfer(
+    pullback_P,
+    pullback_A,
+    {pair: pair[1] for pair in pullback_P},
+    span_restriction(
+        pullback_P,
+        {pair: pair[0] for pair in pullback_P},
+        pullback_weights,
+    ),
+)
+check(
+    "the point-representable Mackey functor satisfies pullback base change on every target fiber",
+    transfer_then_restrict == restrict_then_transfer
+    and transfer_then_restrict == {"a0": 5, "a1": 8, "a2": 5},
+)
+hostile_nonpullback = tuple(
+    (b, a)
+    for b in pullback_B
+    for a in pullback_A
+    if pullback_f[b] != pullback_g[a]
+)
+hostile_restrict_then_transfer = span_transfer(
+    hostile_nonpullback,
+    pullback_A,
+    {pair: pair[1] for pair in hostile_nonpullback},
+    span_restriction(
+        hostile_nonpullback,
+        {pair: pair[0] for pair in hostile_nonpullback},
+        pullback_weights,
+    ),
+)
+check(
+    "the complementary nonpullback relation is detected as a false base-change square",
+    hostile_restrict_then_transfer != transfer_then_restrict,
+)
+
 # Hom-form Mackey control. Use a three-point K-set whose nonidentity element
 # swaps 0 and 1 and fixes 2. Restriction to each transported intersection
 # gives one seed-map factor, and the global equivalence must identify the
@@ -2241,8 +2312,8 @@ print("  a nonbijective hostile generator fails the C2 group law as required.")
 print("  At action-functor level, identity and composition are preserved and canonical")
 print("  assembly satisfies the complete naturality square before linearization.")
 print("  The raw supplied-action category has no point-to-empty morphism, so it is")
-print("  not preadditive and the current natural isomorphism is not yet an additive")
-print("  Mackey functor; an additive span/transfer completion remains separate work.")
+print("  not preadditive and its natural isomorphism alone is not an additive Mackey")
+print("  functor; the completed Burnside span category supplies that separate object.")
 print("  Its free integer-linear envelope adds the unique formal zero in the empty")
 print("  hom-set and lifts canonical Mackey assembly coefficientwise and additively,")
 print("  without manufacturing span morphisms or restriction/transfer structure.")
@@ -2252,6 +2323,9 @@ print("  that restriction after induction is exactly the 2+4 double-coset coprod
 print("  Omitting either transported-intersection transfer summand changes its class.")
 print("  Identifying a finite action with its point-to-point apex span preserves this")
 print("  nonnormal-S3 class and transports the same Mackey law to point endomorphisms.")
+print("  The point-representable additive functor now acts on every finite-action span")
+print("  object; graph transfers and converse-graph restrictions compose separately,")
+print("  and a finite pullback square satisfies Beck-Chevalley coefficientwise.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")
