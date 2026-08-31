@@ -26,6 +26,7 @@ import GUFormalization.SourceNativeRealSector
 import GUFormalization.SourceNativeAdjointCoupling
 import GUFormalization.SourceNativeFamilyOwnerIdentifiability
 import GUFormalization.SourceCoefficientRank
+import GUFormalization.SourceNativeActionObservationComplex
 
 /-!
 # Axiom receipt for the group-action fixed-point classification
@@ -62,6 +63,7 @@ open GUFormalization.SourceNativeRealSector
 open GUFormalization.SourceNativeAdjointCoupling
 open GUFormalization.SourceNativeFamilyOwnerIdentifiability
 open GUFormalization.SourceCoefficientRank
+open GUFormalization.SourceNativeActionObservationComplex
 
 #print axioms mem_commonFixedPoints_iff
 #print axioms pointwiseInvariant_iff_range_subset
@@ -252,6 +254,18 @@ open GUFormalization.SourceCoefficientRank
 #print axioms nonunique_of_nonzero_kernel
 #print axioms strictSource_does_not_select_owner
 #print axioms sourceExtension_nonunique_until_kernel_closed
+#print axioms gaugeImage_isCycle
+#print axioms ChainMap.mapsCycle
+#print axioms ChainMap.mapsCohomologous
+#print axioms cohomologous_refl
+#print axioms cohomologous_symm
+#print axioms cohomologous_trans
+#print axioms ChainMap.cohomologyMap
+#print axioms gamma_correctedMiddle
+#print axioms corrected_mapsCycle
+#print axioms corrected_mapsCohomologous
+#print axioms correctedCohomologyMap
+#print axioms strictSource_does_not_select_injective_actionFamily
 #print axioms action_has_no_zero_object
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv

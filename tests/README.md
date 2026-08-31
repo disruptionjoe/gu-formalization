@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Source-native action--observation complex controls
+
+- `channel-swings/source_native_action_observation_complex_probe.py` checks an
+  exact rational three-stage complex, two distinct split projectors with one
+  gamma kernel, the two action--projector weld laws, cycle and gauge-class
+  descent, source-rank/owner-axis nonselection, theorem inventory, and the
+  physical claim ceiling. `--selftest` requires seven hostile mutations to
+  fire; crashes never count as catches. The finite carrier certifies the
+  interface only and is not a GU physical model.
+
 ## Computational-interface Wave 1 controls
 
 - `channel-swings/computational_interface_wave1_probe.py` checks the scoped

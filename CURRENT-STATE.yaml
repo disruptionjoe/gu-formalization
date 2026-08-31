@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3299131b0178
+revision_basis: cc20adf00edd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The action--observation Wave 2 now constructs the smallest honest
+    quotient-bearing interface: a supplied three-stage gauge-to-field-to-
+    equation complex with square-zero composition. Lean proves that chain maps
+    preserve cycles and gauge equivalence, and that the split-corrected
+    observation becomes a chain map exactly after supplying two compatibility
+    laws: its projector fixes observed gauge images and the observed equation
+    map ignores the removed trace direction. It then descends on cycle/gauge-
+    equivalence representatives and has gamma-traceless output. Composed with
+    the frozen coefficient packet, Lean proves that any injectively
+    parameterized two-owner action family remains unselected. This is a
+    conditional physical-candidate complex, not a source-selected action,
+    split, analytic domain, positive physical Hilbert space, probability rule,
+    family sector, prediction, or GU verdict.
     A frozen coefficient-source packet now projects thirteen exact action,
     fermion, family and prediction rows from the ratified source register at
     SHA-256 dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6.

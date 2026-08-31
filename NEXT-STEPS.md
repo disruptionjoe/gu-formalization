@@ -7,6 +7,23 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 ACTION--OBSERVATION WELD AND MINIMAL PHYSICAL-CANDIDATE COMPLEX
+> CONSTRUCTED.** Lean now packages the smallest three-stage complex
+> `gauge -> field -> equation`, proves gauge images are cycles, and proves
+> chain maps preserve both cycles and gauge equivalence. The existing
+> split-corrected observation is welded into that complex when its projector
+> fixes observed gauge images and is invisible to the observed equation map;
+> under those two exact laws it descends to middle cycle classes. Wave 1's
+> frozen coefficient result is composed into the theorem: an injective action
+> family over the independent `54`/`210` owner coordinates cannot be uniquely
+> selected by the strict source packet. The result is therefore a conditional
+> physical-candidate complex, not a source-selected physical state space. The
+> exact reopener is a K77 action packet supplying concrete differentials,
+> Noether identity, observation split, both weld laws, and—if physical-state
+> language is intended—a common analytic domain and positive real/Krein
+> completion. See
+> `explorations/source-native-action-observation-complex-2026-08-31.md`.
+
 > **2026-08-31 FROZEN SOURCE COEFFICIENT PACKET: OWNER RANK REMAINS TWO.**
 > Packet v0.1 projects thirteen exact action/family rows from the ratified
 > source register by full-register and canonical-row hash. The strict source
