@@ -7,6 +7,15 @@ updated_at: "2026-08-31"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Mackey permutation-representation equivalence (2026-08-31)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The free modules on the canonical Mackey coproduct and restricted-induced carrier carry genuine `K`-permutation representations, and canonical assembly is an equivalence of those representations | `Lean/GUFormalization/GroupActionMackeyRepresentations.lean`; default-target axiom receipt | L1 exact representation algebra from supplied set actions |
+| Over any commutative semiring, the equivalence induces an isomorphism of modules over the group algebra `R[K]` | Lean `canonicalMackeyGroupAlgebraLinearEquiv` | L1 exact algebraic consequence |
+| Identity, multiplication and complete basis intertwining laws hold in the nonnormal `S3` control; a nonbijective hostile generator fails the group law | `tests/W99_theorem_finite_instances.py` | finite confirmation only |
+| Additive Mackey functor on physical representations, source-native action, coupling or selector | not constructed by permutation-representation packaging | open / explicitly excluded |
+
 ## Free-module Mackey linearization (2026-08-31)
 
 | Claim | Evidence | Honest grade |
@@ -66,7 +75,9 @@ a compact verification package, and states plainly what would falsify the leadin
   the Hom-form Mackey equivalence from restricted-induced maps to the
   dependent family of transported-intersection seed-map spaces, and the
   free-module lift of the canonical carrier equivalence with basis/support,
-  seed-map naturality and supplied-action equivariance laws;
+  seed-map naturality and supplied-action equivariance laws; its bundled
+  equivalence of `K`-permutation representations and resulting group-algebra
+  module isomorphism over commutative semirings;
   and two finite
   certificate deductions: the supplied Shiab decomposition rows give complex
   chiral multiplicities `[[0,2],[2,0]]`, while an explicit left inverse for an

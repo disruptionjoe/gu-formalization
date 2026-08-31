@@ -1745,8 +1745,8 @@ check(
     )
     == linearize_finite_map(assembled_free_mackey_vector, induced_seed_map),
 )
-for k in K_s3:
-    canonical_k_action = {
+def canonical_mackey_k_action(k):
+    return {
         (double_q, summand_q): (
             double_q,
             chosen_mackey_summands[double_q][1](k, summand_q),
@@ -1754,10 +1754,18 @@ for k in K_s3:
         for double_q, summand in enumerate(chosen_mackey_summands)
         for summand_q in range(len(summand[0]))
     }
-    target_k_action = {
+
+
+def restricted_induced_k_action(k):
+    return {
         target: target_seed_act(k, target)
         for target in range(len(target_seed_classes))
     }
+
+
+for k in K_s3:
+    canonical_k_action = canonical_mackey_k_action(k)
+    target_k_action = restricted_induced_k_action(k)
     check(
         f"free-module Mackey assembly intertwines the K action for {k}",
         linearize_finite_map(
@@ -1766,6 +1774,56 @@ for k in K_s3:
         )
         == linearize_finite_map(assembled_free_mackey_vector, target_k_action),
     )
+
+# Bundled permutation-representation controls. The basis permutations must
+# satisfy the group identity and multiplication laws, and canonical assembly
+# must be an intertwiner for the complete representation rather than one
+# isolated action check.
+canonical_identity_action = canonical_mackey_k_action(s3_one)
+target_identity_action = restricted_induced_k_action(s3_one)
+check(
+    "canonical and restricted-induced permutation representations preserve identity",
+    all(canonical_identity_action[x] == x for x in canonical_identity_action)
+    and all(target_identity_action[x] == x for x in target_identity_action),
+)
+check(
+    "canonical and restricted-induced permutation representations preserve multiplication",
+    all(
+        canonical_mackey_k_action(perm_mul(k, l))[x]
+        == canonical_mackey_k_action(k)[canonical_mackey_k_action(l)[x]]
+        for k in K_s3
+        for l in K_s3
+        for x in canonical_identity_action
+    )
+    and all(
+        restricted_induced_k_action(perm_mul(k, l))[x]
+        == restricted_induced_k_action(k)[restricted_induced_k_action(l)[x]]
+        for k in K_s3
+        for l in K_s3
+        for x in target_identity_action
+    ),
+)
+check(
+    "canonical Mackey assembly is an intertwiner on every representation basis vector",
+    all(
+        global_mackey_assembly[canonical_mackey_k_action(k)[x]]
+        == restricted_induced_k_action(k)[global_mackey_assembly[x]]
+        for k in K_s3
+        for x in canonical_identity_action
+    ),
+)
+
+# A hostile would-be generator that collapses two basis vectors cannot square
+# to the identity, so it cannot define the C2 permutation representation.
+hostile_generator_action = dict(canonical_mackey_k_action(s3_t01))
+hostile_generator_action[(1, 3)] = hostile_generator_action[(1, 1)]
+check(
+    "a nonbijective hostile generator fails the permutation-representation group law",
+    any(
+        hostile_generator_action[hostile_generator_action[x]] != x
+        for x in hostile_generator_action
+    ),
+)
 
 # Hostile noninjective basis transport merges two coefficients and therefore
 # fails the support-preservation conclusion required of an equivalence.
@@ -1900,6 +1958,9 @@ print("  seed-map factors; the nonnormal S3 control realizes 27 = 3 x 9 exactly.
 print("  Free-module linearization preserves canonical Mackey basis coefficients,")
 print("  support size, seed-map naturality and K-equivariance; a noninjective hostile")
 print("  basis transport fails the support law as required.")
+print("  The linearized K-actions satisfy the representation identity and product laws,")
+print("  canonical assembly is a representation intertwiner on every basis vector, and")
+print("  a nonbijective hostile generator fails the C2 group law as required.")
 print("  The supplied Shiab decomposition rows dimension-check and their Schur overlap")
 print("  gives the chiral matrix [[0,2],[2,0]] and full-Dirac total four.")
 print("  A determinant-free scalar block control confirms the explicit E-inverse and")

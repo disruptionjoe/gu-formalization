@@ -7,6 +7,18 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 CANONICAL MACKEY DECOMPOSITION BUNDLED AS A PERMUTATION-
+> REPRESENTATION EQUIVALENCE.** The free modules on the canonical coproduct
+> and restricted-induced carrier now carry explicit `K`-representations, and
+> Lean proves their canonical linear equivalence is a representation
+> intertwiner. Over a commutative semiring this yields an `R[K]`-module
+> isomorphism. W99 checks identity, multiplication and all nonnormal-`S3`
+> basis intertwining squares, while a nonbijective hostile generator fails the
+> group law. This remains free structured algebra on supplied set actions—not
+> an additive Mackey functor on physical representations, a source action,
+> coupling or selector. Reopen only for an additive/categorical theorem with
+> owned premises or a concrete defect.
+
 > **2026-08-31 CANONICAL MACKEY CARRIER LINEARIZED ON FREE MODULES.** The
 > representative-free set equivalence now lifts to an explicit linear
 > equivalence on finitely supported `R`-coefficients. Lean proves basis and

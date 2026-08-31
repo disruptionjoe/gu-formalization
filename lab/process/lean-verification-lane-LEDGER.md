@@ -64,6 +64,7 @@ standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 | `Lean/GUFormalization/GroupActionInductionCoherence.lean` | Pure set-level coherence: induction along the identity is equivariantly equivalent to the seed action, and induction along a composite is equivariantly equivalent to iterated induction through the explicit flattening `[g,[h,b]] ↦ [g * psi(h),b]` | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; inner and outer balanced relations, both inverse laws and `G`-equivariance are explicit; W99 checks identity collapse and a genuinely nested trivial-to-C2-to-C4 composition |
 | `Lean/GUFormalization/GroupActionMackey.lean` | Complete pure set-level subgroup Mackey decomposition: `K`-orbits of `Res_K^G Ind_H^G(1)` are `K\\G/H`; actual intrinsic index fibers give a canonical representative-free `K`-equivariant coproduct decomposition; seed maps act naturally; representative changes are explicit; and the Hom-form law identifies `K`-equivariant maps out of `Res Ind B` with the dependent family of transported-intersection seed-map spaces | `LEAN-VERIFIED`; 2026-08-30 focused and serialized default-target integration; the Hom-form equivalence composes domain transport, dependent-coproduct Hom and fiberwise induction-restriction with exact cardinality and existence consequences; theorem receipt exposes only the established `propext`, `Classical.choice` and `Quot.sound` surface; W99 checks the nonnormal `S3` map space has 27 elements on both sides as factors 3 and 9, with a hostile non-equivariant control |
 | `Lean/GUFormalization/GroupActionMackeyLinearization.lean` | Free finitely-supported module lift of the canonical Mackey carrier equivalence, with basis/support preservation, seed-map naturality and supplied-`K`-action equivariance | `LEAN-VERIFIED`; 2026-08-31 focused integration; no new choice beyond the inherited quotient carrier, and no physical representation, action coefficient or additive Mackey-functor claim; W99 checks exact coefficients, support, naturality, both `S3` subgroup elements and a noninjective hostile collapse |
+| `Lean/GUFormalization/GroupActionMackeyRepresentations.lean` | Bundles the canonical and restricted-induced free modules as `K`-permutation representations, proves canonical assembly is a representation equivalence, and derives the `R[K]`-module isomorphism for commutative semirings | `LEAN-VERIFIED`; 2026-08-31 focused integration; action identity/product and intertwining are theorem fields, with no physical/source representation claim; W99 checks both representation laws, every nonnormal-`S3` basis square and a hostile nonbijective generator |
 | `Lean/GUFormalization/GroupActionFixedPointsAxioms.lean` | Default-target `#print axioms` receipt for the complete group-action theorem family | `LEAN-VERIFIED`; 2026-08-30 serialized default-target build; informational output checked with the proof module |
 | `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
@@ -280,6 +281,18 @@ control and rejects a noninjective hostile basis collapse. This is a genuine
 linear-algebra strengthening of the carrier theorem, but it is not an additive
 Mackey functor on physical representations and supplies no source action,
 coupling, coefficient, selector or GU verdict.
+
+**Mackey permutation-representation equivalence — DONE 2026-08-31.** Lean now
+bundles the free modules on the canonical coproduct and restricted-induced
+carrier as genuine `K`-representations and proves canonical assembly is an
+equivalence of those representations. Over every commutative semiring the
+intertwiner is equivalently an isomorphism of modules over `R[K]`. W99 checks
+the identity and multiplication laws, every basis intertwining square in the
+nonnormal `S3` control and a hostile nonbijective generator that fails the C2
+law. This is the structured-representation strengthening expressly required
+to reopen the theorem family; it remains free permutation algebra on supplied
+set actions, not an additive Mackey functor on physical representations, and
+supplies no source action, coupling, coefficient, selector or GU verdict.
 
 ## Part D: lock and progress contract
 
