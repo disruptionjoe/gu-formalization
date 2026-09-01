@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_k77_k85_covariant_phase_space_poisson_descent",
+  "created": "2026-09-01",
+  "status": "REPOSITORY_OWNED_ACTION_DERIVED_PRESYMPLECTIC_CURRENT_AND_REDUCED_POISSON_BRACKET_EXACT__SOURCE_AND_QUANTUM_SELECTION_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_refs": [
+    "lab/process/k77-observed-interacting-bv-moduli-wave.json",
+    "lab/process/k85-observed-dynamical-coframe-stress-descent-wave.json"
+  ],
+  "packet": {
+    "id": "K86-OBSERVED-COVARIANT-PHASE-SPACE-POISSON-DESCENT",
+    "ambient_carrier": "real_rank_1920_V_equals_K960_direct_sum_W960",
+    "ambient_cauchy_rank": 3840,
+    "gauge_radical_rank": 1920,
+    "reduced_cauchy_rank": 1920,
+    "quotient_map": "P_from_V1920_to_W960"
+  },
+  "action": {
+    "owner": "repository_owned_k85_dynamical_coframe_candidate",
+    "matter_formula": "integral_e(one_half_H_AB_g_munu_dmu_psiA_dnu_psiB_minus_V(psi))",
+    "quotient_field": "psi_equals_P_Phi",
+    "potential_class": "arbitrary_smooth_gauge_basic_V_of_psi",
+    "source_status": "not_source_selected_not_attributed_to_Weinstein"
+  },
+  "covariant_phase_space": {
+    "potential_current": "theta_mu(delta_psi)=H(delta_psi,d_mu_psi)",
+    "symplectic_current": "omega_mu(delta1,delta2)=H(delta1_psi,d_mu_delta2_psi)-H(delta2_psi,d_mu_delta1_psi)",
+    "on_shell_conservation": true,
+    "conservation_premises": [
+      "background_Euler_equation",
+      "both_variations_solve_the_linearized_Euler_equation",
+      "symmetric_potential_Hessian"
+    ],
+    "hypersurface_independence_premise": "compact_Cauchy_surface_or_zero_symplectic_boundary_flux"
+  },
+  "reduction": {
+    "ambient_radical": "K960_direct_sum_K960",
+    "radical_exact": true,
+    "reduced_carrier": "W960_direct_sum_W960",
+    "reduced_form": "Omega((dq,dp),(dq_prime,dp_prime))=H(dq,dp_prime)-H(dq_prime,dp)",
+    "reduced_form_nondegenerate": true,
+    "poisson_bracket": "q_q_zero__p_p_zero__q_a_p_b_equals_H_inverse_ab",
+    "interaction_dependence": "none_in_the_symplectic_form"
+  },
+  "load_bearing_controls": {
+    "degenerate_H": "additional_reduced_radical",
+    "nonzero_boundary_flux": "hypersurface_integral_not_conserved",
+    "representative_dependent_potential": "K960_shift_not_gauge",
+    "odd_even_distinction": "even_Poisson_bracket_not_the_odd_BV_antibracket"
+  },
+  "fences": {
+    "repository_owned_classical_phase_space": true,
+    "action_derived_even_poisson_bracket": true,
+    "source_owned_GU_or_gimmel_action": false,
+    "global_nonlinear_solution_space_theorem": false,
+    "full_Peierls_construction": false,
+    "gauge_fixed_quantum_theory": false,
+    "selected_physical_state": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "action_derived_symplectic_currents_constructed": 1,
+    "exact_gauge_radicals_computed": 1,
+    "nondegenerate_reduced_poisson_brackets_constructed": 1,
+    "source_selected_GU_actions_completed": 0,
+    "quantum_physical_states_selected": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k86_observed_covariant_phase_space_poisson_descent_probe.py",
+  "result_ref": "explorations/conditional-build/k86-observed-covariant-phase-space-poisson-descent-wave-2026-09-01.md",
+  "claim_ceiling": "Exact covariant presymplectic-current, ambient-radical and reduced even-Poisson-bracket descent for the repository-owned K77/K85 interacting quotient candidate on compact or zero-flux Cauchy support; no source-owned GU/gimmel action, global nonlinear phase-space theorem, gauge fixing, quantum algebra, prediction, confirmation or verdict."
+}

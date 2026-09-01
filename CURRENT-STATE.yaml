@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7bb77d4ff89e
+revision_basis: 8f93a1f7affd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The action-to-Poisson/CCR-state Big Wave closes the next two explicit K85
+    quantum-owner gaps for the repository-owned K77 candidate. Direct second
+    variation of the K85 matter action gives a conserved covariant
+    presymplectic current whose ambient Cauchy radical is exactly
+    K960 direct-sum K960; reduction gives a nondegenerate rank-1920 Cauchy
+    form and `{q_a,p_b}=H^-1_ab`. The potential changes the Hamiltonian but not
+    the bracket, while nonzero boundary flux and degenerate H are exact failure
+    controls. Quantizing two orthonormal reduced modes in one repository-
+    selected regular Fock representation supplies an explicit domain and
+    bounded two-qubit algebra. A Bell state attains 2sqrt(2), a Werner
+    t=3/4 state gives 3sqrt(2)/2 strictly between 2 and 2sqrt(2), and product
+    and tracial states give sqrt(2) and 0 for the same settings. Exact probes
+    pass 29/29 and 33/33; hostile selftests catch 18/18 and 20/20. The
+    construction proves availability, not a source-selected complex
+    polarization, representation, state, Born rule, measurement map,
+    continuum interacting QFT, Bell prediction or confirmation.
     The action-owned coframe/classical-correlation Big Wave instantiates both
     K84 demand theorems on the concrete K77 interacting quotient/BV candidate.
     A minimal repository-owned dynamical-coframe completion has ambient
@@ -5509,13 +5525,20 @@ current_result:
     - explorations/conditional-build/k85-observed-brst-classical-correlation-boundary-wave-2026-09-01.md
     - lab/process/k85-observed-brst-classical-correlation-boundary-wave.json
     - tests/channel-swings/k85_observed_brst_classical_correlation_boundary_probe.py
+    - explorations/conditional-build/k86-observed-covariant-phase-space-poisson-descent-wave-2026-09-01.md
+    - lab/process/k86-observed-covariant-phase-space-poisson-descent-wave.json
+    - tests/channel-swings/k86_observed_covariant_phase_space_poisson_descent_probe.py
+    - explorations/conditional-build/k86-observed-ccr-state-correlation-boundary-wave-2026-09-01.md
+    - lab/process/k86-observed-ccr-state-correlation-boundary-wave.json
+    - tests/channel-swings/k86_observed_ccr_state_correlation_boundary_probe.py
 current_question: >-
   Does an independently source-owned K77 or gimmel full-carrier action realize
-  the now-explicit quotient metric line, no-spurion field content and coframe
-  Euler/total-stress descent; independently, what action-owned Poisson/BV
-  bracket, quantization map, noncommutative reduced product, domain and
-  positive state can move K77's present classical CHSH ceiling of 2 toward or
-  up to the Tsirelson boundary without importing a Born rule?
+  the explicit quotient metric line, no-spurion content and total-stress
+  descent; independently, what owned principle selects a complex
+  polarization, representation, positive state and local observable map from
+  the now-available reduced Poisson/CCR family, and does that selection land on
+  a classical, intermediate or Tsirelson correlation face after the full
+  constraint/domain/BFV descent?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5525,22 +5548,20 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The K77 repository-owned candidate now has a minimal dynamical-coframe
-  sufficiency witness: its rank-960 quotient principal tensor is metric,
-  its scalar stress and coframe Euler identity are exact, and an added
-  preferred-vector field proves that no-spurion content is load-bearing.
-  Test an independently source-owned K77 or gimmel full-carrier action against
-  those frozen conditions without identifying the Einstein-Hilbert witness
-  with GU's metric-on-metrics gravity. Independently, the owned minimal BRST
-  subcomplex has commutative H0 and sharp classical CHSH ceiling 2. Construct
-  an action-owned Poisson/BV bracket and quantization/deformation, selected
-  domain, noncommutative reduced product and normalized positive state before
-  retesting whether the ceiling stays 2, reaches 2sqrt(2), or is intermediate.
-  Preserve the K81 source-symbol and cross-null operator/domain reopeners as
-  lower-ranked owner-construction routes; do not promote minimal BRST H0 to
-  full BV/BFV cohomology, a classical probability state to a Born state,
-  repeat local controls, union packet cells, or score delayed-choice
-  entanglement swapping.
+  The K77/K85 repository candidate now owns both a nondegenerate reduced even
+  Poisson bracket and one explicit two-mode regular CCR/Fock quantization.
+  Its bounded algebra admits normalized states on classical, intermediate and
+  Tsirelson faces, so noncommutative availability does not select the physical
+  face. Derive a complex polarization or positive-frequency split,
+  representation, state and local observable map from an independently owned
+  full action or physical principle, then test survival through the complete
+  constraint/domain/BFV descent. In parallel, retain the source-owned K77 or
+  gimmel full-carrier gravity action as the highest missing owner and test it
+  against the frozen quotient-metric, no-spurion, coframe-Euler and total-
+  stress conditions. Preserve K81 source-symbol and cross-null operator/domain
+  reopeners below those routes; do not call the repository Fock control a GU
+  Hilbert space or Born rule, promote finite-mode existence to continuum QFT,
+  union packet cells, or score delayed-choice entanglement swapping.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

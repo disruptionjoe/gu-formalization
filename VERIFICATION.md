@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K86 observed covariant phase-space Poisson-descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The repository-owned K77/K85 matter action supplies the covariant current `omega^mu=H(delta1 psi,d^mu delta2 psi)-H(delta2 psi,d^mu delta1 psi)` | direct second variation and symmetric-Hessian Green identity; `lab/process/k86-observed-covariant-phase-space-poisson-descent-wave.json`; exact probe (`29/29`) | exact local covariant-current result for the named repository-owned candidate |
+| Its ambient Cauchy form has radical exactly `K960 direct_sum K960`, and reduction gives a nondegenerate form on `W960 direct_sum W960` with `{q_a,p_b}=H^-1_ab` | exact rational rank/radical certificate plus full-rank scaling | exact action-derived classical symplectic reduction and even Poisson bracket |
+| The form is hypersurface independent without a boundary premise | periodic zero-flux control passes while an open edge carries nonzero flux; degenerate-`H` and representative-dependent controls fail; hostile selftest (`18/18`) | false; compact support or zero symplectic boundary flux is required |
+| A source-owned GU/gimmel action, global nonlinear covariant phase space, Peierls bracket or quantum physical algebra | not constructed | open / explicitly excluded |
+
+## K86 observed CCR state-correlation boundary wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Two K86 reduced modes admit a regular bosonic Fock representation on the finite-particle domain; bounded Pauli observables on the zero/one-particle tensor sector form one explicit noncommutative algebra | ladder-domain and finite-truncation controls; `lab/process/k86-observed-ccr-state-correlation-boundary-wave.json`; exact `Q(sqrt(2))` probe (`33/33`) | exact repository-selected two-mode quantization existence construction |
+| The Bell state reaches `2sqrt(2)` and the Werner `t=3/4` state reaches `3sqrt(2)/2`, while the product and tracial states give `sqrt(2)` and `0` for the same settings | exact matrix identities, `C^3=8C`, normalized positive density matrices and hostile selftest (`20/20`) | exact positive-state correlation classification in the named representation |
+| The action-derived bracket and existence of a regular representation select the physical state, measurements or Tsirelson face | the same algebra/settings support four distinct values; the commutative sixteen-point control remains sharply bounded by `2` | false; availability does not imply state or measurement selection |
+| A source-selected quantization, physical GU Hilbert space, Born rule, full BFV/constraint descent, continuum interacting QFT, Bell prediction or held-out score | not constructed or scored | open / explicitly excluded |
+
 ## K85 observed dynamical-coframe stress-descent wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

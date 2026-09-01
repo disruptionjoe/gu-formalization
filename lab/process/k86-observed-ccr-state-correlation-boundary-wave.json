@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_k77_k86_two_mode_ccr_fock_state_correlation_boundary",
+  "created": "2026-09-01",
+  "status": "REPOSITORY_SELECTED_TWO_MODE_CCR_FOCK_REPRESENTATION_EXACT__TSIRELSON_AND_INTERMEDIATE_POSITIVE_STATES_EXIST__PHYSICAL_STATE_SELECTION_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_refs": [
+    "lab/process/k86-observed-covariant-phase-space-poisson-descent-wave.json",
+    "lab/process/k85-observed-brst-classical-correlation-boundary-wave.json",
+    "lab/process/k84-brst-star-state-descent-wave.json"
+  ],
+  "packet": {
+    "id": "K86-OBSERVED-CCR-STATE-CORRELATION-BOUNDARY",
+    "classical_modes": 2,
+    "classical_bracket": "q_i_p_j_equals_delta_ij",
+    "quantum_representation": "regular_two_mode_bosonic_Fock",
+    "unbounded_domain": "dense_invariant_finite_particle_domain_D_fin",
+    "bounded_observable_sector": "span_0_1_tensor_span_0_1_rank4"
+  },
+  "quantization": {
+    "owner": "repository_selected_reverse_scaffold_construction",
+    "hbar": "arbitrary_positive",
+    "commutators": "q_i_p_j_minus_p_j_q_i_equals_i_hbar_delta_ij",
+    "product": "operator_composition_in_the_regular_Fock_representation",
+    "complex_polarization": "standard_repository_selected_positive_frequency_split",
+    "finite_matrix_CCR_claimed": false,
+    "source_status": "not_source_selected_not_attributed_to_Weinstein"
+  },
+  "observables": {
+    "A0": "Z_tensor_I",
+    "A1": "X_tensor_I",
+    "B0": "I_tensor_(Z_plus_X)_over_sqrt2",
+    "B1": "I_tensor_(Z_minus_X)_over_sqrt2",
+    "self_adjoint_involutions": true,
+    "cross_commutation": true,
+    "CHSH": "A0B0_plus_A0B1_plus_A1B0_minus_A1B1",
+    "minimal_polynomial": "C_cubed_equals_8C",
+    "sharp_operator_bound": "2sqrt2"
+  },
+  "positive_states": {
+    "bell": {
+      "state": "Phi_plus_equals_(00_plus_11)_over_sqrt2",
+      "normalized_positive": true,
+      "CHSH_expectation": "2sqrt2",
+      "classification": "Tsirelson_saturating"
+    },
+    "werner_three_quarters": {
+      "state": "three_quarters_Bell_projector_plus_one_quarter_I_over_4",
+      "normalized_positive": true,
+      "CHSH_expectation": "3sqrt2_over_2",
+      "classification": "strictly_intermediate_between_2_and_2sqrt2"
+    },
+    "product_00": {
+      "normalized_positive": true,
+      "CHSH_expectation": "sqrt2",
+      "classification": "below_classical_ceiling_for_the_fixed_settings"
+    },
+    "normalized_trace": {
+      "normalized_positive": true,
+      "CHSH_expectation": "0",
+      "classification": "zero_for_the_fixed_settings"
+    }
+  },
+  "classical_control": {
+    "algebra": "one_commutative_joint_assignment_algebra",
+    "sharp_CHSH_bound": 2,
+    "deterministic_assignments_checked": 16
+  },
+  "selection_boundary": {
+    "same_noncommutative_algebra_supports_distinct_CHSH_faces": true,
+    "action_and_CCR_select_state": false,
+    "action_and_CCR_select_measurement_embedding": false,
+    "result": "quantum_and_intermediate_faces_available_but_not_selected"
+  },
+  "fences": {
+    "repository_selected_quantization_exists": true,
+    "normalized_positive_states_exist": true,
+    "source_selected_quantization": false,
+    "physical_GU_Hilbert_space": false,
+    "unique_physical_state": false,
+    "Born_rule_or_measurement_dynamics": false,
+    "full_constraint_BFV_descent": false,
+    "continuum_interacting_QFT": false,
+    "Bell_prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "regular_two_mode_quantizations_constructed": 1,
+    "positive_state_families_exhibited": 4,
+    "Tsirelson_saturating_states_exhibited": 1,
+    "strictly_intermediate_states_exhibited": 1,
+    "source_selected_quantizations_completed": 0,
+    "physical_GU_states_selected": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k86_observed_ccr_state_correlation_boundary_probe.py",
+  "result_ref": "explorations/conditional-build/k86-observed-ccr-state-correlation-boundary-wave-2026-09-01.md",
+  "claim_ceiling": "Exact two-mode regular CCR/Fock existence construction from the repository-owned K86 reduced bracket, with bounded two-qubit observables and normalized positive Bell, Werner, product and tracial states realizing Tsirelson, intermediate and sub-classical CHSH values; no source-selected quantization, physical GU Hilbert space, unique state, Born rule, measurement dynamics, continuum interacting QFT, prediction, confirmation or verdict."
+}
