@@ -387,6 +387,16 @@
         "credit_ceiling": "Finite sufficiency control and exact owner-nonselection only; no actual GU domain, action complex, Sobolev propagation, physical quotient, I1B connection, action, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
+      "k77_functional_gauge_holonomy_control_2026_09_01": {
+        "status": "COMPLETE_COMPACT_FUNCTIONAL_CONTROL_NONCOMPACT_OBSTRUCTION_AND_SUPPLIED_HOLONOMY_DISCRIMINATOR",
+        "manifest_ref": "lab/process/k77-functional-gauge-and-holonomy-control-wave.json",
+        "result_ref": "explorations/conditional-build/k77-functional-gauge-and-holonomy-control-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_functional_gauge_holonomy_probe.py",
+        "exact_controls": "69/69 pass; hostile selftest 19/19 caught",
+        "scientific_effect": "A supplied Maxwell action on a compact cooriented cylinder owns a functional gauge complex, propagated quotient and closed Sobolev gauge range; an exact noncompact dilation obstructs transferring that closure without a gap; elliptic, hyperbolic and parabolic supplied monodromies sharpen the independent connection discriminator.",
+        "credit_ceiling": "Conditional conventional controls only; no GU-native action/domain/quotient, observed physical state, actual I1B connection/holonomy, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
       "hourly_ready_candidate_2026_08_24": {
         "authority": "Joe direct chat 2026-08-24: place the science-council invariant-gapping sequence in hourly Progress line of sight without forcing its selection.",
         "status": "DONE_KINEMATIC_FORM_GRADE",

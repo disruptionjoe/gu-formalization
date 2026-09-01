@@ -7,6 +7,16 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 functional gauge and holonomy-control wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On `[0,1] x T^2`, the supplied Abelian Maxwell action owns `d0(phi)=(grad phi,0)`, Gauss, and a full constant-coefficient evolution that preserves the constraint and gauge image | `lab/process/k77-functional-gauge-and-holonomy-control-wave.json`; exact Fourier generator probe (`69/69`) | exact conventional functional control; not a GU action or an observed-packet bridge |
+| The compact Fourier gap closes the mean-zero Sobolev gradient range, and quotient coordinates obey `Qdot=P`, `Pdot=-|k|^2 Q` with conserved representative-independent energy | same manifest and exact rational mode certificate | exact Fourier/Hodge control on the named compact domain; not a closed-range theorem for a GU domain |
+| `D:H^1(R)->L^2(R)` has nonclosed range because triangular dilates retain `L2` norm `2/3` while derivative norm square falls as `2/R^2` | exact dilation certificate and hostile lower-bound mutation (`19/19` selftest) | exact noncompact functional counterexample; proves a separate coercivity/topology gate is necessary |
+| Supplied elliptic, hyperbolic and nontrivial parabolic `SL(2,R)` monodromies respectively admit, fail, and fail the positive-majorant test | exact determinant, trace, congruence and Jordan controls | exact supplied-connection discriminator; no actual I1B connection or holonomy is computed |
+| An actual GU domain/action/constraint complex, observed physical quotient/state, I1B connection/holonomy, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 owned-domain and constraint-denominator wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

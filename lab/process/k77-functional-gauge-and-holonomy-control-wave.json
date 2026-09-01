@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "functional_gauge_and_holonomy_control_boundary",
+  "created": "2026-09-01",
+  "status": "COMPACT_ACTION_OWNED_FUNCTIONAL_CONTROL_EXACT__NONCOMPACT_CLOSED_RANGE_OBSTRUCTION_EXACT__SUPPLIED_HOLONOMY_DISCRIMINATOR_EXACT",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-owned-domain-constraint-denominator-wave.json",
+  "compact_functional_control": {
+    "domain": "D_control=[0,1]xT^2 with ultrastatic metric -dt^2+dx^2+dy^2 and future coorientation dt",
+    "action": "S_control[A]=-(1/4) integral F_{mu nu}F^{mu nu}; conventional Abelian Maxwell control with all lower-order coefficients zero",
+    "slice_carrier": "H^{s+1}(T^2;R^2) for A and H^s(T^2;R^2) for E, with constants split as harmonic modes",
+    "gauge_differential": "d0(phi)=(grad phi,0), owned by A -> A+d phi",
+    "constraint": "C(A,E)=div E, from variation of A_0",
+    "evolution": "partial_t A=E; partial_t E=Delta A-grad div A in the stated sign convention",
+    "closed_range": "On nonzero Fourier modes k in Z^2, |k|^2>=1; grad maps mean-zero H^{s+1} isomorphically onto the exact H^s one-forms. Constants are the split kernel, so im(d0) is closed.",
+    "propagation": "div(partial_t E)=0; the evolution fixes gradient gauge directions, descends to transverse Fourier quotient coordinates Q=k cross A and P=k cross E, and conserves 1/2(P^2/|k|^2+Q^2).",
+    "owner_status": "action_owned_conventional_control_not_gu_native"
+  },
+  "noncompact_control": {
+    "operator": "D:H^1(R)->L^2(R)",
+    "witness": "phi_R(x)=R^(-1/2) max(1-|x|/R,0)",
+    "exact_norms": "||phi_R||_2^2=2/3 and ||D phi_R||_2^2=2/R^2",
+    "result": "D is injective but not bounded below, hence its range is not closed; the compact torus proof cannot be transferred without a Poincare/spectral gap or another closed-range theorem."
+  },
+  "supplied_holonomy_control": {
+    "carrier": "rank-two real symplectic fibre with standard alternating form",
+    "elliptic": "M=[[0,-1],[1,0]], trace 0, preserves H=I",
+    "hyperbolic": "M=diag(2,1/2), trace 5/2; M^T H M=H forces the first positive diagonal entry to zero",
+    "parabolic": "M=[[1,1],[0,1]], trace 2 with nontrivial Jordan block; M^T H M=H forces the first positive diagonal entry to zero",
+    "result": "For supplied SL(2,R) monodromy, elliptic/semisimple unit-circle behavior admits a positive invariant majorant, whereas hyperbolic and nontrivial parabolic controls do not. Trace two alone does not certify compact reduction.",
+    "i1b_status": "discriminator_only__no_packet_owned_connection_or_actual_holonomy"
+  },
+  "packet_custody": {
+    "cross_packet_union_allowed": false,
+    "observed_bridge_status": "not_constructed",
+    "i1b_connection_status": "not_constructed",
+    "reason": "The Maxwell control and rank-two connection controls are independently supplied comparators with no typed map into either K77 carrier."
+  },
+  "exact_control": {
+    "probe_ref": "tests/channel-swings/k77_functional_gauge_holonomy_probe.py",
+    "scope": "exact rational Fourier-generator, dilation-norm and rank-two matrix certificate; not a numerical PDE discretization or K77 carrier reduction"
+  },
+  "result": {
+    "functional_action_owned_controls_completed": 1,
+    "noncompact_closed_range_counterexamples_completed": 1,
+    "supplied_holonomy_classifiers_completed": 1,
+    "actual_gu_domains_completed": 0,
+    "actual_gu_action_complexes_completed": 0,
+    "global_physical_quotients_completed": 0,
+    "actual_i1b_connections_completed": 0,
+    "gu_native_physical_state_spaces_completed": 0,
+    "action_selection": "none",
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "next_frontier": {
+    "incumbent": "Construct a source-native or explicitly owner-native K77 candidate action whose variation supplies the observed packet's constraint differential and full operator, then prove the compactness/ellipticity or other estimate needed for closed gauge range on its actual domain.",
+    "strongest_alternative": "Supply one fixed-stratum I1B quotient bundle and connection; compute its monodromy and apply the elliptic/hyperbolic/parabolic discriminator rather than inferring compactness from the fibre form.",
+    "newly_frozen": "Action ownership plus compact topology can jointly release a functional quotient, but neither ingredient transfers to K77 without a typed bridge; on noncompact domains closed range is an independent theorem, and parabolic holonomy is a third failure class beyond the prior hyperbolic example.",
+    "forbidden_reroute": "Do not call the Maxwell action GU-native, treat T^2 Fourier modes as the rank-1920 observed carrier, infer a global Poincare gap on a noncompact GU domain, identify a supplied SL(2,R) matrix with I1B holonomy, union packet cells, retrieve a source action as a construction substitute, or score the held-out family."
+  },
+  "claim_ceiling": "No actual GU domain, source-native action, observed constraint/BV complex, continuum GU propagation theorem, Sobolev closed-range theorem on a GU domain, physical quotient, GU-native state space, Born rule, composite, instrument algebra, I1B connection or actual holonomy, prediction, confirmation, held-out success, canon change, paper status, public-posture change or GU verdict is created."
+}

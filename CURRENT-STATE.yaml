@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0085a71bd393
+revision_basis: f9c2a69058f1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The functional gauge/holonomy-control Big Wave supplies the first
+    action-owned functional quotient control in the K77 reverse scaffold,
+    while keeping its conventional ownership explicit. On the globally
+    cooriented ultrastatic cylinder [0,1]xT^2, the Abelian Maxwell action owns
+    the gradient gauge differential, Gauss constraint and full constant-
+    coefficient evolution. Integer Fourier modes prove closed Sobolev gauge
+    range, propagated quotient coordinates and conserved quotient energy. An
+    exact H^1(R)->L^2(R) dilation witness independently proves nonclosed range
+    without a Poincare gap. Supplied elliptic, hyperbolic and nontrivial
+    parabolic symplectic monodromies sharpen the positive-majorant test, but
+    none is I1B holonomy. No typed map connects the Maxwell control to the
+    observed rank-1920 carrier, so zero GU-native actions, physical quotients,
+    I1B connections, predictions or confirmations result. The exact probe
+    passes 69/69 and its hostile selftest catches 19/19.
     The owned-domain/constraint-denominator Big Wave proves one finite
     sufficiency control and two exact owner-nonselection results. On a planted
     cooriented cylinder, an explicit finite constraint complex and evolution
@@ -5072,13 +5086,16 @@ current_result:
     - explorations/conditional-build/k77-owned-domain-constraint-denominator-wave-2026-09-01.md
     - lab/process/k77-owned-domain-constraint-denominator-wave.json
     - tests/channel-swings/k77_owned_domain_constraint_denominator_probe.py
+    - explorations/conditional-build/k77-functional-gauge-and-holonomy-control-wave-2026-09-01.md
+    - lab/process/k77-functional-gauge-and-holonomy-control-wave.json
+    - tests/channel-swings/k77_functional_gauge_holonomy_probe.py
 current_question: >-
-  Can one candidate action supply a constraint differential plus full
-  tangential/subprincipal coefficients on a named cooriented domain and prove
-  gauge propagation and Sobolev closed range, now that current principal data
-  are proved unable to select the gauge complex; independently, can I1B
-  supply a fixed-stratum quotient bundle and symplectic connection from which
-  actual holonomy can be computed?
+  Can a source-native or explicitly owner-native K77 action supply a typed map
+  to the observed rank-1920 carrier, its constraint differential and full
+  operator, plus the compactness, ellipticity, weighted coercivity or other
+  estimate that closes its gauge image on the actual domain; independently,
+  can I1B supply a fixed-stratum quotient bundle and connection whose computed
+  monodromy passes the elliptic/Jordan positive-majorant discriminator?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5087,21 +5104,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave on owner construction rather
-  than another principal-symbol compatibility control. On the observed packet,
-  build or derive one candidate action-owned constraint/Koszul--Tate or BV
-  differential with the full tangential and subprincipal coefficients on one
-  named globally cooriented noncharacteristic domain. Then prove projector
-  stability, cycle and gauge-image propagation, closed gauge range in the
-  selected functional topology, boundary compatibility and quotient-energy
-  evolution. Do not choose a gauge line from the principal projector and
-  energy: their exact nonselection is now proved. In parallel, place I1B on one
-  fixed-rank quotient stratum, supply a packet-owned symplectic connection and
-  specified loops, and compute its actual holonomy before testing compact or
-  unitary reduction. Do not promote the finite cylinder control to a GU domain,
-  infer Sobolev closure from finite dimension, invent holonomy from a fibre
-  Green form, union packet cells, or treat source retrieval as action
-  construction.
+  Execute one largest honest compatible Big Wave on typed owner construction.
+  The compact Maxwell control now proves that action ownership, a spectral gap,
+  gauge propagation and quotient energy can coexist; the noncompact dilation
+  proves that ownership alone is insufficient. On the observed packet, build
+  or derive a source-native or explicitly owner-native constraint/Koszul--Tate
+  or BV differential with the full tangential and subprincipal coefficients,
+  an explicit map to the rank-1920 carrier, and the actual domain estimate that
+  closes its gauge image. Do not relabel the Maxwell action or T^2 Fourier
+  carrier as GU. In parallel, place I1B on one fixed-rank quotient stratum,
+  supply a packet-owned symplectic connection and specified loops, compute its
+  monodromy, and check elliptic/hyperbolic/parabolic Jordan type before testing
+  compact or unitary reduction. Do not infer a Poincare gap on a noncompact
+  domain, invent I1B holonomy, union packet cells, or treat source retrieval as
+  action construction.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
