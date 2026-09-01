@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bb488d556ef3
+revision_basis: 7dc89dc84478
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The null-shear/singular-residue Big Wave advances both surviving control
+    horns. For a fixed null line, every linear acceleration term of the affine
+    first-jet shear T=b(q)+n a.v is an explicit first-jet divergence plus the
+    first-order correction -c'(q)(a.v)X. A nondegenerate quadratic mass
+    potential built from the same Lorentzian carrier form is velocity-blind
+    only when b lies on the null line, which collapses the pulled-back kinetic
+    density. This is a fixed-line control classification, not a source bridge
+    or a theorem for rotating null lines. Independently, moving a into the
+    singular residue of D=J d/du+(kappa S+aH)/u gives indicial exponents
+    +/-sqrt(kappa^2+a^2) and rotates the eigenframe by half the angle
+    atan(a/kappa). At kappa=1/4 in positive L2(du), both log(2) and log(3) are
+    limit-point, so endpoint class distinguishes neither. Under the raw u du
+    mode census, log(2) has two modes while log(3) has one, but that weighted
+    operator is not made symmetric and the measure is not source-owned. A
+    fixed boundary line acquires an a-dependent indicial slope, while a free
+    boundary slope absorbs every a. Exact probes pass 27/27 and 37/37; hostile
+    selftests catch 18/18 and 20/20.
     The indefinite-symbol/Green-extension Big Wave turns both prior open horns
     into exact conditional classifications. For one observed scalar on a
     Lorentzian 1+1 base and a two-component source carrier with fixed form H,
@@ -4933,6 +4950,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k78-null-shear-variational-bridge-wave-2026-09-01.md
+    - lab/process/k78-null-shear-variational-bridge-wave.json
+    - tests/channel-swings/k78_null_shear_variational_bridge_probe.py
+    - explorations/conditional-build/k78-i1b-singular-residue-boundary-rotation-wave-2026-09-01.md
+    - lab/process/k78-i1b-singular-residue-boundary-rotation-wave.json
+    - tests/channel-swings/k78_i1b_singular_residue_boundary_rotation_probe.py
     - explorations/conditional-build/k77-source-observed-indefinite-null-first-jet-wave-2026-09-01.md
     - lab/process/k77-source-observed-indefinite-null-first-jet-wave.json
     - tests/channel-swings/k77_source_observed_indefinite_null_first_jet_probe.py
@@ -5334,12 +5357,11 @@ current_result:
     - lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json
     - tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py
 current_question: >-
-  Does the actual source/action-owned full-carrier principal symbol admit a
-  connection-preserved totally null derivative-image subbundle after gauge and
-  domain reduction, and do its remaining linear highest-jet equations close a
-  genuine bridge; independently, does the actual cross-null operator, native
-  pairing or rank-jump matching law place the tangential coefficient in its
-  principal normal matrix, singular residue, boundary relation or spectrum?
+  Do rotating-null-line C2 first-jet maps close their full Helmholtz/current
+  equations, and can a source-owned full-carrier symbol preserve such a null
+  subbundle after gauge and domain reduction; independently, does the actual
+  cross-null operator own the singular residue, measure and fixed boundary or
+  spectral datum needed to turn indicial rotation into a coefficient selector?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5349,23 +5371,20 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The indefinite highest-jet horn is now exact at control grade: nonzero
-  first-jet dependence survives the quadratic obstruction iff the full
-  velocity-derivative image is totally null, with all cross pairings zero.
-  Advance only with an independently source/action-owned full-carrier symbol,
-  gauge complex and analytic domain that supplies a preserved null subbundle,
-  then solve the remaining linear highest-jet and boundary-current equations;
-  otherwise freeze a singular, higher-jet, nonlocal, auxiliary-field, on-shell
-  or gauge-reduced map class. For I1B, one positive regular-singular control now
-  owns a Green form and self-adjoint extension family, but every bounded real
-  tangential coefficient leaves those domains unchanged. Advance by deriving
-  the actual source/action-owned cross-null operator, measure, native pairing
-  and rank-jump matching law, then test whether a enters its principal normal
-  matrix, residue, boundary relation or spectral selector. Do not treat a
-  rank-one null witness as the full bridge, confuse base with carrier
-  indefiniteness, call an L2 count a self-adjoint law, promote the positive
-  control to native I1B data, union the observed and I1B packets, or score
-  held-out evidence before forward export.
+  The constant-null-line shear now closes its linear acceleration term modulo
+  an explicit current, while a nondegenerate H-mass potential kills every
+  nonzero-kinetic member of that frozen class. Advance by classifying rotating
+  null lines and their Helmholtz equations, or by obtaining the independently
+  source/action-owned full-carrier symbol, gauge complex and analytic domain
+  that supplies a connection-preserved null subbundle. For I1B, a singular
+  residue changes indicial exponents and boundary coordinates: both log(2) and
+  log(3) are limit-point in L2(du), while a raw u du count separates them but
+  is not a symmetric-domain theorem. Derive the actual source-owned operator,
+  measure, pairing and rank-jump boundary or spectral law before assigning any
+  selection credit. Do not generalize the fixed-line mass control, call an
+  a-dependent coordinate frame a physical boundary condition, promote the raw
+  weighted count to self-adjointness, union the two packets, or score held-out
+  evidence before forward export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

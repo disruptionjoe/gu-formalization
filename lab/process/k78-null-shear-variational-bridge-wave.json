@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K78-NULL-SHEAR-VARIATIONAL-BRIDGE-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "frozen_model": {
+    "base": "Lorentzian 1+1 with eta=diag(1,-1)",
+    "source_carrier": "real dimension two with H=diag(1,-1)",
+    "map": "T=b(q)+n*(a^rho*v_rho), with fixed H-null n and constant a^rho",
+    "comparison": "off shell modulo divergence of an explicit first-jet current",
+    "scope_exclusion": "rotating null lines and the full velocity-space Frobenius classification"
+  },
+  "variational_result": {
+    "definitions": "X=(1/2)eta^(mu nu)v_mu v_nu and c(q)=<b'(q),n>_H",
+    "linear_acceleration": "c*a^rho*eta^(mu nu)*v_mu*q_(nu rho)=c*a^rho*partial_rho X",
+    "current_identity": "c*a^rho*partial_rho X=partial_rho(c*a^rho*X)-c'(q)*(a^rho*v_rho)*X",
+    "first_order_representative": "K_eff=<b',b'>_H*X-c'(q)*(a.v)*X",
+    "verdict": "the fixed-null-line shear always closes its linear acceleration term modulo a first-jet divergence"
+  },
+  "quadratic_potential": {
+    "definition": "P(T)=(1/2)T^T M T for real symmetric M",
+    "expansion": "P(b+n*psi)=(1/2)b^T M b+psi*n^T M b+(1/2)psi^2*n^T M n",
+    "velocity_independence_iff": "n^T M n=0 and n^T M b(q)=0 for every q",
+    "mass_control": "for M=m^2 H with m^2 nonzero in signature (1,1), velocity independence forces b(q) in span(n)",
+    "mass_control_consequence": "the pulled-back kinetic density then vanishes identically",
+    "ceiling": "control-model no-go only, not a source or GU no-go"
+  },
+  "controls": {
+    "constant_cross_pairing": "n=(1,1), m=(1,-1), b=m*q gives c=2 and makes the acceleration term a pure divergence",
+    "nonconstant_curve": "b(q)=(q,q^2) gives c=1-2q and a genuine first-order correction 2*(a.v)*X",
+    "massive_detection": "M=m^2 H and b=m*q produce the nonzero velocity term 2*m^2*q*psi",
+    "positive_metric": "a positive carrier form has no nonzero real null n"
+  },
+  "claim_ceiling": "exact repository-owned fixed-null-line variational and quadratic-potential classification only; no source-owned full carrier, rotating-null-line theorem, gauge quotient, analytic domain or physical equivalence",
+  "source_attribution": "the source owns none of the frozen carrier, map, kinetic or potential controls",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k78_null_shear_variational_bridge_probe.py",
+  "artifact": "explorations/conditional-build/k78-null-shear-variational-bridge-wave-2026-09-01.md",
+  "next_condition": "classify rotating-null-line C2 solutions and Helmholtz equations or obtain the source-owned full principal symbol, gauge complex and analytic domain"
+}

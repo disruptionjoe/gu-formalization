@@ -7,6 +7,23 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K78 null-shear variational bridge wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For `T=b(q)+n(a.v)` with fixed null `n`, the complete linear acceleration term is `c a^rho partial_rho X` and equals an explicit first-jet divergence minus `c'(a.v)X` | `lab/process/k78-null-shear-variational-bridge-wave.json`; exact rational probe (`27/27`) | exact variational reduction for the repository-owned fixed-null-line control |
+| A quadratic potential is velocity-independent iff `n^T M n=0` and `n^T M b=0`; for nonzero `M=m^2H` in signature `(1,1)`, this forces `b` onto the null line and collapses the kinetic density | exact expansion, null-orthogonal-complement argument and hostile selftest (`18/18`) | exact mass-control obstruction in the frozen two-component class; not a source or GU no-go |
+| Rotating null lines, a source-owned full carrier, gauge quotient, analytic domain or physical equivalence | not constructed | open / explicitly excluded |
+
+## K78 I1B singular-residue boundary-rotation wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The singular control has normal matrix `C=kappa H-aS`, `C^2=(kappa^2+a^2)I`, modes `u^(-rho)e_+`, `u^(rho)e_-`, and a half-angle eigenframe | `lab/process/k78-i1b-singular-residue-boundary-rotation-wave.json`; algebraic and rational exponential-bound probe | exact repository-owned singular-residue classification |
+| At `kappa=1/4` in `L2(du)`, both `log(2)` and `log(3)` are limit-point; endpoint class selects neither, while a fixed component line has indicial slope `tan(theta/2)` | exact threshold and eigenframe calculation; hostile selftest (`20/20`) | exact conditional boundary-coordinate result; no owner-supplied physical line or spectrum |
+| Under the raw `u du` census, `rho(log(2))<1<rho(log(3))` gives two modes versus one | interval-certified exponent count | integrability discriminator only; not a symmetric-domain or extension theorem |
+| The actual source cross-null operator, native measure/pairing, rank-jump law, physical selector, prediction or confirmation | not constructed | open / explicitly excluded |
+
 ## K77 source-observed indefinite-null first-jet wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

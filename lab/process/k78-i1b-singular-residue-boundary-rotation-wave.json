@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K78-I1B-SINGULAR-RESIDUE-BOUNDARY-ROTATION-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "control_model": {
+    "operator": "D_(kappa,a)=J*d/du+(1/u)*(kappa*S+a*H)",
+    "kappa": "1/4",
+    "pairing": "positive L2((0,1),du;C^2)",
+    "normal_matrix": "C=kappa*H-a*S=[[kappa,-a],[-a,-kappa]]",
+    "ownership": "repository-owned singular-residue countercontrol"
+  },
+  "indicial_result": {
+    "identity": "C^2=(kappa^2+a^2)I",
+    "rho": "sqrt(kappa^2+a^2)",
+    "modes": "u^(-rho)e_plus and u^(rho)e_minus",
+    "unweighted_limit_circle_iff": "rho<1/2",
+    "frozen_a_threshold": "|a|<sqrt(3)/4",
+    "candidate_class": "both a=log(2) and a=log(3) are strictly limit-point",
+    "candidate_selection": "unweighted endpoint class distinguishes neither candidate"
+  },
+  "eigenframe": {
+    "angle": "cos(theta)=kappa/rho and sin(theta)=a/rho",
+    "positive_vector": "e_plus=(cos(theta/2),-sin(theta/2))",
+    "negative_vector": "e_minus=(sin(theta/2),cos(theta/2))",
+    "fixed_component_line": "f2=0 becomes c_minus/c_plus=tan(theta/2)",
+    "selection_fence": "an a-dependent coordinate slope selects only after an independent owner fixes the component boundary line or spectral datum"
+  },
+  "weighted_mode_census": {
+    "measure": "u^p du",
+    "two_mode_iff": "rho<(p+1)/2",
+    "p1_result": "rho(log(2))<1<rho(log(3)), hence two raw modes versus one; placement is certified by rational exponential-series bounds",
+    "fence": "integrability census only; the displayed operator is not made formally symmetric for u^p du"
+  },
+  "controls": {
+    "bounded_predecessor": "bounded aH leaves the domain and Green family unchanged",
+    "free_boundary_slope": "allowing the indicial boundary slope to vary with a absorbs every coefficient",
+    "fixed_boundary_slope": "a source-owned fixed component line or spectrum could make the rotation observable"
+  },
+  "claim_ceiling": "exact repository-owned singular-residue algebra, unweighted endpoint class and eigenframe rotation only; no source cross-null operator, native measure, physical boundary line or coefficient selector",
+  "source_attribution": "native I1B data do not own this operator, measure, pairing or matching law",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k78_i1b_singular_residue_boundary_rotation_probe.py",
+  "artifact": "explorations/conditional-build/k78-i1b-singular-residue-boundary-rotation-wave-2026-09-01.md",
+  "next_condition": "derive the source-owned normal operator, measure, pairing and rank-jump matching law and test whether a physical boundary or spectral datum fixes the half-angle"
+}
