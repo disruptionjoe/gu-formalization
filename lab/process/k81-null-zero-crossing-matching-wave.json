@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K81-NULL-ZERO-CROSSING-MATCHING-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k80-rotating-null-shear-mass-control-wave.json",
+  "control_model": {
+    "carrier": "R^2 with H=diag(1,-1)",
+    "null_lines": "N_plus=span(1,1), N_minus=span(1,-1)",
+    "field": "C2 null field n(q) with one isolated zero at q=0 and n(q) nonzero on each punctured side",
+    "bridge": "T=b(q)+n(q)*w^rho(q)*v_rho",
+    "potential_control": "(m^2/2)*<T,T>_H with m nonzero",
+    "ownership": "repository-owned affine first-jet control, not a source-owned full-carrier bridge"
+  },
+  "direction_switch": {
+    "punctured_factorization": "n(q)=r_plus(q)*(1,1) for q>0 and r_minus(q)*(1,-1) for q<0 after relabeling the distinct-line horn",
+    "c2_matching": "n(0)=n'(0)=n''(0)=0 because each common jet lies in both distinct null lines and their intersection is zero",
+    "minimum_generic_order": "a C2 direction switch is invisible through second order; the first nonzero one-sided jet can occur at order three",
+    "cubic_witness": "n(q)=q^3*(1,1) for q>=0 and q^3*(1,-1) for q<0",
+    "witness_regular_grade": "C2 but not C3 at q=0",
+    "same_line_contrast": "if both punctured sides use the same null line, no jet-flatness follows from line matching"
+  },
+  "shear_matching": {
+    "same_line_effective_coefficient": "tilde_w=r*w",
+    "simple_zero_continuous_lift": "for C1 r and tilde_w with r(0)=tilde_w(0)=0 and r'(0) nonzero, w=tilde_w/r extends continuously with w(0)=tilde_w'(0)/r'(0)",
+    "simple_zero_c1_lift": "for C2 data, w'(0)=(tilde_w''(0)*r'(0)-tilde_w'(0)*r''(0))/(2*r'(0)^2)",
+    "nondivisible_horn": "tilde_w(0) nonzero forces a pole in w even when the product n*w is written regularly in unscaled coordinates",
+    "switched_line_result": "bounded one-sided shear amplitudes are annihilated by the order-three zero through the complete C2 jet; bridge regularity supplies no invertible amplitude transport across the interface",
+    "extra_matching_owner": "any relation between the two one-sided amplitudes is independent boundary, action, gauge or domain data"
+  },
+  "mass_control": {
+    "velocity_independence": "<n,b>_H=0 on each punctured side",
+    "signature_11_consequence": "n^perp=span(n), so b lies on N_plus for q>0 and N_minus for q<0",
+    "interface_consequence": "continuity forces b(0)=0 when the two null lines differ",
+    "kinetic_consequence": "on each side T and all first derivatives relevant to the affine first-jet kinetic density stay on one fixed null line, so the controlled kinetic density vanishes; continuity preserves zero at the crossing",
+    "verdict": "a C2 zero-mediated direction switch does not escape the nondegenerate signature-(1,1) mass-control collapse"
+  },
+  "source_attribution": "GU source materials currently own no full-carrier principal symbol, zero-crossing bridge, matching law, gauge complex or analytic domain used here",
+  "claim_ceiling": "exact local zero-crossing, divisibility and mass-control classification for the frozen real two-component affine first-jet class only; no higher-signature, singular-coordinate physical equivalence, source bridge, prediction or confirmation",
+  "fences": {
+    "source_full_carrier_constructed": false,
+    "physical_matching_law_selected": false,
+    "zero_crossing_is_invertible": false,
+    "higher_signature_classified": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k81_null_zero_crossing_matching_probe.py",
+  "artifact": "explorations/conditional-build/k81-null-zero-crossing-matching-wave-2026-09-01.md",
+  "next_condition": "obtain the independently source/action-owned full-carrier symbol, gauge complex and analytic domain, or freeze a genuinely singular, auxiliary, nonlocal, on-shell or gauge-reduced class together with the data that own its interface matching"
+}

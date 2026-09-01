@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4ac84ad537c6
+revision_basis: 41f64e10dd0b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The zero-crossing/lower-potential-spectrum Big Wave closes two further
+    conditional seams. In real signature (1,1), a C2 null field that switches
+    between the two projective null lines through an isolated zero must satisfy
+    n(0)=n'(0)=n''(0)=0; the cubic piecewise field q^3(1,+/-1) is sharp. A
+    same-line simple zero has the exact regular-shear divisibility law
+    tilde_w=r w, while a switched-line cubic zero annihilates both one-sided
+    amplitudes through the complete two-jet and supplies no invertible matching
+    law. The nondegenerate m^2 H control still collapses the kinetic density on
+    both sides. Independently, every constant Hermitian lower term surviving
+    the frozen matrix half-density transport has the periodic Fourier spectrum
+    c +/- sqrt(x^2+y^2+(n+z)^2). The subfamily V=aH has exact gap a, so log(2)
+    and log(3) are mathematically distinguishable only if an independent
+    source/action owns the coefficient, operator and periodic domain. Exact
+    probes pass 44/44 and 42/42; hostile selftests catch 24/24 and 24/24.
     The rotating-null/matrix-density Big Wave closes the two strongest
     conditional continuations left by K79. For every C2 null field in a
     constant real indefinite carrier, the complete affine first-jet
@@ -4983,6 +4997,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k81-null-zero-crossing-matching-wave-2026-09-01.md
+    - lab/process/k81-null-zero-crossing-matching-wave.json
+    - tests/channel-swings/k81_null_zero_crossing_matching_probe.py
+    - explorations/conditional-build/k81-i1b-lower-potential-periodic-spectrum-wave-2026-09-01.md
+    - lab/process/k81-i1b-lower-potential-periodic-spectrum-wave.json
+    - tests/channel-swings/k81_i1b_lower_potential_periodic_spectrum_probe.py
     - explorations/conditional-build/k80-rotating-null-shear-mass-control-wave-2026-09-01.md
     - lab/process/k80-rotating-null-shear-mass-control-wave.json
     - tests/channel-swings/k80_rotating_null_shear_mass_control_probe.py
@@ -5405,9 +5425,10 @@ current_question: >-
   Does the actual source/action-owned full-carrier principal symbol admit a
   connection-preserved higher-dimensional null derivative-image subbundle
   whose Helmholtz equations realize or reject the exact rotating control after
-  gauge and domain reduction; independently, which source-owned lower-order,
-  residue, rank-jump boundary or spectral invariant survives matrix
-  half-density transport and distinguishes the tangential coefficient?
+  gauge and domain reduction, including any singular, auxiliary, nonlocal or
+  gauge-owned matching; independently, does the actual source-owned cross-null
+  lower potential and physical domain realize the exact post-half-density
+  spectral invariants rather than define them by hand?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5417,22 +5438,23 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  Arbitrary smooth null rotation still closes the affine first-jet highest-jet
-  terms, and the exact signature-(2,1) control shows that nondegenerate mass
-  ownership need not collapse the kinetic density. Advance by obtaining the
+  The regular signature-(1,1) zero-crossing class is now closed: a C2 direction
+  switch is flat through order two, carries no invertible amplitude transport,
+  and does not escape the nondegenerate mass control. Advance by obtaining the
   independently source/action-owned full-carrier principal symbol, gauge
   complex and analytic domain and testing its actual null derivative image,
-  connection and Helmholtz equations, or freeze an exact zero-crossing,
-  singular, nonlocal, auxiliary-field, on-shell or gauge-reduced bridge class
-  with its matching law. For I1B, every positive Hermitian two-by-two density
-  compatible with the frozen principal J is a commuting two-channel weight
-  removed by matrix half-density transport. Derive the actual source-owned
-  principal matrix, physical density, lower-order potential and rank-jump
-  boundary or spectral law, then test the surviving Hermitian, residue,
-  matching and spectral invariants. Do not promote the rotating control to a
-  source bridge, treat a noncommuting weight as formally symmetric for the
-  frozen J, erase independent lower-order data, union the two packets, or
-  score held-out evidence before forward export.
+  connection and Helmholtz equations, or freeze a genuinely singular,
+  nonlocal, auxiliary-field, on-shell or gauge-reduced bridge together with
+  the constraint and matching law that own it. For I1B, the complete constant
+  Hermitian periodic spectrum after compatible matrix half-density transport
+  is known and can distinguish log(2) from log(3) through an owned lower
+  potential, but defining the coefficient in the control selects nothing.
+  Derive the actual source cross-null principal matrix, physical density,
+  lower potential and rank-jump boundary or spectral domain, then test whether
+  its transported operator realizes the c, rho and flat-shift invariants. Do
+  not infer amplitude matching from two-jet regularity, import a periodic
+  domain or constant potential, treat a definitional gap as selection, union
+  the two packets, or score held-out evidence before forward export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

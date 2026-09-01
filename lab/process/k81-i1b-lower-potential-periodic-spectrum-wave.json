@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K81-I1B-LOWER-POTENTIAL-PERIODIC-SPECTRUM-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k80-i1b-matrix-density-half-density-wave.json",
+  "control_model": {
+    "domain": "periodic C2-valued sections on R/(2*pi*Z)",
+    "pairing": "positive L2(dx;C2) pairing",
+    "principal_matrix": "J=[[0,-1],[1,0]] with J^dagger=-J",
+    "hermitian_basis": "I,H=[[1,0],[0,-1]],S=[[0,1],[1,0]],K=iJ",
+    "operator": "D_V=J*d/dx+V, V=cI+xH+yS+zK with real c,x,y,z",
+    "ownership": "repository-owned periodic post-half-density control, not the actual source cross-null operator or physical domain"
+  },
+  "fourier_classification": {
+    "mode_block": "D_V(n)=cI+xH+yS+(n+z)K for n in Z",
+    "clifford_identity": "(D_V(n)-cI)^2=(x^2+y^2+(n+z)^2)I",
+    "spectrum": "lambda_(n,plus/minus)=c plus/minus sqrt(x^2+y^2+(n+z)^2)",
+    "complete_constant_family": "every constant Hermitian two-by-two lower term has exactly one real coordinate in each of I,H,S,K",
+    "periodic_invariants": "the spectrum depends on c, rho^2=x^2+y^2 and z modulo integer reindexing; z and -z are isospectral by n to -n",
+    "commuting_unitary": "constant unitaries commuting with J rotate the (x,y) plane and preserve rho^2 while fixing c and z"
+  },
+  "candidate_subfamily": {
+    "potential": "V=aH with a>0",
+    "spectrum": "lambda_(n,plus/minus)=plus/minus sqrt(n^2+a^2)",
+    "spectral_gap": "gap from zero is a, attained at n=0",
+    "candidate_order": "0<log(2)<log(3), so the two candidates have distinct exact gaps",
+    "selector_condition": "the gap distinguishes log(2) from log(3) only if an independent source/action or physical reduction owns the coefficient a, the periodic domain and this operator",
+    "nonselection_without_owner": "defining V=log(r)H inside a repository control merely restates r in spectral form"
+  },
+  "half_density_boundary": {
+    "transport": "a periodic positive compatible matrix density W is removed by periodic U=W^(1/2), while an independently owned W-self-adjoint lower term survives as U*V*U^(-1)",
+    "constant_scope": "the Fourier formula applies when the post-transport potential is constant and the transported domain is periodic",
+    "nonperiodic_warning": "a nonperiodic U twists boundary data, and a variable transported potential is not diagonalized by the constant Fourier blocks"
+  },
+  "source_attribution": "GU source materials currently own no actual cross-null normal operator, positive physical density, post-transport constant potential, periodic domain or coefficient assignment used here",
+  "claim_ceiling": "exact periodic spectrum and invariant classification for the frozen two-component constant-Hermitian lower-potential family only; no source cross-null operator, physical boundary law, rank-jump spectrum, coefficient selection, prediction or confirmation",
+  "fences": {
+    "source_operator_constructed": false,
+    "physical_periodic_domain_owned": false,
+    "coefficient_selected": false,
+    "rank_jump_included": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k81_i1b_lower_potential_periodic_spectrum_probe.py",
+  "artifact": "explorations/conditional-build/k81-i1b-lower-potential-periodic-spectrum-wave-2026-09-01.md",
+  "next_condition": "derive the actual source/action-owned cross-null principal matrix, density, lower potential and boundary or rank-jump law, then test whether its transported operator realizes these spectral invariants"
+}

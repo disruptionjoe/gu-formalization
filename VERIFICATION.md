@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K81 null zero-crossing matching wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A `C2` signature-`(1,1)` null field switching between the two projective null lines through an isolated zero has `n(0)=n'(0)=n''(0)=0`; a piecewise cubic switch is sharp | `lab/process/k81-null-zero-crossing-matching-wave.json`; exact jet/algebra probe (`44/44`) | exact local zero-crossing regularity classification for the repository-owned two-component class |
+| A same-line simple zero admits a regular shear coordinate exactly by divisibility, while the cubic switched-line zero supplies no invertible amplitude matching through its two-jet | exact quotient trace formulas and hostile selftest (`24/24`) | exact regular-chart and matching nonownership boundary |
+| The nondegenerate `m^2H` control escapes across the switch | orthogonal-complement classification forces both punctured point curves onto their null lines and continuity forces the interface value to zero | not escaped; controlled kinetic density collapses |
+| A source-owned full carrier, singular/auxiliary/gauge constraint, physical matching law or analytic domain | not constructed | open / explicitly excluded |
+
+## K81 I1B lower-potential periodic-spectrum wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every constant Hermitian lower term gives periodic Fourier blocks `cI+xH+yS+(n+z)iJ` and spectrum `c +/- sqrt(x^2+y^2+(n+z)^2)` | `lab/process/k81-i1b-lower-potential-periodic-spectrum-wave.json`; exact Clifford/Fourier probe (`42/42`) | complete constant-Hermitian spectrum for the frozen periodic post-half-density control |
+| Constant unitaries commuting with `J` preserve `x^2+y^2`; integer shifts and sign of `z` give the stated Fourier reindexings | exact matrix identities and hostile selftest (`24/24`) | exact periodic spectral invariants for the control |
+| For `V=aH`, the gap is `a`, so `log(2)` and `log(3)` differ | rigorous rational series bounds plus the zero Fourier block | exact conditional spectral distinction; not a selector without independent coefficient/operator/domain ownership |
+| The actual source cross-null operator, physical density, lower potential, periodic or rank-jump domain | not constructed | open / explicitly excluded |
+
 ## K80 rotating-null shear and mass-control wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
