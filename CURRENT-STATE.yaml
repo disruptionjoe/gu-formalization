@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7c8fb33a5e4b
+revision_basis: a9dbcdc7f9e6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The local-frame/cohomological-state Big Wave makes both K83 ownership
+    seams exact. For a real first-derivative scalar multiplet, the simultaneous
+    infinitesimal spatial-rotation and boost equations on a symmetric 1+2
+    coframe-index principal tensor have rank five on six coefficients: their
+    invariant line is exactly eta=diag(1,-1,-1). Hence full local Lorentz frame
+    invariance forces C^{ab}_{AB}=eta^{ab}H_{AB}; positive H gives one unit
+    cone for every internal mode. Diffeomorphism covariance is weaker: the
+    preferred-vector family eta H+u u J with H=I,J=diag(0,3) remains positive
+    and covariant while carrying squared speeds 1 and 1/4. Independently, for
+    a unital differential graded star-algebra, the degree-zero boundaries
+    B0=Q(A^-1) are a two-sided star ideal in the cycles Z0, so H0_Q=Z0/B0 owns
+    a product and involution. A positive normalized cycle state descends iff it
+    annihilates B0. Self-adjoint involution and cross-commutation relations need
+    hold only modulo exact terms for the K83 SOS identity to descend. A real
+    M4 direct-sum control saturates 2sqrt(2), while a positive state with
+    boundary weight is normalized but representative-dependent and cannot
+    descend. Exact probes pass 33/33 and 38/38; hostile selftests catch 18/18
+    and 19/19. No source full-carrier coframe Euler/total-stress identity,
+    physical differential/cohomology, Born state, prediction or confirmation
+    results.
     The boost-Ward/positive-star-state Big Wave advances both class-level
     discriminators isolated by K82. For the complete repository-owned
     constant-coefficient observed quotient scalar action on a fixed unit
@@ -5457,13 +5477,20 @@ current_result:
     - explorations/conditional-build/k77-i1b-action-owned-mixed-residue-independence-wave-2026-09-01.md
     - lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json
     - tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py
+    - explorations/conditional-build/k84-local-frame-factorization-universal-coupling-wave-2026-09-01.md
+    - lab/process/k84-local-frame-factorization-universal-coupling-wave.json
+    - tests/channel-swings/k84_local_frame_factorization_universal_coupling_probe.py
+    - explorations/conditional-build/k84-brst-star-state-descent-wave-2026-09-01.md
+    - lab/process/k84-brst-star-state-descent-wave.json
+    - tests/channel-swings/k84_brst_star_state_descent_probe.py
 current_question: >-
-  Does the actual source/action-owned full-carrier principal symbol and
-  physical quotient force one normalized common causal cone through a
-  dynamical metric/coframe or total-stress identity; independently, does the
-  actual physical state/composition structure own the Hilbert operator product,
-  commuting local algebras, contraction order and Born expectation required by
-  the Tsirelson boundary rather than importing them as controls?
+  Does the actual source/action-owned full-carrier principal tensor realize the
+  local-frame metric line, exclude or dynamically eliminate preferred-tensor
+  spurions, and descend its coframe Euler/total-stress identity to the physical
+  quotient; independently, does the actual physical BRST/BFV complex make
+  exact boundaries a star ideal and own a normalized positive state that
+  annihilates them, so the Tsirelson SOS relation is physical rather than an
+  imported control?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5473,21 +5500,21 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The class-level causal demand is now exact: a positive constant observed
-  quotient has one common cone iff its normalized spatial stiffness is scalar,
-  and a fixed unit metric requires the identity. Obtain the independently
-  source/action-owned full-carrier symbol, physical quotient and dynamical
-  metric/coframe or total-stress map, then test this identity on every physical
-  sector. Positivity, quotient closure, minimal BV and interaction cannot stand
-  in for it. Independently, the Tsirelson ceiling is carried by Hilbert operator
-  multiplication, commuting local algebras, contraction order and state
-  expectation; positivity, normalization, no-signalling and local instruments
-  admit the PR countermodel. Derive or independently supply the physical state,
-  Born pairing, composition and local observable algebra on the actual quotient
-  before any held-out export. Preserve the K81 source-symbol and cross-null
+  The class-level causal owner is now minimal: full local Lorentz frame
+  invariance forces the principal tensor to factor through one coframe metric,
+  while diffeomorphism covariance permits positive preferred-vector multi-cone
+  controls. Obtain the independently source/action-owned full-carrier principal
+  tensor, show the required local frame symmetry and absence or dynamical
+  elimination of preferred tensors, derive its coframe Euler/total-stress Ward
+  identity, and descend it to physical cohomology. Independently, the quantum
+  owner must supply a differential star-algebra whose exact degree-zero
+  boundaries form a star ideal and a positive normalized cycle state that
+  annihilates them. Only then test the descended Tsirelson SOS factors for
+  saturation or slack. Preserve the K81 source-symbol and cross-null
   operator/domain reopeners as lower-ranked owner-construction routes; do not
-  repeat local controls, stipulate a common cone, import Hilbert/Born structure,
-  union packet cells, or score delayed-choice entanglement swapping.
+  identify covariance with local-frame invariance, positivity before quotient
+  with state descent, repeat local controls, union packet cells, or score
+  delayed-choice entanglement swapping.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

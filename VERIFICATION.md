@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K84 local-frame factorization universal-coupling wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Full local `SO(1,2)` frame invariance forces a symmetric scalar principal tensor to factor as `C^{ab}_{AB}=eta^{ab}H_{AB}` | simultaneous exact rotation/boost linear system has rank `5` on `6` symmetric spacetime coefficients; `lab/process/k84-local-frame-factorization-universal-coupling-wave.json`; probe (`33/33`) | exact invariant-tensor necessity and sufficiency theorem for the named first-derivative scalar coframe class |
+| Positive `H` gives one unit characteristic cone for every internal mode | the principal symbol is `H eta^{ab}k_a k_b` | exact conditional universal-cone corollary |
+| Diffeomorphism covariance, a supplied coframe and positive energy force the metric line | `eta H+u u J` with `H=I,J=diag(0,3)` is covariant and positive but has squared speeds `1` and `1/4`; hostile selftest (`18/18`) | false; a preferred-tensor spurion survives without full local frame invariance or dynamical elimination |
+| A source-owned full-carrier principal tensor, dynamical coframe Euler equation and physical total-stress descent | not constructed | open / explicitly excluded |
+
+## K84 BRST star-state descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| In a unital differential graded star-algebra, `B0=Q(A^-1)` is a two-sided star ideal in degree-zero cycles, so `H0_Q=Z0/B0` owns a product and involution | graded Leibniz and star compatibility; explicit truncated two-summand DGA; `lab/process/k84-brst-star-state-descent-wave.json`; exact matrix-control probe (`38/38`) | exact algebraic degree-zero observable-algebra descent theorem |
+| A normalized positive cycle functional descends to `H0_Q` iff it annihilates `B0` | representative-independence proof plus positive pullback/pushdown; two-summand positive/non-descent controls | exact positive-state descent criterion |
+| Modulo-exact self-adjoint involution and cross-commutation relations carry the K83 SOS identity and its Bell saturation | real `M4(R) direct_sum M4(R)` control, quotient Bell state and hostile selftest (`19/19`) | exact conditional cohomological Tsirelson descent control |
+| A GU-native physical BRST/BFV differential, analytic domain, observable algebra, positive state or Born rule | not constructed | open / explicitly excluded |
+
 ## K83 boost-Ward universal-coupling wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

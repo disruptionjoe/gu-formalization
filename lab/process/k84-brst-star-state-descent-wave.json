@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K84-BRST-STAR-STATE-DESCENT-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k83-positive-star-state-tsirelson-boundary-wave.json",
+  "control_model": {
+    "carrier": "degree-zero cycles Z0 of a unital differential graded star-algebra (A,Q), modulo degree-zero boundaries B0=Q(A^-1)",
+    "domain": "algebraic degree-zero cohomology; no analytic completion, field-theory domain or GU source differential is supplied",
+    "observable_control": "a two-summand real 4x4 matrix star-algebra whose second summand is the exact boundary ideal and whose quotient is the first summand",
+    "ownership": "repository-owned downstream-demand control, not a source/action-owned GU BRST or BFV observable algebra"
+  },
+  "cohomology_descent": {
+    "ideal_theorem": "because Q is a graded derivation, B0=Q(A^-1) is a two-sided ideal in Z0=ker(Q) intersect A0; star compatibility makes it a star ideal",
+    "observable_algebra": "H0_Q=Z0/B0 therefore carries a well-defined unital star product and involution",
+    "state_iff": "a normalized positive functional omega on Z0 descends uniquely to H0_Q iff omega annihilates every degree-zero boundary",
+    "local_relations": "self-adjointness, involution squares and Alice-Bob commutators need hold modulo B0; their classes then satisfy the exact relations",
+    "sos_descent": "the K83 CHSH sum-of-squares identity is well-defined and positive on H0_Q once the quotient state and local classes exist"
+  },
+  "finite_control": {
+    "cycle_algebra": "M4(R) direct_sum M4(R)",
+    "boundary_ideal": "0 direct_sum M4(R)",
+    "differential": "A^-1 is the boundary ideal as a Z0-bimodule, A^-2=0, negative-negative products vanish, and Q is the identity inclusion A^-1 to B0; the graded Leibniz rule follows from the bimodule actions",
+    "physical_quotient": "the first M4(R) summand",
+    "positive_state": "the real Bell-vector state on the first summand annihilates the boundary ideal and saturates CHSH at 2*sqrt(2)",
+    "non_descent_control": "a normalized positive mixture with nonzero weight on the boundary summand assigns different values to equivalent representatives and cannot descend"
+  },
+  "source_attribution": "GU source materials currently own no complete physical BRST or BFV differential, degree-zero star cohomology, commuting local observable classes and normalized positive state used here",
+  "claim_ceiling": "exact algebraic degree-zero star-cohomology and positive-state descent theorem with a finite matrix control only; no GU-native physical cohomology, analytic completion, Born rule, prediction or confirmation",
+  "fences": {
+    "source_physical_differential_constructed": false,
+    "gu_observable_algebra_owned": false,
+    "gu_positive_state_or_born_rule_owned": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k84_brst_star_state_descent_probe.py",
+  "artifact": "explorations/conditional-build/k84-brst-star-state-descent-wave-2026-09-01.md",
+  "next_condition": "derive the actual source/action-owned BRST or BFV differential and physical degree-zero cycle algebra, prove exact boundaries form the required star ideal on the selected domain, and construct a normalized positive state that annihilates them before testing Tsirelson saturation or slack"
+}

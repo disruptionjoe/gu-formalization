@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K84-LOCAL-FRAME-FACTORIZATION-UNIVERSAL-COUPLING-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k83-boost-ward-universal-coupling-wave.json",
+  "control_model": {
+    "carrier": "the existing real rank-960 observed quotient W, represented by a real scalar multiplet with a symmetric internal principal form",
+    "domain": "first jets on a local 1+2 coframe chart; the invariant-tensor theorem extends to 1+d for d at least 2",
+    "principal_tensor": "C^{ab} in Sym^2(R^{1,2}) tensor Sym^2(W*) with infinitesimal local-frame action on the coframe indices",
+    "ownership": "repository-owned reverse-scaffold coframe-index action class, not a source-owned K77 full-carrier coframe equation or total stress tensor"
+  },
+  "frame_factorization": {
+    "invariance_equation": "X*C+C*X^T=0 for every infinitesimal generator X of so(1,2)",
+    "exact_nullspace": "the simultaneous invariant symmetric spacetime-tensor space has dimension one and is spanned by eta=diag(1,-1,-1)",
+    "internal_extension": "C^{ab}=eta^{ab}*H for one arbitrary symmetric internal form H; no second spacetime tensor survives full local Lorentz invariance",
+    "universal_cone": "if H is positive on the quotient, every internal mode has the same unit eta-null characteristic cone",
+    "ward_owner": "coframe-index local Lorentz invariance supplies the principal factorization; a dynamical coframe Euler equation and descended total-stress Ward identity remain separate requirements"
+  },
+  "spurion_boundary": {
+    "preferred_vector_family": "C^{ab}=eta^{ab}*H+u^a*u^b*J with u=(1,0,0) is tensorially covariant when u is supplied but is not invariant under the full local Lorentz frame group",
+    "two_speed_control": "H=I and J=diag(0,3) gives positive temporal form H+J and squared characteristic speeds 1 and 1/4",
+    "residual_symmetry": "the preferred-vector family retains the spatial rotation stabilizer of u while a boost exposes the J term",
+    "nonselection": "diffeomorphism covariance, positive energy and one supplied coframe do not exclude an independent preferred-vector tensor or force universal metric coupling"
+  },
+  "source_attribution": "GU source materials currently own no coefficient-complete observed rank-960 or full-carrier local-frame-invariant scalar principal tensor together with a dynamical coframe Euler equation and physical total-stress descent used here",
+  "claim_ceiling": "exact invariant-tensor factorization and preferred-vector countermodel for the repository-owned first-derivative scalar coframe class only; no source full-carrier action, nonlinear gravity, prediction or confirmation",
+  "fences": {
+    "source_principal_tensor_constructed": false,
+    "dynamical_coframe_euler_owned": false,
+    "physical_total_stress_owned": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k84_local_frame_factorization_universal_coupling_probe.py",
+  "artifact": "explorations/conditional-build/k84-local-frame-factorization-universal-coupling-wave-2026-09-01.md",
+  "next_condition": "identify an actual source/action-owned full-carrier coframe-index principal tensor, prove the absence or dynamical elimination of preferred-tensor spurions, derive its coframe Euler and total-stress Ward identity, and descend the factorization to physical cohomology"
+}
