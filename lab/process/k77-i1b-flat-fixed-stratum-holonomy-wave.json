@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "i1b_flat_fixed_stratum_quotient_connection_and_holonomy",
+  "created": "2026-09-01",
+  "status": "SUPPLIED_FLAT_TIMELIKE_STRATUM_CONNECTION_DESCENDS__ACTUAL_CIRCLE_HOLONOMY_IDENTITY_RANK_24__NO_GENERIC_I1B_HOLONOMY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-quotient-majorant-descent-wave.json",
+  "packet": {
+    "id": "K77-I1B-MIXED-ORDER",
+    "native_carrier_dimension": 220,
+    "causal_stratum": "timelike_fixed_rank",
+    "radical_dimension": 196,
+    "quotient_dimension": 24
+  },
+  "supplied_background": {
+    "manifold": "R_t_x_S1_x_x_R2_yz",
+    "metric": "flat_Minkowski",
+    "distortion": "T_equals_0",
+    "native_connection": "varpi_equals_B_LC_equals_d",
+    "coorientation": "n_equals_dt",
+    "loop": "gamma(s)=(0,s,0,0), s in [0,2pi]"
+  },
+  "construction": {
+    "radical_parallel": true,
+    "quotient_connection": "flat_connection_induced_on_Q_equals_carrier_mod_radical",
+    "curvature": "zero",
+    "holonomy": "I_24",
+    "characteristic_polynomial": "(lambda-1)^24",
+    "minimal_polynomial": "lambda-1",
+    "jordan_blocks": "24_blocks_of_size_1",
+    "classification": "semisimple_identity_compact_unitary_boundary",
+    "compatible_positive_majorants": "exist_but_none_selected"
+  },
+  "fences": {
+    "source_selects_flat_background": false,
+    "generic_or_curved_i1b_result": false,
+    "cross_null_stratum_bundle": false,
+    "physical_gauge_quotient": false,
+    "positive_majorant_selected": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "actual_background_conditional_holonomies_computed": 1,
+    "nontrivial_holonomies_computed": 0,
+    "generic_I1B_connections_constructed": 0,
+    "prediction_or_confirmation_change": "none",
+    "action_selection": "none"
+  },
+  "probe": "tests/channel-swings/k77_i1b_flat_fixed_stratum_holonomy_probe.py",
+  "result_ref": "explorations/conditional-build/k77-i1b-flat-fixed-stratum-holonomy-wave-2026-09-01.md",
+  "claim_ceiling": "Exact identity holonomy for the supplied flat T=0 timelike fixed-rank I1B quotient only; no source-selected compactification, generic or curved connection, cross-stratum bundle, physical quotient, selected majorant, action, prediction, confirmation, or verdict."
+}

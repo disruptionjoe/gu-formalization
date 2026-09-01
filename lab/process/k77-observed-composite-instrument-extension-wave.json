@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_packet_local_conditional_composite_instrument_extension",
+  "created": "2026-09-01",
+  "status": "OBSERVED_CHART_LOCAL_TWO_COPY_CONTROL_ATTACHED__COMPOSITE_MARGINAL_INSTRUMENT_AND_DYNAMICS_PASS_CONDITIONALLY__ZERO_K77_SELECTED_COMPOSITES",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-quotient-majorant-descent-wave.json",
+  "generic_control_ref": "lab/process/quantum-anchor-reverse-scaffold-interface-wave.json",
+  "packet": {
+    "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+    "ambient_carrier": "real_rank_1920_observed_fermionic_K77_carrier",
+    "local_interface": "conditional_two_coordinate_quadratic_density_chart_on_the_rank_960_incoming_range",
+    "adapter": "two independent copies of the predecessor chart-local two-coordinate control are assigned to labelled local legs A and B",
+    "not_a_native_factorization": true,
+    "not_a_dimension_reduction": true
+  },
+  "conditional_extension": {
+    "state_carrier": "Symmetric/Hermitian 4_by_4 density controls on imported R2_tensor_R2",
+    "composite_rule": "imported_tensor_product",
+    "discarding_maps": ["partial_trace_A", "partial_trace_B"],
+    "joint_witness": "Bell_rank_one_density_with_both_marginals_I2_over_2",
+    "instrument": "local_projective_Lueders_branches_on_A",
+    "nonselective_law": "trace_preserving_and_remote_B_marginal_invariant",
+    "phase": "local_orthogonal_phase_on_A_preserves_remote_B_marginal",
+    "decoherence": "local_eta_equals_one_half_dephasing_preserves_trace_and_remote_B_marginal",
+    "bell_control": "exact_CHSH_2_sqrt_2_with_deterministic_local_ceiling_2"
+  },
+  "import_accounting": [
+    {"object": "tensor_product_composition", "classification": "imported_standard_quantum_control"},
+    {"object": "positive_trace_one_density_cone", "classification": "imported_standard_quantum_control"},
+    {"object": "trace_Born_pairing", "classification": "imported_standard_quantum_control"},
+    {"object": "partial_trace", "classification": "imported_standard_quantum_control"},
+    {"object": "Lueders_instruments", "classification": "imported_standard_quantum_control"},
+    {"object": "Bell_state_and_CHSH_observables", "classification": "imported_standard_quantum_control"},
+    {"object": "dephasing_parameter_eta", "classification": "assumed_conditional_open_system_control"}
+  ],
+  "psx_status": {
+    "K77-PSX-1": "boundary_projection_only__physical_constraint_gauge_quotient_open",
+    "K77-PSX-2": "conditional_chart_local_pass",
+    "K77-PSX-3": "conditional_chart_local_pass",
+    "K77-PSX-4": "conditional_chart_local_pass",
+    "K77-PSX-5": "conditional_imported_two_copy_control_pass__not_K77_selected",
+    "K77-PSX-6": "conditional_imported_local_instrument_pass__no_named_global_K77_causal_domain",
+    "K77-PSX-7": "conditional_imported_phase_and_dephasing_pass"
+  },
+  "packet_isolation": {
+    "cross_packet_union_allowed": false,
+    "i1b_data_used": false,
+    "k95_data_used": false,
+    "generic_control_promoted_to_GU": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "conditional_packet_local_composite_controls_completed": 1,
+    "K77_selected_composite_rules_completed": 0,
+    "GU_native_physical_states_completed": 0,
+    "prediction_or_confirmation_change": "none",
+    "action_selection": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k77_observed_composite_instrument_extension_probe.py",
+  "result_ref": "explorations/conditional-build/k77-observed-composite-instrument-extension-wave-2026-09-01.md",
+  "claim_ceiling": "Exact packet-local attachment of an imported two-copy standard-quantum control to the observed chart-local interface only; no K77-selected tensor product, physical quotient, state, Born rule, causal domain, action, prediction, confirmation, held-out score, or verdict."
+}

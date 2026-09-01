@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-09-01",
-  "refresh_note": "The quantum reverse scaffold now freezes ownership, not merely compatibility, as the next domain/quotient gate. An explicit finite cooriented-cylinder control shows that projector-stable gauge propagation and quotient contraction are jointly feasible, but the current observed principal projector and energy preserve multiple gauge complexes with different quotient norms and therefore cannot select an action-owned physical quotient. Independently, one I1B fibre Green form admits both rotational and hyperbolic monodromies, so actual holonomy remains undefined until a packet-owned connection and loops are supplied. No actual GU domain, action complex, Sobolev propagation, physical quotient, I1B connection, instrument algebra or GU-native state follows. The low-curvature successor remains deferred; the B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
-  "latest_result_2026_09_01": "A finite cooriented-cylinder control proves feasibility of constraint-compatible quotient propagation, while three projector-stable gauge lines with quotient norms 16/25, 9/25, and 4/125 prove that current principal data do not select an action-owned complex. Independently, fibre Green data do not select an I1B connection or actual holonomy.",
+  "refresh_note": "The route-switched quantum reverse scaffold now attaches an imported two-copy composite, marginal and instrument control to the observed packet's existing chart-local two-coordinate interface without factorizing or dimension-reducing the rank-1920 carrier. Exact local nonselective operations preserve the remote marginal, phase and half-dephasing are compatible, and the Bell/classical discriminator is retained; every quantum ingredient remains imported and zero K77 composites or states are selected. Independently, the supplied flat T=0 I1B background makes the timelike rank-24 quotient connection explicit and gives actual identity monodromy around S1, while selecting no majorant and proving nothing generic or curved. The complete K77 action/rank-1920 chain-map/domain/closed-range conjunction remains blocked in every single current packet. The B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "The observed packet's chart-local two-coordinate interface now has an exact imported two-copy composite/instrument attachment with Bell marginals, local no-signalling, phase and decoherence controls, but no K77-selected tensor product or physical state. On a separate supplied flat T=0 I1B background, the native rank-24 timelike quotient has actual identity holonomy around S1; no generic connection or positive majorant is selected.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -395,6 +395,26 @@
         "exact_controls": "69/69 pass; hostile selftest 19/19 caught",
         "scientific_effect": "A supplied Maxwell action on a compact cooriented cylinder owns a functional gauge complex, propagated quotient and closed Sobolev gauge range; an exact noncompact dilation obstructs transferring that closure without a gap; elliptic, hyperbolic and parabolic supplied monodromies sharpen the independent connection discriminator.",
         "credit_ceiling": "Conditional conventional controls only; no GU-native action/domain/quotient, observed physical state, actual I1B connection/holonomy, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_observed_composite_instrument_extension_2026_09_01": {
+        "status": "COMPLETE_CONDITIONAL_PACKET_LOCAL_COMPOSITE_AND_INSTRUMENT_CONTROL",
+        "manifest_ref": "lab/process/k77-observed-composite-instrument-extension-wave.json",
+        "result_ref": "explorations/conditional-build/k77-observed-composite-instrument-extension-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_observed_composite_instrument_extension_probe.py",
+        "exact_controls": "17/17 pass; hostile selftest 13/13 caught",
+        "scientific_effect": "The imported standard-quantum composite, partial-trace, local-instrument, no-signalling, phase and decoherence controls are now attached to one named observed packet interface without factorizing or dimension-reducing its rank-1920 carrier.",
+        "credit_ceiling": "Conditional packet-local compatibility only; no K77-selected composite, physical quotient/state, Born rule, action, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_i1b_flat_fixed_stratum_holonomy_2026_09_01": {
+        "status": "COMPLETE_SUPPLIED_FLAT_FIXED_STRATUM_IDENTITY_HOLONOMY",
+        "manifest_ref": "lab/process/k77-i1b-flat-fixed-stratum-holonomy-wave.json",
+        "result_ref": "explorations/conditional-build/k77-i1b-flat-fixed-stratum-holonomy-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_i1b_flat_fixed_stratum_holonomy_probe.py",
+        "exact_controls": "14/14 pass; hostile selftest 10/10 caught",
+        "scientific_effect": "On the supplied flat T=0 R x S1 x R2 background, the native timelike I1B radical is parallel, the rank-24 quotient connection descends, and actual circle monodromy is identity.",
+        "credit_ceiling": "Conditional fixed-background holonomy only; no source-selected compactification, generic/curved connection, selected majorant, physical quotient, action, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "hourly_ready_candidate_2026_08_24": {

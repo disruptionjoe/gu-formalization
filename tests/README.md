@@ -4,6 +4,28 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K77 observed composite and instrument extension controls
+
+- `channel-swings/k77_observed_composite_instrument_extension_probe.py`
+  attaches the prior chart-local two-coordinate observed interface to an
+  imported two-copy density control and checks exact Bell marginals, product
+  embeddings, local Lüders branches, nonselective remote-marginal invariance,
+  phase, half-dephasing, CHSH `2 sqrt(2)`, and the deterministic local ceiling
+  (`17/17`). `--selftest` catches thirteen factorization, signalling,
+  physicality, rank-confusion, import, cross-packet, action, held-out and
+  promotion mutations. It is not a factorization or dimension reduction of
+  the rank-1920 carrier and certifies no K77-selected composite or state.
+
+## K77 I1B flat fixed-stratum holonomy controls
+
+- `channel-swings/k77_i1b_flat_fixed_stratum_holonomy_probe.py` checks the
+  native `220-196=24` timelike quotient, descended alternating form, flat
+  quotient connection and exact identity monodromy on the supplied
+  `R x S1 x R2` background (`14/14`). `--selftest` catches ten radical,
+  symplectic, source-selection, genericity, cross-stratum, physical-quotient,
+  majorant, packet-union and rank mutations. It certifies one conditional flat
+  holonomy, not a generic or source-selected I1B connection.
+
 ## K77 owned-domain and constraint-denominator controls
 
 - `channel-swings/k77_owned_domain_constraint_denominator_probe.py` checks a

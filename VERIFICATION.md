@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 observed composite and instrument extension wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Two labelled copies of the observed packet's chart-local two-coordinate interface admit an exact imported tensor-control attachment with product embeddings, partial traces and a Bell rank-one density whose marginals are `I2/2` | `lab/process/k77-observed-composite-instrument-extension-wave.json`; exact rational probe (`17/17`) | exact packet-local conditional adapter; not a factorization or dimension reduction of the rank-1920 carrier |
+| Local Lüders branches are positive/subnormalizing, their nonselective sum preserves trace and the remote marginal, and local phase plus half-dephasing preserve that marginal while half-dephasing halves coherence | same probe; hostile selftest (`13/13`) | exact imported standard-quantum control; no K77-selected instrument algebra or global causal domain |
+| The Bell witness gives `2 sqrt(2)` while all sixteen deterministic local assignments are bounded by `2` | exact scaled-rational CHSH numerator and exhaustive census | compatibility control only; no prediction or confirmation credit |
+| A K77-owned composite/discarding rule, physical quotient/state, Born rule, action, held-out success, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
+## K77 I1B flat fixed-stratum holonomy wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On supplied flat `R x S1 x R2` with `T=0`, `varpi=B_LC=d` and `n=dt`, the constant 196-dimensional radical is parallel and the native connection descends to the rank-24 timelike Green quotient | `lab/process/k77-i1b-flat-fixed-stratum-holonomy-wave.json`; exact probe (`14/14`) | exact conditional fixed-background construction; the source does not select the compactification |
+| Transport around the supplied circle is `I24`, with characteristic polynomial `(lambda-1)^24`, minimal polynomial `lambda-1`, and 24 size-one Jordan blocks | same exact certificate; hostile selftest (`10/10`) | actual identity holonomy on this background; not generic or curved I1B holonomy |
+| Identity transport preserves every compatible positive majorant, but selects none | exact congruence check plus predecessor majorant nonselection | semisimple compact/unitary boundary control; no physical majorant is chosen |
+| A cross-null quotient bundle, physical gauge quotient, generic I1B connection, nontrivial holonomy, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 functional gauge and holonomy-control wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f9c2a69058f1
+revision_basis: 9e6a6fcfb0f1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The route-switched composite/holonomy Big Wave advances two independent
+    reverse edges without manufacturing the blocked K77 action conjunction.
+    On the observed packet, two labelled copies of the existing chart-local
+    two-coordinate quadratic-density interface admit an exact imported
+    standard-quantum composite control: product embeddings and partial traces,
+    a Bell density with I/2 marginals, positive Lüders branches,
+    nonselective remote-marginal invariance, local phase, half-dephasing and
+    CHSH 2 sqrt(2) versus the deterministic ceiling 2. This is neither a
+    factorization nor a dimension reduction of the real rank-1920 carrier;
+    every tensor, trace, Born and instrument object remains imported and zero
+    K77 composites or physical states are selected. Independently, on the
+    supplied flat T=0 background R x S1 x R2, the native I1B timelike
+    220-dimensional fibre has constant parallel radical 196, so the flat
+    connection descends to its rank-24 Green quotient. Actual monodromy around
+    S1 is I24, with 24 size-one unit Jordan blocks. The source does not select
+    this background, identity transport selects no positive majorant, and no
+    generic/curved or cross-null connection follows. Exact probes pass 17/17
+    and 14/14; hostile selftests catch 13/13 and 10/10.
     The functional gauge/holonomy-control Big Wave supplies the first
     action-owned functional quotient control in the K77 reverse scaffold,
     while keeping its conventional ownership explicit. On the globally
@@ -5089,13 +5107,18 @@ current_result:
     - explorations/conditional-build/k77-functional-gauge-and-holonomy-control-wave-2026-09-01.md
     - lab/process/k77-functional-gauge-and-holonomy-control-wave.json
     - tests/channel-swings/k77_functional_gauge_holonomy_probe.py
+    - explorations/conditional-build/k77-observed-composite-instrument-extension-wave-2026-09-01.md
+    - lab/process/k77-observed-composite-instrument-extension-wave.json
+    - tests/channel-swings/k77_observed_composite_instrument_extension_probe.py
+    - explorations/conditional-build/k77-i1b-flat-fixed-stratum-holonomy-wave-2026-09-01.md
+    - lab/process/k77-i1b-flat-fixed-stratum-holonomy-wave.json
+    - tests/channel-swings/k77_i1b_flat_fixed_stratum_holonomy_probe.py
 current_question: >-
-  Can a source-native or explicitly owner-native K77 action supply a typed map
-  to the observed rank-1920 carrier, its constraint differential and full
-  operator, plus the compactness, ellipticity, weighted coercivity or other
-  estimate that closes its gauge image on the actual domain; independently,
-  can I1B supply a fixed-stratum quotient bundle and connection whose computed
-  monodromy passes the elliptic/Jordan positive-majorant discriminator?
+  Can the observed rank-1920 packet itself own a composite/discarding rule,
+  physical constraint quotient and global causal domain through which the
+  packet-local instrument controls descend; independently, can a nonflat
+  packet-owned I1B connection produce computed, rather than supplied,
+  monodromy on one fixed-rank stratum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5105,19 +5128,16 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The compact Maxwell control now proves that action ownership, a spectral gap,
-  gauge propagation and quotient energy can coexist; the noncompact dilation
-  proves that ownership alone is insufficient. On the observed packet, build
-  or derive a source-native or explicitly owner-native constraint/Koszul--Tate
-  or BV differential with the full tangential and subprincipal coefficients,
-  an explicit map to the rank-1920 carrier, and the actual domain estimate that
-  closes its gauge image. Do not relabel the Maxwell action or T^2 Fourier
-  carrier as GU. In parallel, place I1B on one fixed-rank quotient stratum,
-  supply a packet-owned symplectic connection and specified loops, compute its
-  monodromy, and check elliptic/hyperbolic/parabolic Jordan type before testing
-  compact or unitary reduction. Do not infer a Poincare gap on a noncompact
-  domain, invent I1B holonomy, union packet cells, or treat source retrieval as
-  action construction.
+  The observed chart-local two-coordinate interface now admits an imported
+  composite/marginal/instrument attachment, but the full rank-1920 packet owns
+  no tensor factorization, discarding map, physical quotient or global causal
+  domain. Reopen that edge only with one of those owner-native structures and
+  prove descent of the instrument laws. The supplied flat I1B connection now
+  yields actual identity monodromy on the timelike rank-24 quotient; advance it
+  with a packet-owned nonflat connection, specified curvature and loops, then
+  compute rather than choose its monodromy. The complete K77 action, full
+  complex, rank-1920 chain map, named domain and closed-range estimate remain
+  a one-packet conjunction: do not union I1B, observed, K95 or Maxwell cells.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

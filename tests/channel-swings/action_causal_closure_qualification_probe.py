@@ -34,6 +34,15 @@ def load(path: Path) -> dict:
     return json.loads(path.read_text())
 
 
+def action_stage(passport: dict) -> dict:
+    """Return the current first forward-certification stage."""
+    return (
+        passport.get("method_graphs", {})
+        .get("forward_certification", {})
+        .get("stages", [{}])[0]
+    )
+
+
 def validate(registry: dict, passport: dict) -> list[str]:
     errors: list[str] = []
     if registry.get("required_objects") != REQUIRED:
@@ -71,7 +80,7 @@ def validate(registry: dict, passport: dict) -> list[str]:
         errors.append("root candidate set must remain empty")
     if "one source-authenticated or owner-native real coefficient-complete K77 action" not in result.get("exact_reopener", ""):
         errors.append("exact one-packet K77 reopener drifted")
-    action = passport.get("critical_path", [{}])[0]
+    action = action_stage(passport)
     if action.get("id") != "action_causal_closure" or action.get("status") != "blocked":
         errors.append("passport first burden must remain blocked")
     expected_refs = {str(REGISTRY.relative_to(ROOT)), registry.get("result_ref")}
@@ -116,7 +125,7 @@ def main() -> int:
     mutant["candidate_packets"][1]["evidence_refs"].append("missing.md")
     mutations.append(("evidence", mutant, passport))
     mutated_passport = copy.deepcopy(passport)
-    mutated_passport["critical_path"][0]["status"] = "satisfied"
+    action_stage(mutated_passport)["status"] = "satisfied"
     mutations.append(("passport-status", registry, mutated_passport))
     mutated_passport = copy.deepcopy(passport)
     mutated_passport["truth_status"]["current_root_candidate_set"] = ["synthetic"]
