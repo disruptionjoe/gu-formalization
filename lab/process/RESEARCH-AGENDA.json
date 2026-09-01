@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-08-31",
-  "refresh_note": "The quantum reverse scaffold now distinguishes two packet-local outcomes. I1B has exact fixed-stratum symplectic quotients of dimensions 24,24,22 but its Green data select no compatible positive majorant. The observed incoming-projector packet has a conditional chart-local positive-energy majorant plus an exact quadratic ray, deterministic unit, two effects, phase and dephasing interface; boundary projection remains distinct from physical gauge reduction and no global causal domain, composite, instrument algebra or GU-native state follows. The low-curvature successor remains deferred; the B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
-  "latest_result_2026_09_01": "I1B quotient dimensions and positive-majorant nonselection are exact. Separately, the observed projector now carries a chart-local conditional order-unit interface from transported positive principal energy. The next gate is its action-owned constraint/BV and global-domain descent, with I1B compatible-majorant ownership preserved as the strongest independent alternative.",
+  "updated_at": "2026-09-01",
+  "refresh_note": "The quantum reverse scaffold now separates chart transition, coorientation, physical quotient and majorant-holonomy questions. The observed projector/energy/unit glues across coorientation-preserving charts, but normal reversal exchanges incoming and outgoing and an actual gauge quotient requires an action-owned complex plus quotient renormalization. I1B's Green quotient admits no global majorant under hyperbolic symplectic holonomy without a compact/unitary reduction. No global causal domain, physical quotient, composite, instrument algebra or GU-native state follows. The low-curvature successor remains deferred; the B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "Observed chart-transition covariance is exact, while coorientation and an action-owned closed constraint/BV complex remain necessary for a physical quotient; raw chart energy must be replaced by a quotient norm after gauge reduction. Independently, hyperbolic I1B symplectic holonomy obstructs a global positive majorant unless the packet owns a compact/unitary reduction.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -365,6 +365,16 @@
         "exact_controls": "15/15 pass; hostile selftest 15/15 caught",
         "scientific_effect": "I1B's stratum-wise quotient is exact but its compatible positive majorant is unselected; the observed packet independently reaches a chart-local conditional positive-energy state/unit/effect interface while physical gauge and global-domain descent remain open.",
         "credit_ceiling": "Packet-local quotient/majorant classification and chart-local conditional interface only; no global physical state, Born rule, composite, instrument algebra, action, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_global_quotient_domain_descent_2026_09_01": {
+        "status": "COMPLETE_CHART_DESCENT_AND_GLOBALIZATION_BOUNDARY",
+        "manifest_ref": "lab/process/k77-global-quotient-domain-descent-wave.json",
+        "result_ref": "explorations/conditional-build/k77-global-quotient-domain-descent-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_global_quotient_domain_descent_probe.py",
+        "exact_controls": "23/23 pass; hostile selftest 18/18 caught",
+        "scientific_effect": "Observed chart transition and scalar-unit descent are exact; normal reversal and gauge-representative dependence freeze the missing coorientation and action-owned quotient conditions; I1B hyperbolic holonomy independently obstructs a global compatible majorant.",
+        "credit_ceiling": "Conditional globalization criteria and exact obstructions only; no actual GU constraint/BV complex, global domain, physical state, instrument, action, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "hourly_ready_candidate_2026_08_24": {

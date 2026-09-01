@@ -7,6 +7,16 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 global quotient and domain descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The observed associated projector, transported positive energy, quadratic density and scalar unit glue across coorientation-preserving chart transitions | `lab/process/k77-global-quotient-domain-descent-wave.json`; exact rational overlap certificate (`23/23`) | exact conditional bundle-descent theorem; not selection of a global boundary or causal domain |
+| Normal reversal exchanges incoming and outgoing, so an uncooriented boundary has no deck-invariant incoming half | same probe; complementary-projector control; hostile selftest (`18/18`) | exact coorientation obstruction; the incoming family remains available on the coorientation double cover |
+| A boundary projector acts on physical classes only if it preserves cycles and gauge images; raw positive energy is representative-dependent and must be replaced by the `H`-orthogonal quotient norm | exact two-term constraint control with raw norm `1` and quotient norm `16/25` | exact finite-dimensional release criterion; action ownership, closed range, propagation and functional domains remain open |
+| Hyperbolic symplectic holonomy preserves the I1B Green form but fixes no positive majorant; rotational holonomy is a positive control | exact `diag(2,1/2)` mapping-torus and rotation controls | exact obstruction/positive-control pair; the actual I1B holonomy and a packet-owned unitary reduction remain open |
+| An actual GU constraint/BV complex, global causal domain, physical quotient/state, normalized instrument, composite, remote-marginal theorem, action, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 quotient and positive-majorant descent wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

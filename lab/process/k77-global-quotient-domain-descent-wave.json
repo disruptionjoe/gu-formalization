@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_projector_globalization_and_physical_quotient_descent_boundary",
+  "created": "2026-09-01",
+  "status": "CHART_TRANSITION_UNIT_DESCENT_EXACT__COORIENTATION_AND_ACTION_OWNED_GAUGE_REMAIN_REQUIRED__I1B_HYPERBOLIC_HOLONOMY_OBSTRUCTS_GLOBAL_MAJORANT",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-quotient-majorant-descent-wave.json",
+  "observed_packet": {
+    "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+    "transition_result": "The associated projector, transported positive principal energy, quadratic density and scalar unit descend exactly across coorientation-preserving chart transitions.",
+    "normal_result": "Normal reversal exchanges incoming and outgoing. An uncooriented boundary has no deck-invariant incoming half; the incoming family globalizes on the coorientation double cover or after a global coorientation is supplied.",
+    "constraint_bv_result": "For an action-owned complex d0 -> ker(d1), the incoming projector acts on physical classes only if it preserves cycles and gauge images. Raw positive energy is representative-dependent; the physical quotient receives the H-orthogonal quotient norm, which generally changes the chart-local normalization.",
+    "global_domain_status": "not_selected_or_constructed",
+    "physical_quotient_status": "not_constructed__exact_release_conditions_frozen",
+    "release_conditions": [
+      "one selected globally cooriented noncharacteristic causal domain",
+      "one action-owned constraint or Koszul--Tate/BV complex on that domain",
+      "incoming projector preservation of cycles and gauge images",
+      "closed gauge image and an owned positive energy defining orthogonal representatives",
+      "compatibility of the quotient norm with propagation and boundary conditions"
+    ],
+    "psx_status": {
+      "K77-PSX-1": "release_conditions_sharpened__no_actual_constraint_gauge_quotient",
+      "K77-PSX-2": "chart_transition_covariant__global_only_after_coorientation_and_domain",
+      "K77-PSX-3": "chart_local_only__quotient_ray_requires_action_owned_gauge_data",
+      "K77-PSX-4": "raw_unit_does_not_descend_unchanged__quotient_unit_requires_renormalization",
+      "K77-PSX-5": "open",
+      "K77-PSX-6": "open",
+      "K77-PSX-7": "chart_transition_covariant__global_physical_dynamics_open"
+    }
+  },
+  "i1b_packet": {
+    "id": "K77-I1B-MIXED-ORDER",
+    "holonomy_result": "A hyperbolic symplectic loop diag(2,1/2) preserves the Green form but fixes no positive compatible majorant. A global majorant therefore requires a compact or unitary reduction, or equivalent owner data, not merely the symplectic quotient.",
+    "positive_control": "Rotational holonomy preserves both the standard symplectic form and Euclidean compatible majorant.",
+    "null_stratum_result": "The 24/24/22 fibre-dimension jump still forbids one constant-rank quotient bundle across a connected null-stratum crossing.",
+    "majorant_status": "conditional_on_owned_polarization_or_unitary_reduction__not_selected"
+  },
+  "exact_control": {
+    "probe_ref": "tests/channel-swings/k77_global_quotient_domain_descent_probe.py",
+    "scope": "exact rational finite structural certificate; not a dimension reduction of the native rank-1920 observed carrier or I1B operator"
+  },
+  "packet_custody": {
+    "cross_packet_union_allowed": false,
+    "reason": "The observed projector and I1B packets retain different carriers, variational owners, quotient data, boundary geometry and positivity problems."
+  },
+  "result": {
+    "global_physical_quotients_completed": 0,
+    "gu_native_physical_state_spaces_completed": 0,
+    "global_causal_domains_selected": 0,
+    "conditional_globalization_criteria_completed": 2,
+    "exact_globalization_obstructions_completed": 2,
+    "action_selection": "none",
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "next_frontier": {
+    "incumbent": "Observed packet: construct a named globally cooriented noncharacteristic causal domain and action-owned constraint/BV complex satisfying the frozen projector and quotient-energy descent conditions.",
+    "strongest_alternative": "I1B: derive a packet-owned compact/unitary holonomy reduction or prove that its actual holonomy contains a hyperbolic symplectic element.",
+    "high_confidence_outlier": "Test constraint propagation and closed-range Sobolev completion before any normalized instrument or composite construction.",
+    "newly_unlocked": "A quotient-normalization calculation is now well-posed immediately after an action-owned gauge image and domain are supplied.",
+    "forbidden_reroute": "Do not retrieve or select a source action, union packet cells, reuse raw chart normalization on gauge classes, or score the held-out family."
+  },
+  "claim_ceiling": "No actual GU constraint/BV complex, global causal domain, physical quotient, GU-native state space, Born rule, composite, instrument algebra, source action, prediction, confirmation, held-out success, canon change, paper status, public-posture change or GU verdict is created."
+}

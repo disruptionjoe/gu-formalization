@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 203174a73e36
+revision_basis: b91842c43cb7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The global quotient/domain descent Big Wave separates three distinct
+    globalization questions. The observed associated projector, transported
+    positive principal energy, quadratic density and scalar unit glue exactly
+    across coorientation-preserving chart transitions. Normal reversal still
+    exchanges incoming and outgoing, so an uncooriented boundary has no
+    deck-invariant incoming half. Separately, physical gauge reduction changes
+    normalization: the incoming projector must preserve cycles and gauge
+    images, and raw positive energy is representative-dependent; an
+    action-owned gauge image instead induces the H-orthogonal quotient norm.
+    In the exact control the raw unit 1 becomes quotient norm 16/25. I1B has an
+    independent global obstruction: hyperbolic symplectic holonomy preserves
+    its Green form but fixes no positive majorant, while a unitary rotation is
+    the positive control. The exact probe passes 23/23 and its hostile selftest
+    catches 18/18. No actual GU constraint/BV complex, global causal domain,
+    physical quotient, state space, action, prediction or confirmation results.
     The quotient/majorant descent Big Wave now separates the two K77 packets
     constructively. I1B owns exact nondegenerate alternating quotients on its
     fixed-rank causal strata, with dimensions 24,24,22 and radicals
@@ -5036,12 +5051,16 @@ current_result:
     - explorations/conditional-build/k77-quotient-majorant-descent-wave-2026-09-01.md
     - lab/process/k77-quotient-majorant-descent-wave.json
     - tests/channel-swings/k77_quotient_majorant_descent_probe.py
+    - explorations/conditional-build/k77-global-quotient-domain-descent-wave-2026-09-01.md
+    - lab/process/k77-global-quotient-domain-descent-wave.json
+    - tests/channel-swings/k77_global_quotient_domain_descent_probe.py
 current_question: >-
-  Can the observed-projector packet promote its chart-local positive-energy
-  order-unit interface through an action-owned constraint/BV equivalence and
-  one global noncharacteristic causal domain, or does normal reversal, bundle
-  transport or constraint propagation obstruct that descent without importing
-  I1B or retrieving a source action?
+  Can one named globally cooriented noncharacteristic causal domain and an
+  action-owned constraint/BV complex satisfy the now-frozen projector,
+  propagation, closed-range and quotient-energy conditions, or does the
+  observed packet remain only chartwise; independently, does actual I1B
+  holonomy admit a compact/unitary reduction or contain a hyperbolic
+  obstruction?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5050,18 +5069,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave on the observed packet's
-  newly opened chart-to-global descent. Construct or sharply obstruct the
-  action-owned constraint/BV equivalence beneath the incoming-projector range,
-  propagate it on a named noncharacteristic causal domain, and test whether
-  the transported positive-energy unit is independent of chart, normal and
-  representative. If that physical quotient and global unit release, attempt
-  normalized instruments and a remote-marginal statement on the same domain.
-  In parallel, keep the independent I1B alternative live: test an explicitly
-  owned compatible complex structure or majorant for covariance, closed-domain
-  compatibility and the null-stratum jump. Do not import the observed energy
-  into I1B, import the I1B radical quotient into the observed packet, union
-  their cells, or select or retrieve a source action.
+  Execute one largest honest compatible Big Wave on the remaining observed
+  domain/quotient and independent I1B holonomy arcs. On the observed packet,
+  construct one named globally cooriented
+  noncharacteristic causal domain and one action-owned constraint/Koszul--Tate
+  or BV complex. Prove that the incoming projector preserves cycles and gauge
+  images, that the gauge image is closed in the selected functional topology,
+  that constraints propagate, and that the H-orthogonal quotient norm is
+  compatible with the closed boundary evolution. Only after those conditions
+  release may normalized effects or instruments be defined on physical
+  classes. In parallel, compute or bound the actual I1B quotient holonomy: a
+  packet-owned compact/unitary reduction globalizes a majorant, while one
+  hyperbolic symplectic element obstructs it. Do not import the observed energy
+  into I1B, import the I1B quotient into the observed packet, reuse raw chart
+  normalization on gauge classes, union packet cells, or select or retrieve a
+  source action.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
