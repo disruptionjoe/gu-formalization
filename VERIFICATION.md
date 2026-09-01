@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 source-observed variable-metric bridge normal-form wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For fixed positive `h(t)` and `mu`, every origin-preserving local point bridge preserving kinetic terms obeys `F(phi(q))=plus-or-minus sqrt(mu)q`, where `F(t)=integral_0^t sqrt(h(s))ds` | `lab/process/k77-source-observed-variable-metric-bridge-normal-form-wave.json`; exact rational probe (`30/30`) | exact local one-mode geodesic normal form; the metric is repository-owned, not source-owned |
+| With `f=0`, cubic cancellation fixes `h1=4 e h0/(3c)`, while `m2=c mu/h0` and `lambda=mu^2(2 e^2 h0-9 c^2 h2)/(27 c h0^3)` | exact inverse arc-length jets; hostile selftest (`15/15`) | exact quartic coefficient classification through second metric order |
+| `h0=4,c=3,e=2,mu=9,h1=32/9,h2=0` gives `m2=27/4,lambda=1/2` with no source quartic | exact positive control | variable metrics refute extension of constant-metric rigidity; a target-fitted metric has no independent selection credit |
+| A source-owned full-carrier kinetic metric, gauge quotient, derivative-dependent/nonlocal map, prediction or confirmation | not constructed | open / explicitly excluded |
+
+## K77 I1B degenerate-measure curvature-integrability wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For `F_uy=(a/u)[C,H]` and weight `u^p du dy`, the invariant mixed-curvature radial factor is finite exactly for `p>1`; the Darboux Pfaffian density `p=1` is logarithmic | `lab/process/k77-i1b-degenerate-measure-curvature-integrability-wave.json`; exact matrix/radial probe (`32/32`) | exact repository-owned punctured weighted-action classification |
+| If `tr([C,H]^2)` is nonzero, finite unrenormalized action with `p<=1` forces `a=0`; both `log(2)` and `log(3)` fail that candidate boundary law | exact invariant coefficient and hostile selftest (`14/14`) | non-tautological zero selector conditional on finite bare action; not source-selected |
+| A nonzero nilpotent commutator is invisible to trace-power actions, a commuting residue has zero mixed curvature, and logarithmic subtraction preserves every `a` | exact nilpotent/commuting controls and counterterm classification | complete invariant-polynomial blind-horn boundary for the stated two-plane |
+| A source-owned measure, positive majorant, boundary domain, counterterm policy, physical quotient, prediction or confirmation | not constructed | open / explicitly excluded |
+
 ## K77 source-observed kinetic-bridge rigidity wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

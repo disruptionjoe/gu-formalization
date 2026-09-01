@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 15eacedce109
+revision_basis: 6fef66de6dd9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The variable-metric/integrability Big Wave closes two surviving escape
+    horns at exact conditional grade. For a fixed positive one-mode source
+    metric h(t)dt^2, the arc-length coordinate F(t)=integral sqrt(h) makes
+    every kinetic-preserving local point bridge unique:
+    F(phi(q))=plus-or-minus sqrt(mu)q. The bridge is affine in geodesic
+    distance, not generally in t. For a cubic source potential with f=0 and
+    h(t)=h0+h1 t+h2 t^2/2+..., cubic cancellation requires
+    h1=4 e h0/(3c), while m2=c mu/h0 and
+    lambda=mu^2(2 e^2 h0-9 c^2 h2)/(27 c h0^3). Thus an independently fixed
+    source metric can select a quartic through its jets, whereas a metric
+    chosen after the target is only a fitting device. Independently, the
+    cross-null Pfaffian measure u du dy makes the invariant mixed-curvature
+    action logarithmically divergent when [C,H] is nonnilpotent and a is
+    nonzero. Finite unrenormalized action selects a=0, rejecting both log(2)
+    and log(3); a logarithmic counterterm preserves every a, nonzero nilpotent
+    commutators are invisible to trace-polynomial actions, and commuting
+    residues select nothing. Neither the full-carrier metric nor the finite-
+    bare boundary law is source-owned. Exact probes pass 30/30 and 32/32;
+    hostile selftests catch 15/15 and 14/14. No source-owned full-carrier
+    bridge, physical cross-null domain, prediction or confirmation results.
     The kinetic-bridge/action-owned-residue Big Wave tests two exact next
     conditions and narrows both. For fixed nonzero constant kinetic
     coefficients kappa and mu, an origin-preserving real C1 local point bridge
@@ -4877,6 +4897,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k77-source-observed-variable-metric-bridge-normal-form-wave-2026-09-01.md
+    - lab/process/k77-source-observed-variable-metric-bridge-normal-form-wave.json
+    - tests/channel-swings/k77_source_observed_variable_metric_bridge_normal_form_probe.py
+    - explorations/conditional-build/k77-i1b-degenerate-measure-curvature-integrability-wave-2026-09-01.md
+    - lab/process/k77-i1b-degenerate-measure-curvature-integrability-wave.json
+    - tests/channel-swings/k77_i1b_degenerate_measure_curvature_integrability_probe.py
     - lab/process/second-layer-historical-certificate-restoration-wave.json
     - lab/process/historical-ledger-snapshot-restoration-wave.json
     - lab/process/current-frontier-currency-custody.json
@@ -5260,12 +5286,12 @@ current_result:
     - lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json
     - tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py
 current_question: >-
-  Does the source/action-owned full-carrier kinetic or symplectic operator
-  satisfy the fixed-metric local point-map horn now proved rigid, or does it
-  require a variable-metric, derivative-dependent, nonlocal or later-action
-  bridge; independently, can a source or boundary law provide mixed residue M
-  without deriving it from the same free tangential coefficient so the
-  invariant I1B selector has non-tautological decision power?
+  Does the source/action own a full-carrier kinetic metric whose geodesic-
+  coordinate potential fixes the required coefficient jets, or must the
+  bridge be derivative-dependent, nonlocal, singular or later-action;
+  independently, does the actual cross-null action own finite bare
+  integrability, a counterterm-renormalized domain, a positive majorant or
+  another boundary law capable of deciding the tangential coefficient?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5275,21 +5301,22 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The constant-kinetic local point-map horn is now fixed: kinetic equality
-  makes the bridge affine, excludes lambda>0, and selects the free mass ratio
-  m2=c mu/kappa. Advance it only by owning the full source and observed kinetic
-  operators, gauge quotient and domain, or by explicitly testing the still-
-  open variable-metric, derivative-dependent, nonlocal, background/orbit-
-  averaged, singular or later-action classes. Independently, action ownership
-  of H,C,M is insufficient when M=a[C,H] is derived from the same free a; the
-  invariant ratio then only recovers the inserted coefficient. Advance I1B
-  with a source-owned coupled-Hessian or independent boundary/matching residue
-  M_* whose lineage excludes the tested a, then apply the nonnilpotent,
-  nilpotent or commuting horn. Do not promote the one-mode kinetic completion
-  to source-owned, generalize constant-metric rigidity to all field
-  redefinitions, count definitional recovery as selection, freeze basis
-  coordinates, union the observed and I1B packets, or score held-out evidence
-  before forward observable export.
+  The variable-metric local point-map horn is now in geodesic normal form. A
+  fixed positive h removes free bridge jets and selects the transformed
+  potential through h0,h1,h2, while a target-fitted h derives nothing. Advance
+  only with an independently source/action-owned full-carrier kinetic metric,
+  gauge quotient and domain, or with an explicitly typed derivative-dependent,
+  nonlocal, singular, background/orbit-averaged or later-action map. For I1B,
+  the Darboux-measure invariant action has three exact horns: finite bare action
+  forces a=0 when [C,H] is nonnilpotent; counterterm renormalization preserves
+  every a; nilpotent and commuting residues are invariant-polynomial blind.
+  Advance only by owning the actual measure, pairing or positive majorant,
+  boundary domain and counterterm policy, or by supplying an independent
+  matching residue. Do not promote repository-owned h or finite-bare
+  admissibility to source truth, fit metric jets after reading the target,
+  treat an indefinite trace polynomial as a positive norm, interchange bare
+  and renormalized domains, union the observed and I1B packets, or score
+  held-out evidence before forward observable export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

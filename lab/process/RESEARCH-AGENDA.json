@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-09-01",
-  "refresh_note": "The reverse scaffold now adds the first bridge-jet restriction with coefficient decision power. Fixed nonzero constant one-mode kinetic pairings force every real C1 local point bridge to be affine; simultaneous potential equality then requires f=e=lambda=0 and m2=c mu/kappa, excluding the interacting quartic in that exact class. Variable-metric, derivative-dependent, nonlocal, background/orbit-averaged, singular and later-action bridges remain open. Independently, the punctured I1B regular-singular action can own H,C and M=a[C,H], but the invariant ratio then recovers the same free action coefficient definitionally. Both log(2) and log(3) survive; non-tautological selection requires an independently derived M. No source-owned full-carrier kinetic bridge or independent cross-null matching packet exists. The B2 named source-action root remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
-  "latest_result_2026_09_01": "Constant-kinetic local point bridges are rigid and cannot connect the cubic source transgression to an interacting quartic observed action; in the free horn they fix m2=c mu/kappa. Joint action ownership of I1B H,C,M does not select a when M is derived from the same free a; the invariant selector needs independent coefficient lineage. Full-carrier source ownership, physical reduction and observable export remain open.",
+  "refresh_note": "The reverse scaffold now classifies the variable-metric escape from constant-kinetic rigidity. A fixed positive one-mode metric h makes the bridge affine in source arc length and removes free bridge jets; its first two jets select the observed mass, cubic cancellation and quartic coefficient. A metric fitted after reading the target has no independent force. Independently, the cross-null Darboux measure makes the nonnilpotent invariant mixed-curvature action logarithmically divergent for every nonzero a: finite bare action selects a=0, a logarithmic counterterm preserves every a, and nilpotent or commuting residues remain blind. Neither the full-carrier metric nor the finite-bare boundary law is source-owned. Derivative-dependent, nonlocal, singular and later-action bridges remain open; a source-owned measure/domain or independent mixed residue remains absent. The B2 named source-action root remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "A fixed positive variable source metric gives a unique geodesic-coordinate bridge and exact quartic jet relation; only an independently owned metric can select rather than fit the target. Under the cross-null Darboux measure, finite bare invariant action forces a=0 in the nonnilpotent horn, counterterm renormalization preserves every a, and nilpotent/commuting horns select nothing. Full-carrier source ownership, physical reduction and observable export remain open.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -515,6 +515,26 @@
         "exact_controls": "32/32 pass; hostile selftest 14/14 caught",
         "scientific_effect": "A repository-owned punctured covariant action can own the logarithmic residue, H,C and M=a[C,H], but the invariant ratio then recovers the same free coefficient definitionally. Log(2) and log(3) remain equally admitted until M has independent lineage.",
         "credit_ceiling": "Local repository-owned regular-singular action and independence audit only; no source-owned coupled Hessian, independent matching datum, physical cross-null bundle, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_source_observed_variable_metric_bridge_normal_form_2026_09_01": {
+        "status": "COMPLETE_VARIABLE_METRIC_GEODESIC_NORMAL_FORM_AND_QUARTIC_JET_CLASSIFICATION",
+        "manifest_ref": "lab/process/k77-source-observed-variable-metric-bridge-normal-form-wave.json",
+        "result_ref": "explorations/conditional-build/k77-source-observed-variable-metric-bridge-normal-form-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_source_observed_variable_metric_bridge_normal_form_probe.py",
+        "exact_controls": "30/30 pass; hostile selftest 15/15 caught",
+        "scientific_effect": "Every fixed positive one-mode variable metric gives a unique local kinetic-preserving bridge through source arc length. Its first two jets select the observed mass, cubic cancellation and quartic coefficient; a target-fitted metric has no independent selection force.",
+        "credit_ceiling": "Local positive variable-metric one-mode point-map theorem only; no source-owned full-carrier metric, gauge quotient, derivative-dependent, nonlocal or later-action bridge, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_i1b_degenerate_measure_curvature_integrability_2026_09_01": {
+        "status": "COMPLETE_DEGENERATE_MEASURE_MIXED_CURVATURE_BARE_INTEGRABILITY_AND_RENORMALIZATION_CLASSIFICATION",
+        "manifest_ref": "lab/process/k77-i1b-degenerate-measure-curvature-integrability-wave.json",
+        "result_ref": "explorations/conditional-build/k77-i1b-degenerate-measure-curvature-integrability-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_i1b_degenerate_measure_curvature_integrability_probe.py",
+        "exact_controls": "32/32 pass; hostile selftest 14/14 caught",
+        "scientific_effect": "The Darboux measure makes nonnilpotent mixed-curvature action logarithmically divergent for every nonzero tangential coefficient. Finite bare action selects zero, counterterm subtraction preserves every coefficient, and nilpotent or commuting residues remain invariant-polynomial blind.",
+        "credit_ceiling": "Repository-owned punctured invariant-action integrability theorem only; no source-owned measure, positive norm, boundary domain, counterterm policy, physical quotient, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "k77_observed_full_incoming_operator_system_2026_09_01": {

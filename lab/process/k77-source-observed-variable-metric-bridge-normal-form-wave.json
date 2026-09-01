@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-SOURCE-OBSERVED-VARIABLE-METRIC-BRIDGE-NORMAL-FORM-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "source_lagrangian": "L_src=(1/2)h(t)(partial t)^2-P(t), P(t)=f t+(c/2)t^2+(e/3)t^3, h(t)>0 fixed independently of the target",
+  "observed_lagrangian": "L_obs=(mu/2)(partial q)^2-Q(q), Q(q)=(m2/2)q^2+(lambda/4)q^4",
+  "bridge_class": "origin-preserving real C1 local point transformations t=phi(q) on a connected interval, with the quartic jet computed for h and P analytic near zero",
+  "exact_result": {
+    "arc_length_coordinate": "F(t)=integral_0^t sqrt(h(s)) ds",
+    "kinetic_normal_form": "h(phi(q))*phi'(q)^2=mu iff F(phi(q))=s*sqrt(mu)*q, s in {+1,-1}",
+    "unique_local_bridge": "phi(q)=F^{-1}(s*sqrt(mu)*q); fixed positive h removes free bridge jets but need not make phi affine in t",
+    "quadratic_coefficient": "m2=c*mu/h0 when f=0, h0=h(0)>0",
+    "cubic_cancellation": "for c nonzero, absence of q^3 requires h1=4*e*h0/(3*c), where h1=h'(0)",
+    "quartic_coefficient": "lambda=mu^2*(2*e^2*h0-9*c^2*h2)/(27*c*h0^3), where h2=h''(0), after cubic cancellation",
+    "ownership_verdict": "an independently fixed source metric gives coefficient decision power through its arc-length jets; a metric chosen after reading the target can fit m2 and lambda and is target-fitted rather than source-owned",
+    "counterexample": "h0=4, c=3, e=2, mu=9, h1=32/9 and h2=0 gives m2=27/4 and lambda=1/2 with no source quartic"
+  },
+  "claim_ceiling": "local positive one-mode variable-metric point transformations and quartic jets only; no source-owned full-carrier metric, gauge quotient, derivative-dependent, nonlocal, singular, background-dependent or later-action equivalence",
+  "source_attribution": "source owns the I1B transgression grammar only; h, the observed action, bridge normal form and coefficient classification are repository-derived",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_source_observed_variable_metric_bridge_normal_form_probe.py",
+  "artifact": "explorations/conditional-build/k77-source-observed-variable-metric-bridge-normal-form-wave-2026-09-01.md",
+  "next_condition": "obtain an independently source/action-owned full-carrier kinetic metric and its gauge/domain data, then compute its canonical-coordinate potential; otherwise advance only with an explicitly typed derivative-dependent, nonlocal, singular or later-action bridge class"
+}

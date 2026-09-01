@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-I1B-DEGENERATE-MEASURE-CURVATURE-INTEGRABILITY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "normal_form": "J_u=uJ_2, A_u=(-I_2/2+C)/u, A_y=aH, F_uy=(a/u)[C,H]",
+  "measure_family": "rho_p(u) du dy=u^p du dy on 0<u<1; the Darboux Pfaffian density is p=1",
+  "action_test": "repository-owned invariant mixed-curvature density integral rho_p(u)*tr(F_uy^2) du dy with finite bare-action admissibility tested separately from counterterm renormalization",
+  "exact_result": {
+    "radial_factor": "integral_epsilon^1 u^(p-2) du is finite as epsilon tends to zero iff p>1; p=1 is logarithmic",
+    "nonnilpotent_horn": "if tr([C,H]^2) is nonzero and p<=1, finite unrenormalized invariant action forces a=0",
+    "darboux_measure_horn": "for p=1 the divergence coefficient is a^2*tr([C,H]^2)*log(1/epsilon), so both log(2) and log(3) fail finite bare-action admissibility when the commutator is nonnilpotent",
+    "nilpotent_horn": "if [C,H] is nonzero nilpotent then every trace-power invariant vanishes and this invariant action is blind despite singular tensor curvature",
+    "commuting_horn": "if [C,H]=0 then F_uy=0 for every a and no coefficient is selected",
+    "counterterm_horn": "subtracting the logarithmic divergence coefficient makes every a admissible in the pure-pole model and therefore renormalizes rather than selects the coefficient",
+    "selection_verdict": "the candidate finite-bare boundary/domain law selects only a=0 in the nonnilpotent Darboux-measure horn; it does not choose log(2) versus log(3), and the source does not currently own this law"
+  },
+  "claim_ceiling": "repository-owned punctured cross-null invariant integrability classification only; no source-owned measure/action/domain law, positive physical norm, null-stratum extension, physical quotient, prediction or confirmation",
+  "source_attribution": "native I1B data supply the rank jump; J_u, C, H, a, the quadratic invariant density, finiteness law and counterterm alternatives remain repository-derived",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_i1b_degenerate_measure_curvature_integrability_probe.py",
+  "artifact": "explorations/conditional-build/k77-i1b-degenerate-measure-curvature-integrability-wave-2026-09-01.md",
+  "next_condition": "derive from the source/action the actual cross-null measure, invariant or positive pairing, boundary domain and counterterm policy; then apply the correct nonnilpotent, nilpotent or commuting horn to the tangential coefficient"
+}
