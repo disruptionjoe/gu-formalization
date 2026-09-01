@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_rank1920_interacting_action_minimal_abelian_bv_moduli",
+  "created": "2026-09-01",
+  "status": "INTERACTING_REPOSITORY_OWNED_QUOTIENT_ACTION_AND_MINIMAL_ABELIAN_BV_COMPLETE__COEFFICIENT_MODULI_NONSELECTION_EXACT__SOURCE_SELECTION_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-observed-action-owned-global-quotient-wave.json",
+  "packet": {
+    "id": "K77-OBSERVED-INTERACTING-BV-CANDIDATE-FAMILY",
+    "ambient_carrier": "real_rank_1920_observed_carrier_V_equals_K960_direct_sum_W960",
+    "ambient_rank": 1920,
+    "gauge_rank": 960,
+    "quotient_rank": 960,
+    "quotient_map": "P_from_V1920_to_W960",
+    "exact_sequence": "0_to_K960_by_iota_to_V1920_by_P_to_W960_to_0"
+  },
+  "domain": {
+    "name": "cooriented_ultrastatic_global_causal_slab_[0,1]_times_T3",
+    "field_space": "H1_sections_of_V1920",
+    "gauge_space": "H1_sections_of_K960",
+    "closed_range_proof": "bounded_direct_summand_projection_I_minus_P"
+  },
+  "action_family": {
+    "owner": "repository_owned_reverse_scaffold_candidate_family",
+    "parameters": {
+      "mass_squared": "m2_greater_than_0",
+      "quartic_coupling": "lambda_greater_than_or_equal_to_0"
+    },
+    "formula": "S_m2_lambda[Phi]=integral(one_half_norm_dt_PPhi_squared-minus_one_half_norm_grad_PPhi_squared-minus_m2_over_2_norm_PPhi_squared-minus_lambda_over_4_norm_PPhi_to_the_fourth)",
+    "euler_equation": "box_psi_plus_m2_psi_plus_lambda_H(psi,psi)_psi_equals_0",
+    "genuinely_nonlinear_when": "lambda_greater_than_0",
+    "energy": "one_half_norm_dt_psi_squared_plus_one_half_norm_grad_psi_squared_plus_m2_over_2_norm_psi_squared_plus_lambda_over_4_norm_psi_to_the_fourth",
+    "energy_positive": true,
+    "energy_conserved": true,
+    "source_status": "not_source_selected_not_attributed_to_Weinstein"
+  },
+  "minimal_bv": {
+    "gauge_algebra": "abelian_additive_H1_sections_of_K960",
+    "ghost": "odd_c_in_H1_sections_of_K960",
+    "brst_differential": {
+      "s_Phi": "iota(c)",
+      "s_c": "0",
+      "s_P_Phi": "0"
+    },
+    "nilpotent": true,
+    "master_action": "S_BV_equals_S_m2_lambda_plus_pairing(Phi_star,iota(c))",
+    "classical_master_equation": true,
+    "master_equation_reason": "P_iota_equals_0_and_the_gauge_algebra_is_abelian",
+    "degree_zero_cohomology": "functions_of_psi_equals_P_Phi",
+    "grade": "formal_minimal_classical_algebraic_BV_for_this_candidate_family"
+  },
+  "moduli_nonselection": {
+    "parameter_space": "(0,infinity)_m2_times_[0,infinity)_lambda",
+    "same_for_all_members": [
+      "closed_direct_summand_gauge_quotient",
+      "nilpotent_minimal_BRST_differential",
+      "classical_master_equation",
+      "degree_zero_quotient_observable_algebra",
+      "representative_independent_full_incoming_interface"
+    ],
+    "inequivalence_witnesses": [
+      "linearized_zero_mode_frequency_squared_equals_m2",
+      "cubic_response_coefficient_equals_lambda",
+      "nonlinear_energy_depends_on_m2_and_lambda"
+    ],
+    "conclusion": "minimal_abelian_BV_closure_and_the_existence_of_a_positive_quartic_interaction_do_not_select_one_complete_candidate"
+  },
+  "fences": {
+    "repository_owned_interacting_candidate_family": true,
+    "formal_minimal_abelian_BV_completion": true,
+    "source_native_gauge_algebra": false,
+    "source_selected_action": false,
+    "gauge_fixed_quantum_theory": false,
+    "analytic_global_BV_phase_space": false,
+    "renormalized_interacting_QFT": false,
+    "unique_physical_selection": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "interacting_repository_owned_candidate_families_constructed": 1,
+    "formal_minimal_abelian_BV_completions_constructed": 1,
+    "coefficient_moduli_dimensions_exposed": 2,
+    "source_selected_GU_actions_completed": 0,
+    "uniquely_selected_physical_actions_completed": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k77_observed_interacting_bv_moduli_probe.py",
+  "result_ref": "explorations/conditional-build/k77-observed-interacting-bv-moduli-wave-2026-09-01.md",
+  "claim_ceiling": "Exact repository-owned nonlinear interacting action family on the closed rank-1920 direct-summand quotient with a formal minimal abelian BV completion and two-parameter coefficient nonselection; no source-native gauge algebra, source-selected action, gauge-fixed quantum theory, analytic BV phase space, unique physical action, prediction, confirmation, held-out score, or verdict."
+}

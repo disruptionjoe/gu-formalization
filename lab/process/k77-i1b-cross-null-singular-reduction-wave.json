@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "i1b_native_rank_jump_logarithmic_singular_reduction_obstruction",
+  "created": "2026-09-01",
+  "status": "NATIVE_24_TO_22_GREEN_QUOTIENT_JUMP_NORMAL_FORM_EXACT__COMPATIBLE_CONNECTION_LOG_POLE_UNAVOIDABLE__TANGENTIAL_COEFFICIENT_NONSELECTION_EXACT",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-i1b-action-induced-connection-wave.json",
+  "native_rank_inputs": {
+    "ambient_fibre_rank": 220,
+    "timelike_radical_rank": 196,
+    "timelike_quotient_rank": 24,
+    "null_radical_rank": 198,
+    "null_quotient_rank": 22
+  },
+  "normal_form": {
+    "normal_coordinate": "u_with_null_stratum_u_equals_0",
+    "transverse_green_form": "J_u_equals_J22_direct_sum_u_times_J2",
+    "J2": "[[0,1],[-1,0]]",
+    "rank_for_u_nonzero": 24,
+    "rank_at_u_zero": 22,
+    "extra_null_radical_rank": 2,
+    "scope": "local_repository_derived_presymplectic_normal_form_realizing_the_native_rank_jump"
+  },
+  "compatible_connection": {
+    "equation": "partial_u_J_u_plus_A_u_transpose_J_u_plus_J_u_A_u_equals_0",
+    "degenerating_block_identity": "B_transpose_J2_plus_J2_B_equals_trace(B)_times_J2",
+    "forced_trace": "trace(B_u)_equals_minus_1_over_u",
+    "bounded_cross_null_connection_exists": false,
+    "smooth_cross_null_connection_exists": false,
+    "logarithmic_representative": "B_u_equals_minus_I2_over_2u",
+    "forced_trace_residue": "minus_one",
+    "symmetric_representative_residue": "minus_one_half_I2",
+    "trace_free_singular_additions": "not_classified",
+    "parallel_transport": "q(u1)_equals_sqrt(abs(u1_over_u0))_times_q(u0)",
+    "cross_null_isomorphism": false
+  },
+  "quotient_boundary": {
+    "ordinary_constant_rank_quotient_bundle_across_u_zero": false,
+    "punctured_stratum_rank24_bundles": true,
+    "null_stratum_rank22_quotient": true,
+    "two_modes_join_the_radical_at_u_zero": true,
+    "derived_or_stratified_replacement": "open_requires_category_matching_domain_and_action_owner"
+  },
+  "tangential_nonselection": {
+    "family": "A_y_equals_log(r)_times_x_times_H_for_r_greater_than_1",
+    "holonomy": "diag(r_inverse_I12,r_I12)",
+    "forced_trace_residue_independent_of_r": true,
+    "log2_candidate_compatible": true,
+    "log3_candidate_compatible": true,
+    "conclusion": "the_native_rank_jump_and_its_forced_trace_residue_do_not_select_the_tangential_action_connection_coefficient"
+  },
+  "ownership_accounting": [
+    {"object": "ambient_rank220_and_196_198_radical_ranks", "classification": "native_I1B_packet_owned"},
+    {"object": "J_u_rank_changing_normal_form", "classification": "repository_derived_from_native_rank_data"},
+    {"object": "logarithmic_compatible_connection_and_residue", "classification": "repository_derived_normal_form_result"},
+    {"object": "source_native_complete_coupled_I1B_Hessian", "classification": "absent"},
+    {"object": "physical_cross_null_reduction_or_matching_law", "classification": "absent"}
+  ],
+  "fences": {
+    "native_rank_jump_used": true,
+    "exact_logarithmic_obstruction": true,
+    "ordinary_smooth_cross_null_quotient_bundle": false,
+    "bounded_compatible_cross_null_connection": false,
+    "source_native_coupled_I1B_Hessian": false,
+    "physical_cross_null_reduction": false,
+    "tangential_coefficient_selected": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "native_rank_changing_normal_forms_constructed": 1,
+    "unavoidable_logarithmic_connection_poles_proved": 1,
+    "smooth_cross_null_quotient_bundles_constructed": 0,
+    "source_native_complete_I1B_Hessians_constructed": 0,
+    "tangential_coefficients_selected": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k77_i1b_cross_null_singular_reduction_probe.py",
+  "result_ref": "explorations/conditional-build/k77-i1b-cross-null-singular-reduction-wave-2026-09-01.md",
+  "claim_ceiling": "Exact local rank-changing Green normal form for the native I1B 24-to-22 quotient jump, unavoidable logarithmic pole for any compatible ordinary connection, and exact nonselection of the log(2)/log(3) tangential coefficient; no smooth cross-null quotient bundle, source-owned coupled Hessian, physical reduction, prediction, confirmation, held-out score, or verdict."
+}

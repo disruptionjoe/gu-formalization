@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 169d944559ab
+revision_basis: 39b689f9117f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The nonlinear-BV/singular-reduction Big Wave tests two previously named
+    selector candidates and finds both insufficient at the exact stated
+    grade. On the complete rank-1920 observed direct-summand quotient, the
+    repository-owned family S_(m2,lambda) is genuinely interacting for
+    lambda>0, has positive conserved nonlinear quotient energy, and admits an
+    explicit nilpotent minimal abelian BRST differential and formal classical
+    BV master action. Every m2>0 and lambda>=0 member has the same closed gauge
+    complex, master equation and degree-zero quotient-observable algebra while
+    differing in linear frequency and cubic response. Minimal abelian BV
+    closure and a positive quartic interaction therefore expose a
+    two-parameter nonselection family rather than selecting the mass-one
+    action. Independently, the native I1B 196-to-198 radical jump is realized
+    by J_u=J_22 direct_sum uJ_2. Green compatibility forces
+    tr(B_u)=-1/u, so no bounded smooth ordinary connection or constant-rank
+    quotient bundle crosses the 24-to-22 jump. The forced trace residue is -1,
+    while the symmetric punctured-stratum representative has matrix residue
+    -I_2/2. The forced trace datum is independent of the tangential
+    coefficient, so log(2) and log(3) remain equally
+    compatible. Neither packet is source-selected, gauge-fixed quantum,
+    physically cross-null or predictive. Exact probes pass 21/21 and 19/19;
+    hostile selftests catch 15/15 and 14/14.
     The action-owned quotient/action-induced connection Big Wave closes the
     first complete reverse-scaffold action conjunction while preserving the
     source boundary. On the named cooriented global slab [0,1]xT3, a written
@@ -5157,13 +5178,19 @@ current_result:
     - explorations/conditional-build/k77-i1b-action-induced-connection-wave-2026-09-01.md
     - lab/process/k77-i1b-action-induced-connection-wave.json
     - tests/channel-swings/k77_i1b_action_induced_connection_probe.py
+    - explorations/conditional-build/k77-observed-interacting-bv-moduli-wave-2026-09-01.md
+    - lab/process/k77-observed-interacting-bv-moduli-wave.json
+    - tests/channel-swings/k77_observed_interacting_bv_moduli_probe.py
+    - explorations/conditional-build/k77-i1b-cross-null-singular-reduction-wave-2026-09-01.md
+    - lab/process/k77-i1b-cross-null-singular-reduction-wave.json
+    - tests/channel-swings/k77_i1b_cross_null_singular_reduction_probe.py
 current_question: >-
-  Which source-owned coefficient, nonlinear gauge/BV relation, interacting
-  coupling or independent held-out structural demand can select or falsify
-  among the complete mass-one and mass-four rank-1920 action/quotient
-  candidates; independently, can a source-owned coupled I1B Hessian or
-  cross-stratum reduction distinguish the log(2) and log(3) action-induced
-  connections?
+  Which independently owned cross-coefficient identity, nonabelian or open
+  gauge relation, source term or exported structural observable can select or
+  falsify within the complete interacting (m2,lambda) rank-1920 action/BV
+  family; independently, can a source-owned coupled I1B Hessian or singular
+  matching law couple the forced cross-null trace residue to the tangential
+  connection coefficient and distinguish log(2) from log(3)?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5173,20 +5200,23 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The first complete repository-owned rank-1920 action/domain/closed-quotient
-  packet now exists and descends the entire full-incoming ordered/composite/
-  instrument interface, but a mass-four twin proves that the downstream
-  demands do not select its coefficient. The next observed edge must supply
-  one independently owned selector with declared decision power between
-  complete candidates: a source coefficient, nonlinear gauge/BV relation,
-  interacting coupling, or new structural demand. A repository-owned I1B
-  action now also induces the curved quotient connection from its written
-  Hessian, but log(2) and log(3) candidates remain equally compatible with the
-  native fixed-stratum Green data. Advance that line only with a source-owned
-  coupled Hessian term, a cross-null singular-reduction theorem, or an
-  independent physical discriminator. Do not relabel either reverse-engineered
-  candidate as Weinstein's action, union the observed and I1B packets, or
-  score the held-out family before forward observable export.
+  The complete repository-owned rank-1920 quotient now admits a nonlinear
+  interacting family and a formal minimal abelian BV completion, but those
+  structures leave the full (m2,lambda) parameter family nonselected. Do not
+  repeat another freely chosen potential. The next observed selector must own
+  a relation with declared decision power over that family: a source term, a
+  cross-coefficient Ward/Noether identity, a nonabelian or open gauge algebra
+  whose master equation constrains coefficients, or a frozen exported
+  structural observable. Independently, the I1B 24-to-22 rank jump now has an
+  exact singular-reduction boundary: every compatible ordinary connection has
+  trace pole -1/u and no smooth constant-rank quotient crosses the null
+  interface. The forced trace residue does not select log(2) versus log(3).
+  Advance that line only with a source-owned coupled Hessian coefficient or
+  additional singular matching/boundary data whose compatibility equation
+  couples the residue to the tangential holonomy parameter. Do not relabel the
+  minimal BV family as the source gauge theory, the punctured normal form as a
+  physical cross-null bundle, union the observed and I1B packets, or score the
+  held-out family before forward observable export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

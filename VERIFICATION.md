@@ -7,6 +7,26 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 observed interacting BV moduli wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On the existing `[0,1] x T3` direct-summand quotient, `S_(m2,lambda)` is gauge invariant for all `m2>0`, `lambda>=0`, genuinely nonlinear for `lambda>0`, and has positive conserved quotient energy | `lab/process/k77-observed-interacting-bv-moduli-wave.json`; exact modal and direct-summand probe (`21/21`) | exact repository-owned interacting reverse-scaffold candidate family; not source-selected or attributed to Weinstein |
+| `s Phi=iota(c)`, `s c=0` is nilpotent, and `S_BV=S_(m2,lambda)+<Phi*,iota(c)>` obeys the classical master equation because `P iota=0` and the gauge algebra is abelian | algebraic BRST/BV identities; hostile selftest (`15/15`) | formal minimal classical abelian BV completion for this candidate family; not gauge fixing, quantum BV, BV-BFV, or an analytic global phase space |
+| Degree-zero BRST observables are functions of `psi=P Phi`, so the predecessor's full-incoming operator/composite/instrument interface remains representative-independent | exact quotient and ghost controls in the same probe | exact quotient-observable descent; the interacting dynamics does not source-select the imported instrument algebra |
+| Every `(m2,lambda)` in `(0,infinity) x [0,infinity)` has the same minimal BV complex while mass and cubic-response witnesses distinguish members | exact frequency, nonlinear-force and energy controls | two-parameter coefficient-moduli nonselection; minimal abelian BV closure and quartic interaction do not select one action |
+| A source-native gauge algebra, source-selected action, gauge-fixed or renormalized QFT, unique physical selection, observable export, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
+## K77 I1B cross-null singular-reduction wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `J_u=J_22 direct_sum uJ_2` realizes the native rank-220 I1B radical jump `196 -> 198` and quotient jump `24 -> 22` | `lab/process/k77-i1b-cross-null-singular-reduction-wave.json`; exact rank probe (`19/19`) | exact local repository-derived presymplectic normal form from native rank data |
+| Green compatibility on the degenerating pair forces `tr(B_u)=-1/u`; therefore no bounded, continuous or smooth ordinary compatible connection exists across `u=0` | exact two-by-two identity `B^T J_2+J_2 B=tr(B)J_2`; unbounded rational sequence; hostile selftest (`14/14`) | exact ordinary-connection obstruction for the stated rank-changing normal form |
+| `B_u=-I_2/(2u)` is a compatible logarithmic representative with residue `-I_2/2`; its parallel transport collapses the pair as the null stratum is approached and inverse transport diverges | exact compatibility and transport-scaling controls | exact punctured-stratum singular reduction; not a smooth cross-null isomorphism or physical quotient bundle |
+| The same forced trace residue is compatible with both `log(2)` and `log(3)` tangential action connections | exact Green-preserving `diag(1/2,2)` and `diag(1/3,3)` controls | cross-null singularity does not select the tangential coefficient |
+| A source-owned coupled I1B Hessian, derived/stratified matching law, physical cross-null reduction, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 observed action-owned global quotient wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
