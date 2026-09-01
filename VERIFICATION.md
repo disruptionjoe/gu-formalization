@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 source-observed indefinite-null first-jet wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On the frozen Lorentzian `1+1` base, the quadratic second-jet form vanishes identically iff the Gram matrix of the two velocity-derivative columns is zero | `lab/process/k77-source-observed-indefinite-null-first-jet-wave.json`; exact rational probe (`33/33`) | exact highest-jet classification for the repository-owned two-component control |
+| Nonzero first-jet dependence survives through one totally null derivative-image line; positive carrier metric restores rigidity, while opposite null columns fail through their cross pairing | explicit null witness plus positive and cross-term controls; hostile selftest (`18/18`) | exact boundary between the frozen positive and indefinite horns |
+| A complete bridge, source-owned rank-1920 symbol, connection-preserved null subbundle, linear boundary-current integrability, gauge quotient or analytic domain | not constructed | open / explicitly excluded |
+| Physical-state, prediction, confirmation, held-out or GU-verdict credit | forbidden by the packet ceiling | none |
+
+## K77 I1B Green-boundary extension wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The frozen positive operator `D_(kappa,a)=J d/du+(kappa/u)S+aH`, `kappa=1/4`, has two singular traces and the exact skew-Hermitian Green form `-conj(c_-)d_+ + conj(c_+)d_-` | `lab/process/k77-i1b-green-boundary-extension-wave.json`; algebraic/manifest probe (`44/44`) plus the written adjoint-domain derivation | exact repository-owned regular-singular control; analytic domain claims are not mechanized by the probe |
+| After fixing `f_2(1)=0`, the singular self-adjoint extensions are the real projective circle of Lagrangian lines `cos(theta)c_-+sin(theta)c_+=0` | trace/Green calculation; hostile selftest (`26/26`) | exact separated extension classification for the frozen control; the L2 count alone is not the law |
+| Every finite real bounded `aH` leaves the minimal/maximal domains, Green form and extension-domain family unchanged, while spectra and zero modes may change | bounded self-adjoint perturbation identity | exact domain nonselection in this control; no `log(2)`/`log(3)` selector |
+| The actual source cross-null operator, native pairing, rank-jump matching law, physical boundary condition, prediction or confirmation | not constructed | open / explicitly excluded |
+
 ## K77 source-observed first-jet substitution rigidity wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

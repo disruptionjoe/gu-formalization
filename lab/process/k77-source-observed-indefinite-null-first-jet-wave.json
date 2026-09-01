@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-SOURCE-OBSERVED-INDEFINITE-NULL-FIRST-JET-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "frozen_model": {
+    "base": "Lorentzian 1+1 with eta=diag(1,-1)",
+    "observed_carrier": "one real scalar q with velocities v_0 and v_1",
+    "source_carrier": "real dimension two with a fixed nondegenerate symmetric form H",
+    "bridge_class": "real C2 local first-jet substitutions T=Phi(q,v_0,v_1)",
+    "comparison": "off-shell on every symmetric second jet modulo divergence of a first-jet current",
+    "target_order": "first order"
+  },
+  "exact_result": {
+    "velocity_columns": "w_0=partial Phi/partial v_0 and w_1=partial Phi/partial v_1",
+    "highest_jet_vectors": "U_0=w_0*r+w_1*s and U_1=w_0*s+w_1*t for (r,s,t)=(q_00,q_01,q_11)",
+    "highest_jet_form": "Q_2=(1/2)*(<U_0,U_0>_H-<U_1,U_1>_H)",
+    "coefficient_vector": [
+      "r^2:(1/2)<w_0,w_0>_H",
+      "r*s:<w_0,w_1>_H",
+      "s^2:(1/2)(<w_1,w_1>_H-<w_0,w_0>_H)",
+      "s*t:-<w_0,w_1>_H",
+      "t^2:-(1/2)<w_1,w_1>_H"
+    ],
+    "boundary_order": "D_mu B^mu(q,v_0,v_1) is at most linear in the symmetric second jet",
+    "classification": "pointwise, Q_2 vanishes identically iff the Gram matrix (<w_alpha,w_beta>_H) is zero iff im(D_v Phi) is totally H-null",
+    "survival_ceiling": "total nullity is necessary and sufficient only to survive the quadratic highest-jet obstruction; lower-order and linear second-jet bridge equations remain"
+  },
+  "witnesses_and_controls": {
+    "nonzero_null_witness": "H=diag(1,-1), n=(1,1), m=(1,-1), Phi=m*q+n*(v_0+2*v_1), so w_0=n and w_1=2*n span one totally null line while the total differential has rank two",
+    "positive_definite_control": "with H=I_2 and the same w_0,w_1, the r^2 coefficient is 1 and derivative dependence is excluded",
+    "cross_term_control": "with H=diag(1,-1), w_0=(1,1), w_1=(1,-1), both columns are null but their pairing is 2, so r*s and s*t terms survive",
+    "signature_1_1_consequence": "pointwise, a totally null image has rank at most one; all nonzero velocity columns lie on one common null line"
+  },
+  "positive_predecessor_relation": "positive-definite H has no nonzero null vectors, so total nullity forces D_v Phi=0 and recovers the prior first-jet rigidity",
+  "claim_ceiling": "exact repository-owned Lorentzian 1+1 quadratic highest-jet classification on a two-dimensional source carrier only; no complete bridge existence, source-owned rank-1920 principal symbol, full-carrier map, gauge quotient, Green form, analytic domain or physical equivalence",
+  "source_attribution": "source owns only the I1B cubic transgression grammar; H, the two-component kinetic model, target action, map class and classification theorem are repository-derived",
+  "unresolved_classes": [
+    "linear second-jet and boundary-current integrability",
+    "lower-order kinetic and potential matching",
+    "source-owned full rank-1920 carrier principal symbol and bridge",
+    "connection-preserved null subbundles",
+    "constraint, gauge and BV reduction",
+    "Green boundary form and closed analytic domain",
+    "singular, higher-jet, nonlocal and auxiliary-field maps",
+    "on-shell or gauge-reduced equivalence"
+  ],
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_source_observed_indefinite_null_first_jet_probe.py",
+  "artifact": "explorations/conditional-build/k77-source-observed-indefinite-null-first-jet-wave-2026-09-01.md",
+  "next_condition": "freeze the source/action-owned full-carrier symbol, gauge complex and analytic domain, then test the complete derivative-image Gram and the remaining linear highest-jet equations"
+}

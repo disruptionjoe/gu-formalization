@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 77df4e299031
+revision_basis: bb488d556ef3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The indefinite-symbol/Green-extension Big Wave turns both prior open horns
+    into exact conditional classifications. For one observed scalar on a
+    Lorentzian 1+1 base and a two-component source carrier with fixed form H,
+    the quadratic highest-jet obstruction vanishes exactly when the complete
+    velocity-derivative image is totally H-null. A nonzero rank-one null
+    witness survives, while positive H restores rigidity and opposite null
+    columns fail through their cross pairing. This proves that positivity, not
+    base signature alone, powered the one-axis theorem; it is not a complete
+    or source-owned bridge. Independently, the repository-owned symmetric
+    control D_(kappa,a)=J d/du+(kappa/u)S+aH at kappa=1/4 has a positive L2
+    pairing, two singular traces, an exact Green form and a circle of
+    Lagrangian self-adjoint extensions after one regular endpoint condition.
+    Every finite bounded real a leaves the minimal/maximal domains, Green form
+    and extension-domain family unchanged, although spectra may vary. This
+    control is not the actual source cross-null operator or native physical
+    pairing and does not select log(2) versus log(3). Exact probes pass 33/33
+    and 44/44; hostile selftests catch 18/18 and 26/26.
     The first-jet/radial-domain Big Wave closes two more regular local horns at
     exact conditional grade. For a positive one-axis source kinetic term and a
     regular substitution t=Phi(q,q_x), the pulled-back kinetic density has
@@ -4916,6 +4933,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k77-source-observed-indefinite-null-first-jet-wave-2026-09-01.md
+    - lab/process/k77-source-observed-indefinite-null-first-jet-wave.json
+    - tests/channel-swings/k77_source_observed_indefinite_null_first_jet_probe.py
+    - explorations/conditional-build/k77-i1b-green-boundary-extension-wave-2026-09-01.md
+    - lab/process/k77-i1b-green-boundary-extension-wave.json
+    - tests/channel-swings/k77_i1b_green_boundary_extension_probe.py
     - explorations/conditional-build/k77-source-observed-first-jet-contact-rigidity-wave-2026-09-01.md
     - lab/process/k77-source-observed-first-jet-contact-rigidity-wave.json
     - tests/channel-swings/k77_source_observed_first_jet_contact_rigidity_probe.py
@@ -5311,12 +5334,12 @@ current_result:
     - lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json
     - tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py
 current_question: >-
-  Does the source/action own a full-carrier principal symbol, gauge complex and
-  domain whose highest-jet test extends the one-axis first-jet rigidity, or do
-  indefinite null directions, auxiliary fields, singularity, nonlocality or
-  gauge reduction permit a genuine bridge; independently, does the actual
-  cross-null Green boundary form and extension law make the domain depend on
-  the tangential coefficient despite leading indicial blindness?
+  Does the actual source/action-owned full-carrier principal symbol admit a
+  connection-preserved totally null derivative-image subbundle after gauge and
+  domain reduction, and do its remaining linear highest-jet equations close a
+  genuine bridge; independently, does the actual cross-null operator, native
+  pairing or rank-jump matching law place the tangential coefficient in its
+  principal normal matrix, singular residue, boundary relation or spectrum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5326,21 +5349,23 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  Regular one-axis first-jet dependence is now rigid: its positive highest-jet
-  square forces Phi_v=0 off shell modulo first-jet boundary terms. Advance the
-  bridge only with an independently source/action-owned full-carrier principal
-  symbol, gauge complex and domain, or with a frozen indefinite-null, singular,
-  higher-jet, nonlocal, auxiliary-field, on-shell or gauge-reduced map class.
-  For I1B, the leading radial weighted-L2 domain depends on residue exponents
-  but not the bounded tangential coefficient; log(2) and log(3) remain
-  indistinguishable at that level. Advance only by deriving the actual cross-
-  null operator, physical pairing and Green boundary form, then classifying
-  minimal/maximal domains, Lagrangian extensions and finite-bare versus
-  counterterm-renormalized policy, or by supplying an independent mixed
-  residue. Do not generalize the one-axis positivity argument to indefinite
-  full carriers, drop the radial factor u before aH, call an L2 mode count a
-  self-adjoint boundary law, treat the control norm as source-owned, union the
-  observed and I1B packets, or score held-out evidence before forward export.
+  The indefinite highest-jet horn is now exact at control grade: nonzero
+  first-jet dependence survives the quadratic obstruction iff the full
+  velocity-derivative image is totally null, with all cross pairings zero.
+  Advance only with an independently source/action-owned full-carrier symbol,
+  gauge complex and analytic domain that supplies a preserved null subbundle,
+  then solve the remaining linear highest-jet and boundary-current equations;
+  otherwise freeze a singular, higher-jet, nonlocal, auxiliary-field, on-shell
+  or gauge-reduced map class. For I1B, one positive regular-singular control now
+  owns a Green form and self-adjoint extension family, but every bounded real
+  tangential coefficient leaves those domains unchanged. Advance by deriving
+  the actual source/action-owned cross-null operator, measure, native pairing
+  and rank-jump matching law, then test whether a enters its principal normal
+  matrix, residue, boundary relation or spectral selector. Do not treat a
+  rank-one null witness as the full bridge, confuse base with carrier
+  indefiniteness, call an L2 count a self-adjoint law, promote the positive
+  control to native I1B data, union the observed and I1B packets, or score
+  held-out evidence before forward export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

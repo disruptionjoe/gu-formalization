@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-I1B-GREEN-BOUNDARY-EXTENSION-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k77-i1b-radial-domain-indicial-classification-wave.json",
+  "control_model": {
+    "interval": "0<u<1",
+    "carrier": "C^2-valued sections",
+    "hilbert_space": "L2((0,1),du;C^2)",
+    "positive_pairing": "<f,g>=integral f^*g du",
+    "kappa": "1/4",
+    "J": "[[0,-1],[1,0]]",
+    "S": "[[0,1],[1,0]]",
+    "H": "[[1,0],[0,-1]]",
+    "formal_expression": "D_(kappa,a)=J*d/du+(kappa/u)*S+a*H for finite real a",
+    "normal_equation": "u*f'+(kappa*H-a*u*S)f=0",
+    "indicial_family": "I(z)=z*I+kappa*H",
+    "ownership": "repository-owned positive control, not the actual source cross-null I1B operator or native physical pairing"
+  },
+  "symmetry": {
+    "matrix_relations": "J^*=-J, S^*=S, H^*=H",
+    "formal_verdict": "symmetric in the positive control pairing",
+    "bounded_tangential_term": "aH is bounded self-adjoint and is lower indicial order after multiplication by -uJ"
+  },
+  "indicial_classification": {
+    "modes": "u^(-kappa)e1 and u^(kappa)e2",
+    "frozen_squared_densities": "u^(-1/2) and u^(1/2)",
+    "frozen_endpoint_class": "limit-circle",
+    "general_threshold": "limit-circle iff |kappa|<1/2; at |kappa|=1/2 one squared density is u^(-1) and logarithmically divergent; limit-point for |kappa|>=1/2",
+    "terminology_fence": "the L2 count is not itself a self-adjoint law"
+  },
+  "domains": {
+    "maximal": "AC_loc sections f in L2 with D_(kappa,a)f in L2",
+    "minimal": "graph closure of C_c^infinity(0,1;C^2)",
+    "bounded_perturbation_identity": "Dom(Dmax,a)=Dom(Dmax,0) and Dom(Dmin,a)=Dom(Dmin,0)",
+    "singular_traces": "c_-=lim u^kappa f1 and c_+=lim u^(-kappa) f2",
+    "trace_surjective": true,
+    "minimal_boundary_data": "c_-=c_+=0 and f(1)=0",
+    "maximal_boundary_data": "arbitrary (c_-,c_+) in C^2 and arbitrary f(1) in C^2"
+  },
+  "green_boundary": {
+    "identity": "<Df,g>-<f,Dg>=omega_0(gamma_0 f,gamma_0 g)-f(1)^*Jg(1)",
+    "singular_form": "omega_0(c,d)=-conj(c_-)d_+ + conj(c_+)d_-",
+    "nondegenerate": true,
+    "a_dependence": "none, because the bounded zero-order coefficient aH is Hermitian and cancels exactly"
+  },
+  "extension_classification": {
+    "fixed_regular_condition": "f2(1)=0",
+    "reduced_symmetric_deficiency_indices": [1, 1],
+    "singular_minimal_data": "(c_-,c_+)=(0,0)",
+    "singular_maximal_data": "C^2",
+    "lagrangian_family": "L_theta={cos(theta)c_-+sin(theta)c_+=0}, theta in R/piZ",
+    "equivalent_parameter_space": "RP^1 is circle-equivalent to U(1); equivalently c_+=lambda*c_- with lambda real or infinity",
+    "self_adjoint_domains": "f2(1)=0 and gamma_0(f) in L_theta",
+    "nonisotropic_control": "span(1,i) is rejected because omega_0(v,v)=-2i"
+  },
+  "coefficient_verdict": {
+    "scope": "every finite real a, including log(2) and log(3)",
+    "minimal_domain_changes": false,
+    "maximal_domain_changes": false,
+    "green_boundary_form_changes": false,
+    "lagrangian_extension_space_changes": false,
+    "self_adjoint_domain_family_changes": false,
+    "spectral_data_may_change": true,
+    "reason": "bounded self-adjoint perturbation with the same graph domains and exact cancellation from the Green commutator"
+  },
+  "claim_ceiling": "exact only for the frozen repository-owned positive two-component regular-singular control; no actual source cross-null operator, native positive pairing, physical boundary law or coefficient selector",
+  "source_attribution": "native I1B data motivate the singular question but do not own this operator, measure, positive pairing, residue, regular endpoint condition or Lagrangian law",
+  "fences": {
+    "actual_source_cross_null_operator_constructed": false,
+    "native_positive_physical_pairing_constructed": false,
+    "source_action_boundary_law_constructed": false,
+    "tangential_coefficient_selected": false,
+    "spectral_equivalence_claimed": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_i1b_green_boundary_extension_probe.py",
+  "artifact": "explorations/conditional-build/k77-i1b-green-boundary-extension-wave-2026-09-01.md",
+  "next_condition": "derive the actual source/action-owned cross-null operator, measure, pairing and matching law, then determine whether a enters its principal normal matrix, singular residue or boundary relation"
+}
