@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a9dbcdc7f9e6
+revision_basis: 7bb77d4ff89e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The action-owned coframe/classical-correlation Big Wave instantiates both
+    K84 demand theorems on the concrete K77 interacting quotient/BV candidate.
+    A minimal repository-owned dynamical-coframe completion has ambient
+    principal tensor g^munu P*HP, gauge kernel K960 and quotient tensor
+    g^munu H, hence one metric cone for all 960 quotient modes. Coframe
+    variation gives symmetric scalar stress, the off-shell identity
+    nabla^mu T_munu=H(E_psi,d_nu psi), and the coupled equation
+    G_munu=kappa T_munu. An independent timelike-vector field restores the
+    positive two-speed control, so the no-spurion field content is
+    load-bearing and the completion is not unique or source-selected.
+    Independently, K77's concrete minimal field-ghost differential has
+    degree-zero cycles equal to functions of psi and zero degree-zero
+    boundaries in that minimal off-shell subcomplex. Its H0 is therefore
+    commutative. Every normalized positive state on the sixteen-point binary
+    observation quotient obeys the sharp classical CHSH bound 2, leaving
+    strict slack 2sqrt(2)-2 to the quantum ceiling; PR value 4 has no positive
+    global commutative extension. Exact probes pass 30/30 and 34/34; hostile
+    selftests catch 18/18 and 19/19. No source GU/gimmel gravity action,
+    nontrivial Koszul-Tate/BFV boundary ideal, action-owned noncommutative
+    quantization, Born state, prediction or confirmation results.
     The local-frame/cohomological-state Big Wave makes both K83 ownership
     seams exact. For a real first-derivative scalar multiplet, the simultaneous
     infinitesimal spatial-rotation and boost equations on a symmetric 1+2
@@ -5483,14 +5503,19 @@ current_result:
     - explorations/conditional-build/k84-brst-star-state-descent-wave-2026-09-01.md
     - lab/process/k84-brst-star-state-descent-wave.json
     - tests/channel-swings/k84_brst_star_state_descent_probe.py
+    - explorations/conditional-build/k85-observed-dynamical-coframe-stress-descent-wave-2026-09-01.md
+    - lab/process/k85-observed-dynamical-coframe-stress-descent-wave.json
+    - tests/channel-swings/k85_observed_dynamical_coframe_stress_descent_probe.py
+    - explorations/conditional-build/k85-observed-brst-classical-correlation-boundary-wave-2026-09-01.md
+    - lab/process/k85-observed-brst-classical-correlation-boundary-wave.json
+    - tests/channel-swings/k85_observed_brst_classical_correlation_boundary_probe.py
 current_question: >-
-  Does the actual source/action-owned full-carrier principal tensor realize the
-  local-frame metric line, exclude or dynamically eliminate preferred-tensor
-  spurions, and descend its coframe Euler/total-stress identity to the physical
-  quotient; independently, does the actual physical BRST/BFV complex make
-  exact boundaries a star ideal and own a normalized positive state that
-  annihilates them, so the Tsirelson SOS relation is physical rather than an
-  imported control?
+  Does an independently source-owned K77 or gimmel full-carrier action realize
+  the now-explicit quotient metric line, no-spurion field content and coframe
+  Euler/total-stress descent; independently, what action-owned Poisson/BV
+  bracket, quantization map, noncommutative reduced product, domain and
+  positive state can move K77's present classical CHSH ceiling of 2 toward or
+  up to the Tsirelson boundary without importing a Born rule?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5500,21 +5525,22 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The class-level causal owner is now minimal: full local Lorentz frame
-  invariance forces the principal tensor to factor through one coframe metric,
-  while diffeomorphism covariance permits positive preferred-vector multi-cone
-  controls. Obtain the independently source/action-owned full-carrier principal
-  tensor, show the required local frame symmetry and absence or dynamical
-  elimination of preferred tensors, derive its coframe Euler/total-stress Ward
-  identity, and descend it to physical cohomology. Independently, the quantum
-  owner must supply a differential star-algebra whose exact degree-zero
-  boundaries form a star ideal and a positive normalized cycle state that
-  annihilates them. Only then test the descended Tsirelson SOS factors for
-  saturation or slack. Preserve the K81 source-symbol and cross-null
-  operator/domain reopeners as lower-ranked owner-construction routes; do not
-  identify covariance with local-frame invariance, positivity before quotient
-  with state descent, repeat local controls, union packet cells, or score
-  delayed-choice entanglement swapping.
+  The K77 repository-owned candidate now has a minimal dynamical-coframe
+  sufficiency witness: its rank-960 quotient principal tensor is metric,
+  its scalar stress and coframe Euler identity are exact, and an added
+  preferred-vector field proves that no-spurion content is load-bearing.
+  Test an independently source-owned K77 or gimmel full-carrier action against
+  those frozen conditions without identifying the Einstein-Hilbert witness
+  with GU's metric-on-metrics gravity. Independently, the owned minimal BRST
+  subcomplex has commutative H0 and sharp classical CHSH ceiling 2. Construct
+  an action-owned Poisson/BV bracket and quantization/deformation, selected
+  domain, noncommutative reduced product and normalized positive state before
+  retesting whether the ceiling stays 2, reaches 2sqrt(2), or is intermediate.
+  Preserve the K81 source-symbol and cross-null operator/domain reopeners as
+  lower-ranked owner-construction routes; do not promote minimal BRST H0 to
+  full BV/BFV cohomology, a classical probability state to a Born state,
+  repeat local controls, union packet cells, or score delayed-choice
+  entanglement swapping.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

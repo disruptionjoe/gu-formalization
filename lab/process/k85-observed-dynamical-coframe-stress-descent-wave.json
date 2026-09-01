@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K85-OBSERVED-DYNAMICAL-COFRAME-STRESS-DESCENT-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "predecessors": [
+    "lab/process/k77-observed-interacting-bv-moduli-wave.json",
+    "lab/process/k84-local-frame-factorization-universal-coupling-wave.json"
+  ],
+  "candidate": {
+    "ambient_carrier": "V1920=K960_direct_sum_W960_with_quotient_map_P",
+    "physical_field": "psi=P_Phi_in_W960",
+    "spacetime": "oriented_time_oriented_1+3_Lorentzian_coframe_manifold",
+    "field_content": "dynamical_coframe_plus_scalar_quotient_multiplet_only",
+    "action": "integral_e[(2*kappa)^-1*R+one_half*H_AB*g^munu*d_mu_psi^A*d_nu_psi^B-V_m2_lambda(H(psi,psi))]",
+    "owner": "repository_owned_reverse_scaffold_candidate_completion",
+    "source_status": "not_source_selected_not_attributed_to_Weinstein_and_not_identified_with_the_gimmel_gravity_functional"
+  },
+  "quotient_principal_descent": {
+    "ambient_tensor": "C^munu=g^munu*P_star_H_P",
+    "gauge_kernel": "K960_is_null_for_every_covector",
+    "quotient_tensor": "C_quot^munu=g^munu*H",
+    "characteristic_cone": "one_metric_null_cone_for_all_rank960_quotient_modes",
+    "lower_order_independence": "m2_and_lambda_do_not_enter_the_principal_tensor"
+  },
+  "variational_descent": {
+    "matter_stress": "T_munu=H(d_mu_psi,d_nu_psi)-g_munu*(one_half*H(dpsi,dpsi)-V)",
+    "coframe_lorentz_ward": "T_ab_is_symmetric_and_the_scalar_spin_current_is_zero",
+    "matter_ward": "nabla^mu_T_munu=H(E_psi,d_nu_psi)",
+    "coframe_euler": "G_munu=kappa*T_munu",
+    "total_stress": "E_munu=G_munu/kappa-T_munu",
+    "on_shell_identity": "E_munu=0_and_nabla^mu_T_munu=0_when_E_psi=0",
+    "scope": "classical_local_variational_identity_for_this_candidate_only"
+  },
+  "preferred_vector_control": {
+    "extra_field": "independent_unit_timelike_u_with_internal_form_J",
+    "principal_tensor": "g^munu*H+u^mu*u^nu*J",
+    "positive_example": "H=I2_and_J=diag(0,3)",
+    "squared_speeds": [1, "1/4"],
+    "lesson": "diffeomorphism_and_local_frame_covariance_with_extra_transforming_fields_do_not_force_universal_coupling; the minimal_no_spurion_field_content_is_load_bearing"
+  },
+  "fences": {
+    "repository_owned_dynamical_coframe_candidate": true,
+    "rank960_quotient_metric_factorization": true,
+    "coframe_euler_and_total_stress_identity": true,
+    "source_owned_GU_coframe_or_gravity_action": false,
+    "identified_with_gimmel_gravity": false,
+    "source_selected_action": false,
+    "unique_action": false,
+    "quantum_gravity": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "repository_owned_candidate_completions_constructed": 1,
+    "quotient_modes_with_one_metric_cone": 960,
+    "source_selected_completions_constructed": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k85_observed_dynamical_coframe_stress_descent_probe.py",
+  "artifact": "explorations/conditional-build/k85-observed-dynamical-coframe-stress-descent-wave-2026-09-01.md",
+  "claim_ceiling": "Exact classical variational and principal-symbol completion of the repository-owned K77 interacting quotient candidate by a minimal dynamical coframe, with a preferred-vector nonselection control; no source-owned GU gravity action, gimmel identification, unique coupling, quantum gravity, prediction or confirmation.",
+  "next_condition": "Test an independently source-owned K77 or gimmel full-carrier coframe/metric action against the frozen quotient factorization, extra-tensor census, coframe Euler and physical descent conditions; absent that owner, classify nonminimal dynamical tensor completions rather than treating this sufficiency witness as selected."
+}

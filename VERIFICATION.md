@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K85 observed dynamical-coframe stress-descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The repository-owned K77 interacting quotient candidate admits a minimal dynamical-coframe completion whose ambient principal tensor is `g^munu P*HP`, whose gauge kernel is `K960`, and whose quotient tensor is `g^munu H` | `lab/process/k85-observed-dynamical-coframe-stress-descent-wave.json`; exact quotient/stress probe (`30/30`) | exact classical variational completion and quotient metric-factorization result for the named repository-owned candidate |
+| Coframe variation gives symmetric scalar stress, `nabla^mu T_munu=H(E_psi,d_nu psi)`, and `G_munu=kappa T_munu` | exact rational first/second-jet Ward certificate plus coupled Euler check | exact local off-shell Ward and on-shell total-Euler identity for this candidate |
+| Diffeomorphism and local-frame covariance with additional transforming fields force one cone | the independent-vector control `gH+uuJ`, `H=I,J=diag(0,3)`, has squared speeds `1` and `1/4`; hostile selftest (`18/18`) | false; the minimal no-spurion field content is load-bearing |
+| A source-owned GU/gimmel coframe action, unique universal coupling, quantum gravity, prediction or confirmation | not constructed; the Einstein-Hilbert completion is explicitly repository-owned | open / explicitly excluded |
+
+## K85 observed BRST classical-correlation boundary wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For the K77 minimal field-ghost differential `s psi=0, s k=c, s c=0`, degree-zero cycles are functions of `psi`; the minimal off-shell algebra has `B0=0`, so `H0_s` is commutative | monomial contraction check; `lab/process/k85-observed-brst-classical-correlation-boundary-wave.json`; exact probe (`34/34`) | exact minimal off-shell BRST-subcomplex cohomology, not full BV/Koszul--Tate or BFV cohomology |
+| Normalized positive states on the finite binary observation quotient obey the sharp bound `|omega(C)|<=2` | all sixteen deterministic joint assignments have `C=+/-2`; positive convex states and exact square checks | exact classical commutative correlation boundary; deterministic saturation at `2` |
+| The current K77 minimal cohomology saturates the quantum Tsirelson value | `2sqrt(2)-2>0`; PR value `4` has no positive global commutative extension; hostile selftest (`19/19`) | false; an action-owned noncommutative quantization is necessary before quantum saturation can be tested |
+| A nontrivial Koszul--Tate/BFV boundary ideal, noncommutative physical observable algebra, Born rule, Bell prediction or held-out score | not constructed or scored | open / explicitly excluded |
+
 ## K84 local-frame factorization universal-coupling wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

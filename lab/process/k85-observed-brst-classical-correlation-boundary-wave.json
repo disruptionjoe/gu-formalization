@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K85-OBSERVED-BRST-CLASSICAL-CORRELATION-BOUNDARY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "predecessors": [
+    "lab/process/k77-observed-interacting-bv-moduli-wave.json",
+    "lab/process/k84-brst-star-state-descent-wave.json"
+  ],
+  "minimal_brst_cohomology": {
+    "ambient_fields": "Phi=(psi,k)_in_W960_direct_sum_K960",
+    "ghost": "odd_c_in_K960",
+    "differential": "s_psi=0_s_k=c_s_c=0",
+    "degree_zero_cycles": "functions_of_psi_only",
+    "degree_zero_boundaries": "zero_in_the_minimal_off_shell_BRST_algebra_without_negative_degree_generators",
+    "cohomology": "H0_s_is_the_commutative_real_star_algebra_of_functions_of_psi",
+    "state_descent": "every_normalized_positive_cycle_state_annihilates_the_zero_boundary_space_and_descends",
+    "boundary_ceiling": "a_nontrivial_on_shell_Koszul_Tate_or_BFV_boundary_ideal_is_not_owned_by_this_minimal_model"
+  },
+  "binary_observation_control": {
+    "algebra": "real_functions_on_the_16_joint_assignments_of_A0_A1_B0_B1_in_plusminus1",
+    "star": "identity_involution",
+    "state_space": "all_nonnegative_normalized_weights_on_the_16_points",
+    "positive_state": "uniform_weight_or_any_probability_weight",
+    "chsh_value": "A0*B0+A0*B1+A1*B0-A1*B1",
+    "pointwise_range": [-2, 2],
+    "sharp_positive_state_bound": 2,
+    "tsirelson_slack": "2*sqrt(2)-2_positive",
+    "pr_boundary": "S=4_cannot_extend_to_a_positive_state_on_one_commutative_joint_assignment_algebra"
+  },
+  "selection_effect": {
+    "result": "the_existing_minimal_abelian_BV_candidate_supplies_a_classical_commutative_degree_zero_observable_algebra_and_cannot_saturate_the_quantum_Tsirelson_value",
+    "required_new_owner": "a_noncommutative_quantization_or_deformation_with_action_owned_product_state_and_domain",
+    "not_sufficient": "noncommutativity_alone_does_not_select_a_Born_state_tensor_rule_or_measurement_dynamics",
+    "coefficient_independence": "m2_and_lambda_do_not_change_the_minimal_BRST_differential_or_commutative_H0"
+  },
+  "fences": {
+    "repository_owned_minimal_brst_cohomology": true,
+    "normalized_positive_classical_state": true,
+    "sharp_classical_chsh_bound": true,
+    "nontrivial_koszul_tate_or_bfv_boundary_ideal": false,
+    "noncommutative_physical_observable_algebra": false,
+    "born_rule": false,
+    "quantum_bell_violation": false,
+    "source_selected_quantization": false,
+    "prediction_or_confirmation": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "commutative_joint_assignments": 16,
+    "sharp_chsh_ceiling": 2,
+    "source_selected_quantizations_constructed": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k85_observed_brst_classical_correlation_boundary_probe.py",
+  "artifact": "explorations/conditional-build/k85-observed-brst-classical-correlation-boundary-wave-2026-09-01.md",
+  "claim_ceiling": "Exact minimal off-shell degree-zero BRST cohomology and sharp classical CHSH boundary for the repository-owned K77 interacting quotient candidate, with a normalized positive finite observation state; no nontrivial Koszul-Tate/BFV boundary ideal, noncommutative physical algebra, Born rule, source-selected quantization, Bell prediction or confirmation.",
+  "next_condition": "Construct an action-owned Poisson/BV bracket and quantization map or star product on the K77 reduced observables, together with a selected domain and normalized positive state, then test whether the CHSH ceiling remains 2, reaches 2*sqrt(2), or is strictly intermediate."
+}
