@@ -333,3 +333,16 @@ zero- and pairing-preserving equivalence. Exact finite controls reject omitted
 additivity/balance, zero-moving equivalences, pairing changes, and extra
 radicals. These theorems supply neither bicategorical/Mackey-2 structure nor a
 source-selected analytic or physical pairing.
+
+## 2026-08-31 — Co-Yoneda and linear cohomology Lean-checked
+
+`Lean/GUFormalization/GroupActionBurnsideCoYoneda.lean` proves the additive
+coend composition map has a canonical identity-leg inverse and packages it as
+an additive equivalence with the iterated restriction-correspondence hom
+group. `Lean/GUFormalization/CandidateCohomologyLinear.lean` identifies the
+existing cycle/gauge quotient with `ker d1 / range d0`, constructs the induced
+linear map of every chain map, and proves carrier-map compatibility. Exact
+finite controls reject missing coend relations, noncycle leakage, omitted
+gauge range and non-gauge-preserving maps. These theorems supply neither a
+bicategory/Mackey-2 structure nor a source-selected physical complex or state
+space.

@@ -20,8 +20,10 @@ import GUFormalization.GroupActionBurnsideSpanCorrespondence
 import GUFormalization.GroupActionBurnsideSpanCorrespondenceComposition
 import GUFormalization.GroupActionBurnsideBisetCoend
 import GUFormalization.GroupActionBurnsideAdditiveCoend
+import GUFormalization.GroupActionBurnsideCoYoneda
 import GUFormalization.CandidateCohomologyPairing
 import GUFormalization.CandidateCohomologyPairingTransport
+import GUFormalization.CandidateCohomologyLinear
 import GUFormalization.ExternalInputInterface
 import GUFormalization.SourceNativeSpin64Observation
 import GUFormalization.SourceNativeObservationDescent
@@ -62,8 +64,10 @@ open GUFormalization.GroupActionBurnsideSpanCorrespondence
 open GUFormalization.GroupActionBurnsideSpanCorrespondenceComposition
 open GUFormalization.GroupActionBurnsideBisetCoend
 open GUFormalization.GroupActionBurnsideAdditiveCoend
+open GUFormalization.GroupActionBurnsideCoYoneda
 open GUFormalization.CandidateCohomologyPairing
 open GUFormalization.CandidateCohomologyPairingTransport
+open GUFormalization.CandidateCohomologyLinear
 open GUFormalization.ExternalInputInterface
 open GUFormalization.SourceNativeSpin64Observation
 open GUFormalization.SourceNativeObservationDescent
@@ -259,6 +263,10 @@ open GUFormalization.SourceNativeActionObservationComplex
 #print axioms AdditiveBalancedEvaluator.descend_unique
 #print axioms additiveBalancedCompose
 #print axioms additiveBalancedCompose_generator
+#print axioms coYonedaSection_compose_generator
+#print axioms additiveBalancedCompose_comp_coYonedaSection
+#print axioms coYonedaSection_comp_additiveBalancedCompose
+#print axioms additiveCoYonedaEquiv
 #print axioms exists_exact_decoder_iff_bijective
 #print axioms no_missing_port
 #print axioms no_overlap
@@ -303,6 +311,12 @@ open GUFormalization.SourceNativeActionObservationComplex
 #print axioms PairingEquivalence.rightNondegenerate_forward
 #print axioms PairingEquivalence.leftNondegenerate_iff
 #print axioms PairingEquivalence.rightNondegenerate_iff
+#print axioms toLinearCandidate_injective
+#print axioms toLinearCandidate_surjective
+#print axioms candidateCohomologyEquivLinear
+#print axioms cycleLinearMap_gauge
+#print axioms gaugeSubmodule_le_comap
+#print axioms linearCohomologyMap_compatible
 #print axioms action_has_no_zero_object
 #print axioms orbitIndexMapOfEquivariantEquiv
 #print axioms orbitIndexEquivOfDomainEquiv

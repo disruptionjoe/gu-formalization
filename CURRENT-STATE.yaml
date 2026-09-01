@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e893089b57c0
+revision_basis: 5a8ea88b57e0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9,6 +9,19 @@ purpose: >-
 current_result:
   status: conditional_research_front
   summary: >-
+    The co-Yoneda/linear-cohomology Big Wave closes two further algebraic
+    carrier seams. Lean proves that composition from the additive all-middle
+    Burnside restriction-correspondence coend is an additive equivalence onto
+    the actual iterated-restriction hom group. Its explicit inverse inserts the
+    composite at the canonical middle object with an identity second leg; the
+    left inverse is exactly the balance relation. Independently, candidate
+    middle cohomology is now identified with the canonical module quotient
+    `ker d1 / range d0`, and every chain map descends linearly compatibly with
+    the existing representative quotient. Exact GF(2) controls reject missing
+    balance/additivity, noncycle leakage, omitted gauge range and maps that do
+    not preserve gauge images. These are conditional algebraic equivalences,
+    not bicategory/Mackey-2 structure, a source-selected complex or action,
+    analytic/positive physical completion, prediction, or GU verdict.
     The additive-interface Big Wave closes two presentation-level structural
     seams. The all-middle Burnside restriction-correspondence construction is
     now the free abelian group on composable pairs modulo explicit
@@ -4957,11 +4970,12 @@ current_result:
 current_question: >-
   Does a source/action-owned Clifford-trace insertion, constraint/BV complex
   or boundary/domain construction select the now-exact quotient and pairing
-  data, realize the supplied pairing equivalence physically, prove that the
-  cycle radical is exactly gauge, and supply a conserved positive real/Krein
-  completion, while the additive Burnside arc still lacks bicategorical
-  2-morphism coherence and the independent equation-9.16 coupling packet
-  remains coefficient-incomplete?
+  data, realize the canonical linear cohomology and supplied pairing
+  equivalence physically, prove that the cycle radical is exactly gauge, and
+  supply a conserved positive real/Krein completion, while the co-Yoneda-
+  identified Burnside hom groups still lack bicategorical 2-morphism
+  coherence and the independent equation-9.16 coupling packet remains
+  coefficient-incomplete?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -4994,23 +5008,27 @@ next_condition: >-
   curvature-sensitive operator, domain and quotient; 144 multiplicity alone
   supplies neither a generation count nor a physical family.
 
-  The candidate-cohomology pairing criterion and its presentation invariance
-  are now exact: two-sided gauge basicness gives descent, quotient
+  Candidate middle cohomology is now exactly the canonical module quotient
+  `ker d1 / range d0`, with linear chain-map descent agreeing with the existing
+  representative quotient. The pairing criterion and its presentation
+  invariance remain exact: two-sided gauge basicness gives descent, quotient
   nondegeneracy is equivalent to the cycle radical containing only gauge
   images, and a supplied pairing-preserving quotient equivalence transports
-  both nondegeneracy directions. Reopen physical-state language only on an
-  action-owned pairing and equivalence, real/Krein structure, common analytic
+  both directions. Reopen physical-state language only on an action-owned
+  complex, pairing and equivalence, real/Krein structure, common analytic
   domain, conservation, positivity or positive majorant, observable and
-  probability interpretation. Algebraic invariance is not physical isometry.
+  probability interpretation. A linear quotient is not a physical state
+  space and algebraic invariance is not physical isometry.
 
-  The Burnside-span arc now owns the additive-group-valued all-middle coend
-  presentation with explicit bilinearity and balance relations. Reopen only
-  for a genuine biset bicategory with 2-morphisms and associator/unitor
-  coherence, ambidexterity, Mackey 2-functor coherence, source realization, or
-  concrete proof/certificate defect. Other proof and integrity families reopen
-  only on measured drift. Protected publication payloads, P-M25 and TWG1
-  require separate authority. No physical action, selection mechanism,
-  publication, release, or scientific-status movement is implied.
+  The Burnside-span arc now owns both the additive-group-valued all-middle
+  coend presentation and its additive co-Yoneda equivalence with the actual
+  iterated-restriction hom group. Reopen only for a genuine biset bicategory
+  with 2-morphisms, horizontal composition and associator/unitor coherence,
+  ambidexterity, Mackey 2-functor coherence, source realization, or concrete
+  proof/certificate defect. Other proof and integrity families reopen only on
+  measured drift. Protected publication payloads, P-M25 and TWG1 require
+  separate authority. No physical action, selection mechanism, publication,
+  release, or scientific-status movement is implied.
 
 latest_prior_condition: >-
   M-H13 and M-M22 are premise-corrected at their exact typing ceilings. Do not

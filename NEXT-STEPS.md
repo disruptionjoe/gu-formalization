@@ -7,6 +7,21 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **2026-08-31 ADDITIVE CO-YONEDA AND LINEAR COHOMOLOGY CONSTRUCTED.**
+> Composition identifies the all-middle additive Burnside restriction-
+> correspondence coend with the actual iterated-restriction hom group by an
+> explicit additive equivalence. The inverse uses the canonical middle object
+> and identity second leg; exact controls show balance and both additivity
+> families are essential. Independently, candidate middle cohomology is now
+> the canonical module quotient `ker d1 / range d0`, and chain maps descend
+> linearly in exact agreement with the representative quotient. Noncycles,
+> omitted gauge range and non-gauge-preserving maps fail hostile controls. The
+> categorical reopener is genuine bicategory/2-morphism coherence; the
+> physical reopener remains a source-owned complex, pairing, analytic domain,
+> conservation and positive real/Krein completion. See
+> `explorations/group-action-burnside-co-yoneda-2026-08-31.md` and
+> `explorations/candidate-cohomology-linear-quotient-2026-08-31.md`.
+
 > **2026-08-31 ADDITIVE COEND AND PAIRING TRANSPORT CONSTRUCTED.** The
 > all-middle Burnside restriction-correspondence quotient is now upgraded to
 > the free abelian group modulo explicit left-additivity, right-additivity and

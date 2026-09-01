@@ -424,3 +424,13 @@ proves left/right nondegeneracy of the descended candidate pairing is invariant
 under an explicit pairing-preserving quotient equivalence. Exact controls pass
 10/10 and 10/10. No source action, analytic/positive physical completion,
 bicategory, ambidexterity or Mackey 2-functor is inferred.
+
+**Additive co-Yoneda and linear candidate cohomology — DONE 2026-08-31.**
+`Lean/GUFormalization/GroupActionBurnsideCoYoneda.lean` proves composition is
+an additive equivalence from the all-middle coend to the actual iterated-
+restriction hom group, with a canonical identity-leg inverse.
+`Lean/GUFormalization/CandidateCohomologyLinear.lean` proves the existing
+cycle/gauge quotient has the canonical `ker d1 / range d0` module presentation
+and functorial linear chain-map descent. Exact controls pass 10/10 and 10/10.
+No source action, physical state space, analytic/positive completion,
+bicategory, ambidexterity or Mackey 2-functor is inferred.
