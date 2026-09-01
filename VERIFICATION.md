@@ -2,10 +2,19 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-08-31"
+updated_at: "2026-09-01"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## Quantum-anchor reverse-scaffold interface wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Coherent plus/minus alternatives are exactly phase distinguishable at recombination, their classical mixture gives probability one half, and dephasing transfers the exact parameter `eta` to fringe visibility while preserving normalization | `lab/process/quantum-anchor-reverse-scaffold-interface-wave.json`; `tests/channel-swings/quantum_anchor_reverse_scaffold_interface_probe.py` (`16/16`) | exact finite standard-quantum control; density operators, Born pairing and dephasing are imported, not GU-derived |
+| The Bell state has exact CHSH value `2 sqrt(2)`, every deterministic local response assignment is bounded by `2`, and a nonselective local dephasing instrument preserves the remote `I/2` marginal while changing the joint state | same exact probe; exhaustive 16-assignment local control; hostile factorization and signalling mutations | exact finite conditional interface witness; no arbitrary-dimension, QFT, curved-spacetime or GU-locality theorem |
+| The two anchors jointly generate typed R5 operational, R4/R3 state/event/composition/decoherence, R2 causal/dynamical and R1 action-requirement lineage, with ten quantum/causal imports itemized and delayed-choice entanglement swapping reserved unscored | structured manifest; result narrative; hostile selftest (`10/10`) | owner-native conditional demand derivation from admitted observations; zero prediction or confirmation credit |
+| A GU-native action, gauge quotient, positive physical state, Born rule, local observable algebra, causal domain, held-out success, prediction, confirmation, export or GU verdict | not constructed | open / explicitly excluded |
 
 ## Quotient pairing and all-middle coend Big Wave (2026-08-31)
 

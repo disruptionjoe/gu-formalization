@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-01",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "method_contract": "lab/process/reverse-scaffold-method-contract.json",
+  "direction": "observed_to_native",
+  "result": "CONDITIONAL_QUANTUM_INTERFACE_AND_DEMAND_LINEAGE_CONSTRUCTED",
+  "claim_ceiling": "Exact conditional finite-dimensional interface witness and backward demand derivation only; no GU-native state, Born rule, action, prediction, confirmation, export, or verdict.",
+  "calibration_anchors": [
+    {
+      "id": "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
+      "role": "calibration_constraint",
+      "confirmation_credit": "none",
+      "frozen_observation": "Bound composite objects exhibit centre-of-mass matter-wave interference; environmental coupling suppresses accessible coherence without a demonstrated size-triggered classical boundary.",
+      "r6_constraints": [
+        "coherent_alternative_composition",
+        "phase_sensitive_recombination",
+        "composite_centre_of_mass_state",
+        "environmental_decoherence_interface"
+      ]
+    },
+    {
+      "id": "EXT-QM-SPACELIKE-BELL-NOSIGNAL",
+      "role": "calibration_constraint",
+      "confirmation_credit": "none",
+      "frozen_observation": "Spacelike-separated measurements on distributed entangled pairs violate a Bell inequality while operational no-signalling is preserved.",
+      "r6_constraints": [
+        "nonfactorizable_joint_state",
+        "contextual_joint_probability_structure",
+        "local_marginal_invariance",
+        "causal_record_comparison"
+      ]
+    }
+  ],
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "why_distinct": "It adds a multipartite conditional-record network and outcome-conditioned remote entanglement rather than replaying single-system fringes or a bipartite CHSH score.",
+    "scored_in_this_result": false,
+    "credit_if_later_passed": "compatibility_only_until_the_forward_certification_chain_is_closed"
+  },
+  "r5_operational_demands": {
+    "shared": [
+      {
+        "id": "QD-R5-S1",
+        "demand": "normalized_nonnegative_event_probabilities",
+        "requires": ["state", "effect", "state_effect_pairing", "normalization_unit"]
+      },
+      {
+        "id": "QD-R5-S2",
+        "demand": "composable_preparations_and_interventions",
+        "requires": ["composition_rule", "identity_intervention", "sequential_update"]
+      },
+      {
+        "id": "QD-R5-S3",
+        "demand": "outcome_records_with_nonselective_normalization",
+        "requires": ["instrument_outcomes", "record_map", "trace_preserving_outcome_sum"]
+      }
+    ],
+    "matter_interference": [
+      {
+        "id": "QD-R5-M1",
+        "demand": "coherent_alternatives_are_not_replaced_by_a_classical_mixture",
+        "requires": ["off_diagonal_phase_carrier", "phase_transform", "recombination_effect"]
+      },
+      {
+        "id": "QD-R5-M2",
+        "demand": "centre_of_mass_composition_is_defined_for_a_bound_composite",
+        "requires": ["composite_state_map", "internal_com_reduction", "mass_independent_coherence_grammar"]
+      },
+      {
+        "id": "QD-R5-M3",
+        "demand": "environmental_coupling_can_reduce_visibility_without_a_kinematic_size_cutoff",
+        "requires": ["decoherence_channel", "environment_record", "visibility_functional"]
+      }
+    ],
+    "bell_nosignalling": [
+      {
+        "id": "QD-R5-B1",
+        "demand": "joint_states_need_not_factorize_over_local_state_spaces",
+        "requires": ["composite_state_space", "entangled_state", "local_effects"]
+      },
+      {
+        "id": "QD-R5-B2",
+        "demand": "context_choices_change_correlations_without_changing_remote_nonselective_marginals",
+        "requires": ["local_instruments", "context_indexed_effects", "remote_marginal_map"]
+      },
+      {
+        "id": "QD-R5-B3",
+        "demand": "spacelike records_are_compared_only_in_a_common_causal_future",
+        "requires": ["local_record_generation", "causal_separation", "later_comparison_map"]
+      }
+    ]
+  },
+  "r4_r3_conditional_interface": {
+    "carrier": "finite_dimensional_complex_density_operators",
+    "state": "positive_trace_one_operator",
+    "effect": "positive_operator_between_zero_and_identity",
+    "event_probability": "trace_of_state_effect_product",
+    "composition": "tensor_product_for_the_exact_control",
+    "intervention": "completely_positive_trace_nonincreasing_outcome_map_with_trace_preserving_nonselective_sum",
+    "record": "classical_outcome_label_plus_post_intervention_state",
+    "decoherence": "completely_positive_trace_preserving_dephasing_channel_with_visibility_parameter_eta_in_zero_one",
+    "observable": "real_affine_functional_generated_by_effect_differences",
+    "gauge_quotient": {
+      "status": "SHARPLY_TYPED_NOT_CONSTRUCTED_FOR_GU",
+      "conditional_requirements": [
+        "one_equivalence_relation_on_the_state_carrier",
+        "all_physical_effects_constant_on_equivalence_classes",
+        "every_admissible_intervention_and_dynamics_map_descends",
+        "positive_pairing_and_normalization_are_representative_independent"
+      ],
+      "exact_missing_owner": "No GU action, gauge generator, common domain, or physical-effect algebra currently owns this quotient."
+    }
+  },
+  "exact_witnesses": {
+    "interference": "The coherent plus and minus states are perfectly distinguished by recombination, while their dephased classical mixture gives probability one half for both phase outputs.",
+    "decoherence": "A dephasing channel multiplies the off-diagonal coherence and fringe visibility by eta while preserving populations and normalization.",
+    "bell": "The Bell state with the standard X/Z and rotated X+/-Z contexts gives exact CHSH value 2 sqrt(2), while every deterministic local hidden-variable assignment is bounded by 2.",
+    "no_signalling": "A nonselective local dephasing instrument changes joint correlations but leaves the remote reduced state exactly one half identity."
+  },
+  "r2_causal_dynamical_demands": [
+    {
+      "id": "QD-R2-1",
+      "demand": "phase_preserving_reversible_evolution_before_recombination",
+      "lineage": ["EXT-QM-MASSIVE-MATTER-INTERFERENCE", "QD-R5-M1"]
+    },
+    {
+      "id": "QD-R2-2",
+      "demand": "state_preserving_open_evolution_with_a_controlled_decoherence_limit",
+      "lineage": ["EXT-QM-MASSIVE-MATTER-INTERFERENCE", "QD-R5-M3"]
+    },
+    {
+      "id": "QD-R2-3",
+      "demand": "nonfactorizable_joint_state_dynamics_compatible_with_local_instruments",
+      "lineage": ["EXT-QM-SPACELIKE-BELL-NOSIGNAL", "QD-R5-B1", "QD-R5-B2"]
+    },
+    {
+      "id": "QD-R2-4",
+      "demand": "operational_no_signalling_for_every_nonselective_local_instrument",
+      "lineage": ["EXT-QM-SPACELIKE-BELL-NOSIGNAL", "QD-R5-B2"]
+    },
+    {
+      "id": "QD-R2-5",
+      "demand": "local_record_creation_and_common_future_comparison_on_a_named_causal_domain",
+      "lineage": ["EXT-QM-SPACELIKE-BELL-NOSIGNAL", "QD-R5-B3"]
+    },
+    {
+      "id": "QD-R2-6",
+      "demand": "normalization_positivity_and_composition_are_preserved_under_time_evolution",
+      "lineage": ["QD-R5-S1", "QD-R5-S2", "QD-R5-S3"]
+    }
+  ],
+  "r1_candidate_action_requirements": {
+    "candidate_selected": false,
+    "requirements": [
+      {
+        "id": "QD-R1-1",
+        "requirement": "field_and_state_carriers_admit_coherent_alternatives_and_nonfactorizable_composites",
+        "lineage": ["QD-R5-M1", "QD-R5-B1"]
+      },
+      {
+        "id": "QD-R1-2",
+        "requirement": "the_variational_and_constraint_system_descends_to_a_normalized_positive_physical_event_pairing",
+        "lineage": ["QD-R5-S1", "QD-R2-6"]
+      },
+      {
+        "id": "QD-R1-3",
+        "requirement": "the_domain_and_principal_dynamics_define_local_interventions_with_remote_marginal_invariance",
+        "lineage": ["QD-R2-3", "QD-R2-4", "QD-R2-5"]
+      },
+      {
+        "id": "QD-R1-4",
+        "requirement": "the_same_dynamics_supports_reversible_phase_transport_and_open_system_decoherence_without_a_size_cutoff",
+        "lineage": ["QD-R2-1", "QD-R2-2"]
+      },
+      {
+        "id": "QD-R1-5",
+        "requirement": "all_gauge_identifications_preserve_effects_and_allow_interventions_and_evolution_to_descend",
+        "lineage": ["QD-R5-S2", "QD-R2-6"]
+      }
+    ]
+  },
+  "import_accounting": [
+    {"id": "QI-1", "object": "complex_linear_state_space", "classification": "imported_standard_quantum_postulate"},
+    {"id": "QI-2", "object": "positive_trace_one_density_operator", "classification": "imported_standard_quantum_postulate"},
+    {"id": "QI-3", "object": "Born_state_effect_pairing", "classification": "imported_standard_quantum_postulate"},
+    {"id": "QI-4", "object": "tensor_product_composition", "classification": "imported_control_model_choice"},
+    {"id": "QI-5", "object": "completely_positive_instrument_update", "classification": "imported_standard_quantum_postulate"},
+    {"id": "QI-6", "object": "partial_trace_marginal", "classification": "imported_control_model_choice"},
+    {"id": "QI-7", "object": "dephasing_channel_and_eta", "classification": "assumed_conditional_open_system_model"},
+    {"id": "QI-8", "object": "spacelike_tensor_factorization", "classification": "assumed_control_locality_model"},
+    {"id": "QI-9", "object": "classical_outcome_records", "classification": "imported_operational_primitive"},
+    {"id": "QI-10", "object": "causal_common_future_for_record_comparison", "classification": "imported_relativistic_causal_primitive"}
+  ],
+  "forbidden_inferences": [
+    "The exact standard quantum witness is a GU-native physical state.",
+    "Reproducing either calibration anchor is a GU prediction or confirmation.",
+    "No-signalling alone forces Hilbert-space quantum mechanics.",
+    "The finite tensor-product control establishes a GU local net or physical causal domain.",
+    "The conditional gauge-quotient requirements construct a GU gauge quotient.",
+    "The demand list selects a source-owned or owner-native action."
+  ],
+  "probe": "tests/channel-swings/quantum_anchor_reverse_scaffold_interface_probe.py",
+  "next_condition": "Construct a carrier-neutral generalized-probabilistic interface and test whether the same two-anchor demands force non-simplicial composition plus instrument-level no-signalling without importing complex Hilbert space; in parallel, map QD-R1-1 through QD-R1-5 onto the qualified K77 candidate packets without selecting or unioning incompatible actions."
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e9fcb9f2ff15
+revision_basis: 9cb6f76ec365
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -4993,15 +4993,16 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-principal-preserving-moving-coefficient-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
+    - explorations/conditional-build/quantum-anchor-reverse-scaffold-interface-wave-2026-09-01.md
+    - lab/process/quantum-anchor-reverse-scaffold-interface-wave.json
+    - tests/channel-swings/quantum_anchor_reverse_scaffold_interface_probe.py
 current_question: >-
-  What common conditional state, event/probability, composition, observable,
-  decoherence and causal-record interface is required by massive matter-wave
-  interference together with spacelike Bell/no-signalling, and what precise
-  causal/dynamical and eventual action requirements follow when those demands
-  are propagated backward without counting the calibration anchors as GU
-  predictions or confirmation? Source authentication remains a separate
-  attribution task, while native forward certification remains blocked at the
-  empty action root.
+  Which parts of the frozen two-anchor quantum demand set force a
+  non-simplicial generalized-probabilistic composite and instrument-level
+  no-signalling without importing complex Hilbert space, and how do the five
+  demand-derived R1 requirement groups map candidate-locally onto the already
+  qualified K77 packets without selecting an action or unioning incompatible
+  carriers, real forms, owners or domains?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5010,24 +5011,27 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave from the admitted quantum
-  calibration anchors. In parallel, freeze massive matter-wave interference
-  and spacelike Bell/no-signalling as R6 constraints; extract their shared and
-  distinct preparation, intervention, record, probability, phase, composition
-  and local-marginal demands at R5; build or sharply obstruct compatible R4/R3
-  conditional state/observable/decoherence interfaces; and propagate their R2
-  causal and dynamical requirements backward. Reserve a distinct held-out
-  consequence family and type every imported quantum postulate. The empty B2
-  action-root set blocks native certification only. It does not block any of
-  these reverse edges.
+  Execute one largest honest compatible Big Wave from the quantum calibration
+  anchors' frozen demands. Use two compatible packets. First, rebuild the
+  exact state/effect/composition/instrument demands in generalized-
+  probabilistic language and determine whether interference, Bell violation
+  and instrument-level no-signalling require a non-simplicial composite, or
+  identify the exact extra postulate supplied by complex Hilbert space.
+  Second, map QD-R1-1 through QD-R1-5 onto each qualified K77 action/causal
+  packet using only candidate-local carriers, real forms, action owners and
+  domains. Return a coverage/obstruction matrix; do not select an action or
+  union evidence across incompatible packets.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
-  work, a smaller wave, source retrieval, routine hardening, or maintenance as
-  a substitute. An R1 action candidate becomes eligible only after it cites
-  the frozen downstream demands that require its fields, coefficients,
-  symmetries, domain and variational structure. Source authentication may then
-  check attribution separately; it does not become the construction method.
+  work, scale reduction, source retrieval, routine hardening or maintenance as
+  a substitute.
+
+  Keep delayed-choice entanglement swapping reserved and unscored. It becomes
+  eligible only after one candidate is frozen and the forward certification
+  chain reaches observable export. Calibration fit still earns no prediction
+  or confirmation, and source authentication remains distinct from native
+  construction.
 
   The frozen source coefficient packet is rank zero on four copy/owner slots;
   separately labeled family exchange raises rank to two and leaves the 54 and
