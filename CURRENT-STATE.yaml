@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 41f64e10dd0b
+revision_basis: 0a9f608a60f6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The universal-cone/Tsirelson-demand Big Wave replaces another local escape
+    search with two class-level necessity tests. On the complete repository-
+    owned observed quotient with positive temporal form H and positive spatial
+    form K, every generalized eigenvalue c_j of H^(-1)K supplies the cone
+    tau^2=c_j|xi|^2. One universal cone occurs iff K=cH, and matching the fixed
+    unit metric cone requires H^(-1)K=I. The positive control diag(1,4) has
+    speeds 1 and 2, while retaining closed quotient, positive conserved energy,
+    minimal abelian BV and quartic interaction; those structures therefore do
+    not select universal coupling. Independently, the Hilbert-operator square
+    identity gives the exact Tsirelson bound |S|<=2sqrt(2), saturated by a real
+    Pauli/Bell control. All sixteen deterministic local boxes stay at |S|<=2,
+    whereas the positive normalized no-signalling PR box reaches S=4. Thus
+    positivity, normalization, no-signalling and local instruments do not
+    select Hilbert/Born structure; the missing operator product, commuting
+    local algebras, contraction order and state expectation carry the bound.
+    Exact probes pass 32/32 and 36/36; hostile selftests catch 19/19 and 19/19.
     The zero-crossing/lower-potential-spectrum Big Wave closes two further
     conditional seams. In real signature (1,1), a C2 null field that switches
     between the two projective null lines through an isolated zero must satisfy
@@ -5422,13 +5438,12 @@ current_result:
     - lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json
     - tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py
 current_question: >-
-  Does the actual source/action-owned full-carrier principal symbol admit a
-  connection-preserved higher-dimensional null derivative-image subbundle
-  whose Helmholtz equations realize or reject the exact rotating control after
-  gauge and domain reduction, including any singular, auxiliary, nonlocal or
-  gauge-owned matching; independently, does the actual source-owned cross-null
-  lower potential and physical domain realize the exact post-half-density
-  spectral invariants rather than define them by hand?
+  Does the actual source/action-owned full-carrier principal symbol and
+  physical quotient force one normalized common causal cone through a
+  dynamical metric/coframe or total-stress identity; independently, does the
+  actual physical state/composition structure own the Hilbert operator product,
+  commuting local algebras, contraction order and Born expectation required by
+  the Tsirelson boundary rather than importing them as controls?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5438,23 +5453,21 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The regular signature-(1,1) zero-crossing class is now closed: a C2 direction
-  switch is flat through order two, carries no invertible amplitude transport,
-  and does not escape the nondegenerate mass control. Advance by obtaining the
-  independently source/action-owned full-carrier principal symbol, gauge
-  complex and analytic domain and testing its actual null derivative image,
-  connection and Helmholtz equations, or freeze a genuinely singular,
-  nonlocal, auxiliary-field, on-shell or gauge-reduced bridge together with
-  the constraint and matching law that own it. For I1B, the complete constant
-  Hermitian periodic spectrum after compatible matrix half-density transport
-  is known and can distinguish log(2) from log(3) through an owned lower
-  potential, but defining the coefficient in the control selects nothing.
-  Derive the actual source cross-null principal matrix, physical density,
-  lower potential and rank-jump boundary or spectral domain, then test whether
-  its transported operator realizes the c, rho and flat-shift invariants. Do
-  not infer amplitude matching from two-jet regularity, import a periodic
-  domain or constant potential, treat a definitional gap as selection, union
-  the two packets, or score held-out evidence before forward export.
+  The class-level causal demand is now exact: a positive constant observed
+  quotient has one common cone iff its normalized spatial stiffness is scalar,
+  and a fixed unit metric requires the identity. Obtain the independently
+  source/action-owned full-carrier symbol, physical quotient and dynamical
+  metric/coframe or total-stress map, then test this identity on every physical
+  sector. Positivity, quotient closure, minimal BV and interaction cannot stand
+  in for it. Independently, the Tsirelson ceiling is carried by Hilbert operator
+  multiplication, commuting local algebras, contraction order and state
+  expectation; positivity, normalization, no-signalling and local instruments
+  admit the PR countermodel. Derive or independently supply the physical state,
+  Born pairing, composition and local observable algebra on the actual quotient
+  before any held-out export. Preserve the K81 source-symbol and cross-null
+  operator/domain reopeners as lower-ranked owner-construction routes; do not
+  repeat local controls, stipulate a common cone, import Hilbert/Born structure,
+  union packet cells, or score delayed-choice entanglement swapping.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

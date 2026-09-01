@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K82-UNIVERSAL-CAUSAL-CONE-CLASSIFICATION-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k77-observed-interacting-bv-moduli-wave.json",
+  "control_model": {
+    "carrier": "the existing real rank-960 observed quotient W with positive temporal form H",
+    "domain": "H1 sections on the cooriented ultrastatic slab [0,1]xT3",
+    "principal_action": "one constant positive H-self-adjoint spatial stiffness operator C, with principal symbol -tau^2*H+|xi|^2*H*C",
+    "interactions": "arbitrary lower-order positive mass and quartic quotient interactions from the repository-owned (m2,lambda) family",
+    "ownership": "repository-owned constant-coefficient quotient-action class, not a source-owned K77 full-carrier symbol or dynamical metric coupling"
+  },
+  "cone_classification": {
+    "normalized_operator": "C=H^(-1)K for positive temporal form H and positive spatial form K",
+    "modal_cones": "for every C-eigenvalue c_j>0 the characteristic sheet is tau^2=c_j*|xi|^2",
+    "universal_cone_iff": "one common characteristic cone occurs iff all c_j equal one constant c, equivalently K=c*H",
+    "fixed_metric_normalization": "after fixing the slab metric light cone, universal luminal propagation requires C=I rather than merely C=cI",
+    "two_speed_witness": "C=diag(1,4) is positive and hyperbolic but has speeds 1 and 2, hence two distinct cones"
+  },
+  "nonselection": {
+    "quotient_and_bv": "the closed K-to-V-to-W quotient, abelian BRST differential and minimal classical master equation are unchanged for every positive C",
+    "positive_energy": "E_C=1/2 integral(|dt psi|_H^2+sum_i <di psi,C di psi>_H)+lower-order positive terms is positive and conserved for every positive C",
+    "lower_order_independence": "mass m2 and quartic lambda do not enter the principal characteristic polynomial",
+    "conclusion": "quotient closure, positivity, minimal BV and interaction do not select universal coupling or a common causal cone"
+  },
+  "source_attribution": "GU source materials currently own no coefficient-complete observed rank-960 principal stiffness, full-carrier quotient symbol, dynamical metric or coframe, or universal total-stress coupling used here",
+  "claim_ceiling": "exact constant-coefficient generalized-eigenvalue and common-cone classification on the repository-owned observed quotient family only; no source full-carrier symbol, nonlinear Einstein coupling, physical stress tensor, prediction or confirmation",
+  "fences": {
+    "source_principal_symbol_constructed": false,
+    "dynamical_metric_owned": false,
+    "universal_coupling_selected": false,
+    "physical_stress_map_owned": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k82_universal_causal_cone_classification_probe.py",
+  "artifact": "explorations/conditional-build/k82-universal-causal-cone-classification-wave-2026-09-01.md",
+  "next_condition": "derive the actual source/action-owned full-carrier principal symbol, physical quotient and dynamical metric or total-stress coupling, then test whether its normalized spatial operator is scalar and luminal on every physical sector"
+}

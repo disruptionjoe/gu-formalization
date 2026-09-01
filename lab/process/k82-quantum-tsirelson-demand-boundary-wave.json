@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K82-QUANTUM-TSIRELSON-DEMAND-BOUNDARY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k77-observed-full-incoming-operator-system-wave.json",
+  "control_model": {
+    "hilbert_branch": "real or complex Hilbert tensor product with binary self-adjoint involutions A0,A1,B0,B1 and commuting Alice/Bob algebras",
+    "weak_demand_branch": "normalized positive bipartite conditional probabilities with no-signalling marginals and local instruments",
+    "bell_functional": "S=E00+E01+E10-E11",
+    "ownership": "repository-owned comparison of conditional operator and generalized-probabilistic controls; not a source-owned GU state, Born pairing or composite"
+  },
+  "hilbert_boundary": {
+    "square_identity": "CHSH^2=4I-[A0,A1] tensor [B0,B1]",
+    "norm_bound": "binary-observable norms give ||[Ai,Aj]||<=2, hence ||CHSH||^2<=8 and |S|<=2*sqrt(2)",
+    "saturating_control": "Pauli Z/X with B0=(Z+X)/sqrt(2), B1=(Z-X)/sqrt(2) on a Bell state gives S=2*sqrt(2)",
+    "parameter_independence": "the bound is independent of the repository-owned m2, lambda and positive principal-stiffness coefficients"
+  },
+  "weak_demand_nonselection": {
+    "local_control": "all sixteen deterministic binary local-response assignments obey |S|<=2",
+    "pr_control": "the exact PR box a xor b=x*y is positive, normalized and no-signalling with S=4",
+    "conclusion": "positivity, normalization, no-signalling marginals, local instruments and a bipartite interface do not imply the Tsirelson boundary",
+    "decisive_extra_structure": "the Hilbert operator product, commuting local algebras, contraction norm and state expectation carry the 2*sqrt(2) ceiling"
+  },
+  "source_attribution": "GU source materials currently own no physical rank-960 Hilbert or C-star completion, Born trace pairing, action-selected tensor product, commuting local observable algebras or exported Bell experiment used here",
+  "claim_ceiling": "exact conditional Tsirelson theorem, saturation control and local/PR separation only; no GU-native Born rule, physical composite, unique quantum theory, prediction or confirmation",
+  "fences": {
+    "source_hilbert_structure_owned": false,
+    "born_pairing_selected": false,
+    "physical_tensor_product_selected": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none; delayed-choice entanglement swapping remains reserved and unscored",
+  "probe": "tests/channel-swings/k82_quantum_tsirelson_demand_boundary_probe.py",
+  "artifact": "explorations/conditional-build/k82-quantum-tsirelson-demand-boundary-wave-2026-09-01.md",
+  "next_condition": "derive or independently supply a source/action-owned physical state space, Born pairing, composition law and local observable algebra on the actual quotient, then test whether the Tsirelson assumptions descend without import before any held-out export"
+}

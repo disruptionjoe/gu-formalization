@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K82 universal causal-cone classification wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For positive temporal form `H` and positive spatial form `K`, the constant quotient family has one common characteristic cone iff `H^(-1)K=cI`, equivalently `K=cH` | `lab/process/k82-universal-causal-cone-classification-wave.json`; exact generalized-eigenvalue probe (`32/32`) | exact common-cone necessity and sufficiency theorem for the repository-owned constant-coefficient quotient class |
+| `C=diag(1,4)` is positive and hyperbolic but has mode speeds `1` and `2` | exact determinant witness and hostile selftest (`19/19`) | exact countercontrol to positivity/hyperbolicity implying universal coupling |
+| Closed quotient, positive energy, minimal abelian BV and quartic interaction select a common cone | every positive stiffness `C` preserves those structures, while lower-order `m2,lambda` do not enter the principal symbol | not selected |
+| A source-owned full-carrier symbol, physical quotient, dynamical metric/coframe or total-stress coupling | not constructed | open / explicitly excluded |
+
+## K82 quantum Tsirelson demand-boundary wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Binary self-adjoint involutions in commuting Hilbert tensor factors obey `|S|<=2sqrt(2)` | exact CHSH square identity and norm bound in `lab/process/k82-quantum-tsirelson-demand-boundary-wave.json`; probe (`36/36`) | exact conditional Hilbert-operator theorem |
+| The bound is sharp | real Pauli `Z/X` Bell control gives `S=2sqrt(2)` exactly | exact conditional saturation control |
+| Positivity, normalization, no-signalling marginals and local instruments imply the Tsirelson boundary | sixteen deterministic local assignments give `|S|<=2`, while the positive normalized no-signalling PR box gives `S=4`; hostile selftest (`19/19`) | false; weak-demand set does not select Hilbert/Born structure |
+| A GU-native physical state, Born pairing, tensor composition, local observable algebra or held-out Bell export | not constructed or scored | open / explicitly excluded |
+
 ## K81 null zero-crossing matching wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
