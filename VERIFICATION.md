@@ -7,6 +7,15 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 quotient and positive-majorant descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| I1B's fixed-rank Green reductions have exact quotient dimensions `24,24,22` and radical dimensions `196,196,198`; the null jump prevents one constant-rank quotient across the null stratum | K130/K131/K135 native packets; `lab/process/k77-quotient-majorant-descent-wave.json`; exact probe (`15/15`) | exact finite-symbol, stratum-wise symplectic quotient; not a global physical constraint/gauge quotient |
+| The induced alternating Green form is not positive, and multiple exact compatible complex structures produce distinct positive majorants moved by symplectic scalings | same exact probe; rational `J_s`, `g_s=omega J_s` and `A_t` controls | exact nonselection theorem-by-witness for the packet's owned data; compatible majorants exist but none is selected |
+| On one supplied noncharacteristic observed chart, transported positive principal energy restricts to the incoming range and supports a quadratic sign-ray, deterministic unit, two effects, energy-orthogonal phase and unit-preserving dephasing | structured manifest; rational projector/energy control; hostile selftest (`15/15`) | exact chart-local conditional order-unit interface; boundary projection is not physical gauge reduction |
+| A global GU-native physical quotient/state, Born rule, composite, normalized instrument algebra, remote-marginal theorem, source action, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 packet-local positive-state extension wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "packet_local_quotient_positive_majorant_and_order_unit_descent",
+  "created": "2026-09-01",
+  "status": "I1B_STRATIFIED_SYMPLECTIC_QUOTIENT_EXACT__I1B_MAJORANT_UNSELECTED__OBSERVED_CHART_LOCAL_MAJORANT_AND_STATE_UNIT_EFFECT_INTERFACE_CONSTRUCTED__ZERO_GLOBAL_PHYSICAL_STATES",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-packet-local-positive-state-extension-wave.json",
+  "demand_ref": "lab/process/quantum-demand-gpt-k77-classification-wave.json",
+  "packet_local_results": [
+    {
+      "id": "K77-I1B-MIXED-ORDER",
+      "carrier": "real_Omega1_Cl77_distortion_plus_metric_variations",
+      "quotient_status": "constructed_on_each_fixed_rank_stratum__not_global_across_null_jump",
+      "radical_dimensions": [196, 196, 198],
+      "reduced_dimensions": [24, 24, 22],
+      "induced_form": "nondegenerate_alternating_Green_form_on_each_fixed_rank_quotient",
+      "positive_majorant_status": "compatible_family_exists__none_selected_by_packet",
+      "majorant_selection_obstruction": "The induced alternating form has omega(v,v)=0 and is not positive. A compatible complex structure J produces g(v,w)=omega(v,Jw), but exact symplectic scalings preserve omega while moving g; the Green quotient alone therefore selects no member of the compatible positive-majorant family.",
+      "physical_state_status": "not_constructed",
+      "psx_status": {
+        "K77-PSX-1": "partial_stratumwise_symbol_quotient__physical_constraint_gauge_quotient_open",
+        "K77-PSX-2": "compatible_majorants_exist_conditionally__none_selected",
+        "K77-PSX-3": "open",
+        "K77-PSX-4": "open",
+        "K77-PSX-5": "open",
+        "K77-PSX-6": "open",
+        "K77-PSX-7": "open"
+      },
+      "evidence_refs": [
+        "explorations/conditional-build/selected-k130-native-i1b-t0-green-domain-and-bv-obstruction-2026-08-16.md",
+        "explorations/conditional-build/selected-k131-native-i1b-t0-dae-bv-bfv-domain-packet-2026-08-16.md",
+        "explorations/conditional-build/selected-k135-native-i1b-t0-coupled-shell-green-domain-2026-08-16.md"
+      ]
+    },
+    {
+      "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+      "carrier": "real_rank_1920_observed_fermionic_K77_carrier",
+      "quotient_status": "incoming_boundary_projection_constructed__physical_gauge_quotient_open",
+      "positive_majorant_status": "chart_local_restriction_of_transported_positive_principal_energy",
+      "majorant_owner": "conditional_action_principal_coefficient_pair_plus_supplied_observed_time_orientation_and_unit_boundary_normal",
+      "state_unit_effect_status": "chart_local_conditional_interface_constructed",
+      "state_interface": [
+        "incoming_amplitude_ray_to_positive_rank_one_quadratic_density",
+        "transported_positive_principal_energy_as_deterministic_unit",
+        "two_positive_coordinate_effects_summing_to_the_unit_on_the_control_range",
+        "energy_orthogonal_phase_transport",
+        "unit_preserving_chart_local_dephasing_control"
+      ],
+      "physical_state_status": "not_constructed",
+      "scope_ceiling": "The construction is conditional on one noncharacteristic observed chart, its time orientation, boundary normal and positive principal energy. Normal reversal exchanges incoming and outgoing ranges. No action-owned physical gauge equivalence, global causal domain, composite rule or operational instrument is supplied.",
+      "psx_status": {
+        "K77-PSX-1": "boundary_projection_constructed__physical_constraint_gauge_quotient_open",
+        "K77-PSX-2": "conditional_chart_local_pass",
+        "K77-PSX-3": "conditional_chart_local_rank_one_cone_pass",
+        "K77-PSX-4": "conditional_chart_local_unit_and_two_effects_pass",
+        "K77-PSX-5": "open",
+        "K77-PSX-6": "open",
+        "K77-PSX-7": "conditional_chart_local_phase_and_dephasing_control_only"
+      },
+      "evidence_refs": [
+        "explorations/conditional-build/selected-k77-variable-incoming-projector-descent-2026-08-11.md",
+        "explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md"
+      ]
+    }
+  ],
+  "exact_control": {
+    "probe_ref": "tests/channel-swings/k77_quotient_majorant_descent_probe.py",
+    "i1b_fixture": "standard_symplectic_quotients_of_dimensions_24_24_22_with_two_distinct_rational_compatible_majorants_and_a_majorant_moving_symplectic_scaling",
+    "observed_fixture": "rational_rank_two_incoming_projector_inside_a_four_dimensional_carrier_with_positive_energy_diag_1_4_1_4",
+    "scope": "finite_exact_structural_certificate_not_a_dimension_reduction_of_the_native_1920_or_220_component_packets"
+  },
+  "psx_obligations": [
+    {
+      "id": "K77-PSX-1",
+      "status": "partial_both_packets__no_global_physical_constraint_gauge_quotient"
+    },
+    {
+      "id": "K77-PSX-2",
+      "status": "i1b_unselected__observed_conditional_chart_local_pass"
+    },
+    {
+      "id": "K77-PSX-3",
+      "status": "i1b_open__observed_conditional_chart_local_pass"
+    },
+    {
+      "id": "K77-PSX-4",
+      "status": "i1b_open__observed_conditional_chart_local_pass"
+    },
+    {
+      "id": "K77-PSX-5",
+      "status": "open_both_packets"
+    },
+    {
+      "id": "K77-PSX-6",
+      "status": "open_both_packets"
+    },
+    {
+      "id": "K77-PSX-7",
+      "status": "i1b_open__observed_conditional_chart_local_control_only"
+    }
+  ],
+  "composability": {
+    "cross_packet_union_allowed": false,
+    "reason": "I1B's reduced Green quotient and the observed fermionic projector have different carriers, variational owners, domains and roles. The observed positive energy cannot fill I1B's majorant cell, and I1B's radical quotient cannot serve as the observed packet's gauge quotient."
+  },
+  "result": {
+    "global_physical_quotients_completed": 0,
+    "gu_native_physical_state_spaces_completed": 0,
+    "conditional_chart_local_order_unit_interfaces_completed": 1,
+    "action_selection": "none",
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "next_frontier": {
+    "incumbent": "Observed packet: construct or obstruct the action-owned constraint/BV equivalence and global noncharacteristic causal domain beneath the chart-local order-unit interface.",
+    "strongest_alternative": "I1B: add an owner candidate for a compatible complex structure or positive majorant and test covariance, domain and null-stratum compatibility without importing observed-packet energy.",
+    "high_confidence_outlier": "Test whether the observed positive-energy family has nontrivial holonomy or normal-reversal obstruction that prevents one global order unit before attempting composite marginals.",
+    "newly_unlocked": "On the observed packet only, a conditional normalized instrument and remote-marginal packet becomes meaningful after a named causal domain and physical quotient are supplied.",
+    "forbidden_reroute": "Do not retrieve or select a source action, union packet cells, or score the held-out family."
+  },
+  "claim_ceiling": "No global GU-native physical quotient, positive state space, Born rule, composite system, instrument algebra, source action, prediction, confirmation, held-out success, canon change, paper status, public-posture change, or GU verdict is created."
+}

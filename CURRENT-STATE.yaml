@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7428754e9752
+revision_basis: 203174a73e36
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The quotient/majorant descent Big Wave now separates the two K77 packets
+    constructively. I1B owns exact nondegenerate alternating quotients on its
+    fixed-rank causal strata, with dimensions 24,24,22 and radicals
+    196,196,198, but its Green form is not positive and selects no compatible
+    complex structure or positive majorant: exact symplectic scalings preserve
+    the Green form while moving an explicit family of positive majorants. The
+    distinct observed incoming-projector packet does better conditionally. On
+    one supplied noncharacteristic observed chart, its transported positive
+    principal energy restricts to a majorant on the incoming range and supports
+    an exact quadratic ray, deterministic unit, two effects, energy-orthogonal
+    phase transport and unit-preserving dephasing control. Boundary projection
+    remains distinct from physical gauge reduction; no global causal domain,
+    composite rule, instrument algebra or GU-native physical state results.
+    The exact probe passes 15/15 and its hostile selftest catches 15/15.
     The packet-local positive-state Big Wave now proves the first exact
     selection boundary forced by the quantum reverse scaffold. Lean proves
     that a sign-invariant pointed subset of an additive carrier is trivial,
@@ -5019,12 +5033,15 @@ current_result:
     - lab/process/k77-packet-local-positive-state-extension-wave.json
     - tests/channel-swings/k77_packet_local_positive_state_extension_probe.py
     - Lean/GUFormalization/PacketLocalPositiveCone.lean
+    - explorations/conditional-build/k77-quotient-majorant-descent-wave-2026-09-01.md
+    - lab/process/k77-quotient-majorant-descent-wave.json
+    - tests/channel-swings/k77_quotient_majorant_descent_probe.py
 current_question: >-
-  Can either K77 packet independently construct its physical constraint/gauge
-  quotient and a positive majorant or polarization, then lift that result to a
-  pointed generating quadratic state cone with a deterministic unit and
-  descended effects, without importing the other packet or retrieving a
-  source action?
+  Can the observed-projector packet promote its chart-local positive-energy
+  order-unit interface through an action-owned constraint/BV equivalence and
+  one global noncharacteristic causal domain, or does normal reversal, bundle
+  transport or constraint propagation obstruct that descent without importing
+  I1B or retrieving a source action?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5033,17 +5050,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave on the two independent
-  packet-local positive-lift fronts. For K77 I1B, classify its radical as
-  owned gauge image versus retained constraint data and construct or sharply
-  obstruct a positive majorant on the resulting quotient. Separately, for the
-  observed-projector carrier, distinguish boundary projection from physical
-  gauge reduction and construct or sharply obstruct a positive majorant on
-  that packet. When either packet releases a majorant, immediately attempt its
-  quadratic state-cone, deterministic-unit and effect descent. Keep the seven
-  K77-PSX obligations and both packet identities exact. Do not import cells
-  across packets, attach the abstract density witness to K77, or select or
-  retrieve a source action.
+  Execute one largest honest compatible Big Wave on the observed packet's
+  newly opened chart-to-global descent. Construct or sharply obstruct the
+  action-owned constraint/BV equivalence beneath the incoming-projector range,
+  propagate it on a named noncharacteristic causal domain, and test whether
+  the transported positive-energy unit is independent of chart, normal and
+  representative. If that physical quotient and global unit release, attempt
+  normalized instruments and a remote-marginal statement on the same domain.
+  In parallel, keep the independent I1B alternative live: test an explicitly
+  owned compatible complex structure or majorant for covariance, closed-domain
+  compatibility and the null-stratum jump. Do not import the observed energy
+  into I1B, import the I1B radical quotient into the observed packet, union
+  their cells, or select or retrieve a source action.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

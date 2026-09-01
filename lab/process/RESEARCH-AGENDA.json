@@ -1,7 +1,8 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-08-31",
-  "refresh_note": "The additive-interface Big Wave presents the all-middle Burnside restriction-correspondence coend as a free abelian group quotient by explicit left-additivity, right-additivity and arbitrary-middle balance, with unique factorization for every biadditive balanced evaluator. It also proves left and right candidate-cohomology pairing nondegeneracy are invariant under a supplied zero- and pairing-preserving quotient equivalence. Exact hostile controls reject missing relation families, zero-moving and pairing-changing equivalences, and extra radicals. These are conditional algebraic interfaces: no biset bicategory, ambidexterity, Mackey 2-functor, source-selected action/equivalence, analytic or positive physical state space, prediction, or GU verdict follows. The low-curvature successor remains deferred; the B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "refresh_note": "The quantum reverse scaffold now distinguishes two packet-local outcomes. I1B has exact fixed-stratum symplectic quotients of dimensions 24,24,22 but its Green data select no compatible positive majorant. The observed incoming-projector packet has a conditional chart-local positive-energy majorant plus an exact quadratic ray, deterministic unit, two effects, phase and dephasing interface; boundary projection remains distinct from physical gauge reduction and no global causal domain, composite, instrument algebra or GU-native state follows. The low-curvature successor remains deferred; the B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "I1B quotient dimensions and positive-majorant nonselection are exact. Separately, the observed projector now carries a chart-local conditional order-unit interface from transported positive principal energy. The next gate is its action-owned constraint/BV and global-domain descent, with I1B compatible-majorant ownership preserved as the strongest independent alternative.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -324,7 +325,7 @@
         "RA-E6",
         "RA-G4"
       ],
-      "latest_result": "The packet-local positive-state Wave proves in Lean that sign-invariant pointed subsets are trivial and raw linear-map ranges on nontrivial carriers cannot themselves be pointed generating cones. The K77 I1B and observed-projector packets are audited independently: neither selects a physical quotient, positive majorant, deterministic unit, effect interval or instrument/dynamics algebra. An exact rational quadratic-density control passes 15/15 and shows the required interface is abstractly feasible, but is attached to neither packet. Seven packet-local extension objects are frozen; zero native state constructions, actions, predictions or confirmations result.",
+      "latest_result": "The quotient/majorant descent Wave constructs I1B's exact fixed-stratum symplectic quotients and proves its Green data select no compatible positive majorant. Separately, transported positive principal energy on one observed incoming-projector chart supports a conditional quadratic ray, deterministic unit, two effects, phase and dephasing interface. Boundary projection is not physical gauge reduction; zero global GU-native state constructions, actions, predictions or confirmations result.",
       "quantum_anchor_interface_2026_09_01": {
         "status": "COMPLETE_CONDITIONAL_INTERFACE_AND_DEMAND_LINEAGE",
         "manifest_ref": "lab/process/quantum-anchor-reverse-scaffold-interface-wave.json",
@@ -354,6 +355,16 @@
         "exact_controls": "15/15 pass; hostile selftest 13/13 caught; Lean kernel checked",
         "scientific_effect": "Two packet-local raw-linear state-cone selections are obstructed and one seven-object minimal extension denominator is frozen independently for each packet; a quadratic density lift is feasible abstractly.",
         "credit_ceiling": "Selection obstruction and carrier-neutral feasibility only; no GU-native quotient, positive majorant, state, Born rule, action, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_quotient_majorant_descent_2026_09_01": {
+        "status": "COMPLETE_I1B_MAJORANT_NONSELECTION_AND_OBSERVED_CHART_LOCAL_ORDER_UNIT_INTERFACE",
+        "manifest_ref": "lab/process/k77-quotient-majorant-descent-wave.json",
+        "result_ref": "explorations/conditional-build/k77-quotient-majorant-descent-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_quotient_majorant_descent_probe.py",
+        "exact_controls": "15/15 pass; hostile selftest 15/15 caught",
+        "scientific_effect": "I1B's stratum-wise quotient is exact but its compatible positive majorant is unselected; the observed packet independently reaches a chart-local conditional positive-energy state/unit/effect interface while physical gauge and global-domain descent remain open.",
+        "credit_ceiling": "Packet-local quotient/majorant classification and chart-local conditional interface only; no global physical state, Born rule, composite, instrument algebra, action, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "hourly_ready_candidate_2026_08_24": {
