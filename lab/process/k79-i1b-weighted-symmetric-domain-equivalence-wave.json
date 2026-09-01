@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K79-I1B-WEIGHTED-SYMMETRIC-DOMAIN-EQUIVALENCE-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "control_model": {
+    "operator": "D_(p,kappa,a)=J*(d/du+p/(2u))+(kappa*S+a*H)/u",
+    "pairing": "positive L2((0,1),u^p du;C^2)",
+    "formal_adjoint_identity": "(J*d/du)^*=J*d/du+(p/u)*J",
+    "forced_correction": "(p/(2u))*J",
+    "green_form": "[u^p*f^*J*g]_0^1",
+    "ownership": "repository-owned power-law weighted symmetric countercontrol"
+  },
+  "unitary_equivalence": {
+    "map": "U_p f=u^(p/2)f from L2(u^p du) to L2(du)",
+    "identity": "U_p*D_(p,kappa,a)*U_p^(-1)=D_(0,kappa,a)",
+    "domain_effect": "minimal and maximal domains, deficiency indices, endpoint class, Green traces and self-adjoint extensions transport bijectively",
+    "boundary_identity": "u^p*f^*J*g=(U_p f)^*J*(U_p g)"
+  },
+  "indicial_result": {
+    "normal_matrix": "C_p=(p/2)I+kappa*H-a*S",
+    "rho": "sqrt(kappa^2+a^2)",
+    "modes": "u^(-p/2-rho)e_plus and u^(-p/2+rho)e_minus",
+    "weighted_densities": "u^(-2rho) and u^(2rho)",
+    "limit_circle_iff": "rho<1/2 independently of p",
+    "candidate_class": "at kappa=1/4 both a=log(2) and a=log(3) are limit-point for every p"
+  },
+  "raw_control": {
+    "operator": "D_raw=J*d/du+(kappa*S+a*H)/u in L2(u^p du)",
+    "defect": "formal-adjoint defect (p/u)*J for p nonzero",
+    "p1_result": "the prior log(2) two-mode versus log(3) one-mode count remains an integrability fact for the mismatched expression and measure",
+    "verdict": "the raw weighted split is not a self-adjoint-domain discriminator"
+  },
+  "claim_ceiling": "exact repository-owned formal symmetry, half-density unitary equivalence, endpoint class and Green-trace transport only; no source cross-null operator, physical measure, rank-jump boundary law or coefficient selector",
+  "source_attribution": "native I1B data do not own this operator, measure family, pairing, half-density map or matching law",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k79_i1b_weighted_symmetric_domain_equivalence_probe.py",
+  "artifact": "explorations/conditional-build/k79-i1b-weighted-symmetric-domain-equivalence-wave-2026-09-01.md",
+  "next_condition": "derive the source-owned normal operator, density, pairing and rank-jump boundary or spectral law and test its half-density invariants"
+}

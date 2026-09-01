@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K79-NULL-LINE-PROJECTIVE-RIGIDITY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "frozen_model": {
+    "base": "Lorentzian 1+1 with eta=diag(1,-1)",
+    "source_carrier": "real dimension two with H=diag(1,-1)",
+    "null_field": "nonvanishing C1 n(q) on a connected interval",
+    "map": "T=b(q)+n(q)*(A^rho(q)*v_rho)",
+    "comparison": "off shell modulo divergence of an explicit first-jet current",
+    "scope_exclusion": "zeros of n, higher-signature or complex null cones, singular maps and gauge-reduced equivalence"
+  },
+  "projective_result": {
+    "factorization": "n(q)=r(q)*(1,sigma) with r(q) nonzero and sigma in {+1,-1} constant",
+    "reason": "y/x is continuous, squares to one and therefore is constant on a connected interval",
+    "verdict": "the nonvanishing real signature-(1,1) null line cannot rotate projectively",
+    "zero_control": "n(q)=(q,abs(q)) switches null component only through n(0)=0",
+    "higher_signature_control": "n(theta)=(cos(theta),sin(theta),1) rotates in signature (2,1)"
+  },
+  "variable_shear_result": {
+    "reduced_map": "T=b(q)+n_sigma*w^rho(q)*v_rho",
+    "definitions": "X=(1/2)eta^(mu nu)v_mu*v_nu and c=<b',n_sigma>_H",
+    "kinetic_identity": "K=<b',b'>_H*X+c*w^rho*partial_rho(X)+2*c*w^(rho prime)*v_rho*X",
+    "current_identity": "c*w^rho*partial_rho(X)=partial_rho(c*w^rho*X)-(c'*w^rho+c*w^(rho prime))*v_rho*X",
+    "first_order_representative": "K_eff=<b',b'>_H*X+(c*w^(rho prime)-c'*w^rho)*v_rho*X",
+    "exact_witness": "n=(1,1), b=(q,q^2), w=(q,1) gives correction (v0+2*v1)*X"
+  },
+  "quadratic_potential": {
+    "velocity_independence_on_shear_support_iff": "n_sigma^T M n_sigma=0 and n_sigma^T M b(q)=0",
+    "mass_control": "for nonzero M=m^2*H, b(q) lies in span(n_sigma)",
+    "mass_control_consequence": "the pulled-back kinetic density vanishes identically",
+    "ceiling": "two-component nondegenerate mass-control no-go only, not a source or full-carrier no-go"
+  },
+  "claim_ceiling": "exact repository-owned projective-null and variable-shear classification in real signature (1,1) only; no source-owned full carrier, higher-signature theorem, zero-crossing theorem, gauge quotient, analytic domain or physical equivalence",
+  "source_attribution": "the source owns none of the frozen carrier, map, kinetic or potential controls",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k79_null_line_projective_rigidity_probe.py",
+  "artifact": "explorations/conditional-build/k79-null-line-projective-rigidity-wave-2026-09-01.md",
+  "next_condition": "obtain the source-owned full principal symbol, gauge complex and analytic domain and test its actual higher-dimensional null subbundle and Helmholtz equations"
+}

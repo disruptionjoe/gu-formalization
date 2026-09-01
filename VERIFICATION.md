@@ -7,6 +7,25 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K79 null-line projective rigidity wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every nonvanishing continuous null field on a connected real signature-`(1,1)` carrier factors as `n(q)=r(q)(1,sigma)` with fixed `sigma=+/-1` | `lab/process/k79-null-line-projective-rigidity-wave.json`; exact null-cone probe (`36/36`) | exact two-dimensional projective-null classification; zeros and higher signature excluded |
+| For `T=b(q)+n_sigma w^rho(q)v_rho`, all linear acceleration terms reduce modulo the current `c w^rho X` to `(c w^(rho prime)-c'w^rho)v_rho X` | exact differentiation/current identity and hostile selftest (`24/24`) | exact variable-shear variational reduction for the repository-owned control |
+| A null-direction switch requires a zero, while `(cos(theta),sin(theta),1)` rotates projectively in signature `(2,1)` | explicit boundary controls | exact limits on the theorem; no full-carrier or source no-go |
+| A source-owned full carrier, gauge quotient, analytic domain, zero/singular matching law or physical equivalence | not constructed | open / explicitly excluded |
+
+## K79 I1B weighted symmetric-domain equivalence wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Formal symmetry in `L2(u^p du)` forces the correction `Jp/(2u)`, with Green form `[u^p f^*Jg]_0^1` | `lab/process/k79-i1b-weighted-symmetric-domain-equivalence-wave.json`; exact coefficient probe (`41/41`) | exact formal-symmetry classification for the repository-owned power-law family |
+| `U_p f=u^(p/2)f` conjugates `D_(p,kappa,a)` to `D_(0,kappa,a)` and transports minimal/maximal domains, endpoint class, Green traces and self-adjoint extensions | direct half-density calculation and hostile selftest (`26/26`) | exact unitary domain equivalence for the frozen control |
+| Corrected weighted densities are `u^(-2rho)` and `u^(2rho)`; at `kappa=1/4`, both `log(2)` and `log(3)` are limit-point for every `p` | rational exponential bounds and exact exponent cancellation | exact endpoint nonselection in the symmetric power-law family |
+| The prior raw `u du` two-versus-one count | uncorrected expression has formal-adjoint defect `(p/u)J` | valid integrability fact only; not a self-adjoint-domain discriminator |
+| The actual source cross-null operator, physical density/pairing, rank-jump boundary law, spectrum or coefficient selector | not constructed | open / explicitly excluded |
+
 ## K78 null-shear variational bridge wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
