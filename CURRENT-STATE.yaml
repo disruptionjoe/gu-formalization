@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9cb6f76ec365
+revision_basis: ca2ac1237b41
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -4996,13 +4996,15 @@ current_result:
     - explorations/conditional-build/quantum-anchor-reverse-scaffold-interface-wave-2026-09-01.md
     - lab/process/quantum-anchor-reverse-scaffold-interface-wave.json
     - tests/channel-swings/quantum_anchor_reverse_scaffold_interface_probe.py
+    - explorations/conditional-build/quantum-demand-gpt-k77-classification-wave-2026-09-01.md
+    - lab/process/quantum-demand-gpt-k77-classification-wave.json
+    - tests/channel-swings/quantum_demand_gpt_k77_classification_probe.py
 current_question: >-
-  Which parts of the frozen two-anchor quantum demand set force a
-  non-simplicial generalized-probabilistic composite and instrument-level
-  no-signalling without importing complex Hilbert space, and how do the five
-  demand-derived R1 requirement groups map candidate-locally onto the already
-  qualified K77 packets without selecting an action or unioning incompatible
-  carriers, real forms, owners or domains?
+  Can either current K77 packet independently carry an ordered positive state
+  cone, deterministic unit, physical effect interval and descended
+  transformation algebra strong enough to open QD-R1-2 and QD-R1-5, and if
+  not, what minimal K77 carrier extension is forced by the frozen quantum
+  demands without selecting or retrieving a source action?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5012,26 +5014,31 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave from the quantum calibration
-  anchors' frozen demands. Use two compatible packets. First, rebuild the
-  exact state/effect/composition/instrument demands in generalized-
-  probabilistic language and determine whether interference, Bell violation
-  and instrument-level no-signalling require a non-simplicial composite, or
-  identify the exact extra postulate supplied by complex Hilbert space.
-  Second, map QD-R1-1 through QD-R1-5 onto each qualified K77 action/causal
-  packet using only candidate-local carriers, real forms, action owners and
-  domains. Return a coverage/obstruction matrix; do not select an action or
-  union evidence across incompatible packets.
+  anchors' frozen demands. Work candidate-locally and keep four compatible
+  reverse packets live: construct or sharply obstruct an ordered positive
+  cone, deterministic unit and effect interval on the reduced K77 I1B Green
+  carrier; repeat independently on the K77 observed-projector carrier; test
+  whether every surviving packet owns normalized instruments plus a remote-
+  marginal statement on one named causal domain; and classify reversible
+  phase-sensitive maps and open decoherence maps. If neither carrier can host
+  the required structures, derive the minimal K77 carrier-extension
+  requirements. Do not import cells between the two packets and do not select
+  or retrieve a source action.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
   work, scale reduction, source retrieval, routine hardening or maintenance as
   a substitute.
 
-  Keep delayed-choice entanglement swapping reserved and unscored. It becomes
-  eligible only after one candidate is frozen and the forward certification
-  chain reaches observable export. Calibration fit still earns no prediction
-  or confirmation, and source authentication remains distinct from native
-  construction.
+  The carrier-neutral classification is now fixed: convex GPT normalization
+  and no-signalling do not select quantum theory because the exact PR-box
+  control reaches CHSH 4, while the imported quantum witness has CHSH square
+  8 and the classical simplex is bounded by 2. Preserve this discriminator
+  triangle. Keep delayed-choice entanglement swapping reserved and unscored.
+  It becomes eligible only after one candidate is frozen and the forward
+  certification chain reaches observable export. Calibration fit still earns
+  no prediction or confirmation, and source authentication remains distinct
+  from native construction.
 
   The frozen source coefficient packet is rank zero on four copy/owner slots;
   separately labeled family exchange raises rank to two and leaves the 54 and

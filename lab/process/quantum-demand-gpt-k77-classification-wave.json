@@ -1,0 +1,294 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "carrier_neutral_quantum_demand_and_candidate_local_k77_classification",
+  "created": "2026-09-01",
+  "status": "GPT_CORE_CLASSIFIED__QUANTUM_SELECTION_NOT_DERIVED__TWO_K77_PACKETS_MAPPED__ZERO_COMPLETE__NO_CROSS_PACKET_UNION",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "input_interface_ref": "lab/process/quantum-anchor-reverse-scaffold-interface-wave.json",
+  "action_qualification_ref": "lab/process/action-causal-closure-qualification-v0.1.json",
+  "carrier_neutral_gpt_core": [
+    {
+      "id": "GPT-C1",
+      "object": "ordered_real_vector_space_and_generating_positive_cone",
+      "role": "subnormalized_state_carrier_and_convex_mixing",
+      "status": "carrier_neutral_required"
+    },
+    {
+      "id": "GPT-C2",
+      "object": "strictly_positive_deterministic_order_unit",
+      "role": "normalization_and_discarding",
+      "status": "carrier_neutral_required"
+    },
+    {
+      "id": "GPT-C3",
+      "object": "dual_effect_interval_zero_to_unit",
+      "role": "normalized_nonnegative_event_evaluation",
+      "status": "carrier_neutral_required"
+    },
+    {
+      "id": "GPT-C4",
+      "object": "positive_subnormalizing_transformations_and_instruments",
+      "role": "intervention_outcomes_and_nonselective_evolution",
+      "status": "carrier_neutral_required"
+    },
+    {
+      "id": "GPT-C5",
+      "object": "composite_rule_local_embeddings_and_marginals",
+      "role": "joint_states_local_actions_and_no_signalling_test",
+      "status": "carrier_neutral_required_but_not_uniquely_fixed"
+    },
+    {
+      "id": "GPT-C6",
+      "object": "record_system_and_causal_comparison_map",
+      "role": "outcome_storage_and_common_future_comparison",
+      "status": "operational_extension_not_implied_by_convexity"
+    }
+  ],
+  "quantum_specific_imports_not_fixed_by_gpt_core": [
+    "complex_Hilbert_carrier",
+    "positive_semidefinite_density_operator_cone",
+    "Born_trace_pairing",
+    "tensor_product_composition",
+    "complete_positivity_under_ancilla_extension",
+    "quantum_correlation_set_and_Tsirelson_boundary",
+    "unitary_phase_transport",
+    "CPTP_decoherence_channel"
+  ],
+  "exact_model_discriminators": [
+    {
+      "id": "GPT-D1-CLASSICAL-SIMPLEX",
+      "properties": [
+        "convex_normalized_states",
+        "dual_effects",
+        "positive_instruments",
+        "local_hidden_CHSH_ceiling_2"
+      ],
+      "fails": [
+        "phase_hidden_from_path_effects",
+        "Bell_CHSH_violation"
+      ],
+      "meaning": "GPT core alone does not force the nonclassical anchor content."
+    },
+    {
+      "id": "GPT-D2-QUANTUM-WITNESS",
+      "properties": [
+        "phase_sensitive_recombination",
+        "dephasing_visibility",
+        "Bell_CHSH_2_sqrt_2",
+        "nonselective_remote_marginal_invariance"
+      ],
+      "status": "exact_conditional_compatibility_witness",
+      "meaning": "The imported standard-quantum interface jointly realizes the calibration demands but is not selected by GPT syntax or GU."
+    },
+    {
+      "id": "GPT-D3-PR-BOX",
+      "properties": [
+        "normalized_nonnegative_context_probabilities",
+        "uniform_local_marginals",
+        "operational_no_signalling",
+        "CHSH_4"
+      ],
+      "status": "exact_superquantum_countermodel",
+      "meaning": "Convex probabilities plus no-signalling do not imply the quantum correlation set or Tsirelson boundary."
+    }
+  ],
+  "qd_r1_classification": [
+    {
+      "id": "QD-R1-1",
+      "carrier_neutral_content": [
+        "distinguishable_and_coherently_transformable_alternatives",
+        "a_nonminimal_composite_state_space",
+        "local_effect_embeddings"
+      ],
+      "not_fixed_by_core": [
+        "complex_amplitudes",
+        "Hilbert_tensor_product",
+        "quantum_entanglement_cone"
+      ],
+      "classification": "principle_selecting_beyond_bare_gpt"
+    },
+    {
+      "id": "QD-R1-2",
+      "carrier_neutral_content": [
+        "positive_cone",
+        "deterministic_unit",
+        "effect_interval",
+        "representative_independent_normalized_pairing"
+      ],
+      "not_fixed_by_core": [
+        "self_duality",
+        "Born_trace_pairing",
+        "physical_gauge_quotient"
+      ],
+      "classification": "gpt_core_plus_physical_quotient_and_pairing_selection"
+    },
+    {
+      "id": "QD-R1-3",
+      "carrier_neutral_content": [
+        "local_positive_instruments",
+        "nonselective_unit_preservation",
+        "remote_marginal_invariance",
+        "named_causal_domain"
+      ],
+      "not_fixed_by_core": [
+        "spacetime_localization",
+        "global_hyperbolic_domain",
+        "complete_positivity"
+      ],
+      "classification": "causal_operational_extension"
+    },
+    {
+      "id": "QD-R1-4",
+      "carrier_neutral_content": [
+        "reversible_phase_sensitive_transformation_family",
+        "normalization_preserving_open_maps",
+        "record_coupling_and_visibility_functional",
+        "no_kinematic_size_cutoff"
+      ],
+      "not_fixed_by_core": [
+        "unitary_group",
+        "CPTP_dilation",
+        "environmental_Hamiltonian"
+      ],
+      "classification": "dynamical_extension_not_generic_gpt"
+    },
+    {
+      "id": "QD-R1-5",
+      "carrier_neutral_content": [
+        "state_congruence",
+        "effect_constancy_on_classes",
+        "transformation_and_instrument_descent",
+        "order_unit_and_pairing_descent"
+      ],
+      "not_fixed_by_core": [
+        "GU_gauge_generators",
+        "BRST_or_BV_reduction",
+        "physical_effect_algebra"
+      ],
+      "classification": "quotient_compatibility_schema"
+    }
+  ],
+  "candidate_local_k77_coverage": [
+    {
+      "id": "K77-I1B-MIXED-ORDER",
+      "source_ref": "lab/process/action-causal-closure-qualification-v0.1.json#candidate_packets/K77-I1B-MIXED-ORDER",
+      "carrier": "real_Omega1_Cl77_distortion_plus_metric_variations",
+      "coverage": [
+        {
+          "requirement": "QD-R1-1",
+          "state": "partial",
+          "owned": "linear field alternatives and coupled distortion/metric carrier",
+          "missing": "normalized physical states, coherent operational transformations and a nonfactorizable composite rule"
+        },
+        {
+          "requirement": "QD-R1-2",
+          "state": "partial",
+          "owned": "action-owned formal mixed Green representative at the frozen germ",
+          "missing": "positive cone, deterministic unit, physical effects and a normalized representative-independent event pairing"
+        },
+        {
+          "requirement": "QD-R1-3",
+          "state": "partial",
+          "owned": "mixed principal data, fixed-rank stratum quotients and a formal local Green class",
+          "missing": "common principal polynomial, hyperbolic cone, shared causal domain, local instruments and remote marginal theorem"
+        },
+        {
+          "requirement": "QD-R1-4",
+          "state": "absent",
+          "owned": "none at the operational-state level",
+          "missing": "reversible phase transport, positive open evolution, decoherence record and size-independent coherence grammar"
+        },
+        {
+          "requirement": "QD-R1-5",
+          "state": "partial",
+          "owned": "formal radicals and fixed-rank stratum quotient data",
+          "missing": "an action-owned gauge image equal to the null directions and descended effects, instruments, normalization and evolution"
+        }
+      ],
+      "overall": "candidate_local_partial_zero_complete_requirements"
+    },
+    {
+      "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+      "source_ref": "lab/process/action-causal-closure-qualification-v0.1.json#candidate_packets/K77-OBSERVED-INCOMING-PROJECTOR",
+      "carrier": "real_rank_1920_observed_fermionic_K77_carrier",
+      "coverage": [
+        {
+          "requirement": "QD-R1-1",
+          "state": "partial",
+          "owned": "real fermionic carrier, Clifford principal relations and a moving incoming projector",
+          "missing": "operational state cone, coherent alternatives and a nonfactorizable joint-state composition"
+        },
+        {
+          "requirement": "QD-R1-2",
+          "state": "partial",
+          "owned": "local positive-energy chart data and pointwise Green-isotropic incoming horns",
+          "missing": "normalized positive state-effect pairing, deterministic unit and selected physical horn/domain"
+        },
+        {
+          "requirement": "QD-R1-3",
+          "state": "partial",
+          "owned": "local noncharacteristic projector family and packet-local flux data",
+          "missing": "complete coupled action, global causal domain, shared Cauchy family, instrument algebra and remote marginal theorem"
+        },
+        {
+          "requirement": "QD-R1-4",
+          "state": "absent",
+          "owned": "none beyond a principal propagation candidate",
+          "missing": "reversible phase transport, open-system map, environment record, visibility functional and size-cutoff exclusion"
+        },
+        {
+          "requirement": "QD-R1-5",
+          "state": "wrong_object",
+          "owned": "a boundary projector selected after a normal is supplied",
+          "missing": "gauge equivalence, physical quotient and descent of effects, instruments and dynamics"
+        }
+      ],
+      "overall": "candidate_local_partial_zero_complete_requirements"
+    }
+  ],
+  "excluded_packets": [
+    {
+      "id": "K95-B5-STRICT-RS",
+      "reason": "Different Spin(9,5) real form, carrier, fixed-background action owner and domain; not a K77 packet and not transportable by complexification."
+    },
+    {
+      "id": "W154-W229-CONDITIONAL-COMPOSITE",
+      "reason": "Previously nonadmitted as a K77 action owner because no real equivariant bridge, coefficient-complete variational owner or compatible nonlocal completion exists."
+    },
+    {
+      "id": "SYNTHETIC-CROSS-PACKET-UNION",
+      "reason": "Forbidden: coverage cells cannot be combined across carriers, domains, gauge quotients or action owners."
+    }
+  ],
+  "composability": {
+    "cross_packet_union_allowed": false,
+    "candidate_selected": false,
+    "current_root_candidate_set": [],
+    "reason": "Demand coverage is diagnostic. Shared row identifiers do not exhibit a typed action-preserving map, common ordered state/effect carrier, common domain or common quotient."
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "carrier_neutral_classification": "complete_for_the_frozen_two_anchor_demand_set",
+    "quantum_selection": "not_derived",
+    "k77_packet_count": 2,
+    "complete_k77_requirement_rows": 0,
+    "action_candidate_selected": false,
+    "root_candidate_set_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "ledger_or_canon_change": "none"
+  },
+  "next_big_wave": [
+    "Construct or sharply obstruct an ordered positive cone, deterministic unit and physical effect interval candidate-locally on the K77 I1B reduced Green carrier.",
+    "Construct or sharply obstruct the same state/effect data candidate-locally on the K77 observed-projector carrier without importing I1B cells.",
+    "Test whether packet-local admissible transformations form normalized instruments and whether local nonselective maps admit a remote-marginal statement on a named causal domain.",
+    "Classify phase-sensitive reversible maps and open decoherence maps on each surviving packet; if neither carrier can host them, derive the minimal K77 carrier-extension requirements."
+  ],
+  "claim_ceiling": "Carrier-neutral GPT classification, exact model discrimination and candidate-local K77 demand coverage only. No GU-native state, event algebra, Born rule, composite, instrument, action, causal closure, prediction, confirmation, export, canon or verdict is established.",
+  "probe_ref": "tests/channel-swings/quantum_demand_gpt_k77_classification_probe.py",
+  "result_ref": "explorations/conditional-build/quantum-demand-gpt-k77-classification-wave-2026-09-01.md"
+}

@@ -7,6 +7,15 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Carrier-neutral GPT and K77 demand-coverage wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The frozen two-anchor demands have a carrier-neutral ordered-vector-space core consisting of a positive state cone, deterministic order unit, dual effect interval, positive instruments, composite/marginal maps and record extension | `lab/process/quantum-demand-gpt-k77-classification-wave.json`; result narrative; exact simplex controls | conditional GPT classification of the admitted demand set; no GU-native carrier or operational theory |
+| A classical simplex is bounded by CHSH `2`; the imported quantum witness has CHSH square `8`; and a normalized no-signalling PR box reaches CHSH `4` with context-independent local marginals | `tests/channel-swings/quantum_demand_gpt_k77_classification_probe.py` (`14/14`); hostile selftest (`12/12`) | exact finite discriminator proving bare GPT/no-signalling does not select quantum composition or the Tsirelson boundary |
+| The K77 I1B mixed-order and observed incoming-projector packets each cover only proper candidate-local subsets of QD-R1-1..5; zero row is complete and their cells cannot be unioned | structured candidate-local matrix; packet-owned/missing reasons; K95 and W154/W229 exclusion custody | exact evidence-to-requirement classification relative to current filed packets; not a universal K77 obstruction |
+| A GU-native positive state/effect quotient, Born pairing, nonfactorizable composite, normalized instrument algebra, phase/decoherence dynamics, action selection, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## Quantum-anchor reverse-scaffold interface wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
