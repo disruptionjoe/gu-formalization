@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e3ae502af616
+revision_basis: 169d944559ab
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The action-owned quotient/action-induced connection Big Wave closes the
+    first complete reverse-scaffold action conjunction while preserving the
+    source boundary. On the named cooriented global slab [0,1]xT3, a written
+    repository-owned mass-one quadratic action uses the supplied rank-960
+    incoming projector on the full rank-1920 observed carrier. Its exact
+    960-to-1920-to-960 Sobolev sequence has closed direct-summand gauge range,
+    conserved positive quotient energy and representative-independent descent
+    of quadratic densities, H-trace, effects, two labelled copies, partial
+    traces, local instruments, phase and half-dephasing. A mass-four twin has
+    the same quotient/interface and a different zero-mode frequency, so the
+    frozen demands do not select one action. Independently, a repository-owned
+    I1B quadratic action writes log(2)xH dy into its Hessian, descends through
+    the native rank-196 radical and induces the rank-24 Green quotient
+    curvature and hyperbolic rectangle holonomy. A log(3) twin proves
+    connection-coefficient nonselection. Neither action is source-selected,
+    nonlinear BV, cross-null or predictive. Exact probes pass 22/22 and 18/18;
+    hostile selftests catch 14/14 and 13/13.
     The full-incoming/curved-holonomy Big Wave removes two dimensional and
     geometric control gaps while preserving the physical ownership boundary.
     On the complete rank-960 observed incoming energy space, the
@@ -5134,13 +5151,19 @@ current_result:
     - explorations/conditional-build/k77-i1b-curved-fixed-stratum-holonomy-wave-2026-09-01.md
     - lab/process/k77-i1b-curved-fixed-stratum-holonomy-wave.json
     - tests/channel-swings/k77_i1b_curved_fixed_stratum_holonomy_probe.py
+    - explorations/conditional-build/k77-observed-action-owned-global-quotient-wave-2026-09-01.md
+    - lab/process/k77-observed-action-owned-global-quotient-wave.json
+    - tests/channel-swings/k77_observed_action_owned_global_quotient_probe.py
+    - explorations/conditional-build/k77-i1b-action-induced-connection-wave-2026-09-01.md
+    - lab/process/k77-i1b-action-induced-connection-wave.json
+    - tests/channel-swings/k77_i1b_action_induced_connection_probe.py
 current_question: >-
-  Can the full-incoming observed ordered extension descend through an
-  action-owned physical constraint quotient on one named global causal domain,
-  thereby selecting rather than merely constructing the quadratic-state,
-  composite, trace and instrument interface; independently, can the complete
-  variable-coefficient I1B Hessian induce its own quotient connection and
-  computed loop holonomy rather than consume a supplied compatible connection?
+  Which source-owned coefficient, nonlinear gauge/BV relation, interacting
+  coupling or independent held-out structural demand can select or falsify
+  among the complete mass-one and mass-four rank-1920 action/quotient
+  candidates; independently, can a source-owned coupled I1B Hessian or
+  cross-stratum reduction distinguish the log(2) and log(3) action-induced
+  connections?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5150,19 +5173,20 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The complete rank-960 incoming energy space now has a basis-independent
-  H-ordered operator extension and algebraic rank-921600 two-copy composite,
-  but the boundary projector remains distinct from a physical constraint
-  quotient and no global causal domain selects the extension as physics. The
-  next observed edge must construct an action-owned quotient/domain and prove
-  representative-independent descent of H, quadratic densities, trace,
-  partial traces and instruments. The native rank-24 I1B Green quotient now
-  also has a supplied curved compatible connection with computed hyperbolic
-  rectangle holonomy and an exact invariant-majorant obstruction. Advance it
-  only with the complete variable-coefficient I1B Hessian evaluator or another
-  action-owned connection/domain that induces its own transport. The complete K77 action, full
-  complex, rank-1920 chain map, named domain and closed-range estimate remain
-  a one-packet conjunction: do not union I1B, observed, K95 or Maxwell cells.
+  The first complete repository-owned rank-1920 action/domain/closed-quotient
+  packet now exists and descends the entire full-incoming ordered/composite/
+  instrument interface, but a mass-four twin proves that the downstream
+  demands do not select its coefficient. The next observed edge must supply
+  one independently owned selector with declared decision power between
+  complete candidates: a source coefficient, nonlinear gauge/BV relation,
+  interacting coupling, or new structural demand. A repository-owned I1B
+  action now also induces the curved quotient connection from its written
+  Hessian, but log(2) and log(3) candidates remain equally compatible with the
+  native fixed-stratum Green data. Advance that line only with a source-owned
+  coupled Hessian term, a cross-null singular-reduction theorem, or an
+  independent physical discriminator. Do not relabel either reverse-engineered
+  candidate as Weinstein's action, union the observed and I1B packets, or
+  score the held-out family before forward observable export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

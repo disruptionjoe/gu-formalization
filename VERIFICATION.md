@@ -7,6 +7,26 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 observed action-owned global quotient wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On the named cooriented ultrastatic slab `[0,1] x T3`, the supplied rank-960 incoming projector gives an exact `0 -> H1(K960) -> H1(V1920) -> H1(W960) -> 0` sequence, and the written mass-one quadratic action is invariant under the kernel shifts | `lab/process/k77-observed-action-owned-global-quotient-wave.json`; exact probe (`22/22`) | exact complete repository-owned reverse-scaffold candidate action; not source-selected or attributed to Weinstein |
+| The gauge image is a closed direct summand and the quotient is `H1(W960)`; massive wave evolution conserves the positive quotient energy | bounded projections `P` and `I-P`; exact modal conservation identity; hostile selftest (`14/14`) | exact functional quotient and propagation for this candidate on this domain; not nonlinear BV or an interacting QFT |
+| Quadratic densities, H-trace, effects, two labelled copies, partial traces, local instruments, phase and half-dephasing depend only on `P Phi` and therefore descend representative-independently | sparse full-rank dimension and marginal/instrument controls in the same probe | exact candidate-action descent of K77-PSX-1 through K77-PSX-7; the copy rule and Born interpretation are not source-selected |
+| Mass-squared `1` and `4` give inequivalent actions with the same domain, quotient and operator interface | exact zero-mode frequencies `1` and `2` | action nonselection theorem for the frozen downstream demands |
+| A source-selected K77 action, nonlinear BV master equation, unique physical quotient, observable export, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
+## K77 I1B action-induced connection wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A repository-owned quadratic action on the timelike fixed-rank slab writes `D_A=d+A`, `A_y=log(2)xH`, into its Hessian and is invariant under shifts in the native rank-196 radical | `lab/process/k77-i1b-action-induced-connection-wave.json`; exact probe (`18/18`) | complete variable-coefficient action/Hessian for this conditional candidate; not the source-native coupled I1B Hessian |
+| The closed radical quotient is rank 24, `H` lies in `sp(24)`, and the action-induced connection has curvature `log(2)H dx wedge dy` | blockwise exact identities; hostile selftest (`13/13`) | exact action-to-quotient-connection descent on one timelike fixed-rank domain |
+| The unit-rectangle holonomy is computed as `diag((1/2)I12,2I12)`, preserves the Green form and determinant, and preserves no positive majorant | exact rational block controls and half-eigenvector scaling contradiction | exact hyperbolic holonomy for this repository-owned candidate |
+| Replacing `log(2)` by `log(3)` gives another compatible action with holonomy `diag((1/3)I12,3I12)` | exact coefficient/holonomy comparison | native fibre/Green data do not select one candidate connection coefficient |
+| A source-selected geometry, complete source-native I1B Hessian, cross-null bundle, physical quotient, selected majorant, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 observed full-incoming operator-system wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

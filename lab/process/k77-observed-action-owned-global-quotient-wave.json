@@ -1,0 +1,104 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_rank1920_repository_owned_action_global_constraint_quotient",
+  "created": "2026-09-01",
+  "status": "COMPLETE_REPOSITORY_OWNED_GLOBAL_ACTION_QUOTIENT_AND_FULL_INCOMING_INTERFACE_DESCENT__SOURCE_SELECTION_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-observed-full-incoming-operator-system-wave.json",
+  "packet": {
+    "id": "K77-OBSERVED-INCOMING-PROJECTOR-ACTION-CANDIDATE",
+    "ambient_carrier": "real_rank_1920_observed_fermionic_K77_carrier_V",
+    "ambient_rank": 1920,
+    "incoming_carrier": "rank_960_range_W_of_the_supplied_incoming_projector_P",
+    "incoming_rank": 960,
+    "gauge_carrier": "kernel_K_of_P",
+    "gauge_rank": 960,
+    "exact_sequence": "0_to_K_by_inclusion_to_V_by_P_to_W_to_0"
+  },
+  "domain": {
+    "name": "cooriented_ultrastatic_global_causal_slab_[0,1]_times_T3",
+    "metric": "minus_dt_squared_plus_flat_T3_metric",
+    "cauchy_boundaries": ["t_equals_0", "t_equals_1"],
+    "field_space": "H1_sections_of_the_trivial_rank1920_bundle",
+    "gauge_space": "H1_sections_of_the_trivial_rank960_kernel_bundle",
+    "quotient_space": "H1_sections_of_the_trivial_rank960_incoming_bundle"
+  },
+  "action": {
+    "owner": "repository_owned_reverse_scaffold_candidate",
+    "mass_squared": 1,
+    "formula": "S[Phi]=one_half_integral(H(dt_PPhi,dt_PPhi)-sum_j_H(dj_PPhi,dj_PPhi)-H(PPhi,PPhi))",
+    "gauge_transformation": "Phi_maps_to_Phi_plus_kappa_for_kappa_in_H1(K)",
+    "euler_lagrange": "P_star_times_box_plus_one_times_PPhi_equals_zero",
+    "coefficient_status": "complete_constant_coefficients_for_this_candidate",
+    "source_status": "not_source_selected_not_attributed_to_Weinstein"
+  },
+  "functional_quotient": {
+    "gauge_image": "H1(K)_as_the_kernel_direct_summand_of_H1(V)",
+    "closed_range_proof": "the_inclusion_is_isometric_and_I_minus_P_is_a_bounded_projection_onto_the_gauge_image",
+    "quotient_identification": "H1(V)_mod_H1(K)_isometrically_isomorphic_to_H1(W)_via_P",
+    "representative_independence": "P(Phi_plus_kappa)=P(Phi)",
+    "propagation": "the_massive_wave_evolution_acts_on_PPhi_and_preserves_gauge_classes",
+    "positive_energy": "one_half_integral(norm_dt_psi_squared_plus_norm_grad_psi_squared_plus_norm_psi_squared)"
+  },
+  "descended_interface": {
+    "positive_energy_H": "descends_on_each_cauchy_slice_through_P",
+    "quadratic_density": "rho_of_Phi_equals_rank_one_operator_of_PPhi",
+    "deterministic_unit": "H_trace",
+    "effects": "zero_less_equal_E_less_equal_identity_on_W",
+    "two_copy_rule": "two_labelled_copies_of_the_candidate_quotient_W_tensor_W",
+    "partial_traces": ["H_partial_trace_A", "H_partial_trace_B"],
+    "local_instruments": "P_basic_full_incoming_instruments_from_the_predecessor",
+    "phase_and_decoherence": "P_basic_energy_orthogonal_phase_and_half_dephasing",
+    "descent_status": "representative_independent_for_this_candidate_action_and_domain"
+  },
+  "nonselection": {
+    "second_candidate": "replace_mass_squared_1_by_mass_squared_4_with_the_same_domain_complex_quotient_and_ordered_interface",
+    "inequivalence_witness": "the_zero_spatial_mode_frequencies_are_1_and_2",
+    "conclusion": "downstream_quantum_demands_and_the_observed_projector_do_not_select_one_action_coefficient_packet"
+  },
+  "ownership_accounting": [
+    {"object": "projector_P_positive_energy_H_and_rank960_incoming_space", "classification": "observed_packet_owned_conditional_principal_data"},
+    {"object": "quadratic_action_global_domain_and_gauge_complex", "classification": "repository_owned_reverse_scaffold_candidate"},
+    {"object": "closed_Sobolev_gauge_range_and_rank1920_to_rank960_quotient", "classification": "proved_for_this_candidate"},
+    {"object": "source_native_K77_action_or_BV_master_action", "classification": "absent"},
+    {"object": "physical_selection_of_this_candidate_over_inequivalent_candidates", "classification": "absent"}
+  ],
+  "psx_status": {
+    "K77-PSX-1": "candidate_action_owned_global_constraint_quotient_constructed__source_selection_open",
+    "K77-PSX-2": "candidate_quotient_positive_energy_conserved__source_selection_open",
+    "K77-PSX-3": "candidate_quotient_quadratic_density_descended",
+    "K77-PSX-4": "candidate_quotient_trace_unit_and_effects_descended",
+    "K77-PSX-5": "candidate_two_copy_rule_and_partial_traces_descended__copy_rule_not_source_selected",
+    "K77-PSX-6": "candidate_global_domain_and_local_instruments_descended",
+    "K77-PSX-7": "candidate_phase_and_decoherence_descended"
+  },
+  "fences": {
+    "repository_owned_candidate_action": true,
+    "candidate_action_owned_physical_constraint_quotient": true,
+    "source_selected_K77_action": false,
+    "nonlinear_BV_master_equation": false,
+    "interacting_quantum_field_theory": false,
+    "ambient_rank1920_factorization": false,
+    "unique_physical_selection": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "complete_repository_owned_candidate_actions_constructed": 1,
+    "rank1920_closed_global_constraint_quotients_constructed": 1,
+    "representative_independent_full_incoming_interfaces_constructed": 1,
+    "source_selected_GU_actions_completed": 0,
+    "uniquely_selected_physical_quotients_completed": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k77_observed_action_owned_global_quotient_probe.py",
+  "result_ref": "explorations/conditional-build/k77-observed-action-owned-global-quotient-wave-2026-09-01.md",
+  "claim_ceiling": "Exact complete repository-owned conditional action on [0,1]xT3 with a closed H1 rank-960-to-rank-1920-to-rank-960 constraint quotient and representative-independent full-incoming ordered/composite/instrument descent; not Weinstein's action, not source-selected, not unique, not nonlinear BV, and no prediction, confirmation, held-out score, or verdict."
+}

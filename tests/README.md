@@ -4,6 +4,30 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K77 observed action-owned global quotient controls
+
+- `channel-swings/k77_observed_action_owned_global_quotient_probe.py`
+  checks the repository-owned mass-one action on `[0,1] x T3`, the exact
+  `960 -> 1920 -> 960` split sequence, closed direct-summand `H1` gauge range,
+  quotient wave-energy conservation, representative-independent quadratic
+  densities, the complete ordered-carrier dimensions, two-copy marginals and
+  local instrument descent (`22/22`). `--selftest` catches fourteen gauge,
+  propagation, rank, closure, domain, ownership, factorization, BV, selection,
+  prediction and holdout mutations. It certifies one complete reverse-
+  engineered candidate action, not a source-selected or unique GU action.
+
+## K77 I1B action-induced connection controls
+
+- `channel-swings/k77_i1b_action_induced_connection_probe.py` checks the
+  repository-owned quadratic covariant action on the rank-196-plus-rank-24
+  timelike split, closed radical gauge range, explicit variable connection in
+  the action Hessian, `sp(24)` compatibility, nonzero curvature, computed
+  `diag((1/2)I12,2I12)` holonomy, determinant one and the invariant-majorant
+  obstruction (`18/18`). `--selftest` catches thirteen rank, radical,
+  connection, Hessian, holonomy, source, cross-null, physicality, majorant and
+  holdout mutations. It is an action-induced connection for one repository-
+  owned candidate, not the source-native complete coupled I1B Hessian.
+
 ## K77 observed full-incoming operator-system controls
 
 - `channel-swings/k77_observed_full_incoming_operator_system_probe.py`
@@ -2718,7 +2742,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (1156 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the full-incoming observed operator-system and curved I1B holonomy certificates, observed composite/instrument extension and I1B flat fixed-stratum holonomy certificates, functional gauge/holonomy-control certificate, owned-domain/constraint-denominator certificate, global quotient/domain descent certificate, carrier-neutral GPT/K77 demand-classification certificate, source-native corrected-observation naturality and family/owner identifiability certificates, paired-real adjoint/144 coupling degree ladder, the Spin(6,4) real-sector/observation-kernel certificate, K77 builder-certificate contract probe, comparator-scope hardening certificate, L2 semantic-closure certificate, L1 category-closure certificate, M-M26 Pi1 modular-scope certificate, IDX-02 family-reduction/rank-scale hardening certificate, reproduction/status integrity certificate, repository-surface currency hardening certificate, SR-1H action-owned point-carrier census, W/mirror action-pairing ownership theorem, trace-Hq base/normal correction, trace-`H_q` full-connection compatibility gate, v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (1158 Python + 93 Sage) | active channel and Lane-1 swing probes; the current count includes the observed action-owned global quotient and I1B action-induced connection certificates, full-incoming observed operator-system and curved I1B holonomy certificates, observed composite/instrument extension and I1B flat fixed-stratum holonomy certificates, functional gauge/holonomy-control certificate, owned-domain/constraint-denominator certificate, global quotient/domain descent certificate, carrier-neutral GPT/K77 demand-classification certificate, source-native corrected-observation naturality and family/owner identifiability certificates, paired-real adjoint/144 coupling degree ladder, the Spin(6,4) real-sector/observation-kernel certificate, K77 builder-certificate contract probe, comparator-scope hardening certificate, L2 semantic-closure certificate, L1 category-closure certificate, M-M26 Pi1 modular-scope certificate, IDX-02 family-reduction/rank-scale hardening certificate, reproduction/status integrity certificate, repository-surface currency hardening certificate, SR-1H action-owned point-carrier census, W/mirror action-pairing ownership theorem, trace-Hq base/normal correction, trace-`H_q` full-connection compatibility gate, v0.237 action-Euler principal-owner comparison, printed-endpoint frozen-compatibility/adapter correction, frozen-Hessian compatibility gate, observation/contact and first-Spencer gate, parameter-jet affine Ward closure, stationary constant-parameter moving-Shiab Ward closure, stationary product-rule Ward response, projected-adjoint jet-prolongation diagnostic, local stationary Bianchi-jet witness, v0.236 holonomic-jet Euler-image theorem and ledger gate, v0.235 real-curvature predecessor, v0.234 source-action grammar exhaustion, two separately staged LT-SM1/AC-E1 discharge probes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `research-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |

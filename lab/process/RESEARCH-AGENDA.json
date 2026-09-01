@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-09-01",
-  "refresh_note": "The full-incoming reverse scaffold now derives a basis-independent ordered-operator extension from the complete rank-960 observed incoming energy space. Its two labelled copies have rank 921600, exact H-partial traces, full-space local instruments, phase and half-dephasing, but the tensor-copy and quadratic-state physical interpretations remain conditional: there is no rank-1920 factorization, action-owned gauge quotient, global causal domain or selected Born rule. Independently, one supplied curved connection on the native rank-24 timelike I1B Green quotient has nonzero curvature and computed hyperbolic unit-rectangle holonomy diag((1/2)I12,2I12), so it admits no invariant positive majorant; the complete variable-coefficient I1B Hessian connection remains absent. The complete K77 action/rank-1920 chain-map/domain/closed-range conjunction remains blocked in every single current packet. The B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
-  "latest_result_2026_09_01": "The complete rank-960 observed incoming energy space now has a canonical-up-to-energy-isometry ordered-operator and algebraic two-copy extension, but no physical quotient, global domain or action-selected composition. On a separate supplied curved I1B quotient connection, nonzero curvature produces computed hyperbolic rectangular-loop holonomy and an exact no-invariant-majorant result; no complete source-native curved I1B connection is selected.",
+  "refresh_note": "The reverse scaffold now owns one complete repository-constructed action/domain/quotient conjunction without promoting it to source truth. On the cooriented global slab [0,1]xT3, a written mass-one quadratic action uses the supplied rank-960 incoming projector on the full rank-1920 observed carrier; its exact 960-1920-960 Sobolev sequence has closed direct-summand gauge range, conserved positive quotient energy and representative-independent descent of the full-incoming ordered, two-copy, partial-trace and instrument interface. A mass-four action has the same quotient/interface and a different zero-mode frequency, so the downstream demands do not select one action. Independently, a repository-owned I1B quadratic action now writes the variable log(2)xH dy connection into its Hessian, descends through the rank-196 radical to the rank-24 Green quotient, and induces the computed hyperbolic rectangle holonomy; log(3) gives an inequivalent compatible action. Neither action is source-selected, nonlinear BV, cross-null or predictive. The B2 named source-action root remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "One complete repository-owned rank-1920 action on [0,1]xT3 now has a closed rank-960 gauge quotient and representative-independent full-incoming operator/composite/instrument descent, while a mass-four twin proves action nonselection. A separate repository-owned I1B quadratic action induces the curved rank-24 quotient connection and hyperbolic holonomy, while a log(3) twin proves coefficient nonselection. Source-native action closure and observable export remain open.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -415,6 +415,26 @@
         "exact_controls": "14/14 pass; hostile selftest 10/10 caught",
         "scientific_effect": "On the supplied flat T=0 R x S1 x R2 background, the native timelike I1B radical is parallel, the rank-24 quotient connection descends, and actual circle monodromy is identity.",
         "credit_ceiling": "Conditional fixed-background holonomy only; no source-selected compactification, generic/curved connection, selected majorant, physical quotient, action, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_observed_action_owned_global_quotient_2026_09_01": {
+        "status": "COMPLETE_REPOSITORY_OWNED_GLOBAL_ACTION_QUOTIENT_AND_REPRESENTATIVE_INDEPENDENT_FULL_INCOMING_INTERFACE_DESCENT",
+        "manifest_ref": "lab/process/k77-observed-action-owned-global-quotient-wave.json",
+        "result_ref": "explorations/conditional-build/k77-observed-action-owned-global-quotient-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_observed_action_owned_global_quotient_probe.py",
+        "exact_controls": "22/22 pass; hostile selftest 14/14 caught",
+        "scientific_effect": "A complete repository-owned mass-one action on [0,1]xT3 now owns one exact rank-1920 functional gauge complex, closed rank-960 quotient, conserved positive energy and representative-independent descent of the full incoming ordered/composite/instrument interface; a mass-four twin proves the frozen demands do not select one action.",
+        "credit_ceiling": "Complete reverse-scaffold candidate action and functional quotient only; not source-selected, nonlinear BV, unique physical selection, observable export, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_i1b_action_induced_connection_2026_09_01": {
+        "status": "COMPLETE_REPOSITORY_OWNED_I1B_ACTION_INDUCED_VARIABLE_QUOTIENT_CONNECTION_HOLONOMY_AND_COEFFICIENT_NONSELECTION",
+        "manifest_ref": "lab/process/k77-i1b-action-induced-connection-wave.json",
+        "result_ref": "explorations/conditional-build/k77-i1b-action-induced-connection-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_i1b_action_induced_connection_probe.py",
+        "exact_controls": "18/18 pass; hostile selftest 13/13 caught",
+        "scientific_effect": "A repository-owned quadratic action now writes the curved connection into its Hessian, descends through the native rank-196 radical, and induces the rank-24 Green quotient curvature and hyperbolic rectangle holonomy; a log(3) twin proves coefficient nonselection.",
+        "credit_ceiling": "Action-induced connection for one conditional candidate only; no source-native complete coupled I1B Hessian, cross-null bundle, selected majorant, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "k77_observed_full_incoming_operator_system_2026_09_01": {
