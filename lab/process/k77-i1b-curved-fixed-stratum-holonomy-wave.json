@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "i1b_supplied_curved_fixed_stratum_quotient_connection_and_holonomy",
+  "created": "2026-09-01",
+  "status": "SUPPLIED_CURVED_TIMELIKE_QUOTIENT_CONNECTION_EXACT__RECTANGLE_HOLONOMY_HYPERBOLIC__NO_INVARIANT_POSITIVE_MAJORANT__COMPLETE_I1B_CONNECTION_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-i1b-flat-fixed-stratum-holonomy-wave.json",
+  "packet": {
+    "id": "K77-I1B-MIXED-ORDER",
+    "native_carrier_dimension": 220,
+    "causal_stratum": "timelike_fixed_rank",
+    "radical_dimension": 196,
+    "quotient_dimension": 24,
+    "quotient_green_form": "standard_Darboux_J24_in_one_local_trivialization"
+  },
+  "supplied_connection": {
+    "base_patch": "unit_xy_rectangle_in_a_fixed_timelike_I1B_stratum",
+    "quotient_bundle": "trivial_rank24_Darboux_bundle_Q",
+    "generator": "H=diag(I12,-I12)_in_sp(24)",
+    "connection_one_form": "log(2) x H dy",
+    "curvature": "log(2) H dx_wedge_dy_nonzero",
+    "carrier_lift": "trivial_on_the_rank196_radical_and_equal_to_the_supplied_connection_on_Q",
+    "loop": "positively_oriented_boundary_of_the_unit_rectangle"
+  },
+  "construction": {
+    "radical_parallel": true,
+    "quotient_connection_green_compatible": true,
+    "path_ordering": "Abelian_because_every_connection_value_is_a_scalar_multiple_of_H",
+    "loop_integral": "integral_boundary_x_dy_equals_1",
+    "holonomy": "diag((1/2)I12,2I12)",
+    "characteristic_polynomial": "(lambda-1/2)^12(lambda-2)^12",
+    "minimal_polynomial": "(lambda-1/2)(lambda-2)",
+    "jordan_blocks": "24_blocks_of_size_1",
+    "classification": "semisimple_hyperbolic_symplectic",
+    "invariant_positive_majorant": "none",
+    "majorant_obstruction": "a_positive_vector_on_the_half_eigenspace_would_have_norm_equal_to_one_quarter_of_itself"
+  },
+  "ownership_accounting": [
+    {"object": "rank220_carrier_rank196_radical_rank24_Green_quotient", "classification": "native_packet_data"},
+    {"object": "Darboux_trivialization_connection_and_rectangle", "classification": "supplied_conditional_geometry"},
+    {"object": "computed_holonomy", "classification": "exact_consequence_of_the_supplied_connection"},
+    {"object": "complete_variable_coefficient_I1B_Hessian_connection", "classification": "absent"}
+  ],
+  "fences": {
+    "source_selects_connection": false,
+    "complete_variable_coefficient_I1B_Hessian_connection": false,
+    "physical_gauge_quotient": false,
+    "cross_null_stratum_bundle": false,
+    "cross_packet_union_allowed": false,
+    "positive_majorant_selected": false
+  },
+  "result": {
+    "supplied_curved_quotient_holonomies_computed": 1,
+    "nontrivial_holonomies_computed": 1,
+    "source_native_curved_connections_completed": 0,
+    "invariant_positive_majorants_completed": 0,
+    "prediction_or_confirmation_change": "none",
+    "action_selection": "none"
+  },
+  "probe": "tests/channel-swings/k77_i1b_curved_fixed_stratum_holonomy_probe.py",
+  "result_ref": "explorations/conditional-build/k77-i1b-curved-fixed-stratum-holonomy-wave-2026-09-01.md",
+  "claim_ceiling": "Exact nonzero curvature and hyperbolic rectangular-loop holonomy for one supplied curved rank-24 timelike quotient connection, with the rank-196 radical kept parallel; no complete variable-coefficient I1B Hessian connection, source-selected geometry, cross-null bundle, physical quotient, selected majorant, action, prediction, confirmation, or verdict."
+}

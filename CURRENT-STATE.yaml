@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9e6a6fcfb0f1
+revision_basis: e3ae502af616
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The full-incoming/curved-holonomy Big Wave removes two dimensional and
+    geometric control gaps while preserving the physical ownership boundary.
+    On the complete rank-960 observed incoming energy space, the
+    H-self-adjoint ordered carrier, PSD cone, H-trace unit, effect interval
+    and quadratic rays are basis-independent; two labelled copies have rank
+    921600 and exact H-partial traces, full-space local instruments, phase and
+    half-dephasing. This is a packet-derived algebraic extension, not a
+    factorization of rank 1920, physical gauge quotient, selected Born rule or
+    action-owned composition. Independently, a supplied curved connection
+    log(2) x H dy on the native rank-24 timelike I1B Green quotient keeps the
+    rank-196 radical parallel and has nonzero curvature. Its computed unit-
+    rectangle holonomy is diag((1/2)I12,2I12), so it is hyperbolic symplectic
+    and preserves no positive majorant. The complete variable-coefficient I1B
+    Hessian connection remains absent. Exact probes pass 20/20 and 16/16;
+    hostile selftests catch 13/13 and 12/12.
     The route-switched composite/holonomy Big Wave advances two independent
     reverse edges without manufacturing the blocked K77 action conjunction.
     On the observed packet, two labelled copies of the existing chart-local
@@ -5113,12 +5128,19 @@ current_result:
     - explorations/conditional-build/k77-i1b-flat-fixed-stratum-holonomy-wave-2026-09-01.md
     - lab/process/k77-i1b-flat-fixed-stratum-holonomy-wave.json
     - tests/channel-swings/k77_i1b_flat_fixed_stratum_holonomy_probe.py
+    - explorations/conditional-build/k77-observed-full-incoming-operator-system-wave-2026-09-01.md
+    - lab/process/k77-observed-full-incoming-operator-system-wave.json
+    - tests/channel-swings/k77_observed_full_incoming_operator_system_probe.py
+    - explorations/conditional-build/k77-i1b-curved-fixed-stratum-holonomy-wave-2026-09-01.md
+    - lab/process/k77-i1b-curved-fixed-stratum-holonomy-wave.json
+    - tests/channel-swings/k77_i1b_curved_fixed_stratum_holonomy_probe.py
 current_question: >-
-  Can the observed rank-1920 packet itself own a composite/discarding rule,
-  physical constraint quotient and global causal domain through which the
-  packet-local instrument controls descend; independently, can a nonflat
-  packet-owned I1B connection produce computed, rather than supplied,
-  monodromy on one fixed-rank stratum?
+  Can the full-incoming observed ordered extension descend through an
+  action-owned physical constraint quotient on one named global causal domain,
+  thereby selecting rather than merely constructing the quadratic-state,
+  composite, trace and instrument interface; independently, can the complete
+  variable-coefficient I1B Hessian induce its own quotient connection and
+  computed loop holonomy rather than consume a supplied compatible connection?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5128,14 +5150,17 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The observed chart-local two-coordinate interface now admits an imported
-  composite/marginal/instrument attachment, but the full rank-1920 packet owns
-  no tensor factorization, discarding map, physical quotient or global causal
-  domain. Reopen that edge only with one of those owner-native structures and
-  prove descent of the instrument laws. The supplied flat I1B connection now
-  yields actual identity monodromy on the timelike rank-24 quotient; advance it
-  with a packet-owned nonflat connection, specified curvature and loops, then
-  compute rather than choose its monodromy. The complete K77 action, full
+  The complete rank-960 incoming energy space now has a basis-independent
+  H-ordered operator extension and algebraic rank-921600 two-copy composite,
+  but the boundary projector remains distinct from a physical constraint
+  quotient and no global causal domain selects the extension as physics. The
+  next observed edge must construct an action-owned quotient/domain and prove
+  representative-independent descent of H, quadratic densities, trace,
+  partial traces and instruments. The native rank-24 I1B Green quotient now
+  also has a supplied curved compatible connection with computed hyperbolic
+  rectangle holonomy and an exact invariant-majorant obstruction. Advance it
+  only with the complete variable-coefficient I1B Hessian evaluator or another
+  action-owned connection/domain that induces its own transport. The complete K77 action, full
   complex, rank-1920 chain map, named domain and closed-range estimate remain
   a one-packet conjunction: do not union I1B, observed, K95 or Maxwell cells.
 

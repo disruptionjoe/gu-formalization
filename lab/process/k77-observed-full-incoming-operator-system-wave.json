@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_full_incoming_energy_operator_system_and_conditional_composite",
+  "created": "2026-09-01",
+  "status": "FULL_RANK960_INCOMING_ORDERED_OPERATOR_SYSTEM_CONSTRUCTED__RANK921600_TWO_COPY_ALGEBRAIC_COMPOSITE__PHYSICAL_QUOTIENT_AND_ACTION_SELECTION_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-observed-composite-instrument-extension-wave.json",
+  "packet": {
+    "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+    "ambient_carrier": "real_rank_1920_observed_fermionic_K77_carrier",
+    "ambient_rank": 1920,
+    "incoming_carrier": "rank_960_range_of_the_supplied_chart_incoming_projector_with_transported_positive_principal_energy_H",
+    "incoming_rank": 960
+  },
+  "construction": {
+    "one_copy_ordered_carrier": "H_self_adjoint_endomorphisms_of_the_complete_incoming_space",
+    "one_copy_real_symmetric_density_dimension": 461280,
+    "positive_cone": "H_positive_semidefinite_endomorphisms",
+    "deterministic_unit": "H_trace",
+    "effect_interval": "zero_less_equal_E_less_equal_identity",
+    "two_copy_amplitude_carrier": "W_in_tensor_W_in",
+    "two_copy_amplitude_rank": 921600,
+    "two_copy_density_dimension": 424673740800,
+    "algebraic_composite_rule": "ordinary_tensor_product_of_two_labelled_copies_of_W_in",
+    "discarding_maps": ["H_partial_trace_A", "H_partial_trace_B"],
+    "joint_witness": "rank_one_Bell_density_on_an_energy_orthonormal_two_plane_inside_each_full_incoming_copy",
+    "local_instrument": "rank_one_energy_projector_and_its_full_rank_959_complement",
+    "phase": "energy_orthogonal_quarter_turn_on_the_witness_plane_extended_by_identity",
+    "decoherence": "eta_equals_one_half_mixture_with_the_nonselective_local_instrument",
+    "coordinate_status": "canonical_up_to_energy_isometry"
+  },
+  "ownership_accounting": [
+    {"object": "rank_960_incoming_space_and_positive_energy", "classification": "packet_owned_conditional_principal_data"},
+    {"object": "self_adjoint_endomorphism_order_and_H_trace", "classification": "canonical_linear_algebra_derived_from_packet_energy"},
+    {"object": "labelled_tensor_copy_and_physical_composite_interpretation", "classification": "conditional_extension_not_action_selected"},
+    {"object": "quadratic_density_state_interpretation", "classification": "conditional_extension_not_action_selected"},
+    {"object": "trace_as_physical_Born_rule", "classification": "not_selected"},
+    {"object": "global_locality_and_causal_domain", "classification": "absent"}
+  ],
+  "psx_status": {
+    "K77-PSX-1": "boundary_projection_only__physical_constraint_gauge_quotient_open",
+    "K77-PSX-2": "complete_incoming_principal_energy_only__physical_positive_majorant_open",
+    "K77-PSX-3": "conditional_full_incoming_quadratic_density_carrier_constructed",
+    "K77-PSX-4": "conditional_full_incoming_trace_unit_and_effect_interval_constructed",
+    "K77-PSX-5": "conditional_full_incoming_algebraic_composite_and_marginals_constructed__physical_copy_rule_not_selected",
+    "K77-PSX-6": "conditional_positive_local_instrument_constructed__named_global_K77_causal_domain_open",
+    "K77-PSX-7": "conditional_energy_orthogonal_phase_and_dephasing_constructed"
+  },
+  "fences": {
+    "ambient_rank1920_factorization": false,
+    "ambient_dimension_reduction": false,
+    "physical_gauge_quotient": false,
+    "global_causal_domain": false,
+    "source_selected_Born_rule": false,
+    "action_selected_composite": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "packet_derived_algebraic_composites_completed": 1,
+    "full_incoming_ordered_interfaces_completed": 1,
+    "GU_native_physical_composites_completed": 0,
+    "GU_native_physical_states_completed": 0,
+    "prediction_or_confirmation_change": "none",
+    "action_selection": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k77_observed_full_incoming_operator_system_probe.py",
+  "result_ref": "explorations/conditional-build/k77-observed-full-incoming-operator-system-wave-2026-09-01.md",
+  "claim_ceiling": "Exact basis-independent ordered-operator and algebraic two-copy extension of the complete rank-960 incoming energy space; no factorization of rank 1920, physical gauge quotient, global causal domain, source-selected Born rule, action-selected composite, GU-native physical state, prediction, confirmation, held-out score, or verdict."
+}

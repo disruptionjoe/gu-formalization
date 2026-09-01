@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 observed full-incoming operator-system wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete rank-960 incoming energy space induces a basis-independent H-self-adjoint ordered carrier of dimension `461280`, with PSD cone, H-trace unit and effect interval | `lab/process/k77-observed-full-incoming-operator-system-wave.json`; sparse exact probe (`20/20`) | exact conditional linear-algebraic construction from supplied principal data; boundary projection is not physical gauge reduction |
+| Two labelled incoming copies have amplitude rank `921600` and symmetric-density dimension `424673740800`; H-partial traces give exact product and Bell marginals | same probe; exact dimension identities and sparse rational witnesses | full-incoming algebraic composite, not a factorization or dimension reduction of the ambient rank-1920 carrier |
+| A rank-one/complement full-space local instrument, energy-orthogonal phase and half-dephasing preserve normalization and the remote marginal | same certificate; hostile selftest (`13/13`) | exact conditional operator interface; no named global K77 causal domain or action-selected instrument algebra |
+| A physical constraint quotient, source-selected Born rule, action-selected composite, global causal domain, physical state, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
+## K77 I1B curved fixed-stratum holonomy wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On one supplied timelike Darboux patch, `nabla=d+log(2)xHdy` with `H=diag(I12,-I12)` preserves the native rank-24 Green quotient, has nonzero curvature and lifts with the rank-196 radical parallel | `lab/process/k77-i1b-curved-fixed-stratum-holonomy-wave.json`; exact probe (`16/16`) | exact supplied curved quotient connection; not the complete variable-coefficient I1B Hessian connection |
+| Transport around the unit rectangle is computed as `diag((1/2)I12,2I12)`, with characteristic polynomial `(lambda-1/2)^12(lambda-2)^12` and 24 size-one Jordan blocks | same exact certificate; hostile selftest (`12/12`) | actual hyperbolic holonomy for the supplied connection; not source-selected geometry |
+| The computed holonomy preserves the alternating Green form but no positive majorant | eigenvector scaling contradiction `g(v,v)=g(Mv,Mv)=g(v,v)/4` | exact invariant-majorant obstruction for this transport; does not exclude a different action-owned compact connection |
+| A cross-null quotient bundle, physical gauge quotient, complete curved I1B evaluator, selected positive majorant, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 observed composite and instrument extension wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
