@@ -7,6 +7,16 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 owned-domain and constraint-denominator wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On a planted cooriented cylinder, an exact finite constraint complex and evolution preserve incoming cycles/gauge images, descend to the quotient and contract its squared norm by `1/4` | `lab/process/k77-owned-domain-constraint-denominator-wave.json`; exact rational probe (`28/28`) | exact finite sufficiency control; the domain, complex and evolution are planted, not GU-native |
+| The same principal projector and positive energy preserve three gauge lines whose quotient norms for one raw unit are `16/25`, `9/25`, and `4/125` | same probe; three exact `H`-orthogonal quotient calculations; hostile selftest (`23/23`) | exact nonselection theorem for the currently owned principal data; it does not obstruct later action ownership |
+| Projector commutation alone does not give quotient propagation when evolution fails to preserve the gauge image | hostile evolution sends `e1` to `e1+e2` while commuting with the incoming projector | exact finite counterexample; continuum propagation and functional domains remain open |
+| One fibre Green form admits rotational and hyperbolic symplectic monodromies with opposite positive-majorant behavior | exact rotation and `diag(2,1/2)` controls | exact connection/holonomy nonselection from fibre data; no actual I1B connection or holonomy is computed |
+| An actual GU domain, action-owned constraint/BV complex, continuum propagation, Sobolev closed range, physical quotient/state, I1B connection/holonomy, instrument, action, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 global quotient and domain descent wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

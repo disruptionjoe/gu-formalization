@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "owned_domain_constraint_and_connection_denominator",
+  "created": "2026-09-01",
+  "status": "FINITE_DOMAIN_COMPLEX_CONTROL_EXACT__PRINCIPAL_DATA_DO_NOT_SELECT_GAUGE_COMPLEX__FIBRE_GREEN_DATA_DO_NOT_SELECT_I1B_HOLONOMY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k77-global-quotient-domain-descent-wave.json",
+  "finite_control": {
+    "domain": "D_control=[0,1]xSigma with explicitly supplied coorientation",
+    "carrier": "four-dimensional rational boundary control with rank-two incoming range",
+    "constraint_complex": "Q --d0--> V --d1--> Q with im(d0)=span(e1) and d1(v)=v3",
+    "evolution": "T=diag(1,1/2,1,1/2)",
+    "owner_status": "planted_control_not_gu_native",
+    "result": "T commutes with the incoming projector, preserves cycles and the planted gauge image, induces a representative-independent quotient map, and contracts the squared quotient norm by 1/4."
+  },
+  "observed_packet": {
+    "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+    "nonselection_result": "The same observed principal projector P=diag(1,1,0,0) and positive energy H=diag(1,4,1,4) preserve three distinct candidate gauge lines span(e1), span(e2), and span(e1+e2). For v=(3/5,2/5,0,0), their H-orthogonal quotient norms are respectively 16/25, 9/25, and 4/125. Principal projector and energy data therefore do not select an action-owned constraint complex or physical quotient.",
+    "propagation_result": "A quotient evolution exists only when the evolution preserves cycles and the gauge image. Commutation with the incoming projector alone is insufficient.",
+    "actual_domain_status": "not_constructed_or_selected",
+    "actual_constraint_complex_status": "not_constructed_or_selected",
+    "physical_quotient_status": "not_constructed__owner_nonselection_proved",
+    "next_owner_data": [
+      "one named globally cooriented noncharacteristic domain",
+      "one source-derived candidate action and its constraint or Koszul--Tate/BV differential",
+      "the full tangential and subprincipal operator coefficients on the named domain",
+      "cycle and gauge-image preservation under the actual boundary projector and evolution",
+      "closed gauge image in the selected Sobolev or graph topology",
+      "continuum constraint propagation and boundary compatibility"
+    ],
+    "psx_status": {
+      "K77-PSX-1": "finite_control_feasible__actual_action_complex_not_selected",
+      "K77-PSX-2": "finite_cooriented_cylinder_control_only__actual_domain_open",
+      "K77-PSX-3": "gauge_complex_nonselection_exact_from_current_principal_data",
+      "K77-PSX-4": "quotient_norm_depends_on_action_owned_gauge_image",
+      "K77-PSX-5": "open",
+      "K77-PSX-6": "open",
+      "K77-PSX-7": "discrete_control_propagates__continuum_propagation_open"
+    }
+  },
+  "i1b_packet": {
+    "id": "K77-I1B-MIXED-ORDER",
+    "nonselection_result": "One fixed fibre Green form admits both rotational symplectic monodromy, which preserves the Euclidean majorant, and hyperbolic symplectic monodromy diag(2,1/2), which fixes no positive majorant. Fibre Green data do not select a connection, parallel transport, actual holonomy, or unitary reduction.",
+    "connection_status": "not_supplied_or_selected",
+    "actual_holonomy_status": "undefined_without_packet_owned_connection",
+    "fixed_rank_requirement": "Choose one quotient stratum before bundle transport; current quotient dimensions remain 24/24/22.",
+    "next_owner_data": [
+      "one fixed-rank I1B quotient stratum",
+      "one packet-owned quotient bundle over a named base",
+      "one symplectic connection compatible with the Green form",
+      "specified loops and parallel-transport convention",
+      "computed holonomy image and compact/unitary-reduction test"
+    ]
+  },
+  "analytic_firewall": {
+    "finite_dimensional_range_closed": true,
+    "sobolev_closed_range_proved": false,
+    "continuum_constraint_propagation_proved": false,
+    "reason": "Finite-dimensional image closure and a discrete diagonal evolution do not imply closed range or propagation for a variable-coefficient PDE on a Sobolev or graph domain."
+  },
+  "exact_control": {
+    "probe_ref": "tests/channel-swings/k77_owned_domain_constraint_denominator_probe.py",
+    "scope": "exact rational finite structural certificate and countermodel family; not a discretization or dimension reduction of the native rank-1920 observed carrier or the I1B operator"
+  },
+  "packet_custody": {
+    "cross_packet_union_allowed": false,
+    "reason": "The observed projector and I1B packets retain different carriers, variational owners, quotient data, boundary geometry and positivity problems."
+  },
+  "result": {
+    "actual_gu_domains_completed": 0,
+    "global_physical_quotients_completed": 0,
+    "gu_native_physical_state_spaces_completed": 0,
+    "finite_controls_completed": 1,
+    "exact_owner_nonselection_results_completed": 2,
+    "action_selection": "none",
+    "i1b_connection_selection": "none",
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "next_frontier": {
+    "incumbent": "Observed packet: build or derive one candidate action-owned constraint differential with full tangential/subprincipal coefficients on one named cooriented domain, then test propagation and Sobolev closed range.",
+    "strongest_alternative": "I1B: supply one fixed-stratum quotient bundle and packet-owned symplectic connection, then compute actual holonomy and its compact/unitary reduction.",
+    "newly_frozen": "Principal projector plus energy cannot choose gauge ownership, and fibre Green data cannot choose connection holonomy; both owner objects must enter before forward physical certification.",
+    "forbidden_reroute": "Do not treat the finite cylinder as a GU spacetime domain, choose a gauge line by convenience, infer Sobolev closure from finite dimension, invent I1B holonomy, retrieve a source action as a substitute for construction, union packet cells, or score the held-out family."
+  },
+  "claim_ceiling": "No actual GU domain, action-owned constraint/BV complex, continuum propagation theorem, Sobolev closed-range theorem, physical quotient, GU-native state space, Born rule, composite, instrument algebra, source action, I1B connection or actual holonomy, prediction, confirmation, held-out success, canon change, paper status, public-posture change or GU verdict is created."
+}

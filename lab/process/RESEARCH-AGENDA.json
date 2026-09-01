@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-09-01",
-  "refresh_note": "The quantum reverse scaffold now separates chart transition, coorientation, physical quotient and majorant-holonomy questions. The observed projector/energy/unit glues across coorientation-preserving charts, but normal reversal exchanges incoming and outgoing and an actual gauge quotient requires an action-owned complex plus quotient renormalization. I1B's Green quotient admits no global majorant under hyperbolic symplectic holonomy without a compact/unitary reduction. No global causal domain, physical quotient, composite, instrument algebra or GU-native state follows. The low-curvature successor remains deferred; the B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
-  "latest_result_2026_09_01": "Observed chart-transition covariance is exact, while coorientation and an action-owned closed constraint/BV complex remain necessary for a physical quotient; raw chart energy must be replaced by a quotient norm after gauge reduction. Independently, hyperbolic I1B symplectic holonomy obstructs a global positive majorant unless the packet owns a compact/unitary reduction.",
+  "refresh_note": "The quantum reverse scaffold now freezes ownership, not merely compatibility, as the next domain/quotient gate. An explicit finite cooriented-cylinder control shows that projector-stable gauge propagation and quotient contraction are jointly feasible, but the current observed principal projector and energy preserve multiple gauge complexes with different quotient norms and therefore cannot select an action-owned physical quotient. Independently, one I1B fibre Green form admits both rotational and hyperbolic monodromies, so actual holonomy remains undefined until a packet-owned connection and loops are supplied. No actual GU domain, action complex, Sobolev propagation, physical quotient, I1B connection, instrument algebra or GU-native state follows. The low-curvature successor remains deferred; the B2 named action-root set remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "A finite cooriented-cylinder control proves feasibility of constraint-compatible quotient propagation, while three projector-stable gauge lines with quotient norms 16/25, 9/25, and 4/125 prove that current principal data do not select an action-owned complex. Independently, fibre Green data do not select an I1B connection or actual holonomy.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -375,6 +375,16 @@
         "exact_controls": "23/23 pass; hostile selftest 18/18 caught",
         "scientific_effect": "Observed chart transition and scalar-unit descent are exact; normal reversal and gauge-representative dependence freeze the missing coorientation and action-owned quotient conditions; I1B hyperbolic holonomy independently obstructs a global compatible majorant.",
         "credit_ceiling": "Conditional globalization criteria and exact obstructions only; no actual GU constraint/BV complex, global domain, physical state, instrument, action, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_owned_domain_constraint_denominator_2026_09_01": {
+        "status": "COMPLETE_FINITE_CONTROL_AND_OWNER_NONSELECTION_BOUNDARY",
+        "manifest_ref": "lab/process/k77-owned-domain-constraint-denominator-wave.json",
+        "result_ref": "explorations/conditional-build/k77-owned-domain-constraint-denominator-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_owned_domain_constraint_denominator_probe.py",
+        "exact_controls": "28/28 pass; hostile selftest 23/23 caught",
+        "scientific_effect": "A planted finite cooriented-domain complex proves quotient propagation is feasible under exact cycle/gauge conditions; multiple compatible gauge lines prove principal projector/energy nonselection; rotational and hyperbolic monodromies prove that I1B fibre Green data do not select actual connection holonomy.",
+        "credit_ceiling": "Finite sufficiency control and exact owner-nonselection only; no actual GU domain, action complex, Sobolev propagation, physical quotient, I1B connection, action, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "hourly_ready_candidate_2026_08_24": {

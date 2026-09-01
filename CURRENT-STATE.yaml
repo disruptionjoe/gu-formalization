@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b91842c43cb7
+revision_basis: 0085a71bd393
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The owned-domain/constraint-denominator Big Wave proves one finite
+    sufficiency control and two exact owner-nonselection results. On a planted
+    cooriented cylinder, an explicit finite constraint complex and evolution
+    preserve incoming cycles and gauge images, induce a representative-
+    independent quotient map, and contract its squared quotient norm by one
+    quarter. But the same observed principal projector and positive energy
+    preserve three distinct gauge lines whose quotient norms for one raw unit
+    are 16/25, 9/25, and 4/125: current principal data therefore cannot select
+    an action-owned constraint complex or physical quotient. Independently,
+    one I1B fibre Green form admits both rotational and hyperbolic symplectic
+    monodromies with opposite majorant behavior, so fibre data cannot select a
+    connection or actual holonomy. The exact probe passes 28/28 and its hostile
+    selftest catches 23/23. No actual GU domain, action complex, continuum
+    propagation, Sobolev closed range, physical quotient, I1B connection,
+    prediction, or confirmation results.
     The global quotient/domain descent Big Wave separates three distinct
     globalization questions. The observed associated projector, transported
     positive principal energy, quadratic density and scalar unit glue exactly
@@ -5054,13 +5069,16 @@ current_result:
     - explorations/conditional-build/k77-global-quotient-domain-descent-wave-2026-09-01.md
     - lab/process/k77-global-quotient-domain-descent-wave.json
     - tests/channel-swings/k77_global_quotient_domain_descent_probe.py
+    - explorations/conditional-build/k77-owned-domain-constraint-denominator-wave-2026-09-01.md
+    - lab/process/k77-owned-domain-constraint-denominator-wave.json
+    - tests/channel-swings/k77_owned_domain_constraint_denominator_probe.py
 current_question: >-
-  Can one named globally cooriented noncharacteristic causal domain and an
-  action-owned constraint/BV complex satisfy the now-frozen projector,
-  propagation, closed-range and quotient-energy conditions, or does the
-  observed packet remain only chartwise; independently, does actual I1B
-  holonomy admit a compact/unitary reduction or contain a hyperbolic
-  obstruction?
+  Can one candidate action supply a constraint differential plus full
+  tangential/subprincipal coefficients on a named cooriented domain and prove
+  gauge propagation and Sobolev closed range, now that current principal data
+  are proved unable to select the gauge complex; independently, can I1B
+  supply a fixed-stratum quotient bundle and symplectic connection from which
+  actual holonomy can be computed?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5069,21 +5087,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave on the remaining observed
-  domain/quotient and independent I1B holonomy arcs. On the observed packet,
-  construct one named globally cooriented
-  noncharacteristic causal domain and one action-owned constraint/Koszul--Tate
-  or BV complex. Prove that the incoming projector preserves cycles and gauge
-  images, that the gauge image is closed in the selected functional topology,
-  that constraints propagate, and that the H-orthogonal quotient norm is
-  compatible with the closed boundary evolution. Only after those conditions
-  release may normalized effects or instruments be defined on physical
-  classes. In parallel, compute or bound the actual I1B quotient holonomy: a
-  packet-owned compact/unitary reduction globalizes a majorant, while one
-  hyperbolic symplectic element obstructs it. Do not import the observed energy
-  into I1B, import the I1B quotient into the observed packet, reuse raw chart
-  normalization on gauge classes, union packet cells, or select or retrieve a
-  source action.
+  Execute one largest honest compatible Big Wave on owner construction rather
+  than another principal-symbol compatibility control. On the observed packet,
+  build or derive one candidate action-owned constraint/Koszul--Tate or BV
+  differential with the full tangential and subprincipal coefficients on one
+  named globally cooriented noncharacteristic domain. Then prove projector
+  stability, cycle and gauge-image propagation, closed gauge range in the
+  selected functional topology, boundary compatibility and quotient-energy
+  evolution. Do not choose a gauge line from the principal projector and
+  energy: their exact nonselection is now proved. In parallel, place I1B on one
+  fixed-rank quotient stratum, supply a packet-owned symplectic connection and
+  specified loops, and compute its actual holonomy before testing compact or
+  unitary reduction. Do not promote the finite cylinder control to a GU domain,
+  infer Sobolev closure from finite dimension, invent holonomy from a fibre
+  Green form, union packet cells, or treat source retrieval as action
+  construction.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
