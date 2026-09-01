@@ -7,6 +7,23 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K80 rotating-null shear and mass-control wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For `T=b(q)+n(q)w^rho(q)v_rho` with any `C2` null field in a constant real indefinite carrier, every acceleration term reduces modulo the current `c w^rho X` to a first-order representative | `lab/process/k80-rotating-null-shear-mass-control-wave.json`; exact tensor/rational probe (`36/36`) | exact arbitrary-null-field current reduction for the repository-owned affine first-jet class |
+| In signature `(2,1)`, `n=(1-q^2,2q,1+q^2)`, `b=n'` and `psi=v_0` give `K_eff=4v_0^2X` while `(m^2/2)<T,T>=2m^2` | exact polynomial null control and hostile selftest (`24/24`) | exact countercontrol to extending the two-dimensional mass-collapse conclusion |
+| The source-owned full-carrier principal symbol, gauge complex, analytic domain, preserved null subbundle or physical bridge | not constructed | open / explicitly excluded |
+
+## K80 I1B matrix-density half-density wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Formal symmetry of `J d/du+A` in positive `L2(W du)` requires `WJ=JW` and `WA-A^dagger W=W'J`; every admissible Hermitian `2 x 2` weight is `aI-beta iJ` with `a>|beta|` | `lab/process/k80-i1b-matrix-density-half-density-wave.json`; exact Gaussian-rational matrix probe (`42/42`) | complete positive matrix-weight classification for the frozen principal `J` |
+| The canonical correction `A_W=(1/2)W^(-1)W'J` is removed by `U=W^(1/2)`; a general compatible lower term survives as the Hermitian potential `UVU^(-1)` | exact conjugation and hostile selftest (`30/30`) | exact matrix half-density transport; independent lower-order and boundary data are preserved |
+| Weight transport alone distinguishes `log(2)` from `log(3)` | both channel weights are removed by the canonical transport | not selected |
+| The actual source cross-null operator, physical density/pairing, rank-jump matching law, spectrum or coefficient selector | not constructed | open / explicitly excluded |
+
 ## K79 null-line projective rigidity wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

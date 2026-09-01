@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ceb7333cc97e
+revision_basis: 4ac84ad537c6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The rotating-null/matrix-density Big Wave closes the two strongest
+    conditional continuations left by K79. For every C2 null field in a
+    constant real indefinite carrier, the complete affine first-jet
+    acceleration dependence still reduces modulo an explicit current. In
+    signature (2,1), however, the polynomial rotating null curve
+    n=(1-q^2,2q,1+q^2) with b=n' gives K_eff=4 v0^2 X while the nondegenerate
+    m^2 H potential is the velocity-independent constant 2m^2. The previous
+    mass-control collapse is therefore exactly two-dimensional and does not
+    extend to rotating higher-signature null curves. Independently, formal
+    symmetry of J d/du+A in positive L2(W du) forces WJ=JW and
+    WA-A^dagger W=W'J. Every admissible positive Hermitian two-by-two weight
+    is W=aI-beta iJ with a>|beta|. Its canonical connection is removed by the
+    matrix half-density U=W^(1/2), while an independently supplied
+    W-self-adjoint lower term survives as a Hermitian transported potential.
+    Weight transport alone still selects neither log(2) nor log(3). Exact
+    probes pass 36/36 and 42/42; hostile selftests catch 24/24 and 30/30.
     The projective-null/symmetric-weight Big Wave closes both seams left by
     the K78 controls. In a connected real two-dimensional carrier of signature
     (1,1), every nonvanishing C1 null field has the exact factorization
@@ -4967,6 +4983,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k80-rotating-null-shear-mass-control-wave-2026-09-01.md
+    - lab/process/k80-rotating-null-shear-mass-control-wave.json
+    - tests/channel-swings/k80_rotating_null_shear_mass_control_probe.py
+    - explorations/conditional-build/k80-i1b-matrix-density-half-density-wave-2026-09-01.md
+    - lab/process/k80-i1b-matrix-density-half-density-wave.json
+    - tests/channel-swings/k80_i1b_matrix_density_half_density_probe.py
     - explorations/conditional-build/k79-null-line-projective-rigidity-wave-2026-09-01.md
     - lab/process/k79-null-line-projective-rigidity-wave.json
     - tests/channel-swings/k79_null_line_projective_rigidity_probe.py
@@ -5382,10 +5404,10 @@ current_result:
 current_question: >-
   Does the actual source/action-owned full-carrier principal symbol admit a
   connection-preserved higher-dimensional null derivative-image subbundle
-  after gauge and domain reduction, including any required zero or singular
-  transitions; independently, does the actual cross-null half-density normal
-  form contain an invariant boundary or spectral datum that distinguishes the
-  tangential coefficient?
+  whose Helmholtz equations realize or reject the exact rotating control after
+  gauge and domain reduction; independently, which source-owned lower-order,
+  residue, rank-jump boundary or spectral invariant survives matrix
+  half-density transport and distinguishes the tangential coefficient?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5395,20 +5417,22 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The alleged rotating-null-line horn is closed only for nonvanishing real
-  directions in signature (1,1); its complete variable shear still closes
-  modulo current. Advance by obtaining the independently source/action-owned
-  full-carrier principal symbol, gauge complex and analytic domain and testing
-  its actual higher-dimensional null subbundle and Helmholtz equations, or
-  freeze an exact zero-crossing, singular, nonlocal, auxiliary-field, on-shell
-  or gauge-reduced bridge class. For I1B, every power-law weighted symmetric
-  control is half-density equivalent to the unweighted singular-residue
-  operator, so neither measure choice nor endpoint class selects log(2) versus
-  log(3). Derive the actual source-owned normal operator, density, pairing and
-  rank-jump boundary or spectral law, and test invariants after half-density
-  normalization. Do not generalize two-dimensional projective rigidity, cross
-  a zero silently, use the raw nonsymmetric weighted count as domain evidence,
-  union the two packets, or score held-out evidence before forward export.
+  Arbitrary smooth null rotation still closes the affine first-jet highest-jet
+  terms, and the exact signature-(2,1) control shows that nondegenerate mass
+  ownership need not collapse the kinetic density. Advance by obtaining the
+  independently source/action-owned full-carrier principal symbol, gauge
+  complex and analytic domain and testing its actual null derivative image,
+  connection and Helmholtz equations, or freeze an exact zero-crossing,
+  singular, nonlocal, auxiliary-field, on-shell or gauge-reduced bridge class
+  with its matching law. For I1B, every positive Hermitian two-by-two density
+  compatible with the frozen principal J is a commuting two-channel weight
+  removed by matrix half-density transport. Derive the actual source-owned
+  principal matrix, physical density, lower-order potential and rank-jump
+  boundary or spectral law, then test the surviving Hermitian, residue,
+  matching and spectral invariants. Do not promote the rotating control to a
+  source bridge, treat a noncommuting weight as formally symmetric for the
+  frozen J, erase independent lower-order data, union the two packets, or
+  score held-out evidence before forward export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

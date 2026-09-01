@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K80-ROTATING-NULL-SHEAR-MASS-CONTROL-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "frozen_model": {
+    "base": "Lorentzian 1+1 with constant eta",
+    "source_carrier": "finite-dimensional real carrier with constant nondegenerate symmetric H",
+    "null_field": "C2 field n(q) with <n,n>_H=0",
+    "map": "T=b(q)+n(q)*psi with psi=w^rho(q)*v_rho",
+    "comparison": "off shell modulo divergence of an explicit first-jet current",
+    "scope_exclusion": "singular maps, higher jets, nonlocal maps, auxiliary fields, gauge reduction and a source-owned full-carrier bridge"
+  },
+  "general_result": {
+    "null_derivative": "<n,n'>_H=0",
+    "kinetic_identity": "K=(<b',b'>+2*<b',n'>*psi+<n',n'>*psi^2)*X+c*w^rho*partial_rho(X)+2*c*w^(rho prime)*v_rho*X",
+    "definition": "X=(1/2)*eta^(mu nu)*v_mu*v_nu and c=<b',n>_H",
+    "current_identity": "c*w^rho*partial_rho(X)=partial_rho(c*w^rho*X)-(c'*w^rho+c*w^(rho prime))*v_rho*X",
+    "first_order_representative": "K_eff=(<b',b'>+2*<b',n'>*psi+<n',n'>*psi^2)*X+(c*w^(rho prime)-c'*w^rho)*v_rho*X",
+    "verdict": "null rotation changes only first-order coefficients; every acceleration term still closes modulo the displayed current"
+  },
+  "rotating_control": {
+    "carrier": "R^(2,1) with H=diag(1,1,-1)",
+    "null_curve": "n(q)=(1-q^2,2q,1+q^2)",
+    "point_curve": "b(q)=n'(q)=(-2q,2,2q)",
+    "shear": "w=(1,0), hence psi=v0",
+    "exact_data": "<n,n>=0, <n,n'>=0, <n',n'>=4, <n'',n>=-4, <n'',n'>=0 and <n'',n''>=0",
+    "reduced_kinetic": "K_eff=4*v0^2*X",
+    "mass_potential": "for M=m^2*H, (1/2)*T^T*M*T=2*m^2 independently of v0",
+    "projective_rotation": "n(0)=(1,0,1), n(1)=(0,2,2) and n(-1)=(0,-2,2) are distinct nonzero null lines"
+  },
+  "quadratic_potential": {
+    "velocity_independence_on_shear_support_iff": "n^T*M*n=0 and n^T*M*b=0",
+    "mass_control": "for M=m^2*H and b=n', both conditions follow from nullity and its first derivative",
+    "dimension_boundary": "in signature (1,1), n' stays on the fixed null line and the kinetic control collapses; in signature (2,1), rotating n can have <n',n'> nonzero",
+    "verdict": "the two-dimensional mass-control collapse does not extend to higher-signature rotating null curves"
+  },
+  "claim_ceiling": "exact repository-owned arbitrary-null current reduction and one rotating real signature-(2,1) mass-control counterexample; no source-owned full carrier, principal symbol, gauge complex, analytic domain or physical equivalence",
+  "source_attribution": "the source owns none of the frozen carrier, map, kinetic or potential controls",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k80_rotating_null_shear_mass_control_probe.py",
+  "artifact": "explorations/conditional-build/k80-rotating-null-shear-mass-control-wave-2026-09-01.md",
+  "next_condition": "obtain the source-owned full principal symbol, gauge complex and analytic domain and test whether its actual null derivative image satisfies the complete Helmholtz and quotient equations"
+}

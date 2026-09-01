@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K80-I1B-MATRIX-DENSITY-HALF-DENSITY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "control_model": {
+    "operator": "D=J*d/du+A(u) on C^2 with J=[[0,-1],[1,0]]",
+    "pairing": "positive L2((0,1),W(u)du;C^2) with W Hermitian C1",
+    "principal_condition": "W*J=J*W",
+    "lower_order_condition": "W*A-A^dagger*W=W'*J",
+    "green_form": "[f^dagger*W*J*g]_0^1",
+    "ownership": "repository-owned positive matrix-density countercontrol"
+  },
+  "weight_classification": {
+    "form": "W=a*I-beta*i*J=[[a,i*beta],[-i*beta,a]]",
+    "positivity": "a>|beta|, equivalently eigenweights w_plus=a+beta and w_minus=a-beta are positive",
+    "reason": "a Hermitian two-by-two matrix commutes with J iff its diagonal entries agree and its off-diagonal entry is purely imaginary",
+    "exclusion": "a genuinely noncommuting positive density is incompatible with formal symmetry for this fixed principal J"
+  },
+  "matrix_half_density": {
+    "canonical_correction": "A_W=(1/2)*W^(-1)*W'*J",
+    "general_solution": "A=A_W+V with W*V=V^dagger*W",
+    "unitary": "U=W^(1/2) from L2(W du) to L2(du)",
+    "identity": "U*(J*d/du+A_W)*U^(-1)=J*d/du",
+    "potential_transport": "U*D*U^(-1)=J*d/du+U*V*U^(-1), where U*V*U^(-1) is Hermitian",
+    "boundary_identity": "f^dagger*W*J*g=(U*f)^dagger*J*(U*g)"
+  },
+  "nonscalar_control": {
+    "eigenweights": "w_plus=(1+u)^2 and w_minus=(2+u)^2",
+    "matrix": "W=a*I-beta*i*J with a=(w_plus+w_minus)/2 and beta=(w_plus-w_minus)/2",
+    "square_root": "U has eigenweights 1+u and 2+u in the J eigenbasis",
+    "result": "the exact matrix half-density removes the full nonscalar weight connection",
+    "retained_data": "only the independently supplied W-self-adjoint V and boundary relation remain after transport"
+  },
+  "selector_result": {
+    "verdict": "positive matrix density alone supplies no coefficient selector for the frozen principal J",
+    "possible_invariants": "an independently source-owned transported Hermitian potential, singular residue, rank-jump matching relation, spectral datum or boundary law",
+    "candidate_status": "log(2) and log(3) remain unselected by weight transport alone"
+  },
+  "claim_ceiling": "exact repository-owned principal compatibility, complete positive two-by-two matrix-weight classification and half-density transport theorem; no source cross-null operator, physical density, rank-jump boundary law or coefficient selector",
+  "source_attribution": "native I1B data do not own this operator, matrix density, pairing, correction, transported potential or matching law",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k80_i1b_matrix_density_half_density_probe.py",
+  "artifact": "explorations/conditional-build/k80-i1b-matrix-density-half-density-wave-2026-09-01.md",
+  "next_condition": "derive the source-owned cross-null principal matrix, physical density, lower-order potential and rank-jump boundary or spectral law, then test the transported invariants"
+}
