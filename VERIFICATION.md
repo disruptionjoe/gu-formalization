@@ -7,6 +7,25 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 source-transgression affine-bridge obstruction wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The source `1/2,1/3` transgression has cubic action degree on an augmented-torsion ray, and every field-independent affine substitution preserves degree at most three | `lab/process/k77-source-transgression-affine-bridge-obstruction-wave.json`; exact polynomial probe (`22/22`) | exact source-to-observed bridge-class statement; the source transgression grammar is not attributed to the observed quotient |
+| The interacting observed ray has quartic degree and Euler term `lambda q^3`, so equality with the affine source ray forces `lambda=0`; at an origin-preserving bridge it also forces source constant and eddy-quadratic responses to vanish | exact coefficient comparison; hostile selftest (`13/13`) | exact affine-bridge obstruction for every `lambda>0`; not a no-go for either action |
+| Nonlinear, nonlocal, background-dependent, orbit-averaged and later-action bridges remain open | explicit claim ceiling and positive quadratic control | source coefficient has decision power against a literal bridge but does not select `(m2,lambda)` |
+| A source/action-owned nonlinear bridge, source-selected rank-1920 action, observable export, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
+## K77 I1B mixed-residue holonomy-identifiability wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every compatible residue on the degenerating Darboux plane is `R=-I2/2+C` with arbitrary trace-free `C=[[p,q],[r,-p]]`; only `tr R=-1` is forced | `lab/process/k77-i1b-mixed-residue-holonomy-identifiability-wave.json`; exact symplectic compatibility probe (`23/23`) | complete local two-dimensional residue classification; the symmetric representative is not universal |
+| For tangential coefficient `a`, the mixed-curvature residue is `a[C,H]=a[[0,-2q],[2r,0]]`; the scalar trace residue and diagonal coordinate `p` cannot couple | exact commutator identity; hostile selftest (`14/14`) | exact normal/tangential coupling seam for the stated normal form |
+| Bounded mixed curvature forces `q=r=0` but leaves nonzero `a` arbitrary; a prescribed nonzero mixed row also leaves `a` arbitrary while `C` is unowned | exact constructive solution `q=-rho/(2a)`, `r=sigma/(2a)` | trace residue, symmetric representative, determinant and boundedness do not distinguish `log(2)` from `log(3)` |
+| Independently owned noncommuting `C` and mixed row `M` can select `a` through `a=-rho/(2q)=sigma/(2r)` | exact necessary-and-sufficient row comparison | decision-grade selector condition; no such source-owned cross-null packet is presently supplied |
+| A source-owned matching datum, physical cross-null quotient, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 observed interacting BV moduli wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

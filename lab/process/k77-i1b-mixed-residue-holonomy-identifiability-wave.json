@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-I1B-MIXED-RESIDUE-HOLONOMY-IDENTIFIABILITY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "normal_form": "J_u=uJ_2 on the degenerating Darboux plane",
+  "residue_family": "R=-I_2/2+C with C=[[p,q],[r,-p]]",
+  "forced_data": ["trace(R)=-1"],
+  "free_data": ["p", "q", "r"],
+  "mixed_residue": "a[C,H]=a[[0,-2q],[2r,0]]",
+  "identifiability": {
+    "trace_residue_selects_a": false,
+    "bounded_mixed_curvature_selects_magnitude_of_a": false,
+    "prescribed_mixed_row_with_unowned_C_selects_a": false,
+    "owned_noncommuting_C_and_owned_mixed_row_can_select_a": true,
+    "selection_equation": "a=-rho/(2q)=sigma/(2r) on nonzero rows"
+  },
+  "claim_ceiling": "local two-dimensional residue and identifiability classification; no source-owned cross-null datum or physical bundle",
+  "source_attribution": "native I1B ranks only; trace-free residue and mixed row remain unowned",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_i1b_mixed_residue_holonomy_identifiability_probe.py",
+  "artifact": "explorations/conditional-build/k77-i1b-mixed-residue-holonomy-identifiability-wave-2026-09-01.md",
+  "next_condition": "source/action-owned off-diagonal trace-free residue plus corresponding mixed-curvature or matching row"
+}

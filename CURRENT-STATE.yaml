@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 39b689f9117f
+revision_basis: 7cfcafd17b95
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The source-transgression/mixed-residue Big Wave converts two broad source-
+    structure requests into exact typed decision boundaries. The written
+    source-native I1B transgression has cubic action degree on every augmented-
+    torsion ray; any field-independent affine substitution remains degree at
+    most three. It therefore cannot equal the repository-owned even quartic
+    rank-1920 action when lambda>0. At an origin-preserving bridge, Euler
+    equality also forces the source constant and quadratic-eddy responses to
+    vanish. This kills only the literal affine source identification:
+    nonlinear, nonlocal, background-dependent, orbit-averaged and later-
+    action bridges remain open. Independently, every compatible residue on the
+    degenerating I1B Darboux plane is -I2/2+C for arbitrary trace-free
+    C=[[p,q],[r,-p]]. The tangential coefficient a couples only through the
+    mixed residue a[C,H]=a[[0,-2q],[2r,0]]. The forced trace residue, symmetric
+    representative and bounded mixed curvature do not select a; even a fixed
+    mixed row is nonidentifying while C is unowned. Independently owned
+    off-diagonal C and mixed row would select a by
+    a=-rho/(2q)=sigma/(2r). Exact probes pass 22/22 and 23/23; hostile
+    selftests catch 13/13 and 14/14. Neither packet supplies a source-owned
+    rank-1920 bridge, cross-null matching datum, physical quotient or
+    prediction.
     The nonlinear-BV/singular-reduction Big Wave tests two previously named
     selector candidates and finds both insufficient at the exact stated
     grade. On the complete rank-1920 observed direct-summand quotient, the
@@ -5184,13 +5204,19 @@ current_result:
     - explorations/conditional-build/k77-i1b-cross-null-singular-reduction-wave-2026-09-01.md
     - lab/process/k77-i1b-cross-null-singular-reduction-wave.json
     - tests/channel-swings/k77_i1b_cross_null_singular_reduction_probe.py
+    - explorations/conditional-build/k77-source-transgression-affine-bridge-obstruction-wave-2026-09-01.md
+    - lab/process/k77-source-transgression-affine-bridge-obstruction-wave.json
+    - tests/channel-swings/k77_source_transgression_affine_bridge_obstruction_probe.py
+    - explorations/conditional-build/k77-i1b-mixed-residue-holonomy-identifiability-wave-2026-09-01.md
+    - lab/process/k77-i1b-mixed-residue-holonomy-identifiability-wave.json
+    - tests/channel-swings/k77_i1b_mixed_residue_holonomy_identifiability_probe.py
 current_question: >-
-  Which independently owned cross-coefficient identity, nonabelian or open
-  gauge relation, source term or exported structural observable can select or
-  falsify within the complete interacting (m2,lambda) rank-1920 action/BV
-  family; independently, can a source-owned coupled I1B Hessian or singular
-  matching law couple the forced cross-null trace residue to the tangential
-  connection coefficient and distinguish log(2) from log(3)?
+  Which source/action-owned nonlinear or later-action map transports the
+  augmented-torsion transgression into the rank-1920 quotient with all
+  quartic, cubic, kinetic and pairing coefficients typed; independently, does
+  a source-owned cross-null evaluation fix a noncommuting off-diagonal trace-
+  free residue and mixed-curvature row whose exact ratio selects log(2),
+  log(3), or neither?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5200,23 +5226,23 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The complete repository-owned rank-1920 quotient now admits a nonlinear
-  interacting family and a formal minimal abelian BV completion, but those
-  structures leave the full (m2,lambda) parameter family nonselected. Do not
-  repeat another freely chosen potential. The next observed selector must own
-  a relation with declared decision power over that family: a source term, a
-  cross-coefficient Ward/Noether identity, a nonabelian or open gauge algebra
-  whose master equation constrains coefficients, or a frozen exported
-  structural observable. Independently, the I1B 24-to-22 rank jump now has an
-  exact singular-reduction boundary: every compatible ordinary connection has
-  trace pole -1/u and no smooth constant-rank quotient crosses the null
-  interface. The forced trace residue does not select log(2) versus log(3).
-  Advance that line only with a source-owned coupled Hessian coefficient or
-  additional singular matching/boundary data whose compatibility equation
-  couples the residue to the tangential holonomy parameter. Do not relabel the
-  minimal BV family as the source gauge theory, the punctured normal form as a
-  physical cross-null bundle, union the observed and I1B packets, or score the
-  held-out family before forward observable export.
+  The first source-owned coefficient packet has now been tested against the
+  complete interacting rank-1920 family. The cubic I1B transgression cannot
+  be its literal field-independent affine reduction when lambda>0; copying
+  1/3 into lambda is a type error, not coefficient selection. Advance the
+  observed line only with a source/action-owned nonlinear, nonlocal,
+  background/orbit-averaged or later-action bridge that produces the pulled-
+  back quartic and simultaneously owns the cubic, kinetic, pairing and domain
+  data. Independently, the I1B 24-to-22 jump now has a complete two-dimensional
+  residue classification. Trace -1 fixes no matrix beyond its scalar part,
+  and bounded mixed curvature leaves the tangential magnitude free. Advance
+  only with a source/action-owned off-diagonal trace-free residue coordinate
+  and corresponding mixed-curvature or matching row. Then test
+  a=-rho/(2q)=sigma/(2r) against log(2) and log(3), rejecting inconsistent
+  packets. Do not relabel the affine obstruction as a source-action no-go, the
+  residue family as source-owned, the punctured normal form as a physical
+  cross-null bundle, union the observed and I1B packets, or score the held-out
+  family before forward observable export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

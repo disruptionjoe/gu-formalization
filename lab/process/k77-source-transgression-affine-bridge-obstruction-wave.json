@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-SOURCE-TRANSGRESSION-AFFINE-BRIDGE-OBSTRUCTION-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "source_object": "I1B augmented-torsion transgression with coefficients 1/2 and 1/3",
+  "repository_object": "rank-1920 quotient family S_(m2,lambda)",
+  "bridge_class": "field-independent affine one-mode maps T=T0+s q with s nonzero",
+  "exact_result": {
+    "source_action_degree_ceiling": 3,
+    "observed_interacting_degree": 4,
+    "euler_match_conditions_origin_preserving": [
+      "source_constant_response=0",
+      "source_eddy_quadratic_response=0",
+      "lambda=0",
+      "source_linear_response=m2"
+    ],
+    "interacting_affine_match": false
+  },
+  "claim_ceiling": "affine bridge obstruction only; nonlinear, nonlocal, background-dependent, orbit-averaged and later-action bridges remain open",
+  "source_attribution": "source owns the I1B grammar and coefficients only; no source-to-rank1920 bridge is supplied",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_source_transgression_affine_bridge_obstruction_probe.py",
+  "artifact": "explorations/conditional-build/k77-source-transgression-affine-bridge-obstruction-wave-2026-09-01.md",
+  "next_condition": "construct a source/action-owned nonlinear or later-action bridge and compare every pulled-back coefficient and pairing"
+}

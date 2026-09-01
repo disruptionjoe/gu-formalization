@@ -457,6 +457,26 @@
         "credit_ceiling": "Local rank-changing normal-form obstruction and punctured singular reduction only; no source-owned coupled Hessian, smooth or physical cross-null quotient, selected holonomy coefficient, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
+      "k77_source_transgression_affine_bridge_obstruction_2026_09_01": {
+        "status": "COMPLETE_SOURCE_TRANSGRESSION_AFFINE_BRIDGE_DEGREE_PARITY_OBSTRUCTION",
+        "manifest_ref": "lab/process/k77-source-transgression-affine-bridge-obstruction-wave.json",
+        "result_ref": "explorations/conditional-build/k77-source-transgression-affine-bridge-obstruction-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_source_transgression_affine_bridge_obstruction_probe.py",
+        "exact_controls": "22/22 pass; hostile selftest 13/13 caught",
+        "scientific_effect": "The first source-owned coefficient packet now reaches the complete interacting observed family through an exact bridge test: the cubic I1B transgression cannot equal the even quartic rank-1920 action through any field-independent affine one-mode map. This kills the literal affine source identification, not either action.",
+        "credit_ceiling": "Affine bridge obstruction only; nonlinear, nonlocal, background-dependent, orbit-averaged and later-action bridges remain open, with no source-selected rank-1920 action, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_i1b_mixed_residue_holonomy_identifiability_2026_09_01": {
+        "status": "COMPLETE_TRACE_FREE_RESIDUE_MIXED_CURVATURE_AND_HOLONOMY_IDENTIFIABILITY_CLASSIFICATION",
+        "manifest_ref": "lab/process/k77-i1b-mixed-residue-holonomy-identifiability-wave.json",
+        "result_ref": "explorations/conditional-build/k77-i1b-mixed-residue-holonomy-identifiability-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_i1b_mixed_residue_holonomy_identifiability_probe.py",
+        "exact_controls": "23/23 pass; hostile selftest 14/14 caught",
+        "scientific_effect": "The complete compatible cross-null residue is -I2/2 plus arbitrary trace-free C. Only its off-diagonal coordinates couple to tangential holonomy through a[C,H]; trace residue, symmetric representative and bounded mixed curvature leave log(2)/log(3) nonselected, while independently owned C and mixed row can decide them.",
+        "credit_ceiling": "Local two-dimensional residue/identifiability theorem only; no source-owned cross-null matching packet, physical quotient, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
       "k77_observed_full_incoming_operator_system_2026_09_01": {
         "status": "COMPLETE_FULL_INCOMING_ORDERED_OPERATOR_AND_CONDITIONAL_ALGEBRAIC_COMPOSITE_EXTENSION",
         "manifest_ref": "lab/process/k77-observed-full-incoming-operator-system-wave.json",
