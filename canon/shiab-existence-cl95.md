@@ -2,6 +2,8 @@
 title: "Shiab Operator Existence — Cl(9,5) Setting"
 status: canon
 doc_type: canon
+carrier_scope: scoped_historical_k95_branch
+current_carrier: false
 promoted_from:
   - "explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md"
   - "explorations/shiab-operator/n2-shiab-computation-spin77-branching-rules-2026-06-22.md"
@@ -12,7 +14,13 @@ scope_correction: "CORRECTION SHIAB-01 (2026-06-25): RESOLVED means existence of
 
 # Shiab Operator Existence — Cl(9,5) Setting
 
-Canon means: safe to cite as the current public spine of the project. It does not mean proved physics.
+> **CURRENT-CARRIER SCOPE (2026-09-01).** This is the scoped historical K95 branch
+> theorem. Its real `Cl(9,5)=M(64,H)` mathematics and correction history
+> remain citable inside that branch, but K95 is not the repository's current
+> selected carrier. For current K77 statements, including the separate
+> `1,274 x 1,274` Hodge--Shiab isomorphism, use
+> `canon/shiab-existence-k77.md`. Do not port this file's quaternionic module,
+> `Sp(64)` constraint or selector-family counts to real `Cl(7,7)`.
 
 ## Scope
 
@@ -26,7 +34,7 @@ The question is whether such a map exists without complexification (the gap Nguy
 
 ## Proof
 
-**Step 1 — Correct signature of Y^14 is (9,5).**
+**Step 1 — K95 branch signature used by this result.**
 
 Y^14 = Met(X^4) is the bundle of Lorentzian metrics over X^4. The fiber is Sym^2(T*_x X^4) of dimension 10. The Frobenius metric induced by the (3,1) Lorentzian metric on R^4 has signature (7,3) on the fiber, and trace-reversal (as in the UCSD transcript [00:43:04]) shifts this to (6,4). The horizontal directions carry (3,1). Total signature: (3+6, 1+4) = (9,5). `[verified — Frobenius metric computation; N1 audit]`
 
@@ -67,7 +75,11 @@ The gauge group in the (9,5) setting is Sp(64) = U(64, H) (the quaternionic unit
 
 ## Known Failure Modes
 
-- **Signature uncertainty.** If Weinstein's intended signature is (7,7) or another real form, the algebra changes. Cl(7,7) ~= M(128, R) gives a real spinor module and a different (but parallel) construction. The (9,5) result is confirmed by the Frobenius metric computation.
+- **Carrier currentness.** The current repository-selected/source-aligned
+  carrier is K77. This file preserves the K95 branch obtained from the
+  `(3,1)+(6,4)` sign convention; it does not establish that K95 is the current
+  GU carrier. `Cl(7,7) ~= M(128,R)` has a different real module and is treated
+  independently in `canon/shiab-existence-k77.md`.
 - **Full-domain kernel/rank — RESOLVED for the literal constructed map (AR-5,
   2026-08-16).** The exact signed-companion/right-inverse computation gives
   `rank_R(Phi)=3,584` and `dim_R ker(Phi)=19,712`, so this literal

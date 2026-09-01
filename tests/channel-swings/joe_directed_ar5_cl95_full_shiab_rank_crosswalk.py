@@ -214,8 +214,8 @@ k77 = strict_json("lab/process/selected-k77-zorro-differentiated-shiab-second-je
 
 check("source", "canon states the literal spinor contraction formula",
       "Phi(alpha tensor s) = sum_a e^a tensor c(iota_{e_a} alpha)" in canon)
-check("source", "canon records the old full-domain rank/kernel gap",
-      "Kernel/rank not computed" in canon and "have not been computed" in canon)
+check("source", "canon records the resolved exact full-domain rank/kernel result",
+      "rank_R(Phi)=3,584" in canon and "dim_R ker(Phi)=19,712" in canon)
 check("scope", "canon does not identify the constructed contraction with GU's actual Shiab",
       "identification with GU's operator is OPEN" in canon)
 check("repo", "AR-1 row 12 names the literal full-domain rank check",

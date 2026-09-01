@@ -2680,7 +2680,7 @@ field-Riesz promotion.
 
 ## Loose audit scripts at `tests/` root, by sector
 
-These 266 direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
+These 267 direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
 indexed here in place to keep those reproduction pointers valid. This table covers only direct `tests/*.py`
 files; organized families live under their subdirectory READMEs, and governance/process checks moved to
 `process_gates/`. The table is guarded by `process_gates/tests_root_readme_inventory_audit.py`.
@@ -2688,7 +2688,7 @@ files; organized families live under their subdirectory READMEs, and governance/
 | Sector | Coverage tokens | Count | Boundary |
 |---|---:|---:|---|
 | **RS / BV-BRST sector** | `rs_*.py` | 20 | Rarita-Schwinger bicomplex, ghost / Koszul-Tate / BRST structure, `c2` curvature, Clifford projector, and symbol-index certificates. |
-| **shiab selector / codifferential** | `shiab_*.py` | 14 | selector complex, gamma-trace, quaternionic H-linearity, seesaw, `Sp(64)`, codiff-obstruction certificates, the complete provenance-expanded B5 observer-symbol matrix, its exact phase-parametric Krein-adjoint/mirror reduction, and the fail-closed five-field native packet ingress contract. |
+| **shiab selector / codifferential** | `shiab_*.py` | 15 | selector complex, gamma-trace, quaternionic H-linearity, seesaw, `Sp(64)`, codiff-obstruction certificates, the complete provenance-expanded B5 observer-symbol matrix, its exact phase-parametric Krein-adjoint/mirror reduction, the fail-closed five-field native packet ingress contract, and the independent current-K77 canon object-split/isomorphism certificate. |
 | **Cycle audits** | `cycle1_*.py`, `cycle2_*.py` | 2 | current root-level cycle gate/certificate audits; other cycle governance gates now live under `process_gates/`. |
 | **Generation count & K3** | `gen_*.py`, `sp64_octic_trace_i16.py`, `ahat_genus_y14_i16.py`, `c2_holonomy_*.py` | 6 | generation-count and K3/Y14 provenance certificates retained at the root for stable canon pointers. |
 | **Bell / QFT / measurement** | `h3_*.py`, `h3-*.py` | 4 | Pati-Salam CHSH state/correlator, measurement gate, and Cech-sheaf fixture certificates. |
@@ -2703,7 +2703,7 @@ files; organized families live under their subdirectory READMEs, and governance/
 **Resolved inventory debt (2026-08-12):** the eleven signature/reality scripts
 now have their own explicit sector. They were not forced into a false existing
 bucket; `tests_root_readme_inventory_audit` verifies the dedicated grammar and
-the complete 266-script count.
+the complete 267-script count.
 
 ## Resolver Wave B certificates
 

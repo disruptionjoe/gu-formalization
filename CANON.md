@@ -2,7 +2,7 @@
 title: "Project Canon"
 status: canon
 doc_type: canon
-updated_at: "2026-08-10"
+updated_at: "2026-09-01"
 ---
 
 # Project Canon
@@ -62,7 +62,8 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 - `canon/no-go-quaternionic-parity-generation-sector.md`
 - `canon/six-axis-specification-protocol.md`
 - `canon/type-ii1-spectral-sm-checklist.md`
-- `canon/shiab-existence-cl95.md`
+- `canon/shiab-existence-k77.md` (current repository-selected K77 carrier)
+- `canon/shiab-existence-cl95.md` (scoped historical K95 branch)
 - `canon/dark-energy-theta-divergence-free.md`
 - `canon/w2-y14-spin-structure.md`
 - `canon/schwarzschild-weak-field-rfail.md`
@@ -99,7 +100,31 @@ tier). Demoted 2026-07-03: `canon/multiplicity-theorem.md` is now `status: super
 `canon/leg3-closure-and-spinor-2smoothness.md`, `canon/ghost-parity-krein-synthesis.md`, and
 `papers/drafts/generation-multiplicity-vs-chirality-2026-06-28.md`).
 
+## K77 Shiab Canon Reconciliation 2026-09-01
+
+`canon/shiab-existence-k77.md` is the current Shiab entrypoint. It keeps two
+different maps typed separately: the natural real K77 spinor contraction
+`Lambda^2 V* tensor S_R -> V* tensor S_R`, which is surjective with exact
+rank `1,792`, and the repository-selected K77 grade-one-to-grade-two
+Hodge--Shiab, which is an exact `1,274 x 1,274` signed-permutation isomorphism.
+Neither statement recovers Weinstein's missing preferred selector or supplies
+physical dynamics.
+
+The earlier `canon/shiab-existence-cl95.md` remains canon only as a scoped
+historical K95 branch. Its `Cl(9,5)=M(64,H)` module, quaternionic commutant,
+`Sp(64)` constraints, selector-family counts and rank/kernel values do not
+transfer to real `Cl(7,7)=M(128,R)`.
+
+## Canon Entry Added 2026-09-01
+
+| entry | verdict | source evidence |
+|---|---|---|
+| `shiab-existence-k77.md` | RESOLVED (two typed real-algebraic existence statements only) | universal signed-companion theorem (2026-08-16); selected-K77 exact Hodge--Shiab/Spencer result and hostile review (2026-08-14); later independent `1,274`-cell bijection, sign-census and inverse certificate (2026-09-01). The natural spinor contraction and repository-selected Hodge--Shiab remain distinct; source-forced selector, action, reality/domain, quotient, positivity, index and generation count remain OPEN. |
+
 ## Canon Entries Added 2026-06-23
+
+The Shiab row in this historical intake table is K95-scoped and non-current;
+use the 2026-09-01 K77 entry above for the present carrier.
 
 | entry | verdict | source explorations |
 |---|---|---|
@@ -246,6 +271,7 @@ surfaces that might still carry a stronger historical verdict.
 | `canon/rs-function-space-framework-SPEC.md` | Rarita-Schwinger function-space framework: the foundation for closing WC-FUNCTION-SPACE-EXT. Sets up the RS-se | staged |  |
 | `canon/schwarzschild-weak-field-rfail.md` | GU Linearized Schwarzschild — R_fail Vanishes at O(M/r) | canon | OPEN |
 | `canon/shiab-existence-cl95.md` | Shiab Operator Existence — Cl(9,5) Setting | canon | RESOLVED (existence only) |
+| `canon/shiab-existence-k77.md` | K77 Shiab Operators — Typed Existence and Isomorphism | canon | RESOLVED (two typed real-algebraic existence statements only) |
 | `canon/signed-readout-boundary-theorem-RESULTS.md` | The Signed-Readout Boundary Theorem (canon spine) | canon | RESOLVED (abstract core M/P/C + compact Part Z/K, unconditional and ma |
 | `canon/single-decider-integer-index-RESULTS.md` **[not in the curated spine]** | The single decider: GATED, not FORCED. The literal generation integer is gated on the unbuilt RS source action | active |  |
 | `canon/six-axis-candidate-krein-positivity-dg.md` **[not in the curated spine]** | Six-axis candidate: the Krein / ghost-parity positivity-axis evasion of Distler-Garibaldi | candidate (L7 axis RATIFIED 2026-07-10) |  |
