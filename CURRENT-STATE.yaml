@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d27844433708
+revision_basis: 15eacedce109
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The kinetic-bridge/action-owned-residue Big Wave tests two exact next
+    conditions and narrows both. For fixed nonzero constant kinetic
+    coefficients kappa and mu, an origin-preserving real C1 local point bridge
+    t=phi(q) must obey kappa phi'(q)^2=mu. On a connected interval this forces
+    phi(q)=plus-or-minus sqrt(mu/kappa) q, eliminating every nonlinear bridge
+    jet. Comparing the cubic source transgression with the massive observed
+    quartic then forces f=e=lambda=0 and m2=c mu/kappa. Thus no interacting
+    lambda>0 target has a bridge in this constant-kinetic point-map class; the
+    result does not bind variable-metric, derivative-dependent, nonlocal,
+    background/orbit-averaged, singular or later-action bridges. Independently,
+    a repository-owned punctured I1B covariant action with
+    A_u=(-I2/2+C)/u and A_y=aH owns the logarithmic residue, H, C and mixed
+    residue M=a[C,H]. The invariant trace ratio returns a^2 exactly, but only
+    as definitional recovery of the same free action coefficient. Both log(2)
+    and log(3) actions satisfy the identical ownership and compatibility
+    conditions. A selector requires an independently derived M, not merely
+    joint action ownership. Exact probes pass 30/30 and 32/32; hostile
+    selftests catch 14/14 and 14/14. No source-owned full-carrier kinetic
+    bridge, independent cross-null matching datum, prediction or confirmation
+    results.
     The analytic-bridge/gauge-invariant-selector Big Wave closes two coordinate-
     freedom seams left by the affine and mixed-row packets. For the real source
     germ P(t)=f t+c t^2/2+e t^3/3 and massive observed germ
@@ -5233,13 +5253,19 @@ current_result:
     - explorations/conditional-build/k77-i1b-gauge-invariant-mixed-residue-selector-wave-2026-09-01.md
     - lab/process/k77-i1b-gauge-invariant-mixed-residue-selector-wave.json
     - tests/channel-swings/k77_i1b_gauge_invariant_mixed_residue_selector_probe.py
+    - explorations/conditional-build/k77-source-observed-kinetic-bridge-rigidity-wave-2026-09-01.md
+    - lab/process/k77-source-observed-kinetic-bridge-rigidity-wave.json
+    - tests/channel-swings/k77_source_observed_kinetic_bridge_rigidity_probe.py
+    - explorations/conditional-build/k77-i1b-action-owned-mixed-residue-independence-wave-2026-09-01.md
+    - lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json
+    - tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py
 current_question: >-
-  Which independently owned full-carrier map or kinetic/pairing/gauge/domain
-  constraint removes the local analytic bridge-jet freedom and transports the
-  augmented-torsion action into the rank-1920 quotient; independently, does a
-  source/action cross-null evaluation supply H,C,M so the invariant
-  nonnilpotent, nilpotent or commuting selector horn decides log(2), log(3), or
-  neither?
+  Does the source/action-owned full-carrier kinetic or symplectic operator
+  satisfy the fixed-metric local point-map horn now proved rigid, or does it
+  require a variable-metric, derivative-dependent, nonlocal or later-action
+  bridge; independently, can a source or boundary law provide mixed residue M
+  without deriving it from the same free tangential coefficient so the
+  invariant I1B selector has non-tautological decision power?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5249,22 +5275,21 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The complete local analytic one-mode bridge classification is now fixed.
-  Linear-leading source response admits a noninvertible bridge for arbitrary
-  m2,lambda; positive quadratic-leading response admits two locally invertible
-  sign branches for arbitrary lambda; cubic-leading response admits none.
-  Genuinely cubic global polynomial bridges are excluded, but noninvertible
-  analytic, full-carrier, nonlocal, background/orbit-averaged and later-action
-  routes remain open. Advance the observed line only with an independently
-  owned full-carrier bridge or with kinetic, symplectic, gauge, locality,
-  domain or measure data that restrict the bridge jets and compare all pulled-
-  back coefficients. Independently, advance I1B only with owned H,C,M tensors.
-  Use a^2=tr(M^2)/tr([C,H]^2) in the nonnilpotent horn, full tensor
-  proportionality in the nilpotent horn, and report nonidentifiability in the
-  commuting horn. Do not freeze basis coordinates, infer a sign without owned
-  orientation, relabel the polynomial obstruction as a nonlinear source-action
-  no-go, promote the residue tensors to source-owned, union the observed and
-  I1B packets, or score held-out evidence before forward observable export.
+  The constant-kinetic local point-map horn is now fixed: kinetic equality
+  makes the bridge affine, excludes lambda>0, and selects the free mass ratio
+  m2=c mu/kappa. Advance it only by owning the full source and observed kinetic
+  operators, gauge quotient and domain, or by explicitly testing the still-
+  open variable-metric, derivative-dependent, nonlocal, background/orbit-
+  averaged, singular or later-action classes. Independently, action ownership
+  of H,C,M is insufficient when M=a[C,H] is derived from the same free a; the
+  invariant ratio then only recovers the inserted coefficient. Advance I1B
+  with a source-owned coupled-Hessian or independent boundary/matching residue
+  M_* whose lineage excludes the tested a, then apply the nonnilpotent,
+  nilpotent or commuting horn. Do not promote the one-mode kinetic completion
+  to source-owned, generalize constant-metric rigidity to all field
+  redefinitions, count definitional recovery as selection, freeze basis
+  coordinates, union the observed and I1B packets, or score held-out evidence
+  before forward observable export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

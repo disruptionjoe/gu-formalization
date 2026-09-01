@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 source-observed kinetic-bridge rigidity wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Pullback by an origin-preserving real `C1` local point map `t=phi(q)` sends a fixed source kinetic coefficient `kappa` to `kappa phi'(q)^2`; equality with fixed `mu` forces `phi(q)=plus-or-minus sqrt(mu/kappa)q` on a connected interval | `lab/process/k77-source-observed-kinetic-bridge-rigidity-wave.json`; exact rational probe (`30/30`) | exact constant-kinetic one-mode rigidity; analyticity is unnecessary but the constant-metric point-map class is essential |
+| Simultaneous equality of `P(phi(q))` with the massive quartic target forces `f=e=lambda=0` and `m2=c mu/kappa` | exact coefficient comparison; hostile selftest (`14/14`) | no bridge in this class for `lambda>0`; exact mass selection in the free horn |
+| Variable source kinetic metrics, derivative-dependent maps, nonlocal/background/orbit-averaged/singular bridges and later actions | explicit counter-horn and claim ceiling | open; the constant-metric result is not a full source-action no-go |
+| A source-owned full-carrier kinetic operator, gauge quotient, global domain, bridge, observable export, prediction or confirmation | not constructed | open / explicitly excluded |
+
+## K77 I1B action-owned mixed-residue independence wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The punctured covariant action with `A_u=(-I2/2+C)/u`, `tr C=0`, and `A_y=aH` owns a connection satisfying `partial_u J_u+A_u^T J_u+J_u A_u=0` | `lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json`; exact matrix probe (`32/32`) | exact repository-owned regular-singular local action; not source-native or extended through the null stratum |
+| Its mixed curvature is `F_uy=(a/u)[C,H]` and residue is `M=a[C,H]`; the nonnilpotent invariant ratio equals `a^2` | exact rational residue and trace identities; hostile selftest (`14/14`) | exact action-owned consistency identity |
+| Because `M` is derived from the same free action coefficient, the ratio is definitional recovery; both `log(2)` and `log(3)` actions satisfy the same rank, compatibility, residue and ownership conditions | explicit two-coefficient counterfamily plus coefficient-lineage audit | joint action ownership is insufficient for non-tautological selection |
+| An independently derived source/boundary matching residue, physical cross-null bundle, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## K77 source-transgression analytic-bridge classification wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

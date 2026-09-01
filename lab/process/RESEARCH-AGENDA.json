@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-09-01",
-  "refresh_note": "The reverse scaffold now classifies every origin-preserving real local analytic one-mode bridge from the cubic I1B source germ to the massive quartic observed germ. Order multiplication leaves only a noninvertible linear-leading horn and a locally invertible positive quadratic-leading horn; both absorb arbitrary target quartic coefficient into bridge jets, while the cubic-leading horn is impossible. On a genuinely cubic ray every global polynomial bridge has degree 3d and cannot equal a quartic. Independently, the I1B mixed-residue selector is now basis-free: under the H-preserving symplectic stabilizer the full tensors transform covariantly, and the nonnilpotent horn gives a^2=tr(M^2)/tr([C,H]^2); nilpotent tensors require full proportionality and commuting tensors select nothing. No full-carrier source bridge or source-owned H,C,M packet exists. The B2 named source-action root remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
-  "latest_result_2026_09_01": "Local analytic action-germ equality does not select the observed mass or quartic coefficient whenever a bridge exists; only the cubic-leading and genuinely cubic polynomial horns are obstructed. The cross-null coefficient has an exact gauge-invariant selector once independently owned H,C,M tensors exist, with separate nonnilpotent, nilpotent and commuting horns. Full-carrier ownership, physical reduction and observable export remain open.",
+  "refresh_note": "The reverse scaffold now adds the first bridge-jet restriction with coefficient decision power. Fixed nonzero constant one-mode kinetic pairings force every real C1 local point bridge to be affine; simultaneous potential equality then requires f=e=lambda=0 and m2=c mu/kappa, excluding the interacting quartic in that exact class. Variable-metric, derivative-dependent, nonlocal, background/orbit-averaged, singular and later-action bridges remain open. Independently, the punctured I1B regular-singular action can own H,C and M=a[C,H], but the invariant ratio then recovers the same free action coefficient definitionally. Both log(2) and log(3) survive; non-tautological selection requires an independently derived M. No source-owned full-carrier kinetic bridge or independent cross-null matching packet exists. The B2 named source-action root remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "Constant-kinetic local point bridges are rigid and cannot connect the cubic source transgression to an interacting quartic observed action; in the free horn they fix m2=c mu/kappa. Joint action ownership of I1B H,C,M does not select a when M is derived from the same free a; the invariant selector needs independent coefficient lineage. Full-carrier source ownership, physical reduction and observable export remain open.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -495,6 +495,26 @@
         "exact_controls": "29/29 pass; hostile selftest 14/14 caught",
         "scientific_effect": "The coordinate row selector is replaced by an H-stabilizer-covariant tensor equation. Nonnilpotent mixed residues select a positive coefficient magnitude by a trace ratio, nilpotent residues require full tensor proportionality, and commuting residues select nothing.",
         "credit_ceiling": "Local two-dimensional invariant selector theorem only; no source-owned H,C,M, physical cross-null bundle, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_source_observed_kinetic_bridge_rigidity_2026_09_01": {
+        "status": "COMPLETE_CONSTANT_KINETIC_LOCAL_POINT_BRIDGE_RIGIDITY_AND_INTERACTING_OBSTRUCTION",
+        "manifest_ref": "lab/process/k77-source-observed-kinetic-bridge-rigidity-wave.json",
+        "result_ref": "explorations/conditional-build/k77-source-observed-kinetic-bridge-rigidity-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_source_observed_kinetic_bridge_rigidity_probe.py",
+        "exact_controls": "30/30 pass; hostile selftest 14/14 caught",
+        "scientific_effect": "Fixed nonzero constant kinetic pairings force every real C1 origin-preserving local point bridge to be affine. Simultaneous potential equality excludes lambda>0 and fixes the free mass relation m2=c mu/kappa.",
+        "credit_ceiling": "Local constant-kinetic one-mode point-map theorem only; no source-owned kinetic completion, full-carrier, variable-metric, derivative-dependent, nonlocal or later-action obstruction, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_i1b_action_owned_mixed_residue_independence_2026_09_01": {
+        "status": "COMPLETE_ACTION_OWNED_REGULAR_SINGULAR_MIXED_RESIDUE_AND_EVIDENTIAL_INDEPENDENCE_CLASSIFICATION",
+        "manifest_ref": "lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json",
+        "result_ref": "explorations/conditional-build/k77-i1b-action-owned-mixed-residue-independence-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py",
+        "exact_controls": "32/32 pass; hostile selftest 14/14 caught",
+        "scientific_effect": "A repository-owned punctured covariant action can own the logarithmic residue, H,C and M=a[C,H], but the invariant ratio then recovers the same free coefficient definitionally. Log(2) and log(3) remain equally admitted until M has independent lineage.",
+        "credit_ceiling": "Local repository-owned regular-singular action and independence audit only; no source-owned coupled Hessian, independent matching datum, physical cross-null bundle, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "k77_observed_full_incoming_operator_system_2026_09_01": {

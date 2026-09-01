@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-I1B-ACTION-OWNED-MIXED-RESIDUE-INDEPENDENCE-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "normal_form": "J_u=uJ_2, R=-I_2/2+C, A_u=R/u, A_y=aH",
+  "action": "repository-owned punctured-domain quadratic covariant action built from D_u=partial_u+A_u and D_y=partial_y+A_y",
+  "exact_result": {
+    "green_compatibility": "partial_u J_u+A_u^T J_u+J_u A_u=0 iff tr(R)=-1",
+    "mixed_curvature": "F_uy=(a/u)[C,H]",
+    "mixed_residue": "M=res(u F_uy)=a[C,H]",
+    "invariant_ratio": "tr(M^2)/tr([C,H]^2)=a^2 in the nonnilpotent horn",
+    "independence_verdict": "when M is derived from the same action coefficient a, the ratio is definitional recovery rather than independent coefficient selection",
+    "counterfamily": "a=log(2) and a=log(3) give distinct actions satisfying identical rank, Green-compatibility, logarithmic-residue and ownership conditions"
+  },
+  "claim_ceiling": "repository-owned local punctured regular-singular action and evidential-independence audit only; no source-owned coupled Hessian, independent matching datum, physical cross-null bundle, prediction or confirmation",
+  "source_attribution": "native I1B rank data only; R,C,H,a,M and the covariant action remain repository-derived",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py",
+  "artifact": "explorations/conditional-build/k77-i1b-action-owned-mixed-residue-independence-wave-2026-09-01.md",
+  "next_condition": "obtain M from a source or boundary/matching datum independent of the free tangential coefficient, then apply the invariant selector or reject the action"
+}

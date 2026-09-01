@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-SOURCE-OBSERVED-KINETIC-BRIDGE-RIGIDITY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "source_lagrangian": "L_src=(kappa/2)(partial t)^2-P(t), P(t)=f t+(c/2)t^2+(e/3)t^3",
+  "observed_lagrangian": "L_obs=(mu/2)(partial q)^2-Q(q), Q(q)=(m2/2)q^2+(lambda/4)q^4",
+  "bridge_class": "origin-preserving real C1 local point transformations t=phi(q) on a connected interval",
+  "assumptions": {
+    "kinetic_coefficients": "kappa and mu are fixed nonzero constants",
+    "real_bridge_horn": "mu/kappa>0",
+    "interaction_horn": "lambda>0"
+  },
+  "exact_result": {
+    "kinetic_pullback": "kappa*phi'(q)^2=mu",
+    "rigidity": "on a connected interval phi'(q)=s*sqrt(mu/kappa), s in {+1,-1}, so phi(q)=s*sqrt(mu/kappa) q",
+    "potential_comparison": "equality forces f=0, e=0, lambda=0 and m2=c*mu/kappa",
+    "interacting_verdict": "no bridge in this class exists for lambda>0",
+    "free_verdict": "for lambda=0 a bridge exists exactly when f=e=0 and m2=c*mu/kappa in the real same-sign horn"
+  },
+  "claim_ceiling": "local point transformations preserving fixed constant one-mode kinetic pairings only; no full-carrier, variable-metric, derivative-dependent, nonlocal, background-dependent, orbit-averaged, singular or later-action no-go",
+  "source_attribution": "source owns the I1B transgression grammar only; the kinetic completion, observed action and rigidity theorem are repository-derived",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_source_observed_kinetic_bridge_rigidity_probe.py",
+  "artifact": "explorations/conditional-build/k77-source-observed-kinetic-bridge-rigidity-wave-2026-09-01.md",
+  "next_condition": "obtain the source/action-owned full-carrier kinetic operator and bridge, or explicitly test variable-metric, derivative-dependent, nonlocal or later-action bridge classes"
+}
