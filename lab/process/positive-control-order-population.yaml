@@ -1,13 +1,13 @@
 schema_version: "1.0"
-frozen_revision: 34480643297d42c2b488bf77e6a84577cb0c206a
+frozen_revision: 080ccbaba521a9bb7fc158312f65e96f030c0e88
 scope: tracked tests/**/*.py and process_gates/*.py
 method: >-
   AST census of enforcing assert/check calls whose source contains a positive
   or planted-positive control label and a claim, verdict, or foreground label.
-population_digest_sha256: f223f40ba6e2e9353df89a9c5a714e46836445e44891c21732c2da3099bb591b
+population_digest_sha256: f381b0b0e957108e6c89cc60256ad19556cc1c2c63d5e2483e1d0782e3ee258e
 counts:
-  comparable_files: 24
-  ordered: 18
+  comparable_files: 25
+  ordered: 19
   legacy_exceptions: 6
 legacy_exceptions:
   - tests/channel-swings/joe_directed_b1p1_three_corner_support_prices_the_chiral_grant.py

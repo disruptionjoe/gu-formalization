@@ -24,11 +24,11 @@ Classification: `BRIDGE_OR_SEMANTIC_BOUNDARY`.
 
 ```gu-typed-objects
 result: freshness rebase, scoped external-port challenge, finite automorphism-orbit control, exact supplied-split control and action-admission gate
-carrier: live GU status/evidence surfaces plus an explicitly toy 24-state finite constraint system LAYER=source+repository+toy BRIDGE=typed-audit-only CHIRALITY=S-CHIRALITY-UNTYPED
-pairing: NONE; the Krein discussion audits inference strength and constructs no form
+carrier: live repository status/evidence surfaces plus an explicitly toy 24-state finite constraint system LAYER=UNTYPED CHIRALITY=S-CHIRALITY-UNTYPED
+pairing: NONE
 real_structure: UNTYPED; the finite control uses rational coordinates and no physical real-form inference
 grading: admitted external port versus unresolved auxiliary/implementation structure; symmetry orbit versus representative; eligible action versus named noncandidate
-action_owner: repository-audit only -- no source/action owner is constructed or transferred
+action_owner: repository-construction audit only -- no source/action owner is constructed or transferred
 target: the computational-interface interpretation and its executable tripwires MAP-TYPE=evaluation
 ```
 

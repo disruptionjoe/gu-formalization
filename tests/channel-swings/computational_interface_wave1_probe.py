@@ -215,11 +215,11 @@ def action_screen(candidates: Iterable[ActionCandidate]) -> tuple[str, tuple[str
 
 
 def run_action_controls() -> None:
+    control = ActionCandidate("positive evaluator control", True, True, True, True, True, True, True)
+    check("ACTION.evaluator_positive_control", action_screen((control,)) == ("SAT", (control.name,)))
     verdict, passing = action_screen(CURRENT_ACTIONS)
     check("ACTION.current_named_grammar_has_no_admissible_candidate", verdict == "NO_ADMISSIBLE_CANDIDATE")
     check("ACTION.empty_grammar_is_not_reported_as_unsat", verdict != "UNSAT_WITHIN_FROZEN_GRAMMAR" and passing == ())
-    control = ActionCandidate("positive evaluator control", True, True, True, True, True, True, True)
-    check("ACTION.evaluator_positive_control", action_screen((control,)) == ("SAT", (control.name,)))
 
 
 SOURCE_MARKERS = {

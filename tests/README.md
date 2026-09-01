@@ -94,8 +94,8 @@ certificate itself.
 This is an execution-order convention, not evidence that every historical
 certificate already follows it. The lost three-file historical report is
 superseded for current custody by the separately admitted AST population in
-`lab/process/positive-control-order-population.yaml`. It currently finds 24
-machine-detectable positive-control/foreground enforcement pairs: 18 ordered
+`lab/process/positive-control-order-population.yaml`. It currently finds 25
+machine-detectable positive-control/foreground enforcement pairs: 19 ordered
 and six named legacy exceptions. `process_gates/positive_control_order_audit.py`
 ratchets that exact population and permits no new exception. A materially
 revised exception must move the same-machinery positive control first or state

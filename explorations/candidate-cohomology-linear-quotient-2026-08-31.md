@@ -18,7 +18,7 @@ Classification: `INTERNAL_STRUCTURAL_ONLY`
 ```gu-typed-objects
 result: canonical linear presentation of supplied candidate middle cohomology
 carrier: kernel of supplied field-to-equation differential modulo the gauge-image submodule LAYER=UNTYPED CHIRALITY=N/A
-pairing: NONE; the separate gauge-basic pairing remains supplied algebraic data
+pairing: NONE
 real_structure: UNTYPED; no selected real, complex, antilinear or Krein structure
 grading: middle cohomological degree of a supplied three-stage complex
 action_owner: repository-construction over a supplied complex; no source-owned action
