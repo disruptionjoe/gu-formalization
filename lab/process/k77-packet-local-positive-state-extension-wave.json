@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "packet_local_positive_state_selection_obstruction_and_extension_contract",
+  "created": "2026-09-01",
+  "status": "RAW_LINEAR_CONES_NOT_SELECTED__QUADRATIC_LIFT_FEASIBLE_ABSTRACTLY__TWO_PACKET_EXTENSIONS_REQUIRED__ZERO_NATIVE_STATES",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "demand_ref": "lab/process/quantum-demand-gpt-k77-classification-wave.json",
+  "action_qualification_ref": "lab/process/action-causal-closure-qualification-v0.1.json",
+  "formal_selection_obstruction": {
+    "theorem_ref": "Lean/GUFormalization/PacketLocalPositiveCone.lean",
+    "claim": "sign_invariant_and_pointed_implies_trivial",
+    "scope": "raw_linear_carrier_or_linear_map_range",
+    "corollaries": [
+      "a_linear_map_range_on_a_nontrivial_carrier_cannot_itself_be_both_pointed_and_generating",
+      "a_proposed_cone_preserved_by_a_phase_map_squaring_to_negation_cannot_be_nontrivial_pointed_and_generating"
+    ],
+    "meaning": "Raw amplitude-like linear data are closed under sign; a physical positive cone therefore needs additional ray, quadratic, dual-functional or equivalent order-selecting structure.",
+    "does_not_prove": "nonexistence_of_all_positive_cones"
+  },
+  "packet_local_results": [
+    {
+      "id": "K77-I1B-MIXED-ORDER",
+      "carrier": "real_Omega1_Cl77_distortion_plus_metric_variations",
+      "owned": [
+        "source_native_I1B_quadratic_Hessian_at_the_local_T0_fixed_boundary_germ",
+        "real_linear_fluctuation_carrier",
+        "formal_mixed_Green_representative",
+        "fixed_rank_stratum_quotient_data"
+      ],
+      "selection_obstruction": "The fluctuation carrier and every raw linear image are sign-symmetric. The Green representative is presymplectic with large and rank-jumping radicals, not a positive normalized event pairing, and the radicals are not an action-owned gauge image.",
+      "raw_linear_cone_status": "not_selected_and_not_sufficient",
+      "deterministic_unit_status": "absent",
+      "effect_interval_status": "absent",
+      "instrument_and_dynamics_status": "absent",
+      "physical_state_extension_status": "required_not_constructed",
+      "missing": [
+        "physical_constraint_and_gauge_quotient",
+        "positive_majorant_or_polarization_on_that_quotient",
+        "quadratic_ray_or_positive_functional_state_carrier",
+        "strictly_positive_deterministic_unit_and_effect_interval",
+        "positive_descended_instruments_and_phase_decoherence_maps",
+        "packet_owned_causal_domain_and_composite_marginal_rule"
+      ],
+      "evidence_refs": [
+        "explorations/conditional-build/selected-k130-native-i1b-t0-green-domain-and-bv-obstruction-2026-08-16.md",
+        "explorations/conditional-build/selected-k131-native-i1b-t0-dae-bv-bfv-domain-packet-2026-08-16.md",
+        "explorations/conditional-build/selected-k132-native-i1b-t0-all-grade-noether-complex-2026-08-16.md",
+        "explorations/conditional-build/selected-k135-native-i1b-t0-coupled-shell-green-domain-2026-08-16.md"
+      ]
+    },
+    {
+      "id": "K77-OBSERVED-INCOMING-PROJECTOR",
+      "carrier": "real_rank_1920_observed_fermionic_K77_carrier",
+      "owned": [
+        "conditional_Clifford_principal_coefficient_pair",
+        "rank_960_linear_incoming_projector_after_a_normal_is_supplied",
+        "transported_positive_principal_energy",
+        "pointwise_Green_isotropic_doubled_Majorana_horns"
+      ],
+      "selection_obstruction": "A projector range is a sign-symmetric linear subspace, not a pointed normalized state cone. Positive principal energy controls flux on a supplied chart; it does not supply a deterministic unit, event effects, a gauge quotient or a selected global physical horn/domain.",
+      "raw_linear_cone_status": "not_selected_and_not_sufficient",
+      "deterministic_unit_status": "absent",
+      "effect_interval_status": "absent",
+      "instrument_and_dynamics_status": "absent",
+      "physical_state_extension_status": "required_not_constructed",
+      "missing": [
+        "physical_constraint_and_gauge_quotient_distinct_from_boundary_projection",
+        "positive_majorant_or_polarization_on_that_quotient",
+        "quadratic_ray_or_positive_functional_state_carrier",
+        "strictly_positive_deterministic_unit_and_effect_interval",
+        "positive_descended_instruments_and_phase_decoherence_maps",
+        "selected_global_causal_domain_and_composite_marginal_rule"
+      ],
+      "evidence_refs": [
+        "explorations/conditional-build/selected-k77-variable-incoming-projector-descent-2026-08-11.md",
+        "explorations/conditional-build/selected-k77-twistor-bv-positive-state-seven-gate-2026-08-13.md"
+      ]
+    }
+  ],
+  "quadratic_lift_control": {
+    "probe_ref": "tests/channel-swings/k77_packet_local_positive_state_extension_probe.py",
+    "status": "exact_carrier_neutral_feasibility_witness",
+    "carrier": "two_dimensional_rational_amplitudes_lifted_to_symmetric_2_by_2_positive_semidefinite_density_matrices",
+    "verified_interfaces": [
+      "opposite_amplitude_representatives_have_the_same_rank_one_density",
+      "positive_semidefinite_cone_and_trace_order_unit",
+      "projector_effect_interval_and_normalized_event_probabilities",
+      "selective_positive_branches_and_trace_preserving_nonselective_instrument",
+      "quarter_turn_reversible_phase_action",
+      "contractive_dephasing_map"
+    ],
+    "attached_to_k77_packet": false,
+    "meaning": "The obstruction is repaired abstractly by a quadratic state carrier; this demonstrates interface compatibility, not K77 ownership or quantum selection."
+  },
+  "minimal_packet_local_extension": [
+    {
+      "id": "K77-PSX-1",
+      "object": "physical_constraint_and_gauge_quotient",
+      "acceptance": "Null directions are proved to be the owned gauge image or are otherwise retained as typed constraints; all later objects descend representative-independently."
+    },
+    {
+      "id": "K77-PSX-2",
+      "object": "positive_majorant_real_structure_or_polarization",
+      "acceptance": "A packet-local positive form is constructed on the quotient and distinguished from the presymplectic Green form or principal flux alone."
+    },
+    {
+      "id": "K77-PSX-3",
+      "object": "quadratic_ray_or_positive_functional_state_carrier",
+      "acceptance": "Sign-related amplitude representatives map to one positive state and the resulting cone is pointed and generating on its declared ordered carrier."
+    },
+    {
+      "id": "K77-PSX-4",
+      "object": "deterministic_order_unit_and_effect_interval",
+      "acceptance": "The unit is strictly positive on nonzero positive states, normalized states evaluate to one, and all admitted effects lie between zero and the unit."
+    },
+    {
+      "id": "K77-PSX-5",
+      "object": "packet_local_composite_rule_and_marginals",
+      "acceptance": "Local embeddings, joint states, discarding maps and remote marginals are typed on one packet without importing another carrier."
+    },
+    {
+      "id": "K77-PSX-6",
+      "object": "positive_descended_instruments_on_a_named_causal_domain",
+      "acceptance": "Every outcome branch is positive and subnormalizing, the nonselective sum preserves the unit, and local nonselective action preserves the remote marginal."
+    },
+    {
+      "id": "K77-PSX-7",
+      "object": "reversible_phase_and_open_decoherence_dynamics",
+      "acceptance": "A reversible phase-sensitive family and a normalization-preserving coherence-suppressing family descend to the same physical state/effect interface."
+    }
+  ],
+  "composability": {
+    "cross_packet_union_allowed": false,
+    "candidate_selected": false,
+    "current_root_candidate_set": [],
+    "reason": "The I1B distortion/metric packet and observed rank-1920 fermionic projector packet differ in carrier, variational owner, field role and domain. Their missing objects must be constructed independently unless an action-preserving typed bridge is proved."
+  },
+  "result": {
+    "packet_local_physical_state_constructions_completed": 0,
+    "packet_local_selection_obstructions_completed": 2,
+    "abstract_quadratic_lift_feasibility": "demonstrated",
+    "next_construction_frontier": [
+      "I1B_quotient_and_positive_majorant_packet",
+      "observed_projector_quotient_and_positive_majorant_packet",
+      "candidate_local_quadratic_state_unit_effect_descent_after_each_majorant"
+    ],
+    "action_selection": "none",
+    "prediction_or_confirmation_change": "none",
+    "ledger_verdict_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "claim_ceiling": "No GU-native physical quotient, positive majorant, state cone, effect algebra, Born rule, completely positive instrument, tensor-product composite, phase/decoherence dynamics, source action, prediction, confirmation or verdict is constructed. The result proves a raw-linear selection obstruction and an abstract quadratic-lift feasibility interface only.",
+  "result_ref": "explorations/conditional-build/k77-packet-local-positive-state-extension-wave-2026-09-01.md"
+}

@@ -324,7 +324,7 @@
         "RA-E6",
         "RA-G4"
       ],
-      "latest_result": "The frozen two-anchor demands are now separated into a six-object carrier-neutral GPT core and eight quantum-specific imports. Exact controls distinguish a classical simplex at CHSH 2, the imported quantum witness with CHSH square 8, and a normalized no-signalling PR box at CHSH 4, proving that GPT syntax plus no-signalling does not select quantum theory. QD-R1-1 through QD-R1-5 are mapped independently over the K77 I1B and observed-projector packets; zero row is complete, K95 and W154/W229 remain excluded, cross-packet union is forbidden, and no action, prediction, confirmation, canon or public posture is selected.",
+      "latest_result": "The packet-local positive-state Wave proves in Lean that sign-invariant pointed subsets are trivial and raw linear-map ranges on nontrivial carriers cannot themselves be pointed generating cones. The K77 I1B and observed-projector packets are audited independently: neither selects a physical quotient, positive majorant, deterministic unit, effect interval or instrument/dynamics algebra. An exact rational quadratic-density control passes 15/15 and shows the required interface is abstractly feasible, but is attached to neither packet. Seven packet-local extension objects are frozen; zero native state constructions, actions, predictions or confirmations result.",
       "quantum_anchor_interface_2026_09_01": {
         "status": "COMPLETE_CONDITIONAL_INTERFACE_AND_DEMAND_LINEAGE",
         "manifest_ref": "lab/process/quantum-anchor-reverse-scaffold-interface-wave.json",
@@ -343,6 +343,17 @@
         "exact_controls": "14/14 pass; hostile selftest 12/12 caught",
         "scientific_effect": "GPT core and quantum-specific imports are separated; the classical/quantum/PR discriminator triangle is exact; two K77 packets have complete five-row candidate-local coverage with zero complete rows.",
         "credit_ceiling": "Carrier-neutral classification and packet-local diagnostic coverage only; no GU state, Born rule, action, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_packet_local_positive_state_extension_2026_09_01": {
+        "status": "COMPLETE_RAW_LINEAR_SELECTION_OBSTRUCTION_AND_EXTENSION_CONTRACT",
+        "manifest_ref": "lab/process/k77-packet-local-positive-state-extension-wave.json",
+        "result_ref": "explorations/conditional-build/k77-packet-local-positive-state-extension-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_packet_local_positive_state_extension_probe.py",
+        "lean_ref": "Lean/GUFormalization/PacketLocalPositiveCone.lean",
+        "exact_controls": "15/15 pass; hostile selftest 13/13 caught; Lean kernel checked",
+        "scientific_effect": "Two packet-local raw-linear state-cone selections are obstructed and one seven-object minimal extension denominator is frozen independently for each packet; a quadratic density lift is feasible abstractly.",
+        "credit_ceiling": "Selection obstruction and carrier-neutral feasibility only; no GU-native quotient, positive majorant, state, Born rule, action, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "hourly_ready_candidate_2026_08_24": {

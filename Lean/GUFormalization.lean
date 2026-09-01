@@ -53,3 +53,4 @@ import GUFormalization.FiniteResearchKernelsAxioms
 import GUFormalization.PowerMeanReduction
 import GUFormalization.ChiConjugationTraceParity
 import GUFormalization.InvolutionProjectorKernels
+import GUFormalization.PacketLocalPositiveCone

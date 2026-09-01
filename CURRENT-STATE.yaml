@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ca2ac1237b41
+revision_basis: 7428754e9752
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The packet-local positive-state Big Wave now proves the first exact
+    selection boundary forced by the quantum reverse scaffold. Lean proves
+    that a sign-invariant pointed subset of an additive carrier is trivial,
+    so the raw range of a linear map on a nontrivial carrier cannot itself be
+    both a pointed and generating state cone. A phase-preserved cone whose
+    phase map squares to negation has the same obstruction. Applied
+    independently, the K77 I1B carrier owns presymplectic Green data but no
+    positive physical quotient pairing, while the rank-1920 observed
+    projector owns positive principal flux but only a sign-symmetric linear
+    range, not a normalized state/effect cone. An exact rational two-level
+    control shows that a quadratic density lift repairs the sign obstruction
+    abstractly and supports a trace unit, projector effects, instruments,
+    reversible phase and dephasing. The control is not attached to either K77
+    packet. Both packets now have an independent seven-object extension
+    contract; zero native physical-state constructions, actions, predictions
+    or confirmations result.
     The co-Yoneda/linear-cohomology Big Wave closes two further algebraic
     carrier seams. Lean proves that composition from the additive all-middle
     Burnside restriction-correspondence coend is an additive equivalence onto
@@ -4999,12 +5015,16 @@ current_result:
     - explorations/conditional-build/quantum-demand-gpt-k77-classification-wave-2026-09-01.md
     - lab/process/quantum-demand-gpt-k77-classification-wave.json
     - tests/channel-swings/quantum_demand_gpt_k77_classification_probe.py
+    - explorations/conditional-build/k77-packet-local-positive-state-extension-wave-2026-09-01.md
+    - lab/process/k77-packet-local-positive-state-extension-wave.json
+    - tests/channel-swings/k77_packet_local_positive_state_extension_probe.py
+    - Lean/GUFormalization/PacketLocalPositiveCone.lean
 current_question: >-
-  Can either current K77 packet independently carry an ordered positive state
-  cone, deterministic unit, physical effect interval and descended
-  transformation algebra strong enough to open QD-R1-2 and QD-R1-5, and if
-  not, what minimal K77 carrier extension is forced by the frozen quantum
-  demands without selecting or retrieving a source action?
+  Can either K77 packet independently construct its physical constraint/gauge
+  quotient and a positive majorant or polarization, then lift that result to a
+  pointed generating quadratic state cone with a deterministic unit and
+  descended effects, without importing the other packet or retrieving a
+  source action?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5013,24 +5033,28 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave from the quantum calibration
-  anchors' frozen demands. Work candidate-locally and keep four compatible
-  reverse packets live: construct or sharply obstruct an ordered positive
-  cone, deterministic unit and effect interval on the reduced K77 I1B Green
-  carrier; repeat independently on the K77 observed-projector carrier; test
-  whether every surviving packet owns normalized instruments plus a remote-
-  marginal statement on one named causal domain; and classify reversible
-  phase-sensitive maps and open decoherence maps. If neither carrier can host
-  the required structures, derive the minimal K77 carrier-extension
-  requirements. Do not import cells between the two packets and do not select
-  or retrieve a source action.
+  Execute one largest honest compatible Big Wave on the two independent
+  packet-local positive-lift fronts. For K77 I1B, classify its radical as
+  owned gauge image versus retained constraint data and construct or sharply
+  obstruct a positive majorant on the resulting quotient. Separately, for the
+  observed-projector carrier, distinguish boundary projection from physical
+  gauge reduction and construct or sharply obstruct a positive majorant on
+  that packet. When either packet releases a majorant, immediately attempt its
+  quadratic state-cone, deterministic-unit and effect descent. Keep the seven
+  K77-PSX obligations and both packet identities exact. Do not import cells
+  across packets, attach the abstract density witness to K77, or select or
+  retrieve a source action.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
   work, scale reduction, source retrieval, routine hardening or maintenance as
   a substitute.
 
-  The carrier-neutral classification is now fixed: convex GPT normalization
+  The raw-linear selection boundary is now fixed: sign-invariant pointed
+  subsets are trivial, and raw linear-map ranges therefore cannot be the
+  nontrivial proper generating state cone. This is not a no-go for a cone on a
+  quadratic, ray or positive-functional extension. The carrier-neutral
+  classification is also fixed: convex GPT normalization
   and no-signalling do not select quantum theory because the exact PR-box
   control reaches CHSH 4, while the imported quantum witness has CHSH square
   8 and the classical simplex is bounded by 2. Preserve this discriminator

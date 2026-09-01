@@ -7,6 +7,16 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 packet-local positive-state extension wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A sign-invariant pointed subset of an additive carrier is trivial; on a nontrivial carrier the range of a linear map cannot itself be both pointed and generating | `Lean/GUFormalization/PacketLocalPositiveCone.lean`; `mem_eq_zero_of_negInvariant_pointed`, `not_generating_of_negInvariant_pointed`, and `linearMap_range_not_pointed_and_generating` | L1 exact algebraic selection obstruction; does not exclude cones on extended carriers |
+| A proposed cone preserved by a phase map whose square is negation has the same pointed/generating obstruction | Lean `negInvariant_of_phase_square` and `phase_square_not_preserves_pointed_generating` | L1 exact conditional theorem; no K77 phase map is selected |
+| The K77 I1B and observed-projector packets independently fail to select the raw linear carrier as a normalized proper state cone, for packet-local Green-radical and projector-range reasons | `lab/process/k77-packet-local-positive-state-extension-wave.json`; packet-owned/missing classification and cited native evidence | exact evidence-to-demand classification relative to current packets; not a universal K77 positivity no-go |
+| A rational quadratic lift supports exact sign-ray identification, a PSD cone, trace unit, projector effects/instruments, reversible phase and dephasing | `tests/channel-swings/k77_packet_local_positive_state_extension_probe.py` (`15/15`); hostile selftest (`13/13`) | exact carrier-neutral feasibility control; not attached to either K77 packet |
+| A GU-native quotient, positive majorant, state cone, effect algebra, Born pairing, composite rule, completely positive dynamics, source action, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
 ## Carrier-neutral GPT and K77 demand-coverage wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
