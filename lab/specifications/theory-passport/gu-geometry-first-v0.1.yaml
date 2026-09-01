@@ -1,6 +1,7 @@
 {
-  "schema_version": "0.1",
+  "schema_version": "0.2",
   "passport_id": "GU-GEOMETRY-FIRST-V0.1",
+  "method_contract_ref": "lab/process/reverse-scaffold-method-contract.json",
   "program": {
     "id": "GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION",
     "agenda_item": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
@@ -12,54 +13,116 @@
     "claim_effect": "none",
     "current_root_candidate_set": []
   },
-  "critical_path": [
-    {
-      "order": 1,
-      "id": "action_causal_closure",
-      "status": "blocked",
-      "depends_on": [],
-      "gate": "A source-owned or owner-native real coefficient-complete action must exist before downstream physical burdens can open.",
-      "required_objects": [
-        "real_coefficient_complete_action", "frozen_fields_constraints", "euler_noether_system",
-        "common_principal_polynomial", "shared_cauchy_surfaces", "hyperbolicity",
-        "physical_causal_domain_boundary", "green_boundary_form"
+  "method_graphs": {
+    "reverse_scaffold_search": {
+      "direction": "observed_to_native",
+      "governs": "work_eligibility_and_candidate_generation",
+      "status": "active",
+      "action_required_to_open": false,
+      "empty_action_root_policy": "continue_physical_demand_descent",
+      "stage_ids": [
+        "empirical_benchmark_descent",
+        "operational_constraint_extraction",
+        "state_observable_interface",
+        "causal_dynamical_demand",
+        "candidate_action_requirements"
       ],
-      "evidence_refs": [
-        "lab/process/action-causal-closure-qualification-v0.1.json",
-        "explorations/conditional-build/action-causal-closure-qualification-wave-2026-08-27.md"
+      "active_calibration_anchor_ids": [
+        "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
+        "EXT-QM-SPACELIKE-BELL-NOSIGNAL"
+      ],
+      "scale_policy": "big_wave_reroute_never_stop"
+    },
+    "forward_certification": {
+      "direction": "native_to_observed",
+      "governs": "native_derivation_credit_promotion_and_export",
+      "status": "blocked_at_action_root",
+      "stages": [
+        {
+          "order": 1,
+          "id": "action_causal_closure",
+          "status": "blocked",
+          "certification_depends_on": [],
+          "required_objects": [
+            "real_coefficient_complete_action",
+            "frozen_fields_constraints",
+            "euler_noether_system",
+            "common_principal_polynomial",
+            "shared_cauchy_surfaces",
+            "hyperbolicity",
+            "physical_causal_domain_boundary",
+            "green_boundary_form"
+          ],
+          "evidence_refs": [
+            "lab/process/action-causal-closure-qualification-v0.1.json",
+            "explorations/conditional-build/action-causal-closure-qualification-wave-2026-08-27.md"
+          ]
+        },
+        {
+          "order": 2,
+          "id": "physical_state_space",
+          "status": "blocked_for_native_certification_open_for_conditional_search",
+          "certification_depends_on": ["action_causal_closure"],
+          "required_objects": [
+            "coupled_gauge_bv_bfv_complex",
+            "common_closed_domain",
+            "reduced_physical_cohomology",
+            "conserved_positive_pairing",
+            "local_to_global_descent",
+            "holonomy_factorization"
+          ],
+          "evidence_refs": []
+        },
+        {
+          "order": 3,
+          "id": "observable_export",
+          "status": "blocked_for_native_certification_open_for_conditional_search",
+          "certification_depends_on": ["physical_state_space"],
+          "required_objects": [
+            "normal_mode_reduction",
+            "controlled_memory_kernel_or_process",
+            "preparation",
+            "intervention",
+            "detector",
+            "record",
+            "finite_observable"
+          ],
+          "evidence_refs": []
+        },
+        {
+          "order": 4,
+          "id": "held_out_confrontation",
+          "status": "blocked_for_scoring_open_for_holdout_design",
+          "certification_depends_on": ["observable_export"],
+          "required_objects": [
+            "frozen_parameters",
+            "distinct_held_out_consequence",
+            "null_or_rival_comparison"
+          ],
+          "evidence_refs": []
+        }
       ]
-    },
-    {
-      "order": 2,
-      "id": "physical_state_space",
-      "status": "blocked",
-      "depends_on": ["action_causal_closure"],
-      "gate": "The action-owned system must descend through gauge and boundary reduction to a conserved positive physical state space.",
-      "required_objects": [
-        "coupled_gauge_bv_bfv_complex", "common_closed_domain", "reduced_physical_cohomology",
-        "conserved_positive_pairing", "local_to_global_descent", "holonomy_factorization"
-      ],
-      "evidence_refs": []
-    },
-    {
-      "order": 3,
-      "id": "observable_export",
-      "status": "blocked",
-      "depends_on": ["physical_state_space"],
-      "gate": "A controlled reduction must connect physical modes to an intervention and a finite recorded observable before export or comparison.",
-      "required_objects": [
-        "normal_mode_reduction", "controlled_memory_kernel_or_process", "preparation",
-        "intervention", "detector", "record", "finite_observable", "held_out_consequence"
-      ],
-      "evidence_refs": []
     }
-  ],
+  },
+  "selection_invariants": {
+    "certification_order_is_not_work_selection_order": true,
+    "blocked_action_does_not_block_reverse_search": true,
+    "action_candidates_require_backward_demand_lineage": true,
+    "source_authentication_is_separate_from_candidate_construction": true,
+    "calibration_cannot_receive_prediction_credit": true,
+    "wrong_direction_reroutes_same_big_wave": true,
+    "wrong_direction_never_authorizes_zero_work_or_scale_down": true
+  },
   "freeze_wall": {
-    "timing": "before_observable_scoring",
+    "timing": "before_held_out_scoring",
     "frozen_before_scoring": [
-      "action_coefficients", "vacuum_background", "stabilizer_spectrum",
-      "causal_domain_boundary", "physical_quotient_state_pairing",
-      "projection_parameters", "held_out_consequence"
+      "action_coefficients",
+      "vacuum_background",
+      "stabilizer_spectrum",
+      "causal_domain_boundary",
+      "physical_quotient_state_pairing",
+      "projection_parameters",
+      "held_out_consequence"
     ]
   },
   "null_hypothesis": {
@@ -69,20 +132,26 @@
     "defeat_condition": "A frozen GU construction must recover controlled limits and outperform the preregistered null or rival on a held-out consequence."
   },
   "comparators": [
-    "general_relativity", "standard_model", "ordinary_qft_eft_quantization",
-    "thermodynamics_cosmology", "non_gu_unification", "null_or_rival_model"
+    "general_relativity",
+    "standard_model",
+    "ordinary_qft_eft_quantization",
+    "thermodynamics_cosmology",
+    "non_gu_unification",
+    "null_or_rival_model"
   ],
   "export_contract": {
     "target": "dynamic-unity",
     "status": "not_ready",
     "required_payload": [
-      "qualified_action_and_domain", "physical_state_space_certificate",
-      "observable_process_map", "frozen_parameters_and_held_out_test",
+      "qualified_action_and_domain",
+      "physical_state_space_certificate",
+      "observable_process_map",
+      "frozen_parameters_and_held_out_test",
       "truth_grade_and_live_null"
     ]
   },
   "promotion": {
     "scientific_promotions": [],
-    "note": "This passport records burden order and fail-closed interfaces only; it supplies no new scientific evidence or grade."
+    "note": "The search graph generates conditional candidates; only the separate forward-certification graph can earn native derivation, prediction, confirmation or export credit."
   }
 }

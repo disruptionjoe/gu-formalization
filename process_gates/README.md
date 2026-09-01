@@ -623,6 +623,7 @@ same ceiling as the scripts themselves:
 | `needs_provides_composition_audit.py` | Joins declared NEEDS with claimed SUPPLY, ratchets unadjudicated candidates, and preserves disavowal fences; a hit is a composition candidate and never an automatic physics verdict. |
 | `needs_provides_typed_join_audit.py` | Adds domain/codomain and registered-homonym sense typing to NEEDS/SUPPLY joins so token matches can be verified, rejected, or left explicitly untyped without guessing. |
 | `probe_authorship_lint.py` | Ratchets four recurrent probe-authoring defects: crash-not-detection, stale global pins, negation-satisfiable predicates, and raw wrapped-prose searches; it does not certify the probes' scientific claims. |
+| `reverse_scaffold_direction_audit.py` | Keeps observed-to-native search separate from native-to-observed certification across all active front doors, simulates an empty-action-root Big-Wave selection, and hostile-tests stop, scale-down, source-first, maintenance, and calibration-credit regressions; it changes no scientific claim. |
 | `typed_carrier_declaration_audit.py` | Requires result-bearing dated artifacts in its derived scope to declare carrier, pairing, real structure, grading, action owner and target, while preserving explicit `UNTYPED` and audited prose-only outcomes. |
 | `upgrade_program_register_audit.py` | Enforces that the upgrade-program register remains uniquely keyed, owned, status-typed and date-routed; reports overdue nonterminal rows at an explicit `--as-of` date (default UTC today) as review signals only, without judging, activating or reprioritizing the registered ideas. |
 
@@ -747,6 +748,7 @@ same ceiling as the scripts themselves:
 - `public_path_hygiene_audit.py`
 - `queue_review_freshness_audit.py`
 - `register_writeback_audit.py`
+- `reverse_scaffold_direction_audit.py`
 - `selected_cubic_augmented_torsion_d3_owner_scope_audit.py`
 - `selected_cubic_gauge_rotated_lc_ward_owner_scope_audit.py`
 - `selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py`

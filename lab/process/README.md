@@ -17,6 +17,15 @@ no change to their computations, evidence or reopening conditions. The
 digest-bound CT-2 history-repair registry is
 [`mint-context-history-repairs.json`](mint-context-history-repairs.json).
 
+Current research-direction contract:
+[`reverse-scaffold-method-contract.json`](reverse-scaffold-method-contract.json).
+It separates observed-to-native candidate search from native-to-observed
+certification, keeps conditional physical-demand construction executable when
+the action root is empty, requires a Big-Wave reroute rather than a stop when
+direction drifts, and admits massive matter-wave interference plus spacelike
+Bell/no-signalling as calibration constraints with zero prediction or
+confirmation credit.
+
 Current verdict/context integration record:
 [`conditional-ledger-verdict-context-integration.json`](conditional-ledger-verdict-context-integration.json),
 with result narrative at

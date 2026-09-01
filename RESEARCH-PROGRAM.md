@@ -79,29 +79,49 @@ Keeping this line sharp is the program's credibility.
 `GU-GEOMETRY-FIRST-DYNAMICAL-UNIFICATION` is the explicit program identity for the repository's existing
 conditional-build work. Its question is whether the observerse / Clifford-Rarita-Schwinger geometry can earn a
 single dynamical account of known physics rather than merely accommodate selected structures after the fact.
-"Geometry-first" names the order of construction, not a license to omit quantum fields, measurement, causal
+"Geometry-first" names the intended explanatory ownership if the program succeeds. It does not make a completed
+action the prerequisite for research search, and it is not a license to omit quantum fields, measurement, causal
 domains, or empirical confrontation.
 
-The program works through one falsifiable dependency chain:
+The program uses two graphs that must never be collapsed into one another.
+
+The **reverse-scaffold search graph** governs work eligibility and candidate
+generation. It runs from admitted phenomena to operational constraints, then
+to state/observable interfaces, causal/dynamical demands, and finally the
+requirements a candidate action must meet. A missing or empty action root does
+not block any earlier reverse-search stage. Source authentication may correct
+attribution, but it is distinct from constructing an owner-native conditional
+candidate. Progress takes the largest honest compatible Big Wave of backward
+edges; a wrong-direction candidate is a reroute condition inside that Wave,
+never a zero-work, scale-down or maintenance condition.
+
+The **forward-certification graph** governs GU-native derivation and promotion
+credit:
 
 1. own a real, coefficient-complete action and its field/constraint grammar;
 2. construct a stationary vacuum and derive its stabilizer and mass spectrum;
 3. prove hyperbolicity and specify the physical causal domain;
 4. build the gauge/BV/BFV quotient, observables, and a conserved positive physical state space; and
-5. recover the controlled GR, Standard Model, quantum, thermodynamic, and cosmological limits before testing
-   held-out consequences against the strongest alternatives.
+5. recover controlled limits before testing a distinct held-out consequence against the strongest alternatives.
+
+Certification order is not work-selection order. Reverse-only constructions
+may earn typed compatibility or hosting results, never derivation, prediction
+or confirmation credit for calibration data used to build them.
 
 Current execution remains the existing `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item. This name does not
 create a second workstream, reopen its currently empty B2 action-root candidate set, or promote any scientific
 grade. The program succeeds only through scoped constructions, recovery theorems, exact obstructions, or
 finite discriminators; a coherent geometric story by itself is not a result.
 
-The machine-checkable theory passport at
-`lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml` makes the critical path operational. It requires
-action and causal closure before physical-state construction, and physical-state construction before observable
-export; boundary and local-to-global gates enter before scoring. Its freeze wall, live ordinary-physics null,
-held-out comparators and fail-closed Dynamic Unity export are research controls only. The passport adds no
-evidence, candidate, recovery result, prediction or scientific promotion.
+The machine-readable method contract at
+`lab/process/reverse-scaffold-method-contract.json` and theory passport at
+`lab/specifications/theory-passport/gu-geometry-first-v0.1.yaml` make both
+graphs operational. The passport requires action and causal closure before
+**native certification** of a physical state, not before conditional
+state/observable construction. Its freeze wall, live ordinary-physics null,
+held-out comparators and fail-closed Dynamic Unity export are research controls
+only. The contract and passport add no evidence, candidate, recovery result,
+prediction or scientific promotion.
 
 ## The frontier: what is outside the observer universe
 

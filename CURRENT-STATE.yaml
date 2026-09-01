@@ -1,11 +1,37 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 080ccbaba521
+revision_basis: e9fcb9f2ff15
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
   preserving reproducible evidence and honest scientific grades.
+research_method_control:
+  authority: joe_direct_chat_2026_08_31
+  contract: lab/process/reverse-scaffold-method-contract.json
+  reverse_search:
+    direction: observed_to_native
+    status: active
+    action_required_to_open: false
+    stages:
+      - empirical_benchmark_descent
+      - operational_constraint_extraction
+      - state_observable_interface
+      - causal_dynamical_demand
+      - candidate_action_requirements
+  forward_certification:
+    direction: native_to_observed
+    status: blocked_at_action_root
+    governs: native_derivation_prediction_confirmation_and_export_credit_only
+  work_posture:
+    default_scale: big_wave
+    direction_violation: reroute_within_same_big_wave
+    zero_work_authority: none
+    maintenance_substitution_when_reverse_arc_exists: forbidden
+  active_calibration_anchor_ids:
+    - EXT-QM-MASSIVE-MATTER-INTERFERENCE
+    - EXT-QM-SPACELIKE-BELL-NOSIGNAL
+  scientific_claim_effect: none
 current_result:
   status: conditional_research_front
   summary: >-
@@ -4968,14 +4994,14 @@ current_result:
     - explorations/conditional-build/selected-k77-i2b-first-nonlinear-torsion-absorption-2026-08-13.md
     - explorations/conditional-build/selected-k77-i2b-cartan-symbol-involutivity-2026-08-13.md
 current_question: >-
-  Does a source/action-owned Clifford-trace insertion, constraint/BV complex
-  or boundary/domain construction select the now-exact quotient and pairing
-  data, realize the canonical linear cohomology and supplied pairing
-  equivalence physically, prove that the cycle radical is exactly gauge, and
-  supply a conserved positive real/Krein completion, while the co-Yoneda-
-  identified Burnside hom groups still lack bicategorical 2-morphism
-  coherence and the independent equation-9.16 coupling packet remains
-  coefficient-incomplete?
+  What common conditional state, event/probability, composition, observable,
+  decoherence and causal-record interface is required by massive matter-wave
+  interference together with spacelike Bell/no-signalling, and what precise
+  causal/dynamical and eventual action requirements follow when those demands
+  are propagated backward without counting the calibration anchors as GU
+  predictions or confirmation? Source authentication remains a separate
+  attribution task, while native forward certification remains blocked at the
+  empty action root.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -4984,12 +5010,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Rebuild the substantial repository frontier and select the strongest
-  disjoint non-B2 gate. Follow A1: check exact source-to-proof reopeners,
-  then newly open ledger rows, then concrete result hardening. The ledger
-  v0.263 remains 91 terminal and 0 open rows, and the current named B2
-  action-root set is empty. Do not synthesize CBRS-1AC, transfer K95 ownership,
-  choose a reality convention, or execute downstream physicalization owners.
+  Execute one largest honest compatible Big Wave from the admitted quantum
+  calibration anchors. In parallel, freeze massive matter-wave interference
+  and spacelike Bell/no-signalling as R6 constraints; extract their shared and
+  distinct preparation, intervention, record, probability, phase, composition
+  and local-marginal demands at R5; build or sharply obstruct compatible R4/R3
+  conditional state/observable/decoherence interfaces; and propagate their R2
+  causal and dynamical requirements backward. Reserve a distinct held-out
+  consequence family and type every imported quantum postulate. The empty B2
+  action-root set blocks native certification only. It does not block any of
+  these reverse edges.
+
+  A failed or wrong-direction packet reroutes its capacity to the next
+  compatible reverse edge inside the same Big Wave. It never authorizes zero
+  work, a smaller wave, source retrieval, routine hardening, or maintenance as
+  a substitute. An R1 action candidate becomes eligible only after it cites
+  the frozen downstream demands that require its fields, coefficients,
+  symmetries, domain and variational structure. Source authentication may then
+  check attribution separately; it does not become the construction method.
 
   The frozen source coefficient packet is rank zero on four copy/owner slots;
   separately labeled family exchange raises rank to two and leaves the 54 and
@@ -5014,11 +5052,14 @@ next_condition: >-
   invariance remain exact: two-sided gauge basicness gives descent, quotient
   nondegeneracy is equivalent to the cycle radical containing only gauge
   images, and a supplied pairing-preserving quotient equivalence transports
-  both directions. Reopen physical-state language only on an action-owned
-  complex, pairing and equivalence, real/Krein structure, common analytic
-  domain, conservation, positivity or positive majorant, observable and
-  probability interpretation. A linear quotient is not a physical state
-  space and algebraic invariance is not physical isometry.
+  both directions. Conditional physical-state interface research is open now:
+  use the quantum anchors to determine which composition, real/Krein,
+  analytic-domain, conservation, positivity/majorant, observable and
+  probability structures would be required. Native physical-state
+  certification reopens only when an action-owned complex, pairing and
+  equivalence supply those frozen structures. A linear quotient is not a
+  certified physical state space and algebraic invariance is not physical
+  isometry.
 
   The Burnside-span arc now owns both the additive-group-valued all-middle
   coend presentation and its additive co-Yoneda equivalence with the actual

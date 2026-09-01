@@ -54,6 +54,18 @@ entry gate (amended 2026-07-19, Joe direct chat: the previous
 natively-produce admission bar tested one candidate at derivation strength
 instead of carving the space at existence strength).
 
+For `CONDITIONAL-BUILD-REVERSE-SCAFFOLD`, these sector searches follow
+`reverse-scaffold-method-contract.json`. The observed-to-native search graph
+governs work eligibility; the native-to-observed graph governs certification
+only. In particular, an empty action-root candidate set does not block quantum
+benchmark descent, operational-constraint extraction, conditional
+state/observable interface construction, or causal/dynamical demand typing.
+Those products constrain later action candidates and retain explicit import
+counts; they do not earn native derivation credit merely by fitting their
+calibration targets. Progress selects a Big Wave of compatible backward edges;
+a direction defect reroutes that Wave and never authorizes no work, a smaller
+scale, or maintenance substitution.
+
 ### The graded fit ladder
 
 - **Rung 0 — Consistency (admission bar):** the cell is not falsified by the
@@ -180,6 +192,11 @@ is not evidence for or against GU and cannot move claim status.
   never the unification claim, which remains Rung 2. Weakening a sector's
   sharp constraint list is a Joe-gated contract change; extending one with
   new evidence is sovereign.
+- Never reinterpret the forward certification dependency chain as the search
+  queue. Every proposed action candidate cites the frozen downstream demands
+  that caused its fields, coefficients, symmetries, domain and variational
+  structure to be considered. Source retrieval authenticates attribution and
+  never becomes the default substitute for an executable backward edge.
 
 ## Decisive Eric-lane source-collision gate
 

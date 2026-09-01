@@ -100,7 +100,9 @@ given the two, the program *hosts* most physics **modulo** them — it fits, con
 consistency-to-hosting grade and *fixes* the dark-energy sign (toy-grade, conditional on the SRC-COH-1
 construction axiom — not yet forced from a built source action); on the unexplained-joints ledger it is the
 better arena than the rivals, but **modestly** (a factor of ~2–3, not orders of magnitude), and native
-recovery is gated on one blocked source-action spine. It does not yet *force* physics, and the bit is
+certification is gated on one blocked source-action spine. That gate does not
+block conditional reverse-scaffold research from observed phenomena back to
+the requirements on a future action. It does not yet *force* physics, and the bit is
 imported, not earned — and by the standard above, that is the correct posture, not a deficiency. The
 dark-energy no-phantom-crossing measurement is the one observation that turns the modest lean into a verdict.
 (Consolidates the 2026-07-21 results: `explorations/lp-lc-deficiency-decisive-…`, `pin-bordism-cardinality-…`,
@@ -110,6 +112,8 @@ dark-energy no-phantom-crossing measurement is the one observation that turns th
 
 - **Current branch-relative state:** `CURRENT-STATE.yaml`
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
+- **Reverse-search / forward-certification method contract:**
+  `lab/process/reverse-scaffold-method-contract.json`
 - **Lead result (published preprint):** `papers/candidates/located-not-forced/`
   ([DOI `10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143))
 - **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`

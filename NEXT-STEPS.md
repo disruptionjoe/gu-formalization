@@ -7,6 +7,19 @@ updated_at: "2026-08-31"
 
 # Next Steps For Contributors
 
+> **ACTIVE SELECTION CONTROL — 2026-08-31.** The entries below are an
+> append-only result and reopener history; they are not a forward dependency
+> queue. Current work starts from observed phenomena and builds backward:
+> calibration constraints → operational demands → conditional state and
+> observable interfaces → causal/dynamical demands → candidate-action
+> requirements. The current Big Wave begins with massive matter-wave
+> interference and spacelike Bell/no-signalling. An empty action root blocks
+> native certification, not this reverse search. Any source-action-first or
+> other wrong-direction selection must be replaced inside the same Big Wave;
+> it cannot stop work, reduce scale, or substitute maintenance. See
+> `lab/process/reverse-scaffold-method-contract.json` and the active
+> `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
+
 > **2026-08-31 ADDITIVE CO-YONEDA AND LINEAR COHOMOLOGY CONSTRUCTED.**
 > Composition identifies the all-middle additive Burnside restriction-
 > correspondence coend with the actual iterated-restriction hom group by an

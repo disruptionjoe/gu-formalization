@@ -2,7 +2,7 @@
 title: "Contributing"
 status: canon
 doc_type: overview
-updated_at: "2026-08-26"
+updated_at: "2026-08-31"
 ---
 
 # Contributing
@@ -45,13 +45,25 @@ GU.
 
 High-priority contribution types include:
 
-- source-to-shadow reductions for GR, QFT, matter/gauge, measurement, or dark-energy
-  sectors;
-- branch-fixed action/operator proposals with explicit variation spaces and rollback
-  conditions;
+- cross-benchmark operational constraints extracted backward from admitted
+  phenomena without relabeling calibration fits as predictions;
+- conditional state, event/probability, composition, observable, decoherence,
+  causal-domain, or dynamics interfaces that sharpen what a GU realization
+  would have to supply;
+- branch-fixed action/operator proposals with explicit backward-demand
+  lineage, variation spaces, and rollback conditions;
+- source-to-shadow reductions for GR, QFT, matter/gauge, measurement, or
+  dark-energy sectors when used for forward certification of an already frozen
+  candidate;
 - analytic machinery for the noncompact `Y^14` setting;
 - category or functor language that makes a GU class exit precise;
 - obstruction theorems that show a required GU reconstruction object cannot exist.
+
+The ordering matters: observed-to-native reverse search governs contribution
+selection, while native-to-observed order governs derivation and promotion
+credit. A missing source action is not a reason to stop, shrink the work, or
+switch to maintenance. See
+`lab/process/reverse-scaffold-method-contract.json`.
 
 ### Substrate-level invariant work
 

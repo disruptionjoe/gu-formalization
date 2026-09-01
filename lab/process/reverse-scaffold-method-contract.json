@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "contract_id": "GU-REVERSE-SCAFFOLD-METHOD-V1",
+  "status": "active",
+  "authorized_by": "Joe direct chat, 2026-08-31",
+  "purpose": "Keep conditional GU construction moving backward from admitted physical phenomena while reserving action-first order for native certification.",
+  "claim_effect": "none",
+  "work_posture": {
+    "default_scale": "big_wave",
+    "direction_violation": "reroute_within_same_big_wave",
+    "zero_work_authority": "none",
+    "maintenance_substitution": "forbidden_when_any_reverse_search_arc_is_executable"
+  },
+  "method_graphs": {
+    "reverse_scaffold_search": {
+      "direction": "observed_to_native",
+      "governs": "research_work_eligibility_and_candidate_generation",
+      "action_required_to_open": false,
+      "stages": [
+        {"order": 1, "id": "empirical_benchmark_descent", "output": "frozen calibration constraints and a distinct held-out family"},
+        {"order": 2, "id": "operational_constraint_extraction", "output": "preparation, intervention, detector, record, probability and no-signalling demands"},
+        {"order": 3, "id": "state_observable_interface", "output": "conditional state composition, event, pairing, quotient and observable interfaces"},
+        {"order": 4, "id": "causal_dynamical_demand", "output": "locality, causal-domain, coherence, decoherence and state-preserving-dynamics requirements"},
+        {"order": 5, "id": "candidate_action_requirements", "output": "demand-derived field, coefficient, symmetry, domain and variational constraints on candidate actions"}
+      ],
+      "empty_action_root_policy": "stages_1_through_4_remain_open_and_stage_5_may_define_action_requirements",
+      "selection_rule": "Select a Big Wave of the strongest compatible unclosed backward edges with the greatest cross-benchmark information gain; never replace it with unconstrained source-action recovery.",
+      "action_candidate_admission": "A candidate action must cite the frozen downstream demands that require its fields, coefficients, symmetries, domain and variational structure.",
+      "source_authentication": "Source evidence may authenticate, correct or reject attribution. It is not a prerequisite for owner-native conditional candidate construction, and a repository construction never becomes source-owned by resemblance."
+    },
+    "forward_certification": {
+      "direction": "native_to_observed",
+      "governs": "native_derivation_credit_scientific_promotion_and_export",
+      "stages": [
+        {"order": 1, "id": "action_causal_closure"},
+        {"order": 2, "id": "physical_state_space", "certification_depends_on": ["action_causal_closure"]},
+        {"order": 3, "id": "observable_export", "certification_depends_on": ["physical_state_space"]},
+        {"order": 4, "id": "held_out_confrontation", "certification_depends_on": ["observable_export"]}
+      ],
+      "promotion_rule": "Only the forward chain can earn GU-native derivation, prediction, confirmation or export credit. Reverse-only success earns explicitly assumption-capped compatibility or hosting credit."
+    }
+  },
+  "quantum_calibration_anchors": [
+    {
+      "id": "EXT-QM-MASSIVE-MATTER-INTERFERENCE",
+      "status": "admitted_reverse_scaffold_calibration",
+      "observed_constraint": "Bound composite objects exhibit centre-of-mass matter-wave interference while environmental coupling suppresses accessible coherence without a demonstrated size-triggered classical boundary.",
+      "primary_examples": [
+        "Fein et al., Nature Physics 15, 1242-1245 (2019), doi:10.1038/s41567-019-0663-9",
+        "Pedalino et al., Nature 649, 866-870 (2026), doi:10.1038/s41586-025-09917-9"
+      ],
+      "required_reverse_outputs": ["coherent_alternative_composition", "phase_sensitive_recombination", "composite_centre_of_mass_state", "environmental_decoherence_interface"],
+      "confirmation_credit": "none"
+    },
+    {
+      "id": "EXT-QM-SPACELIKE-BELL-NOSIGNAL",
+      "status": "admitted_reverse_scaffold_calibration",
+      "observed_constraint": "Spacelike-separated measurements on distributed entangled photon pairs violate a Bell inequality while preserving operational no-signalling.",
+      "primary_examples": ["Yin et al., Science 356, 1140-1144 (2017), doi:10.1126/science.aan3211"],
+      "required_reverse_outputs": ["nonfactorizable_joint_state", "contextual_joint_probability_structure", "local_marginal_invariance", "causal_record_comparison"],
+      "confirmation_credit": "none"
+    }
+  ],
+  "calibration_holdout_firewall": {
+    "calibration_use": "The admitted anchors may constrain candidate construction and kill incompatible interfaces.",
+    "forbidden_credit": "Reproducing a calibration anchor used to build the candidate is not a prediction or confirmation.",
+    "held_out_requirement": "Freeze at least one distinct quantitative or structural consequence before scoring a candidate.",
+    "import_accounting": "Every probability, composition, locality, dynamics or measurement assumption not produced by GU is typed and counted as imported, fitted, forced or assumed."
+  },
+  "regression_invariants": [
+    "Certification order is not work-selection order.",
+    "An empty or blocked action root does not block conditional physical-demand construction.",
+    "A physical-state or observable certification blocker cannot be reused as a reverse-search eligibility blocker.",
+    "Source authentication and owner-native candidate construction remain separate.",
+    "No action candidate is selected without backward demand lineage.",
+    "Calibration data cannot earn held-out prediction or confirmation credit.",
+    "A direction violation reroutes the same Big Wave and never authorizes zero work, scale reduction or maintenance substitution."
+  ]
+}

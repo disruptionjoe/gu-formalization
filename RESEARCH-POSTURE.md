@@ -2,7 +2,7 @@
 title: "Research Posture"
 status: canon
 doc_type: canon
-updated_at: "2026-07-07"
+updated_at: "2026-08-31"
 ---
 
 # Research Posture
@@ -68,7 +68,27 @@ These are hypotheses under active drive, to be ATTACKED not defended. They are i
   datum. This is not permission to call compatibility a derivation; it is the explicit distinction between
   "force three" and "fit the world unusually well."
 
-### Operational frontier (2026-07-11): the count is hardened -- WORK THE OTHER FOUR LEGS
+### Active method control (2026-08-31): phenomena first for search, action first for certification
+
+The live conditional-build program uses two different orders for two different
+purposes. Research search proceeds backward from admitted phenomena through
+operational constraints, conditional state/observable interfaces and
+causal/dynamical demands to the requirements on a future action. Native
+certification proceeds forward from a frozen action to a physical state,
+observable export and held-out confrontation. Certification order is not the
+work queue.
+
+The empty action-root candidate set therefore blocks native GU derivation
+credit, not reverse-scaffold research. The current calibration anchors are
+massive matter-wave interference and spacelike Bell/no-signalling; fitting
+them earns no prediction or confirmation credit. Scheduled work takes the
+largest honest compatible Big Wave of backward edges. A source-action-first or
+otherwise wrong-direction candidate is rerouted within that same Big Wave; it
+never licenses no work, a smaller wave, or maintenance substitution. The
+machine-readable authority is
+`lab/process/reverse-scaffold-method-contract.json`.
+
+### Historical operational frontier (2026-07-11): the count was hardened
 
 The located-not-forced result on the generation count is at **maximum hardening** (a complete forcing
 rubric + an out-of-rubric hunt found no mechanism; the count is a rigid, finite, 2-bit residual = the
@@ -85,11 +105,10 @@ any non-count leg -- `SURVIVES_PENDING_ACTION`.** Dark energy SURVIVES (its "wro
 bug; GU fits DESI's sign) and QM SURVIVES (a concrete Krein-unitary repair, physical sector
 positive-definite); gravity/SM/forces are consistent-but-incomplete (no contradiction). See
 `explorations/disproof-hunt-given-working-action-2026-07-11.md` and
-`explorations/explanatory-scope-audit-source-action-bottleneck-2026-07-11.md`. The single decisive open
-test is **gravity**: `ELProjectedGRShadowTheorem` -- the full projected section-equation residual on an
-exact Schwarzschild/Kerr section (surviving conservative IG branch). It either CLEARS gravity (a third yes)
-or STRUCTURALLY FALSIFIES GU (GU cannot host a black hole -> dead via gravity). **This is the top priority
-for both contributors and the hourly loop.**
+`explorations/explanatory-scope-audit-source-action-bottleneck-2026-07-11.md`.
+That frontier's named gravity test remains scientific history and may remain a
+valid later packet, but its former “top priority” instruction is superseded by
+the active two-graph method control above.
 
 Why this is the program's real thesis: the point is to show that agents can take a bold, heterodox,
 more-work-remaining claim, take it SERIOUSLY, and drive it to a real outcome -- either "we did everything we
