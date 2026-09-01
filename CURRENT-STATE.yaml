@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0a9f608a60f6
+revision_basis: 7c8fb33a5e4b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The boost-Ward/positive-star-state Big Wave advances both class-level
+    discriminators isolated by K82. For the complete repository-owned
+    constant-coefficient observed quotient scalar action on a fixed unit
+    Lorentz background, a nonzero boost produces mixed principal coefficient
+    2 sinh(theta)cosh(theta)(K-H), while the mixed-stress skew is
+    psi_t^T(H-K)psi_x. Standard scalar boost symmetry and the off-shell stress
+    Ward identity therefore hold iff K=H. The common-cone family K=cH is
+    weaker: H=I,K=2I has one speed sqrt(2), positive energy and translation
+    conservation but fails the fixed-unit boost identity. Independently, one
+    composite star product, commuting binary local involutions and a normalized
+    positive state already give the exact SOS identity
+    2sqrt(2)1-C=(X^2+Y^2)/sqrt(2), hence |omega(C)|<=2sqrt(2). Saturation is
+    exactly state-nullity of both SOS defects. PR correlations would force the
+    positive SOS expectation to 2sqrt(2)-4<0, so the PR table has no positive
+    extension to that composite algebra. This narrows the missing quantum
+    owner from Hilbert tensor structure to the observable product,
+    cross-local commutation and positive physical state themselves. Exact
+    probes pass 32/32 and 33/33; hostile selftests catch 20/20 and 20/20. No
+    source full-carrier stress/metric/coframe identity, physical observable
+    algebra, positive state, prediction or confirmation results.
     The universal-cone/Tsirelson-demand Big Wave replaces another local escape
     search with two class-level necessity tests. On the complete repository-
     owned observed quotient with positive temporal form H and positive spatial

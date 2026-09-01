@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K83-BOOST-WARD-UNIVERSAL-COUPLING-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "predecessor": "lab/process/k82-universal-causal-cone-classification-wave.json",
+  "control_model": {
+    "carrier": "the existing real rank-960 observed quotient W with positive temporal form H and positive spatial form K",
+    "domain": "H1 scalar sections on a fixed unit Lorentz slab, reduced to one spatial axis for the boost classification",
+    "principal_lagrangian": "L_pr=1/2*(psi_t^T H psi_t-psi_x^T K psi_x)",
+    "field_representation": "ordinary real scalar multiplet under the fixed background Lorentz boosts",
+    "ownership": "repository-owned constant-coefficient first-derivative quotient-action class, not a source-owned K77 full-carrier stress or dynamical metric"
+  },
+  "ward_classification": {
+    "boost_cross_coefficient": "a nonzero rapidity produces mixed covector coefficient 2*sinh(theta)*cosh(theta)*(K-H)",
+    "mixed_stress_identity": "T_0x-T_x0=psi_t^T*(H-K)*psi_x for arbitrary first jets",
+    "boost_symmetry_iff": "the standard scalar boost Ward identity holds off shell for every quotient mode iff K=H",
+    "fixed_metric_conclusion": "on the already fixed unit Lorentz metric, action-owned standard boost symmetry forces H^(-1)K=I",
+    "scope": "constant coefficients, first derivatives, scalar Lorentz representation and no derivative-dependent stress improvement"
+  },
+  "common_cone_boundary": {
+    "common_cone_only": "K=c*H with c>0 gives one common cone but the fixed-unit boost identity holds only at c=1",
+    "common_nonunit_control": "H=I and K=2I has one speed sqrt(2), positive energy and nonzero mixed-stress residual",
+    "two_speed_control": "H=I and K=diag(1,4) has two speeds and nonzero mixed-stress residual",
+    "nonselection": "translation conservation, positive Hamiltonian energy, quotient closure, lower-order interaction and minimal abelian BV do not select fixed-background boost symmetry"
+  },
+  "source_attribution": "GU source materials currently own no coefficient-complete observed rank-960 or full-carrier variational stress tensor, dynamical metric/coframe Euler identity, or descended physical boost Ward identity used here",
+  "claim_ceiling": "exact fixed-background boost-symmetry and mixed-stress classification for the repository-owned constant-coefficient observed-quotient scalar action class only; no source full-carrier stress, nonlinear gravity, prediction or confirmation",
+  "fences": {
+    "source_stress_tensor_constructed": false,
+    "dynamical_metric_or_coframe_owned": false,
+    "physical_quotient_ward_identity_owned": false,
+    "prediction_or_confirmation": false,
+    "gu_verdict_changed": false
+  },
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k83_boost_ward_universal_coupling_probe.py",
+  "artifact": "explorations/conditional-build/k83-boost-ward-universal-coupling-wave-2026-09-01.md",
+  "next_condition": "derive the actual source/action-owned full-carrier variational stress or metric/coframe identity, descend it to physical cohomology, and test whether its Ward identity forces unit-normalized principal-form agreement on every sector"
+}

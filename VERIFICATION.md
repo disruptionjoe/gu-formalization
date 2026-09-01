@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K83 boost-Ward universal-coupling wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| In the fixed-unit scalar quotient action class, a nonzero Lorentz boost produces mixed principal coefficient `2 sinh(theta)cosh(theta)(K-H)`, and `T_0x-T_x0=psi_t^T(H-K)psi_x` | `lab/process/k83-boost-ward-universal-coupling-wave.json`; exact rational-boost and first-jet probe (`32/32`) | exact boost-symmetry and off-shell mixed-stress iff theorem for the named constant-coefficient class |
+| `K=cH` with `c>0` gives one common cone, but fixed-unit standard scalar boost symmetry holds only at `c=1` | `H=I,K=2I` common-cone/stress-skew control; hostile selftest (`20/20`) | exact distinction between common-cone kinematics and action-owned unit-metric coupling |
+| Translation conservation, positive Hamiltonian energy, closed quotient, lower-order interaction and minimal abelian BV select the boost Ward identity | the `K=2I` and `diag(1,4)` controls retain those structures while failing the identity | not selected |
+| A source-owned full-carrier variational stress, dynamical metric/coframe identity and descended physical Ward law | not constructed | open / explicitly excluded |
+
+## K83 positive star-state Tsirelson boundary wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A normalized positive functional on one commuting binary-observable star-algebra obeys `|omega(C)|<=2sqrt(2)` | exact identity `2sqrt(2)1-C=(X^2+Y^2)/sqrt(2)` in `lab/process/k83-positive-star-state-tsirelson-boundary-wave.json`; symbolic `Q(sqrt(2))` probe (`33/33`) | exact conditional positive-star-state SOS theorem; no Hilbert tensor or complex-scalar premise is needed for the inequality |
+| Upper-bound saturation is equivalent to both SOS defects being state-null | positivity plus the exact SOS identity | exact state-relative saturation criterion in the named algebraic packet |
+| PR correlations extend to a normalized positive state on that composite algebra | the putative value `omega(C)=4` forces positive SOS expectation `2sqrt(2)-4<0`; hostile selftest (`20/20`) | exact non-extension certificate |
+| A GU-native physical observable algebra, positive state, Born pairing, prediction or confirmation | not constructed | open / explicitly excluded |
+
 ## K82 universal causal-cone classification wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
