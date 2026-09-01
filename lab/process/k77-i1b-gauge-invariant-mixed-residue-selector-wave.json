@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-I1B-GAUGE-INVARIANT-MIXED-RESIDUE-SELECTOR-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "normal_form": "D=[C,H]=[[0,-2q],[2r,0]] and M=aD",
+  "gauge_group": "simultaneous conjugation, with explicit H-preserving symplectic stabilizer G_s=diag(s,s^-1)",
+  "coordinate_weights": {
+    "q": "s^-2",
+    "r": "s^2",
+    "rho": "s^-2",
+    "sigma": "s^2"
+  },
+  "identifiability": {
+    "nonnilpotent_horn": "qr!=0 gives a^2=tr(M^2)/tr([C,H]^2)",
+    "nilpotent_horn": "exactly one of q,r nonzero gives D^2=0; full tensor proportionality M=aD identifies a but trace squares do not",
+    "commuting_horn": "q=r=0 gives D=M=0 for every a and cannot identify a",
+    "sign": "requires the oriented tensor equation or equivalent owned coorientation",
+    "positive_log2_vs_log3": "the invariant magnitude distinguishes them when independently owned C,H,M are noncommuting"
+  },
+  "claim_ceiling": "local two-dimensional gauge-invariant selector classification only; no source-owned C,H,M, cross-null physical bundle, prediction or confirmation",
+  "source_attribution": "native I1B ranks only; the residue tensors and selector theorem remain repository-derived",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_i1b_gauge_invariant_mixed_residue_selector_probe.py",
+  "artifact": "explorations/conditional-build/k77-i1b-gauge-invariant-mixed-residue-selector-wave-2026-09-01.md",
+  "next_condition": "obtain independently owned H,C,M tensors and apply the nonnilpotent, nilpotent or commuting horn without choosing basis coordinates"
+}

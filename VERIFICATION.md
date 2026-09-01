@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 source-transgression analytic-bridge classification wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For `P(t)=f t+c t^2/2+e t^3/3`, a nonzero origin-preserving analytic bridge to `Q(q)=m2 q^2/2+lambda q^4/4`, `m2>0`, must satisfy `ord(P) ord(phi)=2` | `lab/process/k77-source-transgression-analytic-bridge-classification-wave.json`; exact rational jet probe (`25/25`) | complete local real one-mode leading-order classification; no full-carrier map is inferred |
+| If `f!=0`, `phi=P^{-1} composed with Q` exists for every `m2,lambda` but has `phi'(0)=0`; if `f=0,c>0`, two locally invertible sign branches exist with `c phi'(0)^2=m2`, again for every `lambda` | inverse/implicit-function argument plus exact jets through degree eight; hostile selftest (`14/14`) | exact local existence and invertibility horns; free bridge jets have zero coefficient-selection power |
+| If `f=c=0,e!=0`, no analytic bridge reaches the massive target; if `e!=0`, every nonconstant polynomial bridge has degree `3d` and cannot equal an interacting quartic | order and polynomial-degree identities | exact cubic-leading analytic and genuinely-cubic polynomial bridge obstructions; not a nonlinear source-action no-go |
+| A source/action-owned full-carrier bridge, kinetic/pairing/gauge/domain restriction on bridge jets, source-selected rank-1920 action, prediction, confirmation or verdict | not constructed | open / explicitly excluded |
+
+## K77 I1B gauge-invariant mixed-residue selector wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Under `G_s=diag(s,s^-1)`, `q,r,rho,sigma` carry weights `s^-2,s^2,s^-2,s^2`, while `D=[C,H]` and `M=aD` transform covariantly | `lab/process/k77-i1b-gauge-invariant-mixed-residue-selector-wave.json`; exact symplectic probe (`29/29`) | exact `H`-stabilizer covariance; individual off-diagonal coordinates require a trivialization |
+| In the nonnilpotent horn `qr!=0`, `a^2=tr(M^2)/tr([C,H]^2)` is invariant under simultaneous conjugation and distinguishes positive `log(2)` from `log(3)` when `C,H,M` are independently owned | exact trace identities and hostile selftest (`14/14`) | basis-free magnitude selector in the stated two-dimensional normal form; no source-owned tensors are supplied |
+| In the nilpotent horn `D!=0,D^2=0`, full tensor proportionality identifies `a` although trace squares do not; in the commuting horn `D=0`, every `a` survives | exact rational nilpotent and commuting controls | complete degeneracy classification; trace-only summaries are insufficient |
+| Signed selection needs the oriented tensor equation or an owned coorientation; a source-owned cross-null bundle, prediction, confirmation or verdict | not constructed | sign ceiling and open ownership boundary |
+
 ## K77 source-transgression affine-bridge obstruction wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-SOURCE-TRANSGRESSION-ANALYTIC-BRIDGE-CLASSIFICATION-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "source_germ": "P(t)=f t+(c/2)t^2+(e/3)t^3",
+  "observed_germ": "Q(q)=(m2/2)q^2+(lambda/4)q^4 with m2>0 and lambda>=0",
+  "bridge_class": "origin-preserving real local analytic one-mode germs phi",
+  "exact_result": {
+    "order_equation": "ord(P)*ord(phi)=2",
+    "linear_leading_horn": "f!=0 gives the unique noninvertible germ phi=P^{-1} composed with Q for every m2,lambda",
+    "quadratic_leading_horn": "f=0,c>0 gives two locally invertible analytic sign branches with c*phi'(0)^2=m2 for every lambda",
+    "negative_quadratic_horn": "f=0,c<0 gives no real locally invertible branch to m2>0",
+    "cubic_leading_horn": "f=c=0,e!=0 gives no analytic bridge because 3*ord(phi) cannot equal 2",
+    "genuinely_cubic_polynomial_horn": "e!=0 gives degree 3d under every nonconstant polynomial bridge, so no interacting quartic equality"
+  },
+  "coefficient_identifiability": false,
+  "claim_ceiling": "local real one-mode analytic-germ and genuinely-cubic polynomial classification only; no full-carrier, nonlocal, background-dependent, orbit-averaged or later-action obstruction",
+  "source_attribution": "source owns the I1B action grammar only; GU owns the bridge classification and no bridge is source-supplied",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_source_transgression_analytic_bridge_classification_probe.py",
+  "artifact": "explorations/conditional-build/k77-source-transgression-analytic-bridge-classification-wave-2026-09-01.md",
+  "next_condition": "independently own the full-carrier bridge or restrict bridge jets through kinetic, pairing, gauge, locality, domain or measure data"
+}

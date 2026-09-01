@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7cfcafd17b95
+revision_basis: d27844433708
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The analytic-bridge/gauge-invariant-selector Big Wave closes two coordinate-
+    freedom seams left by the affine and mixed-row packets. For the real source
+    germ P(t)=f t+c t^2/2+e t^3/3 and massive observed germ
+    Q(q)=m2 q^2/2+lambda q^4/4, every nonzero origin-preserving analytic bridge
+    obeys ord(P)ord(phi)=2. A linear-leading source germ admits a unique but
+    noninvertible bridge for every m2,lambda; a positive quadratic-leading germ
+    admits two locally invertible sign branches for every lambda; a cubic-
+    leading germ admits none. On a genuinely cubic ray every nonconstant
+    polynomial bridge has degree 3d and cannot equal an interacting quartic.
+    Thus local action-germ equality does not select coefficients whenever a
+    bridge exists. Independently, the cross-null equation M=a[C,H] is covariant
+    under the H-preserving symplectic stabilizer. When [C,H] is nonnilpotent,
+    a^2=tr(M^2)/tr([C,H]^2) is a basis-free magnitude selector; a nilpotent
+    commutator requires full tensor proportionality, while a commuting residue
+    selects nothing. Exact probes pass 25/25 and 29/29; hostile selftests catch
+    14/14 and 14/14. No full-carrier source bridge, source-owned cross-null
+    tensors, physical quotient, prediction or confirmation results.
     The source-transgression/mixed-residue Big Wave converts two broad source-
     structure requests into exact typed decision boundaries. The written
     source-native I1B transgression has cubic action degree on every augmented-
@@ -5210,13 +5227,19 @@ current_result:
     - explorations/conditional-build/k77-i1b-mixed-residue-holonomy-identifiability-wave-2026-09-01.md
     - lab/process/k77-i1b-mixed-residue-holonomy-identifiability-wave.json
     - tests/channel-swings/k77_i1b_mixed_residue_holonomy_identifiability_probe.py
+    - explorations/conditional-build/k77-source-transgression-analytic-bridge-classification-wave-2026-09-01.md
+    - lab/process/k77-source-transgression-analytic-bridge-classification-wave.json
+    - tests/channel-swings/k77_source_transgression_analytic_bridge_classification_probe.py
+    - explorations/conditional-build/k77-i1b-gauge-invariant-mixed-residue-selector-wave-2026-09-01.md
+    - lab/process/k77-i1b-gauge-invariant-mixed-residue-selector-wave.json
+    - tests/channel-swings/k77_i1b_gauge_invariant_mixed_residue_selector_probe.py
 current_question: >-
-  Which source/action-owned nonlinear or later-action map transports the
-  augmented-torsion transgression into the rank-1920 quotient with all
-  quartic, cubic, kinetic and pairing coefficients typed; independently, does
-  a source-owned cross-null evaluation fix a noncommuting off-diagonal trace-
-  free residue and mixed-curvature row whose exact ratio selects log(2),
-  log(3), or neither?
+  Which independently owned full-carrier map or kinetic/pairing/gauge/domain
+  constraint removes the local analytic bridge-jet freedom and transports the
+  augmented-torsion action into the rank-1920 quotient; independently, does a
+  source/action cross-null evaluation supply H,C,M so the invariant
+  nonnilpotent, nilpotent or commuting selector horn decides log(2), log(3), or
+  neither?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5226,23 +5249,22 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The first source-owned coefficient packet has now been tested against the
-  complete interacting rank-1920 family. The cubic I1B transgression cannot
-  be its literal field-independent affine reduction when lambda>0; copying
-  1/3 into lambda is a type error, not coefficient selection. Advance the
-  observed line only with a source/action-owned nonlinear, nonlocal,
-  background/orbit-averaged or later-action bridge that produces the pulled-
-  back quartic and simultaneously owns the cubic, kinetic, pairing and domain
-  data. Independently, the I1B 24-to-22 jump now has a complete two-dimensional
-  residue classification. Trace -1 fixes no matrix beyond its scalar part,
-  and bounded mixed curvature leaves the tangential magnitude free. Advance
-  only with a source/action-owned off-diagonal trace-free residue coordinate
-  and corresponding mixed-curvature or matching row. Then test
-  a=-rho/(2q)=sigma/(2r) against log(2) and log(3), rejecting inconsistent
-  packets. Do not relabel the affine obstruction as a source-action no-go, the
-  residue family as source-owned, the punctured normal form as a physical
-  cross-null bundle, union the observed and I1B packets, or score the held-out
-  family before forward observable export.
+  The complete local analytic one-mode bridge classification is now fixed.
+  Linear-leading source response admits a noninvertible bridge for arbitrary
+  m2,lambda; positive quadratic-leading response admits two locally invertible
+  sign branches for arbitrary lambda; cubic-leading response admits none.
+  Genuinely cubic global polynomial bridges are excluded, but noninvertible
+  analytic, full-carrier, nonlocal, background/orbit-averaged and later-action
+  routes remain open. Advance the observed line only with an independently
+  owned full-carrier bridge or with kinetic, symplectic, gauge, locality,
+  domain or measure data that restrict the bridge jets and compare all pulled-
+  back coefficients. Independently, advance I1B only with owned H,C,M tensors.
+  Use a^2=tr(M^2)/tr([C,H]^2) in the nonnilpotent horn, full tensor
+  proportionality in the nilpotent horn, and report nonidentifiability in the
+  commuting horn. Do not freeze basis coordinates, infer a sign without owned
+  orientation, relabel the polynomial obstruction as a nonlinear source-action
+  no-go, promote the residue tensors to source-owned, union the observed and
+  I1B packets, or score held-out evidence before forward observable export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

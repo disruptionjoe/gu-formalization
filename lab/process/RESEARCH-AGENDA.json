@@ -1,8 +1,8 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-09-01",
-  "refresh_note": "The reverse scaffold now tests two previously named selector structures and proves both insufficient at their exact grades. On the complete rank-1920 direct-summand quotient over [0,1]xT3, the repository-owned S_(m2,lambda) family is genuinely interacting for lambda>0, has positive conserved nonlinear energy, and admits a nilpotent minimal abelian BRST differential plus formal classical BV master action. Every m2>0, lambda>=0 member has the same closed gauge complex, master equation and degree-zero quotient-observable algebra while differing in linear frequency and cubic response, so minimal abelian BV closure and a positive quartic interaction expose a two-parameter nonselection family. Independently, the native I1B 196-to-198 radical jump is modeled by J_u=J_22 direct_sum uJ_2. Compatibility forces tr(B_u)=-1/u, excluding a bounded smooth ordinary connection and constant-rank quotient across the 24-to-22 jump. The forced trace residue is -1, while the symmetric representative has matrix residue -I_2/2; that trace datum is independent of the tangential coefficient, so log(2) and log(3) remain equally compatible. Neither packet is source-selected, gauge-fixed quantum, physically cross-null or predictive. The B2 named source-action root remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
-  "latest_result_2026_09_01": "The complete observed quotient now admits a nonlinear interacting two-parameter action family and formal minimal abelian BV completion, proving those structures do not select one coefficient packet. The native I1B 24-to-22 quotient jump now has an exact logarithmic ordinary-connection obstruction, but its forced trace residue does not distinguish log(2) from log(3). Source-owned coefficient relations, physical reduction and observable export remain open.",
+  "refresh_note": "The reverse scaffold now classifies every origin-preserving real local analytic one-mode bridge from the cubic I1B source germ to the massive quartic observed germ. Order multiplication leaves only a noninvertible linear-leading horn and a locally invertible positive quadratic-leading horn; both absorb arbitrary target quartic coefficient into bridge jets, while the cubic-leading horn is impossible. On a genuinely cubic ray every global polynomial bridge has degree 3d and cannot equal a quartic. Independently, the I1B mixed-residue selector is now basis-free: under the H-preserving symplectic stabilizer the full tensors transform covariantly, and the nonnilpotent horn gives a^2=tr(M^2)/tr([C,H]^2); nilpotent tensors require full proportionality and commuting tensors select nothing. No full-carrier source bridge or source-owned H,C,M packet exists. The B2 named source-action root remains empty, ledger v0.263 remains 91 terminal and 0 open rows, and protected paper/canon/release state remains unchanged. CURRENT-STATE.yaml is the branch-relative orientation surface; its revision_basis must resolve to a recent ancestor of the actual branch tip.",
+  "latest_result_2026_09_01": "Local analytic action-germ equality does not select the observed mass or quartic coefficient whenever a bridge exists; only the cubic-leading and genuinely cubic polynomial horns are obstructed. The cross-null coefficient has an exact gauge-invariant selector once independently owned H,C,M tensors exist, with separate nonnilpotent, nilpotent and commuting horns. Full-carrier ownership, physical reduction and observable export remain open.",
   "latest_result_2026_08_31": "Composition now gives an additive co-Yoneda equivalence from the all-middle Burnside restriction-correspondence coend to the actual iterated-restriction hom group. Candidate middle cohomology is identified with ker(d1)/range(d0), and chain maps descend linearly compatibly with the representative quotient. No bicategory/Mackey-2 structure or source-selected physical completion is inferred.",
   "artifact_role": "Target-native scientific questions, evidence state, and next conditions; not scheduling, orchestration, or service priority.",
   "operational_states": [
@@ -475,6 +475,26 @@
         "exact_controls": "23/23 pass; hostile selftest 14/14 caught",
         "scientific_effect": "The complete compatible cross-null residue is -I2/2 plus arbitrary trace-free C. Only its off-diagonal coordinates couple to tangential holonomy through a[C,H]; trace residue, symmetric representative and bounded mixed curvature leave log(2)/log(3) nonselected, while independently owned C and mixed row can decide them.",
         "credit_ceiling": "Local two-dimensional residue/identifiability theorem only; no source-owned cross-null matching packet, physical quotient, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_source_transgression_analytic_bridge_classification_2026_09_01": {
+        "status": "COMPLETE_LOCAL_ANALYTIC_BRIDGE_ORDER_INVERTIBILITY_AND_COEFFICIENT_NONSELECTION_CLASSIFICATION",
+        "manifest_ref": "lab/process/k77-source-transgression-analytic-bridge-classification-wave.json",
+        "result_ref": "explorations/conditional-build/k77-source-transgression-analytic-bridge-classification-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_source_transgression_analytic_bridge_classification_probe.py",
+        "exact_controls": "25/25 pass; hostile selftest 14/14 caught",
+        "scientific_effect": "Every local analytic one-mode bridge is classified by source order: linear-leading bridges exist but are noninvertible, positive quadratic-leading bridges are locally invertible, and cubic-leading bridges do not exist. Existing horns absorb arbitrary target quartic coefficients into bridge jets; genuinely cubic polynomial bridges cannot equal a quartic.",
+        "credit_ceiling": "Local real one-mode action-germ classification only; no full-carrier bridge, source selection, kinetic/pairing/gauge/domain ownership, prediction or confirmation.",
+        "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+      },
+      "k77_i1b_gauge_invariant_mixed_residue_selector_2026_09_01": {
+        "status": "COMPLETE_GAUGE_INVARIANT_MIXED_RESIDUE_SELECTOR_AND_DEGENERACY_CLASSIFICATION",
+        "manifest_ref": "lab/process/k77-i1b-gauge-invariant-mixed-residue-selector-wave.json",
+        "result_ref": "explorations/conditional-build/k77-i1b-gauge-invariant-mixed-residue-selector-wave-2026-09-01.md",
+        "probe_ref": "tests/channel-swings/k77_i1b_gauge_invariant_mixed_residue_selector_probe.py",
+        "exact_controls": "29/29 pass; hostile selftest 14/14 caught",
+        "scientific_effect": "The coordinate row selector is replaced by an H-stabilizer-covariant tensor equation. Nonnilpotent mixed residues select a positive coefficient magnitude by a trace ratio, nilpotent residues require full tensor proportionality, and commuting residues select nothing.",
+        "credit_ceiling": "Local two-dimensional invariant selector theorem only; no source-owned H,C,M, physical cross-null bundle, prediction or confirmation.",
         "held_out": "delayed-choice entanglement swapping, reserved_unscored"
       },
       "k77_observed_full_incoming_operator_system_2026_09_01": {
