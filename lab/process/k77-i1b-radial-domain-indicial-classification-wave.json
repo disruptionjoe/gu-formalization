@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-I1B-RADIAL-DOMAIN-INDICIAL-CLASSIFICATION-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "radial_model": "u*psi'(u)+(R+u*a*H)psi(u)=0 on 0<u<epsilon, R=-I2/2+C",
+  "control_pairing": "positive Euclidean norm with weighted measure u^p du; repository-derived and not the native alternating I1B Green form",
+  "residue_class": "real semisimple trace-free C with eigenvalues +s and -s, s>=0",
+  "exact_result": {
+    "indicial_family": "I(z)=z*I2+R; the bounded tangential term u*a*H does not enter",
+    "mode_powers": "C-eigenvalue c gives psi_c(u)=u^(1/2-c)*(v_c+O(u))",
+    "weighted_integrability": "integral u^(p+1-2c) du is finite iff c<(p+2)/2",
+    "darboux_threshold": "for p=1 both modes are finite when s<3/2, the +s mode is logarithmic at s=3/2, and only the -s mode is finite when s>3/2",
+    "coefficient_verdict": "every finite a, including log(2) and log(3), has the same leading indicial roots and weighted-L2 mode count",
+    "noncommuting_control": "C=s[[0,1],[1,0]], H=diag(1,-1) gives tr([C,H]^2)=-8s^2 while preserving C eigenvalues +/-s"
+  },
+  "boundary_owner_gap": [
+    "source/action-owned full cross-null operator",
+    "physical positive pairing or Green boundary form",
+    "minimal and maximal operator domains",
+    "self-adjoint or variational Lagrangian extension",
+    "global monodromy condition",
+    "finite-bare or counterterm-renormalized policy"
+  ],
+  "claim_ceiling": "frozen two-dimensional regular-singular radial control and weighted-L2 mode count only; no universal boundary nonselection theorem",
+  "source_attribution": "source owns the I1B rank jump and transgression grammar only; the radial operator, control norm and domain classification are repository-derived",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_i1b_radial_domain_indicial_classification_probe.py",
+  "artifact": "explorations/conditional-build/k77-i1b-radial-domain-indicial-classification-wave-2026-09-01.md",
+  "next_condition": "derive the actual source/action-owned cross-null operator, Green boundary form, domains and extension/counterterm policy, or supply an independently owned mixed residue"
+}

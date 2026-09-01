@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 source-observed first-jet substitution rigidity wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For `t=Phi(q,v)`, `v=q_x`, the pulled-back positive kinetic term has `q_xx^2` coefficient `h(Phi)Phi_v^2/2`, while `D_x B(q,v)` is at most linear in `q_xx` | `lab/process/k77-source-observed-first-jet-contact-rigidity-wave.json`; exact rational probe (`25/25`) | exact off-shell highest-jet identity on a positive one-axis carrier |
+| Equality with a first-order target modulo a first-jet boundary term forces `Phi_v=0`, reducing the frozen first-jet class to point maps and the prior geodesic normal form | coefficient comparison; hostile selftest (`14/14`) | exact rigidity for regular first-jet substitutions under the stated assumptions |
+| Indefinite multidimensional null symbols, singular/higher-jet/nonlocal maps, auxiliary fields, on-shell or gauge-reduced equivalence | explicit contrary classes and claim ceiling | open / not covered by the theorem |
+| A source-owned full-carrier principal symbol, gauge quotient, physical domain, prediction or confirmation | not constructed | open / explicitly excluded |
+
+## K77 I1B radial-domain indicial classification wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For `u psi'+(R+u aH)psi=0`, `R=-I2/2+C`, a `C`-eigenvalue `c` gives leading power `u^(1/2-c)` and weighted norm exponent `p+1-2c` | `lab/process/k77-i1b-radial-domain-indicial-classification-wave.json`; exact rational/matrix probe (`27/27`) | exact regular-singular indicial classification for the frozen two-plane control |
+| Under Darboux weight `p=1`, both `+/-s` modes are finite for `s<3/2`, the `+s` mode is logarithmic at `s=3/2`, and only the `-s` mode remains for `s>3/2` | exact exponent thresholds; hostile selftest (`15/15`) | exact weighted-L2 mode-count horns; not a self-adjoint-extension theorem |
+| The bounded term `u aH` does not enter the indicial family, so `log(2)` and `log(3)` have the same leading domain count; a noncommuting control has `tr([C,H]^2)=-8s^2` | exact noncommuting matrix control | coefficient nonselection by local indicial data alone |
+| A source-owned cross-null operator, positive pairing, Green boundary form, minimal/maximal domains, extension or counterterm policy, prediction or confirmation | not constructed | open / explicitly excluded |
+
 ## K77 source-observed variable-metric bridge normal-form wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

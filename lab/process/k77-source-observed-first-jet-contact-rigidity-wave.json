@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K77-SOURCE-OBSERVED-FIRST-JET-CONTACT-RIGIDITY-WAVE",
+  "status": "active_research",
+  "date": "2026-09-01",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "source_lagrangian": "L_src=(1/2)h(t)t_x^2-P(t), with h(t)>0 on the tested chart",
+  "target_lagrangian": "a first-order L_tgt(q,q_x), compared off shell modulo D_x B(q,q_x)",
+  "bridge_class": "regular real C2 first-jet substitutions t=Phi(q,v), v=q_x, on the full second-jet space (q,v,a=q_xx)",
+  "exact_result": {
+    "prolongation": "t_x=Phi_q*v+Phi_v*a",
+    "highest_jet_coefficient": "the pulled-back kinetic term has a^2 coefficient (1/2)*h(Phi)*Phi_v^2",
+    "boundary_order": "D_x B(q,v)=B_q*v+B_v*a is at most linear in a",
+    "rigidity": "off-shell equality for all a and h>0 forces Phi_v=0, so every bridge in the frozen class is a point transformation",
+    "reduction": "the surviving point map obeys the prior variable-metric normal form F(phi(q))=s*sqrt(mu)*q",
+    "decision": "regular one-axis first-jet dependence supplies no escape from the point-map coefficient classification"
+  },
+  "assumption_boundary": [
+    "one positive nondegenerate base-direction kinetic symbol",
+    "regular finite first-jet substitution",
+    "off-shell equality on the full second-jet space",
+    "first-order target modulo a first-jet boundary term",
+    "no auxiliary-field cancellation"
+  ],
+  "unresolved_classes": [
+    "indefinite multidimensional null symbols",
+    "singular substitutions",
+    "higher-jet or nonlocal maps and boundary functionals",
+    "auxiliary-field equivalence",
+    "on-shell equivalence",
+    "gauge-reduced or full-carrier equivalence"
+  ],
+  "claim_ceiling": "one-axis positive-symbol off-shell first-jet rigidity only; no source-owned full-carrier metric, gauge quotient, domain or physical bridge",
+  "source_attribution": "source owns the I1B cubic transgression grammar only; the kinetic metric, target action and bridge classification are repository-derived",
+  "held_out_credit": "none",
+  "probe": "tests/channel-swings/k77_source_observed_first_jet_contact_rigidity_probe.py",
+  "artifact": "explorations/conditional-build/k77-source-observed-first-jet-contact-rigidity-wave-2026-09-01.md",
+  "next_condition": "freeze an independently owned full-carrier principal symbol, gauge complex and domain, or a fully specified singular, auxiliary-field, higher-jet, nonlocal, on-shell or gauge-reduced map class"
+}

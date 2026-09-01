@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6fef66de6dd9
+revision_basis: 77df4e299031
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The first-jet/radial-domain Big Wave closes two more regular local horns at
+    exact conditional grade. For a positive one-axis source kinetic term and a
+    regular substitution t=Phi(q,q_x), the pulled-back kinetic density has
+    acceleration-square coefficient h(Phi)Phi_v^2/2. A first-jet total
+    derivative is only linear in q_xx, so off-shell equality to a first-order
+    target forces Phi_v=0 and reduces every bridge in this class to the prior
+    point-map geodesic normal form. Indefinite multidimensional null symbols,
+    singular, higher-jet, nonlocal, auxiliary-field, on-shell and gauge-
+    reduced maps remain open. Independently, the regular-singular radial model
+    u psi'+(R+u aH)psi=0 with R=-I2/2+C has mode powers
+    u^(1/2-c). Under weight u^p du, a C-eigenmode is square-integrable exactly
+    when c<(p+2)/2. For the Darboux weight p=1, both +/-s modes survive for
+    s<3/2, the +s mode is logarithmic at s=3/2, and only the -s mode survives
+    above it. The bounded tangential coefficient changes regular factors but
+    not indicial roots, so log(2) and log(3) have identical leading domain
+    counts even in a noncommuting control with tr([C,H]^2) nonzero. No actual
+    source-owned cross-null operator, Green boundary form, self-adjoint
+    extension, physical pairing, prediction or confirmation results. Exact
+    probes pass 25/25 and 27/27; hostile selftests catch 14/14 and 15/15.
     The variable-metric/integrability Big Wave closes two surviving escape
     horns at exact conditional grade. For a fixed positive one-mode source
     metric h(t)dt^2, the arc-length coordinate F(t)=integral sqrt(h) makes
@@ -4897,6 +4916,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k77-source-observed-first-jet-contact-rigidity-wave-2026-09-01.md
+    - lab/process/k77-source-observed-first-jet-contact-rigidity-wave.json
+    - tests/channel-swings/k77_source_observed_first_jet_contact_rigidity_probe.py
+    - explorations/conditional-build/k77-i1b-radial-domain-indicial-classification-wave-2026-09-01.md
+    - lab/process/k77-i1b-radial-domain-indicial-classification-wave.json
+    - tests/channel-swings/k77_i1b_radial_domain_indicial_classification_probe.py
     - explorations/conditional-build/k77-source-observed-variable-metric-bridge-normal-form-wave-2026-09-01.md
     - lab/process/k77-source-observed-variable-metric-bridge-normal-form-wave.json
     - tests/channel-swings/k77_source_observed_variable_metric_bridge_normal_form_probe.py
@@ -5286,12 +5311,12 @@ current_result:
     - lab/process/k77-i1b-action-owned-mixed-residue-independence-wave.json
     - tests/channel-swings/k77_i1b_action_owned_mixed_residue_independence_probe.py
 current_question: >-
-  Does the source/action own a full-carrier kinetic metric whose geodesic-
-  coordinate potential fixes the required coefficient jets, or must the
-  bridge be derivative-dependent, nonlocal, singular or later-action;
-  independently, does the actual cross-null action own finite bare
-  integrability, a counterterm-renormalized domain, a positive majorant or
-  another boundary law capable of deciding the tangential coefficient?
+  Does the source/action own a full-carrier principal symbol, gauge complex and
+  domain whose highest-jet test extends the one-axis first-jet rigidity, or do
+  indefinite null directions, auxiliary fields, singularity, nonlocality or
+  gauge reduction permit a genuine bridge; independently, does the actual
+  cross-null Green boundary form and extension law make the domain depend on
+  the tangential coefficient despite leading indicial blindness?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5301,22 +5326,21 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The variable-metric local point-map horn is now in geodesic normal form. A
-  fixed positive h removes free bridge jets and selects the transformed
-  potential through h0,h1,h2, while a target-fitted h derives nothing. Advance
-  only with an independently source/action-owned full-carrier kinetic metric,
-  gauge quotient and domain, or with an explicitly typed derivative-dependent,
-  nonlocal, singular, background/orbit-averaged or later-action map. For I1B,
-  the Darboux-measure invariant action has three exact horns: finite bare action
-  forces a=0 when [C,H] is nonnilpotent; counterterm renormalization preserves
-  every a; nilpotent and commuting residues are invariant-polynomial blind.
-  Advance only by owning the actual measure, pairing or positive majorant,
-  boundary domain and counterterm policy, or by supplying an independent
-  matching residue. Do not promote repository-owned h or finite-bare
-  admissibility to source truth, fit metric jets after reading the target,
-  treat an indefinite trace polynomial as a positive norm, interchange bare
-  and renormalized domains, union the observed and I1B packets, or score
-  held-out evidence before forward observable export.
+  Regular one-axis first-jet dependence is now rigid: its positive highest-jet
+  square forces Phi_v=0 off shell modulo first-jet boundary terms. Advance the
+  bridge only with an independently source/action-owned full-carrier principal
+  symbol, gauge complex and domain, or with a frozen indefinite-null, singular,
+  higher-jet, nonlocal, auxiliary-field, on-shell or gauge-reduced map class.
+  For I1B, the leading radial weighted-L2 domain depends on residue exponents
+  but not the bounded tangential coefficient; log(2) and log(3) remain
+  indistinguishable at that level. Advance only by deriving the actual cross-
+  null operator, physical pairing and Green boundary form, then classifying
+  minimal/maximal domains, Lagrangian extensions and finite-bare versus
+  counterterm-renormalized policy, or by supplying an independent mixed
+  residue. Do not generalize the one-axis positivity argument to indefinite
+  full carriers, drop the radial factor u before aH, call an L2 mode count a
+  self-adjoint boundary law, treat the control norm as source-owned, union the
+  observed and I1B packets, or score held-out evidence before forward export.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
