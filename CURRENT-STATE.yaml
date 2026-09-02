@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ec9fafed91f0
+revision_basis: 3eae275ea4ac
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K108 quadratic-state and composition-selection Big Wave advances the
+    open reverse scaffold without reopening K107's source-selector gate. On
+    K105's actual blind carrier of inertia (256,183,0), the quadratic lift
+    q(v)=v tensor v identifies sign and its K-positive ray cone is pointed and
+    spans the full symmetric square. The open cone is not closed, but K106's
+    proved compact product subgroup admits the exact two-weight invariant
+    family H_(a,b)=a I_+ direct-sum b I_-. Every a,b>0 faithfully normalizes
+    the closed cone to a compact base, and the algebra unit H_(1,1)=I supplies
+    one repository-coordinate control. The group does not uniquely select the
+    relative block weight, and this mathematical compactification supplies no
+    source-owned physical state, effect pairing or Born interpretation.
+    Independently, real
+    two-level quantum theory reproduces exact two-path interference and the
+    2 sqrt(2) Bell/no-signalling control, yet its bipartite symmetric state-
+    effect space has dimension 10 while local symmetric-product effects span
+    only 9. The hidden J tensor J direction separates two positive normalized
+    states invisible to every local product effect. The two calibration
+    anchors therefore select neither complex scalars nor local tomography.
+    Probes pass 12/12 and 13/13; hostile selftests catch 15/15 and 15/15. No
+    GU physical state, observable algebra, Born rule, source/action owner,
+    prediction, confirmation, canon, paper, ledger or public posture moves.
     The K107 source-ownership and generated-selector Big Wave reaches the hard
     evidence checkpoint without inventing another operator. Across the six
     frozen released-source and registered-custody rows -- SC-ACT-01,
@@ -5980,13 +6001,17 @@ current_result:
     - explorations/conditional-build/k107-k105-generated-selector-closure-wave-2026-09-02.md
     - lab/process/k107-k105-generated-selector-closure-wave.json
     - tests/channel-swings/k107_k105_generated_selector_closure_probe.py
+    - explorations/conditional-build/k108-k105-quadratic-ray-cone-normalization-boundary-wave-2026-09-02.md
+    - lab/process/k108-k105-quadratic-ray-cone-normalization-boundary-wave.json
+    - tests/channel-swings/k108_k105_quadratic_ray_cone_normalization_boundary_probe.py
+    - explorations/conditional-build/k108-real-quantum-local-tomography-boundary-wave-2026-09-02.md
+    - lab/process/k108-real-quantum-local-tomography-boundary-wave.json
+    - tests/channel-swings/k108_real_quantum_local_tomography_boundary_probe.py
 current_question: >-
-  Can one authenticated source or authorial packet specify a coefficient-
-  complete action or full distortion/boundary operator on a typed carrier,
-  together with an explicit bridge to K105, so its K-self-adjoint spectrum,
-  blind-symmetry defect, domain and Green compatibility can actually be
-  tested? If no such object can be recovered, the formalization remains
-  non-admissible and non-testable at this gate rather than false.
+  Under one frozen declared-content premise set, do PV-1, PV-2 and MV-2 compose
+  into a self-contained binary theorem that every admitted vector-mass route
+  leaves an extra vector, while preserving the exact boundary against a full
+  source-native spectrum claim?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5995,24 +6020,34 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave only after the K107 source
-  checkpoint receives new owner evidence. Stop autonomous freely chosen
-  operator construction at the K107 boundary.
-  Reopen the K105 selector only on one authenticated source or authorial packet
-  owning the carrier, coefficient-complete action or full distortion/boundary
-  operator, and enough domain/Green data to define the test. Then require an
-  explicit action-preserving bridge to K105, K-self-adjointness, nonzero
-  O(256) blind-symmetry defect, a simple isolated K-positive spectral line and
-  retention of all 188 negative directions before advancing to state or
-  observable export. Algebraic repackaging, functional calculus, coordinate
-  tie breaking, scalar Robin data and metric-10 cross terms remain closed.
-  Globalize K106's A2+A0 owner only when the same evidence supplies a full
-  carrier, atlas, nonlinear BV-BFV complex and common curved domain. If no
-  source-owned object can be specified, record exact non-admission/non-
-  testability; do not report GU false.
-  A failed or wrong-direction packet reroutes within the same Big Wave and
-  never authorizes zero work, scale reduction, another freely chosen operator, routine
-  hardening or maintenance as a substitute.
+  Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
+  directed locally executable binary-theorem portfolio, preserving its order.
+  First consolidate PV-1, PV-2 and MV-2 into one self-
+  contained theorem-grade declared-content extra-vector obstruction with
+  frozen premises, an exact claim ceiling, a rerunnable proof bundle, hostile
+  counterexamples and an explicit novelty boundary. Preserve the distinction
+  between the declared-content theorem and any stronger source-native spectrum
+  claim. Next consolidate Q2-FREE, W211 as corrected by W219, and CC-1 into a
+  sigma/dark-energy sign-nonselection theorem explicitly conditional on the
+  sigma-to-Lambda bridge. Then package the exact 54/210 versus 45/945 Pati-
+  Salam representation-channel theorem without vertex or mass interpretation.
+  Finally package the literal observation-pullback/gamma-kernel obstruction
+  without classifying the physical leftover. Located, Not Forced is already
+  published and is not new work. Do not route these waves to external review,
+  journal submission, outreach or dissemination, and do not depend on outside
+  people. Exclude unavailable source retrieval, authorial specification,
+  invented source actions or freely chosen operators, further Mackey/Burnside
+  plumbing, a GR dichotomy without a frozen owned candidate, and physical
+  classification of observation leftovers without an owned action/quotient.
+
+  K108 remains a completed safe coherent state-interface result. Its quadratic
+  cone is pointed, spanning and nonclosed, while the proved compact product
+  symmetry admits a two-weight family of faithful compact normalizations,
+  including the algebra-unit control; no physical state credit follows. The
+  two calibration anchors also admit a real-quantum non-locally-tomographic
+  composite, so they do not select complex scalars or local tomography.
+  Reopen either route only on a new locally owned operational premise, not an
+  external dependency or freely selected operator.
   In parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81

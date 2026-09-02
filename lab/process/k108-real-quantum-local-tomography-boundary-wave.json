@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K108-REAL-QUANTUM-LOCAL-TOMOGRAPHY-BOUNDARY-2026-09-02",
+  "status": "exact_anchor_compatibility_with_real_composition_nonselection",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "parent_packets": [
+    "lab/process/quantum-anchor-reverse-scaffold-interface-wave.json",
+    "lab/process/quantum-demand-gpt-k77-classification-wave.json",
+    "lab/process/k82-quantum-tsirelson-demand-boundary-wave.json"
+  ],
+  "local_system": {
+    "field": "real",
+    "state_effect_space": "Sym2(R2)",
+    "dimension": 3
+  },
+  "composite": {
+    "global_state_effect_space": "Sym2(R4)",
+    "global_dimension": 10,
+    "local_product_span_dimension": 9,
+    "hidden_direction": "J_tensor_J",
+    "hidden_direction_symmetric": true,
+    "hidden_direction_orthogonal_to_all_local_symmetric_products": true,
+    "locally_tomographic": false
+  },
+  "indistinguishable_states": {
+    "rho_plus": "(I+J_tensor_J)/4",
+    "rho_minus": "(I-J_tensor_J)/4",
+    "positive": true,
+    "normalized": true,
+    "distinct": true,
+    "same_all_local_product_expectations": true,
+    "global_J_tensor_J_expectations": [1, -1]
+  },
+  "calibration_controls": {
+    "real_two_path_interference": true,
+    "classical_mixture_probability": "1/2",
+    "real_Bell_CHSH": "2_sqrt_2",
+    "local_marginals": "I/2",
+    "operational_no_signalling": true,
+    "held_out_scored": false
+  },
+  "result": {
+    "two_calibration_anchors_select_complex_scalars": false,
+    "two_calibration_anchors_select_local_tomography": false,
+    "real_quantum_composite_is_exact_contrary_model": true,
+    "GU_native_composition_or_state_constructed": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Add and independently justify a local-tomography, complex-orientation, composite-dimension, or equivalent operational demand, then test whether a GU-owned quotient, observable algebra and positive state realize it without importing the desired field or tensor rule.",
+  "claim_ceiling": "Exact finite-dimensional real-quantum countermodel: the admitted interference and Bell/no-signalling anchors are compatible with a non-locally-tomographic real composite. This does not choose a GU carrier, physical state, observable algebra, Born rule, complex field, prediction or confirmation."
+}

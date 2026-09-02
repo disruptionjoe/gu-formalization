@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K108-K105-QUADRATIC-RAY-CONE-NORMALIZATION-BOUNDARY-2026-09-02",
+  "status": "exact_quadratic_escape_with_compact_invariant_normalization_family",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "parent_packets": [
+    "lab/process/k77-packet-local-positive-state-extension-wave.json",
+    "lab/process/k106-k105-action-symmetry-positive-subspace-wave.json",
+    "lab/process/k107-k105-generated-selector-closure-wave.json"
+  ],
+  "actual_carrier": {
+    "name": "K105_distortion_blind_sector",
+    "positive_dimension": 256,
+    "negative_dimension": 183,
+    "lowerer_inertia": [256, 183, 0],
+    "proved_symmetry_subgroup": "O(256)_times_O(183)"
+  },
+  "quadratic_lift": {
+    "map": "q(v)=v_tensor_v",
+    "target": "Sym2(V)",
+    "identifies_sign": true,
+    "positive_ray_cone": "finite_positive_hull_of_q(v)_for_K(v,v)>0",
+    "pointed": true,
+    "linear_span_is_all_Sym2": true,
+    "closed": false,
+    "nonzero_null_rank_one_rays_in_closure": true
+  },
+  "invariant_normalization": {
+    "group_used": "O(E_plus)_times_O(E_minus)",
+    "all_invariant_linear_functionals": "a_times_positive_block_trace_plus_b_times_negative_block_trace",
+    "invariant_space_dimension": 2,
+    "faithful_positive_family_condition": "a_positive_and_b_positive",
+    "invariant_positive_definite_majorants_exist": true,
+    "algebra_unit_majorant": "H_1_1_equals_identity",
+    "closed_cone_trace_one_base_compact": true,
+    "relative_block_weight_uniquely_selected_by_group": false,
+    "nonproportional_controls": ["diag(1,1,1)", "diag(1,1,2)"]
+  },
+  "result": {
+    "raw_sign_obstruction_evaded_by_quadratic_lift": true,
+    "closed_faithfully_normalized_compact_repository_control_constructed": true,
+    "normalization_family_unique": false,
+    "new_rank_one_selector_constructed": false,
+    "source_or_action_owner_added": false,
+    "physical_state_or_Born_credit": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Supply source-owned physical quotient, state/effect duality, preparation, Born, locality and dynamics data, and determine whether those data select a relative positive/negative block weight. The compact repository-coordinate control does not itself own that interpretation.",
+  "claim_ceiling": "Exact finite-dimensional invariant-convex classification for the K105 blind carrier under the proved compact product subgroup: the quadratic lift evades sign; its open cone is nonclosed, but its closure admits a two-weight family of faithful invariant compact normalizations, including the algebra-unit control. No source-owned physical state, Born law, prediction, confirmation or GU verdict."
+}

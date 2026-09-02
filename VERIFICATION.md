@@ -7,6 +7,25 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K108 K105 quadratic-ray cone normalization boundary (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On the K105 blind carrier, the K-positive quadratic-ray cone identifies `v` with `-v`, is pointed, and linearly spans the full symmetric square | `lab/process/k108-k105-quadratic-ray-cone-normalization-boundary-wave.json`; exact `(2,1)` spanning control (`12/12`) | exact finite-dimensional quadratic feasibility and span theorem |
+| The finite positive hull is not closed, and its closure contains nonzero null rank-one rays | explicit `v_n=((n+1)/n)e+f` limit; hostile selftest (`15/15`) | exact closure obstruction for the named open cone |
+| The closure admits faithful compact normalizations invariant under K106's proved `O(256) x O(183)` subgroup | exact invariant-form space `a I_+ direct-sum b I_-`; every `a,b>0` is positive definite and the algebra unit gives `H=I` | exact repository-control compactification theorem |
+| That subgroup uniquely selects a relative positive/negative block weight | nonproportional invariant positive controls `diag(1,1,1)` and `diag(1,1,2)` | false; the invariant normalization family has one projective free ratio |
+| A GU physical state, Born rule, source action, prediction or confirmation follows | explicit scope and promotion fences | false / not constructed |
+
+## K108 real-quantum local-tomography boundary (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The rebit composite has a ten-dimensional global symmetric state/effect space while local symmetric-product effects span nine dimensions | exact basis rank and `J tensor J` orthogonality in `lab/process/k108-real-quantum-local-tomography-boundary-wave.json`; probe (`13/13`) | exact finite-dimensional real-quantum composition theorem |
+| Two distinct positive normalized states agree on every local product effect but have global `J tensor J` expectations `+1` and `-1` | explicit `rho_plus=(I+J tensor J)/4` and `rho_minus=(I-J tensor J)/4`; hostile selftest (`15/15`) | exact non-local-tomography witness |
+| The admitted two-path interference and Bell/no-signalling anchors exclude this real composition | real coherent alternatives give `1,0,1/2`; the real Bell state gives `2 sqrt(2)` with local marginals `I/2` | false; the two anchors do not select complex scalars or local tomography |
+| A GU-native composite, observable algebra, state, Born rule, prediction or confirmation follows | explicit countermodel scope and held-out firewall | false / not constructed |
+
 ## K107 K105 source-selector admission boundary (2026-09-02)
 
 | Claim | Evidence | Honest grade |
