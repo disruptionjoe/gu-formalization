@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K97-OBSERVED-LOCAL-FERMIONIC-RESERVOIR-RECORD",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K96_LOWER_BOUNDED_LOCAL_CONTINUUM_ASYMPTOTIC_RECORD_OWNER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "reservoir_model": {
+    "one_particle_space": "l2(N0)",
+    "one_particle_Hamiltonian": "h=2I-(S+S*)",
+    "one_particle_spectrum": "[0,4]",
+    "many_body_carrier": "Gamma_a(l2(N0))",
+    "many_body_Hamiltonian": "H=dGamma(h)",
+    "common_domain": "C2_q tensor D(dGamma(h))",
+    "self_adjoint": true,
+    "lower_bounded": true,
+    "lower_bound": "0",
+    "number_preserving": true,
+    "interaction_range": "nearest_neighbor_half_line",
+    "finite_chain": false
+  },
+  "equilibrium_control": {
+    "beta_range": "beta>0",
+    "state_type": "gauge_invariant_algebraic_quasi_free_beta_KMS",
+    "covariance": "C_beta=(1+exp(beta h))^-1",
+    "normal_Gibbs_density_in_vacuum_Fock": false,
+    "prepares_admitted_record_instrument": false
+  },
+  "record_instrument": {
+    "conditional_input": "q=0 maps to vacuum Omega; q=1 maps to c_0* Omega",
+    "conditional_input_imported": true,
+    "boundary_spectral_density": "rho(E)=(1/(2pi))*sqrt(E(4-E)) on [0,4]",
+    "survival_amplitude": "a(t)=exp(-2it)J1(2t)/t with a(0)=1",
+    "survival_asymptotic": "a(t)=O(t^-3/2), |a(t)|^2=O(t^-3)",
+    "record_zero_effect": "R0=vacuum projector plus one-particle e0 projector on the admitted sector",
+    "record_one_effect": "R1=I-R0",
+    "mismatch": "(1/3)|a(t)|^2",
+    "instrument_zero": "I0_t(rho)=P0 rho P0+|a(t)|^2 P1 rho P1",
+    "instrument_one": "I1_t(rho)=(1-|a(t)|^2)P1 rho P1",
+    "asymptotic_projective_instrument": true,
+    "finite_time_permanent_exactness": false,
+    "isolated_exact_instants_allowed": true,
+    "endpoint_joint_marginal_invariant": true,
+    "gauge_basic_zero_extension": true
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "local half-line CAR tight-binding reservoir control",
+      "exact boundary spectral measure and Bessel survival law",
+      "fixed vacuum-or-boundary versus escaped-particle effects",
+      "exact reduced asymptotic classical record instrument",
+      "endpoint marginal and quotient descent control"
+    ],
+    "imported": [
+      "K94 q sector and weights",
+      "conditional vacuum versus boundary one-particle preparation",
+      "interpretation of boundary escape as a record",
+      "state-effect and trace/Born pairing",
+      "free CAR algebraic beta-KMS theorem"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K95 finite closed-Hamiltonian recurrence and supplied GKSL stabilization",
+      "K96 unbounded-below exact outgoing translation record",
+      "W183 finite-grid Fano/Krein survival and pole analysis",
+      "W193 finite-quadrature Ohmic/Drude capture windows"
+    ],
+    "new_object_only": "infinite local semibounded half-line CAR reservoir with exact Bessel-tail asymptotic record instrument and separately registered algebraic beta-KMS state",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "KMS_prepares_record_instrument": false,
+    "normal_finite_volume_Gibbs_density": false,
+    "source_selected_input_or_record_algebra": false,
+    "universal_state_attractor": false,
+    "finite_time_permanent_exactness": false,
+    "interacting_thermal_return_proved": false,
+    "continuum_spacetime_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k97_observed_local_fermionic_reservoir_record_probe.py",
+  "result_ref": "explorations/conditional-build/k97-observed-local-fermionic-reservoir-record-wave-2026-09-02.md",
+  "claim_ceiling": "Exact lower-bounded local half-line CAR reservoir with algebraic free beta-KMS state and a separately prepared vacuum/one-particle asymptotic record instrument only; no claim that the KMS state prepares the instrument, no source-selected input or record algebra, interacting thermal return, continuum spacetime AQFT, microlocal state, derived Born law, prediction, confirmation, held-out score or verdict."
+}

@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K97-OBSERVED-NONDEGENERATE-GIBBS-RECORD-RANGE-CLASSIFICATION",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K96_NONDEGENERATE_GIBBS_RECORD_ALGEBRA_SELECTOR",
+  "target_claim_verdict": "CONDITIONAL_FINITE_SELECTOR_CLOSED_COARSE_AND_DEGENERATE_AMBIGUITY_CLASSIFIED_PHYSICAL_OWNER_OPEN",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "finite_system": {
+    "carrier_algebra": "M_n(C)",
+    "dynamics": "alpha_t(A)=exp(itH) A exp(-itH)",
+    "hamiltonian_assumption": "H is self-adjoint with simple spectrum",
+    "thermal_assumption": "finite beta not equal to zero",
+    "gibbs_density": "rho_beta=exp(-beta H)/Tr(exp(-beta H)) is faithful with pairwise distinct eigenvalues",
+    "gibbs_state": "phi_beta(A)=Tr(rho_beta A)",
+    "expectation_contract": "genuine unital CP idempotent C-star conditional expectation onto an original-product unital abelian C-star subalgebra",
+    "continuous_covariance": "E alpha_t=alpha_t E for every real t",
+    "state_preservation": "phi_beta E=phi_beta",
+    "energy_gap_nonresonance_required": false
+  },
+  "partition_classification": {
+    "spectral_resolution": "H=sum_i epsilon_i P_i and rho_beta=sum_i r_i P_i",
+    "partition_blocks": "Q_B=sum_{i in B} P_i and r_B=sum_{i in B} r_i",
+    "range": "N_pi={sum_B c_B Q_B}",
+    "expectation": "E_pi(A)=sum_B Tr(rho_beta Q_B A Q_B)/r_B Q_B",
+    "every_admissible_abelian_range_is_a_unique_energy_partition": true,
+    "every_partition_formula_is_unital_completely_positive_idempotent_covariant_and_gibbs_preserving": true,
+    "covariance_plus_gibbs_preservation_selects_unique_range": false
+  },
+  "selector_corollaries": {
+    "masa_range_selects_energy_spectral_masa": true,
+    "masa_selected_range": "D_H=C*(H)=C*(rho_beta)",
+    "masa_selected_expectation": "Delta_H(A)=sum_i P_i A P_i",
+    "masa_route_requires_canonical_trace_preservation": false,
+    "abelian_plus_canonical_trace_plus_gibbs_preservation_selects_energy_spectral_masa": true,
+    "canonical_trace_condition": "tau E_pi=tau iff r_i=r_B/|B| inside every partition block",
+    "simple_nonzero_beta_weights_force_singleton_blocks": true,
+    "continuous_covariance_is_redundant_after_trace_and_state_fix_rho_beta_in_the_abelian_range": true
+  },
+  "exact_control": {
+    "dimension": 3,
+    "hamiltonian": "H=(ln 2) diag(0,1,2)",
+    "beta": 1,
+    "gibbs_weights": [
+      "4/7",
+      "2/7",
+      "1/7"
+    ],
+    "partition_count": 5,
+    "all_partitions_gibbs_preserving": true,
+    "all_partitions_continuously_covariant": true,
+    "canonical_trace_preserving_partition_count": 1,
+    "canonical_trace_preserving_partition": "{{0},{1},{2}}",
+    "repeated_energy_gap_present": true
+  },
+  "counterexamples": {
+    "nondegenerate_scalar_range": {
+      "system": "H=diag(0,ln 2), beta=1, rho_beta=diag(2/3,1/3)",
+      "map": "E_C(A)=phi_beta(A) I",
+      "unital_CP_idempotent_conditional_expectation": true,
+      "covariant": true,
+      "gibbs_preserving": true,
+      "canonical_trace_preserving": false,
+      "range": "C I"
+    },
+    "noncommutative_full_range": {
+      "map": "identity on M_n(C)",
+      "canonical_trace_gibbs_and_covariance_preserving": true,
+      "range_abelian": false
+    },
+    "degenerate_energy": {
+      "ambiguity": "arbitrary orthonormal-basis MASA refinements inside each degenerate energy eigenspace",
+      "all_trace_gibbs_and_covariance_preserving": true,
+      "minimal_control": "K96 H=0 with distinct Z and X dephasings"
+    },
+    "beta_zero": {
+      "gibbs_density": "I/n",
+      "all_energy_partition_expectations_preserve_gibbs_and_canonical_trace": true,
+      "maximal_resolution_selected": false
+    }
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "finite_energy_partition_classification",
+      "unique_partition_expectation_formula",
+      "MASA_selector_corollary",
+      "canonical_trace_selector_corollary",
+      "exact_three_level_partition_enumeration",
+      "scalar_full_degenerate_and_beta_zero_boundaries"
+    ],
+    "imported": [
+      "finite_simple_Hamiltonian",
+      "finite_nonzero_inverse_temperature",
+      "Gibbs_KMS_principle",
+      "canonical_trace",
+      "state_probability_pairing",
+      "abelian_record_interpretation",
+      "maximal_resolution_or_canonical_trace_preservation"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K96 degenerate M2 Z-X selector nonuniqueness",
+      "K96 unbounded translation pointer with no normal Gibbs density",
+      "K94 imported finite Gibbs principle",
+      "K92-K93 locality and action-net ambiguity"
+    ],
+    "new_object_only": "complete simple-Hamiltonian abelian partition classification and the maximal-or-canonical-trace condition that uniquely selects the energy spectral MASA",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "covariance_and_state_alone_select_unique_record_range": false,
+    "Hamiltonian_or_temperature_derived": false,
+    "Gibbs_KMS_principle_derived": false,
+    "abelian_classicality_derived": false,
+    "maximal_resolution_derived": false,
+    "physical_coupling_or_irreversibility_derived": false,
+    "source_selected_dynamics_state_or_algebra": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k97_observed_nondegenerate_gibbs_record_range_classification_probe.py",
+  "result_ref": "explorations/conditional-build/k97-observed-nondegenerate-gibbs-record-range-classification-wave-2026-09-02.md",
+  "claim_ceiling": "Exact finite-dimensional classification of continuously dynamics-covariant Gibbs-state-preserving conditional expectations onto abelian C-star subalgebras for a simple Hamiltonian, with uniqueness of the energy spectral MASA only under maximality or canonical-trace preservation; no derivation of the Hamiltonian, temperature, Gibbs principle, classicality, maximal resolution, physical coupling, irreversibility, source local algebra, continuum AQFT, microlocal state, Born rule, prediction, confirmation, held-out score or GU verdict."
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5e2df2ceb96b
+revision_basis: 3fb720ffdfa7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The semibounded/local-reservoir/thermal-selector Big Wave resolves three
+    K96 seams at exact repository-control grade. A normalized state's survival
+    amplitude under a semibounded self-adjoint Hamiltonian cannot vanish on a
+    future interval, and an exact constant-rate exponential amplitude has a
+    two-sided Cauchy spectrum; asymptotic rather than finite-time permanent
+    clearance is the honest lower-bounded endpoint. The local half-line CAR
+    Hamiltonian H=dGamma(2I-S-S*) is nonnegative, nearest-neighbor and admits
+    an algebraic beta-KMS state; a separately imported vacuum/boundary-particle
+    preparation yields mismatch (1/3)|exp(-2it)J1(2t)/t|^2 tending to zero and
+    an exact asymptotic projective record instrument. The KMS state does not
+    prepare that instrument. Independently, covariant Gibbs-preserving
+    expectations onto finite abelian ranges are exactly energy-partition
+    expectations; a simple finite-temperature Gibbs state selects the energy
+    MASA only after maximality or canonical-trace preservation is imposed.
+    Probes pass 20/20, 28/28 and 20/20; hostile selftests catch 20/20, 28/28
+    and 20/20. No source, thermal-record-preparation, continuum-spacetime,
+    microlocal, Born, prediction or confirmation result is obtained.
     The infinite-pointer-Hamiltonian/record-selector Big Wave resolves two K95
     seams at exact repository-control grade. On C2 tensor L2(R), the
     time-independent self-adjoint Hamiltonian H=P0 tensor p-P1 tensor p has
@@ -5746,9 +5763,9 @@ current_question: >-
   basicness criteria on one source quotient, and does its causal geometry or
   action select a spatial local-algebra soldering across the K92 ambiguity,
   together with a microlocally admissible state, local detector coupling,
-  record algebra and derived rather than imported Born pairing, beyond K96's
-  unbounded-below infinite-pointer control and invariant-selector
-  nonuniqueness boundary?
+  record algebra and derived rather than imported Born pairing, beyond K97's
+  semibounded exactness boundary, local CAR asymptotic control and conditional
+  finite Gibbs selector classification?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5758,22 +5775,25 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  K96 now constructs a genuine time-independent self-adjoint Hamiltonian on an
-  infinite pointer carrier with a common Sobolev domain and exact stable
-  outgoing K94 record. It also proves that unital complete positivity, trace
-  preservation, idempotence, covariance and preservation of a degenerate KMS
-  state do not uniquely select the record algebra. The next quantum arc is
-  therefore no longer another finite bath, abstract dilation, bare infinite
-  coordinate or invariance-only selector: obtain the source-owned functional
+  K97 now proves that semibounded survival cannot clear permanently at finite
+  time, constructs a nonnegative local half-line CAR reservoir with algebraic
+  KMS structure and an exact asymptotic record instrument under separately
+  supplied conditional preparation, and classifies finite nondegenerate Gibbs
+  selectors. The Gibbs state does not prepare the instrument, and algebra
+  uniqueness still imports commutative maximality or canonical-trace
+  preservation. The next quantum arc is therefore no longer another finite
+  bath, bare infinite coordinate, free-chain escape or invariance-only
+  selector: obtain the source-owned functional
   constraint complex and prove the K91 sequence/domain/support/basicness
   conditions on one source quotient. Then identify a source causal geometry,
   action or functor that selects a spatial local-algebra net and derives a
   microlocally admissible state, local coupling, record algebra and trace/Born
   ownership. Without source custody, a materially distinct continuation must
-  construct a lower-bounded many-body reservoir with local interaction,
-  normal or algebraic KMS state and a proved reduced asymptotic instrument on
-  a common domain, or supply a nondegenerate coupling/modular/causal structure
-  that selects one record algebra with every irreversible owner explicit. In
+  derive the conditional preparation and record algebra from a source-owned
+  local interaction, or prove an asymptotic instrument from an admitted
+  finite-temperature algebraic KMS input. A nondegenerate modular/causal
+  selector must derive rather than stipulate classicality, maximal resolution
+  or trace preservation, with every irreversible owner explicit. In
   parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81

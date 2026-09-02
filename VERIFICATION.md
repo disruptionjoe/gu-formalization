@@ -7,6 +7,31 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K97 observed semibounded record-exactness boundary (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A normalized ready-state survival amplitude for a semibounded self-adjoint Hamiltonian cannot vanish on any nonempty open future interval | spectral representation plus lower-half-plane Hardy boundary uniqueness; exact probe (`20/20`) | exact narrow semibounded survival boundary |
+| An exact constant-rate exponential survival amplitude has a two-sided Cauchy spectral density and therefore cannot come from a semibounded Hamiltonian | unitary two-sided extension and exact Fourier inversion; hostile selftest (`20/20`) | exact amplitude-level spectral-support obstruction |
+| Semibounded Hamiltonians cannot form asymptotic records or have isolated survival zeros | outside the theorem and explicitly fenced | false; both remain possible |
+
+## K97 observed local fermionic reservoir record wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `H=dGamma(2I-S-S*)` on the half-line CAR Fock space is self-adjoint, nonnegative, number preserving and nearest-neighbor local, with an algebraic free beta-KMS state | `lab/process/k97-observed-local-fermionic-reservoir-record-wave.json`; spectral/CAR controls (`28/28`) | exact repository-owned local many-mode reservoir control |
+| The imported vacuum/boundary-particle branches have survival `a(t)=exp(-2it)J1(2t)/t`, mismatch `(1/3)|a(t)|^2`, and an asymptotic projective record instrument | exact half-line spectral measure, Bessel asymptotic and instrument algebra; hostile selftest (`28/28`) | exact asymptotic classical-record control |
+| The finite-temperature KMS state prepares or participates in the admitted record instrument | explicit owner accounting and distinct non-KMS inputs | false; equilibrium existence and record preparation remain separate |
+
+## K97 observed nondegenerate Gibbs record-range classification (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Covariant Gibbs-preserving conditional expectations onto abelian subalgebras of `M_n(C)` for simple `H` are exactly the energy-partition expectations | exact finite C-star classification and exhaustive three-level partition probe (`20/20`) | exact finite-algebra classification theorem |
+| A nondegenerate finite-temperature Gibbs state alone uniquely selects the energy record algebra | scalar/coarse partition counterexamples | false; maximality or canonical-trace preservation is additionally required |
+| With abelian range plus maximality or canonical-trace preservation, the unique range is the energy spectral MASA | partition formula and distinct Gibbs weights; hostile selftest (`20/20`) | exact conditional selector theorem |
+| The theorem derives physical classicality, resolution, coupling, irreversibility or Born ownership | all are imported or outside scope | false |
+
 ## K96 observed infinite-pointer Hamiltonian record wave (2026-09-02)
 
 | Claim | Evidence | Honest grade |

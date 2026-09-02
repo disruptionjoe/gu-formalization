@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K97-OBSERVED-SEMIBOUNDED-RECORD-EXACTNESS-BOUNDARY",
+  "created": "2026-09-02",
+  "status": "complete_repository_boundary_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K96_LOWER_BOUNDED_HAMILTONIAN_RECORD_EXACTNESS_BOUNDARY",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "spectral_boundary": {
+    "Hamiltonian": "H=H* and H>=E0",
+    "ready_vector": "normalized psi",
+    "survival_amplitude": "A(t)=<psi,exp(-itH)psi>",
+    "spectral_support": "support(mu_psi) subset [E0,infinity)",
+    "analytic_extension": "F(z)=integral exp(-izE)dmu(E) is bounded analytic for Im(z)<0",
+    "interval_zero_result": "A cannot vanish identically on any nonempty open time interval",
+    "isolated_zeros_forbidden": false,
+    "asymptotic_decay_forbidden": false
+  },
+  "exponential_boundary": {
+    "assumption": "A(t)=exp(-i E_* t-(gamma/2)t) for every t>=0 with gamma>0",
+    "two_sided_extension": "A(t)=exp(-i E_* t-(gamma/2)|t|)",
+    "unique_density": "rho(E)=(1/pi)(gamma/2)/((E-E_*)^2+(gamma/2)^2)",
+    "density_support": "R",
+    "semibounded": false,
+    "probability_only_claimed": false
+  },
+  "positive_controls": {
+    "cauchy": "two-sided Cauchy density gives exact exponential amplitude",
+    "semibounded": "exp(-E) on E>=0 gives A(t)=1/(1+it) and |A(t)|^2=1/(1+t^2)",
+    "truncated_cauchy": "lower truncation destroys the exact exponential transform"
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "application of semibounded spectral uniqueness to the K96 ready-effect exactness seam",
+      "exact Cauchy and one-sided-exponential comparison controls",
+      "scope separation between interval zeros, isolated zeros and asymptotic decay"
+    ],
+    "imported": [
+      "spectral theorem",
+      "Hardy boundary uniqueness",
+      "Fourier transform of the Cauchy density",
+      "Hilbert state-effect probability pairing"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K95 finite closed-Hamiltonian recurrence and dissipative stabilization",
+      "K96 unbounded-below exact outgoing translation record",
+      "W183 finite-grid Fano survival sample and Krein pole analysis",
+      "W193 finite-quadrature Ohmic/Drude capture windows"
+    ],
+    "new_object_only": "semibounded interval-zero survival boundary plus exact-amplitude Cauchy support obstruction",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "all_record_formation_forbidden": false,
+    "isolated_zeros_forbidden": false,
+    "asymptotic_records_forbidden": false,
+    "probability_only_implies_cauchy": false,
+    "source_selected_dynamics_or_pointer": false,
+    "positive_temperature_KMS_instrument": false,
+    "local_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k97_observed_semibounded_record_exactness_boundary_probe.py",
+  "result_ref": "explorations/conditional-build/k97-observed-semibounded-record-exactness-boundary-wave-2026-09-02.md",
+  "claim_ceiling": "Exact spectral boundary for one fixed ready-state survival amplitude under a semibounded self-adjoint Hamiltonian, and the two-sided Cauchy support required by one exact constant-rate exponential amplitude; no prohibition on isolated zeros, asymptotic records, time-dependent effects, general instruments, source selection, thermalization, locality, derived Born law, prediction, confirmation, held-out score or verdict."
+}
