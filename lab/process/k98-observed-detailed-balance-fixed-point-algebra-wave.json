@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K98-OBSERVED-DETAILED-BALANCE-FIXED-POINT-ALGEBRA",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K97_GIBBS_REVERSIBLE_DYNAMICS_RECORD_RANGE_SELECTOR",
+  "target_claim_verdict": "EXPLICIT_REVERSIBLE_FAMILY_FIXED_ALGEBRA_CLASSIFIED_GRAPH_SELECTION_OPEN",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "One explicit finite-dimensional Heisenberg-picture pure-dephasing plus reversible-jump family on M_n(C); not a classification of all quantum detailed-balance semigroups.",
+  "reversible_jump_family": {
+    "carrier": "M_n(C)",
+    "Hamiltonian": "H=sum_i epsilon_i P_i with simple spectrum",
+    "Gibbs_density": "rho=sum_i r_i P_i with r_i>0 and sum_i r_i=1",
+    "energy_dephasing": "D_dep(A)=kappa(Delta_H(A)-A)",
+    "kappa_positive": true,
+    "graph": "finite undirected graph on energy labels with connected components pi",
+    "conductance": "c_ij=c_ji>0 on graph edges",
+    "rate": "k_ij=c_ij/r_i",
+    "jump_operator": "L_ij=sqrt(k_ij)|j><i|",
+    "Gibbs_balance": "r_i k_ij=c_ij=r_j k_ji",
+    "pure_dephasing_load_bearing_for_isolated_components": true
+  },
+  "fixed_point_theorem": {
+    "components": "pi",
+    "fixed_algebra": "N_pi",
+    "fixed_algebra_formula": "N_pi={sum_{B in pi} a_B Q_B}, Q_B=sum_{i in B}P_i",
+    "connected_graph_fixed_algebra": "C I",
+    "no_edge_fixed_algebra": "D_H",
+    "intermediate_graph_fixed_algebra": "proper coarse energy-partition algebra",
+    "all_QDB_semigroups_classified": false
+  },
+  "detailed_balance_and_covariance": {
+    "GNS_pairing": "<A,B>_rho=Tr(rho A*B)",
+    "GNS_detailed_balance": true,
+    "diagonal_reason": "the classical generator is self-adjoint in l2(r) by r_i k_ij=r_j k_ji",
+    "offdiagonal_reason": "every E_ab, a!=b, is an orthogonal eigenvector with real negative eigenvalue -kappa-(q_a+q_b)/2",
+    "energy_dynamics": "alpha_t(A)=exp(itH)Aexp(-itH)",
+    "continuous_energy_covariance": true,
+    "covariance_reason": "alpha_t(L_ij) is a phase times L_ij and each Lindblad term is phase invariant"
+  },
+  "semigroup_limit": {
+    "pointwise_norm_limit": true,
+    "limit": "E_pi from K97",
+    "formula": "E_pi(A)=sum_B Tr(rho Q_B A Q_B)/r_B Q_B",
+    "clique_diagonal_decay": "A_ii(t)=a_B+exp(-r_B t)(A_ii-a_B)",
+    "offdiagonal_decay": "A_ab(t)=exp(-(kappa+(q_a+q_b)/2)t)A_ab",
+    "isolated_component_boundary": "with no edges kappa>0 gives Delta_H; with kappa=0 the identity semigroup fixes M_n"
+  },
+  "exact_three_level_census": {
+    "dimension": 3,
+    "gibbs_weights": [
+      "4/7",
+      "2/7",
+      "1/7"
+    ],
+    "partition_count": 5,
+    "partitions": [
+      "{{0,1,2}}",
+      "{{0},{1,2}}",
+      "{{1},{0,2}}",
+      "{{2},{0,1}}",
+      "{{0},{1},{2}}"
+    ],
+    "conductance_rule": "c_ij=r_i r_j inside blocks",
+    "conductances": [
+      "8/49",
+      "4/49",
+      "2/49"
+    ],
+    "rate_rule": "k_ij=r_j inside blocks",
+    "fixed_dimensions": [
+      1,
+      2,
+      2,
+      2,
+      3
+    ],
+    "all_limits_equal_corresponding_K97_E_pi": true
+  },
+  "sharp_nonselection": {
+    "shared_data": "same H, rho and kappa",
+    "variable_imported_data": "graph",
+    "connected_result": "C I",
+    "no_edge_result": "D_H",
+    "intermediate_result": "three distinct two-dimensional coarse algebras",
+    "QDB_and_covariance_select_graph": false,
+    "physical_record_algebra_selected": false
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "explicit reversible-jump Lindblad family",
+      "GNS detailed-balance and energy-covariance proof for that family",
+      "fixed algebra equals the graph-component partition algebra",
+      "exact semigroup limit equals the K97 partition expectation",
+      "complete three-level five-partition census",
+      "connected coarse diagonal sharp nonselection boundary"
+    ],
+    "imported": [
+      "Hamiltonian",
+      "Gibbs_state",
+      "pure_energy_dephasing",
+      "graph",
+      "energy_basis",
+      "classical_record_interpretation",
+      "Born_state_pairing"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K97 finite simple-Hamiltonian energy-partition expectation classification",
+      "K97 semibounded survival boundary",
+      "K97 local CAR asymptotic instrument",
+      "K96 degenerate Z-X dephasing nonselection",
+      "K95 supplied amplitude-damping stabilization"
+    ],
+    "new_object_only": "an explicit Gibbs-reversible dephasing-plus-jump semigroup whose fixed algebra and norm limit realize every K97 partition, proving graph-relative nonselection",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "all_QDB_semigroups_classified": false,
+    "Hamiltonian_derived": false,
+    "Gibbs_principle_derived": false,
+    "dephasing_or_graph_derived": false,
+    "energy_basis_or_classicality_derived": false,
+    "Born_rule_derived": false,
+    "physical_record_selection_derived": false,
+    "source_selected_dynamics_state_or_algebra": false,
+    "continuum_AQFT_or_microlocal_state": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k98_observed_detailed_balance_fixed_point_algebra_probe.py",
+  "result_ref": "explorations/conditional-build/k98-observed-detailed-balance-fixed-point-algebra-wave-2026-09-02.md",
+  "claim_ceiling": "Exact fixed-point algebra, GNS detailed balance, energy covariance and semigroup-limit theorem for one explicit finite-dimensional pure-dephasing plus reversible-jump family, with a complete n=3 partition census; no classification of all quantum detailed-balance semigroups and no derivation of the Hamiltonian, Gibbs state, dephasing, graph, energy basis, classicality, Born rule, physical record selection, source dynamics, continuum theory, prediction or verdict."
+}

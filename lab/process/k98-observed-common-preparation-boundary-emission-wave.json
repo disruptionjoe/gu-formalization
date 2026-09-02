@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K98-OBSERVED-COMMON-PREPARATION-BOUNDARY-EMISSION",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K97_COMMON_PREPARATION_CONTROLLED_LOCAL_EMITTER_RECORD_OWNER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "One constructed q-controlled boundary edge on the half-line CAR Fock space, evaluated on its invariant one-particle sector after a common boundary-particle preparation; emitter, readout, record and Born semantics remain imported.",
+  "gu_typed_objects": {
+    "result": "common boundary-particle preparation followed by a q-controlled local edge whose reduced readout instrument converges to the projective q record",
+    "carrier": "C2_q tensor Gamma_a(l2(N0)) on the natural block-direct-sum Fock domain; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "imported trace/Born state-effect pairing for emitter-site versus emitted-tail projection ON=repository_owned_controlled_edge_model",
+    "real_structure": "occupation-basis conjugation and CAR adjoint; real Jacobi blocks",
+    "grading": "q label and fermion number; invariant vacuum and one-particle sectors; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "common-preparation controlled local boundary-emission instrument MAP-TYPE=evaluation"
+  },
+  "preflight_bookend": {
+    "lens_census": [
+      "common environment preparations",
+      "controlled Jacobi edges",
+      "CAR second quantization",
+      "natural direct-sum operator domains",
+      "invariant number sectors",
+      "Stinespring instruments",
+      "Kraus-phase freedom",
+      "Bessel boundary decay",
+      "finite-chain recurrence",
+      "source custody",
+      "Born and readout semantics"
+    ],
+    "route_change": "Move q-dependence from K97's input map into the single boundary edge, preserving label coherences at preparation.",
+    "retrieval_collision_result": "No retrieved artifact combines the common boundary particle in both q branches, one q-controlled boundary edge and the coherence-complete outcome-zero operation; all three exact K98 target paths were absent at admission."
+  },
+  "controlled_fock_model": {
+    "one_particle_space": "l2(N0)=C e0 direct_sum l2({1,2,...})",
+    "off_block": "k0=2|e0><e0| direct_sum [2I_tail-(S_tail+S_tail*)]",
+    "on_block": "k1=2I-(S+S*)",
+    "controlled_difference": "k1-k0=-(|e0><e1|+|e1><e0|)",
+    "many_body_blocks": "dGamma(k0), dGamma(k1)",
+    "hamiltonian": "H=(P0 tensor dGamma(k0)) direct_sum (P1 tensor dGamma(k1))",
+    "natural_domain": "(|0> tensor D(dGamma(k0))) direct_sum (|1> tensor D(dGamma(k1)))",
+    "incorrect_shared_domain_rejected": "C2 tensor D(dGamma(k1))",
+    "self_adjoint": true,
+    "lower_bounded": true,
+    "lower_bound": "0",
+    "number_preserving": true,
+    "nearest_neighbor": true,
+    "controlled_edges": 1,
+    "invariant_sectors": [
+      "vacuum",
+      "one_particle"
+    ],
+    "calculation_sector": "C2_q tensor l2(N0) one-particle sector"
+  },
+  "common_preparation": {
+    "isometry": "V|psi>=|psi> tensor c0*Omega",
+    "same_environment_state_for_both_q_branches": true,
+    "preserves_label_coherences": true,
+    "q_control_moved_to_boundary_edge": true,
+    "source_selected": false
+  },
+  "instrument": {
+    "off_branch_boundary_amplitude": "exp(-2it)",
+    "on_branch_boundary_amplitude": "a(t)=exp(-2it)b(t), b(t)=J1(2t)/t, b(0)=1",
+    "bessel_law_owner": "K97 observed local fermionic reservoir record wave; reused without novelty claim",
+    "readout_zero_effect": "Q0=|e0><e0| on the invariant one-particle sector",
+    "readout_one_effect": "Q1=I-Q0 on the invariant one-particle sector",
+    "K0": "K0(t)=exp(-2it)(P0+b(t)P1)",
+    "instrument_zero": "I0_t(rho)=K0(t) rho K0(t)*=[[rho00,b rho01],[b rho10,b^2 rho11]]",
+    "instrument_one": "I1_t(rho)=(1-b(t)^2)P1 rho P1",
+    "finite_time_off_diagonal_terms_required": true,
+    "completely_positive": true,
+    "trace_preserving_in_sum": true,
+    "maps_converge": true,
+    "map_limits": "I0_infinity(rho)=P0 rho P0; I1_infinity(rho)=P1 rho P1",
+    "K0_converges": false,
+    "K0_nonconvergence_reason": "the q=0 coefficient exp(-2it) has no limit",
+    "map_convergence_reason": "the common outcome-zero phase cancels and every relative term is multiplied by b(t)->0",
+    "benchmark_weights": "Pr(q=0)=2/3, Pr(q=1)=1/3",
+    "benchmark_mismatch": "(1/3)b(t)^2",
+    "endpoint_joint_marginal_invariant": true,
+    "gauge_basic_zero_extension": true
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "the q-block Jacobi operators and their single controlled boundary-edge difference",
+      "natural block-direct-sum Fock domain",
+      "self-adjoint nonnegative number-preserving dynamics",
+      "invariant one-particle reduction",
+      "common-preparation Stinespring calculation",
+      "coherence-complete identity I0=K0 rho K0*",
+      "reduced-map convergence despite nonconvergent Kraus phase"
+    ],
+    "imported": [
+      "K94 q carrier and weights",
+      "choice that q controls the boundary edge",
+      "common boundary-particle preparation",
+      "edge and boundary site as an emitter",
+      "tail occupancy as emission and readout",
+      "record semantics",
+      "Q0 and Q1 effects",
+      "state-effect trace and Born pairing",
+      "K97 boundary spectral density and Bessel survival law",
+      "endpoint marginal and K91 gauge-basic zero extension"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_collision_check": {
+    "searched_surfaces": [
+      "K91 through K97 observed instrument and record packets",
+      "W183 finite-grid Fano/Krein control",
+      "W193 finite-quadrature reservoir control",
+      "conditional-build prose, process manifests and channel-swing probes for common preparation and controlled boundary-edge terms"
+    ],
+    "nearest_predecessor": "K97 observed local fermionic reservoir record wave",
+    "reused_without_novelty": [
+      "half-line boundary spectral density",
+      "a(t)=exp(-2it)J1(2t)/t",
+      "Bessel asymptotic decay",
+      "standard CAR second quantization and Kraus facts"
+    ],
+    "new_object_only": "common boundary-particle preparation in both q branches plus one q-controlled boundary edge and the resulting coherence-complete reduced instrument",
+    "semantic_collision_found": false,
+    "path_collision_found": false,
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the controlled edge, emitter/readout split or Born pairing source-owned physics.",
+    "strongest_contrary_construction": "Identical on-edge blocks carry no q record; finite-chain truncation recurs instead of converging.",
+    "weakest_reproducibility_seam": "The Bessel law is inherited from K97; the new burden is the domain, invariant sector, full Kraus algebra and map-versus-Kraus convergence distinction.",
+    "status_movement": "No source, action, KMS preparation, continuum, microlocal, Born, prediction, confirmation, canon, paper, held-out or promotion status moves."
+  },
+  "fences": {
+    "source_selected_edge_or_emitter": false,
+    "source_selected_common_preparation": false,
+    "source_selected_readout_or_record_algebra": false,
+    "emission_semantics_derived": false,
+    "Born_rule_derived": false,
+    "new_Bessel_law_claimed": false,
+    "Kraus_operator_convergence_claimed": false,
+    "finite_time_permanent_exactness": false,
+    "finite_chain_asymptotic_record": false,
+    "interacting_thermal_return_proved": false,
+    "continuum_spacetime_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "promotion_fence": {
+    "canon": false,
+    "paper": false,
+    "comparator_registry": false,
+    "current_state": false,
+    "hypothesis_vote": false,
+    "prediction": false,
+    "confirmation": false
+  },
+  "probe": "tests/channel-swings/k98_observed_common_preparation_boundary_emission_probe.py",
+  "result_ref": "explorations/conditional-build/k98-observed-common-preparation-boundary-emission-wave-2026-09-02.md",
+  "claim_ceiling": "Exact common-preparation, q-controlled boundary-edge CAR model on the natural block-direct-sum Fock domain, with an invariant one-particle sector and asymptotically projective reduced instrument only; no source-selected edge, emitter, readout, preparation, trace/Born pairing or physical record semantics, no new Bessel law, prediction, confirmation, held-out score, promotion or verdict."
+}

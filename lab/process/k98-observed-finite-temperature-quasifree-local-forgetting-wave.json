@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K98-OBSERVED-FINITE-TEMPERATURE-QUASIFREE-LOCAL-FORGETTING",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K97_FINITE_TEMPERATURE_FIXED_LOCAL_VERSUS_GLOBAL_RETURN_BOUNDARY",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "thermal_model": {
+    "one_particle_space": "l2(N0)",
+    "one_particle_Hamiltonian": "h=2I-(S+S*)",
+    "one_particle_spectrum": "[0,4]",
+    "dynamics": "U_t=exp(-ith)",
+    "car_algebra": "CAR(l2(N0))",
+    "beta_range": "beta>0",
+    "equilibrium_state": "gauge_invariant_algebraic_quasi_free_beta_KMS",
+    "equilibrium_covariance": "C_beta=(1+exp(beta h))^-1",
+    "equilibrium_bound": "0<C_beta<=1/2",
+    "normal_Gibbs_density_in_vacuum_Fock": false
+  },
+  "supplied_excitation": {
+    "delta_range": "0<delta<=1/2",
+    "covariance": "C_1=C_beta+delta|e_0><e_0|",
+    "valid_quasifree_covariance": true,
+    "state_type": "gauge_invariant_quasi_free_non_KMS",
+    "preparation_imported": true,
+    "non_KMS_witness": "[h,|e_0><e_0|]e_0=-e_1",
+    "evolved_covariance": "C_1(t)=C_beta+delta|U_t e_0><U_t e_0|"
+  },
+  "exact_kernel": {
+    "amplitude": "<e_n,U_t e_0>=exp(-2it)i^n(n+1)J_(n+1)(2t)/t",
+    "t_zero_values": "1 for n=0 and 0 for n>0",
+    "fixed_site_limit": "0",
+    "decay_owner": "fixed-order Bessel asymptotic",
+    "bound_state_component": false
+  },
+  "fixed_local_return": {
+    "region_quantifier": "each fixed finite Lambda subset N0",
+    "restricted_covariance_difference": "delta|P_Lambda U_t e_0><P_Lambda U_t e_0|",
+    "restricted_trace_norm": "delta sum_(n in Lambda)|(n+1)J_(n+1)(2t)/t|^2",
+    "restricted_trace_norm_limit": "0",
+    "all_local_CAR_correlations_converge": true,
+    "finite_region_state_norm_converges": true,
+    "growing_region_uniformity_proved": false
+  },
+  "global_obstruction": {
+    "state_norm_identity": "||omega_1,t-omega_beta||=||omega_1-omega_beta||>0",
+    "state_norm_reason": "automorphism isometry plus beta-KMS invariance",
+    "positive_witness_at_t0": "omega_1(a*(e_0)a(e_0))-omega_beta(a*(e_0)a(e_0))=delta",
+    "covariance_trace_norm": "||C_1(t)-C_beta||_1=delta",
+    "covariance_trace_norm_constant": true,
+    "global_state_norm_thermalization": false
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "K97 Bessel-kernel specialization to the finite-temperature rank-one excitation",
+      "exact fixed-finite-region covariance trace-norm identity and limit",
+      "all-local-CAR-correlation convergence by finite Wick continuity",
+      "local-versus-global state topology separation",
+      "constant global covariance trace-norm obstruction"
+    ],
+    "imported": [
+      "half-line CAR algebra and free dynamics",
+      "standard gauge-invariant quasifree and beta-KMS theorem",
+      "beta and delta",
+      "supplied non-KMS rank-one covariance excitation",
+      "covariance-to-CAR-correlation state pairing"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K90 finite leading detector KMS response",
+      "K95 supplied nonthermal dissipative record stabilization",
+      "K96 outgoing translation record with an unbounded-below coordinate",
+      "K97 half-line CAR reservoir with an unused algebraic beta-KMS reference and separately prepared record branches"
+    ],
+    "new_object_only": "finite-temperature rank-one quasifree excitation with exact fixed-local return and persistent global state/covariance norm obstruction",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "record_instrument_or_pointer_algebra": false,
+    "KMS_state_produces_record": false,
+    "excited_state_is_KMS": false,
+    "global_state_norm_thermalization": false,
+    "global_covariance_trace_norm_decay": false,
+    "uniform_or_growing_region_return": false,
+    "interacting_return_to_equilibrium": false,
+    "source_selected_state_or_dynamics": false,
+    "continuum_spacetime_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k98_observed_finite_temperature_quasifree_local_forgetting_probe.py",
+  "result_ref": "explorations/conditional-build/k98-observed-finite-temperature-quasifree-local-forgetting-wave-2026-09-02.md",
+  "claim_ceiling": "Exact fixed-finite-region return of a supplied rank-one gauge-invariant quasifree excitation to the free half-line CAR beta-KMS background while global state distance stays positive and covariance trace distance stays delta; no record instrument, global thermalization, KMS preparation or production of a record, source selection, interacting return, continuum spacetime AQFT, microlocal state, derived Born law, prediction, confirmation, held-out score or verdict."
+}

@@ -7,6 +7,30 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K98 observed common-preparation boundary emission (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One local semibounded q-controlled edge, acting on the same excited-emitter plus bath-vacuum apparatus input for both labels, yields an asymptotically projective reduced q instrument on the invariant one-particle sector | `lab/process/k98-observed-common-preparation-boundary-emission-wave.json`; exact controls (`34/34` after `4/4` positive controls) | exact repository-owned common-preparation/local-emission control |
+| The no-emission operation preserves finite-time label coherence and the two instrument maps converge although the q=0 Kraus phase does not | exact symbolic instrument algebra; hostile selftest (`41/41`) | exact map-versus-Kraus-phase boundary |
+| The controlled edge, emitter initialization, readout, trace/Born pairing or physical record semantics are source selected | explicit owner accounting | false; all remain supplied |
+
+## K98 observed finite-temperature quasifree local forgetting (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A supplied rank-one quasifree excitation above the free half-line beta-KMS covariance returns in norm on every fixed finite local CAR algebra | exact Bessel kernel and finite-rank covariance restriction; controls (`22/22`) | exact fixed-local finite-temperature return theorem |
+| Global state norm remains positive and covariance trace distance remains exactly `delta` while every fixed local restriction forgets the excitation | automorphism isometry, KMS invariance and unitary trace-norm invariance; hostile selftest (`26/26`) | exact local-versus-global topology boundary |
+| The excited state is KMS or the result constructs a thermal record instrument/global attractor | noncommutation of the rank-one perturbation with `h` and explicit fences | false; the excitation is supplied and non-KMS |
+
+## K98 observed detailed-balance fixed-point algebra (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For the explicit energy-dephasing plus reversible-jump family, the fixed algebra is the graph-component partition algebra and the norm-limit map is exactly the K97 Gibbs-weighted expectation | `lab/process/k98-observed-detailed-balance-fixed-point-algebra-wave.json`; complete three-level census (`21/21`) | exact family-level fixed-point and semigroup-limit theorem |
+| The same simple Hamiltonian, Gibbs state and dephasing rate realize scalar, all three coarse and full spectral-diagonal ranges by changing the supplied reversible graph | all five partitions of `(4/7,2/7,1/7)`; hostile selftest (`22/22`) | exact detailed-balance nonselection result |
+| Quantum detailed balance alone derives the graph, classicality, maximal resolution, canonical trace or Born pairing | explicit family scope and owner accounting | false; no all-QDB classification or physical selector is claimed |
+
 ## K97 observed semibounded record-exactness boundary (2026-09-02)
 
 | Claim | Evidence | Honest grade |
