@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K102-OBSERVED-K91-COMMON-DOMAIN-INSTRUMENT-DESCENT",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K102_K91_COMMON_DOMAIN_KMS_INSTRUMENT_DESCENT",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Finite-prefix tensor extension of the repository-owned K91 split quotient carrying the K99 reduced stream instrument on one common spectator graph domain and rapid core; no source complex or spatial locality is claimed.",
+  "gu_typed_objects": {
+    "result": "K91 split-quotient/common-domain descent of the K99 finite-prefix reduced instrument",
+    "carrier": "G_N direct-sum P_N with G_N=G tensor Q tensor A_N and P_N=P tensor Q tensor A_N, G=P=l2(N), finite apparatus A_N; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "l2 graph pairing tensored with imported trace/Born state-effect pairing ON=repository_owned_quotient_instrument_control",
+    "real_structure": "coefficientwise conjugation and finite matrix adjoint",
+    "grading": "K91 gauge/physical split, binary q label and cell number; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "common-domain quotient instrument descent MAP-TYPE=quotient"
+  },
+  "preflight_bookend": {
+    "lens_census": ["split exact Hilbert sequence", "closed graph domains", "invariant nuclear cores", "bounded tensor interactions", "CP instruments", "trace-norm convergence", "gauge basicness", "locality versus quotient descent"],
+    "route_change": "Tensor K91 with the actual finite K99 apparatus and keep the unbounded generator on a spectator factor so every interaction and effect has one provable common domain.",
+    "retrieval_collision_result": "K91 supplies the quotient/domain and K99 supplies the reduced instrument; no prior packet composes them on one typed tensor carrier or proves uniform quotient convergence."
+  },
+  "split_tensor_complex": {
+    "gauge_space": "G_N=G tensor Q tensor A_N",
+    "physical_space": "P_N=P tensor Q tensor A_N",
+    "ambient_space": "H_N=G_N direct-sum P_N",
+    "gauge_injection": "d0_N(g)=(g,0)",
+    "quotient": "q_N(g,p)=p",
+    "section": "j_N(p)=(0,p)",
+    "short_exact": true
+  },
+  "common_domain": {
+    "physical_generator": "Omega_N=Omega tensor I_Q tensor I_A_N",
+    "closed_domain": "D(Omega_N)=D(Omega) tensor Q tensor A_N under finite amplification",
+    "rapid_core": "s_N=s tensor Q tensor A_N",
+    "interactions": "finite-prefix controlled flips act only on Q tensor A_N",
+    "effects": "majority projections act only on A_N",
+    "strong_commutation": "all interactions and effects commute with Omega_N",
+    "domain_preserved": true,
+    "core_preserved": true
+  },
+  "descent": {
+    "lifted_unitary": "U_tilde_N=I_G_N direct-sum U_N",
+    "cochain_identity": "q_N U_tilde_N=U_N q_N and U_tilde_N d0_N=d0_N",
+    "lifted_effect": "F_tilde_y,N=0_G_N direct-sum F_y,N",
+    "basicness": "F_tilde_y,N d0_N=0",
+    "representative_independent": true,
+    "reduced_map": "append tau_beta^N, apply U_N, measure majority, trace A_N",
+    "spectator_factorization": "Phi_y,N=id_P tensor I_y,N^Q",
+    "map_norm_error": "e_N",
+    "limit": "id_P tensor projective_q_instrument"
+  },
+  "owner_accounting": {
+    "repository_owned": ["tensor split exactness", "closed-domain amplification", "interaction/core invariance", "cochain lift", "basic effects", "spectator factorization", "uniform reduced-map convergence"],
+    "imported": ["split tensorization", "K91 generator", "K99 stream", "controlled flips", "majority effects", "apparatus trace", "q prior", "trace/Born pairing", "record semantics"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the split spectator composition a source functional complex, source interaction or spatially local causal instrument.",
+    "strongest_contrary_construction": "An interaction acting on the l2 mode factor need not preserve D(Omega) or the rapid core and must be checked separately.",
+    "weakest_reproducibility_seam": "Finite-mode controls certify the algebraic identities; closedness and core statements use finite amplification of K91's analytic proof."
+  },
+  "fences": {
+    "source_functional_complex": false,
+    "source_selected_interaction": false,
+    "spatial_locality_or_microcausality": false,
+    "tail_effect_quasilocal": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k102_observed_k91_common_domain_instrument_descent_probe.py",
+  "result_ref": "explorations/conditional-build/k102-observed-k91-common-domain-instrument-descent-wave-2026-09-02.md",
+  "claim_ceiling": "Exact repository-owned K91 split/common-domain descent of the finite-prefix K99 reduced instrument only; no source complex, source interaction, spatial locality, tail-locality, Born, prediction, confirmation, held-out score, promotion or verdict."
+}

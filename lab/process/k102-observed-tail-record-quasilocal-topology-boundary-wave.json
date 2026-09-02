@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K102-OBSERVED-TAIL-RECORD-QUASILOCAL-TOPOLOGY-BOUNDARY",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K102_MAJORITY_TAIL_QUASILOCAL_GNS_TOPOLOGY",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "C-star norm versus product-state GNS strong-limit classification for the K99 odd-prefix majority effects; no source local net, universal tail theorem or Born derivation is claimed.",
+  "gu_typed_objects": {
+    "result": "majority-effect quasilocal nonconvergence and sectorwise GNS tail projection",
+    "carrier": "two-level UHF quasilocal algebra with two disjoint product-state GNS sectors and their direct sum; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "product-state GNS vector pairing and imported trace/Born pairing ON=repository_owned_tail_topology_control",
+    "real_structure": "occupation-basis conjugation and C-star adjoint",
+    "grading": "finite-prefix support and two product tail sectors; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "quasilocal versus GNS record limit MAP-TYPE=inclusion"
+  },
+  "preflight_bookend": {
+    "lens_census": ["UHF quasilocal algebra", "projection norm", "majority effects", "product-state strong laws", "GNS representations", "strong operator limits", "tail projections", "gauge basicness versus locality"],
+    "route_change": "Compare the internal record effects themselves, not only their reduced q-channel expectations.",
+    "retrieval_collision_result": "K99 identifies a tail event and reduced map convergence but does not prove pairwise norm-one separation of majority projections or type their strong limit in the direct-sum product GNS representation."
+  },
+  "finite_prefix_effects": {
+    "M_N": "projection onto strict majority-one words for odd N",
+    "embedding": "M_N maps to M_N tensor I on longer prefixes",
+    "separation": "norm(M_N-M_(N+2))=1",
+    "witness": "a word with (N+1)/2 ones in the first N slots followed by two zeros",
+    "norm_cauchy": false,
+    "quasilocal_norm_limit": false
+  },
+  "gns_limit": {
+    "zero_sector": "Bernoulli one probability 1/4; M_N converges strongly to 0",
+    "one_sector": "Bernoulli one probability 3/4; M_N converges strongly to I",
+    "direct_sum_limit": "T=0 direct-sum I",
+    "topology": "strong operator topology in pi_zero direct-sum pi_one",
+    "tail_projection": true,
+    "central_in_direct_sum_sector_decomposition": true,
+    "quasilocal_element": false
+  },
+  "composition_boundary": {
+    "reduced_instrument": "norm converges with error e_N after state insertion and apparatus trace",
+    "internal_effects": "do not converge in quasilocal C-star norm",
+    "gauge_basic_tail": "zero extension can make T representative-independent",
+    "basicness_implies_locality": false,
+    "source_selected_representation": false
+  },
+  "owner_accounting": {
+    "repository_owned": ["norm-one separation witness", "non-Cauchy theorem", "sectorwise strong limit", "direct-sum tail projection typing", "reduced-versus-internal topology separation", "basicness/locality separation"],
+    "imported": ["UHF tensor net", "two product states", "GNS direct sum", "majority readout", "tail semantics", "state-effect/Born pairing", "source locality meaning"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the GNS tail projection a quasilocal observable, source local-net element or derived classical record.",
+    "strongest_contrary_construction": "A different dissipative or phase-coexistence model may contain a genuine local order parameter or a source-selected asymptotic algebra.",
+    "weakest_reproducibility_seam": "Strong convergence on each full GNS space uses density of local vectors plus the product strong law; the probe certifies exact finite witnesses and cyclic-vector norms."
+  },
+  "fences": {
+    "tail_projection_quasilocal": false,
+    "source_local_net_derived": false,
+    "basicness_implies_locality": false,
+    "universal_tail_theorem": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k102_observed_tail_record_quasilocal_topology_boundary_probe.py",
+  "result_ref": "explorations/conditional-build/k102-observed-tail-record-quasilocal-topology-boundary-wave-2026-09-02.md",
+  "claim_ceiling": "Exact quasilocal-norm nonconvergence and direct-sum product-GNS strong tail limit for the K99 majority effects only; no source net, local record, universal tail, Born, prediction, confirmation, held-out score, promotion or verdict."
+}

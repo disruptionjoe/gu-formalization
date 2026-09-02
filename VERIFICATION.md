@@ -7,6 +7,22 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K102 observed K91 common-domain instrument descent (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every finite K99 prefix tensors with K91's split quotient on one closed amplified graph domain and rapid core; controlled flips and majority effects commute with the spectator generator and preserve both | `lab/process/k102-observed-k91-common-domain-instrument-descent-wave.json`; exact controls (`23/23` after `4/4` positive controls) | exact repository-owned quotient/domain compatibility theorem |
+| Lifted operations are cochain/basic and the reduced quotient instrument factors as `id_P` tensor the q instrument with unchanged norm error `e_N` | split identities, CP/trace controls and hostile selftest (`27/27`) | exact finite-prefix reduced-map descent |
+| This derives a source functional complex, source interaction or spatially local causal instrument | explicit spectator construction and owner accounting | false; all remain supplied/open |
+
+## K102 observed tail-record quasilocal topology boundary (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Embedded consecutive odd-prefix majority projections obey `norm(M_N-M_(N+2))=1`, so they have no quasilocal C-star norm limit | `lab/process/k102-observed-tail-record-quasilocal-topology-boundary-wave.json`; exact word witnesses (`24/24` after `4/4` positive controls) | exact named-family quasilocal nonconvergence theorem |
+| In the direct sum of the two supplied product-state GNS sectors they converge strongly to the central tail projection `0 direct-sum I` | product strong-law argument, dense-local-vector extension and hostile selftest (`30/30`) | exact representation-dependent tail-limit theorem |
+| Gauge basicness makes the tail projection local, source-selected or Born-derived | topology/owner accounting | false; basicness proves representative independence only |
+
 ## K101 observed modular-QDB graph simplex (2026-09-02)
 
 | Claim | Evidence | Honest grade |
