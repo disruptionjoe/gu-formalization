@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_k77_k86_stationary_positive_frequency_constraint_descent",
+  "created": "2026-09-01",
+  "status": "REPOSITORY_OWNED_STATIONARY_POSITIVE_FREQUENCY_SELECTOR_EXACT__QUOTIENT_DESCENT_CONDITIONS_EXACT__FULL_BFV_AND_SOURCE_SELECTION_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_refs": [
+    "lab/process/k86-observed-covariant-phase-space-poisson-descent-wave.json",
+    "lab/process/k86-observed-ccr-state-correlation-boundary-wave.json",
+    "lab/process/superposition-vrs4-moving-j-total-descent-conditional-theorem.json"
+  ],
+  "packet": {
+    "id": "K87-OBSERVED-STATIONARY-POLARIZATION-CONSTRAINT-DESCENT",
+    "reduced_phase_space": "K86_W960_direct_sum_W960_even_symplectic_quotient",
+    "finite_exact_control": "two_positive_stationary_oscillator_modes",
+    "ambient_gauge_control": "one_configuration_and_one_momentum_gauge_slot",
+    "domain_control": "one_invariant_mode_subspace"
+  },
+  "stationary_selector": {
+    "owner": "repository_owned_positive_quadratic_stationary_reduction_of_K85_candidate",
+    "generator": "A_equals_block_0_I_minus_Omega_squared_0",
+    "premises": [
+      "positive_gapped_frequency_operator_Omega",
+      "fixed_symplectic_orientation",
+      "fixed_time_orientation",
+      "stationary_quadratic_dynamics"
+    ],
+    "formula": "J_equals_minus_A_times_inverse_sqrt_minus_A_squared",
+    "complex_square_minus_one": true,
+    "commutes_with_stationary_evolution": true,
+    "positive_majorant": true,
+    "ground_covariance": "one_half_diagonal_Omega_inverse_Omega",
+    "ground_covariance_selected": true,
+    "time_reversal_effect": "flips_J_and_the_majorant_sign_for_fixed_symplectic_orientation"
+  },
+  "constraint_descent": {
+    "quotient_intertwiner": "P_Aambient_equals_Areduced_P_and_P_Jambient_equals_Jreduced_P",
+    "gauge_image_invariant": true,
+    "constraint_kernel_invariant": true,
+    "boundary_domain_J_invariant": true,
+    "positive_quotient_pairing_required": true,
+    "failure_if_any_condition_dropped": true
+  },
+  "load_bearing_owners": {
+    "stationary_background_and_time_flow": "required",
+    "positive_gapped_quadratic_generator": "required",
+    "gauge_and_constraint_complex": "required",
+    "closed_boundary_or_Green_domain": "required",
+    "time_orientation": "required"
+  },
+  "load_bearing_controls": {
+    "zero_frequency": "inverse_square_root_and_ground_covariance_fail",
+    "opposite_time_orientation": "selects_opposite_J_and_loses_positive_majorant_for_fixed_symplectic_orientation",
+    "gauge_leak": "generator_does_not_descend",
+    "constraint_leak": "physical_kernel_not_preserved",
+    "domain_leak": "polarization_not_defined_on_one_common_physical_domain"
+  },
+  "fences": {
+    "repository_owned_stationary_selector": true,
+    "exact_finite_quotient_controls": true,
+    "source_selected_full_action": false,
+    "full_interacting_polarization": false,
+    "complete_BFV_complex": false,
+    "continuum_Hadamard_state": false,
+    "Born_rule": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "stationary_positive_frequency_selectors_constructed": 1,
+    "exact_constraint_descent_conditions_instantiated": 3,
+    "source_selected_polarizations_completed": 0,
+    "physical_GU_states_selected": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k87_observed_stationary_polarization_constraint_descent_probe.py",
+  "result_ref": "explorations/conditional-build/k87-observed-stationary-polarization-constraint-descent-wave-2026-09-01.md",
+  "claim_ceiling": "Exact positive-frequency complex-structure and quasifree-ground-covariance selection for the positive gapped stationary quadratic reduction of the repository-owned K77/K85/K86 candidate, plus exact finite gauge/constraint/domain descent conditions and failure controls; no source-owned full action, full interacting polarization, complete BFV complex, continuum Hadamard state, Born rule, prediction, confirmation or verdict."
+}

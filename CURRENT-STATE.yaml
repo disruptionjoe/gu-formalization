@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8f93a1f7affd
+revision_basis: 7ee6c4e6e51e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The stationary-selector/local-algebra Big Wave closes two further owners
+    in the K77/K86 quantum selection chain. On a positive gapped stationary
+    quadratic reduction, the spectral formula J=-A(-A^2)^(-1/2) selects a
+    complex structure, positive compatible majorant and pure quasifree ground
+    covariance. Exact finite controls show that gauge-image, constraint-kernel
+    and common boundary-domain invariance are independent descent conditions;
+    zero frequency, time reversal and leakage controls fail exactly. Holding
+    one normalized vector fixed while conjugating two commuting local matrix
+    factors gives S_max^2=4(1+sin^2(2 theta)), spanning the classical value 2,
+    a strict rational intermediate face and 2sqrt(2). Thus a stationary state
+    principle still does not select the physical causal local net or Bell
+    face. Exact probes pass 25/25 and 25/25; hostile selftests catch 18/18 and
+    17/17. No source full action, complete BFV/Green domain, continuum
+    Hadamard state, Born rule, physical spacelike factorization, prediction or
+    confirmation results.
     The action-to-Poisson/CCR-state Big Wave closes the next two explicit K85
     quantum-owner gaps for the repository-owned K77 candidate. Direct second
     variation of the K85 matter action gives a conserved covariant
@@ -5531,14 +5546,20 @@ current_result:
     - explorations/conditional-build/k86-observed-ccr-state-correlation-boundary-wave-2026-09-01.md
     - lab/process/k86-observed-ccr-state-correlation-boundary-wave.json
     - tests/channel-swings/k86_observed_ccr_state_correlation_boundary_probe.py
+    - explorations/conditional-build/k87-observed-stationary-polarization-constraint-descent-wave-2026-09-01.md
+    - lab/process/k87-observed-stationary-polarization-constraint-descent-wave.json
+    - tests/channel-swings/k87_observed_stationary_polarization_constraint_descent_probe.py
+    - explorations/conditional-build/k87-observed-local-algebra-correlation-selection-wave-2026-09-01.md
+    - lab/process/k87-observed-local-algebra-correlation-selection-wave.json
+    - tests/channel-swings/k87_observed_local_algebra_correlation_selection_probe.py
 current_question: >-
   Does an independently source-owned K77 or gimmel full-carrier action realize
   the explicit quotient metric line, no-spurion content and total-stress
-  descent; independently, what owned principle selects a complex
-  polarization, representation, positive state and local observable map from
-  the now-available reduced Poisson/CCR family, and does that selection land on
-  a classical, intermediate or Tsirelson correlation face after the full
-  constraint/domain/BFV descent?
+  descent; independently, does an action-owned stationary full-carrier
+  operator preserve one common closed constraint/BFV/Green domain and select
+  the K87 spectral polarization there, and does its causal observation map
+  select physical local observable algebras rather than merely abstract
+  commuting factors?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5548,20 +5569,23 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The K77/K85 repository candidate now owns both a nondegenerate reduced even
-  Poisson bracket and one explicit two-mode regular CCR/Fock quantization.
-  Its bounded algebra admits normalized states on classical, intermediate and
-  Tsirelson faces, so noncommutative availability does not select the physical
-  face. Derive a complex polarization or positive-frequency split,
-  representation, state and local observable map from an independently owned
-  full action or physical principle, then test survival through the complete
-  constraint/domain/BFV descent. In parallel, retain the source-owned K77 or
-  gimmel full-carrier gravity action as the highest missing owner and test it
-  against the frozen quotient-metric, no-spurion, coframe-Euler and total-
-  stress conditions. Preserve K81 source-symbol and cross-null operator/domain
-  reopeners below those routes; do not call the repository Fock control a GU
-  Hilbert space or Born rule, promote finite-mode existence to continuum QFT,
-  union packet cells, or score delayed-choice entanglement swapping.
+  The K77/K85/K86 repository candidate now owns a reduced even Poisson bracket,
+  one finite-mode regular quantization, and a positive-frequency selector on
+  a positive gapped stationary quadratic reduction. K87 makes the remaining
+  owners exact: gauge image, constraint kernel and common boundary/Green
+  domain invariance are required for descent, and state selection alone does
+  not select a physical local algebra because one fixed vector spans
+  classical, intermediate and Tsirelson faces under different abstractly
+  commuting factor embeddings. Obtain an action-owned stationary full-carrier
+  operator and common closed BFV/Green domain, then derive the causal local net
+  or detector embeddings from its action and observation map. In parallel,
+  retain the source-owned K77 or gimmel full-carrier gravity action as the
+  highest missing owner and test it against the frozen quotient-metric,
+  no-spurion, coframe-Euler and total-stress conditions. Preserve K81 source-
+  symbol and cross-null operator/domain reopeners below those routes; do not
+  call the stationary finite-mode control a GU vacuum or Hadamard state,
+  abstract commuting factors spacetime locality, or either packet a Born rule,
+  and do not union packet cells or score delayed-choice entanglement swapping.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

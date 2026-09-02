@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K87 observed stationary-polarization constraint-descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A positive gapped stationary quadratic reduction selects `J=-A(-A^2)^(-1/2)`, with `J^2=-1`, `[A,J]=0`, positive majorant `omega J`, and pure covariance `(1/2)diag(Omega^-1,Omega)` | `lab/process/k87-observed-stationary-polarization-constraint-descent-wave.json`; exact rational spectral-polar probe (`25/25`) | exact repository-owned finite stationary selector for the named positive quadratic reduction |
+| The selector descends only when evolution and `J` preserve the gauge image, constraint kernel and one common boundary/Green domain | exact quotient intertwiners and independent gauge-leak, constraint-leak and domain-leak controls; hostile selftest (`18/18`) | exact finite necessity/sufficiency controls for the named complex and domain |
+| The K87 selector is a source-owned full GU polarization or continuum Hadamard state | zero-frequency and time-orientation controls are load-bearing; full source action, closed BFV/Green domain and microlocal data are absent | false; the selector is conditional on repository-owned stationary positive quadratic data |
+| A complete BFV complex, interacting polarization, continuum QFT, Born rule, prediction or held-out score | not constructed or scored | open / explicitly excluded |
+
+## K87 observed local-algebra correlation-selection wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Holding `|00>` fixed while conjugating both commuting `M2` factors by one entangling `U_theta` preserves involutions and cross-commutation | exact rational matrix conjugation; `lab/process/k87-observed-local-algebra-correlation-selection-wave.json`; probe (`25/25`) | exact fixed-state algebraic-locality classification in the K86 bounded sector |
+| The maximal value obeys `S_max^2=4(1+sin^2(2theta))`, spanning `2`, a strict `3-4-5` intermediate value, and `2sqrt(2)` | exact correlation tensor `diag(sin2theta,-sin2theta,1)` and hostile selftest (`17/17`) | exact two-qubit CHSH-face classification |
+| A selected positive state alone fixes the Bell-correlation face or proves physical spacelike locality | the same fixed vector realizes all three faces under distinct abstractly commuting factor embeddings | false; the causal local-net or detector-map owner remains load-bearing |
+| A source-selected local net, physical spacelike factorization, Born measurement dynamics, Bell prediction or held-out score | not constructed or scored | open / explicitly excluded |
+
 ## K86 observed covariant phase-space Poisson-descent wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

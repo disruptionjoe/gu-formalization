@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_k77_k87_fixed_state_local_algebra_correlation_selection",
+  "created": "2026-09-01",
+  "status": "FIXED_STATE_LOCAL_ALGEBRA_EMBEDDING_FAMILY_EXACT__CLASSICAL_TO_TSIRELSON_FACE_SPAN_EXACT__PHYSICAL_LOCALITY_OWNER_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_refs": [
+    "lab/process/k86-observed-ccr-state-correlation-boundary-wave.json",
+    "lab/process/k87-observed-stationary-polarization-constraint-descent-wave.json"
+  ],
+  "packet": {
+    "id": "K87-OBSERVED-LOCAL-ALGEBRA-CORRELATION-SELECTION",
+    "bounded_sector": "K86_two_qubit_zero_one_particle_sector",
+    "global_algebra": "M4_real_control_inside_the_complex_Fock_representation",
+    "reference_vector": "00",
+    "local_factor_family": "common_entangling_conjugation_of_two_commuting_M2_factors"
+  },
+  "fixed_state_construction": {
+    "state": "fixed_product_vector_00",
+    "normalized_positive": true,
+    "state_varied": false,
+    "equivalent_comparison_vector": "cos_theta_00_plus_sin_theta_11",
+    "equivalence": "expectation_in_fixed_00_against_pulled_observables_equals_expectation_in_comparison_vector_against_standard_local_observables"
+  },
+  "local_algebra_family": {
+    "A_theta": "U_theta_transpose_times_M2_tensor_I_times_U_theta",
+    "B_theta": "U_theta_transpose_times_I_tensor_M2_times_U_theta",
+    "self_adjoint_involutions_preserved": true,
+    "cross_commuting_for_all_theta": true,
+    "correlation_tensor": "diagonal_sin_2theta_minus_sin_2theta_1",
+    "CHSH_max_squared": "4_times_1_plus_sin_squared_2theta"
+  },
+  "selection_boundary": {
+    "product_endpoint": "2",
+    "rational_intermediate_control": "cos_theta_3_over_5_sin_theta_4_over_5_gives_sin_2theta_24_over_25",
+    "strict_intermediate_exists": true,
+    "Tsirelson_endpoint": "2sqrt2",
+    "state_alone_selects_correlation_face": false,
+    "abstract_commutation_proves_spacetime_locality": false,
+    "missing_owner": "physical_causal_local_net_or_measurement_embedding"
+  },
+  "load_bearing_controls": {
+    "nonnormalized_entangling_map": "destroys_star_algebra_conjugation",
+    "noncommon_embedding": "can_destroy_cross_commutation",
+    "wrong_correlation_parameter": "breaks_the_exact_Horodecki_invariant",
+    "collapsed_intermediate": "misses_the_strict_between_face"
+  },
+  "fences": {
+    "fixed_state_selection_boundary_exact": true,
+    "commuting_local_factor_families_exist": true,
+    "source_selected_local_net": false,
+    "physical_spacelike_factorization": false,
+    "Born_measurement_dynamics": false,
+    "complete_BFV_descent": false,
+    "Bell_prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "fixed_states_tested": 1,
+    "local_factorization_families_constructed": 1,
+    "correlation_faces_proved": 3,
+    "source_selected_local_nets_completed": 0,
+    "physical_GU_Bell_predictions": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k87_observed_local_algebra_correlation_selection_probe.py",
+  "result_ref": "explorations/conditional-build/k87-observed-local-algebra-correlation-selection-wave-2026-09-01.md",
+  "claim_ceiling": "Exact fixed-state two-qubit classification showing that a common conjugation of two commuting local matrix factors preserves their algebraic locality while the maximal CHSH value spans 2 through 2sqrt(2), with a strict rational intermediate control; no source-selected local net, physical spacelike factorization, Born measurement dynamics, complete BFV descent, Bell prediction, confirmation or verdict."
+}
