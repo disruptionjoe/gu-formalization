@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K105-K155-CARRIER-WEYL-ACTION-BV-GREEN-2026-09-02",
+  "status": "complete_repository_owned_K155_carrier_action_correction_control_with_raw_A0_Noether_boundary",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "backward_demand_lineage": [
+    "K91: one gauge quotient, closed rapid-core realization and causal Green pair",
+    "K103: one coefficient-complete action must own its Euler-Noether-BV, adjoint, domain and Green data",
+    "K104: a K155-carrier successor must own mixed distortion inertia (260,188,0) and either the raw Weyl-dependent A0 or an independently action-owned same-order correction",
+    "K155: the exact rotated-null complete order-four coefficient is rank one, diffeomorphism-basic and Weyl-dependent, while K152's raw Weyl A0 has rank nine"
+  ],
+  "frozen_carrier": {
+    "metric_fiber": "M=R^10 in K152 metric-slot order",
+    "distortion_fiber": "D=R^448 in K155 third-jet closed basis",
+    "history_completion": "compactly_supported_smooth_time_histories_in_rapid_l2_N_semicolon_M_direct_sum_D",
+    "mode_generator": "Omega e_n=(n+1)e_n",
+    "rotated_null_covector": ["1", "3/5", "0", "4/5"],
+    "metric_gauge_map": "G_n xi=metric_vector(n tensor xi plus xi tensor n)",
+    "metric_gauge_rank": 4,
+    "metric_physical_projector": "Q=I-G_n(G_n^T G_n)^-1G_n^T",
+    "metric_physical_rank": 6,
+    "distortion_lowerer": "exact K151 lowerer in the K155 basis",
+    "distortion_lowerer_inertia": [260, 188, 0],
+    "distortion_lowerer_involutive": true
+  },
+  "weyl_same_order_correction": {
+    "definition": "C_W is K155.restricted_third_lower.complete on the frozen rotated packet and aligned electric Weyl diag(1/2,1/2,-1), evaluated at the coordinate origin; the action correction is q C_W",
+    "shape": [448, 10],
+    "rank": 1,
+    "nonzero_entries": 63,
+    "nonzero_output_rows": [224, 225, 227, 266, 267, 350, 353, 365, 367],
+    "canonical_sparse_entry_digest_sha256": "0c4d2849aac991ade69b2418f8f2706779a662ccdcfd8252411bb729e5fd972e",
+    "weyl_only_term_digest_sha256": "9886978bd134d763125a75cf3525383cd317982cd9096de3735f12d1fd4bc578",
+    "flat_q_zero_is_zero": true,
+    "annihilates_metric_diffeomorphisms": true,
+    "image_is_K_null": true,
+    "R_transpose_K_R_is_zero": true,
+    "K155_reference_or_rotated_fixture_changed": false
+  },
+  "raw_k152_A0_admission": {
+    "definition": "A0_raw is K155.embedded_bridge_coefficient_jet at coefficient order zero on the same frozen rotated packet and q=1 Weyl background",
+    "shape": [448, 10],
+    "rank": 9,
+    "nonzero_entries": 24,
+    "canonical_sparse_entry_digest_sha256": "7967815e29bdd29f9c017936f5653fb24855b550c3b6495d298f788eaaa1b083",
+    "A0_raw_times_metric_gauge_rank": 4,
+    "annihilates_frozen_metric_diffeomorphisms": false,
+    "admissible_as_standalone_fixed_gauge_action_cross_coefficient": false,
+    "required_completion": "a full differential A2_plus_A0 bridge with background-dependent gauge and lower terms whose complete Noether composition vanishes"
+  },
+  "real_action": {
+    "fields": "h_in_rapid_l2_N_M_and_T_in_rapid_l2_N_D",
+    "gauge_parameter": "c_in_rapid_l2_N_R4",
+    "action": "one_half_integral_of_norm_dt_Qh_squared_minus_norm_Omega_Qh_squared_plus_pair_dt_T_K_dt_T_minus_pair_Omega_T_K_Omega_T_minus_two_q_pair_T_K_C_W_Qh",
+    "all_coefficients_frozen": true,
+    "gauge_action": "delta_c_h=G_n c_and_delta_c_T=0",
+    "gauge_invariant": true,
+    "flat_control": "q=0 removes the complete Weyl coupling but preserves the carrier and mixed pairing"
+  },
+  "euler_noether_bv": {
+    "quotient_field_operator": "L_q=partial_t_squared_plus_Omega_squared_plus_q_B",
+    "B_blocks": "[[0,C_W^T K],[C_W,0]] on Q M direct_sum D",
+    "B_cubed_zero": true,
+    "B_squared_nonzero": true,
+    "weighted_formal_self_adjoint": true,
+    "Noether_identity": "G_n^T E_h=0 because QG_n=0 and R_star G_n=0",
+    "minimal_BRST": "s h=G_n c_s T=0_s c=0",
+    "BRST_nilpotent": true,
+    "minimal_BV_action": "S_q plus integral_pair_h_star_G_n_c",
+    "classical_master_equation": true,
+    "scope": "free_linear_abelian_classical_BV_only"
+  },
+  "analytic_owner": {
+    "closed_realization": "maximal Fourier multiplier (Omega_squared-xi_squared)I+qB on l2_N_of_QM_direct_sum_D",
+    "closed_by_bounded_finite_fiber_perturbation": true,
+    "common_invariant_core": "Schwartz_R_tensor_finite_mode_sequences_tensor_QM_direct_sum_D",
+    "retarded_advanced_exist_on_compact_rapid_tests": true,
+    "mode_kernel": "theta_plus_or_minus_times f_tau(omega_squared_I_plus_qB), f_tau(z)=sin(tau sqrt(z))/sqrt(z), truncated exactly after B_squared because B_cubed_zero",
+    "two_sided_test_space_inverse": true,
+    "opposite_temporal_support": true,
+    "Green_boundary_form": "pair_QM_plus_K(Phi,Psi_dot)-pair_QM_plus_K(Phi_dot,Psi)",
+    "claim_boundary": "constant_coefficient_modal_history_control_not_curved_spacetime_Green_hyperbolicity"
+  },
+  "result": {
+    "K104_pairing_discriminator_cleared": true,
+    "K104_action_owned_same_order_correction_horn_constructed": true,
+    "K104_raw_Weyl_A0_owner_closed": false,
+    "K155_carrier_action_control_constructed": true,
+    "K155_branch_verdict_changed": false,
+    "source_action_change": "none",
+    "physical_polarization_selected": false,
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "fences": {
+    "authenticated_Weinstein_source_action": false,
+    "preferred_historical_Shiab": false,
+    "nonlinear_or_quantum_BV": false,
+    "global_curved_spacetime_action": false,
+    "physical_positive_state_space": false,
+    "microlocal_or_Hadamard_state": false,
+    "detector_or_Born_law": false,
+    "prediction_or_confirmation": false,
+    "verdict_or_public_posture_change": false
+  },
+  "exact_reopener": "Construct a gauge-completed differential owner for K152's raw rank-nine A0: include the required A2, background-dependent gauge transformation and lower terms and prove the full Noether composition vanishes. In parallel decide whether any independently owned symmetry, boundary condition, state positivity or observable interface selects one positive K91 retract inside ker(C_W^T K). Do not relabel the rank-one composed correction as raw A0 or erase the 188 ambient negative directions.",
+  "claim_ceiling": "Exact repository-owned free linearized action on the frozen modal K155 carrier with mixed pairing and an independently action-owned rank-one Weyl same-order correction, plus an exact raw-A0 fixed-gauge Noether non-admission. No ownership of K152's raw rank-nine A0, source action, preferred Shiab, nonlinear BV-BFV, curved local net, physical polarization, state, Born law, prediction, confirmation or GU verdict."
+}

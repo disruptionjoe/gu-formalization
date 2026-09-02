@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K105-K91-POSITIVE-RETRACT-NONSELECTION-2026-09-02",
+  "status": "exact_K91_action_domain_Green_retract_exists_but_is_not_selected",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "parent_action": "lab/process/k105-k155-carrier-weyl-action-bv-green-wave.json",
+  "exact_retract": {
+    "positive_distortion_vector": "v=e_0 in the frozen K155 basis entry (label=0,mu=0,mask=1)",
+    "v_K_norm": 1,
+    "v_K_orthogonal_to_C_W_image": true,
+    "metric_gauge_vector": "u=G_n e_0",
+    "embedding": "j(g,p)=(u g,v p)",
+    "projection": "r_g(h)=e_0^T(G_n^T G_n)^-1G_n^T h_and_r_p(T)=v^T K T",
+    "retraction_identity": true,
+    "gauge_map_intertwining": true,
+    "action_restriction_is_K104_K91_action": true,
+    "Euler_Hessian_intertwining": true,
+    "closed_domain_and_core_intertwining": true,
+    "retarded_advanced_intertwining": true,
+    "Green_boundary_form_intertwining": true,
+    "Weyl_coupling_vanishes_on_retract": true
+  },
+  "nonselection": {
+    "positive_coordinate_lines_in_Ker_C_W_transpose_K": 256,
+    "negative_coordinate_lines_in_Ker_C_W_transpose_K": 183,
+    "coefficient_supported_rows": 9,
+    "first_two_positive_retracts": [0, 1],
+    "swap_e0_e1_preserves_K": true,
+    "swap_e0_e1_preserves_R_star": true,
+    "swap_e0_e1_preserves_full_action": true,
+    "unique_invariant_positive_line": false,
+    "ambient_negative_directions_removed_by_retract": 188,
+    "removal_owned_by_K155_action": false,
+    "physical_selection_status": "EXTERNAL_POSITIVE_POLARIZATION_REQUIRED"
+  },
+  "result": {
+    "K91_retract_exists": true,
+    "K91_retract_selected_by_K155_data": false,
+    "K155_ambient_pairing_changed": false,
+    "K155_branch_verdict_changed": false,
+    "source_action_change": "none",
+    "Born_or_state_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Supply an independently owned source/action symmetry, boundary polarization, positive state cone or observable interface that breaks the exact e0/e1 action symmetry and selects one positive retract, then rerun K91 physical-state and observable export. Existence of 256 coordinate retracts is not selection.",
+  "claim_ceiling": "Exact split injection/retraction of the K91 free action, domain, Green pair and boundary form inside the K105 K155-carrier action, together with an exact nonselection witness for the positive line. No claim that all positive subspaces are equivalent, no source or physical quotient selection, no Born law, prediction, confirmation or GU verdict."
+}

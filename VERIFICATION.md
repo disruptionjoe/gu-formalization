@@ -7,6 +7,23 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K105 K155-carrier Weyl action/BV/Green completion (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A free action on rapid modal copies of K155's exact metric-10 plus distortion-448 carrier owns the mixed lowerer `(260,188,0)`, rotated rank-four gauge, rank-one Weyl same-order correction, minimal classical BV, weighted adjoint, closed domain/core and causal Green pair | `lab/process/k105-k155-carrier-weyl-action-bv-green-wave.json`; exact reconstruction (`25/25`) and analytic bounded-perturbation argument | exact repository-owned free linearized K155-carrier correction-action control |
+| The composed correction has 63 rational entries, kills diffeomorphisms, has K-null image and induces a nonzero coupling with cube zero | frozen sparse digest and baseline-first hostile selftest (`22/22`) | exact correction and finite-fiber nilpotence theorem |
+| The raw rank-nine K152 `A0` is owned by this action, or is admissible alone in the frozen gauge complex | separate 24-entry raw-A0 digest and exact `rank(A0 G)=4` | false; a gauge-completed differential `A2+A0` Noether owner remains open |
+| This is Weinstein's source action, the preferred Shiab, nonlinear/global BV-BFV or a selected positive physical state space | explicit construction lineage and fences | false; source, global and physical selection remain open |
+
+## K105 K91 positive retract and polarization nonselection (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The first positive K155 distortion line and first metric gauge direction give a split K91 injection/retraction preserving the action, Euler operator, closed domain/core, Green pair and boundary form | `lab/process/k105-k91-positive-retract-nonselection-wave.json`; exact controls (`19/19`) | exact repository-owned K91 action/domain/Green retract |
+| The frozen coefficient leaves 256 positive and 183 negative coordinate lines uncoupled, while the exact e0/e1 swap preserves the full action and exchanges distinct K91 retracts | coordinate census, action-symmetry witness and hostile selftest (`14/14`) | exact positive-line nonselection witness for the frozen action |
+| K155 selects a unique physical positive quotient, or all positive subspaces are equivalent | explicit swap and claim ceiling | false/not established; an independent polarization/state/observable owner is required |
+
 ## K104 demand-derived K91 action/BV/Green completion (2026-09-02)
 
 | Claim | Evidence | Honest grade |
