@@ -7,6 +7,22 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K104 demand-derived K91 action/BV/Green completion (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One real free quadratic action with frozen coefficients has K91's shift gauge, split quotient, Euler/Noether identity, minimal classical abelian BV extension, Hessian/formal adjoint, maximal closed history realization, invariant core, Green pair/form and common-domain boundary family | `lab/process/k104-demand-derived-k91-action-bv-green-wave.json`; analytic derivation and exact regression controls (`24/24`) | exact repository-owned action control plus analytic operator proof |
+| All six K103 K91 action/cochain/domain/Green bridge cells close by explicit identity realification/complexification | frozen maps and baseline-first hostile selftest (`22/22`) | exact action ownership for the K91 control |
+| This is Weinstein's source action, a GU-native nonlinear BV theory, a curved-spacetime net/state or a Born owner | backward-demand lineage and explicit fences | false; all source/native/physical/export credit remains open |
+
+## K104 K91/K155 action-bridge obstruction (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The frozen positive-pairing K104 action cannot preserve its formal-adjoint/Green pairing under a real same-carrier congruence to K155's distortion lowerer because `(448,0,0) != (260,188,0)` | `lab/process/k104-k91-k155-action-bridge-obstruction-wave.json`; Sylvester inertia argument and exact controls (`20/20`) | exact non-admission of this action at the pairing bridge |
+| K104 owns no curvature/Weyl input or same-order `A_0`, so it cannot reproduce or action-correct K155's rank-one Weyl-owned leakage | coefficient-owner audit and hostile selftest (`15/15`) | exact missing-owner boundary for the frozen packets |
+| No action can bridge K91 and K155, or K155 itself is refuted | mixed-inertia planted control and exact reopener | false; a new indefinite K155-carrier action remains open and K155 is not recomputed |
+
 ## K103 absorbed source-action custody qualification (2026-09-02)
 
 | Claim | Evidence | Honest grade |

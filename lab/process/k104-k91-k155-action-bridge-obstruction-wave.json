@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K104_K91_K155_ACTION_BRIDGE_OBSTRUCTION",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Same-carrier action-preserving admission of the frozen K104 split-l2 quadratic action to K155's selected metric-10 plus distortion-448 Cl(7,7) Weyl fixture. This binds only K104 and the exact K155 packet.",
+  "inputs": {
+    "k104": {
+      "carrier": "real_split_l2",
+      "static_physical_energy_hessian": "diag_n_plus_1_squared",
+      "adjoint_pairing": "positive_real_l2",
+      "every_finite_restriction": "positive_definite",
+      "Weyl_dependent_zero_order_coefficient": "absent"
+    },
+    "k155": {
+      "carrier": "metric_10_plus_distortion_448",
+      "real_form": "Cl(7,7)",
+      "distortion_lowerer_inertia": [260, 188, 0],
+      "Weyl_zero_order_bridge_rank": 9,
+      "rotated_metric_radical_leakage_rank": 1,
+      "leakage_owner": "Weyl_dependent_zero_order_term"
+    }
+  },
+  "same_carrier_test": {
+    "dimension_only_embedding": "first_448_K104_physical_modes_exists",
+    "action_preserving_requirement": "T_transpose_pairing_K104_T_equals_K155_distortion_lowerer_on_an_injective_real_T_so_the_formal_adjoint_and_Green_form_are_preserved",
+    "sylvester_invariant": "positive_negative_zero_inertia_is_preserved_by_real_congruence",
+    "k104_first_448_static_inertia": [448, 0, 0],
+    "k155_distortion_inertia": [260, 188, 0],
+    "inertia_match": false,
+    "real_action_preserving_injection": "impossible_for_the_frozen_K104_adjoint_pairing",
+    "positive_control": "a_planted_260_188_split_coefficient_matches_the_K155_inertia_and_removes_this_discriminator_only"
+  },
+  "coefficient_test": {
+    "k104_has_curvature_or_Weyl_input": false,
+    "k104_has_same_order_A0": false,
+    "k104_can_reproduce_K155_Weyl_leakage": false,
+    "k104_can_supply_action_owned_same_order_correction": false,
+    "K155_fixture_recomputation_licensed": false
+  },
+  "result": {
+    "K91_repository_action_owner_closed": true,
+    "K155_same_carrier_admission": "failed_at_adjoint_pairing_inertia_and_Weyl_coefficient_ownership",
+    "K155_branch_verdict_changed": false,
+    "preserved_K155_verdict": "rotated_metric_radical_leakage_rank_1_from_Weyl_zero_order_term",
+    "source_action_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "exact_reopener": "Construct a new demand-derived action on the actual K155 field carrier whose adjoint/Green pairing has inertia (260,188,0), whose same-order Weyl-dependent A0 is explicitly owned, and whose gauge/BV/domain/Green data also map to K91. Merely embedding 448 l2 modes, changing basis, complexifying, or adjoining the K155 packet does not preserve the action.",
+  "claim_ceiling": "Exact non-admission of the frozen K104 K91 action to the exact K155 fixture by one congruence invariant and one missing coefficient owner. No obstruction to all actions, no source verdict, no recomputation of K155 and no GU-wide no-go."
+}

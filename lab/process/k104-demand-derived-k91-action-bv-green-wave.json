@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K104-DEMAND-DERIVED-K91-ACTION-BV-GREEN-2026-09-02",
+  "status": "complete_repository_owned_coefficient_complete_action_control",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "backward_demand_lineage": [
+    "EXT-QM-MASSIVE-MATTER-INTERFERENCE: coherent alternatives, phase-sensitive evolution and environmental-interface readiness",
+    "EXT-QM-SPACELIKE-BELL-NOSIGNAL: quotient-basic observables and causal record comparison",
+    "K91: one split functional quotient, closed generator, invariant core and retarded/advanced Green pair",
+    "K103: one packet must own fields, coefficients, Euler/Noether-BV, Hessian/adjoint, domain/core, Green form and a boundary family"
+  ],
+  "real_action": {
+    "history_fields": "g_and_p_in_Cc_infinity_R_semicolon_s_real",
+    "gauge_parameter": "alpha_in_Cc_infinity_R_semicolon_s_real",
+    "action": "one_half_integral_norm_p_dot_squared_minus_norm_Omega_p_squared_dt",
+    "coefficient_kinetic": 1,
+    "coefficient_potential_modes": "minus_n_plus_1_squared",
+    "g_coefficient": 0,
+    "mixed_coefficient": 0,
+    "gauge_action": "delta_alpha_g_equals_alpha_delta_alpha_p_equals_zero",
+    "all_coefficients_frozen": true
+  },
+  "euler_noether_bv": {
+    "euler_g": "zero",
+    "euler_p": "minus_partial_t_squared_plus_Omega_squared_p",
+    "noether_identity": "d0_formal_adjoint_E_equals_E_g_equals_zero",
+    "minimal_brst": "s_g_equals_c_s_p_equals_zero_s_c_equals_zero",
+    "brst_nilpotent": true,
+    "minimal_bv_action": "S_plus_integral_pair_g_star_c_dt",
+    "classical_master_equation": true,
+    "scope": "free_abelian_minimal_classical_BV_only"
+  },
+  "hessian_and_adjoint": {
+    "ambient_hessian": "diag_zero_minus_L_on_G_direct_sum_P",
+    "physical_euler_operator": "L_equals_partial_t_squared_plus_Omega_squared",
+    "formal_adjoint": "L_on_compactly_supported_rapid_histories",
+    "gauge_radical": "image_d0_equals_G_direct_sum_zero",
+    "physical_quotient": "G_direct_sum_P_mod_image_d0_is_P"
+  },
+  "analytic_owner": {
+    "history_hilbert_space": "L2_R_semicolon_P_real",
+    "maximal_closed_realization": "Fourier_multiplier_Omega_squared_minus_xi_squared_with_square_integrable_product",
+    "self_adjoint": true,
+    "common_invariant_core": "Schwartz_R_tensor_finite_sequences_subset_Schwartz_R_semicolon_s",
+    "retarded_and_advanced_test_space": "Cc_infinity_R_semicolon_s",
+    "retarded_advanced_formulas": "K91_modewise_sine_kernel_pair",
+    "two_sided_test_space_inverse": true,
+    "green_boundary_form": "real_pair_p_h_dot_minus_p_dot_h_at_time_boundary",
+    "causal_source_form": "real_pairing_with_G_ret_minus_G_adv",
+    "model_boundary_dirac_family": "B_r_equals_Omega_plus_r_identity_for_zero_le_r_le_one",
+    "boundary_family_common_domain": "D_Omega",
+    "boundary_family_uniform_gap": 1,
+    "boundary_family_spectral_flow": 0
+  },
+  "k91_action_preserving_bridge": {
+    "real_action_to_split_complex_map": "identity_on_G_and_P_after_realification",
+    "gauge_map_intertwining": true,
+    "quotient_exactness_bridge": true,
+    "euler_hessian_to_generator_bridge": true,
+    "closed_generator_domain_bridge": true,
+    "invariant_core_bridge": true,
+    "causal_green_boundary_bridge": true,
+    "result": "admitted_as_repository_action_owner_for_K91_control"
+  },
+  "finite_probe_boundary": {
+    "exact_modes": [1, 2, 3, 4, 5, 6],
+    "finite_probe_role": "coefficient_map_BV_and_kernel_regression_only",
+    "infinite_closedness_core_and_Green_statements_are_analytic": true,
+    "finite_truncations_do_not_prove_infinite_dimensional_statements": true
+  },
+  "fences": {
+    "authenticated_Weinstein_source_action": false,
+    "GU_native_action": false,
+    "nonlinear_or_quantum_BV": false,
+    "curved_spacetime_hyperbolicity": false,
+    "spatial_local_observable_net": false,
+    "microlocal_or_Hadamard_state": false,
+    "detector_or_Born_law": false,
+    "K155_same_carrier_admission": false,
+    "prediction_or_confirmation": false,
+    "verdict_or_public_posture_change": false
+  },
+  "result": {
+    "coefficient_complete_repository_actions": 1,
+    "K91_action_bridge_cells_closed": 6,
+    "source_selected_actions": 0,
+    "K155_admitted": false,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "next_gate": "Apply the independent K91/K155 same-carrier inertia and Weyl-coefficient discriminator. A later candidate must change the frozen action coefficients rather than rename this K91 control if it is to reach K155."
+}

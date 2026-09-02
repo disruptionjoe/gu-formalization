@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b7a52f9ba5dc
+revision_basis: 669981b3fa98
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K104 action-and-bridge Big Wave closes the K91 action-owner half of the
+    K103 reopener and makes the remaining K155 failure exact. A real free
+    split-l2 action with all coefficients frozen now owns K91's shift gauge,
+    split quotient, Euler/Noether identity, nilpotent minimal classical BV
+    extension, Hessian/formal adjoint, maximal closed history realization,
+    invariant core, retarded/advanced pair, Green boundary form and a
+    common-domain zero-flow boundary spectral family. All six K91
+    action/cochain/domain/Green bridge cells close at repository-construction
+    grade. Independently, the first 448 K104 physical modes carry the positive
+    real-l2 adjoint pairing of inertia (448,0,0), which cannot be real-congruent
+    to K155's distortion lowerer of inertia (260,188,0). K104 also has no
+    curvature/Weyl input or same-order A0 coefficient, so it neither reproduces
+    nor action-corrects K155's rank-one rotated Weyl leakage. The fixture is
+    not recomputed and its branch-local verdict remains unchanged. Probes pass
+    24/24 and 20/20; hostile selftests catch 22/22 and 15/15. Source/GU action,
+    nonlinear or quantum BV, curved net/state, Born, prediction and
+    confirmation ownership remain open.
     The K103 source-custody Big Wave qualifies the absorbed gu-source-action
     corpus and returns an exact pre-target non-admission rather than another
     finite measurement toy. The corpus is git-tracked repository construction
@@ -5870,6 +5887,12 @@ current_result:
     - explorations/conditional-build/k99-observed-interaction-derived-detailed-balance-graph-wave-2026-09-02.md
     - lab/process/k99-observed-interaction-derived-detailed-balance-graph-wave.json
     - tests/channel-swings/k99_observed_interaction_derived_detailed_balance_graph_probe.py
+    - explorations/conditional-build/k104-demand-derived-k91-action-bv-green-wave-2026-09-02.md
+    - lab/process/k104-demand-derived-k91-action-bv-green-wave.json
+    - tests/channel-swings/k104_demand_derived_k91_action_bv_green_probe.py
+    - explorations/conditional-build/k104-k91-k155-action-bridge-obstruction-wave-2026-09-02.md
+    - lab/process/k104-k91-k155-action-bridge-obstruction-wave.json
+    - tests/channel-swings/k104_k91_k155_action_bridge_obstruction_probe.py
 current_question: >-
   Does an independently source-owned K77 or gimmel full-carrier action realize
   the explicit quotient metric line, no-spurion content and total-stress
@@ -5889,22 +5912,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave on the now-exact source/action
-  reopener. One packet must own a real coefficient-complete action density,
-  frozen fields and constraints, all coefficients and Euler/Noether-BV maps,
-  the coupled Hessian and formal adjoint, one common closed domain/core, causal
-  Green form and the global families/boundary-Dirac objects. It must also give
-  explicit action-preserving maps to K91's complex, quotient and domain and
-  same-carrier coefficients that either reproduce K155's Weyl leakage or
-  supply an action-owned correction on that exact fixture. Do not union the
-  absorbed Cl(9,5) scaffold, K91 split-l2 control and K155 Cl(7,7) packet by
-  vocabulary, dimension or complexification. If no such packet exists, the
-  strongest disjoint route is a materially distinct autonomous infinite/open
-  reservoir that owns its asymptotic representation/algebra, preparation,
-  interaction and finite-work accounting; do not extend the finite measurement
-  ladder. A nondegenerate modular/causal selector must derive the interaction
-  or symmetry rather than merely propagate it into a graph. In
-  parallel retain the source-owned K77 or gimmel
+  Execute one largest honest compatible Big Wave on the narrowed K104
+  action reopener. Construct the next demand-derived action directly on the
+  K155 field carrier. Its formal-adjoint/Green pairing must own inertia
+  (260,188,0), its same-order Weyl-dependent A0 must be frozen rather than
+  imported, and its gauge/Noether-BV, Hessian/adjoint, closed-domain/core and
+  Green maps must still descend to K91. Use pairing inertia as the cheapest
+  first discriminator and Weyl-coefficient ownership as the independent
+  second discriminator. A failure reroutes the same Big Wave; it does not
+  authorize embedding modes, changing basis, complexifying, adjoining packets,
+  extending the finite measurement ladder or awarding source/native/export
+  credit. Preserve K104 as the complete repository-owned K91 action control.
+  In parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81
   source-symbol and cross-null domain reopeners below those routes; do not
