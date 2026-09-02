@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K94-OBSERVED-HAMILTONIAN-ACTION-UNIFICATION",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K93_SINGLE_ACTION_STATE_SOLDERING_PROPAGATION_DETECTOR_OWNER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "control_action": {
+    "carrier": "P8=(C2)^tensor3 plus one C2 detector",
+    "equilibrium_generator": "H_eq=-(ln 2)/2 (Z0 Z1+Z1 Z2)",
+    "inverse_temperature": "beta=1",
+    "derived_state": "rho_eq=exp(-H_eq)/Tr exp(-H_eq), with p(s)=2^(aligned adjacent edges)/18",
+    "selector_generator": "H_sel=pi/(2 sqrt(2)) (X0+Z0)",
+    "selector_unitary": "exp(-i H_sel)=-i H0",
+    "propagation_generator": "H_prop=(pi/2) P1_0 X1",
+    "propagation_unitary": "P0_0 I1-i P1_0 X1",
+    "detector_generator": "H_det=(pi/2) P1_1 X_D",
+    "detector_unitary": "P0_1 I_D-i P1_1 X_D",
+    "standard_net_selector_order": "H_sel is one-site",
+    "primed_net_selector_order": "H_sel contains a two-site X0 term",
+    "simultaneous_action_net_conjugation_restores_order": true
+  },
+  "derived_record": {
+    "propagated_input_observable": "Z0 Z1",
+    "record_weights": ["2/3", "1/3"],
+    "detector_kraus_maps": ["P0_1", "-i P1_1"],
+    "effects_complete": true,
+    "endpoint_joint_marginal_invariant": true,
+    "gauge_basic_zero_extension": true
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "finite_piecewise_control_action",
+      "equilibrium_selector_and_exact_Gibbs_density",
+      "Hamiltonian_generated_soldering_pulse",
+      "Hamiltonian_generated_propagation_and_detector_dilations",
+      "action_net_order_discriminator"
+    ],
+    "imported": [
+      "P8_tensor_soldering_and_clock_schedule",
+      "Gibbs_variational_principle_and_beta",
+      "finite_trace_Born_state_effect_pairing",
+      "detector_initialization_and_classical_record_semantics"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K92 supplied rational spatial state and local detector",
+      "K93 stipulated Hadamard action pulse",
+      "K93 stipulated CNOT propagation and record composition"
+    ],
+    "new_object_only": "one finite Hamiltonian control action deriving the K92 state and generating the K93 selector, propagation and detector unitaries",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "source_selected_action_or_net": false,
+    "autonomous_time_independent_action": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_or_temperature_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k94_observed_hamiltonian_action_unification_probe.py",
+  "result_ref": "explorations/conditional-build/k94-observed-hamiltonian-action-unification-wave-2026-09-02.md",
+  "claim_ceiling": "Exact finite piecewise-Hamiltonian ownership of the K92 Gibbs density and K93 selector, propagation and detector dilation only; no source-selected action/net, autonomous physical clock, continuum locality, microlocal/Hadamard state, derived Born or temperature principle, prediction, confirmation, held-out score or verdict."
+}

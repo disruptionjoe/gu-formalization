@@ -7,6 +7,24 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K94 observed Hamiltonian-action unification wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `H_eq=-(ln 2)(Z0 Z1+Z1 Z2)/2` at `beta=1` has the exact K92 rational Gibbs density `p(s)=2^(aligned edges)/18` | `lab/process/k94-observed-hamiltonian-action-unification-wave.json`; exhaustive rational-state and generator probe (`24/24`) | exact finite equilibrium-state derivation conditional on the imported Gibbs principle, trace and temperature |
+| Named Hamiltonian segments exponentiate to the K93 Hadamard selector, phase-decorated CNOT propagation and detector Kraus maps `P0_1,-iP1_1` | exact Pauli exponential, basis permutation, effect and record controls | exact finite common control-action ownership of the supplied K92/K93 objects |
+| The fixed selector is one-site in the standard net and contains a two-site term in the `CZ_01`-primed net; simultaneous action/net conjugation restores one-site order | exact factor-order control and hostile selftest (`20/20`) | selection belongs to the fixed action-net pairing, not the Hilbert carrier alone |
+| Source action, autonomous physical clock, continuum locality, microlocal/Hadamard state or derived Born/temperature principle | not constructed | open / explicitly excluded |
+
+## K94 observed autonomous-clock instrument wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The four-clock update `A=sum |t+1><t| tensor U_t`, with legs `U_prop,U_det,I,(U_det U_prop)*`, is unitary and satisfies `A^4=I` on all 64 clock-data basis states including phase | `lab/process/k94-observed-autonomous-clock-instrument-wave.json`; exhaustive clock-action probe (`22/22`) | exact finite autonomous discrete-action compilation |
+| From clock zero, the detector record has input observable `Z0 Z1`, weights `(2/3,1/3)`, invariant endpoint pair and gauge-basic zero extension | exact basis, rational-state and quotient controls | exact finite clocked causal-instrument result under the imported state/trace interface |
+| Autonomy of the finite update selects a physical clock or unique continuous-time Hamiltonian | omission and promotion controls; hostile selftest (`15/15`) | false; clock initialization, program table and inverse closing leg remain supplied, and no Hamiltonian logarithm is selected |
+| Source-selected dynamics, continuum microcausality, microlocal/Hadamard state or derived Born rule | not constructed | open / explicitly excluded |
+
 ## K93 observed action-soldering selection wave (2026-09-02)
 
 | Claim | Evidence | Honest grade |

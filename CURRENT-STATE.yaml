@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1d97ca95d9cf
+revision_basis: 482d93480ff4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The Hamiltonian-action/autonomous-instrument Big Wave closes K93's
+    separate-gate owner gap at finite repository-control grade. The Ising
+    generator H_eq=-(ln 2)(Z0 Z1+Z1 Z2)/2 at beta one has exactly the K92
+    rational Gibbs density. Named Hamiltonian segments generate the K93
+    Hadamard selector, phase-decorated CNOT propagation and detector Kraus
+    maps; the fixed selector is one-site in the standard net and two-site in
+    the CZ-primed net, while simultaneous action/net conjugation restores
+    one-site order. A four-state autonomous clock then compiles propagation,
+    detection, identity and inverse-close legs into one unitary A with A^4=I,
+    preserving the Z0 Z1 input effect, weights (2/3,1/3), endpoint marginal
+    and K91 descent. Probes pass 24/24 and 22/22; hostile selftests catch
+    20/20 and 15/15. The schedule, Gibbs principle, beta, clock
+    initialization, trace/Born pairing and record meaning remain supplied; no
+    source, continuum/microlocal, prediction or confirmation result is
+    obtained.
     The action-soldering/causal-instrument Big Wave closes K92's admitted
     source-independent dynamic continuation. A fixed site-zero Hadamard pulse
     normalizes all standard site factors but not the CZ-primed site-zero
@@ -5682,6 +5697,12 @@ current_result:
     - explorations/conditional-build/k93-observed-causal-instrument-composition-wave-2026-09-02.md
     - lab/process/k93-observed-causal-instrument-composition-wave.json
     - tests/channel-swings/k93_observed_causal_instrument_composition_probe.py
+    - explorations/conditional-build/k94-observed-hamiltonian-action-unification-wave-2026-09-02.md
+    - lab/process/k94-observed-hamiltonian-action-unification-wave.json
+    - tests/channel-swings/k94_observed_hamiltonian_action_unification_probe.py
+    - explorations/conditional-build/k94-observed-autonomous-clock-instrument-wave-2026-09-02.md
+    - lab/process/k94-observed-autonomous-clock-instrument-wave.json
+    - tests/channel-swings/k94_observed_autonomous_clock_instrument_probe.py
 current_question: >-
   Does an independently source-owned K77 or gimmel full-carrier action realize
   the explicit quotient metric line, no-spurion content and total-stress
@@ -5690,8 +5711,9 @@ current_question: >-
   basicness criteria on one source quotient, and does its causal geometry or
   action select a spatial local-algebra soldering across the K92 ambiguity,
   together with a microlocally admissible state, local detector coupling,
-  record algebra and derived rather than imported Born pairing, beyond K93's
-  stipulated finite action-net and causal-instrument controls?
+  record algebra and derived rather than imported Born pairing, beyond K94's
+  finite control action, supplied equilibrium/Born principles and compiled
+  clock?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5701,21 +5723,20 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  K93 now proves that one fixed repository action pulse distinguishes the K92
-  solderings by factor normalization and that a one-edge repository propagator
-  composes with the K92 detector to produce the exact input effect Z0 Z1,
-  ordered weights (1/2,1/2) versus (2/3,1/3), endpoint invariance and K91
-  quotient descent. The next quantum arc is no longer another finite Clifford
-  pulse or record table: obtain the source-owned functional constraint complex
-  and prove the K91 sequence/domain/support/basicness conditions on one source
-  quotient. Then identify a source causal geometry, action or functor that
-  selects a spatial local-algebra net and derives a microlocally admissible
-  state, local coupling, record algebra and trace/Born ownership. Without
-  source custody, a materially distinct continuation must derive the
-  soldering selector, propagation, stationary state and detector interaction
-  from one repository-owned variational or Hamiltonian action, rather than
-  stipulating separate gates, and must test simultaneous-conjugation
-  ambiguity and stability. In parallel retain the source-owned K77 or gimmel
+  K94 now derives the K92 state and K93 selector, propagation and detector
+  dilation from one finite piecewise Hamiltonian control action, and compiles
+  propagation plus detection into one autonomous four-clock unitary with
+  exact cyclic closure. The next quantum arc is no longer another finite
+  scheduled control or clock compilation: obtain the source-owned functional
+  constraint complex and prove the K91 sequence/domain/support/basicness
+  conditions on one source quotient. Then identify a source causal geometry,
+  action or functor that selects a spatial local-algebra net and derives a
+  microlocally admissible state, local coupling, record algebra and trace/Born
+  ownership. Without source custody, a materially distinct continuation must
+  derive a nontrivial stable long-time state and causal instrument from one
+  time-independent repository Hamiltonian without a supplied program clock or
+  inverse reset leg, and test action/net covariance and stability. In parallel
+  retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81
   source-symbol and cross-null domain reopeners below those routes; do not

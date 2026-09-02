@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K94-OBSERVED-AUTONOMOUS-CLOCK-INSTRUMENT",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K94_AUTONOMOUS_FINITE_CAUSAL_INSTRUMENT_COMPILATION",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "clock_action": {
+    "clock_carrier": "C4",
+    "data_carrier": "P8 tensor C2_detector",
+    "forward_legs": ["U_prop", "U_det", "I"],
+    "closing_leg": "(U_det U_prop)^*",
+    "one_step_action": "A=sum_t |t+1><t| tensor U_t",
+    "unitary": true,
+    "four_step_closure": "A^4=I",
+    "clock_radius": 1,
+    "external_schedule_replaced_by_clock_state": true
+  },
+  "instrument_result": {
+    "initial_state": "K94 action-derived K92 Gibbs density with detector |0><0|",
+    "input_record_observable": "Z0 Z1",
+    "record_weights": ["2/3", "1/3"],
+    "endpoint_joint_marginal_invariant": true,
+    "gauge_basic_zero_extension": true,
+    "closing_leg_erases_net_data_effect": true
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "finite_four_state_clock",
+      "autonomous_discrete_update",
+      "exact_unitarity_and_closure_certificate",
+      "clocked_propagation_detector_record_composition"
+    ],
+    "imported": [
+      "clock_initialization_at_zero",
+      "K94_control_generators_and_Gibbs_density",
+      "finite_trace_Born_pairing",
+      "detector_readout_and_clock_record_semantics"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K93 separate propagation and instrument composition",
+      "K94 piecewise Hamiltonian control action"
+    ],
+    "new_object_only": "one autonomous four-clock unitary compiling propagation, detector dilation and an exact inverse closing leg",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "source_selected_clock_or_dynamics": false,
+    "continuous_time_Hamiltonian_log_selected": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k94_observed_autonomous_clock_instrument_probe.py",
+  "result_ref": "explorations/conditional-build/k94-observed-autonomous-clock-instrument-wave-2026-09-02.md",
+  "claim_ceiling": "Exact finite autonomous-clock compilation of the K94 propagation and detector sequence only; no source-selected clock/dynamics, selected continuous-time Hamiltonian, continuum locality, microlocal/Hadamard state, derived Born rule, prediction, confirmation, held-out score or verdict."
+}
