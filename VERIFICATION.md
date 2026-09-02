@@ -7,6 +7,24 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K95 observed finite-Hamiltonian asymptotic no-go wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite closed Hamiltonian evolution preserves trace distance and therefore has no common pointwise attracting state for two distinct initial states | `lab/process/k95-observed-finite-hamiltonian-asymptotic-no-go-wave.json`; structural proof and exact probe (`22/22`) | exact finite-dimensional unitary-flow obstruction |
+| If `Tr(rho E(t))` converges for every density matrix, every nonzero energy-gap block of `E` vanishes, so `[H,E]=0` and the effect was constant | finite Fourier-gap decomposition and hostile selftest (`19/19`) | exact universal pointwise record-formation obstruction; stable pre-existing effects remain possible |
+| For `H_int=P1_q tensor X_D` on the K94 record, `Pr(D=1;t)=(1/3)sin^2(t)` alternates between zero and one third; its Cesaro weight is one sixth | exact rational sector weights and half/full-turn controls | exact finite countercontrol separating recurrence, averaging and pointwise stability |
+| Infinite reservoirs, thermodynamic limits, open systems, coarse-grained limits or source GU dynamics are excluded by the theorem | not in the quantified class | false; all remain open and explicitly outside scope |
+
+## K95 observed dissipative record-stabilization wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The two conditional jump operators define one trace-preserving completely positive time-homogeneous GKSL semigroup on the diagonal K94 input algebra | `lab/process/k95-observed-dissipative-record-stabilization-wave.json`; exact population/semigroup probe (`24/24`) | exact finite open-system control |
+| From detector zero, the mismatch is `(1/3)exp(-gamma t)` and the record weights converge pointwise to `(2/3,1/3)` | exact survival-parameter composition, fixed-point and hostile controls (`22/22`) | exact conditional exponential stabilization of the K94 parity record |
+| The system record distribution, full endpoint marginal and K91 gauge-basic descent remain invariant | exact marginal and zero-extension checks | exact causal-marginal and quotient compatibility on the stated diagonal control |
+| This supplies a Hamiltonian-only or microscopic reservoir derivation of irreversibility, the rate, Born pairing or record meaning | no reservoir/domain/weak-coupling construction; owner accounting | false; the Markov/bath arrow, rate, jump selection and interpretation remain imported |
+
 ## K94 observed Hamiltonian-action unification wave (2026-09-02)
 
 | Claim | Evidence | Honest grade |

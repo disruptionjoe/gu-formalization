@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 482d93480ff4
+revision_basis: 992ece99c6e7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The finite-Hamiltonian-stability/irreversible-record Big Wave resolves the
+    K94 long-time endpoint at exact repository-control grade. Unitary
+    conjugation preserves trace distance, so no finite closed
+    time-independent Hamiltonian has a common pointwise attractor for two
+    distinct states. More sharply, if a detector effect's Heisenberg orbit
+    converges for every input state, finite Fourier rigidity forces every
+    nonzero energy-gap block to vanish, hence the effect commutes with the
+    Hamiltonian and was constant all along. The K94 parity-controlled detector
+    is the exact witness: its one-weight is (1/3)sin^2(t), alternating between
+    zero and one third; its Cesaro weight is only one sixth. A separate
+    time-homogeneous conditional-amplitude-damping generator stabilizes the
+    full parity record exponentially, with mismatch (1/3)exp(-gamma t), while
+    preserving the endpoint marginal and K91 descent. Probes pass 22/22 and
+    24/24; hostile selftests catch 19/19 and 22/22. The Markov approximation,
+    bath arrow, rate, jump selection, detector initialization, trace/Born
+    pairing and record meaning remain supplied. The no-go binds only finite
+    closed Hamiltonian flow; no source, infinite-reservoir, continuum,
+    microlocal, prediction or confirmation result is obtained.
     The Hamiltonian-action/autonomous-instrument Big Wave closes K93's
     separate-gate owner gap at finite repository-control grade. The Ising
     generator H_eq=-(ln 2)(Z0 Z1+Z1 Z2)/2 at beta one has exactly the K92
@@ -5711,9 +5729,8 @@ current_question: >-
   basicness criteria on one source quotient, and does its causal geometry or
   action select a spatial local-algebra soldering across the K92 ambiguity,
   together with a microlocally admissible state, local detector coupling,
-  record algebra and derived rather than imported Born pairing, beyond K94's
-  finite control action, supplied equilibrium/Born principles and compiled
-  clock?
+  record algebra and derived rather than imported Born pairing, beyond K95's
+  finite closed-Hamiltonian obstruction and supplied irreversible semigroup?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5723,20 +5740,21 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  K94 now derives the K92 state and K93 selector, propagation and detector
-  dilation from one finite piecewise Hamiltonian control action, and compiles
-  propagation plus detection into one autonomous four-clock unitary with
-  exact cyclic closure. The next quantum arc is no longer another finite
-  scheduled control or clock compilation: obtain the source-owned functional
+  K95 proves that finite closed time-independent Hamiltonian flow cannot own a
+  universal pointwise attractor or newly formed universally convergent record,
+  and it shows that a time-homogeneous irreversible semigroup can stabilize
+  the K94 parity record only by importing a Markov/bath arrow, rate and jump
+  selection. The next quantum arc is therefore no longer another finite bath,
+  clock, reset or abstract dilation: obtain the source-owned functional
   constraint complex and prove the K91 sequence/domain/support/basicness
   conditions on one source quotient. Then identify a source causal geometry,
   action or functor that selects a spatial local-algebra net and derives a
   microlocally admissible state, local coupling, record algebra and trace/Born
   ownership. Without source custody, a materially distinct continuation must
-  derive a nontrivial stable long-time state and causal instrument from one
-  time-independent repository Hamiltonian without a supplied program clock or
-  inverse reset leg, and test action/net covariance and stability. In parallel
-  retain the source-owned K77 or gimmel
+  construct a genuine time-independent infinite-reservoir Hamiltonian with a
+  common domain and prove its reduced asymptotic instrument, or derive a
+  conditional expectation/KMS/record-algebra selector whose irreversible
+  owner is explicit. In parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81
   source-symbol and cross-null domain reopeners below those routes; do not

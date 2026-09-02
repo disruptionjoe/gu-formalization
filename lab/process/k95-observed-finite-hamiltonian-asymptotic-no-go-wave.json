@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K95-OBSERVED-FINITE-HAMILTONIAN-ASYMPTOTIC-NO-GO",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K94_FINITE_CLOSED_HAMILTONIAN_STABLE_STATE_AND_RECORD_OWNER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "theorem": {
+    "carrier": "arbitrary finite-dimensional complex Hilbert space",
+    "dynamics": "Phi_t(rho)=exp(-itH) rho exp(itH), H=H*",
+    "state_distance_invariant": "||Phi_t(rho)-Phi_t(sigma)||_1=||rho-sigma||_1",
+    "common_pointwise_attractor_for_two_distinct_states": false,
+    "effect_limit_hypothesis": "Tr(rho E(t)) converges for every density matrix rho",
+    "effect_limit_conclusion": "all nonzero energy-gap blocks vanish, [H,E]=0 and E(t)=E",
+    "new_universal_pointwise_record_formation": false
+  },
+  "k94_witness": {
+    "input_record": "q=s0 xor s1",
+    "record_one_weight": "1/3",
+    "Hamiltonian": "H_int=P1_q tensor X_D",
+    "detector_one_probability": "(1/3) sin^2(t)",
+    "zero_subsequence": "t=n pi",
+    "full_record_subsequence": "t=pi/2+n pi",
+    "pointwise_limit_exists": false,
+    "Cesaro_detector_one_weight": "1/6",
+    "gauge_basic_zero_extension": true
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "finite_unitary_attractor_obstruction",
+      "finite_Fourier_effect_limit_rigidity",
+      "K94_parity_detector_oscillation_control",
+      "stationary_versus_attracting_and_storage_versus_formation_boundary"
+    ],
+    "imported": [
+      "finite_trace_Born_state_effect_pairing",
+      "detector_initialization_and_record_semantics",
+      "Cesaro_averaging_when_invoked"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K94 finite piecewise Hamiltonian state and gate owner",
+      "K94 autonomous four-clock unitary with inverse close",
+      "K91 finite unitary detector dilation"
+    ],
+    "new_object_only": "universal finite closed-Hamiltonian asymptotic obstruction plus exact K94 record-recurrence witness",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "source_dynamics_no_go": false,
+    "infinite_reservoir_or_thermodynamic_no_go": false,
+    "open_system_or_coarse_graining_no_go": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k95_observed_finite_hamiltonian_asymptotic_no_go_probe.py",
+  "result_ref": "explorations/conditional-build/k95-observed-finite-hamiltonian-asymptotic-no-go-wave-2026-09-02.md",
+  "claim_ceiling": "Exact finite-dimensional obstruction to a universal pointwise attracting state or newly formed universally convergent detector effect under one closed time-independent Hamiltonian only; no source, infinite-reservoir, thermodynamic-limit, open-system, coarse-grained, continuum, microlocal, derived-Born, prediction, confirmation, held-out or verdict result."
+}

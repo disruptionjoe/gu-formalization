@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K95-OBSERVED-DISSIPATIVE-RECORD-STABILIZATION",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K95_TIME_HOMOGENEOUS_IRREVERSIBLE_PARITY_RECORD_OWNER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "semigroup": {
+    "carrier": "selected P8 tensor C2 detector on the K94 diagonal input algebra",
+    "input_record": "q=propagated middle bit=s0 xor s1 on input",
+    "jumps": [
+      "L_1=sqrt(gamma) P1_q tensor |1><0|_D",
+      "L_0=sqrt(gamma) P0_q tensor |0><1|_D"
+    ],
+    "generator": "time-independent GKSL generator with zero Hamiltonian part",
+    "parameter": "r(t)=exp(-gamma t)",
+    "semigroup_law": "r(t+s)=r(t)r(s)",
+    "trace_preserving": true,
+    "completely_positive": true,
+    "program_clock_or_inverse_reset": false
+  },
+  "stable_record": {
+    "joint_probabilities": [
+      "Pr(q=0,D=0;t)=2/3",
+      "Pr(q=1,D=0;t)=(1/3)r(t)",
+      "Pr(q=1,D=1;t)=(1/3)(1-r(t))"
+    ],
+    "record_weights_limit": ["2/3", "1/3"],
+    "mismatch_probability": "(1/3)r(t)",
+    "pointwise_stable": true,
+    "endpoint_joint_marginal_invariant": true,
+    "system_record_distribution_invariant": true,
+    "gauge_basic_zero_extension": true,
+    "Hamiltonian_Cesaro_detector_one_weight": "1/6"
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "time_homogeneous_conditional_amplitude_damping_control",
+      "exact_exponential_record_convergence",
+      "semigroup_and_fixed_point_certificate",
+      "endpoint_marginal_and_quotient_descent_control"
+    ],
+    "imported": [
+      "Markov_approximation_and_bath_time_arrow",
+      "positive_jump_rate_gamma",
+      "conditional_jump_selection",
+      "detector_initialization_and_classical_record_semantics",
+      "finite_trace_Born_state_effect_pairing"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K94 finite Hamiltonian detector dilation",
+      "K94 autonomous four-clock unitary",
+      "K95 finite closed-Hamiltonian asymptotic obstruction"
+    ],
+    "new_object_only": "one time-homogeneous irreversible semigroup that pointwise stabilizes the complete K94 parity record",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "Hamiltonian_only_completion": false,
+    "microscopic_reservoir_dilation_constructed": false,
+    "source_selected_dynamics_or_rate": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k95_observed_dissipative_record_stabilization_probe.py",
+  "result_ref": "explorations/conditional-build/k95-observed-dissipative-record-stabilization-wave-2026-09-02.md",
+  "claim_ceiling": "Exact time-homogeneous conditional-amplitude-damping stabilization of the diagonal K94 parity record with endpoint-marginal preservation and K91 gauge-basic descent only; no Hamiltonian-only, source-selected, microscopic-reservoir, continuum, microlocal, derived-Born, prediction, confirmation, held-out or verdict result."
+}
