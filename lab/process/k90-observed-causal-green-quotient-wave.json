@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K90-OBSERVED-CAUSAL-GREEN-QUOTIENT-2026-09-01",
+  "status": "complete_repository_owned_finite_causal_green_control",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "causal_chain_model": {
+    "test_space": "finitely_supported_rational_sources_on_integer_time_chain",
+    "operator": "P_u_n_equals_u_n_plus_1_minus_2u_n_plus_u_n_minus_1",
+    "retarded_kernel": "Gret_nk_equals_max_n_minus_k_0",
+    "advanced_kernel": "Gadv_nk_equals_max_k_minus_n_0",
+    "causal_propagator": "E_nk_equals_n_minus_k",
+    "retarded_support": "future_of_source",
+    "advanced_support": "past_of_source",
+    "two_sided_fundamental_solution_on_finite_sources": true
+  },
+  "gauge_quotient": {
+    "ambient_carrier": "G_radical_direct_sum_physical_source_space",
+    "observation_basicness": "observation_annihilates_G",
+    "green_extension": "zero_on_G_direct_sum_E_on_physical_sources",
+    "representative_independent": true,
+    "antisymmetric_peierls_form": true
+  },
+  "failure_controls": {
+    "precausal_retarded_leak": "future_source_changes_retarded_past",
+    "wrong_advanced_sign": "advanced_kernel_ceases_to_be_a_fundamental_solution",
+    "gauge_observation_leak": "representatives_give_different_readout",
+    "symmetric_propagator_leak": "Peierls_antisymmetry_fails"
+  },
+  "fences": {
+    "source_owned_action_or_complex": false,
+    "continuum_spacetime_green_hyperbolicity": false,
+    "common_unbounded_BFV_green_domain": false,
+    "spatial_locality_or_AQFT": false,
+    "microlocal_wavefront_or_Hadamard": false,
+    "anomaly_measure_or_renormalization": false,
+    "Born_detector_law": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "causal_green_and_quotient_conditions_closed": 5,
+    "source_selected_green_pairs": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored"
+  }
+}

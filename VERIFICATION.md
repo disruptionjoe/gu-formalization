@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K90 observed causal Green-quotient wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On finitely supported rational sources on the integer time chain, `P u_n=u_(n+1)-2u_n+u_(n-1)` has retarded kernel `max(n-k,0)`, advanced kernel `max(k-n,0)` and antisymmetric causal propagator `E_nk=n-k` | `lab/process/k90-observed-causal-green-quotient-wave.json`; exact fundamental-solution and support probe (`24/24`) | exact finite-source causal Green control for the named repository construction |
+| Extending `E` by zero across a gauge radical and requiring observations to annihilate that radical gives representative-independent readout, Green output and quotient Peierls form | exact representative, antisymmetry and self-pairing controls | exact finite gauge-basic causal quotient result |
+| Fundamental-solution algebra alone supplies continuum Green hyperbolicity, a common unbounded BFV/Green domain, spatial AQFT locality or microlocal spectrum | support, sign, gauge and symmetry mutations; hostile selftest (`18/18`) | false; those analytic and spatial owners remain absent |
+| A source GU Euler operator/constraint complex, continuum Hadamard state or Born detector law | not constructed | open / explicitly excluded |
+
+## K90 observed detector-response KMS wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One stationary mode and matched two-level detector with four quarter-turn switching times and `g=1/8` have vacuum leading weights `(0,1/4)` and occupation-one thermal weights `(1/4,1/2)` with detailed-balance ratio `1/2` | `lab/process/k90-observed-detector-response-kms-wave.json`; exact phase-sum and response probe (`24/24`) | exact finite leading-response and KMS control for the named repository construction |
+| The response separately depends on covariance orientation, switching, interaction/coupling and Born probability interpretation | spectral reversal, switching endpoint, occupation and large-coupling controls; hostile selftest (`21/21`) | exact owner-separation result for the finite packet |
+| A finite KMS response table selects a source covariance/interaction or derives the Born rule, a complete positive instrument, nonperturbative unitary dynamics or continuum Hadamard state | not constructed; every such promotion is fenced and mutation-tested | false / explicitly excluded |
+| A Bell prediction, confirmation or held-out delayed-choice score | not evaluated | open / reserved |
+
 ## K89 observed functional BFV domain-lift wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

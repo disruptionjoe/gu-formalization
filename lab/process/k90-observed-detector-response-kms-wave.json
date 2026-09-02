@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K90-OBSERVED-DETECTOR-RESPONSE-KMS-2026-09-01",
+  "status": "complete_repository_owned_finite_response_ownership_control",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "detector_model": {
+    "field_mode": "one_stationary_bosonic_mode_with_quarter_turn_phase",
+    "detector": "two_level_system_with_matching_positive_gap",
+    "switching": "four_equal_discrete_interaction_times",
+    "interaction": "repository_selected_linear_monopole_coupling",
+    "coupling": "one_eighth",
+    "response_order": "leading_quadratic_weight"
+  },
+  "spectral_response": {
+    "vacuum_up_weight": "0",
+    "vacuum_down_weight": "1/4",
+    "thermal_occupation": 1,
+    "thermal_up_weight": "1/4",
+    "thermal_down_weight": "1/2",
+    "KMS_ratio": "1/2",
+    "exp_minus_beta_omega": "1/2",
+    "positive_frequency_orientation_required": true
+  },
+  "owner_accounting": {
+    "covariance_owner": "repository_selected_stationary_mode_state",
+    "switching_owner": "repository_selected_four_time_profile",
+    "interaction_owner": "repository_selected_monopole_coupling",
+    "Born_readout_owner": "imported_probability_interpretation_not_derived",
+    "source_selected_owner_count": 0
+  },
+  "failure_controls": {
+    "spectral_orientation_reversal": "vacuum_excitation_and_deexcitation_roles_swap",
+    "switching_endpoint_loss": "counterrotating_vacuum_weight_no_longer_cancels",
+    "thermal_occupation_mutation": "KMS_ratio_changes",
+    "large_coupling": "leading_response_weight_exceeds_probability_range"
+  },
+  "fences": {
+    "source_selected_covariance": false,
+    "continuum_Hadamard_state": false,
+    "source_owned_detector_interaction": false,
+    "Born_rule_derived": false,
+    "complete_positive_instrument": false,
+    "nonperturbative_unitary_detector_dynamics": false,
+    "Bell_prediction_or_confirmation": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "finite_response_ownership_conditions_closed": 4,
+    "source_selected_detector_laws": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored"
+  }
+}
