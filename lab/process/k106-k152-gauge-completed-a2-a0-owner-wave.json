@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K106-K152-GAUGE-COMPLETED-A2-A0-OWNER-2026-09-02",
+  "status": "complete_repository_owned_local_formal_differential_Noether_action_BV_owner",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "construction_owner": "repository-construction",
+  "predecessors": [
+    "K152 exact normal-coordinate minus-two linearized Einstein row followed by the selected conditional Shiab",
+    "K155 exact 448-dimensional selected-action carrier and raw rank-nine Weyl A0",
+    "K105 exact standalone raw-A0 frozen-gauge non-admission"
+  ],
+  "frozen_background": {
+    "carrier": "metric_10_to_embedded_distortion_448",
+    "normal_coordinate_metric_value": "diag(1,-1,-1,-1)",
+    "metric_first_jet": "zero",
+    "curvature": "aligned_pure_electric_Ricci_flat_Weyl_diag(1/2,1/2,-1)",
+    "metric_second_jet": "g_mn_ab=-(R_manb+R_mbna)/3",
+    "metric_third_jet": "zero",
+    "Einstein_value_and_first_jet": "zero",
+    "scope": "one exact local formal Ricci-flat three-jet; no global metric realization"
+  },
+  "differential_owner": {
+    "Einstein_row": "E_g=-2 D G_g",
+    "bridge": "A_g=iota Sigma_g E_g=A2 partial_squared plus A1 partial plus A0",
+    "normal_origin_coefficients": "A1(origin)=0 while A2 and Weyl-dependent A0 are live",
+    "gauge_generator": "R_g xi=Lie_xi g with background-dependent principal and lower coefficients",
+    "naturality_identity": "E_g(R_g xi)=-2 Lie_xi G(g)",
+    "on_shell_Noether_identity": "A_g R_g=0 when G(g)=0 through first background jet"
+  },
+  "exact_result": {
+    "vector_field_jet_basis": "four components times all normalized four-variable monomials of total degree at most three",
+    "vector_field_jet_dimension": 140,
+    "complete_Noether_composition_rank": 0,
+    "raw_A0_shape": [448, 10],
+    "raw_A0_rank": 9,
+    "raw_A0_nonzero_entries": 24,
+    "raw_A0_digest_sha256": "7967815e29bdd29f9c017936f5653fb24855b550c3b6495d298f788eaaa1b083",
+    "raw_A0_times_frozen_gauge_rank": 4,
+    "A2_prolongation_rank": 4,
+    "A2_plus_A0_gauge_composition_rank": 0,
+    "cancellation": "the nonzero rank-four A2 curved-gauge prolongation equals minus the nonzero rank-four raw-A0 principal-gauge contribution"
+  },
+  "action_owner": {
+    "fields": "compactly_supported_local_formal metric h and distortion T",
+    "distortion_pairing": "K155 lowerer K_D of inertia (260,188,0)",
+    "action": "integral one_half_pair(T,K_D T)+pair(T,A_g h)",
+    "Hessian": "[[0,A_g_dagger],[A_g,K_D]]",
+    "gauge": "delta h=R_g xi; delta T=0",
+    "H_times_R_zero": true,
+    "minimal_BRST": "s h=R_g c; s T=0; s c=0",
+    "free_classical_BV_CME": true,
+    "scope": "free linearized abelian local formal owner; no analytic Green claim"
+  },
+  "controls": {
+    "frozen_principal_gauge_reproduces_rank_four_failure": true,
+    "omit_Lie_transport_is_nonzero": true,
+    "flat_Weyl_zero_deletes_A0_and_curvature_cancellation": true,
+    "off_shell_identity_is_minus_two_Sigma_Lie_xi_G": true,
+    "K155_rank_one_rotated_radical_leakage_preserved": true,
+    "K155_verdict_changed": false
+  },
+  "result": {
+    "raw_A0_differential_owner_constructed": true,
+    "standalone_raw_A0_admitted": false,
+    "K105_raw_A0_reopener_closed_at_local_formal_repository_grade": true,
+    "K155_radical_descent_repaired": false,
+    "canon_verdict_change": "none"
+  },
+  "fences": {
+    "authenticated_Weinstein_source_action": false,
+    "preferred_historical_Shiab": false,
+    "nonlinear_or_quantum_BV_BFV": false,
+    "global_curved_action": false,
+    "global_Ricci_flat_metric_realization": false,
+    "Green_hyperbolic_or_microlocal_state": false,
+    "physical_state_or_Born_owner": false,
+    "prediction_confirmation_or_GU_verdict": false
+  },
+  "exact_reopener": "Globalize the selected bridge and its curved diffeomorphism complex only if a source/action-owned full carrier, atlas, domain and nonlinear BV-BFV data are supplied. Independently, K155's rank-one characteristic-radical leakage and K105's positive-polarization nonselection remain unchanged.",
+  "claim_ceiling": "Exact repository-constructed local formal differential Noether/action/free-BV owner for K152's raw A2+A0 bridge on one aligned Ricci-flat normal-coordinate three-jet, with the standalone raw-A0 rank-four frozen-gauge obstruction retained. No authenticated source action, preferred Shiab, global curved action, nonlinear BV-BFV, Green domain, physical state, Born law, prediction, confirmation, GU verdict, or change to K155 radical descent."
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9bf646268c89
+revision_basis: 96bf00ba0f1a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K106 raw-A0/physical-selection Big Wave closes K105's two exact
+    reopeners as one positive local-formal construction and one strengthened
+    obstruction. On the aligned Ricci-flat normal-coordinate three-jet,
+    K152's raw rank-nine Weyl A0 is now owned only inside the complete natural
+    differential A2+A0: the background-dependent Lie-derivative gauge and
+    curved prolongation cancel the nonzero rank-four A0 gauge defect exactly.
+    All 140 vector-field jets through degree three vanish in the full Noether
+    composition, while freezing the gauge or omitting Lie transport retains a
+    nonzero defect. The resulting mixed quadratic action owns its Hessian,
+    formal adjoint, Noether identity and minimal free abelian BV complex at
+    local formal repository grade. Independently, K105's coefficient-blind
+    sector has the continuous action/domain/Green symmetry
+    O(256) times O(183), so no equivariant positive line is selected. More
+    generally, every metric-10 to distortion-448 cross-term-only completion
+    leaves at least 250 K-positive blind directions. A source/action-owned
+    full distortion or boundary operator with a simple isolated K-positive
+    spectral line remains a live escape; the planted coordinate operator is
+    only a positive control. Probes pass 23/23 and 27/27; hostile selftests
+    catch 17/17 and 19/19. K155's rank-one leakage and all 188 negative
+    directions remain unchanged. No source/GU action, preferred Shiab, global
+    curved domain, physical state, observable, Born, prediction or
+    confirmation ownership moves.
     The K105 K155-carrier action-and-retract Big Wave clears K104's pairing
     discriminator and constructs its action-owned correction horn without
     changing source credit or the hostile fixture. On rapid l2 sequences of
@@ -53,7 +75,7 @@ current_result:
     the Weyl image, and the exact e0/e1 swap preserves the full action while
     exchanging distinct K91 retracts. Existence therefore does not select a
     physical positive polarization; all 188 ambient negative directions stay.
-    Probes pass 21/21 and 19/19; hostile selftests catch 17/17 and 14/14.
+    Probes pass 25/25 and 19/19; hostile selftests catch 22/22 and 14/14.
     Separately, the raw rank-nine K152 Weyl A0 has 24 nonzero entries and
     rank(A0 G)=4, so it cannot be inserted alone into the fixed gauge action:
     a gauge-completed differential A2+A0 owner remains open. Probes pass 25/25
@@ -5926,13 +5948,19 @@ current_result:
     - explorations/conditional-build/k105-k91-positive-retract-nonselection-wave-2026-09-02.md
     - lab/process/k105-k91-positive-retract-nonselection-wave.json
     - tests/channel-swings/k105_k91_positive_retract_nonselection_probe.py
+    - explorations/conditional-build/k106-k152-gauge-completed-a2-a0-owner-wave-2026-09-02.md
+    - lab/process/k106-k152-gauge-completed-a2-a0-owner-wave.json
+    - tests/channel-swings/k106_k152_gauge_completed_a2_a0_owner_probe.py
+    - explorations/conditional-build/k106-k105-action-symmetry-positive-subspace-wave-2026-09-02.md
+    - lab/process/k106-k105-action-symmetry-positive-subspace-wave.json
+    - tests/channel-swings/k106_k105_action_symmetry_positive_subspace_probe.py
 current_question: >-
-  Can a gauge-completed differential owner combine K152's raw rank-nine A0,
-  its A2 term, background-dependent gauge transformation and lower terms so
-  the full Noether composition vanishes; independently, does any source/action
-  symmetry, boundary condition, positive state cone or observable interface
-  select one K91-positive retract inside the K105 correction action without
-  erasing its 188 ambient negative directions;
+  Can K106's local formal gauge-completed K152 differential be globalized by
+  a source/action-owned full carrier, atlas, nonlinear BV-BFV complex and
+  common curved domain; independently, does any source/action-owned full
+  distortion term or boundary operator have a simple isolated K-positive
+  spectral line that breaks the O(256) times O(183) blind-sector symmetry and
+  selects one K91 retract without erasing the 188 negative directions;
   independently, does a source-owned K77 or gimmel full-carrier action realize
   the quotient metric, no-spurion, coframe-Euler and total-stress descent, and
   can either route supply a curved local net, microlocally admissible state,
@@ -5946,21 +5974,27 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave on K105's two exact
-  reopeners. First construct or obstruct a gauge-completed differential owner
-  for K152's raw rank-nine A0, including A2, background-dependent gauge and
-  lower terms with a proved full Noether identity; do not relabel K155's
-  rank-one composed residual as raw A0. Independently test whether an owned
-  action symmetry, boundary polarization, positive state cone or observable
-  interface breaks the exact e0/e1 action symmetry and selects one K91
-  retract. If a selector is frozen, advance that same candidate through
-  physical-state and observable-export burdens before any held-out
-  confrontation. Existence of 256 positive coordinate retracts is not
-  selection; do not erase the ambient 188 negative directions, choose a
-  preferred line by basis convention, or promote the constant-coefficient
-  modal Green pair to curved-spacetime locality. Preserve K104 as the positive
-  K91 action control, K105 as the mixed K155-carrier correction-action control,
-  and K155's rank-one rotated-radical leakage as unchanged.
+  Execute one largest honest compatible Big Wave rebuilt from K106's two
+  results. Conditional physical-state interface research is open now, but the
+  strongest physical-selection reopener is a source/action-derived full distortion or
+  boundary operator on the actual K105 carrier. Require K-self-adjointness, a
+  nonzero blind-symmetry defect, a simple isolated K-positive spectral line,
+  closed-domain and Green compatibility, and explicit retention of all 188
+  negative directions before advancing the same candidate through physical
+  state and observable export. A coordinate-labelled operator, scalar Robin
+  family, positive-frequency convention, action-functional covariance or any
+  metric-10 to distortion-448 cross term is not enough: K106 proves the latter
+  leaves at least 250 positive blind directions. In parallel, globalize the
+  locally gauge-completed K152 A2+A0 owner only when one full carrier, atlas,
+  nonlinear BV-BFV complex and common curved domain are owned. Do not relabel
+  K155's rank-one composed residual as raw A0, infer a global metric from the
+  frozen three-jet, or promote local formal Noether closure to curved Green
+  hyperbolicity. Preserve K104 as the positive K91 action control, K105 as the
+  mixed K155-carrier correction-action control, and K155's rank-one
+  rotated-radical leakage as unchanged.
+  A failed or wrong-direction packet reroutes within the same Big Wave and
+  never authorizes zero work, scale reduction, source retrieval, routine
+  hardening or maintenance as a substitute.
   In parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81

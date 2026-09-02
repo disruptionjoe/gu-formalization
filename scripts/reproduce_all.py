@@ -66,6 +66,7 @@ LIBRARY_MODULES = frozenset({
     "tests/channel-swings/b5_curved_coflip_green_transport_probe.py",
     "tests/channel-swings/b5_native_rs_bv_hessian_lift_probe.py",
     "tests/channel-swings/full20_dewitt_loop_transport_probe.py",
+    "tests/channel-swings/k105_k155_carrier_weyl_action_bv_green_probe.py",
     "tests/channel-swings/k149_sparse_differential_jet_api.py",
     "tests/channel-swings/k150_moving_selected_shiab_coordinate_adapter.py",
     "tests/channel-swings/k151_moving_distortion_pairing_adapter.py",

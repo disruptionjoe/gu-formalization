@@ -7,6 +7,22 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K106 K152 gauge-completed A2+A0 owner (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K152's raw rank-nine Weyl `A0` is owned inside the natural curved differential `A2+A0` with the background-dependent Lie-derivative gauge on one aligned Ricci-flat normal-coordinate three-jet | `lab/process/k106-k152-gauge-completed-a2-a0-owner-wave.json`; exact 140-jet certificate (`23/23`) | exact repository-owned local formal differential owner |
+| The nonzero rank-four raw `A0` gauge defect is canceled exactly by a nonzero rank-four `A2` curved-gauge prolongation, while a frozen gauge or omitted Lie transport fails | coefficientwise exact cancellation and baseline-first hostile selftest (`17/17`) | exact nonvacuous local Noether identity and free abelian BV control |
+| The construction is Weinstein's action, the preferred historical Shiab, a global curved action/domain or a physical-state/Born owner | explicit formal three-jet scope and fences | false; source, globalization, nonlinear BV-BFV, domain and physical selection remain open |
+
+## K106 K105 action symmetry and positive-subspace obstruction (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The coefficient-blind K105 sector carries an exact `O(256) x O(183)` subgroup preserving the action, Euler operator, maximal domain/core, Green pair and boundary form | `lab/process/k106-k105-action-symmetry-positive-subspace-wave.json`; exact zero-row reconstruction and rational rotation (`27/27`) | exact continuous action/domain/Green nonselection theorem for the frozen packet |
+| Every cross-term-only map from metric-10 to distortion-448 leaves at least `260-rank(A) >= 250` positive blind directions; a rank-ten control saturates the bound | Grassmann dimension theorem, sharp control and hostile selftest (`19/19`) | exact cross-term-only positive-line selection obstruction |
+| No full distortion, boundary, state or observable datum can select a physical line | planted full-rank K-self-adjoint breaker and explicit escape conditions | false; an independently owned full operator with a simple isolated K-positive spectral line remains open |
+
 ## K105 K155-carrier Weyl action/BV/Green completion (2026-09-02)
 
 | Claim | Evidence | Honest grade |
