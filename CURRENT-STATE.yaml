@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c91705b26408
+revision_basis: 2290b2c798fe
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The finite-temperature-record/tail-cost/interaction-graph Big Wave closes
+    three K98 seams at exact repository-control grade. A common product KMS
+    stream with cell state diag(3/4,1/4), supplied sequential q-controlled
+    flips and odd-block majority readout has exact error e_N bounded by
+    exp(-N/8), so its reduced instrument converges to the projective q record.
+    The same construction has per-cell work epsilon/2 and relative entropy
+    log(3)/2=beta Delta E; its perfect record is the tail sign of empirical
+    magnetization and requires an unbounded fresh-cell resource. Independently,
+    one three-level Davies-family control derives the graph {0--1}+{2}, strict
+    dephasing and fixed algebra diag(a,a,b) from the Bohr components of an
+    admitted interaction plus KMS spectral support. Connected and diagonal-
+    only interaction variants still give scalar and full-diagonal algebras, so
+    QDB does not select the interaction. Probes pass 22/22, 20/20 and 23/23
+    after 4/4 positive controls each; hostile selftests catch 27/27, 25/25 and
+    25/25. The stream, work supply, interaction, symmetry, readout and Born
+    pairing remain imported; no source, autonomous finite-work, continuum-
+    spacetime, microlocal, prediction or confirmation result is obtained.
     The common-preparation/thermal-forgetting/detailed-balance Big Wave closes
     three K97 seams at exact repository-control grade. One semibounded local
     q-controlled boundary edge acts on the same excited-emitter plus bath-
@@ -5783,6 +5800,15 @@ current_result:
     - explorations/conditional-build/k98-observed-detailed-balance-fixed-point-algebra-wave-2026-09-02.md
     - lab/process/k98-observed-detailed-balance-fixed-point-algebra-wave.json
     - tests/channel-swings/k98_observed_detailed_balance_fixed_point_algebra_probe.py
+    - explorations/conditional-build/k99-observed-kms-stream-record-instrument-wave-2026-09-02.md
+    - lab/process/k99-observed-kms-stream-record-instrument-wave.json
+    - tests/channel-swings/k99_observed_kms_stream_record_instrument_probe.py
+    - explorations/conditional-build/k99-observed-kms-tail-work-accounting-wave-2026-09-02.md
+    - lab/process/k99-observed-kms-tail-work-accounting-wave.json
+    - tests/channel-swings/k99_observed_kms_tail_work_accounting_probe.py
+    - explorations/conditional-build/k99-observed-interaction-derived-detailed-balance-graph-wave-2026-09-02.md
+    - lab/process/k99-observed-interaction-derived-detailed-balance-graph-wave.json
+    - tests/channel-swings/k99_observed_interaction_derived_detailed_balance_graph_probe.py
 current_question: >-
   Does an independently source-owned K77 or gimmel full-carrier action realize
   the explicit quotient metric line, no-spurion content and total-stress
@@ -5791,9 +5817,9 @@ current_question: >-
   basicness criteria on one source quotient, and does its causal geometry or
   action select a spatial local-algebra soldering across the K92 ambiguity,
   together with a microlocally admissible state, local detector coupling,
-  record algebra and derived rather than imported Born pairing, beyond K98's
-  common-preparation local emission, finite-temperature fixed-local forgetting
-  boundary and detailed-balance fixed-algebra nonselection classification?
+  record algebra and derived rather than imported Born pairing, beyond K99's
+  driven product-KMS stream instrument, tail/work ownership boundary and
+  interaction-derived detailed-balance graph classification?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5803,29 +5829,25 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  K98 now derives K97's branch preparation from one common apparatus input and
-  a supplied q-controlled local edge, proves that a non-KMS excitation above
-  the free finite-temperature KMS background is forgotten on every fixed
-  local algebra while persisting globally, and dynamically realizes every
-  K97 Gibbs partition expectation as the fixed-point limit of an explicit
-  detailed-balance family. The common preparation is not a common thermal
-  preparation, fixed-local forgetting is not a record instrument, and
-  detailed balance does not select its supplied graph. The next quantum arc
-  is therefore no longer another branch-conditioned vacuum/particle input,
-  free-chain kernel, fixed-local thermal return or QDB graph family: obtain
-  the source-owned functional
+  K99 now derives an asymptotic record instrument from one genuine positive-
+  temperature product-KMS input, identifies its exact tail algebra and linear
+  work/relative-entropy cost, and derives a QDB graph and coarse fixed algebra
+  from an admitted interaction rather than stipulating the graph. The result
+  is driven and consumes an unlimited fresh stream; its tensor factorization,
+  controlled flips, interaction, symmetry, bath spectrum, readout and Born
+  pairing remain supplied. The next quantum arc is therefore no longer another
+  vacuum input, fixed-local forgetting theorem, graph-supplied QDB family or
+  product-stream majority control: obtain the source-owned functional
   constraint complex and prove the K91 sequence/domain/support/basicness
   conditions on one source quotient. Then identify a source causal geometry,
   action or functor that selects a spatial local-algebra net and derives a
   microlocally admissible state, local coupling, record algebra and trace/Born
   ownership. Without source custody, a materially distinct continuation must
-  derive the conditional preparation and record algebra from a source-owned
-  local interaction, or prove an asymptotic instrument from an admitted
-  finite-temperature algebraic KMS input, including the work/preparation
-  owner and an asymptotic tail or moving-algebra record. A nondegenerate
-  modular/causal selector must derive rather than stipulate the graph,
-  classicality, maximal resolution or trace preservation, with every
-  irreversible owner explicit. In
+  replace the driven infinite stream by an autonomous local finite-work
+  reservoir or derive the stream/coupling/tail/Born owners from a causal action.
+  A nondegenerate modular/causal selector must derive the interaction or
+  symmetry that K99 still supplies, not merely propagate it into a graph, with
+  every irreversible owner explicit. In
   parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81

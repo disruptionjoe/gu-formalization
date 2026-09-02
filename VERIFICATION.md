@@ -7,6 +7,30 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K99 observed positive-temperature KMS stream instrument (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One common product-KMS input with cell state `diag(3/4,1/4)`, supplied sequential q-controlled flips and odd-block majority readout yields an instrument converging to the projective q record | `lab/process/k99-observed-kms-stream-record-instrument-wave.json`; exact controls (`22/22` after `4/4` positive controls) | exact repository-owned positive-temperature repeated-interaction control |
+| The exact error has first values `1/4,5/32,53/512` and obeys `e_N<=exp(-N/8)` | binomial identities and analytic Hoeffding certificate; hostile selftest (`27/27`) | exact finite identities plus rigorous asymptotic bound |
+| The KMS state alone selects an autonomous measurement or finite apparatus | explicit fresh-cell, interaction, readout and resource accounting | false; the driven stream and semantics remain supplied |
+
+## K99 observed KMS tail-work accounting (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Each flipped Gibbs cell has `Delta E=Delta F=epsilon/2` and `D(tau_1||tau_0)=log(3)/2=beta Delta E`; all quantities add on finite prefixes | `lab/process/k99-observed-kms-tail-work-accounting-wave.json`; exact controls (`20/20` after `4/4` positive controls) | exact thermodynamic identity for the named stream |
+| Empirical magnetization tends to `+1/2` and `-1/2` in the two product sectors, so its tail sign is an exact asymptotic separator invariant under finite-support changes | product strong-law premises and hostile selftest (`25/25`) | exact tail/topology boundary for the supplied product structure |
+| The result proves a universal measurement-work theorem or finite-work autonomous record | explicit model and ownership fences | false; the perfect limit uses an unbounded fresh-cell resource |
+
+## K99 observed interaction-derived detailed-balance graph (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Nonzero Bohr components of one admitted three-level interaction plus KMS spectral support derive graph `{0--1}+{2}`, rates `(2/7,4/7)`, strict dephasing and fixed algebra `diag(a,a,b)` | `lab/process/k99-observed-interaction-derived-detailed-balance-graph-wave.json`; exact matrix-unit controls (`23/23` after `4/4` positive controls) | exact interaction-to-QDB-graph and fixed-algebra control |
+| Connected and diagonal-only interaction variants under the same Gibbs/KMS form yield scalar and full energy-diagonal fixed algebras | complete three-variant census; hostile selftest (`25/25`) | exact residual interaction nonselection result |
+| QDB derives the interaction, symmetry, bath spectrum, weak-coupling limit or Born pairing | explicit owner accounting | false; those owners remain supplied |
+
 ## K98 observed common-preparation boundary emission (2026-09-02)
 
 | Claim | Evidence | Honest grade |

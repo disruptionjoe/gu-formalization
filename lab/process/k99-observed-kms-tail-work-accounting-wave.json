@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K99-OBSERVED-KMS-TAIL-WORK-ACCOUNTING",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K99_KMS_STREAM_TAIL_RECORD_WORK_OWNER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact thermodynamic and product-tail accounting for the K99 flipped Gibbs-cell stream; no universal measurement-cost theorem or source-owned record is claimed.",
+  "gu_typed_objects": {
+    "result": "exact thermodynamic and tail-algebra ownership boundary for the K99 positive-temperature record stream",
+    "carrier": "infinite product of two-level Gibbs cells with finite-prefix Hamiltonians; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "imported product-state expectation and tail empirical-average pairing ON=repository_owned_kms_stream_control",
+    "real_structure": "occupation-basis conjugation and matrix adjoint",
+    "grading": "cell excitation number and q-conditioned product sector; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "KMS-stream work cost, relative entropy and asymptotic tail record MAP-TYPE=evaluation"
+  },
+  "preflight_bookend": {
+    "lens_census": ["Gibbs free energy", "passivity", "relative entropy", "Landauer accounting", "infinite product states", "strong laws", "tail events", "quasilocal topology", "finite-support unitaries", "disjointness"],
+    "route_change": "Derive the exact per-cell identity before taking the infinite product, so the asymptotic resource owner cannot be hidden.",
+    "retrieval_collision_result": "K98 proves fixed-local forgetting but contains no flipped-Gibbs work identity, empirical tail separator or finite-support invariance result."
+  },
+  "single_cell": {
+    "tau_zero": "diag(3/4,1/4)",
+    "tau_one": "diag(1/4,3/4)",
+    "delta_energy": "epsilon/2",
+    "delta_entropy": "0",
+    "delta_free_energy": "epsilon/2",
+    "relative_entropy": "log(3)/2",
+    "identity": "D(tau_one||tau_zero)=beta Delta E"
+  },
+  "finite_prefix": {
+    "delta_energy_N": "N epsilon/2",
+    "relative_entropy_N": "N log(3)/2",
+    "additive": true,
+    "diverges_with_exact_record_limit": true
+  },
+  "tail_record": {
+    "observable": "M_N=N^-1 sum_j Z_j",
+    "tau_zero_limit": "1/2",
+    "tau_one_limit": "-1/2",
+    "separator": "tail event lim M_N<0",
+    "probabilities": [0, 1],
+    "fixed_local_element": false,
+    "finite_support_unitary_changes_limit": false,
+    "product_states_globally_disjoint": true
+  },
+  "owner_accounting": {
+    "repository_owned": ["energy and entropy identities", "relative-entropy equality", "finite-prefix additivity", "strong-law tail separator", "finite-support invariance"],
+    "imported": ["product decomposition", "fresh-cell supply", "Hamiltonian", "controlled flip", "time order", "empirical readout", "tail semantics", "state-effect/Born pairing"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling beta Delta E equals D a universal minimum measurement-work theorem.",
+    "strongest_contrary_construction": "At beta epsilon zero the states coincide and both work and distinguishability vanish.",
+    "weakest_reproducibility_seam": "Tail separation relies on the product strong law; finite samples certify only its exact premises."
+  },
+  "fences": {
+    "universal_Landauer_bound": false,
+    "finite_work_exact_record": false,
+    "autonomous_KMS_measurement": false,
+    "source_selected_tail_algebra": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k99_observed_kms_tail_work_accounting_probe.py",
+  "result_ref": "explorations/conditional-build/k99-observed-kms-tail-work-accounting-wave-2026-09-02.md",
+  "claim_ceiling": "Exact work, free-energy, relative-entropy and tail-magnetization accounting for the named K99 product-KMS stream; no universal cost theorem, finite-work autonomous measurement, source, Born, prediction, confirmation, held-out score, promotion or verdict."
+}

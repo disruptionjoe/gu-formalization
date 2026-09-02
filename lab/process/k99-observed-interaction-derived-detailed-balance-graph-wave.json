@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K99-OBSERVED-INTERACTION-DERIVED-DETAILED-BALANCE-GRAPH",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K98_DERIVE_QDB_GRAPH_CLASSICALITY_FROM_INTERACTION",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "One three-level Davies-family control with simple H, admitted interaction S, supplied symmetry R and KMS spectral support; no microscopic weak-coupling theorem or universal selector is claimed.",
+  "gu_typed_objects": {
+    "result": "transition graph, energy dephasing and coarse fixed algebra derived from one admitted interaction's Bohr components and KMS spectral support",
+    "carrier": "M3(C) with simple Hamiltonian spectrum and Gibbs GNS pairing; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "Gibbs GNS inner product and imported trace/Born state-effect pairing ON=repository_owned_davies_control",
+    "real_structure": "energy-basis conjugation and matrix adjoint",
+    "grading": "supplied R=diag(1,1,-1) symmetry sectors; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "interaction-derived detailed-balance graph and fixed record algebra MAP-TYPE=evaluation"
+  },
+  "preflight_bookend": {
+    "lens_census": ["Bohr decomposition", "Davies generators", "KMS spectral relations", "reversible chains", "symmetry selection rules", "decoherence", "fixed-point algebras", "modular covariance", "source custody"],
+    "route_change": "Compute graph edges from nonzero Bohr components of S and positive bath spectral support instead of supplying a graph as K98 did.",
+    "retrieval_collision_result": "K98 supplies transition graphs independently; no retrieved packet derives the graph and dephasing from one interaction's Bohr decomposition."
+  },
+  "model": {
+    "hamiltonian": "diag(0,log(2),log(4))",
+    "gibbs_state": "diag(4/7,2/7,1/7)",
+    "symmetry": "R=diag(1,1,-1)",
+    "interaction": "S=diag(-1,0,2)+|0><1|+|1><0|",
+    "commutes_with_symmetry": true,
+    "bath_support": "+/-log(2) and zero",
+    "kms_relation": "G(-omega)=exp(-omega)G(omega)",
+    "rates": {"0_to_1": "2/7", "1_to_0": "4/7"},
+    "edge_balance": "8/49",
+    "derived_graph": [[0, 1], [2]],
+    "dephasing_owner": "distinct diagonal zero-frequency component of S",
+    "fixed_algebra": "diag(a,a,b)",
+    "limit_map": "Gibbs-weighted expectation onto blocks {0,1} and {2}"
+  },
+  "variant_census": {
+    "connected_interaction": "add |1><2|+|2><1|; scalar fixed algebra",
+    "diagonal_only_interaction": "remove off-diagonal Bohr components; full energy diagonal fixed algebra",
+    "same_qdb_form": true,
+    "qdb_selects_interaction": false
+  },
+  "owner_accounting": {
+    "repository_owned": ["Bohr decomposition", "derived rates and graph", "GNS balance", "covariance", "fixed algebra", "three-variant census"],
+    "imported": ["Hamiltonian", "interaction", "symmetry", "bath spectrum", "Davies approximation", "dephasing scale", "Gibbs principle", "beta", "record meaning", "trace/Born pairing"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Saying QDB derives the interaction or its R symmetry.",
+    "strongest_contrary_construction": "Connected and diagonal-only interactions obey the same QDB form but yield scalar and full-diagonal fixed algebras.",
+    "weakest_reproducibility_seam": "The finite generator is admitted; no microscopic weak-coupling reservoir limit is proved."
+  },
+  "fences": {
+    "interaction_or_symmetry_selected": false,
+    "universal_QDB_selector": false,
+    "microscopic_Davies_limit_derived": false,
+    "source_selected_record_algebra": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k99_observed_interaction_derived_detailed_balance_graph_probe.py",
+  "result_ref": "explorations/conditional-build/k99-observed-interaction-derived-detailed-balance-graph-wave-2026-09-02.md",
+  "claim_ceiling": "Exact three-level Davies-family control in which one admitted interaction and KMS spectral support derive the graph, dephasing and two-block fixed algebra; no interaction, symmetry, bath, modular, causal or source selector is obtained."
+}
