@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_k88_discrete_action_causal_detector_net",
+  "created": "2026-09-01",
+  "status": "REPOSITORY_OWNED_DISCRETE_ACTION_DETECTOR_EMBEDDINGS_EXACT__FINITE_SPEED_WEYL_LOCALITY_EXACT__SOURCE_GU_NET_OPEN",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_refs": [
+    "lab/process/k87-observed-local-algebra-correlation-selection-wave.json",
+    "lab/process/k87-observed-stationary-polarization-constraint-descent-wave.json"
+  ],
+  "packet": {
+    "id": "K88-OBSERVED-CAUSAL-DETECTOR-NET",
+    "spacetime_control": "open_fifteen_site_one_plus_one_discrete_lattice",
+    "field": "one_real_scalar_per_site",
+    "observation_map": "evaluation_of_q_at_a_named_lattice_event",
+    "observable_algebra": "finite_linear_Weyl_control_on_initial_data"
+  },
+  "discrete_action": {
+    "owner": "repository_owned_local_discrete_hyperbolic_action",
+    "Lagrangian": "one_half_q_next_minus_q_squared_minus_one_half_q_times_K_times_q",
+    "stiffness": "positive_mass_plus_nearest_neighbor_laplacian",
+    "update": "p_next_equals_p_minus_Kq__q_next_equals_q_plus_p_next",
+    "symplectic": true,
+    "finite_speed_sites_per_step": 1
+  },
+  "causal_detector_net": {
+    "detector_embedding": "pull_event_evaluation_back_to_common_initial_data_by_the_action_evolution",
+    "support_cone": "site_x_at_time_n_uses_only_initial_sites_with_distance_at_most_n",
+    "isotony": true,
+    "spacelike_Weyl_commutation": true,
+    "timelike_control_noncommuting": true,
+    "periodic_wrap_excluded": true,
+    "nonlocal_stencil_excluded": true
+  },
+  "load_bearing_controls": {
+    "asymmetric_stiffness": "destroys_symplectic_action_evolution",
+    "nonlocal_stencil": "creates_support_outside_the_unit_lattice_cone",
+    "periodic_wrap": "connects_the_two_open_boundary_endpoints_in_one_step",
+    "timelike_same_site_pair": "has_nonzero_initial_data_symplectic_bracket"
+  },
+  "fences": {
+    "repository_owned_discrete_causal_net_control": true,
+    "exact_finite_support_and_commutation": true,
+    "source_selected_GU_local_net": false,
+    "continuum_AQFT": false,
+    "functional_BFV_descent": false,
+    "Hadamard_or_microlocal_spectrum": false,
+    "Born_detector_dynamics": false,
+    "Bell_prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "discrete_action_detector_nets_constructed": 1,
+    "spacelike_commuting_detector_pairs_certified": 1,
+    "timelike_noncommuting_controls_certified": 1,
+    "source_selected_detector_nets": 0,
+    "physical_GU_Bell_predictions": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k88_observed_causal_detector_net_probe.py",
+  "result_ref": "explorations/conditional-build/k88-observed-causal-detector-net-wave-2026-09-01.md",
+  "claim_ceiling": "Exact finite repository-owned discrete-action detector embeddings, unit-site finite propagation, isotony, spacelike Weyl commutation and timelike noncommuting controls; no source-selected GU local net, continuum AQFT, functional BFV descent, Hadamard spectrum, Born detector dynamics, Bell prediction or confirmation."
+}

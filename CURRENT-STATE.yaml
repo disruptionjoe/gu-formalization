@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7ee6c4e6e51e
+revision_basis: b4078f139dea
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The canonical-BFV/causal-detector Big Wave closes two more explicit K87
+    owner gaps for repository constructions. On the full canonical phase
+    carrier of K960 direct-sum W960, the constraints p_K=0 and minimal charge
+    Q=sum c^a p_K,a give exact polynomial H0=R[q_W,p_W]. Gauge zero modes make
+    -A_full^2 singular, so the stationary spectral selector does not exist on
+    the ambient carrier; on BFV cohomology it is exact, positive and unchanged
+    by gauge-fixing frequencies one versus three. Independently, a local
+    discrete hyperbolic action selects detector pullbacks with a unit-site
+    support cone, isotony and spacelike Weyl commutation, while a same-site
+    timelike pair is noncommuting and nonlocal or periodic stencils fail
+    exactly. Probes pass 24/24 and 26/26; hostile selftests catch 16/16 and
+    16/16. No source action, functional continuum BV-BFV/Green domain,
+    continuum AQFT or Hadamard spectrum, Born detector law, prediction or
+    confirmation results.
     The stationary-selector/local-algebra Big Wave closes two further owners
     in the K77/K86 quantum selection chain. On a positive gapped stationary
     quadratic reduction, the spectral formula J=-A(-A^2)^(-1/2) selects a
@@ -5552,14 +5566,20 @@ current_result:
     - explorations/conditional-build/k87-observed-local-algebra-correlation-selection-wave-2026-09-01.md
     - lab/process/k87-observed-local-algebra-correlation-selection-wave.json
     - tests/channel-swings/k87_observed_local_algebra_correlation_selection_probe.py
+    - explorations/conditional-build/k88-observed-canonical-bfv-stationary-descent-wave-2026-09-01.md
+    - lab/process/k88-observed-canonical-bfv-stationary-descent-wave.json
+    - tests/channel-swings/k88_observed_canonical_bfv_stationary_descent_probe.py
+    - explorations/conditional-build/k88-observed-causal-detector-net-wave-2026-09-01.md
+    - lab/process/k88-observed-causal-detector-net-wave.json
+    - tests/channel-swings/k88_observed_causal_detector_net_probe.py
 current_question: >-
   Does an independently source-owned K77 or gimmel full-carrier action realize
   the explicit quotient metric line, no-spurion content and total-stress
-  descent; independently, does an action-owned stationary full-carrier
-  operator preserve one common closed constraint/BFV/Green domain and select
-  the K87 spectral polarization there, and does its causal observation map
-  select physical local observable algebras rather than merely abstract
-  commuting factors?
+  descent; independently, does the source full functional constraint complex
+  preserve one common closed Green domain and induce a positive gapped
+  physical stationary generator, and does its causal propagator plus
+  observation map carry the K88 detector net through that same quotient to a
+  physical state and correlation face?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5569,23 +5589,23 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  The K77/K85/K86 repository candidate now owns a reduced even Poisson bracket,
-  one finite-mode regular quantization, and a positive-frequency selector on
-  a positive gapped stationary quadratic reduction. K87 makes the remaining
-  owners exact: gauge image, constraint kernel and common boundary/Green
-  domain invariance are required for descent, and state selection alone does
-  not select a physical local algebra because one fixed vector spans
-  classical, intermediate and Tsirelson faces under different abstractly
-  commuting factor embeddings. Obtain an action-owned stationary full-carrier
-  operator and common closed BFV/Green domain, then derive the causal local net
-  or detector embeddings from its action and observation map. In parallel,
-  retain the source-owned K77 or gimmel full-carrier gravity action as the
-  highest missing owner and test it against the frozen quotient-metric,
-  no-spurion, coframe-Euler and total-stress conditions. Preserve K81 source-
-  symbol and cross-null operator/domain reopeners below those routes; do not
-  call the stationary finite-mode control a GU vacuum or Hadamard state,
-  abstract commuting factors spacetime locality, or either packet a Born rule,
-  and do not union packet cells or score delayed-choice entanglement swapping.
+  The K77/K85/K86/K87 repository candidate now owns an exact finite canonical
+  abelian BFV completion on the full K960 direct-sum W960 carrier. Its gauge
+  zero modes obstruct the ambient spectral selector, while physical H0 carries
+  a positive selector independent of gauge fixing. A separate discrete local
+  action now supplies exact finite-speed detector embeddings, isotony and
+  spacelike Weyl commutation. The next quantum arc is no longer another finite
+  availability model: obtain the source-owned functional constraint complex,
+  one common closed Green domain and positive gapped physical generator, then
+  derive the source causal propagator/observation map and test the K88 detector
+  embeddings and state on that same cohomology. In parallel, retain the
+  source-owned K77 or gimmel full-carrier gravity action as the highest missing
+  owner and test quotient-metric, no-spurion, coframe-Euler and total-stress
+  conditions. Preserve K81 source-symbol and cross-null domain reopeners below
+  those routes; do not promote finite BFV H0 to functional BV-BFV, finite
+  lattice support to continuum AQFT, Weyl commutation to Born detector
+  dynamics, or either packet to a GU prediction, and do not union packet cells
+  or score delayed-choice entanglement swapping.
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero

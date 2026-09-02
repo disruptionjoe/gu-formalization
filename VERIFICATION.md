@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K88 observed canonical-BFV stationary-descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The repository-owned full `K960 direct-sum W960` canonical phase control with constraints `p_K=0` has minimal BFV charge `Q=sum c^a p_K,a` and `H0=R[q_W,p_W]` | `lab/process/k88-observed-canonical-bfv-stationary-descent-wave.json`; exact ghost-graded differential and degree-three cohomology probe (`24/24`) | exact finite canonical abelian BFV and polynomial-cohomology result for the named repository construction |
+| Gauge zero modes make `-A_full^2` singular, while the induced physical generator selects `J_W=-A_W(-A_W^2)^(-1/2)` with positive majorant | exact rank, quotient intertwiner, complex-square and positivity controls | exact quotient-only stationary selection result; ambient selection is obstructed |
+| Gauge fixing selects the physical complex structure | frequencies one and three give different ambient selectors and the same cohomology projection; hostile selftest (`16/16`) | false on the physical quotient; the representative gauge block is gauge-fixing dependent |
+| A source action, functional continuum BV--BFV complex, unbounded Green domain, physical Hilbert space, Hadamard state or Born rule | not constructed | open / explicitly excluded |
+
+## K88 observed causal-detector net wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The local discrete action with symmetric nearest-neighbor stiffness induces an exact symplectic canonical update and unit-site finite propagation | `lab/process/k88-observed-causal-detector-net-wave.json`; exact rational evolution probe (`26/26`) | exact finite discrete-action and support-cone result for the named repository construction |
+| Action-pulled event detectors obey isotony and spacelike Weyl commutation, while a same-site timelike pair has bracket magnitude one | disjoint backward supports, initial-data symplectic bracket and timelike planted control | exact finite causal-detector algebra classification |
+| Symmetry or abstract commutation alone supplies the unit lattice cone | an asymmetric stencil breaks symplecticity; a symmetric nonlocal stencil and periodic wrap create one-step support leaks; hostile selftest (`16/16`) | false; action locality and boundary topology are load-bearing |
+| A source-selected GU local net, continuum AQFT/BFV descent, Hadamard spectrum, Born detector dynamics or Bell prediction | not constructed or scored | open / explicitly excluded |
+
 ## K87 observed stationary-polarization constraint-descent wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

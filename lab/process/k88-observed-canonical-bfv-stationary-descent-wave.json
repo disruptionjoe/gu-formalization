@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "observed_k77_k88_canonical_bfv_stationary_descent",
+  "created": "2026-09-01",
+  "status": "REPOSITORY_OWNED_CANONICAL_FULL_CARRIER_BFV_EXACT__PHYSICAL_STATIONARY_SELECTOR_EXACT__AMBIENT_SELECTOR_OBSTRUCTED",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_refs": [
+    "lab/process/k85-observed-brst-classical-correlation-boundary-wave.json",
+    "lab/process/k86-observed-covariant-phase-space-poisson-descent-wave.json",
+    "lab/process/k87-observed-stationary-polarization-constraint-descent-wave.json"
+  ],
+  "packet": {
+    "id": "K88-OBSERVED-CANONICAL-BFV-STATIONARY-DESCENT",
+    "configuration_carrier": "K960_direct_sum_W960",
+    "canonical_phase_carrier": "cotangent_of_K960_direct_sum_W960",
+    "constraint_family": "960_abelian_K_momentum_constraints",
+    "physical_phase_carrier": "W960_direct_sum_W960"
+  },
+  "canonical_BFV_completion": {
+    "owner": "repository_owned_canonical_completion_of_the_K85_K86_candidate",
+    "charge": "Q_equals_sum_c_a_pK_a",
+    "nilpotent": true,
+    "contractible_pairs": ["qK_with_c", "b_with_pK"],
+    "H0": "polynomial_observables_on_W960_direct_sum_W960",
+    "truncated_exact_control": "total_polynomial_degree_at_most_three",
+    "common_domain": "entire_finite_dimensional_algebraic_carrier_is_closed"
+  },
+  "stationary_selector_descent": {
+    "ambient_generator": "zero_on_the_K_gauge_pair_and_positive_frequency_two_on_the_W_pair",
+    "ambient_minus_A_squared_rank_per_label": 2,
+    "ambient_selector_exists": false,
+    "physical_selector_exists": true,
+    "physical_selector": "J_W_equals_block_0_minus_one_half_2_0",
+    "positive_majorant": "diagonal_2_one_half",
+    "gauge_fixed_ambient_selectors_exist": true,
+    "gauge_fixed_ambient_selectors_depend_on_gauge_frequency": true,
+    "gauge_fixing_independent_on_cohomology": true
+  },
+  "load_bearing_controls": {
+    "nonnilpotent_mutation": "adding_qK_to_s_b_makes_s_squared_b_equal_c",
+    "ambient_zero_modes": "prevent_the_inverse_square_root_before_reduction",
+    "physical_gauge_fixing_leak": "destroys_gauge_independence_on_cohomology",
+    "finite_domain_scope": "does_not_supply_an_unbounded_continuum_Green_domain"
+  },
+  "fences": {
+    "repository_owned_canonical_BFV_control": true,
+    "exact_finite_polynomial_H0": true,
+    "source_owned_action": false,
+    "functional_continuum_BV_BFV": false,
+    "unbounded_Green_domain": false,
+    "physical_GU_Hilbert_space": false,
+    "Hadamard_state": false,
+    "Born_rule": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "canonical_full_carrier_BFV_controls_constructed": 1,
+    "exact_physical_H0_carriers": 1,
+    "ambient_stationary_selectors_constructed": 0,
+    "physical_quotient_stationary_selectors_constructed": 1,
+    "source_selected_physical_states": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k88_observed_canonical_bfv_stationary_descent_probe.py",
+  "result_ref": "explorations/conditional-build/k88-observed-canonical-bfv-stationary-descent-wave-2026-09-01.md",
+  "claim_ceiling": "Exact repository-owned finite canonical abelian BFV completion for the full K960 plus W960 phase carrier, exact polynomial H0 and exact quotient-only stationary selector with gauge-fixing independence; no source action, functional continuum BV-BFV, unbounded Green domain, physical GU Hilbert space, Hadamard state, Born rule, prediction or confirmation."
+}
