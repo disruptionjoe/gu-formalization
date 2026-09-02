@@ -7,6 +7,22 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K100 observed faithful-thermal record floor (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For `tau>0` on `C^d`, every pair of q-conditioned unitary branches and every binary effect have equal-prior error at least `d lambda_min(tau)/2>0`, uniformly in time | `lab/process/k100-observed-faithful-thermal-record-floor-wave.json`; operator-order proof and exact controls (`18/18` after `4/4` positive controls) | exact fixed-finite faithful-apparatus theorem |
+| Autonomous time-independent Hamiltonian branches can make the fixed faithful apparatus converge to an exact projective record | uniform bound plus sharp swapped-qubit and zero-temperature controls; hostile selftest (`24/24`) | false in the quantified class |
+| The theorem covers infinite KMS representations, nonunitary reservoirs or nonfaithful zero-temperature preparations | explicit escape boundaries | false; those routes remain open |
+
+## K100 observed optimal Gibbs work-error frontier (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| For every odd prefix of the K99 flipped Gibbs products, the likelihood ratio is `3^(2k-N)`, so majority is the equal-prior Helstrom-optimal discriminator | `lab/process/k100-observed-optimal-gibbs-work-error-frontier-wave.json`; exhaustive finite controls (`19/19` after `4/4` positive controls) | exact named-family optimality theorem |
+| Its error is strictly positive at every finite work `W_N=N epsilon/2` and obeys an explicit positive binomial lower bound together with K99's Hoeffding upper bound | exact rational formulas and hostile selftest (`22/22`) | exact finite-prefix work-error frontier |
+| This establishes a universal infinite-work law for measurement | explicit product-family quantifier and contrary zero-temperature route | false; only the admitted K99 family is bound |
+
 ## K99 observed positive-temperature KMS stream instrument (2026-09-02)
 
 | Claim | Evidence | Honest grade |

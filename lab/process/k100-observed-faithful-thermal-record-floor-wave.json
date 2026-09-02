@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K100-OBSERVED-FAITHFUL-THERMAL-RECORD-FLOOR",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K100_FIXED_FAITHFUL_THERMAL_AUTONOMOUS_RECORD_FLOOR",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Uniform binary-record error floor for a fixed finite-dimensional faithful apparatus state under arbitrary branch unitaries; no infinite-KMS, open-system or source theorem is claimed.",
+  "gu_typed_objects": {
+    "result": "faithful finite thermal apparatus exact-record obstruction",
+    "carrier": "M_d(C) apparatus with faithful density tau and q-conditioned unitary orbits; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "imported trace state-effect pairing ON=repository_owned_finite_thermal_control",
+    "real_structure": "matrix adjoint and occupation-basis conjugation",
+    "grading": "binary q label and apparatus spectral decomposition; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "uniform Helstrom-error lower bound MAP-TYPE=evaluation"
+  },
+  "preflight_bookend": {
+    "lens_census": ["faithful Gibbs states", "Helstrom discrimination", "support projections", "unitary spectra", "autonomous Hamiltonian flow", "finite apparatus capacity", "zero-temperature boundary", "infinite-system escape"],
+    "route_change": "Quantify the full-rank support obstruction uniformly over all branch unitaries instead of constructing another special reservoir.",
+    "retrieval_collision_result": "K95 proves recurrence and Fourier rigidity; K99 proves a growing-stream cost. Neither gives a time-uniform dimension/minimum-eigenvalue error floor for every unitary orbit of one faithful apparatus state."
+  },
+  "theorem": {
+    "apparatus_dimension": "finite d",
+    "initial_state": "tau>0 with m=lambda_min(tau)>0",
+    "branch_states": "rho_i(t)=U_i(t) tau U_i(t)^*",
+    "record_effect": "0<=E_t<=I, outcome one identifies q=1",
+    "equal_prior_error": "e_t(E)=1/2[Tr(rho_0(t)E)+Tr(rho_1(t)(I-E))]",
+    "operator_floor": "rho_i(t)>=mI",
+    "uniform_bound": "e_t(E)>=d m/2>0",
+    "helstrom_consequence": "e_t^*>=d m/2 for every t and every pair of branch unitaries",
+    "autonomous_subset": "U_i(t)=exp(-itK_i) is included",
+    "two_level_sharp_control": "tau=diag(3/4,1/4), U_0=I, U_1=X gives e^*=1/4=d m/2"
+  },
+  "escape_boundaries": {
+    "zero_temperature": "m=0 so the bound becomes vacuous",
+    "growing_or_infinite_apparatus": "no uniform finite d m floor is supplied",
+    "nonunitary_or_nonfaithful_preparation": "outside the quantified class",
+    "storage_vs_formation": "a pre-existing orthogonal record is not generated from faithful tau"
+  },
+  "owner_accounting": {
+    "repository_owned": ["operator-order proof", "uniform Helstrom floor", "autonomous-unitary inclusion", "sharp qubit control", "escape classification"],
+    "imported": ["finite apparatus algebra", "faithful thermal state", "q-conditioned branch dynamics", "effect algebra", "equal priors", "trace/Born pairing", "record semantics"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Extending the finite faithful floor to infinite type-III KMS systems, dissipative channels, nonfaithful vacua or phase-coexistence sectors.",
+    "strongest_contrary_construction": "At zero temperature a pure ready state has m=0 and can be unitarily mapped to orthogonal branch records.",
+    "weakest_reproducibility_seam": "The theorem is analytic; finite matrix enumerations certify representative sharp and nonsharp controls, not the universal quantifier by sampling."
+  },
+  "fences": {
+    "infinite_KMS_no_go": false,
+    "open_system_no_go": false,
+    "zero_temperature_no_go": false,
+    "universal_finite_work_theorem": false,
+    "source_dynamics_derived": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k100_observed_faithful_thermal_record_floor_probe.py",
+  "result_ref": "explorations/conditional-build/k100-observed-faithful-thermal-record-floor-wave-2026-09-02.md",
+  "claim_ceiling": "Exact fixed-finite faithful-apparatus unitary record floor only; no infinite thermal reservoir, open dynamics, universal work, source, Born, prediction, confirmation, held-out score, promotion or verdict."
+}

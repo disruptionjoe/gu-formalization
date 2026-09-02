@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2290b2c798fe
+revision_basis: 9ceac4802981
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The faithful-thermal-record-floor/optimal-work-error Big Wave resolves the
+    first K99 decision tranche at exact repository-control grade. For every
+    fixed finite apparatus state tau>0 on C^d, arbitrary q-conditioned
+    unitaries preserve m=lambda_min(tau), and every equal-prior binary record
+    effect has error at least d m/2>0 uniformly in time. Thus no autonomous
+    closed unitary dynamics on a fixed faithful positive-temperature apparatus
+    can approach an exact projective record. Independently, the K99 odd-prefix
+    majority effect is the Helstrom-optimal discriminator because its
+    likelihood ratio is 3^(2k-N); its exact finite error has a strictly
+    positive binomial lower bound at work W_N=N epsilon/2. K99's infinite-work
+    conclusion is therefore not a suboptimal-readout artifact for that product
+    family. Probes pass 18/18 and 19/19 after 4/4 positive controls each;
+    hostile selftests catch 24/24 and 22/22. Infinite KMS representations,
+    nonfaithful/zero-temperature sectors, open dynamics, source selection and
+    universal work bounds remain outside the result.
     The finite-temperature-record/tail-cost/interaction-graph Big Wave closes
     three K98 seams at exact repository-control grade. A common product KMS
     stream with cell state diag(3/4,1/4), supplied sequential q-controlled

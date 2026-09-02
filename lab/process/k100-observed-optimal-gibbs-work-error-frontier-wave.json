@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K100-OBSERVED-OPTIMAL-GIBBS-WORK-ERROR-FRONTIER",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K100_OPTIMAL_GIBBS_PREFIX_WORK_ERROR_FRONTIER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Optimal equal-prior discrimination and exact work-error bounds for odd finite prefixes of the K99 flipped Gibbs-cell family; no universal measurement-cost theorem is claimed.",
+  "gu_typed_objects": {
+    "result": "optimal finite-prefix Gibbs record and work-error frontier",
+    "carrier": "odd N-fold product of two-level Gibbs cells with commuting branch states; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "imported trace/Helstrom pairing ON=repository_owned_kms_stream_control",
+    "real_structure": "occupation-basis conjugation and matrix adjoint",
+    "grading": "Hamming weight and binary q branch; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "optimal majority decision and finite-work error law MAP-TYPE=evaluation"
+  },
+  "preflight_bookend": {
+    "lens_census": ["Helstrom discrimination", "classical likelihood ratios", "binomial tails", "Chernoff exponent", "Gibbs work", "finite apparatus capacity", "asymptotic reliability"],
+    "route_change": "Prove majority is the optimal measurement for every odd prefix before interpreting its work-error curve.",
+    "retrieval_collision_result": "K99 gives the majority instrument, Hoeffding upper bound and additive work, but does not certify finite-prefix Helstrom optimality or an explicit positive lower frontier at each finite work budget."
+  },
+  "model": {
+    "tau_zero": "diag(3/4,1/4)^tensor N",
+    "tau_one": "diag(1/4,3/4)^tensor N",
+    "N": "positive odd integer",
+    "likelihood_ratio_at_weight_k": "3^(2k-N)",
+    "optimal_rule": "decide q=1 iff k>N/2",
+    "optimal_error": "e_N=sum_{k>N/2} binom(N,k)(1/4)^k(3/4)^(N-k)",
+    "first_values": ["1/4", "5/32", "53/512"],
+    "work": "W_N=N epsilon/2",
+    "finite_lower_bound": "e_N>=binom(N,(N+1)/2) 3^((N-1)/2)/4^N>0",
+    "upper_bound": "e_N<=exp(-N/8)",
+    "exact_limit_owner": "e_N tends to zero only as N and W_N tend to infinity in this family"
+  },
+  "owner_accounting": {
+    "repository_owned": ["likelihood-ratio proof", "Helstrom optimality", "exact binomial error", "finite positive lower bound", "work parameterization", "asymptotic resource conclusion"],
+    "imported": ["independent product cells", "Gibbs gap and temperature", "controlled flips", "fresh-cell supply", "majority semantics", "equal priors", "trace/Born pairing"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the named product-family frontier a universal minimum work law for measurement.",
+    "strongest_contrary_construction": "A nonfaithful zero-temperature memory can carry an exact finite record without this positive-temperature prefix cost.",
+    "weakest_reproducibility_seam": "The finite identities and lower bound are exact; the upper exponential certificate is Hoeffding and is not claimed as the sharp prefactor."
+  },
+  "fences": {
+    "universal_measurement_work_bound": false,
+    "finite_work_exact_record": false,
+    "autonomous_stream_derived": false,
+    "source_selected_readout": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k100_observed_optimal_gibbs_work_error_frontier_probe.py",
+  "result_ref": "explorations/conditional-build/k100-observed-optimal-gibbs-work-error-frontier-wave-2026-09-02.md",
+  "claim_ceiling": "Exact optimal discrimination and work-error frontier for the named odd-prefix flipped Gibbs products only; no universal cost, autonomous source, Born, prediction, confirmation, held-out score, promotion or verdict."
+}
