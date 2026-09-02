@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "status": "working_draft",
+  "result_id": "SIGMA-DARK-ENERGY-SIGN-NONSELECTION",
+  "claim_grade": "conditional_exact",
+  "theorem": "If both sigma orientations are admitted and a separately supplied physical cosmological-term sign bridge is total, nonzero and odd, then its image contains both signs. W219-corrected W211 and CC-1 supply no independent selector, so sigma alone does not force a unique dark-energy sign.",
+  "premises": [
+    {
+      "id": "P1",
+      "statement": "The sigma carrier is the two-element orientation torsor {-1,+1}, with both values admitted and no internal selector.",
+      "evidence": ["Q2-FREE"],
+      "reopener": "A source- or action-owned selector that excludes one orientation."
+    },
+    {
+      "id": "P2",
+      "statement": "The supplied bridge to the sign of a nonzero physical cosmological term is total and odd under sigma reversal.",
+      "evidence": ["supplied typed bridge only"],
+      "reopener": "A partial, zero-valued, constant/even or otherwise non-odd physical bridge."
+    },
+    {
+      "id": "P3",
+      "statement": "W211's invariant-space jump is retained only as a 14-frame proxy and is not promoted to a native interacting theorem.",
+      "evidence": ["W211", "W219 correction"],
+      "reopener": "A valid native interacting derivation that replaces the proxy."
+    },
+    {
+      "id": "P4",
+      "statement": "W219's unique native compact grading is kinematic and does not select an external sigma orientation; the dynamical good-stable stabilizer remains undefined.",
+      "evidence": ["W219", "29/29 upstream checks"],
+      "reopener": "A source-owned interacting vacuum, physical state, observable algebra and dynamical isotropy calculation that supplies a selector."
+    },
+    {
+      "id": "P5",
+      "statement": "The adjoint VEV has no gauge-invariant linear map to an absolute cosmological term.",
+      "evidence": ["CC-1: so(6,4) is perfect"],
+      "reopener": "A differently typed source-owned scalar map."
+    },
+    {
+      "id": "P6",
+      "statement": "The unique invariant bilinear form carries an undeclared real coefficient whose sign is free.",
+      "evidence": ["CC-1 invariant-form nullity one"],
+      "reopener": "A source- or action-owned coefficient with a proved sign."
+    },
+    {
+      "id": "P7",
+      "statement": "The degree-at-most-four lock constrains only a shift relative to a free constant.",
+      "evidence": ["CC-1 quartic radial-minimum theorem"],
+      "reopener": "A complete physical vacuum-energy accounting that fixes the additive constant and all other contributions."
+    },
+    {
+      "id": "P8",
+      "statement": "Degree six admits an exact positive-energy stationary minimum, so the quartic shift result is not universal.",
+      "evidence": ["CC-1 explicit V6 counterexample"],
+      "reopener": "A source-owned degree bound or other law excluding the counterexample class."
+    }
+  ],
+  "allowed_claims": [
+    "conditional two-sign survival under the typed odd nonzero bridge",
+    "sigma-only physical-sign nonselection under the frozen premises",
+    "correction-aware separation of kinematic grading uniqueness from dynamical orientation selection",
+    "exact non-admission loci for the Killing and low-degree-potential sign shortcuts"
+  ],
+  "forbidden_claims": [
+    "construction or source ownership of the sigma-to-physical-Lambda bridge",
+    "prediction of the observed cosmological-constant sign or dark-energy equation of state",
+    "native interacting good-stable construction",
+    "unconditional GU theorem, confirmation or falsification",
+    "external publication or candidate promotion"
+  ],
+  "executable": "tests/attention-shots/sigma_dark_energy_sign_nonselection.py"
+}

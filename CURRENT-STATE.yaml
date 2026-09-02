@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3eae275ea4ac
+revision_basis: c97a3d53275d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The sigma/dark-energy sign-nonselection Big Wave composes Q2-FREE, W211
+    under W219's native correction, and CC-1 into one conditional exact
+    theorem. If both sigma orientations remain admitted and a separately
+    supplied physical cosmological-term sign bridge is total, nonzero and
+    odd, its image is {-1,+1}; sigma transmits an orientation but does not
+    select one sign. W219 blocks the old native overread: the 14-frame
+    invariant-space jump is a proxy, while the native Sp(32)xSp(32) compact
+    grading is kinematically unique and the interacting dynamical stabilizer
+    remains undefined. Kinematic uniqueness supplies no orientation selector.
+    CC-1 independently blocks the Killing shortcut: no invariant linear
+    functional exists, the quadratic coefficient is free, the quartic result
+    constrains only a shift against a free constant, and an exact degree-six
+    positive-energy stationary minimum defeats universalization. The new
+    certificate passes 18/18 baseline checks and catches 10/10 hostile
+    reopeners; its six-command capsule reruns Q2-FREE, W211, W219 and CC-1.
+    The package does not construct the bridge, physical vacuum or observed
+    sign and makes no dark-energy prediction, GU verdict or external release.
     The declared-content extra-vector Big Wave composes PV-1, PV-2 and MV-2
     into one self-contained binary theorem with an independent certificate.
     The exact D5 census gives all SM-preserving adjoint stabilizer dimensions
@@ -6030,11 +6047,17 @@ current_result:
     - papers/drafts/declared-content-extra-vector-obstruction/reproduce_all.py
     - lab/process/declared-content-extra-vector-obstruction-package.json
     - tests/attention-shots/declared_content_extra_vector_obstruction.py
+    - papers/drafts/sigma-dark-energy-sign-nonselection/sigma-dark-energy-sign-nonselection.md
+    - papers/drafts/sigma-dark-energy-sign-nonselection/CLAIM-AND-PREMISE-LEDGER.json
+    - papers/drafts/sigma-dark-energy-sign-nonselection/VERIFICATION.md
+    - papers/drafts/sigma-dark-energy-sign-nonselection/reproduce_all.py
+    - lab/process/sigma-dark-energy-sign-nonselection-package.json
+    - tests/attention-shots/sigma_dark_energy_sign_nonselection.py
 current_question: >-
-  Conditional on an explicit sigma-to-Lambda bridge, do Q2-FREE, W211 as
-  corrected by W219, and CC-1 force one sign of the effective cosmological
-  term, or do both sigma orientations survive and exclude a sigma-only
-  dark-energy-sign claim?
+  Do the exact symmetric and alternating adjoint-product decompositions prove
+  a self-contained Pati-Salam representation-channel theorem for the 54/210
+  versus 45/945 owners without importing a selected coefficient, vertex, mass,
+  observed sector or prediction?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6045,17 +6068,20 @@ contribution_path:
 next_condition: >-
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.
-  The first package is complete: PV-1, PV-2 and MV-2 now compose into a self-
+  The first package is complete: PV-1, PV-2 and MV-2 compose into a self-
   contained conditional declared-content residual-direction theorem with a
   rerunnable proof bundle and exact physical-realization boundary. Reopen it
-  only on one of its eight named hostile premise changes. Next consolidate
-  Q2-FREE, W211 as corrected by W219, and CC-1 into a sigma/dark-energy sign-
-  nonselection theorem explicitly conditional on the sigma-to-Lambda bridge.
-  Then package the exact 54/210 versus 45/945 Pati-
-  Salam representation-channel theorem without vertex or mass interpretation.
-  Finally package the literal observation-pullback/gamma-kernel obstruction
-  without classifying the physical leftover. Located, Not Forced is already
-  published and is not new work. Do not route these waves to external review,
+  only on one of its eight named hostile premise changes. The second package
+  is also complete: Q2-FREE, W211 under W219's correction, and CC-1 compose
+  into a conditional two-sign survival theorem once the physical sigma-to-
+  Lambda sign bridge is explicitly supplied as total, nonzero and odd. Reopen
+  it only on a named bridge, selector, dynamic-stabilizer or potential premise
+  change. Next package the exact 54/210 versus 45/945 Pati-Salam
+  representation-channel theorem without selected-coefficient, vertex, mass,
+  observed-sector or prediction language. Finally package the literal
+  observation-pullback/gamma-kernel obstruction without classifying the
+  physical leftover. Located, Not Forced is already published and is not new
+  work. Do not route these waves to external review,
   journal submission, outreach or dissemination, and do not depend on outside
   people. Exclude unavailable source retrieval, authorial specification,
   invented source actions or freely chosen operators, further Mackey/Burnside

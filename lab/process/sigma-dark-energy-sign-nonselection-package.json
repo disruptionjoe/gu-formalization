@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "SIGMA-DARK-ENERGY-SIGN-NONSELECTION-PACKAGE",
+  "date": "2026-09-02",
+  "status": "working_draft_verified",
+  "target_claim": "Compose Q2-FREE, W211 as corrected by W219, and CC-1 into a binary theorem under one typed sigma-to-physical-Lambda bridge.",
+  "verdict": "admitted_conditional_exact",
+  "artifacts": {
+    "working_paper": "papers/drafts/sigma-dark-energy-sign-nonselection/sigma-dark-energy-sign-nonselection.md",
+    "claim_ledger": "papers/drafts/sigma-dark-energy-sign-nonselection/CLAIM-AND-PREMISE-LEDGER.json",
+    "verification": "papers/drafts/sigma-dark-energy-sign-nonselection/VERIFICATION.md",
+    "reproduction": "papers/drafts/sigma-dark-energy-sign-nonselection/reproduce_all.py",
+    "independent_probe": "tests/attention-shots/sigma_dark_energy_sign_nonselection.py"
+  },
+  "exact_results": {
+    "sigma_domain": [-1, 1],
+    "typed_bridge": "total, nonzero and odd",
+    "bridge_image": [-1, 1],
+    "w211_scope": "14-frame proxy only after W219 correction",
+    "w219_native_cartan_dimensions": "4160+4096=8256",
+    "w219_dynamical_selector": "undefined/not supplied",
+    "cc1_invariant_linear_functionals": 0,
+    "cc1_invariant_bilinear_dimension": 1,
+    "cc1_degree6_counterexample": "V(-6)=1, V'(-6)=0, V''(-6)=1/6",
+    "conclusion": "both physical signs survive; sigma alone selects no unique sign"
+  },
+  "claim_ceiling": "Conditional exact nonselection under the supplied typed bridge; no bridge construction, vacuum, physical sign, empirical prediction or GU verdict follows.",
+  "excluded_promotions": [
+    "source-native bridge ownership",
+    "observed positive-Lambda prediction",
+    "dark-energy EOS or DESI claim",
+    "native interacting good-stable theorem",
+    "GU confirmation or falsification",
+    "external publication"
+  ],
+  "external_effect": false
+}

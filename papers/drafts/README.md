@@ -22,6 +22,10 @@ lifecycle in [`../README.md`](../README.md).
 
 ## Still in progress here (selected)
 
+- [`sigma-dark-energy-sign-nonselection/`](sigma-dark-energy-sign-nonselection/)
+  — a correction-aware conditional theorem: a total nonzero odd bridge from
+  both admitted sigma orientations reaches both cosmological-term signs and
+  therefore does not select one.
 - [`declared-content-extra-vector-obstruction/`](declared-content-extra-vector-obstruction/)
   — a self-contained, executable conditional theorem package: frozen declared
   carriers and admitted mass routes leave a residual abelian gauge direction;

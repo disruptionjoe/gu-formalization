@@ -7,6 +7,17 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Sigma/dark-energy sign nonselection (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A total, nonzero, odd bridge from the two admitted sigma orientations has image `{-1,+1}` | `lab/process/sigma-dark-energy-sign-nonselection-package.json`; independent finite certificate (`18/18`) | conditional exact two-sign theorem |
+| W211 proves native dynamical grading-sign freedom without qualification | W219 correction: native `Sp(32)xSp(32)` compact grading is kinematically unique; interacting vacuum/state/dynamical isotropy remains undefined | false; W211's `1 -> 2` jump is retained only as a 14-frame proxy |
+| W219's kinematic uniqueness selects one external sigma orientation or physical cosmological sign | explicit grading/value and kinematic/dynamical type boundary | false / no selector supplied |
+| The Killing form or a degree-at-most-four invariant potential fixes the absolute cosmological-term sign | CC-1: no invariant linear functional, free quadratic coefficient, free additive constant and exact degree-six positive counterexample | false outside additional potential and accounting premises |
+| Every load-bearing premise has a named non-admission locus | baseline-first hostile selftest (`10/10`) | exact scope/reopener control |
+| The package constructs the physical sigma-to-Lambda bridge, predicts observed positive Lambda or tests a dark-energy likelihood | explicit supplied-bridge and empirical-credit fences | false / outside scope |
+
 ## Declared-content extra-vector obstruction (2026-09-02)
 
 | Claim | Evidence | Honest grade |

@@ -6156,3 +6156,17 @@ boundary to fail closed.
 ```sh
 python3 tests/attention-shots/declared_content_extra_vector_obstruction.py --selftest
 ```
+
+## Sigma/dark-energy sign nonselection
+
+`attention-shots/sigma_dark_energy_sign_nonselection.py` proves that a total,
+nonzero, odd sign bridge maps the two Q2-FREE sigma orientations onto both
+physical signs. It separately encodes W219's correction of W211 and CC-1's
+Killing/potential boundaries. The baseline passes 18 exact checks;
+`--selftest` plants ten premise mutations covering carrier collapse, mistyped
+bridges, an added selector, the W211 proxy overread, W219 kinematic/dynamical
+confusion, and CC-1 coefficient, constant and degree-six reopeners.
+
+```sh
+python3 tests/attention-shots/sigma_dark_energy_sign_nonselection.py --selftest
+```
