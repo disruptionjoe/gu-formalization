@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9ceac4802981
+revision_basis: b2ace2eebfd5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The modular-graph-simplex/equivariant-selector Big Wave resolves decision
+    wave two at exact repository-control grade. In the explicit finite
+    strict-dephasing Gibbs-reversible jump family, independent symmetric
+    conductances realize all 2^(n choose 2) transition graphs under the same
+    faithful modular flow; fixed observables are component-constant, so
+    ergodicity selects only scalars and every nontrivial record requires a
+    supplied disconnected cut. Independently, any unique operator-valued
+    interaction selected naturally from a simple faithful state under its full
+    diagonal-phase stabilizer must itself be stabilizer-fixed and therefore
+    diagonal, leaving only zero-Bohr/dephasing structure and no transition
+    graph. Probes pass 23/23 and 20/20 after 4/4 positive controls each;
+    hostile selftests catch 25/25 and 25/25. Set-valued, source/locality-
+    augmented and explicit symmetry-breaking selectors remain open; no
+    all-QDB, source, Born, prediction or confirmation result is obtained.
     The faithful-thermal-record-floor/optimal-work-error Big Wave resolves the
     first K99 decision tranche at exact repository-control grade. For every
     fixed finite apparatus state tau>0 on C^d, arbitrary q-conditioned

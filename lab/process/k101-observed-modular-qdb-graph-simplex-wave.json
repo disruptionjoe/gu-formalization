@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K101-OBSERVED-MODULAR-QDB-GRAPH-SIMPLEX",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K101_MODULAR_QDB_TRANSITION_GRAPH_SIMPLEX",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Complete transition-support census for the explicit finite strict-dephasing Gibbs-reversible jump family; no classification of all QDB semigroups is claimed.",
+  "gu_typed_objects": {
+    "result": "modular/QDB transition-graph simplex and ergodicity-record boundary",
+    "carrier": "M_n(C) with simple Hamiltonian, faithful Gibbs state and matrix-unit jump family; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "Gibbs GNS pairing and imported trace/state-effect pairing ON=repository_owned_qdb_family",
+    "real_structure": "matrix adjoint and energy-basis conjugation",
+    "grading": "Bohr-frequency decomposition and graph components; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "allowed graph supports and fixed algebras MAP-TYPE=homomorphism"
+  },
+  "preflight_bookend": {
+    "lens_census": ["modular spectral subspaces", "Davies generators", "GNS detailed balance", "conductance parametrization", "transition graphs", "fixed-point algebras", "ergodicity", "record preservation"],
+    "route_change": "Promote K99's three interaction variants to the complete graph-support family and isolate what modular data constrain versus leave free.",
+    "retrieval_collision_result": "K98 realizes all partition expectations from supplied graphs and K99 derives one graph from one interaction; neither proves that every graph support and continuous edge weight remain compatible with the same faithful modular data."
+  },
+  "family": {
+    "hamiltonian": "simple diagonal H with faithful Gibbs weights r_i>0",
+    "modular_eigenoperators": "sigma_t(E_ij)=(r_i/r_j)^(it) E_ij",
+    "edge_parameters": "independent symmetric conductances c_ij=c_ji>=0",
+    "rates": "k_ij=c_ij/r_i",
+    "detailed_balance": "r_i k_ij=r_j k_ji=c_ij",
+    "support_graph": "{i,j} is an edge iff c_ij>0",
+    "support_count": "2^(n choose 2)",
+    "strict_dephasing": "kappa(Delta_H-I), kappa>0",
+    "fixed_algebra": "diagonal functions constant on each graph component",
+    "ergodic_iff": "graph connected",
+    "ergodic_fixed_algebra": "C I",
+    "nontrivial_record_condition": "at least two graph components, hence at least one supplied zero-conductance cut"
+  },
+  "three_level_control": {
+    "weights": ["8/13", "4/13", "1/13"],
+    "labeled_graphs": 8,
+    "connected_graphs": 4,
+    "one_edge_graphs": 3,
+    "empty_graphs": 1,
+    "distinct_component_partitions": 5
+  },
+  "owner_accounting": {
+    "repository_owned": ["conductance parametrization", "complete graph-support census", "detailed-balance identity", "fixed-algebra formula", "ergodicity-record dichotomy"],
+    "imported": ["Hamiltonian", "Gibbs principle", "strict dephasing", "conductances", "interaction amplitudes", "classical energy basis", "trace/Born pairing", "record semantics"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the explicit-family census a classification of all QDB semigroups or a derivation of the graph.",
+    "strongest_contrary_construction": "A source-selected interaction or symmetry can set a unique conductance support while remaining compatible with the same modular ratios.",
+    "weakest_reproducibility_seam": "The fixed-algebra proof uses strict dephasing to remove off-diagonals; without it isolated coherent blocks require separate analysis."
+  },
+  "fences": {
+    "all_QDB_classified": false,
+    "graph_selected_by_modular_data": false,
+    "interaction_selected": false,
+    "classicality_derived": false,
+    "source_dynamics_derived": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k101_observed_modular_qdb_graph_simplex_probe.py",
+  "result_ref": "explorations/conditional-build/k101-observed-modular-qdb-graph-simplex-wave-2026-09-02.md",
+  "claim_ceiling": "Exact graph-support and fixed-algebra classification for the explicit finite strict-dephasing Gibbs-reversible family only; no all-QDB, interaction-selection, source, Born, prediction, confirmation, held-out score, promotion or verdict."
+}

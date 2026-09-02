@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K101-OBSERVED-EQUIVARIANT-INTERACTION-SELECTOR-NO-GO",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K101_STATE_NATURAL_UNIQUE_INTERACTION_SELECTOR",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "No-go theorem for a unique operator-valued interaction selected naturally from one simple-spectrum faithful state under all state-preserving inner automorphisms; no set-valued or source-augmented selector theorem is claimed.",
+  "gu_typed_objects": {
+    "result": "state-natural equivariant unique-interaction selector obstruction",
+    "carrier": "M_n(C) with simple-spectrum faithful rho and its diagonal-phase stabilizer; LAYER=observed; CHIRALITY=N/A",
+    "pairing": "Hilbert-Schmidt/Gibbs pairing and imported trace/state-effect pairing ON=repository_owned_modular_control",
+    "real_structure": "matrix adjoint and energy-basis conjugation",
+    "grading": "diagonal versus off-diagonal modular spectral sectors; no source BV, BFV or ghost grading",
+    "action_owner": "repository-construction",
+    "target": "unique equivariant interaction selector MAP-TYPE=homomorphism"
+  },
+  "preflight_bookend": {
+    "lens_census": ["naturality", "state stabilizer", "diagonal phase torus", "modular covariance", "interaction operators", "selection rules", "symmetry breaking", "set-valued selectors"],
+    "route_change": "Test uniqueness before generator construction: an input fixed by a symmetry forces any natural unique output to be fixed by that symmetry.",
+    "retrieval_collision_result": "K96-K99 show examples of algebra/graph nonselection. They do not prove that every unique operator assignment from rho alone is diagonal by stabilizer equivariance."
+  },
+  "theorem": {
+    "input": "simple-spectrum faithful rho=diag(r_1,...,r_n)",
+    "stabilizer": "D=diag(e^(i theta_1),...,e^(i theta_n)) with D rho D^*=rho",
+    "selector_naturality": "S(D rho D^*)=D S(rho) D^*",
+    "fixed_input_consequence": "S(rho)=D S(rho) D^* for every D in the stabilizer",
+    "entry_consequence": "S_ij=0 for i!=j",
+    "selected_operator": "S(rho) is diagonal and commutes with rho and H",
+    "dynamical_consequence": "only zero-Bohr/dephasing structure; no population transition graph",
+    "maximum_no_go": "rho and its modular flow cannot uniquely and equivariantly select a nontrivial transition interaction operator"
+  },
+  "escape_boundaries": {
+    "distinguished_observable": "supplying X with off-diagonal entries selects a graph from X but imports the missing owner",
+    "explicit_symmetry_breaking": "a preferred basis phase, locality net or source action may reduce the stabilizer",
+    "set_valued_selector": "an orbit or spectral subspace can be selected without choosing one operator",
+    "degenerate_state": "has a larger stabilizer and needs a separately typed theorem"
+  },
+  "owner_accounting": {
+    "repository_owned": ["stabilizer-equivariance proof", "off-diagonal vanishing", "zero-Bohr consequence", "supplied-observable escape classification"],
+    "imported": ["faithful state", "unique operator-valued selector type", "full stabilizer naturality", "Hamiltonian relation", "interaction meaning", "trace/Born pairing", "record semantics"],
+    "source_selected_owner_count": 0
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Extending the no-go to set-valued selectors or selectors supplied with locality, symmetry-breaking or source-action data.",
+    "strongest_contrary_construction": "A distinguished off-diagonal observable X breaks the stabilizer and selects its own transition support.",
+    "weakest_reproducibility_seam": "The theorem assumes naturality under the full state stabilizer; a weaker covariance category may permit extra outputs and must name that extra structure."
+  },
+  "fences": {
+    "all_interaction_selectors_killed": false,
+    "set_valued_selectors_killed": false,
+    "source_augmented_selectors_killed": false,
+    "locality_or_symmetry_breaking_derived": false,
+    "source_dynamics_derived": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {"family": "delayed_choice_entanglement_swapping", "status": "reserved_unscored", "scored_in_this_result": false},
+  "promotion_fence": {"canon": false, "paper": false, "comparator_registry": false, "hypothesis_vote": false, "prediction": false, "confirmation": false},
+  "probe": "tests/channel-swings/k101_observed_equivariant_interaction_selector_no_go_probe.py",
+  "result_ref": "explorations/conditional-build/k101-observed-equivariant-interaction-selector-no-go-wave-2026-09-02.md",
+  "claim_ceiling": "Exact no-go for unique full-stabilizer-equivariant operator selection from one simple faithful state only; no set-valued, source-augmented, locality-breaking, Born, prediction, confirmation, held-out score, promotion or verdict."
+}

@@ -7,6 +7,22 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K101 observed modular-QDB graph simplex (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Independent symmetric conductances realize every transition graph while preserving the same faithful modular ratios and exact Gibbs detailed balance in the explicit strict-dephasing jump family | `lab/process/k101-observed-modular-qdb-graph-simplex-wave.json`; complete three-level census (`23/23` after `4/4` positive controls) | exact explicit-family graph-support theorem |
+| Fixed observables are component-constant; ergodicity is equivalent to connectedness and then leaves only `C I`, while a nontrivial record requires a disconnected supplied cut | graph-Laplacian proof and hostile selftest (`25/25`) | exact ergodicity-record-algebra boundary in the family |
+| Modular flow or QDB selects the graph, conductance amplitudes, interaction or classicality | full graph simplex and owner accounting | false; those owners remain supplied |
+
+## K101 observed equivariant interaction-selector no-go (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A unique operator assigned naturally from a simple faithful state under every state-preserving inner automorphism must be diagonal and have only zero-Bohr structure | `lab/process/k101-observed-equivariant-interaction-selector-no-go-wave.json`; stabilizer proof and exact controls (`20/20` after `4/4` positive controls) | exact selector no-go for the stated input type |
+| The faithful state and modular flow alone uniquely select a nontrivial transition interaction | diagonal-phase fixed-input argument; hostile selftest (`25/25`) | false under full-stabilizer naturality |
+| Set-valued, supplied-observable, locality-breaking or source-augmented selectors are also excluded | explicit escape boundaries | false; those routes remain open |
+
 ## K100 observed faithful-thermal record floor (2026-09-02)
 
 | Claim | Evidence | Honest grade |
