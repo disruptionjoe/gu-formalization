@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K89-OBSERVED-COHOMOLOGICAL-DETECTOR-STATE-DESCENT-2026-09-01",
+  "status": "complete_repository_owned_gauge_basic_detector_state_control",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "quotient_model": {
+    "ambient_representatives": "G_radical_direct_sum_P_physical",
+    "physical_projection": "pi_G_plus_P_to_P",
+    "detector_descent_criterion": "linear_detector_annihilates_G",
+    "covariance_descent_criterion": "covariance_annihilates_G_in_both_slots",
+    "physical_symplectic_form": "canonical_initial_data_form",
+    "physical_covariance": "two_times_identity_majorant"
+  },
+  "causal_state_result": {
+    "action_pulled_detectors_gauge_basic": true,
+    "spacelike_Weyl_commutation_after_quotient": true,
+    "timelike_noncommuting_control": true,
+    "quasifree_characteristic_functional_descends": true,
+    "isotony_preserved": true
+  },
+  "failure_controls": {
+    "detector_gauge_leak": "representative_dependent",
+    "covariance_gauge_leak": "state_not_well_defined_on_quotient",
+    "nonlocal_stencil": "spacelike_support_and_commutation_claim_fails",
+    "fake_universal_commutation": "timelike_control_fails"
+  },
+  "fences": {
+    "source_selected_GU_observation_map": false,
+    "functional_continuum_BFV_descent": false,
+    "continuum_AQFT": false,
+    "microlocal_Hadamard_state": false,
+    "Born_detector_response": false,
+    "unique_state_or_measurement_selection": false,
+    "Bell_prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "exact_descent_criteria_closed": 2,
+    "source_selected_detector_state_pairs": 0,
+    "physical_GU_Bell_predictions": 0,
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored"
+  }
+}

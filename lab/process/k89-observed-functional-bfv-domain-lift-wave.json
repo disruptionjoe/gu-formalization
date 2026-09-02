@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K89-OBSERVED-FUNCTIONAL-BFV-DOMAIN-LIFT-2026-09-01",
+  "status": "complete_repository_owned_countable_mode_control",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "countable_mode_model": {
+    "one_particle_space": "realification_of_l2_N_complex",
+    "frequencies": "omega_n_equals_n_plus_1",
+    "generator": "A_equals_I_times_Omega_on_D_Omega",
+    "common_closed_domain": "D_Omega_with_graph_norm",
+    "uniform_gap": 1,
+    "bounded_green_inverse_norm": 1,
+    "spectral_complex_structure": "J_equals_minus_I",
+    "positive_majorant": true
+  },
+  "cylindrical_BFV": {
+    "constraints": "pK_a_equals_0_for_each_finitely_supported_gauge_label",
+    "charge": "Q_equals_sum_c_a_pK_a_on_each_cylinder",
+    "nilpotent": true,
+    "H0": "physical_cylindrical_polynomials",
+    "completion_claimed": false
+  },
+  "failure_controls": {
+    "gapless_frequencies": "omega_n_equals_1_over_n_plus_1_has_unbounded_inverse_norm",
+    "ambient_gauge_zero_modes": "no_ambient_green_inverse",
+    "domain_mismatch": "selector_and_generator_must_share_D_Omega",
+    "gauge_fixing": "ambient_representative_changes_but_physical_J_does_not"
+  },
+  "fences": {
+    "source_owned_action_or_complex": false,
+    "continuum_spacetime_BV_BFV": false,
+    "completed_Hilbert_BFV_cohomology": false,
+    "retarded_advanced_Green_operators": false,
+    "microlocal_Hadamard_state": false,
+    "anomaly_measure_or_renormalization": false,
+    "Born_rule": false,
+    "prediction_or_confirmation": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "uniform_functional_lift_criteria_closed": 4,
+    "source_selected_physical_complexes": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored"
+  }
+}

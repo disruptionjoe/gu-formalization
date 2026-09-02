@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K89 observed functional BFV domain-lift wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| On the realification of `l2(N,C)`, `A=I Omega` with `Omega e_n=(n+1)e_n` is closed on `D(Omega)`, has uniform gap one, bounded inverse norm one and spectral complex structure `J=-I` | `lab/process/k89-observed-functional-bfv-domain-lift-wave.json`; exact uniform-truncation and graph-domain probe (`22/22`) | exact countable diagonal-mode functional control for the named repository construction |
+| The K88 abelian BFV differential on every finite cylinder has degree-zero cohomology equal to physical cylindrical polynomials | exact degree-two cylinder computation and contractible-pair tensor argument | exact cylindrical algebraic BFV result; no completed Hilbert cohomology |
+| Invertibility of every finite truncation implies a bounded infinite-mode Green inverse | the gapless control `omega_n=1/(n+1)` has inverse norms growing with truncation size; hostile selftest (`16/16`) | false; a uniform lower spectral bound is load-bearing |
+| A source functional complex, continuum spacetime BV--BFV, retarded/advanced Green pair, microlocal Hadamard state or Born rule | not constructed | open / explicitly excluded |
+
+## K89 observed cohomological detector-state descent wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A linear detector descends from `G direct-sum P` to `P` iff it annihilates `G`, and a covariance descends iff it annihilates `G` in both slots | `lab/process/k89-observed-cohomological-detector-state-descent-wave.json`; exact representative controls (`23/23`) | exact finite gauge-basic detector and state descent criterion |
+| The K88 action-pulled spacelike detectors remain commuting after quotient, nested cones preserve isotony, and `mu=0_G direct-sum 2I_P` defines one positive quasifree Weyl characteristic functional | exact support, symplectic bracket, uncertainty-minor and timelike controls | exact finite quotient-locality and quasifree availability result |
+| Positivity, gauge descent and locality imply one another | independent detector-gauge, covariance-cross-term and nonlocal-stencil mutations; hostile selftest (`17/17`) | false; the three owners are independent |
+| A source GU observation map, functional continuum BFV/AQFT, microlocal Hadamard state, Born detector response or Bell prediction | not constructed or scored | open / explicitly excluded |
+
 ## K88 observed canonical-BFV stationary-descent wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |
