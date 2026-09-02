@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K93-OBSERVED-ACTION-SOLDERING-SELECTION",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K92_ACTION_OWNED_SPATIAL_SOLDERING_DISCRIMINATOR",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "action_soldering_control": {
+    "standard_site_factors": ["alg(X0,Z0)", "alg(X1,Z1)", "alg(X2,Z2)"],
+    "primed_site_factors": ["alg(X0 Z1,Z0)", "alg(Z0 X1,Z1)", "alg(X2,Z2)"],
+    "soldering_conjugation": "W=CZ_01",
+    "fixed_pulse": "R=H0 tensor I1 tensor I2",
+    "standard_net_normalized": true,
+    "primed_net_normalized_by_fixed_pulse": false,
+    "cross_pair_witness": "R Z0 R*=X0 not in A0_prime",
+    "conjugated_pulse": "R_prime=W R W*",
+    "primed_net_normalized_by_conjugated_pulse": true,
+    "selection_statement": "one fixed action pulse distinguishes the two K92 site assignments by exact factor normalization"
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "finite_standard_and_CZ_primed_site_nets",
+      "discrete_action_pulse",
+      "exact_Pauli_normalization_discriminator",
+      "conjugated_action_covariance_control"
+    ],
+    "imported": [
+      "P8_tensor_soldering",
+      "site_labels",
+      "Hadamard_pulse_as_dynamical_owner",
+      "factor_normalization_as_selection_demand"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K88 discrete causal detector net",
+      "K92 spatial covariance/local instrument",
+      "K92 frozen-data soldering ambiguity"
+    ],
+    "new_object_only": "one fixed action pulse tested against both K92 nets, with the conjugated-action covariance control",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "source_selected_action_or_net": false,
+    "unique_physical_locality": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k93_observed_action_soldering_selection_probe.py",
+  "result_ref": "explorations/conditional-build/k93-observed-action-soldering-selection-wave-2026-09-02.md",
+  "claim_ceiling": "Exact finite normalization discrimination for one fixed action-net pairing and covariance under simultaneous action/net conjugation only; no source-selected action or net, unique physical locality, continuum AQFT/microcausality, microlocal/Hadamard theory, derived Born law, prediction, confirmation, held-out score or verdict."
+}

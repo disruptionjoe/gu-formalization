@@ -7,6 +7,24 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K93 observed action-soldering selection wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The fixed pulse `R=H0 tensor I tensor I` normalizes every standard site factor but fails to normalize the `CZ_01`-primed site-zero factor because `R Z0 R*=X0` is not primed-local | `lab/process/k93-observed-action-soldering-selection-wave.json`; exhaustive three-qubit Pauli probe (`21/21`) | exact finite action/net normalization discriminator for the supplied pulse and nets |
+| The conjugated pulse `R'=CZ_01 R CZ_01` normalizes the primed net | exact simultaneous-conjugation covariance control | selection belongs to the fixed action-net pairing, not the Hilbert carrier alone |
+| One chosen pulse uniquely selects physical or source locality | conjugated-pair countercontrol and hostile selftest (`14/14`) | false; the action is supplied and simultaneous conjugation preserves an equivalent pair |
+| Source action, continuum AQFT/microcausality, microlocal state theory or derived Born law | not constructed | open / explicitly excluded |
+
+## K93 observed causal-instrument composition wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `CNOT_0->1` is an exact one-edge involutive propagator with `X0 -> X0 X1`, `Z1 -> Z0 Z1` and remote site two fixed | `lab/process/k93-observed-causal-instrument-composition-wave.json`; exhaustive eight-state probe (`26/26`) | exact finite causal-support control for the repository-supplied circuit |
+| The K92 middle detector after propagation pulls back to effects `(I +/- Z0 Z1)/2`; its weights change from `(1/2,1/2)` before propagation to `(2/3,1/3)` after propagation | exact state pushforward, effect pullback and ordering controls | exact finite causal instrument composition under the imported K92 state/trace interface |
+| The full endpoint joint marginal and K91 gauge-basic descent remain invariant | exact marginal and zero-extension controls; hostile selftest (`15/15`) | exact remote-invariance and quotient-compatibility result |
+| Source-selected evolution/detector, continuum microcausality, microlocal/Hadamard state or derived Born law | not constructed | open / explicitly excluded |
+
 ## K92 observed spatial covariance and local-instrument wave (2026-09-02)
 
 | Claim | Evidence | Honest grade |

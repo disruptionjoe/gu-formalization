@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K93-OBSERVED-CAUSAL-INSTRUMENT-COMPOSITION",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K92_CAUSAL_PROPAGATION_RECORD_COMPOSITION",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "causal_dynamics": {
+    "physical_factor": "P8=(C2) tensor (C2) tensor (C2), selected inside the K91 physical l2 term",
+    "propagator": "CNOT_0_to_1",
+    "basis_rule": "(s0,s1,s2) maps to (s0,s1 xor s0,s2)",
+    "causal_radius": 1,
+    "heisenberg_support": ["X0 maps to X0 X1", "Z1 maps to Z0 Z1"],
+    "remote_site_fixed": true,
+    "propagator_unitary_and_involutive": true
+  },
+  "composed_instrument": {
+    "detector_location": "output site one",
+    "input_record_observable": "Z0 Z1",
+    "input_record_effects": ["(I+Z0 Z1)/2", "(I-Z0 Z1)/2"],
+    "record_weights_before_propagation": ["1/2", "1/2"],
+    "record_weights_after_propagation": ["2/3", "1/3"],
+    "after_means": ["<Z0>=0", "<Z1>=1/3", "<Z2>=0"],
+    "after_correlations": ["<Z0 Z1>=0", "<Z1 Z2>=0", "<Z0 Z2>=1/9"],
+    "endpoint_joint_marginal_invariant": true,
+    "gauge_basic_zero_extension": true,
+    "ordering_effect": "record before propagation and record after propagation have distinct exact weights"
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "finite_nearest_neighbor_CNOT_propagator",
+      "exact_past_neighborhood_record_effect",
+      "ordered_K92_record_table",
+      "endpoint_marginal_and_gauge_descent_controls"
+    ],
+    "imported": [
+      "P8_tensor_soldering_and_site_labels",
+      "K92_rational_initial_state",
+      "CNOT_as_discrete_action_step",
+      "trace_Born_state_effect_pairing",
+      "detector_initialization",
+      "classical_record_semantics"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K88 action-pulled causal detector net",
+      "K91 unitary detector instrument",
+      "K92 spatial covariance/local instrument"
+    ],
+    "new_object_only": "one exact composition of nearest-neighbor propagation with the K92 detector, including input effect, ordered weights and remote invariance",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "source_selected_dynamics_or_detector": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k93_observed_causal_instrument_composition_probe.py",
+  "result_ref": "explorations/conditional-build/k93-observed-causal-instrument-composition-wave-2026-09-02.md",
+  "claim_ceiling": "Exact finite causal propagation/instrument composition on one repository-selected three-site factor only; no source-selected dynamics or detector, continuum AQFT/microcausality, curved-spacetime or microlocal/Hadamard theory, derived Born law, prediction, confirmation, held-out score or verdict."
+}
