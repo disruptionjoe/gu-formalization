@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 96bf00ba0f1a
+revision_basis: ec9fafed91f0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K107 source-ownership and generated-selector Big Wave reaches the hard
+    evidence checkpoint without inventing another operator. Across the six
+    frozen released-source and registered-custody rows -- SC-ACT-01,
+    SC-ACT-04, SC-ACT-05, SC-META-52, the missing historical preferred-Shiab
+    selector and the K103 absorbed corpus -- zero rows supply one typed owner
+    of the complete K105 selector denominator: authenticated identity, the
+    actual Cl(7,7) distortion-448 carrier, coefficient-complete action, full
+    distortion or boundary operator, K-self-adjointness, nonzero O(256)
+    symmetry defect, a simple isolated K-positive line and common
+    domain/Green compatibility. Cross-row union is forbidden. Independently,
+    every operator generated solely from K105's existing action, Euler,
+    domain, Green and scalar-boundary data commutes with the O(256) times
+    O(183) blind symmetry; sums, products, adjoints, defined inverses,
+    polynomial/rational functional calculus and isolated spectral projectors
+    therefore cannot naturally select a positive blind line. Probes pass
+    13/13 and 12/12; hostile selftests catch 10/10 and 12/12. This is exact
+    checked-corpus non-admission plus a repackaging obstruction, not a theorem
+    against GU or unreleased source. The next honest move is authenticated
+    source retrieval or authorial specification of one full action/operator
+    packet; autonomous freely chosen operator construction stops here.
     The K106 raw-A0/physical-selection Big Wave closes K105's two exact
     reopeners as one positive local-formal construction and one strengthened
     obstruction. On the aligned Ricci-flat normal-coordinate three-jet,
@@ -5954,18 +5974,19 @@ current_result:
     - explorations/conditional-build/k106-k105-action-symmetry-positive-subspace-wave-2026-09-02.md
     - lab/process/k106-k105-action-symmetry-positive-subspace-wave.json
     - tests/channel-swings/k106_k105_action_symmetry_positive_subspace_probe.py
+    - explorations/conditional-build/k107-k105-source-selector-admission-wave-2026-09-02.md
+    - lab/process/k107-k105-source-selector-admission-wave.json
+    - tests/channel-swings/k107_k105_source_selector_admission_probe.py
+    - explorations/conditional-build/k107-k105-generated-selector-closure-wave-2026-09-02.md
+    - lab/process/k107-k105-generated-selector-closure-wave.json
+    - tests/channel-swings/k107_k105_generated_selector_closure_probe.py
 current_question: >-
-  Can K106's local formal gauge-completed K152 differential be globalized by
-  a source/action-owned full carrier, atlas, nonlinear BV-BFV complex and
-  common curved domain; independently, does any source/action-owned full
-  distortion term or boundary operator have a simple isolated K-positive
-  spectral line that breaks the O(256) times O(183) blind-sector symmetry and
-  selects one K91 retract without erasing the 188 negative directions;
-  independently, does a source-owned K77 or gimmel full-carrier action realize
-  the quotient metric, no-spurion, coframe-Euler and total-stress descent, and
-  can either route supply a curved local net, microlocally admissible state,
-  detector coupling, record algebra and derived rather than imported Born
-  pairing?
+  Can one authenticated source or authorial packet specify a coefficient-
+  complete action or full distortion/boundary operator on a typed carrier,
+  together with an explicit bridge to K105, so its K-self-adjoint spectrum,
+  blind-symmetry defect, domain and Green compatibility can actually be
+  tested? If no such object can be recovered, the formalization remains
+  non-admissible and non-testable at this gate rather than false.
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5974,26 +5995,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Execute one largest honest compatible Big Wave rebuilt from K106's two
-  results. Conditional physical-state interface research is open now, but the
-  strongest physical-selection reopener is a source/action-derived full distortion or
-  boundary operator on the actual K105 carrier. Require K-self-adjointness, a
-  nonzero blind-symmetry defect, a simple isolated K-positive spectral line,
-  closed-domain and Green compatibility, and explicit retention of all 188
-  negative directions before advancing the same candidate through physical
-  state and observable export. A coordinate-labelled operator, scalar Robin
-  family, positive-frequency convention, action-functional covariance or any
-  metric-10 to distortion-448 cross term is not enough: K106 proves the latter
-  leaves at least 250 positive blind directions. In parallel, globalize the
-  locally gauge-completed K152 A2+A0 owner only when one full carrier, atlas,
-  nonlinear BV-BFV complex and common curved domain are owned. Do not relabel
-  K155's rank-one composed residual as raw A0, infer a global metric from the
-  frozen three-jet, or promote local formal Noether closure to curved Green
-  hyperbolicity. Preserve K104 as the positive K91 action control, K105 as the
-  mixed K155-carrier correction-action control, and K155's rank-one
-  rotated-radical leakage as unchanged.
+  Execute one largest honest compatible Big Wave only after the K107 source
+  checkpoint receives new owner evidence. Stop autonomous freely chosen
+  operator construction at the K107 boundary.
+  Reopen the K105 selector only on one authenticated source or authorial packet
+  owning the carrier, coefficient-complete action or full distortion/boundary
+  operator, and enough domain/Green data to define the test. Then require an
+  explicit action-preserving bridge to K105, K-self-adjointness, nonzero
+  O(256) blind-symmetry defect, a simple isolated K-positive spectral line and
+  retention of all 188 negative directions before advancing to state or
+  observable export. Algebraic repackaging, functional calculus, coordinate
+  tie breaking, scalar Robin data and metric-10 cross terms remain closed.
+  Globalize K106's A2+A0 owner only when the same evidence supplies a full
+  carrier, atlas, nonlinear BV-BFV complex and common curved domain. If no
+  source-owned object can be specified, record exact non-admission/non-
+  testability; do not report GU false.
   A failed or wrong-direction packet reroutes within the same Big Wave and
-  never authorizes zero work, scale reduction, source retrieval, routine
+  never authorizes zero work, scale reduction, another freely chosen operator, routine
   hardening or maintenance as a substitute.
   In parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
@@ -6007,7 +6025,7 @@ next_condition: >-
 
   A failed or wrong-direction packet reroutes its capacity to the next
   compatible reverse edge inside the same Big Wave. It never authorizes zero
-  work, scale reduction, source retrieval, routine hardening or maintenance as
+  work, scale reduction, another freely chosen operator, routine hardening or maintenance as
   a substitute.
 
   The raw-linear selection boundary is now fixed: sign-invariant pointed

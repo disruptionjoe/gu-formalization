@@ -1,0 +1,102 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K107-K105-SOURCE-SELECTOR-ADMISSION-2026-09-02",
+  "status": "exact_checked_corpus_nonadmission_for_full_distortion_or_boundary_selector",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "source_layer": "released_source_and_registered_repository_custody",
+  "parent_symmetry_packet": "lab/process/k106-k105-action-symmetry-positive-subspace-wave.json",
+  "denominator": [
+    "source_authenticated_identity",
+    "same_K105_Cl77_distortion_448_carrier",
+    "coefficient_complete_action_owner",
+    "full_distortion_or_boundary_operator",
+    "K_self_adjointness",
+    "nonzero_O256_blind_symmetry_defect",
+    "simple_isolated_K_positive_spectral_line",
+    "common_closed_domain_and_Green_compatibility"
+  ],
+  "candidate_rows": [
+    {
+      "id": "SC-ACT-01_I1B",
+      "source_authenticated_identity": true,
+      "same_K105_Cl77_distortion_448_carrier": false,
+      "coefficient_complete_action_owner": false,
+      "full_distortion_or_boundary_operator": false,
+      "K_self_adjointness": false,
+      "nonzero_O256_blind_symmetry_defect": false,
+      "simple_isolated_K_positive_spectral_line": false,
+      "common_closed_domain_and_Green_compatibility": false
+    },
+    {
+      "id": "SC-ACT-04_I2B",
+      "source_authenticated_identity": true,
+      "same_K105_Cl77_distortion_448_carrier": false,
+      "coefficient_complete_action_owner": false,
+      "full_distortion_or_boundary_operator": false,
+      "K_self_adjointness": false,
+      "nonzero_O256_blind_symmetry_defect": false,
+      "simple_isolated_K_positive_spectral_line": false,
+      "common_closed_domain_and_Green_compatibility": false
+    },
+    {
+      "id": "SC-ACT-05_TOTAL_EULER_RESIDUAL",
+      "source_authenticated_identity": true,
+      "same_K105_Cl77_distortion_448_carrier": false,
+      "coefficient_complete_action_owner": false,
+      "full_distortion_or_boundary_operator": false,
+      "K_self_adjointness": false,
+      "nonzero_O256_blind_symmetry_defect": false,
+      "simple_isolated_K_positive_spectral_line": false,
+      "common_closed_domain_and_Green_compatibility": false
+    },
+    {
+      "id": "SC-META-52_ULTRAHYPERBOLIC_BOUNDARY_ADMISSION",
+      "source_authenticated_identity": true,
+      "same_K105_Cl77_distortion_448_carrier": false,
+      "coefficient_complete_action_owner": false,
+      "full_distortion_or_boundary_operator": false,
+      "K_self_adjointness": false,
+      "nonzero_O256_blind_symmetry_defect": false,
+      "simple_isolated_K_positive_spectral_line": false,
+      "common_closed_domain_and_Green_compatibility": false
+    },
+    {
+      "id": "HISTORICAL_PREFERRED_SHIAB_SELECTOR",
+      "source_authenticated_identity": false,
+      "same_K105_Cl77_distortion_448_carrier": false,
+      "coefficient_complete_action_owner": false,
+      "full_distortion_or_boundary_operator": false,
+      "K_self_adjointness": false,
+      "nonzero_O256_blind_symmetry_defect": false,
+      "simple_isolated_K_positive_spectral_line": false,
+      "common_closed_domain_and_Green_compatibility": false
+    },
+    {
+      "id": "K103_ABSORBED_SOURCE_ACTION_CORPUS",
+      "source_authenticated_identity": false,
+      "same_K105_Cl77_distortion_448_carrier": false,
+      "coefficient_complete_action_owner": false,
+      "full_distortion_or_boundary_operator": false,
+      "K_self_adjointness": false,
+      "nonzero_O256_blind_symmetry_defect": false,
+      "simple_isolated_K_positive_spectral_line": false,
+      "common_closed_domain_and_Green_compatibility": false
+    }
+  ],
+  "union_rule": {
+    "cross_row_union_allowed": false,
+    "reason": "carrier_action_operator_domain_and_provenance_must_belong_to_one_typed_owner_packet"
+  },
+  "result": {
+    "candidate_count": 6,
+    "qualified_candidate_count": 0,
+    "checked_corpus_admitted_to_K105_selector_gate": false,
+    "GU_or_unreleased_source_selector_impossible": false,
+    "K105_nonselection_changed": false,
+    "K155_branch_verdict_changed": false,
+    "physical_state_or_Born_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Recover and authenticate one coefficient-complete source action or source-selected full distortion/boundary operator on a typed carrier, then construct an explicit action-preserving map to K105 and test K-self-adjointness, O(256) symmetry defect, a simple isolated K-positive spectral line, and common domain/Green compatibility. Do not continue with another freely chosen repository operator.",
+  "claim_ceiling": "Exact non-admission of the six frozen released-source and registered-custody candidate rows to K105's full selector gate. This is source silence and typed ownership failure over the checked corpus, not a theorem that GU or an unreleased action cannot supply a selector."
+}

@@ -7,6 +7,22 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K107 K105 source-selector admission boundary (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The six frozen released-source and registered-custody rows contain zero complete owners of the eight-field K105 selector denominator | `lab/process/k107-k105-source-selector-admission-wave.json`; registered source/custody checks (`13/13`) | exact checked-corpus non-admission |
+| Action, operator, carrier, spectrum and domain fields cannot be unioned across differently typed rows | one-owner packet rule and hostile selftest (`10/10`) | exact provenance and variational-owner boundary |
+| No GU or unreleased-source selector can exist | explicit six-row quantifier and contrary reopener | false; only the checked corpus is non-admitted |
+
+## K107 K105 generated-selector closure obstruction (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every selector generated solely from K105's equivariant action/Euler/domain/Green/scalar-boundary data remains in the blind-group commutant | closure under sums, products, adjoints, defined inverses and functional calculus; exact finite controls (`12/12`) | exact naturality theorem for the generated algebra |
+| No generated isolated spectral projector naturally selects a rank-one line in the 256-dimensional positive blind block | `O(256)` has no nonzero invariant line; hostile selftest (`12/12`) | exact generated-selector nonselection |
+| Every new action or boundary operator is obstructed | planted symmetry-breaking full operator and explicit scope fence | false; genuinely new independently owned information remains open |
+
 ## K106 K152 gauge-completed A2+A0 owner (2026-09-02)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K107-K105-GENERATED-SELECTOR-CLOSURE-2026-09-02",
+  "status": "exact_equivariant_generated_algebra_nonselection",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "parent_symmetry_packet": "lab/process/k106-k105-action-symmetry-positive-subspace-wave.json",
+  "frozen_symmetry": {
+    "group_subgroup": "O(256)_times_O(183)",
+    "positive_blind_dimension": 256,
+    "negative_blind_dimension": 183,
+    "natural_invariant_positive_line": false
+  },
+  "generated_data_class": {
+    "generators": [
+      "distortion_lowerer_K",
+      "K105_cross_coefficient_composites_C_Cdagger",
+      "fiber_scalar_Euler_coefficients",
+      "retarded_and_advanced_Green_coefficients",
+      "Green_boundary_form_coefficients",
+      "scalar_boundary_family_Omega_plus_rI"
+    ],
+    "closure_operations": [
+      "finite_sum",
+      "finite_product",
+      "transpose_or_K_adjoint",
+      "inverse_when_defined",
+      "polynomial_functional_calculus",
+      "rational_functional_calculus_without_poles",
+      "spectral_projector_for_isolated_spectrum"
+    ],
+    "every_generator_commutes_with_blind_group": true,
+    "closure_preserves_commutation": true,
+    "every_generated_spectral_projector_is_blind_group_invariant": true
+  },
+  "theorem": {
+    "generated_selector_can_have_natural_rank_one_positive_projector_in_blind_sector": false,
+    "reason": "the_standard_O256_representation_has_no_nonzero_invariant_line",
+    "coordinate_choice_or_non_equivariant_tie_breaker_is_generated": false,
+    "new_independently_owned_symmetry_breaking_datum_required": true
+  },
+  "finite_control": {
+    "surrogate_inertia": [5, 2, 0],
+    "blind_block_dimensions": [4, 2],
+    "exact_rational_rotation": "3_4_5_on_first_two_positive_blind_axes",
+    "generated_word_degree_tested": 5,
+    "generated_words_commute": true,
+    "planted_full_operator_breaks_symmetry": true,
+    "planted_full_operator_source_owned": false
+  },
+  "result": {
+    "repackaging_owned_action_domain_Green_data_can_select_K91_line": false,
+    "new_source_action_or_boundary_information_required": true,
+    "all_possible_actions_or_boundary_operators_obstructed": false,
+    "physical_state_or_Born_credit": false,
+    "K155_branch_verdict_changed": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Supply a new independently owned full distortion, boundary, state or observable datum with nonzero O(256) blind-sector symmetry defect, then prove K-self-adjointness where applicable, a simple isolated K-positive line and common action/domain/Green compatibility. Functional calculus or algebraic repackaging of the frozen K105 packet cannot qualify.",
+  "claim_ceiling": "Exact naturality obstruction for the unital adjoint/inverse/functional-calculus algebra generated solely by the frozen K105 action, Euler, domain, Green and scalar-boundary data. No obstruction to genuinely new source/action/boundary information and no physical-state or Born conclusion."
+}
