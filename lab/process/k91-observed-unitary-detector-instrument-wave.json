@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K91-OBSERVED-UNITARY-DETECTOR-INSTRUMENT-2026-09-01",
+  "status": "COMPLETE_REPOSITORY_OWNED_FINITE_INTERACTION_TO_KRAUS_DILATION_CONTROL",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "predecessor_ref": "lab/process/k90-observed-detector-response-kms-wave.json",
+  "retrieval_refs": [
+    "lab/process/quantum-anchor-reverse-scaffold-interface-wave.json",
+    "lab/process/k77-observed-composite-instrument-extension-wave.json"
+  ],
+  "construction_owner": "repository-construction",
+  "dilation": {
+    "system": "real_two_level_control_S",
+    "detector": "real_two_level_control_D",
+    "basis_order": ["|00>", "|01>", "|10>", "|11>"],
+    "detector_initialization": "|0><0|",
+    "unitary_columns": [
+      ["1", "0", "0", "0"],
+      ["0", "3/5", "-4/5", "0"],
+      ["0", "4/5", "3/5", "0"],
+      ["0", "0", "0", "1"]
+    ],
+    "rotation_identity": "(3/5)^2+(4/5)^2=1",
+    "ownership": "stipulated_exact_finite_interaction_not_source_selected"
+  },
+  "derived_instrument": {
+    "derivation": "K_r=<r|_D U |0>_D",
+    "K0": [["1", "0"], ["0", "3/5"]],
+    "K1": [["0", "4/5"], ["0", "0"]],
+    "E0": [["1", "0"], ["0", "9/25"]],
+    "E1": [["0", "0"], ["0", "16/25"]],
+    "completeness": "E0+E1=I2",
+    "complete_positivity": "each_Phi_r_is_in_displayed_single_Kraus_form",
+    "nonselective_trace_law": "trace(sum_r K_r rho K_r^T)=trace(rho)"
+  },
+  "exact_record_witness": {
+    "initial_system_density": [["9/25", "12/25"], ["12/25", "16/25"]],
+    "initial_state_owner": "imported_positive_trace_one_control",
+    "branch0": [["225/625", "180/625"], ["180/625", "144/625"]],
+    "branch1": [["256/625", "0"], ["0", "0"]],
+    "outcome_weights": {"record_0": "369/625", "record_1": "256/625"},
+    "normalized_record0": [["25/41", "20/41"], ["20/41", "16/41"]],
+    "normalized_record1": [["1", "0"], ["0", "0"]],
+    "weight_and_record_semantics": "imported_trace_Born_pairing_and_classical_record_interpretation"
+  },
+  "spectator_control": {
+    "input": "Bell_rank_one_density_on_S_tensor_R",
+    "local_operation": "sum_r (K_r tensor I_R) rho_SR (K_r^T tensor I_R)",
+    "initial_remote_marginal": "I2/2",
+    "final_remote_marginal": "I2/2",
+    "general_reason": "Kraus_completeness_under_partial_trace",
+    "scope": "stipulated_tensor_spectator_control_not_source_locality"
+  },
+  "owner_accounting": {
+    "derived_from_stipulated_unitary_and_detector_preparation": [
+      "Kraus_operators",
+      "branch_maps",
+      "effects",
+      "complete_positivity_by_Kraus_form",
+      "completeness",
+      "nonselective_trace_preservation"
+    ],
+    "imported": [
+      "initial_system_density",
+      "positive_trace_one_state_convention",
+      "trace_Born_state_effect_pairing",
+      "classical_detector_record_interpretation",
+      "source_interaction_and_locality_semantics"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "generic_controls_already_present": [
+      "quantum_anchor_reverse_scaffold_dephasing_and_instrument_control",
+      "k77_observed_composite_Lueders_and_remote_marginal_control"
+    ],
+    "new_object_only": "explicit_interaction_to_Kraus_derivation_from_one_stipulated_unitary_and_detector_initialization",
+    "generic_controls_repeated_or_promoted": false
+  },
+  "mutation_controls": [
+    "nonunitary_rotation",
+    "incomplete_Kraus_family",
+    "wrong_record_normalization",
+    "negative_unphysical_initial_state",
+    "negative_unphysical_outcome",
+    "signalling_spectator",
+    "source_dynamics_promotion",
+    "Born_rule_promotion",
+    "holdout_promotion"
+  ],
+  "fences": {
+    "source_selected_detector_dynamics": false,
+    "source_selected_initial_state": false,
+    "Born_rule_derived": false,
+    "record_interpretation_derived": false,
+    "source_interaction_or_locality_constructed": false,
+    "continuum_local_coupling": false,
+    "microlocal_or_Hadamard_theory": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "generic_controls_promoted": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "result": {
+    "interaction_to_Kraus_dilation_controls_completed": 1,
+    "source_selected_detector_dynamics_completed": 0,
+    "Born_rules_derived": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "probe": "tests/channel-swings/k91_observed_unitary_detector_instrument_probe.py",
+  "result_ref": "explorations/conditional-build/k91-observed-unitary-detector-instrument-wave-2026-09-01.md",
+  "claim_ceiling": "Exact repository-stipulated finite system-detector unitary dilation and derived Kraus instrument control only; no source-selected dynamics or state, derived Born rule, continuum local coupling, microlocal/Hadamard theory, prediction, confirmation, held-out score, or verdict."
+}

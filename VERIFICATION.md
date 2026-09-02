@@ -7,6 +7,24 @@ updated_at: "2026-09-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K91 observed functional causal-complex wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The split sequence `0 -> G -> G direct-sum P -> P -> 0`, with `G=P=l2(N,C)`, carries the closed positive generator `Omega e_n=(n+1)e_n`, unit gap, bounded inverse and invariant rapid-sequence core | `lab/process/k91-observed-functional-causal-complex-wave.json`; exact sequence/gap/core regression probe (`31/31`) | exact repository-owned functional constraint/quotient control; infinite closedness, core density and nuclearity are analytic arguments in the artifact |
+| On `C_c^infinity(R;s)`, `partial_t^2+Omega^2` has the displayed modewise retarded and advanced maps; zero extension across `G` and `ell d0=0` give representative-independent causal output and observations | exact support, jump, antisymmetry and gauge-basic controls | exact time-order causal/basicness composition on the named functional control |
+| The rapid Frechet core is the closed Hilbert operator domain, or finite-mode checks prove the infinite analytic statements | explicit dense-proper sequence and proof-boundary controls; hostile selftest (`29/29`) | false; `D(Omega)` is the closed Hilbert domain and the probe is regression evidence only |
+| A source GU functional BV--BFV complex, curved-spacetime Green hyperbolicity, boundary trace, spatial AQFT or microlocal/Hadamard state | not constructed | open / explicitly excluded |
+
+## K91 observed unitary detector-instrument wave (2026-09-01)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One exact `3/5,4/5` system-detector unitary with detector initialized in `|0>` derives two Kraus branches, effects summing to identity, complete-positive branch form and a trace-preserving nonselective map | `lab/process/k91-observed-unitary-detector-instrument-wave.json`; exact dilation and record probe (`24/24`) | exact finite interaction-to-Kraus control for the stipulated repository construction |
+| For the named rational density, record weights are `369/625` and `256/625`, conditional records are positive and normalized, and the local nonselective map preserves a spectator marginal | exact branch, normalization and partial-trace controls | exact finite record-instrument and spectator result under the imported trace/state interface |
+| Unitarity and ancilla preparation derive the initial state, trace/Born pairing, classical-record meaning or source locality | owner accounting, nearby-control duplicate boundary and hostile selftest (`11/11`) | false; those objects remain imported or unconstructed |
+| Source-selected detector dynamics, continuum local coupling, microlocal/Hadamard theory, prediction, confirmation or held-out score | not constructed or scored | open / explicitly excluded |
+
 ## K90 observed causal Green-quotient wave (2026-09-01)
 
 | Claim | Evidence | Honest grade |

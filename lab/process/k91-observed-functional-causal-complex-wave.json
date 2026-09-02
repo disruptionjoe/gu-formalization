@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K91-OBSERVED-FUNCTIONAL-CAUSAL-COMPLEX-2026-09-01",
+  "status": "complete_repository_owned_functional_causal_complex_control",
+  "source_layer": "observed_to_native_reverse_scaffold",
+  "construction_owner": "repository-construction",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "functional_constraint_complex": {
+    "sequence": "0_to_G_to_G_direct_sum_P_to_P_to_0",
+    "gauge_space": "G_equals_l2_N_complex",
+    "physical_space": "P_equals_l2_N_complex",
+    "gauge_injection": "d0_g_equals_g_comma_0",
+    "quotient_map": "q_g_comma_p_equals_p",
+    "split_section": "j_p_equals_0_comma_p",
+    "short_exact": true,
+    "physical_quotient": "G_direct_sum_P_mod_image_d0_is_P"
+  },
+  "physical_operator": {
+    "operator": "Omega_e_n_equals_n_plus_1_e_n",
+    "closed_hilbert_domain": "D_Omega_weighted_l2_graph_complete",
+    "self_adjoint": true,
+    "uniform_gap": 1,
+    "bounded_inverse_norm": 1,
+    "wave_operator": "partial_t_squared_plus_Omega_squared",
+    "wave_operator_spatial_domain": "D_Omega_squared"
+  },
+  "rapid_core": {
+    "space": "s_equals_intersection_over_k_D_Omega_to_the_k",
+    "topology": "seminorms_p_k_equals_norm_Omega_to_the_k_x_l2",
+    "complete_nuclear_Frechet": true,
+    "common_invariant_core": true,
+    "closed_Hilbert_operator_domain": false,
+    "distinguished_from_D_Omega": true
+  },
+  "causal_green_pair": {
+    "test_sources": "C_c_infinity_R_semicolon_s",
+    "retarded_formula": "integral_minus_infinity_to_t_Omega_inverse_sin_Omega_t_minus_s_f_s_ds",
+    "advanced_formula": "minus_integral_t_to_infinity_Omega_inverse_sin_Omega_t_minus_s_f_s_ds",
+    "retarded_temporal_support": "future_half_line_of_source",
+    "advanced_temporal_support": "past_half_line_of_source",
+    "two_sided_test_space_inverse": true,
+    "causal_kernel": "E_n_t_s_equals_sin_n_plus_1_times_t_minus_s_over_n_plus_1",
+    "antisymmetric_source_form": true
+  },
+  "gauge_basic_descent": {
+    "green_extension": "zero_on_G_direct_sum_G_on_P",
+    "cochain_identity": "q_G_tilde_equals_G_q_and_G_tilde_d0_equals_0",
+    "observation_basicness": "ell_d0_equals_0",
+    "representative_independent": true
+  },
+  "analytic_proof_boundary": {
+    "finite_probe_role": "exact_regression_control_only",
+    "closedness_core_nuclearity_and_infinite_green_identities_proved_in_prose": true,
+    "finite_truncations_do_not_prove_infinite_dimensional_statements": true
+  },
+  "failure_controls": {
+    "gapless_frequency_mutation": "Omega_n_equals_1_over_n_plus_1_has_unbounded_inverse",
+    "mixed_quotient_mutation": "q_d0_ceases_to_be_zero",
+    "retarded_support_leak": "future_source_changes_retarded_past",
+    "advanced_sign_mutation": "advanced_jump_has_wrong_sign",
+    "gauge_observation_leak": "ell_d0_is_nonzero",
+    "core_domain_conflation": "rapid_core_is_dense_proper_not_closed_Hilbert_domain"
+  },
+  "preflight": {
+    "lens_census": [
+      "closed_operator_and_graph_domain",
+      "Hilbert_complex_and_split_exact_sequence",
+      "nuclear_Frechet_test_space",
+      "wave_evolution_and_distributional_Green_kernel",
+      "Peierls_and_gauge_basic_descent",
+      "BV_BFV_ownership",
+      "curved_spacetime_and_boundary_support",
+      "AQFT_and_microlocal_spectrum",
+      "exact_finite_computation"
+    ],
+    "retrieval": "K89_and_K90_are_separate_predecessors_no_object_level_duplicate_found",
+    "positive_controls": "exactness_gap_domain_core_Green_support_antisymmetry_basicness",
+    "negative_controls": "gap_sequence_support_sign_basicness_core_domain_mutations"
+  },
+  "postflight": {
+    "strongest_overclaim": "source_GU_functional_BV_BFV_complex",
+    "strongest_contrary_construction": "gapless_diagonal_or_nonexact_mixed_gauge_sequence",
+    "weakest_reproducibility_seam": "finite_exact_probe_does_not_prove_infinite_analytic_statements"
+  },
+  "fences": {
+    "source_GU_functional_BV_BFV_complex": false,
+    "curved_spacetime_Green_hyperbolicity": false,
+    "boundary_trace_theorem": false,
+    "spatial_AQFT": false,
+    "microlocal_or_Hadamard_state": false,
+    "detector_or_Born_law": false,
+    "prediction_or_confirmation": false,
+    "verdict_or_public_posture_change": false,
+    "cross_packet_union_allowed": false
+  },
+  "result": {
+    "composed_functional_causal_conditions_closed": 8,
+    "source_selected_functional_complexes": 0,
+    "prediction_or_confirmation_change": "none",
+    "public_posture_change": "none"
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored"
+  }
+}
