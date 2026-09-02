@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K96-OBSERVED-INFINITE-POINTER-HAMILTONIAN-RECORD",
+  "created": "2026-09-02",
+  "status": "complete_repository_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K95_TIME_INDEPENDENT_INFINITE_CARRIER_STABLE_RECORD_OWNER",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "Hamiltonian_model": {
+    "carrier": "C2_q tensor L2(R)_pointer",
+    "common_domain": "C2_q tensor H1(R)",
+    "momentum_generator": "p=-i d/dx self-adjoint on H1(R)",
+    "Hamiltonian": "H=P0_q tensor p-P1_q tensor p",
+    "self_adjoint": true,
+    "time_independent": true,
+    "unitary_group": "U_t=diag(T_t,T_-t), (T_t phi)(x)=phi(x-t)",
+    "finite_program_clock_or_reset": false,
+    "spectrum": "R and unbounded below"
+  },
+  "pointer_packet": {
+    "initial_wavefunction": "phi(x)=sqrt(15/16)(1-x^2) for |x|<=1 and zero otherwise",
+    "normalized": true,
+    "initial_in_common_domain": true,
+    "q0_support_at_t": "[t-1,t+1]",
+    "q1_support_at_t": "[-t-1,-t+1]",
+    "stable_record_time": "t>=1",
+    "record_effect": "R1=1_{x<0}",
+    "record_weights_after_stabilization": ["2/3", "1/3"],
+    "mismatch_after_stabilization": "0",
+    "branch_overlap_after_stabilization": "0",
+    "system_record_distribution_invariant": true,
+    "endpoint_joint_marginal_invariant": true,
+    "gauge_basic_zero_extension": true
+  },
+  "owner_accounting": {
+    "repository_owned": [
+      "self_adjoint_common_domain_controlled_translation_Hamiltonian",
+      "exact_compact_pointer_packet_and_outgoing_support_separation",
+      "finite_time_stable_sign_record_and_branch_decoherence",
+      "endpoint_marginal_and_quotient_descent_control"
+    ],
+    "imported": [
+      "K94_q_sector_and_weights",
+      "infinite_pointer_coordinate_and_initial_compact_packet",
+      "q_conditioned_velocity_sign",
+      "outgoing_sign_record_interpretation",
+      "trace_Born_state_effect_pairing"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "retrieval_duplicate_boundary": {
+    "nearby_controls": [
+      "K95 finite closed-Hamiltonian asymptotic obstruction",
+      "K95 time-homogeneous dissipative record stabilization",
+      "K94 autonomous four-clock unitary"
+    ],
+    "new_object_only": "one time-independent self-adjoint infinite-pointer Hamiltonian with exact outgoing record stabilization on a common domain",
+    "nearby_controls_repeated_or_promoted": false
+  },
+  "fences": {
+    "thermodynamic_many_body_reservoir": false,
+    "lower_bounded_physical_energy": false,
+    "source_selected_dynamics_or_pointer": false,
+    "universal_state_attractor": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k96_observed_infinite_pointer_hamiltonian_record_probe.py",
+  "result_ref": "explorations/conditional-build/k96-observed-infinite-pointer-hamiltonian-record-wave-2026-09-02.md",
+  "claim_ceiling": "Exact time-independent self-adjoint controlled-translation Hamiltonian on one infinite pointer coordinate, with common Sobolev domain, stable outgoing K94 sign record, endpoint invariance and K91 gauge-basic descent only; no thermodynamic many-body bath, lower-bounded physical energy, source selection, universal attraction, continuum AQFT, microlocal state, derived Born law, prediction, confirmation, held-out score or verdict."
+}

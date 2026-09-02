@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 992ece99c6e7
+revision_basis: 5e2df2ceb96b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The infinite-pointer-Hamiltonian/record-selector Big Wave resolves two K95
+    seams at exact repository-control grade. On C2 tensor L2(R), the
+    time-independent self-adjoint Hamiltonian H=P0 tensor p-P1 tensor p has
+    common domain C2 tensor H1(R) and translates a normalized compact pointer
+    packet right for q=0 and left for q=1. After t=1 the fixed sign effect is
+    an exact stable K94 record with weights (2/3,1/3), zero mismatch, zero
+    branch overlap, endpoint invariance and K91 descent. The escape is one
+    unbounded-below pointer coordinate, not a thermodynamic many-body bath;
+    its preparation, conditional velocity, sign meaning and trace/Born
+    pairing remain supplied. Independently, the Z- and X-dephasing
+    conditional expectations are distinct unital CP trace-preserving
+    idempotent maps preserving the same tracial KMS state and identity
+    dynamics, so those invariance axioms do not select a record algebra. The
+    translation pointer has no normal Gibbs density. Probes pass 26/26 and
+    26/26; hostile selftests catch 27/27 and 21/21. No source,
+    thermodynamic-reservoir, continuum, microlocal, Born, prediction or
+    confirmation result is obtained.
     The finite-Hamiltonian-stability/irreversible-record Big Wave resolves the
     K94 long-time endpoint at exact repository-control grade. Unitary
     conjugation preserves trace distance, so no finite closed
@@ -5729,8 +5746,9 @@ current_question: >-
   basicness criteria on one source quotient, and does its causal geometry or
   action select a spatial local-algebra soldering across the K92 ambiguity,
   together with a microlocally admissible state, local detector coupling,
-  record algebra and derived rather than imported Born pairing, beyond K95's
-  finite closed-Hamiltonian obstruction and supplied irreversible semigroup?
+  record algebra and derived rather than imported Born pairing, beyond K96's
+  unbounded-below infinite-pointer control and invariant-selector
+  nonuniqueness boundary?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5740,21 +5758,23 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  K95 proves that finite closed time-independent Hamiltonian flow cannot own a
-  universal pointwise attractor or newly formed universally convergent record,
-  and it shows that a time-homogeneous irreversible semigroup can stabilize
-  the K94 parity record only by importing a Markov/bath arrow, rate and jump
-  selection. The next quantum arc is therefore no longer another finite bath,
-  clock, reset or abstract dilation: obtain the source-owned functional
+  K96 now constructs a genuine time-independent self-adjoint Hamiltonian on an
+  infinite pointer carrier with a common Sobolev domain and exact stable
+  outgoing K94 record. It also proves that unital complete positivity, trace
+  preservation, idempotence, covariance and preservation of a degenerate KMS
+  state do not uniquely select the record algebra. The next quantum arc is
+  therefore no longer another finite bath, abstract dilation, bare infinite
+  coordinate or invariance-only selector: obtain the source-owned functional
   constraint complex and prove the K91 sequence/domain/support/basicness
   conditions on one source quotient. Then identify a source causal geometry,
   action or functor that selects a spatial local-algebra net and derives a
   microlocally admissible state, local coupling, record algebra and trace/Born
   ownership. Without source custody, a materially distinct continuation must
-  construct a genuine time-independent infinite-reservoir Hamiltonian with a
-  common domain and prove its reduced asymptotic instrument, or derive a
-  conditional expectation/KMS/record-algebra selector whose irreversible
-  owner is explicit. In parallel retain the source-owned K77 or gimmel
+  construct a lower-bounded many-body reservoir with local interaction,
+  normal or algebraic KMS state and a proved reduced asymptotic instrument on
+  a common domain, or supply a nondegenerate coupling/modular/causal structure
+  that selects one record algebra with every irreversible owner explicit. In
+  parallel retain the source-owned K77 or gimmel
   full-carrier gravity action as the highest missing owner and test quotient-
   metric, no-spurion, coframe-Euler and total-stress conditions. Preserve K81
   source-symbol and cross-null domain reopeners below those routes; do not

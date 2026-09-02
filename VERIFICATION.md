@@ -7,6 +7,24 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K96 observed infinite-pointer Hamiltonian record wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `H=P0 tensor p-P1 tensor p` is self-adjoint on the common domain `C2 tensor H1(R)` and generates exact opposite translations | `lab/process/k96-observed-infinite-pointer-hamiltonian-record-wave.json`; operator-domain argument and exact probe (`26/26`) | exact time-independent infinite-carrier Hamiltonian control |
+| A normalized compact pointer packet clears the origin at `t=1`, after which the sign record has weights `(2/3,1/3)`, zero mismatch and zero branch overlap | exact support, tail-integral and overlap formulas; hostile selftest (`27/27`) | exact stable outgoing K94 record relative to the supplied position algebra |
+| The q-sector, endpoint marginal and K91 gauge-basic descent remain invariant | exact sector/direct-sum and zero-extension checks | exact marginal and quotient compatibility on the stated control |
+| This is a thermodynamic many-body bath, lower-bounded physical Hamiltonian, source-selected dynamics or Born derivation | spectrum `R`, one pointer coordinate, imported preparation/effect/pairing | false; those owners remain open and explicitly outside scope |
+
+## K96 observed record-algebra selector nonuniqueness wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| `E_Z(A)=(A+ZAZ)/2` and `E_X(A)=(A+XAX)/2` are distinct unital CP trace-preserving idempotent expectations preserving the same tracial equilibrium state and identity dynamics | `lab/process/k96-observed-record-algebra-selector-nonuniqueness-wave.json`; exact matrix probe (`26/26`) | exact finite-algebra selector nonuniqueness counterexample |
+| The shared CP, trace, idempotence, covariance and KMS-state criteria uniquely select a record algebra | `E_Z(|0><0|)=|0><0|` while `E_X(|0><0|)=I/2`; hostile selftest (`21/21`) | false in the stated degenerate sector |
+| The K96 translation pointer supplies a normal Gibbs selector | `spec(p)=R`, so `exp(-beta p)` is unbounded and not trace class | false for the admitted pointer model |
+| No additional coupling, source action, modular inclusion or causal net can select a record algebra | not in the quantified class | false; the result establishes insufficiency of the listed invariance axioms only |
+
 ## K95 observed finite-Hamiltonian asymptotic no-go wave (2026-09-02)
 
 | Claim | Evidence | Honest grade |
