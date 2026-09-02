@@ -6142,3 +6142,17 @@ python3 tests/channel-swings/source_native_comparator_scope_hardening_wave_probe
   a renamed two-class quotient preserves zero, pairing, and both
   nondegeneracy directions, while rejecting zero-moving, pairing-changing,
   and extra-radical controls.
+
+## Declared-content extra-vector obstruction
+
+`attention-shots/declared_content_extra_vector_obstruction.py` independently
+recomputes the D5 orbit dimensions `{13,15,19,25}`, the `45=21+24`
+observation split, the declared scalar weight supports, and three exact
+`B-L` anomaly sums. Its baseline proves a residual abelian gauge direction
+under the frozen premises. `--selftest` plants eight premise mutations,
+including the missing physical-realization premise, and requires every claim
+boundary to fail closed.
+
+```sh
+python3 tests/attention-shots/declared_content_extra_vector_obstruction.py --selftest
+```

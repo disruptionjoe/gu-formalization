@@ -7,6 +7,16 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Declared-content extra-vector obstruction (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete SM-preserving adjoint orbit census has dimensions `{13,15,19,25}`, while observation leaves nine non-SM compact directions | `lab/process/declared-content-extra-vector-obstruction-package.json`; independent root/dimension certificate (`15/15`) | exact finite representation and orbit theorem |
+| The declared 45 and `10 tensor 45` contain no charged SM singlet, the residual U(1) anomaly sums vanish, and the four admitted declared-content routes leave an abelian direction | independent weight/anomaly recomputation plus PV-1/PV-2/MV-2 reproduction capsule | conditional exact declared-grammar obstruction |
+| Every load-bearing premise has a named non-admission locus | baseline-first hostile selftest (`8/8`) | exact scope/reopener control |
+| A propagated physical extra vector follows without a kinetic/physical-realization premise | explicit premise-removal mutant preserves only the algebraic residual | false; physical-vector claim is conditional |
+| The result universally falsifies GU or excludes unreleased completions | frozen carrier quantifier and comparator boundary | false / outside scope |
+
 ## K108 K105 quadratic-ray cone normalization boundary (2026-09-02)
 
 | Claim | Evidence | Honest grade |

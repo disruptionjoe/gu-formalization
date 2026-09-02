@@ -22,6 +22,10 @@ lifecycle in [`../README.md`](../README.md).
 
 ## Still in progress here (selected)
 
+- [`declared-content-extra-vector-obstruction/`](declared-content-extra-vector-obstruction/)
+  — a self-contained, executable conditional theorem package: frozen declared
+  carriers and admitted mass routes leave a residual abelian gauge direction;
+  a physical-vector claim requires a separate realization premise.
 - [`blog-post-draft-v2.md`](blog-post-draft-v2.md) — shorter public exposition draft.
 - [`generation-multiplicity-vs-chirality-2026-06-28.md`](generation-multiplicity-vs-chirality-2026-06-28.md)
   — near-duplicate of "Located, Not Forced"; its separable math.RT kernel could become a short companion note

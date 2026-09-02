@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The declared-content extra-vector Big Wave composes PV-1, PV-2 and MV-2
+    into one self-contained binary theorem with an independent certificate.
+    The exact D5 census gives all SM-preserving adjoint stabilizer dimensions
+    {13,15,19,25}, never 12. Observation decomposes so(6,4)=k(21)+p(24)
+    and leaves nine non-SM compact directions; it cannot remove the generic
+    final compact U(1). The declared adjoint-45 and 10 tensor 45 supports have
+    no B-L-charged SM singlet, no shifting zero-form is declared, the linear,
+    cubic and Y^2(B-L) anomaly sums vanish on the chiral 16, and the residual
+    direction is abelian. Higgs, Stueckelberg, Green-Schwarz and nonabelian
+    confinement therefore leave at least one extra abelian gauge direction
+    under the frozen declared-content premises. A physical-vector conclusion
+    additionally requires an explicit nondegenerate gauge-kinetic/physical-
+    realization premise; the package does not derive it. The independent
+    probe passes 15/15 baseline checks and catches 8/8 hostile reopeners; the
+    six-command reproduction capsule also passes. This is a conditional
+    declared-grammar obstruction, not universal GU falsification, source-
+    native spectrum ownership, prediction, confirmation or external release.
     The K108 quadratic-state and composition-selection Big Wave advances the
     open reverse scaffold without reopening K107's source-selector gate. On
     K105's actual blind carrier of inertia (256,183,0), the quadratic lift
@@ -6007,11 +6024,17 @@ current_result:
     - explorations/conditional-build/k108-real-quantum-local-tomography-boundary-wave-2026-09-02.md
     - lab/process/k108-real-quantum-local-tomography-boundary-wave.json
     - tests/channel-swings/k108_real_quantum_local_tomography_boundary_probe.py
+    - papers/drafts/declared-content-extra-vector-obstruction/declared-content-extra-vector-obstruction.md
+    - papers/drafts/declared-content-extra-vector-obstruction/CLAIM-AND-PREMISE-LEDGER.json
+    - papers/drafts/declared-content-extra-vector-obstruction/VERIFICATION.md
+    - papers/drafts/declared-content-extra-vector-obstruction/reproduce_all.py
+    - lab/process/declared-content-extra-vector-obstruction-package.json
+    - tests/attention-shots/declared_content_extra_vector_obstruction.py
 current_question: >-
-  Under one frozen declared-content premise set, do PV-1, PV-2 and MV-2 compose
-  into a self-contained binary theorem that every admitted vector-mass route
-  leaves an extra vector, while preserving the exact boundary against a full
-  source-native spectrum claim?
+  Conditional on an explicit sigma-to-Lambda bridge, do Q2-FREE, W211 as
+  corrected by W219, and CC-1 force one sign of the effective cosmological
+  term, or do both sigma orientations survive and exclude a sigma-only
+  dark-energy-sign claim?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6022,14 +6045,13 @@ contribution_path:
 next_condition: >-
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.
-  First consolidate PV-1, PV-2 and MV-2 into one self-
-  contained theorem-grade declared-content extra-vector obstruction with
-  frozen premises, an exact claim ceiling, a rerunnable proof bundle, hostile
-  counterexamples and an explicit novelty boundary. Preserve the distinction
-  between the declared-content theorem and any stronger source-native spectrum
-  claim. Next consolidate Q2-FREE, W211 as corrected by W219, and CC-1 into a
-  sigma/dark-energy sign-nonselection theorem explicitly conditional on the
-  sigma-to-Lambda bridge. Then package the exact 54/210 versus 45/945 Pati-
+  The first package is complete: PV-1, PV-2 and MV-2 now compose into a self-
+  contained conditional declared-content residual-direction theorem with a
+  rerunnable proof bundle and exact physical-realization boundary. Reopen it
+  only on one of its eight named hostile premise changes. Next consolidate
+  Q2-FREE, W211 as corrected by W219, and CC-1 into a sigma/dark-energy sign-
+  nonselection theorem explicitly conditional on the sigma-to-Lambda bridge.
+  Then package the exact 54/210 versus 45/945 Pati-
   Salam representation-channel theorem without vertex or mass interpretation.
   Finally package the literal observation-pullback/gamma-kernel obstruction
   without classifying the physical leftover. Located, Not Forced is already

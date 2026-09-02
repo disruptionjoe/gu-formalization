@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "DECLARED-CONTENT-EXTRA-VECTOR-OBSTRUCTION-PACKAGE",
+  "date": "2026-09-02",
+  "status": "working_draft_verified",
+  "target_claim": "Compose PV-1, PV-2 and MV-2 into a binary theorem under one frozen declared-content premise set.",
+  "verdict": "admitted_conditional_exact",
+  "artifacts": {
+    "working_paper": "papers/drafts/declared-content-extra-vector-obstruction/declared-content-extra-vector-obstruction.md",
+    "claim_ledger": "papers/drafts/declared-content-extra-vector-obstruction/CLAIM-AND-PREMISE-LEDGER.json",
+    "verification": "papers/drafts/declared-content-extra-vector-obstruction/VERIFICATION.md",
+    "reproduction": "papers/drafts/declared-content-extra-vector-obstruction/reproduce_all.py",
+    "independent_probe": "tests/attention-shots/declared_content_extra_vector_obstruction.py"
+  },
+  "exact_results": {
+    "observation_dimensions": "45=21+24",
+    "compact_non_sm_surplus": 9,
+    "sm_preserving_unbroken_dimensions": [13, 15, 19, 25],
+    "minimum_unbroken_dimension": 13,
+    "charged_sm_singlets_in_declared_support": 0,
+    "bl_anomaly_sums": [0, 0, 0],
+    "residual": "at least one abelian gauge direction"
+  },
+  "claim_ceiling": "Frozen declared-content residual-direction theorem; physical-vector language additionally requires the explicit gauge-kinetic/physical-realization premise.",
+  "excluded_promotions": [
+    "universal GU falsification",
+    "source-native full-spectrum ownership",
+    "Born or detector derivation",
+    "experimental prediction or confirmation",
+    "external publication"
+  ],
+  "external_effect": false
+}
