@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K103_ABSORBED_SOURCE_ACTION_CUSTODY_QUALIFICATION",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Qualification of the git-tracked absorbed/gu-source-action construction corpus as one possible source/action owner. The result binds only that filed corpus at the admitted repository revision; it is not a universal action obstruction and does not authenticate an unrecovered Weinstein source action.",
+  "corpus": {
+    "root": "absorbed/gu-source-action",
+    "declared_role": "construction sandbox for the missing RS/IG source action",
+    "declared_completion": "has_not_built_a_source_action",
+    "custody_grade": "repository_absorbed_construction_evidence",
+    "source_authenticated": false,
+    "external_authorial_action_packet": false,
+    "explicit_real_form": "Cl(9,5)=M(64,H)",
+    "default_buildbench_candidate_count": 4,
+    "named_missing_carriers": [
+      "L_anomaly",
+      "L_RS_BRST",
+      "L_theta_source",
+      "L_weak_field",
+      "L_families_pushforward"
+    ]
+  },
+  "qualification_denominator": [
+    "real_coefficient_complete_action",
+    "frozen_fields_and_constraints",
+    "complete_coefficient_ownership",
+    "master_equation_from_the_action",
+    "noether_forced_gamma_trace_constraint",
+    "non_equivariant_compensator_owned_by_the_action",
+    "full_bv_koszul_tate_complex_owned_by_the_action",
+    "complete_euler_noether_system",
+    "full_hessian_and_formal_adjoint",
+    "common_closed_operator_domain",
+    "causal_green_boundary_form",
+    "families_boundary_dirac_global_objects"
+  ],
+  "cells": {
+    "real_coefficient_complete_action": {"state": "absent", "reason": "SPEC.md states the action as the object to construct; README.md states that the sandbox has not built one, and the security-budget score is explicitly a candidate lens rather than the action."},
+    "frozen_fields_and_constraints": {"state": "partial", "reason": "Finite-fiber vector-spinor, gamma-kernel, ghost and tau packets exist, but no one global field/antifield/constraint configuration is frozen."},
+    "complete_coefficient_ownership": {"state": "absent", "reason": "The buildbench names missing carrier functionals and contains no coefficient-complete S_IG density or normalization table."},
+    "master_equation_from_the_action": {"state": "partial", "reason": "A finite-fiber nonvacuous BV/Koszul-Tate closure is recorded, but no completed source action generates it and no global master equation is owned."},
+    "noether_forced_gamma_trace_constraint": {"state": "partial", "reason": "The tau Schur-complement packet derives a finite-fiber projection, while Noether leaves arbitrary tangent maps in ker Gamma unselected."},
+    "non_equivariant_compensator_owned_by_the_action": {"state": "partial", "reason": "A non-equivariant H-linear compensator is a necessary candidate ingredient, but the corpus says its source carrier and closing action remain missing."},
+    "full_bv_koszul_tate_complex_owned_by_the_action": {"state": "partial", "reason": "Finite-fiber bicomplex controls exist; global families, boundary and action ownership do not."},
+    "complete_euler_noether_system": {"state": "absent", "reason": "There is no single coefficient-complete functional from which every field, ghost, antifield and boundary variation is taken."},
+    "full_hessian_and_formal_adjoint": {"state": "absent", "reason": "The corpus does not exhibit the full coupled Hessian, its formal adjoint or one common Green identity for S_IG."},
+    "common_closed_operator_domain": {"state": "absent", "reason": "Finite matrix tests do not supply a selected closed global operator domain, invariant core or boundary realization."},
+    "causal_green_boundary_form": {"state": "absent", "reason": "The BV-to-boundary-Dirac map and operative Green boundary form are named target objects, not constructed results."},
+    "families_boundary_dirac_global_objects": {"state": "absent", "reason": "The families pushforward, global boundary spectral section and BV-to-boundary-Dirac map are explicitly the three missing global objects."}
+  },
+  "candidate_union": {
+    "allowed": false,
+    "reason": "Buildbench rows are alternative candidate roles and missing-carrier diagnostics; combining their partial cells does not produce one variational action owner."
+  },
+  "result": {
+    "qualified": false,
+    "qualification_state": "EXACT_CORPUS_NONADMISSION__UNFINISHED_REPOSITORY_CONSTRUCTION_SANDBOX__ZERO_COEFFICIENT_COMPLETE_ACTION_PACKETS",
+    "first_nonadmission_locus": "real_coefficient_complete_action",
+    "source_custody_advance": "The absorbed corpus is now typed as repository construction evidence rather than source-authenticated action custody, and its twelve-object qualification denominator is explicit.",
+    "exact_reopener": "Supply one source-authenticated or owner-native real action packet containing the complete density, fields and constraints, coefficient table, all Euler/Noether and BV maps, coupled Hessian/formal adjoint, common closed domain, causal Green form, and the three global families/boundary-Dirac objects.",
+    "source_ownership_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "evidence_refs": [
+    "absorbed/gu-source-action/Agents Start Here.md",
+    "absorbed/gu-source-action/README.md",
+    "absorbed/gu-source-action/SPEC.md",
+    "absorbed/gu-source-action/DERIVATION-PROGRESS.md",
+    "absorbed/gu-source-action/SOURCE-ACTION-BUILDBENCH-PACKET-2026-07-10.md",
+    "absorbed/gu-source-action/lib/source_action_buildbench.py",
+    "absorbed/gu-source-action/tests/test_source_action_buildbench.py"
+  ],
+  "claim_ceiling": "This is exact custody and requirement qualification for the filed corpus. It is not proof that no source action exists, not authentication of Weinstein's unrecovered action, and not a K77, K91 or K155 physical verdict.",
+  "next_gate": "Test typed admission of this exact corpus against K91 quotient/domain ownership and K155's branch-local Weyl-leak fixture before any downstream action credit."
+}

@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "claim_id": "K103_SOURCE_ACTION_K91_K155_ADMISSION_BOUNDARY",
+  "status": "active_research",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "scope": "Typed admission of the exact absorbed Cl(9,5) source-action construction corpus against the repository K91 split-l2 quotient/domain control and K155 selected Cl(7,7) Weyl-leak fixture. This is a pre-target compatibility result, not a recomputation of K155 and not a universal source-action obstruction.",
+  "inputs": {
+    "source_corpus": {"real_form": "Cl(9,5)=M(64,H)", "action_status": "no_coefficient_complete_action", "domain_status": "no_common_closed_global_domain"},
+    "k91": {"carrier": "split_l2_complex", "owner": "repository_functional_control", "required_bridge": "action_preserving_cochain_domain_green_bridge"},
+    "k155": {"real_form": "Cl(7,7)", "carrier": "metric_10_plus_distortion_448", "owner": "selected_conditional_repository_action", "fixture": "fixed_nonzero_aligned_weyl_with_rotated_null_covector", "preserved_leakage_rank": 1}
+  },
+  "k91_admission": {
+    "real_action_to_split_complex_map": "absent",
+    "gauge_map_intertwining": "absent",
+    "quotient_exactness_bridge": "absent",
+    "closed_generator_domain_bridge": "absent",
+    "invariant_core_bridge": "absent",
+    "causal_green_boundary_bridge": "absent",
+    "result": "not_admitted"
+  },
+  "k155_admission": {
+    "real_form_action_bridge": "absent",
+    "source_selected_shiab_coefficients": "absent",
+    "same_order_action_owned_correction": "absent",
+    "common_field_and_hessian_identification": "absent",
+    "common_domain_and_green_identification": "absent",
+    "fixture_recomputation_licensed": false,
+    "preserved_branch_verdict": "rotated_metric_radical_leakage_rank_1_from_weyl_zero_order_term",
+    "result": "not_admitted_before_fixture"
+  },
+  "noncomposition_reasons": [
+    "The absorbed corpus is Cl(9,5) finite-fiber construction scaffolding, while K155 is a selected Cl(7,7) action packet; equal ambient dimension or complexification does not transport real action ownership.",
+    "K91's split l2 sequence and common closed graph domain are repository functional controls, not a continuation of the corpus's finite-fiber gamma-kernel complex.",
+    "No explicit cochain map intertwines the corpus gauge/constraint data with K91 d0, quotient q, generator Omega, rapid core or Green maps.",
+    "No action-selected coefficient or same-order correction from the corpus acts on K155's metric-10 plus distortion-448 carrier, so its Weyl fixture cannot be credited as tested by the corpus."
+  ],
+  "result": {
+    "qualification_state": "PRE_TARGET_NONADMISSION_AT_ACTION_CUSTODY_REAL_FORM_COCHAIN_DOMAIN_AND_COEFFICIENT_BRIDGES",
+    "k91_closed": false,
+    "k155_tested_by_source_corpus": false,
+    "k155_branch_verdict_changed": false,
+    "source_custody_advance": "The required transport packet is now explicit: action-preserving real-form, field/Hessian, cochain/quotient, common-domain/core, causal-Green and same-order K155 coefficient data must arrive together.",
+    "exact_reopener": "Supply one coefficient-complete action on a frozen real carrier plus explicit maps to the K91 complex/domain and K155 action carrier, prove gauge and quotient intertwining, preserve one common closed domain/core and Green form, and either reproduce K155 leakage or provide an action-owned same-order correction on the same fixture.",
+    "source_ownership_change": "none",
+    "prediction_or_confirmation_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none"
+  },
+  "evidence_refs": [
+    "lab/process/k103-absorbed-source-action-custody-qualification-wave.json",
+    "lab/process/k102-observed-k91-common-domain-instrument-descent-wave.json",
+    "lab/process/selected-k155-null-fivefold-third-lower.json",
+    "lab/process/w154-w229-k77-action-owner-qualification.json",
+    "GEOMETER-VS-PHYSICS-OBJECTS.md"
+  ],
+  "claim_ceiling": "Exact typed pre-target non-admission for the filed corpus only. No all-action theorem, no K91 or K155 physical verdict, no source attribution, no quotient/domain construction and no GU-wide no-go.",
+  "next_gate": "Obtain or construct the single coefficient-complete action-and-transport packet named by the exact reopener; do not extend the finite measurement ladder or mechanically continue K155 without that owner."
+}

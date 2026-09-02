@@ -7,6 +7,22 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K103 absorbed source-action custody qualification (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The absorbed `gu-source-action` corpus is repository construction evidence, explicitly not a completed or source-authenticated `S_IG` | `lab/process/k103-absorbed-source-action-custody-qualification-wave.json`; corpus status and executable buildbench controls (`35/35` after `4/4` positive controls) | exact custody and filed-corpus classification |
+| Zero filed packets own one coefficient-complete field/constraint, Euler/Noether-BV, Hessian/adjoint, closed-domain and causal-Green complex | fixed twelve-object denominator and hostile selftest (`14/14`) | exact non-admission for the current corpus |
+| No GU source action exists, or the corpus's partial components can never be unified | outside the quantified corpus and explicit reopener | false; this is not a universal action no-go |
+
+## K103 source-action K91/K155 admission boundary (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The absorbed `Cl(9,5)` corpus has no filed action-preserving real-form/cochain/domain bridge to K91's split `l2` complex | `lab/process/k103-source-action-k91-k155-admission-boundary-wave.json`; six explicit absent K91 bridge cells (`39/39` after `4/4` positive controls) | exact typed pre-target non-admission |
+| The corpus supplies neither a real action bridge nor same-carrier Shiab coefficients/correction for K155's selected `Cl(7,7)` Weyl fixture | carrier and owner matrix; hostile selftest (`18/18`) | exact fixture-admission boundary |
+| The corpus passes or fails K155, changes K155's branch verdict, or proves a universal source-action obstruction | fixture is not licensed and rank-one leak is preserved | false; K155 is neither recomputed nor generalized |
+
 ## K102 observed K91 common-domain instrument descent (2026-09-02)
 
 | Claim | Evidence | Honest grade |
