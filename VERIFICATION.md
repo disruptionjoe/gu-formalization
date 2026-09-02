@@ -2,10 +2,28 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-01"
+updated_at: "2026-09-02"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K92 observed spatial covariance and local-instrument wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The selected three-site rational state has zero one-site means, connected covariances `1/3,1/3,1/9` and exact endpoint Markov composition | `lab/process/k92-observed-spatial-covariance-local-instrument-wave.json`; exhaustive eight-state probe (`27/27`) | exact repository-owned finite spatial covariance control on a supplied tensor soldering |
+| A middle-site controlled detector derives complementary Kraus records with weights `1/2`, conditional adjacent means `+/-1/3`, commuting endpoint couplings and nonselective remote-marginal invariance | exact involution, completeness, conditioning, commutation and marginal controls | exact finite local record-instrument result under the imported state/trace interface |
+| Zero extension through the K91 split sequence makes the site and record observations representative-independent | exact quotient intertwining and gauge-leak control; hostile selftest (`17/17`) | exact compatibility with the repository-owned K91 quotient |
+| Source-selected tensor locality, continuum microcausality/AQFT, microlocal/Hadamard state or derived Born/record semantics | not constructed | open / explicitly excluded |
+
+## K92 observed locality-soldering ambiguity wave (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Standard site algebras and their `CZ_01` conjugates are distinct commuting tensor nets, while `CZ_01` fixes the K91 restricted spectrum `{1,...,8}`, the K92 diagonal state and all named `Z` covariances | `lab/process/k92-observed-locality-soldering-ambiguity-wave.json`; exact Pauli-algebra probe (`25/25`) | exact finite nonselection control by the frozen abstract/diagonal data |
+| The fixed state gives both local transverse instruments weights `(1/2,1/2)`, but `|+++>` gives standard `X0` plus weight `1` and primed `X0 Z1` plus weight `1/2` | exact detector-embedding discriminator | the instruments and spatial embeddings are distinct even though the frozen record table agrees |
+| The K91 quotient, generator/state spectrum, named covariance and one outcome table uniquely select physical locality | distinct-net construction and hostile selftest (`15/15`) | false for the frozen repository data; a source action or additional local owner may still select |
+| A universal theorem against source-selected locality, continuum AQFT/microcausality or microlocal state theory | not established | explicitly excluded |
 
 ## K91 observed functional causal-complex wave (2026-09-01)
 

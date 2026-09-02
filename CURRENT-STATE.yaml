@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1be5b4742230
+revision_basis: 1bd286681352
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The spatial-instrument/locality-soldering Big Wave closes the first K91
+    spatial compatibility control while exposing its missing selection owner.
+    A selected P8=(C2)^tensor3 factor inside the physical l2 term carries an
+    exact rational nearest-neighbor Ising state with connected covariances
+    1/3, 1/3 and 1/9. A middle-site controlled detector derives complementary
+    Kraus records with weights 1/2, conditional adjacent means +/-1/3,
+    commuting endpoint couplings, nonselective remote-marginal invariance and
+    gauge-basic zero extension. Independently, CZ conjugation gives a distinct
+    commuting tensor net while fixing the K91 restricted spectrum {1,...,8},
+    the diagonal state, all named Z covariances and the fixed-state record
+    weights. A |+++> witness distinguishes the local detector maps, so the
+    frozen abstract data admit but do not select spatial soldering. Probes pass
+    27/27 and 25/25; hostile selftests catch 17/17 and 15/15. The tensor net,
+    state, trace/Born pairing and record meaning remain supplied; no source,
+    continuum/microlocal, prediction or confirmation result is obtained.
     The functional-causal/unitary-instrument Big Wave composes two more
     reverse-demand owners without acquiring source custody. The split exact
     sequence 0 -> G -> G direct-sum P -> P -> 0, with G=P=l2(N,C), carries
@@ -5635,15 +5650,27 @@ current_result:
     - explorations/conditional-build/k90-observed-detector-response-kms-wave-2026-09-01.md
     - lab/process/k90-observed-detector-response-kms-wave.json
     - tests/channel-swings/k90_observed_detector_response_kms_probe.py
+    - explorations/conditional-build/k91-observed-functional-causal-complex-wave-2026-09-01.md
+    - lab/process/k91-observed-functional-causal-complex-wave.json
+    - tests/channel-swings/k91_observed_functional_causal_complex_probe.py
+    - explorations/conditional-build/k91-observed-unitary-detector-instrument-wave-2026-09-01.md
+    - lab/process/k91-observed-unitary-detector-instrument-wave.json
+    - tests/channel-swings/k91_observed_unitary_detector_instrument_probe.py
+    - explorations/conditional-build/k92-observed-spatial-covariance-local-instrument-wave-2026-09-02.md
+    - lab/process/k92-observed-spatial-covariance-local-instrument-wave.json
+    - tests/channel-swings/k92_observed_spatial_covariance_local_instrument_probe.py
+    - explorations/conditional-build/k92-observed-locality-soldering-ambiguity-wave-2026-09-02.md
+    - lab/process/k92-observed-locality-soldering-ambiguity-wave.json
+    - tests/channel-swings/k92_observed_locality_soldering_ambiguity_probe.py
 current_question: >-
   Does an independently source-owned K77 or gimmel full-carrier action realize
   the explicit quotient metric line, no-spurion content and total-stress
   descent; independently, does the source full functional constraint complex
   realize K91's exact sequence, closed gap, invariant-core, causal-support and
-  basicness criteria on one source quotient, and do its source-selected
-  covariance, local interaction and record algebra carry the unitary-derived
-  instrument through a microlocally admissible state while deriving rather
-  than importing the Born pairing?
+  basicness criteria on one source quotient, and does its causal geometry or
+  action select a spatial local-algebra soldering across the K92 ambiguity,
+  together with a microlocally admissible state, local detector coupling,
+  record algebra and derived rather than imported Born pairing?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -5653,27 +5680,29 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Execute one largest honest compatible Big Wave on typed owner construction.
-  K91 now composes K89's closed gapped generator and K90's causal/basicness
-  demands on one repository-owned split functional sequence, and derives one
-  exact finite record instrument from a stipulated unitary interaction. The
-  next quantum arc is no longer another modewise time-only Green table or an
-  imported instrument: obtain the source-owned functional constraint complex
-  and prove the K91 sequence/domain/support/basicness conditions on one source
-  quotient. Then construct its source-selected spatial covariance, local
-  detector coupling and record algebra on that same causal domain, and
-  determine whether the trace/Born pairing is derived or still imported.
-  A source-independent continuation may construct one spatially local
-  repository control that composes covariance, coupling and instrument
-  descent on the K91 sequence, but it earns no source or microlocal credit.
-  In parallel, retain the
+  K92 now supplies one finite selected spatial covariance/local instrument on
+  the K91 quotient and proves that the quotient, restricted gapped spectrum,
+  diagonal state, named Z covariances and one record-weight table do not select
+  the tensor net or transverse detector embedding. The next quantum arc is no
+  longer another static finite tensor compatibility: obtain the source-owned
+  functional constraint complex and prove the K91 sequence/domain/support/
+  basicness conditions on one source quotient. Then identify a source causal
+  geometry, action or functor that selects a spatial local-algebra net across
+  the K92 soldering ambiguity, construct its microlocally admissible state,
+  local detector coupling and record algebra, and determine whether the
+  trace/Born pairing is derived or still imported. A source-independent
+  continuation may construct one action-owned spatial dynamics that
+  discriminates candidate solderings and composes propagation with the K92
+  instrument, but it earns no source or microlocal credit. In parallel, retain the
   source-owned K77 or gimmel full-carrier gravity action as the highest missing
   owner and test quotient-metric, no-spurion, coframe-Euler and total-stress
   conditions. Preserve K81 source-symbol and cross-null domain reopeners below
-  those routes; do not promote the split diagonal control to a source or
-  curved-spacetime BV-BFV complex, its time-only pair to Green hyperbolicity,
-  the finite Kraus dilation to a source detector or derived Born law, finite
-  lattice support to continuum AQFT, or either packet to a GU prediction, and
-  do not union packet cells by assertion or score delayed-choice entanglement
+  those routes; do not promote the selected P8 tensor factor to source
+  locality, equal-time commuting algebras to continuum microcausality, finite
+  diagonal covariance to a Hadamard state, the detector dilation to a source
+  interaction or derived Born law, K92 nonselection by frozen data to a
+  universal no-locality theorem, or either packet to a GU prediction, and do
+  not union packet cells by assertion or score delayed-choice entanglement
   swapping.
 
   A failed or wrong-direction packet reroutes its capacity to the next

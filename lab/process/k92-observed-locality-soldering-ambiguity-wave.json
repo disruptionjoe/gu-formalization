@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K92-OBSERVED-LOCALITY-SOLDERING-AMBIGUITY",
+  "created": "2026-09-02",
+  "status": "complete_repository_nonselection_control",
+  "direction": "observed_to_native_reverse_scaffold",
+  "target_claim": "INTERNAL_TARGET:K91_ABSTRACT_DATA_SELECT_SPATIAL_LOCALITY_NET",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "fixed_data": {
+    "physical_factor": "P8=(C2) tensor (C2) tensor (C2), selected inside the K91 physical l2 term",
+    "generator": "Omega8=(9/2)I8-(1/2)Z0-Z1-2Z2 with spectrum {1,2,3,4,5,6,7,8}",
+    "state": "the K92 diagonal rational Ising state",
+    "covariance_family": ["Z0", "Z1", "Z2"],
+    "gauge_quotient": "the same zero-extended K91 split quotient",
+    "record_weights_on_fixed_state": ["1/2", "1/2"]
+  },
+  "two_spatial_solderings": {
+    "standard_site_zero_generators": ["X0", "Z0"],
+    "standard_site_one_generators": ["X1", "Z1"],
+    "entangling_conjugation": "W=CZ01",
+    "primed_site_zero_generators": ["X0 Z1", "Z0"],
+    "primed_site_one_generators": ["Z0 X1", "Z1"],
+    "cross_site_commutation_in_each_net": true,
+    "nets_distinct": true,
+    "generator_state_and_Z_covariance_fixed_by_W": true
+  },
+  "detector_discriminator": {
+    "standard_local_observable": "X0",
+    "primed_local_observable": "X0 Z1",
+    "fixed_state_record_weights_equal": true,
+    "plus_product_witness": "|+++>",
+    "standard_plus_weight": "1",
+    "primed_plus_weight": "1/2",
+    "conclusion": "the abstract quotient, fixed diagonal generator/state/Z-covariance and one record-weight table do not select the detector embedding or spatial net"
+  },
+  "maximum_conclusion": "Nonselection only by the frozen repository data. A source action, causal geometry, interaction law or additional local-algebra axiom may select one soldering.",
+  "owner_accounting": {
+    "repository_owned": [
+      "standard_tensor_soldering",
+      "CZ_conjugate_tensor_soldering",
+      "fixed_data_equivalence_control",
+      "detector_embedding_discriminator"
+    ],
+    "imported": [
+      "initial_P8_embedding",
+      "site_tensor_labels",
+      "trace_Born_pairing",
+      "detector_record_semantics"
+    ],
+    "source_selected_owner_count": 0
+  },
+  "fences": {
+    "source_locality_nonselection_theorem": false,
+    "no_possible_locality_selector": false,
+    "continuum_AQFT_or_microcausality": false,
+    "microlocal_or_Hadamard_state": false,
+    "Born_rule_derived": false,
+    "physical_detector_selected": false,
+    "prediction_confirmation_or_verdict": false,
+    "held_out_scored": false,
+    "cross_packet_union_allowed": false
+  },
+  "holdout_firewall": {
+    "family": "delayed_choice_entanglement_swapping",
+    "status": "reserved_unscored",
+    "scored_in_this_result": false
+  },
+  "probe": "tests/channel-swings/k92_observed_locality_soldering_ambiguity_probe.py",
+  "result_ref": "explorations/conditional-build/k92-observed-locality-soldering-ambiguity-wave-2026-09-02.md",
+  "claim_ceiling": "Exact finite nonselection of a spatial tensor net and local detector embedding by the frozen K91 quotient plus the named diagonal generator, state, Z-covariance and fixed-state record weights; no theorem against source-selected locality, continuum AQFT/microcausality, microlocal/Hadamard theory, derived Born law, prediction, confirmation, held-out score or verdict."
+}
