@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "LITERAL-OBSERVATION-GAMMA-KERNEL-OBSTRUCTION-PACKAGE",
+  "date": "2026-09-02",
+  "status": "working_draft_verified",
+  "target_claim": "Package the exact ambient gamma-kernel/literal-observation-pullback obstruction without classifying the physical leftover or importing an unowned action or quotient.",
+  "verdict": "admitted_exact_linear_algebra_grade",
+  "artifacts": {
+    "working_paper": "papers/drafts/literal-observation-gamma-kernel-obstruction/literal-observation-gamma-kernel-obstruction.md",
+    "claim_ledger": "papers/drafts/literal-observation-gamma-kernel-obstruction/CLAIM-AND-PREMISE-LEDGER.json",
+    "verification": "papers/drafts/literal-observation-gamma-kernel-obstruction/VERIFICATION.md",
+    "reproduction": "papers/drafts/literal-observation-gamma-kernel-obstruction/reproduce_all.py",
+    "independent_probe": "tests/attention-shots/literal_observation_gamma_kernel_obstruction.py",
+    "upstream_probe": "tests/channel-swings/source_native_spin64_observation_sector_probe.py",
+    "lean_kernel": "Lean/GUFormalization/SourceNativeSpin64Observation.lean",
+    "escape_probe": "tests/channel-swings/source_native_corrected_observation_probe.py",
+    "escape_lean_kernel": "Lean/GUFormalization/SourceNativeCorrectedObservation.lean"
+  },
+  "exact_results": {
+    "ambient_carrier": "H times N",
+    "ambient_contraction": "Gamma_A(h,n)=Gamma_H(h)+Gamma_N(n)",
+    "normal_split": "Gamma_N composed with j_N equals identity on S",
+    "kernel_witness": "t_h=(h,-j_N Gamma_H(h))",
+    "ambient_trace": "Gamma_A(t_h)=0",
+    "literal_observation": "P(t_h)=h",
+    "observed_trace": "Gamma_H(P(t_h))=Gamma_H(h), nonzero for the frozen witness",
+    "kernel_preservation": "false for literal pullback under the theorem premises",
+    "algebraic_escape": "Q_H=1-j_H Gamma_H removes observed trace when a separate observed right inverse is supplied",
+    "physical_leftover": "unclassified"
+  },
+  "claim_ceiling": "Exact module-linear obstruction to preserving an ambient Clifford kernel under literal horizontal pullback; no universal observation no-go, source-selected correction, action-owned quotient, physical leftover classification, family, chirality, mass, prediction or GU verdict follows.",
+  "excluded_promotions": [
+    "universal obstruction to all observation maps",
+    "source/action ownership of the split or correction",
+    "physical quotient or observed-sector classification",
+    "family, chirality, mass or interaction claim",
+    "observable prediction or GU confirmation/falsification",
+    "candidate promotion or external publication"
+  ],
+  "external_effect": false
+}

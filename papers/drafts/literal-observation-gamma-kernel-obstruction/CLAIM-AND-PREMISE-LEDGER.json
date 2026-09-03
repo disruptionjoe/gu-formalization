@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "status": "working_draft",
+  "result_id": "LITERAL-OBSERVATION-GAMMA-KERNEL-OBSTRUCTION",
+  "claim_grade": "exact_linear_algebra_grade",
+  "theorem": "For an ambient split H times N with Gamma_A(h,n)=Gamma_H(h)+Gamma_N(n), a supplied right inverse j_N of Gamma_N, literal observation P(h,n)=h, and any h with nonzero Gamma_H(h), the element (h,-j_N Gamma_H(h)) lies in ker Gamma_A while its literal observation has nonzero Gamma_H trace. Thus literal observation does not preserve the ambient gamma kernel. No physical leftover, quotient or source-selected correction is classified.",
+  "premises": [
+    {
+      "id": "P1",
+      "statement": "The ambient one-form-spinor carrier is split as H times N.",
+      "evidence": ["source-native horizontal/normal observation typing", "SourceNativeSpin64Observation.lean"],
+      "reopener": "A source-owned observation geometry with a different carrier or nonsplit extension."
+    },
+    {
+      "id": "P2",
+      "statement": "The ambient contraction is Gamma_A(h,n)=Gamma_H(h)+Gamma_N(n).",
+      "evidence": ["exact module-linear definition", "upstream Clifford probe"],
+      "reopener": "A corrected contraction containing additional owned terms."
+    },
+    {
+      "id": "P3",
+      "statement": "Gamma_N has a supplied linear right inverse j_N.",
+      "evidence": ["Clifford multiplication by a non-null normal direction", "general Lean premise"],
+      "reopener": "A normal carrier on which the stated right-inverse law fails."
+    },
+    {
+      "id": "P4",
+      "statement": "Literal observation is the first projection P(h,n)=h.",
+      "evidence": ["constant-section pullback model", "source-native observation typing"],
+      "reopener": "A source-owned spinor intertwiner, correction or nonliteral observation map."
+    },
+    {
+      "id": "P5",
+      "statement": "Some horizontal element h has nonzero Gamma_H trace.",
+      "evidence": ["invertible Clifford multiplication by a non-null horizontal covector", "exact Cl(1,1) witness"],
+      "reopener": "A horizontal carrier on which Gamma_H vanishes identically."
+    },
+    {
+      "id": "P6",
+      "statement": "The normal lift uses exactly -j_N Gamma_H(h), so its trace cancels rather than doubles the horizontal trace.",
+      "evidence": ["displayed theorem proof", "baseline-first finite certificate"],
+      "reopener": "A sign or contraction convention that invalidates the cancellation."
+    },
+    {
+      "id": "P7",
+      "statement": "The existing corrected projector is only an algebraic control relative to a separately supplied observed right inverse.",
+      "evidence": ["SourceNativeCorrectedObservation.lean", "corrected-observation exact probe"],
+      "reopener": "A source/action-owned selection and compatibility proof for a specific correction."
+    },
+    {
+      "id": "P8",
+      "statement": "No action-owned constraint, BV/BFV, boundary or domain quotient supplies physical meaning for the observed leftover.",
+      "evidence": ["current native gate", "explicit owner accounting"],
+      "reopener": "A representative-independent physical quotient with owned action, pairing and observation compatibility."
+    }
+  ],
+  "allowed_claims": [
+    "exact ambient gamma-kernel lift from a supplied normal right inverse",
+    "exact nonzero observed gamma trace after literal horizontal pullback",
+    "failure of literal pullback to preserve the ambient gamma kernel",
+    "existence of a separately supplied algebraic corrected-projector escape",
+    "nonclassification of the observed leftover at the current owner ceiling"
+  ],
+  "forbidden_claims": [
+    "universal obstruction to every observation map",
+    "source selection of the corrected projector or its right inverse",
+    "physical classification, chirality or family meaning of the leftover",
+    "action-owned quotient, state space, mass or interaction",
+    "observable prediction or GU verdict",
+    "candidate promotion or external publication"
+  ],
+  "executable": "tests/attention-shots/literal_observation_gamma_kernel_obstruction.py"
+}

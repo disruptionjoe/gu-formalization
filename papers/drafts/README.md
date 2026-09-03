@@ -22,6 +22,10 @@ lifecycle in [`../README.md`](../README.md).
 
 ## Still in progress here (selected)
 
+- [`literal-observation-gamma-kernel-obstruction/`](literal-observation-gamma-kernel-obstruction/)
+  — an exact map-level theorem package: literal horizontal pullback can delete
+  the normal cancellation that made an ambient one-form spinor gamma-traceless;
+  the observed leftover remains physically unclassified.
 - [`pati-salam-representation-channel-theorem/`](pati-salam-representation-channel-theorem/)
   — an exact representation-grade theorem package: the symmetric adjoint
   square reaches the `54` and `210` Pati-Salam owners while the alternating

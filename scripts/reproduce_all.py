@@ -45,6 +45,7 @@ PAPER_CERT_DIRS = [
     os.path.join(REPO_ROOT, "papers", "drafts", "declared-content-extra-vector-obstruction"),
     os.path.join(REPO_ROOT, "papers", "drafts", "sigma-dark-energy-sign-nonselection"),
     os.path.join(REPO_ROOT, "papers", "drafts", "pati-salam-representation-channel-theorem"),
+    os.path.join(REPO_ROOT, "papers", "drafts", "literal-observation-gamma-kernel-obstruction"),
     os.path.join(REPO_ROOT, "papers", "candidates"),
     # Added 2026-08-08 (register P-H9): general_krein_grading_sign.py lived under
     # papers/drafts/ but outside every declared root, so no harness swept it. It

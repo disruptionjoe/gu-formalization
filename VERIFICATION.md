@@ -7,6 +7,16 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Literal-observation gamma-kernel obstruction (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A supplied right inverse for the normal Clifford contraction lifts every horizontal element `h` to `(h,-j_N Gamma_H(h))` in the ambient gamma kernel | `lab/process/literal-observation-gamma-kernel-obstruction-package.json`; general Lean theorem; independent exact certificate (`20/20`) | exact module-linear kernel-lift theorem |
+| If `Gamma_H(h)` is nonzero, literal pullback returns `h` with nonzero observed trace, so it does not preserve the ambient gamma kernel | displayed proof, upstream exact Clifford control and Lean kernel | exact map-level obstruction |
+| The result classifies every observation map or the physical meaning of the observed leftover | explicit literal-map quantifier and owner ceiling; hostile selftest (`9/9`) | false / outside scope |
+| A supplied observed right inverse gives an algebraic trace-subtraction escape | existing corrected-observation Python and Lean controls | exact algebraic control, not source/action selected |
+| The package constructs a source intertwiner, physical quotient, family, chirality, mass, observable prediction or GU verdict | source/action/quotient and physical-credit fences | false / outside scope |
+
 ## Pati-Salam representation-channel theorem (2026-09-02)
 
 | Claim | Evidence | Honest grade |

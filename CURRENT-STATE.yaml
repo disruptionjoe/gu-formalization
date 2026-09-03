@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1f34549e6cb1
+revision_basis: b9af62e89868
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The literal-observation gamma-kernel Big Wave packages the exact map-level
+    obstruction as a self-contained theorem. For an ambient split H times N,
+    a supplied normal Clifford right inverse sends every horizontal h to the
+    ambient gamma-traceless lift (h,-j_N Gamma_H(h)). Literal observation
+    discards the normal cancellation and returns h, so any nonzero horizontal
+    trace remains nonzero and the ambient gamma kernel is not preserved. The
+    independent certificate passes 20/20 baseline checks and catches 9/9
+    hostile premise or scope mutations; the capsule reruns the upstream exact
+    Spin(6,4) control and both relevant Lean kernels. A separately supplied
+    trace-subtraction projector repairs the algebra, but no source/action owns
+    it and no physical leftover, quotient, family, chirality, mass, observable
+    or GU verdict is classified.
     The Pati-Salam representation-channel Big Wave packages the exact
     adjoint/144 degree ladder as a self-contained representation theorem. The
     same-label 16 tensor 144 support intersects Sym^2(45) in exactly 54 and
@@ -6074,10 +6086,17 @@ current_result:
     - papers/drafts/pati-salam-representation-channel-theorem/reproduce_all.py
     - lab/process/pati-salam-representation-channel-theorem-package.json
     - tests/attention-shots/pati_salam_representation_channel_theorem.py
+    - papers/drafts/literal-observation-gamma-kernel-obstruction/literal-observation-gamma-kernel-obstruction.md
+    - papers/drafts/literal-observation-gamma-kernel-obstruction/CLAIM-AND-PREMISE-LEDGER.json
+    - papers/drafts/literal-observation-gamma-kernel-obstruction/VERIFICATION.md
+    - papers/drafts/literal-observation-gamma-kernel-obstruction/reproduce_all.py
+    - lab/process/literal-observation-gamma-kernel-obstruction-package.json
+    - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Does the exact ambient gamma-kernel construction and literal observation
-  pullback prove a self-contained obstruction to preserving observed
-  gamma-tracelessness without classifying the physical leftover?
+  After completing the ordered local binary-theorem portfolio, what largest
+  honest compatible reverse-scaffold Wave most advances the conditional
+  physical-state/observable interface without importing source-action,
+  quotient, Born, prediction or confirmation ownership?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6101,8 +6120,14 @@ next_condition: >-
   representation-channel theorem with no selected coefficient, contraction,
   family, physical vertex, mass, observed sector or prediction. Reopen it only
   on a named D5-support, singlet-count, real-pairing, source-contraction or
-  selection premise change. Next package the literal observation-pullback/
-  gamma-kernel obstruction without classifying the physical leftover.
+  selection premise change. The fourth package is also complete: the literal
+  observation-pullback/gamma-kernel theorem now proves that a supplied normal
+  right inverse constructs an ambient kernel element whose nonzero horizontal
+  trace survives literal pullback. Reopen it only on a named split,
+  contraction, right-inverse, pullback, horizontal-trace, corrected-map or
+  physical-quotient premise change. The ordered local binary-theorem portfolio
+  is complete; rebuild the substantial reverse-scaffold frontier from current
+  owner truth before selecting the next Wave.
   Located, Not Forced is already published and is not new
   work. Do not route these waves to external review,
   journal submission, outreach or dissemination, and do not depend on outside

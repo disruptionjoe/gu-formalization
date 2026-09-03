@@ -6185,3 +6185,18 @@ and physical overreach.
 ```sh
 python3 tests/attention-shots/pati_salam_representation_channel_theorem.py --selftest
 ```
+
+## Literal-observation gamma-kernel obstruction
+
+`attention-shots/literal_observation_gamma_kernel_obstruction.py`
+independently realizes the horizontal/normal Clifford split, constructs the
+ambient gamma-kernel lift, and verifies that literal horizontal pullback
+retains a nonzero observed gamma trace. The baseline passes 20 exact checks;
+`--selftest` plants nine mutations covering the normal right inverse,
+contraction, horizontal witness, cancellation sign, literal-map typing,
+source-correction ownership, physical quotient and leftover-classification
+ceilings.
+
+```sh
+python3 tests/attention-shots/literal_observation_gamma_kernel_obstruction.py --selftest
+```
