@@ -7,6 +7,17 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K120 K119 relativistic Fock continuum dilation boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K118's massless right-moving Klein--Gordon characteristic sector admits one edge-channel Fock lift with exact disjoint-interval factorization and characteristic shift | `lab/process/k120-k119-relativistic-fock-continuum-dilation-wave.json`; wave-equation, null-covector, time-bin and no-wrap controls (`25/25`) | exact repository-owned characteristic/Fock continuum construction |
+| The adapted continuum coupling is unitary and its vacuum reduction is exactly K115 on the diagonal algebra | Hudson--Parthasarathy coefficient identity `K+K*+sum L*L=0`; exact Lindblad-basis and stationary controls | exact finite-system quantum-stochastic dilation theorem for the declared channels |
+| K119's time-bin collisions converge to this continuum reduced semigroup | exact cell embedding, `theta(h)/h~sqrt(q/h)`, and inherited `d_TV<=t Lambda^2/m` bound | rigorous reduced diagonal collision-to-white-noise limit; no full joint operator-norm claim |
+| Incoming vacuum, shift and output state/effect semantics are no longer unnamed operations | Fock vacuum factorization, second-quantized characteristic translation, diagonal effects and adapted output counts with intensity `p_i q_ij` | exact mathematical owner tuple; not physical/source authentication or a Born derivation |
+| Smooth finite-band regularizations own a common action/domain/BV-BFV boundary | finite-particle `H1 subset L2 subset H^-1` rigging, first-order action variation and endpoint nongauge identity | controlled regularized action boundary; singular white noise is not an ordinary finite-energy action |
+| The packet derives K118's quantization choices, a source/GU action, finite-energy KMS/Hadamard state, full AQFT net, nontrivial gauge BV, Born rule, prediction or confirmation | explicit owner decomposition and hostile selftest (`35/35`) | false / not constructed |
+
 ## K119 K118 collision Hamiltonian and thermodynamic reservoir boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

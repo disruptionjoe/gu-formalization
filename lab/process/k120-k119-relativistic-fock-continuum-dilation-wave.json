@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K120-K119-RELATIVISTIC-FOCK-CONTINUUM-DILATION-2026-09-03",
+  "status": "exact_massless_characteristic_Fock_shift_HP_dilation_K115_reduced_white_noise_limit_and_state_effect_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k119-k118-collision-hamiltonian-thermodynamic-reservoir-wave.json",
+    "lab/process/k118-k117-finite-controller-continuum-bv-bfv-host-wave.json"
+  ],
+  "relativistic_characteristic_host": {
+    "parent_equation": "K118_massless_Klein_Gordon_equation_on_a_Lorentzian_cylinder",
+    "sector": "right_moving_solutions_psi_of_t_x_equal_f_of_x_minus_t",
+    "wavefront": "nonzero_covectors_are_right_moving_null_characteristics",
+    "finite_horizon_cylinder_before_wrap": true,
+    "decompactification_limit": "fix_the_horizon_then_send_the_circumference_to_infinity",
+    "one_particle_space": "L2_of_the_incoming_null_line_with_one_multiplicity_channel_per_directed_K115_edge",
+    "common_rigged_domain": "finite_particle_Fock_H1_compact_support_subset_Fock_L2_subset_distributional_Hminus1_boundary",
+    "sharp_white_noise_increment_claimed_to_be_H1": false
+  },
+  "incoming_state_and_shift": {
+    "symmetric_Fock_space_constructed": true,
+    "disjoint_interval_Fock_factorization": true,
+    "incoming_vacuum_factorizes_over_intervals": true,
+    "right_shift_is_second_quantized_characteristic_translation": true,
+    "freshness_owner": "orthogonal_future_Fock_factors_on_the_infinite_incoming_null_line",
+    "finite_reused_tape": false,
+    "vacuum_source_selected_or_thermodynamically_free": false
+  },
+  "continuum_interaction": {
+    "edge_operators": "L_j_from_i_equals_square_root_q_ij_times_ket_j_bra_i",
+    "HP_drift": "minus_one_half_sum_L_star_L",
+    "HP_unitarity_identity": true,
+    "unitary_adapted_cocycle": true,
+    "future_input_nondemolition": true,
+    "vacuum_reduced_generator": "sum_L_rho_L_star_minus_one_half_anticommutator_sum_L_star_L_rho",
+    "diagonal_restriction_exactly_K115": true,
+    "K115_stationary_diagonal_state_preserved": true
+  },
+  "collision_white_noise_limit": {
+    "K119_cell_embeds_as_vacuum_plus_one_particle_edge_modes_of_each_time_bin": true,
+    "collision_angle_scaling": "theta_i_of_h_over_h_equals_square_root_q_i_over_h_plus_order_square_root_h",
+    "one_step_reduced_channel": "identity_plus_h_times_K115_generator",
+    "continuum_vacuum_reduction": "exponential_t_times_K115_generator_on_the_diagonal_algebra",
+    "reduced_total_variation_bound": "for_h_equal_one_over_m_and_integer_t_at_most_t_times_Lambda_squared_over_m",
+    "full_joint_operator_norm_convergence_claimed": false
+  },
+  "state_effect_and_output": {
+    "mathematical_state_tuple": "Fock_vacuum_functional_and_diagonal_system_density_matrices",
+    "mathematical_effect_tuple": "diagonal_record_projections_and_output_count_spectral_effects",
+    "edge_output_intensity": "p_i_of_t_times_q_ij",
+    "stationary_activity_and_entropy_production_recovered": true,
+    "past_output_commutes_with_future_input": true,
+    "Born_rule_derived": false,
+    "physical_state_authentication": false
+  },
+  "regularized_action_boundary": {
+    "smooth_finite_band_chiral_time_bin_actions": true,
+    "variation_owns_regularized_joint_unitary": true,
+    "endpoint_symplectic_and_minimal_nongauge_BV_BFV_identity": true,
+    "white_noise_limit_is_singular_h_inverse_square_root_scaling": true,
+    "ordinary_finite_energy_action_limit_claimed": false,
+    "nontrivial_gauge_or_ghost_complex_constructed": false
+  },
+  "ownership_boundary": {
+    "K118_original_real_field_selected_complex_structure_Fock_vacuum_channels_or_coupling": false,
+    "Weinstein_source_or_GU_action_constructed": false,
+    "finite_closed_equilibrium_bath_constructed": false,
+    "finite_energy_KMS_or_Hadamard_state_constructed": false,
+    "full_AQFT_net_constructed": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "directed_edge_channels": 36,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "characteristic_HP_generator_stationarity_collision_limit_output_and_domain_boundaries_checked": true
+  },
+  "exact_reopener": "Physically or source-authenticate the complex polarization, incoming state, channel multiplicity and interaction from a GU-owned action or controlled finite-energy Hadamard/KMS reservoir, then construct local observable algebras and test nontrivial gauge BV cohomology and Born/export claims without using the calibration anchors as confirmation.",
+  "claim_ceiling": "Exact repository-owned massless right-moving Klein-Gordon characteristic lift, edge-channel Fock factorization and shift, Hudson-Parthasarathy dilation of the K115 generator, K119 time-bin-to-white-noise reduced limit, causal output counting and mathematical state-effect owner only. The complex structure, Fock vacuum, channel multiplicity and coupling are supplied repository constructions rather than K118-selected, source-owned or GU-native data. No finite-energy KMS or Hadamard state, full AQFT net, nontrivial gauge BV theory, Born derivation, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}

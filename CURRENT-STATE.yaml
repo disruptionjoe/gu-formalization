@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8449319cb81f
+revision_basis: efcaca082ef3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K120 relativistic-Fock-continuum Big Wave joins K119's edge-labelled
+    collision tape to the massless right-moving characteristic sector of
+    K118's Klein--Gordon host. On the incoming null line, one edge channel per
+    directed K115 rate gives a symmetric Fock space whose disjoint interval
+    factors own freshness and whose second-quantized characteristic
+    translation owns the shift. The Hudson--Parthasarathy coefficients
+    L_(j<-i)=sqrt(q_ij)|j><i| satisfy the exact unitarity identity; vacuum
+    reduction restricts to K115's generator on the diagonal algebra and
+    preserves its stationary law. K119's local time-bin cells embed as
+    vacuum-plus-one-particle interval sectors, and its total-variation bound
+    now gives a controlled reduced collision-to-white-noise limit. Adapted
+    output counts recover stationary activity and entropy production. Smooth
+    finite-band regularizations share one finite-particle H1/L2/H^-1 rigged
+    domain and a minimal nongauge action/BV-BFV boundary, while the singular
+    white-noise limit is claimed only coefficientwise and on the reduced
+    diagonal semigroup. The complex structure, Fock vacuum, edge multiplicity,
+    coupling and effect interpretation are repository constructions rather
+    than K118-selected, source-owned or GU-native data. The certificate passes
+    25/25 and catches 35/35 hostile mutations. No finite-energy KMS/Hadamard
+    state, full AQFT net, nontrivial gauge BV theory, Born derivation,
+    prediction, confirmation, holdout score, canon or public posture moves.
     The K119 collision-Hamiltonian/thermodynamic-reservoir Big Wave gives every
     directed edge of K115 an explicit local star-rotation interaction with a
     fresh edge-labelled tape cell. Tracing one initialized cell yields exactly
@@ -6291,10 +6312,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K119's edge-labelled fresh-tape collision limit and K118's free
-  Klein-Gordon BV-BFV host be joined by one relativistic continuum local
-  interaction on a common Sobolev/microlocal domain, with the incoming state,
-  shift and state-effect interpretation physically or source owned?
+  Can K120's repository-owned massless characteristic/Fock dilation be
+  physically or source authenticated: can one GU-owned action or controlled
+  finite-energy Hadamard/KMS reservoir select its complex polarization,
+  incoming state, edge multiplicity, interaction and observable effects?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6303,6 +6324,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K120 now supplies one conditional relativistic continuum dilation of K115.
+  The massless right-moving characteristic sector of K118's Klein--Gordon
+  equation carries edge-channel Fock factors, the characteristic shift,
+  factorized incoming vacuum, an adapted Hudson--Parthasarathy interaction and
+  causal output counts on one H1/L2/H^-1 rigged domain. Its vacuum reduced
+  generator is exactly K115 on the diagonal algebra, and K119's time-bin
+  construction converges there with its quantitative total-variation bound.
+  This closes the mathematical common-host, state, shift and effect tuple but
+  not its physical/source ownership. Next physically or source authenticate
+  the complex polarization, vacuum or finite-energy replacement, channel
+  multiplicity, coupling coefficients and effect algebra from a GU-owned
+  action or a controlled Hadamard/KMS weak-coupling construction. Only then
+  test local observable nets, nontrivial gauge BV cohomology, physical state
+  selection and Born/export claims. Do not call the singular Fock vacuum a
+  finite equilibrium bath, claim sharp white noise is H1, promote reduced
+  diagonal convergence to full joint operator-norm convergence, or reopen
+  K108--K120 without a named premise change.
+
   K119 now supplies an explicit local Hamiltonian dilation of K115. For every
   allowed step h, tracing one freshly initialized edge-labelled cell gives
   exactly I+hQ on the diagonal algebra, and repeated collisions converge to
