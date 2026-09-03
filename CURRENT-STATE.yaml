@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: efcaca082ef3
+revision_basis: d93d35edc63d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K121 thermal-Araki--Woods boundary-net Big Wave physically upgrades
+    K120's incoming field in one controlled repository construction. K117's
+    exact cycle ratio 256/6561 proves that no one faithful equilibrium
+    KMS/detailed-balance generator can restrict to exact K115. Pairing K115's
+    36 edges gives 18 undirected transitions: six asymmetric record pairs are
+    realized by positive-temperature chiral-current channels with
+    gamma=455/1243, n=16/65 and exp(-beta omega)=16/81, while twelve symmetric
+    pairs use 24 directed vacuum channels. Araki--Woods doubling of the six
+    thermal channels adds twelve vacuum noises, so the total is exactly 36 and
+    every K115 rate is recovered. Interval-local Weyl CCR algebras are
+    isotone, commute on disjoint null intervals and translate covariantly; the
+    thermal current covariance differs smoothly from vacuum locally, has the
+    boundary Hadamard singularity class and finite renormalized local energy
+    density. The stationary infinite-line state has infinite total energy and
+    is not a normal Gibbs density in the vacuum Fock representation. The
+    thermal HP generator, stationary law, activity and entropy production are
+    exact. Temperatures, channel pairing, couplings, work supply and effects
+    remain repository-selected rather than source/GU-owned. The certificate
+    passes 33/33 and catches 38/38 hostile mutations. No single closed
+    equilibrium bath, full spacetime AQFT, nontrivial gauge BV, Born
+    derivation, prediction, confirmation, holdout, canon or public-posture
+    move follows.
     The K120 relativistic-Fock-continuum Big Wave joins K119's edge-labelled
     collision tape to the massless right-moving characteristic sector of
     K118's Klein--Gordon host. On the incoming null line, one edge channel per
@@ -5743,6 +5765,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k121-k120-thermal-araki-woods-kms-boundary-net-wave-2026-09-03.md
+    - lab/process/k121-k120-thermal-araki-woods-kms-boundary-net-wave.json
+    - tests/channel-swings/k121_k120_thermal_araki_woods_kms_boundary_net_probe.py
     - explorations/conditional-build/k81-null-zero-crossing-matching-wave-2026-09-01.md
     - lab/process/k81-null-zero-crossing-matching-wave.json
     - tests/channel-swings/k81_null_zero_crossing_matching_probe.py
@@ -6312,10 +6337,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K120's repository-owned massless characteristic/Fock dilation be
-  physically or source authenticated: can one GU-owned action or controlled
-  finite-energy Hadamard/KMS reservoir select its complex polarization,
-  incoming state, edge multiplicity, interaction and observable effects?
+  Can K121's repository-owned thermal boundary reservoir be replaced by one
+  source-owned autonomous nonequilibrium GU field theory that derives its
+  polarization, temperatures, channel organization, work source, couplings
+  and state-effect meaning, and can its null-boundary net descend through the
+  bulk and gauge quotient?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6324,6 +6350,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K121 supplies a controlled locally thermal replacement for K120's incoming
+  vacuum and explains its 36 directed noises through an exact Araki--Woods
+  decomposition of K115. The six asymmetric record pairs use positive-
+  temperature chiral-current channels with beta omega=log(81/16); the twelve
+  symmetric pairs use two directed vacuum channels each. Their thermal HP
+  generator is exactly K115 and the interval-local null-boundary CCR net has
+  the local Hadamard singularity class and finite renormalized energy density.
+  K117's nonunit cycle simultaneously proves that this cannot be one faithful
+  equilibrium detailed-balance bath: independently routed reservoirs and
+  switching/work remain required. Next derive the polarization, temperatures,
+  pair decomposition, work source, couplings and state-effect meaning from one
+  source-owned GU action or microscopic autonomous nonequilibrium field
+  theory, then extend the boundary net through the bulk and gauge quotient.
+  Do not call local energy finite total energy, promote a boundary-current
+  Hadamard statement to a full scalar spacetime theorem, relabel the declared
+  quasifree/trace pairing as a Born derivation, or reopen K108--K121 without a
+  named premise change.
+
   K120 now supplies one conditional relativistic continuum dilation of K115.
   The massless right-moving characteristic sector of K118's Klein--Gordon
   equation carries edge-channel Fock factors, the characteristic shift,

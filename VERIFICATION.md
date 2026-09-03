@@ -7,6 +7,17 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K121 K120 thermal Araki--Woods KMS boundary-net boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One faithful equilibrium KMS/detailed-balance generator can restrict to exact K115 | K117's exact Kolmogorov cycle ratio is `256/6561 != 1`; invariant diagonal restriction of a faithful QDB generator is reversible | false for the stated single-equilibrium owner |
+| K115's 18 undirected pairs admit an exact thermal/vacuum decomposition whose Araki--Woods representation has 36 effective noise modes | `lab/process/k121-k120-thermal-araki-woods-kms-boundary-net-wave.json`; exact pair census and rate arithmetic (`33/33`) | exact repository-owned multi-reservoir dilation theorem |
+| The six asymmetric pairs obey positive-temperature KMS balance and reproduce both directional rates | `gamma=455/1243`, `n=16/65`, `gamma(n+1)=567/1243`, `gamma n=112/1243`, `exp(-beta omega)=16/81` | exact selected-frequency KMS rate factorization |
+| K120's chiral carrier supports a local thermal state and observable net | interval Weyl CCR isotony/locality/covariance; smooth thermal-minus-vacuum current covariance and finite `pi/(2 beta^2)` renormalized local energy density | controlled null-boundary KMS/Hadamard-class net; not a full scalar spacetime AQFT theorem |
+| The thermal HP generator and output law are exactly K115 | coefficient identity, all-basis diagonal restriction, stationary law, activity and positive entropy-production controls | exact finite-system quantum-stochastic result for the declared channels |
+| The construction derives a source/GU state or coupling, one closed equilibrium bath, finite total reservoir energy, full spacetime AQFT, nontrivial gauge BV, Born rule, prediction or confirmation | explicit resource/owner decomposition and hostile selftest (`38/38`) | false / not constructed |
+
 ## K120 K119 relativistic Fock continuum dilation boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

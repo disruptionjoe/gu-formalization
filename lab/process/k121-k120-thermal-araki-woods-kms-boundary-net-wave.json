@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "id": "K121-K120-THERMAL-ARAKI-WOODS-KMS-BOUNDARY-NET",
+  "status": "COMPLETE_CONTROLLED_THERMAL_BOUNDARY_RESERVOIR_AND_SINGLE_EQUILIBRIUM_OBSTRUCTION",
+  "date": "2026-09-03",
+  "direction": "observed_to_native",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "INTERNAL_TARGET:K120_PHYSICAL_OR_SOURCE_AUTHENTICATION_OF_STATE_CHANNELS_COUPLING_AND_EFFECTS",
+  "scope": "One repository-owned chiral current boundary reservoir whose quasifree KMS channels, Araki-Woods doubling and Hudson-Parthasarathy coupling reproduce the finite K115 generator. The result is not a source-selected GU quantization or one closed equilibrium bath.",
+  "prior_art_boundary": {
+    "K90_one_mode_leading_response_reused_not_rederived": true,
+    "K97_CAR_KMS_state_separate_from_record_reused_not_rederived": true,
+    "K99_product_KMS_and_Davies_controls_reused_not_rederived": true,
+    "K117_cycle_affinity_reused_as_equilibrium_obstruction": true,
+    "K120_vacuum_HP_dilation_reused_as_continuum_host": true,
+    "new_composition": "all_K115_edges_exactly_realized_by_local_chiral_KMS_or_vacuum_channels_with_Araki_Woods_noise_count_and_boundary_net"
+  },
+  "single_equilibrium_obstruction": {
+    "K115_cycle_ratio": "256/6561",
+    "cycle_affinity_nonzero": true,
+    "faithful_single_KMS_quantum_detailed_balance_would_make_diagonal_restriction_reversible": true,
+    "single_equilibrium_KMS_owner_of_exact_K115_possible": false,
+    "multi_reservoir_or_work_input_required": true,
+    "universal_no_go_for_nonequilibrium_KMS_components_claimed": false
+  },
+  "edge_pair_census": {
+    "K115_states": 9,
+    "directed_edges": 36,
+    "undirected_pairs": 18,
+    "asymmetric_record_pairs": 6,
+    "symmetric_pairs": 12,
+    "positive_temperature_physical_channels": 6,
+    "zero_temperature_directed_channels": 24,
+    "Araki_Woods_doubled_vacuum_noise_modes": 12,
+    "total_vacuum_noise_modes": 36,
+    "channel_multiplicity_selected_by_source_or_GU": false
+  },
+  "thermal_rate_owner": {
+    "asymmetric_low_rate": "112/1243",
+    "asymmetric_high_rate": "567/1243",
+    "coupling_gamma": "455/1243",
+    "thermal_occupation_at_Bohr_frequency": "16/65",
+    "one_plus_occupation": "81/65",
+    "KMS_ratio_exp_minus_beta_omega": "16/81",
+    "thermal_forward_rate": "gamma_times_one_plus_n_equals_high_rate",
+    "thermal_reverse_rate": "gamma_times_n_equals_low_rate",
+    "symmetric_base_pair_rate": "2/5",
+    "symmetric_wrong_record_pair_rate": "112/1243",
+    "all_K115_rates_recovered_exactly": true
+  },
+  "boundary_CCR_KMS_state": {
+    "carrier": "right_moving_massless_chiral_current_on_the_incoming_null_line",
+    "local_algebras": "Weyl_CCR_algebras_generated_by_compactly_supported_interval_test_functions",
+    "isotony": true,
+    "disjoint_interval_commutation": true,
+    "translation_covariance": true,
+    "thermal_occupation": "n_beta(omega)=1/(exp(beta_omega)-1)",
+    "beta_times_selected_Bohr_frequency": "log(81/16)",
+    "KMS_spectral_relation": true,
+    "thermal_minus_vacuum_current_two_point_function_smooth_locally": true,
+    "boundary_Hadamard_positive_frequency_singularity_class": true,
+    "finite_renormalized_local_energy_density": "six_times_pi_over_12_beta_squared",
+    "finite_total_energy_on_infinite_stationary_line": false,
+    "normal_global_Gibbs_density_in_vacuum_Fock_representation": false,
+    "full_two_dimensional_spacetime_AQFT_net_or_scalar_Hadamard_theorem": false
+  },
+  "thermal_HP_interaction": {
+    "Araki_Woods_field_formula": "b_beta=sqrt(n_plus_1)_a1_plus_sqrt(n)_a2_adjoint",
+    "thermal_pair_gives_forward_and_reverse_Lindblad_operators": true,
+    "symmetric_pair_uses_two_independent_vacuum_channels": true,
+    "total_effective_directed_coefficients": 36,
+    "diagonal_restriction_exactly_K115": true,
+    "K115_stationary_law_preserved": true,
+    "stationary_activity_and_entropy_production_recovered": true,
+    "past_output_commutes_with_future_input": true,
+    "single_closed_autonomous_equilibrium_interaction": false
+  },
+  "action_state_effect_boundary": {
+    "smooth_finite_band_doubled_chiral_action_constructed": true,
+    "variation_owns_regularized_free_and_interaction_dynamics": true,
+    "KMS_state_selected_by_boundary_covariance_not_classical_variation_alone": true,
+    "finite_particle_H1_L2_Hminus1_rigging_retained": true,
+    "endpoint_symplectic_and_minimal_nongauge_BV_BFV_identity": true,
+    "counting_effects_and_quasifree_expectation_declared": true,
+    "Born_rule_derived": false,
+    "nontrivial_gauge_or_ghost_complex_constructed": false
+  },
+  "ownership_boundary": {
+    "Weinstein_source_or_GU_action_state_channel_coupling_or_effect_owner": false,
+    "K118_or_K120_selected_temperature_and_Araki_Woods_polarization": false,
+    "one_equilibrium_bath_constructed": false,
+    "multi_reservoir_work_or_switching_is_free": false,
+    "finite_total_reservoir_energy_claimed": false,
+    "full_spacetime_AQFT_net_constructed": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "cycle_pair_thermal_KMS_CCR_generator_stationarity_output_and_domain_boundaries_checked": true
+  },
+  "exact_reopener": "Derive the chiral current polarization, temperatures, pair decomposition, work source, coupling and state-effect meaning from one source-owned GU action or a microscopic autonomous nonequilibrium field theory, then extend the boundary net to a full gauge-reduced spacetime net before testing Born or export claims.",
+  "claim_ceiling": "Exact repository-owned single-equilibrium obstruction and multi-reservoir chiral KMS Araki-Woods realization of K115, with a locally Hadamard null-boundary CCR net, finite local energy density, exact thermal Hudson-Parthasarathy diagonal generator and output accounting. The temperatures, channel pairing, couplings, work supply and effects remain repository selections; the stationary infinite-line state has no finite total energy. No Weinstein/source/GU ownership, one closed equilibrium bath, full spacetime AQFT, nontrivial gauge BV, Born derivation, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}
