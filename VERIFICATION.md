@@ -7,6 +7,16 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K110 K105 conditional boundary-state selector/interface (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A strictly positive normalized boundary weight with values `2/257,1/257,...,1/257` breaks the positive-seed permutation stabilizer from `S_256` to `S_255` and uniquely selects `e0` with gap `1/257` | `lab/process/k110-k105-boundary-state-selector-interface-wave.json`; exact K105 fixture and stabilizer controls (`25/25`) | exact finite conditional selection theorem |
+| Its top projector is `K`-self-adjoint, has one-dimensional positive range, is killed by the K105 cross coefficient and therefore selects the existing `e0` K91 action/domain/Green retract | exact projector, quotient-rank and coefficient-blind controls | exact conditional quotient/retract descent |
+| The same packet owns a finite real state/effect cone, trace pairing, tensor rule, full finite domain and bounded rotation dynamics reproducing interference, Bell `2 sqrt(2)`, no-signalling and the hidden rebit composite direction | exact state, dynamics, tensor, marginal and rank controls; baseline-first hostile selftest (`22/22`) | complete finite repository-owned conditional interface, not a derived Born law |
+| K105 or GU derives the selected seed | moving the unique heavy weight from `e0` to `e1` moves selection while the frozen K105 fixture is unchanged | false; selection information is supplied by the boundary packet |
+| The packet establishes a source/GU physical state, nonlinear/global quotient, prediction, confirmation or held-out success | explicit owner, scope and credit fences | false / outside scope |
+
 ## K109 K105 quantum-anchor retract-selection boundary (2026-09-02)
 
 | Claim | Evidence | Honest grade |

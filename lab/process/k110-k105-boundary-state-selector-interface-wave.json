@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K110-K105-BOUNDARY-STATE-SELECTOR-INTERFACE-2026-09-02",
+  "status": "complete_conditional_boundary_owned_retract_selection_and_finite_operational_interface",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k105-k91-positive-retract-nonselection-wave.json",
+    "lab/process/k106-k105-action-symmetry-positive-subspace-wave.json",
+    "lab/process/k109-k105-quantum-anchor-retract-selection-boundary-wave.json"
+  ],
+  "frozen_k105_data": {
+    "distortion_carrier_dimension": 448,
+    "distortion_lowerer_inertia": [260, 188, 0],
+    "positive_coefficient_blind_seed_count": 256,
+    "blind_action_symmetry": "S_256_subgroup_of_O_256",
+    "K105_selects_positive_seed": false
+  },
+  "conditional_boundary_owner": {
+    "owner": "repository_owned_conditional_boundary_state_packet_not_source_or_GU",
+    "carrier": "coordinate_probability_simplex_on_the_256_positive_coefficient_blind_seed_lines",
+    "weights": "w_0=2/257_and_w_i=1/257_for_i=1_through_255",
+    "strictly_positive": true,
+    "normalized": true,
+    "density_rank_on_blind_positive_block": 256,
+    "unique_maximum_seed": 0,
+    "maximum_weight": "2/257",
+    "runner_up_weight": "1/257",
+    "selection_gap": "1/257",
+    "e0_e1_swap_defect_nonzero": true,
+    "coordinate_permutation_stabilizer": "S_255",
+    "equal_weight_control_stabilizer": "S_256",
+    "source_owned": false,
+    "physically_derived": false
+  },
+  "stabilizer_and_information_theorem": {
+    "general_stabilizer": "product_of_symmetric_groups_on_equal_weight_level_sets",
+    "coordinate_seed_is_uniquely_selected_iff_weight_is_unique_strict_maximum": true,
+    "permuting_the_heavy_weight_to_seed_j_selects_seed_j_with_K105_unchanged": true,
+    "selected_seed_recoverable_from_boundary_packet_alone": true,
+    "selection_information_is_relocated_not_derived": true
+  },
+  "boundary_owned_quotient_and_retract": {
+    "spectral_projector": "P_0=e_0_e_0_transpose",
+    "physical_null_subspace": "ker_P_0",
+    "quotient": "R_448_mod_ker_P_0_is_span_e_0",
+    "projector_idempotent": true,
+    "projector_K_self_adjoint": true,
+    "selected_line_K_positive": true,
+    "cross_coefficient_annihilates_selected_line": true,
+    "K91_action_retract_selected": true,
+    "action_Euler_domain_core_Green_boundary_intertwining_inherited": true,
+    "ambient_K105_inertia_changed": false,
+    "quotient_owner": "conditional_boundary_packet"
+  },
+  "packet_owned_finite_operational_interface": {
+    "selected_history_domain": "two_K91_modes_over_span_e0",
+    "local_state_space": "positive_semidefinite_Sym2_R_trace_one",
+    "local_effect_space": "E_in_Sym2_R_with_zero_less_equal_E_less_equal_I",
+    "state_effect_pairing": "p_E_of_rho_equals_trace_rho_E",
+    "tensor_rule": "real_Hilbert_tensor_product",
+    "composite_state_space": "positive_semidefinite_Sym4_R_trace_one",
+    "bounded_dynamics": "R_t_equals_exp_tJ_with_J_transpose_equals_minus_J_on_the_finite_two_mode_domain",
+    "dynamics_preserves_state_cone_and_trace": true,
+    "interference_probabilities": ["1", "0", "1/2"],
+    "Bell_CHSH": "2_sqrt_2",
+    "Bell_local_marginals": "I2_over_2",
+    "operational_no_signalling": true,
+    "local_tomography": false,
+    "hidden_composite_direction": "J_tensor_J",
+    "interface_owner": "same_conditional_boundary_packet",
+    "Born_pairing_derived_from_K105": false
+  },
+  "result": {
+    "nonzero_positive_blind_symmetry_defect_constructed": true,
+    "one_positive_K91_retract_conditionally_selected": true,
+    "complete_finite_interface_denominator_owned": true,
+    "selection_derived_from_frozen_K105_data": false,
+    "source_or_GU_physical_state_selected": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Authenticate or derive the boundary weight/state packet from a source-owned GU action, boundary law or observable and prove its descent on the actual nonlinear/global quotient. The present packet proves exact conditional sufficiency and localizes the selection information in the supplied unique maximum; it does not derive that maximum from K105 or GU.",
+  "next_gate": "Reverse-scaffold the boundary-weight denominator itself: derive invariant demands on a source/action/boundary mechanism that can produce a nonuniform positive-blind weight without encoding the selected coordinate by hand, while retaining the complete quotient and operational interface. Do not score the delayed-choice holdout or relabel this conditional packet as physical GU ownership.",
+  "claim_ceiling": "Exact finite conditional theorem for one repository-owned boundary-state packet on K105: its unique rational maximum breaks S_256 to S_255, selects the e0 K91 action/domain/Green retract, and owns a complete finite real state/effect, trace, tensor and bounded-dynamics interface realizing the admitted calibration anchors. The selected seed is recoverable from the supplied weights, so selection is relocated rather than derived. No source/GU boundary law, nonlinear/global physical quotient, derived Born rule, prediction, confirmation, held-out score or GU verdict follows."
+}
