@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "id": "K122-K121-AUTONOMOUS-FERMIONIC-RESERVOIR-BULK-GAUGE-NET",
+  "status": "COMPLETE_AUTONOMOUS_CAR_RESERVOIR_OWNER_AND_FREE_BULK_GAUGE_EVEN_NET",
+  "date": "2026-09-03",
+  "direction": "observed_to_native",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "INTERNAL_TARGET:K121_AUTONOMOUS_NONEQUILIBRIUM_FIELD_OWNER_AND_BULK_GAUGE_DESCENT",
+  "scope": "One repository-owned thermodynamic-limit CAR lead for each undirected K115 transition, coupled by one time-independent boundary Hamiltonian and completed to a free 1+1-dimensional gauge-even reservoir net. This is not a Weinstein/GU source action or the full interacting observable theory.",
+  "prior_art_boundary": {
+    "K97_CAR_KMS_state_reused_not_rederived": true,
+    "K99_product_KMS_and_Davies_controls_reused_not_rederived": true,
+    "K117_affinity_and_entropy_reused_not_rederived": true,
+    "K120_HP_continuum_reused_not_rederived": true,
+    "K121_pair_census_and_equilibrium_obstruction_reused_not_rederived": true,
+    "new_composition": "all_18_K115_pairs_use_one_CAR_lead_each_with_exact_particle_hole_rates_autonomous_defect_coupling_resource_accounting_and_free_bulk_gauge_even_completion"
+  },
+  "fermionic_pair_factorization": {
+    "K115_states": 9,
+    "directed_edges": 36,
+    "undirected_pairs": 18,
+    "biased_pairs": 6,
+    "half_filled_symmetric_pairs": 12,
+    "one_CAR_reservoir_per_undirected_pair": true,
+    "particle_hole_noise_coefficients": 36,
+    "asymmetric_total_spectral_rate": "679/1243",
+    "asymmetric_Fermi_occupation": "112/679",
+    "asymmetric_hole_occupation": "567/679",
+    "asymmetric_odds": "16/81",
+    "symmetric_base_total_spectral_rate": "4/5",
+    "symmetric_wrong_record_total_spectral_rate": "224/1243",
+    "symmetric_Fermi_occupation": "1/2",
+    "all_K115_rates_recovered_exactly": true
+  },
+  "autonomous_defect_interaction": {
+    "time_independent_total_Hamiltonian": true,
+    "one_constant_boundary_tunnelling_term_per_pair": true,
+    "external_channel_switching_required": false,
+    "thermodynamic_limit_leads_supply_stationary_incoming_states": true,
+    "Davies_or_white_noise_limit_gives_declared_generator": true,
+    "diagonal_restriction_exactly_K115": true,
+    "K115_stationary_law_preserved": true,
+    "exact_finite_time_reduced_semigroup_claimed": false,
+    "finite_closed_stationary_reservoir_claimed": false
+  },
+  "resource_accounting": {
+    "biased_pair_local_affinity": "log(81/16)",
+    "symmetric_pair_local_affinity": "0",
+    "stationary_environmental_affinity_flow_equals_K117_entropy_production": true,
+    "system_Shannon_boundary_term_vanishes_at_stationarity": true,
+    "reservoir_preparation_and_maintenance_are_free": false,
+    "one_global_equilibrium_state_claimed": false
+  },
+  "bulk_gauge_even_net": {
+    "carrier": "18_species_free_massless_Dirac_CAR_fields_on_1_plus_1_spacetime",
+    "double_cone_algebras_from_left_and_right_interval_test_spaces": true,
+    "isotony": true,
+    "graded_locality_for_field_algebras": true,
+    "ordinary_locality_for_even_observable_subnet": true,
+    "U1_to_the_18_species_phase_action": true,
+    "gauge_fixed_even_observable_subnet_preserved_by_free_dynamics": true,
+    "boundary_defect_coupling_locally_declared": true,
+    "full_interacting_Haag_Kastler_net_constructed": false,
+    "nontrivial_gauge_BV_cohomology_constructed": false
+  },
+  "state_effect_boundary": {
+    "grand_canonical_quasifree_CAR_states_positive_and_normalized": true,
+    "fermion_number_projections_are_positive_effects": true,
+    "state_on_effect_gives_value_in_unit_interval": true,
+    "mathematical_state_effect_pairing_owned": true,
+    "physical_detector_identification_derived": false,
+    "Born_rule_derived": false
+  },
+  "ownership_boundary": {
+    "Weinstein_source_or_GU_action_parameter_state_coupling_or_observable_owner": false,
+    "reservoir_temperatures_chemical_potentials_or_spectral_densities_source_selected": false,
+    "one_closed_equilibrium_bath_constructed": false,
+    "full_interacting_spacetime_AQFT_constructed": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "pair_CAR_generator_stationarity_affinity_autonomy_locality_gauge_and_state_effect_boundaries_checked": true
+  },
+  "exact_reopener": "Replace the repository-selected lead modular data and defect spectral couplings by coefficients derived from an actual source-owned GU action, then construct the interacting defect net and its physical gauge/BV quotient before testing detector semantics, Born ownership or export claims.",
+  "claim_ceiling": "Exact repository-owned 18-lead CAR factorization of K115, time-independent autonomous thermodynamic-limit defect Hamiltonian with controlled Davies/white-noise reduction, explicit affinity-resource accounting, and free 1+1-dimensional gauge-even reservoir observable net. Lead modular data and spectral couplings remain selected; only the free reservoir net is constructed. No Weinstein/source/GU ownership, finite closed bath, exact finite-time Markov reduction, full interacting AQFT, nontrivial gauge BV, Born derivation, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}

@@ -7,6 +7,17 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K122 K121 autonomous fermionic-reservoir bulk gauge-net boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| All 18 undirected K115 pairs admit one uniform fermionic particle/hole factorization | `lab/process/k122-k121-autonomous-fermionic-reservoir-bulk-gauge-net-wave.json`; exact pair, occupation and spectral-rate arithmetic (`25/25`) | exact repository-owned CAR rate-factorization theorem |
+| A time-independent microscopic field interaction removes K121's external channel switching | constant 18-lead boundary tunnelling Hamiltonian; controlled Davies/white-noise limit recovers exact K115 and its stationary law | autonomous thermodynamic-limit construction with exact limiting generator; not exact finite-coupling reduced dynamics |
+| The lead resource current is explicit | six biased modular offsets have affinity `log(81/16)`; stationary environmental flow equals the full K117 entropy production because the system-Shannon term vanishes | exact finite-generator affinity identity; reservoir preparation remains supplied |
+| The chiral inputs extend through a bulk gauge quotient | 18-species free 1+1-dimensional Dirac CAR double-cone net, graded locality, and ordinarily local `U(1)^18`-fixed even subnet | controlled free reservoir AQFT net; not the fully interacting defect net or nontrivial gauge BV |
+| CAR occupation and number projections own a mathematical state/effect tuple | quasifree positivity, normalization and `0<=a*a<=1` | exact mathematical state/effect typing; no physical detector identification or Born derivation |
+| The construction derives a source/GU action or parameters, finite closed bath, full interacting AQFT, nontrivial gauge BV, Born rule, prediction or confirmation | explicit ownership and limit boundaries plus hostile selftest (`30/30`) | false / not constructed |
+
 ## K121 K120 thermal Araki--Woods KMS boundary-net boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

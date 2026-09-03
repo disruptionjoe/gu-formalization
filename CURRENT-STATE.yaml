@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d93d35edc63d
+revision_basis: 3d03596f50c4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K122 autonomous-fermionic-reservoir Big Wave replaces K121's switched
+    bosonic channel collection by 18 continuously coupled CAR leads, one per
+    undirected K115 pair. Each lead supplies both particle and hole rates:
+    the six biased pairs have kappa=679/1243, f=112/679 and
+    f/(1-f)=16/81; the nine symmetric base pairs have kappa=4/5 and the three
+    symmetric wrong-record pairs have kappa=224/1243, all at f=1/2. The 18
+    particle/hole pairs again give 36 effective noise coefficients and recover
+    every K115 rate exactly. One time-independent boundary tunnelling
+    Hamiltonian removes external edge switching; exact K115 is its controlled
+    Davies/white-noise reduced limit, not an exact finite-coupling identity.
+    The unequal thermodynamic-limit lead modular states explicitly own the
+    work: their stationary affinity flow equals K117's entropy production.
+    Completing the leads by 18 free massless Dirac fields gives a genuine
+    1+1-dimensional double-cone CAR net with graded locality and an ordinarily
+    local U(1)^18-fixed even observable subnet. This is the free reservoir net,
+    not the fully interacting defect net. Lead modular offsets, spectral
+    densities, couplings and physical detector semantics remain repository-
+    selected rather than source/GU-owned. The certificate passes 25/25 and
+    catches 30/30 hostile mutations. No finite closed bath, exact finite-time
+    Markov reduction, full interacting AQFT, nontrivial gauge BV, Born
+    derivation, prediction, confirmation, holdout, canon or public-posture
+    move follows.
     The K121 thermal-Araki--Woods boundary-net Big Wave physically upgrades
     K120's incoming field in one controlled repository construction. K117's
     exact cycle ratio 256/6561 proves that no one faithful equilibrium
@@ -5768,6 +5790,9 @@ current_result:
     - explorations/conditional-build/k121-k120-thermal-araki-woods-kms-boundary-net-wave-2026-09-03.md
     - lab/process/k121-k120-thermal-araki-woods-kms-boundary-net-wave.json
     - tests/channel-swings/k121_k120_thermal_araki_woods_kms_boundary_net_probe.py
+    - explorations/conditional-build/k122-k121-autonomous-fermionic-reservoir-bulk-gauge-net-wave-2026-09-03.md
+    - lab/process/k122-k121-autonomous-fermionic-reservoir-bulk-gauge-net-wave.json
+    - tests/channel-swings/k122_k121_autonomous_fermionic_reservoir_bulk_gauge_net_probe.py
     - explorations/conditional-build/k81-null-zero-crossing-matching-wave-2026-09-01.md
     - lab/process/k81-null-zero-crossing-matching-wave.json
     - tests/channel-swings/k81_null_zero_crossing_matching_probe.py
@@ -6337,11 +6362,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K121's repository-owned thermal boundary reservoir be replaced by one
-  source-owned autonomous nonequilibrium GU field theory that derives its
-  polarization, temperatures, channel organization, work source, couplings
-  and state-effect meaning, and can its null-boundary net descend through the
-  bulk and gauge quotient?
+  Can K122's repository-owned autonomous CAR lead modular data and defect
+  spectral couplings be derived from an actual source-owned GU action, and can
+  the free gauge-even reservoir net be extended to the interacting defect net
+  with a physical gauge/BV quotient and detector semantics?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6350,6 +6374,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K122 supplies one microscopic autonomous nonequilibrium field owner for the
+  K115 limit. Eighteen thermodynamic-limit CAR leads are coupled continuously
+  by a time-independent defect Hamiltonian; one lead per undirected pair gives
+  both particle and hole rates, including all symmetric pairs at f=1/2. The
+  limiting generator is exactly K115, and the stationary modular-affinity flow
+  equals the inherited entropy production. The free left/right Dirac
+  completion has graded-local field algebras and an ordinarily local U(1)^18-
+  fixed even observable subnet. Next replace the selected lead modular offsets
+  and on-shell spectral couplings by coefficients derived from an actual
+  source-owned GU action, then construct the interacting defect net and its
+  physical gauge/BV quotient. Do not call the weak-coupling limit an exact
+  finite-coupling reduction, the infinite leads a finite closed bath, the free
+  reservoir subnet the interacting physical net, or CAR state/effect
+  positivity a Born derivation.
+
   K121 supplies a controlled locally thermal replacement for K120's incoming
   vacuum and explains its 36 directed noises through an exact Araki--Woods
   decomposition of K115. The six asymmetric record pairs use positive-
