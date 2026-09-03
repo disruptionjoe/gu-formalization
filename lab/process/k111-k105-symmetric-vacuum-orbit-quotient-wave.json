@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K111-K105-SYMMETRIC-VACUUM-ORBIT-QUOTIENT-2026-09-02",
+  "status": "exact_symmetric_nonlinear_vacuum_orbit_with_abstract_but_not_embedded_quotient_descent",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k105-k91-positive-retract-nonselection-wave.json",
+    "lab/process/k106-k105-action-symmetry-positive-subspace-wave.json",
+    "lab/process/k107-k105-generated-selector-closure-wave.json",
+    "lab/process/k110-k105-boundary-state-selector-interface-wave.json"
+  ],
+  "frozen_carrier": {
+    "name": "K105_positive_coefficient_blind_seed_space",
+    "dimension": 256,
+    "coordinate_symmetry": "S_256",
+    "ambient_K105_inertia": [260, 188, 0],
+    "K105_selects_positive_seed": false
+  },
+  "symmetric_nonlinear_vacuum_owner": {
+    "configuration_space": "closed_normalized_nonnegative_weight_simplex_Delta_255",
+    "a": "2/257",
+    "b": "1/257",
+    "functional": "V(w)=sum_i((w_i-a)*(w_i-b))^2",
+    "polynomial_degree": 4,
+    "nonnegative": true,
+    "S_256_invariant": true,
+    "coordinate_label_in_coefficients": false,
+    "repository_constructed": true,
+    "source_or_GU_owned": false
+  },
+  "vacuum_classification": {
+    "global_minimum_value": "0",
+    "global_minimum_count": 256,
+    "global_minima": "all_permutations_of_(2,1,...,1)/257",
+    "vacuum_orbit_transitive": true,
+    "one_vacuum_stabilizer": "S_255",
+    "restricted_Hessian_eigenvalue_at_each_vacuum": "2/257^2",
+    "each_vacuum_strict_on_simplex": true,
+    "uniform_weight_is_constrained_critical": true,
+    "uniform_weight_is_global_minimum": false,
+    "symmetric_projected_gradient_flow_moves_uniform_weight": false
+  },
+  "equivariant_retract_family": {
+    "vacuum_to_projector": "w^(j)_maps_to_P_j=e_j*e_j^T",
+    "map_is_S_256_equivariant": true,
+    "every_projector_is_K_self_adjoint_and_K_positive": true,
+    "every_vacuum_selects_one_existing_K91_action_domain_Green_retract": true,
+    "finite_interface_transports_over_entire_orbit": true,
+    "branch_selected_without_extra_datum": false
+  },
+  "orbit_quotient_descent": {
+    "vacuum_orbit_quotient_cardinality": 1,
+    "total_retract_family_quotient_is_abstract_line": true,
+    "finite_interface_descends_up_to_isomorphism": true,
+    "invariant_section_into_vacuum_orbit_exists": false,
+    "distinguished_embedded_rank_one_projector_descends": false,
+    "group_average_projector": "I_256/256",
+    "group_average_projector_rank": 256,
+    "quotient_forgets_branch_label": true
+  },
+  "result": {
+    "nonuniform_weight_values_generated_by_symmetric_nonlinear_owner": true,
+    "chosen_seed_encoded_in_action_coefficients": false,
+    "spontaneous_vacuum_orbit_constructed": true,
+    "unique_physical_branch_selected": false,
+    "abstract_K91_interface_class_descends": true,
+    "concrete_K105_embedded_retract_descends": false,
+    "asymmetric_initial_boundary_or_noise_datum_still_required_for_branch": true,
+    "actual_spacetime_or_BV_BFV_global_quotient_constructed": false,
+    "source_action_or_GU_boundary_law_derived": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Supply or derive a source/action/boundary dynamical law on the actual nonlinear GU carrier together with an asymmetric initial, boundary, superselection or noise datum that chooses one vacuum orbit representative, then prove compatible BV-BFV/domain descent and observable export. The symmetric finite vacuum action derives the weight values and abstract interface class but not a concrete embedded branch.",
+  "claim_ceiling": "Exact finite nonlinear variational and finite-group quotient theorem on K105's repository-coordinate positive blind simplex. A symmetric quartic functional has exactly the 256 K110 weights as strict degenerate global minima and its retract family descends abstractly through the orbit quotient, but no invariant vacuum section or distinguished embedded rank-one K105 projector descends. No source/GU action, physical branch law, spacetime or BV-BFV global quotient, Born derivation, held-out score, prediction or confirmation follows."
+}

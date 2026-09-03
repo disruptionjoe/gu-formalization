@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 12e72441bb6e
+revision_basis: 17811137047b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K111 symmetric-vacuum orbit Big Wave derives K110's nonuniform weight
+    values without naming a seed in the coefficients. On the normalized
+    positive 256-seed simplex, the S_256-invariant quartic functional
+    V(w)=sum_i((w_i-2/257)(w_i-1/257))^2 has exactly 256 strict global minima:
+    all permutations of (2,1,...,1)/257. Each has stabilizer S_255 and tangent
+    Hessian gap 2/257^2. The minima form one transitive orbit, and their
+    equivariant projector family selects every corresponding K91 action/domain/
+    Green retract without choosing one. The total family quotient descends to
+    an abstract one-mode interface, but no invariant vacuum section or
+    distinguished embedded rank-one K105 projector descends; the orbit average
+    is I_256/256 of rank 256. The uniform weight is a symmetric critical point,
+    so symmetric deterministic dynamics supplies no branch. The standard-
+    library certificate passes 24/24 and catches 22/22 hostile mutations. No
+    source/GU action or boundary law, physical branch, spacetime or BV-BFV
+    global quotient, derived Born rule, prediction, confirmation, holdout
+    score, canon or public posture moves.
     The K110 conditional boundary-state selector Big Wave closes the finite
     sufficiency side of K109's exact reopener. On K105's 256 positive
     coefficient-blind seed lines, the strictly positive normalized weight

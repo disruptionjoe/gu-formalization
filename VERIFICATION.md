@@ -7,6 +7,16 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K111 K105 symmetric vacuum orbit and quotient descent (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The `S_256`-invariant quartic `sum_i((w_i-2/257)(w_i-1/257))^2` has exactly the 256 permutations of `(2,1,...,1)/257` as its normalized-simplex global minima | `lab/process/k111-k105-symmetric-vacuum-orbit-quotient-wave.json`; zero-set exhaustion and exact rational certificate (`24/24`) | exact finite nonlinear variational theorem |
+| Every vacuum is strict with tangent Hessian eigenvalue `2/257^2`, and the minima form one transitive orbit with stabilizer `S_255` | exact Hessian, orbit and stabilizer controls; baseline-first hostile selftest (`22/22`) | exact vacuum-orbit classification |
+| The equivariant vacuum/projector family transports the K110 quotient and K91 action/domain/Green interface over all 256 branches without naming one branch | exact permutation and projector-family controls | exact conditional family construction |
+| Quotienting the total family preserves an abstract one-mode interface but not a distinguished embedded K105 line | `M/S_256` is one point, no vacuum is group-fixed, and the averaged projector is `I_256/256` of rank 256 | exact abstract-descent / embedded-nonselection boundary |
+| The finite functional is a source/GU action, selects a physical branch, builds a spacetime or BV-BFV quotient, or derives Born/prediction/confirmation credit | explicit owner, dynamics, quotient and credit fences | false / outside scope |
+
 ## K110 K105 conditional boundary-state selector/interface (2026-09-02)
 
 | Claim | Evidence | Honest grade |
