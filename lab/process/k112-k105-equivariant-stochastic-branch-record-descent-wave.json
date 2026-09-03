@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K112-K105-EQUIVARIANT-STOCHASTIC-BRANCH-RECORD-DESCENT-2026-09-03",
+  "status": "exact_equivariant_stochastic_distribution_with_record_conditioned_branch_and_finite_domain_observable_descent",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k110-k105-boundary-state-selector-interface-wave.json",
+    "lab/process/k111-k105-symmetric-vacuum-orbit-quotient-wave.json"
+  ],
+  "frozen_vacuum_orbit": {
+    "name": "K111_symmetric_quartic_vacuum_orbit",
+    "cardinality": 256,
+    "coordinate_symmetry": "S_256",
+    "one_vacuum_stabilizer": "S_255",
+    "deterministic_equivariant_section_exists": false
+  },
+  "stochastic_branch_law": {
+    "state_space": "the_256_K111_vacuum_representatives",
+    "generator": "L_f(j)=kappa*sum_(k_not_equal_j)(f(k)-f(j))",
+    "kappa_positive": true,
+    "S_256_equivariant": true,
+    "detailed_balance_law": "uniform_1/256",
+    "unique_stationary_law": "uniform_1/256",
+    "mean_zero_spectral_gap": "256*kappa",
+    "symmetric_quench_law_unique": true,
+    "preferred_label_encoded": false,
+    "source_or_GU_owned": false
+  },
+  "branch_record_instrument": {
+    "joint_law": "mu(j,r)=delta_(j,r)/256",
+    "simultaneous_S_256_invariant": true,
+    "branch_marginal": "uniform_1/256",
+    "record_marginal": "uniform_1/256",
+    "conditional_branch_given_record": "delta_r",
+    "record_information_bits": 8,
+    "realized_record_selects_embedded_branch": true,
+    "selection_without_stochastic_outcome_or_record": false,
+    "physical_measurement_or_collapse_derived": false
+  },
+  "projector_domain_descent": {
+    "unconditional_projector": "I_256/256",
+    "unconditional_projector_rank": 256,
+    "conditioned_projector": "P_r=e_r*e_r^T",
+    "conditioned_projector_rank": 1,
+    "conditioned_K91_action_domain_Green_retract_recovered": true,
+    "branch_direct_sum_domain": "direct_sum_r_D_r",
+    "label_generator_commutes_with_identical_branch_operators": true,
+    "actual_spacetime_or_BV_BFV_domain_constructed": false
+  },
+  "observable_superselection_descent": {
+    "branch_algebra": "product_r_A_0",
+    "invariant_subalgebra": "constant_tuples_isomorphic_to_A_0",
+    "record_center": "R^256_with_primitive_idempotents_z_r",
+    "conditional_evaluation": "ev_r",
+    "uniform_unconditional_state": "average_r(phi_after_ev_r)",
+    "record_conditioned_state": "phi_after_ev_r",
+    "K110_finite_interface_transports_branchwise": true,
+    "calibration_statistics_branch_independent": true,
+    "Born_pairing_derived": false
+  },
+  "result": {
+    "symmetric_law_operationally_distributes_vacuum_representatives": true,
+    "single_realized_record_conditionally_selects_one_embedded_retract": true,
+    "abstract_unrecorded_quotient_remains_branch_blind": true,
+    "selection_information_localized_in_classical_record": true,
+    "preferred_coordinate_inserted_before_sampling": false,
+    "source_action_or_GU_boundary_law_derived": false,
+    "physical_environment_or_measurement_derived": false,
+    "nonlinear_continuous_carrier_stochastic_dynamics_derived": false,
+    "actual_spacetime_or_BV_BFV_global_quotient_constructed": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Derive or authenticate the origin of the stochastic law and readable record on the continuous K111 nonlinear carrier: specify a source/action/boundary environment, its measure or noise covariance, causal/domain compatibility and variational coupling, then prove genuine nonlinear BV-BFV and observable descent. K112 proves finite conditional sufficiency and the exact eight-bit record invoice, not physical ownership.",
+  "claim_ceiling": "Exact finite probability, Markov-generator, classical-record and direct-sum algebra/domain theorem on K111's 256-point vacuum orbit. A symmetric stochastic law uniquely distributes branches uniformly and an equivariant diagonal record conditionally recovers one K105/K91 retract, while the unrecorded quotient remains full-rank and branch blind. No source/GU stochastic law, physical environment or measurement, continuous nonlinear stochastic dynamics, spacetime/BV-BFV ownership, Born derivation, held-out score, prediction or confirmation follows."
+}

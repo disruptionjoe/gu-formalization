@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 17811137047b
+revision_basis: 04c3d744c86a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K112 stochastic branch-record Big Wave closes the finite branch-datum
+    sufficiency question left by K111. On the transitive 256-vacuum orbit, the
+    complete-graph generator Lf(j)=kappa sum_(k!=j)(f(k)-f(j)) is S_256-
+    equivariant, obeys detailed balance, has unique stationary law 1/256 and
+    exact mean-zero gap 256 kappa. The unique symmetric one-shot quench is
+    therefore uniform and encodes no preferred coordinate. Coupling its
+    realized branch J to a 256-valued classical record R by
+    mu(j,r)=delta_(j,r)/256 preserves simultaneous S_256 invariance while
+    making Pr[J=j|R=r]=delta_(j,r); the perfect record carries exactly eight
+    classical bits. Unconditionally the K105 projector remains I_256/256 of
+    rank 256, while conditioning recovers the rank-one P_r and its existing
+    K91 action/domain/Green retract. The direct-sum branch domain commutes with
+    the label generator, the invariant observable algebra is one abstract
+    branch interface, and record-center evaluation recovers a concrete
+    sector. The exact certificate passes 23/23 and catches 26/26 hostile
+    mutations. No source/GU stochastic law, physical environment or
+    measurement, continuous nonlinear stochastic dynamics, spacetime/BV-BFV
+    ownership, Born derivation, prediction, confirmation, holdout score, canon
+    or public posture moves.
     The K111 symmetric-vacuum orbit Big Wave derives K110's nonuniform weight
     values without naming a seed in the coefficients. On the normalized
     positive 256-seed simplex, the S_256-invariant quartic functional
@@ -6144,10 +6163,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Which independently owned K105-carrier datum first breaks the positive-blind
-  retract symmetry while also owning the quotient, state/effect pairing,
-  tensor rule, domain and dynamics, rather than importing those objects from a
-  calibration model?
+  What source/action/boundary environment can own K112's stochastic law and
+  readable eight-bit record on the continuous K111 nonlinear carrier, with a
+  specified measure or noise covariance, causal/domain compatibility and
+  variational coupling rather than a finite conditional instrument?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6156,6 +6175,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K112 now proves the exact finite stochastic sufficiency boundary. A fully
+  symmetric law can operationally distribute K111 vacuum representatives but
+  only uniformly; a simultaneously equivariant perfect record conditionally
+  selects one embedded K105/K91 retract and carries exactly eight classical
+  bits. The unrecorded quotient remains branch blind and full-rank. Rebuild the
+  next reverse-scaffold Big Wave around the origin of this law and record on
+  the continuous nonlinear carrier: derive or authenticate a source/action/
+  boundary environment, measure or noise covariance, causal/domain
+  compatibility and variational coupling, then test genuine nonlinear BV-BFV
+  and observable descent. Do not call the finite record a physical detector,
+  measurement, collapse law or superselection derivation; do not call uniform
+  group probability Born structure; and do not reopen K108--K112 without a
+  named premise change.
+
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.
   The first package is complete: PV-1, PV-2 and MV-2 compose into a self-

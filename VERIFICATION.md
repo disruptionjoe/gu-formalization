@@ -2,10 +2,20 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-02"
+updated_at: "2026-09-03"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K112 K105 equivariant stochastic branch-record descent (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete-graph generator on K111's 256 vacua is `S_256`-equivariant, detailed-balanced and has unique uniform stationary law with mean-zero spectral gap `256 kappa` | `lab/process/k112-k105-equivariant-stochastic-branch-record-descent-wave.json`; exact generator certificate (`23/23`) | exact finite continuous-time Markov theorem |
+| The unique symmetric one-shot law is uniform, while the diagonal branch-record law is jointly equivariant and satisfies `Pr[J=j|R=r]=delta_(j,r)` | exact transitivity, normalization and conditioning controls; baseline-first hostile selftest (`26/26`) | exact finite probability and conditional-record theorem |
+| A perfect 256-valued record carries eight classical bits and turns the unconditional rank-256 projector `I_256/256` into the conditioned rank-one projector `P_r` | exact information, trace and projector-rank controls | exact classical selection-information localization |
+| The branch direct-sum domain commutes with the label generator, its invariant observable algebra is the constant-tuple copy of one interface, and record-center evaluation recovers one K91 branch | exact tensor-commutation, invariant-section and conditional-evaluation argument | exact finite domain/observable descent, not spacetime BV-BFV |
+| The packet derives a source/GU stochastic law, physical environment, measurement/collapse mechanism, continuous nonlinear stochastic dynamics, Born rule, prediction or confirmation | explicit owner, domain, probability and credit fences | false / outside scope |
 
 ## K111 K105 symmetric vacuum orbit and quotient descent (2026-09-02)
 
