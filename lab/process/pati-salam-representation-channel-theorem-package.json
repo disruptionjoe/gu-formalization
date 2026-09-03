@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "PATI-SALAM-REPRESENTATION-CHANNEL-THEOREM-PACKAGE",
+  "date": "2026-09-02",
+  "status": "working_draft_verified",
+  "target_claim": "Package the exact symmetric 54/210 versus alternating 45/945 Pati-Salam owner split without importing a selected coefficient, source vertex, family, mass, observed sector or prediction.",
+  "verdict": "admitted_exact_representation_grade",
+  "artifacts": {
+    "working_paper": "papers/drafts/pati-salam-representation-channel-theorem/pati-salam-representation-channel-theorem.md",
+    "claim_ledger": "papers/drafts/pati-salam-representation-channel-theorem/CLAIM-AND-PREMISE-LEDGER.json",
+    "verification": "papers/drafts/pati-salam-representation-channel-theorem/VERIFICATION.md",
+    "reproduction": "papers/drafts/pati-salam-representation-channel-theorem/reproduce_all.py",
+    "independent_probe": "tests/attention-shots/pati_salam_representation_channel_theorem.py",
+    "upstream_probe": "tests/channel-swings/source_native_adjoint_144_coupling_probe.py",
+    "lean_kernel": "Lean/GUFormalization/SourceNativeAdjointCoupling.lean"
+  },
+  "exact_results": {
+    "family_partner_support": ["45", "54", "210", "945", "1050"],
+    "symmetric_adjoint_square": ["1", "54", "210", "770"],
+    "alternating_adjoint_square": ["45", "945"],
+    "symmetric_common_owners": ["54", "210"],
+    "alternating_common_owners": ["45", "945"],
+    "pati_salam_singlets": {"45": 0, "54": 1, "210": 1, "945": 0, "1050": 0},
+    "quadratic_pati_salam_owners": {"symmetric": ["54", "210"], "alternating": []},
+    "linear_adjoint_background": "obstructed at representation grade because Inv_PS(45)=0",
+    "selection_result": "two symmetric owner lines remain available and unselected"
+  },
+  "claim_ceiling": "Exact finite representation-channel theorem from frozen D5 supports and held Pati-Salam counts; no Clebsch normalization, source coefficient, form contraction, family, physical vertex, mass, observed sector, prediction or GU verdict follows.",
+  "excluded_promotions": [
+    "source-action ownership or equation-9.16 instantiation",
+    "selected 54 or 210 coefficient/background",
+    "family selector or physical mass operator",
+    "observed-sector or symmetry-breaking theorem",
+    "scale, threshold or empirical prediction",
+    "GU confirmation or falsification",
+    "candidate promotion or external publication"
+  ],
+  "external_effect": false
+}

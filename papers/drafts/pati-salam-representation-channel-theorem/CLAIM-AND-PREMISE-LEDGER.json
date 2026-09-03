@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "status": "working_draft",
+  "result_id": "PATI-SALAM-REPRESENTATION-CHANNEL-THEOREM",
+  "claim_grade": "exact_representation_grade",
+  "theorem": "For the frozen same-label 16 tensor 144 support, intersection with Sym^2(45) gives exactly 54 and 210 and intersection with Lambda^2(45) gives exactly 45 and 945. The held Pati-Salam singlet counts are one on 54 and 210 and zero on 45 and 945. Thus exactly two quadratic Pati-Salam-preserving representation owners occur, both symmetric; no coefficient, contraction, family, vertex, mass, observed sector or prediction is selected.",
+  "premises": [
+    {
+      "id": "P1",
+      "statement": "The same-label 16 tensor 144 product has multiplicity-one support 45+54+210+945+1050 and no scalar.",
+      "evidence": ["Q5 exact D5 dictionary", "source-native adjoint/144 upstream probe"],
+      "reopener": "A corrected same-label support or multiplicity table."
+    },
+    {
+      "id": "P2",
+      "statement": "Sym^2(45)=1+54+210+770 with multiplicity one.",
+      "evidence": ["exact weight-character computation", "dimension 1035 control"],
+      "reopener": "A concrete error in the symmetric-square character or decomposition."
+    },
+    {
+      "id": "P3",
+      "statement": "Lambda^2(45)=45+945 with multiplicity one.",
+      "evidence": ["exact weight-character computation", "dimension 990 control"],
+      "reopener": "A concrete error in the alternating-square character or decomposition."
+    },
+    {
+      "id": "P4",
+      "statement": "Pati-Salam singlet multiplicities on 45,54,210,945,1050 are 0,1,1,0,0.",
+      "evidence": ["HE-4 exact owner counts"],
+      "reopener": "A corrected subgroup embedding, restriction or singlet count."
+    },
+    {
+      "id": "P5",
+      "statement": "The plus and minus same-label cubic 45 lines are paired by the established real Spin(6,4) conjugation.",
+      "evidence": ["paired-real sector construction", "source-native adjoint/144 classification"],
+      "reopener": "A corrected real/Krein pairing or half-placement."
+    },
+    {
+      "id": "P6",
+      "statement": "The source connection perturbation remains an ad-valued one-form; internal symmetric/alternating support does not select its form-leg contraction.",
+      "evidence": ["source-native comparator routing", "typed degree ladder"],
+      "reopener": "A source-owned equation fixing the complete one-form and internal contraction."
+    },
+    {
+      "id": "P7",
+      "statement": "The two symmetric owner lines carry no source-selected coefficient relation or preferred nonzero vector.",
+      "evidence": ["missing action-owned coefficient"],
+      "reopener": "A coefficient-complete source action selecting one owner or a fixed linear combination."
+    },
+    {
+      "id": "P8",
+      "statement": "Equivalent family copies carry identical allowed owner spaces; no family covector, physical vertex or observed-sector map is supplied.",
+      "evidence": ["family-owner identifiability boundary"],
+      "reopener": "An action-owned family covector plus physical observation/quotient map."
+    }
+  ],
+  "allowed_claims": [
+    "exact symmetric owner intersection {54,210}",
+    "exact alternating owner intersection {45,945}",
+    "one Pati-Salam singlet in each symmetric owner and none in either alternating owner",
+    "representation-grade cubic 45 availability with linear Pati-Salam-background obstruction",
+    "nonselection of owner, coefficient, form contraction and family from representation support alone"
+  ],
+  "forbidden_claims": [
+    "source-selected coefficient, contraction or equation-9.16 vertex",
+    "selected 54 or 210 stationary background",
+    "family selection, physical mass or surviving observed sector",
+    "scale, threshold, empirical prediction or GU verdict",
+    "candidate promotion or external publication"
+  ],
+  "executable": "tests/attention-shots/pati_salam_representation_channel_theorem.py"
+}

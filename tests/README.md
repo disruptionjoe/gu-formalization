@@ -6170,3 +6170,18 @@ confusion, and CC-1 coefficient, constant and degree-six reopeners.
 ```sh
 python3 tests/attention-shots/sigma_dark_energy_sign_nonselection.py --selftest
 ```
+
+## Pati-Salam representation-channel theorem
+
+`attention-shots/pati_salam_representation_channel_theorem.py` independently
+checks the frozen D5 support intersections and Pati-Salam singlet filter. Its
+baseline proves that the symmetric quadratic owners are exactly `54` and
+`210`, each with one singlet, while the alternating owners `45` and `945`
+have none. The baseline passes 20 exact checks; `--selftest` plants ten
+mutations covering support, internal symmetry, singlet counts, real pairing,
+source one-form typing, coefficient/contraction selection, family selection
+and physical overreach.
+
+```sh
+python3 tests/attention-shots/pati_salam_representation_channel_theorem.py --selftest
+```

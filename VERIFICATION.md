@@ -7,6 +7,16 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Pati-Salam representation-channel theorem (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Intersecting the same-label `16 tensor 144` support with `Sym^2(45)` gives exactly `54` and `210`, while intersection with `Lambda^2(45)` gives exactly `45` and `945` | `lab/process/pati-salam-representation-channel-theorem-package.json`; independent finite certificate (`20/20`); upstream exact character probe | exact finite representation theorem |
+| The `54` and `210` each have one Pati-Salam singlet, while the `45` and `945` have none | held HE-4 counts, independent composition certificate and Lean finite intersection kernel | exact representation-grade preserving-owner split |
+| A cubic internal `45` channel exists but a nonzero linear Pati-Salam-preserving adjoint background does not | multiplicity-one same-label `45` line and `Inv_PS(45)=0` | exact representation-grade availability plus obstruction |
+| Representation support selects the `54` rather than the `210`, their relative coefficient, a form-leg contraction or a family | two distinct symmetric owner lines and explicit missing-owner fields; hostile selftest (`10/10`) | false / no selector supplied |
+| The package constructs a source-action vertex, stationary background, mass, observed sector, scale, prediction or GU verdict | source one-form, comparator and physical-credit fences | false / outside scope |
+
 ## Sigma/dark-energy sign nonselection (2026-09-02)
 
 | Claim | Evidence | Honest grade |

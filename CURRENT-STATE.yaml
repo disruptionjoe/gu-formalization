@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c97a3d53275d
+revision_basis: 1f34549e6cb1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The Pati-Salam representation-channel Big Wave packages the exact
+    adjoint/144 degree ladder as a self-contained representation theorem. The
+    same-label 16 tensor 144 support intersects Sym^2(45) in exactly 54 and
+    210 and Lambda^2(45) in exactly 45 and 945. The held Pati-Salam singlet
+    counts are one on 54 and 210 and zero on 45 and 945, so exactly two
+    quadratic preserving owners occur and both are symmetric. The cubic
+    internal 45 channel remains available, but Inv_PS(45)=0 obstructs a
+    nonzero linear preserving adjoint background. The two symmetric owner
+    lines remain unselected: no source coefficient, one-form contraction,
+    family covector, stationary background, physical vertex, mass, observed
+    sector or prediction is supplied. The new independent certificate passes
+    20/20 baseline checks and catches 10/10 hostile reopeners; its capsule
+    reruns the exact upstream character computation and Lean intersection
+    kernel. This is exact representation-grade support logic, not source-
+    action ownership, a physical symmetry-breaking theorem or a GU verdict.
     The sigma/dark-energy sign-nonselection Big Wave composes Q2-FREE, W211
     under W219's native correction, and CC-1 into one conditional exact
     theorem. If both sigma orientations remain admitted and a separately
@@ -6053,11 +6068,16 @@ current_result:
     - papers/drafts/sigma-dark-energy-sign-nonselection/reproduce_all.py
     - lab/process/sigma-dark-energy-sign-nonselection-package.json
     - tests/attention-shots/sigma_dark_energy_sign_nonselection.py
+    - papers/drafts/pati-salam-representation-channel-theorem/pati-salam-representation-channel-theorem.md
+    - papers/drafts/pati-salam-representation-channel-theorem/CLAIM-AND-PREMISE-LEDGER.json
+    - papers/drafts/pati-salam-representation-channel-theorem/VERIFICATION.md
+    - papers/drafts/pati-salam-representation-channel-theorem/reproduce_all.py
+    - lab/process/pati-salam-representation-channel-theorem-package.json
+    - tests/attention-shots/pati_salam_representation_channel_theorem.py
 current_question: >-
-  Do the exact symmetric and alternating adjoint-product decompositions prove
-  a self-contained Pati-Salam representation-channel theorem for the 54/210
-  versus 45/945 owners without importing a selected coefficient, vertex, mass,
-  observed sector or prediction?
+  Does the exact ambient gamma-kernel construction and literal observation
+  pullback prove a self-contained obstruction to preserving observed
+  gamma-tracelessness without classifying the physical leftover?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6076,11 +6096,14 @@ next_condition: >-
   into a conditional two-sign survival theorem once the physical sigma-to-
   Lambda sign bridge is explicitly supplied as total, nonzero and odd. Reopen
   it only on a named bridge, selector, dynamic-stabilizer or potential premise
-  change. Next package the exact 54/210 versus 45/945 Pati-Salam
-  representation-channel theorem without selected-coefficient, vertex, mass,
-  observed-sector or prediction language. Finally package the literal
-  observation-pullback/gamma-kernel obstruction without classifying the
-  physical leftover. Located, Not Forced is already published and is not new
+  change. The third package is also complete: the exact symmetric 54/210
+  versus alternating 45/945 Pati-Salam owner split is now a self-contained
+  representation-channel theorem with no selected coefficient, contraction,
+  family, physical vertex, mass, observed sector or prediction. Reopen it only
+  on a named D5-support, singlet-count, real-pairing, source-contraction or
+  selection premise change. Next package the literal observation-pullback/
+  gamma-kernel obstruction without classifying the physical leftover.
+  Located, Not Forced is already published and is not new
   work. Do not route these waves to external review,
   journal submission, outreach or dissemination, and do not depend on outside
   people. Exclude unavailable source retrieval, authorial specification,

@@ -22,6 +22,11 @@ lifecycle in [`../README.md`](../README.md).
 
 ## Still in progress here (selected)
 
+- [`pati-salam-representation-channel-theorem/`](pati-salam-representation-channel-theorem/)
+  — an exact representation-grade theorem package: the symmetric adjoint
+  square reaches the `54` and `210` Pati-Salam owners while the alternating
+  square reaches only the non-preserving `45` and `945` channels; no
+  coefficient or physical vertex is selected.
 - [`sigma-dark-energy-sign-nonselection/`](sigma-dark-energy-sign-nonselection/)
   — a correction-aware conditional theorem: a total nonzero odd bridge from
   both admitted sigma orientations reaches both cosmological-term signs and
