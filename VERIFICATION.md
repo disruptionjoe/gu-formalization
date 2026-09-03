@@ -7,6 +7,18 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K113 K111 continuous Langevin basin-record boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K111's closed simplex carries an `S_256`-equivariant reflected overdamped Langevin law with tangent covariance `(2/beta)Pi`, cubic drift and normal reflection | `lab/process/k113-k111-continuous-langevin-basin-record-wave.json`; exact tangent/potential certificate (`20/20`) | exact finite-dimensional continuous stochastic construction |
+| The unique reversible stationary law is the Gibbs measure `Z^-1 exp(-beta V)`, with zero normal flux, Neumann generator, weighted Dirichlet form and relative-entropy dissipation | current/flux identity and integration-by-parts proof; baseline-first hostile selftest (`26/26`) | exact finite-dimensional measure/domain/variational theorem |
+| The almost-sure unique-argmax basin record is equivariant and uniform on 256 cells, and its top projector labels the corresponding K105/K91 retract | hyperplane-null tie set, transitivity and spectral-top-line argument | exact measurable classical coarse-graining and conditional retract label |
+| The sharp basin indicators belong to the diffusion's finite-energy generator domain | codimension-one jump and inverse-epsilon wall-layer energy divergence | false; bounded measurable/L2 but not weighted H1 |
+| At finite temperature the law samples an exact K111 vacuum with positive probability | absolute continuity of the Gibbs law | false; each exact vacuum has probability zero |
+| The zero-noise limit is the uniform 256-vacuum mixture and each basin-conditioned limit is its unique K111 vacuum | equal strict minima and equal restricted Hessians; finite-dimensional Laplace principle | exact singular-limit branch recovery |
+| The packet derives a source/GU stochastic action, physical bath/detector, spacetime causal BV-BFV domain, Born rule, prediction or confirmation | explicit owner, regularity, domain and credit fences | false / outside scope |
+
 ## K112 K105 equivariant stochastic branch-record descent (2026-09-03)
 
 | Claim | Evidence | Honest grade |

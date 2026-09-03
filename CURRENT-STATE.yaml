@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 04c3d744c86a
+revision_basis: 46289dc679c0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K113 continuous Langevin basin-record Big Wave closes the first
+    continuous-carrier stochastic denominator left by K112. On K111's closed
+    simplex, the reflected overdamped diffusion with cubic drift
+    -Pi grad(V), tangent covariance (2/beta)Pi and normal reflection has the
+    unique reversible Gibbs law exp(-beta V), a Neumann generator domain and
+    exact relative-entropy dissipation. The almost-sure argmax record is
+    S_256-equivariant and uniform over 256 basin cells, and its top spectral
+    projector transports to the matching K105/K91 retract. But exact vacua
+    have zero mass at every finite beta, the sharp cell indicators are outside
+    the weighted H1 Dirichlet domain with wall-layer energy diverging as
+    1/epsilon, and sample paths need not preserve one fixed branch domain.
+    Only the singular beta-to-infinity limit converges to the uniform K111
+    vacuum mixture and conditionally to one exact vacuum. The certificate
+    passes 20/20 and catches 26/26 hostile mutations. No source/GU stochastic
+    action, physical environment or detector, spacetime causal/BV-BFV domain,
+    Born derivation, prediction, confirmation, holdout score, canon or public
+    posture moves.
     The K112 stochastic branch-record Big Wave closes the finite branch-datum
     sufficiency question left by K111. On the transitive 256-vacuum orbit, the
     complete-graph generator Lf(j)=kappa sum_(k!=j)(f(k)-f(j)) is S_256-
@@ -6138,6 +6155,9 @@ current_result:
     - explorations/conditional-build/k109-k105-quantum-anchor-retract-selection-boundary-wave-2026-09-02.md
     - lab/process/k109-k105-quantum-anchor-retract-selection-boundary-wave.json
     - tests/channel-swings/k109_k105_quantum_anchor_retract_selection_boundary_probe.py
+    - explorations/conditional-build/k113-k111-continuous-langevin-basin-record-wave-2026-09-03.md
+    - lab/process/k113-k111-continuous-langevin-basin-record-wave.json
+    - tests/channel-swings/k113_k111_continuous_langevin_basin_record_probe.py
     - papers/drafts/declared-content-extra-vector-obstruction/declared-content-extra-vector-obstruction.md
     - papers/drafts/declared-content-extra-vector-obstruction/CLAIM-AND-PREMISE-LEDGER.json
     - papers/drafts/declared-content-extra-vector-obstruction/VERIFICATION.md
@@ -6163,10 +6183,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  What source/action/boundary environment can own K112's stochastic law and
-  readable eight-bit record on the continuous K111 nonlinear carrier, with a
-  specified measure or noise covariance, causal/domain compatibility and
-  variational coupling rather than a finite conditional instrument?
+  What physical source/action/boundary environment can own K113's reflected
+  simplex diffusion, and what enlarged detector or hybrid state space can
+  carry a finite-energy durable branch record across tie-wall crossings while
+  remaining compatible with genuine spacetime causal BV-BFV domains?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6175,19 +6195,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K112 now proves the exact finite stochastic sufficiency boundary. A fully
-  symmetric law can operationally distribute K111 vacuum representatives but
-  only uniformly; a simultaneously equivariant perfect record conditionally
-  selects one embedded K105/K91 retract and carries exactly eight classical
-  bits. The unrecorded quotient remains branch blind and full-rank. Rebuild the
-  next reverse-scaffold Big Wave around the origin of this law and record on
-  the continuous nonlinear carrier: derive or authenticate a source/action/
-  boundary environment, measure or noise covariance, causal/domain
-  compatibility and variational coupling, then test genuine nonlinear BV-BFV
-  and observable descent. Do not call the finite record a physical detector,
-  measurement, collapse law or superselection derivation; do not call uniform
-  group probability Born structure; and do not reopen K108--K112 without a
-  named premise change.
+  K113 now supplies an exact continuous finite-dimensional stochastic owner on
+  K111's simplex: quartic drift, tangent noise covariance, reflecting boundary,
+  Gibbs measure, detailed balance, Neumann/Dirichlet domain and variational
+  dissipation. Its equivariant argmax basin record is uniformly distributed
+  and names the K105/K91 top retract, but it is not a finite-energy observable;
+  its smoothing cost diverges across tie walls, exact vacua have zero finite-
+  temperature mass and one fixed branch domain is not dynamically preserved.
+  K112's perfect branch law appears only as the singular zero-noise limit.
+  Rebuild the next reverse-scaffold Big Wave around a physical owner of the
+  diffusion and an enlarged detector/hybrid state space that carries a durable
+  finite-energy record through branch crossings, then demand genuine spacetime
+  causal BV-BFV and observable descent. Do not call reflection a BV-BFV
+  boundary law, Gibbs weight Born structure, basin coarse-graining a physical
+  measurement, or the zero-noise limit source/GU derivation; do not reopen
+  K108--K113 without a named premise change.
 
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.

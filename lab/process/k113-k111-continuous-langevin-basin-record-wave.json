@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K113-K111-CONTINUOUS-LANGEVIN-BASIN-RECORD-2026-09-03",
+  "status": "exact_continuous_simplex_diffusion_with_gibbs_domain_and_sharp_record_energy_obstruction",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k111-k105-symmetric-vacuum-orbit-quotient-wave.json",
+    "lab/process/k112-k105-equivariant-stochastic-branch-record-descent-wave.json"
+  ],
+  "continuous_carrier": {
+    "configuration_space": "closed_normalized_nonnegative_simplex_Delta_255",
+    "tangent_space": "one_perp_in_R^256",
+    "potential": "V(w)=sum_i((w_i-2/257)*(w_i-1/257))^2",
+    "potential_degree": 4,
+    "S_256_invariant": true,
+    "source_or_GU_owned": false
+  },
+  "reflected_langevin_owner": {
+    "equation": "dW=-Pi*grad(V)*dt+sqrt(2/beta)*Pi*dB+dK_reflect",
+    "tangent_covariance": "(2/beta)*Pi_where_Pi=I-11^T/256",
+    "beta_positive": true,
+    "boundary_condition": "normal_reflection_equivalently_zero_probability_flux",
+    "generator": "L_beta_f=-(grad_T_V).(grad_T_f)+(1/beta)*Delta_T_f",
+    "generator_domain": "Neumann_core_on_Delta_255_and_weighted_H1_closure",
+    "nonlinear_drift": true,
+    "S_256_equivariant": true,
+    "physical_environment_or_detector_owned": false
+  },
+  "measure_and_variational_structure": {
+    "reference_measure": "relative_255_dimensional_Lebesgue_measure_on_Delta_255",
+    "stationary_law": "mu_beta=Z_beta^-1*exp(-beta*V)*lambda_Delta",
+    "stationary_law_unique": true,
+    "detailed_balance": true,
+    "dirichlet_form": "E_beta(f,g)=(1/beta)*integral_grad_T_f_dot_grad_T_g_dmu_beta",
+    "free_energy": "Ent(rho_relative_to_mu_beta)",
+    "dissipation": "dEnt/dt=-(1/beta)*integral_rho*abs(grad_T_log_rho)^2_dmu_beta",
+    "finite_temperature_exact_vacuum_mass": 0,
+    "spacetime_causal_or_BV_BFV_structure_owned": false
+  },
+  "basin_record": {
+    "tie_set": "union_over_i_less_than_j_of_{w_i=w_j=max_k_w_k}",
+    "tie_set_mu_beta_measure": 0,
+    "record": "R(w)=the_unique_argmax_coordinate_off_the_tie_set",
+    "S_256_equivariant_almost_surely": true,
+    "record_law": "uniform_1/256",
+    "record_information_bits": 8,
+    "record_cells": "C_j={w_j>w_i_for_all_i_not_equal_j}",
+    "top_projector_on_C_j": "P_j=e_j*e_j^T",
+    "K110_K91_retract_label_recovered": true,
+    "physical_measurement_or_record_dynamics_derived": false
+  },
+  "sharp_record_domain_obstruction": {
+    "cell_indicators_measurable_and_bounded": true,
+    "cell_indicators_in_weighted_L2": true,
+    "cell_indicators_in_Dirichlet_H1_domain": false,
+    "reason": "nonzero_jump_across_codimension_one_tie_walls",
+    "linear_epsilon_layer_energy": "asymptotic_q_wall/(2*epsilon)",
+    "sharp_record_has_finite_diffusion_energy": false,
+    "continuous_generator_preserves_one_fixed_branch_domain": false
+  },
+  "zero_noise_limit": {
+    "limit": "beta_to_infinity",
+    "vacuum_set": "the_256_K111_strict_interior_global_minima",
+    "restricted_Hessian_at_each_vacuum": "(2/257^2)*I_on_T_Delta",
+    "unconditional_limit": "uniform_sum_j_delta_wj/256",
+    "conditional_limit_in_C_j": "delta_wj",
+    "finite_beta_equals_perfect_K112_branch_law": false,
+    "singular_limit_recovers_K112_branch_law": true,
+    "preferred_coordinate_selected": false
+  },
+  "result": {
+    "continuous_nonlinear_carrier_stochastic_dynamics_constructed": true,
+    "measure_noise_boundary_and_variational_owner_complete": true,
+    "equivariant_measurable_basin_record_constructed": true,
+    "finite_temperature_perfect_vacuum_record_constructed": false,
+    "sharp_record_is_generator_domain_observable": false,
+    "single_fixed_K91_domain_preserved_by_diffusion": false,
+    "source_action_or_GU_boundary_law_derived": false,
+    "physical_environment_measurement_or_collapse_derived": false,
+    "actual_spacetime_causality_or_BV_BFV_descent_constructed": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Supply or authenticate a physical source/action/boundary environment whose stochastic quantization reduces to this simplex law, and construct a finite-energy detector or enlarged hybrid state space that dynamically carries the branch record across tie-wall crossings while remaining compatible with a genuine spacetime causal BV-BFV domain and observable algebra. K113 owns a continuous repository diffusion and its singular branch limit, not those physical owners.",
+  "claim_ceiling": "Exact finite-dimensional reflected-diffusion, Gibbs/Dirichlet-form, equivariant basin-record and zero-noise concentration theorem on K111's repository simplex. The sharp eight-bit record is measurable but not in the diffusion's finite-energy generator domain, exact vacua have zero probability at finite temperature, and K112 is recovered only in a singular zero-noise limit. No source/GU stochastic action, physical environment or detector, spacetime causal BV-BFV descent, Born derivation, held-out score, prediction or confirmation follows."
+}
