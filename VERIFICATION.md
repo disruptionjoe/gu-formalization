@@ -7,6 +7,17 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K115 K114 feed-forward nonequilibrium detector boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The Poisson-refresh generator `Gf=A f_r+lambda(sum_s p_s f_s-f_r)` is `S_256`-equivariant and preserves the complete K113 base path law, not only its stationary marginal | `lab/process/k115-k114-feed-forward-nonequilibrium-detector-wave.json`; exact generator-autonomy certificate (`23/23`) | exact finite-dimensional feed-forward stochastic construction |
+| The unique stationary conditional density is `h_r=lambda(lambda-A)^-1 p_r`; it normalizes, preserves the K113 Gibbs base marginal and has uniform detector marginal | resolvent equation, Markov positivity and irreducibility; exact three-state control | exact stationary-resolvent theorem |
+| Sharp detector-center indicators have bounded generator image and carré-du-champ, and continuous base tie-wall crossings do not change the stored label | exact generator/energy formulas and Poisson event semantics | exact finite-energy durable-record theorem |
+| An informative feed-forward kernel can be jointly reversible | detailed-balance implication `h=p`, stationary implication `A p=0`, irreducibility and explicit nonzero-current control | false; informative nonbackreacting readout necessarily leaves equilibrium |
+| Event-time vacuum accuracy remains `3^m/(3^m+255*2^m)`, while finite refresh rate adds resolvent lag bounded by `E_A(p,p)/lambda` | exact rational control, spectral-calculus bound and hostile selftest (`33/33`) | exact readout/response-lag frontier |
+| The construction derives a source/GU physical bath, clock, detector, preparation, thermodynamic law, spacetime BV-BFV domain, Born rule, prediction or confirmation | explicit import accounting, held-out firewall and claim ceiling | false / not constructed |
+
 ## K114 K113 hybrid detector and finite-energy record boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

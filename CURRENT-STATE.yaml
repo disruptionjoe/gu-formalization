@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c8d35e70f676
+revision_basis: 905a7ace181f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K115 feed-forward nonequilibrium-detector Big Wave closes K114's
+    mathematical one-way escape without importing record-conditioned drift.
+    K113's reflected generator remains exact in every detector sector, while
+    an independent Poisson clock refreshes the 256-state record from the
+    positive equivariant kernel p_r(w)=a_r(w)/sum_s a_s(w). The unique
+    stationary conditional density is
+    h_r=lambda(lambda-A)^(-1)p_r: it preserves the K113 Gibbs base marginal,
+    has a uniform detector marginal and exposes finite response lag. Sharp
+    detector indicators have bounded generator image and carré-du-champ and
+    persist across continuous tie-wall crossings. Informative p cannot be
+    jointly reversible: detailed balance would force h=p and then A p_r=0,
+    contradicting irreducibility unless the record is state-independent.
+    Event-time vacuum readout retains K114's strictly positive finite-contrast
+    error, and finite clock rate adds resolvent smoothing. The certificate
+    passes 23/23 and catches 33/33 hostile mutations. No source/GU action,
+    physical bath, clock, detector, preparation or thermodynamic law,
+    spacetime causal/BV-BFV domain, Born derivation, prediction, confirmation,
+    holdout score, canon or public posture moves.
     The K114 hybrid detector/finite-energy-record Big Wave closes K113's
     sharp-record analytic-domain obstruction by enlarging the carrier to the
     K111 simplex times a 256-state detector. Positive scores
@@ -6200,10 +6218,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  What physical source/action/boundary environment can own K113's reflected
-  simplex diffusion, and what enlarged detector or hybrid state space can
-  carry a finite-energy durable branch record across tie-wall crossings while
-  remaining compatible with genuine spacetime causal BV-BFV domains?
+  What source/action, bath, clock, dissipation and preparation law can realize
+  K115's exact feed-forward nonequilibrium detector on a genuine causal
+  spacetime BV-BFV domain, and do its record observables descend locally
+  without importing Born or measurement semantics?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6212,21 +6230,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K113 now supplies an exact continuous finite-dimensional stochastic owner on
-  K111's simplex: quartic drift, tangent noise covariance, reflecting boundary,
-  Gibbs measure, detailed balance, Neumann/Dirichlet domain and variational
-  dissipation. Its equivariant argmax basin record is uniformly distributed
-  and names the K105/K91 top retract, but it is not a finite-energy observable;
-  its smoothing cost diverges across tie walls, exact vacua have zero finite-
-  temperature mass and one fixed branch domain is not dynamically preserved.
-  K112's perfect branch law appears only as the singular zero-noise limit.
-  Rebuild the next reverse-scaffold Big Wave around a physical owner of the
-  diffusion and an enlarged detector/hybrid state space that carries a durable
-  finite-energy record through branch crossings, then demand genuine spacetime
-  causal BV-BFV and observable descent. Do not call reflection a BV-BFV
-  boundary law, Gibbs weight Born structure, basin coarse-graining a physical
-  measurement, or the zero-noise limit source/GU derivation; do not reopen
-  K108--K113 without a named premise change.
+  K115 now supplies an exact finite-dimensional one-way detector: K113's base
+  path law is autonomous, the stationary record is the positive resolvent
+  h=lambda(lambda-A)^(-1)p, sharp detector indicators have finite energy, and
+  informative readout is necessarily nonequilibrium. This closes K114's
+  record-conditioned backreaction escape mathematically but leaves every
+  physical owner supplied. Rebuild the next reverse-scaffold Big Wave around
+  a source/action coupling, bath, reset clock, dissipation and preparation law
+  whose reduction produces the feed-forward kernel, then lift that apparatus
+  to a genuine causal spacetime BV-BFV domain and prove local observable
+  descent. Do not identify stationary h with event kernel p, call Markov
+  currents a derived thermodynamic entropy budget, relabel classical
+  conditioning as Born structure, or reopen K108--K115 without a named premise
+  change.
 
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.

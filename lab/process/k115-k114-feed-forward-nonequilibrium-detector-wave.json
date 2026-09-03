@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K115-K114-FEED-FORWARD-NONEQUILIBRIUM-DETECTOR-2026-09-03",
+  "status": "exact_feed_forward_detector_with_autonomous_base_finite_energy_record_and_nonequilibrium_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k113-k111-continuous-langevin-basin-record-wave.json",
+    "lab/process/k114-k113-hybrid-detector-finite-energy-record-wave.json"
+  ],
+  "feed_forward_carrier": {
+    "configuration_space": "Delta_255_times_{0,...,255}",
+    "continuous_base": "unchanged_K113_reflected_diffusion_with_generator_A_and_Gibbs_law_mu",
+    "detector_coordinate": "one_discrete_256_value_classical_record",
+    "readout_kernel": "p_r(w)=a_r(w)/sum_s_a_s(w)_with_a_r(w)=(epsilon+w_r)^m",
+    "refresh_clock": "independent_Poisson_rate_lambda",
+    "S_256_equivariant": true,
+    "source_or_GU_owned": false
+  },
+  "generator": {
+    "formula": "Gf(w,r)=A[f_r](w)+lambda*(sum_s_p_s(w)*f(w,s)-f(w,r))",
+    "base_observable_identity": "G[g_circ_projection_W]=(A*g)_circ_projection_W",
+    "base_path_law_depends_on_detector": false,
+    "record_changes_only_at_refresh_events": true,
+    "absorbing_or_permanent_record": false,
+    "physical_bath_clock_detector_or_preparation_derived": false
+  },
+  "stationary_resolvent": {
+    "conditional_density": "h_r=lambda*(lambda-A)^-1*p_r_relative_to_mu",
+    "equation": "(lambda-A)h_r=lambda*p_r",
+    "normalization": "sum_r_h_r=1",
+    "base_marginal": "mu_exactly",
+    "detector_marginal": "uniform_1/256",
+    "positivity_and_bounds": "min(p_r)_over_Delta_le_h_r_le_max(p_r)_over_Delta",
+    "uniqueness_under_K113_irreducibility_and_positive_refresh": true,
+    "S_256_equivariant": true
+  },
+  "finite_energy_record": {
+    "sharp_detector_indicator": "g_j(w,r)=1_if_r_equals_j_else_0",
+    "continuous_gradient": 0,
+    "generator_image": "Gg_j=lambda*(p_j-1_{r=j})",
+    "generator_image_bounded_by": "lambda",
+    "carre_du_champ": "Gamma(g_j)(w,r)=lambda/2*((1-p_j(w))_if_r=j_else_p_j(w))",
+    "carre_du_champ_bounded_by": "lambda/2",
+    "finite_joint_energy": true,
+    "tie_wall_crossing_forces_record_change": false
+  },
+  "nonequilibrium_boundary": {
+    "informative_kernel_is_nonconstant": true,
+    "joint_reversibility_with_feed_forward_base_and_refresh_kernel": false,
+    "proof": "jump_detailed_balance_would_force_h_r*p_s=h_s*p_r_and_h=p;_stationarity_then_forces_Ap_r=0;_K113_irreducibility_makes_each_p_r_constant",
+    "stationary_probability_currents_nonzero_for_informative_kernel": true,
+    "K114_record_conditioned_drift_backreaction_avoided": true,
+    "thermodynamic_dissipation_or_physical_entropy_production_derived": false
+  },
+  "readout_and_lag": {
+    "certificate_parameters": {"n": 256, "epsilon": "1/257", "m": 16},
+    "event_time_correct_readout_at_K111_vacuum": "3^16/(3^16+255*2^16)",
+    "event_time_wrong_readout_at_K111_vacuum": "2^16/(3^16+255*2^16)",
+    "finite_contrast_error_strictly_positive": true,
+    "stationary_record_density_is_resolvent_smoothed": true,
+    "lag_bound": "norm(h_r-p_r)_L2(mu)^2_le_E_A(p_r,p_r)/lambda",
+    "fast_refresh_limit": "h_r_to_p_r_in_L2(mu)_as_lambda_to_infinity",
+    "slow_refresh_limit_on_centered_modes": "h_r_to_integral_mu_p_r=1/256_as_lambda_to_zero",
+    "clock_changes_response_lag_not_event_kernel": true,
+    "Born_accuracy_or_information_optimality_derived": false
+  },
+  "branch_interface": {
+    "refresh_record_r_names_K110_K91_retract": true,
+    "continuous_tie_crossing_changes_named_retract_without_refresh": false,
+    "finite_rate_refresh_can_change_named_retract": true,
+    "one_fixed_branch_domain_invariant_forever": false,
+    "spacetime_causal_BV_BFV_observable_descent_owned": false
+  },
+  "result": {
+    "exact_feed_forward_nonequilibrium_detector_constructed": true,
+    "K113_base_marginal_and_path_generator_preserved": true,
+    "finite_energy_discrete_record_constructed": true,
+    "reversible_record_conditioned_backreaction_avoided": true,
+    "stationary_resolvent_and_lag_boundary_constructed": true,
+    "source_action_or_physical_environment_derived": false,
+    "actual_spacetime_causality_or_BV_BFV_descent_constructed": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Construct or authenticate the source/physical bath, clock, dissipation and preparation law that realizes the K115 feed-forward kernel, then lift it to a genuine causal spacetime BV-BFV domain with local observable descent. K115 closes the finite-dimensional nonbackreaction escape mathematically but does not supply those physical owners.",
+  "claim_ceiling": "Exact finite-dimensional feed-forward diffusion-refresh, autonomous-base, stationary-resolvent, finite-energy record, nonequilibrium-current and response-lag theorem on the K113/K114 carrier. The one-way detector avoids K114's reversible record-conditioned drift backreaction, but its kernel, clock and preparation remain supplied; finite contrast retains error and finite clock rate produces stationary lag. No source/GU physical environment, thermodynamic derivation, spacetime causal BV-BFV descent, Born derivation, held-out score, prediction or confirmation follows."
+}
