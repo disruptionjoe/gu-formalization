@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K118-K117-FINITE-CONTROLLER-CONTINUUM-BV-BFV-HOST-2026-09-03",
+  "status": "exact_finite_nonequilibrium_cyclic_controller_finite_fuel_limit_and_free_continuum_bv_bfv_host_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k117-k116-autonomous-reservoir-causal-locality-wave.json",
+    "lab/process/k116-k115-stochastic-action-energetics-owner-wave.json"
+  ],
+  "finite_cyclic_controller": {
+    "carrier": "K115_three_state_base_record_chain_times_the_odd_fuel_ring_Z_mod_L",
+    "control_size": 5,
+    "work_step": "plus_one_for_high_to_low_base_energy_edges_minus_one_for_low_to_high_and_zero_otherwise",
+    "finite_state_time_homogeneous_markov_chain": true,
+    "strongly_lumpable_exactly_to_K115": true,
+    "stationary_lift": "K115_stationary_law_times_uniform_fuel_ring",
+    "positive_stationary_winding_current": true,
+    "lifted_entropy_production_equals_K115_entropy_production": true,
+    "finite_nonequilibrium_controller_constructed": true,
+    "finite_closed_equilibrium_bath_constructed": false
+  },
+  "replenishment_boundary": {
+    "cut": "the_ring_edge_from_L_minus_1_to_0_and_its_reverse",
+    "ring_size_times_net_cut_current_equals_mean_signed_resource_step_rate": true,
+    "ring_size_times_log_81_over_16_times_net_cut_current_equals_K117_mean_work_rate": true,
+    "wrap_is_explicit_replenishment_not_costless_identification": true,
+    "maintained_nonconservative_affinities_are_supplied": true,
+    "source_or_GU_ownership_of_replenishment": false
+  },
+  "finite_fuel_limit": {
+    "carrier": "K115_chain_times_integer_fuel_levels_minus_N_through_N_with_outward_boundary_jumps_suppressed",
+    "finite_autonomous_controller": true,
+    "exactly_matches_K117_before_the_first_boundary_attempt": true,
+    "path_law_total_variation_bound": "Pr_Poisson_Lambda_T_greater_than_N",
+    "uniformization_rate": "4/5_plus_679/1243",
+    "finite_window_limit_to_K117_as_N_tends_to_infinity": true,
+    "stationary_mean_fuel_drift": "zero_for_every_finite_N",
+    "stationary_exact_K115_projection": false,
+    "reason": "a_bounded_stationary_coordinate_has_zero_mean_drift_while_K117_consumes_positive_mean_work"
+  },
+  "continuum_host": {
+    "spacetime": "globally_hyperbolic_Lorentzian_cylinder_[0,T]_times_S1",
+    "field": "real_Klein_Gordon_scalar_phi",
+    "action": "one_half_integral_of_time_gradient_squared_minus_space_gradient_squared_minus_mass_squared_phi_squared",
+    "euler_operator": "partial_t_squared_minus_partial_x_squared_plus_mass_squared",
+    "cauchy_trace": "H2_bulk_to_H3_over_2_configuration_times_H1_over_2_normal_momentum_on_each_boundary_component",
+    "boundary_one_form_and_even_symplectic_flux_constructed": true,
+    "bulk_degree_minus_one_BV_cotangent_symplectic_form_constructed": true,
+    "BV_BFV_compatibility_identity_constructed": true,
+    "boundary_BFV_charge": "zero_in_the_nongauge_theory",
+    "classical_master_equation": "holds_trivially_because_the_nongauge_action_is_antifield_independent",
+    "nontrivial_gauge_or_ghost_complex_constructed": false,
+    "advanced_retarded_causal_support": true,
+    "spacelike_separated_linear_Peierls_observables_commute": true,
+    "genuine_continuum_free_nongauge_BV_BFV_host": true,
+    "AQFT_net_or_Hadamard_state_constructed": false
+  },
+  "coupling_boundary": {
+    "K115_detector_coupled_to_continuum_field": false,
+    "finite_controller_derived_from_continuum_action": false,
+    "Weinstein_source_or_GU_action_constructed": false,
+    "interacting_GU_BV_BFV_theory_constructed": false,
+    "next_required_object": "one_owned_local_detector_field_coupling_whose_BV_BFV_variation_reproduces_the_finite_controller_rates_or_their_controlled_scaling_limit",
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "fuel_ring_size": 5,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "cyclic_stationarity_and_strong_lumping_checked_exactly": true,
+    "winding_resource_and_entropy_checked": true,
+    "finite_fuel_Poisson_bound_checked": true,
+    "continuum_mode_Green_trace_symplectic_master_and_causal_controls_checked": true
+  },
+  "exact_reopener": "Construct an owned local interaction between the finite detector/controller and the continuum field, derive its rate or scaling law from the varied action, and replace the supplied ring affinity by source-owned reservoirs or a controlled Hamiltonian thermodynamic limit; only then test nontrivial gauge BV cohomology, physical states and observable export.",
+  "claim_ceiling": "Exact repository-owned finite nonequilibrium cyclic controller with explicit winding replenishment, finite-fuel finite-window limit, and genuine free nongauge continuum Klein-Gordon BV-BFV host only. The ring is not a closed equilibrium bath; the free host is not coupled to K115 and is not Weinstein's source or a GU action. No interacting gauge theory, AQFT state, Born rule, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}

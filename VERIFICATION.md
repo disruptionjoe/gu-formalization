@@ -7,6 +7,16 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K118 K117 finite controller and continuum BV-BFV host boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The finite fuel-ring lift is stationary and strongly lumpable exactly to K115 | `lab/process/k118-k117-finite-controller-continuum-bv-bfv-host-wave.json`; exact fibre-rate and node-divergence controls (`28/28`) | exact finite autonomous nonequilibrium controller |
+| The finite ring removes K117's stationary resource cost | positive cut winding with `L J_cut=J_step`; lifted entropy production equals K115's, and the maintained affinity is supplied | false; replenishment is explicit rather than free |
+| Bounded fuel recovers K117 on fixed time windows as its capacity grows | common uniformized jump coupling and `Pr[Poisson(Lambda T)>N]` total-variation bound | exact finite-window thermodynamic-limit estimate, not stationary exact realization |
+| The free real Klein-Gordon field on `[0,T] x S1` carries continuum BV-BFV data and causal local-observable support | Sobolev Cauchy trace, Green identity, boundary symplectic flux, odd BV cotangent form, classical master equation, normally hyperbolic causal propagator; exact mode/control probe | genuine continuum free nongauge BV-BFV host theorem |
+| The packet derives a detector-field coupling, source/GU action, closed equilibrium bath, nontrivial gauge BV cohomology, AQFT state, Born rule, prediction or confirmation | explicit separation and ownership fences plus hostile selftest (`33/33`) | false / not constructed |
+
 ## K117 K116 autonomous reservoir and causal-locality boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5607c41b2dbf
+revision_basis: c450420fca46
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K118 finite-controller/continuum-host Big Wave replaces K117's
+    unbounded resource coordinate in two controlled senses. A five-state fuel
+    ring gives a finite autonomous nonequilibrium lift that is exactly
+    strongly lumpable to K115 and stationary under the product of K115's law
+    with the uniform ring law. Its positive winding current crosses an
+    explicit replenishment cut, and five times the cut current times
+    log(81/16) equals K117's mean work; the lifted entropy production equals
+    the projected one. The escape from K117's no-go is therefore
+    nonequilibrium, not a finite closed bath. A bounded fuel interval agrees
+    with K117 before its first boundary attempt, with path-law error bounded
+    by a Poisson uniformization tail tending to zero on every fixed time
+    window, but every finite stationary fuel coordinate has zero mean drift
+    and cannot sustain exact K115 without distortion or replenishment.
+    Independently, a real Klein-Gordon field on a globally hyperbolic
+    Lorentzian cylinder supplies a genuine continuum free nongauge BV-BFV
+    host: Sobolev Cauchy traces, boundary symplectic flux, degree-minus-one
+    bulk BV form, a trivially satisfied classical master equation, and causal
+    advanced/retarded support with spacelike Peierls commutation. The exact
+    certificate passes 28/28 and catches 33/33 hostile mutations. The ring
+    affinity remains supplied and the free host is not coupled to the
+    detector; no finite closed equilibrium bath, Weinstein/source/GU action,
+    interacting gauge BV theory, AQFT state, Born derivation, prediction,
+    confirmation, holdout score, canon or public posture moves.
     The K117 autonomous-reservoir/causal-locality Big Wave internalizes K116's
     controller invoice in an autonomous Markov-additive path law. On the exact
     three-state control, forgetting the additive work coordinate recovers K115
@@ -6250,10 +6273,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K117's unbounded Markov-additive resource be replaced by a finite
-  nonequilibrium microscopic controller with a controlled replenishment or
-  thermodynamic limit, or derived from a source-owned action, and can its
-  finite causal locality be lifted to a genuine continuum BV-BFV domain?
+  Can K118's supplied cyclic affinity and separate free continuum host be
+  replaced by one owned local detector-field interaction whose BV-BFV
+  variation derives the controller rates or their scaling limit and whose
+  reservoirs have a source-owned or controlled Hamiltonian thermodynamic
+  limit?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6262,20 +6286,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K117 now supplies an exact autonomous Markov-additive dilation of K115 and
-  makes K116's hidden controller work an explicit reservoir current. Its
-  nonunit Kolmogorov cycle forbids a finite stationary detailed-balanced
-  strongly lumpable lift, while the unbounded/chemostatted resource sustains a
-  positive stationary current. A finite causal DAG also proves past-closed
-  local-observable descent and spacelike commutation. Rebuild the next
-  reverse-scaffold Big Wave around either a finite nonequilibrium microscopic
-  controller with an explicit replenishment/thermodynamic limit or a
-  source-owned action, and replace the DAG precursor by a genuine continuum
-  causal BV-BFV bulk-boundary domain with trace maps, odd symplectic data and a
-  master equation. Do not call strong-lumpability failure a no-go for every
-  hidden controller, identify the work ledger with a finite bath, promote the
-  finite DAG to continuum BV-BFV, relabel classical conditioning as Born
-  structure, or reopen K108--K117 without a named premise change.
+  K118 now supplies a finite autonomous nonequilibrium controller that
+  strongly lumps exactly to K115 and makes replenishment visible as winding
+  across a fuel-ring cut. A bounded fuel interval converges to K117 on every
+  fixed time window under an explicit Poisson-tail bound, while its stationary
+  zero-drift identity proves why finite fuel alone cannot sustain the positive
+  K117 current. Separately, a free real Klein-Gordon field on a globally
+  hyperbolic cylinder supplies a genuine continuum nongauge BV-BFV host with
+  Cauchy traces, boundary symplectic flux, odd bulk BV data, a trivial
+  classical master equation and causal Peierls support. Rebuild the next
+  reverse-scaffold Big Wave around one owned local detector-field coupling
+  whose varied action produces the controller rates or controlled scaling
+  law, and replace the supplied ring affinity by source-owned reservoirs or a
+  controlled Hamiltonian thermodynamic limit. Do not call the cyclic lift a
+  closed equilibrium bath, identify finite-window convergence with stationary
+  finite-fuel realization, call the free host a coupled GU theory, infer
+  nontrivial gauge BV cohomology or AQFT state, relabel classical conditioning
+  as Born structure, or reopen K108--K118 without a named premise change.
 
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.
