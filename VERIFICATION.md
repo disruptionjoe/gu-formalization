@@ -7,6 +7,17 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K119 K118 collision Hamiltonian and thermodynamic reservoir boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every directed K115 edge admits one explicit local star-rotation Hamiltonian collision whose fresh-cell diagonal reduction is exactly `I+hQ` | `lab/process/k119-k118-collision-hamiltonian-thermodynamic-reservoir-wave.json`; exact Kraus, stochasticity, stationarity and generator controls (`25/25`) | exact finite-dimensional local unitary dilation |
+| Deterministic fresh-cell collisions converge to the K115 continuous-time semigroup | uniformization plus binomial-to-Poisson bound `d_TV<=t Lambda^2/m` for `h=1/m`; independent matrix-exponential controls | rigorous finite-dimensional collision scaling limit |
+| A finite tape is exact on every unused prefix and its infinite product is a thermodynamic reservoir limit | exact repeated-interaction factorization for `n<=N` and fixed-prefix stabilization as `N` grows | exact local-prefix thermodynamic limit, not a finite closed bath |
+| The outgoing tape owns K115's stationary activity and forward/reverse entropy-production record | edge-label weights `h nu_i q_ij`; exact activity and likelihood-ratio identities | exact reservoir-output accounting under the supplied fresh-cell state |
+| The finite collision action owns a BV-BFV detector-field interaction | first-order Schrödinger variation, endpoint symplectic preservation, shifted-cotangent odd form and trivial nongauge master equation | exact finite collision-slab nongauge BV-BFV owner, not a relativistic continuum host |
+| The packet couples K118's Klein-Gordon field, derives the fresh state/shift/Born rule, or constructs a source/GU action, finite equilibrium bath, AQFT state, prediction or confirmation | explicit owner decomposition and hostile selftest (`30/30`) | false / not constructed |
+
 ## K118 K117 finite controller and continuum BV-BFV host boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

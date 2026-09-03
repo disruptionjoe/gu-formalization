@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K119-K118-COLLISION-HAMILTONIAN-THERMODYNAMIC-RESERVOIR-2026-09-03",
+  "status": "exact_local_collision_hamiltonian_K115_rate_limit_fresh_tape_thermodynamic_reservoir_and_variational_owner_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k118-k117-finite-controller-continuum-bv-bfv-host-wave.json",
+    "lab/process/k99-observed-interaction-derived-detailed-balance-graph-wave.json",
+    "lab/process/k95-observed-dissipative-record-stabilization-wave.json"
+  ],
+  "local_collision_interaction": {
+    "system_carrier": "the_nine_K115_base_record_states",
+    "reservoir_cell": "one_vacuum_label_plus_one_orthogonal_label_for_each_directed_K115_edge",
+    "explicit_local_star_rotation_hamiltonian": true,
+    "unitary_for_each_collision": true,
+    "coupling_amplitudes": "square_roots_of_K115_directed_rates",
+    "one_cell_interacts_once_at_the_tape_boundary": true,
+    "microscopic_reversibility": "the_joint_collision_is_unitary_and_its_reverse_is_present_on_the_excited_cell_subspace"
+  },
+  "reduced_rate_limit": {
+    "step_condition": "zero_less_than_h_less_than_or_equal_to_the_inverse_maximum_exit_rate",
+    "one_step_diagonal_channel": "identity_plus_h_times_K115_generator",
+    "deterministic_product_limit_to_K115_semigroup": true,
+    "finite_dimensional_error_bound": "for_integer_t_and_h_equal_one_over_m_the_total_variation_error_is_at_most_t_times_Lambda_squared_over_m_by_binomial_to_Poisson_uniformization",
+    "rates_created_by_classical_variation_alone": false,
+    "rate_owner": "the_varied_collision_Hamiltonian_plus_supplied_fresh_cell_state_plus_partial_trace_and_scaling_limit"
+  },
+  "thermodynamic_reservoir": {
+    "finite_fresh_tape_exact_for_its_unused_prefix": true,
+    "infinite_fresh_tape_is_controlled_thermodynamic_limit": true,
+    "limit_topology": "every_fixed_finite_collision_prefix_is_eventually_identical",
+    "finite_closed_equilibrium_bath": false,
+    "fresh_cell_preparation_is_supplied_resource": true,
+    "one_pass_shift_is_supplied": true,
+    "finite_reused_tape_warning": "reusing_output_cells_introduces_memory_and_recurrence_and_does_not_preserve_the_K115_semigroup"
+  },
+  "variational_owner": {
+    "first_order_collision_slab_action": true,
+    "Euler_Lagrange_equation": "i_times_time_derivative_Psi_equals_H_h_Psi",
+    "boundary_symplectic_preservation": true,
+    "minimal_nongauge_BV_BFV_identity": true,
+    "classical_master_equation": "trivial_for_the_antifield_independent_nongauge_action",
+    "nontrivial_gauge_BV_complex": false,
+    "scope": "finite_dimensional_detector_tape_cell_collision_slab_not_the_K118_Klein_Gordon_cylinder"
+  },
+  "output_accounting": {
+    "outgoing_edge_labels_record_stationary_activity": true,
+    "stationary_edge_label_weight": "h_times_nu_i_times_q_ij",
+    "forward_reverse_label_likelihood_equals_K115_entropy_production": true,
+    "nonzero_entropy_production_is_exported_to_the_outgoing_tape": true,
+    "purity_and_freshness_of_incoming_cells_are_not_free": true
+  },
+  "ownership_boundary": {
+    "Weinstein_source_or_GU_action_constructed": false,
+    "K118_Klein_Gordon_field_coupled": false,
+    "relativistic_continuum_white_noise_limit_proved": false,
+    "single_time_independent_finite_bath_realization": false,
+    "Born_rule_derived": false,
+    "AQFT_or_Hadamard_state_constructed": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "collision_step": "1/2_for_the_exact_finite_control",
+    "stationarity_channel_generator_and_star_unitarity_checked": true,
+    "Euler_product_bound_and_fresh_prefix_limit_checked": true,
+    "activity_entropy_and_BV_BFV_boundaries_checked": true
+  },
+  "exact_reopener": "Construct a common relativistic continuum detector-field action whose controlled white-noise or weak-coupling limit yields the K115 collision family on one Sobolev/microlocal domain, and derive or physically authenticate the incoming reservoir state, shift and state-effect interpretation; only then test gauge BV cohomology, AQFT states, Born structure and observable export.",
+  "claim_ceiling": "Exact repository-owned local collision-Hamiltonian dilation, K115 reduced-rate scaling law, fresh-tape Hamiltonian thermodynamic limit, finite collision-slab nongauge BV-BFV owner and outgoing flux accounting only. The fresh-tape limit is not a finite closed equilibrium bath, is not K118's Klein-Gordon field and is not Weinstein's source or a GU action. No relativistic continuum limit, nontrivial gauge theory, AQFT state, Born rule, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}
