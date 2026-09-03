@@ -64,6 +64,7 @@ from __future__ import annotations
 import copy
 import importlib.util
 import io
+import subprocess
 import sys
 import unittest
 from contextlib import redirect_stderr, redirect_stdout
@@ -122,6 +123,19 @@ PINNED_STALE_FOUND = 6
 PINNED_FIXA = 6
 PINNED_RW1 = 5
 SEED_AUTHORS = frozenset({"SCUR-1", "FIX-A", "RW-1"})
+
+# CT-5's last historical-census update.  A later edit to an already-existing,
+# pre-correction file can make current bytes match an old signature even
+# though the frozen census bytes did not.  Keep such pairs explicit and prove
+# both sides before excluding them from the historical count; never raise the
+# historical baseline to absorb later content.
+HISTORICAL_CONTENT_REVISION = "b628d8bd4279b58a0f7c0fb2c32328eb63082113"
+POST_CENSUS_CONTENT_MATCHES = frozenset({
+    (
+        "CC-02-OBSERVED-POSITIVITY-OPEN",
+        "lab/process/improvement-register-2026-08-03.md",
+    ),
+})
 
 # The ten citation-edge corrections present when CT-5 shipped.  They stay
 # independently pinned as an ordered, unique historical subsequence; the
@@ -357,12 +371,46 @@ def run_probe(cfg: dict | None = None) -> dict:
     historical_per = historical_res["per"]
 
     # ---------------------------------------------------------------- D ---
+    historical_corpus = {d["rel"]: d for d in historical_res["corpus"]}
+    entries_by_id = {str(e.get("id")): e for e in historical_res["entries"]}
+    for cid, rel in sorted(POST_CENSUS_CONTENT_MATCHES):
+        entry = entries_by_id.get(cid)
+        current = historical_corpus.get(rel)
+        frozen = subprocess.run(
+            ["git", "show", f"{HISTORICAL_CONTENT_REVISION}:{rel}"],
+            cwd=ROOT,
+            text=True,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.PIPE,
+            check=False,
+        )
+        current_dirty = (
+            cid in historical_per
+            and rel in historical_per[cid]["unchecked"] + historical_per[cid]["known_stale"]
+        )
+        check(
+            "D",
+            f"post-census content fence is evidenced for {cid} / {rel}",
+            entry is not None
+            and current is not None
+            and current_dirty
+            and G.signature_match(entry, current["low"])
+            and frozen.returncode == 0
+            and not G.signature_match(entry, frozen.stdout.lower()),
+            frozen.stderr.strip() or "current match / frozen nonmatch",
+        )
+
+    def historical_dirty_count(cid: str) -> int:
+        row = historical_per[cid]
+        dirty = row["unchecked"] + row["known_stale"]
+        return sum((cid, rel) not in POST_CENSUS_CONTENT_MATCHES for rel in dirty)
+
     for cid in CANON_IDS:
         p = historical_per.get(cid)
         check("D", f"dirty count pinned for {cid}",
-              p is not None and p["dirty"] == PINNED_DIRTY[cid],
-              None if p is None else p["dirty"])
-    total = sum(historical_per[c]["dirty"] for c in CANON_IDS if c in historical_per)
+              p is not None and historical_dirty_count(cid) == PINNED_DIRTY[cid],
+              None if p is None else historical_dirty_count(cid))
+    total = sum(historical_dirty_count(c) for c in CANON_IDS if c in historical_per)
     check("D", "total dirty (file, correction) pairs",
           total == PINNED_TOTAL_DIRTY, total)
     cleared_total = sum(

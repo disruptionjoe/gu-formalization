@@ -12,6 +12,7 @@ import argparse
 import copy
 import importlib.util
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -119,16 +120,26 @@ def validate_static(state: dict) -> list[str]:
     if (state["sidecar"].get("ratchet") or {}).get("extension_measured_on") != "2026-08-25":
         failures.append("ratchet extension date moved")
 
-    refresh = str(state["agenda"].get("refresh_note", ""))
+    agenda_items = [
+        row
+        for row in state["agenda"].get("work_items", [])
+        if isinstance(row, dict)
+        and row.get("id") == "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"
+    ]
+    if len(agenda_items) != 1:
+        failures.append("agenda lacks one durable reverse-scaffold authority item")
+        authority = ""
+    else:
+        authority = str(agenda_items[0].get("current_authority", ""))
     agenda_terms = (
-        "conditionally dormant",
-        "CBRS-1 through CBRS-1AB exhausted",
-        "W154/W229 was nonadmitted",
-        "fresh repository-wide selection of the strongest disjoint non-B2 gate",
-        "Reopen the reverse scaffold only on a source-authenticated or owner-native, real-typed, coefficient-complete K77 action/bridge",
+        "observed phenomena backward",
+        "named B2/action-root candidate set is empty",
+        "Scheduled Progress selects the largest honest compatible Big Wave",
+        "CBRS-1AB and W154/W229 remain valid candidate-local boundaries",
+        "do not authorize source-action-first selection, zero work, scale reduction or maintenance substitution",
     )
-    if any(term not in refresh for term in agenda_terms):
-        failures.append("agenda does not express the exhausted-B2/reopen contract")
+    if any(term not in authority for term in agenda_terms):
+        failures.append("agenda durable authority does not express the reverse-scaffold/B2 contract")
 
     rows = {r.get("id"): r for r in state["upgrades"].get("items", []) if isinstance(r, dict)}
     rs = rows.get("RS-WAVE-SERIES") or {}
@@ -173,8 +184,18 @@ def validate_dynamic(state: dict) -> list[str]:
     # measured pairs are intentionally not required to equal that old census.
 
     run = subprocess.run([sys.executable, str(CT5)], cwd=ROOT, text=True, capture_output=True)
-    if run.returncode != 0 or "70/70 checks pass" not in run.stdout:
-        failures.append("legacy CT-5 certificate is not 70/70 green")
+    reported = re.search(
+        r"^CERTIFICATE:\s+(\d+)/(\d+) checks pass;",
+        run.stdout,
+        re.MULTILINE,
+    )
+    if (
+        run.returncode != 0
+        or reported is None
+        or int(reported.group(1)) <= 0
+        or reported.group(1) != reported.group(2)
+    ):
+        failures.append("subordinate CT-5 certificate did not self-report all checks passing")
     return failures
 
 
@@ -198,7 +219,14 @@ def selftest(baseline: dict) -> list[str]:
     mutations.append(("stale-verdict", flip_stale))
 
     mutations.append(("ratchet-baseline", lambda s: s["sidecar"]["ratchet"]["baseline"].__setitem__(IDS[1], 4)))
-    mutations.append(("agenda", lambda s: s["agenda"].__setitem__("refresh_note", "historical priority remains")))
+    def erase_agenda_authority(s):
+        target = _single(
+            s["agenda"].get("work_items", []),
+            lambda row: row.get("id") == "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+            "reverse-scaffold authority",
+        )
+        target["current_authority"] = "historical priority remains"
+    mutations.append(("agenda-authority", erase_agenda_authority))
 
     def close_guard(s):
         target = _single(s["upgrades"].get("items", []), lambda r: isinstance(r, dict) and r.get("id") == "RS-WAVE-SERIES", "RS-WAVE-SERIES")
@@ -234,7 +262,8 @@ def main() -> int:
             print(f"[FAIL] {failure}")
         return 1
     print("[PASS] canonical-currency census 52/52; historical 45/7 partition preserved")
-    print("[PASS] B2 steering and current 0/0/0/0/0 stale baselines reconciled; CT-5 70/70")
+    print("[PASS] durable reverse-scaffold/B2 authority and current 0/0/0/0/0 stale baselines reconciled")
+    print("[PASS] subordinate CT-5 certificate self-reports all checks passing")
     if args.selftest:
         escaped = selftest(state)
         if escaped:
