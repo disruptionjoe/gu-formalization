@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b9af62e89868
+revision_basis: 06084758ee3d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K109 quantum-anchor retract-selection Big Wave composes the owned K105
+    action symmetry, its 256 positive K91 action/domain/Green retracts, K85's
+    minimal BRST cohomology and the K108 rebit controls at one exact interface
+    junction. The commutative degree-zero cohomology transports identically to
+    every retract and retains sharp CHSH ceiling 2. An explicitly imported
+    real-quantum state/effect, trace and tensor interface then realizes exact
+    two-path probabilities 1,0,1/2 and Bell CHSH 2 sqrt(2) with maximally mixed
+    marginals on every retract, while preserving K108's hidden J tensor J
+    non-local-tomography direction. Positive-seed permutations preserve the
+    lowerer, Weyl coefficient, action, domain, Green and displayed statistics,
+    so the calibration anchors break none of the frozen S_256 symmetry and
+    select no retract. The exact certificate passes 17/17 and catches 18/18
+    hostile mutations. The state/effect algebra, tensor rule and Born pairing
+    remain explicit imports; no physical quotient/state, source action,
+    prediction, confirmation, holdout score, canon or public posture moves.
     The literal-observation gamma-kernel Big Wave packages the exact map-level
     obstruction as a self-contained theorem. For an ambient split H times N,
     a supplied normal Clifford right inverse sends every horizontal h to the
@@ -6068,6 +6083,9 @@ current_result:
     - explorations/conditional-build/k108-real-quantum-local-tomography-boundary-wave-2026-09-02.md
     - lab/process/k108-real-quantum-local-tomography-boundary-wave.json
     - tests/channel-swings/k108_real_quantum_local_tomography_boundary_probe.py
+    - explorations/conditional-build/k109-k105-quantum-anchor-retract-selection-boundary-wave-2026-09-02.md
+    - lab/process/k109-k105-quantum-anchor-retract-selection-boundary-wave.json
+    - tests/channel-swings/k109_k105_quantum_anchor_retract_selection_boundary_probe.py
     - papers/drafts/declared-content-extra-vector-obstruction/declared-content-extra-vector-obstruction.md
     - papers/drafts/declared-content-extra-vector-obstruction/CLAIM-AND-PREMISE-LEDGER.json
     - papers/drafts/declared-content-extra-vector-obstruction/VERIFICATION.md
@@ -6093,10 +6111,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  After completing the ordered local binary-theorem portfolio, what largest
-  honest compatible reverse-scaffold Wave most advances the conditional
-  physical-state/observable interface without importing source-action,
-  quotient, Born, prediction or confirmation ownership?
+  Which independently owned K105-carrier datum first breaks the positive-blind
+  retract symmetry while also owning the quotient, state/effect pairing,
+  tensor rule, domain and dynamics, rather than importing those objects from a
+  calibration model?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md

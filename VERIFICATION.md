@@ -7,6 +7,15 @@ updated_at: "2026-09-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K109 K105 quantum-anchor retract-selection boundary (2026-09-02)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K85's minimal commutative degree-zero BRST cohomology and sharp CHSH ceiling 2 transport identically across all 256 positive coefficient-blind K105/K91 retract seeds | `lab/process/k109-k105-quantum-anchor-retract-selection-boundary-wave.json`; exact fixture and complete joint-assignment controls (`17/17`) | exact retract-equivariant classical cohomology boundary |
+| An explicitly imported rebit state/effect, trace and tensor interface realizes two-path probabilities `1,0,1/2`, CHSH `2 sqrt(2)` and no-signalling on every positive retract | exact two-mode Gram, interference, Bell and marginal controls; hostile selftest (`18/18`) | exact conditional compatibility construction, not a derived state/Born owner |
+| The calibration anchors select one positive retract from the frozen K105 action data | action-preserving `S_256` seed symmetry and identical transported statistics | false; the anchors break no frozen positive-blind symmetry |
+| The construction derives a physical quotient, noncommutative observable algebra, Born rule, source action, prediction or confirmation | explicit import accounting, held-out firewall and claim ceiling | false / not constructed |
+
 ## Literal-observation gamma-kernel obstruction (2026-09-02)
 
 | Claim | Evidence | Honest grade |

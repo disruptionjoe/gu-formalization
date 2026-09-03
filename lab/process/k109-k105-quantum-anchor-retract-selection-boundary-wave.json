@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K109-K105-QUANTUM-ANCHOR-RETRACT-SELECTION-BOUNDARY-2026-09-02",
+  "status": "exact_retract_equivariant_classical_boundary_and_imported_quantum_anchor_nonselection",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k85-observed-brst-classical-correlation-boundary-wave.json",
+    "lab/process/k105-k91-positive-retract-nonselection-wave.json",
+    "lab/process/k106-k105-action-symmetry-positive-subspace-wave.json",
+    "lab/process/k108-real-quantum-local-tomography-boundary-wave.json"
+  ],
+  "frozen_owner_data": {
+    "ambient_distortion_carrier": "K105_K155_distortion_448",
+    "positive_coefficient_blind_coordinate_lines": 256,
+    "negative_coefficient_blind_coordinate_lines": 183,
+    "proved_action_symmetry_subgroup": "O(256)_times_O(183)",
+    "transitive_positive_coordinate_subgroup": "S_256",
+    "retract_on_each_positive_seed": "K91_action_domain_core_Green_pair_and_boundary_form",
+    "source_or_physical_selection_owner": false
+  },
+  "classical_cohomology_transport": {
+    "minimal_BRST_differential": "s_g_equals_c_s_p_equals_zero_s_c_equals_zero",
+    "degree_zero_cohomology": "commutative_real_star_algebra_of_functions_of_physical_p",
+    "retract_seed_dependence": "none_after_action_preserving_identification",
+    "binary_joint_assignment_count": 16,
+    "sharp_CHSH_ceiling": 2,
+    "transported_to_all_256_positive_retracts": true,
+    "Bell_anchor_satisfied_by_minimal_cohomology": false
+  },
+  "imported_quantum_interface": {
+    "owner": "explicit_repository_comparator_import_not_BRST_or_action_derived",
+    "one_retract_carrier": "two_selected_K91_modes_on_one_positive_distortion_seed",
+    "local_state_effect_space": "Sym2(R2)_with_trace_pairing",
+    "composition": "real_Hilbert_tensor_product",
+    "two_path_probabilities": [
+      "1",
+      "0",
+      "1/2"
+    ],
+    "Bell_CHSH": "2_sqrt_2",
+    "Bell_local_marginals": "I2_over_2",
+    "operational_no_signalling": true,
+    "local_tomography": false,
+    "hidden_global_direction": "J_tensor_J",
+    "physical_Born_or_tensor_owner": false
+  },
+  "equivariance_and_nonselection": {
+    "positive_retract_seed_swaps_preserve_lowerer": true,
+    "positive_retract_seed_swaps_preserve_Weyl_coefficient": true,
+    "positive_retract_seed_swaps_preserve_action_domain_Green_data": true,
+    "minimal_BRST_cohomology_and_classical_CHSH_are_identical_on_every_seed": true,
+    "imported_interference_Bell_and_no_signalling_statistics_are_identical_on_every_seed": true,
+    "calibration_anchors_break_S_256_symmetry": false,
+    "K105_action_plus_calibration_anchors_select_unique_positive_retract": false,
+    "smallest_reopener": "one_independently_owned_source_action_boundary_state_or_observable_datum_with_nonzero_positive_blind_symmetry_defect_and_a_typed_physical_pairing"
+  },
+  "result": {
+    "classical_cohomology_boundary_transported": true,
+    "conditional_quantum_anchor_interfaces_constructed_per_positive_retract": 256,
+    "distinct_physical_GU_states_selected": 0,
+    "Born_rule_derived": false,
+    "source_action_change": "none",
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Supply one independently owned source/action/boundary/state/observable packet on the K105 carrier whose typed coupling has a nonzero O(256) blind-sector symmetry defect, selects a positive retract or higher-dimensional positive subspace, and owns the quotient, state/effect pairing, tensor rule, domain and dynamics. The two admitted calibration anchors and an imported rebit interface do not supply that owner.",
+  "claim_ceiling": "Exact equivariant boundary for the frozen K105/K91 repository construction: minimal commutative BRST cohomology transports to all 256 positive retracts with CHSH ceiling 2, while an explicitly imported real-quantum state/effect and tensor interface realizes the two calibration anchors identically on every retract. The anchors therefore do not select a positive retract or derive a physical quotient, noncommutative observable algebra, Born rule, source action, prediction, confirmation or GU verdict."
+}
