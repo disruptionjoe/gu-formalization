@@ -7,6 +7,16 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K114 K113 hybrid detector and finite-energy record boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The enlarged carrier `Delta_255 x {0,...,255}` supports an `S_256`-equivariant reversible diffusion-jump law with scores `a_r=(epsilon+w_r)^m` and jumps `q_(r->s)=c a_s` | `lab/process/k114-k113-hybrid-detector-finite-energy-record-wave.json`; exact detailed-balance certificate (`21/21`) | exact finite-dimensional hybrid stochastic construction |
+| The sharp detector-center indicator has zero continuous gradient, finite jump-form energy and persists through continuous base tie-wall crossings | joint Dirichlet form, compact score bounds and exact probe | exact finite-energy hybrid record theorem |
+| At a K111 vacuum the correct readout is `3^m/(3^m+255*2^m)`; every finite `m` has nonzero error, while `c` changes retention but not stationary accuracy | exact rational score and holding-rate controls; hostile selftest (`30/30`) | exact readout/retention frontier |
+| An informative reversible detector preserves the K113 drift in every record sector | tangent logarithmic-score drift; constancy/equivariance theorem | false in this reversible gradient class; a one-way nonequilibrium escape remains open |
+| The construction derives a source/GU physical bath, detector, spacetime BV-BFV domain, Born rule, prediction or confirmation | explicit import accounting, held-out firewall and claim ceiling | false / not constructed |
+
 ## K113 K111 continuous Langevin basin-record boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

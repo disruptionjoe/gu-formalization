@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K114-K113-HYBRID-DETECTOR-FINITE-ENERGY-RECORD-2026-09-03",
+  "status": "exact_reversible_hybrid_detector_with_finite_energy_record_and_backreaction_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k111-k105-symmetric-vacuum-orbit-quotient-wave.json",
+    "lab/process/k113-k111-continuous-langevin-basin-record-wave.json"
+  ],
+  "hybrid_carrier": {
+    "configuration_space": "Delta_255_times_{0,...,255}",
+    "continuous_base": "K111_closed_simplex_with_K113_reflecting_boundary",
+    "detector_coordinate": "one_discrete_256_value_classical_record",
+    "score": "a_r(w)=(epsilon+w_r)^m_with_epsilon_positive_and_integer_m_at_least_1",
+    "S_256_equivariant": true,
+    "source_or_GU_owned": false
+  },
+  "reversible_hybrid_owner": {
+    "joint_density": "pi(dw,r)=Z^-1*exp(-beta*V(w))*a_r(w)*lambda_Delta(dw)",
+    "conditional_record_law": "pi(r_given_w)=a_r(w)/sum_s_a_s(w)",
+    "record_conditioned_continuous_drift": "-grad_T_V+(m/beta)*Pi_e_r/(epsilon+w_r)",
+    "reflecting_boundary": "normal_zero_flux_on_each_simplex_face",
+    "jump_rate": "q_r_to_s(w)=c*a_s(w)_for_s_not_equal_r",
+    "jump_detailed_balance_identity": "pi_r*q_r_to_s=pi_s*q_s_to_r=Z^-1*exp(-beta*V)*c*a_r*a_s",
+    "S_256_equivariant": true,
+    "physical_bath_clock_or_detector_derived": false
+  },
+  "joint_dirichlet_form": {
+    "continuous_part": "(1/beta)*sum_r_integral_pi_r*abs(grad_T_f_r)^2",
+    "jump_part": "one_half*sum_r_not_equal_s_integral_pi_r*c*a_s*(f_s-f_r)^2",
+    "sharp_detector_indicator": "g_j(w,r)=1_if_r_equals_j_else_0",
+    "detector_indicator_continuous_gradient": 0,
+    "detector_indicator_has_finite_joint_energy": true,
+    "base_argmax_indicator_has_finite_K113_diffusion_energy": false,
+    "tie_wall_crossing_forces_detector_jump": false
+  },
+  "readout_and_retention": {
+    "certificate_parameters": {"n": 256, "epsilon": "1/257", "m": 16},
+    "correct_record_probability_at_K111_vacuum": "3^16/(3^16+255*2^16)",
+    "wrong_record_probability_at_K111_vacuum": "2^16/(3^16+255*2^16)",
+    "finite_parameter_error_strictly_positive": true,
+    "detector_marginal_under_joint_S_256_law": "uniform_1/256",
+    "holding_rate": "lambda_r(w)=c*sum_s_not_equal_r*a_s(w)",
+    "holding_rate_lower_bound": "c*255*epsilon^m",
+    "holding_rate_upper_bound": "c*255*(epsilon+1)^m",
+    "barrier_or_clock_factor_c_changes_kinetics_not_stationary_readout": true,
+    "perfect_record_requires_singular_score_contrast": true,
+    "perfect_record_bits_at_finite_parameters": 0
+  },
+  "backreaction_boundary": {
+    "base_marginal": "pi_W(dw)_is_proportional_to_exp(-beta*V(w))*A_m(w)_with_A_m=sum_r_a_r",
+    "m_equals_1_preserves_K113_Gibbs_marginal": true,
+    "m_greater_than_1_generically_reweights_K113_Gibbs_marginal": true,
+    "informative_record_conditioned_drift_equals_K113_drift": false,
+    "unchanged_record_conditioned_K113_drift_for_all_r_forces_scores_constant_on_Delta": true,
+    "equivariant_constant_scores_give_state_independent_uniform_record": true,
+    "one_way_nonequilibrium_detector_remains_open": true
+  },
+  "branch_interface": {
+    "record_center_evaluation_names_K110_K91_retract": true,
+    "continuous_tie_crossing_changes_named_retract_without_detector_jump": false,
+    "finite_rate_detector_jump_changes_named_retract": true,
+    "one_fixed_branch_domain_invariant_forever": false,
+    "spacetime_causal_BV_BFV_observable_descent_owned": false
+  },
+  "result": {
+    "enlarged_hybrid_state_space_constructed": true,
+    "finite_energy_discrete_record_constructed": true,
+    "record_persists_across_continuous_tie_crossings": true,
+    "exact_reversible_joint_law_constructed": true,
+    "perfect_finite_parameter_measurement_constructed": false,
+    "noninvasive_informative_reversible_detector_constructed": false,
+    "source_action_or_physical_environment_derived": false,
+    "actual_spacetime_causality_or_BV_BFV_descent_constructed": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Construct or authenticate a source/physical nonequilibrium detector coupling whose one-way or field-theoretic dynamics avoids the reversible backreaction boundary, then place the joint carrier on a genuine causal spacetime BV-BFV domain and prove observable descent. K114 supplies a conditional finite-dimensional hybrid owner, not those physical owners.",
+  "claim_ceiling": "Exact finite-dimensional reversible diffusion-jump, finite-energy detector-record, readout/retention and informative-detector backreaction theorem on the K113/K111 carrier. The detector coordinate survives continuous tie-wall crossings but changes at finite jump rate, has nonzero finite-parameter error, and either backreacts record-conditionally or leaves the reversible informative class. No source/GU physical environment, spacetime causal BV-BFV descent, Born derivation, held-out score, prediction or confirmation follows."
+}

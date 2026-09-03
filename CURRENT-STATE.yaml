@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 46289dc679c0
+revision_basis: c8d35e70f676
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K114 hybrid detector/finite-energy-record Big Wave closes K113's
+    sharp-record analytic-domain obstruction by enlarging the carrier to the
+    K111 simplex times a 256-state detector. Positive scores
+    a_r(w)=(epsilon+w_r)^m and jumps q_(r->s)=c a_s give an exact
+    S_256-equivariant reversible diffusion-jump law. Detector-center
+    indicators have zero continuous gradient and finite joint Dirichlet
+    energy, and a continuous tie-wall crossing does not itself change the
+    stored label. Exact vacuum readout is
+    3^m/(3^m+255*2^m), so every finite contrast has nonzero error; the clock
+    factor changes holding time but not stationary accuracy. The m=1 control
+    preserves K113's unconditional Gibbs marginal, but every informative
+    record-conditioned reversible drift backreacts. Higher-power scores
+    generally reweight even the base marginal. The certificate passes 21/21
+    and catches 30/30 hostile mutations. No source/GU action, physical bath,
+    clock or detector, permanent branch, spacetime causal/BV-BFV domain, Born
+    derivation, prediction, confirmation, holdout score, canon or public
+    posture moves.
     The K113 continuous Langevin basin-record Big Wave closes the first
     continuous-carrier stochastic denominator left by K112. On K111's closed
     simplex, the reflected overdamped diffusion with cubic drift
