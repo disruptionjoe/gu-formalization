@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d135a7f800e8
+revision_basis: 5607c41b2dbf
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K117 autonomous-reservoir/causal-locality Big Wave internalizes K116's
+    controller invoice in an autonomous Markov-additive path law. On the exact
+    three-state control, forgetting the additive work coordinate recovers K115
+    path-wise, every edge obeys local detailed balance with explicit work, and
+    the informative four-edge cycle has ratio 256/6561. This proves that no
+    finite stationary detailed-balanced strongly lumpable hidden environment
+    can realize the same coarse Markov law. The unbounded or chemostatted work
+    coordinate carries a positive stationary resource current equal to the
+    projected entropy production. A compatible three-site causal DAG proves
+    exact past-closed observable restriction, spacelike generator commutation
+    and causal-order noncommutation. The certificate passes 23/23 and catches
+    31/31 hostile mutations. The work ledger is not a finite microscopic bath,
+    and the finite DAG is not a continuum BV-BFV field theory; no Weinstein/
+    source/GU action, AQFT state, Born derivation, prediction, confirmation,
+    holdout score, canon or public posture moves.
     The K116 stochastic-action/energetics-owner Big Wave closes K115's
     conditional probability-law and ideal thermodynamic denominator. The
     K113 path law composed with a marked Poisson clock and conditional marks
@@ -6235,10 +6250,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  What autonomous microscopic or source-owned field-theoretic dilation can
-  own K116's detector bath, controller, reset/preparation cycle and sustaining
-  resource without imposed cancellation, and can it be placed on a genuine
-  causal spacetime BV-BFV domain with local observable descent?
+  Can K117's unbounded Markov-additive resource be replaced by a finite
+  nonequilibrium microscopic controller with a controlled replenishment or
+  thermodynamic limit, or derived from a source-owned action, and can its
+  finite causal locality be lifted to a genuine continuum BV-BFV domain?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6247,21 +6262,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K116 now supplies an exact conditional marked-Poisson action and ideal
-  stochastic-energetics owner for K115. The declared detector energy gives
-  local detailed balance, the explicit canceling controller preserves K113's
-  base generator, informative stationary operation has strictly positive
-  diffusion-jump entropy production, and the finite-clock resolvent contracts
-  event record information. This closes the conditional action/bath/clock/
-  preparation/dissipation denominator but not the autonomous physical one.
-  Rebuild the next reverse-scaffold Big Wave around an autonomous microscopic
-  or field-theoretic dilation that owns the reservoir, controller, fuel and
-  reset cycle without imposed cancellation, then construct a genuine causal
-  spacetime BV-BFV domain and prove local observable descent. Do not identify
-  local detailed balance with global equilibrium, promote the ideal bath or
-  controller to Weinstein/source/GU ownership, turn mutual information into a
-  universal Landauer equality, relabel classical conditioning as Born
-  structure, or reopen K108--K116 without a named premise change.
+  K117 now supplies an exact autonomous Markov-additive dilation of K115 and
+  makes K116's hidden controller work an explicit reservoir current. Its
+  nonunit Kolmogorov cycle forbids a finite stationary detailed-balanced
+  strongly lumpable lift, while the unbounded/chemostatted resource sustains a
+  positive stationary current. A finite causal DAG also proves past-closed
+  local-observable descent and spacelike commutation. Rebuild the next
+  reverse-scaffold Big Wave around either a finite nonequilibrium microscopic
+  controller with an explicit replenishment/thermodynamic limit or a
+  source-owned action, and replace the DAG precursor by a genuine continuum
+  causal BV-BFV bulk-boundary domain with trace maps, odd symplectic data and a
+  master equation. Do not call strong-lumpability failure a no-go for every
+  hidden controller, identify the work ledger with a finite bath, promote the
+  finite DAG to continuum BV-BFV, relabel classical conditioning as Born
+  structure, or reopen K108--K117 without a named premise change.
 
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.

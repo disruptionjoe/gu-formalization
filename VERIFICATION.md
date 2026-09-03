@@ -7,6 +7,16 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K117 K116 autonomous reservoir and causal-locality boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Extending K115 by the additive work coordinate `Z` with base-edge increment `U_r(y)-U_r(x)` gives an autonomous time-homogeneous Markov-additive law whose projection is exactly K115 | `lab/process/k117-k116-autonomous-reservoir-causal-locality-wave.json`; exact projected rates, stationary law and edge identities (`23/23`) | exact repository-owned autonomous open-resource dilation |
+| A finite stationary detailed-balanced strongly lumpable hidden environment can project to informative K115 | the exact four-edge projected cycle has forward/reverse product ratio `256/6561 != 1`, while reversible strong lumping preserves reversible path law | false under the stated finite/equilibrium/strong-lumpability hypotheses |
+| K116's controller can be costless at stationary operation | closed-cycle energy telescopes; the nonzero affinity equals additive reservoir work, whose stationary mean is positive and equals projected entropy production | false in the declared Markov-additive convention |
+| Local observables descend causally on the finite `u->v`, `z`-spacelike product system | exact past-closed restriction, no-spacelike-input, spacelike-commutator and causal-order controls | exact finite causal Markov-algebra locality theorem |
+| The packet constructs a finite microscopic bath, Weinstein/source/GU action, continuum BV-BFV theory, AQFT state, Born rule, prediction or confirmation | explicit open-resource and finite-causal ceilings plus hostile selftest (`31/31`) | false / not constructed |
+
 ## K116 K115 stochastic-action and energetics-owner boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |

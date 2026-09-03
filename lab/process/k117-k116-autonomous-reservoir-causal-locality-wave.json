@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K117-K116-AUTONOMOUS-RESERVOIR-CAUSAL-LOCALITY-2026-09-03",
+  "status": "exact_markov_additive_reservoir_dilation_equilibrium_lumpability_no_go_and_finite_causal_locality_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k116-k115-stochastic-action-energetics-owner-wave.json",
+    "lab/process/k115-k114-feed-forward-nonequilibrium-detector-wave.json"
+  ],
+  "autonomous_dilation": {
+    "carrier": "K115_finite_base_record_chain_extended_by_an_additive_reservoir_work_coordinate",
+    "projected_generator": "Gf(x,r)=A[f_r](x)+lambda*sum_s_p_s(x)*(f(x,s)-f(x,r))",
+    "base_rates_record_independent": true,
+    "detector_rates_base_dependent": true,
+    "work_increment_on_base_edge": "W((x,r)->(y,r))=U_r(y)-U_r(x)=log(p_r(x)/p_r(y))",
+    "work_increment_on_detector_edge": "zero",
+    "local_detailed_balance_owned_on_every_edge": true,
+    "projection_exactly_recovers_K115": true,
+    "autonomous_time_homogeneous_markov_additive_law": true,
+    "unbounded_or_chemostatted_resource_required_for_stationarity": true,
+    "finite_microscopic_reservoir_constructed": false,
+    "Weinstein_source_or_GU_action_constructed": false
+  },
+  "equilibrium_lumpability_no_go": {
+    "informative_kernel_has_nonunit_Kolmogorov_cycle_ratio": true,
+    "exact_control_cycle_ratio": "256/6561",
+    "finite_detailed_balanced_strongly_lumpable_lift_possible": false,
+    "reason": "a_strongly_lumpable_projection_of_a_stationary_reversible_chain_is_reversible_but_the_informative_K115_joint_chain_has_a_nonzero_cycle_affinity",
+    "finite_nonequilibrium_controller_ruled_out": false,
+    "transient_finite_fuel_realization_ruled_out": false
+  },
+  "resource_and_entropy": {
+    "cycle_affinity": "log_product_of_forward_over_reverse_rates",
+    "cycle_work_identity": "closed_cycle_energy_telescopes_so_affinity_equals_total_reservoir_work",
+    "stationary_mean_work_rate_positive": true,
+    "stationary_mean_work_rate_equals_entropy_production": true,
+    "exact_control_value": "approximately_0.25863366222968864_nats_per_unit_time",
+    "costless_controller_claimed": false,
+    "universal_Landauer_equality_claimed": false,
+    "microscopic_fluctuation_theorem_claimed": false
+  },
+  "finite_causal_locality": {
+    "carrier": "three_site_finite_causal_DAG_u_to_v_with_z_spacelike_to_v_each_site_carrying_the_K117_finite_base_record_state",
+    "downstream_detector_kernel": "p_at_v_may_depend_on_x_v_plus_parent_x_u_mod_3",
+    "past_closed_observable_descent": true,
+    "spacelike_local_generators_commute": true,
+    "causally_ordered_generators_need_not_commute": true,
+    "future_or_spacelike_state_does_not_enter_local_generator": true,
+    "finite_causal_lattice_precursor_only": true,
+    "continuum_spacetime_field_theory_constructed": false,
+    "BV_BFV_boundary_symplectic_form_or_master_equation_constructed": false,
+    "AQFT_net_or_Hadamard_state_constructed": false
+  },
+  "finite_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "resolvent_attenuation": "35/101",
+    "stationarity_checked_exactly": true,
+    "projection_checked_exactly": true,
+    "edge_local_detailed_balance_checked_exactly": true,
+    "cycle_work_checked_exactly": true,
+    "causal_support_and_commutators_checked_exactly": true
+  },
+  "result": {
+    "repository_owned_autonomous_markov_additive_dilation_constructed": true,
+    "controller_resource_current_internalized_in_extended_path_law": true,
+    "finite_equilibrium_realization_no_go_proved": true,
+    "finite_causal_local_observable_descent_precursor_constructed": true,
+    "finite_closed_or_source_owned_physical_environment_constructed": false,
+    "continuum_spacetime_or_genuine_BV_BFV_constructed": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Replace the unbounded Markov-additive work coordinate by an explicit source-owned or microscopically specified reservoir/controller with a controlled stationary limit, then construct a genuine continuum causal BV-BFV bulk-boundary domain, odd symplectic trace data, master equation and local observable descent.",
+  "claim_ceiling": "Exact repository-owned autonomous Markov-additive work-reservoir dilation, finite detailed-balance/strong-lumpability no-go, resource-current identity and finite causal-lattice local-observable descent precursor only. No finite microscopic bath, Weinstein/source/GU action, continuum spacetime BV-BFV theory, AQFT state, Born rule, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}
