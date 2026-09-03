@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 905a7ace181f
+revision_basis: d135a7f800e8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K116 stochastic-action/energetics-owner Big Wave closes K115's
+    conditional probability-law and ideal thermodynamic denominator. The
+    K113 path law composed with a marked Poisson clock and conditional marks
+    p_r(W_t) has an exact negative-log likelihood whose short-time law is
+    precisely K115's generator. The declared detector energy U_r=-log p_r
+    gives exact local detailed balance at frozen base state. Because U_r
+    depends on the base for informative readout, preserving K113 autonomy
+    requires a supplied controller to cancel the detector force. Under this
+    declared overdamped diffusion-jump convention, the stationary diffusion
+    plus refresh entropy production is nonnegative and vanishes only for an
+    uninformative kernel. Event-time mutual information is positive and the
+    stationary resolvent contracts it. The certificate passes 21/21 and
+    catches 32/32 hostile mutations. The bath, clock, preparation, controller
+    and energetic convention are repository constructions; no Weinstein/
+    source/GU action, autonomous microscopic environment, universal Landauer
+    equality, spacetime BV-BFV domain, Born derivation, prediction,
+    confirmation, holdout score, canon or public posture moves.
     The K115 feed-forward nonequilibrium-detector Big Wave closes K114's
     mathematical one-way escape without importing record-conditioned drift.
     K113's reflected generator remains exact in every detector sector, while
@@ -6218,10 +6235,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  What source/action, bath, clock, dissipation and preparation law can realize
-  K115's exact feed-forward nonequilibrium detector on a genuine causal
-  spacetime BV-BFV domain, and do its record observables descend locally
-  without importing Born or measurement semantics?
+  What autonomous microscopic or source-owned field-theoretic dilation can
+  own K116's detector bath, controller, reset/preparation cycle and sustaining
+  resource without imposed cancellation, and can it be placed on a genuine
+  causal spacetime BV-BFV domain with local observable descent?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6230,19 +6247,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K115 now supplies an exact finite-dimensional one-way detector: K113's base
-  path law is autonomous, the stationary record is the positive resolvent
-  h=lambda(lambda-A)^(-1)p, sharp detector indicators have finite energy, and
-  informative readout is necessarily nonequilibrium. This closes K114's
-  record-conditioned backreaction escape mathematically but leaves every
-  physical owner supplied. Rebuild the next reverse-scaffold Big Wave around
-  a source/action coupling, bath, reset clock, dissipation and preparation law
-  whose reduction produces the feed-forward kernel, then lift that apparatus
-  to a genuine causal spacetime BV-BFV domain and prove local observable
-  descent. Do not identify stationary h with event kernel p, call Markov
-  currents a derived thermodynamic entropy budget, relabel classical
-  conditioning as Born structure, or reopen K108--K115 without a named premise
-  change.
+  K116 now supplies an exact conditional marked-Poisson action and ideal
+  stochastic-energetics owner for K115. The declared detector energy gives
+  local detailed balance, the explicit canceling controller preserves K113's
+  base generator, informative stationary operation has strictly positive
+  diffusion-jump entropy production, and the finite-clock resolvent contracts
+  event record information. This closes the conditional action/bath/clock/
+  preparation/dissipation denominator but not the autonomous physical one.
+  Rebuild the next reverse-scaffold Big Wave around an autonomous microscopic
+  or field-theoretic dilation that owns the reservoir, controller, fuel and
+  reset cycle without imposed cancellation, then construct a genuine causal
+  spacetime BV-BFV domain and prove local observable descent. Do not identify
+  local detailed balance with global equilibrium, promote the ideal bath or
+  controller to Weinstein/source/GU ownership, turn mutual information into a
+  universal Landauer equality, relabel classical conditioning as Born
+  structure, or reopen K108--K116 without a named premise change.
 
   Execute one largest honest compatible Big Wave from the 2026-09-02 Joe-
   directed locally executable binary-theorem portfolio, preserving its order.

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K116-K115-STOCHASTIC-ACTION-ENERGETICS-OWNER-2026-09-03",
+  "status": "exact_conditional_stochastic_path_action_local_detailed_balance_entropy_production_and_information_resource_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k113-k111-continuous-langevin-basin-record-wave.json",
+    "lab/process/k115-k114-feed-forward-nonequilibrium-detector-wave.json"
+  ],
+  "stochastic_path_action": {
+    "carrier": "K113_reflected_simplex_path_W_t_plus_K115_256_state_record_R_t_and_marked_Poisson_refresh_events",
+    "conditional_negative_log_density": "I_T=I_A[W]+lambda*T-N_T*log(lambda)-sum_k_log(p_{R_k}(W_{t_k}))_up_to_reference_constants",
+    "base_action": "K113_reversible_diffusion_path_law_I_A",
+    "clock_action": "lambda*T-N_T*log(lambda)",
+    "mark_action": "-sum_k_log(p_{R_k}(W_{t_k}))",
+    "recovered_generator": "Gf(w,r)=A[f_r](w)+lambda*(sum_s_p_s(w)*f(w,s)-f(w,r))",
+    "base_path_law_remains_K113": true,
+    "S_256_equivariant": true,
+    "Weinstein_source_or_GU_field_action": false
+  },
+  "detector_bath_and_preparation": {
+    "dimensionless_detector_energy": "U_r(w)=-log(p_r(w))+c(w)",
+    "refresh_rate": "q_{r_to_s}(w)=lambda*p_s(w)_including_null_refresh_marks",
+    "local_detailed_balance": "log(q_{r_to_s}/q_{s_to_r})=-(U_s-U_r)=log(p_s/p_r)",
+    "conditional_preparation_law": "at_each_clock_mark_prepare_R_new_distributed_as_p(W_event)",
+    "ideal_isothermal_detector_bath_declared": true,
+    "microscopic_Hamiltonian_reservoir_constructed": false,
+    "autonomous_finite_fuel_supply_constructed": false,
+    "physical_reset_apparatus_authenticated": false
+  },
+  "controller_backreaction_invoice": {
+    "detector_energy_depends_on_base_state_for_informative_p": true,
+    "uncompensated_energy_gradient_would_backreact_on_base": true,
+    "K115_autonomy_requires_canceling_controller_force": "F_controller_r=+D*grad(U_r)_against_F_detector_r=-D*grad(U_r)",
+    "net_base_generator_after_declared_cancellation": "A_in_every_record_sector",
+    "controller_is_external_supplied_structure": true,
+    "noninvasive_autonomous_physical_measurement_derived": false
+  },
+  "stationary_energetics": {
+    "stationary_density": "nu(dw,r)=mu(dw)*h_r(w)_with_h_r=lambda*(lambda-A)^-1*p_r",
+    "diffusion_production": "sigma_diff=sum_r_integral_mu_beta_inverse*norm(grad(h_r))^2/h_r",
+    "jump_production": "sigma_jump=one_half*sum_{r,s}_integral_mu*lambda*(h_r*p_s-h_s*p_r)*log((h_r*p_s)/(h_s*p_r))",
+    "total_production": "sigma=sigma_diff+sigma_jump",
+    "nonnegative": true,
+    "zero_iff_uninformative_under_irreducibility_and_strict_positivity": true,
+    "informative_readout_strictly_positive": true,
+    "exact_three_state_control_has_balanced_nonzero_currents": true,
+    "interpretation_scope": "entropy_production_for_the_declared_ideal_overdamped_diffusion_jump_stochastic_thermodynamics_convention",
+    "GU_physical_dissipation_or_cosmological_budget": false,
+    "microscopic_fluctuation_relation_derived": false
+  },
+  "information_resource": {
+    "event_record_information": "I_event=integral_mu_sum_r_p_r*log(p_r/bar_p_r)_with_bar_p_r=1/256",
+    "stationary_record_information": "I_stationary=integral_mu_sum_r_h_r*log(h_r/bar_h_r)_with_bar_h_r=1/256",
+    "resolvent_contraction": "0_le_I_stationary_le_I_event",
+    "strict_for_informative_finite_clock_with_nontrivial_base_motion": true,
+    "finite_contrast_event_error_positive": true,
+    "clock_changes_stationary_information_not_event_kernel": true,
+    "information_is_a_preparation_resource_not_a_universal_work_equality": true,
+    "universal_Landauer_reset_cost_claimed": false,
+    "Born_information_or_quantum_measurement_claimed": false
+  },
+  "finite_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "resolvent_attenuation": "35/101",
+    "stationarity_checked_exactly": true,
+    "local_detailed_balance_checked_exactly": true,
+    "current_divergence_checked_exactly": true,
+    "positive_entropy_production_checked": true,
+    "event_information_exceeds_stationary_information": true
+  },
+  "result": {
+    "repository_owned_stochastic_action_constructed": true,
+    "conditional_detector_bath_clock_and_preparation_declared": true,
+    "controller_backreaction_requirement_exposed": true,
+    "stationary_entropy_production_theorem_constructed": true,
+    "information_resource_and_resolvent_contraction_constructed": true,
+    "Weinstein_source_or_GU_action_derived": false,
+    "autonomous_physical_environment_constructed": false,
+    "actual_spacetime_causality_or_BV_BFV_descent_constructed": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "held_out_scored": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_reopener": "Construct an autonomous microscopic or field-theoretic dilation that owns the K116 bath, controller, reset clock, preparation and fuel without imposed cancellation, then place it on a genuine causal spacetime BV-BFV domain and prove local observable descent. Alternatively authenticate those structures from a source-owned GU action. Do not identify the declared ideal stochastic-thermodynamic convention with a derived physical apparatus.",
+  "claim_ceiling": "Exact conditional marked-Poisson stochastic-path-action, detector local-detailed-balance, compensating-controller, stationary entropy-production and information-contraction theorem for the K115 finite-dimensional diffusion-refresh carrier. The bath, energy convention, clock, preparation and controller are explicitly declared repository constructions. No Weinstein/source/GU action, autonomous microscopic environment, spacetime causal BV-BFV descent, Born rule, held-out score, prediction or confirmation follows."
+}

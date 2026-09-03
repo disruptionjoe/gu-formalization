@@ -7,6 +7,17 @@ updated_at: "2026-09-03"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K116 K115 stochastic-action and energetics-owner boundary (2026-09-03)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K113 path law composed with an independent rate-`lambda` Poisson clock and conditional marks `p_r(W_t)` has an exact marked-path likelihood whose short-time generator is K115's `G` | `lab/process/k116-k115-stochastic-action-energetics-owner-wave.json`; exact marked-rate and generator controls (`21/21`) | exact conditional stochastic-path-action construction |
+| The declared detector energy `U_r=-log p_r+c` gives `log(q_rs/q_sr)=-(U_s-U_r)` for `q_rs=lambda p_s` | exact ratio identity and rational three-state control | exact local-detailed-balance theorem for the declared ideal detector bath |
+| K115 base autonomy is energetically free | the state-dependent detector force `-D grad U_r` must be canceled by an explicitly supplied `+D grad U_r` controller force | false; autonomy carries a controller/backreaction invoice |
+| The stationary diffusion plus refresh entropy production is nonnegative and vanishes only for an uninformative kernel | Fisher-information diffusion term, `(x-y)log(x/y)` jump term, irreducibility and exact balanced-current control | exact production theorem under the declared overdamped stochastic-thermodynamics convention |
+| The stationary record contains no more base information than the event kernel | Markov-resolvent representation, convexity/Jensen and invariant `mu`; finite control has strict contraction | exact classical information-resource boundary |
+| The packet derives Weinstein's source/GU action, an autonomous microscopic reservoir/controller, a universal Landauer equality, spacetime BV-BFV domain, Born rule, prediction or confirmation | explicit declared-control accounting and hostile selftest (`32/32`) | false / not constructed |
+
 ## K115 K114 feed-forward nonequilibrium detector boundary (2026-09-03)
 
 | Claim | Evidence | Honest grade |
