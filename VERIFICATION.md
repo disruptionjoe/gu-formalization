@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K134 K133 Pauli/spectator IBC core and exchange boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K127's matrix-unit/Klein/CAR coupling algebra inherits K133's counterterm on the positive-energy point control | `B_e=|v><u| tensor kappa_e` gives `sum g_e^2 B_e B_e*`, a positive diagonal endpoint operator; K133's incidence columns instead give an off-diagonal weighted graph Laplacian | false; the two couplings and counterterms are different repository controls |
+| The positive-energy finite-circle control with K127's matrix-unit/Klein/CAR coupling algebra has an operator-valued Pauli limit | diagonal impurity energy makes the resolvent preserve ordered vertex labels; `Q_e(X)=sum_k[(1-N_e,k)/(X+omega_k+mu)-1/(omega_k+mu)]`, with a logarithmic vacuum remainder and an occupied-mode low/high split | exact occupation-projection-valued self-energy for the positive branch with jointly diagonal free and global-flux spectators; not the full signed-Dirac K127 operator |
+| The full CAR carrier has one common IBC boundary core | the resolvent-dressed point creation maps converge because `sum(omega+mu)^-2<infinity`; ordered `B_e*` strictly lowers the impurity label, so `G^9=0`, `(1-G)^-1=sum_0^8 G^j`, and `(1-G)^-1 C_fin` is dense, finite-particle and Pauli compatible | exact common boundary recursion across all finite-particle sectors; not yet a proved core for a complete self-adjoint Hamiltonian |
+| The diagonal functional calculus closes the full renormalized self-energy by KLMN | normal ordering leaves exchange terms containing `tau(phi)=sum_k phi(k)`; a bounded `H^(1/2)` sequence has `tau(phi_N)` diverging, although the trace is continuous on the stronger free operator graph domain | false for the naive quadratic-form route; recursive operator-domain IBC/Feshbach construction remains open and is not killed |
+| The commuting spectator theorem proves the K128/K131 Coulomb/Gauss point lift | global flux strongly commutes with CAR occupation, but the position-space cumulative-charge Coulomb form does not commute with momentum occupation | false; commutator-resolvent or position-space IBC estimates remain required |
+| The packet constructs the complete point-Fock Hamiltonian, infinite-volume NESS/current, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | `lab/process/k134-k133-pauli-spectator-ibc-exchange-boundary-wave.json`; exact control `45/45`, hostile selftest `35/35` | false / explicitly fenced |
+
 ## K133 K132 matrix point-star IBC and spectator boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

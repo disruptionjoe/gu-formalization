@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K134-K133-PAULI-SPECTATOR-IBC-EXCHANGE-BOUNDARY",
+  "date": "2026-09-07",
+  "status": "EXACT_PHYSICAL_COUNTERTERM_OCCUPATION_SELF_ENERGY_AND_COMMON_IBC_BOUNDARY_CORE_WITH_EXCHANGE_FORM_OBSTRUCTION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "physical_matrix_unit_contraction": {
+    "impurity_states": 9,
+    "undirected_CAR_species": 18,
+    "coupling_operator_is_B_e_equals_vertex_matrix_unit_times_Klein_generator": true,
+    "positive_energy_finite_circle_control_not_full_signed_Dirac_K127_operator": true,
+    "renormalized_impurity_energy_is_diagonal_in_the_ordered_vertex_basis": true,
+    "vacuum_contraction_counterterm_is_sum_g_e_squared_B_e_B_e_star": true,
+    "counterterm_is_diagonal_in_impurity_endpoint_basis": true,
+    "counterterm_is_positive_semidefinite": true,
+    "counterterm_is_K133_weighted_incidence_Laplacian": false,
+    "K133_incidence_star_is_the_physical_K127_defect": false
+  },
+  "occupation_spectator_self_energy": {
+    "joint_commuting_free_plus_global_flux_control_constructed": true,
+    "self_energy_contains_one_minus_N_e_k_Pauli_projections": true,
+    "vacuum_subtraction_leaves_a_logarithmic_spectator_function": true,
+    "finite_occupation_correction_is_mode_dependent": true,
+    "logarithmic_spectator_function_is_infinitesimally_energy_form_bounded": true,
+    "occupation_correction_is_infinitesimally_free_energy_form_bounded": true,
+    "global_flux_functional_calculus_lift_constructed": true,
+    "uniform_bounded_operator_self_energy_on_unbounded_spectators": false
+  },
+  "common_ibc_boundary_core": {
+    "singular_creation_map_is_norm_convergent": true,
+    "matrix_unit_orientation_strictly_lowers_the_impurity_label_under_creation": true,
+    "boundary_creation_map_ninth_power_is_zero": true,
+    "one_minus_G_inverse_is_the_finite_sum_from_G_zero_through_G_eight": true,
+    "dense_Pauli_compatible_full_Fock_IBC_boundary_core_constructed": true,
+    "IBC_recursion_holds_on_every_finite_particle_sector": true,
+    "creation_into_an_occupied_mode_vanishes": true,
+    "proved_core_for_complete_self_adjoint_point_Hamiltonian": false
+  },
+  "exchange_boundary": {
+    "normal_ordering_produces_off_diagonal_exchange_terms": true,
+    "diagonal_occupation_functional_calculus_is_the_complete_self_energy": false,
+    "exchange_contains_the_existing_particle_point_annihilation_trace": true,
+    "point_annihilation_trace_is_continuous_on_the_H_one_half_form_domain": false,
+    "critical_normalized_sequence_has_diverging_point_trace": true,
+    "naive_KLMN_closure_of_the_full_exchange_term": false,
+    "operator_domain_or_recursive_IBC_exchange_extension_remains_open": true,
+    "full_point_Fock_route_killed": false
+  },
+  "coulomb_gauss_boundary": {
+    "global_flux_energy_strongly_commutes_with_CAR_occupation": true,
+    "K128_K131_Coulomb_form_strongly_commutes_with_momentum_occupation": false,
+    "commuting_spectator_formula_proves_the_physical_Coulomb_lift": false,
+    "complete_Gauss_Coulomb_point_Hamiltonian_constructed": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false
+  },
+  "thermodynamic_and_ownership_boundary": {
+    "finite_circle_control_only": true,
+    "complete_nine_state_eighteen_species_self_adjoint_point_Fock_Hamiltonian_constructed": false,
+    "infinite_volume_limit_constructed": false,
+    "Moller_or_Ruelle_wave_operator_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "coupling_counterterm_domain_gauge_lift_or_state_source_selected": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned K127 matrix-unit/Klein/CAR coupling algebra on a diagonal-impurity positive-energy finite-circle control: its ultraviolet contraction has a positive diagonal endpoint counterterm distinct from K133's weighted-Laplacian incidence control; its commuting free/global-flux occupation-projection-valued self-energy has infinitesimal logarithmic and Pauli energy bounds; and a norm-convergent nilpotent creation map gives one dense Pauli-compatible full-Fock IBC boundary core. This is not the full signed-Dirac K127 operator. The normal-ordered exchange term retains an H1/2-discontinuous point-annihilation trace, and the physical Coulomb form does not commute with momentum occupation, so no complete self-adjoint nine-state/eighteen-species point-Fock/Gauss Hamiltonian, infinite-volume NESS/current, smooth unreduced parent, Weinstein/source/GU ownership, Born derivation, prediction or confirmation follows."
+}

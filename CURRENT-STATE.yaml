@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fe4b2113cde4
+revision_basis: 27b9a4f7b0cf
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,34 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K134 Pauli/spectator IBC Big Wave returns from K133's stipulated
+    incidence star to K127's physical matrix-unit/Klein/CAR coupling algebra,
+    placed on K132's diagonal-impurity positive-energy finite-circle branch.
+    This is not the full signed-Dirac K127 operator. Its
+    vacuum ultraviolet contraction is the positive diagonal endpoint operator
+    sum g_e^2 B_e B_e*, not K133's off-diagonal weighted graph Laplacian.
+    Joint free-occupation/global-flux functional calculus gives the exact
+    Pauli contraction
+    Q_e(X)=sum_k[(1-N_e,k)/(X+omega_k+mu)-1/(omega_k+mu)].
+    Its vacuum part grows logarithmically and its occupied-mode part is
+    mode-dependent; both are infinitesimally form bounded by the free plus
+    commuting spectator energy. The resolvent-dressed singular creation maps
+    converge in norm. With every edge oriented u<v, creation carries B_e* and
+    strictly lowers the impurity label, so G^9=0 and
+    (1-G)^-1=sum_(j=0)^8 G^j gives one dense finite-particle,
+    Pauli-compatible IBC boundary core with a recursion on every sector.
+    Normal ordering nevertheless leaves exchange terms containing the point
+    annihilation trace sum_k phi(k). A bounded H^(1/2) sequence has divergent
+    trace, so the diagonal construction does not close the full exchange term
+    by naive KLMN; the trace is controlled on the stronger free operator graph
+    domain, leaving recursive operator-domain IBC or Feshbach routes open.
+    Global flux commutes and lifts, but K128/K131 position-space Coulomb energy
+    does not commute with momentum occupation, so no physical Coulomb/Gauss
+    point Hamiltonian follows. The probe passes 45/45 and catches 35/35
+    hostile mutations. No complete self-adjoint point-Fock/Gauss Hamiltonian,
+    infinite-volume scattering, interacting NESS/current, smooth unreduced
+    parent, source/GU owner, Born derivation, prediction, confirmation,
+    holdout, canon or public-posture move follows.
     The K133 matrix point-star/IBC Big Wave constructs one explicit
     incidence-coupled singular point model on the complete K123
     nine-vertex/eighteen-edge graph. On
@@ -6626,14 +6654,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K133's exact matrix point-star construction be promoted from its
-  supplied vacuum-plus-one-excitation incidence carrier to the complete
-  antisymmetric multiparticle CAR defect by an occupation-projection-valued
-  self-energy and one dense common IBC core with relative logarithmic
-  spectator/Coulomb/global-flux bounds; can that theory reach an
-  infinite-volume scattering or return-to-NESS limit; can the diffuse quotient
-  be obtained from a genuinely unreduced smooth connection/BRST parent; and
-  can an actual source-owned GU action select every imported datum?
+  Can K134's exact positive-energy matrix-unit Pauli/spectator contraction and common
+  nilpotent IBC boundary core be promoted to a complete self-adjoint
+  nine-state/eighteen-species point-Fock Hamiltonian by defining the
+  normal-ordered exchange term on a recursive operator domain; can that domain
+  then be lifted through the noncommuting K128/K131 Coulomb/Gauss form and
+  reach an infinite-volume scattering or return-to-NESS limit; can the diffuse
+  quotient be obtained from a genuinely unreduced smooth connection/BRST
+  parent; and can an actual source-owned GU action select every imported datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6642,32 +6670,34 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K133 closes the finite-circle matrix point-star cell. The exact K123
-  nine-vertex/eighteen-edge graph admits a supplied incidence coupling on
-  C^9 direct-sum over eighteen l2(Z) channels. Its ultraviolet divergence is
-  the positive rank-eight weighted graph Laplacian, not eighteen independent
-  scalar shifts. The subtracted 9 by 9 Schur matrix and Hilbert--Schmidt
-  resolvent coupling converge, producing a uniformly semibounded self-adjoint
-  norm-resolvent limit. One dense common star IBC domain carries all eighteen
-  tails psi_e=phi_e-g_e<b_e,c>/(omega+mu), and changing mu is a finite
-  Hermitian Laplacian reparameterization. This is an explicit
-  vacuum-plus-one-excitation control, not a proved invariant sector of the
-  complete antisymmetric CAR defect and not a source-selected physical
-  interaction. At fixed spectator/global-flux energy the same subtraction
-  converges uniformly on bounded energy intervals, and finite Pauli occupation
-  changes only finite terms. Across unbounded spectator energy the finite
-  remainder grows logarithmically, so fixed-block convergence cannot be
-  promoted by a uniform operator-norm argument. Next construct the
-  occupation-projection-valued self-energy by spectator functional calculus,
-  prove its logarithm is relatively form-bounded by the free,
-  Coulomb/global-flux energy, and establish one dense Pauli-compatible IBC core
-  across every finite-particle sector. Only then claim the complete
-  nine-level/eighteen-edge point-Fock Hamiltonian and take an infinite-volume
-  limit toward wave operators or return-to-NESS. Independently construct an
-  unreduced smooth connection/BRST parent and require a source/GU action to
-  select the graph coupling, masses, charges, subtraction datum, domain and
-  state. Do not identify the supplied incidence star with K122's physical
-  defect or pointwise spectator convergence with a uniform full-Fock theorem.
+  K134 constructs the exact positive-energy matrix-unit ultraviolet contraction,
+  commuting occupation/global-flux self-energy and one common Pauli-compatible
+  full-Fock IBC boundary core. The physical counterterm is the positive
+  diagonal endpoint operator sum g_e^2 B_e B_e*, not K133's separately
+  supplied incidence Laplacian. The Pauli contraction
+  Q_e(X)=sum_k[(1-N_e,k)/(X+omega_k+mu)-1/(omega_k+mu)]
+  has a logarithmic vacuum remainder and a mode-dependent occupation term;
+  low/high splitting makes both infinitesimally form bounded by free plus
+  commuting spectator energy. The resolvent-dressed creation map is norm
+  convergent, and ordered matrix-unit lowering gives G^9=0, so the finite
+  inverse polynomial produces a dense finite-particle IBC boundary core with
+  the correct vacancy factors on every sector. This still is not the complete
+  Hamiltonian. Normal ordering leaves exchange terms with the critical point
+  annihilation trace, which is not continuous on H^(1/2), although it is
+  continuous on the free operator graph domain. Next define that exchange
+  term on the recursive IBC operator domain and prove closedness,
+  self-adjointness and cutoff resolvent convergence. Then prove commutator-
+  resolvent or position-space IBC estimates for the noncommuting K128/K131
+  Coulomb form; global flux already lifts by joint functional calculus. Only
+  after the positive-energy point-Fock/Gauss Hamiltonian and the full
+  signed-Dirac lift close should an
+  infinite-volume Moller/Ruelle or return-to-NESS construction begin.
+  Independently construct an unreduced smooth connection/BRST parent and
+  require a source/GU action to select the coupling, masses, charges,
+  subtraction datum, domain and state. Do not merge K133's incidence star with
+  K127's matrix-unit defect, promote the boundary core to a Hamiltonian core,
+  replace the exchange term by its diagonal contraction, or infer the Coulomb
+  lift from commuting global flux.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.
