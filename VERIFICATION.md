@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K124 K123 spatial `U(1)^8` lattice-gauge/BFV completion boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K123's eight vertex-charge directions admit one exact spatially local gauge completion | integral state charges `q(v)`, transition charges `b_e=q(v)-q(u)`, oppositely charged CAR species, compact spatial links and termwise phase cancellation | exact finite periodic-spatial-lattice `U(1)^8` covariance for the repository-owned regulator |
+| The regulator has Gauss law and a nonempty physical sector | `8N` commuting generators, periodic divergence telescoping, explicit neutral root vacuum, and compact Haar projector onto the joint kernel | exact finite-lattice Dirac sector with mandatory global neutrality |
+| The Gauss complex and dynamics are controlled | nilpotent abelian BFV charge; positive rotor electric energy plus bounded covariant CAR hopping and compactly smeared defect perturbation | exact algebraic finite-lattice BFV control and self-adjoint Gauss-preserving Hamiltonian on the electric domain |
+| The gauge completion removes K123's cycle and nonequilibrium obstructions | eight residual spatial Wilson holonomies are typed separately from ten transition-graph cycles; selected rate ratio remains `6561/256` | false; local gauge covariance neither identifies nor equilibrates the real modular affinity |
+| Gauge symmetry selects the regulator, coefficients, sector, state and effects | K123 is recovered only after a supplied gauge slice/frozen sector; explicit parameter and ownership audit | false; charge root/normalization, regulator, couplings, boundary/flux sector, state and detector semantics remain imports |
+| The construction is a source/GU continuum gauge theory, unsmeared defect, Lagrangian BV master action, complete interacting AQFT, NESS, Born derivation, prediction or confirmation | explicit finite-regulator and ownership boundaries plus exact control (`26/26`) and hostile selftest (`34/34`) | false / not constructed |
+
 ## K123 K122 interacting CAR-defect gauge-descent boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

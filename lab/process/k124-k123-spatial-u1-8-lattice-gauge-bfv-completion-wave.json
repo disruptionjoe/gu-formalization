@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "id": "K124-K123-SPATIAL-U1-8-LATTICE-GAUGE-BFV-COMPLETION",
+  "status": "COMPLETE_FINITE_SPATIAL_GAUGE_GAUSS_DIRAC_BFV_AND_DOMAIN_CONTROL",
+  "date": "2026-09-07",
+  "direction": "observed_to_native",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "INTERNAL_TARGET:K123_LOCAL_GAUGE_GAUSS_AND_PHYSICAL_BFV_COMPLETION",
+  "scope": "One repository-owned finite periodic spatial lattice carrying the nine-state K115 system, 18 charged CAR species and eight compact U(1) link-rotor fields. The result owns exact local covariance, Gauss/Dirac/BFV and operator-domain controls at finite regulator only.",
+  "charge_localization": {
+    "detector_states": 9,
+    "transition_edges": 18,
+    "independent_vertex_charge_directions": 8,
+    "charge_lattice": "Z^8_after_one_root_state",
+    "transition_charge_is_vertex_difference": true,
+    "CAR_species_creation_charge_is_negative_transition_charge": true,
+    "defect_monomials_are_locally_neutral": true,
+    "charge_root_or_normalization_source_selected": false
+  },
+  "spatial_lattice_gauge_model": {
+    "spatial_dimension": 1,
+    "finite_periodic_sites": true,
+    "compact_link_group": "U(1)^8",
+    "integer_electric_spectrum": true,
+    "covariant_CAR_hopping_is_locally_gauge_invariant": true,
+    "local_Gauss_generators_per_site": 8,
+    "Gauss_generators_commute": true,
+    "periodic_Gauss_sum_is_total_matter_charge": true,
+    "global_neutrality_required": true,
+    "root_vacuum_zero_flux_physical_sector_exists": true,
+    "neutral_defect_preserves_physical_sector": true
+  },
+  "dirac_bfv_boundary": {
+    "compact_Haar_group_average_is_orthogonal_physical_projector": true,
+    "projector_image_is_joint_Gauss_kernel": true,
+    "abelian_BFV_charge_is_nilpotent": true,
+    "finite_lattice_Hamiltonian_Dirac_sector_owned": true,
+    "finite_lattice_algebraic_BFV_complex_owned": true,
+    "continuum_Lagrangian_BV_master_action_owned": false,
+    "source_derived_boundary_BFV_charge_owned": false,
+    "GU_native_physical_cohomology_owned": false
+  },
+  "hamiltonian_domain": {
+    "electric_energy_positive_and_self_adjoint_on_rotor_domain": true,
+    "finite_lattice_covariant_CAR_hopping_bounded": true,
+    "compactly_smeared_defect_bounded": true,
+    "full_regulated_Hamiltonian_self_adjoint_on_electric_domain": true,
+    "full_regulated_Hamiltonian_bounded_below": true,
+    "Hamiltonian_preserves_joint_Gauss_kernel": true,
+    "continuum_or_unsmeared_limit_constructed": false,
+    "complete_interacting_Haag_Kastler_net_constructed": false,
+    "interacting_nonequilibrium_stationary_state_constructed": false
+  },
+  "cycle_and_nonselection_boundary": {
+    "spacetime_gauge_charge_directions": 8,
+    "transition_graph_cycle_directions": 10,
+    "periodic_spatial_Wilson_holonomies": 8,
+    "these_three_counts_identified_as_one_object": false,
+    "selected_rate_cycle_forward_reverse_ratio": "6561/256",
+    "modular_affinity_remains_nonzero": true,
+    "compact_gauge_phase_identified_with_real_affinity": false,
+    "gauge_covariance_selects_regulator_couplings_boundary_flux_or_state": false,
+    "K123_recovered_only_after_supplied_gauge_slice_and_frozen_sector": true
+  },
+  "state_effect_boundary": {
+    "mathematical_physical_subspace_owned_for_regulated_model": true,
+    "incoming_or_stationary_physical_state_selected": false,
+    "physical_detector_effects_selected": false,
+    "Born_rule_derived": false
+  },
+  "ownership_boundary": {
+    "Weinstein_source_or_GU_action_gauge_group_charge_coupling_domain_state_or_observable_owner": false,
+    "finite_regulator_promoted_to_continuum_GU_theory": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "periodic_spatial_sites": 4,
+    "charge_covariance_Gauss_BFV_domain_cycle_affinity_and_ownership_boundaries_checked": true
+  },
+  "exact_reopener": "Construct a controlled continuum limit with a renormalized unsmeared defect, common self-adjoint Gauss domain, gauge fixing/BV master action, causal observable net and interacting NESS; separately require source/GU action ownership of the charge embedding, coefficients and boundary sector before physical or predictive credit.",
+  "claim_ceiling": "Exact repository-owned finite periodic-spatial-lattice U(1)^8 gauge completion of the K123 defect charges, with local covariance, commuting Gauss constraints, nonempty group-averaged Dirac sector, algebraic BFV differential and self-adjoint electric-plus-bounded Hamiltonian. No Weinstein/source/GU ownership, continuum or unsmeared limit, Lagrangian BV master action, complete interacting AQFT, NESS, Born derivation, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}
