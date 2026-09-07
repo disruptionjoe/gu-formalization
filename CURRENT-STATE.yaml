@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d692f87e10ea
+revision_basis: 04ce4f77aa30
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K137 complete-graph minimal-cutoff/Coulomb Big Wave closes the exact
+    full positive-energy finite-circle problem fenced by K136. The physical
+    nine-state/eighteen-species graph is the three-by-three rook graph: its
+    oriented creation paths have lengths at most four, so the boundary map
+    satisfies G^5=0 while retaining all six triangles and nine rectangular
+    cycles. CAR species orthogonality makes K134's diagonal upper-endpoint
+    contraction the only divergent term. Every overlap remainder is finite:
+    diagonal tails are subtracted, normal-ordered point annihilation converges
+    on the H0 graph as in K135, and each further free momentum carries an l2
+    resolvent weight. The pulled-back regular operators therefore converge in
+    H0-graph relative norm; the bounded boundary transforms and inverses
+    converge in norm, proving complete minimal-cutoff norm-resolvent
+    convergence on full antisymmetric positive-energy Fock space. The finite
+    triangle, square and exchange remainders select one scheme-dependent
+    W_min inside K135's dressed family, not a regulator-independent or
+    physically selected Hamiltonian. Because the boundary transforms also
+    converge on the particle-number graph, K136's finite-interval raw Coulomb
+    form pulls back in form norm; the complete minimally countertermed
+    all-sector Coulomb/Gauss cutoffs converge in norm resolvent without
+    momentum/position commutation. The probe passes 36/36 and catches 37/37
+    hostile mutations. The empty-vacuum signed-Dirac operator, infinite
+    volume, NESS/current, smooth unreduced parent, source/GU owner, Born,
+    prediction, confirmation, holdout, canon and public posture remain open.
     The K136 minimal-cutoff/Feshbach/Coulomb Big Wave proves the first
     recursive minimally countertermed physical matrix-unit limit beyond
     K132's one-edge star. On an invariant ladder of a declared two-edge
@@ -6711,15 +6734,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K136's depth-two minimal-cutoff Feshbach theorem be extended to the
-  complete nine-state/eighteen-species overlapping Pauli graph and matched to
-  a physically selected finite Schur boundary datum; does the all-sector
-  dressed Coulomb/Gauss completion also arise as a minimally countertermed
-  cutoff limit with a selected full signed-Dirac polarization; can that theory
-  then reach an infinite-volume scattering or return-to-NESS limit; can the
-  diffuse quotient be obtained from a genuinely unreduced smooth connection/
-  BRST parent; and can an actual source-owned GU action select every imported
-  datum?
+  Are the complete-graph finite extensions selected by different admissible
+  regulators unitarily/equivalently related, and what owner-native action,
+  symmetry or scattering condition selects their physical class; can a
+  specified signed-Dirac sea/polarization, charge and defect split preserve
+  the K137 point/Coulomb limit; can that theory reach an infinite-volume
+  scattering or return-to-NESS limit; can the diffuse quotient be obtained
+  from a genuinely unreduced smooth connection/BRST parent; and can an actual
+  source-owned GU action select every imported datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6728,31 +6750,25 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K136 closes one genuinely recursive minimal-cutoff cell and the positive-
-  energy all-sector dressed Coulomb domain. On a physical ordered two-edge
-  ladder, nested Schur inverse factors and every block-resolvent coupling
-  converge in norm after only K134's diagonal c_N D_g subtraction. This does
-  not close the complete graph: next prove uniform inverse bounds and norm
-  convergence for the operator-valued Schur recursion across all overlapping
-  nine-level/eighteen-species Pauli paths, or locate the first additional
-  counterterm. Subtraction-scale covariance is an exact finite D_g
-  reparameterization, and a prescribed finite Schur boundary value selects W;
-  obtain that value from a physical action, symmetry or scattering datum
-  rather than the ultraviolet tail. Pauli filling now gives
-  (N_f+1)^2 <= C(dGamma(omega)+1), so the finite-interval Coulomb form closes
-  K135's dressed construction on all positive-energy Fock sectors without a
-  false momentum/position commutation assumption. Next determine whether the
-  minimally countertermed Coulomb cutoff has the same limit. A full signed-
-  Dirac claim still requires a selected sea/polarization, normal ordering,
-  charge and defect split. Begin infinite-volume Moller/Ruelle or return-to-
-  NESS work only after a uniquely specified physical point-Fock/Gauss operator
-  exists. Independently construct an unreduced smooth connection/BRST parent
-  and require a source/GU action to select the coupling, masses, charges,
-  subtraction, finite extension, domain and state. Do not promote the two-edge
-  ladder to the complete K127 cutoff, call the dressed Coulomb family minimal,
-  infer physical W from scale covariance, extend the finite-volume Pauli
-  constant to infinite volume, or treat a supplied Dirac polarization as
-  source-owned.
+  K137 closes the complete positive-energy finite-circle minimal point and raw
+  all-sector Coulomb/Gauss cutoff limits. The rook-graph boundary map has
+  G^5=0; CAR species orthogonality leaves only K134's diagonal c_N D_g
+  divergence, and all triangle, square and exchange words converge as finite
+  W_min data. Next compare at least two admissible regulators or finite
+  subtraction conventions and compute their complete-graph finite W_min
+  difference. Obtain a physical equivalence class from an owner-native action,
+  symmetry or scattering condition rather than calling the fixed sharp
+  symmetric scheme physical. Independently specify and validate a signed-
+  Dirac sea/polarization, normal ordering, sea charge and defect particle/hole
+  split, then redo semiboundedness and Coulomb estimates. Begin infinite-volume
+  Moller/Ruelle or return-to-NESS work only after one physical point-Fock/Gauss
+  operator and its thermodynamic limit exist. Construct an unreduced smooth
+  connection/BRST parent separately and require a source/GU action to select
+  couplings, regulator class, masses, charges, finite extension, domain and
+  state. Do not infer regulator independence or physical uniqueness from the
+  scheme-selected W_min, extend the finite-volume Pauli constant to infinite
+  volume, treat the positive-energy control as the empty-vacuum signed Dirac
+  theory, or promote K115's reduced affinity to a microscopic current.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.

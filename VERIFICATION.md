@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K137 complete-graph minimal cutoff, extension, and Coulomb (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K136's two-edge theorem extends to the complete physical graph | the K115 graph is the three-by-three rook graph; ordered creation has path counts `18,24,18,6,0`, hence `G^5=0`, while all six triangles and nine rectangles remain in the finite expansion | exact complete-graph filtration; not a decomposition into independent ladders |
+| Overlapping paths require another divergent counterterm | unequal-edge vacuum contractions vanish by CAR species orthogonality; the diagonal subtracted tails, graph-domain exchange tails and every further resolvent-weighted momentum tail converge | false; K134's diagonal upper-endpoint `c_N D_g` is the only divergent counterterm, while cycle/exchange remainders are finite and nonzero |
+| The complete positive-energy minimal cutoff converges | after pulling through `U_N=1-G_N`, the regular operators share `Dom(H0)` and converge in graph-relative norm; `U_N` and their finite-polynomial inverses converge in norm, so inverse factorization converges | exact norm-resolvent limit on full nine-state/eighteen-species antisymmetric positive-energy Fock space with arbitrary finite-particle spectators |
+| The minimal prescription uniquely selects the physical extension | finite triangle, square and exchange remainders determine one `W_min` for the fixed sharp symmetric regulator, subtraction scale, impurity energy and couplings; scale or finite-scheme changes recoordinate that term | false physically; exact scheme-selected member of K135's dressed family, with regulator independence and source/action selection still open |
+| The raw all-sector Coulomb form preserves the minimal limit | `[N_f,G_N]=G_N`, `G_N->G` on the particle-number graph, and K136's `Coul <= C(F_root^2+(N_f+1)^2)` make the pulled-back raw Coulomb forms converge in form norm | exact norm-resolvent limit for the complete minimally countertermed finite-interval positive-energy Coulomb/Gauss cutoffs; no momentum-occupation commutation used |
+| The packet constructs an empty-vacuum signed-Dirac theory, infinite-volume NESS/current, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | `lab/process/k137-complete-graph-minimal-cutoff-extension-coulomb-wave.json`; exact control `36/36`, hostile selftest `37/37` | false / explicitly fenced |
+
 ## K136 minimal-cutoff Feshbach, scale selection, and all-sector Coulomb (2026-09-07)
 
 | Claim | Evidence | Honest grade |

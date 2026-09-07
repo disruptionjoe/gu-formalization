@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K137-COMPLETE-GRAPH-MINIMAL-CUTOFF-EXTENSION-COULOMB",
+  "date": "2026-09-07",
+  "status": "EXACT_COMPLETE_POSITIVE_GRAPH_MINIMAL_CUTOFF_AND_ALL_SECTOR_COULOMB_LIMIT_WITH_SCHEME_SELECTED_EXTENSION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "complete_graph_filtration": {
+    "impurity_states": 9,
+    "undirected_CAR_species": 18,
+    "graph_is_three_by_three_rook_graph": true,
+    "oriented_matrix_unit_creation_strictly_lowers_impurity_label": true,
+    "longest_nonzero_creation_path_has_four_edges": true,
+    "boundary_creation_map_fifth_power_is_zero": true,
+    "graph_contains_six_triangles_and_nine_rectangular_four_cycles": true,
+    "all_overlapping_directed_paths_are_included": true,
+    "complete_graph_is_replaced_by_disjoint_ladders": false
+  },
+  "ultraviolet_and_regular_remainder": {
+    "unequal_edge_vacuum_contractions_vanish_by_CAR_species_orthogonality": true,
+    "only_divergent_contraction_is_the_K134_diagonal_upper_endpoint_term": true,
+    "triangle_and_square_path_words_generate_finite_exchange_terms": true,
+    "every_uncontracted_momentum_in_a_higher_word_has_a_resolvent_weight": true,
+    "normal_ordered_point_annihilation_tail_is_controlled_in_the_free_operator_graph_norm": true,
+    "one_additional_off_diagonal_or_higher_order_divergent_counterterm_is_required": false,
+    "finite_cycle_remainders_are_zero": false
+  },
+  "complete_minimal_cutoff_limit": {
+    "sharp_symmetric_cutoff_and_diagonal_endpoint_subtraction_are_fixed": true,
+    "pulled_back_regular_operators_share_Dom_H0": true,
+    "regular_remainders_converge_in_H0_graph_relative_norm": true,
+    "uniform_lower_bound_holds_after_one_common_finite_shift": true,
+    "bounded_boundary_transforms_and_inverses_converge_in_norm": true,
+    "complete_nine_state_eighteen_species_minimal_cutoff_converges_in_norm_resolvent": true,
+    "result_covers_arbitrary_finite_particle_spectators_on_full_positive_Fock_space": true,
+    "full_signed_Dirac_empty_vacuum_operator_is_covered": false
+  },
+  "extension_identification": {
+    "minimal_cutoff_has_one_finite_regular_remainder_W_min_for_the_fixed_scheme": true,
+    "W_min_contains_nonzero_finite_triangle_square_and_exchange_data": true,
+    "minimal_limit_is_one_member_of_the_K135_dressed_extension_family": true,
+    "subtraction_scale_change_recoordinates_W_min_by_a_finite_D_g_shift": true,
+    "regulator_or_subtraction_scheme_independence_is_proved": false,
+    "scheme_selected_W_min_is_a_physically_selected_Hamiltonian": false,
+    "source_or_GU_action_selects_the_scheme_or_finite_extension": false
+  },
+  "minimal_coulomb_gauss_limit": {
+    "finite_interval_cumulative_charge_form_is_bounded_by_global_flux_plus_particle_number_squared": true,
+    "boundary_transform_and_inverse_are_bounded_on_the_particle_number_graph": true,
+    "raw_Coulomb_form_is_defined_on_the_minimal_IBC_form_domain": true,
+    "pulled_back_Coulomb_forms_converge_in_form_norm": true,
+    "complete_minimally_countertermed_positive_energy_Coulomb_Gauss_cutoffs_converge_in_norm_resolvent": true,
+    "Coulomb_proof_uses_momentum_occupation_commutation": false,
+    "same_bound_is_uniform_in_spatial_volume": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false
+  },
+  "thermodynamic_and_ownership_boundary": {
+    "finite_circle_positive_dispersion_control_only": true,
+    "uniquely_physically_selected_point_Fock_Gauss_Hamiltonian_constructed": false,
+    "full_signed_Dirac_polarization_selected": false,
+    "infinite_volume_limit_constructed": false,
+    "Moller_or_Ruelle_wave_operator_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned positive-dispersion finite-circle result: the complete nine-state/eighteen-species ordered matrix-unit/Klein/CAR cutoff, with a fixed sharp symmetric regulator and K134 diagonal endpoint subtraction, has a uniformly semibounded norm-resolvent limit on full antisymmetric Fock space; no additional divergent counterterm occurs, while finite triangle, square and exchange remainders select one scheme-dependent W_min inside K135's dressed extension family. Particle-number-graph control also gives norm-resolvent convergence after adding the raw finite-interval all-sector Coulomb/Gauss form. This is not the empty-vacuum signed-Dirac K127 operator, an infinite-volume result, a scheme-independent or uniquely physical extension, a smooth unreduced gauge parent, or a source/GU-selected action, state, Born rule, prediction or confirmation."
+}
