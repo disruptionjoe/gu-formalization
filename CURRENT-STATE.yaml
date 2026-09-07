@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0dbf73e9ff45
+revision_basis: 65f3bb4436b7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K140 thermodynamic/Schur-response/charge-conjugation Big Wave turns
+    K139's remaining selection and volume questions into three exact
+    boundaries. A known complete complex on-shell response recovers the
+    Hermitian extension W at one regular energy when the channel map has full
+    row rank; rank loss exposes only a compressed visible response, and no
+    measured or source-owned response is supplied. Restoring the physical
+    L^-1/2 circle-mode normalization makes the local resolvent-dressed point
+    coefficient uniformly bounded in volume and convergent to its continuum
+    integral, so one compensated auxiliary shift controls every large box at
+    fixed coupling. The raw one-dimensional Coulomb/Gauss form does not share
+    that bound: a neutral pair separated by R has electric energy q^2 R/2 at
+    translation-invariant free cost. Charge conjugation, relative to a
+    supplied gapped C-odd free operator and time orientation, exchanges the
+    spectral halves, fixes the symmetric sea-charge origin and relates
+    particle/hole couplings, but does not select their magnitude, the free
+    operator or W. The probe passes 42/42 and catches 31/31 hostile mutations.
+    No common infinite-volume interacting operator, scattering/NESS/current,
+    smooth unreduced parent, source/GU action, Born, prediction or
+    confirmation follows.
     The K139 signed-boundary inverse/profile-universality Big Wave closes the
     exact domain gate left by K138 on the supplied positive particle/hole
     polarization. For every fixed finite coupling family, an arbitrarily
@@ -6779,13 +6798,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  What owner-native complete Schur boundary datum or action principle selects
-  the finite extension, positive polarization, sea charge and couplings of
-  K139's signed point-Fock/Gauss family; can its estimates be made uniform
-  under an explicit thermodynamic scaling so that Moller/Ruelle or return-to-
-  NESS dynamics and a microscopic current exist; can the diffuse quotient be
-  obtained from a genuinely unreduced smooth connection/BRST parent; and can
-  an actual source-owned GU action select every imported datum?
+  Can K140's volume-uniform local point coefficients be promoted through an
+  explicit common Hilbert-space embedding to an infinite-volume signed
+  point-Fock operator; can a named screened, local-neutral or confining Gauss
+  representation evade the separated-neutral-pair obstruction; what actual
+  full-rank response or action principle selects W; and can a source-owned GU
+  action select the imported free operator, time orientation, polarization,
+  charges, couplings, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6794,26 +6813,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K139 proves that an auxiliary resolvent shift supplies a cutoff-uniform
-  Neumann inverse for the natural bidirectional signed boundary map at every
-  fixed finite coupling, without using K137's nilpotence or imposing physical
-  weak coupling. The doubled upper-particle/lower-hole endpoint counterterm,
-  four graph-domain polarity exchange blocks and geometrically summed higher
-  words give a minimally countertermed positive-polarization signed point-Fock
-  norm-resolvent limit. Its particle-number-graph inverse also carries the raw
-  finite-interval all-sector Coulomb/Gauss form. Matched universality now holds
-  for uniformly bounded diagonal profiles converging pointwise to one, with
-  each profile's own squared-profile endpoint subtraction. Next seek a
-  complete owner-native Schur boundary datum or action principle selecting the
-  finite extension, polarization, sea charge and couplings. Independently
-  prove or refute volume-uniform estimates under an explicit thermodynamic
-  scaling; only then begin Moller/Ruelle or return-to-NESS work and compare a
-  genuine field current with K115's reduced affinity. Construct an unreduced
-  smooth connection/BRST parent separately and require a source/GU action to
-  select regulator class, masses, charges, domain and state. Do not treat the
-  auxiliary shift as physical, extend finite-volume constants to infinite
-  volume, call the mathematical minimal scheme physically selected, or
-  promote K115's reduced affinity to a microscopic current.
+  K140 proves that complete complex on-shell boundary response identifies W
+  under a full-row-rank channel condition, but no physical response is owned.
+  It restores L^-1/2 box normalization and obtains a volume-uniform local
+  point-boundary coefficient with the expected continuum Riemann-sum limit.
+  It also proves that K139's raw unscreened one-dimensional Coulomb/Gauss
+  relative-form route is not volume uniform: a separated neutral pair costs
+  q^2 R/2 while fixed-shape free energy is translation invariant. Charge
+  conjugation conditionally exchanges the spectral halves, fixes a symmetric
+  sea-charge origin and relates particle/hole couplings, but does not select
+  the imported free operator, time orientation, coupling magnitudes or W.
+  Next construct a common infinite-volume Hilbert-space embedding and operator
+  limit for the local signed point defect without importing the raw Coulomb
+  form. Independently test a named screened/local-neutral or confining Gauss
+  representation against the separated-pair witness. Only after an
+  interacting infinite-volume operator is owned should Moller/Ruelle or
+  return-to-NESS work begin. Do not call the response formula measured data,
+  normalize away the q^2 R/2 string energy, promote K115's reduced affinity to
+  a microscopic current, or treat charge conjugation as source selection.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.

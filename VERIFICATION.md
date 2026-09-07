@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K140 thermodynamic, Schur-response, and charge-conjugation boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Complete boundary response identifies K139's finite extension | for known `M(E+i0)` and full-row-rank `C(E)`, recover `R_W=(CC*)^-1 C[(I-S)/(2 pi i)]C*(CC*)^-1` and then `W=M+R_W^-1` | exact finite-dimensional identifiability at one regular energy; an open interval gives pole/rank redundancy, but no measured or source-owned response is supplied |
+| Rank-deficient response still determines every Hermitian `W` | a decoupled change on an impurity direction invisible to `C` leaves `C*(W-M)^-1C` unchanged | false without restrictions on `W`; only visible compressed response is guaranteed |
+| K139's local signed point coefficient has a thermodynamic scaling | normalized circle modes give `h_L(lambda)^2=L^-1 sum_n(sqrt(m^2+(2 pi n/L)^2)+lambda)^-2`; the integral test is uniform for `L>=1`, and Riemann sums converge to the line integral divided by `2 pi` | exact coefficient-level volume-uniform bound and continuum limit; not yet a common-Hilbert-space interacting operator limit |
+| K139's raw Coulomb/Gauss form has the same volume-uniform bound | a fixed-shape neutral pair separated by `R` has one-dimensional electric energy `q^2 R/2+O(1)`, while translation leaves its free massive energy fixed | false for the raw unscreened relative-form route; screening, confining representations and other renormalized limits remain open |
+| Charge conjugation physically selects the sea, polarization, couplings and `W` | relative to an imported gapped `D` with `CDC^-1=-D`, `C` exchanges spectral halves; a `C`-invariant vacuum fixes zero symmetric sea charge and covariance relates `g_-` to `conjugate(g_+)`, but magnitudes, `D`, time orientation and the `C`-fixed `W` family remain free | exact conditional symmetry classification, not source/action selection; infinite-volume Fock equivalence still requires the Hilbert--Schmidt implementability condition |
+| The packet constructs an infinite-volume interacting Hamiltonian, scattering/NESS/current, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | `lab/process/k140-thermodynamic-schur-response-charge-conjugation-wave.json`; exact control `42/42`, hostile selftest `31/31` | false / explicitly fenced |
+
 ## K139 signed boundary inverse and profile universality (2026-09-07)
 
 | Claim | Evidence | Honest grade |

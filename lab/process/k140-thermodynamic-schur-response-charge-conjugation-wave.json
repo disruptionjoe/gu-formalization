@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K140-THERMODYNAMIC-SCHUR-RESPONSE-CHARGE-CONJUGATION",
+  "created": "2026-09-07",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "depends_on": [
+    "K138-REGULATOR-UNIVERSALITY-EXTENSION-SELECTION-SIGNED-BOUNDARY",
+    "K139-SIGNED-BOUNDARY-INVERSE-PROFILE-UNIVERSALITY"
+  ],
+  "complete_schur_response": {
+    "known_Weyl_matrix_and_channel_map_are_required": true,
+    "full_row_rank_channel_map_recovers_the_complete_boundary_resolvent": true,
+    "one_regular_energy_with_complete_complex_response_is_sufficient": true,
+    "the_Hermitian_extension_is_W_equals_M_plus_R_inverse": true,
+    "an_open_energy_interval_supplies_redundancy_and_pole_avoidance": true,
+    "rank_deficient_channels_guarantee_only_visible_compressed_response": true,
+    "rank_deficient_response_unconditionally_identifies_all_of_W": false,
+    "a_measured_or_source_owned_complete_response_is_supplied": false
+  },
+  "thermodynamic_point_scaling": {
+    "circle_momenta_are_two_pi_n_over_L": true,
+    "normalized_point_coefficients_are_L_inverse_square_root": true,
+    "resolvent_dressed_squared_norm_is_L_inverse_sum": true,
+    "the_sum_has_a_volume_uniform_bound_for_L_at_least_one": true,
+    "the_sum_converges_to_the_continuum_integral_over_two_pi": true,
+    "the_uniform_bound_tends_to_zero_with_auxiliary_shift": true,
+    "one_auxiliary_shift_controls_all_large_volumes_at_fixed_couplings": true,
+    "matched_endpoint_subtraction_retains_the_same_ultraviolet_logarithm": true,
+    "a_common_infinite_volume_interacting_operator_is_constructed": false
+  },
+  "coulomb_gauss_obstruction": {
+    "a_neutral_pair_separated_by_R_has_field_energy_q_squared_R_over_two": true,
+    "fixed_shape_translated_free_particle_energy_is_independent_of_R": true,
+    "no_volume_uniform_Coulomb_relative_bound_against_free_energy_exists": true,
+    "K139s_raw_Coulomb_form_pullback_method_reaches_the_thermodynamic_limit": false,
+    "screening_confining_dynamics_or_other_renormalized_limits_are_excluded": false
+  },
+  "charge_conjugation_boundary": {
+    "the_imported_gapped_free_operator_is_odd_under_an_antiunitary_C": true,
+    "C_exchanges_its_positive_and_negative_spectral_subspaces": true,
+    "symmetric_normal_ordering_sets_the_C_odd_sea_charge_origin_to_zero": true,
+    "C_covariance_relates_particle_and_hole_couplings_up_to_rephasing": true,
+    "equal_magnitude_C_related_rook_couplings_give_four_g_squared_identity_endpoint_data": true,
+    "C_invariance_constrains_but_does_not_select_the_finite_W": true,
+    "C_selects_the_free_Hamiltonian_time_orientation_or_coupling_magnitudes": false,
+    "all_C_compatible_polarizations_are_unitarily_equivalent_in_infinite_volume": false,
+    "the_polarization_sea_and_couplings_are_source_owned": false
+  },
+  "scattering_and_ownership_boundary": {
+    "local_point_estimates_are_volume_uniform": true,
+    "raw_unscreened_Coulomb_Gauss_control_is_volume_uniform": false,
+    "Moller_or_Ruelle_wave_operators_constructed": false,
+    "interacting_NESS_constructed": false,
+    "microscopic_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned classification for K139's supplied signed point control: known complete complex on-shell boundary response identifies the Hermitian extension W under a full-row-rank channel condition, while rank loss leaves only visible compressed response. With physical L^-1/2 box normalization, the local resolvent-dressed point coefficient has a volume-uniform bound and continuum limit, but a separated neutral pair has raw one-dimensional Coulomb energy q^2 R/2 at translation-invariant free cost, so K139's Coulomb-relative-bound route is not volume uniform. Relative to an imported gapped charge-conjugation-odd free operator, C exchanges spectral halves, fixes the symmetric sea-charge origin and relates particle/hole couplings, but selects neither the free operator/time orientation nor coupling magnitudes or the finite W. No common infinite-volume interacting operator, scattering/NESS/current, source/GU action, Born rule, prediction or confirmation follows."
+}
