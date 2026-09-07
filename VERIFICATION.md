@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K135 K134 operator-exchange IBC completion and polarization/Coulomb boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K134's point-annihilation exchange obstruction persists on the free operator graph | `sum omega_k^-2<infinity` makes point-annihilation cutoffs Cauchy from `Dom(H0)` with graph norm, while `sum omega_k^-1` still diverges on the `H^(1/2)` form dual | false on the operator graph, true on the form domain; the two domain grades are not interchangeable |
+| The complete adjoint-paired normal-ordered exchange term has an operator-domain limit | resolvent-dressed creation has an `l2` coefficient and the annihilation leg is infinitesimally `H0`-operator-bounded; the finite edge sum converges in `B(Dom(H0)_graph,Fock)` | exact for the repository-owned positive-dispersion finite-circle control |
+| K134's nilpotent boundary transform yields a complete self-adjoint singular operator | for any positive shifted regular `K_W`, `L_W=U* K_W U`, `U=1-G`, has domain `U^-1 Dom(H0)` and inverse `U^-1 K_W^-1 (U*)^-1`; cutoff inverse factorization converges in norm | exact self-adjoint dressed IBC completion and norm-resolvent limit; not convergence of the minimally countertermed K127 cutoff |
+| The ultraviolet tail and IBC recursion uniquely determine the physical extension | bounded Hermitian finite exchange terms `W` preserve `G`, its ultraviolet tail and recursion while changing the resolvent | false; a renormalization condition, physical action, symmetry or scattering datum must select the finite extension |
+| The completion automatically lifts to the full signed-Dirac and physical Coulomb/Gauss theory | the empty-vacuum signed cutoff has lower bound tending to minus infinity; a positive particle/hole polarization is supplied data; finite-interval Coulomb is bounded at each particle truncation but the bound grows quadratically and no all-sector estimate is proved | false; conditional polarized and fixed-particle completions only |
+| The packet constructs a uniquely selected complete physical point-Fock/Gauss Hamiltonian, infinite-volume NESS/current, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | `lab/process/k135-k134-operator-exchange-ibc-extension-polarization-coulomb-boundary-wave.json`; exact control `41/41`, hostile selftest `32/32` | false / explicitly fenced |
+
 ## K134 K133 Pauli/spectator IBC core and exchange boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

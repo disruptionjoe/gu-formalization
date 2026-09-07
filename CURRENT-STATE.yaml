@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 27b9a4f7b0cf
+revision_basis: f48009a288ca
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,31 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K135 operator-exchange/IBC Big Wave closes K134's surviving operator-
+    graph route on the repository-owned positive-dispersion finite-circle
+    control. The point annihilation cutoffs converge in the graph dual because
+    sum omega_k^-2 is finite, while sum omega_k^-1 still diverges, so the
+    H^(1/2) form obstruction remains exact. Resolvent-dressed creation is
+    bounded and the adjoint-paired normal-ordered exchange cutoffs converge
+    from Dom(H0) with graph norm to Fock space; the limit is infinitesimally
+    H0-operator-bounded. Adding K134's diagonal Pauli/spectator term gives a
+    self-adjoint regular operator after a finite shift. If U=1-G is K134's
+    bounded nilpotent boundary transform, then L_W=U* K_W U on
+    U^-1 Dom(H0) is one self-adjoint dressed IBC completion, and cutoff inverse
+    factorization proves norm-resolvent convergence. This is not convergence
+    of the minimally countertermed K127 cutoff: arbitrary bounded Hermitian
+    finite exchange terms W preserve the same ultraviolet tail and recursion
+    while changing the resolvent, so the physical extension is not selected.
+    The empty-vacuum signed-Dirac cutoff has no uniform lower bound; a positive
+    particle/hole polarization restores the theorem but supplies the sea,
+    charge and normal ordering. K128/K131 Coulomb energy is bounded on every
+    fixed particle truncation, so the dressed construction closes there, but
+    its constants grow quadratically and no all-sector commutator-resolvent or
+    position-IBC estimate follows. The probe passes 41/41 and catches 32/32
+    hostile mutations. No uniquely selected complete physical point-Fock/Gauss
+    Hamiltonian, infinite-volume scattering, interacting NESS/current, smooth
+    unreduced parent, source/GU owner, Born derivation, prediction,
+    confirmation, holdout, canon or public-posture move follows.
     The K134 Pauli/spectator IBC Big Wave returns from K133's stipulated
     incidence star to K127's physical matrix-unit/Klein/CAR coupling algebra,
     placed on K132's diagonal-impurity positive-energy finite-circle branch.
@@ -6055,6 +6080,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k135-k134-operator-exchange-ibc-extension-polarization-coulomb-boundary-wave-2026-09-07.md
+    - lab/process/k135-k134-operator-exchange-ibc-extension-polarization-coulomb-boundary-wave.json
+    - tests/channel-swings/k135_k134_operator_exchange_ibc_extension_polarization_coulomb_probe.py
     - explorations/conditional-build/k130-k129-compact-cylindrical-gauss-pairing-fock-measure-boundary-wave-2026-09-07.md
     - lab/process/k130-k129-compact-cylindrical-gauss-pairing-fock-measure-boundary-wave.json
     - tests/channel-swings/k130_k129_compact_cylindrical_gauss_pairing_fock_measure_boundary_probe.py
@@ -6654,14 +6682,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K134's exact positive-energy matrix-unit Pauli/spectator contraction and common
-  nilpotent IBC boundary core be promoted to a complete self-adjoint
-  nine-state/eighteen-species point-Fock Hamiltonian by defining the
-  normal-ordered exchange term on a recursive operator domain; can that domain
-  then be lifted through the noncommuting K128/K131 Coulomb/Gauss form and
-  reach an infinite-volume scattering or return-to-NESS limit; can the diffuse
-  quotient be obtained from a genuinely unreduced smooth connection/BRST
-  parent; and can an actual source-owned GU action select every imported datum?
+  Can K135's family of self-adjoint dressed positive-energy IBC completions be
+  reduced to a uniquely selected physical point Hamiltonian by proving
+  convergence of the minimally countertermed K127 cutoff or deriving its
+  finite exchange extension datum; can one prove an all-sector Pauli/Coulomb
+  commutator-resolvent or position-space IBC estimate and select a full
+  signed-Dirac polarization; can that theory then reach an infinite-volume
+  scattering or return-to-NESS limit; can the diffuse quotient be obtained
+  from a genuinely unreduced smooth connection/BRST parent; and can an actual
+  source-owned GU action select every imported datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6670,34 +6699,32 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K134 constructs the exact positive-energy matrix-unit ultraviolet contraction,
-  commuting occupation/global-flux self-energy and one common Pauli-compatible
-  full-Fock IBC boundary core. The physical counterterm is the positive
-  diagonal endpoint operator sum g_e^2 B_e B_e*, not K133's separately
-  supplied incidence Laplacian. The Pauli contraction
-  Q_e(X)=sum_k[(1-N_e,k)/(X+omega_k+mu)-1/(omega_k+mu)]
-  has a logarithmic vacuum remainder and a mode-dependent occupation term;
-  low/high splitting makes both infinitesimally form bounded by free plus
-  commuting spectator energy. The resolvent-dressed creation map is norm
-  convergent, and ordered matrix-unit lowering gives G^9=0, so the finite
-  inverse polynomial produces a dense finite-particle IBC boundary core with
-  the correct vacancy factors on every sector. This still is not the complete
-  Hamiltonian. Normal ordering leaves exchange terms with the critical point
-  annihilation trace, which is not continuous on H^(1/2), although it is
-  continuous on the free operator graph domain. Next define that exchange
-  term on the recursive IBC operator domain and prove closedness,
-  self-adjointness and cutoff resolvent convergence. Then prove commutator-
-  resolvent or position-space IBC estimates for the noncommuting K128/K131
-  Coulomb form; global flux already lifts by joint functional calculus. Only
-  after the positive-energy point-Fock/Gauss Hamiltonian and the full
-  signed-Dirac lift close should an
-  infinite-volume Moller/Ruelle or return-to-NESS construction begin.
-  Independently construct an unreduced smooth connection/BRST parent and
-  require a source/GU action to select the coupling, masses, charges,
-  subtraction datum, domain and state. Do not merge K133's incidence star with
-  K127's matrix-unit defect, promote the boundary core to a Hamiltonian core,
-  replace the exchange term by its diagonal contraction, or infer the Coulomb
-  lift from commuting global flux.
+  K135 closes the operator-graph existence route but exposes its selection
+  boundary. Point annihilation is continuous on Dom(H0) with graph norm, the
+  normal-ordered exchange cutoffs converge there and are infinitesimally
+  H0-bounded, and K134's norm-convergent nilpotent G makes U=1-G boundedly
+  invertible. For every bounded Hermitian finite exchange datum W, the positive
+  shifted regular operator K_W produces a self-adjoint dressed IBC operator
+  L_W=U* K_W U on U^-1 Dom(H0); inverse factorization proves cutoff norm-
+  resolvent convergence. Distinct W give distinct resolvents with the same
+  IBC tail, so the ultraviolet data do not select one physical Hamiltonian and
+  the minimally countertermed K127 cutoff is still open. Next use a direct
+  boundary-triple/Feshbach or equivalent renormalization theorem to prove or
+  refute convergence of that minimal cutoff and identify the exact finite
+  renormalization condition that fixes W. In parallel, upgrade the fixed-
+  particle K128/K131 Coulomb completion to all Fock sectors with uniform
+  fermionic kinetic/particle-number and point-resolvent commutator estimates,
+  or produce an exact scoped obstruction. A full signed-Dirac claim requires a
+  selected sea/polarization, normal ordering, charge and defect split; the
+  positive particle/hole control is conditional only. Begin infinite-volume
+  Moller/Ruelle or return-to-NESS work only after a uniquely specified
+  physical point-Fock/Gauss operator exists. Independently construct an
+  unreduced smooth connection/BRST parent and require a source/GU action to
+  select the coupling, masses, charges, subtraction, finite extension, domain
+  and state. Do not call the dressed family the minimal K127 limit, infer
+  uniqueness from the IBC recursion, infer an all-sector Coulomb theorem from
+  fixed particle truncations, or treat a supplied Dirac polarization as
+  source-owned.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.

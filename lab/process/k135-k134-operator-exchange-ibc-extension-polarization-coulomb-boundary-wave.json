@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K135-K134-OPERATOR-EXCHANGE-IBC-EXTENSION-POLARIZATION-COULOMB-BOUNDARY",
+  "date": "2026-09-07",
+  "status": "EXACT_OPERATOR_GRAPH_EXCHANGE_AND_DRESSED_IBC_COMPLETION_WITH_EXTENSION_POLARIZATION_AND_COULOMB_BOUNDARIES",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "operator_graph_exchange": {
+    "point_annihilation_is_continuous_on_the_free_operator_graph_domain": true,
+    "point_annihilation_cutoffs_converge_in_graph_dual_norm": true,
+    "graph_dual_tail_is_sum_omega_inverse_squared": true,
+    "H_one_half_form_dual_tail_is_summable": false,
+    "normal_ordered_exchange_cutoffs_converge_from_Dom_H0_to_Fock": true,
+    "exchange_is_infinitesimally_H0_operator_bounded": true,
+    "K134_form_obstruction_is_removed": false
+  },
+  "dressed_ibc_completion": {
+    "K134_boundary_transform_G_is_norm_convergent": true,
+    "G_ninth_power_is_zero": true,
+    "one_minus_G_is_boundedly_invertible": true,
+    "regular_exchange_operator_is_self_adjoint_on_Dom_H0_after_a_finite_shift": true,
+    "dressed_congruence_completion_is_self_adjoint": true,
+    "dressed_cutoff_family_converges_in_norm_resolvent": true,
+    "recursive_IBC_operator_domain_is_one_minus_G_inverse_Dom_K": true,
+    "minimally_countertermed_K127_cutoff_family_proved_to_converge": false
+  },
+  "extension_selection_boundary": {
+    "bounded_self_adjoint_finite_exchange_terms_preserve_the_same_UV_tail": true,
+    "distinct_finite_extension_terms_can_have_distinct_resolvents": true,
+    "K134_IBC_tail_uniquely_selects_the_physical_Hamiltonian": false,
+    "dressed_completion_is_repository_supplied_extension_data": true,
+    "source_or_GU_action_selects_the_extension": false
+  },
+  "signed_dirac_boundary": {
+    "empty_vacuum_signed_Dirac_cutoff_lower_bounds_are_uniform": false,
+    "negative_branch_sea_energy_diverges_with_cutoff": true,
+    "positive_particle_hole_polarization_restores_semibounded_free_energy": true,
+    "polarized_point_resolvent_tail_is_square_summable": true,
+    "polarization_normal_ordering_and_sea_charge_are_supplied": true,
+    "full_signed_Dirac_K127_lift_is_selected": false
+  },
+  "coulomb_gauss_boundary": {
+    "K128_K131_Coulomb_form_commutes_with_momentum_occupation": false,
+    "finite_interval_fixed_particle_number_Coulomb_multiplier_is_bounded": true,
+    "every_fixed_particle_truncation_admits_the_dressed_completion": true,
+    "fixed_particle_constants_are_uniform_in_particle_cutoff": false,
+    "all_sector_commutator_resolvent_or_position_IBC_estimate_proved": false,
+    "complete_physical_Coulomb_Gauss_point_Fock_Hamiltonian_constructed": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false
+  },
+  "thermodynamic_and_ownership_boundary": {
+    "finite_circle_positive_dispersion_control_only": true,
+    "complete_uniquely_selected_nine_state_eighteen_species_point_Hamiltonian_constructed": false,
+    "infinite_volume_limit_constructed": false,
+    "Moller_or_Ruelle_wave_operator_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned positive-dispersion finite-circle operator theorem: point annihilation and the normal-ordered exchange term converge on the free operator graph; K134's bounded nilpotent boundary transform yields a self-adjoint dressed IBC completion with cutoff norm-resolvent convergence. The completion contains finite self-adjoint extension data not selected by the ultraviolet tail and does not prove convergence of the minimally countertermed K127 cutoff. Empty-vacuum signed-Dirac semiboundedness fails, a positive particle/hole polarization is supplied rather than derived, and only fixed-particle Coulomb/Gauss truncations close; no uniquely selected complete physical point-Fock/Gauss Hamiltonian, infinite-volume NESS/current, Weinstein/source/GU action, Born derivation, prediction or confirmation follows."
+}
