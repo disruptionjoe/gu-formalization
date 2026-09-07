@@ -7,6 +7,18 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K138 regulator universality, extension selection, and signed boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Sharp and Abel point regulators select different complete-graph finite remainders | pair each coupling profile with its own squared-profile diagonal counterterm; the subtracted contraction is `O(k^-2)` and every higher K137 word has a subtracted or two-resolvent-weighted dominating tail | false for these two matched profiles; dominated convergence gives the same complete positive-energy `W_min` |
+| The raw counterterms are identical | `c_N^A-c_N^S -> -2(gamma_E+log 2)` from the Abel harmonic sum, while the massive-minus-harmonic remainder is absolutely summable | false; exact finite offset, absorbed by matched renormalization rather than interpreted as physical regulator dependence |
+| A finite Hermitian subtraction is an automatic physical equivalence | `c_ND_g+F` sends `W->W+F`; only the compensating coordinate change `E_R->E_R-F` preserves the same family, while an uncompensated `F` generically changes resolvent poles and spectrum | false; the extension space is affine and needs a renormalization condition |
+| Full rook-graph symmetry selects the extension | the automorphism action has three ordered-pair orbitals, so invariant Hermitian data have form `aI+bA+cJ` with three real parameters | false; symmetry narrows but does not select `W`, and one pole gives only one scalar condition |
+| A complete physical boundary condition is identified | at a common nonreal point, `S_W(z0)=S_0(z0)+W`, so a complete finite matrix `S_phys(z0)` fixes `W` | exact selection formula; no source-owned action, measurement or finite-circle scattering datum supplies `S_phys` |
+| The natural positive signed-Dirac particle/hole split inherits K137's finite boundary polynomial | the local field contains particle annihilation and hole creation, so singular creation runs in both impurity directions; the bidirected rook graph has the distinct-edge path `0->1->2->0->3->4` | false; semibounded free energy and finite-volume Pauli/Coulomb counting survive, but `G^5=0` and the complete signed minimal point limit do not follow |
+| The packet constructs a physical signed point-Fock/Gauss Hamiltonian, infinite-volume scattering/NESS, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | `lab/process/k138-regulator-universality-extension-selection-signed-boundary-wave.json`; exact control `40/40`, hostile selftest `39/39` | false / explicitly fenced |
+
 ## K137 complete-graph minimal cutoff, extension, and Coulomb (2026-09-07)
 
 | Claim | Evidence | Honest grade |

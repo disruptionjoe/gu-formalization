@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K138-REGULATOR-UNIVERSALITY-EXTENSION-SELECTION-SIGNED-BOUNDARY",
+  "date": "2026-09-07",
+  "status": "EXACT_MATCHED_REGULATOR_UNIVERSALITY_FINITE_EXTENSION_TORSOR_AND_SIGNED_FILTRATION_BOUNDARY",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "matched_regulator_comparison": {
+    "sharp_profile_is_indicator_abs_k_le_N": true,
+    "Abel_profile_is_exp_minus_abs_k_over_N": true,
+    "each_coupling_profile_is_paired_with_its_own_squared_profile_counterterm": true,
+    "sharp_minus_Abel_raw_counterterm_has_a_finite_nonzero_limit": true,
+    "Abel_minus_sharp_counterterm_limit_is_minus_two_Euler_gamma_plus_log_two": true,
+    "matched_subtracted_one_loop_terms_have_the_same_limit": true,
+    "matched_resolvent_weighted_overlap_words_have_the_same_limit": true,
+    "complete_graph_W_min_difference_for_the_two_matched_profiles_is_zero": true,
+    "raw_counterterm_offset_is_a_physical_regulator_effect": false
+  },
+  "finite_scheme_and_selection": {
+    "adding_a_finite_Hermitian_subtraction_F_shifts_W_by_F": true,
+    "compensating_E_R_by_minus_F_preserves_the_same_operator_family": true,
+    "uncompensated_finite_F_generically_changes_the_resolvent_and_spectrum": true,
+    "finite_extension_space_is_affine_not_canonically_zeroed": true,
+    "full_rook_graph_permutation_commutant_has_three_real_Hermitian_parameters": true,
+    "rook_symmetry_alone_selects_a_unique_W": false,
+    "one_bound_state_or_one_determinant_zero_selects_the_full_W": false,
+    "a_complete_finite_Schur_boundary_matrix_at_one_common_resolvent_point_selects_W": true,
+    "finite_circle_supplies_an_infinite_volume_scattering_matrix": false,
+    "source_or_GU_action_supplies_the_boundary_matrix": false
+  },
+  "signed_particle_hole_boundary": {
+    "positive_spectral_particle_hole_free_energy_is_semibounded": true,
+    "normal_ordered_reference_sea_charge_is_zero_by_convention": true,
+    "particle_and_hole_charges_are_opposite": true,
+    "local_signed_field_contains_particle_annihilation_and_hole_creation": true,
+    "singular_creation_therefore_runs_in_both_impurity_directions": true,
+    "bidirected_rook_graph_has_a_nonzero_five_edge_distinct_species_path": true,
+    "K137_one_way_G_fifth_power_zero_filtration_survives": false,
+    "finite_species_Pauli_number_energy_bound_survives_with_thirty_six_species": true,
+    "finite_interval_Coulomb_counting_bound_survives_conditionally": true,
+    "complete_minimal_signed_Dirac_point_cutoff_limit_is_proved": false,
+    "polarization_sea_charge_and_defect_split_are_source_selected": false
+  },
+  "thermodynamic_and_ownership_boundary": {
+    "finite_circle_repository_control_only": true,
+    "uniquely_physically_selected_point_Fock_Gauss_Hamiltonian_constructed": false,
+    "infinite_volume_limit_constructed": false,
+    "Moller_or_Ruelle_wave_operator_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned finite-circle result: sharp and Abel point regulators, when each is paired with its own squared-profile diagonal endpoint counterterm and the same renormalized boundary coordinate, have the same complete positive-energy W_min limit even though their raw divergent sums differ by the finite constant -2(Euler gamma+log 2). Finite Hermitian subtraction changes act affinely on W and are not physical equivalences unless compensated or fixed by complete boundary data. Full rook-graph symmetry leaves a three-real-parameter commutant. A natural positive signed-Dirac particle/hole split preserves semibounded free energy and finite-volume Pauli/Coulomb counting but creates in both impurity directions, so K137's G^5=0 proof does not transfer. No complete signed point limit, physical W, infinite-volume scattering or NESS, smooth unreduced parent, source/GU action, Born rule, prediction or confirmation follows."
+}

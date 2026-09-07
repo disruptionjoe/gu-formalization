@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 04ce4f77aa30
+revision_basis: cc32bfadfc5d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K138 regulator-universality/selection/signed-boundary Big Wave refines
+    K137's scheme-dependent language. For the sharp profile and the Abel
+    profile exp(-|k|/N), each paired with its own squared-profile diagonal
+    endpoint counterterm, every subtracted contraction and higher complete-
+    graph word has a common summable dominating tail. The two matched schemes
+    therefore select the same positive-energy W_min. Their raw counterterms
+    are not equal: c_N^Abel-c_N^sharp tends to
+    -2(gamma_E+log 2), but using that mismatch without compensation merely
+    adds the finite diagonal term 2(gamma_E+log 2)D_g. General finite
+    Hermitian subtractions act affinely on W; compensating E_R preserves the
+    operator, while an uncompensated shift generically changes its resolvent.
+    Even full three-by-three rook symmetry leaves W=aI+bA+cJ, three real
+    parameters, so symmetry and one pole do not select a physical member. A
+    complete finite Schur boundary matrix would, but no source action,
+    measurement or finite-circle scattering datum supplies it. A declared
+    positive signed-Dirac particle/hole split preserves semibounded free
+    energy and the 36-species finite-volume Pauli/Coulomb counting bound, but
+    its local field creates in both impurity directions. The distinct-edge
+    path 0->1->2->0->3->4 survives, so K137's G^5=0 filtration and finite
+    inverse polynomial do not transfer. The probe passes 40/40 and catches
+    39/39 hostile mutations. No complete signed point limit, uniquely
+    physical extension, infinite-volume NESS/current, smooth unreduced
+    parent, source/GU action, Born, prediction or confirmation follows.
     The K137 complete-graph minimal-cutoff/Coulomb Big Wave closes the exact
     full positive-energy finite-circle problem fenced by K136. The physical
     nine-state/eighteen-species graph is the three-by-three rook graph: its
@@ -6734,11 +6757,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Are the complete-graph finite extensions selected by different admissible
-  regulators unitarily/equivalently related, and what owner-native action,
-  symmetry or scattering condition selects their physical class; can a
-  specified signed-Dirac sea/polarization, charge and defect split preserve
-  the K137 point/Coulomb limit; can that theory reach an infinite-volume
+  Can the natural signed particle/hole point boundary transform be proved
+  uniformly invertible and its doubled endpoint/exchange terms shown to
+  converge without K137's nilpotent filtration; what owner-native complete
+  Schur or infinite-volume scattering datum selects the affine finite
+  extension; does matched-regulator universality extend to a stated general
+  profile class; can the resulting selected theory reach a thermodynamic
   scattering or return-to-NESS limit; can the diffuse quotient be obtained
   from a genuinely unreduced smooth connection/BRST parent; and can an actual
   source-owned GU action select every imported datum?
@@ -6750,25 +6774,28 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K137 closes the complete positive-energy finite-circle minimal point and raw
-  all-sector Coulomb/Gauss cutoff limits. The rook-graph boundary map has
-  G^5=0; CAR species orthogonality leaves only K134's diagonal c_N D_g
-  divergence, and all triangle, square and exchange words converge as finite
-  W_min data. Next compare at least two admissible regulators or finite
-  subtraction conventions and compute their complete-graph finite W_min
-  difference. Obtain a physical equivalence class from an owner-native action,
-  symmetry or scattering condition rather than calling the fixed sharp
-  symmetric scheme physical. Independently specify and validate a signed-
-  Dirac sea/polarization, normal ordering, sea charge and defect particle/hole
-  split, then redo semiboundedness and Coulomb estimates. Begin infinite-volume
-  Moller/Ruelle or return-to-NESS work only after one physical point-Fock/Gauss
-  operator and its thermodynamic limit exist. Construct an unreduced smooth
-  connection/BRST parent separately and require a source/GU action to select
-  couplings, regulator class, masses, charges, finite extension, domain and
-  state. Do not infer regulator independence or physical uniqueness from the
-  scheme-selected W_min, extend the finite-volume Pauli constant to infinite
-  volume, treat the positive-energy control as the empty-vacuum signed Dirac
-  theory, or promote K115's reduced affinity to a microscopic current.
+  K138 proves that the matched sharp and Abel profiles have zero complete-
+  graph W_min difference after each uses its own vacuum counterterm, although
+  their raw counterterms differ by -2(gamma_E+log 2)D_g. Treat general finite
+  Hermitian subtraction as an affine W shift: only a compensating E_R change
+  preserves the same operator. Rook symmetry leaves three real parameters and
+  one pole is insufficient; require a complete finite Schur boundary matrix
+  or later complete scattering data from an owner-native action or
+  measurement. For the signed route, prove a uniform inverse for the natural
+  bidirectional particle/hole boundary transform, enumerate its doubled
+  endpoint counterterms and close its graph-domain exchange terms. K137's
+  G^5=0 polynomial is unavailable even though positive free energy and the
+  36-species finite-volume Pauli/Coulomb bound survive. Extend regulator
+  universality only through a stated dominated admissible-profile theorem.
+  Begin infinite-volume Moller/Ruelle or return-to-NESS work only after one
+  selected signed point-Fock/Gauss operator and uniform volume estimates
+  exist. Construct an unreduced smooth connection/BRST parent separately and
+  require a source/GU action to select couplings, regulator class, masses,
+  charges, finite extension, domain and state. Do not interpret the raw
+  counterterm offset as physical regulator dependence, call symmetry a
+  selector, transfer the positive-energy nilpotence proof to the signed
+  split, extend finite-volume constants to infinite volume, or promote K115's
+  reduced affinity to a microscopic current.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.
