@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K141 infinite-volume local point and screened Gauss boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The changing circle point models admit one common Hilbert/Fock comparison | `J_delta e_n=delta^-1/2 1_[n delta,(n+1)delta)` is isometric; `L^-1/2 delta^-1/2=(2 pi)^-1/2`; the piecewise multiplier restricts to the exact circle dispersion | exact common-carrier extension; the original model is tensored with a decoupled free spectator complement, not declared literally identical to every other box space |
+| The free many-sector operators converge in norm resolvent | `||omega_delta-omega||_infinity<=delta` and `dGamma(omega)>=mN` give `|dGamma(omega_delta)-dGamma(omega)|<=(delta/m)dGamma(omega)` uniformly over particle sectors | exact after a common lower shift on the supplied massive positive particle/hole carrier |
+| K139's local signed point defect has an infinite-volume operator limit | the dressed point vectors converge in `L2`; K140 supplies one volume-uniform Neumann chart; matched subtractions have uniform `p^-2` tails; the regular pullbacks converge in free-graph relative norm and exact inverse factorization gives norm-resolvent convergence | exact repository-owned local-defect theorem at fixed supplied polarization, finite couplings and finite Hermitian `W`; no raw Coulomb term or physical selector is included |
+| Ultraviolet and volume limits require a prescribed sequential order | the same `p^-2` domination controls the cutoff remainder uniformly in the momentum-cell width | false after matched subtraction; any cofinal physical-cutoff/volume path is covered within this construction |
+| Massive screening survives K140's separated-neutral-pair witness | for `(-d_x^2+kappa^2)^-1(x)=exp(-kappa|x|)/(2 kappa)`, the point-pair energy is `q^2(1-exp(-kappa R))/(2 kappa)` and fixed-shape smearing only lowers the Fourier integral | exact pair/fixed-profile result; it saturates uniformly in `R`, while `kappa->0` restores the unscreened obstruction |
+| The pair result proves a screened all-sector Fock Hamiltonian | the elementary upper bound is proportional to `N^2`, while the mass gap supplies only `N<=m^-1H_0` | not proved; a carrier-specific relativistic fermionic density/local-number estimate and self-energy convention remain required |
+
 ## K140 thermodynamic, Schur-response, and charge-conjugation boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

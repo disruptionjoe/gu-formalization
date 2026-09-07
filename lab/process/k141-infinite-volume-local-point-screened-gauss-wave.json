@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K141-INFINITE-VOLUME-LOCAL-POINT-SCREENED-GAUSS",
+  "created": "2026-09-07",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "depends_on": [
+    "K139-SIGNED-BOUNDARY-INVERSE-PROFILE-UNIVERSALITY",
+    "K140-THERMODYNAMIC-SCHUR-RESPONSE-CHARGE-CONJUGATION"
+  ],
+  "common_carrier": {
+    "circle_spacing_is_two_pi_over_L": true,
+    "normalized_momentum_cells_define_an_isometry_from_l2_Z": true,
+    "the_L_inverse_square_root_point_coefficient_becomes_one_over_square_root_two_pi": true,
+    "piecewise_constant_dispersion_restricts_to_the_circle_dispersion": true,
+    "the_extended_box_model_is_the_original_tensored_with_free_spectators": true,
+    "the_bare_changing_Hilbert_spaces_are_literally_identical": false
+  },
+  "thermodynamic_operator_limit": {
+    "dispersion_error_is_at_most_the_cell_width": true,
+    "the_mass_gap_turns_many_sector_error_into_a_uniform_free_relative_bound": true,
+    "free_resolvents_converge_in_operator_norm_after_a_common_shift": true,
+    "resolvent_dressed_point_vectors_converge_in_L2": true,
+    "signed_boundary_maps_and_their_Neumann_inverses_converge_in_norm": true,
+    "matched_subtracted_regular_operators_converge_in_free_graph_relative_norm": true,
+    "fixed_W_local_signed_point_extensions_converge_in_norm_resolvent": true,
+    "uniform_ultraviolet_tails_allow_cofinal_cutoff_and_volume_paths": true,
+    "the_raw_unscreened_Coulomb_form_is_included": false,
+    "the_polarization_couplings_or_W_are_physically_selected": false
+  },
+  "screened_gauss_test": {
+    "screened_operator_is_minus_d2_plus_kappa_squared": true,
+    "green_kernel_is_exp_minus_kappa_abs_x_over_two_kappa": true,
+    "neutral_point_pair_energy_is_q_squared_times_one_minus_exp_minus_kappa_R_over_two_kappa": true,
+    "the_pair_energy_is_uniformly_bounded_in_separation": true,
+    "fixed_shape_smearing_does_not_exceed_the_point_pair_bound": true,
+    "the_K140_separated_pair_witness_blocks_this_screened_route": false,
+    "the_screening_mass_is_selected_by_GU_or_source": false
+  },
+  "all_sector_boundary": {
+    "elementary_many_charge_control_is_quadratic_in_particle_number": true,
+    "the_mass_gap_alone_turns_that_N_squared_bound_into_an_H0_relative_bound": false,
+    "a_thirty_six_species_fermionic_density_or_local_number_estimate_is_still_required": true,
+    "a_volume_uniform_all_sector_screened_Fock_form_is_proved": false
+  },
+  "scattering_and_ownership_boundary": {
+    "a_common_infinite_volume_local_signed_point_operator_is_constructed": true,
+    "a_screened_all_sector_interacting_Hamiltonian_is_constructed": false,
+    "Moller_or_Ruelle_wave_operators_constructed": false,
+    "asymptotic_completeness_proved": false,
+    "interacting_NESS_constructed": false,
+    "microscopic_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned theorem for K140's supplied positive particle/hole control: normalized momentum-cell extensions put every circle model on one L2(R)-based antisymmetric Fock carrier; the free resolvents, dressed point vectors, boundary inverses and matched regular pullbacks converge, giving a fixed-W local signed point norm-resolvent thermodynamic limit. For the named massive screened one-dimensional Gauss kernel, a separated neutral pair has energy q^2(1-exp(-kappa R))/(2 kappa), so the K140 witness saturates rather than grows. No all-sector screened-Fock relative bound, screening-mass selector, Moller/Ruelle completeness, NESS/current, source/GU action, Born rule, prediction or confirmation follows."
+}
