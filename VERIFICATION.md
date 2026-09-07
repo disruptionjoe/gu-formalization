@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K136 minimal-cutoff Feshbach, scale selection, and all-sector Coulomb (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A restricted physical matrix-unit cutoff converges beyond the one-edge K132 star | on the invariant ladder of a declared two-edge restriction, the inner Schur inverse factors converge uniformly in spectator momentum, lower resolvent-dressed coupling tails vanish, the outer Schur vector is in `l2`, and every block-inverse factor converges | exact norm-resolvent limit for one nontrivial depth-two CAR ladder; not an invariant sector or limit of the complete nine-state/eighteen-species overlapping graph |
+| The subtraction scale physically selects K135's finite extension datum | `sum_k[(omega_k+mu)^-1-(omega_k+nu)^-1]` converges absolutely and is absorbed by the opposite finite `D_g` shift of the renormalized impurity energy | false; scale is a coordinate on the extension family, while a prescribed finite Hermitian Schur boundary value selects `W` |
+| The repository supplies the physical Schur boundary value | `S_W(z0)=S_0(z0)+W` identifies the exact missing finite datum, but no source action, symmetry, scattering measurement or other owned condition supplies its value | false / selection condition identified but value unowned |
+| K135's quadratic fixed-particle Coulomb growth prevents an all-sector dressed completion | finite species multiplicity and Pauli filling give `(N_f+1)^2 <= C(dGamma(omega)+1)`; the cumulative-charge Coulomb form is therefore free/global-flux form bounded over all positive-energy Fock sectors | false; exact finite-circle all-sector form bound without assuming momentum/Coulomb commutation |
+| The all-sector Coulomb form gives a self-adjoint point Hamiltonian with cutoff convergence | add the same positive closed Coulomb form to K135's regular cutoff forms, then use K134's norm-convergent boundedly invertible `U_N`; inverse factorization gives norm-resolvent convergence | exact family of all-sector dressed positive-energy Coulomb/Gauss completions; not convergence of the minimally countertermed Coulomb cutoff and not a unique physical `W` |
+| The packet constructs the complete minimal K127 point-Fock/Gauss Hamiltonian, signed-Dirac selection, infinite-volume NESS/current, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | `lab/process/k136-minimal-cutoff-feshbach-scale-coulomb-wave.json`; exact control `33/33`, hostile selftest `33/33` | false / explicitly fenced |
+
 ## K135 K134 operator-exchange IBC completion and polarization/Coulomb boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

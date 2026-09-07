@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K136-MINIMAL-CUTOFF-FESHBACH-SCALE-COULOMB",
+  "date": "2026-09-07",
+  "status": "EXACT_DEPTH_TWO_MINIMAL_CUTOFF_LIMIT_SCALE_SELECTION_AND_ALL_SECTOR_DRESSED_COULOMB_COMPLETION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "minimal_cutoff_depth_two_ladder": {
+    "uses_K134_physical_ordered_matrix_unit_CAR_couplings": true,
+    "contains_two_distinct_edges_and_two_particle_species": true,
+    "ladder_is_invariant_for_the_declared_two_edge_restriction": true,
+    "ladder_is_proved_invariant_under_the_complete_K127_defect": false,
+    "uses_only_the_diagonal_endpoint_counterterm_c_N_D_g": true,
+    "inner_renormalized_Schur_inverse_factors_converge_uniformly_in_spectator_momentum": true,
+    "outer_resolvent_dressed_Schur_vector_is_square_summable": true,
+    "all_block_resolvent_factors_converge_in_operator_norm": true,
+    "minimal_cutoff_converges_in_norm_resolvent_on_the_depth_two_invariant_ladder": true,
+    "complete_nine_state_eighteen_species_minimal_cutoff_converges": false,
+    "overlapping_path_operator_valued_Schur_recursion_is_closed": false
+  },
+  "finite_renormalization_selection": {
+    "subtraction_scale_difference_has_an_absolutely_convergent_limit": true,
+    "renormalized_impurity_energy_runs_by_the_opposite_finite_D_g_shift": true,
+    "scale_compensated_cutoff_families_have_the_same_limit": true,
+    "one_frozen_Schur_boundary_value_selects_the_corresponding_finite_extension_matrix": true,
+    "ultraviolet_tail_alone_selects_W": false,
+    "source_or_GU_action_supplies_the_boundary_value": false
+  },
+  "pauli_filling_and_coulomb": {
+    "finite_circle_positive_dispersion_has_finite_species_multiplicity": true,
+    "fermionic_Pauli_filling_bounds_particle_number_squared_by_free_energy_plus_one": true,
+    "finite_interval_cumulative_charge_Coulomb_form_is_bounded_by_global_flux_energy_plus_particle_number_squared": true,
+    "all_sector_Coulomb_form_is_free_plus_global_flux_form_bounded": true,
+    "momentum_occupation_and_position_Coulomb_commutation_is_required": false,
+    "same_bound_holds_for_empty_vacuum_signed_Dirac_energy": false,
+    "same_coercivity_is_uniform_in_infinite_volume": false
+  },
+  "all_sector_dressed_completion": {
+    "positive_Coulomb_form_can_be_added_to_the_K135_regular_operator_by_closed_form_sum": true,
+    "regular_cutoff_forms_converge_in_form_norm_after_the_same_Coulomb_addition": true,
+    "K134_boundary_transforms_converge_in_norm_and_remain_boundedly_invertible": true,
+    "all_sector_positive_energy_dressed_Coulomb_Gauss_completions_are_self_adjoint": true,
+    "dressed_Coulomb_cutoffs_converge_in_norm_resolvent": true,
+    "finite_Hermitian_W_family_remains": true,
+    "minimally_countertermed_Coulomb_cutoff_convergence_is_proved": false,
+    "uniquely_selected_physical_point_Fock_Gauss_Hamiltonian_constructed": false
+  },
+  "thermodynamic_and_ownership_boundary": {
+    "finite_circle_positive_dispersion_control_only": true,
+    "full_signed_Dirac_polarization_selected": false,
+    "infinite_volume_limit_constructed": false,
+    "Moller_or_Ruelle_wave_operator_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned positive-dispersion finite-circle results: the two-edge restriction of the minimally countertermed K127 physical matrix-unit coupling algebra has a norm-resolvent limit on one nontrivial depth-two CAR ladder; subtraction-scale changes are finite D_g reparameterizations and a frozen finite Schur boundary value, not the ultraviolet tail, selects the corresponding extension datum; finite-species Pauli filling controls particle number squared by free energy and lifts K135's dressed Coulomb/Gauss completion to all Fock sectors. The complete nine-state/eighteen-species minimal cutoff, minimally countertermed Coulomb cutoff, unique physical W, signed-Dirac polarization, infinite-volume NESS/current, smooth unreduced parent, Weinstein/source/GU action, Born derivation, prediction and confirmation remain open."
+}
