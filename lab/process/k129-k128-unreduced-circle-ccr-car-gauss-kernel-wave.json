@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "id": "K129-K128-UNREDUCED-CIRCLE-CCR-CAR-GAUSS-KERNEL",
+  "status": "EXACT_REGULAR_UNREDUCED_GAUGE_KINEMATICS_WITH_ZERO_NORMALIZABLE_GAUSS_KERNEL",
+  "date": "2026-09-07",
+  "direction": "observed_to_native",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "INTERNAL_TARGET:K128_UNREDUCED_CONNECTION_GAUGE_DOMAIN_EQUIVALENCE_SUCCESSOR",
+  "scope": "One repository-owned regular continuum U(1)^8 CCR-CAR representation on the spatial circle. It has smeared connection/electric canonical pairs, exact nonprojective local and large gauge implementers, integral Wilson/charge covariance, circle holonomy and a common invariant analytic core for fields and Gauss generators. For every nonconstant small-gauge direction its normalizable Gauss kernel is zero, so it is not a Hilbert-subspace parent unitarily equivalent to K128's nonempty reduced quotient. No gauge-invariant interacting Hamiltonian domain, rigging map, continuum Haar projector, point interaction or NESS is constructed.",
+  "regular_unreduced_representation": {
+    "spatial_manifold": "circle_S1_length_2pi",
+    "gauge_group": "U1_to_the_8",
+    "charge_directions": 8,
+    "bosonic_one_particle_space": "L2_S1_C8",
+    "bosonic_symmetric_Fock_representation": true,
+    "matter_carrier": "C9_tensor_C512_tensor_antisymmetric_Fock_of_18_full_Dirac_species",
+    "smeared_connection_operators_constructed": true,
+    "smeared_electric_operators_constructed": true,
+    "canonical_CCR_on_analytic_core": true,
+    "pointwise_connection_operator_constructed": false,
+    "representation_is_regular": true
+  },
+  "gauge_implementation": {
+    "periodic_H1_small_gauge_transformations_implemented": true,
+    "integer_winding_large_gauge_transformations_implemented": true,
+    "implementers_are_nontrivial": true,
+    "real_Weyl_displacements_have_zero_mutual_cocycle": true,
+    "empty_Fock_matter_second_quantization_is_exact": true,
+    "combined_group_law_is_nonprojective": true,
+    "integral_charges_make_large_gauge_matter_phase_single_valued": true,
+    "circle_holonomy_operator_constructed": true,
+    "circle_holonomy_is_large_gauge_invariant": true,
+    "K125_vectorlike_anomaly_matrix_is_compatibility_not_owner": true,
+    "polarized_Dirac_sea_representation_constructed": false
+  },
+  "wilson_and_domain": {
+    "transition_charge_is_vertex_difference": true,
+    "car_species_has_opposite_transition_charge": true,
+    "wilson_endpoint_phase_cancels_impurity_car_phase": true,
+    "fixed_width_defect_is_gauge_covariant_and_even": true,
+    "coherent_polynomial_times_finite_particle_L2_core_is_dense": true,
+    "common_core_is_invariant_under_gauge_implementers": true,
+    "Gauss_generators_are_essentially_self_adjoint_on_common_core": true,
+    "common_Gauss_core_is_common_interacting_Hamiltonian_domain": false
+  },
+  "physical_kernel_boundary": {
+    "one_nonconstant_gauge_derivative_is_nonzero_L2_vector": true,
+    "corresponding_electric_generator_has_purely_absolutely_continuous_spectrum": true,
+    "matter_charge_sum_preserves_zero_point_spectral_measure": true,
+    "normalizable_kernel_of_one_nonconstant_Gauss_generator_is_zero": true,
+    "joint_normalizable_Dirac_kernel_is_zero": true,
+    "normalized_continuum_Haar_projector_constructed": false,
+    "K128_reduced_physical_sector_is_nonempty": true,
+    "unitary_equivalence_to_K128_as_normalizable_kernel": false,
+    "rigging_map_or_distributional_group_average_constructed": false,
+    "compact_cylindrical_or_polymer_parent_constructed": false
+  },
+  "interacting_and_ness_boundary": {
+    "pointwise_A_in_minimally_coupled_Dirac_operator_defined": false,
+    "gauge_invariant_interacting_Hamiltonian_constructed": false,
+    "common_self_adjoint_interacting_Hamiltonian_domain_owned": false,
+    "singular_number_changing_Fock_IBC_constructed": false,
+    "counterterm_or_resolvent_point_limit_constructed": false,
+    "infinite_lead_Moller_or_Ruelle_morphism_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false
+  },
+  "ownership_boundary": {
+    "Weinstein_source_or_GU_action_owner": false,
+    "gauge_group_representation_vacuum_charge_domain_or_state_source_selected": false,
+    "physical_preparation_or_detector_effect_selected": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned regular unreduced circle U(1)^8 CCR-CAR kinematics, exact nonprojective local/large gauge implementation, holonomy, Wilson covariance and common analytic Gauss core, together with a zero normalizable nonconstant-Gauss kernel. No nonempty Dirac physical Hilbert sector, K128 Hilbert-kernel equivalence, interacting Hamiltonian domain, point-Fock theory, NESS/current, Weinstein/source/GU ownership, Born derivation, prediction or confirmation."
+}

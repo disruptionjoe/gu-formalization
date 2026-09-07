@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K129 K128 unreduced-circle CCR/CAR Gauss-kernel boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K128 charge data admit a regular unreduced continuum circle representation | bosonic symmetric Fock space over `L2(S1;C8)` carries smeared Segal `A,E` with canonical CCR; tensoring K127's impurity/Klein/CAR carrier gives one dense coherent-polynomial/finite-particle `L2` analytic core | exact repository-owned regular kinematics; pointwise `A(x)` and an interacting Hamiltonian domain are not constructed |
+| Local and large gauge transformations are implemented without a projective cocycle | real Weyl displacements have zero mutual symplectic pairing; impurity and empty-Fock CAR second quantization are exact; integral charges make winding phases single-valued | exact nonprojective small/large gauge representation for this empty-Fock carrier; no polarized Dirac-sea representation or source owner |
+| Wilson terms and circle holonomy transform correctly | `b_e=q_v-q_u`, opposite CAR charge and the Wilson endpoint phase cancel termwise; winding shifts holonomy exponent by `2 pi n` | exact fixed-width covariance and large-gauge holonomy invariance |
+| The regular representation contains K128 as a nonzero normalizable Dirac kernel | one nonconstant Gauss generator contains a one-mode momentum with purely absolutely continuous spectrum; adding any self-adjoint matter charge leaves the zero level a measure-zero fibre | false: that kernel and the joint normalizable Gauss kernel are zero, while K128's reduced sector is nonempty |
+| A common analytic Gauss core supplies the gauge-invariant interacting Hamiltonian or point theory | the Fock connection is an operator-valued distribution; `A(x)`, a renormalized covariant Dirac operator and singular number-changing interaction remain undefined | false; compact/rigged reduction, Hamiltonian renormalization and point-Fock construction remain open |
+| The packet derives source/GU parameters, NESS/current, Born semantics, prediction or confirmation | `lab/process/k129-k128-unreduced-circle-ccr-car-gauss-kernel-wave.json`; exact control `31/31`, hostile selftest `31/31` | false / explicitly fenced |
+
 ## K128 K127 axial/Coulomb reduced-gauge Fock-domain boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

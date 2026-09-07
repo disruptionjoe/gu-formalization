@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2ff21f9dd3eb
+revision_basis: ac4707ed041f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K129 unreduced-circle CCR/CAR Big Wave constructs a regular continuum
+    U(1)^8 kinematic representation on bosonic connection Fock space tensored
+    with K127's impurity/Klein/CAR carrier. Smeared connection and electric
+    Segal fields satisfy the canonical commutation relations on one common
+    coherent-polynomial analytic core. Periodic H1 local gauge transformations
+    and all integral winding transformations act by exact nonprojective
+    unitaries; integral charges make the matter phases single-valued, Wilson
+    endpoint phases cancel termwise, and circle holonomy is large-gauge
+    invariant. This supplies the unreduced regular kinematics K128 lacked, but
+    not its physical Hilbert lift. For any nonconstant gauge direction, the
+    electric translation generator has purely absolutely continuous one-mode
+    spectrum; adding the matter charge operator leaves zero point spectral
+    measure, so that Gauss generator and hence the joint normalizable Dirac
+    kernel have zero kernel. K128's nonempty reduced physical sector is
+    therefore not unitarily equivalent to the normalizable invariant subspace
+    of this regular parent. A compact cylindrical/polymer representation or
+    rigged/distributional group average may escape and is not excluded. The
+    bosonic connection is an operator-valued distribution, so pointwise
+    minimal Dirac coupling and a gauge-invariant interacting Hamiltonian domain
+    remain unconstructed, as do the singular point-Fock extension,
+    finite-coupling NESS/current and any source/GU owner. The certificate passes
+    31/31 and catches 31/31 hostile mutations. No Born derivation, prediction,
+    confirmation, holdout, canon or public-posture move follows.
     The K128 axial/Coulomb reduced-gauge Big Wave solves all eight Abelian
     Gauss laws exactly on a finite spatial interval after axial gauge fixing.
     The electric field is the cumulative impurity/CAR charge multiplication
@@ -6507,14 +6530,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K128's exact finite-interval axial/Coulomb physical quotient be lifted
-  to an unreduced continuum U(1)^8 connection/electric Hilbert representation
-  with nontrivial anomaly-free local and large gauge implementers, circle
-  holonomy or controlled boundary sectors and a common operator domain; can a
-  singular number-changing Fock IBC, form or resolvent limit be constructed;
-  can an infinite-lead finite-coupling scattering theory then produce an
-  interacting NESS/current; and can an actual source-owned GU action select
-  every imported datum?
+  Can K129's regular unreduced U(1)^8 CCR-CAR circle representation, whose
+  normalizable nonconstant-Gauss kernel is zero, be replaced or completed by a
+  compact cylindrical/polymer or rigged representation with a nonzero positive
+  physical pairing and an explicit reduction map equivalent to K128; can a
+  renormalized gauge-covariant Dirac Hamiltonian and singular number-changing
+  Fock IBC, form or resolvent limit be constructed; can an infinite-lead
+  finite-coupling scattering theory then produce an interacting NESS/current;
+  and can an actual source-owned GU action select every imported datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6523,6 +6546,28 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K129 closes the regular unreduced kinematic cell on the circle. Eight
+  smeared connection/electric pairs satisfy CCR on a common invariant analytic
+  core; periodic H1 local gauges and integral winding gauges have exact
+  nonprojective implementers; Wilson/charge phases cancel and circle holonomy
+  is winding invariant. The normalizable physical-kernel cell is negative:
+  one nonconstant gauge direction already has a momentum-type absolutely
+  continuous generator, and adding the matter charge operator produces no zero
+  eigenvector. Thus the joint Dirac kernel is zero and cannot be unitarily
+  equivalent to K128's nonempty reduced physical Hilbert space. Next construct
+  a compact cylindrical/polymer or rigged continuum representation with a
+  nonzero positive physical pairing, carry the holonomy sectors and fixed-width
+  Wilson/Klein defect through its Gauss reduction, and prove equivalence to or
+  correction of K128. Independently define the renormalized locally
+  gauge-covariant Dirac Hamiltonian and the singular number-changing Fock IBC,
+  counterterm, closed form or norm/strong-resolvent limit. Only after an
+  infinite-lead Moller/Ruelle or return-to-NESS theorem compare K115's reduced
+  affinity with a microscopic current. Separately require a source/GU action
+  selecting the representation, vacuum, gauge group, charges, couplings,
+  domain, boundary sector and state. Do not promote an analytic Gauss core to
+  an interacting Hamiltonian domain, a distributional invariant to a Hilbert
+  vector, or regular kinematics to a completed physical gauge theory.
+
   K128 closes the continuum finite-interval reduced-Gauss, electric-string and
   common positive-form-domain cells. In axial gauge, cumulative charge gives
   self-adjoint smeared electric operators satisfying all eight Gauss laws
