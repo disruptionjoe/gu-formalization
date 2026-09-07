@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K132 K131 renormalized point/IBC Gauss-sector boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One number-changing point channel has a fixed-coupling singular Hamiltonian | on `C direct-sum l2(Z)`, use the constant cutoff form factor and bare level `epsilon_N=epsilon_R+g^2 sum_(abs(k)<=N)(omega_k+mu)^-1`; every finite cutoff is self-adjoint | exact repository-owned finite-cutoff family; the bare level diverges logarithmically and is not a source-selected observable |
+| The cutoff family converges to a self-adjoint point interaction | the subtracted Schur self-energy has an `O(k^-2)` tail, the resolvent vector has an l2 tail, and the nonreal denominator has strict negative imaginary part; the rank-one Schur resolvents converge in operator norm at `z=i` | exact one-channel norm-resolvent limit with fixed nonzero coupling; succeeds by domain/counterterm renormalization, not a uniform KLMN point bound |
+| The limit has an interior-boundary condition | `psi=phi-g c/(omega+mu)` with `phi in Dom(omega)` and `(omega_k+mu)psi_k -> -g c`; the renormalized action is finite and changing `mu` is absorbed by an exact finite flow of `epsilon_R` | exact momentum-tail IBC/domain and subtraction-scale reparameterization; not a continuous coordinate trace on `H^(1/2)` or a new physical prediction |
+| The singular block is compatible with K131's physical gauge carrier | `q_u=q_v+c_e`; the impurity/CAR/Klein monomial is even and neutral, the zero-length endpoint Wilson phase cancels, root flux is unchanged, and spectator/global-flux tensor blocks preserve the resolvent estimate | exact one-transition diffuse-Gauss/global-flux block lift; reduced physical compatibility, not an unreduced smooth connection/BRST parent or nonzero-length holonomy limit |
+| The same scalar subtraction constructs the complete K115 point defect | the nine impurity levels share eighteen transitions and overlapping multiparticle sectors; Pauli/spectator/Coulomb domains can make the self-energy matrix operator-valued | false / not yet constructed and not killed; requires a matrix-valued self-energy and one common dense IBC domain |
+| The packet constructs infinite-volume NESS/current, source/GU owner, Born rule, prediction or confirmation | `lab/process/k132-k131-renormalized-point-ibc-gauss-sector-wave.json`; exact control `39/39`, hostile selftest `31/31` | false / explicitly fenced |
+
 ## K131 K130 diffuse direct-integral Gauss/Fock Hamiltonian and point threshold (2026-09-07)
 
 | Claim | Evidence | Honest grade |
