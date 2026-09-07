@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "id": "K125-K124-CONTINUUM-GAUGE-DEFECT-BV-AQFT-NESS-BOUNDARY",
+  "status": "COMPLETE_FIXED_MODE_GAUGE_GAUSS_AND_DEFECT_OWNER_OBSTRUCTIONS",
+  "date": "2026-09-07",
+  "direction": "observed_to_native",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "INTERNAL_TARGET:K124_CONTINUUM_GAUGE_UNSMEARED_DEFECT_BV_AQFT_NESS_COMPLETION",
+  "scope": "One repository-owned constant-holonomy fixed-mode quadratic-form consistency check for K124's U(1)^8 gauge regulator, a classical weak-Gauss and conditional anomaly check, parity/local-gauge obstructions to inheriting fixed-smearing BV-BFV or an even local net, and the exact delta-sequence obstruction to retaining K123's linear bounded CAR mollifier argument at nonzero point strength.",
+  "smooth_continuum_gauge_sector": {
+    "spatial_manifold": "circle",
+    "gauge_group": "U(1)^8",
+    "constant_connection_mode_spectrum": "p_k=2*pi*k-theta",
+    "covariant_lattice_symbol": "N*(exp(i*p_k/N)-1)",
+    "squared_symbol_error_bound": "0 <= p_k^2-4*N^2*sin^2(p_k/(2*N)) <= p_k^4/(12*N^2) on the certified low-mode range",
+    "fixed_mode_squared_symbol_converges": true,
+    "discrete_gauge_covariance_exact": true,
+    "Wilson_holonomy_converges_and_survives": true,
+    "isometric_lattice_to_continuum_embedding_owned": false,
+    "graph_norm_core_convergence_owned": false,
+    "full_interacting_norm_resolvent_limit_owned": false
+  },
+  "gauss_domain_and_anomaly": {
+    "periodic_discrete_summation_by_parts_exact": true,
+    "classical_weak_continuum_Gauss_identity_consistent": true,
+    "global_neutrality_survives": true,
+    "eighteen_full_Dirac_species_are_vectorlike": true,
+    "full_8_by_8_abelian_anomaly_matrix_cancels_conditionally": true,
+    "continuum_gauge_Hilbert_space_owned": false,
+    "common_free_finite_Fourier_electric_core_owned": false,
+    "point_defect_common_self_adjoint_Gauss_domain_owned": false
+  },
+  "fixed_smearing_bv_bfv_boundary": {
+    "epsilon_positive": true,
+    "global_charge_neutrality_is_necessary": true,
+    "undressed_smearing_is_locally_gauge_invariant": false,
+    "typed_odd_impurity_or_Klein_carrier_owned": false,
+    "bosonic_classical_defect_action_owned": false,
+    "minimal_classical_BV_master_identity_owned": false,
+    "boundary_BFV_Gauss_charge_owned_formally": false,
+    "quantum_renormalized_master_equation_owned": false,
+    "source_or_GU_action_owned": false,
+    "required_completion": "Wilson_line_dressing_plus_parity_complete_impurity_and_explicit_S_SBV_boundary_variation"
+  },
+  "fixed_width_causal_net_boundary": {
+    "bounded_self_adjoint_global_Cstar_dynamics_owned": true,
+    "K123_defect_is_even": false,
+    "rook_graph_all_transition_odd_grading_exists": false,
+    "even_observable_subnet_invariance_owned": false,
+    "interacting_locality_outside_causal_hull_owned": false,
+    "static_defect_time_covariance_owned": false,
+    "pointlike_Haag_Kastler_net_owned": false,
+    "Poincare_covariant_defect_theory_owned": false
+  },
+  "point_unsmearing_boundary": {
+    "delta_normalized_box_mollifier": "f_epsilon=epsilon^-1 on an interval of width epsilon",
+    "L1_norm": "1",
+    "L2_norm": "epsilon^-1/2",
+    "CAR_annihilation_norm_equals_L2_norm": true,
+    "fixed_nonzero_coupling_defect_norm_diverges": true,
+    "uniform_boundedness_requires_coupling_O_sqrt_epsilon": true,
+    "that_bounded_scaling_has_zero_distributional_point_strength": true,
+    "nontrivial_uniformly_bounded_delta_limit_exists_within_inherited_linear_CAR_mollifier_ansatz": false,
+    "all_self_adjoint_point_interactions_excluded": false,
+    "required_route_switch": "boundary_condition_or_interior_boundary_condition_or_counterterm_or_resolvent_renormalization"
+  },
+  "ness_release_boundary": {
+    "fixed_width_interacting_scattering_or_correlation_decay_theorem_owned": false,
+    "Moller_or_Ruelle_interacting_NESS_owned": false,
+    "Cesaro_cluster_state_with_current_owned": false,
+    "reduced_K115_stationary_law_inherited": true,
+    "reduced_cycle_ratio": "6561/256",
+    "reduced_affinity_promoted_to_interacting_field_current": false
+  },
+  "cycle_and_selection_boundary": {
+    "gauge_charge_directions": 8,
+    "spatial_Wilson_holonomies": 8,
+    "transition_graph_cycle_directions": 10,
+    "compact_gauge_phase_identified_with_real_affinity": false,
+    "continuum_convergence_selects_charge_embedding_couplings_or_boundary_sector": false
+  },
+  "ownership_boundary": {
+    "Weinstein_source_or_GU_action_owner": false,
+    "physical_state_or_detector_effect_selected": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "lattice_sizes": [16, 32, 64, 128],
+    "Fourier_modes": [-2, -1, 0, 1, 2],
+    "mollifier_inverse_widths": [4, 16, 64, 256],
+    "fixed_mode_Gauss_parity_local_gauge_unsmearing_NESS_and_ownership_boundaries_checked": true
+  },
+  "exact_reopener": "Supply Wilson-line dressing and a parity-complete impurity carrier with explicit S, S_BV and boundary variation, or construct a gauge-covariant boundary-condition, interior-boundary-condition, counterterm or norm/strong-resolvent renormalized point defect on a common self-adjoint Gauss domain; then prove its interacting causal net, reservoir correlation/scattering limit and nonequilibrium stationary state. Separately require an actual source/GU action to select charges, coefficients and boundary sector.",
+  "claim_ceiling": "Exact repository-owned constant-holonomy fixed-mode squared-symbol and classical weak-Gauss consistency, conditional vectorlike anomaly-matrix cancellation, parity and local-gauge obstructions to inherited fixed-smearing BV/BFV or even-local-net ownership, plus a theorem that K123's linear uniformly bounded CAR mollifier route cannot retain nonzero delta strength. No universal point-defect no-go, continuum operator/domain theorem, renormalized interacting continuum theory, pointlike Haag-Kastler net, interacting NESS, Weinstein/source/GU ownership, Born derivation, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}

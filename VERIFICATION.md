@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K125 K124 continuum gauge/defect/BV/AQFT/NESS boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K124's smooth gauge sector has a controlled continuum-circle operator limit | covariant symbol `N(exp(i(2 pi k-theta)/N)-1)`, explicit `p^4/(12N^2)` squared-symbol bound, lattice gauge covariance and preserved Wilson product | fixed-mode constant-holonomy quadratic-form consistency only; no embedding, graph-norm core, domain, or norm-resolvent theorem |
+| The regulated Gauss identity and vectorlike anomaly check have a consistent smooth fixed-mode limit | exact periodic summation by parts, formal weak Gauss identity, global neutrality and the full `8 x 8` left/right anomaly-matrix cancellation | classical weak-identity consistency and conditional vectorlike anomaly control; no continuum gauge Hilbert space or common operator core |
+| The fixed-smearing model owns a Lagrangian gauge complex and causal defect control | a charged CAR smearing transforms with `g(x)` while the impurity transforms at `g(0)`; K123's single-CAR perturbation is odd and the rook graph has triangles | false; Wilson dressing, a parity-complete impurity/Klein carrier, explicit `S`, `S_BV`, boundary variation, and local-net proof are missing |
+| K123's bounded-perturbation proof yields a nonzero unsmeared point defect | delta-normalized `f_epsilon` has `||f_epsilon||_2=epsilon^-1/2`; fixed coupling diverges, while uniform boundedness forces `g_epsilon=O(sqrt(epsilon))` and zero distributional strength | false within the inherited linear CAR mollifier ansatz; extension, counterterm, quadratic-form and resolvent-renormalized point interactions remain open |
+| The reduced `6561/256` cycle supplies an interacting field NESS/current | no fixed-width scattering, correlation-decay, Moller/Ruelle or current-identification theorem is owned | false / release condition not met; K115 stationary law remains reduced-model truth only |
+| The construction derives a source/GU action, physical state/effect, Born rule, prediction or confirmation | explicit owner and promotion boundaries plus exact control (`27/27`) and hostile selftest (`33/33`) | false / not constructed |
+
 ## K124 K123 spatial `U(1)^8` lattice-gauge/BFV completion boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

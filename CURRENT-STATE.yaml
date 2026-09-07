@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b818f5a06dd0
+revision_basis: 4cafa6315e02
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,30 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K125 continuum-gauge/defect Big Wave establishes constant-holonomy
+    fixed-mode squared-symbol consistency with an explicit O(N^-2) bound;
+    lattice gauge covariance and all eight Wilson holonomies survive, and
+    periodic summation by parts is consistent with the classical weak Gauss
+    identity. Conditional on identical left/right charges for K124's 18 full
+    Dirac species, the complete 8-by-8 Abelian anomaly matrix cancels. No
+    lattice-to-continuum embedding, graph-norm core, or continuum gauge Hilbert
+    domain is constructed. At fixed smearing, global charge neutrality is not
+    local gauge invariance: the charged CAR smearing needs Wilson dressing,
+    while K123's single-CAR perturbation is fermion-odd and the rook graph's
+    triangles obstruct an all-transition odd impurity grading. Therefore no
+    bosonic defect action, classical BV/BFV owner, even observable-subnet
+    invariance, or interacting local-net theorem is owned. The
+    point-unsmearing discriminator is negative for K123's inherited bounded-
+    perturbation route: a delta-normalized box has CAR norm epsilon^-1/2;
+    fixed nonzero coupling diverges, while the O(sqrt(epsilon)) coupling needed
+    for uniform boundedness has zero distributional point strength. This does
+    not exclude boundary-condition, interior-boundary-condition, counterterm
+    or resolvent-renormalized point interactions. No common point-defect Gauss
+    domain, pointlike interacting net, scattering/correlation theorem or
+    interacting NESS is constructed; K115's 6561/256 reduced cycle is not an
+    interacting field current. The certificate passes 27/27 and catches 33/33
+    hostile mutations. No source/GU ownership, Born derivation, prediction,
+    confirmation, holdout, canon or public-posture move follows.
     The K124 spatial-lattice-gauge Big Wave promotes K123's surviving eight
     vertex-charge directions to an exact local gauge covariance on one finite
     periodic 1+1-dimensional regulator. The 18 CAR species carry the negative
@@ -5825,6 +5849,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k125-k124-continuum-gauge-defect-bv-aqft-ness-wave-2026-09-07.md
+    - lab/process/k125-k124-continuum-gauge-defect-bv-aqft-ness-wave.json
+    - tests/channel-swings/k125_k124_continuum_gauge_defect_bv_aqft_ness_probe.py
     - explorations/conditional-build/k124-k123-spatial-u1-8-lattice-gauge-bfv-completion-wave-2026-09-07.md
     - lab/process/k124-k123-spatial-u1-8-lattice-gauge-bfv-completion-wave.json
     - tests/channel-swings/k124_k123_spatial_u1_8_lattice_gauge_bfv_completion_probe.py
@@ -6406,12 +6433,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K124's exact finite spatial U(1)^8 gauge/Gauss/Dirac regulator be removed
-  under a controlled continuum limit with a renormalized unsmeared defect,
-  common self-adjoint constraint domain, local gauge fixing/BV master action,
-  causal observable net and interacting nonequilibrium state; and can an
-  actual source-owned GU action select its charge embedding, coefficients and
-  boundary sector?
+  Can the K125 route switch first supply a Wilson-dressed parity-complete
+  defect action with explicit BV-BFV data, or construct a gauge-covariant
+  boundary-condition, interior-boundary-condition, counterterm or norm/strong-
+  resolvent renormalized point defect on one common self-adjoint Gauss domain,
+  extend it to an interacting causal net with controlled reservoir scattering
+  and a nonequilibrium stationary state, and can an actual source-owned GU
+  action select its charge embedding, coefficients and boundary sector?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6420,6 +6448,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K125 controls K124's regulator removal only through constant-holonomy fixed-
+  mode squared-symbol and classical weak-Gauss consistency. It supplies no
+  lattice-to-continuum embedding, graph-norm core, or continuum gauge Hilbert
+  domain. The conditional full left/right anomaly matrix cancels, but the
+  fixed-smearing defect lacks Wilson dressing and is fermion-odd on the
+  ungraded impurity carrier, so no bosonic action, BV-BFV owner, or even local
+  net follows. The delta-normalized CAR smearing has norm epsilon^-1/2: fixed
+  nonzero coupling diverges, while uniform boundedness forces
+  O(sqrt(epsilon)) coupling and zero distributional point strength within the
+  inherited linear mollifier ansatz. Next supply Wilson-line dressing and a
+  parity-complete carrier with explicit S, S_BV and boundary variation, or
+  switch methods to a gauge-covariant boundary condition, interior-boundary
+  condition, counterterm or norm/strong-resolvent renormalized interaction on
+  a common self-adjoint Gauss domain. Then prove its causal net, reservoir
+  correlation/scattering limit and interacting NESS. Separately require a
+  source/GU action selecting charges, coefficients and boundary sector. Do not
+  turn the bounded-route obstruction into a universal point-defect no-go,
+  promote fixed-mode consistency to a continuum operator theorem, or infer a
+  physical state, Born rule, prediction or confirmation.
+
   K124 supplies one exact finite spatial gauge completion of K123. The nine
   detector states define eight integral vertex charges; each CAR species has
   the negative transition charge, making the defect locally neutral, while
