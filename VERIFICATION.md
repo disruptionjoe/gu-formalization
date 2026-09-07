@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K127 K126 continuum Fock/string-local/correlation boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K126's fixed-width defect has one genuine continuum CAR Fock realization and common interacting domain | eighteen full Dirac `L2` species on the spatial line, a smooth bounded external connection, antisymmetric Fock space, unit-modulus Wilson multiplication, bounded CAR creation/annihilation and adjoint-paired even defect | exact repository-owned background-gauge Fock theorem: `H0+V` is self-adjoint on `Dom(H0)` and retains the smooth finite-particle core |
+| The continuum representation is a quantum `U(1)^8` gauge/Gauss theory | `A` labels a smooth bounded external-background family on the spatial line; no conjugate electric operator, Gauss generator, physical projector/kernel or gauge vacuum is constructed | false; background covariance is not dynamical gauge quantization |
+| The fixed-width defect has causal localization | even defect belongs to the graded-local algebra of the interval containing every smearing and selected Wilson path; free finite propagation and bounded Dyson expansion confine relative dynamics to its causal hull | exact finite-width string-local causal-hull theorem; no path independence, point locality or complete dynamical-gauge Haag--Kastler net |
+| The free reservoir correlations meet the integrability input for weak-coupling theory | compact `(1-x^2)^3` spectral shape and its first two derivatives vanish at both endpoints; two integrations by parts give `O(|t|^-2)` and `L1` particle/hole correlations | analytic free-correlation theorem for the supplied spectra; the Davies theorem itself is invoked at standard scope, not reproved |
+| Those spectra retain the reduced dynamics | on-shell total rates and Fermi occupations are exactly K122's six `679/1243` biased pairs, nine `4/5` and three `224/1243` half-filled pairs | exact recovery of all 36 K115 Davies rates (`35/35` controls) |
+| The construction yields a point defect, finite-coupling scattering/NESS/current, source/GU owner, Born rule, prediction or confirmation | delta `L2` scaling still exits the bounded class; no IBC/form/resolvent, Moller/Ruelle map, return-to-NESS theorem or source selector; hostile selftest catches `36/36` mutations | false / not constructed |
+
 ## K126 K125 Wilson/Klein/BV-BFV defect completion boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
