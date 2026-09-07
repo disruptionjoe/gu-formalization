@@ -1,10 +1,10 @@
 schema_version: "1.0"
-frozen_revision: 080ccbaba521a9bb7fc158312f65e96f030c0e88
+frozen_revision: 579e4290636b660ff3efbc613fcf8b3d9903c446
 scope: tracked tests/**/*.py and process_gates/*.py
 method: >-
   AST census of enforcing assert/check calls whose source contains a positive
   or planted-positive control label and a claim, verdict, or foreground label.
-population_digest_sha256: f381b0b0e957108e6c89cc60256ad19556cc1c2c63d5e2483e1d0782e3ee258e
+population_digest_sha256: 8f99ccbd4f31fefee83316ea69fea5e800e62aabce36db993d72d6d242880ae5
 counts:
   comparable_files: 25
   ordered: 19
