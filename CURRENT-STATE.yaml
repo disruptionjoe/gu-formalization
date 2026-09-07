@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ac4707ed041f
+revision_basis: 342f1fb6b96a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K130 compact-cylindrical Gauss-pairing Big Wave constructs the
+    projective U(1)^8 charge-network representation on finite circle graphs.
+    Normalized vertex-Haar averaging is the exact orthogonal projector onto
+    div n+Q=0; neutrality is necessary and sufficient, the root/zero-flux
+    vector proves a nonzero positive physical sector, and edge subdivision
+    commutes with the projector. The resulting physical inductive limit is
+    nonzero and nonregular, so it escapes K129's regular momentum-kernel
+    obstruction without producing a connection generator. Eight integer
+    global electric-flux directions survive and circle holonomy shifts them.
+    Graphwise Wilson/Klein transitions preserve Gauss law and, after a cut and
+    global-flux choice, the cumulative-flux map is exactly isometric to lattice
+    axial reduction. That map does not extend naturally to K128's continuum
+    Lebesgue-L2 CAR carrier: point-supported charge networks use counting
+    measure, and dyadic midpoint representatives of the same constant
+    continuum wavefunction are mutually orthogonal rather than Cauchy. Thus
+    the compact route supplies a nonzero positive physical pairing but not a
+    full K128 equivalence, continuum fixed-width defect or regulator-
+    independent interacting Hamiltonian. A Fock-compatible rigging/direct-
+    integral route remains open, as do the point-Fock extension,
+    finite-coupling NESS/current and source/GU owner. The certificate passes
+    35/35 and catches 31/31 hostile mutations. No Born derivation, prediction,
+    confirmation, holdout, canon or public-posture move follows.
     The K129 unreduced-circle CCR/CAR Big Wave constructs a regular continuum
     U(1)^8 kinematic representation on bosonic connection Fock space tensored
     with K127's impurity/Klein/CAR carrier. Smeared connection and electric
@@ -5937,6 +5959,12 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k130-k129-compact-cylindrical-gauss-pairing-fock-measure-boundary-wave-2026-09-07.md
+    - lab/process/k130-k129-compact-cylindrical-gauss-pairing-fock-measure-boundary-wave.json
+    - tests/channel-swings/k130_k129_compact_cylindrical_gauss_pairing_fock_measure_boundary_probe.py
+    - explorations/conditional-build/k129-k128-unreduced-circle-ccr-car-gauss-kernel-wave-2026-09-07.md
+    - lab/process/k129-k128-unreduced-circle-ccr-car-gauss-kernel-wave.json
+    - tests/channel-swings/k129_k128_unreduced_circle_ccr_car_gauss_kernel_probe.py
     - explorations/conditional-build/k128-k127-axial-coulomb-reduced-gauge-fock-domain-wave-2026-09-07.md
     - lab/process/k128-k127-axial-coulomb-reduced-gauge-fock-domain-wave.json
     - tests/channel-swings/k128_k127_axial_coulomb_reduced_gauge_fock_domain_probe.py
@@ -6530,14 +6558,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K129's regular unreduced U(1)^8 CCR-CAR circle representation, whose
-  normalizable nonconstant-Gauss kernel is zero, be replaced or completed by a
-  compact cylindrical/polymer or rigged representation with a nonzero positive
-  physical pairing and an explicit reduction map equivalent to K128; can a
-  renormalized gauge-covariant Dirac Hamiltonian and singular number-changing
-  Fock IBC, form or resolvent limit be constructed; can an infinite-lead
-  finite-coupling scattering theory then produce an interacting NESS/current;
-  and can an actual source-owned GU action select every imported datum?
+  Can K130's nonzero compact cylindrical physical pairing be replaced or
+  completed by a Fock-compatible rigging or direct-integral reduction that
+  preserves K128's continuum Lebesgue-L2 matter, local gauge multiplication
+  and Dirac form while carrying the fixed-width Wilson/Klein defect; can a
+  regulator-independent gauge-covariant Hamiltonian and singular number-
+  changing Fock IBC, form or resolvent limit then be constructed; can an
+  infinite-lead finite-coupling scattering theory produce an interacting
+  NESS/current; and can an actual source-owned GU action select every imported
+  datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6546,6 +6575,29 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K130 closes the compact cylindrical Gauss-pairing cell but exposes the
+  continuum matter interface. Normalized finite-graph Haar projectors give a
+  nonzero positive refinement-consistent physical inductive limit; circle
+  holonomy shifts eight integer global electric-flux directions; and neutral
+  Wilson/Klein transitions are exactly equivalent to cumulative-flux axial
+  reduction after fixing one graph, cut and global sector. The natural map to
+  K128 fails: point charge networks have counting measure, while K128 uses
+  Lebesgue-L2 matter, and a fixed constant wavefunction's dyadic midpoint
+  representatives are orthogonal rather than Cauchy. Next construct a Fock-
+  compatible rigging map or direct-integral reduction whose positive pairing
+  intertwines continuum position, local gauge multiplication and the Dirac
+  form, or prove its impossibility under explicit locality and regularity
+  assumptions. Carry the fixed-width Wilson/Klein defect only after that
+  bridge exists. Independently define a regulator-independent gauge-covariant
+  Hamiltonian and singular number-changing Fock IBC, counterterm, closed form
+  or norm/strong-resolvent limit. Only after an infinite-lead Moller/Ruelle or
+  return-to-NESS theorem compare K115's reduced affinity with a microscopic
+  current. Separately require a source/GU action selecting the representation,
+  global sector, gauge group, charges, couplings, domain and state. Do not
+  promote fixed-graph equivalence to continuum K128 equivalence, an abstract
+  Hilbert isomorphism to a geometric intertwiner, or graphwise covariance to a
+  continuum interacting theory.
+
   K129 closes the regular unreduced kinematic cell on the circle. Eight
   smeared connection/electric pairs satisfy CCR on a common invariant analytic
   core; periodic H1 local gauges and integral winding gauges have exact

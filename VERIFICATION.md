@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K130 K129 compact-cylindrical Gauss-pairing/Fock-measure boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Compact circle kinematics has a nonzero positive Gauss-reduced physical space | on every finite cycle graph, normalized `U(1)^(8V)` Haar averaging projects the integral edge-character basis onto `div n+Q=0`; total neutrality is necessary and sufficient and the root/zero-flux vector survives | exact repository-owned compact charge-network reduction; not Haar measure on the smooth infinite-dimensional gauge group |
+| The physical pairing survives graph refinement | subdivision sends one edge character `n` to `(n,n)` at a new neutral bivalent vertex and `P_(Gamma') iota=iota P_Gamma`; length-weighted electric energy is unchanged | exact nonzero positive physical inductive limit and compatible algebraic electric form; the representation is nonregular and has no smeared connection generator |
+| Circle holonomy and graphwise charged matter survive Gauss reduction | a total holonomy character shifts every edge flux by one common `k in Z^8`; Wilson path flux cancels the endpoint charge change and the Klein/CAR degrees are even | exact eight-integer global flux/holonomy sectors and graphwise fixed-width covariance |
+| Compact reduction is equivalent to K128 | after fixing a cut and global flux, the cumulative-flux map is an isometry from neutral lattice matter to the fixed-graph physical charge-network sector and intertwines the electric-string update | exact only at fixed graph; K128's continuum Lebesgue-`L2` CAR carrier is a different interface |
+| The natural point-charge-network map extends to K128 continuum matter | dyadic midpoint representatives of the same constant continuum wavefunction have disjoint supports, zero mutual inner product and squared distance two in counting measure | false for the natural position/local-gauge intertwiner; abstract Hilbert-space isomorphism is irrelevant, while other rigged/direct-integral routes remain open |
+| The packet constructs a continuum interacting Hamiltonian, point-Fock theory, NESS/current, source/GU owner, Born rule, prediction or confirmation | `lab/process/k130-k129-compact-cylindrical-gauss-pairing-fock-measure-boundary-wave.json`; exact control `35/35`, hostile selftest `31/31` | false / explicitly fenced |
+
 ## K129 K128 unreduced-circle CCR/CAR Gauss-kernel boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
