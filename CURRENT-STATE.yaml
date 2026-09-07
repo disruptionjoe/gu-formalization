@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3d6b8ef4979f
+revision_basis: fe4b2113cde4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,30 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K133 matrix point-star/IBC Big Wave constructs one explicit
+    incidence-coupled singular point model on the complete K123
+    nine-vertex/eighteen-edge graph. On
+    C^9 direct-sum over eighteen l2(Z) channels, the ultraviolet coefficient
+    is the positive weighted graph Laplacian: it has rank eight, annihilates
+    only the constant vertex vector, and carries off-diagonal counterterms
+    between shared impurity vertices. Subtracting that matrix divergence makes
+    the 9 by 9 Schur complement converge in norm; the resolvent coupling map
+    converges in Hilbert--Schmidt norm, yielding a uniformly semibounded
+    self-adjoint norm-resolvent limit. One dense common star-sector IBC domain
+    has all eighteen tails
+    psi_e=phi_e-g_e<b_e,c>/(omega+mu), and subtraction-scale change is a
+    finite Hermitian Laplacian flow. The incidence coupling is a supplied
+    repository completion, not selected by K122 or a source/GU action, and the
+    star carrier is not proved invariant under the full antisymmetric CAR
+    defect. Every fixed spectator/global-flux energy block converges and finite
+    Pauli occupation changes only a finite remainder, but the remainder grows
+    as -2 log(1+s)+O(1) with unbounded spectator energy. Pointwise sector
+    convergence therefore is not a uniform full-Fock/global-flux domain
+    theorem. The probe passes 46/46 and catches 30/30 hostile mutations. No
+    complete multiparticle point-Fock Hamiltonian, smooth unreduced
+    connection/BRST parent, infinite-volume scattering, interacting
+    NESS/current, source/GU owner, Born derivation, prediction, confirmation,
+    holdout, canon or public-posture move follows.
     The K132 singular-point/IBC Big Wave constructs one exact neutral
     impurity/one-CAR-channel point Hamiltonian on a finite circle. Finite-mode
     cutoffs are self-adjoint; a bare impurity-energy counterterm subtracts the
@@ -6602,13 +6626,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K132's exact one-channel singular point Hamiltonian be extended to the
-  complete nine-level/eighteen-edge antisymmetric CAR defect by a matrix-valued
-  self-energy and one dense common IBC domain with uniform spectator and
-  global-flux control; can that theory reach an infinite-volume scattering or
-  return-to-NESS limit; can the diffuse quotient be obtained from a genuinely
-  unreduced smooth connection/BRST parent; and can an actual source-owned GU
-  action select every imported datum?
+  Can K133's exact matrix point-star construction be promoted from its
+  supplied vacuum-plus-one-excitation incidence carrier to the complete
+  antisymmetric multiparticle CAR defect by an occupation-projection-valued
+  self-energy and one dense common IBC core with relative logarithmic
+  spectator/Coulomb/global-flux bounds; can that theory reach an
+  infinite-volume scattering or return-to-NESS limit; can the diffuse quotient
+  be obtained from a genuinely unreduced smooth connection/BRST parent; and
+  can an actual source-owned GU action select every imported datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6617,6 +6642,33 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K133 closes the finite-circle matrix point-star cell. The exact K123
+  nine-vertex/eighteen-edge graph admits a supplied incidence coupling on
+  C^9 direct-sum over eighteen l2(Z) channels. Its ultraviolet divergence is
+  the positive rank-eight weighted graph Laplacian, not eighteen independent
+  scalar shifts. The subtracted 9 by 9 Schur matrix and Hilbert--Schmidt
+  resolvent coupling converge, producing a uniformly semibounded self-adjoint
+  norm-resolvent limit. One dense common star IBC domain carries all eighteen
+  tails psi_e=phi_e-g_e<b_e,c>/(omega+mu), and changing mu is a finite
+  Hermitian Laplacian reparameterization. This is an explicit
+  vacuum-plus-one-excitation control, not a proved invariant sector of the
+  complete antisymmetric CAR defect and not a source-selected physical
+  interaction. At fixed spectator/global-flux energy the same subtraction
+  converges uniformly on bounded energy intervals, and finite Pauli occupation
+  changes only finite terms. Across unbounded spectator energy the finite
+  remainder grows logarithmically, so fixed-block convergence cannot be
+  promoted by a uniform operator-norm argument. Next construct the
+  occupation-projection-valued self-energy by spectator functional calculus,
+  prove its logarithm is relatively form-bounded by the free,
+  Coulomb/global-flux energy, and establish one dense Pauli-compatible IBC core
+  across every finite-particle sector. Only then claim the complete
+  nine-level/eighteen-edge point-Fock Hamiltonian and take an infinite-volume
+  limit toward wave operators or return-to-NESS. Independently construct an
+  unreduced smooth connection/BRST parent and require a source/GU action to
+  select the graph coupling, masses, charges, subtraction datum, domain and
+  state. Do not identify the supplied incidence star with K122's physical
+  defect or pointwise spectator convergence with a uniform full-Fock theorem.
+
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.
   Running the bare impurity energy by

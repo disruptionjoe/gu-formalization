@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K133 K132 matrix point-star IBC and spectator boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete K123 graph admits a shared-level singular matrix point model | on C^9 direct-sum eighteen l2(Z) channels, stipulated edge couplings use oriented incidence columns; the ultraviolet coefficient is the positive weighted graph Laplacian with rank eight, constant kernel and nonzero off-diagonal entries | exact repository-owned finite-circle incidence-star construction; it reuses the K123 graph but does not derive the coupling from K122 or a source/GU action |
+| The matrix cutoff family has a self-adjoint point limit | the subtracted scalar tail is O(k^-2), the 9 by 9 Schur matrices converge in norm, the coupling maps converge in Hilbert--Schmidt norm, and the nonreal Schur form has strict negative imaginary part | exact norm-resolvent convergence to a uniformly semibounded self-adjoint vacuum-plus-one-excitation point-star Hamiltonian |
+| All eighteen channels share one IBC domain | psi_e=phi_e-g_e<b_e,c>/(omega+mu), with one c in C^9 and every phi_e in Dom(omega); the domain is dense and changing mu is absorbed by a finite Hermitian weighted-Laplacian flow | exact common momentum-tail IBC for the stipulated star carrier; not a coordinate H^(1/2) trace or a common multiparticle Fock domain |
+| Fixed spectator, Coulomb and global-flux blocks are controlled uniformly over the full carrier | q_s(z) converges uniformly for s in bounded intervals, but Re q_s(i)=-2 log(1+s)+O(1); finite Pauli occupation changes a finite but occupation-dependent remainder | false for uniform operator norm over unbounded spectator/global-flux energy; the logarithm is sublinear, so a relative-form/operator-functional-calculus route remains open |
+| K133 constructs the complete antisymmetric nine-level/eighteen-edge point-Fock defect | the star carrier is not proved invariant; occupation projections, operator-valued spectator self-energy, Pauli-compatible common core and Coulomb/global-flux relative bounds are absent | false / not yet constructed and not killed |
+| The packet constructs infinite-volume NESS/current, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | lab/process/k133-k132-matrix-point-ibc-star-spectator-boundary-wave.json; exact control 46/46, hostile selftest 30/30 | false / explicitly fenced |
+
 ## K132 K131 renormalized point/IBC Gauss-sector boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

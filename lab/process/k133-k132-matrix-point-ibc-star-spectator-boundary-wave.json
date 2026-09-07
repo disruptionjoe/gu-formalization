@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K133-K132-MATRIX-POINT-IBC-STAR-SPECTATOR-BOUNDARY-2026-09-07",
+  "status": "exact_nine_vertex_eighteen_channel_matrix_point_star_ibc_with_unbounded_spectator_uniformity_boundary",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "program": "CONDITIONAL-BUILD-REVERSE-SCAFFOLD",
+  "parent_packets": [
+    "lab/process/k123-k122-interacting-car-defect-gauge-descent-obstruction-wave.json",
+    "lab/process/k132-k131-renormalized-point-ibc-gauss-sector-wave.json"
+  ],
+  "prior_art_boundary": {
+    "K123_nine_vertex_eighteen_edge_graph_reused_not_rederived": true,
+    "K132_scalar_subtraction_and_IBC_reused_not_rederived": true,
+    "new_composition": "weighted_incidence_Laplacian_counterterm_matrix_Schur_limit_common_eighteen_channel_IBC_and_spectator_energy_uniformity_boundary"
+  },
+  "incidence_star": {
+    "impurity_vertices": 9,
+    "undirected_point_channels": 18,
+    "connected_components": 1,
+    "incidence_rank": 8,
+    "cycle_rank": 10,
+    "carrier": "C9_direct_sum_over_18_l2Z_one_excitation_channels",
+    "coupling_vectors_are_weighted_oriented_incidence_columns": true,
+    "shared_vertices_create_off_diagonal_counterterms": true,
+    "weighted_graph_Laplacian_is_positive_semidefinite": true,
+    "weighted_graph_Laplacian_rank": 8,
+    "constant_vertex_vector_is_the_only_counterterm_kernel": true,
+    "orthogonal_sum_of_eighteen_scalar_K132_blocks": false
+  },
+  "matrix_renormalization": {
+    "finite_cutoff_Hamiltonian_is_self_adjoint": true,
+    "bare_impurity_matrix_contains_positive_log_divergent_Laplacian_counterterm": true,
+    "subtracted_matrix_self_energy_converges_in_operator_norm": true,
+    "matrix_resolvent_coupling_converges_in_Hilbert_Schmidt_norm": true,
+    "nonreal_matrix_Schur_complement_is_invertible": true,
+    "full_star_resolvents_converge_in_operator_norm_at_i": true,
+    "limit_star_Hamiltonian_is_self_adjoint": true,
+    "cutoff_family_and_limit_are_uniformly_semibounded": true,
+    "fixed_nonzero_edge_couplings_survive": true,
+    "single_scalar_level_counterterm_suffices": false
+  },
+  "common_ibc_domain": {
+    "channels": 18,
+    "domain_formula": "psi_e=phi_e-g_e_b_e_star_c/(omega+mu)_for_all_edges",
+    "one_vertex_amplitude_c_controls_all_incident_channel_tails": true,
+    "regular_remainders_phi_e_are_in_Dom_omega": true,
+    "domain_is_linear_and_dense_in_the_star_carrier": true,
+    "IBC_tail_is_omega_plus_mu_times_psi_e_to_minus_g_e_b_e_star_c": true,
+    "subtraction_scale_change_is_a_finite_Hermitian_Laplacian_flow": true,
+    "coordinate_H_one_half_point_trace_claimed": false
+  },
+  "spectator_pauli_global_flux_boundary": {
+    "fixed_nonnegative_spectator_energy_blocks_converge": true,
+    "convergence_is_uniform_on_bounded_spectator_energy_intervals": true,
+    "finite_Pauli_occupation_changes_only_a_finite_self_energy_remainder": true,
+    "Pauli_remainder_depends_on_the_occupied_modes": true,
+    "renormalized_remainder_grows_logarithmically_with_unbounded_spectator_energy": true,
+    "uniform_operator_norm_bound_over_all_spectator_energies": false,
+    "fixed_star_counterterm_alone_proves_full_Fock_domain": false,
+    "relative_logarithmic_form_bound_route_remains_open": true,
+    "fixed_global_flux_blocks_are_compatible": true,
+    "uniform_full_l2_Z8_global_flux_domain_is_constructed": false
+  },
+  "full_fock_boundary": {
+    "antisymmetric_multiparticle_CAR_carrier_constructed": false,
+    "operator_valued_Pauli_spectator_self_energy_constructed": false,
+    "one_dense_common_full_Fock_IBC_domain_constructed": false,
+    "uniform_Coulomb_and_global_flux_form_estimates_constructed": false,
+    "complete_nine_level_eighteen_edge_point_Fock_Hamiltonian_constructed": false,
+    "full_Fock_route_killed": false,
+    "star_sector_is_an_invariant_sector_of_the_claimed_full_Fock_theory": false
+  },
+  "thermodynamic_and_ownership_boundary": {
+    "finite_circle_star_sector_only": true,
+    "infinite_volume_limit_constructed": false,
+    "Moller_or_Ruelle_wave_operator_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "graph_mass_charge_coupling_subtraction_domain_sector_or_state_source_selected": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned nine-vertex/eighteen-channel vacuum-plus-one-excitation point-star Hamiltonian with positive weighted-Laplacian matrix counterterm, norm-resolvent limit, one dense common star-sector IBC domain and finite Hermitian subtraction-scale flow. Fixed spectator blocks converge and finite Pauli occupation changes only finite remainders, but those remainders grow logarithmically with unbounded spectator/global-flux energy, so no complete antisymmetric multiparticle point-Fock Hamiltonian or common full-Fock/global-flux domain follows. No infinite-volume NESS/current, smooth unreduced parent, Weinstein/source/GU ownership, Born derivation, prediction or confirmation."
+}
