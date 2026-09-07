@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K139-SIGNED-BOUNDARY-INVERSE-PROFILE-UNIVERSALITY",
+  "date": "2026-09-07",
+  "status": "EXACT_SIGNED_BOUNDARY_NEUMANN_CHART_DOUBLED_COUNTERTERM_AND_BOUNDED_PROFILE_UNIVERSALITY",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "signed_boundary_inverse": {
+    "natural_particle_hole_boundary_map_is_bidirectional_and_not_nilpotent_by_K137s_filtration": true,
+    "resolvent_dressed_point_creation_is_uniformly_bounded_by_an_l2_tail": true,
+    "the_l2_bound_tends_to_zero_as_the_auxiliary_shift_tends_to_infinity": true,
+    "every_fixed_finite_coupling_family_admits_an_auxiliary_shift_with_boundary_norm_less_than_one": true,
+    "cutoff_boundary_maps_converge_in_operator_norm": true,
+    "neumann_inverses_are_cutoff_uniform_and_converge_in_operator_norm": true,
+    "the_auxiliary_shift_is_exactly_compensated_in_the_regular_operator": true,
+    "the_auxiliary_shift_restricts_physical_couplings": false,
+    "K137_G_fifth_power_zero_is_used": false
+  },
+  "doubled_counterterm_and_exchange": {
+    "particle_endpoint_counterterm_is_sum_gplus_squared_B_Bstar": true,
+    "hole_endpoint_counterterm_is_sum_gminus_squared_Bstar_B": true,
+    "equal_particle_and_hole_couplings_give_four_g_squared_times_identity_on_the_rook_vertices": true,
+    "CAR_species_orthogonality_removes_cross_polarity_vacuum_divergences": true,
+    "four_normal_ordered_polarity_exchange_blocks_remain": true,
+    "all_four_exchange_blocks_converge_from_the_free_operator_graph": true,
+    "higher_bidirected_words_are_summed_by_a_geometric_majorant": true,
+    "an_additional_off_diagonal_logarithmic_counterterm_is_required": false
+  },
+  "signed_minimal_limit": {
+    "minimally_countertermed_signed_cutoffs_converge_in_norm_resolvent_on_the_positive_particle_hole_Fock_carrier": true,
+    "the_limit_has_one_common_recursive_boundary_domain": true,
+    "the_boundary_inverse_converges_on_the_particle_number_graph_after_a_larger_auxiliary_shift": true,
+    "finite_interval_all_sector_Coulomb_Gauss_forms_preserve_norm_resolvent_convergence": true,
+    "the_Coulomb_constant_is_uniform_in_spatial_volume": false,
+    "the_selected_positive_polarization_and_sea_charge_are_source_owned": false,
+    "the_finite_extension_is_physically_selected": false
+  },
+  "admissible_profile_universality": {
+    "profiles_are_diagonal_in_momentum": true,
+    "profiles_are_uniformly_bounded": true,
+    "profiles_converge_pointwise_to_one": true,
+    "each_cutoff_has_a_finite_raw_endpoint_sum": true,
+    "each_profile_uses_its_own_squared_profile_endpoint_counterterm": true,
+    "subtracted_contractions_have_a_common_k_inverse_squared_dominator": true,
+    "resolvent_dressed_couplings_converge_in_l2": true,
+    "all_geometrically_summed_signed_words_have_the_same_matched_limit": true,
+    "sharp_Abel_Gaussian_and_Fejer_profiles_are_examples": true,
+    "raw_counterterm_offsets_must_be_equal": false,
+    "arbitrary_unbounded_nonlocal_or_nonconvergent_regulators_are_covered": false
+  },
+  "thermodynamic_and_ownership_boundary": {
+    "finite_circle_repository_control_only": true,
+    "uniquely_physically_selected_point_Fock_Gauss_Hamiltonian_constructed": false,
+    "infinite_volume_limit_constructed": false,
+    "Moller_or_Ruelle_wave_operator_constructed": false,
+    "interacting_NESS_constructed": false,
+    "interacting_field_current_constructed": false,
+    "reduced_K115_cycle_ratio": "6561/256",
+    "reduced_cycle_promoted_to_field_current": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned finite-circle theorem on a supplied positive particle/hole polarization: an arbitrarily large auxiliary resolvent shift makes the natural bidirectional signed boundary map a cutoff-uniform contraction for every fixed finite coupling family, without using G^5=0 or imposing a physical weak-coupling condition. Its Neumann inverse and particle-number-graph inverse converge; particle and hole contractions require the doubled endpoint counterterm sum(|g+|^2 B B*+|g-|^2 B* B), while four normal-ordered polarity exchange blocks and all higher words converge by graph-tail and geometric bounds. The minimally countertermed signed point-Fock cutoffs and their finite-interval all-sector Coulomb/Gauss additions converge in norm resolvent. The same limit is universal for matched diagonal profiles that are uniformly bounded and converge pointwise to one, including sharp, Abel, Gaussian and Fejer examples. No volume-uniform limit, physical extension/polarization selection, infinite-volume scattering or NESS, smooth unreduced parent, source/GU action, Born rule, prediction or confirmation follows."
+}

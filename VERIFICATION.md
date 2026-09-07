@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K139 signed boundary inverse and profile universality (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K138's bidirectional particle/hole boundary map cannot have a uniform inverse because `G^5` need not vanish | `||G_(N,lambda)||<=M sum_(e,s)|g_(e,s)|[sum_k(omega_k+lambda)^-2]^(1/2)`, whose right side tends to zero as the auxiliary resolvent shift grows | false; every fixed finite coupling family admits a cutoff-uniform Neumann chart, and the shift is exactly compensated rather than imposed as a physical weak-coupling condition |
+| The signed split needs only K137's upper-endpoint counterterm | particle contraction gives `sum |g+|^2 BB*`, while hole contraction gives `sum |g-|^2 B*B`; upper and lower incidences partition the four edges at each rook vertex, so equal couplings give `4g^2 I` | false; exact doubled diagonal endpoint subtraction, with no mixed-polarity vacuum divergence |
+| Bidirectionality creates uncontrolled exchange/higher words | the four `++,+-,-+,--` normal-ordered blocks obey K135's free-operator-graph tail estimate, and every additional boundary word is dominated by the common geometric series `sum q^j` | false; exact graph-relative convergence after the doubled endpoint subtraction |
+| The minimally countertermed signed particle/hole cutoffs converge | graph-relative convergence of the regular pullbacks plus norm convergence of the Neumann inverses gives norm-resolvent convergence on full positive particle/hole Fock space; a stronger number-graph contraction pulls back K136's raw finite-interval Coulomb form | exact on the supplied positive polarization and finite circle; not an empty-vacuum signed theorem and not uniform in volume |
+| Sharp/Abel universality is accidental | uniformly bounded diagonal profiles converging pointwise to one have a common inverse-square subtracted-contraction dominator and convergent resolvent-dressed `l2` coefficients when each uses its own squared-profile counterterm | false; exact matched universality class including sharp, Abel, Gaussian and Fejer examples, excluding arbitrary unbounded/nonlocal regulators |
+| The packet constructs a uniquely physical extension/polarization, infinite-volume scattering/NESS, smooth unreduced parent, source/GU owner, Born rule, prediction or confirmation | `lab/process/k139-signed-boundary-inverse-profile-universality-wave.json`; exact control `41/41`, hostile selftest `35/35` | false / explicitly fenced |
+
 ## K138 regulator universality, extension selection, and signed boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

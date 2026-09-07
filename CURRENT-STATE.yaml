@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cc32bfadfc5d
+revision_basis: 0dbf73e9ff45
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K139 signed-boundary inverse/profile-universality Big Wave closes the
+    exact domain gate left by K138 on the supplied positive particle/hole
+    polarization. For every fixed finite coupling family, an arbitrarily
+    large auxiliary resolvent shift makes the natural bidirectional boundary
+    map a cutoff-uniform contraction because
+    sum_k(omega_k+lambda)^-2 tends to zero with lambda. The shift is exactly
+    compensated in the regular pullback, so it is a boundary-chart coordinate
+    rather than a physical weak-coupling restriction. The Neumann inverses
+    converge in norm without G^5=0. Particle and hole contractions give the
+    doubled diagonal endpoint matrix sum(|g+|^2 BB*+|g-|^2 B*B); mixed
+    vacuum contractions vanish, while all four polarity exchange blocks
+    converge from the free operator graph. Higher bidirected words are
+    geometrically summable. The minimally countertermed signed point-Fock
+    cutoffs therefore converge in norm resolvent, and a stronger number-graph
+    inverse pulls back the raw finite-interval all-sector Coulomb/Gauss form.
+    Uniformly bounded diagonal regulator profiles converging pointwise to one,
+    each paired with its own squared-profile endpoint counterterm, share the
+    same limit; sharp, Abel, Gaussian and Fejer are examples. The probe passes
+    41/41 and catches 35/35 hostile mutations. No volume-uniform limit,
+    physical extension or polarization selection, infinite-volume
+    scattering/NESS/current, smooth unreduced parent, source/GU action, Born,
+    prediction or confirmation follows.
     The K138 regulator-universality/selection/signed-boundary Big Wave refines
     K137's scheme-dependent language. For the sharp profile and the Abel
     profile exp(-|k|/N), each paired with its own squared-profile diagonal
@@ -6757,15 +6779,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the natural signed particle/hole point boundary transform be proved
-  uniformly invertible and its doubled endpoint/exchange terms shown to
-  converge without K137's nilpotent filtration; what owner-native complete
-  Schur or infinite-volume scattering datum selects the affine finite
-  extension; does matched-regulator universality extend to a stated general
-  profile class; can the resulting selected theory reach a thermodynamic
-  scattering or return-to-NESS limit; can the diffuse quotient be obtained
-  from a genuinely unreduced smooth connection/BRST parent; and can an actual
-  source-owned GU action select every imported datum?
+  What owner-native complete Schur boundary datum or action principle selects
+  the finite extension, positive polarization, sea charge and couplings of
+  K139's signed point-Fock/Gauss family; can its estimates be made uniform
+  under an explicit thermodynamic scaling so that Moller/Ruelle or return-to-
+  NESS dynamics and a microscopic current exist; can the diffuse quotient be
+  obtained from a genuinely unreduced smooth connection/BRST parent; and can
+  an actual source-owned GU action select every imported datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6774,28 +6794,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K138 proves that the matched sharp and Abel profiles have zero complete-
-  graph W_min difference after each uses its own vacuum counterterm, although
-  their raw counterterms differ by -2(gamma_E+log 2)D_g. Treat general finite
-  Hermitian subtraction as an affine W shift: only a compensating E_R change
-  preserves the same operator. Rook symmetry leaves three real parameters and
-  one pole is insufficient; require a complete finite Schur boundary matrix
-  or later complete scattering data from an owner-native action or
-  measurement. For the signed route, prove a uniform inverse for the natural
-  bidirectional particle/hole boundary transform, enumerate its doubled
-  endpoint counterterms and close its graph-domain exchange terms. K137's
-  G^5=0 polynomial is unavailable even though positive free energy and the
-  36-species finite-volume Pauli/Coulomb bound survive. Extend regulator
-  universality only through a stated dominated admissible-profile theorem.
-  Begin infinite-volume Moller/Ruelle or return-to-NESS work only after one
-  selected signed point-Fock/Gauss operator and uniform volume estimates
-  exist. Construct an unreduced smooth connection/BRST parent separately and
-  require a source/GU action to select couplings, regulator class, masses,
-  charges, finite extension, domain and state. Do not interpret the raw
-  counterterm offset as physical regulator dependence, call symmetry a
-  selector, transfer the positive-energy nilpotence proof to the signed
-  split, extend finite-volume constants to infinite volume, or promote K115's
-  reduced affinity to a microscopic current.
+  K139 proves that an auxiliary resolvent shift supplies a cutoff-uniform
+  Neumann inverse for the natural bidirectional signed boundary map at every
+  fixed finite coupling, without using K137's nilpotence or imposing physical
+  weak coupling. The doubled upper-particle/lower-hole endpoint counterterm,
+  four graph-domain polarity exchange blocks and geometrically summed higher
+  words give a minimally countertermed positive-polarization signed point-Fock
+  norm-resolvent limit. Its particle-number-graph inverse also carries the raw
+  finite-interval all-sector Coulomb/Gauss form. Matched universality now holds
+  for uniformly bounded diagonal profiles converging pointwise to one, with
+  each profile's own squared-profile endpoint subtraction. Next seek a
+  complete owner-native Schur boundary datum or action principle selecting the
+  finite extension, polarization, sea charge and couplings. Independently
+  prove or refute volume-uniform estimates under an explicit thermodynamic
+  scaling; only then begin Moller/Ruelle or return-to-NESS work and compare a
+  genuine field current with K115's reduced affinity. Construct an unreduced
+  smooth connection/BRST parent separately and require a source/GU action to
+  select regulator class, masses, charges, domain and state. Do not treat the
+  auxiliary shift as physical, extend finite-volume constants to infinite
+  volume, call the mathematical minimal scheme physically selected, or
+  promote K115's reduced affinity to a microscopic current.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.
