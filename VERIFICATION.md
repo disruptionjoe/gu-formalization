@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K131 K130 diffuse direct-integral Gauss/Fock Hamiltonian and point threshold (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Compact physical Gauss fibres admit a diffuse Fock-compatible continuum pairing | integrate `l2{n: div n+Q_X=0}` over neutral finite-particle configurations with Lebesgue position measure; the root/CAR vacuum is nonzero and singleton position projections vanish | exact repository-owned positive direct integral; a new representation, not a completion of K130's atomic matter carrier |
+| The diffuse physical carrier matches the K128 axial carrier with global modes restored | after a cut, cumulative charge uniquely labels every fibre by root flux `m in Z^8`; the measurable fibrewise map is unitary to neutral K128 times `l2(Z^8)` | exact almost-everywhere direct-integral/axial equivalence; collision diagonals are null and no globally smooth connection trivialization is claimed |
+| Position, local gauge, holonomy and the fixed-width defect intertwine | bounded position multipliers commute with fibre trivialization; `div n+Q=0` cancels matter and edge gauge phases; holonomy shifts `m`; Wilson/Klein CAR terms map to electric-string updates | exact diffuse position and physical gauge covariance with eight global integer-flux directions; reduced gauge action is identity, not a smooth-gauge Haar construction |
+| The fixed-width theory has a cylindrical-regulator-independent self-adjoint Hamiltonian | transport K128's positive Dirac-Coulomb form, add the positive global-flux form, then use the bounded symmetric fixed-width defect | exact closed semibounded quadratic-form theorem at fixed nonzero width; the width remains a UV regularization, and no pointwise connection or signed-Dirac operator-domain equality follows |
+| The same form construction reaches a nonzero point interaction | the cutoff point functional has squared `H^-1/2` norm `sum_(abs(k)<=N)(1+k^2)^-1/2`, which diverges logarithmically | false for a uniform fixed-coupling KLMN limit at the critical `H^1/2` form threshold; IBC, running-counterterm and resolvent routes remain open |
+| The packet constructs thermodynamic NESS/current, source/GU owner, Born rule, prediction or confirmation | `lab/process/k131-k130-diffuse-direct-integral-gauss-fock-hamiltonian-point-threshold-wave.json`; exact control `34/34`, hostile selftest `29/29` | false / explicitly fenced |
+
 ## K130 K129 compact-cylindrical Gauss-pairing/Fock-measure boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
