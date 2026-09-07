@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 579e4290636b
+revision_basis: 2ff21f9dd3eb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K128 axial/Coulomb reduced-gauge Big Wave solves all eight Abelian
+    Gauss laws exactly on a finite spatial interval after axial gauge fixing.
+    The electric field is the cumulative impurity/CAR charge multiplication
+    operator; equal endpoint flux selects the total-neutral sector, which is
+    nonempty because it contains the root-impurity/CAR vacuum. Every neutral
+    impurity/CAR transition changes the electric field by the exact string
+    between the defect and field point, with energy equal to charge norm
+    squared times string length. A positive finite-interval Dirac/Fock form
+    plus the positive Coulomb form is closed by finite-multiplicity Pauli
+    counting, and K127's bounded symmetric fixed-width defect gives a unique
+    semibounded self-adjoint Hamiltonian on the same quadratic-form domain.
+    This is an equivalent reduced physical representation, not an unreduced
+    connection/electric canonical pair, nontrivial local gauge implementer,
+    continuum Haar projector, circle large-gauge theory, or equality with
+    K127's signed Dirac operator domain. Electric-string energy does not cure
+    the delta-CAR divergence, and finite-volume Cesaro control is not
+    thermodynamic scattering or an interacting NESS/current theorem. The
+    certificate passes 34/34 and catches 37/37 hostile mutations. No source/GU
+    ownership, Born derivation, prediction, confirmation, holdout, canon or
+    public-posture move follows.
     The K127 continuum-Fock/string-local/correlation Big Wave realizes K126's
     fixed-width Wilson/Klein interaction on the genuine antisymmetric Fock
     space of eighteen full Dirac species for every fixed smooth bounded
@@ -5894,6 +5914,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k128-k127-axial-coulomb-reduced-gauge-fock-domain-wave-2026-09-07.md
+    - lab/process/k128-k127-axial-coulomb-reduced-gauge-fock-domain-wave.json
+    - tests/channel-swings/k128_k127_axial_coulomb_reduced_gauge_fock_domain_probe.py
     - explorations/conditional-build/k127-k126-continuum-fock-string-local-correlation-wave-2026-09-07.md
     - lab/process/k127-k126-continuum-fock-string-local-correlation-wave.json
     - tests/channel-swings/k127_k126_continuum_fock_string_local_correlation_probe.py
@@ -6484,13 +6507,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K127's background-covariant continuum CAR Fock/string-local model be
-  extended to a dynamical U(1)^8 gauge Hilbert representation with electric
-  fields, anomaly-free local gauge implementers, Gauss generators, a nonempty
-  physical sector and one common self-adjoint domain; can a singular number-
-  changing Fock IBC, form or resolvent limit be constructed; can finite-
-  coupling scattering then produce an interacting NESS/current; and can an
-  actual source-owned GU action select every imported datum?
+  Can K128's exact finite-interval axial/Coulomb physical quotient be lifted
+  to an unreduced continuum U(1)^8 connection/electric Hilbert representation
+  with nontrivial anomaly-free local and large gauge implementers, circle
+  holonomy or controlled boundary sectors and a common operator domain; can a
+  singular number-changing Fock IBC, form or resolvent limit be constructed;
+  can an infinite-lead finite-coupling scattering theory then produce an
+  interacting NESS/current; and can an actual source-owned GU action select
+  every imported datum?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6499,6 +6523,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K128 closes the continuum finite-interval reduced-Gauss, electric-string and
+  common positive-form-domain cells. In axial gauge, cumulative charge gives
+  self-adjoint smeared electric operators satisfying all eight Gauss laws
+  distributionally; equal endpoint flux selects a nonempty total-neutral
+  sector. Neutral defect transitions carry the exact electric string, and a
+  positive Dirac/Fock plus Coulomb form with K127's bounded fixed-width defect
+  gives one semibounded self-adjoint Hamiltonian on an unchanged form domain.
+  Next construct the unreduced connection/electric canonical representation,
+  nontrivial local and large gauge implementers, circle holonomy or controlled
+  boundary sectors and a common operator domain, then prove equivalence to or
+  correction of this quotient. Independently construct a singular number-
+  changing Fock IBC, counterterm, closed form or norm/strong-resolvent point
+  limit. Only after an infinite-lead Moller/Ruelle or return-to-NESS theorem
+  compare K115's reduced affinity with a microscopic field current. Separately
+  require a source/GU action selecting the gauge group, boundary sector,
+  charges, paths, carrier, kinetic form, couplings, domain and state. Do not
+  promote the reduced quotient to its unreduced parent, common form domain to
+  signed operator-domain equality, finite-volume Cesaro control to NESS, or
+  any repository control to Born, prediction or confirmation.
+
   K127 closes the fixed-width continuum CAR/common-domain, causal-hull string-
   locality and free-correlation-readiness cells for a smooth bounded external
   U(1)^8 background on the spatial line. The Wilson/Klein defect is a bounded

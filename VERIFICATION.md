@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K128 K127 axial/Coulomb reduced-gauge Fock-domain boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The eight continuum Gauss laws have an exact finite-interval physical reduction | cumulative-charge electric field satisfies `partial_x E=rho` distributionally; equal endpoint flux imposes total neutrality; the root-impurity/CAR vacuum is nonempty physical data | exact repository-owned axial/Coulomb reduced representation; no unreduced connection Hilbert space or continuum Haar projector |
+| A neutral impurity/CAR transition carries the correct electric string | `Delta E=b_e(1_[x_0,L]-1_[y,L])`, supported between its endpoints with energy `abs(b_e)^2 abs(y-x_0)` | exact electric-flux dual of the fixed-width Wilson string |
+| The reduced interacting theory has a self-adjoint physical Hamiltonian | positive finite-interval Dirac/Fock form, positive Coulomb form, Pauli `N^2` control and bounded symmetric K127 defect give one closed semibounded form on an unchanged form domain | exact common quadratic-form-domain theorem; not equality with K127's signed Dirac operator domain |
+| The reduced representation constructs nontrivial local/large gauge implementers and a connection-electric canonical pair | Gauss generators vanish after reduction; local gauge action is identity; circle holonomy/spectral flow and unreduced `A,E` remain absent | false / not constructed |
+| Electric energy regularizes the point CAR field or finite volume realizes the K115 NESS/current | point norm still scales as `epsilon^-1/2`; electric string energy vanishes with its length; bounded-storage current Cesaro average is at most `2||A||/T` | false; singular extension and thermodynamic scattering remain open |
+| The packet derives source/GU parameters, Born semantics, prediction or confirmation | `lab/process/k128-k127-axial-coulomb-reduced-gauge-fock-domain-wave.json`; exact control `34/34`, hostile selftest `37/37` | false / explicitly fenced |
+
 ## K127 K126 continuum Fock/string-local/correlation boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
