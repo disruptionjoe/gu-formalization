@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4cafa6315e02
+revision_basis: 1eb798a0acc6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K126 fixed-width gauge-defect Big Wave repairs K125's two explicit
+    construction failures. Wilson transport makes every charged smearing
+    transform at the impurity origin, and one neutral odd Clifford-Klein
+    generator per K115 edge makes the formerly odd impurity-CAR monomial even
+    without requiring a bipartite grading of the triangular nine-state graph.
+    The 18 generators are realized exactly on a 512-dimensional complex
+    Clifford module. These data give an explicit repository-owned classical
+    action, nilpotent Abelian BRST differential, minimal classical BV master
+    functional, time-slab boundary potential and nilpotent BFV charge. On
+    K124's finite lattice the Wilson strings and Clifford factors are bounded,
+    the adjoint-paired defect is self-adjoint, gauge invariant and even, and
+    Kato--Rellich preserves the electric domain, Gauss kernel and even
+    observable algebra. This is not a continuum quantum gauge representation
+    or complete local net. A separate unitary charge-block boundary condition
+    gives a self-adjoint free one-particle Dirac extension, but it preserves
+    particle number and therefore does not realize K115's number-changing
+    Fock interaction. No common interacting Fock/Gauss point domain,
+    causal-hull theorem, scattering/correlation result or interacting NESS is
+    constructed; the reduced 6561/256 cycle is not a field current. The
+    certificate passes 30/30 and catches 37/37 hostile mutations. No source/GU
+    ownership, Born derivation, prediction, confirmation, holdout, canon or
+    public-posture move follows.
     The K125 continuum-gauge/defect Big Wave establishes constant-holonomy
     fixed-mode squared-symbol consistency with an explicit O(N^-2) bound;
     lattice gauge covariance and all eight Wilson holonomies survive, and
@@ -5849,6 +5871,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k126-k125-wilson-klein-bv-bfv-defect-completion-wave-2026-09-07.md
+    - lab/process/k126-k125-wilson-klein-bv-bfv-defect-completion-wave.json
+    - tests/channel-swings/k126_k125_wilson_klein_bv_bfv_defect_completion_probe.py
     - explorations/conditional-build/k125-k124-continuum-gauge-defect-bv-aqft-ness-wave-2026-09-07.md
     - lab/process/k125-k124-continuum-gauge-defect-bv-aqft-ness-wave.json
     - tests/channel-swings/k125_k124_continuum_gauge_defect_bv_aqft_ness_probe.py
@@ -6433,13 +6458,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the K125 route switch first supply a Wilson-dressed parity-complete
-  defect action with explicit BV-BFV data, or construct a gauge-covariant
-  boundary-condition, interior-boundary-condition, counterterm or norm/strong-
-  resolvent renormalized point defect on one common self-adjoint Gauss domain,
-  extend it to an interacting causal net with controlled reservoir scattering
-  and a nonequilibrium stationary state, and can an actual source-owned GU
-  action select its charge embedding, coefficients and boundary sector?
+  Can the K126 Wilson/Klein fixed-width completion be represented on a
+  continuum gauge/CAR Hilbert space with one common self-adjoint Fock/Gauss
+  domain and causal-hull or honestly string-local net, can a true point defect
+  be obtained by an IBC, counterterm, form or resolvent construction, can its
+  reservoir scattering produce an interacting NESS/current, and can an actual
+  source-owned GU action select the charges, paths, carrier, coefficients and
+  boundary sector?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6448,6 +6473,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K126 supplies exact Wilson covariance and an explicit 18-generator
+  Clifford-Klein parity completion at fixed nonzero width. It writes the
+  repository-owned classical action, minimal BV functional, time-slab
+  boundary potential and Abelian BFV charge, and on K124's finite regulator
+  proves the dressed defect bounded, self-adjoint, Gauss preserving and even.
+  It does not construct a continuum gauge Hilbert representation, common
+  interacting Fock/Gauss domain, causal Haag--Kastler net or point limit. A
+  unitary charge-block boundary condition gives only a free number-preserving
+  one-particle self-adjoint extension, whereas K115 changes reservoir
+  occupation. Next construct the continuum representation and common domain,
+  then either prove finite-width causal-hull/string-local control or build the
+  number-changing point Fock extension through an IBC, counterterm, quadratic
+  form or norm/strong-resolvent limit. Only after that prove reservoir
+  correlation/scattering and an interacting NESS/current. Separately require
+  a source/GU action selecting charges, Wilson paths, auxiliary carrier,
+  coefficients and boundary sector. Do not promote the formal classical
+  master equation to a QME, the finite regulator to a continuum theory, the
+  free boundary unitary to K115, or the reduced cycle ratio to field current,
+  Born, prediction or confirmation.
+
   K125 controls K124's regulator removal only through constant-holonomy fixed-
   mode squared-symbol and classical weak-Gauss consistency. It supplies no
   lattice-to-continuum embedding, graph-norm core, or continuum gauge Hilbert

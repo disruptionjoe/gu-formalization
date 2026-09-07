@@ -7,6 +7,17 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K126 K125 Wilson/Klein/BV-BFV defect completion boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K125's fixed-width charged smearings can be made locally gauge covariant | `W_e(0,x)=exp(i integral b_e dot A)` transforms by the endpoint phase, so the dressed annihilator transforms at the defect origin and cancels `X_vu` | exact repository-owned Wilson covariance for one supplied path convention; no path selection, path independence or point limit |
+| The triangular K115 impurity graph admits an even defect interaction | one neutral odd `kappa_e` per edge; explicit nine-qubit `Cl_18(C)` realization checks 18 squares, 153 anticommutators and parity | exact Clifford-Klein parity completion on a 512-dimensional auxiliary module; not a minimal or source-selected carrier |
+| The repaired fixed-width fields own classical BV-BFV data | explicit even gauge-invariant action, nilpotent Abelian BRST differential, minimal `S_BV`, time-slab boundary potential, Gauss constraints and nilpotent BFV charge | formal classical fixed-width BV-BFV construction; no nonminimal gauge fixing, quantum master equation, renormalized measure or physical quotient |
+| The quantum defect is controlled | finite K124 link strings are unitary; the edge sum is bounded, adjoint paired, Gauss commuting and even, while `kappa_e^2=1` preserves each orthogonal channel's diagonal jump coefficient | exact finite-lattice-regulator theorem with the K115 diagonal rates preserved; continuum representation and causal Haag--Kastler net remain open |
+| An ordinary charge-block point boundary unitary constructs the interacting defect | `D_U=-i d/dx`, `f(L)=Uf(0)` is self-adjoint for unitary `[U,Q_a]=0`, but preserves one-particle number while K115 tunnelling changes reservoir occupation | false; only a free gauge-covariant one-particle extension is constructed, not the Fock/Gauss point domain |
+| The repair derives an interacting NESS/current or a source/GU action, state, Born rule, prediction or confirmation | no interacting Fock domain, scattering/correlation theorem or source selector; exact control (`30/30`) and hostile selftest (`37/37`) | false / not constructed |
+
 ## K125 K124 continuum gauge/defect/BV/AQFT/NESS boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
