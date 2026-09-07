@@ -2,10 +2,21 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-03"
+updated_at: "2026-09-07"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K123 K122 interacting CAR-defect gauge-descent boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K122's full free `U(1)^18` species-phase torus survives its continuously coupled defect | connected nine-vertex/18-edge K115 graph, incidence rank eight and cycle rank ten; only edge phases in `im(B^T)` admit diagonal system lifts | false; the maximal connected diagonal-liftable phase torus is `U(1)^8`, with ten broken cycle directions |
+| The nonequilibrium resource is a vertex potential | selected base-record square has forward/reverse rate ratio `6561/256 != 1` | false; the real modular-affinity cochain has nonzero cycle period, while remaining a different type from compact phase angles |
+| The smeared defect admits controlled interacting dynamics | compact `L2` CAR fields make the constant adjoint-paired perturbation bounded and self-adjoint; Dyson terms obey `(|t| ||V||)^n/n!` | exact bounded-perturbation C-star dynamics preserving the `U(1)^8` fixed points; not an unsmeared point defect, full interacting Haag-Kastler theory or NESS |
+| The surviving global quotient has an exact cohomological description | eight commuting charge derivations give a nilpotent abelian Chevalley-Eilenberg differential with `H^0=A^(U(1)^8)` | exact global symmetry/degree-zero BRST statement; not local gauge fields, Gauss law or physical BV-BFV reduction |
+| Detector projections and dressed transition fields remain invariant | termwise charge cancellation and neutral spectral projections | exact mathematical invariant effect algebra; no physical detector selection or Born derivation |
+| The construction derives a source/GU action or parameters, physical gauge theory, point defect, interacting NESS, Born rule, prediction or confirmation | explicit ownership and limit boundaries plus exact control (`30/30`) and hostile selftest (`30/30`) | false / not constructed |
 
 ## K122 K121 autonomous fermionic-reservoir bulk gauge-net boundary (2026-09-03)
 

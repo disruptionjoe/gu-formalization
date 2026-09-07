@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3d03596f50c4
+revision_basis: af3ca8bbbfd4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K123 interacting-CAR-defect Big Wave proves that K122's free
+    U(1)^18 species-phase symmetry does not survive the continuously coupled
+    defect. The nine-state, 18-edge K115 graph is connected, so its incidence
+    rank is eight and its cycle rank is ten. Exactly the eight-dimensional
+    vertex-potential torus admits a diagonal system lift; ten independent
+    cycle-phase directions are broken. The same graph H1 sector locates the
+    nonequilibrium obstruction without conflating types: one base-record
+    square has forward/reverse rate ratio 6561/256, so the real modular
+    affinity is not a vertex potential, while compact phase angles remain
+    algebra automorphisms. Compact L2 smearing makes the time-independent CAR
+    defect perturbation bounded and self-adjoint, gives a norm-convergent
+    Dyson cocycle, and preserves the surviving global fixed-point algebra.
+    Degree-zero abelian Chevalley-Eilenberg cohomology equals those global
+    fixed points, but no local gauge field, Gauss law or physical BV-BFV
+    quotient follows. Neutral detector projections and dressed transitions
+    form a mathematical invariant effect algebra only. The certificate passes
+    30/30 and catches 30/30 hostile mutations. No source/GU parameter owner,
+    unsmeared point defect, complete interacting Haag-Kastler theory,
+    interacting NESS, Born derivation, prediction, confirmation, holdout,
+    canon or public-posture move follows.
     The K122 autonomous-fermionic-reservoir Big Wave replaces K121's switched
     bosonic channel collection by 18 continuously coupled CAR leads, one per
     undirected K115 pair. Each lead supplies both particle and hole rates:
@@ -5793,6 +5813,9 @@ current_result:
     - explorations/conditional-build/k122-k121-autonomous-fermionic-reservoir-bulk-gauge-net-wave-2026-09-03.md
     - lab/process/k122-k121-autonomous-fermionic-reservoir-bulk-gauge-net-wave.json
     - tests/channel-swings/k122_k121_autonomous_fermionic_reservoir_bulk_gauge_net_probe.py
+    - explorations/conditional-build/k123-k122-interacting-car-defect-gauge-descent-obstruction-wave-2026-09-07.md
+    - lab/process/k123-k122-interacting-car-defect-gauge-descent-obstruction-wave.json
+    - tests/channel-swings/k123_k122_interacting_car_defect_gauge_descent_obstruction_probe.py
     - explorations/conditional-build/k81-null-zero-crossing-matching-wave-2026-09-01.md
     - lab/process/k81-null-zero-crossing-matching-wave.json
     - tests/channel-swings/k81_null_zero_crossing_matching_probe.py
@@ -6362,10 +6385,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K122's repository-owned autonomous CAR lead modular data and defect
-  spectral couplings be derived from an actual source-owned GU action, and can
-  the free gauge-even reservoir net be extended to the interacting defect net
-  with a physical gauge/BV quotient and detector semantics?
+  Can a source-owned GU action select K123's lead modular offsets, form
+  factors and defect charges, and can its eight-dimensional global
+  vertex-phase quotient be promoted by constructing local gauge fields, Gauss
+  law, a physical BV-BFV reduction, an unsmeared interacting net and its
+  nonequilibrium state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6374,6 +6398,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K123 determines exactly how K122's free reservoir symmetry descends through
+  the interaction. The connected nine-vertex, 18-edge transition graph has
+  incidence rank eight and cycle rank ten: only vertex-potential phases lift
+  through the system, while ten cycle-phase directions are broken. A selected
+  four-edge rate cycle has ratio 6561/256, placing the nonequilibrium modular
+  affinity in the same graph-cycle sector without identifying affinity with
+  phase. Compact smearing gives a bounded self-adjoint defect perturbation,
+  norm-convergent Dyson dynamics and an invariant U(1)^8 fixed-point algebra;
+  its degree-zero abelian BRST description is global, not a physical local
+  gauge/BV quotient. Next supply a source-owned GU action selecting the
+  modular offsets, form factors and charges, then construct local gauge
+  fields, Gauss law, an unsmeared interacting net, physical BV-BFV reduction
+  and interacting nonequilibrium state. Do not promote global fixed points to
+  physical gauge reduction or mathematical invariant effects to Born
+  semantics.
+
   K122 supplies one microscopic autonomous nonequilibrium field owner for the
   K115 limit. Eighteen thermodynamic-limit CAR leads are coupled continuously
   by a time-independent defect Hamiltonian; one lead per undirected pair gives

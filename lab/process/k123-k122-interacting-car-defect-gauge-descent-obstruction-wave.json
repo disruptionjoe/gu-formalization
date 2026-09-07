@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "id": "K123-K122-INTERACTING-CAR-DEFECT-GAUGE-DESCENT-OBSTRUCTION",
+  "status": "COMPLETE_DEFECT_PHASE_DESCENT_CYCLE_OBSTRUCTION_AND_BOUNDED_INTERACTING_CAR_DYNAMICS",
+  "date": "2026-09-07",
+  "direction": "observed_to_native",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "INTERNAL_TARGET:K122_INTERACTING_DEFECT_NET_AND_PHYSICAL_GAUGE_BV_QUOTIENT",
+  "scope": "The repository-owned nine-state K115 system and 18 K122 CAR leads with compactly smeared bounded defect couplings. The result computes the phase symmetry that survives the coupling and constructs its norm-continuous interacting cutoff dynamics; it does not bind Weinstein's action or construct a local physical gauge theory.",
+  "prior_art_boundary": {
+    "K115_graph_and_rates_reused_not_rederived": true,
+    "K117_cycle_affinity_reused_and_cohomologically_located": true,
+    "K120_free_Fock_continuum_reused_not_rederived": true,
+    "K122_CAR_leads_and_free_U1_18_subnet_reused_not_rederived": true,
+    "new_composition": "exact_18_to_8_plus_10_defect_phase_descent_cycle_affinity_obstruction_bounded_interacting_Dyson_dynamics_and_global_BRST_ceiling"
+  },
+  "graph_phase_descent": {
+    "vertices": 9,
+    "undirected_edges": 18,
+    "connected_components": 1,
+    "incidence_rank": 8,
+    "cycle_rank": 10,
+    "free_reservoir_phase_torus_dimension": 18,
+    "diagonally_liftable_vertex_phase_torus_dimension": 8,
+    "broken_cycle_phase_directions": 10,
+    "every_liftable_edge_phase_is_a_vertex_coboundary": true,
+    "all_18_independent_species_phases_survive_defect_coupling": false,
+    "maximality_scope": "connected_phase_subgroups_admitting_a_diagonal_nine_state_system_lift"
+  },
+  "cycle_affinity_obstruction": {
+    "selected_four_edge_cycle_forward_reverse_ratio": "6561/256",
+    "selected_four_edge_cycle_reverse_forward_ratio": "256/6561",
+    "cycle_period_is_nonzero": true,
+    "modular_affinity_is_a_vertex_potential": false,
+    "one_equilibrium_detailed_balance_owner_exists": false,
+    "phase_angles_identified_with_real_modular_affinities": false,
+    "shared_graph_H1_dimension": 10
+  },
+  "bounded_interacting_defect": {
+    "carrier": "M9_tensor_CAR_of_18_smeared_1_plus_1_dimensional_Dirac_leads",
+    "compact_L2_form_factors": true,
+    "CAR_smeared_annihilators_are_bounded": true,
+    "interaction_is_self_adjoint": true,
+    "interaction_is_time_independent": true,
+    "norm_convergent_Dyson_cocycle": true,
+    "vertex_phase_torus_preserved_by_interacting_dynamics": true,
+    "fixed_point_algebra_preserved": true,
+    "unsmeared_point_defect_constructed": false,
+    "full_interacting_Poincare_covariant_Haag_Kastler_net_constructed": false,
+    "interacting_nonequilibrium_stationary_state_constructed": false
+  },
+  "global_BRST_boundary": {
+    "abelian_vertex_phase_Lie_algebra_dimension": 8,
+    "Chevalley_Eilenberg_differential_nilpotent": true,
+    "degree_zero_cohomology_is_global_fixed_point_algebra": true,
+    "global_internal_symmetry_complex_owned": true,
+    "local_gauge_fields_constructed": false,
+    "Gauss_law_constraint_constructed": false,
+    "physical_BV_BFV_quotient_constructed": false,
+    "global_fixed_points_promoted_to_physical_gauge_reduction": false
+  },
+  "state_effect_boundary": {
+    "detector_spectral_projections_are_vertex_phase_neutral": true,
+    "dressed_transition_field_monomials_are_vertex_phase_neutral": true,
+    "mathematical_invariant_effect_algebra_owned": true,
+    "physical_detector_selection_derived": false,
+    "Born_rule_derived": false
+  },
+  "ownership_boundary": {
+    "Weinstein_source_or_GU_action_parameter_state_coupling_or_observable_owner": false,
+    "lead_modular_offsets_or_form_factors_source_selected": false,
+    "local_physical_gauge_theory_constructed": false,
+    "interacting_NESS_constructed": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none"
+  },
+  "exact_control": {
+    "base_states": 3,
+    "record_states": 3,
+    "base_rate": "2/5",
+    "clock_rate": "7/11",
+    "event_correct": "81/113",
+    "event_wrong": "16/113",
+    "graph_incidence_cycle_affinity_interaction_gauge_BRST_and_effect_boundaries_checked": true
+  },
+  "exact_reopener": "Supply an actual source-owned GU action whose fields and variation select the lead modular offsets, form factors and defect charges; then construct local gauge fields, Gauss law, a physical BV-BFV quotient, an unsmeared interacting net and its nonequilibrium state before testing detector or Born semantics.",
+  "claim_ceiling": "Exact repository-owned defect phase-descent theorem, ten-dimensional cycle obstruction, bounded compactly smeared interacting CAR dynamics, preserved eight-dimensional global fixed-point algebra and degree-zero abelian BRST identification. No Weinstein/source/GU ownership, unsmeared point defect, full interacting Haag-Kastler theory, interacting NESS, local gauge/Gauss-law/BV-BFV quotient, Born derivation, prediction or confirmation follows.",
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored"
+}
