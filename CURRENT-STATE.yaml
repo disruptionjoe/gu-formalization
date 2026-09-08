@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e136ad58a5a8a3b035f4522f23e99ed055853d29
+revision_basis: 16d39ffb8ff1a622871dcda3da6b69003b659e14
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K164 self-adjoint half-weight Big Wave closes the topology conversion
+    K163 left open. A one-sided bound ||T(1+S)^-1||<=epsilon does not control
+    the symmetric half-weight sandwich for a general operator: the exact
+    non-normal family A_n=diag(1,n^2), T_n=[[0,epsilon n^2],[0,0]] amplifies
+    that sandwich by n. But K156's normal-ordered regular-core difference is
+    self-adjoint. Its adjoint supplies the opposite weighted endpoint, and
+    three-lines interpolation gives
+    ||A^-1/2 T A^-1/2||<=epsilon for A=1+S. K161's complete five-tail bound
+    therefore yields a genuine regular-form estimate without reviving the
+    killed complex-contour inverse route. From a same-family anchor with
+    a_Lambda+c>=kappa A, the complete residual increases by at most
+    epsilon||u||_A, coercivity becomes kappa-epsilon, and min--max transports
+    every ground, next-spectrum and left-floor margin with
+    delta=epsilon/kappa. A synthetic kappa=1/2, c=6 anchor passes the count
+    and below-minus-five margins at Lambda=65536 but not the count margin at
+    4096. The native conforming anchor and its complete coercivity, residual
+    and spectral floors remain absent, so no native K152 interval, physical/
+    source, Born, prediction or confirmation claim follows.
+
     The K163 Galerkin regular-pullback compatibility Big Wave tests the first
     native-data step released by K162. In an exact physical one-cell-to-two-
     cell control, the width-two point coupling sqrt(2), child couplings 1,1
@@ -7244,14 +7263,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the normal-ordered K139 regular form be constructed directly on K162's
-  common dyadic carrier so every finite matrix is an exact compression of one
-  fixed form, and can one same-family cutoff anchor plus K161's five tails
-  then supply complete fixed-cylinder columns, a shifted form-dual residual,
-  coercivity, the next-distinct-spectrum floor and a native floor below -5
-  needed by K152; what bound-residual Pauli thresholds follow, and can actual
-  response data or a source-owned GU action select the imported operator,
-  orientation, polarization, couplings, W, kappa, domain and state?
+  Can one physical K162 dyadic same-family anchor be built by compressing the
+  fixed normal-ordered K139 form and can its complete carrier prove
+  a_Lambda+6>=kappa(1+S), a ground upper bound, next-distinct lower bound,
+  native floor above -5 and trial residual strong enough for K164's exact
+  epsilon/kappa transfer into K152; what cutoff and bound-residual Pauli
+  thresholds follow, and can actual response data or a source-owned GU action
+  select the imported operator, orientation, polarization, couplings, W,
+  kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7260,19 +7279,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K163 proves that independently rebuilding K155's finite counterterm and
-  nonlinear regular pullback does not commute with K162 refinement, despite
-  exact free-form congruence; the raw q=(0,0) defect is 2/105. Construct the
-  normal-ordered K139 regular form directly on K162's common carrier and
-  define every finite form matrix by exact Galerkin compression of that one
-  form. Alternatively, evaluate one same-family cutoff form and attach the
-  complete K161 five-tail enclosure. Use its fixed-cylinder column bounds to
-  prove the full shifted form-dual residual and coercivity, then establish the
-  next-distinct-spectrum and below-minus-five native floors by a complete
-  exterior argument or form-level Lehmann--Goerisch. Feed only that complete
-  packet to K152. Do not reuse K155's arbitrary two modes or K157 zero-fill as
-  a native anchor, reopen the weighted inverse route without changed
-  topology, or count a bounded island as all spectrum below -1.
+  K164 proves that K156 self-adjoint normal ordering upgrades K161's complete
+  right-weighted tail to a symmetric A=1+S form bound, while the exact
+  non-normal counterexample forbids applying that step to a complex contour
+  denominator. Construct one physical K162 dyadic anchor by compressing the
+  fixed K139 regular form, not by independent rediscretization. Prove on the
+  complete charge carrier that a_Lambda+6>=kappa A and certify its trial
+  residual, ground upper bound, next-distinct lower bound and complete left
+  floor. Choose Lambda with epsilon below the exact combined kappa margin;
+  65536 is sufficient for the displayed kappa=1/2 control while 4096 is not.
+  Then apply K164, transport q=(0,1) through K162 and feed the complete packet
+  to K152. If a free-gap exterior minorant fails, use form-level
+  Lehmann--Goerisch on the same fixed form. Do not reuse a contour operator as
+  self-adjoint, identify K155/K157 regulator matrices as native, reopen the
+  killed inverse topology, or count a bounded island as complete spectrum.
 
   K158 proves the exact generalized-pencil bridge and finite rectangle
   constants, but also proves that K156's requested free-H0 graph chart error

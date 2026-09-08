@@ -7,6 +7,22 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K164 self-adjoint half-weight form transfer (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K161's one-sided full-energy bound controls the symmetric half-weight form for any operator | `A_n=diag(1,n^2)`, `T_n=[[0,epsilon n^2],[0,0]]` has `||T_n A_n^-1||=epsilon` but `||A_n^-1/2 T_n A_n^-1/2||=epsilon n` | false; exact non-normal counterexample, so the complex-contour denominator cannot be promoted from one endpoint |
+| The self-adjoint regular-core difference has the required form topology | K156 pairs the normal-ordered terms by CAR adjoint; adjointness gives both weighted endpoints and three-lines interpolation gives `||A^-1/2 T A^-1/2||<=epsilon` | exact conditional topology conversion for the complete K161 five-tail sum on `A=1+S`; it does not resurrect the complex-contour inverse route |
+| The form bound transfers residual and coercivity | from `a_Lambda+c>=kappa A` and `|a-a_Lambda|<=epsilon A`, obtain residual increment `epsilon||u||_A` and coercivity `(kappa-epsilon)A` | exact when the same-family complete-carrier anchor proves `epsilon<kappa` |
+| The same data transfer next-spectrum and native-left floors | with `delta=epsilon/kappa`, min--max gives `(1-delta)(E_j,Lambda+c)-c <= E_j <= (1+delta)(E_j,Lambda+c)-c` | exact compiler; for the synthetic `kappa=1/2`, `c=6` anchor, K161 cutoff `65536` transfers one value below `0`, the next above `0`, and a floor above `-5`, while cutoff `4096` fails the count margin |
+| K164 closes native K152 | the self-adjoint tail topology and K162 signed transport are now present, but a conforming anchor's coercivity, trial residual, next-distinct floor and complete left floor are not | false; no native count or interval follows |
+| K164 changes source or ledger truth | `SC-META-53` remains `UNCERTAIN`; `LT-SM8`, `RA-F1` and `AC-F1` remain `NEEDS` | false; no physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k164_selfadjoint_half_weight_form_transfer.py --demo`,
+`python3 tests/channel-swings/k164_selfadjoint_half_weight_form_transfer_probe.py`
+and its baseline-first hostile check with `--selftest` (`29/29`, `13/13`).
+
 ## K163 Galerkin regular-pullback compatibility obstruction (2026-09-08)
 
 | Claim | Evidence | Honest grade |

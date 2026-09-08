@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-08",
+  "status": "ACTIVE_RESEARCH",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied equal-coupling two-edge positive-Fock control on K162's dyadic common carrier. The packet converts a self-adjoint regular-core right-weight bound to a symmetric form bound and refuses the conversion for a non-normal complex-contour operator; it does not select a physical GU Hamiltonian.",
+  "target_claim": "NONE-NOT-A-KILL",
+  "topology_discriminator": {
+    "common_weight": "A=1+S",
+    "one_sided_input": "||T A^-1||<=epsilon",
+    "general_nonselfadjoint_promotion": false,
+    "counterexample": "A_n=diag(1,n^2), T_n=[[0,epsilon*n^2],[0,0]]",
+    "counterexample_right_norm": "epsilon",
+    "counterexample_half_weight_norm": "epsilon*n",
+    "selfadjoint_left_endpoint_from_adjoint": true,
+    "selfadjoint_half_weight_bound": "||A^-1/2 T A^-1/2||<=epsilon",
+    "complex_contour_promotion_allowed": false,
+    "regular_form_promotion_allowed": true
+  },
+  "K161_transfer": {
+    "all_five_normal_ordered_components_used": true,
+    "K156_selfadjoint_normal_ordering_used": true,
+    "Lambda_4096_epsilon": "79277/319488",
+    "Lambda_65536_epsilon": "6622297/123076608",
+    "form_dual_residual_increment": "epsilon*||u||_A",
+    "transferred_coercivity": "kappa-epsilon",
+    "relative_minmax_delta": "epsilon/kappa",
+    "requires_epsilon_less_than_kappa": true
+  },
+  "conditional_anchor_control": {
+    "shift": "6",
+    "anchor_ground_upper": "-1",
+    "anchor_next_lower": "2",
+    "anchor_left_floor": "-4",
+    "threshold": "0",
+    "desired_native_left": "-5",
+    "combined_strict_kappa_lower_4096": "396385/319488",
+    "combined_strict_kappa_lower_65536": "33111485/123076608",
+    "kappa_one_half_4096_count_margin": false,
+    "kappa_one_half_65536_count_margin": true,
+    "kappa_one_half_65536_ground_upper": "-28426819/61538304",
+    "kappa_one_half_65536_next_lower": "8762279/7692288",
+    "kappa_one_half_65536_left_floor": "-129698905/30769152",
+    "control_is_native": false
+  },
+  "native_K152_replay": {
+    "selfadjoint_regular_tail_topology_closed": true,
+    "signed_charge_intertwiner_closed": true,
+    "same_family_anchor_supplied": false,
+    "anchor_coercivity_supplied": false,
+    "anchor_residual_supplied": false,
+    "anchor_next_distinct_floor_supplied": false,
+    "anchor_native_left_floor_supplied": false,
+    "native_ground_count_emitted": false,
+    "native_K152_interval_emitted": false
+  },
+  "source_and_physics": {
+    "SC_META_53_polarity": "UNCERTAIN",
+    "LT_SM8_verdict": "NEEDS",
+    "RA_F1_verdict": "NEEDS",
+    "AC_F1_verdict": "NEEDS",
+    "ledger_changed": false,
+    "source_register_changed": false,
+    "physical_or_source_selection": false,
+    "Born_prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "route_verdict": "SELFADJOINT_FORM_TOPOLOGY_CLOSED__COMPLEX_CONTOUR_PROMOTION_REFUSED__SAME_FAMILY_ANCHOR_DATA_OPEN",
+  "next_condition": "Construct one K162 physical dyadic same-family anchor by compressing the fixed normal-ordered K139 form. Prove complete-carrier anchor coercivity, residual, next-distinct floor and left floor, choose Lambda with epsilon below the exact combined kappa threshold, then apply the K164 transfer and feed the complete packet to K152. Use form-level Lehmann--Goerisch on the same fixed form if a free-gap exterior minorant fails.",
+  "claim_ceiling": "Exact repository-owned topology and certificate interface: K156 self-adjoint normal ordering plus K161's complete right-weighted tail gives the symmetric half-weight regular-form bound, while an exact non-normal counterexample forbids complex-contour reuse. Conditional residual, coercivity and spectral-floor thresholds are exact, but no native same-family anchor or complete anchor spectral data are supplied; no native count, K152 interval, physical/source selection, Born, prediction or confirmation follows."
+}
