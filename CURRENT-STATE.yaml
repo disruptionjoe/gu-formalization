@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a48556020e16
+revision_basis: f0f6559d2fad
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K152 form-dual lower-enclosure Big Wave makes K151's required route
+    switch executable. A positive-definite generalized conforming form pencil
+    is isolated by exact rational congruence inertia, including nonorthogonal
+    K139 boundary-chart bases. For a normalized trial vector, a proved
+    coercive shift H+s>=c>0, shifted form-dual residual
+    epsilon^2=||(H+s)^(-1/2)(H-rho)u||^2 and next-distinct-spectrum floor
+    b>rho give the rigorous correction
+    Delta=[E+sqrt(E^2+4(b-rho)^2E)]/[2(b-rho)],
+    E=(rho+s)epsilon^2, and hence rho-Delta<=lambda_0<=rho. The same data
+    bound the trial-line projection error, and exact congruence proves basis
+    covariance. Transport from q=(1,0) to q=(0,1) requires the complete signed
+    flavor-unitary form, pairing, trial-space, residual and gap certificate;
+    particle-hole complement remains unavailable. K139--K151 still do not
+    serialize the native q=(0,0) or q=(1,0) transformed-domain Gram/form
+    tails, dual residual or next-distinct-spectrum gap, so K152's executable
+    fixture is non-native and no numerical native threshold/Gram table,
+    full-Fock Mourre/scattering, physical/source selection, Born, prediction
+    or confirmation follows.
     The K151 native charge-block Big Wave serializes every finite-regulator
     hard-core C3 sector in a canonical exterior-Fock basis with exact rational
     matrices, both conserved incidence charges and all CAR signs explicit.
@@ -7045,19 +7063,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K151 supplies exact finite-regulator native-C3 charge blocks and the signed
-  flavor-swap intertwiner, but proves that the bare point tail cannot satisfy
-  K150's cutoff-uniform Hilbert-bounded off-diagonal hypothesis. Next construct
-  a form-level lower-enclosure kernel on K139's transformed common boundary
-  domain. Serialize exact or outward-certified form matrices for q=(0,0) and
-  q=(1,0), transport q=(0,1) only through the proved flavor unitary, and prove
-  an exterior form gap plus a dual residual bound suitable for a
-  Lehmann--Goerisch or certified penalty-form inequality. Then feed the closed
-  lower/upper intervals and gaps to K149's projection, threshold and complete
-  Gram machinery. Do not seek another cutoff-uniform raw coupling norm, treat
-  K151's finite inertias as native residual energies, infer particle-hole
-  symmetry on C3, call truncated finite-U/Ritz values lower bounds, or test
-  strict full-Fock Mourre constants before native margins close.
+  K152 supplies the exact form-level lower-enclosure and projection kernel
+  without requiring K150's unavailable raw bounded block. Next construct
+  explicit conforming vectors psi_i=U_s^-1 phi_i in K139's native q=(0,0) and
+  q=(1,0) transformed domains. Serialize outward-certified A_q and M_q with
+  every infinite resolvent-dressed tail, prove H_q+s>=c_q>0, a lower bound on
+  the next distinct spectrum b_q, and the complete shifted form-dual residual.
+  Feed those data to K152, transport q=(0,1) only through the complete signed
+  flavor-unitary form/residual/gap certificate, and construct an equal-rank
+  cluster residual matrix before using K149's complete Gram and threshold
+  machinery. Do not seek another cutoff-uniform raw coupling norm, treat
+  K152's positive control or K151's finite inertias as native residual
+  energies, infer particle-hole symmetry on C3, call truncated finite-U/Ritz
+  values lower bounds, or test strict full-Fock Mourre constants before native
+  margins close.
 
   K147 proves that the two native transitions sharing one impurity vertex do
   not satisfy a two-mode CAR algebra on C3: their own anticommutators omit the

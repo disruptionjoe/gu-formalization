@@ -7,6 +7,20 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K152 form-dual residual lower enclosure (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A nonorthogonal conforming K139 form core has certifiable Ritz values | exact inertia of the symmetric-definite pencil `A-xM`, with `M>0`, counts generalized eigenvalues and rational bisection isolates them; congruence under every invertible basis change preserves the count | exact certificate algorithm for rational or outward-certified form/Gram inputs |
+| The singular native ground can be bounded without K150's raw coupling norm | for `H+s>=c>0`, shifted dual residual `epsilon^2` and next-distinct-spectrum floor `b>rho`, spectral measure gives `rho-Delta<=lambda_0<=rho` with `Delta=[E+sqrt(E^2+4g^2E)]/(2g)`, `E=(rho+s)epsilon^2`, `g=b-rho` | exact form-level theorem with outward dyadic rounding; requires operator-specific native inputs |
+| The same data control the ground projection | the exterior spectral measure gives `1-p<=epsilon^2(b+s)/(b-rho)^2` | exact trial-line/ground-eigenspace error; a degenerate complete cluster still requires an equal-rank residual matrix |
+| A native numerical interval is now available | K139 proves the transformed domain and K151 gives bare finite charge blocks, but neither serializes the complete transformed Gram/form tails, dual residual or next-distinct-spectrum floor for `q=(0,0)` or `q=(1,0)` | false / executable fixture is non-native; native assembly is the next gate |
+
+Reproduce with
+`python3 tests/channel-swings/k152_form_dual_residual_enclosure_solver.py --demo`,
+`python3 tests/channel-swings/k152_form_dual_residual_lower_enclosure_probe.py`
+and its baseline-first hostile check with `--selftest` (`52/52`, `33/33`).
+
 ## K151 native charge-block assembly and Schur applicability (2026-09-08)
 
 | Claim | Evidence | Honest grade |
