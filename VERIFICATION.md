@@ -2,10 +2,25 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-07"
+updated_at: "2026-09-08"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K147 shared-vertex quasifree obstruction and matrix thresholds (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The first two-edge shared corner is a two-mode quadratic CAR system | for `B_i=|i><0| tensor kappa_i`, `{B_i,B_i*}=|0><0|+|i><i|` omits the other leaf and `{B_i,B_j*}=|i><j| tensor kappa_i kappa_j` is nonzero for `i!=j` | false on the native `C3` impurity carrier; exact hard-core algebra obstruction to K146's quasifree lift |
+| The projected corner matrix is completely diagonalized | with channel order `(e1,-),(e1,+),(e2,-),(e2,+)`, `Gamma=[[1,0,1,0],[0,1,0,0],[0,0,0,1]]` and `Gamma Gamma*=diag(2,1,1)`; `S(z)=-zI-M(z)D` has only the root zero | exact on the explicitly non-invariant `C3 direct-sum L2(R;C4)` comparison: zero multiplicity three and purely absolutely continuous spectrum `[5/4,infinity)` of multiplicity eight |
+| Every projected Pauli threshold rank is known | normalized `D_tau=diag(Z2,Z1,Z1)`; compression by each `P_j=I-|j><j|` leaves nonzero eigenvalues `{Z1,Z1}`, `{Z2,Z1}`, `{Z2,Z1}` | exact vacuum rank three and every single-residual rank two; channel kernels have dimensions one and two respectively, with no dark direction in the allowed impurity space |
+| The projected comparison has controlled relative polarization and commutators | self-dual boundary resolvent tails are `O(epsilon^-1)` in `L2`; `||Gamma||^2=max degree=2`, and rook endpoint subgraphs have maximum degree four | exact Hilbert--Schmidt projected relative polarization and maximum-degree-controlled projected `C^(1,1)` seminorm; not an implementer or propagation theorem for the native hard-core model |
+| Strict Mourre and LAP hold for the fixed projected corner | the physical velocity conjugate has square-integrable first two dressed-boundary commutators, and spectral localization excludes zero and `5/4` | exact fixed-corner projected Mourre and `s>1/2` LAP; no cycle-uniform strict constant is claimed |
+| The packet solves the native shared-corner spectrum, full-Fock Pauli thresholds, rook scattering/NESS, or physical/source selection | the native projection leaks and its transition algebra is nonquasifree | false / explicitly fenced; no source/GU, Born, prediction or confirmation credit |
+
+Reproduce with
+`python3 tests/channel-swings/k147_shared_vertex_quasifree_obstruction_matrix_threshold_probe.py`
+and run its baseline-first hostile check with `--selftest` (`73/73`, `22/22`).
 
 ## K146 bidirectional BdG/IBC threshold and regularity (2026-09-07)
 
