@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 156385da21cc
+revision_basis: a48556020e16
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K151 native charge-block Big Wave serializes every finite-regulator
+    hard-core C3 sector in a canonical exterior-Fock basis with exact rational
+    matrices, both conserved incidence charges and all CAR signs explicit.
+    The signed exterior flavor permutation exactly intertwines (q1,q2) with
+    (q2,q1), so (0,0) and (1,0) are the two finite-control representatives and
+    (0,1) is transported; simultaneous particle-hole complement is not a
+    native symmetry because it sends the impurity vacuum to the excluded
+    double state. The decisive K150 applicability test is negative: the bare
+    point-field omitted tail has norm square at least the sum of omitted
+    squared constant coefficients and is not cutoff-uniform. K139's
+    resolvent-dressed boundary chart is L2 and bounded, but that does not make
+    the raw low/tail Hamiltonian block Hilbert bounded. Finite matrices remain
+    regulator/sign controls rather than native residual energies, and the
+    lower certificate must switch to a form-level Lehmann--Goerisch or
+    certified penalty-form route. No native numerical threshold/Gram table,
+    full-Fock Mourre/scattering, physical/source selection, Born, prediction
+    or confirmation follows.
     The K150 certified Schur-tail Big Wave implements the exact rational
     certificate kernel that K149 left implicit. Symmetric congruence inertia
     and rational bisection isolate finite conforming Ritz values without
@@ -7028,18 +7045,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K150 supplies an exact rational inertia/Schur-tail certificate engine and
-  propagates certified residual/gap inputs through projection, complete Gram,
-  first-threshold and rank decisions. Next assemble K139's transformed
-  equal-coupling two-edge operator in the two native ground-charge orbit
-  representatives: serialize an exact finite conforming basis and matrix,
-  prove the complement floor and off-diagonal coupling bound, and certify the
-  charge-intertwining unitaries. Feed those inputs to K150 and refine until the
-  residual threshold intervals and full Gram margins close. If the transformed
-  off-diagonal block is not bounded, switch to a form-level Lehmann--Goerisch
-  certificate rather than weakening the Schur hypothesis. Do not treat K150's
-  finite fixture as native data, call truncated finite-U Ritz values lower
-  bounds, infer exact zero singular values from numerical smallness, or test
+  K151 supplies exact finite-regulator native-C3 charge blocks and the signed
+  flavor-swap intertwiner, but proves that the bare point tail cannot satisfy
+  K150's cutoff-uniform Hilbert-bounded off-diagonal hypothesis. Next construct
+  a form-level lower-enclosure kernel on K139's transformed common boundary
+  domain. Serialize exact or outward-certified form matrices for q=(0,0) and
+  q=(1,0), transport q=(0,1) only through the proved flavor unitary, and prove
+  an exterior form gap plus a dual residual bound suitable for a
+  Lehmann--Goerisch or certified penalty-form inequality. Then feed the closed
+  lower/upper intervals and gaps to K149's projection, threshold and complete
+  Gram machinery. Do not seek another cutoff-uniform raw coupling norm, treat
+  K151's finite inertias as native residual energies, infer particle-hole
+  symmetry on C3, call truncated finite-U/Ritz values lower bounds, or test
   strict full-Fock Mourre constants before native margins close.
 
   K147 proves that the two native transitions sharing one impurity vertex do

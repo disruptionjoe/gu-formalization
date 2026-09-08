@@ -7,6 +7,20 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K151 native charge-block assembly and Schur applicability (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every finite regulator has exact native hard-core charge blocks | canonical exterior ordering fixes all CAR signs; retaining `n1*n2=0` and enumerating `q_i=n_i+N_i+-N_i-` produces exact rational symmetric matrices for rational mode data | exact finite-regulator native-C3 algebraic assembly; not a native continuum spectrum |
+| Equal flavor data identify the first computational charge orbits | the signed exterior permutation satisfies `S_q^*S_q=I` and `H_(q2,q1)S_q=S_qH_(q1,q2)` exactly | exact finite-regulator flavor intertwiner; `(0,0)` and `(1,0)` are selected representatives and `(0,1)` is transported; particle-hole complement is not native |
+| K150's bounded raw Schur block applies to the singular point tail | the vacuum-to-omitted-one-particle norm square is `sum_omitted |g_k|^2`, which diverges for the constant point coefficients; K139 proves only the resolvent-dressed coefficient is `L2` and the transformed remainder is graph-relative | false / exact applicability obstruction; a finite cutoff norm cannot be a continuum `beta^2` |
+| The native lower-enclosure route is now fixed | K149 supplies form/penalty convergence and K150 already names the fallback when bounded `B` fails | form-level Lehmann--Goerisch or certified penalty-form enclosure is required; no numerical native thresholds or Gram margins yet |
+
+Reproduce with
+`python3 tests/channel-swings/k151_native_charge_block_assembler.py --demo`,
+`python3 tests/channel-swings/k151_native_charge_block_assembly_schur_applicability_probe.py`
+and its baseline-first hostile check with `--selftest` (`33/33`, `32/32`).
+
 ## K150 certified Schur-tail spectral enclosure kernel (2026-09-08)
 
 | Claim | Evidence | Honest grade |
