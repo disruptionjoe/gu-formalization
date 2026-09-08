@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 16d39ffb8ff1a622871dcda3da6b69003b659e14
+revision_basis: 1df101976d9af808ccaffee4a3be9e8f6b9533e0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K165 generalized-form complement Big Wave closes the first route
+    discriminator for K164's requested physical anchor. K162 dyadic cell
+    spaces are conforming form cores but do not reduce the physical free
+    multiplication operator: omega(p)=sqrt(1+p^2)+1/4 is strictly convex on
+    every positive-width cell, so Q_j H0 P_j is nonzero. More importantly,
+    K139's nonunitary inverse chart makes the exact physical eigenproblem the
+    generalized pencil R-zM with M=S* S; K153 bounds M between 64/121 and
+    64/25, and the physical exterior is M-orthogonal rather than the free
+    Hilbert complement. A free gap therefore cannot simply be pasted beside a
+    Ritz matrix. Separately norm-bounding the auxiliary lambda=256 pieces
+    loses their cancellation and gives only the useless shifted budget
+    -9834/25; this does not prove physical unboundedness. An exact rational
+    generalized Schur control proves one value below a threshold when R-bM is
+    positive on the complete M-orthogonal complement, including nonzero
+    coupling. The native combined anchor form, coercivity, trial residual,
+    complement/flux certificate, next-distinct floor and left floor remain
+    absent, so no native K152 interval, physical/source, Born, prediction or
+    confirmation claim follows.
+
     The K164 self-adjoint half-weight Big Wave closes the topology conversion
     K163 left open. A one-sided bound ||T(1+S)^-1||<=epsilon does not control
     the symmetric half-weight sandwich for a general operator: the exact
@@ -7263,14 +7282,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can one physical K162 dyadic same-family anchor be built by compressing the
-  fixed normal-ordered K139 form and can its complete carrier prove
-  a_Lambda+6>=kappa(1+S), a ground upper bound, next-distinct lower bound,
-  native floor above -5 and trial residual strong enough for K164's exact
-  epsilon/kappa transfer into K152; what cutoff and bound-residual Pauli
-  thresholds follow, and can actual response data or a source-owned GU action
-  select the imported operator, orientation, polarization, couplings, W,
-  kappa, domain and state?
+  Can the combined fixed K139 generalized form R-zM be evaluated on one small
+  K162 dyadic trial space and can an operator-valued Feshbach/Birman--Schwinger
+  or form-level Lehmann--Goerisch certificate prove R-bM positive on its
+  complete M-orthogonal complement, together with anchor coercivity, trial
+  residual and a native floor above -5 strong enough for K164 and K152; what
+  cutoff and bound-residual Pauli thresholds follow, and can actual response
+  data or a source-owned GU action select the imported operator, orientation,
+  polarization, couplings, form, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7279,20 +7298,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K164 proves that K156 self-adjoint normal ordering upgrades K161's complete
-  right-weighted tail to a symmetric A=1+S form bound, while the exact
-  non-normal counterexample forbids applying that step to a complex contour
-  denominator. Construct one physical K162 dyadic anchor by compressing the
-  fixed K139 regular form, not by independent rediscretization. Prove on the
-  complete charge carrier that a_Lambda+6>=kappa A and certify its trial
-  residual, ground upper bound, next-distinct lower bound and complete left
-  floor. Choose Lambda with epsilon below the exact combined kappa margin;
-  65536 is sufficient for the displayed kappa=1/2 control while 4096 is not.
-  Then apply K164, transport q=(0,1) through K162 and feed the complete packet
-  to K152. If a free-gap exterior minorant fails, use form-level
-  Lehmann--Goerisch on the same fixed form. Do not reuse a contour operator as
-  self-adjoint, identify K155/K157 regulator matrices as native, reopen the
-  killed inverse topology, or count a bounded island as complete spectrum.
+  K165 proves that the K162 dyadic ranges are conforming but nonreducing and
+  that K139's physical count uses the generalized pencil R-zM with the
+  M-orthogonal complement, not a free-gap paste. It also proves that separate
+  norm bounds on the auxiliary +/-lambda pieces destroy the cancellation
+  needed for coercivity, and that K161's tail is a cutoff difference rather
+  than an absolute anchor bound. Evaluate the combined fixed K139 R,M form on
+  one small K162 trial space. Certify its physical Gram and form-dual residual,
+  then prove positivity of R-bM on the complete M-orthogonal complement by an
+  operator-valued Feshbach/Birman--Schwinger monotonicity theorem or a
+  form-level Lehmann--Goerisch auxiliary solve with a complete-carrier error.
+  Prove the native floor above -5 in the same representation, choose Lambda
+  only after epsilon<kappa, apply K164, transport q=(0,1) through K162 and feed
+  only the complete packet to K152. Do not substitute an essential edge, free
+  complement, bounded contour island, K155/K157 regulator matrix or K161 tail
+  for the missing absolute data.
 
   K158 proves the exact generalized-pencil bridge and finite rectangle
   constants, but also proves that K156's requested free-H0 graph chart error

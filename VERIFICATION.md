@@ -7,6 +7,22 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K165 generalized-form complement route (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K162's dyadic cell spaces reduce the physical free operator | `omega(p)=sqrt(1+p^2)+1/4` is strictly convex and nonconstant on every positive-width cell, so multiplying a cell indicator leaves the piecewise-constant range | false; the spaces are conforming form cores but `Q_j H0 P_j != 0`, so their Ritz data are upper data only |
+| A free Hilbert complement is the physical exterior after the K139 chart | the exact pencil is `R-zM`, `M=S* S`, with `64/121 I <= M <= 64/25 I` | false; the physical exterior is the `M`-orthogonal complement in regular coordinates |
+| Separate norm bounds on the auxiliary `+/-lambda` pieces prove anchor coercivity | at `lambda=256`, `||S||<=8/5` and physical shift `6`, the identity-piece budget is `256+6-256(8/5)^2=-9834/25` | false as a coercivity route; the negative budget diagnoses lost cancellation and does not prove the physical operator unbounded below |
+| K161's tail supplies the missing absolute anchor bound | K161 controls `a-a_Lambda`, not `a_Lambda` itself | false; an absolute combined-form lower bound or complete same-form complement certificate remains required |
+| A generalized same-form complement can certify the count | exact rational control with nonidentity positive `M` has trial quotient `-1`, positive `M`-orthogonal complement inertia `(0,0,2)` and full pencil inertia `(1,0,2)` at threshold `0` | exact generalized Schur compiler, including nonzero trial/complement coupling; the control is non-native |
+| K165 closes native K152 or changes source/ledger truth | native coercivity, form/Gram evaluation, form-dual residual, complete complement/flux certificate, next floor and left floor remain absent; `SC-META-53` is `UNCERTAIN`, and `LT-SM8`, `RA-F1`, `AC-F1` remain `NEEDS` | false; no native interval, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k165_generalized_form_complement_route.py --demo`,
+`python3 tests/channel-swings/k165_generalized_form_complement_route_probe.py`
+and its baseline-first hostile check with `--selftest` (`30/30`, `14/14`).
+
 ## K164 self-adjoint half-weight form transfer (2026-09-08)
 
 | Claim | Evidence | Honest grade |

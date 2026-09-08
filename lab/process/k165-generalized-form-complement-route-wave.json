@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-08",
+  "status": "ACTIVE_RESEARCH",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied equal-coupling two-edge positive-Fock control on K162's dyadic common carrier and K139's fixed regular form. The packet identifies the generalized physical metric and count complement and rejects a free-gap paste; it does not select a physical GU Hamiltonian.",
+  "target_claim": "NONE-NOT-A-KILL",
+  "dyadic_reduction_discriminator": {
+    "dispersion": "omega(p)=sqrt(1+p^2)+1/4",
+    "positive_width_cell_space_conforming": true,
+    "positive_width_cell_space_reducing": false,
+    "Q_H0_P_nonzero": true,
+    "Ritz_data_role": "upper_only_without_complete_complement_certificate"
+  },
+  "generalized_metric": {
+    "pencil": "R-zM",
+    "metric": "M=S* S",
+    "metric_interval": ["64/121", "64/25"],
+    "physical_complement": "M-orthogonal",
+    "free_Hilbert_complement_substitutable": false,
+    "signed_charge_transport_ref": "K162#signed-flavor-transport"
+  },
+  "auxiliary_cancellation": {
+    "lambda": "256",
+    "inverse_chart_bound": "8/5",
+    "physical_shift": "6",
+    "separated_identity_piece_budget": "-9834/25",
+    "separated_norm_route_certifies_positive_coercivity": false,
+    "negative_budget_is_physical_unboundedness_proof": false,
+    "combined_fixed_form_required": true
+  },
+  "generalized_schur_control": {
+    "trial_generalized_rayleigh": "-1",
+    "threshold": "0",
+    "M_orthogonal_complement_inertia": [0, 0, 2],
+    "full_pencil_inertia": [1, 0, 2],
+    "count_below_threshold": 1,
+    "control_is_native": false
+  },
+  "bound_roles": {
+    "K161": "cutoff_to_limit_symmetric_form_tail",
+    "absolute_anchor_regular_core_bound_supplied": false,
+    "tail_may_substitute_for_absolute_anchor_bound": false
+  },
+  "native_K152_replay": {
+    "fixed_regular_form_identified": true,
+    "physical_metric_and_complement_identified": true,
+    "signed_charge_intertwiner_closed": true,
+    "anchor_coercivity_supplied": false,
+    "trial_form_and_gram_evaluated": false,
+    "complete_form_dual_residual_supplied": false,
+    "M_orthogonal_complement_or_flux_certificate_supplied": false,
+    "next_distinct_floor_supplied": false,
+    "native_left_floor_supplied": false,
+    "native_ground_count_emitted": false,
+    "native_K152_interval_emitted": false
+  },
+  "source_and_physics": {
+    "SC_META_53_polarity": "UNCERTAIN",
+    "LT_SM8_verdict": "NEEDS",
+    "RA_F1_verdict": "NEEDS",
+    "AC_F1_verdict": "NEEDS",
+    "ledger_changed": false,
+    "source_register_changed": false,
+    "physical_or_source_selection": false,
+    "Born_prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "route_verdict": "FREE_GAP_PASTE_REFUSED__GENERALIZED_SAME_FORM_COMPLEMENT_OR_LEHMANN_GOERISCH_REQUIRED",
+  "next_condition": "Evaluate the combined fixed K139 R,M form on one small K162 trial space, certify its physical Gram and form-dual residual, and prove R-bM positive on the complete M-orthogonal complement by operator-valued Feshbach/Birman-Schwinger monotonicity or a form-level Lehmann-Goerisch auxiliary solve. Prove the native floor above -5 in the same representation, then apply K164 and K152.",
+  "claim_ceiling": "Exact repository-owned route theorem and generalized count compiler only. K162 dyadic ranges are conforming but nonreducing, the physical complement is M-orthogonal, and separate auxiliary-lambda bounds lose the needed cancellation. The native absolute anchor, coercivity, residual and complete spectral floors remain absent; no native count, K152 interval, physical/source selection, Born derivation, prediction or confirmation follows."
+}
