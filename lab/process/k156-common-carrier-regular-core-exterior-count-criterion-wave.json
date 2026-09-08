@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K156-COMMON-CARRIER-REGULAR-CORE-EXTERIOR-COUNT-CRITERION",
+  "date": "2026-09-08",
+  "status": "COMMON_CARRIER_RENORMALIZED_REGULAR_CORE_AND_EXTERIOR_COUNT_CRITERION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "input_chain": ["K139", "K141", "K151", "K153", "K154", "K155"],
+    "native_impurity_carrier": "span{|0>,|1>,|2>}",
+    "representative_charges": [[0, 0], [1, 0]],
+    "flavor_partner": [0, 1],
+    "auxiliary_chart_shift": 256,
+    "common_one_particle_carrier": "L2(R;C4) for the two-edge signed hard-core control",
+    "finite_circle_embeddings": "normalized momentum-cell step subspaces",
+    "physically_selected": false
+  },
+  "normal_ordered_regular_core": {
+    "finite_identity": "G_N^* A_N G_N=C_N A_N^-1 C_N^*",
+    "vacuum_contraction_equals_c_N_D": true,
+    "raw_endpoint_counterterm_c_N_D_diverges_logarithmically": true,
+    "raw_V_N_converges_separately": false,
+    "endpoint_contraction_cancels_exactly_before_the_limit": true,
+    "renormalized_core": "W_N=(E_R-lambda)I-X_N with X_N the normal-ordered finite Pauli/spectator-plus-exchange remainder",
+    "K141_common_carrier_applies_to_X_N": true,
+    "normal_ordered_finite_remainder_coefficients_converge_on_cylinder_vectors": true,
+    "normal_ordered_finite_remainder_converges_in_free_graph_relative_norm": true,
+    "one_identified_regular_R_256_limit_exists_on_the_supplied_positive_carrier": true,
+    "finite_and_continuum_signed_flavor_intertwiners_are_compatible": true
+  },
+  "total_action_tail": {
+    "free_multiplier_error_is_graph_relative": true,
+    "boundary_map_error_is_Hilbert_operator_norm": true,
+    "boundary_map_error_is_also_required_on_the_free_graph": true,
+    "inverse_chart_errors_use_the_resolvent_identity": true,
+    "renormalized_core_error_is_graph_to_Hilbert": true,
+    "propagated_bound_controls_R_N_minus_R_times_the_shifted_free_resolvent": true,
+    "the_bound_includes_both_inverse_chart_sides": true,
+    "the_total_bound_tends_to_zero_from_K139_K141_component_limits": true,
+    "fixed_cylinder_core_action_columns_have_total_Hilbert_tails": true,
+    "raw_point_field_Hilbert_norm_is_used": false
+  },
+  "exterior_count_criterion": {
+    "trial_projection_rank": 1,
+    "criterion": "trial_rayleigh < b < complete_exterior_floor",
+    "proof_method": "Schur congruence inertia of H-b",
+    "criterion_implies_exactly_one_spectral_value_below_b": true,
+    "finite_exact_positive_control_passes": true,
+    "complete_native_charge_sector_exterior_floor_is_serialized": false,
+    "K148_HVZ_essential_edge_is_used_as_the_complete_exterior_floor": false,
+    "finite_regulator_second_eigenvalue_is_used_as_the_native_floor": false,
+    "native_ground_count_is_certified": false,
+    "native_next_distinct_spectrum_lower_bound_is_certified": false
+  },
+  "boundaries": {
+    "native_regular_operator_identified_at_the_graph_relative_level": true,
+    "native_regular_action_tail_formula_serialized": true,
+    "native_numerical_residual_upper_bound_emitted": false,
+    "native_energy_interval_emitted": false,
+    "complete_native_threshold_or_Gram_margins": false,
+    "native_full_Fock_Mourre_or_scattering": false,
+    "NESS_or_current": false,
+    "physical_parameter_or_state_selection": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned common-carrier and certificate-interface theorem for the equal-coupling two-edge signed hard-core control. K141's normalized momentum-cell embeddings put K155's finite blocks on one positive Fock carrier. The raw endpoint counterterm c_N D diverges logarithmically and does not converge separately; normal ordering gives G_N^* A_N G_N=c_N D+X_N, so the vacuum divergence cancels exactly and the finite Pauli/spectator-plus-exchange remainder X_N converges in free-graph relative norm. A complete propagated error formula combines free, boundary-map, graph-boundary, regular-core and both inverse-chart tails, identifying one graph-relative R_256 and total action tails on fixed cylinder cores. Independently, a rank-one trial line has exactly one spectral value below b if its Rayleigh value is below b and the complete orthogonal charge-sector compression is bounded above b. The current public chain does not serialize that complete native exterior floor or numerical residual, so no native count, energy interval, threshold/Gram, scattering, physical/source, Born, prediction or confirmation conclusion follows."
+}

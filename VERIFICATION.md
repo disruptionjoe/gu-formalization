@@ -7,6 +7,21 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K156 common-carrier regular core and exterior count (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K155's raw endpoint counterterm `V_N` converges separately | `c_N(lambda)=sum_(|k|<=N)(sqrt(1+k^2)+lambda)^-1` has a harmonic lower tail and diverges logarithmically | false; it is subtraction data and must be combined before taking the limit |
+| The renormalized regular core has one common-carrier limit | exact normal ordering gives `G_N^*A_NG_N=c_ND+X_N`, with `X_N` the finite Pauli/spectator-plus-exchange remainder, hence `W_N=(E_R-lambda)I-X_N`; K141's normalized momentum-cell embedding and K139's graph estimate give `||(X_N-X)(H0+a)^-1||->0` | exact algebra plus graph-relative common-carrier theorem on the supplied positive control |
+| The full regular action has a total cutoff tail | inverse resolvent identities on Hilbert and free-graph norms expand `R_N=A_N+S_N^*W_NS_N` into the four explicit contributions in K156 equation (14), controlling `||(R_N-R)(H0+a)^-1||` | exact propagated bound conditional on the stated outward component errors; no raw point-field Hilbert norm |
+| A rank-one exterior floor proves the missing ground count | if `rho=<u,Hu><b` and the complete orthogonal charge compression obeys `QHQ>=d>b`, Schur congruence makes `H-b` have exactly one negative direction and no kernel | exact spectral-count theorem; arbitrary trial/exterior coupling allowed |
+| K156 certifies the native count and emits a K152 interval | K148 gives only the essential edge, finite K151/K155 gaps are not native exterior bounds, and no outward numerical complete-compression floor or residual is serialized | false; no native threshold/Gram, propagation, source/GU, Born, prediction or confirmation follows |
+
+Reproduce with
+`python3 tests/channel-swings/k156_common_carrier_regular_core.py --demo`,
+`python3 tests/channel-swings/k156_common_carrier_regular_core_exterior_count_probe.py`
+and its baseline-first hostile check with `--selftest` (`20/20`, `28/28`).
+
 ## K155 finite regular pullback and stoquasticity obstruction (2026-09-08)
 
 | Claim | Evidence | Honest grade |

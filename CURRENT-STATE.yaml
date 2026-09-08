@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fff0ddce95b7
+revision_basis: 8840e466006a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K156 common-carrier regular-core Big Wave corrects and closes K155's
+    cross-cutoff operator-identification obligation at the graph-relative
+    level. K141's normalized momentum-cell embeddings place every finite
+    circle block on one positive Fock carrier. The raw point endpoint
+    counterterm c_N D diverges logarithmically and therefore cannot converge
+    separately as K155's next-condition wording suggested. Exact normal
+    ordering gives G_N^*A_NG_N=c_N D+X_N, so the divergence cancels before the
+    limit and W_N=(E_R-lambda)I-X_N. Here X_N is the finite normal-ordered
+    Pauli/spectator-plus-exchange remainder; K139--K141 imply it converges from
+    the free graph domain, signed flavor transport passes to the limit, and a
+    complete four-term bound propagates the free, boundary-map, graph-boundary,
+    regular-core and both inverse-chart errors to
+    ||(R_N-R)(H0+a)^-1||. Fixed cylinder-core action columns therefore have
+    total Hilbert tails. Independently, exact Schur inertia proves that a
+    rank-one trial with rho<b and a complete orthogonal charge compression
+    QHQ>=d>b gives exactly one spectral value below b. K139--K155 do not yet
+    serialize the required complete native exterior floor or outward numerical
+    residual constants, so K156 certifies neither a native ground count nor a
+    K152 energy interval. No threshold/Gram closure, propagation,
+    physical/source selection, Born, prediction or confirmation follows.
     The K155 finite-regular-pullback Big Wave advances both independent K154
     obligations to their current exact boundary. In K151's canonical charge
     basis, separating C_N and C_N^* gives G_N=-(H0_N+lambda)^-1 C_N^*,
@@ -7101,13 +7121,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the native two-edge shared-corner infinite charge block be solved as an
-  interacting hard-core impurity model now that K147 excludes a two-mode CAR
-  lift; what are its actual point spectrum and bound-residual Pauli
-  thresholds; can strict Mourre constants then be controlled across rook
-  cycles; what multichart or topology-changing finite-volume identification
-  can evade the single-cut seam witness; and can actual response data or a
-  source-owned GU action select the imported operator, orientation,
+  Can explicit nested cylinder cores and outward evaluations of K156's total
+  regular-action tail produce native q=(0,0) and q=(1,0) residual bounds, and
+  can a free-gap or Lehmann--Goerisch argument prove the complete orthogonal
+  exterior floor needed for an exact ground count and K152 interval; what are
+  the resulting bound-residual Pauli thresholds; and can actual response data
+  or a source-owned GU action select the imported operator, orientation,
   polarization, couplings, W, kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
@@ -7117,21 +7136,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K155 now gives the exact coefficient-complete finite regular pullback and a
-  certified finite Neumann truncation error, but not the cross-cutoff theorem.
-  Place the charge blocks on one explicit cylinder-core carrier, serialize the
-  normal-ordered coefficients of A_N, G_N, V_N and G_N^*A_NG_N, and prove
-  coefficientwise plus graph-relative convergence of the full pullback to one
-  R_256 with total residual tails. Independently abandon the standard
-  occupation-basis diagonal-stoquasticity route, which exact two-mode
-  frustrated cycles now exclude: either construct an invariant non-diagonal
-  positivity cone or certify a complete exterior-subspace lower bound/count
-  below a chosen b. Then feed form/action, Gram, coercivity, total residual and
-  count/gap data through K154 into K152, transport q=(0,1) only by the complete
-  signed flavor intertwiner, and use K149 for threshold order and Gram rank. Do
-  not relabel the finite R_N or its matrix tail as the native continuum
-  representative, infer degeneracy from sign frustration, or use finite
-  eigenvalue simplicity/gaps as a native count.
+  K156 now identifies one common-carrier graph-relative regular R_256 and the
+  exact total-action tail formula. The raw endpoint counterterm V_N does not
+  converge separately: its logarithmic c_N D term cancels the matching vacuum
+  contraction in G_N^*A_NG_N before the limit, leaving the convergent
+  normal-ordered finite remainder. Next choose explicit nested cylinder cores in
+  q=(0,0) and q=(1,0), evaluate finite regular form/action columns and every
+  component of the propagated tail with outward bounds, and prove a complete
+  exterior compression QHQ>=d above a chosen b. If rho<b<d closes, feed the
+  count, total residual, Gram and coercivity packet through K154 into K152,
+  transport q=(0,1) only by the complete signed flavor intertwiner, and use
+  K149 for threshold order and Gram rank. If the free-gap minorant fails,
+  switch to equal-rank Lehmann--Goerisch. Do not use the HVZ edge or a finite
+  regulator gap as the complete exterior floor, retry occupation-basis
+  diagonal stoquasticity, or infer degeneracy from its frustrated cycles.
 
   K147 proves that the two native transitions sharing one impurity vertex do
   not satisfy a two-mode CAR algebra on C3: their own anticommutators omit the
