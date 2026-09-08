@@ -7,6 +7,21 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K153 Neumann-chart conforming cores (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K139's fixed signed two-edge control has an explicit strict boundary chart | `h(lambda)^2<=3/(1+lambda)^2+2/(1+lambda)` and exact rational comparison at `lambda=256` give `||G_lambda||^2<=8272/66049<(3/8)^2` | exact native chart bound; `lambda` is an auxiliary coordinate, not physical weak coupling or extension selection |
+| The representative charge sectors now have explicit conforming cores | for every finite orthonormal `phi_i in Dom(H0,q)`, `psi_i=U_lambda^-1 phi_i`; `Omega` and `d_1^*Omega` seed `q=(0,0)` and `q=(1,0)`, with Neumann tail `q^(J+1)/(1-q)` and cutoff-inverse tail `delta_N/(1-q)^2` | exact K139-domain construction with outward rational tails; bare cutoff eigenvectors are not relabeled conforming |
+| Both native form and Hilbert Gram require independent infinite-tail summation | `H=U^*RU` gives `a(U^-1phi_i,U^-1phi_j)=r(phi_i,phi_j)` exactly, while nonunitarity leaves `1/(1+q)^2 I<=M<=1/(1-q)^2 I` | false for the form tail; exact regular-pullback form matrix and uniform native Gram interval `[64/121,64/25]` |
+| The chart can feed K152's coercivity and dual residual | a regular bound `R>=r0` transports with the sign-correct chart factor, and an ordinary Hilbert residual `eta` gives shifted form-dual square at most `eta^2/c` | exact conditional compiler interface; regular action data and a next-distinct-spectrum floor remain required |
+| K153 emits a numerical native energy interval or threshold/Gram closure | K139--K152 do not serialize the regular charge-sector form/action or the exterior distinct-spectrum floor | false; no native residual table, full-Fock propagation, source/GU, Born, prediction or confirmation follows |
+
+Reproduce with
+`python3 tests/channel-swings/k153_neumann_chart_conforming_core_solver.py --demo`,
+`python3 tests/channel-swings/k153_neumann_chart_conforming_core_probe.py`
+and its baseline-first hostile check with `--selftest` (`47/47`, `30/30`).
+
 ## K152 form-dual residual lower enclosure (2026-09-08)
 
 | Claim | Evidence | Honest grade |

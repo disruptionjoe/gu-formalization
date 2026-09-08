@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f0f6559d2fad
+revision_basis: 2d4749b9ef58
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K153 Neumann-chart conforming-core Big Wave constructs the first
+    explicit native trial cores requested by K152 and corrects the remaining
+    tail boundary. For K139's equal-coupling two-edge signed point control,
+    the auxiliary coordinate lambda=256 gives the exact bound
+    ||G_lambda||<=3/8. Therefore every finite orthonormal free-domain core in
+    q=(0,0) or q=(1,0) has conforming vectors
+    psi_i=U_lambda^-1 phi_i with geometric Neumann tail
+    q^(J+1)/(1-q) and cutoff-inverse tail delta_N/(1-q)^2. The explicit seeds
+    are the vacuum Omega and d_1^*Omega. The native form matrix needs no
+    independent infinite tail: the exact pullback identity is
+    a(psi_i,psi_j)=r_lambda(phi_i,phi_j). The nonunitary Hilbert Gram remains
+    distinct but is uniformly positive, with spectrum in [64/121,64/25]. A
+    regular lower bound transports to a signed-safe coercivity bound, and an
+    ordinary Hilbert residual for U_lambda^*R_lambda phi-rho U_lambda^-1 phi
+    bounds the shifted form-dual residual without any raw point-field norm.
+    K139--K152 still do not serialize the regular charge-sector form/action or
+    a next-distinct-spectrum floor, so K153 emits no numerical native energy
+    interval, threshold/Gram closure, full-Fock scattering, physical/source
+    selection, Born, prediction or confirmation result.
     The K152 form-dual lower-enclosure Big Wave makes K151's required route
     switch executable. A positive-definite generalized conforming form pencil
     is isolated by exact rational congruence inertia, including nonorthogonal

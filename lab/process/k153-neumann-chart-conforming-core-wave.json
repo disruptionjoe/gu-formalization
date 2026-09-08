@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K153-NEUMANN-CHART-CONFORMING-CORE",
+  "created": "2026-09-08",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "vertices": [0, 1, 2],
+    "oriented_edges": [[0, 1], [0, 2]],
+    "equal_real_particle_hole_couplings": true,
+    "mass": 1,
+    "coefficient_l1": 4,
+    "auxiliary_chart_shift": 256,
+    "contraction_upper": "3/8",
+    "auxiliary_shift_is_physical_parameter": false,
+    "physically_selected": false
+  },
+  "conforming_core": {
+    "free_core": "finite orthonormal family phi_i in Dom(H0,q)",
+    "native_vectors": "psi_i=U_lambda^-1 phi_i",
+    "representative_charges": [[0, 0], [1, 0]],
+    "explicit_seed_vectors": ["Omega", "d_1^* Omega"],
+    "charge_preserved_by_boundary_map": true,
+    "bare_cutoff_vector_is_automatically_conforming": false,
+    "neumann_tail": "q^(J+1)/(1-q)||phi||",
+    "cutoff_inverse_tail": "delta_N/(1-q)^2||phi||",
+    "raw_point_field_norm_required": false
+  },
+  "pullback_form_and_gram": {
+    "operator_identity": "H=U_lambda^* R_lambda U_lambda",
+    "form_identity": "a(U_lambda^-1 phi_i,U_lambda^-1 phi_j)=r_lambda(phi_i,phi_j)",
+    "infinite_form_tail_required_after_pullback": false,
+    "gram_spectrum_lower": "1/(1+q)^2",
+    "gram_spectrum_upper": "1/(1-q)^2",
+    "fixed_control_gram_interval": ["64/121", "64/25"],
+    "form_and_gram_are_the_same_matrix": false
+  },
+  "coercivity_and_residual": {
+    "regular_lower_bound": "R_lambda>=r0",
+    "nonnegative_r0_floor": "s+r0(1-q)^2",
+    "negative_r0_floor": "s+r0(1+q)^2",
+    "hilbert_residual": "H psi-rho psi=U_lambda^* R_lambda phi-rho U_lambda^-1 phi",
+    "dual_residual_square_upper": "||H psi-rho psi||^2/c when H+s>=c>0",
+    "regular_action_data_required": true,
+    "next_distinct_spectrum_floor_proved": false,
+    "coarse_residual_automatically_closes_K152": false
+  },
+  "charge_transport": {
+    "q10_to_q01_requires_signed_flavor_unitary": true,
+    "unitary_must_intertwine_G_and_R": true,
+    "verbal_equal_coupling_is_sufficient": false,
+    "particle_hole_complement_is_used": false
+  },
+  "native_input_audit": {
+    "q00_conforming_seed_constructed": true,
+    "q10_conforming_seed_constructed": true,
+    "uniform_native_gram_conditioning_proved": true,
+    "native_form_tail_removed_by_exact_pullback": true,
+    "regular_charge_sector_matrix_and_action_serialized": false,
+    "native_dual_residual_closing_bound_serialized": false,
+    "native_next_distinct_spectrum_lower_bound_serialized": false,
+    "native_energy_interval_emitted": false
+  },
+  "boundaries": {
+    "numerical_native_residual_energies": false,
+    "complete_charge_sector_point_spectrum": false,
+    "complete_native_threshold_or_Gram_margins": false,
+    "native_full_Fock_Mourre_or_scattering": false,
+    "many_body_asymptotic_completeness": false,
+    "NESS_or_current": false,
+    "physical_parameter_or_state_selection": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned K139-chart construction for the equal-coupling two-edge signed hard-core control: lambda=256 certifies ||G_lambda||<=3/8; every finite orthonormal free-domain charge core has explicit conforming images U_lambda^-1 phi with geometric Neumann and cutoff-inverse tails; their Hilbert Gram spectrum lies in [64/121,64/25], while the singular form matrix is exactly the regular pullback matrix and has no separate infinite form tail. A regular lower bound transports to coercivity and a Hilbert residual transports to the shifted form dual. Operator-specific regular charge-sector action data and a next-distinct-spectrum floor remain absent, so K152 emits no native energy interval and no threshold/Gram, scattering, physical/source, Born, prediction or confirmation conclusion follows."
+}
