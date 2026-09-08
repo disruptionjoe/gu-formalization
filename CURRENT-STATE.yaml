@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 62dcb5292a47
+revision_basis: fff0ddce95b7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K155 finite-regular-pullback Big Wave advances both independent K154
+    obligations to their current exact boundary. In K151's canonical charge
+    basis, separating C_N and C_N^* gives G_N=-(H0_N+lambda)^-1 C_N^*,
+    U_N=I-G_N and the exact finite identity
+    R_N=U_N^(-*)H_NU_N^-1=A_N+U_N^(-*)[V_N-lambda I-G_N^*A_NG_N]U_N^-1.
+    Exact one-/infinity-norm Neumann tails bound the complete finite regular-
+    matrix truncation error, and signed flavor swap intertwines q=(1,0) with
+    q=(0,1). Independently, the one-mode q=(0,0) and q=(1,0) occupation graphs
+    are connected and diagonally gauge-stoquastic, but their first two-mode
+    extensions contain exact frustrated six-cycles. Hence the standard
+    occupation-basis Perron--Frobenius route cannot certify the missing native
+    ground count. This does not prove degeneracy or exclude a non-diagonal
+    positivity cone. The exact R_N formula and finite error do not yet supply
+    common-carrier coefficient/graph convergence, total residual tails or a
+    continuum spectral count, so no native K152 energy interval,
+    threshold/Gram closure, propagation, physical/source selection, Born,
+    prediction or confirmation follows.
     The K154 regular-representative data-sufficiency Big Wave proves that the
     public K139--K153 certificate chain does not yet determine the missing
     operator-specific form/action or next-distinct-spectrum floor. A bounded
@@ -7100,20 +7117,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K152 supplies the exact form-level lower-enclosure and projection kernel
-  without requiring K150's unavailable raw bounded block. Next construct
-  explicit conforming vectors psi_i=U_s^-1 phi_i in K139's native q=(0,0) and
-  q=(1,0) transformed domains. Serialize outward-certified A_q and M_q with
-  every infinite resolvent-dressed tail, prove H_q+s>=c_q>0, a lower bound on
-  the next distinct spectrum b_q, and the complete shifted form-dual residual.
-  Feed those data to K152, transport q=(0,1) only through the complete signed
-  flavor-unitary form/residual/gap certificate, and construct an equal-rank
-  cluster residual matrix before using K149's complete Gram and threshold
-  machinery. Do not seek another cutoff-uniform raw coupling norm, treat
-  K152's positive control or K151's finite inertias as native residual
-  energies, infer particle-hole symmetry on C3, call truncated finite-U/Ritz
-  values lower bounds, or test strict full-Fock Mourre constants before native
-  margins close.
+  K155 now gives the exact coefficient-complete finite regular pullback and a
+  certified finite Neumann truncation error, but not the cross-cutoff theorem.
+  Place the charge blocks on one explicit cylinder-core carrier, serialize the
+  normal-ordered coefficients of A_N, G_N, V_N and G_N^*A_NG_N, and prove
+  coefficientwise plus graph-relative convergence of the full pullback to one
+  R_256 with total residual tails. Independently abandon the standard
+  occupation-basis diagonal-stoquasticity route, which exact two-mode
+  frustrated cycles now exclude: either construct an invariant non-diagonal
+  positivity cone or certify a complete exterior-subspace lower bound/count
+  below a chosen b. Then feed form/action, Gram, coercivity, total residual and
+  count/gap data through K154 into K152, transport q=(0,1) only by the complete
+  signed flavor intertwiner, and use K149 for threshold order and Gram rank. Do
+  not relabel the finite R_N or its matrix tail as the native continuum
+  representative, infer degeneracy from sign frustration, or use finite
+  eigenvalue simplicity/gaps as a native count.
 
   K147 proves that the two native transitions sharing one impurity vertex do
   not satisfy a two-mode CAR algebra on C3: their own anticommutators omit the

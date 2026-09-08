@@ -7,6 +7,21 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K155 finite regular pullback and stoquasticity obstruction (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The finite K139 regular representative is coefficient-complete in K151's charge basis | exact CAR separation gives `C_N^*=C_N^T`; with `A_N=H0_N+lambda I`, `G_N=-A_N^-1C_N^*`, `U_N=I-G_N` and supplied finite counterterm `V_N`, exact rational multiplication proves `R_N=U_N^(-*)H_NU_N^-1=A_N+U_N^(-*)[V_N-lambda I-G_N^*A_NG_N]U_N^-1` | exact finite-regulator identity; counterterm coordinate is supplied and the continuum limit is not inferred |
+| A truncated Neumann pullback has a certified full-matrix error | simultaneous exact `q_1=||G_N||_1<1` and `q_inf=||G_N||_inf<1` give inverse tails and `||W_N||inf[t_1/(1-q_inf)+t_inf/(1-q_1)]`; the exact rational matrix error is checked below that bound | exact finite-matrix certificate, not a uniform common-carrier graph-tail theorem |
+| Signed flavor symmetry transports the finite regular representative | the K151 signed exterior permutation intertwines `H0,C,C^*,V,G,U,W,R` between `q=(1,0)` and `q=(0,1)` | exact finite-regulator intertwiner |
+| Occupation-basis Perron--Frobenius proves the representative ground count | one-mode graphs are connected and diagonally gauge-stoquastic, but the first two-mode q=(0,0) and q=(1,0) graphs contain exact six-cycles with edge-sign product `-1` instead of required `+1` | false for the standard diagonal-sign stoquastic route; does not prove degeneracy or exclude a non-diagonal positivity cone |
+| K155 supplies native `R_256`, total residual and next-spectrum data to K154/K152 | cross-cutoff common-carrier coefficient/graph convergence and a complete continuum count/exterior floor remain absent | false; no native energy interval, threshold/Gram, scattering, source/GU, Born, prediction or confirmation follows |
+
+Reproduce with
+`python3 tests/channel-swings/k155_finite_regular_pullback.py --demo`,
+`python3 tests/channel-swings/k155_finite_regular_pullback_stoquasticity_probe.py`
+and its baseline-first hostile check with `--selftest` (`50/50`, `30/30`).
+
 ## K154 regular-representative data sufficiency (2026-09-08)
 
 | Claim | Evidence | Honest grade |
