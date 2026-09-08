@@ -1781,6 +1781,13 @@ from a dated incident in which a green instrument certified nothing:
    this way; repaired 2026-08-15.)
 7. **Verification of a harness reads what the catches actually were**, not the
    summary line — a PASS built on crash-catches prints the same PASS.
+8. **State what each kind of check establishes.** Distinguish exact computation
+   or checked proof, numerical evidence, and manifest/prose consistency. A
+   Boolean assertion and a mutation that flips it certify reporting
+   consistency, not the asserted theorem. Mixed pass totals must identify
+   these evidence kinds; numerical sampling does not establish a universal or
+   continuum claim without a stated rigorous bridge. Point to the derivation
+   or proof supporting the larger claim.
 
 These rules bind new probes and repairs of old ones; they are not a mandate to
 retrofit every historical probe. Where an old probe is touched for another

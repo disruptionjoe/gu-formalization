@@ -110,6 +110,13 @@ dark-energy no-phantom-crossing measurement is the one observation that turns th
 
 ## Start Here
 
+Follow `AGENTS.md` and its object/source-routing prerequisites first. For a
+compact entry view, run `python3 scripts/research_context.py` after installing
+`requirements.txt`. It reads the current question, method ceiling, lead
+continuation, and first verification section directly from the existing
+files. The view is partial and does not select work: read the full relevant
+state, source rules, and exact evidence before choosing or reusing a result.
+
 - **Current branch-relative state:** `CURRENT-STATE.yaml`
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
 - **Reverse-search / forward-certification method contract:**

@@ -8,6 +8,7 @@ Markdown links resolve from `scripts/README.md`.
 
 from __future__ import annotations
 
+import importlib.util
 import re
 import unittest
 from dataclasses import dataclass
@@ -21,7 +22,7 @@ README = SCRIPTS / "README.md"
 
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
-EXPECTED_SCRIPT_FILES = {"reproduce_all.py"}
+EXPECTED_SCRIPT_FILES = {"reproduce_all.py", "research_context.py"}
 BOUNDARY_PHRASES = (
     "do not validate research claims",
     "does not change claim status",
@@ -118,6 +119,44 @@ class ScriptsReadmeSurfaceMapAudit(unittest.TestCase):
         self.assertIn("--tracked-only", self.text)
         self.assertIn("--list", self.text)
         self.assertIn("-k SUBSTR", self.text)
+
+
+class ResearchContextProjectionTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls) -> None:
+        spec = importlib.util.spec_from_file_location("gu_research_context", SCRIPTS / "research_context.py")
+        if spec is None or spec.loader is None:
+            raise AssertionError("could not load research_context.py")
+        cls.reader = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(cls.reader)
+
+    def test_section_retains_reproduction_and_nested_headings(self) -> None:
+        current = "## New result\n\nEvidence.\n### Reproduce\n```text\n## not a heading\n```\npython probe.py\n"
+        document = "---\ntitle: Verification\n---\n# Map\n\n" + current + "\n## Old result\nold\n"
+        self.assertEqual(current.rstrip(), self.reader.first_verification_section(document))
+
+    def test_missing_or_malformed_inputs_are_errors(self) -> None:
+        for document in ("# Map\nNo section", "## New result\n```python\nprint('unclosed')"):
+            with self.subTest(document=document), self.assertRaises(ValueError):
+                self.reader.first_verification_section(document)
+        state = {"purpose": "Purpose", "current_question": "Question?", "next_condition": "Next"}
+        for malformed in (None, "conditional", []):
+            with self.subTest(current_result=malformed), self.assertRaisesRegex(ValueError, "current_result mapping"):
+                self.reader.render_context({**state, "current_result": malformed}, "## Result\nEvidence")
+
+    def test_projection_omits_history_but_keeps_claim_ceiling(self) -> None:
+        state = {
+            "purpose": "Research purpose",
+            "current_result": {"status": "conditional", "summary": "HUGE_OLD_SUMMARY"},
+            "research_method_control": {"forward_certification": {"status": "blocked_at_action_root"}},
+            "current_question": "Actual current question?",
+            "next_condition": "First folded paragraph.\nOLD_NEXT_CONDITION",
+        }
+        result = self.reader.render_context(state, "## Current result\nConditional only.\npython probe.py\n## Old\nOLD_VERIFICATION\n")
+        for retained in ("PARTIAL ENTRY VIEW", "Actual current question?", "blocked_at_action_root", "First folded paragraph.", "python probe.py", "not an inferred newest result"):
+            self.assertIn(retained, result)
+        for omitted in ("HUGE_OLD_SUMMARY", "OLD_NEXT_CONDITION", "OLD_VERIFICATION"):
+            self.assertNotIn(omitted, result)
 
 
 if __name__ == "__main__":

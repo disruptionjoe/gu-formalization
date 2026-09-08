@@ -1,9 +1,9 @@
-# Python dependencies for the gu-formalization computational certificates.
+# Python dependencies for the gu-formalization certificates and contributor tools.
 #
 # Determined by grepping every `import`/`from ... import` across tests/ and the
 # paper/draft certificate scripts. Many certificates use only the standard library
-# (fractions, itertools, math) and need none of these; the three below cover the
-# certificates that do have third-party deps.
+# (fractions, itertools, math) and need none of these. NumPy, SciPy, and SymPy
+# cover those certificate dependencies; PyYAML supports the read-only context tool.
 #
 # Pin-free on purpose: the certificates check exact/structural facts, not floating
 # tolerances against a specific library build. Verified working on the versions noted.
@@ -13,6 +13,7 @@
 numpy    # linear algebra / index computations                 (verified: 2.5.1)
 scipy    # eigenvalues, null spaces, linear algebra helpers      (verified: 1.18.0)
 sympy    # exact symbolic checks in a handful of certs           (verified: 1.14.0)
+PyYAML   # current-state YAML reader in scripts/research_context.py
 
 # Not a Python dependency, but required for the Lean checks (separate from this harness):
 #   Lean 4.32.0-rc1 via elan  — see REPRODUCE.md.
