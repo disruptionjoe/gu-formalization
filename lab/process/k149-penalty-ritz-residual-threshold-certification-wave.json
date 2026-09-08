@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K149-PENALTY-RITZ-RESIDUAL-THRESHOLD-CERTIFICATION",
+  "created": "2026-09-08",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "vertices": [0, 1, 2],
+    "oriented_edges": [[0, 1], [0, 2]],
+    "particle_coupling": 1,
+    "hole_coupling": 1,
+    "mass": 1,
+    "screening_kappa": 1,
+    "threshold": "5/4",
+    "renormalized_W": 0,
+    "physically_selected": false
+  },
+  "penalty_ritz_enclosure": {
+    "penalty_projection": "Q12=n1*n2",
+    "commutes_with_both_charges": true,
+    "finite_penalty_is_native": false,
+    "penalty_minmax_direction": "lambda_k(U,q) increases to lambda_k(hc,q)",
+    "ritz_spaces_are_native_conforming": true,
+    "ritz_minmax_direction": "rho_k(N,q) decreases to lambda_k(hc,q)",
+    "two_sided_bracket": "lambda_k(U,q)<=lambda_k(hc,q)<=rho_k(N,q)",
+    "cofinal_width_converges_to_zero": true,
+    "applies_to": "isolated finite-multiplicity eigenvalues below a stable essential edge",
+    "truncated_finite_U_ritz_is_automatic_lower_bound": false
+  },
+  "cluster_transport": {
+    "requires_certified_cluster_count": true,
+    "requires_positive_gap": true,
+    "spectral_projection_gap_norm_converges": true,
+    "complete_gram_blocks": "P_q*C_alpha^*C_beta*P_q",
+    "includes_degenerate_off_diagonal_residual_entries": true,
+    "basis_covariant": true,
+    "rank_basis_invariant": true,
+    "gram_error_bound": "eta_G=2*m*c^2*eta_P",
+    "one_state_K148_block_is_complete_when_degenerate": false
+  },
+  "threshold_certification": {
+    "candidate_interval": "[l_a+tau,u_a+tau]",
+    "unique_first_test": "u_a<min_{b!=a}l_b",
+    "overlap_means": "unresolved_or_degenerate",
+    "gram_eigenvalue_error": "abs(mu_j^n-mu_j)<=eta_G",
+    "full_rank_test": "mu_d^n>eta_G",
+    "rank_lower_bound_test": "mu_s^n>eta_G implies rank>=s",
+    "deficient_exact_rank_requires_structural_kernel": true,
+    "numerical_smallness_proves_exact_zero": false
+  },
+  "positive_control": {
+    "matrix": [[0, 1], [1, 2]],
+    "penalty_projection": [[0, 0], [0, 1]],
+    "hard_core_ground": 0,
+    "penalty_ground_formula": "(U+2-sqrt((U+2)^2+4))/2",
+    "strictly_increasing_below_zero": true
+  },
+  "boundaries": {
+    "numerical_native_residual_energies": false,
+    "complete_charge_sector_point_spectrum": false,
+    "certified_IBC_quadrature_tail_solver": false,
+    "native_full_Fock_Mourre_or_scattering": false,
+    "many_body_asymptotic_completeness": false,
+    "NESS_or_current": false,
+    "physical_parameter_or_state_selection": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned convergence and certification theorem for the equal-coupling two-edge native hard-core signed point control: charge-sector isolated eigenvalues are squeezed between monotone finite-penalty min-max values and decreasing native form-core Ritz values; once an isolated cluster count and gap are certified, its spectral projection and complete basis-covariant residual form-factor Gram operator converge in norm; disjoint energy intervals certify the first residual threshold and a positive singular-value margin, together with an exact structural kernel bound when needed, certifies its rank. No numerical native residual energy, complete charge-sector spectrum, strict full-Fock Mourre/scattering, NESS/current, physical/source selection, Born, prediction or confirmation follows."
+}

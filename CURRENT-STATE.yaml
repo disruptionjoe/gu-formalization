@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7e480aa34835
+revision_basis: 40defae900d8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K149 penalty--Ritz Big Wave turns K148's unresolved operator-valued
+    residual problem into a convergent certification program. In every fixed
+    charge, exact finite-penalty min--max values increase to each isolated
+    native hard-core eigenvalue below a stable essential edge, while nested
+    native conforming form-core Ritz values decrease to it. Their two-sided
+    widths close along every cofinal penalty/basis path. Once an isolated
+    cluster count and gap are certified, aligned spectral projections converge
+    in norm, so the complete basis-covariant residual Gram operator with
+    blocks P C_alpha* C_beta P converges, including every off-diagonal entry
+    in a degenerate residual space. Disjoint energy intervals certify which
+    residual-plus-5/4 candidate is the first threshold. A Gram error bound and
+    positive smallest-eigenvalue margin certify full rank; a deficient exact
+    rank additionally requires a proved structural kernel, because numerical
+    smallness is not an exact zero. No certified singular-IBC lower solver or
+    numerical native residual table is yet supplied, so full-Fock Mourre,
+    scattering, NESS/current, physical/source selection, Born, prediction and
+    confirmation remain open.
     The K148 native hard-core Big Wave constructs the equal-coupling two-edge
     shared corner as the monotone infinite-U form limit of the two-flavor K146
     quadratic parent: the auxiliary double-impurity state is penalized and the
@@ -6994,6 +7011,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K149 proves that isolated native charge-sector eigenvalues and their full
+  degenerate residual form-factor matrices are certifiably approximable. Next
+  implement a singular-IBC finite-volume or spectral-tail solver that returns
+  certified lower bounds for the exact finite-penalty min--max values,
+  conforming native Ritz upper bounds, cluster counts/gaps and projection-error
+  bounds. Apply it first to the symmetry-related ground-carrying charges, then
+  close the first-threshold interval order and Gram-rank margins before testing
+  strict native Mourre constants. Do not call truncated finite-U Ritz values
+  lower bounds, infer exact zero singular values from numerical smallness, or
+  claim a numerical native spectrum before the tail certificates close.
+
   K147 proves that the two native transitions sharing one impurity vertex do
   not satisfy a two-mode CAR algebra on C3: their own anticommutators omit the
   other leaf and their cross anticommutators are nonzero. K146's quasifree

@@ -7,6 +7,19 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K149 penalty--Ritz residual and threshold certification (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Native isolated charge-sector eigenvalues can be enclosed from both sides | exact penalized min--max values increase to the hard-core values, while conforming native form-core Ritz values decrease to them | exact convergence theorem below a stable essential edge; no numerical IBC tail solver or native energy table is supplied |
+| Degenerate residual threshold data converge, not just eigenvalues | a certified cluster count and gap give norm convergence of aligned spectral projections; bounded Hubbard endpoints then give norm convergence of the complete block Gram operator `P C_alpha* C_beta P` | exact basis-covariant cluster/form-factor transport, including off-diagonal residual entries |
+| A finite computation can certify the first threshold and endpoint rank | disjoint energy intervals with `u_a<min l_b` fix the first edge; `||G_n-G||<=eta_G` and a positive singular-value margin certify full rank or a rank lower bound | exact finite stopping rules; deficient exact rank additionally needs a proved structural kernel, since numerical smallness is not zero |
+| The packet computes the native numerical residual spectrum or proves full-Fock Mourre/scattering | a certified lower solver for the penalized singular IBC form has not yet been implemented, and propagation needs the resulting closed energy/rank margins | false / explicitly fenced; no source/GU, Born, prediction or confirmation credit |
+
+Reproduce with
+`python3 tests/channel-swings/k149_penalty_ritz_residual_threshold_certification_probe.py`
+and run its baseline-first hostile check with `--selftest` (`46/46`, `32/32`).
+
 ## K148 native hard-core infinite-U, ground, and threshold boundary (2026-09-08)
 
 | Claim | Evidence | Honest grade |
