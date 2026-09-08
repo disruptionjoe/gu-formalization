@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3928ae6a2cd8970e5cbb56eb4a98c5069e45e66c
+revision_basis: ac2c3a2f41eb385e63a3066ff49565710660b4ec
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K160 spectator-Weyl weighted-denominator Big Wave corrects K159's
+    remaining topology premise. At z=-1 the matched sharp-cutoff diagonal
+    denominator tail converges on every fixed spectator-energy fiber, but its
+    magnitude is at least [4 pi]^-1 log(s/(4P)) along unbounded spectator
+    energy s. Hence every finite cutoff has infinite ordinary operator norm
+    on the complete spectator-Fock boundary space, and K159's unweighted dm
+    route is killed. Multiplication by (1+S)^-1 restores a uniform complete-
+    rectangle outward bound: 1049/49152 at Lambda=4096 and
+    1049/786432 at Lambda=65536. A weighted Neumann compiler converts a
+    complete weighted denominator error together with the independent
+    inverse-smoothing estimate ||(1+S)D^-1|| into an ordinary resolvent and
+    rank-transfer bound. The diagonal estimate is not the complete native
+    denominator: Pauli/exchange components, inverse smoothing, low-energy
+    separation, same-family rank, a left-tail floor and signed-charge
+    transport remain absent. No native count, K152 interval,
+    physical/source, Born, prediction or confirmation claim follows.
     The K159 fractional-boundary/Weyl-resolvent Big Wave closes K158's route
     discriminator sharply. For h(p)=(2 pi)^(-1/2)(omega(p)+256)^(-1),
     h belongs to Dom(omega^s) exactly for s<1/2. Thus it is Hilbert bounded
@@ -7170,13 +7186,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the explicit K139 boundary gamma field and operator-valued spectator-
-  Fock Weyl denominator be
-  constructed on K141's normalized cofinal cells with uniform complete-
-  contour inverse separation, same-family rank and a native left-tail floor;
-  or must the route switch to the regular-representative/K152 branch and
-  expose the five normal-ordered component tails plus the regular-core bound;
-  what are the resulting
+  Can the complete K139/K141 operator-valued Weyl denominator error be bounded
+  after one spectator-energy weight, including every Pauli/exchange component,
+  while proving ||(1+S)D_W(z)^-1|| and low-energy separation uniformly on the
+  complete K157 contour; or does either estimate fail and force the regular-
+  representative/K152 branch? If the weighted route closes, can same-family
+  rank, a native left-tail floor and signed-charge transport complete the
+  ground-count interface; what are the resulting
   bound-residual Pauli thresholds; and can actual response data or a
   source-owned GU action select the imported operator, orientation,
   polarization, couplings, W, kappa, domain and state?
@@ -7188,18 +7204,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K159 proves the sharp fractional threshold h in Dom(omega^s) iff s<1/2,
-  so neither K156's free-graph route nor a common-free-form replacement is
-  well typed. Derive the K139 extension's gamma field and operator-valued Weyl
-  denominator on spectator Fock space for the normalized K141 cofinal cells,
-  including the matched counterterm coordinate.
-  Prove uniform complete-contour bounds r0,dg,dm,d0 with d0*dm<1, exact rank
-  on those same cofinal matrices, and a native floor excluding spectrum below
-  -5. Do not double count the five normal-ordered tails as Weyl inputs. If the
-  denominator cannot be separated, switch to the regular-representative/K152
-  branch and then supply q_n, all four exchange tails, B, total residual,
-  coercivity and next-spectrum data. Strict s<1/2 convergence cannot be
-  promoted to the divergent form endpoint.
+  K160 proves that K159's ordinary operator-norm Weyl error is infinite at
+  every finite cutoff across unbounded spectator Fock space, despite
+  convergence on each fixed spectator-energy fiber. Keep the matched
+  counterterm coordinate and derive the complete K139/K141 denominator error
+  after one spectator-energy weight, including the diagonal Pauli and all
+  exchange pieces. Independently prove ||(1+S)D_W(z)^-1|| and low-energy
+  denominator separation uniformly on the complete K157 contour. If either
+  estimate fails, switch to the regular-representative/K152 branch and supply
+  q_n, all four exchange tails, B, total residual, coercivity and next-spectrum
+  data. If both close, add same-family rank, the native floor excluding
+  spectrum below -5 and the complete signed-charge intertwiner before any
+  count claim. Do not substitute a finite impurity matrix for K148's
+  operator-valued spectator-Fock denominator, promote fiberwise convergence
+  to norm convergence, or treat the diagonal weighted bound as the complete
+  denominator.
 
   K158 proves the exact generalized-pencil bridge and finite rectangle
   constants, but also proves that K156's requested free-H0 graph chart error

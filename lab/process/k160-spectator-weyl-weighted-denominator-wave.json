@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K160-SPECTATOR-WEYL-WEIGHTED-DENOMINATOR-WAVE",
+  "status": "UNWEIGHTED_SPECTATOR_NORM_ROUTE_KILLED_WEIGHTED_DENOMINATOR_INTERFACE_OPEN",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": {
+    "input_chain": ["K133", "K134", "K139", "K141", "K148", "K159"],
+    "model": "repository-supplied equal-coupling two-edge positive particle/hole point control",
+    "target_claim": "INTERNAL_TARGET:K159_UNWEIGHTED_SPECTATOR_WEYL_CONVERGENCE",
+    "target_claim_verdict": "ORDINARY_OPERATOR_NORM_ROUTE_KILLED_WEIGHTED_ROUTE_NOT_YET_FALSIFIED"
+  },
+  "unweighted_spectator_tail": {
+    "matched_counterterm_coordinate_retained": true,
+    "fixed_spectator_energy_convergence": true,
+    "spectator_energy_spectrum_unbounded": true,
+    "ordinary_operator_norm_cutoff_error_finite": false,
+    "ordinary_operator_norm_Weyl_convergence": false,
+    "K159_unweighted_native_dm_available": false,
+    "finite_impurity_matrix_substitution_allowed": false
+  },
+  "weighted_diagonal_route": {
+    "weight": "(1+S)^(-1)",
+    "complete_K157_rectangle_covered": true,
+    "diagonal_tail_rate": "O(Lambda^-1)",
+    "n4096_outward_upper": "1049/49152",
+    "Pauli_and_exchange_components_serialized": false,
+    "complete_native_weighted_denominator_error_serialized": false
+  },
+  "weighted_inverse_compiler": {
+    "complete_weighted_error_required": true,
+    "reference_inverse_smoothing_required": true,
+    "low_energy_denominator_separation_required": true,
+    "ordinary_unweighted_dm_required": false,
+    "abstract_positive_control_passes": true,
+    "native_inverse_smoothing_serialized": false,
+    "native_complete_contour_error_serialized": false
+  },
+  "count_boundary": {
+    "same_cofinal_reference_rank_required": true,
+    "same_cofinal_reference_rank_certified": false,
+    "native_left_floor_required": true,
+    "native_left_floor_certified": false,
+    "signed_charge_intertwiner_required": true,
+    "native_rank_one_count_certified": false
+  },
+  "boundaries": {
+    "native_ground_count_certified": false,
+    "native_energy_interval_emitted": false,
+    "threshold_or_Gram_closure": false,
+    "full_Fock_scattering_or_NESS": false,
+    "physical_or_source_selection": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned spectator-topology and weighted-certificate-interface result for the supplied two-edge positive-Fock point control. At every finite sharp cutoff, the matched diagonal Weyl tail converges for each fixed spectator energy but has infinite ordinary operator norm across the unbounded spectator-Fock spectrum, so K159's unweighted native dm route is killed. Multiplication by (1+S)^(-1) gives an exact O(Lambda^-1) outward bound on the complete K157 rectangle. A weighted Neumann compiler is valid only with a complete Pauli/exchange denominator error and an independently proved one-energy inverse-smoothing estimate on the same contour. Those native data, same-family rank and a left-tail floor remain absent. No native count, K152 interval, physical/source selection, Born derivation, prediction or confirmation follows."
+}

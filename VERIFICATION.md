@@ -7,6 +7,21 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K160 spectator-Weyl topology and weighted denominator (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The matched cutoff Weyl tail converges in ordinary norm on spectator Fock space | at `z=-1`, the active-edge vacuum diagonal obeys `|T_Lambda(s)| >= [4 pi]^-1 log(s/(4P))` as the unbounded spectator energy `s` grows | false for every finite cutoff; fixed-energy fiberwise convergence is not uniform operator-norm convergence |
+| Other normal-ordered components can cancel the obstruction | on the active-edge vacuum, Pauli terms vanish and flavor-changing exchange terms have zero diagonal expectation | false; the diagonal expectation already lower-bounds the full operator norm |
+| A spectator-energy weight repairs the diagonal ultraviolet tail | uniformly on the complete K157 rectangle, `||T_Lambda(S)(1+S)^-1|| <= 1/(3 Lambda)+(256+21/4)/(3 Lambda)` | exact outward `O(Lambda^-1)` diagonal bound; `1049/49152` at `Lambda=4096` |
+| The weighted denominator estimate feeds a Krein/Riesz transfer | `||(D_n-D)(1+S)^-1|| * ||(1+S)D^-1||<1` gives exact Neumann inverse and resolvent bounds | exact abstract compiler with a nonvacuous perimeter-ten positive control |
+| K160 supplies the complete native weighted denominator or count | Pauli/exchange errors, inverse smoothing, low-energy separation, same-family rank, left floor and charge intertwiner remain absent | false; no native count, K152 interval, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k160_spectator_weyl_weighted_denominator.py --demo`,
+`python3 tests/channel-swings/k160_spectator_weyl_weighted_denominator_probe.py`
+and its baseline-first hostile check with `--selftest` (`26/26`, `30/30`).
+
 ## K159 fractional boundary and Weyl-resolvent interface (2026-09-08)
 
 | Claim | Evidence | Honest grade |
