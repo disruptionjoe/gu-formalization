@@ -7,6 +7,21 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K154 regular-representative data sufficiency (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K139--K153's serialized chart/domain/charge facts determine the regular form and action | `R_t=R+t|phi><phi|` preserves the fixed chart, common domain, charge reduction, self-adjointness and semiboundedness while changing `r(phi,phi)` and `R phi` | false as a data implication; exact bounded-perturbation countermodel, not a claim of physical nonuniqueness |
+| One exact ground seed plus the HVZ essential edge supplies K152's next-distinct floor | `R_delta e_0=0`, `R_delta e_1=delta e_1`, `0<delta<tau_ess`, with common seed/action/residual and common essential edge | false; exact hidden-discrete-level family shows a separate spectral count or exterior-subspace proof is required |
+| A finite-cutoff second eigenvalue is automatically a native lower floor | K151 supplies exact finite matrices but K139 supplies no coefficient-complete regular tail/count enclosure connecting that value to the continuum complement | false; finite-regulator control remains non-native without a lower-enclosure theorem |
+| The K154 compiler closes when the complete abstract packet is supplied | exact rational generalized Rayleigh value, sign-correct transported coercivity, Hilbert-to-form-dual residual and K152 lower interval/projection bound | exact fail-closed interface; the fixture is an abstract positive control |
+| K154 emits a numerical native energy interval | coefficient-complete `R_256` form/action/tail data and a native spectral-count proof remain absent | false; no native threshold/Gram, propagation, source/GU, Born, prediction or confirmation follows |
+
+Reproduce with
+`python3 tests/channel-swings/k154_regular_representative_certificate.py --demo`,
+`python3 tests/channel-swings/k154_regular_representative_data_sufficiency_probe.py`
+and its baseline-first hostile check with `--selftest` (`43/43`, `32/32`).
+
 ## K153 Neumann-chart conforming cores (2026-09-08)
 
 | Claim | Evidence | Honest grade |

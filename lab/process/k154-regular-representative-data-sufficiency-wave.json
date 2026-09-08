@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K154-REGULAR-REPRESENTATIVE-DATA-SUFFICIENCY",
+  "created": "2026-09-08",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_scope": {
+    "input_chain": ["K139", "K151", "K152", "K153"],
+    "representative_charges": [[0, 0], [1, 0]],
+    "flavor_partner": [0, 1],
+    "chart_shift": 256,
+    "chart_contraction_upper": "3/8",
+    "physical_operator_claimed_nonunique": false,
+    "serialized_certificate_data_claimed_insufficient": true
+  },
+  "regular_data_obstruction": {
+    "bounded_charge_preserving_finite_rank_perturbations_preserve_common_domain": true,
+    "bounded_charge_preserving_finite_rank_perturbations_preserve_self_adjointness": true,
+    "bounded_charge_preserving_finite_rank_perturbations_preserve_semiboundedness": true,
+    "chart_and_charge_data_determine_regular_form_entries": false,
+    "chart_and_charge_data_determine_regular_action": false,
+    "coefficient_complete_regular_representation_required": true,
+    "countermodel_is_change_of_physical_operator": true,
+    "countermodel_proves_physical_nonuniqueness": false
+  },
+  "spectral_floor_obstruction": {
+    "one_seed_form_action_and_residual_determine_next_distinct_spectrum": false,
+    "essential_spectrum_edge_is_next_distinct_spectrum_floor": false,
+    "discrete_excited_levels_may_lie_below_essential_edge": true,
+    "finite_cutoff_second_eigenvalue_is_native_floor": false,
+    "required_extra_datum": "certified spectral count or exterior-subspace lower bound excluding every discrete excited level below b"
+  },
+  "positive_certificate_contract": {
+    "requires_fixed_operator_ref": true,
+    "requires_conforming_core_ref": true,
+    "requires_regular_form_matrix": true,
+    "requires_positive_hilbert_gram": true,
+    "requires_regular_action_and_total_hilbert_residual_proof": true,
+    "requires_regular_lower_bound_and_positive_transported_coercivity": true,
+    "requires_next_distinct_floor_and_spectral_count_proof": true,
+    "q01_requires_signed_flavor_intertwiner": true,
+    "essential_edge_only_fails_closed": true,
+    "finite_cutoff_only_fails_closed": true,
+    "complete_abstract_positive_control_closes_K152": true,
+    "native_K139_K153_packet_complete": false
+  },
+  "boundaries": {
+    "coefficient_complete_native_R256_serialized": false,
+    "native_dual_residual_closing_bound_serialized": false,
+    "native_next_distinct_spectrum_lower_bound_serialized": false,
+    "native_energy_interval_emitted": false,
+    "complete_native_threshold_or_Gram_margins": false,
+    "native_full_Fock_Mourre_or_scattering": false,
+    "NESS_or_current": false,
+    "physical_parameter_or_state_selection": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned certificate-data sufficiency theorem and fail-closed compiler only. K139--K153's serialized chart, domain, charge, seed and HVZ facts do not determine coefficient-complete regular form/action data or a lower floor for all spectrum outside the ground eigenspace: bounded charge-preserving finite-rank countermodels preserve those abstract facts while changing the missing entries or inserting a discrete excited level below the essential edge. This proves insufficiency of the serialized certificate data, not physical nonuniqueness of a fully specified Hamiltonian. A native K152 packet must additionally carry fixed-operator provenance, exact/outward regular form and action data, total Hilbert residual and coercivity bounds, plus a spectral-count or exterior-subspace proof of the next-distinct floor. Those native inputs remain absent, so no native energy interval, threshold/Gram, scattering, physical/source, Born, prediction or confirmation conclusion follows."
+}
