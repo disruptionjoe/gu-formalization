@@ -7,6 +7,22 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K157 nested-cylinder finite anchors and count transfer (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The representative charge cores are explicit and nested | empty-mode embeddings preserve hard-core charge, graph balls nest by radius, and the two-mode radius dimensions are `1,5,13,33,51` for `q=(0,0)` and `1,3,11,21,50` for `q=(1,0)` | exact finite-cylinder construction; signed flavor transports `(1,0)` to `(0,1)` |
+| The two-mode controls have rank-one islands below `-1` | exact rational congruence inertia gives count one and zero threshold multiplicity in both full blocks; exact Gershgorin bounds place both spectra above `-5` | exact finite-regulator spectral anchors, not native continuum counts |
+| K153's bare conforming seeds are numerical ground trials | the two-mode `(1,0)` block has at least two exact spectral values below its seed Rayleigh value; inverse iteration is required to obtain a ground-grade finite trial | false; conforming-domain seed status is preserved |
+| A first outward cofinal tail is numerical | for `delta_n=1/n`, `N_n=n^2`, K141 gives `d_A<=1/n`, and `omega(p)>=|p|`, `1/pi<1/3` give dressed-point tail square `<=1/(3n)` | exact outward elementary components; graph-boundary and normal-ordered-core constants remain missing |
+| Finite rank one transfers to the native carrier | extend the finite block by the decoupled free orthogonal tail, whose unit mass gap adds no spectrum to the rectangle; a complete common-carrier contour resolvent error `eta<3/5` gives `||P-P_N||<1` and hence equal projection rank | exact Riesz stability theorem; K141/K156 are qualitative and do not yet serialize native `eta` |
+| K157 emits a native count or K152 interval | the complete contour error and total K156 residual remain incomplete | false; no threshold/Gram, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k157_nested_cylinder_count_transfer.py --demo`,
+`python3 tests/channel-swings/k157_nested_cylinder_count_transfer_probe.py`
+and its baseline-first hostile check with `--selftest` (`25/25`, `22/22`).
+
 ## K156 common-carrier regular core and exterior count (2026-09-08)
 
 | Claim | Evidence | Honest grade |

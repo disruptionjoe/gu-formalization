@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8840e466006a
+revision_basis: f95c64e0cef2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K157 nested-cylinder/count-transfer Big Wave constructs explicit
+    representative-charge cores C_(M,r,q) by finite mode support and
+    interaction-graph radius. For the two-mode energies (5/4,3/2), the q=(0,0)
+    radius dimensions are 1,5,13,33,51 inside dimension 84 and the q=(1,0)
+    dimensions are 1,3,11,21,50 inside dimension 76. Exact rational inertia
+    gives one finite spectral value below -1 in each full two-mode block, and
+    two exact inverse iterations give outward finite Rayleigh/residual anchors.
+    The bare K153 q=(1,0) conforming seed has at least two finite spectral
+    values below its Rayleigh value, so it is a domain seed rather than a
+    ground-grade numerical trial. The cofinal choice delta_n=1/n, N_n=n^2
+    supplies d_A<=1/n and dressed-point tail square <=1/(3n), but the numerical
+    free-graph boundary and normal-ordered Pauli/exchange core constants remain
+    absent. A complete perimeter-ten Riesz contour transfers the exact finite
+    rank when its common-carrier resolvent error eta is below 3/5; K141/K156
+    give qualitative convergence but not that outward eta. Thus K157 emits no
+    native count or K152 interval, and no threshold/Gram, physical/source,
+    Born, prediction or confirmation claim follows.
     The K156 common-carrier regular-core Big Wave corrects and closes K155's
     cross-cutoff operator-identification obligation at the graph-relative
     level. K141's normalized momentum-cell embeddings place every finite
@@ -7121,10 +7138,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can explicit nested cylinder cores and outward evaluations of K156's total
-  regular-action tail produce native q=(0,0) and q=(1,0) residual bounds, and
-  can a free-gap or Lehmann--Goerisch argument prove the complete orthogonal
-  exterior floor needed for an exact ground count and K152 interval; what are
+  Can outward free-graph boundary and normal-ordered Pauli/exchange tail
+  constants close K156's total action bound on K157's explicit q=(0,0) and
+  q=(1,0) nested cores and make the complete perimeter-ten resolvent error
+  smaller than 3/5, or must equal-rank Lehmann--Goerisch replace that contour
+  transfer; what are
   the resulting bound-residual Pauli thresholds; and can actual response data
   or a source-owned GU action select the imported operator, orientation,
   polarization, couplings, W, kappa, domain and state?
@@ -7136,20 +7154,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K156 now identifies one common-carrier graph-relative regular R_256 and the
-  exact total-action tail formula. The raw endpoint counterterm V_N does not
-  converge separately: its logarithmic c_N D term cancels the matching vacuum
-  contraction in G_N^*A_NG_N before the limit, leaving the convergent
-  normal-ordered finite remainder. Next choose explicit nested cylinder cores in
-  q=(0,0) and q=(1,0), evaluate finite regular form/action columns and every
-  component of the propagated tail with outward bounds, and prove a complete
-  exterior compression QHQ>=d above a chosen b. If rho<b<d closes, feed the
-  count, total residual, Gram and coercivity packet through K154 into K152,
-  transport q=(0,1) only by the complete signed flavor intertwiner, and use
-  K149 for threshold order and Gram rank. If the free-gap minorant fails,
-  switch to equal-rank Lehmann--Goerisch. Do not use the HVZ edge or a finite
-  regulator gap as the complete exterior floor, retry occupation-basis
-  diagonal stoquasticity, or infer degeneracy from its frustrated cycles.
+  K157 fixes explicit nested mode/graph-radius cores and exact two-mode
+  rank-one islands below -1 in both representative charges. Its cofinal ledger
+  evaluates the free multiplier and Hilbert dressed-point tails, but not the
+  free-graph boundary constant d_GD,n or the complete normal-ordered
+  Pauli/spectator-plus-four-exchange constant d_W,n. Prove those two outward
+  bounds, propagate every term and both inverse-chart sides of K156 equation
+  (14), and convert the result into a uniform common-carrier resolvent error on
+  K157's rectangle. If eta<3/5, transfer rank one by the complete Riesz contour
+  and feed the actual residual/coercivity/gap data through K154/K152; otherwise
+  enlarge the core/contour or run equal-rank Lehmann--Goerisch. Transport
+  q=(0,1) only by the complete signed flavor intertwiner. Do not treat the
+  finite island, HVZ edge, K153 seed line or qualitative convergence as a
+  native count.
 
   K147 proves that the two native transitions sharing one impurity vertex do
   not satisfy a two-mode CAR algebra on C3: their own anticommutators omit the

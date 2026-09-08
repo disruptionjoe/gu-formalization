@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K157-NESTED-CYLINDER-COUNT-TRANSFER-WAVE",
+  "date": "2026-09-08",
+  "status": "EXACT_NESTED_CYLINDER_FINITE_ANCHORS_AND_COMPLETE_RIESZ_COUNT_TRANSFER_BOUNDARY",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "nested_cylinder_cores": {
+    "finite_mode_support_is_nested": true,
+    "graph_radius_is_nested": true,
+    "q00_and_q10_are_explicit": true,
+    "signed_flavor_transports_q10_to_q01": true,
+    "finite_mode_cutoff_is_not_a_native_spectral_projection": true
+  },
+  "finite_anchors": {
+    "two_mode_q00_has_exactly_one_value_below_minus_one": true,
+    "two_mode_q10_has_exactly_one_value_below_minus_one": true,
+    "inverse_iteration_trials_have_exact_rational_residuals": true,
+    "bare_K153_seed_is_not_called_a_ground_trial": true,
+    "finite_count_is_native_count": false
+  },
+  "outward_tail_ledger": {
+    "cofinal_delta_and_momentum_radius_are_explicit": true,
+    "free_multiplier_and_dressed_Hilbert_tail_are_outward_bounded": true,
+    "graph_boundary_constant_remains_missing": true,
+    "normal_ordered_core_constant_remains_missing": true,
+    "complete_total_tail_is_not_emitted": true
+  },
+  "complete_count_transfer": {
+    "finite_rank_one_contours_are_exact": true,
+    "finite_reference_is_extended_by_a_decoupled_free_tail_on_the_common_carrier": true,
+    "Riesz_projection_difference_bound_is_proved": true,
+    "rank_is_preserved_when_projection_norm_difference_is_below_one": true,
+    "complete_native_contour_error_remains_missing": true,
+    "finite_threshold_or_HVZ_edge_is_not_substituted": true
+  },
+  "boundaries": {
+    "native_ground_count_certified": false,
+    "native_energy_interval_emitted": false,
+    "threshold_or_Gram_closure": false,
+    "physical_or_source_selection": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned nested finite-mode and graph-radius cylinder cores for the supplied two-edge positive-Fock control; the two-mode q=(0,0) and q=(1,0) matrices each have an exact finite rank-one spectral island below -1, with exact rational inverse-iteration residual anchors and elementary outward free/dressed-point cofinal tails. A complete contour resolvent bound transfers that rank by Riesz projection stability, but the graph-boundary and normal-ordered regular-core constants needed for the complete contour error are still missing, so the finite rank-one anchors give no native count, K152 interval, physical/source selection, Born rule, prediction or confirmation."
+}
