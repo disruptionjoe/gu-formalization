@@ -7,6 +7,22 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K163 Galerkin regular-pullback compatibility obstruction (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Physical dyadic refinement is compatible with the free form | one width-two cell with normalized point coupling `sqrt(2)` splits into two width-one children with couplings `1,1`; child energies `1,3` compress to coarse energy `2` | exact `Q(sqrt(2))` Galerkin congruence on the complete q=(0,0) hard-core blocks of dimensions `8` and `84` |
+| Independently rebuilding the cutoff Hamiltonian gives the native coarse Galerkin matrix | the matched endpoint coefficient changes from `2/(2+4)` to `1/(1+4)+1/(3+4)`, producing vacuum-form defect `2/105` | false; cutoff subtraction data are scale dependent, so K155/K157 matrices remain regulator controls unless a same-family approximation theorem identifies them |
+| The nonlinear K139 regular pullback repairs that commuting square automatically | exact evaluation of both inverse-chart sides leaves a nonzero vacuum-entry defect | false; define coarse forms by compression of one fixed limiting regular form or enclose a same-family cutoff-to-limit defect |
+| K161's five tails evaluate fixed cylinder action columns | `||(W_Lambda-W)phi|| <= epsilon_Lambda||(1+S)phi||`; for spectator energy `4`, the outward bounds are `396385/319488` at `Lambda=4096` and `33111485/123076608` at `Lambda=65536` | exact conditional column enclosure requiring a same-family finite anchor and K162 refinement/Gram proof |
+| The column enclosure closes K152 | a column norm is not the full shifted form-dual residual and supplies no coercivity, next-distinct-spectrum floor or below-`-5` native floor | false; no native count or interval follows |
+| K163 changes source or ledger truth | `SC-META-53` remains `UNCERTAIN`; `LT-SM8`, `RA-F1` and `AC-F1` remain `NEEDS` | false; no physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k163_galerkin_regular_pullback_commutation_obstruction.py --demo`,
+`python3 tests/channel-swings/k163_galerkin_regular_pullback_commutation_obstruction_probe.py`
+and its baseline-first hostile check with `--selftest` (`26/26`, `19/19`).
+
 ## K162 dyadic cofinal regular-core refinement (2026-09-08)
 
 | Claim | Evidence | Honest grade |

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8c3ff9edebc331e4c1be6b5c22f4c282bca84301
+revision_basis: e136ad58a5a8a3b035f4522f23e99ed055853d29
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K163 Galerkin regular-pullback compatibility Big Wave tests the first
+    native-data step released by K162. In an exact physical one-cell-to-two-
+    cell control, the width-two point coupling sqrt(2), child couplings 1,1
+    and child energies 1,3 give exact free-form Galerkin congruence on the
+    complete q=(0,0) hard-core blocks of dimensions 8 and 84. Independently
+    rebuilding the matched cutoff counterterm does not commute: the vacuum
+    raw-form defect is exactly 2/105. Exact evaluation of both nonlinear K139
+    inverse-chart sides also leaves a nonzero regular-pullback defect. Thus
+    K155's arbitrary finite modes and K157's zero-fill matrices remain
+    regulator controls, not native K162 coarse anchors. K161's five weighted
+    tails do give the fixed-cylinder inequality
+    ||(W_Lambda-W)phi||<=epsilon_Lambda||(1+S)phi||; at spectator energy 4
+    the outward column bounds are 396385/319488 for Lambda=4096 and
+    33111485/123076608 for Lambda=65536. But no same-family finite anchor,
+    complete shifted form-dual residual, coercivity, next-distinct-spectrum
+    floor or native left floor is supplied. No native K152 interval,
+    physical/source, Born, prediction or confirmation claim follows.
+
     The K162 dyadic cofinal regular-core refinement Big Wave repairs the
     common-carrier family needed by the selected K152 route. For
     delta_j=2^-j and Lambda_j=2^j, every unnormalized coarse momentum-cell
@@ -7226,14 +7244,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On K162's exact dyadic exterior refinement, can K156's regular
-  representative be evaluated on fixed coarse cylinder vectors so that
-  K161's five normal-ordered tails yield one outward regular-core bound B,
-  total shifted form-dual residual and coercivity estimate, together with the
-  next distinct spectral floor and a native floor below -5 needed by K152;
-  what bound-residual Pauli thresholds then follow, and can actual response data or a
-  source-owned GU action select the imported operator, orientation,
-  polarization, couplings, W, kappa, domain and state?
+  Can the normal-ordered K139 regular form be constructed directly on K162's
+  common dyadic carrier so every finite matrix is an exact compression of one
+  fixed form, and can one same-family cutoff anchor plus K161's five tails
+  then supply complete fixed-cylinder columns, a shifted form-dual residual,
+  coercivity, the next-distinct-spectrum floor and a native floor below -5
+  needed by K152; what bound-residual Pauli thresholds follow, and can actual
+  response data or a source-owned GU action select the imported operator,
+  orientation, polarization, couplings, W, kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7242,19 +7260,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K162 supplies the literal K141 cofinal family, exact non-identity Gram and
-  form congruence, hard-core exterior charge transport and complete signed
-  flavor intertwiner. Evaluate K156's regular representative on fixed coarse
-  cylinder vectors transported by that exact exterior map. Use K161's q_n and
-  all four exchange tails to prove Cauchy regular action columns and one
-  outward B, complete shifted form-dual residual and coercivity estimate.
-  Then prove the next-distinct-spectrum lower bound and a native floor
-  excluding spectrum below -5 on the same family; if the exterior free-gap
-  minorant fails, use form-level Lehmann--Goerisch. Feed only that complete
-  packet to K152. Do not substitute K157 zero-fill for physical refinement,
-  reopen the weighted route without a changed topology, identify a regulator
-  anchor with a cofinal matrix, or count a bounded island as all spectrum
-  below -1.
+  K163 proves that independently rebuilding K155's finite counterterm and
+  nonlinear regular pullback does not commute with K162 refinement, despite
+  exact free-form congruence; the raw q=(0,0) defect is 2/105. Construct the
+  normal-ordered K139 regular form directly on K162's common carrier and
+  define every finite form matrix by exact Galerkin compression of that one
+  form. Alternatively, evaluate one same-family cutoff form and attach the
+  complete K161 five-tail enclosure. Use its fixed-cylinder column bounds to
+  prove the full shifted form-dual residual and coercivity, then establish the
+  next-distinct-spectrum and below-minus-five native floors by a complete
+  exterior argument or form-level Lehmann--Goerisch. Feed only that complete
+  packet to K152. Do not reuse K155's arbitrary two modes or K157 zero-fill as
+  a native anchor, reopen the weighted inverse route without changed
+  topology, or count a bounded island as all spectrum below -1.
 
   K158 proves the exact generalized-pencil bridge and finite rectangle
   constants, but also proves that K156's requested free-H0 graph chart error
