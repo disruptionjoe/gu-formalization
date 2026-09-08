@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 40defae900d8
+revision_basis: 156385da21cc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K150 certified Schur-tail Big Wave implements the exact rational
+    certificate kernel that K149 left implicit. Symmetric congruence inertia
+    and rational bisection isolate finite conforming Ritz values without
+    floating-point sign decisions. For a proved full-operator block
+    decomposition with complement floor D>=d and coupling norm squared at
+    most beta^2, the kernel returns the rigorous lower endpoint
+    [a+d-sqrt((d-a)^2+4 beta^2)]/2 and the conforming Ritz upper endpoint. A
+    certified residual smaller than the true exterior separation propagates
+    to a projection error, then to the complete degenerate residual Gram
+    operator, first-threshold order and exact-rank margins. The solver fails
+    closed on missing separation, bad symmetry assumptions, unresolved Gram
+    margins or deficient rank without a structural kernel. K139--K149 do not
+    yet serialize the native charge-sector IBC basis, exact transformed
+    coefficients, complement floor, coupling norm or charge-intertwining
+    symmetries, so the executable positive control is non-native and no
+    numerical native residual table, full-Fock Mourre/scattering, physical or
+    source selection, Born, prediction or confirmation follows.
     The K149 penalty--Ritz Big Wave turns K148's unresolved operator-valued
     residual problem into a convergent certification program. In every fixed
     charge, exact finite-penalty min--max values increase to each isolated
@@ -7011,16 +7028,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K149 proves that isolated native charge-sector eigenvalues and their full
-  degenerate residual form-factor matrices are certifiably approximable. Next
-  implement a singular-IBC finite-volume or spectral-tail solver that returns
-  certified lower bounds for the exact finite-penalty min--max values,
-  conforming native Ritz upper bounds, cluster counts/gaps and projection-error
-  bounds. Apply it first to the symmetry-related ground-carrying charges, then
-  close the first-threshold interval order and Gram-rank margins before testing
-  strict native Mourre constants. Do not call truncated finite-U Ritz values
-  lower bounds, infer exact zero singular values from numerical smallness, or
-  claim a numerical native spectrum before the tail certificates close.
+  K150 supplies an exact rational inertia/Schur-tail certificate engine and
+  propagates certified residual/gap inputs through projection, complete Gram,
+  first-threshold and rank decisions. Next assemble K139's transformed
+  equal-coupling two-edge operator in the two native ground-charge orbit
+  representatives: serialize an exact finite conforming basis and matrix,
+  prove the complement floor and off-diagonal coupling bound, and certify the
+  charge-intertwining unitaries. Feed those inputs to K150 and refine until the
+  residual threshold intervals and full Gram margins close. If the transformed
+  off-diagonal block is not bounded, switch to a form-level Lehmann--Goerisch
+  certificate rather than weakening the Schur hypothesis. Do not treat K150's
+  finite fixture as native data, call truncated finite-U Ritz values lower
+  bounds, infer exact zero singular values from numerical smallness, or test
+  strict full-Fock Mourre constants before native margins close.
 
   K147 proves that the two native transitions sharing one impurity vertex do
   not satisfy a two-mode CAR algebra on C3: their own anticommutators omit the

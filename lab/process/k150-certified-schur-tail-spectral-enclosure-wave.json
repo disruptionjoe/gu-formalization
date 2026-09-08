@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K150-CERTIFIED-SCHUR-TAIL-SPECTRAL-ENCLOSURE",
+  "created": "2026-09-08",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "solver": {
+    "path": "tests/channel-swings/k150_certified_schur_tail_solver.py",
+    "arithmetic": "exact_rational",
+    "finite_spectral_method": "symmetric congruence inertia plus rational bisection",
+    "irrational_bound_method": "outward dyadic square-root enclosure",
+    "fails_closed": true,
+    "assembles_native_ibc_inputs": false
+  },
+  "block_tail_certificate": {
+    "operator_block": "H=[[A,B*],[B,D]]",
+    "required_complement_floor": "D>=d",
+    "required_coupling_bound": "norm(B)^2<=beta2",
+    "required_separation": "ritz_upper<d",
+    "lower_formula": "(a_lower+d-sqrt((d-a_lower)^2+4*beta2))/2",
+    "upper_formula": "ritz_upper",
+    "supports_ordered_eigenvalue_index": true,
+    "truncated_eigenvalue_is_automatic_lower_bound": false
+  },
+  "cluster_and_gram_certificate": {
+    "requires_certified_cluster_count": true,
+    "requires_true_exterior_separation": true,
+    "projection_error_formula": "eta_P=residual_norm_upper/exterior_separation_lower",
+    "requires_residual_below_separation": true,
+    "gram_error_formula": "eta_G=2*m*c^2*eta_P",
+    "first_threshold_test": "u_a<min_{b!=a}l_b",
+    "full_rank_test": "all approximate Gram eigenvalues exceed eta_G",
+    "deficient_exact_rank_requires_structural_kernel": true,
+    "charge_symmetry_transport_requires_proved_unitary": true
+  },
+  "native_input_contract": {
+    "required": [
+      "exact conforming charge-sector Ritz matrix",
+      "proved complement lower floor",
+      "proved off-diagonal coupling norm-square upper bound",
+      "certified cluster count and exterior separation",
+      "certified subspace residual norm",
+      "complete residual Gram matrix with every degenerate off-diagonal entry",
+      "structural kernel proof for any deficient exact rank",
+      "proved charge-intertwining unitary before symmetry reduction"
+    ],
+    "currently_serialized_for_k148": false,
+    "missing": "finite charge-sector IBC basis and exact transformed coefficients, complement floor, coupling bound, residual matrix and charge-intertwining symmetry certificate",
+    "numerical_native_table_emitted": false
+  },
+  "positive_control": {
+    "ritz_matrix": [["-1", "1/4"], ["1/4", "1/2"]],
+    "eigenvalue_index": 1,
+    "complement_floor": "3",
+    "coupling_norm_sq_upper": "1/16",
+    "projection_error_upper": "1/50",
+    "gram_error_upper": "4/25",
+    "gram_rank_certified": 4,
+    "first_threshold_candidate": "a",
+    "first_threshold_certified": true,
+    "is_native_ibc_computation": false
+  },
+  "boundaries": {
+    "native_ibc_matrix_assembled": false,
+    "numerical_native_residual_energies": false,
+    "complete_charge_sector_point_spectrum": false,
+    "native_full_Fock_Mourre_or_scattering": false,
+    "many_body_asymptotic_completeness": false,
+    "NESS_or_current": false,
+    "physical_parameter_or_state_selection": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned rational certificate kernel and block-operator theorem only: exact inertia isolates finite conforming Ritz values; an independently proved complement floor and coupling norm give rigorous full-operator Schur lower enclosures; certified residual and exterior-gap inputs propagate to projection, complete Gram, first-threshold and rank decisions. The solver does not assemble K148's native singular-IBC matrix or tail constants and emits no native numerical residual spectrum, full-Fock Mourre/scattering, physical/source, Born, prediction or confirmation claim."
+}

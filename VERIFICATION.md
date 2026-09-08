@@ -7,6 +7,20 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K150 certified Schur-tail spectral enclosure kernel (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Finite conforming Ritz spectra can be isolated without floating-point sign decisions | exact symmetric congruence inertia counts eigenvalues below every rational cut; rational bisection retains multiplicity and dyadic integer arithmetic rounds square roots outward | exact finite-matrix certificate algorithm |
+| A finite Ritz value receives a rigorous full-operator lower endpoint | for `H=[[A,B*],[B,D]]`, proved `D>=d`, `norm(B)^2<=beta^2` and `a_k^+<d` imply `[a_k^-+d-sqrt((d-a_k^-)^2+4 beta^2)]/2 <= lambda_k(H) <= a_k^+` by weighted Cauchy and min--max | exact block-operator theorem conditional on certified operator-specific tail inputs; a truncation alone is not a lower bound |
+| Cluster data propagate to complete threshold and rank decisions | certified residual `r<delta` gives `eta_P=r/delta`; K149 gives `eta_G=2mc^2 eta_P`; exact inertia then checks interval order and Gram margins, while deficient exact rank requires a structural kernel | exact certificate propagation, including degenerate off-diagonal Gram entries |
+| The kernel computes K148's native residual energies | K139--K149 do not yet serialize the required native finite basis/matrix, complement floor, coupling norm, residual, complete Gram data or charge-intertwining symmetry proof | false / explicitly fenced; the built-in matrix is a non-native positive control and no numerical native table, Mourre/scattering, source/GU, Born, prediction or confirmation follows |
+
+Reproduce with
+`python3 tests/channel-swings/k150_certified_schur_tail_solver.py --demo`,
+`python3 tests/channel-swings/k150_certified_schur_tail_spectral_enclosure_probe.py`
+and its baseline-first hostile check with `--selftest` (`52/52`, `32/32`).
+
 ## K149 penalty--Ritz residual and threshold certification (2026-09-08)
 
 | Claim | Evidence | Honest grade |
