@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0b8ed53a41e5
+revision_basis: 65a693d557d2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,31 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K144 explicit-screened/Friedrichs-threshold Big Wave fixes the first
+    fully specified nonzero family after K143, while keeping its projected
+    scope exact. On C9 direct-sum L2(R;C36), set
+    m=kappa=|q|=|g_plus|=|g_minus|=1, use the positive screened self energy
+    1/4, subtract at energy zero and set the renormalized W=0. The signed rook
+    endpoint map obeys Gamma Gamma*=4 I9, so a channel unitary splits the model
+    into nine identical scalar bright Friedrichs blocks and twenty-seven free
+    continuum combinations. The subtracted Weyl function
+    M(z)=z integral dp/(2 pi epsilon(p)(epsilon(p)-z)) has the sign of z below
+    the 5/4 threshold. Therefore the scalar denominator -z-4M(z) has exactly
+    one root at zero, giving nine bound states; the remaining spectrum is
+    purely absolutely continuous [5/4,infinity) with 36 channel species, two
+    momentum branches each and spectral multiplicity 72, with no embedded
+    eigenvalue. Point coupling reaches only each bright channel's even branch;
+    its odd branch is free. The sole threshold has Gamma_tau=Gamma, rank nine,
+    no dark impurity direction and a vacuous compressed denominator. Its
+    bright impurity response vanishes like sqrt(E-5/4), giving t^-3/2 compact-
+    cutoff local decay after bound-state projection, while the 27 free channel
+    combinations retain the ordinary one-dimensional branch point. The
+    resolvent difference has rank at most eighteen, so wave operators exist
+    and are complete for this one-excitation benchmark only. The projection
+    is not an invariant full number-changing Fock theorem. The probe passes
+    59/59 and catches 49/49 hostile mutations. No full-Fock residual census,
+    many-body Mourre/Moller/Ruelle or NESS/current theorem, physical selector,
+    smooth parent, source/GU action, Born, prediction or confirmation follows.
     The K143 periodic-screened/Mosco/HVZ Big Wave connects K142's direct line
     form to the natural finite boxes, but only in the topology the estimates
     support. The periodic Yukawa kernel has exact circle integral kappa^-2,
@@ -6874,15 +6899,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  For one explicitly fixed W, kappa and coupling family, what are every
-  residual bound state, threshold channel matrix Gamma_tau and compressed
-  dark denominator; can threshold eigenvalues and resonances be excluded or
-  projected and can Mourre/weighted-resolvent estimates be made uniform across
-  the surviving thresholds and high energy; does that support Moller/Ruelle
-  completeness and later return-to-NESS; what topology-changing finite-volume
-  identification could defeat the periodic seam witness; and can an actual
-  response or source-owned GU action select the imported free operator, time
-  orientation, polarization, charges, couplings, W, kappa, domain and state?
+  What is the first genuinely invariant residual family of the complete
+  number-changing signed Fock Hamiltonian; what are all of its bound states,
+  Pauli-available escape channels, Gamma_tau matrices and compressed dark
+  denominators; can the problem-matched Mourre commutator, threshold-weighted
+  resolvent and high-energy bounds be proved on its continuous subspace before
+  attempting many-body Moller/Ruelle completeness and later return-to-NESS;
+  what topology-changing finite-volume identification could defeat the
+  periodic seam witness; and can an actual response or source-owned GU action
+  select the imported free operator, time orientation, polarization, charges,
+  couplings, W, kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6891,6 +6917,27 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K144 completely solves one explicitly fixed positive self-inclusive vacuum-
+  plus-one-excitation signed-rook Friedrichs benchmark. With
+  m=kappa=|q|=|g_plus|=|g_minus|=1, subtraction at zero and renormalized W=0,
+  Gamma Gamma*=4 I9 yields nine scalar bright blocks and twenty-seven free
+  channels. The complete point spectrum is zero with multiplicity nine; the
+  continuous spectrum is [5/4,infinity) with 36 channel species and spectral
+  multiplicity 72; point coupling reaches only the even momentum branch. The sole
+  threshold has full impurity rank and a zero-dimensional compressed dark
+  denominator. Bright impurity response has square-root onset and t^-3/2
+  compact-cutoff decay, while the free channel branch point remains. Finite-
+  rank resolvent comparison gives complete wave operators only for this
+  projected benchmark. Next identify the first invariant residual family of
+  the full number-changing Fock operator, compute its bound spectrum and every
+  Pauli-restricted Gamma_tau, apply the compressed denominator wherever rank
+  falls, and prove the corresponding Mourre, weighted-resolvent and high-
+  energy estimates before any many-body Moller/Ruelle claim. Return-to-NESS
+  and current remain a separate open-system problem. Do not promote the
+  projected spectrum, local response estimate or trace-class comparison to
+  the complete interacting Fock model, and do not call the fixed benchmark
+  parameters physically or source selected.
+
   K143 proves that the natural periodic screened forms Mosco-converge through
   the finite signed IBC chart to K142's common-carrier positive and normally
   ordered forms, hence their operators converge in strong resolvent. A

@@ -7,6 +7,22 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K144 explicit screened Friedrichs threshold boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One fixed screened signed-rook family has an exact bright/dark decomposition | for `m=kappa=|q|=|g_plus|=|g_minus|=1`, positive self energy `1/4`, subtraction at zero and renormalized `W=0`, the endpoint rows have disjoint support and `Gamma Gamma*=4 I9` | exact repository-supplied vacuum-plus-one-excitation Friedrichs benchmark: nine scalar bright blocks plus 27 free channel combinations; parameters are not physically selected |
+| The complete projected bound spectrum is known | `M(z)=z integral dp/(2 pi epsilon(p)(epsilon(p)-z))` has the sign of `z` below `5/4`, so `-z-4M(z)` has exactly the root zero; its continuum tail is square integrable | exact point spectrum `{0}` with multiplicity nine on the declared projected carrier |
+| No embedded or singular-continuous spectrum remains | above `5/4`, `Im M(E+i0)>0` on every bright even branch; odd momentum branches and free channel-label combinations are multiplication operators with no `L2` eigenvectors, and the explicit boundary formula has no singular support | exact `sigma_ac=[5/4,infinity)` with 36 channel species and spectral multiplicity 72 for the projected benchmark, not a full-Fock spectral theorem |
+| The threshold dark-denominator test closes | the only residual energy is zero and every channel opens at `5/4`; `Gamma_tau=Gamma`, `D_tau=4 I9`, hence `ker D_tau=0` | exact zero-dimensional/vacuous compressed dark denominator and no impurity-local threshold pole; the 27-dimensional channel kernel remains a free branch point |
+| The bright threshold response has integrable local decay | `rho_0(E)=(E-1/4)/(pi sqrt((E-1/4)^2-1))`, while inversion of the full-rank denominator gives impurity density `O(sqrt(E-5/4))` | exact threshold exponent and `O(t^-3/2)` smooth compact-cutoff impurity-local decay after projecting the nine bound states; not a full weighted-channel estimate |
+| The projected scattering problem is complete | the resolvent correction factors through nine impurity and nine dressed-continuum directions, so its rank is at most eighteen and it is trace class | exact existence and completeness of one-excitation wave operators by resolvent comparability; no many-body Moller/Ruelle, NESS or current theorem |
+| The benchmark selects physical or GU data | every mass, screening, charge, coupling, subtraction and extension value was fixed by the repository construction | false; no source/GU action, measurement or physical selector is supplied |
+
+Reproduce with
+`python3 tests/channel-swings/k144_explicit_screened_friedrichs_threshold_probe.py`
+and run its baseline-first hostile check with `--selftest` (`59/59`, `49/49`).
+
 ## K143 periodic screened Mosco, HVZ, and dark-rank boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
