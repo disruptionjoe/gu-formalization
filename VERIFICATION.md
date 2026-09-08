@@ -7,6 +7,22 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K158 generalized-pencil contour budget and free-graph obstruction (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K156's regular representative has the same ordinary spectrum as the singular Hamiltonian | exact algebra gives the pencil `T(z)=R-zU^(-*)U^-1=U^(-*)(H-z)U^-1`, with `(H-z)^-1=U^-1T(z)^-1U^(-*)` | false; nonunitary congruence requires the chart Gram and both outer inverse factors |
+| The finite K157 rectangles have numerical resolvent margins | exact inertia leaves `[-3/2,-1/2]` empty in `q=(0,0)` and `[-5/4,-3/4]` empty in `q=(1,0)`; horizontal distance is `1/2` and Gershgorin gives left distance above one | exact two-mode reference bounds `2` and `4`, with safe pencil/graph bounds `(3,552)` and `(5,1103)` |
+| K157's displayed Hilbert boundary tail is complete | the omitted K141 cell error adds `1/(768n^2)` per channel, giving `d_G,n<=4 sqrt(1/(3n)+1/(768n^2))` | corrected outward Hilbert bound |
+| K156's free-graph `d_GD,n` is finite | on the vacuum, the omitted point-creation tail has `h~1/p` but `omega h` tends a nonzero constant, so it is outside `Dom(H0)` after every finite cutoff | false; the particle-number graph estimate cannot substitute, and K156 equations (13)--(14) cannot be instantiated in the named topology |
+| The finite rectangle proves a native ground count once its local rank transfers | the two-mode rational reference is not identified with K141's cofinal matrices, and a contour around `[-5,-1]` does not exclude native spectrum below `-5` | false; certify a cofinal reference plus a native left-tail floor or use a complete real-axis/equal-rank route |
+| K158 emits a native count or K152 interval | `d_W`, `B`, the repaired boundary-domain resolvent estimate, cofinal rank and native lower floor remain absent | false; no threshold/Gram, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k158_generalized_pencil_contour_budget.py --demo`,
+`python3 tests/channel-swings/k158_generalized_pencil_contour_budget_probe.py`
+and its baseline-first hostile check with `--selftest` (`25/25`, `24/24`).
+
 ## K157 nested-cylinder finite anchors and count transfer (2026-09-08)
 
 | Claim | Evidence | Honest grade |
@@ -15,7 +31,7 @@ updated_at: "2026-09-08"
 | The two-mode controls have rank-one islands below `-1` | exact rational congruence inertia gives count one and zero threshold multiplicity in both full blocks; exact Gershgorin bounds place both spectra above `-5` | exact finite-regulator spectral anchors, not native continuum counts |
 | K153's bare conforming seeds are numerical ground trials | the two-mode `(1,0)` block has at least two exact spectral values below its seed Rayleigh value; inverse iteration is required to obtain a ground-grade finite trial | false; conforming-domain seed status is preserved |
 | A first outward cofinal tail is numerical | for `delta_n=1/n`, `N_n=n^2`, K141 gives `d_A<=1/n`, and `omega(p)>=|p|`, `1/pi<1/3` give dressed-point tail square `<=1/(3n)` | exact outward elementary components; graph-boundary and normal-ordered-core constants remain missing |
-| Finite rank one transfers to the native carrier | extend the finite block by the decoupled free orthogonal tail, whose unit mass gap adds no spectrum to the rectangle; a complete common-carrier contour resolvent error `eta<3/5` gives `||P-P_N||<1` and hence equal projection rank | exact Riesz stability theorem; K141/K156 are qualitative and do not yet serialize native `eta` |
+| Finite rank one transfers to the native carrier | a complete common-carrier contour error `eta<3/5` would preserve the local island rank, but K158 proves that the two-mode block is not identified with the cofinal family and the proposed free-graph tail is ill typed | conditional local Riesz theorem only; not a native ground-count interface without a cofinal rank and left-tail floor |
 | K157 emits a native count or K152 interval | the complete contour error and total K156 residual remain incomplete | false; no threshold/Gram, physical/source, Born, prediction or confirmation claim follows |
 
 Reproduce with
@@ -29,7 +45,7 @@ and its baseline-first hostile check with `--selftest` (`25/25`, `22/22`).
 | --- | --- | --- |
 | K155's raw endpoint counterterm `V_N` converges separately | `c_N(lambda)=sum_(|k|<=N)(sqrt(1+k^2)+lambda)^-1` has a harmonic lower tail and diverges logarithmically | false; it is subtraction data and must be combined before taking the limit |
 | The renormalized regular core has one common-carrier limit | exact normal ordering gives `G_N^*A_NG_N=c_ND+X_N`, with `X_N` the finite Pauli/spectator-plus-exchange remainder, hence `W_N=(E_R-lambda)I-X_N`; K141's normalized momentum-cell embedding and K139's graph estimate give `||(X_N-X)(H0+a)^-1||->0` | exact algebra plus graph-relative common-carrier theorem on the supplied positive control |
-| The full regular action has a total cutoff tail | inverse resolvent identities on Hilbert and free-graph norms expand `R_N=A_N+S_N^*W_NS_N` into the four explicit contributions in K156 equation (14), controlling `||(R_N-R)(H0+a)^-1||` | exact propagated bound conditional on the stated outward component errors; no raw point-field Hilbert norm |
+| The full regular action has K156's proposed four-term cutoff tail | the algebraic expansion is exact if both charts preserve the free graph, but K158 proves the point-boundary tail sends the vacuum outside `Dom(H0)` and makes `d_GD,n` infinite | false as a native free-operator-graph estimate; replace it with boundary-domain or direct form-resolvent calculus |
 | A rank-one exterior floor proves the missing ground count | if `rho=<u,Hu><b` and the complete orthogonal charge compression obeys `QHQ>=d>b`, Schur congruence makes `H-b` have exactly one negative direction and no kernel | exact spectral-count theorem; arbitrary trial/exterior coupling allowed |
 | K156 certifies the native count and emits a K152 interval | K148 gives only the essential edge, finite K151/K155 gaps are not native exterior bounds, and no outward numerical complete-compression floor or residual is serialized | false; no native threshold/Gram, propagation, source/GU, Born, prediction or confirmation follows |
 

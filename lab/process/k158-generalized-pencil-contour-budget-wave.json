@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K158-GENERALIZED-PENCIL-CONTOUR-BUDGET-WAVE",
+  "status": "EXACT_GENERALIZED_PENCIL_FINITE_RECTANGLE_BOUNDS_AND_FREE_GRAPH_ROUTE_OBSTRUCTION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": {
+    "input_chain": ["K139", "K141", "K153", "K155", "K156", "K157"],
+    "model": "repository-supplied equal-coupling two-edge positive particle/hole point control",
+    "target_claim": "INTERNAL_TARGET:K156_FREE_OPERATOR_GRAPH_CONTOUR_TRANSFER",
+    "target_claim_verdict": "ROUTE_KILLED_AS_FORMULATED"
+  },
+  "generalized_pencil": {
+    "regular_representative": "R=U^{- *} H U^{-1}",
+    "metric": "M=U^{- *}U^{-1}",
+    "pencil": "T(z)=R-zM=U^{- *}(H-z)U^{-1}",
+    "singular_resolvent": "(H-z)^{-1}=U^{-1}T(z)^{-1}U^{- *}",
+    "H_and_R_are_called_isospectral": false,
+    "regular_action_error_alone_controls_the_singular_resolvent": false,
+    "chart_metric_and_outer_inverse_errors_are_required": true,
+    "exact_rational_finite_identity_passes_in_q00_and_q10": true
+  },
+  "finite_reference_rectangles": {
+    "q00_right_edge_empty_guard": ["-3/2", "-1/2"],
+    "q10_right_edge_empty_guard": ["-5/4", "-3/4"],
+    "q00_uniform_resolvent_upper": "2",
+    "q10_uniform_resolvent_upper": "4",
+    "left_edge_distance_exceeds_one_by_Gershgorin": true,
+    "horizontal_edge_distance_is_at_least_one_half": true,
+    "q00_complete_graph_resolvent_upper": "534",
+    "q10_complete_graph_resolvent_upper": "1068",
+    "two_mode_reference_is_a_member_of_the_cofinal_K141_family": false,
+    "cofinal_reference_rank_is_certified": false
+  },
+  "boundary_tail": {
+    "K157_cutoff_tail_is_only_the_high_momentum_piece": true,
+    "K141_cell_error_must_also_be_added": true,
+    "complete_Hilbert_d_G_bound_is_available": true,
+    "point_boundary_vector_h_is_L2": true,
+    "omega_h_is_L2": false,
+    "every_finite_cutoff_tail_has_infinite_free_operator_graph_norm": true,
+    "K156_d_GD_is_finite_on_the_free_operator_graph": false,
+    "particle_number_graph_bound_can_substitute_for_free_operator_graph_bound": false
+  },
+  "regular_core_tail": {
+    "qualitative_normal_ordered_convergence_survives": true,
+    "outward_diagonal_Pauli_spectator_constant_is_serialized": false,
+    "outward_four_exchange_constants_are_serialized": false,
+    "uniform_regular_core_graph_bound_B_is_serialized": false,
+    "complete_d_W_is_serialized": false
+  },
+  "count_boundary": {
+    "perimeter_ten_contour_can_transfer_local_island_rank_when_all_premises_hold": true,
+    "local_island_rank_alone_is_total_rank_below_minus_one": false,
+    "native_no_spectrum_below_minus_five_is_serialized": false,
+    "native_rank_one_count_certified": false,
+    "native_next_distinct_floor_certified": false,
+    "native_energy_interval_emitted": false
+  },
+  "required_route_repair": {
+    "replace_free_graph_chart_step_with_rigged_or_boundary_domain_resolvent_estimate": true,
+    "certify_rank_on_the_same_cofinal_reference_or_a_contour_preserving_homotopy": true,
+    "supply_native_lower_bound_left_of_the_contour_for_a_ground_count": true,
+    "supply_outward_normal_ordered_component_tails_and_B": true,
+    "equal_rank_Lehmann_Goerisch_remains_a_valid_fallback_only_with_its_own_native_form_data": true
+  },
+  "boundaries": {
+    "native_ground_count_certified": false,
+    "native_energy_interval_emitted": false,
+    "threshold_or_Gram_closure": false,
+    "full_Fock_scattering_or_NESS": false,
+    "physical_or_source_selection": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned correction and certificate-interface result for the supplied two-edge positive-Fock point control. The singular Hamiltonian resolvent is related to K156's regular representative by the generalized pencil R-zU^{- *}U^{-1}, not by isospectrality. Exact inertia gives finite two-mode rectangle resolvent bounds 2 in q=(0,0) and 4 in q=(1,0). K157's cutoff tail must be joined to the K141 cell error for a complete Hilbert d_G. More decisively, the point boundary map does not preserve the free-operator graph because omega h is not L2, so K156's free-graph d_GD, q_D and equation-(14) contour route cannot be instantiated as written. The two-mode reference is also not identified with the cofinal K141 approximation, and a bounded local contour does not exclude native spectrum below -5. No native count, K152 interval, physical/source selection, Born derivation, prediction or confirmation follows."
+}

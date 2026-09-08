@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f95c64e0cef2
+revision_basis: 3d197de30f81
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K158 generalized-pencil/graph-topology Big Wave corrects the K156/K157
+    count route. With S=U^-1, R=U^-*HU^-1 and M=S^*S, the exact pencil is
+    T(z)=R-zM=U^-*(H-z)U^-1; H and R are not ordinarily isospectral under this
+    nonunitary congruence. Exact two-mode rectangle guards give H-resolvent
+    bounds 2 and 4 and safe generalized-pencil inverse/graph bounds (3,552)
+    and (5,1103). The complete Hilbert chart error is bounded by
+    4*sqrt(1/(3n)+1/(768n^2)), including both the cutoff and momentum-cell
+    terms. But the corresponding free-H0 graph error is infinite: the omitted
+    dressed point tail has h(p) asymptotic to 1/p while H0 h(p) is asymptotically
+    constant. Particle-number graph control cannot replace that topology, so
+    K156 equation (14) is not instantiable as written. Independently, K157's
+    arbitrary two-mode anchor is not identified with a cofinal K141 matrix,
+    and its rectangle certifies only the local island unless native spectrum
+    below -5 is excluded. No native count or K152 interval follows.
     The K157 nested-cylinder/count-transfer Big Wave constructs explicit
     representative-charge cores C_(M,r,q) by finite mode support and
     interaction-graph radius. For the two-mode energies (5/4,3/2), the q=(0,0)
@@ -7138,13 +7152,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can outward free-graph boundary and normal-ordered Pauli/exchange tail
-  constants close K156's total action bound on K157's explicit q=(0,0) and
-  q=(1,0) nested cores and make the complete perimeter-ten resolvent error
-  smaller than 3/5, or must equal-rank Lehmann--Goerisch replace that contour
-  transfer; what are
-  the resulting bound-residual Pauli thresholds; and can actual response data
-  or a source-owned GU action select the imported operator, orientation,
+  Can a boundary/rigged-domain or direct form-resolvent construction replace
+  K156's false same-free-graph chart step, certify rank and a lower spectral
+  floor for the same cofinal reference matrices, and expose the five
+  normal-ordered component tails plus the regular-core bound needed for a
+  complete generalized-pencil or equal-rank count; what are the resulting
+  bound-residual Pauli thresholds; and can actual response data or a
+  source-owned GU action select the imported operator, orientation,
   polarization, couplings, W, kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
@@ -7154,19 +7168,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K157 fixes explicit nested mode/graph-radius cores and exact two-mode
-  rank-one islands below -1 in both representative charges. Its cofinal ledger
-  evaluates the free multiplier and Hilbert dressed-point tails, but not the
-  free-graph boundary constant d_GD,n or the complete normal-ordered
-  Pauli/spectator-plus-four-exchange constant d_W,n. Prove those two outward
-  bounds, propagate every term and both inverse-chart sides of K156 equation
-  (14), and convert the result into a uniform common-carrier resolvent error on
-  K157's rectangle. If eta<3/5, transfer rank one by the complete Riesz contour
-  and feed the actual residual/coercivity/gap data through K154/K152; otherwise
-  enlarge the core/contour or run equal-rank Lehmann--Goerisch. Transport
-  q=(0,1) only by the complete signed flavor intertwiner. Do not treat the
-  finite island, HVZ edge, K153 seed line or qualitative convergence as a
-  native count.
+  K158 proves the exact generalized-pencil bridge and finite rectangle
+  constants, but also proves that K156's requested free-H0 graph chart error
+  is infinite rather than merely unserialized. Replace equation (14) with a
+  boundary/rigged-domain or direct form-resolvent estimate. Construct the
+  actual cofinal K141 matrices, certify rank one and a native lower spectral
+  floor for those same matrices, and serialize the diagonal Pauli/spectator
+  tail q_n, all four exchange tails t_n^(++), t_n^(+-), t_n^(-+), t_n^(--),
+  and the regular-core bound B. Then rerun the generalized-pencil compiler; if
+  its contour budget is too coarse, use Lehmann--Goerisch only with its own
+  complete native form data. Transport q=(0,1) only by the complete signed
+  flavor intertwiner. Do not reuse particle-number graph control as free-graph
+  control, identify the arbitrary two-mode anchor with a cofinal matrix, or
+  count a bounded spectral island as the complete native spectrum below -1.
 
   K147 proves that the two native transitions sharing one impurity vertex do
   not satisfy a two-mode CAR algebra on C3: their own anticommutators omit the
