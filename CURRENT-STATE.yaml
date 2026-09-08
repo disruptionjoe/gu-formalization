@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 05c5149c8524
+revision_basis: 0b8ed53a41e5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,32 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K143 periodic-screened/Mosco/HVZ Big Wave connects K142's direct line
+    form to the natural finite boxes, but only in the topology the estimates
+    support. The periodic Yukawa kernel has exact circle integral kappa^-2,
+    diagonal coth(kappa L/2)/(2 kappa), and converges exponentially on every
+    fixed compact set. K142's volume-uniform local-exclusion estimate supplies
+    equicoercivity; compact finite-particle recovery and weak localized liminf
+    pass through K139--K141's norm-convergent finite signed boundary chart.
+    Positive and normally ordered periodic screened Hamiltonians therefore
+    converge to K142's common-carrier operators in strong resolvent. Two
+    fixed-width packets straddling the moving torus seam retain an order-one
+    periodic interaction while their line interaction vanishes, so uniform
+    kernel/relative-form convergence fails and no norm-resolvent upgrade
+    follows from this family. Independently, geometric Fock localization gives
+    the complete structural HVZ threshold set: residual bound energies plus
+    escaping particle/hole rest masses, subject to the retained conserved-
+    sector compatibility; the essential spectrum is the union of the attached
+    half-lines. The numerical thresholds remain W/kappa/coupling dependent.
+    For the complete signed three-by-three rook control, equal nonzero particle
+    and hole couplings give D_g=4g^2 I_9, rank nine and no dark impurity
+    direction. The 9-by-36 endpoint channel map nevertheless has a
+    27-dimensional kinematic kernel. Residual-state and Pauli selection can
+    lower later threshold ranks; resonance exclusion requires the compressed
+    finite threshold denominator. The probe passes 48/48 and catches 38/38
+    hostile mutations. No uniform propagation, Moller/Ruelle completeness,
+    NESS/current, physical W or kappa, smooth parent, source/GU action, Born,
+    prediction or confirmation follows.
     The K142 screened-form/threshold-local-decay Big Wave closes K141's
     missing all-sector estimate on the supplied 36-species positive
     particle/hole carrier. Critical one-dimensional order-one fermionic local
@@ -6848,13 +6874,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Do periodic screened forms converge through the signed IBC chart to K142's
-  common-carrier form sum; what is the complete 36-species number-changing
-  HVZ threshold and dark-channel rank structure; do uniform weighted
-  propagation estimates then support Moller/Ruelle theory; what actual
-  full-rank response or action principle selects W and kappa; and can a
-  source-owned GU action select the imported free operator, time orientation,
-  polarization, charges, couplings, domain and state?
+  For one explicitly fixed W, kappa and coupling family, what are every
+  residual bound state, threshold channel matrix Gamma_tau and compressed
+  dark denominator; can threshold eigenvalues and resonances be excluded or
+  projected and can Mourre/weighted-resolvent estimates be made uniform across
+  the surviving thresholds and high energy; does that support Moller/Ruelle
+  completeness and later return-to-NESS; what topology-changing finite-volume
+  identification could defeat the periodic seam witness; and can an actual
+  response or source-owned GU action select the imported free operator, time
+  orientation, polarization, charges, couplings, W, kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6863,23 +6891,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K142 proves the missing all-sector screened-form estimate. Critical
-  one-dimensional relativistic fermionic local exclusion controls the Yukawa
-  pair count by F(kappa^-1 T+N), and the finite L2/L4 IBC boundary-mode split
-  preserves the dressed form domain. Both the positive self-inclusive field
-  energy and its normally ordered version define semibounded self-adjoint form
-  sums with K141's common signed point operator. This is not yet convergence
-  of periodic screened cutoffs: prove uniform Mosco/core convergence through
-  the singular boundary chart, or exhibit its exact failure. Independently,
-  K142 finds inverse-square-root free point threshold density and full-rank
-  square-root impurity-local onset with compact-cutoff t^-3/2 decay after
-  point-spectrum projection. Build the complete 36-species number-changing
-  HVZ theorem, census dark threshold ranks and resonances, and prove weighted
-  propagation uniformly across all thresholds and high energy before
-  attempting Moller/Ruelle completeness or return-to-NESS. Do not promote the
-  direct form sum to a finite-box norm-resolvent limit, the finite boundary
-  decay to a global Fock theorem, K115's reduced affinity to a microscopic
-  current, or full-rank mathematical response to physical/source selection.
+  K143 proves that the natural periodic screened forms Mosco-converge through
+  the finite signed IBC chart to K142's common-carrier positive and normally
+  ordered forms, hence their operators converge in strong resolvent. A
+  translating seam-pair witness blocks uniform kernel and relative-form
+  convergence, so do not promote this result to norm resolvent. K143 also
+  proves the structural HVZ formula from residual bound energies plus escaping
+  rest masses. Equal nonzero signed rook couplings give a full-rank nine-state
+  impurity endpoint matrix, while the 36-channel map has a 27-dimensional
+  kinematic kernel; residual selection and Pauli availability may lower later
+  threshold ranks. Fix one W, kappa and coupling family, compute every residual
+  bound state, Gamma_tau and compressed dark denominator, then exclude or
+  project threshold eigenvalues/resonances and prove weighted propagation
+  uniformly across all thresholds and high energy before attempting
+  Moller/Ruelle completeness or return-to-NESS. Do not confuse channel-kernel
+  combinations with dark impurity directions, HVZ with propagation, or
+  mathematical full rank with physical/source selection.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.

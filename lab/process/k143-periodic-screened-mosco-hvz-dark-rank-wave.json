@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K143-PERIODIC-SCREENED-MOSCO-HVZ-DARK-RANK",
+  "created": "2026-09-07",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "periodic_screened_forms": {
+    "kernel": "cosh(kappa*(L/2-d_L(x)))/(2*kappa*sinh(kappa*L/2))",
+    "circle_integral": "1/kappa^2",
+    "diagonal_limit": "1/(2*kappa)",
+    "compact_core_kernel_convergence": true,
+    "volume_uniform_relativistic_local_exclusion_bound": true,
+    "positive_form_mosco_converges": true,
+    "normally_ordered_form_mosco_converges_after_common_shift": true,
+    "natural_periodic_family_converges_in_strong_resolvent": true,
+    "natural_periodic_family_converges_in_norm_resolvent": false
+  },
+  "ibc_chart": {
+    "finite_boundary_mode_split_is_used": true,
+    "boundary_modes_are_L2_and_L4_in_position": true,
+    "boundary_charts_converge_in_operator_norm": true,
+    "particle_number_graph_control_is_used": true,
+    "mosco_recovery_and_liminf_transport_through_chart": true,
+    "bare_free_form_domain_is_assumed_without_check": false
+  },
+  "topology_boundary": {
+    "translating_seam_pair_has_bounded_free_form_energy": true,
+    "periodic_cross_interaction_stays_order_one": true,
+    "line_cross_interaction_vanishes_exponentially": true,
+    "uniform_kernel_or_relative_form_convergence_fails": true,
+    "seam_witness_disproves_strong_resolvent_convergence": false,
+    "abstract_norm_resolvent_impossibility_for_every_modified_identification_is_claimed": false
+  },
+  "hvz_thresholds": {
+    "formula": "closure{E_j(Q-q(n))+sum_alpha n_alpha*m_alpha: |n|>=1 and compatible(Q,n,j)}",
+    "essential_spectrum_is_union_of_attached_half_lines": true,
+    "essential_spectrum_bottom_is_infimum_of_threshold_set": true,
+    "point_defect_is_localized_at_origin": true,
+    "screened_cross_cluster_terms_vanish": true,
+    "mass_gap_controls_escaping_multiplicity": true,
+    "finite_CAR_species_control_localization_errors": true,
+    "numerical_thresholds_are_selected_without_W_kappa_g": false
+  },
+  "rook_endpoint_ranks": {
+    "impurity_vertices": 9,
+    "unsigned_edges": 18,
+    "signed_species": 36,
+    "equal_nonzero_signed_endpoint_matrix": "4*g^2*I_9",
+    "equal_nonzero_signed_endpoint_rank": 9,
+    "particle_only_endpoint_rank": 8,
+    "particle_only_dark_vertex": 0,
+    "hole_only_endpoint_rank": 8,
+    "hole_only_dark_vertex": 8,
+    "signed_channel_map_rank": 9,
+    "signed_channel_kernel_dimension": 27,
+    "kinematic_channel_kernel_is_a_dark_impurity_space": false
+  },
+  "threshold_rank_rule": {
+    "endpoint_weight": "D_tau=Gamma_tau*Gamma_tau^*",
+    "rank_identity": "rank(D_tau)=rank(Gamma_tau)",
+    "dark_impurity_space": "ker(D_tau)",
+    "bright_range_inverts_inverse_square_root_weyl_singularity": true,
+    "dark_resonance_test_requires_compressed_finite_threshold_denominator": true,
+    "all_many_body_thresholds_are_full_rank": false,
+    "all_threshold_eigenvalues_or_resonances_are_excluded": false
+  },
+  "scattering_and_ownership_boundary": {
+    "all_sector_screened_strong_resolvent_limit_is_constructed": true,
+    "structural_HVZ_threshold_formula_is_proved": true,
+    "complete_numerical_threshold_rank_census_for_selected_physical_parameters": false,
+    "uniform_weighted_resolvent_or_propagation_bound_proved": false,
+    "global_high_energy_bound_proved": false,
+    "Moller_or_Ruelle_wave_operators_constructed": false,
+    "asymptotic_completeness_proved": false,
+    "interacting_NESS_constructed": false,
+    "microscopic_field_current_constructed": false,
+    "physical_W_or_kappa_selected": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "method_anchors": [
+    "https://arxiv.org/abs/1211.4965",
+    "https://arxiv.org/abs/1903.09610"
+  ],
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned theorem for K142's supplied positive particle/hole control: periodic massive screened forms Mosco-converge through the finite signed IBC chart and hence converge in strong resolvent to the common-carrier screened Hamiltonian, while a translating seam pair blocks uniform relative-form convergence and no norm-resolvent upgrade follows. Geometric localization gives the residual-bound-energy plus escaping-rest-mass HVZ threshold union. Equal nonzero signed rook couplings give a rank-nine impurity endpoint matrix, although the 36-to-9 channel map has a 27-dimensional kinematic kernel; residual threshold ranks and resonances still require selected finite-matrix data. No uniform propagation, Moller/Ruelle completeness, NESS/current, physical selector, source/GU action, Born rule, prediction or confirmation follows."
+}

@@ -7,6 +7,18 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K143 periodic screened Mosco, HVZ, and dark-rank boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The periodic massive Yukawa form reaches K142's line form | `Y_(kappa,L)=cosh(kappa(L/2-d_L))/(2 kappa sinh(kappa L/2))` has integral `kappa^-2`, its diagonal tends to `1/(2 kappa)`, and it converges exponentially on fixed compacts; K142's local-exclusion bound is uniform in `L` | exact compact-core convergence and uniform form control for fixed finite `F=36`, `m,kappa>0` and bounded charges |
+| The signed point domain preserves the form limit | K141's boundary charts and inverses converge in operator norm and on the number graph; K142's finite singular modes remain screened-form finite; recovery and weak liminf sequences transport through the chart | exact Mosco convergence for the positive family and for the normally ordered family after one common lower shift |
+| The periodic screened Hamiltonians converge in norm resolvent | Mosco convergence gives strong resolvent; two fixed-width packets straddling the moving torus seam retain cross interaction `Y_kappa(r)` while their line separation is `L-r` and line interaction vanishes | false by the available uniform relative-form route; exact strong-resolvent result and seam obstruction, not a universal impossibility theorem for every modified identification |
+| The complete many-body essential spectrum has an HVZ description | geometric Fock localization makes every escaping cluster contribute `E_j(Q-q(n))+sum n_alpha m_alpha`; the point defect is local, Yukawa cross terms decay, and the mass gap bounds escaping multiplicity | exact structural threshold union and essential half-line formula on the supplied control; numerical thresholds and sector compatibility remain dependent on `W`, `kappa`, charges and couplings |
+| Equal nonzero signed rook couplings leave a dark impurity direction | `D_g=sum(|g+|^2BB*+|g-|^2B*B)=4g^2I_9` on the degree-four rook graph | false; impurity endpoint rank is nine. The separate `9 by 36` channel map has rank nine and a 27-dimensional kinematic kernel |
+| Every residual threshold is full rank and resonance free | `D_tau=Gamma_tau Gamma_tau*`; residual matrix elements and Pauli availability can lower rank, and the dark compression of `W_eff(tau)-M_reg(tau)` must be invertible after bright-range Schur reduction | not proved; exact finite-matrix census rule only |
+| The packet proves uniform propagation, Moller/Ruelle completeness, NESS/current, physical `W`/`kappa`, source/GU ownership, Born, prediction or confirmation | `lab/process/k143-periodic-screened-mosco-hvz-dark-rank-wave.json`; exact control `48/48`, hostile selftest `38/38` | false / explicitly fenced |
+
 ## K142 screened form, threshold, and local decay boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
