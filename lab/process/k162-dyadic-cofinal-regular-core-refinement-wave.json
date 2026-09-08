@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-08",
+  "status": "ACTIVE_RESEARCH",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied equal-coupling two-edge positive-Fock control. The result repairs the common-carrier cofinal-family interface between K141, K157 and K161; it does not select or solve a physical GU Hamiltonian.",
+  "target_claim": "NONE-NOT-A-KILL",
+  "dyadic_common_carrier": {
+    "delta_j_is_2_to_minus_j": true,
+    "Lambda_j_is_2_to_j": true,
+    "literal_nested_cell_ranges": true,
+    "unnormalized_indicator_refinement_exact": true,
+    "physical_refinement_is_Gram_isometric": true,
+    "coarse_cell_equals_sum_of_two_fine_children": true,
+    "union_dense_in_L2_and_free_graph_core": true,
+    "K157_zero_fill_is_physical_cell_refinement": false,
+    "K157_finite_inertia_controls_remain_valid_as_regulator_controls": true
+  },
+  "exterior_refinement": {
+    "hard_core_preserved": true,
+    "charge_preserved": true,
+    "CAR_signs_exact": true,
+    "Fock_Gram_isometry": true,
+    "signed_flavor_swap_complete": true,
+    "q00_coarse_dimension": 84,
+    "q10_coarse_dimension": 76,
+    "q01_coarse_dimension": 76,
+    "maximum_demo_wedge_expansion_terms": 256,
+    "arbitrary_form_pullback_rule": "A_j=J_j^* A_(j+1) J_j on the exact refined basis",
+    "native_form_values_computed": false
+  },
+  "regular_K152_boundary": {
+    "true_nested_cofinal_family": true,
+    "same_family_Gram_transport": true,
+    "same_family_form_basis_rule": true,
+    "signed_charge_intertwiner_complete": true,
+    "K161_five_tail_bounds_family_compatible": true,
+    "regular_core_bound_B_serialized": false,
+    "total_form_dual_residual_serialized": false,
+    "coercivity_serialized": false,
+    "next_distinct_spectrum_serialized": false,
+    "native_left_floor_serialized": false,
+    "native_ground_count_emitted": false,
+    "native_K152_interval_emitted": false,
+    "physical_or_source_selection": false,
+    "Born_prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "source_and_physics": {
+    "SC_META_53_polarity": "UNCERTAIN",
+    "LT_SM8_verdict": "NEEDS",
+    "RA_F1_verdict": "NEEDS",
+    "AC_F1_verdict": "NEEDS",
+    "ledger_changed": false,
+    "source_register_changed": false
+  },
+  "next_condition": "Evaluate the K156 regular representative on fixed coarse cylinder vectors transported by the exact dyadic exterior map, prove Cauchy regular action columns with one outward B and total shifted form-dual residual, then establish coercivity, a complete next-distinct-spectrum floor and a native floor below -5 on that same family before K152. Use form-level Lehmann--Goerisch if the exterior free-gap minorant does not close.",
+  "claim_ceiling": "Exact repository-owned dyadic common-carrier theorem: unnormalized momentum-cell indicators at delta_j=2^-j and Lambda_j=2^j form literal nested ranges with exact Gram-isometric refinement; exterior powers preserve hard-core charge sectors, CAR signs, Hilbert Gram and signed flavor transport. K157's zero-fill map is not that physical refinement, so its finite anchors remain regulator controls. K161's five tail bounds are compatible with the repaired family, but no native regular B, residual, coercivity, gap, floor, count or K152 interval is emitted; no physical/source selection, Born, prediction or confirmation follows."
+}

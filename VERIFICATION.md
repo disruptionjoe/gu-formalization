@@ -7,6 +7,22 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K162 dyadic cofinal regular-core refinement (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K157 zero-fill is the physical K141 momentum-cell inclusion | a coarse dyadic cell is the sum of both fine children; retaining only one same-index child halves its Gram and changes its support | false; K157's finite inertias remain valid regulator controls, not conforming continuum Ritz vectors |
+| One literal common-carrier cofinal family is now explicit | `delta_j=2^-j`, `Lambda_j=2^j` and unnormalized cell indicators give `J_j^* M_(j+1) J_j=M_j`; mesh tends to zero and cutoff tends to infinity | exact dyadic finite-element construction with non-identity Gram |
+| Refinement preserves the complete representative charge cores | exterior powers preserve hard-core constraints, charge, CAR signs and Fock Gram in exact dimensions `84`, `76`, `76`; signed flavor swap commutes with refinement | exact basis-level intertwiner, including expansions of up to `256` fine wedges |
+| Regular form/action matrices at adjacent levels are independent samples | every common-carrier sesquilinear form obeys `A_j=J_j^* A_(j+1) J_j` | false; exact congruence is mandatory, but native form values are not supplied by the basis theorem |
+| K162 closes the native K152 packet | `B`, total shifted form-dual residual, coercivity, next-distinct-spectrum floor, native left floor and native count are still absent | false; K161's five tails are compatible with the repaired family, but no native interval follows |
+| K162 changes source or ledger truth | `SC-META-53` remains `UNCERTAIN`; `LT-SM8`, `RA-F1` and `AC-F1` remain `NEEDS` | false; no physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k162_dyadic_cofinal_regular_core_refinement.py --demo`,
+`python3 tests/channel-swings/k162_dyadic_cofinal_regular_core_refinement_probe.py`
+and its baseline-first hostile check with `--selftest` (`25/25`, `15/15`).
+
 ## K161 complete weighted denominator and inverse-smoothing obstruction (2026-09-08)
 
 | Claim | Evidence | Honest grade |
