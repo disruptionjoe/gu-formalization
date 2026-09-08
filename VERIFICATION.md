@@ -7,6 +7,22 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K146 bidirectional BdG/IBC threshold and regularity (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The first genuinely bidirectional one-edge charge block has an exact quadratic boundary reduction | after fixing Klein parity, `V=d*a_+ + a_+*d+d*a_-*+a_-d` and `q=n_d+N_+-N_-`; the matched K139 boundary limit has `F(z)=-z-[M(z)-M(-z)]` | exact equal-real-coupling, diagonal-`W=0` one-edge BdG/IBC control; not the complete rook graph |
+| Its relative diagonalization is implementable | the gapped finite-rank resolvent formula gives a Hilbert--Schmidt difference of interacting/free negative spectral projections because the dressed tails are `O(epsilon^-1)` in `L2` | exact relative Shale--Stinespring implementation on the original positive Fock representation; the global hole flip is not implementable |
+| The fixed-charge point spectrum is complete | the BdG operator has one simple zero mode and no other point spectrum; exterior sums containing continuum modes are not eigenvectors | `q=0,1` each have one simple ground `E_B`; every other integer charge has empty point spectrum |
+| Every charge-block threshold is located | if `n(q)=max(1,dist(q,{0,1}))`, the lightest allowed continuum has `n(q)` quasiparticles and its energy sums fill a half-line | exact `sigma_ess(H_q)=[E_B+n(q)5/4,infinity)` with no singular-continuous spectrum for the fixed control |
+| Every bound-residual first Pauli matrix is known | only residual charges zero and one are bound; for total `q=-1,0,1,2`, the normalized even channel has `Gamma_tau=[sqrt Z]`, `D_tau=[Z]` | exact rank one, one odd kinematic channel and no dark impurity; more distant charges have no one-particle bound-residual matrix |
+| A physical conjugate closes the regularity gate | with `v=p/sqrt(1+p^2)` and opposite Nambu signs, the free commutator is `p^2/(1+p^2)` on both branches; the first two commutators of dressed boundary vectors are `L2` | exact `C^(1,1)`, strict Mourre and `s>1/2` LAP away from zero and `+/-5/4`; no threshold- or rook-cycle-uniform constant |
+| The packet selects a physical model or proves rook-cycle scattering/NESS | all operator, polarization, coupling, extension, screening and state data remain supplied | false; no unequal-coupling/full-rook theorem, many-body asymptotic completeness, NESS/current, source/GU action, Born, prediction or confirmation |
+
+Reproduce with
+`python3 tests/channel-swings/k146_bidirectional_bdg_ibc_threshold_regularity_probe.py`
+and run its baseline-first hostile check with `--selftest` (`55/55`, `15/15`).
+
 ## K145 invariant residual, Pauli, and Mourre boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |

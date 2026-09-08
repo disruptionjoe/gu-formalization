@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 780c003e39a4
+revision_basis: d3149a0de54f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K146 bidirectional BdG/IBC Big Wave closes the first genuinely
+    infinite fixed-charge block left by K145. For one edge with equal real
+    particle/hole couplings, m=kappa=|q|=1, positive self energy 1/4,
+    subtraction at zero and diagonal W=0, the K139 IBC operator is a relative
+    BdG boundary problem with odd Schur function
+    F(z)=-z[1+2 integral dp/(2 pi)(epsilon(p)^2-z^2)^-1]. It has one simple
+    zero mode, purely absolutely continuous branches outside +/-5/4 and no
+    other point or singular-continuous spectrum. The interacting/free negative
+    projections differ Hilbert--Schmidt, so the relative Bogoliubov transform
+    is implementable on the original positive Fock representation; the global
+    hole-sea flip is not. Charge blocks q=0 and q=1 each have one simple
+    ground E_B, all other charge blocks have no point spectrum, and
+    sigma_ess(H_q)=[E_B+max(1,dist(q,{0,1}))5/4,infinity). Every bound-residual
+    first threshold, for q in {-1,0,1,2}, has Gamma_tau=[sqrt Z], D_tau=[Z],
+    rank one, one odd kinematic branch and no dark impurity. The physical
+    velocity conjugate is C1,1 on the one-edge IBC domain and yields strict
+    Mourre/LAP away from zero and the thresholds. Unequal couplings, shared-
+    vertex rook matrices, cycle-uniform estimates, asymptotic completeness,
+    NESS/current and every physical/source selection remain open.
     The K145 invariant-residual/Pauli/Mourre Big Wave proves the exact boundary
     that K144's projected benchmark could not cross. For diagonal W the full
     signed number-changing Hamiltonian conserves eight independent affine
@@ -6923,15 +6942,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the first genuinely bidirectional infinite fixed-charge block be
-  diagonalized on the K139 renormalized IBC domain, with an implementable
-  quasifree/Bogoliubov comparison, complete residual point spectrum and every
-  Pauli threshold matrix; can a physical conjugate operator satisfy the
-  required regularity uniformly across rook-cycle enlargements; what
-  multichart or topology-changing finite-volume identification can evade the
-  single-cut seam witness; and can actual response data or a source-owned GU
-  action select the imported operator, orientation, polarization, couplings,
-  W, kappa, domain and state?
+  Can K146's relative-polarization and physical-conjugate estimates extend to
+  the first two-edge rook corner with a shared impurity vertex, including the
+  complete matrix zero-mode and Pauli-threshold rank census; can those bounds
+  become uniform across rook cycles; what multichart or topology-changing
+  finite-volume identification can evade the single-cut seam witness; and can
+  actual response data or a source-owned GU action select the imported
+  operator, orientation, polarization, couplings, W, kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6940,6 +6957,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K146 diagonalizes the equal-coupling one-edge bidirectional K139 IBC control
+  as a relative BdG problem. Its odd Schur function has exactly one simple zero
+  mode and absolutely continuous branches outside +/-5/4. The interacting/free
+  polarization difference is Hilbert--Schmidt and relatively implementable;
+  the global hole-sea flip remains nonimplementable. Charges zero and one have
+  one simple ground each, all other charges have no point spectrum, and the
+  essential threshold is E_B+max(1,dist(q,{0,1}))5/4. All four bound-residual
+  first thresholds have D_tau=Z, rank one, one odd kinematic kernel and no dark
+  impurity. The physical velocity conjugate gives C1,1 and strict Mourre/LAP
+  away from zero and thresholds. Next extend the construction to the first
+  two-edge shared-vertex rook corner, compute its matrix zero modes and every
+  Pauli threshold rank, and prove or refute uniform commutator estimates before
+  any cycle-wide scattering claim. Do not infer unequal-coupling, full-rook,
+  asymptotic-completeness, NESS/current or physical/source selection.
+
   K145 proves that the full diagonal-W signed model has conserved affine
   incidence charge, but a bidirectional active edge makes every relevant
   fixed-charge block infinite. It also proves the first exact reducing
