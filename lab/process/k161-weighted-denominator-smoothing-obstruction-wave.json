@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": {
+    "model": "K139--K160 equal-coupling two-edge positive-polarization point-Fock control",
+    "target_claim": "INTERNAL_TARGET:K160_WEIGHTED_BOUNDARY_INVERSE_SMOOTHING",
+    "target_claim_verdict": "COMPLETE_WEIGHTED_ERROR_CLOSES__INVERSE_SMOOTHING_ROUTE_KILLED__REGULAR_K152_ROUTE_SELECTED",
+    "source_claim_ids": [],
+    "physics_rows_informed": ["LT-SM8"],
+    "physics_row_changes": [],
+    "physics_no_change_reason": "The result remains on a supplied comparator and constructs no GU action-derived quotient, positive physical space or state."
+  },
+  "complete_weighted_denominator": {
+    "weight": "(1+S)^(-1)",
+    "two_active_edges": true,
+    "unit_equal_couplings": true,
+    "matrix_unit_contractions_norm_at_most_one": true,
+    "diagonal_spectator_tail_included": true,
+    "diagonal_Pauli_occupation_tail_included": true,
+    "exchange_pp_included": true,
+    "exchange_pm_included": true,
+    "exchange_mp_included": true,
+    "exchange_mm_included": true,
+    "complete_K157_rectangle_covered": true,
+    "n4096_outward_upper": "79277/319488",
+    "n65536_outward_upper": "6622297/123076608",
+    "rate": "O(Lambda^(-1/2))",
+    "complete_native_weighted_denominator_error_serialized": true
+  },
+  "inverse_smoothing_discriminator": {
+    "active_edge_vacuum_high_spectator_sequence_exists": true,
+    "exchange_blocks_vanish_on_test_sequence": true,
+    "finite_extension_contributes_only_a_bounded_term": true,
+    "denominator_growth_on_test_sequence": "O(log(1+S))",
+    "required_inverse_smoothing_growth": "Omega(1+S)",
+    "reference_inverse_smoothing_finite": false,
+    "weighted_Neumann_parameter_finite": false,
+    "low_energy_separation_test_needed_for_weighted_route": false,
+    "weighted_boundary_route_closed": false,
+    "singular_boundary_operator_killed": false
+  },
+  "regular_K152_switch": {
+    "selected": true,
+    "diagonal_tail_ref": "K161 complete weighted denominator",
+    "exchange_pp_ref": "K161 complete weighted denominator",
+    "exchange_pm_ref": "K161 complete weighted denominator",
+    "exchange_mp_ref": "K161 complete weighted denominator",
+    "exchange_mm_ref": "K161 complete weighted denominator",
+    "regular_core_bound_B_serialized": false,
+    "total_form_dual_residual_serialized": false,
+    "coercivity_serialized": false,
+    "next_distinct_spectrum_serialized": false,
+    "native_left_floor_serialized": false,
+    "signed_charge_intertwiner_complete": false,
+    "free_H0_graph_chart_required": false,
+    "boundary_inverse_smoothing_required": false,
+    "native_K152_interval_emitted": false
+  },
+  "count_boundary": {
+    "same_cofinal_reference_rank_certified": false,
+    "native_left_floor_certified": false,
+    "signed_charge_transport_certified": false,
+    "native_ground_count_certified": false
+  },
+  "boundaries": {
+    "threshold_or_Gram_closure": false,
+    "full_Fock_scattering_or_NESS": false,
+    "physical_or_source_selection": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned result for the supplied two-edge positive-polarization point-Fock control: all five normal-ordered K139/K141 Weyl-denominator components converge after one spectator-energy weight with an explicit O(Lambda^-1/2) complete-rectangle bound, but the active-vacuum high-spectator sequence gives only logarithmic denominator growth and makes ||(1+S)D_W(z)^-1|| infinite whenever the inverse exists. This kills the weighted Neumann inverse-smoothing route, not the singular extension, and selects the regular K152 interface. The five tails are now serialized, while B, total form-dual residual, coercivity, next spectrum, left floor and charge transport remain absent. No native count, K152 interval, physical/source selection, Born derivation, prediction or confirmation follows."
+}

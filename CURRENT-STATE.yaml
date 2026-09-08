@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ac2c3a2f41eb385e63a3066ff49565710660b4ec
+revision_basis: b2b89ce923678541825a524b47d8423d1f594ac3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K161 weighted-denominator smoothing-obstruction Big Wave closes the
+    complete K139/K141 cutoff side and kills the remaining inverse topology.
+    On the equal-coupling two-edge control, the diagonal spectator/Pauli term
+    and all four polarity exchange blocks obey one complete-K157-rectangle
+    bound after right multiplication by (1+S)^-1:
+    1057/(6 Lambda)+16 sqrt(2/(3 Lambda)), with outward values
+    79277/319488 at Lambda=4096 and 6622297/123076608 at Lambda=65536.
+    Thus the complete weighted error converges as O(Lambda^-1/2). But on
+    active-edge-vacuum high-spectator vectors the exchange blocks vanish and
+    the limiting denominator grows only as O(log(1+S)); whenever its inverse
+    exists, ||(1+S)D_W(z)^-1|| is bounded below by
+    (1+s)/(C0+C1 log(1+s)) and is infinite. If the inverse fails instead,
+    contour separation already fails. Hence the weighted Neumann transfer is
+    killed without killing the singular boundary operator. The regular-
+    representative/K152 route is selected and its five normal-ordered tails
+    are now serialized, while B, the total form-dual residual, coercivity,
+    next-distinct-spectrum gap, native left floor and complete signed-charge
+    intertwiner remain absent. No native count, K152 interval,
+    physical/source, Born, prediction or confirmation claim follows.
+
     The K160 spectator-Weyl weighted-denominator Big Wave corrects K159's
     remaining topology premise. At z=-1 the matched sharp-cutoff diagonal
     denominator tail converges on every fixed spectator-energy fiber, but its
@@ -6581,6 +6601,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k161-weighted-denominator-smoothing-obstruction-wave-2026-09-08.md
+    - lab/process/k161-weighted-denominator-smoothing-obstruction-wave.json
+    - tests/channel-swings/k161_weighted_denominator_smoothing_obstruction.py
+    - tests/channel-swings/k161_weighted_denominator_smoothing_obstruction_probe.py
     - explorations/conditional-build/k136-minimal-cutoff-feshbach-scale-coulomb-wave-2026-09-07.md
     - lab/process/k136-minimal-cutoff-feshbach-scale-coulomb-wave.json
     - tests/channel-swings/k136_minimal_cutoff_feshbach_scale_coulomb_probe.py
@@ -7186,14 +7210,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the complete K139/K141 operator-valued Weyl denominator error be bounded
-  after one spectator-energy weight, including every Pauli/exchange component,
-  while proving ||(1+S)D_W(z)^-1|| and low-energy separation uniformly on the
-  complete K157 contour; or does either estimate fail and force the regular-
-  representative/K152 branch? If the weighted route closes, can same-family
-  rank, a native left-tail floor and signed-charge transport complete the
-  ground-count interface; what are the resulting
-  bound-residual Pauli thresholds; and can actual response data or a
+  Can one explicit K141 cofinal conforming family compose K161's five
+  normal-ordered tails into a complete regular-core bound B, total shifted
+  form-dual residual and coercivity estimate, while proving the next distinct
+  spectral floor, a native floor below -5 and full signed-charge transport
+  needed by K152; what bound-residual Pauli thresholds then follow, and can
+  actual response data or a
   source-owned GU action select the imported operator, orientation,
   polarization, couplings, W, kappa, domain and state?
 acceptance:
@@ -7204,21 +7226,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K160 proves that K159's ordinary operator-norm Weyl error is infinite at
-  every finite cutoff across unbounded spectator Fock space, despite
-  convergence on each fixed spectator-energy fiber. Keep the matched
-  counterterm coordinate and derive the complete K139/K141 denominator error
-  after one spectator-energy weight, including the diagonal Pauli and all
-  exchange pieces. Independently prove ||(1+S)D_W(z)^-1|| and low-energy
-  denominator separation uniformly on the complete K157 contour. If either
-  estimate fails, switch to the regular-representative/K152 branch and supply
-  q_n, all four exchange tails, B, total residual, coercivity and next-spectrum
-  data. If both close, add same-family rank, the native floor excluding
-  spectrum below -5 and the complete signed-charge intertwiner before any
-  count claim. Do not substitute a finite impurity matrix for K148's
-  operator-valued spectator-Fock denominator, promote fiberwise convergence
-  to norm convergence, or treat the diagonal weighted bound as the complete
-  denominator.
+  K161 supplies one complete weighted error for q_n and all four exchange
+  tails, but proves that the required full-energy inverse smoothing is
+  impossible on the actual spectator-Fock boundary: the denominator is only
+  logarithmic on an active-vacuum high-spectator sequence. The weighted
+  Neumann route is therefore killed, not merely paused. On one explicit K141
+  cofinal conforming family, assemble the regular representative from q_n,
+  t_n^(++), t_n^(+-), t_n^(-+) and t_n^(--); compute B, the complete shifted
+  form-dual residual and coercivity; prove the next-distinct-spectrum lower
+  bound and a native floor excluding spectrum below -5; and verify the full
+  signed-charge intertwiner. Feed only that complete packet to K152. Do not
+  reopen the weighted route without a changed weight topology or
+  high-spectator premise, identify a finite anchor with the native cofinal
+  family, or count a bounded island as all spectrum below -1.
 
   K158 proves the exact generalized-pencil bridge and finite rectangle
   constants, but also proves that K156's requested free-H0 graph chart error

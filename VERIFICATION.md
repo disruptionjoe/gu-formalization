@@ -7,6 +7,21 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K161 complete weighted denominator and inverse-smoothing obstruction (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete K139/K141 cutoff denominator error is controlled after one spectator-energy weight | the diagonal spectator/Pauli tail and all four polarity exchange blocks obey `||(D_(W,Lambda)-D_W)(1+S)^-1|| <= 1057/(6 Lambda)+16 sqrt(2/(3 Lambda))` uniformly on the complete K157 rectangle | exact conservative `O(Lambda^-1/2)` bound; outward values `79277/319488` at `Lambda=4096` and `6622297/123076608` at `Lambda=65536` |
+| The weighted error can be transferred by K160's inverse compiler | on active-edge-vacuum high-spectator vectors the exchange blocks vanish, while the limiting denominator grows at most `C0+C1 log(1+s)` | false: if the denominator is invertible then `||(1+S)D_W(z)^-1||` is infinite; if it is not invertible, contour separation already fails |
+| Failure of weighted inverse smoothing kills the singular boundary operator | K161 tests one topology needed by the weighted Neumann route, not existence or self-adjointness of the IBC realization | false; only the weighted inverse-transfer route is killed |
+| The regular-representative/K152 route now has all native inputs | K161 serializes `q_n` and the four polarity exchange tails, but not `B`, total shifted form-dual residual, coercivity, next-distinct-spectrum gap, native left floor or full signed-charge intertwiner | false; those missing same-family inputs remain mandatory before a native count or K152 interval |
+| K161 changes source or ledger truth | `SC-META-53` remains `UNCERTAIN` and `LT-SM8` remains `NEEDS`; no actual response packet or source-owned GU action was supplied | false; no physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k161_weighted_denominator_smoothing_obstruction.py --demo`,
+`python3 tests/channel-swings/k161_weighted_denominator_smoothing_obstruction_probe.py`
+and its baseline-first hostile check with `--selftest` (`36/36`, `32/32`).
+
 ## K160 spectator-Weyl topology and weighted denominator (2026-09-08)
 
 | Claim | Evidence | Honest grade |
