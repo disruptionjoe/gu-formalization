@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3d197de30f81
+revision_basis: a6064828a118
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K159 fractional-boundary/Weyl-resolvent Big Wave closes K158's route
+    discriminator sharply. For h(p)=(2 pi)^(-1/2)(omega(p)+256)^(-1),
+    h belongs to Dom(omega^s) exactly for s<1/2. Thus it is Hilbert bounded
+    and has an outward s=1/4 cofinal tail, but it misses both the free
+    quadratic-form domain at s=1/2 and the free operator graph at s=1. The
+    direct common-free-form repair is killed alongside K156's graph route.
+    An operator-valued boundary/Weyl Krein formula gives a well-typed
+    alternative: uniform free-resolvent, gamma-field and Weyl-denominator
+    errors plus denominator separation yield an explicit complete-contour
+    resolvent bound without either false chart premise. The compiler has a
+    nonvacuous abstract positive control, but K139--K141 do not serialize the
+    native cofinal gamma/Weyl errors or denominator inverse. K148 proves that
+    the native denominator acts on spectator Fock space and is not the finite
+    impurity matrix. Same-family rank
+    and a native floor excluding spectrum below -5 also remain absent. The
+    five normal-ordered tails belong to the separate regular-representative/
+    K152 branch and are not duplicate Weyl inputs. No native count, K152
+    interval, physical/source, Born, prediction or confirmation claim follows.
     The K158 generalized-pencil/graph-topology Big Wave corrects the K156/K157
     count route. With S=U^-1, R=U^-*HU^-1 and M=S^*S, the exact pencil is
     T(z)=R-zM=U^-*(H-z)U^-1; H and R are not ordinarily isospectral under this
@@ -7152,11 +7170,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a boundary/rigged-domain or direct form-resolvent construction replace
-  K156's false same-free-graph chart step, certify rank and a lower spectral
-  floor for the same cofinal reference matrices, and expose the five
-  normal-ordered component tails plus the regular-core bound needed for a
-  complete generalized-pencil or equal-rank count; what are the resulting
+  Can the explicit K139 boundary gamma field and operator-valued spectator-
+  Fock Weyl denominator be
+  constructed on K141's normalized cofinal cells with uniform complete-
+  contour inverse separation, same-family rank and a native left-tail floor;
+  or must the route switch to the regular-representative/K152 branch and
+  expose the five normal-ordered component tails plus the regular-core bound;
+  what are the resulting
   bound-residual Pauli thresholds; and can actual response data or a
   source-owned GU action select the imported operator, orientation,
   polarization, couplings, W, kappa, domain and state?
@@ -7168,6 +7188,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K159 proves the sharp fractional threshold h in Dom(omega^s) iff s<1/2,
+  so neither K156's free-graph route nor a common-free-form replacement is
+  well typed. Derive the K139 extension's gamma field and operator-valued Weyl
+  denominator on spectator Fock space for the normalized K141 cofinal cells,
+  including the matched counterterm coordinate.
+  Prove uniform complete-contour bounds r0,dg,dm,d0 with d0*dm<1, exact rank
+  on those same cofinal matrices, and a native floor excluding spectrum below
+  -5. Do not double count the five normal-ordered tails as Weyl inputs. If the
+  denominator cannot be separated, switch to the regular-representative/K152
+  branch and then supply q_n, all four exchange tails, B, total residual,
+  coercivity and next-spectrum data. Strict s<1/2 convergence cannot be
+  promoted to the divergent form endpoint.
+
   K158 proves the exact generalized-pencil bridge and finite rectangle
   constants, but also proves that K156's requested free-H0 graph chart error
   is infinite rather than merely unserialized. Replace equation (14) with a

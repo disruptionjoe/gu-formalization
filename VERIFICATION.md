@@ -7,6 +7,22 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K159 fractional boundary and Weyl-resolvent interface (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The dressed point boundary preserves the free Hilbert scale at exponent `s` | its weighted norm has ultraviolet integrand asymptotic to `|p|^(2s-2)` | exact iff condition `s<1/2`; Hilbert and strict sub-form scales only |
+| A common-free-form comparison repairs K158 | at `s=1/2` the weighted tail has a logarithmic lower divergence after every finite cutoff | false; the point chart misses the free quadratic-form domain as well as the operator graph |
+| A quantitative rigged-scale tail exists | for `0<=s<1/2`, the cutoff tail square is at most `[3(1-2s)]^-1 Lambda^(2s-1)`; at `s=1/4`, `n=4096`, the tail/cell squares are `1/96` and `1/8388608` per channel | exact outward fractional bound; cannot be promoted to the endpoint |
+| Boundary/Weyl data can compare resolvents without the false chart premise | the Krein formula and an operator-norm Neumann bound give an explicit error from `r0,dg,dm,d0` when `d0*dm<1` | exact abstract compiler with a nonvacuous positive control; K148 makes the native denominator operator-valued on spectator Fock space, and native cofinal inputs remain absent |
+| The five normal-ordered tails are required by both routes | direct Weyl comparison already packages the renormalized boundary interaction in its denominator | false; those tails remain required for the separate regular-representative/K152 route, not as duplicate Weyl inputs |
+| K159 emits a native count or K152 interval | same-cofinal-family rank, native denominator separation, complete-contour error and a floor excluding spectrum left of `-5` remain absent | false; no threshold/Gram, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k159_fractional_boundary_weyl_resolvent.py --demo`,
+`python3 tests/channel-swings/k159_fractional_boundary_weyl_resolvent_probe.py`
+and its baseline-first hostile check with `--selftest` (`24/24`, `22/22`).
+
 ## K158 generalized-pencil contour budget and free-graph obstruction (2026-09-08)
 
 | Claim | Evidence | Honest grade |

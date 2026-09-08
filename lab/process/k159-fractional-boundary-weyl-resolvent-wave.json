@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K159-FRACTIONAL-BOUNDARY-WEYL-RESOLVENT-WAVE",
+  "status": "SHARP_FRACTIONAL_DOMAIN_COMMON_FORM_OBSTRUCTION_AND_BOUNDARY_WEYL_ROUTE_INTERFACE",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": {
+    "input_chain": ["K139", "K141", "K153", "K156", "K157", "K158"],
+    "model": "repository-supplied equal-coupling two-edge positive particle/hole point control",
+    "target_claim": "INTERNAL_TARGET:K158_COMMON_FREE_FORM_OR_BOUNDARY_RESOLVENT_REPAIR",
+    "target_claim_verdict": "COMMON_FREE_FORM_ROUTE_KILLED_BOUNDARY_WEYL_ROUTE_NOT_YET_FALSIFIED"
+  },
+  "fractional_domain": {
+    "dressed_point_vector": "h(p)=(2*pi)^(-1/2)(omega(p)+256)^(-1)",
+    "sharp_threshold": "s<1/2",
+    "Hilbert_s0_member": true,
+    "quarter_graph_member": true,
+    "free_form_s_half_member": false,
+    "free_operator_graph_s1_member": false,
+    "cofinal_s_quarter_tail_and_cell_bound_serialized": true
+  },
+  "boundary_weyl_route": {
+    "formula": "R_W(z)=R_0(z)+gamma(z)D_W(z)^(-1)gamma(conj(z))^*",
+    "operator_valued_denominator_required": true,
+    "native_denominator_is_operator_valued_on_spectator_Fock_space": true,
+    "native_boundary_space_is_reduced_to_a_finite_matrix": false,
+    "complete_contour_uniformity_required": true,
+    "free_graph_chart_error_required": false,
+    "free_form_chart_error_required": false,
+    "abstract_positive_control_passes": true,
+    "native_gamma_error_serialized": false,
+    "native_Weyl_error_serialized": false,
+    "native_denominator_separation_serialized": false,
+    "native_complete_contour_error_serialized": false
+  },
+  "count_boundary": {
+    "same_cofinal_reference_rank_required": true,
+    "same_cofinal_reference_rank_certified": false,
+    "native_left_floor_required": true,
+    "native_left_floor_certified": false,
+    "bounded_local_island_is_complete_ground_count": false,
+    "native_rank_one_count_certified": false
+  },
+  "normal_ordered_components": {
+    "five_component_tails_remain_unserialized": true,
+    "required_for_boundary_weyl_transfer": false,
+    "required_for_regular_representative_or_K152": true,
+    "route_switch_prevents_double_counting_them_as_Weyl_data": true
+  },
+  "boundaries": {
+    "native_ground_count_certified": false,
+    "native_energy_interval_emitted": false,
+    "threshold_or_Gram_closure": false,
+    "full_Fock_scattering_or_NESS": false,
+    "physical_or_source_selection": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned fractional-domain and certificate-interface result for the supplied two-edge positive-Fock point control. The dressed point vector lies in the free Hilbert scale exactly for s<1/2, so it misses both the free quadratic-form domain at s=1/2 and the free operator graph at s=1. The common free-form route is therefore killed. A boundary/Weyl Krein resolvent comparison avoids both false premises and has a nonvacuous abstract exact-rational compiler, but K148 shows that the native many-body denominator is operator-valued on spectator Fock space rather than a finite matrix, and native cofinal gamma/Weyl errors, denominator separation, same-family rank and a left-tail floor are not serialized. The five normal-ordered tails remain relevant to the separate regular-representative/K152 route, not as duplicate inputs to the boundary/Weyl transfer. No native count, K152 interval, physical/source selection, Born derivation, prediction or confirmation follows."
+}
