@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 65a693d557d2
+revision_basis: 780c003e39a4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,30 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K145 invariant-residual/Pauli/Mourre Big Wave proves the exact boundary
+    that K144's projected benchmark could not cross. For diagonal W the full
+    signed number-changing Hamiltonian conserves eight independent affine
+    incidence-charge differences and combined Klein--CAR parity, but every
+    genuinely bidirectional active edge already makes a fixed-charge sector
+    infinite through neutral particle--hole ladders. K144's vacuum-plus-one-
+    excitation space is not invariant and its nine projected zero modes do
+    not become full-Fock residual eigenvalues. The first exact reducing
+    family is therefore the one-edge, particle-only face with m=kappa=|q|=1,
+    g_(e0,+)=1, g_(e0,-)=0, W=0 and Q=e_1, retaining the K139 Klein factor.
+    It is one scalar Friedrichs carrier with point spectrum {0} simple,
+    purely absolutely continuous spectrum [5/4,infinity) of multiplicity two,
+    no embedded or singular-continuous spectrum, and rank-at-most-two
+    resolvent comparison. Its residual Q=e_0 vacuum has one Pauli-available
+    escape channel: Gamma_tau=[1], D_tau=[1], no dark space, and threshold
+    5/4. The exact Weyl boundary gives square-root weighted-resolvent growth,
+    a strict energy-space Mourre estimate away from threshold, and uniform
+    spatially weighted high-energy resolvent control on this invariant
+    carrier. The odd branch proves the threshold exponent sharp. The periodic
+    single-cut seam witness persists under recentering. The probe passes 50/50
+    and catches 49/49 hostile mutations. No finite genuinely bidirectional
+    residual census, nonvacuous Pauli-dark denominator, full-Fock Mourre,
+    many-body Moller/Ruelle or NESS/current theorem, physical selector,
+    source/GU action, Born rule, prediction or confirmation follows.
     The K144 explicit-screened/Friedrichs-threshold Big Wave fixes the first
     fully specified nonzero family after K143, while keeping its projected
     scope exact. On C9 direct-sum L2(R;C36), set
@@ -6899,16 +6923,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  What is the first genuinely invariant residual family of the complete
-  number-changing signed Fock Hamiltonian; what are all of its bound states,
-  Pauli-available escape channels, Gamma_tau matrices and compressed dark
-  denominators; can the problem-matched Mourre commutator, threshold-weighted
-  resolvent and high-energy bounds be proved on its continuous subspace before
-  attempting many-body Moller/Ruelle completeness and later return-to-NESS;
-  what topology-changing finite-volume identification could defeat the
-  periodic seam witness; and can an actual response or source-owned GU action
-  select the imported free operator, time orientation, polarization, charges,
-  couplings, W, kappa, domain and state?
+  Can the first genuinely bidirectional infinite fixed-charge block be
+  diagonalized on the K139 renormalized IBC domain, with an implementable
+  quasifree/Bogoliubov comparison, complete residual point spectrum and every
+  Pauli threshold matrix; can a physical conjugate operator satisfy the
+  required regularity uniformly across rook-cycle enlargements; what
+  multichart or topology-changing finite-volume identification can evade the
+  single-cut seam witness; and can actual response data or a source-owned GU
+  action select the imported operator, orientation, polarization, couplings,
+  W, kappa, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6917,6 +6940,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K145 proves that the full diagonal-W signed model has conserved affine
+  incidence charge, but a bidirectional active edge makes every relevant
+  fixed-charge block infinite. It also proves the first exact reducing
+  particle-only one-edge family: point spectrum {0} simple, purely absolutely
+  continuous spectrum [5/4,infinity) with multiplicity two, one Pauli-
+  available threshold channel with Gamma_tau=D_tau=[1], no dark compression,
+  sharp square-root weighted threshold resolvent, an exact energy-space
+  Mourre estimate away from threshold, and uniform weighted high-energy
+  control. K144's projected zero modes do not transfer to the full Fock
+  spectrum. Next construct the one-edge bidirectional infinite fixed-charge
+  block on K139's renormalized IBC domain; prove implementability of any
+  quasifree/Bogoliubov reduction, compute its complete residual point spectrum
+  and threshold matrices, and establish physical-conjugate C1,1 regularity
+  before extending estimates across rook cycles. Pursue a multichart or other
+  topology-changing finite-volume comparison separately; recentering one cut
+  cannot defeat K143's seam witness. Do not promote the one-polarity control
+  to a complete signed residual census or its invariant-carrier estimates to
+  full-Fock scattering, and do not call fixed parameters physically or source
+  selected.
+
   K144 completely solves one explicitly fixed positive self-inclusive vacuum-
   plus-one-excitation signed-rook Friedrichs benchmark. With
   m=kappa=|q|=|g_plus|=|g_minus|=1, subtraction at zero and renormalized W=0,

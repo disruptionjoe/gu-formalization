@@ -7,6 +7,23 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K145 invariant residual, Pauli, and Mourre boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete diagonal-`W` signed Hamiltonian has finite charge sectors | the affine incidence charge `Q=e_x+sum(e_v-e_u)N_(e,+)+sum(e_u-e_v)N_(e,-)` and combined Klein--CAR parity commute term by term, but one bidirectional edge puts `|v;n,n>` and `|u;n+1,n>` in the same `Q=e_v` sector for every `n` | false; exact conserved-charge theorem plus an infinite-sector obstruction |
+| K144's nine projected zero modes are full-Fock residual eigenstates | its vacuum-plus-one-excitation carrier leaks to higher occupation under the signed interaction | false; K144 remains an exact projected benchmark only |
+| A first nonzero genuinely invariant residual family is solved | activate only `e0=(0,1),+`, set `m=kappa=|q|=1`, `W=0`, freeze `Q=e_1`, and retain the K139 Klein pair `xi,kappa_e xi`; the reducing carrier is `C|1,xi,Omega> direct-sum L2(R)|0,kappa_e xi;a^*_(e0,+)(p)Omega>` | exact one-edge particle-only face of the specialized full-Fock operator, not a genuinely bidirectional signed family |
+| Its complete spectrum is known | for `epsilon(p)=sqrt(1+p^2)+1/4`, the exact Weyl function has the sign of `z` below `5/4`, vanishing only at zero; its positive boundary imaginary part excludes embedded roots, and the odd momentum branch is free | exact simple point spectrum `{0}`, purely absolutely continuous spectrum `[5/4,infinity)` of multiplicity two, and no singular-continuous spectrum |
+| Its Pauli threshold census closes | the compatible residual `Q=e_0` vacuum has energy zero and one available `e0,+` escape, so `Gamma_tau=[1]`, `D_tau=[1]`, rank one, and `ker D_tau=0` | exact threshold `{5/4}` and vacuous dark compression; inactive channels are frozen, not Pauli blocked |
+| Mourre, threshold, and high-energy bounds are proved | the explicit spectral transform gives `[H,iA_sp]=b(H)` with `b(E)=(E-5/4)/(1+E-5/4)`; the closed Weyl boundary gives `|z-5/4|^(1/2)||J_sP_c(H-z)^(-1)P_cJ_s||<=C` for `s>1/2`, while `f(z)^(-1)=O(E^-1)` at high energy | exact only on the declared invariant carrier; the threshold exponent is sharp because its free odd branch remains |
+| The periodic seam is removed by recentering | every single-cut unwrapping retains a pair that is close periodically and far on the line | false for the single-cut family; a multichart or topology-changing route remains open |
+| The packet proves a finite bidirectional residual census, nonvacuous dark denominator, full-Fock Mourre/scattering/NESS, physical selection, source/GU ownership, Born, prediction or confirmation | `lab/process/k145-invariant-residual-pauli-mourre-boundary-wave.json`; exact control `50/50`, hostile selftest `49/49` | false / explicitly fenced |
+
+Reproduce with
+`python3 tests/channel-swings/k145_invariant_residual_pauli_mourre_boundary_probe.py`
+and run its baseline-first hostile check with `--selftest` (`50/50`, `49/49`).
+
 ## K144 explicit screened Friedrichs threshold boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
