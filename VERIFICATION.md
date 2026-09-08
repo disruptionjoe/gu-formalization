@@ -7,6 +7,20 @@ updated_at: "2026-09-08"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K148 native hard-core infinite-U, ground, and threshold boundary (2026-09-08)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The native `C3` shared corner has a rigorous relation to the auxiliary two-mode K146 parent | `P d_i^* P=B_i` and monotone convergence of `h_U=h_qf+U||n_1n_2 psi||^2` restricts the limit form to `Ran(P)` | exact infinite-`U` form construction and strong-resolvent limit for the supplied equal-coupling control |
+| The native spectrum is given by K147's finite projected Schur matrix | the vacuum/leaf Feshbach term `T^*(H_L-z)^-1T` acts on bath Fock space and contains occupation-dependent Pauli and cross-flavor exchange terms | false; exact operator-type obstruction to scalar or `3 by 3` reduction |
+| The hard-core constraint changes the ground energy | the K146 ground-space double-occupancy compression has strictly positive eigenvalues `p_-^2,p_-p_+,p_+p_-,p_+^2`; the ground-space angle and quasiparticle gap give `E_hc>=2E_B+tau p_-^2/(1+p_-^2)`, while a one-flavor trial gives `E_hc<=E_B<0` | exact strict energy bracket; massive HVZ compactness makes the global ground an isolated finite-multiplicity native eigenvalue |
+| The true first thresholds and native endpoint ranks are fixed | in charge `q`, one-particle edges are `E_j(q-e_i)+tau` and one-hole edges are `E_j(q+e_i)+tau`; a residual state's adjacent signed endpoint Gram is `L_phi direct-sum p_0 I_2` with rank `rank(L_phi)+2*1_(p_0>0)` | exact structural threshold and one-residual form-factor theorem; numerical energies and degenerate form-factor matrices remain open |
+| The packet solves every charge-sector eigenvalue, native Mourre/scattering/NESS, or physical/source selection | the residual energies still require the operator-valued charge-sector Feshbach equation | false / explicitly fenced; no source/GU, Born, prediction or confirmation credit |
+
+Reproduce with
+`python3 tests/channel-swings/k148_hard_core_infinite_u_feshbach_ground_threshold_probe.py`
+and run its baseline-first hostile check with `--selftest` (`44/44`, `37/37`).
+
 ## K147 shared-vertex quasifree obstruction and matrix thresholds (2026-09-08)
 
 | Claim | Evidence | Honest grade |

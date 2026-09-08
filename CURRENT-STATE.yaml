@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 96a5f82406d4
+revision_basis: 7e480aa34835
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K148 native hard-core Big Wave constructs the equal-coupling two-edge
+    shared corner as the monotone infinite-U form limit of the two-flavor K146
+    quadratic parent: the auxiliary double-impurity state is penalized and the
+    limit form domain is exactly the native three-state carrier. Splitting that
+    carrier into impurity vacuum and leaf sectors gives an operator-valued
+    Schur--Feshbach self energy on the full bath Fock space, with Pauli and
+    cross-flavor exchange terms, rather than K147's finite projected matrix.
+    If E_B is K146's one-flavor ground energy, Z its zero-mode impurity weight,
+    p_-=(1-Z)/2 and tau=5/4, the native global ground obeys
+    2E_B+tau p_-^2/(1+p_-^2) <= E_hc <= E_B<0. It is an isolated
+    finite-multiplicity native eigenvalue, so the native point spectrum is
+    nonempty and is strictly shifted from the unconstrained quasifree ground.
+    In charge q=(q_1,q_2), every first particle/hole threshold is an actual
+    residual hard-core energy E_j(q-e_i)+tau or E_j(q+e_i)+tau. For one
+    residual bound state, the four adjacent signed endpoint form factors have
+    Gram matrix L_phi direct-sum p_0 I_2 and rank
+    rank(L_phi)+2*1_(p_0>0); an SU(2)-invariant nontrivial residual is full
+    rank. Closed-form E_hc, the complete charge-sector point spectrum and
+    numerical threshold list remain open until the operator-valued Feshbach
+    problem is solved. No full-Fock Mourre/scattering, NESS/current,
+    physical/source selection, Born, prediction or confirmation follows.
     The K147 shared-vertex Big Wave finds the exact boundary of K146's
     quasifree method. On the native three-state impurity carrier for edges
     (0,1) and (0,2), the two Hubbard transitions fail both the own-mode and
