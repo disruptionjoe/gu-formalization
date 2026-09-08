@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 673c2da46d38
+revision_basis: 05c5149c8524
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,31 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K142 screened-form/threshold-local-decay Big Wave closes K141's
+    missing all-sector estimate on the supplied 36-species positive
+    particle/hole carrier. Critical one-dimensional order-one fermionic local
+    exclusion controls the exponential-kernel pair count by
+    F(kappa^-1 T+N), so the positive screened field energy is bounded by a
+    fixed multiple of H0 on every Fock sector. Its diagonal self energy is
+    q_alpha^2/(4 kappa) per particle; normal ordering subtracts only this
+    mass-gap-controlled linear term. K141's IBC chart requires an extra step:
+    its at-most-36 boundary modes have inverse-|p| tails and logarithmic
+    position singularities, hence lie in L2 intersect L4. Finite CAR
+    occupation controls their mutual energy and the mass gap controls their
+    cross energy with regular particles. The screened positive and normally
+    ordered forms therefore make closed semibounded self-adjoint form sums
+    with the common signed point operator on all sectors. This is a direct
+    infinite-volume form theorem, not yet a screened finite-box
+    norm-resolvent limit. Independently, the free point density at the first
+    massive threshold diverges as (E-m)^-1/2 and gives t^-1/2 cutoff decay.
+    Nonzero full-rank boundary dressing inverts that singularity in the
+    impurity-local response, giving (E-m)^1/2 onset and integrable t^-3/2
+    compact-energy-cutoff matrix-element decay after point-spectrum
+    projection. Rank-deficient dark channels, the full many-body threshold
+    set, global propagation, Moller/Ruelle completeness and NESS/current
+    remain open. The probe passes 47/47 and catches 37/37 hostile mutations.
+    No physical W or kappa, smooth parent, source/GU action, Born, prediction
+    or confirmation follows.
     The K141 infinite-volume-local-point/screened-Gauss Big Wave closes the
     common-carrier operator gate left by K140 for the supplied signed point
     control. With delta=2 pi/L, normalized momentum-cell functions embed each
@@ -6823,13 +6848,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the missing thirty-six-species relativistic fermionic density or
-  local-number estimate add K141's massive screened Gauss form to the common
-  infinite-volume signed point-Fock operator on all sectors; do that local
-  operator's spectral thresholds and decay estimates support Moller/Ruelle
-  theory; what actual full-rank response or action principle selects W; and
-  can a source-owned GU action select the imported free operator, time
-  orientation, polarization, charges, couplings, domain and state?
+  Do periodic screened forms converge through the signed IBC chart to K142's
+  common-carrier form sum; what is the complete 36-species number-changing
+  HVZ threshold and dark-channel rank structure; do uniform weighted
+  propagation estimates then support Moller/Ruelle theory; what actual
+  full-rank response or action principle selects W and kappa; and can a
+  source-owned GU action select the imported free operator, time orientation,
+  polarization, charges, couplings, domain and state?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -6838,23 +6863,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K141 embeds every normalized circle momentum lattice into one L2(R)
-  carrier by momentum-step isometries. The piecewise dispersion converges with
-  a mass-gap-controlled all-sector relative bound; dressed point vectors,
-  signed boundary inverses and matched regular pullbacks converge. This gives
-  a common-Fock norm-resolvent thermodynamic limit of the local signed point
-  defect at fixed supplied polarization, finite couplings and finite W. The
-  massive screened Gauss kernel exp(-kappa|x|)/(2 kappa) changes the separated
-  neutral-pair energy to q^2(1-exp(-kappa R))/(2 kappa), defeating K140's
-  linear witness, but the elementary many-charge estimate is O(N^2). Next
-  prove or refute the carrier-specific relativistic fermionic density/local-
-  number estimate required for a volume-uniform all-sector screened form.
-  Independently establish spectral threshold and local-decay estimates for
-  the local operator before attempting Moller/Ruelle or return-to-NESS work.
-  Do not identify the spectator-extended common carrier with source selection,
-  infer an all-sector Hamiltonian from the pair formula, promote K115's reduced
-  affinity to a microscopic current, or treat charge conjugation as source
-  ownership.
+  K142 proves the missing all-sector screened-form estimate. Critical
+  one-dimensional relativistic fermionic local exclusion controls the Yukawa
+  pair count by F(kappa^-1 T+N), and the finite L2/L4 IBC boundary-mode split
+  preserves the dressed form domain. Both the positive self-inclusive field
+  energy and its normally ordered version define semibounded self-adjoint form
+  sums with K141's common signed point operator. This is not yet convergence
+  of periodic screened cutoffs: prove uniform Mosco/core convergence through
+  the singular boundary chart, or exhibit its exact failure. Independently,
+  K142 finds inverse-square-root free point threshold density and full-rank
+  square-root impurity-local onset with compact-cutoff t^-3/2 decay after
+  point-spectrum projection. Build the complete 36-species number-changing
+  HVZ theorem, census dark threshold ranks and resonances, and prove weighted
+  propagation uniformly across all thresholds and high energy before
+  attempting Moller/Ruelle completeness or return-to-NESS. Do not promote the
+  direct form sum to a finite-box norm-resolvent limit, the finite boundary
+  decay to a global Fock theorem, K115's reduced affinity to a microscopic
+  current, or full-rank mathematical response to physical/source selection.
 
   K132 closes one singular-point cell. On `C direct-sum l2(Z)` a finite Fourier
   cutoff of the point form factor gives a self-adjoint number-changing block.

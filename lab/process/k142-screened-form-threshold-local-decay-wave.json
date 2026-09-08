@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "K142-SCREENED-FORM-THRESHOLD-LOCAL-DECAY",
+  "created": "2026-09-07",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "depends_on": [
+    "K139-SIGNED-BOUNDARY-INVERSE-PROFILE-UNIVERSALITY",
+    "K141-INFINITE-VOLUME-LOCAL-POINT-SCREENED-GAUSS"
+  ],
+  "relativistic_local_number": {
+    "spatial_dimension": 1,
+    "kinetic_order": 1,
+    "species_count": 36,
+    "critical_local_exclusion_controls_interval_number_squared": true,
+    "constant_is_independent_of_particle_number_and_volume": true,
+    "finite_species_multiplicity_is_load_bearing": true,
+    "one_body_Hartree_density_alone_is_the_many_body_proof": false,
+    "bosons_inherit_the_same_uniform_bound": false
+  },
+  "screened_form": {
+    "kernel": "exp(-kappa*abs(x))/(2*kappa)",
+    "kernel_L1_norm": "1/kappa^2",
+    "absolute_charge_majorant_is_controlled_by_T_plus_N": true,
+    "mass_gap_converts_N_to_free_energy": true,
+    "estimate_is_uniform_over_all_fock_sectors": true,
+    "positive_field_energy_includes_diagonal_self_energy": true,
+    "self_energy_per_charge": "q_alpha^2/(4*kappa)",
+    "normal_ordering_subtracts_only_a_linear_number_term": true,
+    "normally_ordered_form_is_semibounded": true
+  },
+  "ibc_boundary_modes": {
+    "boundary_mode_count_is_at_most_species_count": true,
+    "momentum_tail_is_inverse_abs_p": true,
+    "position_singularity_is_logarithmic": true,
+    "position_mode_is_in_L2_and_L4": true,
+    "free_half_derivative_endpoint_is_borderline": true,
+    "finite_CAR_occupation_controls_boundary_boundary_energy": true,
+    "mass_gap_controls_boundary_regular_cross_energy": true,
+    "screened_form_is_finite_on_the_dressed_point_form_domain": true
+  },
+  "all_sector_operator": {
+    "positive_screened_form_sum_is_closed_and_semibounded": true,
+    "normally_ordered_screened_form_sum_is_closed_and_semibounded": true,
+    "self_adjoint_all_sector_screened_hamiltonian_exists": true,
+    "finite_box_screened_norm_resolvent_limit_is_proved": false,
+    "screening_mass_is_selected_by_GU_or_source": false
+  },
+  "finite_boundary_threshold": {
+    "free_point_density": "E/(pi*sqrt(E^2-m^2))",
+    "free_first_threshold_exponent": "-1/2",
+    "free_cutoff_point_decay_exponent": "-1/2",
+    "nonzero_full_rank_endpoint_dressing_inverts_the_singularity": true,
+    "impurity_local_threshold_exponent": "+1/2",
+    "impurity_local_cutoff_decay_exponent": "-3/2",
+    "impurity_local_cutoff_decay_is_time_integrable": true,
+    "point_spectrum_must_be_projected": true,
+    "rank_deficient_dark_channels_are_uniformly_controlled": false,
+    "result_is_a_global_full_fock_local_decay_norm": false
+  },
+  "scattering_and_ownership_boundary": {
+    "all_sector_screened_form_hamiltonian_is_constructed": true,
+    "screened_finite_box_thermodynamic_limit_is_constructed": false,
+    "full_fock_HVZ_theorem_proved": false,
+    "all_many_body_threshold_resonances_excluded": false,
+    "global_high_energy_propagation_bound_proved": false,
+    "Moller_or_Ruelle_wave_operators_constructed": false,
+    "asymptotic_completeness_proved": false,
+    "interacting_NESS_constructed": false,
+    "microscopic_field_current_constructed": false,
+    "physical_W_or_kappa_selected": false,
+    "smooth_unreduced_connection_or_BRST_parent_constructed": false,
+    "Weinstein_source_or_GU_action_owner": false,
+    "Born_rule_derived": false,
+    "held_out_scored": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_verdict_change": "none",
+    "paper_release_or_public_posture_change": "none"
+  },
+  "method_anchors": [
+    "https://arxiv.org/abs/0909.5449",
+    "https://arxiv.org/abs/math/0610593",
+    "https://arxiv.org/abs/1205.2520"
+  ],
+  "held_out": "delayed-choice entanglement swapping, reserved_unscored",
+  "claim_ceiling": "Exact repository-owned theorem for K141's supplied positive particle/hole control: critical one-dimensional order-one fermionic local exclusion with 36 finite species controls the massive screened Gauss energy on every Fock sector; the finite L2/L4 IBC boundary modes preserve finiteness on the dressed point form domain, yielding positive and normally ordered semibounded self-adjoint screened form sums. Independently, the finite boundary channel has inverse-square-root free point threshold density and, under nonzero full-rank endpoint dressing and point-spectrum projection, square-root impurity-local onset with compact-energy-cutoff t^-3/2 matrix-element decay. No finite-box screened norm-resolvent limit, global full-Fock HVZ/propagation theorem, Moller/Ruelle completeness, NESS/current, physical selector, source/GU action, Born rule, prediction or confirmation follows."
+}

@@ -7,6 +7,18 @@ updated_at: "2026-09-07"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K142 screened form, threshold, and local decay boundary (2026-09-07)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K141's screened Gauss energy has an all-sector fermionic bound | the critical one-dimensional order-one local-exclusion inequality gives `sum_I <N_I^2> <= C F(ell<T>+<N>)`; with `ell=kappa^-1`, exponential-kernel pair counting gives `E_kappa <= C F q_*^2(kappa^-2 T+kappa^-1 N) <= C H_0` | exact repository-owned consequence for fixed finite `F=36`, `m>0`, `kappa>0` and bounded charges; the many-body local-number form, not a one-body Hartree shortcut, is used |
+| The charge self-energy convention is harmless | the positive field energy includes `q_alpha^2Y_kappa(0)/2=q_alpha^2/(4 kappa)` per particle; normal ordering subtracts that linear number form | exact; the positive and normally ordered conventions give closed semibounded forms, but they are distinct conventions |
+| K141's singular IBC dressing preserves the screened form domain | each one-mode-per-species boundary vector has inverse-`|p|` tail and logarithmic position singularity, hence lies in `L2 intersect L4`; finite CAR occupation bounds boundary--boundary terms and the mass gap bounds boundary--regular terms | exact for K139--K141's finite boundary-mode Neumann chart; not a theorem for infinitely many independent singular boundary modes |
+| An all-sector screened point-Fock Hamiltonian exists | the screened form is controlled in regular coordinates and remains finite under the boundedly invertible boundary chart, so its sum with the shifted point form is closed and semibounded | exact direct common-carrier form sum at fixed supplied polarization, finite couplings, finite `W` and `kappa`; no periodic-cutoff norm-resolvent convergence is claimed |
+| The free massive point channel has integrable local decay | `nu_0(E)=E/(pi sqrt(E^2-m^2))~C(E-m)^-1/2`, so a generic cutoff point correlation is `O(t^-1/2)` | false; the free point threshold is nonintegrable |
+| Full-rank point dressing improves the finite boundary response | `Im M(E+i0)=pi nu_0(E)` diverges; on the range of a nonzero full-rank endpoint matrix its inverse is `O(sqrt(E-m))`, giving impurity-local density `O(sqrt(E-m))` and compact-cutoff `O(t^-3/2)` matrix elements after point-spectrum projection | exact scalar/finite-boundary-channel threshold law; rank-deficient dark channels may retain threshold eigenvalues, resonances or unsuppressed components |
+| The packet proves full-Fock HVZ, global propagation, Moller/Ruelle completeness, NESS/current, physical `W`/`kappa`, source/GU ownership, Born, prediction or confirmation | `lab/process/k142-screened-form-threshold-local-decay-wave.json`; exact control `47/47`, hostile selftest `37/37` | false / explicitly fenced |
+
 ## K141 infinite-volume local point and screened Gauss boundary (2026-09-07)
 
 | Claim | Evidence | Honest grade |
