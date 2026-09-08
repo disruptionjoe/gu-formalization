@@ -2,7 +2,7 @@
 title: "The Observerse Research Program (advanced from Geometric Unity formalization)"
 status: canon
 doc_type: overview
-updated_at: "2026-07-23"
+updated_at: "2026-09-08"
 ---
 
 # The Observerse Research Program
@@ -37,20 +37,24 @@ honesty map.
 One caution: this is a large, active research repository. The paper is self-contained and does not depend on
 the rest of it.
 
-This program studies a **class of geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* --
-as a candidate for the shape of physics. Its established result is a **class-level structural law**: this class
-of matter geometry is intrinsically vectorlike and cannot force its own chirality or generation count from
-inside (the linear leg is theorem-grade; the antilinear escape is a finite adversarial hunt with no
-counterexample found, not yet a closed proof), so on present evidence the count is **external** -- entering as
-chirality does in the Standard Model (chiral gauge couplings, instantons, K3 / Calabi-Yau).
+This program studies a **class of geometry** — the Clifford-Rarita-Schwinger /
+chimeric-bundle *observerse* — as a candidate for the shape of physics.
+*Located, Not Forced* establishes structural results under its declared
+carrier and operator assumptions. The finite antilinear theorem concerns
+`intersectionDifference` on a supplied carrier; identifying that carrier with
+physical generations and transferring the result to the physical real form
+remain separate obligations. See the scope corrections in
+`canon/antilinear-bound-RESULTS.md` and the claim-level `VERIFICATION.md`.
+These results do not settle the source's distinct `2+1`, graded-IG or observed
+chirality mechanisms (SC-GEN-02/03/54; SC-CHI-01/51).
 
-That result is not a verdict that GU "does not work." The working question is larger than whether bare GU
-kinematics forces the integer three. It is whether GU gives the best, most compressed, most unifying account
-of the structures we already know, with the generation count entering as a constrained physical selection
-datum rather than as arbitrary numerology. The guiding hypothesis (the program's bet, not yet a result) is that
-this class connects the **classical** (general relativity) and the **quantum** (Standard Model), with chirality
-as external boundary data; the frontier is **what lies outside the observer universe.** See
-`RESEARCH-PROGRAM.md`.
+The working question is larger than whether bare GU kinematics forces the
+integer three. It is whether this geometry gives a more constrained, unifying
+account of the structures we already know. The program's conditional working
+model relates classical gravity and quantum matter with chirality/generation
+selection entering through additional physical or boundary data. That is a
+research hypothesis, not a proved necessity for every source-native mechanism.
+See `RESEARCH-PROGRAM.md`, read with the current source and physics caveats below.
 
 This repository optimizes for finding the truth, using Geometric Unity as the generative test case that pointed
 here, not as a thesis to defend. GU is a bold, high-information, contested conjecture: the kind of aggressive claim
@@ -70,43 +74,48 @@ program — force it, falsify it, or place it precisely — and to determine wha
 of geometry to be the true account of physics. GU is the generative engine, not a thesis to defend; the
 product is true structure at honest grade plus a reliable truth-seeking method.
 
-**The standard, made precise.** A theory whose subject matter includes the observer's own orientation
-cannot, from inside, *derive* the one datum that selects which world it is in — here that is a result (proven
-for the *reconstructed* summit operator; GU's own source action is not yet built), not a posture: the sector
-bit is Gödel-independent / oracle-relative, and that operator provably does not close from structure without
-it (the excision that would evade this is anomaly-protected — forbidden, at proposal grade). So "the program must natively *force* all of physics" is the wrong bar; it
-demands the one thing the structure forbids. This class is a **model-schema**, and the external data select
-the model. It is therefore held to the standards that actually apply to non-derivable truth:
+**Current evidential footing (reconciled 2026-09-08).** Keep the source's
+claims separate from the repository's conditional constructions. Read
+`lab/sources/source-claim-register.yaml` for source identity and polarity;
+resolve the current physics ledger through `standing_ledger.ref` and
+`human_ref` in `lab/methods/research-evidence-contract-v1.0.json`. Source
+adherence is not physical verification, and mapped requirements or SAME rows
+are not independent confirmations. Read each row's mapping grade, assumptions,
+remaining freedom and evidence, together with later conditional results.
 
-- **Refutation-survival** — it must survive every kill test we can build. The live one is the dark-energy
-  sign (no phantom crossing, `w(z) ≥ −1`), at DESI/Euclid; that prediction is both the external kill test and
-  the license for the abduction.
-- **Best-arena abduction** — it wins to the degree it leaves the **fewest joints unexplained** and imports
-  the **fewest independent knobs** versus stated rivals (SM+QM+GR, ΛCDM+SM, modified gravity) at equal
-  empirical coverage — the question this README already refuses to collapse into "does bare GU force three."
-  Maintained as an explicit, fair **parsimony ledger**, with wired joints marked *observable* (evidence) vs
-  *internal-only* (unification, not yet evidence).
+The distinctive questions remain open: two true plus one effective family
+(SC-GEN-02/03/51/53/54), observed chirality from a non-chiral total theory
+(SC-CHI-01/51), physical positivity despite indefinite geometry (SC-META-53),
+and gravity/cosmology from the geometric action and connection distortion
+(SC-ACT-01/02; SC-COS-50/51/54). Preserving those questions does not certify
+their proposed mechanisms. Representation identities, observation maps,
+action equations, physical states and observables require their own bridges.
 
-**The irreducible external ledger.** Exactly two data enter from outside: **σ** — one Z/2, the
-orientation / time-reversal bit (the spin-cover deck class `w₁`) that fixes the dark-energy sign and the
-boundary — and **τ** — one Z/3, associated with the generations (that the count is *three* is a native value
-present but **not forced** — an open question, not a theorem). σ is unreadable and unmintable from inside;
-given the two, the program *hosts* most physics **modulo** them — it fits, conditionally; it does not yet
-*force* it — and never stands without them. (σ's cardinality = one bit and its anomaly-protection are
-**proposal grade** — a three-link chain resting on an analogy-tagged deck action, closing only on the exact
-`Ω^{Pin⁺}₁₄` order; the DE-sign prediction is the load-bearing falsifiable.)
+**Testability.** A specified realization can fail a mathematical consistency
+condition or an empirical requirement. Freeze its assumptions and identify
+which registered source claim or internal construction the test addresses.
+The useful unification question is whether one compatible construction meets
+several independent constraints without refitting, and what that common
+construction excludes. Conditional matches on different forks are not yet
+such a result. Missing action closure does not block conditional reverse-scaffold research
+from observed phenomena back to requirements on a future action; it limits
+forward derivation and prediction credit.
 
-**Honest current standing.** Given σ and τ supplied, the construction *hosts* most of physics at
-consistency-to-hosting grade and *fixes* the dark-energy sign (toy-grade, conditional on the SRC-COH-1
-construction axiom — not yet forced from a built source action); on the unexplained-joints ledger it is the
-better arena than the rivals, but **modestly** (a factor of ~2–3, not orders of magnitude), and native
-certification is gated on one blocked source-action spine. That gate does not
-block conditional reverse-scaffold research from observed phenomena back to
-the requirements on a future action. It does not yet *force* physics, and the bit is
-imported, not earned — and by the standard above, that is the correct posture, not a deficiency. The
-dark-energy no-phantom-crossing measurement is the one observation that turns the modest lean into a verdict.
-(Consolidates the 2026-07-21 results: `explorations/lp-lc-deficiency-decisive-…`, `pin-bordism-cardinality-…`,
-`per-leg-recovery-state-…`, `parsimony-unexplained-joints-ledger-…`, `council-reframe-arena-abduction-…`.)
+**Correction to the July overview.** The earlier two-input summary (σ and τ)
+and illustrative factor-of-2–3 arena preference are historical conditional
+arguments, not a current parameter inventory or calibrated empirical odds.
+The live physics ledger records additional unresolved choices and functional
+freedom. Nor is no phantom crossing, `w(z) ≥ −1`, currently a derived GU
+prediction: LT-GR2d/e retain the sign, magnitude and cosmological-export
+burdens. The later conditional result in
+`papers/drafts/sigma-dark-energy-sign-nonselection/CLAIM-AND-PREMISE-LEDGER.json`
+shows that, with a separately supplied total, nonzero, odd physical sign
+bridge, the image across the two σ orientations contains both signs. It supplies neither that bridge
+nor a physical orientation selector. Preserve the connection/VEV dark-energy
+hypothesis (SC-COS-50/51/54), while withholding the older claim that one
+no-phantom measurement settles GU. The July analyses remain available as
+historical evidence in `explorations/per-leg-recovery-state-2026-07-21.md` and
+`explorations/parsimony-unexplained-joints-ledger-2026-07-21.md`.
 
 ## Start Here
 
@@ -117,6 +126,10 @@ continuation, and first verification section directly from the existing
 files. The view is partial and does not select work: read the full relevant
 state, source rules, and exact evidence before choosing or reusing a result.
 
+- **Source claims and attribution:** `lab/sources/source-claim-register.yaml`
+- **Current physics recovery/compatibility ledger:** follow `standing_ledger.ref`
+  and `human_ref` in `lab/methods/research-evidence-contract-v1.0.json`; use the
+  referenced ledger's current accounting and complete row caveats.
 - **Current branch-relative state:** `CURRENT-STATE.yaml`
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
 - **Reverse-search / forward-certification method contract:**

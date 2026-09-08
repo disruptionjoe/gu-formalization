@@ -2,7 +2,7 @@
 title: "GU Objects: Geometer and Physics Construction Routing"
 status: active_research
 doc_type: object-routing-authority
-updated_at: "2026-08-26"
+updated_at: "2026-09-08"
 ---
 
 # GU objects: the geometer's construction vs the physics default (read before attacking any GU object)
@@ -18,13 +18,18 @@ records forks this program has ALREADY identified, and -- where determined -- wh
 lives on and the reason. It is a map of where the two diverge and what we have settled, not a claim that one
 side always wins.
 
-Each row: the two constructions, and (in the last column) which side we determined the answer is on for THIS
-object and why. Entries are settled forks; for an object NOT in this table, apply the rule below.
+Each row identifies the constructions and the result's scope. Some entries
+settle only an object or label; others are conditional or unresolved. This
+routing table does not certify physical recovery. Read the registered source
+claim and the current physics ledger row before transferring a result. The
+current ledger is resolved by `standing_ledger.ref` in
+`lab/methods/research-evidence-contract-v1.0.json`. For an object not in this
+table, apply the rule below.
 
 | Object | Standard physics construction | Geometer's (program-native) construction | Determined side + why |
 |---|---|---|---|
 | **Gauge group** | "Sp(64)"; or "non-compact -> non-unitary -> inconsistent" | **Sp(32,32;H)**, the non-compact real form -- and the non-compactness IS the Krein/indefinite form, a feature not a bug (Branch 5: non-compactness == the Krein form, one datum) | Do not reject GU for a "non-unitary non-compact group"; the Krein structure is the point |
-| **Ghost clearance** | REMOVE the ghost (SUSY positivity `{Q,Q^dag}=2H>=0`, or project to a positive Hilbert subspace) | **KEEP-AND-GRADE** the ghost via the Krein form `[P,S]=0` (P = Cartan involution of so(9,5)) / Bateman-Turok hidden parity -- an indefinite-metric (PT/Krein) consistency, NOT a positive Hilbert space (Branch 3: GU clears its ghost the anti-SUSY way) | Do not look for SUSY / positive-H positivity; GU's consistency is Krein-graded |
+| **Ghost clearance / physical positivity** | Remove unphysical degrees of freedom or construct positive physical states and probabilities | The conditional **KEEP-AND-GRADE** Krein route retains an indefinite ambient form; `[P,S]=0` and the older K95 Cartan construction do not establish an interacting positive physical theory or transfer automatically to K77 | Preserve this alternative without calling ghost clearance settled. SC-META-53 records source uncertainty; LT-SM8/LT-GR6b retain physical-state/domain burdens. `explorations/H59-krein-loop-positivity-gate-2026-07-12.md` explicitly leaves loop positivity OPEN. Neither signature alone nor a kinematic grading decides it. |
 | **Signature (7,7)** | Multiple timelike directions -> ghosts, no unitary Hilbert space, inconsistent | The settled K77 chimeric metric is horizontal (1,3) plus vertical (6,4), obtained by trace reversal on the symmetric-metric fibre. Its split spinor form is Krein `(+64,-64)`; positive-definiteness was never claimed. The older conditional K95 `(9,5)` carrier is a rival fork, not this object. | Do not kill GU merely for indefinite signature, and do not import K95 coefficients into K77. |
 | **Graded / guardian symmetry** | super-Poincare, `{Q,Q} ~ P_mu` (spacetime SUSY) | **super-IG**: a graded extension of the internal gauge group IG, `{Q,Q} ~ Omega^1(ad)` = the SPIN CONNECTION, not `P_mu` (Branch 5, decisive) | A team hunting spacetime SUSY concludes "no guardian"; the geometer's graded object is a distinct (local-Lorentz-graded) thing |
 | **Generation count** | an integer index/rank in `Z` | a proposed torsion reading in the 3-primary arena `Z/3 subset pi_3^s = Z/24` | The relation is **unsettled**, not a settled native-side win. `Hom(Z/3,Z)=0` blocks a direct additive identification, so a separately constructed integer observable and bridge would be required. Keep both codomains typed and treat “torsion component -> integer 3” as the open question. |
@@ -32,7 +37,7 @@ object and why. Entries are settled forks; for an object NOT in this table, appl
 | **Higgs / VEV** | a separate four-dimensional scalar Higgs field, including a standard SO(10) `126` VEV, with an independently written Mexican-hat potential and Yukawa coupling | Weinstein says “there's no Higgs”: the candidate is an `ad`-valued connection perturbation `a in Omega^1(ad)` whose curvature square supplies kinetic, quadratic and quartic terms. **WITHDRAWN 2026-08-15:** this cell previously continued "vertical components may become four-dimensional scalars after observation/reduction". That clause is not source-attested and is refuted -- see the `[!CAUTION]` block in `lab/methods/source-native-comparator-routing.md`. It restated the Kaluza-Klein reduction the source explicitly disavows, and the observation reduction is a contraction, not a projection, so an `ad`-valued one-form descends to a one-form, not to scalars (`MD-1`, 67/67; both horns of the open soldering fork computed by `LA-8`, 78/78, and both carry zero doublets). | A standard Higgs or `126`-VEV obstruction excludes that comparator only. It is not adverse evidence against the curvature-induced connection mechanism. Start at `explorations/layer0-pass-on-the-two-higgs-objects-2026-07-29.md` and `lab/active-research/joe-directed/majorana-126-neutrino/src1-source-steelman-of-the-vev-2026-08-14.md`. |
 | **Symmetry breaking / vector mass** | a VEV-only stabilizer computation in a conventional four-dimensional gauge theory | observation first reduces the higher-dimensional geometry; the later Yang--Mills--Higgs layer and its connection/distortion components must then be composed with that reduction | A VEV-only residual gauge group or mass count cannot settle the source-native composed mechanism. Require the actual observation and later-action bridge. Start at `lab/active-research/pati-salam-chain-verification.md` and the Higgs/VEV route above. |
 | **Physical 4+10 carrier split** | Lorentzian `(3,1)+(6,4)` with reality/conjugation closure | compact/complexified `(4,0)+(5,5)` self-dual carrier used by the finite census | Do not transfer the packet silently. One Lorentzian Hodge half is complex dimension `192` but K-null and conjugation-exchanged; the computed stable closure is dimension `384`, signature `(192,192)`. The compact packet remains useful but is not the same physical-real-form object. |
-| **Gravity functional** | pick an `R^2 / Weyl^2` Lagrangian (free model-building) | **`|II|^2`**, the full second-fundamental-form norm of the embedding `X^4 -> Y^14`, via the Gauss identity `|II|^2 = |H|^2 - R^X`; Einstein-Hilbert is INDUCED, not added | Do not treat it as free Lagrangian-building; the induced `|II|^2` (with its Einstein term) is what makes GU survive the rotation-curve refutation (H49) -- pure conformal `|H|^2` dies |
+| **Gravity functional** | Choose an `R^2 / Weyl^2` Lagrangian | The observer full-second-fundamental-form functional `norm(II)^2` has the Gauss relation `norm(II)^2 = norm(H)^2 - R^X + R^Y_tangential`, with signed metric contractions and unnormalized `H = tr_g II` in the H15 conventions; the ambient term vanishes only under the stated ambient assumption | Preserve the induced-curvature route, but an algebraic Einstein term is not the full source-owned Einstein dynamics or a rotation-curve prediction. `explorations/wave3/H15-gravity-fork-2026-07-11.md` states the ambient caveat. SC-ACT-01/02 and current LT-GR1b require the actual action, pairing, reduction and variation. The later full-norm placement in `explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md` survives within its declared K77 construction; its physical propagator remains open. |
 | **The scale mu_DW** | a mass parameter to be measured / fixed | the DeWitt/gimmel metric scale -- the scale-covariant geometry fixes only DIMENSIONLESS RATIOS, so the overall scale is STRUCTURALLY free, not merely unmeasured (H24) | Do not expect the geometry to hand you mu_DW; it is a ratio-only structure |
 | **The metric** | THE spacetime metric `g` | the gimmel/DeWitt metric on `Y^14 = Met(X^4)`; the vertical block is the TRACE-REVERSED Frobenius fiber `(7,3) -> (6,4)`. There are TWO metrics (base + fiber) and an action relating them | Do not conflate the base spacetime metric with the fiber metric-on-metrics |
 | **The number 14: metric total space vs exterior grading** | A rank-14 graded object `Λ¹V* ⊕ Λ²V* ⊕ Λ³V*`, or a rank-10 exterior fibre `Λ²T*X ⊕ Λ³T*X` over a 4D base | GU's `Y¹⁴ = Met(X⁴)` is a **total** 14-dimensional space with rank-10 symmetric metric fibre `S²T*X`; it is not selected by the exterior dimension count | **Typed fork, no identification.** The full `4+6+4` bundle over `X⁴` has total dimension 18. The total-14 exterior comparator uses fibre `6+4`, but there is no natural `GL(4)`-equivariant isomorphism `S²V* ≅ Λ²V* ⊕ Λ³V*`. Hodge identifications add metric and orientation; truncated grades are not algebraically closed. See `explorations/geometry-curvature-emergence/graded-exterior-bundle-14d-comparator-2026-07-26.md`. |
@@ -46,7 +51,7 @@ the program's native construction. The discipline:
 1. IDENTIFY the fork. Notice when the object you are manipulating has two possible constructions.
 2. NAME which one you are using, and WHY. State it explicitly in the work.
 3. STAY OPEN on which side the answer is. We do not know a priori. Some forks resolve native, some standard;
-   the table above lists the ones settled so far, each with its reason.
+   the table above records the known forks with their individual scope and caveats.
 4. A no-go / kill is only as strong as the construction it was derived in. If you reach one, identify the
    construction and check whether it survives in the OTHER -- a physics-version wall may be an artifact, and a
    native-version result may fail to transfer. Do NOT believe a kill until you know which construction it
@@ -59,11 +64,14 @@ merely a reminder. Apply the mandatory inference and routing grammar in
 `lab/methods/source-native-comparator-routing.md`. In particular, do not report
 `CONVENTIONAL_ROUTE_EXCLUDED` as “particle physics became adverse” or as a GU
 verdict without a separately proved bridge to the source-native object.
-For GU the recurring native features (the ones the table settled toward the geometric side) are:
-indefinite/Krein rather than positive Hilbert; torsion (3-primary) rather than integer/index; induced rather
-than added; ratio-only rather than scale-fixed; graded-internal (super-IG) rather than graded-spacetime
-(super-Poincare); metric-on-metrics rather than a single metric. These are settled results, not a standing
-preference -- the next object may go the other way.
+For GU, preserve the distinct metric-on-metrics, graded-IG, induced-curvature
+and source `2+1`/non-chiral constructions (SC-GEO-03/05, SC-GEN-02/03/54,
+SC-CHI-01/51, SC-ACT-01/02). Their physical implications remain separately
+scoped. In particular, indefinite/Krein geometry is not a completed physical
+positivity argument (SC-META-53), and the proposed 3-primary torsion reading
+is not a derived integer generation count. Neither replaces the source's
+`2+1` mechanism. A conditional ratio-only result also does not settle every
+source action's scale question. The next object may favor either construction.
 
 ## For orchestrators
 
