@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139--K172 equal-coupling positive particle/hole signed point control at auxiliary chart 256 on the K162 cofinal family.",
+  "two_graph_replay": {
+    "free_energy_graph_finite_q_D": false,
+    "free_energy_graph_reason": "G sends the vacuum to a dressed point profile h with omega*h outside L2.",
+    "particle_number_graph_q_D_upper": "3/4",
+    "particle_number_graph_finite_B": false,
+    "particle_number_graph_reason": "The exact one-bath diagonal core contains D_256(omega), and D_256(e) has a logarithmically divergent lower bound."
+  },
+  "mixed_graph_certificate_rejected": true,
+  "fractional_replacement": {
+    "quarter_graph_candidate_open": true,
+    "point_profile_has_quarter_energy_regularilty": true,
+    "one_bath_D_weight_coefficient_upper": "1/pi",
+    "complete_native_constants_serialized": false
+  },
+  "release_test": {
+    "complete_native_all_order_vector_tail_serialized": false,
+    "coefficient_complete_base_R0_action_column_serialized": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "native_left_floor_at_selected_scalar_center_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "next_condition": "On the explicitly normalized quarter-energy plus number graph, prove a complete Fock-space contraction q_(1/4)<1 for G and complete graph-to-Hilbert bounds for every normal-ordered W block. Otherwise derive a coefficient-specific sum-norm tail along the exact K162 seed orbit. Only a same-domain certificate may enter K172 and K171.",
+  "claim_ceiling": "Exact repository-owned topology correction: the free-energy graph supplies W control but no finite G graph norm, while the particle-number graph supplies strict G contraction but no finite W graph-to-Hilbert bound. Their constants cannot be mixed. A quarter-energy candidate controls the point vector and named one-bath logarithmic multiplier only; complete Fock constants, all-order tail, residual, complement floor and K152 interval remain absent."
+}

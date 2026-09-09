@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K173 two-graph tail obstruction (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K172's requested numerical graph constants can be taken from the free-energy graph | the vacuum is in `Dom(H0)` but its boundary image contains `h=(2 pi)^(-1/2)/(omega+256)` with `omega h notin L2` | false; K158's infinite free-graph norm is replayed against the K172 premise |
+| The particle-number graph supplies both K172 premises | `||G||_(N+1)<=2(3/8)=3/4`, but `W_1=-256+mD_256(omega)` and `D_256(e)>=(3 pi)^-1 log((e+257)/513)` for `e>=257` | false; strict graph contraction but infinite graph-to-Hilbert `W` bound |
+| Constants from the two graphs can be combined | K172's theorem uses one domain and one norm for `G:D->D`, `W:D->H` and `c=||phi||_D` | false; the same-domain compiler rejects the mixed certificate |
+| A replacement topology has no analytic foothold | K159 gives `h in Dom(omega^s)` for every `s<1/2`; at `s=1/4`, `D_256(e)<=e^(1/4)/pi`, bounding the named one-bath blocks by `256+1/pi` and `256+2/pi` | false; viable subblock control, not a complete Fock-space certificate |
+| K173 closes the all-order action tail, complete residual, complement floor or K152 | complete quarter-graph `G` and `W` bounds or a coefficient-specific orbit tail remain absent, as do the residual, positive complete complement/flux floor and scalar-center left floor | false; no native interval or physical/source claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k173_two_graph_tail_obstruction.py --demo`,
+`python3 tests/channel-swings/k173_two_graph_tail_obstruction_probe.py`
+and its baseline-first hostile check with `--selftest` (`35/35`, `17/17`).
+
 ## K172 continuum first block and graph-tail topology (2026-09-09)
 
 | Claim | Evidence | Honest grade |

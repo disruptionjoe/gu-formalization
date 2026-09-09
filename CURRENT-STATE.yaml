@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bc505cf1883009573201bb14347c9bcdd9e08d3a
+revision_basis: 5d867e300237aeee437a55bf87b9b825551c70e5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K173 two-graph-tail Big Wave tests the numerical premises requested by
+    K172 on both graph topologies actually proved by K139--K161. On the
+    free-energy graph, the vacuum boundary image contains
+    h=(2 pi)^(-1/2)/(omega+256) with omega h outside L2, so G does not preserve
+    Dom(H0) and q_D is infinite. On the particle-number graph, K139/K153 give
+    the strict contraction q_D<=3/4, but the exact one-bath core contains
+    D_256(omega), and D_256(e)>=(3 pi)^-1 log((e+257)/513) for e>=257. Hence W
+    is unbounded from that graph to Hilbert space and B is infinite. The two
+    constants cannot be mixed because K172's theorem requires G, W and the
+    seed norm on one explicitly normalized domain. A quarter-energy candidate
+    survives: K159 gives h in Dom(omega^s) for s<1/2, and at s=1/4 the named
+    one-bath blocks are bounded by 256+1/pi and 256+2/pi. Complete Fock-space
+    quarter-graph constants or a coefficient-specific orbit tail remain
+    absent, so the all-order action column, complete R_ref residual, positive
+    complete M-orthogonal complement or flux floor and scalar-center left
+    floor remain open. No native K152 interval, physical/source, Born,
+    prediction or confirmation claim follows.
+
     The K172 continuum-first-block/graph-tail Big Wave evaluates the first two
     native K156 action blocks requested by K171 on the K162 zero-bath seeds.
     Normal ordering gives W_0 phi=-256 phi. For each first-transition
@@ -7404,13 +7422,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can numerical graph constants q_D<1 and B be proved for K156's exact
-  normal-ordered continuum core on the K162 cofinal family, turning K172's
-  symbolic post-adjoint tail into a numerical all-order enclosure; can all
-  K171 bath-output components then be assembled into the complete R_ref
-  form-dual residual and a positive complete M-orthogonal complement or flux
-  floor below E_ref(q)+5/2 before a separately selected scalar center supplies
-  the native K152 left floor?
+  Can the quarter-energy plus particle-number graph suggested by K173 be
+  proved invariant and contractive for the complete K139 boundary map while
+  bounding every K156 normal-ordered block to Hilbert space, or can a direct
+  coefficient-specific sum-norm tail be proved on the K162 seed orbits; can
+  that same-domain tail then assemble the complete K171 action column and
+  R_ref residual before a positive complete complement or flux floor and a
+  separately selected scalar center close K152?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7419,6 +7437,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K173 proves that K172's numerical constants cannot be obtained as a pair
+  from either existing graph. The free-energy graph has infinite G graph norm
+  because omega h is not in L2. The particle-number graph gives q_D<=3/4 but
+  has infinite W graph-to-Hilbert norm because D_256(e) grows at least as
+  (3 pi)^-1 log((e+257)/513). Do not splice those constants. On the explicitly
+  normalized graph Dom(dGamma(omega)^(1/4)+N+1), prove a complete-Fock
+  q_(1/4)<1 and bounds for the diagonal Pauli/spectator block, all four
+  polarity-exchange blocks and every higher normal-ordered word. If that graph
+  is not invariant, prove a direct coefficient-specific sum-norm tail for
+  W_n G^n phi on the exact K162 vacuum and one-impurity seed orbits. Only a
+  same-domain certificate may enter K172, K171 and the complete residual
+  compiler; the complement/flux and scalar-center floors remain downstream.
+
   K172 evaluates the native n=0 and n=1 continuum vectors on the vacuum and
   one-impurity K162 seed lines and encloses the complete first-block Hilbert
   norms. It also proves that K153's Hilbert contraction alone cannot sum the
