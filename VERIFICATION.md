@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K174 weight-trace reciprocity obstruction (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K173 quarter-energy graph fails because `G_256` is not contractive | fractional pull-through, `||h||<1/27`, `||omega^(1/4)h||<9/50`, two orthogonal outgoing channels and `sqrt(2)<3/2` give `q_(1/4)<131/300` in the pinned graph norm | false; the boundary map is strictly contractive |
+| The same quarter graph bounds the complete K156 core to Hilbert space | an isolated nonzero exchange channel contains the point trace `f -> int f`; its dual weight `(omega^(1/4)+2)^(-1)` is not square integrable | false; the named diagonal block is bounded but an exchange block is not |
+| Another diagonal energy weight can satisfy both premises | boundary invariance requires `a h in L2`, trace continuity requires `1/a in L2`, and Cauchy--Schwarz gives `H_R T_R >= log(R/257)^2/4` | false for every positive diagonal one-particle multiplication weight |
+| K174 proves that the complete renormalized K156 core or every possible domain fails | K156's matched cancellation is preserved, while the theorem excludes only separate graph-bounded exchange factors on diagonal multiplication-weight domains | false; correlated, non-diagonal, cancellation-adapted and coefficient-specific routes remain open |
+| K174 closes the all-order action tail, complete residual, complement floor or K152 | the direct compiler rejects K172's finite prefix because no all-order renormalized coefficient bound is proved | false; no native interval or physical/source claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k174_weight_trace_reciprocity_obstruction.py --demo`,
+`python3 tests/channel-swings/k174_weight_trace_reciprocity_obstruction_probe.py`
+and its baseline-first hostile check with `--selftest` (`37/37`, `18/18`).
+
 ## K173 two-graph tail obstruction (2026-09-09)
 
 | Claim | Evidence | Honest grade |

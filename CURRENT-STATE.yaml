@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5d867e300237aeee437a55bf87b9b825551c70e5
+revision_basis: 258f5b45d0673ce530d4a72cf159a99f7cc73294
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K174 weight-trace reciprocity Big Wave decides K173's fractional graph
+    candidate and the whole positive diagonal multiplication-weight family.
+    On the explicitly normalized graph of
+    (dGamma(omega))^(1/4)+N+1, fractional pull-through and outward bounds
+    ||h||<1/27 and ||omega^(1/4)h||<9/50 give the strict complete boundary-map
+    contraction q_(1/4)<131/300. The complete normal-ordered core is not
+    graph-to-Hilbert bounded there: an isolated nonzero K156 exchange channel
+    contains the unsmeared point trace, whose reciprocal quarter weight is not
+    square integrable. More generally, a positive diagonal one-particle weight
+    a contains the dressed boundary profile only if a*h is square integrable,
+    while continuity of the exchange trace requires 1/a square integrable.
+    Cauchy--Schwarz forces the truncated product above
+    log(R/257)^2/4, ruling out simultaneous finiteness for every such weight.
+    This does not kill K156's matched renormalized core or correlated,
+    non-diagonal, cancellation-adapted and coefficient-specific domains. A
+    fail-closed direct-tail compiler now requires complete renormalized
+    all-order W_n G^n phi bounds on the exact K162 seed orbits; K172 supplies
+    only orders zero and one. The complete action column, R_ref residual,
+    positive complete M-orthogonal complement or flux floor and scalar-center
+    left floor remain open. No native K152 interval, physical/source, Born,
+    prediction or confirmation claim follows.
+
     The K173 two-graph-tail Big Wave tests the numerical premises requested by
     K172 on both graph topologies actually proved by K139--K161. On the
     free-energy graph, the vacuum boundary image contains
@@ -7422,13 +7444,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the quarter-energy plus particle-number graph suggested by K173 be
-  proved invariant and contractive for the complete K139 boundary map while
-  bounding every K156 normal-ordered block to Hilbert space, or can a direct
-  coefficient-specific sum-norm tail be proved on the K162 seed orbits; can
-  that same-domain tail then assemble the complete K171 action column and
-  R_ref residual before a positive complete complement or flux floor and a
-  separately selected scalar center close K152?
+  Can the complete renormalized vectors W_n G^n phi be expanded on the exact
+  K162 vacuum and one-impurity seed orbits with matched cancellations preserved
+  and bounded by a summable all-order coefficient-specific majorant; can that
+  tail then assemble the complete K171 action column and R_ref residual before
+  a positive complete complement or flux floor and a separately selected
+  scalar center close K152?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7437,6 +7458,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K174 proves that the quarter-energy plus number graph does make G_256
+  strictly contractive, with q_(1/4)<131/300 in the pinned graph norm, but an
+  isolated nonzero K156 exchange block remains unbounded because it contains
+  the unsmeared point trace. The same conflict holds for every positive
+  diagonal one-particle multiplication weight: boundary membership requires
+  a*h in L2, exchange-trace continuity requires 1/a in L2, and their truncated
+  integral product is at least log(R/257)^2/4. Do not search for another power,
+  logarithmic or anisotropic diagonal weight. Expand the complete renormalized
+  vectors W_n G^n phi on the exact K162 vacuum and one-impurity seed orbits,
+  preserving matched cancellation before limits, and prove a complete
+  summable all-order sequence bound. Correlated, non-diagonal and
+  cancellation-adapted domains remain honest alternatives, but separate
+  bounds on their singular exchange factors do not satisfy the direct
+  certificate. Only then
+  assemble the K171 action column and R_ref residual and replay the complete
+  complement or flux floor. Keep scalar-center selection separate.
+
   K173 proves that K172's numerical constants cannot be obtained as a pair
   from either existing graph. The free-energy graph has infinite G graph norm
   because omega h is not in L2. The particle-number graph gives q_D<=3/4 but

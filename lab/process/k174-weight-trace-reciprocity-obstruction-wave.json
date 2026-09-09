@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139--K173 equal-coupling positive particle/hole signed point control at auxiliary chart 256 on the K162 seed-orbit question.",
+  "quarter_graph": {
+    "domain": "Dom((dGamma(omega))^(1/4)+N+1)",
+    "norm": "||(dGamma(omega))^(1/4)psi+(N+1)psi||",
+    "G_graph_contraction_upper": "131/300",
+    "G_graph_contraction_strict": true,
+    "named_diagonal_self_energy_block_bounded": true,
+    "complete_W_graph_to_Hilbert_bounded": false,
+    "reason": "An isolated nonzero K156 exchange channel contains the unsmeared point-annihilation trace, which is discontinuous on the quarter graph."
+  },
+  "weight_trace_reciprocity": {
+    "boundary_requirement": "a*h in L2",
+    "exchange_trace_requirement": "1/a in L2",
+    "finite_interval_product_lower": "H_R*T_R >= log(R/257)^2/4",
+    "no_positive_diagonal_weight_satisfies_both": true,
+    "power_weight_intersection": "empty, including the logarithmically divergent endpoint s=1/2",
+    "finite_logarithmic_weights_admit_boundary_but_not_trace": true,
+    "non_diagonal_or_cancellation_adapted_domains_ruled_out": false
+  },
+  "orbit_tail_interface": {
+    "complete_renormalized_vectors_required": true,
+    "separate_singular_factor_bounds_forbidden": true,
+    "abstract_positive_control_tail": "9/1600",
+    "native_all_order_coefficient_tail_serialized": false
+  },
+  "release_test": {
+    "coefficient_complete_base_R0_action_column_serialized": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "native_left_floor_at_selected_scalar_center_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "next_condition": "Leave the impossible single diagonal-weight graph route. Evaluate the complete renormalized coefficient-specific vectors W_n G^n phi on the exact K162 vacuum and one-impurity seed orbits, prove an all-order summable majorant after cancellations, and only then assemble the K171 action column and R_ref residual.",
+  "claim_ceiling": "Exact repository-owned diagonal-weight route obstruction: the quarter graph makes the K139 boundary map strictly contractive but cannot bound a nonzero K156 exchange block, and no positive diagonal one-particle multiplication weight can simultaneously contain the dressed boundary profile and make the unsmeared point trace continuous. Correlated, non-diagonal, cancellation-adapted and coefficient-specific routes remain open; no complete action column, residual, complement floor, K152 interval or physical/source conclusion follows."
+}
