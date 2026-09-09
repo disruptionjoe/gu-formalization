@@ -7,6 +7,25 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K184 order-six certified low-rank and time-Gram family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete order-six family is assembled | all 72 K179 paths occupy 18 coherent groups at old positions one, three and five, with 234 unique self/cross Gram entries | exact coefficient-complete repository control |
+| The rank-729 positive-orthant projection has a complete error certificate | analytic old-momentum contraction, complete-sum cell intervals, six-axis reflection and AM--GM exterior-tail bounds enclose every path, group and Gram remainder | proved finite deterministic intervals on the fixed control |
+| The projection is accurate enough for action-column use | its remainder square is `1.36e27` to `1.23e40` times the retained projection norm because pathwise tails erase cancellation | false; valid but not decision-grade |
+| Every order-six coherent group is nonzero | localized complete-coordinate interval boxes give positive full-space squared-norm floors from `2.98e-94` to `3.53e-81` | proved existence; not a narrow norm evaluation |
+| The bounded-asinh values are the outward proof | coarse/fine group differences reach `0.572`; the seedwise fine values are `7.044399344407909e-21`, `3.171384975415895e-21`, `3.120265703163414e-21` | false; independent scale/interference control only |
+| Exterior momentum integration can preserve cancellation globally | specieswise Andréief integration maps every path pair to products of `det[2 K_1(T_i+U_j)]` and exactly cancels the wedge factorials; three discrete controls agree within `4.91e-14` | exact factorial-free time-Gram reduction for all 234 entries |
+| The radial origin blocks time quadrature | the two seven-time simplices have joint measure `rho^13`; eight crude `K_1=O(1/rho)` factors leave an integrable `rho^5` majorant | false; theta/simplex-face and large-variable error remain open |
+| K184 completes the accurate order-six prefix or K171/K168 columns | the deterministic intervals are broad and no complete base/reference action column, residual, complement, scalar floor or K152 interval is serialized | false; accurate certified prefix remains through order five |
+
+Reproduce with
+`python3 tests/channel-swings/k184_order_six_certified_low_rank.py --quick`,
+its complete `--demo`,
+`python3 tests/channel-swings/k184_order_six_certified_low_rank_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K183 order-five coherent Gram and compression family (2026-09-09)
 
 | Claim | Evidence | Honest grade |

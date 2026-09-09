@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ffdfcfab539d5c6adbdc2ce225764aec11e61f26
+revision_basis: 279491ec5b6aa5d8e3a1bacb6bb09cc2d671a02d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,35 +35,33 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The K183 order-five coherent Gram and compression Big Wave closes the first
-    changed numerical class left by K182 on the fixed K139--K179 equal-coupling
-    point control. All 32 paths map into 12 coherent seed/output groups and all
-    64 unique self/cross Gram entries are outwardly enclosed only after the
-    complete normalized specieswise exterior coordinates are formed. New
-    weighted-AM--GM allocations give contracted exponents 1.2 at position two
-    and 1.1 at position four, while every exterior exponent is at least 0.6.
-    Exact positive multi-resolvent divided differences integrate the
-    contracted momentum; complete-sum interval boxes then certify all 12 group
-    norms nonzero, with local squared-norm floors from
-    8.537574903258709e-77 to 3.8287135182577294e-69. Independent bounded-asinh
-    controls agree within 1.93e-2 groupwise and give seedwise squared norms
-    7.780845531593745e-18, 4.199052792986050e-18 and
-    4.204522946276353e-18. The exact K177 Laplace-simplex exterior sum is
-    represented by products of species determinants and a shared cumulative-
-    time DAG. Ninety-six literal/determinant checks agree within 2.62e-21.
-    Literal exterior sums remain cheaper through order seven; the determinant
-    proxy wins from order eight and is 105.08 times smaller at order twelve.
-    The remaining numerical gate is a certified positive-time integration
-    error beginning at order six. No order-six-through-twelve numerical
-    prefix, complete K171/K168 action column, R_ref residual, complement or
-    flux floor, scalar-center floor or K152 interval is evaluated. No physical/
-    source, Born, prediction or confirmation claim follows.
+    The K184 order-six certified low-rank and time-Gram Big Wave maps all 72
+    K179 paths into 18 coherent seed/output groups and all 234 unique
+    self/cross Gram entries. Exact positive multi-resolvent divided differences
+    cover old positions one, three and five. Cancellation-first weighted-AM--GM
+    majorants, a rank-729 positive-orthant cell projection and complete tail
+    bounds give deterministic intervals for every Gram entry, while localized
+    complete-sum boxes certify all 18 groups nonzero. The finite-rank route is
+    not decision-grade: its pathwise tail overwhelms the projection by 27--40
+    orders. Independent bounded-asinh controls give seedwise squared norms
+    7.044399344407909e-21, 3.171384975415895e-21 and
+    3.120265703163414e-21, but remain non-rigorous scale controls. Specieswise
+    Andreief integration exactly removes all six exterior momenta and wedge
+    factorials from every Gram entry, leaving products of
+    det[2 K_1(T_i+U_j)]. A joint radialization of the two seven-time simplices
+    has measure rho^13 and eight crude Bessel singular factors, hence a proved
+    rho^5 integrable origin majorant. The remaining numerical gate is a
+    Duffy-weighted theta/simplex-face and large-variable error certificate.
+    The accurate certified prefix remains through order five. No complete
+    K171/K168 action column, R_ref residual, complement or flux floor, scalar-
+    center floor or K152 interval is evaluated. No physical/source, Born,
+    prediction or confirmation claim follows.
 
-    The prior K182 result remains active context:
-    K182 maps all 24 order-four paths into 13 canonical groups, encloses all 40
+    The prior K183 result remains active context:
+    K183 maps all 32 order-five paths into 12 coherent groups, encloses all 64
     Gram entries after complete exterior projection, certifies every group
-    nonzero with localized intervals, and establishes the position-two/
-    position-four order-five switch consumed by K183.
+    nonzero, and proves the exact species-determinant/time-DAG representation
+    consumed by K184.
 
     The prior K181 result remains active context:
     K181 closes all eight order-three outputs as four rank-one controls and
@@ -7598,13 +7596,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a certified positive-orthant cumulative-time quadrature or low-rank
-  integration error evaluate the complete order-six K179 coherent family in
-  the K183 hybrid representation, preserving every species determinant,
-  old-position Bessel factor, shared time-DAG node and coherent cross term;
-  how far can that certified prefix scale before assembling the K171/K168
-  action columns and R_ref residual, complement or flux floor, separately
-  selected scalar center and K152 interval?
+  Can a rho-Laguerre and theta/simplex Duffy-weighted quadrature certify the
+  complete factorial-free K184 order-six time-Gram family, controlling every
+  integrable face and large-variable tail while preserving old-position Bessel
+  factors, species determinants, shared cumulative-time nodes and all 234
+  coherent cross terms; does that error become narrow enough to advance the
+  certified prefix toward the K171/K168 action columns and R_ref residual,
+  complement or flux floor, separately selected scalar center and K152
+  interval?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7613,17 +7612,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K183 closes all 12 coherent order-five groups and 64 Gram entries with new
-  integrable position-two/position-four majorants, exact contracted-resolvent
-  divided differences and localized nonzero witnesses. It also proves the
-  Laplace-simplex species-determinant identity, selects literal exterior sums
-  through order seven and the determinant/time-DAG representation from order
-  eight, reducing the order-twelve exterior operation proxy by 105.08 times.
-  Do not mistake this exterior compression for a certified high-dimensional
-  time integral. Build an outward positive-time quadrature or a proved low-
-  rank error at order six, evaluate every coherent cross term in that complete
-  family, and scale only while its error certificate and resource census
-  remain valid. Only then continue toward K171/K168.
+  K184 closes the complete order-six census, analytic contraction, finite-rank
+  remainder and factorial-free time-Gram reduction. All 72 paths occupy 18
+  coherent groups and all 234 Gram entries have deterministic but broad
+  intervals; every group is certified nonzero. The rank-729 momentum-cell
+  projection is not decision-grade because its cancellation-blind pathwise
+  tail dominates by 27--40 orders. Do not spend another pass refining its
+  interior grid. Use the exact Andreief reduction instead: radialize the two
+  seven-time simplices with rho, theta and two Delta_6 coordinates, preserve
+  every complete Bessel determinant, and construct a rho-Laguerre plus
+  theta/simplex Duffy-weighted rule with explicit face and large-variable
+  error. The radial origin already has a rho^5 integrable majorant. Extend the
+  accurate certified prefix only when the remaining error is decision-grade;
+  only then continue toward K171/K168.
 
   K181 closes the complete order-three mixed determinant gate. The eight K179
   terms occupy distinct seed/output signatures: four share one positive rank-
