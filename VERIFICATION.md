@@ -7,6 +7,24 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K183 order-five coherent Gram and compression family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Contracted positions two and four admit finite global path majorants | weighted AM--GM gives exponent vectors `(0.9,1.2,0.6,0.6,0.6,0.6)` and `(0.6,0.6,0.6,1.1,0.6,0.6)` | proved integrable on the fixed K139--K179 control |
+| Raw interval subtraction preserves order-five exterior cancellation | K183 analytically integrates each positive contracted multi-resolvent and forms the complete normalized specieswise exterior/path sum before testing interval separation | false; only the complete coordinate is certified |
+| Every order-five Gram entry is outwardly enclosed | complete exterior path norms plus post-projection Cauchy bounds cover all 64 unique self/cross entries in the 12 coherent groups | proved finite global outward intervals |
+| The zero-inclusive global intervals prove group nonvanishing | explicit positive-momentum boxes and analytic-contraction interval endpoints give positive local squared-norm floors for all 12 groups | the global bounds alone do not; localized complete sums certify nonzero output |
+| The bounded-asinh numerical values are the outward proof | `2^13`/`2^14` scrambled-Sobol controls agree within `1.93e-2` groupwise and lie inside every global interval | false; independent normalization/interference control only |
+| Literal exterior permutation growth remains necessary through order twelve | the K177 Laplace-simplex Leibniz sum is exactly a product of species determinants; 96 order-five controls agree within `2.62e-21`, and the dense proxy beats literal sums from order eight | false; hybrid literal-through-seven/determinant-from-eight representation selected |
+| Exterior compression completes higher-order numerical integration or the K171/K168 columns | positive-orthant cumulative-time quadrature or low-rank error remains uncertified beginning at order six | false; no order-six prefix, action column, residual, complement, scalar floor or K152 interval |
+
+Reproduce with
+`python3 tests/channel-swings/k183_order_five_coherent_gram.py --demo`,
+its quick structural mode `--quick`,
+`python3 tests/channel-swings/k183_order_five_coherent_gram_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K182 order-four coherent Gram family (2026-09-09)
 
 | Claim | Evidence | Honest grade |

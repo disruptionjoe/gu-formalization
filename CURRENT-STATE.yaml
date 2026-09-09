@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f387d76c04c76570f32ac6d91f22dabe25075f6e
+revision_basis: ffdfcfab539d5c6adbdc2ce225764aec11e61f26
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,29 +35,35 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The K182 order-four coherent Gram Big Wave closes K181's first multi-path
-    gate on the fixed K139--K179 equal-coupling point control. All 24 paths map
-    into 13 canonical output groups: six singletons and seven coherent groups
-    of size two to four. Each path is completely normalized and
-    antisymmetrized specieswise before any interval operation. Weighted
-    AM--GM gives finite global path-norm majorants, and Cauchy--Schwarz then
-    encloses all 40 unique self/cross Gram entries, including the 34 entries in
-    the seven multi-path groups. Those broad global bounds include zero, so
-    K182 separately forms each complete coherent coordinate on a small
-    positive-momentum box; 128 cells per dyadic octave through 2^40 plus
-    analytic contracted-momentum tails produce positive local norm-square
-    floors for all 13 groups. Independent full-half-line Gauss--Laguerre
-    controls agree between exterior/contracted orders (14,28) and (16,32)
-    within 5.18e-2 groupwise and give seedwise squared norms
-    4.485950126835545e-14, 1.806747693898397e-14 and
-    1.806747693898400e-14. The generic canonical map replays structurally
-    through order twelve, but numerical scaling stops honestly at order five:
-    32 paths occupy 12 all-coherent groups with contracted positions 2 and 4
-    and 64 Gram entries requiring new integrable majorants. No order-five-
-    through-twelve numerical prefix, complete K171/K168 action column, R_ref
-    residual, complement or flux floor, scalar-center floor or K152 interval
-    is evaluated. No physical/source, Born, prediction or confirmation claim
-    follows.
+    The K183 order-five coherent Gram and compression Big Wave closes the first
+    changed numerical class left by K182 on the fixed K139--K179 equal-coupling
+    point control. All 32 paths map into 12 coherent seed/output groups and all
+    64 unique self/cross Gram entries are outwardly enclosed only after the
+    complete normalized specieswise exterior coordinates are formed. New
+    weighted-AM--GM allocations give contracted exponents 1.2 at position two
+    and 1.1 at position four, while every exterior exponent is at least 0.6.
+    Exact positive multi-resolvent divided differences integrate the
+    contracted momentum; complete-sum interval boxes then certify all 12 group
+    norms nonzero, with local squared-norm floors from
+    8.537574903258709e-77 to 3.8287135182577294e-69. Independent bounded-asinh
+    controls agree within 1.93e-2 groupwise and give seedwise squared norms
+    7.780845531593745e-18, 4.199052792986050e-18 and
+    4.204522946276353e-18. The exact K177 Laplace-simplex exterior sum is
+    represented by products of species determinants and a shared cumulative-
+    time DAG. Ninety-six literal/determinant checks agree within 2.62e-21.
+    Literal exterior sums remain cheaper through order seven; the determinant
+    proxy wins from order eight and is 105.08 times smaller at order twelve.
+    The remaining numerical gate is a certified positive-time integration
+    error beginning at order six. No order-six-through-twelve numerical
+    prefix, complete K171/K168 action column, R_ref residual, complement or
+    flux floor, scalar-center floor or K152 interval is evaluated. No physical/
+    source, Born, prediction or confirmation claim follows.
+
+    The prior K182 result remains active context:
+    K182 maps all 24 order-four paths into 13 canonical groups, encloses all 40
+    Gram entries after complete exterior projection, certifies every group
+    nonzero with localized intervals, and establishes the position-two/
+    position-four order-five switch consumed by K183.
 
     The prior K181 result remains active context:
     K181 closes all eight order-three outputs as four rank-one controls and
@@ -7592,12 +7598,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can cancellation-first integrable majorants for contracted positions 2 and
-  4 evaluate all 12 coherent order-five K179 groups and their 64 unique Gram
-  entries; what representation or compression is then required to avoid the
-  19,609,920 exterior-summand-per-point order-twelve literal expansion before
-  assembling the K171/K168 action columns and R_ref residual, complement or
-  flux floor, separately selected scalar center and K152 interval?
+  Can a certified positive-orthant cumulative-time quadrature or low-rank
+  integration error evaluate the complete order-six K179 coherent family in
+  the K183 hybrid representation, preserving every species determinant,
+  old-position Bessel factor, shared time-DAG node and coherent cross term;
+  how far can that certified prefix scale before assembling the K171/K168
+  action columns and R_ref residual, complement or flux floor, separately
+  selected scalar center and K152 interval?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7606,18 +7613,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K182 closes the complete order-four coherent Gram gate. All 24 paths are
-  mapped into 13 canonical species/momentum outputs, complete exterior
-  coordinates are formed before interval operations, and all 40 unique Gram
-  entries are globally enclosed. Localized complete-sum interval boxes prove
-  all 13 group norms nonzero; independent full-half-line quadrature preserves
-  flavor-swap symmetry and lies within the rigorous global bounds. Do not
-  extrapolate the order-four `{1,3}` contracted-position majorants. Order five
-  has 32 paths in 12 all-coherent groups, uses contracted positions 2 and 4,
-  and requires 64 Gram entries. Supply the new integrable majorants, evaluate
-  that complete order, and select a representation/compression before the
-  order-twelve literal exterior expansion reaches 19,609,920 summands per
-  point. Only then continue toward K171/K168.
+  K183 closes all 12 coherent order-five groups and 64 Gram entries with new
+  integrable position-two/position-four majorants, exact contracted-resolvent
+  divided differences and localized nonzero witnesses. It also proves the
+  Laplace-simplex species-determinant identity, selects literal exterior sums
+  through order seven and the determinant/time-DAG representation from order
+  eight, reducing the order-twelve exterior operation proxy by 105.08 times.
+  Do not mistake this exterior compression for a certified high-dimensional
+  time integral. Build an outward positive-time quadrature or a proved low-
+  rank error at order six, evaluate every coherent cross term in that complete
+  family, and scale only while its error certificate and resource census
+  remain valid. Only then continue toward K171/K168.
 
   K181 closes the complete order-three mixed determinant gate. The eight K179
   terms occupy distinct seed/output signatures: four share one positive rank-
