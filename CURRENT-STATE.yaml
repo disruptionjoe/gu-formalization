@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e7b27d9dbf50ad01329d6487b95abdebc88bb70c
+revision_basis: 8489d6575e8ed7324bd6fd49b4a6881b728af796
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K180 order-two outward exchange-kernel Big Wave closes K179's first
+    numerical gate on the fixed equal-coupling point control. Exact integration
+    of the contracted momentum reduces all six signed terms to copies of one
+    positive two-variable kernel. Monotone dyadic rectangles through momentum
+    2^40 plus a weighted-AM--GM analytic complement give the certified single-
+    term interval 6.159663104116194e-8 <= ||g||^2 <=
+    7.836341646884551e-8. A same-family midpoint compression has squared norm
+    6.918623720176071e-8 and L2 error at most 3.472607606064087e-5. Direct
+    one-dimensional contracted-momentum enclosures independently contain the
+    analytic formula at three scales. Each seed has two orthogonal common-
+    kernel outputs, so its order-two exchange-vector norm lies in
+    [3.509889771521663e-4,3.958873993166378e-4], with K179's signs preserved in
+    the action coordinates. The scale replay stops at the first changed
+    determinant object: four of eight order-three terms repeat an output
+    species and require signed 2x2 heat-kernel determinants; from order five
+    onward every term does. No higher-order determinant, complete K171/K168
+    action column, R_ref residual, complement or flux floor, scalar-center
+    floor or K152 interval is evaluated. No native physical/source, Born,
+    prediction or confirmation claim follows.
+
+    The prior K179 result remains active context:
     The K179 matched normal-order coefficient-family Big Wave closes K178's
     structural data gate on the fixed K139/K156 equal-coupling point control.
     Starting from C=sum_i[B_i a_(i,+)+B_i* a_(i,-)] and
@@ -7540,10 +7561,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the six exact K179 order-two exchange kernels be evaluated with
-  cancellation-preserving determinant-level outward bounds and independently
-  cross-checked against a same-family conforming compression; if that first
-  numerical gate closes, can the evaluator scale through order twelve and
+  Can the complete eight-term order-three K179 exchange family be grouped in
+  one path-pair basis and outwardly evaluated, with the four repeated-species
+  terms enclosed as whole signed 2x2 heat-kernel determinants and the four
+  rank-one terms retained as controls; if that mixed determinant gate closes,
+  can the same cancellation-preserving engine scale through order twelve and
   assemble the K171/K168 action columns and R_ref residual before a complement
   or flux floor and separately selected scalar center are attempted for K152?
 acceptance:
@@ -7554,6 +7576,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K180 closes the first numerical exchange gate. All six K179 order-two terms
+  are signed orthogonal copies of a common positive kernel, and exact
+  contracted-momentum reduction plus monotone dyadic rectangles and an
+  analytic infinite-tail majorant certify 6.159663104116194e-8 <= ||g||^2 <=
+  7.836341646884551e-8. A same-family piecewise-constant compression lies
+  inside the interval with an explicit L2 error, and direct p1 sums enclose the
+  analytic formula at three scales. Do not extrapolate the order-two rank-one
+  determinant. At order three, four of eight terms repeat an output species
+  and require signed 2x2 heat-kernel determinants. Group the complete
+  order-three path-pair family, enclose each repeated-species determinant as a
+  whole so coincident-face cancellation is preserved, retain the four rank-one
+  terms as normalization controls, and only after that mixed gate agrees scale
+  through order twelve and feed K175/K176/K171.
+
   K179 supplies the coefficient-complete exchange family that K178 required.
   The deterministic generator emits all 2,958 terms through order twelve with
   zero unresolved fields and pins the canonical digest

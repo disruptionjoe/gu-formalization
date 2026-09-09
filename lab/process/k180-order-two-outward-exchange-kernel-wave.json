@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "auxiliary_chart_shift": 256,
+    "carrier": "hard-core C3 tensor Gamma_-(L2(R;C4))",
+    "coefficient_family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "resolved_order": 2,
+    "seed_scope": "K162_zero_bath_seed_orbits"
+  },
+  "analytic_reduction": {
+    "primitive": "F(a)=a*acosh(a)/sqrt(a^2-1)",
+    "pair_integral": "J(a,b)=2*(F(b)-F(a))/(b-a)",
+    "common_kernel": "K(p2,p3)=(J(256,256+E2)-J(256,256+E2+E3))/E3",
+    "coordinatewise_positive_and_decreasing": true,
+    "order_two_determinants_are_rank_one": true
+  },
+  "order_two_family": {
+    "all_share_common_unsigned_kernel": true,
+    "determinant_rank_at_order_two": 1,
+    "each_seed_has_two_orthogonal_output_signatures": true,
+    "higher_order_repeated_species_census": {
+      "2": {"terms": 6, "terms_with_repeated_output_species": 0},
+      "3": {"terms": 8, "terms_with_repeated_output_species": 4},
+      "4": {"terms": 24, "terms_with_repeated_output_species": 14},
+      "5": {"terms": 32, "terms_with_repeated_output_species": 32},
+      "6": {"terms": 72, "terms_with_repeated_output_species": 72},
+      "7": {"terms": 96, "terms_with_repeated_output_species": 96},
+      "8": {"terms": 192, "terms_with_repeated_output_species": 192},
+      "9": {"terms": 256, "terms_with_repeated_output_species": 256},
+      "10": {"terms": 480, "terms_with_repeated_output_species": 480},
+      "11": {"terms": 640, "terms_with_repeated_output_species": 640},
+      "12": {"terms": 1152, "terms_with_repeated_output_species": 1152}
+    },
+    "order_two_terms": 6,
+    "seed_rows": {
+      "0": [
+        {"coefficient": "1", "contraction_id": "seed-0-order-2-path-1-contraction-1", "output_signature": "d=0|1+^1,1-^1"},
+        {"coefficient": "1", "contraction_id": "seed-0-order-2-path-2-contraction-1", "output_signature": "d=0|2+^1,2-^1"}
+      ],
+      "1": [
+        {"coefficient": "-1", "contraction_id": "seed-1-order-2-path-1-contraction-1", "output_signature": "d=1|1+^1,1-^1"},
+        {"coefficient": "-1", "contraction_id": "seed-1-order-2-path-2-contraction-1", "output_signature": "d=1|2+^1,2-^1"}
+      ],
+      "2": [
+        {"coefficient": "-1", "contraction_id": "seed-2-order-2-path-1-contraction-1", "output_signature": "d=2|1+^1,1-^1"},
+        {"coefficient": "-1", "contraction_id": "seed-2-order-2-path-2-contraction-1", "output_signature": "d=2|2+^1,2-^1"}
+      ]
+    }
+  },
+  "outward_evaluation": {
+    "decimal_precision": 50,
+    "direct_integral_anchor_controls": [
+      {
+        "closed_form": "0.0000151370132828951754282891619789287514355838687",
+        "closed_form_inside_direct_enclosure": true,
+        "direct_lower": "0.000014967730745053848528915278100658598794217142815037",
+        "direct_upper": "0.000015308961137430855610944954494683542806911348555466",
+        "p2": "0", "p3": "0"
+      },
+      {
+        "closed_form": "0.000015056559132395508993699237211598952059549191507589",
+        "closed_form_inside_direct_enclosure": true,
+        "direct_lower": "0.000014888176368455450445208160422122720397008690870318",
+        "direct_upper": "0.000015227593047406106857568157791329035910292600036618",
+        "p2": "1", "p3": "2"
+      },
+      {
+        "closed_form": "0.0000082178062195306633393406250499050894516675451779019",
+        "closed_form_inside_direct_enclosure": true,
+        "direct_lower": "0.0000081259047886612957780420806959937508129134371134662",
+        "direct_upper": "0.0000083111546669906331944618452465429700815563929342297",
+        "p2": "100", "p3": "100"
+      }
+    ],
+    "finite_positive_quadrant_raw_lower": "0.000024000287361905616127666947754834591838510749199713",
+    "finite_positive_quadrant_raw_upper": "0.000030514610466044447563914890649786096480561703495698",
+    "full_raw_tail_upper": "7.4504832609698543340518649160624469266444575086548E-8",
+    "mesh_octaves": 40,
+    "mesh_subdivisions_per_octave": 6,
+    "midpoint_compression_inside_outward_enclosure": true,
+    "midpoint_compression_l2_error_upper": "0.000034726076060640863115129292785797796858414210211257",
+    "midpoint_compression_norm_squared": "6.9186237201760712793417409197437569167944764943280E-8",
+    "positive_axis_cutoff": "1099511627776.0000000000000000000000000000000000000",
+    "positive_quadrant_cells": 60516,
+    "rounding_guard_absolute": "1e-45",
+    "rounding_guard_relative": "1e-30",
+    "single_kernel_norm_lower": "0.00024818668586602695314873820853894604572372047623633",
+    "single_kernel_norm_squared_lower": "6.1596631041161942995273979400326229057504328025831E-8",
+    "single_kernel_norm_squared_upper": "7.8363416468845509499955716843682814006946741664477E-8",
+    "single_kernel_norm_upper": "0.00027993466464310115785870773332393070587827091131141"
+  },
+  "seedwise_exchange_vector": {
+    "cross_terms_vanish_by_impurity_species_output_orthogonality": true,
+    "norm_lower": "0.0003509889771521662558755988929",
+    "norm_squared_lower": "1.231932620823238859905479588E-7",
+    "norm_squared_upper": "1.567268329376910189999114337E-7",
+    "norm_upper": "0.0003958873993166377845479895498",
+    "orthogonal_common_kernel_copies_per_seed": 2,
+    "signs_preserved_in_action_coordinates": true
+  },
+  "release_test": {
+    "all_six_order_two_kernels_evaluated": true,
+    "coefficient_complete_base_action_column_evaluated": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "determinant_level_outward_bounds_certified": true,
+    "native_K152_interval_emitted": false,
+    "order_three_through_twelve_nontrivial_determinants_evaluated": false,
+    "order_two_normalization_agrees": true,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "same_family_conforming_compression_with_error_certified": true,
+    "scalar_center_left_floor_serialized": false
+  },
+  "next_exact_input": {
+    "first_gate": "evaluate the four order-three terms with repeated output species as signed 2x2 heat-kernel determinants while keeping the other four rank-one terms in the same grouped basis",
+    "must_preserve": "path-pair grouping and determinant cancellation before interval enclosure",
+    "owner": "grouped determinant-simplex evaluator"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "physical_or_source_selection": false,
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false
+}

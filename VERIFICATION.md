@@ -7,6 +7,22 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K180 order-two outward exchange kernels (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The six K179 order-two terms require six unrelated continuum quadratures | their exact denominators are identical up to the recorded sign and orthogonal seed/species label; the contracted momentum has the common divided-difference formula in the K180 artifact | false; one positive common kernel controls all six terms |
+| A finite numerical box is enough for an outward claim | monotone dyadic rectangles cover `60,516` positive-quadrant cells and weighted AM--GM supplies an analytic all-quadrant tail beyond `2^40` | false; the finite and infinite pieces are both included in the certified interval |
+| The common normalized kernel has a determined nonzero Hilbert norm | the outward computation gives `6.159663104116194e-8 <= ||g||^2 <= 7.836341646884551e-8` | certified outward numerical interval on the fixed K139--K179 control |
+| A same-family compression agrees only heuristically | the cell-midpoint vector has squared norm `6.918623720176071e-8`, lies inside the outward interval, and has `L2` error at most `3.472607606064087e-5` by cell oscillation plus the analytic tail | false; agreement carries an explicit conforming error bound |
+| Closing order two evaluates orders three through twelve or the K171/K168 action column | order two has only rank-one species determinants, while four of eight order-three terms already require signed `2x2` determinants | false; the grouped order-three determinant is the next gate and every downstream action/residual/floor remains open |
+
+Reproduce with
+`python3 tests/channel-swings/k180_order_two_outward_exchange_kernel.py --demo`,
+its quick structural mode `--quick`,
+`python3 tests/channel-swings/k180_order_two_outward_exchange_kernel_probe.py`
+and its baseline-first hostile check with `--selftest` (`35/35`, `19/19`).
+
 ## K179 matched normal-order coefficient family (2026-09-09)
 
 | Claim | Evidence | Honest grade |
