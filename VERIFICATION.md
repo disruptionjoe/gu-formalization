@@ -7,6 +7,24 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K186 order-six Bessel Cauchy--Vandermonde family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every nontrivial K184 species determinant has an exact ordered-time factorization | all 468 size-two/three occurrences across 234 entries reduce to canonical signs, `2^m`, two Vandermonde families, the full Cauchy denominator product and one of 53 regularizer patterns | exact repository-owned factorization; 872 total determinant occurrences, 2,596 denominator and 1,192 gap factors serialized |
+| The quotient left after extracting the collision zeros is positive | Andreief applied to `2 K_1(x)=integral exp(-x sqrt(1+p^2)) dp` proves strict total positivity away from collision | exact positivity theorem on the open chamber |
+| Coincident ordered times force unstable determinant subtraction | Newton row and column divided differences extend the quotient through coincident faces; 159 direct/mixed checks agree within `1.996e-27` relatively | false; the divided-difference representation is the stable control |
+| Extreme face and small-radius controls survive | size-two/three regularizers stay positive at gaps `2^-180`; at `rho=2^-200` they approach one, with direct/divided-difference disagreement below `3.96e-193` | high-precision deterministic control, not an outward interval |
+| The compact-core regularizer is bounded | continuity and positivity on the face-stripped compact core prove qualitative boundedness | proved qualitatively; explicit outward values and derivative enclosures remain absent |
+| The order-six prefix is now decision-grade | no determinant-preserving mixed Duffy/Jacobi quadrature remainder is serialized | false; accurate certified prefix remains through order five |
+| K186 releases K171/K168 action columns or physical positivity | action columns, residual, complete complement/flux, scalar center, K152 and the action-owned physical domain/state remain absent | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`python3 tests/channel-swings/k186_order_six_bessel_vandermonde.py --summary`,
+its complete manifest replay with `--write --summary`,
+`python3 tests/channel-swings/k186_order_six_bessel_vandermonde_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K185 order-six Duffy face and radial-tail family (2026-09-09)
 
 | Claim | Evidence | Honest grade |
