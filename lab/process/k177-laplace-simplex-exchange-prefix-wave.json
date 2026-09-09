@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "carrier": "hard-core C3 tensor Gamma_-(L2(R;C4))",
+    "auxiliary_chart_shift": 256,
+    "seed_scope": "K162_zero_bath_seed_orbits",
+    "maximum_resolved_order": 12
+  },
+  "boundary_word_automaton": {
+    "zero_to_i": "create i- and occupy impurity i",
+    "i_to_zero": "create i+ and empty impurity i",
+    "global_CAR_order_preserved": true,
+    "all_words_charge_preserving": true,
+    "order_12_path_counts": {
+      "Omega": 64,
+      "d_1^*Omega": 64,
+      "d_2^*Omega": 64
+    },
+    "total_path_coordinates_orders_0_through_12": 633
+  },
+  "matched_contraction_compiler": {
+    "adjacent_fresh_mode_removed_as_endpoint": true,
+    "only_older_modes_contracted": true,
+    "exact_CAR_signs_computed_on_distinct_modes": true,
+    "output_charge_checked_for_every_contraction": true,
+    "order_1_exchange_vector_is_zero_for_all_three_seeds": true,
+    "total_matched_contraction_coordinates_orders_1_through_12": 2958
+  },
+  "laplace_simplex": {
+    "orders_1_through_12_compiled": true,
+    "denominator": "prod_(j=1)^n (lambda+sum_(r=1)^j E_r)^(-1)",
+    "simplex": "s_1>s_2>...>s_n>0",
+    "integrand": "exp(-lambda*s_1-sum_(r=1)^n E_r*s_r)",
+    "jacobian": 1,
+    "all_exponents_telescope": true
+  },
+  "fermionic_gram_reduction": {
+    "one_particle_heat_kernel": "kappa(t)=int_R exp(-t*sqrt(1+p^2)) dp/(2*pi)=K_1(t)/pi",
+    "same_species_wedge_inner_product": "det[kappa(s_i+r_j)]",
+    "different_species_factorize": true,
+    "path_pair_selection": "equal output impurity and equal species occupation counts",
+    "matched_exchange_adds_one_positive_Schwinger_parameter": true,
+    "all_prefix_scalar_products_reduce_to_finite_ordered_simplex_integrals": true
+  },
+  "release_test": {
+    "resolved_prefix_path_coordinates_through_order_12_serialized": true,
+    "matched_exchange_contraction_coordinates_through_order_12_serialized": true,
+    "order_1_exchange_vector_evaluated_as_zero": true,
+    "continuum_scalar_products_reduced_to_heat_kernel_integrals": true,
+    "outward_numerical_prefix_integrals_evaluated": false,
+    "coefficient_complete_base_action_column_evaluated": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "scalar_center_left_floor_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "physical_or_source_selection": false,
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false
+}

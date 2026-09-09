@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K177 Laplace-simplex exchange prefix (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K162 vacuum and one-impurity words through order twelve lack a finite native coordinate description | the hard-core path automaton has exact counts `2^ceil(n/2)` and `2^floor(n/2)`, preserves charge, and serializes `633` signed continuum path coordinates | false; the coordinate family is complete, but its members are not asserted orthogonal or independent |
+| K176's matched older-letter contractions remain combinatorially implicit | exact global-CAR extension and annihilation on distinct dummy modes enumerates `2,958` older-letter contractions with signs, output impurity and charge checks | false; the finite contraction family is exact |
+| The order-one exchange vector contributes to K172's first block | every extended order-one word has no older matching mode after the adjacent endpoint contraction is removed | false; the order-one exchange vector is exactly zero on all three seeds |
+| The continuum prefix requires direct momentum-space tensor quadrature | cumulative resolvents become an ordered Laplace simplex, while same-species exterior products become determinants of `kappa(t)=K_1(t)/pi` and different species factorize | false; every scalar product reduces to a finite structured heat-kernel integral |
+| K177 evaluates the complete action column, residual, complement floor or K152 | the order-two-through-twelve determinant integrals have not received outward numerical evaluation | false; exact coordinate and integral reduction is complete, numerical certification and downstream bounds remain open |
+
+Reproduce with
+`python3 tests/channel-swings/k177_laplace_simplex_exchange_prefix.py --demo`,
+`python3 tests/channel-swings/k177_laplace_simplex_exchange_prefix_probe.py`
+and its baseline-first hostile check with `--selftest` (`42/42`, `28/28`).
+
 ## K176 last-contraction exchange-orbit tail (2026-09-09)
 
 | Claim | Evidence | Honest grade |
