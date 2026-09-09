@@ -7,6 +7,24 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K185 order-six Duffy face and radial-tail family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every K184 order-six time Gram has a complete singular-support census | all 234 entries expand to exactly 1,864 finite determinant Leibniz terms with two old-position and six exterior Bessel factors each | exact repository-owned support enumeration |
+| Every primitive-time face is integrable | exact rational minimax AM--GM allocations attain the Hall subset lower bound termwise; all fourteen loads are at most `2/3`, so every Dirichlet parameter is at least `1/3` | exact rational face certificate |
+| The requested rho-Laguerre/Duffy weight exists | the fourteen primitive variables radialize to Gamma shape six, `rho^5 exp(-256 rho)`, times term-specific Dirichlet weights that recursively Duffy-factor into positive-parameter Jacobi rules | proved weighted-measure factorization for all 1,864 terms |
+| The face strip and infinite tail have explicit outward error | elementary rational ceilings give group errors `1.13e-24` to `1.02e-23` for any `z_i<2^-180` and `2.57e-30` to `2.32e-29` for `rho>1/4` | proof-safe complete boundary and tail bounds |
+| Floating gamma-formula values are the outward certificate | termwise gamma evaluation gives group controls `4.70e-16` to `6.54e-15`, but only the looser rational ceiling is used for proof | false; sharpened numerical controls only |
+| The order-six prefix is now decision-grade | no determinant-preserving interval error is supplied for the bounded core; global absolute bounds still discard coherent determinant cancellation | false; accurate certified prefix remains through order five |
+| K185 releases K171/K168 action columns or physical positivity | action columns, residual, complete complement/flux, scalar center, K152 and the action-owned physical domain/state remain absent | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`python3 tests/channel-swings/k185_order_six_duffy_face_tail.py --summary`,
+its complete manifest replay with `--write --summary`,
+`python3 tests/channel-swings/k185_order_six_duffy_face_tail_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K184 order-six certified low-rank and time-Gram family (2026-09-09)
 
 | Claim | Evidence | Honest grade |
