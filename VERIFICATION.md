@@ -2,10 +2,26 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-08"
+updated_at: "2026-09-09"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K166 extension-coordinate spectral covariance (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The supplied scalar finite extension is harmless for absolute spectral placement | `H_E=H_0+E I`, so under the fixed K139 chart `R_E=R_0+E M` and `R_E-zM=R_0-(z-E)M` | false for absolute placement; the complete generalized spectrum, Rayleigh values and absolute floors translate by `E` |
+| K165's generalized count is coordinate invariant at a fixed numerical threshold | `inertia(R_E-(b+E)M)=inertia(R_0-bM)` and the `M`-orthogonal complement form is identical at the translated threshold | false at fixed threshold; exact covariance holds only when the threshold translates with `E` |
+| The unselected scalar coordinate blocks every next computation | `(R_E-rho_E M)u=(R_0-rho_0 M)u`, while generalized spectral gaps are unchanged | false; fixed-reference form/Gram evaluation, matched form-dual residuals and relative gaps remain executable |
+| K155 supplies an exact covariance control | complete `q=(0,0)` dimension-84 blocks at `E=0,7` satisfy `R_7-R_0=7M`; the rational trial Rayleigh value shifts `-1 -> 6` with residual covector `(0,2,1)` unchanged | exact finite algebraic control, not a native K162 continuum anchor |
+| A native floor above `-5` can be claimed before selecting `E` | a reference floor `-4` becomes `-6` at `E=-2` and stays `-4` at `E=0` | false; an actual complete response datum or action-owned full extension is required for absolute placement |
+| K166 closes native K152 or changes source/ledger truth | absolute coercivity, count threshold and left floor remain unselected; `SC-META-53` is `UNCERTAIN`, and `LT-SM8`, `RA-F1`, `AC-F1` remain `NEEDS` | false; no native absolute interval, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k166_extension_coordinate_spectral_covariance.py --demo`,
+`python3 tests/channel-swings/k166_extension_coordinate_spectral_covariance_probe.py`
+and its baseline-first hostile check with `--selftest` (`36/36`, `15/15`).
 
 ## K165 generalized-form complement route (2026-09-08)
 

@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-09",
+  "status": "EXACT_EXTENSION_COORDINATE_GENERALIZED_SPECTRAL_COVARIANCE",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139 positive particle/hole signed point control at a fixed non-scalar Hermitian extension, polarization, couplings, chart, domain and state. The packet classifies the scalar finite extension coordinate and does not select any of those inputs.",
+  "target_claim": "NONE-NOT-A-KILL",
+  "retrieval_boundary": {
+    "K138_prior_result": "general finite Hermitian subtractions act affinely on W and compensating E_R preserves the operator",
+    "K140_prior_result": "a complete full-row-rank complex response would identify W but no response datum is supplied",
+    "new_K166_delta": "the scalar extension direction is propagated through the K139 nonunitary chart to exact generalized-spectrum, count, complement, residual, gap and absolute-floor covariance"
+  },
+  "scalar_extension_covariance": {
+    "physical_shift": "H_E=H_0+E I",
+    "fixed_chart": "S=U^-1",
+    "metric": "M=S^* S",
+    "regular_form": "R_E=R_0+E M",
+    "generalized_pencil": "R_E-zM=R_0-(z-E)M",
+    "exact": true,
+    "holds_before_any_finite_compression": true
+  },
+  "coordinate_classification": {
+    "generalized_rayleigh_values_shift_by_E": true,
+    "generalized_spectrum_shifts_by_E": true,
+    "counts_are_invariant_only_when_thresholds_shift_by_E": true,
+    "M_orthogonal_complement_is_unchanged": true,
+    "complement_form_is_invariant_at_translated_threshold": true,
+    "matched_residual_covector_is_invariant": true,
+    "spectral_gaps_are_invariant": true,
+    "absolute_left_floors_shift_by_E": true,
+    "fixed_absolute_coercivity_margins_shift_by_E": true
+  },
+  "exact_controls": {
+    "K155_q00_dimension": 84,
+    "finite_extension_shift": "7",
+    "finite_pullback_identity": "R_7=R_0+7M",
+    "finite_control_is_native_K162_anchor": false,
+    "generalized_Schur_control_base_threshold": "0",
+    "generalized_Schur_control_translated_threshold": "7",
+    "full_inertia_both_coordinates": [1, 0, 2],
+    "M_orthogonal_complement_inertia_both_coordinates": [0, 0, 2],
+    "trial_rayleigh_translation": ["-1", "6"],
+    "matched_residual_covector": ["0", "2", "1"],
+    "absolute_floor_crossing_control": {
+      "base_floor": "-4",
+      "threshold": "-5",
+      "extension_minus_2_floor": "-6",
+      "extension_0_floor": "-4"
+    }
+  },
+  "native_K152_replay": {
+    "relative_form_and_Gram_evaluation_may_proceed": true,
+    "matched_form_dual_residual_may_proceed": true,
+    "relative_spectral_gap_may_proceed": true,
+    "full_extension_selected": false,
+    "absolute_anchor_coercivity_supplied": false,
+    "absolute_next_distinct_floor_supplied": false,
+    "absolute_native_left_floor_supplied": false,
+    "native_absolute_interval_emitted": false
+  },
+  "source_and_physics": {
+    "SC_META_53_polarity": "UNCERTAIN",
+    "LT_SM8_verdict": "NEEDS",
+    "RA_F1_verdict": "NEEDS",
+    "AC_F1_verdict": "NEEDS",
+    "ledger_changed": false,
+    "source_register_changed": false,
+    "physical_or_source_selection": false,
+    "Born_prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "route_verdict": "RELATIVE_ANCHOR_DATA_REMAINS_EXECUTABLE__ABSOLUTE_NATIVE_PLACEMENT_REQUIRES_SELECTED_FULL_EXTENSION",
+  "next_condition": "Evaluate the fixed-coordinate K139/K162 relative form and Gram, certify the matched form-dual residual and relative generalized spectral gap, and express every count at a covariantly translated threshold. In parallel, obtain a complete full-rank response datum or an action-owned full Hermitian extension before placing the interval on an absolute physical energy axis. Do not use E_R=0 as physical selection.",
+  "claim_ceiling": "Exact repository-owned extension-coordinate covariance theorem for the supplied K139 signed point control. The scalar finite extension direction gives R_E=R_0+E M and translates the complete generalized spectrum, Rayleigh values and absolute floors while preserving matched residual covectors, spectral gaps, the M-orthogonal complement and counts at translated thresholds. The theorem does not select E or the non-scalar extension, and the K155 control is finite only; no native absolute K152 interval, physical/source selection, Born derivation, prediction or confirmation follows."
+}

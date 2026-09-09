@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1df101976d9af808ccaffee4a3be9e8f6b9533e0
+revision_basis: 97d870c86d22ea0cc521eee6d669a4d2ed95ca73
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K166 extension-coordinate spectral-covariance Big Wave closes the
+    hidden absolute-energy dependency in K165's requested native anchor. For
+    the scalar finite extension coordinate E, the fixed K139 chart gives
+    R_E=R_0+E M and R_E-zM=R_0-(z-E)M exactly. The complete generalized
+    spectrum, Rayleigh values and absolute floors translate by E; counts and
+    M-orthogonal complement certificates are invariant only when their
+    thresholds translate too. Matched residual covectors and relative
+    spectral gaps are invariant, so fixed-reference K162 form/Gram, residual
+    and gap work remains executable. An exact dimension-84 K155 control
+    verifies R_7-R_0=7M, while a floor -4 crosses the requested -5 threshold
+    between equally supplied coordinates E=-2 and E=0. K140 provides a
+    response-identifiability interface but no response datum, and no source/GU
+    action selects the full extension. Therefore no absolute native K152
+    interval, physical/source, Born, prediction or confirmation claim follows.
+
     The K165 generalized-form complement Big Wave closes the first route
     discriminator for K164's requested physical anchor. K162 dyadic cell
     spaces are conforming form cores but do not reduce the physical free
@@ -7282,14 +7297,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the combined fixed K139 generalized form R-zM be evaluated on one small
-  K162 dyadic trial space and can an operator-valued Feshbach/Birman--Schwinger
-  or form-level Lehmann--Goerisch certificate prove R-bM positive on its
-  complete M-orthogonal complement, together with anchor coercivity, trial
-  residual and a native floor above -5 strong enough for K164 and K152; what
-  cutoff and bound-residual Pauli thresholds follow, and can actual response
-  data or a source-owned GU action select the imported operator, orientation,
-  polarization, couplings, form, domain and state?
+  Can the combined fixed-reference K139 generalized form be evaluated on one
+  small K162 dyadic trial space with its physical Gram, matched form-dual
+  residual and relative generalized spectral gap, and can an operator-valued
+  Feshbach/Birman--Schwinger or form-level Lehmann--Goerisch certificate prove
+  complement positivity at a covariantly translated threshold; can actual
+  complete response data or a source-owned GU action then select the full
+  Hermitian extension and place the resulting K164/K152 interval on an
+  absolute physical energy axis?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7298,6 +7313,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K166 proves exact scalar-extension covariance: R_E=R_0+E M, so generalized
+  eigenvalues, Rayleigh values and absolute floors translate by E, while the
+  matched residual covector, relative gap and M-orthogonal complement form at
+  a translated threshold are invariant. Evaluate the K139/K162 combined form
+  and Gram at a declared reference scalar coordinate, certify the matched
+  form-dual residual and relative generalized spectral gap, and carry K165's
+  complete complement certificate only at a covariantly translated threshold.
+  In parallel, obtain an actual complete full-rank response datum or an
+  action-owned full Hermitian extension before placing any interval or floor
+  on an absolute physical energy axis. Do not treat E_R=0, a finite K155/K157
+  matrix, an essential edge or K161 tail as physical selection or an absolute
+  native floor.
+
   K165 proves that the K162 dyadic ranges are conforming but nonreducing and
   that K139's physical count uses the generalized pencil R-zM with the
   M-orthogonal complement, not a free-gap paste. It also proves that separate
