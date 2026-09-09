@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K171 bath-block/action-column identifiability (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K170's orthogonal Neumann-word norms determine the base action column | `P_k R_0 phi=P_k A phi+sum_(n>=k) P_k (G*)^(n-k) W_n G^n phi`; number-preserving `W_n` followed by lowering permits different input grades to interfere in the same output grade | false; the Gram is scalar norm data, while the action column is vector-valued coefficient data |
+| Fixing the Gram, seed form, generalized Rayleigh value and reference-shape data fixes the complete residual | two exact four-dimensional controls have word norms `(1,1/16,1/400)`, seed form `227/200` and Rayleigh value `227/213`, but action columns `(227/200,27/50,0,1/5)` and `(227/200,27/50,1/4,1/5)` | false; their exact M-dual residual squares are `137/1704` and `487/3408` |
+| A scalar geometric tail is sufficient for the unresolved action column | if `||W_n G^n phi||<=beta q^n`, the triangle-bound interface is `beta/(1-q)`; at `beta=1/64`, `q=3/8` it equals `1/40` | false as a reconstruction claim; exact vector blocks plus a summable vector-tail bound are required |
+| The finite control changes the native K156 operator or supplies its missing coefficients | it changes only a non-native same-sector `W` coupling while preserving the serialized scalar data | false; this is an identifiability counterexample, not freedom to alter native coefficients |
+| K171 closes the complete `R_ref` residual, complement floor or K152 | native `W_n G^n phi` vectors, their all-order tail, the complete residual, positive complete `M`-orthogonal complement/flux floor and scalar-center left floor remain absent | false; no native interval or physical/source claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k171_bath_block_action_column_identifiability.py --demo`,
+`python3 tests/channel-swings/k171_bath_block_action_column_identifiability_probe.py`
+and its baseline-first hostile check with `--selftest` (`37/37`, `22/22`).
+
 ## K170 direct Gram and reference-shape slice (2026-09-09)
 
 | Claim | Evidence | Honest grade |

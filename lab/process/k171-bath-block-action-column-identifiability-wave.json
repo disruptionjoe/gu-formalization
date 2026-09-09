@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139--K170 positive particle/hole signed point control, fixed auxiliary chart 256, K156 normal-ordered base regular core, K168 conditional reference shape, and the zero-bath K162 representative seeds.",
+  "bath_block_formula": {
+    "G_raises_bath_number_by_exactly_one": true,
+    "base_regular_core_preserves_bath_number": true,
+    "G_star_lowers_bath_number_by_exactly_one": true,
+    "component_formula": "P_k R0 phi=P_k A phi+sum_(n>=k) P_k (G*)^(n-k) W_n G^n phi",
+    "K170_scalar_word_orthogonality_determines_Gram": true,
+    "K170_scalar_word_orthogonality_determines_action_column": false
+  },
+  "identifiability_counterexample": {
+    "same_boundary_map_and_word_norms": true,
+    "same_physical_Gram": true,
+    "same_seed_base_form_and_generalized_Rayleigh": true,
+    "same_reference_shape_data": true,
+    "different_complete_base_action_columns": true,
+    "different_matched_M_inverse_residuals": true,
+    "finite_algebraic_control_only": true
+  },
+  "minimum_native_column_interface": {
+    "requires_vector_blocks_W_n_Gn_phi": true,
+    "requires_complete_sum_norm_tail": true,
+    "adjoint_Neumann_tail_factor": "1/(1-q)",
+    "q_at_fixed_K139_chart": "3/8",
+    "scalar_word_norms_or_form_expectations_are_sufficient": false,
+    "finite_regulator_column_is_native_without_cofinal_transfer": false
+  },
+  "release_test": {
+    "K170_physical_Gram_seed_entries_evaluated": true,
+    "K170_reference_shape_component_evaluated": true,
+    "K156_limiting_normal_ordered_base_core_exists": true,
+    "native_vector_blocks_W_n_Gn_phi_serialized": false,
+    "complete_native_vector_block_tail_serialized": false,
+    "coefficient_complete_base_R0_action_column_serialized": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "native_left_floor_at_selected_scalar_center_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "boundaries": {
+    "physical_extension_or_scalar_center_selected": false,
+    "first_threshold_identified": false,
+    "source_or_ledger_status_moved": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "next_condition": "Serialize the coefficient-specific continuum vectors W_n G^n phi for the K162 vacuum and one-impurity seeds, beginning with the exact n=0 and n=1 normal-ordered blocks, and prove a summable all-n norm tail. Feed the resulting complete R0 column to the K170 Gram/reference-shape packet, then compute the complete R_ref form-dual residual and prove a positive complete M-orthogonal complement or flux floor below E_ref(q)+5/2.",
+  "claim_ceiling": "Exact bath-number block formula and finite algebraic identifiability theorem: K170 scalar word norms, base Rayleigh data and reference-shape data do not determine the complete base action column or matched residual. A fail-closed vector-block/tail interface is supplied, but the native continuum vectors and tail remain unevaluated; no K152 interval or physical/source selection follows."
+}
