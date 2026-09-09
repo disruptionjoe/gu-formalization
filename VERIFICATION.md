@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K170 direct Gram and reference-shape slice (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The limiting physical Gram on a K162 seed requires a compressed finite chart | `G` raises bath-particle number by one, so `G^n phi` are mutually orthogonal and `<phi,S* S phi>=sum_n ||G^n phi||^2` | false; direct native one-vector Gram identity |
+| The first native Gram correction is only qualitative | one transition equals the outward rational enclosure of `(2 pi)^-1 int_R (sqrt(1+p^2)+256)^-2 dp`; the vacuum has multiplicity two and a one-impurity seed multiplicity one | exact analytic reduction plus outward rational arithmetic |
+| Uncomputed Neumann words require an ordinary linear norm tail | orthogonal bath-number sectors give `sum_(n>=2)||G^n phi||^2<=q^4/(1-q^2)=81/3520` at `q=3/8` | false; squared geometric tail |
+| K168's dressed reference contribution is still bounded only by `[-2,1]` and residual `<=3` | word parity alternates impurity occupancy, giving trial-specific dressed shape-Rayleigh intervals and normalized matched residual variance `9p(1-p)` | strengthened on the K170 seed lines; residual-squared upper bounds are below one |
+| K170 closes the complete `R_ref` residual or K152 | the coefficient-complete base `R_0` action, complete residual, positive complete `M`-orthogonal complement/flux floor and scalar-center left floor remain absent | false; no native K152 interval or physical/source claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k170_direct_gram_reference_shape_slice.py --demo`,
+`python3 tests/channel-swings/k170_direct_gram_reference_shape_slice_probe.py`
+and its baseline-first hostile check with `--selftest` (`30/30`, `20/20`).
+
 ## K169 neutral-cluster gap cap (2026-09-09)
 
 | Claim | Evidence | Honest grade |

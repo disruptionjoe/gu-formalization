@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2a13d56d3d65f1fd6a1488345f522c04e66dee5f
+revision_basis: ae12e8e7523620d0e69a316d1a1ad7efdd5c88a5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K170 direct-Gram/reference-shape Big Wave evaluates the limiting K139
+    physical Gram on the smallest K162 zero-bath seed lines without replacing
+    it by a compressed finite chart. The boundary map raises bath number by
+    exactly one, so its Neumann words are orthogonal and the Gram is the sum of
+    squared word norms. The first word is the outward-certified continuum
+    integral (2 pi)^-1 int dp/(sqrt(1+p^2)+256)^2; the untouched words from
+    order two contribute at most 81/3520. This gives native one-vector Gram
+    intervals in q=(0,0),(1,0), with signed transport to q=(0,1). Alternating
+    impurity occupancy also gives dressed K168 reference-shape Rayleigh
+    intervals and matched shape-residual-squared bounds below one, rather than
+    only the universal three-unit budget. These are reference-shape components,
+    not the complete R_ref residual. The coefficient-complete base R_0 action,
+    complete M-orthogonal complement or flux floor, first threshold and scalar-
+    center left floor remain absent. No native K152 interval, physical/source,
+    Born, prediction or confirmation claim follows.
+
     The K169 neutral-cluster gap-cap Big Wave closes K168's proposed direct
     base-to-reference transfer route. In every fixed charge sector, one
     same-flavor particle and one hole form a compatible zero-charge escape
@@ -7348,11 +7364,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the same limiting reference-specific form R_ref and physical Gram M be
-  evaluated directly on a small K162 dyadic trial space, with a complete
-  form-dual residual and positive M-orthogonal complement or flux floor below
-  the native neutral-cluster threshold E_ref(q)+5/2; can a separately selected
-  scalar center then supply the native left floor required for K152?
+  Can the coefficient-complete combined base action R_0 be evaluated on the
+  same K170 K162 seed lines, including its complete Hilbert/form-dual action
+  column, and combined with the now-certified physical Gram and reference-
+  shape residual; can a positive complete M-orthogonal complement or flux
+  floor then be proved below E_ref(q)+5/2 before a separately selected scalar
+  center supplies the native K152 left floor?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7361,6 +7378,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K170 proves that K139's boundary map raises bath-particle number exactly, so
+  Neumann words on a zero-bath K162 seed are orthogonal and the limiting
+  physical Gram is a squared-word sum. It evaluates the continuum first word,
+  bounds the remaining squared tail by 81/3520, and gives direct native Gram,
+  dressed K168 shape-Rayleigh and matched shape-residual bounds in q=(0,0),
+  (1,0), with signed transport to (0,1). The trial-specific shape residual is
+  below the universal three-unit budget but is only one component of the
+  complete R_ref residual. Evaluate the coefficient-complete combined base
+  action R_0 on the same seed and its complete Hilbert/form-dual action column.
+  Then combine it with the K170 Gram/shape packet and prove a positive complete
+  M-orthogonal complement or flux floor below E_ref(q)+5/2. Select the scalar
+  center separately before asking for the native left floor. Do not use a
+  compressed finite chart, essential edge or threshold membership as a
+  substitute, and do not identify E_ref(q)+5/2 as the first threshold.
+
   K169 proves that a same-flavor particle-hole neutral cluster places
   E_ref(q)+5/2 in the native K143 HVZ threshold set and that its Weyl sequence
   survives projection off every finite K162 trial. Hence every finite-trial

@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139 positive particle/hole signed point control, fixed auxiliary chart 256, K168 conditional shape diag(-2,1,1), and the zero-bath K162 seeds in q=(0,0),(1,0),(0,1).",
+  "orthogonal_word_theorem": {
+    "G_raises_bath_particle_number_by_exactly_one": true,
+    "distinct_word_sectors_orthogonal": true,
+    "squared_geometric_tail_valid": true,
+    "limiting_physical_Gram_not_finite_chart": true,
+    "tail_from_word_two_upper": "81/3520"
+  },
+  "direct_evaluation": {
+    "continuum_profile": "(2*pi)^-1 integral_R (sqrt(1+p^2)+256)^-2 dp",
+    "closed_form": "(a*sqrt(a^2-1)-acosh(a))/(pi*(a^2-1)^(3/2)), a=256",
+    "arithmetic": "exact rational outward sqrt/log/pi bounds",
+    "q00_first_word_multiplicity": 2,
+    "q10_first_word_multiplicity": 1,
+    "q01_via_signed_flavor_intertwiner": true
+  },
+  "reference_shape": {
+    "operator": "diag(-2,1,1)",
+    "impurity_occupancy_alternates_by_word_order": true,
+    "dressed_Rayleigh_evaluated": true,
+    "matched_M_inverse_residual_evaluated": true,
+    "residual_is_reference_shape_component_only": true,
+    "worst_case_three_unit_budget_replaced_by_trial_specific_bound": true
+  },
+  "release_test": {
+    "physical_Gram_seed_entries_evaluated": true,
+    "reference_shape_seed_form_evaluated": true,
+    "trial_specific_shape_residual_evaluated": true,
+    "coefficient_complete_base_R0_action_serialized": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "native_left_floor_at_selected_scalar_center_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "boundaries": {
+    "physical_extension_or_scalar_center_selected": false,
+    "first_threshold_identified": false,
+    "source_or_ledger_status_moved": false,
+    "Born_rule_derived": false,
+    "prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "next_condition": "Evaluate the coefficient-complete combined base action R0 on the same K162 seed and its complete Hilbert/form-dual action column; combine it with the K170 Gram and shape bounds, then prove a positive complete M-orthogonal complement or flux floor below E_ref(q)+5/2. Select a scalar center separately before asking for the native left floor.",
+  "claim_ceiling": "Direct native one-vector physical-Gram intervals and K168 reference-shape form/Rayleigh/matched-residual bounds on the K162 zero-bath seeds, using the limiting K139 Neumann series and an outward continuum integral. The base R0 action, complete R_ref residual, complement/flux and left floors remain absent, so no native K152 interval or physical/source claim follows."
+}
