@@ -1,0 +1,66 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false,
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "exchange_census": {
+    "all_missing_premises_rejected": true,
+    "coefficient_upper": "40/3",
+    "monomials": 16,
+    "order_n_bound": "(40/3)*n*(3/8)^(n-1)",
+    "ordered_edge_pairs": 4,
+    "polarity_blocks_per_pair": 4
+  },
+  "fixed_control": {
+    "Hilbert_boundary_ratio": "3/8",
+    "auxiliary_chart_shift": 256,
+    "seed_norm": "1 for each normalized K162 zero-bath seed"
+  },
+  "kernel": {
+    "definition": "J_256(e)=D_256(e)/e",
+    "integral_split_upper": "6",
+    "norm_squared_upper": "2/3",
+    "norm_upper": "5/6",
+    "pointwise": "J_256(e)<=(1/3)*e^(-3/4)",
+    "squared_integral_majorant": "(1/9)*int_R (1+p^2)^(-3/4) dp",
+    "strict_rounding_check": "2/3<25/36"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "normal_form": {
+    "adjacent_wick_contraction_cancelled": true,
+    "all_16_exchange_monomials_included": true,
+    "cross_polarity_cancellation_required": false,
+    "finite_cutoff_first": true,
+    "matched_endpoint_before_limit": true,
+    "older_letter_count_equals_order": true,
+    "sector_uniform_CAR_sum_bound": true,
+    "seed_scope": "K162_zero_bath_seed_orbits",
+    "spectator_shifts_nonnegative": true,
+    "two_resolvent_kernel_on_every_older_letter": true
+  },
+  "physical_or_source_selection": false,
+  "post_adjoint_tail": {
+    "after_order_1": "832/25",
+    "after_order_12": "3011499/838860800",
+    "after_order_12_expected": "3011499/838860800",
+    "after_order_12_less_than_1_over_250": true,
+    "after_order_1_expected": "832/25",
+    "formula_after_order_N": "(40/3)*(3/8)^N*((N+1)-N*(3/8))/(1-3/8)^3",
+    "native_complete_exchange_tail_convergent": true
+  },
+  "release_test": {
+    "coefficient_complete_base_action_column_evaluated": false,
+    "coefficient_complete_exchange_action_column_tail_serialized": true,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "native_K152_interval_emitted": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "resolved_exchange_vectors_through_order_12_evaluated": false,
+    "scalar_center_left_floor_serialized": false
+  },
+  "schema_version": "1.0"
+}

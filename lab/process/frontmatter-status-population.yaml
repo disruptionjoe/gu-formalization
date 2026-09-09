@@ -3,7 +3,7 @@ frozen_revision: a6064828a11818b0dee234b5216ed8ee1189b196
 scope: tracked Markdown files with a scalar top-level frontmatter status
 mapping_digest_sha256: d9fae898b9036f688259286a612e162be8711a12846f00b9674128736cd723f8
 counts:
-  tracked_markdown: 4310
+  tracked_markdown: 4311
   status_bearing: 3082
   document_role: 1630
   legacy_untyped: 1452

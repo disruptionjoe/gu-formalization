@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K176 last-contraction exchange-orbit tail (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K175 requires cancellation between the four exchange polarities | finite-cutoff normal ordering identifies the newly adjacent Wick contraction with the matched endpoint term; it cancels before the limit | false; no cross-polarity cancellation is asserted or needed |
+| K174's unbounded isolated trace prevents every coefficient-specific seed-orbit estimate | after adjacent cancellation the annihilator can hit only one of `n` older letters, and every such contraction carries two resolvents with coefficient `J_256(e)=D_256(e)/e` | false; K174's global diagonal-weight obstruction remains valid, while the named orbit coefficient is integrable |
+| The complete exchange seed-orbit tail is summable | `||J_256(omega)||_2^2<=2/3`, the K161 census has `16` monomials, and CAR contraction gives `||X_ex,n G^n phi||<=(40/3)n(3/8)^(n-1)` | exact sector-uniform coefficient bound |
+| The K171 post-adjoint exchange tail is numerically controlled | summing the order bound and the left Neumann factor gives `T_ex(N)<=(40/3)(3/8)^N((N+1)-N(3/8))/(1-3/8)^3` | exact; after order twelve it is `3011499/838860800<1/250` |
+| K176 evaluates the complete action column, residual, complement floor or K152 | the resolved exchange vectors through order twelve still require explicit evaluation and assembly with the scalar, diagonal, and reference pieces | false; convergence is closed, but the finite vector prefix and downstream bounds remain open |
+
+Reproduce with
+`python3 tests/channel-swings/k176_last_contraction_exchange_orbit_tail.py --demo`,
+`python3 tests/channel-swings/k176_last_contraction_exchange_orbit_tail_probe.py`
+and its baseline-first hostile check with `--selftest` (`40/40`, `27/27`).
+
 ## K175 matched-range exchange-tail audit (2026-09-09)
 
 | Claim | Evidence | Honest grade |

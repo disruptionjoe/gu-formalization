@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 07e720f005e7fbe7d0310830e368cf824c3afd40
+revision_basis: 1431377cab10c25e536c84c7579f4bfc3aa50c6b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K176 last-contraction exchange-orbit tail Big Wave corrects K175's
+    remaining interface. At finite cutoff, the contraction with the newly
+    adjacent creation letter is exactly the matched endpoint term and cancels
+    before the limit; cross-polarity cancellation is neither needed nor
+    asserted. The surviving annihilator has exactly n older creation letters
+    to hit at word order n, and each term carries two resolvents. With
+    J_256(e)=D_256(e)/e, K175 gives ||J_256(omega)||_2^2<=2/3<25/36. K161's
+    complete 16-monomial census and sector-uniform CAR contraction therefore
+    give ||X_ex,n G^n phi||<=(40/3)n(3/8)^(n-1). After the K171 left-adjoint
+    Neumann sum, the unresolved exchange tail beyond order twelve is at most
+    3011499/838860800<1/250. This closes convergence of the coefficient-
+    complete exchange seed-orbit tail without contradicting K174's global
+    trace obstruction. The actual exchange vectors through order twelve,
+    coefficient-complete base action column, R_ref residual, positive complete
+    M-orthogonal complement or flux floor and scalar-center left floor remain
+    open. No native K152 interval, physical/source, Born, prediction or
+    confirmation claim follows.
+
     The K175 matched-range exchange-tail audit Big Wave separates the
     coefficient that K172 actually computed from the four exchange factors
     that K174 proves cannot be bounded separately. The matched resolvent
@@ -7463,13 +7481,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the complete all-order four-exchange coefficient be written on each
-  exact K162 vacuum and one-impurity seed orbit after matched subtraction, with
-  its cross-term cancellation identity and a sector-uniform CAR sum-norm bound
-  proved before norms are taken; can that exchange tail be added to K175's
-  closed scalar and diagonal pieces to evaluate the complete K171 action
-  column and R_ref residual before a positive complete complement or flux
-  floor and a separately selected scalar center close K152?
+  Can the native exchange vectors through order twelve be explicitly
+  evaluated on every exact K162 vacuum and one-impurity seed orbit and combined
+  with K175's scalar and diagonal pieces to compute the coefficient-complete
+  K171 base action column and R_ref residual; can a positive complete
+  M-orthogonal complement or flux floor and a separately selected scalar
+  center then close K152?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7478,6 +7495,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K176 proves the complete coefficient-specific exchange seed-orbit tail. The
+  finite-cutoff matched endpoint cancels the adjacent Wick contraction; every
+  surviving older-letter exchange carries two resolvents, and the complete
+  16-monomial CAR sum has post-adjoint tail
+  3011499/838860800<1/250 after order twelve. Do not reopen cross-polarity
+  cancellation or a global diagonal-weight graph bound. Explicitly evaluate
+  the native exchange vectors at orders one through twelve in the same vector
+  basis as K175's scalar and diagonal pieces, assemble the coefficient-complete
+  K171 base/reference action column and M-dual residual, and only then replay
+  the complete complement or flux floor. Keep scalar-center selection separate.
+
   K175 proves that K172's D_256 multiplier closes the all-order diagonal
   Pauli/spectator seed-orbit tail, and that the scalar -256 core resums exactly
   through M=S* S with a finite Neumann error. It also rejects the tempting
