@@ -7,6 +7,24 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K188 order-six small-rho strip family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K187's logarithmic endpoint prevents an outward endpoint error bound | K185's common normalized Gamma-shape-six radial majorant gives `P(6,x)<=x^6/720` without differentiating a regularizer | false; the all-angular endpoint strip can be removed by an exact absolute bound |
+| The split is explicit and complete | at `epsilon=2^-20`, `x=2^-12` and the normalized lower-tail fraction is at most `1/3400103867666144553861120`; propagation covers all 18 groups, 234 entries, 1,864 terms, 53 patterns and 468 occurrences | exact repository-owned outward certificate |
+| The small-strip error is negligible under the existing majorant | proof-safe group ceilings range from `1.426e-34` to `1.284e-33`, below both corresponding K185 face and radial-tail bounds | exact rational groupwise bounds; no signed cancellation is assumed |
+| The complete radialized domain is now partitioned | small radius, positive-radius angular faces and large radius are closed; `2^-20<=rho<=1/4`, `z_i>=2^-180` is the only open region | exact four-region cover, with K185 face bounds valid on the restricted region by superset monotonicity |
+| Floating incomplete-gamma values carry the proof | SciPy controls at four split radii lie strictly below the rational ceilings | false; binary64 controls only, while `exp(-u)<=1` carries the outward result |
+| The order-six prefix is now decision-grade | no determinant-preserving interval remainder is serialized on the positive-radius face-stripped core | false; accurate certified prefix remains through order five |
+| K188 releases action columns or physical positivity | action columns, residual, complete complement/flux, scalar center, K152 and the action-owned physical domain/state remain absent | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`python3 tests/channel-swings/k188_order_six_small_rho_strip.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`python3 tests/channel-swings/k188_order_six_small_rho_strip_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K187 order-six radial-log endpoint family (2026-09-09)
 
 | Claim | Evidence | Honest grade |

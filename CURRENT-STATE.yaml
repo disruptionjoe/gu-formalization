@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e47a28fb7440416077938f0bd6e6c68d1e81aa37
+revision_basis: b9a994f8f2e5677e967ac53288c89046fad18d94
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,23 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The K187 order-six radial-log endpoint Big Wave decides the theorem
-    premise behind K186's proposed zero-inclusive Jacobi remainder. The exact
-    integer-order Bessel expansion gives
-    R_m=1+rho^2(c_m log(rho)+d_m)+O(rho^4 log(rho)^2).
-    At the admissible equal-1/14 angular profile, exact rational cofactor
-    differentiation covers all 53 K186 patterns and all 468 nontrivial
-    occurrences. Every coefficient is positive; the ten distinct values
-    range from 8/49 to 169/98. Hence the second radial derivative is
-    logarithmically unbounded at rho=0 and the regularizer is not C2 there.
-    This rejects an ordinary bounded-C2-or-higher endpoint Jacobi remainder,
-    while preserving K186's positivity and time-coalescent continuity. The
-    next certificate must subtract the explicit logarithm or prove a small-
-    rho strip and interval the positive-radius core. No outward total error is
-    yet serialized, so the accurate certified prefix stays through order
-    five. No complete K171/K168 action column, R_ref residual, complement or
-    flux floor, scalar-center floor or K152 interval is evaluated. No
-    physical/source, Born, prediction or confirmation claim follows.
+    The K188 order-six small-rho strip Big Wave consumes K185's common
+    Gamma-shape-six absolute majorant after K187 rejects a smooth radial
+    endpoint remainder. The exact normalized inequality
+    P(6,x)<=x^6/720 at epsilon=2^-20, x=2^-12, bounds the complete all-angular
+    endpoint fraction by 1/3400103867666144553861120. Propagation through all
+    18 coherent groups, 234 time-Gram entries, 1,864 Leibniz terms, 53
+    nontrivial patterns and 468 occurrences gives proof-safe group ceilings
+    from 1.426e-34 to 1.284e-33. Together with K185, the small-radius region,
+    positive-radius angular faces and rho>1/4 tail are now outwardly closed.
+    Only the determinant-preserving positive-radius face-stripped core
+    2^-20<=rho<=1/4, z_i>=2^-180 remains open. No interval error on that core
+    or complete outward order-six total is serialized, so the accurate
+    certified prefix stays through order five. No complete K171/K168 action
+    column, R_ref residual, complement or flux floor, scalar-center floor or
+    K152 interval is evaluated. No physical/source, Born, prediction or
+    confirmation claim follows.
+
+    The prior K187 result remains active context:
+    K187 proves the regularizers are not C2 at rho=0 through an exact nonzero
+    rho^2 log(rho) witness for all 53 current patterns on one admissible
+    angular profile. K188 avoids differentiating through that endpoint.
 
     The prior K186 result remains active context:
     K186 factors all 468 nontrivial determinants into exact sign-aware
@@ -7610,10 +7614,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the explicit K187 rho^2 log(rho) endpoint term be subtracted with an
-  outward remainder, or can a proved small-rho strip plus interval cubature on
-  epsilon<=rho<=1/4 certify the determinant-preserving compact-core error; if
-  so, does the completed K185 boundary control plus that prefix advance the
+  Can outward value and mixed-derivative enclosures for all 53 K186 divided-
+  difference regularizers on 2^-20<=rho<=1/4 and z_i>=2^-180 certify the
+  determinant-preserving positive-radius Duffy/Jacobi remainder; if so, does
+  the completed K185/K188 boundary control plus that prefix advance the
   K171/K168 action columns and R_ref residual, complement or flux floor,
   separately selected scalar center and K152 interval?
 acceptance:
@@ -7624,18 +7628,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K187 proves that every K186 pattern has a nonzero rho^2 log(rho)
-  coefficient at one admissible common angular profile, so the second radial
-  derivative is unbounded at zero and an ordinary smooth-endpoint Jacobi
-  remainder cannot close the compact core. Do not return to that remainder,
-  direct near-coincident determinant subtraction or cancellation-blind
-  momentum bounds. Either subtract the explicit logarithmic term with an
-  outward desingularized remainder, or prove a small-rho strip and choose a
-  positive epsilon before interval cubature on epsilon<=rho<=1/4. Preserve all
-  234 signed entries, 53 regularizer patterns, primitive gaps, determinants
-  and shared times; combine the endpoint/interior error with K185's face and
-  radial-tail bounds. Extend the accurate prefix only when the complete error
-  is decision-grade; only then continue toward K171/K168.
+  K188 closes the complete all-angular rho<2^-20 strip by the exact normalized
+  Gamma-six bound P(6,x)<=x^6/720 and propagates it through all 18 groups, 234
+  entries, 1,864 terms and 53 regularizer patterns. Together with K185, three
+  of the four radialized regions are outwardly closed. Do not return to a
+  zero-inclusive smooth Jacobi remainder, direct near-coincident determinant
+  subtraction, cancellation-blind momentum bounds or another integrability
+  estimate. On the sole open region 2^-20<=rho<=1/4, z_i>=2^-180, derive
+  outward value and mixed-derivative enclosures for the 53 K186 mixed divided-
+  difference regularizers and certify the weighted Duffy/Jacobi remainder
+  without expanding determinants. Preserve all 234 signed entries, 18
+  coherent groups, primitive gaps, old-position factors and shared times;
+  combine that interior error with K188's endpoint and K185's face/tail
+  bounds. Extend the accurate prefix only when the complete error is decision-
+  grade; only then continue toward K171/K168.
 
   K181 closes the complete order-three mixed determinant gate. The eight K179
   terms occupy distinct seed/output signatures: four share one positive rank-

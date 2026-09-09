@@ -1,0 +1,722 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false,
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_group_propagation": {
+    "all_1864_leibniz_terms_covered": true,
+    "all_18_coherent_groups_covered": true,
+    "all_234_time_gram_entries_covered": true,
+    "all_468_nontrivial_occurrences_remain_in_scope": true,
+    "all_53_nontrivial_patterns_remain_in_scope": true,
+    "combined_known_boundary_group_ceiling_range": {
+      "maximum": {
+        "decimal": 1.0176503192018104e-23,
+        "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+        "numerator": 19769576182769406177892958827704334596538623477758234189500569
+      },
+      "minimum": {
+        "decimal": 1.1307225768909004e-24,
+        "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+        "numerator": 2196619575863267353099217647522703844059847053084248243277841
+      }
+    },
+    "every_small_strip_bound_below_face_and_tail_bounds": true,
+    "groups": {
+      "seed=0|d=0|1+^1,1-^1,2+^2,2-^2": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.0176503192018104e-23,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 19769576182769406177892958827704334596538623477758234189500569
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.0176480048030672e-23,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 28367886071132833869
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.314270369667738e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 224793052767662654704631509365051418711531469604329509629
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.2837364620671286e-33,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 150094635296999121
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 324,
+        "whole_group_global_ceiling": {
+          "decimal": 4.3648373097384966e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 1350851717672992089
+        }
+      },
+      "seed=0|d=0|1+^2,1-^2,2+^1,2-^1": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.0176503192018104e-23,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 19769576182769406177892958827704334596538623477758234189500569
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.0176480048030672e-23,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 28367886071132833869
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.314270369667738e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 224793052767662654704631509365051418711531469604329509629
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.2837364620671286e-33,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 150094635296999121
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 324,
+        "whole_group_global_ceiling": {
+          "decimal": 4.3648373097384966e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 1350851717672992089
+        }
+      },
+      "seed=0|d=0|1+^3,1-^3": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.0176503192018104e-23,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 19769576182769406177892958827704334596538623477758234189500569
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.0176480048030672e-23,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 28367886071132833869
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.314270369667738e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 224793052767662654704631509365051418711531469604329509629
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.2837364620671286e-33,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 150094635296999121
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 324,
+        "whole_group_global_ceiling": {
+          "decimal": 4.3648373097384966e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 1350851717672992089
+        }
+      },
+      "seed=0|d=0|2+^3,2-^3": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.0176503192018104e-23,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 19769576182769406177892958827704334596538623477758234189500569
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.0176480048030672e-23,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 28367886071132833869
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.314270369667738e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 224793052767662654704631509365051418711531469604329509629
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.2837364620671286e-33,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 150094635296999121
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 324,
+        "whole_group_global_ceiling": {
+          "decimal": 4.3648373097384966e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 1350851717672992089
+        }
+      },
+      "seed=1|d=1|1+^1,1-^1,2+^2,2-^2": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 3.140896046919168e-24,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 6101721044064631536386715687563066233499575147456245120216225
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 3.14088890371317e-24,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 8755520392324948725
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 7.142809782925117e-30,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 13876114368374237944730340084262433253798238864464784545
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 3.962149574281261e-34,
+          "denominator": 23384026197294446691258957323460528314494920687616,
+          "numerator": 9265100944259205
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 100,
+        "whole_group_global_ceiling": {
+          "decimal": 1.3471720091785485e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 416929542491664225
+        }
+      },
+      "seed=1|d=1|1+^2,1-^2,2+^1,2-^1": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 6.156156251961569e-24,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 11959373246366677811317962747623609817659167289014240435623801
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 6.156142251277813e-24,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 17160819968956899501
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 1.399990717453323e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 135985920810067531858357332825771845887222740871754888541
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 7.765813165591271e-34,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 90797989253740209
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 196,
+        "whole_group_global_ceiling": {
+          "decimal": 2.6404571379899547e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 817181903283661881
+        }
+      },
+      "seed=1|d=1|1+^3,1-^3": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.0176503192018104e-23,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 19769576182769406177892958827704334596538623477758234189500569
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.0176480048030672e-23,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 28367886071132833869
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.314270369667738e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 224793052767662654704631509365051418711531469604329509629
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.2837364620671286e-33,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 150094635296999121
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 324,
+        "whole_group_global_ceiling": {
+          "decimal": 4.3648373097384966e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 1350851717672992089
+        }
+      },
+      "seed=1|d=1|2+^3,2-^3": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.1307225768909004e-24,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 2196619575863267353099217647522703844059847053084248243277841
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.1307200053367413e-24,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 3151987341236981541
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.5714115218530423e-30,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 24977005863073628300514612151672379856836829956036612181
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.426373846741254e-34,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 16677181699666569
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 36,
+        "whole_group_global_ceiling": {
+          "decimal": 4.849819233042775e-10,
+          "denominator": 309485009821345068724781056,
+          "numerator": 150094635296999121
+        }
+      },
+      "seed=1|d=2|1+^1,2+^2,2-^3": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.5076301025212006e-24,
+          "denominator": 485667223056432267729865476705879726660601709763034880312953102434726071301302124544,
+          "numerator": 732206525287755784366405882507567948019949017694749414425947
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.5076266737823215e-24,
+          "denominator": 696898287454081973172991196020261297061888,
+          "numerator": 1050662447078993847
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 3.428548695804056e-30,
+          "denominator": 2428336115282161338649327383529398633303008548815174401564765512173630356506510622720,
+          "numerator": 8325668621024542766838204050557459952278943318678870727
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.9018317956550054e-34,
+          "denominator": 29230032746618058364073696654325660393118650859520,
+          "numerator": 5559060566555523
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 48,
+        "whole_group_global_ceiling": {
+          "decimal": 6.466425644057032e-10,
+          "denominator": 77371252455336267181195264,
+          "numerator": 50031545098999707
+        }
+      },
+      "seed=1|d=2|1+^2,1-^1,2+^1,2-^2": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 2.0101734700282674e-24,
+          "denominator": 121416805764108066932466369176469931665150427440758720078238275608681517825325531136,
+          "numerator": 244068841762585261455468627502522649339983005898249804808649
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 2.010168898376429e-24,
+          "denominator": 174224571863520493293247799005065324265472,
+          "numerator": 350220815692997949
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 4.571398261072075e-30,
+          "denominator": 607084028820540334662331845882349658325752137203793600391191378043407589126627655680,
+          "numerator": 2775222873674847588946068016852486650759647772892956909
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 2.535775727540007e-34,
+          "denominator": 7307508186654514591018424163581415098279662714880,
+          "numerator": 1853020188851841
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 64,
+        "whole_group_global_ceiling": {
+          "decimal": 8.621900858742709e-10,
+          "denominator": 19342813113834066795298816,
+          "numerator": 16677181699666569
+        }
+      },
+      "seed=1|d=2|1+^3,1-^2,2-^1": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.5076301025212006e-24,
+          "denominator": 485667223056432267729865476705879726660601709763034880312953102434726071301302124544,
+          "numerator": 732206525287755784366405882507567948019949017694749414425947
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.5076266737823215e-24,
+          "denominator": 696898287454081973172991196020261297061888,
+          "numerator": 1050662447078993847
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 3.428548695804056e-30,
+          "denominator": 2428336115282161338649327383529398633303008548815174401564765512173630356506510622720,
+          "numerator": 8325668621024542766838204050557459952278943318678870727
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.9018317956550054e-34,
+          "denominator": 29230032746618058364073696654325660393118650859520,
+          "numerator": 5559060566555523
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 48,
+        "whole_group_global_ceiling": {
+          "decimal": 6.466425644057032e-10,
+          "denominator": 77371252455336267181195264,
+          "numerator": 50031545098999707
+        }
+      },
+      "seed=2|d=1|1+^1,1-^2,2+^2,2-^1": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 2.0101734700282674e-24,
+          "denominator": 121416805764108066932466369176469931665150427440758720078238275608681517825325531136,
+          "numerator": 244068841762585261455468627502522649339983005898249804808649
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 2.010168898376429e-24,
+          "denominator": 174224571863520493293247799005065324265472,
+          "numerator": 350220815692997949
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 4.571398261072075e-30,
+          "denominator": 607084028820540334662331845882349658325752137203793600391191378043407589126627655680,
+          "numerator": 2775222873674847588946068016852486650759647772892956909
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 2.535775727540007e-34,
+          "denominator": 7307508186654514591018424163581415098279662714880,
+          "numerator": 1853020188851841
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 64,
+        "whole_group_global_ceiling": {
+          "decimal": 8.621900858742709e-10,
+          "denominator": 19342813113834066795298816,
+          "numerator": 16677181699666569
+        }
+      },
+      "seed=2|d=1|1+^2,1-^3,2+^1": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.5076301025212006e-24,
+          "denominator": 485667223056432267729865476705879726660601709763034880312953102434726071301302124544,
+          "numerator": 732206525287755784366405882507567948019949017694749414425947
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.5076266737823215e-24,
+          "denominator": 696898287454081973172991196020261297061888,
+          "numerator": 1050662447078993847
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 3.428548695804056e-30,
+          "denominator": 2428336115282161338649327383529398633303008548815174401564765512173630356506510622720,
+          "numerator": 8325668621024542766838204050557459952278943318678870727
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.9018317956550054e-34,
+          "denominator": 29230032746618058364073696654325660393118650859520,
+          "numerator": 5559060566555523
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 48,
+        "whole_group_global_ceiling": {
+          "decimal": 6.466425644057032e-10,
+          "denominator": 77371252455336267181195264,
+          "numerator": 50031545098999707
+        }
+      },
+      "seed=2|d=1|1-^1,2+^3,2-^2": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.5076301025212006e-24,
+          "denominator": 485667223056432267729865476705879726660601709763034880312953102434726071301302124544,
+          "numerator": 732206525287755784366405882507567948019949017694749414425947
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.5076266737823215e-24,
+          "denominator": 696898287454081973172991196020261297061888,
+          "numerator": 1050662447078993847
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 3.428548695804056e-30,
+          "denominator": 2428336115282161338649327383529398633303008548815174401564765512173630356506510622720,
+          "numerator": 8325668621024542766838204050557459952278943318678870727
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.9018317956550054e-34,
+          "denominator": 29230032746618058364073696654325660393118650859520,
+          "numerator": 5559060566555523
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 48,
+        "whole_group_global_ceiling": {
+          "decimal": 6.466425644057032e-10,
+          "denominator": 77371252455336267181195264,
+          "numerator": 50031545098999707
+        }
+      },
+      "seed=2|d=2|1+^1,1-^1,2+^2,2-^2": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 6.156156251961569e-24,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 11959373246366677811317962747623609817659167289014240435623801
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 6.156142251277813e-24,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 17160819968956899501
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 1.399990717453323e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 135985920810067531858357332825771845887222740871754888541
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 7.765813165591271e-34,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 90797989253740209
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 196,
+        "whole_group_global_ceiling": {
+          "decimal": 2.6404571379899547e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 817181903283661881
+        }
+      },
+      "seed=2|d=2|1+^2,1-^2,2+^1,2-^1": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 3.140896046919168e-24,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 6101721044064631536386715687563066233499575147456245120216225
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 3.14088890371317e-24,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 8755520392324948725
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 7.142809782925117e-30,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 13876114368374237944730340084262433253798238864464784545
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 3.962149574281261e-34,
+          "denominator": 23384026197294446691258957323460528314494920687616,
+          "numerator": 9265100944259205
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 100,
+        "whole_group_global_ceiling": {
+          "decimal": 1.3471720091785485e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 416929542491664225
+        }
+      },
+      "seed=2|d=2|1+^3,1-^3": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.1307225768909004e-24,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 2196619575863267353099217647522703844059847053084248243277841
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.1307200053367413e-24,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 3151987341236981541
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.5714115218530423e-30,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 24977005863073628300514612151672379856836829956036612181
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.426373846741254e-34,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 16677181699666569
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 36,
+        "whole_group_global_ceiling": {
+          "decimal": 4.849819233042775e-10,
+          "denominator": 309485009821345068724781056,
+          "numerator": 150094635296999121
+        }
+      },
+      "seed=2|d=2|2+^3,2-^3": {
+        "combined_known_boundary_group_ceiling": {
+          "decimal": 1.0176503192018104e-23,
+          "denominator": 1942668892225729070919461906823518906642406839052139521251812409738904285205208498176,
+          "numerator": 19769576182769406177892958827704334596538623477758234189500569
+        },
+        "k185_face_strip_group_ceiling": {
+          "decimal": 1.0176480048030672e-23,
+          "denominator": 2787593149816327892691964784081045188247552,
+          "numerator": 28367886071132833869
+        },
+        "k185_rho_above_one_quarter_group_ceiling": {
+          "decimal": 2.314270369667738e-29,
+          "denominator": 9713344461128645354597309534117594533212034195260697606259062048694521426026042490880,
+          "numerator": 224793052767662654704631509365051418711531469604329509629
+        },
+        "rho_below_2^-20_group_ceiling": {
+          "decimal": 1.2837364620671286e-33,
+          "denominator": 116920130986472233456294786617302641572474603438080,
+          "numerator": 150094635296999121
+        },
+        "small_strip_below_face_bound": true,
+        "small_strip_below_radial_tail_bound": true,
+        "weighted_leibniz_term_count": 324,
+        "whole_group_global_ceiling": {
+          "decimal": 4.3648373097384966e-09,
+          "denominator": 309485009821345068724781056,
+          "numerator": 1350851717672992089
+        }
+      }
+    },
+    "small_radius_group_ceiling_range": {
+      "maximum": {
+        "decimal": 1.2837364620671286e-33,
+        "denominator": 116920130986472233456294786617302641572474603438080,
+        "numerator": 150094635296999121
+      },
+      "minimum": {
+        "decimal": 1.426373846741254e-34,
+        "denominator": 116920130986472233456294786617302641572474603438080,
+        "numerator": 16677181699666569
+      }
+    }
+  },
+  "direction": "observed_to_native",
+  "domain_cover": {
+    "covers_complete_positive_orthant_after_radialization": true,
+    "determinants_remain_unexpanded_in_open_numerical_core": true,
+    "known_boundary_bounds_may_be_added_by_union_bound": true,
+    "only_open_region": "positive_radius_face_stripped_core",
+    "regions": [
+      {
+        "certificate": "K188 exact Gamma-six lower-tail inequality",
+        "domain": "0<=rho<2^-20 on the complete angular simplex",
+        "id": "small_radius_all_angles",
+        "status": "OUTWARD_BOUND_CLOSED"
+      },
+      {
+        "certificate": "K185 face bound integrated over a superset, hence still valid",
+        "domain": "2^-20<=rho<=1/4 and some z_i<2^-180",
+        "id": "positive_radius_angular_faces",
+        "status": "OUTWARD_BOUND_CLOSED"
+      },
+      {
+        "certificate": null,
+        "domain": "2^-20<=rho<=1/4 and all z_i>=2^-180",
+        "id": "positive_radius_face_stripped_core",
+        "status": "OPEN_DETERMINANT_PRESERVING_INTERVAL_ERROR"
+      },
+      {
+        "certificate": "K185 rational Gamma-six upper-tail bound",
+        "domain": "rho>1/4 on the complete angular simplex",
+        "id": "large_radius_all_angles",
+        "status": "OUTWARD_BOUND_CLOSED"
+      }
+    ]
+  },
+  "fixed_control": {
+    "endpoint_manifest": "lab/process/k187-order-six-radial-log-endpoint-wave.json",
+    "face_floor": "2^-180",
+    "radial_cutoff": "1/4",
+    "radial_rate": 256,
+    "radial_shape": 6,
+    "source_coherent_groups": 18,
+    "source_leibniz_terms": 1864,
+    "source_manifest": "lab/process/k185-order-six-duffy-face-tail-wave.json",
+    "source_nontrivial_occurrences": 468,
+    "source_nontrivial_patterns": 53,
+    "source_time_gram_entries": 234
+  },
+  "independent_controls": {
+    "all_controls_strictly_below_rational_ceiling": true,
+    "precision": "IEEE-754 binary64 SciPy regularized incomplete gamma",
+    "role": "independent floating incomplete-gamma checks only; the exact exp(-u)<=1 inequality carries the outward certificate",
+    "rows": [
+      {
+        "ceiling_to_control_ratio": "1.0033537086239750e+00",
+        "control_below_ceiling": true,
+        "epsilon": "2^-16",
+        "normalized_incomplete_gamma_control": "4.917831579709456550e-18",
+        "rational_inequality_ceiling_decimal": "4.934324553889584812e-18",
+        "x_equals_256_epsilon": "3.906250000000000000e-03"
+      },
+      {
+        "ceiling_to_control_ratio": "1.0002092848337003e+00",
+        "control_below_ceiling": true,
+        "epsilon": "2^-20",
+        "normalized_incomplete_gamma_control": "2.940471226379151974e-25",
+        "rational_inequality_ceiling_decimal": "2.941086622410765178e-25",
+        "x_equals_256_epsilon": "2.441406250000000000e-04"
+      },
+      {
+        "ceiling_to_control_ratio": "1.0000130790458022e+00",
+        "control_below_ceiling": true,
+        "epsilon": "2^-24",
+        "normalized_incomplete_gamma_control": "1.753001306240095270e-32",
+        "rational_inequality_ceiling_decimal": "1.753024233824470746e-32",
+        "x_equals_256_epsilon": "1.525878906250000000e-05"
+      },
+      {
+        "ceiling_to_control_ratio": "1.0000008174354580e+00",
+        "control_below_ceiling": true,
+        "epsilon": "2^-28",
+        "normalized_incomplete_gamma_control": "1.044883013273164528e-39",
+        "rational_inequality_ceiling_decimal": "1.044883867397588936e-39",
+        "x_equals_256_epsilon": "9.536743164062500000e-07"
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "next_exact_input": {
+    "domain": "2^-20<=rho<=1/4 and z_i>=2^-180",
+    "first_gate": "derive outward value and mixed-derivative enclosures for each of the 53 K186 divided-difference regularizers on the positive-radius face-stripped core, then certify the Duffy/Jacobi remainder without expanding determinants",
+    "must_preserve": "all 234 signed entries, 18 coherent groups, K179 signs, old-position factors, primitive gaps, complete species determinants and shared time nodes",
+    "owner": "determinant-preserving positive-radius weighted interval cubature"
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "accurate_order_six_prefix_released": false,
+    "all_18_groups_and_234_entries_covered": true,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_outward_order_six_total_error_serialized": false,
+    "determinant_preserving_positive_radius_core_error_serialized": false,
+    "k185_face_and_radial_tail_bounds_composed": true,
+    "k187_zero_endpoint_derivative_premise_avoided": true,
+    "native_K152_interval_emitted": false,
+    "outward_small_radius_strip_error_serialized": true,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "positive_radius_face_stripped_core_is_only_remaining_order_six_integration_region": true,
+    "positive_split_radius_selected": true,
+    "scalar_center_left_floor_serialized": false
+  },
+  "schema_version": "1.0",
+  "small_radius_certificate": {
+    "applies_to_all_angular_coordinates": true,
+    "ceiling_below_k185_face_fraction": true,
+    "ceiling_below_k185_radial_tail_fraction": true,
+    "consumes_k187_log_obstruction_without_differentiating_through_zero": true,
+    "depends_on_regularizer_radial_derivatives": false,
+    "exact_inequality": "P(6,x)=integral_0^x u^5 exp(-u) du/Gamma(6) <= x^6/(6 Gamma(6)) = x^6/720",
+    "k185_face_fraction_to_small_fraction_ratio_control": 7927234560.0,
+    "k185_tail_fraction_to_small_fraction_ratio_control": 18027.612660788636,
+    "normalized_gamma_shape_six_density": "256^6*rho^5*exp(-256*rho)/Gamma(6)",
+    "normalized_lower_tail_fraction_ceiling": {
+      "decimal": 2.941086622410765e-25,
+      "denominator": 3400103867666144553861120,
+      "numerator": 1
+    },
+    "proof_step": "exp(-u)<=1 for u>=0 and Gamma(6)=5!=120",
+    "selected_epsilon": "2^-20",
+    "selected_epsilon_fraction": {
+      "decimal": 9.5367431640625e-07,
+      "denominator": 1048576,
+      "numerator": 1
+    },
+    "x_equals_rate_times_epsilon": {
+      "decimal": 0.000244140625,
+      "denominator": 4096,
+      "numerator": 1
+    }
+  }
+}
