@@ -7,6 +7,22 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K169 neutral-cluster gap cap (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A fixed charge sector has an explicit compatible neutral escape cluster | one particle and one hole of the same flavor carry charges `e_i,-e_i`, preserve total charge and have energy infimum `2 tau=5/2` | exact K143/K148 structural theorem; this proves threshold membership, not the first threshold |
+| A finite K162 trial can exclude that threshold channel | the translated neutral-cluster Weyl sequence converges weakly to zero, so projection off any finite trial vanishes and the normalized complement sequence retains the threshold Rayleigh limit | false; every finite-trial complete complement margin above a variational ground trial is at most `5/2` |
+| The K139 chart changes the physical complement cap | `v in P^(perp_M)` iff `S v in (S P)^perp` for `M=S* S` | false; the physical cap transports exactly to the complete `M`-orthogonal complement |
+| K168's direct base-to-reference transfer can be rescued by better base data | K168 needs a base complete margin strictly above `3`, while K169 gives the universal cap `5/2<3` | false; the direct transfer route is killed independently of the unevaluated base form and Gram |
+| A gap below three makes direct K152 certification impossible | an exact nonidentity-metric pencil has generalized spectrum `(-1,1,3)`, zero trial residual, positive `M`-orthogonal complement at threshold zero and exactly one value below it | false; direct reference-specific certification remains open at gap `2<3`; the example is a non-native control |
+| K169 closes native K152 or changes source/ledger truth | native `R_ref`, Gram, residual, complement and left floors remain absent; `SC-META-53` is `UNCERTAIN`, and `LT-SM8`, `RA-F1`, `AC-F1` remain `NEEDS` | false; no native interval, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k169_neutral_cluster_gap_cap.py --demo`,
+`python3 tests/channel-swings/k169_neutral_cluster_gap_cap_probe.py`
+and its baseline-first hostile check with `--selftest` (`30/30`, `18/18`).
+
 ## K168 flavor-symmetric reference extension (2026-09-09)
 
 | Claim | Evidence | Honest grade |

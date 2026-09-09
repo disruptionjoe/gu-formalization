@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6c1836f6bc74a23c35f4077519da0849ea0bd2a5
+revision_basis: 2a13d56d3d65f1fd6a1488345f522c04e66dee5f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K169 neutral-cluster gap-cap Big Wave closes K168's proposed direct
+    base-to-reference transfer route. In every fixed charge sector, one
+    same-flavor particle and one hole form a compatible zero-charge escape
+    cluster with energy infimum 2 tau=5/2. K143's HVZ formula therefore puts
+    E_ref(q)+5/2 in the threshold set. A translated cluster Weyl sequence
+    survives projection off every finite K162 trial, so the complete physical
+    complement margin above a variational ground trial is at most 5/2. K139's
+    chart carries physical orthogonality exactly to M-orthogonality, preserving
+    the cap. Since 5/2<3, K168's requirement that a base complete margin exceed
+    the three-unit reference-shape oscillation is unattainable; evaluating the
+    base form or Gram cannot change that verdict. A nonidentity-metric exact
+    control confirms that direct reference-specific K152 enclosure can work
+    with a positive gap 2<3. The first threshold, native ground, R_ref form,
+    physical Gram, residual, complement and left floors remain unevaluated.
+    No native K152 interval, physical/source, Born, prediction or confirmation
+    claim follows.
+
     The K168 flavor-symmetric reference-extension Big Wave declares the
     complete native-C3 shape W_ref=diag(-2,1,1) at zero scalar center. It is
     Hermitian, trace zero, non-scalar, bounded, charge preserving and exactly
@@ -7331,13 +7348,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the same limiting K139 base form R_0 and physical Gram M now be evaluated
-  on a small K162 dyadic trial space for the declared K168 reference
-  W_ref=diag(-2,1,1), with a complete form-dual residual, relative generalized
-  gap and M-orthogonal complement floor strong enough to beat the exact three-
-  unit shape-oscillation budget; can complete response data or a source-owned
-  GU action then select that extension and scalar center for absolute
-  K164/K152 placement?
+  Can the same limiting reference-specific form R_ref and physical Gram M be
+  evaluated directly on a small K162 dyadic trial space, with a complete
+  form-dual residual and positive M-orthogonal complement or flux floor below
+  the native neutral-cluster threshold E_ref(q)+5/2; can a separately selected
+  scalar center then supply the native left floor required for K152?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7346,6 +7361,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K169 proves that a same-flavor particle-hole neutral cluster places
+  E_ref(q)+5/2 in the native K143 HVZ threshold set and that its Weyl sequence
+  survives projection off every finite K162 trial. Hence every finite-trial
+  complete M-orthogonal complement margin above a variational ground trial is
+  at most 5/2. Because 5/2<3, K168's direct base-to-reference transfer
+  criterion can never be met; do not spend another wave trying to beat the
+  three-unit budget with base-form data. Evaluate the same limiting
+  reference-specific form R_ref and physical Gram M directly on a small K162
+  trial, compute its complete form-dual residual, and certify a positive
+  M-orthogonal complement or flux floor below E_ref(q)+5/2. Then establish the
+  native left floor at a separately selected scalar center. Keep the result
+  conditional until complete response data or an action owner selects the
+  extension and center; do not identify E_ref(q)+5/2 as the first threshold.
+
   K168 declares the complete primitive flavor-symmetric trace-zero reference
   W_ref=diag(-2,1,1) on the native C3 impurity and fixes the K139 chart. Its
   pulled-back contribution obeys -2M<=S*W_ref S<=M, so generalized values move

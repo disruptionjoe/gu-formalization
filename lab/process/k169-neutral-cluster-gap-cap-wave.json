@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-09",
+  "status": "CONDITIONAL_NEUTRAL_CLUSTER_GAP_CAP_PROVED",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139-K168 massive positive particle/hole signed point control in one fixed hard-core charge sector. The theorem uses the native K143 HVZ cluster formula and applies to every finite K162 trial space; it does not select the operator or compute its ground energy.",
+  "target_claim": "NONE-NOT-A-KILL",
+  "neutral_cluster": {
+    "particle_charge": [1, 0],
+    "hole_charge": [-1, 0],
+    "cluster_charge": [0, 0],
+    "cluster_particle_number": 2,
+    "single_escape_energy_infimum": "5/4",
+    "neutral_cluster_energy_infimum": "5/2",
+    "fixed_total_charge_preserved": true,
+    "HVZ_threshold_membership": "E_ref(q)+2*tau belongs to the threshold set",
+    "first_threshold_identified": false,
+    "local_reference_extension_changes_escape_cost": false
+  },
+  "finite_trial_complement": {
+    "neutral_threshold": "E_ref(q)+5/2",
+    "complete_complement_margin_upper": "E_ref(q)+5/2-rho <= 5/2",
+    "universal_margin_upper": "5/2",
+    "finite_codimension_Weyl_sequence_survives_projection": true,
+    "applies_to_every_finite_K162_trial_space": true,
+    "identifies_actual_complement_floor": false
+  },
+  "K139_chart_transport": {
+    "physical_chart": "S=(1-G_256)^-1",
+    "regular_metric": "M=S* S",
+    "physical_trial_space": "S P",
+    "physical_orthogonal_complement": "(S P)^perp",
+    "regular_coordinate_complement": "P^(perp_M)",
+    "equivalence": "v in P^(perp_M) iff S v in (S P)^perp",
+    "free_Hilbert_complement_substituted": false,
+    "gap_cap_preserved_under_chart": true
+  },
+  "K168_transfer_disposition": {
+    "neutral_cluster_gap_cap": "5/2",
+    "K168_shape_oscillation": "3",
+    "strict_transfer_condition": "base complete margin > shape oscillation",
+    "strict_transfer_condition_attainable": false,
+    "comparison": "2*tau < osc(W_ref)",
+    "direct_base_to_reference_gap_transfer": false,
+    "direct_reference_specific_K152_route_open": true,
+    "base_form_or_Gram_evaluation_would_change_transfer_verdict": false
+  },
+  "direct_reference_positive_control": {
+    "metric": [["1", "1", "0"], ["1", "2", "0"], ["0", "0", "1"]],
+    "form": [["-1", "-1", "0"], ["-1", "0", "0"], ["0", "0", "3"]],
+    "generalized_spectrum": ["-1", "1", "3"],
+    "ground_to_next_gap": "2",
+    "gap_exceeds_three": false,
+    "trial_generalized_rayleigh": "-1",
+    "matched_residual": ["0", "0", "0"],
+    "threshold": "0",
+    "M_orthogonal_complement_inertia": [0, 0, 2],
+    "full_pencil_inertia": [1, 0, 2],
+    "exactly_one_below_threshold": true,
+    "native_K139_data": false
+  },
+  "native_K152_replay": {
+    "three_unit_transfer_route": "KILLED_BY_NATIVE_NEUTRAL_CLUSTER_GAP_CAP",
+    "direct_reference_route": "OPEN",
+    "required_next_references": [
+      "same limiting R_ref form evaluation",
+      "physical Gram M evaluation",
+      "complete R_ref form-dual residual",
+      "reference-specific positive M-orthogonal complement or flux certificate",
+      "reference-specific next-distinct floor below the neutral-cluster threshold",
+      "native left floor at a selected scalar center"
+    ],
+    "native_reference_form_evaluated": false,
+    "native_same_form_packet_complete": false,
+    "native_ground_count_emitted": false,
+    "native_K152_interval_emitted": false
+  },
+  "source_and_physics": {
+    "SC_META_53_polarity": "UNCERTAIN",
+    "LT_SM8_verdict": "NEEDS",
+    "RA_F1_verdict": "NEEDS",
+    "AC_F1_verdict": "NEEDS",
+    "ledger_changed": false,
+    "source_register_changed": false,
+    "physical_or_source_selection": false,
+    "Born_prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "route_verdict": "THREE_UNIT_TRANSFER_ROUTE_KILLED_BY_FIVE_HALVES_NEUTRAL_CLUSTER_CAP__DIRECT_REFERENCE_K152_RECOMPUTATION_REQUIRED",
+  "next_condition": "Evaluate the same limiting reference-specific form R_ref and physical Gram M directly on a small K162 trial space. Certify its form-dual residual and a positive M-orthogonal complement floor below the native neutral-cluster threshold E_ref(q)+5/2; no gap greater than three is required or possible. Then prove the native left floor at a separately selected scalar center. Keep the result conditional until complete response or action-owned evidence selects the extension and center.",
+  "claim_ceiling": "Exact repository-owned fixed-charge theorem that the native particle-hole neutral cluster puts E_ref(q)+5/2 in the K143 HVZ threshold set and forces every finite K162 M-orthogonal complete-complement margin above a variational ground trial to be at most 5/2. Since 5/2 is below K168's three-unit shape oscillation, direct base-to-reference gap and complement transfer is killed; direct reference-specific K152 enclosure at a smaller positive gap remains open. The result identifies neither the first threshold nor the native ground/form/Gram/residual/left floor, and no native K152 interval, physical/source selection, Born derivation, prediction or confirmation follows."
+}
