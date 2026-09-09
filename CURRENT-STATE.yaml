@@ -35,25 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The K186 order-six Bessel Cauchy--Vandermonde Big Wave factors all 468
-    nontrivial size-two and size-three species determinants across the 234
-    K184 time-Gram entries. The complete 872-determinant census has size
-    histogram 404/404/64 and only 53 distinct nontrivial patterns. Each
-    determinant is now an exact canonical sign, a 2^m factor, two ordered-time
-    Vandermonde families, the full Cauchy denominator product and a positive
-    regularizer. The manifest serializes 2,596 denominator factors and 1,192
-    primitive gap factors. Andreief proves strict positivity away from
-    collision, while Newton row/column divided differences give the
-    coalescent extension. Direct determinant and mixed divided-difference
-    controls agree to 1.996e-27 relatively across 159 profile-pattern checks;
-    the 2^-180 face and 2^-200 radial stress controls remain positive through
-    extreme coincidence. This proves a bounded continuous regularizer on the
-    face-stripped compact core qualitatively, but no outward regularizer or
-    derivative enclosure and no certified compact-core quadrature remainder
-    is yet serialized. The accurate certified prefix stays through order
+    The K187 order-six radial-log endpoint Big Wave decides the theorem
+    premise behind K186's proposed zero-inclusive Jacobi remainder. The exact
+    integer-order Bessel expansion gives
+    R_m=1+rho^2(c_m log(rho)+d_m)+O(rho^4 log(rho)^2).
+    At the admissible equal-1/14 angular profile, exact rational cofactor
+    differentiation covers all 53 K186 patterns and all 468 nontrivial
+    occurrences. Every coefficient is positive; the ten distinct values
+    range from 8/49 to 169/98. Hence the second radial derivative is
+    logarithmically unbounded at rho=0 and the regularizer is not C2 there.
+    This rejects an ordinary bounded-C2-or-higher endpoint Jacobi remainder,
+    while preserving K186's positivity and time-coalescent continuity. The
+    next certificate must subtract the explicit logarithm or prove a small-
+    rho strip and interval the positive-radius core. No outward total error is
+    yet serialized, so the accurate certified prefix stays through order
     five. No complete K171/K168 action column, R_ref residual, complement or
     flux floor, scalar-center floor or K152 interval is evaluated. No
     physical/source, Born, prediction or confirmation claim follows.
+
+    The prior K186 result remains active context:
+    K186 factors all 468 nontrivial determinants into exact sign-aware
+    Cauchy--Vandermonde skeletons and 53 positive continuous regularizer
+    patterns, with stable Newton row/column divided differences through time
+    collisions. K187 changes only their radial endpoint differentiability.
 
     The prior K185 result remains active context:
     K185 enumerates all 1,864 determinant Leibniz support terms, proves the
@@ -7606,13 +7610,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can explicit outward bounds for the K186 size-two/three regularizers and
-  their mixed Duffy/Jacobi derivatives on rho<=1/4 and z_i>=2^-180 turn the
-  determinant-preserving compact-core quadrature remainder into a certified,
-  decision-grade order-six prefix; if so, does the completed K185 boundary
-  control plus that prefix advance the K171/K168 action columns and R_ref
-  residual, complement or flux floor, separately selected scalar center and
-  K152 interval?
+  Can the explicit K187 rho^2 log(rho) endpoint term be subtracted with an
+  outward remainder, or can a proved small-rho strip plus interval cubature on
+  epsilon<=rho<=1/4 certify the determinant-preserving compact-core error; if
+  so, does the completed K185 boundary control plus that prefix advance the
+  K171/K168 action columns and R_ref residual, complement or flux floor,
+  separately selected scalar center and K152 interval?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7621,17 +7624,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K186 closes the exact Cauchy--Vandermonde factorization, canonical signs,
-  primitive gap supports, positive regularizers and coalescent divided-
-  difference extension for all 53 distinct nontrivial determinant patterns
-  in the 234 K184 order-six time Grams. Do not return to direct near-
-  coincident determinant subtraction or cancellation-blind momentum bounds.
-  Derive explicit outward enclosures for the size-two/three regularizers and
-  their mixed Duffy/Jacobi derivatives, including the rho=0 and coincident-
-  face extensions, then certify the compact-core Jacobi remainder and combine
-  it with K185's face and radial-tail bounds. Extend the accurate prefix only
-  when the complete determinant-preserving error is decision-grade; only then
-  continue toward K171/K168.
+  K187 proves that every K186 pattern has a nonzero rho^2 log(rho)
+  coefficient at one admissible common angular profile, so the second radial
+  derivative is unbounded at zero and an ordinary smooth-endpoint Jacobi
+  remainder cannot close the compact core. Do not return to that remainder,
+  direct near-coincident determinant subtraction or cancellation-blind
+  momentum bounds. Either subtract the explicit logarithmic term with an
+  outward desingularized remainder, or prove a small-rho strip and choose a
+  positive epsilon before interval cubature on epsilon<=rho<=1/4. Preserve all
+  234 signed entries, 53 regularizer patterns, primitive gaps, determinants
+  and shared times; combine the endpoint/interior error with K185's face and
+  radial-tail bounds. Extend the accurate prefix only when the complete error
+  is decision-grade; only then continue toward K171/K168.
 
   K181 closes the complete order-three mixed determinant gate. The eight K179
   terms occupy distinct seed/output signatures: four share one positive rank-

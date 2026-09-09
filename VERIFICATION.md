@@ -7,6 +7,23 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K187 order-six radial-log endpoint family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The K186 regularizers are smoothly differentiable to the order needed by an ordinary zero-inclusive Jacobi remainder | exact K1 expansion gives `R_m=1+rho^2(c_m log(rho)+d_m)+O(rho^4 log(rho)^2)` | false: the second radial derivative is logarithmically unbounded wherever `c_m` is nonzero |
+| The logarithmic coefficient is nonzero on the admitted core | exact rational cofactor differentiation at the equal-`1/14` angular profile gives positive coefficients for all 53 patterns, with ten values from `8/49` to `169/98` | exact repository-owned witness and complete K186 pattern/occurrence propagation; not an all-angular coefficient-sign theorem |
+| K186's time-coalescent extension is invalidated | radial scaling and time collisions are distinct boundaries; Newton divided differences still remove the time Vandermonde zeros | false; K186 continuity and positivity are preserved |
+| The coefficient controls reproduce the asymptotic | all 53 scaled quotients approach their exact coefficients from `rho=2^-20` through `2^-80`; maximum discrepancy falls from `2.131e-2` to `5.327e-3` | high-precision deterministic control, not outward interval arithmetic |
+| The order-six prefix is now decision-grade | no outward log-aware/desingularized remainder or certified positive-radius split is serialized | false; accurate certified prefix remains through order five |
+| K187 releases action columns or physical positivity | action columns, residual, complete complement/flux, scalar center, K152 and the action-owned physical domain/state remain absent | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`python3 tests/channel-swings/k187_order_six_radial_log_endpoint.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`python3 tests/channel-swings/k187_order_six_radial_log_endpoint_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K186 order-six Bessel Cauchy--Vandermonde family (2026-09-09)
 
 | Claim | Evidence | Honest grade |
