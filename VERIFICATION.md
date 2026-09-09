@@ -7,6 +7,22 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K189 order-six Arb core-jet envelope family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every K186 regularizer has a finite outward value and primitive-coordinate mixed-derivative enclosure through total order four on the K188 core | complete monotonicity and the exact Bessel derivative identity bound every mixed Newton entry by tensor Hermite--Genocchi without time-gap division; directed Arb endpoint evaluation covers all 53 patterns and 468 occurrences | rigorous repository-owned global envelopes on `2^-20<=rho<=1/4`, `z_i>=2^-180` |
+| The single global raw-kernel envelope is decision-grade | size-three value ceilings reach `10^531`--`10^533` and fourth derivatives reach `10^773`--`10^776`, while K186 sampled regularizers range from `0.8804` to `0.9881` | false; the bound loses the Cauchy cancellation defining the regularizer |
+| Ordinary subdivision repairs that loss | even after raising the combined primitive floor from `2^-200` to `2^-8`, the size-three value ceiling remains `10^13` | false; route to a cancellation-preserving scaled-kernel or regularizer Taylor model before subdivision |
+| The Duffy/Jacobi core remainder is now serialized | primitive jets are banked, but chain-rule envelopes and a determinant-preserving cubature remainder are absent | false; accurate certified prefix remains through order five |
+| K189 releases action columns or physical positivity | no complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k189_order_six_arb_core_jet_envelope.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k189_order_six_arb_core_jet_envelope_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K188 order-six small-rho strip family (2026-09-09)
 
 | Claim | Evidence | Honest grade |
