@@ -1,0 +1,289 @@
+{
+    "Born_prediction_or_confirmation_credit": false,
+    "analytic_reduction": {
+        "normalized_repeated_species_kernel": "A=(f(p1,p3,p4)-f(p3,p1,p4))/sqrt(2)",
+        "pair_primitive": "F(a)=a*acosh(a)/sqrt(a^2-1)",
+        "rank_kernel": "f(p1,p3,p4)=T(256+E1,256+E1+E3,256+E1+E3+E4)/(256+E1)",
+        "rank_kernel_coordinatewise_positive_and_decreasing": true,
+        "triple_resolvent": "T(a,b,c)=(J(a,b)-J(a,c))/(c-b)",
+        "whole_difference_factor": "f13-f31=(E3-E1)*Q with Q positive"
+    },
+    "canon_paper_release_or_public_posture_move": false,
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "direction": "observed_to_native",
+    "fixed_control": {
+        "auxiliary_chart_shift": 256,
+        "carrier": "hard-core C3 tensor Gamma_-(L2(R;C4))",
+        "coefficient_family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+        "resolved_order": 3,
+        "seed_scope": "K162_zero_bath_seed_orbits"
+    },
+    "ledger_effect": {
+        "AC-F1": "NEEDS_UNCHANGED",
+        "LT-SM8": "NEEDS_UNCHANGED",
+        "RA-F1": "NEEDS_UNCHANGED",
+        "SC-META-53": "UNCERTAIN_UNCHANGED"
+    },
+    "next_exact_input": {
+        "first_gate": "assemble the seven multi-path order-four output groups as signed sums before determinant-level Gram enclosure",
+        "must_preserve": "cross-path interference, specieswise determinant cancellation and K179 coefficients",
+        "owner": "coherent path-group Gram evaluator"
+    },
+    "order_three_family": {
+        "all_repeated_pairs_use_p1_p3": true,
+        "distinct_seed_output_groups": 8,
+        "higher_order_group_census": {
+            "10": {
+                "coherent_output_groups": 28,
+                "maximum_group_size": 50,
+                "multi_path_groups": 26,
+                "terms": 480
+            },
+            "11": {
+                "coherent_output_groups": 24,
+                "maximum_group_size": 50,
+                "multi_path_groups": 24,
+                "terms": 640
+            },
+            "12": {
+                "coherent_output_groups": 33,
+                "maximum_group_size": 120,
+                "multi_path_groups": 31,
+                "terms": 1152
+            },
+            "3": {
+                "coherent_output_groups": 8,
+                "maximum_group_size": 1,
+                "multi_path_groups": 0,
+                "terms": 8
+            },
+            "4": {
+                "coherent_output_groups": 13,
+                "maximum_group_size": 4,
+                "multi_path_groups": 7,
+                "terms": 24
+            },
+            "5": {
+                "coherent_output_groups": 12,
+                "maximum_group_size": 4,
+                "multi_path_groups": 12,
+                "terms": 32
+            },
+            "6": {
+                "coherent_output_groups": 18,
+                "maximum_group_size": 9,
+                "multi_path_groups": 16,
+                "terms": 72
+            },
+            "7": {
+                "coherent_output_groups": 16,
+                "maximum_group_size": 9,
+                "multi_path_groups": 16,
+                "terms": 96
+            },
+            "8": {
+                "coherent_output_groups": 23,
+                "maximum_group_size": 24,
+                "multi_path_groups": 21,
+                "terms": 192
+            },
+            "9": {
+                "coherent_output_groups": 20,
+                "maximum_group_size": 24,
+                "multi_path_groups": 20,
+                "terms": 256
+            }
+        },
+        "rank_one_terms": 4,
+        "repeated_species_terms": 4,
+        "rows": [
+            {
+                "coefficient": "-1",
+                "contraction_id": "seed-0-order-3-path-1-contraction-1",
+                "kernel_class": "normalized_2x2_determinant",
+                "output_impurity": 1,
+                "output_signature": "d=1|1+^1,1-^2",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 0
+            },
+            {
+                "coefficient": "1",
+                "contraction_id": "seed-0-order-3-path-2-contraction-1",
+                "kernel_class": "rank_one_control",
+                "output_impurity": 1,
+                "output_signature": "d=1|1-^1,2+^1,2-^1",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 0
+            },
+            {
+                "coefficient": "1",
+                "contraction_id": "seed-0-order-3-path-3-contraction-1",
+                "kernel_class": "rank_one_control",
+                "output_impurity": 2,
+                "output_signature": "d=2|1+^1,1-^1,2-^1",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 0
+            },
+            {
+                "coefficient": "-1",
+                "contraction_id": "seed-0-order-3-path-4-contraction-1",
+                "kernel_class": "normalized_2x2_determinant",
+                "output_impurity": 2,
+                "output_signature": "d=2|2+^1,2-^2",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 0
+            },
+            {
+                "coefficient": "-1",
+                "contraction_id": "seed-1-order-3-path-1-contraction-1",
+                "kernel_class": "normalized_2x2_determinant",
+                "output_impurity": 0,
+                "output_signature": "d=0|1+^2,1-^1",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 1
+            },
+            {
+                "coefficient": "-1",
+                "contraction_id": "seed-1-order-3-path-2-contraction-1",
+                "kernel_class": "rank_one_control",
+                "output_impurity": 0,
+                "output_signature": "d=0|1+^1,2+^1,2-^1",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 1
+            },
+            {
+                "coefficient": "-1",
+                "contraction_id": "seed-2-order-3-path-1-contraction-1",
+                "kernel_class": "rank_one_control",
+                "output_impurity": 0,
+                "output_signature": "d=0|1+^1,1-^1,2+^1",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 2
+            },
+            {
+                "coefficient": "-1",
+                "contraction_id": "seed-2-order-3-path-2-contraction-1",
+                "kernel_class": "normalized_2x2_determinant",
+                "output_impurity": 0,
+                "output_signature": "d=0|2+^2,2-^1",
+                "output_variable_provenance": [
+                    1,
+                    3,
+                    4
+                ],
+                "seed_impurity": 2
+            }
+        ],
+        "terms": 8
+    },
+    "outward_evaluation": {
+        "coincident_face_zero_preserved": true,
+        "decimal_precision": 50,
+        "determinant_finite_positive_octant_raw_lower": "1.8552155853297054200673914968385878449725057099968E-14",
+        "determinant_finite_positive_octant_raw_upper": "1.6505063125931547394175258582589467443443086115472E-7",
+        "determinant_full_raw_tail_upper": "0.000035603876009796898825069691159999150140453715931208",
+        "determinant_norm_squared_lower": "1.5156015099416042751115964085275462048181156679907E-17",
+        "determinant_norm_squared_upper": "3.7706194747916425399082843596708367299570809339694E-9",
+        "mesh_octaves": 40,
+        "mesh_subdivisions_per_octave": 2,
+        "positive_axis_cutoff": "1099511627776",
+        "positive_octant_cells": 551368,
+        "rank_finite_positive_octant_raw_lower": "2.0966209660650630812363028315238919135098615974038E-8",
+        "rank_finite_positive_octant_raw_upper": "6.1127499511219783351505979551546277005109457828567E-8",
+        "rank_full_raw_tail_upper": "0.000017801938004898449412534845579999575070226857965604",
+        "rank_norm_squared_lower": "1.7128154415427197526403066476672546379988498225227E-11",
+        "rank_norm_squared_upper": "1.8678289860076779551252937402067723331091946745092E-9",
+        "rounding_guard_absolute": "1e-48",
+        "rounding_guard_relative": "1e-28",
+        "whole_difference_enclosed_before_squaring": true
+    },
+    "physical_or_source_selection": false,
+    "release_test": {
+        "coefficient_complete_base_action_column_evaluated": false,
+        "complete_R_ref_form_dual_residual_serialized": false,
+        "complete_order_three_family_evaluated": true,
+        "four_rank_one_controls_evaluated": true,
+        "four_whole_2x2_determinants_evaluated": true,
+        "native_K152_interval_emitted": false,
+        "order_four_through_twelve_coherent_cross_terms_evaluated": false,
+        "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+        "same_family_independent_control_passed": true,
+        "scalar_center_left_floor_serialized": false
+    },
+    "same_family_quadrature_control": {
+        "coarse": {
+            "determinant_norm_squared": 1.0602998851451135e-11,
+            "quadrature_order": 28,
+            "rank_norm_squared": 2.7859887084312533e-11,
+            "sinh_coordinate_span": 12.0
+        },
+        "determinant_coarse_fine_relative_difference": 6.464362846958135e-05,
+        "determinant_fine_inside_outward_enclosure": true,
+        "fine": {
+            "determinant_norm_squared": 1.0602313479437652e-11,
+            "quadrature_order": 32,
+            "rank_norm_squared": 2.7858869069903164e-11,
+            "sinh_coordinate_span": 12.0
+        },
+        "rank_coarse_fine_relative_difference": 3.654184262882819e-05,
+        "rank_fine_inside_outward_enclosure": true
+    },
+    "scale_replay": {
+        "first_unimplemented_object": "signed cross-path Gram sums inside seven coherent order-four output groups",
+        "order_four_coherent_output_groups": 13,
+        "order_four_maximum_group_size": 4,
+        "order_four_multi_path_groups": 7,
+        "order_four_terms": 24,
+        "order_three_group_collision_count": 0,
+        "rank_one_plus_single_determinant_engine_scales_through_order_twelve": false
+    },
+    "schema_version": "1.0",
+    "seedwise_exchange_vectors": {
+        "all_eight_output_groups_orthogonal": true,
+        "seed_0_kernel_counts": {
+            "determinant": 2,
+            "rank_one": 2
+        },
+        "seed_0_norm_squared_lower": "3.425633914288459388489163518E-11",
+        "seed_0_norm_squared_upper": "1.127689692159864099006715620E-8",
+        "seed_1_and_2_norm_squared_lower": "1.712816957144229694244581759E-11",
+        "seed_1_and_2_norm_squared_upper": "5.638448460799320495033578100E-9",
+        "seed_1_kernel_counts": {
+            "determinant": 1,
+            "rank_one": 1
+        },
+        "seed_2_kernel_counts": {
+            "determinant": 1,
+            "rank_one": 1
+        },
+        "signed_coefficients_preserved_in_action_coordinates": true
+    }
+}

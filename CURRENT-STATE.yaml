@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8489d6575e8ed7324bd6fd49b4a6881b728af796
+revision_basis: 565c0013c6dd02483a611b937080b67082c33e46
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K181 order-three determinant exchange Big Wave closes K180's mixed
+    determinant gate on the fixed equal-coupling point control. K179's eight
+    order-three terms occupy eight orthogonal seed/output groups: four rank-
+    one species products and four outputs with one multiplicity-two species.
+    Exact contraction of p2 gives a positive triple-resolvent kernel. For the
+    repeated outputs, the whole normalized exterior coordinate is
+    (f(p1,p3,p4)-f(p3,p1,p4))/sqrt(2), and its numerator factors exactly by
+    E3-E1 before any interval operation, preserving the coincident-face zero.
+    A 551,368-cell positive-octant computation through momentum 2^40 plus
+    analytic all-octant tails certifies squared-norm intervals
+    [1.712815441542719e-11,1.867828986007678e-9] for each rank kernel and
+    [1.515601509941604e-17,3.770619474791643e-9] for each determinant kernel.
+    Independent transformed Gauss--Legendre controls give
+    2.785886906990316e-11 and 1.060231347943765e-11. The scale replay reaches
+    the next changed object at order four: 24 terms occupy 13 coherent output
+    groups, seven of them multi-path with size up to four, so signed cross-path
+    Gram sums must be assembled before further determinant enclosure. No
+    higher-order prefix, complete K171/K168 action column, R_ref residual,
+    complement or flux floor, scalar-center floor or K152 interval is
+    evaluated. No physical/source, Born, prediction or confirmation claim
+    follows.
+
+    The prior K180 result remains active context:
     The K180 order-two outward exchange-kernel Big Wave closes K179's first
     numerical gate on the fixed equal-coupling point control. Exact integration
     of the contracted momentum reduces all six signed terms to copies of one
@@ -7561,13 +7584,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the complete eight-term order-three K179 exchange family be grouped in
-  one path-pair basis and outwardly evaluated, with the four repeated-species
-  terms enclosed as whole signed 2x2 heat-kernel determinants and the four
-  rank-one terms retained as controls; if that mixed determinant gate closes,
-  can the same cancellation-preserving engine scale through order twelve and
-  assemble the K171/K168 action columns and R_ref residual before a complement
-  or flux floor and separately selected scalar center are attempted for K152?
+  Can the seven multi-path order-four K179 output groups be assembled as
+  coefficient-complete signed sums in a common momentum/exterior basis and
+  can every self- and cross-path Gram entry be outwardly enclosed only after
+  the complete specieswise determinant cancellation is formed; if that first
+  coherent-group gate closes, can the grouped engine scale through order
+  twelve and assemble the K171/K168 action columns and R_ref residual before a
+  complement or flux floor and separately selected scalar center are attempted
+  for K152?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7576,6 +7600,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K181 closes the complete order-three mixed determinant gate. The eight K179
+  terms occupy distinct seed/output signatures: four share one positive rank-
+  one kernel and four are normalized whole 2x2 determinants. Exact p2
+  contraction and dyadic positive-octant enclosures with analytic tails give
+  nonzero outward intervals for both classes, while independent transformed
+  Gauss--Legendre controls lie inside them. The repeated-species difference
+  factors by E3-E1 before enclosure, so its coincident-face cancellation is
+  preserved. Do not extrapolate this single-path gate. At order four, 24 terms
+  occupy 13 coherent output groups; seven groups contain two to four paths and
+  require signed cross-path Gram entries between different contracted
+  positions and momentum provenances. Assemble those seven groups as complete
+  signed sums before interval evaluation, retain the six singleton groups as
+  normalization controls, and only then attempt higher orders and K171/K168.
+
   K180 closes the first numerical exchange gate. All six K179 order-two terms
   are signed orthogonal copies of a common positive kernel, and exact
   contracted-momentum reduction plus monotone dyadic rectangles and an

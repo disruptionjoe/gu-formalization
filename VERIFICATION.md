@@ -7,6 +7,22 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K181 order-three determinant exchange family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Order three can be treated as eight rank-one species products | four of the eight K179 outputs repeat one species at momentum provenance `p1,p3` | false; four normalized `2x2` exterior determinants are required |
+| Entrywise bounds on the determinant preserve its coincident-face cancellation | the complete antisymmetric difference factors exactly as `(E3-E1)Q/sqrt(2)` with `Q>0` | false; K181 forms and bounds the whole difference before squaring |
+| The complete order-three kernels have determined nonzero Hilbert norms | `551,368` positive-octant cells plus analytic all-octant tails give squared-norm intervals `[1.712815441542719e-11,1.867828986007678e-9]` for the rank kernel and `[1.515601509941604e-17,3.770619474791643e-9]` for the determinant kernel | certified outward numerical intervals on the fixed K139--K179 control |
+| The outward normalization has no independent check | transformed Gauss--Legendre orders 28 and 32 agree within `6.47e-5` relatively and give `2.785886906990316e-11` and `1.060231347943765e-11`, both inside the certified intervals | false; independent same-family numerical control, not used as the proof |
+| Closing order three evaluates orders four through twelve or the K171/K168 action column | order four has 24 terms in 13 coherent outputs, including seven multi-path groups of size up to four | false; signed cross-path Gram assembly is the next gate and every downstream action/residual/floor remains open |
+
+Reproduce with
+`python3 tests/channel-swings/k181_order_three_determinant_exchange.py --demo`,
+its quick structural mode `--quick`,
+`python3 tests/channel-swings/k181_order_three_determinant_exchange_probe.py`
+and its baseline-first hostile check with `--selftest` (`15/15`, `23/23`).
+
 ## K180 order-two outward exchange kernels (2026-09-09)
 
 | Claim | Evidence | Honest grade |
