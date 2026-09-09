@@ -7,6 +7,22 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K167 extension-shape relative-spectrum classification (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K166's scalar covariance extends to every Hermitian extension change | `W=E I+W_0`, `tr(W_0)=0`; only the center pulls back as `E M`, while the shape gives a general form perturbation | false; the center/shape decomposition is exact and unique |
+| A traceless shape preserves a matched residual and relative gap | with `S=diag(2,1,1)`, `M=diag(4,1,1)` and an off-diagonal trace-zero perturbation, the trial Rayleigh value stays `-1` while its residual changes `(0,0,0) -> (0,4,0)` and the ground gap changes `3 -> 5` | false; exact rational generalized-pencil control |
+| Translating the threshold with the trial preserves complete complement positivity under a shape change | a diagonal trace-zero perturbation changes the `M`-orthogonal complement diagonal from `(3,6)` at trial threshold `-1` to `(-1,4)` at trial threshold `1` | false; scalar threshold covariance cannot be reused for traceless shape |
+| A declared reference extension supports conditional K162 work | the fail-closed compiler requires a complete extension ref, fixed chart and same complete form ref before relative form/residual/gap computation | exact reproducibility contract; declaration is not physical selection |
+| The current evidence selects the full extension | K140 supplies an identification interface but no complete response datum; no source/GU action owns the extension | false; both shape and scalar center remain supplied inputs |
+| K167 closes native K152 or changes source/ledger truth | the exact controls are finite and non-native; `SC-META-53` is `UNCERTAIN`, and `LT-SM8`, `RA-F1`, `AC-F1` remain `NEEDS` | false; no native interval, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k167_extension_shape_relative_spectrum.py --demo`,
+`python3 tests/channel-swings/k167_extension_shape_relative_spectrum_probe.py`
+and its baseline-first hostile check with `--selftest` (`26/26`, `15/15`).
+
 ## K166 extension-coordinate spectral covariance (2026-09-09)
 
 | Claim | Evidence | Honest grade |

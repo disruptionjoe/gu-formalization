@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-09",
+  "status": "EXACT_EXTENSION_CENTER_SHAPE_RELATIVE_SPECTRAL_CLASSIFICATION",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139 positive particle/hole signed point control at fixed polarization, couplings, domain and state. The packet classifies scalar-center versus traceless-shape dependence of the finite Hermitian extension and uses exact finite generalized pencils only as controls.",
+  "target_claim": "NONE-NOT-A-KILL",
+  "extension_decomposition": {
+    "W_equals_E_identity_plus_W0": true,
+    "E_equals_trace_W_over_dimension": true,
+    "trace_W0_equals_zero": true,
+    "decomposition_unique": true,
+    "scalar_center_pulls_back_as_E_M": true,
+    "traceless_shape_pulls_back_as_a_general_form_perturbation": true
+  },
+  "relative_spectral_classification": {
+    "scalar_center_preserves_matched_residuals": true,
+    "scalar_center_preserves_relative_generalized_gaps": true,
+    "scalar_center_preserves_complement_forms_at_translated_thresholds": true,
+    "traceless_shape_preserves_matched_residuals_in_general": false,
+    "traceless_shape_preserves_relative_generalized_gaps_in_general": false,
+    "traceless_shape_preserves_complement_positivity_at_trial_translated_thresholds_in_general": false
+  },
+  "exact_controls": {
+    "chart_S_diagonal": ["2", "1", "1"],
+    "metric_M_diagonal": ["4", "1", "1"],
+    "base_generalized_spectrum": ["-1", "2", "5"],
+    "offdiagonal_traceless_shape_spectrum_at_t2": ["-2", "3", "5"],
+    "offdiagonal_ground_gap_change": ["3", "5"],
+    "offdiagonal_matched_residual_change": [["0", "0", "0"], ["0", "4", "0"]],
+    "diagonal_traceless_shape_complement_at_t0": ["3", "6"],
+    "diagonal_traceless_shape_complement_at_t2": ["-1", "4"],
+    "finite_controls_are_native_K162_anchors": false
+  },
+  "K162_reference_contract": {
+    "declared_complete_non_scalar_extension_required": true,
+    "fixed_chart_required": true,
+    "same_complete_form_reference_required": true,
+    "conditional_repository_reference_may_support_relative_computation": true,
+    "conditional_repository_reference_is_physical_selection": false,
+    "physical_selection_requires_supplied_full_rank_response_or_action_owner": true,
+    "complete_response_datum_supplied": false,
+    "action_owned_full_extension_supplied": false
+  },
+  "source_and_physics": {
+    "SC_META_53_polarity": "UNCERTAIN",
+    "LT_SM8_verdict": "NEEDS",
+    "RA_F1_verdict": "NEEDS",
+    "AC_F1_verdict": "NEEDS",
+    "ledger_changed": false,
+    "source_register_changed": false,
+    "physical_or_source_selection": false,
+    "Born_prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "route_verdict": "SCALAR_CENTER_COVARIANCE_ONLY__RELATIVE_K162_DATA_REQUIRE_ONE_COMPLETE_DECLARED_EXTENSION_SHAPE",
+  "next_condition": "Declare one complete repository-owned non-scalar Hermitian reference extension and fixed K139 chart, then evaluate the same limiting K162 form and Gram and certify its complete form-dual residual, relative generalized gap and M-orthogonal complement positivity. Treat those outputs as conditional until a supplied full-rank response datum or action owner selects the extension; absolute placement additionally requires the scalar center.",
+  "claim_ceiling": "Exact repository-owned center-versus-shape classification for the supplied K139 generalized form: the scalar center E I produces E M and preserves matched residuals, relative gaps and translated-threshold complements, while a traceless Hermitian shape perturbation can change all three. Exact rational controls prove the distinctions but are not native K162 anchors. No complete response datum or action-owned extension is supplied, so no physical extension selection, native K152 interval, Born derivation, prediction or confirmation follows."
+}
