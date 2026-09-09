@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-09",
+  "status": "CONDITIONAL_FLAVOR_SYMMETRIC_REFERENCE_EXTENSION_DECLARED",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139 positive particle/hole signed point control on the native hard-core C3 impurity. The extension is a conditional mathematical reference coordinate and finite exact matrices are controls only.",
+  "target_claim": "NONE-NOT-A-KILL",
+  "reference_extension": {
+    "basis": ["|0>", "|1>", "|2>"],
+    "diagonal": ["-2", "1", "1"],
+    "dimension": 3,
+    "Hermitian": true,
+    "trace": "0",
+    "scalar_center": "0",
+    "non_scalar": true,
+    "flavor_symmetric": true,
+    "primitive_integer_normalization": true,
+    "physical_selection": false
+  },
+  "native_compatibility": {
+    "hard_core_C3_complete": true,
+    "preserves_q1_q2_charge_blocks": true,
+    "preserves_K162_dyadic_domains": true,
+    "bounded_form_perturbation": true,
+    "signed_flavor_swap_intertwines": true
+  },
+  "fixed_chart_form_consequences": {
+    "chart_ref": "K139/K153#S=(1-G_256)^-1",
+    "metric_ref": "K153#M=S* S",
+    "delta_regular_identity": "Delta R=S*W_ref*S",
+    "complete_form_order": "R_0-2M<=R_ref<=R_0+M",
+    "every_ordered_generalized_eigenvalue_shift_interval": ["-2", "1"],
+    "maximum_absolute_change_of_a_relative_gap": "3",
+    "matched_shape_residual_increment_M_dual_norm_upper": "3*||u||_M",
+    "complement_margin_survives_if_base_M_margin_strictly_exceeds": "3",
+    "base_gap_at_most_three_certifies_positive_reference_gap": false,
+    "base_complement_margin_at_most_three_certifies_reference_positivity": false,
+    "absolute_axis_selected": false
+  },
+  "representative_seed_boundary": {
+    "bare_vacuum_extension_value": "-2",
+    "bare_d1_seed_extension_value": "1",
+    "bare_d2_seed_extension_value": "1",
+    "dressed_K139_trial_extension_value_equals_bare_seed_value_in_general": false,
+    "finite_control_commutator_nonzero": true,
+    "dressed_extension_rayleigh_interval": ["-2", "1"]
+  },
+  "finite_K155_control": {
+    "exact_reference_pullback_checked": true,
+    "both_form_order_slacks_positive_semidefinite": true,
+    "reference_shape_does_not_commute_with_boundary_map": true,
+    "finite_regulator_control_only": true
+  },
+  "native_K152_replay": {
+    "reference_declaration_complete": true,
+    "fixed_chart_complete": true,
+    "required_native_references": [
+      "complete reference extension",
+      "fixed K139 chart",
+      "same limiting base form evaluation",
+      "physical Gram evaluation",
+      "complete form-dual residual",
+      "relative generalized gap",
+      "complete M-orthogonal complement floor",
+      "native left floor"
+    ],
+    "missing_native_references": [
+      "same limiting base form evaluation",
+      "physical Gram evaluation",
+      "complete form-dual residual",
+      "relative generalized gap",
+      "complete M-orthogonal complement floor",
+      "native left floor"
+    ],
+    "native_same_form_packet_complete": false,
+    "native_ground_count_emitted": false,
+    "native_K152_interval_emitted": false
+  },
+  "source_and_physics": {
+    "SC_META_53_polarity": "UNCERTAIN",
+    "LT_SM8_verdict": "NEEDS",
+    "RA_F1_verdict": "NEEDS",
+    "AC_F1_verdict": "NEEDS",
+    "ledger_changed": false,
+    "source_register_changed": false,
+    "physical_or_source_selection": false,
+    "Born_prediction_or_confirmation_credit": false,
+    "canon_paper_release_or_public_posture_move": false
+  },
+  "route_verdict": "REFERENCE_SHAPE_DECLARED__EXACT_FORM_ORDER_CLOSED__NATIVE_BASE_FORM_AND_COMPLETE_CERTIFICATE_STILL_REQUIRED",
+  "next_condition": "Evaluate the same limiting K139 regular base form R0 and physical Gram M on a small K162 dyadic trial space, then combine the K168 reference-shape contribution with a complete form-dual residual, a relative generalized gap exceeding its three-unit shape oscillation where needed, an M-orthogonal complement floor, and a native left floor. Keep the result conditional until complete response or action-owned evidence selects the extension and scalar center.",
+  "claim_ceiling": "Exact repository-owned declaration W_ref=diag(-2,1,1) on the native C3 hard-core impurity, with fixed K139 chart, charge/domain/flavor compatibility and the complete order R0-2M <= R_ref <= R0+M. This bounds every generalized eigenvalue shift to [-2,1], relative-gap and matched-residual change by the three-unit shape oscillation, but does not evaluate the missing native R0, Gram, residual, gap, complement or left floor. Finite matrices are controls only; no physical extension selection, native K152 interval, Born derivation, prediction or confirmation follows."
+}

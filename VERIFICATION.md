@@ -7,6 +7,22 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K168 flavor-symmetric reference extension (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One complete non-scalar native-C3 reference extension is now declared | `W_ref=diag(-2,1,1)` in the hard-core basis `(|0>,|1>,|2>)` is Hermitian, trace zero, non-scalar and primitive at unit shape | exact repository reference declaration; its normalization is conditional, not physical selection |
+| The reference is compatible with the native carrier | it is diagonal in impurity occupation, gives equal values to `|1>,|2>`, preserves `q_i=n_i+N_i+-N_i-`, the hard-core domain, every K162 trial range and signed flavor transport | exact structural theorem |
+| The fixed K139 pullback is quantitatively controlled | for `S=(1-G_256)^-1`, `M=S* S`, `Delta R=S*W_ref S` obeys `-2M<=Delta R<=M`, hence `R_0-2M<=R_ref<=R_0+M` | exact complete-form order; every ordered generalized value shifts within `[-2,1]` |
+| A base relative gap or complement margin automatically survives | the shape oscillation is `3`; matched residual increments have `M`-dual norm at most `3||u||_M`, and gaps/complement margins can lose three | only margins strictly greater than three transfer directly; smaller margins require recomputation |
+| Bare seed extension values evaluate dressed K139 trials | `W_ref` does not commute with the boundary map, so bare values `-2,1,1` do not generally equal values on `S phi` | false; exact finite commutator control and complete Rayleigh interval `[-2,1]` |
+| K168 closes native K152 or changes source/ledger truth | the native `R_0`, Gram entries, complete residual, relative gap, complement floor and left floor remain absent; `SC-META-53` is `UNCERTAIN`, and `LT-SM8`, `RA-F1`, `AC-F1` remain `NEEDS` | false; no native interval, physical/source, Born, prediction or confirmation claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k168_flavor_symmetric_reference_extension.py --demo`,
+`python3 tests/channel-swings/k168_flavor_symmetric_reference_extension_probe.py`
+and its baseline-first hostile check with `--selftest` (`26/26`, `20/20`).
+
 ## K167 extension-shape relative-spectrum classification (2026-09-09)
 
 | Claim | Evidence | Honest grade |

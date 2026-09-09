@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8a9b098bf43ad1f5ec8cb64e542e6b9d71823888
+revision_basis: 6c1836f6bc74a23c35f4077519da0849ea0bd2a5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K168 flavor-symmetric reference-extension Big Wave declares the
+    complete native-C3 shape W_ref=diag(-2,1,1) at zero scalar center. It is
+    Hermitian, trace zero, non-scalar, bounded, charge preserving and exactly
+    flavor symmetric, so it preserves the K139 domain, every K162 dyadic trial
+    space and signed flavor transport. For the fixed chart S=(1-G_256)^-1 and
+    M=S* S, its regular contribution is Delta R=S*W_ref S and obeys the exact
+    complete-form order -2M<=Delta R<=M. Hence every generalized eigenvalue
+    moves within [-2,1], while a relative gap, matched residual or
+    trial-following complement margin carries the sharp three-unit shape-
+    oscillation budget. The bare seed values -2 and 1 are not generally the
+    dressed K139 trial values because W_ref does not commute with the boundary
+    map. The reference declaration and fixed chart are now complete, but the
+    same limiting base form R_0, physical Gram entries, complete form-dual
+    residual, relative gap, M-orthogonal complement floor and native left
+    floor remain unevaluated. K140 supplies no response datum and no source/GU
+    action selects the extension or scalar center. No native K152 interval,
+    physical/source, Born, prediction or confirmation claim follows.
+
     The K167 extension-shape relative-spectrum Big Wave localizes K166's
     covariance theorem to the scalar center of the finite Hermitian extension.
     Every extension decomposes uniquely as W=E I+W_0 with tr(W_0)=0. Under the
@@ -7313,13 +7331,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can one complete repository-owned non-scalar Hermitian reference extension
-  and fixed K139 chart now be declared, and can the same limiting K162 form be
-  evaluated on a small dyadic trial space with its physical Gram, complete
-  form-dual residual, relative generalized gap and M-orthogonal complement
-  positivity; can actual complete response data or a source-owned GU action
-  then select that full extension and its scalar center for absolute K164/K152
-  placement?
+  Can the same limiting K139 base form R_0 and physical Gram M now be evaluated
+  on a small K162 dyadic trial space for the declared K168 reference
+  W_ref=diag(-2,1,1), with a complete form-dual residual, relative generalized
+  gap and M-orthogonal complement floor strong enough to beat the exact three-
+  unit shape-oscillation budget; can complete response data or a source-owned
+  GU action then select that extension and scalar center for absolute
+  K164/K152 placement?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7328,16 +7346,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K167 proves that K166's residual, gap and translated-complement invariance is
-  special to the scalar center E I. A traceless Hermitian extension shape can
-  change every one of those relative quantities. Declare one complete
-  repository-owned non-scalar reference extension and fixed K139 chart, then
-  evaluate the same limiting K162 form and physical Gram and certify its
-  complete form-dual residual, relative generalized gap and M-orthogonal
-  complement positivity. Keep those outputs conditional until a supplied
-  full-rank response datum or action owner selects the extension; place them on
-  an absolute energy axis only after the K166 scalar center is selected. Do not
-  relabel the exact K167 finite controls as native K162 anchors.
+  K168 declares the complete primitive flavor-symmetric trace-zero reference
+  W_ref=diag(-2,1,1) on the native C3 impurity and fixes the K139 chart. Its
+  pulled-back contribution obeys -2M<=S*W_ref S<=M, so generalized values move
+  within [-2,1] and residual, relative-gap and trial-following complement
+  transfers carry the exact three-unit shape-oscillation budget. Evaluate the
+  same limiting K139 base form R_0 and physical Gram M on a small K162 dyadic
+  trial space, add the declared reference contribution, and certify the
+  complete form-dual residual, relative generalized gap, M-orthogonal
+  complement floor and native left floor. A base gap or complement margin must
+  exceed three for the direct K168 transfer to preserve positivity; otherwise
+  recompute on R_ref. Keep the result conditional until supplied full-rank
+  response data or an action owner selects the extension, and use K166's scalar
+  center only after it too is selected. Do not reuse the bare seed values or
+  finite K155/K157 controls as dressed native K162 data.
 
   K166 proves exact scalar-extension covariance: R_E=R_0+E M, so generalized
   eigenvalues, Rayleigh values and absolute floors translate by E, while the
