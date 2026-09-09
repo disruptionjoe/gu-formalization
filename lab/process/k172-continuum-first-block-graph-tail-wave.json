@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139--K171 signed point control at auxiliary shift 256 on the K162 zero-bath vacuum and one-impurity seeds.",
+  "native_continuum_blocks": {
+    "n0_exact": true,
+    "n1_exact": true,
+    "n1_norm_enclosed": true,
+    "vacuum_components": 2,
+    "one_impurity_components": 1
+  },
+  "graph_tail": {
+    "symbolic_complete_theorem": true,
+    "requires_graph_contraction_q_D": true,
+    "requires_graph_to_H_bound_B": true,
+    "native_numeric_q_D_serialized": false,
+    "native_numeric_B_serialized": false,
+    "native_numeric_tail": false
+  },
+  "Hilbert_only_tail_route_killed": true,
+  "release_test": {
+    "native_n0_vector_serialized": true,
+    "native_n1_vector_serialized": true,
+    "native_n1_vector_norm_enclosed": true,
+    "complete_native_all_order_vector_tail_serialized": false,
+    "coefficient_complete_base_R0_action_column_serialized": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "native_left_floor_at_selected_scalar_center_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "next_condition": "Evaluate numerical graph constants q_D<1 and B for the exact K156 normal-ordered continuum core on the K162 cofinal family; insert them into the all-order tail, assemble the K171 action column and only then replay the complete R_ref residual and complement/flux gates.",
+  "claim_ceiling": "Exact repository-owned continuum n=0 and n=1 action blocks, an outward n=1 Hilbert norm enclosure, a conditional graph-tail theorem and a Hilbert-only obstruction. Native graph constants, the numerical all-order tail, complete residual, complement floor and K152 interval remain absent."
+}

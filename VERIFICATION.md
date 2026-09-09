@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K172 continuum first block and graph-tail topology (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The first native K156 action blocks remain wholly unevaluated | normal ordering gives `W_0 phi=-256 phi`; on every allowed first transition `W_1Gphi=(256-mD_256(omega))h`, with `m=1` per vacuum component and `m=2` on a one-impurity seed | false; exact limiting continuum vector formula at `n=0,1` |
+| The first continuum block has no rigorous norm control | `D_256(e)<=(1/pi)log(1+e/256)` and `||D_256(omega)h||^2<8/2295<1/256`; K170's profile interval then gives positive outward rational bounds for each complete first block | false; conservative analytic Hilbert-norm enclosure |
+| K153's Hilbert contraction `3/8` automatically sums `W G^n phi` | on `ell2`, `G e_n=q e_(n+1)` and `W e_n=q^(-n)/(n+1)e_n` give geometric word norms but harmonic action-block norms | false; exact abstract topology countercontrol, not a native continuum failure |
+| A sufficient native all-order tail interface exists | graph bounds `||G||_(D->D)<=q_D<1`, `||W||_(D->H)<=B` give complete post-adjoint tail `B c q_D^(N+1)/((1-q_D)(1-q_H))` | exact symbolic theorem; native numerical `B,q_D` are not serialized |
+| K172 closes the complete `R_ref` residual, complement floor or K152 | the numerical all-order tail, complete action column, residual, positive complete `M`-orthogonal complement/flux floor and scalar-center left floor remain absent | false; no native interval or physical/source claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k172_continuum_first_block_graph_tail.py --demo`,
+`python3 tests/channel-swings/k172_continuum_first_block_graph_tail_probe.py`
+and its baseline-first hostile check with `--selftest` (`33/33`, `19/19`).
+
 ## K171 bath-block/action-column identifiability (2026-09-09)
 
 | Claim | Evidence | Honest grade |

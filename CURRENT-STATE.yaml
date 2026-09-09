@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d79edfba3f8b34b1d0db3dd370c8f4406bfd7122
+revision_basis: bc505cf1883009573201bb14347c9bcdd9e08d3a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K172 continuum-first-block/graph-tail Big Wave evaluates the first two
+    native K156 action blocks requested by K171 on the K162 zero-bath seeds.
+    Normal ordering gives W_0 phi=-256 phi. For each first-transition
+    component, W_1 G phi=(256-m D_256(omega))h, with m=1 on each of the
+    vacuum's two orthogonal components and m=2 on the one-impurity component.
+    A pointwise logarithmic majorant proves ||D_256(omega)h||^2<8/2295 and
+    gives outward rational Hilbert-norm enclosures for the complete first
+    block. Hilbert contraction of G alone cannot close the remaining action
+    tail: an exact ell2 control has geometric word norms but harmonic
+    ||W G^n phi||. The sufficient graph-domain theorem gives tail
+    B c q_D^(N+1)/((1-q_D)(1-q_H)), but K156 does not yet serialize numerical
+    graph constants B and q_D. The numerical all-order action tail, complete
+    R_ref residual, positive complete M-orthogonal complement or flux floor
+    and scalar-center left floor therefore remain absent. No native K152
+    interval, physical/source, Born, prediction or confirmation claim follows.
+
     The K171 bath-block/action-column identifiability Big Wave proves the exact
     finite graded formula P_k R_0 phi=P_k A phi+sum_(n>=k)
     P_k (G*)^(n-k) W_n G^n phi. K170's orthogonal word norms therefore
@@ -6771,6 +6787,10 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - explorations/conditional-build/k172-continuum-first-block-graph-tail-wave-2026-09-09.md
+    - lab/process/k172-continuum-first-block-graph-tail-wave.json
+    - tests/channel-swings/k172_continuum_first_block_graph_tail.py
+    - tests/channel-swings/k172_continuum_first_block_graph_tail_probe.py
     - explorations/conditional-build/k171-bath-block-action-column-identifiability-wave-2026-09-09.md
     - lab/process/k171-bath-block-action-column-identifiability-wave.json
     - tests/channel-swings/k171_bath_block_action_column_identifiability.py
@@ -7384,12 +7404,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the coefficient-specific continuum vectors W_n G^n phi, beginning with
-  n=0 and n=1 on the K170 K162 seed lines, be evaluated with a summable all-n
-  vector tail and combined through the K171 block formula to complete the
-  R_ref form-dual residual; can a positive complete M-orthogonal complement or
-  flux floor then be proved below E_ref(q)+5/2 before a separately selected
-  scalar center supplies the native K152 left floor?
+  Can numerical graph constants q_D<1 and B be proved for K156's exact
+  normal-ordered continuum core on the K162 cofinal family, turning K172's
+  symbolic post-adjoint tail into a numerical all-order enclosure; can all
+  K171 bath-output components then be assembled into the complete R_ref
+  form-dual residual and a positive complete M-orthogonal complement or flux
+  floor below E_ref(q)+5/2 before a separately selected scalar center supplies
+  the native K152 left floor?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7398,6 +7419,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K172 evaluates the native n=0 and n=1 continuum vectors on the vacuum and
+  one-impurity K162 seed lines and encloses the complete first-block Hilbert
+  norms. It also proves that K153's Hilbert contraction alone cannot sum the
+  unbounded-core action blocks, while a graph-domain contraction q_D and
+  graph-to-Hilbert bound B give the sufficient complete tail
+  B c q_D^(N+1)/((1-q_D)(1-q_H)). Evaluate numerical q_D<1 and B for K156's
+  exact normal-ordered continuum core on the K162 cofinal family. Insert them
+  at N=1, assemble every bath-output component through K171, compute the
+  complete R_ref residual and only then replay the complement/flux floor.
+  Keep scalar-center selection separate and do not substitute the Hilbert
+  contraction, first-block enclosure or finite regulator matrices for the
+  missing all-order graph certificate.
+
   K171 proves that K170's scalar word norms and physical Gram cannot identify
   the coefficient-complete R_0 action column. In the bath-number grading,
   W_n preserves number while (G*)^(n-k) lowers n-k times, so contributions from
