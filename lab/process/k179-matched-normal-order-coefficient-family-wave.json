@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "carrier": "hard-core C3 tensor Gamma_-(L2(R;C4))",
+    "auxiliary_chart_shift": 256,
+    "seed_scope": "K162_zero_bath_seed_orbits",
+    "equal_particle_hole_couplings": 1,
+    "maximum_resolved_order": 12
+  },
+  "coefficient_family": {
+    "encoding": "deterministic per-contraction generator; --terms emits the canonical expansion",
+    "term_count": 2958,
+    "family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "unresolved_required_field_instances": 0,
+    "K178_numerical_admission_passes": true,
+    "order_2_terms": 6,
+    "order_12_terms": 1152
+  },
+  "sign_theorem": {
+    "path_Neumann_sign": "(-1)^n from G^n",
+    "raw_older_contraction_sign": "(-1)^n times exact global-CAR contraction sign",
+    "W_exchange_sign": "(-1)^(n+1) times exact global-CAR contraction sign",
+    "K177_structural_car_sign_preserved": true,
+    "K177_structural_record_alone_included_G_sign": false
+  },
+  "order_two_direct_CAR_control": {
+    "terms": 6,
+    "W_coefficient_counts": {"-1": 4, "1": 2},
+    "all_compiled_coefficients_match_direct_action": true
+  },
+  "normalization": {
+    "point_factors": "n path creations plus inner creation plus outer annihilation give (2*pi)^(-(n+2)/2)",
+    "contracted_measure": "dp_old after all point factors are placed in the prefactor",
+    "exterior": "normalized specieswise wedge; coordinate projection has 1/sqrt(m_s!) and wedge Gram is a determinant"
+  },
+  "release_test": {
+    "K178_required_fields_populated_for_every_contraction": true,
+    "coefficient_complete_exchange_family_through_order_12_serialized": true,
+    "order_2_direct_finite_CAR_control_passed": true,
+    "outward_numerical_prefix_integrals_evaluated": false,
+    "coefficient_complete_base_action_column_evaluated": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "scalar_center_left_floor_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "next_exact_input": {
+    "owner": "determinant-aware outward evaluator",
+    "first_gate": "evaluate and independently cross-check the six order-two terms",
+    "must_preserve": "signed sum before determinant-level interval enclosure"
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "physical_or_source_selection": false,
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false
+}

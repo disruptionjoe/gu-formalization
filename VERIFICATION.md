@@ -7,6 +7,22 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K179 matched normal-order coefficient family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K156's fixed operator leaves K178's five fields underdetermined | the deterministic compiler specializes `C=sum_i[B_i a_(i,+)+B_i* a_(i,-)]` and `W=(E_R-256)I-X` to every older-letter contraction | false; all `2,958` records have monomial, coefficient, contracted incidence, output kernel and exterior normalization |
+| K177's structural `car_sign` is already the complete coefficient of `W G^n phi` | `G^n` contributes `(-1)^n` and `W=-X` contributes one more minus | false; the exact W coefficient is `(-1)^(n+1)` times K177's preserved global-CAR sign |
+| The completed family agrees with direct operator action at its first nonzero order | an independent finite-CAR calculation applies the two path creations, inner creation, older-letter annihilation and `W=-X` to all six order-two terms | exact; all six agree, with two positive and four negative W coefficients |
+| K178 numerical admission remains closed | the canonical generator emits `2,958` complete terms with SHA-256 `ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686` and zero unresolved required fields | false; structural numerical admission now passes |
+| K179 evaluates the determinant prefix, action column, residual, complement floor or K152 | it serializes the signed family but performs no determinant-level outward integration | false; order two is the first numerical gate and all downstream values remain open |
+
+Reproduce with
+`python3 tests/channel-swings/k179_matched_normal_order_coefficient_family.py --demo`,
+`python3 tests/channel-swings/k179_matched_normal_order_coefficient_family.py --terms`,
+`python3 tests/channel-swings/k179_matched_normal_order_coefficient_family_probe.py`
+and its baseline-first hostile check with `--selftest` (`46/46`, `23/23`).
+
 ## K178 exchange-prefix numerical sufficiency (2026-09-09)
 
 | Claim | Evidence | Honest grade |
