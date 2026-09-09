@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K175 matched-range exchange-tail audit (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K172's matched `D_256` difference gives an all-order diagonal seed-orbit tail | `D_256(e)<e^(1/4)/3`, K174 gives `q_D<131/300`, the K172 multiplicity is at most two and K171 supplies the left factor `1/(1-3/8)` | exact; after order one the diagonal tail is at most `68644/190125` |
+| The scalar `-256 I` requires separate coefficient expansion at every word order | `S* (-256I) S=-256M`, and `||M-S_J* S_J||<=2(3/8)^(J+1)/(1-3/8)^2` | false; exact metric resummation with scalar error `1594323/419430400` at `J=12` |
+| Four exchange polarities each inherit K172's `1/pi` bound | K172's multiplier is the diagonal Pauli/spectator contraction; K174 proves every isolated exchange point trace is unbounded on the quarter graph | false; the componentwise `4/pi` shortcut changes the operator and is invalid |
+| K175 proves the complete exchange tail diverges | coefficient-level cancellation remains possible, but its all-order normal form, cross-term identity and sector-uniform CAR bound are not serialized | false; the route remains open at a sharper exact interface |
+| K175 closes the complete action column, residual, complement floor or K152 | only the scalar and diagonal pieces have certified tails; the exchange column and downstream complete bounds remain absent | false; no native interval or physical/source claim follows |
+
+Reproduce with
+`python3 tests/channel-swings/k175_matched_range_exchange_tail.py --demo`,
+`python3 tests/channel-swings/k175_matched_range_exchange_tail_probe.py`
+and its baseline-first hostile check with `--selftest` (`35/35`, `20/20`).
+
 ## K174 weight-trace reciprocity obstruction (2026-09-09)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "scope": "Repository-supplied K139--K174 equal-coupling positive particle/hole signed point control at auxiliary chart 256 on the exact K162 zero-bath seed orbits.",
+  "matched_range": {
+    "identity": "1/(omega(k)+256+e)-1/(omega(k)+256)=-e/((omega(k)+256)(omega(k)+256+e))",
+    "D_pointwise_upper": "D_256(e)<=(1/pi)e^(1/4)<=(1/3)e^(1/4)",
+    "matched_before_limit": true,
+    "isolated_exchange_trace_bounded": false
+  },
+  "diagonal_orbit_tail": {
+    "quarter_graph_ratio": "131/300",
+    "Hilbert_ratio": "3/8",
+    "multiplicity_upper": 2,
+    "coefficient_beta_upper": "2/3",
+    "tail_after_order_1": "68644/190125",
+    "all_order_diagonal_tail_serialized": true
+  },
+  "scalar_metric_resummation": {
+    "identity": "-256*S* S",
+    "finite_approximant": "-256*S_J* S_J with S_J=sum_(j=0)^J G^j",
+    "operator_error": "512*(3/8)^(J+1)/(1-3/8)^2",
+    "error_at_J_12": "1594323/419430400",
+    "convergent": true
+  },
+  "exchange_tail_audit": {
+    "componentwise_four_over_pi_shortcut_valid": false,
+    "reason": "K172's D_256 multiplier is the matched diagonal Pauli/spectator block. The four isolated exchange point traces remain unbounded by K174, so summing four separate 1/pi bounds is invalid.",
+    "required_cross_term_identity_serialized": false,
+    "required_sector_uniform_CAR_bound_serialized": false,
+    "native_complete_exchange_tail_serialized": false
+  },
+  "release_test": {
+    "scalar_core_action_column_convergent": true,
+    "matched_diagonal_action_column_convergent": true,
+    "coefficient_complete_exchange_action_column_serialized": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "native_left_floor_at_selected_scalar_center_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "next_condition": "Write the complete all-order four-exchange coefficient on each exact K162 seed orbit after matched subtraction, prove its cross-term cancellation identity and a sector-uniform CAR sum-norm estimate, then add it to the now-closed scalar and diagonal action-column pieces before evaluating the complete R_ref residual.",
+  "claim_ceiling": "Exact repository-owned partial action-tail closure. The K172 matched resolvent difference plus K174 quarter-graph contraction gives a geometric all-order tail for the diagonal Pauli/spectator remainder, and the scalar -256 core resums through M=S* S with an explicit finite Neumann error. The tempting four-times-D_256 exchange estimate is invalid because K172's multiplier is diagonal while every isolated exchange point trace remains unbounded by K174. A complete exchange-coefficient cancellation identity and sector-uniform CAR estimate are still absent, so the complete action column, residual, complement floor, K152 interval, and all physical/source conclusions remain open."
+}
