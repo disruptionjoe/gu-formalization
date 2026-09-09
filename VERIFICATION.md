@@ -7,6 +7,23 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K182 order-four coherent Gram family (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The 24 order-four paths remain orthogonal after contraction | K179 groups them into 13 seed/output signatures; seven groups contain two to four paths | false; 34 self/cross Gram entries are required inside the multi-path groups |
+| Raw path or determinant-entry bounds preserve the exterior cancellation | K182 maps every path into a canonical species-slot basis and applies the complete normalized specieswise antisymmetrizer before any interval operation | false; only the complete exterior coordinate is bounded or paired |
+| Every self/cross Gram entry has a finite outward enclosure | weighted AM--GM gives integrable global path majorants for contracted positions one and three; Cauchy--Schwarz after projection encloses 40 unique entries across all groups | proved finite global outward intervals on the fixed K139--K179 control |
+| The zero-inclusive global intervals prove the coherent groups nonzero | complete coherent-coordinate intervals on explicit positive-momentum boxes, using 128 contracted cells per dyadic octave through `2^40` plus analytic tails, give positive local norm-square floors for all 13 groups | the global intervals alone do not; the separate localized witnesses certify all 13 nonzero |
+| Independent numerical values replace the outward certificate | full-half-line Gauss--Laguerre orders `(14,28)` and `(16,32)` agree within `5.18e-2` groupwise, respect every global upper bound and give seedwise squared norms `4.485950126835545e-14`, `1.806747693898397e-14`, `1.806747693898400e-14` | false; independent normalization/interference control, not the outward proof |
+| Closing order four evaluates orders five through twelve or the K171/K168 action columns | order five changes to contracted positions two and four, 12 all-coherent groups and 64 Gram entries; order twelve has 19,609,920 literal exterior summands per point | false; new majorants and a representation/compression gate remain before action/residual/floor claims |
+
+Reproduce with
+`python3 tests/channel-swings/k182_order_four_coherent_gram.py --demo`,
+its quick structural mode `--quick`,
+`python3 tests/channel-swings/k182_order_four_coherent_gram_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K181 order-three determinant exchange family (2026-09-09)
 
 | Claim | Evidence | Honest grade |

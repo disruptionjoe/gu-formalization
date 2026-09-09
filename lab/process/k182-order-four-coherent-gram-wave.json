@@ -1,0 +1,2705 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false,
+  "canonical_order_four_family": {
+    "canonical_groups": [
+      {
+        "factorial_normalization": 1,
+        "group_id": "seed=0|d=0|1+^1,1-^1,2+^1,2-^1",
+        "output_signature": "d=0|1+^1,1-^1,2+^1,2-^1",
+        "path_count": 4,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-0-order-4-path-2-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "1+",
+              "2-",
+              "2+",
+              "1-"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-0-order-4-path-2-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "1-",
+              "1+",
+              "2+",
+              "2-"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-0-order-4-path-3-contraction-1",
+            "old_position": 3,
+            "output_letters": [
+              "2-",
+              "2+",
+              "1+",
+              "1-"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-0-order-4-path-3-contraction-2",
+            "old_position": 1,
+            "output_letters": [
+              "2+",
+              "1-",
+              "1+",
+              "2-"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 1,
+          "2-": 1
+        }
+      },
+      {
+        "factorial_normalization": 4,
+        "group_id": "seed=0|d=0|1+^2,1-^2",
+        "output_signature": "d=0|1+^2,1-^2",
+        "path_count": 2,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-0-order-4-path-1-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "1+",
+              "1-",
+              "1+",
+              "1-"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-0-order-4-path-1-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "1-",
+              "1+",
+              "1+",
+              "1-"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2
+        }
+      },
+      {
+        "factorial_normalization": 4,
+        "group_id": "seed=0|d=0|2+^2,2-^2",
+        "output_signature": "d=0|2+^2,2-^2",
+        "path_count": 2,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-0-order-4-path-4-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "2+",
+              "2-",
+              "2+",
+              "2-"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-0-order-4-path-4-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "2-",
+              "2+",
+              "2+",
+              "2-"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "2+": 2,
+          "2-": 2
+        }
+      },
+      {
+        "factorial_normalization": 1,
+        "group_id": "seed=1|d=1|1+^1,1-^1,2+^1,2-^1",
+        "output_signature": "d=1|1+^1,1-^1,2+^1,2-^1",
+        "path_count": 3,
+        "paths": [
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-1-order-4-path-2-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "1-",
+              "1+",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-1-order-4-path-2-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "1+",
+              "1-",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-1-order-4-path-3-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "2-",
+              "2+",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 1,
+          "2-": 1
+        }
+      },
+      {
+        "factorial_normalization": 4,
+        "group_id": "seed=1|d=1|1+^2,1-^2",
+        "output_signature": "d=1|1+^2,1-^2",
+        "path_count": 2,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-1-order-4-path-1-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "1-",
+              "1+",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-1-order-4-path-1-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "1+",
+              "1-",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2
+        }
+      },
+      {
+        "factorial_normalization": 4,
+        "group_id": "seed=1|d=1|2+^2,2-^2",
+        "output_signature": "d=1|2+^2,2-^2",
+        "path_count": 1,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-1-order-4-path-4-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "2-",
+              "2+",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "2+": 2,
+          "2-": 2
+        }
+      },
+      {
+        "factorial_normalization": 2,
+        "group_id": "seed=1|d=2|1+^1,2+^1,2-^2",
+        "output_signature": "d=2|1+^1,2+^1,2-^2",
+        "path_count": 1,
+        "paths": [
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-1-order-4-path-4-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "1+",
+              "2-",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "2+": 1,
+          "2-": 2
+        }
+      },
+      {
+        "factorial_normalization": 2,
+        "group_id": "seed=1|d=2|1+^2,1-^1,2-^1",
+        "output_signature": "d=2|1+^2,1-^1,2-^1",
+        "path_count": 1,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-1-order-4-path-3-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "1+",
+              "2-",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 1,
+          "2-": 1
+        }
+      },
+      {
+        "factorial_normalization": 2,
+        "group_id": "seed=2|d=1|1+^1,1-^2,2+^1",
+        "output_signature": "d=1|1+^1,1-^2,2+^1",
+        "path_count": 1,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-2-order-4-path-1-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "2+",
+              "1-",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 2,
+          "2+": 1
+        }
+      },
+      {
+        "factorial_normalization": 2,
+        "group_id": "seed=2|d=1|1-^1,2+^2,2-^1",
+        "output_signature": "d=1|1-^1,2+^2,2-^1",
+        "path_count": 1,
+        "paths": [
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-2-order-4-path-2-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "2+",
+              "1-",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1-": 1,
+          "2+": 2,
+          "2-": 1
+        }
+      },
+      {
+        "factorial_normalization": 1,
+        "group_id": "seed=2|d=2|1+^1,1-^1,2+^1,2-^1",
+        "output_signature": "d=2|1+^1,1-^1,2+^1,2-^1",
+        "path_count": 3,
+        "paths": [
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-2-order-4-path-2-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "1-",
+              "1+",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-2-order-4-path-3-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "2-",
+              "2+",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-2-order-4-path-3-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "2+",
+              "2-",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 1,
+          "2-": 1
+        }
+      },
+      {
+        "factorial_normalization": 4,
+        "group_id": "seed=2|d=2|1+^2,1-^2",
+        "output_signature": "d=2|1+^2,1-^2",
+        "path_count": 1,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-2-order-4-path-1-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "1-",
+              "1+",
+              "1-",
+              "1+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2
+        }
+      },
+      {
+        "factorial_normalization": 4,
+        "group_id": "seed=2|d=2|2+^2,2-^2",
+        "output_signature": "d=2|2+^2,2-^2",
+        "path_count": 2,
+        "paths": [
+          {
+            "coefficient": 1,
+            "contraction_id": "seed-2-order-4-path-4-contraction-1",
+            "old_position": 1,
+            "output_letters": [
+              "2-",
+              "2+",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          {
+            "coefficient": -1,
+            "contraction_id": "seed-2-order-4-path-4-contraction-2",
+            "old_position": 3,
+            "output_letters": [
+              "2+",
+              "2-",
+              "2-",
+              "2+"
+            ],
+            "output_variable_provenance": [
+              1,
+              2,
+              4,
+              5
+            ]
+          }
+        ],
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "2+": 2,
+          "2-": 2
+        }
+      }
+    ],
+    "global_gram": {
+      "all_bounds_applied_after_complete_specieswise_antisymmetrization": true,
+      "all_thirteen_groups_enclosed": true,
+      "groups": {
+        "seed=0|d=0|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            1.2619531574501707e-06
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-2-contraction-1",
+              "upper": 2.326856256219842e-09
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-2-contraction-2",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "lower": -2.326856256219842e-09,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "upper": 2.326856256219842e-09
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-2-contraction-2",
+              "upper": 2.636267372691043e-07
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "lower": -2.636267372691043e-07,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "upper": 2.636267372691043e-07
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "upper": 2.636267372691043e-07
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-1",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "upper": 2.326856256219842e-09
+            }
+          ],
+          "path_bounds": {
+            "seed-0-order-4-path-2-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.326856256217515e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-0-order-4-path-2-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.6362673726884064e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            },
+            "seed-0-order-4-path-3-contraction-1": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.6362673726884064e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            },
+            "seed-0-order-4-path-3-contraction-2": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.326856256217515e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            }
+          },
+          "path_count": 4,
+          "unique_self_and_cross_entries": 10
+        },
+        "seed=0|d=0|1+^2,1-^2": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            1.2619531574501707e-06
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-0-order-4-path-1-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-1-contraction-1",
+              "upper": 9.307425024879368e-09
+            },
+            {
+              "left": "seed-0-order-4-path-1-contraction-1",
+              "lower": -9.906939167443716e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-1-contraction-2",
+              "upper": 9.906939167443716e-08
+            },
+            {
+              "left": "seed-0-order-4-path-1-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-1-contraction-2",
+              "upper": 1.0545069490764171e-06
+            }
+          ],
+          "path_bounds": {
+            "seed-0-order-4-path-1-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 9.30742502487006e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-0-order-4-path-1-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 1.0545069490753626e-06,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 2,
+          "unique_self_and_cross_entries": 3
+        },
+        "seed=0|d=0|2+^2,2-^2": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            1.2619531574501707e-06
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-0-order-4-path-4-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-4-contraction-1",
+              "upper": 9.307425024879368e-09
+            },
+            {
+              "left": "seed-0-order-4-path-4-contraction-1",
+              "lower": -9.906939167443716e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-0-order-4-path-4-contraction-2",
+              "upper": 9.906939167443716e-08
+            },
+            {
+              "left": "seed-0-order-4-path-4-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-0-order-4-path-4-contraction-2",
+              "upper": 1.0545069490764171e-06
+            }
+          ],
+          "path_bounds": {
+            "seed-0-order-4-path-4-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 9.30742502487006e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-0-order-4-path-4-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 1.0545069490753626e-06,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 2,
+          "unique_self_and_cross_entries": 3
+        },
+        "seed=1|d=1|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            3.7200355396842084e-07
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-2-contraction-1",
+              "upper": 2.326856256219842e-09
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-1-order-4-path-2-contraction-2",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "lower": -2.326856256219842e-09,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "upper": 2.326856256219842e-09
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-2-contraction-2",
+              "upper": 2.636267372691043e-07
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-2",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-1-order-4-path-3-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "upper": 2.326856256219842e-09
+            }
+          ],
+          "path_bounds": {
+            "seed-1-order-4-path-2-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.326856256217515e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-1-order-4-path-2-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.6362673726884064e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            },
+            "seed-1-order-4-path-3-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.326856256217515e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            }
+          },
+          "path_count": 3,
+          "unique_self_and_cross_entries": 6
+        },
+        "seed=1|d=1|1+^2,1-^2": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            1.2619531574501707e-06
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-1-order-4-path-1-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-1-contraction-1",
+              "upper": 9.307425024879368e-09
+            },
+            {
+              "left": "seed-1-order-4-path-1-contraction-1",
+              "lower": -9.906939167443716e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-1-order-4-path-1-contraction-2",
+              "upper": 9.906939167443716e-08
+            },
+            {
+              "left": "seed-1-order-4-path-1-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-1-contraction-2",
+              "upper": 1.0545069490764171e-06
+            }
+          ],
+          "path_bounds": {
+            "seed-1-order-4-path-1-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 9.30742502487006e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-1-order-4-path-1-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 1.0545069490753626e-06,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 2,
+          "unique_self_and_cross_entries": 3
+        },
+        "seed=1|d=1|2+^2,2-^2": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            9.307425024879368e-09
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-1-order-4-path-4-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-4-contraction-1",
+              "upper": 9.307425024879368e-09
+            }
+          ],
+          "path_bounds": {
+            "seed-1-order-4-path-4-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 9.30742502487006e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            }
+          },
+          "path_count": 1,
+          "unique_self_and_cross_entries": 1
+        },
+        "seed=1|d=2|1+^1,2+^1,2-^2": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            5.272534745382086e-07
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-1-order-4-path-4-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-4-contraction-2",
+              "upper": 5.272534745382086e-07
+            }
+          ],
+          "path_bounds": {
+            "seed-1-order-4-path-4-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 2,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 5.272534745376813e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 1,
+          "unique_self_and_cross_entries": 1
+        },
+        "seed=1|d=2|1+^2,1-^1,2-^1": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            5.272534745382086e-07
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-1-order-4-path-3-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-1-order-4-path-3-contraction-2",
+              "upper": 5.272534745382086e-07
+            }
+          ],
+          "path_bounds": {
+            "seed-1-order-4-path-3-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 2,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 5.272534745376813e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 1,
+          "unique_self_and_cross_entries": 1
+        },
+        "seed=2|d=1|1+^1,1-^2,2+^1": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            5.272534745382086e-07
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-2-order-4-path-1-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-1-contraction-2",
+              "upper": 5.272534745382086e-07
+            }
+          ],
+          "path_bounds": {
+            "seed-2-order-4-path-1-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 2,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 5.272534745376813e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 1,
+          "unique_self_and_cross_entries": 1
+        },
+        "seed=2|d=1|1-^1,2+^2,2-^1": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            5.272534745382086e-07
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-2-order-4-path-2-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-2-contraction-2",
+              "upper": 5.272534745382086e-07
+            }
+          ],
+          "path_bounds": {
+            "seed-2-order-4-path-2-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 2,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 5.272534745376813e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 1,
+          "unique_self_and_cross_entries": 1
+        },
+        "seed=2|d=2|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            3.7200355396842084e-07
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-2-contraction-1",
+              "upper": 2.326856256219842e-09
+            },
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "lower": -2.326856256219842e-09,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-2-order-4-path-3-contraction-1",
+              "upper": 2.326856256219842e-09
+            },
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-3-contraction-1",
+              "upper": 2.326856256219842e-09
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-1",
+              "lower": -2.476734791860929e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "upper": 2.476734791860929e-08
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "upper": 2.636267372691043e-07
+            }
+          ],
+          "path_bounds": {
+            "seed-2-order-4-path-2-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.326856256217515e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-2-order-4-path-3-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.326856256217515e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-2-order-4-path-3-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 1,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 2.6362673726884064e-07,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 3,
+          "unique_self_and_cross_entries": 6
+        },
+        "seed=2|d=2|1+^2,1-^2": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            9.307425024879368e-09
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-2-order-4-path-1-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-1-contraction-1",
+              "upper": 9.307425024879368e-09
+            }
+          ],
+          "path_bounds": {
+            "seed-2-order-4-path-1-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 9.30742502487006e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            }
+          },
+          "path_count": 1,
+          "unique_self_and_cross_entries": 1
+        },
+        "seed=2|d=2|2+^2,2-^2": {
+          "coherent_norm_squared_interval": [
+            0.0,
+            1.2619531574501707e-06
+          ],
+          "gram_intervals": [
+            {
+              "left": "seed-2-order-4-path-4-contraction-1",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-4-contraction-1",
+              "upper": 9.307425024879368e-09
+            },
+            {
+              "left": "seed-2-order-4-path-4-contraction-1",
+              "lower": -9.906939167443716e-08,
+              "method": "Cauchy--Schwarz after complete exterior projection",
+              "right": "seed-2-order-4-path-4-contraction-2",
+              "upper": 9.906939167443716e-08
+            },
+            {
+              "left": "seed-2-order-4-path-4-contraction-2",
+              "lower": 0.0,
+              "method": "self path norm bound",
+              "right": "seed-2-order-4-path-4-contraction-2",
+              "upper": 1.0545069490764171e-06
+            }
+          ],
+          "path_bounds": {
+            "seed-2-order-4-path-4-contraction-1": {
+              "energy_exponents": {
+                "1": 1.2,
+                "2": 0.75,
+                "3": 0.65,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 9.30742502487006e-09,
+              "old_position": 1,
+              "raw_integrated_majorant_coefficient": 0.0001635400040595378
+            },
+            "seed-2-order-4-path-4-contraction-2": {
+              "energy_exponents": {
+                "1": 0.8999999999999999,
+                "2": 0.8999999999999999,
+                "3": 1.2000000000000002,
+                "4": 0.6,
+                "5": 0.6
+              },
+              "factorial_product": 4,
+              "formed_after_complete_exterior_antisymmetrizer": true,
+              "norm_squared_upper": 1.0545069490753626e-06,
+              "old_position": 3,
+              "raw_integrated_majorant_coefficient": 0.0030572334833082492
+            }
+          },
+          "path_count": 2,
+          "unique_self_and_cross_entries": 3
+        }
+      },
+      "multi_path_groups": 7,
+      "unique_self_and_cross_entries_all_groups": 40,
+      "unique_self_and_cross_entries_multi_path_groups": 34
+    },
+    "groups": 13,
+    "maximum_group_size": 4,
+    "multi_path_groups": 7,
+    "singleton_groups": 6,
+    "terms": 24
+  },
+  "certified_coherent_norm_squared_intervals": {
+    "seed=0|d=0|1+^1,1-^1,2+^1,2-^1": [
+      "1.06067380538645999777742336699868015724754141140132990511041E-57",
+      "1.2619531574501707e-06"
+    ],
+    "seed=0|d=0|1+^2,1-^2": [
+      "5.17559572895286283379826449911190199046761593225716940927958E-56",
+      "1.2619531574501707e-06"
+    ],
+    "seed=0|d=0|2+^2,2-^2": [
+      "5.17559572895286283379826449911190199046761593225716940927958E-56",
+      "1.2619531574501707e-06"
+    ],
+    "seed=1|d=1|1+^1,1-^1,2+^1,2-^1": [
+      "4.34719411696363457184084448319155345907764122519819895466808E-56",
+      "3.7200355396842084e-07"
+    ],
+    "seed=1|d=1|1+^2,1-^2": [
+      "5.17559572895286343282554794273035486379492411864083420035876E-56",
+      "1.2619531574501707e-06"
+    ],
+    "seed=1|d=1|2+^2,2-^2": [
+      "5.18746383945390987487045163360889963983529237906758778286000E-57",
+      "9.307425024879368e-09"
+    ],
+    "seed=1|d=2|1+^1,2+^1,2-^2": [
+      "1.09655329649317468608359025698153002878146709949584716966687E-56",
+      "5.272534745382086e-07"
+    ],
+    "seed=1|d=2|1+^2,1-^1,2-^1": [
+      "4.42618095658375898161998191279388976902651633687480973349199E-56",
+      "5.272534745382086e-07"
+    ],
+    "seed=2|d=1|1+^1,1-^2,2+^1": [
+      "1.09674595272433444407474454874993194017460419697916886651218E-56",
+      "5.272534745382086e-07"
+    ],
+    "seed=2|d=1|1-^1,2+^2,2-^1": [
+      "4.42586195070434926567438214941763025119968298729592407917362E-56",
+      "5.272534745382086e-07"
+    ],
+    "seed=2|d=2|1+^1,1-^1,2+^1,2-^1": [
+      "4.34636733481274566721079313417337435722701953277120611755341E-55",
+      "3.7200355396842084e-07"
+    ],
+    "seed=2|d=2|1+^2,1-^2": [
+      "5.18746383945390987487045163360889963983529237906758778286000E-57",
+      "9.307425024879368e-09"
+    ],
+    "seed=2|d=2|2+^2,2-^2": [
+      "5.17559572895286343282554794273035486379492411864083420035876E-56",
+      "1.2619531574501707e-06"
+    ]
+  },
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "auxiliary_chart_shift": 256,
+    "carrier": "hard-core C3 tensor Gamma_-(L2(R;C4))",
+    "coefficient_family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "resolved_order": 4,
+    "seed_scope": "K162_zero_bath_seed_orbits"
+  },
+  "higher_order_replay": {
+    "canonical_grouping_and_exterior_coordinate_map_defined_through_order_twelve": true,
+    "first_unimplemented_numerical_class": "order five: contracted positions 2 and 4 require new integrable AM--GM allocations; all 12 groups are coherent and contain 64 unique Gram entries",
+    "numerical_outward_majorants_implemented_orders": [
+      4
+    ],
+    "order_twelve_resource_switch": "1152 paths, 33 groups, 35352 unique Gram entries and 19609920 exterior summands per point",
+    "orders": {
+      "10": {
+        "coherent_output_groups": 28,
+        "contracted_positions": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "maximum_exterior_summands_per_path": 14400,
+        "maximum_group_size": 50,
+        "multi_path_groups": 26,
+        "terms": 480,
+        "total_exterior_summands_per_point": 483264,
+        "unique_self_and_cross_gram_entries": 6890
+      },
+      "11": {
+        "coherent_output_groups": 24,
+        "contracted_positions": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "maximum_exterior_summands_per_path": 86400,
+        "maximum_group_size": 50,
+        "multi_path_groups": 24,
+        "terms": 640,
+        "total_exterior_summands_per_point": 2620800,
+        "unique_self_and_cross_gram_entries": 12920
+      },
+      "12": {
+        "coherent_output_groups": 33,
+        "contracted_positions": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "maximum_exterior_summands_per_path": 518400,
+        "maximum_group_size": 120,
+        "multi_path_groups": 31,
+        "terms": 1152,
+        "total_exterior_summands_per_point": 19609920,
+        "unique_self_and_cross_gram_entries": 35352
+      },
+      "4": {
+        "coherent_output_groups": 13,
+        "contracted_positions": [
+          1,
+          3
+        ],
+        "maximum_exterior_summands_per_path": 4,
+        "maximum_group_size": 4,
+        "multi_path_groups": 7,
+        "terms": 24,
+        "total_exterior_summands_per_point": 58,
+        "unique_self_and_cross_gram_entries": 40
+      },
+      "5": {
+        "coherent_output_groups": 12,
+        "contracted_positions": [
+          2,
+          4
+        ],
+        "maximum_exterior_summands_per_path": 12,
+        "maximum_group_size": 4,
+        "multi_path_groups": 12,
+        "terms": 32,
+        "total_exterior_summands_per_point": 160,
+        "unique_self_and_cross_gram_entries": 64
+      },
+      "6": {
+        "coherent_output_groups": 18,
+        "contracted_positions": [
+          1,
+          3,
+          5
+        ],
+        "maximum_exterior_summands_per_path": 36,
+        "maximum_group_size": 9,
+        "multi_path_groups": 16,
+        "terms": 72,
+        "total_exterior_summands_per_point": 800,
+        "unique_self_and_cross_gram_entries": 234
+      },
+      "7": {
+        "coherent_output_groups": 16,
+        "contracted_positions": [
+          2,
+          4,
+          6
+        ],
+        "maximum_exterior_summands_per_path": 144,
+        "maximum_group_size": 9,
+        "multi_path_groups": 16,
+        "terms": 96,
+        "total_exterior_summands_per_point": 2880,
+        "unique_self_and_cross_gram_entries": 408
+      },
+      "8": {
+        "coherent_output_groups": 23,
+        "contracted_positions": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "maximum_exterior_summands_per_path": 576,
+        "maximum_group_size": 24,
+        "multi_path_groups": 21,
+        "terms": 192,
+        "total_exterior_summands_per_point": 16416,
+        "unique_self_and_cross_gram_entries": 1296
+      },
+      "9": {
+        "coherent_output_groups": 20,
+        "contracted_positions": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "maximum_exterior_summands_per_path": 2880,
+        "maximum_group_size": 24,
+        "multi_path_groups": 20,
+        "terms": 256,
+        "total_exterior_summands_per_point": 73728,
+        "unique_self_and_cross_gram_entries": 2368
+      }
+    }
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "localized_interval_witnesses": {
+    "complete_coherent_coordinate_formed_before_interval_sum": true,
+    "contracted_mesh_octaves": 40,
+    "contracted_mesh_subdivisions": 128,
+    "groups": {
+      "seed=0|d=0|1+^1,1-^1,2+^1,2-^1": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "1.06067380538645999777742336699868015724754141140132990511041E-57",
+        "coherent_coordinate_interval": [
+          "2.71399895268656071934150574252781791365624964382492139923733E-12",
+          "2.72933770562770233161790463571138338509526579453349570844518E-12"
+        ],
+        "point_control": 2.721815298827647e-12,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=0|d=0|1+^2,1-^2": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.029999997",
+            "0.030000003"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "5.17559572895286283379826449911190199046761593225716940927958E-56",
+        "coherent_coordinate_interval": [
+          "-2.08937516676681131789514182562508966858222799204924237895786E-14",
+          "-1.09455679016085634337930508528817697190328859747727876439144E-14"
+        ],
+        "point_control": -1.5921359931001774e-14,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=0|d=0|2+^2,2-^2": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.029999997",
+            "0.030000003"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "5.17559572895286283379826449911190199046761593225716940927958E-56",
+        "coherent_coordinate_interval": [
+          "-2.08937516676681131789514182562508966858222799204924237895786E-14",
+          "-1.09455679016085634337930508528817697190328859747727876439144E-14"
+        ],
+        "point_control": -1.5921359931001774e-14,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=1|d=1|1+^1,1-^1,2+^1,2-^1": {
+        "canonical_positive_momentum_box": [
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.09999999",
+            "0.10000001"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "4.34719411696363457184084448319155345907764122519819895466808E-56",
+        "coherent_coordinate_interval": [
+          "-1.81421719573780854523101665193624418565435382674786239920686E-13",
+          "-1.73749382831910181512467137952665226040977583299811226514631E-13"
+        ],
+        "point_control": -1.7782545372684312e-13,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=1|d=1|1+^2,1-^2": {
+        "canonical_positive_momentum_box": [
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "5.17559572895286343282554794273035486379492411864083420035876E-56",
+        "coherent_coordinate_interval": [
+          "-2.08937516676681131789514182562508966858222799204924237895786E-14",
+          "-1.09455679016085634337930508528817697190328859747727876439144E-14"
+        ],
+        "point_control": -1.592135993100175e-14,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=1|d=1|2+^2,2-^2": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.029999997",
+            "0.030000003"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "5.18746383945390987487045163360889963983529237906758778286000E-57",
+        "coherent_coordinate_interval": [
+          "3.46525874169362020326695133766837283807126396097185481748897E-15",
+          "6.87939914179108633456356837719483878316544804204488515799259E-15"
+        ],
+        "point_control": 5.171478582393054e-15,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=1|d=2|1+^1,2+^1,2-^2": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "0.29999997",
+            "0.30000003"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "1.09655329649317468608359025698153002878146709949584716966687E-56",
+        "coherent_coordinate_interval": [
+          "-9.30213341455949443666490031694884032251725472964934070002180E-14",
+          "-8.72637006313006912084732996262288337559362937781455406518837E-14"
+        ],
+        "point_control": -9.014203447583934e-14,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=1|d=2|1+^2,1-^1,2-^1": {
+        "canonical_positive_momentum_box": [
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "0.09999999",
+            "0.10000001"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "4.42618095658375898161998191279388976902651633687480973349199E-56",
+        "coherent_coordinate_interval": [
+          "-1.81042329267221051417943149318819474273596082981775949297538E-13",
+          "-1.75320756768997212245219606254259583234407506352237986501235E-13"
+        ],
+        "point_control": -1.7818175515820975e-13,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=2|d=1|1+^1,1-^2,2+^1": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.09999999",
+            "0.10000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "1.09674595272433444407474454874993194017460419697916886651218E-56",
+        "coherent_coordinate_interval": [
+          "-9.30294871919552228599762326749693013052627397290192579149020E-14",
+          "-8.72713660851222933313668049679468009011235584763942925490362E-14"
+        ],
+        "point_control": -9.014994507088715e-14,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=2|d=1|1-^1,2+^2,2-^1": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.09999999",
+            "0.10000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "4.42586195070434926567438214941763025119968298729592407917362E-56",
+        "coherent_coordinate_interval": [
+          "1.75314438753477660900889284508368894677638791765019178604300E-13",
+          "1.81035850955847209144818091648654737782277886146794267730039E-13"
+        ],
+        "point_control": 1.781753565700131e-13,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=2|d=2|1+^1,1-^1,2+^1,2-^1": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.09999999",
+            "0.10000001"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.09999999",
+            "0.10000001"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "4.34636733481274566721079313417337435722701953277120611755341E-55",
+        "coherent_coordinate_interval": [
+          "-1.81405026670781419040872655909924713494665280621370080250465E-13",
+          "-1.73732859562476488480914242800991448053309181519972330807974E-13"
+        ],
+        "point_control": -1.7780884404167786e-13,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=2|d=2|1+^2,1-^2": {
+        "canonical_positive_momentum_box": [
+          [
+            "0.029999997",
+            "0.030000003"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "5.18746383945390987487045163360889963983529237906758778286000E-57",
+        "coherent_coordinate_interval": [
+          "3.46525874169362020326695133766837283807126396097185481748897E-15",
+          "6.87939914179108633456356837719483878316544804204488515799259E-15"
+        ],
+        "point_control": 5.171478582393054e-15,
+        "relative_box_radius": "1E-7"
+      },
+      "seed=2|d=2|2+^2,2-^2": {
+        "canonical_positive_momentum_box": [
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.009999999",
+            "0.010000001"
+          ],
+          [
+            "29.99999700",
+            "30.00000300"
+          ],
+          [
+            "0.029999997",
+            "0.030000003"
+          ]
+        ],
+        "certified_local_norm_squared_lower": "5.17559572895286343282554794273035486379492411864083420035876E-56",
+        "coherent_coordinate_interval": [
+          "-2.08937516676681131789514182562508966858222799204924237895786E-14",
+          "-1.09455679016085634337930508528817697190328859747727876439144E-14"
+        ],
+        "point_control": -1.592135993100175e-14,
+        "relative_box_radius": "1E-7"
+      }
+    },
+    "groups_with_nonzero_local_witness": 13
+  },
+  "next_exact_input": {
+    "first_gate": "supply cancellation-first integrable majorants for contracted positions 2 and 4 and evaluate all 12 order-five coherent groups",
+    "must_preserve": "canonical exterior signs, 64 self/cross Gram entries and K179 coefficients",
+    "owner": "order-five coherent Gram evaluator"
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "all_13_output_groups_assembled": true,
+    "all_24_order_four_paths_mapped_to_canonical_exterior_coordinates": true,
+    "all_34_multi_path_self_and_cross_gram_entries_outwardly_enclosed": true,
+    "all_bounds_applied_after_complete_specieswise_antisymmetrization": true,
+    "coefficient_complete_base_action_column_evaluated": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "complete_order_four_nonzero_norms_certified": true,
+    "localized_nonzero_interval_witnesses_emitted": true,
+    "native_K152_interval_emitted": false,
+    "order_five_through_twelve_coherent_cross_terms_evaluated": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "scalar_center_left_floor_serialized": false
+  },
+  "same_family_quadrature_control": {
+    "coarse": {
+      "contracted_quadrature_order": 28,
+      "coordinate_transform": "positive asinh momentum with reflection; full half-line Gauss--Laguerre",
+      "groups": {
+        "seed=0|d=0|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared": 4.3561592069866895e-14,
+          "gram_entries": [
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-2-contraction-1",
+              "value": 2.3780256977176322e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-2-contraction-2",
+              "value": 1.3394724981939858e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "value": 2.7709491097742047e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 8.070409012480468e-16
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "right": "seed-0-order-4-path-2-contraction-2",
+              "value": 9.141594806577069e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "value": 1.2332914134543652e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 2.7709491097742047e-15
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "value": 9.141594806577033e-15
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 1.3394724981939876e-15
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-2",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 2.378025697717633e-15
+            }
+          ],
+          "path_count": 4,
+          "path_norms_squared": {
+            "seed-0-order-4-path-2-contraction-1": 2.3780256977176322e-15,
+            "seed-0-order-4-path-2-contraction-2": 9.141594806577069e-15,
+            "seed-0-order-4-path-3-contraction-1": 9.141594806577033e-15,
+            "seed-0-order-4-path-3-contraction-2": 2.378025697717633e-15
+          }
+        },
+        "seed=0|d=0|1+^2,1-^2": {
+          "coherent_norm_squared": 1.538685507761151e-15,
+          "gram_entries": [
+            {
+              "left": "seed-0-order-4-path-1-contraction-1",
+              "right": "seed-0-order-4-path-1-contraction-1",
+              "value": 4.3593229214182677e-16
+            },
+            {
+              "left": "seed-0-order-4-path-1-contraction-1",
+              "right": "seed-0-order-4-path-1-contraction-2",
+              "value": -1.0579754222898417e-15
+            },
+            {
+              "left": "seed-0-order-4-path-1-contraction-2",
+              "right": "seed-0-order-4-path-1-contraction-2",
+              "value": 3.2187040601990218e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-0-order-4-path-1-contraction-1": 4.3593229214182677e-16,
+            "seed-0-order-4-path-1-contraction-2": 3.2187040601990218e-15
+          }
+        },
+        "seed=0|d=0|2+^2,2-^2": {
+          "coherent_norm_squared": 1.538685507761151e-15,
+          "gram_entries": [
+            {
+              "left": "seed-0-order-4-path-4-contraction-1",
+              "right": "seed-0-order-4-path-4-contraction-1",
+              "value": 4.3593229214182677e-16
+            },
+            {
+              "left": "seed-0-order-4-path-4-contraction-1",
+              "right": "seed-0-order-4-path-4-contraction-2",
+              "value": -1.0579754222898417e-15
+            },
+            {
+              "left": "seed-0-order-4-path-4-contraction-2",
+              "right": "seed-0-order-4-path-4-contraction-2",
+              "value": 3.2187040601990218e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-0-order-4-path-4-contraction-1": 4.3593229214182677e-16,
+            "seed-0-order-4-path-4-contraction-2": 3.2187040601990218e-15
+          }
+        },
+        "seed=1|d=1|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared": 5.174933943992329e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "right": "seed-1-order-4-path-2-contraction-1",
+              "value": 2.378025697717632e-15
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "right": "seed-1-order-4-path-2-contraction-2",
+              "value": -4.1637583138767464e-15
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "value": 8.070409012480447e-16
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-2",
+              "right": "seed-1-order-4-path-2-contraction-2",
+              "value": 9.14159480657704e-15
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-2",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "value": -1.0046387163812711e-15
+            },
+            {
+              "left": "seed-1-order-4-path-3-contraction-1",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "value": 2.3780256977176334e-15
+            }
+          ],
+          "path_count": 3,
+          "path_norms_squared": {
+            "seed-1-order-4-path-2-contraction-1": 2.378025697717632e-15,
+            "seed-1-order-4-path-2-contraction-2": 9.14159480657704e-15,
+            "seed-1-order-4-path-3-contraction-1": 2.3780256977176334e-15
+          }
+        },
+        "seed=1|d=1|1+^2,1-^2": {
+          "coherent_norm_squared": 1.5386855077611406e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-1-contraction-1",
+              "right": "seed-1-order-4-path-1-contraction-1",
+              "value": 4.359322921418251e-16
+            },
+            {
+              "left": "seed-1-order-4-path-1-contraction-1",
+              "right": "seed-1-order-4-path-1-contraction-2",
+              "value": -1.0579754222898395e-15
+            },
+            {
+              "left": "seed-1-order-4-path-1-contraction-2",
+              "right": "seed-1-order-4-path-1-contraction-2",
+              "value": 3.218704060199018e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-1-order-4-path-1-contraction-1": 4.359322921418251e-16,
+            "seed-1-order-4-path-1-contraction-2": 3.218704060199018e-15
+          }
+        },
+        "seed=1|d=1|2+^2,2-^2": {
+          "coherent_norm_squared": 4.359322921418251e-16,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-4-contraction-1",
+              "right": "seed-1-order-4-path-4-contraction-1",
+              "value": 4.359322921418251e-16
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-1-order-4-path-4-contraction-1": 4.359322921418251e-16
+          }
+        },
+        "seed=1|d=2|1+^1,2+^1,2-^2": {
+          "coherent_norm_squared": 3.618193914737473e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-4-contraction-2",
+              "right": "seed-1-order-4-path-4-contraction-2",
+              "value": 3.618193914737473e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-1-order-4-path-4-contraction-2": 3.618193914737473e-15
+          }
+        },
+        "seed=1|d=2|1+^2,1-^1,2-^1": {
+          "coherent_norm_squared": 7.50881353858414e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-3-contraction-2",
+              "right": "seed-1-order-4-path-3-contraction-2",
+              "value": 7.50881353858414e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-1-order-4-path-3-contraction-2": 7.50881353858414e-15
+          }
+        },
+        "seed=2|d=1|1+^1,1-^2,2+^1": {
+          "coherent_norm_squared": 3.6181939147374756e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-1-contraction-2",
+              "right": "seed-2-order-4-path-1-contraction-2",
+              "value": 3.6181939147374756e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-2-order-4-path-1-contraction-2": 3.6181939147374756e-15
+          }
+        },
+        "seed=2|d=1|1-^1,2+^2,2-^1": {
+          "coherent_norm_squared": 7.508813538584138e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-2-contraction-2",
+              "right": "seed-2-order-4-path-2-contraction-2",
+              "value": 7.508813538584138e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-2-order-4-path-2-contraction-2": 7.508813538584138e-15
+          }
+        },
+        "seed=2|d=2|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared": 5.174933943992318e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "right": "seed-2-order-4-path-2-contraction-1",
+              "value": 2.378025697717632e-15
+            },
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-1",
+              "value": 8.070409012480447e-16
+            },
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "value": -1.0046387163812705e-15
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-1",
+              "value": 2.3780256977176334e-15
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "value": -4.16375831387673e-15
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-2",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "value": 9.141594806577047e-15
+            }
+          ],
+          "path_count": 3,
+          "path_norms_squared": {
+            "seed-2-order-4-path-2-contraction-1": 2.378025697717632e-15,
+            "seed-2-order-4-path-3-contraction-1": 2.3780256977176334e-15,
+            "seed-2-order-4-path-3-contraction-2": 9.141594806577047e-15
+          }
+        },
+        "seed=2|d=2|1+^2,1-^2": {
+          "coherent_norm_squared": 4.359322921418251e-16,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-1-contraction-1",
+              "right": "seed-2-order-4-path-1-contraction-1",
+              "value": 4.359322921418251e-16
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-2-order-4-path-1-contraction-1": 4.359322921418251e-16
+          }
+        },
+        "seed=2|d=2|2+^2,2-^2": {
+          "coherent_norm_squared": 1.5386855077611406e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-4-contraction-1",
+              "right": "seed-2-order-4-path-4-contraction-1",
+              "value": 4.359322921418251e-16
+            },
+            {
+              "left": "seed-2-order-4-path-4-contraction-1",
+              "right": "seed-2-order-4-path-4-contraction-2",
+              "value": -1.0579754222898395e-15
+            },
+            {
+              "left": "seed-2-order-4-path-4-contraction-2",
+              "right": "seed-2-order-4-path-4-contraction-2",
+              "value": 3.218704060199018e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-2-order-4-path-4-contraction-1": 4.359322921418251e-16,
+            "seed-2-order-4-path-4-contraction-2": 3.218704060199018e-15
+          }
+        }
+      },
+      "outer_quadrature_order": 14
+    },
+    "comparisons": {
+      "seed=0|d=0|1+^1,1-^1,2+^1,2-^1": {
+        "coarse_fine_relative_difference": 0.04128943596753321,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=0|d=0|1+^2,1-^2": {
+        "coarse_fine_relative_difference": 0.01723775805046419,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=0|d=0|2+^2,2-^2": {
+        "coarse_fine_relative_difference": 0.01723775805046419,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=1|d=1|1+^1,1-^1,2+^1,2-^1": {
+        "coarse_fine_relative_difference": 0.03001345498722915,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=1|d=1|1+^2,1-^2": {
+        "coarse_fine_relative_difference": 0.01723775805045768,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=1|d=1|2+^2,2-^2": {
+        "coarse_fine_relative_difference": 0.016685085416371367,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=1|d=2|1+^1,2+^1,2-^2": {
+        "coarse_fine_relative_difference": 0.05173567308792088,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=1|d=2|1+^2,1-^1,2-^1": {
+        "coarse_fine_relative_difference": 0.021493641500706987,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=2|d=1|1+^1,1-^2,2+^1": {
+        "coarse_fine_relative_difference": 0.05173567308792507,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=2|d=1|1-^1,2+^2,2-^1": {
+        "coarse_fine_relative_difference": 0.02149364150070787,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=2|d=2|1+^1,1-^1,2+^1,2-^1": {
+        "coarse_fine_relative_difference": 0.030013454987239684,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=2|d=2|1+^2,1-^2": {
+        "coarse_fine_relative_difference": 0.016685085416371367,
+        "fine_value_inside_global_outward_interval": true
+      },
+      "seed=2|d=2|2+^2,2-^2": {
+        "coarse_fine_relative_difference": 0.01723775805045768,
+        "fine_value_inside_global_outward_interval": true
+      }
+    },
+    "fine": {
+      "contracted_quadrature_order": 32,
+      "coordinate_transform": "positive asinh momentum with reflection; full half-line Gauss--Laguerre",
+      "groups": {
+        "seed=0|d=0|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared": 4.183427831416617e-14,
+          "gram_entries": [
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-2-contraction-1",
+              "value": 2.314458497587982e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-2-contraction-2",
+              "value": 1.3025690042511004e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "value": 2.6032368613320865e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 8.07599614504182e-16
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "right": "seed-0-order-4-path-2-contraction-2",
+              "value": 8.864406268533806e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "value": 1.119063045290753e-15
+            },
+            {
+              "left": "seed-0-order-4-path-2-contraction-2",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 2.603236861332074e-15
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-1",
+              "value": 8.864406268533809e-15
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-1",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 1.3025690042510976e-15
+            },
+            {
+              "left": "seed-0-order-4-path-3-contraction-2",
+              "right": "seed-0-order-4-path-3-contraction-2",
+              "value": 2.314458497587976e-15
+            }
+          ],
+          "path_count": 4,
+          "path_norms_squared": {
+            "seed-0-order-4-path-2-contraction-1": 2.314458497587982e-15,
+            "seed-0-order-4-path-2-contraction-2": 8.864406268533806e-15,
+            "seed-0-order-4-path-3-contraction-1": 8.864406268533809e-15,
+            "seed-0-order-4-path-3-contraction-2": 2.314458497587976e-15
+          }
+        },
+        "seed=0|d=0|1+^2,1-^2": {
+          "coherent_norm_squared": 1.5126114770946384e-15,
+          "gram_entries": [
+            {
+              "left": "seed-0-order-4-path-1-contraction-1",
+              "right": "seed-0-order-4-path-1-contraction-1",
+              "value": 4.287780930348688e-16
+            },
+            {
+              "left": "seed-0-order-4-path-1-contraction-1",
+              "right": "seed-0-order-4-path-1-contraction-2",
+              "value": -9.809266554551236e-16
+            },
+            {
+              "left": "seed-0-order-4-path-1-contraction-2",
+              "right": "seed-0-order-4-path-1-contraction-2",
+              "value": 3.0456866949700475e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-0-order-4-path-1-contraction-1": 4.287780930348688e-16,
+            "seed-0-order-4-path-1-contraction-2": 3.0456866949700475e-15
+          }
+        },
+        "seed=0|d=0|2+^2,2-^2": {
+          "coherent_norm_squared": 1.5126114770946384e-15,
+          "gram_entries": [
+            {
+              "left": "seed-0-order-4-path-4-contraction-1",
+              "right": "seed-0-order-4-path-4-contraction-1",
+              "value": 4.287780930348688e-16
+            },
+            {
+              "left": "seed-0-order-4-path-4-contraction-1",
+              "right": "seed-0-order-4-path-4-contraction-2",
+              "value": -9.809266554551236e-16
+            },
+            {
+              "left": "seed-0-order-4-path-4-contraction-2",
+              "right": "seed-0-order-4-path-4-contraction-2",
+              "value": 3.0456866949700475e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-0-order-4-path-4-contraction-1": 4.287780930348688e-16,
+            "seed-0-order-4-path-4-contraction-2": 3.0456866949700475e-15
+          }
+        },
+        "seed=1|d=1|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared": 5.335057450641437e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "right": "seed-1-order-4-path-2-contraction-1",
+              "value": 2.314458497587975e-15
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "right": "seed-1-order-4-path-2-contraction-2",
+              "value": -3.92830366551394e-15
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-1",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "value": 8.075996145041834e-16
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-2",
+              "right": "seed-1-order-4-path-2-contraction-2",
+              "value": 8.864406268533823e-15
+            },
+            {
+              "left": "seed-1-order-4-path-2-contraction-2",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "value": -9.584288555243536e-16
+            },
+            {
+              "left": "seed-1-order-4-path-3-contraction-1",
+              "right": "seed-1-order-4-path-3-contraction-1",
+              "value": 2.3144584975879687e-15
+            }
+          ],
+          "path_count": 3,
+          "path_norms_squared": {
+            "seed-1-order-4-path-2-contraction-1": 2.314458497587975e-15,
+            "seed-1-order-4-path-2-contraction-2": 8.864406268533823e-15,
+            "seed-1-order-4-path-3-contraction-1": 2.3144584975879687e-15
+          }
+        },
+        "seed=1|d=1|1+^2,1-^2": {
+          "coherent_norm_squared": 1.5126114770946378e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-1-contraction-1",
+              "right": "seed-1-order-4-path-1-contraction-1",
+              "value": 4.2877809303486947e-16
+            },
+            {
+              "left": "seed-1-order-4-path-1-contraction-1",
+              "right": "seed-1-order-4-path-1-contraction-2",
+              "value": -9.809266554551248e-16
+            },
+            {
+              "left": "seed-1-order-4-path-1-contraction-2",
+              "right": "seed-1-order-4-path-1-contraction-2",
+              "value": 3.0456866949700606e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-1-order-4-path-1-contraction-1": 4.2877809303486947e-16,
+            "seed-1-order-4-path-1-contraction-2": 3.0456866949700606e-15
+          }
+        },
+        "seed=1|d=1|2+^2,2-^2": {
+          "coherent_norm_squared": 4.2877809303486947e-16,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-4-contraction-1",
+              "right": "seed-1-order-4-path-4-contraction-1",
+              "value": 4.2877809303486947e-16
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-1-order-4-path-4-contraction-1": 4.2877809303486947e-16
+          }
+        },
+        "seed=1|d=2|1+^1,2+^1,2-^2": {
+          "coherent_norm_squared": 3.4402122199719346e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-4-contraction-2",
+              "right": "seed-1-order-4-path-4-contraction-2",
+              "value": 3.4402122199719346e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-1-order-4-path-4-contraction-2": 3.4402122199719346e-15
+          }
+        },
+        "seed=1|d=2|1+^2,1-^1,2-^1": {
+          "coherent_norm_squared": 7.350817698241094e-15,
+          "gram_entries": [
+            {
+              "left": "seed-1-order-4-path-3-contraction-2",
+              "right": "seed-1-order-4-path-3-contraction-2",
+              "value": 7.350817698241094e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-1-order-4-path-3-contraction-2": 7.350817698241094e-15
+          }
+        },
+        "seed=2|d=1|1+^1,1-^2,2+^1": {
+          "coherent_norm_squared": 3.440212219971923e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-1-contraction-2",
+              "right": "seed-2-order-4-path-1-contraction-2",
+              "value": 3.440212219971923e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-2-order-4-path-1-contraction-2": 3.440212219971923e-15
+          }
+        },
+        "seed=2|d=1|1-^1,2+^2,2-^1": {
+          "coherent_norm_squared": 7.350817698241086e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-2-contraction-2",
+              "right": "seed-2-order-4-path-2-contraction-2",
+              "value": 7.350817698241086e-15
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-2-order-4-path-2-contraction-2": 7.350817698241086e-15
+          }
+        },
+        "seed=2|d=2|1+^1,1-^1,2+^1,2-^1": {
+          "coherent_norm_squared": 5.3350574506414836e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "right": "seed-2-order-4-path-2-contraction-1",
+              "value": 2.314458497587975e-15
+            },
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-1",
+              "value": 8.075996145041834e-16
+            },
+            {
+              "left": "seed-2-order-4-path-2-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "value": -9.584288555243532e-16
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-1",
+              "value": 2.3144584975879687e-15
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-1",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "value": -3.9283036655139276e-15
+            },
+            {
+              "left": "seed-2-order-4-path-3-contraction-2",
+              "right": "seed-2-order-4-path-3-contraction-2",
+              "value": 8.864406268533804e-15
+            }
+          ],
+          "path_count": 3,
+          "path_norms_squared": {
+            "seed-2-order-4-path-2-contraction-1": 2.314458497587975e-15,
+            "seed-2-order-4-path-3-contraction-1": 2.3144584975879687e-15,
+            "seed-2-order-4-path-3-contraction-2": 8.864406268533804e-15
+          }
+        },
+        "seed=2|d=2|1+^2,1-^2": {
+          "coherent_norm_squared": 4.2877809303486947e-16,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-1-contraction-1",
+              "right": "seed-2-order-4-path-1-contraction-1",
+              "value": 4.2877809303486947e-16
+            }
+          ],
+          "path_count": 1,
+          "path_norms_squared": {
+            "seed-2-order-4-path-1-contraction-1": 4.2877809303486947e-16
+          }
+        },
+        "seed=2|d=2|2+^2,2-^2": {
+          "coherent_norm_squared": 1.5126114770946378e-15,
+          "gram_entries": [
+            {
+              "left": "seed-2-order-4-path-4-contraction-1",
+              "right": "seed-2-order-4-path-4-contraction-1",
+              "value": 4.2877809303486947e-16
+            },
+            {
+              "left": "seed-2-order-4-path-4-contraction-1",
+              "right": "seed-2-order-4-path-4-contraction-2",
+              "value": -9.809266554551248e-16
+            },
+            {
+              "left": "seed-2-order-4-path-4-contraction-2",
+              "right": "seed-2-order-4-path-4-contraction-2",
+              "value": 3.0456866949700606e-15
+            }
+          ],
+          "path_count": 2,
+          "path_norms_squared": {
+            "seed-2-order-4-path-4-contraction-1": 4.2877809303486947e-16,
+            "seed-2-order-4-path-4-contraction-2": 3.0456866949700606e-15
+          }
+        }
+      },
+      "outer_quadrature_order": 16
+    },
+    "role": "independent normalization/interference control; not the outward proof",
+    "seedwise_order_four_norms_squared": {
+      "0": 4.4859501268355447e-14,
+      "1": 1.806747693898397e-14,
+      "2": 1.8067476938984e-14
+    }
+  },
+  "schema_version": "1.0"
+}
