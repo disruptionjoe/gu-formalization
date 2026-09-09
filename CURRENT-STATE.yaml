@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7357acb288710c890628444ebeef7809e80068b5
+revision_basis: 3a0784e02c6edde81a840f7b7748879f2ac7fcae
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K178 exchange-prefix numerical-sufficiency Big Wave preserves K177's
+    exact path automaton, 2,958 matched-contraction census, ordered-simplex
+    identity and specieswise heat-kernel determinant representation, but
+    corrects the stronger claim that the emitted output is already a
+    coefficient-complete integral family. A complete structural recompile
+    gives 633 path records in 198 seed/order/signature blocks and 2,958
+    contraction records in 201 blocks; 173 multi-record contraction blocks
+    retain distinct source paths, contracted positions or ordered variable
+    provenance. Every contraction still lacks five coefficient-level fields:
+    operator-monomial identity, exact coefficient, contracted-resolvent affine
+    forms, output-kernel formula and antisymmetrizer normalization, for 14,790
+    unresolved field instances. An exact same-skeleton control with
+    coefficients 1 and 2 gives quadratic values 1 and 4, proving numerical
+    nonidentifiability without varying the native operator. Even the six
+    order-two records fail the new admission contract. The next owner is
+    K156's matched finite-cutoff normal ordering, which must populate the five
+    fields term by term before determinant-aware outward quadrature. The
+    numerical prefix, complete action columns, R_ref residual, complement or
+    flux floor, scalar-center left floor and K152 interval remain open. No
+    native physical/source, Born, prediction or confirmation claim follows.
+
+    The prior K177 result remains active context:
     The K177 Laplace-simplex exchange-prefix Big Wave serializes every exact
     K162 vacuum and one-impurity boundary word through order twelve in the
     native continuum. A finite hard-core path automaton gives 633 signed path
@@ -7497,14 +7519,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the K177 ordered Laplace-simplex heat-kernel determinant integrals for
-  all order-two-through-twelve matched exchange contractions be evaluated with
-  outward bounds, grouped by antisymmetric occupation signature without losing
-  determinant cancellation, and combined with K175's scalar and diagonal
-  pieces plus K176's tail to compute the coefficient-complete K171 base and
-  K168-reference action columns and R_ref residual; can a positive complete
-  M-orthogonal complement or flux floor and a separately selected scalar center
-  then close K152?
+  Can K156's matched finite-cutoff normal ordering be specialized to every
+  K178 contraction record, populating the operator-monomial identity, exact
+  coefficient, two-resolvent affine incidence, output-kernel formula and
+  antisymmetrizer normalization after adjacent endpoint cancellation; once
+  that coefficient tensor is complete, can determinant-aware outward bounds
+  evaluate orders two through twelve and assemble the K171/K168 action columns
+  and R_ref residual before a complement or flux floor and separately selected
+  scalar center are attempted for K152?
 acceptance:
   - RESEARCH-POSTURE.md
   - VERIFICATION.md
@@ -7513,6 +7535,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K178 proves that K177's exact representation class is not yet a numerically
+  identified integral family. The executable now compiles all 633 path and
+  2,958 contraction structural records, but finds five missing coefficient-
+  level fields on every contraction. Occupation signatures are orthogonality
+  eligibility blocks, not cancellation groups: 173 multi-record blocks retain
+  different source paths, contracted positions or ordered variable provenance.
+  Do not begin interval quadrature from census totals or generic determinant
+  formulas. Specialize K156's matched finite-cutoff normal order term by term,
+  after adjacent endpoint cancellation, and emit the exact monomial identity,
+  coefficient, contracted-resolvent affine forms, output kernel and
+  antisymmetrizer convention. Validate order two first, then extend the same
+  coefficient-complete schema through order twelve before assembling K171.
+
   K177 makes the finite exchange prefix exact at the coordinate and integral
   level. It enumerates 633 signed boundary-word coordinates and 2,958 matched
   older-letter contraction coordinates through order twelve, proves the

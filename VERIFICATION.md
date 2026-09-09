@@ -7,6 +7,21 @@ updated_at: "2026-09-09"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K178 exchange-prefix numerical sufficiency (2026-09-09)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K177's representation theorem is invalid | its path automaton, `2,958` contraction census, ordered-simplex identity and specieswise `K_1(t)/pi` determinant reduction replay unchanged | false; the exact representation class is preserved |
+| K177 serializes the coefficient-complete order-two-through-twelve integral family | the emitted result contains census totals and generic formulas but no per-contraction monomial identity, exact coefficient, contracted-resolvent incidence, output kernel or antisymmetrizer normalization | false; `14,790` required coefficient-field instances remain unresolved |
+| Occupation signature alone is a valid cancellation group | `173` multi-record output-signature blocks contain different source paths, contracted positions or ordered variable provenance | false; signature gives orthogonality eligibility, not kernel equality |
+| The first nonzero order can already be evaluated from K177 | order two has six structural records in six singleton signature blocks, but every record still lacks the coefficient-level fields | false; even order two fails numerical admission |
+| K178 evaluates the prefix, action column, residual, complement floor or K152 | the fail-closed compiler rejects the incomplete family and accepts a fully populated exact control | false; structural sufficiency is decided and the next producer is exact, but all numerical and downstream values remain open |
+
+Reproduce with
+`python3 tests/channel-swings/k178_exchange_prefix_numerical_sufficiency.py --demo`,
+`python3 tests/channel-swings/k178_exchange_prefix_numerical_sufficiency_probe.py`
+and its baseline-first hostile check with `--selftest` (`43/43`, `29/29`).
+
 ## K177 Laplace-simplex exchange prefix (2026-09-09)
 
 | Claim | Evidence | Honest grade |
