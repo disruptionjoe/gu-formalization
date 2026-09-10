@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K193 order-six shifted face-entry controls
+
+- `channel-swings/k193_order_six_shifted_face_entry.py` translates K191's
+  exact divided-difference monomials about Hermite--Genocchi argument centers,
+  bounds the order-17 remainder with directed Arb, retains one shared rational
+  face box and determinant-level Cauchy cofactors, and certifies strict
+  neighborhoods of all 3 size-two and 15 size-three K192 face centers on
+  `31/256<=x<=1/8`.
+- `channel-swings/k193_order_six_shifted_face_entry_probe.py` checks 221 exact
+  translation identities, all chart masks and lower bounds, two independent
+  200-digit controls, complete K186 formula propagation, deterministic replay
+  and the withheld ordered-domain/cubature release fences (`24/24` baseline;
+  `25/25` hostile mutations).
+
 ## K192 order-six radially stratified wide-gap controls
 
 - `channel-swings/k192_order_six_radially_stratified_wide_gap.py` retains

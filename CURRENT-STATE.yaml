@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a48dc146dcf3ae0f30bec01ed59034cb7dddfb3a
+revision_basis: c2b85753585bee9487c753dc1d39ce6b42b2db0f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,31 +35,33 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The K192 order-six radially stratified wide-gap Big Wave retains K191's
-    exact normalized divided-difference identity and complete-monotonicity
-    tail theorem, but proves a substantially larger domain below the
-    high-radial cap. A new 1,584-cell directed-Arb cover spans minimum cross
-    argument 2^-200 through 1/8 whenever every row and column spread is at
-    most 1/48 of the local cell base; size-two and size-three minimum lower
-    bounds are 0.903917060000822 and 0.06683241948485374. The union retains
-    64 K191 cells on 1/8 through 1/4 with the prior 1/512 spread rule and has
-    no radial gap. All 53 K186 patterns and 468 occurrences inherit the
-    stratified certificate, preserving all 234 entries and 18 coherent
-    groups. Independent 200-digit values at x=2/25 and gap 1/96 lie inside
-    generic boxes. A pre-registered size-three 1/32 candidate fails the
-    current enclosure; that is a method control, not a global maximality
-    theorem. All 15 nonempty size-three active-gap masks are now frozen; exact
-    rational substitution verifies pure-Cauchy normalization at all three
-    size-two and 15 size-three face centers, and generic noncoalescent point
-    controls are positive. This is a topology scaffold, not an outward face
-    certificate: the shifted Hermite--Genocchi divided-difference Taylor-entry
-    tails with shared face-center dependencies remain missing. Arbitrary gap
-    ratios and the Duffy/Jacobi chain-rule and weighted-cubature remainder
-    remain open. The
-    accurate certified prefix stays through order five. No complete K171/K168
+    The K193 order-six shifted face-entry Big Wave constructs the exact
+    operator isolated by K192. For each sequential divided-difference entry,
+    the Bessel-minus-Cauchy correction is Taylor-expanded about the midpoint
+    of its Hermite--Genocchi argument range induced by one common rational
+    face box. Exact translated monomial identities pass on 221 matrix entries
+    through order 16; the linear determinant correction retains each complete
+    Cauchy minor before absolute bounding and bounds the common normalization
+    product separately outward. On the formerly
+    rejected high-radial cell 31/256<=x<=1/8, all three size-two and all 15
+    size-three K192 face centers have strict directed-Arb neighborhoods with
+    active half-width 1/512 and inactive range 0 through 1/512. Minimum lower
+    bounds are 0.90992808167357 and 0.44423198886215687. Independent 200-digit
+    face-center values lie inside representative size-two and size-three
+    charts. The operator formula remains valid for all 53 patterns and 468
+    occurrences, preserving all 234 entries and 18 groups. These local charts
+    do not tile the ordered physical gap-ratio domain or prove complete
+    overlap with K192. Duffy/Jacobi derivative envelopes and the weighted-
+    cubature remainder therefore remain open, and the accurate certified
+    prefix stays through order five. No complete K171/K168
     action column, R_ref residual, complement or flux floor, scalar-center
     floor or K152 interval is evaluated. No physical/source, Born, prediction
     or confirmation claim follows.
+
+    The prior K192 result remains active context:
+    K192 proves the radially stratified coalescent-centered union, including
+    the 1/48 low-radial spread and 1/512 high-radial spread rules, and banks
+    the 18 face centers that K193 now surrounds by outward neighborhoods.
 
     The prior K191 result remains active context:
     K191 proves the exact normalized Cauchy-cancellation identity and a uniform
@@ -7647,9 +7649,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the residual K192 maximum-gap strata be covered by cancellation-
-  preserving Taylor boxes recentered on noncoalescent faces, then
-  composed with the positive-radius Duffy/Jacobi chain rule and weighted
+  Can the K193 shifted face-entry operator be adaptively tiled over the ordered
+  physical gap-ratio domain with a proved overlap to K192, then differentiated
+  and composed with the positive-radius Duffy/Jacobi chain rule and weighted
   cubature remainder on 2^-20<=rho<=1/4 and z_i>=2^-180; if so, does the
   completed K185/K188 boundary control plus that prefix advance the K171/K168
   action columns and R_ref residual, complement or flux floor, separately
@@ -7662,20 +7664,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K192 supplies a radially stratified outward union: 1,584 low-radial cells
-  cover 2^-200<=x<=1/8 with row and column spread at most 1/48 of the local
-  cell base, while 64 retained K191 cells cover 1/8<=x<=1/4 with the prior
-  1/512 rule. The low-radial spread radius gains a factor 32/3 without changing
-  K191's exact normalized identity or tail theorem. A 1/32 size-three control
-  fails the current coalescent-centered enclosure; this does not establish
-  mathematical maximality. Do not extrapolate across the residual simplex,
-  treat 200-digit controls as interval proof, or compose the partial union
-  into a complete cubature remainder. Partition the residual by its maximal
-  row or column gap, recenter the complete normalized divided-difference
-  matrix on the 15 banked noncoalescent face masks, serialize the shifted
-  Hermite--Genocchi entry tails with shared face-center dependencies and
-  determinant-level Cauchy cofactors, and cover every K186 time-node pattern before
-  building the Duffy/Jacobi chain-rule bounds and weighted cubature remainder.
+  K193 serializes the shifted Hermite--Genocchi entry operator with one common
+  rational face-box dependency model and determinant-level Cauchy cofactors.
+  All three size-two and 15 size-three K192 face centers now have strict
+  outward neighborhoods on 31/256<=x<=1/8: active coordinates have half-width
+  1/512, inactive coordinates range from zero to 1/512, and minimum lower
+  bounds are 0.90992808167357 and 0.44423198886215687. The exact translation
+  checks cover 221 matrix entries through order 16. This closes the missing
+  operator and proves nonzero local charts, not an arbitrary-gap atlas. Do not
+  extrapolate the 18 neighborhoods across the ordered physical gap-ratio
+  domain, treat 200-digit controls as interval proof, or compose an incomplete
+  union into a cubature remainder. Adaptively tile the ordered gap variables
+  with the shifted operator, prove every chart overlap and the join to K192,
+  and cover every K186 time-node pattern before building the Duffy/Jacobi
+  chain-rule bounds and weighted cubature remainder.
   Preserve all 234 signed entries, 18 coherent groups, 53 patterns, primitive
   gaps, old-position factors, complete determinants and shared time nodes;
   combine the resulting core error with K188's endpoint and K185's face/tail

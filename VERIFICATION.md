@@ -7,6 +7,24 @@ updated_at: "2026-09-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K193 order-six shifted face-entry family (2026-09-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The noncoalescent shifted entry operator is exact through the declared truncation | binomial translation reconstructs 221 size-two/three divided-difference matrix entries through order 16 at rational shift `7/64` | exact symbolic identity |
+| The shifted remainder is outward | each entry uses the midpoint and half-width of its Hermite--Genocchi argument range under one common rational face box; complete monotonicity bounds the order-17 derivative at the lower endpoint | rigorous directed-Arb tail on each declared chart |
+| Determinant cancellation is retained | the linear correction evaluates each complete Cauchy minor before absolute bounding and multiplies by a separately outward common normalization-product bound; quadratic and cubic corrections retain complete determinant terms | rigorous determinant-level perturbation bound |
+| Every K192 face center has a strict neighborhood on the rejected high-radial cell | all 3 size-two and 15 size-three charts are positive on `31/256<=x<=1/8`, with active half-width `1/512`, inactive range `[0,1/512]`, and minimum lower bounds `0.90992808167357` and `0.44423198886215687` | rigorous outward local face atlas |
+| Independent face-center controls agree | 200-digit values `0.937145186072511...` and `0.886499931016292...` lie inside representative size-two and size-three chart intervals | deterministic control only; Arb boxes carry the proof |
+| The local charts cover the residual simplex or release cubature | no adaptive ordered-gap tiling, complete overlap proof with K192, Duffy/Jacobi derivative envelope, positive-core remainder or outward order-six total is serialized | false; accurate certified prefix remains through order five |
+| K193 releases action columns or physical positivity | no action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k193_order_six_shifted_face_entry.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k193_order_six_shifted_face_entry_probe.py`
+and its baseline-first hostile check with `--no-replay --selftest`.
+
 ## K192 order-six radially stratified wide-gap family (2026-09-10)
 
 | Claim | Evidence | Honest grade |

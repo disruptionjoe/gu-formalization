@@ -1,0 +1,1194 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false,
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_propagation": {
+    "all_234_entries_and_18_groups_remain_in_scope": true,
+    "all_468_occurrences_retain_the_same_formula": true,
+    "all_53_patterns_retain_the_same_formula": true,
+    "operator_applies_to_every_size_two_and_three_regularizer": true,
+    "outward_domain_propagates_only_when_a_pattern_lies_in_a_declared_chart": true
+  },
+  "decision": {
+    "all_k192_face_centers_have_a_strict_outward_neighborhood_on_the_rejected_high_radial_cell": true,
+    "duffy_jacobi_composition_released": false,
+    "next_exact_input": "tile the ordered physical gap-ratio domain with adaptive shifted charts, prove overlap with the K192 coalescent union, and only then differentiate the common chart model for Duffy/Jacobi remainder bounds",
+    "residual_gap_simplex_union_complete": false,
+    "shared_center_and_cauchy_cofactor_requirements_closed": true,
+    "shifted_face_entry_operator_serialized": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "active_coordinate_half_width": "1/512",
+    "arb_decimal_digits": 120,
+    "inactive_coordinate_upper": "1/512",
+    "predecessor_manifest": "lab/process/k192-order-six-radially-stratified-wide-gap-wave.json",
+    "radial_cell": "31/256<=x<=1/8",
+    "relative_radial_width": "1/31",
+    "source_coherent_groups": 18,
+    "source_manifest": "lab/process/k186-order-six-bessel-vandermonde-wave.json",
+    "source_nontrivial_occurrences": 468,
+    "source_patterns": 53,
+    "source_time_gram_entries": 234,
+    "taylor_order": 16,
+    "threads": 1
+  },
+  "independent_controls": {
+    "all_contained": true,
+    "precision_decimal_digits": 200,
+    "rows": [
+      {
+        "active": [
+          "r0",
+          "c0"
+        ],
+        "certified_lower": 0.90992808167357,
+        "certified_upper": 1.09007191832643,
+        "contained": true,
+        "minimum_cross_argument": "63/512",
+        "regularizer": "9.371451860725112284384350E-1",
+        "size": 2
+      },
+      {
+        "active": [
+          "r0",
+          "r1",
+          "c0",
+          "c1"
+        ],
+        "certified_lower": 0.44423198886215687,
+        "certified_upper": 1.5557680111378431,
+        "contained": true,
+        "minimum_cross_argument": "63/512",
+        "regularizer": "8.864999310162916342882860E-1",
+        "size": 3
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "outward_face_charts": {
+    "all_18_charts_strictly_positive": true,
+    "maximum_R_upper_by_size": {
+      "2": 1.09007191832643,
+      "3": 1.5557680111378431
+    },
+    "minimum_R_lower_by_size": {
+      "2": 0.90992808167357,
+      "3": 0.44423198886215687
+    },
+    "size_three_chart_count": 15,
+    "size_two_chart_count": 3,
+    "sizes": {
+      "2": [
+        {
+          "R_lower": 0.9116610041819513,
+          "R_upper": 1.0883389958180487,
+          "active": [
+            "r0"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "0/1",
+              "0/1"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "0/1",
+              "0/1"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "0/1",
+            "r0": "1/32",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.08833899572366516,
+          "entry_radii": [
+            "605/31744",
+            "605/31744",
+            "535/15872",
+            "535/15872"
+          ],
+          "entry_shifts": [
+            "1535/31744",
+            "1535/31744",
+            "535/15872",
+            "535/15872"
+          ],
+          "maximum_entry_tail": 4.481636839174637e-20,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.9120092230150476,
+          "R_upper": 1.0879907769849524,
+          "active": [
+            "c0"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "0/1",
+              "0/1"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "0/1",
+              "0/1"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "0/1",
+            "r0": "0/1",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.08799077691107157,
+          "entry_radii": [
+            "605/31744",
+            "2427/79360",
+            "605/31744",
+            "2427/79360"
+          ],
+          "entry_shifts": [
+            "6683/158720",
+            "2427/79360",
+            "6683/158720",
+            "2427/79360"
+          ],
+          "maximum_entry_tail": 1.041421432008613e-20,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.90992808167357,
+          "R_upper": 1.09007191832643,
+          "active": [
+            "r0",
+            "c0"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "0/1",
+              "0/1"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "0/1",
+              "0/1"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "0/1",
+            "r0": "1/32",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.09007191829256836,
+          "entry_radii": [
+            "159/7936",
+            "5009/158720",
+            "1101/31744",
+            "3667/79360"
+          ],
+          "entry_shifts": [
+            "359/4960",
+            "9659/158720",
+            "9163/158720",
+            "3667/79360"
+          ],
+          "maximum_entry_tail": 5.084444551111509e-18,
+          "strictly_positive": true
+        }
+      ],
+      "3": [
+        {
+          "R_lower": 0.4680232275277376,
+          "R_upper": 1.5319767724722624,
+          "active": [
+            "r0"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "0/1",
+              "1/512"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "0/1",
+              "1/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "0/1",
+            "r0": "1/32",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.5319767716667437,
+          "entry_radii": [
+            "605/31744",
+            "605/31744",
+            "605/31744",
+            "535/15872",
+            "535/15872",
+            "535/15872",
+            "535/15872",
+            "535/15872",
+            "535/15872"
+          ],
+          "entry_shifts": [
+            "1535/31744",
+            "1535/31744",
+            "1535/31744",
+            "535/15872",
+            "535/15872",
+            "535/15872",
+            "535/15872",
+            "535/15872",
+            "535/15872"
+          ],
+          "maximum_entry_tail": 2.0708646294822113e-15,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.46616173535585403,
+          "R_upper": 1.533838264644146,
+          "active": [
+            "r1"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "0/1",
+              "1/512"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "0/1",
+            "r0": "0/1",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.533838264336521,
+          "entry_radii": [
+            "287/15872",
+            "287/15872",
+            "287/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872"
+          ],
+          "entry_shifts": [
+            "287/15872",
+            "287/15872",
+            "287/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872",
+            "411/15872"
+          ],
+          "maximum_entry_tail": 6.721964716025652e-17,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.4596550948917866,
+          "R_upper": 1.5403449051082134,
+          "active": [
+            "r0",
+            "r1"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "0/1",
+              "1/512"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "0/1",
+            "r0": "1/32",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.5403449043826392,
+          "entry_radii": [
+            "605/31744",
+            "605/31744",
+            "605/31744",
+            "853/31744",
+            "853/31744",
+            "853/31744",
+            "535/15872",
+            "535/15872",
+            "535/15872"
+          ],
+          "entry_shifts": [
+            "1535/31744",
+            "1535/31744",
+            "1535/31744",
+            "1287/31744",
+            "1287/31744",
+            "1287/31744",
+            "535/15872",
+            "535/15872",
+            "535/15872"
+          ],
+          "maximum_entry_tail": 2.0708646294822113e-15,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.46755863074213266,
+          "R_upper": 1.5324413692578673,
+          "active": [
+            "c0"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "0/1",
+              "1/512"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "0/1",
+              "1/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "0/1",
+            "r0": "0/1",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.5324413690506664,
+          "entry_radii": [
+            "605/31744",
+            "2427/79360",
+            "2427/79360",
+            "605/31744",
+            "2427/79360",
+            "2427/79360",
+            "605/31744",
+            "2427/79360",
+            "2427/79360"
+          ],
+          "entry_shifts": [
+            "6683/158720",
+            "2427/79360",
+            "2427/79360",
+            "6683/158720",
+            "2427/79360",
+            "2427/79360",
+            "6683/158720",
+            "2427/79360",
+            "2427/79360"
+          ],
+          "maximum_entry_tail": 5.845875744171328e-16,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.460971362888813,
+          "R_upper": 1.539028637111187,
+          "active": [
+            "r0",
+            "c0"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "0/1",
+              "1/512"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "0/1",
+              "1/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "0/1",
+            "r0": "1/32",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.5390286364250302,
+          "entry_radii": [
+            "159/7936",
+            "5009/158720",
+            "5009/158720",
+            "1101/31744",
+            "3667/79360",
+            "3667/79360",
+            "1101/31744",
+            "3667/79360",
+            "3667/79360"
+          ],
+          "entry_shifts": [
+            "359/4960",
+            "9659/158720",
+            "9659/158720",
+            "9163/158720",
+            "3667/79360",
+            "3667/79360",
+            "9163/158720",
+            "3667/79360",
+            "3667/79360"
+          ],
+          "maximum_entry_tail": 1.25021388304932e-13,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.45915229991078377,
+          "R_upper": 1.5408477000892162,
+          "active": [
+            "r1",
+            "c0"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "0/1",
+              "1/512"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "0/1",
+            "r0": "0/1",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.5408476997511928,
+          "entry_radii": [
+            "605/31744",
+            "2427/79360",
+            "2427/79360",
+            "853/31744",
+            "3047/79360",
+            "3047/79360",
+            "853/31744",
+            "3047/79360",
+            "3047/79360"
+          ],
+          "entry_shifts": [
+            "6683/158720",
+            "2427/79360",
+            "2427/79360",
+            "7923/158720",
+            "3047/79360",
+            "3047/79360",
+            "7923/158720",
+            "3047/79360",
+            "3047/79360"
+          ],
+          "maximum_entry_tail": 1.1253416495009312e-14,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.4526003347709775,
+          "R_upper": 1.5473996652290225,
+          "active": [
+            "r0",
+            "r1",
+            "c0"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "0/1",
+              "1/512"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "0/1",
+            "r0": "1/32",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.5473996647847252,
+          "entry_radii": [
+            "159/7936",
+            "5009/158720",
+            "5009/158720",
+            "221/7936",
+            "6249/158720",
+            "6249/158720",
+            "1101/31744",
+            "3667/79360",
+            "3667/79360"
+          ],
+          "entry_shifts": [
+            "359/4960",
+            "9659/158720",
+            "9659/158720",
+            "1281/19840",
+            "8419/158720",
+            "8419/158720",
+            "9163/158720",
+            "3667/79360",
+            "3667/79360"
+          ],
+          "maximum_entry_tail": 1.25021388304932e-13,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.4662214135751128,
+          "R_upper": 1.5337785864248872,
+          "active": [
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "0/1",
+              "1/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "1/80",
+            "r0": "0/1",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.5337785857851298,
+          "entry_radii": [
+            "287/15872",
+            "1931/79360",
+            "1931/79360",
+            "287/15872",
+            "1931/79360",
+            "1931/79360",
+            "287/15872",
+            "1931/79360",
+            "1931/79360"
+          ],
+          "entry_shifts": [
+            "287/15872",
+            "1931/79360",
+            "1931/79360",
+            "287/15872",
+            "1931/79360",
+            "1931/79360",
+            "287/15872",
+            "1931/79360",
+            "1931/79360"
+          ],
+          "maximum_entry_tail": 2.993036732912446e-17,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.45969067327678204,
+          "R_upper": 1.540309326723218,
+          "active": [
+            "r0",
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "0/1",
+              "1/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "1/80",
+            "r0": "1/32",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.5403093267202167,
+          "entry_radii": [
+            "605/31744",
+            "4017/158720",
+            "4017/158720",
+            "535/15872",
+            "3171/79360",
+            "3171/79360",
+            "535/15872",
+            "3171/79360",
+            "3171/79360"
+          ],
+          "entry_shifts": [
+            "1535/31744",
+            "8667/158720",
+            "8667/158720",
+            "535/15872",
+            "3171/79360",
+            "3171/79360",
+            "535/15872",
+            "3171/79360",
+            "3171/79360"
+          ],
+          "maximum_entry_tail": 1.8901385252749302e-14,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.45778314117342234,
+          "R_upper": 1.5422168588265777,
+          "active": [
+            "r1",
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "1/80",
+            "r0": "0/1",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.5422168583753654,
+          "entry_radii": [
+            "287/15872",
+            "1931/79360",
+            "1931/79360",
+            "411/15872",
+            "2551/79360",
+            "2551/79360",
+            "411/15872",
+            "2551/79360",
+            "2551/79360"
+          ],
+          "entry_shifts": [
+            "287/15872",
+            "1931/79360",
+            "1931/79360",
+            "411/15872",
+            "2551/79360",
+            "2551/79360",
+            "411/15872",
+            "2551/79360",
+            "2551/79360"
+          ],
+          "maximum_entry_tail": 1.11732225622301e-15,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.4512902610003948,
+          "R_upper": 1.5487097389996052,
+          "active": [
+            "r0",
+            "r1",
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "0/1",
+              "1/512"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "0/1",
+            "c1": "1/80",
+            "r0": "1/32",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.5487097388246606,
+          "entry_radii": [
+            "605/31744",
+            "4017/158720",
+            "4017/158720",
+            "853/31744",
+            "5257/158720",
+            "5257/158720",
+            "535/15872",
+            "3171/79360",
+            "3171/79360"
+          ],
+          "entry_shifts": [
+            "1535/31744",
+            "8667/158720",
+            "8667/158720",
+            "1287/31744",
+            "7427/158720",
+            "7427/158720",
+            "535/15872",
+            "3171/79360",
+            "3171/79360"
+          ],
+          "maximum_entry_tail": 1.8901385252749302e-14,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.45921117905527353,
+          "R_upper": 1.5407888209447265,
+          "active": [
+            "c0",
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "0/1",
+              "1/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "1/80",
+            "r0": "0/1",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.5407888201790739,
+          "entry_radii": [
+            "605/31744",
+            "4017/158720",
+            "2427/79360",
+            "605/31744",
+            "4017/158720",
+            "2427/79360",
+            "605/31744",
+            "4017/158720",
+            "2427/79360"
+          ],
+          "entry_shifts": [
+            "6683/158720",
+            "5691/158720",
+            "2427/79360",
+            "6683/158720",
+            "5691/158720",
+            "2427/79360",
+            "6683/158720",
+            "5691/158720",
+            "2427/79360"
+          ],
+          "maximum_entry_tail": 5.845875744171328e-16,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.4526349799707532,
+          "R_upper": 1.5473650200292468,
+          "active": [
+            "r0",
+            "c0",
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "0/1",
+              "1/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "1/80",
+            "r0": "1/32",
+            "r1": "0/1"
+          },
+          "determinant_perturbation_upper": 0.5473650199923196,
+          "entry_radii": [
+            "159/7936",
+            "1043/39680",
+            "5009/158720",
+            "1101/31744",
+            "6497/158720",
+            "3667/79360",
+            "1101/31744",
+            "6497/158720",
+            "3667/79360"
+          ],
+          "entry_shifts": [
+            "359/4960",
+            "41/620",
+            "9659/158720",
+            "9163/158720",
+            "8171/158720",
+            "3667/79360",
+            "9163/158720",
+            "8171/158720",
+            "3667/79360"
+          ],
+          "maximum_entry_tail": 1.25021388304932e-13,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.45077188592404127,
+          "R_upper": 1.5492281140759587,
+          "active": [
+            "r1",
+            "c0",
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "0/1",
+              "1/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "1/80",
+            "r0": "0/1",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.5492281137039415,
+          "entry_radii": [
+            "605/31744",
+            "4017/158720",
+            "2427/79360",
+            "853/31744",
+            "5257/158720",
+            "3047/79360",
+            "853/31744",
+            "5257/158720",
+            "3047/79360"
+          ],
+          "entry_shifts": [
+            "6683/158720",
+            "5691/158720",
+            "2427/79360",
+            "7923/158720",
+            "6931/158720",
+            "3047/79360",
+            "7923/158720",
+            "6931/158720",
+            "3047/79360"
+          ],
+          "maximum_entry_tail": 1.1253416495009312e-14,
+          "strictly_positive": true
+        },
+        {
+          "R_lower": 0.44423198886215687,
+          "R_upper": 1.5557680111378431,
+          "active": [
+            "r0",
+            "r1",
+            "c0",
+            "c1"
+          ],
+          "bounds": {
+            "c0": [
+              "59/2560",
+              "69/2560"
+            ],
+            "c1": [
+              "27/2560",
+              "37/2560"
+            ],
+            "r0": [
+              "15/512",
+              "17/512"
+            ],
+            "r1": [
+              "7/512",
+              "9/512"
+            ],
+            "w": [
+              "0/1",
+              "1/31"
+            ]
+          },
+          "center": {
+            "c0": "1/40",
+            "c1": "1/80",
+            "r0": "1/32",
+            "r1": "1/64"
+          },
+          "determinant_perturbation_upper": 0.5557680106399102,
+          "entry_radii": [
+            "159/7936",
+            "1043/39680",
+            "5009/158720",
+            "221/7936",
+            "1353/39680",
+            "6249/158720",
+            "1101/31744",
+            "6497/158720",
+            "3667/79360"
+          ],
+          "entry_shifts": [
+            "359/4960",
+            "41/620",
+            "9659/158720",
+            "1281/19840",
+            "1157/19840",
+            "8419/158720",
+            "9163/158720",
+            "8171/158720",
+            "3667/79360"
+          ],
+          "maximum_entry_tail": 1.25021388304932e-13,
+          "strictly_positive": true
+        }
+      ]
+    }
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "accurate_order_six_prefix_released": false,
+    "all_15_size_three_face_centers_outwardly_certified": true,
+    "all_3_size_two_face_centers_outwardly_certified": true,
+    "arbitrary_gap_ratio_domain_covered": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_outward_order_six_total_error_serialized": false,
+    "determinant_level_cauchy_cofactors_serialized": true,
+    "determinant_preserving_positive_radius_core_error_serialized": false,
+    "duffy_jacobi_chain_rule_envelopes_serialized": false,
+    "native_K152_interval_emitted": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "scalar_center_left_floor_serialized": false,
+    "shared_face_center_dependencies_serialized": true,
+    "shifted_hermite_genocchi_entry_tail_serialized": true
+  },
+  "schema_version": "1.0",
+  "shifted_operator": {
+    "center_rule": "entrywise midpoint of the Hermite--Genocchi argument range induced by one shared rational face box",
+    "determinant_level_cauchy_cofactors_retained": true,
+    "entry_identity": "[r_0,...,r_i][c_0,...,c_j](F_x-G)=sum_n (F_x^(n)(a)-G^(n)(a))/n! * [r_0,...,r_i][c_0,...,c_j](w+r+c-a)^n",
+    "exact_translation_checks": {
+      "all_exact": true,
+      "matrix_entries_checked": 221,
+      "rational_shift": "7/64"
+    },
+    "linear_determinant_rule": "evaluate each complete signed Cauchy minor determinant before absolute bounding, then multiply by a separately outward common normalization-product bound and the shifted residual-entry radius",
+    "shared_face_center_dependencies_retained": true,
+    "tail_rule": "complete monotonicity bounds the (N+1)st derivative at the common argument lower endpoint; the shifted Hermite--Genocchi radius is half the declared argument range"
+  }
+}
