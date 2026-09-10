@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1d5896a01f8a7e6ee482ef5080aaa3c5d2b2cf50
+revision_basis: a1d16a23b03fd60ad7ce3893ce590a54850250ae
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,24 +35,33 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The K189 order-six Arb core-jet Big Wave proves finite directed-Arb outward
-    value and primitive-coordinate mixed-derivative envelopes through total
-    order four for all 53 K186 regularizer patterns on the K188 positive-
-    radius face-stripped core. Complete monotonicity, the exact Bessel
-    derivative identity and tensor Hermite--Genocchi remove all time-gap
-    division, but the cancellation-free bounds reach 10^533 for size-three
-    values and 10^776 for fourth derivatives while K186 sampled controls are
-    O(1). Even at a raised 2^-8 primitive floor the value ceiling reaches
-    10^13. The single global raw-kernel route is therefore rigorous but not a
-    decision-grade Duffy/Jacobi remainder. The sole open region remains
-    2^-20<=rho<=1/4, z_i>=2^-180 and now routes to a cancellation-preserving
-    scaled-kernel or regularizer Taylor model using q(x)=x*K1(x), exact Cauchy
-    normalization and coalescent jets before stratified cubature. No core
-    interval error or complete outward order-six total is serialized, so the
-    accurate certified prefix stays through order five. No complete K171/K168
-    action column, R_ref residual, complement or flux floor, scalar-center
-    floor or K152 interval is evaluated. No physical/source, Born, prediction
-    or confirmation claim follows.
+    The K190 order-six coalescent scaled-jet Big Wave derives exact
+    cancellation-preserving complete-coalescence normal forms for the K186
+    size-two and size-three regularizers in the dimensionless jets
+    a_n=x^n q^(n)(x), q(x)=x*K1(x). Directed Arb point balls at all 199 exact
+    dyadic radii from 2^-200 through 1/4 are positive and overlap the direct
+    confluent Hankel balls; the scaled forms are at least 3.62 and 35.37 times
+    narrower for sizes two and three. Independent 260-digit near-collision
+    controls for all 53 regularizer patterns converge to the matching scaled-
+    jet limits, with maximum finest-gap relative error 3.16e-24. This resolves
+    the complete-coalescence conditioning singularity and selects scaled q
+    jets as the finite-gap coordinates. It does not supply an outward interval
+    between sampled radii or at nonzero gaps. The sole open region remains
+    2^-20<=rho<=1/4, z_i>=2^-180 and now routes to bivariate confluent divided-
+    difference Taylor enclosures on radial and gap-ratio boxes before the
+    Duffy/Jacobi chain rule and weighted cubature remainder. No core interval
+    error or complete outward order-six total is serialized, so the accurate
+    certified prefix stays through order five. No complete K171/K168 action
+    column, R_ref residual, complement or flux floor, scalar-center floor or
+    K152 interval is evaluated. No physical/source, Born, prediction or
+    confirmation claim follows.
+
+    The prior K189 result remains active context:
+    K189 proves finite directed-Arb value and primitive-coordinate mixed-
+    derivative envelopes through total order four for all 53 K186 regularizer
+    patterns, but its global raw-K1 bounds destroy the defining Cauchy
+    cancellation and are not decision-grade. K190 replaces the singular spine,
+    not K189's rigorous global ceiling.
 
     The prior K188 result remains active context:
     K188 closes the complete all-angular rho<2^-20 strip by the exact
@@ -7621,9 +7630,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can a cancellation-preserving scaled-kernel or regularizer Taylor model,
-  using q(x)=x*K1(x), the exact Cauchy normalization and coalescent jets on
-  stratified radial/angular boxes, certify the determinant-preserving
+  Can bivariate confluent divided-difference Taylor enclosures around K190's
+  exact scaled-q coalescent spine retain the correlated Cauchy cancellation on
+  finite radial and gap-ratio boxes, then certify the determinant-preserving
   positive-radius Duffy/Jacobi remainder on 2^-20<=rho<=1/4 and
   z_i>=2^-180; if so, does the completed K185/K188 boundary control plus that
   prefix advance the K171/K168 action columns and R_ref residual, complement
@@ -7636,23 +7645,25 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K189 supplies rigorous directed-Arb value and primitive-coordinate mixed-
-  derivative envelopes through total order four for every one of the 53 K186
-  regularizer patterns without time-gap division. The single global raw-K1
-  envelope is not decision-grade: size-three values reach 10^533 and fourth
-  derivatives reach 10^776 while K186 samples remain O(1), and merely raising
-  the primitive floor does not preserve the defining Cauchy cancellation. Do
-  not subdivide that cancellation-free majorant, return to a zero-inclusive
-  smooth Jacobi remainder, directly subtract near-coincident determinants or
-  revisit integrability. On the sole open region 2^-20<=rho<=1/4,
-  z_i>=2^-180, derive a cancellation-preserving scaled-kernel or regularizer
-  Taylor model using q(x)=x*K1(x), exact Cauchy normalization and coalescent
-  jets together; then build Duffy/Jacobi chain-rule bounds on stratified
-  radial/angular boxes. Preserve all 234 signed entries, 18 coherent groups,
-  53 patterns, primitive gaps, old-position factors, complete determinants
-  and shared time nodes; combine the resulting core error with K188's endpoint
-  and K185's face/tail bounds. Extend the accurate prefix only when the
-  complete error is decision-grade; only then continue toward K171/K168.
+  K190 supplies exact cancellation-preserving complete-coalescence normal forms
+  for the size-two and size-three K186 regularizers in the scaled jets
+  a_n=x^n q^(n)(x), q=x*K1(x). Directed Arb point balls are positive and overlap
+  direct confluent Hankel balls at all 199 exact dyadic radii from 2^-200
+  through 1/4, and all 53 K186 patterns converge to their matching spine in
+  high-precision finite-gap controls. These are point and convergence
+  certificates, not outward finite-gap boxes. Do not promote the sampled
+  values to a global R_m<=1 theorem, use decimal near-collision controls as
+  interval proof, subdivide K189's cancellation-free raw-kernel majorant or
+  directly subtract near-coincident determinants. On the sole open region
+  2^-20<=rho<=1/4, z_i>=2^-180, derive bivariate confluent divided-difference
+  Taylor enclosures around the exact scaled-q spine on radial and gap-ratio
+  boxes, retaining correlations among the four or nine kernel entries; then
+  build Duffy/Jacobi chain-rule bounds and the weighted cubature remainder.
+  Preserve all 234 signed entries, 18 coherent groups, 53 patterns, primitive
+  gaps, old-position factors, complete determinants and shared time nodes;
+  combine the resulting core error with K188's endpoint and K185's face/tail
+  bounds. Extend the accurate prefix only when the complete error is decision-
+  grade; only then continue toward K171/K168.
 
   K181 closes the complete order-three mixed determinant gate. The eight K179
   terms occupy distinct seed/output signatures: four share one positive rank-

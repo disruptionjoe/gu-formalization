@@ -2,10 +2,27 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-09"
+updated_at: "2026-09-10"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K190 order-six coalescent scaled-jet family (2026-09-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete-coalescence `0/0` conditioning singularity can be removed before numerical evaluation | exact symbolic reduction expresses the size-two and size-three K186 regularizers as polynomials in `a_n=x^n q^(n)(x)`, `q=x K1(x)`, with every negative power of `x` cancelled | exact repository-owned coalescent normal forms |
+| The scaled forms remain usable down to the K188 primitive floor | all 199 directed Arb point balls at exact radii `2^-200` through `1/4` are positive and overlap the direct confluent Hankel balls; minimum width gains are `3.62` and `35.37` for sizes two and three | rigorous pointwise Arb certificates, not interval coverage between radii |
+| The coalescent spine matches the complete K186 pattern family | independent 260-digit divided-difference controls for all 53 patterns at gaps `10^-10` and `10^-24` converge to their size-matched spine; maximum finest-gap relative error is `3.16e-24` | deterministic convergence control, not outward finite-gap arithmetic |
+| Positive dyadic samples prove a global `R_m<=1` comparison theorem | no applicable determinant ordering theorem is established and no between-radius enclosure exists | false; sampled midpoint ranges are conditioning diagnostics only |
+| The Duffy/Jacobi core remainder is now serialized | bivariate confluent divided-difference Taylor boxes, chain-rule envelopes and determinant-preserving cubature remain absent | false; accurate certified prefix remains through order five |
+| K190 releases action columns or physical positivity | no complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k190_order_six_coalescent_scaled_jet.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k190_order_six_coalescent_scaled_jet_probe.py`
+and its baseline-first hostile check with `--selftest`.
 
 ## K189 order-six Arb core-jet envelope family (2026-09-09)
 
