@@ -7,6 +7,23 @@ updated_at: "2026-09-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K191 order-six near-coalescent Taylor-box family (2026-09-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K190's coalescent spine extends to a finite outward neighborhood | 1,648 contiguous radial cells cover minimum cross argument `2^-200` through `1/4`; every size-two and size-three regularizer box is strictly positive when each row and column spread is at most `1/512` of the cell base | rigorous directed-Arb interval certificate on the stated near-coalescent domain |
+| The interval model preserves the cancellation defining the regularizer | the exact normalized identity uses sequential row/column divided differences of `F_x(y)=x K1(x(1+y))`; the pure Cauchy determinant is retained symbolically and only its Bessel correction is enclosed by the order-16 Taylor model | exact algebra plus rigorous complete-monotonicity tail bounds |
+| The certificate propagates to the complete K186 family | 45 size-two and 8 size-three patterns cover all 468 nontrivial occurrences, preserving all 234 entries and 18 coherent groups | complete conditional propagation under the same spread bound |
+| Independent controls agree with the outward boxes | 200-digit finite-gap values `0.969139...` and `0.942064...` lie inside generic size-two and size-three cells | deterministic control only; Arb boxes carry the proof |
+| Arbitrary gap ratios and the Duffy/Jacobi remainder are closed | row or column spread greater than `1/512` remains uncovered, and no chain-rule or weighted-cubature remainder is serialized | false; accurate certified prefix remains through order five |
+| K191 releases action columns or physical positivity | no complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k191_order_six_near_coalescent_taylor_box.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k191_order_six_near_coalescent_taylor_box_probe.py`
+and its baseline-first hostile check with `--selftest`.
+
 ## K190 order-six coalescent scaled-jet family (2026-09-10)
 
 | Claim | Evidence | Honest grade |
