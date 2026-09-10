@@ -7,6 +7,23 @@ updated_at: "2026-09-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K192 order-six radially stratified wide-gap family (2026-09-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K191's gap radius can be widened on the low-radial core without changing its algebra | 1,584 contiguous directed-Arb cells cover `2^-200<=x<=1/8` with row and column spread at most `1/48`; minimum lower bounds are `0.903917060000822` and `0.06683241948485374` for sizes two and three | rigorous outward certificate on the stated low-radial stratum |
+| The complete radial range remains covered | the new low-radial cells meet 64 retained K191 cells on `1/8<=x<=1/4`, where the proven spread rule remains `1/512` | exact gapless radial union with two different spread ceilings |
+| The result propagates to the complete K186 family | 45 size-two and 8 size-three patterns cover all 468 nontrivial occurrences, preserving all 234 entries and 18 coherent groups | complete conditional propagation under the stratified spread rule |
+| Independent wide-gap controls agree | 200-digit values at `x=2/25` with row/column gap `1/96` lie inside the generic size-two and size-three cells | deterministic control only; Arb boxes carry the proof |
+| `1/48` is globally maximal or arbitrary gap ratios are covered | one pre-registered `1/32` size-three cell fails the current enclosure, but noncoalescent recentering is untested and the wider residual simplex remains open | false; scale-control failure is not a mathematical maximality theorem |
+| K192 releases cubature, action columns or physical positivity | no face atlas, Duffy/Jacobi remainder, complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k192_order_six_radially_stratified_wide_gap.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k192_order_six_radially_stratified_wide_gap_probe.py`
+and its baseline-first hostile check with `--no-replay --selftest`.
+
 ## K191 order-six near-coalescent Taylor-box family (2026-09-10)
 
 | Claim | Evidence | Honest grade |
