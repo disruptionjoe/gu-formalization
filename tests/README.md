@@ -11,13 +11,15 @@ the map: which directory/group supports which claim.
   but certifies 1,584 low-radial cells on `2^-200<=x<=1/8` with row and column
   spread at most `1/48`; it unions them with K191's 64 high-radial `1/512`
   cells through `1/4`, propagates the stratified rule to all 53 patterns and
-  468 occurrences, and records the exact residual before noncoalescent-face
-  recentering and Duffy/Jacobi composition.
+  468 occurrences, freezes all 15 nonempty size-three active-gap face masks,
+  verifies exact rational pure-Cauchy normalization at all size-two and
+  size-three face centers, and records the shifted outward Taylor-entry
+  operator still required before Duffy/Jacobi composition.
 - `channel-swings/k192_order_six_radially_stratified_wide_gap_probe.py` checks
   radial adjacency, stratum joining, positivity, the `32/3` spread gain,
   family propagation, 200-digit wide-gap controls, a baseline-first rejected
-  `1/32` size-three cell, deterministic replay and withheld-release fences;
-  `--selftest` plants 19 hostile mutations.
+  `1/32` size-three cell, the complete face scaffold, deterministic replay and
+  withheld-release fences.
 
 ## K191 order-six near-coalescent Taylor-box controls
 

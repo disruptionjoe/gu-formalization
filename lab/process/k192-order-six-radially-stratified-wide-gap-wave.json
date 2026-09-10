@@ -8,6 +8,7 @@
     "duffy_jacobi_composition_released": false,
     "next_exact_input": "construct noncoalescent face charts for the residual maximum-gap strata, expand the normalized divided-difference matrix about each face center with outward tails, and cover every K186 pattern before Duffy/Jacobi composition",
     "noncoalescent_face_recentering_required_next": true,
+    "noncoalescent_face_topology_banked": true,
     "radially_stratified_wide_gap_region_certified": true,
     "residual_region": "spread>1/48 on x<=1/8, or spread>1/512 on x>=1/8, within the K188 positive-radius core"
   },
@@ -29786,13 +29787,246 @@
       ]
     }
   },
+  "noncoalescent_face_scaffold": {
+    "coalescent_hull_candidate_1_over_32_rejected": true,
+    "exact_missing_operator": "outward shifted Hermite--Genocchi divided-difference Taylor entries with a common face-center dependency model and determinant-level Cauchy cofactors",
+    "generic_noncoalescent_point_controls": [
+      {
+        "base_x": "31/256",
+        "column_offsets": [
+          "1/40",
+          "0/1"
+        ],
+        "regularizer": "9.386118918442446098433612E-1",
+        "row_offsets": [
+          "1/32",
+          "0/1"
+        ],
+        "size": 2,
+        "strictly_positive": true
+      },
+      {
+        "base_x": "31/256",
+        "column_offsets": [
+          "1/40",
+          "1/80",
+          "0/1"
+        ],
+        "regularizer": "8.889858132043502082214933E-1",
+        "row_offsets": [
+          "1/32",
+          "1/64",
+          "0/1"
+        ],
+        "size": 3,
+        "strictly_positive": true
+      }
+    ],
+    "pure_cauchy_normalization_exact_face_controls": {
+      "2": {
+        "checked": 3,
+        "passed": 3
+      },
+      "3": {
+        "checked": 15,
+        "passed": 15
+      }
+    },
+    "role": "exact face-atlas scaffold and failure localization; not an outward noncoalescent box certificate",
+    "shifted_taylor_entry_tail_serialized": false,
+    "size_three_face_mask_count": 15,
+    "size_three_nonempty_active_gap_masks": [
+      {
+        "active": [
+          "r0"
+        ],
+        "center": {
+          "c0": "0/1",
+          "c1": "0/1",
+          "r0": "1/32",
+          "r1": "0/1"
+        }
+      },
+      {
+        "active": [
+          "r1"
+        ],
+        "center": {
+          "c0": "0/1",
+          "c1": "0/1",
+          "r0": "0/1",
+          "r1": "1/64"
+        }
+      },
+      {
+        "active": [
+          "r0",
+          "r1"
+        ],
+        "center": {
+          "c0": "0/1",
+          "c1": "0/1",
+          "r0": "1/32",
+          "r1": "1/64"
+        }
+      },
+      {
+        "active": [
+          "c0"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "0/1",
+          "r0": "0/1",
+          "r1": "0/1"
+        }
+      },
+      {
+        "active": [
+          "r0",
+          "c0"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "0/1",
+          "r0": "1/32",
+          "r1": "0/1"
+        }
+      },
+      {
+        "active": [
+          "r1",
+          "c0"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "0/1",
+          "r0": "0/1",
+          "r1": "1/64"
+        }
+      },
+      {
+        "active": [
+          "r0",
+          "r1",
+          "c0"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "0/1",
+          "r0": "1/32",
+          "r1": "1/64"
+        }
+      },
+      {
+        "active": [
+          "c1"
+        ],
+        "center": {
+          "c0": "0/1",
+          "c1": "1/80",
+          "r0": "0/1",
+          "r1": "0/1"
+        }
+      },
+      {
+        "active": [
+          "r0",
+          "c1"
+        ],
+        "center": {
+          "c0": "0/1",
+          "c1": "1/80",
+          "r0": "1/32",
+          "r1": "0/1"
+        }
+      },
+      {
+        "active": [
+          "r1",
+          "c1"
+        ],
+        "center": {
+          "c0": "0/1",
+          "c1": "1/80",
+          "r0": "0/1",
+          "r1": "1/64"
+        }
+      },
+      {
+        "active": [
+          "r0",
+          "r1",
+          "c1"
+        ],
+        "center": {
+          "c0": "0/1",
+          "c1": "1/80",
+          "r0": "1/32",
+          "r1": "1/64"
+        }
+      },
+      {
+        "active": [
+          "c0",
+          "c1"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "1/80",
+          "r0": "0/1",
+          "r1": "0/1"
+        }
+      },
+      {
+        "active": [
+          "r0",
+          "c0",
+          "c1"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "1/80",
+          "r0": "1/32",
+          "r1": "0/1"
+        }
+      },
+      {
+        "active": [
+          "r1",
+          "c0",
+          "c1"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "1/80",
+          "r0": "0/1",
+          "r1": "1/64"
+        }
+      },
+      {
+        "active": [
+          "r0",
+          "r1",
+          "c0",
+          "c1"
+        ],
+        "center": {
+          "c0": "1/40",
+          "c1": "1/80",
+          "r0": "1/32",
+          "r1": "1/64"
+        }
+      }
+    ]
+  },
   "physical_or_source_selection": false,
   "rejected_candidate_control": {
     "candidate_gap_radius": "1/32",
     "cell_base_x": "31/256",
     "cell_upper_x": "1/8",
     "exception": "positive cell enclosure lost for size 3 at 31/256: [+/- 2.21]",
-    "radial_width_bound": "1/32",
+    "radial_width_bound": "1/31",
     "role": "pre-registered scale control only; it does not prove 1/48 maximal",
     "size": 3,
     "strict_positive_cell_rejected": true

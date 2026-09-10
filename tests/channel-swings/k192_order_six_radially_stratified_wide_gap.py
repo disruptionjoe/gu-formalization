@@ -14,6 +14,7 @@ from __future__ import annotations
 import argparse
 import importlib.util
 import json
+from decimal import Decimal, localcontext
 from fractions import Fraction
 from pathlib import Path
 from typing import Any
@@ -31,7 +32,7 @@ WIDE_GAP_RELATIVE_RADIUS = Fraction(1, 48)
 REJECTED_GAP_RELATIVE_RADIUS = Fraction(1, 32)
 REJECTED_CELL_BASE = Fraction(31, 256)
 REJECTED_CELL_UPPER = Fraction(1, 8)
-REJECTED_RADIAL_WIDTH_BOUND = Fraction(1, 32)
+REJECTED_RADIAL_WIDTH_BOUND = Fraction(1, 31)
 
 
 def load_module(name: str, path: Path):
@@ -86,9 +87,116 @@ def rejected_candidate_control() -> dict[str, Any]:
     }
 
 
+def noncoalescent_face_scaffold() -> dict[str, Any]:
+    """Bank the exact face topology and a point control for the next chart.
+
+    This deliberately stops before an outward shifted-Taylor certificate.  It
+    proves that the Cauchy normalization is regular on arbitrary face centers,
+    enumerates every nonempty size-three active-gap mask, and checks generic
+    noncoalescent Bessel values independently.  The missing object is thereby
+    narrowed to a shifted Hermite--Genocchi/Taylor tail evaluator.
+    """
+
+    labels = ("r0", "r1", "c0", "c1")
+    centers = (Fraction(1, 32), Fraction(1, 64), Fraction(1, 40), Fraction(1, 80))
+    masks = []
+    for mask in range(1, 1 << len(labels)):
+        masks.append(
+            {
+                "active": [labels[index] for index in range(len(labels)) if mask & (1 << index)],
+                "center": {
+                    labels[index]: K191.fraction_text(centers[index] if mask & (1 << index) else Fraction(0))
+                    for index in range(len(labels))
+                },
+            }
+        )
+
+    exact_face_controls = {}
+    for size, relevant_labels in ((2, ("r0", "c0")), (3, labels)):
+        expressions = K191.cauchy_dd_matrix(size)
+        relevant_masks = [
+            row for row in masks
+            if row["active"] and all(label in relevant_labels for label in row["active"])
+        ]
+        passed = 0
+        for row in relevant_masks:
+            substitutions = {
+                K191.W: K191.sp.Rational(1, 64),
+                K191.R0: K191.sp.Rational(row["center"]["r0"]),
+                K191.R1: K191.sp.Rational(row["center"]["r1"]),
+                K191.C0: K191.sp.Rational(row["center"]["c0"]),
+                K191.C1: K191.sp.Rational(row["center"]["c1"]),
+            }
+            matrix = K191.sp.Matrix(
+                [[K191.sp.cancel(value.subs(substitutions)) for value in matrix_row] for matrix_row in expressions]
+            )
+            nodes_r = K191.row_nodes(size)
+            nodes_c = K191.column_nodes(size)
+            product = K191.sp.prod(
+                1 + substitutions[K191.W] + node_r.subs(substitutions) + node_c.subs(substitutions)
+                for node_r in nodes_r for node_c in nodes_c
+            )
+            if K191.sp.cancel(matrix.det(method="domain-ge") * product) != 1:
+                raise AssertionError("noncoalescent Cauchy face control failed")
+            passed += 1
+        exact_face_controls[str(size)] = {
+            "checked": len(relevant_masks),
+            "passed": passed,
+        }
+
+    x_fraction = Fraction(31, 256)
+    x = Decimal(x_fraction.numerator) / Decimal(x_fraction.denominator)
+    left_minimum = x * Decimal(2) / 5
+    right_minimum = x * Decimal(3) / 5
+    controls = []
+    for size, row_offsets, column_offsets in (
+        (2, (Fraction(1, 32), Fraction(0)), (Fraction(1, 40), Fraction(0))),
+        (
+            3,
+            (Fraction(1, 32), Fraction(1, 64), Fraction(0)),
+            (Fraction(1, 40), Fraction(1, 80), Fraction(0)),
+        ),
+    ):
+        left = [
+            left_minimum + x * Decimal(offset.numerator) / Decimal(offset.denominator)
+            for offset in row_offsets
+        ]
+        right = [
+            right_minimum + x * Decimal(offset.numerator) / Decimal(offset.denominator)
+            for offset in column_offsets
+        ]
+        with localcontext() as context:
+            context.prec = 220
+            value = K191.K186.divided_difference_regularizer(left, right, 200)
+        if not value > 0:
+            raise AssertionError("generic noncoalescent point control lost positivity")
+        controls.append(
+            {
+                "size": size,
+                "base_x": K191.fraction_text(x_fraction),
+                "row_offsets": [K191.fraction_text(value) for value in row_offsets],
+                "column_offsets": [K191.fraction_text(value) for value in column_offsets],
+                "regularizer": format(value, ".24E"),
+                "strictly_positive": True,
+            }
+        )
+
+    return {
+        "pure_cauchy_normalization_exact_face_controls": exact_face_controls,
+        "size_three_nonempty_active_gap_masks": masks,
+        "size_three_face_mask_count": len(masks),
+        "generic_noncoalescent_point_controls": controls,
+        "coalescent_hull_candidate_1_over_32_rejected": True,
+        "shifted_taylor_entry_tail_serialized": False,
+        "exact_missing_operator": "outward shifted Hermite--Genocchi divided-difference Taylor entries with a common face-center dependency model and determinant-level Cauchy cofactors",
+        "role": "exact face-atlas scaffold and failure localization; not an outward noncoalescent box certificate",
+    }
+
+
 def build() -> dict[str, Any]:
     predecessor = json.loads(K191_MANIFEST.read_text())
     rejected = rejected_candidate_control()
+    face_scaffold = noncoalescent_face_scaffold()
     reset_k191(WIDE_GAP_RELATIVE_RADIUS)
     by_size, bands = K191.adaptive_radial_certificates()
 
@@ -183,11 +291,13 @@ def build() -> dict[str, Any]:
         },
         "independent_controls": direct,
         "rejected_candidate_control": rejected,
+        "noncoalescent_face_scaffold": face_scaffold,
         "decision": {
             "radially_stratified_wide_gap_region_certified": True,
             "arbitrary_gap_ratio_coverage_complete": False,
             "certified_region": "2^-200<=x<=1/8 with row/column spread<=1/48 of the local cell base, union 1/8<=x<=1/4 with K191 row/column spread<=1/512",
             "residual_region": "spread>1/48 on x<=1/8, or spread>1/512 on x>=1/8, within the K188 positive-radius core",
+            "noncoalescent_face_topology_banked": True,
             "noncoalescent_face_recentering_required_next": True,
             "duffy_jacobi_composition_released": False,
             "next_exact_input": "construct noncoalescent face charts for the residual maximum-gap strata, expand the normalized divided-difference matrix about each face center with outward tails, and cover every K186 pattern before Duffy/Jacobi composition",

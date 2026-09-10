@@ -36,6 +36,7 @@ def check(data: dict, replay: bool = True) -> list[tuple[str, bool]]:
     union = data.get("stratified_union", {})
     controls = data.get("independent_controls", {})
     rejected = data.get("rejected_candidate_control", {})
+    face = data.get("noncoalescent_face_scaffold", {})
     decision = data.get("decision", {})
     release = data.get("release_test", {})
     low2 = low.get("sizes", {}).get("2", [])
@@ -58,7 +59,12 @@ def check(data: dict, replay: bool = True) -> list[tuple[str, bool]]:
         ("468 occurrences", fixed.get("source_nontrivial_occurrences") == 468 and union.get("all_468_occurrences_covered_conditionally_on_the_stratified_spread_rule") is True),
         ("independent controls", controls.get("all_controls_contained") is True and all(row.get("contained") for row in controls.get("rows", []))),
         ("rejected coarse candidate", rejected.get("candidate_gap_radius") == "1/32" and rejected.get("strict_positive_cell_rejected") is True),
+        ("face Cauchy controls", all(row.get("checked") == row.get("passed") and row.get("passed", 0) > 0 for row in face.get("pure_cauchy_normalization_exact_face_controls", {}).values())),
+        ("face masks", face.get("size_three_face_mask_count") == 15 and len(face.get("size_three_nonempty_active_gap_masks", [])) == 15),
+        ("face point controls", all(row.get("strictly_positive") for row in face.get("generic_noncoalescent_point_controls", [])) and len(face.get("generic_noncoalescent_point_controls", [])) == 2),
+        ("shifted tail held", face.get("shifted_taylor_entry_tail_serialized") is False),
         ("local release boundary", decision.get("radially_stratified_wide_gap_region_certified") is True and decision.get("arbitrary_gap_ratio_coverage_complete") is False),
+        ("face topology banked", decision.get("noncoalescent_face_topology_banked") is True),
         ("next chart explicit", decision.get("noncoalescent_face_recentering_required_next") is True),
         ("downstream held", release.get("duffy_jacobi_chain_rule_envelopes_serialized") is False and release.get("accurate_order_six_prefix_released") is False),
         ("no physical effect", data.get("physical_or_source_selection") is False and data.get("canon_paper_release_or_public_posture_move") is False),
@@ -90,9 +96,14 @@ def mutations(data: dict):
     add("occurrences", lambda d: d["fixed_control"].__setitem__("source_nontrivial_occurrences", 467))
     add("control", lambda d: d["independent_controls"].__setitem__("all_controls_contained", False))
     add("negative control", lambda d: d["rejected_candidate_control"].__setitem__("strict_positive_cell_rejected", False))
+    add("face identity", lambda d: d["noncoalescent_face_scaffold"]["pure_cauchy_normalization_exact_face_controls"]["3"].__setitem__("passed", 0))
+    add("face masks", lambda d: d["noncoalescent_face_scaffold"].__setitem__("size_three_face_mask_count", 14))
+    add("face point", lambda d: d["noncoalescent_face_scaffold"]["generic_noncoalescent_point_controls"][0].__setitem__("strictly_positive", False))
+    add("shifted tail overclaim", lambda d: d["noncoalescent_face_scaffold"].__setitem__("shifted_taylor_entry_tail_serialized", True))
     add("local result", lambda d: d["decision"].__setitem__("radially_stratified_wide_gap_region_certified", False))
     add("global overclaim", lambda d: d["decision"].__setitem__("arbitrary_gap_ratio_coverage_complete", True))
     add("chart omitted", lambda d: d["decision"].__setitem__("noncoalescent_face_recentering_required_next", False))
+    add("topology omitted", lambda d: d["decision"].__setitem__("noncoalescent_face_topology_banked", False))
     add("cubature overclaim", lambda d: d["release_test"].__setitem__("duffy_jacobi_chain_rule_envelopes_serialized", True))
     add("physical overclaim", lambda d: d.__setitem__("physical_or_source_selection", True))
     return candidates

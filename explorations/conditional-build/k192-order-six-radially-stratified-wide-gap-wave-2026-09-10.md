@@ -4,7 +4,7 @@ document_role: active_research
 doc_type: conditional_native_K139_K192_order_six_radially_stratified_wide_gap_result
 created: 2026-09-10
 date: 2026-09-10
-claim_ceiling: rigorous repository-owned outward positivity boxes for every K186 size-two and size-three regularizer on the union of minimum cross argument 2^-200 through 1/8 with row and column spread at most 1/48 of the local cell base, and 1/8 through 1/4 with K191 spread at most 1/512; no arbitrary gap-ratio cover, noncoalescent face atlas, Duffy/Jacobi chain-rule remainder, complete positive-core error, outward order-six total, accurate prefix, action column, residual, complement or flux floor, scalar-center floor, K152 interval, physical/source selection, Born derivation, prediction or confirmation
+claim_ceiling: rigorous repository-owned outward positivity boxes for every K186 size-two and size-three regularizer on the union of minimum cross argument 2^-200 through 1/8 with row and column spread at most 1/48 of the local cell base, and 1/8 through 1/4 with K191 spread at most 1/512; exact noncoalescent face topology and point controls only, with no outward face-chart certificate, arbitrary gap-ratio cover, Duffy/Jacobi chain-rule remainder, complete positive-core error, outward order-six total, accurate prefix, action column, residual, complement or flux floor, scalar-center floor, K152 interval, physical/source selection, Born derivation, prediction or confirmation
 manifest: lab/process/k192-order-six-radially-stratified-wide-gap-wave.json
 solver: tests/channel-swings/k192_order_six_radially_stratified_wide_gap.py
 probe: tests/channel-swings/k192_order_six_radially_stratified_wide_gap_probe.py
@@ -112,16 +112,30 @@ sizes two and three. They lie inside the corresponding outward intervals.
 They are controls, not the proof.
 
 A pre-registered size-three cell at base `31/256`, upper endpoint `1/8` and
-candidate radius `1/32` fails strict positivity under the same enclosure. This
+candidate radius `1/32` (whose exact radial width bound is `1/31`) fails strict positivity under the same enclosure. This
 rejects that coarse candidate for the current method. It does not prove that
 `1/48` is mathematically maximal or that a recentered chart cannot cover it.
 
-## 4. Honest boundary and continuation
+## 4. Noncoalescent face scaffold
+
+The follow-on route now freezes all 15 nonempty active-gap masks for a
+size-three determinant. Exact rational substitution verifies the pure-Cauchy
+normalization at all three size-two masks and all 15 size-three masks, and
+generic noncoalescent point controls remain strictly positive for both sizes.
+This banks the face-atlas topology and isolates the next proof object.
+
+It does not serialize an outward face box. The missing operator is the shifted
+Hermite--Genocchi divided-difference Taylor expansion, with a common face-center
+dependency model and determinant-level Cauchy cofactors. Until its entry tails
+are rigorous and the face boxes cover the residual strata, the scaffold earns
+no arbitrary-gap or cubature credit.
+
+## 5. Honest boundary and continuation
 
 The remaining domain is spread greater than `1/48` below `x=1/8`, or greater
 than `1/512` above it. K192 does not cover arbitrary gap ratios and does not
-serialize a noncoalescent face atlas, Duffy/Jacobi chain-rule envelope or
-weighted-cubature remainder. The accurate certified prefix remains through
+serialize outward noncoalescent face boxes, a Duffy/Jacobi chain-rule envelope
+or weighted-cubature remainder. The accurate certified prefix remains through
 order five.
 
 The next exact work is to partition the residual by its maximal row/column
@@ -141,8 +155,8 @@ _local/cas-venv/bin/python tests/channel-swings/k192_order_six_radially_stratifi
 
 The probe checks the complete union topology, exact domain boundary, all
 pattern/occurrence propagation, independent controls, the rejected `1/32`
-candidate and every withheld-release fence. Its baseline has 20 checks with
-deterministic replay and the hostile selftest catches 19/19 mutations.
+candidate, all 15 size-three face masks, exact rational face normalizations,
+generic noncoalescent point controls and every withheld-release fence.
 
 ## Inline postflight bookend
 

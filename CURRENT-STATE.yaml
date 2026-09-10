@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 479337503b99763fd90ab7d54e0245909c660964
+revision_basis: a48dc146dcf3ae0f30bec01ed59034cb7dddfb3a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -48,8 +48,14 @@ current_result:
     groups. Independent 200-digit values at x=2/25 and gap 1/96 lie inside
     generic boxes. A pre-registered size-three 1/32 candidate fails the
     current enclosure; that is a method control, not a global maximality
-    theorem. Arbitrary gap ratios, a noncoalescent face atlas and the
-    Duffy/Jacobi chain-rule and weighted-cubature remainder remain open. The
+    theorem. All 15 nonempty size-three active-gap masks are now frozen; exact
+    rational substitution verifies pure-Cauchy normalization at all three
+    size-two and 15 size-three face centers, and generic noncoalescent point
+    controls are positive. This is a topology scaffold, not an outward face
+    certificate: the shifted Hermite--Genocchi divided-difference Taylor-entry
+    tails with shared face-center dependencies remain missing. Arbitrary gap
+    ratios and the Duffy/Jacobi chain-rule and weighted-cubature remainder
+    remain open. The
     accurate certified prefix stays through order five. No complete K171/K168
     action column, R_ref residual, complement or flux floor, scalar-center
     floor or K152 interval is evaluated. No physical/source, Born, prediction
@@ -7666,7 +7672,9 @@ next_condition: >-
   treat 200-digit controls as interval proof, or compose the partial union
   into a complete cubature remainder. Partition the residual by its maximal
   row or column gap, recenter the complete normalized divided-difference
-  matrix on noncoalescent faces, and cover every K186 time-node pattern before
+  matrix on the 15 banked noncoalescent face masks, serialize the shifted
+  Hermite--Genocchi entry tails with shared face-center dependencies and
+  determinant-level Cauchy cofactors, and cover every K186 time-node pattern before
   building the Duffy/Jacobi chain-rule bounds and weighted cubature remainder.
   Preserve all 234 signed entries, 18 coherent groups, 53 patterns, primitive
   gaps, old-position factors, complete determinants and shared time nodes;
