@@ -7,6 +7,24 @@ updated_at: "2026-09-10"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K194 order-six projective gap-spine family (2026-09-10)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The shifted evaluator can avoid per-chart symbolic re-expansion | evaluating each original exact monomial divided difference at `w-a` is symbolically identical to substituting `w -> w-a`; all 221 size-two/three entries through order 16 pass exact identity and directed-Arb overlap checks | exact translated-evaluation identity |
+| A correlated ordered-gap spine is outwardly positive | 1,024 size-two and 4,096 size-three contiguous Arb cells cover `1<=t<=8` with `r0=t/32`, `r1=t/64`, `c0=t/40`, `c1=t/80` on `31/256<=x<=1/8`; minimum lower bounds are `0.881830322982048` and `0.15617474532762968` | rigorous directed-Arb one-dimensional projective spine |
+| The new spine joins K193 | at `t=1` the four gap coordinates exactly equal K193's fully active face center and the radial cell is unchanged; every scale and radial endpoint is contiguous | exact rational overlap and adjacency certificate |
+| Independent controls agree | six 200-digit divided-difference values at `t=1,4,8` lie inside the global size-two/three outward ranges | deterministic controls only; Arb cells carry the proof |
+| The independent-coordinate hull refutes positivity | the axis-aligned endpoint hull gives `-365.5575<=R_3<=367.7458`, but it contains shapes outside the correlated ray | false; this is a registered dependency-loss control, not a counterexample |
+| K194 covers the transverse ordered gap domain or releases cubature | only one projective shape ray is certified; no transverse atlas, Duffy/Jacobi derivative envelope, positive-core remainder or outward order-six total is serialized | false; accurate certified prefix remains through order five |
+| K194 releases action columns or physical positivity | no action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k194_order_six_projective_gap_spine.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k194_order_six_projective_gap_spine_probe.py`
+and its baseline-first hostile check with `--no-replay --selftest`.
+
 ## K193 order-six shifted face-entry family (2026-09-10)
 
 | Claim | Evidence | Honest grade |

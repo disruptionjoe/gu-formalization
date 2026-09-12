@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K194 order-six projective gap-spine controls
+
+- `channel-swings/k194_order_six_projective_gap_spine.py` retains K193's
+  shifted Hermite--Genocchi entry theorem, evaluates its exact monomial
+  divided differences on translated intervals without per-chart symbolic
+  re-expansion, and preserves the physically ordered gaps through one shared
+  scale `t`. It certifies 1,024 size-two and 4,096 size-three contiguous Arb
+  cells on `1<=t<=8`, proves the exact join to K193, and records the failed
+  independent-coordinate hull as a dependency-loss control.
+- `channel-swings/k194_order_six_projective_gap_spine_probe.py` checks 221
+  translated identities, all 5,120 cell counts and lower bounds, adjacency,
+  the exact K193 join, six independent 200-digit controls, complete K186
+  formula propagation, deterministic replay and the withheld transverse-
+  atlas/cubature release fences (`31/31` baseline; `31/31` hostile mutations).
+
 ## K193 order-six shifted face-entry controls
 
 - `channel-swings/k193_order_six_shifted_face_entry.py` translates K191's
