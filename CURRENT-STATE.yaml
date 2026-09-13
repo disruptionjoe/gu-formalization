@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b640d2af9f47ce8236b04b521333e12320ac20e2
+revision_basis: 15635590c7832aa9da687a26f229fcb7d055998d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K197 order-six max-gap q-corridor Big Wave holds K196's certified
+    505/1024<=a,c<=519/1024 product interval fixed and rigorously covers
+    8227/10240<=q<=1 through the exact row/column chart seam. One common
+    scale-radial-three-shape interval supplies every shifted entry and
+    normalization before each complete determinant. All 33 base q tiles pass
+    directly with adaptive depth zero: 132,096 unique directed-Arb cells
+    represent 264,192 row/column chart instances by exact transpose. Minimum
+    size-two/three lower bounds are 0.6939805476585044 and
+    0.01677212157128826, and 268 independent 200-digit boundary controls
+    agree. This completes only the q direction for the fixed K196 a,c block;
+    the remaining a/c shells, regularizer derivatives, Duffy/Jacobi remainder,
+    complete core error and accurate order-six prefix remain open. No
+    K171/K168 action column, R_ref residual, complement or flux floor,
+    scalar-center floor or K152 interval is evaluated. No physical/source,
+    Born, prediction or confirmation claim follows.
+
     The K196 order-six max-gap product-atlas Big Wave gives every positive
     ordered row/column gap tuple exact row-dominant or column-dominant
     coordinates with positive absolute Jacobian t^3*q/2^20 and an exact
@@ -7708,9 +7724,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K196's exact two-chart max-gap atlas and two rigorously positive open
-  product blocks be adaptively extended across the q-to-1 overlap corridor and
-  remaining ordered-shape complement, then differentiated and
+  Can K197's complete fixed-a,c q-to-1 corridor be adaptively extended across
+  the remaining a/c shells to close the ordered-shape determinant cover, then
+  differentiated and
   composed with the positive-radius Duffy/Jacobi chain rule and weighted
   cubature remainder on 2^-20<=rho<=1/4 and z_i>=2^-180; if so, does the
   completed K185/K188 boundary control plus that prefix advance the K171/K168
@@ -7724,18 +7740,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K196 covers every positive ordered row/column gap tuple by exact row-dominant
-  and column-dominant max-gap coordinates (t,a,q,c), with absolute Jacobian
-  t^3*q/2^20 and exact transpose symmetry. The declared shape cell
-  505/1024<=a,c<=519/1024 and 8157/10240<=q<=8227/10240 is rigorously positive
-  across 1<=t<=8 and 31/256<=x<=1/8 in both charts: 5,120 unique Arb cells
-  represent 10,240 chart instances, with minimum lower bounds
-  0.8755300882370464 and 0.01286424347437851. The next unsplit dilation loses
-  interval sign at two size-three cells, while all sixteen declared bisection
-  children recover positivity. The rest of that shell is untested and no
-  regularizer counterexample follows. Adaptively subdivide the remaining
-  product complement, beginning with the q-to-1 chart-overlap corridor and then the
-  a/c shells, while retaining one common scale-radial-shape cell before every
+  K197 rigorously connects K196's fixed 505/1024<=a,c<=519/1024 product block
+  from q=8227/10240 through the exact q=1 row/column chart seam. All 132,096
+  unique directed-Arb cells are strictly positive and represent 264,192 chart
+  instances by exact transpose; minimum size-two/three lower bounds are
+  0.6939805476585044 and 0.01677212157128826, and 268 independent controls
+  agree. All 33 base q tiles pass at adaptive depth zero. The coordinate atlas
+  is global, but the remaining a/c shells are untested and no complete
+  determinant-positive ordered-shape theorem follows. Adaptively subdivide
+  those a/c shells using the accepted q-resolution profile, while retaining
+  one common scale-radial-shape cell before every
   complete determinant. Only after that cover closes, differentiate the
   common chart model for Duffy/Jacobi chain-rule bounds and the weighted
   cubature remainder.

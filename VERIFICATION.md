@@ -2,10 +2,26 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-12"
+updated_at: "2026-09-13"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K197 order-six max-gap q-corridor family (2026-09-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K196's fixed `a,c` block connects to the `q=1` chart seam | 132,096 unique directed-Arb cells cover `8227/10240<=q<=1`, representing 264,192 row/column chart instances by exact transpose; minimum size-two/three lower bounds are `0.6939805476585044` and `0.01677212157128826` | rigorous outward complete q-corridor certificate for the fixed `a,c` block |
+| The corridor preserves determinant dependencies | one shared `(t,w,a,q,c)` interval supplies every shifted entry and common normalization before the complete determinant; all 33 base q tiles pass directly with adaptive depth zero | rigorous common-cell certificate |
+| Independent controls agree | 268 200-digit values at exact q boundaries, scale endpoints and declared `a,c` corners lie inside the global size-specific outward ranges | deterministic controls only; Arb cells carry the proof |
+| K197 covers the complete determinant-positive ordered-shape domain | only `505/1024<=a,c<=519/1024` is certified; the remaining `a,c` shells are open even though the coordinate atlas itself is global | false; adaptive shell tiling remains required |
+| K197 releases cubature, action columns or physical positivity | no regularizer derivative envelope, Duffy/Jacobi remainder, complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k197_order_six_max_gap_q_corridor.py --write --progress`,
+its independent deterministic replay through
+`_local/cas-venv/bin/python tests/channel-swings/k197_order_six_max_gap_q_corridor_probe.py`
+and its baseline-first hostile check with `--no-replay --selftest`.
 
 ## K196 order-six max-gap product-atlas family (2026-09-12)
 

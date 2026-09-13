@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K197 order-six max-gap q-corridor controls
+
+- `channel-swings/k197_order_six_max_gap_q_corridor.py` holds K196's certified
+  `a,c` interval fixed and covers `8227/10240<=q<=1` with one common
+  scale/radial/shape interval before every complete determinant. It certifies
+  132,096 unique Arb cells, representing 264,192 row/column chart instances by
+  exact transpose; all 33 base q tiles pass without adaptive refinement.
+- `channel-swings/k197_order_six_max_gap_q_corridor_probe.py` checks endpoint
+  joins, exact tilings, cell accounting, strict lower bounds, contiguity,
+  common-cell and transpose propagation, 268 independent 200-digit controls,
+  complete K186 formula propagation, deterministic replay and withheld
+  `a,c`-shell/cubature release fences (`44/44` baseline; `43/43` hostile
+  mutations).
+
 ## K196 order-six max-gap product-atlas controls
 
 - `channel-swings/k196_order_six_max_gap_product_atlas.py` proves exact row-
