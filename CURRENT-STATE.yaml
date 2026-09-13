@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 102dbd020d912fa22f7ed1514034a06468a3ea83
+revision_basis: b640d2af9f47ce8236b04b521333e12320ac20e2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K196 order-six max-gap product-atlas Big Wave gives every positive
+    ordered row/column gap tuple exact row-dominant or column-dominant
+    coordinates with positive absolute Jacobian t^3*q/2^20 and an exact
+    overlap transition. One common scale-radial-three-shape interval cell
+    supplies every shifted entry and normalization before the complete
+    determinant. A seven-step dilation of K195's shape box yields 5,120 unique
+    strictly positive directed-Arb cells, representing 10,240 row/column chart
+    instances by exact transpose. Minimum size-two/three lower bounds are
+    0.8755300882370464 and 0.01286424347437851, and 20 independent 200-digit
+    corner controls agree. The K195 coordinate star lies strictly inside the
+    row block and a mirrored column block is new. The coordinate atlas is
+    global, but the determinant-positive certificate is local: two cells in
+    the next unsplit dilation lose interval sign, while all sixteen declared
+    three-ratio bisection children recover positivity. This is dependency loss,
+    not a regularizer counterexample or a complete shell cover. The q-to-1
+    overlap corridor, remaining a/c complement, regularizer derivatives,
+    complete core remainder and
+    accurate order-six prefix remain open. No K171/K168 action column, R_ref
+    residual, complement or flux floor, scalar-center floor or K152 interval
+    is evaluated. No physical/source, Born, prediction or confirmation claim
+    follows.
+
     The K195 order-six transverse projective coordinate-star Big Wave gives
     K194's gap ray exact compact coordinates r0=s/32, r1=s*a/32,
     c0=s*b/32 and c1=s*b*c/32, with inverse shape ratios and positive exact
@@ -7686,9 +7708,9 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K195's exact compact ratio coordinates and rigorously positive
-  transverse coordinate-star be extended to a two-chart max-gap atlas that
-  covers the full ordered-shape product domain, then differentiated and
+  Can K196's exact two-chart max-gap atlas and two rigorously positive open
+  product blocks be adaptively extended across the q-to-1 overlap corridor and
+  remaining ordered-shape complement, then differentiated and
   composed with the positive-radius Duffy/Jacobi chain rule and weighted
   cubature remainder on 2^-20<=rho<=1/4 and z_i>=2^-180; if so, does the
   completed K185/K188 boundary control plus that prefix advance the K171/K168
@@ -7702,18 +7724,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K195 parameterizes the fully active ordered gaps by r0=s/32, r1=s*a/32,
-  c0=s*b/32 and c1=s*b*c/32. The inverse ratios are exact and the Jacobian
-  s^3*b/2^20 is positive on the chart interior. Holding two ratios at the K194
-  values while varying the third gives 13,312 strictly positive directed-Arb
-  cells across the a, b and c coordinate sweeps on 1<=s<=8 and
-  31/256<=x<=1/8. Every sweep contains the K194 ray and the K193/K192 face
-  join. This coordinate star proves directional transverse stability but not
-  an open product neighborhood. Build row-dominant and column-dominant charts
-  using max(r0,c0) as scale and a compact balance ratio, retain one common
-  scale-and-shape cell before every complete determinant, and adaptively cover
-  the product-shape complement. Only after that cover closes, differentiate
-  the common chart model for Duffy/Jacobi chain-rule bounds and the weighted
+  K196 covers every positive ordered row/column gap tuple by exact row-dominant
+  and column-dominant max-gap coordinates (t,a,q,c), with absolute Jacobian
+  t^3*q/2^20 and exact transpose symmetry. The declared shape cell
+  505/1024<=a,c<=519/1024 and 8157/10240<=q<=8227/10240 is rigorously positive
+  across 1<=t<=8 and 31/256<=x<=1/8 in both charts: 5,120 unique Arb cells
+  represent 10,240 chart instances, with minimum lower bounds
+  0.8755300882370464 and 0.01286424347437851. The next unsplit dilation loses
+  interval sign at two size-three cells, while all sixteen declared bisection
+  children recover positivity. The rest of that shell is untested and no
+  regularizer counterexample follows. Adaptively subdivide the remaining
+  product complement, beginning with the q-to-1 chart-overlap corridor and then the
+  a/c shells, while retaining one common scale-radial-shape cell before every
+  complete determinant. Only after that cover closes, differentiate the
+  common chart model for Duffy/Jacobi chain-rule bounds and the weighted
   cubature remainder.
   Preserve all 234 signed entries, 18 coherent groups, 53 patterns, primitive
   gaps, old-position factors, complete determinants and shared time nodes;

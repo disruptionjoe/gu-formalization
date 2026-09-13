@@ -7,6 +7,23 @@ updated_at: "2026-09-12"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K196 order-six max-gap product-atlas family (2026-09-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Positive ordered row/column gaps admit a max-gap atlas | exact row- and column-dominant maps cover by comparing `r0` and `c0`; absolute Jacobian is `t^3 q/2^20` and the overlap transition is exact | exact rational two-chart coordinate atlas |
+| K195's coordinate star lies in an open determinant-positive product region | 5,120 unique directed-Arb cells certify simultaneous `a,q,c` intervals in two transpose-related blocks; 10,240 chart instances, minimum size-two/three lower bounds `0.8755300882370464` and `0.01286424347437851` | rigorous outward local open-product certificate |
+| Independent controls agree | 20 200-digit corner values at both scale endpoints lie inside the global size-two/three outward ranges | deterministic controls only; Arb cells carry the proof |
+| The next unsplit uniform dilation is certified | two size-three dilation-eight cells have negative interval lower bounds; all sixteen declared three-ratio bisection children are positive | certified dependency loss and local adaptive recovery for those witnesses only; not a regularizer counterexample or complete shell cover |
+| K196 covers the complete determinant-positive ordered-shape domain | the coordinate atlas is global but the positive certificates cover only the two declared local blocks; the `q`-to-`1` corridor and remaining `a,c` complement are open | false; adaptive product tiling remains required |
+| K196 releases cubature, action columns or physical positivity | no regularizer derivative envelope, complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k196_order_six_max_gap_product_atlas.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k196_order_six_max_gap_product_atlas_probe.py`
+and its baseline-first hostile check with `--no-replay --selftest`.
+
 ## K195 order-six transverse projective coordinate-star family (2026-09-12)
 
 | Claim | Evidence | Honest grade |

@@ -1,0 +1,749 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "atlas_chain_rule_handoff": {
+    "coordinate_derivative_matrices_exact": true,
+    "regularizer_derivative_envelopes": false,
+    "row_and_column_absolute_jacobians_exact": true,
+    "seam_and_extended_transition_exact": true,
+    "weighted_duffy_jacobi_remainder": false
+  },
+  "canon_paper_release_or_public_posture_move": false,
+  "certified_open_product_blocks": {
+    "all_cells_strictly_positive": true,
+    "chart_cell_instances_by_exact_transpose": 10240,
+    "chart_roles": [
+      "row_dominant",
+      "column_dominant_by_exact_transpose"
+    ],
+    "common_cell_rule": "one shared (t,w,a,q,c) interval cell supplies every shifted entry and common normalization before the complete determinant",
+    "k195_star_strictly_inside_row_block": true,
+    "mirrored_column_block_new": true,
+    "sizes": {
+      "2": {
+        "all_cells_strictly_positive": true,
+        "chart_cell_instances_by_exact_transpose": 2048,
+        "maximum_R_upper": 0.9928048242948976,
+        "maximum_entry_tail": 1.1572446375068193e-07,
+        "minimum_R_lower": 0.8755300882370464,
+        "scale_and_radial_cells_contiguous": true,
+        "shape_cell": {
+          "a": [
+            "505/1024",
+            "519/1024"
+          ],
+          "c": [
+            "505/1024",
+            "519/1024"
+          ],
+          "q": [
+            "8157/10240",
+            "8227/10240"
+          ]
+        },
+        "subdivisions": {
+          "radial": 16,
+          "scale": 64,
+          "shape": 1
+        },
+        "unique_outward_cells": 1024
+      },
+      "3": {
+        "all_cells_strictly_positive": true,
+        "chart_cell_instances_by_exact_transpose": 8192,
+        "maximum_R_upper": 1.7381185107063597,
+        "maximum_entry_tail": 0.00011836094499380091,
+        "minimum_R_lower": 0.01286424347437851,
+        "scale_and_radial_cells_contiguous": true,
+        "shape_cell": {
+          "a": [
+            "505/1024",
+            "519/1024"
+          ],
+          "c": [
+            "505/1024",
+            "519/1024"
+          ],
+          "q": [
+            "8157/10240",
+            "8227/10240"
+          ]
+        },
+        "subdivisions": {
+          "radial": 16,
+          "scale": 256,
+          "shape": 1
+        },
+        "unique_outward_cells": 4096
+      }
+    },
+    "unique_outward_cells": 5120
+  },
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_propagation": {
+    "all_234_entries_and_18_groups_remain_in_scope": true,
+    "all_468_occurrences_retain_the_same_formula": true,
+    "all_53_patterns_retain_the_same_formula": true,
+    "new_bound_applies_only_on_the_two_declared_open_product_blocks": true,
+    "operator_applies_to_every_size_two_and_three_regularizer": true
+  },
+  "decision": {
+    "complete_ordered_shape_product_domain_covered": false,
+    "exact_two_chart_max_gap_atlas_serialized": true,
+    "k195_coordinate_star_strictly_extended": true,
+    "next_exact_input": "adaptively subdivide the remaining a/q/c complement in both max-gap charts, beginning with the q-to-1 overlap corridor; only after coverage, differentiate the common-cell regularizer and compose the Duffy/Jacobi remainder",
+    "open_product_neighborhoods_outwardly_certified": true
+  },
+  "direction": "observed_to_native",
+  "exact_max_gap_atlas": {
+    "column_dominant": {
+      "absolute_jacobian": "t^3*q/1048576",
+      "domain": "c0>=r0>0, 0<r1/r0<1, 0<c1/c0<1",
+      "forward_map": [
+        "r0=t*q/32",
+        "r1=t*q*a/32",
+        "c0=t/32",
+        "c1=t*c/32"
+      ],
+      "inverse_map": {
+        "a": "r1/r0",
+        "c": "c1/c0",
+        "q": "r0/c0",
+        "t": "32*c0"
+      },
+      "oriented_jacobian": "-t^3*q/1048576"
+    },
+    "cover": "every r0,c0>0 lies in at least one chart by comparing r0 and c0",
+    "exact": true,
+    "overlap": "r0=c0 iff q=1; both charts agree there",
+    "positive_absolute_jacobians": true,
+    "row_dominant": {
+      "domain": "r0>=c0>0, 0<r1/r0<1, 0<c1/c0<1",
+      "forward_map": [
+        "r0=t/32",
+        "r1=t*a/32",
+        "c0=t*q/32",
+        "c1=t*q*c/32"
+      ],
+      "inverse_map": {
+        "a": "r1/r0",
+        "c": "c1/c0",
+        "q": "c0/r0",
+        "t": "32*r0"
+      },
+      "oriented_jacobian": "t^3*q/1048576"
+    },
+    "transition_between_unrestricted_coordinate_representations": {
+      "a_column": "a_row",
+      "c_column": "c_row",
+      "q_column": "1/q_row",
+      "t_column": "t_row*q_row"
+    },
+    "transpose_symmetry": "column-dominant determinant cells equal row-dominant cells after swapping row and column gaps and a<->c"
+  },
+  "fixed_control": {
+    "arb_decimal_digits": 120,
+    "max_gap_scale_range": "1/1<=t<=8/1",
+    "predecessor_manifest": "lab/process/k195-order-six-transverse-projective-chart-wave.json",
+    "product_dilation": 7,
+    "radial_cell": "31/256<=x<=1/8",
+    "source_coherent_groups": 18,
+    "source_manifest": "lab/process/k186-order-six-bessel-vandermonde-wave.json",
+    "source_nontrivial_occurrences": 468,
+    "source_patterns": 53,
+    "source_time_gram_entries": 234,
+    "taylor_order": 16,
+    "threads": 1
+  },
+  "independent_controls": {
+    "all_contained": true,
+    "precision_decimal_digits": 200,
+    "role": "independent convergent-series corner controls; directed Arb product cells carry the proof",
+    "rows": [
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "9.371500596582812061644431E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "c": "1/2",
+          "q": "8157/10240"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "9.371403123801624319996480E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "c": "1/2",
+          "q": "8227/10240"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "9.185888929312457053325987E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "c": "1/2",
+          "q": "8157/10240"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "9.185057095202287694038249E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "c": "1/2",
+          "q": "8227/10240"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.865279321196431878110517E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "505/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.865104156028381794810880E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "519/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.865115115362792696104853E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "505/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.864938442749396537258697E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "519/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.865059424689913272204654E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "505/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.864884253895745003939679E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "519/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.864895213585211660328847E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "505/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.864718535298899982570714E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "519/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.557276828048989300791900E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "505/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.555827297529005568989633E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "519/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.555916084525605753882696E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "505/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.554453958541991259520384E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "505/1024",
+          "c": "519/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.555457179482058285310694E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "505/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.554007439261200207573698E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "519/1024",
+          "q": "8157/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.554096240475210118404258E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "505/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_block_range": true,
+        "regularizer": "8.552633903561942874003517E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "519/1024",
+          "c": "519/1024",
+          "q": "8227/10240"
+        },
+        "size": 3
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "outer_shell_dependency_loss": {
+    "dilation": 8,
+    "interpretation": "loss of strict interval positivity for one larger unsplit shape cell; all sixteen declared three-ratio bisection subcells recover strict positivity, proving local enclosure dependency loss rather than a regularizer counterexample while leaving the untested rest of the shell open",
+    "shape_cell": {
+      "a": [
+        "63/128",
+        "65/128"
+      ],
+      "c": [
+        "63/128",
+        "65/128"
+      ],
+      "q": [
+        "1019/1280",
+        "1029/1280"
+      ]
+    },
+    "witnesses": [
+      {
+        "R_lower": -0.02814803002955391,
+        "R_upper": 1.7701314193141273,
+        "adaptive_bisection": {
+          "all_strictly_positive": true,
+          "maximum_R_upper": 1.5741930198626448,
+          "minimum_R_lower": 0.16760474099483266,
+          "rows": [
+            {
+              "R_lower": 0.1683473784318399,
+              "R_upper": 1.573721057905836,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 5.522396574479586e-08,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.1678863206508012,
+              "R_upper": 1.5740899147095533,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 5.522396574479586e-08,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.1682846242506303,
+              "R_upper": 1.5736973131019867,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 5.7662117030631595e-08,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.16782329048407502,
+              "R_upper": 1.5740659684259934,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 5.7662117030631595e-08,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.1681285234319865,
+              "R_upper": 1.5738242691534459,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 5.522396574479586e-08,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.167667564447396,
+              "R_upper": 1.5741930198626448,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 5.522396574479586e-08,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.1680659752263157,
+              "R_upper": 1.5738003112299768,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 5.7662117030631595e-08,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.16760474099483266,
+              "R_upper": 1.57416886864867,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 5.7662117030631595e-08,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            }
+          ],
+          "subcells": 8
+        },
+        "maximum_entry_tail": 5.7662117030631595e-08,
+        "radial_index": 8,
+        "scale_index": 128,
+        "strict_positivity_lost": true
+      },
+      {
+        "R_lower": -0.045046507880750326,
+        "R_upper": 1.7515524555587143,
+        "adaptive_bisection": {
+          "all_strictly_positive": true,
+          "maximum_R_upper": 1.4900817774900932,
+          "minimum_R_lower": 0.2163967064851502,
+          "rows": [
+            {
+              "R_lower": 0.21681386664854152,
+              "R_upper": 1.4898382952843772,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 6.858343027133477e-05,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.216404491729452,
+              "R_upper": 1.4900817774900932,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 6.858343027133477e-05,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.21690179550296645,
+              "R_upper": 1.489594649087852,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 7.253037202527369e-05,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.21649308467530085,
+              "R_upper": 1.4898366440298445,
+              "a": [
+                "63/128",
+                "1/2"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 7.253037202527369e-05,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.21680629278914956,
+              "R_upper": 1.489637812854815,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 6.858343027133477e-05,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.2163967064851502,
+              "R_upper": 1.4898814915949086,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 6.858343027133477e-05,
+              "q": [
+                "1019/1280",
+                "4/5"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.21689389990407276,
+              "R_upper": 1.4893944707675582,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "63/128",
+                "1/2"
+              ],
+              "maximum_entry_tail": 7.253037202527369e-05,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            },
+            {
+              "R_lower": 0.21648494420798103,
+              "R_upper": 1.489636701403573,
+              "a": [
+                "1/2",
+                "65/128"
+              ],
+              "c": [
+                "1/2",
+                "65/128"
+              ],
+              "maximum_entry_tail": 7.253037202527369e-05,
+              "q": [
+                "4/5",
+                "1029/1280"
+              ],
+              "strictly_positive": true
+            }
+          ],
+          "subcells": 8
+        },
+        "maximum_entry_tail": 7.253037202527369e-05,
+        "radial_index": 15,
+        "scale_index": 255,
+        "strict_positivity_lost": true
+      }
+    ]
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "accurate_order_six_prefix_released": false,
+    "all_entries_use_one_shared_scale_radial_and_three_shape_cell_before_complete_determinant_enclosure": true,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_outward_order_six_total_error_serialized": false,
+    "complete_transverse_arbitrary_gap_ratio_domain_covered": false,
+    "determinant_preserving_positive_radius_core_error_serialized": false,
+    "duffy_jacobi_chain_rule_envelopes_serialized": false,
+    "full_max_gap_coordinate_atlas_exact": true,
+    "native_K152_interval_emitted": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "row_and_column_open_product_blocks_outwardly_certified": true,
+    "scalar_center_left_floor_serialized": false,
+    "shifted_hermite_genocchi_entry_tail_retained": true
+  },
+  "schema_version": "1.0"
+}

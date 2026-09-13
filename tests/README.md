@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K196 order-six max-gap product-atlas controls
+
+- `channel-swings/k196_order_six_max_gap_product_atlas.py` proves exact row-
+  and column-dominant max-gap maps, inverse maps, absolute Jacobians and overlap
+  transition, then preserves one common scale/radial/three-shape cell before
+  every complete determinant. It certifies 5,120 unique Arb cells across two
+  transpose-related open product blocks, representing 10,240 chart instances.
+- `channel-swings/k196_order_six_max_gap_product_atlas_probe.py` checks the
+  exact atlas, cell counts and lower bounds, transpose propagation, 20
+  independent 200-digit controls, the dilation-eight dependency-loss witnesses
+  and their `16/16` positive adaptive bisection children, complete K186 formula
+  propagation, deterministic replay and withheld full-domain/cubature release
+  fences (`44/44` baseline; `44/44` hostile mutations).
+
 ## K195 order-six transverse projective coordinate-star controls
 
 - `channel-swings/k195_order_six_transverse_projective_chart.py` introduces
