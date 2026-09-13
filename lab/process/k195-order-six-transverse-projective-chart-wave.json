@@ -1,0 +1,540 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false,
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "compact_projective_coordinates": {
+    "forward_map": [
+      "r0=s/32",
+      "r1=s*a/32",
+      "c0=s*b/32",
+      "c1=s*b*c/32"
+    ],
+    "inverse_map": {
+      "a": "r1/r0",
+      "b": "c0/r0",
+      "c": "c1/c0",
+      "s": "32*r0"
+    },
+    "jacobian_determinant": "s^3*b/1048576",
+    "jacobian_exact": true,
+    "k194_ray": {
+      "a": "1/2",
+      "b": "4/5",
+      "c": "1/2",
+      "gaps": {
+        "c0": "s/40",
+        "c1": "s/80",
+        "r0": "s/32",
+        "r1": "s/64"
+      }
+    },
+    "ordered_shape": "0<a<1 and 0<c<1 imply r0>r1>0 and c0>c1>0",
+    "positive_on_chart_interior": true
+  },
+  "complete_family_propagation": {
+    "all_234_entries_and_18_groups_remain_in_scope": true,
+    "all_468_occurrences_retain_the_same_formula": true,
+    "all_53_patterns_retain_the_same_formula": true,
+    "new_bound_applies_only_on_the_declared_transverse_coordinate_star": true,
+    "operator_applies_to_every_size_two_and_three_regularizer": true
+  },
+  "decision": {
+    "complete_transverse_ordered_shape_atlas": false,
+    "duffy_jacobi_derivative_envelopes_serialized": false,
+    "exact_ratio_coordinate_jacobian_serialized": true,
+    "k194_ray_and_k193_k192_join_proved": true,
+    "next_exact_input": "cover the compact shape complement with a two-chart max-gap atlas, then differentiate the common-cell model and compose it with the K185 Duffy/Jacobi weights",
+    "transverse_projective_coordinate_star_serialized": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 120,
+    "predecessor_manifest": "lab/process/k194-order-six-projective-gap-spine-wave.json",
+    "radial_cell": "31/256<=x<=1/8",
+    "scale_range": "1/1<=s<=8/1",
+    "shape_bounds": {
+      "a=r1/r0": [
+        "511/1024",
+        "513/1024"
+      ],
+      "b=c0/r0": [
+        "8187/10240",
+        "8197/10240"
+      ],
+      "c=c1/c0": [
+        "511/1024",
+        "513/1024"
+      ]
+    },
+    "source_coherent_groups": 18,
+    "source_manifest": "lab/process/k186-order-six-bessel-vandermonde-wave.json",
+    "source_nontrivial_occurrences": 468,
+    "source_patterns": 53,
+    "source_time_gram_entries": 234,
+    "taylor_order": 16,
+    "threads": 1
+  },
+  "independent_controls": {
+    "all_contained": true,
+    "precision_decimal_digits": 200,
+    "role": "independent convergent-series controls; directed Arb cells carry the proof",
+    "rows": [
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.371451860725112284384350E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "511/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.371451860725112284384350E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "513/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.371458823055752028782095E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8187/10240",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.371444898372721760664376E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8197/10240",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.371451860725112284384350E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "511/1024"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.371451860725112284384350E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "513/1024"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.185473038799312238299973E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "511/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.185473038799312238299973E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "513/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.185532454980514132308978E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8187/10240",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.185413621534765883039816E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8197/10240",
+          "c": "1/2"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.185473038799312238299973E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "511/1024"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "9.185473038799312238299973E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "513/1024"
+        },
+        "size": 2
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.865015017424167435476583E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "511/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.864983602857411800205468E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "513/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.865011093165742337785078E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8187/10240",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.864987527138296671655237E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8197/10240",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.865011875984961747288905E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "511/1024"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.864986744312548362412581E-1",
+        "scale": "1/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "513/1024"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.555088699047468335418678E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "511/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.554828720239718694318658E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "513/1024",
+          "b": "4/5",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.555056362924833242474734E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8187/10240",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.554861057356049562793606E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "8197/10240",
+          "c": "1/2"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.555062705205150095993787E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "511/1024"
+        },
+        "size": 3
+      },
+      {
+        "contained_in_global_chart_range": true,
+        "regularizer": "8.554854714740357076621231E-1",
+        "scale": "8/1",
+        "shape": {
+          "a": "1/2",
+          "b": "4/5",
+          "c": "513/1024"
+        },
+        "size": 3
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "accurate_order_six_prefix_released": false,
+    "all_entries_use_one_shared_scale_and_shape_cell_before_complete_determinant_enclosure": true,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_outward_order_six_total_error_serialized": false,
+    "complete_transverse_arbitrary_gap_ratio_domain_covered": false,
+    "determinant_preserving_positive_radius_core_error_serialized": false,
+    "duffy_jacobi_chain_rule_envelopes_serialized": false,
+    "k193_k192_face_join_proved": true,
+    "k194_ray_join_proved": true,
+    "native_K152_interval_emitted": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "scalar_center_left_floor_serialized": false,
+    "shifted_hermite_genocchi_entry_tail_retained": true,
+    "size_two_and_size_three_transverse_chart_outwardly_certified": true
+  },
+  "schema_version": "1.0",
+  "transverse_coordinate_star": {
+    "all_cells_strictly_positive": true,
+    "common_cell_rule": "one shared (s,w) plus one varying shape-axis interval cell supplies every matrix entry and normalization before the complete determinant",
+    "joins": {
+      "all_chart_axes_contiguous": true,
+      "k192_join_inherited_through_k193": true,
+      "k193_face_center_exact": true,
+      "k194_ray_is_exact_chart_section": true,
+      "k194_shape_point_inside_every_shape_axis": true
+    },
+    "sizes": {
+      "2": {
+        "all_axes_contiguous": true,
+        "all_cells_strictly_positive": true,
+        "maximum_R_upper": 0.99165658418384,
+        "maximum_entry_tail": 1.1572446375068193e-07,
+        "minimum_R_lower": 0.8809314856771806,
+        "sweeps": {
+          "b": {
+            "all_axes_contiguous": true,
+            "all_cells_strictly_positive": true,
+            "axis": "b",
+            "fixed_shape": {
+              "a": "1/2",
+              "c": "1/2"
+            },
+            "maximum_R_upper": 0.99165658418384,
+            "maximum_entry_tail": 1.1572446375068193e-07,
+            "minimum_R_lower": 0.8809314856771806,
+            "shape_cell_summaries": [
+              {
+                "bounds": [
+                  "8187/10240",
+                  "8197/10240"
+                ],
+                "maximum_R_upper": 0.99165658418384,
+                "maximum_entry_tail": 1.1572446375068193e-07,
+                "minimum_R_lower": 0.8809314856771806,
+                "outward_cells": 1024,
+                "shape_cell": 0,
+                "strictly_positive": true
+              }
+            ],
+            "shape_cells": 1,
+            "subdivisions": {
+              "radial": 16,
+              "scale": 64,
+              "shape": 1
+            },
+            "total_outward_cells": 1024
+          }
+        },
+        "total_outward_cells": 1024
+      },
+      "3": {
+        "all_axes_contiguous": true,
+        "all_cells_strictly_positive": true,
+        "maximum_R_upper": 1.6275342239748118,
+        "maximum_entry_tail": 0.00011836094499380091,
+        "minimum_R_lower": 0.15007268290327777,
+        "sweeps": {
+          "a": {
+            "all_axes_contiguous": true,
+            "all_cells_strictly_positive": true,
+            "axis": "a",
+            "fixed_shape": {
+              "b": "4/5",
+              "c": "1/2"
+            },
+            "maximum_R_upper": 1.6275342239748118,
+            "maximum_entry_tail": 0.00011836094499380091,
+            "minimum_R_lower": 0.15007268290327777,
+            "shape_cell_summaries": [
+              {
+                "bounds": [
+                  "511/1024",
+                  "513/1024"
+                ],
+                "maximum_R_upper": 1.6275342239748118,
+                "maximum_entry_tail": 0.00011836094499380091,
+                "minimum_R_lower": 0.15007268290327777,
+                "outward_cells": 4096,
+                "shape_cell": 0,
+                "strictly_positive": true
+              }
+            ],
+            "shape_cells": 1,
+            "subdivisions": {
+              "radial": 16,
+              "scale": 256,
+              "shape": 1
+            },
+            "total_outward_cells": 4096
+          },
+          "b": {
+            "all_axes_contiguous": true,
+            "all_cells_strictly_positive": true,
+            "axis": "b",
+            "fixed_shape": {
+              "a": "1/2",
+              "c": "1/2"
+            },
+            "maximum_R_upper": 1.6262919895975825,
+            "maximum_entry_tail": 0.00011836094499380091,
+            "minimum_R_lower": 0.15131471982886746,
+            "shape_cell_summaries": [
+              {
+                "bounds": [
+                  "8187/10240",
+                  "8197/10240"
+                ],
+                "maximum_R_upper": 1.6262919895975825,
+                "maximum_entry_tail": 0.00011836094499380091,
+                "minimum_R_lower": 0.15131471982886746,
+                "outward_cells": 4096,
+                "shape_cell": 0,
+                "strictly_positive": true
+              }
+            ],
+            "shape_cells": 1,
+            "subdivisions": {
+              "radial": 16,
+              "scale": 256,
+              "shape": 1
+            },
+            "total_outward_cells": 4096
+          },
+          "c": {
+            "all_axes_contiguous": true,
+            "all_cells_strictly_positive": true,
+            "axis": "c",
+            "fixed_shape": {
+              "a": "1/2",
+              "b": "4/5"
+            },
+            "maximum_R_upper": 1.6260923329921328,
+            "maximum_entry_tail": 0.00011836094499380091,
+            "minimum_R_lower": 0.1515143901290262,
+            "shape_cell_summaries": [
+              {
+                "bounds": [
+                  "511/1024",
+                  "513/1024"
+                ],
+                "maximum_R_upper": 1.6260923329921328,
+                "maximum_entry_tail": 0.00011836094499380091,
+                "minimum_R_lower": 0.1515143901290262,
+                "outward_cells": 4096,
+                "shape_cell": 0,
+                "strictly_positive": true
+              }
+            ],
+            "shape_cells": 1,
+            "subdivisions": {
+              "radial": 16,
+              "scale": 256,
+              "shape": 1
+            },
+            "total_outward_cells": 4096
+          }
+        },
+        "total_outward_cells": 12288
+      }
+    },
+    "total_outward_cells": 13312
+  }
+}

@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K195 order-six transverse projective coordinate-star controls
+
+- `channel-swings/k195_order_six_transverse_projective_chart.py` introduces
+  exact compact shape coordinates `a=r1/r0`, `b=c0/r0`, `c=c1/c0`, proves
+  their positive Jacobian, and preserves one shared interval cell before the
+  complete determinant. It certifies 1,024 size-two and 12,288 size-three Arb
+  cells across the three transverse axis sweeps, with an exact common K194 ray
+  and inherited K193/K192 face join.
+- `channel-swings/k195_order_six_transverse_projective_chart_probe.py` checks
+  the coordinate identity, Jacobian, all 13,312 cell counts and lower bounds,
+  adjacency, predecessor joins, 24 independent 200-digit controls, complete
+  K186 formula propagation, deterministic replay and withheld product-atlas/
+  cubature release fences (`34/34` baseline; `34/34` hostile mutations).
+
 ## K194 order-six projective gap-spine controls
 
 - `channel-swings/k194_order_six_projective_gap_spine.py` retains K193's

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 39c34b81f0bf7b0e15070651bb375e6591b101b3
+revision_basis: 102dbd020d912fa22f7ed1514034a06468a3ea83
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K195 order-six transverse projective coordinate-star Big Wave gives
+    K194's gap ray exact compact coordinates r0=s/32, r1=s*a/32,
+    c0=s*b/32 and c1=s*b*c/32, with inverse shape ratios and positive exact
+    Jacobian s^3*b/2^20. On 31/256<=x<=1/8 and 1<=s<=8, 1,024 size-two and
+    12,288 size-three directed-Arb cells certify the b sweep and the a/b/c
+    sweeps respectively. Minimum lower bounds are 0.8809314856771806 and
+    0.15007268290327777. All axes are contiguous, every sweep contains the
+    exact K194 ray, s=1 contains K193's fully active face center and its K192
+    join, and 24 independent 200-digit controls agree. This is a union of
+    transverse axis surfaces, not an open three-dimensional shape
+    neighborhood. The product-box scout loses determinant dependence and is
+    not a counterexample. A two-chart max-gap atlas, Duffy/Jacobi derivatives,
+    complete core remainder and accurate order-six prefix remain open. No
+    K171/K168 action column, R_ref residual, complement or flux floor,
+    scalar-center floor or K152 interval is evaluated. No physical/source,
+    Born, prediction or confirmation claim follows.
+
     The K194 order-six projective gap-spine Big Wave retains K193's shifted
     Hermite--Genocchi operator while coupling the physically ordered gaps
     through one shared scale: r0=t/32, r1=t/64, c0=t/40 and c1=t/80.
@@ -7669,9 +7686,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can the K194 correlated projective-gap spine be extended across the compact
-  transverse ordered-shape variables with a proved overlap to K193/K192, then differentiated
-  and composed with the positive-radius Duffy/Jacobi chain rule and weighted
+  Can K195's exact compact ratio coordinates and rigorously positive
+  transverse coordinate-star be extended to a two-chart max-gap atlas that
+  covers the full ordered-shape product domain, then differentiated and
+  composed with the positive-radius Duffy/Jacobi chain rule and weighted
   cubature remainder on 2^-20<=rho<=1/4 and z_i>=2^-180; if so, does the
   completed K185/K188 boundary control plus that prefix advance the K171/K168
   action columns and R_ref residual, complement or flux floor, separately
@@ -7684,24 +7702,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K194 retains K193's exact shifted Hermite--Genocchi entry operator but
-  evaluates the original divided-difference polynomials on translated
-  intervals, eliminating repeated symbolic re-expansion. Coupling the ordered
-  gaps by r0=t/32, r1=t/64, c0=t/40 and c1=t/80 supplies every entry from one
-  common scale cell before the outward complete-determinant enclosure. A
-  contiguous directed-Arb union of 1,024
-  size-two and 4,096 size-three cells covers 1<=t<=8 on
-  31/256<=x<=1/8; minimum lower bounds are 0.881830322982048 and
-  0.15617474532762968, and t=1 exactly joins K193's fully active face center.
-  This is one projective shape ray, not a transverse ordered-gap atlas. The
-  independent endpoint hull loses positivity because it discards shared
-  dependence; do not treat that enclosure as a counterexample. Introduce
-  ordered projective shape variables around and beyond the certified ray,
-  supply every entry from the same scale-and-shape cell before the outward
-  complete-determinant enclosure,
-  prove all transverse chart overlaps and the join to K193/K192, and cover
-  every K186 time-node pattern before building Duffy/Jacobi chain-rule bounds
-  and the weighted cubature remainder.
+  K195 parameterizes the fully active ordered gaps by r0=s/32, r1=s*a/32,
+  c0=s*b/32 and c1=s*b*c/32. The inverse ratios are exact and the Jacobian
+  s^3*b/2^20 is positive on the chart interior. Holding two ratios at the K194
+  values while varying the third gives 13,312 strictly positive directed-Arb
+  cells across the a, b and c coordinate sweeps on 1<=s<=8 and
+  31/256<=x<=1/8. Every sweep contains the K194 ray and the K193/K192 face
+  join. This coordinate star proves directional transverse stability but not
+  an open product neighborhood. Build row-dominant and column-dominant charts
+  using max(r0,c0) as scale and a compact balance ratio, retain one common
+  scale-and-shape cell before every complete determinant, and adaptively cover
+  the product-shape complement. Only after that cover closes, differentiate
+  the common chart model for Duffy/Jacobi chain-rule bounds and the weighted
+  cubature remainder.
   Preserve all 234 signed entries, 18 coherent groups, 53 patterns, primitive
   gaps, old-position factors, complete determinants and shared time nodes;
   combine the resulting core error with K188's endpoint and K185's face/tail

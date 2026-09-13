@@ -2,10 +2,27 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-10"
+updated_at: "2026-09-12"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K195 order-six transverse projective coordinate-star family (2026-09-12)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The ordered gaps have compact projective coordinates around K194 | `r0=s/32`, `r1=sa/32`, `c0=sb/32`, `c1=sbc/32` has inverse `(32r0,r1/r0,c0/r0,c1/c0)` and Jacobian `s^3 b/2^20` | exact rational coordinate identity on `s,b>0` |
+| The K194 ray is stable in each transverse coordinate direction | 1,024 size-two and 12,288 size-three directed-Arb cells cover the declared `a`, `b`, and `c` axis sweeps on `1<=s<=8` and `31/256<=x<=1/8`; minimum lower bounds are `0.8809314856771806` and `0.15007268290327777` | rigorous outward three-axis coordinate-star certificate |
+| The sweeps join predecessor coverage | all sweeps share the exact K194 ray; `s=1` contains K193's fully active face center and inherits its exact K192 join; all scale, radial and varying-axis endpoints are contiguous | exact rational intersection and adjacency certificate |
+| Independent controls agree | 24 200-digit divided-difference values at the scale and shape endpoints lie inside the global size-two/three outward ranges | deterministic controls only; Arb cells carry the proof |
+| K195 proves an open transverse neighborhood or complete atlas | each certified sweep varies only one shape ratio while the other two stay fixed; the product-box scout loses determinant dependence and is not a counterexample | false; the compact product complement and two-chart max-gap cover remain open |
+| K195 releases cubature, action columns or physical positivity | no Duffy/Jacobi derivative envelope, complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k195_order_six_transverse_projective_chart.py --summary`,
+its deterministic manifest replay with `--write --summary`,
+`_local/cas-venv/bin/python tests/channel-swings/k195_order_six_transverse_projective_chart_probe.py`
+and its baseline-first hostile check with `--no-replay --selftest`.
 
 ## K194 order-six projective gap-spine family (2026-09-10)
 
