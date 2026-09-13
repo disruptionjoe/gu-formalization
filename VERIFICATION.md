@@ -7,6 +7,22 @@ updated_at: "2026-09-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K198 order-six first a/c-shell-cross family (2026-09-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The first symmetric side strips beyond K197 are determinant-positive across the q corridor | the row chart expands `a` to `63/128<=a<=65/128` at fixed `505/1024<=c<=519/1024`; exact transpose supplies the companion column-chart c band; 135,168 unique directed-Arb cells represent 270,336 chart instances | rigorous outward certificate for the declared first a/c shell cross |
+| The cover preserves determinant dependencies and adapts only where needed | one common `(t,w,a,q,c)` interval supplies every shifted entry and normalization before each complete determinant; the first 31 q slabs pass joined, while the final seam parent is rejected and its two exact a-midpoint children pass; 33 accepted product tiles, one rejected parent, maximum adaptive depth one | rigorous common-cell adaptive certificate |
+| Independent controls agree | 264 200-digit values at band and q boundaries lie inside the global size-three outward range; minimum lower bound is `0.000013914697755249852` | deterministic controls only; Arb cells carry the proof |
+| K198 covers the complete determinant-positive ordered-shape domain | the four one-step corner boxes and all farther `a,c` complement remain open | false; adaptive corner and outer-shell tiling remain required |
+| K198 releases cubature, action columns or physical positivity | no regularizer derivative envelope, Duffy/Jacobi remainder, complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k198_order_six_first_ac_shell_cross.py --write --progress`,
+its independent deterministic replay through
+`_local/cas-venv/bin/python tests/channel-swings/k198_order_six_first_ac_shell_cross_probe.py --progress`
+and its baseline-first hostile check with `--no-replay --selftest`.
+
 ## K197 order-six max-gap q-corridor family (2026-09-13)
 
 | Claim | Evidence | Honest grade |
