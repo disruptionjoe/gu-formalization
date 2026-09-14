@@ -7,6 +7,22 @@ updated_at: "2026-09-13"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K199 order-six first enlarged a/c-square family (2026-09-13)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The first enlarged square beyond K197 is determinant-positive across the q corridor | the four one-step corner boxes omitted by K198 all pass across `8227/10240<=q<=1`; exact union with K198 closes `63/128<=a,c<=65/128`; 524,288 unique directed-Arb cells represent 1,048,576 chart instances | rigorous outward certificate for the declared first enlarged a/c square |
+| The cover preserves determinant dependencies | one common `(t,w,a,q,c)` interval supplies every shifted entry and normalization before each complete determinant; all 128 corner tiles pass directly at adaptive depth zero; exact transpose supplies the companion column chart | rigorous common-cell certificate |
+| Independent controls agree | all 1,056 200-digit boundary values lie inside the global outward range; the minimum lower bound is `0.10160239635350186`, maximum upper bound `1.6750051233762688`, and maximum shifted-entry tail `0.00047089144223947955` | deterministic controls only; Arb cells carry the proof |
+| K199 covers the complete determinant-positive ordered-shape domain | only the first enlarged `63/128<=a,c<=65/128` square is certified; all farther `a,c` shells remain open | false; adaptive outer-shell tiling remains required |
+| K199 releases cubature, action columns or physical positivity | no regularizer derivative envelope, Duffy/Jacobi remainder, complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k199_order_six_first_ac_corners.py --write --progress`,
+its independent deterministic replay through
+`_local/cas-venv/bin/python tests/channel-swings/k199_order_six_first_ac_corners_probe.py --progress`
+and its baseline-first hostile check with `--no-replay --selftest`.
+
 ## K198 order-six first a/c-shell-cross family (2026-09-13)
 
 | Claim | Evidence | Honest grade |

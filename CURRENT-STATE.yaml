@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3776ed2f01106e0574d2f294d072ff9b9ec9ba65
+revision_basis: 1e7af88671864ea7943fc587872df1fe464b9556
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The K199 order-six first a/c-corners Big Wave certifies all four one-step
+    corner boxes omitted by K198 across its complete 32-slab q profile and
+    scale/radial grid. All 128 corner tiles pass without adaptive subdivision:
+    524,288 unique directed-Arb cells represent 1,048,576 row/column chart
+    instances by exact transpose. The minimum size-three lower bound is
+    0.10160239635350186, the maximum upper bound is 1.6750051233762688, and
+    all 1,056 independent 200-digit boundary controls agree. Exact union with
+    K198's side-strip cross closes the first enlarged
+    63/128<=a,c<=65/128 square. Farther a/c shells remain open, as do
+    regularizer derivatives, the Duffy/Jacobi remainder, complete core error
+    and accurate order-six prefix. No action-column, residual,
+    complement/flux-floor, scalar-center, K152, physical/source, Born,
+    prediction or confirmation claim follows.
+
     The K198 order-six first a/c-shell-cross Big Wave extends K197's certified
     row-chart a interval from 505/1024<=a<=519/1024 to
     63/128<=a<=65/128 while retaining 505/1024<=c<=519/1024 and the complete
@@ -7741,8 +7755,8 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K197's complete fixed-a,c q-to-1 corridor be adaptively extended across
-  the remaining a/c shells to close the ordered-shape determinant cover, then
+  Can K199's first enlarged 63/128<=a,c<=65/128 square be adaptively extended
+  across the remaining a/c shells to close the ordered-shape determinant cover, then
   differentiated and
   composed with the positive-radius Duffy/Jacobi chain rule and weighted
   cubature remainder on 2^-20<=rho<=1/4 and z_i>=2^-180; if so, does the
@@ -7757,15 +7771,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K197 rigorously connects K196's fixed 505/1024<=a,c<=519/1024 product block
-  from q=8227/10240 through the exact q=1 row/column chart seam. All 132,096
-  unique directed-Arb cells are strictly positive and represent 264,192 chart
-  instances by exact transpose; minimum size-two/three lower bounds are
-  0.6939805476585044 and 0.01677212157128826, and 268 independent controls
-  agree. All 33 base q tiles pass at adaptive depth zero. The coordinate atlas
-  is global, but the remaining a/c shells are untested and no complete
-  determinant-positive ordered-shape theorem follows. Adaptively subdivide
-  those a/c shells using the accepted q-resolution profile, while retaining
+  K199 composes K198's side-strip cross with four certified one-step corner
+  boxes to close the first enlarged 63/128<=a,c<=65/128 square across the
+  complete 8227/10240<=q<=1 corridor. All 128 corner tiles pass at adaptive
+  depth zero: 524,288 unique directed-Arb cells represent 1,048,576 chart
+  instances by exact transpose, the minimum lower bound is
+  0.10160239635350186, and all 1,056 independent controls agree. The
+  coordinate atlas is global, but farther a/c shells are untested and no
+  complete determinant-positive ordered-shape theorem follows. Continue
+  adaptive symmetric shell tiling beyond the first enlarged square using the
+  accepted q-resolution profile, while retaining
   one common scale-radial-shape cell before every
   complete determinant. Only after that cover closes, differentiate the
   common chart model for Duffy/Jacobi chain-rule bounds and the weighted
