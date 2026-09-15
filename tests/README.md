@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K200 provisional implementation and generated candidate
+
+The K200 generator, probe and
+`lab/process/k200-order-six-second-ac-ring-wave.json` are saved provisional
+work. Generation completed all 192 packets; manifest invariants and 28 hostile
+mutations pass. The full checkpoint-free source replay and final acceptance
+checks are still pending. Certificate terminology inside the generated JSON
+describes the candidate output; this commit does not mark K200 independently
+verified or supersede the accepted K199 state.
+
+Run lightweight checks with
+`_local/cas-venv/bin/python tests/channel-swings/k200_order_six_second_ac_ring_probe.py --no-replay --selftest`.
+Final acceptance additionally requires the same probe without `--no-replay`
+and affected native/process checks. Preserve the existing replay worker rather
+than launching a duplicate. No physical or source claim follows from this
+provisional implementation.
+
 ## K199 order-six first enlarged a/c-square controls
 
 - `channel-swings/k199_order_six_first_ac_corners.py` preserves K198's 32 q
