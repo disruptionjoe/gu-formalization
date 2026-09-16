@@ -2,10 +2,26 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-13"
+updated_at: "2026-09-16"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K200 order-six second enlarged a/c-square family (2026-09-16)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The second enlarged square beyond K199 is determinant-positive across the q corridor | two new row-chart side strips and four new corner boxes pass across `8227/10240<=q<=1`; exact union with K199 closes `503/1024<=a,c<=521/1024`; 786,432 unique directed-Arb cells represent 1,572,864 chart instances | rigorous outward certificate for the declared second enlarged a/c square |
+| The cover preserves determinant dependencies | one common `(t,w,a,q,c)` interval supplies every shifted entry and normalization before each complete determinant; all 192 ring tiles pass directly at adaptive depth zero; exact transpose supplies the companion column-chart side strips | rigorous common-cell certificate |
+| Independent controls agree | all 1,056 200-digit boundary values lie inside the global outward range; the minimum lower bound is `0.05879109716895834`, maximum upper bound `1.717845030044353`, and maximum shifted-entry tail `0.00047089144223947955` | deterministic controls only; Arb cells carry the proof |
+| K200 covers the complete determinant-positive ordered-shape domain | only the second enlarged `503/1024<=a,c<=521/1024` square is certified; all farther `a,c` shells remain open | false; adaptive outer-shell tiling remains required |
+| K200 releases cubature, action columns or physical positivity | no regularizer derivative envelope, Duffy/Jacobi remainder, complete core error, outward order-six total, action column, residual, complement/flux floor, scalar center or K152 interval exists | false; `SC-META-53` stays `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` stay `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k200_order_six_second_ac_ring.py --write --progress`,
+its independent deterministic replay through
+`_local/cas-venv/bin/python tests/channel-swings/k200_order_six_second_ac_ring_probe.py --progress`
+and its baseline-first hostile check with `--no-replay --selftest`.
 
 ## K199 order-six first enlarged a/c-square family (2026-09-13)
 
