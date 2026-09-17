@@ -4,13 +4,28 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
-## K216 analytic angular prefix
+## K217 signed inner box and K216 normalization correction
 
-- `channel-swings/k216_order_six_analytic_angular_prefix.py` eliminates the
-  angular simplex at fixed K213 auxiliary coordinates by exact Dirichlet
-  moments, replays all 1,864 supports and bounds order-20 truncation on the
-  small `[0,log(2)]^8` box. The large K215 box needs localization or a new
-  certificate; no eight-dimensional integral is evaluated.
+- `channel-swings/k217_order_six_signed_inner_box.py` replays all K185 signs
+  under the original uniform angular measure, integrates signed polynomial
+  orders zero through three exactly over `[0,log(2)]^8`, and bounds the raw
+  remainder below `1.914e-23` including off-diagonal doubling. It identifies K216's omitted K202 reference
+  weight; the weighted K216 series is not a raw-prefix certificate.
+- `channel-swings/k217_order_six_signed_inner_box_probe.py` independently
+  checks factorial moments, ordinary cosh integrals, pointwise cancellations
+  and a hostile sign mutation. The middle auxiliary region remains open.
+
+```sh
+python3 tests/channel-swings/k217_order_six_signed_inner_box.py --write
+_local/cas-venv/bin/python tests/channel-swings/k217_order_six_signed_inner_box_probe.py
+```
+
+## K216 historical weighted angular series (raw transfer withdrawn)
+
+- `channel-swings/k216_order_six_analytic_angular_prefix.py` integrates an
+  isolated `prod z_i^(2/3)` weight by exact Dirichlet moments, but K217 shows
+  that K202's `prod z_i^(-2/3)` reference cancels it in the original raw
+  measure. Do not use its stated raw-integral transfer.
 - `channel-swings/k216_order_six_analytic_angular_prefix_probe.py` independently
   checks low multinomial moments, an ordinary Beta integral, all supports and
   a hostile zero-load face. No signed full-rule accuracy follows.
