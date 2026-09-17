@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K206 signed-Gram tangent-angular jet controls
+
+- `channel-swings/k206_order_six_angular_jets.py` evaluates the complete
+  normalized signed K184 determinants over a second-order jet ring at two
+  K203 nodes, retaining path-pair signs and the angular prefactor.
+- `channel-swings/k206_order_six_angular_jets_probe.py` independently
+  reconstructs all 14,912 K185 support occurrences and differentiates the
+  Leibniz products with mpmath, checking eighteen group values and two jets
+  at both nodes plus hostile controls. It does not enclose a global remainder.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k206_order_six_angular_jets.py --write
+_local/cas-venv/bin/python tests/channel-swings/k206_order_six_angular_jets_probe.py
+```
+
 ## K205 signed-Gram radial normal-form controls
 
 - `channel-swings/k205_order_six_radial_normal_form.py` reconstructs the

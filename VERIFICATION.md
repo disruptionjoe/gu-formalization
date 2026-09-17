@@ -7,6 +7,17 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K206 signed-Gram tangent-angular jets (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The complete signed quotient has exact interior first/second tangent-angular derivatives | distribute `rho^8` across the two old kernels and six determinant rows; differentiate `h(rho,S)=2rho K1(rho S)` and `prod z_i^(2/3)` in a second-order jet ring, preserving all 234 K184 determinant entries and eighteen coherent signs | exact algebra for every interior simplex tangent direction; no global derivative enclosure |
+| The signed node jets agree with an independent representation | K185 time-position/permutation replay reconstructs 14,912 supports and separately differentiates each eight-factor Leibniz product; mpmath agrees with outward Arb group values and both jets at two K203 nodes to absolute `1e-55`; four hostile mutations caught | point controls, not a Duffy/Jacobi remainder or integral certificate |
+| K206 supplies an accurate order-six prefix or physical result | no cellwise mixed-derivative suprema, face/tail composition or useful coherent-group allocation; K202/K203's full-rule error remains below only `9.683e-7` | false; SC-META-53 UNCERTAIN and LT-SM8, LT-GR6b, RA-F1, AC-F1 NEEDS |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k206_order_six_angular_jets.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k206_order_six_angular_jets_probe.py`.
+
 ## K205 signed-Gram radial normal form (2026-09-17)
 
 | Claim | Evidence | Honest grade |

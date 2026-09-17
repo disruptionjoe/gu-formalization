@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c0fae46a9997f438ab486d097f906b368e626a83
+revision_basis: ba7bf27db629f1c40e5039e026931275beba2aff
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,15 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K206 distributes the eight common radial factors across the original
+    old-position kernels and species determinant rows, then differentiates
+    each complete K184 signed Gram through first and second tangent-angular
+    jets. Independent K185 Leibniz replay checks all 14,912 argument supports,
+    eighteen group values and both jets at two K203 interior nodes. This is
+    exact interior derivative algebra with outward point controls, not a
+    global derivative supremum, Duffy/Jacobi remainder, complete 28-node
+    error or accurate order-six prefix. No source/physics status moves.
+
     K205 cancels the apparent rho^8 pole across each complete K184 signed
     order-six term before radial differentiation. Independent replay of all
     14,912 Bessel-factor supports finds maximum simplex multiplicity seven;
@@ -7830,11 +7839,11 @@ current_result:
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
   Can K203's exact 28-node common-weight rule, now equipped with K204's
-  compact-core reference moment defects and K205's pole-cancelled complete
-  signed-group first radial bound, be supplied with a useful complete
-  angular/core error by composing normalized regularizer jets, old-position
-  Bessel factors, other species determinants, higher mixed product derivatives
-  and the Duffy chain, while completing
+  compact-core reference moment defects, K205's first radial bound and K206's
+  complete signed first/second interior tangent-angular jet algebra, be
+  supplied with a useful global angular/core error by bounding these jets
+  over cells and composing higher mixed derivatives and the Duffy chain,
+  while completing
   the farther a/c determinant atlas; if so, does the
   completed K185/K188 boundary control plus that prefix advance the K171/K168
   action columns and R_ref residual, complement or flux floor, separately
@@ -7847,22 +7856,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K205's exact radial normal form bounds only the two-node radial operator
-  difference with angular expectation held exact, below 4.633e-8 summed;
-  it is not a complete 28-node error. Derive determinant-preserving higher
-  mixed angular/product derivatives on the positive-radius face-stripped
-  core and a realistic signed-group Duffy/Jacobi remainder. Compose the
-  distinct K185/K188 termwise boundary controls with K204 common-reference
+  K206 gives determinant-preserving complete signed first and second
+  tangent-angular jets at every interior point, checked at two nodes, not a
+  cellwise supremum or a complete 28-node error. Enclose the normalized
+  coalescent regularizer and these full product jets over a positive-radius,
+  face-stripped Duffy/Jacobi atlas, including higher mixed orders required by
+  the rule; allocate a realistic signed-group remainder. Compose distinct
+  K185/K188 termwise boundary controls with K204 common-reference
   moment accounting, preserving their different measures. K202/K203's
   full-rule rational error remains below only 9.683e-7, not an accurate
   order-six prefix near 1e-21.
 
   K203 supplies positive low-degree-exact nodes and the complete linear
   argument-level chain; K204 bounds common-reference core loss and every
-  low-degree conditional moment defect. Neither is a derivative error
-  certificate. Bound the
-  complete quotient's Bessel/determinant/product derivatives on a declared
-  positive core, including the singular reference prefactor; compose
+  low-degree conditional moment defect. K206 supplies the complete first and
+  second tangent-angular jet algebra at interior points, not a cellwise
+  derivative bound. Enclose the complete quotient's higher mixed
+  Bessel/determinant/product derivatives on a declared positive core,
+  including the singular reference prefactor; compose
   K185/K188 termwise face/tail quotient controls with K204's distinct
   common-reference moment accounting without equating the measures. Allocate
   signed group errors near the 1e-21 scale or find a stronger analytic
