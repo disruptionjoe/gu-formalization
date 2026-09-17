@@ -7,6 +7,17 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K204 common-reference compact-core moment defect (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K203's 28 nodes lie inside the K185-style compact core | exact inequalities for the two radial roots and fourteen angular coordinates at each orbit node | exact location under `rho<=1/4`, `z_i>=2^-180` |
+| Truncating the common reference has an accountable polynomial error | beta-marginal union and Gamma integer-shape tail give rational lost mass below `3.886e-16`; exact 16 permutation-orbit formulas cover all 480 radial-degree <=3/angular-degree <=2 monomials; independent mpmath and five hostile controls | proof-safe lost mass and conditional polynomial moment defect, not an error on the nonpolynomial quotient |
+| K204 reduces the complete signed-group error or changes physics | K202/K203's rational full-domain error remains `412009773890262587145/425541888504349469496573952`; complete product derivatives and coherent group allocation are absent | false as an accurate order-six prefix; SC-META-53 stays UNCERTAIN and LT-SM8, LT-GR6b, RA-F1, AC-F1 stay NEEDS |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k204_order_six_core_moment_defect.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k204_order_six_core_moment_defect_probe.py`.
+
 ## K203 positive common-weight order-six moment rule (2026-09-17)
 
 | Claim | Evidence | Honest grade |

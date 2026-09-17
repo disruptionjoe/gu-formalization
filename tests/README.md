@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K204 compact-core common-reference moment controls
+
+- `channel-swings/k204_order_six_core_moment_defect.py` derives exact Gamma/
+  Dirichlet moments and rational lost-mass, unnormalized deletion and
+  conditional-core defect bounds for K203's 28-node rule.
+- `channel-swings/k204_order_six_core_moment_defect_probe.py` independently
+  reconstructs the sixteen moment orbits and all core node locations,
+  checks actual beta/gamma tails and catches five hostile mutations. Neither
+  check bounds the complete signed Gram quotient at useful accuracy.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k204_order_six_core_moment_defect.py --write
+_local/cas-venv/bin/python tests/channel-swings/k204_order_six_core_moment_defect_probe.py
+```
+
 ## K203 positive common-weight moment-rule controls
 
 - `channel-swings/k203_order_six_positive_moment_rule.py` constructs the
