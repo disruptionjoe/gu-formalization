@@ -7,6 +7,17 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K207 signed-Gram mixed radial/angular jets (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| All nine derivatives through bidegree (2,2) exist for the complete signed interior quotient | normalized `h=2rho K1(rho S)` has `h_r=-2xK0`, `h_rv=2rho t(xK1-K0)`, and explicit higher mixed jets; raw binomial product ring preserves the 234 K184 Gram entries and eighteen signed groups | exact interior algebra, not a global derivative bound |
+| The mixed node derivatives agree with independent expansion | K185 permutation and support replay reconstructs 1,864 terms and 14,912 factors; Bessel-ODE Taylor coefficients and product convolution agree with outward Arb for nine fields and eighteen groups at two K203 nodes to `1e-55`; four hostile mutations caught | independent point controls only |
+| K207 closes the 28-node signed error or physical quotient | no cellwise coalescent mixed suprema, third angular Taylor remainder, Duffy chain, boundary composition or useful signed allocation; K205's radial-only coupling remains separate | false; K202/K203's `<9.683e-7` full-rule bound and SC-META-53 UNCERTAIN / LT-SM8, LT-GR6b, RA-F1, AC-F1 NEEDS remain |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k207_order_six_mixed_jets.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k207_order_six_mixed_jets_probe.py`.
+
 ## K206 signed-Gram tangent-angular jets (2026-09-17)
 
 | Claim | Evidence | Honest grade |

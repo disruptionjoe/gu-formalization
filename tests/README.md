@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K207 signed-Gram bivariate jet controls
+
+- `channel-swings/k207_order_six_mixed_jets.py` evaluates all nine raw
+  radial/tangent-angular derivatives through bidegree (2,2) of each complete
+  normalized signed determinant group at two K203 interior nodes.
+- `channel-swings/k207_order_six_mixed_jets_probe.py` independently replays
+  1,864 signed K185 Leibniz terms and 14,912 supports using a Bessel-ODE
+  Taylor recurrence, checks all group fields and four hostile plants.
+  Neither instrument certifies a cellwise or full-rule error.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k207_order_six_mixed_jets.py --write
+_local/cas-venv/bin/python tests/channel-swings/k207_order_six_mixed_jets_probe.py
+```
+
 ## K206 signed-Gram tangent-angular jet controls
 
 - `channel-swings/k206_order_six_angular_jets.py` evaluates the complete
