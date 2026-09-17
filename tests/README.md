@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K209 cubic compact-core and fourth-order geometry controls
+
+- `channel-swings/k209_order_six_cubic_core_geometry.py` extends K204's
+  reference core defect to K208's cubic rule and computes five exact quartic
+  orbits and a conditional fourth-order Taylor geometry factor.
+- `channel-swings/k209_order_six_cubic_core_geometry_probe.py` independently
+  checks all 680 cubic-or-lower angular monomials, 28 orbit rows, quartic
+  geometry and six hostile changes. It does not bound signed derivatives.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k209_order_six_cubic_core_geometry.py --write
+_local/cas-venv/bin/python tests/channel-swings/k209_order_six_cubic_core_geometry_probe.py
+```
+
 ## K208 positive cubic-angular moment-rule controls
 
 - `channel-swings/k208_order_six_cubic_moment_rule.py` proves the rational

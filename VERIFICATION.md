@@ -7,6 +7,17 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K209 cubic compact-core accounting and fourth-order geometry (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K208's cubic common-reference rule has compact-core moment accounting | K204's rational Gamma tail and Dirichlet face bound extend to seven angular orbit representatives at each of four radial powers; 28 exact rows cover 2,720 product monomials, and all 184 rule nodes are strictly within the core | rational full-reference moments, deletion upper bounds and conditional-core versus rule defects; not K185/K188 termwise quotient boundaries |
+| A fourth-order centered angular Taylor coefficient is available conditionally | five exact quartic orbit moments give reference `12987/383180`, rule `18954/520625` for `E||z-c||_2^4`; conditional core fourth moment is bounded by reference divided by `1-q`, where `q<3.886e-16`; the sum divided by 24 is below `0.002930` | multiplies a separately established uniform Euclidean operator norm of the fourth derivative on the convex angular core; cubic conditional polynomial defects remain separate |
+| These values close the signed order-six prefix | independent 680-monomial rational enumeration, 28 rows, five quartic orbits and six hostile mutations pass, but no complete signed normalized/coalescent fourth-derivative cell enclosure, Duffy chain or coherent-group allocation exists | false; inherited full-domain absolute error remains only `<9.683e-7`; no source/physics change |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k209_order_six_cubic_core_geometry.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k209_order_six_cubic_core_geometry_probe.py`.
+
 ## K208 positive cubic-angular common-reference rule (2026-09-17)
 
 | Claim | Evidence | Honest grade |

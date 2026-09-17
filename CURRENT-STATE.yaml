@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 27e640a0f6123cf772e876c6dea09d7ae946be43
+revision_basis: 5a10dca03b27cccea6a4048288772b9b7eaa1d22
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K209 extends K204's common Gamma/Dirichlet compact-core accounting to
+    K208's cubic-angular rule: twenty-eight exact orbit rows cover all 2,720
+    radial-degree-at-most-three times angular-degree-at-most-three product
+    monomials, while all 184 nodes remain inside the core. The five quartic
+    angular orbits give exact centered Euclidean fourth moments, with
+    conditional fourth-order Taylor remainder geometry below 0.002930 times
+    a separately supplied uniform fourth-derivative operator bound. An
+    independent rational enumeration checks all 680 angular monomials, the
+    orbit rows and six hostile perturbations. This supplies neither that
+    derivative bound nor K185/K188 quotient face controls or a useful signed
+    error. K202's broad full-rule bound and all physical/source statuses stay
+    unchanged.
+
     K208 constructs a positive interior 92-node angular Dirichlet rule using
     the barycenter and all 91 unordered pair orbits. It matches every cubic
     monomial exactly; with K203's two radial nodes, all 184 product nodes
@@ -7861,7 +7874,8 @@ current_result:
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
   Can K203's exact 28-node common-weight rule or K208's cubic 184-node rule,
-  equipped with K204's degree-two compact-core reference moment defects,
+  equipped with K204's degree-two and K209's cubic compact-core reference
+  moment defects and conditional fourth-order geometry,
   K205's first radial bound, K206's angular jets and K207's bidegree-(2,2)
   mixed signed jet algebra, be
   supplied with a useful global angular/core error by bounding these jets
@@ -7885,10 +7899,12 @@ next_condition: >-
   28-versus-184-node difference is not a convergence estimate. Compare the
   cost of a fourth-derivative cellwise remainder for K208 with K203's
   third-derivative route and favor whichever yields a useful coherent-group
-  allocation. Every K208 node lies in the K204 compact core, but K204's
-  degree-two conditional moment defect does not automatically cover cubic
-  monomials. K185/K188 termwise quotient boundary controls remain distinct
-  from the common-reference moment accounting.
+  allocation. K209 now supplies the missing cubic conditional moment defects
+  and a fourth-order geometry factor below 0.002930, conditional on a uniform
+  derivative operator bound. This is not that bound: enclose complete signed
+  normalized/coalescent fourth derivatives on cells and account for the
+  Duffy chain. K185/K188 termwise quotient boundary controls remain distinct
+  from common-reference moments.
 
   K207 gives complete signed bidegree-(2,2) radial/angular jet algebra at
   every positive interior point, independently checked at two nodes, not a
