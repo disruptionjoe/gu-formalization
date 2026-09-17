@@ -2,10 +2,23 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-16"
+updated_at: "2026-09-17"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K202 common-weighted order-six time-Gram rule (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| One Jacobi reference measure serves all K184 signed order-six Grams | all 1,276 K185 rational allocations replay; 1,864 support terms in 234 entries have fourteen beta parameters at least 1/3; complete signed cross terms counted twice for 2,928 ordered terms | exact common positive reference weight `prod z_i^(-2/3)`, not the actual physical or signed measure |
+| A one-node complete-group rule has an absolute error | original Bessel determinants and coherent signs evaluated with Arb at `rho=3/128`, `z_i=1/14`; independent mpmath controls for 18 groups; elementary gamma/pi bounds give a summed error below `9.683e-7` | rigorous but very broad full-domain quadrature error, not an accurate order-six prefix |
+| The fixed-slice normalized R3 pilot supplies the complete error | one actual K184 size-three occurrence has a K185 beta-weighted centroid factor error below `2.623e-9` under the archived fixed-slice derivative enclosure; other Bessel/species factors, Duffy chain, signed assembly and useful allocation are not controlled by that number | false as full integral; local method evidence only, archived implementation not native standalone |
+| K202 releases action columns or a GU/physics verdict | K201 farther shells and decision-grade core error remain open; no completed K171/K168 residual or K152 interval | false; `SC-META-53` is `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` remain `NEEDS` |
+
+Reproduce the common rule and independent hostile controls with
+`_local/cas-venv/bin/python tests/channel-swings/k202_order_six_common_weighted_core.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k202_order_six_common_weighted_core_probe.py`.
 
 ## K201 order-six third enlarged a/c-square family (2026-09-16)
 

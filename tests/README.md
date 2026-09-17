@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K202 common-weighted order-six time-Gram controls
+
+- `channel-swings/k202_order_six_common_weighted_core.py` independently
+  replays 1,276 K185 exact allocations and all 234 K184 Gram entries to
+  construct a single `prod z_i^-2/3` Jacobi reference, evaluate each complete
+  signed coherent group at one node with Arb, and give a rigorous but broad
+  rational absolute error for the full-domain weighted rule.
+- `channel-swings/k202_order_six_common_weighted_core_probe.py` compares all
+  eighteen signed values to an independent mpmath determinant evaluation,
+  checks the rational normalizer ceiling, and rejects five planted mutations.
+  Neither script closes the accurate core error or changes source/physics status.
+
 ## K201 order-six third enlarged a/c-square controls
 
 - `channel-swings/k201_order_six_third_ac_ring.py` selects an 8/1024-wide

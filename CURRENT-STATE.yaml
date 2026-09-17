@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d8971a8f07254075959051b1301b9b1a36459173
+revision_basis: 6fec2080e739621ea30e2b6b6052f2f9dea120e8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K202 derives one integrable common fourteen-coordinate Jacobi reference
+    weight, product z_i^(-2/3), for all 1,864 K185 support terms and the
+    eighteen complete signed K184 order-six coherent time-Gram groups. Its
+    actual full-domain one-node weighted rule retains the determinant signs
+    and has a rigorous summed absolute error below 9.683e-7, vastly too broad
+    relative to the ~1e-21 numerical scale. A reviewed normalized R3 pilot
+    connects one actual size-three occurrence to local beta weights and a
+    fixed-slice factor error below 2.623e-9, but other factors, coordinate
+    chain and signed group error remain unbounded at useful precision; its
+    archived implementation is not yet native standalone evidence. No
+    accurate order-six prefix, action/residual/floor, K152, physical/source,
+    prediction or confirmation consequence follows.
+
     The K201 order-six third a/c-ring Big Wave certifies an 8/1024-wide
     symmetric ring beyond K200 across the complete 32-slab q profile and
     scale/radial grid. Two row-chart side strips and four corner boxes pass
@@ -7783,11 +7796,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K201's third enlarged 495/1024<=a,c<=529/1024 square be adaptively extended
-  across the remaining a/c shells to close the ordered-shape determinant cover, then
-  differentiated and
-  composed with the positive-radius Duffy/Jacobi chain rule and weighted
-  cubature remainder on 2^-20<=rho<=1/4 and z_i>=2^-180; if so, does the
+  Can K202's single common Jacobi reference rule be sharpened by composing
+  normalized regularizer jets with the old-position Bessel factors, other
+  species determinants, primitive-to-Duffy coordinate chain and signed
+  coherent-group coefficients over the positive-radius core, while completing
+  the farther a/c determinant atlas; if so, does the
   completed K185/K188 boundary control plus that prefix advance the K171/K168
   action columns and R_ref residual, complement or flux floor, separately
   selected scalar center and K152 interval?
@@ -7799,6 +7812,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K202's common product z_i^(-2/3) reference weight covers every K185
+  support allocation and its complete signed K184 time-Gram group, but the
+  full-domain one-node absolute error is below only 9.683e-7, not a useful
+  order-six prefix at roughly 1e-21 scale. The fixed-slice normalized R3
+  beta-centroid contribution is factor-level evidence only. Derive and
+  certify the complete quotient's weighted product/chain-rule derivative
+  and a realistic group-level allocation on the positive-radius core, or
+  find a stronger analytic reduction; do not infer full cubature from the
+  local R3 bound. Farther a/c shells remain open and the K201 result below
+  stays a coverage input, not an automatic next selection.
+
   K201 composes two 8/1024-wide row-chart side strips and four new corner
   boxes with K200 to close the third enlarged
   495/1024<=a,c<=529/1024 square across 8227/10240<=q<=1. All 192 ring
