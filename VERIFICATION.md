@@ -7,6 +7,34 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K214 support-aware auxiliary tail (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Every K213 unsigned positive-interior term has a support-dependent eight-variable box tail | `x K1(x)<=1`, Gamma(7) moment for the retained cosh factor and `u=sinh(t)` give `(2^8/product S_j) sum_j[256/(256+S_j sinh(T))]^6` | exact termwise positive upper bound, not a signed determinant error |
+| On K204's angular core the per-term `10^-21` target has a smaller sufficient dyadic box | `S_j>=2^-180` and exact rational tests give first sufficient integer `m=443` for `T=m log(2)` under this uniform inequality; replay all 1,864 K185 masks at the barycenter gives worst `m=27` there | sufficient under stated bounds only; the barycenter is not a uniform core bound, and neither cutoff counts cubature nodes |
+| Complete signed rule is accurately integrated | no eight-dimensional certified integration, angular cellwise/group error, or matching K185/K188 quotient-boundary composition exists | false; inherited full-domain `<9.683e-7`, no source/physics change |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k214_order_six_support_aware_auxiliary_tail.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k214_order_six_support_aware_auxiliary_tail_probe.py`.
+For one coordinate tail `t_j>=T`, bound each of the seven other factors
+by `2 K1(rho S_k)<=2/(rho S_k)`, since `(x K1(x))'=-x K0(x)<0` and
+`x K1(x)->1` as `x->0`. Integrating the Gamma(6,256) radius first leaves
+`2^8*6*256^6/product_(k!=j) S_k` times
+`integral_T^infty cosh(t)/(256+S_j cosh(t))^7 dt`.
+Set `u=sinh(t)` and use `cosh(t)>=u`; the integral is at most
+`1/[6*S_j*(256+S_j sinh(T))^6]`. Sum the eight positive tails, retaining
+the actual support sums. The angular multiplier is at most one on the
+simplex, but K204's face-stripped core is not the complete quotient domain.
+The exact rational uniform floor improves K213's *different*, loose AM--GM
+cutoff 4534 to about 307.1, still far from a demonstrated practical
+eight-dimensional cubature. At `z_i=1/14`, the actual masks give `m=25..27`;
+this pointwise observation motivates angular localization/integration but
+cannot be transferred to the whole core. K185/K188 termwise boundaries and
+K204/K209 common-reference defects remain separate. This is K139/K184
+conditional Fock mathematics; SC-ACT-01/02 (`ASSERTS`) do not select it,
+SC-META-53 (`UNCERTAIN`) and LT-SM8/LT-GR6b/RA-F1/AC-F1 (`NEEDS`) do not move.
+
 ## K213 exact Bessel-Laplace radial elimination (2026-09-17)
 
 | Claim | Evidence | Honest grade |

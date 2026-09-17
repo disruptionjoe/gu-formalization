@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "K185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "K204": "26ab2dbc8375afd5cb2f4579edd0253f944a06e68231f55a506b11e3e0a86183",
+    "K213": "8120b6eaf379fd90775df51aa44aad322ec09b96aababdbc0943cc014ed574fd"
+  },
+  "object": "K139/K184 conditional Fock model; one unsigned K185 term at positive angular interior",
+  "theorem": "For S_j>0 and T>=0, the K213 eight-auxiliary integral outside [0,T]^8, including its exact Gamma/Bessel prefactor but before z_i^(2/3)/pi^8, is at most (2^8/product_j S_j)*sum_j[256/(256+S_j*sinh(T))]^6.",
+  "proof": "Union-bound the eight coordinate tails. For the seven other factors use 0<x K1(x)<=1 (derivative (x K1(x))'=-x K0(x)<0, limit 1 at zero). Tonelli integrates the Gamma(6,256) density times rho^8/rho^7 and the remaining cosh kernel: 2^8*6*256^6/(product_(k!=j) S_k)*integral_T^infty cosh(t)/(256+S_j*cosh(t))^7 dt. With u=sinh(t), cosh(t)>=u>=0, the last integral is at most 1/[6*S_j*(256+S_j*sinh(T))^6]. Sum over j. Nonnegative termwise tails precede the signed determinant sum.",
+  "uniform_core": {
+    "angular_coordinate_lower": "1/2^180",
+    "inequality": "Each support S_j>=delta; the term bound is <=8*2^8/delta^8*(256/(256+delta*sinh(T)))^6, before the angular factor which is <=1.",
+    "target_per_unsigned_term": "1/10^21",
+    "dyadic_T_definition": "T=m*log(2), sinh(T)=(2^m-2^-m)/2 exactly",
+    "first_integer_m_sufficient_under_this_uniform_bound": 443,
+    "previous_integer_m_fails_this_uniform_bound": 442,
+    "comparison": "K213's distinct loose AM--GM certificate required even T=4534; neither cutoff is necessary for the actual tail or a node-cost lower bound."
+  },
+  "barycenter_diagnostic": {
+    "z": "each of 14 coordinates equals 1/14 (not a uniform core result)",
+    "terms": 1864,
+    "minimum_support": "1/7",
+    "first_m_histogram": {
+      "25": 50,
+      "26": 1138,
+      "27": 676
+    },
+    "worst_first_m": 27
+  },
+  "source_routing": "SC-ACT-01/02 ASSERTS a distinct source action/equation; SC-META-53 UNCERTAIN and LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS are unchanged",
+  "unchanged_complete_rule_error_upper_rational": "412009773890262587145/425541888504349469496573952",
+  "claim_ceiling": "A sharper support-aware positive core auxiliary tail only. No certified eight-dimensional cubature, signed angular cell enclosure, quotient-face/common-reference boundary composition, accurate order-six prefix, physical state, or source verdict."
+}

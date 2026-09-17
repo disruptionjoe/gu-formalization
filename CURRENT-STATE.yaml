@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b00e0f9ef031fea89fec468a29817e4566f43638
+revision_basis: e62ba46f5d0c06530a8633e701cdd6ae3d33bce6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K214 bounds K213's eight-dimensional auxiliary tail by a support-dependent
+    positive rational expression. On K204's face-stripped angular core its
+    uniform sufficient per-term 10^-21 box has T=443 log(2) (~307.1), versus
+    K213's different coarse AM--GM sufficient T=4534. At the equal-coordinate
+    profile, all 1,864 K185 terms need at most 27 log(2) under the new bound;
+    that is a point diagnostic, not a uniform core certificate. The estimate
+    does not certify eight-dimensional cubature, signed angular error or
+    quotient-boundary composition, and no accurate prefix or source/physics
+    result follows. The inherited full-domain bound remains below 9.683e-7.
+
     K213 eliminates the Gamma(6,256) radius analytically from each of K185's
     1,864 positive-interior signed terms using the Bessel cosh representation
     and a Gamma(14) moment, exchanging one radial variable for eight auxiliary
@@ -7924,14 +7934,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  Can K214's support-dependent auxiliary tail be integrated against the actual
+  angular weights or enclosed on localized angular cells, rather than paying
+  the uniform 2^-180 support floor? Its sufficient 443 log(2) cutoff is much
+  sharper than K213's coarse 4534 but does not certify affordable signed
+  cubature or the complete quotient boundary.
   Can K203's 28-node third-order route or K208's 184-node fourth-order route
   obtain complete normalized/coalescent signed cellwise derivative bounds,
   a usable higher-order or signed-cancellation radial reduction beyond K212's
   K205 Lipschitz certificate-class limit? K213 exactly exchanges the radial
-  variable for eight auxiliary integrals per K185 term, but its first
-  uniform core-tail certificate is far too loose to establish useful cost.
-  Can a support-aware or complete signed version make that route viable, and
-  can it be composed with K185/K188 termwise boundaries and K204/K209 common-reference
+  variable for eight auxiliary integrals per K185 term. K214 improves its
+  positive core tail substantially without establishing numerical efficiency;
+  can a complete signed version be composed with K185/K188 termwise boundaries
+  and K204/K209 common-reference
   moment defects? K210 fixes the chart chain and K211 fixes conditional third
   geometry and interior point jets, not those bounds. K212's improved
   radial-only upper bound is not an accurate prefix. If an accurate order-six
@@ -7946,13 +7961,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K213's exact termwise radial elimination has a valid but loose core-tail
-  cutoff 4534 at a per-term 10^-21 target; this is sufficient under its
-  particular uniform AM--GM bound, not a complexity lower bound. Test a
-  support-aware or cancellation-preserving auxiliary tail before attempting
-  broad eight-dimensional cubature; if it cannot give a decision-grade
-  budget, redirect to weighted radial derivatives or complete signed
-  cancellation jointly with the angular-cell work. No accurate prefix follows.
+  K214's exact positive support-dependent bound reduces the uniform core
+  sufficient cutoff to 443 log(2) for a per-term 10^-21 target; at the
+  barycenter all 1,864 mask terms require at most 27 log(2). Neither is a
+  necessary cutoff or an eight-dimensional node-cost estimate. Test angular
+  integration or cell-local support floors and signed-group composition of
+  the tail against a coherent total-error budget. If that remains impractical,
+  switch to weighted radial derivatives or determinant cancellation jointly
+  with complete coalescent angular cells. Keep termwise K185/K188 boundaries
+  distinct from K204/K209 common-reference defects. No accurate prefix follows.
+
+  K213's earlier AM--GM sufficient cutoff 4534 remains a distinct valid
+  positive-core bound, not a complexity lower bound. K214 improves it without
+  establishing a useful complete numerical method.
   K212 improves K205's two-node radial-only certificate to below
   1.7152001658e-8, but proves that positive radial node multiplication
   under the unchanged termwise Lipschitz/W1 inequality needs at least

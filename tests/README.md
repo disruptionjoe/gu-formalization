@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K214 support-aware auxiliary box tail
+
+- `channel-swings/k214_order_six_support_aware_auxiliary_tail.py` derives the
+  termwise support-dependent positive bound, checks K204's uniform dyadic
+  cutoff and all K185 masks at the barycenter. Neither is signed cubature.
+- `channel-swings/k214_order_six_support_aware_auxiliary_tail_probe.py`
+  independently integrates one-factor tails and checks the adjacent rational
+  cutoff and hostile barycenter-to-core transfer.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k214_order_six_support_aware_auxiliary_tail.py --write
+_local/cas-venv/bin/python tests/channel-swings/k214_order_six_support_aware_auxiliary_tail_probe.py
+```
+
 ## K213 Bessel-Laplace exact radial reduction and core-tail pilot
 
 - `channel-swings/k213_order_six_bessel_laplace_radial_elimination.py` replays
