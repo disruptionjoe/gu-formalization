@@ -7,6 +7,55 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K211 third-order angular route and signed point jets (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K203 has a conditional third-order angular geometry budget and a nonzero cubic defect | centered second moment `39/238`, K209 fourth moment and Cauchy give `C3<0.023477` times a separately supplied uniform third-derivative norm on the convex core; exact rational bracket proves the `z_0^3` rule-minus-reference defect is positive (~`0.00120475`) | analytic reference geometry and a cubic nonexactness witness; K204 conditional polynomial defects remain separate |
+| The complete signed third tangent jet exists at positive interior points | raw third-jet propagation through all 234 original K184 determinant entries/eighteen groups; independent K185 signed permutation replay reconstructs 1,864 terms and 14,912 factor occurrences with Bessel-ODE Taylor coefficients at two K203 nodes; all 36 third group jets agree to `1e-55`, four hostile changes detected | exact interior algebra and outward point controls, not cellwise derivative suprema |
+| K211 establishes an accurate full integral or favors one rule | neither the third nor fourth complete signed cellwise norm is enclosed; K205's separate radial-only upper estimate remains `<4.633e-8`, and K185/K188 termwise boundaries have not been composed | false; inherited full-domain error remains `<9.683e-7`, with no source/physics move |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k211_order_six_third_jet_route.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k211_order_six_third_jet_route_probe.py`.
+
+Scope and route: this is the fixed K139/K184 positive particle/hole Fock
+construction (`lambda=256`, equal couplings), not an action-selected physical
+state or quotient. SC-ACT-01/02 (`ASSERTS`) do not select its action, and
+SC-META-53 (`UNCERTAIN`) plus ledger LT-SM8, LT-GR6b, RA-F1, AC-F1 (`NEEDS`)
+do not move. The closest source-facing challenger is a native non-gauge
+mixed-grade I1B mode with full fermion insertion on a common action-owned
+stationary domain, which has not been built. The 28-node route is cheaper;
+the 184-node route has a smaller conditional fourth-order geometry factor,
+but actual complete signed M3/M4 on cells must decide their economics.
+
+For `c=(1/14)^14`, `R=||z-c||_2` and the common Dirichlet law, both reference
+and K203 one-hot rule have `E R^2=39/238`; K209 gives reference
+`E R^4=12987/383180`. Cauchy bounds `E_ref R^3` by the square root of
+their product. The rule's third moment is exactly
+`(39/238)sqrt(39/238)`. On the convex face-stripped angular core, divide
+the reference moment by `1-q` with K204's conservative full-product lost-mass
+upper `q`, then divide the reference-plus-rule sum by six. This is the
+manifest's rational `C3<0.023477` multiplying a *uniform* Euclidean
+trilinear derivative norm of the fixed-radial complete signed quotient;
+K204's conditional quadratic polynomial defects and radial error remain
+separate. The `z_0^3` difference uses its coordinate variance
+`(39/238)/14`, not the full squared radius, and its exact rational bracket
+is strictly positive. Symmetry does not cancel all cubic error.
+
+The analytic normalized factor `h=2rho K1(rho S)` has third tangent jet
+`-2rho^4(D_v S)^3[K0(x)(1+3/x^2)+K1(x)(2/x+6/x^3)]`, `x=rho S`;
+the prefactor's third log jet is `(4/3)sum v_i^3/z_i^3`. The producer
+propagates raw binomial jets through the original determinants. The probe
+reconstructs K185 permutations and computes Bessel Taylor coefficients
+from its differential equation, then convolves all eight factors. These
+are independent point controls, not core-contained cell enclosures. K210's
+mixed Duffy chart additionally needs lower ambient jets, and K185/K188
+termwise quotient boundaries are not K204/K209 common-reference defects.
+K205's radial-only `<4.633e-8` is an upper bound, not an actual-error floor;
+leaving that estimate unchanged cannot certify a full result near the signed
+node scale. The next attempt must jointly sharpen/bypass radial and angular
+debts or use a structural reduction, with no source, physics or canon move.
+
 ## K210 exact Duffy chart and fourth-order composition (2026-09-17)
 
 | Claim | Evidence | Honest grade |

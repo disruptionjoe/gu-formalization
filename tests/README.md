@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K211 third angular remainder and signed third-jet controls
+
+- `channel-swings/k211_order_six_third_jet_route.py` computes exact centered
+  geometry and cubic nonexactness for K203, then propagates third tangent jets
+  through the original 234 K184 entries/eighteen complete signed groups.
+- `channel-swings/k211_order_six_third_jet_route_probe.py` independently
+  reconstructs K185's 1,864 signed terms/14,912 factor occurrences and
+  Bessel-ODE Taylor coefficients, checks 36 third group jets and four hostile
+  mutations. Point jets and conditional geometry do not certify cell error.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k211_order_six_third_jet_route.py --write
+_local/cas-venv/bin/python tests/channel-swings/k211_order_six_third_jet_route_probe.py
+```
+
 ## K210 Duffy density and fourth-order chain controls
 
 - `channel-swings/k210_order_six_duffy_chain.py` checks all 1,276 K185
