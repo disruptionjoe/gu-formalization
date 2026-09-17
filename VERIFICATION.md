@@ -7,6 +7,30 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K216 analytic angular prefix and small-box remainder (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K213's angular simplex can be eliminated at fixed auxiliary coordinates | Set `L_i=sum_(j:i in support_j) cosh(t_j)`, `M=256+max L_i`, `a_i=(max L-L_i)/M`. The common `prod z_i^(2/3)` gives a Dirichlet(5/3)^14 moment series for `M^-14(1-sum z_i a_i)^-14`; all 1,864 K185 terms have support loads `1..7` | exact positive angular series term by term, before signed assembly; still an eight-dimensional auxiliary integral |
+| A local finite-box angular-series truncation is certified | On `[0,log(2)]^8`, `q<=31/1059`; through order 20 the rational binomial/geometric relative remainder is `<10^-21` against the beta-volume/`M^14` scale. A conservative raw 1,864-term absolute truncation is also `<10^-21`. Independent multinomial moments and a one-dimensional Beta integral pass | small-box series error only, not the integral of that box or of its complement |
+| The full signed order-six prefix is accurately integrated | At K215's sufficient `T=215 log(2)`, this simple uniform order-20 geometric-ratio test fails; neither adaptive cell enclosure nor eight-dimensional finite-box cubature and matching boundaries is supplied | false; inherited full-domain `<9.683e-7`, no physical/source move |
+
+Reproduce with `python3 tests/channel-swings/k216_order_six_analytic_angular_prefix.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k216_order_six_analytic_angular_prefix_probe.py`.
+The angular generating function is `prod_i(1-a_i x)^(-5/3)`; its coefficients
+obey `n c_n=(5/3)sum_(k=1)^n(sum_i a_i^k)c_(n-k)`, and the integrated
+inverse-denominator series has coefficient `(14)_n c_n/(70/3)_n`.
+The remainder after order `N` is at most
+`binom(N+14,N+1)q^(N+1)/(1-q(N+15)/(N+2))` when the denominator is positive.
+The raw absolute bound includes K213's `2^8*256^6*13!/5!`, the original
+`1/pi^8`, and the simplex measure; it is not K215's tail normalization.
+The large-box failure concerns this *uniform geometric certificate* only,
+not actual convergence, adaptive cost, or a lower bound on other methods.
+K185/K188 quotient exclusions and K204/K209 common-reference defects have
+not been composed. This remains conditional K139/K184 mathematics;
+SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`) and ledger
+LT-SM8/LT-GR6b/RA-F1/AC-F1 (`NEEDS`) do not move.
+
 ## K215 angular-integrated positive auxiliary tail (2026-09-17)
 
 | Claim | Evidence | Honest grade |

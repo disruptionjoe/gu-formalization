@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3186bafcdfc8b00cfeaaf8a3d2aece9e35263b80
+revision_basis: f9bcb8be3bef2efdb9c177aa76c5d23a76156d9a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K216 eliminates K213's 13-dimensional angular simplex analytically at
+    fixed eight auxiliary coordinates: exact Dirichlet(5/3)^14 moments give a
+    positive series for each of the 1,864 K185 terms. All masks have minimum
+    and maximum coordinate support loads one and seven. On the small box
+    [0,log(2)]^8, a 20th-order rational geometric remainder is below
+    10^-21 relative to its beta-volume/M^14 scale, and the conservative raw
+    whole-unsigned-sum absolute truncation is also below 10^-21. An
+    independent Beta integral and multinomial moments check the identity.
+    The same simple uniform geometric certificate fails its order-20 ratio
+    condition on K215's large sufficient tail box; adaptive localization or
+    another signed method is needed. The eight-dimensional box itself is not
+    numerically integrated, and no accurate full prefix, source/physics
+    claim or inherited full-domain 9.683e-7 bound moves.
+
     K214 bounds K213's eight-dimensional auxiliary tail by a support-dependent
     positive rational expression. On K204's face-stripped angular core its
     uniform sufficient per-term 10^-21 box has T=443 log(2) (~307.1), versus
@@ -7934,7 +7948,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K215 integrates K214's positive auxiliary tail across the full simplex
+  K216 analytically integrates the angular simplex in K213's finite-box
+  prefix, and certifies a small-box series remainder, but the eight-dimensional
+  auxiliary prefix remains unintegrated. K215 integrates K214's positive tail
+  across the full simplex
   using K185's exact angular allocations: a conservative whole-1,864-term
   10^-21 absolute-tail budget has sufficient T=215 log(2), without K204's
   2^-180 pointwise core floor. Can the finite-box prefix and complete signed
@@ -7962,6 +7979,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K216's angular elimination leaves an eight-dimensional auxiliary integral.
+  The order-20 series is rigorously small only on [0,log(2)]^8; its simple
+  uniform geometric-ratio certificate does not apply at K215's sufficient
+  T=215 log(2). Test adaptive auxiliary-cell localization with a full signed
+  group error and finite-box integration, or switch to weighted radial
+  derivatives/determinant-preserving cancellation. Neither a small-box
+  truncation nor K215's complete positive tail closes the middle region.
+  Preserve K185/K188 quotient and K204/K209 common-reference boundaries as
+  distinct obligations. An action-owned I1B full-fermion mode and farther
+  a/c atlas remain independent alternatives; no accurate prefix follows.
+
   K215 uses K185's beta_i>=1/3 to integrate the positive auxiliary-box tail
   over the full angular simplex with an additional 1/4 support singularity.
   Its proof-safe universal per-term 10^-21 cutoff is 172 log(2); exact replay

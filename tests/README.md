@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K216 analytic angular prefix
+
+- `channel-swings/k216_order_six_analytic_angular_prefix.py` eliminates the
+  angular simplex at fixed K213 auxiliary coordinates by exact Dirichlet
+  moments, replays all 1,864 supports and bounds order-20 truncation on the
+  small `[0,log(2)]^8` box. The large K215 box needs localization or a new
+  certificate; no eight-dimensional integral is evaluated.
+- `channel-swings/k216_order_six_analytic_angular_prefix_probe.py` independently
+  checks low multinomial moments, an ordinary Beta integral, all supports and
+  a hostile zero-load face. No signed full-rule accuracy follows.
+
+```sh
+python3 tests/channel-swings/k216_order_six_analytic_angular_prefix.py --write
+_local/cas-venv/bin/python tests/channel-swings/k216_order_six_analytic_angular_prefix_probe.py
+```
+
 ## K215 full-simplex positive auxiliary tail
 
 - `channel-swings/k215_order_six_angular_integrated_auxiliary_tail.py`

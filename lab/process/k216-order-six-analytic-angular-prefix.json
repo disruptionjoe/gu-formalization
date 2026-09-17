@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k213": "8120b6eaf379fd90775df51aa44aad322ec09b96aababdbc0943cc014ed574fd",
+    "k215": "4e3ed260c1cf00b6c57851ae9ff3db3bca96f4242091811cff8ae4f91be7b57e"
+  },
+  "object": "K139/K184 raw unnormalized K213 term after radial elimination; angular simplex at fixed positive auxiliary t",
+  "identity": "Let L_i=sum_(j:i in support_j) cosh(t_j), M=256+max_i L_i, a_i=(max L-L_i)/M, beta_i=5/3, beta_0=70/3. The angular integral of product_i z_i^(2/3)/(256+sum_i z_i L_i)^14 equals B(beta)/M^14 times sum_(n>=0) (14)_n/(beta_0)_n c_n, where c_0=1 and n c_n=(5/3) sum_(k=1)^n (sum_i a_i^k)c_(n-k). B(beta)=Gamma(5/3)^14/Gamma(70/3). Multiply by K213's 2^8*256^6*13!/5! and product cosh(t_j)/pi^8 before the signed K185 assembly.",
+  "proof": "Dirichlet(5/3)^14 moments give E[U^n]=n!c_n/(70/3)_n for U=sum_i z_i a_i. Since 0<=U<=q<1, the positive binomial series for (1-U)^-14 converges uniformly on a finite auxiliary box. The coefficients follow by logarithmically differentiating product_i(1-a_i x)^(-5/3). For n>=N+1, the binomial-majorant ratio is at most q*(N+15)/(N+2), so its geometric tail bounds the angular truncation.",
+  "all_mask_support_loads": {
+    "1..7": 1864
+  },
+  "term_count": 1864,
+  "unique_allocations": 1276,
+  "small_box": {
+    "auxiliary_domain": "[0,log(2)]^8",
+    "maximum_cosh": "5/4",
+    "q_ceiling": "31/1059",
+    "series_order_inclusive": 20,
+    "relative_to_B_over_M14_remainder_ceiling": "141722032663519223012765668639658931945440/23302642048734969658452821053429976160172299208133643336731492871",
+    "raw_term_absolute_error_ceiling": "346001056307419978058509933202292314319921875/541497122316243863862104480217324373030644322465030077008489758383364325137361046582853632",
+    "whole_unsigned_1864_term_absolute_error_ceiling": "80618246119628854887632814436134109236541796875/67687140289530482982763060027165546628830540308128759626061219797920540642170130822856704",
+    "normalization": "Original raw K213 term, including angular product z_i^(2/3)/pi^8 and radial-elimination prefactor; bound uses pi>3, simplex volume 1/13!, log(2)<1."
+  },
+  "large_box": {
+    "k215_whole_unsigned_tail_dyadic_m": 215,
+    "uniform_q_at_that_box": "19408687858845704017048899289001585924055059527630716026193357064197036862970822174581902815045306614362843381329275891548508127239/19408687858845704017048899289001585924055059527630716026193357091262295821790019155946835929748607720318882899270397483906429353991",
+    "order_20_geometric_ratio_exceeds_one": true,
+    "scope": "This simple global binomial/geometric certificate does not close the large-box prefix at order 20; adaptive localization or a different route may. No complexity lower bound."
+  },
+  "example_loads_at_all_t_zero": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "example_normalized_coefficients_at_all_t_zero": [
+    "1",
+    "42/263",
+    "70245/5049337",
+    "1164240/1327975631",
+    "23459076900/524235644020453"
+  ],
+  "source_routing": "SC-ACT-01/02 ASSERTS a distinct source action/equation; SC-META-53 UNCERTAIN and LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS are unchanged",
+  "unchanged_complete_rule_error_upper_rational": "412009773890262587145/425541888504349469496573952",
+  "claim_ceiling": "Exact full-angular elimination and certified angular-series truncation on a small auxiliary box only. No certified eight-dimensional integration over K215's complete finite box, signed full-rule error, quotient/common-reference boundary composition, accurate order-six prefix, source action or physical state."
+}
