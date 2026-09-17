@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "K203": "1d9421d780df2ac38016db03f461d74c6309baa397c00d143fb85c5731f1c7dc",
+    "K205": "3e7e06cdf6c4283a40c201b9dfbf0ffa58369a1a7e0821df4e99e64920d4bba9"
+  },
+  "reference": "Gamma(shape=6, rate=256); angular Dirichlet reference held exact",
+  "rule": "K203 positive two-node radial Gaussian rule, not its angular replacement",
+  "cdf": "F_6(x)=1-exp(-256x)*sum(k=0..5)(256x)^k/k!",
+  "truncated_first": "H(x)=(6/256)*F_7(x)",
+  "quantile": "unique t in (a,b) with F_6(t)=p; a=(7-sqrt(7))/256, b=(7+sqrt(7))/256, p=(1+1/sqrt(7))/2",
+  "quantile_open_rational_interval": [
+    "270319788593502346489739/10000000000000000000000000",
+    "270319788593502346489741/10000000000000000000000000"
+  ],
+  "w1_formula": "6/256+2H(t)-2H(a)-2H(b)+a*(2F_6(a)-p)+b*(2F_6(b)-p-1)",
+  "w1_open_rational_interval": [
+    "1012305413/200000000000",
+    "2530763533/500000000000"
+  ],
+  "k205_lipschitz_aggregate_rational": "2884068417231838110015/851083777008698938993147904",
+  "radial_only_error_open_rational_interval": [
+    "583911614045226438941574802239/34043351080347957559725916160000000000",
+    "1459779035401472939077120816599/85108377700869893899314790400000000000"
+  ],
+  "k205_prior_radial_upper_rational": "20188478920622866770105/435754893828453856764491726848",
+  "density_max": "256*5^5*exp(-5)/5! < 45 (Taylor lower bound for exp(5))",
+  "positive_n_atom_w1_floor": "W1(Gamma(6,256),Q_N)>=1/(4*fmax*N)>1/(180*N)",
+  "k205_certificate_floor": "L_K205*W1 > L_K205/(180*N), for the unchanged termwise Lipschitz constant L_K205",
+  "budget": "1/10^21",
+  "necessary_positive_radial_node_count_for_this_certificate": 18826116477357,
+  "conditional_total_error_decomposition": "|E_r E_z f-Q_r Q_z f| <= L_K205 W1(E_r,Q_r) + sum_g[B_g(K185/K188 quotient exclusion)+P_g(K204/K209 common-reference polynomial defects)+C_d M_d,g(core signed remainder)]; the second bracket remains uncomputed, and each term requires a compatible core normalization before numerical addition",
+  "boundary_composition": "K185/K188 quotient face/tail/small-rho bounds are separate from K204/K209 common-reference deletion and polynomial defects; neither is a signed core-cell derivative enclosure",
+  "claim_ceiling": "A lower floor on the worst-case positive-atom K205 Lipschitz certificate, NOT on actual radial or signed error; higher derivatives, signed cancellation, different weights/estimates and angular errors remain open. No source/physics move."
+}

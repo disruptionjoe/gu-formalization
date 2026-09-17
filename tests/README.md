@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K212 radial transport and Lipschitz-certificate complexity
+
+- `channel-swings/k212_order_six_radial_transport_limit.py` gives an exact
+  K203 Gamma-to-two-atom quantile/W1 expression with outward Arb brackets,
+  then proves an N-atom density floor for the unchanged K205 certificate.
+- `channel-swings/k212_order_six_radial_transport_limit_probe.py` independently
+  integrates the cost using incomplete Gamma CDF, checks two hostile node
+  changes and the sharp uniform-density factor. This is not an actual signed
+  error lower bound or a full cubature certificate.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k212_order_six_radial_transport_limit.py --write
+_local/cas-venv/bin/python tests/channel-swings/k212_order_six_radial_transport_limit_probe.py
+```
+
 ## K211 third angular remainder and signed third-jet controls
 
 - `channel-swings/k211_order_six_third_jet_route.py` computes exact centered

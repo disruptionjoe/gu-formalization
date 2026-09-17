@@ -7,6 +7,61 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K212 radial transport certificate-class limit (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K203's two-node Gamma radial law has a sharper *optimal-coupling* error under K205's unchanged termwise Lipschitz constant | exact shape-six CDF and truncated first moment, unique quantile `F_6(t)=p` bracketed by rational endpoints with outward Arb; independent incomplete-Gamma/direct-cost integration | radial-only upper bound in `(1.7152001654e-8, 1.7152001658e-8)`, angular expectation held exact; improves K205's `<4.633e-8`, not an actual error measurement |
+| Positive radial node multiplication cannot make the unchanged K205 Lipschitz/W1 certificate cheap at `10^-21` | `f_max=256*5^5 e^-5/5!<45`; every positive `N`-atom rule has `W1>=1/(4f_max N)>1/(180N)`, hence its K205 bound `L_K205 W1` exceeds `L_K205/(180N)` with exact `L_K205=2884068417231838110015/851083777008698938993147904`; a budget `<=10^-21` needs at least `18,826,116,477,357` atoms | theorem about this worst-case certificate class, **not** a lower bound on actual signed quadrature error, nor on improved derivative/cancellation estimates |
+| Complete signed rule has an accurate order-six prefix | radial split `E_rE_z-Q_rQ_z=(E_r-Q_r)E_z+Q_r(E_z-Q_z)` still leaves the complete angular term; K185/K188 quotient exclusions, K204/K209 common-reference polynomial defects and core signed derivative remainders have different measures and have not been numerically composed | false; inherited full-domain `<9.683e-7` remains, no source/physics effect |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k212_order_six_radial_transport_limit.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k212_order_six_radial_transport_limit_probe.py`.
+
+Proof and scope: this is the fixed K139/K184 positive particle/hole Fock
+construction, not an action-selected physical state. SC-ACT-01/02
+(`ASSERTS`) do not select its action; SC-META-53 (`UNCERTAIN`) and ledger
+LT-SM8/LT-GR6b/RA-F1/AC-F1 (`NEEDS`) do not move. The source-native I1B
+mixed-grade/full-fermion common-domain calculation remains a separate
+challenger. Write `a=(7-sqrt(7))/256`, `b=(7+sqrt(7))/256`,
+`p=(1+1/sqrt(7))/2`, `q=1-p` and let `t=F_6^{-1}(p)`.
+Monotone one-dimensional transport couples `rho<=t` to `a` and `rho>t`
+to `b`. With `H(x)=E[rho 1_(rho<=x)]=(6/256)F_7(x)`, splitting the four
+intervals at `a,t,b` gives exactly
+
+```text
+W1 = 6/256 + 2H(t)-2H(a)-2H(b)
+     + a(2F_6(a)-p) + b(2F_6(b)-p-1).
+```
+
+The producer outward-encloses both the quantile and this expression, and
+the probe integrates `|rho-a|`/`|rho-b|` on their independently determined
+quantile intervals. The K205 error coefficient is the same proof-safe
+`L_K205=7*2928*E` (where `E` is K202's per-term integrated ceiling), so
+only the coupling distance changes. For *any* positive `N`-atom radial
+probability law, disintegrate mass `p_i` toward atom `i`. Its subdensity is
+at most the Gamma density maximum `M`; layer cake gives
+`int |x-a_i| dmu_i >= int_0^(p_i/(2M))(p_i-2Mr)dr=p_i^2/(4M)`.
+Sum and use `sum p_i^2>=1/N`. The Gamma density maximum is at `5/256`,
+and the first 15 positive terms of the exponential series prove
+`e^5>4000/27`, hence `M<45`. A uniform density with equally spaced
+midpoints saturates the factor four; no assumption of uniform Gamma density
+enters the proof. The `10^-21` budget is an illustrative useful-precision
+target, not a demand inferred from physics. This rules out brute-force
+positive radial atom multiplication **under the unchanged K205 Lipschitz
+certificate**, not higher-order radial control, signed group cancellation,
+or a different quadrature/error theorem.
+
+For a full rule, the first radial term above admits the new bound, while
+the angular term at each radial node still needs a compatible core-domain
+normalization: term-specific K185/K188 face/tail/small-rho bounds for the
+quotient, common-reference K204/K209 lost moments for the polynomial rule,
+and actual complete signed `M3` or `M4` cell suprema for the remainder.
+Their symbols cannot simply be added without matching domains and weights.
+The next profitable radial route must use a higher-order/weighted Bessel
+bound or full signed determinant cancellation, jointly with the angular
+cell program, not another node count under the same Lipschitz inequality.
+
 ## K211 third-order angular route and signed point jets (2026-09-17)
 
 | Claim | Evidence | Honest grade |

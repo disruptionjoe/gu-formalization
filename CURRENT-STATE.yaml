@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6e326c83cecfcbad3b50cb77514209d51c9458b6
+revision_basis: c051212622551f2764eb9ba7b33fb61c9cea8340
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K212 computes the exact optimal one-dimensional transport expression
+    between the Gamma(6,256) radial reference and K203's two-node law,
+    enclosing its K205 termwise Lipschitz radial-only bound between
+    1.7152001654e-8 and 1.7152001658e-8 with the angular expectation held
+    exact. A density-limited positive N-atom theorem shows the unchanged
+    K205 Lipschitz/W1 certificate would require at least
+    18,826,116,477,357 radial atoms for a 10^-21 error budget. This is a
+    worst-case certificate-class floor, not a lower bound on actual signed
+    error. Brute-force radial node multiplication under that bound is not
+    a viable accurate-prefix route; signed cancellation or higher-order
+    weighted derivatives and the distinct angular/core/boundary obligations
+    remain. The full-domain bound below 9.683e-7 and source/physics statuses
+    are unchanged.
+
     K211 gives K203's conditional third-order centered angular Taylor
     geometry below 0.023477 times an independently supplied uniform third
     derivative norm, and an exact nonzero cubic z_0^3 rule defect. It
@@ -7901,10 +7915,12 @@ current_result:
 current_question: >-
   Can K203's 28-node third-order route or K208's 184-node fourth-order route
   obtain complete normalized/coalescent signed cellwise derivative bounds,
-  a materially sharper radial estimate or structural radial reduction, and
+  a higher-order or signed-cancellation radial reduction beyond K212's
+  proved K205 termwise Lipschitz certificate-class limit, and
   honest K185/K188 termwise boundary composition with K204/K209 common-reference
   moment defects? K210 fixes the chart chain and K211 fixes conditional third
-  geometry and interior point jets, not those bounds. If an accurate order-six
+  geometry and interior point jets, not those bounds. K212's improved
+  radial-only upper bound is not an accurate prefix. If an accurate order-six
   prefix is established, can it advance K171/K168 action columns and R_ref
   residual, complement or flux floor, separately selected scalar center and
   K152 interval, while the farther a/c determinant atlas is completed?
@@ -7916,13 +7932,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  K211 proves K203's cubic defect is nonzero and supplies a conditional
-  third-order angular geometry factor below 0.023477, plus complete signed
-  third tangent point jets. Compare actual cellwise M3/M4 and 28/184-node
-  cost before choosing K203 or K208; point jets do not bound a core cell.
-  Sharpen or structurally bypass K205's radial-only upper estimate below
-  4.633e-8 alongside the angular work: it is not a lower bound on actual
-  error, but cannot alone certify an accurate ~1e-20 full-rule prefix.
+  K212 improves K205's two-node radial-only certificate to below
+  1.7152001658e-8, but proves that positive radial node multiplication
+  under the unchanged termwise Lipschitz/W1 inequality needs at least
+  18,826,116,477,357 atoms for a 10^-21 budget. Switch to a higher-order
+  weighted radial derivative or complete signed cancellation rather than
+  refining that certificate class; this is not an actual-error lower bound.
+  K211's conditional third geometry and point jets still require complete
+  coalescent cellwise M3/M4 and a 28/184-node cost comparison.
   Compose K185/K188 termwise quotient boundaries separately from K204/K209
   common-reference conditional moment defects and allocate complete signed
   group error. An action-owned native I1B common-domain/full-fermion mode and
