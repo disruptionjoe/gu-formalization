@@ -7,6 +7,22 @@ updated_at: "2026-09-16"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K201 order-six third enlarged a/c-square family (2026-09-16)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The third enlarged square beyond K200 is determinant-positive across the q corridor | two new 8/1024-wide row-chart side strips and four corner boxes pass across `8227/10240<=q<=1`; exact union with K200 closes `495/1024<=a,c<=529/1024`; 786,432 unique directed-Arb cells represent 1,572,864 chart instances | rigorous outward certificate for the declared third enlarged a/c square |
+| The cover preserves determinant dependencies | one common `(t,w,a,q,c)` interval supplies every shifted entry and normalization before each complete determinant; all 192 ring tiles pass at adaptive depth zero; exact transpose supplies companion column-chart side strips | rigorous common-cell certificate |
+| Independent controls agree | all 1,056 200-digit boundary values lie inside the outward range; minimum lower bound `0.030078977667917985`, maximum upper bound `1.7451902615036818`, maximum shifted-entry tail `0.00047089144223947955` | deterministic controls only; Arb cells carry the proof |
+| The sampled 16/1024 parent refutes determinant positivity | its lower enclosure is `-0.042329089035112538`, with no complete adaptive certificate at that width | false; this is enclosure-sign loss, not a determinant counterexample |
+| K201 covers the complete domain or releases cubature/physics | farther a/c shells and regularizer/Duffy-Jacobi bounds remain open; no complete error, prefix, action column, residual, floor or K152 interval follows | false; `SC-META-53` remains `UNCERTAIN`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` remain `NEEDS` |
+
+Reproduce with
+`_local/cas-venv/bin/python tests/channel-swings/k201_order_six_third_ac_ring.py --write --progress`,
+the independent checkpoint-free replay through
+`_local/cas-venv/bin/python tests/channel-swings/k201_order_six_third_ac_ring_probe.py --progress`,
+and baseline-first hostile checks with `--no-replay --selftest`.
+
 ## K200 order-six second enlarged a/c-square family (2026-09-16)
 
 | Claim | Evidence | Honest grade |
