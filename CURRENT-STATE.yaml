@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5a10dca03b27cccea6a4048288772b9b7eaa1d22
+revision_basis: 2ae96a20d700f0f4bbaeb984c376ba486021ffea
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K210 gives an exact thirteen-stick Duffy chart for K202's common
+    Dirichlet(1/3)^14 law and all 1,276 K185 term-specific laws, keeping
+    their distinct total parameters 14/3 and six. Its fourth-order
+    set-partition chain shows that mixed chart derivatives require all
+    lower ambient signed derivative orders, while pure repeated-stick
+    fourth derivatives use only the fourth. A conservative chart bound
+    16(M1+7M2+6M3+M4), and pure bound 4M4, are conditional on actual
+    core-cell signed derivative suprema. Independent rational squarefree-jet
+    replay and six hostile controls pass. K210 supplies neither those
+    suprema nor a complete signed error; K202's broad full-rule bound and
+    all source/physics statuses remain unchanged.
+
     K209 extends K204's common Gamma/Dirichlet compact-core accounting to
     K208's cubic-angular rule: twenty-eight exact orbit rows cover all 2,720
     radial-degree-at-most-three times angular-degree-at-most-three product
@@ -7875,7 +7887,8 @@ current_result:
 current_question: >-
   Can K203's exact 28-node common-weight rule or K208's cubic 184-node rule,
   equipped with K204's degree-two and K209's cubic compact-core reference
-  moment defects and conditional fourth-order geometry,
+  moment defects, conditional fourth-order geometry and K210's exact Duffy
+  derivative chain,
   K205's first radial bound, K206's angular jets and K207's bidegree-(2,2)
   mixed signed jet algebra, be
   supplied with a useful global angular/core error by bounding these jets
@@ -7893,6 +7906,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K210 now fixes the Duffy/Jacobi coordinate chain, not the missing complete
+  signed derivative enclosure. For mixed fourth chart derivatives the
+  ambient normalized/coalescent quotient needs first through fourth
+  derivatives on core-contained cells; a pure repeated-stick fourth needs
+  only the fourth. Compare K203's third-order route with K208's fourth-order
+  route using realistic signed-group budgets, and enclose the selected
+  complete product over cells rather than extending point controls. Keep the
+  common reference's Dirichlet total 14/3 separate from K185's term-specific
+  total six, and K185/K188 termwise quotient boundaries distinct from
+  K204/K209 common-reference moments.
+
   K208 matches the common Dirichlet reference through angular degree three
   with 92 positive interior nodes (184 with K203's radial law), but the
   complete signed values have only K202's broad full-domain error. Its
@@ -7902,8 +7926,8 @@ next_condition: >-
   allocation. K209 now supplies the missing cubic conditional moment defects
   and a fourth-order geometry factor below 0.002930, conditional on a uniform
   derivative operator bound. This is not that bound: enclose complete signed
-  normalized/coalescent fourth derivatives on cells and account for the
-  Duffy chain. K185/K188 termwise quotient boundary controls remain distinct
+  normalized/coalescent fourth derivatives on cells and apply K210's
+  mixed Duffy chain. K185/K188 termwise quotient boundary controls remain distinct
   from common-reference moments.
 
   K207 gives complete signed bidegree-(2,2) radial/angular jet algebra at

@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K210 Duffy density and fourth-order chain controls
+
+- `channel-swings/k210_order_six_duffy_chain.py` checks all 1,276 K185
+  allocations, exact common/term-specific stick weights and the full
+  set-partition chain through fourth order on rational polynomial controls.
+- `channel-swings/k210_order_six_duffy_chain_probe.py` directly substitutes
+  squarefree perturbations into the chart, checks five fourth partials and
+  catches six hostile changes without importing the producer. Neither script
+  bounds the complete signed quotient on cells.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k210_order_six_duffy_chain.py --write
+_local/cas-venv/bin/python tests/channel-swings/k210_order_six_duffy_chain_probe.py
+```
+
 ## K209 cubic compact-core and fourth-order geometry controls
 
 - `channel-swings/k209_order_six_cubic_core_geometry.py` extends K204's

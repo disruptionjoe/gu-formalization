@@ -7,6 +7,17 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K210 exact Duffy chart and fourth-order composition (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Common and term-specific Dirichlet laws have an exact thirteen-stick chart | triangular Jacobian and beta power collection; all 1,276 K185 allocations rechecked with total parameter six while the K202 common law totals 14/3 | exact analytic chart/factorization, not an error on the signed quotient |
+| Mixed fourth chart derivatives require lower ambient jets | multiaffine chart and fifteen labelled set partitions give `D1,D2,D3,D4` terms; pure repeated-stick fourth uses only `D4`; conservative conditional bounds `16(M1+7M2+6M3+M4)` mixed and `4M4` pure | exact chain and conditional geometry; `Mk` must be bounded on each actual core-contained cell |
+| The chart establishes an accurate order-six prefix | independent direct rational squarefree-jet replay of five fourth partials and six hostile changes tests the finite formulas, not complete signed normalized/coalescent derivatives or their outward cellwise suprema | false; K202's `<9.683e-7` full-rule ceiling and physical/source status unchanged |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k210_order_six_duffy_chain.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k210_order_six_duffy_chain_probe.py`.
+
 ## K209 cubic compact-core accounting and fourth-order geometry (2026-09-17)
 
 | Claim | Evidence | Honest grade |

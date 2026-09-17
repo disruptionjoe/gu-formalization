@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "203": "1d9421d780df2ac38016db03f461d74c6309baa397c00d143fb85c5731f1c7dc",
+    "208": "d430912517b8c815397fd703a228c4992e9658ba95c3f80c364abcef5e65bd66",
+    "209": "5334f7400bb897a77ddef7f070fe4e6d0cb032ef45c01274440864f4626cae45"
+  },
+  "chart": "z_j=u_j product_{i<j}(1-u_i), j=1..13; z_14=product_{i<=13}(1-u_i)",
+  "jacobian": "product_{j=1}^{13}(1-u_j)^(13-j)",
+  "term_specific_allocation_count": 1276,
+  "common_beta_parameters": [
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3",
+    "1/3"
+  ],
+  "common_stick_exponents_u_then_one_minus_u": [
+    [
+      "-2/3",
+      "10/3"
+    ],
+    [
+      "-2/3",
+      "3"
+    ],
+    [
+      "-2/3",
+      "8/3"
+    ],
+    [
+      "-2/3",
+      "7/3"
+    ],
+    [
+      "-2/3",
+      "2"
+    ],
+    [
+      "-2/3",
+      "5/3"
+    ],
+    [
+      "-2/3",
+      "4/3"
+    ],
+    [
+      "-2/3",
+      "1"
+    ],
+    [
+      "-2/3",
+      "2/3"
+    ],
+    [
+      "-2/3",
+      "1/3"
+    ],
+    [
+      "-2/3",
+      "0"
+    ],
+    [
+      "-2/3",
+      "-1/3"
+    ],
+    [
+      "-2/3",
+      "-2/3"
+    ]
+  ],
+  "chain": "D_{i1}...D_{im}(f o z)=sum_{partitions pi of labelled slots} D^|pi|f(z)[D_{i_B}z for B in pi]; any block repeating a stick index is zero",
+  "fourth_set_partition_counts_by_outer_derivative_order": {
+    "1": 1,
+    "2": 7,
+    "3": 6,
+    "4": 1
+  },
+  "fourth_mixed_chart_bound": "16*(M1+7*M2+6*M3+M4), Mk=sup ||D^k f||_2 on chart image; conservative |D_B z|_2<=2^|B|",
+  "fourth_pure_stick_bound": "4*M4 since z is affine in each u_i and ||D_i z||_2<=sqrt(2)",
+  "rational_test_sticks": [
+    "2/17",
+    "3/19",
+    "4/21",
+    "5/23",
+    "6/25",
+    "7/27",
+    "8/29",
+    "9/31",
+    "10/33",
+    "11/35",
+    "12/37",
+    "1/3",
+    "14/41"
+  ],
+  "rational_test_polynomial": [
+    [
+      "1",
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      "-3",
+      [
+        2,
+        5
+      ]
+    ],
+    [
+      "2",
+      [
+        13,
+        13
+      ]
+    ],
+    [
+      "1",
+      [
+        1,
+        3,
+        8
+      ]
+    ]
+  ],
+  "rational_fourth_partial_controls": {
+    "0-0-0-0": "24",
+    "0-0-0-1": "-14796800/569258487",
+    "0-0-1-1": "-4749976207368549344/10847379021007043025",
+    "0-1-2-3": "5205385770924996032/4352426613397857015",
+    "2-5-8-12": "5381459804160/124159937623673"
+  },
+  "unchanged_full_domain_error_rational": "412009773890262587145/425541888504349469496573952",
+  "remaining_gate": "Complete normalized/coalescent signed D1..D4 on outward core cells, including chart mixed lower-order terms, K185/K188 distinct termwise face/tail, and coherent-group allocation; common-reference moments alone are insufficient.",
+  "claim_ceiling": "exact 13-stick Jacobian/Dirichlet factorization and fourth-order multivariate chain, tested on rational polynomial controls; not a signed K184 derivative enclosure, accurate prefix or physics/source result"
+}
