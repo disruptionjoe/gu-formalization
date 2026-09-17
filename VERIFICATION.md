@@ -7,6 +7,35 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K215 angular-integrated positive auxiliary tail (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| K214's positive box tail integrates over the entire K185 angular simplex without the `2^-180` core floor | K185 rational loads `alpha_i<=2/3`; `S_j^-1/4<=z_i^-1/4` for one supported coordinate; shifted Dirichlet exponents stay at least `1/12`; elementary Gamma and pi bounds produce an exact rational coefficient | rigorous unsigned raw-time termwise bound, not a signed cubature error |
+| A conservative absolute-tail budget can be met at finite dyadic box | all 1,864 masks replayed, with mask-specific first sufficient per-term `10^-21` integers `m=151..161`; universal per-term `m=172`; universal whole-unsigned-sum `10^-21` sufficient `m=215` | sufficient bounds for `T=m log(2)` under the stated normalization; no necessary cutoff or node-cost claim |
+| Complete signed order-six rule has an accurate prefix | finite-box eight-dimensional integral, complete normalized/coalescent angular cell bounds, and K185/K188 versus K204/K209 boundary composition are still missing | false; inherited full-domain `<9.683e-7`, no physical/source move |
+
+Reproduce with `python3 tests/channel-swings/k215_order_six_angular_integrated_auxiliary_tail.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k215_order_six_angular_integrated_auxiliary_tail_probe.py`.
+For one K214 coordinate tail, `(1+x)^-6<=x^-1/4` with
+`x=S_j sinh(T)/256`. K185's AM--GM allocation then bounds
+`(product S_j)^-1 S_j^-1/4` by a Dirichlet monomial with total
+parameter `23/4`. Its simplex integral is the product of shifted Gamma
+factors divided by `Gamma(23/4)>28`. For `0<beta<=1`, split the Gamma
+integral at one to get `Gamma(beta)<1/beta+3/8`; `pi>3` and the
+AM--GM coefficient is at most one. The raw-time normalization is
+`120/(pi^8*256^6)`, **not** K214's pointwise Gamma-expectation
+normalization. The conservative rational coefficient appears in the K215
+manifest, with exact fourth-power adjacent cutoff checks. An independent
+probe reconstructs special-function angular moments from the K185 weight
+vectors and challenges the normalization and a hostile `1/3` face exponent.
+The whole unsigned sum is a valid tail allocation before signs, not a
+certificate of the finite-box signed prefix. K214's pointwise-core `443`
+and K215's integrated `215` have different measures and targets; neither
+counts the eight-dimensional nodes. This remains K139/K184 conditional Fock
+mathematics; SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`) and ledger
+LT-SM8/LT-GR6b/RA-F1/AC-F1 (`NEEDS`) do not move.
+
 ## K214 support-aware auxiliary tail (2026-09-17)
 
 | Claim | Evidence | Honest grade |

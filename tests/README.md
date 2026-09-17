@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K215 full-simplex positive auxiliary tail
+
+- `channel-swings/k215_order_six_angular_integrated_auxiliary_tail.py`
+  uses K185 rational allocations to integrate K214's positive tail over the
+  full simplex, replays all 1,864 masks and proves rational dyadic cutoffs.
+- `channel-swings/k215_order_six_angular_integrated_auxiliary_tail_probe.py`
+  independently checks Gamma/Beta moments in all five load classes, adjacent
+  cutoffs, normalization and hostile face exponent. No signed prefix or
+  cubature cost follows.
+
+```sh
+python3 tests/channel-swings/k215_order_six_angular_integrated_auxiliary_tail.py --write
+_local/cas-venv/bin/python tests/channel-swings/k215_order_six_angular_integrated_auxiliary_tail_probe.py
+```
+
 ## K214 support-aware auxiliary box tail
 
 - `channel-swings/k214_order_six_support_aware_auxiliary_tail.py` derives the

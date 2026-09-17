@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k213": "8120b6eaf379fd90775df51aa44aad322ec09b96aababdbc0943cc014ed574fd",
+    "k214": "20cd1817a6737487197937eb04614f3b9e8a22102d26ca79f72e050252d60741"
+  },
+  "object": "K139/K184 raw unnormalized time-Gram integral, each positive K185 Leibniz term",
+  "theorem": "For T=m log 2, m>=1, the full-simplex integral of the K214 unsigned auxiliary tail is strictly below B_a*(256/sinh(T))^(1/4). B_a is an exact rational K185 allocation coefficient computed by this script; it is independent of the 2^-180 core floor.",
+  "proof": "K214 bounds one coordinate tail by (2^8/product S_j)*(256/(256+S_j sinh T))^6. Since (1+x)^-6<=x^-1/4 for x>0, allocate the extra S_j^-1/4 to any supported z_i^-1/4. K185 AM--GM majorizes 1/product S by C_w product z_i^-alpha_i, with C_w<=1, sum alpha=8 and alpha_i<=2/3. Each shifted beta_i=1-alpha_i-1/4>=1/12. The simplex integral is product Gamma(beta_k-shift)/Gamma(23/4). Gamma(beta)<1/beta+3/8, Gamma(23/4)>28 and pi>3 yield B_a. The raw Gamma(6,256) normalization contributes 120/256^6; the original (2*pi)^-8 cancels K214's 2^8. No signed cancellation is used.",
+  "normalization": "B_a = 120/(3^8*256^6*28) * sum_(j=1)^8 min_(i in support_j) product_(k=1)^14 [1/(beta_k-(1/4)1_(k=i))+3/8]",
+  "elementary_gamma_lower": "Gamma(23/4)=(19*15*11*7*3/4^5)Gamma(3/4); Gamma(3/4)>4/(3e)>4/9 since e<3, hence Gamma(23/4)>28.",
+  "universal_rational_coefficient": "917244993481661295/541598767187353870268366848",
+  "universal_per_term_target": "1/10^21",
+  "first_sufficient_universal_per_term_dyadic_m": 172,
+  "mask_count": 1864,
+  "unique_allocations": 1276,
+  "mask_specific_first_m_histogram": {
+    "151": 1374,
+    "152": 260,
+    "153": 154,
+    "155": 14,
+    "156": 4,
+    "158": 11,
+    "159": 12,
+    "160": 9,
+    "161": 26
+  },
+  "mask_specific_worst_first_m": 161,
+  "whole_unsigned_1864_term_budget": "1/10^21",
+  "first_sufficient_universal_whole_sum_dyadic_m": 215,
+  "comparison": "K214's 443 is sufficient per term pointwise on its angular core, whereas these are integrated full-simplex raw-time absolute-tail bounds; their targets and normalization differ. Neither is a necessary node cutoff.",
+  "unchanged_complete_rule_error_upper_rational": "412009773890262587145/425541888504349469496573952",
+  "source_routing": "SC-ACT-01/02 ASSERTS a distinct source action/equation; SC-META-53 UNCERTAIN and LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS are unchanged",
+  "claim_ceiling": "Full angular integration of a positive auxiliary-box tail, including a conservative 1,864-term absolute sum. No finite-box prefix cubature, complete signed angular cell error, K185/K188 versus K204/K209 boundary composition, accurate order-six prefix, action-selected physical state or source verdict."
+}
