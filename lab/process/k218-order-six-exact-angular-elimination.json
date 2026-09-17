@@ -1,0 +1,26 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k213": "37683e2aa523b0e9457072899d1b5070599fc289b50d264cf8ce951d442ebb32",
+    "k216": "1609a7ea95d63bb03fb307578ae360d6cda8f28aa457c35408d8680d46ebaf7d",
+    "k217": "80ed8db0e249a9e064c00e4802ccbccdc3339e2fe8fa37d561f158a5353f9d57"
+  },
+  "object": "K185 original uniform 13-simplex angular integral inside each K213 radial-eliminated term",
+  "identity": "For fourteen strictly positive a_i, integral_Delta13 (sum_i a_i z_i)^(-14) dz_1...dz_13 = 1/(13! product_i a_i). Here a_i=256+sum_(j:i in support_j)cosh(t_j). The original K202 reference and residual cancel, leaving the uniform density 1/pi^8. This is exact for every finite positive auxiliary t, not merely the K216 small box.",
+  "proof": "Multiply fourteen Laplace integrals integral_0^infinity exp(-a_i x_i) dx_i=1/a_i, set x_i=r z_i, sum z_i=1. The Jacobian is r^13; integrating r gives Gamma(14)/(sum_i a_i z_i)^14=13!/(sum_i a_i z_i)^14. Positivity licenses Tonelli. The equal-a case yields the simplex volume 1/13!.",
+  "signed_eight_auxiliary_integrand": "pi^-8 * (2^8*256^6/5!) * product_j cosh(t_j) * sum_(ordered K185 terms) [coefficient_product * leibniz_sign / product_(i=0)^13 (256+sum_(j:i in support_j) cosh(t_j))], with K184 off-diagonal entries doubled. Integrate this over auxiliary t in [0,infinity)^8 only after a separately certified signed error/tail composition.",
+  "terms": 1864,
+  "ordered_terms_after_off_diagonal_doubling": 2928,
+  "distinct_allocations": 1276,
+  "exact_signed_point_rational_without_pi8": {
+    "all_t_zero": "0",
+    "all_t_log2": "0",
+    "alternating_zero_log2": "1522083680120214587100599445922115336865288503750891764772767004622848/23062782367781580212980935580915615007426401614379593519342573650148817185144864607043616225"
+  },
+  "controls": "An independent probe verifies the fourteen-variable coefficient identity through degree four, a one-exception Beta(1,13) integral, the signed expression at three exact auxiliary points by a separately coded allocation traversal, and planted exponent/weight errors.",
+  "source_routing": "SC-ACT-01/02 ASSERTS a distinct source action/equation; SC-META-53 UNCERTAIN and LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS are unchanged",
+  "unchanged_complete_rule_error_upper_rational": "412009773890262587145/425541888504349469496573952",
+  "claim_ceiling": "Exact elimination of the thirteen-dimensional angular integral and an exact signed eight-auxiliary integrand. K217's inner-box certificate and K215's positive tail remain separate. No certified middle-box signed integration, full coalescent or quotient/common-reference boundary composition, accurate complete order-six prefix, source action, physical state or physics-ledger movement."
+}

@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K218 exactly eliminates the original uniform thirteen-dimensional
+    angular simplex after K213: for fourteen positive denominator loads the
+    power-fourteen integral is 1/(13! times their product). The complete
+    signed K185 assembly is now an explicit eight-auxiliary rational-cosh
+    integrand at every finite positive point, with independent factorial,
+    Beta and signed point controls. Equal-auxiliary points cancel but a mixed
+    point does not. This supersedes K216's small-box angular approximation
+    as a required step, without integrating the signed middle box, composing
+    coalescent/quotient/common-reference boundaries, or changing the
+    inherited full-domain 9.683e-7 bound and source/physics status.
+
     K213/K216 executable normalization now composes K202's common
     z_i^(-2/3) reference with its z_i^(2/3) residual and uses the original
     uniform angular measure. K216's corrected Dirichlet(1)^14 series has
@@ -7949,6 +7960,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K218 removes the angular simplex exactly for the K185/K213 raw terms and
+  exposes an eight-auxiliary rational-cosh signed integrand. Can its
+  determinant-preserving signed groups and derivatives yield certified
+  cellwise middle-box integration through K215's sufficient 215 log(2),
+  with the separate coalescent, quotient and common-reference boundaries?
+  The exact collapse does not itself supply a signed error or accurate
+  complete order-six prefix. The prior K216 series remains a valid local
+  expansion of this identity, not a necessary integration step.
+
   K213/K216's executable normalization is now reconciled to the original
   uniform angular simplex, with a corrected Dirichlet(1)^14 series and
   independently checked local bound. K217 bounds the signed
@@ -7983,6 +8003,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K218's exact product expression to derive a signed groupwise auxiliary
+  enclosure or structural cancellation on the middle box, then compose the
+  K185/K188 quotient and K204/K209 reference boundaries separately. Do not
+  rerun K216's angular series as the route to full-box accuracy; K217's
+  inner-box and K215's positive tail retain their exact limited scopes.
+
   K213/K216's raw-angular-weight wording and series are corrected to the
   original uniform simplex, with the historical Dirichlet(5/3) raw transfer
   withdrawn. K217 bounds only the signed inner box

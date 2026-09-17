@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K218 exact uniform angular elimination
+
+- `channel-swings/k218_order_six_exact_angular_elimination.py` proves the
+  fourteen-factor simplex identity for every positive auxiliary point and
+  records the complete signed eight-auxiliary integrand and three exact
+  rational point values. K216's angular truncation is no longer needed.
+- `channel-swings/k218_order_six_exact_angular_elimination_probe.py` checks
+  independent factorial coefficients through degree four, a one-exception
+  Beta control, a separate K185 signed traversal and hostile controls.
+  Neither script certifies the middle-box integral or complete boundaries.
+
+```sh
+python3 tests/channel-swings/k218_order_six_exact_angular_elimination.py --write
+python3 tests/channel-swings/k218_order_six_exact_angular_elimination_probe.py
+```
+
 ## K217 signed inner box and K216 normalization correction
 
 - `channel-swings/k217_order_six_signed_inner_box.py` replays all K185 signs

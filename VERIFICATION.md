@@ -7,6 +7,31 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K218 exact angular elimination after K213 (2026-09-17)
+
+The original K185 angular measure is uniform after K202's reference/residual
+cancellation. For fourteen positive denominators `a_i`, the exact identity
+`integral_Delta13 (sum_i a_i z_i)^-14 dz = 1/(13! product_i a_i)`
+follows by fourteen independent Laplace integrals and the radial/simplex
+change of variables. Thus at every finite auxiliary `t`, set
+`a_i=256+sum_(j:i in support_j) cosh(t_j)` and replace each K216 angular
+series with an exact fourteen-factor reciprocal product. The raw signed
+eight-auxiliary integrand, including all 1,864 terms and K184 off-diagonal
+doubling, is recorded in `lab/process/k218-order-six-exact-angular-elimination.json`.
+Independent factorial/Dirichlet coefficients through degree four, a
+one-exception Beta(1,13) control and a separate signed assembly at three
+exact auxiliary points pass. Equal auxiliary points cancel, but a mixed point
+does not; that observation is not a signed integral or an error bound.
+
+K218 removes thirteen integration dimensions exactly, superseding K216's
+small-box *angular approximation* as a required step. It does not integrate
+the eight-dimensional signed middle box through K215's sufficient
+`215 log(2)`, change K217's inner-box certificate or K215's positive tail,
+compose the coalescent/quotient/common-reference boundaries, or establish an
+accurate complete order-six prefix. The inherited full-domain `<9.683e-7`
+bound and source/physics verdicts remain unchanged. Reproduce with the K218
+producer and independent probe in `tests/README.md`.
+
 ## K213/K216 executable raw-measure repair (2026-09-17)
 
 K213's radial Bessel-Laplace identity is unchanged. Its executable
