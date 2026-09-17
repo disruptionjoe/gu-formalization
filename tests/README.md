@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K203 positive common-weight moment-rule controls
+
+- `channel-swings/k203_order_six_positive_moment_rule.py` constructs the
+  28-node Gamma/Dirichlet rule, verifies exact low-degree moments and all
+  14,912 primitive argument supports, then evaluates all eighteen complete
+  signed determinant groups without claiming a useful global error.
+- `channel-swings/k203_order_six_positive_moment_rule_probe.py` checks the
+  moments and signed groups independently with 90-digit mpmath, retains
+  K202's broad rational error and catches a true support-mask corruption
+  the previous allocation-weight subset check alone would admit.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k203_order_six_positive_moment_rule.py --write
+_local/cas-venv/bin/python tests/channel-swings/k203_order_six_positive_moment_rule_probe.py
+```
+
 ## K202 common-weighted order-six time-Gram controls
 
 - `channel-swings/k202_order_six_common_weighted_core.py` independently

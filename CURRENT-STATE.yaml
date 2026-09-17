@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6fec2080e739621ea30e2b6b6052f2f9dea120e8
+revision_basis: d7f94954f44847e61db57ab504c689026c89f11e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K203 builds a 28-node positive rule for K202's common reference. It
+    reproduces Gamma radial degrees 0-3 and Dirichlet angular total degrees
+    0-2 exactly, evaluates every complete signed K184 group with independent
+    high-precision controls, and checks all 14,912 Bessel-factor argument
+    supports against the actual time positions. This closes the linear
+    primitive-to-radial/angular argument Jacobian, not the complete
+    quotient's derivatives. The full-domain rational error remains K202's
+    broad 9.683e-7 ceiling; a restricted core requires explicit lost-mass
+    and moment-defect accounting. No accurate order-six prefix or physics
+    consequence follows.
+
     K202 derives one integrable common fourteen-coordinate Jacobi reference
     weight, product z_i^(-2/3), for all 1,864 K185 support terms and the
     eighteen complete signed K184 order-six coherent time-Gram groups. Its
@@ -7796,10 +7807,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K202's single common Jacobi reference rule be sharpened by composing
-  normalized regularizer jets with the old-position Bessel factors, other
-  species determinants, primitive-to-Duffy coordinate chain and signed
-  coherent-group coefficients over the positive-radius core, while completing
+  Can K203's exact 28-node common-weight rule be supplied with a useful
+  complete signed-group error by composing normalized regularizer jets with
+  old-position Bessel factors, other species determinants, the certified
+  14,912 argument supports, full product derivatives, core-truncation moment
+  defects and Duffy chain, while completing
   the farther a/c determinant atlas; if so, does the
   completed K185/K188 boundary control plus that prefix advance the K171/K168
   action columns and R_ref residual, complement or flux floor, separately
@@ -7812,6 +7824,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K203 supplies positive low-degree-exact nodes and the complete linear
+  argument-level chain, not a derivative error certificate. Bound the
+  complete quotient's Bessel/determinant/product derivatives on a declared
+  positive core, including the singular reference prefactor; if K185/K188
+  face/tail truncation is used, prove its lost mass and the conditional
+  rule's moment defect rather than reusing unconditional exactness. Allocate
+  signed group errors near the 1e-21 scale or find a stronger analytic
+  reduction; the inherited full-domain rational error is still 9.683e-7.
+
   K202's common product z_i^(-2/3) reference weight covers every K185
   support allocation and its complete signed K184 time-Gram group, but the
   full-domain one-node absolute error is below only 9.683e-7, not a useful

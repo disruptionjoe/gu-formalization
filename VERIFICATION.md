@@ -7,6 +7,18 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K203 positive common-weight order-six moment rule (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A positive 28-node rule matches the K202 reference moments | two Gamma(6,256) radial nodes reproduce degrees 0–3; fourteen interior Dirichlet(1/3) angular nodes reproduce total degrees 0–2; independent mpmath checks the moments and one mixed moment | exact low-degree polynomial cubature, not exact integration of the nonpolynomial Gram quotient |
+| Complete signed groups are evaluated | all 234 original K184 determinant entries, old-position factors and coherent signs at 28 nodes; independent 90-digit mpmath agrees with Arb for eighteen groups to `1e-70` | outward node evaluations and independent point controls, not an outward accurate integral |
+| K185 supports match actual arguments | direct time-position/permutation replay checks 14,912 factor occurrences in 1,864 terms and 31 distinct masks; hostile corruption passes the older allocation-subset check but fails the actual-support check | exact argument-level radial/angular chain only; full derivative products are not enclosed |
+| K203 reduces the global error or moves physical/source status | the positive rule retains K202's exact rational sum-of-group error `412009773890262587145/425541888504349469496573952`; core truncation would break unconditional moment exactness | false as an accurate order-six prefix; `SC-META-53` remains `UNCERTAIN` and `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1` remain `NEEDS` |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k203_order_six_positive_moment_rule.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k203_order_six_positive_moment_rule_probe.py`.
+
 ## K202 common-weighted order-six time-Gram rule (2026-09-17)
 
 | Claim | Evidence | Honest grade |
