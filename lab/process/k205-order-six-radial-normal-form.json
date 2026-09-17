@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "K184": "5d4e4eb5e29b49040dd02f195a77e179a302211076fc6b535a82051b5a6cdb57",
+    "K185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "K202": "5206dd703b0b86d4c589d4c5fa5ec4c32a0d27a5c8f4383e6d81ac862e9d54f8"
+  },
+  "counts": {
+    "gram_entries": 234,
+    "leibniz_terms": 1864,
+    "ordered_terms": 2928,
+    "factor_occurrences": 14912,
+    "coherent_groups": 18
+  },
+  "max_simplex_support_multiplicity": 7,
+  "normal_form": "rho^8 product_j[2 K1(rho S_j)] = product_j[2 rho S_j K1(rho S_j)/S_j], S_j=sum_(i in mask_j) z_i; eight factors per term",
+  "derivative_identity": "d_rho log(product_j[2 rho S_j K1(rho S_j)/S_j])=-sum_j S_j K0(rho S_j)/K1(rho S_j)",
+  "proof": {
+    "bessel": "(x K1(x))'=-x K0(x); the positive cosh-integral representation proves 0<K0(x)<K1(x) for x>0; 2xK1(x)<=2 by its unit limit and negative derivative",
+    "allocation": "K185 termwise AM-GM gives product_i z_i^(2/3)/product_j S_j <= C_w <= 1; thus each normal-form quotient has absolute value <= pi^-8",
+    "support": "sum_j S_j(z)=sum_i m_i z_i <= max_i m_i=7 on the simplex for every exact K184/K185 term; hence absolute first radial derivative <= 7 pi^-8",
+    "coupling": "Independent Gamma(6,256) rho and K203 two-node R have the same mean and variance 6/256^2, hence E|rho-R|<=sqrt(12)/256<7/512 by Cauchy-Schwarz",
+    "error": "With exact angular expectation on both sides, each signed group with n ordered terms has radial-only error <=49*n*Z/(512*pi^8)<=49*n*E/512, E=K202 proof-safe per-support-term ceiling",
+    "scope_limit": "The K203 fourteen-node angular replacement, positive-core higher mixed derivatives, signed group allocation, K185/K188 term-specific boundary and K204 common-reference lost mass are separate obligations; no accurate full integral or physical/source claim"
+  },
+  "radial_lipschitz_factor_per_ordered_term": 7,
+  "radial_coupling_distance_strict_upper": "7/512",
+  "radial_two_node_error_factor": "49/512",
+  "per_ordered_term_integrated_radial_error_upper_rational": "110319556943294353935/6972078301255261708231867629568",
+  "groups": {
+    "seed=0|d=0|1+^1,1-^1,2+^2,2-^2": {
+      "ordered_support_terms": 324,
+      "radial_only_error_upper_rational": "8935884112406842668735/1743019575313815427057966907392"
+    },
+    "seed=0|d=0|1+^2,1-^2,2+^1,2-^1": {
+      "ordered_support_terms": 324,
+      "radial_only_error_upper_rational": "8935884112406842668735/1743019575313815427057966907392"
+    },
+    "seed=0|d=0|1+^3,1-^3": {
+      "ordered_support_terms": 324,
+      "radial_only_error_upper_rational": "8935884112406842668735/1743019575313815427057966907392"
+    },
+    "seed=0|d=0|2+^3,2-^3": {
+      "ordered_support_terms": 324,
+      "radial_only_error_upper_rational": "8935884112406842668735/1743019575313815427057966907392"
+    },
+    "seed=1|d=1|1+^1,1-^1,2+^2,2-^2": {
+      "ordered_support_terms": 100,
+      "radial_only_error_upper_rational": "2757988923582358848375/1743019575313815427057966907392"
+    },
+    "seed=1|d=1|1+^2,1-^2,2+^1,2-^1": {
+      "ordered_support_terms": 196,
+      "radial_only_error_upper_rational": "5405658290221423342815/1743019575313815427057966907392"
+    },
+    "seed=1|d=1|1+^3,1-^3": {
+      "ordered_support_terms": 324,
+      "radial_only_error_upper_rational": "8935884112406842668735/1743019575313815427057966907392"
+    },
+    "seed=1|d=1|2+^3,2-^3": {
+      "ordered_support_terms": 36,
+      "radial_only_error_upper_rational": "992876012489649185415/1743019575313815427057966907392"
+    },
+    "seed=1|d=2|1+^1,2+^2,2-^3": {
+      "ordered_support_terms": 48,
+      "radial_only_error_upper_rational": "330958670829883061805/435754893828453856764491726848"
+    },
+    "seed=1|d=2|1+^2,1-^1,2+^1,2-^2": {
+      "ordered_support_terms": 64,
+      "radial_only_error_upper_rational": "110319556943294353935/108938723457113464191122931712"
+    },
+    "seed=1|d=2|1+^3,1-^2,2-^1": {
+      "ordered_support_terms": 48,
+      "radial_only_error_upper_rational": "330958670829883061805/435754893828453856764491726848"
+    },
+    "seed=2|d=1|1+^1,1-^2,2+^2,2-^1": {
+      "ordered_support_terms": 64,
+      "radial_only_error_upper_rational": "110319556943294353935/108938723457113464191122931712"
+    },
+    "seed=2|d=1|1+^2,1-^3,2+^1": {
+      "ordered_support_terms": 48,
+      "radial_only_error_upper_rational": "330958670829883061805/435754893828453856764491726848"
+    },
+    "seed=2|d=1|1-^1,2+^3,2-^2": {
+      "ordered_support_terms": 48,
+      "radial_only_error_upper_rational": "330958670829883061805/435754893828453856764491726848"
+    },
+    "seed=2|d=2|1+^1,1-^1,2+^2,2-^2": {
+      "ordered_support_terms": 196,
+      "radial_only_error_upper_rational": "5405658290221423342815/1743019575313815427057966907392"
+    },
+    "seed=2|d=2|1+^2,1-^2,2+^1,2-^1": {
+      "ordered_support_terms": 100,
+      "radial_only_error_upper_rational": "2757988923582358848375/1743019575313815427057966907392"
+    },
+    "seed=2|d=2|1+^3,1-^3": {
+      "ordered_support_terms": 36,
+      "radial_only_error_upper_rational": "992876012489649185415/1743019575313815427057966907392"
+    },
+    "seed=2|d=2|2+^3,2-^3": {
+      "ordered_support_terms": 324,
+      "radial_only_error_upper_rational": "8935884112406842668735/1743019575313815427057966907392"
+    }
+  },
+  "all_groups_radial_only_error_upper_rational": "20188478920622866770105/435754893828453856764491726848",
+  "unchanged_complete_rule_error_upper_rational": "412009773890262587145/425541888504349469496573952",
+  "scope": "integrate exact Dirichlet angular reference on both sides; compare exact Gamma radial integral with K203 two-node radial rule at each z before angular quadrature",
+  "claim_ceiling": "proof-safe radial component for complete signed groups, not angular quadrature error, core remainder, accurate order-six integral, action column or physical/source result"
+}

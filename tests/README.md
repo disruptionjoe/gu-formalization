@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K205 signed-Gram radial normal-form controls
+
+- `channel-swings/k205_order_six_radial_normal_form.py` reconstructs the
+  14,912 masks from K184 time positions/permutations, checks K185 signs and
+  maximal simplex support multiplicity seven, and derives the rational
+  radial-only error for all eighteen complete signed groups.
+- `channel-swings/k205_order_six_radial_normal_form_probe.py` independently
+  expands the pole-cancelled signed terms at all 28 K203 nodes with mpmath,
+  rechecks group bounds and catches four hostile mutations. The complete
+  angular/core error remains open.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k205_order_six_radial_normal_form.py --write
+_local/cas-venv/bin/python tests/channel-swings/k205_order_six_radial_normal_form_probe.py
+```
+
 ## K204 compact-core common-reference moment controls
 
 - `channel-swings/k204_order_six_core_moment_defect.py` derives exact Gamma/

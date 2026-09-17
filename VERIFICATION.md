@@ -7,6 +7,17 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K205 signed-Gram radial normal form (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| The eight-factor radial pole cancels before differentiation | exact `rho^8 product 2K1 = product[2 rho S K1/S]` identity for every K184 Leibniz term; independent 14,912-support replay and signed mpmath agreement at all 28 K203 nodes | exact algebra and point controls on the conditional Fock integral |
+| The K203 radial two-node component has an absolute bound | `K0<K1`, maximal support multiplicity seven and K185 AM--GM give `7/pi^8` per ordered-term radial Lipschitz constant; exact two-law variance gives a summed rational radial-only error below `4.633e-8` | proof-safe radial component with exact angular expectation, not the angular/core or full-rule error |
+| K205 yields an accurate signed integral or physical result | angular Duffy/Jacobi remainder, higher mixed derivatives and group allocation remain open; K202/K203 full-rule rational error stays below only `9.683e-7` | false; SC-META-53 UNCERTAIN and LT-SM8, LT-GR6b, RA-F1, AC-F1 NEEDS |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k205_order_six_radial_normal_form.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k205_order_six_radial_normal_form_probe.py`.
+
 ## K204 common-reference compact-core moment defect (2026-09-17)
 
 | Claim | Evidence | Honest grade |
