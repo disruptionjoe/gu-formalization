@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import math
+from fractions import Fraction as Q
 from pathlib import Path
 
 import mpmath as mp
@@ -55,7 +56,16 @@ def main() -> None:
             (v/(mp.mpf(3)/28))**(mp.mpf(3)/2) for v in values[1:])
         assert d**14 >= rhs*(1-mp.mpf("1e-40"))
     assert record["core_tail"]["first_even_T_sufficient_for_per_term_1e_minus_21_under_coarse_bound"] > 4000
+    # The K202 common reference and residual are a product, not two
+    # alternative measures. At an interior rational point the old isolated
+    # residual cannot equal the original raw uniform angular density.
+    z = (Q(1, 2), Q(1, 4), Q(1, 4))
+    cancelled = math.prod(float(x)**(-2/3) * float(x)**(2/3) for x in z)
+    isolated = math.prod(float(x)**(2/3) for x in z)
+    assert abs(cancelled - 1) < 1e-14 and abs(isolated - 1) > 0.5
+    assert "original uniform simplex density" in record["normalization"]
     print("[PASS] weighted-AM/GM constant and intentionally loose core tail scope")
+    print("[PASS] independent common-reference cancellation and hostile isolated weight")
 
 
 if __name__ == "__main__":

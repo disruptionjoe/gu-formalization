@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""K216: exact angular elimination and a certified local auxiliary prefix."""
+"""K216 corrected: uniform-simplex angular elimination and local truncation."""
 from __future__ import annotations
 
 import argparse
@@ -16,7 +16,7 @@ K185 = PROCESS / "k185-order-six-duffy-face-tail-wave.json"
 K213 = PROCESS / "k213-order-six-bessel-laplace-radial-elimination.json"
 K215 = PROCESS / "k215-order-six-angular-integrated-auxiliary-tail.json"
 OUT = PROCESS / "k216-order-six-analytic-angular-prefix.json"
-BETA = Q(5, 3)
+BETA = Q(1)
 BETA_TOTAL = 14 * BETA
 ORDER = 20
 BOX_COSH = Q(5, 4)  # cosh(log 2)
@@ -31,7 +31,7 @@ def support_loads(masks: tuple[int, ...]) -> tuple[int, ...]:
 def series_coefficients(loads: tuple[Q, ...], order: int) -> list[Q]:
     """Normalized E[(1-U)^-14] coefficients, U=sum z_i a_i.
 
-    The exact Dirichlet(5/3,...,5/3) moments are encoded by the product
+    The original uniform Dirichlet(1,...,1) moments are encoded by the product
     generating function; no numerical angular quadrature enters this step.
     """
     assert len(loads) == 14 and all(x >= 0 for x in loads)
@@ -87,7 +87,8 @@ def generate() -> dict:
     remainder = relative_remainder(q, ORDER)
     assert remainder < Q(1, 10**21)
     # Bound the raw angular integral by volume(Delta_13)/pi^8:
-    # product z_i^(2/3)<=1, pi>3, log(2)<1 and cosh(t_j)<=5/4.
+    # K202's reference and residual powers cancel, while pi>3,
+    # log(2)<1 and cosh(t_j)<=5/4.
     raw_term_bound = (Q(2**8 * 256**6 * factorial(13), factorial(5))
                       * Q(1, factorial(13) * 3**8)
                       * BOX_COSH**8 / 256**14 * remainder)
@@ -104,9 +105,10 @@ def generate() -> dict:
         "classification": "INTERNAL_STRUCTURAL_ONLY",
         "input_sha256": {p.stem.split("-")[0]: hashlib.sha256(p.read_bytes()).hexdigest()
                          for p in (K185, K213, K215)},
-        "object": "K139/K184 raw unnormalized K213 term after radial elimination; angular simplex at fixed positive auxiliary t",
-        "identity": "Let L_i=sum_(j:i in support_j) cosh(t_j), M=256+max_i L_i, a_i=(max L-L_i)/M, beta_i=5/3, beta_0=70/3. The angular integral of product_i z_i^(2/3)/(256+sum_i z_i L_i)^14 equals B(beta)/M^14 times sum_(n>=0) (14)_n/(beta_0)_n c_n, where c_0=1 and n c_n=(5/3) sum_(k=1)^n (sum_i a_i^k)c_(n-k). B(beta)=Gamma(5/3)^14/Gamma(70/3). Multiply by K213's 2^8*256^6*13!/5! and product cosh(t_j)/pi^8 before the signed K185 assembly.",
-        "proof": "Dirichlet(5/3)^14 moments give E[U^n]=n!c_n/(70/3)_n for U=sum_i z_i a_i. Since 0<=U<=q<1, the positive binomial series for (1-U)^-14 converges uniformly on a finite auxiliary box. The coefficients follow by logarithmically differentiating product_i(1-a_i x)^(-5/3). For n>=N+1, the binomial-majorant ratio is at most q*(N+15)/(N+2), so its geometric tail bounds the angular truncation.",
+        "object": "K139/K184 original raw K185 term after K213 radial elimination; uniform angular simplex at fixed positive auxiliary t",
+        "historical_correction": "The prior K216 Dirichlet(5/3)^14 series applies only to an isolated K202 residual product z_i^(2/3), not to the raw term; K202's common reference product z_i^(-2/3) cancels it. The prior raw-transfer claim is withdrawn, while its weighted identity remains historical algebra.",
+        "identity": "Let L_i=sum_(j:i in support_j) cosh(t_j), M=256+max_i L_i, a_i=(max L-L_i)/M, beta_i=1, beta_0=14. The original angular integral of 1/(256+sum_i z_i L_i)^14 equals (1/13!)/M^14 times sum_(n>=0) (14)_n/(14)_n c_n = (1/13!)/M^14 sum_n c_n, where c_0=1 and n c_n=sum_(k=1)^n (sum_i a_i^k)c_(n-k). Multiply by K213's 2^8*256^6*13!/5! and product cosh(t_j)/pi^8 before signed K185 assembly.",
+        "proof": "Uniform Dirichlet(1)^14 moments give E[U^n]=n!c_n/(14)_n for U=sum_i z_i a_i. The binomial coefficient cancels this rising factorial exactly. Since 0<=U<=q<1, the positive series converges uniformly on a finite auxiliary box. Logarithmic differentiation of product_i(1-a_i x)^(-1) supplies the recurrence. The conservative binomial-majorant tail remains valid; for n>=N+1 its ratio is at most q*(N+15)/(N+2).",
         "all_mask_support_loads": dict(histogram),
         "term_count": 1864,
         "unique_allocations": len(unique),
@@ -115,10 +117,10 @@ def generate() -> dict:
             "maximum_cosh": "5/4",
             "q_ceiling": str(q),
             "series_order_inclusive": ORDER,
-            "relative_to_B_over_M14_remainder_ceiling": str(remainder),
+            "relative_to_uniform_volume_over_M14_remainder_ceiling": str(remainder),
             "raw_term_absolute_error_ceiling": str(raw_term_bound),
             "whole_unsigned_1864_term_absolute_error_ceiling": str(1864 * raw_term_bound),
-            "normalization": "Original raw K213 term, including angular product z_i^(2/3)/pi^8 and radial-elimination prefactor; bound uses pi>3, simplex volume 1/13!, log(2)<1."
+            "normalization": "Original raw K213 term, with K202 reference/residual cancellation, angular density 1/pi^8 and radial-elimination prefactor; bound uses pi>3, simplex volume 1/13!, log(2)<1."
         },
         "large_box": {
             "k215_whole_unsigned_tail_dyadic_m": m,
@@ -130,7 +132,7 @@ def generate() -> dict:
         "example_normalized_coefficients_at_all_t_zero": [str(x) for x in series_coefficients(tuple(Q(x) for x in example), 4)],
         "source_routing": k213["source_routing"],
         "unchanged_complete_rule_error_upper_rational": k215["unchanged_complete_rule_error_upper_rational"],
-        "claim_ceiling": "Exact full-angular elimination and certified angular-series truncation on a small auxiliary box only. No certified eight-dimensional integration over K215's complete finite box, signed full-rule error, quotient/common-reference boundary composition, accurate order-six prefix, source action or physical state."
+        "claim_ceiling": "Corrected original-measure full-angular elimination and conservative angular-series truncation on a small auxiliary box only. K217's stronger signed inner-box result is separate. No certified eight-dimensional signed integration over K215's complete finite box, quotient/common-reference boundary composition, accurate order-six prefix, source action or physical state."
     }
 
 

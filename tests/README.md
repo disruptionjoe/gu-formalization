@@ -20,15 +20,16 @@ python3 tests/channel-swings/k217_order_six_signed_inner_box.py --write
 _local/cas-venv/bin/python tests/channel-swings/k217_order_six_signed_inner_box_probe.py
 ```
 
-## K216 historical weighted angular series (raw transfer withdrawn)
+## K216 corrected uniform angular series (historical raw transfer withdrawn)
 
-- `channel-swings/k216_order_six_analytic_angular_prefix.py` integrates an
-  isolated `prod z_i^(2/3)` weight by exact Dirichlet moments, but K217 shows
-  that K202's `prod z_i^(-2/3)` reference cancels it in the original raw
-  measure. Do not use its stated raw-integral transfer.
+- `channel-swings/k216_order_six_analytic_angular_prefix.py` integrates the
+  original uniform simplex after K202's reference/residual cancellation by
+  exact Dirichlet(1) moments. Its conservative order-20 truncation controls
+  only a small angular box at fixed auxiliaries, not the middle region.
 - `channel-swings/k216_order_six_analytic_angular_prefix_probe.py` independently
-  checks low multinomial moments, an ordinary Beta integral, all supports and
-  a hostile zero-load face. No signed full-rule accuracy follows.
+  checks low multinomial moments, a Beta(1,13) integral, all supports, an
+  isolated-weight mutation and a hostile zero-load face. No signed full-rule
+  accuracy follows; the former Dirichlet(5/3) revision is historical only.
 
 ```sh
 python3 tests/channel-swings/k216_order_six_analytic_angular_prefix.py --write
@@ -72,7 +73,8 @@ _local/cas-venv/bin/python tests/channel-swings/k214_order_six_support_aware_aux
   sufficient cutoff 4534 is not an efficient cubature prescription.
 - `channel-swings/k213_order_six_bessel_laplace_radial_elimination_probe.py`
   independently compares one- and two-factor radial and auxiliary integrals,
-  rejects changed factors/exponents and checks the AM--GM normalization.
+  rejects changed factors/exponents and checks AM--GM and K202 reference
+  cancellation against the hostile isolated residual normalization.
   Neither establishes the eight-dimensional signed full-rule error.
 
 ```sh

@@ -53,7 +53,8 @@ def pointwise_series(masks: tuple[int, ...], c: tuple[Q, ...], n: int) -> Q:
 
 def main() -> None:
     assert K202["rule"]["angular_weight"] == "product_i z_i^(-2/3)"
-    assert K216["identity"].find("product_i z_i^(2/3)") >= 0
+    assert "beta_i=1, beta_0=14" in K216["identity"]
+    assert "prior K216 Dirichlet(5/3)" in K216["historical_correction"]
     assert K185["radial_duffy_certificate"]["angular_weight"].find("beta_i-1") >= 0
     assert K217["ordered_term_count_with_off_diagonal_twice"] == 2928
     assert Q(K217["remainder"]["whole_2928_ordered_term_absolute_ceiling"]) < Q(1, 10**21)
@@ -106,7 +107,7 @@ def main() -> None:
     else:
         raise AssertionError("planted sign mutation escaped")
     print("[PASS] true-measure moments, ordinary cosh integrals and independent signed point controls")
-    print("[PASS] K216 normalization mismatch and hostile sign mutation detected")
+    print("[PASS] corrected K216 normalization, historical mismatch and hostile sign mutation")
 
 
 if __name__ == "__main__":

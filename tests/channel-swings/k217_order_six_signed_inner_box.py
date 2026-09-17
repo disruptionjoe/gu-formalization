@@ -127,7 +127,7 @@ def generate() -> dict:
         polynomial = add(polynomial, scale(signed[n],
                           Q((-1)**n * comb(13+n, n), 256**n)))
     # Multiplicative exact prefactor omitted from polynomial:
-    # (2^8*256^6*13!/5!)/256^14 * B(5/3,...,5/3)/pi^8.
+    # (2^8*256^6*13!/5!)/256^14 * B(1,...,1)/pi^8.
     prefactor_rational = Q(2**8 * 256**6 * factorial(13), factorial(5) * 256**14)
     ratio = QMAX * Q(ORDER + 15, ORDER + 2)
     assert ratio < 1
@@ -148,7 +148,7 @@ def generate() -> dict:
         "input_sha256": {p.stem.split("-")[0]: hashlib.sha256(p.read_bytes()).hexdigest()
                          for p in (K185, K213, K215, K216)},
         "object": "K139/K184 raw signed K185 assembly, auxiliary inner box [0,log(2)]^8, after K213 radial elimination",
-        "normalization_correction": "K216's beta_i=5/3 applies to the residual factor prod z_i^(2/3) alone, not the original K185 integral. K202's common Dirichlet(1/3)^14 reference has density prod z_i^(-2/3), which exactly cancels that residual; the actual angular measure is uniform Dirichlet(1)^14. K185's varying beta_i=1-alpha_i are AM--GM majorant measures, not equality measures. K213's stated z_i^(2/3) multiplier is therefore also not the raw-integral normalization. K216's angular identity and beta-based point controls do not certify the original signed prefix; its support and q algebra can be reused only after this correction.",
+        "normalization_correction": "Historical K216's beta_i=5/3 applies to the isolated residual prod z_i^(2/3), not original K185. K202's common Dirichlet(1/3)^14 reference density prod z_i^(-2/3) cancels it; the actual angular measure is uniform Dirichlet(1)^14. K185's varying beta_i=1-alpha_i are AM--GM majorant measures. Current K213/K216 executable artifacts use the corrected uniform raw measure; their earlier weighted identity and raw transfer remain historical only.",
         "identity": "The complete signed inner-box integral equals [2^8*256^6*13!/(5!*256^14*13!*pi^8)] times P(log 2), up to the stated absolute error. P integrates through degree three the binomial expansion in X=sum_j cosh(t_j) S_j(z), with S_j=sum_(i in support_j)z_i, under the ORIGINAL UNIFORM angular measure. Exact coefficient replay gives P=0. Both entry coefficient_product and the off-diagonal factor two and Leibniz signs are included.",
         "proof": "At order n<=3, integrate X^n by uniform Dirichlet(1)^14 cycle-partition moments of eight support sums and elementary J_r=int_0^log(2) cosh(t)^(r+1)dt. Each of 234 entries cancels pointwise at orders zero and one by exact signed support incidence; complete signed auxiliary-integrated orders two and three cancel after the ordered off-diagonal factors. The alternating binomial series has an absolute tail at X/256<=35/1024 bounded by the order-four majorant and a decreasing geometric ratio. Bound every raw term before signed grouping; no cancellation is assumed for the remainder.",
         "entry_count": len(entries), "term_count": 1864,
@@ -169,7 +169,7 @@ def generate() -> dict:
         },
         "source_routing": k216["source_routing"],
         "unchanged_complete_rule_error_upper_rational": k216["unchanged_complete_rule_error_upper_rational"],
-        "claim_ceiling": "The true signed inner-box contribution is bounded in absolute value by the raw whole-sum tail; K213/K216 normalization needs corrected integration before broader use. The middle region through K215's 215 log(2) sufficient cutoff, full signed coalescent cells, K185/K188 quotient and K204/K209 reference boundaries, accurate complete prefix, source action and physical state remain open."
+        "claim_ceiling": "The true signed inner-box contribution is bounded in absolute value by the raw whole-sum tail. K213/K216 now have corrected raw normalization, but the middle region through K215's 215 log(2) sufficient cutoff, full signed coalescent cells, K185/K188 quotient and K204/K209 reference boundaries, accurate complete prefix, source action and physical state remain open."
     }
 
 

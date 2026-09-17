@@ -7,11 +7,40 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K213/K216 executable raw-measure repair (2026-09-17)
+
+K213's radial Bessel-Laplace identity is unchanged. Its executable
+normalization now composes K202's common `prod z_i^(-2/3)` reference with
+the residual `prod z_i^(2/3)` before angular integration: the raw K185
+simplex is uniform, with density `1/pi^8`. The K213 positive core-tail
+majorant and sufficient cutoff 4534 remain valid because the angular factor
+was bounded by one in either wording; this is not a signed box certificate.
+
+K216's generator and manifest now represent the original raw angular integral.
+For `L_i=sum_(j:i in support_j) cosh(t_j)`, `M=256+max L_i`, and
+`a_i=(max L-L_i)/M`, uniform Dirichlet(1)^14 gives
+`(1/13!)/M^14 sum_(n>=0)c_n`, where `c_0=1` and
+`n c_n=sum_(k=1)^n(sum_i a_i^k)c_(n-k)`. The `(14)_n` binomial factor
+cancels the Dirichlet moment denominator. On `[0,log(2)]^8`,
+`q<=31/1059`; the conservative order-20 raw unsigned truncation bound
+remains below `1.192e-42` across 1,864 terms, now under the correct
+measure. Its independent probe enumerates uniform factorial moments,
+uses an ordinary Beta(1,13) integral and rejects an isolated weighted
+second moment. Historical K216's Dirichlet(5/3)^14 algebra remains
+applicable only to the artificial isolated weight, not to raw K185.
+
+The small-box unsigned angular truncation does not replace K217's stronger
+signed inner-box bound. K215's `215 log(2)` sufficient positive tail leaves
+the large middle box, signed eight-variable integration, coalescent cells,
+K185/K188 quotient and K204/K209 common-reference defects open. The inherited
+complete-rule `<9.683e-7` bound and every source/physics verdict are unchanged.
+Reproduce with the K213 and K216 producers/probes in `tests/README.md`.
+
 ## K217 true-measure signed inner box and K216 correction (2026-09-17)
 
 | Claim | Evidence | Honest grade |
 | --- | --- | --- |
-| K216's Dirichlet(5/3)^14 angular series represents the original K185 signed terms | K202's common `prod z_i^(-2/3)` density cancels the `prod z_i^(2/3)` residual that K216 treated alone; the original simplex density is uniform. K185's varying `1-alpha_i` parameters arise from termwise AM--GM majorants, not equalities | **false transfer**; K216's weighted identity is valid for its artificial isolated weight, but its raw-integral certificate is withdrawn; K213's written angular multiplier needs the same correction |
+| Historical K216's Dirichlet(5/3)^14 angular series represents the original K185 signed terms | K202's common `prod z_i^(-2/3)` density cancels the `prod z_i^(2/3)` residual that K216 treated alone; the original simplex density is uniform. K185's varying `1-alpha_i` parameters arise from termwise AM--GM majorants, not equalities | **false transfer**; the K213/K216 executable artifacts are now corrected above, while the historical weighted identity applies only to its isolated weight |
 | The true signed inner auxiliary box is small | Under uniform Dirichlet(1)^14, exact K185 signs, entry coefficients and off-diagonal factor two cancel orders zero and one pointwise in all 234 entries; orders two and three cancel after exact auxiliary integration. The raw 2,928-ordered-term order-four majorant at `X/256<=35/1024` bounds the complete `[0,log(2)]^8` signed contribution by `<1.914e-23` | rigorous inner-box absolute bound, not a full prefix or signed middle-box certificate |
 | Complete order-six signed accuracy | the region up to K215's sufficient `215 log(2)`, full coalescent cells and separate K185/K188 versus K204/K209 boundaries remain open | false; inherited full-domain `<9.683e-7`, no source/physics move |
 
@@ -31,22 +60,25 @@ remain unchanged.
 
 ## K216 historical weighted angular series — raw transfer withdrawn (2026-09-17)
 
+The following describes the prior K216 revision, preserved in Git history;
+the current K216 producer/manifest/probe implement the corrected uniform
+series above. Do not replay the current producer to reproduce the old weight.
+
 | Claim | Evidence | Honest grade |
 | --- | --- | --- |
 | K216's isolated weighted angular integral | Set `L_i=sum_(j:i in support_j) cosh(t_j)`, `M=256+max L_i`, `a_i=(max L-L_i)/M`. An **isolated** `prod z_i^(2/3)` weight has a Dirichlet(5/3)^14 series | algebraically valid for that weighted integral, **not** the raw K185 term; K217 corrects the missing reference density |
 | K216's weighted local truncation | On `[0,log(2)]^8`, `q<=31/1059`; its order-20 geometric bound and Beta controls apply to the isolated weighted integral | do not use the K216 raw whole-term claim; K217 gives a separate corrected-measure bound |
 | The full signed order-six prefix is accurately integrated | At K215's sufficient `T=215 log(2)`, this simple uniform order-20 geometric-ratio test fails; neither adaptive cell enclosure nor eight-dimensional finite-box cubature and matching boundaries is supplied | false; inherited full-domain `<9.683e-7`, no physical/source move |
 
-Reproduce with `python3 tests/channel-swings/k216_order_six_analytic_angular_prefix.py --write`
-and `_local/cas-venv/bin/python tests/channel-swings/k216_order_six_analytic_angular_prefix_probe.py`.
-The angular generating function is `prod_i(1-a_i x)^(-5/3)`; its coefficients
+The historical angular generating function was `prod_i(1-a_i x)^(-5/3)`; its coefficients
 obey `n c_n=(5/3)sum_(k=1)^n(sum_i a_i^k)c_(n-k)`, and the integrated
 inverse-denominator series has coefficient `(14)_n c_n/(70/3)_n`.
 The remainder after order `N` is at most
 `binom(N+14,N+1)q^(N+1)/(1-q(N+15)/(N+2))` when the denominator is positive.
 The former raw absolute interpretation omits the K202 reference weight and
-is withdrawn; its written Beta controls check only the artificial weighted
-integral. K217 supplies the corrected raw inner-box result.
+is withdrawn; its former Beta controls checked only the artificial weighted
+integral. The current independent Beta(1,13) probe and K217 supply the
+corrected raw-measure local checks.
 The large-box failure concerns this *uniform geometric certificate* only,
 not actual convergence, adaptive cost, or a lower bound on other methods.
 K185/K188 quotient exclusions and K204/K209 common-reference defects have

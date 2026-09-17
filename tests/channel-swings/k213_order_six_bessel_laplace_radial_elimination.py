@@ -42,8 +42,8 @@ def all_masks() -> tuple[int, int, int, int]:
 def box_tail_coefficient(delta: Q) -> Q:
     """Bound on a *single* transformed eight-factor integral beyond [0,T]^8.
 
-    This includes the exact 2^8 Gamma prefactor but not the angular
-    z^(2/3)/pi^8 factor, which is at most one on the simplex.
+    This includes the exact 2^8 Gamma prefactor but not the original
+    uniform angular factor 1/pi^8, which is at most one.
     """
     assert delta > 0
     coefficient = Q(2**8 * 256**6 * math.factorial(13), math.factorial(5))
@@ -78,12 +78,12 @@ def generate() -> dict:
         "object": "K139/K184 conditional positive Fock model; one K185 signed permutation term at fixed positive interior angular z",
         "source_routing": "SC-ACT-01/02 ASSERTS a distinct source action/equation; SC-META-53 UNCERTAIN and LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS are unchanged",
         "identity": "K1(x)=integral_0^infty exp(-x*cosh(t))*cosh(t) dt (x>0); Gamma(6,256) radial expectation of rho^8 product_j[2 K1(rho*S_j)] = (2^8*256^6*13!/5!)*integral_[0,infty)^8 product_j cosh(t_j)/(256+sum_j S_j*cosh(t_j))^14 dt",
-        "normalization": "Multiply the identity by K185's angular z_i^(2/3)/pi^8 and each stored Leibniz/coefficient sign before assembling the eighteen signed groups; S_j=sum_(i in support_mask_j) z_i>0",
+        "normalization": "Multiply the identity by the original uniform simplex density 1/pi^8 and each stored Leibniz/coefficient sign before assembling the eighteen signed groups; K202's common product z_i^(-2/3) cancels its residual product z_i^(2/3) exactly. S_j=sum_(i in support_mask_j) z_i>0. The historical isolated residual-weight reading is withdrawn by K217.",
         "proof": "Apply the positive cosh representation eight times; Tonelli for each unsigned term, then integrate rho^13 exp[-rho*(256+sum S_j cosh(t_j))] to 13!/(256+sum S_j cosh(t_j))^14. The finite signed K185 sum is taken only afterwards.",
         "core_tail": {
             "scope": "For each term on K204's z_i>=delta=2^-180 angular core only; no rho<=1/4 restriction is imposed on the identity",
             "inequality": "D^14 >= (7*256)^2*(28/3)^12*product_j(S_j*cosh(t_j))^(3/2), D=256+sum S_j*cosh(t_j)",
-            "tail_bound": "Integral outside [0,T]^8 after radial prefactor and with angular z_i^(2/3)/pi^8<=1 is < C(delta)*exp(-T/2), C(delta)=2^8*256^6*13!/5!*8*4096/((7*256)^2*(28/3)^12*delta^12)",
+            "tail_bound": "Integral outside [0,T]^8 after radial prefactor and with the original angular 1/pi^8<=1 is < C(delta)*exp(-T/2), C(delta)=2^8*256^6*13!/5!*8*4096/((7*256)^2*(28/3)^12*delta^12)",
             "coefficient_exact_rational": str(bound),
             "coarse_binary_exponential": "exp(-T/2)<2^(-T/2) for even positive T because e>2",
             "first_even_T_sufficient_for_per_term_1e_minus_21_under_coarse_bound": first_even,

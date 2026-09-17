@@ -22,7 +22,7 @@ spec.loader.exec_module(module)
 
 def direct_moment(a: list[Q], n: int) -> Q:
     """Multinomial Dirichlet moment, unrelated to producer's power-sum recurrence."""
-    beta0 = Q(70, 3)
+    beta0 = Q(14)
     denominator = Q(1)
     for k in range(n):
         denominator *= beta0 + k
@@ -37,7 +37,7 @@ def direct_moment(a: list[Q], n: int) -> Q:
         for k in range(left + 1):
             rising = Q(1)
             for h in range(k):
-                rising *= Q(5, 3) + h
+                rising *= Q(1) + h
             visit(i + 1, left - k, multinomial * comb(left, k),
                   poch * rising, power * a[i]**k)
 
@@ -75,9 +75,8 @@ def main() -> None:
     mp.mp.dps = 70
     single = [Q(7)]*13 + [Q(1)]
     a = mp.mpf(6)/263
-    beta = mp.beta(mp.mpf(5)/3, 65/mp.mpf(3))
-    direct = mp.quad(lambda z: z**(mp.mpf(2)/3) *
-                     (1-z)**(mp.mpf(62)/3) / (1-a*z)**14 / beta,
+    beta = mp.beta(1, 13)
+    direct = mp.quad(lambda z: (1-z)**12 / (1-a*z)**14 / beta,
                      [0, 1])
     partial = module.series_coefficients(tuple(single), 20)
     summed = mp.mpf(0)
@@ -87,8 +86,14 @@ def main() -> None:
     r = module.relative_remainder(q, 20)
     assert 0 < direct - summed < mp.mpf(r.numerator)/r.denominator
 
+    # A deliberately wrong isolated residual changes the second angular
+    # coefficient even though the first coefficient shares the same mean.
+    a_profile = [Q(0)]*13 + [Q(6, 263)]
+    raw_second = module.series_coefficients(tuple(single), 2)[2]
+    weighted_second = Q(15*14, 2) * (Q(5, 3)*Q(8, 3) / (Q(70, 3)*Q(73, 3))) * a_profile[-1]**2
+    assert raw_second != weighted_second
     # Hostile normalization and face controls: the envelope is raw K213,
-    # not a Gamma-expectation or a unit-density Dirichlet measure.
+    # not an isolated Dirichlet(5/3) residual or Gamma expectation.
     raw = Q(data["small_box"]["raw_term_absolute_error_ceiling"])
     all_terms = Q(data["small_box"]["whole_unsigned_1864_term_absolute_error_ceiling"])
     assert all_terms == 1864 * raw and raw > 0
@@ -101,7 +106,8 @@ def main() -> None:
     large_q = Q(data["large_box"]["uniform_q_at_that_box"])
     assert large_q * Q(35, 22) > 1
     print("[PASS] 1,864 independent support replays and low multinomial moments")
-    print("[PASS] independent Beta integral, raw normalization and hostile face")
+    assert "reference/residual cancellation" in data["small_box"]["normalization"]
+    print("[PASS] independent uniform Beta integral, raw normalization and hostile weight/face")
 
 
 if __name__ == "__main__":
