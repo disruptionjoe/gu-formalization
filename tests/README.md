@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K219 signed auxiliary-cell enclosure
+
+- `channel-swings/k219_order_six_signed_auxiliary_cell_enclosure.py` proves
+  monotone rational-corner bounds for the complete K218 signed core and
+  integrates the common product-cosh weight exactly on three rational-endpoint
+  cells. All repeated allocation IDs have one sign, so aggregation has no
+  interval-width improvement on any cell; no full integration follows.
+- `channel-swings/k219_order_six_signed_auxiliary_cell_enclosure_probe.py`
+  independently traverses the raw 1,864 terms, checks point and cell
+  inclusion and rejects an omitted positive load.
+
+```sh
+python3 tests/channel-swings/k219_order_six_signed_auxiliary_cell_enclosure.py --write
+python3 tests/channel-swings/k219_order_six_signed_auxiliary_cell_enclosure_probe.py
+```
+
 ## K218 exact uniform angular elimination
 
 - `channel-swings/k218_order_six_exact_angular_elimination.py` proves the

@@ -7,6 +7,39 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K219 exact signed auxiliary-cell enclosure (2026-09-17)
+
+For any nonnegative rectangular time cell, K218's signed rational-cosh core
+has an exact rational enclosure. Each of its 1,276 distinct allocation
+reciprocal products decreases separately with every `cosh(t_j)`. Evaluate
+positive coefficients at the upper corner for the lower bound and at the
+lower corner for the upper bound, reversing corners for negative coefficients.
+Multiply the core interval by
+`(2^8*256^6/5!)*prod_j(sinh(t_j^+)-sinh(t_j^-))/pi^8` to bound the complete
+weighted cell integral. All K185 signs and off-diagonal doubling are retained.
+The monotonicity proof works for shared denominator loads; it does not assume
+each term can attain its corner simultaneously.
+
+The manifest records exact intervals on `[0,log(2)]^8`, a first shifted slab,
+and an alternating four-coordinate shifted cell with nonzero midpoint. A
+separate raw 1,864-term traversal checks endpoint and mixed points, interval
+inclusion, exact product-cosh cell measures and an omitted-load mutation.
+All 480 repeated allocation IDs have the same sign within each ID (maximum
+repetition four). Thus compressing 1,864 raw terms to 1,276 distinct
+allocations has **no interval-width gain on any cell** (also checked at exact
+ratio one in the three pilots). The unpartitioned inner cell is weaker than
+K217's cancellation-aware `<1.914e-23` bound; K219 is a
+valid local enclosure, not a certified or efficient whole-box cover. Its
+interval endpoints are exact rational multiples of `pi^-8`, not unscaled
+absolute integral values. Determinant-correlated derivative bounds are the
+next structural test before broad cubature.
+
+K217 inner-box, K215 positive tail, K185/K188 quotient, K204/K209 common
+reference and coalescent boundaries remain independent. No accurate order-six
+prefix, source action, physical state or ledger result follows. The inherited
+full-domain `<9.683e-7` is unchanged. Reproduce with the K219 producer and
+independent probe in `tests/README.md`.
+
 ## K218 exact angular elimination after K213 (2026-09-17)
 
 The original K185 angular measure is uniform after K202's reference/residual

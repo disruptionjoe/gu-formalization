@@ -1,0 +1,127 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47"
+  },
+  "object": "K218's exact raw signed eight-auxiliary rational-cosh integrand on nonnegative rectangular t cells",
+  "theorem": "For 1<=l_j<=cosh(t_j)<=u_j and H(c)=sum_A w_A/prod_i(256+sum_(j:i in A_j)c_j), every denominator reciprocal decreases coordinatewise. Hence L=sum_(w_A>0)w_A q_A(u)+sum_(w_A<0)w_A q_A(l) <= H(c) <= U=sum_(w_A>0)w_A q_A(l)+sum_(w_A<0)w_A q_A(u). Combine identical allocations before bounding. The complete weighted cell integral lies in [L,U]*(2^8*256^6/5!)*prod_j(sinh(t_j^+)-sinh(t_j^-))/pi^8.",
+  "exact_signed_coefficients": {
+    "raw_terms": 1864,
+    "ordered_with_off_diagonal": 2928,
+    "distinct_nonzero_allocations": 1276,
+    "signed_coefficient_sum": 0
+  },
+  "repetition_certificate": {
+    "repeated_allocations": 480,
+    "largest_repetition": 4,
+    "opposite_sign_repetitions": 0,
+    "consequence": "Since every repetition has one sign, combining identical products changes evaluation count but not signed corner interval endpoints on any cell."
+  },
+  "pilot_cells": {
+    "inner_box": {
+      "cosh_lower": [
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "cosh_upper": [
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4"
+      ],
+      "exact_product_cosh_measure": "6561/65536",
+      "signed_integral_interval_without_pi8": [
+        "-3241628935521873577174981106847730878119936/4558011815468206755346192666283148361190608088836381501746125",
+        "3241628935521873577174981106847730878119936/4558011815468206755346192666283148361190608088836381501746125"
+      ],
+      "raw_term_core_width_to_aggregated_core_width": "1",
+      "center_integrand_without_pi8": "0",
+      "integral_interval_decimal_without_pi8": [
+        "-7.11193623e-19",
+        "7.11193623e-19"
+      ]
+    },
+    "first_shifted_slab": {
+      "cosh_lower": [
+        "5/4",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1",
+        "1"
+      ],
+      "cosh_upper": [
+        "17/8",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4",
+        "5/4"
+      ],
+      "exact_product_cosh_measure": "19683/131072",
+      "signed_integral_interval_without_pi8": [
+        "-37942302136292612697648572638790768150692065054205935616/28896870821128967991630945423955020088906560195682142205733636227919921875",
+        "37942302136292612697648572638790768150692065054205935616/28896870821128967991630945423955020088906560195682142205733636227919921875"
+      ],
+      "raw_term_core_width_to_aggregated_core_width": "1",
+      "center_integrand_without_pi8": "0",
+      "integral_interval_decimal_without_pi8": [
+        "-1.31302460e-18",
+        "1.31302460e-18"
+      ]
+    },
+    "alternating_shifted_cell": {
+      "cosh_lower": [
+        "1",
+        "5/4",
+        "1",
+        "5/4",
+        "1",
+        "5/4",
+        "1",
+        "5/4"
+      ],
+      "cosh_upper": [
+        "5/4",
+        "17/8",
+        "5/4",
+        "17/8",
+        "5/4",
+        "17/8",
+        "5/4",
+        "17/8"
+      ],
+      "exact_product_cosh_measure": "531441/1048576",
+      "signed_integral_interval_without_pi8": [
+        "-250863086849783215752891755729637672066856899614322410998751282788771235830003453807358654089528051763809708439918123767851020313427968/34077630678483457419981391275242968961529158027857850417314528972796621995972901372121476741079786050338816280126103243245674685651176327458904052734375",
+        "8650641369108534915761084916987276295303679763227173629483100588441439619034173564885489540774734800655935414597937278903806112825344/1175090713051153704137289354318723067638936483719236221286707895613676620550789702486947473830337450011683320004348387698126713298316425084789794921875"
+      ],
+      "raw_term_core_width_to_aggregated_core_width": "1",
+      "center_integrand_without_pi8": "14545220299785113068751048977589544367741030420790340641539666798573502151851507712/8712957531574215318546968071775733397272021362700740585315085913875998389597862049394053939848875390625",
+      "integral_interval_decimal_without_pi8": [
+        "-7.36151786e-18",
+        "7.36167963e-18"
+      ]
+    }
+  },
+  "interpretation": "These exact intervals preserve signs but discard shared-denominator determinant correlations within a cell. All 480 repeated allocation IDs have a single sign, so compression from 1,864 to 1,276 changes evaluation count but provably never narrows any cell interval. K217's global inner-box cancellation bound is sharper than the naive inner-cell interval (the latter's exact rational endpoint still carries pi^-8). A mixed shifted cell has nonzero center. Neither widths nor midpoint values are a convergence rate, full-box cover, or actual signed integral; determinant-aware correlation is the next discriminator.",
+  "source_routing": "SC-ACT-01/02 ASSERTS a distinct source action/equation; SC-META-53 UNCERTAIN and LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS are unchanged",
+  "unchanged_complete_rule_error_upper_rational": "412009773890262587145/425541888504349469496573952",
+  "claim_ceiling": "Certified local signed-cell enclosure for the K218 raw auxiliary expression, not a certified middle-box sum, practical adaptive cost, coalescent/quotient/common-reference boundary composition, accurate complete prefix, or source/physics verdict."
+}
