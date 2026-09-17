@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K208 positive cubic-angular moment-rule controls
+
+- `channel-swings/k208_order_six_cubic_moment_rule.py` proves the rational
+  barycenter/two-hot-orbit moments, pairs 92 angular nodes with K203's two
+  radial nodes, and evaluates all eighteen complete signed K184 groups.
+- `channel-swings/k208_order_six_cubic_moment_rule_probe.py` independently
+  enumerates all 680 angular monomials, replays K185's 1,864 signed terms at
+  all 184 nodes, and catches three weight mutations. The 28/184-node
+  difference is not an error estimate; both retain K202's broad bound.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k208_order_six_cubic_moment_rule.py --write
+_local/cas-venv/bin/python tests/channel-swings/k208_order_six_cubic_moment_rule_probe.py
+```
+
 ## K207 signed-Gram bivariate jet controls
 
 - `channel-swings/k207_order_six_mixed_jets.py` evaluates all nine raw

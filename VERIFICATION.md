@@ -7,6 +7,17 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K208 positive cubic-angular common-reference rule (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| A positive interior rule matches all cubic moments of Dirichlet(1/3)^14 | barycenter weight `2891/11016` plus 91 two-coordinate nodes (`19/50` on the pair, `1/50` elsewhere), each weight `625/77112`; exact seven partition representatives and independent enumeration of all 680 monomials through degree three agree | exact polynomial cubature; two K203 radial nodes give 184 product nodes exact through radial degree three |
+| All complete signed groups have 184-node values | 234 native K184 entries and eighteen groups evaluated with outward Arb; independent K185 permutation/Leibniz expansion of 1,864 terms agrees at every weighted node to `1e-55` after the common normalizer; three hostile weight mutations caught | signed node evaluation, not an integral error or convergence test |
+| The 184-node sum improves the accurate order-six prefix | its signed sum differs from K203's 28-node sum by about `-8.705e-21`, but both retain exactly the same broad `<9.683e-7` full-domain absolute error; cubic exactness moves the angular remainder to fourth derivatives and increases node cost | false; no cellwise coalescent/Duffy enclosure or K185/K188 versus K204 boundary composition, no source/physical move |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k208_order_six_cubic_moment_rule.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k208_order_six_cubic_moment_rule_probe.py`.
+
 ## K207 signed-Gram mixed radial/angular jets (2026-09-17)
 
 | Claim | Evidence | Honest grade |

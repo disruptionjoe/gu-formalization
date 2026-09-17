@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "K184": "5d4e4eb5e29b49040dd02f195a77e179a302211076fc6b535a82051b5a6cdb57",
+    "K185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "K202": "5206dd703b0b86d4c589d4c5fa5ec4c32a0d27a5c8f4383e6d81ac862e9d54f8",
+    "K203": "1d9421d780df2ac38016db03f461d74c6309baa397c00d143fb85c5731f1c7dc",
+    "K207": "427ccfc23890a445c064d4255cbecec8c7953121500ee7918f28c0930383c7a4"
+  },
+  "counts": {
+    "gram_entries": 234,
+    "coherent_groups": 18,
+    "angular_nodes": 92,
+    "radial_nodes": 2,
+    "product_nodes": 184
+  },
+  "rule": {
+    "angular_reference": "Dirichlet(1/3)^14",
+    "center": "z_i=1/14",
+    "center_weight": "2891/11016",
+    "pair_nodes": "z_i=19/50 for i in a chosen unordered pair, 1/50 otherwise",
+    "pair_count": 91,
+    "each_pair_weight": "625/77112",
+    "radial_nodes": [
+      "(7-sqrt(7))/256",
+      "(7+sqrt(7))/256"
+    ],
+    "radial_probabilities": [
+      "(1+1/sqrt(7))/2",
+      "(1-1/sqrt(7))/2"
+    ],
+    "normalizer_arb": "[2.84161868381649439764175037526809457321008077335315551537472174915023664517668639961580079909497710e-8 +/- 2.00e-107]"
+  },
+  "exact_angular_moments": {
+    "unit": "1",
+    "0": "1/14",
+    "0,0": "2/119",
+    "0,1": "1/238",
+    "0,0,0": "1/170",
+    "0,0,1": "1/1190",
+    "0,1,2": "1/4760"
+  },
+  "moment_construction": "two-hot covariance factor 6/13 and cubic/covariance ratio 5*theta/12; target Dirichlet ratios 3/17 and 3/10 force theta=18/25 and total pair weight 8125/11016, leaving center weight 2891/11016",
+  "exactness": "all angular polynomials of total degree <=3 and radial degree <=3; products thereof",
+  "compact_core_location": "all 184 nodes have rho<1/4 and z_i>=1/50>2^-180; this does not transfer K204's degree-two conditional moment accounting to degree three",
+  "complete_signed_sum_arb": "[5.408105260403576606106769038978669257634375166340989413860916321281564050911445755915551971020983e-20 +/- 9.35e-117]",
+  "difference_from_k203_28_node_sum_arb": "[-8.7052051171153676370837624252703469801050445649679706548562162657127994041481887089338650004166e-21 +/- 5.22e-116]",
+  "groups": {
+    "seed=0|d=0|1+^1,1-^1,2+^2,2-^2": {
+      "ordered_support_terms": 324,
+      "one_hundred_eighty_four_node_value_arb": "[1.784905929102457023963571622416241518839630982882945419239343531339066716087028640842453588028457e-20 +/- 2.68e-117]",
+      "absolute_error_ceiling_rational": "182364981885853932015/1702167554017397877986295808"
+    },
+    "seed=0|d=0|1+^2,1-^2,2+^1,2-^1": {
+      "ordered_support_terms": 324,
+      "one_hundred_eighty_four_node_value_arb": "[1.784905929102457023963571622416241518839630982882945419239343531339066716087028640842453588028457e-20 +/- 2.67e-117]",
+      "absolute_error_ceiling_rational": "182364981885853932015/1702167554017397877986295808"
+    },
+    "seed=0|d=0|1+^3,1-^3": {
+      "ordered_support_terms": 324,
+      "one_hundred_eighty_four_node_value_arb": "[1.0527003081068165078449460197548158483138102996667289537187219475319605676333233901634227728315e-24 +/- 3.06e-119]",
+      "absolute_error_ceiling_rational": "182364981885853932015/1702167554017397877986295808"
+    },
+    "seed=0|d=0|2+^3,2-^3": {
+      "ordered_support_terms": 324,
+      "one_hundred_eighty_four_node_value_arb": "[1.0527003081068165078449460197548158483138102996667289537187219475319605676333233901634227728315e-24 +/- 3.06e-119]",
+      "absolute_error_ceiling_rational": "182364981885853932015/1702167554017397877986295808"
+    },
+    "seed=1|d=1|1+^1,1-^1,2+^2,2-^2": {
+      "ordered_support_terms": 100,
+      "one_hundred_eighty_four_node_value_arb": "[2.231446227136150508064153639547790371975127231711284909759041426262817419963663504319327959750959e-21 +/- 7.53e-118]",
+      "absolute_error_ceiling_rational": "56285488236374670375/1702167554017397877986295808"
+    },
+    "seed=1|d=1|1+^2,1-^2,2+^1,2-^1": {
+      "ordered_support_terms": 196,
+      "one_hundred_eighty_four_node_value_arb": "[3.343048786404329852957309261522136549066844942228419120524168285057472419631705595855440937441673e-21 +/- 8.01e-118]",
+      "absolute_error_ceiling_rational": "110319556943294353935/1702167554017397877986295808"
+    },
+    "seed=1|d=1|1+^3,1-^3": {
+      "ordered_support_terms": 324,
+      "one_hundred_eighty_four_node_value_arb": "[1.0527003081068165078449460197548158483138102996667289537187219475319605676333233901634227728315e-24 +/- 3.06e-119]",
+      "absolute_error_ceiling_rational": "182364981885853932015/1702167554017397877986295808"
+    },
+    "seed=1|d=1|2+^3,2-^3": {
+      "ordered_support_terms": 36,
+      "one_hundred_eighty_four_node_value_arb": "[3.12697479403880690798596872559150547026808311487954273955861743185447457010824108615795193067227e-25 +/- 8.96e-121]",
+      "absolute_error_ceiling_rational": "20262775765094881335/1702167554017397877986295808"
+    },
+    "seed=1|d=2|1+^1,2+^2,2-^3": {
+      "ordered_support_terms": 48,
+      "one_hundred_eighty_four_node_value_arb": "[1.6153166411072274157360542493015773072395714309481708357563708156151509545499175617193706623069e-23 +/- 2.99e-118]",
+      "absolute_error_ceiling_rational": "6754258588364960445/425541888504349469496573952"
+    },
+    "seed=1|d=2|1+^2,1-^1,2+^1,2-^2": {
+      "ordered_support_terms": 64,
+      "one_hundred_eighty_four_node_value_arb": "[2.896412516079679380097889370873821118364778665264660492757880374439196289482400692725509532486644e-21 +/- 6.66e-118]",
+      "absolute_error_ceiling_rational": "2251419529454986815/106385472126087367374143488"
+    },
+    "seed=1|d=2|1+^3,1-^2,2-^1": {
+      "ordered_support_terms": 48,
+      "one_hundred_eighty_four_node_value_arb": "[7.01988216866463261914927667382098505052765020450825233331099193463266086471395931746809197779265e-22 +/- 5.53e-118]",
+      "absolute_error_ceiling_rational": "6754258588364960445/425541888504349469496573952"
+    },
+    "seed=2|d=1|1+^1,1-^2,2+^2,2-^1": {
+      "ordered_support_terms": 64,
+      "one_hundred_eighty_four_node_value_arb": "[2.896412516079679380097889370873821118364778665264660492757880374439196289482400692725509532486644e-21 +/- 6.66e-118]",
+      "absolute_error_ceiling_rational": "2251419529454986815/106385472126087367374143488"
+    },
+    "seed=2|d=1|1+^2,1-^3,2+^1": {
+      "ordered_support_terms": 48,
+      "one_hundred_eighty_four_node_value_arb": "[1.6153166411072274157360542493015773072395714309481708357563708156151509545499175617193706623069e-23 +/- 2.99e-118]",
+      "absolute_error_ceiling_rational": "6754258588364960445/425541888504349469496573952"
+    },
+    "seed=2|d=1|1-^1,2+^3,2-^2": {
+      "ordered_support_terms": 48,
+      "one_hundred_eighty_four_node_value_arb": "[7.01988216866463261914927667382098505052765020450825233331099193463266086471395931746809197779265e-22 +/- 5.53e-118]",
+      "absolute_error_ceiling_rational": "6754258588364960445/425541888504349469496573952"
+    },
+    "seed=2|d=2|1+^1,1-^1,2+^2,2-^2": {
+      "ordered_support_terms": 196,
+      "one_hundred_eighty_four_node_value_arb": "[3.343048786404329852957309261522136549066844942228419120524168285057472419631705595855440937441673e-21 +/- 8.01e-118]",
+      "absolute_error_ceiling_rational": "110319556943294353935/1702167554017397877986295808"
+    },
+    "seed=2|d=2|1+^2,1-^2,2+^1,2-^1": {
+      "ordered_support_terms": 100,
+      "one_hundred_eighty_four_node_value_arb": "[2.231446227136150508064153639547790371975127231711284909759041426262817419963663504319327959750959e-21 +/- 7.53e-118]",
+      "absolute_error_ceiling_rational": "56285488236374670375/1702167554017397877986295808"
+    },
+    "seed=2|d=2|1+^3,1-^3": {
+      "ordered_support_terms": 36,
+      "one_hundred_eighty_four_node_value_arb": "[3.12697479403880690798596872559150547026808311487954273955861743185447457010824108615795193067227e-25 +/- 8.96e-121]",
+      "absolute_error_ceiling_rational": "20262775765094881335/1702167554017397877986295808"
+    },
+    "seed=2|d=2|2+^3,2-^3": {
+      "ordered_support_terms": 324,
+      "one_hundred_eighty_four_node_value_arb": "[1.0527003081068165078449460197548158483138102996667289537187219475319605676333233901634227728315e-24 +/- 3.06e-119]",
+      "absolute_error_ceiling_rational": "182364981885853932015/1702167554017397877986295808"
+    }
+  },
+  "all_group_absolute_error_ceiling_rational": "412009773890262587145/425541888504349469496573952",
+  "remaining_gate": "fourth angular derivative cellwise enclosure for cubic Taylor remainder, Duffy/Jacobi chain, distinct K185/K188 termwise face/tail and K204 common-reference moment accounting, realistic coherent signed-group allocation; compare 184-node cost against K203's 28-node degree-two rule",
+  "claim_ceiling": "positive interior cubic-angular polynomial rule and complete signed node values only; no improved nonpolynomial full-rule error, accurate order-six prefix, physical quotient or source result"
+}

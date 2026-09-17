@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d1f380c19b06bef856f6ad7a8a305f11ee82e1a8
+revision_basis: 27e640a0f6123cf772e876c6dea09d7ae946be43
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K208 constructs a positive interior 92-node angular Dirichlet rule using
+    the barycenter and all 91 unordered pair orbits. It matches every cubic
+    monomial exactly; with K203's two radial nodes, all 184 product nodes
+    evaluate the eighteen complete signed K184 Gram groups. Independent exact
+    enumeration of all 680 angular monomials and a separate K185 signed
+    Leibniz replay of all weighted nodes agree. The two signed node sums differ
+    by about -8.705e-21, which is not convergence or error evidence. The
+    inherited broad full-rule error remains below 9.683e-7. A cubic rule
+    requires a fourth angular Taylor remainder, more nodes and a distinct
+    compact-core moment reconciliation, so it has not replaced K203 as an
+    accurate rule or advanced physics.
+
     K207 extends the exact normalized K184 determinant algebra to all nine
     mixed radial/tangent-angular derivatives through bidegree (2,2) for every
     positive interior point. A separate K185 permutation/Leibniz replay uses
@@ -7848,9 +7860,10 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  Can K203's exact 28-node common-weight rule, now equipped with K204's
-  compact-core reference moment defects, K205's first radial bound, K206's
-  angular jets and K207's bidegree-(2,2) mixed signed jet algebra, be
+  Can K203's exact 28-node common-weight rule or K208's cubic 184-node rule,
+  equipped with K204's degree-two compact-core reference moment defects,
+  K205's first radial bound, K206's angular jets and K207's bidegree-(2,2)
+  mixed signed jet algebra, be
   supplied with a useful global angular/core error by bounding these jets
   over cells and composing higher mixed derivatives and the Duffy chain,
   while completing
@@ -7866,6 +7879,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K208 matches the common Dirichlet reference through angular degree three
+  with 92 positive interior nodes (184 with K203's radial law), but the
+  complete signed values have only K202's broad full-domain error. Its
+  28-versus-184-node difference is not a convergence estimate. Compare the
+  cost of a fourth-derivative cellwise remainder for K208 with K203's
+  third-derivative route and favor whichever yields a useful coherent-group
+  allocation. Every K208 node lies in the K204 compact core, but K204's
+  degree-two conditional moment defect does not automatically cover cubic
+  monomials. K185/K188 termwise quotient boundary controls remain distinct
+  from the common-reference moment accounting.
+
   K207 gives complete signed bidegree-(2,2) radial/angular jet algebra at
   every positive interior point, independently checked at two nodes, not a
   cellwise supremum or complete 28-node error. The degree-two angular rule
