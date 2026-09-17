@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c051212622551f2764eb9ba7b33fb61c9cea8340
+revision_basis: b00e0f9ef031fea89fec468a29817e4566f43638
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K213 eliminates the Gamma(6,256) radius analytically from each of K185's
+    1,864 positive-interior signed terms using the Bessel cosh representation
+    and a Gamma(14) moment, exchanging one radial variable for eight auxiliary
+    variables. Independent one-/two-factor integral controls and all 14,912
+    support occurrences check normalization. A core-only finite-box tail is
+    rigorous but extremely loose: its sufficient per-term 10^-21 cutoff is
+    4534 on K204's z_i>=2^-180 core, not a necessary complexity floor or a
+    practical certified cubature. No signed angular/core error, accurate
+    prefix, termwise quotient boundary composition or physical/source status
+    follows. The inherited full-domain bound remains below 9.683e-7.
+
     K212 computes the exact optimal one-dimensional transport expression
     between the Gamma(6,256) radial reference and K203's two-node law,
     enclosing its K205 termwise Lipschitz radial-only bound between
@@ -7915,9 +7926,12 @@ current_result:
 current_question: >-
   Can K203's 28-node third-order route or K208's 184-node fourth-order route
   obtain complete normalized/coalescent signed cellwise derivative bounds,
-  a higher-order or signed-cancellation radial reduction beyond K212's
-  proved K205 termwise Lipschitz certificate-class limit, and
-  honest K185/K188 termwise boundary composition with K204/K209 common-reference
+  a usable higher-order or signed-cancellation radial reduction beyond K212's
+  K205 Lipschitz certificate-class limit? K213 exactly exchanges the radial
+  variable for eight auxiliary integrals per K185 term, but its first
+  uniform core-tail certificate is far too loose to establish useful cost.
+  Can a support-aware or complete signed version make that route viable, and
+  can it be composed with K185/K188 termwise boundaries and K204/K209 common-reference
   moment defects? K210 fixes the chart chain and K211 fixes conditional third
   geometry and interior point jets, not those bounds. K212's improved
   radial-only upper bound is not an accurate prefix. If an accurate order-six
@@ -7932,6 +7946,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K213's exact termwise radial elimination has a valid but loose core-tail
+  cutoff 4534 at a per-term 10^-21 target; this is sufficient under its
+  particular uniform AM--GM bound, not a complexity lower bound. Test a
+  support-aware or cancellation-preserving auxiliary tail before attempting
+  broad eight-dimensional cubature; if it cannot give a decision-grade
+  budget, redirect to weighted radial derivatives or complete signed
+  cancellation jointly with the angular-cell work. No accurate prefix follows.
   K212 improves K205's two-node radial-only certificate to below
   1.7152001658e-8, but proves that positive radial node multiplication
   under the unchanged termwise Lipschitz/W1 inequality needs at least

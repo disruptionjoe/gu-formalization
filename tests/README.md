@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K213 Bessel-Laplace exact radial reduction and core-tail pilot
+
+- `channel-swings/k213_order_six_bessel_laplace_radial_elimination.py` replays
+  all K185 factor masks, eliminates the Gamma radius by Tonelli and a Gamma
+  moment, and proves a core-only finite-box auxiliary tail. Its coarse
+  sufficient cutoff 4534 is not an efficient cubature prescription.
+- `channel-swings/k213_order_six_bessel_laplace_radial_elimination_probe.py`
+  independently compares one- and two-factor radial and auxiliary integrals,
+  rejects changed factors/exponents and checks the AM--GM normalization.
+  Neither establishes the eight-dimensional signed full-rule error.
+
+```sh
+_local/cas-venv/bin/python tests/channel-swings/k213_order_six_bessel_laplace_radial_elimination.py --write
+_local/cas-venv/bin/python tests/channel-swings/k213_order_six_bessel_laplace_radial_elimination_probe.py
+```
+
 ## K212 radial transport and Lipschitz-certificate complexity
 
 - `channel-swings/k212_order_six_radial_transport_limit.py` gives an exact

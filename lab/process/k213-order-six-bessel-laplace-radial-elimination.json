@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "K185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "K205": "3e7e06cdf6c4283a40c201b9dfbf0ffa58369a1a7e0821df4e99e64920d4bba9",
+    "K204": "26ab2dbc8375afd5cb2f4579edd0253f944a06e68231f55a506b11e3e0a86183"
+  },
+  "counts": {
+    "gram_entries": 234,
+    "leibniz_terms": 1864,
+    "factor_occurrences": 14912,
+    "max_support_load": 7
+  },
+  "object": "K139/K184 conditional positive Fock model; one K185 signed permutation term at fixed positive interior angular z",
+  "source_routing": "SC-ACT-01/02 ASSERTS a distinct source action/equation; SC-META-53 UNCERTAIN and LT-SM8/LT-GR6b/RA-F1/AC-F1 NEEDS are unchanged",
+  "identity": "K1(x)=integral_0^infty exp(-x*cosh(t))*cosh(t) dt (x>0); Gamma(6,256) radial expectation of rho^8 product_j[2 K1(rho*S_j)] = (2^8*256^6*13!/5!)*integral_[0,infty)^8 product_j cosh(t_j)/(256+sum_j S_j*cosh(t_j))^14 dt",
+  "normalization": "Multiply the identity by K185's angular z_i^(2/3)/pi^8 and each stored Leibniz/coefficient sign before assembling the eighteen signed groups; S_j=sum_(i in support_mask_j) z_i>0",
+  "proof": "Apply the positive cosh representation eight times; Tonelli for each unsigned term, then integrate rho^13 exp[-rho*(256+sum S_j cosh(t_j))] to 13!/(256+sum S_j cosh(t_j))^14. The finite signed K185 sum is taken only afterwards.",
+  "core_tail": {
+    "scope": "For each term on K204's z_i>=delta=2^-180 angular core only; no rho<=1/4 restriction is imposed on the identity",
+    "inequality": "D^14 >= (7*256)^2*(28/3)^12*product_j(S_j*cosh(t_j))^(3/2), D=256+sum S_j*cosh(t_j)",
+    "tail_bound": "Integral outside [0,T]^8 after radial prefactor and with angular z_i^(2/3)/pi^8<=1 is < C(delta)*exp(-T/2), C(delta)=2^8*256^6*13!/5!*8*4096/((7*256)^2*(28/3)^12*delta^12)",
+    "coefficient_exact_rational": "1419634636326792417304407508227379200923986637767725753744983485913196466735183060410093743720074597866247425314544697216407609809983573352255366315632707119427130827284081965055375726748383530304145811161567750066274442631389897547076957678708710993643486169074079407536152922682278312702717980905455150193331414138750015953562620260661461672019927554347750393119939985971267447775441989662658365969660626207006926066083449332161489328227421596711108925173348466452534069405027159194931654105685220791416863520651998707562880221108377576696816701680499537832967833627046681060126320942382132613982027871477344274823276675870315372819111541815475223236364493388041588572160/96889010407",
+    "coarse_binary_exponential": "exp(-T/2)<2^(-T/2) for even positive T because e>2",
+    "first_even_T_sufficient_for_per_term_1e_minus_21_under_coarse_bound": 4534,
+    "cost_warning": "This huge sufficient T reflects a very loose uniform core bound; it is not a necessary node count, complexity lower bound, or an accurate signed result. Sharper support-aware or signed bounds are required."
+  },
+  "radial_impact": "Exact analytic exchange of the radial integral for eight auxiliary dimensions; bypasses the K205 Lipschitz/W1 node-count certificate class algebraically, without proving numerical efficiency.",
+  "unchanged_complete_rule_error_upper_rational": "412009773890262587145/425541888504349469496573952",
+  "claim_ceiling": "Interior termwise identity and finite-box core-tail bound only. No certified eight-dimensional cubature, signed angular/core error, K185/K188 quotient face/tail composition, accurate order-six prefix, action-selected state, physics or source verdict."
+}

@@ -7,6 +7,42 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K213 exact Bessel-Laplace radial elimination (2026-09-17)
+
+| Claim | Evidence | Honest grade |
+| --- | --- | --- |
+| Each of K185's 1,864 signed terms permits analytic elimination of the Gamma(6,256) radius at positive interior angles | K1 cosh representation, positive Tonelli interchange term by term, Gamma(14) Laplace moment; all 14,912 support factors replayed, independent one-/two-factor radial versus auxiliary-integral controls | exact eight-auxiliary-variable representation **per term**, not a cheaper certified numerical method or a signed integral value |
+| A finite auxiliary box has a rigorous core-only tail | weighted AM--GM on the denominator and `cosh(t)>=exp(t)/2`; K204's `z_i>=2^-180` ensures every support sum is positive | valid but loose: the displayed sufficient even cutoff for a per-term `10^-21` tail is 4534; it is not a necessary cutoff or complexity lower bound |
+| The complete order-six integral has an accurate prefix | no eight-dimensional certified cubature, signed-cell enclosure, or K185/K188 termwise boundary composition exists | false; K202's inherited full-domain `<9.683e-7` remains, with no source/physics effect |
+
+Reproduce with `_local/cas-venv/bin/python tests/channel-swings/k213_order_six_bessel_laplace_radial_elimination.py --write`
+and `_local/cas-venv/bin/python tests/channel-swings/k213_order_six_bessel_laplace_radial_elimination_probe.py`.
+
+For each K185 positive-interior support sum `S_j(z)>0`, use
+`K1(x)=integral_0^infty exp(-x cosh t) cosh t dt`. The Gamma radial density
+times `rho^8 product_j 2K1(rho S_j)` has power `rho^13`; the radial integral
+is exactly
+
+```text
+(2^8 256^6 13!/5!) integral_[0,infty)^8
+   product_j cosh(t_j) / (256+sum_j S_j cosh(t_j))^14 dt.
+```
+
+Multiply by the unchanged K185 angular factor and stored Leibniz/group signs
+only after this unsigned Tonelli step. The transform exchanges one radial
+dimension for eight auxiliary dimensions and so bypasses K205's positive-node
+Lipschitz/W1 *certificate class* algebraically, not necessarily efficiently.
+On K204's angular core the weighted AM--GM exponents `(2,3/2,...,3/2)`
+give the exact rational tail coefficient in the K213 manifest. The crude
+uniform support floor makes the sufficient cutoff 4534 under `e>2`; this
+pilot does not justify broad cubature at that cutoff. Sharper support-aware
+truncation or signed cancellation and the separate K210/K211 angular cells
+remain the next route test. K185/K188 quotient exclusions cannot be replaced
+by K204/K209 common-reference lost moments. This is K139/K184 conditional
+Fock mathematics, not an action-selected state. SC-ACT-01/02 (`ASSERTS`)
+do not select it; SC-META-53 (`UNCERTAIN`) and ledger LT-SM8, LT-GR6b,
+RA-F1, AC-F1 (`NEEDS`) remain unchanged.
+
 ## K212 radial transport certificate-class limit (2026-09-17)
 
 | Claim | Evidence | Honest grade |
