@@ -7,6 +7,30 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K235 local I1B mixed-grade mode and formal four-field insertion (2026-09-18)
+
+The selected `comm/symi/symi` first-action coefficient on a local flat
+Ricci-flat `T=0` germ has a nonzero exact principal cross between
+`dx^0⊗gamma_1` and `dx^2⊗gamma_1 gamma_2`. The ordered raw pair is `(2,0)`;
+formal Euler antisymmetrization gives `(1,-1)` in the 28-dimensional label
+block of rank six. At `T=0` these distortion directions are outside K132's
+action-owned diffeomorphism image. Clifford parity gives the formal
+off-/diagonal slots of the displayed draft-2021 four-field matrix; its full
+twelve potentially nonzero candidate insertion entries and four southeast zeros are recorded in
+`lab/process/k235-native-i1b-mixed-grade-fermion-insertion.json`. A separate
+full-basis replay verifies the entry and rank and rejects wrong-channel and
+sign controls. This is internal exact local algebra, not a physical mode.
+
+The source calls the matrix a candidate and admits a nonzero southeast
+alternative. The barred-field reality, global grading, density/adjoint,
+stationary full-fermion background, common closed domain and quotient are
+unselected. In particular, at zero fermion the known quadratic
+boson–fermion Hessian remains a direct sum; this insertion is a response
+vertex, not a mixed quadratic mode. SC-ACT-01/02 (`ASSERTS`), SC-META-53
+(`UNCERTAIN`), LT-GR6b/LT-SM8 (`NEEDS`), K234, K224/K229, K215, boundaries,
+canon and public posture do not move. No external specialist acceptance or
+novelty claim is made.
+
 ## K234 grouped two-exception positivity through one cosh unit (2026-09-18)
 
 For K233's fixed `(u,v,b)=(5/4,17/8,1)` ray, K234 first averages the

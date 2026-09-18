@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__LOCAL_FORMAL_CANDIDATE_ONLY",
+  "input_sha256": {
+    "backend": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "source_extraction": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "k132": "c2835f33db681168424e95ff0195a5c88813f3d7db073bda45ccfef1c2dbf5b8"
+  },
+  "background": "selected I1B local flat Ricci-flat T=0, zero-fermion germ; fixed metric and formal normal dx0",
+  "mode": {
+    "odd": "dx0 tensor gamma1",
+    "even": "dx2 tensor gamma12",
+    "raw_odd_even": [
+      "2",
+      "0"
+    ],
+    "raw_even_odd": [
+      "0",
+      "0"
+    ],
+    "formal_euler_cross": [
+      "1",
+      "0"
+    ],
+    "gauge_status": "non-gauge distortion directions at T=0; not a physical quotient mode"
+  },
+  "chirality_parity": {
+    "odd": "off_diagonal",
+    "even": "diagonal"
+  },
+  "clifford_squares": {
+    "odd": -1,
+    "even": -1
+  },
+  "displayed_fermion_candidate_first_variation": [
+    [
+      "*odot(E_pp)",
+      "*odot(O_pm)",
+      "E_pp",
+      "O_pm"
+    ],
+    [
+      "*odot(O_mp)",
+      "*odot(E_mm)",
+      "O_mp",
+      "E_mm"
+    ],
+    [
+      "-bar(E_pp)*",
+      "-bar(O_pm)*",
+      "0",
+      "0"
+    ],
+    [
+      "-bar(O_mp)*",
+      "-bar(E_mm)*",
+      "0",
+      "0"
+    ]
+  ],
+  "source_branch": "2021 displayed southeast-zero four-field matrix only; source admits an unspecified nonzero southeast rival",
+  "underdetermination": "The local parity and matrix slots do not select the source-preferred Shiab, global plus/minus grading, barred-field reality/adjoint, density and common closed domain, stationary nonzero-fermion solution, gauge/BV quotient or positive physical state. No action-owned spectral mode follows.",
+  "claim_ceiling": "Exact nonzero mixed Cl1-Cl2 bosonic symbol and all sixteen formal displayed fermion insertion slots at one local zero-fermion background. No full physical fermion Hessian/domain, common eigenmode, spectrum, 2+1, chirality, positivity, gravity, ledger, canon or source-status change."
+}
