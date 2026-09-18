@@ -7,6 +7,41 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K234 grouped two-exception positivity through one cosh unit (2026-09-18)
+
+For K233's fixed `(u,v,b)=(5/4,17/8,1)` ray, K234 first averages the
+original signed K185/K218 rational-cosh core over all fifteen two-exception
+coordinate pairs. It converts each nonconstant positive affine factor
+`a+n h` to `n(h+a/n)` and absorbs constant factors. Of 576 resulting
+multisets of normalized affine factors, 398 have nonzero exact signed
+aggregate coefficients. This grouping does not delete K230's 307 full
+six-coordinate orbits; it is specialized to this one-dimensional ray.
+
+Write the projected core as `A h^4+C5 h^5+R6(h)`. The first four jets vanish
+by K231; `A>0` is K233's exact rational. K234 computes an exact negative
+signed `C5` and positive grouped `B6`. For each normalized group
+`w product_i(h+d_i)^-1` with `d_i>0`, its absolute sixth derivative divided
+by `6!` decreases for `h>=0`, since it is
+`|w| product_i(h+d_i)^-1 h_6(1/(h+d_i))`. Taylor's integral remainder gives
+`|R6(h)|<=B6 h^6` for every `h>=0` on this ray. Exact rational arithmetic
+establishes `A+C5-B6>0`; because `C5<0` and `B6>0`, the lower polynomial
+`A+C5 h-B6 h²` decreases on `[0,1]`. Therefore the projected core is
+**strictly positive for `0<h<=1`** on the stated fixed ray. Decimal controls
+are `A≈1.899168e-41`, `C5≈-1.601112e-42`, `B6≈1.655481e-41`, and the
+normalized lower at `h=1` is `≈8.357552e-43`.
+
+The independent probe traverses raw allocations, uses Newton power sums
+instead of factorwise coefficient multiplication, checks the exact grouped
+sixth bound, a nonzero rational functional identity, and a hostile original
+sign mutation. The theorem overturns the *cost warning of K233's specified
+raw-term bound* on this fixed ray; it neither proves positivity outside this
+ray nor a uniform reanchored six-coordinate cell, third-shell signed
+integral, K215 prefix or necessary cubature cost. Separate quotient,
+coalescent and face/tail boundaries, source SC-ACT-01/02 (`ASSERTS`),
+SC-META-53 (`UNCERTAIN`), physics ledger, canon and inherited full-rule
+`<9.683e-7` ceiling do not move. This internal mathematical result has no
+novelty or external specialist-acceptance claim.
+
 ## K233 fixed-anchor two-exception Taylor radius (2026-09-18)
 
 For the `S6`-projected original signed K185/K218 rational-cosh core, fix

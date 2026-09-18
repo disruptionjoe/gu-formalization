@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K234 grouped two-exception positivity through one cosh unit
+
+- `channel-swings/k234_order_six_grouped_two_exception_radius.py` combines
+  exact proportional-denominator groups on K233's fixed ray, retains the
+  signed fifth coefficient, and certifies the sixth-order Taylor remainder.
+- `channel-swings/k234_order_six_grouped_two_exception_radius_probe.py`
+  independently traverses raw K185 allocations, uses Newton power sums,
+  verifies a rational functional identity and rejects a hostile sign flip.
+  Neither script covers a six-coordinate cell or a third-shell integral.
+
+```sh
+python3 tests/channel-swings/k234_order_six_grouped_two_exception_radius.py
+python3 tests/channel-swings/k234_order_six_grouped_two_exception_radius_probe.py
+```
+
 ## K233 fixed-anchor two-exception Taylor radius
 
 - `channel-swings/k233_order_six_two_exception_local_radius.py` combines

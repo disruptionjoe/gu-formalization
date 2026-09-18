@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f4fedc3aad586e46e03ed22875478d65af6484ce
+revision_basis: a6d21c65f24c09ff21d1505f11a6ceacbaa4fb01
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K234 groups proportional rational denominator functions before taking
+    absolute values on K233's fixed (5/4,17/8,1) two-exception ray. Of 576
+    normalized signatures, 398 have nonzero exact coefficients. Its signed
+    fifth coefficient C5<0 and grouped sixth-order bound B6>0 obey the exact
+    inequality A+C5-B6>0, proving the S6-projected signed core positive for
+    0<h<=1. Independent raw-entry/Newton replay, a rational functional
+    identity and hostile original-sign control pass. This fixes K233's
+    raw-majorant pessimism only on the stated ray; no variable-anchor A,
+    six-coordinate cell, signed shell integral or necessary cost follows.
+    K224/K229, K215, boundaries, source, physics, ledger, canon and the
+    inherited full-rule ceiling remain unchanged.
+
     K233 gives a rigorous fixed-anchor two-exception positivity radius for
     K230's projected signed rational-cosh core. At (u,v,b)=(5/4,17/8,1),
     exact A>0 and a deliberately conservative raw-term absolute fifth
@@ -8163,6 +8175,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K234 proves fixed-anchor projected two-exception positivity through one
+  cosh unit by exact denominator grouping and a signed fifth jet with a
+  grouped sixth remainder. Can the same correlation be made uniform for A
+  and the remainder across covered reanchored mixed-band cells, including
+  other exceptional-coordinate directions, and compose a signed integral
+  below K224's 1.7933e-22 headroom at viable cost? The fixed ray does not
+  license that inference. Compare native I1B full-fermion and farther a/c
+  atlas routes at the next consequential selection.
+
   K233 quantifies how a raw-term unsigned fifth-derivative remainder loses
   the projected quartic cancellation even on one fixed two-exception ray.
   Can denominator-orbit or signed derivative grouping yield a uniform
@@ -8298,6 +8319,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Extend K234 only with a uniform rational/interval certificate for the
+  variable fourth coefficient and correlated remainder over an explicitly
+  covered six-coordinate mixed-band family; account for symmetry weights,
+  source K185/K188 boundaries and measured whole-shell error/cost against
+  K224's headroom. Otherwise switch to a concrete native I1B stationary
+  full-fermion mode or farther a/c atlas. The h<=1 fixed ray is not a cell.
+
   K233's fixed-anchor raw-term Taylor certificate has radius below 1/25000
   cosh units along a two-exception ray. Test a genuinely correlated signed
   fifth-derivative/denominator-orbit enclosure with a uniform A interval on
