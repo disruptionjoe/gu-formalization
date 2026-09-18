@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__LOCAL_SELECTED_SYMBOL_ONLY",
+  "input_sha256": {
+    "backend": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "k236": "d3fb375122135fcf6947c2122cd6d5bc6fc9bb37c28f2e672e73804149709d75"
+  },
+  "object": "Selected comm/symi/symi I1B formal Euler principal coefficient at dx1 on the same flat Ricci-flat T=0 zero-fermion germ as K236",
+  "normal_star": "K236: o=dx0 gamma1, E=sum_j dxj gamma1 gammaj (j=2..13); N0(o)=-E and N0(E)=12o",
+  "tangential_witnesses": [
+    "<dx1 gamma01,N1(o)>=-1",
+    "<dx0 gamma0,N1(E)>=12; <dx2 gamma2,N1(E)>=10; <dx13 gamma13,N1(E)>=10"
+  ],
+  "selected_odd_coefficient": [
+    1,
+    3,
+    "-1"
+  ],
+  "selected_collective_coefficients": [
+    [
+      0,
+      1,
+      "12"
+    ],
+    [
+      2,
+      4,
+      "10"
+    ],
+    [
+      13,
+      8192,
+      "10"
+    ]
+  ],
+  "theorem": "The K236 rank-two star is not a common invariant subspace of the selected principal-symbol family: the dx1 gamma01 coefficient of N1(o) is -1 outside span{o,E}. Selected coefficients of N1(E) also escape. This is an exact local obstruction to that particular two-dimensional reduction, not an exhaustive output matrix, a larger-hull obstruction, or an obstruction to another source-admissible Shiab.",
+  "claim_ceiling": "Exact selected local tangential-symbol output only. No full action-selected fermion operator, stationary common domain, quotient, propagating mode, source/physics/ledger/canon/public change, or signed-third-shell result."
+}

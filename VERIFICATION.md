@@ -7,6 +7,26 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K237 tangential obstruction to the K236 rank-two star (2026-09-18)
+
+For the same local flat Ricci-flat `T=0`, zero-fermion germ and selected
+`comm/symi/symi` I1B formal Euler coefficient, take tangent covector `dx1`.
+Exact ordered Clifford/exterior contractions give a coefficient `-1` from
+`o=dx0 gamma1` to `dx1 gamma01`, outside K236's `span{o,E}`. Therefore the
+rank-two normal-symbol star is not a common invariant subspace of this
+selected principal-symbol family. Selected outside coefficients of `N1(E)`
+are `12` at `dx0 gamma0` and `10` at both `dx2 gamma2` and `dx13 gamma13`;
+the latter include reverse-only contributions. The separate replay verifies
+ordered forward/reverse values and wrong-normal/channel/omitted-spoke
+controls. Neither script claims an exhaustive full-grade tangential matrix.
+
+This excludes only this two-dimensional local reduction. A larger invariant
+hull, lower-order action, another source-admissible Shiab and a common
+stationary full-fermion domain remain unresolved. SC-ACT-01/02 (`ASSERTS`),
+SC-META-53 (`UNCERTAIN`), LT-GR6b/LT-SM8 (`NEEDS`), K234/K224/K229/K215,
+the physics ledger, canon and public posture do not move. No spectrum,
+physical instability or novelty claim follows.
+
 ## K236 invariant twelve-spoke native I1B normal symbol (2026-09-18)
 
 K235's one odd/even pair is not invariant. In the full selected-Shiab

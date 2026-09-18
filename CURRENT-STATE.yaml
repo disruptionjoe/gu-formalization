@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 34f4dc28239a1ad52c952f37d781871ce6187cc2
+revision_basis: 40d3739014b1463b8fcab8b78a40b583bfdee76c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K237 tests K236's rank-two invariant star against the same selected I1B
+    principal coefficient at tangential dx1. Exact ordered Clifford/exterior
+    contractions give an outside coefficient -1 from o=dx0 gamma1 to
+    dx1 gamma01; the collective even E has selected outside coefficients
+    12 at dx0 gamma0 and 10 at dx2 gamma2 and dx13 gamma13. An independent
+    ordered replay checks reverse contributions and wrong-normal/channel
+    and omitted-spoke controls. This particular rank-two star is not a
+    common invariant principal-symbol subspace for this selected Shiab.
+    A larger hull, source operator, stationary fermion domain, quotient or
+    physical mode is not excluded. K234/K224/K229 signed integration and the
+    a/c atlas remain open; source, ledger, canon and public posture do not move.
+
     K236 completes K235's source-facing mixed-grade mode at frozen normal:
     its single Cl1/Cl2 pair was not invariant. The selected I1B Shiab sends
     o=dx0 gamma1 to minus the sum E of twelve even dxj gamma1 gammaj spokes,
