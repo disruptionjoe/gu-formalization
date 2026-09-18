@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K232 projected quartic sum of squares
+
+- `channel-swings/k232_order_six_quartic_sos.py` expands all 45 disjoint-pair
+  square products and checks their exact 90-monomial equality to K231's
+  universal quartic shape, retaining its prior input hash.
+- `channel-swings/k232_order_six_quartic_sos_probe.py` independently evaluates
+  the centered-moment identity, equality cases and translation invariance
+  on 729 small-integer tuples and rejects a missing-pairing mutation.
+  Neither script bounds the variable coefficient or a fifth-order remainder.
+
+```sh
+python3 tests/channel-swings/k232_order_six_quartic_sos.py
+python3 tests/channel-swings/k232_order_six_quartic_sos_probe.py
+```
+
 ## K231 projected common-diagonal jets
 
 - `channel-swings/k231_order_six_projected_diagonal_jet.py` combines K225's

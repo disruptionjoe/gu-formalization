@@ -1,0 +1,18 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k231": "9ffbe8912c7c47f4f4e4a4c84bdcea71d0b40a48e114780232f8159d75e95c1f"
+  },
+  "object": "The universal six-variable homogeneous quartic shape P in K231's S6-projected K185/K218 signed rational-cosh core, not its coefficient A or its full integrand",
+  "identity": "P=m22-m211/2+m1111=(1/12) sum_{i<j<k<l}[(x_i-x_j)^2(x_k-x_l)^2+(x_i-x_k)^2(x_j-x_l)^2+(x_i-x_l)^2(x_j-x_k)^2]",
+  "centered_identity": "With y_i=x_i-(sum_j x_j)/6, p_r=sum_i y_i^r, P=(7 p_2^2-10 p_4)/8. It follows by expanding m22,m211,m1111 at sum_i y_i=0 and Newton's fourth elementary-symmetric identity, together with the translation invariance evident from the SOS.",
+  "square_count": 45,
+  "monomial_count": 90,
+  "finite_control_count": 729,
+  "zero_set": "P>=0 and P=0 exactly when at least five of the six coordinates agree. If every disjoint pair of unequal-coordinate edges is absent, choose an unequal pair a,b. The other four vertices must share a value t; otherwise their unequal edge is disjoint from a,b. If both a and b differed from t, their edges to two distinct remaining vertices would be disjoint. Thus at most one exceptional coordinate remains. The converse follows termwise.",
+  "local_spread_bound": "If Delta=max_i x_i-min_i x_i, then 0<=P<=45 Delta^4/12=15 Delta^4/4 by the 45 nonnegative square products. This is a deliberately loose bound on the quartic shape, not on the full rational core.",
+  "two_to_three_ratio": "3/2",
+  "finite_coefficient_control": "At K231's exact u=5/4,v=17/8,b=1, A is positive because the two-coordinate fourth coefficient equals A*P(1,1,0,0,0,0)=A>0. The three-coordinate coefficient equals (3/2)A. Neither control establishes the sign of A at other positive u,v,b.",
+  "claim_ceiling": "Exact universal SOS, nonnegativity, zero set and translation invariance of K231's quartic shape, plus an inherited finite positive coefficient at one point. No global sign for A, uniform fifth-order remainder, complete projected rational integrand sign, third-shell integral/cost, K215, boundary composition, source/physics/ledger/canon change."
+}

@@ -7,6 +7,39 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K232 nonnegative shape of the projected quartic jet (2026-09-18)
+
+K231's six-variable projected quartic is `A(u,v,b)P(x)`, where
+`P=m22-m211/2+m1111`. It has the exact sum-of-squares form
+
+`12P = sum_{i<j<k<l} [(x_i-x_j)^2(x_k-x_l)^2 + (x_i-x_k)^2(x_j-x_l)^2 + (x_i-x_l)^2(x_j-x_k)^2]`.
+
+Expanding the 45 squared products gives all 90 monomials of K231's
+normal form: each `x_i²x_j²` has coefficient 1, each
+`x_i²x_jx_k` coefficient `-1/2`, and each squarefree degree-four
+term coefficient 1. Thus `P>=0`, translation invariant, and zero
+exactly when at least five coordinates are equal. Indeed a zero has
+no two disjoint unequal-coordinate pairs. Given one unequal pair, all
+four remaining coordinates agree; both endpoints cannot differ from
+that common value without producing disjoint unequal pairs. Centering
+`y_i=x_i-mean(x)` also yields `P=(7(sum y_i²)^2-10 sum y_i^4)/8`.
+The exact coefficient expansion is checked by one script; a separate
+729-point small-integer replay checks the centered identity, zero set,
+translation invariance and a missing-pairing mutation. The algebraic
+expansion, not the finite sample, proves the universal identity.
+
+At K231's single rational `u,v,b` witness, `A>0`: the two-coordinate
+fourth coefficient equals `A`, and the three-coordinate one is `3A/2`.
+The SOS gives `0<=P<=15 Delta^4/4` for coordinate spread `Delta`,
+but neither a global sign or bound for `A` nor a uniform fifth-order
+remainder follows. In particular, the full projected core need not be
+nonnegative; this result does not narrow K229's third-shell upper,
+K224's headroom or K215. The original unsymmetrized core, distinct
+boundaries, source SC-ACT-01/02 (`ASSERTS`), SC-META-53
+(`UNCERTAIN`), physics ledger, canon and inherited full-rule
+`<9.683e-7` bound do not move. Reproduce with K232 scripts in
+`tests/README.md`.
+
 ## K231 projected common-diagonal jet cancellation (2026-09-18)
 
 Let `Hbar` be K230's `S6` average of the original K185/K218 signed core,
