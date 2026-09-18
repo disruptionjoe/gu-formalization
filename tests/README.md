@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K220 signed Taylor auxiliary-cell enclosure
+
+- `channel-swings/k220_order_six_signed_taylor_cell_enclosure.py` keeps
+  K218's exact signed center and gradient, bounds its Hessian termwise at
+  the lower cosh corner and intersects the resulting Taylor interval with
+  K219. Three rational cells show strict local width gains, not full cubature.
+- `channel-swings/k220_order_six_signed_taylor_cell_enclosure_probe.py`
+  independently traverses 1,864 raw terms with product-polynomial
+  derivatives, checks exact points, a shared-load Hessian omission and
+  K218's alternating normalization.
+
+```sh
+python3 tests/channel-swings/k220_order_six_signed_taylor_cell_enclosure.py --write
+python3 tests/channel-swings/k220_order_six_signed_taylor_cell_enclosure_probe.py
+```
+
 ## K219 signed auxiliary-cell enclosure
 
 - `channel-swings/k219_order_six_signed_auxiliary_cell_enclosure.py` proves

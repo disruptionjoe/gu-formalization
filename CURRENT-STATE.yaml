@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e4f5f513ed0c62247914531401f1b45f47b26349
+revision_basis: 153b5651ed82178fb08be715cd8feb6dc0dc8160
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K220 bounds the exact K218 eight-auxiliary signed core on any
+    nonnegative rectangular cosh cell by its exact center value and signed
+    first derivatives plus a rational termwise Hessian remainder. The
+    independent raw 1,864-term polynomial-gradient probe, point inclusion,
+    shared-load second-derivative and K218 sign controls pass. Intersecting
+    with K219's corner interval narrows width to about 0.001465, 0.01503 and
+    0.03407 of K219 on a small inner, full K219 inner and alternating shifted
+    pilot, respectively. This is a local signed correlation certificate, not
+    a whole-middle-box cover, global node-cost result or accurate prefix.
+    On the full K217 inner box, the K220 symmetric interval and pi>3 give
+    a rigorous absolute bound below 1.630e-24, improving K217's
+    1.914e-23 ceiling. Quotient/common-reference/coalescent boundaries and
+    source or physics status remain unchanged; the inherited full-domain 9.683e-7
+    ceiling remains.
+
     K219 supplies exact rational signed-cell enclosures for K218's
     eight-auxiliary integrand, retaining every K185 sign and off-diagonal
     doubling. On a nonnegative rectangular time cell, each reciprocal
@@ -7974,11 +7989,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K219 gives a certified local rational signed-cell enclosure of K218's
+  K220's signed Taylor cell rule strictly improves K219 on three rational
+  cells, including a mixed shifted cell, while retaining an unsigned
+  lower-corner Hessian remainder. Can a cancellation-aware second derivative
+  or an adaptive cost pilot extend this improvement through the K215 middle
+  region without losing signed accuracy? The finite pilots prove neither a
+  whole-box cover nor a necessary node count.
+
+  K219 remains a certified local rational signed-cell enclosure of K218's
   eight-auxiliary expression, but identical-allocation aggregation does not
-  narrow any endpoint interval. Can a determinant-correlated or signed
-  derivative enclosure make adaptive middle-box coverage tractable? The pilot
-  is not a whole-box cost theorem or complete signed integral.
+  narrow any endpoint interval. K220 answers its signed-derivative local
+  discriminator affirmatively on the tested cells, not the adaptive
+  middle-box coverage or complete signed integral.
 
   K218 removes the angular simplex exactly for the K185/K213 raw terms and
   exposes an eight-auxiliary rational-cosh signed integrand. Can its
@@ -8023,11 +8045,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Use K219's proven local cell rule as a baseline and test a
-  determinant-preserving signed derivative or correlated enclosure on mixed
-  cells before attempting whole-middle-box adaptive coverage. Identical-mask
-  aggregation alone has no endpoint-width gain on any cell; do not
-  infer a global node-cost floor from this result. Compose K185/K188 quotient and
+  Use K220's exact signed-gradient Taylor rule and K219's corner rule as
+  intersected local baselines. Test a cancellation-aware Hessian enclosure
+  or a bounded adaptive middle-region cost pilot before whole-box claims;
+  K220's three local width gains are not a global node-cost result. Identical-mask
+  aggregation alone has no endpoint-width gain. Compose K185/K188 quotient and
   K204/K209 reference boundaries separately. Do not
   rerun K216's angular series as the route to full-box accuracy; K217's
   inner-box and K215's positive tail retain their exact limited scopes.

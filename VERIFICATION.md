@@ -7,6 +7,36 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K220 signed Taylor auxiliary-cell enclosure (2026-09-17)
+
+For K218's exact signed rational-cosh core `H(c)=sum_A w_A q_A(c)`, K220
+retains the exact signed center value and gradient on a nonnegative cosh
+rectangle. If `q_A=prod_i a_i^-1`, `a_i=256+sum_j m_Aji c_j`, and
+`L_Aj=sum_i m_Aji/a_i`, then
+`d_jd_k q_A=q_A(L_Aj L_Ak+sum_i m_Aji m_Aki/a_i^2)`.
+All nonnegative factors decrease as any coordinate grows. Replacing them by
+their lower-corner values bounds the absolute Hessian over the cell, while
+Taylor's integral remainder bounds the signed core around its midpoint by
+the signed linear radius plus half the termwise Hessian quadratic radius.
+Intersect with K219's corner interval, then multiply by its exact positive
+product-cosh cell measure and common `2^8*256^6/(5! pi^8)` factor. Shared
+denominator loads are retained in the Hessian formula.
+
+The exact interval-width ratios to K219 are about `0.0014645122` on
+`[0,log(5/4)]^8`, `0.015032356` on `[0,log(2)]^8`, and `0.034066519`
+on K219's alternating shifted cell. For the complete `[0,log(2)]^8`
+inner box, K220's exact symmetric interval and `pi>3` give an absolute
+bound below `1.630e-24`, strictly sharper than K217's `<1.914e-23`.
+A separate raw 1,864-term polynomial
+gradient traversal checks signed centers, five rational points per cell,
+the shared-load diagonal Hessian control and K218's alternating sign/scale.
+These are local bounds, not a certified whole middle-box integration or
+cost estimate. K215's positive tail and
+K185/K188 quotient, K204/K209 reference and coalescent boundaries remain
+distinct; no accurate prefix or SC-ACT-01/02 (`ASSERTS`), SC-META-53
+(`UNCERTAIN`) or physics-ledger move follows. Reproduce with the K220
+producer and probe in `tests/README.md`.
+
 ## K219 exact signed auxiliary-cell enclosure (2026-09-17)
 
 For any nonnegative rectangular time cell, K218's signed rational-cosh core
