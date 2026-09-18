@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K226 global-anchor third-shell cost obstruction
+
+- `channel-swings/k226_order_six_global_anchor_obstruction.py` evaluates
+  fifteen exact rational lower witnesses on the *integral of K225's fixed
+  b=1 positive majorant*. Each separately exceeds K224's remaining budget;
+  a locally reanchored all-high cube has a separate small certified upper.
+- `channel-swings/k226_order_six_global_anchor_obstruction_probe.py`
+  independently reconstructs all 1,864 raw entries, ordered-pair shared
+  loads, both exact weighted comparisons and pi controls. The original signed integral and
+  alternative enclosures are not bounded below by this result.
+
+```sh
+python3 tests/channel-swings/k226_order_six_global_anchor_obstruction.py --write
+python3 tests/channel-swings/k226_order_six_global_anchor_obstruction_probe.py
+```
+
 ## K225 common-cosh cancellation
 
 - `channel-swings/k225_order_six_diagonal_cancellation.py` groups the

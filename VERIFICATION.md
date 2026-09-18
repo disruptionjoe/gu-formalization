@@ -7,6 +7,42 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K226 fixed global-anchor majorant obstruction (2026-09-18)
+
+For each of the fifteen pairs `2<=j<k<=7`, take the third-shell subbox
+`t_j,t_k in [log(4),log(5)]` and all six other auxiliary coordinates in
+`[0,log(4)]`. K225's nonnegative, fixed `b=1` mixed-Hessian majorant
+contains the `j,k` summand. Its Hessian bound decreases in `c_0,c_1`,
+so on this subbox it is at least its exact rational value at
+`(c_0,c_1,c_2,...,c_7)=(17/8,17/8,1,...,1)`. Both anisotropy factors
+are at least `9/8`; the positive product-cosh weight integrates exactly
+to `(15/8)^6(12/5-15/8)^2`. The elementary positive integral
+`int_0^1 x^4(1-x)^4/(1+x^2) dx=22/7-pi` supplies `pi<22/7`.
+Multiplying by K218's `2^8*256^6/5!` shows that each pair subbox
+alone gives a strict lower bound on the *integral of the positive
+majorant* exceeding K224's exact remaining `1.7933e-22` allocation;
+the smallest ratio is over `1.6359` (pair `3,7`). All 15 exact rational
+inequalities are replayed by an independently written ordered-pair
+derivative traversal over K185's 1,864 original signed terms with
+absolute coefficients, correct off-diagonal doubling and outer weight.
+
+This eliminates the fixed global `b=1` unsigned K225 majorant as a
+standalone certificate for that allocation: repartitioning and exactly
+integrating the *same nonnegative function* cannot reduce its integral.
+On the distinct all-high cube `[log(4),log(5)]^8`, reanchor at
+`b=cosh(log4)=17/8`: the pairwise majorant, exact sinh weight and
+K224's `pi>31/10` give a separate rational upper `<4.287e-25`,
+under 0.24% of headroom and over fourteen times tighter than the
+fixed-global upper on that same cube. Independent raw-term replay also
+checks this positive pilot. It does not cover the mixed third-shell bands.
+
+The obstruction is **not** a lower bound on the signed K218 integrand, not a necessary
+node-count result, and does not exclude signed-Hessian enclosures,
+K221 intersections, local reanchoring or a different budget. K215's
+farther region and coalescent/quotient/reference composition remain
+open; SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`), physics ledger
+and canon do not move. Reproduce with the K226 scripts in `tests/README.md`.
+
 ## K225 exact common-cosh cancellation (2026-09-18)
 
 Let `H(c)` be K218's original 1,864-term signed rational-cosh core,

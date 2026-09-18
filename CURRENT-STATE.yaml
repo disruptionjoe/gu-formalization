@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c10ce198c13eb2c55b33cd05abfaef57bae60077
+revision_basis: 7c41eb5cce1ca228a2c157966560c96f26391e1c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K226 integrates a rigorous lower bound on K225's nonnegative fixed
+    global b=1 mixed-Hessian majorant over fifteen pair-specific rational
+    subboxes of the third auxiliary shell. Every one separately exceeds
+    K224's remaining 1.7933e-22 allocation; the weakest is over 1.6359
+    times that headroom. An independent 1,864-term ordered-pair traversal
+    checks each exact inequality and the elementary pi<22/7 control.
+    Subdivision alone cannot repair the integral of this SAME positive
+    global-anchor majorant. Reanchoring at cosh(log4) on the all-high
+    [log4,log5]^8 cube gives a separate exact upper below 4.287e-25,
+    roughly fourteen times tighter than the global-anchor upper on that
+    cube, but leaves mixed third-shell cells uncovered. This does not
+    lower-bound the signed integral,
+    rule out K221 intersections, signed Hessian or locally reanchored
+    bounds, or settle farther K215/coalescent/quotient/reference regions.
+    Source, physics ledger, canon and inherited full-domain ceiling do
+    not move.
+
     K225 proves exact coefficientwise cancellation of K218's original
     signed rational-cosh core whenever c_2,...,c_7 share a common value
     except at most one coordinate, with c_0,c_1 arbitrary. All seven
@@ -8061,6 +8078,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K226 rejects K225's fixed global b=1 unsigned majorant as a standalone
+  third-shell allocation: each of fifteen weighted pair-subbox lower
+  witnesses exceeds the 1.7933e-22 headroom. Can signed Hessian
+  correlations, K221 intersections or locally reanchored positive
+  majorants yield a certified adaptive far-field remainder? The
+  obstruction concerns the bound being integrated, not the original
+  signed core, so neither a node-cost theorem nor an integral verdict
+  follows. The all-high locally reanchored cube is a positive pilot
+  below 0.24 percent of headroom, not a full-shell certificate.
+
   K225's exact common-cosh cancellation reduces the core to pairwise
   anisotropy among coordinates 2..7 even with arbitrary c_0,c_1.
   Can its mixed-derivative majorant be integrated or sharpened by
@@ -8132,13 +8159,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Test K225's anchored pairwise mixed-derivative expression against
-  exact weighted far-field cells and their cost. Retain the signed
-  Hessian where possible and prove an integrated remainder before
-  claiming any of the still-uncovered 1.7933e-22 headroom. A two-
-  exception rational point is nonzero, so the core is not identically
-  zero. Native I1B full fermion and farther a/c atlas remain independent
-  alternatives under their own typed inputs and resource constraints.
+  Do not repeat K225's fixed global b=1 unsigned bound with more tiling:
+  K226 proves its third-shell integral already exceeds the remaining
+  allocation. K226's all-high locally reanchored cube is inexpensive;
+  extend that principle to mixed bands with a signed-Hessian-intersected
+  rule and an exact whole-shell bound-to-cost, or rerank to native I1B full fermion
+  and farther a/c atlas under their own typed inputs and resources.
+  No part of K226 bounds the signed core itself, covers K215 or composes
+  the separate coalescent, quotient and reference boundaries.
 
   K224's full second-shell eight-cell and 64-candidate finite test
   certifies a 16-cell upper below 8.073e-22 using pi>31/10; K221's
