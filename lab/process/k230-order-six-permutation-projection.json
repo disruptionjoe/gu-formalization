@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+  "object": "Original signed 1,864-term K185/K218 rational-cosh core, without positive measure or pi^-8",
+  "group": "S6 permutes coordinates c2..c7, fixing c0,c1 and each of fourteen unordered affine denominator factors",
+  "projection_identity": "For every S6-invariant measurable domain D and S6-invariant positive product-cosh density W, integral_D W H equals integral_D W (1/720) sum_p H(c0,c1,c_(2+p0),...,c_(2+p5)), whenever either integral is defined. Change of variables proves this exactly; it is not a pointwise identity H=projection(H).",
+  "orbit_rule": "Encode each factor as an eight-bit incidence mask of its affine load 256+sum_j bit_j*c_j. Sort fourteen factors after each of 720 column permutations and choose the lexicographically smallest tuple. All source terms in one orbit project to the same orbit-average rational function, with coefficient equal to their signed integer weight sum. A zero sum cancels that complete orbit as a rational-function identity.",
+  "raw_signed_terms": 1864,
+  "orbit_count": 307,
+  "zero_coefficient_orbits": 0,
+  "retained_orbits": 307,
+  "expanded_distinct_denominator_functions": 219600,
+  "orbit_size_histogram": {
+    "360": 4,
+    "720": 303
+  },
+  "orbit_coefficient_manifest_sha256": "10c9d7b4fe2b980d994a027486e4320f0c13e2212f9908d66c69d1a9cf8bd12c",
+  "rational_witness": {
+    "coordinates": [
+      "5/4",
+      "17/8",
+      "1",
+      "5/4",
+      "3/2",
+      "17/8",
+      "2",
+      "9/4"
+    ],
+    "original_sign": 1,
+    "projected_sign": 1,
+    "original_sha256": "83ebd1ddf7e4774dcf898f9efb67a20e1dd192ba4fae99c9c2073b6011f2c90a",
+    "projected_sha256": "cb31731454adca00c3a31ffd04ea86394272b8bb501a907eabff5df4b211cab1",
+    "projected_over_original": "22943343702597014264681847331781053063673311639296908016109707724914573215750845302283646270944272639491559312540942230472241351067979942888303257419071239490685537248007971987222484437760050943369002272993370620949141427040010252939312630040554479399624139481/107408417943716424425285685054359281783342164250376380089391581341844163857426256493983068454686252485970065634615290183199527856309487769704157805106375916824062017527181071815163313956495263413408070978126376901313355497640633050664161051460132141040029488415200"
+  },
+  "claim_ceiling": "Exact S6 projection and coefficientwise orbit cancellation on invariant domains; nonzero finite rational projected witness. No signed whole-shell enclosure, integral value, necessary node cost, K215 or separate boundary composition, source/physics/ledger/canon effect. The witness ratio is local, not a uniform reduction factor."
+}

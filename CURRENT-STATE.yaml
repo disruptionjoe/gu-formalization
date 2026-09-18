@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bb94fece1390d2183101fe8a970181afbd66ef7f
+revision_basis: 2b599cb04b5ee26d3016e7c1a56d5c9a54c7e9ee
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K230 projects K185/K218's original signed core under all 720 permutations
+    of the six auxiliary coordinates 2..7. The symmetric third shell and
+    product-cosh measure preserve its integral under this exact projection.
+    Coefficientwise grouping of unordered fourteen-factor denominator orbits
+    finds 307 orbits, every one with nonzero signed aggregate; their explicit
+    expansion has 219,600 distinct denominator functions. An independent raw
+    traversal reproduces the orbit manifest and a nonzero exact rational
+    projected witness (projected/original about 2.136e-4 at that point), and
+    detects a hostile sign mutation. Thus permutation averaging alone deletes
+    no entire denominator orbit and gives no cheap termwise third-shell
+    certificate. The local ratio is not a uniform cancellation bound; other
+    signed correlation or representation may yet work. K215, separate
+    boundaries, source, physics ledger, canon and inherited full-rule ceiling
+    are unchanged.
+
     K229 tests the entire third auxiliary shell [0,log(5)]^8 minus
     [0,log(4)]^8 with the original signed K185 core and K221 intersected
     cell enclosure. Its eight first-exceeding cells give an absolute upper
@@ -8114,6 +8129,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K230's S6 projection preserves the symmetric-shell integral but retains all
+  307 denominator orbits, with 219,600 functions in naive expansion. Can a
+  genuinely correlated signed enclosure or compact orbit evaluation deliver
+  a third-shell bound below K224's 1.7933e-22 headroom without paying for that
+  expansion? A single rational witness with strong cancellation supplies no
+  uniform error or integral estimate; rerank native I1B and a/c atlas on
+  their own typed prerequisites.
+
   K229's complete third-shell first-exceeding 8/16-cell K221 certificate
   improves on subdivision but remains 81.83 times K224's headroom. Can a
   genuinely correlated signed higher-interaction or locally reanchored
@@ -8217,6 +8240,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K230 gives no zero S6 denominator orbit: do not claim symmetry annihilates
+  the signed third shell or expand 219,600 functions for a naive termwise
+  bound. Seek a compact correlation-aware projected enclosure with a proved
+  cost advantage, locally reanchored mixed-band control, or the separately
+  typed I1B full-fermion/a-c atlas alternatives. Its finite witness ratio is
+  not an integral bound.
+
   K229's selected 16-cell K221 third-shell certificate is too wide for the
   remaining allocation; do not rerun its fixed 64 one-axis candidate family
   as if more output precision changed that. Seek signed higher-interaction

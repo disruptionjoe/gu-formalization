@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K230 exact six-coordinate permutation projection
+
+- `channel-swings/k230_order_six_permutation_projection.py` groups the
+  original signed K185 denominator factors into S6 orbits and checks a
+  nonzero exact rational projected witness. All 307 orbits survive; a naive
+  expansion has 219,600 distinct denominator functions.
+- `channel-swings/k230_order_six_permutation_projection_probe.py`
+  independently traverses original allocations, replays the manifest and
+  rational permutation average, and rejects an original-sign mutation.
+  Integral invariance does not imply a third-shell bound.
+
+```sh
+python3 tests/channel-swings/k230_order_six_permutation_projection.py --write
+python3 tests/channel-swings/k230_order_six_permutation_projection_probe.py
+```
+
 ## K229 complete third-shell finite signed-cell stress
 
 - `channel-swings/k229_order_six_third_shell_signed_cost_stress.py` computes

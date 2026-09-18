@@ -7,6 +7,32 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K230 six-coordinate permutation projection (2026-09-18)
+
+On any domain invariant under permutations of coordinates `2..7`, with the
+K218 product-cosh measure, change of variables equates the original signed
+integral with the integral of the 720-permutation average of its original
+1,864-term K185 rational core. Encoding each of fourteen affine denominator
+factors by its eight-bit coordinate incidence, and grouping the unordered
+factor multisets into `S6` orbits, gives exactly 307 orbits. None has zero
+aggregate signed coefficient. Explicitly expanded, those orbits contain
+219,600 distinct denominator functions (303 orbits of 720, four of 360).
+This is an algebraic coefficientwise result, not a proof that no other
+rational identity or signed analytic bound exists.
+
+An independent raw K185 traversal checks the exact orbit coefficient manifest,
+recomputes the 720-term rational average at a declared point and rejects a
+hostile original-sign mutation. The projected core is nonzero there and its
+ratio to the unprojected core is approximately `2.136e-4`. That local ratio
+does not bound the core uniformly or its signed integral. Symmetry alone
+therefore removes no complete denominator orbit and naive termwise expansion
+is a poor cost route; compact evaluation or a genuinely signed, correlated
+enclosure remains open. There is no third-shell/K215 bound, necessary node
+count, coalescent/quotient/reference composition, improvement on the inherited
+full-rule `<9.683e-7` bound, or source SC-ACT-01/02 (`ASSERTS`),
+SC-META-53 (`UNCERTAIN`), ledger or canon movement. Reproduce with K230 scripts
+in `tests/README.md`.
+
 ## K229 third-shell signed-cell cost stress (2026-09-18)
 
 The exact first-exceeding partition of `[0,log(5)]^8` minus
