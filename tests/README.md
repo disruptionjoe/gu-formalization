@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K231 projected common-diagonal jets
+
+- `channel-swings/k231_order_six_projected_diagonal_jet.py` combines K225's
+  exact single-exception identities with K230's `S6` projection to prove
+  vanishing through cubic order and a one-dimensional quartic normal form
+  on the common-cosh diagonal. It computes exact orbit-direction jets and
+  nonzero fourth-order controls.
+- `channel-swings/k231_order_six_projected_diagonal_jet_probe.py` traverses
+  raw K185 entries and independently recomputes those jets using Newton
+  power sums, exact hashes, and a hostile sign mutation. This is local
+  algebra, not a third-shell enclosure.
+
+```sh
+python3 tests/channel-swings/k231_order_six_projected_diagonal_jet.py
+python3 tests/channel-swings/k231_order_six_projected_diagonal_jet_probe.py
+```
+
 ## K230 exact six-coordinate permutation projection
 
 - `channel-swings/k230_order_six_permutation_projection.py` groups the

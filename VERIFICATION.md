@@ -7,6 +7,49 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K231 projected common-diagonal jet cancellation (2026-09-18)
+
+Let `Hbar` be K230's `S6` average of the original K185/K218 signed core,
+fix arbitrary positive `c0=u,c1=v`, and put `c2=...=c7=b>=1`. Every
+exceptional-coordinate Taylor derivative of total order at most three of
+`Hbar` vanishes there. K225 proves exact zero on the common diagonal and
+every one-exception line; `S6` symmetry makes all off-diagonal second jets
+equal. Differentiating the common-diagonal zero twice kills that second
+jet. Differentiating the pure second jet along the common diagonal kills
+every repeated-index third jet; differentiating the mixed second jet along
+it then kills every distinct-index third jet. The positive affine loads
+make this an ordinary local rational Taylor statement, not a formal-series
+assumption.
+
+The entire homogeneous quartic jet is one-dimensional. For `x_j=c_j-b`, let
+`m22=sum_{j<k} x_j²x_k²`,
+`m211=sum_j sum_{k<l, k,l!=j} x_j²x_kx_l`, and
+`m1111=sum_{j<k<l<m} x_jx_kx_lx_m`. It equals
+`A(u,v,b)(m22-m211/2+m1111)`. Single-exception zeros eliminate pure and
+`(3,1)` monomials; two common-diagonal derivatives of the pure second jet
+fix the `m211` coefficient, and the diagonal zero fixes `m1111`.
+
+At `u=5/4,v=17/8,b=1`, exact averages over all 6 single-, 15 double-,
+and 20 triple-coordinate unit-perturbation subsets have zero coefficients
+through degree three. The fourth coefficient is exactly nonzero and
+positive for the double and triple orbits (approximately `1.89917e-41`
+and `2.84875e-41` in the unscaled core), with exact ratio `3/2` as the
+quartic normal form requires. A separate raw K185 traversal
+uses Newton power sums rather than the producer's factorwise series,
+reproduces exact fourth-coefficient hashes, and detects a hostile sign flip.
+The prior K230 rational witness also keeps the projection nonzero away from
+the diagonal. This is internal algebraic verification; the two arithmetic
+implementations share K185 input, while the general zero-jet proof follows
+from the K225 identities and symmetry.
+
+This quartic normal form is a potential local correlation for reanchored cells,
+not a fourth-derivative supremum, uniform anisotropy estimate, or third-shell
+bound-to-cost result. It neither reduces K229's `81.83` headroom ratio nor
+certifies K215, separate boundaries, or an accurate order-six prefix. The
+inherited full-rule `<9.683e-7`, source SC-ACT-01/02 (`ASSERTS`),
+SC-META-53 (`UNCERTAIN`), physics ledger and canon remain unchanged. Reproduce
+with the K231 scripts in `tests/README.md`.
+
 ## K230 six-coordinate permutation projection (2026-09-18)
 
 On any domain invariant under permutations of coordinates `2..7`, with the

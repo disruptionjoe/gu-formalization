@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K231 proves that K230's S6-projected original K185/K218 signed core has
+    zero exceptional-coordinate Taylor jets through cubic order on every
+    common-cosh diagonal for arbitrary positive c0,c1,b. Its quartic jet
+    has one invariant coefficient multiplying m22-m211/2+m1111. K225's exact
+    single-exception identities and S6 symmetry imply this; independent
+    raw-entry Newton-series replay confirms the low jets and positive nonzero
+    fourth coefficients at a declared rational point for two- and
+    three-coordinate perturbations with exact ratio 3/2. This local quartic
+    normal form is no
+    uniform fourth-derivative enclosure or weighted third-shell estimate.
+    K229's 81.83-times-headroom finite upper, K215, boundaries, source,
+    physics ledger, canon and full-rule ceiling remain unchanged.
+
     K230 projects K185/K218's original signed core under all 720 permutations
     of the six auxiliary coordinates 2..7. The symmetric third shell and
     product-cosh measure preserve its integral under this exact projection.
@@ -8129,6 +8142,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K231 proves fourth-order onset of K230's S6-projected signed core near the
+  common-cosh diagonal. Can a rigorously bounded fourth derivative and a
+  compact symmetry-aware/reanchored cell rule turn this local correlation into
+  a viable complete third-shell bound below K224's 1.7933e-22 headroom?
+  Two positive fourth coefficients at one rational point are neither a
+  uniform remainder nor an integral estimate. Rerank I1B full fermion and
+  the a/c atlas if the local-to-shell cost remains unfavorable.
+
   K230's S6 projection preserves the symmetric-shell integral but retains all
   307 denominator orbits, with 219,600 functions in naive expansion. Can a
   genuinely correlated signed enclosure or compact orbit evaluation deliver
@@ -8240,6 +8261,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K231's quartic local onset gives no third-shell enclosure. The next
+  discriminator must bound its fourth-order remainder uniformly over an
+  explicitly covered reanchored cell family and compare certified error
+  against evaluation cost and the exact K224 headroom. If no viable bound
+  emerges, switch to the separately typed native I1B full-fermion or farther
+  a/c atlas route. Do not reuse a local jet or finite sign as an integral.
+
   K230 gives no zero S6 denominator orbit: do not claim symmetry annihilates
   the signed third shell or expand 219,600 functions for a naive termwise
   bound. Seek a compact correlation-aware projected enclosure with a proved

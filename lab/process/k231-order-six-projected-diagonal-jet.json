@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k225": "dd7e5f358da7a79217023c84feee9ba0e5b83e5e19d149a33c3c936dec64847d",
+    "k230": "e2b7c9a8af209d8dbde37a2c97a6a22aa654ec8e5bdc1187e3a46a1edcc89244"
+  },
+  "object": "S6-projected original signed K185/K218 rational-cosh core Hbar, with c0,c1 fixed",
+  "theorem": "For arbitrary positive u,v,b and all multi-indices of total degree at most three in c2..c7, every derivative of Hbar at (u,v,b,b,b,b,b,b) is zero. K225 gives Hbar=0 on the common diagonal and each one-exception slice, so all pure derivatives vanish. Symmetry makes the mixed second derivatives equal; differentiating the diagonal zero twice makes them zero. Differentiating the pure second derivative along the common diagonal kills each repeated-index third derivative; differentiating the mixed second along that diagonal then kills each all-distinct third derivative. The rational denominators are positive there, so the local Taylor expansion exists.",
+  "quartic_normal_form": "With x_j=c_j-b for j=2..7 and symmetric monomial sums m22=sum_(j<k)x_j^2*x_k^2, m211=sum_j sum_(k<l; k,l!=j)x_j^2*x_k*x_l, m1111=sum_(j<k<l<m)x_j*x_k*x_l*x_m, the homogeneous degree-four term is A(u,v,b)*(m22-m211/2+m1111). Pure fourth and (3,1) coefficients vanish on every one-exception slice and its common-diagonal derivatives. Differentiating the identically zero pure second jet twice along the common diagonal gives A=-2B for the m22 and m211 coefficients; vanishing on the full diagonal gives the m1111 coefficient A. This one-dimensional normal form is not a uniform sign or bound on Hbar.",
+  "exact_jet_point": [
+    "5/4",
+    "17/8",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1"
+  ],
+  "orbit_direction_controls": {
+    "1": {
+      "subset_size": 1,
+      "subsets": 6,
+      "degrees_zero_through_three": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "degree_four_sign": 0,
+      "degree_four_sha256": "5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9",
+      "degree_four_decimal": "0.000000000000e+00"
+    },
+    "2": {
+      "subset_size": 2,
+      "subsets": 15,
+      "degrees_zero_through_three": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "degree_four_sign": 1,
+      "degree_four_sha256": "8160cd47f2aa737a362b1fc815af19acae8426605fe7b5a67a2b2c613447fc30",
+      "degree_four_decimal": "1.899167923363e-41"
+    },
+    "3": {
+      "subset_size": 3,
+      "subsets": 20,
+      "degrees_zero_through_three": [
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      "degree_four_sign": 1,
+      "degree_four_sha256": "d1899fd8193d38083db326553cf9978911a26efc26002344e3012ac67c268fc2",
+      "degree_four_decimal": "2.848751885045e-41"
+    }
+  },
+  "projection_control": {
+    "prior_witness_projected_sha256": "cb31731454adca00c3a31ffd04ea86394272b8bb501a907eabff5df4b211cab1"
+  },
+  "claim_ceiling": "Exact vanishing through cubic order on the six-coordinate common-cosh diagonal and finite nonzero fourth-order rational control for the S6-projected core only. No uniform fourth derivative, cell bound, integrated third shell, K215 finite prefix, coalescent/quotient/reference composition, source/physics/ledger/canon change."
+}
