@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K224 second-shell cost stress
+
+- `channel-swings/k224_order_six_second_shell_cost_stress.py` certifies the
+  complete next shell by eight K221/K220-intersected cells and tests 64
+  rational one-axis midpoint choices, retaining 16 locally best children.
+- `channel-swings/k224_order_six_second_shell_cost_stress_probe.py` independently
+  checks all candidates, the partition, exact measures, 16 raw K185 signed
+  midpoints and hostile controls. An elementary `pi>31/10` proof makes
+  the selected second shell, and its composition with the K221 inner
+  and K223 first shell, fit below `10^-21`; the farther region remains.
+
+```sh
+python3 tests/channel-swings/k224_order_six_second_shell_cost_stress.py --write
+python3 tests/channel-swings/k224_order_six_second_shell_cost_stress_probe.py
+```
+
 ## K223 anisotropic first-shell midpoint-axis audit
 
 - `channel-swings/k223_order_six_anisotropic_first_shell.py` evaluates all

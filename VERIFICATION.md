@@ -7,6 +7,33 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K224 second-shell finite cost stress (2026-09-17)
+
+The complete shell `[0,log(4)]^8 minus [0,log(3)]^8` has an exact
+first-exceeding partition into eight cells. K221/K220-intersected rational
+intervals, exact product-sinh measures and `pi>3` give an absolute upper
+`<1.398e-21`. Across all eight rational midpoint-axis choices on each
+cell, the locally smallest two-child bounds choose axes
+`[2,2,5,5,5,6,7,2]`. The regular 12-gon gives
+`pi>3(sqrt(6)-sqrt(2))>3(2449/1000-1415/1000)>31/10` by squared
+rational controls. Their 16 cells then give `<8.073e-22`, 24.9% below
+the coarse bound of `1.0754e-21` with the same pi lower bound.
+Adding K223's disjoint first shell with this pi bound and K221's
+unchanged conservative inner-box bound gives `[0,log(4)]^8`
+`<8.207e-22`; over `1.793e-22` remains within a `10^-21` budget.
+An independent verifier replays all 64 intervals, 6,561 interior
+cover samples, exact measures, 16 original signed-term midpoints and
+hostile overlap/selection controls. The initial `pi>3` comparison
+gave `1.0494e-21` for the selected shell; treating that loose upper
+as a method failure was a false negative repaired before acceptance.
+
+This is a finite two-shell certificate, not a lower bound on the signed
+contribution, proof of required nodes, or a global adaptive cost result.
+The region onward to K215's `215 log(2)`, coalescent,
+K185/K188 quotient, K204/K209 reference, accurate full prefix, and
+SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`) and physics-ledger
+statuses remain open. Reproduce with the K224 scripts in `tests/README.md`.
+
 ## K223 anisotropic first-shell midpoint-axis audit (2026-09-17)
 
 On each of K222's eight disjoint first-exceeding cells, split one of eight

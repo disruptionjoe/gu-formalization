@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b96bf3509724fa0090996ab2ed2864ccd6ea1c63
+revision_basis: befe35f963537c0496f51b18e9a6d36148b0e783
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K224 certifies the complete second auxiliary shell
+    [0,log(4)]^8 minus [0,log(3)]^8 with eight first-exceeding
+    K221/K220-intersected cells. Its coarse absolute enclosure is below
+    1.398e-21 using pi>3. Testing all 64 single rational midpoint-axis
+    choices selects 16 cells. A regular-dodecagon proof of pi>31/10
+    sharpens their exact upper to below 8.073e-22, versus a coarse
+    eight-cell upper above 1.075e-21 using the same pi lower bound.
+    Triangle composition with K223's first shell and K221's inner cube
+    puts all [0,log(4)]^8 below 8.207e-22, leaving over 1.793e-22
+    of a 10^-21 finite-prefix budget. The original pi>3 comparison
+    would have falsely called the selected shell over budget. This is
+    a finite two-shell certificate, not a cover to K215's farther region,
+    necessary node count or complete signed prefix. Separate coalescent,
+    quotient and reference boundaries, inherited broad full-domain
+    ceiling and source/physics status remain unchanged.
+
     K223 exhausts 64 rational midpoint-axis candidates on K222's eight
     first-exceeding cells and selects one split per cell, still just 16 cells.
     The chosen axes 2,2,5,5,5,6,7,7 give an exact signed shell absolute
@@ -7411,6 +7427,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/k224-order-six-second-shell-cost-stress.json
+    - tests/channel-swings/k224_order_six_second_shell_cost_stress.py
+    - tests/channel-swings/k224_order_six_second_shell_cost_stress_probe.py
     - explorations/conditional-build/k172-continuum-first-block-graph-tail-wave-2026-09-09.md
     - lab/process/k172-continuum-first-block-graph-tail-wave.json
     - tests/channel-swings/k172_continuum_first_block_graph_tail.py
@@ -8028,6 +8047,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K224's exact 16-cell one-axis split on the second shell, with
+  pi>31/10, certifies the combined [0,log(4)]^8 contribution below
+  8.207e-22, leaving less than 1.794e-22 for all farther auxiliaries
+  in a 10^-21 finite-prefix budget. Can a determinant-correlated
+  remainder or certified adaptive rule control that much larger region
+  toward K215's sufficient 215 log(2)? Finite candidate optimality
+  gives no asymptotic or necessary node-cost theorem.
+
   K223's locally optimal rational midpoint axis choices improve K222's
   16-cell first-shell ceiling from below 2.071e-23 to below 1.748e-23.
   Can a determinant-correlated enclosure or a proven adaptive anisotropic
@@ -8084,6 +8111,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K224's full second-shell eight-cell and 64-candidate finite test
+  certifies a 16-cell upper below 8.073e-22 using pi>31/10; K221's
+  inner cube and K223's first shell give the combined [0,log(4)]^8
+  upper below 8.207e-22. Continue only with an explicit remaining
+  budget and a genuinely correlated or rigorously adaptive far-field
+  bound-to-cost rule; do not mistake pi>3's looser failed comparison
+  for a certificate impossibility. Preserve K215's farther region and
+  distinct coalescent, quotient and reference debts.
+
   Use K223's exact 64-candidate, 16-cell anisotropic first-shell result and
   K221/K220/K219 intersected local baselines. Determine whether a genuinely
   correlated remainder or a rigorously controlled adaptive far-field rule
