@@ -7,6 +7,49 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K238 global quantitative regularizer floor (2026-09-18)
+
+For K186's canonical positive ordered time-Gram quotient, the Laplace
+energy density of `2K1(z)` is `lambda/sqrt(lambda²-1)>1` on `lambda>1`.
+The two exponential determinants in Andreief have the same sign, so
+measure domination by shifted flat density is valid before integration.
+The latter determinant is exactly the Cauchy determinant times
+`exp(-sum T-sum U)`. Thus `R_m>exp(-sum T-sum U)` for distinct positive
+times; confluent positive limits retain `>=`. For the original K186
+`rho<=1/4` positive angular core and `m<=3`, this yields
+`R_m>=exp(-m/4)>=exp(-3/4)`, independent of a/c shape. K186 already knew
+strict positivity; K238 supplies a quantitative global constant.
+
+Precisely, for `m=1,2,3`, canonical similarly ordered positive row times
+`T_i` and column times `U_j` with every sum positive, set
+`R_m=det[2K1(T_i+U_j)]/det[2/(T_i+U_j)]`. The K186 Laplace measure follows
+from `lambda=cosh(s)` in `K1(z)=integral_0^infinity
+exp(-z cosh(s)) cosh(s) ds`; its density on `[1,infinity)` is
+`w(lambda)=lambda/sqrt(lambda²-1)>1`. In Andreief, the product of the
+row and column exponential determinants has a common sign for ordered
+energies because the time lists have the same order. Replacing `w` by the
+smaller flat density *inside the integral* therefore preserves the
+determinant inequality. The flat density on `[1,infinity)` has kernel
+`2 exp(-z)/z`, whose determinant is the Cauchy determinant multiplied
+by `exp(-sum T-sum U)`. The latter determinant is positive, yielding
+`R_m>exp(-sum T-sum U)` for distinct times. After divided-difference
+normalization, continuity gives `>=` at positive confluent times and the
+right side remains positive. This is not an entrywise matrix inequality.
+For the original K186 angular core each cross-sum is at most `rho<=1/4`,
+so summing diagonal sums gives `sum T+sum U<=m rho`; the result holds for
+*all* positive a/c shapes, not just K201's square. At `rho=0`, K186's
+extension has `R_m=1`; zero time-sum faces remain separately handled by
+K185/K188.
+
+An independent energy integral and direct determinant replay tests the
+identity, asymmetric controls and the wrong unshifted-density claim. The
+proof is analytic, not inferred from finite controls. This avoids farther
+positivity-only a/c tiling when this floor suffices, but supplies no upper
+or derivative enclosure, signed K218 third-shell integral, accurate K215
+prefix or face/quotient/reference-boundary composition. K201 remains valid;
+SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`), LT-GR6b/LT-SM8
+(`NEEDS`), canon and public posture do not move.
+
 ## K237 tangential obstruction to the K236 rank-two star (2026-09-18)
 
 For the same local flat Ricci-flat `T=0`, zero-fermion germ and selected

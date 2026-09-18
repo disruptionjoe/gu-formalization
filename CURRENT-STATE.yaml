@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 40d3739014b1463b8fcab8b78a40b583bfdee76c
+revision_basis: fccc43e77b66e7a98aeac531cf24f0d4fc5e45a5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K238 derives a shape-independent quantitative Andreief floor for every
+    positive ordered K186 Bessel/Cauchy regularizer: R_m exceeds
+    exp(-sum T_i-sum U_j), hence R_m>=exp(-m/4)>=exp(-3/4) for m<=3 on the
+    positive K186 rho<=1/4 core. This extends K186's already-known strict
+    positivity with an explicit uniform constant; a/c positivity-only tiling
+    is unnecessary when this floor suffices. It does not bound derivatives,
+    upper envelopes, a zero-time-sum face, the signed K218 third shell or
+    K215's prefix. K201's local certificate remains valid, and source,
+    ledger, canon and public posture do not move.
+
     K237 tests K236's rank-two invariant star against the same selected I1B
     principal coefficient at tangential dx1. Exact ordered Clifford/exterior
     contractions give an outside coefficient -1 from o=dx0 gamma1 to
@@ -8215,6 +8225,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K238 gives a global quantitative floor for positive K186 regularizers,
+  so farther a/c tiling only for their sign or a coarse inverse bound is
+  dominated. The shape-dependent derivatives and upper envelopes needed
+  for a complete normalized quadrature error remain open. Its positive
+  determinant comparison does not control the signed K218 third shell.
+
   K234 proves fixed-anchor projected two-exception positivity through one
   cosh unit by exact denominator grouping and a signed fifth jet with a
   grouped sixth remainder. Can the same correlation be made uniform for A
@@ -8359,6 +8375,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K238's quantitative global regularizer floor where only positivity or
+  a coarse inverse bound is needed; do not spend another 786432-cell-class
+  ring on that question. For order-six integration, still obtain a complete
+  correlated signed weighted K218 third-shell upper within K224's
+  1.7933e-22 headroom at feasible cost and compose separate K185/K188
+  boundaries. Any far-shape a/c derivative or upper-bound atlas must state
+  the consuming error and cannot count K238's floor as its derivative bound.
+
   Extend K234 only with a uniform rational/interval certificate for the
   variable fourth coefficient and correlated remainder over an explicitly
   covered six-coordinate mixed-band family; account for symmetry weights,
