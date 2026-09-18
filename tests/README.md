@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K222 first middle-shell exact cover
+
+- `channel-swings/k222_order_six_first_middle_shell_cover.py` sums the
+  K221/K220-intersected rational intervals over the exact first-exceeding
+  partition of `[0,log(3)]^8 minus [0,log(2)]^8`; it compares eight
+  cells with a 16-cell split at `log(5/2)` and combines the refined
+  shell with K221's disjoint inner box.
+- `channel-swings/k222_order_six_first_middle_shell_cover_probe.py`
+  independently checks binary coverage, sinh weights, 24 raw-term
+  midpoints and hostile measure/overlap controls. No full middle-box
+  or node-cost theorem follows.
+
+```sh
+python3 tests/channel-swings/k222_order_six_first_middle_shell_cover.py --write
+python3 tests/channel-swings/k222_order_six_first_middle_shell_cover_probe.py
+```
+
 ## K221 signed quadratic auxiliary-cell enclosure
 
 - `channel-swings/k221_order_six_signed_quadratic_cell_enclosure.py` retains

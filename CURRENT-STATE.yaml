@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1b4ca342c81f68ae47cbf868a5c77bb3653160df
+revision_basis: 7f5140782d50b997c71505f55f5d41289ff184d4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K222 certifies the complete first auxiliary middle shell
+    [0,log(3)]^8 minus [0,log(2)]^8 by its first-exceeding-coordinate
+    disjoint partition. K221/K220-intersected rational intervals over eight
+    cells give an absolute contribution below 2.309e-23 using pi>3;
+    splitting the exceeding coordinate at log(5/2) gives 16 cells and
+    below 2.071e-23. Combining the refined shell with K221's inner box
+    bounds the complete [0,log(3)]^8 contribution below 2.08e-23.
+    Independent ternary-cover, exact sinh-weight and 24 raw 1,864-term
+    midpoint controls pass. The modest finite cost improvement is not an
+    asymptotic node-cost theorem or a cover to K215's 215 log(2). The
+    inherited full-domain 9.683e-7 ceiling, coalescent/quotient/reference
+    boundaries and source/physics status remain unchanged.
+
     K221 retains the exact signed Hessian of K218's eight-auxiliary rational
     core at the midpoint and bounds the third directional derivative by a
     positive lower-corner cubic expression with all shared loads. An
@@ -8003,12 +8016,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K221's signed-quadratic cell rule improves K220 on three rational cells,
-  including a mixed shifted cell, and sharpens the complete inner-box bound.
-  Can a bounded adaptive cost/partition pilot use this local rule across a
-  nontrivial middle-region strip toward K215's sufficient 215 log(2), or is
-  stronger determinant correlation needed? The finite pilots prove neither a
-  whole-box cover nor a necessary node count.
+  K222 certifies the first complete middle shell through log(3), but
+  doubling its eight first-exceeding cells to sixteen improves its
+  absolute ceiling only from 2.309e-23 to 2.071e-23. Can a
+  determinant-correlated enclosure or a proven adaptive anisotropic
+  selection rule sustain useful cost across further shells toward K215's
+  sufficient 215 log(2)? The finite pilot is no whole-box cover or
+  necessary node count.
 
   K219 remains a certified local rational signed-cell enclosure of K218's
   eight-auxiliary expression, but identical-allocation aggregation does not
@@ -8059,12 +8073,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Use K221's exact signed-quadratic rule, K220's signed-gradient rule and K219's
-  corner rule as intersected local baselines. Test a bounded adaptive
-  middle-region strip/cost pilot or stronger determinant-correlated remainder
-  before whole-box claims; K221's three local width gains are not a global
-  node-cost result. Identical-mask
-  aggregation alone has no endpoint-width gain. Compose K185/K188 quotient and
+  Use K222's exact first-shell 8/16-cell cover and K221/K220/K219
+  intersected local baselines. The weak one-axis subdivision gain favors a
+  determinant-correlated remainder or a discriminating anisotropic-cost
+  pilot before further broad tiling; do not extrapolate this sample to a
+  necessary global node count. Identical-mask aggregation has no endpoint-width
+  gain. Compose K185/K188 quotient and
   K204/K209 reference boundaries separately. Do not
   rerun K216's angular series as the route to full-box accuracy; K217's
   inner-box and K215's positive tail retain their exact limited scopes.

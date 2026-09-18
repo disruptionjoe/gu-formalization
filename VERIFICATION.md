@@ -7,6 +7,33 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K222 first middle-shell exact cover (2026-09-17)
+
+The region `[0,log(3)]^8 minus [0,log(2)]^8` is partitioned up to
+measure-zero boundaries by the first coordinate exceeding `log(2)`:
+coordinate `j` is in `[log(2),log(3)]`, predecessors in
+`[0,log(2)]`, and successors in `[0,log(3)]`. Applying K221's
+K220-intersected signed cell rule to these eight cells and multiplying by
+the exact product of sinh endpoint differences gives a symmetric rational
+interval before the common `pi^-8`. Since `pi>3`, the shell's absolute
+contribution is below `2.309e-23`. Splitting each exceeding coordinate
+once at `log(5/2)` yields 16 cells and an improved exact absolute bound
+below `2.071e-23`. The disjoint K221 inner cube plus this shell therefore
+bounds all of `[0,log(3)]^8` below `2.08e-23`.
+
+An independent verifier checks all 6,561 ternary interior samples
+against the recorded unique first-exceeding cell, reconstructs exact sinh weights
+and shell measure, and checks 24 midpoints by separate raw 1,864-term
+denominator products. Hostile duplicate/endpoint-measure controls fire.
+The finite split improves the bound by only about 10.3% for twice the
+cells; it proves neither an adaptive asymptotic cost, a necessary node
+count, nor the remaining middle region through K215's `215 log(2)`.
+Coalescent cells, K185/K188 quotient, K204/K209 common-reference
+composition, accurate full prefix and SC-ACT-01/02 (`ASSERTS`),
+SC-META-53 (`UNCERTAIN`) and physics-ledger status remain open.
+Reproduce using the K222 producer and independent probe in
+`tests/README.md`.
+
 ## K221 signed quadratic auxiliary-cell enclosure (2026-09-17)
 
 For K218's exact signed core `H(c)=sum_A w_A prod_i a_Ai(c)^-1`, K221
