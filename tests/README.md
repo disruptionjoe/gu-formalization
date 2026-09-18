@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K228 pure triple interactions
+
+- `channel-swings/k228_order_six_third_interaction_support.py` computes all
+  twenty exact anchored third mixed differences of the original signed K185
+  core, proving each is nonzero at a declared rational witness.
+- `channel-swings/k228_order_six_third_interaction_support_probe.py`
+  independently traverses raw entries, checks all exact hashes and hostile
+  controls. Pair-only pointwise reconstruction fails; no integrated shell
+  error or source/physics result follows.
+
+```sh
+python3 tests/channel-swings/k228_order_six_third_interaction_support.py
+python3 tests/channel-swings/k228_order_six_third_interaction_support_probe.py
+```
+
 ## K227 two-exception signed support
 
 - `channel-swings/k227_order_six_two_exception_support.py` certifies

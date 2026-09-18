@@ -1,0 +1,244 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k227": "5f46b81965427d21557596f49c8bfe9e3c58e56c9e5802f2a0170d9992484b24"
+  },
+  "object": "Original signed K185/K218 1,864-term rational-cosh core H, before positive outer factors",
+  "anchor": {
+    "u": "5/4",
+    "v": "17/8",
+    "b": "1",
+    "successive_exception_values": [
+      "5/4",
+      "17/8",
+      "3/2"
+    ]
+  },
+  "difference_rule": "For S={j,k,l}, Delta_S H=sum_{A subset S}(-1)^(3-|A|) H(u,v,c_2..c_7), with c_i equal to the listed successive exception value when i is in A and equal to b otherwise. All arithmetic is exact rational. A nonzero value is a witness that the pure anchored third interaction is not identically zero; it does not prove a sign elsewhere.",
+  "triples": [
+    {
+      "triple": [
+        2,
+        3,
+        4
+      ],
+      "factor_multisets": 636,
+      "nonzero_coefficient_groups": 328,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "f445f4b48a2a552adac2f895e865315a3fa3c8cd0e0adddaf5224913a7b40637"
+    },
+    {
+      "triple": [
+        2,
+        3,
+        5
+      ],
+      "factor_multisets": 821,
+      "nonzero_coefficient_groups": 400,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "0fdd0d29b8357fda0537e3fa0722ccad9a8528468a19db1ad8f4dd69b112b730"
+    },
+    {
+      "triple": [
+        2,
+        3,
+        6
+      ],
+      "factor_multisets": 688,
+      "nonzero_coefficient_groups": 116,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "c6f13e359f690ea5d7da351688472ed46a79634204f5afb1486ff4de14438387"
+    },
+    {
+      "triple": [
+        2,
+        3,
+        7
+      ],
+      "factor_multisets": 581,
+      "nonzero_coefficient_groups": 40,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "526da930459ac846204e0e8a5fd5b6b7a81b8e81590e6528410579b95ecc70d2"
+    },
+    {
+      "triple": [
+        2,
+        4,
+        5
+      ],
+      "factor_multisets": 844,
+      "nonzero_coefficient_groups": 440,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "401c73c584ccadbea8c4c0f90339c97f9420ca6dc2189aec37dbe6909ebdc833"
+    },
+    {
+      "triple": [
+        2,
+        4,
+        6
+      ],
+      "factor_multisets": 1040,
+      "nonzero_coefficient_groups": 808,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "4c74de2fc99344d1bb7a5e9dba19c5795dc06a2f491c83f5663278d781e91d60"
+    },
+    {
+      "triple": [
+        2,
+        4,
+        7
+      ],
+      "factor_multisets": 980,
+      "nonzero_coefficient_groups": 690,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "eab0613ce4304f404827c562909653b8a683fb22adddc9a92a43e4048a147a94"
+    },
+    {
+      "triple": [
+        2,
+        5,
+        6
+      ],
+      "factor_multisets": 1002,
+      "nonzero_coefficient_groups": 732,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "468d8b38a65960447035647fdc56612333aa938e18921ded5924325189cc1737"
+    },
+    {
+      "triple": [
+        2,
+        5,
+        7
+      ],
+      "factor_multisets": 979,
+      "nonzero_coefficient_groups": 691,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "c7d676e763c95cfe5baba2ca5ce46f88aa67dc8b48cb95040c92530da3d0c430"
+    },
+    {
+      "triple": [
+        2,
+        6,
+        7
+      ],
+      "factor_multisets": 598,
+      "nonzero_coefficient_groups": 40,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "9c158ca5765af10d66ff402893ece724af2ac19511dd9b830a47086b4a0d43aa"
+    },
+    {
+      "triple": [
+        3,
+        4,
+        5
+      ],
+      "factor_multisets": 808,
+      "nonzero_coefficient_groups": 440,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "2d52f75a4ae67dec9ae4394e3d0aeb88c28262a84f8bb77f5ba6a6a82af5a8f8"
+    },
+    {
+      "triple": [
+        3,
+        4,
+        6
+      ],
+      "factor_multisets": 1043,
+      "nonzero_coefficient_groups": 827,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "c298acd7d14e315bea7a73f885b7ea3575f0780315a0b47e48aae70e79b5124c"
+    },
+    {
+      "triple": [
+        3,
+        4,
+        7
+      ],
+      "factor_multisets": 998,
+      "nonzero_coefficient_groups": 726,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "b394e32b2e1e369833ef05ae8d15b34124448f02bf97c68167ff1df8731e6e75"
+    },
+    {
+      "triple": [
+        3,
+        5,
+        6
+      ],
+      "factor_multisets": 1026,
+      "nonzero_coefficient_groups": 828,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "f41df5d6d91fa65a63c47e1dc21877568fc0f4c608f44615a082ba2770b2c9de"
+    },
+    {
+      "triple": [
+        3,
+        5,
+        7
+      ],
+      "factor_multisets": 1021,
+      "nonzero_coefficient_groups": 806,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "838e5852076e04e0533294612dbe0c36ff90b91ae9c3e65d9c0ef918198e920f"
+    },
+    {
+      "triple": [
+        3,
+        6,
+        7
+      ],
+      "factor_multisets": 670,
+      "nonzero_coefficient_groups": 112,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "197d3ed6da0f8461bc8029176d349780cf3f8035a40ac8114f706f75f0012d47"
+    },
+    {
+      "triple": [
+        4,
+        5,
+        6
+      ],
+      "factor_multisets": 782,
+      "nonzero_coefficient_groups": 428,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "8fbc2e8fd14ddf95680a4e2f299436ac756619c85d9ad698c8cad3d7d2e1bd8b"
+    },
+    {
+      "triple": [
+        4,
+        5,
+        7
+      ],
+      "factor_multisets": 828,
+      "nonzero_coefficient_groups": 428,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "a2ca7b1c5e9d2d20361eeaafd58a9fd3d70bff3e02fc2939b56a3e650b9ca396"
+    },
+    {
+      "triple": [
+        4,
+        6,
+        7
+      ],
+      "factor_multisets": 809,
+      "nonzero_coefficient_groups": 404,
+      "third_difference_sign": 1,
+      "third_difference_sha256": "c280a03ad7dc6a05aec78a96d17d166885d54c837ab1401eccd2ce100f747d0d"
+    },
+    {
+      "triple": [
+        5,
+        6,
+        7
+      ],
+      "factor_multisets": 614,
+      "nonzero_coefficient_groups": 328,
+      "third_difference_sign": -1,
+      "third_difference_sha256": "19682de21a0aceead16f49f8ca61b13cde87a70373b7b37db1fd9e740d344562"
+    }
+  ],
+  "decomposition": "For any b and fixed u,v, let D_S H=sum_{A subset S}(-1)^(|S|-|A|) H(c_i=y_i for i in A, c_i=b otherwise). Boolean inversion gives H(u,v,y)=sum_{S subset {2,...,7}}D_S H. K225 kills |S|<=1 and K227 kills the |S|=2 terms S={2,3},{6,7}. The other thirteen pair terms and all |S|>=3 terms remain in the exact identity. Each of the twenty pure |S|=3 terms has an exact nonzero witness at the listed point; hence no universal representation of H as a sum of functions of at most two of y_2..y_7 can hold for every u,v,y at this anchor.",
+  "claim_ceiling": "All twenty anchored pure triple interactions are nonzero at one exact rational witness, including triples containing K227 zero pairs. This excludes an exact pair-only pointwise representation on the declared original core but does not lower-bound an integrated signed error, establish nonzero weighted integral, control the third shell or K215, compose coalescent/quotient/reference bounds, or move source, physics, ledger or canon status."
+}

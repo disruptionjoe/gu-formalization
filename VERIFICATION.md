@@ -7,6 +7,29 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K228 pure triple interaction support (2026-09-18)
+
+For fixed arbitrary `u,v,b`, expand the original K218 signed core `H` in
+Boolean anchored differences over the six coordinates `2..7`. The empty and
+singleton components vanish by K225. K227 removes exactly the two pair
+components `(2,3)` and `(6,7)`; thirteen pair components and the higher
+interactions remain. This is an exact inclusion-exclusion identity at every
+point, not an approximation or an integrated bound.
+
+At `u=5/4, v=17/8, b=1` and three successive exceptional values
+`(5/4,17/8,3/2)` assigned in sorted triple order, each of the twenty *pure*
+triple differences is a nonzero exact rational number at its corresponding
+point. An independent traversal of all 1,864 raw K185 signed
+terms reproduces each witness hash and group count, the two K227 zero-pair
+corner controls, and a hostile original-sign mutation. Thus the signed core
+cannot equal a universal sum of functions depending on at most two of the
+six exceptional coordinates: every third mixed difference of such a sum
+would be zero. The twenty tested signs are not global signs, the witnesses
+are not lower bounds on a weighted integral, and the result supplies no
+whole third-shell or K215 budget, separate coalescent/quotient/reference
+composition, source or physics verdict. Reproduce using the K228 scripts in
+`tests/README.md`.
+
 ## K227 two-exception support and finite mixed reanchoring (2026-09-18)
 
 For arbitrary `u,v,b,x,y>=1`, restrict K218's original signed core to
