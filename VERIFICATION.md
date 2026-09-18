@@ -2,10 +2,43 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-17"
+updated_at: "2026-09-18"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K225 exact common-cosh cancellation (2026-09-18)
+
+Let `H(c)` be K218's original 1,864-term signed rational-cosh core,
+before its positive product-cosh and `pi^-8` factors. For arbitrary
+`u,v,b,x >= 1`, it vanishes at `c=(u,v,b,b,b,b,b,b)` and when exactly
+one of `c_2,...,c_7` is replaced by `x`. For each of the six latter
+strata, every term has fourteen affine loads of the form
+`256+n_b b+n_0 u+n_1 v+n_j x`. Sorting the fourteen load-coefficient
+tuples and summing K185's original integer signs gives zero **in every
+factor-multiset group**, proving the identity as a rational function,
+not just at tested points. The all-common latter stratum is checked
+separately. A mixed two-exception rational point is nonzero.
+
+Two exact telescopes then express `H(u,v,y_2,...,y_7)` as a sum of
+pairwise mixed-derivative double integrals for `2<=j<k<=7`, anchored
+at any `b<=min(y_2,...,y_7)`. The manifest states the full identity
+and a positive pointwise bound proportional to
+`sum_(j<k)(y_j-b)(y_k-b) M_jk(u,v,b)`, where `M_jk` is an exact
+unsigned rational majorant of the shared-load Hessian. An independent
+raw-entry verifier reproduces all seven symbolic cancellations, 36
+zero points, the nonzero two-exception value, and the majorant by
+ordered-pair factor differentiation; a sign-flipped term breaks each
+grouped certificate. The mixed control has core about `3.6344e-38`
+and majorant about `1.2232e-34`, both before the outer prefactors.
+
+This is an integrand-level structural cancellation and a pointwise
+anisotropy bound, not an integrated far-field tail or certified
+adaptive cost. The farther region to K215's `215 log(2)`, coalescent,
+K185/K188 quotient, K204/K209 reference and accurate complete prefix
+remain open. SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`) and
+physics-ledger statuses do not move. Reproduce with the K225 scripts
+listed in `tests/README.md`.
 
 ## K224 second-shell finite cost stress (2026-09-17)
 

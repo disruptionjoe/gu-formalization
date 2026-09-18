@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K225 common-cosh cancellation
+
+- `channel-swings/k225_order_six_diagonal_cancellation.py` groups the
+  original signed K185 terms by unordered fourteen-factor affine loads
+  on seven common-cosh strata and derives a pairwise mixed-derivative
+  anisotropy majorant for K218's core.
+- `channel-swings/k225_order_six_diagonal_cancellation_probe.py`
+  independently replays raw entries, symbolic groups, 36 exact zero
+  points, a nonzero mixed point, the ordered-pair Hessian bound and a
+  hostile sign flip. No integrated far-field cost follows.
+
+```sh
+python3 tests/channel-swings/k225_order_six_diagonal_cancellation.py --write
+python3 tests/channel-swings/k225_order_six_diagonal_cancellation_probe.py
+```
+
 ## K224 second-shell cost stress
 
 - `channel-swings/k224_order_six_second_shell_cost_stress.py` certifies the
