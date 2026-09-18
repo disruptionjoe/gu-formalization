@@ -7,6 +7,37 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K227 two-exception support and finite mixed reanchoring (2026-09-18)
+
+For arbitrary `u,v,b,x,y>=1`, restrict K218's original signed core to
+`c0=u,c1=v`, two coordinates `c_j=x,c_k=y` among 2..7, and the other
+four equal to `b`. Group all 1,864 signed K185 entries by the unordered
+multiset of fourteen affine denominator loads in these five variables.
+Every group coefficient vanishes for `(j,k)=(2,3)` and `(6,7)`, proving
+two rational-function identities, not just sampled zeros. Each of the
+other thirteen pairs has a nonzero exact rational point at
+`(u,v,b,x,y)=(5/4,17/8,1,5/4,17/8)`. An independently written raw
+entry traversal replays all group counts, rational witness hashes and
+hostile sign flips.
+
+The K225 double telescope also permits reversed integrals about any common
+anchor. On three selected third-shell bands, a coordinatewise monotone
+unsigned Hessian at the correct lower point (including earlier live
+coordinates), maximum anchor distances, exact product-sinh measure and
+`pi>31/10` give rational *upper* bounds for `b=17/8`. The two-high
+`(2,3)` cell is `<3.516e-21` (19.60 times K224's headroom as an
+upper); the four-high `(2,3,4,5)` cell is `<1.503e-22` (0.838 times);
+the six-high cell is `<5.740e-24` (0.032 times). Each is tighter than
+the same cell with `b=1`. These boxes are not a disjoint third-shell
+cover. An upper above budget is **not** a lower obstruction, and the
+zero `(2,3)` slice does not erase higher-interaction terms on its box
+or license deleting its term from K225's full positive majorant.
+
+No complete signed third shell, K215 remainder, necessary node cost,
+coalescent/quotient/reference composition, source SC-ACT-01/02
+(`ASSERTS`), SC-META-53 (`UNCERTAIN`), ledger or canon move follows.
+Reproduce with the K227 scripts in `tests/README.md`.
+
 ## K226 fixed global-anchor majorant obstruction (2026-09-18)
 
 For each of the fifteen pairs `2<=j<k<=7`, take the third-shell subbox

@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K227 two-exception signed support
+
+- `channel-swings/k227_order_six_two_exception_support.py` certifies
+  fourteen-factor coefficientwise zero for pairs (2,3) and (6,7), exact
+  nonzero witnesses for the other thirteen, and three selected mixed-band
+  reanchored positive upper bounds.
+- `channel-swings/k227_order_six_two_exception_support_probe.py` independently
+  replays original raw entries, exact witnesses, ordered-pair Hessians and
+  hostile sign controls. Neither pair-slice support nor three finite cell
+  uppers certify the whole third shell or the signed integral.
+
+```sh
+python3 tests/channel-swings/k227_order_six_two_exception_support.py --write
+python3 tests/channel-swings/k227_order_six_two_exception_support_probe.py
+```
+
 ## K226 global-anchor third-shell cost obstruction
 
 - `channel-swings/k226_order_six_global_anchor_obstruction.py` evaluates

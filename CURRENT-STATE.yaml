@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7c41eb5cce1ca228a2c157966560c96f26391e1c
+revision_basis: d2ad250fd23035d10de581ab7755f1f08a09cd04
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K227 classifies all fifteen two-exception slices of K218's original
+    signed 1,864-term rational-cosh core under arbitrary common anchor b and
+    arbitrary c0,c1. The (2,3) and (6,7) slices cancel coefficientwise in
+    every fourteen-affine-factor group; each of the other thirteen has an
+    exact nonzero rational witness. Independent raw traversal checks all
+    groups, witnesses and hostile sign flips. A reversed-integral anchor
+    bound at b=17/8 improves three finite mixed third-shell cells, but the
+    tested two-high positive upper is 3.516e-21, over nineteen times the
+    K224 headroom; an upper exceeding a budget is not a method obstruction.
+    Neither pair-slice sparsity nor these selected positive upper bounds
+    control the full signed shell or K215, and source/physics status is unchanged.
+
     K226 integrates a rigorous lower bound on K225's nonnegative fixed
     global b=1 mixed-Hessian majorant over fifteen pair-specific rational
     subboxes of the third auxiliary shell. Every one separately exceeds
@@ -8078,6 +8090,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K227 reveals two exact zero edges among fifteen two-exception slices and
+  thirteen nonzero edges, while local reanchoring improves but does not
+  certify the tested two-high mixed band. Can a signed pair-slice-preserving
+  decomposition or K221 intersection exploit this support across the
+  higher-interaction terms to control the complete third shell within
+  K224's 1.7933e-22 headroom? The slice graph alone cannot delete terms
+  from K225's full-domain unsigned derivative bound.
+
   K226 rejects K225's fixed global b=1 unsigned majorant as a standalone
   third-shell allocation: each of fifteen weighted pair-subbox lower
   witnesses exceeds the 1.7933e-22 headroom. Can signed Hessian
@@ -8159,6 +8179,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Use K227's exact two-zero-edge support only on its two-exception strata.
+  Its positive b=17/8 mixed-band pilot is not a full-shell certificate:
+  the two-high upper exceeds the headroom but is not an obstruction.
+  Seek a signed higher-interaction decomposition or K221-intersected
+  adaptive whole-shell bound-to-cost; rerank to native I1B full fermion
+  or farther a/c atlas if this remains loose. Do not infer full-core
+  cancellation or subtract two pair terms from K225's positive majorant.
+
   Do not repeat K225's fixed global b=1 unsigned bound with more tiling:
   K226 proves its third-shell integral already exceeds the remaining
   allocation. K226's all-high locally reanchored cube is inexpensive;
