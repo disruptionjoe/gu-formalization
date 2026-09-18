@@ -7,6 +7,34 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K239 K218-weighted projected quartic cube moment (2026-09-18)
+
+Let `Hbar` be K230's `S6` projection of the original signed K185/K218
+rational-cosh core. On a complete `T=log(q)` cube, K218's density is
+`prod cosh(t_j)dt_j`, **not** `prod sinh(t_j)dt_j`. At fixed `c0=u,c1=v`,
+put `c_j=cosh(t_j)` for `j=2..7`, `M_k=int_0^T cosh(t)^(k+1)dt`,
+`b=M1/M0`, and `V=M2-M1^2/M0`. K231/K232's homogeneous quartic is
+`A(u,v,b)P(c_2-b,...,c_7-b)` with
+`P=m22-m211/2+m1111`. Centering gives zero first weighted moments;
+therefore each of the `m211` and `m1111` monomials integrates to zero,
+and the fifteen `m22` terms give the exact six-dimensional identity
+
+`int_[0,T]^6 P(c-b) prod_(j=2)^7 cosh(t_j)dt_j = 15 V^2 M0^4`.
+
+Here `M0=sinh T`, `M1=T/2+sinh(2T)/4`, and
+`M2=sinh T+(sinh T)^3/3`, so q=4 and q=5 moments have exact
+polynomial-in-`log(q)` coefficients in the K239 artifact. A separate
+90-monomial primitive replay verifies them and rejects the wrong uniform-`c`
+measure. The first draft did use that wrong measure; it was corrected
+before publication. This formula reduces the *quartic polynomial piece* of
+each full cube to a weighted two-dimensional `u,v` integral of `A`, with
+the common prefactor `2^8*256^6/(5!*pi^8)`. The complete third shell is
+the q=5 cube minus q=4 cube, including both separately integrated
+`R5=Hbar-A*P` remainders. No uniform A interval, R5 bound, feasible cost,
+whole-shell signed upper, K215 prefix or K185/K188 boundary composition is
+proved. SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`), LT-GR6b/LT-SM8
+(`NEEDS`), canon and public posture do not move.
+
 ## K238 global quantitative regularizer floor (2026-09-18)
 
 For K186's canonical positive ordered time-Gram quotient, the Laplace

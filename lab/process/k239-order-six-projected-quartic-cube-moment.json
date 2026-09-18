@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k218-order-six-exact-angular-elimination": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47",
+    "k230-order-six-permutation-projection": "e2b7c9a8af209d8dbde37a2c97a6a22aa654ec8e5bdc1187e3a46a1edcc89244",
+    "k231-order-six-projected-diagonal-jet": "9ffbe8912c7c47f4f4e4a4c84bdcea71d0b40a48e114780232f8159d75e95c1f",
+    "k232-order-six-quartic-sos": "59ec32b920ee23f2c74d6181ea3c4fd26337e51eeae5ce464b10899029478fc0"
+  },
+  "object": "K230 S6-projected original signed K185/K218 rational-cosh core Hbar, not the unsymmetrized pointwise core or a physical state",
+  "measure_identity": "K218 integrates H with product_j cosh(t_j)dt_j, not sinh(t_j)dt_j. For z_j=sinh(t_j), the measure is product_j dz_j while the denominator coordinates c_j=cosh(t_j)=sqrt(1+z_j^2). In c coordinates the density is product_j c_j/sqrt(c_j^2-1)dc_j. Uniform c moments are inapplicable.",
+  "quartic_moment_theorem": "Fix u=c0,v=c1, q>1 and T=log(q). Put M_k=int_0^T cosh(t)^(k+1)dt for k=0,1,2, b=M1/M0, x_j=cosh(t_j)-b for j=2..7. K231's quartic is A(u,v,b)P(x), P=m22-m211/2+m1111. The six c_j are independent under product cosh(t_j)dt_j; their centered first integral is zero and centered second integral V=M2-M1^2/M0. Thus all m211/m1111 integrals vanish, and the fifteen m22 terms give exactly int_[0,T]^6 product_j cosh(t_j)dt_j P(c-b)=15 V^2 M0^4. M0=sinh(T), M1=T/2+sinh(2T)/4, M2=sinh(T)+sinh(T)^3/3. This is an analytic identity; the log(q) polynomial coefficients are serialized exactly.",
+  "full_cube_quartic_formula": "For each q=4,5, the projected quartic contribution on [0,log(q)]^8 is C*15*V(q)^2*M0(q)^4 * int_0^T int_0^T cosh(t0)cosh(t1) A(cosh(t0),cosh(t1),b(q)) dt0dt1, C=2^8*256^6/(5!*pi^8). The complete third shell is q=5 cube minus q=4 cube, including the separately integrated R5=Hbar-A*P remainders. This is an exact decomposition, not a certified error or two-dimensional cubature.",
+  "cubes": [
+    {
+      "q": 4,
+      "T": "log(4)",
+      "cosh_T": "17/8",
+      "m0": "15/8",
+      "m1_constant": "255/128",
+      "m1_log_coefficient": "1/2",
+      "m2": "2085/512",
+      "center_b_coefficients_in_log_q": [
+        "17/16",
+        "4/15"
+      ],
+      "unnormalized_centered_second_coefficients_in_log_q": [
+        "4005/2048",
+        "-17/16",
+        "-2/15"
+      ],
+      "weighted_six_coordinate_P_moment_coefficients_in_log_q": [
+        "12180393984375/17179869184",
+        "-51702046875/67108864",
+        "236165625/2097152",
+        "860625/16384",
+        "3375/1024"
+      ]
+    },
+    {
+      "q": 5,
+      "T": "log(5)",
+      "cosh_T": "13/5",
+      "m0": "12/5",
+      "m1_constant": "78/25",
+      "m1_log_coefficient": "1/2",
+      "m2": "876/125",
+      "center_b_coefficients_in_log_q": [
+        "13/10",
+        "5/24"
+      ],
+      "unnormalized_centered_second_coefficients_in_log_q": [
+        "369/125",
+        "-13/10",
+        "-5/48"
+      ],
+      "weighted_six_coordinate_P_moment_coefficients_in_log_q": [
+        "8470303488/1953125",
+        "-298411776/78125",
+        "334368/625",
+        "16848/125",
+        "27/5"
+      ]
+    }
+  ],
+  "required_next_certificate": "Uniform signed enclosure for A on each weighted u/v square and an integrated correlated bound for R5 on both full cubes, or a direct shell enclosure preserving common contributions; then compose pi^-8, K224's remaining 1.7933e-22 and practical evaluation cost. Difference of two absolute cube uppers may lose cancellation.",
+  "source_routing": "SC-ACT-01/02 ASSERTS; SC-META-53 UNCERTAIN; LT-GR6b/LT-SM8 NEEDS. Internal mathematics, not source-action or physical-state evidence.",
+  "claim_ceiling": "Exact K218-weighted six-dimensional quartic polynomial moment for K230's S6-projected core on the q=4,5 full cubes. No uniform A sign/upper, R5 remainder or whole-shell bound, feasible cost, K215 prefix, coalescent/quotient/common-reference composition, source/physics/ledger/canon/public move."
+}
