@@ -7,6 +7,32 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K221 signed quadratic auxiliary-cell enclosure (2026-09-17)
+
+For K218's exact signed core `H(c)=sum_A w_A prod_i a_Ai(c)^-1`, K221
+retains the signed midpoint Hessian as well as K220's exact midpoint value
+and gradient. Its symmetric quadratic radius is
+`(1/2) sum_jk r_j r_k |H_jk(m)|`. With
+`u_Ai=sum_j r_j m_Aji/a_Ai(low)`, the third-order Taylor remainder is at
+most `(1/6) sum_A |w_A| q_A(low) [(sum_i u_Ai)^3 +
+3(sum_i u_Ai)(sum_i u_Ai^2) + 2sum_i u_Ai^3]`. Positive reciprocal loads
+make the lower corner a majorant throughout every center-to-cell segment.
+The cubic term retains repeated loads. Intersect this interval with K220's
+exact interval and multiply by its unchanged positive product-cosh measure
+and `2^8*256^6/(5! pi^8)`.
+
+On K220's small inner, full inner, and alternating shifted cells the exact
+width ratios are approximately `0.0013137142`, `0.010797243` and
+`0.024051364`. The complete `[0,log(2)]^8` inner-box symmetric interval
+with `pi>3` has absolute contribution `<1.760e-26`, improving K220's
+`<1.630e-24`. An independent raw 1,864-term product-polynomial Hessian
+replay, a univariate third derivative, hostile shared-load and sign controls,
+and five exact points per cell pass. This is not a middle-box cover, a node-cost
+estimate, a complete signed prefix or a source/physics status move.
+K215's positive tail, coalescent cells, K185/K188 quotient and K204/K209
+common-reference boundaries remain separate. Reproduce with the K221
+producer and probe in `tests/README.md`.
+
 ## K220 signed Taylor auxiliary-cell enclosure (2026-09-17)
 
 For K218's exact signed rational-cosh core `H(c)=sum_A w_A q_A(c)`, K220

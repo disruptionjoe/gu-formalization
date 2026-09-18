@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K221 signed quadratic auxiliary-cell enclosure
+
+- `channel-swings/k221_order_six_signed_quadratic_cell_enclosure.py` retains
+  K218's exact signed midpoint Hessian and controls its cubic Taylor remainder
+  at the lower corner, intersecting with K220 on three rational cells.
+- `channel-swings/k221_order_six_signed_quadratic_cell_enclosure_probe.py`
+  independently traverses all 1,864 raw terms with product-polynomial Hessians,
+  checks a directional cubic, hostile omissions and exact cell points. The
+  complete inner box tightens, but no middle-box cover follows.
+
+```sh
+python3 tests/channel-swings/k221_order_six_signed_quadratic_cell_enclosure.py --write
+python3 tests/channel-swings/k221_order_six_signed_quadratic_cell_enclosure_probe.py
+```
+
 ## K220 signed Taylor auxiliary-cell enclosure
 
 - `channel-swings/k220_order_six_signed_taylor_cell_enclosure.py` keeps

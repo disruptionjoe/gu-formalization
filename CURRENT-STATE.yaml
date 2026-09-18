@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 153b5651ed82178fb08be715cd8feb6dc0dc8160
+revision_basis: 1b4ca342c81f68ae47cbf868a5c77bb3653160df
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K221 retains the exact signed Hessian of K218's eight-auxiliary rational
+    core at the midpoint and bounds the third directional derivative by a
+    positive lower-corner cubic expression with all shared loads. An
+    independent raw 1,864-term denominator-polynomial Hessian replay,
+    directional cubic identity, hostile omissions and exact point controls
+    pass. On three K220 pilot cells, intersected interval widths are about
+    0.001314, 0.010797 and 0.024051 of K220. The complete
+    [0,log(2)]^8 inner-box contribution is below 1.760e-26 using pi>3,
+    improving K220's 1.630e-24 ceiling. These are local signed cell bounds,
+    not an adaptive middle-box cover or practical cost certificate. The
+    inherited full-domain 9.683e-7 ceiling, separate K215 tail and
+    coalescent/quotient/common-reference boundaries and source/physics
+    status remain unchanged.
+
     K220 bounds the exact K218 eight-auxiliary signed core on any
     nonnegative rectangular cosh cell by its exact center value and signed
     first derivatives plus a rational termwise Hessian remainder. The
@@ -7989,11 +8003,11 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K220's signed Taylor cell rule strictly improves K219 on three rational
-  cells, including a mixed shifted cell, while retaining an unsigned
-  lower-corner Hessian remainder. Can a cancellation-aware second derivative
-  or an adaptive cost pilot extend this improvement through the K215 middle
-  region without losing signed accuracy? The finite pilots prove neither a
+  K221's signed-quadratic cell rule improves K220 on three rational cells,
+  including a mixed shifted cell, and sharpens the complete inner-box bound.
+  Can a bounded adaptive cost/partition pilot use this local rule across a
+  nontrivial middle-region strip toward K215's sufficient 215 log(2), or is
+  stronger determinant correlation needed? The finite pilots prove neither a
   whole-box cover nor a necessary node count.
 
   K219 remains a certified local rational signed-cell enclosure of K218's
@@ -8045,10 +8059,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Use K220's exact signed-gradient Taylor rule and K219's corner rule as
-  intersected local baselines. Test a cancellation-aware Hessian enclosure
-  or a bounded adaptive middle-region cost pilot before whole-box claims;
-  K220's three local width gains are not a global node-cost result. Identical-mask
+  Use K221's exact signed-quadratic rule, K220's signed-gradient rule and K219's
+  corner rule as intersected local baselines. Test a bounded adaptive
+  middle-region strip/cost pilot or stronger determinant-correlated remainder
+  before whole-box claims; K221's three local width gains are not a global
+  node-cost result. Identical-mask
   aggregation alone has no endpoint-width gain. Compose K185/K188 quotient and
   K204/K209 reference boundaries separately. Do not
   rerun K216's angular series as the route to full-box accuracy; K217's
