@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__LOCAL_SELECTED_SYMBOL_ONLY",
+  "input_sha256": {
+    "k235_probe": "73961bc3859b89e74832da88c790060125f697d5e7c785f752f57eee591d0ea3",
+    "k235_manifest": "bf70e04ea4645af79378f6eef817d84d0428031b52167b0343a1c1365fc59b5a",
+    "backend": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4"
+  },
+  "object": "Selected I1B comm/symi/symi flat T=0 formal Euler coefficient at normal dx0 in one 28-dimensional invariant label block",
+  "odd_basis": "dx0 tensor gamma1",
+  "even_spokes": [
+    "dx2 tensor gamma1 gamma2",
+    "dx3 tensor gamma1 gamma3",
+    "dx4 tensor gamma1 gamma4",
+    "dx5 tensor gamma1 gamma5",
+    "dx6 tensor gamma1 gamma6",
+    "dx7 tensor gamma1 gamma7",
+    "dx8 tensor gamma1 gamma8",
+    "dx9 tensor gamma1 gamma9",
+    "dx10 tensor gamma1 gamma10",
+    "dx11 tensor gamma1 gamma11",
+    "dx12 tensor gamma1 gamma12",
+    "dx13 tensor gamma1 gamma13"
+  ],
+  "raw_ordered_cross_per_spoke": [
+    "2",
+    "0"
+  ],
+  "euler_cross_per_spoke": [
+    "1",
+    "-1"
+  ],
+  "collective": "E=sum_(j=2)^13 dxj tensor gamma1 gammaj",
+  "invariant_actions": [
+    "N(o)=-E",
+    "N(E)=12o"
+  ],
+  "restricted_matrix_basis_o_E": [
+    [
+      0,
+      12
+    ],
+    [
+      -1,
+      0
+    ]
+  ],
+  "restricted_square": -12,
+  "star_rank": 2,
+  "eleven_exact_kernel_differences": [
+    "e3-e2",
+    "e4-e2",
+    "e5-e2",
+    "e6-e2",
+    "e7-e2",
+    "e8-e2",
+    "e9-e2",
+    "e10-e2",
+    "e11-e2",
+    "e12-e2",
+    "e13-e2"
+  ],
+  "full_label_block_rank": 6,
+  "interpretation": "The K235 single spoke is not invariant; the collective two-dimensional star is invariant for this one frozen normal coefficient and has 11 linearly independent even null differences. Formal complex symbol roots are +/- i sqrt(12), not a physical frequency, instability or closed-domain spectrum.",
+  "fermion_insertion": "By linearity of the displayed draft-2021 candidate, replace each even E block in K235's all-slot insertion by the sum of its twelve even Clifford-valued one-form blocks. The odd block is unchanged. This is only a formal local operator response, not an action-selected physical fermion mode.",
+  "claim_ceiling": "Exact rank-two invariant mixed-grade normal-symbol star inside a rank-six 28-label block and 11 even null differences. No tangential/lower-order invariant subbundle, global domain, propagating or physical spectrum, positive quotient, source/ledger/canon/public change, or K224/K229/K215 signed-region result."
+}

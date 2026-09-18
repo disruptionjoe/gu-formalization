@@ -7,6 +7,26 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K236 invariant twelve-spoke native I1B normal symbol (2026-09-18)
+
+K235's one odd/even pair is not invariant. In the full selected-Shiab
+28-dimensional label block at a flat `T=0` germ and normal `dx0`, direct
+Clifford/exterior arithmetic proves `N(o)=-E` and `N(e_j)=o` for twelve
+`e_j=dxj gamma1 gammaj`, `j=2..13`, `E=sum e_j`. Thus the smallest invariant
+subspace containing `o` is `span{o,E}`, with matrix `[[0,12],[-1,0]]`, square
+`-12 I`, rank two, and eleven independent even null differences. The full
+label-block rank is six. The formal complex eigenvalues are not a physical
+frequency, instability or closed-domain spectrum. A separate direct raw
+12-by-28 replay checks all columns and wrong-channel/omitted-spoke controls.
+
+The displayed candidate fermion insertion is linear in this collective
+mode, but neither that matrix nor K236 supplies a selected global
+grading/reality, tangential/lower-order invariant subbundle, common closed
+domain, BV quotient or positive physical mode. SC-ACT-01/02, SC-META-53,
+LT-GR6b/LT-SM8, K234, K224/K229/K215, boundaries, ledger, canon and public
+posture are unchanged. No novelty or external specialist acceptance is
+claimed.
+
 ## K235 local I1B mixed-grade mode and formal four-field insertion (2026-09-18)
 
 The selected `comm/symi/symi` first-action coefficient on a local flat
