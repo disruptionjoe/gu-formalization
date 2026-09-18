@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7f5140782d50b997c71505f55f5d41289ff184d4
+revision_basis: b96bf3509724fa0090996ab2ed2864ccd6ea1c63
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K223 exhausts 64 rational midpoint-axis candidates on K222's eight
+    first-exceeding cells and selects one split per cell, still just 16 cells.
+    The chosen axes 2,2,5,5,5,6,7,7 give an exact signed shell absolute
+    ceiling below 1.748e-23 using pi>3, versus K222's same-count
+    2.071e-23; seven of eight best axes differ from the exceeding coordinate.
+    Independent candidate replay, ternary cover, exact sinh weights and
+    16 raw K185 midpoint checks pass. This is optimal only among those eight
+    prescribed bisections on each fixed first-shell cell; it supplies no
+    adaptive asymptotic rate or remainder to K215's 215 log(2).
+    Coalescent, quotient and reference composition, the inherited broad
+    full-domain ceiling and source/physics status remain unchanged.
+
     K222 certifies the complete first auxiliary middle shell
     [0,log(3)]^8 minus [0,log(2)]^8 by its first-exceeding-coordinate
     disjoint partition. K221/K220-intersected rational intervals over eight
@@ -8016,13 +8028,12 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K222 certifies the first complete middle shell through log(3), but
-  doubling its eight first-exceeding cells to sixteen improves its
-  absolute ceiling only from 2.309e-23 to 2.071e-23. Can a
-  determinant-correlated enclosure or a proven adaptive anisotropic
+  K223's locally optimal rational midpoint axis choices improve K222's
+  16-cell first-shell ceiling from below 2.071e-23 to below 1.748e-23.
+  Can a determinant-correlated enclosure or a proven adaptive anisotropic
   selection rule sustain useful cost across further shells toward K215's
-  sufficient 215 log(2)? The finite pilot is no whole-box cover or
-  necessary node count.
+  sufficient 215 log(2)? The finite candidate family is no whole-box
+  cover, global optimum, asymptotic cost or necessary node count.
 
   K219 remains a certified local rational signed-cell enclosure of K218's
   eight-auxiliary expression, but identical-allocation aggregation does not
@@ -8073,12 +8084,12 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Use K222's exact first-shell 8/16-cell cover and K221/K220/K219
-  intersected local baselines. The weak one-axis subdivision gain favors a
-  determinant-correlated remainder or a discriminating anisotropic-cost
-  pilot before further broad tiling; do not extrapolate this sample to a
-  necessary global node count. Identical-mask aggregation has no endpoint-width
-  gain. Compose K185/K188 quotient and
+  Use K223's exact 64-candidate, 16-cell anisotropic first-shell result and
+  K221/K220/K219 intersected local baselines. Determine whether a genuinely
+  correlated remainder or a rigorously controlled adaptive far-field rule
+  can extend beyond the first shell at defensible cost; do not extrapolate
+  this finite candidate family to a global optimum or node-count theorem.
+  Identical-mask aggregation has no endpoint-width gain. Compose K185/K188 quotient and
   K204/K209 reference boundaries separately. Do not
   rerun K216's angular series as the route to full-box accuracy; K217's
   inner-box and K215's positive tail retain their exact limited scopes.

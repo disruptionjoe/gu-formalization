@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K223 anisotropic first-shell midpoint-axis audit
+
+- `channel-swings/k223_order_six_anisotropic_first_shell.py` evaluates all
+  eight rational midpoint coordinate splits on each of K222's eight first-shell
+  cells, then selects the lowest exact local absolute upper. Its 16-cell
+  finite certificate is sharper than K222's same-count one-axis choice.
+- `channel-swings/k223_order_six_anisotropic_first_shell_probe.py` independently
+  replays the 64 choices, exact cover and weights, 16 raw K185 midpoint
+  inclusions, and hostile wrong-choice/overlap controls. No full middle-box
+  or asymptotic node-cost theorem follows.
+
+```sh
+python3 tests/channel-swings/k223_order_six_anisotropic_first_shell.py --write
+python3 tests/channel-swings/k223_order_six_anisotropic_first_shell_probe.py
+```
+
 ## K222 first middle-shell exact cover
 
 - `channel-swings/k222_order_six_first_middle_shell_cover.py` sums the

@@ -7,6 +7,29 @@ updated_at: "2026-09-17"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K223 anisotropic first-shell midpoint-axis audit (2026-09-17)
+
+On each of K222's eight disjoint first-exceeding cells, split one of eight
+coordinate bands at the arithmetic midpoint of its rational `exp(t)`
+endpoints. Exact cosh/sinh endpoint arithmetic and K221/K220-intersected
+signed intervals evaluate all 64 alternatives. Selecting the smallest
+two-child local absolute upper per cell (ties by axis index) chooses axes
+`[2,2,5,5,5,6,7,7]`. The resulting 16 cells enclose the first shell
+in an exact rational interval before `pi^-8`, with absolute contribution
+`<1.748e-23` using `pi>3`. This is strictly sharper at equal cell count
+than K222's exceeding-coordinate split `<2.071e-23`.
+
+An independent replay recomputes every candidate interval, each chosen
+endpoint and sinh measure, the 6,561 ternary cover samples and 16 raw
+1,864-term signed midpoints; wrong-axis and duplicate-cell controls fire.
+The optimum is solely in this fixed 8-by-8 candidate family. It is not a
+global partition optimum, adaptive asymptotic cost, necessary node count,
+or coverage through K215's `215 log(2)`. Coalescent, K185/K188 quotient,
+K204/K209 reference and accurate signed-prefix boundaries remain open.
+SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`) and the physics ledger
+do not move. Reproduce with the K223 producer and independent probe in
+`tests/README.md`.
+
 ## K222 first middle-shell exact cover (2026-09-17)
 
 The region `[0,log(3)]^8 minus [0,log(2)]^8` is partitioned up to
