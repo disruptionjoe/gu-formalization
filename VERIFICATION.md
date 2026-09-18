@@ -7,6 +7,34 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K240 common-anchor projected quartic shell (2026-09-18)
+
+K232's polynomial `P=m22-m211/2+m1111` is invariant under a common
+translation of its six coordinates. Thus K239's correct K218-weighted
+moment `K(q)=15 V(q)^2 M0(q)^4` holds for *any* Taylor anchor `b`, not
+only the q-dependent weighted center. Set `L=[0,log(4)]`,
+`U=[0,log(5)]`, `A_b(u,v)=A(u,v,b)`, and
+`R_b=Hbar-A_b(c0,c1)P(c2-b,...,c7-b)`. With `W=prod cosh(t_j)`,
+`C=2^8*256^6/(5!*pi^8)`, and `J_D(A_b)` denoting its weighted two-variable
+integral on D, the exact projected shell is
+
+`C int_(U^8\L^8) W Hbar = C [(K5-K4) J_(L^2)(A_b) + K5 J_(U^2\L^2)(A_b) + int_(U^8\L^8) W R_b]`.
+
+The u/v shell splits into disjoint `(U\L)*U` and `L*(U\L)` strips.
+Writing `D=M0*M2-M1^2` as half a double integral of
+`cosh(s)cosh(t)(cosh(s)-cosh(t))^2` proves `K5>K4`; it does not prove
+the sign of `A_b` or `R_b`. K230's S6 projection permits replacing the
+left integrated Hbar by the original H on this invariant shell, not
+pointwise. Independent six-coordinate discrete weighted replay checks
+multiple non-centered anchors, the nested u/v decomposition, and hostile
+single-coordinate translation and wrong-weight controls. The theorem
+removes an artificial difference-of-absolute-cube-quartics loss. It does
+not bound either variable coefficient or the directly integrated signed
+remainder, establish a whole-shell upper/cost, complete K215's prefix or
+compose other boundaries. SC-ACT-01/02 (`ASSERTS`), SC-META-53
+(`UNCERTAIN`), LT-GR6b/LT-SM8 (`NEEDS`), canon and public posture do not
+move.
+
 ## K239 K218-weighted projected quartic cube moment (2026-09-18)
 
 Let `Hbar` be K230's `S6` projection of the original signed K185/K218

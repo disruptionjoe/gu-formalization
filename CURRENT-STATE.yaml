@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 15ec3f6b385ce6935ecb1964cd2a1669d6e65844
+revision_basis: 8f339da068d26bd2890344e42067d8d896722f7a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K240 uses K232's translation invariance to keep one common Taylor
+    anchor across K239's nested q=4,5 cubes. The projected quartic's
+    weighted six-coordinate moment K(q)=15 V(q)^2 M0(q)^4 is independent
+    of that anchor. Its third-shell contribution is exactly the positive
+    geometric increment K5-K4 times the low u/v square A_b integral,
+    plus K5 times the two disjoint high strips' A_b integral. The
+    same-anchor signed R_b remainder is integrated on the shell itself.
+    Independent non-centered weighted discrete replay and hostile
+    nontranslation/wrong-weight controls pass. This removes artificial
+    subtraction of two absolute quartic cube uppers, but no uniform A_b
+    interval, correlated R_b shell bound, cost or full signed certificate
+    follows. Source, physics ledger, canon and public posture do not move.
+
     K239 exactly integrates K231/K232's S6-projected quartic polynomial over
     the six exchangeable K218 auxiliaries on each full q=4 and q=5 cube,
     using the actual product cosh(t)dt measure. With M_k=int_0^log(q)
@@ -8237,6 +8250,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K240 gives an exact common-anchor signed third-shell decomposition and
+  positive geometric factor increment, but not a sign for variable A_b or
+  the integrated R_b remainder. Can a covered correlated bound for A_b on
+  the low u/v square and two disjoint high strips, together with a direct
+  same-anchor R_b shell enclosure, meet K224's 1.7933e-22 allocation at
+  feasible cost? A positive factor cannot transfer to signed Hbar.
+
   K239 removes six polynomial-integration coordinates from K230/K231's
   projected quartic on each full q=4,5 cube under the correct K218 measure.
   Can a uniform correlated enclosure for the variable A(u,v,b(q)) and the
@@ -8396,6 +8416,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For K240, select one common b and certify the A_b integrals on the low
+  square and disjoint high strips and the signed R_b remainder directly on
+  the third shell, with pi^-8 and K224's 1.7933e-22 budget. Prove a covered
+  interval/cost allocation or switch to a correlated cell rule or an
+  independent source-facing route. Do not substitute finite sign samples,
+  independent absolute cube residual bounds or K238's positive floor.
+
   For K239, bound A on the two weighted u/v squares and R5 after all six
   exchangeable auxiliaries are integrated under product cosh(t)dt, or prove a
   direct correlated shell enclosure. Compare the resulting cost and complete
