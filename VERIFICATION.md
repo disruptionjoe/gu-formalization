@@ -7,6 +7,34 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K233 fixed-anchor two-exception Taylor radius (2026-09-18)
+
+For the `S6`-projected original signed K185/K218 rational-cosh core, fix
+`(u,v,b)=(5/4,17/8,1)`, let two of the six remaining coordinates equal
+`b+h`, the other four equal `b`, and take `h>=0`. K231's exact low-jet
+identities and K232's `P(1,1,0,0,0,0)=1` give `Hbar(h)=A h^4+R5(h)`.
+The exact rational `A` is positive. If one raw term is
+`w product_i(a_i+n_i h)^-1`, all `a_i>0` and `n_i>=0`; its fifth
+Taylor coefficient in absolute value at any `t>=0` is bounded by
+`|w| product_i a_i^-1 (sum_i n_i/a_i)^5`. Summing before dividing by
+the fifteen projected two-coordinate directions gives the exact rational
+`B5` in `lab/process/k233-order-six-two-exception-local-radius.json`.
+Taylor's integral remainder proves `|R5(h)|<=B5 h^5`, and exact rational
+comparison gives `1/30000<A/B5<1/25000` (approximately `3.744085e-5`).
+Thus the projected core is positive for `0<h<A/B5` on this fixed ray.
+
+The producer computes the K231 quartic and the raw unsigned fifth bound;
+an independent raw-entry power-sum replay checks both exact rationals and
+rejects an original-sign mutation. The bracket's upper end means only this
+*specified sufficient bound* no longer certifies positivity there. If one
+tried to cover a length-four ray using intervals no wider than this single
+fixed-anchor radius, more than 100,000 would be needed; no such cover was
+built, and this is not a necessary cost for correlated or reanchored methods.
+There is no global coefficient or full-core sign, six-coordinate cell
+remainder, signed third-shell integral or K215 result. Separate boundaries,
+source SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`), physics ledger,
+canon and inherited full-rule `<9.683e-7` ceiling do not move.
+
 ## K232 nonnegative shape of the projected quartic jet (2026-09-18)
 
 K231's six-variable projected quartic is `A(u,v,b)P(x)`, where

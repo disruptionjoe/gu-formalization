@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K233 fixed-anchor two-exception Taylor radius
+
+- `channel-swings/k233_order_six_two_exception_local_radius.py` combines
+  K231's exact positive quartic coefficient with a raw-term absolute fifth
+  derivative bound and records the exact rational sufficient radius.
+- `channel-swings/k233_order_six_two_exception_local_radius_probe.py`
+  independently traverses K185's raw entries, uses power sums for the
+  fourth coefficient, checks the fifth bound and a hostile sign mutation.
+  Neither script supplies a uniform reanchored cell or third-shell integral.
+
+```sh
+python3 tests/channel-swings/k233_order_six_two_exception_local_radius.py
+python3 tests/channel-swings/k233_order_six_two_exception_local_radius_probe.py
+```
+
 ## K232 projected quartic sum of squares
 
 - `channel-swings/k232_order_six_quartic_sos.py` expands all 45 disjoint-pair

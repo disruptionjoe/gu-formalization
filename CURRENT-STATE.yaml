@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 99e1449f778db49e82f9564bd325789078284c04
+revision_basis: f4fedc3aad586e46e03ed22875478d65af6484ce
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K233 gives a rigorous fixed-anchor two-exception positivity radius for
+    K230's projected signed rational-cosh core. At (u,v,b)=(5/4,17/8,1),
+    exact A>0 and a deliberately conservative raw-term absolute fifth
+    derivative B5 yield Hbar(h)>=A*h^4-B5*h^5 and
+    1/30000<A/B5<1/25000. Independent raw power-sum replay and a hostile
+    original-sign control pass. This tiny sufficient radius is a method-cost
+    warning, not a necessary node count, uniform cell bound, complete third
+    shell or global sign. K224/K229, K215, boundaries, source, physics,
+    ledger, canon and the inherited full-rule ceiling remain unchanged.
+
     K232 expresses K231's universal S6-projected quartic shape
     P=m22-m211/2+m1111 as one twelfth of 45 disjoint-pair squared
     difference products. Exact 90-monomial expansion and an independent
@@ -8153,6 +8163,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K233 quantifies how a raw-term unsigned fifth-derivative remainder loses
+  the projected quartic cancellation even on one fixed two-exception ray.
+  Can denominator-orbit or signed derivative grouping yield a uniform
+  reanchored coefficient/remainder rule on a covered mixed-band cell family
+  at viable cost against K224's 1.7933e-22 headroom? The K233 radius is
+  neither a whole-cell error nor a necessary cost lower bound. Compare a
+  concrete native I1B full-fermion mode and the farther a/c atlas anew.
+
   K232 proves a nonnegative, exact-zero-set quartic shape but neither a
   global sign/bound on its variable coefficient A(u,v,b) nor a uniform
   fifth-order remainder. Can a compact correlated reanchored cell rule
@@ -8280,6 +8298,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K233's fixed-anchor raw-term Taylor certificate has radius below 1/25000
+  cosh units along a two-exception ray. Test a genuinely correlated signed
+  fifth-derivative/denominator-orbit enclosure with a uniform A interval on
+  an explicitly covered reanchored mixed-band family and a measured
+  whole-shell error/cost. If it remains unfavorable, switch to the separately
+  typed native I1B full-fermion or farther a/c atlas route; do not extrapolate
+  the fixed ray or call its sufficient-radius count a necessary node theorem.
+
   K232's SOS controls only the homogeneous quartic shape. Determine an
   actual uniform signed coefficient interval A(u,v,b) and a fifth-order
   remainder on a covered reanchored cell family, then compare the certified

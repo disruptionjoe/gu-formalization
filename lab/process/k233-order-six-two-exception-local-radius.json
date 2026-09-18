@@ -1,0 +1,23 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k231": "9ffbe8912c7c47f4f4e4a4c84bdcea71d0b40a48e114780232f8159d75e95c1f",
+    "k232": "59ec32b920ee23f2c74d6181ea3c4fd26337e51eeae5ce464b10899029478fc0"
+  },
+  "object": "S6-projected original signed K185/K218 rational-cosh core at fixed (u,v,b)=(5/4,17/8,1) along any two-exception ray c_j=c_k=b+h, other c_2..c_7=b, h>=0",
+  "raw_signed_terms": 1864,
+  "projected_pair_count": 15,
+  "fourth_coefficient_A": "415214358487423546670877310771551766553842793071676607865393123585787151726328982084414086784/21862961846579443847422106474292456035235897078259668618741584366418080139149102953817445893458821786614952354068340179959343958984375",
+  "absolute_fifth_bound_B5": "123037870452253565734710733070447995218011492815601212454895716346855926507267069277016223101116680733612330496141829934099514696590384493335091386152486875877128677174843423735129394651755117535000768639563228455068069941996222656/242561094450734768292935759352541610680089942318477439656335457172635287559110167941563062086243699790930726176440218172545897973043520890412453939381486372424552096982722611250938465406476769018927716648710577861164136327582935314139384926030208287186023114327734375",
+  "certified_radius": "359893945341222387565652213876960133403152091942669870094582139858591199123054773737069442948693939884724693987028391605495167862568422460596148695674291296031624095069132943099962496195864417219153386083668764338799405639682/9612333629082309823024276021128749626407147876218844723038727839598119258380239787266892429774740682313463320011080463601524585671123788541804014543163037177900677904284642479306983957168368557421935049965877223052192964218454895",
+  "radius_decimal": "3.744085039374e-05",
+  "rational_bracket": [
+    "1/30000",
+    "1/25000"
+  ],
+  "theorem": "For h>=0 on the stated fixed-anchor two-exception ray, Hbar(h)=A*h^4+R5(h), |R5(h)|<=B5*h^5. K231 proves coefficients 0..3 vanish and K232 gives P(1,1,0,0,0,0)=1. For each raw rational term q(h)=product_i(a_i+n_i*h)^-1, n_i in {0,1,2} and a_i>0, Taylor's integral remainder has |q^(5)(t)|/5! = q(t)*h_5(n_i/(a_i+n_i*t)) <= q(0)*(sum_i n_i/a_i)^5 for t>=0. Sum absolute weighted term bounds, then average over 15 pairs. Hence Hbar(h)>0 for 0<h<A/B5; equality at h=0 is K225. The upper bracket on A/B5 says only this specified sufficient bound stops certifying positivity at 1/25000, not that the core turns negative there.",
+  "method_cost_note": "This raw-term sufficient radius is less than 1/25000 cosh units, whereas a third auxiliary shell spans cosh values 1..5. Covering a length-four ray by intervals no wider than this radius would require more than 100000 segments if this same fixed-anchor radius were the only local rule. That conditional count is not a necessary node count, a six-dimensional cover, a signed integral estimate, or a uniform reanchored-cell bound.",
+  "claim_ceiling": "Exact fixed-anchor two-exception local positivity radius for one deliberately conservative raw-term absolute fifth-derivative majorant. No global sign of A or Hbar, general six-coordinate cell remainder, third-shell certificate/cost lower bound, K215 prefix, boundary composition, source/physics/ledger/canon change."
+}
