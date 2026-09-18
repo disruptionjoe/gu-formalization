@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 828d4f46874eea88ba025226787acd980e3d9f70
+revision_basis: 61e2b60674408883f4a63955353db0ca0769c04b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,17 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K229 tests the entire third auxiliary shell [0,log(5)]^8 minus
+    [0,log(4)]^8 with the original signed K185 core and K221 intersected
+    cell enclosure. Its eight first-exceeding cells give an absolute upper
+    1.962e-20 using pi>31/10. All 64 one-axis midpoint candidates select
+    axes (2,2,5,5,5,6,7,2) and yield a 16-cell upper 1.468e-20, still
+    81.83 times K224's remaining 1.7933e-22 allocation. Independent cover,
+    exact measure and selected interval spot replay plus hostile axis mutation
+    pass. This excludes the *selected finite certificate* from that budget,
+    not the signed integral or other choices of partition, enclosure or
+    anchor. No K215, boundary, source or physics verdict follows.
+
     K228 computes the anchored pure three-coordinate Boolean mixed differences
     of K218's original 1,864-term signed rational-cosh core for all twenty
     triples among coordinates 2..7 under one rational witness template. Every one is
@@ -8103,6 +8114,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K229's complete third-shell first-exceeding 8/16-cell K221 certificate
+  improves on subdivision but remains 81.83 times K224's headroom. Can a
+  genuinely correlated signed higher-interaction or locally reanchored
+  enclosure deliver a certified third-shell bound at viable cost? The finite
+  selected upper is not a lower bound on the signed integral or a universal
+  node-cost theorem; farther K215 and separate boundaries remain open.
+
   K228 rules out an exact pair-only pointwise reconstruction: every pure
   triple has a nonzero anchored rational witness, even when it contains a
   K227 zero pair. Can a signed higher-interaction remainder or K221-intersected
@@ -8199,6 +8217,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K229's selected 16-cell K221 third-shell certificate is too wide for the
+  remaining allocation; do not rerun its fixed 64 one-axis candidate family
+  as if more output precision changed that. Seek signed higher-interaction
+  correlation, K221-intersected adaptive refinement with a real bound-to-cost,
+  or locally reanchored mixed-band control; compare the native I1B full
+  fermion and farther a/c atlas with their distinct typed prerequisites.
+  No upper above budget is an integral lower bound or general obstruction.
+
   Keep the thirteen nonzero pair terms and the order-three-through-six
   remainder in K228's anchored Boolean inversion; no exact pair-only
   replacement is available. Build an actual integrated signed or

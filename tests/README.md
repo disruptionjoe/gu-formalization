@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K229 complete third-shell finite signed-cell stress
+
+- `channel-swings/k229_order_six_third_shell_signed_cost_stress.py` computes
+  the eight-cell K221 signed enclosure and all 64 one-axis midpoint choices
+  on `[0,log(5)]^8` minus `[0,log(4)]^8`, selecting sixteen children.
+- `channel-swings/k229_order_six_third_shell_signed_cost_stress_probe.py`
+  independently reconstructs the exact cover and measure, replays selected
+  intervals on three cells, and rejects a hostile axis mutation.
+
+```sh
+python3 tests/channel-swings/k229_order_six_third_shell_signed_cost_stress.py
+python3 tests/channel-swings/k229_order_six_third_shell_signed_cost_stress_probe.py
+```
+
 ## K228 pure triple interactions
 
 - `channel-swings/k228_order_six_third_interaction_support.py` computes all

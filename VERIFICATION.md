@@ -7,6 +7,31 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K229 third-shell signed-cell cost stress (2026-09-18)
+
+The exact first-exceeding partition of `[0,log(5)]^8` minus
+`[0,log(4)]^8` has eight disjoint cells, up to null boundaries. For each,
+K221's signed quadratic rational-cosh interval, intersected with K220,
+retains all original K185 signs and the positive product-cosh measure.
+The eight-cell absolute upper is `<1.962e-20` with K224's `pi>31/10`.
+Testing all eight rational exp-coordinate midpoint axes per coarse cell
+selects `(2,2,5,5,5,6,7,2)`. Their sixteen-child sum has absolute upper
+`<1.468e-20`, or `81.83` times K224's remaining exact allocation
+`1.793293989949332e-22`. The independent probe reconstructs the cover,
+measure and aggregate exact rational intervals, recomputes selected children
+for three cells without the producer's partition/interval helpers, and
+detects an axis mutation. The replay shares K221's analytic cell theorem;
+this is internal algorithmic checking, not independent scientific validation.
+
+This finite selected certificate cannot establish the budget. Its **upper**
+above allocation neither lower-bounds the original signed integral nor
+excludes another selection across cells, finer adaptive enclosures, signed
+higher-interaction correlation or local reanchoring. It does not cover the
+farther region to K215, compose coalescent/quotient/reference boundaries,
+improve the inherited complete-rule `<9.683e-7` bound or move source
+SC-ACT-01/02 (`ASSERTS`), SC-META-53 (`UNCERTAIN`), physics ledger or canon.
+Reproduce with the K229 scripts in `tests/README.md`.
+
 ## K228 pure triple interaction support (2026-09-18)
 
 For fixed arbitrary `u,v,b`, expand the original K218 signed core `H` in
