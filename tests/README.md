@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K257 full-dimensional negative cancellation box
+
+- `channel-swings/k257_order_six_negative_box_cancellation.py` groups the
+  exact K185/K218 core into 318 sign-separated interval classes, certifies
+  a 4,096-cell eight-dimensional q-box strictly negative, integrates its
+  exact product-cosh mass, and proves the conservative `2.26e-20` magnitude
+  exceeds K247's complete positive-prefix upper.
+- `channel-swings/k257_order_six_negative_box_cancellation_probe.py`
+  reconstructs the groups from raw allocations in reverse order, replays the
+  full atlas at higher precision, and checks exact signed/absolute-weight and
+  K247-upper composition controls.
+
 ## K256 binary-face far-shell sign reversal
 
 - `channel-swings/k256_order_six_binary_face_sign_reversal.py` groups all

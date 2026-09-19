@@ -7,6 +7,44 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K257 full-dimensional negative cancellation box (2026-09-19)
+
+K257 converts K256's zero-measure sign theorem into an integrated result. Use
+`q_j=exp(t_j)` and `c_j=cosh(t_j)=(q_j+q_j^-1)/2`. On axes `1,3,5`, take
+`1792<=q_j<=2304`; on the other five axes take `1<=q_j<=13/5`. This box is
+disjoint from K247's complete `q<=15` cube.
+
+The producer regroups all 1,864 original signed K185/K218 terms by the
+unordered multiset of each denominator's subset of the three active axes and
+its count of inactive axes. There are 318 sign-separated interval classes.
+Different inactive subsets can share one interval bound without defining the
+same rational function, so positive and negative weights are accumulated
+separately and never netted. A `16^3` directed Arb atlas, with active q-width
+32 and 192-bit precision, certifies all 4,096 full eight-dimensional cells
+strictly negative. This is an interval certificate over each cell, not a
+sample of centers or a transfer from K256's face ray.
+
+The measure is integrated exactly. Since
+`integral cosh(t)dt=sinh(t)=(q-q^-1)/2`, each cell's product-cosh mass is a
+rational product of endpoint differences. Multiplying the cellwise negative
+core bounds by this mass and the rigorous normalization lower from `pi<22/7`
+gives a computed lower above `2.269218118e-20`; K257 declares the conservative
+strict lower `2.26e-20`. K247's complete positive `q<=15` prefix is at most
+`1.343095438489e-21`. The negative box therefore exceeds that complete upper
+by more than `2.125690456151e-20`, and their disjoint union has strictly
+negative signed integral.
+
+An independent replay reconstructs the 318 sign-separated classes from raw
+allocations in reverse order, reruns the complete atlas at 256-bit precision, and reproduces
+the mass floor. Exact rational interior controls make the original signed core
+negative and its absolute-weight mutation positive. The composition uses
+K247's upper bound, not its lower or central value.
+
+K257 proves enough negative mass exists to cancel K247's prefix. It does not
+bound the unaccounted complement, determine the full K218 integral or complete
+order-six error, prove K215 impossible, or change source, ledger, canon,
+paper, public posture or physical positivity.
+
 ## K256 binary-face far-shell sign reversal (2026-09-19)
 
 K256 answers K248's structural switch without computing q17. For every

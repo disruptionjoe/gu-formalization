@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "conditional_internal_structure_not_forward_physics_credit",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47",
+    "k247": "8853d4041af4111b948fdabe7013363411793cbb82c4ff1bdfdfea61778b61a3",
+    "k256": "e9b3a4b9899691a05545aa800b95d798262bf290f27fcffd64dd1a56b51c005b"
+  },
+  "object": "The exact K218 eight-auxiliary signed integrand on one full-dimensional q-box, including its product-cosh density and pi^-8 normalization",
+  "box": {
+    "active_axes": [
+      1,
+      3,
+      5
+    ],
+    "active_q_interval": [
+      "1792",
+      "2304"
+    ],
+    "active_q_step": "32",
+    "inactive_axes": [
+      0,
+      2,
+      4,
+      6,
+      7
+    ],
+    "inactive_q_interval": [
+      "1",
+      "13/5"
+    ],
+    "coordinate_map": "c_j=cosh(t_j)=(q_j+q_j^-1)/2 with t_j=log(q_j)",
+    "disjoint_from_k247_q_at_most_15": true
+  },
+  "grouping": {
+    "raw_signed_terms": 1864,
+    "sign_separated_active_subset_inactive_count_bound_classes": 318,
+    "sign_separation_rule": "Functions with equal interval bounds but different inactive subsets are never netted. Each class stores total positive and total absolute-negative weight separately.",
+    "group_sha256": "be7d012b471c0a5ca202672b7259aeec408aac414a44c7d31c499660003f608b"
+  },
+  "interval_atlas": {
+    "precision_bits": 192,
+    "grid_shape_active_axes": [
+      16,
+      16,
+      16
+    ],
+    "cells": 4096,
+    "strictly_negative_cells": 4096,
+    "maximum_core_upper": "[-8.59474389359755914458676667817078875619312985037534125410e-39 +/- 2.01e-97]",
+    "minimum_core_lower": "[-5.85479344760565110566573792654565395444842031224913301762e-38 +/- 3.75e-95]",
+    "cell_bounds_sha256": "979b6cf59774229d69ae3f8dad1dfbc8b01f1754abd57535af51ff3cb5ac97b5"
+  },
+  "integration": {
+    "measure_identity": "integral cosh(t) dt = sinh(t) = (q-q^-1)/2",
+    "inactive_product_measure": "1934917632/1160290625",
+    "raw_negative_mass_interval_lower": "[3.59728509151992434981950079810524157012242883022617515720e-31 +/- 3.28e-88]",
+    "normalization_lower_using_pi_less_than_22_over_7": "202830903402070802432/3215383215",
+    "computed_normalized_negative_mass_lower": "[2.26921811840019573433539795267224282302819996363120082289e-20 +/- 7.39e-78]",
+    "declared_strict_negative_mass_lower": {
+      "numerator": 113,
+      "denominator": 5000000000000000000000,
+      "decimal": "2.260000000000e-20"
+    }
+  },
+  "composition": {
+    "k247_complete_positive_prefix_upper": {
+      "numerator": 4284055841425214971428291070716334467492026494753263930481212428493916912141176934839397109842051518583189410056810229203182537082450066104964088678396217114640184794550338443712745380248980170704738654936792414233387056857372196216102505797312868580513417411539399421296386981152277527005171871506758232066268515247095564789514782304096526541385477945113142064111343773048269,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "1.343095438489e-21"
+    },
+    "strict_negative_excess_over_k247_upper": {
+      "numerator": 67802900335834476964012300197011311197978224968251794509150309119732477839023594834665321448437177328509894237492653173861352471725894457730987292940337270181734620195908393352012296037821545780603700790545345032239172448399146460064760495501964703723580716064580051591726389455594801681227911720236413450178265979211370584025254864426571675390403837287448857018453963844139231,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "2.125690456151e-20"
+    },
+    "result": "the K257 box alone has more negative product-cosh mass than the complete positive K247 q<=15 prefix; their disjoint union therefore has strictly negative signed integral"
+  },
+  "controls": "Independent reverse-order higher-precision replay reconstructs the 125 groups from raw allocations and the complete atlas; exact rational interior points, absolute-weight mutation, K247-upper rather than lower composition, and q-box disjointness are checked.",
+  "source_routing": "SC-ACT-01/02 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-GR6b/LT-SM8/RA-F1/AC-F1 remain NEEDS.",
+  "decision": "Farther signed cancellation is now quantitatively real: one certified full-dimensional region cancels K247's complete positive prefix. The next question is global composition of the remaining complement, not whether negative mass exists or whether q17 is positive.",
+  "claim_ceiling": "Exact sign and negative-mass lower bound on the declared K257 box, plus a negative integral on its union with K247 q<=15. No sign or bound for the unaccounted complement, full K218 integral, complete original order-six error, K215 impossibility, source/ledger/canon/paper/public-posture change, or physical positivity."
+}

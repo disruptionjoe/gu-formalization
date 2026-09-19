@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 610f28018eeb461f1e91b5652c268f23fdc2be6c
+revision_basis: ce1e43a686b02903bdcb4221ab6a5e825e5c0b2c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K257 turns K256's pointwise sign reversal into a full-dimensional
+    product-cosh cancellation certificate. Set q_j=exp(t_j), so
+    c_j=cosh(t_j)=(q_j+q_j^-1)/2. On active axes {1,3,5}, take
+    1792<=q_j<=2304; on the other five axes take 1<=q_j<=13/5. Exact
+    grouping of the 1,864 K185/K218 signed terms into 318 sign-separated
+    active-subset/inactive-count interval classes and a 16^3 directed atlas
+    certify all 4,096 cells strictly negative. Positive and negative weights
+    remain separate whenever unequal functions share one interval bound. Since
+    integral cosh(t)dt=sinh(t)=(q-q^-1)/2, every cell's product-cosh mass is
+    exact. With pi<22/7, the box contributes less than -2.26e-20. This
+    magnitude exceeds K247's complete positive q<=15 upper
+    1.343095438489e-21 by more than 2.125690456151e-20, so their disjoint
+    union has strictly negative signed integral. A reverse-order,
+    higher-precision replay reconstructs the complete atlas from raw
+    allocations and checks exact signed and absolute-weight controls. This
+    proves that farther cancellation can erase the K247 prefix; it does not
+    control the unaccounted complement, determine the full K218 integral or
+    complete order-six error, prove K215 impossible, or move source, physics
+    ledger, canon or public posture.
+
     K256 supplies the structural farther-region theorem required by K248
     without enumerating q17. On each of the 255 nonempty binary face rays,
     set a selected subset of the eight K218 cosh coordinates equal to R and
@@ -8519,6 +8539,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K257 proves that one full-dimensional negative K218 box carries more
+  product-cosh mass than K247's complete positive q<=15 prefix, so legal
+  farther cancellation is quantitatively real. Which global composition can
+  control the remaining complement without discarding signed correlation:
+  a symmetry/decomposition of the K257 box orbit, a certified partition of
+  the adjacent first-exceeding regions, or a consuming far-shape a/c
+  derivative atlas? Do not infer the full integral's sign or resume q17 from
+  the negative union result.
+
   K255 proves that K254's exact local principal closure is insufficient to
   select a full operator or spectrum. K250 already established that the source
   corpus displays a candidate but admits an unselected southeast rival; K255
@@ -8721,16 +8750,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K256 as the active K218 farther-region structural result. The exact
-  binary-face census proves that the core has both signs and a zero crossing
-  on every cube boundary R>=4096, so an eventually one-signed pointwise tail
-  is unavailable. The next K218 step must consume those sign neighborhoods in
-  the actual product-cosh measure and prove a magnitude/volume balance over a
-  substantial region or a legal cross-shell cancellation against K247's
-  positive q<=15 prefix. A face ray has zero measure and the continuity
-  theorem supplies no integrated cancellation by itself. Do not resume q17 or
-  another retained-order increase, and do not call K256 a global tail sign,
-  full-error lower bound, K215 impossibility, physics result or source verdict.
+  Treat K257 as the active K218 farther-region result. Its declared
+  eight-dimensional q-box is strictly negative cell by cell and its rigorous
+  product-cosh mass lower exceeds K247's complete positive q<=15 upper, so the
+  disjoint union is negative. Farther cancellation is therefore not merely
+  pointwise or hypothetical. The next K218 step must control the unaccounted
+  complement with a signed global composition: exploit symmetry or orbit
+  images of the K257 region, certify adjacent first-exceeding boxes, or supply
+  another structure that bounds the remaining positive and negative mass.
+  Do not resume q17 or another retained-order increase, and do not call the
+  negative union a sign for the full K218 integral, a complete-error bound,
+  K215 impossibility, physics result or source verdict.
 
   Treat K255 as the active I1B data-sufficiency result and K254 as its exact
   conditional principal input. K250 already proves that equation 9.16 is a
@@ -8747,12 +8777,11 @@ next_condition: >-
   typed structural/physics arc. This is a data-dependency result, not a theorem
   that GU has no valid completion.
 
-  Keep K248's strictly positive complete q=15-to-q=16 shell as the numerical
-  switch predicate that K256 answers only at pointwise structural scope. K256
-  proves far-shell sign reversal but not the integrated cancellation needed
-  to offset K247. Do not spend the next selection on q17 or another
-  retained-order increase; require a measure-aware composition of the K256
-  sign regions or switch to a separately typed arc.
+  Keep K248's strictly positive complete q=15-to-q=16 shell as a local shell
+  result, but K257 now proves a separate far box has enough negative mass to
+  offset all of K247's q<=15 prefix. Do not add these as if they partitioned
+  the whole complement. The next decision is the signed global composition of
+  the regions still unaccounted for, not another retained-order shell.
 
   Keep K185/K188's excision union and K204/K209's cubature errors out of the
   exact K213/K218 budget: both price alternative routes, while K213 consumes
