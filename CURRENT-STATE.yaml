@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 92a8ff56f809c16e56f59c481fe9e8cb7eafa4a7
+revision_basis: 8e696d5bd0aa6e36b661fa4be26292e9c0c1305b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K245 resolves the remaining K185/K188 route-composition ambiguity. Their
+    9.196543625379e-23 face/radial/small-radius boundary union prices the
+    excisions required by the alternative determinant-quotient numerical
+    core. K213 instead consumes all 1,864 original signed terms and the full
+    Gamma radius, and K218 exactly integrates the original complete uniform
+    thirteen-simplex. Those excision costs are therefore not additive on the
+    exact K213/K218 route. The resulting post-K224/K242 remainder is
+    1.148543235252e-22. After K244's q=6-through-q=10 upper, K245's signed
+    degree-seventeen ladder certifies q=11 and q=12 with complete uppers
+    2.288749722745e-23 and 6.248379080227e-23, leaving
+    1.908648040585e-23. The q=13 complete lower is
+    1.482895242660e-22, 7.76935 times that current remainder, so q13 is the
+    first boundary of this shellwise absolute allocation. This is not a
+    full-error lower bound or K215 impossibility: earlier upper bounds or a
+    separately proved legal cross-shell cancellation could change the
+    composition. Independent raw-entry orbit, order-seventeen, Newton-tail,
+    and full-domain route replays pass. Source, ledger, canon, and public
+    posture do not move.
+
     K244 replaces K243's coarse q-1 tail corner by the exact transformed
     value cosh(log(q))-1=(q-1)^2/(2q), raises the retained signed expansion
     through total degree fifteen, and certifies every K218 core shell from
@@ -8307,23 +8326,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K244 certifies the exact K218 core through q=10 under K243's composed
-  10^-21 allocation. After reserving the q=6-through-q=10 complete uppers,
-  only 1.249233218177e-23 remains, while the next q=10-to-q=11 shell has a
-  rigorous complete lower 2.104909024706e-23. Which earlier dominant ceiling
-  can be structurally sharpened enough to reopen q=11, or can a legal
-  cancellation-preserving composition replace shellwise absolute allocation?
-  Do not raise Taylor order on q11 merely to repeat the allocation failure,
-  infer that the full original order-six error exceeds 10^-21, or call K215
-  impossible.
+  K245 certifies the exact K213/K218 core through q=12 under the corrected
+  10^-21 route composition. After q=6-through-q=12 only
+  1.908648040585e-23 remains, while the q=12-to-q=13 complete lower is
+  1.482895242660e-22. Which earlier dominant ceiling can be structurally
+  sharpened enough to reopen q13, or can a legal cancellation-preserving
+  composition replace shellwise absolute allocation? Do not raise Taylor
+  order on q13 merely to repeat the allocation failure, infer that the full
+  original order-six error exceeds 10^-21, or call K215 impossible.
 
-  K244 proves that K204/K209 common-reference moment and derivative errors
-  belong only to the alternative K203/K208 cubature route: K213 cancels the
-  reference weight and K218 exactly eliminates the original uniform simplex.
-  The current exact route retains K185/K188 quotient, face, radial and
-  small-radius transfer ceilings, but it does not add an unused quadrature's
-  error. Reopen the K204/K209 derivative owner only if that cubature branch
-  becomes competitive again.
+  K245 proves that K185/K188 face, radial, and small-radius excision costs
+  belong only to the alternative determinant-quotient numerical route. K213
+  consumes all original signed terms and the full Gamma radius, and K218
+  exactly eliminates the complete original uniform simplex, so neither those
+  excisions nor K204/K209's unused cubature errors are additive on this exact
+  route. Reopen either owner only if its alternative branch is revived.
 
   K241 certifies the common-anchor b=1 coefficient A_1(u,v) on the complete
   [1,5]^2 outer square by an exact 8-by-8 rational Taylor atlas:
@@ -8498,21 +8515,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K244's q<=10 exact-route certificate as the active allocation. The
-  q=6-through-q=10 shell upper is 1.039655508961e-23 and the remaining
-  allocation is 1.249233218177e-23. The q=10-to-q=11 complete lower is
-  2.104909024706e-23, so another Taylor order cannot make q11 fit without
-  changing earlier allocations or composing cancellation across the current
-  absolute boundaries. First attack the dominant earlier ceiling with a
-  structural sharpening or prove a legal cross-shell cancellation theorem;
-  otherwise rerank away from this certificate route. Do not call this an
-  actual full-error lower bound or K215 impossibility.
+  Treat K245's q<=12 full-domain K213/K218 certificate as the active
+  allocation. After q=6-through-q=12 the remaining allocation is
+  1.908648040585e-23. The q=12-to-q=13 complete lower is
+  1.482895242660e-22, so another Taylor order cannot make q13 fit without
+  changing earlier upper allocations or composing cancellation across the
+  current absolute shell boundaries. First attack a dominant earlier ceiling
+  with a structural sharpening or prove a legal cross-shell cancellation
+  theorem; otherwise rerank away from this certificate route. Do not call
+  this an actual full-error lower bound or K215 impossibility.
 
-  Keep K204/K209 out of the exact K218 budget: they price the alternative
-  common-reference cubature and are not additive after K213/K218's exact
-  reference cancellation and uniform-simplex elimination. Their complete
-  derivative owner is needed only if that cubature route is revived. Retain
-  K185/K188 quotient, face, radial and small-radius transfer ceilings.
+  Keep K185/K188's excision union and K204/K209's cubature errors out of the
+  exact K213/K218 budget: both price alternative routes, while K213 consumes
+  the full Gamma radius and K218 exactly eliminates the complete original
+  uniform simplex. Their owners are needed only if those branches are
+  revived.
 
   Use K238's quantitative global regularizer floor where only positivity or
   a coarse inverse bound is needed; do not spend another 786432-cell-class

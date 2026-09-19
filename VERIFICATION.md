@@ -2,10 +2,42 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-18"
+updated_at: "2026-09-19"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K245 full-domain route composition and q11/q12 shell ladder (2026-09-19)
+
+K185/K188's face, small-radius, and large-radius ceilings are the cost of
+excisions used to create their compact determinant-quotient numerical core.
+K213 instead applies its positive Bessel--Laplace representation to all 1,864
+original signed K185 permutation terms and integrates the full Gamma radius,
+without a `rho<=1/4` restriction. K218 then integrates the original complete
+uniform thirteen-simplex exactly for every finite auxiliary point. The exact
+K213/K218 route therefore makes none of the K185/K188 excisions: their
+`9.196543625379e-23` boundary union remains valid for the alternative quotient
+route, but it is not an additive error on K218.
+
+Removing that route double count leaves `1.148543235252e-22` after K224 and
+K242. K244's q=6-through-q=10 complete upper is `1.039655508961e-23`.
+Extending the exact signed orbit expansion through total degree seventeen
+gives complete q=10-to-q=11 and q=11-to-q=12 uppers of
+`2.288749722745e-23` and `6.248379080227e-23`, respectively, leaving
+`1.908648040585e-23`. The q=12-to-q=13 complete lower is
+`1.482895242660e-22`, or `7.76935` times that remainder. Thus q11 and q12
+are certified and q13 is the first boundary of the current shellwise absolute
+allocation. This is not a lower bound on the original full order-six error or
+a K215 impossibility result: earlier upper bounds may be sharpened, and a
+separately proved legal cross-shell cancellation could change the composition.
+
+The independent replay reconstructs the 307 retained S6 orbits directly from
+all 1,864 raw signed entries, rebuilds every coefficient through degree
+seventeen from that independent orbit map, and recomputes
+`h_18` by Newton power sums. It also checks the full-domain route endpoints
+and rejects omitted-tail, re-added-boundary, and coarse-corner readings.
+SC-ACT-01/02 remain `ASSERTS`, SC-META-53 `UNCERTAIN`, LT-GR6b/LT-SM8
+`NEEDS`; no source, ledger, canon, or public posture moves.
 
 ## K244 exact-corner shell ladder and current-allocation boundary (2026-09-18)
 
