@@ -1,0 +1,577 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "conditional_internal_structure_not_forward_physics_credit",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47",
+    "k230": "e2b7c9a8af209d8dbde37a2c97a6a22aa654ec8e5bdc1187e3a46a1edcc89244",
+    "k247": "8853d4041af4111b948fdabe7013363411793cbb82c4ff1bdfdfea61778b61a3",
+    "k257": "5a2656ffbb7ccbfb2c26bdb327575556bddddafdb30716d95b2c1620c237ef17",
+    "k258": "78d93d027a1182e041697af618a2ccd668acaaedddb66b2fe9a04e8c721a873a"
+  },
+  "object": "The fixed K258 sign-separated matched-cell certificate family on all fifteen full-dimensional exceptional-pair boxes of the exact K218 signed integrand",
+  "family": {
+    "common_active_axis": 1,
+    "all_exceptional_pairs": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "active_q_interval": [
+      "1792",
+      "2304"
+    ],
+    "inactive_q_interval": [
+      "1",
+      "13/5"
+    ],
+    "matched_grid_shape": [
+      16,
+      16,
+      16
+    ],
+    "component_boxes": [
+      {
+        "exceptional_pair": [
+          2,
+          3
+        ],
+        "sign_separated_bound_classes": 192,
+        "group_sha256": "8fc96bf63ddc6737ddce539ff2bc3d66d04afea3f8cda8d8a00bce80276736fb",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          2,
+          4
+        ],
+        "sign_separated_bound_classes": 344,
+        "group_sha256": "47ddfa3f02bb69c7673aa55cdd79da54373452f4c15aa078153d64f597885a77",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          2,
+          5
+        ],
+        "sign_separated_bound_classes": 357,
+        "group_sha256": "a8e6b34bc1dde33b5794f10f1b1e807f06f9153be2fafa187b9c887dbcac0129",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096
+      },
+      {
+        "exceptional_pair": [
+          2,
+          6
+        ],
+        "sign_separated_bound_classes": 304,
+        "group_sha256": "b05f50bcc4178da23d3a856f3c5be34def972439d49f82e51a620c63fbf2c541",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          2,
+          7
+        ],
+        "sign_separated_bound_classes": 210,
+        "group_sha256": "6fe4d6ad1aa4fc343dc8a6dac908d03a44824d0fbfbe61a049a2adb6c242419a",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          3,
+          4
+        ],
+        "sign_separated_bound_classes": 327,
+        "group_sha256": "600549a2118ef98fa0f77ebb929a3bf076358b47cc053a3ba08b2c0acfdc3bf1",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096
+      },
+      {
+        "exceptional_pair": [
+          3,
+          5
+        ],
+        "sign_separated_bound_classes": 318,
+        "group_sha256": "be7d012b471c0a5ca202672b7259aeec408aac414a44c7d31c499660003f608b",
+        "strictly_negative_cells": 4096,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          3,
+          6
+        ],
+        "sign_separated_bound_classes": 358,
+        "group_sha256": "710f37a3c988faf45d2977f1da81e187f8235de9870ed2741810ddc4fa009290",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          3,
+          7
+        ],
+        "sign_separated_bound_classes": 258,
+        "group_sha256": "bde3e8aede244fcebaa40d94dbafb5c15c6ebc3b9319d0cce2b886e0ef2fb3db",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          4,
+          5
+        ],
+        "sign_separated_bound_classes": 235,
+        "group_sha256": "93a2c255b4d064e2f3ec9ca8aaa64df03a939c41bb4c0fd4acbc6a46d9b80cf6",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          4,
+          6
+        ],
+        "sign_separated_bound_classes": 364,
+        "group_sha256": "5b1f6379e7884e17348c3c1d1fbc51e4bbb07e0d012d121c6bbf0d7027d8cd46",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          4,
+          7
+        ],
+        "sign_separated_bound_classes": 395,
+        "group_sha256": "a32511109347e134d1abbc8293822902127193bb5f4c718ad9459cc7532b83c5",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          5,
+          6
+        ],
+        "sign_separated_bound_classes": 294,
+        "group_sha256": "ef5ac9a5f8cfa8bb17433f873083fb8ba836bfb9c7aea07687fc116405679bf8",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096
+      },
+      {
+        "exceptional_pair": [
+          5,
+          7
+        ],
+        "sign_separated_bound_classes": 267,
+        "group_sha256": "3b09c0bef703983e8fefbc72731e03397989ac3ca64d0b4d6cffcfec07e790d4",
+        "strictly_negative_cells": 4096,
+        "strictly_positive_cells": 0
+      },
+      {
+        "exceptional_pair": [
+          6,
+          7
+        ],
+        "sign_separated_bound_classes": 183,
+        "group_sha256": "ffb4ec88e3309b423fb3b0218a2bbd25187e31af6ac0f26347925df6c0089f2c",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0
+      }
+    ],
+    "composition_rule": "Every constituent box is enclosed independently with positive and negative weights kept separate; a subset adds only those complete valid intervals on matched cells."
+  },
+  "exhaustive_subset_certificate": {
+    "minimum_subset_size_checked": 9,
+    "subsets_checked": 9949,
+    "maximum_uniformly_negative_cardinality": 9,
+    "maximal_subsets": [
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "maximum_matched_cell_upper": "[-3.31401245235624379275120509837444924962663799992424323846e-39 +/- 3.68e-96]",
+        "selected_for_mass": true
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "maximum_matched_cell_upper": "[-2.45587972411603032914520471663323315371575293296079359787e-39 +/- 4.78e-96]",
+        "selected_for_mass": false
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "maximum_matched_cell_upper": "[-2.48217034010207962527451160320488313051494276569874109507e-39 +/- 1.18e-96]",
+        "selected_for_mass": false
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "maximum_matched_cell_upper": "[-2.62568402175635619467553916464821406900962707359021908679e-40 +/- 4.50e-97]",
+        "selected_for_mass": false
+      }
+    ],
+    "maximal_subset_count": 4,
+    "failing_subsets_by_size": {
+      "9": 5001,
+      "10": 3003,
+      "11": 1365,
+      "12": 455,
+      "13": 105,
+      "14": 15,
+      "15": 1
+    },
+    "nonnegative_upper_witness_count": 9945,
+    "nonnegative_upper_witness_sha256": "7982b0d817afbacbb32d2e6092bfa087884d69c591d5a228d660a3c4a902a6f0",
+    "k258_one_pair_extensions": [
+      {
+        "added_pair": [
+          2,
+          3
+        ],
+        "witness_cell_linear_index": 0,
+        "witness_upper": "[1.30432045051378140008888832023773841753308021031001626814e-38 +/- 4.01e-95]"
+      },
+      {
+        "added_pair": [
+          3,
+          4
+        ],
+        "witness_cell_linear_index": 0,
+        "witness_upper": "[8.98071569579764888022113633084317724060679908576752359251e-39 +/- 8.60e-97]"
+      },
+      {
+        "added_pair": [
+          3,
+          6
+        ],
+        "witness_cell_linear_index": 0,
+        "witness_upper": "[8.19556717394174908734575135640718304407632973431469375447e-40 +/- 6.02e-98]"
+      },
+      {
+        "added_pair": [
+          3,
+          7
+        ],
+        "witness_cell_linear_index": 0,
+        "witness_upper": "[7.93266101408125612605268249069068327608443140693521878243e-40 +/- 4.63e-97]"
+      },
+      {
+        "added_pair": [
+          4,
+          6
+        ],
+        "witness_cell_linear_index": 0,
+        "witness_upper": "[1.65139882964833907621126863081028442351932820765697151883e-39 +/- 4.57e-96]"
+      },
+      {
+        "added_pair": [
+          4,
+          7
+        ],
+        "witness_cell_linear_index": 0,
+        "witness_upper": "[7.50787283993196447683082364405982027577074038099609097321e-38 +/- 9.43e-96]"
+      },
+      {
+        "added_pair": [
+          6,
+          7
+        ],
+        "witness_cell_linear_index": 0,
+        "witness_upper": "[1.97257724547956895906401344565209204297759709494576377361e-38 +/- 4.04e-95]"
+      }
+    ],
+    "interpretation": "Every subset of size ten through fifteen, and every nonwinning size-nine subset, has at least one exact matched-cell upper endpoint greater than or equal to zero. This is maximality only for the declared finite certificate family."
+  },
+  "selected_nine_box_bundle": {
+    "selection_rule": "Choose the maximal subset with the most negative maximum matched-cell upper.",
+    "exceptional_pairs": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "strictly_negative_cells": 4096,
+    "maximum_bundle_upper": "[-3.31401227719393575214907123290825133838712158989150050389e-39 +/- 1.86e-96]",
+    "minimum_bundle_lower": "[-1.35347190164294609685538689930093123840342145823732660056e-37 +/- 1.07e-94]",
+    "cell_bounds_sha256": "01dc1e051f6fb91174e978fa3d43c31f4a4702bf5267e777b06d0ed12c44a1c2",
+    "includes_all_positive_components": [
+      [
+        2,
+        5
+      ]
+    ],
+    "includes_all_negative_components": [
+      [
+        3,
+        5
+      ],
+      [
+        5,
+        7
+      ]
+    ]
+  },
+  "integration": {
+    "measure_identity": "integral cosh(t) dt = sinh(t) = (q-q^-1)/2",
+    "raw_bundle_negative_mass_interval_lower": "[2.12385018708441608512624276109456677416816058269812391107e-31 +/- 3.43e-88]",
+    "normalization_lower_using_pi_less_than_22_over_7": "202830903402070802432/3215383215",
+    "computed_normalized_bundle_negative_mass_lower": "[1.33975462124501138425040010697107745576400546820315694184e-20 +/- 2.48e-77]",
+    "declared_strict_bundle_negative_mass_lower": {
+      "numerator": 133,
+      "denominator": 10000000000000000000000,
+      "decimal": "1.330000000000e-20"
+    },
+    "k247_complete_positive_prefix_upper": {
+      "numerator": 4284055841425214971428291070716334467492026494753263930481212428493916912141176934839397109842051518583189410056810229203182537082450066104964088678396217114640184794550338443712745380248980170704738654936792414233387056857372196216102505797312868580513417411539399421296386981152277527005171871506758232066268515247095564789514782304096526541385477945113142064111343773048269,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "1.343095438489e-21"
+    },
+    "strict_negative_excess_over_k247_upper": {
+      "numerator": 38138798900059470990578782551441970282541351578608120018505479456081793273278799371993025758525813245414067780757696994724176561021575693497609069530858445763314899558241747082090044480827922269667042080678801746743827165262614446639449614436332782377205696536796383696986928355517463776955005640448294129608612404058107965265194788559526795834402039426261839696867354957420481,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "1.195690456151e-20"
+    }
+  },
+  "controls": "An independent reverse-order 256-bit raw-allocation replay reconstructs all fifteen components, exhausts the size-nine-through-fifteen subset family, reproduces the four maximal bundles and canonical witness digest, and checks exact center, disjointness, absolute-weight and selected-pair mutation controls.",
+  "source_routing": "SC-ACT-01/02 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-GR6b/LT-SM8/RA-F1/AC-F1 remain NEEDS.",
+  "decision": "Nine boxes are the exact maximum certified by the fixed K258 matched-cell architecture. Further complement control requires a sharper inactive-coordinate subdivision, grouped integral, or other correlation-preserving enclosure rather than another subset choice.",
+  "claim_ceiling": "Exact maximality only for the declared finite interval certificate family and an exact negative integral on the selected nine-box union. A failed subset is not proved positive. No remaining-complement, full-integral, complete-order-six-error, K215, source, ledger, canon, paper, public-posture or physical-positivity conclusion."
+}

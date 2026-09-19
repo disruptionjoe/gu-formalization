@@ -7,6 +7,45 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K259 maximal fixed pair-box certificate family (2026-09-19)
+
+K259 reconstructs all fifteen full-dimensional exceptional-pair boxes with
+common active axis `1`, active q interval `[1792,2304]`, inactive interval
+`[1,13/5]`, and K258's `16^3` matched active grid. Every constituent retains
+its own sign-separated interval classes; subset composition adds only complete
+valid box intervals on equal-measure cells.
+
+The producer exhausts all 9,949 subsets of size nine through fifteen. Exactly
+four nine-box subsets are strictly negative on all 4,096 cells. Every other
+size-nine subset and every size-ten-through-fifteen subset has at least one
+exact matched-cell upper endpoint greater than or equal to zero, for 9,945
+canonical failure witnesses. Thus nine is the exact maximum for this fixed
+finite certificate architecture. This does not prove that a failed subset has
+positive integral; subdivision or a sharper correlated enclosure may still
+certify it.
+
+The strongest worst-cell-margin maximal bundle uses exceptional pairs
+`{2,4}`, `{2,5}`, `{2,6}`, `{2,7}`, `{3,5}`, `{3,6}`, `{3,7}`, `{4,5}`,
+and `{5,7}`. Pair
+`{2,5}` is all-positive on the matched atlas, pairs `{3,5}` and `{5,7}` are
+all-negative, and the other six are mixed or individually unresolved. The
+complete nine-box sum is strictly negative on all cells, with maximum upper
+below `-3.3140122e-39`.
+
+Exact product-cosh integration and `pi<22/7` give computed normalized negative
+magnitude above `1.339754621245e-20`; the conservative declared lower `1.33e-20`
+exceeds K247's complete positive `q<=15` upper by more than
+`1.195690456151e-20`. An independent reverse-order 256-bit raw-allocation
+replay reproduces the four maximal subsets, the canonical failure-witness
+digest, the selected mass, exact center sign, absolute-weight, disjointness,
+K258-extension and K247 composition controls.
+
+K259 closes only repeated subset choice under the fixed K258 enclosure. It
+does not control a failed subset's integral, the remaining pair boxes or other
+complement, the full K218 integral, complete order-six error, K215
+impossibility, source, ledger, canon, paper, public posture or physical
+positivity.
+
 ## K258 adjacent eight-box signed composition (2026-09-19)
 
 K258 extends K257 by composing adjacent regions rather than merely locating
