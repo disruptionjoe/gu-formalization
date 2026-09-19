@@ -231,7 +231,7 @@ def generate() -> dict:
             ),
         },
         "controls": (
-            "Independent reverse-order higher-precision replay reconstructs the 125 groups from raw allocations and the complete atlas; "
+            "Independent reverse-order higher-precision replay reconstructs the 318 groups from raw allocations and the complete atlas; "
             "exact rational interior points, absolute-weight mutation, K247-upper rather than lower composition, and q-box disjointness are checked."
         ),
         "source_routing": (

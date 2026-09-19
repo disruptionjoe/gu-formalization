@@ -7,6 +7,48 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K258 adjacent eight-box signed composition (2026-09-19)
+
+K258 extends K257 by composing adjacent regions rather than merely locating
+another negative sample. Fix axis `1` high and select exceptional-coordinate
+pairs `{2,5}`, `{3,5}`, `{4,5}`, `{5,6}`, `{5,7}`, `{2,4}`, `{2,6}`, and
+`{2,7}`. On every constituent box the three active q coordinates range over
+`[1792,2304]` and the other five over `[1,13/5]`. Distinct pairs assign at
+least one coordinate to disjoint high and low ranges, so the eight box
+interiors are disjoint.
+
+Every box is reconstructed independently from all 1,864 signed K185/K218
+terms. Its unequal rational functions retain separate positive and negative
+weights even when they share one interval bound. Only after each box has a
+valid interval are the eight intervals added on matched cells of equal exact
+product-cosh measure. Two components, pairs `{2,5}` and `{5,6}`, are strictly
+positive on all 4,096 cells; `{3,5}` and `{5,7}` are strictly negative on all
+cells; the other four are individually mixed or inconclusive under this
+enclosure. The complete eight-box matched sum is nevertheless strictly
+negative on every cell. Thus the result consumes certified positive lobes; it
+is not a union of preselected negative boxes.
+
+Exact integration using `integral cosh(t)dt=sinh(t)` and the rigorous
+normalization lower from `pi<22/7` gives computed normalized negative magnitude
+above `1.518866252873e-20`. K258 declares the conservative strict lower
+`1.51e-20`, exceeding K247's complete positive `q<=15` upper by more than
+`1.375690456151e-20`. Their disjoint union is therefore negative.
+
+An independent replay rebuilds all eight components from raw allocations in
+reverse order, reruns all 4,096 matched cells at 256-bit precision, and checks
+exact signed-negative and absolute-weight-positive center sums. Pairwise
+disjointness is checked directly. Adding omitted pair `{4,7}` makes at least
+one selected interval upper nonnegative, which proves only that this enclosure
+cannot silently absorb that box. It does not determine the added box's
+integral or obstruct a sharper certificate. K257's generated control text is
+also corrected from stale `125` prose to its executable and recorded `318`
+groups; no K257 mathematical value changes.
+
+K258 does not control the remaining seven pair boxes or any other complement,
+determine the full K218 integral or complete order-six error, prove K215
+impossible, or change source, ledger, canon, paper, public posture or physical
+positivity.
+
 ## K257 full-dimensional negative cancellation box (2026-09-19)
 
 K257 converts K256's zero-measure sign theorem into an integrated result. Use

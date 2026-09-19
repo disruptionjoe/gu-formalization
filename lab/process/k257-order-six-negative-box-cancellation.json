@@ -78,7 +78,7 @@
     },
     "result": "the K257 box alone has more negative product-cosh mass than the complete positive K247 q<=15 prefix; their disjoint union therefore has strictly negative signed integral"
   },
-  "controls": "Independent reverse-order higher-precision replay reconstructs the 125 groups from raw allocations and the complete atlas; exact rational interior points, absolute-weight mutation, K247-upper rather than lower composition, and q-box disjointness are checked.",
+  "controls": "Independent reverse-order higher-precision replay reconstructs the 318 groups from raw allocations and the complete atlas; exact rational interior points, absolute-weight mutation, K247-upper rather than lower composition, and q-box disjointness are checked.",
   "source_routing": "SC-ACT-01/02 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-GR6b/LT-SM8/RA-F1/AC-F1 remain NEEDS.",
   "decision": "Farther signed cancellation is now quantitatively real: one certified full-dimensional region cancels K247's complete positive prefix. The next question is global composition of the remaining complement, not whether negative mass exists or whether q17 is positive.",
   "claim_ceiling": "Exact sign and negative-mass lower bound on the declared K257 box, plus a negative integral on its union with K247 q<=15. No sign or bound for the unaccounted complement, full K218 integral, complete original order-six error, K215 impossibility, source/ledger/canon/paper/public-posture change, or physical positivity."

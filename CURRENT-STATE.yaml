@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ce1e43a686b02903bdcb4221ab6a5e825e5c0b2c
+revision_basis: 88a39a9206a5ebdd2af72370af144d438e032952
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K258 composes K257 with seven adjacent full-dimensional pair boxes while
+    preserving signed correlation. Fix q_1 high and use exceptional pairs
+    {2,5}, {3,5}, {4,5}, {5,6}, {5,7}, {2,4}, {2,6}, and {2,7}; on each box
+    the three active q coordinates lie in [1792,2304] and the other five in
+    [1,13/5]. The eight interiors are disjoint. Two constituent boxes are
+    strictly positive on all 4,096 matched cells, two are strictly negative
+    on all cells, and four are individually mixed or unresolved by this
+    enclosure. Each box is bounded independently with sign-separated weights;
+    only the eight valid intervals are then added. The matched 16^3 sum is
+    strictly negative cell by cell. Exact product-cosh integration and
+    pi<22/7 give computed normalized magnitude above 1.5188662528e-20 and a
+    conservative lower 1.51e-20. This still exceeds K247's complete positive
+    q<=15 upper by more than 1.375690456151e-20. A reverse-order 256-bit raw
+    replay reproduces every component and the bundle; adding omitted pair
+    {4,7} defeats this selected interval certificate, so it is not silently
+    globalized. K258 proves cancellation survives a connected adjacent-region
+    composition that consumes positive lobes. The other seven pair boxes and
+    all remaining complement stay uncontrolled; no full-integral, complete-
+    error, K215, source, ledger, canon or public-posture conclusion follows.
+
     K257 turns K256's pointwise sign reversal into a full-dimensional
     product-cosh cancellation certificate. Set q_j=exp(t_j), so
     c_j=cosh(t_j)=(q_j+q_j^-1)/2. On active axes {1,3,5}, take
@@ -8539,6 +8559,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K258 proves that K257's negative region can be expanded to a connected
+  eight-box adjacent bundle while explicitly consuming two all-positive
+  constituent boxes. Its conservative negative mass still exceeds K247's
+  complete positive prefix by more than 1.3756e-20. Which sharper signed
+  composition can now absorb the remaining seven pair boxes and the rest of
+  the complement: an inactive-coordinate subdivision of the exact K230 S6
+  projection, a correlation-preserving grouped integral, or a consuming
+  far-shape derivative atlas? Direct and projected whole-fifteen-box interval
+  enclosures were inconclusive, and adding {4,7} defeats K258's selected
+  certificate. Do not interpret those failed enclosures as a sign theorem,
+  resume q17, or infer the full K218 integral.
+
   K257 proves that one full-dimensional negative K218 box carries more
   product-cosh mass than K247's complete positive q<=15 prefix, so legal
   farther cancellation is quantitatively real. Which global composition can
@@ -8750,6 +8782,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K258 as the active K218 adjacent-region result. The selected eight
+  disjoint pair boxes include two all-positive and two all-negative lobes,
+  while their complete matched-cell sum is strictly negative and its
+  normalized product-cosh magnitude is greater than 1.51e-20. The next step
+  must control new complement rather than repeat this bundle: sharpen the
+  exact S6-projected enclosure with honest inactive-coordinate correlation,
+  certify a disjoint remaining-region family, or supply another structure
+  that bounds the unresolved positive and negative mass together. The failed
+  whole-fifteen-box and {4,7}-addition interval certificates are method
+  boundaries only, not lower bounds or sign results. Do not resume q17 or
+  infer the full integral, complete order-six error, K215 impossibility,
+  physics result or source verdict.
+
   Treat K257 as the active K218 farther-region result. Its declared
   eight-dimensional q-box is strictly negative cell by cell and its rigorous
   product-cosh mass lower exceeds K247's complete positive q<=15 upper, so the

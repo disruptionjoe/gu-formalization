@@ -1,0 +1,247 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "conditional_internal_structure_not_forward_physics_credit",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47",
+    "k230": "e2b7c9a8af209d8dbde37a2c97a6a22aa654ec8e5bdc1187e3a46a1edcc89244",
+    "k247": "8853d4041af4111b948fdabe7013363411793cbb82c4ff1bdfdfea61778b61a3",
+    "k257": "5a2656ffbb7ccbfb2c26bdb327575556bddddafdb30716d95b2c1620c237ef17"
+  },
+  "object": "The exact K218 eight-auxiliary signed integrand on a connected union of eight full-dimensional adjacent pair boxes, including product-cosh density and pi^-8 normalization",
+  "bundle": {
+    "selected_exceptional_pairs": [
+      [
+        2,
+        5
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ]
+    ],
+    "common_active_axis": 1,
+    "active_q_interval": [
+      "1792",
+      "2304"
+    ],
+    "active_q_step": "32",
+    "inactive_q_interval": [
+      "1",
+      "13/5"
+    ],
+    "constituent_boxes": 8,
+    "pairwise_disjoint_interiors": true,
+    "disjointness_reason": "Distinct exceptional pairs disagree on at least one axis assigned to disjoint q-ranges [1792,2304] and [1,13/5]; overlaps are empty, not merely measure zero.",
+    "includes_k257_pair": [
+      3,
+      5
+    ],
+    "component_boxes": [
+      {
+        "exceptional_pair": [
+          2,
+          5
+        ],
+        "active_axes": [
+          1,
+          2,
+          5
+        ],
+        "sign_separated_bound_classes": 357,
+        "group_sha256": "a8e6b34bc1dde33b5794f10f1b1e807f06f9153be2fafa187b9c887dbcac0129",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096,
+        "maximum_core_upper": "[4.05249520646547402981083838333431897191751563617795647245e-39 +/- 4.56e-96]",
+        "minimum_core_lower": "[7.48284812454322676539102177382728461036810165923312801712e-40 +/- 1.82e-97]"
+      },
+      {
+        "exceptional_pair": [
+          3,
+          5
+        ],
+        "active_axes": [
+          1,
+          3,
+          5
+        ],
+        "sign_separated_bound_classes": 318,
+        "group_sha256": "be7d012b471c0a5ca202672b7259aeec408aac414a44c7d31c499660003f608b",
+        "strictly_negative_cells": 4096,
+        "strictly_positive_cells": 0,
+        "maximum_core_upper": "[-8.59474389359755914458676667817078875619312985037534125410e-39 +/- 2.01e-97]",
+        "minimum_core_lower": "[-5.85479344760565110566573792654565395444842031224913301762e-38 +/- 3.75e-95]"
+      },
+      {
+        "exceptional_pair": [
+          4,
+          5
+        ],
+        "active_axes": [
+          1,
+          4,
+          5
+        ],
+        "sign_separated_bound_classes": 235,
+        "group_sha256": "93a2c255b4d064e2f3ec9ca8aaa64df03a939c41bb4c0fd4acbc6a46d9b80cf6",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "maximum_core_upper": "[7.96633602618547523993922221531410017625932053015140032045e-40 +/- 1.67e-97]",
+        "minimum_core_lower": "[-7.96763711840115773957425785670519703978276678134363038121e-40 +/- 2.19e-97]"
+      },
+      {
+        "exceptional_pair": [
+          5,
+          6
+        ],
+        "active_axes": [
+          1,
+          5,
+          6
+        ],
+        "sign_separated_bound_classes": 294,
+        "group_sha256": "ef5ac9a5f8cfa8bb17433f873083fb8ba836bfb9c7aea07687fc116405679bf8",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096,
+        "maximum_core_upper": "[1.08871193606159139024477874025498790701180241044843376328e-38 +/- 7.82e-97]",
+        "minimum_core_lower": "[1.78350282448749182643666182027071500573031442790369053536e-39 +/- 4.86e-96]"
+      },
+      {
+        "exceptional_pair": [
+          5,
+          7
+        ],
+        "active_axes": [
+          1,
+          5,
+          7
+        ],
+        "sign_separated_bound_classes": 267,
+        "group_sha256": "3b09c0bef703983e8fefbc72731e03397989ac3ca64d0b4d6cffcfec07e790d4",
+        "strictly_negative_cells": 4096,
+        "strictly_positive_cells": 0,
+        "maximum_core_upper": "[-5.40258851779393582845108618842006737530705371698718661642e-39 +/- 1.81e-96]",
+        "minimum_core_lower": "[-5.67091553432118035536992010686843733541971293787288426896e-38 +/- 5.65e-96]"
+      },
+      {
+        "exceptional_pair": [
+          2,
+          4
+        ],
+        "active_axes": [
+          1,
+          2,
+          4
+        ],
+        "sign_separated_bound_classes": 344,
+        "group_sha256": "47ddfa3f02bb69c7673aa55cdd79da54373452f4c15aa078153d64f597885a77",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "maximum_core_upper": "[4.56023886892510049128435636836629976926896290552685332971e-39 +/- 1.63e-96]",
+        "minimum_core_lower": "[-5.84551236360445058649824164595713946373210969792154226156e-39 +/- 3.67e-96]"
+      },
+      {
+        "exceptional_pair": [
+          2,
+          6
+        ],
+        "active_axes": [
+          1,
+          2,
+          6
+        ],
+        "sign_separated_bound_classes": 304,
+        "group_sha256": "b05f50bcc4178da23d3a856f3c5be34def972439d49f82e51a620c63fbf2c541",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "maximum_core_upper": "[7.06493942985348274665340734074343989936746309363337684122e-40 +/- 4.62e-97]",
+        "minimum_core_lower": "[-7.07057587324878585237287948256142204883245443110172155873e-40 +/- 2.15e-97]"
+      },
+      {
+        "exceptional_pair": [
+          2,
+          7
+        ],
+        "active_axes": [
+          1,
+          2,
+          7
+        ],
+        "sign_separated_bound_classes": 210,
+        "group_sha256": "6fe4d6ad1aa4fc343dc8a6dac908d03a44824d0fbfbe61a049a2adb6c242419a",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "maximum_core_upper": "[8.57931165915638830958856745198170460505904393173927177063e-40 +/- 2.63e-97]",
+        "minimum_core_lower": "[-8.55246324992025864908868111084668000352291348709488682103e-40 +/- 2.46e-97]"
+      }
+    ]
+  },
+  "interval_atlas": {
+    "precision_bits": 192,
+    "matched_grid_shape": [
+      16,
+      16,
+      16
+    ],
+    "matched_cells": 4096,
+    "strictly_negative_bundle_cells": 4096,
+    "maximum_bundle_upper": "[-5.71766209875002268707062756781742722826718125236300325521e-39 +/- 1.23e-96]",
+    "minimum_bundle_lower": "[-1.15950690111564242995079228708130888698641748608534457984e-37 +/- 3.49e-94]",
+    "cell_bounds_sha256": "bd4546cdd113056d1739e9ce85ce9a21a0211c409d5f9cc7e2eb698f9d419b19",
+    "composition_rule": "Each constituent box is enclosed independently with sign-separated weights. The eight resulting valid intervals are added only on matched cells of equal measure."
+  },
+  "integration": {
+    "measure_identity": "integral cosh(t) dt = sinh(t) = (q-q^-1)/2",
+    "per_box_inactive_product_measure": "1934917632/1160290625",
+    "raw_bundle_negative_mass_interval_lower": "[2.40778745911262425338577405458047031504428813300210725806e-31 +/- 2.05e-89]",
+    "normalization_lower_using_pi_less_than_22_over_7": "202830903402070802432/3215383215",
+    "computed_normalized_bundle_negative_mass_lower": "[1.51886625287365690184165679009010795978713010634041730329e-20 +/- 7.24e-78]",
+    "declared_strict_bundle_negative_mass_lower": {
+      "numerator": 151,
+      "denominator": 10000000000000000000000,
+      "decimal": "1.510000000000e-20"
+    }
+  },
+  "composition": {
+    "k247_complete_positive_prefix_upper": {
+      "numerator": 4284055841425214971428291070716334467492026494753263930481212428493916912141176934839397109842051518583189410056810229203182537082450066104964088678396217114640184794550338443712745380248980170704738654936792414233387056857372196216102505797312868580513417411539399421296386981152277527005171871506758232066268515247095564789514782304096526541385477945113142064111343773048269,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "1.343095438489e-21"
+    },
+    "strict_negative_excess_over_k247_upper": {
+      "numerator": 43880237887628826985436882740907004008109778686281089274759317455498054802132630751865082988831238551819711611093494964879758995351443841413746790190757573070105813230048194747236286717665397787912846992265874640710668187805169029883058172061938960702310539026044835547581662761984045306814277784923413998105964708926481375347787061307987095103305613205846423694593795387107981,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "1.375690456151e-20"
+    },
+    "result": "The eight-box bundle contains positive constituent lobes but has strictly negative matched-cell sum and enough negative mass to cancel K247's complete positive prefix."
+  },
+  "controls": "An independent reverse-order 256-bit replay reconstructs every selected pair from raw allocations, replays all matched cells, checks exact center signs and pairwise disjointness, and verifies that adding the omitted pair {4,7} defeats this selected interval certificate rather than being silently absorbed.",
+  "source_routing": "SC-ACT-01/02 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-GR6b/LT-SM8/RA-F1/AC-F1 remain NEEDS.",
+  "decision": "K257's cancellation survives a connected adjacent-region composition that explicitly consumes positive pair-box lobes. The remaining seven pair boxes and the rest of the complement stay open.",
+  "claim_ceiling": "Exact negative integral and mass lower bound on the declared eight-box union, plus a negative union with K247 q<=15. No sign or bound for the remaining pair boxes or other complement, full K218 integral, complete original order-six error, K215 impossibility, source/ledger/canon/paper/public change, or physical positivity."
+}
