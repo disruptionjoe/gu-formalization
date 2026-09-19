@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8812803d42e995dd7ae2fbc4cbb81f91ca49fafe
+revision_basis: 675661739259edbbc4792af36c2e9c8d773aa45d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K260 changes K259's composition rule without changing any constituent
+    enclosure: every complete sign-separated pair-box interval is integrated
+    against its exact product-cosh cell measure before box intervals are
+    added. Exhausting all 4,944 subsets of size ten through fifteen gives
+    exactly six negative-upper ten-box unions and no passing eleven- through
+    fifteen-box union. The strongest ten-box bundle adds pair {4,6} to K259's
+    selected nine and has computed normalized negative magnitude above
+    6.7982387388e-21; conservative declared lower 6.7e-21 still exceeds
+    K247's complete q<=15 positive upper by more than 5.356904561511e-21.
+    The best eleven-box rigorous upper remains positive by
+    3.3824212478e-21 under this enclosure. A reverse-order 256-bit raw replay
+    reproduces all six maximizers, the 4,938-failure subset digest, mass and
+    controls. K259's exact-S6 coarse projection remains inconclusive; netting
+    unequal functions merely because they share an inactive-count interval
+    image is explicitly rejected. K260 is
+    exact maximality only for the integrated coarse enclosure: failed subsets,
+    the remaining complement, full K218 integral, complete error, K215,
+    source, ledger, canon and public posture remain open.
+
     K259 exhausts the fixed K258 sign-separated matched-cell certificate
     family over all fifteen exceptional pairs among axes 2 through 7, with
     common active axis 1, active q in [1792,2304], inactive q in [1,13/5],
@@ -8578,15 +8597,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K259 proves that nine boxes are the exact maximum uniformly negative subset
-  under K258's fixed sign-separated 16^3 matched-cell architecture: exactly
-  four nine-box subsets pass, and all 9,945 other subsets of size nine through
-  fifteen have a concrete nonnegative-upper witness. Which sharper method can
-  now absorb genuinely new complement: subdivide inactive coordinates in the
-  exact K230 S6 projection, integrate a correlation-preserving grouped orbit,
-  or build a consuming far-shape derivative atlas? The failed subsets are
-  certificate limits only, not positive-integral or obstruction theorems. Do
-  not repeat subset selection, resume q17, or infer the full K218 integral.
+  K260 proves that integrating every complete valid box enclosure before
+  composition raises K259's certified pair-box ceiling from nine to ten:
+  exactly six ten-box unions have negative rigorous integral upper, while all
+  eleven- through fifteen-box unions fail this integrated coarse enclosure.
+  Which genuinely sharper correlation can now absorb an eleventh box or a
+  larger symmetric region: an exact S6 grouped integral with effective
+  inactive subdivision, or a consuming far-shape derivative atlas? The exact
+  S6 coarse enclosure remains inconclusive, and functions may not be netted
+  merely because they share an interval image.
+  Failed subsets are certificate limits only. Do not repeat coarse integrated
+  subset selection, resume q17, or infer the full K218 integral.
 
   K257 proves that one full-dimensional negative K218 box carries more
   product-cosh mass than K247's complete positive q<=15 prefix, so legal
@@ -8799,18 +8820,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K259 as the active K218 pair-box result. Exactly four nine-box subsets
-  are uniformly negative under the fixed K258 sign-separated matched-cell
-  architecture, and nine is maximal: every other size-nine subset and every
-  size-ten-through-fifteen subset has an exact nonnegative-upper witness. The
-  selected nine-box union has normalized negative magnitude above 1.33e-20 and
-  still cancels K247's complete positive q<=15 prefix. The next step must
-  change the enclosure rather than search another subset: subdivide inactive
-  coordinates in the exact S6 projection, construct a correlation-preserving
-  grouped integral, or supply a consuming far-shape derivative atlas. A
-  failed fixed-family subset is not a positive-integral or obstruction result.
-  Do not resume q17 or infer the full integral, complete order-six error, K215
-  impossibility, physics result or source verdict.
+  Treat K260 as the active K218 pair-box result. Exactly six ten-box subsets
+  have negative rigorous integral upper after each complete sign-separated box
+  enclosure is integrated before composition; every eleven- through
+  fifteen-box subset has nonnegative upper under this coarse integrated
+  architecture. The strongest ten-box union has normalized negative magnitude
+  above 6.7e-21 and still cancels K247's complete positive q<=15 prefix by
+  more than 5.3569e-21. Do not repeat coarse integrated subset search. The next
+  step must preserve exact function identity while introducing materially
+  sharper correlation: effective inactive-coordinate subdivision of the exact
+  S6 projection, another grouped integral, or a consuming far-shape derivative
+  atlas. A failed integrated certificate is not a positive-integral or
+  obstruction result. Do not resume q17 or infer the full integral, complete
+  order-six error, K215 impossibility, physics result or source verdict.
 
   Treat K257 as the active K218 farther-region result. Its declared
   eight-dimensional q-box is strictly negative cell by cell and its rigorous

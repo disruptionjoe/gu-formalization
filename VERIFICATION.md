@@ -7,6 +7,46 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K260 integrated pair-box certificate family (2026-09-19)
+
+K260 changes the order of two legal operations in K259's fixed pair-box
+architecture. Every one of the fifteen constituent boxes is still reconstructed
+from all 1,864 signed K185/K218 terms with positive and negative weights kept
+separate whenever unequal functions share an interval bound. Instead of
+requiring a subset sum to be negative on every matched active cell, K260 first
+integrates each complete valid box interval with its exact product-cosh cell
+measure and only then adds the resulting rigorous box-integral intervals.
+
+The producer exhausts all 4,944 subsets of size ten through fifteen. Exactly
+six ten-box subsets have strictly negative normalized integral upper; every
+eleven- through fifteen-box subset has nonnegative upper under this integrated
+coarse enclosure. The smallest eleven-box upper is still positive by
+`3.382421247860e-21`. Thus ten is the exact maximum certified after legal
+per-box integration, while failure remains only a limitation of this enclosure.
+
+The strongest ten-box bundle uses exceptional pairs `{2,4}`, `{2,5}`, `{2,6}`,
+`{2,7}`, `{3,5}`, `{3,6}`, `{3,7}`, `{4,5}`, `{4,6}`, and `{5,7}`. Its
+computed normalized negative magnitude is above `6.798238738850e-21`; the
+conservative declared lower `6.7e-21` exceeds K247's complete positive
+`q<=15` upper by more than `5.356904561511e-21`. This union is not uniformly
+negative under K259's pointwise rule; integration is the genuinely sharper
+certificate step.
+
+An independent reverse-order 256-bit raw-allocation replay reconstructs all
+fifteen box integrals, all six maximizers, and the canonical failure-subset
+digest `2343879a4cd431a50999cdf261e2b10acc03b49e0a80245461e0eb3f90a1f1bb`.
+It also checks exact center signed/absolute controls, disjointness and K247
+composition. K259's exact S6 projection with exact denominator cancellation
+followed by sign separation remains inconclusive at the coarse inactive
+enclosure. The rejected shortcut—netting unequal rational functions because
+they share an
+inactive-count interval image—is not used.
+
+K260 does not determine a failed subset's integral sign, the remaining
+complement, the full K218 integral, complete order-six error, K215
+impossibility, source, ledger, canon, paper, public posture or physical
+positivity.
+
 ## K259 maximal fixed pair-box certificate family (2026-09-19)
 
 K259 reconstructs all fifteen full-dimensional exceptional-pair boxes with

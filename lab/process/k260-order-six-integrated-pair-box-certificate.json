@@ -1,0 +1,663 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "conditional_internal_structure_not_forward_physics_credit",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47",
+    "k230": "e2b7c9a8af209d8dbde37a2c97a6a22aa654ec8e5bdc1187e3a46a1edcc89244",
+    "k247": "8853d4041af4111b948fdabe7013363411793cbb82c4ff1bdfdfea61778b61a3",
+    "k257": "5a2656ffbb7ccbfb2c26bdb327575556bddddafdb30716d95b2c1620c237ef17",
+    "k258": "78d93d027a1182e041697af618a2ccd668acaaedddb66b2fe9a04e8c721a873a",
+    "k259": "3db1740fff32b22437b306ea35e7c9a77174b83240d5fac57ee4e80e0f908715"
+  },
+  "object": "The fifteen disjoint K259 exceptional-pair boxes of the exact K218 signed integrand, with every complete sign-separated box interval integrated before composition",
+  "enclosure": {
+    "common_active_axis": 1,
+    "all_exceptional_pairs": [
+      [
+        2,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        4,
+        7
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        5,
+        7
+      ],
+      [
+        6,
+        7
+      ]
+    ],
+    "active_q_interval": [
+      "1792",
+      "2304"
+    ],
+    "inactive_q_interval": [
+      "1",
+      "13/5"
+    ],
+    "matched_grid_shape": [
+      16,
+      16,
+      16
+    ],
+    "component_boxes": [
+      {
+        "exceptional_pair": [
+          2,
+          3
+        ],
+        "sign_separated_bound_classes": 192,
+        "group_sha256": "8fc96bf63ddc6737ddce539ff2bc3d66d04afea3f8cda8d8a00bce80276736fb",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-1.86670863997784688652906762758328461573723262627299003e-20 +/- 5.14e-74]",
+        "normalized_integral_upper": "[1.86670863997784688652906762758328461573723262627299003e-20 +/- 5.14e-74]"
+      },
+      {
+        "exceptional_pair": [
+          2,
+          4
+        ],
+        "sign_separated_bound_classes": 344,
+        "group_sha256": "47ddfa3f02bb69c7673aa55cdd79da54373452f4c15aa078153d64f597885a77",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-5.63763435208085756395452620615909883758588198369686746e-21 +/- 3.89e-75]",
+        "normalized_integral_upper": "[4.51645473010358708303386810070968779161753782492446455e-21 +/- 3.20e-75]"
+      },
+      {
+        "exceptional_pair": [
+          2,
+          5
+        ],
+        "sign_separated_bound_classes": 357,
+        "group_sha256": "a8e6b34bc1dde33b5794f10f1b1e807f06f9153be2fafa187b9c887dbcac0129",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096,
+        "normalized_integral_lower": "[2.32801291316234074829037760995034233817168186871200536e-21 +/- 5.16e-75]",
+        "normalized_integral_upper": "[3.70277441260714687227113146640551311728483529486075025e-21 +/- 5.69e-75]"
+      },
+      {
+        "exceptional_pair": [
+          2,
+          6
+        ],
+        "sign_separated_bound_classes": 304,
+        "group_sha256": "b05f50bcc4178da23d3a856f3c5be34def972439d49f82e51a620c63fbf2c541",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-5.79396175982260870203114289856180246650355121358468202e-22 +/- 6.81e-76]",
+        "normalized_integral_upper": "[5.79040871815305058462009709368367146892842655524130389e-22 +/- 5.90e-76]"
+      },
+      {
+        "exceptional_pair": [
+          2,
+          7
+        ],
+        "sign_separated_bound_classes": 210,
+        "group_sha256": "6fe4d6ad1aa4fc343dc8a6dac908d03a44824d0fbfbe61a049a2adb6c242419a",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-6.49073360360568272644923083559153866751280545060832673e-22 +/- 4.78e-76]",
+        "normalized_integral_upper": "[6.50812478509920539412127242154462254166937061358404685e-22 +/- 5.17e-76]"
+      },
+      {
+        "exceptional_pair": [
+          3,
+          4
+        ],
+        "sign_separated_bound_classes": 327,
+        "group_sha256": "600549a2118ef98fa0f77ebb929a3bf076358b47cc053a3ba08b2c0acfdc3bf1",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096,
+        "normalized_integral_lower": "[1.369275388569237528578861512810975427500289355563680613e-21 +/- 7.58e-76]",
+        "normalized_integral_upper": "[1.40959805065263680906699024918323292851654906895654579e-20 +/- 4.26e-74]"
+      },
+      {
+        "exceptional_pair": [
+          3,
+          5
+        ],
+        "sign_separated_bound_classes": 318,
+        "group_sha256": "be7d012b471c0a5ca202672b7259aeec408aac414a44c7d31c499660003f608b",
+        "strictly_negative_cells": 4096,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-6.06517545154935241207609250691442799055432096593219736e-20 +/- 6.44e-74]",
+        "normalized_integral_upper": "[-2.26921811840019573433539795267224282302819996363120082e-20 +/- 5.07e-74]"
+      },
+      {
+        "exceptional_pair": [
+          3,
+          6
+        ],
+        "sign_separated_bound_classes": 358,
+        "group_sha256": "710f37a3c988faf45d2977f1da81e187f8235de9870ed2741810ddc4fa009290",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-6.29167635390276880352860869268164002520063923280536743e-21 +/- 4.54e-75]",
+        "normalized_integral_upper": "[6.30716077072133753615008238900490272192010394971317529e-21 +/- 4.26e-75]"
+      },
+      {
+        "exceptional_pair": [
+          3,
+          7
+        ],
+        "sign_separated_bound_classes": 258,
+        "group_sha256": "bde3e8aede244fcebaa40d94dbafb5c15c6ebc3b9319d0cce2b886e0ef2fb3db",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-6.26090194353397521254010210826046140543943479390845612e-21 +/- 3.95e-75]",
+        "normalized_integral_upper": "[5.66461553931618417840458249625068329086493421757209440e-21 +/- 3.81e-75]"
+      },
+      {
+        "exceptional_pair": [
+          4,
+          5
+        ],
+        "sign_separated_bound_classes": 235,
+        "group_sha256": "93a2c255b4d064e2f3ec9ca8aaa64df03a939c41bb4c0fd4acbc6a46d9b80cf6",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-5.78691146426345559888490398685596905353956033966869268e-22 +/- 3.35e-76]",
+        "normalized_integral_upper": "[5.78616885992710803446511468640653454475001135241314491e-22 +/- 4.28e-76]"
+      },
+      {
+        "exceptional_pair": [
+          4,
+          6
+        ],
+        "sign_separated_bound_classes": 364,
+        "group_sha256": "5b1f6379e7884e17348c3c1d1fbc51e4bbb07e0d012d121c6bbf0d7027d8cd46",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-8.11686713349142072013695280004078620219898598588489270e-21 +/- 5.67e-75]",
+        "normalized_integral_upper": "[6.59930763754944533570908052096942319616924205475849606e-21 +/- 5.47e-75]"
+      },
+      {
+        "exceptional_pair": [
+          4,
+          7
+        ],
+        "sign_separated_bound_classes": 395,
+        "group_sha256": "a32511109347e134d1abbc8293822902127193bb5f4c718ad9459cc7532b83c5",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-7.39052750249845933407495531255239788099090452613034391e-20 +/- 4.85e-74]",
+        "normalized_integral_upper": "[7.86855238417891374982862912825208688961931971825585607e-20 +/- 8.99e-74]"
+      },
+      {
+        "exceptional_pair": [
+          5,
+          6
+        ],
+        "sign_separated_bound_classes": 294,
+        "group_sha256": "ef5ac9a5f8cfa8bb17433f873083fb8ba836bfb9c7aea07687fc116405679bf8",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 4096,
+        "normalized_integral_lower": "[5.38947470594520161432010033617966069841227689488556450e-21 +/- 3.46e-75]",
+        "normalized_integral_upper": "[1.018065998671074735303145230356568580237040204050986526e-20 +/- 5.27e-75]"
+      },
+      {
+        "exceptional_pair": [
+          5,
+          7
+        ],
+        "sign_separated_bound_classes": 267,
+        "group_sha256": "3b09c0bef703983e8fefbc72731e03397989ac3ca64d0b4d6cffcfec07e790d4",
+        "strictly_negative_cells": 4096,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-5.92938560556238481577784334188662448915732423789617501e-20 +/- 6.92e-74]",
+        "normalized_integral_upper": "[-1.270484088146387304442370978543911249716055503280377095e-20 +/- 7.71e-75]"
+      },
+      {
+        "exceptional_pair": [
+          6,
+          7
+        ],
+        "sign_separated_bound_classes": 183,
+        "group_sha256": "ffb4ec88e3309b423fb3b0218a2bbd25187e31af6ac0f26347925df6c0089f2c",
+        "strictly_negative_cells": 0,
+        "strictly_positive_cells": 0,
+        "normalized_integral_lower": "[-2.49445663912893541989092114301454155766575660699829256e-20 +/- 5.74e-74]",
+        "normalized_integral_upper": "[2.49445663912893541989092114301454155766575660699829256e-20 +/- 5.74e-74]"
+      }
+    ],
+    "composition_rule": "Each complete valid constituent interval is integrated with exact product-cosh cell measure before subset addition; unequal rational functions are never netted."
+  },
+  "integrated_subset_certificate": {
+    "minimum_subset_size_checked": 10,
+    "subsets_checked": 4944,
+    "maximum_certifiable_cardinality": 10,
+    "maximal_subset_count": 6,
+    "maximal_subsets": [
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "normalized_integral_upper": "[-6.7982387388501929808882959186578477540511204751629491e-21 +/- 5.26e-74]",
+        "selected_for_mass": true
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "normalized_integral_upper": "[-3.2168863896888909635659241360615851478499604894115799e-21 +/- 5.66e-74]",
+        "selected_for_mass": false
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "normalized_integral_upper": "[-2.2821942914556298062614261113428452425456526522251782e-21 +/- 5.10e-74]",
+        "selected_for_mass": false
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "normalized_integral_upper": "[-2.9247395228607831640069260040970646736008223843662591e-21 +/- 4.06e-74]",
+        "selected_for_mass": false
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            4
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "normalized_integral_upper": "[-3.203531647465925001279750814976750689655537295138341e-22 +/- 6.20e-74]",
+        "selected_for_mass": false
+      },
+      {
+        "exceptional_pairs": [
+          [
+            2,
+            5
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            2,
+            7
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            6
+          ],
+          [
+            5,
+            7
+          ]
+        ],
+        "normalized_integral_upper": "[-1.1340334822430327108907117158018497432982562595775484e-21 +/- 6.61e-74]",
+        "selected_for_mass": false
+      }
+    ],
+    "passing_subsets_by_size": {
+      "10": 6,
+      "11": 0,
+      "12": 0,
+      "13": 0,
+      "14": 0,
+      "15": 0
+    },
+    "failing_subsets_by_size": {
+      "10": 2997,
+      "11": 1365,
+      "12": 455,
+      "13": 105,
+      "14": 15,
+      "15": 1
+    },
+    "minimum_nonnegative_upper_by_size": {
+      "10": "[6.984341301267297740725260522050583349451281596440127e-22 +/- 6.35e-74]",
+      "11": "[3.3824212478605543721431563849078380483192815653469162e-21 +/- 5.48e-74]",
+      "12": "[1.74784017543869224628130588767401673334847722549123740e-20 +/- 8.96e-74]",
+      "13": "[3.61454881541653913281037351525730134908570985176422743e-20 +/- 5.78e-74]",
+      "14": "[6.1090054545454745527012946582718429067514664587625200e-20 +/- 2.07e-73]",
+      "15": "[1.39775578387243883025299237865239297963707861770183761e-19 +/- 4.98e-73]"
+    },
+    "failure_subset_sha256": "2343879a4cd431a50999cdf261e2b10acc03b49e0a80245461e0eb3f90a1f1bb",
+    "all_fifteen_normalized_interval": {
+      "lower": "[-2.56490015845271205795196177439814704366151675209820492e-19 +/- 2.26e-73]",
+      "upper": "[1.39775578387243883025299237865239297963707861770183761e-19 +/- 4.98e-73]"
+    },
+    "interpretation": "Ten boxes are certifiable after legal per-box integration, but every eleven- through fifteen-box subset has nonnegative rigorous upper under this coarse enclosure. Failure is a certificate limit, not a positive-integral theorem."
+  },
+  "selected_ten_box_bundle": {
+    "selection_rule": "Choose the size-ten subset with the most negative rigorous integrated upper.",
+    "exceptional_pairs": [
+      [
+        2,
+        4
+      ],
+      [
+        2,
+        5
+      ],
+      [
+        2,
+        6
+      ],
+      [
+        2,
+        7
+      ],
+      [
+        3,
+        5
+      ],
+      [
+        3,
+        6
+      ],
+      [
+        3,
+        7
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        4,
+        6
+      ],
+      [
+        5,
+        7
+      ]
+    ],
+    "normalized_integral_lower": "[-1.45731838123733228533145698457303099948125303866253472e-19 +/- 2.05e-73]",
+    "normalized_integral_upper": "[-6.7982387388501929808882959186578477540511204751629491e-21 +/- 5.26e-74]",
+    "computed_strict_negative_mass_lower": "[6.7982387388501929808882959186578477540511204751629491e-21 +/- 5.26e-74]",
+    "declared_strict_negative_mass_lower": {
+      "numerator": 67,
+      "denominator": 10000000000000000000000,
+      "decimal": "6.700000000000e-21"
+    }
+  },
+  "composition": {
+    "k247_complete_positive_prefix_upper": {
+      "numerator": 4284055841425214971428291070716334467492026494753263930481212428493916912141176934839397109842051518583189410056810229203182537082450066104964088678396217114640184794550338443712745380248980170704738654936792414233387056857372196216102505797312868580513417411539399421296386981152277527005171871506758232066268515247095564789514782304096526541385477945113142064111343773048269,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "1.343095438489e-21"
+    },
+    "strict_negative_excess_over_k247_upper": {
+      "numerator": 17086855945638499009432415190070179955457118850473899412241406791555501000814750979128815914072587121926707069526437770820374301812059151138437427111228312305081549428284772309887156279090512036099090738192867802198743415939914308079551569809110128518487940742885393578139568865139998167471007777372854611784987286207405461629023121815172365181755602234451698371870406715232981,
+      "denominator": 3189688326427419997143388994147240958649126170929427364585465555231256404918795211040031794614125170225357683519887761197545796849926748842298733699943959614883840928781359813970134576020819732358780506437262718870467234745863657357560309792003432402836023605138028805885963559148100849921817858041733260276306836037985227823662373749144610704946429877546991109848022460937500000000000000000000000,
+      "decimal": "5.356904561511e-21"
+    }
+  },
+  "method_comparison": {
+    "exact_s6_projection_coarse_enclosure": "Still inconclusive when exact denominator identities are cancelled first and the remaining unequal functions are sign-separated.",
+    "rejected_shortcut": "Netting functions merely because they share an inactive-count interval image is invalid; equal enclosures do not identify unequal rational functions."
+  },
+  "controls": "An independent reverse-order 256-bit raw-allocation replay reconstructs all box integrals, the complete subset census and failure digest, plus exact center, absolute-weight, disjointness and K247 composition controls.",
+  "source_routing": "SC-ACT-01/02 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-GR6b/LT-SM8/RA-F1/AC-F1 remain NEEDS.",
+  "decision": "Integrating valid constituent enclosures before composition raises the certified pair-box ceiling from nine to ten. Further complement requires a sharper correlated integral, effective inactive subdivision, or a consuming far-shape derivative atlas.",
+  "claim_ceiling": "Exact maximality only for the declared integrated coarse enclosure and an exact negative integral on the selected ten-box union. No failed-subset sign, remaining-complement, full-integral, complete-order-six-error, K215, source, ledger, canon, paper, public-posture or physical-positivity conclusion."
+}
