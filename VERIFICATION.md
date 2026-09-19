@@ -7,6 +7,41 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K256 binary-face far-shell sign reversal (2026-09-19)
+
+K256 answers K248's structural switch without computing q17. For every
+nonempty subset `S` of the eight K218 cosh coordinates, put `c_j=R` on `S`
+and `c_j=1` off `S`. Each of the fourteen denominator factors then has the
+form `a_i R+b_i`. Exact grouping of all 1,864 signed K185/K218 terms by the
+unordered multiset of these affine pairs proves 95 of the 255 resulting
+rational functions vanish coefficientwise. The other 160 have a first
+nonzero Laurent coefficient: 84 positive and 76 negative.
+
+The sign certification is uniform, not sampled. For each surviving grouped
+function the producer expands through its first globally nonzero coefficient
+`L`. Groups beginning above that exponent are bounded in full; earlier groups
+use the first omitted complete-homogeneous coefficient and
+`h_(n+1)/h_n <= r_max (n+m)/(n+1)` for a geometric continuation. Every
+nonzero ray obtains a finite power-of-two threshold, at most 262144.
+
+Two rays of the same dimension give the decisive theorem. With coordinates
+numbered zero through seven, `S={3,4}` is positive and `S={2,4}` negative for
+every `R>=4096`. The displayed path keeps `c4=R`, moves `c2` from `1` to `R`
+and `c3` from `R` to `1`, and leaves the other coordinates at one. It lies on
+the boundary of `[1,R]^8`; continuity therefore forces a zero on every such
+far shell, with relative-open positive and negative neighborhoods. An
+independent raw-allocation probe reconstructs both rays using Newton power
+sums, checks exact values at 4096, confirms that the corrected complete tail
+does not certify 2048, and destroys the theorem under absolute-weight
+mutation.
+
+This is a pointwise structural sign-reversal theorem. A binary face ray has
+zero product-cosh measure, and the result supplies neither neighborhood
+magnitudes nor a volume balance. It therefore does not cancel K247's
+integrated positive prefix, determine a global tail sign, lower-bound the full
+order-six error, prove K215 impossible, or move source, ledger, canon, paper,
+public posture or physical positivity.
+
 ## K255 full-operator data gate (2026-09-19)
 
 K255 composes two already certified facts without reopening either campaign.

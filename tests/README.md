@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K256 binary-face far-shell sign reversal
+
+- `channel-swings/k256_order_six_binary_face_sign_reversal.py` groups all
+  1,864 signed K185/K218 terms on every nonempty binary face ray, classifies
+  95 exact-zero and 160 nonzero rational functions, and certifies opposite
+  signs on two same-dimensional rays for every `R>=4096`.
+- `channel-swings/k256_order_six_binary_face_sign_reversal_probe.py`
+  independently rebuilds the selected rays from raw allocations, uses Newton
+  power sums for the Laurent coefficients, checks the corrected full tail and
+  exact values, and rejects the result after absolute-weight mutation.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 PYTHONPATH=tests/channel-swings python3 tests/channel-swings/k256_order_six_binary_face_sign_reversal.py
+PYTHONDONTWRITEBYTECODE=1 python3 tests/channel-swings/k256_order_six_binary_face_sign_reversal_probe.py
+```
+
 ## K255 full-operator data gate
 
 - `channel-swings/k255_native_i1b_full_operator_data_gate.py` composes K250's

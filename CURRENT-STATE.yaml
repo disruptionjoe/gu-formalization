@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9e07ec50caf0551734e07f4e3aed0ea786271f55
+revision_basis: 610f28018eeb461f1e91b5652c268f23fdc2be6c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K256 supplies the structural farther-region theorem required by K248
+    without enumerating q17. On each of the 255 nonempty binary face rays,
+    set a selected subset of the eight K218 cosh coordinates equal to R and
+    the rest to one. Exact grouping of all 1,864 signed terms by their fourteen
+    affine denominator factors gives 95 coefficientwise zero rational
+    functions. The other 160 have exact certified asymptotic signs: 84
+    positive and 76 negative. In particular the two-coordinate rays {3,4}
+    and {2,4} have opposite signs for every R>=4096. Keeping c4=R and
+    interpolating c2,c3 joins them inside the boundary of [1,R]^8, so
+    continuity forces a zero crossing on every such far shell and strict sign
+    neighborhoods on both sides. The producer bounds the complete Laurent
+    remainder, including groups that start above the global leading exponent;
+    an independent raw-allocation/Newton replay confirms the selected rays
+    and shows why R=2048 does not pass that proof. This rules out an eventually
+    one-signed pointwise K218 core. It does not determine the product-cosh
+    weighted shell integral, cancellation magnitude or volume balance, a
+    global tail sign, full-error lower bound or K215 impossibility. Source,
+    physics ledger, canon and public posture remain unchanged.
+
     K255 composes K250's authenticated source-selection result with K254's
     exact 1106-dimensional local principal hull. The current registered corpus
     supplies a candidate-strength four-field matrix grammar but explicitly
@@ -8702,6 +8721,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K256 as the active K218 farther-region structural result. The exact
+  binary-face census proves that the core has both signs and a zero crossing
+  on every cube boundary R>=4096, so an eventually one-signed pointwise tail
+  is unavailable. The next K218 step must consume those sign neighborhoods in
+  the actual product-cosh measure and prove a magnitude/volume balance over a
+  substantial region or a legal cross-shell cancellation against K247's
+  positive q<=15 prefix. A face ray has zero measure and the continuity
+  theorem supplies no integrated cancellation by itself. Do not resume q17 or
+  another retained-order increase, and do not call K256 a global tail sign,
+  full-error lower bound, K215 impossibility, physics result or source verdict.
+
   Treat K255 as the active I1B data-sufficiency result and K254 as its exact
   conditional principal input. K250 already proves that equation 9.16 is a
   candidate and the source-admitted nonzero-southeast rival remains unselected.
@@ -8717,15 +8747,12 @@ next_condition: >-
   typed structural/physics arc. This is a data-dependency result, not a theorem
   that GU has no valid completion.
 
-  Keep K248's strictly positive complete q=15-to-q=16 shell as the exact-route
-  switch predicate. Together with K247 it proves that the first farther shell
-  strengthens rather than cancels the already-over-target q<=15 prefix. Do
-  not spend the next selection on q17 or another retained-order increase:
-  neither is a structural farther-tail cancellation theorem. Reopen this
-  exact route only with a concrete argument that can prove and compose a sign
-  reversal or cross-shell cancellation over a substantial farther region. Do
-  not call K248 a global tail sign, full-error lower bound, K215 impossibility,
-  pointwise sign, physics result, or source verdict.
+  Keep K248's strictly positive complete q=15-to-q=16 shell as the numerical
+  switch predicate that K256 answers only at pointwise structural scope. K256
+  proves far-shell sign reversal but not the integrated cancellation needed
+  to offset K247. Do not spend the next selection on q17 or another
+  retained-order increase; require a measure-aware composition of the K256
+  sign regions or switch to a separately typed arc.
 
   Keep K185/K188's excision union and K204/K209's cubature errors out of the
   exact K213/K218 budget: both price alternative routes, while K213 consumes
