@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b9d2834a5fe360912d670b755399d4357b755473
+revision_basis: 5c654d8cafb17aa3e1f25e0bc765274af87a34f8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K252 replaces K251's one-shot depth-five calculation by a restart-safe
+    stagewise exact engine. Its checkpoints bind the backend, K251, source
+    register, physics ledger, channels and target depth, and preserve the
+    normalized exact sector bases plus the next frontier by atomic replacement.
+    A clean calculation and a depth-six checkpoint resumed in a fresh process
+    agree exactly. Generation from o=dx0 gamma1 through word length seven grows
+    through dimensions 1,15,52,388,623,1705,6644,21724. The depth-seven space
+    occupies 3472 label sectors with local ranks 3:66, 4:935, 5:792, 6:1210
+    and 14:469. An independent reverse-direction, greatest-pivot replay
+    reproduces every dimension and sector count. The 15080 new dimensions at
+    depth seven prove that this prefix is not stabilized. Every common
+    all-fourteen-direction invariant hull containing o has dimension at least
+    21724, but complete closure remains uncomputed. Checkpoints are continuation
+    state, not independent evidence. No source-selected full operator,
+    lower-order/common domain, quotient, spectrum, positivity, source, ledger,
+    canon or public-posture move follows.
+
     K251 types the full finite ambient carrier for K250's conditional selected
     local principal family as T-star tensor Cl(7,7), with dimension 229376 and
     basis (label,mu,label xor 2^mu). Exact backend support proves every block
@@ -8426,6 +8443,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K252 makes the conditional selected I1B principal-family calculation
+  restart-safe and raises the exact common-hull lower bound from 1705 at depth
+  five to 21724 at depth seven. The final prefix still grows by 15080 vectors,
+  so it is not stabilized. Can a representation/symmetry reduction turn the
+  label-toggle block family into a tractable complete closure, or can the exact
+  checkpointed engine continue far enough to expose stabilization within a
+  bounded resource envelope? Do not infer a full operator, domain, spectrum or
+  positivity result from this finite local principal-symbol prefix.
+
   K245 certifies the exact K213/K218 core through q=12 under the corrected
   10^-21 route composition. After q=6-through-q=12 only
   1.908648040585e-23 remains, while the q=12-to-q=13 complete lower is
@@ -8615,15 +8641,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K251 as the active conditional principal-symbol result. The full
-  finite ambient T-star tensor Cl(7,7) carrier and its exact label-toggle block
-  compiler are now typed, and the generated space through word length five
-  has dimension 1705. Every common all-fourteen-direction invariant hull
-  containing K236's odd seed contains that space. Complete closure is still
-  uncomputed: continue only with a cost-reducing symmetry/representation
-  theorem, a restart-safe exact closure implementation, or a newly bounded
-  structural target. Do not call the depth-five lower bound a stabilized or
-  complete hull, spectrum, positivity result or physical mode.
+  Treat K252 as the active conditional principal-symbol result. The exact
+  restart-safe engine generates the selected all-fourteen-direction family
+  through word length seven, with dimension 21724 across 3472 sectors and
+  15080 new vectors at the final depth. Every common invariant hull containing
+  K236's odd seed contains that space, but the nonzero final increment proves
+  only non-stabilization of this prefix. Continue with a cost-reducing
+  symmetry/representation theorem, checkpointed exact continuation under a
+  measured resource envelope, or another bounded structural target. Do not
+  call the checkpoint independent evidence or the depth-seven lower bound a
+  stabilized/complete hull, spectrum, positivity result or physical mode.
 
   Preserve K250's source-selection boundary. The current
   registered corpus does not select a unique full fermion operator: equation

@@ -7,6 +7,35 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K252 restart-safe depth-seven I1B principal growth (2026-09-19)
+
+K252 preserves K251's typed `T* tensor Cl(7,7)` ambient and conditional
+`comm/symi/symi` local formal Euler principal family, but replaces its one-shot
+queue with stagewise exact generation. After each completed word depth, an
+optional deterministic checkpoint atomically preserves the normalized rational
+sector bases, exact next frontier, cumulative dimensions and input-bound edge
+census. Loading rejects a changed backend, K251 result, source register,
+physics ledger, channel tuple or target maximum depth. The checkpoint is
+continuation state, not independent scientific evidence.
+
+Starting from `o=dx0 gamma1`, exact all-direction generation grows through
+dimensions `1,15,52,388,623,1705,6644,21724` for word lengths zero through
+seven. The depth-seven space occupies 3472 label sectors, distributed by local
+rank as 66 of rank three, 935 of rank four, 792 of rank five, 1210 of rank six
+and 469 of rank fourteen. Thus every common invariant hull containing `o` has
+dimension at least 21724. The final depth contributes 15080 new vectors, so the
+certified prefix is explicitly not stabilized.
+
+A clean calculation and a depth-six checkpoint resumed in a fresh process
+produce identical generated-space and compiler summaries. A separate exact
+replay reverses principal traversal, uses greatest-pivot elimination, directly
+enumerates backend support again, and reproduces every dimension, sector count
+and local-rank count. Hostile controls reject checkpoint-as-proof, finite-prefix
+closure, source-selection and physical-spectrum readings. K252 is not a
+complete hull, source-selected full fermion operator, lower-order/common
+domain, quotient, spectrum, positivity result, ledger/canon/public change, or
+K218 cancellation theorem.
+
 ## K251 typed ambient and depth-five I1B principal growth (2026-09-19)
 
 K251 types K250's larger ambient space without filling the source's missing
