@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__CONDITIONAL_SELECTED_LOCAL_SYMBOL_ONLY",
+  "input_sha256": {
+    "backend": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "k250": "4c99b997ed92e871cb57d6c6145ba4b52dcb93dfde7b4eb15134f5e0346657fc",
+    "source_register": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "physics_ledger_v0_263": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "object": "selected comm/symi/symi I1B formal Euler principal-symbol family on the flat Ricci-flat T=0 zero-fermion germ",
+  "ambient_carrier": {
+    "space": "T-star tensor Cl(7,7)",
+    "basis_rule": "(label,mu,label xor 2^mu), label in [0,2^14), mu in [0,14)",
+    "dimension": 229376,
+    "grading_status": "local Clifford-label bookkeeping only; no source-selected barred-field reality or global physical grading"
+  },
+  "principal_action_compiler": {
+    "directions": 14,
+    "sector_dimension": 14,
+    "support_rule": "on every block compiled for generation through depth five, direction p maps label lambda only to lambda xor 2^p",
+    "euler_block_rule": "one half of the forward ordered 14-by-14 block minus the transpose of the reverse ordered block",
+    "compiled_unordered_label_edges_through_depth_four": 3532,
+    "support_terms_checked": 308092
+  },
+  "generated_space": {
+    "seed": "o=dx0 tensor gamma1, label 3, leg 0",
+    "definition": "span of every word of length at most d in the fourteen selected principal actions applied to o",
+    "maximum_word_length": 5,
+    "dimension_growth_d0_through_d5": [
+      1,
+      15,
+      52,
+      388,
+      623,
+      1705
+    ],
+    "dimension": 1705,
+    "nonzero_label_sectors": 755,
+    "local_rank_distribution": {
+      "1": 286,
+      "2": 286,
+      "3": 25,
+      "4": 144,
+      "14": 14
+    },
+    "minimal_hull_lower_bound": 1705,
+    "minimality_statement": "Every common invariant hull for all fourteen selected principal actions that contains o contains this depth-five generated space."
+  },
+  "interpretation": "K250's 15-dimensional first-layer bound is the d=1 entry of a much larger exact Krylov ladder. The full typed ambient and block compiler are now explicit, while complete closure remains uncomputed.",
+  "source_routing": "SC-OP-04 ASSERTS and SC-OP-05 UNCERTAIN are preserved; SC-ACT-01/02 ASSERTS, SC-META-53 UNCERTAIN, and LT-GR6b/LT-SM8 NEEDS do not move.",
+  "claim_ceiling": "Exact typed ambient carrier, label-toggle block compiler, and 1705-dimensional depth-five lower bound for one conditional selected local principal family. No stabilized or complete all-direction hull, source-selected full fermion operator, lower-order/common domain, quotient, spectrum, positivity, ledger/canon/public change, or K218 cancellation theorem."
+}

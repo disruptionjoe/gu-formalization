@@ -7,6 +7,36 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K251 typed ambient and depth-five I1B principal growth (2026-09-19)
+
+K251 types K250's larger ambient space without filling the source's missing
+operator data. For the separately selected `comm/symi/symi` local formal Euler
+principal family, the carrier is `T* tensor Cl(7,7)`, with exact dimension
+`14 * 2^14 = 229376` and basis `(label,mu,label xor 2^mu)`. For every block
+needed to generate through word length five, direct enumeration of every
+backend support term proves that principal direction `p` connects only label
+sectors `label` and `label xor 2^p`. The Euler action on each compiled edge is
+the half-difference of a forward ordered 14-by-14 block and the transpose of
+its reverse block; no dense ambient matrix or projected carrier is substituted.
+
+Starting from `o=dx0 gamma1`, exact breadth-first rational generation by all
+fourteen principal actions grows through dimensions
+`1,15,52,388,623,1705` for word lengths zero through five. The final certified
+space occupies 755 label sectors, distributed by local rank as 286 of rank
+one, 286 of rank two, 25 of rank three, 144 of rank four and 14 of rank
+fourteen. Every common invariant hull for the full selected principal family
+that contains `o` must contain this generated space, so its dimension is at
+least 1705.
+
+The independent probe traverses principal directions in reverse order, uses
+greatest-pivot rather than least-pivot elimination, enumerates backend support
+again, and reproduces every dimension and sector count. It rejects treating
+K250's first layer or K249's four-label projection as the new result and checks
+that the manifest explicitly withholds complete closure. K251 is not a
+stabilized or complete hull, source-selected full fermion operator,
+lower-order/common domain, quotient, physical spectrum, positivity result,
+ledger/canon/public change, or K218 cancellation theorem.
+
 ## K250 source-selection closure and all-direction I1B growth (2026-09-19)
 
 The registered source evidence closes the current operator-selection question

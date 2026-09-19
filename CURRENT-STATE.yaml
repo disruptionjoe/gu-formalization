@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5d11b899faeb72c48c3200de5ec317d0c013298f
+revision_basis: b9d2834a5fe360912d670b755399d4357b755473
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K251 types the full finite ambient carrier for K250's conditional selected
+    local principal family as T-star tensor Cl(7,7), with dimension 229376 and
+    basis (label,mu,label xor 2^mu). Exact backend support proves every block
+    compiled for generation through depth five maps principal direction p only
+    between the fourteen-dimensional sectors label and label xor 2^p, so each
+    used Euler block is a paired exact 14-by-14 ordered calculation.
+    Breadth-first exact rational generation from
+    o=dx0 gamma1 through word length five grows through dimensions
+    1,15,52,388,623,1705. The depth-five space occupies 755 label sectors,
+    with local ranks 1:286, 2:286, 3:25, 4:144 and 14:14. Every common
+    all-fourteen-direction invariant hull containing o therefore has dimension
+    at least 1705. An independent reverse-direction, greatest-pivot replay
+    reproduces every dimension and sector count and rejects first-layer,
+    four-label-projection and complete-hull overclaims. This is a depth-bounded
+    lower bound, not a stabilized hull, source-selected full operator,
+    lower-order/common domain, quotient, spectrum, positivity or physics
+    verdict. Source, ledger, canon and public posture do not move.
+
     K250 closes the current source-selection question and generalizes K249's
     first carrier escape. SC-OP-04 preserves draft equation 9.16 as a
     displayed candidate introduced as an operator one can begin with, while
@@ -8597,19 +8615,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K250 as the active source-native route-switch result. The current
+  Treat K251 as the active conditional principal-symbol result. The full
+  finite ambient T-star tensor Cl(7,7) carrier and its exact label-toggle block
+  compiler are now typed, and the generated space through word length five
+  has dimension 1705. Every common all-fourteen-direction invariant hull
+  containing K236's odd seed contains that space. Complete closure is still
+  uncomputed: continue only with a cost-reducing symmetry/representation
+  theorem, a restart-safe exact closure implementation, or a newly bounded
+  structural target. Do not call the depth-five lower bound a stabilized or
+  complete hull, spectrum, positivity result or physical mode.
+
+  Preserve K250's source-selection boundary. The current
   registered corpus does not select a unique full fermion operator: equation
   9.16 is a candidate and the nonzero-southeast rival remains admitted but
   unspecified. Do not fill its reality, density/adjoint, lower-order or common
   domain data and call the result source-selected. On the named selected local
-  comm/symi/symi symbol, K250 proves that all thirteen non-normal directions
-  give a coefficient -1 from K236's odd seed and that any common
-  all-fourteen-direction hull containing it has dimension at least fifteen.
-  The twelve p=2..13 outputs are distinct and outside K249's natural
-  56-vector carrier. A next hull construction must first type a larger ambient
-  carrier and named operator candidate, or new source evidence must actually
-  select the full operator/domain owner. Do not call the fifteen-dimensional
-  lower bound a complete hull, spectrum, positivity result or physical mode.
+  comm/symi/symi symbol is a separately named conditional local candidate;
+  new source evidence must actually select the full operator/domain owner
+  before any source-owned full-fermion claim.
 
   Keep K248's strictly positive complete q=15-to-q=16 shell as the exact-route
   switch predicate. Together with K247 it proves that the first farther shell
