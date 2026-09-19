@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__LOCAL_SELECTED_SYMBOL_ONLY",
+  "input_sha256": {
+    "backend": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "k236": "d3fb375122135fcf6947c2122cd6d5bc6fc9bb37c28f2e672e73804149709d75",
+    "k237": "06af52b3ca4c33cdaabd79214b9f80be87a8e0dabee4e1b3de68008ba5fb76f1"
+  },
+  "object": "Selected comm/symi/symi I1B formal Euler principal-symbol plane dx0/dx1 on the flat Ricci-flat T=0 zero-fermion germ",
+  "carrier": {
+    "basis_rule": "(label,mu,label xor 2^mu) for label in {0,1,2,3}, mu in {0,...,13}",
+    "dimension": 56,
+    "support_rule": "For principal dx0 and dx1, a nonzero ordered pairing connects labels differing by the corresponding principal bit; labels {0,1,2,3} are therefore closed in both ordered legs.",
+    "full_matrix_ranks": {
+      "dx0": 32,
+      "dx1": 32
+    }
+  },
+  "seed": {
+    "odd": "o=dx0 tensor gamma1",
+    "collective": "E=sum_(j=2)^13 dxj tensor gamma1 gammaj",
+    "normal_actions": [
+      "N0(o)=-E",
+      "N0(E)=12o"
+    ]
+  },
+  "minimal_two_plane_hull": {
+    "dimension_growth": [
+      2,
+      4,
+      7,
+      9,
+      9
+    ],
+    "dimension": 9,
+    "closed_under": [
+      "dx0",
+      "dx1"
+    ],
+    "minimality": "Successive exact Krylov closure from {o,E} grows 2,4,7,9 and then stabilizes; every retained column is chosen from the preceding hull plus one principal image.",
+    "restricted_actions": [
+      {
+        "principal_direction": 0,
+        "rank": 8,
+        "square_factors": [
+          1,
+          4,
+          12,
+          121
+        ],
+        "nullity": 1
+      },
+      {
+        "principal_direction": 1,
+        "rank": 8,
+        "square_factors": [
+          1,
+          4,
+          12,
+          121
+        ],
+        "nullity": 1
+      }
+    ]
+  },
+  "dx2_obstruction": {
+    "odd_witness": {
+      "output": "dx1 tensor gamma02",
+      "output_label": 7,
+      "ordered_forward_reverse": [
+        "-2",
+        "0"
+      ],
+      "euler_coefficient": "-1"
+    },
+    "collective_witness": {
+      "output": "dx2 tensor gamma1",
+      "output_label": 6,
+      "ordered_forward_reverse": [
+        "-22",
+        "0"
+      ],
+      "euler_coefficient": "-11"
+    },
+    "theorem": "The natural 56-vector completion containing every K237 escape is not a common carrier for the full principal family: dx2 already maps both K236 generators to nonzero labels outside {0,1,2,3}."
+  },
+  "interpretation": "K237's rank-two star has an exact nine-dimensional minimal completion for the dx0/dx1 principal plane. The first independent direction dx2 escapes even the ambient 56-vector two-plane carrier, so the nine-dimensional hull is not a fourteen-direction reduction and a larger ambient construction is required.",
+  "claim_ceiling": "Exact selected local dx0/dx1 principal-plane hull and dx2 obstruction only. No all-fourteen-direction minimal hull, source-selected full fermion operator, lower-order invariant domain, quotient, spectrum, positivity, source/physics/ledger/canon/public change, or q17 cancellation result."
+}

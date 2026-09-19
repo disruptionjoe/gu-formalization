@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0851f7a0d412d8638f3c4cc2bac3eb2688084099
+revision_basis: c37d055e85f61329c6e11a9a170e70eb5e33d074
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K249 takes K248's required route switch into the native I1B
+    principal-symbol branch. The exact label-0/1/2/3 carrier has dimension
+    56 and is closed under the selected dx0/dx1 principal plane. Starting
+    from K236's o,E star, simultaneous exact Krylov closure grows
+    2,4,7,9,9, so the minimal two-plane invariant hull has dimension nine.
+    Both restricted principal actions have rank eight and characteristic
+    polynomial lambda(lambda^2+1)(lambda^2+4)(lambda^2+12)(lambda^2+121).
+    The next independent direction dx2 escapes even the 56-vector carrier:
+    N2(o) has coefficient -1 at label-7 dx1 gamma02, and N2(E) has
+    coefficient -11 at label-6 dx2 gamma1. Thus K237's star has an exact
+    two-plane completion but no all-direction reduction on this natural
+    carrier. Independent support enumeration, ordered-contraction, hull-rank,
+    characteristic-polynomial, and hostile projection/principal controls
+    pass. No fourteen-direction minimal hull, source-selected fermion
+    operator, lower-order/common domain, quotient, spectrum, positivity,
+    source, ledger, canon, or public-posture result follows.
+
     K248 tests the first legal farther-shell cancellation discriminator after
     K247. On the complete q=15-to-q=16 K218 shell, the signed degree-twenty-one
     polynomial is about 1.499724826919e-21 and the rigorous
@@ -8560,17 +8577,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K248's strictly positive complete q=15-to-q=16 shell as the active
-  route-switch result. Together with K247 it proves that the first farther
-  shell strengthens rather than cancels the already-over-target q<=15
-  prefix. Do not spend the next selection on q17 or another retained-order
-  increase: neither is a structural farther-tail cancellation theorem. Reopen
-  this exact route only with a concrete argument that can prove and compose a
-  sign reversal or cross-shell cancellation over a substantial farther
-  region. Otherwise rerank to the strongest separately typed source-to-physics
-  challenger, such as a native I1B full-fermion common-domain construction.
-  Do not call K248 a global tail sign, full-error lower bound, K215
-  impossibility, pointwise sign, physics result, or source verdict.
+  Treat K249 as the active source-native route-switch result. K236's star has
+  a certified nine-dimensional minimal completion for the dx0/dx1 principal
+  plane, but dx2 exits even the natural label-0/1/2/3 56-vector carrier.
+  Any next I1B continuation must therefore construct a larger ambient
+  all-direction hull or, preferably, supply the missing source-selected full
+  fermion operator and lower-order/common-domain owner; do not project away
+  the dx2 outputs or call the nine-dimensional hull a fourteen-direction
+  reduction, spectrum, positivity result, or physical mode.
+
+  Keep K248's strictly positive complete q=15-to-q=16 shell as the exact-route
+  switch predicate. Together with K247 it proves that the first farther shell
+  strengthens rather than cancels the already-over-target q<=15 prefix. Do
+  not spend the next selection on q17 or another retained-order increase:
+  neither is a structural farther-tail cancellation theorem. Reopen this
+  exact route only with a concrete argument that can prove and compose a sign
+  reversal or cross-shell cancellation over a substantial farther region. Do
+  not call K248 a global tail sign, full-error lower bound, K215 impossibility,
+  pointwise sign, physics result, or source verdict.
 
   Keep K185/K188's excision union and K204/K209's cubature errors out of the
   exact K213/K218 budget: both price alternative routes, while K213 consumes

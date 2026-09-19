@@ -7,6 +7,33 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K249 two-plane I1B hull and dx2 carrier obstruction (2026-09-19)
+
+K237 proves that K236's rank-two normal star is not invariant under the
+selected `dx1` principal coefficient. K249 completes that question on the
+smallest natural finite carrier containing all named K237 outputs. In the
+56-vector basis `(label,mu,label xor 2^mu)` with labels `{0,1,2,3}`, the exact
+`dx0` and `dx1` Euler matrices both have rank 32. Simultaneous Krylov closure
+from `o=dx0 gamma1` and `E=sum_(j=2)^13 dxj gamma1 gammaj` grows through
+dimensions `2,4,7,9,9`; hence the minimal invariant hull for this two-plane
+family has dimension nine. On that hull, each principal action has rank eight
+and characteristic polynomial
+`lambda(lambda^2+1)(lambda^2+4)(lambda^2+12)(lambda^2+121)`.
+
+This finite carrier does not extend to the full principal family. For `dx2`,
+exact ordered contractions give Euler coefficient `-1` from `o` to the
+label-7 vector `dx1 gamma02`, and coefficient `-11` from `E` to the label-6
+vector `dx2 gamma1`; both lie outside labels `{0,1,2,3}`. An independent
+support-enumeration replay reconstructs the two matrices, hull growth and
+restricted characteristic polynomials, then replays both escapes and rejects
+the hostile move of projecting them away.
+
+The nine-dimensional hull is therefore a `dx0/dx1` principal-plane result,
+not an all-fourteen-direction reduction. K249 supplies no source-selected
+full fermion operator, lower-order invariant subbundle, common closed domain,
+quotient, physical spectrum, positivity, source/physics/ledger/canon/public
+change, or q17 cancellation theorem.
+
 ## K248 q16 farther-shell sign-reversal discriminator (2026-09-19)
 
 K247 leaves one same-route question open: can a farther signed shell reverse
