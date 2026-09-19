@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k239": "ff4c13a8a91a16690e77033c9d3d1903c31631fc4f58f4ef3cb2350d63991de9",
+    "k240": "50875a8c2137a9b90de6dd01acbd2d09f2e0a9d28891ac994a2dc42b0fc595a0"
+  },
+  "object": "K231 quartic coefficient A_b(u,v) of the S6-projected signed K185/K218 rational-cosh core, at the common K240 anchor b=1",
+  "domain": {
+    "u": [
+      1,
+      5
+    ],
+    "v": [
+      1,
+      5
+    ],
+    "anchor_b": 1
+  },
+  "raw_signed_terms": 1864,
+  "projected_pairs": 15,
+  "nonzero_symbolic_groups": 585,
+  "atlas": {
+    "grid": [
+      8,
+      8
+    ],
+    "cell_half_width": "1/4",
+    "global_lower": "2913283988384545677146212154349122400766079078533154060683363797504668141861801506040467713113453402235634318927565693644236541174035134977419448546363083455239222388517554086794318118819/226580085990357232439436540887117424677781891162183950982237305661416970204033194857727103694516619042609107390291425390144047140635682620117198959602779612893567337147481955560955269874555772164724840577372858185191424000000000",
+    "global_upper": "55105361020334539709740755594725581197587147487963906910708723429944502458024485512400305704650459521328951469365208316712047445097448225072709651117363361393299784764382754397/2306581058233723322845104210152732257781075661165763404270184294541600454527068501862673860377161200416878014426515785138108484193511772965737346915671402900945738578868732552460707922757867990133209570775040000000000",
+    "global_lower_decimal": "1.285763475484e-41",
+    "global_upper_decimal": "2.389049403819e-41",
+    "common_second_order_remainder": "1958543527627907253400785772942023018532790932500678310308329986649507127272283581808817/445407042310323755990155302027826321429778334106927195414579485410631387380289716946304294354010032830896147135949754368000000000",
+    "cell_bounds_sha256": "9a1ad493d878d4897c9538d22b088171a4c936fcdce425de7e4481e66ee4f58f",
+    "cells": 64
+  },
+  "theorem": "For every u,v in [1,5], the common-anchor coefficient obeys the displayed exact positive interval. Each of the 1,864 signed terms is averaged over fifteen exceptional coordinate pairs and combined into 585 identical symbolic rational functions before differentiation. On each unit square, exact value and gradient at the center are enclosed by Taylor's theorem. For every grouped positive reciprocal product, the absolute uu, uv and vv derivatives of its h^4 coefficient are coordinatewise decreasing on the positive orthant; their signed-weight absolute sum at (1,1) therefore bounds every cell Hessian. The exact lower endpoint is positive. This is a covered coefficient theorem, not sampling.",
+  "quartic_shell": {
+    "pi_lower": "31/10",
+    "k5_upper": "47736926208/1953125",
+    "headroom": "17933/100000000000000000000000000",
+    "upper": "21160178620976425460638765852417248900890266547814163049889985446027480711737123770788303742950589592845384749799219166929482711893349099930509106003385165262308933565543650658206175258429534240768/89359831785410752542893505442785714370687632990098863769185767108532223808772161281381830652178242290063777733140522153716391612445966835384042172839389759873725565253631273306981450773990027260135260801919356768798828125",
+    "upper_decimal": "2.367974312193e-25",
+    "fraction_of_headroom": "1.320456316396e-03",
+    "argument": "K240's positive quartic shell is at most C*Amax*K5*measure(U^2). Dropping the negative K4 low-cube subtraction only enlarges it. Here measure([0,log 5])=sinh(log 5)=12/5, K5=15*(M0*M2-M1^2)^2*M0^2 <=15*(M0*M2)^2*M0^2 with M2=M0+M0^3/3, and pi>31/10."
+  },
+  "raw_remainder_discriminator": {
+    "full_q5_cube_upper": "36250029440481261999111199567655001656986850758197029385971549023384396891027694135527716664901632/5798425217955585055870450307418292177999558141089928819648594211020482243715237067396154127414013710116883850390625",
+    "full_q5_cube_upper_decimal": "6.251702501608e-18",
+    "multiple_of_headroom": "3.486144260084e+04",
+    "result": "fails_budget",
+    "argument": "For every raw reciprocal product, Taylor along the six-coordinate ray from b=1 has fifth remainder at most q(0)*(sum_i r_i)^5 because all loads increase. Use u=v=1 and all six deviations <=4 for a uniform worst case, sum absolute raw weights, and multiply by the full q=5 eight-coordinate measure. This is rigorous but discards the signed grouping needed for R_1."
+  },
+  "required_next_certificate": "Certify the signed same-anchor R_1 integral directly on U^8 minus L^8 below the residual K224 allocation. Do not spend further work on the quartic coefficient unless a tighter remainder composition explicitly needs it.",
+  "source_routing": "SC-ACT-01/02 ASSERTS; SC-META-53 UNCERTAIN; LT-GR6b/LT-SM8 NEEDS. This remains internal integration algebra.",
+  "claim_ceiling": "Exact positive A_1 atlas and rigorous complete quartic-shell upper only. No sign or bound for the same-anchor R_1 integral, complete signed third-shell upper, K215 prefix, source action/state, ledger, canon or public-posture change."
+}

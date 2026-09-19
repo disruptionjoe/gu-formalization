@@ -7,6 +7,36 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K241 complete common-anchor quartic coefficient atlas (2026-09-18)
+
+Fix K240's legal common anchor at `b=1`. For every `u,v in [1,5]`, K231's
+quartic coefficient satisfies the exact covered interval
+
+`1.285763475484e-41 < A_1(u,v) < 2.389049403819e-41`.
+
+This is not inferred from samples. The 1,864 K185 terms and fifteen projected
+coordinate pairs combine into 585 nonzero symbolic rational-function groups.
+On each cell of an exact 8-by-8 unit-half-step atlas, the producer evaluates
+the value and first derivatives at the rational center. The absolute grouped
+second derivatives of the `h^4` coefficient are coordinatewise decreasing on
+the positive orthant, so their exact `(u,v)=(1,1)` sums give a common Taylor
+remainder. Every one of the 64 resulting rational lower endpoints is positive.
+An independent probe agrees with K231's raw fifteen-pair coefficient at four
+rational points and rejects unsigned replacement.
+
+Combining the upper endpoint with K240, `pi>31/10`,
+`M0=sinh(log 5)=12/5`, `M2=M0+M0^3/3`, and
+`K5<=15*(M0*M2)^2*M0^2` bounds the *complete quartic shell contribution* by
+`2.367974312193e-25`, or `0.001321` of K224's `1.7933e-22` headroom. Dropping
+the negative q=4 low-cube term only enlarges this upper, so the quartic piece
+is decision-safe without numerical quadrature. A separate raw-term fifth-order
+Taylor majorant on the full q=5 cube is rigorous but about 34,861 times over
+the headroom; it demonstrates why the remaining same-anchor `R_1` integral
+still requires signed grouping. K241 proves no bound or sign for that remainder,
+no complete signed third-shell upper, K215 prefix, source action/state, ledger,
+canon or public-posture change. SC-ACT-01/02 remain `ASSERTS`, SC-META-53
+`UNCERTAIN`, and LT-GR6b/LT-SM8 `NEEDS`.
+
 ## K240 common-anchor projected quartic shell (2026-09-18)
 
 K232's polynomial `P=m22-m211/2+m1111` is invariant under a common

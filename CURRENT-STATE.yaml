@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8f339da068d26bd2890344e42067d8d896722f7a
+revision_basis: 7c953ef56fb8e494c5ac14760464d6dc99829c62
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -8250,6 +8250,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K241 certifies the common-anchor b=1 coefficient A_1(u,v) on the complete
+  [1,5]^2 outer square by an exact 8-by-8 rational Taylor atlas:
+  1.2857e-41 < A_1 < 2.3891e-41. Its complete quartic third-shell
+  contribution is below 2.3680e-25, only 0.133 percent of K224's
+  1.7933e-22 allocation. The quartic coefficient and its integration cost
+  are therefore closed for this route. Can the signed same-anchor R_1
+  remainder be grouped and integrated directly on the shell below the
+  residual allocation? A raw absolute fifth-order full-q5-cube majorant is
+  still about 34,861 times too large and cannot answer the signed question.
+
   K240 gives an exact common-anchor signed third-shell decomposition and
   positive geometric factor increment, but not a sign for variable A_b or
   the integrated R_b remainder. Can a covered correlated bound for A_b on
@@ -8416,6 +8426,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  For K241, retain b=1 and construct a signed grouped Taylor or direct-shell
+  enclosure for R_1=Hbar-A_1*P on U^8 minus L^8. Exploit denominator-orbit
+  cancellation before absolute values, integrate against the product-cosh
+  measure, and compare the result plus K241's 2.3680e-25 quartic upper with
+  K224's 1.7933e-22 allocation and measured cost. Do not repeat coefficient
+  tiling or the raw fifth-order triangle majorant: the former is closed and
+  the latter is already about 34,861 times over budget.
+
   For K240, select one common b and certify the A_b integrals on the low
   square and disjoint high strips and the signed R_b remainder directly on
   the third shell, with pi^-8 and K224's 1.7933e-22 budget. Prove a covered
