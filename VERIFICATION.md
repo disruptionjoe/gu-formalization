@@ -7,6 +7,41 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K242 complete signed third-shell Taylor certificate (2026-09-18)
+
+For the complete original K185/K218 signed rational-cosh core on
+`[0,log(5)]^8 \ [0,log(4)]^8`, expand at `c=(1,...,1)` and keep every
+signed multivariate coefficient through total degree nine. K230's 307
+retained denominator orbits suffice because the cubes and product-cosh
+measure are S6 invariant. Each monomial integrates exactly: for
+`x=cosh(t)-1`, the moments
+`int cosh(t)x^e dt` are rational affine polynomials in `log(q)` obtained
+from the cosh-power recurrence. Exact aggregation cancels degrees zero
+through three after the symmetric cube functional and gives the normalized
+degree-zero-through-nine shell interval
+
+`9.935e-28 < I_0..9 < 9.937e-28`.
+
+For every retained orbit, the reciprocal-product expansion has alternating
+homogeneous coefficients `q0 h_n(r)`. On the full q=5 cube, monotonicity
+bounds `h_10` at `x=(4,...,4)`. For `n>=10`,
+`h_(n+1)/h_n <= r_max (n+14)/(n+1) <= r_max*24/11 < 1`, so a geometric
+continuation bounds all higher degrees. After the exact shell measure and
+`pi>31/10`, that tail is below `6.447408176976e-23`. Adding the rational
+polynomial upper gives a complete absolute shell upper below
+`6.447507546976e-23`, or `0.3595332` of K224's `1.7933e-22` allocation.
+K241's quartic is already the degree-four term and is not added again.
+
+The independent probe reconstructs the integrated degree-nine polynomial
+from all 1,276 raw allocation functions without K230 orbit projection and
+obtains the identical exact log-polynomial hashes. It recomputes `h_10` by
+Newton power sums rather than factor convolution and rejects stopping the
+tail at degree nine, a sign mutation, and uniform-dt normalization. K242
+therefore closes this third-shell numerical obligation. It does not complete
+K215's farther finite prefix or compose the separate quotient, coalescent and
+common-reference boundaries. SC-ACT-01/02 remain `ASSERTS`, SC-META-53
+`UNCERTAIN`, LT-GR6b/LT-SM8 `NEEDS`, and no canon or public posture moves.
+
 ## K241 complete common-anchor quartic coefficient atlas (2026-09-18)
 
 Fix K240's legal common anchor at `b=1`. For every `u,v in [1,5]`, K231's

@@ -1,0 +1,120 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47",
+    "k230": "e2b7c9a8af209d8dbde37a2c97a6a22aa654ec8e5bdc1187e3a46a1edcc89244",
+    "k241": "9e6f0eb805422c325d063f1f5f426f2ca3b2a4b3cc23584c2fc01218b4aab91d"
+  },
+  "object": "Complete original K185/K218 signed rational-cosh core on [0,log(5)]^8 minus [0,log(4)]^8",
+  "scope": "Internal order-six finite-prefix integration algebra; not a source-selected action, physical state, quotient, spectrum or observable",
+  "expansion": {
+    "anchor_c": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "total_degree_inclusive": 9,
+    "raw_signed_terms": 1864,
+    "retained_s6_orbits": 307,
+    "orbit_manifest_sha256": "10c9d7b4fe2b980d994a027486e4320f0c13e2212f9908d66c69d1a9cf8bd12c",
+    "degrees": [
+      {
+        "degree": 0,
+        "monomials": 0,
+        "coefficient_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "integrated_shell_arb": "0"
+      },
+      {
+        "degree": 1,
+        "monomials": 5,
+        "coefficient_sha256": "fc9746e201b093afde52064015ea839b2b8328a9dd93071be4c77462048f77a5",
+        "integrated_shell_arb": "0"
+      },
+      {
+        "degree": 2,
+        "monomials": 32,
+        "coefficient_sha256": "a6cd0f84d7b2bc13c0a0e85db1cb005847d0662587c7477c2efe7448acad01da",
+        "integrated_shell_arb": "0"
+      },
+      {
+        "degree": 3,
+        "monomials": 114,
+        "coefficient_sha256": "796a1ac359bd61fc0a992ab6234c3fef9a762c57662cb2455dfdbeded5d2f697",
+        "integrated_shell_arb": "0"
+      },
+      {
+        "degree": 4,
+        "monomials": 323,
+        "coefficient_sha256": "5a8da56619740f5c72eb7a4d9cfe8deda7ff8b8fc880de32a6f36e9598b187c0",
+        "integrated_shell_arb": "[1.18942513719552757823619941053742306160195976251586887844927618134674113916e-27 +/- 7.59e-102]"
+      },
+      {
+        "degree": 5,
+        "monomials": 783,
+        "coefficient_sha256": "24e3ccf86af1441c4113e906ac700fda6dc4efbeb8f64d8ab7e6a4ac1c87a928",
+        "integrated_shell_arb": "[-2.16269193532763315202168062838421684747649678830934549234904533701825733391e-28 +/- 4.95e-103]"
+      },
+      {
+        "degree": 6,
+        "monomials": 1706,
+        "coefficient_sha256": "1536d764b913e8e48b228d6553dc29ac9ec186f4d7e07f3b27055f3fc09c997b",
+        "integrated_shell_arb": "[2.19977187526686873465930933963771110662190869716824865853602543512798436466e-29 +/- 5.08e-104]"
+      },
+      {
+        "degree": 7,
+        "monomials": 3420,
+        "coefficient_sha256": "9d1081d4887736c40d4a01d4c73fa622469656d64dd013a3f38630f706a469b8",
+        "integrated_shell_arb": "[-1.65538638887635654352355403941740376274771995609547143068151262620606589565e-30 +/- 6.89e-105]"
+      },
+      {
+        "degree": 8,
+        "monomials": 6422,
+        "coefficient_sha256": "4917be33d70166550b58f29d26c3053b6800df8e905e3ea8041d667296793339",
+        "integrated_shell_arb": "[1.02961362312369836619399459443819123907384209520780763029041989111835482939e-31 +/- 5.71e-106]"
+      },
+      {
+        "degree": 9,
+        "monomials": 11425,
+        "coefficient_sha256": "d3c812f0459aa16d93b760a59d1caf81c5d957989a2142687486249785758abe",
+        "integrated_shell_arb": "[-5.6113883183438727130912524830733777909289903170493560714952405391665846162e-33 +/- 5.80e-107]"
+      }
+    ],
+    "cube_integrated_log_polynomial_sha256": {
+      "4": "5f1e8e189174abc4f10f95c54632af09fc1969a2d0ec323c3c6ccd4482eef8e0",
+      "5": "25003c96c6712b404cbfe02e911aaf554b2e5aab7fcf7cd3cf76b43041c80141"
+    },
+    "theorem": "Expand every retained K230 denominator orbit at c=(1,...,1) in x_j=c_j-1 through total degree nine. On each symmetric cube its orbit representative has the same integral as its S6 average. The K218 measure gives mu_e(q)=int_0^log(q) cosh(t)(cosh(t)-1)^e dt, obtained exactly as a rational affine polynomial in log(q) from the standard cosh-power recurrence. Product moments therefore integrate every signed multivariate coefficient exactly before any absolute value."
+  },
+  "signed_polynomial_shell": {
+    "arb_256_bit": "[9.9359562600055061980100719526292182990389790591972507577600793611856185241e-28 +/- 6.90e-102]",
+    "strict_rational_lower": "1987/2000000000000000000000000000000",
+    "strict_rational_upper": "9937/10000000000000000000000000000000"
+  },
+  "all_higher_degree_tail": {
+    "starts_at_total_degree": 10,
+    "exact_core_majorant": "11761864526448105837935225291374412767916452180414867015516499325811042854503656500043786730466707174885507754455754044796426174911635423725361168384/12175900156988746122682849596652477694656517963583714510099813088353208208374503336397853545397664754155637732740159693494174098257544876212199455379756047168638544640578292754150390625",
+    "exact_shell_measure": "6212766639447711/6553600000000",
+    "pi_lower": "31/10",
+    "normalized_upper": "72892311283350790200489093487901987897878823176063255634871846868825004191169429592534796357527837424806150644037455112901977822878310770605680032901038760810794543218688/1130567652652270608480495335500587900552911101107580173620244590043521016295556759077827979865851708479818198647388234880164034767386082247723203775475790243119892331095348114755148367919921875",
+    "normalized_upper_decimal": "6.447408176976e-23",
+    "proof": "For one orbit at x_j in [0,4], write r_i=(sum_j m_ij x_j)/(256+row_popcount_i). Its reciprocal product has alternating homogeneous coefficients q0*h_n(r). Monotonicity bounds h_10 at x=(4,...,4). For n>=10, h_(n+1)/h_n is at most r_max*(n+14)/(n+1), hence at most r_max*24/11<1. The geometric continuation h_10/(1-r_max*24/11), summed with absolute retained-orbit coefficients, covers every degree ten and higher. Multiplication by the exact shell measure and pi>31/10 completes the integral bound."
+  },
+  "complete_third_shell": {
+    "headroom": "17933/100000000000000000000000000",
+    "absolute_upper": "597143017295275874400606130635709438624363336530529699735882738121720876548123217815849304024608195556547518786612846777065293757478167528698753805915180655440356404885073178193278010908124791/9261610210527400824672217788420816081329447740273296782297043681636524165493200970365566811061057195866670683319404420138303772814426785773348485328697673671638157976333091756074175430000000000000000000000000000000",
+    "absolute_upper_decimal": "6.447507546976e-23",
+    "fraction_of_headroom": "3.595331259118e-01",
+    "result": "passes_budget",
+    "interpretation": "The exact signed degree-zero-through-nine polynomial plus the absolute all-higher-degree tail encloses the complete K218 third shell. K241's quartic is included in degree four and is not added again."
+  },
+  "controls": "The independent probe reconstructs the degree-nine cube integrals from all 1,276 raw allocation functions without K230 orbit projection, replays h_10 by Newton power sums rather than factor convolution, and rejects omitted degree ten, a sign mutation and a wrong measure normalization.",
+  "source_routing": "SC-ACT-01/02 ASSERTS; SC-META-53 UNCERTAIN; LT-GR6b/LT-SM8 NEEDS. No source or physics-ledger row moves.",
+  "claim_ceiling": "Rigorous complete third-shell signed integral enclosure below K224's residual allocation only. No complete K215 finite prefix, separate quotient/coalescent/common-reference boundary composition, source action/state/domain, physics verdict, canon, paper or public-posture change."
+}

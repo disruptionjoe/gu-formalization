@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7c953ef56fb8e494c5ac14760464d6dc99829c62
+revision_basis: db88040a83120582135ac53094e756b7b8ae6009
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K242 closes the complete K218 third shell from q=4 to q=5. It expands
+    K230's 307 retained denominator orbits at c=(1,...,1), aggregates every
+    signed coefficient through total degree nine, and integrates those
+    coefficients exactly against K218's product-cosh measure using rational
+    polynomials in log(4) and log(5). The normalized signed polynomial is
+    between 9.935e-28 and 9.937e-28. A separate all-degree >=10 majorant,
+    taken only after orbit cancellation, is below 6.4475e-23. Their complete
+    absolute upper is below 6.4476e-23, 0.35954 of K224's 1.7933e-22
+    allocation. An independent raw-allocation replay and Newton-power-sum
+    tail check pass. This closes the third-shell numerical obligation, not
+    K215's farther finite prefix or the separate quotient, coalescent and
+    common-reference boundaries. Source, ledger, canon and public posture
+    do not move.
+
+    K241 fixes K240's common anchor at b=1 and certifies the variable
+    quartic coefficient on the complete [1,5]^2 square by an exact 8-by-8
+    rational Taylor atlas: 1.2857e-41 < A_1 < 2.3891e-41. Its complete
+    quartic third-shell contribution is below 2.3680e-25. Its raw fifth-order
+    full-cube majorant fails by about 34,861 times, motivating K242's signed
+    orbit integration. The quartic is included in K242's degree-four term
+    and is not added twice.
+
     K240 uses K232's translation invariance to keep one common Taylor
     anchor across K239's nested q=4,5 cubes. The projected quartic's
     weighted six-coordinate moment K(q)=15 V(q)^2 M0(q)^4 is independent
@@ -8250,31 +8272,37 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K242 certifies the complete K218 third shell by exact signed Taylor
+  integration through total degree nine plus a rigorous all-degree >=10
+  orbit tail. The total absolute upper is below 6.4476e-23, only 0.35954 of
+  K224's 1.7933e-22 allocation. The third-shell numerical obligation is
+  closed. Can the same signed-denominator structure now advance K215's
+  larger finite prefix beyond q=5 while composing the distinct K185/K188
+  quotient/coalescent boundaries and K204/K209 common-reference defects?
+  K242 supplies neither those boundaries nor a whole-prefix cost theorem.
+
   K241 certifies the common-anchor b=1 coefficient A_1(u,v) on the complete
   [1,5]^2 outer square by an exact 8-by-8 rational Taylor atlas:
   1.2857e-41 < A_1 < 2.3891e-41. Its complete quartic third-shell
   contribution is below 2.3680e-25, only 0.133 percent of K224's
   1.7933e-22 allocation. The quartic coefficient and its integration cost
-  are therefore closed for this route. Can the signed same-anchor R_1
-  remainder be grouped and integrated directly on the shell below the
-  residual allocation? A raw absolute fifth-order full-q5-cube majorant is
-  still about 34,861 times too large and cannot answer the signed question.
+  are therefore closed for this route. Its raw absolute fifth-order
+  full-q5-cube majorant is about 34,861 times too large, but K242 now answers
+  the signed question by retaining orbit cancellation through degree nine
+  and bounding only the degree-ten-and-higher tail.
 
   K240 gives an exact common-anchor signed third-shell decomposition and
-  positive geometric factor increment, but not a sign for variable A_b or
-  the integrated R_b remainder. Can a covered correlated bound for A_b on
-  the low u/v square and two disjoint high strips, together with a direct
-  same-anchor R_b shell enclosure, meet K224's 1.7933e-22 allocation at
-  feasible cost? A positive factor cannot transfer to signed Hbar.
+  positive geometric factor increment, but not by itself a sign for variable
+  A_b or the integrated R_b remainder. K242 supplies the complete signed
+  shell enclosure by a distinct total-degree expansion; K240 alone still
+  cannot transfer a positive factor to signed Hbar.
 
   K239 removes six polynomial-integration coordinates from K230/K231's
   projected quartic on each full q=4,5 cube under the correct K218 measure.
-  Can a uniform correlated enclosure for the variable A(u,v,b(q)) and the
-  integrated R5 remainder compose the cube difference into a complete signed
-  third-shell upper below K224's 1.7933e-22 allocation at feasible cost?
-  Its exact quartic moment alone is not a certificate. If difference-of-cubes
-  absolute bounds lose common contribution, use a direct shell rule rather
-  than treating the polynomial identity as a global sign.
+  Its exact quartic moment alone was not a certificate; K242 now composes the
+  complete signed cube difference by exact low-degree moments and one common
+  rigorous tail. Do not reinterpret K239's polynomial identity as a global
+  sign or duplicate K242's closed shell.
 
   K238 gives a global quantitative floor for positive K186 regularizers,
   so farther a/c tiling only for their sign or a coarse inverse bound is
@@ -8426,34 +8454,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  For K241, retain b=1 and construct a signed grouped Taylor or direct-shell
-  enclosure for R_1=Hbar-A_1*P on U^8 minus L^8. Exploit denominator-orbit
-  cancellation before absolute values, integrate against the product-cosh
-  measure, and compare the result plus K241's 2.3680e-25 quartic upper with
-  K224's 1.7933e-22 allocation and measured cost. Do not repeat coefficient
-  tiling or the raw fifth-order triangle majorant: the former is closed and
-  the latter is already about 34,861 times over budget.
-
-  For K240, select one common b and certify the A_b integrals on the low
-  square and disjoint high strips and the signed R_b remainder directly on
-  the third shell, with pi^-8 and K224's 1.7933e-22 budget. Prove a covered
-  interval/cost allocation or switch to a correlated cell rule or an
-  independent source-facing route. Do not substitute finite sign samples,
-  independent absolute cube residual bounds or K238's positive floor.
-
-  For K239, bound A on the two weighted u/v squares and R5 after all six
-  exchangeable auxiliaries are integrated under product cosh(t)dt, or prove a
-  direct correlated shell enclosure. Compare the resulting cost and complete
-  signed upper with K224's 1.7933e-22 remaining allocation. Do not reuse a
-  uniform-cosh density or assume the q=5 and q=4 upper bounds subtract.
+  Treat K242's q=4-to-q=5 third-shell bound as closed. Next compose it with
+  the existing K217 inner box and the distinct K185/K188 quotient,
+  coalescent and K204/K209 common-reference boundary obligations, then choose
+  the cheapest signed extension toward K215's sufficient 215 log(2) prefix.
+  Reuse K242's exact degree-nine moment engine only where a larger shell has
+  a proved tail allocation and viable cost; do not rerun the closed q=5 shell
+  or count its 0.35954 budget fraction as a complete K215 result.
 
   Use K238's quantitative global regularizer floor where only positivity or
   a coarse inverse bound is needed; do not spend another 786432-cell-class
-  ring on that question. For order-six integration, still obtain a complete
-  correlated signed weighted K218 third-shell upper within K224's
-  1.7933e-22 headroom at feasible cost and compose separate K185/K188
-  boundaries. Any far-shape a/c derivative or upper-bound atlas must state
-  the consuming error and cannot count K238's floor as its derivative bound.
+  ring on that question. K242 closes the q=4-to-q=5 third shell, while the
+  separate K185/K188 boundaries and larger K215 prefix remain open. Any
+  far-shape a/c derivative or upper-bound atlas must state the consuming error
+  and cannot count K238's floor as its derivative bound.
 
   Extend K234 only with a uniform rational/interval certificate for the
   variable fourth coefficient and correlated remainder over an explicitly
