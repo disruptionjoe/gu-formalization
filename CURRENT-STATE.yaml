@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 007b77cc29d0c8e2cfc2550da9b3134477e5ba7d
+revision_basis: 92a8ff56f809c16e56f59c481fe9e8cb7eafa4a7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K244 replaces K243's coarse q-1 tail corner by the exact transformed
+    value cosh(log(q))-1=(q-1)^2/(2q), raises the retained signed expansion
+    through total degree fifteen, and certifies every K218 core shell from
+    q=5 through q=10. Their combined complete upper is
+    1.039655508961e-23, leaving 1.249233218177e-23 of K243's composed
+    residual. The next q=10-to-q=11 shell has a rigorous complete lower
+    2.104909024706e-23, 1.68496 times that remainder. Thus the current
+    allocation/certificate composition cannot include q=11; this is not a
+    lower bound on the full original order-six error, because the earlier
+    allocated uppers may still be sharpened. K244 also resolves a route
+    ambiguity: K204/K209 price the alternative common-reference cubature,
+    while K213/K218 cancel that reference and integrate the original uniform
+    simplex exactly. Their derivative owner is therefore not an additive
+    obligation on the exact K218 branch, although K185/K188 quotient, face,
+    radial and small-radius transfer ceilings remain. Independent raw
+    1,276-allocation, Newton-tail and exact-simplex replays pass. Source,
+    ledger, canon and public posture do not move.
+
     K243 composes the previously separate order-six outward bounds into one
     exact 10^-21 budget. K188's eighteen coherent-group boundary union sums
     to 9.196543625379e-23; K224's complete q<=4 core is
@@ -47,10 +65,10 @@ current_result:
     degree-ten-and-higher orbit tail is below only 2.834400400825e-21, or
     123.84 times the composed residual. Thus this certificate class does not
     certify the next shell; the result is not a signed-shell lower bound or a
-    K215 impossibility theorem. K204/K209 remain unallocated because their
-    exact geometry coefficients lack the complete signed normalized/coalescent
-    derivative norm. Independent raw-allocation, boundary-source and Newton
-    tail replays pass. Source, ledger, canon and public posture do not move.
+    K215 impossibility theorem. K244 later proves that K204/K209 belong to an
+    alternative cubature branch rather than this exact K218 route. Independent
+    raw-allocation, boundary-source and Newton tail replays pass. Source,
+    ledger, canon and public posture do not move.
 
     K242 closes the complete K218 third shell from q=4 to q=5. It expands
     K230's 307 retained denominator orbits at c=(1,...,1), aggregates every
@@ -8289,26 +8307,23 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K243 composes K188's exact boundary union, K224's q<=4 core and K242's
-  q=4-to-q=5 shell into a single 10^-21 error budget. The known total is
-  9.771111127286e-22 and the true residual for all q>5 core shells plus
-  unallocated reference/coalescent defects is only 2.288888727138e-23.
-  K242's unchanged degree-nine-plus-absolute-tail method fails on the next
-  q=5-to-q=6 shell by a factor of about 123.84 even though its signed retained
-  polynomial is only about 1.23366e-26. Can a reanchored, higher-order or
-  cancellation-preserving shell method reduce that tail while the missing
-  K204/K209 derivative owner is constructed and allocated? Do not treat the
-  failed upper bound as a lower bound on the signed shell or impossibility of
-  K215's finite prefix.
+  K244 certifies the exact K218 core through q=10 under K243's composed
+  10^-21 allocation. After reserving the q=6-through-q=10 complete uppers,
+  only 1.249233218177e-23 remains, while the next q=10-to-q=11 shell has a
+  rigorous complete lower 2.104909024706e-23. Which earlier dominant ceiling
+  can be structurally sharpened enough to reopen q=11, or can a legal
+  cancellation-preserving composition replace shellwise absolute allocation?
+  Do not raise Taylor order on q11 merely to repeat the allocation failure,
+  infer that the full original order-six error exceeds 10^-21, or call K215
+  impossible.
 
-  K242 certifies the complete K218 third shell by exact signed Taylor
-  integration through total degree nine plus a rigorous all-degree >=10
-  orbit tail. The total absolute upper is below 6.4476e-23, only 0.35954 of
-  K224's 1.7933e-22 allocation. The third-shell numerical obligation is
-  closed. Can the same signed-denominator structure now advance K215's
-  larger finite prefix beyond q=5 while composing the distinct K185/K188
-  quotient/coalescent boundaries and K204/K209 common-reference defects?
-  K242 supplies neither those boundaries nor a whole-prefix cost theorem.
+  K244 proves that K204/K209 common-reference moment and derivative errors
+  belong only to the alternative K203/K208 cubature route: K213 cancels the
+  reference weight and K218 exactly eliminates the original uniform simplex.
+  The current exact route retains K185/K188 quotient, face, radial and
+  small-radius transfer ceilings, but it does not add an unused quadrature's
+  error. Reopen the K204/K209 derivative owner only if that cubature branch
+  becomes competitive again.
 
   K241 certifies the common-anchor b=1 coefficient A_1(u,v) on the complete
   [1,5]^2 outer square by an exact 8-by-8 rational Taylor atlas:
@@ -8483,18 +8498,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K243's exact known-budget composition as the active allocation:
-  2.288888727138e-23 remains after the K185/K188 boundary union, K224 q<=4
-  core and K242 q=4-to-q=5 shell. Do not reuse K224's pre-boundary
-  1.7933e-22 headroom as if it were still available. The unchanged K242
-  degree-nine-plus-absolute-tail certificate fails on q=5-to-q=6 by about
-  123.84 times this residual. Next test a genuinely smaller correlated tail:
-  reanchor on the q=5 face, raise exact signed order with a proved cost, or
-  preserve denominator-orbit cancellation inside the remainder. In parallel,
-  construct the complete signed normalized/coalescent derivative owner that
-  converts K204/K209's geometry coefficients into a commensurate error addend.
-  Do not repeat the q=6 degree-nine bound with more precision, infer an actual
-  shell lower bound, or call K215 impossible.
+  Treat K244's q<=10 exact-route certificate as the active allocation. The
+  q=6-through-q=10 shell upper is 1.039655508961e-23 and the remaining
+  allocation is 1.249233218177e-23. The q=10-to-q=11 complete lower is
+  2.104909024706e-23, so another Taylor order cannot make q11 fit without
+  changing earlier allocations or composing cancellation across the current
+  absolute boundaries. First attack the dominant earlier ceiling with a
+  structural sharpening or prove a legal cross-shell cancellation theorem;
+  otherwise rerank away from this certificate route. Do not call this an
+  actual full-error lower bound or K215 impossibility.
+
+  Keep K204/K209 out of the exact K218 budget: they price the alternative
+  common-reference cubature and are not additive after K213/K218's exact
+  reference cancellation and uniform-simplex elimination. Their complete
+  derivative owner is needed only if that cubature route is revived. Retain
+  K185/K188 quotient, face, radial and small-radius transfer ceilings.
 
   Use K238's quantitative global regularizer floor where only positivity or
   a coarse inverse bound is needed; do not spend another 786432-cell-class

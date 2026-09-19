@@ -7,6 +7,40 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K244 exact-corner shell ladder and current-allocation boundary (2026-09-18)
+
+For `t in [0,log(q)]`, the exact expansion variable ceiling is
+`x_max=cosh(log(q))-1=(q-1)^2/(2q)`, not K243's coarse safe value `q-1`.
+Expand K230's 307 retained denominator orbits through total degree fifteen,
+integrate every signed coefficient exactly under K218's product-cosh measure,
+and bound every degree at least sixteen only after orbit cancellation. The
+complete shell uppers from q=5 through q=10 sum to
+`1.039655508961e-23`. Against K243's composed residual this leaves
+`1.249233218177e-23`.
+
+For q=10-to-q=11 the exact signed degree-zero-through-fifteen polynomial is
+about `2.28436e-23`; its rigorous all-higher-degree tail is below
+`1.75091e-24`. The complete shell lower is therefore
+`2.104909024706e-23`, or `1.68496` times the remaining allocation after the
+q<=10 reservations. The current shellwise certificate/allocation composition
+cannot include q11. This does not prove that the original full order-six error
+exceeds `1e-21`: earlier components are upper allocations and may be sharpened,
+and a separately proved legal cancellation could change the composition.
+
+K204/K209 are not another additive defect on this exact route. They bound
+deletion, polynomial-moment and Taylor errors for the K203/K208
+common-reference cubature. K213 cancels that reference against the residual,
+and K218 analytically integrates the original uniform simplex termwise before
+K224/K242 operate on the exact auxiliary integrand. The unused cubature's
+approximation error is therefore absent from K218. K185/K188 quotient, face,
+radial and small-radius transfer ceilings remain distinct and stay in the
+budget. An independent replay rebuilds all seven order-15 cube polynomials
+from 1,276 raw allocations without S6 projection, recomputes `h_16` by Newton
+power sums, checks the exact simplex identity, and rejects the coarse corner,
+omitted tail and additive-K204/K209 readings. SC-ACT-01/02 remain `ASSERTS`,
+SC-META-53 `UNCERTAIN`, LT-GR6b/LT-SM8 `NEEDS`; no canon or public posture
+moves.
+
 ## K243 composed order-six budget and q6 certificate-class limit (2026-09-18)
 
 K188's complete four-region cover permits its eighteen coherent-group
