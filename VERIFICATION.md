@@ -7,6 +7,32 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K247 cumulative q15 signed-prefix boundary (2026-09-19)
+
+K246's shellwise allocation establishes where separately bounded absolute
+shells stop fitting. K247 instead evaluates the complete signed K218 prefix
+on the whole q<=15 cube. It sums all 1,864 original K213 signed terms through
+total degree twenty-one under the exact product-cosh measure. The normalized
+signed polynomial is about `1.341992851456e-21`; a rigorous orbit-level bound
+on every degree at least twenty-two is below `1.095438488666e-24`. The
+complete cumulative prefix therefore lies between `1.340804561511e-21` and
+`1.343095438489e-21`. Its lower edge is `1.340804561511` times the `1e-21`
+target.
+
+This closes the q<=15 cumulative-prefix route, not the full original
+order-six error: farther signed shells may reverse sign and cancel part of the
+prefix. It is not a K215 impossibility theorem, a pointwise sign certificate,
+or a physics/source result. Raising only the retained Taylor order cannot
+change the certified prefix comparison; the next same-route discriminator
+must prove a legal farther-shell cancellation beyond q=15.
+
+The independent replay reconstructs the 307 retained orbits from all 1,864
+raw signed entries, rebuilds the exact product-cosh moments and every retained
+coefficient hash, and recomputes `h_22` by Newton power sums. It also checks
+the full cube measure and hostile omitted-tail/globalization readings.
+SC-ACT-01/02 remain `ASSERTS`, SC-META-53 `UNCERTAIN`, LT-GR6b/LT-SM8
+`NEEDS`; no source, ledger, canon, or public posture moves.
+
 ## K246 signed inner-cube reallocation and q14 shell ladder (2026-09-19)
 
 K224's `8.206706010051e-22` result is a cellwise absolute enclosure of the

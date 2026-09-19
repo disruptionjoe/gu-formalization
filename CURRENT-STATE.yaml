@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 592533d953e36cfc9e2983dcbbcf97b4943fc69d
+revision_basis: efb3a83db58283f70364b3ef5af8ac2bf90f9888
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K247 changes the unit of comparison from shellwise absolute allocation to
+    the complete signed K218 prefix through q=15. It sums all 1,864 original
+    signed K213 terms through total degree twenty-one on the whole q<=15 cube,
+    then adds a rigorous all-degree-at-least-twenty-two orbit tail. The signed
+    polynomial is about 1.341992851456e-21 and the normalized tail is below
+    1.095438488666e-24, giving a complete cumulative interval from
+    1.340804561511e-21 to 1.343095438489e-21. Thus the q<=15 signed prefix
+    itself exceeds the 1e-21 target by at least a factor 1.340804561511.
+    Farther signed shells may still cancel this prefix, so this is not a
+    lower bound on the full original order-six error, a K215 impossibility
+    theorem, or a pointwise sign result. Independent raw-orbit, product-cosh
+    moment, coefficient-hash and Newton h22-tail replays pass. Source, ledger,
+    canon and public posture do not move.
+
     K246 replaces K224's cellwise absolute enclosure of the complete K218
     q<=4 cube by a signed degree-seventeen enclosure of the same region and
     normalization. The signed polynomial is about 3.642524063846e-29 and the
@@ -8531,15 +8545,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K245's q<=12 full-domain K213/K218 certificate as the active
-  allocation. After q=6-through-q=12 the remaining allocation is
-  1.908648040585e-23. The q=12-to-q=13 complete lower is
-  1.482895242660e-22, so another Taylor order cannot make q13 fit without
-  changing earlier upper allocations or composing cancellation across the
-  current absolute shell boundaries. First attack a dominant earlier ceiling
-  with a structural sharpening or prove a legal cross-shell cancellation
-  theorem; otherwise rerank away from this certificate route. Do not call
-  this an actual full-error lower bound or K215 impossibility.
+  Treat K247's complete signed K213/K218 q<=15 prefix as the active structural
+  boundary. Its certified lower 1.340804561511e-21 already exceeds the 1e-21
+  target; increasing only the local Taylor order cannot change that prefix
+  conclusion. The next move on this route must prove and compose a legal
+  farther-shell sign reversal or cross-shell cancellation beyond q=15.
+  Otherwise rerank toward the strongest source-to-physics challenger, such as
+  a native I1B full-fermion mode or a consuming farther a/c atlas. Do not call
+  the prefix a full-error lower bound, K215 impossibility, pointwise sign,
+  physics result, or source verdict.
 
   Keep K185/K188's excision union and K204/K209's cubature errors out of the
   exact K213/K218 budget: both price alternative routes, while K213 consumes
