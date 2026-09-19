@@ -7,6 +7,41 @@ updated_at: "2026-09-18"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K243 composed order-six budget and q6 certificate-class limit (2026-09-18)
+
+K188's complete four-region cover permits its eighteen coherent-group
+boundary ceilings to be added by union bound. Their exact sum is
+`9.196543625379e-23`. K224's disjoint K218 core through q=4 is below
+`8.206706010051e-22`, and K242's q=4-to-q=5 core shell is below
+`6.447507546976e-23`. These are contributions to one absolute `1e-21`
+order-six budget, so their exact composed total is
+`9.771111127286e-22` and the remaining allocation is only
+`2.288888727138e-23`. K224's earlier `1.7933e-22` headroom was calculated
+before the distinct K185/K188 boundary union and is no longer the available
+global residual after composition.
+
+On the next q=5-to-q=6 core shell, the K242 moment engine integrates every
+signed denominator-orbit coefficient through total degree nine exactly. The
+result lies strictly between `1.2336e-26` and `1.2337e-26`. At the q=6
+corner, however, the unchanged degree-ten-and-higher absolute orbit tail is
+below only `2.834400400825e-21`. The complete certificate upper is therefore
+about `123.84` times the composed residual. This proves that more output
+precision cannot make this fixed degree-nine/anchor/absolute-tail certificate
+fit; the tail order, anchor, reanchoring or cancellation treatment must
+change. It does not lower-bound the true signed q=5-to-q=6 shell and does not
+prove that K215's finite prefix is impossible.
+
+The independent probe reconstructs all eighteen boundary ceilings directly
+from K185's face/tail data and K188's Gamma-six small-radius fraction. It also
+integrates all 1,276 raw allocation functions on q=5 and q=6 without K230
+orbit projection, matches the exact log-polynomial hashes, and recomputes the
+degree-ten tail with Newton power sums. Hostile controls reject using the
+polynomial without its tail, omitting the boundary union, or treating raw
+K204/K209 geometry coefficients as absolute errors. Those artifacts explicitly
+withhold the complete signed normalized/coalescent derivative norm needed for
+such a conversion. SC-ACT-01/02 remain `ASSERTS`, SC-META-53 `UNCERTAIN`,
+LT-GR6b/LT-SM8 `NEEDS`, and no canon or public posture moves.
+
 ## K242 complete signed third-shell Taylor certificate (2026-09-18)
 
 For the complete original K185/K218 signed rational-cosh core on

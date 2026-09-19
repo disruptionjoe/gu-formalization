@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: db88040a83120582135ac53094e756b7b8ae6009
+revision_basis: 007b77cc29d0c8e2cfc2550da9b3134477e5ba7d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K243 composes the previously separate order-six outward bounds into one
+    exact 10^-21 budget. K188's eighteen coherent-group boundary union sums
+    to 9.196543625379e-23; K224's complete q<=4 core is
+    8.206706010051e-22; and K242's q=4-to-q=5 shell is
+    6.447507546976e-23. The certified known total is therefore
+    9.771111127286e-22, leaving only 2.288888727138e-23 for every q>5 core
+    shell and still-unallocated common-reference/coalescent defect. Reusing
+    K242's exact signed degree-nine engine on q=5-to-q=6 gives a tiny positive
+    polynomial between 1.2336e-26 and 1.2337e-26, but its unchanged
+    degree-ten-and-higher orbit tail is below only 2.834400400825e-21, or
+    123.84 times the composed residual. Thus this certificate class does not
+    certify the next shell; the result is not a signed-shell lower bound or a
+    K215 impossibility theorem. K204/K209 remain unallocated because their
+    exact geometry coefficients lack the complete signed normalized/coalescent
+    derivative norm. Independent raw-allocation, boundary-source and Newton
+    tail replays pass. Source, ledger, canon and public posture do not move.
+
     K242 closes the complete K218 third shell from q=4 to q=5. It expands
     K230's 307 retained denominator orbits at c=(1,...,1), aggregates every
     signed coefficient through total degree nine, and integrates those
@@ -8272,6 +8289,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K243 composes K188's exact boundary union, K224's q<=4 core and K242's
+  q=4-to-q=5 shell into a single 10^-21 error budget. The known total is
+  9.771111127286e-22 and the true residual for all q>5 core shells plus
+  unallocated reference/coalescent defects is only 2.288888727138e-23.
+  K242's unchanged degree-nine-plus-absolute-tail method fails on the next
+  q=5-to-q=6 shell by a factor of about 123.84 even though its signed retained
+  polynomial is only about 1.23366e-26. Can a reanchored, higher-order or
+  cancellation-preserving shell method reduce that tail while the missing
+  K204/K209 derivative owner is constructed and allocated? Do not treat the
+  failed upper bound as a lower bound on the signed shell or impossibility of
+  K215's finite prefix.
+
   K242 certifies the complete K218 third shell by exact signed Taylor
   integration through total degree nine plus a rigorous all-degree >=10
   orbit tail. The total absolute upper is below 6.4476e-23, only 0.35954 of
@@ -8454,13 +8483,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K242's q=4-to-q=5 third-shell bound as closed. Next compose it with
-  the existing K217 inner box and the distinct K185/K188 quotient,
-  coalescent and K204/K209 common-reference boundary obligations, then choose
-  the cheapest signed extension toward K215's sufficient 215 log(2) prefix.
-  Reuse K242's exact degree-nine moment engine only where a larger shell has
-  a proved tail allocation and viable cost; do not rerun the closed q=5 shell
-  or count its 0.35954 budget fraction as a complete K215 result.
+  Treat K243's exact known-budget composition as the active allocation:
+  2.288888727138e-23 remains after the K185/K188 boundary union, K224 q<=4
+  core and K242 q=4-to-q=5 shell. Do not reuse K224's pre-boundary
+  1.7933e-22 headroom as if it were still available. The unchanged K242
+  degree-nine-plus-absolute-tail certificate fails on q=5-to-q=6 by about
+  123.84 times this residual. Next test a genuinely smaller correlated tail:
+  reanchor on the q=5 face, raise exact signed order with a proved cost, or
+  preserve denominator-orbit cancellation inside the remainder. In parallel,
+  construct the complete signed normalized/coalescent derivative owner that
+  converts K204/K209's geometry coefficients into a commensurate error addend.
+  Do not repeat the q=6 degree-nine bound with more precision, infer an actual
+  shell lower bound, or call K215 impossible.
 
   Use K238's quantitative global regularizer floor where only positivity or
   a coarse inverse bound is needed; do not spend another 786432-cell-class
