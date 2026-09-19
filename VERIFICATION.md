@@ -7,6 +7,31 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K248 q16 farther-shell sign-reversal discriminator (2026-09-19)
+
+K247 leaves one same-route question open: can a farther signed shell reverse
+sign and cancel the already-over-target q<=15 prefix? K248 tests the first
+complete farther shell, q=15-to-q=16, using the same exact K213/K218 route and
+product-cosh measure. Its signed degree-twenty-one polynomial is about
+`1.499724826919e-21`; the rigorous orbit-level degree-at-least-twenty-two tail
+is below `3.875908662720e-24`. The complete shell is therefore between
+`1.495844091337e-21` and `1.503605908663e-21`, so it is strictly positive.
+
+The first farther shell strengthens rather than cancels K247's prefix. This
+does not prove that every farther shell is positive, establish a lower bound
+for the full original order-six error, or make K215 impossible. It does mean
+that q17 or another local retained-order increase is not the next structural
+discriminator: continuation now requires a substantial farther-tail
+sign-reversal/cross-shell theorem, otherwise the route switches.
+
+The independent replay reconstructs all 307 retained orbits from the 1,864 raw
+signed entries, rebuilds the q=15 and q=16 product-cosh moments and every
+coefficient hash, and recomputes `h_22` by Newton power sums. It also rejects
+an omitted tail, full-cube measure in place of shell measure, and globalization
+of one positive shell into a global sign. SC-ACT-01/02 remain `ASSERTS`,
+SC-META-53 `UNCERTAIN`, LT-GR6b/LT-SM8 `NEEDS`; no source, ledger, canon, or
+public posture moves.
+
 ## K247 cumulative q15 signed-prefix boundary (2026-09-19)
 
 K246's shellwise allocation establishes where separately bounded absolute

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: efb3a83db58283f70364b3ef5af8ac2bf90f9888
+revision_basis: 0851f7a0d412d8638f3c4cc2bac3eb2688084099
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K248 tests the first legal farther-shell cancellation discriminator after
+    K247. On the complete q=15-to-q=16 K218 shell, the signed degree-twenty-one
+    polynomial is about 1.499724826919e-21 and the rigorous
+    all-degree-at-least-twenty-two tail is below 3.875908662720e-24. The
+    complete shell therefore lies between 1.495844091337e-21 and
+    1.503605908663e-21 and is strictly positive. The first farther shell
+    strengthens rather than cancels K247's q<=15 prefix. This does not prove
+    a global farther-tail sign, a full-error lower bound, or K215
+    impossibility. It does close another same-anchor order raise or q17 shell
+    step as the next useful discriminator: the route now needs a structural
+    sign-reversal/cross-shell theorem or must switch to a separately typed
+    source-to-physics challenger. Independent raw-orbit, exact product-cosh
+    moment, coefficient-hash and Newton h22-tail replays pass. Source, ledger,
+    canon and public posture do not move.
+
     K247 changes the unit of comparison from shellwise absolute allocation to
     the complete signed K218 prefix through q=15. It sums all 1,864 original
     signed K213 terms through total degree twenty-one on the whole q<=15 cube,
@@ -8545,15 +8560,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K247's complete signed K213/K218 q<=15 prefix as the active structural
-  boundary. Its certified lower 1.340804561511e-21 already exceeds the 1e-21
-  target; increasing only the local Taylor order cannot change that prefix
-  conclusion. The next move on this route must prove and compose a legal
-  farther-shell sign reversal or cross-shell cancellation beyond q=15.
-  Otherwise rerank toward the strongest source-to-physics challenger, such as
-  a native I1B full-fermion mode or a consuming farther a/c atlas. Do not call
-  the prefix a full-error lower bound, K215 impossibility, pointwise sign,
-  physics result, or source verdict.
+  Treat K248's strictly positive complete q=15-to-q=16 shell as the active
+  route-switch result. Together with K247 it proves that the first farther
+  shell strengthens rather than cancels the already-over-target q<=15
+  prefix. Do not spend the next selection on q17 or another retained-order
+  increase: neither is a structural farther-tail cancellation theorem. Reopen
+  this exact route only with a concrete argument that can prove and compose a
+  sign reversal or cross-shell cancellation over a substantial farther
+  region. Otherwise rerank to the strongest separately typed source-to-physics
+  challenger, such as a native I1B full-fermion common-domain construction.
+  Do not call K248 a global tail sign, full-error lower bound, K215
+  impossibility, pointwise sign, physics result, or source verdict.
 
   Keep K185/K188's excision union and K204/K209's cubature errors out of the
   exact K213/K218 budget: both price alternative routes, while K213 consumes
