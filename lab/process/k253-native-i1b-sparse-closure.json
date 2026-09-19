@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__CONDITIONAL_SELECTED_LOCAL_SYMBOL_ONLY",
+  "input_sha256": {
+    "backend": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "k252": "6f4662b520b0b2fde4683f0a82e26d3c0acc3f77500e7592d4fa7f6bd7a0db5d",
+    "source_register": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "physics_ledger_v0_263": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "object": "selected comm/symi/symi I1B formal Euler principal-symbol family on the flat Ricci-flat T=0 zero-fermion germ",
+  "ambient_carrier": {
+    "space": "T-star tensor Cl(7,7)",
+    "dimension": 229376,
+    "grading_status": "local Clifford-label bookkeeping only; no source-selected barred-field reality or global physical grading"
+  },
+  "sparse_compiler": {
+    "derivation": "Hodge support leaves the two omitted indices for the first Shiab term; the Phi2 term uses their unique bivector and one diagonal output family",
+    "coefficient_arithmetic": "exact signed Clifford single-blade multiplication over the K77 metric",
+    "compiled_unordered_label_edges": 114688,
+    "matrix_entries_integral": true
+  },
+  "modular_closure": {
+    "runs": [
+      {
+        "prime": 1000003,
+        "traversal": "forward",
+        "dimension_growth": [
+          1,
+          15,
+          52,
+          388,
+          623,
+          1705,
+          6644,
+          21724,
+          42822,
+          78638,
+          134342,
+          184172,
+          209406,
+          220572,
+          227760,
+          229124,
+          229359,
+          229359
+        ],
+        "stabilization_depth": 17,
+        "dimension": 229359,
+        "nonzero_label_sectors": 16383,
+        "local_rank_distribution": {
+          "12": 1,
+          "13": 1,
+          "14": 16381
+        },
+        "exceptional_label_ranks": {
+          "0": 0,
+          "16380": 13,
+          "16383": 12
+        },
+        "full_ambient": false
+      },
+      {
+        "prime": 1000033,
+        "traversal": "reverse",
+        "dimension_growth": [
+          1,
+          15,
+          52,
+          388,
+          623,
+          1705,
+          6644,
+          21724,
+          42822,
+          78638,
+          134342,
+          184172,
+          209406,
+          220572,
+          227760,
+          229124,
+          229359,
+          229359
+        ],
+        "stabilization_depth": 17,
+        "dimension": 229359,
+        "nonzero_label_sectors": 16383,
+        "local_rank_distribution": {
+          "12": 1,
+          "13": 1,
+          "14": 16381
+        },
+        "exceptional_label_ranks": {
+          "0": 0,
+          "16380": 13,
+          "16383": 12
+        },
+        "full_ambient": false
+      }
+    ],
+    "cross_prime_growth_agreement": true,
+    "characteristic_zero_lower_bound": 229359,
+    "characteristic_zero_inference": "Non-full modular closure is not used as a characteristic-zero upper bound."
+  },
+  "rational_generation": {
+    "maximum_word_length": 8,
+    "dimension_growth": [
+      1,
+      15,
+      52,
+      388,
+      623,
+      1705,
+      6644,
+      21724,
+      42822
+    ],
+    "dimension": 42822,
+    "new_dimensions_at_final_depth": 21098,
+    "nonzero_label_sectors": 6475,
+    "local_rank_distribution": {
+      "1": 924,
+      "5": 1287,
+      "6": 1210,
+      "7": 2079,
+      "14": 975
+    },
+    "stabilized": false
+  },
+  "interpretation": "The modular word span proves a 229359-dimensional characteristic-zero lower bound, while complete characteristic-zero closure remains open within the final seventeen ambient dimensions.",
+  "source_routing": "SC-OP-04 ASSERTS and SC-OP-05 UNCERTAIN are preserved; SC-ACT-01/02 ASSERTS, SC-META-53 UNCERTAIN, and LT-GR6b/LT-SM8 NEEDS do not move.",
+  "claim_ceiling": "Exact sparse compilation, modular closure evidence, and rational generated-space growth for one conditional selected local principal family. No source-selected full fermion operator, lower-order/common domain, quotient, spectrum, positivity, ledger/canon/public change, or K218 cancellation theorem."
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5c654d8cafb17aa3e1f25e0bc765274af87a34f8
+revision_basis: 4d6414a0bc616c623da1ed95084f1de5ca563486
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K253 replaces the full differential-form block construction by an exact
+    sparse single-blade compiler. Hodge support leaves only the two omitted
+    indices in the first Shiab term, while the Phi2 term uses their unique
+    bivector and one diagonal output family. All 114688 unordered label edges
+    compile to integral 14-by-14 matrices. Exact rational generation extends
+    K252 to word length eight with dimensions
+    1,15,52,388,623,1705,6644,21724,42822 across 6475 sectors; the final
+    increment is 21098, so the rational prefix remains non-stabilized. Two
+    finite fields, primes 1000003 and 1000033, with forward and reverse
+    traversal agree through stabilization at word length seventeen and
+    dimension 229359. The modular hull has rank fourteen on 16381 sectors,
+    rank thirteen on label 16380, rank twelve on label 16383, and no label-zero
+    sector. This supplies a characteristic-zero lower bound of 229359 because
+    a modularly nonzero integer word minor is nonzero over Q, but modular
+    non-fullness does not supply the matching rational upper bound. Complete
+    characteristic-zero closure therefore remains open by at most seventeen
+    dimensions. No source-selected full operator, lower-order/common domain,
+    quotient, spectrum, positivity, source, ledger, canon or public-posture
+    move follows.
+
     K252 replaces K251's one-shot depth-five calculation by a restart-safe
     stagewise exact engine. Its checkpoints bind the backend, K251, source
     register, physics ledger, channels and target depth, and preserve the
@@ -8443,14 +8463,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K252 makes the conditional selected I1B principal-family calculation
-  restart-safe and raises the exact common-hull lower bound from 1705 at depth
-  five to 21724 at depth seven. The final prefix still grows by 15080 vectors,
-  so it is not stabilized. Can a representation/symmetry reduction turn the
-  label-toggle block family into a tractable complete closure, or can the exact
-  checkpointed engine continue far enough to expose stabilization within a
-  bounded resource envelope? Do not infer a full operator, domain, spectrum or
-  positivity result from this finite local principal-symbol prefix.
+  K253 compiles the conditional selected I1B principal family into exact sparse
+  integral blocks, extends the rational lower bound to 42822 at depth eight,
+  and finds matching two-prime modular stabilization at dimension 229359,
+  codimension seventeen in the typed ambient. Can the exceptional label-zero,
+  label-16380 and label-16383 sectors be converted into an exact rational
+  invariant-complement certificate, or can checkpointed rational continuation
+  close the remaining gap? Do not use modular non-fullness as a rational upper
+  bound or infer a source-selected full operator, domain, spectrum or
+  positivity result.
 
   K245 certifies the exact K213/K218 core through q=12 under the corrected
   10^-21 route composition. After q=6-through-q=12 only
@@ -8641,16 +8662,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K252 as the active conditional principal-symbol result. The exact
-  restart-safe engine generates the selected all-fourteen-direction family
-  through word length seven, with dimension 21724 across 3472 sectors and
-  15080 new vectors at the final depth. Every common invariant hull containing
-  K236's odd seed contains that space, but the nonzero final increment proves
-  only non-stabilization of this prefix. Continue with a cost-reducing
-  symmetry/representation theorem, checkpointed exact continuation under a
-  measured resource envelope, or another bounded structural target. Do not
-  call the checkpoint independent evidence or the depth-seven lower bound a
-  stabilized/complete hull, spectrum, positivity result or physical mode.
+  Treat K253 as the active conditional principal-symbol result. The exact
+  sparse compiler reduces the full block construction to signed single-blade
+  arithmetic and raises the characteristic-zero lower bound to 42822 at word
+  length eight. Matching prime-1000003/1000033 closures stabilize at 229359 by
+  word length seventeen, with deficits localized to label 0 (rank 0), label
+  16380 (rank 13), and label 16383 (rank 12). This proves a rational lower
+  bound of 229359 but not a rational upper bound. Next construct and verify a
+  seventeen-dimensional exact invariant complement on those sectors, or
+  continue restart-safe rational generation far enough to close the gap. Do
+  not call modular codimension a characteristic-zero codimension without that
+  certificate, or promote the conditional local family to a physical mode,
+  domain, quotient, spectrum or positivity result.
 
   Preserve K250's source-selection boundary. The current
   registered corpus does not select a unique full fermion operator: equation

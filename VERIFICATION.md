@@ -7,6 +7,42 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K253 sparse I1B closure campaign (2026-09-19)
+
+K253 derives an exact sparse compiler for K252's conditional selected
+`comm/symi/symi` local formal Euler principal family. For each input leg,
+Hodge support restricts the first Shiab term to the two omitted indices; the
+second term uses their unique `Phi2` bivector and one diagonal output family.
+Signed single-blade Clifford multiplication therefore reproduces the original
+block without materializing differential forms. All 114688 unordered label
+edges compile to integral 14-by-14 matrices.
+
+Exact rational generation from `o=dx0 gamma1` reproduces K252 and extends the
+ladder through word length eight:
+`1,15,52,388,623,1705,6644,21724,42822`. The depth-eight space occupies 6475
+label sectors with local ranks `1:924,5:1287,6:1210,7:2079,14:975`; 21098 new
+vectors enter at the final depth, so this rational prefix is not stabilized.
+
+Separately, prime 1000003 with forward traversal and prime 1000033 with reverse
+traversal produce the identical dimension ladder through stabilization at word
+length seventeen:
+`1,15,52,388,623,1705,6644,21724,42822,78638,134342,184172,209406,220572,
+227760,229124,229359,229359`. Each modular hull is full rank on 16381 labels,
+rank thirteen on label 16380, rank twelve on label 16383, and absent on label
+zero. A 229359-dimensional modular word span proves the characteristic-zero
+span has dimension at least 229359, since its nonzero integer minor remains
+nonzero over Q. The converse does not follow: modular non-fullness is not a
+rational upper bound. Complete rational closure remains open within the final
+seventeen ambient dimensions.
+
+Independent replay compares the reduced formula directly against the original
+form backend over seeded boundary, complement, alternating and random labels
+in every principal direction. Hostile controls reject exceptional-prime
+upper-bound transfer, complete rational closure, source selection and physical
+spectrum readings. K253 is not a source-selected full fermion operator,
+lower-order/common domain, quotient, spectrum, positivity result,
+ledger/canon/public change, or K218 cancellation theorem.
+
 ## K252 restart-safe depth-seven I1B principal growth (2026-09-19)
 
 K252 preserves K251's typed `T* tensor Cl(7,7)` ambient and conditional
