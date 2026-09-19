@@ -7,6 +7,34 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K246 signed inner-cube reallocation and q14 shell ladder (2026-09-19)
+
+K224's `8.206706010051e-22` result is a cellwise absolute enclosure of the
+complete K218 q<=4 cube. K246 integrates the same region and normalization by
+first summing all 1,864 signed terms through total degree seventeen, then
+adding a rigorous all-degree-at-least-eighteen orbit tail. The signed
+polynomial is about `3.642524063846e-29`; its tail is below
+`1.378578715138e-40`, giving a complete upper of `3.643000000014e-29`.
+K224 and K246 are alternative enclosures of one region, so the old cellwise
+ceiling is replaced on this route rather than added again.
+
+Composing the new cube upper with K242's q=4-to-q=5 shell, K244's
+q=6-through-q=10 ladder, and K245's q11-through-q13 complete uppers leaves
+`6.819165692469e-22` after q13. The q=13-to-q=14 complete upper is
+`3.888953137860e-22`, leaving `2.930212554609e-22`. The q=14-to-q=15
+complete lower is `4.623643708187e-22`, or `1.57792` times that remainder.
+Thus q14 is newly certified and q15 is the first boundary of the reallocated
+shellwise budget. This remains an allocation result, not a lower bound on the
+original full order-six error or a K215 impossibility theorem.
+
+The independent replay rebuilds the retained orbit expansion from all raw
+signed entries, independently reconstructs every product-cosh moment and
+integrated log-polynomial hash, and recomputes `h_18` by Newton power sums. It
+also rejects K224 double-counting, an omitted tail, and a full-cube/shell
+measure swap; it does not assume pointwise equality with an S6 average.
+SC-ACT-01/02 remain `ASSERTS`, SC-META-53 `UNCERTAIN`, LT-GR6b/LT-SM8
+`NEEDS`; no source, ledger, canon, or public posture moves.
+
 ## K245 full-domain route composition and q11/q12 shell ladder (2026-09-19)
 
 K185/K188's face, small-radius, and large-radius ceilings are the cost of

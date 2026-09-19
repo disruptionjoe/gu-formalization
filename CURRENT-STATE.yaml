@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8e696d5bd0aa6e36b661fa4be26292e9c0c1305b
+revision_basis: 592533d953e36cfc9e2983dcbbcf97b4943fc69d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K246 replaces K224's cellwise absolute enclosure of the complete K218
+    q<=4 cube by a signed degree-seventeen enclosure of the same region and
+    normalization. The signed polynomial is about 3.642524063846e-29 and the
+    all-degree-at-least-eighteen tail is below 1.378578715138e-40, giving a
+    complete upper 3.643000000014e-29: more than seven orders below K224's
+    historical 8.206706010051e-22 ceiling. These are alternative enclosures
+    of one region, so K224 is replaced rather than added on the K246 route.
+    Recomposition leaves 6.819165692469e-22 after q13. The q=13-to-q=14
+    complete upper is 3.888953137860e-22, leaving 2.930212554609e-22; the
+    q=14-to-q=15 complete lower is 4.623643708187e-22, 1.57792 times that
+    remainder. Thus q14 is newly certified and q15 is the first boundary of
+    the reallocated shellwise budget. This is not a full-error lower bound or
+    K215 impossibility theorem. Independent raw-entry orbit, product-cosh
+    moment, Newton-tail, measure, and anti-double-counting replays pass.
+    Source, ledger, canon, and public posture do not move.
+
     K245 resolves the remaining K185/K188 route-composition ambiguity. Their
     9.196543625379e-23 face/radial/small-radius boundary union prices the
     excisions required by the alternative determinant-quotient numerical
