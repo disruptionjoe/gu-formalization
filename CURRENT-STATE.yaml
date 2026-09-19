@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4d6414a0bc616c623da1ed95084f1de5ca563486
+revision_basis: e8fb0f2d036076df8aadcb38f4bd63ae847e0b0f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K254 corrects a caller-order defect in K251-K253's cached principal-action
+    blocks. Those runs chose the reverse endpoint as label xor 2^p relative to
+    the first caller; when the upper endpoint populated an edge first, both
+    ordered blocks were compiled from the lower endpoint. The raw sparse
+    single-blade formula survives, but every generated-space dimension beyond
+    K250's depth-one value is superseded. K254 freezes
+    upper=lower xor 2^p, eagerly compiles all 114688 unordered edges, and gets
+    identical forward/reverse modular ladders at primes 1000003 and 1000033:
+    1,15,66,402,546,1106,1106. An exact rational calculation independently
+    closes on the same ladder at word length six. The invariant hull therefore
+    has exact dimension 1106, codimension 228270 in T-star tensor Cl(7,7), and
+    occupies 470 label sectors. An original-backend replay with reverse
+    traversal and greatest-pivot elimination reproduces the result and exposes
+    the old first-caller cache dependence directly. This exact theorem remains
+    conditional on the named selected comm/symi/symi local principal family.
+    No source-selected full operator, lower-order/common domain, quotient,
+    spectrum, positivity, source, ledger, canon or public-posture move follows.
+
     K253 replaces the full differential-form block construction by an exact
     sparse single-blade compiler. Hodge support leaves only the two omitted
     indices in the first Shiab term, while the Phi2 term uses their unique
@@ -8463,15 +8481,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K253 compiles the conditional selected I1B principal family into exact sparse
-  integral blocks, extends the rational lower bound to 42822 at depth eight,
-  and finds matching two-prime modular stabilization at dimension 229359,
-  codimension seventeen in the typed ambient. Can the exceptional label-zero,
-  label-16380 and label-16383 sectors be converted into an exact rational
-  invariant-complement certificate, or can checkpointed rational continuation
-  close the remaining gap? Do not use modular non-fullness as a rational upper
-  bound or infer a source-selected full operator, domain, spectrum or
-  positivity result.
+  K254 fixes K251-K253's caller-dependent reverse-endpoint cache and proves that
+  the conditional selected comm/symi/symi local principal family has an exact
+  1106-dimensional rational invariant hull, closed at word length six. The
+  finite generated-space question for that named local family is complete.
+  What source-owned evidence can select a full fermion operator and supply its
+  lower-order terms, reality/adjoint data, invariant bundle and common closed
+  domain, or what separately typed structural/physics arc can now test the
+  construction without promoting the conditional local family? Do not continue
+  the superseded K251-K253 growth campaign or infer a quotient, spectrum,
+  positivity or physical mode from K254.
 
   K245 certifies the exact K213/K218 core through q=12 under the corrected
   10^-21 route composition. After q=6-through-q=12 only
@@ -8662,18 +8681,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K253 as the active conditional principal-symbol result. The exact
-  sparse compiler reduces the full block construction to signed single-blade
-  arithmetic and raises the characteristic-zero lower bound to 42822 at word
-  length eight. Matching prime-1000003/1000033 closures stabilize at 229359 by
-  word length seventeen, with deficits localized to label 0 (rank 0), label
-  16380 (rank 13), and label 16383 (rank 12). This proves a rational lower
-  bound of 229359 but not a rational upper bound. Next construct and verify a
-  seventeen-dimensional exact invariant complement on those sectors, or
-  continue restart-safe rational generation far enough to close the gap. Do
-  not call modular codimension a characteristic-zero codimension without that
-  certificate, or promote the conditional local family to a physical mode,
-  domain, quotient, spectrum or positivity result.
+  Treat K254 as the active conditional principal-symbol result. Its corrected,
+  caller-independent edge compiler and independent original-backend replay
+  establish exact rational closure at dimension 1106 on 470 label sectors;
+  K251-K253's dimensions beyond depth one and K253's alleged seventeen-vector
+  deficit are superseded. Do not spend another swing extending that closed
+  local generated-space ladder. Reopen the I1B operator arc only with source
+  evidence that actually selects the full operator and supplies lower-order,
+  reality/adjoint, invariant-bundle and common-domain data, or with a separately
+  typed structural/physics test that does not treat this conditional local hull
+  as a physical mode, quotient, spectrum or positivity result.
 
   Preserve K250's source-selection boundary. The current
   registered corpus does not select a unique full fermion operator: equation

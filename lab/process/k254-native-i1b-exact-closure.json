@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__CONDITIONAL_SELECTED_LOCAL_SYMBOL_ONLY",
+  "input_sha256": {
+    "k253_producer": "c107e5b0a9e9c34aee6ad7330f2c15582737eeb683b9e9eeeed0cb68ece6e06b",
+    "k253_record": "5b9bdb3ce32d81b8b92f1b482e888cc7e306bd74deb6b6b16e9c062868356900",
+    "source_register": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "physics_ledger_v0_263": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "compiled_edge_table_sha256": "642b3437c7fb97729a18b6f46efa5b7083971c385e89cca9f78ae7accd9b9e4d",
+  "object": "selected comm/symi/symi I1B formal Euler principal-symbol family on the flat Ricci-flat T=0 zero-fermion germ",
+  "correction": {
+    "superseded_results": {
+      "K251_depth_five_dimension": 1705,
+      "K252_depth_seven_dimension": 21724,
+      "K253_depth_eight_dimension": 42822,
+      "K253_modular_terminal_dimension": 229359
+    },
+    "defect": "K251-K253 formed the reverse endpoint block from label xor 2^p relative to the caller. When the upper endpoint first populated the cache, that value equals the lower endpoint, so both ordered blocks were compiled from the same label. The resulting cache and generated space depended on traversal order. K254 freezes upper=lower xor 2^p before compilation.",
+    "corrected_exact_dimension": 1106,
+    "correction_scope": "The raw sparse single-blade formula survives; the cached Euler edge orientation and every generated-space dimension beyond depth one are superseded."
+  },
+  "modular_closure": {
+    "runs": [
+      {
+        "prime": 1000003,
+        "traversal": "forward",
+        "dimension_growth": [
+          1,
+          15,
+          66,
+          402,
+          546,
+          1106,
+          1106
+        ],
+        "stabilization_depth": 6,
+        "state": {
+          "dimension": 1106,
+          "nonzero_label_sectors": 470,
+          "local_rank_distribution_including_zero": {
+            "0": 15914,
+            "2": 455,
+            "13": 14,
+            "14": 1
+          }
+        },
+        "generator_invariance_checks": 15484
+      },
+      {
+        "prime": 1000033,
+        "traversal": "reverse",
+        "dimension_growth": [
+          1,
+          15,
+          66,
+          402,
+          546,
+          1106,
+          1106
+        ],
+        "stabilization_depth": 6,
+        "state": {
+          "dimension": 1106,
+          "nonzero_label_sectors": 470,
+          "local_rank_distribution_including_zero": {
+            "0": 15914,
+            "2": 455,
+            "13": 14,
+            "14": 1
+          }
+        },
+        "generator_invariance_checks": 15484
+      }
+    ],
+    "cross_prime_growth_agreement": true
+  },
+  "exact_rational_closure": {
+    "dimension_growth": [
+      1,
+      15,
+      66,
+      402,
+      546,
+      1106,
+      1106
+    ],
+    "stabilization_depth": 6,
+    "dimension": 1106,
+    "nonzero_label_sectors": 470,
+    "local_rank_distribution_including_zero": {
+      "0": 15914,
+      "2": 455,
+      "13": 14,
+      "14": 1
+    },
+    "generator_invariance_checks": 15484
+  },
+  "exact_characteristic_zero_dimension": 1106,
+  "interpretation": "The Q-generated hull of the conditional selected local principal family has exact dimension 1106 and codimension 228270 in T-star tensor Cl(7,7).",
+  "source_routing": "SC-OP-04 ASSERTS and SC-OP-05 UNCERTAIN are preserved; SC-ACT-01/02 ASSERTS, SC-META-53 UNCERTAIN, and LT-GR6b/LT-SM8 NEEDS do not move.",
+  "claim_ceiling": "Exact generated-space dimension and invariant rational hull for one conditional selected local principal family. No source-selected full fermion operator, lower-order/common domain, quotient, spectrum, positivity, ledger/canon/public change, or K218 cancellation theorem."
+}

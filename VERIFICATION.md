@@ -7,7 +7,39 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K253 sparse I1B closure campaign (2026-09-19)
+## K254 corrected exact I1B closure (2026-09-19)
+
+K254 finds and repairs a caller-order defect in K251-K253's cached Euler edge
+construction. The old implementation computed the reverse ordered block from
+`label xor 2^p` relative to whichever endpoint first populated the cache. For
+an upper-endpoint first caller that value is the lower endpoint, so both terms
+came from one endpoint and the cached matrix depended on traversal order. K254
+freezes `upper = lower xor 2^p` before compiling either ordered block. The raw
+sparse single-blade formula remains valid; K251-K253's generated-space
+dimensions beyond the depth-one value fifteen are superseded.
+
+The corrected compiler eagerly fixes all 114688 unordered label edges before
+generation. Forward traversal modulo 1000003, reverse traversal modulo 1000033,
+and exact rational generation all give the ladder
+`1,15,66,402,546,1106,1106`. Thus the rational hull stabilizes at word length
+six with exact dimension 1106 and codimension 228270 in the
+229376-dimensional `T* tensor Cl(7,7)` carrier. It occupies 470 label sectors:
+455 have local rank two, fourteen have rank thirteen, and one has rank fourteen.
+
+An independent verifier reconstructs the blocks from the original full-form
+backend, reverses generator order, uses greatest-pivot elimination, and
+reproduces the exact ladder and sector distribution. It also constructs the
+minimal first-caller regression witness against K253. K254 closes only the
+finite generated-space question for one conditional selected
+`comm/symi/symi` local principal family. It is not a source-selected full
+fermion operator, lower-order/common domain, quotient, spectrum, positivity
+result, ledger/canon/public change, or K218 cancellation theorem.
+
+## K253 sparse I1B closure campaign (superseded by K254; 2026-09-19)
+
+The sparse raw-block formula below survives, but K254 proves that K253's cached
+reverse endpoint was caller-dependent. Its depth-eight and modular-closure
+dimensions are retained as correction history, not current evidence.
 
 K253 derives an exact sparse compiler for K252's conditional selected
 `comm/symi/symi` local formal Euler principal family. For each input leg,
