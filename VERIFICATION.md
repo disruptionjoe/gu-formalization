@@ -7,6 +7,42 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K255 full-operator data gate (2026-09-19)
+
+K255 composes two already certified facts without reopening either campaign.
+K250 establishes that the authenticated source corpus displays equation 9.16
+as a candidate-strength four-field operator grammar while explicitly admitting
+an unselected nonzero-southeast rival. K254 establishes exact closure of one
+separately selected local principal family at dimension 1106. The composition
+therefore has fixed principal data but no source-selected full differential
+expression or common closed realization.
+
+The new theorem is the data-sufficiency boundary. For every first-order
+differential expression `D` and zero-order bundle endomorphism `V`,
+`sigma_1(D+V)=sigma_1(D)`. On a fixed closed realization, adding a scalar
+`cI` translates the spectrum by `c` whenever spectral translation is defined.
+Separately, a local differential expression does not select its closed domain.
+The exact control family `D_{alpha,m}=-i d/dtheta+m` on
+`psi(2pi)=exp(2pi i alpha)psi(0)` makes both freedoms explicit: periodic
+`m=0` has spectrum `Z`, changing only `m` to `1/3` gives `Z+1/3`, and changing
+only the domain to `alpha=1/2` gives `Z+1/2`. All three have principal symbol
+`xi`.
+
+The producer binds K250, K254, SC-OP-04/05, the identity-grade source
+extraction, two source returns, and the current physics ledger. An independent
+probe re-reads those sources, reconstructs both spectral shifts without using
+the producer helper, and applies hostile controls that collapse each witness
+when its changed datum is removed. The resulting admission contract requires
+one selected full expression/branch, global bundle/descent, all lower-order
+coefficients, reality/density/adjoint, base/boundary geometry, and a common
+closed domain before spectrum. Physical-mode claims additionally require the
+action-owned quotient, state-space pairing, and observable map.
+
+K255 proves insufficiency of principal data, not nonexistence of a valid GU
+completion. It constructs no GU full operator, spectrum, quotient, positivity,
+or physical mode and changes no source polarity, physics ledger, canon, or
+public posture.
+
 ## K254 corrected exact I1B closure (2026-09-19)
 
 K254 finds and repairs a caller-order defect in K251-K253's cached Euler edge

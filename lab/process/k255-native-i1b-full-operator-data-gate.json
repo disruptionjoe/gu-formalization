@@ -1,0 +1,114 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__K250_K254_COMPOSITION_AND_GENERAL_OPERATOR_DATA_GATE",
+  "input_sha256": {
+    "k250": "4c99b997ed92e871cb57d6c6145ba4b52dcb93dfde7b4eb15134f5e0346657fc",
+    "k254": "b42e65e754373dbc9829ec2624d60dcaf6fae2d1d8dd40a86cec474f75c6e4d9",
+    "source_register": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "source_extraction": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b",
+    "bulk_source_return": "f77a5b6094c7cff3a8bf8658cac7ea32744017e5c49b12be20c657e58de1486b",
+    "fermion_source_return": "afdcd677dce9d1bed0f87a0e0e5e0629ef1d66cdc3845408a16d19a108ff727c",
+    "physics_ledger_v0_263": "7c75c179c3af512084e50af19043a5d320b38e8c1e53325ee5ec2f97ad9c257b"
+  },
+  "object": "K254's conditional selected comm/symi/symi local I1B principal family, composed with K250's authenticated source-selection result",
+  "source_selection_baseline": {
+    "reused_result": "K250",
+    "decision": "current source corpus does not select a unique full fermion operator",
+    "registered_claims": [
+      {
+        "id": "SC-OP-04",
+        "polarity": "ASSERTS",
+        "effect": "candidate-strength four-field matrix grammar"
+      },
+      {
+        "id": "SC-OP-05",
+        "polarity": "UNCERTAIN",
+        "effect": "nonzero-southeast rival admitted without selection"
+      }
+    ],
+    "current_delta": "no newer registered source evidence selects one full operator or one common closed domain"
+  },
+  "principal_data_nonuniqueness": {
+    "general_lower_order_theorem": "For every first-order differential expression D and every zero-order bundle endomorphism V, sigma_1(D+V)=sigma_1(D). Therefore a selected principal symbol cannot determine the lower-order operator.",
+    "fixed_realization_shift_theorem": "For any closed realization D on a fixed domain and scalar c, D+cI has the same principal symbol; whenever spectral translation is defined, spec(D+cI)=spec(D)+c.",
+    "domain_theorem": "A local differential expression does not determine its closed realization; boundary or holonomy conditions can change the spectrum without changing the differential expression or principal symbol.",
+    "model": "D_{alpha,m}=-i d/dtheta+m on L2([0,2pi]) with psi(2pi)=exp(2pi i alpha)psi(0)",
+    "common_principal_symbol": "xi",
+    "witnesses": [
+      {
+        "id": "baseline-periodic-zero-order-zero",
+        "alpha": "0",
+        "zero_order_m": "0",
+        "spectrum_formula": "Z",
+        "window_n_minus4_to4": [
+          "-4",
+          "-3",
+          "-2",
+          "-1",
+          "0",
+          "1",
+          "2",
+          "3",
+          "4"
+        ]
+      },
+      {
+        "id": "lower-order-only",
+        "alpha": "0",
+        "zero_order_m": "1/3",
+        "spectrum_formula": "Z+1/3",
+        "window_n_minus4_to4": [
+          "-11/3",
+          "-8/3",
+          "-5/3",
+          "-2/3",
+          "1/3",
+          "4/3",
+          "7/3",
+          "10/3",
+          "13/3"
+        ],
+        "changed_data": "zero_order_term_only"
+      },
+      {
+        "id": "domain-only",
+        "alpha": "1/2",
+        "zero_order_m": "0",
+        "spectrum_formula": "Z+1/2",
+        "window_n_minus4_to4": [
+          "-7/2",
+          "-5/2",
+          "-3/2",
+          "-1/2",
+          "1/2",
+          "3/2",
+          "5/2",
+          "7/2",
+          "9/2"
+        ],
+        "changed_data": "closed_domain_only"
+      }
+    ],
+    "application_to_k254": "K254 fixes a finite local invariant hull for one principal family. Even if that family extends to a global closed operator, its principal data alone cannot select the zero-order completion or closed domain, and therefore cannot select a spectrum."
+  },
+  "full_operator_admission_contract": {
+    "required_before_spectrum": [
+      "authenticated selection of one full differential expression and southeast branch",
+      "global invariant bundle and overlap/descent data",
+      "all lower-order coefficients on a frozen background",
+      "reality structure, density/pairing and operative adjoint",
+      "global base/topology and boundary or asymptotic geometry",
+      "one common closed domain with trace/Green compatibility"
+    ],
+    "additional_before_physical_mode": [
+      "action-owned gauge/BRST/BV quotient and constraints",
+      "physical state space and positive or otherwise interpreted pairing",
+      "observable map connecting the operator mode to the claimed physics"
+    ],
+    "current_status": "DEPENDENCY_OPEN__NO_SPECTRAL_OR_PHYSICAL_INFERENCE_ADMITTED",
+    "exact_wake": "authenticated source evidence or an explicitly conditional repository construction supplies all six full-operator fields on one frozen branch and a native check proves a common closed realization; physical mode claims additionally require the quotient, state-space pairing and observable map"
+  },
+  "source_routing": "SC-OP-04 ASSERTS and SC-OP-05 UNCERTAIN remain unchanged; SC-ACT-01/02 ASSERTS, SC-META-53 UNCERTAIN, and LT-GR6b/LT-SM8 NEEDS do not move.",
+  "interpretation": "K250 already closed unique source selection negatively and K254 closed the finite local hull positively. K255 composes those results into a decisive data-sufficiency theorem: principal closure is not full-operator closure, and two independent missing data classes can change spectrum while principal data stays fixed.",
+  "claim_ceiling": "Authenticated source-data composition, general principal-data nonuniqueness, exact scalar-circle witnesses, and a minimum future admission contract only. No claim that GU lacks a valid completion; no constructed GU full operator, spectrum, quotient, positivity, physical mode, source/ledger/canon/public change, or K218 theorem."
+}
