@@ -1,0 +1,205 @@
+{
+  "schema_version": "1.0",
+  "classification": "SOURCE_NATIVE_ROUTE__LOCAL_SELECTED_SYMBOL_ONLY",
+  "input_sha256": {
+    "backend": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4",
+    "k236": "d3fb375122135fcf6947c2122cd6d5bc6fc9bb37c28f2e672e73804149709d75",
+    "k249": "0f7c794b62cdc72e9e249db0eb0be4ad705b47ccab551f3fa72278d5f4eb0271",
+    "source_register": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "source_extraction": "c250ce367774ff593255cd211e18ea793dd3eddcd843e0520437b6d645a2c31b"
+  },
+  "source_selection": {
+    "claims": [
+      {
+        "id": "SC-OP-04",
+        "polarity": "ASSERTS",
+        "effect": "displayed_candidate_grammar"
+      },
+      {
+        "id": "SC-OP-05",
+        "polarity": "UNCERTAIN",
+        "effect": "nonzero_southeast_rival_admitted_without_selection"
+      }
+    ],
+    "displayed_candidate": "draft equation 9.16 with four southeast zeros",
+    "rival": "source-admitted unspecified non-trivial southeast map",
+    "decision": "current source corpus does not select a unique full fermion operator",
+    "missing": [
+      "unique Shiab/operator version",
+      "barred-field reality and global grading",
+      "density and operative adjoint",
+      "lower-order invariant bundle",
+      "common stationary closed domain"
+    ]
+  },
+  "principal_symbol": {
+    "object": "selected comm/symi/symi I1B formal Euler symbol on the flat Ricci-flat T=0 zero-fermion germ",
+    "seed": "o=dx0 tensor gamma1",
+    "witnesses": [
+      {
+        "principal_direction": 1,
+        "output": "dx1 tensor gamma01",
+        "output_label": 1,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": false
+      },
+      {
+        "principal_direction": 2,
+        "output": "dx1 tensor gamma02",
+        "output_label": 7,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 3,
+        "output": "dx1 tensor gamma03",
+        "output_label": 11,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 4,
+        "output": "dx1 tensor gamma04",
+        "output_label": 19,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 5,
+        "output": "dx1 tensor gamma05",
+        "output_label": 35,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 6,
+        "output": "dx1 tensor gamma06",
+        "output_label": 67,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 7,
+        "output": "dx1 tensor gamma07",
+        "output_label": 131,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 8,
+        "output": "dx1 tensor gamma08",
+        "output_label": 259,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 9,
+        "output": "dx1 tensor gamma09",
+        "output_label": 515,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 10,
+        "output": "dx1 tensor gamma010",
+        "output_label": 1027,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 11,
+        "output": "dx1 tensor gamma011",
+        "output_label": 2051,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 12,
+        "output": "dx1 tensor gamma012",
+        "output_label": 4099,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      },
+      {
+        "principal_direction": 13,
+        "output": "dx1 tensor gamma013",
+        "output_label": 8195,
+        "ordered_forward_reverse": [
+          "-2",
+          "0"
+        ],
+        "euler_coefficient": "-1",
+        "outside_k249_carrier": true
+      }
+    ],
+    "outside_labels_p2_through_p13": [
+      7,
+      11,
+      19,
+      35,
+      67,
+      131,
+      259,
+      515,
+      1027,
+      2051,
+      4099,
+      8195
+    ],
+    "forced_vectors": "o, E=-N0(o), and Np(o) for p=1..13",
+    "forced_vector_rank": 15,
+    "common_invariant_hull_dimension_lower_bound": 15,
+    "theorem": "Every common invariant hull for all fourteen selected principal directions that contains o has dimension at least 15; twelve independent first-layer outputs already lie outside K249's natural 56-vector label-0/1/2/3 carrier."
+  },
+  "interpretation": "K249's dx2 escape is one member of a uniform p=2..13 family, not an exceptional direction. The source-selection dependency is closed negatively for the current corpus: subsequent larger-hull work is conditional on a named candidate unless new source evidence selects an operator.",
+  "source_routing": "SC-OP-04 ASSERTS and SC-OP-05 UNCERTAIN are jointly preserved; SC-ACT-01/02 ASSERTS, SC-META-53 UNCERTAIN and LT-GR6b/LT-SM8 NEEDS do not move.",
+  "claim_ceiling": "Exact source underdetermination from the current registered corpus and an exact 15-dimensional lower bound for one selected local principal-symbol family. No complete all-direction hull, source-selected full operator, lower-order/common domain, quotient, spectrum, positivity, ledger/canon/public change, or K218 cancellation theorem."
+}

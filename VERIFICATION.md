@@ -7,6 +7,36 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K250 source-selection closure and all-direction I1B growth (2026-09-19)
+
+The registered source evidence closes the current operator-selection question
+negatively. SC-OP-04 records draft equation 9.16 as a displayed candidate
+introduced with “begin with operators like”; SC-OP-05 records the same source's
+admission of a rival with a non-trivial southeast quadrant. The rendered
+extraction preserves four southeast zeros in the displayed candidate and says
+that neither source supplies a uniqueness theorem. The current corpus therefore
+does not select a unique full fermion operator, barred-field reality/global
+grading, density/operative adjoint, lower-order invariant bundle, or common
+stationary closed domain. This preserves both source rows; it does not change a
+polarity or authorize a fitted completion.
+
+On the separately named selected `comm/symi/symi` local principal symbol, K250
+then generalizes K249's `dx2` escape. For each principal direction `dx_p`,
+`p=1,...,13`, the ordered forward/reverse contractions from
+`o=dx0 gamma1` to `dx1 gamma_0p` are exactly `(-2,0)`, so every Euler
+coefficient is `-1`. The twelve outputs for `p=2,...,13` have distinct labels
+`2^0+2^1+2^p` and all lie outside K249's label-0/1/2/3 carrier. The vectors
+`o`, `E=-N0(o)`, and the thirteen `Np(o)` have exact sparse-coordinate rank
+fifteen. Any common invariant hull for all fourteen selected principal
+directions that contains `o` therefore has dimension at least fifteen.
+
+The independent replay extracts support directly from the backend, checks the
+source candidate/rival collision, reconstructs the sparse rank, and rejects a
+dropped direction and projection of the twelve outside labels. The theorem is
+a lower bound, not a complete all-direction hull, source-selected full
+operator, lower-order/common domain, quotient, physical spectrum, positivity,
+source/physics/ledger/canon/public change, or K218 cancellation theorem.
+
 ## K249 two-plane I1B hull and dx2 carrier obstruction (2026-09-19)
 
 K237 proves that K236's rank-two normal star is not invariant under the

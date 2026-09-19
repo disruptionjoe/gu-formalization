@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c37d055e85f61329c6e11a9a170e70eb5e33d074
+revision_basis: 77260acb2e8ecf55260bc32dd99cebab66507091
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K250 closes the current source-selection question and generalizes K249's
+    first carrier escape. SC-OP-04 preserves draft equation 9.16 as a
+    displayed candidate introduced as an operator one can begin with, while
+    SC-OP-05 preserves an explicitly admitted nonzero-southeast rival without
+    selecting it. The registered source corpus therefore does not select a
+    unique full fermion operator, barred-field reality, density/adjoint,
+    lower-order invariant bundle, or common stationary closed domain. Under
+    the separately named selected comm/symi/symi local principal symbol,
+    every direction dx_p for p=1..13 sends K236's odd seed to
+    dx1 gamma_0p with exact Euler coefficient -1. For p=2..13 the twelve
+    labels 2^0+2^1+2^p are distinct and outside K249's natural
+    label-0/1/2/3 carrier. Together with the odd seed, K236's collective E,
+    and the p=1 image, these vectors have exact rank fifteen. Hence any common
+    all-fourteen-direction invariant hull containing the seed has dimension
+    at least fifteen. This is a lower bound, not a complete hull, selected
+    full operator, domain, quotient, spectrum, positivity, or source/physics
+    verdict. Independent source, forward-support, sparse-rank and hostile
+    dropped-direction/projection controls pass; source, ledger, canon and
+    public posture do not move.
+
     K249 takes K248's required route switch into the native I1B
     principal-symbol branch. The exact label-0/1/2/3 carrier has dimension
     56 and is closed under the selected dx0/dx1 principal plane. Starting
@@ -8577,14 +8597,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K249 as the active source-native route-switch result. K236's star has
-  a certified nine-dimensional minimal completion for the dx0/dx1 principal
-  plane, but dx2 exits even the natural label-0/1/2/3 56-vector carrier.
-  Any next I1B continuation must therefore construct a larger ambient
-  all-direction hull or, preferably, supply the missing source-selected full
-  fermion operator and lower-order/common-domain owner; do not project away
-  the dx2 outputs or call the nine-dimensional hull a fourteen-direction
-  reduction, spectrum, positivity result, or physical mode.
+  Treat K250 as the active source-native route-switch result. The current
+  registered corpus does not select a unique full fermion operator: equation
+  9.16 is a candidate and the nonzero-southeast rival remains admitted but
+  unspecified. Do not fill its reality, density/adjoint, lower-order or common
+  domain data and call the result source-selected. On the named selected local
+  comm/symi/symi symbol, K250 proves that all thirteen non-normal directions
+  give a coefficient -1 from K236's odd seed and that any common
+  all-fourteen-direction hull containing it has dimension at least fifteen.
+  The twelve p=2..13 outputs are distinct and outside K249's natural
+  56-vector carrier. A next hull construction must first type a larger ambient
+  carrier and named operator candidate, or new source evidence must actually
+  select the full operator/domain owner. Do not call the fifteen-dimensional
+  lower bound a complete hull, spectrum, positivity result or physical mode.
 
   Keep K248's strictly positive complete q=15-to-q=16 shell as the exact-route
   switch predicate. Together with K247 it proves that the first farther shell
