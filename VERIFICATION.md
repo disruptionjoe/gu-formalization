@@ -7,6 +7,39 @@ updated_at: "2026-09-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K266 first fixed-axis middle collar (2026-09-20)
+
+K266 controls a genuinely new 254-box K218 collar. Exactly one of fixed axes
+`0` and `1` lies in q=`[13/5,15]`; the other fixed axis and every exchangeable
+axis `2..7` independently use q=`[1,13/5]` or q=`[1792,2304]`; and at least
+one non-middle coordinate is high. The boxes are pairwise disjoint and their
+interiors lie outside both K247's q<=15 cube and K265's binary low/high union.
+
+K230 licenses its retained rational-function representative only after
+integration over a complete S6-invariant domain. K266 therefore enumerates
+every box in each complete multiplicity union rather than multiplying one
+box by a binomial orbit size. Exact FLINT recurrences compile signed heads
+through total degree nine, exact product-cosh centered moments integrate the
+heads, and complete-homogeneous geometric majorants bound every term of
+degree ten and higher. Each of the four separately typed fixed-axis blocks is
+strictly positive. Their complete normalized interval is
+`[2.224095120389e-18,2.506899201971e-18]`, with conservative declared lower
+`1.0e-18`.
+
+An independent reverse-order raw-allocation replay recompiles all 254 boxes,
+reproduces every polynomial hash, independently reconstructs all moments and
+rational tails, and replays directed normalization. Two- and three-point
+product quadratures lie inside the exact interval. Absolute-weight and
+wrong-measure mutations differ as required; deleting the dominant
+axis-1-middle/axis-0-high block leaves a positive remainder, while the deleted
+block is more than four times that remainder.
+
+K266 controls only this declared first fixed-axis collar. It does not control
+middle coordinates on axes `2..7`, the fixed-axis middle region above q=`15`,
+the projective region beyond q=`2304`, the full K218 integral, the complete
+original order-six error, K215, source, physics-ledger, canon, paper,
+public-posture or physical-positivity status.
+
 ## K265 complete 256-box binary low/high union (2026-09-20)
 
 K265 composes all four separately calculated low/high states of axes `0` and
