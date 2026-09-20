@@ -7,6 +7,39 @@ updated_at: "2026-09-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K265 complete 256-box binary low/high union (2026-09-20)
+
+K265 composes all four separately calculated low/high states of axes `0` and
+`1` with every binary low/high state of axes `2..7`. The low interval is
+q=`[1,13/5]` and the high interval is q=`[1792,2304]`. The resulting 256
+boxes are pairwise disjoint. Only axes `2..7` are S6 exchangeable; K230's
+exact orbit cancellation is therefore applied inside each complete 64-box
+fixed-axis block, never by exchanging axes `0` or `1`.
+
+K264 supplies the low/high fixed-axis block. For the low/low, high/low and
+high/high blocks, K265 compiles every retained denominator orbit through total
+degree nine with exact FLINT multivariate recurrences. It integrates the
+signed polynomial heads against exact product-cosh centered moments and bounds
+all terms of degree ten and higher by complete-homogeneous geometric
+majorants. Directional rational pi bounds give the complete normalized
+256-box interval `[6.758180634900e-18,7.611157074280e-18]`, with conservative
+declared positive lower `6.0e-18`.
+
+An independent reverse-order probe reconstructs the raw orbit allocation,
+recompiles all 192 new boxes, reproduces every degree hash and rational tail,
+and independently replays the directed normalization within explicit
+`1e-86` JSON-serialization slack. Two- and three-point product quadratures
+lie inside the certified interval with relative gap `3.0903e-4`.
+Absolute-weight, wrong-measure and high/high-block deletion controls differ as
+required; the three-block remainder after deletion stays positive, while the
+high/high block dominates it by more than a factor of ten.
+
+K265 controls only this complete binary low/high union. It does not control
+regions where any coordinate lies in the middle interval `(13/5,1792)` or
+beyond q=`2304`, determine the full K218 integral, certify the complete
+original order-six error, prove K215 impossible, or move source,
+physics-ledger, canon, paper, public-posture or physical-positivity status.
+
 ## K264 complete 64-box low/high union (2026-09-20)
 
 K264 resolves K263's independent-layer interval ambiguity on the complete

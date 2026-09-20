@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8da37fe58e799f3f62f4ea193f0891fab4ac55c2
+revision_basis: fd2997a787d723be38f32796ece17366c689c5c8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K265 certifies the complete 256-box binary low/high K218 union strictly
+    positive. Axes 0 and 1 are separately typed in all four low/high states,
+    while every exchangeable axis 2 through 7 independently uses q=[1,13/5]
+    or q=[1792,2304]. K264 supplies the low/high fixed-axis block; K265
+    independently compiles the other three fixed-axis blocks through exact
+    total degree nine, integrates the signed heads against product-cosh
+    moments, and bounds every degree ten and higher. Their disjoint
+    composition has normalized interval
+    [6.7581806349e-18,7.6111570743e-18], hence is strictly positive with
+    declared lower 6.0e-18. Reverse-order recompilation reproduces every new
+    coefficient hash, moment and rational tail; directional normalization,
+    two-/three-point quadratures, absolute-weight, wrong-measure and
+    block-deletion controls pass. The S6 projection acts only on axes 2..7;
+    axes 0 and 1 were calculated separately. Regions where any coordinate
+    lies in the middle interval (13/5,1792) or beyond q=2304, the full K218
+    integral, complete error, K215, source, ledger, canon and public posture
+    remain open.
+
     K264 resolves K263's cross-layer interval ambiguity on the complete
     64-box low/high union. Fix axis 1 in q=[1792,2304], axis 0 in
     q=[1,13/5], and let each exchangeable axis 2 through 7 independently use
@@ -8668,16 +8686,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K264 certifies the complete 64-box K218 low/high union strictly positive in
-  [1.0817126761e-20,1.4535694214e-20] by exact order-nine signed moments and
-  a complete degree-ten-and-higher tail. This resolves K263's independent
-  layer-interval ambiguity while preserving the sharp claim ceiling: only
-  the declared fixed-high-axis/fixed-low-axis block is controlled. Which
-  correlation-preserving construction can now control genuinely new
-  complement outside this block: a distinct first-exceeding partition, legal
-  symmetry/orbit images, or a consuming far-shape derivative atlas? Do not
-  repeat the 64-box low/high partition, its K261--K264 Taylor certificates,
-  pair-subset selection, or infer the full K218 integral.
+  K265 certifies the complete 256-box K218 binary low/high union strictly
+  positive in [6.7581806349e-18,7.6111570743e-18] by separately compiling all
+  four fixed states of axes 0 and 1 and applying exact S6 cancellation only
+  to exchangeable axes 2..7. Which correlation-preserving construction can
+  now control genuinely new complement: a first middle-collar partition with
+  one coordinate in (13/5,1792), a projective far-tail composition beyond
+  q=2304, or a consuming far-shape a/c derivative atlas? Do not repeat the
+  256-box binary partition or K261--K265 Taylor certificates, treat axes 0
+  and 1 as S6 exchangeable, or infer the full K218 integral.
 
   K257 proves that one full-dimensional negative K218 box carries more
   product-cosh mass than K247's complete positive q<=15 prefix, so legal
@@ -8890,17 +8907,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K264 as the active K218 low/high-union result. Exact K230 S6-orbit
-  cancellation, compiled signed degree-nine moment integration and a complete
-  degree-ten-and-higher tail certify the entire 64-box union positive with
-  normalized lower above 1.06e-20. This resolves K263's cross-layer interval
-  ambiguity, but only on the declared fixed-high-axis/fixed-low-axis block.
-  Do not repeat its multiplicity partition, pair-subset search, inactive
-  subdivision, or K261--K264 Taylor certificates. The next K218 step must
-  control genuinely new complement through a distinct first-exceeding
-  partition, legal orbit/symmetry images, or a consuming far-shape derivative
-  atlas. Do not resume q17 or infer the full K218 integral, complete order-six
-  error, K215 impossibility, physics result or source verdict.
+  Treat K265 as the active K218 binary low/high-union result. Exact K230 S6
+  cancellation on axes 2..7, separate treatment of all four fixed states of
+  axes 0 and 1, signed degree-nine moment integration and complete
+  degree-ten-and-higher tails certify the entire 256-box union positive with
+  normalized lower above 6.0e-18. Do not repeat its binary partition,
+  pair-subset search, inactive subdivision, or K261--K265 Taylor
+  certificates. The next K218 step must control genuinely new complement
+  through a middle-collar partition, projective far-tail composition, or a
+  consuming far-shape derivative atlas. Do not resume q17 or infer the full
+  K218 integral, complete order-six error, K215 impossibility, physics result
+  or source verdict.
 
   Treat K257 as the active K218 farther-region result. Its declared
   eight-dimensional q-box is strictly negative cell by cell and its rigorous

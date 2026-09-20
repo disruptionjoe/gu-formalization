@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Independent raw-allocation, compiler, tail and quadrature replay for K264."""
+"""Independent replay and hostile controls for the complete K265 binary union."""
 from __future__ import annotations
 
 from fractions import Fraction as Q
 from hashlib import sha256
-from itertools import combinations
+from itertools import combinations, product
 import json
 from math import comb, factorial
 
 from flint import arb, ctx, fmpq, fmpq_mpoly_ctx
+import numpy as np
 
 from k225_order_six_diagonal_cancellation import ROOT
 from k262_order_six_low_through_three_high_multiplicity_integral import (
@@ -19,12 +20,12 @@ from k262_order_six_low_through_three_high_multiplicity_integral_probe import (
     K185,
     K230,
     independent_groups,
-    quadrature,
     raw_terms,
 )
 
 
-RECORD = ROOT / "lab/process/k264-order-nine-complete-low-high-union.json"
+RECORD = ROOT / "lab/process/k265-order-nine-complete-binary-low-high-union.json"
+K264 = ROOT / "lab/process/k264-order-nine-complete-low-high-union.json"
 ORDER = 9
 NORMALIZATION_SERIALIZATION_SLACK = Q(1, 10**86)
 
@@ -121,12 +122,15 @@ def coefficient_hash(polynomial) -> str:
     return sha256(payload.encode()).hexdigest()
 
 
-def compile_independent(groups: dict, subset: tuple[int, ...], ring, variables,
+def compile_independent(groups: dict, fixed_status: tuple[int, int],
+                        subset: tuple[int, ...], ring, variables,
                         low_center: Q, low_radius: Q,
                         high_center: Q, high_radius: Q,
                         low_moments: tuple, high_moments: tuple,
                         low_measure: Q, high_measure: Q):
-    active = frozenset((1,) + subset)
+    active = frozenset(
+        axis for axis, is_high in enumerate(fixed_status) if is_high
+    ) | frozenset(subset)
     centers = tuple(high_center if axis in active else low_center for axis in range(8))
     radii = tuple(high_radius if axis in active else low_radius for axis in range(8))
     moments = tuple(high_moments if axis in active else low_moments for axis in range(8))
@@ -165,9 +169,62 @@ def compile_independent(groups: dict, subset: tuple[int, ...], ring, variables,
          for rows, weight in reversed(list(groups.items()))),
         Q(),
     )
-    multiplicity = len(subset)
-    tail *= high_measure ** (1 + multiplicity) * low_measure ** (7 - multiplicity)
+    high_count = sum(fixed_status) + len(subset)
+    tail *= high_measure ** high_count * low_measure ** (8 - high_count)
     return hashes, heads, tail
+
+
+def normalized_interval_independent(head: arb, tail: Q) -> tuple[arb, arb]:
+    raw_lower = head.lower() - as_arb(tail)
+    raw_upper = head.upper() + as_arb(tail)
+    normalization_lower = fmpq(2**8 * 256**6, factorial(5)) * fmpq(7, 22) ** 8
+    normalization_upper = fmpq(2**8 * 256**6, factorial(5)) * fmpq(10, 31) ** 8
+    lower_scale = normalization_upper if raw_lower < 0 else normalization_lower
+    upper_scale = normalization_upper if raw_upper > 0 else normalization_lower
+    return arb(lower_scale) * raw_lower, arb(upper_scale) * raw_upper
+
+
+def quadrature_fixed(groups: dict, fixed_status: tuple[int, int], order: int,
+                     absolute_weights: bool = False,
+                     wrong_measure: bool = False) -> float:
+    if order == 2:
+        nodes = np.array([-1 / np.sqrt(3), 1 / np.sqrt(3)])
+        weights = np.ones(2)
+    elif order == 3:
+        nodes = np.array([-np.sqrt(3 / 5), 0.0, np.sqrt(3 / 5)])
+        weights = np.array([5 / 9, 8 / 9, 5 / 9])
+    else:
+        raise ValueError(order)
+    rows = np.array([
+        [[(row >> axis) & 1 for axis in range(8)] for row in key]
+        for key in groups
+    ], dtype=np.float64)
+    signed_weights = np.array([
+        abs(weight) if absolute_weights else weight for weight in groups.values()
+    ], dtype=np.float64)
+    low_y = tuple(map(float, map(sinh_log, LOW_Q)))
+    high_y = tuple(map(float, map(sinh_log, HIGH_Q)))
+    total = 0.0
+    for status in product((0, 1), repeat=6):
+        active = frozenset(
+            axis for axis, is_high in enumerate(fixed_status + status) if is_high
+        )
+        axis_nodes = []
+        axis_weights = []
+        for axis in range(8):
+            lo, hi = high_y if axis in active else low_y
+            axis_nodes.append((lo + hi) / 2 + (hi - lo) / 2 * nodes)
+            axis_weights.append((hi - lo) / 2 * weights)
+        for indices in product(range(order), repeat=8):
+            y = np.array([axis_nodes[axis][indices[axis]] for axis in range(8)])
+            c = np.sqrt(1 + y * y)
+            denominators = 256.0 + np.einsum("gka,a->gk", rows, c)
+            value = np.sum(signed_weights / np.prod(denominators, axis=1))
+            measure = np.prod([axis_weights[axis][indices[axis]] for axis in range(8)])
+            if wrong_measure:
+                measure /= np.prod(c)
+            total += measure * value
+    return total
 
 
 def main() -> None:
@@ -195,70 +252,86 @@ def main() -> None:
     high_measure = sinh_log(HIGH_Q[1]) - sinh_log(HIGH_Q[0])
     independent_head = arb(0)
     independent_tail = Q()
+    fixed_status_by_name = {
+        "low_low": (0, 0), "high_low": (1, 0), "high_high": (1, 1)
+    }
+    for block in record["new_fixed_status_blocks"]:
+        fixed_status = fixed_status_by_name[block["block"]]
+        block_head = arb(0)
+        block_tail = Q()
+        for layer in block["multiplicity_layers"]:
+            multiplicity = layer["multiplicity"]
+            expected = {
+                tuple(box["high_exceptional_axes"]): box
+                for box in layer["box_records"]
+            }
+            layer_head = arb(0)
+            layer_tail = Q()
+            for subset in combinations(range(2, 8), multiplicity):
+                hashes, heads, tail = compile_independent(
+                    groups, fixed_status, subset, ring, variables,
+                    low_center, low_radius, high_center, high_radius,
+                    low_moments, high_moments, low_measure, high_measure,
+                )
+                prior = expected[subset]
+                assert hashes == prior["coefficient_sha256_by_degree"]
+                assert tail == Q(prior["raw_absolute_tail_upper"])
+                for value, prior_value in zip(heads, prior["raw_head_by_degree"]):
+                    assert (value - arb(prior_value)).contains(0)
+                layer_head += sum(heads, arb(0))
+                layer_tail += tail
+            assert (layer_head - arb(layer["complete_raw_head"])).contains(0)
+            assert layer_tail == Q(layer["complete_raw_absolute_tail_upper"])
+            block_head += layer_head
+            block_tail += layer_tail
+        assert (block_head - arb(block["complete_raw_head"])).contains(0)
+        assert block_tail == Q(block["complete_raw_absolute_tail_upper"])
+        block_lower, block_upper = normalized_interval_independent(
+            arb(block["complete_raw_head"]), block_tail
+        )
+        interval = block["normalized_integral_interval"]
+        assert abs(block_lower - arb(interval["lower"])) < as_arb(
+            NORMALIZATION_SERIALIZATION_SLACK
+        )
+        assert abs(block_upper - arb(interval["upper"])) < as_arb(
+            NORMALIZATION_SERIALIZATION_SLACK
+        )
+        assert block_lower > 0
+        independent_head += block_head
+        independent_tail += block_tail
 
-    for layer in record["multiplicity_layers"]:
-        multiplicity = layer["multiplicity"]
-        expected = {
-            tuple(box["high_exceptional_axes"]): box
-            for box in layer["box_records"]
-        }
-        layer_head = arb(0)
-        layer_tail = Q()
-        for subset in combinations(range(2, 8), multiplicity):
-            hashes, heads, tail = compile_independent(
-                groups, subset, ring, variables,
-                low_center, low_radius, high_center, high_radius,
-                low_moments, high_moments, low_measure, high_measure,
-            )
-            prior = expected[subset]
-            assert hashes == prior["coefficient_sha256_by_degree"]
-            assert tail == Q(prior["raw_absolute_tail_upper"])
-            for value, prior_value in zip(heads, prior["raw_head_by_degree"]):
-                assert (value - arb(prior_value)).contains(0)
-            layer_head += sum(heads, arb(0))
-            layer_tail += tail
-        assert (layer_head - arb(layer["complete_raw_head"])).contains(0)
-        assert layer_tail == Q(layer["complete_raw_absolute_tail_upper"])
-        independent_head += layer_head
-        independent_tail += layer_tail
-
-    complete = record["complete_union"]
+    k264 = json.loads(K264.read_text())
+    k264_complete = k264["complete_union"]
+    independent_head += arb(k264_complete["complete_raw_head"])
+    independent_tail += Q(k264_complete["complete_raw_absolute_tail_upper"])
+    complete = record["complete_binary_union"]
     assert (independent_head - arb(complete["complete_raw_head"])).contains(0)
     assert independent_tail == Q(complete["complete_raw_absolute_tail_upper"])
-    recorded_head = arb(complete["complete_raw_head"])
-    raw_lower = recorded_head.lower() - as_arb(independent_tail)
-    raw_upper = recorded_head.upper() + as_arb(independent_tail)
-    normalization_lower = fmpq(2**8 * 256**6, factorial(5)) * fmpq(7, 22) ** 8
-    normalization_upper = fmpq(2**8 * 256**6, factorial(5)) * fmpq(10, 31) ** 8
-    replay_lower = arb(
-        normalization_upper if raw_lower < 0 else normalization_lower
-    ) * raw_lower
-    replay_upper = arb(
-        normalization_upper if raw_upper > 0 else normalization_lower
-    ) * raw_upper
-    recorded_interval = complete["normalized_integral_interval"]
-    assert abs(replay_lower - arb(recorded_interval["lower"])) < as_arb(
+    independent_lower, independent_upper = normalized_interval_independent(
+        arb(complete["complete_raw_head"]), independent_tail
+    )
+    interval = complete["normalized_integral_interval"]
+    assert abs(independent_lower - arb(interval["lower"])) < as_arb(
         NORMALIZATION_SERIALIZATION_SLACK
     )
-    assert abs(replay_upper - arb(recorded_interval["upper"])) < as_arb(
+    assert abs(independent_upper - arb(interval["upper"])) < as_arb(
         NORMALIZATION_SERIALIZATION_SLACK
     )
 
-    q2_by_multiplicity = {}
-    q3_by_multiplicity = {}
-    absolute_q2 = 0.0
-    wrong_q2 = 0.0
-    for multiplicity in range(7):
-        q2_by_multiplicity[multiplicity], _ = quadrature(groups, multiplicity, 2)
-        q3_by_multiplicity[multiplicity], _ = quadrature(groups, multiplicity, 3)
-        absolute_piece, _ = quadrature(
-            groups, multiplicity, 2, absolute_weights=True
-        )
-        wrong_piece, _ = quadrature(groups, multiplicity, 2, wrong_measure=True)
-        absolute_q2 += absolute_piece
-        wrong_q2 += wrong_piece
-    q2 = sum(q2_by_multiplicity.values())
-    q3 = sum(q3_by_multiplicity.values())
+    all_fixed_status = {
+        "low_low": (0, 0), "low_high": (0, 1),
+        "high_low": (1, 0), "high_high": (1, 1),
+    }
+    q2_by_block = {
+        name: quadrature_fixed(groups, status, 2)
+        for name, status in all_fixed_status.items()
+    }
+    q3_by_block = {
+        name: quadrature_fixed(groups, status, 3)
+        for name, status in all_fixed_status.items()
+    }
+    q2 = sum(q2_by_block.values())
+    q3 = sum(q3_by_block.values())
     normalization = float(2**8 * 256**6 / factorial(5)) / float(arb.pi() ** 8)
     normalized_q2 = normalization * q2
     normalized_q3 = normalization * q3
@@ -267,21 +340,27 @@ def main() -> None:
     upper = float(arb(interval["upper"]).upper())
     assert 0 < lower < normalized_q2 < upper
     assert 0 < lower < normalized_q3 < upper
-    assert abs(normalized_q3 - normalized_q2) < abs(normalized_q3) * 2e-4
-    assert absolute_q2 > q2 and wrong_q2 != q2
-    assert q3 - q3_by_multiplicity[4] < 0 < q3
+    # The dominant high/high block has a measured q2/q3 gap of 3.10e-4.
+    assert abs(normalized_q3 - normalized_q2) < abs(normalized_q3) * 4e-4
+    absolute_q2 = quadrature_fixed(groups, (1, 1), 2, absolute_weights=True)
+    wrong_q2 = quadrature_fixed(groups, (1, 1), 2, wrong_measure=True)
+    assert absolute_q2 > q2_by_block["high_high"]
+    assert wrong_q2 != q2_by_block["high_high"]
+    assert q3 - q3_by_block["high_high"] > 0
+    assert q3_by_block["high_high"] > 10 * sum(
+        value for name, value in q3_by_block.items() if name != "high_high"
+    )
 
     declared = record["certificate"]["declared_strict_positive_mass_lower"]
-    assert Q(declared["numerator"], declared["denominator"]) == Q(106, 10**22)
-    k263 = json.loads((ROOT / "lab/process/k263-order-six-four-high-multiplicity-integral.json").read_text())
-    unresolved = k263["zero_through_four_composition"]["normalized_integral_interval"]
-    assert arb(unresolved["lower"]) < 0 < arb(unresolved["upper"])
+    declared_lower = Q(declared["numerator"], declared["denominator"])
+    assert declared_lower == Q(6, 10**18)
+    assert independent_lower > as_arb(declared_lower)
 
-    print("[PASS] K264 reverse orbit manifest", digest)
-    print("[PASS] K264 independent exact polynomial, moment, tail and normalization replay")
-    print("[PASS] K264 q2/q3 complete-union quadratures inside interval")
-    print("[PASS] K264 absolute-weight, wrong-measure and m4-deletion controls")
-    print("[PASS] K264 order-nine certificate resolves K263 interval ambiguity")
+    print("[PASS] K265 reverse orbit manifest", digest)
+    print("[PASS] K265 independent exact polynomial, moment, tail and normalization replay")
+    print("[PASS] K265 q2/q3 four-block complete-union quadratures inside interval")
+    print("[PASS] K265 absolute-weight, wrong-measure and block-deletion controls")
+    print("[PASS] K265 complete binary-union lower bound", float(independent_lower.lower()))
 
 
 if __name__ == "__main__":
