@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f409b76d6cdc04dff14cb3bca5638d9cb5df42c9
+revision_basis: 8da37fe58e799f3f62f4ea193f0891fab4ac55c2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K264 resolves K263's cross-layer interval ambiguity on the complete
+    64-box low/high union. Fix axis 1 in q=[1792,2304], axis 0 in
+    q=[1,13/5], and let each exchangeable axis 2 through 7 independently use
+    either interval. Exact K230 orbit cancellation is applied separately on
+    every complete multiplicity union. A compiled exact total-degree-nine
+    signed polynomial head is integrated against product-cosh moments on all
+    64 boxes, while one complete-homogeneous majorant bounds every degree ten
+    and higher. The normalized complete-union integral lies in
+    [1.0817126761e-20,1.4535694214e-20], hence is strictly positive with
+    declared lower 1.06e-20. Independent reverse-order raw-allocation and
+    polynomial compilation reproduces every coefficient hash, moment and
+    tail; two-/three-point quadratures, absolute-weight, wrong-measure and
+    multiplicity-four-deletion controls pass. Deleting multiplicity four
+    flips the quadrature sign, so the complete cross-layer composition is
+    essential. The complement outside these 64 boxes, full K218 integral,
+    complete error, K215, source, ledger, canon and public posture remain open.
+
     K263 controls the first K262 complement layer. Fix axis 1 in
     q=[1792,2304], axis 0 in q=[1,13/5], and take exactly four high
     coordinates among exchangeable axes 2 through 7. The complete fifteen-box
@@ -8651,17 +8668,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K263 certifies the complete fifteen-box multiplicity-four K218 layer
-  strictly positive in [4.2089201433e-20,7.0092889295e-20]. Together with
-  K261/K262 this proves that the first uncontrolled complement layer reverses
-  sign, while the independent zero-through-four interval still straddles
-  zero. Which correlation-preserving construction can now decide the global
-  balance: a joint higher-order moment certificate across multiplicities two
-  through four, a rigorously reanchored treatment of multiplicities five and
-  six, a different first-exceeding partition, or a consuming far-shape
-  derivative atlas? Do not repeat multiplicities zero through four,
-  pair-subset selection, or report numerical quadrature signs for five/six as
-  certificates; do not infer the complete 64-box union or full K218 integral.
+  K264 certifies the complete 64-box K218 low/high union strictly positive in
+  [1.0817126761e-20,1.4535694214e-20] by exact order-nine signed moments and
+  a complete degree-ten-and-higher tail. This resolves K263's independent
+  layer-interval ambiguity while preserving the sharp claim ceiling: only
+  the declared fixed-high-axis/fixed-low-axis block is controlled. Which
+  correlation-preserving construction can now control genuinely new
+  complement outside this block: a distinct first-exceeding partition, legal
+  symmetry/orbit images, or a consuming far-shape derivative atlas? Do not
+  repeat the 64-box low/high partition, its K261--K264 Taylor certificates,
+  pair-subset selection, or infer the full K218 integral.
 
   K257 proves that one full-dimensional negative K218 box carries more
   product-cosh mass than K247's complete positive q<=15 prefix, so legal
@@ -8874,21 +8890,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K263 as the active K218 multiplicity result. Exact S6-orbit
-  cancellation, signed degree-six moment integration and a complete tail
-  certify the entire fifteen-box multiplicity-four layer positive with
-  normalized lower above 4.2e-20. K261/K262/K263 independent layer intervals
-  leave the zero-through-four sign unresolved, so K263 is a rigorous sign
-  reversal and route switch rather than a full-union result. Do not repeat
-  multiplicities zero through four, pair-subset selection, inactive
-  subdivision, or the K261--K263 Taylor certificates. The next K218 step must
-  preserve cross-layer correlation: jointly sharpen multiplicities two
-  through four, construct a higher-order or differently reanchored certificate
-  for five and six, use a distinct first-exceeding partition, or complete a
-  consuming far-shape derivative atlas. Do not promote finite quadrature signs
-  for five/six, resume q17, or infer the complete 64-box union, full integral,
-  complete order-six error, K215 impossibility, physics result or source
-  verdict.
+  Treat K264 as the active K218 low/high-union result. Exact K230 S6-orbit
+  cancellation, compiled signed degree-nine moment integration and a complete
+  degree-ten-and-higher tail certify the entire 64-box union positive with
+  normalized lower above 1.06e-20. This resolves K263's cross-layer interval
+  ambiguity, but only on the declared fixed-high-axis/fixed-low-axis block.
+  Do not repeat its multiplicity partition, pair-subset search, inactive
+  subdivision, or K261--K264 Taylor certificates. The next K218 step must
+  control genuinely new complement through a distinct first-exceeding
+  partition, legal orbit/symmetry images, or a consuming far-shape derivative
+  atlas. Do not resume q17 or infer the full K218 integral, complete order-six
+  error, K215 impossibility, physics result or source verdict.
 
   Treat K257 as the active K218 farther-region result. Its declared
   eight-dimensional q-box is strictly negative cell by cell and its rigorous

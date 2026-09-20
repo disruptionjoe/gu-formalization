@@ -7,6 +7,39 @@ updated_at: "2026-09-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K264 complete 64-box low/high union (2026-09-20)
+
+K264 resolves K263's independent-layer interval ambiguity on the complete
+low/high block. Fix axis `1` in q=`[1792,2304]`, axis `0` in q=`[1,13/5]`,
+and let every exchangeable axis `2..7` independently use either interval. The
+resulting 64 boxes are disjoint. Their seven complete multiplicity unions and
+their total union are S6 invariant, so K230's exact rational-function orbit
+cancellation is legal on each complete integration object.
+
+For every box, an exact FLINT multivariate recurrence compiles the 307 retained
+denominator orbits through total degree nine. The complete signed polynomial
+head is integrated against exact product-cosh centered moments before absolute
+values are taken. A complete-homogeneous geometric majorant bounds every term
+of degree ten and higher. Directional rational pi bounds then give the complete
+normalized interval
+`[1.081712676137e-20,1.453569421423e-20]`. The union is strictly positive, with
+conservative declared lower `1.06e-20`.
+
+An independent reverse-order raw-allocation probe reconstructs all 307 K230
+orbits and digest `10c9d7b4...`, recompiles every exact polynomial under a
+different traversal, reproduces all 640 degree hashes and every rational tail,
+and independently contracts the moments. Two- and three-point product
+quadratures lie inside the certified interval. Absolute-weight and
+wrong-measure controls differ as required; deleting the complete
+multiplicity-four layer flips the quadrature sign. K263's degree-six
+zero-through-four interval still straddles zero, so the order-nine cross-layer
+certificate is essential rather than a restatement of the prior result.
+
+K264 controls only the declared complete 64-box block. It does not determine
+the sign of the remaining K218 complement or full integral, certify the
+complete original order-six error, prove K215 impossible, or move source,
+physics-ledger, canon, paper, public-posture or physical-positivity status.
+
 ## K263 four-high multiplicity integral (2026-09-20)
 
 K263 controls the first layer outside K262. Fix axis `1` in
