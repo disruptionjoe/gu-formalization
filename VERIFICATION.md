@@ -7,6 +7,39 @@ updated_at: "2026-09-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K267 exchangeable-axis middle collar (2026-09-20)
+
+K267 controls the complete first exchangeable-axis middle collar of K218.
+Exactly one of axes `2..7` lies in q=`[13/5,15]`; every other coordinate uses
+the established low or high interval; and at least one non-middle coordinate
+is high. The resulting 762 boxes are pairwise disjoint and outside the
+interiors of K247, K265 and K266.
+
+K230 licenses its retained rational-function representative only after
+integration over a complete S6-invariant domain. K267 therefore enumerates
+all choices of the middle axis and all high subsets in every fixed-axis block.
+Exact FLINT recurrences compile signed heads through total degree nine, exact
+product-cosh centered moments integrate those heads, and complete-homogeneous
+geometric majorants bound every term of degree ten and higher. The fixed
+low/high block is negative, so no per-block positivity is claimed. The signed
+complete union is strictly positive in the normalized interval
+`[1.051790778896e-16,1.176073315047e-16]`, with conservative declared lower
+`1.0e-17`.
+
+An independent reverse-order raw-allocation replay recompiles all 762 boxes,
+reproduces every polynomial hash, independently reconstructs all moments and
+rational tails, and replays directed normalization. Two- and three-point
+product quadratures lie inside the exact interval. Absolute-weight and
+wrong-measure mutations differ as required; deleting the dominant
+fixed-high/high block leaves a positive remainder, while that block exceeds
+ten times the remainder.
+
+K267 controls only this declared adjacent exchangeable-axis collar. It does
+not control two-or-more exchangeable middle coordinates, fixed-axis middle
+q>`15`, q>`2304`, the full K218 integral, the complete original order-six
+error, K215, source, physics-ledger, canon, paper, public-posture or
+physical-positivity status.
+
 ## K266 first fixed-axis middle collar (2026-09-20)
 
 K266 controls a genuinely new 254-box K218 collar. Exactly one of fixed axes
