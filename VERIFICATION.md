@@ -7,6 +7,40 @@ updated_at: "2026-09-19"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K261 complete pair-box Taylor integral (2026-09-19)
+
+K261 settles the signed integral on the complete S6-invariant union of all
+fifteen K259/K260 exceptional-pair boxes. It uses K230's exact rational-function
+orbit cancellation, not a common-interval shortcut: 1,864 raw signed terms
+reduce to 307 retained exact denominator orbits, while unequal functions
+outside one orbit identity remain separate.
+
+On each pair box, every retained reciprocal denominator product is reanchored
+at the exact low/high box centers and expanded through total degree four. The
+complete signed polynomial head is integrated before absolute values are taken.
+The change `y=sinh(t)` gives `dy=cosh(t)dt`, and the centered moments are
+evaluated rigorously from the cosh-power recurrence at rational q endpoints.
+All degrees five and higher are bounded by `h_5` of the positive factor ratios
+and a geometric continuation using
+`h_(n+1)/h_n <= r_max (n+14)/(n+1)`.
+
+The normalized signed head is below `-5.862179055119e-20`; the complete
+absolute tail is below `1.484215385878e-20`. Thus the union has computed
+negative magnitude above `4.377963669241e-20` and conservative declared lower
+`4.3e-20`. That lower exceeds K247's complete positive `q<=15` upper by more
+than `4.165690456151e-20`, so their disjoint union is strictly negative.
+
+An independent reverse-order raw-allocation probe reconstructs the K230 orbit
+manifest, exact degree-zero head and exact complete-homogeneous tail. Independent
+two- and three-point product quadratures agree near `-9.293e-31` in raw units
+and lie inside the rigorous interval. Absolute-weight, wrong-measure,
+omitted-tail and dominant-pair-deletion controls pass.
+
+K261 proves that K260's ten-box ceiling was an enclosure artifact. It does not
+control complement outside the fifteen boxes, determine the full K218 integral
+or complete original order-six error, prove K215 impossible, or move source,
+physics-ledger, canon, paper, public-posture or physical-positivity status.
+
 ## K260 integrated pair-box certificate family (2026-09-19)
 
 K260 changes the order of two legal operations in K259's fixed pair-box
