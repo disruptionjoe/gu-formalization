@@ -2,10 +2,49 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-19"
+updated_at: "2026-09-20"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K262 low-through-three high-multiplicity integral (2026-09-20)
+
+K262 controls genuinely new complement outside K261's exact-two layer. Fix
+axis `1` in q=`[1792,2304]`, axis `0` in q=`[1,13/5]`, and let zero, one, two,
+or three of the exchangeable axes `2..7` use the high interval. The resulting
+`1+6+15+20=42` boxes are disjoint and their union is S6 invariant, so K230's
+exact rational-function orbit cancellation is legal on every complete
+multiplicity layer.
+
+The new multiplicity-zero and -one layers use signed degree-four heads with
+complete degree-five-and-higher tails. Their normalized absolute uppers are
+below `2.964e-23` and `1.286e-21`. The complete twenty-box
+multiplicity-three layer needs degree six. With the lower normalization from
+`pi<22/7` for its positive lower endpoint and the upper normalization from
+`pi>31/10` for its positive upper endpoint and tail, its complete rigorous
+normalized integral lies in
+`[1.557700815208e-20, 2.301907102861e-20]`; the upper-normalized complete
+degree-seven-and-higher tail is below `2.816776754537e-21`.
+
+The three new layers have computed combined absolute upper below
+`2.433438909007e-20` and conservative declared upper `2.44e-20`. Subtracting
+that from K261's conservative `4.3e-20` exact-two negative lower proves the
+complete 42-box union negative by more than `1.86e-20`. K247's disjoint
+positive q<=15 upper leaves computed negative excess
+`1.725690456151e-20` and conservative declared excess `1.72e-20`.
+
+An independent reverse-order raw-allocation probe reconstructs the 307-orbit
+manifest, exact degree-zero heads and complete tails for multiplicities zero,
+one and three. Independent two- and three-point product quadratures lie inside
+every certified interval. Absolute-weight, wrong-measure,
+multiplicity-deletion and non-invariant-single-box controls pass.
+
+K262 does not control multiplicities four through six. Their degree-four
+enclosures are inconclusive, and the multiplicity-four signed head is positive
+and already larger than K261's conservative negative lower, so the same
+composition cannot simply be extended. No full K218 integral, complete
+original order-six error, K215 impossibility, source, physics-ledger, canon,
+paper, public-posture or physical-positivity conclusion follows.
 
 ## K261 complete pair-box Taylor integral (2026-09-19)
 

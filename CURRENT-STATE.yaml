@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 013ddba3e0c9ecc49b424e687430eeee3be1f989
+revision_basis: 281c81dfa2798ae5c959570ebc6b3c13114dc043
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K262 extends K261 into genuinely new K218 complement. Fix axis 1 in
+    q=[1792,2304], axis 0 in q=[1,13/5], and include every box with zero,
+    one, two, or three high coordinates among exchangeable axes 2 through 7.
+    These 42 disjoint boxes form one S6-invariant union. Exact K230 orbit
+    cancellation and signed product-cosh moment integration bound the new
+    multiplicity-zero and -one layers in absolute value and certify the
+    complete multiplicity-three layer positive between 1.5577008152e-20 and
+    2.3019071029e-20 using a degree-six head and degree-seven-and-higher tail.
+    Negative lower bounds use pi<22/7, while every positive or absolute upper
+    uses pi>31/10. Their combined absolute contribution is below the
+    conservative 2.44e-20.
+    K261's exact-two layer has certified negative magnitude above 4.3e-20, so
+    the enlarged 42-box union remains negative by more than 1.86e-20. After
+    K247's complete positive q<=15 prefix, the combined integral remains
+    negative by more than 1.72e-20. An independent reverse-order raw-allocation
+    probe reproduces the 307-orbit manifest, exact degree-zero heads and tails,
+    two-/three-point quadratures, and hostile domain/measure/weight controls.
+    Multiplicities four through six, the full K218 integral, complete error,
+    K215, source, ledger, canon and public posture remain open.
+
     K261 replaces K260's coarse per-box interval composition on the complete
     fifteen-box union by exact K230 S6-orbit cancellation and a reanchored
     signed moment integral. On each disjoint exceptional-pair box it expands
@@ -8615,16 +8635,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K261 certifies the exact S6-invariant union of all fifteen K259/K260 pair
-  boxes strictly negative by integrating a signed degree-four reanchored head
-  before bounding the complete higher-degree tail. Its conservative 4.3e-20
-  negative-mass lower exceeds K247's complete positive q<=15 upper by more
-  than 4.165690456151e-20. Which genuinely new complement outside this union
-  can now be controlled without discarding signed correlation: an orbit
-  decomposition of adjacent high-coordinate multiplicities, a certified
-  first-exceeding partition, or a consuming far-shape derivative atlas? Do
-  not repeat pair-subset selection, inactive subdivision on the same union,
-  or the K261 head/tail calculation; do not infer the full K218 integral.
+  K262 certifies the complete 42-box S6-invariant union with fixed high axis 1,
+  fixed low axis 0, and zero through three high exceptional coordinates
+  strictly negative. The new zero-, one-, and three-high layers have combined
+  absolute upper below 2.44e-20; K261's exact-two negative lower leaves the
+  enlarged union negative by more than 1.86e-20, and K247 composition leaves
+  more than 1.72e-20 negative excess. Which genuinely new complement can now
+  be controlled without discarding signed correlation: a global sign balance
+  for multiplicities four through six, a different first-exceeding partition,
+  or a consuming far-shape derivative atlas? Do not repeat multiplicities
+  zero through three, pair-subset selection, or K261/K262's Taylor certificates;
+  do not infer the full K218 integral.
 
   K257 proves that one full-dimensional negative K218 box carries more
   product-cosh mass than K247's complete positive q<=15 prefix, so legal
@@ -8837,18 +8858,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K261 as the active K218 pair-box result. Exact S6-orbit cancellation,
-  signed degree-four moment integration and a rigorous degree-five-and-higher
-  tail certify the complete union of all fifteen exceptional-pair boxes with
-  normalized negative magnitude above 4.3e-20, more than
-  4.165690456151e-20 beyond K247's complete positive q<=15 upper. Do not
-  repeat pair-subset selection, coarse per-box integration, inactive
-  subdivision of this already closed union, or the same Taylor certificate.
-  The next K218 step must control genuinely new complement outside the union
-  with a legal signed composition, such as adjacent high-coordinate
-  multiplicities, a first-exceeding partition, or a consuming far-shape
-  derivative atlas. Do not resume q17 or infer the full integral, complete
-  order-six error, K215 impossibility, physics result or source verdict.
+  Treat K262 as the active K218 multiplicity result. Exact S6-orbit
+  cancellation, signed moment integration and rigorous complete tails certify
+  all 42 boxes with fixed high axis 1, fixed low axis 0, and zero through three
+  high exceptional coordinates. The enlarged union has normalized negative
+  magnitude above 1.86e-20, and its disjoint composition with K247 remains
+  negative by more than 1.72e-20. Do not repeat these multiplicities,
+  pair-subset selection, inactive subdivision, or the K261/K262 Taylor
+  calculation. The next K218 step needs a new global sign balance for
+  multiplicities four through six, a distinct first-exceeding partition, or a
+  consuming far-shape derivative atlas. The multiplicity-four degree-four
+  head is positive and larger than K261's conservative negative lower, while
+  its tail remains inconclusive, so automatic extension of the same
+  composition is not licensed. Do not resume q17 or infer the full integral,
+  complete order-six error, K215 impossibility, physics result or source
+  verdict.
 
   Treat K257 as the active K218 farther-region result. Its declared
   eight-dimensional q-box is strictly negative cell by cell and its rigorous
