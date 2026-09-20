@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 281c81dfa2798ae5c959570ebc6b3c13114dc043
+revision_basis: f409b76d6cdc04dff14cb3bca5638d9cb5df42c9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K263 controls the first K262 complement layer. Fix axis 1 in
+    q=[1792,2304], axis 0 in q=[1,13/5], and take exactly four high
+    coordinates among exchangeable axes 2 through 7. The complete fifteen-box
+    union is S6 invariant. Exact K230 orbit cancellation, a signed
+    total-degree-six product-cosh moment integral and a complete
+    degree-seven-and-higher tail certify its normalized integral in
+    [4.2089201433e-20,7.0092889295e-20], hence strictly positive with declared
+    lower 4.2e-20. Independent reverse-order raw-allocation replay reproduces
+    the 307-orbit manifest, exact degree-zero head, complete tail,
+    two-/three-point quadratures and hostile controls. Composing the rigorous
+    K261, K262 and K263 layer intervals leaves the zero-through-four union
+    sign unresolved; K263 therefore proves a sign reversal, not a full-union
+    sign. Multiplicities five and six, the complete 64-box low/high union, the
+    full K218 integral, complete error, K215, source, ledger, canon and public
+    posture remain open.
+
     K262 extends K261 into genuinely new K218 complement. Fix axis 1 in
     q=[1792,2304], axis 0 in q=[1,13/5], and include every box with zero,
     one, two, or three high coordinates among exchangeable axes 2 through 7.
@@ -8635,17 +8651,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K262 certifies the complete 42-box S6-invariant union with fixed high axis 1,
-  fixed low axis 0, and zero through three high exceptional coordinates
-  strictly negative. The new zero-, one-, and three-high layers have combined
-  absolute upper below 2.44e-20; K261's exact-two negative lower leaves the
-  enlarged union negative by more than 1.86e-20, and K247 composition leaves
-  more than 1.72e-20 negative excess. Which genuinely new complement can now
-  be controlled without discarding signed correlation: a global sign balance
-  for multiplicities four through six, a different first-exceeding partition,
-  or a consuming far-shape derivative atlas? Do not repeat multiplicities
-  zero through three, pair-subset selection, or K261/K262's Taylor certificates;
-  do not infer the full K218 integral.
+  K263 certifies the complete fifteen-box multiplicity-four K218 layer
+  strictly positive in [4.2089201433e-20,7.0092889295e-20]. Together with
+  K261/K262 this proves that the first uncontrolled complement layer reverses
+  sign, while the independent zero-through-four interval still straddles
+  zero. Which correlation-preserving construction can now decide the global
+  balance: a joint higher-order moment certificate across multiplicities two
+  through four, a rigorously reanchored treatment of multiplicities five and
+  six, a different first-exceeding partition, or a consuming far-shape
+  derivative atlas? Do not repeat multiplicities zero through four,
+  pair-subset selection, or report numerical quadrature signs for five/six as
+  certificates; do not infer the complete 64-box union or full K218 integral.
 
   K257 proves that one full-dimensional negative K218 box carries more
   product-cosh mass than K247's complete positive q<=15 prefix, so legal
@@ -8858,19 +8874,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K262 as the active K218 multiplicity result. Exact S6-orbit
-  cancellation, signed moment integration and rigorous complete tails certify
-  all 42 boxes with fixed high axis 1, fixed low axis 0, and zero through three
-  high exceptional coordinates. The enlarged union has normalized negative
-  magnitude above 1.86e-20, and its disjoint composition with K247 remains
-  negative by more than 1.72e-20. Do not repeat these multiplicities,
-  pair-subset selection, inactive subdivision, or the K261/K262 Taylor
-  calculation. The next K218 step needs a new global sign balance for
-  multiplicities four through six, a distinct first-exceeding partition, or a
-  consuming far-shape derivative atlas. The multiplicity-four degree-four
-  head is positive and larger than K261's conservative negative lower, while
-  its tail remains inconclusive, so automatic extension of the same
-  composition is not licensed. Do not resume q17 or infer the full integral,
+  Treat K263 as the active K218 multiplicity result. Exact S6-orbit
+  cancellation, signed degree-six moment integration and a complete tail
+  certify the entire fifteen-box multiplicity-four layer positive with
+  normalized lower above 4.2e-20. K261/K262/K263 independent layer intervals
+  leave the zero-through-four sign unresolved, so K263 is a rigorous sign
+  reversal and route switch rather than a full-union result. Do not repeat
+  multiplicities zero through four, pair-subset selection, inactive
+  subdivision, or the K261--K263 Taylor certificates. The next K218 step must
+  preserve cross-layer correlation: jointly sharpen multiplicities two
+  through four, construct a higher-order or differently reanchored certificate
+  for five and six, use a distinct first-exceeding partition, or complete a
+  consuming far-shape derivative atlas. Do not promote finite quadrature signs
+  for five/six, resume q17, or infer the complete 64-box union, full integral,
   complete order-six error, K215 impossibility, physics result or source
   verdict.
 

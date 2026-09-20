@@ -7,6 +7,37 @@ updated_at: "2026-09-20"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K263 four-high multiplicity integral (2026-09-20)
+
+K263 controls the first layer outside K262. Fix axis `1` in
+q=`[1792,2304]`, axis `0` in q=`[1,13/5]`, and let exactly four of the
+exchangeable axes `2..7` use the high interval. The resulting fifteen boxes
+are disjoint and their complete union is S6 invariant, so K230's exact
+rational-function orbit cancellation is legal on the union.
+
+A signed total-degree-six Taylor head is integrated against exact
+product-cosh moments before absolute values are taken. A complete-homogeneous
+bound controls every term of degree seven and higher. Using `pi<22/7` for the
+positive lower endpoint and `pi>31/10` for the positive upper endpoint and
+tail, the normalized integral lies in
+`[4.208920143324e-20,7.009288929484e-20]`. The complete multiplicity-four
+layer is therefore strictly positive, with conservative declared lower
+`4.2e-20`.
+
+An independent reverse-order raw-allocation probe reconstructs all 307 K230
+orbits and digest `10c9d7b4...`, the exact degree-zero head and the complete
+tail. Independent two- and three-point product quadratures lie inside the
+certified interval. Absolute-weight, wrong-measure, dominant-subset deletion
+and non-invariant-single-box controls confirm that the complete signed layer
+and correct product-cosh measure are essential.
+
+K263 does not certify the sign of the zero-through-four union: composing the
+independent K261, K262 and K263 layer intervals still straddles zero. It also
+does not certify multiplicities five or six, the complete 64-box low/high
+union, the full K218 integral, complete original order-six error, K215
+impossibility, source, physics-ledger, canon, paper, public-posture or physical
+positivity.
+
 ## K262 low-through-three high-multiplicity integral (2026-09-20)
 
 K262 controls genuinely new complement outside K261's exact-two layer. Fix
