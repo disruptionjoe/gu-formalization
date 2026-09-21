@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a413efc7fb9d7fe2aaa23674a73c72adcd8cb743
+revision_basis: 8a53300acaf88cad7c3f38b61deb548bf9857e13
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K269 certifies the complete 890-box three-through-six exchangeable-axis
+    middle collar strictly positive. Between three and six of axes 2 through
+    7 lie in q=[13/5,15]; every other coordinate independently uses
+    q=[1,13/5] or q=[1792,2304]; and at least one non-middle coordinate is
+    high. The four middle-count strata contain 620, 225, 42 and 3 boxes and
+    are pairwise disjoint and outside the interiors of K247, K265, K266,
+    K267 and K268. Full box enumeration preserves K230's integration-only
+    symmetry license. Exact total-degree-nine signed heads, product-cosh
+    moments and complete degree-ten-and-higher tails give the normalized
+    interval [3.5170985117e-15,3.9264569510e-15], with declared lower
+    1.0e-15. The count-six stratum alone remains sign-inconclusive; positivity
+    is claimed only for the signed complete composition. Independent
+    reverse-order recompilation reproduces all 890 polynomial hashes, moments,
+    rational tails and directed normalization; aggregate q2/q3 quadratures,
+    absolute-weight, wrong-measure and dominant-stratum deletion controls
+    pass. The fixed-axis middle band above q=15, q>2304, the full K218
+    integral, complete error, K215, source, ledger, canon and public posture
+    remain open.
+
     K268 certifies the complete 945-box second exchangeable-axis middle collar
     strictly positive. Exactly two of axes 2 through 7 lie in
     q=[13/5,15]; every other coordinate independently uses q=[1,13/5] or
@@ -8741,15 +8760,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K268 certifies the complete second exchangeable-axis middle collar, with
-  exactly two of axes 2..7 in q=[13/5,15], strictly positive in
-  [6.0698428288e-16,6.7786917616e-16]. Which correlation-preserving
-  construction can now control genuinely new complement: three-or-more
-  exchangeable middle axes, the next fixed-axis middle band above q=15, a
-  projective far-tail composition beyond q=2304, or a consuming far-shape a/c
-  derivative atlas? Do not repeat K268, K267, K266 or the K265 binary
-  partition, discard K268's negative fixed-low/high block, use pointwise S6
-  representative compression, resume q17, or infer the full K218 integral.
+  K269 certifies the complete remaining adjacent exchangeable-axis middle
+  collar, with three through six of axes 2..7 in q=[13/5,15], strictly
+  positive in [3.5170985117e-15,3.9264569510e-15]. Which
+  correlation-preserving construction can now control genuinely new
+  complement: the next fixed-axis middle band above q=15, a projective
+  far-tail composition beyond q=2304, or a consuming far-shape a/c derivative
+  atlas? Do not repeat K269, K268, K267, K266 or the K265 binary partition,
+  use pointwise S6 representative compression, resume q17, or infer the full
+  K218 integral.
 
   K257 proves that one full-dimensional negative K218 box carries more
   product-cosh mass than K247's complete positive q<=15 prefix, so legal
@@ -8962,20 +8981,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K268 as the active K218 middle-collar result. Full enumeration of all
-  945 boxes, signed degree-nine moment integration and complete
-  degree-ten-and-higher tails certify the second exchangeable-axis middle
-  collar positive with normalized lower above 1.0e-16. One fixed-status block
-  is negative; only the complete signed composition is certified positive.
-  K230 applies only after integration over complete S6-invariant unions; do
-  not replace an enumerated union by one pointwise representative. Do not
-  repeat K268, K267, K266, the K265 binary partition, pair-subset search,
-  inactive subdivision or K261--K267 Taylor certificates. The next K218 step
-  must control genuinely new complement through three-or-more middle
-  exchangeable axes, a fixed-axis band above q=15, projective far-tail
-  composition, or a consuming far-shape derivative atlas. Do not resume q17
-  or infer the full K218 integral, complete order-six error, K215 impossibility,
-  physics result or source verdict.
+  Treat K269 as the active K218 middle-collar result. Full enumeration of all
+  890 boxes, signed degree-nine moment integration and complete
+  degree-ten-and-higher tails certify their complete composition positive with
+  normalized lower above 1.0e-15. The count-six stratum alone remains
+  sign-inconclusive; do not claim positivity for every stratum. K230 applies
+  only after integration over complete S6-invariant unions; do not replace an
+  enumerated union by one pointwise representative. Do not repeat K269, K268,
+  K267, K266, the K265 binary partition, pair-subset search, inactive
+  subdivision or K261--K268 Taylor certificates. The next K218 step must
+  control genuinely new complement through a fixed-axis band above q=15,
+  projective far-tail composition, or a consuming far-shape derivative atlas.
+  Do not resume q17 or infer the full K218 integral, complete order-six error,
+  K215 impossibility, physics result or source verdict.
 
   Treat K257 as the active K218 farther-region result. Its declared
   eight-dimensional q-box is strictly negative cell by cell and its rigorous

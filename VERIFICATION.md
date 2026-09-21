@@ -7,6 +7,39 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K269 three-through-six exchangeable-axis middle collar (2026-09-21)
+
+K269 controls the complete remaining adjacent exchangeable-axis middle collar
+of K218. Between three and six of axes `2..7` lie in q=`[13/5,15]`; every
+other coordinate uses the established low or high interval; and at least one
+non-middle coordinate is high. The four middle-count strata contain 620, 225,
+42 and 3 boxes, for 890 pairwise-disjoint boxes outside the interiors of K247,
+K265, K266, K267 and K268.
+
+K230 licenses its retained rational-function representative only after
+integration over a complete S6-invariant domain. K269 therefore enumerates
+every box in all four strata and all separately typed fixed-axis blocks. Exact
+FLINT recurrences compile signed heads through total degree nine, exact
+product-cosh centered moments integrate those heads, and complete-homogeneous
+geometric majorants bound every term of degree ten and higher. The signed
+complete union is strictly positive in the normalized interval
+`[3.517098511735e-15,3.926456950993e-15]`, with conservative declared lower
+`1.0e-15`. The count-six stratum alone has an exact interval that straddles
+zero, so K269 makes no claim that every middle-count stratum is positive.
+
+An independent reverse-order raw-allocation replay recompiles all 890 boxes,
+reproduces every polynomial hash, independently reconstructs all moments and
+rational tails, and replays directed normalization. Two- and three-point
+product quadratures are computed by middle-count stratum and their aggregate
+lies inside the exact complete-union interval. Absolute-weight and
+wrong-measure mutations differ as required; the dominant-stratum deletion
+control also passes.
+
+K269 controls only this declared three-through-six exchangeable-axis collar.
+It does not control the fixed-axis middle region above q=`15`, q>`2304`, the
+full K218 integral, the complete original order-six error, K215, source,
+physics-ledger, canon, paper, public-posture or physical-positivity status.
+
 ## K268 two-exchangeable-axis middle collar (2026-09-21)
 
 K268 controls the complete second exchangeable-axis middle collar of K218.
