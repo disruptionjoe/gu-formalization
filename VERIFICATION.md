@@ -7,6 +7,32 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K278 full-domain Gram positivity (2026-09-21)
+
+K278 proves the sign of the complete K218 order-six scalar without extending
+the finite-cube computation. An exact entry trace shows that K185 preserves
+the group, left path, right path and coefficient product of every one of
+K184's 234 unique coherent Gram entries. Its determinant expansion contains
+all 1,864 Leibniz terms; restoring off-diagonal multiplicity yields exactly
+the 2,928 ordered terms used by K218.
+
+The equality chain is finite and exact. K184 assembles the full object as the
+sum of eighteen coherent output-group Hilbert norm squares. K185 expands the
+species determinants with the normalized-wedge factorials canceled. K185's
+absolute controls and K218's positive radial/simplex changes of variables
+preserve the integral and permit reassembly. Every group has a certified
+positive-measure local witness with strictly positive norm-squared lower. The
+sum of those conservative witnesses is
+`4.188726504117970533861167897643613085462580367515119245539396497540573174E-81`,
+so the complete scalar is strictly positive.
+
+The producer and independent reverse replay each reject five hostile
+mutations. The theorem closes the full-sign question and sign-only collar
+work. It does not compute an accurate complete value, a coefficient-complete
+base action column, complete shifted residual, integral-to-residual map norm,
+K152 spectral tuple or decision margin. Source rows, the physics ledger,
+canon, papers, public posture and physical interpretation are unchanged.
+
 ## K277 GU reassessment integration and consumer-first rerank (2026-09-21)
 
 K277 completes R9 and integrates all nine GU-REASSESS-20260921 acceptance

@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "target_claim": "INTERNAL_TARGET:K218_FULL_DOMAIN_SIGN",
+  "direction": "observed_to_native",
+  "input_sha256": {
+    "k184": "5d4e4eb5e29b49040dd02f195a77e179a302211076fc6b535a82051b5a6cdb57",
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47"
+  },
+  "exact_trace": {
+    "groups": [
+      "seed=0|d=0|1+^1,1-^1,2+^2,2-^2",
+      "seed=0|d=0|1+^2,1-^2,2+^1,2-^1",
+      "seed=0|d=0|1+^3,1-^3",
+      "seed=0|d=0|2+^3,2-^3",
+      "seed=1|d=1|1+^1,1-^1,2+^2,2-^2",
+      "seed=1|d=1|1+^2,1-^2,2+^1,2-^1",
+      "seed=1|d=1|1+^3,1-^3",
+      "seed=1|d=1|2+^3,2-^3",
+      "seed=1|d=2|1+^1,2+^2,2-^3",
+      "seed=1|d=2|1+^2,1-^1,2+^1,2-^2",
+      "seed=1|d=2|1+^3,1-^2,2-^1",
+      "seed=2|d=1|1+^1,1-^2,2+^2,2-^1",
+      "seed=2|d=1|1+^2,1-^3,2+^1",
+      "seed=2|d=1|1-^1,2+^3,2-^2",
+      "seed=2|d=2|1+^1,1-^1,2+^2,2-^2",
+      "seed=2|d=2|1+^2,1-^2,2+^1,2-^1",
+      "seed=2|d=2|1+^3,1-^3",
+      "seed=2|d=2|2+^3,2-^3"
+    ],
+    "gram_entries": 234,
+    "leibniz_terms": 1864,
+    "ordered_terms": 2928,
+    "strict_group_witnesses": 18,
+    "sum_of_certified_group_lowers": "4.188726504117970533861167897643613085462580367515119245539396497540573174E-81",
+    "gram_trace_sha256": "296457d41912836c94ca9d7a1a2ce1951184fe2b1d64bfe528d1ea6b19def682"
+  },
+  "theorem": {
+    "identity": "The complete K218 order-six scalar equals the sum over the eighteen K184 coherent output groups of the corresponding Hilbert-space norm squared.",
+    "strictness": "Every group has a certified positive-measure local witness with strictly positive norm-squared lower bound, hence the complete scalar is strictly positive.",
+    "equality_chain": [
+      "K184 supplies all 234 unique self/cross Gram entries with coherent coefficients and canceled wedge factorials.",
+      "K185 preserves every group, left path, right path and coefficient product while exactly expanding the species determinants into 1864 Leibniz terms.",
+      "Restoring off-diagonal multiplicity gives exactly 2928 ordered terms.",
+      "K185 absolute integrability and K218's exact positive radial/simplex changes of variables preserve the full integral and permit the finite reassembly."
+    ],
+    "strict_lower_witness": "4.188726504117970533861167897643613085462580367515119245539396497540573174E-81",
+    "verdict": "STRICTLY_POSITIVE_BY_EXACT_GRAM_REASSEMBLY"
+  },
+  "controls": {
+    "producer_checks": 16,
+    "hostile_mutations_rejected": 5,
+    "independent_probe": "tests/channel-swings/k278_order_six_full_domain_gram_positivity_probe.py"
+  },
+  "consumer_effect": {
+    "closed": [
+      "full K218 sign",
+      "sign-only middle-box or collar expansion"
+    ],
+    "still_open": [
+      "decision-grade numerical K218 enclosure",
+      "coefficient-complete base action column",
+      "complete shifted form-dual residual",
+      "order-six-integral-to-residual propagation map norm",
+      "native K152 spectral tuple and decision margin"
+    ],
+    "next_rank_one": "Populate the complete native K152 consumer tuple and action-column-to-residual map; invoke K274/K275 only for the smallest finite cube demanded by an instantiated margin."
+  },
+  "source_routing": "SC-ACT-01/02/06 remain ASSERTS; SC-META-53 remains UNCERTAIN; LT-SM8/LT-GR6b/RA-F1/AC-F1 remain NEEDS.",
+  "ledger_effect": "none",
+  "canon_paper_release_or_public_posture_move": false,
+  "physical_or_source_selection": false,
+  "claim_ceiling": "Strict sign only. The witness sum is a conservative nonzero certificate, not an accurate complete order-six value, K152 error budget, source-derived action coefficient, physical prediction, or ledger-grade result."
+}
