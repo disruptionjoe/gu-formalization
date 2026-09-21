@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-21",
+  "revision_basis": "96df476899c64af276a8280e55e2d61ac5b9cb15",
+  "workset_item": "R8",
+  "source_claim": "SC-ACT-06",
+  "disposition": "R8_CONCLUDED_AT_EXACT_SOURCE_DATA_OBSTRUCTION",
+  "source_assertion": "The first-order equation Upsilon=0 is asserted to carry an elliptic deformation complex in Euclidean signature after redundant Euler-Lagrange equations are discarded.",
+  "background_attempt": {
+    "candidate": "local Euclidean flat-zero germ with constant positive metric, epsilon constant, B=varpi=0, T=0, curvature=0 and all fermions zero",
+    "printed_equations": {
+      "Upsilon_B": "zero conditionally on the flat distinguished connection",
+      "Upsilon_F": "zero by bilinearity at zero fermions",
+      "Xi_equals_D_Upsilon": "zero",
+      "I2B_gradient": "zero because Upsilon_B is zero",
+      "boundary": "compactly supported local variations"
+    },
+    "construction_result": "FORMAL_LOCAL_COMPARATOR_ONLY__SOURCE_LEGALITY_NOT_CERTIFIED",
+    "first_exact_stop": "The checked source does not provide a Euclidean distinguished B(epsilon) and moving Y=Met(X) coefficient packet, or a signature-continuation rule proving that the flat comparator is a legal solution of every first-order owner equation.",
+    "not_reused": "The older nonzero K77 branch is Lorentzian, frozen-frame and native-B/Y type-missing; it is not the Euclidean background required by SC-ACT-06."
+  },
+  "exact_symbol_attempt": {
+    "dimension": 14,
+    "covector_scope": "nonzero Euclidean covectors",
+    "source_determined_skeleton": "per internal generator, the connection gauge symbol is exterior multiplication xi wedge from Lambda^0 to Lambda^1; the curvature/Bianchi skeleton is xi wedge from Lambda^1 to Lambda^2 to Lambda^3",
+    "full_koszul_dimensions": [1, 14, 91, 364],
+    "full_koszul_ranks": [1, 13, 78],
+    "generic_covector_ranks": [1, 13, 78],
+    "compositions": ["L_full K=0", "W_full L_full=0"],
+    "full_koszul_exact_at_lambda_1": true,
+    "full_koszul_exact_at_lambda_2": true,
+    "status": "EXACT_COMPARATOR__NOT_THE_UNPRINTED_FULL_GU_EULER_COMPLEX",
+    "reduced_exact_rows": 13,
+    "reduced_exact_middle_cohomology": 0,
+    "reduced_short_rows": 12,
+    "reduced_short_middle_cohomology": 1,
+    "row_choice_result": "At xi=e0, retaining all thirteen transverse curvature rows gives an exact reduced gauge/Euler symbol; retaining only twelve still obeys L K=0 but leaves one middle class. The phrase discard redundant Euler-Lagrange equations does not choose between them."
+  },
+  "missing_source_datum": {
+    "euclidean_background_required": true,
+    "full_euclidean_linearization_required": true,
+    "row_projector_required": true,
+    "gauge_domain_required": true,
+    "redundancy_target_required": true,
+    "precise_object": "A source-owned Euclidean stationary tuple Phi_E, the complete principal linearization sigma(D Upsilon_total)|Phi_E on every independently varied field, the principal gauge map sigma(K_total), the principal redundancy map sigma(W_total), and the explicit projector or quotient selecting the independent Euler rows."
+  },
+  "invariants_across_admissible_choices": [
+    "SC-ACT-06 remains an ASSERTS source row rather than a proved theorem.",
+    "A nonzero Euclidean covector has no Lorentzian null-cone exception.",
+    "Gauge covariance forces the connection curvature skeleton L K=0.",
+    "The full exterior Koszul skeleton is exact for every nonzero Euclidean covector.",
+    "Ellipticity of the complete GU deformation complex is not invariant under unspecified Euler-row deletion or unspecified extra field blocks.",
+    "Lorentzian K77 characteristic and Jordan defects neither prove nor refute the Euclidean claim."
+  ],
+  "hostile_controls": [
+    "zero covector rejected as an ellipticity test",
+    "one transverse Euler row deleted to produce exact middle cohomology dimension one",
+    "Lorentzian K77 defects excluded",
+    "source status and public posture held fixed"
+  ],
+  "input_hashes": {
+    "source_claim_register": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6",
+    "primary_source_pack": "7b37925b0342c9495dc1706a39c0f2e9569e64a1352a3221814a2b0c9b9c2999",
+    "tautological_background_json": "4d072880c8019b50943b3a45158c0ad8d03d75b28599a4d2e46fc8e5c0a02b7e",
+    "tautological_background_report": "d956ce781b949769c8156fea8a9eb41615e59bc3ee792feff81e4e2d330b17eb"
+  },
+  "lorentzian_k77_defects_used": false,
+  "source_status_changes": "NONE",
+  "ledger_or_public_changes": "NONE",
+  "conclusion": "The direct Euclidean attempt reaches a precise construction obstruction before a source-owned full symbol exists. The exact connection/Koszul skeleton is healthy, so no Euclidean no-go follows. But exact and nonexact reduced row choices are both compatible with the printed assertion, proving that the missing background, full-field linearization and independent-row projector are decision-relevant. R8 is substantively concluded without promoting or refuting SC-ACT-06."
+}

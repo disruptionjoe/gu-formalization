@@ -7,6 +7,46 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K276 SC-ACT-06 Euclidean principal-complex data gate (2026-09-21)
+
+K276 directly attempts R8 without using any Lorentzian K77 characteristic or
+Jordan defect. The strongest flat Euclidean local-germ comparator takes a
+constant positive metric and constant epsilon with `B=varpi=T=F=0` and all
+fermions zero. On that formal tuple the printed bosonic and fermionic
+residuals vanish, `Xi=D Upsilon` vanishes, and the bosonic residual-square
+gradient vanishes under compactly supported variations. The attempt stops
+before promoting this to a legal GU background: the checked source does not
+provide the Euclidean distinguished `B(epsilon)`/moving-`Y=Met(X)` coefficient
+packet or a signature-continuation rule proving that every first-order owner
+equation is satisfied.
+
+The exact source-determined connection skeleton can nevertheless be tested.
+Per internal generator in dimension fourteen, exterior multiplication by a
+nonzero Euclidean covector gives
+
+`Lambda^0 --K--> Lambda^1 --L--> Lambda^2 --W--> Lambda^3`
+
+with dimensions `1,14,91,364`, ranks `1,13,78`, both compositions zero, and
+exactness at `Lambda^1` and `Lambda^2`. A reversed-basis modular replay
+reproduces those ranks at an independent covector. This is a healthy Koszul
+comparator, not the unprinted complete GU Euler complex.
+
+The missing datum is decision-relevant. At `xi=e0`, retaining all thirteen
+transverse curvature rows gives an exact reduced gauge/Euler symbol. Retaining
+only twelve still satisfies `L K=0` but leaves one middle cohomology class.
+Both are compatible with the bare instruction to discard redundant Euler-
+Lagrange equations. Therefore the actual test requires a source-owned
+Euclidean stationary tuple, the complete full-field principal linearization,
+the total gauge and redundancy symbols, and the explicit projector or quotient
+selecting independent Euler rows.
+
+The producer passes `9/9` exact and `4/4` hostile checks; the independent
+reverse-basis replay passes `8/8` exact and `4/4` hostile checks. The result is
+neither an ellipticity proof nor a Euclidean no-go. It substantively concludes
+R8 at a precise construction obstruction while preserving SC-ACT-06 as
+`ASSERTS`, SC-SIG-53 as `UNCERTAIN`, and all ledger, canon, paper, public and
+physical-cohomology statuses.
+
 ## K275 complete mixed-scaling exterior theorem (2026-09-21)
 
 K275 analyzes every mixed asymptotic face of the complete 1,864-term K218

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dcaefa6f4fefd884a7dc9ecac8598195a3edb697
+revision_basis: 96df476899c64af276a8280e55e2d61ac5b9cb15
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K276 concludes R8 of GU-REASSESS-20260921 at an exact source-data
+    obstruction. A concrete Euclidean flat-zero local-germ attempt makes the
+    printed bosonic and fermionic residuals, Xi redundancy and bosonic
+    residual-square gradient vanish, but the checked source does not provide
+    the Euclidean distinguished B(epsilon)/Y coefficient packet or signature-
+    continuation rule needed to certify that comparator as a legal complete
+    first-order background. On the source-determined connection skeleton, the
+    14-dimensional exterior-symbol ranks are exactly 1,13,78 at every tested
+    nonzero Euclidean covector, with both compositions zero and the full
+    Koszul complex exact. That healthy skeleton is not the unprinted full GU
+    Euler complex. At xi=e0, keeping all thirteen transverse curvature rows
+    gives an exact reduced gauge/Euler symbol, while keeping twelve still
+    obeys gauge composition but leaves one middle cohomology class. Thus the
+    source's instruction to discard redundant Euler rows does not determine
+    ellipticity: the missing decision-relevant datum is the legal Euclidean
+    stationary tuple, complete full-field linearization, gauge/redundancy
+    symbols and explicit independent-row projector. Lorentzian K77 defects
+    were not used. SC-ACT-06 remains ASSERTS; R9 integration is next.
+
     K275 concludes R7b of GU-REASSESS-20260921 with a complete mixed-scaling
     exterior theorem for the 1,864-term signed K218 assembly. For every term
     and each of the 255 nonempty axis faces, the exact asymptotic margin is the
@@ -8252,6 +8271,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/k276-sc-act-06-euclidean-principal-complex-data-gate.json
+    - tests/channel-swings/k276_sc_act_06_euclidean_principal_complex_data_gate.py
+    - tests/channel-swings/k276_sc_act_06_euclidean_principal_complex_data_gate_probe.py
     - lab/process/k275-order-six-mixed-scaling-worst-sector-tail.json
     - tests/channel-swings/k275_order_six_mixed_scaling_worst_sector_tail.py
     - tests/channel-swings/k275_order_six_mixed_scaling_worst_sector_tail_probe.py
@@ -8893,16 +8915,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K275 completes R7b: all mixed-scaling faces are integrable termwise and the
-  exact sector theorem reduces K215's sufficient complete-tail cutoff from
-  m=215 to m=184. The worst singleton exchangeable-coordinate faces have
-  nonzero exact generic leading coefficients, so no universal signed margin
-  improvement follows. The theorem controls only the extreme exterior; it
-  does not integrate the finite cube or determine the full K218 sign. Execute
-  R8 next as a bounded source-native SC-ACT-06 Euclidean principal-complex
-  attempt, with an actual legal background, full gauge/Euler/redundancy symbol
-  and exactness test or precise construction obstruction. Lorentzian K77
-  defects are not this test. Do not resume routine collars before R9.
+  K276 completes R8 after a concrete Euclidean flat-zero germ and principal-
+  symbol attempt. The source-determined 14-dimensional connection/Koszul
+  skeleton is exact at nonzero Euclidean covectors, so there is no Euclidean
+  no-go. But the source does not certify the comparator as a complete legal
+  B(epsilon)/Y background and does not publish the full-field Euler symbol or
+  the projector selecting independent rows. Exact thirteen-row and nonexact
+  twelve-row reductions both obey the printed gauge composition, proving that
+  the missing choice is decision-relevant. Execute R9 now: integrate R1--R8,
+  rerank the whole portfolio, and either execute the largest ready follow-
+  through or state the exact dependency that prevents it. Routine collars
+  remain suspended until that decision.
 
   K270 proves the sharper conditional K152 spectral certificate and resolves
   that K215's 1e-21 is not a full-value or downstream-error target. No native
@@ -9135,18 +9158,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K275 as the active R7b result and K274 as its complementary R7a input.
-  K275's all-face Hall-surplus certificate proves a complete normalized
-  extreme-exterior bound and lowers the conservative 1e-21 sufficient dyadic
-  cutoff to m=184, but its generic singleton-face controls prevent claiming a
-  stronger signed rate. K274 removes one coordinate exactly but does not bound
-  the remaining seven-dimensional integral. Carry both debts to R9; neither
-  licenses the full sign or routine expansion. Execute R8 next on SC-ACT-06:
-  construct one source-admissible stationary Euclidean background and the full
-  gauge/Euler/redundancy principal complex, then test exactness at a nonzero
-  covector or identify the exact missing source datum after a concrete attempt.
-  Do not substitute a Lorentzian K77 defect. Routine K218 expansion remains
-  suspended until R9 integrates R1--R8.
+  Treat K276 as the active R8 result. Its exact full exterior-symbol comparator
+  proves that the connection/Koszul skeleton itself can be Euclidean elliptic,
+  while the thirteen-versus-twelve-row witness proves that the unprinted
+  independent-Euler projector and complete full-field linearization determine
+  the actual verdict. Preserve SC-ACT-06 as ASSERTS and SC-SIG-53 as UNCERTAIN;
+  do not import Lorentzian K77 defects. Carry K274's exact dimension reduction
+  and K275's m=184 extreme-exterior theorem into R9 alongside the unresolved
+  finite cube/full sign. Integrate R1--R8, eliminate rejected computations,
+  choose the largest useful ready successor and decide explicitly whether any
+  further K218 region serves an actual consumer budget.
 
   Treat K270 as the active K152 consumer/certificate result. Its sharp bound
   is conditional on the exact ground-plus-exterior spectral support, shifted
