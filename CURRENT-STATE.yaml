@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K271 concludes R4 of GU-REASSESS-20260921 without compiling a new box or
+    changing a stored head, tail or prior certificate. K265 through K269 share
+    the positive normalization N(pi)=2^8*256^6/(5!*pi^8). Their verified raw
+    intervals are added symbolically first. Machin's identity
+    pi=16 atan(1/5)-4 atan(1/239), with exact alternating rational remainder
+    endpoints, encloses pi to width 5.548459993514299e-61. The five-region raw
+    sum is
+    [6.718689739492616317367110e-26,6.721164168220784638806785e-26],
+    and one directed common normalization gives
+    [4.251910516102571932976869e-15,4.253476453798548906237141e-15].
+    The width is 1.565937695976973260272195e-18, versus
+    4.938073666750796379715895e-16 for the sum of published coarse-normalized
+    intervals, a factor 315.342920694554 smaller. A longer independent Machin
+    replay nests strictly inside every recorded result and reproduces all
+    source, raw, width and normalized endpoint hashes. Only the already
+    certified K265--K269 regions are re-enclosed; the omitted K218 complement,
+    complete order-six error and K270's absent native consumer inputs remain
+    uncontrolled. R5 symmetry compression is next; routine collar expansion
+    stays suspended until R9. Source, ledger, canon and public posture do not
+    move.
+
     K270 concludes the consumer/certificate stream R1--R3 of the approved
     GU-REASSESS-20260921 workset. The actual conditional downstream consumer
     is K152's ground-energy enclosure and optional ground-eigenspace
@@ -8165,6 +8186,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/k271-tight-common-pi-normalization-reenclosure.json
+    - tests/channel-swings/k271_tight_common_pi_normalization_reenclosure.py
+    - tests/channel-swings/k271_tight_common_pi_normalization_reenclosure_probe.py
     - lab/process/k270-k152-sharp-spectral-budget-certificate.json
     - tests/channel-swings/k270_k152_sharp_spectral_budget_certificate.py
     - tests/channel-swings/k270_k152_sharp_spectral_budget_certificate_probe.py
@@ -8791,6 +8815,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K271 completes R4: tight common normalization removes most of the published
+  interval width without a new box, but it does not touch the uncomputed K218
+  complement or instantiate K270's missing consumer map. Execute R5 next on a
+  completed S6 orbit: reproduce one full orbit integral and complete remainder
+  through correctly projected invariant moments, verify a held-out orbit
+  independently, and compare actual coefficient work and enclosure width with
+  full enumeration. Do not infer a speedup from the 23 K267 orbit types alone,
+  expand the 720-image Reynolds average naively, or resume routine collars
+  before R9.
+
   K270 proves the sharper conditional K152 spectral certificate and resolves
   that K215's 1e-21 is not a full-value or downstream-error target. No native
   K152 margin or order-six-to-residual map is serialized. Under the active
@@ -9022,6 +9056,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K271 as the active re-enclosure result. Its tight interval controls
+  only the common sum of the already certified K265--K269 raw regions; no
+  complement has been integrated. Execute R5 as a bounded costed pilot on one
+  completed S6 box orbit and one held-out orbit. Use projected invariant
+  moments, reproduce the full-orbit integral and remainder, and report exact
+  coefficient/algebra work plus enclosure width relative to enumeration.
+  Reject any implementation that expands more work than it saves. Consume
+  K270's conditional budget only as an interpretation test, not as a native
+  numerical target. Do not resume routine K218 expansion before R9.
+
   Treat K270 as the active K152 consumer/certificate result. Its sharp bound
   is conditional on the exact ground-plus-exterior spectral support, shifted
   positivity, complete residual and exterior gap; the forbidden-gap control

@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K271-TIGHT-COMMON-PI-NORMALIZATION-REENCLOSURE",
+  "created": "2026-09-21",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "workset_id": "GU-REASSESS-20260921",
+  "reassessment_disposition": {
+    "R4": {
+      "state": "concluded",
+      "new_boxes_compiled": false,
+      "finding": "The verified K265--K269 raw intervals share one positive normalization factor. Exact common symbolic composition plus a Machin-series pi enclosure reduces the summed published width from 4.938073666750796379715895e-16 to 1.565937695976973260272195e-18, a factor 315.3429206945542214799771, without changing any raw head or tail.",
+      "limit": "Only the five already completed pairwise-disjoint regions are re-enclosed; no omitted K218 complement is integrated or bounded."
+    }
+  },
+  "certificate": {
+    "machin_pi": {
+      "identity": "pi=16*atan(1/5)-4*atan(1/239)",
+      "atan_1_over_5_last_term": 50,
+      "atan_1_over_239_last_term": 12,
+      "endpoint_rule": "odd partial is lower; preceding even partial is upper; subtraction reverses the atan(1/239) endpoints",
+      "lower": "5662065298733471217574576933224984312276607059396654106348718233130102557850601896014587476732921682328196918733165769222715704095517595482024229606833875362665324412/1802291360805041951195359757319043891068687618165890051731233968324445294701300391905235312878422526398784221324740483055853838834092783827145467512309551239013671875",
+      "upper": "250288245641743226210602173568268857136577315260176670900903626750910186439069080293073827139475490723105360267445307888201523772456064797556369823282356694553961472/79669222983363927920874693846931703313114900577176036494833174664645653422047644291253990039005214879937854008945391707358606170341630559050827287137508392333984375",
+      "width_decimal": "5.548459993514299436898460e-61"
+    },
+    "common_normalization": {
+      "symbolic": "2^8*256^6/(5!*pi^8)",
+      "constant_without_pi": "9007199254740992/15",
+      "factor_lower_decimal": "6.328481714388062766459850e+10",
+      "factor_upper_decimal": "6.328481714388062766459850e+10",
+      "factor_lower_exact_sha256": "f759f37de46b90f15497e14d3d87ecd9f780982d137e939cd505f5faea812a1b",
+      "factor_upper_exact_sha256": "44afc8408a00e9f64168280e774246f60b19a6cdd04b28bba505db41361d2ec8"
+    },
+    "per_result": {
+      "K265": {
+        "source": "lab/process/k265-order-nine-complete-binary-low-high-union.json",
+        "source_sha256": "e935e53ff5c30f4e0ddbbd5fbd75fe8a68e3cf030d683e761f1168843d3b4f4f",
+        "raw_interval_exact_sha256": "7dfec6416956d70cf1044ddba3addd8672dc35a4350d22438d3438b3ce5566d0",
+        "published_coarse_width_decimal": "8.529764393796586853599977e-19",
+        "published_coarse_width_exact_sha256": "c1e71d91ca7855687bc91a439abc4c7b75a51220f8a0249f44294c6cdd4a35c2",
+        "tight_normalized": {
+          "lower_decimal": "6.779972626879538602407175e-18",
+          "upper_decimal": "6.841404261854891216479332e-18",
+          "lower_exact_sha256": "7485faa587a3410c026d6df80d9522913a8b9578fecc3be918fa570dd0e10999",
+          "upper_exact_sha256": "46eb22632569f8113a295b2bd123c6f14618b27474133518fa6b0218236ef918",
+          "width_decimal": "6.143163497535261407215739e-20",
+          "width_exact_sha256": "6dfac094371e8f2ca2c6cdf9fe2fbcd7b0d5861656f14020ca8f44caa0ce716e"
+        },
+        "width_reduction_factor_decimal": "1.388497049967637865836114e+1"
+      },
+      "K266": {
+        "source": "lab/process/k266-order-nine-first-fixed-axis-middle-collar.json",
+        "source_sha256": "456289f99c8446a771fa64f2f4c81dd78b755f830a8520cce407b1241b74e7e9",
+        "raw_interval_exact_sha256": "7b3760d2b51dfe17112d1744f352b8fac0cb33eafab1a4bea52ce8301ed43ce5",
+        "published_coarse_width_decimal": "2.828040815813452450399465e-19",
+        "published_coarse_width_exact_sha256": "c489d04103b23eb14854bc3b164632df2dc35c7aafc94b920aae8bc29dfdcf79",
+        "tight_normalized": {
+          "lower_decimal": "2.231266793601962203314702e-18",
+          "upper_decimal": "2.253364464433442718105605e-18",
+          "lower_exact_sha256": "d36e98ca7a6fcc2d91b45d7b0a64e04c70bc03ff21d4e96894f07032563e82d9",
+          "upper_exact_sha256": "de74495eaeac4a88b68c4ece80beb769ccd09da5670dc9d12e1ffe1916a99e4f",
+          "width_decimal": "2.209767083148051479090256e-20",
+          "width_exact_sha256": "8c7212f16a3b4fe6180746cb93ab873f7f2a4ccedc5b230c616665f4ff33230b"
+        },
+        "width_reduction_factor_decimal": "1.279791357822473929460248e+1"
+      },
+      "K267": {
+        "source": "lab/process/k267-order-nine-exchangeable-axis-middle-collar.json",
+        "source_sha256": "18881f4c2ad39ec81785ee51170a8192a69e48708433fa2ef922ae27a6443378",
+        "raw_interval_exact_sha256": "298d95ae5ea9bc5be6723cab4a6106d08509c30b030439c8a0f1a6e45d8a844f",
+        "published_coarse_width_decimal": "1.242825361510417919966034e-17",
+        "published_coarse_width_exact_sha256": "050c43b114d640ae7b78076dc2c2af65e6e60875a94076f7870ad36a6b0205df",
+        "tight_normalized": {
+          "lower_decimal": "1.055182315384386681557257e-16",
+          "upper_decimal": "1.057131381115092679556560e-16",
+          "lower_exact_sha256": "786caddb2a65b65aa7e1d94977c0ce0deeaa98294c52e210b77991731cb4b423",
+          "upper_exact_sha256": "6e411987e8c8253480ee75f9145de238b0a860a77e30100d9c14b2724fb92a6d",
+          "width_decimal": "1.949065730705997999302335e-19",
+          "width_exact_sha256": "6f8f93049aff6914c866e76cb56804e78dcfaea0cdd712688b187c54df1d58ad"
+        },
+        "width_reduction_factor_decimal": "6.376518461797781403255553e+1"
+      },
+      "K268": {
+        "source": "lab/process/k268-order-nine-two-exchangeable-axis-middle-collar.json",
+        "source_sha256": "aff8bdc5d964a9513c69e2971b106ceafce6d6e1f5d4b54883889499d09de91d",
+        "raw_interval_exact_sha256": "a8f632b9be7ce447827eac1d004073c8d02262315f4f7160cad47d59a7f5fe88",
+        "published_coarse_width_decimal": "7.088489328026513877166915e-17",
+        "published_coarse_width_exact_sha256": "14b681c981ecc83fb7618c63075df5a9fc51ba26b373a731f82ddb1074737ecb",
+        "tight_normalized": {
+          "lower_decimal": "6.089415251259046187362257e-16",
+          "upper_decimal": "6.093130158165667368906567e-16",
+          "lower_exact_sha256": "d9cd0b61ec9ff2515054499b20937c548b65033bf4979dd3f8595fda433f31d0",
+          "upper_exact_sha256": "47433889f9e543ecd85118de16f1be0ff811c3e0c9d0004fdca10ba9eb372de2",
+          "width_decimal": "3.714906906621181544310312e-19",
+          "width_exact_sha256": "32240b7c3e141dcf5df59d940b76747611077d36694ccd88fc5859e36719b404"
+        },
+        "width_reduction_factor_decimal": "1.908120312622774713117407e+2"
+      },
+      "K269": {
+        "source": "lab/process/k269-order-nine-three-plus-exchangeable-axis-middle-collar.json",
+        "source_sha256": "c0c8e0b0d26e769985e16347524a06c6c0b0af38175b6ecc7f5e408b54638567",
+        "raw_interval_exact_sha256": "49044bca8e99166cb49985829ada72e55bbfc7117cb317081c7dce9e77d35589",
+        "published_coarse_width_decimal": "4.093584392587493160698600e-16",
+        "published_coarse_width_exact_sha256": "2b7d0b02ba3f018d6c475530300b766c26e26688e093a08e9345ef39f231af96",
+        "tight_normalized": {
+          "lower_decimal": "3.528439520017747145279196e-15",
+          "upper_decimal": "3.529355531144184567456243e-15",
+          "lower_exact_sha256": "59cd0db86852ada58461868300857152917c607d7c62b8df0101231af5c90adc",
+          "upper_exact_sha256": "121e49a1ccb20a8ff04e77e9f7c3d19f7365b3bad64ca79164f8efab8ac52352",
+          "width_decimal": "9.160111264374221770478699e-19",
+          "width_exact_sha256": "468b1e527c1cc45e1b29b4bdea3b7a9782fc70ba3903b62a2500f24f1191ef6c"
+        },
+        "width_reduction_factor_decimal": "4.468924311551087600302543e+2"
+      }
+    },
+    "common_sum": {
+      "members": ["K265", "K266", "K267", "K268", "K269"],
+      "raw_symbolic_sum": {
+        "lower_decimal": "6.718689739492616317367110e-26",
+        "upper_decimal": "6.721164168220784638806785e-26",
+        "lower_exact_sha256": "14ee55d28850bb23e9a610e4b7de42ed8f2ca94e5f7df48925e8f09cf653c53a",
+        "upper_exact_sha256": "c9dff4271e362c67516d81151302126cdd48bce90f4bf86404a3bdd33fcabd7f",
+        "width_decimal": "2.474428728168321439675605e-29",
+        "width_exact_sha256": "eaba01c64f313670dc62bc292417b2b3be09d22c9f8f2ccc90211cc306c4d4cb"
+      },
+      "published_coarse_sum_width_decimal": "4.938073666750796379715895e-16",
+      "published_coarse_sum_width_exact_sha256": "ab1b27a0af230c9c76e94518d75efb1dd7997585767c3e89c5f06a56db546eec",
+      "tight_common_normalized": {
+        "lower_decimal": "4.251910516102571932976869e-15",
+        "upper_decimal": "4.253476453798548906237141e-15",
+        "lower_exact_sha256": "4bae341f7e0b4714fa6730e2ab6daf06040fe5beff9e868fb78d6cfa2c9991a0",
+        "upper_exact_sha256": "f236ba06140bc1dbd276c7181e5e9e5a4f80a69b90291e496103ef6a9e3c65ce",
+        "width_decimal": "1.565937695976973260272195e-18",
+        "width_exact_sha256": "149ff9f4ece6641cc3587dd0ef23c106931d60a219b7c0e15789ffdbc6bfa2e4"
+      },
+      "width_reduction_factor_decimal": "3.153429206945542214799771e+2"
+    }
+  },
+  "controls": {
+    "producer": "Exact Fraction parsing of each stored outward ball, exact source hashes, exact alternating Machin bounds, directed pi^-8 normalization and common symbolic sum.",
+    "independent": "Longer independent odd/even Machin truncations nest strictly inside the producer interval; every source/raw/width hash and normalized endpoint is replayed.",
+    "hostile": "Metadata mutations cannot convert re-enclosure into new boxes, complement control, native K152 input, physics, or public posture."
+  },
+  "boundaries": {
+    "uncomputed_K218_complement_controlled": false,
+    "full_K218_integral_sign": false,
+    "complete_order_six_error": false,
+    "K270_native_consumer_inputs_instantiated": false,
+    "source_claim_change": false,
+    "physics_ledger_change": false,
+    "canon_change": false,
+    "paper_or_public_posture_change": false
+  },
+  "next_condition": "Use K271's measured normalization savings and K270's consumer audit in R5: reproduce one completed S6 orbit integral and complete remainder through invariant moments, verify a held-out orbit independently, and compare actual algebraic work and width with full enumeration. Do not infer a speedup from 23 orbit types alone or resume routine collar expansion before R9.",
+  "claim_ceiling": "Exact tighter normalization only for the common symbolic sum of the already certified K265--K269 raw intervals. The summed enclosure is [4.251910516102571932976869e-15,4.253476453798548906237141e-15], and its width is 315.3429206945542214799771 times smaller than the sum of the published coarse-normalized widths. No raw interval, head, tail, box or prior certificate is changed. The remaining K218 complement, complete order-six error and K270's native consumer inputs remain uncontrolled; no source, ledger, canon, public, prediction or confirmation conclusion follows."
+}

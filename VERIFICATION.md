@@ -7,6 +7,46 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K271 tight common-pi normalization re-enclosure (2026-09-21)
+
+K271 reuses the verified outward raw intervals from K265 through K269 and
+compiles no new integration boxes. Those five pairwise-disjoint completed
+regions share the positive normalization
+
+`N(pi)=2^8*256^6/(5!*pi^8)`.
+
+Their raw interval endpoints are parsed as exact rationals from the stored
+outward balls and summed before `N(pi)` is applied. The resulting raw sum is
+
+`[6.718689739492616317367110e-26,6.721164168220784638806785e-26]`.
+
+The pi enclosure is proved without floating-point input from Machin's identity
+`pi=16 atan(1/5)-4 atan(1/239)`. Odd alternating partial sums are lower bounds;
+the preceding even sums are upper bounds; subtraction reverses the
+`atan(1/239)` endpoints. The resulting rational pi interval has width
+`5.548459993514299436898460e-61`. Directed application of `pi^-8` gives the
+tight common normalized interval
+
+`[4.251910516102571932976869e-15,4.253476453798548906237141e-15]`.
+
+Its width is `1.565937695976973260272195e-18`. The sum of the five previously
+published coarse-normalized interval widths is
+`4.938073666750796379715895e-16`, so K271 narrows that composed enclosure by
+the exact-computed factor `315.3429206945542214799771`. Individual width
+reductions range from about `12.80` times for K266 to `446.89` times for K269.
+A longer independent alternating-series truncation nests strictly inside the
+producer pi interval and every normalized result; it also reproduces all five
+source hashes, raw interval hashes, coarse width hashes and tight endpoint
+hashes.
+
+K271 changes no K265--K269 raw interval, head, tail, box or original
+certificate. Tighter normalization does not integrate the remaining K218
+complement, supply a complete order-six error or instantiate K270's absent
+native K152 consumer inputs. It changes no source, physics-ledger, canon, paper
+or public conclusion. The producer passes its exact replay and `4/4` hostile
+controls; the independent replay passes `44/44` exact and `8/8` hostile
+metadata controls.
+
 ## K270 K152 sharp spectral and consumer-budget certificate (2026-09-21)
 
 K270 independently proves the advisory K152 tightening from K152's precise
