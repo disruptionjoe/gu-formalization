@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-09-21",
+  "revision_basis": "ad0ccdd5777dfa715ea2abe04c295307c1ccbe55",
+  "workset": "GU-REASSESS-20260921",
+  "disposition": "R9_COMPLETE__CONSUMER_FIRST_RERANK_INSTALLED__ROUTINE_K218_EXPANSION_NOT_JUSTIFIED",
+  "reassessment_matrix": [
+    {"id": "R1", "state": "concluded", "evidence": "K270", "result": "conditional K152 energy/projection consumer identified; native inputs absent"},
+    {"id": "R2", "state": "concluded", "evidence": "K270", "result": "exact value-to-residual-to-decision inequality replaces the historical 1e-21 interpretation"},
+    {"id": "R3", "state": "concluded", "evidence": "K270", "result": "sharp spectral bound proved with equality and hostile support controls"},
+    {"id": "R4", "state": "concluded", "evidence": "K271", "result": "common pi^-8 reenclosure reduces completed-region width 315.342920694554-fold; complement unchanged"},
+    {"id": "R5", "state": "concluded", "evidence": "K272", "result": "invariant moments reduce repeated moment evaluation but not recurrence/tail work or interval width; total implementation rejected"},
+    {"id": "R6", "state": "concluded", "evidence": "K273", "result": "anisotropy factorization is cheaper but over 1e16 times wider and loses sign on the demanding case; implementation rejected"},
+    {"id": "R7a", "state": "concluded", "evidence": "K274", "result": "complete exact one-axis integration reduces 8D to 7D; uniform remaining bound absent"},
+    {"id": "R7b", "state": "concluded", "evidence": "K275", "result": "all-face exterior theorem gives sufficient m=184; finite cube and full sign remain open"},
+    {"id": "R8", "state": "concluded", "evidence": "K276", "result": "Euclidean Koszul skeleton exact; legal background, full symbol and independent-row projector remain source-missing"}
+  ],
+  "eliminated_computations": [
+    "Treating K215's 1e-21 auxiliary-tail allocation as a full-value or K152 decision target",
+    "Additional pi normalization work as a route to the uncontrolled complement",
+    "The tested total S6 invariant-moment implementation as a net algebraic speedup",
+    "The tested unsigned integrated-anisotropy majorant as a sign-preserving enclosure",
+    "Lorentzian K77 defect calculations as evidence about SC-ACT-06 Euclidean ellipticity",
+    "Routine next-collar expansion without a named consumer, propagation map and numeric margin"
+  ],
+  "retained_methods": [
+    "K270 sharp conditional spectral theorem and propagation inequality",
+    "K271 common symbolic normalization for already completed regions",
+    "K274 exact one-axis primitive as a future dimension-reduction component",
+    "K275 complete extreme-exterior theorem at sufficient dyadic cutoff m=184",
+    "K276 exact Euclidean exterior-symbol skeleton and explicit missing-data contract"
+  ],
+  "consumer_underdetermination_witness": {
+    "fixed_spectral_parameters": {"a": 3, "g": 2, "d": 1},
+    "sharp_energy_budget": "3/5",
+    "same_integral_uncertainty": "r_I+tau_I=1/10",
+    "other_terms": "r_nominal=eta_other=0",
+    "admissible_small_map": {"kappa": 1, "e_max": "1/100", "decision": "sufficient"},
+    "admissible_large_map": {"kappa": 10, "e_max": "1", "decision": "insufficient"},
+    "conclusion": "The same certified integral accuracy crosses the decision boundary under still-missing native map norms; no universal numerical K218 target follows."
+  },
+  "ready_followthrough": {
+    "status": "EXECUTED",
+    "action": "install native-consumer admission contract in current state and agenda",
+    "required_native_inputs": [
+      "conforming form and Gram pair",
+      "coercive shift and shifted positivity proof",
+      "complete shifted form-dual residual",
+      "independent exterior gap",
+      "energy decision margin d",
+      "projection tolerance eta_P when applicable",
+      "order-six integral-to-residual map norm kappa",
+      "nominal and nonintegral residual errors"
+    ],
+    "admission_rule": "Admit another K218 region only with a named downstream decision, a proved propagation map, instantiated numeric margin, and an explanation of why K274/K275 do not already meet it.",
+    "when_populated": "Evaluate the K270 combined energy/projection budget first; then use K274 plus K275 to design the smallest finite-cube computation that can cross the actual margin.",
+    "while_unpopulated": "Keep routine collars suspended. K274/K275 remain viable components, not an active expansion mandate."
+  },
+  "ranked_portfolio": [
+    {"rank": 1, "portfolio": "K152 native consumer-input closure", "state": "selected dependency", "why": "only route that turns integral accuracy into a decision"},
+    {"rank": 2, "portfolio": "K274 plus K275 hybrid finite-cube enclosure", "state": "viable conditional successor", "why": "best retained complete-domain machinery, activated only by rank-1 target or an independently approved full-sign objective"},
+    {"rank": 3, "portfolio": "SC-ACT-06 full Euclidean complex", "state": "source-data dependent", "why": "requires the exact K276 background/symbol/projector object"},
+    {"rank": 4, "portfolio": "routine K218 collar continuation", "state": "suspended", "why": "locally productive but currently lacks a decision-calibrated stopping rule"}
+  ],
+  "input_hashes": {
+    "K270": "11d6faeab81b8fe09466193434b8e10845a4a880121cf6c9a64a57f22756c8fb",
+    "K271": "0dc6f69618a8280a82a90eb1ffa26a7243ac159b7439aa509bb69fb691edc6f7",
+    "K272": "80c1f9436d2d8687429d23bbcdc55e7b737641bd04404758667c7502a202a156",
+    "K273": "8f307e973050c9aa022d0886cf2fa61792b2ea42436f0e4cadc7388d2bbb848c",
+    "K274": "327475ba182b35770a2e631991d5b16fa19f084cc3c258acc38c639875f0f6e1",
+    "K275": "aeea1531a8e5029d721f00d0224b9fa7c15351f350e8ad5c51d1d5abefc42f7f",
+    "K276": "0722fe8de196b2e82480de1275ff0bac8af1461e1b0bb92442dfb3bb230abced"
+  },
+  "boundaries": {
+    "full_K218_sign": false,
+    "complete_order_six_error": false,
+    "native_K152_decision": false,
+    "SC_ACT_06_ellipticity": false,
+    "source_or_ledger_change": false,
+    "canon_or_public_change": false
+  },
+  "next_condition": "Populate the rank-1 native consumer contract. If a direct full-K218 sign objective is separately selected before that, use the retained K274/K275 hybrid and state its independent stopping criterion; do not silently revive routine collars."
+}

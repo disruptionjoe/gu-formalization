@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 96df476899c64af276a8280e55e2d61ac5b9cb15
+revision_basis: ad0ccdd5777dfa715ea2abe04c295307c1ccbe55
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K277 completes R9 and the full GU-REASSESS-20260921 workset. R1--R8 are
+    integrated into one consumer-first rerank. The K270 sharp theorem and
+    propagation inequality, K271 normalization reuse, K274 exact one-axis
+    primitive, K275 m=184 complete exterior theorem and K276 Euclidean symbol
+    obstruction are retained. The tested total S6 compression and unsigned
+    anisotropy majorant are rejected, and additional normalization or routine
+    collars are eliminated as answers to the uncontrolled complement. An
+    exact decision witness fixes a=3,g=2,d=1 and the same integral uncertainty
+    1/10: kappa=1 gives e_max=1/100 below the sharp 3/5 budget, while kappa=10
+    gives e_max=1 above it. Because the native map norm and other consumer
+    inputs remain absent, no universal K218 target or stopping rule exists.
+    The executed follow-through installs a native-consumer admission contract:
+    another region requires a named downstream decision, proved propagation
+    map, instantiated numeric margin and a reason K274/K275 do not suffice.
+    Rank 1 is K152 native input closure; the K274+K275 hybrid is the best
+    conditional finite-cube successor. Routine K218 expansion is suspended,
+    not forbidden or declared impossible. No source, ledger, canon, paper,
+    public or physical status moves.
+
     K276 concludes R8 of GU-REASSESS-20260921 at an exact source-data
     obstruction. A concrete Euclidean flat-zero local-germ attempt makes the
     printed bosonic and fermionic residuals, Xi redundancy and bosonic
@@ -8271,6 +8290,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/k277-gu-reassessment-integration-rerank.json
+    - tests/channel-swings/k277_gu_reassessment_integration_rerank.py
+    - tests/channel-swings/k277_gu_reassessment_integration_rerank_probe.py
     - lab/process/k276-sc-act-06-euclidean-principal-complex-data-gate.json
     - tests/channel-swings/k276_sc_act_06_euclidean_principal_complex_data_gate.py
     - tests/channel-swings/k276_sc_act_06_euclidean_principal_complex_data_gate_probe.py
@@ -8915,17 +8937,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K276 completes R8 after a concrete Euclidean flat-zero germ and principal-
-  symbol attempt. The source-determined 14-dimensional connection/Koszul
-  skeleton is exact at nonzero Euclidean covectors, so there is no Euclidean
-  no-go. But the source does not certify the comparator as a complete legal
-  B(epsilon)/Y background and does not publish the full-field Euler symbol or
-  the projector selecting independent rows. Exact thirteen-row and nonexact
-  twelve-row reductions both obey the printed gauge composition, proving that
-  the missing choice is decision-relevant. Execute R9 now: integrate R1--R8,
-  rerank the whole portfolio, and either execute the largest ready follow-
-  through or state the exact dependency that prevents it. Routine collars
-  remain suspended until that decision.
+  K277 completes R9 and GU-REASSESS-20260921. The consumer-first rerank shows
+  that no universal K218 accuracy target exists while the K152 native map norm,
+  residual, gap and decision margins are absent: the same 1/10 integral radius
+  is sufficient at kappa=1 and insufficient at kappa=10 under one fixed sharp
+  budget. Populate the installed K152 native-consumer contract next. Only then
+  evaluate K270's combined energy/projection budget and activate the retained
+  K274+K275 hybrid for the smallest finite-cube region that can cross the real
+  margin. If a direct full-K218-sign objective is independently approved first,
+  state its own stopping criterion. Do not silently resume routine collars.
 
   K270 proves the sharper conditional K152 spectral certificate and resolves
   that K215's 1e-21 is not a full-value or downstream-error target. No native
@@ -9158,16 +9178,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K276 as the active R8 result. Its exact full exterior-symbol comparator
-  proves that the connection/Koszul skeleton itself can be Euclidean elliptic,
-  while the thirteen-versus-twelve-row witness proves that the unprinted
-  independent-Euler projector and complete full-field linearization determine
-  the actual verdict. Preserve SC-ACT-06 as ASSERTS and SC-SIG-53 as UNCERTAIN;
-  do not import Lorentzian K77 defects. Carry K274's exact dimension reduction
-  and K275's m=184 extreme-exterior theorem into R9 alongside the unresolved
-  finite cube/full sign. Integrate R1--R8, eliminate rejected computations,
-  choose the largest useful ready successor and decide explicitly whether any
-  further K218 region serves an actual consumer budget.
+  Treat K277 as the integrated R1--R9 decision. The next admitted K218 region
+  must name its downstream decision, prove its integral-to-residual propagation
+  map, instantiate the numeric margin and explain why K274's one-axis primitive
+  plus K275's m=184 exterior theorem do not already suffice. Rank 1 is closure
+  of the native K152 consumer inputs: conforming form/Gram, coercive shift,
+  complete shifted dual residual, independent exterior gap, energy margin,
+  optional projection tolerance, map norm and nominal/nonintegral errors. Until
+  those are populated, routine collars remain suspended. The K274+K275 hybrid
+  remains the preferred conditional finite-cube successor, not a current
+  mandate. Preserve K276's exact Euclidean source-data obstruction separately.
 
   Treat K270 as the active K152 consumer/certificate result. Its sharp bound
   is conditional on the exact ground-plus-exterior spectral support, shifted

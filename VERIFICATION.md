@@ -7,6 +7,41 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K277 GU reassessment integration and consumer-first rerank (2026-09-21)
+
+K277 completes R9 and integrates all nine GU-REASSESS-20260921 acceptance
+questions. It retains K270's sharp conditional spectral theorem and propagation
+inequality, K271's common normalization for completed regions, K274's exact
+one-axis primitive, K275's complete extreme-exterior theorem, and K276's exact
+Euclidean symbol/data obstruction. It rejects the tested total S6
+implementation and unsigned anisotropy majorant, and it eliminates further
+normalization or routine collars as answers to the still-uncontrolled
+complement.
+
+The rerank has an exact underdetermination witness. With `a=3`, `g=2`, `d=1`,
+the K270 sharp energy budget is `3/5`. Hold the certified integral uncertainty
+at `r_I+tau_I=1/10` and set the other residual terms to zero. The still-missing
+map norm `kappa=1` gives `e_max=1/100`, which is sufficient; `kappa=10` gives
+`e_max=1`, which is insufficient. An independent replay reproduces the same
+crossing at a different spectral triple. Therefore no universal K218 accuracy
+target or stopping rule can be derived before the native consumer inputs exist.
+
+The executed follow-through installs a native-consumer admission contract in
+the current state and research agenda. Another K218 region requires a named
+downstream decision, proved propagation map, instantiated numerical margin,
+and an explanation of why K274/K275 do not already suffice. Rank 1 is closure
+of the K152 conforming form/Gram, coercive shift, complete residual, exterior
+gap, decision margin, optional projection tolerance, map norm and other error
+inputs. The K274+K275 hybrid is the preferred conditional finite-cube
+successor after that contract is populated, or after an independently approved
+full-sign objective supplies its own stopping rule.
+
+The producer passes `12/12` exact and `5/5` hostile checks; the independent
+consumer-budget replay passes `10/10` exact and `5/5` hostile checks. Routine
+K218 expansion is suspended, not proved impossible. The full K218 sign,
+complete order-six error, native K152 decision, SC-ACT-06 ellipticity, source,
+ledger, canon, paper, public and physical claims remain open or unchanged.
+
 ## K276 SC-ACT-06 Euclidean principal-complex data gate (2026-09-21)
 
 K276 directly attempts R8 without using any Lorentzian K77 characteristic or
