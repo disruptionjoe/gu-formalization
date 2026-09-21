@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: aeec1152c2dd0b1133e784c74f842e85a235a8fc
+revision_basis: dcaefa6f4fefd884a7dc9ecac8598195a3edb697
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K275 concludes R7b of GU-REASSESS-20260921 with a complete mixed-scaling
+    exterior theorem for the 1,864-term signed K218 assembly. For every term
+    and each of the 255 nonempty axis faces, the exact asymptotic margin is the
+    number of touched denominator loads minus the number of scaled axes. All
+    475,320 margins are positive. In every labeled ordered sector, all eight
+    prefix rates are therefore at least one, including equality faces and
+    subfaces. A termwise absolute exponential majorant gives a normalized
+    exterior bound outside max(t_j)>=T. With T=m log(2), pi>31/10 and
+    log(2)<7/10, m=184 is sufficient for a 1e-21 complete-tail budget while
+    m=183 is not under this theorem, improving K215's sufficient m=215 by 31
+    dyadic steps. The worst faces are single exchangeable coordinates 2..7.
+    Exact generic leading coefficients are nonzero on all six, so K225's
+    diagonal cancellation does not license a stronger universal signed margin.
+    Independent reverse-allocation replay reproduces all face counts, leading
+    coefficients and rational cutoffs. K275 controls the extreme exterior but
+    leaves the vast finite cube and full K218 sign unresolved. R8's direct
+    source-facing Euclidean-complex attempt is next; routine collars remain
+    suspended until R9. Source, ledger, canon and public posture do not move.
+
     K274 concludes R7a of GU-REASSESS-20260921 by integrating auxiliary axis
     1 exactly across its complete half-line for all 1,864 signed K218 terms.
     The chart x=tanh(t_1/2) turns every term into a proper even rational
@@ -8233,6 +8252,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/k275-order-six-mixed-scaling-worst-sector-tail.json
+    - tests/channel-swings/k275_order_six_mixed_scaling_worst_sector_tail.py
+    - tests/channel-swings/k275_order_six_mixed_scaling_worst_sector_tail_probe.py
     - lab/process/k274-order-six-one-axis-exact-integration-pilot.json
     - tests/channel-swings/k274_order_six_one_axis_exact_integration_pilot.py
     - tests/channel-swings/k274_order_six_one_axis_exact_integration_pilot_probe.py
@@ -8871,14 +8893,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K274 completes R7a: exact confluent partial fractions integrate one complete
-  K218 auxiliary half-line and reduce the signed group from eight to seven
-  dimensions, but no uniform enclosure of the remaining seven-dimensional
-  integrand is yet serialized. Execute R7b next as the bounded mixed-scaling
-  worst-sector pilot with a uniform remainder that includes every subface.
-  Compare its actual cost and coverage with K274 and the completed collar
-  route. Do not treat two fixed-coordinate controls as a global certificate or
-  resume routine collars before R9.
+  K275 completes R7b: all mixed-scaling faces are integrable termwise and the
+  exact sector theorem reduces K215's sufficient complete-tail cutoff from
+  m=215 to m=184. The worst singleton exchangeable-coordinate faces have
+  nonzero exact generic leading coefficients, so no universal signed margin
+  improvement follows. The theorem controls only the extreme exterior; it
+  does not integrate the finite cube or determine the full K218 sign. Execute
+  R8 next as a bounded source-native SC-ACT-06 Euclidean principal-complex
+  attempt, with an actual legal background, full gauge/Euler/redundancy symbol
+  and exactness test or precise construction obstruction. Lorentzian K77
+  defects are not this test. Do not resume routine collars before R9.
 
   K270 proves the sharper conditional K152 spectral certificate and resolves
   that K215's 1e-21 is not a full-value or downstream-error target. No native
@@ -9111,16 +9135,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K274 as the active R7a result. Its exact one-axis primitive covers the
-  complete t_1 half-line for the full 1,864-term signed group and remains valid
-  for arbitrary fixed positive remaining coshes, including a confluent
-  repeated-pole limit. It does not uniformly bound the remaining seven-
-  dimensional integral, establish the full K218 sign, or replace collars.
-  Execute R7b's mixed-scaling worst-sector analysis next, including a uniform
-  remainder over every subface, and compare that cost and coverage with K274
-  and the completed collars. Consume K270's conditional budget only as an
-  interpretation test, not as a native numerical target. Do not resume routine
-  K218 expansion before R9.
+  Treat K275 as the active R7b result and K274 as its complementary R7a input.
+  K275's all-face Hall-surplus certificate proves a complete normalized
+  extreme-exterior bound and lowers the conservative 1e-21 sufficient dyadic
+  cutoff to m=184, but its generic singleton-face controls prevent claiming a
+  stronger signed rate. K274 removes one coordinate exactly but does not bound
+  the remaining seven-dimensional integral. Carry both debts to R9; neither
+  licenses the full sign or routine expansion. Execute R8 next on SC-ACT-06:
+  construct one source-admissible stationary Euclidean background and the full
+  gauge/Euler/redundancy principal complex, then test exactness at a nonzero
+  covector or identify the exact missing source datum after a concrete attempt.
+  Do not substitute a Lorentzian K77 defect. Routine K218 expansion remains
+  suspended until R9 integrates R1--R8.
 
   Treat K270 as the active K152 consumer/certificate result. Its sharp bound
   is conditional on the exact ground-plus-exterior spectral support, shifted

@@ -7,6 +7,52 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K275 complete mixed-scaling exterior theorem (2026-09-21)
+
+K275 analyzes every mixed asymptotic face of the complete 1,864-term K218
+signed group after exact angular elimination. For a term with eight axis
+support masks and a nonempty scaled-axis set `A`, its exact leading exponent
+margin is
+
+`m_A = number of denominator loads touched by A - |A|`.
+
+The producer checks all 255 nonempty faces for every term: 475,320 exact bit-
+union certificates. Every margin is at least one. The minimum-one faces are
+exactly singleton exchangeable axes `2..7`; every nonsingleton face has margin
+at least two.
+
+On a labeled sector `t_pi1 >= ... >= t_pi8 >= 0`, write successive gaps as
+`y_k=t_pik-t_pi(k+1)`. The exponential rate multiplying `y_k` is the margin of
+the prefix `{pi1,...,pik}` and is therefore at least one. This checks all
+sector prefixes, equality faces and subfaces rather than sampling 56 strict
+order types. With `cosh(t)<=exp(t)`, each touched denominator at least
+`exp(t)/2`, and `pi>31/10`, the complete normalized exterior satisfies
+
+`|I(max t_j >= T)| <= C exp(-T) sum_(r=0)^7 T^r/r!`,
+
+where `C` includes all 40,320 labeled sectors and the complete absolute signed
+weight 2,928. For `T=m log(2)`, using `log(2)<7/10`, the rational bound at
+`m=183` is about `1.3190e-21`, while at `m=184` it is about `6.8493e-22`.
+Thus `m=184` is sufficient for the declared `1e-21` complete-tail budget,
+compared with K215's sufficient `m=215`. Both are conservative sufficient
+cutoffs, not necessary ones, and K215 is not invalidated.
+
+Exact generic leading coefficients on all six minimum-margin singleton faces
+are nonzero (five positive, axis `6` negative). K225's common-diagonal and
+single-exception cancellations therefore do not improve the generic worst
+rate when the remaining exchangeable coshes are unequal. An independent
+reverse-allocation implementation reproduces the term-minimum histogram,
+singleton counts, all six rational leading coefficients and both cutoff
+bounds. The producer passes `6/6` exact and `4/4` hostile checks; the replay
+passes `7/7` exact and `4/4` hostile checks.
+
+K275 supplies a one-time 475,320-check global tail theorem and shortens the
+extreme-tail threshold by 31 dyadic steps. It leaves the finite cube
+`[0,184 log(2)]^8`, the full K218 sign and the complete order-six error open,
+so it does not replace the completed finite collars or establish a K152
+numerical decision. No source, ledger, canon, paper, public or physical
+conclusion changes.
+
 ## K274 complete-group one-axis exact-integration pilot (2026-09-21)
 
 K274 integrates auxiliary axis `1` over `[0,infinity)` for the complete
