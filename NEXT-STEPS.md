@@ -20,6 +20,19 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K281 SIZE-FOUR SCALED-JET AND OUTWARD-CALCULUS BOUNDARY.**
+> The exact R4 scaled-jet determinant is now cancellation-free and directed-
+> positive at all 199 dyadic radii from 1/4 through 2^-200; its signed-Pascal
+> limit is exactly one. All 63 nonempty size-four gap masks have exact
+> interiorized Cauchy controls. The inherited zero-centered order-16 Taylor
+> transfer certifies no finite-gap cell after searches through 256 radial
+> subdivisions. Treat that as a method failure, not nonpositivity. Next build
+> shifted Hermite--Genocchi face-center tails on the 63-mask atlas and residual
+> R2/R3 faces, then propagate outward values and mixed Duffy derivatives across
+> all 98 patterns before determinant-preserving Jacobi composition. No action-
+> column value or native K152 interval follows. See
+> `explorations/conditional-build/k281-order-seven-size-four-outward-calculus-2026-09-21.md`.
+
 > **2026-09-21 K280 ORDER-SEVEN BESSEL FACE ATLAS.** The complete 408-entry
 > order-seven family now has exact Cauchy--Vandermonde factors, primitive face
 > supports and cancellation-preserving regularizers through size four. The

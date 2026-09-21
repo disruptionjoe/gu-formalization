@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K281 size-four scaled-jet theorem and outward-calculus boundary
+
+- `channel-swings/k281_order_seven_size_four_outward_calculus.py` derives the
+  exact size-four scaled-jet normal form, certifies the 199-point dyadic
+  coalescent spine, serializes all 63 nonempty face masks, and records the
+  failed zero-centered finite-gap Taylor transfer without promoting it to a
+  nonpositivity theorem.
+- `channel-swings/k281_order_seven_size_four_outward_calculus_probe.py`
+  independently checks the signed-Pascal limit, jet and face census,
+  deterministic manifest, routing and claim ceilings, then rejects eight
+  hostile mutations.
+
 ## K280 order-seven Bessel Cauchy--Vandermonde face atlas
 
 - `channel-swings/k280_order_seven_bessel_vandermonde_face_atlas.py` replays

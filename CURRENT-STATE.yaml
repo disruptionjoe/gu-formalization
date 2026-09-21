@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f363b36a9b506f0265ce8efc726d275c50d978f9
+revision_basis: 33a82d10f93cd8a10e14a392859259f950222c9b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K281 derives an exact cancellation-free size-four scaled-jet normal form.
+    The recurrence for a_n=x^n q^(n)(x), q=x K1(x), eliminates all negative
+    radial powers and supplies the six derivatives needed by R4. Directed Arb
+    balls prove the scaled R4 determinant strictly positive at all 199 dyadic
+    radii from 1/4 through 2^-200, with exact signed-Pascal limit determinant
+    one. All 63 nonempty masks of the six size-four row/column gaps are now
+    serialized and pass exact interiorized Cauchy controls. The actual
+    K191/K192 zero-centered order-16 Taylor transfer was tested across both
+    radial strata, gap radii down to 1/512 and 1/2048, and up to 256 radial
+    subdivisions; it certifies no finite-gap cell because entrywise absolute
+    residual bounds lose determinant correlation. This is a method failure,
+    not a theorem of nonpositivity: an independent high-precision finite-gap
+    control remains positive. The next exact gate is a shifted
+    Hermite--Genocchi face-center tail operator on the 63 size-four masks and
+    residual R2/R3 faces, followed by mixed Duffy propagation across all 98
+    patterns and determinant-preserving Jacobi composition. No action-column
+    value, residual, exterior gap, native K152 interval, source/ledger move,
+    canon, paper, public or physical claim follows.
+
     K280 closes the complete order-seven Cauchy--Vandermonde face atlas. All
     408 coherent Gram entries and all 1,560 species determinant occurrences
     are serialized with canonical signs, row/column Vandermonde gaps, exact
@@ -8991,17 +9010,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K280 proves the complete order-seven face factorization and extends the
-  cancellation-preserving Bessel regularizer through size four. Construct
-  outward value and mixed Duffy-derivative enclosures for R2, R3 and the new
-  R4 on a gap-stratified rho/theta/simplex atlas. Reuse the 52 identical K186
-  functions only on K192's proved union; construct boxes for the 46 new
-  patterns and the residual noncoalescent faces. Preserve all 408 signed Gram
-  entries, 96 K179 paths, old-position Bessel factors and exact primitive gap
-  supports. Only after those outward boxes exist may the exact face weights be
-  composed with a determinant-preserving Jacobi remainder. Do not treat the
-  current high-precision controls as outward intervals or a numerical action
-  column.
+  K281 proves the exact size-four coalescent scaled-jet normal form and closes
+  the complete 63-mask gap topology. Its zero-centered order-16 Taylor
+  transfer certifies no finite-gap cell through the tested gap strata and 256
+  radial subdivisions, without proving nonpositivity. Construct shifted
+  Hermite--Genocchi face-center tails on those 63 masks and the residual R2/R3
+  faces. Then propagate outward values and mixed Duffy derivatives over all
+  98 patterns and 996 occurrences before determinant-preserving Jacobi
+  composition. Preserve all 408 signed Gram entries, 96 K179 paths,
+  old-position Bessel factors and exact primitive gap supports. Do not treat
+  the coalescent balls or finite-gap decimal control as arbitrary-gap outward
+  intervals or a numerical action column.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9244,13 +9263,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K280 as the complete order-seven face atlas. The next admissible gate
-  is outward R2/R3/R4 value and mixed-derivative enclosure on a gap-stratified
-  radial/angular atlas, followed by determinant-preserving weighted cubature.
-  Raw nearly singular determinants, literal Leibniz expansion and omission of
-  the 24 size-four occurrences are inadmissible. K280 supplies no outward
-  cubature error, numerical action column, residual, exterior gap or K152
-  interval.
+  Treat K281 as the size-four coalescent normal form and complete face-topology
+  theorem. The next admissible gate is a shifted face-center outward remainder
+  that preserves shared determinant correlation on all 63 size-four masks and
+  residual R2/R3 faces, followed by mixed Duffy propagation and determinant-
+  preserving weighted cubature. More zero-centered subdivision, raw nearly
+  singular determinants, literal Leibniz expansion and omission of the 24
+  size-four occurrences are inadmissible. K281 supplies no arbitrary-gap
+  interval, outward cubature error, numerical action column, residual,
+  exterior gap or native K152 interval.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

@@ -7,6 +7,30 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K281 size-four scaled-jet theorem and outward boundary (2026-09-21)
+
+K281 derives `a_n=x^n q^(n)(x)` through `n=6` exactly from `q=x K1(x)` and
+the Bessel recurrences, then forms
+`R4=det[b_(i+j)/(i!j!)]_(i,j=0..3)` without negative radial powers. Directed
+Arb evaluation proves all 199 scaled determinant balls at
+`x=2^-2,...,2^-200` strictly positive. Every raw derivative-Hankel ball
+overlaps its scaled counterpart. The independent exact signed-Pascal limit has
+determinant one.
+
+All 63 nonempty masks of the six size-four row/column gaps are serialized and
+pass exact rational interiorized Cauchy--Vandermonde controls. The producer
+also tests the inherited zero-centered order-16 Taylor enclosure over both
+radial strata, gap candidates down to `1/512` and `1/2048`, and subdivisions
+through 256. It certifies no finite-gap cell. That is a failure of the tested
+entrywise absolute perturbation method, not a proof that `R4` is nonpositive;
+a separate 420-digit finite-gap control is positive.
+
+The independent replay passes `9/9` checks and rejects `8/8` hostile changes.
+K281 supplies no arbitrary-gap outward interval, mixed Duffy derivative,
+Jacobi cubature error, action-column value, residual, exterior gap, native
+K152 interval, physical state, source/ledger change, canon, paper or public
+claim.
+
 ## K280 order-seven Bessel Cauchy--Vandermonde face atlas (2026-09-21)
 
 K280 replays all `408` order-seven coherent Gram entries and serializes every
