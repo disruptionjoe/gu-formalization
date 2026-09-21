@@ -35,6 +35,34 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K270 concludes the consumer/certificate stream R1--R3 of the approved
+    GU-REASSESS-20260921 workset. The actual conditional downstream consumer
+    is K152's ground-energy enclosure and optional ground-eigenspace
+    projection tolerance. Native conforming form/Gram, coercive-shift proof,
+    complete shifted form-dual residual, exterior gap, energy decision margin,
+    projection tolerance and order-six-integral-to-residual map norm remain
+    absent, so no sharper order-six number currently changes a serialized
+    K152 decision. K215's 1e-21 is only its unsigned auxiliary-tail budget,
+    not a full integral target or K152 uncertainty margin.
+
+    Under K152's precise spectral assumptions, let delta=rho-lambda0,
+    a=rho+s, g=b-rho and
+    e=integral (x-rho)^2/(x+s) dmu. Exact integration of the nonnegative
+    support function (x-lambda0)(x-b)/(x+s) proves
+    e(a-delta)(a+g)>=a*delta*g and therefore
+    delta<=e*a*(a+g)/(a*g+e*(a+g)). Two-point support at lambda0 and b
+    saturates the bound; a strict three-point control has positive slack; a
+    forbidden-gap control makes the proof sign and bound fail. For target
+    ground error d, the sufficient residual budget is
+    e<=d*a*g/((a+g)(a-d)), compared with K152's prior sufficient
+    g*d^2/(a(g+d)). The explicit consumer pipeline
+    sqrt(e)<=r_nominal+kappa(r_I+tau_I)+eta_other now keeps the nominal
+    integral value, certified radius, omitted tail/complement and other
+    residual error separate; projection additionally requires
+    e<=eta_P^2*g^2/(a+g). No native numerical budget or K152 interval is
+    emitted. R4 tight re-normalization is next; routine collar expansion stays
+    suspended pending R9. Source, ledger, canon and public posture do not move.
+
     K269 certifies the complete 890-box three-through-six exchangeable-axis
     middle collar strictly positive. Between three and six of axes 2 through
     7 lie in q=[13/5,15]; every other coordinate independently uses
@@ -8137,6 +8165,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/k270-k152-sharp-spectral-budget-certificate.json
+    - tests/channel-swings/k270_k152_sharp_spectral_budget_certificate.py
+    - tests/channel-swings/k270_k152_sharp_spectral_budget_certificate_probe.py
     - lab/process/k225-order-six-diagonal-cancellation.json
     - tests/channel-swings/k225_order_six_diagonal_cancellation.py
     - tests/channel-swings/k225_order_six_diagonal_cancellation_probe.py
@@ -8760,6 +8791,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K270 proves the sharper conditional K152 spectral certificate and resolves
+  that K215's 1e-21 is not a full-value or downstream-error target. No native
+  K152 margin or order-six-to-residual map is serialized. Under the active
+  GU-REASSESS-20260921 workset, execute R4 next without new boxes: reuse
+  verified raw signed sums and tails, keep the common pi^-8 normalization
+  symbolic through composition, apply one tight certified pi interval, and
+  report the before/after width and all uncontrolled complement. Then judge
+  R5 and later pilots against K270's conditional budget formula. Do not resume
+  routine collar expansion before R9 or invent a native numerical tolerance.
+
   K269 certifies the complete remaining adjacent exchangeable-axis middle
   collar, with three through six of axes 2..7 in q=[13/5,15], strictly
   positive in [3.5170985117e-15,3.9264569510e-15]. Which
@@ -8981,6 +9022,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K270 as the active K152 consumer/certificate result. Its sharp bound
+  is conditional on the exact ground-plus-exterior spectral support, shifted
+  positivity, complete residual and exterior gap; the forbidden-gap control
+  proves those hypotheses are substantive. Use
+  e_max=[r_nominal+kappa(r_I+tau_I)+eta_other]^2 and require it below the
+  energy and, when applicable, projection budgets. Do not relabel K215's
+  1e-21 unsigned auxiliary-tail budget as a full integral value, accuracy
+  target or K152 margin. Execute R4 next using stored verified raw sums and
+  tails with one tight common pi^-8 enclosure and no new boxes; report what
+  complement remains uncontrolled. Routine K218 collar expansion remains
+  suspended until R9 integrates R1--R8 and explicitly reranks the path.
+
   Treat K269 as the active K218 middle-collar result. Full enumeration of all
   890 boxes, signed degree-nine moment integration and complete
   degree-ten-and-higher tails certify their complete composition positive with

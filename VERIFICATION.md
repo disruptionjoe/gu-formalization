@@ -7,6 +7,54 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K270 K152 sharp spectral and consumer-budget certificate (2026-09-21)
+
+K270 independently proves the advisory K152 tightening from K152's precise
+spectral-measure hypotheses. Let the normalized trial spectral measure be
+supported on the ground point `lambda0` and `[b,infinity)`, let
+`delta=rho-lambda0`, `a=rho+s>0`, `g=b-rho>0`, and let
+`e=integral (x-rho)^2/(x+s) dmu`. The function
+`(x-lambda0)(x-b)/(x+s)` is nonnegative on that support. Exact resolvent-moment
+identities give
+
+`e(a-delta)(a+g) >= a delta g`,
+
+and hence
+
+`delta <= e a(a+g)/[a g+e(a+g)]`.
+
+The sufficient residual budget for target ground error `0<d<a` is therefore
+`e<=d a g/[(a+g)(a-d)]`. K152's existing square-root correction instead gives
+the sufficient budget `e<=g d^2/[a(g+d)]`. At the exact control `a=3`, `g=2`,
+`d=1`, the new budget is `3/5` versus `2/9`, an exact factor `27/10` looser.
+Two-point spectral support at `lambda0,b` saturates the new inequality. An
+independent three-point replay has strict positive slack. A control with mass
+inside the prohibited open gap makes the proof integrand negative and the
+candidate bound underestimate the true error, so the exterior-support
+hypothesis is essential.
+
+K270 also fixes the value-to-consumer typing. If `I_hat` is the nominal
+integral value, `r_I` its certified interval radius, `tau_I` the omitted
+tail/complement, `kappa` the integral-to-dual-residual map norm,
+`r_nominal` the residual norm at `I_hat`, and `eta_other` all other residual
+error, then
+
+`sqrt(e) <= r_nominal+kappa(r_I+tau_I)+eta_other`.
+
+The square of that right side must meet the sharp energy budget and, when a
+projection decision is required, `e<=eta_P^2 g^2/(a+g)`. This separates the
+nominal value from numerical uncertainty and the uncomputed complement.
+K215's `1e-21` is only its declared unsigned auxiliary-tail budget; it is not
+a full integral target or K152 margin.
+
+K270 does not provide the absent native conforming form/Gram, coercive-shift
+proof, complete residual, exterior gap, energy margin, projection tolerance or
+order-six-to-residual map norm. It emits no native K152 interval or numerical
+required integral accuracy and changes no full-K218, source, physics-ledger,
+canon, paper or public conclusion. Producer selftests pass `15/15` exact and
+`6/6` hostile controls; the independent replay passes `14/14` exact and
+`12/12` hostile metadata controls.
+
 ## K269 three-through-six exchangeable-axis middle collar (2026-09-21)
 
 K269 controls the complete remaining adjacent exchangeable-axis middle collar

@@ -1,0 +1,135 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K270-K152-SHARP-SPECTRAL-BUDGET-CERTIFICATE",
+  "created": "2026-09-21",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "workset_id": "GU-REASSESS-20260921",
+  "reassessment_disposition": {
+    "R1": {
+      "state": "concluded",
+      "native_evidence": [
+        "lab/process/k152-form-dual-residual-lower-enclosure-wave.json",
+        "lab/process/k168-flavor-symmetric-reference-extension-wave.json",
+        "lab/process/k184-order-six-certified-low-rank-wave.json",
+        "lab/process/k215-order-six-sufficient-tail-wave.json"
+      ],
+      "finding": "The actual conditional consumer is K152's ground-energy enclosure and optional ground-eigenspace projection tolerance. It requires a native conforming form/Gram pair, coercive shift, complete shifted form-dual residual and independent exterior gap. No native numerical energy margin or projection tolerance is serialized, and no proved map currently makes a sharper order-six integral change a K152 decision.",
+      "limit": "The K139/K184 positive-Fock construction is conditional repository mathematics, not source-native GU physics."
+    },
+    "R2": {
+      "state": "concluded",
+      "native_evidence": [
+        "lab/process/k215-order-six-sufficient-tail-wave.json",
+        "value_to_consumer_budget"
+      ],
+      "finding": "K215's 1e-21 is an unsigned auxiliary-tail allocation. It is neither a full integral value target nor a K152 uncertainty margin. The replacement is the explicit conditional propagation inequality below; a number can be instantiated only after d or eta_P, kappa, the nominal residual, other residual error and the omitted complement are supplied.",
+      "limit": "No native numeric budget is emitted because the required consumer inputs remain absent."
+    },
+    "R3": {
+      "state": "concluded",
+      "native_evidence": [
+        "tests/channel-swings/k270_k152_sharp_spectral_budget_certificate.py",
+        "tests/channel-swings/k270_k152_sharp_spectral_budget_certificate_probe.py"
+      ],
+      "finding": "The candidate sharper certificate is proved exactly under K152's spectral support and shifted-positivity assumptions. Two-point support at lambda0 and b saturates it; a strict three-point control has positive slack; a forbidden-gap control makes the proof integrand negative and the bound fail.",
+      "limit": "The theorem supplies neither the native residual nor the exterior gap and does not by itself close K152."
+    }
+  },
+  "sharp_spectral_certificate": {
+    "normalized_spectral_measure": true,
+    "support": "{lambda0} union [b,infinity)",
+    "shifted_positivity": "lambda0+s>0",
+    "mean": "rho",
+    "delta": "rho-lambda0",
+    "a": "rho+s",
+    "g": "b-rho",
+    "residual_square": "e=integral (x-rho)^2/(x+s) dmu",
+    "proof_integrand": "(x-lambda0)(x-b)/(x+s)>=0 on support",
+    "resolvent_moment_identities": [
+      "integral 1/(x+s) dmu=(a+e)/a^2",
+      "integral (x-rho)/(x+s) dmu=-e/a"
+    ],
+    "proof_identity": "a^2 integral proof_integrand dmu=e(a-delta)(a+g)-a delta g",
+    "sharp_bound": "delta<=e a(a+g)/(a g+e(a+g))",
+    "target_budget": "e<=d a g/((a+g)(a-d)) for 0<d<a",
+    "two_point_equality": true,
+    "strictness": "Positive spectral mass above b gives strict slack unless the proof integrand still vanishes almost surely.",
+    "assumption_fence": "Spectral mass in (lambda0,b) can make the proof integrand negative and invalidate the bound."
+  },
+  "comparison_with_k152": {
+    "existing_correction": "Delta_old=[a e+sqrt(a^2 e^2+4 g^2 a e)]/(2g)",
+    "existing_target_budget": "e<=g d^2/[a(g+d)]",
+    "sharp_target_budget": "e<=d a g/[(a+g)(a-d)]",
+    "budget_ratio": "a^2(g+d)/[d(a+g)(a-d)]",
+    "exact_control": {
+      "a": 3,
+      "g": 2,
+      "d": 1,
+      "existing_budget": "2/9",
+      "sharp_budget": "3/5",
+      "sharp_to_existing_ratio": "27/10"
+    },
+    "interpretation": "The sharper theorem can materially loosen a future residual tolerance, especially for small d, but only after native a, g and d are established."
+  },
+  "value_to_consumer_budget": {
+    "integral_decomposition": "I=I_hat+error, |error|<=r_I+tau_I",
+    "nominal_value_role": "r_nominal=||(H+s)^(-1/2)(R_0+C I_hat)u||",
+    "certified_integral_radius": "r_I",
+    "omitted_integral_tail_or_complement": "tau_I",
+    "integral_to_residual_map_norm": "kappa=||(H+s)^(-1/2)C u||",
+    "other_residual_error": "eta_other",
+    "residual_decomposition": "sqrt(e)<=r_nominal+kappa(r_I+tau_I)+eta_other",
+    "residual_upper": "e_max=[r_nominal+kappa(r_I+tau_I)+eta_other]^2",
+    "energy_requirement": "e_max<=d a g/((a+g)(a-d))",
+    "projection_requirement": "e_max<=eta_P^2 g^2/(a+g)",
+    "combined_requirement": "e_max<=min(energy_requirement,projection_requirement) when both decisions are required",
+    "integral_uncertainty_budget": "r_I+tau_I<=[sqrt(e_budget)-r_nominal-eta_other]/kappa when kappa>0 and the numerator is nonnegative",
+    "historical_1e-21_is_unsigned_auxiliary_tail_budget": true,
+    "historical_1e-21_is_full_value_target": false,
+    "historical_1e-21_is_k152_error_margin": false,
+    "native_numeric_budget_emitted": false,
+    "exact_control": {
+      "r_nominal": "1/10",
+      "kappa": 2,
+      "r_I": "1/100",
+      "tau_I": "1/200",
+      "eta_other": "1/50",
+      "e_max": "9/400",
+      "energy_budget": "3/5",
+      "projection_budget_at_eta_P_1_over_2": "1/5"
+    }
+  },
+  "native_input_audit": {
+    "native_conforming_form_gram": false,
+    "native_coercive_shift_proof": false,
+    "native_complete_dual_residual": false,
+    "native_exterior_gap": false,
+    "native_energy_decision_margin": false,
+    "native_projection_tolerance": false,
+    "order_six_integral_to_residual_map_norm": false,
+    "reason": "K152 declares these operator-specific inputs; K168 and K184 explicitly leave the complete base action/residual/gap chain open, and K215 supplies only an auxiliary-tail budget."
+  },
+  "source_and_ledger_posture": {
+    "SC-ACT-01": "ASSERTS unchanged",
+    "SC-ACT-02": "ASSERTS unchanged",
+    "SC-ACT-06": "ASSERTS unchanged; Euclidean elliptic-complex construction remains R8",
+    "ledger_denominator": 88,
+    "LT-GR6b": "NEEDS unchanged",
+    "LT-SM8": "NEEDS unchanged",
+    "RA-F1": "NEEDS unchanged",
+    "AC-F1": "NEEDS unchanged"
+  },
+  "boundaries": {
+    "native_K152_interval_emitted": false,
+    "full_K218_integral_sign": false,
+    "complete_order_six_error": false,
+    "source_claim_change": false,
+    "physics_ledger_change": false,
+    "canon_change": false,
+    "paper_or_public_posture_change": false,
+    "prediction_or_confirmation_credit": false
+  },
+  "next_condition": "Execute R4 without new boxes: reuse verified raw signed sums and tails, compose a common symbolic pi^-8 normalization, apply one tight certified pi interval, and report before/after width plus all uncontrolled complement. Then consume K270's budget result when judging R5 and later pilots; do not resume routine collar expansion before R9.",
+  "claim_ceiling": "Exact repository-owned conditional spectral theorem and consumer-budget audit. Under K152's normalized spectral support {lambda0} union [b,infinity), shifted positivity and exterior-gap hypotheses, the shifted dual residual obeys the sharp rational ground-error bound with exact two-point equality. The complete value-to-consumer inequality separates nominal integral value, certified radius, omitted tail/complement, other residual error and map norm. The repository has no native conforming form/Gram, complete residual, exterior gap, decision margin, projection tolerance or order-six-to-residual map norm, so no native K152 interval or numerical required integral accuracy is emitted. K215's 1e-21 remains only its unsigned auxiliary-tail budget. No full K218, source, physics-ledger, canon, public, prediction or confirmation conclusion follows."
+}
