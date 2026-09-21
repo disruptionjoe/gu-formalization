@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 06ca4cc804807bd90d31eea3ab1b08a500395411
+revision_basis: f363b36a9b506f0265ce8efc726d275c50d978f9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K280 closes the complete order-seven Cauchy--Vandermonde face atlas. All
+    408 coherent Gram entries and all 1,560 species determinant occurrences
+    are serialized with canonical signs, row/column Vandermonde gaps, exact
+    primitive face supports and Cauchy denominator supports. The size census is
+    564 size-one, 720 size-two, 252 size-three and 24 size-four occurrences;
+    the 996 nontrivial factors have 98 reusable canonical position patterns.
+    Fifty-two patterns are identical to K186 functions and may reuse K192's
+    certified-union boxes only on their proved domains; 46 patterns are new,
+    while K192 still lacks arbitrary-gap and residual noncoalescent-face
+    coverage.
+    Exact rational Cauchy identities pass through the new size-four stratum,
+    and cancellation-preserving mixed divided differences agree with direct
+    high-precision controls on all patterns and near coalescent faces. This is
+    an exact face atlas and qualitative regularizer extension, not an outward
+    interval or cubature result. The next gate is outward value and mixed
+    Duffy-derivative enclosures for R2, R3 and R4 on a gap-stratified atlas,
+    followed by a determinant-preserving Jacobi remainder. No action-column
+    value, residual, exterior gap, K152 interval, source/ledger move, canon,
+    paper, public or physical claim follows.
+
     K279 closes the structural representation gate for every unresolved K179
     action-column order seven through twelve. Specieswise Andreief integration
     removes all exterior momenta from all 59,234 coherent Gram entries; every
@@ -8971,6 +8991,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K280 proves the complete order-seven face factorization and extends the
+  cancellation-preserving Bessel regularizer through size four. Construct
+  outward value and mixed Duffy-derivative enclosures for R2, R3 and the new
+  R4 on a gap-stratified rho/theta/simplex atlas. Reuse the 52 identical K186
+  functions only on K192's proved union; construct boxes for the 46 new
+  patterns and the residual noncoalescent faces. Preserve all 408 signed Gram
+  entries, 96 K179 paths, old-position Bessel factors and exact primitive gap
+  supports. Only after those outward boxes exist may the exact face weights be
+  composed with a determinant-preserving Jacobi remainder. Do not treat the
+  current high-precision controls as outward intervals or a numerical action
+  column.
+
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
   integrable radial origin. The complete family has 59,234 exact Gram entries;
@@ -9212,6 +9244,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K280 as the complete order-seven face atlas. The next admissible gate
+  is outward R2/R3/R4 value and mixed-derivative enclosure on a gap-stratified
+  radial/angular atlas, followed by determinant-preserving weighted cubature.
+  Raw nearly singular determinants, literal Leibniz expansion and omission of
+  the 24 size-four occurrences are inadmissible. K280 supplies no outward
+  cubature error, numerical action column, residual, exterior gap or K152
+  interval.
+
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued
   cumulative-time integrator and validate it first on the complete order-seven

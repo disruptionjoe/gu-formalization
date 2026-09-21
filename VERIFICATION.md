@@ -7,6 +7,33 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K280 order-seven Bessel Cauchy--Vandermonde face atlas (2026-09-21)
+
+K280 replays all `408` order-seven coherent Gram entries and serializes every
+species determinant. The exact occurrence census is `564` size one, `720`
+size two, `252` size three and `24` size four, for `1,560` total factors.
+The `996` nontrivial factors have `98` canonical position patterns: `72`
+size-two, `25` size-three and one size-four pattern.
+Exactly `52` patterns match K186 functions (`45` size two and `7` size three),
+while `46` are new. K192 boxes are reusable for the identical functions only
+on their proved union; K192 does not cover arbitrary gap ratios or serialize
+the residual noncoalescent face atlas.
+
+For each factor, K280 records canonical permutation sign, both Vandermonde gap
+families, every gap's primitive support and all Cauchy denominator supports.
+The rational identity
+`det[2/(T_i+U_j)] = 2^m V(T)V(U)/product_ij(T_i+U_j)` passes exactly for
+`m=1,...,4`. Andréief positivity defines a strictly positive Bessel/Cauchy
+regularizer, and mixed row/column divided differences extend it across
+coalescent faces without subtracting nearly equal raw determinants.
+
+All `196` pattern/profile controls are positive and agree below `3.51e-186`.
+Six near-face and `rho=2^-120` stress controls, including size four, agree
+below `1.23e-243`. These are high-precision controls, not outward intervals.
+K280 supplies no outward `R_2/R_3/R_4` enclosure, Duffy/Jacobi cubature error,
+action-column value, residual, exterior gap, K152 interval, physical state,
+source/ledger change, canon, paper or public claim.
+
 ## K279 higher-order Andréief structural closure (2026-09-21)
 
 K279 lifts K184's specieswise Andréief reduction from order six to every

@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-21 — K280 order-seven Bessel Cauchy--Vandermonde face atlas
+
+The complete order-seven family now has an exact cancellation-preserving face
+atlas. All 408 coherent Gram entries and 1,560 species determinant occurrences
+are serialized. The 996 nontrivial factors reduce to 98 canonical position
+patterns and include 24 occurrences of the new size-four stratum. Exact
+Cauchy--Vandermonde identities, positive regularizers and mixed divided-
+difference extensions pass through size four.
+
+Fifty-two patterns match K186 exactly and inherit K192 controls only on their
+proved certified union. Forty-six patterns are new, and K192's arbitrary-gap
+and residual noncoalescent-face gaps remain open.
+
+The next gate is outward value and mixed Duffy-derivative enclosures for
+`R_2`, `R_3` and `R_4`, then determinant-preserving weighted cubature. The
+high-precision face and small-radius controls are not outward intervals. The
+action column, residual, exterior gap, K152 interval, source/ledger, canon,
+paper and public posture remain open or unchanged.
+
 ## 2026-09-21 — K279 higher-order Andréief structural closure
 
 The complete unresolved K179 order-seven-through-twelve family now has one

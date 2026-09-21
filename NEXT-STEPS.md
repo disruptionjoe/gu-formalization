@@ -20,6 +20,19 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K280 ORDER-SEVEN BESSEL FACE ATLAS.** The complete 408-entry
+> order-seven family now has exact Cauchy--Vandermonde factors, primitive face
+> supports and cancellation-preserving regularizers through size four. The
+> 1,560 factor occurrences contain 996 nontrivial factors in 98 reusable
+> patterns, including 24 size-four occurrences. Reuse K192 only for the 52
+> identical patterns on its proved union; 46 patterns and the residual
+> noncoalescent faces are new work. Next, derive outward value and
+> mixed Duffy-derivative boxes for R2/R3/R4 on a gap-stratified atlas, then
+> compose the exact face weights with a determinant-preserving Jacobi
+> remainder. The present high-precision controls are not outward intervals or
+> an evaluated action column. See
+> `explorations/conditional-build/k280-order-seven-bessel-vandermonde-face-atlas-2026-09-21.md`.
+
 > **2026-09-21 K279 HIGHER-ORDER ANDRÉIEF STRUCTURAL CLOSURE.** Every
 > unresolved K179 order-seven-through-twelve coherent Gram entry now reduces
 > exactly to factorial-free species determinants, with integrable radial
