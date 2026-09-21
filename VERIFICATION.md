@@ -7,6 +7,39 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K272 K267 S6 invariant-moment compression pilot (2026-09-21)
+
+K272 tests a valid integration-level symmetry compression on two complete
+six-box S6 orbits from K267's fixed-high/high block: exceptional-high
+multiplicities zero and five. For each box, it compiles the exact signed
+degree-nine polynomial, proves a status-preserving permutation from the first
+box's coordinate order, pulls every monomial through that permutation, and
+sums exact coefficients before evaluating representative product moments.
+Every box's complete degree-ten-and-higher absolute remainder is retained.
+
+Both aggregated heads reproduce all ten stored K267 degree heads, the exact
+summed rational remainder, and the raw integral interval. Per orbit, direct
+enumeration evaluates `145830` polynomial monomials against moments; the
+aggregate evaluates `24090`, an exact reduction factor `4861/803`. However,
+both methods still require `257880` recurrence updates and `1842` tail-orbit
+evaluations, and the certified enclosure width is unchanged. Expanding K230's
+`219600` distinct Reynolds images naively would instead require `30744000`
+recurrence updates, about `119.22` times the six-box enumeration cost.
+
+The multiplicity-five orbit is a held-out control. An independent replay
+reverses raw allocation, factor recurrence, polynomial-term evaluation and
+box order; it reproduces all ten heads, the exact tail, aggregate coefficient
+hash, monomial counts and six coordinate permutations (`15/15` exact checks,
+`6/6` hostile checks). The producer passes `12/12` exact and `4/4` hostile
+checks.
+
+K272 therefore rejects this implementation as a total algebraic speedup:
+post-recurrence coefficient aggregation saves moment evaluation only. This is
+not a universal impossibility theorem for symmetry-aware compilation, and it
+adds no K218 region or full-integral, source, ledger, canon, paper, public or
+physical conclusion. R6 cancellation representation is the next reassessment
+item; routine collar expansion remains suspended until R9.
+
 ## K271 tight common-pi normalization re-enclosure (2026-09-21)
 
 K271 reuses the verified outward raw intervals from K265 through K269 and
