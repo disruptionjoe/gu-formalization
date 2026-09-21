@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8a53300acaf88cad7c3f38b61deb548bf9857e13
+revision_basis: 5d767b6fff3014c32d80706f42470a959d782983
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K273 concludes R6 of GU-REASSESS-20260921 by carrying K225's exact
+    double-anisotropy cancellation through the complete product-cosh measure
+    on K267's demanding fixed-high/high, exceptional-high-multiplicity-five
+    six-box orbit. The lower-corner monotone mixed-derivative majorant needs
+    27960 derivative-term evaluations versus K267's 257880 degree-nine
+    recurrence updates, an exact reduction factor 2149/233. But its rigorous
+    symmetric raw interval has width about 1.22118e-13, versus K267's
+    1.59939e-30, so it is about 7.63528e16 times wider and loses K267's
+    certified positive sign. Independent reverse-allocation replay reproduces
+    all fifteen rational pair majorants and the integrated bound. The tested
+    anisotropy majorant is therefore rejected for this case: cheaper but not
+    decision-grade. This does not rule out a sharper signed derivative
+    representation. R7a/R7b are next; routine collar expansion remains
+    suspended until R9. Source, ledger, canon and public posture do not move.
+
     K272 concludes R5 of GU-REASSESS-20260921 with a costed symmetry pilot on
     two complete six-box S6 orbits from K267's fixed-high/high block. Exact
     status-preserving coordinate pulls and coefficient aggregation reproduce

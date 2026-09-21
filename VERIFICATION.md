@@ -7,6 +7,38 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K273 K267 integrated anisotropy-factorization pilot (2026-09-21)
+
+K273 tests K225's exact double-anisotropy representation on K267's demanding
+`fixed_high_high`, exceptional-high-multiplicity-five complete six-box orbit.
+K225 is selected over determinant divided differences because it is an exact
+identity for the same original K218 core and already supplies a monotone mixed-
+derivative majorant. No determinant/divided-difference representation with a
+complete K267 product-cosh remainder is serialized.
+
+The K225 zero on zero- and single-exception strata writes the core as a sum of
+double integrals of mixed derivatives. Every positive denominator, logarithmic
+derivative and shared-load term decreases coordinatewise, so the exact
+lower-corner value uniformly bounds the full box. K273 integrates both
+anisotropy factors against the exact product-cosh measure and omits no Taylor
+degree. All fifteen exact rational pair majorants are independently reproduced
+from reversed raw allocations and transposed denominator rows.
+
+The factorized route uses `27960` derivative-term evaluations versus K267's
+`257880` degree-nine recurrence updates, an exact work reduction factor
+`2149/233`. Its rigorous symmetric raw interval nevertheless has width about
+`1.221180153799e-13`, compared with K267's `1.599390599676e-30`: about
+`7.635284051602e16` times wider. It also loses the stored positive sign.
+
+K273 therefore rejects this integrated unsigned anisotropy majorant for the
+selected case. The result is an evidenced method rejection, not a universal
+lower bound: a future signed cancellation-preserving derivative representation
+with a sharper uniform remainder remains logically possible. No K267
+certificate, new K218 region, full integral, source, ledger, canon, paper,
+public or physical conclusion changes. The producer passes `6/6` exact and
+`3/3` hostile checks; the independent replay passes `6/6` exact and `4/4`
+hostile checks.
+
 ## K272 K267 S6 invariant-moment compression pilot (2026-09-21)
 
 K272 tests a valid integration-level symmetry compression on two complete
