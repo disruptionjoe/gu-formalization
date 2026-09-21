@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-31"
+updated_at: "2026-09-21"
 ---
 
 # Next Steps For Contributors
@@ -19,6 +19,18 @@ updated_at: "2026-08-31"
 > it cannot stop work, reduce scale, or substitute maintenance. See
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
+
+> **2026-09-21 K279 HIGHER-ORDER ANDRÉIEF STRUCTURAL CLOSURE.** Every
+> unresolved K179 order-seven-through-twelve coherent Gram entry now reduces
+> exactly to factorial-free species determinants, with integrable radial
+> origin. The 59,234-entry family contains 169,209,864 literal products versus
+> a 7,213,716 determinant-cubic algebra proxy; exact signature memoization
+> removes none. Next, build one shared determinant-valued cumulative-time
+> integrator, validate it on complete order seven with separate radial-tail and
+> simplex-face errors, and report actual work/width before extending it. Do not
+> claim a numerical action column, residual, exterior gap or K152 interval from
+> the structural theorem. See
+> `explorations/conditional-build/k279-higher-order-andreief-structural-closure-2026-09-21.md`.
 
 > **2026-08-31 ADDITIVE CO-YONEDA AND LINEAR COHOMOLOGY CONSTRUCTED.**
 > Composition identifies the all-middle additive Burnside restriction-

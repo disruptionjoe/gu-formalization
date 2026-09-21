@@ -2,11 +2,27 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-26"
+updated_at: "2026-09-21"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-09-21 — K279 higher-order Andréief structural closure
+
+The complete unresolved K179 order-seven-through-twelve family now has one
+exact structural representation. Specieswise Andréief integration removes all
+exterior momenta from 59,234 coherent Gram entries, with exact cancellation of
+both normalized-wedge factors and radial-origin powers 6 through 11. Literal
+expansion would contain 169,209,864 products; the determinant algebra proxy is
+7,213,716 units. Every exact kernel signature is distinct modulo transpose, so
+memoization is rejected and the selected next route is one shared
+determinant-valued cumulative-time integrator, first certified on order seven.
+
+This closes representation, not numerical evaluation. The base action column,
+complete shifted residual, exterior gap, K152 interval and physical state
+remain open. `SC-META-53`, `LT-SM8`, `LT-GR6b`, `RA-F1`, `AC-F1`, canon,
+papers and public posture are unchanged.
 
 ## 2026-08-26 — Exceptional-point monodromy and branching-dictionary wave
 

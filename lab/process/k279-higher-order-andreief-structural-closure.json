@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K279-HIGHER-ORDER-ANDREIEF-STRUCTURAL-CLOSURE",
+  "created": "2026-09-21",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "carrier": "hard-core C3 tensor Gamma_-(L2(R;C4))",
+    "auxiliary_chart_shift": 256,
+    "seed_scope": "K162_zero_bath_seed_orbits",
+    "K179_family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "K279_selected_family_sha256": "d4c1e4f69218bdad566181451565be8d804a630cbf17ca038b65e5da466623e1"
+  },
+  "theorem": {
+    "statement": "For every K179 coherent Gram pair at orders seven through twelve, specieswise Andreief integration removes all exterior momenta; each product of Andreief factorials exactly cancels the two normalized-wedge factors, leaving factorial-free Bessel-kernel determinants on two positive cumulative-time simplices.",
+    "pair_form": "c_t c_u (2*pi)^(-(n+2)) integral exp(-256(sum s+sum v)) [2K1(T_old)][2K1(U_old)] product_species det[2K1(T_i+U_j)] ds dv",
+    "radialization": "rho=sum(s)+sum(v), theta=sum(s)/rho and two Delta_n simplex coordinates give rho^(2n+1); n+2 crude K1 factors leave rho^(n-1), integrable for every n=7..12.",
+    "all_orders_pass_factorial_cancellation": true,
+    "all_orders_pass_origin_integrability": true
+  },
+  "orders": [
+    {"order": 7, "paths": 96, "groups": 16, "maximum_group_size": 9, "gram_entries": 408, "literal_leibniz_terms": 7920, "determinant_cubic_arithmetic_proxy": 14664, "small_rho_power": 6, "exact_kernel_signatures": 408},
+    {"order": 8, "paths": 192, "groups": 23, "maximum_group_size": 24, "gram_entries": 1296, "literal_leibniz_terms": 58968, "determinant_cubic_arithmetic_proxy": 61344, "small_rho_power": 7, "exact_kernel_signatures": 1296},
+    {"order": 9, "paths": 256, "groups": 20, "maximum_group_size": 24, "gram_entries": 2368, "literal_leibniz_terms": 313344, "determinant_cubic_arithmetic_proxy": 158784, "small_rho_power": 8, "exact_kernel_signatures": 2368},
+    {"order": 10, "paths": 480, "groups": 28, "maximum_group_size": 50, "gram_entries": 6890, "literal_leibniz_terms": 2583072, "determinant_cubic_arithmetic_proxy": 586700, "small_rho_power": 9, "exact_kernel_signatures": 6890},
+    {"order": 11, "paths": 640, "groups": 24, "maximum_group_size": 50, "gram_entries": 12920, "literal_leibniz_terms": 16430400, "determinant_cubic_arithmetic_proxy": 1461520, "small_rho_power": 10, "exact_kernel_signatures": 12920},
+    {"order": 12, "paths": 1152, "groups": 33, "maximum_group_size": 120, "gram_entries": 35352, "literal_leibniz_terms": 149816160, "determinant_cubic_arithmetic_proxy": 4930704, "small_rho_power": 11, "exact_kernel_signatures": 35352}
+  ],
+  "totals": {
+    "paths": 2816,
+    "groups": 144,
+    "gram_entries": 59234,
+    "exact_kernel_signatures": 59234,
+    "literal_leibniz_terms": 169209864,
+    "determinant_cubic_arithmetic_proxy": 7213716,
+    "literal_to_determinant_proxy_ratio": 23.456685015046336
+  },
+  "representation_decision": {
+    "selected": "factorial_free_species_determinants_with_shared_cumulative_time_DAG",
+    "literal_leibniz_expansion": "rejected_as_primary_representation",
+    "exact_kernel_signature_memoization": "rejected_no_duplicates_beyond_transpose",
+    "cost_scope": "algebraic representation proxy only, not quadrature runtime or error",
+    "next_integrator": "one shared determinant-valued cumulative-time rule, validated first on complete order seven, with rho tail and theta/simplex face error separated before extending the same rule to orders eight through twelve"
+  },
+  "verification": {
+    "producer_exact_checks": "all finite census, cancellation, integrability and multiplicity checks pass",
+    "independent_replay": "7/7",
+    "hostile_controls": "5/5",
+    "exact_andreief_controls": "6/6 for multiplicities one through six"
+  },
+  "release_test": {
+    "all_59234_gram_entries_reduced": true,
+    "all_factorial_normalizations_cancel": true,
+    "all_radial_origins_integrable": true,
+    "exact_signature_deduplication_reduces_work": false,
+    "coefficient_complete_base_action_column_evaluated": false,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "ledger_effect": {
+    "SC-META-53": "UNCERTAIN_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED"
+  },
+  "next_condition": "Construct one shared determinant-valued cumulative-time integrator on the complete order-seven family. Separate rho-tail and theta/simplex-face error, preserve every K179 coefficient and coherent cross term, and require a decision-grade action-column error before extending to orders eight through twelve. Do not expand the 169,209,864 literal products or expect exact signature memoization to reduce the 59,234 entries.",
+  "claim_ceiling": "Exact repository-owned structural reduction and representation decision for the unresolved K179 order-seven-through-twelve coherent Gram families. All 59,234 Gram entries reduce to factorial-free species determinants and are integrable at the radial origin. No time integral, action-column value, complete residual, exterior gap, K152 interval, physical state, source claim, ledger row, canon, paper or public posture is changed."
+}

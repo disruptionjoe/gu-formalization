@@ -7,6 +7,34 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K279 higher-order Andréief structural closure (2026-09-21)
+
+K279 lifts K184's specieswise Andréief reduction from order six to every
+unresolved K179 order seven through twelve. It covers `2,816` coefficient-
+complete paths in `144` coherent output groups and all `59,234` unique
+self/cross Gram entries. For each species, the Andréief factorial cancels the
+two normalized-wedge factors exactly, leaving factorial-free determinants of
+the `2 K1(T_i+U_j)` kernel on two positive cumulative-time simplices.
+
+Joint radialization contributes `rho^(2n+1)`. The `n+2` crude Bessel factors
+leave `rho^(n-1)`, giving powers `6,...,11`; every remaining order is therefore
+integrable at the origin without determinant cancellation. Exact finite-
+measure Andréief controls pass for multiplicities one through six.
+
+Literal determinant expansion would contain `169,209,864` products. The
+sum-of-cubes determinant arithmetic proxy is `7,213,716`, a ratio of about
+`23.4567`. This is an algebraic representation comparison, not a runtime or
+quadrature-error estimate. Canonical kernel signatures remain distinct for all
+`59,234` entries modulo pair transpose, so exact memoization provides no
+reduction. The selected next gate is one shared determinant-valued cumulative-
+time integrator, validated first on complete order seven with separate radial-
+tail and simplex-face errors.
+
+The independent replay passes `7/7` checks and rejects `5/5` hostile changes.
+K279 evaluates no time integral and supplies no coefficient-complete action
+column, residual, exterior gap, scalar-center floor, K152 interval, physical
+state, source/ledger change, canon, paper or public claim.
+
 ## K278 full-domain Gram positivity (2026-09-21)
 
 K278 proves the sign of the complete K218 order-six scalar without extending
