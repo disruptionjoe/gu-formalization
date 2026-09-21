@@ -7,6 +7,37 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K274 complete-group one-axis exact-integration pilot (2026-09-21)
+
+K274 integrates auxiliary axis `1` over `[0,infinity)` for the complete
+1,864-term signed K218 group at arbitrary fixed positive values of the other
+seven coshes. With `x=tanh(t_1/2)`, each term becomes a proper even rational
+function on `[0,1]`. Exact rational partial fractions reconstruct every
+degree-three, -five and -seven denominator polynomial before endpoint
+evaluation.
+
+The primitive basis retains both endpoints. Its first element is
+`atanh(x/sqrt(lambda))/sqrt(lambda)` and higher repeated-pole elements follow
+an exact recurrence. Native participating loads form strict nested support
+chains, so distinct loads differ by at least one positive remaining cosh on
+the physical domain. A separate artificial `[257,257,258]` fixture exercises
+the confluent second-order-pole limit without dividing by a load difference.
+
+A reversed raw-allocation implementation independently evaluates the original
+hyperbolic integral by direct high-precision quadrature. It reproduces the
+generic exact-endpoint result to better than `1e-80`, reproduces the repeated-
+pole fixture, and rejects a truncated half-line and the wrong product-cosh
+measure. The producer passes `5/5` exact and `4/4` hostile checks; the
+independent replay passes `5/5` exact and `3/3` hostile checks.
+
+K274 therefore supplies an exact reduction of the full K218 signed integral
+from eight to seven dimensions. It requires 1,864 small exact decompositions
+per seven-coordinate evaluation and does not provide a uniform remainder for
+the remaining integral. It is retained as exact dimension reduction, not as a
+global sign certificate or a replacement for the completed collar route. No
+complete order-six error, K215, source, ledger, canon, paper, public or
+physical conclusion changes.
+
 ## K273 K267 integrated anisotropy-factorization pilot (2026-09-21)
 
 K273 tests K225's exact double-anisotropy representation on K267's demanding

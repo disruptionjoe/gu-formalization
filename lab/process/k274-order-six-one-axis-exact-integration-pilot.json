@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.0",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "input_sha256": {
+    "k185": "5e28b01d68fb5b696c32722fa60a2f965b659fbe0c04d9be931e5fa6139a89fd",
+    "k218": "e8c1495bfda43685d924cc910b0cda31a6b5ea006e7c276e240e6b2b656eff47",
+    "k273": "8f307e973050c9aa022d0886cf2fa61792b2ea42436f0e4cadc7388d2bbb848c"
+  },
+  "object": "Exact integration of auxiliary axis 1 over [0,infinity) for the complete 1,864-term signed K218 group at fixed remaining coordinates",
+  "selection": {
+    "axis": 1,
+    "reason": "Axis 1 has 8,680 participating denominator loads across the complete group, fewer than every other axis.",
+    "all_axis_participating_load_totals": [
+      10120,
+      8680,
+      17092,
+      13596,
+      13000,
+      15404,
+      14628,
+      11864
+    ]
+  },
+  "derivation": {
+    "chart": "x=tanh(t_1/2), so cosh(t_1)=(1+x^2)/(1-x^2), cosh(t_1)dt_1=2(1+x^2)/(1-x^2)^2 dx, and x runs from 0 to 1",
+    "term_form": "With k participating loads B_i+cosh(t_1), each term becomes 2(1+x^2)(1-x^2)^(k-2)/product_i((B_i+1)-(B_i-1)x^2), times its seven-coordinate rational prefactor.",
+    "primitive_basis": "After exact confluent partial fractions, integrate (lambda-x^2)^(-r). I_1=atanh(x/sqrt(lambda))/sqrt(lambda); I_r=x/[2 lambda (r-1)(lambda-x^2)^(r-1)]+(2r-3)I_(r-1)/[2 lambda(r-1)].",
+    "endpoints": "t_1=0 is x=0 and every basis primitive vanishes there; t_1=infinity is x=1, strictly below every lambda=(B+1)/(B-1)>1. I_1(1)=acosh(B)/(2 sqrt(lambda)).",
+    "coincident_load_control": "Equal B values are represented as repeated poles and evaluated by the recurrence. No coefficient divides by B_i-B_j, so the formula is the exact confluent limit."
+  },
+  "controls": {
+    "generic_remaining_coshes": [
+      "5/4",
+      "integrated",
+      "17/8",
+      "9/8",
+      "13/8",
+      "21/8",
+      "25/8",
+      "29/8"
+    ],
+    "generic_integrated_value_without_common_constant_or_pi8": "[2.14459671863734298811711806545321605199039558746085669276933412786905023654046579141314896814388467326663327275227747653286115387189873e-33 +/- 7.45e-168]",
+    "generic_stats": {
+      "participating_load_histogram": {
+        "3": 792,
+        "5": 600,
+        "7": 472
+      },
+      "total_participating_loads": 8680,
+      "terms_with_coincident_loads": 0,
+      "exact_polynomial_reconstructions": 1864,
+      "combined_nonzero_primitive_terms": 42,
+      "distinct_endpoint_nodes": 42,
+      "maximum_rational_coefficient_bits": 133
+    },
+    "coincident_remaining_coshes": [
+      "5/4",
+      "integrated",
+      "5/4",
+      "5/4",
+      "5/4",
+      "5/4",
+      "5/4",
+      "5/4"
+    ],
+    "coincident_integrated_value_without_common_constant_or_pi8": "0",
+    "coincident_stats": {
+      "participating_load_histogram": {
+        "3": 792,
+        "5": 600,
+        "7": 472
+      },
+      "total_participating_loads": 8680,
+      "terms_with_coincident_loads": 0,
+      "exact_polynomial_reconstructions": 1864,
+      "combined_nonzero_primitive_terms": 0,
+      "distinct_endpoint_nodes": 0,
+      "maximum_rational_coefficient_bits": 108
+    },
+    "native_load_separation": {
+      "strict_support_chains": 1864,
+      "minimum_support_increment": 1,
+      "consequence": "Every native participating load differs from the next by at least one positive remaining cosh, hence by at least one on the physical domain; native load coincidence is excluded rather than assumed away."
+    },
+    "artificial_confluent_control": {
+      "loads": [
+        "257",
+        "257",
+        "258"
+      ],
+      "contains_second_order_pole": true,
+      "integrated_value": "[7.548877583121786427420638653959292031481228757248255392238468412629452078385110709045731177260426372326758544201440571267930451064699533649340926e-6 +/- 2.31e-151]",
+      "purpose": "Exercises the exact repeated-pole limit required if a later specialization admits coincident loads."
+    }
+  },
+  "cost_and_coverage": {
+    "coverage": "The formula integrates the entire t_1 half-line for all 1,864 signed terms at arbitrary fixed positive remaining coshes, reducing the exact K218 integral from eight to seven dimensions without collars on t_1.",
+    "producer_exact_decompositions_per_seven_coordinate_evaluation": 1864,
+    "producer_linear_system_orders": [
+      3,
+      5,
+      7
+    ],
+    "comparison": "Unlike K265-K269 collars this covers a complete coordinate. It does not yet bound the remaining seven-dimensional signed integral; coefficient and transcendental endpoint growth must be controlled there before it can replace collars."
+  },
+  "decision": {
+    "result": "retain_as_exact_dimension_reduction_but_not_yet_global_certificate",
+    "r7a_disposition": "concluded_with_exact_reduction_and_remaining_applicability_debt",
+    "next_use": "R9 may retain the formula as a seven-dimensional integrand. Do not adopt it as a global certificate unless a uniform seven-dimensional remainder beats collar cost; compare R7b first."
+  },
+  "selftests": {
+    "exact_passed": 5,
+    "hostile_passed": 4
+  },
+  "claim_ceiling": "Exact one-axis dimension reduction and confluent endpoint formula for the complete K218 signed group, plus two fixed seven-coordinate controls. No uniform bound on the remaining seven-dimensional integral, full K218 sign, complete order-six error, K215, source, ledger, canon, paper, public-posture or physical conclusion."
+}
