@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K339 normalized residual composition
+
+- `channel-swings/k339_order_seven_normalized_residual_composition.py` replays
+  the K288/K305 coherent census and K294/K299 normalization, applies the native
+  `(2*pi)^-9` scalar once to K338's six-axis radius, and rejects relabelling
+  K334's y-Peano zeroth coefficient as the K299 one-node value.
+- `channel-swings/k339_order_seven_normalized_residual_composition_probe.py`
+  independently checks the normalized radius and exact censuses, passes ten
+  controls, and rejects sixteen normalization, typing and overclaim mutations.
+
 ## K338 complete gap-axis Peano bank
 
 - `channel-swings/k338_order_seven_complete_gap_axis_peano_bank.py` lifts the

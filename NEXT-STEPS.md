@@ -20,6 +20,19 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K339 NORMALIZED RESIDUAL COMPOSITION.** K339 replays the
+> complete K288/K305 coherent occurrence census and K294 normalization. K338
+> already includes the radial/projective density and all six Peano masses;
+> applying only `(2*pi)^-9` gives the finite order-seven Peano residual radius
+> `0.004477466184517202`. Do not multiply K294's bare mass again. K334's
+> zeroth coefficient is not the action value: it remains inside K318's
+> y-Peano atlas of mass `1/24`, while the K299 base rule needs
+> `F(p_i=1/6,y=1/2)`. Build a value-mode barycentric terminal-split atlas,
+> integrate the complete four-group K305 value functional over the full
+> radial/projective and eight-split domain, and only then join that value to
+> K339's separate residual radius. No base action column, complete `R_ref`
+> residual, K152 interval, or physical/source claim has been emitted.
+
 > **2026-09-22 K338 COMPLETE GAP-AXIS PEANO BANK.** K338 lifts K337 through
 > K329's degree-27 zero-safe origin, both K332 preconditioned projective faces,
 > and K333's analytic radial tails with exact powers 35/36/37. All 516 K334

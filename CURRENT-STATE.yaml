@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a77b6ef3d3c309286b0516d87c5dde85562355b3
+revision_basis: 990997b7f8e97c9f2a9478a4b8889556449fd82a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -278,6 +278,18 @@ current_result:
     with K334's y constant the six-axis upper is 68336.24793929. This releases
     K294 composition, but no complete K288/K305 action-column occurrence sum,
     action value, residual or native K152 interval has been evaluated.
+
+    K339 performs the normalization part of that composition and catches a
+    typed value/remainder mismatch before it can become an action-column
+    claim. K338 already contains K294's transformed radial/projective density
+    and all six K299 Peano masses; applying only the native `(2*pi)^-9`
+    factor gives the complete order-seven Peano residual radius
+    `0.004477466184517202` for the four K288/K305 coherent groups. K294's bare
+    mass is a replay control and is not multiplied again. K334's zeroth
+    coefficient remains inside K318's y-Peano atlas of exact mass `1/24`; it
+    is not `F(p_i=1/6,y=1/2)` and cannot be substituted for the K299 one-node
+    action value. The value-mode barycentric terminal-split integral, the
+    remaining action-column orders and the complete `R_ref` residual stay open.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9526,12 +9538,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K338 emits all five complete gap-axis Peano constants after evaluating every
-  accepted K334 finite leaf and analytic tail. With K334's y constant, the
-  released six-axis numerical remainder upper is 68336.24793929. Compose this
-  bank with K294's exact radial-simplex normalization inside the complete
-  K288/K305 coherent action-column occurrence sum. Evaluate the action value
-  and residual separately before any native K152 interval.
+  K339 composes K338's complete six-axis remainder bank with the native
+  `(2*pi)^-9` factor and gives the finite order-seven K288/K305 Peano residual
+  radius 0.004477466184517202 without multiplying K294's bare mass twice.
+  K334's zeroth coefficient is not the K299 one-node value because it remains
+  inside K318's y-Peano atlas of mass 1/24. Construct a value-mode barycentric
+  terminal-split atlas at p_i=1/6 and y=1/2, integrate the complete four-group
+  K305 value functional over the full radial/projective and eight-split domain,
+  then join that value to K339's separate residual radius. Only after the
+  remaining action-column orders and complete R_ref residual are composed may
+  a native K152 interval be considered.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
   pointwise bank. The released remainder bank is not an action-column value,
@@ -9778,6 +9794,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K339 as the accepted native normalization of the complete order-seven
+  Peano residual, with radius `0.004477466184517202`. Preserve its proof that
+  K334's zeroth coefficient remains a K318 y-Peano-atlas coefficient and is
+  not the K299 one-node action value. Construct a value-mode barycentric
+  terminal-split atlas at `p_i=1/6`, `y=1/2`, retaining the complete four-group
+  K305 bordered determinant, literal zeros and full radial/projective and
+  eight-split domain. Join that separately evaluated value only to K339's
+  residual radius; do not multiply K294's bare mass again. The other
+  action-column orders and complete `R_ref` residual remain separate before
+  any K152 interval.
+
   Treat K334 as the accepted complete y-master subdivision, K335 as the
   order-seven/eight zero-safe kernel extension, K336 as the complete
   axis-native direction/polynomial/shared-entry/degree map bank, K337 as the

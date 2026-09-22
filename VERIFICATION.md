@@ -7,6 +7,25 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K339 normalized residual composition (2026-09-22)
+
+K339 replays all 24 K288 stored occurrences, all four K305 coherent groups and
+their nine ordered terms, K294's exact whole-orthant normalization, and the
+distinct K299 one-node and Peano weights. K338 already contains the transformed
+radial/projective density and all six Peano masses, so K294's exact bare mass is
+a replay control rather than an additional multiplier. Applying the one
+outstanding native scalar `(2*pi)^-9` gives the rigorous complete order-seven
+Peano residual radius `0.004477466184517202`. The independent probe passes
+10/10 controls and rejects 16/16 hostile mutations.
+
+K339 also rejects an invalid action-value shortcut. K334 inherits K318's
+determinant-preserving y-endpoint atlas of exact Peano mass `1/24`; its zeroth
+coefficient remains inside that weighted remainder functional and is not the
+K299 node value `F(p_i=1/6,y=1/2)`. Thus no action value, complete base action
+column, complete `R_ref` residual, native K152 interval, or physical/source
+claim is emitted. A separate value-mode barycentric terminal-split integral is
+the exact next dependency.
+
 ## K338 complete gap-axis Peano bank (2026-09-22)
 
 K338 evaluates K337's shared-entry determinant construction on all 516

@@ -8,6 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-22 — K339 normalized residual composition
+
+K339 composes the K338 six-axis Peano bank with the native K288/K294 scalar
+normalization without applying any measure twice. The whole radial/projective
+density and all six Peano masses are already inside K338; applying the sole
+remaining `(2*pi)^-9` factor gives the complete order-seven Peano residual
+radius `0.004477466184517202` for the four-group K288/K305 occurrence sum.
+
+The same audit proves that K334's zeroth coefficient cannot supply the missing
+action value: K334 remains inside K318's y-Peano atlas of mass `1/24`, whereas
+the K299 base rule requires the value at `p_i=1/6, y=1/2`. The next exact input
+is therefore a value-mode barycentric terminal-split atlas over the full
+radial/projective and eight-split domain. The action value, complete base
+column, `R_ref` residual, K152 interval, source/ledger, canon, paper, public,
+and physical claims remain open or unchanged.
+
 ## 2026-09-22 — K338 complete gap-axis Peano bank
 
 K338 closes the five-axis numerical remainder gate left by K337. The same
