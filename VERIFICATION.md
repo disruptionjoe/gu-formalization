@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K312 adaptive boundary-cell measure foundation (2026-09-22)
+## K310--K313 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -35,6 +35,17 @@ passes 13/13 checks and rejects 9/9 hostile mutations.  A boundary-stable
 oracle for the complete scaled coherent operator remains open, so no y-master
 constant, gap-axis constants, K294 gamma join, action-column value, residual,
 K152 interval or physical claim is established.
+
+K313 applies K308's outward divided-difference operator to five uniformly
+scaled copies of its positive angular slab and four complete ratio-four
+radial shell slabs. Multiplication by the exact degree-27 normalization keeps
+all three spine components within 1.002 of their scale-one values down to
+scale 1/256. On each shell, `r^27` is bounded by the exact maximum radius;
+the resulting complete coherent value, first-y and second-y bounds remain
+finite, with last-to-first ratios below 1.001. The probe passes 12/12 checks
+and rejects 9/9 hostile mutations. This certifies only the four explicit
+interior shells: a continuous origin limit, repeated-node projective faces,
+terminal split faces and the complete y-master sum remain open.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 

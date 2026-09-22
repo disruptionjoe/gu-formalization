@@ -20,7 +20,7 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
-> **2026-09-22 K310--K312 ADAPTIVE BOUNDARY-CELL MEASURE FOUNDATION.** The
+> **2026-09-22 K310--K313 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with
 > `H=r^27*R4*R5_border`. K311 composes all three K302 terminal jets with the
@@ -28,8 +28,11 @@ updated_at: "2026-09-22"
 > polar power 32. K312 implements the positive cell measure over all sixteen
 > variables, including origin, infinite tail and every projective/split face;
 > its radial upper falls monotonically to 1.15056 times the exact mass at
-> depth eight. Next implement the boundary-stable scaled coherent-operator
-> oracle, integrate the complete y master, then reuse its accepted subdivision
+> depth eight. K313 certifies four explicit ratio-four interior radial shells
+> for the complete scaled coherent operator and records stable degree-27
+> controls down through scale 1/256. Next implement the repeated-node
+> projective-face oracle, join the terminal split adapter, integrate the
+> complete y master, then reuse its accepted subdivision
 > for the five gap axes. No complete Peano constant or K294 gamma join exists.
 
 > **2026-09-22 K301/K302 TERMINAL SPLIT CORRECTION AND REPAIR.** Every K288

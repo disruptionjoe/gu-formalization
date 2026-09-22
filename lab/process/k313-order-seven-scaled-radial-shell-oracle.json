@@ -1,0 +1,431 @@
+{
+  "claim_ceiling": "Rigorous outward value/first-y/second-y bounds for H=r^27*R4*R5_border on four explicit ratio-four radial shell slabs inside K308's positive angular cell, plus five finite degree-27 normalized spine controls. The shell bounds retain the complete coherent D4-times-bordered-B5 determinant and use exact radius maxima. They do not cover r=0 continuously, either projective radial face, terminal split faces, the full angular domain, a complete y or gap-axis Peano constant, K294 gamma strata, an action-column value or residual, a native K152 interval, or any source, ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "complete_y_master_constant_emitted": false,
+    "continuous_origin_oracle_implemented": false,
+    "degree_27_spine_stability_observed": true,
+    "five_gap_axis_constants_emitted": false,
+    "four_ratio_four_shells_certified": true,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "derive a repeated-node projective-face divided-difference oracle and join it to these interior shells before any complete y-master adaptive sum",
+    "projective_face_oracle_implemented": false,
+    "scaled_interior_shell_oracle_implemented": true,
+    "terminal_split_face_composed": false
+  },
+  "direction": "observed_to_native",
+  "dyadic_shell_oracle": {
+    "coverage": "four explicit closed radial shell slabs on the K308 interior angular cell",
+    "last_to_first_component_ratios": [
+      "1.000095911712081",
+      "1.0000947892617436",
+      "1.000098791966703"
+    ],
+    "outward_reason": "K308 bounds the raw regularized product over each union cell and r^27 is bounded by the exact shell radius maximum",
+    "rows": [
+      {
+        "bound_rule": "r^27 <= radius_max^27 on the complete shell slab",
+        "cell": {
+          "b": [
+            "1/128",
+            "1/8"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/64",
+            "1/8"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "lower_scale": "1/4",
+        "multiplier": "1/18014398509481984",
+        "radius_max": "1/4",
+        "raw_regularized_y_jet_abs_upper": [
+          "7.9511683132353715e+65",
+          "1.542273979207377e+68",
+          "3.891748720692993e+70"
+        ],
+        "scaled_y_jet_abs_upper": [
+          "4.4137850670119396e+49",
+          "8.561340409981451e+51",
+          "2.1603545178844294e+54"
+        ],
+        "upper_scale": "1"
+      },
+      {
+        "bound_rule": "r^27 <= radius_max^27 on the complete shell slab",
+        "cell": {
+          "b": [
+            "1/512",
+            "1/32"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/256",
+            "1/32"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "lower_scale": "1/16",
+        "multiplier": "1/324518553658426726783156020576256",
+        "radius_max": "1/16",
+        "raw_regularized_y_jet_abs_upper": [
+          "1.4324820346326919e+82",
+          "2.7785569403539065e+84",
+          "7.011390456236245e+86"
+        ],
+        "scaled_y_jet_abs_upper": [
+          "4.414176072473368e+49",
+          "8.562089621780109e+51",
+          "2.160551493033003e+54"
+        ],
+        "upper_scale": "1/4"
+      },
+      {
+        "bound_rule": "r^27 <= radius_max^27 on the complete shell slab",
+        "cell": {
+          "b": [
+            "1/2048",
+            "1/128"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/1024",
+            "1/128"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "lower_scale": "1/64",
+        "multiplier": "1/5846006549323611672814739330865132078623730171904",
+        "radius_max": "1/64",
+        "raw_regularized_y_jet_abs_upper": [
+          "2.5805478157395045e+98",
+          "5.005437100891735e+100",
+          "1.2630687660709862e+103"
+        ],
+        "scaled_y_jet_abs_upper": [
+          "4.4142061661529897e+49",
+          "8.562147610783758e+51",
+          "2.1605667995995054e+54"
+        ],
+        "upper_scale": "1/16"
+      },
+      {
+        "bound_rule": "r^27 <= radius_max^27 on the complete shell slab",
+        "cell": {
+          "b": [
+            "1/8192",
+            "1/512"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/4096",
+            "1/512"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "lower_scale": "1/256",
+        "multiplier": "1/105312291668557186697918027683670432318895095400549111254310977536",
+        "radius_max": "1/256",
+        "raw_regularized_y_jet_abs_upper": [
+          "4.648704025797317e+114",
+          "9.016998416910707e+116",
+          "2.275343614415071e+119"
+        ],
+        "scaled_y_jet_abs_upper": [
+          "4.4142084006944737e+49",
+          "8.562151933118449e+51",
+          "2.160567943556027e+54"
+        ],
+        "upper_scale": "1/64"
+      }
+    ],
+    "shell_ratio": 4
+  },
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "base_positive_angular_slab": {
+      "b": [
+        "1/32",
+        "1/8"
+      ],
+      "p": [
+        "1/8",
+        "5/24"
+      ],
+      "split": [
+        "1/4",
+        "3/4"
+      ],
+      "x": [
+        "1/16",
+        "1/8"
+      ],
+      "y": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    "predecessor_manifests": [
+      "lab/process/k308-order-seven-regularized-y-master-operator.json",
+      "lab/process/k310-order-seven-two-radius-origin-compactification.json",
+      "lab/process/k312-order-seven-positive-cell-measure-backend.json"
+    ],
+    "scaled_regularizer_degree": 27,
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "radial_spine_controls": {
+    "interpretation": "finite sampled controls of degree-27 normalization; not a proof of a continuous limit at r=0",
+    "last_to_first_component_ratios": [
+      "1.0011882787940374",
+      "1.0011648847572978",
+      "1.0012028971820033"
+    ],
+    "rows": [
+      {
+        "cell": {
+          "b": [
+            "1/32",
+            "1/8"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/16",
+            "1/8"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "multiplier": "1",
+        "normalization": "scale^27 * regularized-product jet bound",
+        "raw_regularized_y_jet_abs_upper": [
+          "4.408969315952765e+49",
+          "2.2262288512384374e+51",
+          "1.4345451542901956e+53"
+        ],
+        "scale": "1",
+        "scaled_y_jet_abs_upper": [
+          "4.4089693159527655e+49",
+          "2.2262288512384377e+51",
+          "1.4345451542901958e+53"
+        ]
+      },
+      {
+        "cell": {
+          "b": [
+            "1/128",
+            "1/32"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/64",
+            "1/32"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "multiplier": "1/18014398509481984",
+        "normalization": "scale^27 * regularized-product jet bound",
+        "raw_regularized_y_jet_abs_upper": [
+          "7.9511683132353715e+65",
+          "4.01470831428315e+67",
+          "2.5871004262414073e+69"
+        ],
+        "scale": "1/4",
+        "scaled_y_jet_abs_upper": [
+          "4.4137850670119396e+49",
+          "2.2286108038356016e+51",
+          "1.4361292301153837e+53"
+        ]
+      },
+      {
+        "cell": {
+          "b": [
+            "1/512",
+            "1/128"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/256",
+            "1/128"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "multiplier": "1/324518553658426726783156020576256",
+        "normalization": "scale^27 * regularized-product jet bound",
+        "raw_regularized_y_jet_abs_upper": [
+          "1.4324820346326919e+82",
+          "7.232888757811304e+83",
+          "4.660929717206132e+85"
+        ],
+        "scale": "1/16",
+        "scaled_y_jet_abs_upper": [
+          "4.414176072473368e+49",
+          "2.2288059268944945e+51",
+          "1.4362598577682596e+53"
+        ]
+      },
+      {
+        "cell": {
+          "b": [
+            "1/2048",
+            "1/512"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/1024",
+            "1/512"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "multiplier": "1/5846006549323611672814739330865132078623730171904",
+        "normalization": "scale^27 * regularized-product jet bound",
+        "raw_regularized_y_jet_abs_upper": [
+          "2.5805478157395045e+98",
+          "1.302970231537724e+100",
+          "8.39644386324333e+101"
+        ],
+        "scale": "1/64",
+        "scaled_y_jet_abs_upper": [
+          "4.4142061661529897e+49",
+          "2.2288210260189993e+51",
+          "1.4362700062686053e+53"
+        ]
+      },
+      {
+        "cell": {
+          "b": [
+            "1/8192",
+            "1/2048"
+          ],
+          "p": [
+            "1/8",
+            "5/24"
+          ],
+          "split": [
+            "1/4",
+            "3/4"
+          ],
+          "x": [
+            "1/4096",
+            "1/2048"
+          ],
+          "y": [
+            "1/4",
+            "3/4"
+          ]
+        },
+        "multiplier": "1/105312291668557186697918027683670432318895095400549111254310977536",
+        "normalization": "scale^27 * regularized-product jet bound",
+        "raw_regularized_y_jet_abs_upper": [
+          "4.648704025797317e+114",
+          "2.3472236847436235e+116",
+          "1.5125696567802463e+118"
+        ],
+        "scale": "1/256",
+        "scaled_y_jet_abs_upper": [
+          "4.4142084006944737e+49",
+          "2.228822151293502e+51",
+          "1.4362707646137478e+53"
+        ]
+      }
+    ]
+  },
+  "release_test": {
+    "all_scaled_bounds_finite_positive": true,
+    "complete_numerical_norm_overclaim": false,
+    "complete_origin_overclaim": false,
+    "native_K152_interval_emitted": false,
+    "projective_face_overclaim": false,
+    "shell_ratios_below_1_01": true,
+    "spine_ratios_below_1_01": true
+  },
+  "result_id": "K313-ORDER-SEVEN-SCALED-RADIAL-SHELL-ORACLE",
+  "schema_version": "1.0"
+}

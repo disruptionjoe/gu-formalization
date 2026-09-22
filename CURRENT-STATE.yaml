@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cf8ebb40eb7dea806ec988fe2ba3264d523aabfe
+revision_basis: 83670dfbda1b4abe44241e825ea876045216ac6d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -62,6 +62,16 @@ current_result:
     D4-times-bordered-B5 directional functional. No complete y-master or gap
     constant, K294 gamma join, exterior action-column value, residual or
     native K152 interval follows yet.
+
+    K313 supplies the first scaled coherent-operator cells. Five K308-derived
+    radial spines remain finite after degree-27 normalization down through
+    scale 1/256; their last-to-first value, first-y and second-y ratios are
+    all below 1.002. Four complete ratio-four shell slabs have rigorous
+    outward bounds for `H=r^27*R4*R5_border`, with last-to-first component
+    ratios below 1.001. These cells retain the complete coherent
+    D4-times-bordered-B5 functional, but cover only K308's positive interior
+    angular slab. The continuous origin, repeated-node projective faces,
+    terminal split faces and complete y-master sum remain open.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9313,9 +9323,10 @@ current_question: >-
   K310 fixes the origin compactification and scaled operator
   `H=r^27*R4*R5_border`; K311 closes the K302 terminal-entry radial moments;
   K312 supplies the positive 16-dimensional measure partition over the radial
-  origin/tail, projective faces and split faces. Implement the missing
-  boundary-stable scaled coherent-operator oracle on K312's cells next,
-  beginning with the complete y master. Adapt until its positive Peano sum has
+  origin/tail, projective faces and split faces. K313 supplies rigorous
+  degree-27-scaled bounds on four explicit interior radial shells. Implement
+  the repeated-node projective-face oracle next, join it to K313 and the K311
+  terminal adapter, then complete the y master. Adapt until its positive Peano sum has
   a finite certified constant, then reuse the accepted subdivision for all
   five Duffy axes. Retain the exact projective polynomial, every split
   variable and coherent bordered assembly. Only complete finite six-axis
@@ -9567,9 +9578,10 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Treat K310 as the exact radial blow-up, K311 as the terminal weighted-radial
-  adapter and K312 as the complete positive measure backend. Implement an
-  outward oracle for the scaled coherent D4-times-bordered-B5 y-directional
-  functional on each K312 cell, including repeated-node projective faces.
+  adapter, K312 as the complete positive measure backend and K313 as the
+  rigorous interior radial-shell oracle. Implement the repeated-node
+  projective-face divided-difference oracle for the scaled coherent
+  D4-times-bordered-B5 y-directional functional and join it to K313.
   Use K311 only inside the bordered column-replacement functional on terminal
   split cells. Adapt and sum the y master first, reuse its accepted cell
   subdivision for the five Duffy axes, and take coherent-group absolute values
