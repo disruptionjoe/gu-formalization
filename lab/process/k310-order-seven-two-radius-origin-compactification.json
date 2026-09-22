@@ -1,0 +1,83 @@
+{
+  "claim_ceiling": "Exact radial blow-up of the K309 factored integrand. With r=x+b and s=x/(x+b), x^3*b^29*dx*db becomes r^33*s^3*(1-s)^29 dr ds. The extracted b^18 Vandermonde leaves the divided-difference product at simultaneous degree -27, so H=r^27*R4*R5_border and the complete origin weight is exp(-256r)*r^6*s^3*(1-s)^29. This gives an exact finite origin measure and a cell-oracle contract, not a complete operator supremum, y-master Peano constant, six-axis norm, K294 gamma join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "compactification": {
+    "b_face_power": 29,
+    "complete_scaled_weight": "exp(-256*r)*r^6*s^3*(1-s)^29*H(r,s,angles) dr ds",
+    "detached_q_integration_used": false,
+    "domain": "r in [0,infinity), s in [0,1]",
+    "explicit_weight": "exp(-256*r)*r^33*s^3*(1-s)^29 dr ds",
+    "forward": {
+      "r": "x+b",
+      "s": "x/(x+b)"
+    },
+    "inverse": {
+      "b": "r*(1-s)",
+      "x": "r*s"
+    },
+    "jacobian": "dx db = r dr ds",
+    "origin_absolute_integrability_margin": 7,
+    "origin_radial_power": 6,
+    "scaled_regularizer": "H(r,s,angles)=r^27*R4*R5_border",
+    "x_face_power": 3
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "complete_y_master_constant_emitted": false,
+    "joint_origin_compactified": true,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "compose K302 terminal weighted jets with the compactified radial measure, then implement the positive cell-measure backend and its scaled-regularizer oracle contract",
+    "origin_cell_measure_finite": true,
+    "positive_argument_floor_required_at_origin": false,
+    "terminal_join_composed": false
+  },
+  "direction": "observed_to_native",
+  "exact_reference_masses": {
+    "product_before_angular_operator": {
+      "decimal": "6.104598742440377e-20",
+      "fraction": "3/49143279133866852352"
+    },
+    "projective_s3_one_minus_s29": {
+      "decimal": "6.109481915933529e-06",
+      "fraction": "1/163680"
+    },
+    "radial_r6": {
+      "decimal": "9.992007221626409e-15",
+      "fraction": "45/4503599627370496"
+    }
+  },
+  "fixed_control": {
+    "determinant_product_simultaneous_degree": -9,
+    "extracted_vandermonde_degree": 18,
+    "joint_radial_factor": "exp(-256*(x+b))*x^3*b^29",
+    "predecessor_manifests": [
+      "lab/process/k307-order-seven-two-radius-joint-chart.json",
+      "lab/process/k309-order-seven-gap-axis-transfer-audit.json"
+    ],
+    "regularized_product_simultaneous_degree": -27
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "operator_contract": {
+    "cell_oracle_input": "one closed r,s,Duffy,y,split cell",
+    "cell_oracle_output": "an outward upper bound for abs(H) or the required scaled directional jet on that cell",
+    "composition": "multiply the oracle bound by the positive exact/outward cell measure, then sum cells; take coherent-group absolute values only after bordered assembly",
+    "origin_cell_requires_positive_argument_floor": false,
+    "reason": "the r^27 scaling absorbs the complete determinant-product homogeneity before the origin is enclosed"
+  },
+  "release_test": {
+    "both_projective_radial_faces_integrable": true,
+    "complete_numerical_norm_overclaim": false,
+    "fixed_x_q_extraction_reintroduced": false,
+    "k307_margin_replayed": true,
+    "native_K152_interval_emitted": false,
+    "regularizer_scaling_uses_extracted_b18": true
+  },
+  "result_id": "K310-ORDER-SEVEN-TWO-RADIUS-ORIGIN-COMPACTIFICATION",
+  "schema_version": "1.0"
+}

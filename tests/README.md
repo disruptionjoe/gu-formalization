@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K310--K312 adaptive boundary-cell measure foundation
+
+- `channel-swings/k310_order_seven_two_radius_origin_compactification.py`
+  performs the exact radial blow-up, freezes the degree-27 scaled regularizer
+  and rejects six coordinate, scaling and closure overclaims.
+- `channel-swings/k311_order_seven_terminal_radial_join.py` composes the K302
+  weighted terminal jets with the explicit two-radius measure, emits exact
+  rational budgets and rejects six detached/closure mutations.
+- `channel-swings/k312_order_seven_positive_cell_measure_backend.py` covers
+  all sixteen measure axes, replays exact compact moments, verifies monotone
+  outward radial refinement and rejects nine coverage, coherence and
+  numerical-overclaim mutations.
+
 ## K307--K309 joint two-radius interval operator
 
 - `channel-swings/k307_order_seven_two_radius_joint_chart.py` replaces the

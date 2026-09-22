@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 738bce3c50bc729f9e8c63a4f25486ee8620fb84
+revision_basis: cf8ebb40eb7dea806ec988fe2ba3264d523aabfe
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,34 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K310 compactifies the simultaneous two-radius origin before interval
+    enclosure. With `r=x+b` and `s=x/(x+b)`, the explicit
+    `x^3*b^29 dx db` weight becomes
+    `r^33*s^3*(1-s)^29 dr ds`. The determinant product has simultaneous
+    degree minus nine and the extracted Vandermonde degree eighteen, so the
+    regularized product has degree minus twenty-seven. Defining
+    `H=r^27*R4*R5_border` leaves the complete origin weight
+    `exp(-256*r)*r^6*s^3*(1-s)^29`, with margin seven and no positive
+    Bessel-argument floor at `r=0`.
+
+    K311 composes K302's Peano-weighted terminal jets with the native
+    two-radius weight. The worst `1/x` term becomes `x^2*b^29`, whose polar
+    radial power is thirty-two and projective powers are two and twenty-nine.
+    Exact factorial-over-256 moments give finite rational budgets for B0,
+    B1 and B2. These budgets are adapters inside the complete regularized
+    bordered determinant, not detached cofactor bounds.
+
+    K312 implements the positive measure half of the adaptive cell engine.
+    It covers the radial origin and infinite tail plus `s`, all five Duffy
+    axes, `y` and all eight split variables, including every endpoint face.
+    Exact polynomial moments replay the compact-axis masses. Rational outward
+    radial bounds at depths two, four, six and eight monotonically narrow from
+    13.9668 to 1.15056 times the exact `r^6` mass. The missing component is a
+    boundary-stable oracle for the complete scaled coherent
+    D4-times-bordered-B5 directional functional. No complete y-master or gap
+    constant, K294 gamma join, exterior action-column value, residual or
+    native K152 interval follows yet.
+
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
     `exp(-256*(x+b))*x^3*b^11`, and all sixteen cumulative Bessel arguments
@@ -9282,20 +9310,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K307 proves that `b=x*q`, not fixed-x q integration, is the correct joint
-  radial chart and gives a two-radius origin margin seven. K308 implements the
-  outward divided-difference D4-times-bordered-B5 operator for the y master on
-  positive cells, while K309 compiles the same architecture for all five
-  affine Duffy axes and preserves the complete K296/K300 face cover. Implement
-  the adaptive outward boundary-cell integrator next: start with joint
-  `(x,b)` origin cells and the K302 terminal split joins for the y master,
-  retain `exp(-256*(x+b))*x^3*b^29`, the projective polynomial, all split
-  variables and coherent group assembly, then reuse the accepted subdivision
-  for the five gap axes. Only complete finite six-axis Peano constants may
-  reopen K294's gamma join. Do not return to fixed-x q extraction, detached
-  cofactors, occurrencewise absolute values, K302-marginal times an
-  unregularized supremum, or K290's superseded pointwise bank. No exterior
-  action-column value, complete residual or native K152 interval follows yet.
+  K310 fixes the origin compactification and scaled operator
+  `H=r^27*R4*R5_border`; K311 closes the K302 terminal-entry radial moments;
+  K312 supplies the positive 16-dimensional measure partition over the radial
+  origin/tail, projective faces and split faces. Implement the missing
+  boundary-stable scaled coherent-operator oracle on K312's cells next,
+  beginning with the complete y master. Adapt until its positive Peano sum has
+  a finite certified constant, then reuse the accepted subdivision for all
+  five Duffy axes. Retain the exact projective polynomial, every split
+  variable and coherent bordered assembly. Only complete finite six-axis
+  Peano constants may reopen K294's gamma join. Do not return to fixed-x q
+  extraction, detached cofactors, occurrencewise absolute values,
+  K302-marginal times an unregularized supremum, or K290's superseded
+  pointwise bank. No exterior action-column value, complete residual or native
+  K152 interval follows yet.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9538,13 +9566,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K307 as the joint radial theorem, K308 as the executable outward
-  y-master kernel and K309 as the five-axis structural transfer. Build an
-  adaptive outward cell decomposition that covers the simultaneous `(x,b)`
-  origin, all projective faces and the terminal K302 split joins without
-  replacing the regularized determinant by a detached supremum. Integrate the
-  y master first with the exact Peano kernel, reuse its accepted two-radius
-  subdivision for the five Duffy axes, and sum coherent group absolute values
+  Treat K310 as the exact radial blow-up, K311 as the terminal weighted-radial
+  adapter and K312 as the complete positive measure backend. Implement an
+  outward oracle for the scaled coherent D4-times-bordered-B5 y-directional
+  functional on each K312 cell, including repeated-node projective faces.
+  Use K311 only inside the bordered column-replacement functional on terminal
+  split cells. Adapt and sum the y master first, reuse its accepted cell
+  subdivision for the five Duffy axes, and take coherent-group absolute values
   only after bordered assembly. K294's gamma join remains closed until all six
   finite constants exist. No exterior value, action-column value, complete
   residual or native K152 interval follows yet.

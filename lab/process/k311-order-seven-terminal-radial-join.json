@@ -1,0 +1,150 @@
+{
+  "boundary_audit": {
+    "b_face_integrable": true,
+    "minimum_one_minus_s_power": 29,
+    "minimum_polar_radial_power": 32,
+    "minimum_s_power": 2,
+    "origin_integrable": true,
+    "terminal_split_cutoff_used": false,
+    "x_face_integrable": true
+  },
+  "claim_ceiling": "Exact integration of K302's three Peano-weighted terminal entry envelopes against K309's explicit exp(-256(x+b))*x^3*b^29 two-radius weight. The worst 1/x term becomes x^2*b^29 and has polar radial power 32, so the terminal split and simultaneous radial origin are jointly finite with exact rational budgets. The adapter must still be inserted inside each complete regularized bordered determinant; this is not a detached cofactor bound, complete bordered constant, y-master Peano norm, six-axis norm, K294 gamma join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition_contract": {
+    "detached_cofactor_bound_licensed": false,
+    "insertion_point": "inside each complete regularized bordered-B5 column replacement, after the other coherent columns remain assembled",
+    "what_is_integrated": "only the K302 Peano-kernel-weighted terminal entry jet against the explicit x^3*b^29 two-radius weight",
+    "what_remains_joint": "D4, the other bordered columns, projective polynomial, all coherent signs, and the remaining split dependence"
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_three_terminal_jets_have_exact_radial_budgets": true,
+    "complete_bordered_determinant_constant_emitted": false,
+    "complete_y_master_constant_emitted": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "use these exact terminal budgets inside the positive cell backend while a scaled regularizer oracle encloses the remaining coherent bordered columns",
+    "terminal_split_and_radial_origin_join_finite": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "explicit_radial_weight": "exp(-256*(x+b))*x^3*b^29 dx db",
+    "predecessor_manifests": [
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+      "lab/process/k310-order-seven-two-radius-origin-compactification.json"
+    ],
+    "rate": 256,
+    "terminal_bounds": {
+      "B0": {
+        "strict": true,
+        "upper": "1/x"
+      },
+      "B1": {
+        "strict": true,
+        "upper": "1/4+2/x"
+      },
+      "B2": {
+        "strict": true,
+        "upper": "3*x/8+6/x"
+      },
+      "definition": "B_m(x)=integral_0^1 K(y) integral_[0,1]^2 abs(d_y^m[2*K1(x*(y*a+(1-y)*b))]) da db dy",
+      "proof_partition": {
+        "K_over_z": "with m=min(y,1-y), z>=m*(a+b) and K=m^2/2, K/z<=1/[4*(a+b)]",
+        "elementary_integral": "integral_[0,1]^2 da db/(a+b)=2*log(2)<2",
+        "first_derivative_terms": "K*abs(a-b)/z<=1/4 and K*abs(a-b)/z^2<=1/[2*(a+b)]",
+        "second_derivative_cubic_term": "K*J2<=3 by symmetry and the y<=1/2 split: y^2*I(y,1-y)<=1 and y^2*I(1-y,y)<=2",
+        "second_derivative_linear_term": "K*(a-b)^2/z<=m*(a+b)/2<= (a+b)/4"
+      }
+    }
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "moment_identity": "integral exp(-lambda*(x+b))*x^a*b^c dx db = a!*c!/lambda^(a+c+2)",
+  "release_test": {
+    "K302_bounds_replayed": true,
+    "complete_numerical_norm_overclaim": false,
+    "detached_unregularized_cofactor_used": false,
+    "minimum_radial_power_strictly_integrable": true,
+    "native_K152_interval_emitted": false,
+    "radial_gamma_join_emitted": false
+  },
+  "result_id": "K311-ORDER-SEVEN-TERMINAL-RADIAL-JOIN",
+  "schema_version": "1.0",
+  "terminal_weighted_radial_budgets": [
+    {
+      "jet": "B0",
+      "terms": [
+        {
+          "b_power": 29,
+          "coefficient": "1",
+          "contribution": "263505041412702261046875/441711766194596082395824375185729628956870974218904739530401550323154944",
+          "moment": "263505041412702261046875/441711766194596082395824375185729628956870974218904739530401550323154944",
+          "one_minus_s_power": 29,
+          "polar_radial_power": 32,
+          "s_power": 2,
+          "x_power": 2
+        }
+      ],
+      "upper_decimal": "5.965542726715936e-49",
+      "upper_fraction": "263505041412702261046875/441711766194596082395824375185729628956870974218904739530401550323154944"
+    },
+    {
+      "jet": "B1",
+      "terms": [
+        {
+          "b_power": 29,
+          "coefficient": "1/4",
+          "contribution": "790515124238106783140625/452312848583266388373324160190187140051835877600158453279131187530910662656",
+          "moment": "790515124238106783140625/113078212145816597093331040047546785012958969400039613319782796882727665664",
+          "one_minus_s_power": 29,
+          "polar_radial_power": 33,
+          "s_power": 3,
+          "x_power": 3
+        },
+        {
+          "b_power": 29,
+          "coefficient": "2",
+          "contribution": "263505041412702261046875/220855883097298041197912187592864814478435487109452369765200775161577472",
+          "moment": "263505041412702261046875/441711766194596082395824375185729628956870974218904739530401550323154944",
+          "one_minus_s_power": 29,
+          "polar_radial_power": 32,
+          "s_power": 2,
+          "x_power": 2
+        }
+      ],
+      "upper_decimal": "1.1948562629389047e-48",
+      "upper_fraction": "540448839937452337407140625/452312848583266388373324160190187140051835877600158453279131187530910662656"
+    },
+    {
+      "jet": "B2",
+      "terms": [
+        {
+          "b_power": 29,
+          "coefficient": "3/8",
+          "contribution": "2371545372714320349421875/57896044618658097711785492504343953926634992332820282019728792003956564819968",
+          "moment": "790515124238106783140625/7237005577332262213973186563042994240829374041602535252466099000494570602496",
+          "one_minus_s_power": 29,
+          "polar_radial_power": 34,
+          "s_power": 4,
+          "x_power": 4
+        },
+        {
+          "b_power": 29,
+          "coefficient": "6",
+          "contribution": "790515124238106783140625/220855883097298041197912187592864814478435487109452369765200775161577472",
+          "moment": "263505041412702261046875/441711766194596082395824375185729628956870974218904739530401550323154944",
+          "one_minus_s_power": 29,
+          "polar_radial_power": 32,
+          "s_power": 2,
+          "x_power": 2
+        }
+      ],
+      "upper_decimal": "3.579366598160711e-48",
+      "upper_fraction": "207231168273646978879965421875/57896044618658097711785492504343953926634992332820282019728792003956564819968"
+    }
+  ]
+}

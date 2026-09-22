@@ -7,6 +7,35 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K310--K312 adaptive boundary-cell measure foundation (2026-09-22)
+
+K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
+interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
+`r^33*s^3*(1-s)^29 dr ds`.  The determinant product has simultaneous degree
+`-9`; after extracting the degree-18 Vandermonde, the divided-difference
+product has degree `-27`.  Thus `H=r^27*R4*R5_border` leaves the complete
+origin weight `e^-256r r^6 s^3(1-s)^29`, reproducing K307's margin seven.
+The probe passes 9/9 checks and rejects 6/6 hostile mutations.
+
+K311 integrates K302's Peano-weighted B0/B1/B2 terminal envelopes against
+the explicit two-radius weight.  The identity
+`integral e^-lambda(x+b) x^a b^c dx db = a! c! / lambda^(a+c+2)` gives exact
+rational budgets.  The worst `1/x` term becomes `x^2*b^29`, with polar power
+32 and no split cutoff.  These are terminal-entry adapters inside the
+complete bordered determinant, not detached cofactor bounds.  The probe
+passes 10/10 checks and rejects 6/6 hostile mutations.
+
+K312 implements the positive measure backend over all sixteen integration
+dimensions: the radial origin and infinite tail, the two-radius projective
+coordinate, five Duffy axes, `y`, and eight split variables. Exact polynomial
+cell moments replay every compact-axis mass including endpoint faces.
+Rational outward exponential bounds at radial depths 2, 4, 6 and 8 decrease
+monotonically from 13.9668 to 1.15056 times the exact `r^6` mass.  The probe
+passes 13/13 checks and rejects 9/9 hostile mutations.  A boundary-stable
+oracle for the complete scaled coherent operator remains open, so no y-master
+constant, gap-axis constants, K294 gamma join, action-column value, residual,
+K152 interval or physical claim is established.
+
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 
 K307 replaces the premature fixed-`x` `q` integration by the native joint

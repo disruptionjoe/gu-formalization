@@ -1,0 +1,214 @@
+{
+  "adaptive_contract": {
+    "cell_contribution": "positive_measure_upper * operator_oracle_upper",
+    "cell_key_order": [
+      "r",
+      "s",
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "y",
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "z0",
+      "z1",
+      "z2",
+      "z3"
+    ],
+    "coherent_absolute_value_after_bordered_assembly": true,
+    "operator_oracle_required": "outward abs bound for the exact projective polynomial times the complete scaled coherent D4-times-bordered-B5 directional functional on the same closed cell",
+    "positive_measure_only": true,
+    "refinement_priority": "largest certified contribution or widest unresolved face-sensitive axis",
+    "terminal_adapter": "use K311 inside the bordered determinant functional on cells meeting u3=1 or z3=1; never request a positive pointwise terminal floor"
+  },
+  "claim_ceiling": "Executable deterministic positive cell-measure backend for the K309/K310 compactification. Exact polynomial moments partition s, all five Duffy axes, y and all eight split axes including their faces; rational outward exponential bounds cover the radial origin and infinite tail, with four refinements monotonically approaching the exact r^6 mass from above. The backend specifies how a complete scaled coherent-operator oracle is multiplied and adaptively summed, and routes terminal split cells through K311 inside the bordered determinant. It does not yet implement that operator oracle, emit a complete y-master or gap-axis constant, join K294 gamma strata, evaluate an action column or residual, emit a K152 interval, or move source/ledger, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "compact_axis_backend": {
+    "duffy_axes": [
+      {
+        "axis": "t0",
+        "cells": 2,
+        "exact_mass": "1/5",
+        "exact_replay": true,
+        "includes_both_faces": true,
+        "partition_mass": "1/5",
+        "weight_exponent": 4
+      },
+      {
+        "axis": "t1",
+        "cells": 2,
+        "exact_mass": "1/4",
+        "exact_replay": true,
+        "includes_both_faces": true,
+        "partition_mass": "1/4",
+        "weight_exponent": 3
+      },
+      {
+        "axis": "t2",
+        "cells": 2,
+        "exact_mass": "1/3",
+        "exact_replay": true,
+        "includes_both_faces": true,
+        "partition_mass": "1/3",
+        "weight_exponent": 2
+      },
+      {
+        "axis": "t3",
+        "cells": 2,
+        "exact_mass": "1/2",
+        "exact_replay": true,
+        "includes_both_faces": true,
+        "partition_mass": "1/2",
+        "weight_exponent": 1
+      },
+      {
+        "axis": "t4",
+        "cells": 2,
+        "exact_mass": "1",
+        "exact_replay": true,
+        "includes_both_faces": true,
+        "partition_mass": "1",
+        "weight_exponent": 0
+      }
+    ],
+    "s_axis": {
+      "cells": 4,
+      "exact_mass": "1/163680",
+      "exact_replay": true,
+      "includes_x_and_b_faces": true,
+      "partition_mass": "1/163680",
+      "weight": "s^3*(1-s)^29"
+    },
+    "uniform_axes": {
+      "all_endpoint_faces_included": true,
+      "axes": [
+        "y",
+        "u0",
+        "u1",
+        "u2",
+        "u3",
+        "z0",
+        "z1",
+        "z2",
+        "z3"
+      ],
+      "cells_per_axis": 2,
+      "partition_mass_per_axis": "1"
+    }
+  },
+  "coverage": {
+    "compact_dimensions": 15,
+    "duffy_endpoint_faces": 10,
+    "missing_measure_cells": 0,
+    "radial_origin_and_infinite_tail": true,
+    "split_endpoint_faces": 16,
+    "total_dimensions_with_radial": 16,
+    "two_radius_projective_faces": 2,
+    "y_endpoint_faces": 2
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_projective_and_split_axes_partitioned": true,
+    "complete_y_master_constant_emitted": false,
+    "five_gap_axis_constants_emitted": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "implement a boundary-stable scaled coherent-operator oracle on this cell contract, begin with the y master, and adapt until its complete positive Peano sum has a certified finite constant",
+    "positive_cell_measure_backend_implemented": true,
+    "radial_origin_and_tail_covered": true,
+    "scaled_regularizer_oracle_implemented": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "all_arithmetic_except_display_decimals": "fractions.Fraction",
+    "predecessor_manifests": [
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k310-order-seven-two-radius-origin-compactification.json",
+      "lab/process/k311-order-seven-terminal-radial-join.json"
+    ],
+    "radial_rate": 256,
+    "radial_reference_power": 6,
+    "rational_exponential_upper_order": 256
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "radial_backend": {
+    "finite_cell_rule": "exp(-256*a)*(b^(n+1)-a^(n+1))/(n+1), with exp(-z) outward-bounded by (1+z/256)^-256",
+    "monotone_improvement": true,
+    "refinement_replay": [
+      {
+        "covers_infinite_tail": true,
+        "covers_origin": true,
+        "depth": 2,
+        "endpoint": "1/16",
+        "exact_total": "45/4503599627370496",
+        "finite_cells": 4,
+        "finite_upper_decimal": "1.39491523693142976e-13",
+        "tail_upper_decimal": "6.46951795956053479e-17",
+        "total_upper_decimal": "1.39556218872738605e-13",
+        "upper_contains_exact": true,
+        "upper_ratio": "13.966785229166687"
+      },
+      {
+        "covers_infinite_tail": true,
+        "covers_origin": true,
+        "depth": 4,
+        "endpoint": "1/16",
+        "exact_total": "45/4503599627370496",
+        "finite_cells": 16,
+        "finite_upper_decimal": "1.87741092983603339e-14",
+        "tail_upper_decimal": "6.46951795956053479e-17",
+        "total_upper_decimal": "1.88388044779559406e-14",
+        "upper_contains_exact": true,
+        "upper_ratio": "1.8853873961561778"
+      },
+      {
+        "covers_infinite_tail": true,
+        "covers_origin": true,
+        "depth": 6,
+        "endpoint": "1/16",
+        "exact_total": "45/4503599627370496",
+        "finite_cells": 64,
+        "finite_upper_decimal": "1.25529877517209088e-14",
+        "tail_upper_decimal": "6.46951795956053479e-17",
+        "total_upper_decimal": "1.26176829313165156e-14",
+        "upper_contains_exact": true,
+        "upper_ratio": "1.2627776032834694"
+      },
+      {
+        "covers_infinite_tail": true,
+        "covers_origin": true,
+        "depth": 8,
+        "endpoint": "1/16",
+        "exact_total": "45/4503599627370496",
+        "finite_cells": 256,
+        "finite_upper_decimal": "1.14316207658531018e-14",
+        "tail_upper_decimal": "6.46951795956053479e-17",
+        "total_upper_decimal": "1.14963159454487070e-14",
+        "upper_contains_exact": true,
+        "upper_ratio": "1.150551204623473"
+      }
+    ],
+    "tail_rule": "n!/256^(n+1)*exp(-256R)*sum_(k=0)^n (256R)^k/k!, using the same rational exponential upper"
+  },
+  "release_test": {
+    "all_five_duffy_partitions_exact": true,
+    "complete_numerical_norm_overclaim": false,
+    "detached_operator_supremum_used": false,
+    "four_radial_refinements_contain_exact_mass": true,
+    "native_K152_interval_emitted": false,
+    "radial_upper_monotonically_improves": true,
+    "s_partition_exact": true,
+    "terminal_cutoff_used": false
+  },
+  "result_id": "K312-ORDER-SEVEN-POSITIVE-CELL-MEASURE-BACKEND",
+  "schema_version": "1.0"
+}
