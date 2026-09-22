@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K319 adaptive boundary-cell foundation (2026-09-22)
+## K310--K320 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -101,6 +101,17 @@ before absolute enclosure. The probe passes 15/15 checks and rejects 18/18
 hostile mutations. Because radial-projective coverage and outward complete-
 determinant uppers are still absent, no complete y-master constant, five-gap
 transfer or K294 gamma join is claimed.
+
+K320 replaces direct zero-touching `K_nu` calls by the scaled endpoint bank
+`Phi_m(w)=w^(m+1)*(2*K1)^(m)(w)` for `m=0,1,2`. In terms of
+`A=w*K1(w)` and `B=w*K0(w)`, the exact formulas have continuous zero limits
+`2,-2,4`; four positive-scale Arb controls replay the derivative recurrence.
+Exact rational determinant controls verify the left column scaling and right
+row/column scaling used to keep chart weights inside the full bordered
+assembly. Every weighted terminal occurrence has remaining endpoint power
+`2-m`, so the minimum is zero. The probe passes 12/12 checks and rejects
+14/14 hostile mutations. The `r,s` radial-projective join, complete chart
+determinant uppers and numerical y constant remain open.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 
