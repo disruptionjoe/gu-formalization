@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8c95375b949bbe53f3cc3a02e36acbfdfda20ee7
+revision_basis: 738bce3c50bc729f9e8c63a4f25486ee8620fb84
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,37 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K307 replaces the premature fixed-x q integration by the joint native
+    radius `b=x*q`. The exact density becomes
+    `exp(-256*(x+b))*x^3*b^11`, and all sixteen cumulative Bessel arguments
+    are affine in `(x,b)`. The common D4 and coherent bordered B5 have leading
+    simultaneous degrees minus four and minus five. With the density and
+    two-radius area their product has origin exponent six and absolute-
+    integrability margin seven, including dimensionless angular derivatives
+    through order two. Thus K304's x^-6, x^-5 and x^-4 powers are artifacts of
+    detached q integration after determinant zeros were discarded, not a
+    divergence theorem for the joint functional.
+
+    K308 implements an outward regularized y-master operator. It extracts the
+    full odd-node Vandermondes from D4 and the first-three even-node
+    Vandermondes from the coherent bordered determinant, then evaluates the
+    regularizers by mixed Newton/Hermite divided differences. Complete
+    monotonicity of 2*K1 and the full five-column replacement rule give finite
+    Arb value, first-y and second-y derivative constants on an explicit
+    positive two-radius cell. Exact rational and three shrinking-scale Bessel
+    controls reproduce both unregularized determinants. K302 remains the
+    terminal weighted adapter inside the regularized determinant.
+
+    K309 transfers that operator architecture to all five affine Duffy gap
+    axes. The exact factored radial weight is
+    `exp(-256*(x+b))*x^3*b^29`; the largest required kernel derivative orders
+    are eight for D4 and six for bordered B5. All six one-gap, fifteen
+    codimension-two and three endpoint classes retain their positive margins.
+    The six master axes now have one executable regularized operator
+    specification, but the adaptive two-radius/terminal boundary-cell
+    integration and complete numerical Peano constants remain open. K294's
+    gamma join remains closed.
+
     K305 restores each K288 coherent group before enclosure and proves that
     its six stored upper-triangle occurrence patterns are the exact cofactor
     expansion of one bordered five-by-five determinant. The full ordered
@@ -8572,6 +8603,9 @@ current_result:
     coefficientwise A,C packet, global domain, BFV and positive
     cohomology/superposition now route to K129.
   evidence:
+    - lab/process/k309-order-seven-gap-axis-transfer-audit.json
+    - lab/process/k308-order-seven-regularized-y-master-operator.json
+    - lab/process/k307-order-seven-two-radius-joint-chart.json
     - lab/process/k306-order-seven-joint-template-support-audit.json
     - lab/process/k305-order-seven-coherent-bordered-functional-compiler.json
     - lab/process/k304-order-seven-peano-norm-sufficiency-audit.json
@@ -9248,21 +9282,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K305 compresses K304's 108 joint pattern/axis/order obligations into 72
-  exact coherent bordered-determinant master functionals with 1,160 complete
-  column-replacement slots. K306 proves that K296/K300's six one-gap,
-  fifteen codimension-two and three endpoint chart classes retain their exact
-  q/x/projective support and integrability margins under this regrouping.
-  Implement one outward interval operator for the regularized common
-  size-four determinant times the bordered five-by-five determinant and its
-  complete first/second column replacements. Start with the y master, then
-  reuse the same operator for the five gap axes. Preserve the exact
-  exponential, Cauchy denominators, projective weight and split variables
-  through joint q/projective integration. Do not return to detached
-  cofactors, occurrencewise absolute values, K302-marginal times supremum, or
-  K290's superseded pointwise bank. Only finite outward constants may reopen
-  K294's gamma join; no exterior action-column value, complete residual or
-  native K152 interval follows yet.
+  K307 proves that `b=x*q`, not fixed-x q integration, is the correct joint
+  radial chart and gives a two-radius origin margin seven. K308 implements the
+  outward divided-difference D4-times-bordered-B5 operator for the y master on
+  positive cells, while K309 compiles the same architecture for all five
+  affine Duffy axes and preserves the complete K296/K300 face cover. Implement
+  the adaptive outward boundary-cell integrator next: start with joint
+  `(x,b)` origin cells and the K302 terminal split joins for the y master,
+  retain `exp(-256*(x+b))*x^3*b^29`, the projective polynomial, all split
+  variables and coherent group assembly, then reuse the accepted subdivision
+  for the five gap axes. Only complete finite six-axis Peano constants may
+  reopen K294's gamma join. Do not return to fixed-x q extraction, detached
+  cofactors, occurrencewise absolute values, K302-marginal times an
+  unregularized supremum, or K290's superseded pointwise bank. No exterior
+  action-column value, complete residual or native K152 interval follows yet.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9505,20 +9538,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K305 as the exact coherent master compiler and K306 as its support
-  audit. Implement one outward interval operator for the regularized common
-  size-four determinant times the bordered five-by-five determinant and its
-  complete first/second column replacements on K296/K300's six one-gap,
-  fifteen codimension-two and three endpoint chart classes. Start with the y
-  master, where the common size-four determinant is y-independent, then reuse
-  the same operator for the five gap axes. Preserve the exact exponential,
-  Cauchy denominators, projective weight and split variables through q and
-  projective integration; extract an x-only coefficient only after that joint
-  integral is finite. Do not return to K302-marginal times supremum, K290's
-  superseded bank or occurrencewise absolute values. K294's gamma join remains
-  closed until numerical constants exist; analytic subtraction remains the
-  fallback. No exterior value, action-column value, complete residual or
-  native K152 interval follows yet.
+  Treat K307 as the joint radial theorem, K308 as the executable outward
+  y-master kernel and K309 as the five-axis structural transfer. Build an
+  adaptive outward cell decomposition that covers the simultaneous `(x,b)`
+  origin, all projective faces and the terminal K302 split joins without
+  replacing the regularized determinant by a detached supremum. Integrate the
+  y master first with the exact Peano kernel, reuse its accepted two-radius
+  subdivision for the five Duffy axes, and sum coherent group absolute values
+  only after bordered assembly. K294's gamma join remains closed until all six
+  finite constants exist. No exterior value, action-column value, complete
+  residual or native K152 interval follows yet.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

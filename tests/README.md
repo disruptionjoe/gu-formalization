@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K307--K309 joint two-radius interval operator
+
+- `channel-swings/k307_order_seven_two_radius_joint_chart.py` replaces the
+  separated fixed-`x` q integral by `b=x*q`, proves the exact density/Jacobian
+  and joint-origin margin, and rejects six hostile coordinate, degree and
+  overclaim mutations.
+- `channel-swings/k308_order_seven_regularized_y_master_operator.py` extracts
+  the D4 and bordered-B5 Vandermondes, implements outward Arb divided-
+  difference bounds through the complete second-y column-replacement rule,
+  and rejects seven hostile factorization, terminal and closure mutations.
+- `channel-swings/k309_order_seven_gap_axis_transfer_audit.py` compiles the
+  same regularized operator for all five affine Duffy axes, replays the full
+  face/endpoint cover, and rejects seven lost-axis, lost-face and numerical-
+  overclaim mutations.
+
 ## K305/K306 coherent bordered functionals and support audit
 
 - `channel-swings/k305_order_seven_coherent_bordered_functional_compiler.py`

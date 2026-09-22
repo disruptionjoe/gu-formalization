@@ -1,0 +1,195 @@
+{
+  "claim_ceiling": "First executable outward interval operator for the K305 coherent y master after exact Vandermonde regularization. It extracts the full odd-node D4 factors and the first-three even-node bordered-B5 factors, evaluates the regularizers by mixed divided differences, and emits finite Arb value/first/second-y-derivative constants on an explicit positive two-radius cell. Exact rational and three shrinking-scale Bessel controls reproduce the unregularized determinants. K302 remains the terminal weighted adapter inside the determinant. The complete boundary-cell composition, global y Peano norm, five gap-axis constants, K294 gamma join, action-column value, residual, native K152 interval, source/ledger move, canon, paper, public and physical claims remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "complete_y_peano_norm_emitted": false,
+    "exact_factorization_controls_pass": true,
+    "finite_positive_cell_constants_emitted": true,
+    "five_gap_axes_released_for_structural_transfer_audit": true,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "transfer the same divided-difference operator to the five affine Duffy axes, then construct the joint two-radius/terminal boundary cell decomposition needed for complete finite constants",
+    "outward_regularized_y_master_operator_implemented": true,
+    "small_scale_arb_controls_pass": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "master_axis": "y",
+    "maximum_y_derivative_order": 2,
+    "predecessor_manifests": [
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k307-order-seven-two-radius-joint-chart.json"
+    ],
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "outward_positive_cell": {
+    "D4_regularized_abs_upper": "3.142450295918396e+28",
+    "D4_times_bordered_B5_regularized_y_jet_abs_upper": [
+      "4.408969315952765e+49",
+      "2.2262288512384374e+51",
+      "1.4345451542901956e+53"
+    ],
+    "bordered_B5_regularized_y_jet_abs_upper": [
+      "1.4030354980250287e+21",
+      "7.084372516981408e+22",
+      "4.565052806574123e+24"
+    ],
+    "cell": {
+      "b": [
+        "1/32",
+        "1/8"
+      ],
+      "p": [
+        "1/8",
+        "5/24"
+      ],
+      "split": [
+        "1/4",
+        "3/4"
+      ],
+      "x": [
+        "1/16",
+        "1/8"
+      ],
+      "y": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    "column_replacement_counts": {
+      "first": 5,
+      "second_cross": 10,
+      "second_pure": 5,
+      "value": 1
+    },
+    "node_argument_lower_bounds": {
+      "even_left": [
+        "25/1024",
+        "21/1024",
+        "17/1024",
+        "1/256"
+      ],
+      "even_right": [
+        "25/1024",
+        "21/1024",
+        "17/1024",
+        "1/256"
+      ],
+      "odd_left": [
+        "7/256",
+        "3/128",
+        "5/256",
+        "1/64"
+      ],
+      "odd_right": [
+        "7/256",
+        "3/128",
+        "5/256",
+        "1/64"
+      ]
+    },
+    "outward_backend": "python-flint Arb at 180 decimal digits; monotone K-Bessel derivative bounds at exact rational argument lowers"
+  },
+  "regularized_operator": {
+    "D4_extracted_factor": "V(T1,T3,T5,T7)*V(U1,U3,U5,U7)",
+    "D4_row_column_orders": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "arb_scale_controls": [
+      {
+        "D4_difference": "[+/- 2.62e-178]",
+        "D4_difference_contains_zero": true,
+        "bordered_B5_difference": "[+/- 9.29e-178]",
+        "bordered_B5_difference_contains_zero": true,
+        "scale": "1"
+      },
+      {
+        "D4_difference": "[+/- 1.14e-170]",
+        "D4_difference_contains_zero": true,
+        "bordered_B5_difference": "[+/- 4.40e-168]",
+        "bordered_B5_difference_contains_zero": true,
+        "scale": "1/64"
+      },
+      {
+        "D4_difference": "[+/- 1.57e-163]",
+        "D4_difference_contains_zero": true,
+        "bordered_B5_difference": "[+/- 3.97e-159]",
+        "bordered_B5_difference_contains_zero": true,
+        "scale": "1/4096"
+      }
+    ],
+    "bordered_B5_extracted_factor": "V(T2,T4,T6)*V(U2,U4,U6)",
+    "bordered_B5_row_column_orders": [
+      0,
+      1,
+      2,
+      "terminal_raw"
+    ],
+    "determinant_jet_rule": "differentiate the five bordered columns as complete columns; D det has five replacements and D^2 det has five pure-second plus ten doubled first-first replacements",
+    "exact_rational_control": {
+      "D4_factorization_exact": true,
+      "D4_regularized_determinant_nonzero": true,
+      "bordered_B5_factorization_exact": true,
+      "bordered_B5_regularized_determinant_nonzero": true,
+      "joint_factorization_exact": true,
+      "kernel": "2/s exact Cauchy model"
+    },
+    "kernel_derivative_recurrence": "abs((2*K1)^(m)(s))=2^(1-m)*sum_k binom(m,k) K_|1-m+2k|(s)",
+    "mixed_divided_difference_bound": "abs(f[T_0..T_a;U_0..U_b]) <= abs(f^(a+b)(s_min))/(a!*b!)",
+    "reason": "the extracted first-three even-node differences are independent of y, while every remaining y dependence is an affine common shift or terminal affine coefficient",
+    "y_derivative_commutes_with_regularization": true
+  },
+  "release_test": {
+    "D4_exactly_regularized": true,
+    "bordered_B5_exactly_regularized": true,
+    "complete_column_replacement_formula_used": true,
+    "complete_numerical_norm_overclaim": false,
+    "native_K152_interval_emitted": false,
+    "pointwise_K290_bank_reused": false,
+    "radial_gamma_join_emitted": false,
+    "three_small_scale_arb_replays": true
+  },
+  "result_id": "K308-ORDER-SEVEN-REGULARIZED-Y-MASTER-OPERATOR",
+  "schema_version": "1.0",
+  "terminal_face_adapter": {
+    "complete_terminal_face_constant_composed": false,
+    "detached_unregularized_cofactor_forbidden": true,
+    "insertion_point": "the transformed bordered-B5 terminal row/column entry inside the complete column-replacement determinant",
+    "remaining_reason": "the positive-cell operator is outward and face-stable in q/projective variables, but the two-radius origin and terminal split must still be covered by a joint weighted cell decomposition rather than one global pointwise argument lower bound",
+    "source": "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+    "weighted_terminal_jets": {
+      "B0": {
+        "strict": true,
+        "upper": "1/x"
+      },
+      "B1": {
+        "strict": true,
+        "upper": "1/4+2/x"
+      },
+      "B2": {
+        "strict": true,
+        "upper": "3*x/8+6/x"
+      },
+      "definition": "B_m(x)=integral_0^1 K(y) integral_[0,1]^2 abs(d_y^m[2*K1(x*(y*a+(1-y)*b))]) da db dy",
+      "proof_partition": {
+        "K_over_z": "with m=min(y,1-y), z>=m*(a+b) and K=m^2/2, K/z<=1/[4*(a+b)]",
+        "elementary_integral": "integral_[0,1]^2 da db/(a+b)=2*log(2)<2",
+        "first_derivative_terms": "K*abs(a-b)/z<=1/4 and K*abs(a-b)/z^2<=1/[2*(a+b)]",
+        "second_derivative_cubic_term": "K*J2<=3 by symmetry and the y<=1/2 split: y^2*I(y,1-y)<=1 and y^2*I(1-y,y)<=2",
+        "second_derivative_linear_term": "K*(a-b)^2/z<=m*(a+b)/2<= (a+b)/4"
+      }
+    }
+  }
+}

@@ -7,6 +7,41 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K307--K309 joint two-radius interval operator (2026-09-22)
+
+K307 replaces the premature fixed-`x` `q` integration by the native joint
+coordinate `b=x*q`.  The exact Jacobian identity is
+`e^-256x(1+q) x^15 q^11 dq = e^-256(x+b) x^3 b^11 db`, and all sixteen
+cumulative Bessel nodes become affine in the two nonnegative radii `x,b`.
+The common `D4` and coherent bordered `B5` have simultaneous leading degrees
+`-4` and `-5`; after the density and two-radius area are included, the origin
+has exponent `6` and absolute-integrability margin `7`.  Exact nonsymmetric
+Cauchy controls replay the degree `-9` product.  The probe passes 11/11 checks
+and rejects 6/6 hostile mutations.  This proves K304's `x^-6,x^-5,x^-4`
+powers are artifacts of the detached order of operations, not a divergence
+theorem for the joint functional.
+
+K308 implements the first outward operator.  Newton/Hermite divided
+differences extract the full odd-node Vandermondes from `D4` and the
+first-three even-node Vandermondes from the bordered determinant.  Complete
+monotonicity of `2*K1` gives Arb entry bounds through second `y` derivative;
+the complete five-column replacement rule gives finite value, first- and
+second-derivative constants on an explicit positive two-radius cell.  Exact
+rational controls and three shrinking-scale Bessel controls reproduce both
+unregularized determinants.  K302 remains the terminal weighted adapter
+inside the determinant.  The probe passes 12/12 checks and rejects 7/7
+hostile mutations.
+
+K309 transfers the same operator architecture to all five affine Duffy gap
+axes.  The factored joint radial weight is
+`e^-256(x+b) x^3 b^29`; projective differentiation acts only on explicit
+polynomials and divided-difference entries, raising the required kernel
+derivative orders to at most eight for `D4` and six for bordered `B5`.
+All six one-gap, fifteen codimension-two and three endpoint classes retain
+their positive margins.  The probe passes 12/12 checks and rejects 7/7
+hostile mutations.  A complete adaptive boundary-cell integration and six
+global Peano constants remain open, so K294's gamma join is not released.
+
 ## K305/K306 coherent bordered functionals and support audit (2026-09-22)
 
 K305 proves that the six stored upper-triangle occurrences in each of K288's

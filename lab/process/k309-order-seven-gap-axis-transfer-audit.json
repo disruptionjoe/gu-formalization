@@ -1,0 +1,146 @@
+{
+  "axis_transfer": [
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "axis": "t0",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "chart_dependence": "every p_i is affine in this axis with the other four t coordinates fixed",
+      "duffy_node": "1/6",
+      "duffy_weight_exponent": 4,
+      "explicit_polynomial_derivatives": "differentiate P(p)*V4_left*V4_right*V3_left*V3_right exactly through order two",
+      "maximum_chart_derivative_order": 2,
+      "peano_kernel_integral": "1/504",
+      "regularizer_derivatives": "differentiate Hermite--Genocchi divided-difference entries; affine node motion adds at most two kernel derivatives and no second chart derivative",
+      "terminal_split_handling": "retain y as the last integrated axis and apply K302 inside the regularized determinant functional"
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "axis": "t1",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "chart_dependence": "every p_i is affine in this axis with the other four t coordinates fixed",
+      "duffy_node": "1/5",
+      "duffy_weight_exponent": 3,
+      "explicit_polynomial_derivatives": "differentiate P(p)*V4_left*V4_right*V3_left*V3_right exactly through order two",
+      "maximum_chart_derivative_order": 2,
+      "peano_kernel_integral": "1/300",
+      "regularizer_derivatives": "differentiate Hermite--Genocchi divided-difference entries; affine node motion adds at most two kernel derivatives and no second chart derivative",
+      "terminal_split_handling": "retain y as the last integrated axis and apply K302 inside the regularized determinant functional"
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "axis": "t2",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "chart_dependence": "every p_i is affine in this axis with the other four t coordinates fixed",
+      "duffy_node": "1/4",
+      "duffy_weight_exponent": 2,
+      "explicit_polynomial_derivatives": "differentiate P(p)*V4_left*V4_right*V3_left*V3_right exactly through order two",
+      "maximum_chart_derivative_order": 2,
+      "peano_kernel_integral": "1/160",
+      "regularizer_derivatives": "differentiate Hermite--Genocchi divided-difference entries; affine node motion adds at most two kernel derivatives and no second chart derivative",
+      "terminal_split_handling": "retain y as the last integrated axis and apply K302 inside the regularized determinant functional"
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "axis": "t3",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "chart_dependence": "every p_i is affine in this axis with the other four t coordinates fixed",
+      "duffy_node": "1/3",
+      "duffy_weight_exponent": 1,
+      "explicit_polynomial_derivatives": "differentiate P(p)*V4_left*V4_right*V3_left*V3_right exactly through order two",
+      "maximum_chart_derivative_order": 2,
+      "peano_kernel_integral": "1/72",
+      "regularizer_derivatives": "differentiate Hermite--Genocchi divided-difference entries; affine node motion adds at most two kernel derivatives and no second chart derivative",
+      "terminal_split_handling": "retain y as the last integrated axis and apply K302 inside the regularized determinant functional"
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "axis": "t4",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "chart_dependence": "every p_i is affine in this axis with the other four t coordinates fixed",
+      "duffy_node": "1/2",
+      "duffy_weight_exponent": 0,
+      "explicit_polynomial_derivatives": "differentiate P(p)*V4_left*V4_right*V3_left*V3_right exactly through order two",
+      "maximum_chart_derivative_order": 2,
+      "peano_kernel_integral": "1/24",
+      "regularizer_derivatives": "differentiate Hermite--Genocchi divided-difference entries; affine node motion adds at most two kernel derivatives and no second chart derivative",
+      "terminal_split_handling": "retain y as the last integrated axis and apply K302 inside the regularized determinant functional"
+    }
+  ],
+  "boundary_transfer": {
+    "dimensionless_gap_derivatives_preserve_joint_origin_degree": true,
+    "explicit_zeros_retained": true,
+    "extension_basis": "Hermite--Genocchi divided differences converge to repeated-node derivatives and never divide the full integrand by a vanishing face factor",
+    "joint_origin_margin": 7,
+    "one_gap_and_codimension_two_rows_replayed": 21,
+    "regularizers_extend_to_coalescent_faces": true,
+    "worst_endpoint_second_derivative_margin": 2,
+    "worst_projective_second_derivative_margin": 1
+  },
+  "claim_ceiling": "Exact structural transfer of K308's divided-difference interval operator from the y master to all five K299 Duffy gap axes. The two-radius density and b^18 Vandermonde factor remain explicit, the exponential is projective-axis independent, and affine Duffy motion raises the required D4 and bordered-B5 kernel derivative orders only to eight and six. All twenty-one projective face rows and three endpoint classes retain positive margins. This supplies an executable six-axis operator specification but no complete boundary-cell constants, global Peano norm, K294 gamma join, action-column value, residual, native K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "all_six_master_axes_have_an_executable_operator_specification": true,
+    "complete_gap_axis_constants_emitted": false,
+    "complete_six_axis_peano_norm_emitted": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "implement the adaptive two-radius boundary-cell integrator using the K308/K309 operator, starting with the y master terminal cells and reusing their subdivision for the five gap axes",
+    "same_regularized_operator_architecture_valid_for_all_five_gap_axes": true
+  },
+  "direction": "observed_to_native",
+  "factorized_integrand": {
+    "coherent_absolute_value_after_bordered_assembly": true,
+    "explicit_joint_radial_factor": "exp(-256*(x+b))*x^3*b^29",
+    "explicit_vandermonde_power": "b^18",
+    "exponential_is_projective_axis_independent": true,
+    "projective_polynomial": "product_i(p_i)*V4_left(p)*V4_right(p)*V3_left(p,u)*V3_right(p,z)",
+    "regularized_factors": "R4(x,b,p,y)*R5_border(x,b,p,y,u,z)",
+    "two_radius_density": "exp(-256*(x+b))*x^3*b^11"
+  },
+  "fixed_control": {
+    "codimension_two_faces": 15,
+    "endpoint_classes": 3,
+    "gap_axes": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4"
+    ],
+    "one_gap_faces": 6,
+    "predecessor_manifests": [
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k300-order-seven-angular-method-selection.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k307-order-seven-two-radius-joint-chart.json",
+      "lab/process/k308-order-seven-regularized-y-master-operator.json"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "operator_inventory": {
+    "coherent_groups": 4,
+    "complete_master_axes": 6,
+    "five_gap_axes": "same operator architecture compiled; entry derivative orders and exact polynomial factors fixed",
+    "group_axis_order_masters": 72,
+    "remaining_numerical_work": "adaptive outward cells covering the two-radius origin, projective faces and terminal split joins, followed by positive Peano integration and coherent group summation",
+    "y_master": "implemented outward on an explicit positive two-radius cell by K308"
+  },
+  "release_test": {
+    "K304_detached_factorization_reintroduced": false,
+    "all_five_gap_axes_replayed": true,
+    "all_three_endpoint_classes_replayed": true,
+    "all_twenty_one_projective_face_rows_replayed": true,
+    "complete_numerical_norm_overclaim": false,
+    "native_K152_interval_emitted": false,
+    "pointwise_K290_bank_reused": false,
+    "radial_gamma_join_emitted": false
+  },
+  "result_id": "K309-ORDER-SEVEN-GAP-AXIS-TRANSFER-AUDIT",
+  "schema_version": "1.0"
+}

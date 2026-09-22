@@ -1,0 +1,172 @@
+{
+  "claim_ceiling": "Exact joint-radial coordinate and homogeneity theorem for the K305/K306 order-seven functional. With b=x*q, the native density is exp(-256(x+b))*x^3*b^11 and all cumulative Bessel arguments are affine in x,b. The common D4 and coherent bordered B5 have exact leading simultaneous degrees -4 and -5, so their product is absolutely integrable at the two-radius origin with margin seven, including dimensionless angular derivatives through order two. This proves K304's separated-q negative powers are not a divergence theorem. It does not emit a complete numerical Peano norm, integrate every boundary cell, release K294's gamma join, evaluate an action column or residual, emit a native K152 interval, or move source, ledger, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "complete_numerical_norms_emitted": false,
+    "joint_origin_absolutely_integrable": true,
+    "k294_gamma_join_released": false,
+    "k304_negative_powers_are_coordinate_factorization_artifacts": true,
+    "meaning": "they arise after q is integrated with determinant zeros discarded and are not a divergence theorem for the joint native functional",
+    "next_exact_input": "build the outward mixed-divided-difference R4/R5_border operator for the y master, with K302 terminal weighted jets and exact two-radius exponential retained"
+  },
+  "direction": "observed_to_native",
+  "factorization_target": {
+    "D4": "V(T1,T3,T5,T7)*V(U1,U3,U5,U7)*R4",
+    "D4_b_power": 12,
+    "bordered_B5": "V(T2,T4,T6)*V(U2,U4,U6)*R5_border",
+    "bordered_B5_b_power": 6,
+    "explicit_b_power": 18,
+    "regularizer_rule": "evaluate R4 and R5_border by row/column divided differences; retain exact Cauchy denominators and K1 values in (x,b) before any one-radius coefficient is extracted"
+  },
+  "fixed_control": {
+    "new_radial_variables": [
+      "x",
+      "b=x*q"
+    ],
+    "old_radial_variables": [
+      "x",
+      "q"
+    ],
+    "predecessor_manifests": [
+      "lab/process/k294-order-seven-global-radial-simplex-atlas.json",
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k306-order-seven-joint-template-support-audit.json"
+    ],
+    "projective_variables": [
+      "p_r0",
+      "p_r1",
+      "p_r2",
+      "p_c0",
+      "p_c1",
+      "p_c2"
+    ],
+    "split_variables": [
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "z0",
+      "z1",
+      "z2",
+      "z3"
+    ]
+  },
+  "joint_change_of_variables": {
+    "definition": "b=x*q",
+    "density_identity": "exp(-256*x*(1+q))*x^15*q^11*dq = exp(-256*(x+b))*x^3*b^11*db",
+    "inverse": "q=b/x for x>0",
+    "jacobian": "dq=db/x",
+    "projective_and_split_factor": "y*(1-y)*product_i(p_i) dp dy du dz",
+    "separated_q_gamma_extraction_before_determinant_integration": false
+  },
+  "joint_origin": {
+    "D4_simultaneous_degree": -4,
+    "absolute_integrability_margin": 7,
+    "angular_derivatives_through_order_two_preserve_degree": true,
+    "bordered_B5_simultaneous_degree": -5,
+    "density_polynomial_degree_before_dx_db": 14,
+    "exact_cauchy_scaling_control": {
+      "all_exact": true,
+      "base_product_nonzero": true,
+      "model": "exact leading Cauchy kernel f(s)=2/s",
+      "rows": [
+        {
+          "b5_degree_minus_five": true,
+          "d4_degree_minus_four": true,
+          "product_degree_minus_nine": true,
+          "scale": "2"
+        },
+        {
+          "b5_degree_minus_five": true,
+          "d4_degree_minus_four": true,
+          "product_degree_minus_nine": true,
+          "scale": "5"
+        },
+        {
+          "b5_degree_minus_five": true,
+          "d4_degree_minus_four": true,
+          "product_degree_minus_nine": true,
+          "scale": "11/3"
+        }
+      ]
+    },
+    "integrand_degree_before_two_radius_area": 5,
+    "leading_kernel": "2*K1(lambda*s)=2/(lambda*s)+O(lambda*abs(log(lambda)))",
+    "product_simultaneous_degree": -9,
+    "reason": "each dimensionless angular derivative contributes one affine-node factor of degree one and one extra kernel derivative of degree minus one",
+    "two_radius_polar_exponent": 6
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "native_affine_nodes": {
+    "even_left": {
+      "T2": "x*y+b*(p_r1+p_r2+p_r0*(1-u0))",
+      "T4": "x*y+b*(p_r2+p_r1*(1-u1))",
+      "T6": "x*y+b*p_r2*(1-u2)",
+      "T8": "x*y*(1-u3)"
+    },
+    "even_right": {
+      "U2": "x*(1-y)+b*(p_c1+p_c2+p_c0*(1-z0))",
+      "U4": "x*(1-y)+b*(p_c2+p_c1*(1-z1))",
+      "U6": "x*(1-y)+b*p_c2*(1-z2)",
+      "U8": "x*(1-y)*(1-z3)"
+    },
+    "odd_left": {
+      "T1": "x*y+b*(p_r0+p_r1+p_r2)",
+      "T3": "x*y+b*(p_r1+p_r2)",
+      "T5": "x*y+b*p_r2",
+      "T7": "x*y"
+    },
+    "odd_right": {
+      "U1": "x*(1-y)+b*(p_c0+p_c1+p_c2)",
+      "U3": "x*(1-y)+b*(p_c1+p_c2)",
+      "U5": "x*(1-y)+b*p_c2",
+      "U7": "x*(1-y)"
+    }
+  },
+  "release_test": {
+    "all_sixteen_native_nodes_affine_in_x_b": true,
+    "complete_numerical_norm_emitted": false,
+    "density_jacobian_exact": true,
+    "detached_q_integration_rejected": true,
+    "exact_product_degree_minus_nine_control": true,
+    "native_K152_interval_emitted": false,
+    "positive_joint_origin_margin": true
+  },
+  "result_id": "K307-ORDER-SEVEN-TWO-RADIUS-JOINT-CHART",
+  "schema_version": "1.0",
+  "terminal_split_boundary": {
+    "K302_weighted_jet_retained": {
+      "B0": {
+        "strict": true,
+        "upper": "1/x"
+      },
+      "B1": {
+        "strict": true,
+        "upper": "1/4+2/x"
+      },
+      "B2": {
+        "strict": true,
+        "upper": "3*x/8+6/x"
+      },
+      "definition": "B_m(x)=integral_0^1 K(y) integral_[0,1]^2 abs(d_y^m[2*K1(x*(y*a+(1-y)*b))]) da db dy",
+      "proof_partition": {
+        "K_over_z": "with m=min(y,1-y), z>=m*(a+b) and K=m^2/2, K/z<=1/[4*(a+b)]",
+        "elementary_integral": "integral_[0,1]^2 da db/(a+b)=2*log(2)<2",
+        "first_derivative_terms": "K*abs(a-b)/z<=1/4 and K*abs(a-b)/z^2<=1/[2*(a+b)]",
+        "second_derivative_cubic_term": "K*J2<=3 by symmetry and the y<=1/2 split: y^2*I(y,1-y)<=1 and y^2*I(1-y,y)<=2",
+        "second_derivative_linear_term": "K*(a-b)^2/z<=m*(a+b)/2<= (a+b)/4"
+      }
+    },
+    "composition_rule": "apply K302 only inside the regularized bordered determinant column-replacement functional, never against a detached unregularized cofactor",
+    "pointwise_terminal_bound_required": false,
+    "two_radius_chart_alone_closes_terminal_split": false
+  }
+}
