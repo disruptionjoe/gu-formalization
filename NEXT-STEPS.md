@@ -20,7 +20,7 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
-> **2026-09-22 K310--K325 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
+> **2026-09-22 K310--K327 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with
 > `H=r^27*R4*R5_border`. K311 composes all three K302 terminal jets with the
@@ -62,9 +62,15 @@ updated_at: "2026-09-22"
 > exact shared-generator determinant-jet algebra: its Taylor coefficients
 > reproduce all twenty-one K315 families and 1,674 weighted monomials, and a
 > bordered control has assembled second derivative zero versus familywise
-> absolute sum four. Next substitute chart-specific entry-jet intervals into
-> K325, enclose only after signed family assembly, and sum the adaptive
-> radial/projective atlas. Only
+> absolute sum four. K326 now substitutes signed complete-monotonicity and
+> zero-safe terminal entry jets into that shared polynomial before one
+> coefficient enclosure; all sixteen value/first/second chart bounds are
+> finite on K324's slab. K327 bisects `x`, `b` and all six projective gaps,
+> exactly replays the parent volume with 256 children, and reduces the
+> integrated controls to about 1.66%, 1.23% and 0.912% of the parent. Next
+> extend the accepted evaluator to the degree-27 normalized origin,
+> exponential tail and both projective faces, then recurse to a declared
+> tolerance. Only
 > an accepted complete y subdivision may transfer to the five gap axes. No
 > complete Peano constant or K294 gamma join exists.
 

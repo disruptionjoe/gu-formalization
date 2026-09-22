@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K325 adaptive boundary-cell foundation (2026-09-22)
+## K310--K327 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -167,6 +167,28 @@ sum of absolute family contributions is four, so familywise enclosure would
 provably lose real cancellation. The probe passes 15/15 checks and rejects
 18/18 hostile mutations. K325 is an algebraic enclosure contract, not a
 chart-specific first/second interval bank or complete y-master constant.
+
+K326 supplies that fixed-slab interval bank. Complete-monotonicity signs are
+retained for every divided-difference entry whose affine parity fixes them;
+only sign-undetermined first jets and the zero-touching terminal jets use
+symmetric intervals. K322 gives terminal scaled uppers `4`, `9.5` and
+`35.5625` on `W=3/16`. Those shared entry jets are substituted into one
+five-by-five determinant Taylor polynomial before its value, first and second
+coefficients are enclosed. All sixteen K318 charts are finite, with summed
+uppers approximately `2.134e44`, `8.571e46` and `4.496e49`. The probe passes
+15/15 checks and rejects 16/16 hostile mutations. This is one positive slab,
+not a global y norm.
+
+K327 performs the first exact-cover adaptive use of K326. It bisects `x`, `b`
+and all six projective gaps, producing 256 pairwise interior-disjoint rational
+children whose volumes sum exactly to the parent. Entry intervals are
+recomputed on every child before complete determinant assembly. The refined
+integrated value/first/second uppers are approximately `6.969e33`, `2.066e36`
+and `8.046e38`, respectively `0.01664`, `0.01228` and `0.009119` of the
+parent controls. The probe passes 15/15 checks and rejects 14/14 hostile
+mutations. Radial origin, exponential tail, both projective faces and
+recursive tolerance closure remain open; no complete y-master constant,
+five-gap transfer or K294 join is claimed.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 

@@ -1,0 +1,2448 @@
+{
+  "claim_ceiling": "First exact-cover adaptive positive-interior subdivision for K326's complete signed value/first/second endpoint-chart bank. All eight x, b and projective-gap axes are bisected, the 256 exact rational child volumes replay the parent, every child's shared entry intervals are recomputed, and all three integrated complete-determinant uppers are nonincreasing. Radial origin, tail, projective faces and recursive tolerance closure remain open, so no complete y-master constant, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is released.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "all_three_integrated_uppers_nonincreasing": true,
+    "complete_origin_tail_face_sum_emitted": false,
+    "complete_y_master_constant_emitted": false,
+    "first_exact_cover_adaptive_interior_oracle_implemented": true,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "extend the accepted child evaluator to the degree-27 normalized r=0 chart, exponential tail and both projective faces, then recurse to a declared tolerance before any complete y constant"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "children": 256,
+    "coefficient_orders": [
+      0,
+      1,
+      2
+    ],
+    "endpoint_charts_per_child": 16,
+    "predecessor_manifest": "lab/process/k326-order-seven-signed-entry-jet-chart-bank.json",
+    "split_axes": [
+      "x",
+      "b",
+      "p0",
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5"
+    ],
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "parent_control": {
+    "b": [
+      "1/32",
+      "1/8"
+    ],
+    "exact_volume": "1/509607936",
+    "integrated_value_first_second_abs_uppers": [
+      "4.187436464913949e+35",
+      "1.6818644823979076e+38",
+      "8.823393891601167e+40"
+    ],
+    "projective_gaps": [
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ]
+    ],
+    "x": [
+      "1/16",
+      "1/8"
+    ]
+  },
+  "refined_cover": {
+    "child_count": 256,
+    "children": [
+      {
+        "bits": "00000000",
+        "integrated_value_first_second_abs_uppers": [
+          "4.3450069871189816e+30",
+          "1.309041525649259e+33",
+          "5.150961483289863e+35"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00000001",
+        "integrated_value_first_second_abs_uppers": [
+          "9.890234647375769e+30",
+          "2.979679416493267e+33",
+          "1.172477233836652e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00000010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.3253641666312578e+31",
+          "3.9929895050866315e+33",
+          "1.5712057060579562e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00000011",
+        "integrated_value_first_second_abs_uppers": [
+          "2.906270344672162e+31",
+          "8.75586293786074e+33",
+          "3.4453538614780924e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00000100",
+        "integrated_value_first_second_abs_uppers": [
+          "9.890234647375769e+30",
+          "2.979679416493267e+33",
+          "1.172477233836652e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00000101",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2301800904637047e+31",
+          "6.718972742686817e+33",
+          "2.6438557538059344e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00000110",
+        "integrated_value_first_second_abs_uppers": [
+          "2.906270344672162e+31",
+          "8.75586293786074e+33",
+          "3.4453538614780924e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00000111",
+        "integrated_value_first_second_abs_uppers": [
+          "6.322817344736248e+31",
+          "1.904906133884163e+34",
+          "7.495635488011476e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001000",
+        "integrated_value_first_second_abs_uppers": [
+          "9.890234647375769e+30",
+          "2.979679416493267e+33",
+          "1.172477233836652e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001001",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2512447442848944e+31",
+          "6.782435245352488e+33",
+          "2.66882768600784e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001010",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0168334863305815e+31",
+          "9.088961934699054e+33",
+          "3.5764253395099404e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001011",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001100",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2512447442848944e+31",
+          "6.782435245352488e+33",
+          "2.66882768600784e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001101",
+        "integrated_value_first_second_abs_uppers": [
+          "5.076402506605213e+31",
+          "1.5293926351236396e+34",
+          "6.018023407703826e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001110",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00001111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4392185609740454e+32",
+          "4.336004212682122e+34",
+          "1.706178928739928e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.3253641666312578e+31",
+          "3.9929895050866315e+33",
+          "1.5712057060579562e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010001",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0168334863305815e+31",
+          "9.088961934699054e+33",
+          "3.5764253395099404e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010010",
+        "integrated_value_first_second_abs_uppers": [
+          "4.0427786918399663e+31",
+          "1.2179877263459862e+34",
+          "4.7926729167168844e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010011",
+        "integrated_value_first_second_abs_uppers": [
+          "8.865041150946022e+31",
+          "2.6708143468453154e+34",
+          "1.0509415879763789e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010100",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0168334863305815e+31",
+          "9.088961934699054e+33",
+          "3.5764253395099404e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010101",
+        "integrated_value_first_second_abs_uppers": [
+          "6.802752600797632e+31",
+          "2.0494985762813682e+34",
+          "8.064593845930974e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010110",
+        "integrated_value_first_second_abs_uppers": [
+          "8.865041150946022e+31",
+          "2.6708143468453154e+34",
+          "1.0509415879763789e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00010111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9286587010754502e+32",
+          "5.810564486716066e+34",
+          "2.2864052259061814e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011000",
+        "integrated_value_first_second_abs_uppers": [
+          "2.906270344672162e+31",
+          "8.75586293786074e+33",
+          "3.4453538614780924e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011001",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011010",
+        "integrated_value_first_second_abs_uppers": [
+          "8.865041150946022e+31",
+          "2.6708143468453154e+34",
+          "1.0509415879763789e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9439341169997134e+32",
+          "5.8565854745139745e+34",
+          "2.304514073478589e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011100",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4917136543041088e+32",
+          "4.494158762589026e+34",
+          "1.7684113285802863e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9439341169997134e+32",
+          "5.8565854745139745e+34",
+          "2.304514073478589e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00011111",
+        "integrated_value_first_second_abs_uppers": [
+          "4.229179972198318e+32",
+          "1.2741457533390431e+35",
+          "5.013649736991891e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100000",
+        "integrated_value_first_second_abs_uppers": [
+          "9.890234647375769e+30",
+          "2.979679416493267e+33",
+          "1.172477233836652e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100001",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2512447442848944e+31",
+          "6.782435245352488e+33",
+          "2.66882768600784e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100010",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0168334863305815e+31",
+          "9.088961934699054e+33",
+          "3.5764253395099404e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100011",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100100",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2512447442848944e+31",
+          "6.782435245352488e+33",
+          "2.66882768600784e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100101",
+        "integrated_value_first_second_abs_uppers": [
+          "5.076402506605213e+31",
+          "1.5293926351236396e+34",
+          "6.018023407703826e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100110",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00100111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4392185609740454e+32",
+          "4.336004212682122e+34",
+          "1.706178928739928e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101000",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2301800904637047e+31",
+          "6.718972742686817e+33",
+          "2.6438557538059344e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101001",
+        "integrated_value_first_second_abs_uppers": [
+          "5.076402506605213e+31",
+          "1.5293926351236396e+34",
+          "6.018023407703826e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101010",
+        "integrated_value_first_second_abs_uppers": [
+          "6.802752600797632e+31",
+          "2.0494985762813682e+34",
+          "8.064593845930974e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4917136543041088e+32",
+          "4.494158762589026e+34",
+          "1.7684113285802863e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101100",
+        "integrated_value_first_second_abs_uppers": [
+          "5.076402506605213e+31",
+          "1.5293926351236396e+34",
+          "6.018023407703826e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1446939482713906e+32",
+          "3.448675490012657e+34",
+          "1.357023003723642e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4917136543041088e+32",
+          "4.494158762589026e+34",
+          "1.7684113285802863e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00101111",
+        "integrated_value_first_second_abs_uppers": [
+          "3.245339158320419e+32",
+          "9.777392183095203e+34",
+          "3.847316485518606e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110000",
+        "integrated_value_first_second_abs_uppers": [
+          "2.906270344672162e+31",
+          "8.75586293786074e+33",
+          "3.4453538614780924e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110001",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110010",
+        "integrated_value_first_second_abs_uppers": [
+          "8.865041150946022e+31",
+          "2.6708143468453154e+34",
+          "1.0509415879763789e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9439341169997134e+32",
+          "5.8565854745139745e+34",
+          "2.304514073478589e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110100",
+        "integrated_value_first_second_abs_uppers": [
+          "6.6153393362971865e+31",
+          "1.9930356656849446e+34",
+          "7.84241733194346e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4917136543041088e+32",
+          "4.494158762589026e+34",
+          "1.7684113285802863e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9439341169997134e+32",
+          "5.8565854745139745e+34",
+          "2.304514073478589e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00110111",
+        "integrated_value_first_second_abs_uppers": [
+          "4.229179972198318e+32",
+          "1.2741457533390431e+35",
+          "5.013649736991891e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111000",
+        "integrated_value_first_second_abs_uppers": [
+          "6.322817344736248e+31",
+          "1.904906133884163e+34",
+          "7.495635488011476e+36"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111001",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4392185609740454e+32",
+          "4.336004212682122e+34",
+          "1.706178928739928e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9286587010754502e+32",
+          "5.810564486716066e+34",
+          "2.2864052259061814e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111011",
+        "integrated_value_first_second_abs_uppers": [
+          "4.229179972198318e+32",
+          "1.2741457533390431e+35",
+          "5.013649736991891e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111100",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4392185609740454e+32",
+          "4.336004212682122e+34",
+          "1.706178928739928e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111101",
+        "integrated_value_first_second_abs_uppers": [
+          "3.245339158320419e+32",
+          "9.777392183095203e+34",
+          "3.847316485518606e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111110",
+        "integrated_value_first_second_abs_uppers": [
+          "4.229179972198318e+32",
+          "1.2741457533390431e+35",
+          "5.013649736991891e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "00111111",
+        "integrated_value_first_second_abs_uppers": [
+          "2.599534078740381e+32",
+          "5.949082519702342e+34",
+          "1.768768396225542e+37"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000000",
+        "integrated_value_first_second_abs_uppers": [
+          "5.521920115528426e+28",
+          "7.007345872361297e+30",
+          "1.1383955247440578e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000001",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2569159443457748e+29",
+          "1.59503299077538e+31",
+          "2.5912498873335655e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.684359787522404e+29",
+          "2.137461492070153e+31",
+          "3.472465383118318e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000011",
+        "integrated_value_first_second_abs_uppers": [
+          "3.693479141831209e+29",
+          "4.687044591672972e+31",
+          "7.614453010551458e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000100",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2569159443457748e+29",
+          "1.59503299077538e+31",
+          "2.5912498873335655e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000101",
+        "integrated_value_first_second_abs_uppers": [
+          "2.834259256743978e+29",
+          "3.596690010350545e+31",
+          "5.843090796493637e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000110",
+        "integrated_value_first_second_abs_uppers": [
+          "3.693479141831209e+29",
+          "4.687044591672972e+31",
+          "7.614453010551458e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01000111",
+        "integrated_value_first_second_abs_uppers": [
+          "8.035451341445823e+29",
+          "1.0197030321122058e+32",
+          "1.6565835180643957e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2569159443457748e+29",
+          "1.59503299077538e+31",
+          "2.5912498873335655e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001001",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8610296006434502e+29",
+          "3.630661718588062e+31",
+          "5.898280365984944e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001010",
+        "integrated_value_first_second_abs_uppers": [
+          "3.833990040155789e+29",
+          "4.8653536677181965e+31",
+          "7.904129379245881e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001011",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001100",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8610296006434502e+29",
+          "3.630661718588062e+31",
+          "5.898280365984944e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001101",
+        "integrated_value_first_second_abs_uppers": [
+          "6.451425534556156e+29",
+          "8.18689317981215e+31",
+          "1.3300217711633887e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001110",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01001111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8290534255296278e+30",
+          "2.321078485160188e+32",
+          "3.7707648638684713e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.684359787522404e+29",
+          "2.137461492070153e+31",
+          "3.472465383118318e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010001",
+        "integrated_value_first_second_abs_uppers": [
+          "3.833990040155789e+29",
+          "4.8653536677181965e+31",
+          "7.904129379245881e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010010",
+        "integrated_value_first_second_abs_uppers": [
+          "5.1378285543526894e+29",
+          "6.519931643023195e+31",
+          "1.0592114544153008e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1266276223189757e+30",
+          "1.4296964208284757e+32",
+          "2.3226483163994736e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010100",
+        "integrated_value_first_second_abs_uppers": [
+          "3.833990040155789e+29",
+          "4.8653536677181965e+31",
+          "7.904129379245881e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010101",
+        "integrated_value_first_second_abs_uppers": [
+          "8.645384572180597e+29",
+          "1.0971038813439795e+32",
+          "1.7823269639680215e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1266276223189757e+30",
+          "1.4296964208284757e+32",
+          "2.3226483163994736e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01010111",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4510660801226314e+30",
+          "3.110415842739461e+32",
+          "5.0531021889097345e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011000",
+        "integrated_value_first_second_abs_uppers": [
+          "3.693479141831209e+29",
+          "4.687044591672972e+31",
+          "7.614453010551458e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011001",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1266276223189757e+30",
+          "1.4296964208284757e+32",
+          "2.3226483163994736e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011011",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4704790830715518e+30",
+          "3.1350510441036218e+32",
+          "5.093123907937421e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011100",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8957676386848184e+30",
+          "2.4057391733065334e+32",
+          "3.9083024549900365e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011110",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4704790830715518e+30",
+          "3.1350510441036218e+32",
+          "5.093123907937421e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01011111",
+        "integrated_value_first_second_abs_uppers": [
+          "5.374719541295015e+30",
+          "6.820547547168093e+32",
+          "1.1080487478588977e+35"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2569159443457748e+29",
+          "1.59503299077538e+31",
+          "2.5912498873335655e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100001",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8610296006434502e+29",
+          "3.630661718588062e+31",
+          "5.898280365984944e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100010",
+        "integrated_value_first_second_abs_uppers": [
+          "3.833990040155789e+29",
+          "4.8653536677181965e+31",
+          "7.904129379245881e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100011",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100100",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8610296006434502e+29",
+          "3.630661718588062e+31",
+          "5.898280365984944e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100101",
+        "integrated_value_first_second_abs_uppers": [
+          "6.451425534556156e+29",
+          "8.18689317981215e+31",
+          "1.3300217711633887e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100110",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01100111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8290534255296278e+30",
+          "2.321078485160188e+32",
+          "3.7707648638684713e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101000",
+        "integrated_value_first_second_abs_uppers": [
+          "2.834259256743978e+29",
+          "3.596690010350545e+31",
+          "5.843090796493637e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101001",
+        "integrated_value_first_second_abs_uppers": [
+          "6.451425534556156e+29",
+          "8.18689317981215e+31",
+          "1.3300217711633887e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101010",
+        "integrated_value_first_second_abs_uppers": [
+          "8.645384572180597e+29",
+          "1.0971038813439795e+32",
+          "1.7823269639680215e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8957676386848184e+30",
+          "2.4057391733065334e+32",
+          "3.9083024549900365e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101100",
+        "integrated_value_first_second_abs_uppers": [
+          "6.451425534556156e+29",
+          "8.18689317981215e+31",
+          "1.3300217711633887e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4547522123586348e+30",
+          "1.8460882637826973e+32",
+          "2.9991078747655274e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8957676386848184e+30",
+          "2.4057391733065334e+32",
+          "3.9083024549900365e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01101111",
+        "integrated_value_first_second_abs_uppers": [
+          "4.124390047134962e+30",
+          "5.2338728145062866e+32",
+          "8.502816182517007e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110000",
+        "integrated_value_first_second_abs_uppers": [
+          "3.693479141831209e+29",
+          "4.687044591672972e+31",
+          "7.614453010551458e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110001",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1266276223189757e+30",
+          "1.4296964208284757e+32",
+          "2.3226483163994736e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110011",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4704790830715518e+30",
+          "3.1350510441036218e+32",
+          "5.093123907937421e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110100",
+        "integrated_value_first_second_abs_uppers": [
+          "8.407207498360097e+29",
+          "1.0668790844102586e+32",
+          "1.7332245296056699e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8957676386848184e+30",
+          "2.4057391733065334e+32",
+          "3.9083024549900365e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110110",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4704790830715518e+30",
+          "3.1350510441036218e+32",
+          "5.093123907937421e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01110111",
+        "integrated_value_first_second_abs_uppers": [
+          "5.374719541295015e+30",
+          "6.820547547168093e+32",
+          "1.1080487478588977e+35"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111000",
+        "integrated_value_first_second_abs_uppers": [
+          "8.035451341445823e+29",
+          "1.0197030321122058e+32",
+          "1.6565835180643957e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111001",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8290534255296278e+30",
+          "2.321078485160188e+32",
+          "3.7707648638684713e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111010",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4510660801226314e+30",
+          "3.110415842739461e+32",
+          "5.0531021889097345e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111011",
+        "integrated_value_first_second_abs_uppers": [
+          "5.374719541295015e+30",
+          "6.820547547168093e+32",
+          "1.1080487478588977e+35"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111100",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8290534255296278e+30",
+          "2.321078485160188e+32",
+          "3.7707648638684713e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111101",
+        "integrated_value_first_second_abs_uppers": [
+          "4.124390047134962e+30",
+          "5.2338728145062866e+32",
+          "8.502816182517007e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111110",
+        "integrated_value_first_second_abs_uppers": [
+          "5.374719541295015e+30",
+          "6.820547547168093e+32",
+          "1.1080487478588977e+35"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "01111111",
+        "integrated_value_first_second_abs_uppers": [
+          "2.369738349272424e+30",
+          "2.31003560028748e+32",
+          "2.8600688220147676e+34"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000000",
+        "integrated_value_first_second_abs_uppers": [
+          "6.313071408936904e+25",
+          "2.5009922847942416e+28",
+          "1.3019378424825133e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000001",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4370001631649217e+26",
+          "5.6928333092165035e+28",
+          "2.9635097902452687e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9256858847338283e+26",
+          "7.628815234972904e+28",
+          "3.9713210284317137e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000011",
+        "integrated_value_first_second_abs_uppers": [
+          "4.222661150844401e+26",
+          "1.6728533995584985e+29",
+          "8.708348115298457e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000100",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4370001631649217e+26",
+          "5.6928333092165035e+28",
+          "2.9635097902452687e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000101",
+        "integrated_value_first_second_abs_uppers": [
+          "3.24033682068932e+26",
+          "1.2836948725476124e+29",
+          "6.682511350243176e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000110",
+        "integrated_value_first_second_abs_uppers": [
+          "4.222661150844401e+26",
+          "1.6728533995584985e+29",
+          "8.708348115298457e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10000111",
+        "integrated_value_first_second_abs_uppers": [
+          "9.186727997271253e+26",
+          "3.6394227722187316e+29",
+          "1.8945689131831925e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4370001631649217e+26",
+          "5.6928333092165035e+28",
+          "2.9635097902452687e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001001",
+        "integrated_value_first_second_abs_uppers": [
+          "3.270942686776073e+26",
+          "1.295819717147774e+29",
+          "6.745629475795798e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001010",
+        "integrated_value_first_second_abs_uppers": [
+          "4.383303700032222e+26",
+          "1.7364937026569265e+29",
+          "9.039639501884665e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001011",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001100",
+        "integrated_value_first_second_abs_uppers": [
+          "3.270942686776073e+26",
+          "1.295819717147774e+29",
+          "6.745629475795798e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001101",
+        "integrated_value_first_second_abs_uppers": [
+          "7.375751427870911e+26",
+          "2.9219845906296656e+29",
+          "1.5210931831018218e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001110",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10001111",
+        "integrated_value_first_second_abs_uppers": [
+          "2.091110456112078e+27",
+          "8.284162777315711e+29",
+          "4.312474323833025e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9256858847338283e+26",
+          "7.628815234972904e+28",
+          "3.9713210284317137e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010001",
+        "integrated_value_first_second_abs_uppers": [
+          "4.383303700032222e+26",
+          "1.7364937026569265e+29",
+          "9.039639501884665e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010010",
+        "integrated_value_first_second_abs_uppers": [
+          "5.873949245769918e+26",
+          "2.327029236424284e+29",
+          "1.2113781568559531e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2880448250065978e+27",
+          "5.102730445813009e+29",
+          "2.6563208197015223e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010100",
+        "integrated_value_first_second_abs_uppers": [
+          "4.383303700032222e+26",
+          "1.7364937026569265e+29",
+          "9.039639501884665e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010101",
+        "integrated_value_first_second_abs_uppers": [
+          "9.884049217500696e+26",
+          "3.91567419780476e+29",
+          "2.038376707847653e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2880448250065978e+27",
+          "5.102730445813009e+29",
+          "2.6563208197015223e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10010111",
+        "integrated_value_first_second_abs_uppers": [
+          "2.802241771928707e+27",
+          "1.1101387249561459e+30",
+          "5.779032695093187e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011000",
+        "integrated_value_first_second_abs_uppers": [
+          "4.222661150844401e+26",
+          "1.6728533995584985e+29",
+          "8.708348115298457e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011001",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2880448250065978e+27",
+          "5.102730445813009e+29",
+          "2.6563208197015223e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011011",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8244361704963364e+27",
+          "1.1189312779039268e+30",
+          "5.824803949241379e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011100",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011101",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1673831194803191e+27",
+          "8.58632527776829e+29",
+          "4.469770610013446e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011110",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8244361704963364e+27",
+          "1.1189312779039268e+30",
+          "5.824803949241379e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10011111",
+        "integrated_value_first_second_abs_uppers": [
+          "6.144780720928931e+27",
+          "2.434322084183865e+30",
+          "1.2672314362833934e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4370001631649217e+26",
+          "5.6928333092165035e+28",
+          "2.9635097902452687e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100001",
+        "integrated_value_first_second_abs_uppers": [
+          "3.270942686776073e+26",
+          "1.295819717147774e+29",
+          "6.745629475795798e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100010",
+        "integrated_value_first_second_abs_uppers": [
+          "4.383303700032222e+26",
+          "1.7364937026569265e+29",
+          "9.039639501884665e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100011",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100100",
+        "integrated_value_first_second_abs_uppers": [
+          "3.270942686776073e+26",
+          "1.295819717147774e+29",
+          "6.745629475795798e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100101",
+        "integrated_value_first_second_abs_uppers": [
+          "7.375751427870911e+26",
+          "2.9219845906296656e+29",
+          "1.5210931831018218e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100110",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10100111",
+        "integrated_value_first_second_abs_uppers": [
+          "2.091110456112078e+27",
+          "8.284162777315711e+29",
+          "4.312474323833025e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101000",
+        "integrated_value_first_second_abs_uppers": [
+          "3.24033682068932e+26",
+          "1.2836948725476124e+29",
+          "6.682511350243176e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101001",
+        "integrated_value_first_second_abs_uppers": [
+          "7.375751427870911e+26",
+          "2.9219845906296656e+29",
+          "1.5210931831018218e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101010",
+        "integrated_value_first_second_abs_uppers": [
+          "9.884049217500696e+26",
+          "3.91567419780476e+29",
+          "2.038376707847653e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101011",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1673831194803191e+27",
+          "8.58632527776829e+29",
+          "4.469770610013446e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101100",
+        "integrated_value_first_second_abs_uppers": [
+          "7.375751427870911e+26",
+          "2.9219845906296656e+29",
+          "1.5210931831018218e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.663181359122819e+27",
+          "6.588874847381356e+29",
+          "3.429960810117649e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101110",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1673831194803191e+27",
+          "8.58632527776829e+29",
+          "4.469770610013446e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10101111",
+        "integrated_value_first_second_abs_uppers": [
+          "4.7153106673316255e+27",
+          "1.8680218922853413e+30",
+          "9.724333848648566e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110000",
+        "integrated_value_first_second_abs_uppers": [
+          "4.222661150844401e+26",
+          "1.6728533995584985e+29",
+          "8.708348115298457e+31"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110001",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2880448250065978e+27",
+          "5.102730445813009e+29",
+          "2.6563208197015223e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110011",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8244361704963364e+27",
+          "1.1189312779039268e+30",
+          "5.824803949241379e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110100",
+        "integrated_value_first_second_abs_uppers": [
+          "9.611747399892809e+26",
+          "3.807798856532384e+29",
+          "1.9822202016463496e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110101",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1673831194803191e+27",
+          "8.58632527776829e+29",
+          "4.469770610013446e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110110",
+        "integrated_value_first_second_abs_uppers": [
+          "2.8244361704963364e+27",
+          "1.1189312779039268e+30",
+          "5.824803949241379e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10110111",
+        "integrated_value_first_second_abs_uppers": [
+          "6.144780720928931e+27",
+          "2.434322084183865e+30",
+          "1.2672314362833934e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111000",
+        "integrated_value_first_second_abs_uppers": [
+          "9.186727997271253e+26",
+          "3.6394227722187316e+29",
+          "1.8945689131831925e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111001",
+        "integrated_value_first_second_abs_uppers": [
+          "2.091110456112078e+27",
+          "8.284162777315711e+29",
+          "4.312474323833025e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111010",
+        "integrated_value_first_second_abs_uppers": [
+          "2.802241771928707e+27",
+          "1.1101387249561459e+30",
+          "5.779032695093187e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111011",
+        "integrated_value_first_second_abs_uppers": [
+          "6.144780720928931e+27",
+          "2.434322084183865e+30",
+          "1.2672314362833934e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111100",
+        "integrated_value_first_second_abs_uppers": [
+          "2.091110456112078e+27",
+          "8.284162777315711e+29",
+          "4.312474323833025e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111101",
+        "integrated_value_first_second_abs_uppers": [
+          "4.7153106673316255e+27",
+          "1.8680218922853413e+30",
+          "9.724333848648566e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111110",
+        "integrated_value_first_second_abs_uppers": [
+          "6.144780720928931e+27",
+          "2.434322084183865e+30",
+          "1.2672314362833934e+33"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "10111111",
+        "integrated_value_first_second_abs_uppers": [
+          "4.2119025062487336e+27",
+          "1.2630417111772829e+30",
+          "4.9568157823166274e+32"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2051588324489781e+24",
+          "1.9842367051643997e+26",
+          "4.224761821156099e+28"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000001",
+        "integrated_value_first_second_abs_uppers": [
+          "2.743218520877883e+24",
+          "4.516578832058823e+26",
+          "9.616528993999488e+28"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000010",
+        "integrated_value_first_second_abs_uppers": [
+          "3.6761145284257214e+24",
+          "6.0525477380571456e+26",
+          "1.2886855957667245e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000011",
+        "integrated_value_first_second_abs_uppers": [
+          "8.061016673751692e+24",
+          "1.3272080593163936e+27",
+          "2.8258412448970783e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000100",
+        "integrated_value_first_second_abs_uppers": [
+          "2.743218520877883e+24",
+          "4.516578832058823e+26",
+          "9.616528993999488e+28"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000101",
+        "integrated_value_first_second_abs_uppers": [
+          "6.185769653776459e+24",
+          "1.018457553402473e+27",
+          "2.168461341138345e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000110",
+        "integrated_value_first_second_abs_uppers": [
+          "8.061016673751692e+24",
+          "1.3272080593163936e+27",
+          "2.8258412448970783e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11000111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7537369180733972e+25",
+          "2.8874444323374427e+27",
+          "6.1478375787470475e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001000",
+        "integrated_value_first_second_abs_uppers": [
+          "2.743218520877883e+24",
+          "4.516578832058823e+26",
+          "9.616528993999488e+28"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001001",
+        "integrated_value_first_second_abs_uppers": [
+          "6.244195920003581e+24",
+          "1.0280771601970014e+27",
+          "2.1889430444142487e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001010",
+        "integrated_value_first_second_abs_uppers": [
+          "8.367681647972785e+24",
+          "1.3776989896155008e+27",
+          "2.933344624887897e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001100",
+        "integrated_value_first_second_abs_uppers": [
+          "6.244195920003581e+24",
+          "1.0280771601970014e+27",
+          "2.1889430444142487e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4080233540984523e+25",
+          "2.3182434906582536e+27",
+          "4.9359164491150106e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11001111",
+        "integrated_value_first_second_abs_uppers": [
+          "3.991908329426852e+25",
+          "6.572487226341919e+27",
+          "1.3993891464530263e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010000",
+        "integrated_value_first_second_abs_uppers": [
+          "3.6761145284257214e+24",
+          "6.0525477380571456e+26",
+          "1.2886855957667245e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010001",
+        "integrated_value_first_second_abs_uppers": [
+          "8.367681647972785e+24",
+          "1.3776989896155008e+27",
+          "2.933344624887897e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1213308642118153e+25",
+          "1.8462179402090928e+27",
+          "3.930897478355831e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010011",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4588643156933484e+25",
+          "4.0484031562765234e+27",
+          "8.619707036357787e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010100",
+        "integrated_value_first_second_abs_uppers": [
+          "8.367681647972785e+24",
+          "1.3776989896155008e+27",
+          "2.933344624887897e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.886854819669306e+25",
+          "3.106616729618492e+27",
+          "6.614490949754403e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010110",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4588643156933484e+25",
+          "4.0484031562765234e+27",
+          "8.619707036357787e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11010111",
+        "integrated_value_first_second_abs_uppers": [
+          "5.349450703255826e+25",
+          "8.807616163509397e+27",
+          "1.875284353911616e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011000",
+        "integrated_value_first_second_abs_uppers": [
+          "8.061016673751692e+24",
+          "1.3272080593163936e+27",
+          "2.8258412448970783e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011001",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011010",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4588643156933484e+25",
+          "4.0484031562765234e+27",
+          "8.619707036357787e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011011",
+        "integrated_value_first_second_abs_uppers": [
+          "5.39181957219821e+25",
+          "8.877374497672557e+27",
+          "1.890137036959803e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011100",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011101",
+        "integrated_value_first_second_abs_uppers": [
+          "4.1375120710631715e+25",
+          "6.812216845439524e+27",
+          "1.4504314710169946e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011110",
+        "integrated_value_first_second_abs_uppers": [
+          "5.39181957219821e+25",
+          "8.877374497672557e+27",
+          "1.890137036959803e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11011111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.173032315040066e+26",
+          "1.931341916774048e+28",
+          "4.112140235199693e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100000",
+        "integrated_value_first_second_abs_uppers": [
+          "2.743218520877883e+24",
+          "4.516578832058823e+26",
+          "9.616528993999488e+28"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100001",
+        "integrated_value_first_second_abs_uppers": [
+          "6.244195920003581e+24",
+          "1.0280771601970014e+27",
+          "2.1889430444142487e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100010",
+        "integrated_value_first_second_abs_uppers": [
+          "8.367681647972785e+24",
+          "1.3776989896155008e+27",
+          "2.933344624887897e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100100",
+        "integrated_value_first_second_abs_uppers": [
+          "6.244195920003581e+24",
+          "1.0280771601970014e+27",
+          "2.1889430444142487e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100101",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4080233540984523e+25",
+          "2.3182434906582536e+27",
+          "4.9359164491150106e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11100111",
+        "integrated_value_first_second_abs_uppers": [
+          "3.991908329426852e+25",
+          "6.572487226341919e+27",
+          "1.3993891464530263e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101000",
+        "integrated_value_first_second_abs_uppers": [
+          "6.185769653776459e+24",
+          "1.018457553402473e+27",
+          "2.168461341138345e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101001",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4080233540984523e+25",
+          "2.3182434906582536e+27",
+          "4.9359164491150106e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101010",
+        "integrated_value_first_second_abs_uppers": [
+          "1.886854819669306e+25",
+          "3.106616729618492e+27",
+          "6.614490949754403e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101011",
+        "integrated_value_first_second_abs_uppers": [
+          "4.1375120710631715e+25",
+          "6.812216845439524e+27",
+          "1.4504314710169946e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101100",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4080233540984523e+25",
+          "2.3182434906582536e+27",
+          "4.9359164491150106e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101101",
+        "integrated_value_first_second_abs_uppers": [
+          "3.174996090023273e+25",
+          "5.227480075792602e+27",
+          "1.1130153043501701e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101110",
+        "integrated_value_first_second_abs_uppers": [
+          "4.1375120710631715e+25",
+          "6.812216845439524e+27",
+          "1.4504314710169946e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11101111",
+        "integrated_value_first_second_abs_uppers": [
+          "9.00147953049958e+25",
+          "1.4820507948290383e+28",
+          "3.155526553666419e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110000",
+        "integrated_value_first_second_abs_uppers": [
+          "8.061016673751692e+24",
+          "1.3272080593163936e+27",
+          "2.8258412448970783e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110001",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110010",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4588643156933484e+25",
+          "4.0484031562765234e+27",
+          "8.619707036357787e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110011",
+        "integrated_value_first_second_abs_uppers": [
+          "5.39181957219821e+25",
+          "8.877374497672557e+27",
+          "1.890137036959803e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110100",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8348726843598739e+25",
+          "3.0210306120622204e+27",
+          "6.432264219803331e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110101",
+        "integrated_value_first_second_abs_uppers": [
+          "4.1375120710631715e+25",
+          "6.812216845439524e+27",
+          "1.4504314710169946e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110110",
+        "integrated_value_first_second_abs_uppers": [
+          "5.39181957219821e+25",
+          "8.877374497672557e+27",
+          "1.890137036959803e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11110111",
+        "integrated_value_first_second_abs_uppers": [
+          "1.173032315040066e+26",
+          "1.931341916774048e+28",
+          "4.112140235199693e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111000",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7537369180733972e+25",
+          "2.8874444323374427e+27",
+          "6.1478375787470475e+29"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111001",
+        "integrated_value_first_second_abs_uppers": [
+          "3.991908329426852e+25",
+          "6.572487226341919e+27",
+          "1.3993891464530263e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111010",
+        "integrated_value_first_second_abs_uppers": [
+          "5.349450703255826e+25",
+          "8.807616163509397e+27",
+          "1.875284353911616e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111011",
+        "integrated_value_first_second_abs_uppers": [
+          "1.173032315040066e+26",
+          "1.931341916774048e+28",
+          "4.112140235199693e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111100",
+        "integrated_value_first_second_abs_uppers": [
+          "3.991908329426852e+25",
+          "6.572487226341919e+27",
+          "1.3993891464530263e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111101",
+        "integrated_value_first_second_abs_uppers": [
+          "9.00147953049958e+25",
+          "1.4820507948290383e+28",
+          "3.155526553666419e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111110",
+        "integrated_value_first_second_abs_uppers": [
+          "1.173032315040066e+26",
+          "1.931341916774048e+28",
+          "4.112140235199693e+30"
+        ],
+        "volume": "1/130459631616"
+      },
+      {
+        "bits": "11111111",
+        "integrated_value_first_second_abs_uppers": [
+          "6.05488431113396e+25",
+          "7.61545295780716e+27",
+          "1.2301252444286396e+30"
+        ],
+        "volume": "1/130459631616"
+      }
+    ],
+    "entry_intervals_recomputed_per_child": true,
+    "exact_child_volume_sum": "1/509607936",
+    "exact_parent_volume_replayed": true,
+    "integrated_value_first_second_abs_uppers": [
+      "6.969293470167853e+33",
+      "2.0656961434206774e+36",
+      "8.04586453782576e+38"
+    ],
+    "maximum_child_integrated_uppers": [
+      "4.229179972198318e+32",
+      "1.2741457533390431e+35",
+      "5.013649736991891e+37"
+    ],
+    "minimum_child_integrated_uppers": [
+      "1.2051588324489781e+24",
+      "1.9842367051643997e+26",
+      "4.224761821156099e+28"
+    ],
+    "pairwise_disjoint_up_to_shared_boundaries": true,
+    "parent_to_refined_ratios": [
+      "0.01664334140604345",
+      "0.012282179480213078",
+      "0.009118786531205954"
+    ],
+    "post_assembly_enclosure_reused_without_familywise_absolute_sum": true,
+    "refinement_nonincreasing_by_order": [
+      true,
+      true,
+      true
+    ]
+  },
+  "release_test": {
+    "all_refined_uppers_finite_positive": true,
+    "all_refined_uppers_no_larger_than_parent": true,
+    "complete_numerical_norm_overclaim": false,
+    "exact_parent_volume_replayed": true,
+    "native_K152_interval_emitted": false,
+    "two_to_the_eight_children_exact": true
+  },
+  "result_id": "K327-ORDER-SEVEN-ADAPTIVE-INTERIOR-SUBDIVISION",
+  "schema_version": "1.0",
+  "scope_boundary": {
+    "covered": "one exact 256-child refinement of K324's positive x,b and six-gap interior slab across all sixteen K318 endpoint charts",
+    "interior_refinement_is_not_global_release": true,
+    "not_covered": [
+      "r=0 origin chart",
+      "exponential radial tail",
+      "s=0 face",
+      "s=1 face",
+      "recursive tolerance closure",
+      "a complete y-master constant"
+    ]
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

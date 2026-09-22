@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e129a246d6b2f17ce6b09a45dbfc7574b86a95f0
+revision_basis: e9978e5d71594d6c4192c3381fa96f7f47857207
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -191,8 +191,17 @@ current_result:
     cross-weighted total is 1,674. A literal-zero bordered control has zero
     coherently assembled second derivative while early familywise absolute
     summation gives four, proving that enclosure must follow signed assembly.
-    Chart-specific derivative intervals and adaptive radial/projective sums
-    remain open; K325 emits no numerical y constant or downstream release.
+    K326 substitutes chart-specific signed divided-difference and K322
+    zero-safe terminal jets into that shared determinant polynomial before
+    coefficient enclosure. All sixteen endpoint charts have finite complete
+    value/first/second bounds on K324's positive slab; their summed uppers are
+    approximately `2.134e44`, `8.571e46` and `4.496e49`. K327 then bisects
+    `x`, `b` and all six projective gaps. Its 256 exact rational child volumes
+    replay the parent, every child recomputes shared entry intervals, and the
+    integrated uppers contract to about 1.66%, 1.23% and 0.912% of their
+    parent controls. Radial origin, tail, both projective faces and recursive
+    tolerance closure remain open; neither result emits a complete y constant
+    or downstream release.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9441,16 +9450,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K321 now supplies the sixty-four-chart radial/projective tensor topology
-  and exact degree-minus-twenty-seven origin control; K322 supplies finite
-  zero-inclusive `Phi_0/Phi_1/Phi_2` envelopes; K323 proves the first
-  complete weighted old-position-six value-family bound; and K324 extends
-  the complete-matrix evaluator to all sixteen endpoint charts on one
-  positive radial/projective slab. K325 now proves the shared-generator
-  determinant-jet algebra for all five first and fifteen second families and
-  rejects early familywise absolute enclosure. Substitute chart-specific
-  entry-jet intervals into that algebra before one post-assembly enclosure,
-  then perform adaptive radial-origin, tail and projective-face summation. Only a complete
+  K321 supplies the sixty-four-chart radial/projective topology and exact
+  degree-minus-twenty-seven origin control; K322 supplies zero-safe scaled
+  terminal jets; K325 freezes the shared-generator determinant-jet algebra;
+  K326 supplies finite signed value/first/second bounds on all sixteen K318
+  charts over one positive slab; and K327 proves a 256-child exact-cover
+  interior refinement that contracts all three integrated uppers. Extend the
+  accepted evaluator to the degree-27 normalized radial origin, exponential
+  tail and both projective faces, then recurse to a declared tolerance before
+  releasing a complete y sum. Only a complete
   accepted numerical y sum releases reuse for the five Duffy axes, and only
   six complete finite constants may reopen K294's gamma join.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
@@ -9700,15 +9708,15 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Treat K321 as the exact sixty-four-chart radial/projective tensor topology,
-  K322 as the zero-inclusive scaled-entry envelope, K323 as the first
-  complete-matrix value-family pilot, K324 as the complete sixteen-chart
-  value bank on one positive slab, and K325 as the exact shared-generator
-  determinant-jet correlation contract. Preserve K318's exact `1/24` Peano
+  K322 as the zero-inclusive scaled-entry envelope, K325 as the exact shared-
+  generator determinant-jet contract, K326 as the complete sixteen-chart
+  signed derivative bank on one positive slab, and K327 as the first exact-
+  cover adaptive interior oracle. Preserve K318's exact `1/24` Peano
   mass, all eighty-four nonnegative valuation checks, the split Jacobian,
   K315's literal border zeros and the signed fifteen-family second jet inside
-  every chart before absolute enclosure. Substitute chart-specific first/
-  second entry-jet intervals into K325 and enclose only after coherent family
-  assembly, then build the adaptive radial/projective sums. Reuse only the
+  every chart before absolute enclosure. Extend the same post-assembly
+  evaluator to the degree-27 normalized origin, exponential tail and both
+  projective faces, then recurse to a declared tolerance. Reuse only the
   accepted complete y subdivision for the five Duffy axes.
   K294's gamma join remains closed until all six finite constants exist. No
   exterior value, action-column value, complete residual or native K152

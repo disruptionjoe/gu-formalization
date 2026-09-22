@@ -1,0 +1,481 @@
+{
+  "claim_ceiling": "Finite signed shared-entry-jet enclosures for value, first and second coefficients of the complete five-by-five bordered determinant on all sixteen K318 endpoint charts over K324's fixed positive slab. K322 zero-safe terminal jets and complete-monotonicity signs are substituted before one determinant Taylor expansion and one coefficient enclosure; literal zeros and left-column/right-row weight placement remain exact. Radial origin, tail and projective faces remain open, so no complete y-master constant, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is released.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_chart_bank": {
+    "exact_chart_masses_are_census_not_extra_multiplier": true,
+    "familywise_absolute_summation_used": false,
+    "literal_border_zeros_retained": true,
+    "permutationwise_absolute_summation_used": false,
+    "rows": [
+      {
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/1920",
+        "split_sector": "a_max"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/1920",
+        "split_sector": "a_max"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/640",
+        "split_sector": "a_max"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/320",
+        "split_sector": "a_max"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/640",
+        "split_sector": "a_max"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/320",
+        "split_sector": "a_max"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_eta_A",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/384",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_A_eta",
+        "complete_value_first_second_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ],
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/128",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/1920",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/1920",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/640",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/320",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/640",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/320",
+        "split_sector": "b_max"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_eta_A",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/384",
+        "split_sector": "a_max"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_A_eta",
+        "complete_value_first_second_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "complete_value_first_second_interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ],
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/128",
+        "split_sector": "a_max"
+      }
+    ],
+    "shared_interval_substitution_precedes_determinant_coefficient_enclosure": true,
+    "sixteen_chart_value_first_second_abs_uppers": [
+      "2.1339508540159332e+44",
+      "8.57091487506506e+46",
+      "4.4964715496138773e+49"
+    ],
+    "source_chart_ids": [
+      "left_a_max_hepp3_eta_A_v",
+      "left_a_max_hepp3_eta_v_A",
+      "left_a_max_hepp3_A_eta_v",
+      "left_a_max_hepp3_A_v_eta",
+      "left_a_max_hepp3_v_eta_A",
+      "left_a_max_hepp3_v_A_eta",
+      "left_b_max_hepp2_eta_A",
+      "left_b_max_hepp2_A_eta",
+      "right_b_max_hepp3_eta_A_v",
+      "right_b_max_hepp3_eta_v_A",
+      "right_b_max_hepp3_A_eta_v",
+      "right_b_max_hepp3_A_v_eta",
+      "right_b_max_hepp3_v_eta_A",
+      "right_b_max_hepp3_v_A_eta",
+      "right_a_max_hepp2_eta_A",
+      "right_a_max_hepp2_A_eta"
+    ]
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "adaptive_positive_interior_subdivision_released": true,
+    "all_sixteen_signed_derivative_charts_bounded": true,
+    "complete_determinant_taylor_assembly_precedes_interval_enclosure": true,
+    "complete_y_master_constant_emitted": false,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "apply this evaluator to an exact-cover adaptive positive-interior subdivision, then extend the accepted rule to radial origin, tail and projective faces",
+    "zero_touching_terminal_orders_zero_one_two_are_safe": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "chart_count": 16,
+    "coefficient_orders": [
+      0,
+      1,
+      2
+    ],
+    "predecessor_manifests": [
+      "lab/process/k318-order-seven-weighted-endpoint-blowup-atlas.json",
+      "lab/process/k322-order-seven-zero-safe-scaled-bessel-envelopes.json",
+      "lab/process/k324-order-seven-complete-value-chart-bank.json",
+      "lab/process/k325-order-seven-correlated-determinant-jet-algebra.json"
+    ],
+    "radial_projective_slab": {
+      "b": [
+        "1/32",
+        "1/8"
+      ],
+      "projective_gaps": [
+        "1/8",
+        "5/24"
+      ],
+      "x": [
+        "1/16",
+        "1/8"
+      ]
+    },
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "K325_family_census_replayed": true,
+    "all_complete_bounds_finite_positive": true,
+    "complete_numerical_norm_overclaim": false,
+    "native_K152_interval_emitted": false,
+    "raw_zero_evaluation_used": false,
+    "source_chart_ids_covered_exactly_once": true
+  },
+  "result_id": "K326-ORDER-SEVEN-SIGNED-ENTRY-JET-CHART-BANK",
+  "schema_version": "1.0",
+  "scope_boundary": {
+    "covered": "all sixteen K318 endpoint charts and complete value/first/second bordered determinant jets on K324's fixed positive radial/projective slab",
+    "fixed_slab_bank_is_not_global_release": true,
+    "not_covered": [
+      "radial origin",
+      "radial tail",
+      "projective s=0 and s=1 faces",
+      "a complete y-master constant"
+    ]
+  },
+  "signed_entry_jet_cell": {
+    "b": [
+      "1/32",
+      "1/8"
+    ],
+    "endpoints": {
+      "left": {
+        "determinant_jet_intervals": [
+          "[+/- 8.40e+22]",
+          "[+/- 3.38e+25]",
+          "[+/- 1.77e+28]"
+        ],
+        "four_group_weighted_abs_uppers": [
+          "1.3337192847984176e+43",
+          "5.356821823500222e+45",
+          "2.81029472667545e+48"
+        ],
+        "interval_widths": [
+          "2.6674385695968353e+43",
+          "1.0713562673602279e+46",
+          "5.620527634674136e+48"
+        ]
+      },
+      "right": {
+        "determinant_jet_intervals": [
+          "[+/- 8.40e+22]",
+          "[+/- 3.38e+25]",
+          "[+/- 1.77e+28]"
+        ],
+        "four_group_weighted_abs_uppers": [
+          "1.333719282721499e+43",
+          "5.3568217703311025e+45",
+          "2.8102947103418965e+48"
+        ],
+        "interval_widths": [
+          "2.667438565442998e+43",
+          "1.0713562567264039e+46",
+          "5.620527602007029e+48"
+        ]
+      }
+    },
+    "entry_jet_audit": {
+      "D4_minimum_argument": "1/32",
+      "entry_interval_construction": "complete monotonicity signs retained whenever delta parity fixes them; only sign-undetermined affine first jets and terminal Phi jets are symmetric",
+      "literal_zero_slots": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "minimum_nonterminal_B5_argument": "1/1024",
+      "raw_Bessel_evaluation_at_zero_used": false,
+      "sign_definite_core_intervals": 21,
+      "symmetric_dependency_intervals": 9,
+      "terminal_argument_upper_W": "3/16",
+      "terminal_scaled_jet_uppers": [
+        "4.000000000000001",
+        "9.500000000000002",
+        "35.56250000000001"
+      ],
+      "terminal_zero_safe_rule": "K322 U_m(W)*2^(m+1), |D|<=1, H>=1/2"
+    },
+    "native_projective_polynomial_upper": "59604644775390625/203282392447840896882957090816",
+    "outer_scalar_fraction": "11920928955078125/1248967019199534470448888365973504",
+    "projective_gaps": [
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ]
+    ],
+    "x": [
+      "1/16",
+      "1/8"
+    ]
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}
