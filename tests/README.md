@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K338 complete gap-axis Peano bank
+
+- `channel-swings/k338_order_seven_complete_gap_axis_peano_bank.py` lifts the
+  shared-entry evaluator through every K334 finite leaf, both preconditioned
+  projective faces and all three analytic tails, applies the five exact K299
+  Peano masses, and emits the complete finite six-axis remainder bank.
+- `channel-swings/k338_order_seven_complete_gap_axis_peano_bank_probe.py`
+  independently replays the stored bank, passes ten controls and rejects
+  thirteen coverage, preconditioning, tail, mass and overclaim mutations.
+
 ## K336/K337 axis-native maps and reference execution
 
 - `channel-swings/k336_order_seven_axis_native_map_bank.py` maps all 516 K334

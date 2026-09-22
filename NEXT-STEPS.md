@@ -20,6 +20,19 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K338 COMPLETE GAP-AXIS PEANO BANK.** K338 lifts K337 through
+> K329's degree-27 zero-safe origin, both K332 preconditioned projective faces,
+> and K333's analytic radial tails with exact powers 35/36/37. All 516 K334
+> finite leaves and three tails are evaluated for all five gap axes before the
+> exact K299 Peano masses are applied. The resulting gap-axis constants are
+> approximately `0.02117864`, `0.03361678`, `0.11014150`, `0.05583365`, and
+> `0.20361913`; together with K334's y constant they give the finite six-axis
+> upper `68336.24793929`. This releases K294 composition. Next assemble that
+> bank with K294's exact radial-simplex normalization inside the complete
+> K288/K305 coherent occurrence sum, then evaluate the action value and
+> residual separately. No action-column value, residual, K152 interval, or
+> physical/source claim has yet been emitted.
+
 > **2026-09-22 K336/K337 AXIS-NATIVE MAP BANK AND FIRST NUMERICAL EXECUTION.**
 > K336 serializes all four maps left open by K335: exact affine Duffy
 > directions, native projective-polynomial value/first/second intervals,

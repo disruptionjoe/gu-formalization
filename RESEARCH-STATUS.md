@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-22 — K338 complete gap-axis Peano bank
+
+K338 closes the five-axis numerical remainder gate left by K337. The same
+shared-entry D4-times-bordered-B5 evaluator now covers all 516 accepted K334
+finite leaves, the degree-27 zero-safe radial origin, both legally
+preconditioned projective faces, and the three analytic tails with exact
+powers 35/36/37. All 2,580 finite leaf-axis evaluations and fifteen tail
+evaluations are finite. K299's exact masses produce gap-axis constants
+approximately `0.02117864`, `0.03361678`, `0.11014150`, `0.05583365`, and
+`0.20361913`. With K334's y constant the six-axis upper is
+`68336.24793929`.
+
+This releases K294 composition but does not perform it. The next exact input
+is the complete K288/K305 coherent action-column occurrence sum with K294's
+radial-simplex normalization and the released remainder bank. The action
+value and residual must then be evaluated separately. No exterior
+action-column value, residual, complement, K152 interval, source/ledger,
+canon, paper, public, or physical claim follows from K338.
+
 ## 2026-09-22 — K301/K302 terminal split correction and weighted repair
 
 Every order-seven size-three companion contains the terminal `(8,8)` entry,

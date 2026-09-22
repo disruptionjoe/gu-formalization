@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6d8fed0ae288662fde66d3f85c6ea582a4a33186
+revision_basis: a77b6ef3d3c309286b0516d87c5dde85562355b3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -268,6 +268,16 @@ current_result:
     uppers. This is the first numerical complete-determinant gap bank, not a
     global Peano constant: the degree-27 origin, both projective faces and the
     analytic radial tails still require the same axis-native evaluator.
+
+    K338 lifts that evaluator through the complete K334 cover. All 516 finite
+    leaves and three analytic tails are evaluated for all five gap axes with
+    degree-27 zero-safe origin normalization, projective-face preconditioning
+    before interval substitution, and exact tail powers 35/36/37. Applying
+    K299's exact Peano masses gives five finite constants approximately
+    0.02117864, 0.03361678, 0.11014150, 0.05583365 and 0.20361913. Together
+    with K334's y constant the six-axis upper is 68336.24793929. This releases
+    K294 composition, but no complete K288/K305 action-column occurrence sum,
+    action value, residual or native K152 interval has been evaluated.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9516,19 +9526,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K336 serializes all four K335 axis-native map classes on every accepted K334
-  finite leaf, compressed into 65 exact repeated gap boxes. K337 executes the
-  first complete shared-entry D4-times-bordered-B5 determinant bank for all
-  five Duffy axes on the strictly positive K326 reference slab. Lift that same
-  evaluator through K329's degree-27 normalized origin, K332's preconditioned
-  `s=0,1` face cells and K333's unchanged 35/36/37 analytic tails; then apply
-  the five K299 Peano masses on the accepted K334 cover. Only five accepted
-  complete gap-axis constants together with K334's y constant may reopen
-  K294's gamma join.
+  K338 emits all five complete gap-axis Peano constants after evaluating every
+  accepted K334 finite leaf and analytic tail. With K334's y constant, the
+  released six-axis numerical remainder upper is 68336.24793929. Compose this
+  bank with K294's exact radial-simplex normalization inside the complete
+  K288/K305 coherent action-column occurrence sum. Evaluate the action value
+  and residual separately before any native K152 interval.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
-  pointwise bank. No exterior action-column value, complete residual or native
-  K152 interval follows yet.
+  pointwise bank. The released remainder bank is not an action-column value,
+  complete residual or native K152 interval.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9773,24 +9780,23 @@ contribution_path:
 next_condition: >-
   Treat K334 as the accepted complete y-master subdivision, K335 as the
   order-seven/eight zero-safe kernel extension, K336 as the complete
-  axis-native direction/polynomial/shared-entry/degree map bank, and K337 as
-  the finite complete-determinant reference-slab execution. Preserve K331 as
+  axis-native direction/polynomial/shared-entry/degree map bank, K337 as the
+  finite complete-determinant reference-slab execution, and K338 as the
+  complete finite five-gap-axis Peano bank plus six-axis remainder upper.
+  Preserve K331 as
   the projective homogeneity ledger, K332 as the finite confluent face
   evaluator, K333 as the full face radial-half-line closure, and K327 as the
   first exact-cover adaptive interior oracle.
   Preserve K318's exact `1/24` Peano
   mass, all eighty-four nonnegative valuation checks, the split Jacobian,
   K315's literal border zeros and the signed fifteen-family second jet inside
-  every chart before absolute enclosure. Reuse K334's exact 516-leaf finite
-  partition and three analytic tails without changing their checksum. Reuse
-  K336's 65 rational gap classes and exact leaf mapping. Lift K337's shared-
-  entry coefficient evaluator through the normalized origin, both preconditioned
-  projective faces and the analytic tails before applying each K299 Peano mass.
-  Do not substitute K334's y derivatives, K336's structural maps or K337's
-  positive-slab controls for complete gap constants.
-  K294's gamma join remains closed until all six finite constants exist. No
-  exterior value, action-column value, complete residual or native K152
-  interval follows yet.
+  every chart before absolute enclosure. Reuse K338's exact K334 checksum,
+  complete finite-leaf mapping, face preconditioning, tail powers and exact
+  K299 masses without loosening any component. Compose the released six-axis
+  remainder bank with K294's exact radial-simplex normalization only inside
+  the complete K288/K305 coherent occurrence sum. Do not substitute the
+  numerical remainder upper for an action-column value. Evaluate the action
+  value and complete residual separately before any native K152 interval.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

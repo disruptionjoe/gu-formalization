@@ -7,6 +7,24 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K338 complete gap-axis Peano bank (2026-09-22)
+
+K338 evaluates K337's shared-entry determinant construction on all 516
+accepted K334 finite leaves and all five Duffy gap axes. It uses the degree-27
+zero-safe origin normalization, applies the legal lower- and upper-face
+preconditioners before interval substitution, and retains the exact analytic
+radial tail powers 35/36/37. All 2,580 finite leaf-axis evaluations and fifteen
+tail evaluations are finite. Applying K299's exact Peano masses gives five
+second-directional constants approximately `0.02117864`, `0.03361678`,
+`0.11014150`, `0.05583365`, and `0.20361913`. Adding K334's y constant gives
+the six-axis upper `68336.24793929`. The independent probe passes 10/10
+controls and rejects 13/13 hostile mutations.
+
+This is a complete numerical remainder bank and releases K294 composition; it
+does not itself assemble the complete K288/K305 coherent occurrence sum or
+evaluate an action-column value, residual, exterior complement, native K152
+interval, or physical/source claim.
+
 ## K336/K337 axis-native maps and reference execution (2026-09-22)
 
 K336 serializes the four numerical map classes named by K335. The simplex-
