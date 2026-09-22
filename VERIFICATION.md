@@ -7,6 +7,35 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K287 tensor Jacobi remainder on the normalized tube (2026-09-21)
+
+K287 composes K286's fourth-order componentwise bank with the positive two-node
+Gauss--Jacobi rule on every axis of K284's normalized uniform shape box. The
+one-axis remainder is below `7.9338118175e-8`; the positive tensor telescope
+gives a six-axis remainder below `4.7602870905e-7`. Relative to K284's global
+positive lower `0.1255775360161132`, the ratio is below `3.790715475e-6` and
+therefore does not meet the explicit one-part-per-million discriminator.
+
+This is a rigorous local-tube proxy, not the native K179 occurrence,
+projective-scale or radial measure. It supplies no exterior arbitrary-gap
+bound, action-column value, residual, native K152 interval, physical state,
+source/ledger change, canon, paper or public claim.
+
+## K286 mixed shape-derivative bank through order four (2026-09-21)
+
+K286 applies the Hermite--Genocchi derivative identity to the common K284
+chart and retains all 24 determinant permutations, all `4^m` labelled
+derivative assignments at order `m`, and the complete sixteen-factor
+normalization product rule. Every one of the 2,048 cells has finite positive
+componentwise and Euclidean-operator bounds through order four. The fourth-
+order componentwise upper is `2.4697068096092027e13`, and ten independent
+300-digit pure and mixed central-difference controls lie within the bank.
+
+The bank is deliberately conservative and is not a native occurrence measure
+or a composed Jacobi/action-column error. It supplies no complete arbitrary-
+gap atlas, action-column value, residual, exterior gap, native K152 interval,
+physical state, source/ledger change, canon, paper or public claim.
+
 ## K285 first shape-gradient packet on the transverse tube (2026-09-21)
 
 K285 differentiates K284's complete center-preconditioned size-four

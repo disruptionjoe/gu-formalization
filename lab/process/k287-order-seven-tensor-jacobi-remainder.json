@@ -1,0 +1,66 @@
+{
+  "canon_paper_release_or_public_posture_move": false,
+  "claim_ceiling": "Two-node tensor Gauss-Jacobi remainder for the normalized uniform six-dimensional K284 shape tube only; no native K179 occurrence or scale/radial measure, exterior arbitrary-gap domain, action-column value, residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-21",
+  "decision": {
+    "domain_widening_authorized": false,
+    "native_action_column_ready": false,
+    "next_exact_input": "compose the native K179 occurrence weights and scale/radial measure with this local tube rule, then bound the exterior arbitrary-gap domain before emitting an action-column interval",
+    "normalized_tube_proxy_resolved": false,
+    "tensor_jacobi_remainder_serialized": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "derivative_manifest": "lab/process/k286-order-seven-mixed-shape-derivative-bank.json",
+    "jacobi_alpha": "0",
+    "jacobi_beta": "0",
+    "nodes_per_axis": 2,
+    "shape_coordinate_count": 6,
+    "tensor_node_count": 64,
+    "transverse_shape_radius": "1/32768",
+    "tube_manifest": "lab/process/k284-order-seven-transverse-shape-atlas.json"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "measure_boundary": {
+    "certified_measure": "normalized uniform product measure on each bounded K284 transverse shape box",
+    "decision": "The tensor rule is resolving for the normalized local tube proxy if the reported ratio is below 1e-6, but it is not a native action-column error until the K179 occurrence, scale, radial, and exterior-domain measures are composed.",
+    "native_K179_occurrence_measure_serialized": false,
+    "occurrence_weights_serialized": false,
+    "scale_radial_measure_serialized": false
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "complete_arbitrary_gap_ratio_domain_covered": false,
+    "complete_base_action_column_evaluated": false,
+    "determinant_preserving_tensor_jacobi_remainder_serialized": true,
+    "k286_fourth_derivative_bank_consumed": true,
+    "native_K152_interval_emitted": false,
+    "native_K179_occurrence_measure_serialized": false,
+    "normalized_uniform_tube_measure_only": true
+  },
+  "remainder": {
+    "global_componentwise_fourth_derivative_abs_upper": "24697068096092.027",
+    "numerically_resolving_on_normalized_tube": false,
+    "one_axis_normalized_average_abs_upper": "7.933811817423827097161281040337565139418950787297001591435185185185185185185185185185185185185185185E-8",
+    "remainder_to_positive_lower_ratio_upper": "0.000003790715474655825937239703508184163748817813879708301466271764624564547224135514561929059811078279037",
+    "six_axis_normalized_tube_average_abs_upper": "4.760287090454296258296768624202539083651370472378200954861111111111111111111111111111111111111111111E-7",
+    "tube_regularizer_lower": "0.1255775360161132",
+    "tube_regularizer_upper": "1.5457889480286902"
+  },
+  "result_id": "K287-ORDER-SEVEN-TENSOR-JACOBI-REMAINDER",
+  "rule": {
+    "common_chart": "K284 complete center-preconditioned determinant ratio",
+    "determinant_preserving": true,
+    "name": "two-node Gauss-Jacobi with alpha=beta=0 (Gauss-Legendre special case)",
+    "normalized_one_dimensional_average_remainder": "h^4 sup|d^4 f/deta_i^4| / 270",
+    "six_axis_positive_tensor_telescope": "sum the six one-axis errors because every remaining integral and quadrature operator is positive with norm one"
+  },
+  "schema_version": "1.0"
+}

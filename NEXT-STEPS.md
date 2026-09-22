@@ -20,6 +20,27 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K287 TENSOR JACOBI REMAINDER.** K286's fourth-order bank now
+> composes with a positive two-node tensor Gauss--Jacobi rule on K284's
+> normalized uniform six-dimensional tube. The certified six-axis remainder
+> is below `4.7602871e-7`, or `3.790716e-6` relative to K284's global positive
+> lower. This finite local certificate misses the explicit one-ppm
+> discriminator and is not the native K179 occurrence, scale or radial
+> measure. Next compose those native weights and bound the exterior arbitrary-
+> gap domain; sharpen the fourth bank or raise the positive rule order if the
+> local ceiling dominates. See
+> `explorations/conditional-build/k287-order-seven-tensor-jacobi-remainder-2026-09-21.md`.
+
+> **2026-09-21 K286 MIXED SHAPE-DERIVATIVE BANK.** Componentwise mixed
+> derivatives through total order four are now rigorously bounded on all 2,048
+> K284 cells. The determinant bound retains all 24 permutations and all
+> labelled derivative assignments; the normalization bound retains the full
+> sixteen-factor product rule. The fourth-order componentwise upper is below
+> `2.4697069e13`, and ten independent 300-digit mixed-difference controls are
+> contained. This conservative bank is a local tube input, not a native
+> occurrence measure or action-column error. See
+> `explorations/conditional-build/k286-order-seven-mixed-shape-derivative-bank-2026-09-21.md`.
+
 > **2026-09-21 K285 FIRST SHAPE-GRADIENT PACKET.** All six first derivatives
 > of the complete K284 determinant chart now have rigorous finite envelopes on
 > all 2,048 transverse-tube cells. Exact normalization derivatives,

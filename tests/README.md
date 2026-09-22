@@ -4,6 +4,27 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K287 tensor Jacobi remainder
+
+- `channel-swings/k287_order_seven_tensor_jacobi_remainder.py` composes K286's
+  fourth-order bank with the positive two-node tensor Gauss--Jacobi rule on
+  K284's normalized uniform shape tube.
+- `channel-swings/k287_order_seven_tensor_jacobi_remainder_probe.py`
+  independently checks the exact remainder coefficient, six-axis positive
+  telescope, one-ppm verdict, measure ceiling and hostile mutations. The
+  result is not the native K179 occurrence or scale/radial measure.
+
+## K286 mixed shape-derivative bank through order four
+
+- `channel-swings/k286_order_seven_mixed_shape_derivative_bank.py` certifies
+  componentwise and Euclidean-operator derivative envelopes through order
+  four on every K284 cell using complete determinant and normalization product
+  bounds.
+- `channel-swings/k286_order_seven_mixed_shape_derivative_bank_probe.py`
+  independently rebuilds the bank, checks 300-digit pure and mixed central
+  differences, and rejects hostile mutations. The bank alone is not a Jacobi
+  remainder or native occurrence measure.
+
 ## K285 first shape-gradient packet
 
 - `channel-swings/k285_order_seven_mixed_shape_derivative_packet.py` derives

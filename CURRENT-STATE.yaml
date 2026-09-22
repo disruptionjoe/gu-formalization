@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cf612997a64d5ddf9455700dfb2e5e51d4ff4394
+revision_basis: 30de39d2ef8503c056becdcde44720c4d9b3efa0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K287 composes K286's fourth-order bank with the positive two-node tensor
+    Gauss--Jacobi rule on K284's normalized uniform six-dimensional shape
+    boxes. The certified six-axis error is below 4.7602871e-7, or 3.790716e-6
+    relative to K284's global positive lower. This is finite and small but does
+    not meet the explicit one-ppm discriminator. It is not the native K179
+    occurrence, scale or radial measure, an exterior arbitrary-gap bound, an
+    action-column value or a native K152 interval.
+
+    K286 certifies finite componentwise mixed shape derivatives through total
+    order four on all 2,048 K284 cells. Hermite--Genocchi entry derivatives,
+    all 24 determinant permutations, all labelled derivative assignments and
+    the complete sixteen-factor normalization product rule give a fourth-order
+    componentwise upper below 2.4697069e13; ten independent 300-digit mixed-
+    difference controls are contained. This bank is deliberately conservative
+    and supplies no native occurrence measure or composed action-column error.
+
     K285 differentiates K284's complete transverse tube with respect to all
     six shape variables. Exact normalization derivatives, Hermite--Genocchi
     node derivatives and completed determinant cofactors give finite rigorous
@@ -9046,15 +9062,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K284 certifies a six-dimensional transverse tube around K283's projective
-  spine and proves its exact overlap with K282/K283. K285 supplies rigorous
-  first shape derivatives on every tube cell. Construct the higher mixed-Duffy
-  derivative bank required by one determinant-preserving Jacobi remainder,
-  compose the error on the same common chart, and report whether its width is
-  decision-useful before widening the gap domain. Preserve all 408 signed Gram
-  entries, 96 K179 paths, old-position Bessel factors and exact primitive gap
-  supports. Do not treat the bounded tube as the complete arbitrary-gap
-  simplex or either packet as a numerical action column.
+  K286 certifies the complete fourth-order mixed shape-derivative bank on
+  K284's common determinant chart, and K287 composes it with a positive
+  two-node tensor Jacobi rule. The resulting normalized local-tube certificate
+  is finite at 3.790716 ppm relative to K284's lower, but misses the explicit
+  one-ppm discriminator. Compose the local rule with the native K179
+  occurrence, projective-scale and radial measures and bound the exterior
+  arbitrary-gap domain. If the local ceiling dominates that consumer, sharpen
+  the coordinate-aware fourth bank or increase the positive Jacobi order.
+  Preserve all 408 signed Gram entries, 96 K179 paths, old-position Bessel
+  factors and exact primitive gap supports. Do not promote the normalized tube
+  proxy to a numerical action column or native K152 interval.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9297,17 +9315,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K284 as the certified transverse tube around K283 and K285 as its
-  first shape-gradient packet. The next admissible gate is the complete higher
-  mixed-Duffy derivative bank needed by a determinant-preserving Jacobi error
-  calculation on that same common chart. It must preserve exact K282/K283
+  Treat K286 as the certified fourth-order mixed derivative bank and K287 as
+  the positive two-node Jacobi remainder for the normalized uniform K284 tube.
+  The next admissible gate is the native consumer composition: serialize the
+  K179 occurrence weights and projective-scale/radial measures, then bound the
+  exterior arbitrary-gap domain. If K287's 3.790716-ppm local ceiling controls
+  the composed decision, sharpen the coordinate-aware fourth bank or raise the
+  positive Jacobi order before widening the tube. Preserve exact K282/K283
   overlap, all 24 size-four occurrences and the full signed entry/path
-  structure, then report actual composed width before any domain widening.
-  Independently ranging gaps outside the tube, raw nearly singular
-  determinants, literal Leibniz expansion and omission of size-four
-  occurrences are inadmissible. K284/K285 supply no complete arbitrary-gap
-  atlas, outward cubature error, numerical action column, residual, exterior
-  gap or native K152 interval.
+  structure. K286/K287 supply no native measure, complete arbitrary-gap atlas,
+  action-column value, residual, exterior gap or native K152 interval.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued
