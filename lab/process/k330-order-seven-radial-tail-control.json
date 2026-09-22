@@ -1,0 +1,218 @@
+{
+  "assembly_contract": {
+    "literal_border_zeros_retained": true,
+    "raw_Bessel_zero_call_used": false,
+    "shared_normalized_entry_intervals_assembled_before_B5_coefficient_enclosure": true,
+    "tail_finiteness_is_analytic_not_sampled": true
+  },
+  "claim_ceiling": "Finite analytic exponential-tail bounds plus a finite [1/16,1] annulus bound for the degree-27 normalized complete determinant on the positive projective interior. Together with K329 this covers the complete radial half-line for s in [1/4,3/4]. K328's exact rational width polynomials give the row/column growth ledger D4=16, B5=11/12/13 and absorbed endpoint x^2=2; against K310's r^6*exp(-256r) measure the tail has exact powers 35/36/37. The s=0/1 face cells and recursive tolerance closure remain open, so no complete y-master constant, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is released.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "complete_origin_tail_face_sum_emitted": false,
+    "complete_y_master_constant_emitted": false,
+    "finite_exponential_radial_tail_control_implemented": true,
+    "finite_radial_annulus_control_implemented": true,
+    "next_exact_input": "build a normalized confluent complete-determinant evaluator for s=0 and s=1; positive-argument entrywise bounds diverge there even though K321 proves the exact degree ledger and finite measure powers",
+    "positive_projective_interior_full_radial_half_line_complete": true,
+    "projective_faces_complete": false,
+    "tail_value_first_second_integrated_uppers_finite": true
+  },
+  "direction": "observed_to_native",
+  "exponential_tail": {
+    "covers_infinite_radial_tail": true,
+    "integrated_value_first_second_abs_uppers": [
+      "1.9250073212096953e-67",
+      "5.369404143187654e-65",
+      "1.9017848893568305e-62"
+    ],
+    "projective_exact_mass": "23690348386638173/188710191874048713031680",
+    "radial_tail_upper_fractions": [
+      "523574772978347196960358472016467408386219835270150424655717141301959316081/13407807929942597099574024998205846127479365820592393377723561443721764030073546976801874298166903427690031858186486050853753882811946569946433649006084096",
+      "33660195266134173628535972500320183638793474683841494831765850273695916254713/858099707516326214372737599885174152158679412517913176174307932398192897924707006515319955082681819372162038923935107254640248499964580476571753536389382144",
+      "8656120936035200931364374023067872897244637581903131407300621836633189198380285/219673525124179510879420825570604582952621929604585773100622830693937381868724993667921908501166545759273481964527387457187903615990932602002368905315681828864"
+    ],
+    "radial_weight": "exp(-256*r)",
+    "six_gap_exact_volume": "1/2985984",
+    "tail_power_value_first_second": [
+      35,
+      36,
+      37
+    ],
+    "tail_rule": "n!/256^(n+1)*exp(-256R)*sum_(k=0)^n (256R)^k/k!, with exp(-z)<=(1+z/256)^-256"
+  },
+  "finite_radial_annulus": {
+    "integrated_value_first_second_abs_uppers": [
+      "128087.01281738283",
+      "35566478.06250001",
+      "12540343760.000002"
+    ],
+    "joins_K329_at_one_sixteenth": true,
+    "joins_tail_at_one": true,
+    "radial_interval": [
+      "1/16",
+      "1"
+    ],
+    "radial_r6_measure_upper": "179769312816538711281513443486136817699296566293352649957471576505388683074031556179623400764158549261310202550124722784188073003072450818935151153390438025959106968178954999349787783012428931303054886584712869384272745995868591552261490138092980740533534078523886518384538360459702851826546332152298869882880/6918658789664373554017220201714752360894773094714257000244434534785059657669175490683473387143625991987252399663515612892780515949756960023630907111716324395620289942958531546247903165164630545996150460714745572807108322297097632705195456799204082935596400263088264233774954521039767716851995835019266788198489845767",
+    "uniform_normalized_value_first_second_abs_uppers": [
+      "1.1725269578511167e+26",
+      "3.255806606536933e+28",
+      "1.1479611223529813e+31"
+    ]
+  },
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "endpoint_chart_count": 16,
+    "predecessor_manifests": [
+      "lab/process/k328-order-seven-scaled-derivative-envelope-bank.json",
+      "lab/process/k329-order-seven-degree27-origin-evaluator.json"
+    ],
+    "projective_s_cell": [
+      "1/4",
+      "3/4"
+    ],
+    "six_gap_cells": [
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ]
+    ],
+    "tail_start": "1",
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "polynomial_growth_ledger": {
+    "D4_normalized_determinant_power": 16,
+    "absorbed_endpoint_x2_power": 2,
+    "bordered_B5_normalized_value_first_second_powers": [
+      11,
+      12,
+      13
+    ],
+    "complete_coefficient_value_first_second_powers": [
+      29,
+      30,
+      31
+    ],
+    "entry_rule": "for r>=1, every K328 width polynomial of scaled derivative order m is at most r^m times its r=1 value; the remaining exact row/column radial factor supplies one additional power per selected kernel entry",
+    "finite_radius_majorant_controls": [
+      {
+        "majorant_value_first_second_abs_uppers": [
+          "1.1725269607334204e+26",
+          "3.2558066176049792e+28",
+          "1.1479611261308744e+31"
+        ],
+        "radius": 1
+      },
+      {
+        "majorant_value_first_second_abs_uppers": [
+          "6.294956187535396e+34",
+          "3.495895736178441e+37",
+          "2.4652277469057184e+40"
+        ],
+        "radius": 2
+      },
+      {
+        "majorant_value_first_second_abs_uppers": [
+          "3.379578869402171e+43",
+          "3.753689464278062e+46",
+          "5.294036275075913e+49"
+        ],
+        "radius": 4
+      }
+    ],
+    "positive_measure_r6_power": 6,
+    "reference_entry_audit": {
+      "B5_entry_radial_exponent": "row_order+column_order+1 with border order zero; every nonzero determinant monomial totals 11",
+      "D4_entry_radial_exponent": "row_order+column_order+1; determinant total 16",
+      "D4_minimum_normalized_argument": "1/8",
+      "literal_zero_slots": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "minimum_nonterminal_B5_normalized_argument": "1/128",
+      "normalized_argument_upper": "3/2",
+      "projective_s_cell": [
+        "1/4",
+        "3/4"
+      ],
+      "radial_cell": [
+        "0",
+        "1"
+      ],
+      "raw_Bessel_evaluation_at_zero_used": false,
+      "scaled_Bessel_width": "3/2",
+      "terminal_normalized_entry_rule": "r*Phi_m with r<=1; continuous value zero at r=0"
+    },
+    "reference_radius_one_value_first_second_abs_uppers": [
+      "1.1725269578511167e+26",
+      "3.255806606536933e+28",
+      "1.1479611223529813e+31"
+    ],
+    "tail_integrand_value_first_second_powers": [
+      35,
+      36,
+      37
+    ]
+  },
+  "release_test": {
+    "all_tail_uppers_finite_positive": true,
+    "annulus_joins_are_exact": true,
+    "complete_numerical_norm_overclaim": false,
+    "growth_powers_exactly_29_30_31": true,
+    "native_K152_interval_emitted": false,
+    "projective_face_overclaim": false,
+    "tail_coverage_not_inferred_from_sampling": true,
+    "tail_powers_exactly_35_36_37": true,
+    "tail_start_exactly_one": true
+  },
+  "result_id": "K330-ORDER-SEVEN-RADIAL-TAIL-CONTROL",
+  "schema_version": "1.0",
+  "scope_boundary": {
+    "covered": "r in [1/16,infinity) on s in [1/4,3/4], all six positive gap cells and all sixteen endpoint charts; together with K329 this closes the full radial half-line on that projective interior",
+    "not_covered": [
+      "s in [0,1/4]",
+      "s in [3/4,1]",
+      "recursive tolerance closure across the projective faces",
+      "a complete y-master constant"
+    ],
+    "positive_projective_interior_only": true
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

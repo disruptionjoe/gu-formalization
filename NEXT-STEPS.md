@@ -20,6 +20,20 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K328--K330 ORIGIN AND RADIAL-HALF-LINE ENCLOSURE.** K328
+> proves exact rational zero-safe envelopes through scaled derivative order
+> six. K329 combines the degree `-16/-11` normalized entry banks with K326's
+> shared determinant Taylor assembly and emits finite integrated
+> value/first/second bounds on `0<=r<=1/16`, `1/4<=s<=3/4` for all sixteen
+> endpoint charts. K330 adds a finite `[1/16,1]` annulus and exact rational
+> exponential tails with measure powers 35, 36 and 37. Thus the entire radial
+> half-line is covered on the positive projective interior. Next build a
+> normalized confluent complete-determinant evaluator for the two projective
+> face cells `s in [0,1/4]` and `[3/4,1]`; the entrywise positive-floor bank
+> is invalid at `s=0,1`. Only after those faces join may adaptive recursion
+> target a declared global tolerance. No complete y constant, gap-axis
+> transfer or K294 join exists.
+
 > **2026-09-22 K310--K327 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with

@@ -7,6 +7,36 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K328--K330 origin and radial-half-line enclosure (2026-09-22)
+
+K328 derives exact rational zero-safe envelopes for
+`Phi_m(w)=w^(m+1)*(2*K1)^(m)(w)` through `m=6`. The derivative recurrence is
+bounded by positive integer-order Bessel terms; monotonicity of
+`w^nu*K_nu(w)` and `w*K0(w)<=w*K1(w)<=1` produces width polynomials without
+ever evaluating a raw Bessel function at zero. Its probe passes 11/11 checks
+and rejects 11/11 hostile mutations.
+
+K329 normalizes D4 entrywise by radial degree sixteen and bordered B5 by
+degree eleven, substitutes the K328 banks into K326's shared determinant
+Taylor polynomial, and encloses all sixteen endpoint charts before
+coefficient extraction. On `0<=r<=1/16`, `1/4<=s<=3/4` and all six gap
+cells in `[1/8,5/24]`, its integrated value/first/second uppers are
+approximately `0.405521`, `127.424` and `51428.95`. Its probe passes 14/14
+checks and rejects 14/14 hostile mutations.
+
+K330 proves the conservative polynomial-growth ledger: normalized D4 degree
+16, bordered-B5 value/first/second degrees 11/12/13, and absorbed endpoint
+degree two. Against K310's `r^6*exp(-256r)` measure, the exact rational tail
+powers are therefore 35, 36 and 37. A finite `[1/16,1]` annulus joins K329
+to the tail, whose integrated uppers are approximately `1.93e-67`,
+`5.37e-65` and `1.90e-62`. Its probe passes 18/18 checks and rejects 23/23
+hostile mutations. K329/K330 thus cover the full radial half-line only for
+`1/4<=s<=3/4`. At the two projective faces, the normalized positive argument
+floor vanishes and K328's entrywise denominator bounds are unusable. A
+confluent complete-determinant face evaluator and recursive tolerance closure
+remain open; no complete y-master constant, gap-axis transfer, K294 join,
+action-column value, residual, K152 interval or physical claim is released.
+
 ## K310--K327 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any

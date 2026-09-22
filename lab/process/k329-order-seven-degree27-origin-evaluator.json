@@ -1,0 +1,158 @@
+{
+  "claim_ceiling": "First finite complete-determinant value/first/second enclosure on a radial cell containing r=0 after exact degree-27 normalization. K328 scaled derivatives are inserted with the D4 degree-16 and bordered-B5 degree-11 row/column ledger, the complete B5 Taylor determinant is assembled before coefficient enclosure, and K310's positive r^6*s^3*(1-s)^29 measure gives finite integrated uppers on s in [1/4,3/4]. The two projective face cells, exponential tail and recursive tolerance closure remain open, so no complete y-master constant, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is released.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "complete_origin_tail_face_sum_emitted": false,
+    "complete_y_master_constant_emitted": false,
+    "continuous_degree27_origin_evaluator_implemented": true,
+    "exponential_tail_complete": false,
+    "next_exact_input": "use the same normalized entry bank for a polynomial-growth exponential-tail majorant, then resolve the s=0 and s=1 cells without a positive normalized argument floor",
+    "origin_cell_value_first_second_integrated_uppers_finite": true,
+    "projective_faces_complete": false
+  },
+  "degree_27_complete_determinant": {
+    "D4_normalized_abs_upper": "9.642278623670831e+23",
+    "bordered_B5_normalized_value_first_second_intervals": [
+      "[+/- 8.76e+14]",
+      "[+/- 2.76e+17]",
+      "[+/- 1.12e+20]"
+    ],
+    "familywise_absolute_summation_used": false,
+    "literal_border_zeros_retained": true,
+    "permutationwise_absolute_summation_used_for_B5": false,
+    "shared_entry_interval_substitution_precedes_determinant_enclosure": true,
+    "sixteen_chart_normalized_value_first_second_abs_uppers": [
+      "1.8124344394603773e+22",
+      "5.695097723391903e+24",
+      "2.298566086882951e+27"
+    ]
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "coefficient_orders": [
+      0,
+      1,
+      2
+    ],
+    "endpoint_chart_count": 16,
+    "predecessor_manifests": [
+      "lab/process/k321-order-seven-radial-projective-tensor-atlas.json",
+      "lab/process/k327-order-seven-adaptive-interior-subdivision.json",
+      "lab/process/k328-order-seven-scaled-derivative-envelope-bank.json"
+    ],
+    "projective_s_cell": [
+      "1/4",
+      "3/4"
+    ],
+    "radial_cell": [
+      "0",
+      "1/16"
+    ],
+    "six_gap_cells": [
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ],
+      [
+        "1/8",
+        "5/24"
+      ]
+    ],
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "normalized_entry_audit": {
+    "B5_entry_radial_exponent": "row_order+column_order+1 with border order zero; every nonzero determinant monomial totals 11",
+    "D4_entry_radial_exponent": "row_order+column_order+1; determinant total 16",
+    "D4_minimum_normalized_argument": "1/8",
+    "literal_zero_slots": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "minimum_nonterminal_B5_normalized_argument": "1/128",
+    "normalized_argument_upper": "3/2",
+    "projective_s_cell": [
+      "1/4",
+      "3/4"
+    ],
+    "radial_cell": [
+      "0",
+      "1/16"
+    ],
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "scaled_Bessel_width": "3/32",
+    "terminal_normalized_entry_rule": "r*Phi_m with r<=1/16; continuous value zero at r=0"
+  },
+  "origin_measure": {
+    "combined_measure_upper": "23690348386638173/1058816623402054670793910882487280599040",
+    "covers_r_zero": true,
+    "integrated_value_first_second_abs_uppers": [
+      "0.4055206771008671",
+      "127.42418897151948",
+      "51428.95410156251"
+    ],
+    "projective_exact_mass": "23690348386638173/188710191874048713031680",
+    "projective_weight": "s^3*(1-s)^29",
+    "radial_upper": "1/1879048192",
+    "radial_weight": "exp(-256*r)*r^6",
+    "raw_zero_call_required": false,
+    "six_gap_exact_volume": "1/2985984"
+  },
+  "release_test": {
+    "all_integrated_uppers_finite_positive": true,
+    "all_sixteen_endpoint_charts_included": true,
+    "complete_numerical_norm_overclaim": false,
+    "degree_minus_27_replayed": true,
+    "native_K152_interval_emitted": false,
+    "projective_face_overclaim": false,
+    "raw_zero_evaluation_used": false
+  },
+  "result_id": "K329-ORDER-SEVEN-DEGREE27-ORIGIN-EVALUATOR",
+  "schema_version": "1.0",
+  "scope_boundary": {
+    "covered": "degree-27 normalized radial origin r in [0,1/16] on s in [1/4,3/4], all six positive gap cells and all sixteen endpoint charts",
+    "not_covered": [
+      "s in [0,1/4]",
+      "s in [3/4,1]",
+      "the exponential tail",
+      "recursive tolerance closure",
+      "a complete y-master constant"
+    ],
+    "positive_projective_interior_only": true
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

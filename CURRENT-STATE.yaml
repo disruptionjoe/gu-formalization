@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e9978e5d71594d6c4192c3381fa96f7f47857207
+revision_basis: 222ac11d399b360e1fc4882a2155ae58032bc20a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -202,6 +202,22 @@ current_result:
     parent controls. Radial origin, tail, both projective faces and recursive
     tolerance closure remain open; neither result emits a complete y constant
     or downstream release.
+
+    K328 extends the zero-safe scaled-kernel bank through derivative order
+    six. Exact complete-monotonicity recurrences give rational width
+    polynomials for `Phi_m(w)=w^(m+1)*(2*K1)^(m)(w)` without evaluating a raw
+    Bessel function at zero. K329 uses those bounds entrywise after the exact
+    D4 degree-minus-sixteen and bordered-B5 degree-minus-eleven normalization,
+    then applies K326's shared determinant Taylor assembly. It gives finite
+    integrated value/first/second uppers on `0<=r<=1/16` and
+    `1/4<=s<=3/4` across all sixteen endpoint charts. K330 proves the
+    polynomial growth ledger, supplies a finite `[1/16,1]` annulus control
+    and exact rational incomplete-gamma tails with powers 35, 36 and 37.
+    Together K329/K330 cover the full radial half-line on the positive
+    projective interior. The same entrywise route cannot reach `s=0,1`: its
+    positive normalized argument floor vanishes there. A normalized confluent
+    complete-determinant face evaluator is the next exact dependency; no
+    recursive tolerance, complete y constant or downstream release follows.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes

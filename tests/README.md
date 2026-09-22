@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K328--K330 origin and radial-half-line enclosure
+
+- `channel-swings/k328_order_seven_scaled_derivative_envelope_bank.py`
+  derives exact rational zero-safe scaled-Bessel envelopes through derivative
+  order six and rejects eleven recurrence, zero-safety and release mutations.
+- `channel-swings/k329_order_seven_degree27_origin_evaluator.py` applies the
+  normalized D4/B5 entry banks inside the shared determinant Taylor assembly,
+  bounds all sixteen endpoint charts at the radial origin and rejects fourteen
+  degree, coverage, correlation and overclaim mutations.
+- `channel-swings/k330_order_seven_radial_tail_control.py` supplies the finite
+  middle annulus and exact rational exponential tails, covers the full radial
+  half-line on the positive projective interior and rejects twenty-three growth,
+  join, tail and projective-face overclaims.
+
 ## K310--K327 adaptive boundary-cell foundation
 
 - `channel-swings/k310_order_seven_two_radius_origin_compactification.py`
