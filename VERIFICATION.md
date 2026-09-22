@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K317 adaptive boundary-cell foundation (2026-09-22)
+## K310--K319 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -82,6 +82,25 @@ with K300/K302's positive integrability margins. The probe passes 12/12 checks
 and rejects 9/9 hostile mutations. This rejects a detached factorization, not
 the complete coherent integral; the next valid route is a determinant-
 preserving weighted finite-chart enclosure.
+
+K318 implements the exact barycentric y/split endpoint blow-up. Each endpoint
+half has six three-variable Hepp charts for the singular terminal sector and
+two two-variable charts for the terminal-safe sector. The split Jacobian and
+Peano/Hepp factor are absorbed into the complete bordered determinant before
+enclosure. Exact chart masses are `1/48` on each side and `1/24` in total,
+replaying K299. All eighty-four worst Cauchy-model exponent checks are
+nonnegative. The probe passes 20/20 checks and rejects 17/17 hostile
+mutations. This covers the barycentric y/split endpoint, not continuous
+`r=0`, the `s=0,1` radial-projective faces or a numerical determinant bound.
+
+K319 compiles all twenty-one K315 value/first/second-y families onto K318's
+sixteen charts. It replays 1,674 weighted nonzero determinant monomials,
+terminal jet counts `378/162/18` and second-family counts `288/144/18`; all
+five pure and ten doubled cross determinants remain in the signed group sum
+before absolute enclosure. The probe passes 15/15 checks and rejects 18/18
+hostile mutations. Because radial-projective coverage and outward complete-
+determinant uppers are still absent, no complete y-master constant, five-gap
+transfer or K294 gamma join is claimed.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 

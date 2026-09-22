@@ -1,0 +1,1555 @@
+{
+  "cauchy_model_valuation_control": {
+    "all_cube_exponents_nonnegative": true,
+    "check_count": 84,
+    "checks": [
+      {
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          3,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          3,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          2,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          3,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          2,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          2,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          0,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          3,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          3,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          2,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          3,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          2,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          2,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          0,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_eta_A",
+        "cube_exponents": [
+          2,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/(eta+A)^0"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_eta_A",
+        "cube_exponents": [
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/(eta+A)^1"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_eta_A",
+        "cube_exponents": [
+          2,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/(eta+A)^2"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_A_eta",
+        "cube_exponents": [
+          0,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/(eta+A)^0"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_A_eta",
+        "cube_exponents": [
+          0,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/(eta+A)^1"
+      },
+      {
+        "chart_id": "left_b_max_hepp2_A_eta",
+        "cube_exponents": [
+          0,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/(eta+A)^2"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          3,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          3,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          2,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "cube_exponents": [
+          2,
+          3,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          2,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          2,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "cube_exponents": [
+          2,
+          0,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          3,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          3,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          2,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "cube_exponents": [
+          0,
+          3,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          2,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          2,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "cube_exponents": [
+          0,
+          0,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": 0,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^2*(eta+v)^1)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          2
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": 1,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^1*(eta+v)^2)"
+      },
+      {
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "cube_exponents": [
+          0,
+          1,
+          1
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": 2,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/((eta+A)^0*(eta+v)^3)"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_eta_A",
+        "cube_exponents": [
+          2,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/(eta+A)^0"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_eta_A",
+        "cube_exponents": [
+          2,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 2,
+        "model": "eta^2*J/(eta+A)^1"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_eta_A",
+        "cube_exponents": [
+          2,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 1,
+        "model": "eta^2*J/(eta+A)^2"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_A_eta",
+        "cube_exponents": [
+          0,
+          3
+        ],
+        "ell": 0,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/(eta+A)^0"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_A_eta",
+        "cube_exponents": [
+          0,
+          2
+        ],
+        "ell": 1,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/(eta+A)^1"
+      },
+      {
+        "chart_id": "right_a_max_hepp2_A_eta",
+        "cube_exponents": [
+          0,
+          1
+        ],
+        "ell": 2,
+        "integrable": true,
+        "k": null,
+        "minimum_exponent": 0,
+        "model": "eta^2*J/(eta+A)^2"
+      }
+    ],
+    "minimum_cube_exponent": 0,
+    "regular_sector_model": "eta^2*J/(eta+A)^ell, ell=0,1,2; v remains free",
+    "singular_sector_model": "eta^2*J/((eta+A)^ell*(eta+v)^(k+1)), k,ell>=0, k+ell<=2"
+  },
+  "claim_ceiling": "Exact sixteen-chart determinant-preserving blow-up atlas for the barycentric y/split endpoint problem in K317's valid replacement route. The charts replay the y-Peano mass 1/24, all eighty-four worst Cauchy-model valuations have nonnegative cube exponents, and the split Jacobian cancels the native terminal radial pole before enclosure. The complete coherent bordered determinant, projective polynomial, Peano and endpoint weights, and split variables must stay in each chart until the chartwise absolute bound. Continuous r=0 scaling, s=0/1 radial-projective faces, complete determinant uppers, a numerical y-master constant, five-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_chart_integrand_contract": {
+    "complete_bordered_assembly_retained": true,
+    "detached_endpoint_pointwise_supremum": false,
+    "detached_terminal_budget_times_global_cofactor": false,
+    "integrand_order": [
+      "form the complete K315 bordered column-replacement determinant with coherent signs and literal border zeros",
+      "multiply the common size-four determinant and exact native projective polynomial",
+      "multiply K299's Peano kernel, native endpoint factors and the exact sector Jacobian",
+      "evaluate K302's terminal split entry in the same sector coordinates",
+      "take an outward absolute enclosure only after the complete chart/group expression is assembled"
+    ],
+    "occurrencewise_coherent_absolute_values": false
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_K300_endpoint_classes_have_exact_sector_coordinates": true,
+    "all_eighty_four_Cauchy_model_valuations_integrable": true,
+    "barycentric_y_split_endpoint_scope_complete": true,
+    "complete_chart_determinant_uppers_emitted": false,
+    "complete_y_master_constant_emitted": false,
+    "exact_y_Peano_mass_replayed": true,
+    "finite_endpoint_blowup_atlas_implemented": true,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "logarithmic_y_endpoints_have_exact_exponential_tail_rule": true,
+    "next_exact_input": "compile all twenty-one K315 y-jet families onto this barycentric y/split atlas, then join continuous r=0 scaling and the s=0,1 radial-projective faces before implementing outward complete-determinant bounds; structural integrability alone does not release the y-master sum",
+    "radial_projective_s_endpoint_atlas_complete": false,
+    "sixteen_determinant_preserving_endpoint_charts_implemented": true,
+    "terminal_split_square_has_exact_two_sector_cover": true
+  },
+  "determinant_preserving_endpoint_atlas": {
+    "K299_y_Peano_mass_replayed": true,
+    "absolute_value_after_absorption": true,
+    "chart_count": 16,
+    "charts": [
+      {
+        "endpoint": "left",
+        "eta_rank": 0,
+        "exact_chart_mass": "1/1920",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "left_a_max_hepp3_eta_A_v",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "eta",
+          "A",
+          "v"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "left",
+        "eta_rank": 0,
+        "exact_chart_mass": "1/1920",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "left_a_max_hepp3_eta_v_A",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "eta",
+          "v",
+          "A"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "left",
+        "eta_rank": 1,
+        "exact_chart_mass": "1/640",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "left_a_max_hepp3_A_eta_v",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "A",
+          "eta",
+          "v"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "left",
+        "eta_rank": 2,
+        "exact_chart_mass": "1/320",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "left_a_max_hepp3_A_v_eta",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "A",
+          "v",
+          "eta"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "left",
+        "eta_rank": 1,
+        "exact_chart_mass": "1/640",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "left_a_max_hepp3_v_eta_A",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "v",
+          "eta",
+          "A"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "left",
+        "eta_rank": 2,
+        "exact_chart_mass": "1/320",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "left_a_max_hepp3_v_A_eta",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "v",
+          "A",
+          "eta"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "left",
+        "eta_rank": 0,
+        "exact_chart_mass": "1/384",
+        "free_variables": [
+          "v"
+        ],
+        "hepp_jacobian": "h1",
+        "id": "left_b_max_hepp2_eta_A",
+        "map": "q_pi0=h0*h1; q_pi1=h1",
+        "ordered_variables": [
+          "eta",
+          "A"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": false
+      },
+      {
+        "endpoint": "left",
+        "eta_rank": 1,
+        "exact_chart_mass": "1/128",
+        "free_variables": [
+          "v"
+        ],
+        "hepp_jacobian": "h1",
+        "id": "left_b_max_hepp2_A_eta",
+        "map": "q_pi0=h0*h1; q_pi1=h1",
+        "ordered_variables": [
+          "A",
+          "eta"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": false
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 0,
+        "exact_chart_mass": "1/1920",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "right_b_max_hepp3_eta_A_v",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "eta",
+          "A",
+          "v"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 0,
+        "exact_chart_mass": "1/1920",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "right_b_max_hepp3_eta_v_A",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "eta",
+          "v",
+          "A"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 1,
+        "exact_chart_mass": "1/640",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "right_b_max_hepp3_A_eta_v",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "A",
+          "eta",
+          "v"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 2,
+        "exact_chart_mass": "1/320",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "right_b_max_hepp3_A_v_eta",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "A",
+          "v",
+          "eta"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 1,
+        "exact_chart_mass": "1/640",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "right_b_max_hepp3_v_eta_A",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "v",
+          "eta",
+          "A"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 2,
+        "exact_chart_mass": "1/320",
+        "free_variables": [],
+        "hepp_jacobian": "h1*h2^2",
+        "id": "right_b_max_hepp3_v_A_eta",
+        "map": "q_pi0=h0*h1*h2; q_pi1=h1*h2; q_pi2=h2",
+        "ordered_variables": [
+          "v",
+          "A",
+          "eta"
+        ],
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 0,
+        "exact_chart_mass": "1/384",
+        "free_variables": [
+          "v"
+        ],
+        "hepp_jacobian": "h1",
+        "id": "right_a_max_hepp2_eta_A",
+        "map": "q_pi0=h0*h1; q_pi1=h1",
+        "ordered_variables": [
+          "eta",
+          "A"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": false
+      },
+      {
+        "endpoint": "right",
+        "eta_rank": 1,
+        "exact_chart_mass": "1/128",
+        "free_variables": [
+          "v"
+        ],
+        "hepp_jacobian": "h1",
+        "id": "right_a_max_hepp2_A_eta",
+        "map": "q_pi0=h0*h1; q_pi1=h1",
+        "ordered_variables": [
+          "A",
+          "eta"
+        ],
+        "split_sector": "a_max",
+        "terminal_singular_sector": false
+      }
+    ],
+    "complete_chart_weight": "omega=rho*eta^2*J_hepp/16",
+    "determinant_absorption": "by determinant multilinearity, absorb rho into terminal column 3 and eta^2*J_hepp/16 into the endpoint border column (left) or bottom border row (right) before interval enclosure",
+    "endpoint_coordinates": {
+      "left": "eta=2*y, A=1-u2, C=1-u3, D=1-z3",
+      "right": "eta=2*(1-y), A=1-z2, C=1-u3, D=1-z3"
+    },
+    "exact_left_mass": "1/48",
+    "exact_right_mass": "1/48",
+    "exact_total_mass": "1/24",
+    "left_chart_count": 8,
+    "peano_measure_rule": "K(y)dy=eta^2*deta/16 on either endpoint half",
+    "regular_hepp2_charts": 4,
+    "right_chart_count": 8,
+    "split_sector_rule": "C=rho,D=rho*v or D=rho,C=rho*v, with Jacobian rho",
+    "terminal_singular_hepp3_charts": 12
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "endpoint_old_positions": [
+      2,
+      4,
+      6
+    ],
+    "fixed_Duffy_node": "p_i=1/6 for all six gaps",
+    "master_axis": "y",
+    "maximum_derivative_order": 2,
+    "outer_tensor_weight": "1/120",
+    "predecessor_manifests": [
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k300-order-seven-angular-method-selection.json",
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+      "lab/process/k317-order-seven-boundary-coefficient-discriminator.json"
+    ],
+    "terminal_argument": "w=x*z with z=y*a+(1-y)*b, a=1-u3, b=1-z3"
+  },
+  "homogeneous_endpoint_sectors": {
+    "all_radial_powers_strictly_above_minus_one": true,
+    "finite_sector_count": 9,
+    "rows": [
+      {
+        "complete_determinant_retained": true,
+        "corner_variables": 4,
+        "homogeneous_degree": 10,
+        "maximal_coordinate_sectors": 4,
+        "old_position": 2,
+        "radial_integrability_margin": 14,
+        "sector_jacobian": "rho^3",
+        "sector_map": "z_j=rho; z_i=rho*theta_i for i!=j, with rho and every theta_i in [0,1]",
+        "tie_boundaries": "measure zero",
+        "unit_coefficient_radial_mass": "1/14",
+        "weighted_radial_power": 13
+      },
+      {
+        "complete_determinant_retained": true,
+        "corner_variables": 3,
+        "homogeneous_degree": 4,
+        "maximal_coordinate_sectors": 3,
+        "old_position": 4,
+        "radial_integrability_margin": 7,
+        "sector_jacobian": "rho^2",
+        "sector_map": "z_j=rho; z_i=rho*theta_i for i!=j, with rho and every theta_i in [0,1]",
+        "tie_boundaries": "measure zero",
+        "unit_coefficient_radial_mass": "1/7",
+        "weighted_radial_power": 6
+      },
+      {
+        "complete_determinant_retained": true,
+        "corner_variables": 2,
+        "homogeneous_degree": 0,
+        "maximal_coordinate_sectors": 2,
+        "old_position": 6,
+        "radial_integrability_margin": 2,
+        "sector_jacobian": "rho^1",
+        "sector_map": "z_j=rho; z_i=rho*theta_i for i!=j, with rho and every theta_i in [0,1]",
+        "tie_boundaries": "measure zero",
+        "unit_coefficient_radial_mass": "1/2",
+        "weighted_radial_power": 1
+      }
+    ],
+    "rule": "split [0,1]^d into d maximal-coordinate sectors, substitute z_j=rho and z_i=rho*theta_i, and include rho^(d-1) before enclosing the complete chart integrand",
+    "worst_weighted_radial_power": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "logarithmic_y_endpoint_charts": {
+    "K317_exact_mass_replayed": true,
+    "compact_pointwise_log_supremum_requested": false,
+    "exact_half_mass": "log(2)/24+1/72",
+    "left": {
+      "domain": "0<y<=1/2",
+      "jacobian": "dy=exp(-t)dt",
+      "leading_weighted_model": "y^2*(-log(y))dy = t*exp(-3t)dt",
+      "map": "y=exp(-t), t in [log(2),infinity)"
+    },
+    "right": {
+      "domain": "1/2<=y<1",
+      "jacobian": "dy=exp(-t)dt",
+      "leading_weighted_model": "(1-y)^2*(-log(1-y))dy = t*exp(-3t)dt",
+      "map": "1-y=exp(-t), t in [log(2),infinity)"
+    },
+    "tail_at_log2_decimal": "0.04277002141221995",
+    "tail_from_T": "exp(-3*T)*(T/3+1/9)"
+  },
+  "release_test": {
+    "K300_margins_exactly_replayed": true,
+    "K317_log_mass_exactly_replayed": true,
+    "complete_numerical_norm_overclaim": false,
+    "global_pointwise_coefficient_reintroduced": false,
+    "native_K152_interval_emitted": false,
+    "terminal_radial_pole_cancelled_only_with_chart_jacobian": true,
+    "worst_sector_radial_power_is_one": true
+  },
+  "result_id": "K318-ORDER-SEVEN-WEIGHTED-ENDPOINT-BLOWUP-ATLAS",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS.",
+  "terminal_split_square": {
+    "K302_weighted_bounds_retained": {
+      "B0": {
+        "strict": true,
+        "upper": "1/x"
+      },
+      "B1": {
+        "strict": true,
+        "upper": "1/4+2/x"
+      },
+      "B2": {
+        "strict": true,
+        "upper": "3*x/8+6/x"
+      },
+      "definition": "B_m(x)=integral_0^1 K(y) integral_[0,1]^2 abs(d_y^m[2*K1(x*(y*a+(1-y)*b))]) da db dy",
+      "proof_partition": {
+        "K_over_z": "with m=min(y,1-y), z>=m*(a+b) and K=m^2/2, K/z<=1/[4*(a+b)]",
+        "elementary_integral": "integral_[0,1]^2 da db/(a+b)=2*log(2)<2",
+        "first_derivative_terms": "K*abs(a-b)/z<=1/4 and K*abs(a-b)/z^2<=1/[2*(a+b)]",
+        "second_derivative_cubic_term": "K*J2<=3 by symmetry and the y<=1/2 split: y^2*I(y,1-y)<=1 and y^2*I(1-y,y)<=2",
+        "second_derivative_linear_term": "K*(a-b)^2/z<=m*(a+b)/2<= (a+b)/4"
+      }
+    },
+    "joint_y_theta_corners": "route through the old-position-6 two-variable maximal-coordinate sectors; do not take a supremum of 1/L",
+    "leading_K1_radial_cancellation": "2*K1(x*rho*L)<=2/(x*rho*L), so the chart Jacobian rho cancels the radial pole before enclosure",
+    "measure_zero_overlap": "a=b",
+    "native_argument": "x*(y*a+(1-y)*b)",
+    "sectors": [
+      {
+        "argument": "x*rho*(y+(1-y)*theta)",
+        "domain": "rho,theta in [0,1]",
+        "id": "a_max",
+        "jacobian": "rho",
+        "map": "a=rho, b=rho*theta"
+      },
+      {
+        "argument": "x*rho*(y*theta+(1-y))",
+        "domain": "rho,theta in [0,1]",
+        "id": "b_max",
+        "jacobian": "rho",
+        "map": "a=rho*theta, b=rho"
+      }
+    ],
+    "split_cutoff_used": false,
+    "variables": "a=1-u3, b=1-z3"
+  }
+}

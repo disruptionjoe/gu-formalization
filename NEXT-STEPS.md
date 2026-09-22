@@ -20,7 +20,7 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
-> **2026-09-22 K310--K317 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
+> **2026-09-22 K310--K319 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with
 > `H=r^27*R4*R5_border`. K311 composes all three K302 terminal jets with the
@@ -40,9 +40,16 @@ updated_at: "2026-09-22"
 > and `d_y^2[2*y*K1(x*y)]` grows logarithmically at the endpoint. Those terms
 > remain Peano/split weighted integrable, so the correct next step is a
 > determinant-preserving weighted finite-chart integrator over K300's endpoint
-> cover, not a detached supremum. Only an accepted complete y subdivision may
-> transfer to the five gap axes. No complete Peano constant or K294 gamma join
-> exists.
+> cover, not a detached supremum. K318 implements the barycentric y/split part
+> as sixteen exact charts: eight per endpoint, with twelve three-variable and
+> four two-variable Hepp sectors. Their exact masses sum to `1/24`, and all
+> eighty-four worst Cauchy-model cube exponents are nonnegative. K319 compiles
+> all twenty-one K315 jet families onto those charts, replaying 1,674 weighted
+> determinant monomials and retaining the signed fifteen-family second jet
+> before absolute enclosure. Continuous `r=0`, the `s=0,1` radial-projective
+> faces and outward complete-determinant interval constants remain open. Only
+> an accepted complete y subdivision may transfer to the five gap axes. No
+> complete Peano constant or K294 gamma join exists.
 
 > **2026-09-22 K301/K302 TERMINAL SPLIT CORRECTION AND REPAIR.** Every K288
 > companion contains a terminal `(8,8)` argument that can vanish on the full

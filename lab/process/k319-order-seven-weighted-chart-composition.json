@@ -1,0 +1,768 @@
+{
+  "census": {
+    "K315_terminal_histogram_replayed": true,
+    "K315_weighted_monomial_census_replayed": true,
+    "complete_chart_obligations": 357,
+    "second_family_terminal_monomials_by_jet_order_with_cross_factors": {
+      "0": 288,
+      "1": 144,
+      "2": 18
+    },
+    "terminal_monomials_by_jet_order_with_cross_factors": {
+      "0": 378,
+      "1": 162,
+      "2": 18
+    },
+    "weighted_nonzero_determinant_monomials": 1674
+  },
+  "claim_ceiling": "Complete compiler from all twenty-one K315 value/first/second-y bordered determinant families to K318's sixteen barycentric y/split endpoint charts. It replays 1,674 cross-factor-weighted nonzero determinant monomials, terminal jet counts 378/162/18 and the second-family counts 288/144/18, retaining the signed fifteen-family second jet, complete coherent group assembly and literal border zeros before absolute enclosure. Continuous r=0 scaling, s=0/1 radial-projective coverage and outward numerical determinant uppers remain absent, so K319 explicitly rejects release of a complete y-master constant, five-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_chart_compilation": [
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "value",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 0
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "first_c0",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 1
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "first_c1",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 1
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "first_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 1
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "first_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "1": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 1
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "first_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 1
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_pure_c0",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_pure_c1",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_pure_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_pure_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "2": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_pure_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c0_c1",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c0_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c0_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "1": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c0_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c1_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c1_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "1": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c1_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c2_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "1": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c2_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "0": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    },
+    {
+      "assembly": "one complete five-by-five bordered column-replacement determinant per chart; coherent signs and cross multiplicity stay inside before absolute enclosure",
+      "complete_chart_determinant_upper_available": false,
+      "family": "second_cross_c3_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "required_chart_count": 17,
+      "required_chart_ids": [
+        "interior_K314_leaf",
+        "left_a_max_hepp3_eta_A_v",
+        "left_a_max_hepp3_eta_v_A",
+        "left_a_max_hepp3_A_eta_v",
+        "left_a_max_hepp3_A_v_eta",
+        "left_a_max_hepp3_v_eta_A",
+        "left_a_max_hepp3_v_A_eta",
+        "left_b_max_hepp2_eta_A",
+        "left_b_max_hepp2_A_eta",
+        "right_b_max_hepp3_eta_A_v",
+        "right_b_max_hepp3_eta_v_A",
+        "right_b_max_hepp3_A_eta_v",
+        "right_b_max_hepp3_A_v_eta",
+        "right_b_max_hepp3_v_eta_A",
+        "right_b_max_hepp3_v_A_eta",
+        "right_a_max_hepp2_eta_A",
+        "right_a_max_hepp2_A_eta"
+      ],
+      "terminal_jet_histogram": {
+        "1": 18
+      },
+      "terminal_monomials": 18,
+      "y_derivative_order": 2
+    }
+  ],
+  "composition_contract": {
+    "K314_usage": "interior and certified one-gap leaves only",
+    "K318_usage": "y-log, terminal split and nested homogeneous endpoint sectors",
+    "absolute_value_location": "after the complete chart expression for one coherent group is assembled",
+    "all_fifteen_second_families_summed_before_absolute_value": true,
+    "chart_expression": "Peano_weight * native_endpoint_factors * exact_chart_Jacobian * projective_polynomial * D4_group * (-det(B5_replaced_group))",
+    "complete_signed_second_jet": "sum_c det(C0,...,Cc'',...,C4) + 2*sum_(c<d) det(C0,...,Cc',...,Cd',...,C4), assembled with chart weights before abs",
+    "cross_factor_two_retained": true,
+    "detached_cofactor_used": false,
+    "detached_global_coefficient_used": false,
+    "literal_border_zeros_retained": true,
+    "occurrencewise_coherent_absolute_values_used": false,
+    "terminal_entry_location": "inside B5_replaced_group in the K318 split-sector coordinates"
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "complete_weighted_chart_obligation_compiler_implemented": true,
+    "complete_y_master_constant_emitted": false,
+    "complete_y_master_inputs_sufficient": false,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "join continuous r=0 scaling and the s=0,1 radial-projective faces to the sixteen K318 charts, then implement the first outward interval evaluator for the complete weighted old-position-6 expression and cover the remaining families before any five-axis reuse"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K318_endpoint_chart_count": 16,
+    "K318_homogeneous_sector_count": 9,
+    "K318_regular_hepp2_charts": 4,
+    "K318_terminal_singular_hepp3_charts": 12,
+    "bordered_family_count": 21,
+    "predecessor_manifests": [
+      "lab/process/k315-order-seven-terminal-bordered-adapter.json",
+      "lab/process/k317-order-seven-boundary-coefficient-discriminator.json",
+      "lab/process/k318-order-seven-weighted-endpoint-blowup-atlas.json"
+    ],
+    "y_derivative_family_counts": {
+      "0": 1,
+      "1": 5,
+      "2": 15
+    }
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "K315_all_families_consumed": true,
+    "K315_second_family_terminal_histogram_exact": true,
+    "K315_terminal_histogram_exact": true,
+    "K315_weighted_monomials_exact": true,
+    "complete_numerical_norm_overclaim": false,
+    "determinant_assembly_precedes_absolute_value": true,
+    "native_K152_interval_emitted": false,
+    "numerical_release_rejected_for_named_missing_input": true
+  },
+  "result_id": "K319-ORDER-SEVEN-WEIGHTED-CHART-COMPOSITION",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS.",
+  "sufficiency_audit": {
+    "all_chart_weights_structurally_integrable": true,
+    "all_complete_chart_determinant_uppers_available": false,
+    "all_fifteen_second_derivative_families_compiled": true,
+    "all_three_terminal_jet_orders_compiled": true,
+    "all_twenty_one_families_compiled": true,
+    "barycentric_y_split_atlas_complete": true,
+    "every_family_has_all_sixteen_endpoint_charts": true,
+    "missing_coverage_input": "continuous r=0 scaling and the s=0,1 radial-projective faces joined to all sixteen barycentric y/split charts",
+    "missing_numerical_input": "outward interval upper for each complete D4-times-bordered-B5 replacement family after all chart weights and Jacobians are applied, beginning with the old-position-6 nested y/split corner",
+    "radial_projective_s_endpoint_atlas_complete": false,
+    "structural_integrability_is_not_numerical_enclosure": true
+  }
+}

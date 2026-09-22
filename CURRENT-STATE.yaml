@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fa18f1fa56cbc84d920ef8734b135e1cd37d10c9
+revision_basis: 47a83465052982114d1de6ba649c427ae0cf6407
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -108,6 +108,27 @@ current_result:
     divergence of the complete coherent functional. The next construction is
     a determinant-preserving weighted finite-chart integrator over the K300
     endpoint cover; no complete y constant or gap-axis transfer is released.
+
+    K318 resolves the barycentric y/split endpoint problem by sixteen exact
+    determinant-preserving charts. On each endpoint half, the terminal split
+    square is divided into two maximal-coordinate sectors; the singular sector
+    uses all six Hepp orders of `(eta,A,v)` and the safe sector uses both Hepp
+    orders of `(eta,A)`. Their exact weights replay left and right masses
+    `1/48`, hence K299's full y-Peano mass `1/24`. All eighty-four worst
+    Cauchy-model exponent checks are nonnegative. The split radial Jacobian
+    and Peano/Hepp weight are absorbed into the complete bordered determinant
+    before enclosure, so no K302 marginal is multiplied by a detached
+    coefficient.
+
+    K319 compiles all twenty-one K315 value/first/second-y families onto those
+    sixteen charts. It replays all 1,674 weighted determinant monomials,
+    terminal jet counts `378/162/18`, and the second-family-only counts
+    `288/144/18`, while retaining the signed five pure and ten doubled cross
+    families before absolute enclosure. This is an exact y/split integration
+    architecture, not a complete numerical constant: continuous `r=0`
+    scaling, the `s=0,1` radial-projective faces and outward complete-
+    determinant interval uppers remain open. The y master, five-axis transfer
+    and K294 join therefore remain closed.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9356,16 +9377,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K314 closes the repeated-node one-gap face extension, K315 inserts K311's
-  budgets into the complete bordered families, and K316 closes their exact
-  radial/projective-s moments. K317 now rejects the remaining proposed global
-  pointwise coefficient: the terminal split entry and endpoint-paired old-
-  kernel second derivative are unbounded pointwise even though K300/K302 prove
-  them Peano/split weighted integrable. Implement the K300 finite endpoint
-  cover as determinant-preserving weighted chart integrals, composing K302
-  inside the same y/split chart and using K314 only on its certified leaves.
-  Only an accepted complete y subdivision releases reuse for the five Duffy
-  axes, and only six complete finite constants may reopen K294's gamma join.
+  K318 now gives the exact sixteen-chart determinant-preserving blow-up of the
+  barycentric y/split endpoints, and K319 compiles all twenty-one K315 jet
+  families onto it with exact mass, valuation and signed-family controls. Join
+  continuous `r=0` scaling and the `s=0,1` radial-projective faces to those
+  charts, then implement outward interval bounds for the complete weighted
+  D4-times-bordered-B5 expressions, beginning with the old-position-six
+  nested corner. Only a complete accepted numerical y sum releases reuse for
+  the five Duffy axes, and only six complete finite constants may reopen
+  K294's gamma join.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
   pointwise bank. No exterior action-column value, complete residual or native
@@ -9612,15 +9632,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K314 as the confluent six-face oracle on the interior radial/y/split
-  slab, K315 as the complete terminal-monomial compiler, K316 as the exact
-  finite radial/projective-s join, and K317 as the rejection of a detached
-  full-boundary pointwise coefficient. Implement determinant-preserving
-  Peano-weighted integrals on the finite K300 endpoint cover. Retain K314's
-  projective zeros, K315's complete column-replacement monomials, K302's split
-  variables and the native endpoint factors inside each chart before taking
-  absolute values. Adapt and sum the y master only after those weighted chart
-  constants are accepted. Reuse its subdivision for the five Duffy axes.
+  Treat K318 as the exact sixteen-chart barycentric y/split endpoint atlas and
+  K319 as the complete twenty-one-family composition compiler. Preserve the
+  exact `1/24` Peano mass, all eighty-four nonnegative valuation checks, the
+  split Jacobian, K315's literal border zeros and the signed fifteen-family
+  second jet inside every chart before absolute enclosure. Join K310's
+  continuous `r=0` scaling and K314's `s=0,1` radial-projective faces next,
+  then implement outward complete-determinant interval uppers and sum the y
+  master. Reuse its accepted subdivision for the five Duffy axes.
   K294's gamma join remains closed until all six finite constants exist. No
   exterior value, action-column value, complete residual or native K152
   interval follows yet.
