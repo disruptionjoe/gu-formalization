@@ -1,0 +1,107 @@
+{
+  "claim_ceiling": "Exact support and route audit for K305's coherent bordered-determinant compiler. The algebraic compression preserves K296/K300's six one-gap, fifteen codimension-two and three endpoint chart classes, including positive second-derivative integrability margins, and removes K304's detached-cofactor formula from the compiled route. It does not supply outward constants for D4 times the bordered determinant, a numerical Peano norm, q/projective integral, K294 gamma join, exterior action-column value, residual, native K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "analytic_subtraction_promoted": false,
+    "complete_numerical_norms_emitted": false,
+    "complete_support_cover_preserved": true,
+    "eighteen_y_templates_closed_algebraically": true,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "implement the joint regularized D4-times-bordered-B5 interval evaluator on the six one-gap, fifteen codimension-two and three endpoint chart classes; start with the y master because D4 is y-independent, then reuse the same operator for the five gap axes",
+    "ninety_gap_templates_closed_algebraically": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "codimension_two_faces": 15,
+    "endpoint_rows": 3,
+    "master_functionals": 72,
+    "one_gap_faces": 6,
+    "predecessor_manifests": [
+      "lab/process/k280-order-seven-bessel-vandermonde-face-atlas.json",
+      "lab/process/k294-order-seven-global-radial-simplex-atlas.json",
+      "lab/process/k296-order-seven-coalescent-face-valuation-atlas.json",
+      "lab/process/k300-order-seven-angular-method-selection.json",
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+      "lab/process/k304-order-seven-peano-norm-sufficiency-audit.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "numerical_closure_audit": {
+    "composition_order": [
+      "regularize the common D4 Vandermonde factors and bordered determinant jointly on each face chart",
+      "enclose the 1,160 compiled master slots with coherent group absolute values only after assembly",
+      "integrate projective and q variables with exact exponential weight",
+      "extract an x-only coefficient only after the preceding integral is finite",
+      "join K294 low/middle/high gamma strata"
+    ],
+    "forbidden_shortcuts": [
+      "K302 marginal times detached cofactor supremum",
+      "K290 superseded pointwise bank",
+      "absolute values on six occurrence patterns before bordered assembly",
+      "q integration after discarding Cauchy--Vandermonde denominators"
+    ],
+    "k302_role": "may bound entries or complete replacement columns inside B_G; they are not multiplied by a detached cofactor supremum",
+    "k304_failure_removed_as_a_formula": true,
+    "meaning": "the detached terminal-cofactor supremum is no longer part of the compiled functional",
+    "radial_integrability_numerically_certified": false,
+    "reason": "exact regrouping preserves the zeros whose loss caused K304, but no outward bound for the regularized D4 times bordered-B5 product has yet been integrated over the complete q/projective/split cover",
+    "required_operator": "one interval evaluator for D4*det(B_G) and its first/second complete-column replacements on the K296/K300 finite boundary cover, retaining the exact exponential and Cauchy denominators"
+  },
+  "release_test": {
+    "all_endpoint_rows_replayed": true,
+    "all_face_rows_replayed": true,
+    "k304_bad_factorization_absent": true,
+    "native_K152_interval_emitted": false,
+    "numerical_norm_overclaim": false,
+    "qualitative_finiteness_preserved": true,
+    "radial_gamma_join_emitted": false,
+    "worst_margins_positive": true
+  },
+  "result_id": "K306-ORDER-SEVEN-JOINT-TEMPLATE-SUPPORT-AUDIT",
+  "route_comparison": {
+    "analytic_subtraction": {
+      "maximum_residual_derivative_order": 4,
+      "minimum_terminal_sector_models": 8,
+      "required_additional_proofs": [
+        "construct compatible cutoffs or a partition of unity on overlapping terminal faces",
+        "integrate every coefficient-weighted singular model on the exact simplex",
+        "prove the subtracted residual has an integrable fourth derivative across sector overlaps"
+      ],
+      "required_global_coefficient_functions": 8,
+      "sector_count_basis": "four coherent groups times left/right terminal corners",
+      "status": "dominated_fallback_not_executed"
+    },
+    "positive_peano": {
+      "column_replacement_slots": 1160,
+      "master_functionals": 72,
+      "remaining_new_proof": "outward interval constants and integrated q/projective bounds",
+      "status": "selected_with_exact_coherent_master_compiler"
+    },
+    "selection": "positive_peano",
+    "selection_reason": "K305 removes the six-pattern duplication exactly and preserves the already-proved finite cover; subtraction still needs eight singular coefficient functions, overlap ownership and a fourth-derivative residual proof."
+  },
+  "schema_version": "1.0",
+  "support_preservation": {
+    "bordered_master": "native_density*D4_G*(-det(B_G))",
+    "common_size_four_factorization": "det[2*K1(T_i+U_j)]=det[2/(T_i+U_j)]*R_m(T,U)",
+    "left_vandermonde": "r0*r1*r2*(r0+r1)*(r1+r2)*(r0+r1+r2)",
+    "native_density": "exp(-256*x*(1+q))*x^15*y*(1-y)*q^11*product_i(p_i)",
+    "native_global_chart": "q=sum_i g_i; p_i=g_i/q for six positive gaps g=(r0,r1,r2,c0,c1,c2)",
+    "one_gap_native_plus_cauchy_valuation": [
+      2
+    ],
+    "qualitative_global_remainder_finite": true,
+    "right_vandermonde": "c0*c1*c2*(c0+c1)*(c1+c2)*(c0+c1+c2)",
+    "why_k305_preserves_the_cover": "K305 is an exact algebraic regrouping before absolute value. It does not divide by a gap, remove D4, replace M by a pointwise supremum, or move the split variables outside the bordered determinant.",
+    "worst_endpoint_second_derivative_margin": 2,
+    "worst_projective_second_derivative_margin": 1
+  }
+}

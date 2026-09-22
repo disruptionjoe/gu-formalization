@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2acd8fd5e7f3818982fc558a346fccffde0176c7
+revision_basis: 8bf462dc5317251e634f41075c8164f9153e5214
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K305 restores each K288 coherent group before enclosure and proves that
+    its six stored upper-triangle occurrence patterns are the exact cofactor
+    expansion of one bordered five-by-five determinant. The full ordered
+    nine-term sum is `-det([[M,L],[R^T,0]])`, with the position-eight
+    components of the old-kernel vectors kept as literal zeros. This
+    constructs all eighteen y and ninety gap pattern/order obligations as 72
+    exact group/axis/order master functionals. Complete-column
+    differentiation needs 1,160 coherent replacement slots rather than 6,480
+    occurrence-level leaf families, while retaining every sign and
+    factor-two cross term.
+
+    K306 replays the six one-gap, fifteen codimension-two and three endpoint
+    chart classes against that bordered compiler. Because the compression is
+    algebraic before absolute value, it keeps the common size-four
+    Cauchy--Vandermonde determinant, the full companion matrix, split
+    variables, native projective weight and exact q/x density inside the same
+    functional. K300's worst second-derivative margins remain one on
+    projective faces and two at terminal endpoints. The K304
+    detached-cofactor formula is absent, but no outward interval constants or
+    integrated q/projective numerical norm have yet been proved, so K294's
+    gamma join remains closed.
+
     K303 compiles the complete K299 second-directional algebra without
     expanding determinants into raw signed products. Across all six Peano
     axes and all 24 K288 occurrences there are 6,480 determinant-preserving
@@ -9452,18 +9474,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K303 as the complete determinant/product-rule compiler and K304 as
-  the current numerical-closure boundary. Do not factor K302's B0/B1/B2
-  marginals from multipliers that share y/u/z, and do not reuse K290's
-  superseded pointwise bank. Construct outward joint weighted
-  column-replacement functionals, beginning with the eighteen y-axis
-  pattern/order templates and retaining all six signed occurrences in each
-  coherent group; then extend the proved support-aware envelope to the ninety
-  gap-axis templates. Only complete numerical coefficients and q/projective
-  integrals may turn the candidate x^6/x^7/x^8 powers into a K294 gamma join.
-  K300's qualitative finiteness keeps the positive route selected; analytic
-  subtraction remains the fallback. No exterior value, action-column value,
-  complete residual or native K152 interval follows yet.
+  Treat K305 as the exact coherent master compiler and K306 as its support
+  audit. Implement one outward interval operator for the regularized common
+  size-four determinant times the bordered five-by-five determinant and its
+  complete first/second column replacements on K296/K300's six one-gap,
+  fifteen codimension-two and three endpoint chart classes. Start with the y
+  master, where the common size-four determinant is y-independent, then reuse
+  the same operator for the five gap axes. Preserve the exact exponential,
+  Cauchy denominators, projective weight and split variables through q and
+  projective integration; extract an x-only coefficient only after that joint
+  integral is finite. Do not return to K302-marginal times supremum, K290's
+  superseded bank or occurrencewise absolute values. K294's gamma join remains
+  closed until numerical constants exist; analytic subtraction remains the
+  fallback. No exterior value, action-column value, complete residual or
+  native K152 interval follows yet.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

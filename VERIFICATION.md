@@ -7,6 +7,32 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K305/K306 coherent bordered functionals and support audit (2026-09-22)
+
+K305 proves that the six stored upper-triangle occurrences in each of K288's
+four coherent groups are the cofactor expansion of one bordered five-by-five
+determinant.  Restoring all nine ordered terms gives
+`C_G = -det([[M_G,L_G],[R_G^T,0]])`; the final zero entries preserve the
+omitted position-eight component instead of bounding it separately.  Exact
+rational controls verify the bordered identity.  The eighteen `y` and ninety
+gap pattern/order obligations therefore compress exactly from 432
+group-instantiations to 72 group/axis/order master functionals.  Complete
+column differentiation compiles 1,160 coherent replacement slots rather than
+6,480 occurrence-level leaf families, with all signs and doubled first--first
+terms retained.  The probe passes 11/11 checks and rejects 6/6 hostile
+mutations.
+
+K306 checks that this is an algebraic regrouping before absolute value, not a
+new inequality.  It keeps the common size-four Cauchy--Vandermonde factor, the
+companion matrix, endpoint kernels, split variables and native q/x/projective
+measure joint.  The complete K296/K300 boundary cover survives: six one-gap
+and fifteen codimension-two faces plus three endpoint classes, with worst
+second-derivative margins one and two respectively.  This removes K304's
+detached-cofactor formula from the compiled route but does not yet supply
+outward constants for the regularized determinant product, a numerical norm
+or a K294 gamma join.  The probe passes 12/12 checks and rejects 7/7 hostile
+mutations.
+
 ## K303/K304 Peano determinant compiler and closure audit (2026-09-22)
 
 K303 compiles every K299 second-directional remainder without expanding a

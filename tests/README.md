@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K305/K306 coherent bordered functionals and support audit
+
+- `channel-swings/k305_order_seven_coherent_bordered_functional_compiler.py`
+  restores the nine ordered terms in each coherent group, proves their exact
+  bordered-determinant identity, and compiles all six Peano axes as coherent
+  master column replacements; its independent probe rejects six sign,
+  multiplicity, terminal-component, early-absolute and overclaim mutations.
+- `channel-swings/k306_order_seven_joint_template_support_audit.py` replays the
+  complete K296/K300 face and endpoint cover against that compiler, preserves
+  the qualitative integrability margins, and freezes the missing joint
+  interval operator without claiming a numerical norm; its probe rejects
+  seven lost-support, lost-margin, superseded-input and numerical-overclaim
+  mutations.
+
 ## K303/K304 Peano determinant compiler and closure audit
 
 - `channel-swings/k303_order_seven_peano_determinant_compiler.py` compiles all

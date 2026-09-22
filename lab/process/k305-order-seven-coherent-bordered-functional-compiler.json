@@ -1,0 +1,561 @@
+{
+  "bordered_determinant_theorem": {
+    "absolute_value_location": "after the complete bordered determinant for one coherent group is formed",
+    "cofactor_sign_match": "c_a*c_b=(-1)^(a+b) for c=(1,-1,1)",
+    "differentiation_rule": "differentiate the five bordered columns as complete columns; D det has five replacements and D^2 det has five pure-second plus ten doubled first-first replacements",
+    "identity": "C_G=-det([[M_G,L_G],[R_G^T,0]])",
+    "kernel_matrix": "M_G is the common four-by-four companion-species Bessel matrix on even positions (2,4,6,8)",
+    "rational_control": {
+      "bordered_determinant": "-91907",
+      "identity": "sum_ab L_a R_b (-1)^(a+b) det(M_hat_a_hat_b) = -det([[M,L],[R^T,0]])",
+      "identity_holds": true,
+      "left": [
+        "2",
+        "3",
+        "5",
+        "0"
+      ],
+      "matrix": [
+        [
+          "7",
+          "2",
+          "1",
+          "3"
+        ],
+        [
+          "5",
+          "11",
+          "4",
+          "2"
+        ],
+        [
+          "3",
+          "1",
+          "13",
+          "6"
+        ],
+        [
+          "2",
+          "4",
+          "5",
+          "17"
+        ]
+      ],
+      "ordered_cofactor_sum": "91907",
+      "ordered_cofactor_terms": [
+        "28490",
+        "-17094",
+        "-11544",
+        "-5208",
+        "41745",
+        "3783",
+        "1890",
+        "-20680",
+        "70525"
+      ],
+      "right": [
+        "7",
+        "11",
+        "13",
+        "0"
+      ]
+    },
+    "reason_zero_terminal_components_matter": "the final zero entries keep the omitted position-eight component inside the same determinant rather than bounding it separately"
+  },
+  "claim_ceiling": "Exact coherent bordered-determinant compiler for all four K288 groups and all six K299 Peano axes. The six stored occurrence patterns per group are restored as nine ordered cofactors and compressed exactly to one five-by-five bordered determinant before absolute enclosure. This replaces 432 pattern/group/order instantiations by 72 group/axis/order master functionals and compiles 1,160 coherent column-replacement slots instead of 6,480 occurrence-level leaf families while retaining every sign and factor-two cross term. It emits no numerical Peano norm, q/projective integral, K294 gamma join, exterior action-column value, residual, native K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "coherent_groups": [
+    {
+      "bordered_matrix": "B_G=[[M_G,L_G],[R_G^T,0]] with L_G=(L_2,L_4,L_6,0)^T and R_G=(R_2,R_4,R_6,0)^T",
+      "coherent_identity": "C_G=sum_ab c_a*c_b*L_a*R_b*det(M_G without row a and column b)=-det(B_G)",
+      "companion_species": "1+",
+      "group_id": "seed=0|d=1|1+^3,1-^4",
+      "old_position_coefficient_vector": [
+        1,
+        -1,
+        1
+      ],
+      "ordered_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "ordered_terms": 9,
+      "size_four_species": "1-",
+      "stored_upper_triangle_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "stored_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ]
+    },
+    {
+      "bordered_matrix": "B_G=[[M_G,L_G],[R_G^T,0]] with L_G=(L_2,L_4,L_6,0)^T and R_G=(R_2,R_4,R_6,0)^T",
+      "coherent_identity": "C_G=sum_ab c_a*c_b*L_a*R_b*det(M_G without row a and column b)=-det(B_G)",
+      "companion_species": "2+",
+      "group_id": "seed=0|d=2|2+^3,2-^4",
+      "old_position_coefficient_vector": [
+        1,
+        -1,
+        1
+      ],
+      "ordered_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "ordered_terms": 9,
+      "size_four_species": "2-",
+      "stored_upper_triangle_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "stored_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ]
+    },
+    {
+      "bordered_matrix": "B_G=[[M_G,L_G],[R_G^T,0]] with L_G=(L_2,L_4,L_6,0)^T and R_G=(R_2,R_4,R_6,0)^T",
+      "coherent_identity": "C_G=sum_ab c_a*c_b*L_a*R_b*det(M_G without row a and column b)=-det(B_G)",
+      "companion_species": "1-",
+      "group_id": "seed=1|d=0|1+^4,1-^3",
+      "old_position_coefficient_vector": [
+        1,
+        -1,
+        1
+      ],
+      "ordered_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "ordered_terms": 9,
+      "size_four_species": "1+",
+      "stored_upper_triangle_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "stored_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ]
+    },
+    {
+      "bordered_matrix": "B_G=[[M_G,L_G],[R_G^T,0]] with L_G=(L_2,L_4,L_6,0)^T and R_G=(R_2,R_4,R_6,0)^T",
+      "coherent_identity": "C_G=sum_ab c_a*c_b*L_a*R_b*det(M_G without row a and column b)=-det(B_G)",
+      "companion_species": "2-",
+      "group_id": "seed=2|d=0|2+^4,2-^3",
+      "old_position_coefficient_vector": [
+        1,
+        -1,
+        1
+      ],
+      "ordered_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          2
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          2
+        ],
+        [
+          6,
+          4
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "ordered_terms": 9,
+      "size_four_species": "2+",
+      "stored_upper_triangle_pairs": [
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          4
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          4,
+          4
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          6,
+          6
+        ]
+      ],
+      "stored_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ]
+    }
+  ],
+  "complete_counts": {
+    "coherent_master_column_replacement_slots": 1160,
+    "gap_slots_all_groups": 1100,
+    "old_occurrence_leaf_families": 6480,
+    "structural_zero_slots_may_be_pruned_only_after_dependency_replay": true,
+    "y_slots_all_groups": 60
+  },
+  "coupling_preservation": {
+    "coherent_sum_precedes_absolute_value": true,
+    "companion_matrix_and_old_kernels_kept_joint": true,
+    "complete_integrand_master": "native_density*D4_G*(-det(B_G))",
+    "k302_terminal_bounds_role": "may bound entries or complete replacement columns inside B_G; they are not multiplied by a detached cofactor supremum",
+    "native_density": "exp(-256*x*(1+q))*x^15*q^11*product_i(p_i)",
+    "size_four_determinant_kept_joint": true,
+    "split_variables_kept_inside_bordered_determinant": true
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_eighteen_y_pattern_order_templates_constructed": true,
+    "all_ninety_gap_pattern_order_templates_constructed": true,
+    "complete_numerical_norms_emitted": false,
+    "exact_coherent_compression_available": true,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "construct an outward interval operator for the regularized five-by-five bordered determinant columns together with the common size-four determinant on the K296/K300 boundary cover; integrate q and projective variables before extracting any x-only gamma coefficient"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "axes": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "y"
+    ],
+    "coherent_groups": 4,
+    "jet_orders": [
+      0,
+      1,
+      2
+    ],
+    "ordered_entries_per_group": 9,
+    "predecessor_manifests": [
+      "lab/process/k288-order-seven-native-occurrence-measure.json",
+      "lab/process/k298-order-seven-coherent-terminal-corner-obstruction.json",
+      "lab/process/k303-order-seven-peano-determinant-compiler.json",
+      "lab/process/k304-order-seven-peano-norm-sufficiency-audit.json"
+    ],
+    "stored_entries_per_group": 6,
+    "stored_occurrences": 24
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "master_axis_compiler": [
+    {
+      "active_master_factors": [
+        "projective_native_weight",
+        "size_four_bessel_determinant",
+        "bordered_coherent_determinant"
+      ],
+      "axis": "t0",
+      "complete_slots_per_group": 55,
+      "cross_first_first_column_replacement_slots_per_group": 29,
+      "cross_terms_retain_factor_two": true,
+      "pure_second_column_replacement_slots_per_group": 26
+    },
+    {
+      "active_master_factors": [
+        "projective_native_weight",
+        "size_four_bessel_determinant",
+        "bordered_coherent_determinant"
+      ],
+      "axis": "t1",
+      "complete_slots_per_group": 55,
+      "cross_first_first_column_replacement_slots_per_group": 29,
+      "cross_terms_retain_factor_two": true,
+      "pure_second_column_replacement_slots_per_group": 26
+    },
+    {
+      "active_master_factors": [
+        "projective_native_weight",
+        "size_four_bessel_determinant",
+        "bordered_coherent_determinant"
+      ],
+      "axis": "t2",
+      "complete_slots_per_group": 55,
+      "cross_first_first_column_replacement_slots_per_group": 29,
+      "cross_terms_retain_factor_two": true,
+      "pure_second_column_replacement_slots_per_group": 26
+    },
+    {
+      "active_master_factors": [
+        "projective_native_weight",
+        "size_four_bessel_determinant",
+        "bordered_coherent_determinant"
+      ],
+      "axis": "t3",
+      "complete_slots_per_group": 55,
+      "cross_first_first_column_replacement_slots_per_group": 29,
+      "cross_terms_retain_factor_two": true,
+      "pure_second_column_replacement_slots_per_group": 26
+    },
+    {
+      "active_master_factors": [
+        "projective_native_weight",
+        "size_four_bessel_determinant",
+        "bordered_coherent_determinant"
+      ],
+      "axis": "t4",
+      "complete_slots_per_group": 55,
+      "cross_first_first_column_replacement_slots_per_group": 29,
+      "cross_terms_retain_factor_two": true,
+      "pure_second_column_replacement_slots_per_group": 26
+    },
+    {
+      "active_master_factors": [
+        "bordered_coherent_determinant"
+      ],
+      "axis": "y",
+      "complete_slots_per_group": 15,
+      "cross_first_first_column_replacement_slots_per_group": 0,
+      "cross_terms_retain_factor_two": true,
+      "pure_second_column_replacement_slots_per_group": 15
+    }
+  ],
+  "release_test": {
+    "all_four_groups_replayed": true,
+    "all_nine_ordered_terms_restored": true,
+    "all_six_stored_patterns_replayed": true,
+    "bordered_identity_exact": true,
+    "coherent_absolute_value_delayed": true,
+    "factor_two_cross_terms_retained": true,
+    "native_K152_interval_emitted": false,
+    "radial_gamma_join_emitted": false
+  },
+  "result_id": "K305-ORDER-SEVEN-COHERENT-BORDERED-FUNCTIONAL-COMPILER",
+  "schema_version": "1.0",
+  "template_compression": {
+    "compression_is_exact_not_an_envelope": true,
+    "gap_group_axis_order_masters_after": 60,
+    "gap_pattern_order_instantiations_before": 360,
+    "new_group_axis_order_master_functionals": 72,
+    "old_four_group_instantiations": 432,
+    "old_pattern_axis_order_templates": 108,
+    "y_group_order_masters_after": 12,
+    "y_pattern_order_instantiations_before": 72
+  }
+}
