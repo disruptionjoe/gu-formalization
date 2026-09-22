@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-21"
+updated_at: "2026-09-22"
 ---
 
 # Next Steps For Contributors
@@ -19,6 +19,19 @@ updated_at: "2026-09-21"
 > it cannot stop work, reduce scale, or substitute maintenance. See
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
+
+> **2026-09-22 K296/K297 COALESCENT-FACE INTEGRABILITY.** Every one-gap
+> projective face now has exact native-plus-Cauchy order two, and all
+> codimension-two companion zeros are classified across the 24 native
+> occurrences. The resulting fourth-order endpoint corners are integrable for
+> old positions two and four, but terminal old position six is
+> logarithmically nonintegrable occurrencewise because its companion omits the
+> `(6,8)` zero. Next restore the complete ordered `3 x 3` old-position
+> coherent sum before symmetry compression and test its terminal-corner
+> leading coefficient in every group. Only a proved cancellation may release
+> a fourth-order exterior envelope and K294 radial composition. See
+> `explorations/conditional-build/k296-order-seven-coalescent-face-valuation-atlas-2026-09-22.md`
+> and `explorations/conditional-build/k297-order-seven-endpoint-corner-integrability-2026-09-22.md`.
 
 > **2026-09-21 K294/K295 GLOBAL EXTERIOR BOUNDARY.** The six positive K288
 > gaps now have an exact radial-simplex chart: `q=sum(g_i)`, `p_i=g_i/q`,

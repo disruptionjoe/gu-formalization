@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K296 replays all 24 K288 occurrences and computes the exact face
+    valuations of the native gap product, common size-four Cauchy determinant
+    and occurrence-specific size-three companion. Every one-gap projective
+    face gains one common Cauchy zero, so native measure plus Cauchy skeleton
+    has order two. Adjacent same-side two-gap faces have Cauchy order three,
+    but companion zeros are minor-dependent and are not uniform at the
+    terminal endpoint joins.
+
+    K297 composes those zeros with the endpoint-paired old kernels. Old
+    positions two and four are absolutely integrable through derivative order
+    four. At old position six the companion omits the (6,8) collision, and the
+    exact leading model has fourth derivative 24*a^2*y^3/(y+a*g)^5 after the
+    native gap and Cauchy zero produce g^2. It is logarithmically
+    nonintegrable in the two-variable terminal corner. This rejects an
+    occurrencewise fourth-order global rule but does not prove divergence of
+    the complete coherent group or true integrand. The ordered 3-by-3
+    old-position Gram sum must be restored before symmetry compression and
+    tested for leading-corner cancellation.
+
     K294 gives the exact whole-positive-orthant chart q=sum(g_i), p_i=g_i/q
     for the six K288 gap ratios. Its Jacobian q^5 and the native product q^6
     give density q^11*product(p_i); the simplex 1/11! exactly cancels the q
@@ -9117,19 +9136,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K294 supplies the exact global radial-simplex atlas and K295 proves that the
-  K292 tube carries less than 6.198e-27 of the bare native mass. K295 also
-  proves the existing K290 pointwise fourth-derivative majorant is
-  nonintegrable at one-gap simplex faces from order two onward, without
-  proving divergence of the true coherent integrand. Construct a
-  cancellation-preserving coalescent-face derivative packet next: retain the
-  size-three companion and size-four Cauchy determinant zeros together with
-  the native gap weight before absolute integration, beginning with one
-  vanishing-gap face and its codimension-two intersections. Compose its
-  radial low/high bounds through K294's gamma strata and join only proved
-  faces to K292/K293. Do not enlarge the tube as a substitute, claim true-
-  integrand divergence, or infer an action-column value, complete residual or
-  native K152 interval.
+  K296 proves that every one-gap face gains one exact common Cauchy zero and
+  the native measure adds another gap power; K297 proves this repairs
+  occurrencewise derivatives through order four except at the terminal old-
+  position-six endpoint corner. There the companion minor omits the (6,8)
+  collision and the exact fourth derivative remains logarithmically
+  nonintegrable. Restore the full ordered 3-by-3 old-position coherent Gram
+  sum before upper-triangle symmetry compression, extract its terminal-corner
+  leading coefficient in each of the four groups, and test exact
+  cancellation before taking absolute values. If and only if it cancels,
+  construct the resulting integrable fourth-order face envelope and compose
+  K294's low/middle/high gamma strata; otherwise switch to a lower-order or
+  singularity-subtracted positive cubature rule. Do not call the
+  occurrencewise obstruction a divergence theorem for the complete
+  integrand, or infer an action-column value, complete residual or native K152
+  interval.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9372,16 +9393,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K294 as the exact whole-domain radial-simplex measure atlas and K295
-  as the method boundary for exterior composition. The next admissible gate
-  is a cancellation-preserving coalescent-face derivative packet on that
-  simplex: keep the companion and Cauchy determinant zeros with the native
-  vanishing-gap weight before taking absolute values, certify one codimension-
-  one face and its codimension-two joins, then compose the low/high radial
-  strata through K294. K290's factorwise fourth-order bank may not be extended
-  directly, and K295 does not prove divergence of the true integrand. K292 and
-  K293 remain the exact interior atlas/remainder only; no exterior bound,
-  action-column value, complete residual or native K152 interval follows.
+  Treat K296 as the exact one-gap/codimension-two valuation atlas and K297 as
+  the occurrencewise endpoint-corner boundary. The next admissible gate is to
+  reconstruct each coherent group's ordered 3-by-3 old-position sum before
+  symmetry compression and compute the terminal old-position-six leading
+  coefficient. A proved zero releases a cancellation-preserving fourth-order
+  envelope and K294 radial composition; a nonzero coefficient rejects that
+  route and requires lower-order or singularity-subtracted positive cubature.
+  K297 proves only occurrencewise logarithmic nonintegrability, not divergence
+  of the complete coherent integrand. K292/K293 remain the exact interior
+  atlas/remainder only; no exterior bound, action-column value, complete
+  residual or native K152 interval follows.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

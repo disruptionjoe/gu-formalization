@@ -2,10 +2,29 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-21"
+updated_at: "2026-09-22"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K296/K297 coalescent-face integrability boundary (2026-09-22)
+
+K296 replays all 24 K288 occurrences and proves exact simultaneous
+Vandermonde valuations on the six one-gap and fifteen codimension-two
+projective faces. Every one-gap face has one common size-four Cauchy zero; the
+native gap product supplies a second order. Companion size-three zeros occur
+only when the actual minor contains the forced even-node collision and are not
+uniform at the terminal endpoint joins.
+
+K297 combines those valuations with the endpoint-paired old kernels. Old
+positions two and four are locally absolutely integrable through derivative
+order four. At old position six, the companion omits node six and supplies no
+`(6,8)` zero. The exact leading model `g^2 y/(y+a g)` has fourth derivative
+`24 a^2 y^3/(y+a g)^5`, homogeneous of degree `-2` in two variables, hence
+logarithmically nonintegrable occurrencewise. This rejects occurrencewise
+fourth-order global composition. It does not prove divergence of the complete
+ordered coherent sum or true integrand. Independent probes pass 10/10 checks
+and reject 10/10 hostile mutations for each result.
 
 ## K294/K295 global exterior boundary (2026-09-21)
 

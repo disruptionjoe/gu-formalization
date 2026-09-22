@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K296/K297 coalescent-face integrability boundary
+
+- `channel-swings/k296_order_seven_coalescent_face_valuation_atlas.py`
+  replays all 24 native occurrences and serializes exact one-gap,
+  codimension-two and terminal-endpoint determinant valuations; its probe
+  rejects ten hostile mutations.
+- `channel-swings/k297_order_seven_endpoint_corner_integrability.py` composes
+  those zeros with the endpoint-paired old kernels and proves the isolated
+  terminal old-position-six fourth derivative is logarithmically
+  nonintegrable; its probe rejects ten hostile mutations without claiming
+  divergence of the complete coherent sum.
+
 ## K294/K295 global exterior boundary
 
 - `channel-swings/k294_order_seven_global_radial_simplex_atlas.py` constructs

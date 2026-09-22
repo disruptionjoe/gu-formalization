@@ -1,0 +1,201 @@
+{
+  "claim_ceiling": "Exact endpoint-corner homogeneity and absolute-integrability classification for the K288 occurrencewise fourth-derivative route after retaining the native gap weight, common size-four Cauchy zero and companion size-three zero. Positions two and four are integrable through order four; the terminal old-position-six occurrence is logarithmically nonintegrable because its companion omits the needed (6,8) zero. This rejects occurrencewise fourth-order global composition, but proves no divergence of the complete ordered coherent sum or true integrand and supplies no exterior bound, action-column value, residual, native K152 interval, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "corner_model": {
+    "endpoint_paired_kernel": "y*2*K1(x*(y+a*g)) or w*2*K1(x*(w+a*g)), with a in (0,1] on an interior split subbox",
+    "fourth_derivative": "d_g^4[g^2*y/(y+a*g)]=24*a^2*y^3/(y+a*g)^5",
+    "homogeneity_rule": "the endpoint-paired kernel contributes degree -m; add native scaled gaps, common Cauchy Vandermonde order and companion Vandermonde order",
+    "integrability_rule": "a homogeneous degree beta function in n positive corner variables is locally absolutely integrable when beta+n>0; equality is logarithmic",
+    "leading_rational_model": "g^2*y/(y+a*g)=y*g/a-y^2/a^2+y^3/(a^2*(y+a*g))",
+    "left_coordinates": "old position 2 scales (r0,r1,r2,y), position 4 scales (r1,r2,y), position 6 scales (r2,y)",
+    "right_coordinates": "replace (r,y) by (c,w) with w=1-y"
+  },
+  "corner_table": [
+    {
+      "cauchy_valuation": 6,
+      "companion_valuation": 3,
+      "derivative_orders": [
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 0,
+          "divergence": "none",
+          "homogeneous_degree": 12,
+          "radial_integrability_margin": 16
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 1,
+          "divergence": "none",
+          "homogeneous_degree": 11,
+          "radial_integrability_margin": 15
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 2,
+          "divergence": "none",
+          "homogeneous_degree": 10,
+          "radial_integrability_margin": 14
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 3,
+          "divergence": "none",
+          "homogeneous_degree": 9,
+          "radial_integrability_margin": 13
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 4,
+          "divergence": "none",
+          "homogeneous_degree": 8,
+          "radial_integrability_margin": 12
+        }
+      ],
+      "old_position": 2,
+      "scaled_gap_count": 3,
+      "variables": 4
+    },
+    {
+      "cauchy_valuation": 3,
+      "companion_valuation": 1,
+      "derivative_orders": [
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 0,
+          "divergence": "none",
+          "homogeneous_degree": 6,
+          "radial_integrability_margin": 9
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 1,
+          "divergence": "none",
+          "homogeneous_degree": 5,
+          "radial_integrability_margin": 8
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 2,
+          "divergence": "none",
+          "homogeneous_degree": 4,
+          "radial_integrability_margin": 7
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 3,
+          "divergence": "none",
+          "homogeneous_degree": 3,
+          "radial_integrability_margin": 6
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 4,
+          "divergence": "none",
+          "homogeneous_degree": 2,
+          "radial_integrability_margin": 5
+        }
+      ],
+      "old_position": 4,
+      "scaled_gap_count": 2,
+      "variables": 3
+    },
+    {
+      "cauchy_valuation": 1,
+      "companion_valuation": 0,
+      "derivative_orders": [
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 0,
+          "divergence": "none",
+          "homogeneous_degree": 2,
+          "radial_integrability_margin": 4
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 1,
+          "divergence": "none",
+          "homogeneous_degree": 1,
+          "radial_integrability_margin": 3
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 2,
+          "divergence": "none",
+          "homogeneous_degree": 0,
+          "radial_integrability_margin": 2
+        },
+        {
+          "absolutely_integrable": true,
+          "derivative_order": 3,
+          "divergence": "none",
+          "homogeneous_degree": -1,
+          "radial_integrability_margin": 1
+        },
+        {
+          "absolutely_integrable": false,
+          "derivative_order": 4,
+          "divergence": "logarithmic",
+          "homogeneous_degree": -2,
+          "radial_integrability_margin": 0
+        }
+      ],
+      "old_position": 6,
+      "scaled_gap_count": 1,
+      "variables": 2
+    }
+  ],
+  "created": "2026-09-22",
+  "decision": {
+    "coherent_group_fourth_derivative_divergence_proved": false,
+    "next_exact_input": "restore the complete ordered 3-by-3 old-position coherent Gram sum before symmetry compression, extract its terminal-corner leading coefficient, and test whether the coefficient cancels in each of the four groups",
+    "occurrencewise_fourth_order_global_extension_legal": false,
+    "old_position_six_fourth_derivative_divergence": "logarithmic",
+    "old_position_six_fourth_derivative_occurrencewise_integrable": false,
+    "old_positions_two_and_four_integrable_through_order_four": true,
+    "reason": "When the terminal old position is 6, native gap weight times the common Cauchy zero gives g^2 but the companion minor omits position 6 and supplies no (6,8) zero. The exact leading fourth derivative is homogeneous of degree -2 in (g,endpoint), hence logarithmically nonintegrable occurrencewise. The ordered coherent Gram sum may cancel this leading corner and has not yet been restored pointwise."
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "left_old_position_histogram": {
+      "2": 12,
+      "4": 8,
+      "6": 4
+    },
+    "maximum_derivative_order": 4,
+    "occurrences": 24,
+    "old_positions": [
+      2,
+      4,
+      6
+    ],
+    "predecessor_manifest": "lab/process/k296-order-seven-coalescent-face-valuation-atlas.json",
+    "right_old_position_histogram": {
+      "2": 4,
+      "4": 8,
+      "6": 12
+    }
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "radial_composition": {
+    "k294_low_middle_high_gamma_strata_joined": false,
+    "reason": "The angular endpoint corner remains logarithmically nonintegrable for the occurrencewise fourth-order rule at every fixed positive x; the K294 radial gamma weight cannot repair that angular divergence."
+  },
+  "release_test": {
+    "all_24_occurrences_replayed": true,
+    "all_three_old_positions_classified": true,
+    "complete_base_action_column_evaluated": false,
+    "complete_exterior_integrand_bound_emitted": false,
+    "native_K152_interval_emitted": false,
+    "only_terminal_old_position_fails_at_order_four": true,
+    "orders_zero_through_four_classified": true,
+    "true_complete_integrand_divergence_claimed": false
+  },
+  "result_id": "K297-ORDER-SEVEN-ENDPOINT-CORNER-INTEGRABILITY",
+  "schema_version": "1.0"
+}
