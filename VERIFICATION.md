@@ -7,6 +7,36 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K331--K333 projective-face and radial closure (2026-09-22)
+
+K331 proves the exact projective homogeneity needed at the two faces. At
+`s=0`, final-row preconditioning of D4 and bordered B5 bounds the complete
+product by `s^-2`, leaving integrated power one under `s^3`. At `s=1`, the
+core cross-sums remain positive and only the mandatory border column is
+singular; the value/first/second pole orders are at most 3/4/5, leaving powers
+26/25/24 under `(1-s)^29`. Its probe passes 8/8 checks and rejects 8/8 hostile
+mutations.
+
+K332 applies those preconditioners to shared zero-safe entry jets before one
+complete bordered-determinant Taylor enclosure. On `0<=r<=1/16`, its lower-
+face integrated value/first/second uppers are approximately `2.7171`,
+`194.463` and `16007.58`; the upper-face values are approximately
+`5.76e-27`, `7.23e-24` and `1.55e-20`. All sixteen endpoint charts and the
+fixed six-gap cell are included. Its probe passes 8/8 checks and rejects 9/9
+hostile mutations.
+
+K333 re-evaluates the preconditioned banks at radius one, adds finite
+`[1/16,1]` annuli, and uses the unchanged radial growth powers 29/30/31 with
+the `r^6` measure to obtain analytic tail powers 35/36/37. The complete lower-
+face radial-half-line uppers are approximately `9.8316e5`, `6.3898e7` and
+`4.6816e9`; the upper-face contribution is negligible at this scale. Together
+with K329/K330, the three projective cells have finite complete-partition
+uppers approximately `1.11125e6`, `9.94647e7` and `1.72220e10`. Its probe
+passes 8/8 checks and rejects 9/9 hostile mutations. Recursive exact-cover
+subdivision and a declared tolerance remain open, so no complete y constant,
+gap-axis transfer, K294 join, action-column value, residual, K152 interval or
+physical claim is released.
+
 ## K328--K330 origin and radial-half-line enclosure (2026-09-22)
 
 K328 derives exact rational zero-safe envelopes for

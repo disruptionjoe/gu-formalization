@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K331--K333 projective-face and radial closure
+
+- `channel-swings/k331_order_seven_projective_face_homogeneity.py` proves the
+  exact lower- and upper-face pole ledgers from complete determinant support,
+  retains the native projective weights and rejects eight cutoff, census and
+  downstream-release mutations.
+- `channel-swings/k332_order_seven_projective_face_evaluator.py` applies the
+  face preconditioners to shared zero-safe entry jets before complete Taylor
+  enclosure, integrates both origin face cells and rejects nine correlation,
+  coverage and overclaim mutations.
+- `channel-swings/k333_order_seven_projective_face_radial_closure.py` joins
+  both face banks to finite annuli and analytic exponential tails, completes
+  the three-cell projective partition over the full radial half-line and
+  rejects nine growth, coverage and release mutations.
+
 ## K328--K330 origin and radial-half-line enclosure
 
 - `channel-swings/k328_order_seven_scaled_derivative_envelope_bank.py`

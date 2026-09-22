@@ -1,0 +1,181 @@
+{
+  "claim_ceiling": "Finite post-assembly complete-determinant value/first/second bounds on the radial-origin cells over both projective faces. K331's s-row and (1-s)-border preconditioners are applied to shared entry jets before one bordered determinant Taylor enclosure; K328 supplies zero-safe derivative bounds and the reduced native projective powers are integrated exactly. This covers r in [0,1/16] on s in [0,1/4] and [3/4,1], all six positive gap cells and all sixteen endpoint charts. The face annulus, face tail, recursive tolerance, complete y constant, gap transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public and physical claims remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition_contract": {
+    "familywise_absolute_summation_used": false,
+    "permutationwise_absolute_summation_used_for_B5": false,
+    "projective_cutoff_used": false,
+    "projective_preconditioners_applied_before_interval_substitution": true,
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "shared_entry_substitution_precedes_complete_determinant_enclosure": true
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "both_projective_origin_face_cells_bounded": true,
+    "complete_y_master_constant_emitted": false,
+    "face_annulus_and_tail_complete": false,
+    "next_exact_input": "evaluate the same preconditioned face bank at radius one, combine a finite [1/16,1] annulus with K330's degree ledger and exact incomplete-gamma tails, then test recursive global subdivision",
+    "radius_one_face_reference_released": true,
+    "recursive_tolerance_complete": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "coefficient_orders": [
+      0,
+      1,
+      2
+    ],
+    "endpoint_chart_count": 16,
+    "predecessor_manifests": [
+      "lab/process/k328-order-seven-scaled-derivative-envelope-bank.json",
+      "lab/process/k331-order-seven-projective-face-homogeneity.json"
+    ],
+    "radial_cell": [
+      "0",
+      "1/16"
+    ],
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "projective_face_bank": {
+    "faces": [
+      {
+        "B5_audit": {
+          "literal_zero_slots": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "minimum_positive_nonterminal_argument": "3/128",
+          "preconditioner": "s times final row",
+          "shared_entry_substitution_precedes_complete_determinant_enclosure": true,
+          "terminal_zero_safe": true
+        },
+        "D4_audit": {
+          "minimum_positive_argument": "3/32",
+          "preconditioned_row": 3,
+          "zero_safe_special_slots": 1
+        },
+        "face": "s0",
+        "origin_integrated_value_first_second_abs_uppers": [
+          "2.7171317599713807",
+          "194.46283769607547",
+          "16007.57734680176"
+        ],
+        "preconditioned_D4_abs_upper": "2.4218635154402564e+21",
+        "preconditioned_bordered_B5_value_first_second_intervals": [
+          "[+/- 2.46e+15]",
+          "[+/- 1.76e+17]",
+          "[+/- 1.45e+19]"
+        ],
+        "projective_interval": [
+          "0",
+          "1/4"
+        ],
+        "reduced_projective_masses": [
+          "2302342859968084919/2144433998568735375360",
+          "2302342859968084919/2144433998568735375360",
+          "2302342859968084919/2144433998568735375360"
+        ],
+        "reduced_projective_powers": [
+          1,
+          1,
+          1
+        ],
+        "sixteen_chart_preconditioned_value_first_second_abs_uppers": [
+          "1.419968722379578e+19",
+          "1.0162596870528708e+21",
+          "8.365534373722584e+22"
+        ]
+      },
+      {
+        "B5_audit": {
+          "literal_zero_slots": [
+            [
+              3,
+              4
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ]
+          ],
+          "minimum_positive_nonterminal_argument": "3/8",
+          "preconditioner": "t^(3+k) on border-column jet order k",
+          "shared_entry_substitution_precedes_complete_determinant_enclosure": true,
+          "terminal_zero_safe": true
+        },
+        "D4_audit": {
+          "minimum_positive_argument": "3/8",
+          "preconditioned_row": null,
+          "zero_safe_special_slots": 0
+        },
+        "face": "s1",
+        "origin_integrated_value_first_second_abs_uppers": [
+          "5.755530289957814e-27",
+          "7.231434127708042e-24",
+          "1.553353528523932e-20"
+        ],
+        "preconditioned_D4_abs_upper": "35457320117465.2",
+        "preconditioned_bordered_B5_value_first_second_intervals": [
+          "[+/- 2.66e+10]",
+          "[+/- 8.02e+12]",
+          "[+/- 4.14e+15]"
+        ],
+        "projective_interval": [
+          "3/4",
+          "1"
+        ],
+        "reduced_projective_masses": [
+          "56813/63191627667501282754560",
+          "25/6685312171854790656",
+          "91939/5901516951706297958400"
+        ],
+        "reduced_projective_powers": [
+          26,
+          25,
+          24
+        ],
+        "sixteen_chart_preconditioned_value_first_second_abs_uppers": [
+          "35918861.00000001",
+          "10850044288.000002",
+          "5594478190592.001"
+        ]
+      }
+    ],
+    "native_projective_polynomial_upper": "59604644775390625/203282392447840896882957090816",
+    "radial_mass_upper": "1/1879048192",
+    "radius_upper": "1/16",
+    "six_gap_exact_volume": "1/2985984"
+  },
+  "release_test": {
+    "all_six_integrated_coefficients_finite_positive": true,
+    "both_faces_present": true,
+    "complete_numerical_norm_overclaim": false,
+    "literal_border_zeros_retained": true,
+    "native_K152_interval_emitted": false
+  },
+  "result_id": "K332-ORDER-SEVEN-PROJECTIVE-FACE-EVALUATOR",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

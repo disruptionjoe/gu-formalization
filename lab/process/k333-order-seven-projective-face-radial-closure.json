@@ -1,0 +1,183 @@
+{
+  "claim_ceiling": "Finite analytic radial-annulus and exponential-tail bounds on both preconditioned projective face cells. Together with K329/K330, the three projective cells [0,1/4], [1/4,3/4], [3/4,1] now cover the full radial half-line for the fixed six-gap cell and all sixteen endpoint charts. Projective preconditioning changes no radial degree, so K330's exact tail powers 35/36/37 remain valid. Recursive global subdivision and its declared tolerance remain open; therefore no complete y-master constant, five-gap transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is released.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_projective_partition_value_first_second_abs_uppers": [
+    "1111247.2892787221",
+    "99464656.72143437",
+    "17222002883.657383"
+  ],
+  "created": "2026-09-22",
+  "decision": {
+    "both_projective_faces_full_radial_half_line_complete": true,
+    "complete_three_cell_projective_partition_finite": true,
+    "complete_y_master_constant_emitted": false,
+    "next_exact_input": "turn the K327 exact-cover interior oracle and K333 complete radial/projective boundary bank into one recursive global subdivision with a declared tolerance and an exact coverage checksum; only that accepted sum may be reused on the five gap axes",
+    "recursive_tolerance_complete": false
+  },
+  "direction": "observed_to_native",
+  "face_radial_closure": [
+    {
+      "annulus_integrated_value_first_second_abs_uppers": [
+        "983157.1538089019",
+        "63897856.77190767",
+        "4681591687.125928"
+      ],
+      "face": "s0",
+      "full_radial_half_line_value_first_second_abs_uppers": [
+        "983159.8709406619",
+        "63898051.23474537",
+        "4681607694.703275"
+      ],
+      "origin_integrated_value_first_second_abs_uppers": [
+        "2.717131759971381",
+        "194.4628376960755",
+        "16007.577346801761"
+      ],
+      "radius_one_preconditioned_value_first_second_abs_uppers": [
+        "1.0523481943701953e+23",
+        "6.839475656311249e+24",
+        "5.011065158442707e+26"
+      ],
+      "reduced_projective_powers": [
+        1,
+        1,
+        1
+      ],
+      "tail_integrated_value_first_second_abs_uppers": [
+        "1.4775773711348195e-66",
+        "9.64653897155339e-65",
+        "7.099789685993606e-63"
+      ],
+      "tail_powers": [
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "annulus_integrated_value_first_second_abs_uppers": [
+        "2.2941205386660182e-21",
+        "2.516739458572346e-18",
+        "4.6703608246362155e-15"
+      ],
+      "face": "s1",
+      "full_radial_half_line_value_first_second_abs_uppers": [
+        "2.294126294196308e-21",
+        "2.516746690006474e-18",
+        "4.670376358171501e-15"
+      ],
+      "origin_integrated_value_first_second_abs_uppers": [
+        "5.755530289957815e-27",
+        "7.231434127708043e-24",
+        "1.5533535285239322e-20"
+      ],
+      "radius_one_preconditioned_value_first_second_abs_uppers": [
+        "293239103488.0001",
+        "77341710352384.03",
+        "3.445150104892212e+16"
+      ],
+      "reduced_projective_powers": [
+        26,
+        25,
+        24
+      ],
+      "tail_integrated_value_first_second_abs_uppers": [
+        "3.447811554293385e-93",
+        "3.7994741130406616e-90",
+        "7.082757709051118e-87"
+      ],
+      "tail_powers": [
+        35,
+        36,
+        37
+      ]
+    }
+  ],
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "predecessor_manifests": [
+      "lab/process/k329-order-seven-degree27-origin-evaluator.json",
+      "lab/process/k330-order-seven-radial-tail-control.json",
+      "lab/process/k332-order-seven-projective-face-evaluator.json"
+    ],
+    "projective_partition": [
+      [
+        "0",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "3/4"
+      ],
+      [
+        "3/4",
+        "1"
+      ]
+    ],
+    "radial_partition": [
+      [
+        "0",
+        "1/16"
+      ],
+      [
+        "1/16",
+        "1"
+      ],
+      [
+        "1",
+        "infinity"
+      ]
+    ],
+    "tail_powers_value_first_second": [
+      35,
+      36,
+      37
+    ],
+    "threads": 1
+  },
+  "growth_contract": {
+    "D4_normalized_power": 16,
+    "absorbed_endpoint_power": 2,
+    "bordered_B5_value_first_second_powers": [
+      11,
+      12,
+      13
+    ],
+    "complete_coefficient_powers": [
+      29,
+      30,
+      31
+    ],
+    "positive_radial_measure_power": 6,
+    "projective_preconditioners_are_radial_degree_zero": true,
+    "tail_finiteness_is_analytic_not_sampled": true,
+    "tail_powers": [
+      35,
+      36,
+      37
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "positive_projective_interior_full_radial_value_first_second_abs_uppers": [
+    "128087.41833805994",
+    "35566605.48668899",
+    "12540395188.954105"
+  ],
+  "release_test": {
+    "all_complete_partition_uppers_finite_positive": true,
+    "all_face_tail_uppers_finite_positive": true,
+    "complete_numerical_norm_overclaim": false,
+    "native_K152_interval_emitted": false,
+    "tail_powers_exactly_35_36_37": true,
+    "two_faces_closed": true
+  },
+  "result_id": "K333-ORDER-SEVEN-PROJECTIVE-FACE-RADIAL-CLOSURE",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

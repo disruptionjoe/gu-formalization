@@ -1,0 +1,127 @@
+{
+  "claim_ceiling": "Exact projective homogeneity discriminator for the complete degree-27 normalized D4-times-bordered-B5 value/first/second jets. At s=0, final-row scaling bounds each determinant with total product pole order at most two, leaving integrated power one under s^3. At s=1, only the mandatory border column is singular; value/first/second pole orders are at most 3/4/5, leaving powers 26/25/24 under (1-s)^29. This releases a normalized confluent face evaluator without a cutoff, but emits no numerical face constant, recursive tolerance, complete y sum, gap transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition_contract": {
+    "familywise_absolute_summation_allowed": false,
+    "permutationwise_absolute_summation_allowed_for_B5": false,
+    "projective_cutoff_required": false,
+    "projective_preconditioning_precedes_interval_substitution": true,
+    "radial_degree_27_unchanged": true,
+    "raw_Bessel_evaluation_at_zero_allowed": false,
+    "shared_entry_determinant_taylor_assembly_required": true
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "both_projective_faces_have_integrable_complete_jets": true,
+    "complete_projective_face_numerical_bounds_emitted": false,
+    "complete_y_master_constant_emitted": false,
+    "next_exact_input": "apply the s-row and (1-s)-border preconditioners entrywise, assemble each complete determinant Taylor coefficient, and integrate against the reduced face powers before extending the bank across the radial annulus and tail",
+    "normalized_confluent_face_evaluator_released": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "D4_complete_permutation_count": 24,
+    "border_literal_zero_slots": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "bordered_B5_complete_nonzero_permutation_count": 54,
+    "coefficient_orders": [
+      0,
+      1,
+      2
+    ],
+    "predecessor_manifests": [
+      "lab/process/k321-order-seven-radial-projective-tensor-atlas.json",
+      "lab/process/k325-order-seven-correlated-determinant-jet-algebra.json",
+      "lab/process/k328-order-seven-scaled-derivative-envelope-bank.json",
+      "lab/process/k330-order-seven-radial-tail-control.json"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "K325_fifty_four_monomial_census_replayed": true,
+    "both_faces_have_strictly_positive_remaining_powers": true,
+    "complete_numerical_norm_overclaim": false,
+    "detached_cofactor_used": false,
+    "literal_border_zeros_retained": true,
+    "native_K152_interval_emitted": false
+  },
+  "result_id": "K331-ORDER-SEVEN-PROJECTIVE-FACE-HOMOGENEITY",
+  "s0_face": {
+    "D4_preconditioner": "multiply final regularized row by s",
+    "D4_worst_pole_order": 1,
+    "bordered_B5_preconditioner": "multiply final regularized row by s",
+    "bordered_B5_worst_pole_orders_value_first_second": [
+      1,
+      1,
+      1
+    ],
+    "complete_product_worst_pole_orders_value_first_second": [
+      2,
+      2,
+      2
+    ],
+    "face_variable": "s",
+    "native_measure_power": 3,
+    "proof": "all normalized sums except the final-row/final-column sum retain a positive (1-s)-gap contribution; each determinant term uses the final row once, and K328 bounds the scaled zero slot without a raw zero call",
+    "remaining_integrated_powers_value_first_second": [
+      1,
+      1,
+      1
+    ]
+  },
+  "s1_face": {
+    "D4_worst_pole_order": 0,
+    "bordered_B5_preconditioners_value_first_second": [
+      "t^3",
+      "t^4",
+      "t^5"
+    ],
+    "bordered_B5_worst_pole_orders_value_first_second": [
+      3,
+      4,
+      5
+    ],
+    "complete_product_worst_pole_orders_value_first_second": [
+      3,
+      4,
+      5
+    ],
+    "face_variable": "t=1-s",
+    "native_measure_power": 29,
+    "proof": "the two core node families meet only at a positive cross-sum; the mandatory border-column entry has divided-difference row order at most two and coefficient y-order at most two, hence pole order at most 3+j for coefficient j",
+    "remaining_integrated_powers_value_first_second": [
+      26,
+      25,
+      24
+    ]
+  },
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS.",
+  "support_census": {
+    "D4_terms_not_using_final_core_slot": 18,
+    "D4_terms_using_final_core_slot": 6,
+    "bordered_B5_terms_not_using_final_core_slot": 36,
+    "bordered_B5_terms_using_final_core_slot": 18,
+    "complete_support_used_without_detached_cofactor": true,
+    "every_bordered_term_uses_exactly_one_border_column_entry": true,
+    "every_bordered_term_uses_exactly_one_border_row_entry": true
+  }
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 222ac11d399b360e1fc4882a2155ae58032bc20a
+revision_basis: 8ed606b7de7b0f9c469ad68b61e4edc1047feaa1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -218,6 +218,21 @@ current_result:
     positive normalized argument floor vanishes there. A normalized confluent
     complete-determinant face evaluator is the next exact dependency; no
     recursive tolerance, complete y constant or downstream release follows.
+
+    K331 resolves the missing projective homogeneity. At `s=0`, scaling the
+    final regularized row of both complete determinants leaves total
+    value/first/second pole order at most two, so the native `s^3` measure
+    retains power one. At `s=1`, only the mandatory border column is singular;
+    its coefficient pole orders are at most three, four and five, leaving
+    powers twenty-six, twenty-five and twenty-four under `(1-s)^29`. K332
+    applies those preconditioners to shared entry jets before complete
+    determinant Taylor enclosure and gives finite origin-cell bounds on both
+    projective faces. K333 extends the same banks across `[1/16,1]` and exact
+    exponential tails with unchanged radial powers 35, 36 and 37. Together
+    K329/K330/K332/K333 cover the full radial half-line on all three
+    projective cells for the fixed six-gap cell and all sixteen endpoint
+    charts. A recursive exact-cover sum with a declared tolerance remains the
+    next dependency; no complete y constant or downstream release follows.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9466,15 +9481,14 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K321 supplies the sixty-four-chart radial/projective topology and exact
-  degree-minus-twenty-seven origin control; K322 supplies zero-safe scaled
-  terminal jets; K325 freezes the shared-generator determinant-jet algebra;
-  K326 supplies finite signed value/first/second bounds on all sixteen K318
-  charts over one positive slab; and K327 proves a 256-child exact-cover
-  interior refinement that contracts all three integrated uppers. Extend the
-  accepted evaluator to the degree-27 normalized radial origin, exponential
-  tail and both projective faces, then recurse to a declared tolerance before
-  releasing a complete y sum. Only a complete
+  K331 proves that the native projective weights absorb every complete-jet
+  face pole; K332 supplies finite post-assembly origin-cell bounds on both
+  faces; and K333 joins them to finite annuli and analytic tails. Together
+  with K329/K330, the complete radial half-line is now covered on all three
+  projective cells for the fixed six-gap cell and all sixteen K318 endpoint
+  charts. Turn K327's exact-cover interior oracle and K333's boundary bank
+  into one recursive subdivision with a declared tolerance and exact coverage
+  checksum before releasing a complete y sum. Only a complete
   accepted numerical y sum releases reuse for the five Duffy axes, and only
   six complete finite constants may reopen K294's gamma join.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
@@ -9723,17 +9737,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K321 as the exact sixty-four-chart radial/projective tensor topology,
-  K322 as the zero-inclusive scaled-entry envelope, K325 as the exact shared-
-  generator determinant-jet contract, K326 as the complete sixteen-chart
-  signed derivative bank on one positive slab, and K327 as the first exact-
-  cover adaptive interior oracle. Preserve K318's exact `1/24` Peano
+  Treat K331 as the exact projective homogeneity ledger, K332 as the finite
+  confluent origin-face evaluator, K333 as the full face radial-half-line
+  closure, and K327 as the first exact-cover adaptive interior oracle.
+  Preserve K318's exact `1/24` Peano
   mass, all eighty-four nonnegative valuation checks, the split Jacobian,
   K315's literal border zeros and the signed fifteen-family second jet inside
-  every chart before absolute enclosure. Extend the same post-assembly
-  evaluator to the degree-27 normalized origin, exponential tail and both
-  projective faces, then recurse to a declared tolerance. Reuse only the
-  accepted complete y subdivision for the five Duffy axes.
+  every chart before absolute enclosure. Build one recursive three-projective-
+  cell subdivision with an exact coverage checksum and declared tolerance;
+  its boundary leaves must call K333 and its positive interior leaves must
+  call K327's shared-entry evaluator. Reuse only the accepted complete y
+  subdivision for the five Duffy axes.
   K294's gamma join remains closed until all six finite constants exist. No
   exterior value, action-column value, complete residual or native K152
   interval follows yet.

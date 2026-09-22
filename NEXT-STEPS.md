@@ -20,6 +20,19 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K331--K333 PROJECTIVE-FACE AND RADIAL CLOSURE.** K331 proves
+> the exact face homogeneity ledger: the lower-face complete product costs at
+> most `s^-2`, while the upper-face value/first/second costs are at most
+> `(1-s)^-(3,4,5)`; the native weights leave powers 1 and 26/25/24. K332
+> applies the corresponding row/border preconditioners before complete shared-
+> entry determinant Taylor enclosure and gives finite origin bounds on both
+> face cells. K333 adds finite annuli and analytic tails with unchanged radial
+> powers 35/36/37. The full radial half-line is now covered on all three
+> projective cells for the fixed six-gap cell and all sixteen endpoint charts.
+> Next compose K327's exact-cover interior oracle and K333's boundary bank into
+> one recursive subdivision with a declared tolerance and exact coverage
+> checksum. No complete y constant, five-gap transfer or K294 join exists.
+
 > **2026-09-22 K328--K330 ORIGIN AND RADIAL-HALF-LINE ENCLOSURE.** K328
 > proves exact rational zero-safe envelopes through scaled derivative order
 > six. K329 combines the degree `-16/-11` normalized entry banks with K326's
