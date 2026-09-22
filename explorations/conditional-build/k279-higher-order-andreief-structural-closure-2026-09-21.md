@@ -1,6 +1,7 @@
 ---
 title: "K279 higher-order Andréief structural closure"
 status: internal_structural_result
+claim_verdict: internal_structural_result
 date: 2026-09-21
 claim_ceiling: exact repository-owned structural reduction and representation decision for all unresolved K179 order-seven-through-twelve coherent Gram families; no time integral, action-column value, complete residual, exterior gap, K152 interval, physical state, source claim, ledger row, canon, paper or public posture is changed
 manifest: lab/process/k279-higher-order-andreief-structural-closure.json

@@ -1,6 +1,7 @@
 ---
 title: "K278 full-domain order-six Gram positivity"
 status: verified_internal
+claim_verdict: verified_internal
 date: "2026-09-21"
 ---
 

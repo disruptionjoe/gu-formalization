@@ -1,6 +1,7 @@
 ---
 title: "K280 order-seven Bessel Cauchy--Vandermonde face atlas"
 status: internal_structural_result
+claim_verdict: internal_structural_result
 date: 2026-09-21
 claim_ceiling: complete exact order-seven face atlas and qualitative cancellation-preserving Bessel regularizers through size four; no outward full-domain regularizer interval, Duffy/Jacobi cubature error, action-column value, complete residual, exterior gap, K152 interval, physical state, source claim, ledger row, canon, paper or public posture is changed
 manifest: lab/process/k280-order-seven-bessel-vandermonde-face-atlas.json

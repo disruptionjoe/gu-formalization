@@ -1,6 +1,7 @@
 ---
 title: "K283 order-seven size-four projective-gap follow-through"
 status: internal_structural_result
+claim_verdict: internal_structural_result
 date: 2026-09-21
 claim_ceiling: outward size-four projective gap spine on 1<=t<=5/4 joined to K282 and propagated to the 24 size-four occurrences; no transverse arbitrary-gap atlas, mixed-Duffy/Jacobi error, action-column value, residual, exterior gap, native K152 interval, physical state, source claim, ledger row, canon, paper or public posture is changed
 manifest: lab/process/k283-order-seven-projective-gap-followthrough.json

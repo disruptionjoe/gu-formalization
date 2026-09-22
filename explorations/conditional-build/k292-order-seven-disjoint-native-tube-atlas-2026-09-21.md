@@ -1,5 +1,6 @@
 ---
 status: CONDITIONALLY_RESOLVED
+claim_verdict: CONDITIONALLY_RESOLVED
 classification: INTERNAL_STRUCTURAL_ONLY
 direction: observed_to_native
 ---

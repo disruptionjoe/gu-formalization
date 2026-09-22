@@ -1,6 +1,7 @@
 ---
 title: "K281 size-four scaled-jet theorem and outward-calculus boundary"
 status: internal_structural_result
+claim_verdict: internal_structural_result
 date: 2026-09-21
 claim_ceiling: exact R4 scaled-jet normal form, directed coalescent certificate and complete 63-mask size-four face topology; the tested zero-centered Taylor transfer fails to certify a finite-gap cell and no arbitrary-gap enclosure, mixed-Duffy derivative, Jacobi cubature error, action-column value, residual, exterior gap, native K152 interval, physical state, source claim, ledger row, canon, paper or public posture is changed
 manifest: lab/process/k281-order-seven-size-four-outward-calculus.json

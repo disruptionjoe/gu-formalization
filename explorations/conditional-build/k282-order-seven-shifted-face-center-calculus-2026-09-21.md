@@ -1,6 +1,7 @@
 ---
 title: "K282 order-seven shifted face-center calculus"
 status: internal_structural_result
+claim_verdict: internal_structural_result
 date: 2026-09-21
 claim_ceiling: exact shifted Hermite--Genocchi operator through size four, local outward neighborhoods for all 63 size-four masks and domain-preserving binding of all 98 order-seven patterns and 996 nontrivial occurrences; no arbitrary-gap coverage, mixed-Duffy/Jacobi error, action-column value, residual, exterior gap, native K152 interval, physical state, source claim, ledger row, canon, paper or public posture is changed
 manifest: lab/process/k282-order-seven-shifted-face-center-calculus.json
