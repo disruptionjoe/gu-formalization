@@ -20,6 +20,19 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K294/K295 GLOBAL EXTERIOR BOUNDARY.** The six positive K288
+> gaps now have an exact radial-simplex chart: `q=sum(g_i)`, `p_i=g_i/q`,
+> Jacobian `q^5`, and transformed native density `q^11 product(p_i)`. It
+> replays bare mass `256^-16`; the K290 x strip contains only about
+> `1.1250222140e-10` of that mass. The full K292 tube has bare-mass share below
+> `6.198e-27`. K290's pointwise derivative rule behaves as `s^(1-m)` at a
+> vanishing gap and is nonintegrable from order two onward, but this does not
+> prove divergence of the true coherent integrand. Next retain the companion
+> and Cauchy determinant zeros with the native gap weight in coalescent-face
+> derivative charts, beginning with one face and its codimension-two joins.
+> See `explorations/conditional-build/k294-order-seven-global-radial-simplex-atlas-2026-09-21.md`
+> and `explorations/conditional-build/k295-order-seven-exterior-integrability-boundary-2026-09-21.md`.
+
 > **2026-09-21 K292/K293 COMPLETE INTERIOR-TUBE REMAINDER.** The overlapping
 > K284 boxes now have an exact a.e.-disjoint native atlas: one start box and
 > six swept faces with their `b_k` Jacobians. Its exact `dr dc` volume is

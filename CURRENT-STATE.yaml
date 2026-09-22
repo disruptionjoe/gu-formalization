@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4cb13aaa04189e4cb90551bed9596ebb7799f85a
+revision_basis: 77f51081fbd7309a2d7c384a50ebea9b8d1080c9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K294 gives the exact whole-positive-orthant chart q=sum(g_i), p_i=g_i/q
+    for the six K288 gap ratios. Its Jacobian q^5 and the native product q^6
+    give density q^11*product(p_i); the simplex 1/11! exactly cancels the q
+    integral's 11!, independently replaying bare mass 256^-16. The K290 radial
+    strip contains only about 1.1250222140e-10 of that bare mass.
+
+    K295 bounds the complete K292 tube by less than 6.197571020e-27 of the
+    K288 bare mass. More importantly, K290's ratio_min^-m pointwise derivative
+    rule combines with the native one-gap weight as s^(1-m), so it is
+    nonintegrable from derivative order two onward at a simplex face. This is
+    a failure of the conservative factorwise majorant, not a divergence theorem
+    for the true coherent determinant integrand. Exterior work must retain
+    coalescent determinant zeros before absolute integration.
+
     K292 replaces K284's overlapping continuously t-centered boxes by an
     exact almost-everywhere disjoint native atlas: one six-dimensional start
     box and six swept advancing faces with exact Jacobians b_k. The total
@@ -9103,13 +9117,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K292 closes the overlapping-box geometry with an exact a.e.-disjoint native
-  atlas, and K293 certifies the complete K284 interior-tube tensor-quadrature
-  remainder below 1.4757389273e-60 after the x width. Construct the radial and
-  projective-gap exterior atlas next, with compatible complete-integrand
-  bounds and explicit joins to the K292 tube. Preserve all four coherent
-  groups and do not promote the interior remainder to an action-column value,
-  complete residual or arbitrary-gap theorem.
+  K294 supplies the exact global radial-simplex atlas and K295 proves that the
+  K292 tube carries less than 6.198e-27 of the bare native mass. K295 also
+  proves the existing K290 pointwise fourth-derivative majorant is
+  nonintegrable at one-gap simplex faces from order two onward, without
+  proving divergence of the true coherent integrand. Construct a
+  cancellation-preserving coalescent-face derivative packet next: retain the
+  size-three companion and size-four Cauchy determinant zeros together with
+  the native gap weight before absolute integration, beginning with one
+  vanishing-gap face and its codimension-two intersections. Compose its
+  radial low/high bounds through K294's gamma strata and join only proved
+  faces to K292/K293. Do not enlarge the tube as a substitute, claim true-
+  integrand divergence, or infer an action-column value, complete residual or
+  native K152 interval.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9352,11 +9372,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K292 as the exact a.e.-disjoint native atlas for the K284 tube and K293
-  as its complete native-density tensor-quadrature remainder. The next
-  admissible gate is a radial/projective exterior atlas with complete-
-  integrand bounds and proved joins to K292. K293 supplies no exterior bound,
-  action-column value, complete residual or native K152 interval.
+  Treat K294 as the exact whole-domain radial-simplex measure atlas and K295
+  as the method boundary for exterior composition. The next admissible gate
+  is a cancellation-preserving coalescent-face derivative packet on that
+  simplex: keep the companion and Cauchy determinant zeros with the native
+  vanishing-gap weight before taking absolute values, certify one codimension-
+  one face and its codimension-two joins, then compose the low/high radial
+  strata through K294. K290's factorwise fourth-order bank may not be extended
+  directly, and K295 does not prove divergence of the true integrand. K292 and
+  K293 remain the exact interior atlas/remainder only; no exterior bound,
+  action-column value, complete residual or native K152 interval follows.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

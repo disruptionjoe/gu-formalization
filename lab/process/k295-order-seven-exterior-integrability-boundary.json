@@ -1,0 +1,109 @@
+{
+  "claim_ceiling": "Rigorous upper bound on the K292 tube's share of the K288 bare native measure and an exact integrability audit of the K290 ratio-minimum pointwise derivative majorant at one-gap simplex faces. The current fourth-order majorant is nonintegrable from order two onward; no divergence of the true coherent integrand, complete exterior-integrand bound, action-column value, residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim is established.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-21",
+  "decision": {
+    "complete_exterior_integrand_bound_serialized": false,
+    "k290_pointwise_fourth_derivative_bank_extends_to_simplex_faces": false,
+    "k292_interior_tube_has_nonnegligible_bare_measure_share": false,
+    "next_exact_input": "a cancellation-preserving size-three/size-four coalescent-face derivative packet on the K294 simplex chart, beginning with one vanishing-gap face and its codimension-two intersections",
+    "required_repair": "construct coalescent-face charts that retain determinant zeros and integrate the native gap weight before taking the fourth-derivative absolute envelope; treat radial low/high strata with the K294 gamma weight"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "derivative_manifest": "lab/process/k290-order-seven-native-rest-derivative-bank.json",
+    "global_atlas_manifest": "lab/process/k294-order-seven-global-radial-simplex-atlas.json",
+    "tube_manifest": "lab/process/k292-order-seven-disjoint-native-tube-atlas.json",
+    "tube_scale_interval": [
+      "1/1",
+      "5/4"
+    ],
+    "tube_shape_radius": "1/32768",
+    "x_interval": [
+      "31/256",
+      "1/8"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "pointwise_majorant_face_audit": {
+    "combined_behavior": "s^(1-m) before determinant coalescent cancellation",
+    "first_nonintegrable_order": 2,
+    "fourth_order_global_extension_legal": false,
+    "k290_rule": "for m>=1 the endpoint-safe old-kernel derivative majorant contains ratio_min^-m",
+    "native_face_weight": "the projective product contributes one power of the vanishing gap s",
+    "one_gap_integrability": [
+      {
+        "combined_face_power": 1,
+        "majorant_divergence": "none",
+        "native_density_power": 1,
+        "one_gap_integrable_at_zero": true,
+        "ratio_minimum_power_from_k290": 0,
+        "shape_derivative_order": 0
+      },
+      {
+        "combined_face_power": 0,
+        "majorant_divergence": "none",
+        "native_density_power": 1,
+        "one_gap_integrable_at_zero": true,
+        "ratio_minimum_power_from_k290": -1,
+        "shape_derivative_order": 1
+      },
+      {
+        "combined_face_power": -1,
+        "majorant_divergence": "logarithmic",
+        "native_density_power": 1,
+        "one_gap_integrable_at_zero": false,
+        "ratio_minimum_power_from_k290": -2,
+        "shape_derivative_order": 2
+      },
+      {
+        "combined_face_power": -2,
+        "majorant_divergence": "power",
+        "native_density_power": 1,
+        "one_gap_integrable_at_zero": false,
+        "ratio_minimum_power_from_k290": -3,
+        "shape_derivative_order": 3
+      },
+      {
+        "combined_face_power": -3,
+        "majorant_divergence": "power",
+        "native_density_power": 1,
+        "one_gap_integrable_at_zero": false,
+        "ratio_minimum_power_from_k290": -4,
+        "shape_derivative_order": 4
+      }
+    ],
+    "reason": "K290 took absolute factorwise bounds before retaining the companion and Cauchy determinant zeros; failure of this majorant is not failure of the coherent integrand.",
+    "true_integrand_divergence_proved": false
+  },
+  "release_test": {
+    "complete_base_action_column_evaluated": false,
+    "complete_native_bare_mass_used": true,
+    "exact_k292_volume_used": true,
+    "native_K152_interval_emitted": false,
+    "orders_two_through_four_nonintegrable_under_current_majorant": true,
+    "orders_zero_and_one_integrable_under_current_majorant": true,
+    "true_integrand_divergence_claimed": false,
+    "tube_share_strictly_below_one": true
+  },
+  "result_id": "K295-ORDER-SEVEN-EXTERIOR-INTEGRABILITY-BOUNDARY",
+  "schema_version": "1.0",
+  "tube_bare_measure_upper": {
+    "bare_mass_abs_upper": "1.821302430602341564949453747195828523070942733301144920400329364036839848450651722760995390571402001E-65",
+    "complete_bare_mass": "1/340282366920938463463374607431768211456",
+    "exact_algebraic_prefactor_before_exponential": "4799119895482868235/431359146674410236714672241392314090778194310760649159697657763987456",
+    "exponential_argument_lower": "2789039/81920",
+    "exterior_fraction_lower": "0.9999999999999999999999999938024289803577694519782730467618770928716045757788727782159035873919733929",
+    "fraction_of_complete_bare_mass_upper": "6.197571019642230548021726953238122907128395424221127221784096412608026607055082225218239882478085466E-27",
+    "gap_product_upper": "35619395562713025/1237940039285380274899124224",
+    "gap_sum_lower": "8049/81920",
+    "interpretation": "The K292 tube carries at most this share of the bare native measure. This does not compare the coherent determinant integrand inside and outside the tube.",
+    "method": "supremum of exp(-256*x*(1+sum g))*x^15*product(g_i) on the tube times exact K292 drdc volume, exact x width, exact y integral 1/6 and unit split-cube volume"
+  }
+}

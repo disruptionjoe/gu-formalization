@@ -1,0 +1,98 @@
+{
+  "claim_ceiling": "Exact whole-positive-orthant radial-simplex atlas and bare native-measure normalization for the K288 order-seven occurrence variables, with an exact three-stratum radial mass split. No bound on the coherent determinant integrand over the exterior, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-21",
+  "decision": {
+    "complete_integrand_exterior_bound_serialized": false,
+    "complete_positive_orthant_chart_serialized": true,
+    "k292_tube_is_interior_subdomain_only": true,
+    "next_exact_input": "quantify the K292 tube bare-measure share and test whether the K290 ratio-minimum derivative majorant is integrable on simplex faces",
+    "radial_exterior_partition_serialized": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "native_gap_coordinates": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "radial_split_manifest": "lab/process/k290-order-seven-native-rest-derivative-bank.json",
+    "source_manifest": "lab/process/k288-order-seven-native-occurrence-measure.json",
+    "x_split": [
+      "0",
+      "31/256",
+      "1/8",
+      "infinity"
+    ]
+  },
+  "global_chart": {
+    "definition": "q=sum_i g_i; p_i=g_i/q for six positive gaps g=(r0,r1,r2,c0,c1,c2)",
+    "domain": "q>0 and p in the open five-simplex; boundary faces are assigned by the usual lower-dimensional limit and have six-dimensional measure zero",
+    "inverse": "g_i=q*p_i with p_5=1-sum_{i=0}^4 p_i",
+    "jacobian": "q^5",
+    "native_projective_product": "product_i g_i=q^6*product_i p_i",
+    "split_cube_volume": "du_0...du_3 dz_0...dz_3 has volume 1",
+    "transformed_native_density": "exp(-256*x*(1+q))*x^15*y*(1-y)*q^11*product_i(p_i)"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "normalization_replay": {
+    "agrees_with_k288": true,
+    "complete_bare_mass": "1/340282366920938463463374607431768211456",
+    "q_integral": "39916800/(256*x)^12",
+    "q_simplex_product": "1/(256*x)^12",
+    "remaining_x_integral": "integral_0^infinity exp(-256*x)*x^3 dx=3!/256^4",
+    "simplex_identity": "integral_Delta5 product_i p_i dp = product_i Gamma(2)/Gamma(12)=1/11!",
+    "simplex_integral": "1/39916800",
+    "y_integral": "1/6"
+  },
+  "radial_atlas": {
+    "gamma_rate": 256,
+    "gamma_shape": 4,
+    "normalized_density_after_q_simplex_y": "256^4*x^3*exp(-256*x)/3!",
+    "strata": {
+      "directed_sum_contains_one": true,
+      "high_x_gt_1_over_8": {
+        "exact_formula": "exp(-32)*(1+32+32^2/2+32^3/6)",
+        "fraction_interval": {
+          "lower": "7.606519967637598411830519066211169056990186305256158287665152655873729584110093249518373602086366760E-11",
+          "upper": "7.606519967637598411830519066211169056990186305256158287665152655873729584110093249518373602086366762E-11"
+        }
+      },
+      "interior_31_over_256_to_1_over_8": {
+        "exact_formula": "exp(-31)*(1+31+31^2/2+31^3/6)-exp(-32)*(1+32+32^2/2+32^3/6)",
+        "fraction_interval": {
+          "lower": "1.125022214019144263509019223603871122905426911020251214384257459868728519714426650894001713530689071E-10",
+          "upper": "1.125022214019144263509019223603871122905426911020251214384257459868728519714426650894001713530689073E-10"
+        }
+      },
+      "low_x_lt_31_over_256": {
+        "exact_formula": "1-exp(-31)*(1+31+31^2/2+31^3/6)",
+        "fraction_interval": {
+          "lower": "0.9999999998114325789217095895307928869775011971395554458454132956849227274543898521874564024154160926",
+          "upper": "0.9999999998114325789217095895307928869775011971395554458454132956849227274543898521874564024154160927"
+        }
+      }
+    }
+  },
+  "release_test": {
+    "complete_bare_mass_replayed": true,
+    "complete_base_action_column_evaluated": false,
+    "complete_exterior_integrand_bound_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_density_q_power_is_eleven": true,
+    "simplex_and_q_factorials_cancel_exactly": true,
+    "six_gap_jacobian_power_is_five": true,
+    "three_radial_strata_cover_x_positive": true
+  },
+  "result_id": "K294-ORDER-SEVEN-GLOBAL-RADIAL-SIMPLEX-ATLAS",
+  "schema_version": "1.0"
+}

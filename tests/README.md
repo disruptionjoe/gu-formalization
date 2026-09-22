@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K294/K295 global exterior boundary
+
+- `channel-swings/k294_order_seven_global_radial_simplex_atlas.py` constructs
+  the exact six-gap radial-simplex chart, replays `256^-16`, and serializes the
+  three exact radial mass strata; its independent probe rejects eight hostile
+  mutations.
+- `channel-swings/k295_order_seven_exterior_integrability_boundary.py` bounds
+  the K292 tube's bare-mass share and audits the K290 pointwise derivative
+  majorant at simplex faces; its probe rejects nine hostile mutations without
+  claiming divergence of the true coherent integrand.
+
 ## K292/K293 complete native interior-tube remainder
 
 - `channel-swings/k292_order_seven_disjoint_native_tube_atlas.py` constructs

@@ -7,6 +7,24 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K294/K295 global exterior boundary (2026-09-21)
+
+K294 proves the exact global radial-simplex chart for the six positive K288
+gap ratios. The Jacobian is `q^5`, the transformed native gap density is
+`q^11 product(p_i)`, and exact Dirichlet/gamma integration reproduces bare
+mass `256^-16`. Directed incomplete-gamma intervals show that
+`31/256 <= x <= 1/8` contains about `1.1250222140e-10` of the bare mass.
+
+K295 uses K292's exact native volume and valid tube extrema to prove that the
+complete K292 tube carries less than `6.197571020e-27` of the bare mass. It
+also proves that K290's factorwise ratio-minimum majorant behaves as
+`s^(1-m)` at a vanishing gap, hence is nonintegrable from derivative order two
+onward. This rejects direct global integration of the K290 fourth-order bank;
+it does not prove divergence of the true coherent determinant integrand.
+Independent probes replay both results and reject eight and nine hostile
+mutations respectively. A cancellation-preserving coalescent-face derivative
+packet remains open.
+
 ## K292/K293 complete native interior-tube remainder (2026-09-21)
 
 K292 proves an exact a.e.-disjoint parameterization of K284's native union by
