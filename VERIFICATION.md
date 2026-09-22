@@ -7,6 +7,39 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K285 first shape-gradient packet on the transverse tube (2026-09-21)
+
+K285 differentiates K284's complete center-preconditioned size-four
+determinant chart with respect to all six transverse shape coordinates. The
+entry bounds use the Hermite--Genocchi node derivative identity; normalization
+is differentiated exactly; and determinant derivatives are bounded only after
+their cofactors are completed. All 2,048 cells and all six coordinates have
+finite certified envelopes. The global L1 gradient upper is below
+`7676.647361982766`, and twelve independent 300-digit central-difference
+controls lie inside their coordinatewise envelopes.
+
+This is a rigorous first-derivative packet on K284's tube, not a higher
+mixed-Duffy derivative bank or a Jacobi remainder. It supplies no action-column
+value, residual, exterior gap, native K152 interval, physical state,
+source/ledger change, canon, paper or public claim.
+
+## K284 transverse size-four shape atlas (2026-09-21)
+
+K284 thickens K283's complete projective spine by six independent shape
+variables, each in `[-1/32768,1/32768]`. Directed Arb evaluation certifies all
+2,048 scale/radial cells covering `1<=t<=5/4` and `31/256<=x<=1/8` strictly
+positive. The global outward range is contained in
+`[0.1255775360161132,1.5457889480286902]`, and the maximum order-17 entry-tail
+radius is below `5.482e-11`.
+
+The zero-shape slice is exactly K283, and the complete `t=1` transverse tube is
+strictly contained in K282's fully active chart. Nine independent 300-digit
+controls are contained. The atlas propagates only to K280's 24 size-four
+occurrences; it is not the complete arbitrary-gap simplex and supplies no
+mixed-Duffy/Jacobi error, action-column value, residual, exterior gap, native
+K152 interval, physical state, source/ledger change, canon, paper or public
+claim.
+
 ## K283 size-four correlated projective-gap spine (2026-09-21)
 
 K283 joins K282's fully active face center exactly and preserves all six gaps

@@ -1,0 +1,721 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false,
+  "claim_ceiling": "Rigorous first-derivative envelopes for all six shape coordinates on the certified K284 size-four tube, propagated to the 24 size-four occurrences only; no higher mixed-Duffy derivative bank, composed Jacobi error, complete arbitrary-gap simplex, action-column value, residual, exterior gap, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_propagation": {
+    "all_24_size_four_occurrences_retain_the_same_formula": true,
+    "all_408_entries_16_groups_and_96_paths_remain_in_scope": true,
+    "new_domain_propagates_only_to_size_four_occurrences_whose_normalized_gap_tuple_lies_in_the_declared_tube": true,
+    "size_four_pattern_occurrences": 24
+  },
+  "created": "2026-09-21",
+  "decision": {
+    "all_six_first_shape_derivative_envelopes_serialized": true,
+    "complete_transverse_tube_retained": true,
+    "determinant_preserving_jacobi_error_serialized": false,
+    "higher_mixed_duffy_derivatives_serialized": false,
+    "next_exact_input": "lift the same Hermite--Genocchi/cofactor rule to the finite mixed derivative orders required by the selected Duffy--Jacobi rule, then integrate the resulting remainder only on the K284 tube"
+  },
+  "derivative_identity": {
+    "composition_rule": "abs(d(N det A)) <= abs(dN) abs(det A) + abs(N) sum_ij abs(cofactor_ij) abs(dA_ij)",
+    "determinant_rule": "sum complete signed cofactors times entry derivatives before absolute bounding",
+    "entry_rule": "differentiate the Hermite--Genocchi simplex average; one participating node inserts a barycentric weight in [0,1] and one additional completely-monotone kernel derivative",
+    "exact_shape_coordinates": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "normalization_rule": "differentiate the complete sixteen-factor positive Cauchy normalization product"
+  },
+  "direction": "observed_to_native",
+  "first_shape_gradient_packet": {
+    "all_bounds_finite_positive": true,
+    "cells": [
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1405.7786069433268,
+          "c1": 1362.0769763510966,
+          "c2": 1068.7992683459775,
+          "r0": 1405.6413247707108,
+          "r1": 1362.4738095726445,
+          "r2": 1070.354390997772
+        },
+        "maximum_entry_tail": 5.238703234304398e-12,
+        "radial_subcells": 64,
+        "scale_cell": 0,
+        "t_bounds": [
+          "1/1",
+          "129/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1405.6414798143544,
+          "c1": 1361.983870154596,
+          "c2": 1068.8150562344276,
+          "r0": 1405.5033722362348,
+          "r1": 1362.383006366733,
+          "r2": 1070.3805852323335
+        },
+        "maximum_entry_tail": 5.698376821392926e-12,
+        "radial_subcells": 64,
+        "scale_cell": 1,
+        "t_bounds": [
+          "129/128",
+          "65/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1405.5048037083986,
+          "c1": 1361.8911363446823,
+          "c2": 1068.831119195375,
+          "r0": 1405.3658738750355,
+          "r1": 1362.2925709151357,
+          "r2": 1070.407042171683
+        },
+        "maximum_entry_tail": 6.194430118096789e-12,
+        "radial_subcells": 64,
+        "scale_cell": 2,
+        "t_bounds": [
+          "65/64",
+          "131/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1405.3684743497565,
+          "c1": 1361.7986797584017,
+          "c2": 1068.8473732421164,
+          "r0": 1405.2287256506786,
+          "r1": 1362.2024066137026,
+          "r2": 1070.4336803374254
+        },
+        "maximum_entry_tail": 6.729434198517876e-12,
+        "radial_subcells": 64,
+        "scale_cell": 3,
+        "t_bounds": [
+          "131/128",
+          "33/32"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1405.2324904635307,
+          "c1": 1361.706499391314,
+          "c2": 1068.8638197007333,
+          "r0": 1405.091926152185,
+          "r1": 1362.1125127988253,
+          "r2": 1070.4604987918897
+        },
+        "maximum_entry_tail": 7.306120404742158e-12,
+        "radial_subcells": 64,
+        "scale_cell": 4,
+        "t_bounds": [
+          "33/32",
+          "133/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1405.0971285545465,
+          "c1": 1361.6148514124163,
+          "c2": 1068.8806726804085,
+          "r0": 1404.9557517141575,
+          "r1": 1362.023145034547,
+          "r2": 1070.487709789325
+        },
+        "maximum_entry_tail": 7.927389021292849e-12,
+        "radial_subcells": 64,
+        "scale_cell": 5,
+        "t_bounds": [
+          "133/128",
+          "67/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.9620676350837,
+          "c1": 1361.5234374619793,
+          "c2": 1068.897683351832,
+          "r0": 1404.8198815757644,
+          "r1": 1361.9340054030502,
+          "r2": 1070.5150682577996
+        },
+        "maximum_entry_tail": 8.596318348949588e-12,
+        "radial_subcells": 64,
+        "scale_cell": 6,
+        "t_bounds": [
+          "67/64",
+          "135/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.8273794097329,
+          "c1": 1361.43232572441,
+          "c2": 1068.9149071482827,
+          "r0": 1404.6843873012142,
+          "r1": 1361.8451633794423,
+          "r2": 1070.5426309548413
+        },
+        "maximum_entry_tail": 9.316174193139965e-12,
+        "radial_subcells": 64,
+        "scale_cell": 7,
+        "t_bounds": [
+          "135/128",
+          "17/16"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.6932142891246,
+          "c1": 1361.3416523162405,
+          "c2": 1068.9324571391533,
+          "r0": 1404.5494193090196,
+          "r1": 1361.7567553161168,
+          "r2": 1070.5705108136156
+        },
+        "maximum_entry_tail": 1.0090419782569476e-11,
+        "radial_subcells": 64,
+        "scale_cell": 8,
+        "t_bounds": [
+          "17/16",
+          "137/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.5594010344298,
+          "c1": 1361.251262785461,
+          "c2": 1068.9502094500515,
+          "r0": 1404.4148063914433,
+          "r1": 1361.6686231301908,
+          "r2": 1070.5985774594724
+        },
+        "maximum_entry_tail": 1.092272613422599e-11,
+        "radial_subcells": 64,
+        "scale_cell": 9,
+        "t_bounds": [
+          "137/128",
+          "69/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.4260049217148,
+          "c1": 1361.1612175798625,
+          "c2": 1068.9682098137841,
+          "r0": 1404.2806137839937,
+          "r1": 1361.580829521336,
+          "r2": 1070.6268796871357
+        },
+        "maximum_entry_tail": 1.181698288137544e-11,
+        "radial_subcells": 64,
+        "scale_cell": 10,
+        "t_bounds": [
+          "69/64",
+          "139/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.2930676610529,
+          "c1": 1361.0715518104287,
+          "c2": 1068.9864876188165,
+          "r0": 1404.1468831512893,
+          "r1": 1361.493410977264,
+          "r2": 1070.6554540847435
+        },
+        "maximum_entry_tail": 1.2777309581656677e-11,
+        "radial_subcells": 64,
+        "scale_cell": 11,
+        "t_bounds": [
+          "139/128",
+          "35/32"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.1605358868487,
+          "c1": 1360.9822189535541,
+          "c2": 1069.0050084671543,
+          "r0": 1404.0135610997575,
+          "r1": 1361.4063189095368,
+          "r2": 1070.6842527968117
+        },
+        "maximum_entry_tail": 1.3808067522885405e-11,
+        "radial_subcells": 64,
+        "scale_cell": 12,
+        "t_bounds": [
+          "35/32",
+          "141/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1404.028274361125,
+          "c1": 1360.8930940169937,
+          "c2": 1069.0236620547964,
+          "r0": 1403.8805126325522,
+          "r1": 1361.3194307455253,
+          "r2": 1070.7131815684254
+        },
+        "maximum_entry_tail": 1.491387204469021e-11,
+        "radial_subcells": 64,
+        "scale_cell": 13,
+        "t_bounds": [
+          "141/128",
+          "71/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1403.896543587456,
+          "c1": 1360.8044153096794,
+          "c2": 1069.0426522483544,
+          "r0": 1403.7479978945212,
+          "r1": 1361.2329827827164,
+          "r2": 1070.7424315590752
+        },
+        "maximum_entry_tail": 1.6099605394627752e-11,
+        "radial_subcells": 64,
+        "scale_cell": 14,
+        "t_bounds": [
+          "71/64",
+          "143/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1403.7651413841231,
+          "c1": 1360.716001874205,
+          "c2": 1069.0618247963055,
+          "r0": 1403.6158149164462,
+          "r1": 1361.1467932478818,
+          "r2": 1070.771853104653
+        },
+        "maximum_entry_tail": 1.737043013795968e-11,
+        "radial_subcells": 64,
+        "scale_cell": 15,
+        "t_bounds": [
+          "143/128",
+          "9/8"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1403.634266987226,
+          "c1": 1360.6280323999315,
+          "c2": 1069.0813327732567,
+          "r0": 1403.4841627700932,
+          "r1": 1361.0610429785606,
+          "r2": 1070.8015982875886
+        },
+        "maximum_entry_tail": 1.8731803140820643e-11,
+        "radial_subcells": 64,
+        "scale_cell": 16,
+        "t_bounds": [
+          "9/8",
+          "145/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1403.503725294073,
+          "c1": 1360.540328635522,
+          "c2": 1069.1010230282745,
+          "r0": 1403.352846408024,
+          "r1": 1360.9755528353537,
+          "r2": 1070.8315156048864
+        },
+        "maximum_entry_tail": 2.0189490147065304e-11,
+        "radial_subcells": 64,
+        "scale_cell": 17,
+        "t_bounds": [
+          "145/128",
+          "73/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1403.3735805344133,
+          "c1": 1360.4529493978396,
+          "c2": 1069.1209466640207,
+          "r0": 1403.2219301387627,
+          "r1": 1360.8903824508934,
+          "r2": 1070.8616558481408
+        },
+        "maximum_entry_tail": 2.1749580969652507e-11,
+        "radial_subcells": 64,
+        "scale_cell": 18,
+        "t_bounds": [
+          "73/64",
+          "147/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1403.2439135230795,
+          "c1": 1360.3659698059319,
+          "c2": 1069.1411670175362,
+          "r0": 1403.091494586978,
+          "r1": 1360.805606070982,
+          "r2": 1070.8920823448557
+        },
+        "maximum_entry_tail": 2.341850531800692e-11,
+        "radial_subcells": 64,
+        "scale_cell": 19,
+        "t_bounds": [
+          "147/128",
+          "37/32"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1403.1145669775983,
+          "c1": 1360.2792468841055,
+          "c2": 1069.1615634175296,
+          "r0": 1402.9613826644306,
+          "r1": 1360.721079588486,
+          "r2": 1070.9226714195831
+        },
+        "maximum_entry_tail": 2.5203049283392792e-11,
+        "radial_subcells": 64,
+        "scale_cell": 20,
+        "t_bounds": [
+          "37/32",
+          "149/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.9856236205335,
+          "c1": 1360.1928534967417,
+          "c2": 1069.1821993824608,
+          "r0": 1402.8316769885969,
+          "r1": 1360.6368779951465,
+          "r2": 1070.9534900564265
+        },
+        "maximum_entry_tail": 2.711037250494109e-11,
+        "radial_subcells": 64,
+        "scale_cell": 21,
+        "t_bounds": [
+          "149/128",
+          "75/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.8572009359893,
+          "c1": 1360.1069004749393,
+          "c2": 1069.203163208449,
+          "r0": 1402.7024948352275,
+          "r1": 1360.5531108679997,
+          "r2": 1070.9846266298277
+        },
+        "maximum_entry_tail": 2.914802603959018e-11,
+        "radial_subcells": 64,
+        "scale_cell": 22,
+        "t_bounds": [
+          "75/64",
+          "151/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.7291157685543,
+          "c1": 1360.0212176498474,
+          "c2": 1069.224317057795,
+          "r0": 1402.5736533584866,
+          "r1": 1360.4696103144752,
+          "r2": 1071.0159434215107
+        },
+        "maximum_entry_tail": 3.1323970959831896e-11,
+        "radial_subcells": 64,
+        "scale_cell": 23,
+        "t_bounds": [
+          "151/128",
+          "19/16"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.6014319163842,
+          "c1": 1359.935865632222,
+          "c2": 1069.2457112260734,
+          "r0": 1402.445216204968,
+          "r1": 1360.3864314716632,
+          "r2": 1071.0474840679565
+        },
+        "maximum_entry_tail": 3.364659770379928e-11,
+        "radial_subcells": 64,
+        "scale_cell": 24,
+        "t_bounds": [
+          "19/16",
+          "153/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.4740898061525,
+          "c1": 1359.8507878373791,
+          "c2": 1069.2672933424767,
+          "r0": 1402.3171238413338,
+          "r1": 1360.3035260837278,
+          "r2": 1071.0792088779565
+        },
+        "maximum_entry_tail": 3.6124746202889555e-11,
+        "radial_subcells": 64,
+        "scale_cell": 25,
+        "t_bounds": [
+          "153/128",
+          "77/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.347308836629,
+          "c1": 1359.7661874330865,
+          "c2": 1069.289239106673,
+          "r0": 1402.1895954826011,
+          "r1": 1360.221090376563,
+          "r2": 1071.11128354038
+        },
+        "maximum_entry_tail": 3.87677268127863e-11,
+        "radial_subcells": 64,
+        "scale_cell": 26,
+        "t_bounds": [
+          "77/64",
+          "155/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.220715091936,
+          "c1": 1359.6817204073302,
+          "c2": 1069.3112604325524,
+          "r0": 1402.062257467314,
+          "r1": 1360.1387820285443,
+          "r2": 1071.1434220893614
+        },
+        "maximum_entry_tail": 4.158534207442872e-11,
+        "radial_subcells": 64,
+        "scale_cell": 27,
+        "t_bounds": [
+          "155/128",
+          "39/32"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1402.0947284635627,
+          "c1": 1359.5977730258005,
+          "c2": 1069.3336766093676,
+          "r0": 1401.9355294194647,
+          "r1": 1360.0569896360953,
+          "r2": 1071.1759471496116
+        },
+        "maximum_entry_tail": 4.4587909332173005e-11,
+        "radial_subcells": 64,
+        "scale_cell": 28,
+        "t_bounds": [
+          "39/32",
+          "157/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1401.9689053790976,
+          "c1": 1359.513937555958,
+          "c2": 1069.3561516499776,
+          "r0": 1401.8089680616745,
+          "r1": 1359.9753022836833,
+          "r2": 1071.2085172615923
+        },
+        "maximum_entry_tail": 4.7786284237101627e-11,
+        "radial_subcells": 64,
+        "scale_cell": 29,
+        "t_bounds": [
+          "157/128",
+          "79/64"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1401.843592960979,
+          "c1": 1359.4305330534273,
+          "c2": 1069.3789456056552,
+          "r0": 1401.6829202208185,
+          "r1": 1359.8940410872638,
+          "r2": 1071.2413979297412
+        },
+        "maximum_entry_tail": 5.119188516416121e-11,
+        "radial_subcells": 64,
+        "scale_cell": 30,
+        "t_bounds": [
+          "79/64",
+          "159/128"
+        ]
+      },
+      {
+        "coordinate_derivative_abs_upper": {
+          "c0": 1401.718782604957,
+          "c1": 1359.3475513625456,
+          "c2": 1069.4020590610867,
+          "r0": 1401.5573773036092,
+          "r1": 1359.8131967457045,
+          "r2": 1071.2745852839005
+        },
+        "maximum_entry_tail": 5.4816718572548225e-11,
+        "radial_subcells": 64,
+        "scale_cell": 31,
+        "t_bounds": [
+          "159/128",
+          "5/4"
+        ]
+      }
+    ],
+    "coordinate_count": 6,
+    "global_coordinate_derivative_abs_upper": {
+      "c0": 1405.7786069433268,
+      "c1": 1362.0769763510966,
+      "c2": 1069.4020590610867,
+      "r0": 1405.6413247707108,
+      "r1": 1362.4738095726445,
+      "r2": 1071.2745852839005
+    },
+    "global_l1_gradient_abs_upper": 7676.647361982766,
+    "maximum_entry_tail": 5.4816718572548225e-11,
+    "radial_cells_per_scale_cell": 64,
+    "scale_cells": 32,
+    "total_cells": 2048
+  },
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "gram_entries": 408,
+    "groups": 16,
+    "occurrences": 996,
+    "patterns": 98,
+    "predecessor_manifest": "lab/process/k284-order-seven-transverse-shape-atlas.json",
+    "projective_scale_range": "1/1<=t<=5/4",
+    "radial_cell": "31/256<=x<=1/8",
+    "threads": 1,
+    "transverse_shape_radius": "1/32768"
+  },
+  "independent_controls": {
+    "all_contained": true,
+    "precision_decimal_digits": 300,
+    "rows": [
+      {
+        "absolute_slope": "5.391563074565457220874671423000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "r0",
+        "scale": "1/1"
+      },
+      {
+        "absolute_slope": "5.390067856009471345771190861000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "r1",
+        "scale": "1/1"
+      },
+      {
+        "absolute_slope": "5.389329927825215894610715486000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "r2",
+        "scale": "1/1"
+      },
+      {
+        "absolute_slope": "5.391227061416609563474709264000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "c0",
+        "scale": "1/1"
+      },
+      {
+        "absolute_slope": "5.390033364516244688125452098000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "c1",
+        "scale": "1/1"
+      },
+      {
+        "absolute_slope": "5.389442717836409485293851941000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "c2",
+        "scale": "1/1"
+      },
+      {
+        "absolute_slope": "5.395094431441556017347951781000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "r0",
+        "scale": "5/4"
+      },
+      {
+        "absolute_slope": "5.393226254060138973629995798000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "r1",
+        "scale": "5/4"
+      },
+      {
+        "absolute_slope": "5.392307124784404232164211090000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "r2",
+        "scale": "5/4"
+      },
+      {
+        "absolute_slope": "5.394674772003374453118075761000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "c0",
+        "scale": "5/4"
+      },
+      {
+        "absolute_slope": "5.393184020304527060627350638000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "c1",
+        "scale": "5/4"
+      },
+      {
+        "absolute_slope": "5.392448229532395066179216680000E-2",
+        "central_difference_step": "1/262144",
+        "contained_in_global_bound": true,
+        "coordinate": "c2",
+        "scale": "5/4"
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "all_six_first_shape_derivative_envelopes_serialized": true,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "complete_arbitrary_gap_ratio_domain_covered": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_signed_cofactor_structure_retained_before_absolute_bound": true,
+    "determinant_preserving_jacobi_error_serialized": false,
+    "higher_mixed_duffy_derivative_envelopes_serialized": false,
+    "k284_transverse_ordered_shape_tube_retained": true,
+    "native_K152_interval_emitted": false
+  },
+  "result_id": "K285-ORDER-SEVEN-MIXED-SHAPE-DERIVATIVE-PACKET",
+  "schema_version": "1.0"
+}

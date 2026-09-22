@@ -20,6 +20,26 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K285 FIRST SHAPE-GRADIENT PACKET.** All six first derivatives
+> of the complete K284 determinant chart now have rigorous finite envelopes on
+> all 2,048 transverse-tube cells. Exact normalization derivatives,
+> Hermite--Genocchi node derivatives and completed determinant cofactors give a
+> global L1 gradient upper below `7676.65`; twelve independent 300-digit
+> central-difference controls are contained. Next build the higher mixed-Duffy
+> derivative bank needed for the determinant-preserving Jacobi remainder. This
+> first-order packet is not that remainder and supplies no action-column value
+> or native K152 interval. See
+> `explorations/conditional-build/k285-order-seven-mixed-shape-derivative-packet-2026-09-21.md`.
+
+> **2026-09-21 K284 TRANSVERSE SIZE-FOUR SHAPE ATLAS.** K283's complete
+> projective spine is now thickened by six independent shape variables of
+> radius `1/32768`. All 2,048 scale/radial cells remain directed positive, with
+> global lower greater than `0.1255`. The zero-shape slice equals K283 exactly;
+> at `t=1` the whole tube lies strictly inside K282's chart. The result applies
+> to all 24 size-four occurrences but is not the complete arbitrary-gap
+> simplex. See
+> `explorations/conditional-build/k284-order-seven-transverse-shape-atlas-2026-09-21.md`.
+
 > **2026-09-21 K283 CORRELATED SIZE-FOUR PROJECTIVE SPINE.** The fully active
 > K282 chart now extends along the common ordered gap ray from `t=1` through
 > `t=5/4`. All 1,536 scale/radial cells are directed positive, with global
