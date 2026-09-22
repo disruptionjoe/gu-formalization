@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7e9a4ace03e979e02f6bb3efa7c4f0e5bfae144c
+revision_basis: f15fb60506b317da5bdafede6cdbac03fa203884
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K301 corrects the terminal native split boundary. Every one of the 24
+    size-three companions contains the (8,8) entry with argument
+    x*(y*(1-u3)+(1-y)*(1-z3)), which has no positive lower bound on the full
+    split cube. K290's uniform pointwise derivative bank and the K291/K293
+    numerical remainders that consume it are therefore superseded. The exact
+    K288/K289 census and K292 disjoint atlas survive. K300's projective and
+    old-kernel face results survive, but its complete-boundary conclusion had
+    omitted the internal split faces.
+
+    K302 repairs that gap for K299's positive rule. After multiplication by
+    the exact quadratic y Peano kernel, the terminal Bessel entry has uniform
+    integrated derivative bounds B0<1/x, B1<1/4+2/x, and B2<3*x/8+6/x over
+    the full split cube. The terminal entry is worst and every other entry
+    adds nonnegative support, so all 24 occurrences are covered. The positive
+    route remains viable; the six complete coherent directional norms and
+    their q,x scaling remain the next gate before any K294 gamma join.
+
     K299 constructs the exact positive one-node Duffy rule on the K294
     five-simplex times endpoint interval. The node is the projective
     barycenter p_i=1/6 with y=1/2 and weight 1/120. Its tensor Peano identity
@@ -98,14 +115,12 @@ current_result:
     K292 replaces K284's overlapping continuously t-centered boxes by an
     exact almost-everywhere disjoint native atlas: one six-dimensional start
     box and six swept advancing faces with exact Jacobians b_k. The total
-    native dr dc volume is 2021/96714065569170333976494080. K293 composes
-    K291's complete four-group fourth-derivative ceiling across all seven
-    strata. Its complete K284 interior-tube x,y,u,z-integrated tensor-
-    quadrature remainder is below 1.4757389273e-60. The remaining domain gate
-    is radial/projective exterior coverage; this is not an action-column
-    value or complete residual.
+    native dr dc volume is 2021/96714065569170333976494080. The historical
+    K293 composition over those seven strata is superseded by K301 because it
+    consumes K291's invalid uniform terminal split ceiling. K292's atlas and
+    exact volume remain available for a corrected future composition.
 
-    K291 composes K290 with K284/K286 through the complete fourth-order
+    The now-superseded K291 computation composes K290 with K284/K286 through the complete fourth-order
     product rule, retaining each coherent six-entry group before global
     absolute enclosure. The complete four-group fourth-derivative upper is
     1.1249973182e-15; the positive two-node tensor rule gives normalized local
@@ -113,7 +128,7 @@ current_result:
     below 4.379047263e-63. K284's t-centered boxes overlap in native r,c
     coordinates, so this is not yet a complete native tube integral.
 
-    K290 supplies finite componentwise mixed shape-derivative envelopes
+    The now-superseded K290 computation supplies finite componentwise mixed shape-derivative envelopes
     through order four for the complete native rest factor in all 24 K288
     occurrences. It pairs y(1-y) with the two old-position K1 kernels before
     bounding their split corners, retains the size-four Cauchy skeleton and
@@ -9163,13 +9178,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K299/K300 prove that a single positive barycentric Duffy rule bypasses
+  K299/K300/K302 prove that a single positive barycentric Duffy rule bypasses
   K298's fourth-order logarithm: its exact tensor Peano remainder uses six
   second directional derivatives, and the worst terminal integrability margin
-  is two. Construct a determinant-preserving interval enclosure for those six
+  is two after the omitted terminal split face is controlled by K302's
+  weighted bounds. Construct a determinant-preserving interval enclosure for those six
   complete coherent Peano norms over the full projective/q domain at fixed x,
   then derive their explicit q and x scaling. Only a finite numerical bound
-  may be joined to K294's low/middle/high gamma strata and K292/K293. Preserve
+  may be joined to K294's low/middle/high gamma strata and K292's surviving
+  disjoint atlas in a new corrected remainder. Preserve
   all four ordered coherent groups, split variables and the native projective
   weight. Analytic subtraction remains a fallback, not a required parallel
   route. Do not infer an exterior action-column value, complete residual or

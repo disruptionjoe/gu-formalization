@@ -64,7 +64,13 @@ def check(payload: dict[str, Any]) -> list[str]:
         failures.append("x_width")
     if not result.get("complete_k284_interior_tube_serialized") or result.get("radial_or_projective_exterior_serialized"):
         failures.append("scope")
-    if "no radial/projective exterior bound" not in payload.get("claim_ceiling", ""):
+    correction = payload.get("correction", {})
+    if (
+        "Superseded numerical complete-tube remainder" not in payload.get("claim_ceiling", "")
+        or correction.get("id") != "K290-SPLIT-BOUNDARY-20260922"
+        or correction.get("status") != "superseded"
+        or payload.get("decision", {}).get("numerical_remainder_valid") is not False
+    ):
         failures.append("claim_ceiling")
     return failures
 

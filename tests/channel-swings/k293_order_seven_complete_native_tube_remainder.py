@@ -90,6 +90,8 @@ def build() -> dict[str, Any]:
             "radial_or_projective_exterior_serialized": False,
         },
         "decision": {
+            "numerical_remainder_valid": False,
+            "correction": "Superseded because K291 inherits K290's invalid uniform companion bound; see K301/K302.",
             "interior_geometry_blocker_closed": True,
             "complete_native_tube_remainder_serialized": True,
             "action_column_ready": False,
@@ -105,7 +107,13 @@ def build() -> dict[str, Any]:
             "native_K152_interval_emitted": False,
         },
         "ledger_effect": k291["ledger_effect"],
-        "claim_ceiling": "Rigorous complete native-density-weighted two-node tensor remainder ceiling over the disjoint K284 interior tube, uniform in y,u,z and integrated over the K284 x cell; no radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+        "correction": {
+            "id": "K290-SPLIT-BOUNDARY-20260922",
+            "status": "superseded",
+            "reason": "The inherited K291/K290 pointwise derivative ceiling is invalid at the terminal native split face.",
+            "replacement": "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+        },
+        "claim_ceiling": "Superseded numerical complete-tube remainder retained for history only; K301 invalidates its K291/K290 uniform input. The exact K292 disjoint atlas survives, while K302 supplies only the replacement weighted split jet.",
     }
 
 

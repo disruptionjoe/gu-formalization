@@ -10,6 +10,23 @@
 # This registry is the propagation ledger, not the correction text. The prose banners in the owning
 # files remain the human-facing record.
 corrections:
+  - id: K290-SPLIT-BOUNDARY-20260922
+    owner: explorations/conditional-build/k301-order-seven-terminal-split-boundary-correction-2026-09-22.md
+    meaning: >-
+      K290's uniform pointwise companion derivative bank is invalid because
+      every occurrence contains the terminal (8,8) Bessel argument, which can
+      vanish on the native split cube. K291 and K293 numerical remainders are
+      superseded. K302 supplies the valid Peano-weighted y-jet through order
+      two, but does not reinstate those numerical bounds or close the six
+      coherent derivative norms and radial gamma join.
+    canonical_since: "2026-09-22"
+    topic_signature:
+      - K290
+      - K291
+      - K293
+      - terminal split boundary
+      - Peano-weighted jet
+    enforce: false
   - id: V15-1
     owner: canon/antilinear-bound-RESULTS.md
     meaning: >-

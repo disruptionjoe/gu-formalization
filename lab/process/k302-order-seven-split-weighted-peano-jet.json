@@ -1,0 +1,88 @@
+{
+  "bessel_jet_inequalities": {
+    "inputs": [
+      "K0(w)<=K1(w)",
+      "w^nu*K_nu(w)<=2^(nu-1)*(nu-1)! for integer nu>=1",
+      "all absolute derivative signs follow complete monotonicity of K1"
+    ],
+    "order_0": "2*K1(w)<=2/w",
+    "order_1_recurrence": "abs((2*K1)'(w))=K0(w)+K2(w)<=1/w+2/w^2",
+    "order_2_recurrence": "(2*K1)''(w)=(3*K1(w)+K3(w))/2<=3/(2*w)+4/w^3"
+  },
+  "claim_ceiling": "Exact Peano-kernel-weighted split-integrated bounds through y-derivative order two for the worst terminal (8,8) companion Bessel entry in every K288 occurrence: B0<1/x, B1<1/4+2/x and B2<3x/8+6/x. This repairs K301's pointwise split-boundary defect for the K299 y-axis method without reinstating K290's uniform pointwise bank or K291/K293's numerical remainders. Determinant/coherent composition, the other five Peano norms, q/x integration, K294 gamma join, exterior action-column value, residual, K152 interval, source/ledger move, canon, paper, public and physical claims remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_split_face_transfer": {
+    "all_24_occurrences_covered": true,
+    "k300_projective_face_result_composed": true,
+    "monotonicity": "K1 and its alternating absolute derivatives decrease when nonnegative support is added",
+    "pointwise_uniform_bound_required": false,
+    "terminal_split_face_peano_weighted_integrable": true,
+    "worst_entry": "the (8,8) companion entry; every other companion entry adds nonnegative cumulative-time support"
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "complete_six_coherent_norms_computed": false,
+    "k290_uniform_pointwise_bank_reinstated": false,
+    "k291_k293_numerical_remainders_reinstated": false,
+    "k301_pointwise_defect_repaired_for_y_peano_jet": true,
+    "next_exact_input": "compose B0/B1/B2 with the complete companion determinant cofactors, old kernels, common size-four determinant, native density and q/x integration for the y Peano term; then enclose the five Duffy-gap terms with the K296 face factors",
+    "positive_peano_route_retained": true
+  },
+  "direction": "observed_to_native",
+  "exact_split_integrals": {
+    "I(A,B)": "[3/2+1/(2*A^2)-2/A-log(A)]/B^3 for A+B=1",
+    "I0": "integral_[0,1]^2 da db/(y*a+(1-y)*b)=-log(y)/(1-y)-log(1-y)/y",
+    "J2": "integral_[0,1]^2 2*(a-b)^2/(y*a+(1-y)*b)^3 da db=2*(I(y,1-y)+I(1-y,y))",
+    "endpoint_behavior": "K(y)*I0(y)->0 and K(y)*J2(y)->1/2 as y->0 or 1",
+    "midpoint_control": "K(1/2)*J2(1/2)=4*log(2)-2<4/5"
+  },
+  "fixed_control": {
+    "maximum_y_derivative_order": 2,
+    "native_domain": "x>0; y,a,b in [0,1]",
+    "peano_kernel": "K(y)=y^2/2 for y<=1/2 and (1-y)^2/2 for y>=1/2",
+    "predecessor_manifests": [
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k301-order-seven-terminal-split-boundary-correction.json"
+    ],
+    "terminal_argument": "w=x*z with z=y*a+(1-y)*b, a=1-u3, b=1-z3"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_three_terminal_jet_orders_bounded": true,
+    "complete_exterior_integrand_bound_emitted": false,
+    "native_K152_interval_emitted": false,
+    "no_split_cutoff": true,
+    "pointwise_unboundedness_not_misreported_as_divergence": true,
+    "radial_gamma_join_emitted": false
+  },
+  "result_id": "K302-ORDER-SEVEN-SPLIT-WEIGHTED-PEANO-JET",
+  "schema_version": "1.0",
+  "universal_weighted_bounds": {
+    "B0": {
+      "strict": true,
+      "upper": "1/x"
+    },
+    "B1": {
+      "strict": true,
+      "upper": "1/4+2/x"
+    },
+    "B2": {
+      "strict": true,
+      "upper": "3*x/8+6/x"
+    },
+    "definition": "B_m(x)=integral_0^1 K(y) integral_[0,1]^2 abs(d_y^m[2*K1(x*(y*a+(1-y)*b))]) da db dy",
+    "proof_partition": {
+      "K_over_z": "with m=min(y,1-y), z>=m*(a+b) and K=m^2/2, K/z<=1/[4*(a+b)]",
+      "elementary_integral": "integral_[0,1]^2 da db/(a+b)=2*log(2)<2",
+      "first_derivative_terms": "K*abs(a-b)/z<=1/4 and K*abs(a-b)/z^2<=1/[2*(a+b)]",
+      "second_derivative_cubic_term": "K*J2<=3 by symmetry and the y<=1/2 split: y^2*I(y,1-y)<=1 and y^2*I(1-y,y)<=2",
+      "second_derivative_linear_term": "K*(a-b)^2/z<=m*(a+b)/2<= (a+b)/4"
+    }
+  }
+}

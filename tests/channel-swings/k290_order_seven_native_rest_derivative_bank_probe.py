@@ -79,7 +79,14 @@ def check(payload: dict[str, Any]) -> list[str]:
     if payload.get("factorization", {}).get("common_factor_excluded") != "K284/K286 size-four regularizer R4":
         failures.append("factor_boundary")
     ceiling = payload.get("claim_ceiling", "")
-    if "No composed native interior remainder" not in ceiling or release.get("native_weighted_interior_remainder_serialized"):
+    correction = payload.get("correction", {})
+    if (
+        "Superseded pointwise derivative bank" not in ceiling
+        or correction.get("id") != "K290-SPLIT-BOUNDARY-20260922"
+        or correction.get("status") != "superseded"
+        or payload.get("decision", {}).get("uniform_pointwise_companion_bank_valid") is not False
+        or release.get("native_weighted_interior_remainder_serialized")
+    ):
         failures.append("claim_ceiling")
     return failures
 

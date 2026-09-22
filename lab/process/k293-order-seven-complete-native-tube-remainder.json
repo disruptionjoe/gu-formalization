@@ -1,5 +1,5 @@
 {
-  "claim_ceiling": "Rigorous complete native-density-weighted two-node tensor remainder ceiling over the disjoint K284 interior tube, uniform in y,u,z and integrated over the K284 x cell; no radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "claim_ceiling": "Superseded numerical complete-tube remainder retained for history only; K301 invalidates its K291/K290 uniform input. The exact K292 disjoint atlas survives, while K302 supplies only the replacement weighted split jet.",
   "classification": "INTERNAL_STRUCTURAL_ONLY",
   "complete_native_tube_remainder": {
     "complete_k284_interior_tube_serialized": true,
@@ -9,12 +9,20 @@
     "swept_faces_contribution": "3.7666812928871321072266886937090178949055571479509500676491679982616151016553904982181764449569727482014513953E-58",
     "x_y_u_z_integrated_abs_upper": "1.4757389272960420388478818938103829875641424372901206435985974881582081115814111303705420642095654484559722845E-60"
   },
+  "correction": {
+    "id": "K290-SPLIT-BOUNDARY-20260922",
+    "reason": "The inherited K291/K290 pointwise derivative ceiling is invalid at the terminal native split face.",
+    "replacement": "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+    "status": "superseded"
+  },
   "created": "2026-09-21",
   "decision": {
     "action_column_ready": false,
     "complete_native_tube_remainder_serialized": true,
+    "correction": "Superseded because K291 inherits K290's invalid uniform companion bound; see K301/K302.",
     "interior_geometry_blocker_closed": true,
-    "next_exact_input": "construct a radial/projective exterior atlas and compatible complete-integrand bounds before joining the interior result to an action-column enclosure"
+    "next_exact_input": "construct a radial/projective exterior atlas and compatible complete-integrand bounds before joining the interior result to an action-column enclosure",
+    "numerical_remainder_valid": false
   },
   "direction": "observed_to_native",
   "fixed_control": {

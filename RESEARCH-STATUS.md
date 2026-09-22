@@ -2,11 +2,29 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-21"
+updated_at: "2026-09-22"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-09-22 — K301/K302 terminal split correction and weighted repair
+
+Every order-seven size-three companion contains the terminal `(8,8)` entry,
+whose argument `x*(y*(1-u3)+(1-y)*(1-z3))` can vanish on the native split
+cube. K290's uniform pointwise companion bank and the K291/K293 numerical
+remainders that inherit it are superseded. K288/K289's exact census and
+K292's disjoint atlas survive. K300's projective and old-kernel face analysis
+also survives, but its complete-boundary conclusion omitted these split faces.
+
+K302 composes the terminal entry with K299's quadratic `y` Peano kernel and
+proves complete split-cube bounds `B0<1/x`, `B1<1/4+2/x`, and
+`B2<3*x/8+6/x`. Every other companion entry adds nonnegative support, so the
+repair covers all 24 occurrences. The positive second-derivative route remains
+open. The next gate is a numerical enclosure of the six complete coherent
+directional norms and their `q,x` scaling before a K294 radial gamma join.
+No exterior value, action-column value, residual, K152 interval, source,
+ledger, canon, paper, or public-posture move follows.
 
 ## 2026-09-21 — K280 order-seven Bessel Cauchy--Vandermonde face atlas
 

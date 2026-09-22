@@ -20,6 +20,18 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K301/K302 TERMINAL SPLIT CORRECTION AND REPAIR.** Every K288
+> companion contains a terminal `(8,8)` argument that can vanish on the full
+> native split cube. This supersedes K290's uniform pointwise bank and the
+> K291/K293 numerical remainders. K302 proves that K299's quadratic `y` Peano
+> kernel absorbs the defect through derivative order two, with bounds
+> `B0<1/x`, `B1<1/4+2/x`, and `B2<3*x/8+6/x` for all 24 occurrences. Next
+> enclose the six complete coherent Peano norms, including determinant and
+> product derivatives, then expose their `q,x` scaling before any K294 gamma
+> join. See
+> `explorations/conditional-build/k301-order-seven-terminal-split-boundary-correction-2026-09-22.md`
+> and `explorations/conditional-build/k302-order-seven-split-weighted-peano-jet-2026-09-22.md`.
+
 > **2026-09-22 K299/K300 POSITIVE ANGULAR PEANO ROUTE.** The exact Duffy
 > tensor rule samples the K294 simplex barycenter and `y=1/2` with positive
 > weight `1/120`. Its Peano remainder needs only six second directional
@@ -69,7 +81,7 @@ updated_at: "2026-09-22"
 > See `explorations/conditional-build/k294-order-seven-global-radial-simplex-atlas-2026-09-21.md`
 > and `explorations/conditional-build/k295-order-seven-exterior-integrability-boundary-2026-09-21.md`.
 
-> **2026-09-21 K292/K293 COMPLETE INTERIOR-TUBE REMAINDER.** The overlapping
+> **2026-09-21 K292/K293 COMPLETE INTERIOR-TUBE REMAINDER — SUPERSEDED NUMERICAL BOUND.** The overlapping
 > K284 boxes now have an exact a.e.-disjoint native atlas: one start box and
 > six swept faces with their `b_k` Jacobians. Its exact `dr dc` volume is
 > `2021/96714065569170333976494080`. Composing K291 over all seven strata gives
@@ -79,7 +91,7 @@ updated_at: "2026-09-22"
 > `explorations/conditional-build/k292-order-seven-disjoint-native-tube-atlas-2026-09-21.md`
 > and `explorations/conditional-build/k293-order-seven-complete-native-tube-remainder-2026-09-21.md`.
 
-> **2026-09-21 K291 NATIVE INTERIOR REMAINDER.** Complete fourth-order
+> **2026-09-21 K291 NATIVE INTERIOR REMAINDER — SUPERSEDED.** Complete fourth-order
 > product composition of K284/K286 with K290 gives a four-group local
 > native-density shape-average error below `2.168399176e-35`, or
 > `4.379047263e-63` after one shape-box volume and the full x-width. K284's
@@ -88,7 +100,7 @@ updated_at: "2026-09-22"
 > and sharpen the dominant old-kernel corner if needed, before exterior work.
 > See `explorations/conditional-build/k291-order-seven-native-interior-remainder-2026-09-21.md`.
 
-> **2026-09-21 K290 NATIVE REST DERIVATIVE BANK.** All 24 K288 occurrences
+> **2026-09-21 K290 NATIVE REST DERIVATIVE BANK — SUPERSEDED.** All 24 K288 occurrences
 > now have finite native-rest shape bounds through order four. The proof pairs
 > `y(1-y)` with the two old kernels before the split endpoints, retains both
 > determinant factors and all labelled product assignments, and keeps each

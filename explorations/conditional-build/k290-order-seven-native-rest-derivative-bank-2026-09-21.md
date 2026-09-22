@@ -3,7 +3,7 @@ title: "K290 Order-Seven Native Rest Derivative Bank"
 document_role: active_research
 operational_state: internal_structural_result
 date: "2026-09-21"
-claim_ceiling: "Rigorous fourth-order shape-derivative bank for the complete native rest factor on the K284 tube; no composed native tube integral, exterior bound, action-column value, residual, K152 interval, or physical claim."
+claim_ceiling: "SUPERSEDED: K301 invalidates the uniform terminal split-cube premise; retained as historical local computation only."
 manifest: lab/process/k290-order-seven-native-rest-derivative-bank.json
 producer: tests/channel-swings/k290_order_seven_native_rest_derivative_bank.py
 probe: tests/channel-swings/k290_order_seven_native_rest_derivative_bank_probe.py
@@ -13,6 +13,12 @@ canon_verdict_change: none
 ---
 
 # K290 Order-Seven Native Rest Derivative Bank
+
+> **CORRECTION K290-SPLIT-BOUNDARY-20260922.** Every companion contains the
+> terminal `(8,8)` entry with argument
+> `x*(y*(1-u3)+(1-y)*(1-z3))`, which has no positive lower bound on the native
+> split cube. The uniform pointwise bank and downstream K291/K293 numerical
+> remainders are superseded. See K301 and the K302 Peano-weighted repair.
 
 ## GU-COMPARATOR-ROUTING
 

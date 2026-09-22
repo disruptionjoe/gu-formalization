@@ -3,7 +3,7 @@ title: "K291 Order-Seven Native Interior Remainder"
 document_role: active_research
 operational_state: internal_structural_result
 date: "2026-09-21"
-claim_ceiling: "Native-density-weighted two-node tensor remainder for one K284 transverse shape box, uniform in x,y,u,z; no disjoint native tube integral, exterior bound, action-column value, residual, K152 interval, or physical claim."
+claim_ceiling: "SUPERSEDED: inherited K290 uniform split-cube bound is invalid; retained for historical computation only."
 manifest: lab/process/k291-order-seven-native-interior-remainder.json
 producer: tests/channel-swings/k291_order_seven_native_interior_remainder.py
 probe: tests/channel-swings/k291_order_seven_native_interior_remainder_probe.py
@@ -13,6 +13,11 @@ canon_verdict_change: none
 ---
 
 # K291 Order-Seven Native Interior Remainder
+
+> **CORRECTION K290-SPLIT-BOUNDARY-20260922.** This numerical remainder is
+> superseded because its K290 derivative ceiling is not uniform at the native
+> terminal split face. K302 repairs the second-order Peano-weighted split jet
+> but does not reinstate this fourth-order number.
 
 ## GU-COMPARATOR-ROUTING
 

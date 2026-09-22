@@ -1,5 +1,5 @@
 {
-  "claim_ceiling": "Rigorous native-density-weighted two-node tensor remainder ceiling for one K284 transverse shape box, uniform in x,y,u,z and summed only after each of the four coherent six-entry groups is enclosed. No disjoint native tube integral, radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "claim_ceiling": "Superseded numerical local remainder retained for history only; K301 invalidates its K290 uniform input. K302 repairs the Peano-weighted split jet but does not reinstate this fourth-order two-node number.",
   "classification": "INTERNAL_STRUCTURAL_ONLY",
   "coherent_group_composition": [
     {
@@ -63,12 +63,20 @@
     "native_density_location": "K290 G already includes (2*pi)^-9 exp(-256*x*L) x^15 y(1-y) product(r_i c_i)",
     "positive_tensor_telescope": "six times the normalized one-axis two-node Gauss-Legendre remainder h^4*M4/270"
   },
+  "correction": {
+    "id": "K290-SPLIT-BOUNDARY-20260922",
+    "reason": "The inherited K290 pointwise derivative ceiling is invalid at the terminal native split face.",
+    "replacement": "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+    "status": "superseded"
+  },
   "created": "2026-09-21",
   "decision": {
     "action_column_ready": false,
     "complete_native_tube_remainder_serialized": false,
+    "correction": "Superseded because the K290 pointwise companion derivative bank is not uniform on the native split cube; see K301/K302.",
     "native_density_weighted_local_shape_remainder_serialized": true,
-    "next_exact_input": "construct a disjoint native dr dc atlas for the K284 union and replace the dominant endpoint/product majorant by a split-corner weighted rule before radial or projective-gap exterior composition"
+    "next_exact_input": "construct a disjoint native dr dc atlas for the K284 union and replace the dominant endpoint/product majorant by a split-corner weighted rule before radial or projective-gap exterior composition",
+    "numerical_remainder_valid": false
   },
   "direction": "observed_to_native",
   "dominance": {

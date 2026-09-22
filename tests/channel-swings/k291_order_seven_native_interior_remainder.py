@@ -114,6 +114,8 @@ def build() -> dict[str, Any]:
             "reason": "K287 integrates only R4 against a normalized uniform shape measure, while K291 bounds the complete density-weighted coherent integrand pointwise in x,y,u,z.",
         },
         "decision": {
+            "numerical_remainder_valid": False,
+            "correction": "Superseded because the K290 pointwise companion derivative bank is not uniform on the native split cube; see K301/K302.",
             "native_density_weighted_local_shape_remainder_serialized": True,
             "complete_native_tube_remainder_serialized": False,
             "action_column_ready": False,
@@ -130,7 +132,13 @@ def build() -> dict[str, Any]:
             "native_K152_interval_emitted": False,
         },
         "ledger_effect": k290["ledger_effect"],
-        "claim_ceiling": "Rigorous native-density-weighted two-node tensor remainder ceiling for one K284 transverse shape box, uniform in x,y,u,z and summed only after each of the four coherent six-entry groups is enclosed. No disjoint native tube integral, radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+        "correction": {
+            "id": "K290-SPLIT-BOUNDARY-20260922",
+            "status": "superseded",
+            "reason": "The inherited K290 pointwise derivative ceiling is invalid at the terminal native split face.",
+            "replacement": "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+        },
+        "claim_ceiling": "Superseded numerical local remainder retained for history only; K301 invalidates its K290 uniform input. K302 repairs the Peano-weighted split jet but does not reinstate this fourth-order two-node number.",
     }
 
 

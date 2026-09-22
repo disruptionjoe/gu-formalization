@@ -1,0 +1,326 @@
+{
+  "claim_ceiling": "Exact correction of the K290 internal-split boundary premise: every K288 size-three companion contains an unbounded terminal (8,8) Bessel entry, so K290's uniform pointwise companion bank and the K291/K293 numerical remainders that consume it are superseded. Their exact occurrence/dependency and K292 disjoint-atlas results survive. The positive K299 route is not killed; its split-weighted integrability and complete coherent norms remain separate. No gamma join, action-column value, residual, K152 interval, source/ledger move, canon, paper, public or physical claim is established.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "coherent_non_cancellation_control": {
+    "interpretation": "the coherent old-position signs do not identically cancel the terminal companion entry",
+    "matrix_determinant": "1/1800",
+    "strictly_positive": true,
+    "terminal_entry_coefficient": "7/1800",
+    "times": [
+      "4",
+      "2",
+      "1"
+    ]
+  },
+  "companion_census": {
+    "all_24_contain_terminal_8_8_entry": true,
+    "k289_dependency_rows_replayed": true,
+    "pattern_histogram": {
+      "L2,4,8|R2,4,8": 4,
+      "L2,6,8|R2,4,8": 4,
+      "L2,6,8|R2,6,8": 4,
+      "L4,6,8|R2,4,8": 4,
+      "L4,6,8|R2,6,8": 4,
+      "L4,6,8|R4,6,8": 4
+    },
+    "rows": [
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R4,6,8",
+        "right_old_position": 2
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left_old_position": 6,
+        "pattern": "L2,4,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R4,6,8",
+        "right_old_position": 2
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left_old_position": 6,
+        "pattern": "L2,4,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R4,6,8",
+        "right_old_position": 2
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left_old_position": 6,
+        "pattern": "L2,4,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R4,6,8",
+        "right_old_position": 2
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left_old_position": 2,
+        "pattern": "L4,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,6,8",
+        "right_old_position": 4
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left_old_position": 4,
+        "pattern": "L2,6,8|R2,4,8",
+        "right_old_position": 6
+      },
+      {
+        "contains_left_position_8": true,
+        "contains_right_position_8": true,
+        "contains_terminal_8_8_entry": true,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left_old_position": 6,
+        "pattern": "L2,4,8|R2,4,8",
+        "right_old_position": 6
+      }
+    ]
+  },
+  "correction": {
+    "k290": {
+      "superseded": "uniform pointwise companion determinant value/derivative ceilings on the full y,u,z cube",
+      "survives": [
+        "occurrence census",
+        "factor typing",
+        "endpoint-safe old-kernel method on its proved inputs"
+      ]
+    },
+    "k291": {
+      "predecessor_value": "1.12499731817072988156726950861696302824E-15",
+      "superseded": "numerical native-density local remainder ceiling because it consumes K290's invalid uniform companion bank",
+      "survives": [
+        "formal product-rule composition"
+      ]
+    },
+    "k293": {
+      "predecessor_value": "1.4757389272960420388478818938103829875641424372901206435985974881582081115814111303705420642095654484559722845E-60",
+      "superseded": "numerical complete native tube remainder because it consumes the K291 ceiling",
+      "survives": [
+        "K292 disjoint tube atlas and exact volume composition"
+      ]
+    },
+    "k300": {
+      "gap": "the claimed complete boundary cover omitted internal split faces; K302 must supply their Peano-weighted audit",
+      "predecessor_qualitative_claim": true,
+      "survives": "K296/K297 projective and old-kernel face audit"
+    }
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "next_exact_input": "derive split-integrated order-zero through order-two terminal Bessel jet bounds with the K299 y Peano kernel, then compose them with determinant cofactors and the remaining q/x factors",
+    "positive_peano_route_globally_killed": false,
+    "reason": "pointwise unboundedness does not decide the Peano-kernel-weighted split integral",
+    "uniform_pointwise_companion_bank_rejected": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "companion_patterns": 6,
+    "native_split_variables": [
+      "u3",
+      "z3"
+    ],
+    "occurrences": 24,
+    "predecessor_manifests": [
+      "lab/process/k288-order-seven-native-occurrence-measure.json",
+      "lab/process/k289-order-seven-common-primitive-composition-boundary.json",
+      "lab/process/k290-order-seven-native-rest-derivative-bank.json",
+      "lab/process/k291-order-seven-native-interior-remainder.json",
+      "lab/process/k293-order-seven-complete-native-tube-remainder.json",
+      "lab/process/k300-order-seven-angular-method-selection.json"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_24_occurrences_replayed": true,
+    "all_six_patterns_replayed": true,
+    "artificial_positive_split_floor_introduced": false,
+    "every_pattern_contains_8_8": true,
+    "exact_nonzero_coherent_control": true,
+    "native_K152_interval_emitted": false,
+    "radial_gamma_join_emitted": false,
+    "six_complete_coherent_norms_emitted": false
+  },
+  "result_id": "K301-ORDER-SEVEN-TERMINAL-SPLIT-BOUNDARY-CORRECTION",
+  "schema_version": "1.0",
+  "terminal_split_face": {
+    "admitted_approach": "u3=z3=1-epsilon with fixed x>0 and 0<y<1, followed by epsilon->0+",
+    "assumed_floor_is_valid": false,
+    "k290_assumed_entry_floor": "31/256",
+    "kernel_asymptotic": "2*K1(w)~2/w as w->0+",
+    "pointwise_consequence": "the (8,8) companion entry is unbounded on the full native split cube",
+    "primitive_identity": "s8=x*y*(1-u3); v8=x*(1-y)*(1-z3)",
+    "terminal_argument": "s8+v8=x*(y*(1-u3)+(1-y)*(1-z3))"
+  }
+}

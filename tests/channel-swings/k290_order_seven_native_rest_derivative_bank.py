@@ -315,6 +315,8 @@ def build() -> dict[str, Any]:
         "coherent_group_bank": groups,
         "independent_controls": endpoint_controls(bank),
         "decision": {
+            "uniform_pointwise_companion_bank_valid": False,
+            "correction": "K301 proves that every companion contains the terminal (8,8) entry whose native split argument can vanish; these pointwise bounds are superseded by K302's Peano-weighted split jet.",
             "complete_sixteen_variable_rest_factor_typed": True,
             "shape_derivatives_through_order_four_serialized": True,
             "all_four_coherent_group_sums_retained_before_absolute_enclosure": True,
@@ -332,7 +334,13 @@ def build() -> dict[str, Any]:
             "native_K152_interval_emitted": False,
         },
         "ledger_effect": k288["ledger_effect"],
-        "claim_ceiling": "Rigorous componentwise shape-derivative envelopes through order four for the complete native rest factor of all 24 order-seven size-four occurrences on the K284 tube, with four coherent six-entry groups retained before absolute enclosure. No composed native interior remainder, tube volume, radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+        "correction": {
+            "id": "K290-SPLIT-BOUNDARY-20260922",
+            "status": "superseded",
+            "reason": "The companion (8,8) argument x*(y*(1-u3)+(1-y)*(1-z3)) has no positive lower bound on the native split cube.",
+            "replacement": "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+        },
+        "claim_ceiling": "Superseded pointwise derivative bank retained as a local historical computation only. K301 invalidates its uniform native split-cube transfer; K302 supplies the valid Peano-weighted terminal split jet. No native remainder or downstream action-column claim follows from K290.",
     }
 
 

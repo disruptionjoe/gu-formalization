@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K301/K302 terminal split correction and weighted repair
+
+- `channel-swings/k301_order_seven_terminal_split_boundary_correction.py`
+  proves every companion contains the vanishing terminal `(8,8)` split entry,
+  supersedes K290/K291/K293, and preserves the valid exact predecessor pieces;
+  its independent probe rejects six hostile mutations.
+- `channel-swings/k302_order_seven_split_weighted_peano_jet.py` proves the
+  Peano-weighted terminal Bessel jet finite through `y`-derivative order two
+  over the full split cube; its independent probe rejects seven hostile
+  mutations without claiming the six complete coherent numerical norms.
+
 ## K299/K300 positive angular Peano route
 
 - `channel-swings/k299_order_seven_positive_peano_simplex_rule.py` derives

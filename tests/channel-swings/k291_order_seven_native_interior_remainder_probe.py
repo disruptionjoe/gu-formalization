@@ -67,7 +67,13 @@ def check(payload: dict[str, Any]) -> list[str]:
     release = payload.get("release_test", {})
     if not release.get("native_density_included") or release.get("disjoint_native_tube_atlas_serialized"):
         failures.append("release_scope")
-    if "No disjoint native tube integral" not in payload.get("claim_ceiling", ""):
+    correction = payload.get("correction", {})
+    if (
+        "Superseded numerical local remainder" not in payload.get("claim_ceiling", "")
+        or correction.get("id") != "K290-SPLIT-BOUNDARY-20260922"
+        or correction.get("status") != "superseded"
+        or payload.get("decision", {}).get("numerical_remainder_valid") is not False
+    ):
         failures.append("claim_ceiling")
     return failures
 

@@ -14,6 +14,11 @@ canon_verdict_change: none
 
 # K300 Order-Seven Angular Method Selection
 
+> **EXTENSION K290-SPLIT-BOUNDARY-20260922.** The projective and old-kernel
+> face audit below survives, but its complete-boundary conclusion omitted the
+> internal terminal split face. K301 records the defect; K302 proves that the
+> K299 `y` Peano kernel supplies a finite split-weighted jet through order two.
+
 ## GU-COMPARATOR-ROUTING
 
 This is an `INTERNAL_STRUCTURAL_ONLY` result about the repository-supplied

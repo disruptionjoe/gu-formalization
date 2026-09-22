@@ -7,6 +7,23 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K301/K302 terminal split correction and weighted repair (2026-09-22)
+
+K301 replays all 24 K288 occurrences and proves that every companion contains
+the terminal `(8,8)` entry. Its Bessel argument can vanish on the full native
+split cube, invalidating K290's uniform pointwise bank and superseding the
+K291/K293 numerical remainders. An exact rational coherent control has
+nonzero terminal coefficient `7/1800`, so the defect is not an identity-level
+sign cancellation. K288/K289 and K292 remain valid.
+
+K302 integrates the terminal entry against K299's exact quadratic `y` Peano
+kernel. Exact split integrals and integer-order Bessel bounds give
+`B0<1/x`, `B1<1/4+2/x`, and `B2<3*x/8+6/x`. Monotonicity transfers the worst
+terminal-entry estimate to all 24 occurrences. The probes pass 10/10 checks
+each and reject 6/6 and 7/7 hostile mutations. This repairs split-face
+integrability only; it does not reinstate K290/K291/K293 or produce the six
+complete coherent numerical norms.
+
 ## K299/K300 positive angular Peano route (2026-09-22)
 
 K299 maps the K294 five-simplex to an ordered Duffy cube and derives the exact
@@ -15,11 +32,12 @@ positive one-node rule at `p=(1/6,...,1/6)`, `y=1/2`, with angular weight
 telescoping requires only six pure second directional derivatives. The native
 projective factor stays inside the integrand.
 
-K300 transfers those six terms through all K296 faces and K297 endpoint
+K300 transfers those six terms through all K296 projective faces and K297 endpoint
 corners. The worst pure projective-face order-two margin is `1`; the endpoint
 margins at old positions two, four and six are `14`, `7` and `2`. Thus
 K298's fourth-order logarithm is bypassed and
-the qualitative global angular remainder is finite. The positive route is
+the projective/old-kernel part of the angular remainder is finite. K302 is
+required for the omitted internal split faces. The positive route is
 selected over analytic subtraction, which would require at least eight
 coefficient/cutoff sectors and a fourth-derivative overlap proof. No numerical
 global derivative norm or K294 radial gamma join is claimed. The probes pass
@@ -81,7 +99,7 @@ Independent probes replay both results and reject eight and nine hostile
 mutations respectively. A cancellation-preserving coalescent-face derivative
 packet remains open.
 
-## K292/K293 complete native interior-tube remainder (2026-09-21)
+## K292 atlas and superseded K293 remainder (2026-09-21; corrected 2026-09-22)
 
 K292 proves an exact a.e.-disjoint parameterization of K284's native union by
 one start box and six swept advancing faces. Each face retains its exact
@@ -89,34 +107,38 @@ native Jacobian `b_k`; the seven exact rational volumes sum to
 `2021/96714065569170333976494080`. Measure-zero ties are assigned by a stated
 lowest-index rule.
 
-K293 applies K291's uniform complete-integrand fourth-derivative ceiling to
+Historically, K293 applied K291's uniform complete-integrand fourth-derivative ceiling to
 the six free shape axes of the start box and five free axes of every swept
 face. The scale coordinate is integrated against the supremum rather than
 quadratured. The complete K284 interior-tube x,y,u,z-integrated remainder is
-below `1.4757389273e-60`. Independent probes replay both identities and reject
+below `1.4757389273e-60`. K301 supersedes that numerical bound because the
+inherited K290 terminal split premise is invalid. Independent probes still
+replay the historical arithmetic and reject
 eight and nine hostile mutations respectively. No radial/projective exterior,
 action-column value, complete residual or native K152 interval is proved.
 
-## K291 native-density local interior remainder (2026-09-21)
+## Superseded K291 native-density local interior remainder (2026-09-21; corrected 2026-09-22)
 
-K291 applies the full fourth-order product rule to K284/K286's common
+Historically, K291 applied the full fourth-order product rule to K284/K286's common
 size-four regularizer and K290's four coherent rest-factor groups. The complete
 four-group derivative upper is `1.1249973182e-15`; the positive six-axis
 two-node rule gives normalized local error below `2.168399176e-35` and one-box
-x-integrated error below `4.379047263e-63`.
+x-integrated error below `4.379047263e-63`. K301 supersedes that numerical
+bound because the inherited K290 terminal split premise is invalid.
 
 This is one t-centered shape-box result. K284 does not define a disjoint native
 `dr dc` atlas for its overlapping t-centered union, so K291 is not a complete
 tube remainder, exterior bound, action-column value or native K152 interval.
 
-## K290 native rest-factor derivative bank (2026-09-21)
+## Superseded K290 native rest-factor derivative bank (2026-09-21; corrected 2026-09-22)
 
-K290 bounds the native density, size-four Cauchy skeleton, complete companion
+Historically, K290 bounded the native density, size-four Cauchy skeleton, complete companion
 size-three Bessel determinant and both endpoint-paired old kernels through
 total shape order four. The endpoint proof uses the exact integer-order Bessel
 derivative recurrence and a homogeneous `y,a` maximum, so all `y,u,z` corners
-remain in scope. All 24 occurrences and four coherent six-entry groups are
-retained.
+were asserted to remain in scope. K301 proves the terminal `(8,8)` argument
+has no positive lower bound on that cube, so the uniform bank is superseded.
+All 24 occurrence and four coherent-group census facts remain valid.
 
 The conservative raw fourth-order factor upper is largest for the right old-
 kernel piece. This identifies the first sharpening target but is not a lower
