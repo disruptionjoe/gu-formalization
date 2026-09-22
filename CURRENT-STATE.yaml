@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7065801012f50ead10d13e7039d2447bef4ace4c
+revision_basis: 4cb13aaa04189e4cb90551bed9596ebb7799f85a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K292 replaces K284's overlapping continuously t-centered boxes by an
+    exact almost-everywhere disjoint native atlas: one six-dimensional start
+    box and six swept advancing faces with exact Jacobians b_k. The total
+    native dr dc volume is 2021/96714065569170333976494080. K293 composes
+    K291's complete four-group fourth-derivative ceiling across all seven
+    strata. Its complete K284 interior-tube x,y,u,z-integrated tensor-
+    quadrature remainder is below 1.4757389273e-60. The remaining domain gate
+    is radial/projective exterior coverage; this is not an action-column
+    value or complete residual.
+
     K291 composes K290 with K284/K286 through the complete fourth-order
     product rule, retaining each coherent six-entry group before global
     absolute enclosure. The complete four-group fourth-derivative upper is
@@ -9093,15 +9103,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K290 bounds the complete sixteen-variable native rest factor through fourth
-  shape order, and K291 composes it with K284/K286 into a finite, very small
-  local native-density remainder. The remaining interior-measure gate is
-  geometric: construct a disjoint native dr dc atlas or exact multiplicity
-  rule for the overlapping t-centered K284 boxes, and split the y/u/z endpoint
-  corners enough to replace the dominant old-kernel majorant if composition
-  requires it. Then sum the interior tube and separate radial from projective-
-  gap exterior domains. Preserve all four coherent groups and do not promote
-  the one-box 4.3791e-63 ceiling to a complete tube or action-column error.
+  K292 closes the overlapping-box geometry with an exact a.e.-disjoint native
+  atlas, and K293 certifies the complete K284 interior-tube tensor-quadrature
+  remainder below 1.4757389273e-60 after the x width. Construct the radial and
+  projective-gap exterior atlas next, with compatible complete-integrand
+  bounds and explicit joins to the K292 tube. Preserve all four coherent
+  groups and do not promote the interior remainder to an action-column value,
+  complete residual or arbitrary-gap theorem.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9344,13 +9352,11 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K290 as the rigorous native rest-factor derivative bank and K291 as a
-  local native-density remainder only. The next admissible gate is a disjoint
-  native dr dc atlas or exact overlap multiplicity for the K284 t-centered
-  union, with a weighted y/u/z corner split targeted at the right old-kernel
-  majorant. Recompose K291 on that native partition before separating radial
-  and projective-gap exteriors. K291 supplies no complete tube integral,
-  action-column value, residual, exterior gap or native K152 interval.
+  Treat K292 as the exact a.e.-disjoint native atlas for the K284 tube and K293
+  as its complete native-density tensor-quadrature remainder. The next
+  admissible gate is a radial/projective exterior atlas with complete-
+  integrand bounds and proved joins to K292. K293 supplies no exterior bound,
+  action-column value, complete residual or native K152 interval.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

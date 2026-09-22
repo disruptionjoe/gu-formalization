@@ -1,0 +1,214 @@
+{
+  "canonical_partition": {
+    "coverage_proof": "For every g in U outside the start box, t_*(g)>1, t_*<=5/4, at least one coordinate satisfies g_k=b_k*t_*+h, and every other coordinate has g_j=b_j*t_*+eta_j with |eta_j|<=h.",
+    "disjointness_proof": "The canonical smallest-maximizer rule assigns exactly one swept face off the measure-zero tie set; the start box is disjoint from all open swept strata.",
+    "start_box": "t=1 and |g_i-b_i|<=h for every i",
+    "swept_rule": "outside the start box, set t_*(g)=max_i((g_i-h)/b_i); assign the smallest coordinate index attaining t_*",
+    "tie_statement": "Multiple maximizers lie on codimension-one intersections and have native six-volume zero; the priority rule makes the serialization single-valued."
+  },
+  "claim_ceiling": "Exact almost-everywhere disjoint native dr dc atlas and volume for the K284 projective tube only; no radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-21",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coordinates": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "projective_gap_ray": {
+      "c0": "1/40",
+      "c1": "1/80",
+      "c2": "1/160",
+      "r0": "1/32",
+      "r1": "1/64",
+      "r2": "1/128"
+    },
+    "projective_scale_range": [
+      "1/1",
+      "5/4"
+    ],
+    "source_manifest": "lab/process/k284-order-seven-transverse-shape-atlas.json",
+    "transverse_shape_radius": "1/32768"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_six_advancing_faces_serialized": true,
+    "almost_everywhere_disjoint_native_atlas_serialized": true,
+    "complete_base_action_column_evaluated": false,
+    "complete_k284_tube_covered": true,
+    "native_K152_interval_emitted": false,
+    "native_jacobian_retained_on_every_face": true,
+    "radial_or_projective_exterior_covered": false
+  },
+  "result_id": "K292-ORDER-SEVEN-DISJOINT-NATIVE-TUBE-ATLAS",
+  "schema_version": "1.0",
+  "strata": {
+    "start_box": {
+      "center_scale": "1/1",
+      "exact_native_volume": "1/19342813113834066795298816",
+      "free_shape_coordinates": [
+        "r0",
+        "r1",
+        "r2",
+        "c0",
+        "c1",
+        "c2"
+      ],
+      "native_jacobian": "1/1",
+      "stratum_id": "start-box"
+    },
+    "swept_faces": [
+      {
+        "advancing_coordinate": "r0",
+        "exact_native_volume": "1/151115727451828646838272",
+        "free_shape_coordinates": [
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "native_jacobian": "1/32",
+        "parameterization": {
+          "c0": "1/40*t+eta_c0",
+          "c1": "1/80*t+eta_c1",
+          "c2": "1/160*t+eta_c2",
+          "r0": "1/32*t+1/32768",
+          "r1": "1/64*t+eta_r1",
+          "r2": "1/128*t+eta_r2"
+        },
+        "stratum_id": "sweep-r0",
+        "tie_priority": 0
+      },
+      {
+        "advancing_coordinate": "r1",
+        "exact_native_volume": "1/302231454903657293676544",
+        "free_shape_coordinates": [
+          "r0",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "native_jacobian": "1/64",
+        "parameterization": {
+          "c0": "1/40*t+eta_c0",
+          "c1": "1/80*t+eta_c1",
+          "c2": "1/160*t+eta_c2",
+          "r0": "1/32*t+eta_r0",
+          "r1": "1/64*t+1/32768",
+          "r2": "1/128*t+eta_r2"
+        },
+        "stratum_id": "sweep-r1",
+        "tie_priority": 1
+      },
+      {
+        "advancing_coordinate": "r2",
+        "exact_native_volume": "1/604462909807314587353088",
+        "free_shape_coordinates": [
+          "r0",
+          "r1",
+          "c0",
+          "c1",
+          "c2"
+        ],
+        "native_jacobian": "1/128",
+        "parameterization": {
+          "c0": "1/40*t+eta_c0",
+          "c1": "1/80*t+eta_c1",
+          "c2": "1/160*t+eta_c2",
+          "r0": "1/32*t+eta_r0",
+          "r1": "1/64*t+eta_r1",
+          "r2": "1/128*t+1/32768"
+        },
+        "stratum_id": "sweep-r2",
+        "tie_priority": 2
+      },
+      {
+        "advancing_coordinate": "c0",
+        "exact_native_volume": "1/188894659314785808547840",
+        "free_shape_coordinates": [
+          "r0",
+          "r1",
+          "r2",
+          "c1",
+          "c2"
+        ],
+        "native_jacobian": "1/40",
+        "parameterization": {
+          "c0": "1/40*t+1/32768",
+          "c1": "1/80*t+eta_c1",
+          "c2": "1/160*t+eta_c2",
+          "r0": "1/32*t+eta_r0",
+          "r1": "1/64*t+eta_r1",
+          "r2": "1/128*t+eta_r2"
+        },
+        "stratum_id": "sweep-c0",
+        "tie_priority": 3
+      },
+      {
+        "advancing_coordinate": "c1",
+        "exact_native_volume": "1/377789318629571617095680",
+        "free_shape_coordinates": [
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c2"
+        ],
+        "native_jacobian": "1/80",
+        "parameterization": {
+          "c0": "1/40*t+eta_c0",
+          "c1": "1/80*t+1/32768",
+          "c2": "1/160*t+eta_c2",
+          "r0": "1/32*t+eta_r0",
+          "r1": "1/64*t+eta_r1",
+          "r2": "1/128*t+eta_r2"
+        },
+        "stratum_id": "sweep-c1",
+        "tie_priority": 4
+      },
+      {
+        "advancing_coordinate": "c2",
+        "exact_native_volume": "1/755578637259143234191360",
+        "free_shape_coordinates": [
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1"
+        ],
+        "native_jacobian": "1/160",
+        "parameterization": {
+          "c0": "1/40*t+eta_c0",
+          "c1": "1/80*t+eta_c1",
+          "c2": "1/160*t+1/32768",
+          "r0": "1/32*t+eta_r0",
+          "r1": "1/64*t+eta_r1",
+          "r2": "1/128*t+eta_r2"
+        },
+        "stratum_id": "sweep-c2",
+        "tie_priority": 5
+      }
+    ]
+  },
+  "union_definition": "U={g: exists t in [1,5/4], |g_i-b_i*t|<=h for every i}",
+  "volume_identity": {
+    "exact_agreement": true,
+    "formula": "(2h)^6+(t1-t0)*(2h)^5*sum_i b_i",
+    "independent_direct_formula_value": "2021/96714065569170333976494080",
+    "start_box_volume": "1/19342813113834066795298816",
+    "swept_volume": "63/3022314549036572936765440",
+    "total_native_volume": "2021/96714065569170333976494080"
+  }
+}

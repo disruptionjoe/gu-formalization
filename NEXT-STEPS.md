@@ -20,6 +20,16 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K292/K293 COMPLETE INTERIOR-TUBE REMAINDER.** The overlapping
+> K284 boxes now have an exact a.e.-disjoint native atlas: one start box and
+> six swept faces with their `b_k` Jacobians. Its exact `dr dc` volume is
+> `2021/96714065569170333976494080`. Composing K291 over all seven strata gives
+> a complete K284 interior-tube x-integrated remainder below
+> `1.4757389273e-60`. Next construct and join the radial/projective exterior;
+> no action-column value or complete residual follows. See
+> `explorations/conditional-build/k292-order-seven-disjoint-native-tube-atlas-2026-09-21.md`
+> and `explorations/conditional-build/k293-order-seven-complete-native-tube-remainder-2026-09-21.md`.
+
 > **2026-09-21 K291 NATIVE INTERIOR REMAINDER.** Complete fourth-order
 > product composition of K284/K286 with K290 gives a four-group local
 > native-density shape-average error below `2.168399176e-35`, or

@@ -1,0 +1,109 @@
+{
+  "claim_ceiling": "Rigorous complete native-density-weighted two-node tensor remainder ceiling over the disjoint K284 interior tube, uniform in y,u,z and integrated over the K284 x cell; no radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_native_tube_remainder": {
+    "complete_k284_interior_tube_serialized": true,
+    "native_shape_integral_abs_upper": "3.7778916538778676194505776481545804481642046394627088476124095696850127656484124937485876843764875480472890483E-58",
+    "radial_or_projective_exterior_serialized": false,
+    "start_box_contribution": "1.1210360990735512223888954445562553258647491511758779963241571423397663993021995530411239419514799845837652962E-60",
+    "swept_faces_contribution": "3.7666812928871321072266886937090178949055571479509500676491679982616151016553904982181764449569727482014513953E-58",
+    "x_y_u_z_integrated_abs_upper": "1.4757389272960420388478818938103829875641424372901206435985974881582081115814111303705420642095654484559722845E-60"
+  },
+  "created": "2026-09-21",
+  "decision": {
+    "action_column_ready": false,
+    "complete_native_tube_remainder_serialized": true,
+    "interior_geometry_blocker_closed": true,
+    "next_exact_input": "construct a radial/projective exterior atlas and compatible complete-integrand bounds before joining the interior result to an action-column enclosure"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "atlas_manifest": "lab/process/k292-order-seven-disjoint-native-tube-atlas.json",
+    "complete_four_group_fourth_shape_derivative_abs_upper": "1.12499731817072988156726950861696302824E-15",
+    "derivative_manifest": "lab/process/k291-order-seven-native-interior-remainder.json",
+    "nodes_per_free_shape_axis": 2,
+    "transverse_shape_radius": "1/32768",
+    "x_interval_width": "0.00390625",
+    "y_u_z_domain_volume": "1"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_face_jacobians_included": true,
+    "all_seven_disjoint_strata_composed": true,
+    "complete_arbitrary_gap_ratio_domain_covered": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_four_group_native_density_derivative_ceiling_used": true,
+    "complete_k284_interior_tube_remainder_serialized": true,
+    "native_K152_interval_emitted": false
+  },
+  "remainder_rule": {
+    "coherent_measure_scope": "M4 already sums the four K288 coherent groups after groupwise enclosure and includes the K290 native density",
+    "one_axis_normalized_two_node_gauss_legendre": "h^4*M4/270",
+    "scale_coordinate": "t is integrated against the uniform M4 supremum; no t-quadrature error is introduced",
+    "start_box": "six-axis positive telescope times exact start-box volume",
+    "swept_faces": "five-axis positive telescope times exact face volume including b_k Jacobian"
+  },
+  "result_id": "K293-ORDER-SEVEN-COMPLETE-NATIVE-TUBE-REMAINDER",
+  "schema_version": "1.0",
+  "start_box": {
+    "free_shape_axes": 6,
+    "native_shape_integral_remainder_abs_upper": "1.1210360990735512223888954445562553258647491511758779963241571423397663993021995530411239419514799845837652962E-60",
+    "normalized_shape_remainder_abs_upper": "2.1683991758241272722469668850855700532413254203826606196040908495585123697916666666666666666666666666666666667E-35"
+  },
+  "swept_faces": [
+    {
+      "advancing_coordinate": "r0",
+      "free_shape_axes": 5,
+      "native_jacobian": "1/32",
+      "native_shape_integral_remainder_abs_upper": "1.1957718390117879705481551408600056809223990945876031960791009518290841592556795232438655380815786502226829826E-58",
+      "normalized_shape_remainder_abs_upper": "1.8069993131867727268724724042379750443677711836522171830034090412987603081597222222222222222222222222222222222E-35",
+      "stratum_id": "sweep-r0"
+    },
+    {
+      "advancing_coordinate": "r1",
+      "free_shape_axes": 5,
+      "native_jacobian": "1/64",
+      "native_shape_integral_remainder_abs_upper": "5.9788591950589398527407757043000284046119954729380159803955047591454207962783976162193276904078932511134149131E-59",
+      "normalized_shape_remainder_abs_upper": "1.8069993131867727268724724042379750443677711836522171830034090412987603081597222222222222222222222222222222222E-35",
+      "stratum_id": "sweep-r1"
+    },
+    {
+      "advancing_coordinate": "r2",
+      "free_shape_axes": 5,
+      "native_jacobian": "1/128",
+      "native_shape_integral_remainder_abs_upper": "2.9894295975294699263703878521500142023059977364690079901977523795727103981391988081096638452039466255567074565E-59",
+      "normalized_shape_remainder_abs_upper": "1.8069993131867727268724724042379750443677711836522171830034090412987603081597222222222222222222222222222222222E-35",
+      "stratum_id": "sweep-r2"
+    },
+    {
+      "advancing_coordinate": "c0",
+      "free_shape_axes": 5,
+      "native_jacobian": "1/40",
+      "native_shape_integral_remainder_abs_upper": "9.5661747120943037643852411268800454473791927567008255686328076146326732740454361859509243046526292017814638609E-59",
+      "normalized_shape_remainder_abs_upper": "1.8069993131867727268724724042379750443677711836522171830034090412987603081597222222222222222222222222222222222E-35",
+      "stratum_id": "sweep-c0"
+    },
+    {
+      "advancing_coordinate": "c1",
+      "free_shape_axes": 5,
+      "native_jacobian": "1/80",
+      "native_shape_integral_remainder_abs_upper": "4.7830873560471518821926205634400227236895963783504127843164038073163366370227180929754621523263146008907319305E-59",
+      "normalized_shape_remainder_abs_upper": "1.8069993131867727268724724042379750443677711836522171830034090412987603081597222222222222222222222222222222222E-35",
+      "stratum_id": "sweep-c1"
+    },
+    {
+      "advancing_coordinate": "c2",
+      "free_shape_axes": 5,
+      "native_jacobian": "1/160",
+      "native_shape_integral_remainder_abs_upper": "2.3915436780235759410963102817200113618447981891752063921582019036581683185113590464877310761631573004453659652E-59",
+      "normalized_shape_remainder_abs_upper": "1.8069993131867727268724724042379750443677711836522171830034090412987603081597222222222222222222222222222222222E-35",
+      "stratum_id": "sweep-c2"
+    }
+  ]
+}

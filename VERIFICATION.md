@@ -7,6 +7,22 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K292/K293 complete native interior-tube remainder (2026-09-21)
+
+K292 proves an exact a.e.-disjoint parameterization of K284's native union by
+one start box and six swept advancing faces. Each face retains its exact
+native Jacobian `b_k`; the seven exact rational volumes sum to
+`2021/96714065569170333976494080`. Measure-zero ties are assigned by a stated
+lowest-index rule.
+
+K293 applies K291's uniform complete-integrand fourth-derivative ceiling to
+the six free shape axes of the start box and five free axes of every swept
+face. The scale coordinate is integrated against the supremum rather than
+quadratured. The complete K284 interior-tube x,y,u,z-integrated remainder is
+below `1.4757389273e-60`. Independent probes replay both identities and reject
+eight and nine hostile mutations respectively. No radial/projective exterior,
+action-column value, complete residual or native K152 interval is proved.
+
 ## K291 native-density local interior remainder (2026-09-21)
 
 K291 applies the full fourth-order product rule to K284/K286's common
