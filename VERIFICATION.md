@@ -7,6 +7,24 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K299/K300 positive angular Peano route (2026-09-22)
+
+K299 maps the K294 five-simplex to an ordered Duffy cube and derives the exact
+positive one-node rule at `p=(1/6,...,1/6)`, `y=1/2`, with angular weight
+`1/120`. Each factor has a nonnegative exact Peano kernel, and tensor
+telescoping requires only six pure second directional derivatives. The native
+projective factor stays inside the integrand.
+
+K300 transfers those six terms through all K296 faces and K297 endpoint
+corners. The worst pure projective-face order-two margin is `1`; the endpoint
+margins at old positions two, four and six are `14`, `7` and `2`. Thus
+K298's fourth-order logarithm is bypassed and
+the qualitative global angular remainder is finite. The positive route is
+selected over analytic subtraction, which would require at least eight
+coefficient/cutoff sectors and a fourth-derivative overlap proof. No numerical
+global derivative norm or K294 radial gamma join is claimed. The probes pass
+10/10 and 14/14 checks and reject 10/10 and 13/13 hostile mutations.
+
 ## K298 coherent terminal-corner obstruction (2026-09-22)
 
 K298 restores all nine ordered old-position entries in every K288 coherent

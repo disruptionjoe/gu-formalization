@@ -1,0 +1,267 @@
+{
+  "claim_ceiling": "Exact positive one-node Duffy cubature and tensor Peano remainder for the K294 five-simplex times y interval, with the complete native projective weight retained inside the integrand. The rule samples the simplex barycenter and y=1/2 with weight 1/120 and requires only six pure second directional derivatives. Face integrability, a numerical global derivative norm, radial gamma composition, exterior action-column value, residual, native K152 interval, source/ledger move, canon, paper or public claim are not established here.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "constant_integral": "1/120",
+    "sum_p_squared_error": "1/1008",
+    "sum_p_squared_integral": "1/420",
+    "sum_p_squared_rule_value": "1/720",
+    "y_squared_error": "1/1440",
+    "y_squared_rule_value": "1/480",
+    "y_squared_times_simplex_integral": "1/360"
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "complete_global_derivative_norm_computed": false,
+    "face_integrability_proved": false,
+    "k298_fourth_derivative_route_reused": false,
+    "next_exact_input": "push the six exact tensor Peano terms through the complete K296/K297 face atlas, keeping y last, and compare the resulting global second-directional-derivative norm obligation with analytic terminal subtraction",
+    "positive_rule_actual_maximum_derivative_order": 2,
+    "positive_rule_requires_at_most_third_derivatives": true,
+    "radial_gamma_composition_released": false
+  },
+  "direction": "observed_to_native",
+  "duffy_chart": {
+    "a.e._bijection": true,
+    "definition": "p_j=t_j*product_{i<j}(1-t_i) for j<5; p_5=product_{i<5}(1-t_i)",
+    "factor_exponents": [
+      4,
+      3,
+      2,
+      1,
+      0
+    ],
+    "inverse_order": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "jacobian": "product_{j=0}^4 (1-t_j)^(4-j)",
+    "measure_zero_tie_boundary": "ordinary Duffy cube boundary"
+  },
+  "fixed_control": {
+    "angular_dimension_with_y": 6,
+    "gap_order": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "maximum_derivative_order": 2,
+    "native_projective_weight_kept_inside_integrand": true,
+    "predecessor_manifests": [
+      "lab/process/k294-order-seven-global-radial-simplex-atlas.json",
+      "lab/process/k298-order-seven-coherent-terminal-corner-obstruction.json"
+    ],
+    "simplex_dimension": 5
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "one_dimensional_factors": [
+    {
+      "axis": "t0",
+      "gap_order": [
+        "r0",
+        "r1",
+        "r2",
+        "c0",
+        "c1",
+        "c2"
+      ],
+      "maximum_derivative_order": 2,
+      "peano_kernel": {
+        "endpoint_zero_orders": {
+          "s=0": 2,
+          "s=1": 6
+        },
+        "for_s_ge_mean": "(1-s)^6/(5*6)",
+        "for_s_le_mean": "(1-s)^6/(5*6)-(1/5)*(1/6-s)",
+        "integral": "1/504",
+        "nonnegative": true
+      },
+      "weight": "(1-t)^4",
+      "weight_exponent": 4,
+      "weight_integral": "1/5",
+      "weighted_mean": "1/6"
+    },
+    {
+      "axis": "t1",
+      "gap_order": [
+        "r0",
+        "r1",
+        "r2",
+        "c0",
+        "c1",
+        "c2"
+      ],
+      "maximum_derivative_order": 2,
+      "peano_kernel": {
+        "endpoint_zero_orders": {
+          "s=0": 2,
+          "s=1": 5
+        },
+        "for_s_ge_mean": "(1-s)^5/(4*5)",
+        "for_s_le_mean": "(1-s)^5/(4*5)-(1/4)*(1/5-s)",
+        "integral": "1/300",
+        "nonnegative": true
+      },
+      "weight": "(1-t)^3",
+      "weight_exponent": 3,
+      "weight_integral": "1/4",
+      "weighted_mean": "1/5"
+    },
+    {
+      "axis": "t2",
+      "gap_order": [
+        "r0",
+        "r1",
+        "r2",
+        "c0",
+        "c1",
+        "c2"
+      ],
+      "maximum_derivative_order": 2,
+      "peano_kernel": {
+        "endpoint_zero_orders": {
+          "s=0": 2,
+          "s=1": 4
+        },
+        "for_s_ge_mean": "(1-s)^4/(3*4)",
+        "for_s_le_mean": "(1-s)^4/(3*4)-(1/3)*(1/4-s)",
+        "integral": "1/160",
+        "nonnegative": true
+      },
+      "weight": "(1-t)^2",
+      "weight_exponent": 2,
+      "weight_integral": "1/3",
+      "weighted_mean": "1/4"
+    },
+    {
+      "axis": "t3",
+      "gap_order": [
+        "r0",
+        "r1",
+        "r2",
+        "c0",
+        "c1",
+        "c2"
+      ],
+      "maximum_derivative_order": 2,
+      "peano_kernel": {
+        "endpoint_zero_orders": {
+          "s=0": 2,
+          "s=1": 3
+        },
+        "for_s_ge_mean": "(1-s)^3/(2*3)",
+        "for_s_le_mean": "(1-s)^3/(2*3)-(1/2)*(1/3-s)",
+        "integral": "1/72",
+        "nonnegative": true
+      },
+      "weight": "(1-t)^1",
+      "weight_exponent": 1,
+      "weight_integral": "1/2",
+      "weighted_mean": "1/3"
+    },
+    {
+      "axis": "t4",
+      "gap_order": [
+        "r0",
+        "r1",
+        "r2",
+        "c0",
+        "c1",
+        "c2"
+      ],
+      "maximum_derivative_order": 2,
+      "peano_kernel": {
+        "endpoint_zero_orders": {
+          "s=0": 2,
+          "s=1": 2
+        },
+        "for_s_ge_mean": "(1-s)^2/(1*2)",
+        "for_s_le_mean": "(1-s)^2/(1*2)-(1/1)*(1/2-s)",
+        "integral": "1/24",
+        "nonnegative": true
+      },
+      "weight": "(1-t)^0",
+      "weight_exponent": 0,
+      "weight_integral": "1",
+      "weighted_mean": "1/2"
+    },
+    {
+      "axis": "y",
+      "gap_order": [
+        "r0",
+        "r1",
+        "r2",
+        "c0",
+        "c1",
+        "c2"
+      ],
+      "maximum_derivative_order": 2,
+      "peano_kernel": {
+        "endpoint_zero_orders": {
+          "s=0": 2,
+          "s=1": 2
+        },
+        "for_s_ge_mean": "(1-s)^2/2",
+        "for_s_le_mean": "s^2/2",
+        "integral": "1/24",
+        "nonnegative": true
+      },
+      "weight": "1",
+      "weight_exponent": 0,
+      "weight_integral": "1",
+      "weighted_mean": "1/2"
+    }
+  ],
+  "peano_remainder": {
+    "absolute_bound": "replace every signed Peano integrand by K_j(s)*abs(partial_j^2 F) and retain the positive earlier-node weights and later-axis integrals",
+    "duffy_axis_affinity": "each p_i is affine in any one t_j with the other t coordinates fixed, so partial_tj^2 is the corresponding Hessian directional derivative with no second-chart-derivative term",
+    "maximum_derivative_order": 2,
+    "mixed_derivatives_required": false,
+    "one_axis_identity": "I_n[h]-I_n[1]*h(mu_n)=integral_0^1 K_n(s)*h''(s) ds, with I_n[h]=integral_0^1 (1-t)^(n-1)h(t)dt and mu_n=1/(n+1)",
+    "positive_kernel_on_every_axis": true,
+    "tensor_identity": "I_0...I_5-Q_0...Q_5=sum_j Q_0...Q_(j-1)(I_j-Q_j)I_(j+1)...I_5"
+  },
+  "positive_cubature": {
+    "all_weights_strictly_positive": true,
+    "angular_weight": "1/120",
+    "barycenter_replayed": true,
+    "node_count": 1,
+    "separately_affine_exact": true,
+    "simplex_node": [
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6"
+    ],
+    "simplex_volume_replayed": true,
+    "simplex_weight": "1/120",
+    "y_node": "1/2"
+  },
+  "release_test": {
+    "all_peano_kernels_nonnegative": true,
+    "complete_base_action_column_evaluated": false,
+    "complete_exterior_integrand_bound_emitted": false,
+    "derivative_order_below_k298_obstruction": true,
+    "k294_simplex_dimension_replayed": true,
+    "k298_requires_method_switch": true,
+    "native_K152_interval_emitted": false,
+    "single_positive_barycentric_node": true
+  },
+  "result_id": "K299-ORDER-SEVEN-POSITIVE-PEANO-SIMPLEX-RULE",
+  "schema_version": "1.0"
+}

@@ -1,0 +1,335 @@
+{
+  "claim_ceiling": "Exact transfer of the K299 positive Peano rule through the complete K296/K297 face atlas. All six required second-directional remainder terms are locally absolutely integrable; the worst pure projective-face margin is one and the worst terminal endpoint margin is two, while K298's fourth-derivative logarithm remains excluded. This proves a finite qualitative angular remainder and selects the positive rule over an eight-sector analytic-subtraction construction, but it does not numerically enclose the six global derivative norms, join K294's radial gamma strata, evaluate an exterior action column or residual, emit a native K152 interval, or move source, ledger, canon, paper or public posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "analytic_subtraction_killed_globally": false,
+    "complete_global_second_directional_norms_computed": false,
+    "k294_low_middle_high_gamma_strata_joined": false,
+    "next_exact_input": "construct a determinant-preserving interval enclosure for the six complete coherent second-directional Peano norms, first on the q/projective angular domain at fixed x and then with explicit q and x scaling, before composing K294's gamma strata",
+    "positive_rule_face_legal": true,
+    "positive_rule_selected_over_analytic_subtraction": true
+  },
+  "direction": "observed_to_native",
+  "endpoint_integrability": {
+    "all_second_directional_derivatives_locally_absolutely_integrable": true,
+    "fourth_derivative_obstruction_preserved": true,
+    "rows": [
+      {
+        "corner_variables": 4,
+        "fourth_derivative_verdict": "none",
+        "old_position": 2,
+        "second_derivative_absolutely_integrable": true,
+        "second_derivative_homogeneous_degree": 10,
+        "second_derivative_integrability_margin": 14,
+        "third_derivative_integrability_margin_control": 13
+      },
+      {
+        "corner_variables": 3,
+        "fourth_derivative_verdict": "none",
+        "old_position": 4,
+        "second_derivative_absolutely_integrable": true,
+        "second_derivative_homogeneous_degree": 4,
+        "second_derivative_integrability_margin": 7,
+        "third_derivative_integrability_margin_control": 6
+      },
+      {
+        "corner_variables": 2,
+        "fourth_derivative_verdict": "logarithmic",
+        "old_position": 6,
+        "second_derivative_absolutely_integrable": true,
+        "second_derivative_homogeneous_degree": 0,
+        "second_derivative_integrability_margin": 2,
+        "third_derivative_integrability_margin_control": 1
+      }
+    ],
+    "terminal_old_position_six_second_derivative_model": "d_g^2[g^2*y/(y+a*g)]=2*y^3/(y+a*g)^3, homogeneous degree zero for fixed positive split parameter a",
+    "terminal_old_position_six_y_second_derivative_model": "d_y^2[g^2*y/(y+a*g)]=-2*a*g^3/(y+a*g)^3, homogeneous degree zero for fixed positive split parameter a",
+    "third_derivative_spare_margin_at_terminal_corner": 1,
+    "worst_complete_face_second_derivative_margin": 1,
+    "worst_endpoint_second_derivative_margin": 2
+  },
+  "face_transfer": {
+    "directional_derivative_effect": "each Duffy axis is affine with other axes fixed; its second derivative is a linear combination of pure and mixed projective Hessian entries with the same or better K297 face degree",
+    "duffy_jacobian_effect": "nonnegative polynomial face powers only; it adds vanishing and never divides out a K296 native or determinant zero",
+    "every_one_gap_native_plus_cauchy_valuation": [
+      2
+    ],
+    "higher_codimension_effect": "K297 positions 4 and 2 already include the three- and four-variable nested endpoint joins; additional Duffy Jacobian powers cannot worsen them",
+    "left_terminal_gap": {
+      "duffy_face": "t2=0",
+      "gap": "r2",
+      "peano_kernel_zero_order": 2
+    },
+    "projective_face_second_derivative_margins": [
+      {
+        "codimension": 1,
+        "face": [
+          "r0"
+        ],
+        "minimum_native_cauchy_companion_valuation": 2,
+        "second_derivative_integrability_margin": 1
+      },
+      {
+        "codimension": 1,
+        "face": [
+          "r1"
+        ],
+        "minimum_native_cauchy_companion_valuation": 2,
+        "second_derivative_integrability_margin": 1
+      },
+      {
+        "codimension": 1,
+        "face": [
+          "r2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 2,
+        "second_derivative_integrability_margin": 1
+      },
+      {
+        "codimension": 1,
+        "face": [
+          "c0"
+        ],
+        "minimum_native_cauchy_companion_valuation": 2,
+        "second_derivative_integrability_margin": 1
+      },
+      {
+        "codimension": 1,
+        "face": [
+          "c1"
+        ],
+        "minimum_native_cauchy_companion_valuation": 2,
+        "second_derivative_integrability_margin": 1
+      },
+      {
+        "codimension": 1,
+        "face": [
+          "c2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 2,
+        "second_derivative_integrability_margin": 1
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r0",
+          "r1"
+        ],
+        "minimum_native_cauchy_companion_valuation": 5,
+        "second_derivative_integrability_margin": 5
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r0",
+          "r2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r0",
+          "c0"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r0",
+          "c1"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r0",
+          "c2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r1",
+          "r2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 5,
+        "second_derivative_integrability_margin": 5
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r1",
+          "c0"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r1",
+          "c1"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r1",
+          "c2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r2",
+          "c0"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r2",
+          "c1"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "r2",
+          "c2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "c0",
+          "c1"
+        ],
+        "minimum_native_cauchy_companion_valuation": 5,
+        "second_derivative_integrability_margin": 5
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "c0",
+          "c2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 4,
+        "second_derivative_integrability_margin": 4
+      },
+      {
+        "codimension": 2,
+        "face": [
+          "c1",
+          "c2"
+        ],
+        "minimum_native_cauchy_companion_valuation": 5,
+        "second_derivative_integrability_margin": 5
+      }
+    ],
+    "projective_one_gap_faces_replayed": 6,
+    "right_terminal_gap": {
+      "duffy_face": "t4=1 after earlier means are fixed",
+      "gap": "c2",
+      "peano_kernel_zero_order": 2
+    },
+    "worst_projective_face_second_derivative_margin": 1
+  },
+  "fixed_control": {
+    "duffy_gap_order": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "maximum_derivative_order": 2,
+    "predecessor_manifests": [
+      "lab/process/k296-order-seven-coalescent-face-valuation-atlas.json",
+      "lab/process/k297-order-seven-endpoint-corner-integrability.json",
+      "lab/process/k298-order-seven-coherent-terminal-corner-obstruction.json",
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json"
+    ],
+    "tensor_remainder_order": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "y"
+    ],
+    "y_integrated_after_every_gap_error": true
+  },
+  "global_legality": {
+    "boundary_cover": "K296 one-gap/codimension-two atlas plus K297 nested old-position endpoint corners",
+    "finite_cover": true,
+    "interior": "smooth because every cumulative time is strictly positive",
+    "numerical_global_remainder_enclosed": false,
+    "peano_remainder_locally_absolutely_integrable_on_complete_angular_domain": true,
+    "qualitative_global_remainder_finite": true,
+    "reason_numerical_bound_open": "the six complete coherent second-directional Peano norms still require a uniform interval enclosure over q,x,u,z and the remaining angular cross-sections"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "method_comparison": {
+    "analytic_subtraction": {
+      "maximum_residual_derivative_order": 4,
+      "minimum_terminal_sector_models": 8,
+      "required_additional_proofs": [
+        "construct compatible cutoffs or a partition of unity on overlapping terminal faces",
+        "integrate every coefficient-weighted singular model on the exact simplex",
+        "prove the subtracted residual has an integrable fourth derivative across sector overlaps"
+      ],
+      "required_global_coefficient_functions": 8,
+      "sector_count_basis": "four coherent groups times left/right terminal corners",
+      "status": "dominated_fallback_not_executed"
+    },
+    "positive_peano": {
+      "cutoff_or_partition_functions": 0,
+      "global_norm_obligations": 6,
+      "maximum_derivative_order": 2,
+      "overlap_counterterms": 0,
+      "positive_nodes": 1,
+      "status": "selected_structural_route",
+      "terminal_local_models": 0
+    },
+    "selection": "positive_peano",
+    "selection_basis": "K299 gives an exact positive one-node rule and K296/K297 prove its six second-directional Peano terms finite without cutoffs; subtraction introduces eight coefficient functions, overlap ownership and a fourth-derivative residual proof before providing a bound"
+  },
+  "release_test": {
+    "all_six_one_gap_faces_replayed": true,
+    "all_three_endpoint_classes_replayed": true,
+    "complete_base_action_column_evaluated": false,
+    "complete_exterior_integrand_bound_emitted": false,
+    "native_K152_interval_emitted": false,
+    "terminal_fourth_derivative_obstruction_not_reused": true,
+    "worst_second_derivative_margin_strictly_positive": true
+  },
+  "result_id": "K300-ORDER-SEVEN-ANGULAR-METHOD-SELECTION",
+  "schema_version": "1.0"
+}

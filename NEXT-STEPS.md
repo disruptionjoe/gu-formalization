@@ -20,6 +20,18 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K299/K300 POSITIVE ANGULAR PEANO ROUTE.** The exact Duffy
+> tensor rule samples the K294 simplex barycenter and `y=1/2` with positive
+> weight `1/120`. Its Peano remainder needs only six second directional
+> derivatives. K296/K297 give margins `14`, `7` and `2`, so the complete
+> angular remainder is qualitatively finite even though K298 forbids fourth
+> order. This dominates an eight-sector analytic subtraction at the present
+> structural gate. Next enclose the six complete coherent Peano norms over
+> projective `q` at fixed `x`, then expose their `q,x` scaling before joining
+> K294's gamma strata. No exterior value or K152 interval is yet available.
+> See `explorations/conditional-build/k299-order-seven-positive-peano-simplex-rule-2026-09-22.md`
+> and `explorations/conditional-build/k300-order-seven-angular-method-selection-2026-09-22.md`.
+
 > **2026-09-22 K298 COHERENT TERMINAL-CORNER OBSTRUCTION.** Restoring all
 > nine ordered old-position entries proves the coherent sum does not cancel
 > the terminal fourth-derivative logarithm. The leading coefficient is exactly

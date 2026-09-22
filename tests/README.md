@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K299/K300 positive angular Peano route
+
+- `channel-swings/k299_order_seven_positive_peano_simplex_rule.py` derives
+  the exact positive barycentric Duffy rule and its six-term second-derivative
+  Peano remainder; its independent probe rejects ten hostile mutations.
+- `channel-swings/k300_order_seven_angular_method_selection.py` transfers
+  that remainder through every K296/K297 face class and selects it over
+  eight-sector terminal subtraction; its probe rejects thirteen hostile
+  mutations without claiming a numerical global norm or radial gamma join.
+
 ## K298 coherent terminal-corner obstruction
 
 - `channel-swings/k298_order_seven_coherent_terminal_corner_obstruction.py`

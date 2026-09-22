@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 77f51081fbd7309a2d7c384a50ebea9b8d1080c9
+revision_basis: 7e9a4ace03e979e02f6bb3efa7c4f0e5bfae144c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K299 constructs the exact positive one-node Duffy rule on the K294
+    five-simplex times endpoint interval. The node is the projective
+    barycenter p_i=1/6 with y=1/2 and weight 1/120. Its tensor Peano identity
+    has six nonnegative kernel terms and requires only pure second directional
+    derivatives while keeping the complete native projective weight inside
+    the integrand.
+
+    K300 transfers that rule through every K296/K297 face class. The
+    second-derivative integrability margins for old positions two, four and
+    six are 14, 7 and 2, so the qualitative global angular remainder is
+    finite even though K298 forbids fourth order. The positive route is
+    selected over analytic subtraction's minimum eight terminal sectors. A
+    numerical enclosure of the six complete coherent Peano norms and their
+    q,x scaling remains necessary before K294's gamma strata can be joined.
+
     K298 restores all nine ordered old-position entries in each of the four
     K288 coherent groups before upper-triangle integral compression. The
     coefficient vector (1,-1,1) exactly supplies the cofactor signs. At the
@@ -9148,18 +9163,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K298 proves the full ordered coherent sum does not cancel K297's terminal
-  fourth-derivative logarithm. The global fourth-order Jacobi route is closed,
-  while the integrand itself remains locally integrable. Construct and compare
-  two legal angular successors on the K294 simplex: a positive cubature rule
-  whose rigorous remainder uses at most third shape derivatives, and an
-  analytic subtraction that integrates the explicit terminal
-  g^2*y/(y+a*g) singular model before bounding a smooth fourth-order
-  remainder. Preserve the ordered coherent groups, all split variables and
-  the exact native weight; select the cheaper route by a proved remainder and
-  join only then to K294's low/middle/high gamma strata and K292/K293. Do not
-  infer divergence of the integrand or its integral, an action-column value,
-  complete residual or native K152 interval.
+  K299/K300 prove that a single positive barycentric Duffy rule bypasses
+  K298's fourth-order logarithm: its exact tensor Peano remainder uses six
+  second directional derivatives, and the worst terminal integrability margin
+  is two. Construct a determinant-preserving interval enclosure for those six
+  complete coherent Peano norms over the full projective/q domain at fixed x,
+  then derive their explicit q and x scaling. Only a finite numerical bound
+  may be joined to K294's low/middle/high gamma strata and K292/K293. Preserve
+  all four ordered coherent groups, split variables and the native projective
+  weight. Analytic subtraction remains a fallback, not a required parallel
+  route. Do not infer an exterior action-column value, complete residual or
+  native K152 interval.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9402,15 +9416,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K298 as the exact method obstruction for any global remainder needing
-  fourth shape derivatives: the ordered coherent terminal coefficient is
-  strictly positive, so the logarithm survives all four groups. Compare a
-  third-derivative positive cubature theorem with an analytic terminal-
-  singularity subtraction, using the complete ordered group and native
-  K288/K294 measure in both. A proved finite remainder may then compose
-  K294's gamma strata and join K292/K293. K298 does not prove divergence of
-  the integrand or its integral, and no exterior value, action-column value,
-  complete residual or native K152 interval follows.
+  Treat K299/K300 as the legal angular method theorem. The exact positive
+  Duffy rule has one barycentric node, six second-directional Peano terms and
+  a finite qualitative global remainder; K298's fourth-order obstruction is
+  not reused. Build the complete determinant-preserving interval norms for
+  those six terms, first over the angular/projective domain at fixed q and x,
+  then with explicit q and x scaling. Compose K294's gamma strata only after
+  that numerical bound closes. Analytic terminal subtraction is the fallback
+  if the six-norm enclosure is not viable. No exterior value, action-column
+  value, complete residual or native K152 interval follows yet.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued
