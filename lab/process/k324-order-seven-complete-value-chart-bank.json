@@ -1,0 +1,323 @@
+{
+  "claim_ceiling": "Finite outward complete-matrix value-family bounds cover all sixteen K318 endpoint charts on one fixed positive radial/projective slab. The chart-uniform K322 terminal upper four is inserted only after terminal scaling; Peano/Hepp weights are absorbed into the left border column or right border row; literal zeros are retained; and exact K318 chart masses are carried for census without double multiplication. Signed first/second families and radial/projective subdivision sums remain open, so no complete y-master constant, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is released.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_value_chart_bank": {
+    "D4_complete_Hadamard_abs_upper": "1.6635703454787967e+37",
+    "Peano_Hepp_weight_absorbed_before_determinant_bound": true,
+    "all_literal_border_zeros_retained": true,
+    "detached_terminal_cofactor_used": false,
+    "exact_chart_masses_are_census_not_extra_multiplier": true,
+    "left_bordered_B5_complete_Hadamard_abs_upper": "3.762637996416542e+29",
+    "left_four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+    "matrix_bound_rule": "one Hadamard bound per complete matrix after terminal and endpoint weight absorption",
+    "node_audit": {
+      "D4_minimum_argument": "1/32",
+      "all_nonterminal_argument_lowers_positive": true,
+      "endpoint_border_column_scale": "omega=eta^2*J_hepp",
+      "left_endpoint_weight_placement": "border column 4",
+      "literal_zero_slots": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "minimum_nonterminal_B5_argument": "1/1024",
+      "raw_Bessel_evaluation_at_zero_used": false,
+      "right_endpoint_weight_placement": "border row 4 by complete-matrix transposition",
+      "right_matrix_is_exact_transpose_of_left_enclosure": true,
+      "terminal_argument": "w=lambda*H with lambda=x*rho*v and chart-uniform H>=1/2",
+      "terminal_column_scale": "lambda=x*rho*v",
+      "terminal_scaled_upper": "4",
+      "terminal_slot": [
+        3,
+        3
+      ],
+      "terminal_zero_safe_rule": "abs(Phi_0(w))/H <= 2/(1/2)=4"
+    },
+    "permutation_or_monomial_absolute_values_used": false,
+    "positive_density_factors_bounded_by_one": [
+      "exp(-256*(x+b))",
+      "the remaining powers of x and b on the declared subunit slab",
+      "unit-cube and slab widths"
+    ],
+    "right_bordered_B5_complete_Hadamard_abs_upper": "7.8710207316148e+36",
+    "right_four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+    "rows": [
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_a_max_hepp3_eta_A_v",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/1920",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 3,
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_a_max_hepp3_eta_v_A",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/1920",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 3,
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_a_max_hepp3_A_eta_v",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/640",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 3,
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_a_max_hepp3_A_v_eta",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/320",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 3,
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_a_max_hepp3_v_eta_A",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/640",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 3,
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_a_max_hepp3_v_A_eta",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/320",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 3,
+        "split_sector": "a_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_b_max_hepp2_eta_A",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/384",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 2,
+        "split_sector": "b_max",
+        "terminal_singular_sector": false
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "left_b_max_hepp2_A_eta",
+        "endpoint": "left",
+        "endpoint_weight_placement": "border column 4",
+        "exact_chart_mass": "1/128",
+        "four_group_weighted_chart_abs_upper": "5.97437854054004e+49",
+        "hepp_dimension": 2,
+        "split_sector": "b_max",
+        "terminal_singular_sector": false
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_b_max_hepp3_eta_A_v",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/1920",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 3,
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_b_max_hepp3_eta_v_A",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/1920",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 3,
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_b_max_hepp3_A_eta_v",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/640",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 3,
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_b_max_hepp3_A_v_eta",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/320",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 3,
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_b_max_hepp3_v_eta_A",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/640",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 3,
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_b_max_hepp3_v_A_eta",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/320",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 3,
+        "split_sector": "b_max",
+        "terminal_singular_sector": true
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_a_max_hepp2_eta_A",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/384",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 2,
+        "split_sector": "a_max",
+        "terminal_singular_sector": false
+      },
+      {
+        "additional_theta_squared_if_applicable_abs_upper": "1",
+        "chart_id": "right_a_max_hepp2_A_eta",
+        "endpoint": "right",
+        "endpoint_weight_placement": "border row 4",
+        "exact_chart_mass": "1/128",
+        "four_group_weighted_chart_abs_upper": "1.2497736267982815e+57",
+        "hepp_dimension": 2,
+        "split_sector": "a_max",
+        "terminal_singular_sector": false
+      }
+    ],
+    "sixteen_chart_weighted_abs_upper": "9.998189492336536e+57",
+    "source_chart_ids": [
+      "left_a_max_hepp3_eta_A_v",
+      "left_a_max_hepp3_eta_v_A",
+      "left_a_max_hepp3_A_eta_v",
+      "left_a_max_hepp3_A_v_eta",
+      "left_a_max_hepp3_v_eta_A",
+      "left_a_max_hepp3_v_A_eta",
+      "left_b_max_hepp2_eta_A",
+      "left_b_max_hepp2_A_eta",
+      "right_b_max_hepp3_eta_A_v",
+      "right_b_max_hepp3_eta_v_A",
+      "right_b_max_hepp3_A_eta_v",
+      "right_b_max_hepp3_A_v_eta",
+      "right_b_max_hepp3_v_eta_A",
+      "right_b_max_hepp3_v_A_eta",
+      "right_a_max_hepp2_eta_A",
+      "right_a_max_hepp2_A_eta"
+    ],
+    "terminal_weight_absorbed_before_determinant_bound": true
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_sixteen_value_charts_bounded": true,
+    "complete_y_master_constant_emitted": false,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "left_column_right_row_symmetry_implemented": true,
+    "next_exact_input": "implement interval-signed column-replacement aggregation for all five first-y and fifteen second-y families before adaptive radial/projective summation",
+    "signed_first_and_second_jet_backend_complete": false,
+    "zero_touching_terminal_entry_evaluated_without_raw_Knu_zero_call": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "chart_count": 16,
+    "jet_family": "value",
+    "left_chart_count": 8,
+    "old_position": 6,
+    "predecessor_manifests": [
+      "lab/process/k318-order-seven-weighted-endpoint-blowup-atlas.json",
+      "lab/process/k321-order-seven-radial-projective-tensor-atlas.json",
+      "lab/process/k322-order-seven-zero-safe-scaled-bessel-envelopes.json",
+      "lab/process/k323-order-seven-old-position-six-value-pilot.json"
+    ],
+    "radial_projective_slab": {
+      "b": [
+        "1/32",
+        "1/8"
+      ],
+      "projective_gaps": [
+        "1/8",
+        "5/24"
+      ],
+      "x": [
+        "1/16",
+        "1/8"
+      ]
+    },
+    "right_chart_count": 8,
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_complete_bounds_finite_positive": true,
+    "complete_matrices_bounded_after_weight_absorption": true,
+    "complete_numerical_norm_overclaim": false,
+    "left_and_right_chart_counts_are_eight": true,
+    "native_K152_interval_emitted": false,
+    "no_permutation_absolute_enclosure": true,
+    "source_chart_ids_covered_exactly_once": true,
+    "terminal_scaled_upper_from_K322": true
+  },
+  "result_id": "K324-ORDER-SEVEN-COMPLETE-VALUE-CHART-BANK",
+  "schema_version": "1.0",
+  "scope_boundary": {
+    "covered": "all sixteen K318 value-family endpoint charts on one fixed positive radial/projective slab",
+    "fixed_slab_bank_is_not_global_release": true,
+    "not_covered": [
+      "the five first-y and fifteen signed second-y families",
+      "radial origin and tail subdivision sums",
+      "all projective-face subdivision sums",
+      "a complete y-master constant"
+    ]
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

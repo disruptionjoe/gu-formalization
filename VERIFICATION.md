@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K323 adaptive boundary-cell foundation (2026-09-22)
+## K310--K324 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -139,6 +139,18 @@ complete matrix, with literal border zeros retained and no permutationwise or
 detached-cofactor bound. The resulting four-group value-family chart upper is
 finite. Its probe passes 13/13 checks and rejects 10/10 hostile mutations. The
 remaining fifteen endpoint charts, first/second jet families and adaptive
+radial/projective sums remain open, so no complete y constant, five-gap
+transfer or K294 join is claimed.
+
+K324 extends the complete-matrix value enclosure to all sixteen K318 charts
+on the same positive radial/projective slab. The chart-uniform `H>=1/2`
+control raises the zero-safe terminal upper to four. Endpoint weights remain
+inside the complete matrix: a border column on the left and, by exact
+transposition, a border row on the right. The source census is covered exactly
+once, each endpoint bound and the sixteen-chart sum are finite, and K318's
+exact chart masses are retained as census data without double multiplication.
+Its probe passes 17/17 checks and rejects 16/16 hostile mutations. This closes
+only the fixed-slab value family; all signed first/second families and adaptive
 radial/projective sums remain open, so no complete y constant, five-gap
 transfer or K294 join is claimed.
 

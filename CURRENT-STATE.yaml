@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 282f270a94d17eea6379f4f9bbeb25b75a88e6b2
+revision_basis: fb32f6173d7f8ccdb24db6329a283442903f994a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -170,6 +170,17 @@ current_result:
     and signed second-jet families, and the adaptive radial/projective sums
     remain open, so there is still no complete y constant or downstream
     release.
+
+    K324 extends that complete-matrix value route to every one of K318's
+    sixteen endpoint charts on the same positive radial/projective slab. The
+    chart-uniform K322 control uses `H>=1/2`, hence terminal upper four; left
+    endpoint weights occupy the border column and exact transposition places
+    right endpoint weights in the border row. All source chart IDs occur
+    exactly once, both endpoint bounds and their sixteen-chart sum are finite,
+    and exact chart masses remain census data rather than a second multiplier.
+    This completes the fixed-slab value family only. The five first-y and
+    fifteen signed second-y families plus adaptive radial/projective sums
+    remain open, so no complete y constant or downstream release follows.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9420,11 +9431,11 @@ current_result:
 current_question: >-
   K321 now supplies the sixty-four-chart radial/projective tensor topology
   and exact degree-minus-twenty-seven origin control; K322 supplies finite
-  zero-inclusive `Phi_0/Phi_1/Phi_2` envelopes; and K323 proves the first
-  complete weighted old-position-six value-family bound on one full endpoint
-  cube and positive radial/projective slab. Extend the same complete-matrix
-  evaluator across the other fifteen value charts, then implement interval-
-  signed aggregation of all five first and fifteen second families before
+  zero-inclusive `Phi_0/Phi_1/Phi_2` envelopes; K323 proves the first
+  complete weighted old-position-six value-family bound; and K324 extends
+  the complete-matrix evaluator to all sixteen endpoint charts on one
+  positive radial/projective slab. Implement interval-signed aggregation of
+  all five first and fifteen second families before
   adaptive radial-origin, tail and projective-face summation. Only a complete
   accepted numerical y sum releases reuse for the five Duffy axes, and only
   six complete finite constants may reopen K294's gamma join.
@@ -9675,14 +9686,14 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Treat K321 as the exact sixty-four-chart radial/projective tensor topology,
-  K322 as the zero-inclusive scaled-entry envelope, and K323 as the first
-  complete-matrix value-family pilot. Preserve K318's exact `1/24` Peano
+  K322 as the zero-inclusive scaled-entry envelope, K323 as the first
+  complete-matrix value-family pilot, and K324 as the complete sixteen-chart
+  value bank on one positive slab. Preserve K318's exact `1/24` Peano
   mass, all eighty-four nonnegative valuation checks, the split Jacobian,
   K315's literal border zeros and the signed fifteen-family second jet inside
-  every chart before absolute enclosure. Extend K323 across the remaining
-  value charts, then construct interval-signed first/second-jet aggregation
-  and adaptive radial/projective sums. Reuse only the accepted complete y
-  subdivision for the five Duffy axes.
+  every chart before absolute enclosure. Construct interval-signed first/
+  second-jet aggregation and adaptive radial/projective sums. Reuse only the
+  accepted complete y subdivision for the five Duffy axes.
   K294's gamma join remains closed until all six finite constants exist. No
   exterior value, action-column value, complete residual or native K152
   interval follows yet.
