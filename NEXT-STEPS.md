@@ -20,7 +20,7 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
-> **2026-09-22 K310--K313 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
+> **2026-09-22 K310--K316 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with
 > `H=r^27*R4*R5_border`. K311 composes all three K302 terminal jets with the
@@ -29,11 +29,16 @@ updated_at: "2026-09-22"
 > variables, including origin, infinite tail and every projective/split face;
 > its radial upper falls monotonically to 1.15056 times the exact mass at
 > depth eight. K313 certifies four explicit ratio-four interior radial shells
-> for the complete scaled coherent operator and records stable degree-27
-> controls down through scale 1/256. Next implement the repeated-node
-> projective-face oracle, join the terminal split adapter, integrate the
-> complete y master, then reuse its accepted subdivision
-> for the five gap axes. No complete Peano constant or K294 gamma join exists.
+> for the complete scaled coherent operator. K314 gives finite confluent
+> regularizer bounds on all six one-gap faces and retains the exact vanishing
+> projective polynomial. K315 inserts K311's three terminal budgets into all
+> twenty-one complete bordered-determinant jet families. K316 proves the
+> resulting terminal radial/projective-s moments finite, but rejects a global
+> K312×K314×K315 product because K314 has no coefficient bound on the full
+> s/y/split endpoint atlas. Build that homogeneous compact-boundary
+> coefficient oracle next, then integrate the complete y master and reuse only
+> its accepted subdivision for the five gap axes. No complete Peano constant
+> or K294 gamma join exists.
 
 > **2026-09-22 K301/K302 TERMINAL SPLIT CORRECTION AND REPAIR.** Every K288
 > companion contains a terminal `(8,8)` argument that can vanish on the full

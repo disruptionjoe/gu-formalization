@@ -1,0 +1,1313 @@
+{
+  "claim_ceiling": "Confluent outward value/first-y/second-y bounds for the complete degree-27-scaled coherent D4-times-bordered-B5 regularizer on shrinking slabs meeting each of the six one-gap projective faces. The exact native projective polynomial is retained, no gap is divided out, every regularizer bound stays finite at repeated nodes, and the complete projective-times-regularizer bound contracts to zero on all six exact faces. This covers K313's interior radial/y/split slab only; terminal split faces, radial projective faces, the complete y-master sum, five gap-axis constants, K294 gamma strata, action-column value, residual, K152 interval, source/ledger, canon, paper, public and physical claims remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "confluent_rule": {
+    "gap_division_used": false,
+    "native_projective_polynomial_retained": true,
+    "one_gap_face_valuation": 2,
+    "regularized_entries": "Hermite--Genocchi divided differences extend to repeated nodes as kernel derivatives divided by factorials",
+    "source": "K296 native gap plus common Cauchy valuation; companion zeros remain occurrence-dependent inside the bordered assembly"
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_six_complete_face_values_vanish": true,
+    "all_six_repeated_node_faces_have_finite_regularizer_bounds": true,
+    "complete_y_master_constant_emitted": false,
+    "five_gap_axis_constants_emitted": false,
+    "gap_cutoff_required": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "insert K311's weighted B0/B1/B2 terminal entry budgets inside the complete bordered column-replacement jets, then combine the resulting terminal and projective cells with K312's positive measure backend",
+    "shrinking_face_slabs_contract": true,
+    "terminal_split_face_composed": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "face_widths": [
+      "1/8",
+      "1/32",
+      "1/128",
+      "1/512"
+    ],
+    "interior_radial_y_split_cell": {
+      "b": [
+        "1/32",
+        "1/8"
+      ],
+      "split": [
+        "1/4",
+        "3/4"
+      ],
+      "x": [
+        "1/16",
+        "1/8"
+      ],
+      "y": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    "predecessor_manifests": [
+      "lab/process/k296-order-seven-coalescent-face-valuation-atlas.json",
+      "lab/process/k308-order-seven-regularized-y-master-operator.json",
+      "lab/process/k310-order-seven-two-radius-origin-compactification.json",
+      "lab/process/k313-order-seven-scaled-radial-shell-oracle.json"
+    ],
+    "projective_gap_order": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "scaled_regularizer_degree": 27,
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "one_gap_face_oracle": [
+    {
+      "exact_face_complete_bound": [
+        "0",
+        "0",
+        "0"
+      ],
+      "face": "r0",
+      "last_to_first_component_ratios": [
+        "6.277209587761508e-05",
+        "6.277209587761508e-05",
+        "6.277209587761508e-05"
+      ],
+      "repeated_nodes_at_endpoint": true,
+      "rows": [
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.4523858603831544e+21",
+            "7.3360195981911356e+22",
+            "4.726821804501147e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1.3350209522965014e+20",
+            "6.743207943004373e+21",
+            "4.344855123497442e+23"
+          ],
+          "face_width": "1/8",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "49591064453125/941122187258522670754430976",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.533556906907784e+33",
+            "1.2797028413168921e+35",
+            "8.245516812837114e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.4523858603831544e+21",
+            "7.3360195981911356e+22",
+            "4.726821804501147e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "3.1188678919457603e+18",
+            "1.5753441701399632e+20",
+            "1.0150424318451137e+22"
+          ],
+          "face_width": "1/32",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "607410430908203125/493419069313396334004499107545088",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.533556906907784e+33",
+            "1.2797028413168921e+35",
+            "8.245516812837114e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.4523858603831544e+21",
+            "7.3360195981911356e+22",
+            "4.726821804501147e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1.449847810864843e+17",
+            "7.323199877540177e+18",
+            "4.718561666385444e+20"
+          ],
+          "face_width": "1/128",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "4283550262451171875/74853500292876717928978827574247424",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.533556906907784e+33",
+            "1.2797028413168921e+35",
+            "8.245516812837114e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.4523858603831544e+21",
+            "7.3360195981911356e+22",
+            "4.726821804501147e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "8380206321618097.0",
+            "4.232852955209661e+17",
+            "2.7273566238652854e+19"
+          ],
+          "face_width": "1/512",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "27381666294097900390625/8278198304389821989201626499091171115008",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.533556906907784e+33",
+            "1.2797028413168921e+35",
+            "8.245516812837114e+36"
+          ]
+        }
+      ]
+    },
+    {
+      "exact_face_complete_bound": [
+        "0",
+        "0",
+        "0"
+      ],
+      "face": "r1",
+      "last_to_first_component_ratios": [
+        "1.8853435757302543e-05",
+        "1.8853435757302546e-05",
+        "1.8853435757302543e-05"
+      ],
+      "repeated_nodes_at_endpoint": true,
+      "rows": [
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7636254688088196e+21",
+            "8.955061365921485e+22",
+            "5.784930922782849e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "9.222313533647762e+19",
+            "4.6827620200656357e+21",
+            "3.0250440177886204e+23"
+          ],
+          "face_width": "1/8",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "1983642578125/66172653791614875287420928",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.076486496859928e+33",
+            "1.5621301607431003e+35",
+            "1.0091293295525738e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7636254688088196e+21",
+            "8.955061365921485e+22",
+            "5.784930922782849e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "9.142696448072572e+17",
+            "4.642335302505064e+19",
+            "2.9989285330402143e+21"
+          ],
+          "face_width": "1/32",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "42230644073486328125/142104691962258144193295742972985344",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.076486496859928e+33",
+            "1.5621301607431003e+35",
+            "1.0091293295525738e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7636254688088196e+21",
+            "8.955061365921485e+22",
+            "5.784930922782849e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "3.2364194368788244e+16",
+            "1.6433384057832899e+18",
+            "1.0615895047229733e+20"
+          ],
+          "face_width": "1/128",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "97971134156646728515625/9312973092438549737851829811477567504384",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.076486496859928e+33",
+            "1.5621301607431003e+35",
+            "1.0091293295525738e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7636254688088196e+21",
+            "8.955061365921485e+22",
+            "5.784930922782849e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1738722957403299.0",
+            "8.828615291204376e+16",
+            "5.703247305239012e+18"
+          ],
+          "face_width": "1/512",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "344940075395667877197265625/610335004586052795619857518524993863967309824",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.076486496859928e+33",
+            "1.5621301607431003e+35",
+            "1.0091293295525738e+37"
+          ]
+        }
+      ]
+    },
+    {
+      "exact_face_complete_bound": [
+        "0",
+        "0",
+        "0"
+      ],
+      "face": "r2",
+      "last_to_first_component_ratios": [
+        "6.277209587761507e-05",
+        "6.277209587761508e-05",
+        "6.277209587761508e-05"
+      ],
+      "repeated_nodes_at_endpoint": true,
+      "rows": [
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6936660306190596e+21",
+            "1.4119057482134379e+23",
+            "9.36592032632259e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "2.4759953173994032e+20",
+            "1.2978119712867116e+22",
+            "8.609075738235112e+23"
+          ],
+          "face_width": "1/8",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "49591064453125/941122187258522670754430976",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.698858865905926e+33",
+            "2.4629429808310517e+35",
+            "1.6338008224648115e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6936660306190596e+21",
+            "1.4119057482134379e+23",
+            "9.36592032632259e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "5.784405317954864e+18",
+            "3.031940495065716e+20",
+            "2.0112470784164414e+22"
+          ],
+          "face_width": "1/32",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "607410430908203125/493419069313396334004499107545088",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.698858865905926e+33",
+            "2.4629429808310517e+35",
+            "1.6338008224648115e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6936660306190596e+21",
+            "1.4119057482134379e+23",
+            "9.36592032632259e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "2.68895883953576e+17",
+            "1.409438437836835e+19",
+            "9.349553346843392e+20"
+          ],
+          "face_width": "1/128",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "4283550262451171875/74853500292876717928978827574247424",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.698858865905926e+33",
+            "2.4629429808310517e+35",
+            "1.6338008224648115e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6936660306190596e+21",
+            "1.4119057482134379e+23",
+            "9.36592032632259e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1.554234154563213e+16",
+            "8.146637749272608e+17",
+            "5.404097276581443e+19"
+          ],
+          "face_width": "1/512",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "even_right": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ],
+            "odd_right": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "27381666294097900390625/8278198304389821989201626499091171115008",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.698858865905926e+33",
+            "2.4629429808310517e+35",
+            "1.6338008224648115e+37"
+          ]
+        }
+      ]
+    },
+    {
+      "exact_face_complete_bound": [
+        "0",
+        "0",
+        "0"
+      ],
+      "face": "c0",
+      "last_to_first_component_ratios": [
+        "6.277209587761508e-05",
+        "6.277209587761507e-05",
+        "6.277209587761508e-05"
+      ],
+      "repeated_nodes_at_endpoint": true,
+      "rows": [
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.45125625650372e+21",
+            "7.328716858645199e+22",
+            "4.7208711586946836e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1.3339826298451642e+20",
+            "6.736495325807441e+21",
+            "4.339385339572922e+23"
+          ],
+          "face_width": "1/8",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "49591064453125/941122187258522670754430976",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.5315864142247608e+33",
+            "1.2784289438822894e+35",
+            "8.235136444785644e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.45125625650372e+21",
+            "7.328716858645199e+22",
+            "4.7208711586946836e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "3.116442169301189e+18",
+            "1.5737759725614593e+20",
+            "1.0137645842256647e+22"
+          ],
+          "face_width": "1/32",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "607410430908203125/493419069313396334004499107545088",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.5315864142247608e+33",
+            "1.2784289438822894e+35",
+            "8.235136444785644e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.45125625650372e+21",
+            "7.328716858645199e+22",
+            "4.7208711586946836e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1.448720180972253e+17",
+            "7.315909899557881e+18",
+            "4.712621419353944e+20"
+          ],
+          "face_width": "1/128",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "4283550262451171875/74853500292876717928978827574247424",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.5315864142247608e+33",
+            "1.2784289438822894e+35",
+            "8.235136444785644e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.45125625650372e+21",
+            "7.328716858645199e+22",
+            "4.7208711586946836e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "8373688553971375.0",
+            "4.228639304706905e+17",
+            "2.7239231258558874e+19"
+          ],
+          "face_width": "1/512",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "3/128",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "3/128",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "27381666294097900390625/8278198304389821989201626499091171115008",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "2.5315864142247608e+33",
+            "1.2784289438822894e+35",
+            "8.235136444785644e+36"
+          ]
+        }
+      ]
+    },
+    {
+      "exact_face_complete_bound": [
+        "0",
+        "0",
+        "0"
+      ],
+      "face": "c1",
+      "last_to_first_component_ratios": [
+        "1.885343575730254e-05",
+        "1.8853435757302543e-05",
+        "1.8853435757302546e-05"
+      ],
+      "repeated_nodes_at_endpoint": true,
+      "rows": [
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7534151497429025e+21",
+            "8.885448157377643e+22",
+            "5.726117653978034e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "9.168921946051748e+19",
+            "4.646360026182653e+21",
+            "2.994289505878387e+23"
+          ],
+          "face_width": "1/8",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "1983642578125/66172653791614875287420928",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.0586755107461125e+33",
+            "1.549986760691565e+35",
+            "9.98869882152077e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7534151497429025e+21",
+            "8.885448157377643e+22",
+            "5.726117653978034e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "9.089765794989693e+17",
+            "4.60624757040157e+19",
+            "2.968439527675345e+21"
+          ],
+          "face_width": "1/32",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "42230644073486328125/142104691962258144193295742972985344",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.0586755107461125e+33",
+            "1.549986760691565e+35",
+            "9.98869882152077e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7534151497429025e+21",
+            "8.885448157377643e+22",
+            "5.726117653978034e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "3.2176825362918828e+16",
+            "1.6305637240167037e+18",
+            "1.0507967139818165e+20"
+          ],
+          "face_width": "1/128",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "97971134156646728515625/9312973092438549737851829811477567504384",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.0586755107461125e+33",
+            "1.549986760691565e+35",
+            "9.98869882152077e+36"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "1.7534151497429025e+21",
+            "8.885448157377643e+22",
+            "5.726117653978034e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1728656808736080.2",
+            "8.759985025893322e+16",
+            "5.645264483784335e+18"
+          ],
+          "face_width": "1/512",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "5/256",
+              "17/1024",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "5/256",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "344940075395667877197265625/610335004586052795619857518524993863967309824",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "3.0586755107461125e+33",
+            "1.549986760691565e+35",
+            "9.98869882152077e+36"
+          ]
+        }
+      ]
+    },
+    {
+      "exact_face_complete_bound": [
+        "0",
+        "0",
+        "0"
+      ],
+      "face": "c2",
+      "last_to_first_component_ratios": [
+        "6.277209587761508e-05",
+        "6.277209587761508e-05",
+        "6.277209587761508e-05"
+      ],
+      "repeated_nodes_at_endpoint": true,
+      "rows": [
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6394909343220923e+21",
+            "1.3700383789977097e+23",
+            "8.975648383192916e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "2.426198021362624e+20",
+            "1.259327835186829e+22",
+            "8.250341027726342e+23"
+          ],
+          "face_width": "1/8",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "49591064453125/941122187258522670754430976",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.604355267964422e+33",
+            "2.389909109224382e+35",
+            "1.5657213813149468e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6394909343220923e+21",
+            "1.3700383789977097e+23",
+            "8.975648383192916e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "5.668069175478852e+18",
+            "2.9420340885597166e+20",
+            "1.9274396918426483e+22"
+          ],
+          "face_width": "1/32",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "607410430908203125/493419069313396334004499107545088",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.604355267964422e+33",
+            "2.389909109224382e+35",
+            "1.5657213813149468e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6394909343220923e+21",
+            "1.3700383789977097e+23",
+            "8.975648383192916e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "2.634878414414554e+17",
+            "1.3676442319994966e+19",
+            "8.959963405338968e+20"
+          ],
+          "face_width": "1/128",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "4283550262451171875/74853500292876717928978827574247424",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.604355267964422e+33",
+            "2.389909109224382e+35",
+            "1.5657213813149468e+37"
+          ]
+        },
+        {
+          "D4_regularized_abs_upper": "3.142450295918396e+28",
+          "bordered_B5_regularized_y_jet_abs_upper": [
+            "2.6394909343220923e+21",
+            "1.3700383789977097e+23",
+            "8.975648383192916e+24"
+          ],
+          "complete_projective_times_scaled_y_jet_abs_upper": [
+            "1.5229753481505464e+16",
+            "7.905064761169706e+17",
+            "5.1789119801545925e+19"
+          ],
+          "face_width": "1/512",
+          "minimum_kernel_argument": "1/256",
+          "node_argument_lower_bounds": {
+            "even_left": [
+              "25/1024",
+              "21/1024",
+              "17/1024",
+              "1/256"
+            ],
+            "even_right": [
+              "21/1024",
+              "17/1024",
+              "1/64",
+              "1/256"
+            ],
+            "odd_left": [
+              "7/256",
+              "3/128",
+              "5/256",
+              "1/64"
+            ],
+            "odd_right": [
+              "3/128",
+              "5/256",
+              "1/64",
+              "1/64"
+            ]
+          },
+          "projective_polynomial_upper": "27381666294097900390625/8278198304389821989201626499091171115008",
+          "scaled_regularizer_y_jet_abs_upper": [
+            "4.604355267964422e+33",
+            "2.389909109224382e+35",
+            "1.5657213813149468e+37"
+          ]
+        }
+      ]
+    }
+  ],
+  "release_test": {
+    "all_face_complete_bounds_contract": true,
+    "all_face_regularizer_bounds_finite_positive": true,
+    "complete_numerical_norm_overclaim": false,
+    "detached_cofactor_used": false,
+    "exact_face_bounds_zero": true,
+    "native_K152_interval_emitted": false,
+    "positive_gap_floor_required": false,
+    "six_faces_replayed": true
+  },
+  "result_id": "K314-ORDER-SEVEN-PROJECTIVE-FACE-ORACLE",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

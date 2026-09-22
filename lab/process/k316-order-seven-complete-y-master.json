@@ -1,0 +1,183 @@
+{
+  "claim_ceiling": "Exact terminal radial/projective-s homogeneity join for every K315 complete bordered determinant monomial. After r^27 scaling, all B0/B1/B2 pieces reduce to finite gamma-beta moments with minimum s power two; the full factor-two-weighted terminal census has an exact rational checksum. A direct sufficiency audit rejects multiplying K312, K314 and K315 into a purported global norm because K314 covers only an interior x,b,y,split slab and does not supply the remaining-entry coefficient on s/y/split endpoint cells. Therefore no complete y-master constant, five gap-axis transfer, K294 gamma join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "complete_y_master_constant_emitted": false,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "naive_K312_times_K314_times_K315_composition_rejected": true,
+    "next_exact_input": "construct a homogeneous coefficient oracle for the remaining nonterminal entries on the full s,y,u,z compact boundary atlas, reusing K314 on one-gap p faces and K315's monomial typing; only then multiply by these exact moments and sum K312 cells",
+    "reason": "the factors have different certified domains; K315 closes placement and K316 closes radial/projective-s moments, but no accepted oracle bounds every remaining regularized entry on the complete compact angular cell family",
+    "terminal_radial_projective_join_complete": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K312_axis_order": [
+      "r",
+      "s",
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "y",
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "z0",
+      "z1",
+      "z2",
+      "z3"
+    ],
+    "K314_scope": {
+      "b": [
+        "1/32",
+        "1/8"
+      ],
+      "split": [
+        "1/4",
+        "3/4"
+      ],
+      "x": [
+        "1/16",
+        "1/8"
+      ],
+      "y": [
+        "1/4",
+        "3/4"
+      ]
+    },
+    "predecessor_manifests": [
+      "lab/process/k310-order-seven-two-radius-origin-compactification.json",
+      "lab/process/k311-order-seven-terminal-radial-join.json",
+      "lab/process/k312-order-seven-positive-cell-measure-backend.json",
+      "lab/process/k314-order-seven-projective-face-oracle.json",
+      "lab/process/k315-order-seven-terminal-bordered-adapter.json"
+    ],
+    "scaled_origin_weight": "exp(-256*r)*r^6*s^3*(1-s)^29",
+    "scaled_regularizer_degree": 27,
+    "terminal_jet_orders": [
+      0,
+      1,
+      2
+    ]
+  },
+  "homogeneity_composition": {
+    "D4_regularizer_degree": -16,
+    "bordered_nonterminal_degree_when_terminal_slot_present": -10,
+    "checksum_role": "finite radial/projective-s factor after complete K315 placement; it still multiplies the missing compact-angular coefficient of the remaining entries",
+    "dimensionless_y_derivatives_preserve_total_degree": true,
+    "terminal_radial_projective_moments": [
+      {
+        "complete_radial_projective_upper_decimal": "6.715058616684414e-19",
+        "complete_radial_projective_upper_fraction": "3/4467570830351532032",
+        "pieces": [
+          {
+            "coefficient": "1",
+            "contribution": "3/4467570830351532032",
+            "one_minus_s_power": 29,
+            "projective_beta_moment": "1/14880",
+            "radial_gamma_moment": "45/4503599627370496",
+            "scaled_radial_power": 6,
+            "scaled_s_power": 2,
+            "source_term": "1/x"
+          }
+        ],
+        "terminal_jet_order": 0
+      },
+      {
+        "complete_radial_projective_upper_decimal": "1.3434290298915419e-18",
+        "complete_radial_projective_upper_fraction": "67605/50322717833079656808448",
+        "pieces": [
+          {
+            "coefficient": "1/4",
+            "contribution": "21/50322717833079656808448",
+            "one_minus_s_power": 29,
+            "projective_beta_moment": "1/163680",
+            "radial_gamma_moment": "315/1152921504606846976",
+            "scaled_radial_power": 7,
+            "scaled_s_power": 3,
+            "source_term": "1/4"
+          },
+          {
+            "coefficient": "2",
+            "contribution": "3/2233785415175766016",
+            "one_minus_s_power": 29,
+            "projective_beta_moment": "1/14880",
+            "radial_gamma_moment": "45/4503599627370496",
+            "scaled_radial_power": 6,
+            "scaled_s_power": 2,
+            "source_term": "2/x"
+          }
+        ],
+        "terminal_jet_order": 1
+      },
+      {
+        "complete_radial_projective_upper_decimal": "4.0290374713335605e-18",
+        "complete_radial_projective_upper_fraction": "110297151/27375558501195333303795712",
+        "pieces": [
+          {
+            "coefficient": "3/8",
+            "contribution": "63/27375558501195333303795712",
+            "one_minus_s_power": 29,
+            "projective_beta_moment": "1/1391280",
+            "radial_gamma_moment": "315/36893488147419103232",
+            "scaled_radial_power": 8,
+            "scaled_s_power": 4,
+            "source_term": "3*x/8"
+          },
+          {
+            "coefficient": "6",
+            "contribution": "9/2233785415175766016",
+            "one_minus_s_power": 29,
+            "projective_beta_moment": "1/14880",
+            "radial_gamma_moment": "45/4503599627370496",
+            "scaled_radial_power": 6,
+            "scaled_s_power": 2,
+            "source_term": "6/x"
+          }
+        ],
+        "terminal_jet_order": 2
+      }
+    ],
+    "terminal_term_rule": "multiply r^27*r^-16*r^-10 by B_m; the 1/x pieces leave r^0*s^-1, the constant piece leaves r^1, and the x piece leaves r^2*s",
+    "weighted_complete_term_moment_checksum_decimal": "5.439873930371048e-16",
+    "weighted_complete_term_moment_checksum_fraction": "7445979351/13687779250597666651897856"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_K315_terminal_orders_consumed": true,
+    "all_terminal_moments_finite_positive": true,
+    "complete_numerical_norm_overclaim": false,
+    "domain_mismatch_explicit": true,
+    "five_gap_transfer_overclaim": false,
+    "minimum_s_power_after_terminal_substitution": true,
+    "native_K152_interval_emitted": false
+  },
+  "result_id": "K316-ORDER-SEVEN-COMPLETE-Y-MASTER-SUFFICIENCY-AUDIT",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS.",
+  "sufficiency_audit": {
+    "K312_positive_measure_complete": true,
+    "K314_all_six_one_gap_faces_confluent": true,
+    "K315_all_terminal_monomials_typed": true,
+    "complete_y_master_inputs_sufficient": false,
+    "global_nonterminal_angular_coefficient_available": false,
+    "missing_inputs": [
+      "s=0 and s=1 radial-projective faces outside K314's positive x,b slab",
+      "y=0 and y=1 endpoint cells outside K314's y in [1/4,3/4] slab",
+      "u_i and z_i endpoint cells outside K314's common [1/4,3/4] split slab",
+      "one uniform coefficient for the nonterminal regularized entries in every K315 monomial after r^27 scaling"
+    ],
+    "radial_projective_terminal_moments_complete": true,
+    "why_K314_cannot_be_reused_as_global": "its certified x,b,y and split intervals are strict interior slabs; taking their largest bound as a global coefficient would silently discard the radial-projective and terminal endpoint cells that K312 explicitly requires"
+  }
+}

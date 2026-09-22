@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K313 adaptive boundary-cell foundation (2026-09-22)
+## K310--K316 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -46,6 +46,31 @@ finite, with last-to-first ratios below 1.001. The probe passes 12/12 checks
 and rejects 9/9 hostile mutations. This certifies only the four explicit
 interior shells: a continuous origin limit, repeated-node projective faces,
 terminal split faces and the complete y-master sum remain open.
+
+K314 lets each of the six native projective gaps reach zero in turn. The
+regularized matrices use confluent Hermite--Genocchi bounds, so no vanishing
+gap is divided out. The exact native projective polynomial remains explicit.
+Across four shrinking slabs per face, the complete projective-times-scaled
+value/first-y/second-y bounds contract with last-to-first ratios below
+`6.3e-5`; the exact face values are zero. Its probe passes 10/10 checks and
+rejects 7/7 hostile mutations. The certified radial, y and split intervals
+remain strict interior slabs.
+
+K315 enumerates the complete nonzero determinant monomials in all twenty-one
+K308 value/first/second-y column-replacement families. It retains factor-two
+cross terms and tags the joint terminal core entry only after bordered
+assembly. K311's B0/B1/B2 budget is assigned from that monomial's column-three
+derivative order. The probe passes 10/10 checks and rejects 8/8 hostile
+mutations. This is a complete terminal-placement compiler, not a detached
+cofactor or a numerical global norm.
+
+K316 composes those terminal terms with K310's scaled measure. Every B0/B1/B2
+piece has an exact finite gamma-beta moment; the minimum remaining projective
+power is `s^2`. Its sufficiency audit rejects direct multiplication of K312,
+K314 and K315: K314 does not bound the remaining regularized entries on the
+full radial-projective, y-endpoint and split-endpoint atlas. The probe passes
+11/11 checks and rejects 10/10 hostile mutations. Consequently no complete
+y-master constant, five-gap transfer or K294 gamma join is claimed.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 
