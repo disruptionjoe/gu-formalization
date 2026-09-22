@@ -20,6 +20,20 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K340--K342 ORDER-SEVEN VALUE/RESIDUAL COMPOSITION.** K340
+> replaces K318's Peano-only endpoint charts with two fixed-node terminal
+> sectors at `p_i=1/6`, `y=1/2`. K341 deduplicates K334's gap-refined leaves
+> to twelve radial/projective cells plus three analytic tails and obtains the
+> prefactor-free base-value radius `1.4832493544503225e-06`. K342 applies the
+> native `(2*pi)^-9` factor once, giving base radius
+> `9.718413035580536e-14`, then joins K339's unchanged residual into the
+> complete order-seven symmetric cubature radius `0.004477466184614387`.
+> The signed center is not determined. Next extend the validated value-mode
+> determinant integrator to K279 orders eight through twelve, compose the full
+> base action column, and construct the complete `R_ref` residual before any
+> K152 interval. Do not count fixed-barycenter gap refinements as volume,
+> reapply K294's bare mass, or infer a physical/source claim.
+
 > **2026-09-22 K339 NORMALIZED RESIDUAL COMPOSITION.** K339 replays the
 > complete K288/K305 coherent occurrence census and K294 normalization. K338
 > already includes the radial/projective density and all six Peano masses;

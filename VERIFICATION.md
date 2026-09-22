@@ -7,6 +7,34 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K340--K342 order-seven value/residual composition (2026-09-22)
+
+K340 proves that two maximal-coordinate sectors exactly cover the terminal
+split square at the fixed K299 node. The sector Jacobian is absorbed in the
+complete bordered column or row, all eight split variables and literal zeros
+are retained, and neither K318's y-Peano mass nor its Hepp weight enters the
+value functional. Its probe passes 10/10 controls and rejects 10/10 hostile
+mutations.
+
+K341 projects K334's 516 gap-refined leaves to twelve distinct radial/
+projective cells: at fixed `p_i=1/6`, the gap coordinates are not integrated,
+so adjacent gap refinements must not be counted repeatedly. The twelve cells
+have exact r/s volume one; three analytic tails close the radial half-line.
+At 180-digit Arb precision the complete four-group prefactor-free base-value
+radius is `1.4832493544503225e-06`. The stored cover checksum and numerical
+radius are pinned by the validator; its probe passes 14/14 controls and
+rejects 14/14 hostile mutations.
+
+K342 applies the native `(2*pi)^-9` factor exactly once to obtain normalized
+base radius `9.718413035580536e-14`, then adds K339's separately normalized
+Peano radius `0.004477466184517202`. The complete order-seven positive-
+cubature enclosure is the symmetric interval of radius
+`0.004477466184614387`. Its signed center is not determined, and the residual
+dominates the base term by about 46 billion. The pinned probe passes 14/14
+controls and rejects 14/14 hostile mutations. This is not the complete base
+action column, complete `R_ref` residual, native K152 interval, or a source,
+ledger, canon, paper, public, or physical result.
+
 ## K339 normalized residual composition (2026-09-22)
 
 K339 replays all 24 K288 stored occurrences, all four K305 coherent groups and

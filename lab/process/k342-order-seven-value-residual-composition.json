@@ -1,0 +1,97 @@
+{
+  "claim_ceiling": "Complete rigorous interval composition for the K299 positive cubature of the four-group K305 order-seven occurrence sum. K341's prefactor-free base-value radius 0.0000014832493544503225 is multiplied once by (2*pi)^-9, giving normalized base radius below 9.718413035580536e-14; adding K339's separately normalized Peano radius gives the complete order-seven cubature interval radius below 0.004477466184614387. The interval is symmetric because this outward calculation does not determine the signed center. Other K279 action-column orders and the complete R_ref residual remain separate, so no complete base action column, native K152 interval, source/ledger move, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "complete_order_seven_cubature_enclosure": {
+    "base_and_residual_kept_distinct": true,
+    "complete_four_group_order_seven_enclosure_emitted": true,
+    "composition": "normalized K299 one-node value interval plus independent normalized six-axis Peano residual radius",
+    "radius_upper": "0.004477466184614387",
+    "symmetric_interval": [
+      "-0.004477466184614387",
+      "0.004477466184614387"
+    ]
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "complete_R_ref_residual_evaluated": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_order_seven_positive_cubature_enclosure_emitted": true,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "extend the validated value-mode determinant integrator to the remaining K279 orders eight through twelve, then compose all action-column orders and the complete R_ref residual before any native K152 interval",
+    "order_seven_signed_center_determined": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coherent_groups": 4,
+    "ordered_terms_per_group": 9,
+    "predecessor_manifests": [
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k339-order-seven-normalized-residual-composition.json",
+      "lab/process/k341-order-seven-complete-barycentric-value.json"
+    ],
+    "simplex_node": [
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6"
+    ],
+    "simplex_weight": "1/120",
+    "y_node": "1/2"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "normalization_ledger": {
+    "K294_bare_mass_applied_again": false,
+    "K294_transformed_density_already_inside_K341_and_K339": true,
+    "K299_Peano_masses_already_inside_K339_residual": true,
+    "K299_simplex_weight_already_inside_K341": true,
+    "K318_y_Peano_mass_applied_to_value": false,
+    "native_prefactor_applied_to_base_value_once": true,
+    "native_prefactor_exact": "(2*pi)^-9",
+    "native_prefactor_interval": {
+      "lower": "6.552110072673571e-08",
+      "upper": "6.552110072673574e-08"
+    },
+    "prefactor_free_base_value_abs_upper": "0.0000014832493544503225"
+  },
+  "normalized_base_value": {
+    "meaning": "absolute interval for the complete four-group K305 order-seven K299 one-node value after the native prefactor",
+    "radius_upper": "9.718413035580536e-14",
+    "signed_center_determined": false,
+    "symmetric_interval": [
+      "-9.718413035580536e-14",
+      "9.718413035580536e-14"
+    ]
+  },
+  "normalized_peano_residual": {
+    "radius_upper": "0.004477466184517202",
+    "recomputed_or_rescaled": false,
+    "source": "K339",
+    "symmetric_interval": [
+      "-0.004477466184517202",
+      "0.004477466184517202"
+    ]
+  },
+  "release_test": {
+    "K294_bare_mass_not_double_multiplied": true,
+    "K299_value_and_Peano_weights_kept_distinct": true,
+    "K318_Peano_atlas_not_relabelled_as_value_mode": true,
+    "K339_residual_not_rescaled": true,
+    "K341_base_value_normalized_once": true,
+    "all_four_K305_groups_replayed": true,
+    "combined_enclosure_finite_positive": true,
+    "native_K152_interval_emitted": false,
+    "normalized_base_finite_positive": true
+  },
+  "result_id": "K342-ORDER-SEVEN-VALUE-RESIDUAL-COMPOSITION",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

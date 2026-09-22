@@ -1,0 +1,100 @@
+{
+  "claim_ceiling": "Exact two-sector value-mode atlas for the K299 node p_i=1/6,y=1/2. It covers the full eight-split cube, absorbs the terminal-sector Jacobian into a complete K305 bordered determinant, retains all four coherent groups and literal border zeros, and uses neither K318's Peano kernel nor its y endpoint mass. It does not yet integrate the radial/projective domain, emit a base value, complete an action column or R_ref residual, produce a K152 interval, or move source, ledger, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "coverage": {
+    "K318_y_Peano_mass_multiplied": false,
+    "all_eight_split_variables_retained": true,
+    "barycentric_p_and_y_fixed_before_split_integration": true,
+    "left_right_sectors_related_by_exact_transpose": true,
+    "terminal_square_covered_exactly": true
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "full_radial_projective_value_integrated": false,
+    "next_exact_input": "evaluate both value sectors on the deduplicated K334 radial/projective cover with all six p_i fixed to 1/6, then apply the three analytic radial tails",
+    "normalized_base_value_emitted": false,
+    "value_mode_barycentric_terminal_split_atlas_complete": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coherent_groups": 4,
+    "native_split_variables": [
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "z0",
+      "z1",
+      "z2",
+      "z3"
+    ],
+    "ordered_terms_per_group": 9,
+    "predecessor_manifests": [
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k318-order-seven-weighted-endpoint-blowup-atlas.json",
+      "lab/process/k339-order-seven-normalized-residual-composition.json"
+    ],
+    "simplex_node": [
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6"
+    ],
+    "simplex_weight": "1/120",
+    "terminal_split_variables": [
+      "a=1-u3",
+      "b=1-z3"
+    ],
+    "y_node": "1/2"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "result_id": "K340-ORDER-SEVEN-BARYCENTRIC-VALUE-ATLAS",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS.",
+  "value_mode_terminal_split_atlas": {
+    "K318_Peano_kernel_used": false,
+    "K318_endpoint_Hepp_weight_used": false,
+    "complete_matrix_rule": "retain all four K305 coherent bordered determinants and literal zeros; take absolute values only after each complete group determinant is assembled",
+    "detached_terminal_cofactor_used": false,
+    "exact_sector_mass_sum": "1",
+    "measure_zero_overlap": "a=b",
+    "occurrencewise_absolute_sum_used": false,
+    "raw_Bessel_zero_evaluation_used": false,
+    "remaining_six_split_variables": "retain their full unit cubes inside the D4 and bordered-B5 arguments; their total cube volume is one",
+    "scaled_terminal_rule": "rho*(2*K1(r*s*rho*H))=(Phi_0(r*s*rho*H))/(r*s*H); after the common r*s column scale, abs(Phi_0/H)<=4",
+    "sector_count": 2,
+    "sectors": [
+      {
+        "determinant_absorption": "absorb r*s*rho into bordered-B5 column 3 before complete determinant enclosure",
+        "domain": "0<=b<=a<=1",
+        "exact_sector_mass": "1/2",
+        "id": "a_max",
+        "jacobian": "rho",
+        "map": "a=rho; b=rho*theta",
+        "matrix_orientation": "left_terminal_column",
+        "terminal_argument": "r*s*rho*(1+theta)/2",
+        "terminal_factor_H": "(1+theta)/2 in [1/2,1]"
+      },
+      {
+        "determinant_absorption": "transpose the a_max complete bordered matrix, so r*s*rho is absorbed into row 3",
+        "domain": "0<=a<=b<=1",
+        "exact_sector_mass": "1/2",
+        "id": "b_max",
+        "jacobian": "rho",
+        "map": "a=rho*theta; b=rho",
+        "matrix_orientation": "right_terminal_row",
+        "terminal_argument": "r*s*rho*(1+theta)/2",
+        "terminal_factor_H": "(1+theta)/2 in [1/2,1]"
+      }
+    ]
+  }
+}

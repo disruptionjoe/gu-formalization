@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-22 — K340--K342 order-seven value/residual composition
+
+K340 supplies the missing fixed-node value geometry: two terminal split
+sectors at `p_i=1/6`, `y=1/2`, with each Jacobian absorbed inside a complete
+K305 bordered determinant and no K318 Peano/Hepp weight. K341 then removes
+K334's irrelevant gap refinement at the exact barycenter, leaving twelve
+distinct radial/projective cells and three analytic tails. Their complete
+four-group prefactor-free base-value radius is
+`1.4832493544503225e-06`.
+
+K342 applies `(2*pi)^-9` once, giving normalized base radius
+`9.718413035580536e-14`, and composes it with K339's unchanged residual. The
+complete order-seven positive-cubature enclosure is symmetric with radius
+`0.004477466184614387`; this calculation does not determine its signed center.
+The next exact dependency is orders eight through twelve through the same
+validated value-mode determinant integrator, followed by the complete base
+action column and complete `R_ref` residual. No K152 interval, source/ledger,
+canon, paper, public, or physical claim follows.
+
 ## 2026-09-22 — K339 normalized residual composition
 
 K339 composes the K338 six-axis Peano bank with the native K288/K294 scalar

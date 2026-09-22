@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 990997b7f8e97c9f2a9478a4b8889556449fd82a
+revision_basis: 466d981634f4edaf10902cf2b81a85ad73af1edb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -290,6 +290,25 @@ current_result:
     is not `F(p_i=1/6,y=1/2)` and cannot be substituted for the K299 one-node
     action value. The value-mode barycentric terminal-split integral, the
     remaining action-column orders and the complete `R_ref` residual stay open.
+
+    K340 separates that missing value functional from K318's Peano geometry.
+    At the fixed K299 node `p_i=1/6`, `y=1/2`, two maximal-coordinate sectors
+    exactly cover the terminal split square. Their Jacobian is absorbed into
+    the complete bordered column or row before enclosure; all eight split
+    variables, literal border zeros and all four K305 coherent groups remain
+    inside the determinant construction. No K318 Peano/Hepp weight is used.
+    K341 projects K334's 516 gap-refined leaves onto twelve distinct radial/
+    projective cells because the six gaps are fixed exactly at the barycenter;
+    summing adjacent gap leaves would count the same fixed node repeatedly.
+    Those twelve cells and three analytic tails give the prefactor-free
+    base-value radius `1.4832493544503225e-06`. K342 applies `(2*pi)^-9`
+    once, obtaining normalized base radius `9.718413035580536e-14`, and joins
+    it to K339's unchanged residual. The complete order-seven positive-
+    cubature enclosure is therefore the symmetric interval of radius
+    `0.004477466184614387`. Its signed center is not determined, and the
+    residual dominates the base radius; orders eight through twelve, the
+    complete base action column, and the complete `R_ref` residual remain open
+    before any K152 interval.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9538,20 +9557,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K339 composes K338's complete six-axis remainder bank with the native
-  `(2*pi)^-9` factor and gives the finite order-seven K288/K305 Peano residual
-  radius 0.004477466184517202 without multiplying K294's bare mass twice.
-  K334's zeroth coefficient is not the K299 one-node value because it remains
-  inside K318's y-Peano atlas of mass 1/24. Construct a value-mode barycentric
-  terminal-split atlas at p_i=1/6 and y=1/2, integrate the complete four-group
-  K305 value functional over the full radial/projective and eight-split domain,
-  then join that value to K339's separate residual radius. Only after the
-  remaining action-column orders and complete R_ref residual are composed may
-  a native K152 interval be considered.
+  K340--K342 complete the order-seven value/residual composition without
+  conflating K318's Peano atlas with K299's fixed-node value rule. The twelve
+  deduplicated radial/projective cells and three analytic tails give
+  prefactor-free base radius 1.4832493544503225e-06; one native `(2*pi)^-9`
+  factor gives base radius 9.718413035580536e-14, and K339's unchanged Peano
+  residual gives complete symmetric radius 0.004477466184614387. The signed
+  center is not determined. Extend the validated determinant-valued value-mode
+  integrator to K279 orders eight through twelve, preserving every K179
+  coefficient, contracted position and coherent cross term. Then compose the
+  complete base action column and construct the complete R_ref residual before
+  considering a native K152 interval.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
-  pointwise bank. The released remainder bank is not an action-column value,
-  complete residual or native K152 interval.
+  pointwise bank. The released order-seven enclosure is not the complete base
+  action column, complete residual or native K152 interval.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9794,16 +9814,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K339 as the accepted native normalization of the complete order-seven
-  Peano residual, with radius `0.004477466184517202`. Preserve its proof that
-  K334's zeroth coefficient remains a K318 y-Peano-atlas coefficient and is
-  not the K299 one-node action value. Construct a value-mode barycentric
-  terminal-split atlas at `p_i=1/6`, `y=1/2`, retaining the complete four-group
-  K305 bordered determinant, literal zeros and full radial/projective and
-  eight-split domain. Join that separately evaluated value only to K339's
-  residual radius; do not multiply K294's bare mass again. The other
-  action-column orders and complete `R_ref` residual remain separate before
-  any K152 interval.
+  Treat K340--K342 as the accepted complete order-seven positive-cubature
+  enclosure. Preserve the exact two-sector value atlas, the twelve-cell
+  deduplicated radial/projective cover, three analytic tails, complete K305
+  determinants, literal zeros, all eight split variables and the separate
+  value/residual normalization ledger. The normalized base radius is
+  `9.718413035580536e-14`; K339's unchanged Peano radius is
+  `0.004477466184517202`; their outward symmetric composition has radius
+  `0.004477466184614387` and does not determine a signed center. Extend the
+  same validated determinant-valued value-mode integrator to K279 orders
+  eight through twelve, preserving every K179 coefficient, contracted
+  position and coherent cross term. Compose all base action-column orders and
+  the complete `R_ref` residual separately before any K152 interval.
 
   Treat K334 as the accepted complete y-master subdivision, K335 as the
   order-seven/eight zero-safe kernel extension, K336 as the complete

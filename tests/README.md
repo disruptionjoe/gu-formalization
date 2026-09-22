@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K340--K342 order-seven value/residual composition
+
+- `channel-swings/k340_order_seven_barycentric_value_atlas.py` builds the two
+  exact terminal sectors for the fixed K299 node without importing K318's
+  Peano/Hepp weights; its probe checks coverage, determinant placement and
+  scope boundaries.
+- `channel-swings/k341_order_seven_complete_barycentric_value.py` deduplicates
+  K334 to twelve radial/projective cells, adds three analytic tails, and emits
+  the complete four-group prefactor-free base-value interval at 180-digit Arb
+  precision; its probe pins the cover checksum and numerical radius.
+- `channel-swings/k342_order_seven_value_residual_composition.py` applies the
+  native prefactor once and composes the base interval with K339's unchanged
+  residual; its probe pins both normalized radii and rejects signed-center,
+  double-normalization, `R_ref`, and K152 overclaims.
+
 ## K339 normalized residual composition
 
 - `channel-swings/k339_order_seven_normalized_residual_composition.py` replays

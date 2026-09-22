@@ -1,0 +1,268 @@
+{
+  "assembly_contract": {
+    "all_eight_split_variables_retained": true,
+    "all_four_K305_groups_included": true,
+    "complete_group_determinant_precedes_absolute_value": true,
+    "degree_27_origin_normalization_used": true,
+    "detached_terminal_cofactor_used": false,
+    "literal_B5_zeros_retained": true,
+    "occurrencewise_absolute_sum_used": false,
+    "projective_face_preconditioners_used": true,
+    "raw_Bessel_zero_evaluation_used": false,
+    "terminal_jacobian_absorbed_into_complete_column_or_row": true
+  },
+  "claim_ceiling": "Finite complete outward interval for the four-group K305 order-seven value functional at K299's node p_i=1/6,y=1/2. Twelve deduplicated K334 radial/projective cells and three analytic tails cover the full half-line; both K340 terminal sectors and all eight split variables remain inside complete bordered determinants. The simplex weight is applied once, while K318's Peano mass and K294's bare mass are not reapplied. The native (2*pi)^-9 scalar and K339 residual join remain separate, and no complete base action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "complete_barycentric_value": {
+    "K294_bare_mass_applied_again": false,
+    "K299_simplex_weight_applied_once": true,
+    "K318_y_Peano_mass_applied": false,
+    "prefactor_free_analytic_tail_abs_upper": "4.414800311724687e-72",
+    "prefactor_free_complete_abs_upper": "1.4832493544503225e-06",
+    "prefactor_free_finite_abs_upper": "1.4832493508976088e-06",
+    "symmetric_interval": [
+      "-1.4832493544503225e-06",
+      "1.4832493544503225e-06"
+    ]
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "K339_residual_joined": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_prefactor_free_order_seven_base_value_interval_emitted": true,
+    "native_K152_interval_emitted": false,
+    "native_prefactor_applied": false,
+    "next_exact_input": "apply the native (2*pi)^-9 scalar once to this base-value interval, then add K339's separately normalized Peano residual radius"
+  },
+  "deduplicated_radial_projective_cover": {
+    "analytic_tail_cells": [
+      {
+        "projective": [
+          "0",
+          "1/4"
+        ],
+        "radial_tail_power": 35,
+        "region": "s0",
+        "two_sector_four_group_abs_upper": "4.2220955791240164e-72"
+      },
+      {
+        "projective": [
+          "1/4",
+          "3/4"
+        ],
+        "radial_tail_power": 35,
+        "region": "interior",
+        "two_sector_four_group_abs_upper": "1.9270472153136274e-73"
+      },
+      {
+        "projective": [
+          "3/4",
+          "1"
+        ],
+        "radial_tail_power": 35,
+        "region": "s1",
+        "two_sector_four_group_abs_upper": "6.883977545141169e-93"
+      }
+    ],
+    "barycenter_boundary_ownership": "gap refinements are discarded after r/s projection because p_i is fixed exactly; no adjacent gap leaf is summed twice",
+    "exact_finite_rs_volume_sum": "1",
+    "finite_rs_cells": [
+      {
+        "id": "interior-r0",
+        "projective": [
+          "1/4",
+          "3/4"
+        ],
+        "radial": [
+          "0",
+          "1/16"
+        ],
+        "region": "interior",
+        "two_sector_four_group_abs_upper": "8.024824160735024e-08"
+      },
+      {
+        "id": "interior-r1/00",
+        "projective": [
+          "1/4",
+          "1/2"
+        ],
+        "radial": [
+          "1/16",
+          "17/32"
+        ],
+        "region": "interior",
+        "two_sector_four_group_abs_upper": "4.187299708358073e-09"
+      },
+      {
+        "id": "interior-r1/01",
+        "projective": [
+          "1/2",
+          "3/4"
+        ],
+        "radial": [
+          "1/16",
+          "17/32"
+        ],
+        "region": "interior",
+        "two_sector_four_group_abs_upper": "5.9374365800939844e-15"
+      },
+      {
+        "id": "interior-r1/10",
+        "projective": [
+          "1/4",
+          "1/2"
+        ],
+        "radial": [
+          "17/32",
+          "1"
+        ],
+        "region": "interior",
+        "two_sector_four_group_abs_upper": "3.4041718040186702e-46"
+      },
+      {
+        "id": "interior-r1/11",
+        "projective": [
+          "1/2",
+          "3/4"
+        ],
+        "radial": [
+          "17/32",
+          "1"
+        ],
+        "region": "interior",
+        "two_sector_four_group_abs_upper": "4.5505103112870625e-52"
+      },
+      {
+        "id": "s0-r0",
+        "projective": [
+          "0",
+          "1/4"
+        ],
+        "radial": [
+          "0",
+          "1/16"
+        ],
+        "region": "s0",
+        "two_sector_four_group_abs_upper": "1.0239248133814274e-06"
+      },
+      {
+        "id": "s0-r1/00",
+        "projective": [
+          "0",
+          "1/8"
+        ],
+        "radial": [
+          "1/16",
+          "17/32"
+        ],
+        "region": "s0",
+        "two_sector_four_group_abs_upper": "3.723788273291007e-07"
+      },
+      {
+        "id": "s0-r1/01",
+        "projective": [
+          "1/8",
+          "1/4"
+        ],
+        "radial": [
+          "1/16",
+          "17/32"
+        ],
+        "region": "s0",
+        "two_sector_four_group_abs_upper": "2.510143884415506e-09"
+      },
+      {
+        "id": "s0-r1/10",
+        "projective": [
+          "0",
+          "1/8"
+        ],
+        "radial": [
+          "17/32",
+          "1"
+        ],
+        "region": "s0",
+        "two_sector_four_group_abs_upper": "3.0604667838380637e-44"
+      },
+      {
+        "id": "s0-r1/11",
+        "projective": [
+          "1/8",
+          "1/4"
+        ],
+        "radial": [
+          "17/32",
+          "1"
+        ],
+        "region": "s0",
+        "two_sector_four_group_abs_upper": "1.9185504013530435e-46"
+      },
+      {
+        "id": "s1-r0",
+        "projective": [
+          "3/4",
+          "1"
+        ],
+        "radial": [
+          "0",
+          "1/16"
+        ],
+        "region": "s1",
+        "two_sector_four_group_abs_upper": "5.286859697722708e-27"
+      },
+      {
+        "id": "s1-r1",
+        "projective": [
+          "3/4",
+          "1"
+        ],
+        "radial": [
+          "1/16",
+          "1"
+        ],
+        "region": "s1",
+        "two_sector_four_group_abs_upper": "4.580492295711924e-21"
+      }
+    ],
+    "gap_refinement_not_integrated_at_fixed_barycenter": true,
+    "source_K334_leaf_count": 516,
+    "tail_finiteness_is_analytic_not_sampled": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "analytic_tail_cell_count": 3,
+    "arb_decimal_digits": 180,
+    "coherent_group_count": 4,
+    "finite_rs_cell_count": 12,
+    "predecessor_manifests": [
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k334-order-seven-recursive-global-subdivision.json",
+      "lab/process/k340-order-seven-barycentric-value-atlas.json"
+    ],
+    "radial_tail_power": 35,
+    "rs_cover_checksum": "sha256:035429c0d55c405368fb7a70319b9ab68993e85db1d01a34c49623ad2085e643",
+    "simplex_node": [
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6",
+      "1/6"
+    ],
+    "simplex_weight": "1/120",
+    "terminal_sector_count": 2,
+    "threads": 1,
+    "y_node": "1/2"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "result_id": "K341-ORDER-SEVEN-COMPLETE-BARYCENTRIC-VALUE",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}
