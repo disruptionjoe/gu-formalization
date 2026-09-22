@@ -20,6 +20,23 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K291 NATIVE INTERIOR REMAINDER.** Complete fourth-order
+> product composition of K284/K286 with K290 gives a four-group local
+> native-density shape-average error below `2.168399176e-35`, or
+> `4.379047263e-63` after one shape-box volume and the full x-width. K284's
+> t-centered boxes overlap in native `(r,c)`, so the result is not a complete
+> tube integral. Construct a disjoint `dr dc` atlas or exact multiplicity rule,
+> and sharpen the dominant old-kernel corner if needed, before exterior work.
+> See `explorations/conditional-build/k291-order-seven-native-interior-remainder-2026-09-21.md`.
+
+> **2026-09-21 K290 NATIVE REST DERIVATIVE BANK.** All 24 K288 occurrences
+> now have finite native-rest shape bounds through order four. The proof pairs
+> `y(1-y)` with the two old kernels before the split endpoints, retains both
+> determinant factors and all labelled product assignments, and keeps each
+> coherent six-entry group before absolute enclosure. The conservative raw
+> fourth-order bank is largest at the right old-kernel corner. See
+> `explorations/conditional-build/k290-order-seven-native-rest-derivative-bank-2026-09-21.md`.
+
 > **2026-09-21 K289 COMMON-PRIMITIVE COMPOSITION BOUNDARY.** All 24 native
 > size-four occurrences share the K287 factor on `x,r,c`, but every companion
 > size-three determinant and both old-position kernels retain internal split

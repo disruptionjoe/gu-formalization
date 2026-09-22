@@ -1,0 +1,129 @@
+{
+  "claim_ceiling": "Rigorous native-density-weighted two-node tensor remainder ceiling for one K284 transverse shape box, uniform in x,y,u,z and summed only after each of the four coherent six-entry groups is enclosed. No disjoint native tube integral, radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "coherent_group_composition": [
+    {
+      "complete_fourth_shape_derivative_abs_upper": "2.8124932954268247039181737715424075706E-16",
+      "dominant_product_rule_split": 1,
+      "group_id": "seed=0|d=1|1+^3,1-^4",
+      "regularizer_derivative_order_contributions": {
+        "0": "2.2519931187693861615807825938006E-22",
+        "1": "2.19114768248738918834343004079580E-16",
+        "2": "5.48491336591166626279686620871564E-17",
+        "3": "7.08191498421869801455151634991104E-18",
+        "4": "2.03287451296313976338036559333937E-19"
+      }
+    },
+    {
+      "complete_fourth_shape_derivative_abs_upper": "2.8124932954268247039181737715424075706E-16",
+      "dominant_product_rule_split": 1,
+      "group_id": "seed=0|d=2|2+^3,2-^4",
+      "regularizer_derivative_order_contributions": {
+        "0": "2.2519931187693861615807825938006E-22",
+        "1": "2.19114768248738918834343004079580E-16",
+        "2": "5.48491336591166626279686620871564E-17",
+        "3": "7.08191498421869801455151634991104E-18",
+        "4": "2.03287451296313976338036559333937E-19"
+      }
+    },
+    {
+      "complete_fourth_shape_derivative_abs_upper": "2.8124932954268247039181737715424075706E-16",
+      "dominant_product_rule_split": 1,
+      "group_id": "seed=1|d=0|1+^4,1-^3",
+      "regularizer_derivative_order_contributions": {
+        "0": "2.2519931187693861615807825938006E-22",
+        "1": "2.19114768248738918834343004079580E-16",
+        "2": "5.48491336591166626279686620871564E-17",
+        "3": "7.08191498421869801455151634991104E-18",
+        "4": "2.03287451296313976338036559333937E-19"
+      }
+    },
+    {
+      "complete_fourth_shape_derivative_abs_upper": "2.8124932954268247039181737715424075706E-16",
+      "dominant_product_rule_split": 1,
+      "group_id": "seed=2|d=0|2+^4,2-^3",
+      "regularizer_derivative_order_contributions": {
+        "0": "2.2519931187693861615807825938006E-22",
+        "1": "2.19114768248738918834343004079580E-16",
+        "2": "5.48491336591166626279686620871564E-17",
+        "3": "7.08191498421869801455151634991104E-18",
+        "4": "2.03287451296313976338036559333937E-19"
+      }
+    }
+  ],
+  "comparison_with_k287": {
+    "direct_ratio_meaningful": false,
+    "k287_normalized_regularizer_only_six_axis_error": "4.760287090454296258296768624202539083651370472378200954861111111111111111111111111111111111111111111E-7",
+    "k291_includes_native_density_and_all_four_coherent_groups": true,
+    "reason": "K287 integrates only R4 against a normalized uniform shape measure, while K291 bounds the complete density-weighted coherent integrand pointwise in x,y,u,z."
+  },
+  "composition_rule": {
+    "group_before_global_absolute_value": true,
+    "group_product": "D^4(R4*G)=sum_{j=0}^4 binom(4,j) D^j R4 D^(4-j)G with every labelled allocation retained in K286 and K290",
+    "native_density_location": "K290 G already includes (2*pi)^-9 exp(-256*x*L) x^15 y(1-y) product(r_i c_i)",
+    "positive_tensor_telescope": "six times the normalized one-axis two-node Gauss-Legendre remainder h^4*M4/270"
+  },
+  "created": "2026-09-21",
+  "decision": {
+    "action_column_ready": false,
+    "complete_native_tube_remainder_serialized": false,
+    "native_density_weighted_local_shape_remainder_serialized": true,
+    "next_exact_input": "construct a disjoint native dr dc atlas for the K284 union and replace the dominant endpoint/product majorant by a split-corner weighted rule before radial or projective-gap exterior composition"
+  },
+  "direction": "observed_to_native",
+  "dominance": {
+    "factor_order_four_abs_uppers": {
+      "common_size_four_cauchy_determinant": "1500111693.1805127",
+      "companion_size_three_bessel_determinant": "10971219.793309635",
+      "left_endpoint_safe_old_kernel_piece": "8870707424.073582",
+      "native_exponential": "1.716561595580818E-9",
+      "projective_product": "0.001222849823534489",
+      "right_endpoint_safe_old_kernel_piece": "21741104165.379894"
+    },
+    "group_product_rule_dominant_regularizer_derivative_order": 1,
+    "interpretation": "This is a dominance diagnosis for the conservative majorant, not a lower bound or proof that a sharper weighted/correlated rule must fail.",
+    "largest_raw_factor_order_four_bound": "right_endpoint_safe_old_kernel_piece"
+  },
+  "fixed_control": {
+    "coherent_groups": 4,
+    "maximum_derivative_order": 4,
+    "native_rest_manifest": "lab/process/k290-order-seven-native-rest-derivative-bank.json",
+    "nodes_per_axis": 2,
+    "proxy_remainder_manifest": "lab/process/k287-order-seven-tensor-jacobi-remainder.json",
+    "regularizer_derivative_manifest": "lab/process/k286-order-seven-mixed-shape-derivative-bank.json",
+    "shape_coordinate_count": 6,
+    "transverse_shape_radius": "1/32768",
+    "tube_manifest": "lab/process/k284-order-seven-transverse-shape-atlas.json"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "native_density_remainder": {
+    "complete_four_group_fourth_shape_derivative_abs_upper": "1.12499731817072988156726950861696302824E-15",
+    "complete_native_tube_integral_emitted": false,
+    "one_axis_normalized_shape_average_abs_upper": "3.613998626373545453744944808475950088735542367304434366006818082597520616319444444444444444444444444E-36",
+    "reason": "K284 certifies overlapping t-centered shape boxes but does not supply a disjoint native dr dc atlas or multiplicity rule",
+    "single_center_box_x_y_u_z_integrated_abs_upper": "4.379047262006059462456622830297872366659176371780773423141238837264712497274217004066890398247968688E-63",
+    "single_shape_box_integral_abs_upper": "1.121036099073551222388895444556255325864749151175877996324157142339766399302199553041123941951479984E-60",
+    "single_shape_box_volume": "5.1698788284564229679463043254372678347863256931304931640625000000E-26",
+    "six_axis_normalized_shape_average_abs_upper": "2.168399175824127272246966885085570053241325420382660619604090849558512369791666666666666666666666666E-35",
+    "x_interval_width": "0.00390625",
+    "y_u_z_domain_volume": "1"
+  },
+  "release_test": {
+    "all_four_coherent_groups_composed": true,
+    "complete_arbitrary_gap_ratio_domain_covered": false,
+    "complete_base_action_column_evaluated": false,
+    "disjoint_native_tube_atlas_serialized": false,
+    "k286_and_k290_complete_fourth_order_product_rule_composed": true,
+    "native_K152_interval_emitted": false,
+    "native_density_included": true,
+    "positive_six_axis_tensor_remainder_applied": true
+  },
+  "result_id": "K291-ORDER-SEVEN-NATIVE-INTERIOR-REMAINDER",
+  "schema_version": "1.0"
+}

@@ -4,6 +4,25 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K291 native-density local interior remainder
+
+- `channel-swings/k291_order_seven_native_interior_remainder.py` composes the
+  K284/K286 regularizer bank with all four K290 coherent groups and applies the
+  positive two-node tensor remainder.
+- `channel-swings/k291_order_seven_native_interior_remainder_probe.py`
+  independently replays the product rule, box volume, tensor coefficient and
+  claim ceiling, and rejects eight hostile mutations. The result is not a
+  complete native tube integral.
+
+## K290 native rest-factor derivative bank
+
+- `channel-swings/k290_order_seven_native_rest_derivative_bank.py` bounds the
+  complete native rest factor through fourth shape order with endpoint-safe
+  old kernels and complete labelled determinant/product rules.
+- `channel-swings/k290_order_seven_native_rest_derivative_bank_probe.py`
+  independently replays all 24 occurrences, four coherent groups, product
+  assignments and scope controls, and rejects eight hostile mutations.
+
 ## K289 common-primitive composition boundary
 
 - `channel-swings/k289_order_seven_common_primitive_composition_boundary.py`

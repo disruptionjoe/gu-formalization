@@ -1,0 +1,403 @@
+{
+  "claim_ceiling": "Rigorous componentwise shape-derivative envelopes through order four for the complete native rest factor of all 24 order-seven size-four occurrences on the K284 tube, with four coherent six-entry groups retained before absolute enclosure. No composed native interior remainder, tube volume, radial/projective exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "coherent_group_bank": [
+    {
+      "absolute_weight_sum": 9,
+      "componentwise_mixed_derivative_abs_upper": [
+        "8.231238238699331e-33",
+        "3.612484027000704e-30",
+        "9.754807566990294e-28",
+        "3.2437568692337433e-25",
+        "1.456856786071153e-22"
+      ],
+      "group_id": "seed=0|d=1|1+^3,1-^4",
+      "negative_weight_abs_sum": 4,
+      "positive_weight_sum": 5,
+      "records": 6,
+      "signed_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ],
+      "value_interval_from_positive_rest_factors": [
+        "-6.584990590959462e-33",
+        "8.231238238699331e-33"
+      ]
+    },
+    {
+      "absolute_weight_sum": 9,
+      "componentwise_mixed_derivative_abs_upper": [
+        "8.231238238699331e-33",
+        "3.612484027000704e-30",
+        "9.754807566990294e-28",
+        "3.2437568692337433e-25",
+        "1.456856786071153e-22"
+      ],
+      "group_id": "seed=0|d=2|2+^3,2-^4",
+      "negative_weight_abs_sum": 4,
+      "positive_weight_sum": 5,
+      "records": 6,
+      "signed_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ],
+      "value_interval_from_positive_rest_factors": [
+        "-6.584990590959462e-33",
+        "8.231238238699331e-33"
+      ]
+    },
+    {
+      "absolute_weight_sum": 9,
+      "componentwise_mixed_derivative_abs_upper": [
+        "8.231238238699331e-33",
+        "3.612484027000704e-30",
+        "9.754807566990294e-28",
+        "3.2437568692337433e-25",
+        "1.456856786071153e-22"
+      ],
+      "group_id": "seed=1|d=0|1+^4,1-^3",
+      "negative_weight_abs_sum": 4,
+      "positive_weight_sum": 5,
+      "records": 6,
+      "signed_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ],
+      "value_interval_from_positive_rest_factors": [
+        "-6.584990590959462e-33",
+        "8.231238238699331e-33"
+      ]
+    },
+    {
+      "absolute_weight_sum": 9,
+      "componentwise_mixed_derivative_abs_upper": [
+        "8.231238238699331e-33",
+        "3.612484027000704e-30",
+        "9.754807566990294e-28",
+        "3.2437568692337433e-25",
+        "1.456856786071153e-22"
+      ],
+      "group_id": "seed=2|d=0|2+^4,2-^3",
+      "negative_weight_abs_sum": 4,
+      "positive_weight_sum": 5,
+      "records": 6,
+      "signed_weights": [
+        1,
+        -2,
+        2,
+        1,
+        -2,
+        1
+      ],
+      "value_interval_from_positive_rest_factors": [
+        "-6.584990590959462e-33",
+        "8.231238238699331e-33"
+      ]
+    }
+  ],
+  "created": "2026-09-21",
+  "decision": {
+    "all_four_coherent_group_sums_retained_before_absolute_enclosure": true,
+    "common_size_four_regularizer_composed": false,
+    "complete_sixteen_variable_rest_factor_typed": true,
+    "next_exact_input": "compose each coherent-group rest bank with K284/K286 by the complete fourth-order product rule, then apply the K287 positive tensor remainder and identify the dominant factor family",
+    "shape_derivatives_through_order_four_serialized": true
+  },
+  "derivative_bank": {
+    "constant_scalar_upper": {
+      "native_prefactor_upper": "1/10077696",
+      "x15_prefactor_upper": "2.820258661345213e-21",
+      "x_power": 15
+    },
+    "factor_componentwise_mixed_derivative_abs_upper": {
+      "common_size_four_cauchy_determinant": [
+        "1785847.2537863245",
+        "7143389.015145298",
+        "35716945.075726494",
+        "214301670.45435894",
+        "1500111693.1805127"
+      ],
+      "companion_size_three_bessel_determinant": [
+        "25438.937414023294",
+        "81417.96195377866",
+        "340276.85245464166",
+        "1766068.490792942",
+        "10971219.793309635"
+      ],
+      "left_endpoint_safe_old_kernel_piece": [
+        "16.516129032258068",
+        "566.0204933586339",
+        "81348.45653074341",
+        "22246732.793475673",
+        "8870707424.073582"
+      ],
+      "native_exponential": [
+        "1.6370407062347584e-15",
+        "5.238530259951227e-14",
+        "1.6763296831843926e-12",
+        "5.364254986190056e-11",
+        "1.716561595580818e-09"
+      ],
+      "projective_product": [
+        "2.877311859407574e-11",
+        "3.6686285995746066e-09",
+        "3.744972646444259e-07",
+        "2.392110403093284e-05",
+        "0.001222849823534489"
+      ],
+      "right_endpoint_safe_old_kernel_piece": [
+        "16.516129032258068",
+        "707.6526639019913",
+        "127335.0416374012",
+        "43575167.778164245",
+        "21741104165.379894"
+      ]
+    },
+    "gap_bounds": {
+      "c0": [
+        "4091/163840",
+        "1025/32768"
+      ],
+      "c1": [
+        "2043/163840",
+        "513/32768"
+      ],
+      "c2": [
+        "1019/163840",
+        "257/32768"
+      ],
+      "r0": [
+        "1023/32768",
+        "1281/32768"
+      ],
+      "r1": [
+        "511/32768",
+        "641/32768"
+      ],
+      "r2": [
+        "255/32768",
+        "321/32768"
+      ]
+    },
+    "labelled_product_assignments": {
+      "0": 1,
+      "1": 6,
+      "2": 36,
+      "3": 216,
+      "4": 1296
+    },
+    "old_kernel_q_max": {
+      "left": "35011/262144",
+      "right": "34563/262144"
+    },
+    "old_kernel_ratio_min": {
+      "left": "255/32768",
+      "right": "1019/163840"
+    },
+    "single_occurrence_rest_componentwise_mixed_derivative_abs_upper": [
+      "1.646247647739866e-33",
+      "4.013871141111892e-31",
+      "1.0838675074433658e-28",
+      "3.604174299148603e-26",
+      "1.6187297623012807e-23"
+    ],
+    "x_bounds": [
+      "31/256",
+      "1/8"
+    ]
+  },
+  "direction": "observed_to_native",
+  "endpoint_theorem": {
+    "all_orders_finite": true,
+    "bessel_recurrence": "|d^m(2K1(q))/dq^m| = 2^(1-m) sum_k binom(m,k) K_|1-m+2k|(q)",
+    "homogeneous_maximum": "sup_{y,a>=0} y*a^m/(y+r*a)^(m+1) = m^m/((m+1)^(m+1) r^m) for m>=1",
+    "integer_order_bound": "q^nu K_nu(q) <= 2^(nu-1)(nu-1)! for integer nu>=1; K0(q)<=K1(q)",
+    "mixed_labels": "AM-GM reduces distinct participating shape coefficients to the repeated-label homogeneous bound"
+  },
+  "factorization": {
+    "common_factor_excluded": "K284/K286 size-four regularizer R4",
+    "common_size_four_cauchy_skeleton": "C4 is retained in the rest factor; only the regularizer R4 is excluded",
+    "companion": "the complete size-three Bessel determinant D3 is bounded directly, preserving coalescent zeros without division",
+    "endpoint_pairing": "the native y(1-y) density is paired with the two old kernels before either endpoint is bounded",
+    "rest_factor": "(2*pi)^-9 exp(-256*x*L) x^15 product(r_i c_i) [y*2K1(T_old)] [(1-y)*2K1(U_old)] C4(Todd,Uodd) D3(Teven,Ueven)"
+  },
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "coherent_groups": 4,
+    "maximum_shape_derivative_order": 4,
+    "native_variables": [
+      "x",
+      "y",
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2",
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "z0",
+      "z1",
+      "z2",
+      "z3"
+    ],
+    "occurrences": 24,
+    "predecessor_manifests": [
+      "lab/process/k288-order-seven-native-occurrence-measure.json",
+      "lab/process/k289-order-seven-common-primitive-composition-boundary.json"
+    ],
+    "records_per_group": 6,
+    "shape_coordinates": [
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "threads": 1
+  },
+  "independent_controls": {
+    "all_contained": true,
+    "rows": [
+      {
+        "analytic_constant_upper": "2.0000000000000004",
+        "contained": true,
+        "order": 0,
+        "q": "1/8",
+        "scaled_actual_upper": "1.957779574778938"
+      },
+      {
+        "analytic_constant_upper": "2.0000000000000004",
+        "contained": true,
+        "order": 0,
+        "q": "1/32",
+        "scaled_actual_upper": "1.9960134206565636"
+      },
+      {
+        "analytic_constant_upper": "2.0000000000000004",
+        "contained": true,
+        "order": 0,
+        "q": "1/128",
+        "scaled_actual_upper": "1.9996662592029426"
+      },
+      {
+        "analytic_constant_upper": "2.1335563659667973",
+        "contained": true,
+        "order": 1,
+        "q": "1/8",
+        "scaled_actual_upper": "2.0267754837397187"
+      },
+      {
+        "analytic_constant_upper": "2.1335563659667973",
+        "contained": true,
+        "order": 1,
+        "q": "1/32",
+        "scaled_actual_upper": "2.0030110496904117"
+      },
+      {
+        "analytic_constant_upper": "2.1335563659667973",
+        "contained": true,
+        "order": 1,
+        "q": "1/128",
+        "scaled_actual_upper": "2.000272710966105"
+      },
+      {
+        "analytic_constant_upper": "4.026755954335386",
+        "contained": true,
+        "order": 2,
+        "q": "1/8",
+        "scaled_actual_upper": "4.015145364374578"
+      },
+      {
+        "analytic_constant_upper": "4.026755954335386",
+        "contained": true,
+        "order": 2,
+        "q": "1/32",
+        "scaled_actual_upper": "4.000973702203085"
+      },
+      {
+        "analytic_constant_upper": "4.026755954335386",
+        "contained": true,
+        "order": 2,
+        "q": "1/128",
+        "scaled_actual_upper": "4.000061020111627"
+      },
+      {
+        "analytic_constant_upper": "12.03746131979502",
+        "contained": true,
+        "order": 3,
+        "q": "1/8",
+        "scaled_actual_upper": "12.015923848345324"
+      },
+      {
+        "analytic_constant_upper": "12.03746131979502",
+        "contained": true,
+        "order": 3,
+        "q": "1/32",
+        "scaled_actual_upper": "12.000978708375248"
+      },
+      {
+        "analytic_constant_upper": "12.03746131979502",
+        "contained": true,
+        "order": 3,
+        "q": "1/128",
+        "scaled_actual_upper": "12.000061047407177"
+      },
+      {
+        "analytic_constant_upper": "48.08958422616929",
+        "contained": true,
+        "order": 4,
+        "q": "1/8",
+        "scaled_actual_upper": "48.031426938899344"
+      },
+      {
+        "analytic_constant_upper": "48.08958422616929",
+        "contained": true,
+        "order": 4,
+        "q": "1/32",
+        "scaled_actual_upper": "48.00195383794741"
+      },
+      {
+        "analytic_constant_upper": "48.08958422616929",
+        "contained": true,
+        "order": 4,
+        "q": "1/128",
+        "scaled_actual_upper": "48.000122073105715"
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_24_occurrences_replayed": true,
+    "all_four_groups_have_six_records": true,
+    "all_labelled_product_assignments_through_order_four_retained": true,
+    "complete_arbitrary_gap_ratio_domain_covered": false,
+    "complete_base_action_column_evaluated": false,
+    "native_K152_interval_emitted": false,
+    "native_weighted_interior_remainder_serialized": false,
+    "old_kernel_endpoint_singularities_paired_with_native_density": true
+  },
+  "result_id": "K290-ORDER-SEVEN-NATIVE-REST-DERIVATIVE-BANK",
+  "schema_version": "1.0"
+}

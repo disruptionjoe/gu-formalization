@@ -7,6 +7,31 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K291 native-density local interior remainder (2026-09-21)
+
+K291 applies the full fourth-order product rule to K284/K286's common
+size-four regularizer and K290's four coherent rest-factor groups. The complete
+four-group derivative upper is `1.1249973182e-15`; the positive six-axis
+two-node rule gives normalized local error below `2.168399176e-35` and one-box
+x-integrated error below `4.379047263e-63`.
+
+This is one t-centered shape-box result. K284 does not define a disjoint native
+`dr dc` atlas for its overlapping t-centered union, so K291 is not a complete
+tube remainder, exterior bound, action-column value or native K152 interval.
+
+## K290 native rest-factor derivative bank (2026-09-21)
+
+K290 bounds the native density, size-four Cauchy skeleton, complete companion
+size-three Bessel determinant and both endpoint-paired old kernels through
+total shape order four. The endpoint proof uses the exact integer-order Bessel
+derivative recurrence and a homogeneous `y,a` maximum, so all `y,u,z` corners
+remain in scope. All 24 occurrences and four coherent six-entry groups are
+retained.
+
+The conservative raw fourth-order factor upper is largest for the right old-
+kernel piece. This identifies the first sharpening target but is not a lower
+bound or an impossibility result for a correlated weighted rule.
+
 ## K289 common-primitive composition boundary (2026-09-21)
 
 K289 audits all 24 size-four occurrences. Their odd-position cross sums cancel
