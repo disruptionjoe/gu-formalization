@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K324 adaptive boundary-cell foundation (2026-09-22)
+## K310--K325 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -153,6 +153,20 @@ Its probe passes 17/17 checks and rejects 16/16 hostile mutations. This closes
 only the fixed-slab value family; all signed first/second families and adaptive
 radial/projective sums remain open, so no complete y constant, five-gap
 transfer or K294 join is claimed.
+
+K325 implements the correlation-preserving algebra required before those
+differentiated families can be enclosed. Every nonzero bordered entry jet is
+one shared exact generator in
+`C_j(t)=C_j0+t*C_j1+t^2*C_j2/2`; the complete five-by-five determinant is
+expanded before any interval operation. Its value, first and second Taylor
+coefficients exactly equal K315's value, five first, five pure-second and ten
+doubled-cross replacements. All twenty-one families retain fifty-four
+nonzero bordered monomials and the cross-weighted census is 1,674. A bordered
+column-scaling control has exact assembled second derivative zero while the
+sum of absolute family contributions is four, so familywise enclosure would
+provably lose real cancellation. The probe passes 15/15 checks and rejects
+18/18 hostile mutations. K325 is an algebraic enclosure contract, not a
+chart-specific first/second interval bank or complete y-master constant.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 

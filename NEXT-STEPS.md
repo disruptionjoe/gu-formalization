@@ -20,7 +20,7 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
-> **2026-09-22 K310--K324 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
+> **2026-09-22 K310--K325 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with
 > `H=r^27*R4*R5_border`. K311 composes all three K302 terminal jets with the
@@ -58,8 +58,12 @@ updated_at: "2026-09-22"
 > weights absorbed before Hadamard enclosure. K324 extends the same route to
 > all sixteen K318 value charts: the chart-uniform terminal upper is four,
 > left weights occupy a border column, right weights a border row, and both
-> endpoint bounds plus the full chart sum are finite. Next retain signed
-> aggregation across all first/second jet families and sum the adaptive
+> endpoint bounds plus the full chart sum are finite. K325 now installs the
+> exact shared-generator determinant-jet algebra: its Taylor coefficients
+> reproduce all twenty-one K315 families and 1,674 weighted monomials, and a
+> bordered control has assembled second derivative zero versus familywise
+> absolute sum four. Next substitute chart-specific entry-jet intervals into
+> K325, enclose only after signed family assembly, and sum the adaptive
 > radial/projective atlas. Only
 > an accepted complete y subdivision may transfer to the five gap axes. No
 > complete Peano constant or K294 gamma join exists.

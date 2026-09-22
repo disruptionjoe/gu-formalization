@@ -1,0 +1,371 @@
+{
+  "census": {
+    "K315_cross_weighted_census_replayed": true,
+    "K319_all_fifteen_second_families_replayed": true,
+    "K324_value_bank_available": true,
+    "cross_weighted_family_monomials": 1674,
+    "unweighted_family_monomials": 1134
+  },
+  "claim_ceiling": "Exact shared-generator algebra for the complete five-by-five bordered determinant jet. Its Taylor coefficients reproduce K315's value, five first, five pure-second and ten doubled-cross families with every literal border zero retained. A bordered cancellation control has zero assembled second derivative while familywise absolute summation is four, proving that enclosure must follow coherent assembly. This supplies the missing correlation contract but no chart-specific first/second interval constants, complete y-master sum, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "correlation_control": {
+    "base_determinant": "-1",
+    "complete_signed_second_derivative": "0",
+    "determinant_path": "det(A(t))=det(A(0))*(1+t)*(1-t+t^2)=det(A(0))*(1+t^3)",
+    "familywise_absolute_sum": "4",
+    "nonzero_second_family_contributions": [
+      {
+        "family": "second_pure_c1",
+        "signed_value": "-2"
+      },
+      {
+        "family": "second_cross_c0_c1",
+        "signed_value": "2"
+      }
+    ],
+    "post_assembly_strictly_tighter": true
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_fifteen_second_families_exact": true,
+    "all_five_first_families_exact": true,
+    "complete_y_master_constant_emitted": false,
+    "correlation_preserving_determinant_jet_algebra_implemented": true,
+    "factor_two_cross_terms_exact": true,
+    "five_gap_axis_transfer_released": false,
+    "fixed_slab_derivative_interval_bank_emitted": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "substitute chart-specific shared entry-jet intervals into the K325 polynomial before one post-assembly enclosure on each K318 chart, then extend across radial/projective subdivisions"
+  },
+  "direction": "observed_to_native",
+  "family_replay": [
+    {
+      "column_orders": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "family": "value",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      "family": "first_c0",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      "family": "first_c1",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      "family": "first_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      "family": "first_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "family": "first_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      "family": "second_pure_c0",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "family": "second_pure_c1",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "family": "second_pure_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        0,
+        2,
+        0
+      ],
+      "family": "second_pure_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      "family": "second_pure_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 1,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        1,
+        1,
+        0,
+        0,
+        0
+      ],
+      "family": "second_cross_c0_c1",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        1,
+        0,
+        1,
+        0,
+        0
+      ],
+      "family": "second_cross_c0_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        1,
+        0,
+        0,
+        1,
+        0
+      ],
+      "family": "second_cross_c0_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        1,
+        0,
+        0,
+        0,
+        1
+      ],
+      "family": "second_cross_c0_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        1,
+        1,
+        0,
+        0
+      ],
+      "family": "second_cross_c1_c2",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        1,
+        0,
+        1,
+        0
+      ],
+      "family": "second_cross_c1_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        1,
+        0,
+        0,
+        1
+      ],
+      "family": "second_cross_c1_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        1,
+        1,
+        0
+      ],
+      "family": "second_cross_c2_c3",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        1,
+        0,
+        1
+      ],
+      "family": "second_cross_c2_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    },
+    {
+      "column_orders": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "family": "second_cross_c3_c4",
+      "nonzero_determinant_monomials": 54,
+      "outer_multiplicity": 2,
+      "weighted_polynomial_terms": 54
+    }
+  ],
+  "fixed_control": {
+    "bordered_matrix_size": 5,
+    "family_count": 21,
+    "first_family_count": 5,
+    "literal_zero_slots": [
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "predecessor_manifests": [
+      "lab/process/k315-order-seven-terminal-bordered-adapter.json",
+      "lab/process/k319-order-seven-weighted-chart-composition.json",
+      "lab/process/k324-order-seven-complete-value-chart-bank.json"
+    ],
+    "second_cross_family_count": 10,
+    "second_pure_family_count": 5
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "K315_family_order_exact": true,
+    "Taylor_and_replacement_forms_identical": true,
+    "all_54_monomial_families_exact": true,
+    "cancellation_survives_until_post_assembly": true,
+    "complete_numerical_norm_overclaim": false,
+    "native_K152_interval_emitted": false
+  },
+  "result_id": "K325-ORDER-SEVEN-CORRELATED-DETERMINANT-JET-ALGEBRA",
+  "schema_version": "1.0",
+  "shared_generator_contract": {
+    "column_path": "C_j(t)=C_j0+t*C_j1+t^2*C_j2/2",
+    "detached_cofactor_used": false,
+    "early_familywise_absolute_enclosure_forbidden": true,
+    "enclosure_order": "assemble exact coherent determinant coefficient in shared generators; substitute chart intervals; enclose once",
+    "entry_jet": "g_r{row}c{column}d{order}",
+    "first_coefficient_exact": true,
+    "literal_border_zeros_retained": true,
+    "second_derivative_coefficient_exact": true,
+    "value_coefficient_exact": true
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

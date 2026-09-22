@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fb32f6173d7f8ccdb24db6329a283442903f994a
+revision_basis: e129a246d6b2f17ce6b09a45dbfc7574b86a95f0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -181,6 +181,18 @@ current_result:
     This completes the fixed-slab value family only. The five first-y and
     fifteen signed second-y families plus adaptive radial/projective sums
     remain open, so no complete y constant or downstream release follows.
+
+    K325 supplies the missing correlation contract for those differentiated
+    families. It represents every bordered entry jet by one shared exact
+    generator, forms the complete determinant Taylor polynomial first, and
+    proves that its coefficients reproduce K315's value, five first, five
+    pure-second and ten doubled-cross column replacements. All twenty-one
+    families have the exact fifty-four-monomial bordered census and the
+    cross-weighted total is 1,674. A literal-zero bordered control has zero
+    coherently assembled second derivative while early familywise absolute
+    summation gives four, proving that enclosure must follow signed assembly.
+    Chart-specific derivative intervals and adaptive radial/projective sums
+    remain open; K325 emits no numerical y constant or downstream release.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9434,9 +9446,11 @@ current_question: >-
   zero-inclusive `Phi_0/Phi_1/Phi_2` envelopes; K323 proves the first
   complete weighted old-position-six value-family bound; and K324 extends
   the complete-matrix evaluator to all sixteen endpoint charts on one
-  positive radial/projective slab. Implement interval-signed aggregation of
-  all five first and fifteen second families before
-  adaptive radial-origin, tail and projective-face summation. Only a complete
+  positive radial/projective slab. K325 now proves the shared-generator
+  determinant-jet algebra for all five first and fifteen second families and
+  rejects early familywise absolute enclosure. Substitute chart-specific
+  entry-jet intervals into that algebra before one post-assembly enclosure,
+  then perform adaptive radial-origin, tail and projective-face summation. Only a complete
   accepted numerical y sum releases reuse for the five Duffy axes, and only
   six complete finite constants may reopen K294's gamma join.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
@@ -9687,12 +9701,14 @@ contribution_path:
 next_condition: >-
   Treat K321 as the exact sixty-four-chart radial/projective tensor topology,
   K322 as the zero-inclusive scaled-entry envelope, K323 as the first
-  complete-matrix value-family pilot, and K324 as the complete sixteen-chart
-  value bank on one positive slab. Preserve K318's exact `1/24` Peano
+  complete-matrix value-family pilot, K324 as the complete sixteen-chart
+  value bank on one positive slab, and K325 as the exact shared-generator
+  determinant-jet correlation contract. Preserve K318's exact `1/24` Peano
   mass, all eighty-four nonnegative valuation checks, the split Jacobian,
   K315's literal border zeros and the signed fifteen-family second jet inside
-  every chart before absolute enclosure. Construct interval-signed first/
-  second-jet aggregation and adaptive radial/projective sums. Reuse only the
+  every chart before absolute enclosure. Substitute chart-specific first/
+  second entry-jet intervals into K325 and enclose only after coherent family
+  assembly, then build the adaptive radial/projective sums. Reuse only the
   accepted complete y subdivision for the five Duffy axes.
   K294's gamma join remains closed until all six finite constants exist. No
   exterior value, action-column value, complete residual or native K152
