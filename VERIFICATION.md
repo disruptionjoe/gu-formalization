@@ -7,6 +7,34 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K289 common-primitive composition boundary (2026-09-21)
+
+K289 audits all 24 size-four occurrences. Their odd-position cross sums cancel
+the base split `y`, so the common size-four regularizer depends only on
+`x,r0,r1,r2,c0,c1,c2` and K287 controls it uniformly. Every companion
+size-three determinant uses even cumulative positions and retains `u` or `z`;
+both old-position kernels do likewise. The six old-position pairs each occur
+four times, and the companion census is complete.
+
+Thus K287 is not a native weighted occurrence remainder. The next rule must
+retain all sixteen primitive variables and the coherent six-entry group sums.
+No arbitrary-gap exterior bound, action-column value, residual, native K152
+interval, source/ledger change, canon, paper or public claim follows.
+
+## K288 native occurrence and cumulative-time measure (2026-09-21)
+
+K288 replays all 408 K280 Gram entries and serializes the 24 size-four
+occurrences. Restoring Gram symmetry gives signed weights `{-2: 8, +1: 12,
++2: 4}`, signed sum `4` and absolute sum `36`. The exact primitive-to-
+projective change has density `exp(-256*x*L) x^15 y(1-y) product(r_i c_i)`;
+direct integration reproduces the primitive bare mass `256^-16` exactly.
+
+The differing companion determinants and old-position kernels forbid using
+either aggregate weight as an integration shortcut. This result supplies no
+native weighted remainder, arbitrary-gap exterior bound, action-column value,
+residual, native K152 interval, source/ledger change, canon, paper or public
+claim.
+
 ## K287 tensor Jacobi remainder on the normalized tube (2026-09-21)
 
 K287 composes K286's fourth-order componentwise bank with the positive two-node

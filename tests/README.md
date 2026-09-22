@@ -4,6 +4,25 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K289 common-primitive composition boundary
+
+- `channel-swings/k289_order_seven_common_primitive_composition_boundary.py`
+  audits all 24 size-four occurrences and proves which native factors retain
+  the eight internal split variables.
+- `channel-swings/k289_order_seven_common_primitive_composition_boundary_probe.py`
+  independently checks the dependency identities, complete census, claim
+  ceiling and hostile mutations. The result requires a sixteen-variable native
+  composition rule and does not emit a weighted remainder.
+
+## K288 native occurrence and cumulative-time measure
+
+- `channel-swings/k288_order_seven_native_occurrence_measure.py` replays the
+  complete K280 Gram inventory, restores exact coherent occurrence weights and
+  serializes the sixteen-primitive coordinate measure.
+- `channel-swings/k288_order_seven_native_occurrence_measure_probe.py`
+  independently checks the Jacobians, exact bare-mass replay, complete census,
+  occurrence weights, claim ceiling and hostile mutations.
+
 ## K287 tensor Jacobi remainder
 
 - `channel-swings/k287_order_seven_tensor_jacobi_remainder.py` composes K286's

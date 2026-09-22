@@ -1,0 +1,1414 @@
+{
+  "claim_ceiling": "Exact common-primitive dependency theorem for the 24 order-seven size-four occurrences. K287 controls the common size-four regularizer on its tube, but every native occurrence retains a split-dependent size-three companion and two split-dependent old-position kernels. No native weighted remainder, arbitrary-gap exterior bound, action-column value, complete residual, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition_decision": {
+    "exterior_partition": {
+      "internal": "y,u,z are native integration variables inside every radial/projective cell, not an exterior tail",
+      "projective_gap": "positive r,c outside the K284 ordered tube",
+      "radial": "x outside 31/256<=x<=1/8"
+    },
+    "first_gate": "On the K284 x/r/c tube, derive outward value and mixed-derivative bounds for each complete rest factor: both old-position K1 kernels, the companion size-three determinant, the exact Cauchy-Vandermonde skeleton and the native measure density. Compose those with K286 at the coherent-group level; only then bound radial and arbitrary-gap exterior pieces.",
+    "k287_can_be_used_as_a_uniform_bound_on_the_size_four_factor": true,
+    "k287_is_a_native_weighted_occurrence_remainder": false,
+    "minimum_next_common_chart": "(x,y,r0,r1,r2,c0,c1,c2,u0,u1,u2,u3,z0,z1,z2,z3) with the complete six-entry coherent group sum retained before absolute enclosure",
+    "reason": "The six signed records per group have distinct old-position pairs and companion size-three patterns. K287 bounds only their common size-four factor; it does not bound the shared-primitive rest factor or its derivatives.",
+    "signed_occurrence_weights_can_be_collapsed_before_integration": false
+  },
+  "created": "2026-09-21",
+  "dependency_census": {
+    "all_companion_size_three_factors_split_dependent": true,
+    "all_old_position_kernel_pairs_split_dependent": true,
+    "all_size_four_factors_pair_sum_only": true,
+    "companion_pattern_histogram": {
+      "L2,4,8|R2,4,8": 4,
+      "L2,6,8|R2,4,8": 4,
+      "L2,6,8|R2,6,8": 4,
+      "L4,6,8|R2,4,8": 4,
+      "L4,6,8|R2,6,8": 4,
+      "L4,6,8|R4,6,8": 4
+    },
+    "occurrences": [
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R4,6,8",
+        "entry_index": 90,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left": "seed-0-order-7-path-1-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z0"
+        ],
+        "right": "seed-0-order-7-path-1-contraction-1",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,6,8",
+        "entry_index": 91,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left": "seed-0-order-7-path-1-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z1"
+        ],
+        "right": "seed-0-order-7-path-1-contraction-2",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,4,8",
+        "entry_index": 92,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left": "seed-0-order-7-path-1-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z2"
+        ],
+        "right": "seed-0-order-7-path-1-contraction-3",
+        "signed_occurrence_weight": 2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,6,8",
+        "entry_index": 93,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left": "seed-0-order-7-path-1-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z1"
+        ],
+        "right": "seed-0-order-7-path-1-contraction-2",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,4,8",
+        "entry_index": 94,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left": "seed-0-order-7-path-1-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z2"
+        ],
+        "right": "seed-0-order-7-path-1-contraction-3",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u1",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,4,8|R2,4,8",
+        "entry_index": 95,
+        "group_id": "seed=0|d=1|1+^3,1-^4",
+        "left": "seed-0-order-7-path-1-contraction-3",
+        "old_position_internal_split_dependencies": [
+          "u2",
+          "z2"
+        ],
+        "right": "seed-0-order-7-path-1-contraction-3",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R4,6,8",
+        "entry_index": 198,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left": "seed-0-order-7-path-16-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z0"
+        ],
+        "right": "seed-0-order-7-path-16-contraction-1",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,6,8",
+        "entry_index": 199,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left": "seed-0-order-7-path-16-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z1"
+        ],
+        "right": "seed-0-order-7-path-16-contraction-2",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,4,8",
+        "entry_index": 200,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left": "seed-0-order-7-path-16-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z2"
+        ],
+        "right": "seed-0-order-7-path-16-contraction-3",
+        "signed_occurrence_weight": 2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,6,8",
+        "entry_index": 201,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left": "seed-0-order-7-path-16-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z1"
+        ],
+        "right": "seed-0-order-7-path-16-contraction-2",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,4,8",
+        "entry_index": 202,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left": "seed-0-order-7-path-16-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z2"
+        ],
+        "right": "seed-0-order-7-path-16-contraction-3",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u1",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,4,8|R2,4,8",
+        "entry_index": 203,
+        "group_id": "seed=0|d=2|2+^3,2-^4",
+        "left": "seed-0-order-7-path-16-contraction-3",
+        "old_position_internal_split_dependencies": [
+          "u2",
+          "z2"
+        ],
+        "right": "seed-0-order-7-path-16-contraction-3",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R4,6,8",
+        "entry_index": 300,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left": "seed-1-order-7-path-1-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z0"
+        ],
+        "right": "seed-1-order-7-path-1-contraction-1",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,6,8",
+        "entry_index": 301,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left": "seed-1-order-7-path-1-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z1"
+        ],
+        "right": "seed-1-order-7-path-1-contraction-2",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,4,8",
+        "entry_index": 302,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left": "seed-1-order-7-path-1-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z2"
+        ],
+        "right": "seed-1-order-7-path-1-contraction-3",
+        "signed_occurrence_weight": 2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,6,8",
+        "entry_index": 303,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left": "seed-1-order-7-path-1-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z1"
+        ],
+        "right": "seed-1-order-7-path-1-contraction-2",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,4,8",
+        "entry_index": 304,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left": "seed-1-order-7-path-1-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z2"
+        ],
+        "right": "seed-1-order-7-path-1-contraction-3",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u1",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,4,8|R2,4,8",
+        "entry_index": 305,
+        "group_id": "seed=1|d=0|1+^4,1-^3",
+        "left": "seed-1-order-7-path-1-contraction-3",
+        "old_position_internal_split_dependencies": [
+          "u2",
+          "z2"
+        ],
+        "right": "seed-1-order-7-path-1-contraction-3",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R4,6,8",
+        "entry_index": 402,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left": "seed-2-order-7-path-8-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z0"
+        ],
+        "right": "seed-2-order-7-path-8-contraction-1",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,6,8",
+        "entry_index": 403,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left": "seed-2-order-7-path-8-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z1"
+        ],
+        "right": "seed-2-order-7-path-8-contraction-2",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L4,6,8|R2,4,8",
+        "entry_index": 404,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left": "seed-2-order-7-path-8-contraction-1",
+        "old_position_internal_split_dependencies": [
+          "u0",
+          "z2"
+        ],
+        "right": "seed-2-order-7-path-8-contraction-3",
+        "signed_occurrence_weight": 2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z2",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,6,8",
+        "entry_index": 405,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left": "seed-2-order-7-path-8-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z1"
+        ],
+        "right": "seed-2-order-7-path-8-contraction-2",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,6,8|R2,4,8",
+        "entry_index": 406,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left": "seed-2-order-7-path-8-contraction-2",
+        "old_position_internal_split_dependencies": [
+          "u1",
+          "z2"
+        ],
+        "right": "seed-2-order-7-path-8-contraction-3",
+        "signed_occurrence_weight": -2,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      },
+      {
+        "companion_internal_split_dependencies": [
+          "u0",
+          "u1",
+          "u3",
+          "z0",
+          "z1",
+          "z3"
+        ],
+        "companion_size_three_pattern": "L2,4,8|R2,4,8",
+        "entry_index": 407,
+        "group_id": "seed=2|d=0|2+^4,2-^3",
+        "left": "seed-2-order-7-path-8-contraction-3",
+        "old_position_internal_split_dependencies": [
+          "u2",
+          "z2"
+        ],
+        "right": "seed-2-order-7-path-8-contraction-3",
+        "signed_occurrence_weight": 1,
+        "size_four_independent_of": [
+          "y",
+          "u0",
+          "u1",
+          "u2",
+          "u3",
+          "z0",
+          "z1",
+          "z2",
+          "z3"
+        ],
+        "size_four_positions": {
+          "left": [
+            1,
+            3,
+            5,
+            7
+          ],
+          "right": [
+            1,
+            3,
+            5,
+            7
+          ]
+        },
+        "size_four_regularizer_dependencies": [
+          "x",
+          "r0",
+          "r1",
+          "r2",
+          "c0",
+          "c1",
+          "c2"
+        ]
+      }
+    ],
+    "old_position_pair_histogram": {
+      "2,2": 4,
+      "2,4": 4,
+      "2,6": 4,
+      "4,4": 4,
+      "4,6": 4,
+      "6,6": 4
+    },
+    "unique_companion_patterns": 6
+  },
+  "direction": "observed_to_native",
+  "exact_dependency_identity": {
+    "even_cumulative_nodes": "T_(2k)=x*(sum later pair ratios + current pair ratio*(1-u_(k-1))) and similarly U_(2k) with z; every companion size-three determinant therefore retains internal split variables.",
+    "odd_cumulative_nodes": {
+      "T1": "x*(y+r0+r1+r2)",
+      "T3": "x*(y+r1+r2)",
+      "T5": "x*(y+r2)",
+      "T7": "x*y",
+      "U1": "x*((1-y)+c0+c1+c2)",
+      "U3": "x*((1-y)+c1+c2)",
+      "U5": "x*((1-y)+c2)",
+      "U7": "x*(1-y)"
+    },
+    "old_position_nodes": "All K288 old positions are 2,4,6, so both old-position K1 factors retain one u or z variable in every occurrence.",
+    "size_four_cross_sums": "Every T_(odd)+U_(odd) cancels y and is x times 1 plus a row-gap tail plus a column-gap tail; K284's size-four regularizer therefore depends on x,r,c and not y,u,z."
+  },
+  "fixed_control": {
+    "k284_controlled_variables": [
+      "x",
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2"
+    ],
+    "native_variables": [
+      "x",
+      "y",
+      "r0",
+      "r1",
+      "r2",
+      "c0",
+      "c1",
+      "c2",
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "z0",
+      "z1",
+      "z2",
+      "z3"
+    ],
+    "size_four_occurrences": 24,
+    "source_manifest": "lab/process/k288-order-seven-native-occurrence-measure.json",
+    "uncontrolled_internal_variables": [
+      "y",
+      "u0",
+      "u1",
+      "u2",
+      "u3",
+      "z0",
+      "z1",
+      "z2",
+      "z3"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_24_occurrences_dependency_audited": true,
+    "all_companion_size_three_factors_split_dependent": true,
+    "all_old_position_kernel_pairs_split_dependent": true,
+    "complete_arbitrary_gap_ratio_domain_covered": false,
+    "complete_base_action_column_evaluated": false,
+    "native_K152_interval_emitted": false,
+    "native_weighted_jacobi_remainder_serialized": false
+  },
+  "result_id": "K289-ORDER-SEVEN-COMMON-PRIMITIVE-COMPOSITION-BOUNDARY",
+  "schema_version": "1.0"
+}

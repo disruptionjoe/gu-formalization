@@ -20,6 +20,23 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K289 COMMON-PRIMITIVE COMPOSITION BOUNDARY.** All 24 native
+> size-four occurrences share the K287 factor on `x,r,c`, but every companion
+> size-three determinant and both old-position kernels retain internal split
+> variables. The next gate is therefore one sixteen-variable value-and-
+> derivative packet for the complete rest factor, native density and coherent
+> six-entry group sums on the K284 tube. Only then compose K286/K287 and split
+> radial from projective-gap exterior work. See
+> `explorations/conditional-build/k289-order-seven-common-primitive-composition-boundary-2026-09-21.md`.
+
+> **2026-09-21 K288 NATIVE OCCURRENCE MEASURE.** All 24 size-four occurrences
+> now have exact coherent weights: `{-2: 8, +1: 12, +2: 4}`, signed sum `4`
+> and absolute sum `36`. The exact sixteen-primitive transformation has density
+> `exp(-256*x*L) x^15 y(1-y) product(r_i c_i)` and replays bare mass `256^-16`.
+> This restores the native consumer but is not yet a weighted Jacobi remainder
+> or an arbitrary-gap exterior bound. See
+> `explorations/conditional-build/k288-order-seven-native-occurrence-measure-2026-09-21.md`.
+
 > **2026-09-21 K287 TENSOR JACOBI REMAINDER.** K286's fourth-order bank now
 > composes with a positive two-node tensor Gauss--Jacobi rule on K284's
 > normalized uniform six-dimensional tube. The certified six-axis remainder

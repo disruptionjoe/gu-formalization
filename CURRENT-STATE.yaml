@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 30de39d2ef8503c056becdcde44720c4d9b3efa0
+revision_basis: 20268323e8f628f4c900e41c99cc7f45bf4c5afd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K289 proves the exact dependency boundary for all 24 native order-seven
+    size-four occurrences. Their common size-four determinant depends only on
+    x and the six projective pair-gap ratios, so K287 controls that factor
+    uniformly. Every companion size-three determinant and both old-position
+    kernels retain internal pair-split variables. The native weighted error
+    therefore requires one common sixteen-variable rule; K287 cannot be
+    multiplied by the signed weight sum or promoted to an action-column error.
+
+    K288 restores the native consumer around K287. It serializes all 24
+    size-four occurrences with signed weights {-2: 8, +1: 12, +2: 4}, signed
+    sum 4 and absolute sum 36, plus the exact sixteen-primitive coordinate
+    density exp(-256*x*L) x^15 y(1-y) product(r_i c_i). The transformed bare
+    mass replays exactly as 256^-16. This is a measure and occurrence theorem,
+    not a weighted Jacobi remainder or arbitrary-gap exterior bound.
+
     K287 composes K286's fourth-order bank with the positive two-node tensor
     Gauss--Jacobi rule on K284's normalized uniform six-dimensional shape
     boxes. The certified six-axis error is below 4.7602871e-7, or 3.790716e-6
@@ -9062,17 +9077,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K286 certifies the complete fourth-order mixed shape-derivative bank on
-  K284's common determinant chart, and K287 composes it with a positive
-  two-node tensor Jacobi rule. The resulting normalized local-tube certificate
-  is finite at 3.790716 ppm relative to K284's lower, but misses the explicit
-  one-ppm discriminator. Compose the local rule with the native K179
-  occurrence, projective-scale and radial measures and bound the exterior
-  arbitrary-gap domain. If the local ceiling dominates that consumer, sharpen
-  the coordinate-aware fourth bank or increase the positive Jacobi order.
-  Preserve all 408 signed Gram entries, 96 K179 paths, old-position Bessel
-  factors and exact primitive gap supports. Do not promote the normalized tube
-  proxy to a numerical action column or native K152 interval.
+  K288 serializes the exact 24-occurrence signed measure and the full
+  sixteen-primitive cumulative-time density. K289 proves that K287's common
+  size-four factor is independent of y,u,z, while every companion determinant
+  and old-position kernel retains internal split variables. On K284's x/r/c
+  tube, construct one common sixteen-variable value-and-derivative packet for
+  the complete rest factor, native density and coherent six-entry group sums,
+  then compose it with K286/K287. Only after that interior result split the
+  radial and projective-gap exterior domains. Preserve all 408 signed Gram
+  entries, 96 K179 paths and exact primitive supports. Do not replace the
+  entrywise integrals by signed weight sum 4 or absolute sum 36.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9315,16 +9329,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K286 as the certified fourth-order mixed derivative bank and K287 as
-  the positive two-node Jacobi remainder for the normalized uniform K284 tube.
-  The next admissible gate is the native consumer composition: serialize the
-  K179 occurrence weights and projective-scale/radial measures, then bound the
-  exterior arbitrary-gap domain. If K287's 3.790716-ppm local ceiling controls
-  the composed decision, sharpen the coordinate-aware fourth bank or raise the
-  positive Jacobi order before widening the tube. Preserve exact K282/K283
-  overlap, all 24 size-four occurrences and the full signed entry/path
-  structure. K286/K287 supply no native measure, complete arbitrary-gap atlas,
-  action-column value, residual, exterior gap or native K152 interval.
+  Treat K288 as the exact native occurrence/measure theorem and K289 as the
+  dependency boundary. The next admissible gate is a common sixteen-variable
+  interior packet on K284's x/r/c tube: bound values and mixed derivatives of
+  the companion size-three determinant, both old-position kernels, the exact
+  Cauchy--Vandermonde skeleton and native density while retaining each coherent
+  six-entry group sum. Compose that packet with K286/K287 before separating
+  radial exterior from projective-gap exterior. The y,u,z variables are native
+  interior variables, not an exterior tail. K288/K289 supply no native weighted
+  remainder, complete arbitrary-gap atlas, action-column value, residual,
+  exterior gap or native K152 interval.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued
