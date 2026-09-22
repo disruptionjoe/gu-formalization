@@ -1,0 +1,132 @@
+{
+  "claim_ceiling": "Exact feasibility discriminator for K316's proposed full-boundary coefficient. The closed y/split atlas has no finite pointwise coefficient of the requested type: K301's terminal split entry is pointwise unbounded, and the endpoint-paired old-kernel factor F_x(y)=2yK1(xy) has F_x''(y)=2x log(y)+O_x(1). K300 and K302 prove these endpoint terms remain locally Peano/split weighted integrable, so this is a factorization obstruction, not divergence of the complete coherent functional. The next valid numerical route is a determinant-preserving weighted finite-chart integral. No complete y-master constant, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "K316_proposed_pointwise_factorization_rejected": true,
+    "complete_y_master_constant_emitted": false,
+    "five_gap_axis_transfer_released": false,
+    "full_boundary_pointwise_coefficient_exists": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "implement the K300 finite endpoint cover as determinant-preserving Peano-weighted chart integrals, beginning with the y=0/1 old-kernel charts and composing K302 inside those same integrals; do not seek a global remaining-entry supremum",
+    "weighted_complete_chart_route_required": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "bordered_family_count": 21,
+    "family_names": [
+      "value",
+      "first_c0",
+      "first_c1",
+      "first_c2",
+      "first_c3",
+      "first_c4",
+      "second_pure_c0",
+      "second_pure_c1",
+      "second_pure_c2",
+      "second_pure_c3",
+      "second_pure_c4",
+      "second_cross_c0_c1",
+      "second_cross_c0_c2",
+      "second_cross_c0_c3",
+      "second_cross_c0_c4",
+      "second_cross_c1_c2",
+      "second_cross_c1_c3",
+      "second_cross_c1_c4",
+      "second_cross_c2_c3",
+      "second_cross_c2_c4",
+      "second_cross_c3_c4"
+    ],
+    "predecessor_manifests": [
+      "lab/process/k300-order-seven-angular-method-selection.json",
+      "lab/process/k301-order-seven-terminal-split-boundary-correction.json",
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+      "lab/process/k315-order-seven-terminal-bordered-adapter.json",
+      "lab/process/k316-order-seven-complete-y-master.json"
+    ],
+    "scaled_regularizer_degree": 27,
+    "second_derivative_family_count": 15,
+    "terminal_core_slot": [
+      3,
+      3
+    ],
+    "terminal_occurrences": 24
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "pointwise_discriminator": {
+    "candidate": "one finite coefficient supremum for the remaining bordered entries on the closed s,y,u,z atlas",
+    "coherent_cancellation_ruled_out": false,
+    "complete_functional_divergence_claimed": false,
+    "endpoint_expansion": "F_x(y)=2/x+x*y^2*(log(x*y/2)+EulerGamma-1/2)+O(x^3*y^4*abs(log(y)))",
+    "endpoint_paired_old_kernel": "F_x(y)=2*y*K1(x*y), x>0",
+    "second_y_derivative_expansion": "F_x''(y)=2*x*log(y)+O_x(1) as y->0+",
+    "second_y_derivative_pointwise_supremum": "infinite",
+    "terminal_argument": "s8+v8=x*(y*(1-u3)+(1-y)*(1-z3))",
+    "terminal_asymptotic": "2*K1(w)~2/w as w->0+",
+    "terminal_pointwise_consequence": "the (8,8) companion entry is unbounded on the full native split cube",
+    "terminal_split_path": "u3=z3=1-epsilon with fixed x>0 and 0<y<1, followed by epsilon->0+",
+    "why_one_counterexample_is_decisive": "the requested coefficient must cover all twenty-one families, including the fifteen second-derivative families; a single required endpoint factor with infinite pointwise supremum invalidates that universal factorization"
+  },
+  "release_test": {
+    "all_fifteen_second_derivative_families_present": true,
+    "all_twenty_one_families_consumed": true,
+    "complete_numerical_norm_overclaim": false,
+    "endpoint_log_obstruction_explicit": true,
+    "native_K152_interval_emitted": false,
+    "pointwise_unboundedness_not_misreported_as_divergence": true,
+    "terminal_pointwise_obstruction_replayed": true,
+    "weighted_terminal_repair_replayed": true
+  },
+  "replacement_contract": {
+    "finite_chart_cover_already_proved_qualitatively": true,
+    "forbidden_shortcut": "multiply K302's marginal B_m by a global pointwise coefficient for the other entries",
+    "numerical_weighted_chart_constants_still_required": true,
+    "oracle_type": "weighted complete-chart integral, not a detached compact supremum",
+    "required_order": [
+      "retain the full K315 column-replacement determinant and coherent signs",
+      "retain K299's Peano weight and the native y*(1-y) endpoint factors",
+      "integrate the K302 terminal split variables inside the same y chart",
+      "apply K314 only on its certified interior/one-gap projective leaves",
+      "enclose the remaining K300 endpoint charts with their homogeneous weighted models",
+      "take absolute values only after each complete chart/group assembly"
+    ]
+  },
+  "result_id": "K317-ORDER-SEVEN-BOUNDARY-COEFFICIENT-DISCRIMINATOR",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS.",
+  "weighted_integrability": {
+    "K300_worst_second_derivative_integrability_margin": 2,
+    "K302_terminal_bounds": {
+      "B0": {
+        "strict": true,
+        "upper": "1/x"
+      },
+      "B1": {
+        "strict": true,
+        "upper": "1/4+2/x"
+      },
+      "B2": {
+        "strict": true,
+        "upper": "3*x/8+6/x"
+      },
+      "definition": "B_m(x)=integral_0^1 K(y) integral_[0,1]^2 abs(d_y^m[2*K1(x*(y*a+(1-y)*b))]) da db dy",
+      "proof_partition": {
+        "K_over_z": "with m=min(y,1-y), z>=m*(a+b) and K=m^2/2, K/z<=1/[4*(a+b)]",
+        "elementary_integral": "integral_[0,1]^2 da db/(a+b)=2*log(2)<2",
+        "first_derivative_terms": "K*abs(a-b)/z<=1/4 and K*abs(a-b)/z^2<=1/[2*(a+b)]",
+        "second_derivative_cubic_term": "K*J2<=3 by symmetry and the y<=1/2 split: y^2*I(y,1-y)<=1 and y^2*I(1-y,y)<=2",
+        "second_derivative_linear_term": "K*(a-b)^2/z<=m*(a+b)/2<= (a+b)/4"
+      }
+    },
+    "leading_log_mass": "integral_0^(1/2) y^2*(-log(y)) dy = log(2)/24+1/72",
+    "leading_log_mass_finite": true,
+    "peano_kernel_near_left_endpoint": "K(y)=y^2/2",
+    "pointwise_unboundedness_is_not_integral_divergence": true
+  }
+}

@@ -20,7 +20,7 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
-> **2026-09-22 K310--K316 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
+> **2026-09-22 K310--K317 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with
 > `H=r^27*R4*R5_border`. K311 composes all three K302 terminal jets with the
@@ -35,10 +35,14 @@ updated_at: "2026-09-22"
 > twenty-one complete bordered-determinant jet families. K316 proves the
 > resulting terminal radial/projective-s moments finite, but rejects a global
 > K312×K314×K315 product because K314 has no coefficient bound on the full
-> s/y/split endpoint atlas. Build that homogeneous compact-boundary
-> coefficient oracle next, then integrate the complete y master and reuse only
-> its accepted subdivision for the five gap axes. No complete Peano constant
-> or K294 gamma join exists.
+> s/y/split endpoint atlas. K317 proves that the proposed global pointwise
+> coefficient cannot exist: the terminal split entry is pointwise unbounded,
+> and `d_y^2[2*y*K1(x*y)]` grows logarithmically at the endpoint. Those terms
+> remain Peano/split weighted integrable, so the correct next step is a
+> determinant-preserving weighted finite-chart integrator over K300's endpoint
+> cover, not a detached supremum. Only an accepted complete y subdivision may
+> transfer to the five gap axes. No complete Peano constant or K294 gamma join
+> exists.
 
 > **2026-09-22 K301/K302 TERMINAL SPLIT CORRECTION AND REPAIR.** Every K288
 > companion contains a terminal `(8,8)` argument that can vanish on the full

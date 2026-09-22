@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K316 adaptive boundary-cell foundation (2026-09-22)
+## K310--K317 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -71,6 +71,17 @@ K314 and K315: K314 does not bound the remaining regularized entries on the
 full radial-projective, y-endpoint and split-endpoint atlas. The probe passes
 11/11 checks and rejects 10/10 hostile mutations. Consequently no complete
 y-master constant, five-gap transfer or K294 gamma join is claimed.
+
+K317 tests the missing-coefficient premise on the closed endpoint atlas. The
+terminal `(8,8)` split entry replays K301's pointwise obstruction, and the
+endpoint-paired factor `F_x(y)=2*y*K1(x*y)` satisfies
+`F_x''(y)=2*x*log(y)+O_x(1)` as `y` tends to zero. Hence no one pointwise
+coefficient can cover all twenty-one bordered families. The Peano leading-log
+mass is finite, `integral_0^(1/2) y^2*(-log y)dy=log(2)/24+1/72`, consistent
+with K300/K302's positive integrability margins. The probe passes 12/12 checks
+and rejects 9/9 hostile mutations. This rejects a detached factorization, not
+the complete coherent integral; the next valid route is a determinant-
+preserving weighted finite-chart enclosure.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8422db79fb4635c7877fd7e56cd8244df5fa60e2
+revision_basis: fa18f1fa56cbc84d920ef8734b135e1cd37d10c9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -96,9 +96,18 @@ current_result:
     coefficient covers only strict interior x, b, y and split intervals.
     Multiplying K312, K314 and K315 as global factors would omit the radial-
     projective, y-endpoint and split-endpoint cells. The complete y-master
-    constant and five-gap transfer therefore remain closed. The exact next
-    construction is a homogeneous coefficient oracle for the remaining
-    nonterminal entries on the full compact s, y, u and z boundary atlas.
+    constant and five-gap transfer therefore remain closed.
+
+    K317 tests the proposed full-boundary coefficient directly. A single
+    pointwise supremum cannot cover the closed y/split atlas: the K301
+    terminal entry is unbounded on its split corner, while the endpoint-
+    paired old-kernel factor `F_x(y)=2*y*K1(x*y)` has
+    `F_x''(y)=2*x*log(y)+O_x(1)` at `y=0`. K300 and K302 prove that these
+    same terms remain locally integrable after the native Peano and split
+    weights are retained. This is therefore a factorization obstruction, not
+    divergence of the complete coherent functional. The next construction is
+    a determinant-preserving weighted finite-chart integrator over the K300
+    endpoint cover; no complete y constant or gap-axis transfer is released.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9347,18 +9356,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K314 closes the repeated-node one-gap face extension on K313's interior
-  radial/y/split slab. K315 inserts K311's B0/B1/B2 budgets into every complete
-  bordered determinant jet monomial. K316 closes the radial/projective-s
-  moments of those terminal terms but rejects their naive global product with
-  K312 because the remaining-entry coefficient is not bounded on the full
-  compact s, y, u and z boundary atlas. Construct that homogeneous coefficient
-  oracle next, retaining K314's exact projective polynomial and K315's complete
-  monomial typing. Then sum the y master. Only an accepted complete y
-  subdivision releases reuse for the five Duffy axes, and only six complete
-  finite constants may reopen K294's gamma join. Do not return to fixed-x q
-  extraction, detached cofactors, occurrencewise absolute values,
-  K302-marginal times an unregularized supremum, or K290's superseded
+  K314 closes the repeated-node one-gap face extension, K315 inserts K311's
+  budgets into the complete bordered families, and K316 closes their exact
+  radial/projective-s moments. K317 now rejects the remaining proposed global
+  pointwise coefficient: the terminal split entry and endpoint-paired old-
+  kernel second derivative are unbounded pointwise even though K300/K302 prove
+  them Peano/split weighted integrable. Implement the K300 finite endpoint
+  cover as determinant-preserving weighted chart integrals, composing K302
+  inside the same y/split chart and using K314 only on its certified leaves.
+  Only an accepted complete y subdivision releases reuse for the five Duffy
+  axes, and only six complete finite constants may reopen K294's gamma join.
+  Do not return to fixed-x q extraction, detached cofactors, occurrencewise
+  absolute values, a global remaining-entry supremum, or K290's superseded
   pointwise bank. No exterior action-column value, complete residual or native
   K152 interval follows yet.
 
@@ -9604,17 +9613,17 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   Treat K314 as the confluent six-face oracle on the interior radial/y/split
-  slab, K315 as the complete terminal-monomial compiler and K316 as the exact
-  finite radial/projective-s join plus sufficiency rejection. Construct a
-  homogeneous coefficient oracle for the nonterminal regularized entries on
-  the full s, y, u and z compact boundary atlas. Preserve K314's projective
-  zeros and K315's complete bordered column-replacement monomials; do not
-  replace the missing coefficient by an interior supremum. Adapt and sum the
-  y master only after that oracle is accepted. Reuse its accepted subdivision
-  for the five Duffy axes, and take coherent-group absolute values only after
-  bordered assembly. K294's gamma join remains closed until all six finite
-  constants exist. No exterior value, action-column value, complete residual
-  or native K152 interval follows yet.
+  slab, K315 as the complete terminal-monomial compiler, K316 as the exact
+  finite radial/projective-s join, and K317 as the rejection of a detached
+  full-boundary pointwise coefficient. Implement determinant-preserving
+  Peano-weighted integrals on the finite K300 endpoint cover. Retain K314's
+  projective zeros, K315's complete column-replacement monomials, K302's split
+  variables and the native endpoint factors inside each chart before taking
+  absolute values. Adapt and sum the y master only after those weighted chart
+  constants are accepted. Reuse its subdivision for the five Duffy axes.
+  K294's gamma join remains closed until all six finite constants exist. No
+  exterior value, action-column value, complete residual or native K152
+  interval follows yet.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued
