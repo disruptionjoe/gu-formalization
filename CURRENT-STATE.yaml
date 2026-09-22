@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K298 restores all nine ordered old-position entries in each of the four
+    K288 coherent groups before upper-triangle integral compression. The
+    coefficient vector (1,-1,1) exactly supplies the cofactor signs. At the
+    terminal old-position-six corner, the singular coefficient is the omitted
+    position-eight kernel times a strictly positive size-three Bessel minor,
+    so the ordered coherent sum does not cancel K297's logarithm. The complete
+    four-group fourth shape derivative is not locally absolutely integrable,
+    although the integrand itself remains locally integrable. Global exterior
+    work must switch to a positive rule requiring at most third derivatives or
+    analytically subtract the terminal singular model before a smooth
+    remainder is bounded.
+
     K296 replays all 24 K288 occurrences and computes the exact face
     valuations of the native gap product, common size-four Cauchy determinant
     and occurrence-specific size-three companion. Every one-gap projective
@@ -9136,21 +9148,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K296 proves that every one-gap face gains one exact common Cauchy zero and
-  the native measure adds another gap power; K297 proves this repairs
-  occurrencewise derivatives through order four except at the terminal old-
-  position-six endpoint corner. There the companion minor omits the (6,8)
-  collision and the exact fourth derivative remains logarithmically
-  nonintegrable. Restore the full ordered 3-by-3 old-position coherent Gram
-  sum before upper-triangle symmetry compression, extract its terminal-corner
-  leading coefficient in each of the four groups, and test exact
-  cancellation before taking absolute values. If and only if it cancels,
-  construct the resulting integrable fourth-order face envelope and compose
-  K294's low/middle/high gamma strata; otherwise switch to a lower-order or
-  singularity-subtracted positive cubature rule. Do not call the
-  occurrencewise obstruction a divergence theorem for the complete
-  integrand, or infer an action-column value, complete residual or native K152
-  interval.
+  K298 proves the full ordered coherent sum does not cancel K297's terminal
+  fourth-derivative logarithm. The global fourth-order Jacobi route is closed,
+  while the integrand itself remains locally integrable. Construct and compare
+  two legal angular successors on the K294 simplex: a positive cubature rule
+  whose rigorous remainder uses at most third shape derivatives, and an
+  analytic subtraction that integrates the explicit terminal
+  g^2*y/(y+a*g) singular model before bounding a smooth fourth-order
+  remainder. Preserve the ordered coherent groups, all split variables and
+  the exact native weight; select the cheaper route by a proved remainder and
+  join only then to K294's low/middle/high gamma strata and K292/K293. Do not
+  infer divergence of the integrand or its integral, an action-column value,
+  complete residual or native K152 interval.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9393,17 +9402,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K296 as the exact one-gap/codimension-two valuation atlas and K297 as
-  the occurrencewise endpoint-corner boundary. The next admissible gate is to
-  reconstruct each coherent group's ordered 3-by-3 old-position sum before
-  symmetry compression and compute the terminal old-position-six leading
-  coefficient. A proved zero releases a cancellation-preserving fourth-order
-  envelope and K294 radial composition; a nonzero coefficient rejects that
-  route and requires lower-order or singularity-subtracted positive cubature.
-  K297 proves only occurrencewise logarithmic nonintegrability, not divergence
-  of the complete coherent integrand. K292/K293 remain the exact interior
-  atlas/remainder only; no exterior bound, action-column value, complete
-  residual or native K152 interval follows.
+  Treat K298 as the exact method obstruction for any global remainder needing
+  fourth shape derivatives: the ordered coherent terminal coefficient is
+  strictly positive, so the logarithm survives all four groups. Compare a
+  third-derivative positive cubature theorem with an analytic terminal-
+  singularity subtraction, using the complete ordered group and native
+  K288/K294 measure in both. A proved finite remainder may then compose
+  K294's gamma strata and join K292/K293. K298 does not prove divergence of
+  the integrand or its integral, and no exterior value, action-column value,
+  complete residual or native K152 interval follows.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued

@@ -7,6 +7,25 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K298 coherent terminal-corner obstruction (2026-09-22)
+
+K298 restores all nine ordered old-position entries in every K288 coherent
+group. The coefficient vector is `(1,-1,1)`, so its ordered products exactly
+equal the cofactor signs. The terminal old-position-six coefficient is a row-
+replacement determinant. At `T6=T8=0` it reduces to the omitted
+position-eight kernel times the canonical size-three Bessel minor, which is
+strictly positive by K280's Andreief theorem. An independent exact rational
+Cauchy control evaluates the same identity as
+`1/6237=(2/U8)*(1/12474)`.
+
+Thus the ordered coherent sum does not cancel K297's logarithm. Each group
+retains a degree-`-2` fourth shape derivative in two corner variables, so the
+complete four-group fourth derivative is not locally absolutely integrable.
+The integrand itself remains locally integrable. This closes global
+fourth-order Jacobi remainders, not the exterior integral: a rule using at
+most third derivatives or an analytic singularity subtraction remains open.
+The independent probe passes 12/12 checks and rejects 12/12 hostile mutations.
+
 ## K296/K297 coalescent-face integrability boundary (2026-09-22)
 
 K296 replays all 24 K288 occurrences and proves exact simultaneous

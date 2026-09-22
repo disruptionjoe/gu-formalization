@@ -4,6 +4,14 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K298 coherent terminal-corner obstruction
+
+- `channel-swings/k298_order_seven_coherent_terminal_corner_obstruction.py`
+  restores every ordered old-position pair, proves the cofactor identity and
+  reduces the terminal coefficient to a strictly positive Bessel minor; its
+  independent probe rejects twelve hostile mutations without claiming
+  divergence of the integrand itself.
+
 ## K296/K297 coalescent-face integrability boundary
 
 - `channel-swings/k296_order_seven_coalescent_face_valuation_atlas.py`

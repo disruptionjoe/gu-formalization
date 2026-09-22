@@ -20,6 +20,17 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K298 COHERENT TERMINAL-CORNER OBSTRUCTION.** Restoring all
+> nine ordered old-position entries proves the coherent sum does not cancel
+> the terminal fourth-derivative logarithm. The leading coefficient is exactly
+> the omitted position-eight kernel times a strictly positive size-three
+> Bessel minor. The integrand remains locally integrable, but the global
+> fourth-order Jacobi route is closed. Next compare a positive rule requiring
+> at most third derivatives with analytic subtraction of the explicit
+> terminal singular model; only a proved finite angular remainder may be
+> composed with K294's gamma strata. See
+> `explorations/conditional-build/k298-order-seven-coherent-terminal-corner-obstruction-2026-09-22.md`.
+
 > **2026-09-22 K296/K297 COALESCENT-FACE INTEGRABILITY.** Every one-gap
 > projective face now has exact native-plus-Cauchy order two, and all
 > codimension-two companion zeros are classified across the 24 native
