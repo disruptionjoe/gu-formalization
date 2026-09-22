@@ -1,0 +1,5879 @@
+{
+  "claim_ceiling": "Recursive exact-cover complete y-master enclosure for the fixed K309 six-gap cell across the full radial half-line and all three projective charts. Every finite accepted leaf recomputes the shared-entry complete determinant enclosure; analytic r>=1 tails remain exact proved leaves. The rational finite-volume checksum and declared per-leaf contribution tolerance both govern release. This emits only the complete y value/first/second upper bank and subdivision geometry. The five gap-axis operators, six-axis Peano norm, K294 gamma join, action-column value, residual, K152 interval, source/ledger, canon, paper, public and physical claims remain separate.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_y_master": {
+    "analytic_tail_value_first_second_abs_uppers": [
+      "1.6700781032557895e-66",
+      "1.5015943114741048e-64",
+      "2.611763857956192e-62"
+    ],
+    "coarse_K333_to_recursive_ratios": [
+      "2.8836046512525702e-06",
+      "3.3082954489266813e-06",
+      "3.967937063489456e-06"
+    ],
+    "complete_value_first_second_abs_uppers": [
+      "3.204397852055934",
+      "329.058471160576",
+      "68335.82354958644"
+    ],
+    "finite_value_first_second_abs_uppers": [
+      "3.204397852055934",
+      "329.058471160576",
+      "68335.82354958644"
+    ]
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "complete_six_axis_peano_norm_emitted": false,
+    "complete_y_master_constant_emitted": true,
+    "declared_tolerance_complete": true,
+    "exact_coverage_checksum_accepted": true,
+    "five_gap_axis_transfer_released": true,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "reuse this exact accepted subdivision with each K309 axis-native directional operator; the y value/first/second bank is not itself a gap-axis constant",
+    "recursive_global_subdivision_implemented": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "absolute_value_first_second_tolerances": [
+      "69452.95557992015",
+      "6216541.045089649",
+      "1076375180.2285867"
+    ],
+    "arb_decimal_digits": 180,
+    "finite_axes": [
+      "r",
+      "s",
+      "p0",
+      "p1",
+      "p2",
+      "p3",
+      "p4",
+      "p5"
+    ],
+    "maximum_recursion_depth": 1,
+    "predecessor_manifests": [
+      "lab/process/k327-order-seven-adaptive-interior-subdivision.json",
+      "lab/process/k330-order-seven-radial-tail-control.json",
+      "lab/process/k333-order-seven-projective-face-radial-closure.json"
+    ],
+    "projective_partition": [
+      [
+        "0",
+        "1/4"
+      ],
+      [
+        "1/4",
+        "3/4"
+      ],
+      [
+        "3/4",
+        "1"
+      ]
+    ],
+    "radial_partition": [
+      [
+        "0",
+        "1/16"
+      ],
+      [
+        "1/16",
+        "1"
+      ],
+      [
+        "1",
+        "infinity"
+      ]
+    ],
+    "relative_leaf_contribution_tolerance": "1/16",
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "recursive_cover": {
+    "all_finite_leaf_bounds_recomputed": true,
+    "all_splits_nonincreasing_by_order": true,
+    "analytic_tail_leaf_count": 3,
+    "analytic_tail_leaves": [
+      {
+        "integrated_value_first_second_abs_uppers": [
+          "1.4775773711348197e-66",
+          "9.646538971553392e-65",
+          "7.099789685993607e-63"
+        ],
+        "projective": [
+          "0",
+          "1/4"
+        ],
+        "region": "s0"
+      },
+      {
+        "integrated_value_first_second_abs_uppers": [
+          "1.9250073212096956e-67",
+          "5.3694041431876545e-65",
+          "1.9017848893568307e-62"
+        ],
+        "projective": [
+          "1/4",
+          "3/4"
+        ],
+        "region": "interior"
+      },
+      {
+        "integrated_value_first_second_abs_uppers": [
+          "3.4478115542933855e-93",
+          "3.799474113040662e-90",
+          "7.082757709051119e-87"
+        ],
+        "projective": [
+          "3/4",
+          "1"
+        ],
+        "region": "s1"
+      }
+    ],
+    "coverage_checksum": "sha256:2df52de1d9beca3aaf6ea730416f7251e79cf8b1da260c214e27d2e3b5996016",
+    "declared_tolerance_met": true,
+    "exact_finite_geometric_volume_sum": "1/2985984",
+    "exact_finite_parent_volume": "1/2985984",
+    "finite_leaf_count": 516,
+    "finite_leaves": [
+      {
+        "depth": 0,
+        "exact_geometric_volume": "1/191102976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.7171317599713807",
+          "194.46283769607547",
+          "16007.57734680176"
+        ],
+        "path": "s0-r0",
+        "region": "s0"
+      },
+      {
+        "depth": 0,
+        "exact_geometric_volume": "1/95551488",
+        "integrated_value_first_second_abs_uppers": [
+          "0.4055206757038832",
+          "127.42418849468233",
+          "51428.95391845704"
+        ],
+        "path": "interior-r0",
+        "region": "interior"
+      },
+      {
+        "depth": 0,
+        "exact_geometric_volume": "1/191102976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.755530289957814e-27",
+          "7.231434127708042e-24",
+          "1.553353528523932e-20"
+        ],
+        "path": "s1-r0",
+        "region": "s1"
+      },
+      {
+        "depth": 0,
+        "exact_geometric_volume": "5/63700992",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2941205498395336e-21",
+          "2.5167394680912915e-18",
+          "4.670360834711779e-15"
+        ],
+        "path": "s1-r1",
+        "region": "s1"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2201963713209809e-05",
+          "0.0003710230289470929",
+          "0.012801514560123907"
+        ],
+        "path": "s0-r1/00000000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.7774474176567313e-05",
+          "0.0008445336970908103",
+          "0.02913918968988583"
+        ],
+        "path": "s0-r1/00000001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.7219837622615166e-05",
+          "0.0011317372536723271",
+          "0.03904865682125092"
+        ],
+        "path": "s0-r1/00000010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.161599146205846e-05",
+          "0.0024816835284582344",
+          "0.08562624244950713"
+        ],
+        "path": "s0-r1/00000011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.7774474176567313e-05",
+          "0.0008445336970908103",
+          "0.02913918968988583"
+        ],
+        "path": "s0-r1/00000100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.262953456825927e-05",
+          "0.0019043655720452082",
+          "0.06570687447674574"
+        ],
+        "path": "s0-r1/00000101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.161599146205846e-05",
+          "0.0024816835284582344",
+          "0.08562624244950713"
+        ],
+        "path": "s0-r1/00000110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00017756194165485797",
+          "0.0053990956730558546",
+          "0.186286554671824"
+        ],
+        "path": "s0-r1/00000111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.7774474176567313e-05",
+          "0.0008445336970908103",
+          "0.02913918968988583"
+        ],
+        "path": "s0-r1/00001000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.32210874300654e-05",
+          "0.0019223528197471753",
+          "0.06632749363780023"
+        ],
+        "path": "s0-r1/00001001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.472090576105985e-05",
+          "0.0025760941280168486",
+          "0.08888371859211476"
+        ],
+        "path": "s0-r1/00001010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00001011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.32210874300654e-05",
+          "0.0019223528197471753",
+          "0.06632749363780023"
+        ],
+        "path": "s0-r1/00001100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00014255921632866378",
+          "0.004334773773734924",
+          "0.14956394955515864"
+        ],
+        "path": "s0-r1/00001101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00001110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000404171793434216",
+          "0.012289582780795174",
+          "0.4240310182794929"
+        ],
+        "path": "s0-r1/00001111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.7219837622615166e-05",
+          "0.0011317372536723271",
+          "0.03904865682125092"
+        ],
+        "path": "s0-r1/00010000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.472090576105985e-05",
+          "0.0025760941280168486",
+          "0.08888371859211476"
+        ],
+        "path": "s0-r1/00010001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0001135322430627639",
+          "0.0034521555498940875",
+          "0.11911071848589928"
+        ],
+        "path": "s0-r1/00010010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00024895451406337093",
+          "0.0075699174412875445",
+          "0.26118704443797475"
+        ],
+        "path": "s0-r1/00010011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.472090576105985e-05",
+          "0.0025760941280168486",
+          "0.08888371859211476"
+        ],
+        "path": "s0-r1/00010100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00019103983208879074",
+          "0.005808915586385411",
+          "0.20042668934911492"
+        ],
+        "path": "s0-r1/00010101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00024895451406337093",
+          "0.0075699174412875445",
+          "0.26118704443797475"
+        ],
+        "path": "s0-r1/00010110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005416199228420738",
+          "0.016468944610096518",
+          "0.5682327449321748"
+        ],
+        "path": "s0-r1/00010111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.161599146205846e-05",
+          "0.0024816835284582344",
+          "0.08562624244950713"
+        ],
+        "path": "s0-r1/00011000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00011001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00024895451406337093",
+          "0.0075699174412875445",
+          "0.26118704443797475"
+        ],
+        "path": "s0-r1/00011010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005459096755657812",
+          "0.01659938239026815",
+          "0.5727332774549724"
+        ],
+        "path": "s0-r1/00011011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00011100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00041891384535119874",
+          "0.01273784185468685",
+          "0.43949742987751966"
+        ],
+        "path": "s0-r1/00011101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005459096755657812",
+          "0.01659938239026815",
+          "0.5727332774549724"
+        ],
+        "path": "s0-r1/00011110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0011876689895871098",
+          "0.03611324832309038",
+          "1.246025823056698"
+        ],
+        "path": "s0-r1/00011111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.7774474176567313e-05",
+          "0.0008445336970908103",
+          "0.02913918968988583"
+        ],
+        "path": "s0-r1/00100000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.32210874300654e-05",
+          "0.0019223528197471753",
+          "0.06632749363780023"
+        ],
+        "path": "s0-r1/00100001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.472090576105985e-05",
+          "0.0025760941280168486",
+          "0.08888371859211476"
+        ],
+        "path": "s0-r1/00100010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00100011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.32210874300654e-05",
+          "0.0019223528197471753",
+          "0.06632749363780023"
+        ],
+        "path": "s0-r1/00100100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00014255921632866378",
+          "0.004334773773734924",
+          "0.14956394955515864"
+        ],
+        "path": "s0-r1/00100101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00100110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000404171793434216",
+          "0.012289582780795174",
+          "0.4240310182794929"
+        ],
+        "path": "s0-r1/00100111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.262953456825927e-05",
+          "0.0019043655720452082",
+          "0.06570687447674574"
+        ],
+        "path": "s0-r1/00101000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00014255921632866378",
+          "0.004334773773734924",
+          "0.14956394955515864"
+        ],
+        "path": "s0-r1/00101001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00019103983208879074",
+          "0.005808915586385411",
+          "0.20042668934911492"
+        ],
+        "path": "s0-r1/00101010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00041891384535119874",
+          "0.01273784185468685",
+          "0.43949742987751966"
+        ],
+        "path": "s0-r1/00101011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00014255921632866378",
+          "0.004334773773734924",
+          "0.14956394955515864"
+        ],
+        "path": "s0-r1/00101100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0003214612556803332",
+          "0.009774617559742184",
+          "0.33725644834339624"
+        ],
+        "path": "s0-r1/00101101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00041891384535119874",
+          "0.01273784185468685",
+          "0.43949742987751966"
+        ],
+        "path": "s0-r1/00101110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0009113796759265825",
+          "0.027712166338460523",
+          "0.9561608685180546"
+        ],
+        "path": "s0-r1/00101111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.161599146205846e-05",
+          "0.0024816835284582344",
+          "0.08562624244950713"
+        ],
+        "path": "s0-r1/00110000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00110001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00024895451406337093",
+          "0.0075699174412875445",
+          "0.26118704443797475"
+        ],
+        "path": "s0-r1/00110010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005459096755657812",
+          "0.01659938239026815",
+          "0.5727332774549724"
+        ],
+        "path": "s0-r1/00110011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00018577675632514004",
+          "0.005648882142850199",
+          "0.19490500935353341"
+        ],
+        "path": "s0-r1/00110100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00041891384535119874",
+          "0.01273784185468685",
+          "0.43949742987751966"
+        ],
+        "path": "s0-r1/00110101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005459096755657812",
+          "0.01659938239026815",
+          "0.5727332774549724"
+        ],
+        "path": "s0-r1/00110110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0011876689895871098",
+          "0.03611324832309038",
+          "1.246025823056698"
+        ],
+        "path": "s0-r1/00110111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00017756194165485797",
+          "0.0053990956730558546",
+          "0.186286554671824"
+        ],
+        "path": "s0-r1/00111000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000404171793434216",
+          "0.012289582780795174",
+          "0.4240310182794929"
+        ],
+        "path": "s0-r1/00111001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005416199228420738",
+          "0.016468944610096518",
+          "0.5682327449321748"
+        ],
+        "path": "s0-r1/00111010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0011876689895871098",
+          "0.03611324832309038",
+          "1.246025823056698"
+        ],
+        "path": "s0-r1/00111011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000404171793434216",
+          "0.012289582780795174",
+          "0.4240310182794929"
+        ],
+        "path": "s0-r1/00111100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0009113796759265825",
+          "0.027712166338460523",
+          "0.9561608685180546"
+        ],
+        "path": "s0-r1/00111101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0011876689895871098",
+          "0.03611324832309038",
+          "1.246025823056698"
+        ],
+        "path": "s0-r1/00111110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.631729807411887e-07",
+          "6.198519287181626e-06",
+          "0.00016387086634495065"
+        ],
+        "path": "s0-r1/00111111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.3400433662019708e-09",
+          "5.660996776901684e-08",
+          "2.8859366985045658e-06"
+        ],
+        "path": "s0-r1/01000000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0502467253390457e-09",
+          "1.288572992752535e-07",
+          "6.569055280181147e-06"
+        ],
+        "path": "s0-r1/01000001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.087554898724034e-09",
+          "1.726782559163809e-07",
+          "8.803017081504551e-06"
+        ],
+        "path": "s0-r1/01000010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.96322677190753e-09",
+          "3.786504172431649e-07",
+          "1.93033342554827e-05"
+        ],
+        "path": "s0-r1/01000011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0502467253390457e-09",
+          "1.288572992752535e-07",
+          "6.569055280181147e-06"
+        ],
+        "path": "s0-r1/01000100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.878097182083654e-09",
+          "2.905643730066743e-07",
+          "1.4812769151717477e-05"
+        ],
+        "path": "s0-r1/01000101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.96322677190753e-09",
+          "3.786504172431649e-07",
+          "1.93033342554827e-05"
+        ],
+        "path": "s0-r1/01000110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9500197456778782e-08",
+          "8.237834530078204e-07",
+          "4.1995906087777264e-05"
+        ],
+        "path": "s0-r1/01000111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0502467253390457e-09",
+          "1.288572992752535e-07",
+          "6.569055280181147e-06"
+        ],
+        "path": "s0-r1/01001000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.9430626734035e-09",
+          "2.933088318890498e-07",
+          "1.4952679762814116e-05"
+        ],
+        "path": "s0-r1/01001001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "9.304214496075326e-09",
+          "3.9305540111556075e-07",
+          "2.003769037628445e-05"
+        ],
+        "path": "s0-r1/01001010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01001011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.9430626734035e-09",
+          "2.933088318890498e-07",
+          "1.4952679762814116e-05"
+        ],
+        "path": "s0-r1/01001100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5656130142316375e-08",
+          "6.613912990616201e-07",
+          "3.3717267399424606e-05"
+        ],
+        "path": "s0-r1/01001101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01001110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.438693174124709e-08",
+          "1.875120494432281e-06",
+          "9.559233546951874e-05"
+        ],
+        "path": "s0-r1/01001111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.087554898724034e-09",
+          "1.726782559163809e-07",
+          "8.803017081504551e-06"
+        ],
+        "path": "s0-r1/01010000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "9.304214496075326e-09",
+          "3.9305540111556075e-07",
+          "2.003769037628445e-05"
+        ],
+        "path": "s0-r1/01010001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2468331547776936e-08",
+          "5.267231397709794e-07",
+          "2.6851978446984507e-05"
+        ],
+        "path": "s0-r1/01010010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.734066847920325e-08",
+          "1.1550031917550998e-06",
+          "5.888125753017449e-05"
+        ],
+        "path": "s0-r1/01010011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "9.304214496075326e-09",
+          "3.9305540111556075e-07",
+          "2.003769037628445e-05"
+        ],
+        "path": "s0-r1/01010100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0980365583733732e-08",
+          "8.863129741243371e-07",
+          "4.518361748750977e-05"
+        ],
+        "path": "s0-r1/01010101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.734066847920325e-08",
+          "1.1550031917550998e-06",
+          "5.888125753017449e-05"
+        ],
+        "path": "s0-r1/01010110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.948175235692688e-08",
+          "2.5127993374951534e-06",
+          "0.00012810075850211436"
+        ],
+        "path": "s0-r1/01010111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.96322677190753e-09",
+          "3.786504172431649e-07",
+          "1.93033342554827e-05"
+        ],
+        "path": "s0-r1/01011000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01011001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.734066847920325e-08",
+          "1.1550031917550998e-06",
+          "5.888125753017449e-05"
+        ],
+        "path": "s0-r1/01011010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.995286134208301e-08",
+          "2.532701280699712e-06",
+          "0.0001291153457714245"
+        ],
+        "path": "s0-r1/01011011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01011100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.6005932563542025e-08",
+          "1.94351498805645e-06",
+          "9.907903915973294e-05"
+        ],
+        "path": "s0-r1/01011101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.995286134208301e-08",
+          "2.532701280699712e-06",
+          "0.0001291153457714245"
+        ],
+        "path": "s0-r1/01011110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.3043211621877052e-07",
+          "5.5100887763615e-06",
+          "0.0002809004845403252"
+        ],
+        "path": "s0-r1/01011111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0502467253390457e-09",
+          "1.288572992752535e-07",
+          "6.569055280181147e-06"
+        ],
+        "path": "s0-r1/01100000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.9430626734035e-09",
+          "2.933088318890498e-07",
+          "1.4952679762814116e-05"
+        ],
+        "path": "s0-r1/01100001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "9.304214496075326e-09",
+          "3.9305540111556075e-07",
+          "2.003769037628445e-05"
+        ],
+        "path": "s0-r1/01100010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01100011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.9430626734035e-09",
+          "2.933088318890498e-07",
+          "1.4952679762814116e-05"
+        ],
+        "path": "s0-r1/01100100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5656130142316375e-08",
+          "6.613912990616201e-07",
+          "3.3717267399424606e-05"
+        ],
+        "path": "s0-r1/01100101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01100110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.438693174124709e-08",
+          "1.875120494432281e-06",
+          "9.559233546951874e-05"
+        ],
+        "path": "s0-r1/01100111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.878097182083654e-09",
+          "2.905643730066743e-07",
+          "1.4812769151717477e-05"
+        ],
+        "path": "s0-r1/01101000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5656130142316375e-08",
+          "6.613912990616201e-07",
+          "3.3717267399424606e-05"
+        ],
+        "path": "s0-r1/01101001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0980365583733732e-08",
+          "8.863129741243371e-07",
+          "4.518361748750977e-05"
+        ],
+        "path": "s0-r1/01101010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.6005932563542025e-08",
+          "1.94351498805645e-06",
+          "9.907903915973294e-05"
+        ],
+        "path": "s0-r1/01101011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5656130142316375e-08",
+          "6.613912990616201e-07",
+          "3.3717267399424606e-05"
+        ],
+        "path": "s0-r1/01101100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.5303499734684614e-08",
+          "1.491392021435445e-06",
+          "7.603012556955947e-05"
+        ],
+        "path": "s0-r1/01101101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.6005932563542025e-08",
+          "1.94351498805645e-06",
+          "9.907903915973294e-05"
+        ],
+        "path": "s0-r1/01101110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0008948703177369e-07",
+          "4.228268117856261e-06",
+          "0.00021555416083174353"
+        ],
+        "path": "s0-r1/01101111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.96322677190753e-09",
+          "3.786504172431649e-07",
+          "1.93033342554827e-05"
+        ],
+        "path": "s0-r1/01110000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01110001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.734066847920325e-08",
+          "1.1550031917550998e-06",
+          "5.888125753017449e-05"
+        ],
+        "path": "s0-r1/01110010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.995286134208301e-08",
+          "2.532701280699712e-06",
+          "0.0001291153457714245"
+        ],
+        "path": "s0-r1/01110011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0402364381277852e-08",
+          "8.618953843964051e-07",
+          "4.393882585418397e-05"
+        ],
+        "path": "s0-r1/01110100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.6005932563542025e-08",
+          "1.94351498805645e-06",
+          "9.907903915973294e-05"
+        ],
+        "path": "s0-r1/01110101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.995286134208301e-08",
+          "2.532701280699712e-06",
+          "0.0001291153457714245"
+        ],
+        "path": "s0-r1/01110110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.3043211621877052e-07",
+          "5.5100887763615e-06",
+          "0.0002809004845403252"
+        ],
+        "path": "s0-r1/01110111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9500197456778782e-08",
+          "8.237834530078204e-07",
+          "4.1995906087777264e-05"
+        ],
+        "path": "s0-r1/01111000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.438693174124709e-08",
+          "1.875120494432281e-06",
+          "9.559233546951874e-05"
+        ],
+        "path": "s0-r1/01111001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.948175235692688e-08",
+          "2.5127993374951534e-06",
+          "0.00012810075850211436"
+        ],
+        "path": "s0-r1/01111010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.3043211621877052e-07",
+          "5.5100887763615e-06",
+          "0.0002809004845403252"
+        ],
+        "path": "s0-r1/01111011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.438693174124709e-08",
+          "1.875120494432281e-06",
+          "9.559233546951874e-05"
+        ],
+        "path": "s0-r1/01111100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0008948703177369e-07",
+          "4.228268117856261e-06",
+          "0.00021555416083174353"
+        ],
+        "path": "s0-r1/01111101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.3043211621877052e-07",
+          "5.5100887763615e-06",
+          "0.0002809004845403252"
+        ],
+        "path": "s0-r1/01111110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.4258452675319254e-10",
+          "1.492668294522659e-08",
+          "5.98622377445679e-07"
+        ],
+        "path": "s0-r1/01111111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.935847709151785e-43",
+          "2.0511881762923104e-41",
+          "6.722867671872053e-40"
+        ],
+        "path": "s0-r1/10000000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5787583664386855e-42",
+          "4.668975773412031e-41",
+          "1.5302792161659595e-39"
+        ],
+        "path": "s0-r1/10000001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1156523002109884e-42",
+          "6.256770847140432e-41",
+          "2.0506866687289398e-39"
+        ],
+        "path": "s0-r1/10000010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.63922119141107e-42",
+          "1.3719902812849225e-40",
+          "4.4967639858428764e-39"
+        ],
+        "path": "s0-r1/10000011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5787583664386855e-42",
+          "4.668975773412031e-41",
+          "1.5302792161659595e-39"
+        ],
+        "path": "s0-r1/10000100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.559991847538717e-42",
+          "1.05282201928291e-40",
+          "3.450674680878351e-39"
+        ],
+        "path": "s0-r1/10000101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.63922119141107e-42",
+          "1.3719902812849225e-40",
+          "4.4967639858428764e-39"
+        ],
+        "path": "s0-r1/10000110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0092986800421355e-41",
+          "2.984871650891143e-40",
+          "9.783060076560666e-39"
+        ],
+        "path": "s0-r1/10000111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5787583664386855e-42",
+          "4.668975773412031e-41",
+          "1.5302792161659595e-39"
+        ],
+        "path": "s0-r1/10001000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.593616938161091e-42",
+          "1.0627662075949682e-40",
+          "3.4832672464857305e-39"
+        ],
+        "path": "s0-r1/10001001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.81571092269941e-42",
+          "1.4241848618803383e-40",
+          "4.667834228676544e-39"
+        ],
+        "path": "s0-r1/10001010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10001011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.593616938161091e-42",
+          "1.0627662075949682e-40",
+          "3.4832672464857305e-39"
+        ],
+        "path": "s0-r1/10001100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.103359731607045e-42",
+          "2.39646491357779e-40",
+          "7.854528757808648e-39"
+        ],
+        "path": "s0-r1/10001101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10001110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2973957883358743e-41",
+          "6.79425396206502e-40",
+          "2.226849336921495e-38"
+        ],
+        "path": "s0-r1/10001111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1156523002109884e-42",
+          "6.256770847140432e-41",
+          "2.0506866687289398e-39"
+        ],
+        "path": "s0-r1/10010000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.81571092269941e-42",
+          "1.4241848618803383e-40",
+          "4.667834228676544e-39"
+        ],
+        "path": "s0-r1/10010001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.453406728455516e-42",
+          "1.9085124325238565e-40",
+          "6.255241074307551e-39"
+        ],
+        "path": "s0-r1/10010010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.415108774289205e-41",
+          "4.185003063814681e-40",
+          "1.3716548360911044e-38"
+        ],
+        "path": "s0-r1/10010011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.81571092269941e-42",
+          "1.4241848618803383e-40",
+          "4.667834228676544e-39"
+        ],
+        "path": "s0-r1/10010100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0859097856269931e-41",
+          "3.211439190428581e-40",
+          "1.0525646033550789e-38"
+        ],
+        "path": "s0-r1/10010101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.415108774289205e-41",
+          "4.185003063814681e-40",
+          "1.3716548360911044e-38"
+        ],
+        "path": "s0-r1/10010110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0786792869882066e-41",
+          "9.104799912712789e-40",
+          "2.9841418577983704e-38"
+        ],
+        "path": "s0-r1/10010111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.63922119141107e-42",
+          "1.3719902812849225e-40",
+          "4.4967639858428764e-39"
+        ],
+        "path": "s0-r1/10011000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10011001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.415108774289205e-41",
+          "4.185003063814681e-40",
+          "1.3716548360911044e-38"
+        ],
+        "path": "s0-r1/10011010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.103063137535978e-41",
+          "9.176911990666033e-40",
+          "3.007776945928059e-38"
+        ],
+        "path": "s0-r1/10011011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10011100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.381192653916991e-41",
+          "7.042072459662773e-40",
+          "2.308073040657328e-38"
+        ],
+        "path": "s0-r1/10011101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.103063137535978e-41",
+          "9.176911990666033e-40",
+          "3.007776945928059e-38"
+        ],
+        "path": "s0-r1/10011110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.750955360213593e-41",
+          "1.996508632948832e-39",
+          "6.543652853831657e-38"
+        ],
+        "path": "s0-r1/10011111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5787583664386855e-42",
+          "4.668975773412031e-41",
+          "1.5302792161659595e-39"
+        ],
+        "path": "s0-r1/10100000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.593616938161091e-42",
+          "1.0627662075949682e-40",
+          "3.4832672464857305e-39"
+        ],
+        "path": "s0-r1/10100001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.81571092269941e-42",
+          "1.4241848618803383e-40",
+          "4.667834228676544e-39"
+        ],
+        "path": "s0-r1/10100010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10100011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.593616938161091e-42",
+          "1.0627662075949682e-40",
+          "3.4832672464857305e-39"
+        ],
+        "path": "s0-r1/10100100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.103359731607045e-42",
+          "2.39646491357779e-40",
+          "7.854528757808648e-39"
+        ],
+        "path": "s0-r1/10100101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10100110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2973957883358743e-41",
+          "6.79425396206502e-40",
+          "2.226849336921495e-38"
+        ],
+        "path": "s0-r1/10100111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.559991847538717e-42",
+          "1.05282201928291e-40",
+          "3.450674680878351e-39"
+        ],
+        "path": "s0-r1/10101000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.103359731607045e-42",
+          "2.39646491357779e-40",
+          "7.854528757808648e-39"
+        ],
+        "path": "s0-r1/10101001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0859097856269931e-41",
+          "3.211439190428581e-40",
+          "1.0525646033550789e-38"
+        ],
+        "path": "s0-r1/10101010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.381192653916991e-41",
+          "7.042072459662773e-40",
+          "2.308073040657328e-38"
+        ],
+        "path": "s0-r1/10101011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.103359731607045e-42",
+          "2.39646491357779e-40",
+          "7.854528757808648e-39"
+        ],
+        "path": "s0-r1/10101100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8272520433176616e-41",
+          "5.403864017849093e-40",
+          "1.7711423644569782e-38"
+        ],
+        "path": "s0-r1/10101101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.381192653916991e-41",
+          "7.042072459662773e-40",
+          "2.308073040657328e-38"
+        ],
+        "path": "s0-r1/10101110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.180469948926762e-41",
+          "1.5320576746593395e-39",
+          "5.021392545685125e-38"
+        ],
+        "path": "s0-r1/10101111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "4.63922119141107e-42",
+          "1.3719902812849225e-40",
+          "4.4967639858428764e-39"
+        ],
+        "path": "s0-r1/10110000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10110001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.415108774289205e-41",
+          "4.185003063814681e-40",
+          "1.3716548360911044e-38"
+        ],
+        "path": "s0-r1/10110010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.103063137535978e-41",
+          "9.176911990666033e-40",
+          "3.007776945928059e-38"
+        ],
+        "path": "s0-r1/10110011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0559933805521074e-41",
+          "3.122965249177208e-40",
+          "1.0235668467207464e-38"
+        ],
+        "path": "s0-r1/10110100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.381192653916991e-41",
+          "7.042072459662773e-40",
+          "2.308073040657328e-38"
+        ],
+        "path": "s0-r1/10110101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.103063137535978e-41",
+          "9.176911990666033e-40",
+          "3.007776945928059e-38"
+        ],
+        "path": "s0-r1/10110110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.750955360213593e-41",
+          "1.996508632948832e-39",
+          "6.543652853831657e-38"
+        ],
+        "path": "s0-r1/10110111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0092986800421355e-41",
+          "2.984871650891143e-40",
+          "9.783060076560666e-39"
+        ],
+        "path": "s0-r1/10111000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2973957883358743e-41",
+          "6.79425396206502e-40",
+          "2.226849336921495e-38"
+        ],
+        "path": "s0-r1/10111001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.0786792869882066e-41",
+          "9.104799912712789e-40",
+          "2.9841418577983704e-38"
+        ],
+        "path": "s0-r1/10111010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.750955360213593e-41",
+          "1.996508632948832e-39",
+          "6.543652853831657e-38"
+        ],
+        "path": "s0-r1/10111011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.2973957883358743e-41",
+          "6.79425396206502e-40",
+          "2.226849336921495e-38"
+        ],
+        "path": "s0-r1/10111100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.180469948926762e-41",
+          "1.5320576746593395e-39",
+          "5.021392545685125e-38"
+        ],
+        "path": "s0-r1/10111101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "6.750955360213593e-41",
+          "1.996508632948832e-39",
+          "6.543652853831657e-38"
+        ],
+        "path": "s0-r1/10111110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.49874824451512e-44",
+          "3.4366254323613007e-43",
+          "8.64643019743937e-42"
+        ],
+        "path": "s0-r1/10111111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "7.580673338165787e-47",
+          "3.125906001196789e-45",
+          "1.50551277102992e-43"
+        ],
+        "path": "s0-r1/11000000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7255355020516917e-46",
+          "7.11528057943905e-45",
+          "3.426893120950089e-43"
+        ],
+        "path": "s0-r1/11000001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.3123444509324753e-46",
+          "9.534999160743889e-45",
+          "4.592288771465912e-43"
+        ],
+        "path": "s0-r1/11000010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0705295009272824e-46",
+          "2.0908431045675752e-44",
+          "1.0070011677554697e-42"
+        ],
+        "path": "s0-r1/11000011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7255355020516917e-46",
+          "7.11528057943905e-45",
+          "3.426893120950089e-43"
+        ],
+        "path": "s0-r1/11000100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.890964222075882e-46",
+          "1.6044469742539855e-44",
+          "7.727408994944889e-43"
+        ],
+        "path": "s0-r1/11000101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0705295009272824e-46",
+          "2.0908431045675752e-44",
+          "1.0070011677554697e-42"
+        ],
+        "path": "s0-r1/11000110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.103133159555433e-45",
+          "4.548791924615489e-44",
+          "2.190809420189897e-42"
+        ],
+        "path": "s0-r1/11000111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7255355020516917e-46",
+          "7.11528057943905e-45",
+          "3.426893120950089e-43"
+        ],
+        "path": "s0-r1/11001000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.927715435047228e-46",
+          "1.6196014102576805e-44",
+          "7.80039645273338e-43"
+        ],
+        "path": "s0-r1/11001001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.26342747819185e-46",
+          "2.1703849790784306e-44",
+          "1.0453104789896338e-42"
+        ],
+        "path": "s0-r1/11001010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11001011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.927715435047228e-46",
+          "1.6196014102576805e-44",
+          "7.80039645273338e-43"
+        ],
+        "path": "s0-r1/11001100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.856728935296647e-46",
+          "3.6520901055527357e-44",
+          "1.758935900963834e-42"
+        ],
+        "path": "s0-r1/11001101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11001110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.510984632180898e-45",
+          "1.035409597644539e-43",
+          "4.986785809087574e-42"
+        ],
+        "path": "s0-r1/11001111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.3123444509324753e-46",
+          "9.534999160743889e-45",
+          "4.592288771465912e-43"
+        ],
+        "path": "s0-r1/11010000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.26342747819185e-46",
+          "2.1703849790784306e-44",
+          "1.0453104789896338e-42"
+        ],
+        "path": "s0-r1/11010001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "7.053379831625846e-46",
+          "2.9084754540176895e-44",
+          "1.4007929015252268e-42"
+        ],
+        "path": "s0-r1/11010010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5466714158664076e-45",
+          "6.37773087997215e-44",
+          "3.071671149312627e-42"
+        ],
+        "path": "s0-r1/11010011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.26342747819185e-46",
+          "2.1703849790784306e-44",
+          "1.0453104789896338e-42"
+        ],
+        "path": "s0-r1/11010100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1868667983022681e-45",
+          "4.894069275113376e-44",
+          "2.357103441467119e-42"
+        ],
+        "path": "s0-r1/11010101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5466714158664076e-45",
+          "6.37773087997215e-44",
+          "3.071671149312627e-42"
+        ],
+        "path": "s0-r1/11010110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.364904036905953e-45",
+          "1.3875249928091522e-43",
+          "6.682659678942727e-42"
+        ],
+        "path": "s0-r1/11010111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0705295009272824e-46",
+          "2.0908431045675752e-44",
+          "1.0070011677554697e-42"
+        ],
+        "path": "s0-r1/11011000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11011001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5466714158664076e-45",
+          "6.37773087997215e-44",
+          "3.071671149312627e-42"
+        ],
+        "path": "s0-r1/11011010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.391554852461947e-45",
+          "1.3985145075913514e-43",
+          "6.735587861179506e-42"
+        ],
+        "path": "s0-r1/11011011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11011100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.6025720908437112e-45",
+          "1.0731758699087302e-43",
+          "5.1686774170217166e-42"
+        ],
+        "path": "s0-r1/11011101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.391554852461947e-45",
+          "1.3985145075913514e-43",
+          "6.735587861179506e-42"
+        ],
+        "path": "s0-r1/11011110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "7.378591565500387e-45",
+          "3.0425771652982866e-43",
+          "1.4653795655585037e-41"
+        ],
+        "path": "s0-r1/11011111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7255355020516917e-46",
+          "7.11528057943905e-45",
+          "3.426893120950089e-43"
+        ],
+        "path": "s0-r1/11100000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.927715435047228e-46",
+          "1.6196014102576805e-44",
+          "7.80039645273338e-43"
+        ],
+        "path": "s0-r1/11100001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.26342747819185e-46",
+          "2.1703849790784306e-44",
+          "1.0453104789896338e-42"
+        ],
+        "path": "s0-r1/11100010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11100011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.927715435047228e-46",
+          "1.6196014102576805e-44",
+          "7.80039645273338e-43"
+        ],
+        "path": "s0-r1/11100100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.856728935296647e-46",
+          "3.6520901055527357e-44",
+          "1.758935900963834e-42"
+        ],
+        "path": "s0-r1/11100101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11100110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.510984632180898e-45",
+          "1.035409597644539e-43",
+          "4.986785809087574e-42"
+        ],
+        "path": "s0-r1/11100111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.890964222075882e-46",
+          "1.6044469742539855e-44",
+          "7.727408994944889e-43"
+        ],
+        "path": "s0-r1/11101000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.856728935296647e-46",
+          "3.6520901055527357e-44",
+          "1.758935900963834e-42"
+        ],
+        "path": "s0-r1/11101001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1868667983022681e-45",
+          "4.894069275113376e-44",
+          "2.357103441467119e-42"
+        ],
+        "path": "s0-r1/11101010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.6025720908437112e-45",
+          "1.0731758699087302e-43",
+          "5.1686774170217166e-42"
+        ],
+        "path": "s0-r1/11101011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "8.856728935296647e-46",
+          "3.6520901055527357e-44",
+          "1.758935900963834e-42"
+        ],
+        "path": "s0-r1/11101100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9971316342432595e-45",
+          "8.235212723992151e-44",
+          "3.966279832115951e-42"
+        ],
+        "path": "s0-r1/11101101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.6025720908437112e-45",
+          "1.0731758699087302e-43",
+          "5.1686774170217166e-42"
+        ],
+        "path": "s0-r1/11101110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.662098145549744e-45",
+          "2.3347776360499833e-43",
+          "1.1244860039560835e-41"
+        ],
+        "path": "s0-r1/11101111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0705295009272824e-46",
+          "2.0908431045675752e-44",
+          "1.0070011677554697e-42"
+        ],
+        "path": "s0-r1/11110000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11110001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5466714158664076e-45",
+          "6.37773087997215e-44",
+          "3.071671149312627e-42"
+        ],
+        "path": "s0-r1/11110010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.391554852461947e-45",
+          "1.3985145075913514e-43",
+          "6.735587861179506e-42"
+        ],
+        "path": "s0-r1/11110011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1541690653146163e-45",
+          "4.759239512748617e-44",
+          "2.29216612647319e-42"
+        ],
+        "path": "s0-r1/11110100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.6025720908437112e-45",
+          "1.0731758699087302e-43",
+          "5.1686774170217166e-42"
+        ],
+        "path": "s0-r1/11110101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.391554852461947e-45",
+          "1.3985145075913514e-43",
+          "6.735587861179506e-42"
+        ],
+        "path": "s0-r1/11110110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "7.378591565500387e-45",
+          "3.0425771652982866e-43",
+          "1.4653795655585037e-41"
+        ],
+        "path": "s0-r1/11110111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "1.103133159555433e-45",
+          "4.548791924615489e-44",
+          "2.190809420189897e-42"
+        ],
+        "path": "s0-r1/11111000",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.510984632180898e-45",
+          "1.035409597644539e-43",
+          "4.986785809087574e-42"
+        ],
+        "path": "s0-r1/11111001",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "3.364904036905953e-45",
+          "1.3875249928091522e-43",
+          "6.682659678942727e-42"
+        ],
+        "path": "s0-r1/11111010",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "7.378591565500387e-45",
+          "3.0425771652982866e-43",
+          "1.4653795655585037e-41"
+        ],
+        "path": "s0-r1/11111011",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.510984632180898e-45",
+          "1.035409597644539e-43",
+          "4.986785809087574e-42"
+        ],
+        "path": "s0-r1/11111100",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "5.662098145549744e-45",
+          "2.3347776360499833e-43",
+          "1.1244860039560835e-41"
+        ],
+        "path": "s0-r1/11111101",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "7.378591565500387e-45",
+          "3.0425771652982866e-43",
+          "1.4653795655585037e-41"
+        ],
+        "path": "s0-r1/11111110",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/16307453952",
+        "integrated_value_first_second_abs_uppers": [
+          "2.5152856874363516e-47",
+          "8.304343080051877e-46",
+          "3.158187835029759e-44"
+        ],
+        "path": "s0-r1/11111111",
+        "region": "s0"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.047496094017334e-05",
+          "0.0042557362394290985",
+          "0.5691430252045394"
+        ],
+        "path": "interior-r1/00000000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.213031478338964e-05",
+          "0.009687033889349552",
+          "1.2955003492534163"
+        ],
+        "path": "interior-r1/00000001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00012346139624241917",
+          "0.012981337684323082",
+          "1.7360657192766669"
+        ],
+        "path": "interior-r1/00000010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00027072724878962623",
+          "0.028465592884458605",
+          "3.806860372424126"
+        ],
+        "path": "interior-r1/00000011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.213031478338964e-05",
+          "0.009687033889349552",
+          "1.2955003492534163"
+        ],
+        "path": "interior-r1/00000100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00020774754148078503",
+          "0.021843597060069445",
+          "2.9212644360959534"
+        ],
+        "path": "interior-r1/00000101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00027072724878962623",
+          "0.028465592884458605",
+          "3.806860372424126"
+        ],
+        "path": "interior-r1/00000110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005889882013434545",
+          "0.06192911294056103",
+          "8.28212106227875"
+        ],
+        "path": "interior-r1/00000111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.213031478338964e-05",
+          "0.009687033889349552",
+          "1.2955003492534163"
+        ],
+        "path": "interior-r1/00001000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000209709772889255",
+          "0.022049915743991736",
+          "2.9488565735518937"
+        ],
+        "path": "interior-r1/00001001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0002810265164043813",
+          "0.02954850846435875",
+          "3.9516846351325516"
+        ],
+        "path": "interior-r1/00001010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00001011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000209709772889255",
+          "0.022049915743991736",
+          "2.9488565735518937"
+        ],
+        "path": "interior-r1/00001100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0004728811563836644",
+          "0.04972104786429555",
+          "6.6494693383574495"
+        ],
+        "path": "interior-r1/00001101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00001110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013406725302047564",
+          "0.14096489595249298",
+          "18.852011233568195"
+        ],
+        "path": "interior-r1/00001111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00012346139624241917",
+          "0.012981337684323082",
+          "1.7360657192766669"
+        ],
+        "path": "interior-r1/00010000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0002810265164043813",
+          "0.02954850846435875",
+          "3.9516846351325516"
+        ],
+        "path": "interior-r1/00010001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00037659619511032366",
+          "0.03959717403631658",
+          "5.295547977089883"
+        ],
+        "path": "interior-r1/00010010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0008258034904429224",
+          "0.08682903589215131",
+          "11.612124770879747"
+        ],
+        "path": "interior-r1/00010011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0002810265164043813",
+          "0.02954850846435875",
+          "3.9516846351325516"
+        ],
+        "path": "interior-r1/00010100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006336955202641549",
+          "0.0666298600845039",
+          "8.910777837038042"
+        ],
+        "path": "interior-r1/00010101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0008258034904429224",
+          "0.08682903589215131",
+          "11.612124770879747"
+        ],
+        "path": "interior-r1/00010110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0017965997685678305",
+          "0.1889033257029951",
+          "25.263081252574924"
+        ],
+        "path": "interior-r1/00010111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00027072724878962623",
+          "0.028465592884458605",
+          "3.806860372424126"
+        ],
+        "path": "interior-r1/00011000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00011001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0008258034904429224",
+          "0.08682903589215131",
+          "11.612124770879747"
+        ],
+        "path": "interior-r1/00011010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.001810829246096546",
+          "0.1903994828462601",
+          "25.463170588016514"
+        ],
+        "path": "interior-r1/00011011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00011100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013895731826778503",
+          "0.14610655093565586",
+          "19.539633035659794"
+        ],
+        "path": "interior-r1/00011101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.001810829246096546",
+          "0.1903994828462601",
+          "25.463170588016514"
+        ],
+        "path": "interior-r1/00011110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.003939599984732923",
+          "0.41422889474779373",
+          "55.39710944890977"
+        ],
+        "path": "interior-r1/00011111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.213031478338964e-05",
+          "0.009687033889349552",
+          "1.2955003492534163"
+        ],
+        "path": "interior-r1/00100000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000209709772889255",
+          "0.022049915743991736",
+          "2.9488565735518937"
+        ],
+        "path": "interior-r1/00100001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0002810265164043813",
+          "0.02954850846435875",
+          "3.9516846351325516"
+        ],
+        "path": "interior-r1/00100010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00100011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.000209709772889255",
+          "0.022049915743991736",
+          "2.9488565735518937"
+        ],
+        "path": "interior-r1/00100100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0004728811563836644",
+          "0.04972104786429555",
+          "6.6494693383574495"
+        ],
+        "path": "interior-r1/00100101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00100110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013406725302047564",
+          "0.14096489595249298",
+          "18.852011233568195"
+        ],
+        "path": "interior-r1/00100111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00020774754148078503",
+          "0.021843597060069445",
+          "2.9212644360959534"
+        ],
+        "path": "interior-r1/00101000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0004728811563836644",
+          "0.04972104786429555",
+          "6.6494693383574495"
+        ],
+        "path": "interior-r1/00101001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006336955202641549",
+          "0.0666298600845039",
+          "8.910777837038042"
+        ],
+        "path": "interior-r1/00101010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013895731826778503",
+          "0.14610655093565586",
+          "19.539633035659794"
+        ],
+        "path": "interior-r1/00101011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0004728811563836644",
+          "0.04972104786429555",
+          "6.6494693383574495"
+        ],
+        "path": "interior-r1/00101100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0010663145767466633",
+          "0.11211755289696158",
+          "14.994097307324411"
+        ],
+        "path": "interior-r1/00101101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013895731826778503",
+          "0.14610655093565586",
+          "19.539633035659794"
+        ],
+        "path": "interior-r1/00101110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.003023124612809625",
+          "0.31786617357283836",
+          "42.50999253988267"
+        ],
+        "path": "interior-r1/00101111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.00027072724878962623",
+          "0.028465592884458605",
+          "3.806860372424126"
+        ],
+        "path": "interior-r1/00110000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00110001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0008258034904429224",
+          "0.08682903589215131",
+          "11.612124770879747"
+        ],
+        "path": "interior-r1/00110010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.001810829246096546",
+          "0.1903994828462601",
+          "25.463170588016514"
+        ],
+        "path": "interior-r1/00110011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0006162374465930044",
+          "0.06479423248674722",
+          "8.665289267897608"
+        ],
+        "path": "interior-r1/00110100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013895731826778503",
+          "0.14610655093565586",
+          "19.539633035659794"
+        ],
+        "path": "interior-r1/00110101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.001810829246096546",
+          "0.1903994828462601",
+          "25.463170588016514"
+        ],
+        "path": "interior-r1/00110110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.003939599984732923",
+          "0.41422889474779373",
+          "55.39710944890977"
+        ],
+        "path": "interior-r1/00110111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0005889882013434545",
+          "0.06192911294056103",
+          "8.28212106227875"
+        ],
+        "path": "interior-r1/00111000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013406725302047564",
+          "0.14096489595249298",
+          "18.852011233568195"
+        ],
+        "path": "interior-r1/00111001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0017965997685678305",
+          "0.1889033257029951",
+          "25.263081252574924"
+        ],
+        "path": "interior-r1/00111010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.003939599984732923",
+          "0.41422889474779373",
+          "55.39710944890977"
+        ],
+        "path": "interior-r1/00111011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0013406725302047564",
+          "0.14096489595249298",
+          "18.852011233568195"
+        ],
+        "path": "interior-r1/00111100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.003023124612809625",
+          "0.31786617357283836",
+          "42.50999253988267"
+        ],
+        "path": "interior-r1/00111101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.003939599984732923",
+          "0.41422889474779373",
+          "55.39710944890977"
+        ],
+        "path": "interior-r1/00111110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "0.0014524241214530777",
+          "0.11920055036898704",
+          "12.282137200236322"
+        ],
+        "path": "interior-r1/00111111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.448770803583654e-16",
+          "1.2486587924486525e-13",
+          "4.673222816749604e-11"
+        ],
+        "path": "interior-r1/01000000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0126424947977727e-15",
+          "2.842234423924633e-13",
+          "1.0637329287809667e-10"
+        ],
+        "path": "interior-r1/01000001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.357015399441923e-15",
+          "3.808803108620678e-13",
+          "1.425480343573288e-10"
+        ],
+        "path": "interior-r1/01000010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.975675444790102e-15",
+          "8.351977378941753e-13",
+          "3.1258059899133555e-10"
+        ],
+        "path": "interior-r1/01000011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0126424947977727e-15",
+          "2.842234423924633e-13",
+          "1.0637329287809667e-10"
+        ],
+        "path": "interior-r1/01000100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.283439370068191e-15",
+          "6.409043700820171e-13",
+          "2.3986448027465973e-10"
+        ],
+        "path": "interior-r1/01000101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.975675444790102e-15",
+          "8.351977378941753e-13",
+          "3.1258059899133555e-10"
+        ],
+        "path": "interior-r1/01000110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.473813543410645e-15",
+          "1.8170376854753864e-12",
+          "6.800434217482666e-10"
+        ],
+        "path": "interior-r1/01000111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0126424947977727e-15",
+          "2.842234423924633e-13",
+          "1.0637329287809667e-10"
+        ],
+        "path": "interior-r1/01001000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.3050070788365517e-15",
+          "6.469578858571478e-13",
+          "2.4213006556347843e-10"
+        ],
+        "path": "interior-r1/01001001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.088878962970916e-15",
+          "8.669711363680739e-13",
+          "3.2447209198996357e-10"
+        ],
+        "path": "interior-r1/01001010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01001011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.3050070788365517e-15",
+          "6.469578858571478e-13",
+          "2.4213006556347843e-10"
+        ],
+        "path": "interior-r1/01001100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.197632875442281e-15",
+          "1.4588456632899087e-12",
+          "5.45986692489231e-10"
+        ],
+        "path": "interior-r1/01001101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01001110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.473588769051089e-14",
+          "4.135995440178367e-12",
+          "1.5479351429120716e-09"
+        ],
+        "path": "interior-r1/01001111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.357015399441923e-15",
+          "3.808803108620678e-13",
+          "1.425480343573288e-10"
+        ],
+        "path": "interior-r1/01010000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.088878962970916e-15",
+          "8.669711363680739e-13",
+          "3.2447209198996357e-10"
+        ],
+        "path": "interior-r1/01010001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.139324936905704e-15",
+          "1.1618050729231063e-12",
+          "4.348164601812588e-10"
+        ],
+        "path": "interior-r1/01010010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.076748589502304e-15",
+          "2.5476165129584027e-12",
+          "9.5346940759411e-10"
+        ],
+        "path": "interior-r1/01010011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.088878962970916e-15",
+          "8.669711363680739e-13",
+          "3.2447209198996357e-10"
+        ],
+        "path": "interior-r1/01010100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.96521023157913e-15",
+          "1.9549604549941577e-12",
+          "7.316623132011536e-10"
+        ],
+        "path": "interior-r1/01010101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.076748589502304e-15",
+          "2.5476165129584027e-12",
+          "9.5346940759411e-10"
+        ],
+        "path": "interior-r1/01010110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9747173046241984e-14",
+          "5.542538006515514e-12",
+          "2.074346912989134e-09"
+        ],
+        "path": "interior-r1/01010111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.975675444790102e-15",
+          "8.351977378941753e-13",
+          "3.1258059899133555e-10"
+        ],
+        "path": "interior-r1/01011000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01011001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.076748589502304e-15",
+          "2.5476165129584027e-12",
+          "9.5346940759411e-10"
+        ],
+        "path": "interior-r1/01011010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.990357513885365e-14",
+          "5.586436159857063e-12",
+          "2.090776215352142e-09"
+        ],
+        "path": "interior-r1/01011011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01011100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5273375041229508e-14",
+          "4.286854705037262e-12",
+          "1.6043956389127925e-09"
+        ],
+        "path": "interior-r1/01011101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.990357513885365e-14",
+          "5.586436159857063e-12",
+          "2.090776215352142e-09"
+        ],
+        "path": "interior-r1/01011110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.330177687220482e-14",
+          "1.2153726687709998e-11",
+          "4.5486463831623256e-09"
+        ],
+        "path": "interior-r1/01011111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.0126424947977727e-15",
+          "2.842234423924633e-13",
+          "1.0637329287809667e-10"
+        ],
+        "path": "interior-r1/01100000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.3050070788365517e-15",
+          "6.469578858571478e-13",
+          "2.4213006556347843e-10"
+        ],
+        "path": "interior-r1/01100001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.088878962970916e-15",
+          "8.669711363680739e-13",
+          "3.2447209198996357e-10"
+        ],
+        "path": "interior-r1/01100010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01100011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.3050070788365517e-15",
+          "6.469578858571478e-13",
+          "2.4213006556347843e-10"
+        ],
+        "path": "interior-r1/01100100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.197632875442281e-15",
+          "1.4588456632899087e-12",
+          "5.45986692489231e-10"
+        ],
+        "path": "interior-r1/01100101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01100110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.473588769051089e-14",
+          "4.135995440178367e-12",
+          "1.5479351429120716e-09"
+        ],
+        "path": "interior-r1/01100111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.283439370068191e-15",
+          "6.409043700820171e-13",
+          "2.3986448027465973e-10"
+        ],
+        "path": "interior-r1/01101000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.197632875442281e-15",
+          "1.4588456632899087e-12",
+          "5.45986692489231e-10"
+        ],
+        "path": "interior-r1/01101001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.96521023157913e-15",
+          "1.9549604549941577e-12",
+          "7.316623132011536e-10"
+        ],
+        "path": "interior-r1/01101010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5273375041229508e-14",
+          "4.286854705037262e-12",
+          "1.6043956389127925e-09"
+        ],
+        "path": "interior-r1/01101011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.197632875442281e-15",
+          "1.4588456632899087e-12",
+          "5.45986692489231e-10"
+        ],
+        "path": "interior-r1/01101100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1720305674765608e-14",
+          "3.2895969172134277e-12",
+          "1.231162545176079e-09"
+        ],
+        "path": "interior-r1/01101101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5273375041229508e-14",
+          "4.286854705037262e-12",
+          "1.6043956389127925e-09"
+        ],
+        "path": "interior-r1/01101110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.3228416265280255e-14",
+          "9.326386058296049e-12",
+          "3.490487589935532e-09"
+        ],
+        "path": "interior-r1/01101111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.975675444790102e-15",
+          "8.351977378941753e-13",
+          "3.1258059899133555e-10"
+        ],
+        "path": "interior-r1/01110000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01110001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.076748589502304e-15",
+          "2.5476165129584027e-12",
+          "9.5346940759411e-10"
+        ],
+        "path": "interior-r1/01110010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.990357513885365e-14",
+          "5.586436159857063e-12",
+          "2.090776215352142e-09"
+        ],
+        "path": "interior-r1/01110011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.773321309830442e-15",
+          "1.9011020310614507e-12",
+          "7.115052930509181e-10"
+        ],
+        "path": "interior-r1/01110100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5273375041229508e-14",
+          "4.286854705037262e-12",
+          "1.6043956389127925e-09"
+        ],
+        "path": "interior-r1/01110101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.990357513885365e-14",
+          "5.586436159857063e-12",
+          "2.090776215352142e-09"
+        ],
+        "path": "interior-r1/01110110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.330177687220482e-14",
+          "1.2153726687709998e-11",
+          "4.5486463831623256e-09"
+        ],
+        "path": "interior-r1/01110111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.473813543410645e-15",
+          "1.8170376854753864e-12",
+          "6.800434217482666e-10"
+        ],
+        "path": "interior-r1/01111000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.473588769051089e-14",
+          "4.135995440178367e-12",
+          "1.5479351429120716e-09"
+        ],
+        "path": "interior-r1/01111001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.9747173046241984e-14",
+          "5.542538006515514e-12",
+          "2.074346912989134e-09"
+        ],
+        "path": "interior-r1/01111010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.330177687220482e-14",
+          "1.2153726687709998e-11",
+          "4.5486463831623256e-09"
+        ],
+        "path": "interior-r1/01111011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.473588769051089e-14",
+          "4.135995440178367e-12",
+          "1.5479351429120716e-09"
+        ],
+        "path": "interior-r1/01111100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.3228416265280255e-14",
+          "9.326386058296049e-12",
+          "3.490487589935532e-09"
+        ],
+        "path": "interior-r1/01111101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.330177687220482e-14",
+          "1.2153726687709998e-11",
+          "4.5486463831623256e-09"
+        ],
+        "path": "interior-r1/01111110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.665225884766942e-14",
+          "5.705941693797974e-12",
+          "1.6161929763253149e-09"
+        ],
+        "path": "interior-r1/01111111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.181457852129932e-42",
+          "2.2042223646654848e-40",
+          "2.741204685419677e-38"
+        ],
+        "path": "interior-r1/10000000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.9654994993306345e-42",
+          "5.0173167533302985e-40",
+          "6.239611969955868e-38"
+        ],
+        "path": "interior-r1/10000001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.654134437208386e-42",
+          "6.723573370705127e-40",
+          "8.361538836944282e-38"
+        ],
+        "path": "interior-r1/10000010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4591245242424397e-41",
+          "1.4743511583984174e-39",
+          "1.8335256773395467e-37"
+        ],
+        "path": "interior-r1/10000011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.9654994993306345e-42",
+          "5.0173167533302985e-40",
+          "6.239611969955868e-38"
+        ],
+        "path": "interior-r1/10000100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1196860841709702e-41",
+          "1.1313705217735767e-39",
+          "1.4069897101691877e-37"
+        ],
+        "path": "interior-r1/10000101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4591245242424397e-41",
+          "1.4743511583984174e-39",
+          "1.8335256773395467e-37"
+        ],
+        "path": "interior-r1/10000110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.1744389727286837e-41",
+          "3.207565698360287e-39",
+          "3.9889778271114156e-37"
+        ],
+        "path": "interior-r1/10000111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.9654994993306345e-42",
+          "5.0173167533302985e-40",
+          "6.239611969955868e-38"
+        ],
+        "path": "interior-r1/10001000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1302618206978397e-41",
+          "1.142056621331099e-39",
+          "1.4202791063244124e-37"
+        ],
+        "path": "interior-r1/10001001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5146339493110014e-41",
+          "1.530439848213166e-39",
+          "1.903278435048513e-37"
+        ],
+        "path": "interior-r1/10001010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10001011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1302618206978397e-41",
+          "1.142056621331099e-39",
+          "1.4202791063244124e-37"
+        ],
+        "path": "interior-r1/10001100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.548662894796772e-41",
+          "2.5752593550792168e-39",
+          "3.202631980671699e-37"
+        ],
+        "path": "interior-r1/10001101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10001110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.225752775608406e-41",
+          "7.301156804372452e-39",
+          "9.07983042202741e-37"
+        ],
+        "path": "interior-r1/10001111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.654134437208386e-42",
+          "6.723573370705127e-40",
+          "8.361538836944282e-38"
+        ],
+        "path": "interior-r1/10010000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5146339493110014e-41",
+          "1.530439848213166e-39",
+          "1.903278435048513e-37"
+        ],
+        "path": "interior-r1/10010001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.0297208594254622e-41",
+          "2.0509019267840554e-39",
+          "2.55053304594829e-37"
+        ],
+        "path": "interior-r1/10010010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.450789980385921e-41",
+          "4.497236004472469e-39",
+          "5.592831581227519e-37"
+        ],
+        "path": "interior-r1/10010011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5146339493110014e-41",
+          "1.530439848213166e-39",
+          "1.903278435048513e-37"
+        ],
+        "path": "interior-r1/10010100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.415395681913859e-41",
+          "3.4510368946360905e-39",
+          "4.291762341816552e-37"
+        ],
+        "path": "interior-r1/10010101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.450789980385921e-41",
+          "4.497236004472469e-39",
+          "5.592831581227519e-37"
+        ],
+        "path": "interior-r1/10010110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.683040024399136e-41",
+          "9.784086987486843e-39",
+          "1.2167640409405641e-36"
+        ],
+        "path": "interior-r1/10010111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4591245242424397e-41",
+          "1.4743511583984174e-39",
+          "1.8335256773395467e-37"
+        ],
+        "path": "interior-r1/10011000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10011001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.450789980385921e-41",
+          "4.497236004472469e-39",
+          "5.592831581227519e-37"
+        ],
+        "path": "interior-r1/10011010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.759731933006709e-41",
+          "9.861579186679198e-39",
+          "1.2264010927783727e-36"
+        ],
+        "path": "interior-r1/10011011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10011100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.489310075279626e-41",
+          "7.567464436234433e-39",
+          "9.411014688371417e-37"
+        ],
+        "path": "interior-r1/10011101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.759731933006709e-41",
+          "9.861579186679198e-39",
+          "1.2264010927783727e-36"
+        ],
+        "path": "interior-r1/10011110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1233056438221373e-40",
+          "2.1454633102748008e-38",
+          "2.6681310325190612e-36"
+        ],
+        "path": "interior-r1/10011111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.9654994993306345e-42",
+          "5.0173167533302985e-40",
+          "6.239611969955868e-38"
+        ],
+        "path": "interior-r1/10100000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1302618206978397e-41",
+          "1.142056621331099e-39",
+          "1.4202791063244124e-37"
+        ],
+        "path": "interior-r1/10100001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.5146339493110014e-41",
+          "1.530439848213166e-39",
+          "1.903278435048513e-37"
+        ],
+        "path": "interior-r1/10100010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10100011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1302618206978397e-41",
+          "1.142056621331099e-39",
+          "1.4202791063244124e-37"
+        ],
+        "path": "interior-r1/10100100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.548662894796772e-41",
+          "2.5752593550792168e-39",
+          "3.202631980671699e-37"
+        ],
+        "path": "interior-r1/10100101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10100110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.225752775608406e-41",
+          "7.301156804372452e-39",
+          "9.07983042202741e-37"
+        ],
+        "path": "interior-r1/10100111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1196860841709702e-41",
+          "1.1313705217735767e-39",
+          "1.4069897101691877e-37"
+        ],
+        "path": "interior-r1/10101000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.548662894796772e-41",
+          "2.5752593550792168e-39",
+          "3.202631980671699e-37"
+        ],
+        "path": "interior-r1/10101001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.415395681913859e-41",
+          "3.4510368946360905e-39",
+          "4.291762341816552e-37"
+        ],
+        "path": "interior-r1/10101010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.489310075279626e-41",
+          "7.567464436234433e-39",
+          "9.411014688371417e-37"
+        ],
+        "path": "interior-r1/10101011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.548662894796772e-41",
+          "2.5752593550792168e-39",
+          "3.202631980671699e-37"
+        ],
+        "path": "interior-r1/10101100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.747060042874439e-41",
+          "5.8070332370612574e-39",
+          "7.22171547564973e-37"
+        ],
+        "path": "interior-r1/10101101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.489310075279626e-41",
+          "7.567464436234433e-39",
+          "9.411014688371417e-37"
+        ],
+        "path": "interior-r1/10101110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.6293576939461485e-40",
+          "1.6463607912162843e-38",
+          "2.047439492762263e-36"
+        ],
+        "path": "interior-r1/10101111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4591245242424397e-41",
+          "1.4743511583984174e-39",
+          "1.8335256773395467e-37"
+        ],
+        "path": "interior-r1/10110000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10110001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "4.450789980385921e-41",
+          "4.497236004472469e-39",
+          "5.592831581227519e-37"
+        ],
+        "path": "interior-r1/10110010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.759731933006709e-41",
+          "9.861579186679198e-39",
+          "1.2264010927783727e-36"
+        ],
+        "path": "interior-r1/10110011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.321302817775066e-41",
+          "3.3559621219155044e-39",
+          "4.1735259061492035e-37"
+        ],
+        "path": "interior-r1/10110100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.489310075279626e-41",
+          "7.567464436234433e-39",
+          "9.411014688371417e-37"
+        ],
+        "path": "interior-r1/10110101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.759731933006709e-41",
+          "9.861579186679198e-39",
+          "1.2264010927783727e-36"
+        ],
+        "path": "interior-r1/10110110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1233056438221373e-40",
+          "2.1454633102748008e-38",
+          "2.6681310325190612e-36"
+        ],
+        "path": "interior-r1/10110111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.1744389727286837e-41",
+          "3.207565698360287e-39",
+          "3.9889778271114156e-37"
+        ],
+        "path": "interior-r1/10111000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.225752775608406e-41",
+          "7.301156804372452e-39",
+          "9.07983042202741e-37"
+        ],
+        "path": "interior-r1/10111001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "9.683040024399136e-41",
+          "9.784086987486843e-39",
+          "1.2167640409405641e-36"
+        ],
+        "path": "interior-r1/10111010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1233056438221373e-40",
+          "2.1454633102748008e-38",
+          "2.6681310325190612e-36"
+        ],
+        "path": "interior-r1/10111011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.225752775608406e-41",
+          "7.301156804372452e-39",
+          "9.07983042202741e-37"
+        ],
+        "path": "interior-r1/10111100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.6293576939461485e-40",
+          "1.6463607912162843e-38",
+          "2.047439492762263e-36"
+        ],
+        "path": "interior-r1/10111101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.1233056438221373e-40",
+          "2.1454633102748008e-38",
+          "2.6681310325190612e-36"
+        ],
+        "path": "interior-r1/10111110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.86796006161194e-41",
+          "6.231349274867785e-39",
+          "5.9941662780200595e-37"
+        ],
+        "path": "interior-r1/10111111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4826680868332307e-53",
+          "6.587598543590071e-51",
+          "2.2606710686242914e-48"
+        ],
+        "path": "interior-r1/11000000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.65112322310319e-53",
+          "1.499488849995543e-50",
+          "5.145806994636868e-48"
+        ],
+        "path": "interior-r1/11000001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.57292064306786e-53",
+          "2.0094253198722444e-50",
+          "6.89575973637355e-48"
+        ],
+        "path": "interior-r1/11000010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.6605967834500543e-52",
+          "4.4062857375843025e-50",
+          "1.512108333323882e-47"
+        ],
+        "path": "interior-r1/11000011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.65112322310319e-53",
+          "1.499488849995543e-50",
+          "5.145806994636868e-48"
+        ],
+        "path": "interior-r1/11000100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2742895345689953e-52",
+          "3.381244532862831e-50",
+          "1.1603441878501462e-47"
+        ],
+        "path": "interior-r1/11000101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.6605967834500543e-52",
+          "4.4062857375843025e-50",
+          "1.512108333323882e-47"
+        ],
+        "path": "interior-r1/11000110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.612757555116003e-52",
+          "9.586217562920096e-50",
+          "3.2897093804276116e-47"
+        ],
+        "path": "interior-r1/11000111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.65112322310319e-53",
+          "1.499488849995543e-50",
+          "5.145806994636868e-48"
+        ],
+        "path": "interior-r1/11001000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2863255430940899e-52",
+          "3.4131812941980606e-50",
+          "1.1713039505718766e-47"
+        ],
+        "path": "interior-r1/11001001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7237708105151817e-52",
+          "4.57391390331375e-50",
+          "1.569633417100106e-47"
+        ],
+        "path": "interior-r1/11001010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11001011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2863255430940899e-52",
+          "3.4131812941980606e-50",
+          "1.1713039505718766e-47"
+        ],
+        "path": "interior-r1/11001100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.900575881971452e-52",
+          "7.696489747433402e-50",
+          "2.6412100832039005e-47"
+        ],
+        "path": "interior-r1/11001101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11001110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.223466615412464e-52",
+          "2.1820434616798907e-49",
+          "7.488134700226344e-47"
+        ],
+        "path": "interior-r1/11001111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "7.57292064306786e-53",
+          "2.0094253198722444e-50",
+          "6.89575973637355e-48"
+        ],
+        "path": "interior-r1/11010000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7237708105151817e-52",
+          "4.57391390331375e-50",
+          "1.569633417100106e-47"
+        ],
+        "path": "interior-r1/11010001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.3099796306781186e-52",
+          "6.129380950304112e-50",
+          "2.10342419743921e-47"
+        ],
+        "path": "interior-r1/11010010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0653439185662384e-52",
+          "1.3440561146935562e-49",
+          "4.61240731147979e-47"
+        ],
+        "path": "interior-r1/11010011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7237708105151817e-52",
+          "4.57391390331375e-50",
+          "1.569633417100106e-47"
+        ],
+        "path": "interior-r1/11010100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.886984953972071e-52",
+          "1.031386218181341e-49",
+          "3.5394157187467313e-47"
+        ],
+        "path": "interior-r1/11010101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0653439185662384e-52",
+          "1.3440561146935562e-49",
+          "4.61240731147979e-47"
+        ],
+        "path": "interior-r1/11010110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1020049941107696e-51",
+          "2.9240986929566324e-49",
+          "1.0034651122907092e-46"
+        ],
+        "path": "interior-r1/11010111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.6605967834500543e-52",
+          "4.4062857375843025e-50",
+          "1.512108333323882e-47"
+        ],
+        "path": "interior-r1/11011000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11011001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0653439185662384e-52",
+          "1.3440561146935562e-49",
+          "4.61240731147979e-47"
+        ],
+        "path": "interior-r1/11011010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1107331240160315e-51",
+          "2.9472582156357793e-49",
+          "1.0114127846820548e-46"
+        ],
+        "path": "interior-r1/11011011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11011100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.523415242381629e-52",
+          "2.2616328870326127e-49",
+          "7.761262313872451e-47"
+        ],
+        "path": "interior-r1/11011101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1107331240160315e-51",
+          "2.9472582156357793e-49",
+          "1.0114127846820548e-46"
+        ],
+        "path": "interior-r1/11011110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4164863616696812e-51",
+          "6.411989643739717e-49",
+          "2.200407234525911e-46"
+        ],
+        "path": "interior-r1/11011111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.65112322310319e-53",
+          "1.499488849995543e-50",
+          "5.145806994636868e-48"
+        ],
+        "path": "interior-r1/11100000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2863255430940899e-52",
+          "3.4131812941980606e-50",
+          "1.1713039505718766e-47"
+        ],
+        "path": "interior-r1/11100001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.7237708105151817e-52",
+          "4.57391390331375e-50",
+          "1.569633417100106e-47"
+        ],
+        "path": "interior-r1/11100010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11100011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2863255430940899e-52",
+          "3.4131812941980606e-50",
+          "1.1713039505718766e-47"
+        ],
+        "path": "interior-r1/11100100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.900575881971452e-52",
+          "7.696489747433402e-50",
+          "2.6412100832039005e-47"
+        ],
+        "path": "interior-r1/11100101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11100110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.223466615412464e-52",
+          "2.1820434616798907e-49",
+          "7.488134700226344e-47"
+        ],
+        "path": "interior-r1/11100111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.2742895345689953e-52",
+          "3.381244532862831e-50",
+          "1.1603441878501462e-47"
+        ],
+        "path": "interior-r1/11101000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.900575881971452e-52",
+          "7.696489747433402e-50",
+          "2.6412100832039005e-47"
+        ],
+        "path": "interior-r1/11101001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.886984953972071e-52",
+          "1.031386218181341e-49",
+          "3.5394157187467313e-47"
+        ],
+        "path": "interior-r1/11101010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.523415242381629e-52",
+          "2.2616328870326127e-49",
+          "7.761262313872451e-47"
+        ],
+        "path": "interior-r1/11101011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.900575881971452e-52",
+          "7.696489747433402e-50",
+          "2.6412100832039005e-47"
+        ],
+        "path": "interior-r1/11101100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "6.5405996874301704e-52",
+          "1.7355056551953297e-49",
+          "5.955747590523484e-47"
+        ],
+        "path": "interior-r1/11101101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.523415242381629e-52",
+          "2.2616328870326127e-49",
+          "7.761262313872451e-47"
+        ],
+        "path": "interior-r1/11101110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8543353271432944e-51",
+          "4.920358372700072e-49",
+          "1.688523025677404e-46"
+        ],
+        "path": "interior-r1/11101111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.6605967834500543e-52",
+          "4.4062857375843025e-50",
+          "1.512108333323882e-47"
+        ],
+        "path": "interior-r1/11110000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11110001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "5.0653439185662384e-52",
+          "1.3440561146935562e-49",
+          "4.61240731147979e-47"
+        ],
+        "path": "interior-r1/11110010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1107331240160315e-51",
+          "2.9472582156357793e-49",
+          "1.0114127846820548e-46"
+        ],
+        "path": "interior-r1/11110011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.779899985379302e-52",
+          "1.0029719152882538e-49",
+          "3.4419061446467195e-47"
+        ],
+        "path": "interior-r1/11110100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.523415242381629e-52",
+          "2.2616328870326127e-49",
+          "7.761262313872451e-47"
+        ],
+        "path": "interior-r1/11110101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1107331240160315e-51",
+          "2.9472582156357793e-49",
+          "1.0114127846820548e-46"
+        ],
+        "path": "interior-r1/11110110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4164863616696812e-51",
+          "6.411989643739717e-49",
+          "2.200407234525911e-46"
+        ],
+        "path": "interior-r1/11110111",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "3.612757555116003e-52",
+          "9.586217562920096e-50",
+          "3.2897093804276116e-47"
+        ],
+        "path": "interior-r1/11111000",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.223466615412464e-52",
+          "2.1820434616798907e-49",
+          "7.488134700226344e-47"
+        ],
+        "path": "interior-r1/11111001",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.1020049941107696e-51",
+          "2.9240986929566324e-49",
+          "1.0034651122907092e-46"
+        ],
+        "path": "interior-r1/11111010",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4164863616696812e-51",
+          "6.411989643739717e-49",
+          "2.200407234525911e-46"
+        ],
+        "path": "interior-r1/11111011",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "8.223466615412464e-52",
+          "2.1820434616798907e-49",
+          "7.488134700226344e-47"
+        ],
+        "path": "interior-r1/11111100",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.8543353271432944e-51",
+          "4.920358372700072e-49",
+          "1.688523025677404e-46"
+        ],
+        "path": "interior-r1/11111101",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "2.4164863616696812e-51",
+          "6.411989643739717e-49",
+          "2.200407234525911e-46"
+        ],
+        "path": "interior-r1/11111110",
+        "region": "interior"
+      },
+      {
+        "depth": 1,
+        "exact_geometric_volume": "5/8153726976",
+        "integrated_value_first_second_abs_uppers": [
+          "1.4859258429599792e-51",
+          "3.015215049534971e-49",
+          "7.84767754084608e-47"
+        ],
+        "path": "interior-r1/11111111",
+        "region": "interior"
+      }
+    ],
+    "finite_parent_volume_replayed": true,
+    "finite_root_count": 6,
+    "pairwise_disjoint_up_to_shared_boundaries": true,
+    "split_count": 2,
+    "split_records": [
+      {
+        "child_sum_uppers": [
+          "0.018600664014229554",
+          "0.5656096087768675",
+          "19.51676264405251"
+        ],
+        "nonincreasing_by_order": [
+          true,
+          true,
+          true
+        ],
+        "parent_uppers": [
+          "983157.1572265626",
+          "63897856.93750001",
+          "4681591704.000001"
+        ],
+        "path": "s0-r1"
+      },
+      {
+        "child_sum_uppers": [
+          "0.06314478046260776",
+          "6.605837084352971",
+          "879.7757225036622"
+        ],
+        "nonincreasing_by_order": [
+          true,
+          true,
+          true
+        ],
+        "parent_uppers": [
+          "128087.01281738283",
+          "35566478.06250001",
+          "12540343760.000002"
+        ],
+        "path": "interior-r1"
+      }
+    ],
+    "tail_projective_width_sum": "1"
+  },
+  "release_test": {
+    "all_leaf_contributions_below_declared_tolerance": true,
+    "all_leaf_uppers_finite_positive": true,
+    "finite_domain_exactly_covered": true,
+    "native_K152_interval_emitted": false,
+    "raw_zero_evaluation_used": false,
+    "tail_domain_analytically_covered": true
+  },
+  "result_id": "K334-ORDER-SEVEN-RECURSIVE-GLOBAL-SUBDIVISION",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

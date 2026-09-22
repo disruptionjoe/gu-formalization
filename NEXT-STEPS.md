@@ -20,6 +20,21 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K334/K335 RECURSIVE Y CLOSURE AND GAP-AXIS GATE.** K334
+> recursively composes the accepted interior and face evaluators. Its 516
+> finite leaves plus three analytic tails cover the complete radial/projective
+> domain and fixed six-gap cell, replay exact finite geometric volume
+> `1/2985984`, satisfy the declared `1/16` per-leaf contribution tolerance,
+> and emit complete y value/first/second absolute uppers approximately
+> `3.2043978521`, `329.05847116` and `68335.82355`. K335 binds all five K309
+> Duffy axes to that exact subdivision and supplies exact rational zero-safe
+> scaled-Bessel envelopes through the newly required kernel orders seven and
+> eight. The next gate is narrower: serialize the four axis-native numerical
+> maps named by K335, evaluate K305's shared-entry column-replacement
+> determinants on every accepted leaf, and apply each K299 Peano mass. Do not
+> treat structural template counts or the y derivative bank as gap-axis
+> constants. The six-axis norm and K294 gamma join remain closed.
+
 > **2026-09-22 K331--K333 PROJECTIVE-FACE AND RADIAL CLOSURE.** K331 proves
 > the exact face homogeneity ledger: the lower-face complete product costs at
 > most `s^-2`, while the upper-face value/first/second costs are at most

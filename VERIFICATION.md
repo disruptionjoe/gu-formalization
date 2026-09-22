@@ -7,6 +7,32 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K334/K335 recursive y closure and gap-axis transfer gate (2026-09-22)
+
+K334 evaluates six finite radial/projective roots and recursively bisects any
+root whose value, first-y or second-y contribution exceeds one-sixteenth of
+K333's corresponding complete coarse upper. The two annular roots that exceed
+that threshold are split on `r`, `s` and all six gap coordinates. The accepted
+cover has 516 finite leaves plus three analytic `r>=1` tails. Exact rational
+geometric volumes sum to `1/2985984`, the projective tail widths sum to one,
+and every split is nonincreasing in all three orders. The complete y absolute
+uppers are approximately `3.2043978521`, `329.05847116` and `68335.82355`.
+This is a rigorous upper bank governed by a leaf-contribution tolerance, not a
+sampled quadrature-error estimate. Its independent probe passes 12/12 checks
+and rejects 16/16 hostile mutations.
+
+K335 executes the first outcome-contingent gap-axis transfer step without
+promoting structural counts to numerical constants. K328's exact recurrence
+is extended through scaled derivative orders seven and eight, and positive-
+argument Arb controls remain inside every rational bound. All five K309 axes
+reuse K334's exact coverage checksum. K335 also records the four missing
+axis-native numerical maps: affine Duffy derivative vectors, differentiated
+native polynomial factors, shared-entry K305 column-replacement jets, and
+their face/tail degree ledgers. Until those maps are serialized and evaluated
+on the accepted leaves, no gap-axis constant, six-axis Peano norm or K294 join
+exists. Its independent probe passes 9/9 checks and rejects 12/12 hostile
+mutations.
+
 ## K331--K333 projective-face and radial closure (2026-09-22)
 
 K331 proves the exact projective homogeneity needed at the two faces. At

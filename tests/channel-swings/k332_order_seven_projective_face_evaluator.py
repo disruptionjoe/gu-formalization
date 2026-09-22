@@ -71,14 +71,23 @@ def scaled_dd_upper(k328, radius: Fraction, lower: Fraction, row: int, column: i
     return arb(q(value))
 
 
-def nodes(face: str) -> tuple[dict[str, list[Fraction]], Fraction, Fraction]:
-    p0 = min(interval[0] for interval in GAPS)
+def nodes(
+    face: str,
+    interval: tuple[Fraction, Fraction] | None = None,
+    gaps: list[tuple[Fraction, Fraction]] | None = None,
+) -> tuple[dict[str, list[Fraction]], Fraction, Fraction]:
+    gaps = GAPS if gaps is None else gaps
+    p0 = min(gap[0] for gap in gaps)
     if face == "s0":
-        s0, s1 = Fraction(0), Fraction(1, 4)
-        b0, b1 = Fraction(3, 4), Fraction(1)
+        s0, s1 = (Fraction(0), Fraction(1, 4)) if interval is None else interval
+        if not (Fraction(0) <= s0 < s1 <= Fraction(1, 4)):
+            raise AssertionError("lower-face interval left its proved chart")
+        b0, b1 = 1 - s1, 1 - s0
     elif face == "s1":
-        s0, s1 = Fraction(3, 4), Fraction(1)
-        b0, b1 = Fraction(0), Fraction(1, 4)
+        s0, s1 = (Fraction(3, 4), Fraction(1)) if interval is None else interval
+        if not (Fraction(3, 4) <= s0 < s1 <= Fraction(1)):
+            raise AssertionError("upper-face interval left its proved chart")
+        b0, b1 = 1 - s1, 1 - s0
     else:
         raise AssertionError("unknown face")
     lower = {
@@ -90,8 +99,14 @@ def nodes(face: str) -> tuple[dict[str, list[Fraction]], Fraction, Fraction]:
     return lower, s1, b1
 
 
-def d4_bound(k328, radius: Fraction, face: str) -> tuple[arb, dict[str, Any]]:
-    bank, s_max, _ = nodes(face)
+def d4_bound(
+    k328,
+    radius: Fraction,
+    face: str,
+    interval: tuple[Fraction, Fraction] | None = None,
+    gaps: list[tuple[Fraction, Fraction]] | None = None,
+) -> tuple[arb, dict[str, Any]]:
+    bank, s_max, _ = nodes(face, interval, gaps)
     matrix: list[list[arb]] = []
     special = 0
     for row in range(4):
@@ -122,12 +137,20 @@ def d4_bound(k328, radius: Fraction, face: str) -> tuple[arb, dict[str, Any]]:
     }
 
 
-def upper_face_border_jets(k328, radius: Fraction, row: int) -> list[arb]:
+def upper_face_border_jets(
+    k328,
+    radius: Fraction,
+    row: int,
+    interval: tuple[Fraction, Fraction] | None = None,
+    gaps: list[tuple[Fraction, Fraction]] | None = None,
+) -> list[arb]:
     """Return t^(3+k) times border-column jet k, k=0,1,2."""
-    p0 = min(interval[0] for interval in GAPS)
+    gaps = GAPS if gaps is None else gaps
+    interval = (Fraction(3, 4), Fraction(1)) if interval is None else interval
+    p0 = min(gap[0] for gap in gaps)
     h = p0 * (Fraction(9, 4), Fraction(5, 4), Fraction(1, 4))[row]
     a = ROW_ORDERS[row]
-    tmax = Fraction(1, 4)
+    tmax = 1 - interval[0]
     xmax = Fraction(1)
     yhalf = Fraction(1, 2)
 
@@ -145,8 +168,15 @@ def upper_face_border_jets(k328, radius: Fraction, row: int) -> list[arb]:
     return [symmetric(value), symmetric(first), symmetric(second)]
 
 
-def b5_jets(k326, k328, radius: Fraction, face: str) -> tuple[list[arb], dict[str, Any]]:
-    bank, s_max, _ = nodes(face)
+def b5_jets(
+    k326,
+    k328,
+    radius: Fraction,
+    face: str,
+    interval: tuple[Fraction, Fraction] | None = None,
+    gaps: list[tuple[Fraction, Fraction]] | None = None,
+) -> tuple[list[arb], dict[str, Any]]:
+    bank, s_max, _ = nodes(face, interval, gaps)
     jets = [[[arb(0), arb(0), arb(0)] for _ in range(5)] for _ in range(5)]
     terminal = [arb(q(radius)) * value for value in k326.terminal_jet_uppers((Fraction(0), radius * s_max))]
     minimum_positive: list[Fraction] = []
@@ -173,7 +203,7 @@ def b5_jets(k326, k328, radius: Fraction, face: str) -> tuple[list[arb], dict[st
     for row in range(3):
         a = ROW_ORDERS[row]
         if face == "s1":
-            jets[row][4] = upper_face_border_jets(k328, radius, row)
+            jets[row][4] = upper_face_border_jets(k328, radius, row, interval, gaps)
         else:
             lower = bank["even_left"][row]
             minimum_positive.append(lower)
@@ -209,23 +239,33 @@ def b5_jets(k326, k328, radius: Fraction, face: str) -> tuple[list[arb], dict[st
     }
 
 
-def face_bank(radius: Fraction = RADIUS) -> dict[str, Any]:
+def face_bank(
+    radius: Fraction = RADIUS,
+    radial_lower: Fraction = Fraction(0),
+    face_intervals: dict[str, tuple[Fraction, Fraction]] | None = None,
+    gaps: list[tuple[Fraction, Fraction]] | None = None,
+) -> dict[str, Any]:
     k312 = load_module(K312_MODULE, "k332_k312_backend")
     k314 = load_module(K314_MODULE, "k332_k314_backend")
     k326 = load_module(K326_MODULE, "k332_k326_backend")
     k328 = load_module(K328_MODULE, "k332_k328_backend")
+    gaps = GAPS if gaps is None else gaps
+    face_intervals = {
+        "s0": (Fraction(0), Fraction(1, 4)),
+        "s1": (Fraction(3, 4), Fraction(1)),
+    } if face_intervals is None else face_intervals
     projective = k314.projective_polynomial_upper(
-        {name: interval for name, interval in zip(k314.GAPS, GAPS, strict=True)}
+        {name: interval for name, interval in zip(k314.GAPS, gaps, strict=True)}
     )
-    gap_volume = math.prod((right - left for left, right in GAPS), start=Fraction(1))
-    radial_mass = k312.radial_finite_upper(Fraction(0), radius, 6)
+    gap_volume = math.prod((right - left for left, right in gaps), start=Fraction(1))
+    radial_mass = k312.radial_finite_upper(radial_lower, radius, 6)
     faces = []
     for face, interval, reduced_powers in (
-        ("s0", (Fraction(0), Fraction(1, 4)), [1, 1, 1]),
-        ("s1", (Fraction(3, 4), Fraction(1)), [26, 25, 24]),
+        ("s0", face_intervals["s0"], [1, 1, 1]),
+        ("s1", face_intervals["s1"], [26, 25, 24]),
     ):
-        d4, d4_audit = d4_bound(k328, radius, face)
-        b5, b5_audit = b5_jets(k326, k328, radius, face)
+        d4, d4_audit = d4_bound(k328, radius, face, interval, gaps)
+        b5, b5_audit = b5_jets(k326, k328, radius, face, interval, gaps)
         s_max = interval[1]
         scalar = Fraction(4, 120) * radius * radius * s_max * s_max * Fraction(1, 16) * projective
         normalized = [arb(16) * d4 * value * arb(q(scalar)) for value in b5]

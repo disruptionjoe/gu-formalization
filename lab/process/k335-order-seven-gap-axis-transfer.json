@@ -1,0 +1,320 @@
+{
+  "axis_transfer": [
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "accepted_finite_leaf_count": 516,
+      "accepted_subdivision_checksum": "sha256:2df52de1d9beca3aaf6ea730416f7251e79cf8b1da260c214e27d2e3b5996016",
+      "axis": "t0",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "duffy_node": "1/6",
+      "duffy_weight_exponent": 4,
+      "high_order_scaled_envelopes_available": true,
+      "numerical_axis_constant_emitted": false,
+      "peano_kernel_integral": "1/504",
+      "shared_geometry_reuse_released": true
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "accepted_finite_leaf_count": 516,
+      "accepted_subdivision_checksum": "sha256:2df52de1d9beca3aaf6ea730416f7251e79cf8b1da260c214e27d2e3b5996016",
+      "axis": "t1",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "duffy_node": "1/5",
+      "duffy_weight_exponent": 3,
+      "high_order_scaled_envelopes_available": true,
+      "numerical_axis_constant_emitted": false,
+      "peano_kernel_integral": "1/300",
+      "shared_geometry_reuse_released": true
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "accepted_finite_leaf_count": 516,
+      "accepted_subdivision_checksum": "sha256:2df52de1d9beca3aaf6ea730416f7251e79cf8b1da260c214e27d2e3b5996016",
+      "axis": "t2",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "duffy_node": "1/4",
+      "duffy_weight_exponent": 2,
+      "high_order_scaled_envelopes_available": true,
+      "numerical_axis_constant_emitted": false,
+      "peano_kernel_integral": "1/160",
+      "shared_geometry_reuse_released": true
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "accepted_finite_leaf_count": 516,
+      "accepted_subdivision_checksum": "sha256:2df52de1d9beca3aaf6ea730416f7251e79cf8b1da260c214e27d2e3b5996016",
+      "axis": "t3",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "duffy_node": "1/3",
+      "duffy_weight_exponent": 1,
+      "high_order_scaled_envelopes_available": true,
+      "numerical_axis_constant_emitted": false,
+      "peano_kernel_integral": "1/72",
+      "shared_geometry_reuse_released": true
+    },
+    {
+      "D4_maximum_kernel_derivative_order": 8,
+      "accepted_finite_leaf_count": 516,
+      "accepted_subdivision_checksum": "sha256:2df52de1d9beca3aaf6ea730416f7251e79cf8b1da260c214e27d2e3b5996016",
+      "axis": "t4",
+      "bordered_B5_maximum_kernel_derivative_order": 6,
+      "duffy_node": "1/2",
+      "duffy_weight_exponent": 0,
+      "high_order_scaled_envelopes_available": true,
+      "numerical_axis_constant_emitted": false,
+      "peano_kernel_integral": "1/24",
+      "shared_geometry_reuse_released": true
+    }
+  ],
+  "claim_ceiling": "Exact rational zero-safe scaled Bessel envelopes through orders seven and eight, discharging K309's high-order kernel-envelope prerequisite for every gap axis and binding all five axes to K334's accepted recursive subdivision checksum. K305/K309 provide structural column-replacement and face-integrability contracts but not the four serialized axis-native numerical maps listed here, so no gap-axis constant, six-axis Peano norm, K294 gamma join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "all_five_gap_axes_bound_to_K334_subdivision": true,
+    "complete_gap_axis_constants_emitted": false,
+    "complete_six_axis_peano_norm_emitted": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "serialize the four missing axis-native numeric maps, then evaluate the K305 shared-entry column-replacement determinants on every accepted K334 leaf before applying each K299 Peano mass",
+    "order_seven_eight_zero_safe_envelopes_complete": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "extended_scaled_derivative_orders": [
+      7,
+      8
+    ],
+    "gap_axes": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4"
+    ],
+    "predecessor_manifests": [
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k309-order-seven-gap-axis-transfer-audit.json",
+      "lab/process/k328-order-seven-scaled-derivative-envelope-bank.json",
+      "lab/process/k334-order-seven-recursive-global-subdivision.json"
+    ],
+    "widths": [
+      "1/16",
+      "1/4",
+      "1",
+      "4"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "numerical_transfer_gate": {
+    "K305_gap_group_axis_order_master_count": 60,
+    "K305_group_axis_order_master_count": 72,
+    "K309_structural_operator_specification_complete": true,
+    "K334_subdivision_geometry_reusable": true,
+    "axis_native_numeric_entry_jet_map_serialized": false,
+    "missing_executable_fields": [
+      "the exact affine Duffy derivative vector dp_i/dt_j on every labelled K334 leaf",
+      "value/first/second intervals for the explicit P*V4_left*V4_right*V3_left*V3_right factor on each axis",
+      "the shared-entry D4 and bordered-B5 directional jet matrices implementing K305 column replacements before determinant enclosure",
+      "the projective-face preconditioned order-seven/eight slot map and the corresponding radial tail degree ledger"
+    ],
+    "scaled_kernel_orders_zero_through_eight_available": true,
+    "structural_template_counts_are_not_numerical_constants": true
+  },
+  "order_seven_eight_scaled_envelopes": {
+    "all_bounds_exact_rational": true,
+    "all_controls_contained": true,
+    "definition": "Phi_m(w)=w^(m+1)*abs((2*K1)^(m)(w))",
+    "positive_argument_controls": [
+      {
+        "argument": "1/64",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "173205299136291/17179869184",
+        "scaled_derivative_interval": "[10080.029297143230003510056038654175813796119623918763762495690994035747745506248453872698295223263772980656496667719739617676601282174274514657544666034796560528278538251442876710 +/- 4.82e-175]",
+        "width": "1/16"
+      },
+      {
+        "argument": "1/16",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "173205299136291/17179869184",
+        "scaled_derivative_interval": "[10080.4688187020915219525960132483632843686077187044964413771483257704807075855939908075274903535144169835767630049989694313629907617434343292233364278803702361788212658459492561190 +/- 9.64e-176]",
+        "width": "1/16"
+      },
+      {
+        "argument": "1/64",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "22169633792544831/274877906944",
+        "scaled_derivative_interval": "[80640.17578232290179779198069667351370494343763904239858856816310712180330814935497137898086004700979070182246712418503087136510905215364235620274762406867730678336131786297836298 +/- 5.50e-174]",
+        "width": "1/16"
+      },
+      {
+        "argument": "1/16",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "22169633792544831/274877906944",
+        "scaled_derivative_interval": "[80642.81277473283480748891917163249479840702008777768094054123528831315116453228186926303090011417377419957486274098239511884856885500492906401207420707370869159535937549002509961 +/- 1.52e-174]",
+        "width": "1/16"
+      },
+      {
+        "argument": "1/16",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "10601189859/1048576",
+        "scaled_derivative_interval": "[10080.4688187020915219525960132483632843686077187044964413771483257704807075855939908075274903535144169835767630049989694313629907617434343292233364278803702361788212658459492561190 +/- 9.64e-176]",
+        "width": "1/4"
+      },
+      {
+        "argument": "1/4",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "10601189859/1048576",
+        "scaled_derivative_interval": "[10087.517738509929831724881938048250496195423710874492118036321433429108659682565504134247536511139046049103024860522129343675188758097650394247791998523918000208147073276105256788 +/- 3.07e-175]",
+        "width": "1/4"
+      },
+      {
+        "argument": "1/16",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "339079796031/4194304",
+        "scaled_derivative_interval": "[80642.81277473283480748891917163249479840702008777768094054123528831315116453228186926303090011417377419957486274098239511884856885500492906401207420707370869159535937549002509961 +/- 1.52e-174]",
+        "width": "1/4"
+      },
+      {
+        "argument": "1/4",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "339079796031/4194304",
+        "scaled_derivative_interval": "[80685.07062513690965514671469027731531667555558670748593383563529056343013898943039650905239667689613564719673989470291249769458464298570222221742146518422272022358756414601420002 +/- 5.60e-174]",
+        "width": "1/4"
+      },
+      {
+        "argument": "1/4",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "677331/64",
+        "scaled_derivative_interval": "[10087.517738509929831724881938048250496195423710874492118036321433429108659682565504134247536511139046049103024860522129343675188758097650394247791998523918000208147073276105256788 +/- 3.07e-175]",
+        "width": "1"
+      },
+      {
+        "argument": "1",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "677331/64",
+        "scaled_derivative_interval": "[10205.1103739206763722889155431385049436934181261593130159700184052513790191659643028650968988098992188010725978345750349027089891031108482806837253561827259317733559248761101618654 +/- 7.10e-176]",
+        "width": "1"
+      },
+      {
+        "argument": "1/4",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "5375631/64",
+        "scaled_derivative_interval": "[80685.07062513690965514671469027731531667555558670748593383563529056343013898943039650905239667689613564719673989470291249769458464298570222221742146518422272022358756414601420002 +/- 5.60e-174]",
+        "width": "1"
+      },
+      {
+        "argument": "1",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "5375631/64",
+        "scaled_derivative_interval": "[81379.461705248130371130395862964040488776839107634512818396875979582554251044356931803384873385685529486595457276313274609490893529491260014902626032644606761122528878939213718726 +/- 8.40e-175]",
+        "width": "1"
+      },
+      {
+        "argument": "1",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "39264",
+        "scaled_derivative_interval": "[10205.1103739206763722889155431385049436934181261593130159700184052513790191659643028650968988098992188010725978345750349027089891031108482806837253561827259317733559248761101618654 +/- 7.10e-176]",
+        "width": "4"
+      },
+      {
+        "argument": "4",
+        "contained": true,
+        "order": 7,
+        "rational_upper": "39264",
+        "scaled_derivative_interval": "[12682.58328671639419026112325005624872775721254712819361143677764293808106453040750452108403377556562009197856266288005916461314521560215383378949096099170253685240390252723841242 +/- 7.32e-174]",
+        "width": "4"
+      },
+      {
+        "argument": "1",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "246144",
+        "scaled_derivative_interval": "[81379.461705248130371130395862964040488776839107634512818396875979582554251044356931803384873385685529486595457276313274609490893529491260014902626032644606761122528878939213718726 +/- 8.40e-175]",
+        "width": "4"
+      },
+      {
+        "argument": "4",
+        "contained": true,
+        "order": 8,
+        "rational_upper": "246144",
+        "scaled_derivative_interval": "[97071.6803400781148888010743926514223164206137098347011283564434091173716356333051722037575683477819281750982664218553017303407997671856334659311884932325487995372885297480047463 +/- 4.45e-173]",
+        "width": "4"
+      }
+    ],
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "rows": [
+      {
+        "Phi_abs_uppers": [
+          "173205299136291/17179869184",
+          "22169633792544831/274877906944"
+        ],
+        "orders": [
+          7,
+          8
+        ],
+        "width": "1/16"
+      },
+      {
+        "Phi_abs_uppers": [
+          "10601189859/1048576",
+          "339079796031/4194304"
+        ],
+        "orders": [
+          7,
+          8
+        ],
+        "width": "1/4"
+      },
+      {
+        "Phi_abs_uppers": [
+          "677331/64",
+          "5375631/64"
+        ],
+        "orders": [
+          7,
+          8
+        ],
+        "width": "1"
+      },
+      {
+        "Phi_abs_uppers": [
+          "39264",
+          "246144"
+        ],
+        "orders": [
+          7,
+          8
+        ],
+        "width": "4"
+      }
+    ]
+  },
+  "release_test": {
+    "K334_checksum_replayed_on_every_axis": true,
+    "all_high_order_controls_contained": true,
+    "five_axes_replayed": true,
+    "native_K152_interval_emitted": false,
+    "no_gap_constant_inferred_from_y_bank": true
+  },
+  "result_id": "K335-ORDER-SEVEN-GAP-AXIS-TRANSFER",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

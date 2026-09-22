@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K334/K335 recursive y closure and gap-axis gate
+
+- `channel-swings/k334_order_seven_recursive_global_subdivision.py` composes
+  the normalized interior and preconditioned face evaluators into one adaptive
+  eight-axis exact cover, retains analytic tails, enforces the declared leaf
+  tolerance and rejects sixteen coverage, contraction and overclaim
+  mutations.
+- `channel-swings/k335_order_seven_gap_axis_transfer.py` extends the exact
+  zero-safe scaled-Bessel bank through orders seven and eight, binds all five
+  K309 axes to K334's checksum and rejects twelve mutations that hide the
+  remaining axis-native numerical-map gate or overclaim downstream constants.
+
 ## K331--K333 projective-face and radial closure
 
 - `channel-swings/k331_order_seven_projective_face_homogeneity.py` proves the
