@@ -7,7 +7,7 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
-## K310--K320 adaptive boundary-cell foundation (2026-09-22)
+## K310--K323 adaptive boundary-cell foundation (2026-09-22)
 
 K310 performs the exact radial blow-up `r=x+b`, `s=x/(x+b)` before any
 interval enclosure.  The explicit `x^3*b^29 dx db` factor becomes
@@ -112,6 +112,35 @@ assembly. Every weighted terminal occurrence has remaining endpoint power
 `2-m`, so the minimum is zero. The probe passes 12/12 checks and rejects
 14/14 hostile mutations. The `r,s` radial-projective join, complete chart
 determinant uppers and numerical y constant remain open.
+
+K321 tensors the two radial charts and two projective-s half charts with all
+sixteen K318 endpoint charts, producing sixty-four explicit combinations.
+Exact rational Cauchy controls split the regularized radial degree into `-16`
+for D4 and `-11` for bordered B5; after multiplication by `r^27`, the complete
+coefficient is identical at scales `1`, `1/7` and `1/49`. The radial,
+projective and endpoint powers are all nonnegative. Its probe passes 12/12
+checks and rejects 11/11 hostile mutations. This is an exact topology and
+origin-leading control, not a complete numerical atlas.
+
+K322 proves zero-inclusive box envelopes for all three scaled terminal jets.
+On `0<=w<=W`, monotonicity gives `0<w*K1(w)<=1` and
+`0<w*K0(w)<=w*K1(w)`, hence bounds `2`, `2(1+W)` and
+`4+2W+2W^2` for `|Phi_0|`, `|Phi_1|` and `|Phi_2|`. Positive-argument Arb
+controls at widths `1/16`, `1/4`, `1` and `4` remain inside the envelopes;
+raw Bessel functions are never evaluated at zero. Its probe passes 9/9 checks
+and rejects 8/8 hostile mutations.
+
+K323 applies those controls to the old-position-six left `a_max`,
+`eta<=A<=v` endpoint cube on one positive radial/projective slab. The terminal
+argument factors as `w=x*rho*v*H`, `1<=H<=3/2`; the scaled terminal upper is
+two and all nonterminal arguments have strict positive lowers. Terminal and
+Peano/Hepp column weights are absorbed before one Hadamard enclosure of each
+complete matrix, with literal border zeros retained and no permutationwise or
+detached-cofactor bound. The resulting four-group value-family chart upper is
+finite. Its probe passes 13/13 checks and rejects 10/10 hostile mutations. The
+remaining fifteen endpoint charts, first/second jet families and adaptive
+radial/projective sums remain open, so no complete y constant, five-gap
+transfer or K294 join is claimed.
 
 ## K307--K309 joint two-radius interval operator (2026-09-22)
 

@@ -1,0 +1,120 @@
+{
+  "claim_ceiling": "First finite outward complete-matrix bound for the K315 value family on the full zero-touching old-position-six left a-max eta<=A<=v endpoint cube over one positive radial/projective slab. K322's scaled terminal upper is inserted only after the terminal column scale, the Peano/Hepp weight is absorbed into the endpoint border column, all literal zeros are retained, and one Hadamard enclosure is applied to each complete matrix without permutationwise or detached-cofactor absolute values. The other fifteen endpoint charts, first/second jet families and radial/projective subdivision sums remain open, so no complete y-master constant, gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is released.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_weighted_matrix_bound": {
+    "D4_complete_Hadamard_abs_upper": "1.6635703454787967e+37",
+    "Peano_Hepp_weight_absorbed_before_determinant_bound": true,
+    "all_literal_border_zeros_retained": true,
+    "bordered_B5_complete_Hadamard_abs_upper": "3.762637990101791e+29",
+    "detached_terminal_cofactor_used": false,
+    "four_group_weighted_chart_abs_upper": "5.974378530513374e+49",
+    "matrix_bound_rule": "one Hadamard bound per complete matrix after terminal and endpoint column scaling",
+    "native_projective_polynomial_upper": "59604644775390625/203282392447840896882957090816",
+    "node_audit": {
+      "D4_minimum_argument": "1/32",
+      "all_nonterminal_argument_lowers_positive": true,
+      "endpoint_border_column_scale": "omega=eta^2*J_hepp",
+      "literal_zero_slots": [
+        [
+          3,
+          4
+        ],
+        [
+          4,
+          3
+        ],
+        [
+          4,
+          4
+        ]
+      ],
+      "minimum_nonterminal_B5_argument": "1/1024",
+      "terminal_argument": "w=x*rho*v*H, H=1+h0*h1*(1-h2)/2 in [1,3/2]",
+      "terminal_column_scale": "lambda=x*rho*v",
+      "terminal_scaled_upper": "2",
+      "terminal_slot": [
+        3,
+        3
+      ]
+    },
+    "outer_scalar_fraction": "11920928955078125/1248967019199534470448888365973504",
+    "permutation_or_monomial_absolute_values_used": false,
+    "positive_density_factors_bounded_by_one": [
+      "exp(-256*(x+b))",
+      "the remaining powers of x and b on the declared subunit slab",
+      "unit-cube and slab widths"
+    ],
+    "terminal_weight_absorbed_before_determinant_bound": true
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "complete_matrix_Hadamard_route_finite": true,
+    "complete_y_master_constant_emitted": false,
+    "extend_same_route_to_remaining_value_charts": true,
+    "first_old_position_six_complete_value_bound_emitted": true,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "extend the complete-matrix evaluator across the other fifteen value charts, then implement interval-signed aggregation of all five first and fifteen second families before adaptive radial/projective summation",
+    "signed_first_and_second_jet_backend_complete": false,
+    "zero_touching_terminal_entry_evaluated_without_raw_Knu_zero_call": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "chart_id": "left_a_max_hepp3_eta_A_v",
+    "endpoint_cube": "h0,h1,h2,rho in [0,1] with eta=h0*h1*h2, A=h1*h2, v=h2",
+    "jet_family": "value",
+    "old_position": 6,
+    "predecessor_manifests": [
+      "lab/process/k308-order-seven-regularized-y-master-operator.json",
+      "lab/process/k314-order-seven-projective-face-oracle.json",
+      "lab/process/k321-order-seven-radial-projective-tensor-atlas.json",
+      "lab/process/k322-order-seven-zero-safe-scaled-bessel-envelopes.json"
+    ],
+    "radial_projective_slab": {
+      "b": [
+        "1/32",
+        "1/8"
+      ],
+      "projective_gaps": [
+        "1/8",
+        "5/24"
+      ],
+      "x": [
+        "1/16",
+        "1/8"
+      ]
+    },
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_nonterminal_argument_lowers_positive": true,
+    "complete_matrices_bounded_after_weight_absorption": true,
+    "complete_numerical_norm_overclaim": false,
+    "finite_positive_complete_bound": true,
+    "native_K152_interval_emitted": false,
+    "no_permutation_absolute_enclosure": true,
+    "terminal_scaled_upper_from_K322": true
+  },
+  "result_id": "K323-ORDER-SEVEN-OLD-POSITION-SIX-VALUE-PILOT",
+  "schema_version": "1.0",
+  "scope_boundary": {
+    "covered": "one complete value-family bound on the full left a-max eta<=A<=v endpoint cube and one positive radial/projective slab",
+    "not_covered": [
+      "the other fifteen K318 endpoint charts",
+      "the five first-y and fifteen signed second-y families",
+      "radial origin and tail subdivision sums",
+      "all projective-face subdivision sums",
+      "a complete y-master constant"
+    ],
+    "pilot_is_not_global_release": true
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

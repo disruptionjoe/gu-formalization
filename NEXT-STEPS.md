@@ -20,7 +20,7 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
-> **2026-09-22 K310--K320 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
+> **2026-09-22 K310--K323 ADAPTIVE BOUNDARY-CELL FOUNDATION.** The
 > joint blow-up `r=x+b`, `s=x/(x+b)` turns the K309 factored integrand into
 > `e^-256r r^6 s^3(1-s)^29 H` with
 > `H=r^27*R4*R5_border`. K311 composes all three K302 terminal jets with the
@@ -49,8 +49,15 @@ updated_at: "2026-09-22"
 > before absolute enclosure. K320 replaces raw zero-touching Bessel calls by
 > scaled jets `Phi_m=w^(m+1)(2K1)^(m)` with continuous limits `2,-2,4`, and
 > proves every K315 terminal occurrence retains nonnegative endpoint power
-> `2-m`. Continuous `r=0`, the `s=0,1` radial-projective faces and outward
-> complete-determinant interval constants remain open. Only
+> `2-m`. K321 then tensors the radial origin/tail and both projective-s halves
+> with all sixteen endpoint charts, proves the exact D4/B5 degree split
+> `-16-11=-27`, and serializes sixty-four nonnegative-power charts. K322
+> supplies rigorous zero-inclusive bounds for all three scaled jets. K323
+> uses them for the first finite complete-matrix old-position-six value bound
+> on a full endpoint cube and one positive radial/projective slab, with chart
+> weights absorbed before Hadamard enclosure. Next extend the evaluator to
+> the other fifteen value charts, then retain signed aggregation across all
+> first/second jet families and sum the adaptive radial/projective atlas. Only
 > an accepted complete y subdivision may transfer to the five gap axes. No
 > complete Peano constant or K294 gamma join exists.
 

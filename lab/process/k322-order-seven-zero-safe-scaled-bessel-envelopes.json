@@ -1,0 +1,328 @@
+{
+  "analytic_envelope": {
+    "auxiliary_bounds": [
+      "A(w)=w*K1(w) is positive and decreases from A(0)=1",
+      "B(w)=w*K0(w) is positive and B(w)<=A(w) because K0(w)<K1(w) for w>0"
+    ],
+    "box_bounds_for_0_le_w_le_W": {
+      "abs_Phi_0": "2",
+      "abs_Phi_1": "2*(1+W)",
+      "abs_Phi_2": "4+2*W+2*W^2"
+    },
+    "continuous_zero_values_inserted_exactly": true,
+    "formulas": {
+      "Phi_0": "2*A",
+      "Phi_1": "-2*(A+w*B)",
+      "Phi_2": "4*A+2*w*B+2*w^2*A"
+    },
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "rows": [
+      {
+        "absolute_upper_decimals": [
+          "2.0",
+          "2.125",
+          "4.1328125"
+        ],
+        "absolute_upper_fractions": [
+          "2",
+          "17/8",
+          "529/128"
+        ],
+        "all_controls_inside": true,
+        "domain": "0<=w<=1/16",
+        "positive_argument_controls": [
+          {
+            "absolute_values": [
+              "1.9999059887368462",
+              "2.0000787528472674",
+              "4.000015257727741"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/256"
+          },
+          {
+            "absolute_values": [
+              "1.9988342326160098",
+              "2.000921701636288",
+              "4.00024393089112"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/64"
+          },
+          {
+            "absolute_values": [
+              "1.986755697805554",
+              "2.009351937394382",
+              "4.003868399644489"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/16"
+          }
+        ],
+        "width": "1/16",
+        "zero_values": [
+          2,
+          -2,
+          4
+        ]
+      },
+      {
+        "absolute_upper_decimals": [
+          "2.0",
+          "2.5",
+          "4.625"
+        ],
+        "absolute_upper_fractions": [
+          "2",
+          "5/2",
+          "37/8"
+        ],
+        "all_controls_inside": true,
+        "domain": "0<=w<=1/4",
+        "positive_argument_controls": [
+          {
+            "absolute_values": [
+              "1.9988342326160098",
+              "2.000921701636288",
+              "4.00024393089112"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/64"
+          },
+          {
+            "absolute_values": [
+              "1.986755697805554",
+              "2.009351937394382",
+              "4.003868399644489"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/16"
+          },
+          {
+            "absolute_values": [
+              "1.8735129872203558",
+              "2.066201331126394",
+              "4.056808880048021"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/4"
+          }
+        ],
+        "width": "1/4",
+        "zero_values": [
+          2,
+          -2,
+          4
+        ]
+      },
+      {
+        "absolute_upper_decimals": [
+          "2.0",
+          "4.0",
+          "8.0"
+        ],
+        "absolute_upper_fractions": [
+          "2",
+          "4",
+          "8"
+        ],
+        "all_controls_inside": true,
+        "domain": "0<=w<=1",
+        "positive_argument_controls": [
+          {
+            "absolute_values": [
+              "1.986755697805554",
+              "2.009351937394382",
+              "4.003868399644489"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/16"
+          },
+          {
+            "absolute_values": [
+              "1.8735129872203558",
+              "2.066201331126394",
+              "4.056808880048021"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/4"
+          },
+          {
+            "absolute_values": [
+              "1.2038144603944692",
+              "2.0458633368758856",
+              "4.453492257664824"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1"
+          }
+        ],
+        "width": "1",
+        "zero_values": [
+          2,
+          -2,
+          4
+        ]
+      },
+      {
+        "absolute_upper_decimals": [
+          "2.0",
+          "10.0",
+          "44.0"
+        ],
+        "absolute_upper_fractions": [
+          "2",
+          "10",
+          "44"
+        ],
+        "all_controls_inside": true,
+        "domain": "0<=w<=4",
+        "positive_argument_controls": [
+          {
+            "absolute_values": [
+              "1.8735129872203558",
+              "2.066201331126394",
+              "4.056808880048021"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1/4"
+          },
+          {
+            "absolute_values": [
+              "1.2038144603944692",
+              "2.0458633368758856",
+              "4.453492257664824"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "1"
+          },
+          {
+            "absolute_values": [
+              "0.09986799109814745",
+              "0.4569776258454442",
+              "2.154733474513951"
+            ],
+            "inside_declared_bounds": [
+              true,
+              true,
+              true
+            ],
+            "w": "4"
+          }
+        ],
+        "width": "4",
+        "zero_values": [
+          2,
+          -2,
+          4
+        ]
+      }
+    ]
+  },
+  "claim_ceiling": "Rigorous finite zero-inclusive upper envelopes for K320's Phi_0, Phi_1 and Phi_2 on every interval [0,W], derived from 0<A=wK1<=1 and 0<B=wK0<=A and replayed by positive-argument Arb controls at four nested widths. The primitive never evaluates raw K_nu at zero and retains terminal column scaling inside the complete determinant. It is an entry envelope, not a complete chart determinant upper or y-master constant, and releases no gap-axis transfer, K294 join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "all_three_terminal_jet_orders_covered": true,
+    "complete_chart_determinant_uppers_emitted": false,
+    "complete_y_master_constant_emitted": false,
+    "five_gap_axis_transfer_released": false,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "insert these zero-inclusive entry envelopes into the complete weighted old-position-six bordered determinant on the K321 tensor atlas",
+    "positive_argument_arb_controls_pass": true,
+    "zero_inclusive_scaled_Bessel_envelopes_implemented": true
+  },
+  "determinant_adapter": {
+    "aligned_argument": "w=x*rho*sigma*H with H>=1/2 on an aligned K318 Hepp chart",
+    "detached_terminal_budget_used": false,
+    "entry_rule": "abs(D^m*Phi_m(w)/H^(m+1)) <= abs(D)^m*U_m(W)*2^(m+1)",
+    "orders_covered": [
+      0,
+      1,
+      2
+    ],
+    "terminal_column_scaling_retained": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 120,
+    "orders": [
+      0,
+      1,
+      2
+    ],
+    "predecessor_manifests": [
+      "lab/process/k320-order-seven-scaled-endpoint-bessel-bank.json"
+    ],
+    "threads": 1,
+    "widths": [
+      "1/16",
+      "1/4",
+      "1",
+      "4"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "K320_zero_limits_replayed": true,
+    "all_positive_controls_inside": true,
+    "bounds_monotone_in_width": true,
+    "complete_numerical_norm_overclaim": false,
+    "four_nested_widths_checked": true,
+    "native_K152_interval_emitted": false,
+    "raw_zero_evaluation_used": false
+  },
+  "result_id": "K322-ORDER-SEVEN-ZERO-SAFE-SCALED-BESSEL-ENVELOPES",
+  "schema_version": "1.0",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}
