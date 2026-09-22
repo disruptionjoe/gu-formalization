@@ -7,6 +7,41 @@ updated_at: "2026-09-21"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K283 size-four correlated projective-gap spine (2026-09-21)
+
+K283 joins K282's fully active face center exactly and preserves all six gaps
+on the common ordered ray
+`r=(t/32,t/64,t/128,0)`, `c=(t/40,t/80,t/160,0)`. Directed Arb evaluation
+certifies all 1,536 cells covering `1<=t<=5/4` and the complete radial cell
+`31/256<=x<=1/8` strictly positive. The global outward range is contained in
+`[0.06307578450,1.6082580350]`, and the maximum order-17 entry-tail radius is
+below `5.574e-11`.
+
+Independent 300-digit controls at `t=1,9/8,5/4` lie inside the certified
+range. The result propagates only to K280's 24 size-four occurrences and does
+not assert transverse arbitrary-gap coverage, mixed-Duffy/Jacobi error, an
+action-column value, residual, exterior gap, native K152 interval, physical
+state, source/ledger change, canon, paper or public claim.
+
+## K282 shifted face-center calculus through size four (2026-09-21)
+
+K282 extends K193's shifted Hermite--Genocchi entry operator through size four.
+Exact complete-homogeneous formulas remove explicit gap denominators, and 272
+rational shift identities pass. A first absolute residual/cofactor expansion
+retains a radius near nine at zero chart width; complete center-preconditioned
+determinant enclosure resolves that dependency loss without assuming
+positivity.
+
+All 63 K281 size-four face masks have directed positive neighborhoods on
+`31/256<=x<=1/8`, with coordinate half-width `1/16384` and 64 contiguous radial
+subcells. The global outward range is contained in
+`[0.2721697335,1.4052779900]`; an independent 280-digit fully active
+face-center value is contained. K282 binds all 98 K280 patterns and all 996
+nontrivial occurrences to their size-specific operator without enlarging the
+proved domains. Arbitrary-gap coverage, mixed-Duffy/Jacobi error, an action-
+column value, residual, exterior gap, native K152 interval and all physical,
+source, ledger, canon, paper and public claims remain open or unchanged.
+
 ## K281 size-four scaled-jet theorem and outward boundary (2026-09-21)
 
 K281 derives `a_n=x^n q^(n)(x)` through `n=6` exactly from `q=x K1(x)` and

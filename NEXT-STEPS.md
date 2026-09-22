@@ -20,6 +20,26 @@ updated_at: "2026-09-21"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-21 K283 CORRELATED SIZE-FOUR PROJECTIVE SPINE.** The fully active
+> K282 chart now extends along the common ordered gap ray from `t=1` through
+> `t=5/4`. All 1,536 scale/radial cells are directed positive, with global
+> lower greater than `0.0630`; the exact `t=1` join and all 24 size-four
+> occurrences are preserved. Next introduce transverse ordered shape
+> variables around this spine in one common determinant chart, prove overlap,
+> then differentiate for mixed Duffy/Jacobi bounds. The ray is not a
+> transverse arbitrary-gap atlas. See
+> `explorations/conditional-build/k283-order-seven-projective-gap-followthrough-2026-09-21.md`.
+
+> **2026-09-21 K282 SHIFTED FACE-CENTER CALCULUS.** The shifted Hermite--
+> Genocchi operator now extends through size four. Complete center-
+> preconditioned determinant enclosures certify local outward neighborhoods
+> for all 63 size-four masks on `31/256<=x<=1/8`; all 98 order-seven patterns
+> and 996 nontrivial occurrences are bound to their size-specific operator
+> without a domain extension. The fully active chart releases the correlated
+> projective successor; arbitrary-gap coverage and mixed Duffy/Jacobi error
+> remain open. See
+> `explorations/conditional-build/k282-order-seven-shifted-face-center-calculus-2026-09-21.md`.
+
 > **2026-09-21 K281 SIZE-FOUR SCALED-JET AND OUTWARD-CALCULUS BOUNDARY.**
 > The exact R4 scaled-jet determinant is now cancellation-free and directed-
 > positive at all 199 dyadic radii from 1/4 through 2^-200; its signed-Pascal

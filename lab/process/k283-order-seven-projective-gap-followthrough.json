@@ -1,0 +1,499 @@
+{
+  "Born_prediction_or_confirmation_credit": false,
+  "canon_paper_release_or_public_posture_move": false,
+  "claim_ceiling": "Outward size-four projective gap spine on 1<=t<=5/4 joined to K282 and propagated to the 24 size-four occurrences only; no transverse arbitrary-gap atlas, mixed-Duffy/Jacobi error, action-column value, residual, exterior gap, native K152 interval, physical state, source/ledger move, canon, paper or public claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_propagation": {
+    "all_24_size_four_occurrences_retain_the_same_formula": true,
+    "all_408_entries_and_16_groups_remain_in_scope": true,
+    "new_outward_domain_propagates_only_when_the_normalized_gap_tuple_lies_on_the_declared_projective_ray": true,
+    "size_four_pattern_occurrences": 24
+  },
+  "correlated_projective_spine": {
+    "all_cells_strictly_positive": true,
+    "cells": [
+      {
+        "maximum_R_upper": 1.6082580349496736,
+        "maximum_entry_tail": 5.347383933507542e-12,
+        "minimum_R_lower": 0.06307578450955287,
+        "radial_subcells": 48,
+        "scale_cell": 0,
+        "strictly_positive": true,
+        "t_bounds": [
+          "1/1",
+          "129/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.6072898256885257,
+        "maximum_entry_tail": 5.815684964635966e-12,
+        "minimum_R_lower": 0.06396121450833948,
+        "radial_subcells": 48,
+        "scale_cell": 1,
+        "strictly_positive": true,
+        "t_bounds": [
+          "129/128",
+          "65/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.6063231891260394,
+        "maximum_entry_tail": 6.320977274060456e-12,
+        "minimum_R_lower": 0.06484503208258245,
+        "radial_subcells": 48,
+        "scale_cell": 2,
+        "strictly_positive": true,
+        "t_bounds": [
+          "65/64",
+          "131/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.6053577119259999,
+        "maximum_entry_tail": 6.865870171932187e-12,
+        "minimum_R_lower": 0.06572773659218997,
+        "radial_subcells": 48,
+        "scale_cell": 3,
+        "strictly_positive": true,
+        "t_bounds": [
+          "131/128",
+          "33/32"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.6043948779171773,
+        "maximum_entry_tail": 7.45313531202635e-12,
+        "minimum_R_lower": 0.06660776457846831,
+        "radial_subcells": 48,
+        "scale_cell": 4,
+        "strictly_positive": true,
+        "t_bounds": [
+          "33/32",
+          "133/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.6034328243410707,
+        "maximum_entry_tail": 8.08571546203666e-12,
+        "minimum_R_lower": 0.06748701768876311,
+        "radial_subcells": 48,
+        "scale_cell": 5,
+        "strictly_positive": true,
+        "t_bounds": [
+          "133/128",
+          "67/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.60247311961863,
+        "maximum_entry_tail": 8.76673367689579e-12,
+        "minimum_R_lower": 0.0683639071604962,
+        "radial_subcells": 48,
+        "scale_cell": 6,
+        "strictly_positive": true,
+        "t_bounds": [
+          "67/64",
+          "135/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.6015147314850489,
+        "maximum_entry_tail": 9.49950289043897e-12,
+        "minimum_R_lower": 0.06923952414433157,
+        "radial_subcells": 48,
+        "scale_cell": 7,
+        "strictly_positive": true,
+        "t_bounds": [
+          "135/128",
+          "17/16"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.6005584158091988,
+        "maximum_entry_tail": 1.0287535941190346e-11,
+        "minimum_R_lower": 0.07011302263431204,
+        "radial_subcells": 48,
+        "scale_cell": 8,
+        "strictly_positive": true,
+        "t_bounds": [
+          "17/16",
+          "137/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5996030695388566,
+        "maximum_entry_tail": 1.1134556048524157e-11,
+        "minimum_R_lower": 0.07098553661503894,
+        "radial_subcells": 48,
+        "scale_cell": 9,
+        "strictly_positive": true,
+        "t_bounds": [
+          "137/128",
+          "69/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5986501970493214,
+        "maximum_entry_tail": 1.2044507755936086e-11,
+        "minimum_R_lower": 0.071855633070411,
+        "radial_subcells": 48,
+        "scale_cell": 10,
+        "strictly_positive": true,
+        "t_bounds": [
+          "69/64",
+          "139/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.597698144015178,
+        "maximum_entry_tail": 1.3021568358653858e-11,
+        "minimum_R_lower": 0.0727248576993792,
+        "radial_subcells": 48,
+        "scale_cell": 11,
+        "strictly_positive": true,
+        "t_bounds": [
+          "139/128",
+          "35/32"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5967483807715057,
+        "maximum_entry_tail": 1.4070159833320955e-11,
+        "minimum_R_lower": 0.0735918216767191,
+        "radial_subcells": 48,
+        "scale_cell": 12,
+        "strictly_positive": true,
+        "t_bounds": [
+          "35/32",
+          "141/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5958003184583052,
+        "maximum_entry_tail": 1.519496128800293e-11,
+        "minimum_R_lower": 0.07445706490539157,
+        "radial_subcells": 48,
+        "scale_cell": 13,
+        "strictly_positive": true,
+        "t_bounds": [
+          "141/128",
+          "71/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5948536617271285,
+        "maximum_entry_tail": 1.6400921951292787e-11,
+        "minimum_R_lower": 0.07532090484720269,
+        "radial_subcells": 48,
+        "scale_cell": 14,
+        "strictly_positive": true,
+        "t_bounds": [
+          "71/64",
+          "143/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.593908983472603,
+        "maximum_entry_tail": 1.769327471982991e-11,
+        "minimum_R_lower": 0.07618279308440032,
+        "radial_subcells": 48,
+        "scale_cell": 15,
+        "strictly_positive": true,
+        "t_bounds": [
+          "143/128",
+          "9/8"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5929658410693956,
+        "maximum_entry_tail": 1.907755028409696e-11,
+        "minimum_R_lower": 0.0770430860664203,
+        "radial_subcells": 48,
+        "scale_cell": 16,
+        "strictly_positive": true,
+        "t_bounds": [
+          "9/8",
+          "145/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5920236949529198,
+        "maximum_entry_tail": 2.0559591852920216e-11,
+        "minimum_R_lower": 0.0779024009313133,
+        "radial_subcells": 48,
+        "scale_cell": 17,
+        "strictly_positive": true,
+        "t_bounds": [
+          "145/128",
+          "73/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5910841027926423,
+        "maximum_entry_tail": 2.2145570497672237e-11,
+        "minimum_R_lower": 0.07875918286850243,
+        "radial_subcells": 48,
+        "scale_cell": 18,
+        "strictly_positive": true,
+        "t_bounds": [
+          "73/64",
+          "147/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5901456380573002,
+        "maximum_entry_tail": 2.3842001137760653e-11,
+        "minimum_R_lower": 0.07961486264438308,
+        "radial_subcells": 48,
+        "scale_cell": 19,
+        "strictly_positive": true,
+        "t_bounds": [
+          "147/128",
+          "37/32"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5892088456577596,
+        "maximum_entry_tail": 2.565575918958429e-11,
+        "minimum_R_lower": 0.08046882474189357,
+        "radial_subcells": 48,
+        "scale_cell": 20,
+        "strictly_positive": true,
+        "t_bounds": [
+          "37/32",
+          "149/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5882734890232308,
+        "maximum_entry_tail": 2.759409790174739e-11,
+        "minimum_R_lower": 0.08132133922972529,
+        "radial_subcells": 48,
+        "scale_cell": 21,
+        "strictly_positive": true,
+        "t_bounds": [
+          "149/128",
+          "75/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5873402637283933,
+        "maximum_entry_tail": 2.966466639994467e-11,
+        "minimum_R_lower": 0.08217173636366247,
+        "radial_subcells": 48,
+        "scale_cell": 22,
+        "strictly_positive": true,
+        "t_bounds": [
+          "75/64",
+          "151/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5864082304629818,
+        "maximum_entry_tail": 3.187552846556486e-11,
+        "minimum_R_lower": 0.08302091526420267,
+        "radial_subcells": 48,
+        "scale_cell": 23,
+        "strictly_positive": true,
+        "t_bounds": [
+          "151/128",
+          "19/16"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5854776927913468,
+        "maximum_entry_tail": 3.4235182072707586e-11,
+        "minimum_R_lower": 0.08386859276247419,
+        "radial_subcells": 48,
+        "scale_cell": 24,
+        "strictly_positive": true,
+        "t_bounds": [
+          "19/16",
+          "153/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5845491188502638,
+        "maximum_entry_tail": 3.675257970896941e-11,
+        "minimum_R_lower": 0.08471436900261328,
+        "radial_subcells": 48,
+        "scale_cell": 25,
+        "strictly_positive": true,
+        "t_bounds": [
+          "153/128",
+          "77/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5836218526402046,
+        "maximum_entry_tail": 3.943714950602806e-11,
+        "minimum_R_lower": 0.08555882105618015,
+        "radial_subcells": 48,
+        "scale_cell": 26,
+        "strictly_positive": true,
+        "t_bounds": [
+          "77/64",
+          "155/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.58269635820519,
+        "maximum_entry_tail": 4.229881720674125e-11,
+        "minimum_R_lower": 0.08640146115552452,
+        "radial_subcells": 48,
+        "scale_cell": 27,
+        "strictly_positive": true,
+        "t_bounds": [
+          "155/128",
+          "39/32"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5817724997522802,
+        "maximum_entry_tail": 4.534802899617687e-11,
+        "minimum_R_lower": 0.08724247574531743,
+        "radial_subcells": 48,
+        "scale_cell": 28,
+        "strictly_positive": true,
+        "t_bounds": [
+          "39/32",
+          "157/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5808501918665743,
+        "maximum_entry_tail": 4.8595775224705594e-11,
+        "minimum_R_lower": 0.0880819470487213,
+        "radial_subcells": 48,
+        "scale_cell": 29,
+        "strictly_positive": true,
+        "t_bounds": [
+          "157/128",
+          "79/64"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5799296217726817,
+        "maximum_entry_tail": 5.205361505201489e-11,
+        "minimum_R_lower": 0.08891970093718671,
+        "radial_subcells": 48,
+        "scale_cell": 30,
+        "strictly_positive": true,
+        "t_bounds": [
+          "79/64",
+          "159/128"
+        ]
+      },
+      {
+        "maximum_R_upper": 1.5790101918487904,
+        "maximum_entry_tail": 5.573370204164589e-11,
+        "minimum_R_lower": 0.08975626110128145,
+        "radial_subcells": 48,
+        "scale_cell": 31,
+        "strictly_positive": true,
+        "t_bounds": [
+          "159/128",
+          "5/4"
+        ]
+      }
+    ],
+    "k282_fully_active_face_center_join": {
+      "center": {
+        "c0": "1/40",
+        "c1": "1/80",
+        "c2": "1/160",
+        "r0": "1/32",
+        "r1": "1/64",
+        "r2": "1/128"
+      },
+      "exact_coordinate_match": true,
+      "join_proved": true,
+      "radial_cell_equal": true,
+      "t": "1/1"
+    },
+    "maximum_R_upper": 1.6082580349496736,
+    "maximum_entry_tail": 5.573370204164589e-11,
+    "minimum_R_lower": 0.06307578450955287,
+    "ordered_shape": "r0>r1>r2>0 and c0>c1>c2>0 for every t>0",
+    "radial_cells_per_scale_cell": 48,
+    "radial_interval_contiguous": true,
+    "scale_cells": 32,
+    "scale_interval_contiguous": true,
+    "total_cells": 1536
+  },
+  "created": "2026-09-21",
+  "decision": {
+    "contiguous_t1_to_t5_over_4_and_radial_coverage_proved": true,
+    "correlated_size_four_projective_spine_serialized": true,
+    "determinant_preserving_jacobi_error_serialized": false,
+    "k282_face_center_join_proved": true,
+    "mixed_duffy_derivatives_serialized": false,
+    "next_exact_input": "introduce transverse ordered size-four shape variables around the certified t in [1,5/4] spine, preserving one common chart before differentiating for mixed Duffy/Jacobi remainder bounds",
+    "transverse_ordered_gap_atlas_complete": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "gram_entries": 408,
+    "groups": 16,
+    "occurrences": 996,
+    "patterns": 98,
+    "predecessor_manifest": "lab/process/k282-order-seven-shifted-face-center-calculus.json",
+    "projective_gap_ray": {
+      "c0": "t*1/40",
+      "c1": "t*1/80",
+      "c2": "t*1/160",
+      "r0": "t*1/32",
+      "r1": "t*1/64",
+      "r2": "t*1/128"
+    },
+    "projective_scale_range": "1/1<=t<=5/4",
+    "radial_cell": "31/256<=x<=1/8",
+    "relative_radial_width": "1/31",
+    "threads": 1
+  },
+  "independent_controls": {
+    "all_contained": true,
+    "precision_decimal_digits": 300,
+    "rows": [
+      {
+        "contained_in_global_spine_range": true,
+        "regularizer": "8.322764562914433490993990907842E-1",
+        "scale": "1/1"
+      },
+      {
+        "contained_in_global_spine_range": true,
+        "regularizer": "8.316130397755486585464162596234E-1",
+        "scale": "9/8"
+      },
+      {
+        "contained_in_global_spine_range": true,
+        "regularizer": "8.309494186834078513325784254073E-1",
+        "scale": "5/4"
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "physical_or_source_selection": false,
+  "release_test": {
+    "all_entries_use_one_shared_projective_scale_cell_before_complete_determinant_enclosure": true,
+    "complete_R_ref_form_dual_residual_serialized": false,
+    "complete_base_action_column_evaluated": false,
+    "determinant_preserving_jacobi_error_serialized": false,
+    "k282_face_center_join_proved": true,
+    "mixed_duffy_derivative_envelopes_serialized": false,
+    "native_K152_interval_emitted": false,
+    "positive_complete_M_orthogonal_complement_or_flux_floor_serialized": false,
+    "shifted_hermite_genocchi_entry_tail_retained": true,
+    "size_four_projective_t1_t5_over_4_spine_outwardly_certified": true,
+    "transverse_arbitrary_gap_ratio_domain_covered": false
+  },
+  "result_id": "K283-ORDER-SEVEN-PROJECTIVE-GAP-FOLLOWTHROUGH",
+  "schema_version": "1.0"
+}
