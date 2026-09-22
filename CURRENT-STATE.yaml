@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 43255a3ff26bc09f606755c30b938249739355c5
+revision_basis: 6d8fed0ae288662fde66d3f85c6ea582a4a33186
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -252,6 +252,22 @@ current_result:
     and their face/tail degree ledgers on K334's leaves. Structural K305/K309
     template counts are not numerical constants; the six-axis Peano norm and
     K294 gamma join remain closed.
+
+    K336 closes that four-map serialization gate. The exact affine Duffy
+    directions are written through trailing simplex-gap sums, so they remain
+    regular on all 516 accepted K334 finite leaves; repeated geometry compresses
+    those leaves into 65 rational gap-box classes without losing any leaf
+    identity. Exact interval automatic differentiation retains all twenty-four
+    native projective-polynomial linear factors through value, first and second
+    order. The same classes now carry normalized D4 and bordered-B5 argument-
+    direction matrices, literal border zeros, kernel orders through eight and
+    six, and the unchanged projective-face and radial-tail degree ledger.
+    K337 substitutes those shared entry jets before complete determinant
+    coefficient enclosure on K326's strictly positive reference slab. All 65
+    classes and all five Duffy axes have finite complete value/first/second
+    uppers. This is the first numerical complete-determinant gap bank, not a
+    global Peano constant: the degree-27 origin, both projective faces and the
+    analytic radial tails still require the same axis-native evaluator.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9500,17 +9516,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K334 composes K327's interior oracle and K333's boundary bank into one
-  accepted recursive full-radial y subdivision. Its 516 finite leaves and
-  three analytic tails satisfy the declared one-sixteenth contribution
-  tolerance, replay the exact finite volume and emit complete value/first/
-  second-y uppers 3.2043978521, 329.05847116 and 68335.82355. K335 extends
-  the zero-safe scaled kernel bank through orders seven and eight and binds
-  all five K309 Duffy axes to K334's checksum. Implement the four missing
-  axis-native numerical maps recorded by K335, evaluate K305's shared-entry
-  column-replacement determinants on every accepted leaf, and apply each
-  K299 Peano mass. Only five accepted gap-axis constants together with K334's
-  y constant may reopen K294's gamma join.
+  K336 serializes all four K335 axis-native map classes on every accepted K334
+  finite leaf, compressed into 65 exact repeated gap boxes. K337 executes the
+  first complete shared-entry D4-times-bordered-B5 determinant bank for all
+  five Duffy axes on the strictly positive K326 reference slab. Lift that same
+  evaluator through K329's degree-27 normalized origin, K332's preconditioned
+  `s=0,1` face cells and K333's unchanged 35/36/37 analytic tails; then apply
+  the five K299 Peano masses on the accepted K334 cover. Only five accepted
+  complete gap-axis constants together with K334's y constant may reopen
+  K294's gamma join.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
   pointwise bank. No exterior action-column value, complete residual or native
@@ -9757,20 +9771,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K334 as the accepted complete y-master subdivision and K335 as the
-  exact order-seven/eight scaled-kernel extension plus gap-axis readiness
-  gate. Preserve K331 as the projective homogeneity ledger, K332 as the finite
-  confluent face evaluator, K333 as the full face radial-half-line closure,
-  and K327 as the first exact-cover adaptive interior oracle.
+  Treat K334 as the accepted complete y-master subdivision, K335 as the
+  order-seven/eight zero-safe kernel extension, K336 as the complete
+  axis-native direction/polynomial/shared-entry/degree map bank, and K337 as
+  the finite complete-determinant reference-slab execution. Preserve K331 as
+  the projective homogeneity ledger, K332 as the finite confluent face
+  evaluator, K333 as the full face radial-half-line closure, and K327 as the
+  first exact-cover adaptive interior oracle.
   Preserve K318's exact `1/24` Peano
   mass, all eighty-four nonnegative valuation checks, the split Jacobian,
   K315's literal border zeros and the signed fifteen-family second jet inside
   every chart before absolute enclosure. Reuse K334's exact 516-leaf finite
-  partition and three analytic tails without changing their checksum. For
-  each K309 axis, serialize the affine Duffy derivative vector, differentiated
-  native polynomial factor, K305 shared-entry column-replacement jet matrices,
-  and face/tail degree ledger before numerical enclosure. Do not substitute
-  K334's y derivatives or K305's structural template counts for gap constants.
+  partition and three analytic tails without changing their checksum. Reuse
+  K336's 65 rational gap classes and exact leaf mapping. Lift K337's shared-
+  entry coefficient evaluator through the normalized origin, both preconditioned
+  projective faces and the analytic tails before applying each K299 Peano mass.
+  Do not substitute K334's y derivatives, K336's structural maps or K337's
+  positive-slab controls for complete gap constants.
   K294's gamma join remains closed until all six finite constants exist. No
   exterior value, action-column value, complete residual or native K152
   interval follows yet.

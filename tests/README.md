@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K336/K337 axis-native maps and reference execution
+
+- `channel-swings/k336_order_seven_axis_native_map_bank.py` maps all 516 K334
+  finite leaves into 65 repeated rational gap classes, serializes the exact
+  affine Duffy directions, complete native polynomial jets, shared-entry
+  argument-direction matrices and face/tail ledger, and rejects fifteen
+  hostile map, coverage, degree and overclaim mutations.
+- `channel-swings/k337_order_seven_gap_axis_leaf_evaluator.py` substitutes
+  those entry jets before complete D4 and bordered-B5 determinant coefficient
+  enclosure on the strictly positive reference slab, evaluates all 325
+  class-axis banks and rejects twelve correlation, coverage, scope and
+  downstream-release mutations.
+
 ## K334/K335 recursive y closure and gap-axis gate
 
 - `channel-swings/k334_order_seven_recursive_global_subdivision.py` composes

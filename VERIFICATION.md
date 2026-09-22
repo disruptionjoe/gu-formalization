@@ -7,6 +7,30 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K336/K337 axis-native maps and reference execution (2026-09-22)
+
+K336 serializes the four numerical map classes named by K335. The simplex-
+native formula uses trailing gap sums, giving exact affine `dp_i/dt_j`
+directions with zero second chart derivative and zero total gap derivative.
+All 516 accepted K334 finite leaves map exactly once into 65 repeated rational
+gap-box classes. On every class and all five axes, exact interval automatic
+differentiation retains the complete product of twenty-four native polynomial
+factors through second order. Normalized D4 and bordered-B5 argument-direction
+matrices retain literal border zeros and require at most kernel orders eight
+and six. The projective face margins and radial tail powers 35/36/37 replay
+unchanged. This is a complete executable map bank, not a Peano norm. Its
+independent probe passes 8/8 controls and rejects 15/15 hostile mutations.
+
+K337 is the first numerical use of that bank inside complete shared-entry
+determinants. It evaluates all 65 gap classes and all five axes on K326's
+strictly positive `x`/`b` reference slab, substituting entry intervals before
+complete D4 and bordered-B5 determinant Taylor coefficient enclosure. All 325
+class-axis value/first/second banks are finite; the three literal B5 zeros and
+exact left/right transpose relation remain intact. The degree-27 origin,
+projective faces, analytic tails and positive Peano integration remain outside
+this reference-slab result, so no gap-axis constant or K294 join follows. Its
+independent probe passes 5/5 controls and rejects 12/12 hostile mutations.
+
 ## K334/K335 recursive y closure and gap-axis transfer gate (2026-09-22)
 
 K334 evaluates six finite radial/projective roots and recursively bisects any

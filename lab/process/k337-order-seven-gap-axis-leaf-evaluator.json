@@ -1,0 +1,3001 @@
+{
+  "claim_ceiling": "First finite complete shared-entry determinant gap-axis bank on the strictly positive K326 reference slab. Every repeated K334 gap-box class and all five K299 Duffy axes are evaluated by substituting shared D4 and bordered-B5 entry jets before complete determinant coefficient enclosure, with literal border zeros and the native projective-polynomial jets retained. Origin, s-face and radial-tail cells remain to be lifted through K336's serialized preconditioners and degree ledger, so no complete gap-axis constant, six-axis Peano norm, K294 gamma join, action-column value, residual, K152 interval, source/ledger, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "all_five_axes_execute_on_every_repeated_gap_class": true,
+    "complete_gap_axis_constants_emitted": false,
+    "complete_six_axis_peano_norm_emitted": false,
+    "first_complete_shared_entry_gap_axis_determinant_bank_finite": true,
+    "k294_gamma_join_released": false,
+    "next_exact_input": "lift the K337 shared-entry evaluator from the positive reference slab to K334's degree-27 normalized origin and preconditioned s-face cells, then apply K336's unchanged 35/36/37 tail ledger and the five K299 Peano masses"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "accepted_subdivision_checksum": "sha256:2df52de1d9beca3aaf6ea730416f7251e79cf8b1da260c214e27d2e3b5996016",
+    "arb_decimal_digits": 180,
+    "axis_count": 5,
+    "endpoint_chart_count": 16,
+    "gap_class_count": 65,
+    "predecessor_manifests": [
+      "lab/process/k334-order-seven-recursive-global-subdivision.json",
+      "lab/process/k336-order-seven-axis-native-map-bank.json"
+    ],
+    "reference_b_cell": [
+      "1/32",
+      "1/8"
+    ],
+    "reference_x_cell": [
+      "1/16",
+      "1/8"
+    ],
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "reference_positive_slab_bank": {
+    "D4_complete_permutation_count": 24,
+    "bordered_B5_complete_permutation_count": 120,
+    "class_axis_evaluation_count": 325,
+    "literal_border_zeros_retained": true,
+    "right_endpoint_bank_obtained_by_exact_transpose": true,
+    "rows": [
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "3.451990263479428e+36",
+              "7.874794959270517e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "3.316752979512223e+36",
+              "7.298768568568989e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "6.643763609418128e+36",
+              "3.112095924327991e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "7.70578399569463e+35",
+              "3.700479252019912e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "5.4960674504790294e+35",
+              "1.8850166100681454e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-01a8cb2962c7"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.211831073338414e+35",
+              "1.2394864620982314e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "5.92709078892453e+35",
+              "1.1402228758541373e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.2249184401659868e+36",
+              "5.184841399706694e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.51753278023006e+35",
+              "6.967505667662793e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.1037563357560807e+35",
+              "3.766869413806833e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-04b031168ce1"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "5.471272699914581e+35",
+              "1.2675554630506825e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "5.174463539987297e+35",
+              "1.1477729838143377e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "9.477382778549392e+35",
+              "4.031599384569539e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "1.2032534855091208e+35",
+              "5.643257597646792e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "7.845835507156491e+34",
+              "2.4767082158912014e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-054bc21a6342"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "7.893108116846063e+35",
+              "1.5012309421877237e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "8.160099695914101e+35",
+              "1.6195929333600972e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.6415570242937147e+36",
+              "6.947708035378526e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "2.0334167814797194e+35",
+              "9.335518009270267e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.4789787408388677e+35",
+              "5.047109616646587e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-071d6afb84eb"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "1.832571424895217e+36",
+              "3.6562766780690194e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "1.8010510352290138e+36",
+              "3.593045112567589e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.603582775490777e+36",
+              "1.5263529679705172e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "4.3024018291432746e+35",
+              "1.964928990955291e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.3221400674738795e+35",
+              "1.148311857330805e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-0934aaf6ba8c"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.4735194395019297e+36",
+              "3.2519782042960726e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.4785611384788054e+36",
+              "3.266983409803986e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.947842807168892e+36",
+              "1.3813734497271105e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "3.422641963406155e+35",
+              "1.6459256760686235e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.439511306644217e+35",
+              "8.374545582942949e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-14101d3f3434"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "4.446836908567166e+36",
+              "1.0037142020343465e+39"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "4.399551352500664e+36",
+              "9.960248439233617e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "8.266915510660165e+36",
+              "3.6910904986275444e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "9.671205119313842e+35",
+              "4.427890450181943e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "7.040189811734346e+35",
+              "2.3977467779570976e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-1472777ea82e"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.865729992089155e+35",
+              "1.5324485970835517e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "7.016206122345437e+35",
+              "1.6217753364790827e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.2373464668435837e+36",
+              "5.270015844980003e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.4932787773490219e+35",
+              "6.898227512587167e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.072295705169394e+35",
+              "3.481916651840486e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-14c01f60824b"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "4.284924552054562e+36",
+              "9.347874702871745e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "4.431524600440278e+36",
+              "1.0040804947458849e+39"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "8.658280964578183e+36",
+              "4.055479472776879e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "1.0040729453517704e+36",
+              "4.821406869484061e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "7.161881199264959e+35",
+              "2.456245882101536e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-15f0893faa98"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "4.515180012868799e+36",
+              "1.031785746527727e+39"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "4.442424028660886e+36",
+              "1.013463223628775e+39"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "8.280097036777354e+36",
+              "3.7012117252559106e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "9.340837051381784e+35",
+              "4.258637156773274e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "7.221166321057941e+35",
+              "2.493734041996739e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-1778b37b60aa"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "9.113562154041334e+35",
+              "2.0189116414050168e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "9.345309703984922e+35",
+              "2.1502646331862097e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.6561130203812416e+36",
+              "7.047612403155402e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.8850014500068364e+35",
+              "8.196128970212511e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.4800263414074128e+35",
+              "5.0685307825335765e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-1782a4109162"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "2.0618958062471063e+36",
+              "4.7274880340979376e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "2.027977670325852e+36",
+              "4.655088705367103e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "3.601265480482999e+36",
+              "1.5319654605794133e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "4.093107317627023e+35",
+              "1.7768920035177635e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "3.2164764010464982e+35",
+              "1.1004442812789525e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-1868fd022b2a"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "4.724005790149606e+34",
+              "1.3192635688207002e+37",
+              "4.0163859902682486e+39"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "4.724005790149606e+34",
+              "1.2727362876712853e+37",
+              "3.8051639321117255e+39"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "4.724005790149606e+34",
+              "1.976947657601401e+37",
+              "9.578910307239714e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "4.724005790149606e+34",
+              "3.1335520553461177e+36",
+              "2.1040416111570167e+38"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "4.724005790149606e+34",
+              "2.3083613094976802e+36",
+              "1.1614171382257982e+38"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-1ca3cac244ff"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "2.4531844596030273e+35",
+              "5.794588399230316e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "2.2939418817173473e+35",
+              "5.156302680331708e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "3.971195230146206e+35",
+              "1.6062368969153096e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "4.885089766705522e+34",
+              "2.1615458843039294e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "3.482246667157404e+34",
+              "1.1091303776866331e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-23eb0cf2a293"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "4.81806829028468e+35",
+              "9.69818775954753e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "4.579504692002389e+35",
+              "8.856870842195594e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "9.409868623656865e+35",
+              "3.985980759331776e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "1.2357352092732613e+35",
+              "6.035628377718954e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "8.14854946466471e+34",
+              "2.625800495067527e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-2d9cff1f5563"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "8.033039610021116e+35",
+              "1.5499752040030902e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "8.252668544020525e+35",
+              "1.6529512254567596e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.644275713931591e+36",
+              "6.967469681439097e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.965758084708206e+35",
+              "8.991916837687223e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.516248940468968e+35",
+              "5.245403852394871e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-32553b52041d"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "2.7616042962969697e+35",
+              "5.379556170058973e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "2.830876975963802e+35",
+              "5.733686059309516e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "5.326937717846386e+35",
+              "2.143552112683604e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "6.820679518813451e+34",
+              "3.155070493609634e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "4.893465715434078e+34",
+              "1.5902770170059704e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-32be68b3ba3a"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "2.6655064834690558e+35",
+              "5.211427702641968e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "2.64771114492193e+35",
+              "5.163149910894473e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "5.393152568011879e+35",
+              "2.286462008780452e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "6.456330399133522e+34",
+              "2.95780005408088e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "4.974713484276934e+34",
+              "1.7223815699097594e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-33783fb485c7"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.876879919952592e+35",
+              "1.5393165885940222e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.823714542364417e+35",
+              "1.5199827841184068e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.2963983409261241e+36",
+              "5.799656833948702e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.4670847367354177e+35",
+              "6.711369673930931e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.1315145971702747e+35",
+              "3.914577913703725e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-34b5ba2b4d02"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "5.706010246435054e+35",
+              "1.0994366836533896e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "5.741610034767995e+35",
+              "1.1111164993712425e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "1.2296324514627035e+36",
+              "5.475130357474024e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "1.5057813620603349e+35",
+              "7.250459166369214e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "1.0726018291720088e+35",
+              "3.6851876640382255e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-394697121c23"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "7.375424642860449e+35",
+              "1.7169857335248806e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "6.960493720264633e+35",
+              "1.5488540747974893e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "1.270795992942367e+36",
+              "5.408380060112986e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "1.4466432704058184e+35",
+              "6.290520172386692e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "1.1358198152882485e+35",
+              "3.889967071511513e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-39a6e6ba1245"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "1.9977338246211193e+36",
+              "4.415700305270013e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "2.0506404801687244e+36",
+              "4.694364184472408e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.807871374400809e+36",
+              "1.7027691182435618e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "4.3024018291432746e+35",
+              "1.964928990955291e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.3221400674738795e+35",
+              "1.148311857330805e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-3b9504808500"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.3295726990173727e+35",
+              "5.207278317777873e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.3057062239810826e+35",
+              "5.133740131747793e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "4.2049002356387125e+35",
+              "1.789369099365532e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "5.342498011359884e+34",
+              "2.508464710433457e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "3.4821385795177237e+34",
+              "1.1001237251237717e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-3f7a90707fd9"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "3.02175196718572e+35",
+              "6.769758524164414e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "3.1117983020122934e+35",
+              "7.283747631517126e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "5.17527946626719e+35",
+              "2.0931837654413638e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "6.365472130383683e+34",
+              "2.816430188470661e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "4.537755575792553e+34",
+              "1.445277100204474e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-44f97bab47b0"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.307991816848225e+35",
+              "1.27242671788733e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.200458093438698e+35",
+              "1.2536456597794381e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.16745674958151e+36",
+              "4.6958941626878474e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.4932787773490219e+35",
+              "6.898227512587167e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.072295705169394e+35",
+              "3.481916651840486e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-4f0d66eadfed"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.196890944456697e+35",
+              "1.2316877456714408e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.129649606790028e+35",
+              "1.2279224652774684e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.1651873479979718e+36",
+              "4.680205566741351e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.5679038362336591e+35",
+              "7.353076631266046e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.0223947197575124e+35",
+              "3.2273025419788404e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-503d4e24332e"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.759736835540918e+35",
+              "1.49015165692697e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.947064955238678e+35",
+              "1.5934024289717329e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.2351012620360533e+36",
+              "5.253543726874011e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.5679038362336591e+35",
+              "7.353076631266046e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.0223947197575124e+35",
+              "3.2273025419788404e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-517ebacf68a7"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "6.1223177831133564e+35",
+              "1.1745720333807211e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "6.305467966593132e+35",
+              "1.2582101178178184e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "1.2610500896297658e+36",
+              "5.341230985226129e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "1.6558207130274053e+35",
+              "8.086909422533366e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.492724297639156e+33",
+              "1.0919226997986465e+35",
+              "3.518496987719744e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-53c093e96517"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.5532902505565347e+36",
+              "3.5884929095413865e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.5224236813979603e+36",
+              "3.510497911192771e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.690647121908121e+36",
+              "1.145564007569645e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "3.2431044108254242e+35",
+              "1.4959538038513605e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.3310926170388065e+35",
+              "7.562757310749913e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-5aaded6805a2"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "1.2161476120857592e+35",
+              "2.3826531870956463e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "1.2008882153730602e+35",
+              "2.3444099986573147e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "2.3384037609271218e+35",
+              "9.406314916722987e+37"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "2.8279227280004005e+34",
+              "1.2331109936484532e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "2.216964114693198e+34",
+              "7.605639028824182e+35"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-60a9fda11d77"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "2.777643177429655e+35",
+              "5.624197539941451e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "2.7556251201836236e+35",
+              "5.647808055276574e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "4.866483914771325e+35",
+              "1.8525315684018705e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "6.365472130383683e+34",
+              "2.816430188470661e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "4.537755575792553e+34",
+              "1.445277100204474e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-625b285c70e0"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "1.2142391232550943e+35",
+              "2.3707043917660576e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "1.2579492293326616e+35",
+              "2.582423758443517e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "2.2204382758091488e+35",
+              "8.455912165061779e+37"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "2.907063855592778e+34",
+              "1.2878280003301088e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "6.804791957861753e+32",
+              "2.0708719053666005e+34",
+              "6.60081199972512e+35"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-657b1c4a627e"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.230848646590715e+32",
+              "4.0430307195885927e+34",
+              "8.026641054484781e+36"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.230848646590715e+32",
+              "3.9538371242838306e+34",
+              "7.793207613422813e+36"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.230848646590715e+32",
+              "7.282576410256258e+34",
+              "2.774782337117772e+37"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.230848646590715e+32",
+              "9.543729367199016e+33",
+              "4.232873867671241e+35"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.230848646590715e+32",
+              "6.793766365794439e+33",
+              "2.1670818407450102e+35"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-68c3cfdcd365"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.3346738151811138e+34",
+              "2.3041077524744558e+36",
+              "4.314894194238664e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.3346738151811138e+34",
+              "2.2660123909127994e+36",
+              "4.218179818491237e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.3346738151811138e+34",
+              "4.203284783308567e+36",
+              "1.5338161391849033e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.3346738151811138e+34",
+              "6.071102458192665e+35",
+              "2.86854181614694e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.3346738151811138e+34",
+              "4.3379629566087884e+35",
+              "1.466296551577659e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-6f16b1174806"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "3.140586665712577e+35",
+              "7.054231678448981e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "3.1014707934242554e+35",
+              "6.9273709583427385e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "5.638151325241587e+35",
+              "2.4003743213380428e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "6.426713797839655e+34",
+              "2.7986284324423715e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "5.041915771125063e+34",
+              "1.7283013249012197e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-777740db5bd7"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.3661403336318275e+35",
+              "5.355048760232923e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.3282459305905684e+35",
+              "5.224023253307793e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "4.212480142499257e+35",
+              "1.79493340096921e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "5.0903160699140215e+34",
+              "2.354804635534335e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "3.6517643346075834e+34",
+              "1.1867891095296524e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-7bd2d8f47432"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "6.84554455032878e+35",
+              "1.5895807539716828e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "6.763074086678224e+35",
+              "1.5808185406914297e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "1.1254106880754803e+36",
+              "4.550234263408383e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "1.3826787166952368e+35",
+              "6.109509174053602e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.246312052348611e+33",
+              "9.864506417305458e+34",
+              "3.1392253067651953e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-7ce2a613041d"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "9.613054334358258e+34",
+              "1.9819118328116086e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "8.954447207773705e+34",
+              "1.7576678761720798e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.6568884827340404e+35",
+              "6.310629642757207e+37"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "2.1695210220911164e+34",
+              "9.61148669374831e+35"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.5453935546851947e+34",
+              "4.926020672636093e+35"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-83fe307f0f14"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.07567614852667e+33",
+              "3.660262003790503e+35",
+              "7.066755068104388e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.07567614852667e+33",
+              "3.767109933177066e+35",
+              "7.5887953413318e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.07567614852667e+33",
+              "7.129550959128576e+35",
+              "2.86642952519809e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.07567614852667e+33",
+              "8.611362354365336e+34",
+              "3.7497327286852494e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.07567614852667e+33",
+              "6.755977638730921e+34",
+              "2.3157322025619917e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-85a1a542694f"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "3.9245089162868803e+36",
+              "7.717161516952621e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "3.893065061025666e+36",
+              "7.687465584697698e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "8.216142122905858e+36",
+              "3.65505533981582e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "1.0040729453517704e+36",
+              "4.821406869484061e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.171379804534354e+34",
+              "7.161881199264959e+35",
+              "2.456245882101536e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-8ab2dc483b97"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "5.87718031857081e+33",
+              "1.2304121704723274e+36",
+              "2.8368942042742164e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "5.87718031857081e+33",
+              "1.1706375102425698e+36",
+              "2.5893227075662083e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "5.87718031857081e+33",
+              "2.2410092455221377e+36",
+              "1.0017804162555056e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "5.87718031857081e+33",
+              "2.7828335010117674e+35",
+              "1.3575611949294954e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "5.87718031857081e+33",
+              "1.8360487947517495e+35",
+              "5.911370215600326e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-8c26dabcd239"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "1.8010121441047396e+36",
+              "3.5418371496267936e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "1.780719934967737e+36",
+              "3.520104408294915e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.597687823865944e+36",
+              "1.5220680249880113e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "4.452428067230479e+35",
+              "2.0414438424335618e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.2397410082047884e+35",
+              "1.1045372794597856e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-8c8ac3a98f37"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "2.8880767382430065e+35",
+              "5.867143252844166e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "2.7189421714545094e+35",
+              "5.285056082012254e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "5.3200425898979724e+35",
+              "2.139163747159228e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "6.426713797839655e+34",
+              "2.7986284324423715e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "5.041915771125063e+34",
+              "1.7283013249012197e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-8f77bd10965b"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.529633780906449e+36",
+              "3.4902647498149384e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.5074669987820378e+36",
+              "3.449221728433458e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.685721125759077e+36",
+              "1.141951816901885e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "3.406616619147799e+35",
+              "1.5956483596082671e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.2224026947707886e+35",
+              "7.008944928099766e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-96da563385bb"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.0431640699807669e+35",
+              "2.373754145194168e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.0218873593169616e+35",
+              "2.3052343264374552e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.7618584199428067e+35",
+              "7.128602647540881e+37"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "2.1695210220911164e+34",
+              "9.61148669374831e+35"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.5453935546851947e+34",
+              "4.926020672636093e+35"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-9a6c2ee717b2"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.772586578872298e+35",
+              "1.4976257819101926e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.75948796007542e+35",
+              "1.4943057289291589e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.2943759504703846e+36",
+              "5.784110734606177e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.51753278023006e+35",
+              "6.967505667662793e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.1037563357560807e+35",
+              "3.766869413806833e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-9ae4a2720eb2"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.6127503031805884e+36",
+              "3.73622785777963e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.5311078109665066e+36",
+              "3.3972678545264757e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.921907834600099e+36",
+              "1.306692960923454e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "3.301937077913448e+35",
+              "1.5081296037121852e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.5494128441565848e+35",
+              "8.812487055214553e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-9f34605f963e"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "8.36099879518953e+35",
+              "1.6714103573564705e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "8.251018716571369e+35",
+              "1.6592191777247386e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.562518113100896e+36",
+              "6.279499145178398e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.8850014500068364e+35",
+              "8.196128970212511e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "4.551561145007665e+33",
+              "1.4800263414074128e+35",
+              "5.0685307825335765e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-a124c06af113"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.3969249151930825e+36",
+              "2.77136850176077e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.3760560686340206e+36",
+              "2.7348366875850808e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.763801400944274e+36",
+              "1.1701609268384022e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "3.6261225638043055e+35",
+              "1.7688325662228974e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.39256214592811e+35",
+              "7.702841872734943e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-a4b11b87445f"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.1404054337002484e+35",
+              "4.323159130372333e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.0199232536206093e+35",
+              "3.911284840685013e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "3.967292190893345e+35",
+              "1.5944021014041993e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "5.342498011359884e+34",
+              "2.508464710433457e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "3.4821385795177237e+34",
+              "1.1001237251237717e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-aa360e55a172"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.588532719876536e+36",
+              "3.635502115796335e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.516601515695677e+36",
+              "3.3395402567984054e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.9173044010594514e+36",
+              "1.3031560078541188e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "3.416970526807175e+35",
+              "1.566784038630641e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.4863038060483525e+35",
+              "8.477170931041951e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-ab15aa112467"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "2.712541736725195e+35",
+              "5.206929349413263e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "2.7986844937949904e+35",
+              "5.61660859116686e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "5.3166891093667514e+35",
+              "2.136462960511165e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "7.158784371557532e+34",
+              "3.361088445236946e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.5489270620663444e+33",
+              "4.666142816968605e+34",
+              "1.4741408953051713e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-abdf79774430"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "2.6191958955531135e+35",
+              "5.0481515798837815e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "2.6186375226983938e+35",
+              "5.060505104358758e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "5.384207448496611e+35",
+              "2.2799572688877297e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "6.67569679390425e+34",
+              "3.068732118492771e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.4921608428302887e+33",
+              "4.85361761708677e+34",
+              "1.6578554160347756e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-b10223ff79ae"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "1.7218987287285967e+36",
+              "3.2784781738872177e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "1.784316343900507e+36",
+              "3.538125272183482e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "3.748985795279626e+36",
+              "1.6684867500579775e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "4.586089951179569e+35",
+              "2.2052553098858574e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "9.902275565573542e+33",
+              "3.268966562809346e+35",
+              "1.122149085968447e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-b105c2cf0c16"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "9.17501754565539e+34",
+              "1.8135212390189251e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "9.024186528938346e+34",
+              "1.7713037678784717e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.7471680918867668e+35",
+              "7.034150952055826e+37"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "2.2395188096617097e+34",
+              "1.0372887508470166e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.6053310987325313e+34",
+              "5.221070249350337e+35"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-b2a515968552"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "2.0316001477999695e+35",
+              "3.949639083238741e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "2.0231688538671068e+35",
+              "3.93056188452044e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "4.1361406387902626e+35",
+              "1.752756500986217e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "5.435367808879558e+34",
+              "2.6576984465421917e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.1450371051089903e+33",
+              "3.5823359607694353e+34",
+              "1.1552997327373135e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-b781d489958b"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "6.3210078402856816e+35",
+              "1.2795998012060104e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "5.9933646640710966e+35",
+              "1.1634994793446546e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.2269472010611684e+36",
+              "5.199591008824084e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.4670847367354177e+35",
+              "6.711369673930931e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "3.396501055952749e+33",
+              "1.1315145971702747e+35",
+              "3.914577913703725e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-b8072590900e"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "5.24586924604912e+35",
+              "1.168584241402772e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "5.2173335149623536e+35",
+              "1.1585517313016628e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "9.943107061824108e+35",
+              "4.446438689996033e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "1.2357352092732613e+35",
+              "6.035628377718954e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "8.14854946466471e+34",
+              "2.625800495067527e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-baa0c6166504"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "3.4447478091700723e+36",
+              "7.834148934365763e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "3.396314474713226e+36",
+              "7.723840058080887e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "6.350466378919453e+36",
+              "2.837470323583707e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "7.877505714802129e+35",
+              "3.8375892282960173e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.6662482866299564e+34",
+              "5.2009025225119246e+35",
+              "1.6728449892320138e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-bc2ba86729e8"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.351464780942669e+36",
+              "2.69223699126652e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "1.2992951156662917e+36",
+              "2.5026508310066208e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.7974556080491525e+36",
+              "1.245112979359543e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "3.422641963406155e+35",
+              "1.6459256760686235e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.389352413779114e+33",
+              "2.439511306644217e+35",
+              "8.374545582942949e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-c0c37a389252"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.1788053743153504e+35",
+              "4.466033351612164e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "2.043266247142187e+35",
+              "3.9933560899654693e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "3.974939986385644e+35",
+              "1.5996931640901244e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "5.0903160699140215e+34",
+              "2.354804635534335e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "1.1558522933088062e+33",
+              "3.6517643346075834e+34",
+              "1.1867891095296524e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-c0e608b5cbfc"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "1.9670652912065094e+36",
+              "4.2945081922279614e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "2.0309696723656016e+36",
+              "4.614037260447384e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.801872386295074e+36",
+              "1.69816054913342e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "4.452428067230479e+35",
+              "2.0414438424335618e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "9.980703825394297e+33",
+              "3.2397410082047884e+35",
+              "1.1045372794597856e+37"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-d549d0e6e100"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "9.012845450753443e+34",
+              "1.755694033268097e+37"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "8.92177314217081e+34",
+              "1.7351172474652154e+37"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.7438391813704756e+35",
+              "7.011107345914757e+37"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "2.3496485165449934e+34",
+              "1.1043746750452734e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "5.077924296407189e+32",
+              "1.5308839883125537e+34",
+              "4.840261311786164e+35"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-d8cd0477cf2d"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.5238309518275793e+36",
+              "3.3518032424983872e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "1.5677898956134734e+36",
+              "3.577844441675373e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.920514845046773e+36",
+              "1.305434052041765e+39"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "3.6261225638043055e+35",
+              "1.7688325662228974e+37"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "7.658876931903271e+33",
+              "2.39256214592811e+35",
+              "7.702841872734943e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-db1eac8c70b0"
+      },
+      {
+        "axes": [
+          {
+            "axis": "t0",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "5.556528021098114e+35",
+              "1.3034463594211493e+38"
+            ]
+          },
+          {
+            "axis": "t1",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "5.225366495497876e+35",
+              "1.168072719032568e+38"
+            ]
+          },
+          {
+            "axis": "t2",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "9.494611784287345e+35",
+              "4.044240966797785e+38"
+            ]
+          },
+          {
+            "axis": "t3",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "1.1460159382050671e+35",
+              "5.2943927644378284e+36"
+            ]
+          },
+          {
+            "axis": "t4",
+            "complete_value_first_second_abs_uppers": [
+              "2.606367653305935e+33",
+              "8.22873983154876e+34",
+              "2.672094183863993e+36"
+            ]
+          }
+        ],
+        "gap_class": "gap-class-fe11873c7a75"
+      }
+    ],
+    "shared_entry_interval_substitution_precedes_complete_determinant_coefficient_enclosure": true,
+    "summed_value_first_second_abs_uppers": [
+      "2.0030746928425887e+36",
+      "3.4708431457683734e+38",
+      "1.0583487182574536e+41"
+    ],
+    "terminal_gap_direction_exactly_zero_on_reference_map": true
+  },
+  "release_test": {
+    "K334_checksum_replayed": true,
+    "all_class_axis_bounds_finite_positive": true,
+    "complete_gap_constant_overclaim": false,
+    "native_K152_interval_emitted": false
+  },
+  "result_id": "K337-ORDER-SEVEN-GAP-AXIS-LEAF-EVALUATOR",
+  "schema_version": "1.0",
+  "scope_boundary": {
+    "covered": "all repeated K334 gap-box classes and all five K299 Duffy axes on K326's strictly positive x/b reference slab",
+    "not_covered": [
+      "the K334 radial-origin cells",
+      "the s=0 and s=1 projective face cells",
+      "the analytic r>=1 tails",
+      "positive Peano integration over every labelled K334 leaf"
+    ],
+    "reference_bank_is_not_a_gap_axis_constant": true
+  },
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged; LT-SM8, LT-GR6b, RA-F1 and AC-F1 remain NEEDS."
+}

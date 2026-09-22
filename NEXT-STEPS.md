@@ -20,6 +20,19 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K336/K337 AXIS-NATIVE MAP BANK AND FIRST NUMERICAL EXECUTION.**
+> K336 serializes all four maps left open by K335: exact affine Duffy
+> directions, native projective-polynomial value/first/second intervals,
+> shared-entry D4 and bordered-B5 directional jet matrices, and the projective-
+> face/radial-tail degree ledger. Every one of K334's 516 finite leaves maps
+> once to one of 65 repeated exact rational gap classes. K337 substitutes those
+> entry jets before complete determinant coefficient enclosure and obtains
+> finite value/first/second banks for all 65 classes times five axes on K326's
+> strictly positive reference slab. Next lift the same evaluator through the
+> degree-27 origin, both preconditioned projective faces and the analytic
+> tails, then apply the five K299 Peano masses. The reference slab is not a
+> gap-axis constant; the six-axis norm and K294 gamma join remain closed.
+
 > **2026-09-22 K334/K335 RECURSIVE Y CLOSURE AND GAP-AXIS GATE.** K334
 > recursively composes the accepted interior and face evaluators. Its 516
 > finite leaves plus three analytic tails cover the complete radial/projective
