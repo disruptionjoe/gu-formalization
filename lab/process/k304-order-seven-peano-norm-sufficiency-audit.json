@@ -1,0 +1,151 @@
+{
+  "claim_ceiling": "Exact data-sufficiency and closure audit for the K303 six-axis determinant compiler. K302 supplies valid terminal-entry y-Peano marginals but no complete cofactor-weighted norm; K290 cannot provide the missing global multiplier because its pointwise bank is superseded and local. The audit types 108 pattern/axis/order joint-functional templates (432 coherent-group instantiations), preserves K300's qualitative finiteness, and rejects a premature K294 gamma join. It does not reject the positive route, numerically enclose any complete norm, evaluate an exterior action column or residual, emit a native K152 interval, or move source, ledger, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "concrete_enclosure_attempt": {
+    "candidate_inequality": "J_(y,m,terminal)<=B_m(x)*sup|terminal cofactor times undifferentiated old kernels, D4 and native multiplier|",
+    "exact_failure": "The valid fixed-(x,q) Hadamard enclosure loses the coupled q/x Cauchy--Vandermonde and regularizer structure. Exact q integration creates x^-6, x^-5 and x^-4 radial-origin powers, so this factorization cannot be joined to K294 even for the pure terminal-entry leaf. K290's local/superseded pointwise bank cannot repair that loss.",
+    "exact_q_integration": {
+      "factorial": 39916800,
+      "identity": "integral_0^infinity q^11*exp(-256*x*q)dq=11!/(256*x)^12",
+      "radial_origin_integrable": false,
+      "resulting_x_powers": [
+        -6,
+        -5,
+        -4
+      ]
+    },
+    "fixed_x_q_bound": {
+      "B0_leaf": "C*exp(-256*x*(1+q))*q^11*x^6",
+      "B1_leaf": "C*exp(-256*x*(1+q))*q^11*(x^7/4+2*x^6)",
+      "B2_leaf": "C*exp(-256*x*(1+q))*q^11*(3*x^8/8+6*x^6)",
+      "before_Bm": "C*exp(-256*x*(1+q))*x^7*q^11",
+      "constant_C": "1/38263752",
+      "left_and_right_endpoint_safe_values": "each <=2/x",
+      "native_prefactor": "(2*pi)^-9<6^-9",
+      "projective_product": "6^-6",
+      "simplex_location": "the y-axis tensor term fixes all five Duffy axes at their means, hence p_i=1/6 and preceding simplex weight 1/120",
+      "size_four_hadamard": "abs(D4)<=4!*(2/x)^4=384/x^4 because every odd cross sum is at least x",
+      "terminal_size_two_cofactor_hadamard": "abs(Cofactor_88)<=2!*(2/x)^2=8/x^2 because deleting row/column 8 leaves cross sums at least x"
+    },
+    "holder_fallback": "not released because no compatible global Lp cofactor/old-kernel moments are serialized under the same Peano measure",
+    "result": "rigorous_at_fixed_x_q_but_radially_nonintegrable",
+    "why_k302_does_not_factor": "B_m integrates only the terminal entry against the y Peano kernel and two terminal split variables. The determinant cofactor, other companion entries and old kernels share y/u/z and may be unbounded on the same faces, so a product of marginal integrals or an unavailable supremum is required; neither follows from K302."
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_six_complete_numerical_norms_available": false,
+    "analytic_subtraction_status": "dominated_fallback_not_executed",
+    "k290_pointwise_bank_reinstated": false,
+    "k294_gamma_join_released": false,
+    "positive_peano_route_rejected": false,
+    "positive_peano_route_status": "finite_but_not_numerically_closed",
+    "selected_next_exact_input": "construct outward joint weighted column-replacement functionals, beginning with the 18 y-axis pattern/order templates, using K302 inside rather than outside the shared multiplier integral; then extend the same support-aware enclosure to the 90 gap-axis templates"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coherent_groups": 4,
+    "companion_patterns": 6,
+    "peano_axes": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "y"
+    ],
+    "predecessor_manifests": [
+      "lab/process/k290-order-seven-native-rest-derivative-bank.json",
+      "lab/process/k300-order-seven-angular-method-selection.json",
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json",
+      "lab/process/k303-order-seven-peano-determinant-compiler.json"
+    ],
+    "terminal_jet_orders": [
+      0,
+      1,
+      2
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "minimal_joint_functional_inventory": {
+    "axes": 6,
+    "companion_pattern_templates": 6,
+    "compression_rule": "templates may share analytic envelopes only after equality of their cumulative-time supports is proved; the four coherent groups remain signed until the common functional is assembled",
+    "definition": "J_(a,m,P,G)=integral K_a(s) |sum of the six signed occurrence column-replacement determinants in coherent group G| times the exact remaining native measure, old kernels and projective weight",
+    "five_gap_axis_templates": 90,
+    "four_group_instantiations": 432,
+    "jet_orders": 3,
+    "k302_role": "terminal-entry marginal inequalities used inside the 18 y-axis templates, not complete template values",
+    "k302_supplies_complete_joint_templates": 0,
+    "total_pattern_axis_order_templates": 108,
+    "y_axis_templates": 18
+  },
+  "qx_scaling_audit": {
+    "candidate_terminal_radial_powers": [
+      6,
+      7,
+      8
+    ],
+    "cauchy_base_scaling": "D4 contributes x^-4, D3 contributes x^-3, and the two endpoint Bessel kernels contribute x^-2, leaving x^6 before regularizer/joint-jet effects",
+    "gamma_join_released": false,
+    "native_scalar": "exp(-256*x*(1+q))*x^15*q^11",
+    "q_boundary": "the raw fixed-(x,q) terminal-leaf majorant keeps only q^11; exact q integration then produces a nonintegrable x^-6 leading power. The size-four Vandermonde q^12 zero and its large-q denominators must remain coupled to x and q inside the joint functional rather than bounded separately",
+    "reason": "The candidate x powers now have a rigorous terminal-leaf coefficient at fixed x,q, but its exact q integral is nonintegrable at x=0. The determinant zeros, denominators and regularizers must be enclosed jointly before a finite gamma coefficient exists.",
+    "terminal_marginal_scaling": {
+      "B0": "x^-1",
+      "B1": "x^0 plus x^-1",
+      "B2": "x^1 plus x^-1"
+    }
+  },
+  "release_test": {
+    "all_missing_functionals_typed": true,
+    "coherent_groups_not_collapsed": true,
+    "factorized_supremum_route_rejected": true,
+    "joint_weighted_route_admissible": true,
+    "native_K152_interval_emitted": false,
+    "numerical_norm_overclaim": false,
+    "qualitative_finiteness_preserved": true,
+    "radial_gamma_join_emitted": false
+  },
+  "result_id": "K304-ORDER-SEVEN-PEANO-NORM-SUFFICIENCY-AUDIT",
+  "route_admissibility": {
+    "factorized_supremum": false,
+    "joint_weighted_functionals": true,
+    "qualitative_face_transfer": true
+  },
+  "route_audit": {
+    "factorized_supremum": {
+      "coherent_before_absolute": false,
+      "global_domain": false,
+      "reason": "It would multiply K302's marginal B_m by K290's pointwise multiplier/cofactor ceiling, but K301 supersedes that ceiling on the full split cube and K290 is local to the K284 tube/projective floor.",
+      "same_measure": true,
+      "split_faces_covered": false,
+      "status": "rejected",
+      "uses_superseded_input": true
+    },
+    "joint_weighted_functionals": {
+      "coherent_before_absolute": true,
+      "global_domain": true,
+      "reason": "Integrate each column-replacement determinant together with its old-kernel, projective, cofactor and split multiplier under the actual axis Peano kernel before absolute group enclosure.",
+      "same_measure": true,
+      "split_faces_covered": true,
+      "status": "selected_next_construction",
+      "uses_superseded_input": false
+    },
+    "qualitative_face_transfer": {
+      "coherent_before_absolute": true,
+      "global_domain": true,
+      "reason": "K300 plus K302 prove local absolute integrability on a finite boundary cover, but neither supplies outward constants on that cover or their overlap-free composition.",
+      "same_measure": true,
+      "split_faces_covered": true,
+      "status": "finite_without_number",
+      "uses_superseded_input": false
+    }
+  },
+  "schema_version": "1.0"
+}

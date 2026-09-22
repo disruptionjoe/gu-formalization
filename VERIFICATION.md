@@ -7,6 +7,31 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K303/K304 Peano determinant compiler and closure audit (2026-09-22)
+
+K303 compiles every K299 second-directional remainder without expanding a
+determinant into raw signed products.  Determinant multilinearity gives four
+first-column and ten second-column replacements for the size-four factor, and
+three first-column and six second-column replacements for the size-three
+companion.  After the complete outer product rule, the six axes contain 6,480
+column-replacement leaf families across all 24 K288 occurrences.  Every
+first--first cross term retains its factor two, and the six signed occurrences
+in each of the four coherent groups remain together until their common
+functional is assembled.  The probe passes 10/10 checks and rejects 6/6
+hostile mutations.
+
+K304 then attempts the natural factorized enclosure
+`J <= B_m(x) sup|multiplier|`.  A raw Hadamard bound is rigorous for the pure
+terminal-entry `y` leaf at fixed `x,q`, with exact constant `1/38263752` before
+the K302 factor.  Exact `q` integration, however, produces radial-origin
+powers `x^-6`, `x^-5` and `x^-4`; the factorization has discarded the coupled
+determinant zeros and is unusable for K294.  K290's numerical multiplier bank
+is local and superseded.  The exact remaining object is a joint weighted
+column-replacement functional: 108 pattern/axis/order templates, or 432
+coherent-group instantiations.  K300's
+qualitative finiteness survives, but no numerical norm or K294 gamma join is
+licensed.  The probe passes 13/13 checks and rejects 7/7 hostile mutations.
+
 ## K301/K302 terminal split correction and weighted repair (2026-09-22)
 
 K301 replays all 24 K288 occurrences and proves that every companion contains

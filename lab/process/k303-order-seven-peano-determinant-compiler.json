@@ -1,0 +1,819 @@
+{
+  "axis_compiler": [
+    {
+      "active_factors": [
+        "projective_native_weight",
+        "left_endpoint_safe_old_kernel",
+        "right_endpoint_safe_old_kernel",
+        "size_four_bessel_determinant",
+        "size_three_companion_determinant"
+      ],
+      "axis": "t0",
+      "determinant_preserving_leaves_all_occurrences": 1320,
+      "determinant_preserving_leaves_per_occurrence": 55,
+      "outer_product_rule_families": 15,
+      "outer_rows": [
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 10,
+          "factors": [
+            "size_four_bessel_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 6,
+          "factors": [
+            "size_three_companion_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "left_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "projective_native_weight",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "projective_native_weight",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 12,
+          "factors": [
+            "size_four_bessel_determinant",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        }
+      ]
+    },
+    {
+      "active_factors": [
+        "projective_native_weight",
+        "left_endpoint_safe_old_kernel",
+        "right_endpoint_safe_old_kernel",
+        "size_four_bessel_determinant",
+        "size_three_companion_determinant"
+      ],
+      "axis": "t1",
+      "determinant_preserving_leaves_all_occurrences": 1320,
+      "determinant_preserving_leaves_per_occurrence": 55,
+      "outer_product_rule_families": 15,
+      "outer_rows": [
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 10,
+          "factors": [
+            "size_four_bessel_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 6,
+          "factors": [
+            "size_three_companion_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "left_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "projective_native_weight",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "projective_native_weight",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 12,
+          "factors": [
+            "size_four_bessel_determinant",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        }
+      ]
+    },
+    {
+      "active_factors": [
+        "projective_native_weight",
+        "left_endpoint_safe_old_kernel",
+        "right_endpoint_safe_old_kernel",
+        "size_four_bessel_determinant",
+        "size_three_companion_determinant"
+      ],
+      "axis": "t2",
+      "determinant_preserving_leaves_all_occurrences": 1320,
+      "determinant_preserving_leaves_per_occurrence": 55,
+      "outer_product_rule_families": 15,
+      "outer_rows": [
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 10,
+          "factors": [
+            "size_four_bessel_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 6,
+          "factors": [
+            "size_three_companion_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "left_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "projective_native_weight",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "projective_native_weight",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 12,
+          "factors": [
+            "size_four_bessel_determinant",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        }
+      ]
+    },
+    {
+      "active_factors": [
+        "projective_native_weight",
+        "right_endpoint_safe_old_kernel",
+        "size_four_bessel_determinant",
+        "size_three_companion_determinant"
+      ],
+      "axis": "t3",
+      "determinant_preserving_leaves_all_occurrences": 1080,
+      "determinant_preserving_leaves_per_occurrence": 45,
+      "outer_product_rule_families": 10,
+      "outer_rows": [
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 10,
+          "factors": [
+            "size_four_bessel_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 6,
+          "factors": [
+            "size_three_companion_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "projective_native_weight",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "projective_native_weight",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 12,
+          "factors": [
+            "size_four_bessel_determinant",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        }
+      ]
+    },
+    {
+      "active_factors": [
+        "projective_native_weight",
+        "right_endpoint_safe_old_kernel",
+        "size_four_bessel_determinant",
+        "size_three_companion_determinant"
+      ],
+      "axis": "t4",
+      "determinant_preserving_leaves_all_occurrences": 1080,
+      "determinant_preserving_leaves_per_occurrence": 45,
+      "outer_product_rule_families": 10,
+      "outer_rows": [
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 10,
+          "factors": [
+            "size_four_bessel_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 6,
+          "factors": [
+            "size_three_companion_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "projective_native_weight",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "projective_native_weight",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "projective_native_weight",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 4,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_four_bessel_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 12,
+          "factors": [
+            "size_four_bessel_determinant",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        }
+      ]
+    },
+    {
+      "active_factors": [
+        "left_endpoint_safe_old_kernel",
+        "right_endpoint_safe_old_kernel",
+        "size_three_companion_determinant"
+      ],
+      "axis": "y",
+      "determinant_preserving_leaves_all_occurrences": 360,
+      "determinant_preserving_leaves_per_occurrence": 15,
+      "outer_product_rule_families": 6,
+      "outer_rows": [
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 1,
+          "determinant_preserving_leaves": 6,
+          "factors": [
+            "size_three_companion_determinant"
+          ],
+          "kind": "pure_second"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 1,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "right_endpoint_safe_old_kernel"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "left_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        },
+        {
+          "coefficient": 2,
+          "determinant_preserving_leaves": 3,
+          "factors": [
+            "right_endpoint_safe_old_kernel",
+            "size_three_companion_determinant"
+          ],
+          "kind": "cross_first_first"
+        }
+      ]
+    }
+  ],
+  "claim_ceiling": "Exact determinant-preserving second-directional compiler for all six K299 Peano axes, all 24 K288 occurrences and all four coherent groups. It enumerates 6,480 column-replacement leaf families, retains every factor-two cross term and places coherent absolute enclosure only after group assembly. It emits no numerical Peano norm, q/x enclosure, K294 gamma join, exterior action-column value, residual, native K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_counts": {
+    "all_six_axes_leaves_all_occurrences": 6480,
+    "coherent_absolute_value_location": "after the six signed occurrence contributions in each group have been assembled for a common leaf functional",
+    "gap_axis_leaves_all_occurrences": 6120,
+    "y_axis_leaves_all_occurrences": 360
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_four_coherent_groups_retained": true,
+    "all_six_peano_axes_compiled": true,
+    "complete_determinant_product_rule_compiled": true,
+    "next_exact_input": "audit whether K302's marginal terminal jets can be combined with globally valid cofactor and old-kernel multipliers under each axis's actual Peano measure; otherwise construct the missing joint weighted functionals before any K294 gamma join",
+    "numerical_peano_norms_emitted": false
+  },
+  "determinant_multilinearity": {
+    "column_order_preserved": true,
+    "first_derivative": "D det(C_1,...,C_m)=sum_j det(C_1,...,D C_j,...,C_m)",
+    "permutation_expansion_used": false,
+    "second_derivative": "D^2 det(C)=sum_j det(...,D^2 C_j,...)+2 sum_{j<k} det(...,D C_j,...,D C_k,...)",
+    "size_four_first_leaves": 4,
+    "size_four_second_leaves": 10,
+    "size_three_first_leaves": 3,
+    "size_three_second_leaves": 6
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coherent_groups": 4,
+    "companion_patterns": 6,
+    "occurrences": 24,
+    "peano_axes": [
+      "t0",
+      "t1",
+      "t2",
+      "t3",
+      "t4",
+      "y"
+    ],
+    "predecessor_manifests": [
+      "lab/process/k288-order-seven-native-occurrence-measure.json",
+      "lab/process/k299-order-seven-positive-peano-simplex-rule.json",
+      "lab/process/k302-order-seven-split-weighted-peano-jet.json"
+    ],
+    "records_per_group": 6
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "outer_factorization": {
+    "angular_independent_scalar": "A=(2*pi)^-9*exp(-256*x*(1+q))*x^15*q^11",
+    "angular_integrand": "A(x,q)*P(p)*L_old(y,u,p)*R_old(y,z,p)*D4(x,q,p)*D3(x,q,p,y,u,z)",
+    "endpoint_pairing": "L_old and R_old absorb the native y and (1-y) factors before differentiation",
+    "late_column_axis_independence": "t3 and t4 move only c-side gaps, so L_old is constant on those directions",
+    "projective_factor": "P=product_i p_i; Duffy Jacobian powers remain the one-axis base weights and are not differentiated inside F",
+    "y_independence": [
+      "A",
+      "P",
+      "D4"
+    ]
+  },
+  "release_test": {
+    "all_24_occurrences_replayed": true,
+    "all_second_column_cross_terms_carry_factor_two": true,
+    "all_six_axes_replayed": true,
+    "all_six_companion_patterns_replayed": true,
+    "native_K152_interval_emitted": false,
+    "pointwise_k290_reuse": false,
+    "radial_gamma_join_emitted": false
+  },
+  "result_id": "K303-ORDER-SEVEN-PEANO-DETERMINANT-COMPILER",
+  "schema_version": "1.0",
+  "terminal_split_usage": {
+    "k302_bounds": {
+      "B0": {
+        "strict": true,
+        "upper": "1/x"
+      },
+      "B1": {
+        "strict": true,
+        "upper": "1/4+2/x"
+      },
+      "B2": {
+        "strict": true,
+        "upper": "3*x/8+6/x"
+      },
+      "definition": "B_m(x)=integral_0^1 K(y) integral_[0,1]^2 abs(d_y^m[2*K1(x*(y*a+(1-y)*b))]) da db dy",
+      "proof_partition": {
+        "K_over_z": "with m=min(y,1-y), z>=m*(a+b) and K=m^2/2, K/z<=1/[4*(a+b)]",
+        "elementary_integral": "integral_[0,1]^2 da db/(a+b)=2*log(2)<2",
+        "first_derivative_terms": "K*abs(a-b)/z<=1/4 and K*abs(a-b)/z^2<=1/[2*(a+b)]",
+        "second_derivative_cubic_term": "K*J2<=3 by symmetry and the y<=1/2 split: y^2*I(y,1-y)<=1 and y^2*I(1-y,y)<=2",
+        "second_derivative_linear_term": "K*(a-b)^2/z<=m*(a+b)/2<= (a+b)/4"
+      }
+    },
+    "pattern_histogram": {
+      "L2,4,8|R2,4,8": 4,
+      "L2,6,8|R2,4,8": 4,
+      "L2,6,8|R2,6,8": 4,
+      "L4,6,8|R2,4,8": 4,
+      "L4,6,8|R2,6,8": 4,
+      "L4,6,8|R4,6,8": 4
+    },
+    "required_terminal_jet_orders": [
+      0,
+      1,
+      2
+    ],
+    "safe_use": "only inside the exact y-Peano/split integral, or inside a separately proved joint weighted multiplier bound",
+    "terminal_entry": "D3 row/column (8,8)",
+    "unsafe_use": "multiplying B0/B1/B2 by K290's superseded pointwise global companion/cofactor ceiling"
+  }
+}

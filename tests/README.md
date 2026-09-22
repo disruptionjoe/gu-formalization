@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K303/K304 Peano determinant compiler and closure audit
+
+- `channel-swings/k303_order_seven_peano_determinant_compiler.py` compiles all
+  six K299 second-directional rules into determinant-preserving column
+  replacements across the 24 K288 occurrences; its independent probe rejects
+  six hostile column, coefficient, dependency and overclaim mutations.
+- `channel-swings/k304_order_seven_peano_norm_sufficiency_audit.py` attempts
+  the factorized K302 closure, proves its fixed-`x,q` terminal bound becomes
+  nonintegrable after exact `q` integration, and types the required joint
+  weighted functionals; its probe rejects seven
+  wrong-measure, premature-absolute-value, lost-split and gamma-overclaim
+  mutations.
+
 ## K301/K302 terminal split correction and weighted repair
 
 - `channel-swings/k301_order_seven_terminal_split_boundary_correction.py`

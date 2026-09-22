@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f15fb60506b317da5bdafede6cdbac03fa203884
+revision_basis: 2acd8fd5e7f3818982fc558a346fccffde0176c7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K303 compiles the complete K299 second-directional algebra without
+    expanding determinants into raw signed products. Across all six Peano
+    axes and all 24 K288 occurrences there are 6,480 determinant-preserving
+    column-replacement leaf families. Every first--first cross term keeps its
+    factor two, and the six signed entries in each of the four coherent groups
+    remain together until their common functional is assembled.
+
+    K304 attempts to close those compiled norms with K302's terminal
+    B0/B1/B2 bounds. A raw Hadamard enclosure for the pure terminal-entry y
+    leaf is rigorous at fixed x,q with constant 1/38263752, but exact q
+    integration produces nonintegrable radial-origin powers x^-6, x^-5 and
+    x^-4. The factorization has discarded the coupled determinant zeros.
+    K290's numerical multiplier ceiling is local and superseded, while the
+    remaining column-replacement leaves share the split variables. The exact
+    next construction is therefore 108 joint weighted pattern/axis/order templates
+    (432 coherent-group instantiations): eighteen y templates followed by
+    ninety gap-axis templates. K300's qualitative finiteness and the positive
+    route survive, but no numerical norm or K294 gamma join is yet licensed.
+
     K301 corrects the terminal native split boundary. Every one of the 24
     size-three companions contains the (8,8) entry with argument
     x*(y*(1-u3)+(1-y)*(1-z3)), which has no positive lower bound on the full
@@ -9433,15 +9452,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K299/K300 as the legal angular method theorem. The exact positive
-  Duffy rule has one barycentric node, six second-directional Peano terms and
-  a finite qualitative global remainder; K298's fourth-order obstruction is
-  not reused. Build the complete determinant-preserving interval norms for
-  those six terms, first over the angular/projective domain at fixed q and x,
-  then with explicit q and x scaling. Compose K294's gamma strata only after
-  that numerical bound closes. Analytic terminal subtraction is the fallback
-  if the six-norm enclosure is not viable. No exterior value, action-column
-  value, complete residual or native K152 interval follows yet.
+  Treat K303 as the complete determinant/product-rule compiler and K304 as
+  the current numerical-closure boundary. Do not factor K302's B0/B1/B2
+  marginals from multipliers that share y/u/z, and do not reuse K290's
+  superseded pointwise bank. Construct outward joint weighted
+  column-replacement functionals, beginning with the eighteen y-axis
+  pattern/order templates and retaining all six signed occurrences in each
+  coherent group; then extend the proved support-aware envelope to the ninety
+  gap-axis templates. Only complete numerical coefficients and q/projective
+  integrals may turn the candidate x^6/x^7/x^8 powers into a K294 gamma join.
+  K300's qualitative finiteness keeps the positive route selected; analytic
+  subtraction remains the fallback. No exterior value, action-column value,
+  complete residual or native K152 interval follows yet.
 
   Treat K279 as the structural representation theorem for all unresolved
   K179 orders seven through twelve. Build one shared determinant-valued
