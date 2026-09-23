@@ -1,0 +1,7537 @@
+{
+  "atlas_summary": {
+    "all_2400_ordered_entries_retained_on_every_axis": true,
+    "complete_hybrid_integrals_emitted": false,
+    "complete_partial_face_preconditioners_implemented": false,
+    "first_hybrid_reaches_all_16_column_coalescence_masks": true,
+    "first_hybrid_reaches_all_16_row_coalescence_masks": true,
+    "first_hybrid_reaches_all_49_kernel_zero_masks": true,
+    "reachable_face_counts_monotone_nonincreasing": true
+  },
+  "claim_ceiling": "Exact reachability atlas for all 49 K344 kernel-zero masks and all 16+16 determinant row/column coalescence masks in each of the eighteen K348 hybrid domains. It identifies fixed-node exclusions, active Peano ownership, moving dimensions, the unique all-eighteen-axis origin owner and exact face digests while retaining all 2,400 ordered entries per axis. Proper-face preconditioners, recursive coverage, numerical hybrid integrals, the complete order-eight remainder and integral, action column, R_ref, K152 interval, source/ledger move, canon, paper, public and physical posture remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "all_18_hybrid_domains_compiled": true,
+    "all_zero_radial_owner_identified": true,
+    "fixed_node_face_exclusions_exact": true,
+    "interior_reference_evaluator_released": true,
+    "next_exact_input": "evaluate all eighteen complete coherent second derivatives on a positive interior reference cell, then construct mask-native preconditioners for the reachable proper faces before recursive coverage",
+    "recursive_face_cover_complete": false
+  },
+  "direction": "observed_to_native",
+  "face_ownership_rule": {
+    "all_zero_owner": "only the first hybrid has no fixed preceding axes and can reach the all-eighteen-axis origin controlled by K349",
+    "ordered_orientation_preserved": true,
+    "proper_faces": "every later moving-domain origin and every reachable proper suffix/intervening face needs its own scaled preconditioner",
+    "reachable": "a K344 zero/coalescence mask is reachable in hybrid a iff it is disjoint from the a-1 preceding axes fixed at 1/256",
+    "unreachable": "any mask containing a fixed preceding axis is excluded exactly because that coordinate is positive"
+  },
+  "fixed_control": {
+    "K344_face_atlas_sha256": "sha256:2cb58a2ea7e0de1f4433c0c5da46922988e73e9ad5aa46d2373d4341e32420dd",
+    "K346_compiled_entry_interface_sha256": "sha256:c24375fb6f800f8822368e5f1ed55d8fe75a5cdeac25218b56983da298d38c4d",
+    "hybrid_terms": 18,
+    "native_axes": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5",
+      "v6",
+      "v7",
+      "v8",
+      "v9"
+    ],
+    "predecessor_manifests": [
+      "lab/process/k344-order-eight-gauss-laguerre-face-atlas.json",
+      "lab/process/k346-order-eight-axis-jet-compiler.json",
+      "lab/process/k348-order-eight-positive-peano-contract.json",
+      "lab/process/k349-order-eight-zero-safe-radial-contract.json"
+    ]
+  },
+  "hybrid_face_atlas": [
+    {
+      "all_eighteen_axis_origin_reachable": true,
+      "axis": "s1",
+      "determinant_primitive_entry_hits": 4200,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 283,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 584,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 9,
+            "usage_count": 375,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 492,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 396,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 12,
+            "usage_count": 348,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 420,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 14,
+            "usage_count": 360,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 16,
+            "usage_count": 372,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 16,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 16,
+            "usage_count": 396,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 18,
+            "usage_count": 612,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 441,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 417,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          }
+        ]
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 18,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 630,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [],
+      "projective_dimension": 17,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:d02156a3992109570313dfa82c8deab10699b81f415344a073e3099a6f75d50d",
+      "reachable_faces_with_active_peano_axis_zeroed": 10,
+      "reachable_kernel_zero_masks": 49,
+      "reachable_row_coalescence_masks": 16
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s2",
+      "determinant_primitive_entry_hits": 9744,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 283,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 584,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 396,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 420,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 14,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 16,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 16,
+            "usage_count": 396,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 441,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          }
+        ]
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 17,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 630,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1"
+      ],
+      "projective_dimension": 16,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:7ed8eb121bf97bc317872b4d6903932ad41478229b90c28026973e2130cba193",
+      "reachable_faces_with_active_peano_axis_zeroed": 7,
+      "reachable_kernel_zero_masks": 43,
+      "reachable_row_coalescence_masks": 12
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s3",
+      "determinant_primitive_entry_hits": 13888,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 283,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 584,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 7,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 396,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 12,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 420,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 14,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 16,
+            "usage_count": 396,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 441,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          }
+        ]
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 16,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1220,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2"
+      ],
+      "projective_dimension": 15,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:8294b1cdc67ca099ba0650e133185b9469281ad0f5c09e5abfb90f72bb49e4d0",
+      "reachable_faces_with_active_peano_axis_zeroed": 9,
+      "reachable_kernel_zero_masks": 39,
+      "reachable_row_coalescence_masks": 9
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s4",
+      "determinant_primitive_entry_hits": 19432,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 283,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 584,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 12,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 420,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 14,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 14,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 441,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          }
+        ]
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 15,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1220,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3"
+      ],
+      "projective_dimension": 14,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:38ced50696ce48bc0b2ace9c27561bc330ac32b61c01e909a6cf4adf8f93b1b2",
+      "reachable_faces_with_active_peano_axis_zeroed": 6,
+      "reachable_kernel_zero_masks": 33,
+      "reachable_row_coalescence_masks": 6
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s5",
+      "determinant_primitive_entry_hits": 23576,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 283,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 584,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 5,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 12,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 420,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 14,
+            "usage_count": 408,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 441,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          }
+        ]
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 14,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1810,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4"
+      ],
+      "projective_dimension": 13,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:2db86afc37230f88837e9c5f6772d5c31f311b6833bb1a373ccaee0428051c53",
+      "reachable_faces_with_active_peano_axis_zeroed": 8,
+      "reachable_kernel_zero_masks": 29,
+      "reachable_row_coalescence_masks": 4
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s6",
+      "determinant_primitive_entry_hits": 29120,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 283,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 584,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 12,
+            "usage_count": 744,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 12,
+            "usage_count": 420,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 441,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          }
+        ]
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 13,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1810,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5"
+      ],
+      "projective_dimension": 12,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:5b4d25327e722b8ea1898a1844653806fed371e8259211c233b40e183612fc17",
+      "reachable_faces_with_active_peano_axis_zeroed": 5,
+      "reachable_kernel_zero_masks": 23,
+      "reachable_row_coalescence_masks": 2
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s7",
+      "determinant_primitive_entry_hits": 33264,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 3,
+            "usage_count": 283,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 584,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 468,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 432,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 12,
+            "usage_count": 420,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 441,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          }
+        ]
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 12,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 2400,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6"
+      ],
+      "projective_dimension": 11,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:d95c2c6dded67c6ada44600ded1804e52d753102d6d09a438283ea2445fe3075",
+      "reachable_faces_with_active_peano_axis_zeroed": 7,
+      "reachable_kernel_zero_masks": 19,
+      "reachable_row_coalescence_masks": 1
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s8",
+      "determinant_primitive_entry_hits": 38760,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 732,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 11,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 2400,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7"
+      ],
+      "projective_dimension": 10,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:981112b12c68a1450d705fc4f577266b6ac5aca1bebb73ad2e5b79b17cc5dbeb",
+      "reachable_faces_with_active_peano_axis_zeroed": 4,
+      "reachable_kernel_zero_masks": 13,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "s9",
+      "determinant_primitive_entry_hits": 44256,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 792,
+            "zeroed_axes": [
+              "s9",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 536,
+            "zeroed_axes": [
+              "s9",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 552,
+            "zeroed_axes": [
+              "s9",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 568,
+            "zeroed_axes": [
+              "s9",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 10,
+            "usage_count": 540,
+            "zeroed_axes": [
+              "s9",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 10,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 2400,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8"
+      ],
+      "projective_dimension": 9,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:21fcf130fce7f57fe3bbccd4f91a013047fd0055be585ed00e525d2f871eafbc",
+      "reachable_faces_with_active_peano_axis_zeroed": 5,
+      "reachable_kernel_zero_masks": 9,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v1",
+      "determinant_primitive_entry_hits": 4200,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 318,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 306,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 294,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 8,
+            "usage_count": 465,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 9,
+            "usage_count": 303,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 9,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 630,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9"
+      ],
+      "projective_dimension": 8,
+      "reachable_column_coalescence_masks": 16,
+      "reachable_face_sha256": "sha256:cebdbfbaa27f448f06b4c03a12ddfd982db87dcaa8906e0c6f42c5266f1b3437",
+      "reachable_faces_with_active_peano_axis_zeroed": 5,
+      "reachable_kernel_zero_masks": 4,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v2",
+      "determinant_primitive_entry_hits": 9744,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 8,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 630,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1"
+      ],
+      "projective_dimension": 7,
+      "reachable_column_coalescence_masks": 12,
+      "reachable_face_sha256": "sha256:19fde67bcd3a6d0587b936eed528f86193931cfd6bc1f6f135fe69a966fd7c26",
+      "reachable_faces_with_active_peano_axis_zeroed": 3,
+      "reachable_kernel_zero_masks": 3,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v3",
+      "determinant_primitive_entry_hits": 13888,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 282,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 270,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 6,
+            "usage_count": 425,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 7,
+            "usage_count": 307,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 7,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1220,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2"
+      ],
+      "projective_dimension": 6,
+      "reachable_column_coalescence_masks": 9,
+      "reachable_face_sha256": "sha256:8e16b985e35783063899036906026fdf59776e54674e9e6f14b2c5cd272e7793",
+      "reachable_faces_with_active_peano_axis_zeroed": 4,
+      "reachable_kernel_zero_masks": 3,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v4",
+      "determinant_primitive_entry_hits": 19432,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 576,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 6,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1220,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3"
+      ],
+      "projective_dimension": 5,
+      "reachable_column_coalescence_masks": 6,
+      "reachable_face_sha256": "sha256:d6a733fa08a6523d866424125424f09e3e2f89ac62968da712e6166b1c89045a",
+      "reachable_faces_with_active_peano_axis_zeroed": 2,
+      "reachable_kernel_zero_masks": 2,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v5",
+      "determinant_primitive_entry_hits": 23576,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 258,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 4,
+            "usage_count": 409,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 5,
+            "usage_count": 331,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 5,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1810,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4"
+      ],
+      "projective_dimension": 4,
+      "reachable_column_coalescence_masks": 4,
+      "reachable_face_sha256": "sha256:dd34cfe4c4413e043d6a3d96d451471e4cd6c16e7df9a8b24e01ee60681b597f",
+      "reachable_faces_with_active_peano_axis_zeroed": 3,
+      "reachable_kernel_zero_masks": 2,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v6",
+      "determinant_primitive_entry_hits": 29120,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 564,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": false,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v6",
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 4,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 1810,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5"
+      ],
+      "projective_dimension": 3,
+      "reachable_column_coalescence_masks": 2,
+      "reachable_face_sha256": "sha256:ceb5886084e1fc0ce57fbf7d6c1fda62edefdd3c8d6a8d278004ad22ab6cccb9",
+      "reachable_faces_with_active_peano_axis_zeroed": 1,
+      "reachable_kernel_zero_masks": 1,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v7",
+      "determinant_primitive_entry_hits": 33264,
+      "faces": {
+        "column_coalescence": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 2,
+            "usage_count": 393,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          }
+        ],
+        "kernel_zero": [
+          {
+            "active_peano_axis_zeroed": true,
+            "codimension": 3,
+            "usage_count": 355,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9"
+            ]
+          }
+        ],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v7",
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 3,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 2400,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6"
+      ],
+      "projective_dimension": 2,
+      "reachable_column_coalescence_masks": 1,
+      "reachable_face_sha256": "sha256:d24f6f148205614ae57fcac30edc15caf096f892eecd364252e3e1b478360036",
+      "reachable_faces_with_active_peano_axis_zeroed": 2,
+      "reachable_kernel_zero_masks": 1,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v8",
+      "determinant_primitive_entry_hits": 38760,
+      "faces": {
+        "column_coalescence": [],
+        "kernel_zero": [],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v8",
+        "v9"
+      ],
+      "moving_dimension": 2,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 2400,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7"
+      ],
+      "projective_dimension": 1,
+      "reachable_column_coalescence_masks": 0,
+      "reachable_face_sha256": "sha256:3fee65e2a092f13a215c2d8689dd2fc4243fdccaa68ca9f271f3a3a1af607cbb",
+      "reachable_faces_with_active_peano_axis_zeroed": 0,
+      "reachable_kernel_zero_masks": 0,
+      "reachable_row_coalescence_masks": 0
+    },
+    {
+      "all_eighteen_axis_origin_reachable": false,
+      "axis": "v9",
+      "determinant_primitive_entry_hits": 44256,
+      "faces": {
+        "column_coalescence": [],
+        "kernel_zero": [],
+        "row_coalescence": []
+      },
+      "fixed_node_excludes_face_when": "the zeroed-axis mask intersects preceding_axes_fixed_at_node",
+      "moving_axes": [
+        "v9"
+      ],
+      "moving_dimension": 1,
+      "moving_domain_origin_reachable": true,
+      "old_position_kernel_hits": 2400,
+      "ordered_entries_touched": 2400,
+      "partial_face_contract": "apply the exact mask preconditioner before interval substitution; the K349 all-zero radial degree alone is insufficient when a proper suffix or intervening mask vanishes",
+      "preceding_axes_fixed_at_node": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8"
+      ],
+      "projective_dimension": 0,
+      "reachable_column_coalescence_masks": 0,
+      "reachable_face_sha256": "sha256:3fee65e2a092f13a215c2d8689dd2fc4243fdccaa68ca9f271f3a3a1af607cbb",
+      "reachable_faces_with_active_peano_axis_zeroed": 0,
+      "reachable_kernel_zero_masks": 0,
+      "reachable_row_coalescence_masks": 0
+    }
+  ],
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_ordered_entries_retained": true,
+    "complete_order_eight_remainder_not_overclaimed": true,
+    "eighteen_hybrid_rows_present": true,
+    "face_counts_monotone": true,
+    "first_hybrid_replays_complete_K344_atlas": true,
+    "moving_dimensions_descend_18_to_1": true,
+    "native_K152_interval_not_emitted": true,
+    "only_first_hybrid_owns_all_eighteen_origin": true
+  },
+  "result_id": "K350-ORDER-EIGHT-HYBRID-FACE-ATLAS",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

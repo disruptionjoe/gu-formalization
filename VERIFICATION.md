@@ -7,6 +7,30 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K349--K351 order-eight zero-safe atlas foundation (2026-09-22)
+
+K349 proves the all-eighteen-axis corner is zero-safe after native scaling.
+Exact rational envelopes for `w^(m+1)*(2*K1)^(m)` through `m=2` have zero
+limits `2,2,4`, and `K_256(t)<=t^2/2` globally. Ten raw kernel factors, two
+derivative powers, the degree-seventeen radial Jacobian and the Peano double
+zero leave degree seven, exactly replaying K279's order-eight origin power.
+
+K350 compiles which K344 faces survive each K348 fixed-node prefix. The first
+hybrid reaches all `49` kernel-zero, `16` row-coalescence and `16` column-
+coalescence masks; moving dimensions descend from eighteen to one and mask
+counts are monotone. All `2,400` ordered entries remain explicit on every
+axis. K351 evaluates all `43,200` ordered entry-axis jets in complete coherent
+groups on one positive barycentric radial reference cell and three all-zero
+rays. Every reference argument is positive, every complete interval is finite,
+K347's node control replays, and an independent centered difference confirms
+the complete `s1` second derivative.
+
+K349/K350/K351 probes pass `10/10`, `10/10`, and `11/11` controls and each
+rejects `11/11` hostile mutations. These results prove an atlas foundation,
+not the proper-face preconditioners, recursive projective cover, analytic tail
+sum or any of the eighteen numerical Peano integrals. The complete order-eight
+remainder and integral therefore remain open.
+
 ## K346--K348 order-eight axis jets and Peano contract (2026-09-22)
 
 K346 compiles the exact raw-time incidence of every old-position and

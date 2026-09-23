@@ -20,6 +20,21 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K349--K351 ORDER-EIGHT ZERO-SAFE ATLAS FOUNDATION.** K349
+> derives exact zero-inclusive Bessel derivative envelopes through order two,
+> proves `K_256(t)<=t^2/2`, and closes the first hybrid's all-zero radial
+> corner at degree seven. K350 compiles exact reachability of all `49` kernel-
+> zero and `16+16` determinant-coalescence masks separately in each of the
+> eighteen K348 hybrid domains while retaining all `2,400` ordered entries.
+> K351 executes all `43,200` ordered entry-axis evaluations on a positive
+> barycentric radial reference cell and three scaled all-zero rays; all
+> complete coherent intervals are finite, and an independent centered
+> difference confirms the full `s1` second jet. The reference bank is not a
+> projective cover. Next construct mask-native proper-face preconditioners,
+> recursive positive-interior cells and analytic radial tails, then integrate
+> all eighteen K348 kernels. Do not infer a global remainder, full order-eight
+> integral, action column, K152, source, ledger, canon or physical result.
+
 > **2026-09-22 K346--K348 ORDER-EIGHT AXIS JETS AND PEANO CONTRACT.** K346
 > maps every primitive Bessel argument onto all eighteen raw-time axes and
 > rejects upper-triangle doubling for derivatives: all `2,400` ordered terms

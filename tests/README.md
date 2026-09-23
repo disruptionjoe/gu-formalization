@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K349--K351 order-eight zero-safe atlas foundation
+
+- `channel-swings/k349_order_eight_zero_safe_radial_contract.py` derives exact
+  scaled Bessel bounds through order two, the global quadratic Peano majorant
+  and the degree-seven all-zero radial ledger; its probe independently checks
+  Arb controls and rejects eleven hostile mutations.
+- `channel-swings/k350_order_eight_hybrid_face_atlas.py` compiles exact K344
+  zero/coalescence-face reachability for every K348 fixed-node prefix while
+  retaining all ordered orientations; its probe pins dimensions, counts,
+  digests and scope.
+- `channel-swings/k351_order_eight_interior_origin_control.py` executes every
+  complete coherent pure-second evaluator on positive hybrid reference cells
+  and scaled all-zero rays; its probe rebuilds the bank and independently
+  checks the full `s1` second derivative by centered differences.
+
 ## K346--K348 order-eight axis jets and Peano contract
 
 - `channel-swings/k346_order_eight_axis_jet_compiler.py` compiles all 2,400
