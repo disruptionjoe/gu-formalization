@@ -1,0 +1,348 @@
+{
+  "claim_ceiling": "Exact rational global envelopes for w^(m+1)*abs((2*K1)^(m)(w)) through derivative order eight. K365 controls 0<=w<=1; an explicit K_(19/2) half-integer comparator controls w>=1, and 27 positive 180-digit Arb checks are contained. This closes the primitive compact-plus-tail dependency, not a determinant-level whole-radial face majorant, recursively disjoint K363 owner cover, complete K348 hybrid, order-eight remainder/integral, action column, R_ref, K152, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-23",
+  "decision": {
+    "compact_and_tail_domains_joined": true,
+    "complete_hybrid_integrals_emitted": false,
+    "determinant_level_whole_radial_face_majorants_complete": false,
+    "global_zero_safe_scaled_derivative_bank_complete_through_order_eight": true,
+    "next_exact_input": "recompute K367 determinant coefficients with these global primitive bounds and integrate the K353 face-normal powers under K348 weights"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "compact_join_argument": "1",
+    "exact_half_integer_coefficients": [
+      "1",
+      "45",
+      "990",
+      "13860",
+      "135135",
+      "945945",
+      "4729725",
+      "16216200",
+      "34459425",
+      "34459425"
+    ],
+    "half_integer_comparator": "K_(19/2)",
+    "half_integer_polynomial_degree": 9,
+    "maximum_derivative_order": 8,
+    "positive_Arb_controls": 27,
+    "predecessor_manifests": [
+      "lab/process/k365-order-eight-confluent-bessel-envelope-bank.json"
+    ],
+    "threads": 1
+  },
+  "global_scaled_bessel_bank": {
+    "definition": "Phi_m(w)=w^(m+1)*abs((2*K1)^(m)(w))",
+    "global_domain": "0<=w<infinity",
+    "orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "rows": [
+      {
+        "compact_0_to_1_upper": "2",
+        "global_scaled_upper": "363843004",
+        "half_integer_tail_upper": "363843004",
+        "order": 0,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "3",
+        "global_scaled_upper": "363843016",
+        "half_integer_tail_upper": "363843016",
+        "order": 1,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "11/2",
+        "global_scaled_upper": "363843648",
+        "half_integer_tail_upper": "363843648",
+        "order": 2,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "59/4",
+        "global_scaled_upper": "363860584",
+        "half_integer_tail_upper": "363860584",
+        "order": 3,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "217/4",
+        "global_scaled_upper": "364170680",
+        "half_integer_tail_upper": "364170680",
+        "order": 4,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "521/2",
+        "global_scaled_upper": "368664804",
+        "half_integer_tail_upper": "368664804",
+        "order": 5,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "48971/32",
+        "global_scaled_upper": "427448692",
+        "half_integer_tail_upper": "427448692",
+        "order": 6,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "677331/64",
+        "global_scaled_upper": "1230110464",
+        "half_integer_tail_upper": "1230110464",
+        "order": 7,
+        "selected_branch": "half_integer_tail"
+      },
+      {
+        "compact_0_to_1_upper": "5375631/64",
+        "global_scaled_upper": "14121199836",
+        "half_integer_tail_upper": "14121199836",
+        "order": 8,
+        "selected_branch": "half_integer_tail"
+      }
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "positive_controls": [
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "363843004",
+      "order": 0,
+      "scaled_interval": "[1.2038144603944691494750800030712346785231737799362129120355359183371071658924756803377274139165164307092881995662801018169385856269865892113114539239924584084341880788291304797976 +/- 4.38e-179]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "363843004",
+      "order": 0,
+      "scaled_interval": "[0.09986799109814745176307343984644854787073267990900676633366064465384744529137573624293163043221420855892051198566151281537445390539389302713859891990497951264778100550703796243 +/- 9.81e-178]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "363843004",
+      "order": 0,
+      "scaled_interval": "[1.154290277609209500186397986576304067979418534591161614330978717607934623014783897256373686850138169333752157604242470941967086701544152633526806486448934909765827277e-6 +/- 8.47e-172]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "363843016",
+      "order": 1,
+      "scaled_interval": "[2.04586333687588581614633476149645275079561327638953385663347502124753252216867935852197769301124703973115741892703099542487399684500929447331274830928768885686986801490400123651492 +/- 9.97e-180]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "363843016",
+      "order": 1,
+      "scaled_interval": "[0.45697762584544422839491971120112020307102144434018566355782901384710118015599996509478978852856800344767073882424723420791385901083847340531864738245690722692951433164743753088 +/- 3.60e-177]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "363843016",
+      "order": 1,
+      "scaled_interval": "[1.90712779969640840527393811930510983562520711523028569023769351929138123467489479038124669392442004157509738200835737209257290799105788760046336109053971882744530984e-5 +/- 1.37e-170]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "363843648",
+      "order": 2,
+      "scaled_interval": "[4.4534922576648241150964947676389221078419608362619596807045468579217468539536307191974325208442799011497338180595911990587511680989824728959356561572726056737382441725622621961102 +/- 2.34e-179]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "363843648",
+      "order": 2,
+      "scaled_interval": "[2.1547334745139509083671681885907455168734770027933006912300599729625077501093874812246275058762095489493194425804929520692795754025346548666748290208415589419417914252670828922 +/- 1.69e-176]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "363843648",
+      "order": 2,
+      "scaled_interval": "[0.000315723879342530925600643663743161243826962634542231391785438465618153010461548409498700504459729709934525278324373888753011270362207426102821022877922773460084270708 +/- 6.26e-169]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "363860584",
+      "order": 3,
+      "scaled_interval": "[12.9987111890814198624856590582707497172751482253029870746760437583385587522446201554388204277110538817617824739732443889672503298879835347384968089331205890612162243749325268652502 +/- 4.59e-179]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "363860584",
+      "order": 3,
+      "scaled_interval": "[10.5800667219282419230018698699038062678933283607346561679383035115180238835001383254167069602548620281252337653882661934424779454084149622166876797448758480519686114059350343729 +/- 6.19e-176]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "363860584",
+      "order": 3,
+      "scaled_interval": "[0.00523842218311448303020777680752349722787595582890555079582734970282513246516880653647682972215843369353694402822114439369373330715253986441728354810448814590471270175 +/- 3.37e-168]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "364170680",
+      "order": 4,
+      "scaled_interval": "[50.310747003362846116600126716232562724555713908305306409508296827533384296426073265386781152654754309003391457171475768653130497115888728429984646961891895347993537627580365947566 +/- 4.05e-178]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "364170680",
+      "order": 4,
+      "scaled_interval": "[54.861076439354859262926024359413383594139916159302523880658380948811362888262754676710958085667536730201850679277084764898519755553967603278252908955036788386326420508936462284 +/- 5.34e-175]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "364170680",
+      "order": 4,
+      "scaled_interval": "[0.0871322603424774325220920403920800237936046671134648453793561597813898926565284269874466734209849945980894994701001084778748585079639359632197574359908375488056441288 +/- 3.78e-167]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "368664804",
+      "order": 5,
+      "scaled_interval": "[246.738477175236353985100313568877874908685874421781680399399340464318492818560463605582996107607705822179804487592258435997898143071497285304677419113489643106230935822585307818641 +/- 6.70e-178]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "368664804",
+      "order": 5,
+      "scaled_interval": "[305.683507378733308947161275645720105177090306389495873851580922658744700570315187791845941416338064968256549317446133987138353078542259500391078363359337738478855233822549556288 +/- 9.36e-175]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "368664804",
+      "order": 5,
+      "scaled_interval": "[1.453396128142943150528591953013418295625458289995900285440293334037194691653231036948632459410720775562951283570954645091886478319969480777634648067710233072508379086 +/- 6.58e-166]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "427448692",
+      "order": 6,
+      "scaled_interval": "[1465.74805410937387071477371283814606359029521931248045343252412082175154744656575412169065565974571983327330601285880443980426770610495476656556511697722680867929803068842957853316 +/- 6.22e-177]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "427448692",
+      "order": 6,
+      "scaled_interval": "[1865.47292954781824804963445403263026713731422802704313176495535021200809895408413554511442104832001524275020554204886468580819892744384167746350234384654720089686521860347798445 +/- 6.24e-174]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "427448692",
+      "order": 6,
+      "scaled_interval": "[24.3210550221453433501611597448229194132343210600232971110979292886428111145745911637878011078736881427613312096482908169593040148033334647959428504461709841712629133 +/- 5.77e-164]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "1230110464",
+      "order": 7,
+      "scaled_interval": "[10205.1103739206763722889155431385049436934181261593130159700184052513790191659643028650968988098992188010725978345750349027089891031108482806837253561827259317733559248761101618654 +/- 7.10e-176]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "1230110464",
+      "order": 7,
+      "scaled_interval": "[12682.58328671639419026112325005624872775721254712819361143677764293808106453040750452108403377556562009197856266288005916461314521560215383378949096099170253685240390252723841242 +/- 7.32e-174]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "1230110464",
+      "order": 7,
+      "scaled_interval": "[408.481642073565513632514284142960603025780800972831550347709537109806643744821619752646426989627383840779375875628658240222283885302915693140522436775090080795516057 +/- 1.52e-163]"
+    },
+    {
+      "argument": "1",
+      "contained": true,
+      "global_rational_upper": "14121199836",
+      "order": 8,
+      "scaled_interval": "[81379.461705248130371130395862964040488776839107634512818396875979582554251044356931803384873385685529486595457276313274609490893529491260014902626032644606761122528878939213718726 +/- 8.40e-175]"
+    },
+    {
+      "argument": "4",
+      "contained": true,
+      "global_rational_upper": "14121199836",
+      "order": 8,
+      "scaled_interval": "[97071.6803400781148888010743926514223164206137098347011283564434091173716356333051722037575683477819281750982664218553017303407997671856334659311884932325487995372885297480047463 +/- 4.45e-173]"
+    },
+    {
+      "argument": "16",
+      "contained": true,
+      "global_rational_upper": "14121199836",
+      "order": 8,
+      "scaled_interval": "[6889.55736062557788095413438801830660823341134347596315171374054017635990784707827773889913226867160546432709651584099105869952972269138297936425987108375492827241893 +/- 6.52e-162]"
+    }
+  ],
+  "release_test": {
+    "all_positive_controls_contained": true,
+    "all_tail_bounds_positive": true,
+    "complete_order_eight_remainder_not_overclaimed": true,
+    "determinant_face_majorants_not_overclaimed": true,
+    "exactly_27_positive_controls": true,
+    "global_upper_dominates_both_branches": true,
+    "half_integer_comparator_is_19_over_2": true,
+    "native_K152_interval_not_emitted": true,
+    "orders_zero_through_eight_present": true,
+    "raw_zero_evaluation_absent": true
+  },
+  "result_id": "K368-ORDER-EIGHT-GLOBAL-SCALED-BESSEL-ENVELOPE",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  },
+  "tail_contract": {
+    "all_global_bounds_exact_rational": true,
+    "compact_domain": "0<=w<=1",
+    "comparator_step": "all integer orders through nine are no larger than K_(19/2), so every derivative recurrence is at most 2*K_(19/2)",
+    "derivative_recurrence": "abs((2*K1)^(m)(w)) <= 2^(1-m) sum_k binom(m,k) K_|1-m+2k|(w)",
+    "half_integer_formula": "K_(n+1/2)(w)=sqrt(pi/(2w))*exp(-w)*sum_(k=0)^n (n+k)!/(k!(n-k)!(2w)^k)",
+    "order_monotonicity": "K_nu(w) is increasing in nu>=0 by its positive cosh(nu*t) integral representation",
+    "rationalization": "sqrt(pi/2)<2 and w^(m+1/2-k) exp(-w) <= p^p for p=max(1,m+1-k) on w>=1",
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "tail_domain": "w>=1"
+  }
+}

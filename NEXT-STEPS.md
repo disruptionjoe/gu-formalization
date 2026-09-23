@@ -20,6 +20,21 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K367--K369 ORDER-EIGHT GLOBAL FACE MAJORANTS.** K367 turns
+> K366's exponent interface into `2,633` exact rational rank-compatible
+> confluent determinant envelopes through active derivative order two. Every
+> determinant permutation keeps its own outer/inner exponent pair, all twelve
+> scalar obstructions are covered, and the largest primitive order used is
+> eight. K368 joins K365's compact bank to an explicit `K_(19/2)` comparator,
+> producing global scaled `2*K1` derivative envelopes through order eight with
+> `27` positive 180-digit Arb controls. K369 recomputes the determinant bank
+> with those global primitives, retains all `2,400` ordered descriptors and
+> `23` coherent groups, and emits finite exact-rational whole-radial majorants
+> for all `517` K353 face programs. The face rows overlap and must not be
+> summed. Next stitch them to K363's unique owners and a recursive positive-
+> interior cover, then sum all eighteen K348 hybrids. No complete hybrid,
+> order-eight remainder or K345 join follows yet.
+
 > **2026-09-23 K364--K366 ORDER-EIGHT MULTISCALE FACE TRANSITION.** K364
 > exhausts all `146` comparable K352 singular-template pairs. Twelve admit no
 > coordinatewise monotone optimal scalar dual even after integral-gauge

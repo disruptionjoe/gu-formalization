@@ -7,6 +7,33 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K367--K369 order-eight global face majorants (2026-09-23)
+
+K367 combines K352, K365 and K366 into `2,633` exact rational determinant
+envelopes, one for every rank-compatible comparable singular-template pair
+and confluent template through active derivative orders zero, one and two.
+Confluent factorials precede enclosure, every permutation retains its coupled
+outer/inner exponents, all twelve scalar-nesting obstructions are covered, and
+the maximum primitive derivative order is eight. The compact contract covers
+`0<=tau<=rho/64`, `0<=rho<=1/64` with cumulative arguments no larger than one.
+K367 passes `9/9` controls and rejects `10/10` hostile mutations.
+
+K368 supplies the independent positive-argument continuation. The derivative
+recurrence through order eight is bounded by `2*K_(19/2)`, whose explicit
+half-integer polynomial gives exact rational scaled envelopes on `w>=1`.
+Joining those to K365 on `0<=w<=1` yields a global bank through order eight;
+all `27` positive 180-digit Arb controls at `w=1,4,16` are contained. K368
+passes `9/9` controls and rejects `10/10` hostile mutations.
+
+K369 recomputes all K367 determinants with the global K368 primitives, then
+composes the two old kernels and every species determinant for all `2,400`
+ordered descriptors while retaining `23` coherent groups. K353's exact
+nonnegative radial powers and K348's Laguerre/Peano measures yield finite exact
+rational whole-radial bounds for all `517` face programs. These rows overlap:
+they are not a recursive K363 owner cover and cannot be summed as complete
+hybrid integrals. K369 passes `10/10` controls and rejects `11/11` hostile
+mutations.
+
 ## K364--K366 order-eight multiscale face transition (2026-09-23)
 
 K364 exhausts all `146` same-rank entrywise-comparable pairs among K352's
