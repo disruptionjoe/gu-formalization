@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "packet_id": "RESIDUAL-VECTOR-KINETIC-REALIZATION-GATE",
+  "date": "2026-09-23",
+  "status": "working_draft_verified",
+  "target_claim": "Test the first exact rank/radical subquestion inside supplied premise P8 for the frozen declared-content residual abelian direction.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "source_boundary": {
+    "declared_content_parent": "lab/process/declared-content-extra-vector-obstruction-package.json",
+    "premise": "P8",
+    "packet_horn_row": "LT-SM1a",
+    "ledger_row": "RA-G4",
+    "source_claim_effect": "none",
+    "physics_ledger_effect": "none"
+  },
+  "exact_root_trace": {
+    "root_system": "D5",
+    "root_count": 40,
+    "root_length_squared": 2,
+    "cartan_tensor": [
+      [
+        "16",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "16",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "16",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "16",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "16"
+      ]
+    ],
+    "tensor_identity": "16*I_5"
+  },
+  "declared_cartan_plane": {
+    "basis_order": [
+      "Y",
+      "B-L"
+    ],
+    "Y": [
+      "-1/6",
+      "-1/6",
+      "-1/6",
+      "1/4",
+      "1/4"
+    ],
+    "B-L": [
+      "-1/3",
+      "-1/3",
+      "-1/3",
+      "0",
+      "0"
+    ],
+    "root_trace_gram": [
+      [
+        "10/3",
+        "8/3"
+      ],
+      [
+        "8/3",
+        "16/3"
+      ]
+    ],
+    "gram_determinant": "32/3",
+    "gram_rank": 2,
+    "B-L_projection_on_Y": "4/5",
+    "Y_orthogonal_residual_X": [
+      "-1/5",
+      "-1/5",
+      "-1/5",
+      "-1/5",
+      "-1/5"
+    ],
+    "pairing_X_Y": "0",
+    "pairing_X_X": "16/5"
+  },
+  "horn_disposition": {
+    "packet_fundamental_zeta_F_1": {
+      "result": "candidate_compact_cartan_form_is_nondegenerate_on_Y_plus_residual",
+      "radical_escape_on_this_form": false,
+      "p8_derived": false,
+      "ceiling": "The packet writes a Yang-Mills term, but this root-trace calculation does not identify its observed action-owned form, physical quotient or Green pairing."
+    },
+    "packet_induced_zeta_F_0": {
+      "result": "no_regulator_or_source_owned_induced_form_is_supplied",
+      "radical_escape_tested": false,
+      "p8_derived": false,
+      "ceiling": "The exact D5 Gram cannot stand in for the missing induced kinetic form."
+    },
+    "source_two_layer_reading": {
+      "result": "outside_the_packet_binary_until_a_typed_action_bridge_is_built",
+      "p8_derived": false
+    }
+  },
+  "remaining_p8_owners": [
+    "action-owned gauge kinetic bilinear on the actual candidate branch",
+    "typed observation descent for the residual compact direction",
+    "gauge/constraint quotient and closed physical domain",
+    "real or Krein Green pairing and nondegeneracy on the quotient",
+    "normalization/branching only after the preceding owners exist"
+  ],
+  "decision": {
+    "first_rank_radical_gate_on_fundamental_candidate": "passes",
+    "declared_content_residual_direction_theorem_changed": false,
+    "conditional_physical_vector_upgrade_allowed": false,
+    "premise_P8_status": "supplied_not_derived",
+    "next_cheapest_test": "match the existing corrected observation projection to a named action-owned constraint/gauge image and Green pairing; do not build a full action merely to repeat the algebraic Gram test"
+  },
+  "release_test": {
+    "forty_unique_D5_roots": true,
+    "root_trace_tensor_is_16I": true,
+    "gram_is_full_rank": true,
+    "orthogonal_residual_is_nonzero": true,
+    "fundamental_and_induced_horns_separated": true,
+    "source_two_layer_reading_not_collapsed": true,
+    "P8_not_overpromoted": true,
+    "source_and_ledger_unchanged": true,
+    "no_physical_or_public_effect": true
+  }
+}

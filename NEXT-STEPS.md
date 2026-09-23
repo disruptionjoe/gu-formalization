@@ -20,6 +20,18 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 RESIDUAL-VECTOR P8 FIRST GATE.** Exact enumeration of all forty
+> D5 roots gives the compact Cartan trace form `16 I_5`. On the declared
+> `(Y,B-L)` plane its Gram determinant is `32/3`; the hypercharge-orthogonal
+> residual `X=(-1/5,...,-1/5)` has norm `16/5`. The simple radical/mixing
+> escape therefore fails on the packet's fundamental-Yang-Mills candidate.
+> P8 is still supplied rather than derived: next match the existing corrected
+> observation projection to a named action-owned gauge/constraint image,
+> closed quotient/domain and real/Krein Green pairing. The induced horn and
+> source two-layer reading remain separate. No source, ledger, canon, paper,
+> public or physical claim moves; K391 remains the independent order-nine
+> numerical continuation.
+
 > **2026-09-23 K388--K390 ORDER-NINE FACE PRECONDITIONER PROGRAMS.**
 > K388 reduces all `12,320,960` determinant-matrix face uses to `60` exact
 > singular and `75` confluent templates across `4,480` descriptors and `695`

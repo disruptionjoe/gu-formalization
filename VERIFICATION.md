@@ -7,6 +7,24 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Residual-vector kinetic-realization first gate (2026-09-23)
+
+The executable enumerates the forty roots `±e_i±e_j` of D5 and independently
+recovers the exact Cartan trace tensor `16 I_5`. On the declared basis `(Y,
+B-L)` the Gram matrix is `[[10/3,8/3],[8/3,16/3]]`, with determinant `32/3`.
+The hypercharge-orthogonal residual
+`X=(B-L)-(4/5)Y=(-1/5,-1/5,-1/5,-1/5,-1/5)` has exactly `<X,Y>=0` and
+`<X,X>=16/5`. The direct probe passes `10/10` controls and rejects `12/12`
+hostile mutations.
+
+This proves only that the simple rank/radical escape fails for the compact D5
+root-trace form on the packet's `zeta_F=1` candidate. It does not identify that
+form with an observed source-owned action, transport it to the induced horn or
+source two-layer reading, descend it through observation and gauge constraints,
+or construct a closed physical domain and Green pairing. P8 remains
+`supplied_not_derived`; source, ledger, canon, paper, public and physical status
+are unchanged.
+
 ## K388--K390 order-nine face preconditioner programs (2026-09-23)
 
 K388 replays all `4,480` ordered descriptors on all `695` K386-reachable face

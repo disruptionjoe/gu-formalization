@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2c2a90711753fca96bcbfa608b4482e40e17b985
+revision_basis: bb8880c83a88d645bb1ed840167dc08629dbbf9a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The residual-vector P8 first gate independently enumerates all forty D5
+    roots and recovers the compact Cartan trace form `16 I_5`. On the declared
+    `(Y,B-L)` plane the exact Gram is `[[10/3,8/3],[8/3,16/3]]`, with
+    determinant `32/3`; the hypercharge-orthogonal residual is
+    `X=(-1/5,...,-1/5)` with norm `16/5`. Thus the simple rank/radical escape
+    fails on the packet's fundamental-Yang-Mills candidate. P8 remains supplied,
+    not derived: the observed action-owned form, observation descent,
+    gauge/constraint quotient and closed domain, and real/Krein Green pairing
+    remain absent. The induced horn and source two-layer reading remain
+    separately untested; no source, ledger, canon, paper, public or physical
+    claim moves.
+
     K310 compactifies the simultaneous two-radius origin before interval
     enclosure. With `r=x+b` and `s=x/(x+b)`, the explicit
     `x^3*b^29 dx db` weight becomes
