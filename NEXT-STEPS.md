@@ -20,6 +20,22 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K388--K390 ORDER-NINE FACE PRECONDITIONER PROGRAMS.**
+> K388 reduces all `12,320,960` determinant-matrix face uses to `60` exact
+> singular and `75` confluent templates across `4,480` descriptors and `695`
+> reachable face instances. K389 replays `3,113,600` descriptor-face
+> second-derivative product rules and proves every reachable face locally
+> integrable, with global minimum face-normal power zero and the all-zero
+> `s1` face at degree eight. K390 compiles all `695` executable face programs;
+> eighteen hybrids have reachable faces while `v9` and `v10` keep positive-
+> interior fallbacks. Next execute complete coherent Arb approach controls on
+> the hardest compiled face in every hybrid, then implement row/column-scaled
+> positive-width cells, recursive positive-interior coverage and analytic
+> tails before integrating all twenty K384 kernels. No numerical face
+> interval, global cover, complete order-nine remainder/integral, action
+> column, `R_ref`, K152, source/ledger, canon, paper, public or physical claim
+> follows.
+
 > **2026-09-23 K383--K387 ORDER-NINE NODE JETS AND GLOBAL ARCHITECTURE.**
 > K383 evaluates complete coherent value/first/second jets on all twenty raw
 > time axes, covering `89,600` ordered axis-entry uses at 180 Arb digits while
@@ -11163,11 +11179,16 @@ strictly positive `(2*pi)^-11` normalized node interval
 `[5.623550454176137e-41, 5.623550454176139e-41]`. K382 retains both ordered
 orientations in the complete twenty-axis differentiation interface.
 
-K383--K387 now close the complete node-jet bank, exact tensor Peano identity,
+K383--K387 close the complete node-jet bank, exact tensor Peano identity,
 all-zero radial contract, per-hybrid face reachability and complete-coherent
-positive-interior/all-zero-ray reference controls. Next construct mask-native
-proper-face preconditioners, recursive positive-interior cells and analytic
-radial tails, then integrate all twenty K384 kernels. Do not promote K387's
-reference cells to a global cover, promote the positive node to an integral
-sign, reuse order-eight masks or normalization, or begin the action-column/
-`R_ref` composition before the order-specific global remainder closes.
+positive-interior/all-zero-ray reference controls. K388--K390 now close the
+finite singular/confluent preconditioner bank, local face-normal integrability
+and executable approach-program map for all 695 reachable faces. Next execute
+complete coherent Arb approach controls on the hardest compiled face in every
+hybrid, then build row/column-scaled positive-width interval cells, recursive
+positive-interior coverage and analytic tails before integrating all twenty
+K384 kernels. Do not promote K387's reference cells or K390's approach
+programs to numerical face intervals or a global cover, promote the positive
+node to an integral sign, reuse order-eight masks or normalization, or begin
+the action-column/`R_ref` composition before the order-specific global
+remainder closes.

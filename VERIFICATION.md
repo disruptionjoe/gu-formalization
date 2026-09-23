@@ -7,6 +7,33 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K388--K390 order-nine face preconditioner programs (2026-09-23)
+
+K388 replays all `4,480` ordered descriptors on all `695` K386-reachable face
+instances. Its `12,320,960` determinant-matrix uses reduce to `60` exact
+singular assignment-dual templates and `75` exact confluent templates. Ranks
+one through five occur with histogram `{1: 2, 2: 5, 3: 10, 4: 17, 5: 26}`;
+every primal/dual equality holds and the maximum row or column divided-
+difference order is four. K388 passes `11/11` controls and rejects `12/12`
+hostile mutations.
+
+K389 replays the complete value/first/second product rule across all
+`3,113,600` ordered descriptor-face pairs using K385's zero-safe primitive
+jets and K388's determinant scalings. All `695` faces are locally integrable,
+the global minimum face-normal power is zero, and the all-twenty-axis `s1`
+face has singular powers `[11, 12, 13]` with minimum second-derivative power
+eight. K389 passes `10/10` controls and rejects `11/11` hostile mutations.
+
+K390 resolves every face to an executable approach program: all `695` faces,
+`3,113,600` descriptor-face programs and `12,320,960` matrix uses resolve to
+the K388/K389 banks at three positive normal levels. Eighteen hybrids have
+reachable faces; `v9` and `v10` have positive-interior fallbacks. K390 passes
+`11/11` controls and rejects `12/12` hostile mutations. These programs are not
+preconditioned face intervals or a recursive cover. Analytic tails, numerical
+Peano integrals, the complete order-nine remainder/integral and all downstream
+action-column, `R_ref`, K152, source/ledger, canon, paper, public and physical
+claims remain open.
+
 ## K383--K387 order-nine node jets and global architecture (2026-09-23)
 
 K383 evaluates complete coherent value, first and second raw-time jets at the

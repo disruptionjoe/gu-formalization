@@ -1,0 +1,4702 @@
+{
+  "claim_ceiling": "Exact finite compiler for every determinant zero and coalescence pattern induced by K386's reachable proper faces across all 4,480 ordered order-nine descriptors. The finite singular rank-one-through-five templates carry primal assignment witnesses and equal row/column dual scaling powers; the finite confluent templates carry exact repeated-row/column clusters, Vandermonde orders and divided-difference orders. Interval determinants can therefore be assembled after mask-native singular and confluent preconditioning without raw zero Bessel calls or permutationwise numerical absolute values. Complete face-normal product-rule integrability, recursive numerical coverage, tails, twenty Peano integrals, the complete order-nine remainder/integral, action column, R_ref, K152, source/ledger move, canon, paper, public and physical posture remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "confluent_divided_difference_contract": {
+    "maximum_column_divided_difference_order": 4,
+    "maximum_row_divided_difference_order": 4,
+    "rule": "Rows coalesce exactly when every intervening s-axis vanishes, and columns likewise for v. Replace each repeated-node cluster by the corresponding confluent divided-difference rows or columns before interval substitution.",
+    "template_bank_sha256": "sha256:36757bd804d9d9d7923bd313f1674e2e773ebc8a6af633ad9fb3483430da9116",
+    "template_count": 75,
+    "templates": [
+      {
+        "column_cluster_labels": [
+          0
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": false,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 1,
+        "row_cluster_labels": [
+          0
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 2,
+        "row_cluster_labels": [
+          0,
+          0
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 2,
+        "row_cluster_labels": [
+          0,
+          0
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 2,
+        "row_cluster_labels": [
+          0,
+          1
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": false,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 2,
+        "row_cluster_labels": [
+          0,
+          1
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          0,
+          1
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          1
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": false,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 3,
+        "row_cluster_labels": [
+          0,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": false,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 4,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 10,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 4,
+        "maximum_row_divided_difference_order": 4,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 10
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 4,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 10
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 4,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 10
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 4,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 10
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 4,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "row_vandermonde_order": 10
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 10,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 4,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 3,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "row_vandermonde_order": 6
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          2
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          1,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 10,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 4,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 2,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "row_vandermonde_order": 3
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 10,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 4,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 1,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "row_vandermonde_order": 1
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "column_vandermonde_order": 10,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 4,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          0,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          0,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "column_vandermonde_order": 6,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 3,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          1,
+          2
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          1,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          2
+        ],
+        "column_vandermonde_order": 3,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 2,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          2,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          3
+        ],
+        "column_vandermonde_order": 1,
+        "confluent_required": true,
+        "maximum_column_divided_difference_order": 1,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      },
+      {
+        "column_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "column_vandermonde_order": 0,
+        "confluent_required": false,
+        "maximum_column_divided_difference_order": 0,
+        "maximum_row_divided_difference_order": 0,
+        "rank": 5,
+        "row_cluster_labels": [
+          0,
+          1,
+          2,
+          3,
+          4
+        ],
+        "row_vandermonde_order": 0
+      }
+    ],
+    "vandermonde_factors_extracted_before_interval_substitution": true
+  },
+  "created": "2026-09-23",
+  "decision": {
+    "all_reachable_proper_face_matrix_patterns_compiled": true,
+    "complete_face_normal_integrability_emitted": false,
+    "determinant_preserving_row_column_preconditioners_released": true,
+    "next_exact_input": "replay the complete second-derivative product rule across all 4,480 ordered descriptors on every K386 face using these determinant duals and K385 primitive jets",
+    "recursive_numerical_cover_complete": false
+  },
+  "determinant_scaling_contract": {
+    "all_ordered_orientations_retained": true,
+    "assignment_duality_is_exact": true,
+    "determinant_assembled_after_row_column_scaling": true,
+    "permutationwise_absolute_enclosure_used_for_numerical_value": false,
+    "rule": "For a face mask, mark an entry one exactly when its cumulative-time argument mask is contained in the face. The maximum marked entries in a determinant Leibniz term is the assignment optimum. Binary row/column dual powers with the same sum scale the matrix before interval determinant assembly."
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K382_compiled_entry_interface_sha256": "sha256:b43def764e3ba88a2cab7fef27527e77f44b3b97ff3d7cdec08963c6e7aea403",
+    "K386_face_atlas_sha256": "sha256:32829ec4bbf68956782165abe3126fd3748e9b619737aae20400b8494897b5ac",
+    "determinant_matrix_face_uses_replayed": 12320960,
+    "maximum_species_determinant_rank": 5,
+    "ordered_descriptors": 4480,
+    "predecessor_manifests": [
+      "lab/process/k382-order-nine-axis-jet-compiler.json",
+      "lab/process/k385-order-nine-zero-safe-radial-contract.json",
+      "lab/process/k386-order-nine-hybrid-face-atlas.json"
+    ],
+    "reachable_face_instances": 695,
+    "unique_confluent_templates": 75,
+    "unique_preconditioner_templates": 60
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "preconditioner_templates": [
+    {
+      "column_scaling_powers": [
+        0
+      ],
+      "dual_sum": 0,
+      "maximum_zero_kernels_per_leibniz_term": 0,
+      "primal_permutation_witness": [
+        0
+      ],
+      "rank": 1,
+      "row_scaling_powers": [
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0
+      ],
+      "rank": 1,
+      "row_scaling_powers": [
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0
+      ],
+      "dual_sum": 0,
+      "maximum_zero_kernels_per_leibniz_term": 0,
+      "primal_permutation_witness": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "row_scaling_powers": [
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "row_scaling_powers": [
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "row_scaling_powers": [
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "row_scaling_powers": [
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1
+      ],
+      "rank": 2,
+      "row_scaling_powers": [
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          1,
+          1
+        ],
+        [
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 0,
+      "maximum_zero_kernels_per_leibniz_term": 0,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2
+      ],
+      "rank": 3,
+      "row_scaling_powers": [
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 0,
+      "maximum_zero_kernels_per_leibniz_term": 0,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 4,
+      "maximum_zero_kernels_per_leibniz_term": 4,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "rank": 4,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 0,
+      "maximum_zero_kernels_per_leibniz_term": 0,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 4,
+      "maximum_zero_kernels_per_leibniz_term": 4,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "dual_sum": 4,
+      "maximum_zero_kernels_per_leibniz_term": 4,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "dual_sum": 1,
+      "maximum_zero_kernels_per_leibniz_term": 1,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        0,
+        1,
+        1
+      ],
+      "dual_sum": 2,
+      "maximum_zero_kernels_per_leibniz_term": 2,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          0,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        0,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 3,
+      "maximum_zero_kernels_per_leibniz_term": 3,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        0,
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 4,
+      "maximum_zero_kernels_per_leibniz_term": 4,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    },
+    {
+      "column_scaling_powers": [
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "dual_sum": 5,
+      "maximum_zero_kernels_per_leibniz_term": 5,
+      "primal_permutation_witness": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "rank": 5,
+      "row_scaling_powers": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "strong_duality_verified": true,
+      "zero_entry_matrix": [
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      ]
+    }
+  ],
+  "primitive_scaling_contract": {
+    "active_derivative_extra_face_power": "d powers beyond the base w^-1 singularity",
+    "definition": "Phi_d(w)=w^(d+1)*abs((2*K1)^(d)(w)) for d=0,1,2",
+    "exact_rational_envelopes_ref": "lab/process/k385-order-nine-zero-safe-radial-contract.json#scaled_bessel_bank",
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "zero_limits": [
+      "2",
+      "2",
+      "4"
+    ]
+  },
+  "release_test": {
+    "all_4480_ordered_descriptors_replayed": true,
+    "all_duals_match_primal_assignments": true,
+    "all_reachable_faces_replayed": true,
+    "complete_order_nine_remainder_not_overclaimed": true,
+    "exactly_60_unique_templates": true,
+    "exactly_75_confluent_templates": true,
+    "native_K152_interval_not_emitted": true,
+    "ranks_one_through_five_present": true,
+    "raw_zero_bessel_calls_absent": true
+  },
+  "result_id": "K388-ORDER-NINE-MASK-NATIVE-PRECONDITIONER-COMPILER",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  },
+  "template_summary": {
+    "all_strong_duality_checks_pass": true,
+    "all_uses_reduce_to_finite_template_bank": true,
+    "rank_histogram": {
+      "1": 2,
+      "2": 5,
+      "3": 10,
+      "4": 17,
+      "5": 26
+    },
+    "template_bank_sha256": "sha256:b6cf280f12d1e7dac760db42e645baaa7c34693aa6693754bf5144c2ee37d66c"
+  }
+}
