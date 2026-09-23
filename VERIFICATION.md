@@ -5937,3 +5937,30 @@ but not sign and releases only the rank-five order-nine calculus, not an action
 column, `R_ref`, K152 interval or physical conclusion. K370/K371/K372 pass
 `10/10`, `9/9`, and `10/10` controls and reject `11/11`, `9/9`, and `11/11`
 hostile mutations.
+
+## K373--K379 higher-rank determinant calculus (2026-09-23)
+
+K373 replays the complete order-nine coherence interface and isolates one
+distinct rank-five canonical position pattern used 40 times. K374 proves the
+gap-free tensor divided-difference identity by 55 exact rational controls,
+checks all 25 all-zero limits, and replays the exact Cauchy
+determinant/Vandermonde identity through size five. K375 extends the exact
+rational zero-safe scaled `2*K1` bank through derivative order ten, joins it
+globally with `K_(23/2)`, replays K365 through order eight, and contains all
+121 positive Arb controls. K376 binds the result separately to every
+order-nine and order-ten factor: 736 paths, 48 groups, 9,258 upper-triangle
+entries and 17,780 ordered terms.
+
+K377 isolates one rank-six pattern with 60 occurrences at order eleven and 32
+rank-six patterns with 232 occurrences at order twelve. Its 78 exact monomial
+controls, 36 all-zero limits and Cauchy determinant replays through size six
+pass. K378 extends the global zero-safe bank through derivative order twelve
+using `K_(27/2)` and contains all 143 positive Arb controls. K379 binds the
+calculus to all 1,792 order-eleven/twelve paths, 57 groups, 48,272
+upper-triangle entries and 94,752 ordered terms while preserving separate
+24/26-time measures and `(2*pi)^-13/(2*pi)^-14` prefactors. K373--K379 pass
+`10/10`, `9/9`, `9/9`, `9/9`, `9/9`, `9/9`, and `10/10` direct controls and
+reject `11/11`, `10/10`, `11/11`, `11/11`, `11/11`, `11/11`, and `12/12`
+hostile mutations. These certificates close the higher-rank structural
+obstruction only; no numerical order-nine-through-twelve integral, action
+column, `R_ref`, K152 or physical conclusion is emitted.

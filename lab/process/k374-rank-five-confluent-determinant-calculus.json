@@ -1,0 +1,703 @@
+{
+  "claim_ceiling": "Exact gap-free tensor divided-difference and determinant calculus through rank five. Fifty-five rational monomial identities, all twenty-five all-zero confluence limits, and exact Cauchy determinant/Vandermonde replays through size five pass. This closes the algebraic confluence rule and fixes derivative demand through order ten; it does not yet provide the zero-safe global Bessel primitive bank, an order-nine numerical integral, action column, R_ref, K152, source/ledger move, canon, paper, public, novelty or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-23",
+  "decision": {
+    "K373_rank_five_patterns_bound_to_calculus": true,
+    "next_exact_input": "extend the exact rational zero-safe scaled 2*K1 bank and its analytic half-integer tail comparator through derivative order ten",
+    "numerical_order_nine_integral_emitted": false,
+    "rank_five_gap_free_confluent_determinant_calculus_emitted": true,
+    "zero_safe_global_primitive_bank_through_order_ten_emitted": false
+  },
+  "derivative_demand": {
+    "kernel_orders_required": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "primitive_bank_complete": false,
+    "pure_second_axis_extension": 2,
+    "rank_five_confluence_maximum": 8,
+    "total_required": 10
+  },
+  "determinant_calculus": {
+    "cauchy_identity": "det[2/(x_i+y_j)]=2^m*V(x)*V(y)/product_ij(x_i+y_j)",
+    "complete_determinant_assembled_before_absolute_enclosure": true,
+    "divided_difference_identity": "det(DD_x DD_y C)*V(x)*V(y)=det(C)",
+    "entrywise_cofactor_absolutization_permitted": false,
+    "exact_controls": [
+      {
+        "direct": "1517/154",
+        "divided_difference_determinant": "1517/154",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "2",
+        "normalized_cauchy_value": "2",
+        "rank": 1,
+        "vandermonde_replay": "1517/154"
+      },
+      {
+        "direct": "3491055413/1050644595",
+        "divided_difference_determinant": "5295931061521/6303867570",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "4",
+        "normalized_cauchy_value": "4",
+        "rank": 2,
+        "vandermonde_replay": "3491055413/1050644595"
+      },
+      {
+        "direct": "12187467896636600569/225975137063918342100",
+        "divided_difference_determinant": "42547125771316928910326329997/195242518423225447574400",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "8",
+        "normalized_cauchy_value": "8",
+        "rank": 3,
+        "vandermonde_replay": "12187467896636600569/225975137063918342100"
+      },
+      {
+        "direct": "1742687724467370091238056150347123/37114800747343906226708159485589820625",
+        "divided_difference_determinant": "786627803548472691981468268437653306601042075900481/9235350099563078874204244741118286245760000",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "16",
+        "normalized_cauchy_value": "16",
+        "rank": 4,
+        "vandermonde_replay": "1742687724467370091238056150347123/37114800747343906226708159485589820625"
+      },
+      {
+        "direct": "518541729432084833211251330545585567963771968293/225189601622753918765273001205148663541512408036201225000",
+        "divided_difference_determinant": "33468752092791652813305485449668967069492989052514511854605285852631187737028557/1129394873233814782563130059051435240309898934487614841880077926400000",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "32",
+        "normalized_cauchy_value": "32",
+        "rank": 5,
+        "vandermonde_replay": "518541729432084833211251330545585567963771968293/225189601622753918765273001205148663541512408036201225000"
+      }
+    ],
+    "normalized_confluent_cauchy_value": "2^m/product_ij(x_i+y_j)"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K373_rank_five_pattern_sha256": "sha256:71f1f41fff100e151cb560f6fa822917b137f13eb0da56817d5984ea618df97d",
+    "active_peano_derivative_order": 2,
+    "exact_determinant_checks": 5,
+    "maximum_column_divided_difference_order": 4,
+    "maximum_kernel_derivative_order": 10,
+    "maximum_rank": 5,
+    "maximum_row_divided_difference_order": 4,
+    "polynomial_identity_checks": 55,
+    "predecessor_manifests": [
+      "lab/process/k373-order-nine-rank-five-determinant-atlas.json"
+    ]
+  },
+  "gap_free_tensor_divided_difference": {
+    "all_zero_controls": [
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^0 partial_y^0 (x+y)^0/(0!0!)",
+        "monomial_power": 0,
+        "row_order": 0
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^0 partial_y^1 (x+y)^1/(0!1!)",
+        "monomial_power": 1,
+        "row_order": 0
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^0 partial_y^2 (x+y)^2/(0!2!)",
+        "monomial_power": 2,
+        "row_order": 0
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^0 partial_y^3 (x+y)^3/(0!3!)",
+        "monomial_power": 3,
+        "row_order": 0
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^0 partial_y^4 (x+y)^4/(0!4!)",
+        "monomial_power": 4,
+        "row_order": 0
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^1 partial_y^0 (x+y)^1/(1!0!)",
+        "monomial_power": 1,
+        "row_order": 1
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 2,
+        "derivative_rule": "partial_x^1 partial_y^1 (x+y)^2/(1!1!)",
+        "monomial_power": 2,
+        "row_order": 1
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 3,
+        "derivative_rule": "partial_x^1 partial_y^2 (x+y)^3/(1!2!)",
+        "monomial_power": 3,
+        "row_order": 1
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 4,
+        "derivative_rule": "partial_x^1 partial_y^3 (x+y)^4/(1!3!)",
+        "monomial_power": 4,
+        "row_order": 1
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 5,
+        "derivative_rule": "partial_x^1 partial_y^4 (x+y)^5/(1!4!)",
+        "monomial_power": 5,
+        "row_order": 1
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^2 partial_y^0 (x+y)^2/(2!0!)",
+        "monomial_power": 2,
+        "row_order": 2
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 3,
+        "derivative_rule": "partial_x^2 partial_y^1 (x+y)^3/(2!1!)",
+        "monomial_power": 3,
+        "row_order": 2
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 6,
+        "derivative_rule": "partial_x^2 partial_y^2 (x+y)^4/(2!2!)",
+        "monomial_power": 4,
+        "row_order": 2
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 10,
+        "derivative_rule": "partial_x^2 partial_y^3 (x+y)^5/(2!3!)",
+        "monomial_power": 5,
+        "row_order": 2
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 15,
+        "derivative_rule": "partial_x^2 partial_y^4 (x+y)^6/(2!4!)",
+        "monomial_power": 6,
+        "row_order": 2
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^3 partial_y^0 (x+y)^3/(3!0!)",
+        "monomial_power": 3,
+        "row_order": 3
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 4,
+        "derivative_rule": "partial_x^3 partial_y^1 (x+y)^4/(3!1!)",
+        "monomial_power": 4,
+        "row_order": 3
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 10,
+        "derivative_rule": "partial_x^3 partial_y^2 (x+y)^5/(3!2!)",
+        "monomial_power": 5,
+        "row_order": 3
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 20,
+        "derivative_rule": "partial_x^3 partial_y^3 (x+y)^6/(3!3!)",
+        "monomial_power": 6,
+        "row_order": 3
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 35,
+        "derivative_rule": "partial_x^3 partial_y^4 (x+y)^7/(3!4!)",
+        "monomial_power": 7,
+        "row_order": 3
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "derivative_rule": "partial_x^4 partial_y^0 (x+y)^4/(4!0!)",
+        "monomial_power": 4,
+        "row_order": 4
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 5,
+        "derivative_rule": "partial_x^4 partial_y^1 (x+y)^5/(4!1!)",
+        "monomial_power": 5,
+        "row_order": 4
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 15,
+        "derivative_rule": "partial_x^4 partial_y^2 (x+y)^6/(4!2!)",
+        "monomial_power": 6,
+        "row_order": 4
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 35,
+        "derivative_rule": "partial_x^4 partial_y^3 (x+y)^7/(4!3!)",
+        "monomial_power": 7,
+        "row_order": 4
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 70,
+        "derivative_rule": "partial_x^4 partial_y^4 (x+y)^8/(4!4!)",
+        "monomial_power": 8,
+        "row_order": 4
+      }
+    ],
+    "all_zero_value": "binom(r+c,r) for p=r+c and zero for p<r+c",
+    "complete_homogeneous_polynomials_are_nonnegative_on_nonnegative_nodes": true,
+    "explicit_gap_denominators_after_extension": false,
+    "monomial_identity": "[x_0,...,x_r][y_0,...,y_c](x+y)^p=sum_(k=r)^(p-c) binom(p,k) h_(k-r)(x_0,...,x_r) h_(p-k-c)(y_0,...,y_c)",
+    "polynomial_controls": [
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1",
+        "power": 0,
+        "rank": 1,
+        "recursive": "1"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "89/899",
+        "power": 1,
+        "rank": 1,
+        "recursive": "89/899"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "7921/808201",
+        "power": 2,
+        "rank": 1,
+        "recursive": "7921/808201"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "704969/726572699",
+        "power": 3,
+        "rank": 1,
+        "recursive": "704969/726572699"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "62742241/653188856401",
+        "power": 4,
+        "rank": 1,
+        "recursive": "62742241/653188856401"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "5584059449/587216781904499",
+        "power": 5,
+        "rank": 1,
+        "recursive": "5584059449/587216781904499"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "496981290961/527907886932144601",
+        "power": 6,
+        "rank": 1,
+        "recursive": "496981290961/527907886932144601"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "44231334895529/474589190351997996299",
+        "power": 7,
+        "rank": 1,
+        "recursive": "44231334895529/474589190351997996299"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "3936588805702081/426655682126446198672801",
+        "power": 8,
+        "rank": 1,
+        "recursive": "3936588805702081/426655682126446198672801"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "350356403707485209/383563458231675132606848099",
+        "power": 9,
+        "rank": 1,
+        "recursive": "350356403707485209/383563458231675132606848099"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "31181719929966183601/344823548950275944213556441001",
+        "power": 10,
+        "rank": 1,
+        "recursive": "31181719929966183601/344823548950275944213556441001"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 2,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 2,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "2",
+        "power": 2,
+        "rank": 2,
+        "recursive": "2"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "981/899",
+        "power": 3,
+        "rank": 2,
+        "recursive": "981/899"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "332200/808201",
+        "power": 4,
+        "rank": 2,
+        "recursive": "332200/808201"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "96744585/726572699",
+        "power": 5,
+        "rank": 2,
+        "recursive": "96744585/726572699"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "26078217072/653188856401",
+        "power": 6,
+        "rank": 2,
+        "recursive": "26078217072/653188856401"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "6725710122201/587216781904499",
+        "power": 7,
+        "rank": 2,
+        "recursive": "6725710122201/587216781904499"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1688494189083200/527907886932144601",
+        "power": 8,
+        "rank": 2,
+        "recursive": "1688494189083200/527907886932144601"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "416694596305128345/474589190351997996299",
+        "power": 9,
+        "rank": 2,
+        "recursive": "416694596305128345/474589190351997996299"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "101684394500245913392/426655682126446198672801",
+        "power": 10,
+        "rank": 2,
+        "recursive": "101684394500245913392/426655682126446198672801"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 2,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 3,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "6",
+        "power": 4,
+        "rank": 3,
+        "recursive": "6"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "7140/899",
+        "power": 5,
+        "rank": 3,
+        "recursive": "7140/899"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "181695/27869",
+        "power": 6,
+        "rank": 3,
+        "recursive": "181695/27869"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "3116277990/726572699",
+        "power": 7,
+        "rank": 3,
+        "recursive": "3116277990/726572699"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1623163214596/653188856401",
+        "power": 8,
+        "rank": 3,
+        "recursive": "1623163214596/653188856401"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "779857267565880/587216781904499",
+        "power": 9,
+        "rank": 3,
+        "recursive": "779857267565880/587216781904499"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "354775160803503285/527907886932144601",
+        "power": 10,
+        "rank": 3,
+        "recursive": "354775160803503285/527907886932144601"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 2,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 3,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 4,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 5,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "20",
+        "power": 6,
+        "rank": 4,
+        "recursive": "20"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "43750/899",
+        "power": 7,
+        "rank": 4,
+        "recursive": "43750/899"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "56285320/808201",
+        "power": 8,
+        "rank": 4,
+        "recursive": "56285320/808201"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "55763400000/726572699",
+        "power": 9,
+        "rank": 4,
+        "recursive": "55763400000/726572699"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "47171001318840/653188856401",
+        "power": 10,
+        "rank": 4,
+        "recursive": "47171001318840/653188856401"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 2,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 3,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 4,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 5,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 6,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 7,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "70",
+        "power": 8,
+        "rank": 5,
+        "recursive": "70"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "243810/899",
+        "power": 9,
+        "rank": 5,
+        "recursive": "243810/899"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "483756000/808201",
+        "power": 10,
+        "rank": 5,
+        "recursive": "483756000/808201"
+      }
+    ],
+    "repeated_nodes_allowed_by_continuity": true
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_25_zero_limits_serialized": true,
+    "all_55_polynomial_identities_exact": true,
+    "all_five_determinant_ranks_exact": true,
+    "complete_determinant_correlation_retained": true,
+    "explicit_gap_divisions_removed_on_confluent_faces": true,
+    "global_primitive_bank_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "numerical_integral_not_overclaimed": true,
+    "rank_five_requires_orders_zero_through_ten": true
+  },
+  "result_id": "K374-RANK-FIVE-CONFLUENT-DETERMINANT-CALCULUS",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

@@ -1,0 +1,1154 @@
+{
+  "claim_ceiling": "Exact isolation and gap-free confluence calculus for the rank-six species determinants first required by orders eleven and twelve. All 1,792 paths, 57 groups, 48,272 upper-triangle entries and 94,752 ordered terms replay; 78 rational monomial identities, 36 all-zero limits and exact Cauchy determinant replays through size six pass. The zero-safe global primitive bank through order twelve, numerical integrals, action column, R_ref, K152, source/ledger move, canon, paper, public, novelty and physical claims remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-23",
+  "decision": {
+    "next_exact_input": "extend the global zero-safe scaled 2*K1 bank through derivative order twelve and bind it to the separate order-eleven and order-twelve interfaces",
+    "numerical_orders_eleven_twelve_integrals_emitted": false,
+    "rank_six_gap_free_confluent_determinant_calculus_emitted": true,
+    "rank_six_patterns_isolated_for_orders_eleven_twelve": true,
+    "zero_safe_global_primitive_bank_through_order_twelve_emitted": false
+  },
+  "derivative_demand": {
+    "kernel_orders_required": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "primitive_bank_complete": false,
+    "pure_second_axis_extension": 2,
+    "rank_six_confluence_maximum": 10,
+    "total_required": 12
+  },
+  "determinant_calculus": {
+    "cauchy_identity": "det[2/(x_i+y_j)]=2^m*V(x)*V(y)/product_ij(x_i+y_j)",
+    "complete_determinant_assembled_before_absolute_enclosure": true,
+    "entrywise_cofactor_absolutization_permitted": false,
+    "exact_controls": [
+      {
+        "direct": "3127/221",
+        "divided_difference_determinant": "3127/221",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "2",
+        "normalized_cauchy_value": "2",
+        "rank": 1
+      },
+      {
+        "direct": "91728628149/13369761860",
+        "divided_difference_determinant": "95611806740641/26739523720",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "4",
+        "normalized_cauchy_value": "4",
+        "rank": 2
+      },
+      {
+        "direct": "934904580233057240689/5836231734499335733200",
+        "divided_difference_determinant": "28585838198331681129531091184887/5042504218607426073484800",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "8",
+        "normalized_cauchy_value": "8",
+        "rank": 3
+      },
+      {
+        "direct": "804491244415648502028393499216274841/4007698808136464018017014848828934128750",
+        "divided_difference_determinant": "83569172129064635310939476950530596427613564276101356161/2991731129478637843593629516591404011375360000",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "16",
+        "normalized_cauchy_value": "16",
+        "rank": 4
+      },
+      {
+        "direct": "19482547643776181369259635016609147680118416487776747247/1374125474868005276397908711730332463443928312089844186807125000",
+        "divided_difference_determinant": "2388894832849971155488139650078574345152115019525661919181615900585059589429453087538807/9453580835208804558120344939567735156407652744556936125105094918144000000",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "32",
+        "normalized_cauchy_value": "32",
+        "rank": 5
+      },
+      {
+        "direct": "5396836452377810148883543502333964023655482417865036678558821531745658409832/93127280087914882384171850093458743882044972321079739957392328773519654124067915894609375",
+        "divided_difference_determinant": "667734360292630129864029106661948285234233445537495637060833602941137990581989391973441470792732527904838695755868484061267361/242124864777627536228489784720099258074753954038042841127194681557415446206885611782686946119647232000000000",
+        "exact_normalization": true,
+        "exact_replay": true,
+        "expected_normalized_value": "64",
+        "normalized_cauchy_value": "64",
+        "rank": 6
+      }
+    ]
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "active_peano_derivative_order": 2,
+    "exact_determinant_checks": 6,
+    "maximum_column_divided_difference_order": 5,
+    "maximum_kernel_derivative_order": 12,
+    "maximum_rank": 6,
+    "maximum_row_divided_difference_order": 5,
+    "orders": [
+      11,
+      12
+    ],
+    "polynomial_identity_checks": 78,
+    "predecessor_manifests": [
+      "lab/process/k343-higher-order-value-mode-transfer-gate.json",
+      "lab/process/k376-orders-nine-ten-rank-five-transfer.json"
+    ]
+  },
+  "gap_free_tensor_divided_difference": {
+    "all_zero_controls": [
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "monomial_power": 0,
+        "row_order": 0
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 1,
+        "monomial_power": 1,
+        "row_order": 0
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 1,
+        "monomial_power": 2,
+        "row_order": 0
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 1,
+        "monomial_power": 3,
+        "row_order": 0
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 1,
+        "monomial_power": 4,
+        "row_order": 0
+      },
+      {
+        "column_order": 5,
+        "confluent_value": 1,
+        "monomial_power": 5,
+        "row_order": 0
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "monomial_power": 1,
+        "row_order": 1
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 2,
+        "monomial_power": 2,
+        "row_order": 1
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 3,
+        "monomial_power": 3,
+        "row_order": 1
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 4,
+        "monomial_power": 4,
+        "row_order": 1
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 5,
+        "monomial_power": 5,
+        "row_order": 1
+      },
+      {
+        "column_order": 5,
+        "confluent_value": 6,
+        "monomial_power": 6,
+        "row_order": 1
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "monomial_power": 2,
+        "row_order": 2
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 3,
+        "monomial_power": 3,
+        "row_order": 2
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 6,
+        "monomial_power": 4,
+        "row_order": 2
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 10,
+        "monomial_power": 5,
+        "row_order": 2
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 15,
+        "monomial_power": 6,
+        "row_order": 2
+      },
+      {
+        "column_order": 5,
+        "confluent_value": 21,
+        "monomial_power": 7,
+        "row_order": 2
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "monomial_power": 3,
+        "row_order": 3
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 4,
+        "monomial_power": 4,
+        "row_order": 3
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 10,
+        "monomial_power": 5,
+        "row_order": 3
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 20,
+        "monomial_power": 6,
+        "row_order": 3
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 35,
+        "monomial_power": 7,
+        "row_order": 3
+      },
+      {
+        "column_order": 5,
+        "confluent_value": 56,
+        "monomial_power": 8,
+        "row_order": 3
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "monomial_power": 4,
+        "row_order": 4
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 5,
+        "monomial_power": 5,
+        "row_order": 4
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 15,
+        "monomial_power": 6,
+        "row_order": 4
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 35,
+        "monomial_power": 7,
+        "row_order": 4
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 70,
+        "monomial_power": 8,
+        "row_order": 4
+      },
+      {
+        "column_order": 5,
+        "confluent_value": 126,
+        "monomial_power": 9,
+        "row_order": 4
+      },
+      {
+        "column_order": 0,
+        "confluent_value": 1,
+        "monomial_power": 5,
+        "row_order": 5
+      },
+      {
+        "column_order": 1,
+        "confluent_value": 6,
+        "monomial_power": 6,
+        "row_order": 5
+      },
+      {
+        "column_order": 2,
+        "confluent_value": 21,
+        "monomial_power": 7,
+        "row_order": 5
+      },
+      {
+        "column_order": 3,
+        "confluent_value": 56,
+        "monomial_power": 8,
+        "row_order": 5
+      },
+      {
+        "column_order": 4,
+        "confluent_value": 126,
+        "monomial_power": 9,
+        "row_order": 5
+      },
+      {
+        "column_order": 5,
+        "confluent_value": 252,
+        "monomial_power": 10,
+        "row_order": 5
+      }
+    ],
+    "complete_homogeneous_polynomials_are_nonnegative_on_nonnegative_nodes": true,
+    "explicit_gap_denominators_after_extension": false,
+    "monomial_identity": "[x_0,...,x_r][y_0,...,y_c](x+y)^p=sum_(k=r)^(p-c) binom(p,k) h_(k-r)(x) h_(p-k-c)(y)",
+    "polynomial_controls": [
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1",
+        "power": 0,
+        "rank": 1,
+        "recursive": "1"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "133/2021",
+        "power": 1,
+        "rank": 1,
+        "recursive": "133/2021"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "17689/4084441",
+        "power": 2,
+        "rank": 1,
+        "recursive": "17689/4084441"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "2352637/8254655261",
+        "power": 3,
+        "rank": 1,
+        "recursive": "2352637/8254655261"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "312900721/16682658282481",
+        "power": 4,
+        "rank": 1,
+        "recursive": "312900721/16682658282481"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "41615795893/33715652388894101",
+        "power": 5,
+        "rank": 1,
+        "recursive": "41615795893/33715652388894101"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "5534900853769/68139333477954978121",
+        "power": 6,
+        "rank": 1,
+        "recursive": "5534900853769/68139333477954978121"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "736141813551277/137709592958947010782541",
+        "power": 7,
+        "rank": 1,
+        "recursive": "736141813551277/137709592958947010782541"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "97906861202319841/278311087370031908791515361",
+        "power": 8,
+        "rank": 1,
+        "recursive": "97906861202319841/278311087370031908791515361"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "13021612539908538853/562466707574834487667652544581",
+        "power": 9,
+        "rank": 1,
+        "recursive": "13021612539908538853/562466707574834487667652544581"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1731874467807835667449/1136745216008740499576325792598201",
+        "power": 10,
+        "rank": 1,
+        "recursive": "1731874467807835667449/1136745216008740499576325792598201"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "230339304218442143770717/2297362081553664549643754426840964221",
+        "power": 11,
+        "rank": 1,
+        "recursive": "230339304218442143770717/2297362081553664549643754426840964221"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "30635127461052805121505361/4642968766819956054830027696645588690641",
+        "power": 12,
+        "rank": 1,
+        "recursive": "30635127461052805121505361/4642968766819956054830027696645588690641"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 2,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 2,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "2",
+        "power": 2,
+        "rank": 2,
+        "recursive": "2"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1467/2021",
+        "power": 3,
+        "rank": 2,
+        "recursive": "1467/2021"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "742840/4084441",
+        "power": 4,
+        "rank": 2,
+        "recursive": "742840/4084441"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "323471055/8254655261",
+        "power": 5,
+        "rank": 2,
+        "recursive": "323471055/8254655261"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "130372594152/16682658282481",
+        "power": 6,
+        "rank": 2,
+        "recursive": "130372594152/16682658282481"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "50273773686927/33715652388894101",
+        "power": 7,
+        "rank": 2,
+        "recursive": "50273773686927/33715652388894101"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "18871265936941280/68139333477954978121",
+        "power": 8,
+        "rank": 2,
+        "recursive": "18871265936941280/68139333477954978121"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "6963488959649887935/137709592958947010782541",
+        "power": 9,
+        "rank": 2,
+        "recursive": "6963488959649887935/137709592958947010782541"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "2540882621766843413752/278311087370031908791515361",
+        "power": 10,
+        "rank": 2,
+        "recursive": "2540882621766843413752/278311087370031908791515361"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "920201910363803905445487/562466707574834487667652544581",
+        "power": 11,
+        "rank": 2,
+        "recursive": "920201910363803905445487/562466707574834487667652544581"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "331560416152690893344626320/1136745216008740499576325792598201",
+        "power": 12,
+        "rank": 2,
+        "recursive": "331560416152690893344626320/1136745216008740499576325792598201"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 2,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 3,
+        "rank": 3,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "6",
+        "power": 4,
+        "rank": 3,
+        "recursive": "6"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "10680/2021",
+        "power": 5,
+        "rank": 3,
+        "recursive": "10680/2021"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "11788395/4084441",
+        "power": 6,
+        "rank": 3,
+        "recursive": "11788395/4084441"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "10427113620/8254655261",
+        "power": 7,
+        "rank": 3,
+        "recursive": "10427113620/8254655261"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "172816952588/354950176223",
+        "power": 8,
+        "rank": 3,
+        "recursive": "172816952588/354950176223"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "5836026116022480/33715652388894101",
+        "power": 9,
+        "rank": 3,
+        "recursive": "5836026116022480/33715652388894101"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "3970332907273273365/68139333477954978121",
+        "power": 10,
+        "rank": 3,
+        "recursive": "3970332907273273365/68139333477954978121"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "2599073517257641946940/137709592958947010782541",
+        "power": 11,
+        "rank": 3,
+        "recursive": "2599073517257641946940/137709592958947010782541"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "35202575148491294493378/5921512497234721463649263",
+        "power": 12,
+        "rank": 3,
+        "recursive": "35202575148491294493378/5921512497234721463649263"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 2,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 3,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 4,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 5,
+        "rank": 4,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "20",
+        "power": 6,
+        "rank": 4,
+        "recursive": "20"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "65450/2021",
+        "power": 7,
+        "rank": 4,
+        "recursive": "65450/2021"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "125958280/4084441",
+        "power": 8,
+        "rank": 4,
+        "recursive": "125958280/4084441"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "186661305600/8254655261",
+        "power": 9,
+        "rank": 4,
+        "recursive": "186661305600/8254655261"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "236173971088440/16682658282481",
+        "power": 10,
+        "rank": 4,
+        "recursive": "236173971088440/16682658282481"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "268907216329971450/33715652388894101",
+        "power": 11,
+        "rank": 4,
+        "recursive": "268907216329971450/33715652388894101"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "284154038295385324660/68139333477954978121",
+        "power": 12,
+        "rank": 4,
+        "recursive": "284154038295385324660/68139333477954978121"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 2,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 3,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 4,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 5,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 6,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 7,
+        "rank": 5,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "70",
+        "power": 8,
+        "rank": 5,
+        "recursive": "70"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "364770/2021",
+        "power": 9,
+        "rank": 5,
+        "recursive": "364770/2021"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1082760000/4084441",
+        "power": 10,
+        "rank": 5,
+        "recursive": "1082760000/4084441"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "2412283589100/8254655261",
+        "power": 11,
+        "rank": 5,
+        "recursive": "2412283589100/8254655261"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "4493166813554265/16682658282481",
+        "power": 12,
+        "rank": 5,
+        "recursive": "4493166813554265/16682658282481"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 0,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 1,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 2,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 3,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 4,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 5,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 6,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 7,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 8,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "0",
+        "power": 9,
+        "rank": 6,
+        "recursive": "0"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "252",
+        "power": 10,
+        "rank": 6,
+        "recursive": "252"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "1914066/2021",
+        "power": 11,
+        "rank": 6,
+        "recursive": "1914066/2021"
+      },
+      {
+        "exact_equality": true,
+        "gap_free_formula": "172479384/86903",
+        "power": 12,
+        "rank": 6,
+        "recursive": "172479384/86903"
+      }
+    ],
+    "repeated_nodes_allowed_by_continuity": true
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "order_factor_boundaries": [
+    {
+      "complete_entry_interface_sha256": "sha256:897d17101fd3c694fc939f6b3e169dcbc11af1ab4cf848e17c4b573e4c09273b",
+      "complete_pattern_inventory_sha256": "sha256:e737be4ff88faac4acbb0d28e66f58c9053987d8d69994232e63c9e2dff55a94",
+      "factor_occurrences_by_rank": {
+        "1": 3960,
+        "2": 16600,
+        "3": 20400,
+        "4": 9000,
+        "5": 1480,
+        "6": 60
+      },
+      "groups": 24,
+      "maximum_rank": 6,
+      "old_position_support": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "order": 11,
+      "ordered_quadratic_terms": 25200,
+      "paths": 640,
+      "rank_six_pattern_sha256": "sha256:b29a98f95e1cc919a6d82ccb533e7c7578543517f3fbf9b0884b25ee673985b2",
+      "rank_six_patterns": [
+        {
+          "occurrences": 60,
+          "pattern": "m6|L1,3,5,7,9,11|R1,3,5,7,9,11",
+          "rank": 6
+        }
+      ],
+      "unique_patterns_by_rank": {
+        "1": 72,
+        "2": 450,
+        "3": 800,
+        "4": 450,
+        "5": 61,
+        "6": 1
+      },
+      "upper_triangle_gram_entries": 12920
+    },
+    {
+      "complete_entry_interface_sha256": "sha256:8833d0e52b93b8cd5f5cda07b37cb053145355a5dae1d44e3f0d6ddffbe1263d",
+      "complete_pattern_inventory_sha256": "sha256:1a899e4213b910ad34e4784c08728984a2f041e7390c73ca6efc694093f87a44",
+      "factor_occurrences_by_rank": {
+        "1": 6272,
+        "2": 34640,
+        "3": 59120,
+        "4": 34640,
+        "5": 6272,
+        "6": 232
+      },
+      "groups": 33,
+      "maximum_rank": 6,
+      "old_position_support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "order": 12,
+      "ordered_quadratic_terms": 69552,
+      "paths": 1152,
+      "rank_six_pattern_sha256": "sha256:726a8803804938f2d4980f73ef423ad957db8e89dfe996ecf89b8c6693b9e431",
+      "rank_six_patterns": [
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,7,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,5,7,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 116,
+          "pattern": "m6|L2,4,6,8,10,12|R2,4,6,8,10,12",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L3,5,7,9,11,13|R3,5,7,9,11,13",
+          "rank": 6
+        }
+      ],
+      "unique_patterns_by_rank": {
+        "1": 85,
+        "2": 666,
+        "3": 1625,
+        "4": 1450,
+        "5": 477,
+        "6": 32
+      },
+      "upper_triangle_gram_entries": 35352
+    }
+  ],
+  "release_test": {
+    "all_1792_paths_replayed": true,
+    "all_36_zero_limits_serialized": true,
+    "all_48272_upper_triangle_entries_replayed": true,
+    "all_57_groups_replayed": true,
+    "all_78_polynomial_identities_exact": true,
+    "all_94752_ordered_terms_replayed": true,
+    "all_six_determinant_ranks_exact": true,
+    "global_primitive_bank_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "numerical_integrals_not_overclaimed": true,
+    "rank_six_patterns_present_in_both_orders": true
+  },
+  "result_id": "K377-RANK-SIX-CONFLUENT-DETERMINANT-CALCULUS",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

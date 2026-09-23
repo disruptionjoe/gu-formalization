@@ -11121,3 +11121,20 @@ needed by order nine. Preserve the order-specific node, normalization, ordered
 orientations and face atlas; do not reuse order-eight counts as generic data.
 Then close order ten and build the rank-six calculus required by orders eleven
 and twelve before composing the base action column and `R_ref` residual.
+
+## K373--K379 close the higher-rank determinant obstruction (2026-09-23)
+
+K373--K376 isolate the genuine rank-five order-nine factors, prove the exact
+gap-free tensor divided-difference/Cauchy determinant calculus through size
+five, extend the zero-safe global scaled-Bessel bank through derivative order
+ten, and bind it separately to every order-nine and order-ten factor. K377--K379
+do the same through rank six and derivative order twelve for orders eleven and
+twelve. Across orders nine through twelve, all 2,528 paths, 105 groups, 57,530
+upper-triangle Gram entries and 112,532 ordered terms replay with their
+order-specific dimensions and prefactors.
+
+Next build the order-nine native positive rule and exact cumulative-time
+zero/coalescence face atlas on twenty raw times, then evaluate its complete
+coherent node value. Do not reuse the order-eight node, face counts, prefactor
+or global remainder as generic data. Numerical orders nine through twelve must
+close before the complete action column and `R_ref` residual can be composed.

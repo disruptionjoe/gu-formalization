@@ -1,0 +1,324 @@
+{
+  "claim_ceiling": "Exact transfer of the accepted gap-free rank-six determinant calculus and global zero-safe derivative bank through order twelve to every order-eleven and order-twelve K179 factor. All 1,792 paths, 57 groups, 48,272 upper-triangle entries and 94,752 ordered terms replay with separate 24/26-dimensional measures and (2*pi)^-13/(2*pi)^-14 prefactors. Together with K376 this closes the higher-rank structural obstruction for orders nine through twelve, but emits no higher-order numerical integral, base action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public, novelty or physical claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_higher_rank_calculus": {
+    "all_orders_eight_through_twelve_structurally_typed": true,
+    "complete_group_assembly_precedes_absolute_enclosure": true,
+    "gap_free_confluence_through_rank_six": true,
+    "global_zero_safe_scaled_derivatives_through_order_twelve": true,
+    "occurrencewise_absolute_value_permitted": false,
+    "order_eight_node_or_face_atlas_reused": false,
+    "order_eleven_and_twelve_rank_six_bound": true,
+    "order_nine_and_ten_rank_five_bound": true,
+    "order_specific_counts_dimensions_and_prefactors_retained": true
+  },
+  "created": "2026-09-23",
+  "decision": {
+    "complete_R_ref_residual_emitted": false,
+    "complete_base_action_column_emitted": false,
+    "higher_rank_determinant_confluence_derivative_obstruction_closed": true,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "construct the order-nine native positive rule and exact zero/coalescence face atlas on its twenty raw times, then evaluate its complete coherent node value before any global Peano remainder",
+    "numerical_orders_nine_through_twelve_integrals_emitted": false,
+    "rank_six_orders_eleven_twelve_factor_transfer_complete": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coherent_groups": 57,
+    "maximum_primitive_derivative_order": 12,
+    "maximum_rank": 6,
+    "ordered_quadratic_terms": 94752,
+    "orders": [
+      11,
+      12
+    ],
+    "paths": 1792,
+    "predecessor_manifests": [
+      "lab/process/k343-higher-order-value-mode-transfer-gate.json",
+      "lab/process/k376-orders-nine-ten-rank-five-transfer.json",
+      "lab/process/k377-rank-six-confluent-determinant-calculus.json",
+      "lab/process/k378-rank-six-global-scaled-bessel-bank.json"
+    ],
+    "upper_triangle_gram_entries": 48272
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "order_interfaces": [
+    {
+      "complete_entry_interface_sha256": "sha256:897d17101fd3c694fc939f6b3e169dcbc11af1ab4cf848e17c4b573e4c09273b",
+      "complete_pattern_inventory_sha256": "sha256:e737be4ff88faac4acbb0d28e66f58c9053987d8d69994232e63c9e2dff55a94",
+      "factor_occurrences_by_rank": {
+        "1": 3960,
+        "2": 16600,
+        "3": 20400,
+        "4": 9000,
+        "5": 1480,
+        "6": 60
+      },
+      "groups": 24,
+      "maximum_rank": 6,
+      "native_prefactor": "(2*pi)^-13",
+      "old_position_support": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "order": 11,
+      "ordered_quadratic_terms": 25200,
+      "paths": 640,
+      "positive_time_variables": 24,
+      "primitive_orders_zero_through_twelve_bound": true,
+      "rank_six_confluence_bound": true,
+      "rank_six_pattern_sha256": "sha256:b29a98f95e1cc919a6d82ccb533e7c7578543517f3fbf9b0884b25ee673985b2",
+      "rank_six_patterns": [
+        {
+          "occurrences": 60,
+          "pattern": "m6|L1,3,5,7,9,11|R1,3,5,7,9,11",
+          "rank": 6
+        }
+      ],
+      "unique_patterns_by_rank": {
+        "1": 72,
+        "2": 450,
+        "3": 800,
+        "4": 450,
+        "5": 61,
+        "6": 1
+      },
+      "upper_triangle_gram_entries": 12920
+    },
+    {
+      "complete_entry_interface_sha256": "sha256:8833d0e52b93b8cd5f5cda07b37cb053145355a5dae1d44e3f0d6ddffbe1263d",
+      "complete_pattern_inventory_sha256": "sha256:1a899e4213b910ad34e4784c08728984a2f041e7390c73ca6efc694093f87a44",
+      "factor_occurrences_by_rank": {
+        "1": 6272,
+        "2": 34640,
+        "3": 59120,
+        "4": 34640,
+        "5": 6272,
+        "6": 232
+      },
+      "groups": 33,
+      "maximum_rank": 6,
+      "native_prefactor": "(2*pi)^-14",
+      "old_position_support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "order": 12,
+      "ordered_quadratic_terms": 69552,
+      "paths": 1152,
+      "positive_time_variables": 26,
+      "primitive_orders_zero_through_twelve_bound": true,
+      "rank_six_confluence_bound": true,
+      "rank_six_pattern_sha256": "sha256:726a8803804938f2d4980f73ef423ad957db8e89dfe996ecf89b8c6693b9e431",
+      "rank_six_patterns": [
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,7,9,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,5,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,3,7,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 1,
+          "pattern": "m6|L1,3,7,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 5,
+          "pattern": "m6|L1,5,7,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L1,5,7,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 116,
+          "pattern": "m6|L2,4,6,8,10,12|R2,4,6,8,10,12",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,5,7,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,5,7,9,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,5,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,3,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 4,
+          "pattern": "m6|L3,5,7,9,11,13|R1,5,7,9,11,13",
+          "rank": 6
+        },
+        {
+          "occurrences": 6,
+          "pattern": "m6|L3,5,7,9,11,13|R3,5,7,9,11,13",
+          "rank": 6
+        }
+      ],
+      "unique_patterns_by_rank": {
+        "1": 85,
+        "2": 666,
+        "3": 1625,
+        "4": 1450,
+        "5": 477,
+        "6": 32
+      },
+      "upper_triangle_gram_entries": 35352
+    }
+  ],
+  "release_test": {
+    "R_ref_not_overclaimed": true,
+    "action_column_not_overclaimed": true,
+    "all_1792_paths_replayed": true,
+    "all_48272_upper_triangle_entries_replayed": true,
+    "all_57_groups_replayed": true,
+    "all_94752_ordered_terms_replayed": true,
+    "both_orders_bound_to_primitive_orders_zero_through_twelve": true,
+    "both_orders_bound_to_rank_six_confluence": true,
+    "both_orders_have_rank_six_patterns": true,
+    "native_K152_interval_not_overclaimed": true,
+    "numerical_integrals_not_overclaimed": true,
+    "order_specific_prefactors_retained": true,
+    "order_specific_time_dimensions_retained": true
+  },
+  "result_id": "K379-ORDERS-ELEVEN-TWELVE-RANK-SIX-TRANSFER",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}
