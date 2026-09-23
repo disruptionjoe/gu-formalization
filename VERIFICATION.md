@@ -7,6 +7,33 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K361--K363 order-eight projective neighborhoods (2026-09-23)
+
+K361 compiles one exact positive-width ratio box strictly inside each of
+K358's `578` maximum charts and maps all `2,998` program-chart uses. One
+representative radial/projective interval at every reachable codimension is
+executed through K352's determinant-preserving preconditioner. All thirteen
+controls retain `2,400` ordered descriptors and `23` coherent groups, have a
+positive argument floor, contain the direct midpoint evaluation, and give a
+finite integrated pilot upper. The cells do not cover their charts. K361
+passes `9/9` controls and rejects `12/12` hostile mutations.
+
+K362 proves exact angular-measure majorants for one-sided ratio-zero strips at
+`epsilon=1/64`. A depth-`s` strip intersection has unit-density volume at most
+`epsilon^s`, and the union is bounded by both `(c-1)epsilon` and the exact
+chart mass `1/c!`. These bounds vanish at their declared epsilon order, but do
+not bound the K352-preconditioned integrand. K362 passes `8/8` controls and
+rejects `10/10` hostile mutations.
+
+K363 applies a fixed low-coordinate threshold and exhausts all `524,286`
+binary low-coordinate patterns across the eighteen K348 hybrid domains. The
+largest K350-reachable mask contained in the low set owns the point, with a
+canonical lexicographic tie break; otherwise the interior owns it. Every
+pattern has exactly one owner, no unreachable face is assigned, and `v8` and
+`v9` remain interior-only. This is ownership geometry, not a uniform
+integrand bound or recursive numerical cover. K363 passes `9/9` controls and
+rejects `11/11` hostile mutations.
+
 ## K358--K360 order-eight normal-projective atlas (2026-09-23)
 
 K358 replaces the equal-normal placeholder with exact maximum-coordinate

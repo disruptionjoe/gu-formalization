@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 434a108a155531b3a52896a5d6c6d296a5f82125
+revision_basis: cb42b058ad492a08111d506b34d4413dd3cbd896
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9704,11 +9704,17 @@ current_question: >-
   maximum-coordinate projective atlas for all 81 unique zero masks and 517
   programs; K359 freezes its exact angular masses and terminating zero/tie
   boundary recursion; K360 executes complete non-equal positive controls at
-  every reachable codimension. Next construct positive-width maximum-chart
-  ratio cells together with one-sided zero-boundary strip majorants, then
-  impose disjoint global face-neighborhood ownership before joining recursive
-  positive-interior cells and analytic radial tails and integrating all
-  eighteen K348 kernels.
+  every reachable codimension. K361 gives all 578 charts strict positive-width
+  ratio-cell pilots, maps all 2,998 program-chart uses, and rigorously
+  integrates one K352-preconditioned interval at each reachable codimension.
+  K362 proves exact measure-only one-sided and recursive zero-strip angular
+  majorants at epsilon 1/64. K363 exhausts 524,286 low-coordinate patterns
+  across all eighteen hybrids and assigns each exactly one K350-reachable
+  face-neighborhood owner or the interior owner. The next gate is a uniform
+  determinant-preserving integrand-weighted majorant on K363-owned strips that
+  touch zero. Angular mass alone does not supply it. Only then join recursive
+  positive-interior cells and analytic radial tails and integrate all eighteen
+  K348 kernels.
   The K351 reference bank and rays are controls, not a whole-domain cover.
   Join that remainder to K345 only after all eighteen terms close.
   Then build the rank-five order-nine
@@ -9974,19 +9980,23 @@ next_condition: >-
   bank, and K356--K357 as the accepted positive-width equal-normal face-cell
   bank and exact strip integration, and K358--K360 as the accepted exact
   maximum-chart projective coordinate/measure/boundary interface plus
-  anisotropic complete-evaluator control bank.
+  anisotropic complete-evaluator control bank. Treat K361 as the accepted
+  positive-width projective-cell pilot interface, K362 as the exact
+  measure-only zero-strip angular majorant, and K363 as the accepted disjoint
+  global face-neighborhood owner rule.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is positive-width maximum-chart ratio cells with one-sided
-  zero-boundary strip majorants and a disjoint global face-neighborhood owner
-  rule. Only then join a recursive positive-interior cover and analytic radial
-  tails for the complete
+  next gate is a determinant-preserving uniform integrand-weighted bound on
+  every K363-owned one-sided zero strip. K362 controls angular measure only;
+  K361's cells stay strictly away from zero. After that bound is proved, join
+  a recursive positive-interior cover and analytic radial tails for the complete
   eighteen-axis positive Peano remainder. Preserve both ordered orientations,
   use K350's exact reachable faces, and integrate each K348 pure-second hybrid
   term before joining K345. Do not promote K351's reference cell or rays to a
-  positive-width projective cell cover, substitute K347's node jets or K360's
-  point controls for global norms, or reuse
+  positive-width projective cell cover, substitute K347's node jets, K360's
+  point controls, K361's pilot cells, or K362's angular masses for global
+  integrand norms, or reuse
   K305/K299/K340/K334/K341
   order-seven group counts, weights, split atlas, cover or normalization as
   generic inputs, and do not promote the node value to a full integral. After

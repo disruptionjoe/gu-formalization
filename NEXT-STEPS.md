@@ -20,6 +20,22 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K361--K363 ORDER-EIGHT PROJECTIVE NEIGHBORHOODS.** K361
+> compiles one strict positive-width ratio box in every one of K358's `578`
+> maximum charts and maps all `2,998` program-chart uses. Thirteen rigorous
+> 180-digit Arb intervals cover every reachable codimension, retain all
+> `2,400` descriptors and `23` coherent groups, contain their direct midpoint
+> controls, and produce finite radial/projective pilot integrals. K362 proves
+> exact measure-only one-sided and recursive zero-strip majorants at
+> `epsilon=1/64`. K363 exhausts `524,286` low-coordinate subsets across all
+> eighteen hybrids and assigns each exactly one K350-reachable face owner or
+> the interior owner; `v8` and `v9` correctly use only the interior. Next
+> compose K349/K352 into a determinant-preserving uniform integrand envelope
+> on the K363-owned strips touching zero, then recurse over the positive
+> interior and tails. The K362 angular masses are not integrand bounds, K361's
+> cells are pilots rather than a cover, and no complete K348 hybrid or
+> order-eight remainder is emitted.
+
 > **2026-09-23 K358--K360 ORDER-EIGHT NORMAL-PROJECTIVE ATLAS.** K358
 > compiles all `517` face programs into an exact finite maximum-coordinate
 > atlas on `81` unique zero masks: `578` charts and `2,998` program-chart

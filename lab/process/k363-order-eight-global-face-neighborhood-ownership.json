@@ -1,0 +1,293 @@
+{
+  "claim_ceiling": "An exhaustive deterministic partition of every positive moving-time domain into one K350-reachable face-neighborhood owner or the interior owner, using the epsilon=1/64 low-coordinate set, maximal reachable mask and canonical lexicographic tie break. This ownership geometry supplies no uniform K352 integrand bound, recursive interior subdivision, tail majorant, complete K348 hybrid, order-eight remainder/integral, action column, R_ref, K152 interval, source/ledger move, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-23",
+  "decision": {
+    "complete_hybrid_integrals_emitted": false,
+    "disjoint_global_face_neighborhood_owner_rule_complete": true,
+    "next_exact_input": "bound the K352-preconditioned integrand uniformly on K363-owned zero strips and interior cells, then choose recursive subdivisions and tails",
+    "owner_regions_have_uniform_integrand_bounds": false,
+    "recursive_positive_interior_cover_complete": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "epsilon": "1/64",
+    "exhausted_low_coordinate_subsets": 524286,
+    "hybrid_domains": 18,
+    "predecessor_manifests": [
+      "lab/process/k350-order-eight-hybrid-face-atlas.json",
+      "lab/process/k358-order-eight-normal-projective-atlas.json",
+      "lab/process/k362-order-eight-zero-strip-angular-majorants.json"
+    ],
+    "reachable_face_programs": 517,
+    "unique_zero_masks": 81
+  },
+  "hybrid_owner_bank": [
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:2e1a676226f48c4d2e5635b50c026f5876cc613e3eb020dd2efcd5a84f0c797e",
+      "axis": "s1",
+      "distinct_face_owners_used": 81,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 253069,
+      "interior_owned_subsets": 9075,
+      "low_coordinate_subsets_exhausted": 262144,
+      "moving_dimension": 18,
+      "reachable_face_masks": 81
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:ddcca27070f285e1895d8c398098243606d6658ce60ddd409f2fe2ebd535aba8",
+      "axis": "s2",
+      "distinct_face_owners_used": 71,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 125462,
+      "interior_owned_subsets": 5610,
+      "low_coordinate_subsets_exhausted": 131072,
+      "moving_dimension": 17,
+      "reachable_face_masks": 71
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:65fe7be7fd77ecf42c318a690583b0d5136be6a95eb4b007fc09edcde086316e",
+      "axis": "s3",
+      "distinct_face_owners_used": 64,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 62071,
+      "interior_owned_subsets": 3465,
+      "low_coordinate_subsets_exhausted": 65536,
+      "moving_dimension": 16,
+      "reachable_face_masks": 64
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:10d789951daef7817553888e09b2334c00ef3fa6468d8b72bf3abc2876fbc20b",
+      "axis": "s4",
+      "distinct_face_owners_used": 55,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 30623,
+      "interior_owned_subsets": 2145,
+      "low_coordinate_subsets_exhausted": 32768,
+      "moving_dimension": 15,
+      "reachable_face_masks": 55
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:92e2968188fbd27cf67d0ffcdb2b2e71266a0db39241ad9e0149eb4b7c56c97a",
+      "axis": "s5",
+      "distinct_face_owners_used": 49,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 15064,
+      "interior_owned_subsets": 1320,
+      "low_coordinate_subsets_exhausted": 16384,
+      "moving_dimension": 14,
+      "reachable_face_masks": 49
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:c2a16ea2a6d9de2f42ff0b2a44472e7a35ffb14676f719ddeda45d4815cb5d21",
+      "axis": "s6",
+      "distinct_face_owners_used": 41,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 7367,
+      "interior_owned_subsets": 825,
+      "low_coordinate_subsets_exhausted": 8192,
+      "moving_dimension": 13,
+      "reachable_face_masks": 41
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:2ef6da2df4d9fba8cde9b2173cd5d7aa3c4f05a8ebbe470b9ad844405eb9b45a",
+      "axis": "s7",
+      "distinct_face_owners_used": 36,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 3601,
+      "interior_owned_subsets": 495,
+      "low_coordinate_subsets_exhausted": 4096,
+      "moving_dimension": 12,
+      "reachable_face_masks": 36
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:3c76ca212ebbaf5d3afe552a0d38ba76d08de0b212a5b6fa7450125275f103a4",
+      "axis": "s8",
+      "distinct_face_owners_used": 29,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 1718,
+      "interior_owned_subsets": 330,
+      "low_coordinate_subsets_exhausted": 2048,
+      "moving_dimension": 11,
+      "reachable_face_masks": 29
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:316ed9f9088e7fa523e506cf3ac843fac2c93193d7d8ebdefe541c005105a1cf",
+      "axis": "s9",
+      "distinct_face_owners_used": 25,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 859,
+      "interior_owned_subsets": 165,
+      "low_coordinate_subsets_exhausted": 1024,
+      "moving_dimension": 10,
+      "reachable_face_masks": 25
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:b16962e036c0683aa0091482c253921ab4f528b8a4f53f1b2bf96612b0d05e2d",
+      "axis": "v1",
+      "distinct_face_owners_used": 20,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 402,
+      "interior_owned_subsets": 110,
+      "low_coordinate_subsets_exhausted": 512,
+      "moving_dimension": 9,
+      "reachable_face_masks": 20
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:e39eeac8b0bb1ec8a332939f79746ff602b1a4b24bd25c0d7610c842534392d2",
+      "axis": "v2",
+      "distinct_face_owners_used": 15,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 188,
+      "interior_owned_subsets": 68,
+      "low_coordinate_subsets_exhausted": 256,
+      "moving_dimension": 8,
+      "reachable_face_masks": 15
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:86de62a167156bc3c1841cfa9dc62f849067b4d0d615eb509c4ed57347b41200",
+      "axis": "v3",
+      "distinct_face_owners_used": 12,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 86,
+      "interior_owned_subsets": 42,
+      "low_coordinate_subsets_exhausted": 128,
+      "moving_dimension": 7,
+      "reachable_face_masks": 12
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:5e312e3d961d0ebf409e2381e4130a395e1daa698242b98fbb309b7d5b828b3c",
+      "axis": "v4",
+      "distinct_face_owners_used": 8,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 38,
+      "interior_owned_subsets": 26,
+      "low_coordinate_subsets_exhausted": 64,
+      "moving_dimension": 6,
+      "reachable_face_masks": 8
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:c3c510a0cb70046732576013c2e65d3cad3973151d0d9b532c3f32e1ca39aac2",
+      "axis": "v5",
+      "distinct_face_owners_used": 6,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 16,
+      "interior_owned_subsets": 16,
+      "low_coordinate_subsets_exhausted": 32,
+      "moving_dimension": 5,
+      "reachable_face_masks": 6
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:404d58fbbd8962d54f4648fd07b0c8d62e81f09947d1337c3dcce6b0ac4f69a5",
+      "axis": "v6",
+      "distinct_face_owners_used": 3,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 6,
+      "interior_owned_subsets": 10,
+      "low_coordinate_subsets_exhausted": 16,
+      "moving_dimension": 4,
+      "reachable_face_masks": 3
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:d447aef6792a181251a9decde847886c55567d41a759888875d58310cab2929f",
+      "axis": "v7",
+      "distinct_face_owners_used": 2,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 2,
+      "interior_owned_subsets": 6,
+      "low_coordinate_subsets_exhausted": 8,
+      "moving_dimension": 3,
+      "reachable_face_masks": 2
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:fefebc58c84852eee595210fb546499945fd92b92915fcf5017ab478489c6c1e",
+      "axis": "v8",
+      "distinct_face_owners_used": 0,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 0,
+      "interior_owned_subsets": 4,
+      "low_coordinate_subsets_exhausted": 4,
+      "moving_dimension": 2,
+      "reachable_face_masks": 0
+    },
+    {
+      "all_assigned_faces_reachable": true,
+      "assigned_owner_histogram_sha256": "sha256:a1f999f34caec2f8e9ce1c8baaf4bc940917ea79c5d48a561bc70a2813db5e7f",
+      "axis": "v9",
+      "distinct_face_owners_used": 0,
+      "every_subset_has_exactly_one_owner": true,
+      "face_owned_subsets": 0,
+      "interior_owned_subsets": 2,
+      "low_coordinate_subsets_exhausted": 2,
+      "moving_dimension": 1,
+      "reachable_face_masks": 0
+    }
+  ],
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "ownership_contract": {
+    "boundary_convention": "equality belongs to the low-coordinate side",
+    "candidate_faces": "K350 reachable masks Z with Z subset L_epsilon(t)",
+    "fallback_owner": "INTERIOR when no reachable nonempty mask is contained in L_epsilon(t)",
+    "low_coordinate_set": "L_epsilon(t)={i:t_i<=epsilon*max_j(t_j)}",
+    "owner_cells_are_pairwise_disjoint": true,
+    "owner_cells_cover_every_positive_moving_time_vector": true,
+    "owner_is_deterministic": true,
+    "primary_order": "largest reachable mask first",
+    "strict_complement": "axes not in L_epsilon(t) satisfy t_i>epsilon*max_j(t_j)",
+    "tie_order": "lexicographically smallest mask in canonical s1..s9,v1..v9 order",
+    "unreachable_faces_are_never_invented": true
+  },
+  "ownership_summary": {
+    "all_18_hybrids_exhausted": true,
+    "all_assigned_faces_are_K350_reachable": true,
+    "all_subsets_have_exactly_one_owner": true,
+    "total_face_owned_subsets": 500572,
+    "total_interior_owned_subsets": 23714,
+    "v8_v9_use_only_interior_owner": true
+  },
+  "release_test": {
+    "all_low_coordinate_subsets_exhausted": true,
+    "complete_order_eight_remainder_not_overclaimed": true,
+    "every_subset_has_exactly_one_owner": true,
+    "exactly_18_hybrid_domains": true,
+    "exactly_517_reachable_face_programs_in_scope": true,
+    "exactly_81_unique_masks_in_scope": true,
+    "native_K152_interval_not_emitted": true,
+    "no_unreachable_face_assigned": true,
+    "uniform_integrand_bounds_not_overclaimed": true,
+    "v8_v9_have_no_invented_face_owner": true
+  },
+  "result_id": "K363-ORDER-EIGHT-GLOBAL-FACE-NEIGHBORHOOD-OWNERSHIP",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

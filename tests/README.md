@@ -4,6 +4,22 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K361--K363 order-eight projective neighborhoods
+
+- `channel-swings/k361_order_eight_positive_width_projective_cells.py`
+  compiles one strict positive-width pilot box in every K358 chart and
+  executes one integrated K352-preconditioned interval at each reachable
+  codimension. Its probe deterministically rebuilds the bank and rejects
+  twelve hostile mutations.
+- `channel-swings/k362_order_eight_zero_strip_angular_majorants.py` proves
+  exact measure-only majorants for one-sided and recursively intersected
+  ratio-zero strips, while preserving the missing integrand-weighted bound.
+  Its probe rejects ten hostile mutations.
+- `channel-swings/k363_order_eight_global_face_neighborhood_ownership.py`
+  exhausts all low-coordinate subsets across the eighteen hybrids and checks
+  that the deterministic owner is unique and K350-reachable. Its probe rejects
+  eleven hostile mutations.
+
 ## K358--K360 order-eight normal-projective atlas
 
 - `channel-swings/k358_order_eight_normal_projective_atlas.py` compiles the
