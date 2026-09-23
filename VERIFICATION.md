@@ -7,6 +7,23 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K393 order-nine near-face strip integration (2026-09-23)
+
+K393 integrates every K392 positive-width cell using K389's exact face-normal
+power and K385's applicable quadratic Peano coefficient. The bank covers all
+695 reachable faces and 4,865 cells on `rho in [1/4096,1/1024]`; every
+integrated contribution is finite and positive, the seven cells partition an
+exact width `3/4096`, and the global minimum normal power is zero. Eighteen
+hybrids have reachable faces; `v9` and `v10` remain interior-only. The
+independent probe passes `10/10` controls and rejects `11/11` hostile
+mutations.
+
+The calculation uses unit projective angular density, and distinct face rows
+overlap. Their sums are diagnostics, not hybrid Peano integrals. K393 does not
+provide a full normal-projective cone, recursive interior cover, origin or
+analytic tails, complete order-nine remainder/integral, action column,
+`R_ref`, K152 result or physical claim.
+
 ## Corrected-observation quotient/slice law and K392 face cells (2026-09-23)
 
 Exact rational algebra separates two output semantics. Quotient descent needs

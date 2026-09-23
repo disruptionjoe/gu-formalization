@@ -20,6 +20,17 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K393 ORDER-NINE NEAR-FACE STRIP INTEGRATION.** K393 integrates
+> K392's seven-cell equal-normal chart on every one of 695 reachable faces:
+> all 4,865 contributions are finite and positive, the exact strip width is
+> `3/4096`, K389's global minimum normal power zero replays, and eighteen
+> hybrids have faces while `v9` and `v10` remain interior-only. The rows
+> overlap and use unit projective angular density, so they are not hybrid
+> integrals or a full normal cone. Next build the K394 normal-projective atlas,
+> then route its measure/boundaries before recursive interiors and tails. No
+> action-column, `R_ref`, K152, source, ledger, canon, paper, public or physical
+> claim moves.
+
 > **2026-09-23 QUOTIENT/SLICE RECONCILIATION AND K392.** A corrected map that
 > descends to a target quotient need only send action gauge shifts to target
 > gauge shifts; the August fixture uses `P d0=d0`. A carrier-valued gauge-slice
@@ -31,8 +42,8 @@ updated_at: "2026-09-23"
 > 4,865 finite intervals, 21,795,200 ordered descriptor-cell evaluations, all
 > 60 singular and 75 confluent templates, and eighteen direct-overlap controls.
 > Next instantiate the same-carrier action/observation differential diagram;
-> on the numerical arc integrate the equal-normal strips, then build the
-> normal-projective cover, recursive interior and tails. No source, ledger,
+> on the numerical arc build the normal-projective cover, recursive interior
+> and tails after K393's equal-normal strip integration. No source, ledger,
 > canon, paper, public or physical claim moves.
 
 > **2026-09-23 CORRECTED OBSERVATION SEAM AND K391.** Exact algebra proves

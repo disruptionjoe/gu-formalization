@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 3b8c4bb1831f
+revision_basis: 6de0872843cc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -54,7 +54,12 @@ current_result:
     descriptor-cell evaluations. All 60 singular and 75 confluent K388
     templates occur, every argument floor is positive and one direct overlap
     control passes for each of the eighteen hybrids with faces. The equal-
-    normal chart is not the full projective normal cone. Strip integration,
+    normal chart is not the full projective normal cone. K393 now integrates
+    all 4,865 declared cells into 695 equal-normal near-face strip bounds using
+    K389's exact normal powers and K385's Peano coefficients. All contributions
+    are finite and positive, the exact partition width is `3/4096`, the global
+    minimum normal power is zero, and eighteen hybrids have reachable faces.
+    Distinct face rows overlap and use unit projective angular density, so
     projective coverage, recursive interiors, analytic tails and the complete
     order-nine integral remain open.
 

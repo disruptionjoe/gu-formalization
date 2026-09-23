@@ -4,6 +4,14 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K393 order-nine near-face strip integration
+
+- `channel-swings/k393_order_nine_near_face_strip_integration.py` integrates
+  all 4,865 K392 cells with K389's exact normal powers and K385's Peano
+  coefficients while preserving the overlap and unit-angular-density ceiling.
+- `channel-swings/k393_order_nine_near_face_strip_integration_probe.py`
+  rebuilds the complete strip bank and rejects eleven hostile mutations.
+
 ## Corrected observation quotient/slice law and K392
 
 - `channel-swings/corrected_observation_quotient_slice_compatibility.py`
