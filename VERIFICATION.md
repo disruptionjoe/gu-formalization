@@ -7,6 +7,30 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K356--K357 order-eight positive-width face cells (2026-09-23)
+
+K356 instantiates K352 on genuine positive-width Arb cells. For every species
+determinant it applies exact confluent row/column divided differences and the
+exact assignment-dual row/column powers before determinant Taylor assembly.
+Seven rational cells exactly partition `rho in [1/4096,1/1024]`. All `3,619`
+cells over all `517` reachable faces are finite with positive argument floors,
+covering `8,685,600` ordered descriptor-cell evaluations and all `34+38` K352
+templates. Sixteen direct complete-evaluator controls overlap the
+preconditioned intervals. K356 passes `42/42` controls and rejects `12/12`
+hostile mutations.
+
+K357 integrates each accepted cell with K353's exact nonnegative normal power
+and K349's quadratic Peano coefficient. The seven widths sum exactly to
+`3/4096`; all `3,619` contributions are finite and positive, the global
+minimum normal power remains zero, and `v8`/`v9` retain no invented faces.
+K357 passes `10/10` controls and rejects `11/11` hostile mutations.
+
+This proves the complete canonical equal-normal positive-width bank and its
+declared-strip integration. It does not cover the projective directions of a
+higher-codimension normal cone, the origin below `1/4096`, the positive
+interior or tails. Face rows overlap and are not summed into hybrid integrals.
+
+
 ## K354--K355 order-eight face-program instantiation (2026-09-23)
 
 K354 compiles every one of K350's `517` reachable face instances into an

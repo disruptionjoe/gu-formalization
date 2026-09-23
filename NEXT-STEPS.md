@@ -20,6 +20,20 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K356--K357 ORDER-EIGHT POSITIVE-WIDTH FACE CELLS.** K356
+> executes actual K352-preconditioned Arb intervals on all `517` reachable
+> faces. Exact confluent row/column divided differences and assignment-dual
+> scaling precede determinant assembly; seven rational cells exactly partition
+> `rho in [1/4096,1/1024]`. All `3,619` cells and `8,685,600` ordered
+> descriptor-cell evaluations are finite, and one direct overlap control
+> passes for each of the sixteen hybrids with faces. K357 integrates every
+> accepted cell with the K353 normal power and K349 Peano factor. The next gate
+> is the missing normal-projective angular cover for codimension two through
+> eighteen, followed by the recursive positive interior and analytic tails.
+> These equal-normal strips do not cover full normal cones, do not add across
+> overlapping faces, and are not K348 hybrid integrals or a complete order-
+> eight remainder.
+
 > **2026-09-23 K354--K355 ORDER-EIGHT FACE-PROGRAM INSTANTIATION.** K354
 > compiles all `517` reachable K350 face instances and `1,240,800` ordered
 > descriptor-face programs. Every one of their `4,876,344` determinant-matrix

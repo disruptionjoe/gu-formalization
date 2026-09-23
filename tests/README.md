@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K356--K357 order-eight positive-width face cells
+
+- `channel-swings/k356_order_eight_preconditioned_face_cell_bank.py` applies
+  K352's exact confluent divided differences and assignment-dual scalings
+  before determinant assembly on seven positive-width normal cells for all
+  517 reachable faces. Its probe replays one cell per reachable hybrid and
+  rejects twelve hostile mutations.
+- `channel-swings/k357_order_eight_near_face_strip_integration.py` composes
+  all 3,619 cells with K353's normal powers and K349's Peano factors while
+  preserving the missing normal-projective-cover boundary. Its probe performs
+  deterministic replay and rejects eleven hostile mutations.
+
 ## K354--K355 order-eight face-program instantiation
 
 - `channel-swings/k354_order_eight_face_program_compiler.py` resolves all 517

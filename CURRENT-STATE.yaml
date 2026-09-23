@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fef730c1533e0a7fdada90a56134b3e968dbe829
+revision_basis: 4154fd3caf05e9bb994c264dc222c0c7f2669430
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -400,6 +400,19 @@ current_result:
     face programs, followed by recursive interior coverage and analytic tails.
     No Peano integral, complete order-eight remainder/integral, action column,
     R_ref or K152 interval is emitted.
+
+    K356--K357 replace K355's point approaches by actual positive-width
+    K352-preconditioned normal-chart cells. Seven exact rational cells
+    partition rho in [1/4096,1/1024] on every one of the 517 reachable faces;
+    all 3,619 cells retain all 2,400 ordered descriptors and 23 coherent
+    groups, for 8,685,600 descriptor-cell evaluations. Every interval is
+    finite with a positive argument floor, and direct complete-group controls
+    pass on all sixteen hybrids with reachable faces. K357 integrates the
+    declared equal-normal strips with K353's exact normal powers and K349's
+    Peano coefficient; their exact radial width is 3/4096. This is not a
+    projective normal-cone cover: unequal normal directions, rho below 1/4096,
+    recursive positive-interior coverage, analytic tails and all eighteen
+    complete K348 hybrid integrals remain open.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9667,10 +9680,13 @@ current_question: >-
   reachable faces. K354 compiles every face into an exact singular/confluent
   approach program and K355 executes 54 complete coherent Arb controls across
   all eighteen hybrids, with positive argument floors and no raw zero call.
-  Next replace those selected positive approaches by positive-width K352-scaled
-  and confluent interval cells for all 517 faces, then join recursive positive-
-  interior cells and analytic radial tails and integrate all eighteen K348
-  kernels.
+  K356 replaces those selected approaches by 3,619 positive-width
+  K352-preconditioned cells that exactly partition rho in
+  [1/4096,1/1024] on every reachable face. K357 integrates the corresponding
+  equal-normal strips with exact width 3/4096. Next construct an exact
+  normal-projective angular cover for codimensions two through eighteen, then
+  join recursive positive-interior cells and analytic radial tails and
+  integrate all eighteen K348 kernels.
   The K351 reference bank and rays are controls, not a whole-domain cover.
   Join that remainder to K345 only after all eighteen terms close.
   Then build the rank-five order-nine
@@ -9931,16 +9947,16 @@ next_condition: >-
   interface. Treat K349--K351 as the accepted zero-safe radial contract,
   per-hybrid face-reachability atlas and complete coherent reference-control
   bank, and K352--K353 as the accepted determinant-preserving proper-face
-  preconditioner and local-integrability interface, and K354--K355 as the
-  accepted complete face-program map plus selected hardest-boundary/interior
-  Arb control bank.
+  preconditioner and local-integrability interface, K354--K355 as the accepted
+  complete face-program map plus selected hardest-boundary/interior Arb control
+  bank, and K356--K357 as the accepted positive-width equal-normal face-cell
+  bank and exact strip integration.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is to replace K355's positive approach controls by actual K352
-  row/column-scaled and confluent positive-width interval cells for all 517
-  faces, then join them to a recursive positive-interior cover and analytic
-  radial tails for the complete
+  next gate is an exact normal-projective angular cover for codimensions two
+  through eighteen around K356's equal-normal rays, then a recursive positive-
+  interior cover and analytic radial tails for the complete
   eighteen-axis positive Peano remainder. Preserve both ordered orientations,
   use K350's exact reachable faces, and integrate each K348 pure-second hybrid
   term before joining K345. Do not promote K351's reference cell or rays to a
