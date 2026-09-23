@@ -20,6 +20,21 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K352--K353 ORDER-EIGHT PROPER-FACE CONTRACT.** K352 replays
+> `4,876,344` determinant-matrix/face uses across all `2,400` ordered
+> descriptors and `517` reachable K350 face instances, reducing them to `34`
+> exact singular and `38` confluent rank-one-through-four templates. Every
+> singular template has a primal assignment witness and an equal row/column
+> dual; the confluent bank pins repeated-node clusters and divided-difference
+> orders, so determinants stay assembled after scaling. K353 executes the complete value/first/second
+> face-normal product rule on all `1,240,800` descriptor-face pairs. Every
+> face is locally integrable; the minimum normal exponent is zero and the
+> all-zero `s1` face replays degree seven. Next instantiate this interface in
+> recursive positive-interior cells and analytic radial tails, then integrate
+> all eighteen K348 kernels. No numerical remainder, full order-eight
+> integral, action column, K152, source, ledger, canon or physical result is
+> released.
+
 > **2026-09-22 K349--K351 ORDER-EIGHT ZERO-SAFE ATLAS FOUNDATION.** K349
 > derives exact zero-inclusive Bessel derivative envelopes through order two,
 > proves `K_256(t)<=t^2/2`, and closes the first hybrid's all-zero radial

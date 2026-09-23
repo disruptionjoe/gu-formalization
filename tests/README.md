@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K352--K353 order-eight proper-face contract
+
+- `channel-swings/k352_order_eight_mask_native_preconditioner_compiler.py`
+  compiles exact determinant row/column assignment duals for every reachable
+  face pattern; its probe independently rebuilds the 34 singular and 38
+  confluent templates and rejects twelve hostile mutations.
+- `channel-swings/k353_order_eight_face_normal_integrability_atlas.py` replays
+  the complete second-derivative product-rule singularity on all 1,240,800
+  ordered descriptor-face pairs; its probe pins all 517 integrable faces, the
+  global minimum power zero and the all-zero degree-seven control.
+
 ## K349--K351 order-eight zero-safe atlas foundation
 
 - `channel-swings/k349_order_eight_zero_safe_radial_contract.py` derives exact

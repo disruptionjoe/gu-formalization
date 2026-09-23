@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 19396b494bc0301991ada1d4eaa350deabf43ef8
+revision_basis: 1ec0198dc34f81e4b97bfe404605c5de8a670abd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -371,6 +371,21 @@ current_result:
     and all eighteen numerical Peano integrals remain open; no complete
     order-eight remainder, integral, action column, R_ref or K152 interval is
     emitted.
+
+    K352--K353 close the exact proper-face interface. K352 replays 4,876,344
+    determinant-matrix/face uses across all 2,400 ordered descriptors and 517
+    reachable K350 face instances, compressing them to 34 singular and 38
+    confluent rank-one-through-four templates. The singular bank has exact
+    primal assignment witnesses and equal row/column dual scaling powers; the
+    confluent bank pins repeated-node clusters and divided-difference orders,
+    so preconditioning preserves complete determinant assembly. K353 then performs 1,240,800
+    complete descriptor-face value/first/second product-rule replays in exact
+    face-normal charts. Every reachable face is locally integrable; the global
+    minimum normal power is zero and the all-eighteen-axis s1 corner replays
+    K349's degree seven. This releases the mask-native numerical interface,
+    not recursive positive-interior coverage, analytic tails, any numerical
+    Peano integral, the complete order-eight remainder/integral, action column,
+    R_ref or K152 interval.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9619,7 +9634,7 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K344--K351 construct the native order-eight positive one-node rule, its exact
+  K344--K353 construct the native order-eight positive one-node rule, its exact
   face atlas, complete ordered node-jet bank, tensor Peano contract, zero-safe
   radial scaling and complete coherent reference controls. All eighteen
   Laplace times are sampled at `1/256` with total weight
@@ -9632,9 +9647,10 @@ current_question: >-
   required for directional differentiation. K347 supplies all 43,200 local
   ordered entry-axis jets, and K348 fixes the exact positive kernel mass and
   eighteen hybrid integrals. K349 proves the all-zero degree-seven radial
-  limit, K350 compiles per-hybrid face reachability and K351 supplies complete
-  positive-interior and all-zero-ray controls. Next construct mask-native
-  preconditioners on every reachable proper face, recursive positive-interior
+  limit, K350 compiles per-hybrid face reachability, K351 supplies complete
+  positive-interior and all-zero-ray controls, and K352--K353 provide exact
+  determinant-preserving preconditioners plus local integrability on all 517
+  reachable faces. Next instantiate those masks in recursive positive-interior
   cells and analytic radial tails, then integrate all eighteen K348 kernels.
   The K351 reference bank and rays are controls, not a whole-domain cover.
   Join that remainder to K345 only after all eighteen terms close.
@@ -9895,12 +9911,13 @@ next_condition: >-
   K346--K348 as the accepted ordered directional-jet and tensor Peano
   interface. Treat K349--K351 as the accepted zero-safe radial contract,
   per-hybrid face-reachability atlas and complete coherent reference-control
-  bank.
+  bank, and K352--K353 as the accepted determinant-preserving proper-face
+  preconditioner and local-integrability interface.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is a mask-native proper-face preconditioner bank joined to a
-  recursive positive-interior cover and analytic radial tails for the complete
+  next gate is to instantiate that mask-native interface inside a recursive
+  positive-interior cover and analytic radial tails for the complete
   eighteen-axis positive Peano remainder. Preserve both ordered orientations,
   use K350's exact reachable faces, and integrate each K348 pure-second hybrid
   term before joining K345. Do not promote K351's reference cell or rays to a

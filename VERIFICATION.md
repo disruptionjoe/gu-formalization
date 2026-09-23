@@ -7,6 +7,30 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K352--K353 order-eight proper-face contract (2026-09-22)
+
+K352 compiles exact mask-native row/column determinant scalings for every K350
+reachable face. The maximum number of zero primitives selected by a determinant
+term is solved as a binary assignment problem; an equal-sum dual gives the row
+and column powers used before interval determinant assembly. All `4,876,344`
+matrix/face uses across `2,400` ordered descriptors and `517` face instances
+reduce to `34` exact singular templates with rank histogram `2/5/10/17` for
+ranks one through four. Thirty-eight confluent templates separately pin exact
+repeated-row/column clusters, Vandermonde orders and divided-difference orders
+through three. Every primal, dual and confluent certificate agrees.
+
+K353 combines those determinant costs with K349's zero-safe primitive jets and
+the exact complete product rule through derivative order two. Its
+`1,240,800` descriptor-face replays include the face-normal Jacobian and K348
+Peano double zero. All `517` faces are locally integrable, with minimum normal
+power zero; the all-eighteen-axis `s1` corner has singular powers `10/11/12`
+and replays final degree seven.
+
+The K352 probe passes `11/11` controls and rejects `12/12` hostile mutations;
+K353 passes `10/10` and rejects `11/11`. This proves the complete proper-face scaling and local-integrability
+interface, not recursive positive-interior coverage, analytic tails, numerical
+Peano integrals or a complete order-eight remainder.
+
 ## K349--K351 order-eight zero-safe atlas foundation (2026-09-22)
 
 K349 proves the all-eighteen-axis corner is zero-safe after native scaling.
