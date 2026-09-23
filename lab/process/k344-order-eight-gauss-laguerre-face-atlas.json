@@ -1,0 +1,1299 @@
+{
+  "claim_ceiling": "Exact order-eight positive one-node Gauss--Laguerre value rule and cumulative-time zero/coalescence face atlas for all 192 K179 paths, 23 coherent groups and 1,296 upper-triangle Gram entries. The rule uses the eighteen native positive Laplace times, node 1/256 on every axis and total weight 256^-18. It freezes eighteen positive pure-second Peano remainder terms but does not integrate them, evaluate a group value, enclose the complete order-eight integral, complete an action column or R_ref, emit a K152 interval, or move source, ledger, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "cumulative_time_face_atlas": {
+    "atlas_sha256": "sha256:2cb58a2ea7e0de1f4433c0c5da46922988e73e9ad5aa46d2373d4341e32420dd",
+    "coalescence_rule": "T_i=T_j exactly when the intervening s axes vanish, and likewise for U; equal determinant rows or columns then give an exact zero",
+    "column_coalescence_faces": [
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 318,
+        "zeroed_axes": [
+          "v1",
+          "v2"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "v2",
+          "v3"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 282,
+        "zeroed_axes": [
+          "v3",
+          "v4"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "v4",
+          "v5"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 258,
+        "zeroed_axes": [
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 564,
+        "zeroed_axes": [
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 393,
+        "zeroed_axes": [
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 306,
+        "zeroed_axes": [
+          "v1",
+          "v2",
+          "v3",
+          "v4"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 270,
+        "zeroed_axes": [
+          "v3",
+          "v4",
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 564,
+        "zeroed_axes": [
+          "v4",
+          "v5",
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 409,
+        "zeroed_axes": [
+          "v5",
+          "v6",
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 294,
+        "zeroed_axes": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 564,
+        "zeroed_axes": [
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 425,
+        "zeroed_axes": [
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 465,
+        "zeroed_axes": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8"
+        ]
+      }
+    ],
+    "complete_group_quadratic_form_precedes_absolute_enclosure": true,
+    "determinant_kernel_entry_uses": 24048,
+    "kernel_support_rule": "T_j=sum_{a=j}^9 s_a and U_j=sum_{b=j}^9 v_b; 2*K1(T_j+U_k) reaches zero exactly when its recorded suffix mask vanishes",
+    "kernel_zero_faces": [
+      {
+        "codimension": 2,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 792,
+        "zeroed_axes": [
+          "s9",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 3,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 283,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "codimension": 3,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 355,
+        "zeroed_axes": [
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 584,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 792,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 536,
+        "zeroed_axes": [
+          "s9",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 5,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 307,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "codimension": 5,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 331,
+        "zeroed_axes": [
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 568,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 468,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 552,
+        "zeroed_axes": [
+          "s9",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 7,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 331,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "codimension": 7,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 307,
+        "zeroed_axes": [
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 552,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 408,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 792,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 432,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 568,
+        "zeroed_axes": [
+          "s9",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 9,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 375,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "codimension": 9,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 303,
+        "zeroed_axes": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 492,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 396,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 744,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 468,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 744,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 444,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 540,
+        "zeroed_axes": [
+          "s9",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 348,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 744,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 408,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 792,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 432,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 744,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 420,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 360,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 744,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 468,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 744,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 408,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 372,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 792,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 396,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 18,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 612,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      }
+    ],
+    "occurrencewise_absolute_value_permitted": false,
+    "old_kernel_uses": 2592,
+    "row_coalescence_faces": [
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 270,
+        "zeroed_axes": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 282,
+        "zeroed_axes": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 306,
+        "zeroed_axes": [
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 564,
+        "zeroed_axes": [
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 441,
+        "zeroed_axes": [
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 282,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 294,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 564,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 425,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 294,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 564,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 409,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 417,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8"
+        ]
+      }
+    ],
+    "scaled_zero_safe_entry_rule": "evaluate Phi_1(z)=2*z*K1(z) with the recorded support scale before division; never evaluate raw K1 at a zero face",
+    "unique_column_coalescence_masks": 16,
+    "unique_kernel_zero_masks": 49,
+    "unique_row_coalescence_masks": 16,
+    "upper_triangle_entries_covered": 1296
+  },
+  "decision": {
+    "all_1296_gram_entry_faces_classified": true,
+    "complete_order_eight_integral_emitted": false,
+    "complete_order_eight_remainder_emitted": false,
+    "group_level_node_evaluator_emitted": false,
+    "native_order_eight_positive_value_rule_emitted": true,
+    "next_exact_input": "evaluate every K343 order-eight upper-triangle Gram entry at the native 1/256 node, restore each complete c_G^T K_G c_G, and only then integrate the eighteen positive Peano second-derivative terms over this face atlas"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K343_group_interface_sha256": "sha256:e89b29f7d8a8d08cf3e900dc0a50d189cfc8fd515d5403c18d30e2431aa6ae6f",
+    "coherent_groups": 23,
+    "laplace_shift": 256,
+    "maximum_species_determinant_rank": 4,
+    "order": 8,
+    "paths": 192,
+    "positive_time_variables": 18,
+    "predecessor_manifests": [
+      "lab/process/k279-higher-order-andreief-structural-closure.json",
+      "lab/process/k343-higher-order-value-mode-transfer-gate.json"
+    ],
+    "upper_triangle_gram_entries": 1296
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "positive_product_gauss_laguerre_rule": {
+    "all_weights_strictly_positive": true,
+    "axis_node": "1/256",
+    "axis_rule": "integral_0^infinity exp(-256*x) h(x) dx = h(1/256)/256 + integral_0^infinity K_256(t) h''(t) dt",
+    "axis_weight": "1/256",
+    "measure": "product_{a=1}^9 exp(-256*s_a) ds_a product_{b=1}^9 exp(-256*v_b) dv_b",
+    "multiaffine_exact": true,
+    "node": [
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256"
+    ],
+    "node_count": 1,
+    "peano_kernel": {
+      "for_0_le_t_le_1_over_256": "exp(-256*t)/256^2-(1/256-t)/256",
+      "for_t_ge_1_over_256": "exp(-256*t)/256^2",
+      "integral": "1/33554432",
+      "maximum_derivative_order": 2,
+      "nonnegative": true,
+      "zero_order_at_t_0": 2
+    },
+    "product_weight": "1/22300745198530623141535718272648361505980416",
+    "separately_affine_exact": true
+  },
+  "radial_angular_replay": {
+    "combined_angular_weight": "1/355687428096000",
+    "left_simplex_node": [
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9"
+    ],
+    "node_replays_all_eighteen_times_at_1_over_256": true,
+    "radial_density": "exp(-256*rho)*rho^17",
+    "radial_node": "9/128",
+    "radial_times_angular_weight_equals_product_weight": true,
+    "radial_weight": "10854718875/680564733841876926926749214863536422912",
+    "rho": "sum(s_1..s_9)+sum(v_1..v_9)",
+    "right_simplex_node": [
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9",
+      "1/9"
+    ],
+    "theta_node": "1/2"
+  },
+  "release_test": {
+    "K343_interface_digest_replayed": true,
+    "all_1296_order_eight_entries_covered": true,
+    "all_192_order_eight_paths_replayed": true,
+    "all_23_order_eight_groups_replayed": true,
+    "all_zero_and_coalescence_faces_have_exact_support_masks": true,
+    "complete_order_eight_integral_emitted": false,
+    "native_K152_interval_emitted": false,
+    "positive_one_node_rule_exactly_normalized": true
+  },
+  "remainder_interface": {
+    "face_atlas_complete_for_kernel_zeros_and_determinant_coalescences": true,
+    "global_second_derivative_integrals_computed": false,
+    "mixed_derivatives_required": false,
+    "positive_kernel_all_axes": true,
+    "pure_second_derivative_axes": 18,
+    "tensor_identity": "I_1...I_18-Q_1...Q_18=sum_j Q_1...Q_(j-1)(I_j-Q_j)I_(j+1)...I_18"
+  },
+  "result_id": "K344-ORDER-EIGHT-GAUSS-LAGUERRE-FACE-ATLAS",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

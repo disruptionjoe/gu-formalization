@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d193603196813dcb76ebe50d2eac3debd400627e
+revision_basis: 11418da1445a92211900a34e7219d781f39bf03f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -322,6 +322,21 @@ current_result:
     therefore order-seven data, not a generic higher-order integrator. The
     direct literal-reuse route is rejected. No higher-order numerical value,
     complete action column, `R_ref` residual or K152 interval is emitted.
+
+    K344 derives the missing order-eight rule directly on K279's eighteen
+    positive Laplace times. The product Gauss--Laguerre node and weight are
+    `1/256` on every axis, giving total weight `256^-18`; the equivalent
+    radial/angular node is `rho=9/128`, `theta=1/2` with both simplex
+    barycenters. Its exact support atlas covers all 1,296 order-eight Gram
+    entries with 49 Bessel-zero masks and 16 row plus 16 column determinant-
+    coalescence masks. K345 evaluates every entry and all 2,400 ordered
+    coefficient terms in 23 complete coherent groups at 180-digit Arb
+    precision. After applying `256^-18` and `(2*pi)^-10` once, the rigorous
+    signed one-node value is
+    `[3.1047016409619726e-35,3.1047016409619737e-35]`. This is the cubature
+    rule value, not the full order-eight integral: the eighteen positive
+    pure-second Peano remainder integrals remain open. No complete action
+    column, `R_ref` residual or K152 interval is emitted.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9570,23 +9585,26 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K343 proves that K341 is not a dimension-free higher-order integrator. It
-  replays all 2,720 order-eight-through-twelve paths, 128 groups and 58,826
-  upper-triangle Gram entries into exact coherent forms `c_G^T K_G c_G`, with
-  every coefficient, contracted position and cross term preserved. Order
-  eight stays within determinant rank four but needs a native order-eight
-  cubature/face atlas and group-level interval evaluator. Order nine is the
-  first rank-five case; orders eleven and twelve reach rank six. Construct the
-  order-eight native value rule on K343's exact interface and validate all
-  1,296 order-eight Gram entries before building the rank-five order-nine
-  calculus. Only then extend through order twelve, compose the complete base
-  action column, and construct the complete R_ref residual before considering
-  a native K152 interval.
+  K344--K345 construct and evaluate the native order-eight positive one-node
+  rule. All eighteen Laplace times are sampled at `1/256` with total weight
+  `256^-18`; exact suffix/intervening-axis masks own every Bessel-zero and
+  determinant-coalescence face. All 1,296 upper-triangle Gram entries and
+  2,400 ordered terms evaluate coherently, giving the normalized signed rule
+  interval `[3.1047016409619726e-35,3.1047016409619737e-35]`. This is not the
+  complete order-eight integral. Construct complete group-level first and
+  second directional entry banks along each of K344's eighteen axes, take
+  scaled limits on the exact zero/coalescence faces, and integrate the
+  positive Gauss--Laguerre Peano kernels. Join that remainder to K345 only
+  after all eighteen terms close. Then build the rank-five order-nine
+  calculus, extend through rank-six orders eleven/twelve, compose the complete
+  base action column, and construct the complete R_ref residual before any
+  native K152 interval.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
   pointwise bank. Do not reuse K305's four groups, K299's six-axis weights,
   K340's eight-split atlas, K334's twelve-cell cover or K341's `(2*pi)^-9`
-  factor as order-independent data. K343 emits no higher-order number.
+  factor as order-independent data. Do not treat K345's node interval as a
+  full-integral enclosure.
 
   K279 proves that every unresolved K179 order-seven-through-twelve coherent
   Gram entry has a factorial-free species-determinant representation and an
@@ -9829,14 +9847,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K343 as the accepted higher-order transfer gate. Preserve its exact
-  2,720-path, 128-group, 58,826-entry interface and form every `c_G^T K_G c_G`
-  before absolute enclosure. Construct an order-eight native value cubature,
-  face atlas and group-level interval evaluator and validate all 1,296 order-
-  eight Gram entries. Reuse only the K279 factorial-free kernel and the proved
-  rank-at-most-four Bessel calculus; do not reuse K305/K299/K340/K334/K341
+  Treat K343 as the accepted higher-order transfer gate and K344--K345 as the
+  accepted order-eight native node rule and complete coherent evaluator.
+  Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
+  normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
+  entries and all 2,400 ordered terms. The next gate is the complete eighteen-
+  axis positive Peano remainder: differentiate whole group quadratic forms,
+  use scaled zero-safe limits on K344's exact faces, and integrate each pure-
+  second term before joining K345. Do not reuse K305/K299/K340/K334/K341
   order-seven group counts, weights, split atlas, cover or normalization as
-  generic inputs. After order eight, build the rank-five calculus required by
+  generic inputs, and do not promote the node value to a full integral. After
+  the order-eight remainder closes, build the rank-five calculus required by
   order nine and the rank-six calculus required by orders eleven and twelve.
   Compose the complete base action column and `R_ref` residual only after all
   order-specific value and remainder obligations close.

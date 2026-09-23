@@ -1,0 +1,328 @@
+{
+  "assembly_contract": {
+    "K299_weight_reused": false,
+    "K341_normalization_reused": false,
+    "all_1296_transpose_symmetry_checks_pass": true,
+    "all_1296_upper_triangle_entries_evaluated": true,
+    "all_2400_ordered_terms_independently_replayed": true,
+    "all_coefficients_retained": true,
+    "all_coherent_cross_terms_retained": true,
+    "all_contracted_positions_retained": true,
+    "complete_group_quadratic_form_precedes_enclosure": true,
+    "occurrencewise_absolute_value_used": false,
+    "off_diagonal_terms_doubled_exactly_once": true,
+    "raw_Bessel_zero_evaluation_used": false,
+    "strictly_positive_individual_gram_entries": 1296
+  },
+  "claim_ceiling": "Rigorous Arb interval evaluation of the complete K344 order-eight positive one-node rule. All 1296 upper-triangle Gram entries and 2400 ordered coefficient terms are replayed in 23 coherent groups; the native product weight 256^-18 and prefactor (2*pi)^-10 give a strictly positive rule value in [3.1047016409619726e-35,3.1047016409619737e-35]. The eighteen positive Peano remainder integrals are not yet bounded, so this is not an enclosure of the complete order-eight integral and supplies no complete action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "coherent_group_values": [
+    {
+      "coherent_node_value_lower": "223041929723645.4",
+      "coherent_node_value_upper": "223041929723645.47",
+      "entry_interval_sha256": "sha256:dc8efaffb6e7ae056ccbe6c7c3edf8b01061d8f9fc40c25fbe1810750f6a8b3e",
+      "group_id": "order8:seed0:d=0|1+^1,1-^1,2+^3,2-^3",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "5.6288294778238456e+16",
+      "coherent_node_value_upper": "5.628829477823847e+16",
+      "entry_interval_sha256": "sha256:e321323c0b8b6a5d87377ecbab14f1377d8dc7b7c8aec5a10d05b545303e6b6b",
+      "group_id": "order8:seed0:d=0|1+^2,1-^2,2+^2,2-^2",
+      "ordered_quadratic_terms": 576,
+      "path_count": 24,
+      "upper_triangle_entries": 300
+    },
+    {
+      "coherent_node_value_lower": "223041929723645.4",
+      "coherent_node_value_upper": "223041929723645.47",
+      "entry_interval_sha256": "sha256:e8c8908ce445829ba07bac1906ee01f4b816584733439ffbb9ea4c0c9001ed29",
+      "group_id": "order8:seed0:d=0|1+^3,1-^3,2+^1,2-^1",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "670501.0942513583",
+      "coherent_node_value_upper": "670501.0942513585",
+      "entry_interval_sha256": "sha256:d881bc680ad383f645f0a203c9519506081c9cabb54281a9fab2658b4f013536",
+      "group_id": "order8:seed0:d=0|1+^4,1-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "670501.0942513583",
+      "coherent_node_value_upper": "670501.0942513585",
+      "entry_interval_sha256": "sha256:bd9ebb5ffe6316b978b4d40a93a1b0046b8398f2870cc2e609d10fc2122f312e",
+      "group_id": "order8:seed0:d=0|2+^4,2-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "105256843480370.89",
+      "coherent_node_value_upper": "105256843480370.92",
+      "entry_interval_sha256": "sha256:b1ce8a2e7f1ffc768ad0f7af212cfb232d13c4aac57015fb5011fceefccec7a7",
+      "group_id": "order8:seed1:d=1|1+^1,1-^1,2+^3,2-^3",
+      "ordered_quadratic_terms": 49,
+      "path_count": 7,
+      "upper_triangle_entries": 28
+    },
+    {
+      "coherent_node_value_lower": "2721377680106065.5",
+      "coherent_node_value_upper": "2721377680106066.5",
+      "entry_interval_sha256": "sha256:46a35563e148bc2b53afd8b297d1795ea5162bdc9508cdb7ef4ac2213b1fdaef",
+      "group_id": "order8:seed1:d=1|1+^2,1-^2,2+^2,2-^2",
+      "ordered_quadratic_terms": 225,
+      "path_count": 15,
+      "upper_triangle_entries": 120
+    },
+    {
+      "coherent_node_value_lower": "64645048818725.87",
+      "coherent_node_value_upper": "64645048818725.88",
+      "entry_interval_sha256": "sha256:4ec6fdd6421b92e2fd205d780d1013626b009f1a0400f76687b1028e36d5be44",
+      "group_id": "order8:seed1:d=1|1+^3,1-^3,2+^1,2-^1",
+      "ordered_quadratic_terms": 169,
+      "path_count": 13,
+      "upper_triangle_entries": 91
+    },
+    {
+      "coherent_node_value_lower": "670501.0942513583",
+      "coherent_node_value_upper": "670501.0942513585",
+      "entry_interval_sha256": "sha256:e988642e3fd305c3fcb6c8f2eeebfec1d6c2824254b627dc3a1da0db4dc1055e",
+      "group_id": "order8:seed1:d=1|1+^4,1-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "22052562.569042563",
+      "coherent_node_value_upper": "22052562.56904257",
+      "entry_interval_sha256": "sha256:cbaa18cb04722d6121bfb3488491e9032af40933341114135aaa358b20218ede",
+      "group_id": "order8:seed1:d=1|2+^4,2-^4",
+      "ordered_quadratic_terms": 1,
+      "path_count": 1,
+      "upper_triangle_entries": 1
+    },
+    {
+      "coherent_node_value_lower": "1919118663.6634398",
+      "coherent_node_value_upper": "1919118663.6634402",
+      "entry_interval_sha256": "sha256:c329f9fad947ff7541cbea6926ef20255615e44ebee3be76994d9b304a25d51a",
+      "group_id": "order8:seed1:d=2|1+^1,2+^3,2-^4",
+      "ordered_quadratic_terms": 9,
+      "path_count": 3,
+      "upper_triangle_entries": 6
+    },
+    {
+      "coherent_node_value_lower": "765854976936977.1",
+      "coherent_node_value_upper": "765854976936977.4",
+      "entry_interval_sha256": "sha256:09039de0a497964a9ed31c6fe839cd8a562fe170f071b378cd99eb716b278469",
+      "group_id": "order8:seed1:d=2|1+^2,1-^1,2+^2,2-^3",
+      "ordered_quadratic_terms": 81,
+      "path_count": 9,
+      "upper_triangle_entries": 45
+    },
+    {
+      "coherent_node_value_lower": "1171399544271825.5",
+      "coherent_node_value_upper": "1171399544271826.0",
+      "entry_interval_sha256": "sha256:760e6afc5aafad0b3f94377d50cd7bea003c05d9b472920d14f871c40c14c71e",
+      "group_id": "order8:seed1:d=2|1+^3,1-^2,2+^1,2-^2",
+      "ordered_quadratic_terms": 81,
+      "path_count": 9,
+      "upper_triangle_entries": 45
+    },
+    {
+      "coherent_node_value_lower": "1969962505832.5212",
+      "coherent_node_value_upper": "1969962505832.5217",
+      "entry_interval_sha256": "sha256:29443e836b89cd701882cd519f7a1b4d56b49a54dba3afd99793f96919bfd5fe",
+      "group_id": "order8:seed1:d=2|1+^4,1-^3,2-^1",
+      "ordered_quadratic_terms": 9,
+      "path_count": 3,
+      "upper_triangle_entries": 6
+    },
+    {
+      "coherent_node_value_lower": "1171399544271825.5",
+      "coherent_node_value_upper": "1171399544271826.0",
+      "entry_interval_sha256": "sha256:525958873d0793344f2e29dbe5afc3a58ce1e0f1fa0d536711eb43dc2ae00834",
+      "group_id": "order8:seed2:d=1|1+^1,1-^2,2+^3,2-^2",
+      "ordered_quadratic_terms": 81,
+      "path_count": 9,
+      "upper_triangle_entries": 45
+    },
+    {
+      "coherent_node_value_lower": "765854976936977.1",
+      "coherent_node_value_upper": "765854976936977.4",
+      "entry_interval_sha256": "sha256:4d45ffd312b73ebe0c520c19c12fb865775878a42e864d8348c9be6828390a59",
+      "group_id": "order8:seed2:d=1|1+^2,1-^3,2+^2,2-^1",
+      "ordered_quadratic_terms": 81,
+      "path_count": 9,
+      "upper_triangle_entries": 45
+    },
+    {
+      "coherent_node_value_lower": "1919118663.6634398",
+      "coherent_node_value_upper": "1919118663.6634402",
+      "entry_interval_sha256": "sha256:e2b38f970516a5a5b3d279c0eda572ed5a833852976fe46643e71e7356f82221",
+      "group_id": "order8:seed2:d=1|1+^3,1-^4,2+^1",
+      "ordered_quadratic_terms": 9,
+      "path_count": 3,
+      "upper_triangle_entries": 6
+    },
+    {
+      "coherent_node_value_lower": "1969962505832.5212",
+      "coherent_node_value_upper": "1969962505832.5217",
+      "entry_interval_sha256": "sha256:be3197ef6f016bc7d8b0e2ba95ba70ad7d15e69eef83e8fe58972f9edbc3f175",
+      "group_id": "order8:seed2:d=1|1-^1,2+^4,2-^3",
+      "ordered_quadratic_terms": 9,
+      "path_count": 3,
+      "upper_triangle_entries": 6
+    },
+    {
+      "coherent_node_value_lower": "64645048818725.87",
+      "coherent_node_value_upper": "64645048818725.88",
+      "entry_interval_sha256": "sha256:3417371b42710d80708ec3988d82ec0f5835e8ed4b70f60e073a80b20fafd2cc",
+      "group_id": "order8:seed2:d=2|1+^1,1-^1,2+^3,2-^3",
+      "ordered_quadratic_terms": 169,
+      "path_count": 13,
+      "upper_triangle_entries": 91
+    },
+    {
+      "coherent_node_value_lower": "2721377680106065.5",
+      "coherent_node_value_upper": "2721377680106066.5",
+      "entry_interval_sha256": "sha256:2d52b96c955926994b0683326fa7cd1029da380d137ea6d1004620b12e6e6129",
+      "group_id": "order8:seed2:d=2|1+^2,1-^2,2+^2,2-^2",
+      "ordered_quadratic_terms": 225,
+      "path_count": 15,
+      "upper_triangle_entries": 120
+    },
+    {
+      "coherent_node_value_lower": "105256843480370.89",
+      "coherent_node_value_upper": "105256843480370.92",
+      "entry_interval_sha256": "sha256:3f561957f26e99773785dc14b931838cc38525ba9a7fb7fc08de12ed6977cb31",
+      "group_id": "order8:seed2:d=2|1+^3,1-^3,2+^1,2-^1",
+      "ordered_quadratic_terms": 49,
+      "path_count": 7,
+      "upper_triangle_entries": 28
+    },
+    {
+      "coherent_node_value_lower": "22052562.569042563",
+      "coherent_node_value_upper": "22052562.56904257",
+      "entry_interval_sha256": "sha256:29f1a93eabd360707229804636250c7cbca6671248d074438a332c1df2a30479",
+      "group_id": "order8:seed2:d=2|1+^4,1-^4",
+      "ordered_quadratic_terms": 1,
+      "path_count": 1,
+      "upper_triangle_entries": 1
+    },
+    {
+      "coherent_node_value_lower": "670501.0942513583",
+      "coherent_node_value_upper": "670501.0942513585",
+      "entry_interval_sha256": "sha256:556b707c8afb5ad100624d5e182ca4787ef33d1aeeb893ead490defc983aa2ef",
+      "group_id": "order8:seed2:d=2|2+^4,2-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    }
+  ],
+  "complete_node_evaluation": {
+    "all_entry_interval_sha256": "sha256:ea486c6f07d9554409bd4b4a6748bf16df8b103e0a3fc0cf4507c5e33743b6c0",
+    "native_prefactor_interval_lower": "1.0428007057481965e-08",
+    "native_prefactor_interval_upper": "1.0428007057481968e-08",
+    "native_product_weight": "1/22300745198530623141535718272648361505980416",
+    "normalized_one_node_rule_lower": "3.1047016409619726e-35",
+    "normalized_one_node_rule_upper": "3.1047016409619737e-35",
+    "raw_complete_quadratic_form_lower": "6.63953906349498e+16",
+    "raw_complete_quadratic_form_upper": "6.6395390634949816e+16",
+    "signed_rule_value_is_strictly_positive": true,
+    "symmetric_enclosure_if_sign_is_discarded": [
+      "-3.1047016409619737e-35",
+      "3.1047016409619737e-35"
+    ]
+  },
+  "created": "2026-09-22",
+  "decision": {
+    "all_1296_order_eight_gram_entries_validated": true,
+    "complete_R_ref_residual_evaluated": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_group_level_interval_evaluator_emitted": true,
+    "complete_order_eight_integral_emitted": false,
+    "native_K152_interval_emitted": false,
+    "normalized_order_eight_one_node_value_emitted": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K343_group_interface_sha256": "sha256:e89b29f7d8a8d08cf3e900dc0a50d189cfc8fd515d5403c18d30e2431aa6ae6f",
+    "K344_face_atlas_sha256": "sha256:2cb58a2ea7e0de1f4433c0c5da46922988e73e9ad5aa46d2373d4341e32420dd",
+    "arb_decimal_digits": 180,
+    "coherent_groups": 23,
+    "maximum_species_determinant_rank": 4,
+    "native_prefactor": "(2*pi)^-10",
+    "native_product_weight": "1/22300745198530623141535718272648361505980416",
+    "native_time_node": [
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256"
+    ],
+    "order": 8,
+    "ordered_quadratic_terms": 2400,
+    "paths": 192,
+    "predecessor_manifests": [
+      "lab/process/k343-higher-order-value-mode-transfer-gate.json",
+      "lab/process/k344-order-eight-gauss-laguerre-face-atlas.json"
+    ],
+    "threads": 1,
+    "upper_triangle_gram_entries": 1296
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_1296_upper_triangle_entries_evaluated": true,
+    "all_192_paths_replayed": true,
+    "all_23_groups_replayed": true,
+    "all_2400_ordered_terms_replayed": true,
+    "complete_order_eight_integral_emitted": false,
+    "every_gram_entry_is_strictly_positive_at_the_native_node": true,
+    "native_K152_interval_emitted": false,
+    "normalized_rule_value_is_finite_positive": true,
+    "upper_triangle_equals_full_ordered_replay": true
+  },
+  "remainder_boundary": {
+    "K344_face_atlas_consumed_for_node_evaluation": true,
+    "K344_positive_Peano_axes": 18,
+    "complete_order_eight_remainder_radius_emitted": false,
+    "global_second_derivative_integrals_computed": false,
+    "next_exact_input": "differentiate the complete group quadratic forms twice along each of K344's eighteen Gauss--Laguerre axes, use the exact zero/coalescence masks for scaled face limits, and integrate the positive Peano kernels before joining this node value",
+    "one_node_rule_value_is_not_the_full_order_eight_integral": true
+  },
+  "result_id": "K345-ORDER-EIGHT-GROUP-INTERVAL-EVALUATOR",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

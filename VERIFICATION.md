@@ -7,6 +7,32 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K344--K345 order-eight native value rule (2026-09-22)
+
+K344 derives a one-node product Gauss--Laguerre rule directly on the eighteen
+positive K279 order-eight Laplace times. Every axis has node and weight
+`1/256`, so the total weight is `256^-18`. The equivalent radial/angular node
+is `rho=9/128`, `theta=1/2` with both nine-coordinate simplex barycenters.
+Its exact face atlas covers all `1,296` K343 Gram entries with `49` distinct
+Bessel-zero support masks, `16` row-coalescence masks and `16` column-
+coalescence masks. The rule has eighteen positive pure-second Peano remainder
+terms; their global derivative integrals are not yet bounded.
+
+K345 evaluates all `1,296` upper-triangle Gram entries in 180-digit Arb,
+restores all `2,400` ordered coefficient terms in `23` complete coherent
+quadratic forms, and applies `256^-18` and `(2*pi)^-10` exactly once. Every
+node Gram entry is strictly positive, all transpose checks pass, and the full
+ordered replay agrees with upper-triangle reconstruction. The normalized
+one-node value is rigorously enclosed by
+`[3.1047016409619726e-35,3.1047016409619737e-35]`. An independent SciPy
+double-precision determinant replay agrees within its declared tolerance.
+The K344 probe passes `15/15` controls and rejects `17/17` hostile mutations;
+the K345 probe passes `16/16` controls and rejects `19/19` hostile mutations.
+This interval is the value of the
+positive cubature rule, not an enclosure of the complete order-eight integral.
+No complete action column, `R_ref`, K152 interval, source/ledger, canon, paper,
+public, or physical result follows.
+
 ## K343 higher-order value-mode transfer gate (2026-09-22)
 
 K343 deterministically replays all `2,720` K179 paths, `128` coherent groups

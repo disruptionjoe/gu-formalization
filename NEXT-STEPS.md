@@ -20,6 +20,20 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K344--K345 ORDER-EIGHT NATIVE VALUE RULE.** K344 replaces a
+> false order-seven port with the native eighteen-axis product Gauss--Laguerre
+> rule: node and weight `1/256` on every time axis, total weight `256^-18`,
+> plus exact cumulative-time zero/coalescence masks for all `1,296` Gram
+> entries. K345 evaluates every entry and all `2,400` ordered terms in `23`
+> coherent groups, giving the rigorous normalized node value
+> `[3.1047016409619726e-35,3.1047016409619737e-35]`. This is not the full
+> order-eight integral. Next build the eighteen complete group-level pure-
+> second derivative banks, take scaled limits on K344's face atlas and
+> integrate the positive Peano kernels. Only after that remainder closes may
+> order eight join the action column or rank-five order-nine calculus begin.
+> Do not reuse K299/K305/K334/K340/K341 data, absolutize occurrences, or infer
+> a K152, source, ledger, canon, paper, public or physical result.
+
 > **2026-09-22 K343 HIGHER-ORDER VALUE-MODE TRANSFER GATE.** K343 replays all
 > `2,720` K179 paths, `128` coherent groups and `58,826` upper-triangle Gram
 > entries at orders eight through twelve into exact `c_G^T K_G c_G` interfaces.

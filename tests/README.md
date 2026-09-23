@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K344--K345 order-eight native value rule
+
+- `channel-swings/k344_order_eight_gauss_laguerre_face_atlas.py` derives the
+  eighteen-axis positive one-node rule and classifies every cumulative-time
+  Bessel-zero and determinant-coalescence face across the complete K343
+  order-eight interface; its probe pins normalization, coverage and scope.
+- `channel-swings/k345_order_eight_group_interval_evaluator.py` evaluates all
+  1,296 upper-triangle entries in Arb, independently replays all 2,400 ordered
+  terms, and emits the normalized `(2*pi)^-10` node value; its probe adds an
+  independent SciPy determinant replay and hostile controls.
+
 ## K343 higher-order value-mode transfer gate
 
 - `channel-swings/k343_higher_order_value_mode_transfer_gate.py` replays every
