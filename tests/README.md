@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K346--K348 order-eight axis jets and Peano contract
+
+- `channel-swings/k346_order_eight_axis_jet_compiler.py` compiles all 2,400
+  ordered directional entries on all eighteen axes and preserves exact
+  determinant/coherent assembly; its probe rejects the symmetric-node
+  upper-triangle shortcut.
+- `channel-swings/k347_order_eight_node_directional_jet_bank.py` evaluates all
+  43,200 ordered entry-axis jets in Arb; its probe independently replays
+  representative derivatives by high-precision finite differences.
+- `channel-swings/k348_order_eight_positive_peano_contract.py` emits the exact
+  positive one-axis kernel, mass and eighteen-term tensor obligation while
+  forbidding local-node substitution for global derivative integrals.
+
 ## K344--K345 order-eight native value rule
 
 - `channel-swings/k344_order_eight_gauss_laguerre_face_atlas.py` derives the

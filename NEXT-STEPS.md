@@ -20,6 +20,19 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K346--K348 ORDER-EIGHT AXIS JETS AND PEANO CONTRACT.** K346
+> maps every primitive Bessel argument onto all eighteen raw-time axes and
+> rejects upper-triangle doubling for derivatives: all `2,400` ordered terms
+> are required off the symmetric node. K347 evaluates all `43,200` ordered
+> entry-axis value/first/second jets in 180-digit Arb; an independent high-
+> precision finite-difference replay confirms the repaired interface. K348
+> freezes the exact eighteen-term tensor identity and positive kernel mass
+> `1/33554432`. These local jets are not global bounds. Next build a zero-safe
+> whole-orthant determinant-preserving interval atlas for the eighteen hybrid
+> pure-second integrals, then join them to K345. Do not restore upper-triangle
+> doubling, substitute node curvature for a global integral, or infer a full
+> order-eight, action-column, K152, source, ledger, canon or physical result.
+
 > **2026-09-22 K344--K345 ORDER-EIGHT NATIVE VALUE RULE.** K344 replaces a
 > false order-seven port with the native eighteen-axis product Gauss--Laguerre
 > rule: node and weight `1/256` on every time axis, total weight `256^-18`,

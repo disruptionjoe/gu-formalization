@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 11418da1445a92211900a34e7219d781f39bf03f
+revision_basis: 3560e6470bc08f67b56478780c1b2bd7911d6ba3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -337,6 +337,23 @@ current_result:
     rule value, not the full order-eight integral: the eighteen positive
     pure-second Peano remainder integrals remain open. No complete action
     column, `R_ref` residual or K152 interval is emitted.
+
+    K346--K348 construct the complete local differentiation interface for that
+    remainder without confusing node data with a global bound. K346 maps every
+    old-position and determinant primitive kernel to its exact raw-time suffix
+    on all eighteen axes. An initial upper-triangle derivative port is rejected:
+    off the symmetric node, the two ordered orientations of an off-diagonal
+    Gram entry have different one-sided jets. The repaired interface therefore
+    retains all 2,400 ordered terms on every axis. K347 evaluates all 43,200
+    ordered entry-axis value/first/second jets in 180-digit Arb and replays
+    K345's value coefficient. Complete left/right jets agree after ordered
+    assembly; positions one through five have negative complete second
+    derivatives at the node, while positions six through nine are positive.
+    K348 freezes the exact eighteen-term tensor Peano identity and kernel mass
+    `1/33554432`. These are local controls and an exact integration contract,
+    not the global hybrid derivative integrals. A zero-safe whole-orthant
+    determinant-preserving interval atlas remains required before a complete
+    order-eight remainder or integral can be emitted.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9585,17 +9602,22 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K344--K345 construct and evaluate the native order-eight positive one-node
+  K344--K348 construct the native order-eight positive one-node rule, its exact
+  face atlas, the complete ordered node-jet bank and the tensor Peano contract.
   rule. All eighteen Laplace times are sampled at `1/256` with total weight
   `256^-18`; exact suffix/intervening-axis masks own every Bessel-zero and
   determinant-coalescence face. All 1,296 upper-triangle Gram entries and
   2,400 ordered terms evaluate coherently, giving the normalized signed rule
   interval `[3.1047016409619726e-35,3.1047016409619737e-35]`. This is not the
-  complete order-eight integral. Construct complete group-level first and
-  second directional entry banks along each of K344's eighteen axes, take
-  scaled limits on the exact zero/coalescence faces, and integrate the
-  positive Gauss--Laguerre Peano kernels. Join that remainder to K345 only
-  after all eighteen terms close. Then build the rank-five order-nine
+  complete order-eight integral. K346 proves that all 2,400 ordered
+  orientations, not only the 1,296 symmetric-node upper-triangle entries, are
+  required for directional differentiation. K347 supplies all 43,200 local
+  ordered entry-axis jets, and K348 fixes the exact positive kernel mass and
+  eighteen hybrid integrals. Construct a zero-safe whole-orthant interval
+  atlas for those complete coherent pure-second functionals, take scaled
+  limits on K344's exact zero/coalescence faces, and integrate the K348
+  kernels. Join that remainder to K345 only after all eighteen terms close.
+  Then build the rank-five order-nine
   calculus, extend through rank-six orders eleven/twelve, compose the complete
   base action column, and construct the complete R_ref residual before any
   native K152 interval.
@@ -9847,14 +9869,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K343 as the accepted higher-order transfer gate and K344--K345 as the
-  accepted order-eight native node rule and complete coherent evaluator.
+  Treat K343 as the accepted higher-order transfer gate, K344--K345 as the
+  accepted order-eight native node rule and complete coherent evaluator, and
+  K346--K348 as the accepted ordered directional-jet and tensor Peano
+  interface.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
-  entries and all 2,400 ordered terms. The next gate is the complete eighteen-
-  axis positive Peano remainder: differentiate whole group quadratic forms,
-  use scaled zero-safe limits on K344's exact faces, and integrate each pure-
-  second term before joining K345. Do not reuse K305/K299/K340/K334/K341
+  entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
+  next gate is a zero-safe whole-orthant interval atlas for the complete
+  eighteen-axis positive Peano remainder. Preserve both ordered orientations,
+  use scaled limits on K344's exact faces, and integrate each K348 pure-second
+  hybrid term before joining K345. Do not substitute K347's node jets for
+  global norms or reuse K305/K299/K340/K334/K341
   order-seven group counts, weights, split atlas, cover or normalization as
   generic inputs, and do not promote the node value to a full integral. After
   the order-eight remainder closes, build the rank-five calculus required by

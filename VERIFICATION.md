@@ -7,6 +7,32 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K346--K348 order-eight axis jets and Peano contract (2026-09-22)
+
+K346 compiles the exact raw-time incidence of every old-position and
+species-determinant kernel on all eighteen order-eight axes. An independent
+control rejects upper-triangle doubling for directional derivatives: although
+the node Gram matrix is symmetric, off-node ordered orientations have distinct
+one-sided jets. The accepted interface therefore retains all `2,400` ordered
+terms per axis while replaying the `1,296` symmetric-node entries.
+
+K347 evaluates all `43,200` ordered entry-axis value/first/second jets in
+180-digit Arb. Complete left and right jets agree after ordered coherent
+assembly, K345's value coefficient is replayed, and a separate high-precision
+finite-difference implementation confirms representative edge and interior
+axes. The normalized weighted complete second derivative is negative at node
+positions one through five and positive at positions six through nine. These
+are local controls, not global derivative bounds.
+
+K348 proves the exact product-error identity requires eighteen pure-second
+hybrid integrals and no mixed derivatives. The one-axis Peano kernel is
+nonnegative, continuous at `1/256`, has a double zero at the origin and exact
+mass `1/33554432`. K346, K347 and K348 probes pass `12/12`, `8/8` and `12/12`
+controls and reject `15/15`, `15/15` and `16/16` hostile mutations. The
+zero-safe whole-orthant interval atlas and all global Peano integrals remain
+open, so no complete order-eight integral or downstream physical claim is
+proved.
+
 ## K344--K345 order-eight native value rule (2026-09-22)
 
 K344 derives a one-node product Gauss--Laguerre rule directly on the eighteen
