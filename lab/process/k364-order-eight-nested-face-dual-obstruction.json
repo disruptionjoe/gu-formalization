@@ -1,0 +1,4829 @@
+{
+  "claim_ceiling": "Exact exhaustion of the 146 same-rank entrywise-comparable pairs among K352's 34 determinant singular templates. Twelve pairs have no coordinatewise monotone optimal binary dual and no such optimal integral gauge; every forced scalar repair overextracts exactly one inner power, which is unsafe because K353 has zero-margin faces. The same replay proves that row/column confluent orders plus the active second derivative require scaled 2*K1 derivatives through order eight. This rejects naive scalar dual nesting, not the determinant, the face integral or the order-eight route. A multiscale determinant exponent interface, zero-safe order-eight derivative bank, uniform strip bound, recursive cover, tails, complete hybrids and downstream scientific claims remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "comparable_pair_bank": [
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S01",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S00",
+      "rank": 1,
+      "scalar_repair_inner_columns": [
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S03",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S02",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S04",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S02",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S05",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S02",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S06",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S02",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S04",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S03",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S05",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S03",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S06",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S03",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S06",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S04",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S06",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S05",
+      "rank": 2,
+      "scalar_repair_inner_columns": [
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S08",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S09",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S10",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S11",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S12",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S13",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S14",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S15",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S07",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S09",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S10",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S11",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S12",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S13",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S14",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S15",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S08",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S10",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S09",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S12",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S09",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S13",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S09",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S15",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S09",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S09",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S13",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S10",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S10",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S12",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S11",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S13",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S11",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S14",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S11",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S15",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S11",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S11",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S13",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S12",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S15",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S12",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S12",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S13",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S15",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S14",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S14",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S16",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S15",
+      "rank": 3,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S18",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S19",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S20",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S21",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S22",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S23",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S24",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S26",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S27",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S30",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 0,
+      "outer_template_id": "S17",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S19",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S20",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S21",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S22",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S23",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S24",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S26",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S27",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S30",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S18",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S20",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S21",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S23",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S24",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S27",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S19",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S21",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S20",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S24",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S20",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S20",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S20",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S20",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S20",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S20",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S21",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S21",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S21",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S23",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S24",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S26",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S27",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S30",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S22",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S24",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S27",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S23",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S25",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S24",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S24",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S24",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S24",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S24",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S25",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S25",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S27",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S26",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S26",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S26",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 1,
+      "inner_template_id": "S30",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S26",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S26",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S26",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S26",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S28",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S27",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 1,
+      "monotone_optimal_binary_dual_exists": false,
+      "monotone_optimal_integer_gauge_dual_exists": false,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S27",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S27",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S27",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S27",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S29",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 3,
+      "outer_template_id": "S28",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 3,
+      "outer_template_id": "S28",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 3,
+      "outer_template_id": "S28",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 3,
+      "outer_template_id": "S29",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_inner_rows": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        1,
+        1,
+        1
+      ]
+    },
+    {
+      "inner_assignment_optimum": 2,
+      "inner_template_id": "S31",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S30",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S30",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 1,
+      "outer_template_id": "S30",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 3,
+      "inner_template_id": "S32",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S31",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 2,
+      "outer_template_id": "S31",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        0,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "inner_assignment_optimum": 4,
+      "inner_template_id": "S33",
+      "minimum_forced_inner_overextraction": 0,
+      "monotone_optimal_binary_dual_exists": true,
+      "monotone_optimal_integer_gauge_dual_exists": true,
+      "outer_assignment_optimum": 3,
+      "outer_template_id": "S32",
+      "rank": 4,
+      "scalar_repair_inner_columns": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_inner_rows": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "scalar_repair_outer_columns": [
+        0,
+        1,
+        1,
+        1
+      ],
+      "scalar_repair_outer_rows": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  ],
+  "confluent_derivative_demand": {
+    "K349_current_maximum_order": 2,
+    "active_peano_derivative_order": 2,
+    "maximum_column_divided_difference_order": 3,
+    "maximum_kernel_derivative_order_required": 8,
+    "maximum_row_divided_difference_order": 3,
+    "required_orders": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  },
+  "created": "2026-09-23",
+  "decision": {
+    "determinant_preserving_multiscale_exponent_interface_required": true,
+    "naive_monotone_optimal_scalar_dual_reuse_rejected": true,
+    "next_exact_input": "extend K349 through derivative order eight and retain the complete bivariate determinant permutation-exponent Newton fronts instead of forcing one false scalar dual",
+    "orders_zero_through_eight_scaled_kernel_bank_required": true,
+    "uniform_integrand_weighted_boundary_majorant_complete": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K352_template_bank_sha256": "sha256:7f401161f22df44e147bd5893be0aacf728e9dbaa46a1f684db0c8f406ba8776",
+    "K353_global_minimum_face_normal_power": 0,
+    "K363_epsilon": "1/64",
+    "predecessor_manifests": [
+      "lab/process/k352-order-eight-mask-native-preconditioner-compiler.json",
+      "lab/process/k353-order-eight-face-normal-integrability-atlas.json",
+      "lab/process/k363-order-eight-global-face-neighborhood-ownership.json"
+    ],
+    "same_rank_comparable_template_pairs": 146,
+    "singular_templates": 34
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "nested_dual_contract": {
+    "comparison": "A<=B entrywise means the inner face marks every singular entry marked by the outer face and possibly more",
+    "determinant_failure_claimed": false,
+    "forced_scalar_repair": "retain an optimal outer dual and allow nonnegative inner row/column powers through two; record the least excess over the inner assignment optimum",
+    "integer_gauge_test": "allow every optimal integral assignment-dual gauge on [-rank,rank] before declaring obstruction",
+    "optimal_scalar_nesting_test": "choose optimal row/column assignment duals for A and B with every B potential coordinate no smaller than the corresponding A coordinate",
+    "overextraction_warning": "one excess extracted power creates an artificial inverse scale and is not licensed when K353's true face-normal margin can be zero"
+  },
+  "obstruction_summary": {
+    "all_obstructed_pairs_require_exactly_one_false_extra_power": true,
+    "forced_inner_overextraction_histogram": {
+      "0": 134,
+      "1": 12
+    },
+    "monotone_optimal_binary_pairs": 134,
+    "obstruction_pair_ids_sha256": "sha256:767233c19f4f75c287b31b2cb6e0d97c17642f05e0c908730aeddae35a68d352",
+    "pairs_without_monotone_optimal_binary_duals": 12,
+    "pairs_without_monotone_optimal_integer_gauge_duals": 12
+  },
+  "release_test": {
+    "all_12_obstructions_cost_one_extra_power": true,
+    "all_scalar_repairs_found": true,
+    "determinant_not_declared_failed": true,
+    "exactly_12_optimal_scalar_nesting_obstructions": true,
+    "exactly_146_comparable_pairs_exhausted": true,
+    "exactly_34_K352_templates_replayed": true,
+    "integer_gauge_does_not_remove_obstructions": true,
+    "maximum_required_kernel_derivative_order_is_eight": true,
+    "native_K152_interval_not_emitted": true,
+    "uniform_strip_bound_not_overclaimed": true
+  },
+  "result_id": "K364-ORDER-EIGHT-NESTED-FACE-DUAL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

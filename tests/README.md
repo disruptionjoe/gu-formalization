@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K364--K366 order-eight multiscale face transition
+
+- `channel-swings/k364_order_eight_nested_face_dual_obstruction.py` exhausts
+  comparable K352 face-template pairs and proves twelve exact scalar-dual
+  nesting obstructions plus the order-eight kernel-derivative demand; its
+  probe pins the census and rejects false scalar repair.
+- `channel-swings/k365_order_eight_confluent_bessel_envelope_bank.py` derives
+  exact zero-inclusive scaled `2*K1` derivative envelopes through order eight;
+  its probe independently checks Arb controls, zero limits and K349 replay.
+- `channel-swings/k366_order_eight_bivariate_determinant_newton_fronts.py`
+  compiles exact two-scale permutation supports and Pareto fronts for every
+  comparable pair; its probe rejects lost coupling and scalar overextraction.
+
 ## K361--K363 order-eight projective neighborhoods
 
 - `channel-swings/k361_order_eight_positive_width_projective_cells.py`

@@ -7,6 +7,32 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K364--K366 order-eight multiscale face transition (2026-09-23)
+
+K364 exhausts all `146` same-rank entrywise-comparable pairs among K352's
+`34` singular determinant templates. `134` admit coordinatewise monotone
+optimal binary duals. The other `12` admit neither binary nor integral-gauge
+monotone optimal duals; every forced scalar repair overextracts exactly one
+inner power, unsafe against K353's zero minimum face-normal exponent. It also
+proves that row order three plus column order three plus the active second
+derivative demands scaled Bessel derivatives through order eight. K364 passes
+`9/9` controls and rejects `10/10` hostile mutations.
+
+K365 gives `36` exact rational zero-inclusive bounds for
+`Phi_m(w)=w^(m+1)*abs((2*K1)^(m)(w))` at four compact widths and orders zero
+through eight. Their continuous zero limits are `2*m!`; all `72` positive
+180-digit Arb controls are contained, and K349 orders zero through two replay
+exactly. Analytic unbounded tails are not covered. K365 passes `9/9` controls
+and rejects `10/10` hostile mutations.
+
+K366 compiles exact bivariate determinant permutation-exponent supports and
+Pareto fronts for all `146` pairs while preserving same-permutation outer and
+inner-scale coupling. All twelve scalar obstructions have fronts; their size
+histogram is `{1: 60, 2: 81, 3: 5}`, the maximum size is three and there are
+`22` unique signatures. This is an exponent interface, not a zero-inclusive
+numerical interval determinant or uniform strip majorant. K366 passes `9/9`
+controls and rejects `10/10` hostile mutations.
+
 ## K361--K363 order-eight projective neighborhoods (2026-09-23)
 
 K361 compiles one exact positive-width ratio box strictly inside each of

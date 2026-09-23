@@ -20,6 +20,21 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K364--K366 ORDER-EIGHT MULTISCALE FACE TRANSITION.** K364
+> exhausts all `146` comparable K352 singular-template pairs. Twelve admit no
+> coordinatewise monotone optimal scalar dual even after integral-gauge
+> freedom, and every forced repair invents one unsafe inner inverse power.
+> K365 closes the resulting primitive dependency with `36` exact rational
+> zero-inclusive scaled `2*K1` derivative bounds through order eight and `72`
+> positive 180-digit Arb controls. K366 preserves the determinant instead:
+> exact bivariate permutation-exponent Newton fronts cover all `146` pairs,
+> including the twelve obstructions, with front-size histogram
+> `{1: 60, 2: 81, 3: 5}`. Next combine K365 and K366 with K352's confluent
+> factors inside one zero-inclusive closed-strip interval determinant while
+> preserving same-permutation two-scale coupling. These artifacts are not yet
+> a uniform strip majorant, recursive cover, tail bound, complete K348 hybrid
+> or order-eight remainder.
+
 > **2026-09-23 K361--K363 ORDER-EIGHT PROJECTIVE NEIGHBORHOODS.** K361
 > compiles one strict positive-width ratio box in every one of K358's `578`
 > maximum charts and maps all `2,998` program-chart uses. Thirteen rigorous

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fa6019f838b650b842e34e3badb10db072c59768
+revision_basis: 71774c8e303968d1ed69648a9719e923d0587acb
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -9710,11 +9710,16 @@ current_question: >-
   K362 proves exact measure-only one-sided and recursive zero-strip angular
   majorants at epsilon 1/64. K363 exhausts 524,286 low-coordinate patterns
   across all eighteen hybrids and assigns each exactly one K350-reachable
-  face-neighborhood owner or the interior owner. The next gate is a uniform
-  determinant-preserving integrand-weighted majorant on K363-owned strips that
-  touch zero. Angular mass alone does not supply it. Only then join recursive
-  positive-interior cells and analytic radial tails and integrate all eighteen
-  K348 kernels.
+  face-neighborhood owner or the interior owner. K364 then exhausts 146
+  comparable K352 singular-template pairs: twelve have no monotone optimal
+  scalar dual, and every forced scalar repair invents one unsafe inner inverse
+  power. K365 supplies exact zero-safe scaled Bessel derivative envelopes
+  through order eight, while K366 preserves same-permutation two-scale
+  coupling in exact bivariate determinant Newton fronts for every pair. The
+  next gate is a zero-inclusive closed-strip interval determinant combining
+  K365 and K366 with K352's confluent factors. Only after that determinant-
+  preserving bound may recursive positive-interior cells and analytic radial
+  tails join all eighteen K348 kernels.
   The K351 reference bank and rays are controls, not a whole-domain cover.
   Join that remainder to K345 only after all eighteen terms close.
   Then build the rank-five order-nine
@@ -9983,13 +9988,20 @@ next_condition: >-
   anisotropic complete-evaluator control bank. Treat K361 as the accepted
   positive-width projective-cell pilot interface, K362 as the exact
   measure-only zero-strip angular majorant, and K363 as the accepted disjoint
-  global face-neighborhood owner rule.
+  global face-neighborhood owner rule. Treat K364 as the accepted scalar-dual
+  nesting obstruction and order-eight derivative-demand proof, K365 as the
+  accepted zero-safe scaled Bessel derivative bank through order eight, and
+  K366 as the accepted same-permutation bivariate determinant Newton-front
+  interface.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is a determinant-preserving uniform integrand-weighted bound on
-  every K363-owned one-sided zero strip. K362 controls angular measure only;
-  K361's cells stay strictly away from zero. After that bound is proved, join
+  next gate is a zero-inclusive closed-strip interval determinant that combines
+  K365's primitive bank and K366's fronts with K352's confluent factors while
+  preserving same-permutation two-scale coupling. Use it to prove a uniform
+  determinant-preserving integrand-weighted bound on every K363-owned one-sided
+  zero strip. K362 controls angular measure only; K361's cells stay strictly
+  away from zero. After that bound is proved, join
   a recursive positive-interior cover and analytic radial tails for the complete
   eighteen-axis positive Peano remainder. Preserve both ordered orientations,
   use K350's exact reachable faces, and integrate each K348 pure-second hybrid
