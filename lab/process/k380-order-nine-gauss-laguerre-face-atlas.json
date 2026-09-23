@@ -1,0 +1,1605 @@
+{
+  "claim_ceiling": "Exact order-nine positive one-node Gauss--Laguerre value rule and cumulative-time zero/coalescence face atlas for all 256 K179 paths, 20 coherent groups and 2,368 upper-triangle Gram entries. The rule uses twenty native positive Laplace times, node 1/256 on every axis and total weight 256^-20. It freezes twenty positive pure-second Peano terms but does not integrate them, evaluate a group value, enclose the complete order-nine integral, complete an action column or R_ref, emit a K152 interval, or move source, ledger, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-23",
+  "cumulative_time_face_atlas": {
+    "atlas_sha256": "sha256:1b8ebe216b3889e2a065ad3c214106cac3a4bf6fd6cef4dfaa3e1d68043fb8b5",
+    "coalescence_rule": "T_i=T_j exactly when the intervening s axes vanish, and likewise for U; equal determinant rows or columns then give an exact zero",
+    "column_coalescence_faces": [
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1144,
+        "zeroed_axes": [
+          "v1",
+          "v2"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 544,
+        "zeroed_axes": [
+          "v2",
+          "v3"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1064,
+        "zeroed_axes": [
+          "v3",
+          "v4"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 512,
+        "zeroed_axes": [
+          "v4",
+          "v5"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1064,
+        "zeroed_axes": [
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 480,
+        "zeroed_axes": [
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1144,
+        "zeroed_axes": [
+          "v1",
+          "v2",
+          "v3",
+          "v4"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 528,
+        "zeroed_axes": [
+          "v2",
+          "v3",
+          "v4",
+          "v5"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1064,
+        "zeroed_axes": [
+          "v3",
+          "v4",
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 496,
+        "zeroed_axes": [
+          "v4",
+          "v5",
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "v5",
+          "v6",
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 756,
+        "zeroed_axes": [
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1144,
+        "zeroed_axes": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 512,
+        "zeroed_axes": [
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 780,
+        "zeroed_axes": [
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 1124,
+        "zeroed_axes": [
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "determinant_column_coalescence",
+        "usage_count": 804,
+        "zeroed_axes": [
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9"
+        ]
+      }
+    ],
+    "complete_group_quadratic_form_precedes_absolute_enclosure": true,
+    "determinant_kernel_entry_uses": 55360,
+    "kernel_support_rule": "T_j=sum_{a=j}^10 s_a and U_j=sum_{b=j}^10 v_b; 2*K1(T_j+U_k) reaches zero exactly when its recorded suffix mask vanishes",
+    "kernel_zero_faces": [
+      {
+        "codimension": 2,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1408,
+        "zeroed_axes": [
+          "s10",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 3,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 544,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "s10"
+        ]
+      },
+      {
+        "codimension": 3,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 640,
+        "zeroed_axes": [
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 972,
+        "zeroed_axes": [
+          "s10",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "s10",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1408,
+        "zeroed_axes": [
+          "s9",
+          "s10",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 5,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10"
+        ]
+      },
+      {
+        "codimension": 5,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 608,
+        "zeroed_axes": [
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 996,
+        "zeroed_axes": [
+          "s10",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1020,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1324,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 816,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "s10",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1324,
+        "zeroed_axes": [
+          "s9",
+          "s10",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 7,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 608,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10"
+        ]
+      },
+      {
+        "codimension": 7,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 576,
+        "zeroed_axes": [
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1020,
+        "zeroed_axes": [
+          "s10",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 996,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1324,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 736,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1408,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 768,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "s10",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1324,
+        "zeroed_axes": [
+          "s9",
+          "s10",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 9,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 640,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10"
+        ]
+      },
+      {
+        "codimension": 9,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 544,
+        "zeroed_axes": [
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "s10",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 972,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1324,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 720,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1344,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 816,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1344,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 784,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "s10",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 10,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1324,
+        "zeroed_axes": [
+          "s9",
+          "s10",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1244,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 704,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1344,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 736,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1408,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 768,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1344,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 800,
+        "zeroed_axes": [
+          "s8",
+          "s9",
+          "s10",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 12,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1244,
+        "zeroed_axes": [
+          "s9",
+          "s10",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1264,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 720,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1344,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 816,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1344,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 784,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 14,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1264,
+        "zeroed_axes": [
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1264,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 736,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1408,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 768,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 16,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1264,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 18,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1264,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 18,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 816,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 18,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1264,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      },
+      {
+        "codimension": 20,
+        "face_kind": "bessel_argument_zero",
+        "usage_count": 1888,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10"
+        ]
+      }
+    ],
+    "occurrencewise_absolute_value_permitted": false,
+    "old_kernel_uses": 4736,
+    "row_coalescence_faces": [
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1144,
+        "zeroed_axes": [
+          "s1",
+          "s2"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 480,
+        "zeroed_axes": [
+          "s2",
+          "s3"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1064,
+        "zeroed_axes": [
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 512,
+        "zeroed_axes": [
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1064,
+        "zeroed_axes": [
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 544,
+        "zeroed_axes": [
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "codimension": 2,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 804,
+        "zeroed_axes": [
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1144,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 496,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1064,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 528,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "s5",
+          "s6",
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "codimension": 4,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 780,
+        "zeroed_axes": [
+          "s6",
+          "s7",
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1144,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 512,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1044,
+        "zeroed_axes": [
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "codimension": 6,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 756,
+        "zeroed_axes": [
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 1124,
+        "zeroed_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8"
+        ]
+      },
+      {
+        "codimension": 8,
+        "face_kind": "determinant_row_coalescence",
+        "usage_count": 732,
+        "zeroed_axes": [
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9"
+        ]
+      }
+    ],
+    "scaled_zero_safe_entry_rule": "use K374 gap-free confluence and K375 scaled primitives before division; never evaluate raw K1 at a zero face",
+    "unique_column_coalescence_masks": 20,
+    "unique_kernel_zero_masks": 58,
+    "unique_row_coalescence_masks": 20,
+    "upper_triangle_entries_covered": 2368
+  },
+  "decision": {
+    "all_2368_gram_entry_faces_classified": true,
+    "complete_order_nine_integral_emitted": false,
+    "complete_order_nine_remainder_emitted": false,
+    "group_level_node_evaluator_emitted": false,
+    "native_order_nine_positive_value_rule_emitted": true,
+    "next_exact_input": "evaluate every order-nine upper-triangle Gram entry at the native 1/256 node and restore each complete coherent quadratic form before compiling the twenty-axis Peano interface"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K373_complete_entry_interface_sha256": "sha256:3b6ad5b92f3594f4cbf31abd1e88641640b53d321e4480d5bfd087e9d027043a",
+    "coherent_groups": 20,
+    "laplace_shift": 256,
+    "maximum_species_determinant_rank": 5,
+    "order": 9,
+    "ordered_quadratic_terms": 4480,
+    "paths": 256,
+    "positive_time_variables": 20,
+    "predecessor_manifests": [
+      "lab/process/k373-order-nine-rank-five-determinant-atlas.json",
+      "lab/process/k374-rank-five-confluent-determinant-calculus.json",
+      "lab/process/k375-rank-five-global-scaled-bessel-bank.json",
+      "lab/process/k376-orders-nine-ten-rank-five-transfer.json"
+    ],
+    "upper_triangle_gram_entries": 2368
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "positive_product_gauss_laguerre_rule": {
+    "all_weights_strictly_positive": true,
+    "axis_node": "1/256",
+    "axis_rule": "integral_0^infinity exp(-256*x) h(x) dx = h(1/256)/256 + integral_0^infinity K_256(t) h''(t) dt",
+    "axis_weight": "1/256",
+    "measure": "product_{a=1}^10 exp(-256*s_a) ds_a product_{b=1}^10 exp(-256*v_b) dv_b",
+    "multiaffine_exact": true,
+    "node": [
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256"
+    ],
+    "node_count": 1,
+    "peano_kernel": {
+      "for_0_le_t_le_1_over_256": "exp(-256*t)/256^2-(1/256-t)/256",
+      "for_t_ge_1_over_256": "exp(-256*t)/256^2",
+      "integral": "1/33554432",
+      "maximum_derivative_order": 2,
+      "nonnegative": true,
+      "zero_order_at_t_0": 2
+    },
+    "product_weight": "1/1461501637330902918203684832716283019655932542976",
+    "separately_affine_exact": true
+  },
+  "radial_angular_replay": {
+    "combined_angular_weight": "1/121645100408832000",
+    "left_simplex_node": [
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10"
+    ],
+    "node_replays_all_twenty_times_at_1_over_256": true,
+    "radial_density": "exp(-256*rho)*rho^19",
+    "radial_node": "5/64",
+    "radial_times_angular_weight_equals_product_weight": true,
+    "radial_weight": "1856156927625/22300745198530623141535718272648361505980416",
+    "rho": "sum(s_1..s_10)+sum(v_1..v_10)",
+    "right_simplex_node": [
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10",
+      "1/10"
+    ],
+    "theta_node": "1/2"
+  },
+  "release_test": {
+    "all_20_order_nine_groups_replayed": true,
+    "all_2368_order_nine_entries_covered": true,
+    "all_256_order_nine_paths_replayed": true,
+    "all_4480_ordered_terms_retained": true,
+    "all_zero_and_coalescence_faces_have_exact_support_masks": true,
+    "complete_order_nine_integral_emitted": false,
+    "native_K152_interval_emitted": false,
+    "positive_one_node_rule_exactly_normalized": true
+  },
+  "remainder_interface": {
+    "face_atlas_complete_for_kernel_zeros_and_determinant_coalescences": true,
+    "global_second_derivative_integrals_computed": false,
+    "mixed_derivatives_required": false,
+    "positive_kernel_all_axes": true,
+    "pure_second_derivative_axes": 20,
+    "tensor_identity": "I_1...I_20-Q_1...Q_20=sum_j Q_1...Q_(j-1)(I_j-Q_j)I_(j+1)...I_20"
+  },
+  "result_id": "K380-ORDER-NINE-GAUSS-LAGUERRE-FACE-ATLAS",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

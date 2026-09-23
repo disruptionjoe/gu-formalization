@@ -11138,3 +11138,18 @@ zero/coalescence face atlas on twenty raw times, then evaluate its complete
 coherent node value. Do not reuse the order-eight node, face counts, prefactor
 or global remainder as generic data. Numerical orders nine through twelve must
 close before the complete action column and `R_ref` residual can be composed.
+
+## K380--K382 close the order-nine native node interface (2026-09-23)
+
+K380 derives the exact twenty-time positive rule at node `1/256`, total weight
+`256^-20`, and all 58 kernel-zero plus 20+20 coalescence masks. K381 evaluates
+all 2,368 upper-triangle entries, replays all 4,480 ordered terms, and gives the
+strictly positive `(2*pi)^-11` normalized node interval
+`[5.623550454176137e-41, 5.623550454176139e-41]`. K382 retains both ordered
+orientations in the complete twenty-axis differentiation interface.
+
+Next evaluate the complete K382 value/first/second node jets, freeze the exact
+twenty-axis tensor Peano contract, and construct the rank-five zero-safe global
+face/interior cover. Do not promote the positive node to an integral sign,
+reuse order-eight masks or normalization, or begin the action-column/R_ref
+composition before the order-specific global remainder closes.

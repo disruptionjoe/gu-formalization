@@ -1,0 +1,302 @@
+{
+  "assembly_contract": {
+    "all_2368_transpose_symmetry_checks_pass": true,
+    "all_2368_upper_triangle_entries_evaluated": true,
+    "all_4480_ordered_terms_replayed": true,
+    "all_coefficients_retained": true,
+    "all_coherent_cross_terms_retained": true,
+    "all_contracted_positions_retained": true,
+    "complete_group_quadratic_form_precedes_enclosure": true,
+    "occurrencewise_absolute_value_used": false,
+    "off_diagonal_terms_doubled_exactly_once": true,
+    "order_eight_weight_or_prefactor_reused": false,
+    "raw_Bessel_zero_evaluation_used": false,
+    "strictly_positive_individual_gram_entries": 2368
+  },
+  "claim_ceiling": "Rigorous 180-digit Arb interval evaluation of the complete K380 order-nine positive one-node rule. All 2368 upper-triangle Gram entries and 4480 ordered coefficient terms are replayed in 20 coherent groups; the native product weight 256^-20 and prefactor (2*pi)^-11 give a strictly positive rule value in [5.623550454176137e-41,5.623550454176139e-41]. The twenty positive Peano remainder integrals are not yet bounded, so this is not an enclosure of the complete order-nine integral and supplies no complete action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "coherent_group_values": [
+    {
+      "coherent_node_value_lower": "1810720024915615.2",
+      "coherent_node_value_upper": "1810720024915615.8",
+      "entry_interval_sha256": "sha256:c114d381332e75cd9474c7c4794cc058f16c5a3e6a2844688a75c61a7ab3e3d7",
+      "group_id": "order9:seed0:d=1|1+^1,1-^2,2+^3,2-^3",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "6927048174990029.0",
+      "coherent_node_value_upper": "6927048174990031.0",
+      "entry_interval_sha256": "sha256:93f0ec476f1bec26e8f33e1faf395a08aa321033a8a2d5ee4cf7fd57fcaf7c9d",
+      "group_id": "order9:seed0:d=1|1+^2,1-^3,2+^2,2-^2",
+      "ordered_quadratic_terms": 576,
+      "path_count": 24,
+      "upper_triangle_entries": 300
+    },
+    {
+      "coherent_node_value_lower": "4353230877380.3135",
+      "coherent_node_value_upper": "4353230877380.3145",
+      "entry_interval_sha256": "sha256:8ba9a9e440584a21a61ac7d70bfad7a7fffe74d0faf7036fefd29b2988923a16",
+      "group_id": "order9:seed0:d=1|1+^3,1-^4,2+^1,2-^1",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "1052.113561192646",
+      "coherent_node_value_upper": "1052.1135611926466",
+      "entry_interval_sha256": "sha256:72b91280ff5e61ebe457c15c509c317d7f997c74120df05ebd6a49bb84337948",
+      "group_id": "order9:seed0:d=1|1+^4,1-^5",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "99951710567.9271",
+      "coherent_node_value_upper": "99951710567.92712",
+      "entry_interval_sha256": "sha256:01cadcc3191b8aae0ccc41ec2cb6d304ebecc9e0cd5d77ed21233877a1e0c80b",
+      "group_id": "order9:seed0:d=1|1-^1,2+^4,2-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "4353230877380.3135",
+      "coherent_node_value_upper": "4353230877380.3145",
+      "entry_interval_sha256": "sha256:bb75d2458e48155e1ee72ea692c302483e3af2348b63903e35a14a9ff446d2bb",
+      "group_id": "order9:seed0:d=2|1+^1,1-^1,2+^3,2-^4",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "6927048174990029.0",
+      "coherent_node_value_upper": "6927048174990031.0",
+      "entry_interval_sha256": "sha256:58e0326cb0f6cd45eb44f82829ea1c1683295780fb8fafb422e49271af863743",
+      "group_id": "order9:seed0:d=2|1+^2,1-^2,2+^2,2-^3",
+      "ordered_quadratic_terms": 576,
+      "path_count": 24,
+      "upper_triangle_entries": 300
+    },
+    {
+      "coherent_node_value_lower": "1810720024915615.2",
+      "coherent_node_value_upper": "1810720024915615.8",
+      "entry_interval_sha256": "sha256:ba7b55db73b75e070a778256a4ff87195e03b6b4669596b1ee6e162e44c81602",
+      "group_id": "order9:seed0:d=2|1+^3,1-^3,2+^1,2-^2",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "99951710567.9271",
+      "coherent_node_value_upper": "99951710567.92712",
+      "entry_interval_sha256": "sha256:5191cb399a922095fd81c6782071f3fa2bd2a54d88e0f5da7179fc4de8d20d7f",
+      "group_id": "order9:seed0:d=2|1+^4,1-^4,2-^1",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "1052.113561192646",
+      "coherent_node_value_upper": "1052.1135611926466",
+      "entry_interval_sha256": "sha256:9c2b0a473f61992077088292a387e143fae4019c4a39fd26b79ed9a3cab6bcb6",
+      "group_id": "order9:seed0:d=2|2+^4,2-^5",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "16998859.886782218",
+      "coherent_node_value_upper": "16998859.886782225",
+      "entry_interval_sha256": "sha256:4de69882fb1ccdbe0dd66f4bdb1580f7b80d0c965d0ba14c1c2c63ba60f5cde8",
+      "group_id": "order9:seed1:d=0|1+^1,2+^4,2-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "460228754854963.25",
+      "coherent_node_value_upper": "460228754854963.4",
+      "entry_interval_sha256": "sha256:d71830e1af01f0332a334b7c5f3fb7e0003e457da293c2d7c1e238af24393cf9",
+      "group_id": "order9:seed1:d=0|1+^2,1-^1,2+^3,2-^3",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "1.5551879090355828e+16",
+      "coherent_node_value_upper": "1.5551879090355832e+16",
+      "entry_interval_sha256": "sha256:1dfb51c0bb6f0948e6fe475530866a7038f0d67626704c2cff1617eafb30a043",
+      "group_id": "order9:seed1:d=0|1+^3,1-^2,2+^2,2-^2",
+      "ordered_quadratic_terms": 576,
+      "path_count": 24,
+      "upper_triangle_entries": 300
+    },
+    {
+      "coherent_node_value_lower": "6116486268802.253",
+      "coherent_node_value_upper": "6116486268802.255",
+      "entry_interval_sha256": "sha256:11d5994a6f46e918a7e65c82276763d2b74318cf3d7202927c2e877e1cea5404",
+      "group_id": "order9:seed1:d=0|1+^4,1-^3,2+^1,2-^1",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "1052.113561192646",
+      "coherent_node_value_upper": "1052.1135611926466",
+      "entry_interval_sha256": "sha256:a035b8275c4f2283ca2a22019c173ada2d2b346b75eab0dc727af0380a92722a",
+      "group_id": "order9:seed1:d=0|1+^5,1-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "6116486268802.253",
+      "coherent_node_value_upper": "6116486268802.255",
+      "entry_interval_sha256": "sha256:7cfb9e8a2335063d5f049ed62f180396da9a43265af2bac46596070d51ea2cfa",
+      "group_id": "order9:seed2:d=0|1+^1,1-^1,2+^4,2-^3",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "1.5551879090355828e+16",
+      "coherent_node_value_upper": "1.5551879090355832e+16",
+      "entry_interval_sha256": "sha256:6921ad40f9b480ebc5606330db141bba73e26dcc818e211ae77b3d6cec2a9d4b",
+      "group_id": "order9:seed2:d=0|1+^2,1-^2,2+^3,2-^2",
+      "ordered_quadratic_terms": 576,
+      "path_count": 24,
+      "upper_triangle_entries": 300
+    },
+    {
+      "coherent_node_value_lower": "460228754854963.25",
+      "coherent_node_value_upper": "460228754854963.4",
+      "entry_interval_sha256": "sha256:6196d2d13e9c64c307a7fe66c8cf9c390c945dbc584b233d14f1c5fee51dc248",
+      "group_id": "order9:seed2:d=0|1+^3,1-^3,2+^2,2-^1",
+      "ordered_quadratic_terms": 256,
+      "path_count": 16,
+      "upper_triangle_entries": 136
+    },
+    {
+      "coherent_node_value_lower": "16998859.886782218",
+      "coherent_node_value_upper": "16998859.886782225",
+      "entry_interval_sha256": "sha256:6b4a3d15305209926aa5e7e5ea087523e26d82565967a5267ca8088b83f1bc89",
+      "group_id": "order9:seed2:d=0|1+^4,1-^4,2+^1",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    },
+    {
+      "coherent_node_value_lower": "1052.113561192646",
+      "coherent_node_value_upper": "1052.1135611926466",
+      "entry_interval_sha256": "sha256:14bb5a6993bcb20c8c219339034f9ed8461577c8abdb68695da52b9799199acc",
+      "group_id": "order9:seed2:d=0|2+^5,2-^4",
+      "ordered_quadratic_terms": 16,
+      "path_count": 4,
+      "upper_triangle_entries": 10
+    }
+  ],
+  "complete_node_evaluation": {
+    "all_entry_interval_sha256": "sha256:bdf2abc1261838348a5f36180d631a4428495cb7cf870923164bf5e91371e718",
+    "native_prefactor_interval_lower": "1.659668869795425e-09",
+    "native_prefactor_interval_upper": "1.6596688697954255e-09",
+    "native_product_weight": "1/1461501637330902918203684832716283019655932542976",
+    "normalized_one_node_rule_lower": "5.623550454176137e-41",
+    "normalized_one_node_rule_upper": "5.623550454176139e-41",
+    "raw_complete_quadratic_form_lower": "4.9520891461948296e+16",
+    "raw_complete_quadratic_form_upper": "4.952089146194831e+16",
+    "signed_rule_value_is_strictly_positive": true,
+    "symmetric_enclosure_if_sign_is_discarded": [
+      "-5.623550454176139e-41",
+      "5.623550454176139e-41"
+    ]
+  },
+  "created": "2026-09-23",
+  "decision": {
+    "all_2368_order_nine_gram_entries_validated": true,
+    "complete_R_ref_residual_evaluated": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_group_level_interval_evaluator_emitted": true,
+    "complete_order_nine_integral_emitted": false,
+    "native_K152_interval_emitted": false,
+    "normalized_order_nine_one_node_value_emitted": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K373_complete_entry_interface_sha256": "sha256:3b6ad5b92f3594f4cbf31abd1e88641640b53d321e4480d5bfd087e9d027043a",
+    "K380_face_atlas_sha256": "sha256:1b8ebe216b3889e2a065ad3c214106cac3a4bf6fd6cef4dfaa3e1d68043fb8b5",
+    "arb_decimal_digits": 180,
+    "coherent_groups": 20,
+    "maximum_species_determinant_rank": 5,
+    "native_prefactor": "(2*pi)^-11",
+    "native_product_weight": "1/1461501637330902918203684832716283019655932542976",
+    "native_time_node": [
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256",
+      "1/256"
+    ],
+    "order": 9,
+    "ordered_quadratic_terms": 4480,
+    "paths": 256,
+    "predecessor_manifests": [
+      "lab/process/k373-order-nine-rank-five-determinant-atlas.json",
+      "lab/process/k380-order-nine-gauss-laguerre-face-atlas.json"
+    ],
+    "threads": 1,
+    "upper_triangle_gram_entries": 2368
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_20_groups_replayed": true,
+    "all_2368_upper_triangle_entries_evaluated": true,
+    "all_256_paths_replayed": true,
+    "all_4480_ordered_terms_replayed": true,
+    "complete_order_nine_integral_emitted": false,
+    "every_gram_entry_is_strictly_positive_at_the_native_node": true,
+    "native_K152_interval_emitted": false,
+    "normalized_rule_value_is_finite_positive": true,
+    "upper_triangle_equals_full_ordered_replay": true
+  },
+  "remainder_boundary": {
+    "K380_face_atlas_consumed_for_node_evaluation": true,
+    "K380_positive_Peano_axes": 20,
+    "complete_order_nine_remainder_radius_emitted": false,
+    "global_second_derivative_integrals_computed": false,
+    "next_exact_input": "compile and evaluate the complete ordered group jets on all twenty axes, then bind global second derivatives to K380's positive Peano kernels on a zero-safe whole-orthant cover",
+    "one_node_rule_value_is_not_the_full_order_nine_integral": true
+  },
+  "result_id": "K381-ORDER-NINE-GROUP-INTERVAL-EVALUATOR",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

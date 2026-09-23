@@ -5964,3 +5964,19 @@ reject `11/11`, `10/10`, `11/11`, `11/11`, `11/11`, `11/11`, and `12/12`
 hostile mutations. These certificates close the higher-rank structural
 obstruction only; no numerical order-nine-through-twelve integral, action
 column, `R_ref`, K152 or physical conclusion is emitted.
+
+## K380--K382 order-nine native node interface (2026-09-23)
+
+K380 constructs the exact twenty-axis product Gauss--Laguerre rule with node
+and weight `1/256`, total weight `256^-20`, and the complete cumulative-time
+atlas: 58 kernel-zero masks plus 20 row- and 20 column-coalescence masks over
+all 2,368 upper-triangle entries. K381 evaluates every entry at 180 Arb digits,
+checks transpose symmetry, independently replays all 4,480 ordered coefficient
+terms, and obtains the positive `(2*pi)^-11` normalized node interval
+`[5.623550454176137e-41, 5.623550454176139e-41]`. K382 compiles both ordered
+orientations for all 4,480 directional entries on all twenty axes, retains
+rank five, and binds future face evaluation to the K374/K375 gap-free and
+zero-safe backend. K380/K381/K382 pass `13/13`, `12/12`, and `12/12` controls
+and reject `12/12`, `12/12`, and `10/10` hostile mutations. These certificates
+do not emit a node-jet bank, global Peano remainder, complete order-nine
+integral, action column, `R_ref`, K152 or physical conclusion.
