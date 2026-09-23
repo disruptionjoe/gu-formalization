@@ -20,6 +20,22 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K358--K360 ORDER-EIGHT NORMAL-PROJECTIVE ATLAS.** K358
+> compiles all `517` face programs into an exact finite maximum-coordinate
+> atlas on `81` unique zero masks: `578` charts and `2,998` program-chart
+> uses. Each chart has exact inverse and Jacobian `(1+sum(r))^-c`; K356's
+> equal-normal line is the all-ratios-one corner, not the chart interior. K359
+> proves chart mass `1/c!`, total simplex mass `1/(c-1)!`, and terminating
+> zero/tie boundary routing for `9,940` oriented coordinate boundaries and
+> `4,740,626` compact lower strata. K360 executes `31,200` ordered descriptor
+> controls at one non-equal positive direction per reachable codimension; all
+> retain `23` groups, remain finite, have positive floors and overlap the
+> direct evaluator. Next build positive-width ratio cells together with
+> one-sided zero-boundary strip majorants, then define disjoint global
+> face-neighborhood ownership before joining the interior and tails. These are
+> exact coordinates, measures and point controls, not chart-cell integrals or
+> the complete order-eight remainder.
+
 > **2026-09-23 K356--K357 ORDER-EIGHT POSITIVE-WIDTH FACE CELLS.** K356
 > executes actual K352-preconditioned Arb intervals on all `517` reachable
 > faces. Exact confluent row/column divided differences and assignment-dual

@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K358--K360 order-eight normal-projective atlas
+
+- `channel-swings/k358_order_eight_normal_projective_atlas.py` compiles the
+  exact maximum-coordinate atlas for all 81 unique masks and 517 face programs,
+  including exact inverse and Jacobian controls. Its probe deterministically
+  rebuilds the bank and rejects eleven hostile mutations.
+- `channel-swings/k359_order_eight_projective_measure_and_boundary_routing.py`
+  proves the chart/simplex masses and compiles terminating zero/tie boundary
+  routing without confusing measure-zero boundaries with interval closure.
+  Its probe rejects ten hostile mutations.
+- `channel-swings/k360_order_eight_anisotropic_projective_controls.py`
+  executes one non-equal positive rational direction at each reachable
+  codimension through the complete K352-preconditioned evaluator. Its probe
+  deterministically replays the controls and rejects twelve hostile mutations.
+
 ## K356--K357 order-eight positive-width face cells
 
 - `channel-swings/k356_order_eight_preconditioned_face_cell_bank.py` applies

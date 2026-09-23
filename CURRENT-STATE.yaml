@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4154fd3caf05e9bb994c264dc222c0c7f2669430
+revision_basis: 434a108a155531b3a52896a5d6c6d296a5f82125
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -413,6 +413,23 @@ current_result:
     projective normal-cone cover: unequal normal directions, rho below 1/4096,
     recursive positive-interior coverage, analytic tails and all eighteen
     complete K348 hybrid integrals remain open.
+
+    K358--K360 replace the missing angular-coordinate placeholder by an exact
+    finite normal-projective interface. K358 deduplicates the 517 programs to
+    81 zero masks and covers every reachable projective normal simplex with
+    578 maximum-coordinate charts, used 2,998 times by the complete program
+    bank. Every chart has exact inverse and Jacobian
+    `(1+sum(r))^-c`; the equal-normal K356 ray is their common all-ratios-one
+    corner. K359 proves chart mass `1/c!` and total simplex mass
+    `1/(c-1)!`, and compactly routes 9,940 oriented coordinate boundaries and
+    4,740,626 lower strata without exponential materialization. K360 executes
+    one non-equal positive rational direction at every one of the thirteen
+    reachable codimensions: all 31,200 ordered descriptor controls retain 23
+    coherent groups, stay finite with positive argument floors and overlap the
+    direct evaluator. This is an exact coordinate/measure cover and point
+    control bank, not positive-width projective cells. One-sided zero-boundary
+    strip majorants, disjoint global face-neighborhood ownership, recursive
+    interior coverage, tails and complete K348 integrals remain open.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9683,10 +9700,15 @@ current_question: >-
   K356 replaces those selected approaches by 3,619 positive-width
   K352-preconditioned cells that exactly partition rho in
   [1/4096,1/1024] on every reachable face. K357 integrates the corresponding
-  equal-normal strips with exact width 3/4096. Next construct an exact
-  normal-projective angular cover for codimensions two through eighteen, then
-  join recursive positive-interior cells and analytic radial tails and
-  integrate all eighteen K348 kernels.
+  equal-normal strips with exact width 3/4096. K358 constructs the exact finite
+  maximum-coordinate projective atlas for all 81 unique zero masks and 517
+  programs; K359 freezes its exact angular masses and terminating zero/tie
+  boundary recursion; K360 executes complete non-equal positive controls at
+  every reachable codimension. Next construct positive-width maximum-chart
+  ratio cells together with one-sided zero-boundary strip majorants, then
+  impose disjoint global face-neighborhood ownership before joining recursive
+  positive-interior cells and analytic radial tails and integrating all
+  eighteen K348 kernels.
   The K351 reference bank and rays are controls, not a whole-domain cover.
   Join that remainder to K345 only after all eighteen terms close.
   Then build the rank-five order-nine
@@ -9950,17 +9972,21 @@ next_condition: >-
   preconditioner and local-integrability interface, K354--K355 as the accepted
   complete face-program map plus selected hardest-boundary/interior Arb control
   bank, and K356--K357 as the accepted positive-width equal-normal face-cell
-  bank and exact strip integration.
+  bank and exact strip integration, and K358--K360 as the accepted exact
+  maximum-chart projective coordinate/measure/boundary interface plus
+  anisotropic complete-evaluator control bank.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is an exact normal-projective angular cover for codimensions two
-  through eighteen around K356's equal-normal rays, then a recursive positive-
-  interior cover and analytic radial tails for the complete
+  next gate is positive-width maximum-chart ratio cells with one-sided
+  zero-boundary strip majorants and a disjoint global face-neighborhood owner
+  rule. Only then join a recursive positive-interior cover and analytic radial
+  tails for the complete
   eighteen-axis positive Peano remainder. Preserve both ordered orientations,
   use K350's exact reachable faces, and integrate each K348 pure-second hybrid
   term before joining K345. Do not promote K351's reference cell or rays to a
-  projective cover, substitute K347's node jets for global norms, or reuse
+  positive-width projective cell cover, substitute K347's node jets or K360's
+  point controls for global norms, or reuse
   K305/K299/K340/K334/K341
   order-seven group counts, weights, split atlas, cover or normalization as
   generic inputs, and do not promote the node value to a full integral. After

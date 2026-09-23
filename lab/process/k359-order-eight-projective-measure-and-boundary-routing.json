@@ -1,0 +1,264 @@
+{
+  "K353_reconciliation": {
+    "all_face_normal_powers_locally_integrable": true,
+    "face_rows": 517,
+    "maximum_normal_power": 9,
+    "minimum_normal_power": 0,
+    "radial_power_is_not_angular_uniformity": true
+  },
+  "boundary_routing_contract": {
+    "K349_radial_zero_contract_does_not_by_itself_close_every_projective_coordinate_boundary": true,
+    "boundaries_have_angular_measure_zero": true,
+    "explicit_exponential_boundary_expansion_avoided": true,
+    "interval_closures_still_require_one_sided_zero_safe_majorants": true,
+    "multiple_tie_boundary": "apply the same smallest-axis rule to the complete maximum set",
+    "termination_metric": "lexicographic (positive-support size, canonical owner index): zero routing strictly lowers support size and tie routing strictly lowers owner index unless already owned",
+    "tie_boundary": "r_i=1 adds i to the maximum set and routes ownership to the smallest canonical axis in that set",
+    "tie_routing_terminates": true,
+    "vertex_boundary": "all ratios zero gives the anchor vertex",
+    "zero_boundary": "for nonempty B subset of ratio axes, r_i=0 for i in B lowers positive support by |B| and routes to the corresponding lower-dimensional projective stratum",
+    "zero_routing_terminates": true
+  },
+  "claim_ceiling": "Exact angular masses and compact recursive boundary routing for K358's complete maximum-coordinate projective atlas. Every chart has mass 1/c!, the c charts sum to the simplex mass 1/(c-1)!, and zero/tie routing terminates. Measure-zero boundaries are not interval enclosures: one-sided zero-safe projective boundary majorants, positive-width chart cells, global face-neighborhood ownership, recursive interior, tails, K348 integrals, the complete order-eight remainder/integral, action column, R_ref, K152 interval, source/ledger move, canon, paper, public and physical posture remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "codimension_measure_bank": [
+    {
+      "chart_angular_mass": "1/2",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 2,
+      "codimension": 2,
+      "maximum_zero_boundary_recursion_depth": 1,
+      "nonempty_lower_boundary_strata_per_chart": 1,
+      "oriented_lower_coordinate_boundaries_per_mask": 2,
+      "oriented_tie_coordinate_boundaries_per_mask": 2,
+      "simplex_angular_mass": "1",
+      "unique_masks": 15
+    },
+    {
+      "chart_angular_mass": "1/6",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 3,
+      "codimension": 3,
+      "maximum_zero_boundary_recursion_depth": 2,
+      "nonempty_lower_boundary_strata_per_chart": 3,
+      "oriented_lower_coordinate_boundaries_per_mask": 6,
+      "oriented_tie_coordinate_boundaries_per_mask": 6,
+      "simplex_angular_mass": "1/2",
+      "unique_masks": 2
+    },
+    {
+      "chart_angular_mass": "1/24",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 4,
+      "codimension": 4,
+      "maximum_zero_boundary_recursion_depth": 3,
+      "nonempty_lower_boundary_strata_per_chart": 7,
+      "oriented_lower_coordinate_boundaries_per_mask": 12,
+      "oriented_tie_coordinate_boundaries_per_mask": 12,
+      "simplex_angular_mass": "1/6",
+      "unique_masks": 13
+    },
+    {
+      "chart_angular_mass": "1/120",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 5,
+      "codimension": 5,
+      "maximum_zero_boundary_recursion_depth": 4,
+      "nonempty_lower_boundary_strata_per_chart": 15,
+      "oriented_lower_coordinate_boundaries_per_mask": 20,
+      "oriented_tie_coordinate_boundaries_per_mask": 20,
+      "simplex_angular_mass": "1/24",
+      "unique_masks": 2
+    },
+    {
+      "chart_angular_mass": "1/720",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 6,
+      "codimension": 6,
+      "maximum_zero_boundary_recursion_depth": 5,
+      "nonempty_lower_boundary_strata_per_chart": 31,
+      "oriented_lower_coordinate_boundaries_per_mask": 30,
+      "oriented_tie_coordinate_boundaries_per_mask": 30,
+      "simplex_angular_mass": "1/120",
+      "unique_masks": 11
+    },
+    {
+      "chart_angular_mass": "1/5040",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 7,
+      "codimension": 7,
+      "maximum_zero_boundary_recursion_depth": 6,
+      "nonempty_lower_boundary_strata_per_chart": 63,
+      "oriented_lower_coordinate_boundaries_per_mask": 42,
+      "oriented_tie_coordinate_boundaries_per_mask": 42,
+      "simplex_angular_mass": "1/720",
+      "unique_masks": 2
+    },
+    {
+      "chart_angular_mass": "1/40320",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 8,
+      "codimension": 8,
+      "maximum_zero_boundary_recursion_depth": 7,
+      "nonempty_lower_boundary_strata_per_chart": 127,
+      "oriented_lower_coordinate_boundaries_per_mask": 56,
+      "oriented_tie_coordinate_boundaries_per_mask": 56,
+      "simplex_angular_mass": "1/5040",
+      "unique_masks": 9
+    },
+    {
+      "chart_angular_mass": "1/362880",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 9,
+      "codimension": 9,
+      "maximum_zero_boundary_recursion_depth": 8,
+      "nonempty_lower_boundary_strata_per_chart": 255,
+      "oriented_lower_coordinate_boundaries_per_mask": 72,
+      "oriented_tie_coordinate_boundaries_per_mask": 72,
+      "simplex_angular_mass": "1/40320",
+      "unique_masks": 2
+    },
+    {
+      "chart_angular_mass": "1/3628800",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 10,
+      "codimension": 10,
+      "maximum_zero_boundary_recursion_depth": 9,
+      "nonempty_lower_boundary_strata_per_chart": 511,
+      "oriented_lower_coordinate_boundaries_per_mask": 90,
+      "oriented_tie_coordinate_boundaries_per_mask": 90,
+      "simplex_angular_mass": "1/362880",
+      "unique_masks": 9
+    },
+    {
+      "chart_angular_mass": "1/479001600",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 12,
+      "codimension": 12,
+      "maximum_zero_boundary_recursion_depth": 11,
+      "nonempty_lower_boundary_strata_per_chart": 2047,
+      "oriented_lower_coordinate_boundaries_per_mask": 132,
+      "oriented_tie_coordinate_boundaries_per_mask": 132,
+      "simplex_angular_mass": "1/39916800",
+      "unique_masks": 7
+    },
+    {
+      "chart_angular_mass": "1/87178291200",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 14,
+      "codimension": 14,
+      "maximum_zero_boundary_recursion_depth": 13,
+      "nonempty_lower_boundary_strata_per_chart": 8191,
+      "oriented_lower_coordinate_boundaries_per_mask": 182,
+      "oriented_tie_coordinate_boundaries_per_mask": 182,
+      "simplex_angular_mass": "1/6227020800",
+      "unique_masks": 5
+    },
+    {
+      "chart_angular_mass": "1/20922789888000",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 16,
+      "codimension": 16,
+      "maximum_zero_boundary_recursion_depth": 15,
+      "nonempty_lower_boundary_strata_per_chart": 32767,
+      "oriented_lower_coordinate_boundaries_per_mask": 240,
+      "oriented_tie_coordinate_boundaries_per_mask": 240,
+      "simplex_angular_mass": "1/1307674368000",
+      "unique_masks": 3
+    },
+    {
+      "chart_angular_mass": "1/6402373705728000",
+      "chart_sum_replays_simplex_mass": true,
+      "charts_per_mask": 18,
+      "codimension": 18,
+      "maximum_zero_boundary_recursion_depth": 17,
+      "nonempty_lower_boundary_strata_per_chart": 131071,
+      "oriented_lower_coordinate_boundaries_per_mask": 306,
+      "oriented_tie_coordinate_boundaries_per_mask": 306,
+      "simplex_angular_mass": "1/355687428096000",
+      "unique_masks": 1
+    }
+  ],
+  "created": "2026-09-23",
+  "decision": {
+    "compact_projective_boundary_recursion_compiled": true,
+    "complete_hybrid_integrals_emitted": false,
+    "exact_angular_measure_compiled": true,
+    "next_exact_input": "execute anisotropic positive projective controls, then build positive-width ratio cells together with one-sided zero-boundary strip majorants before global face-neighborhood ownership",
+    "positive_width_projective_cells_evaluated": false,
+    "recursive_positive_interior_cover_complete": false,
+    "zero_inclusive_projective_boundary_majorants_complete": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "compactly_represented_nonempty_lower_strata": 4740626,
+    "face_programs": 517,
+    "predecessor_manifests": [
+      "lab/process/k353-order-eight-face-normal-integrability-atlas.json",
+      "lab/process/k358-order-eight-normal-projective-atlas.json"
+    ],
+    "program_oriented_coordinate_boundary_uses": 41588,
+    "reachable_codimensions": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      18
+    ],
+    "unique_maximum_charts": 578,
+    "unique_oriented_coordinate_boundaries": 9940,
+    "unique_zero_masks": 81
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "measure_contract": {
+    "K353_normal_power_already_includes_radial_jacobian": true,
+    "angular_mass_must_not_be_applied_to_K357_equal_line_values": true,
+    "chart_sum_identity": "c*(1/c!)=1/(c-1)!",
+    "maximum_chart_angular_mass": "1/c! by coordinate-permutation symmetry",
+    "radial_angular_factorization": "product_i dt_i=rho^(c-1) d_rho d_sigma",
+    "ratio_chart_density": "(1+sum r)^(-c) product_i dr_i",
+    "simplex": "Delta^(c-1)={p_i>=0,sum p_i=1}",
+    "simplex_angular_mass": "1/(c-1)!"
+  },
+  "release_test": {
+    "all_K353_face_powers_nonnegative": true,
+    "all_chart_mass_sums_exact": true,
+    "boundary_measure_zero_not_interval_closure": true,
+    "complete_order_eight_remainder_not_overclaimed": true,
+    "exactly_41588_program_boundary_uses": true,
+    "exactly_4740626_compact_lower_strata": true,
+    "exactly_9940_unique_oriented_coordinate_boundaries": true,
+    "native_K152_interval_not_emitted": true,
+    "projective_cells_not_overclaimed": true
+  },
+  "result_id": "K359-ORDER-EIGHT-PROJECTIVE-MEASURE-AND-BOUNDARY-ROUTING",
+  "routing_summary": {
+    "all_chart_mass_sums_exact": true,
+    "all_reachable_codimensions_measured": true,
+    "all_zero_and_tie_routes_terminate": true,
+    "boundary_contract_sha256": "sha256:0bf4754096aac2a7094cc9224597693b4823c33dd66df6729d8999c9c466ba86"
+  },
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

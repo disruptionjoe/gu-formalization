@@ -7,6 +7,38 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K358--K360 order-eight normal-projective atlas (2026-09-23)
+
+K358 replaces the equal-normal placeholder with exact maximum-coordinate
+charts. The `517` K354 programs reduce to `81` unique zero masks. Their full
+reachable projective normal simplices use `578` charts and `2,998`
+program-chart references. In codimension `c`, choosing a maximal coordinate
+gives ratios in `[0,1]`, inverse denominator `1+sum(r)`, and exact angular
+Jacobian `(1+sum(r))^-c`. Exact rational controls verify the inverse and
+Jacobian at all thirteen reachable codimensions. K358 passes `9/9` controls
+and rejects `11/11` hostile mutations.
+
+K359 proves each maximum chart has angular mass `1/c!` and their sum has the
+complete simplex mass `1/(c-1)!`. It compactly accounts for `9,940` unique
+oriented coordinate boundaries, `41,588` program-boundary uses and
+`4,740,626` nonempty lower strata. Ratio-zero routing strictly lowers support;
+maximum ties lower the canonical owner. Both terminate. Boundary measure zero
+does not license a closed interval touching zero: a one-sided zero-safe strip
+majorant remains required. K359 passes `9/9` controls and rejects `10/10`
+hostile mutations.
+
+K360 executes one non-equal positive rational projective direction at each
+reachable codimension with 180-digit Arb. All thirteen controls retain all
+`2,400` ordered descriptors and `23` coherent groups, for `31,200` ordered
+descriptor evaluations. Every argument floor is positive, every interval is
+finite, and every K352-preconditioned result overlaps the direct complete
+evaluator. K360 passes `9/9` controls and rejects `12/12` hostile mutations.
+
+This proves the finite projective coordinate and measure interface plus its
+anisotropic point execution. It does not prove positive-width projective
+cells, zero-inclusive boundary strip bounds, disjoint global face-neighborhood
+ownership, the recursive interior, tails or any complete K348 hybrid integral.
+
 ## K356--K357 order-eight positive-width face cells (2026-09-23)
 
 K356 instantiates K352 on genuine positive-width Arb cells. For every species
