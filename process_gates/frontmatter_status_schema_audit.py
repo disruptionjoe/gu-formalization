@@ -57,6 +57,13 @@ def baseline_status(revision: str, rel: str) -> str | None:
     return match.group(1).strip().strip("\"'") if match else None
 
 
+def legacy_change_lacks_axis(
+    old: str | None, value: str, roles: set[str], frontmatter_text: str
+) -> bool:
+    """Require an explicit axis only for a new or changed legacy value."""
+    return old != value and value not in roles and not AXIS.search(frontmatter_text)
+
+
 def audit() -> list[str]:
     data = yaml.safe_load(MANIFEST.read_text())
     paths = tracked_markdown()
@@ -79,12 +86,9 @@ def audit() -> list[str]:
         rev = str(data["frozen_revision"])
         for rel, value in mapping.items():
             old = baseline_status(rev, rel)
-            if old is None and value not in roles:
-                failures.append(f"{rel}: new document uses legacy non-role status")
-            elif old != value:
-                fm = frontmatter((ROOT / rel).read_text(errors="replace")) or ""
-                if value not in roles and not AXIS.search(fm):
-                    failures.append(f"{rel}: new/changed non-role status lacks typed axis")
+            fm = frontmatter((ROOT / rel).read_text(errors="replace")) or ""
+            if legacy_change_lacks_axis(old, value, roles, fm):
+                failures.append(f"{rel}: new/changed non-role status lacks typed axis")
     return failures
 
 
@@ -101,6 +105,10 @@ def selftest() -> int:
         digest({**sample, "b.md": "complete"}) != clean,
         digest({**sample, "c.md": "active"}) != clean,
         len(set(sample.values())) != len(set({**sample, "b.md": "process"}.values())),
+        not legacy_change_lacks_axis(
+            None, "OPEN", {"process"}, "status: OPEN\nclaim_verdict: OPEN\n"
+        ),
+        legacy_change_lacks_axis(None, "OPEN", {"process"}, "status: OPEN\n"),
     ]
     for i, ok in enumerate(caught, 1):
         print(f"[{'PASS' if ok else 'FAIL'}] planted population mutation {i}")

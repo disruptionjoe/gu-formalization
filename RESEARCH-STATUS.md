@@ -2,11 +2,38 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-22"
+updated_at: "2026-09-23"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-09-23 — K343--K363 order-eight value, face, and projective interfaces
+
+K343 proves that the order-seven evaluator cannot be reused dimension-free and
+instead freezes an order-specific coherent quadratic-form interface. K344--
+K348 instantiate the order-eight native node, all 1,296 Gram entries, 2,400
+ordered terms, 43,200 ordered entry-axis jets, and the exact positive tensor
+Peano contract. These are node and remainder interfaces, not a complete
+order-eight integral.
+
+K349--K357 add the zero-safe radial contract, exact reachability for 517 proper
+faces, determinant-preserving singular/confluent preconditioners, and 3,619
+finite positive-width equal-normal cells. Their integrated strips preserve all
+23 coherent groups but do not cover the normal cone or positive interior.
+K358--K363 then compile 578 exact maximum-coordinate projective charts used
+2,998 times, execute finite non-equal and positive-width pilots at all thirteen
+reachable codimensions, prove measure-only zero-strip bounds, and assign each
+of 524,286 low-coordinate patterns exactly one reachable face-neighborhood or
+interior owner.
+
+The next gate is a determinant-preserving uniform integrand-weighted bound on
+every K363-owned one-sided zero strip. K362's angular masses and K361's pilot
+cells are not such bounds. Recursive positive-interior coverage, analytic
+radial tails, the eighteen complete K348 Peano integrals, the order-eight
+remainder and integral, the action column, `R_ref`, K152, source/physics
+ledgers, canon, papers, public posture, and physical claims remain open or
+unchanged.
 
 ## 2026-09-22 — K340--K342 order-seven value/residual composition
 
