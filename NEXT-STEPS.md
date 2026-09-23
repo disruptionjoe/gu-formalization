@@ -11107,3 +11107,17 @@ All three primary failure conditions from oq-kk1a resolved negatively. Explicit 
 - Do not make broad synthesis essays when a small falsifiable test is possible.
 - Do not use observer-finality language as a no-go theorem escape hatch; state the record protocol and failure mode.
 - Do not frame any positive-constructions-lane output as a Nguyen refutation; these are construction attempts, not counter-proofs.
+## K370--K372 release the rank-five order-nine calculus (2026-09-23)
+
+K370 stitches K363's disjoint owner rule to K369's global face constants and a
+finite recursive positive-interior cover, producing all eighteen complete
+hybrid majorants. K371 closes the raw tensor-Peano remainder. K372 joins that
+remainder to K345 and encloses the complete conditional order-eight integral in
+`[-5.90747806585151869e+680, 5.90747806585151869e+680]`. The bound is finite
+but does not decide sign or provide a useful downstream numerical margin.
+
+Next construct the rank-five determinant, confluence and derivative calculus
+needed by order nine. Preserve the order-specific node, normalization, ordered
+orientations and face atlas; do not reuse order-eight counts as generic data.
+Then close order ten and build the rank-six calculus required by orders eleven
+and twelve before composing the base action column and `R_ref` residual.

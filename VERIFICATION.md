@@ -5915,3 +5915,25 @@ finite controls reject missing coend relations, noncycle leakage, omitted
 gauge range and non-gauge-preserving maps. These theorems supply neither a
 bicategory/Mackey-2 structure nor a source-selected physical complex or state
 space.
+## K370--K372 complete order-eight integral enclosure (2026-09-23)
+
+K370 replays all `524,286` K363 low-coordinate subsets, resolves all `517`
+distinct face-owner unions to K369 rows, and charges each row once on its
+disjoint owner union. Its finite first-maximum/low-high recursion contains
+`271,491` positive-interior max cells. The exact interior scale penalty uses
+each hybrid's proved maximum second singular degree; the minimum remaining
+radial power is zero. For the face-free `v8,v9` hybrids, every singular support
+meets a preceding `1/256` node, so K349's complete-second scaled degree twelve
+is charged by `256^12`; the effective moving radial singular degree is zero and
+the terminal radial powers are three and two. All eighteen complete hybrid
+bounds are finite.
+
+K371 sums those eighteen bounds in K348 tensor-Peano order with no mixed
+derivatives or node-jet substitution. K372 applies the native `(2*pi)^-10`
+prefactor exactly once and joins K345's node interval, giving the rigorous
+complete conditional order-eight enclosure
+`[-5.90747806585151869e+680, 5.90747806585151869e+680]`. It proves finiteness
+but not sign and releases only the rank-five order-nine calculus, not an action
+column, `R_ref`, K152 interval or physical conclusion. K370/K371/K372 pass
+`10/10`, `9/9`, and `10/10` controls and reject `11/11`, `9/9`, and `11/11`
+hostile mutations.
