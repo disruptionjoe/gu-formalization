@@ -7,6 +7,19 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Corrected-observation gauge seam and K391 face bank (2026-09-23)
+
+Exact rational algebra proves `im(1-j Gamma)=ker(Gamma)` and
+`ker(1-j Gamma)=im(j)` under `Gamma j=1`. A full gauge slice needs equality
+of the action-owned gauge image with `im(j)`; Green compatibility independently
+needs `j Gamma` self-adjoint. The probe passes `10/10` controls and rejects
+`13/13` hostile mutations. Current K77 artifacts lack the typed bridge.
+
+K391 runs 268,800 complete coherent controls at 180 Arb digits across twenty
+hybrids, 4,480 descriptors and three face-normal levels. Its probe passes
+`10/10` controls and rejects `11/11` hostile mutations. Positive-width cells,
+recursive interiors, tails and the complete order-nine integral remain open.
+
 ## Residual-vector kinetic-realization first gate (2026-09-23)
 
 The executable enumerates the forty roots `±e_i±e_j` of D5 and independently

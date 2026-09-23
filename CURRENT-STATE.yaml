@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bb8880c83a88d645bb1ed840167dc08629dbbf9a
+revision_basis: d45b81de9bcc
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,15 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The corrected observation map `P=1-j Gamma` is now exactly classified:
+    `im(P)=ker(Gamma)` and `ker(P)=im(j)`, so it descends through a named
+    action-owned gauge image only when that image equals `im(j)`. Green
+    compatibility is an independent adjoint condition on `j Gamma`; the
+    right-inverse law alone does not supply it. Current K77 artifacts provide
+    no typed intertwiner or image equality. Separately, K391 executes 268,800
+    complete coherent 180-digit Arb controls on the hardest K390 face in all
+    twenty order-nine hybrids. Positive-width cells and tails remain open.
+
     The residual-vector P8 first gate independently enumerates all forty D5
     roots and recovers the compact Cartan trace form `16 I_5`. On the declared
     `(Y,B-L)` plane the exact Gram is `[[10/3,8/3],[8/3,16/3]]`, with

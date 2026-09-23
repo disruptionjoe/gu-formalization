@@ -4,6 +4,15 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Corrected observation seam and K391
+
+- `channel-swings/corrected_observation_gauge_slice_green_compatibility.py`
+  proves the gauge-image equality and independent Green-adjoint conditions;
+  its probe rejects thirteen hostile mutations.
+- `channel-swings/k391_order_nine_hardest_face_arb_bank.py` executes 268,800
+  complete coherent 180-digit Arb controls on the hardest order-nine face;
+  its probe rejects eleven hostile mutations.
+
 ## K388--K390 order-nine face preconditioner programs
 
 - `channel-swings/k388_order_nine_mask_native_preconditioner_compiler.py`

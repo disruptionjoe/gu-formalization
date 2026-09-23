@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.0",
+  "result_id": "CORRECTED-OBSERVATION-GAUGE-SLICE-GREEN-COMPATIBILITY",
+  "created": "2026-09-23",
+  "status": "working_draft_verified",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "Determine exactly when the supplied corrected observed Clifford projector is an action-owned gauge slice with a compatible Green pairing, without identifying same-named K77 projectors across different carriers.",
+  "theorem": {
+    "projector": "P=I-j*Gamma with Gamma*j=I",
+    "image": "im(P)=ker(Gamma)",
+    "kernel": "ker(P)=im(j)",
+    "coset_constancy": "P is constant on cosets of a gauge image G iff G is contained in im(j)",
+    "full_slice": "If Gamma restricted to G is an isomorphism onto the trace carrier, then P is a complete gauge slice iff G=im(j)",
+    "green_condition": "For a nondegenerate Green form H, P is H-self-adjoint iff j*Gamma is H-self-adjoint; the right-inverse law alone does not imply this"
+  },
+  "exact_fixture": {
+    "field": "Q",
+    "carrier_dimension": 3,
+    "trace_dimension": 1,
+    "gamma": [
+      [
+        "1",
+        "0",
+        "0"
+      ]
+    ],
+    "orthogonal_right_inverse": [
+      [
+        "1"
+      ],
+      [
+        "0"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "oblique_right_inverse": [
+      [
+        "1"
+      ],
+      [
+        "1"
+      ],
+      [
+        "0"
+      ]
+    ],
+    "orthogonal_projector": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "oblique_projector": [
+      [
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "-1",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "green_form": [
+      [
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1"
+      ]
+    ],
+    "right_inverse_laws": {
+      "orthogonal": true,
+      "oblique": true
+    },
+    "projector_laws": {
+      "orthogonal_idempotent": true,
+      "oblique_idempotent": true,
+      "both_land_in_gamma_kernel": true,
+      "trace_image_is_killed": true,
+      "unrelated_gauge_image_is_not_killed": true
+    },
+    "green_laws": {
+      "orthogonal_projector_is_self_adjoint": true,
+      "oblique_projector_is_not_self_adjoint": true
+    }
+  },
+  "owner_audit": {
+    "corrected_clifford_projector": {
+      "carrier": "observed one-form-spinor module B",
+      "owned": "algebraic split projector onto ker(Gamma_B)",
+      "missing": "source/action choice of right inverse, gauge image, quotient, Green form and common domain",
+      "evidence": "explorations/source-native-corrected-observation-projector-2026-08-31.md"
+    },
+    "k77_complete_observation_projector": {
+      "carrier": "complete value-plus-first-jet equation dual, not ordinary pullback",
+      "owned": "NONCOMMUTING_THREE_PATCH_ACTION_COVECTOR__COMPLETE_OBSERVATION_DUAL__NO_LEAKAGE_PROJECTOR__PAIRING_DESCENT_EXACT",
+      "missing": "typed intertwiner to B and proof that its killed image equals im(j_B)",
+      "evidence": "lab/process/selected-k77-action-bundle-observation-overlap.json"
+    },
+    "k77_section_receiver": {
+      "carrier": "four horizontal plus ten conormal equation components",
+      "owned": "COMPLETE_RECEIVER_REQUIRED__ARBITRARY_X_LORENTZ_SECTION_FALSE__HOLONOMICITY_DOES_NOT_REMOVE_ACTION_CONORMAL_LEAKAGE",
+      "missing": "source-derived conormal constraint/BV quotient and link to the Clifford trace complement",
+      "evidence": "lab/process/selected-k77-physical-section-faithfulness-gate.json"
+    },
+    "k77_zero_order_trace_constraint": {
+      "carrier": "physical Omega1(S) plus Omega0(S)",
+      "owned": "unique propagated Spin-natural zero-order line C=2 Gamma(zeta)-nu",
+      "missing": "route is killed by the retained rank-128 Jordan image and is neither BV nor a quotient",
+      "evidence": "lab/process/selected-k77-natural-trace-constraint-gate.json"
+    },
+    "k77_bfv_image": {
+      "carrier": "source-epsilon-dependent full labelled K77 frame with retained charged endpoint completion",
+      "owned": "frozen distortion-orbit rank-70 classical BFV gauge image",
+      "missing": "map to the observed one-form-spinor trace lift, proper global resolution and physical cohomology",
+      "evidence": "lab/process/selected-k77-full-bfv-master-equation-gate.json"
+    },
+    "k77_green_form": {
+      "carrier": "full 3860-dimensional boson/fermion boundary comparator",
+      "owned": "SYMMETRIZED_TOTAL_PREBOUNDARY_FORM_EXACT__FULL_CARRIER_SMALL_GAUGE_BASIC_LAGRANGIAN_GRAPHS_EXIST_CONDITIONALLY__FIXED_FERMION_REALITY_VALID__NAIVE_MOVING_TOTAL_REALITY_REJECTED__AT_LEAST_120_GRAPH_COORDINATES_UNSELECTED__ACTUAL_K77_ANTILINEAR_CALDERON_DOMAIN_NEXT",
+      "missing": "selected moving reality/Calderon or maximal-dissipative domain and compatibility with P_B",
+      "evidence": "lab/process/selected-k77-coupled-green-domain.json"
+    },
+    "typed_composition_result": "no current artifact supplies one carrier map intertwining P_B with an action-owned gauge image and a selected Green-domain projector"
+  },
+  "decision": {
+    "algebraic_correction_retracted": false,
+    "physical_gauge_slice_derived": false,
+    "green_compatible_right_inverse_derived": false,
+    "same_named_projectors_composed": false,
+    "shortcut_route": "killed_until_typed_intertwiner_and_image_equality_are_supplied",
+    "next_exact_input": "construct or identify an action-owned map iota from the observed one-form-spinor carrier into the K77 equation/field complex, then prove iota(im j_B) equals the relevant gauge/constraint image and iota intertwines the selected Green-domain projector"
+  },
+  "ledger_effect": {
+    "RA-F1": "NEEDS_UNCHANGED",
+    "RA-D4": "NEEDS_UNCHANGED",
+    "AC-F1": "UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "SC-GEN-02/03/51/53/54": "SOURCE_POLARITY_UNCHANGED",
+    "SC-CHI-01/51": "SOURCE_POLARITY_UNCHANGED"
+  },
+  "release_test": {
+    "both_right_inverse_laws_hold": true,
+    "both_projectors_are_idempotent": true,
+    "both_projectors_land_in_gamma_kernel": true,
+    "matching_trace_image_is_killed": true,
+    "unrelated_gauge_image_survives": true,
+    "right_inverse_does_not_force_green_self_adjointness": true,
+    "owner_carriers_remain_distinct": true,
+    "no_source_ledger_canon_paper_or_public_effect": true
+  },
+  "claim_ceiling": "Exact linear-algebra criterion for when a split corrected Clifford projector can be a gauge representative selector, plus a typed audit showing that current K77 action, BV, observation and Green artifacts do not yet supply the required same-carrier intertwiner, image equality or selected common domain. No physical quotient, chirality, family count, residual-vector realization, source/ledger move, canon, paper, public or GU verdict follows."
+}

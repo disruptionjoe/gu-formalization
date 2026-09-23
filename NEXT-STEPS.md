@@ -20,6 +20,14 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 CORRECTED OBSERVATION SEAM AND K391.** Exact algebra proves
+> that `P=1-j Gamma` is a gauge slice precisely for a gauge image equal to
+> `im(j)`; Green compatibility separately requires `j Gamma` self-adjoint.
+> No current K77 artifact supplies the typed bridge. K391 executes 268,800
+> 180-digit Arb controls on the hardest face across all twenty order-nine
+> hybrids and rejects 11 hostile mutations. Next build the typed bridge and
+> row/column-scaled positive-width cells. No physical claim moves.
+
 > **2026-09-23 RESIDUAL-VECTOR P8 FIRST GATE.** Exact enumeration of all forty
 > D5 roots gives the compact Cartan trace form `16 I_5`. On the declared
 > `(Y,B-L)` plane its Gram determinant is `32/3`; the hypercharge-orthogonal
