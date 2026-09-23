@@ -7,6 +7,24 @@ updated_at: "2026-09-22"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K343 higher-order value-mode transfer gate (2026-09-22)
+
+K343 deterministically replays all `2,720` K179 paths, `128` coherent groups
+and `58,826` upper-triangle Gram entries at orders eight through twelve. Each
+group retains its complete coefficient vector, contracted-position support,
+species multiplicities and all ordered cross terms through the exact form
+`c_G^T K_G c_G`; occurrencewise absolute enclosure is explicitly rejected.
+
+The multiplicity census proves the transfer boundary. Order eight has maximum
+species-determinant rank four. Orders nine and ten require rank five, while
+orders eleven and twelve require rank six. Therefore K341 is not a dimension-
+free integrator, and its four-group D4-times-bordered-B5 compiler, K299 weights,
+K340 terminal atlas, K334 cover and `(2*pi)^-9` normalization cannot be reused
+as generic higher-order data. The independent probe passes `18/18` controls
+and rejects `17/17` hostile mutations. No higher-order numerical value,
+complete action column, `R_ref` residual, K152 interval, source/ledger, canon,
+paper, public, or physical result is proved.
+
 ## K340--K342 order-seven value/residual composition (2026-09-22)
 
 K340 proves that two maximal-coordinate sectors exactly cover the terminal

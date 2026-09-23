@@ -20,6 +20,17 @@ updated_at: "2026-09-22"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-22 K343 HIGHER-ORDER VALUE-MODE TRANSFER GATE.** K343 replays all
+> `2,720` K179 paths, `128` coherent groups and `58,826` upper-triangle Gram
+> entries at orders eight through twelve into exact `c_G^T K_G c_G` interfaces.
+> Literal K341 reuse is rejected: order eight remains within rank four but
+> lacks its native cubature/face atlas, order nine first requires rank five,
+> and orders eleven and twelve require rank six. Next construct the order-eight
+> native value cubature and group-level interval evaluator, validating all
+> `1,296` order-eight entries before extending the determinant calculus. Do not
+> absolutize occurrences, reuse order-seven weights/cover/normalization, or
+> infer a complete action column, `R_ref`, K152, source, or physical result.
+
 > **2026-09-22 K340--K342 ORDER-SEVEN VALUE/RESIDUAL COMPOSITION.** K340
 > replaces K318's Peano-only endpoint charts with two fixed-node terminal
 > sectors at `p_i=1/6`, `y=1/2`. K341 deduplicates K334's gap-refined leaves

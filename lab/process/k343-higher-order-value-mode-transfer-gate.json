@@ -1,0 +1,3908 @@
+{
+  "claim_ceiling": "Exact transfer gate and coherence interface for all K179 orders eight through twelve. It replays 2,720 paths, 128 coherent groups and 58,826 upper-triangle Gram entries, preserving every coefficient, contracted position and cross term. K341 is not a dimension-free integrator: order eight remains within rank four but needs a native order-eight cubature/face atlas, order nine first requires rank-five determinant calculus, and orders eleven and twelve require rank six. No higher-order numerical value, complete action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public or physical claim is emitted.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-22",
+  "decision": {
+    "complete_R_ref_residual_emitted": false,
+    "direct_reuse_route_rejected": true,
+    "exact_higher_order_coherence_interface_emitted": true,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "construct the order-eight native value cubature and group-level interval evaluator on this exact coherence interface; validate it against all 1,296 order-eight Gram entries before building the rank-five calculus required at order nine",
+    "numerical_order_eight_value_emitted": false,
+    "orders_eight_through_twelve_action_column_emitted": false
+  },
+  "direction": "observed_to_native",
+  "exact_generic_coherence_interface": {
+    "all_K179_coefficients_retained": true,
+    "all_coherent_cross_terms_retained": true,
+    "all_contracted_positions_retained": true,
+    "canonical_interface_is_deterministic": true,
+    "coherent_value_rule": "for each group G evaluate c_G^T K_G c_G with K_G the factorial-free species-determinant Gram kernel, then sum groups before the declared outer enclosure",
+    "group_records": [
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed0:d=0|1+^1,1-^1,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=0|1+^1,1-^1,2+^3,2-^3",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:3e32af3cc21edf861a9b15815b49092100675606901ba231f90e1654155b9859",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:d7a0aab64c0a4c222c596359ee9b9afe65b8f520dccc071c84196cbce8c8baf4"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed0:d=0|1+^2,1-^2,2+^2,2-^2",
+        "maximum_species_determinant_rank": 2,
+        "off_diagonal_ordered_cross_terms": 552,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 576,
+        "output_signature": "d=0|1+^2,1-^2,2+^2,2-^2",
+        "path_count": 24,
+        "path_interface_sha256": "sha256:edf272842a6f87e47fc65ecc057ab616d6a2134d5cacec80ee55ce28e9d6a5cb",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 300,
+        "upper_triangle_pair_interface_sha256": "sha256:ed7d1557c766f929b8c46a25ae0db2d3697fee0cd60ff223f1488c1da161216b"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed0:d=0|1+^3,1-^3,2+^1,2-^1",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=0|1+^3,1-^3,2+^1,2-^1",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:294d4fd559f79d17de7892e7d229746d7dc10239fe4782fde78b3cb306409b7d",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:59f625efc5a7c793ef559c732a25849657d32fb927bb7c645b686b68d3ff6f58"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed0:d=0|1+^4,1-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=0|1+^4,1-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:5889328d7368aa844db299d2d96740fc7cfb49bab4f821a6bdcd773a0ecae947",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:99b58904034db292206bcf007737810fdb4c828a98d8d570ed43a03e055e2f00"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed0:d=0|2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=0|2+^4,2-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:94bb8b9d9abee53ca9dd373b5c05c52888eb6677e63b218b18742beb1509f36e",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:9b041c8eb73aac251854771d62726eb20e37ca994fcfe5f69db93464e1225727"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=1|1+^1,1-^1,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 42,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 49,
+        "output_signature": "d=1|1+^1,1-^1,2+^3,2-^3",
+        "path_count": 7,
+        "path_interface_sha256": "sha256:715d487b02b5c8fb017ac22af5440bc0751ad49a21667d3fa9a607e28f3e6038",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 28,
+        "upper_triangle_pair_interface_sha256": "sha256:b0f2d21d80626c7801f6e556eb2525d3e2c44862a99540ce55ca774a90c53684"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 9,
+          "1": 6
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=1|1+^2,1-^2,2+^2,2-^2",
+        "maximum_species_determinant_rank": 2,
+        "off_diagonal_ordered_cross_terms": 210,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 225,
+        "output_signature": "d=1|1+^2,1-^2,2+^2,2-^2",
+        "path_count": 15,
+        "path_interface_sha256": "sha256:01091fc1a61281c7e5a767a8a77caebe98c751fef6251a31de6faa2f0bd6b74f",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 120,
+        "upper_triangle_pair_interface_sha256": "sha256:146a59ed05965f2d52c601ad8dca9644bfc62393a84772cf13f251a6f0d77307"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 5,
+          "1": 8
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=1|1+^3,1-^3,2+^1,2-^1",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 156,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 169,
+        "output_signature": "d=1|1+^3,1-^3,2+^1,2-^1",
+        "path_count": 13,
+        "path_interface_sha256": "sha256:878d6e2592ef9a09a124a750a22bcb0dff79be7648f317043419168ccb531749",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 91,
+        "upper_triangle_pair_interface_sha256": "sha256:7fbccadb42b3b69ad9311961676f4704cd3bae8c429aa6e79a2c4a00479d17a0"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=1|1+^4,1-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=1|1+^4,1-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:1d0380021e256e22f9d8d8c5893ed967c026f386243e28e3c6768ab91a2f6db9",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:7ceac4188c4a6238cac15af2dbed2c45a04d9f171d15e75b2aa26fdfc85c15d9"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 1
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=1|2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 0,
+        "old_position_support": [
+          1
+        ],
+        "ordered_quadratic_terms": 1,
+        "output_signature": "d=1|2+^4,2-^4",
+        "path_count": 1,
+        "path_interface_sha256": "sha256:79b1b1016d0f984f8417a168f99bea47f4d70afa4980d809fd12aeca8917641f",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 1,
+        "upper_triangle_pair_interface_sha256": "sha256:c46dbf4b18a6eef4fc6a31114af4caef5e471092cc1af3db043a20e233c28134"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 1,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=2|1+^1,2+^3,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 6,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 9,
+        "output_signature": "d=2|1+^1,2+^3,2-^4",
+        "path_count": 3,
+        "path_interface_sha256": "sha256:595a19c8eb5010705ee0bde378689f66ef4d7990269e92662c8d288d5a3acbf4",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "2+": 3,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 6,
+        "upper_triangle_pair_interface_sha256": "sha256:2da1151e08dbad53e20ff53bdaea2f7ed0c6a84a9e60919cd4aedbf3e1a8c14e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 5,
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=2|1+^2,1-^1,2+^2,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 72,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 81,
+        "output_signature": "d=2|1+^2,1-^1,2+^2,2-^3",
+        "path_count": 9,
+        "path_interface_sha256": "sha256:51b4f9195d969b3dd02cb2edee8f98b4a6b1d2f8bf6122cc9ddd827c326626dc",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 1,
+          "2+": 2,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 45,
+        "upper_triangle_pair_interface_sha256": "sha256:7cc52e206dfa59a1d9449103c62cd3be7fa486aa423887b772e81d69cf0418ca"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 6
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=2|1+^3,1-^2,2+^1,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 72,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 81,
+        "output_signature": "d=2|1+^3,1-^2,2+^1,2-^2",
+        "path_count": 9,
+        "path_interface_sha256": "sha256:5917dac9c4029b983218193116ec3062311e4501a96d2b2bd1c11e41a4b7676d",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 2,
+          "2+": 1,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 45,
+        "upper_triangle_pair_interface_sha256": "sha256:504c62164cf26a0a4378f636572fcd74cc5f643c0e3f62c7627b64d06b355df7"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed1:d=2|1+^4,1-^3,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 6,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 9,
+        "output_signature": "d=2|1+^4,1-^3,2-^1",
+        "path_count": 3,
+        "path_interface_sha256": "sha256:0f87e0c51f33ee2f89aa7dc1ed6b30c0c4178c4841ad994800bbdbd9b963c055",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 3,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 6,
+        "upper_triangle_pair_interface_sha256": "sha256:44b3d898217d0464bed0582b0596f22939962c24c359de78b8a1d4ac6eac93e2"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=1|1+^1,1-^2,2+^3,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 72,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 81,
+        "output_signature": "d=1|1+^1,1-^2,2+^3,2-^2",
+        "path_count": 9,
+        "path_interface_sha256": "sha256:e07c846a7da1cd5ee18ead717a87c5f13310591d7cf39e4d904d873c07acbb1b",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 2,
+          "2+": 3,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 45,
+        "upper_triangle_pair_interface_sha256": "sha256:c80a5e3a14157428b3150da67699f70d3efcae71e164e22c8f07f97984ee9d1f"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 4,
+          "1": 5
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=1|1+^2,1-^3,2+^2,2-^1",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 72,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 81,
+        "output_signature": "d=1|1+^2,1-^3,2+^2,2-^1",
+        "path_count": 9,
+        "path_interface_sha256": "sha256:74b6ad31d0b969a657715ea937ad15564ff6db8a4c7c377ad56e042fb175a834",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 3,
+          "2+": 2,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 45,
+        "upper_triangle_pair_interface_sha256": "sha256:9dd250805c60ef1a5e6387cc2476e36f260e054055f3d9a881e22abaf147df8e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 1
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=1|1+^3,1-^4,2+^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 6,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 9,
+        "output_signature": "d=1|1+^3,1-^4,2+^1",
+        "path_count": 3,
+        "path_interface_sha256": "sha256:253421bec6d59ee6077a6321a4fc559b7f499466a1d0692716eebd70a4d208e8",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 4,
+          "2+": 1
+        },
+        "upper_triangle_gram_entries": 6,
+        "upper_triangle_pair_interface_sha256": "sha256:8eff21beff10856bb1d1ca62126ee4f86bce7d5bc46aa9d8428d8de4e8831544"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=1|1-^1,2+^4,2-^3",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 6,
+        "old_position_support": [
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 9,
+        "output_signature": "d=1|1-^1,2+^4,2-^3",
+        "path_count": 3,
+        "path_interface_sha256": "sha256:b487803632d87dbd1c1ede3385bd3e78793ec2b4069fbb26044197d21b868406",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1-": 1,
+          "2+": 4,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 6,
+        "upper_triangle_pair_interface_sha256": "sha256:91e87c5c57ab8fd20d4e417a89744f587b27191e1619d55c80d511c3198806fa"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 5,
+          "1": 8
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=2|1+^1,1-^1,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 156,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 169,
+        "output_signature": "d=2|1+^1,1-^1,2+^3,2-^3",
+        "path_count": 13,
+        "path_interface_sha256": "sha256:446581829048dca0315d64606380d676f3a6edba1cb886e143f75ea94eb44ee9",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 91,
+        "upper_triangle_pair_interface_sha256": "sha256:47c287295df63dbe97f9ee99deb381331cc4c57f1c66b806a8152b9125fd0116"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 9,
+          "1": 6
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=2|1+^2,1-^2,2+^2,2-^2",
+        "maximum_species_determinant_rank": 2,
+        "off_diagonal_ordered_cross_terms": 210,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 225,
+        "output_signature": "d=2|1+^2,1-^2,2+^2,2-^2",
+        "path_count": 15,
+        "path_interface_sha256": "sha256:5b7dfbef323f9bf84cf7282c64fe5b34414a7d3b6475fadad38c4d516fbd3f93",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 120,
+        "upper_triangle_pair_interface_sha256": "sha256:e9396bb2c6a19cf05648f610e915d0183008461e50a5ab6f379ba4d2ba293ff9"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=2|1+^3,1-^3,2+^1,2-^1",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 42,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 49,
+        "output_signature": "d=2|1+^3,1-^3,2+^1,2-^1",
+        "path_count": 7,
+        "path_interface_sha256": "sha256:f3d710e2594d15cabc0c36874b9d3f590db8824e191adaaf7f911b9b8a98ef39",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 28,
+        "upper_triangle_pair_interface_sha256": "sha256:14eb2e40a6864762f08369d5f027a9261df40931a6cb52bc881a8f2b15937240"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 1
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=2|1+^4,1-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 0,
+        "old_position_support": [
+          1
+        ],
+        "ordered_quadratic_terms": 1,
+        "output_signature": "d=2|1+^4,1-^4",
+        "path_count": 1,
+        "path_interface_sha256": "sha256:9416bbe3dfe5e426688d5a752eb61949d1eb9b44bccbede7fde708f75696576e",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4
+        },
+        "upper_triangle_gram_entries": 1,
+        "upper_triangle_pair_interface_sha256": "sha256:09353422bd854bd9340f21cd8d50b4903aed4f8e07500b80c94332ecf77a2ee9"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order8:seed2:d=2|2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=2|2+^4,2-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:5fe75b5c86cf8419b85b6464c9e115f43554600a898175b803c8b96025dcd692",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:0365920accb76a9a8b2297f2357cac5f9d89eac31d836648ddf0e4ec036eed3e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=1|1+^1,1-^2,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=1|1+^1,1-^2,2+^3,2-^3",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:17c4b3a5a562dd63db22bce3645406b5f7349c65ffe20bab3203e3e9d24a6a70",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 2,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:208353a449f19302ecb58d91377b7af5c2014ab16f4895e09d706788dc026c8c"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 14
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=1|1+^2,1-^3,2+^2,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 552,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 576,
+        "output_signature": "d=1|1+^2,1-^3,2+^2,2-^2",
+        "path_count": 24,
+        "path_interface_sha256": "sha256:800049f444ae465bba097ada88be753aa8532d6f5cccca9ffd61b10d3b95517a",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 3,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 300,
+        "upper_triangle_pair_interface_sha256": "sha256:a6ef92c5a42ef89dc839d6fd58b48c4501c2b96efd5adf3b0b5866e299a034c9"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=1|1+^3,1-^4,2+^1,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=1|1+^3,1-^4,2+^1,2-^1",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:49d754959123f24d1403cb0dc7da4a19b744297724a932a0432e6d890609d05e",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 4,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:b56baf88b96a028e21eae836973e5c6a1bafe418773c6aaa836fbdaad2d202e4"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=1|1+^4,1-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=1|1+^4,1-^5",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:7493ec8e5e69bb9fe1129869be06bded0b75551723c44bff868431091af5df0b",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 5
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:57e7b71709441e7e8d4745452109cb25942e6c83ed1078801190d8218685a244"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=1|1-^1,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=1|1-^1,2+^4,2-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:8aaff4ddc4f8a3935a402e4d575917b781f3248212824c31239d2fde680eaaef",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1-": 1,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:5eadd70605b07b3fc775f69aa2c6825f5251148630ef2ca44ab418463aee8013"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=2|1+^1,1-^1,2+^3,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=2|1+^1,1-^1,2+^3,2-^4",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:6e651c01032f388491ff2b98c7189d1c4bac121ab7babfea7d58ee862f8fd490",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 3,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:bd1f05ef6d2ad5802059e21dc54c55e2c44c34345bc2962faf3bd54def5dd86c"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 14
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=2|1+^2,1-^2,2+^2,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 552,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 576,
+        "output_signature": "d=2|1+^2,1-^2,2+^2,2-^3",
+        "path_count": 24,
+        "path_interface_sha256": "sha256:9362a6d82ce4248ddc652feec49ec85f4f2baa32c0737eb5280888043698db6a",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 2,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 300,
+        "upper_triangle_pair_interface_sha256": "sha256:4156bf596ad59137f488e5f00e0dac9843b241fdaa4a625525ed5fea055aef9e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=2|1+^3,1-^3,2+^1,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=2|1+^3,1-^3,2+^1,2-^2",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:9a061a12c3a3b86f59d433f5499727a5ca5fae176640b16a05d7704d13217533",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 1,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:356b56f30d222c2f0aaa27cfd03ea570d85fc099da1741794681bd6faeae28e6"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=2|1+^4,1-^4,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=2|1+^4,1-^4,2-^1",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:eea3b835964701813c9476a2dc50c3b708050b4175b63e5af010dde297bace0a",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:2f44e234f9576283ee3455aa35d5e95d5be352670aa33691fa2c17454b6d0512"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed0:d=2|2+^4,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=2|2+^4,2-^5",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:b7830ea993f5b8e41e95dca7e5c6ade0e1e44c1d208a659e17cc1fe56be0fa6d",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "2+": 4,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:7f6452374a9d37233ff5627d8a75876b370b3ccf7b1bb295951f27815f5d23d3"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed1:d=0|1+^1,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=0|1+^1,2+^4,2-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:7c4c1ca1880fea5ea2ba8400b9e9d79ac4b6f4f9a7a2500102b46c5ec14388b3",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:f3c671f3f3f6a804df2b31c33c42539662e8fcadc8081ec40b3222a2d2b097bf"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 4,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed1:d=0|1+^2,1-^1,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=0|1+^2,1-^1,2+^3,2-^3",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:880b1052750913968a02176685bdd9992a0303b3e7d263ab1d25a283d262864e",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 1,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:327a6b1e227a2769c3e444bba413f57935f35575c058ff8bae4e0b0fb475f682"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed1:d=0|1+^3,1-^2,2+^2,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 552,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 576,
+        "output_signature": "d=0|1+^3,1-^2,2+^2,2-^2",
+        "path_count": 24,
+        "path_interface_sha256": "sha256:f752caed683ad927e46e20b634efc8938d8a5e653ecedc4ec432f4dc89e8eeb4",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 2,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 300,
+        "upper_triangle_pair_interface_sha256": "sha256:1248cf4aa3d4443398d462183e883352fcd1b27dc047b92bf6c136434399004a"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 4,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed1:d=0|1+^4,1-^3,2+^1,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=0|1+^4,1-^3,2+^1,2-^1",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:4bfce1242668de46181f38c5ed29622a1e593951ce2fd055abdc965f2b99cae3",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 3,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:1c9a735badfca168a86126bb72dc139912aa4a260ed140fd3f2f84568aa0c934"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed1:d=0|1+^5,1-^4",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=0|1+^5,1-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:d68332c6e3cf048cc8e9760b06a0ec1889763c2632941853716073d69eb0e0a9",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:5109496b49287eb6f8177fabdf9eb8e6fec16e8964a6ab17d6399b6bc302bc5a"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 4,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed2:d=0|1+^1,1-^1,2+^4,2-^3",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=0|1+^1,1-^1,2+^4,2-^3",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:3cbeac5433be2ec0284ef36b975321f0df894e537aca01e16cd9bac11a0e67ee",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 4,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:71eb74f334e2a953e41b5e3a2fb734b4e205ce4eabea69deaa95b3e8caefacbf"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed2:d=0|1+^2,1-^2,2+^3,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 552,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 576,
+        "output_signature": "d=0|1+^2,1-^2,2+^3,2-^2",
+        "path_count": 24,
+        "path_interface_sha256": "sha256:ea5af5f704cb35cb75dc11078738af0bde61a8383c002e3d6d636e21df47c5dd",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 3,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 300,
+        "upper_triangle_pair_interface_sha256": "sha256:4d6f27d7f3abfdeaa4ac46b22bc707656b152895a5c3a709965a8d0e2b16583d"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 4,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed2:d=0|1+^3,1-^3,2+^2,2-^1",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=0|1+^3,1-^3,2+^2,2-^1",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:8c4b704796f69a45e8c21897fee7ec0e41d837426077d5028de03d3c8981eb98",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 2,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:f7bd949b9c6c520999e39c1434e1d62f882b78119ed8e6d879fbabf824afea98"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed2:d=0|1+^4,1-^4,2+^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=0|1+^4,1-^4,2+^1",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:b34922f1840e105434dc24c532353d81535ed682e7e5555f77fc9f204650ee32",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 1
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:9bc742e92b85b8da903c3918d2bbb19072a49c0b86b702e152fa9e37cadfb0af"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order9:seed2:d=0|2+^5,2-^4",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=0|2+^5,2-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:6a602b96a5db482c79b41e73fd9134bbf52802cb5869d95136df1266b94ca6de",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "2+": 5,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:bb217beeb273e315ee2f9c5d1413aa8d03ef03cfa23f5262e5f8ebec9576a7bc"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 15
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed0:d=0|1+^1,1-^1,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=0|1+^1,1-^1,2+^4,2-^4",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:d035da06b8967a83c527c45eaca54f55d3545fd991d1e45d1ff5b5856dc78414",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:b4a6db4ade7b2bf79c09a5e21c855161bfce7c04b2a258ca88ecaab72f303947"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed0:d=0|1+^2,1-^2,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=0|1+^2,1-^2,2+^3,2-^3",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:11f4b0833c1f52c4dd63e0eaad6b2f13eff3bbee9b80bb01d0cfa262e8f8561e",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:c6737d9018a19049492991e2fd51d297917de0d1698c772f3ddda37b8f277074"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed0:d=0|1+^3,1-^3,2+^2,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=0|1+^3,1-^3,2+^2,2-^2",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:975eea71704ce7859c197ed98089b2e287400758991194f6771037eb035e4f93",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:9a8e70e9d89c2f617e9668ba17989e845e703dd0c7dc9bd17beb20b1ecb36d31"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 15
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed0:d=0|1+^4,1-^4,2+^1,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=0|1+^4,1-^4,2+^1,2-^1",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:9b1ba83d70bc7bae5511dfefe151ea2eda236c3e7bfb410a44817844d5c64e1f",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:20cdf2e617d39c02013d434333697248b2b5472d3cfabbcbbb2ffaceebf12a29"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed0:d=0|1+^5,1-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=0|1+^5,1-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:e5ada4504dd1079adf7d6a4448e24b9f2ab01bef42ea2d1e8162e45a88620bef",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:cc702e5197c785813702cf5c5e2b6b046dadda9d1661f013233b5e28d920a399"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed0:d=0|2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=0|2+^5,2-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:595af67124a477ec44cb1728922d5bb63db13f30ebabc38016c0617192e74f6b",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:dccfab1f743fa45d5609f49df18195807cd46df4e8d56dcc19641678b5ac33b4"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 5,
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=1|1+^1,1-^1,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 72,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 81,
+        "output_signature": "d=1|1+^1,1-^1,2+^4,2-^4",
+        "path_count": 9,
+        "path_interface_sha256": "sha256:3cde183058586dd0a86dbde6d392bb6f3d2f81ad8e34b3e25723500f20fb1fcf",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 45,
+        "upper_triangle_pair_interface_sha256": "sha256:158c74bc8194f67b557c3ec0bc5f27d487ba03ecca57d8597de424f8e4380065"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 16,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=1|1+^2,1-^2,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 650,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 676,
+        "output_signature": "d=1|1+^2,1-^2,2+^3,2-^3",
+        "path_count": 26,
+        "path_interface_sha256": "sha256:87a7bf2234c742e601b02dac9a2b5f96c9b49813a8256f8c29d5e9a5a4b1b46f",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 351,
+        "upper_triangle_pair_interface_sha256": "sha256:89318d7e258bfa26aee674e35e9208083e6ce0e9ae2e9777d048ac492a22026e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 14
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=1|1+^3,1-^3,2+^2,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 1122,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 1156,
+        "output_signature": "d=1|1+^3,1-^3,2+^2,2-^2",
+        "path_count": 34,
+        "path_interface_sha256": "sha256:716ecec38a67c380b16604d2f6b06255459562f9ff206fd4619f72c5848830da",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 595,
+        "upper_triangle_pair_interface_sha256": "sha256:75e69da2c09d4e90f531b6efb33ac1a9ee4640c88b012b6507763b6f279def48"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 11,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=1|1+^4,1-^4,2+^1,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 420,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 441,
+        "output_signature": "d=1|1+^4,1-^4,2+^1,2-^1",
+        "path_count": 21,
+        "path_interface_sha256": "sha256:1b5169f2f8b6a77f738ff3768b399ad10acd3133371761d237846778e37e48cb",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 231,
+        "upper_triangle_pair_interface_sha256": "sha256:d0869d44dccab552c7292ffdbaa7b3f6e8ad455e207cf3e75dd233797f8450a2"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=1|1+^5,1-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=1|1+^5,1-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:780ac40980be4a84a869dbf898f7845fb90f836e80f48811543e9522fac59513",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:18675f4d54479174a3d75d7a2282a6daf7756bed148e1a312fd34b822218f5cb"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 1
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=1|2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 0,
+        "old_position_support": [
+          1
+        ],
+        "ordered_quadratic_terms": 1,
+        "output_signature": "d=1|2+^5,2-^5",
+        "path_count": 1,
+        "path_interface_sha256": "sha256:adc5d7ba70c191d0d6eaa213527dc042a4b3912a56448cac7eb97a5983c62027",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 1,
+        "upper_triangle_pair_interface_sha256": "sha256:b1ab637c8ffabf390e0773e243fb8b9b4f901244933c67b073b4d531984c4289"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=2|1+^1,2+^4,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=2|1+^1,2+^4,2-^5",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:846075f8eab0ffdc49d836e9f7b4d595aca1aa459f0ae91caace40820b329757",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "2+": 4,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:4c646047a2ed1838ecbb7c60f783a67e3e8c449b93d3277ae91b382d340e5e08"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=2|1+^2,1-^1,2+^3,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=2|1+^2,1-^1,2+^3,2-^4",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:da121c9a2bf2fe5092130cfe4ac2a8b92c80a4fa86da29c109066596e420461f",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 1,
+          "2+": 3,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:330fd55b89069327ef63c54d967741ec7d02512acd4abb6e6c760bc89ba3b003"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 14
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=2|1+^3,1-^2,2+^2,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 552,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 576,
+        "output_signature": "d=2|1+^3,1-^2,2+^2,2-^3",
+        "path_count": 24,
+        "path_interface_sha256": "sha256:318ea6048866d2ab154e7b355c2a3fe827110837be2ea307cb537697ebdeed17",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 2,
+          "2+": 2,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 300,
+        "upper_triangle_pair_interface_sha256": "sha256:4e91241c567480854c1c5e41733c59da31a938596984827424ac1c025eb550eb"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=2|1+^4,1-^3,2+^1,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=2|1+^4,1-^3,2+^1,2-^2",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:f797090d111f8468e838192c0f2422974d3c2f876a48dd4ec318eb6fdbe6a776",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 3,
+          "2+": 1,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:b581ee5b57252dd01098da1076db80d67af18d586eb939b3978c2d6288b2f533"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed1:d=2|1+^5,1-^4,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=2|1+^5,1-^4,2-^1",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:585f56a135ea48dc1a225c3f51d74ee5598edcbc1cc507fcbc85a19c2a818066",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 4,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:80a596c9d37714ec5ba647635b642f6adaf8c561cf477743b172ee9df457a5bc"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 6
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=1|1+^1,1-^2,2+^4,2-^3",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=1|1+^1,1-^2,2+^4,2-^3",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:28cf1c9eda289e12bc344e2d2403407bd5ae69f53542a94a414829e227bc705a",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 2,
+          "2+": 4,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:db14dbb3a02ba78b067478dbf3c75ce54b1392ece01ad06993f84293fb2481ab"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 14,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=1|1+^2,1-^3,2+^3,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 552,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 576,
+        "output_signature": "d=1|1+^2,1-^3,2+^3,2-^2",
+        "path_count": 24,
+        "path_interface_sha256": "sha256:99f435028cf0702e75fb03607f8c44cf68a44d543d1e0be333920458640948d1",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 3,
+          "2+": 3,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 300,
+        "upper_triangle_pair_interface_sha256": "sha256:64123053d29c802c932ddaa36f8743f9688daa646c9d9083eabae2308435a5ed"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 6
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=1|1+^3,1-^4,2+^2,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 240,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 256,
+        "output_signature": "d=1|1+^3,1-^4,2+^2,2-^1",
+        "path_count": 16,
+        "path_interface_sha256": "sha256:86f4999cbe2d383303ee77737cbcb24fea0ba56c7eb6630db20b60b27f147d15",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 4,
+          "2+": 2,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 136,
+        "upper_triangle_pair_interface_sha256": "sha256:6cdb2ffce2d5a7e12bb2c35525bed3b312596908d2a5b327e5cdc58246c3fac2"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=1|1+^4,1-^5,2+^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=1|1+^4,1-^5,2+^1",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:0778e35125db5644090c84bc47c173e200c48098ee9bdb5ef3700ce592f25cab",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 5,
+          "2+": 1
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:26f203d1d4b79ce88c1512126f6a5fe97d000fc1aede0fcbdc837a98ff29123e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=1|1-^1,2+^5,2-^4",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 12,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 16,
+        "output_signature": "d=1|1-^1,2+^5,2-^4",
+        "path_count": 4,
+        "path_interface_sha256": "sha256:ae4226ba81c3d8e517807fcffea3ff3d2f070dde7099ce910dad90eb8c603fae",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1-": 1,
+          "2+": 5,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 10,
+        "upper_triangle_pair_interface_sha256": "sha256:ad99bd4e6b00bf5e49b4f21a72d828efb1be044a0bf7af7467ea58154e6fd29b"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 11,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=2|1+^1,1-^1,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 420,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 441,
+        "output_signature": "d=2|1+^1,1-^1,2+^4,2-^4",
+        "path_count": 21,
+        "path_interface_sha256": "sha256:16068b1386588f52e431eb3233cb3a5659fae7f9d0736ceb127a61a0ba181c0a",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 231,
+        "upper_triangle_pair_interface_sha256": "sha256:0b8f8f1bd336f2c226e2d3799d97a7369750f1e101c7b476a2ed118466487b28"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 14
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=2|1+^2,1-^2,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 1122,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 1156,
+        "output_signature": "d=2|1+^2,1-^2,2+^3,2-^3",
+        "path_count": 34,
+        "path_interface_sha256": "sha256:2d5418675d4a15b0c7e6738cc1aefa32b602cdf363080af3c253bf51b3ffd79a",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 595,
+        "upper_triangle_pair_interface_sha256": "sha256:6151c3edb7daef11fcbe30546cc1764830fcfb600415cc142d5bf04f7771b0c5"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 16,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=2|1+^3,1-^3,2+^2,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 650,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 676,
+        "output_signature": "d=2|1+^3,1-^3,2+^2,2-^2",
+        "path_count": 26,
+        "path_interface_sha256": "sha256:dfcec57d06472e72b25c08e9a0f10e6730272dc0957193810f1b41780813912c",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 351,
+        "upper_triangle_pair_interface_sha256": "sha256:e29795863e663e3d63ba2579eecb8994523c5ec1372cd882eac58103d505fed6"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 5,
+          "1": 4
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=2|1+^4,1-^4,2+^1,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 72,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 81,
+        "output_signature": "d=2|1+^4,1-^4,2+^1,2-^1",
+        "path_count": 9,
+        "path_interface_sha256": "sha256:ede7df4f7f85860d4ed75c69b3c6d1da0986582eb5ba235f0bca99127a63eede",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 45,
+        "upper_triangle_pair_interface_sha256": "sha256:f24da73ec4eeb217d177b82722f71dfb14f2ddb572e58a2d9f8d9fad06b40554"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 1
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=2|1+^5,1-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 0,
+        "old_position_support": [
+          1
+        ],
+        "ordered_quadratic_terms": 1,
+        "output_signature": "d=2|1+^5,1-^5",
+        "path_count": 1,
+        "path_interface_sha256": "sha256:98536da154f55a13fd21c55abeb7c233e2b062d2b998348ce6a47206b2557cb6",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5
+        },
+        "upper_triangle_gram_entries": 1,
+        "upper_triangle_pair_interface_sha256": "sha256:e69e3ed28953c1df11f8694ef58b194da0988c6578ea7c65022252f34e010ad6"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order10:seed2:d=2|2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=2|2+^5,2-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:eff16e63805f95e4c8307ced306526e308ccb2ba35ce2940d8699a9013515c35",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:1b3a73b0a035bae886b8c3c9390116133e9623410d0bcfad595f52d0046bd4da"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=1|1+^1,1-^2,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=1|1+^1,1-^2,2+^4,2-^4",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:5a5d5a00f59a1962661c700369873085b92dcacba125cc2d45e238457c0db69c",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 2,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:0dc244cb65c729b386629e2383f05e83d1cdf1c57a7bd377e9abfb7559a56b01"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=1|1+^2,1-^3,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=1|1+^2,1-^3,2+^3,2-^3",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:da8049f7634e047328d2154ec1ac60a1fc08d4be131203cfba566bc5a25224df",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 3,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:7ae3999e398d910b431ac516b73112bc50d9d0499564967a0300f52cb0c78460"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=1|1+^3,1-^4,2+^2,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=1|1+^3,1-^4,2+^2,2-^2",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:1678688fd1a0588a4cb3ddcf46db3fb35a07b978fa5784c81b3074376fafa487",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 4,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:25b1a930e83089cbb68bf3ec67a531d43005350f7c9dff150605930a3baf35c5"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 13
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=1|1+^4,1-^5,2+^1,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=1|1+^4,1-^5,2+^1,2-^1",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:369d295c99227c0b7e9edba79a0dd9e8fe7d21dd25d73cc6aeeb7cb5c592693f",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 5,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:ccc293a5ec391d46ef81fc437f7bfceb894e178ce84553131e3de76306b4f6af"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=1|1+^5,1-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=1|1+^5,1-^6",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:90c535272a27a575635dee006655384a69e9ecc0daae8ef41151fc0784740273",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 6
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:aa12a2ae447a8e72df9547c70799328390f59b1d2ed820182e7ad131e60e4b84"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 5
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=1|1-^1,2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=1|1-^1,2+^5,2-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:c139331677d914dfd70cacfcd46659d58b8bd46ed4dcc277e070d625f02f1ec3",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1-": 1,
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:478d0bc178dfd36f915a5dbdbafecaf6ee4e4ba01251029481ed2c83e6f20958"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 13
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=2|1+^1,1-^1,2+^4,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=2|1+^1,1-^1,2+^4,2-^5",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:2bb1a09fa6166d8f3e173e1a7a720abbff840e6c64f69a073445f4885270a112",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 4,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:679e23339b173d647d7881c4a63f4d1a75a568cc1858e0fc004d4a0e23b7f4f2"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=2|1+^2,1-^2,2+^3,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=2|1+^2,1-^2,2+^3,2-^4",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:1fc6d0d6deb069e88877caefece0267d9b086c399f84562c893cdc9f07ae6439",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 3,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:322e8c44bd4ab12fa81e25c0a3a8ba93dc7ac22d7970e08aa4bae88f4ab0bbf6"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=2|1+^3,1-^3,2+^2,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=2|1+^3,1-^3,2+^2,2-^3",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:0faf33888b942212d3ade4bcac0f357007831f5ff68ba0ec0e286a09bb0a4bcb",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 2,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:b59994481f23ef5b46e0f9b693bc1c08f4e5a1669f5d17dbdd06a9b08d2d3536"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=2|1+^4,1-^4,2+^1,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=2|1+^4,1-^4,2+^1,2-^2",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:367918b8e9aae58e5f44fe9e9187c5ba3492a30e66bf0dcee19236aa8c7826bd",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 1,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:4a21fbcbeff2fcdc1c1df4a11b5a20bf615297a02d9a52000223521572c99473"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 5
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=2|1+^5,1-^5,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=2|1+^5,1-^5,2-^1",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:6d7942db8c0fdcd36098d4804afc3e107ac07be571ebeba45d865cd31ef8aa42",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:2d73ff4092facfdf245b8085780f4b08d31391a00b7a94076f456b2987073d5a"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed0:d=2|2+^5,2-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=2|2+^5,2-^6",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:77a42cd9c542fc1e4c3660cb5a683db70031fd26c01a0333ea5bce6d73b4e9c7",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "2+": 5,
+          "2-": 6
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:a0874c6a1011712ff585a9852034d0bc17a7532fcec57341194458f5b067a9dc"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed1:d=0|1+^1,2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=0|1+^1,2+^5,2-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:66f436d0547bf1230dcc26e5df7a626a0ce3b8922d748bac3d08ed6701f45e6e",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:8fd603f8ba4f0d954a557da4c940b007af67bc5c262bdf6c9a26babfb544c6c8"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed1:d=0|1+^2,1-^1,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=0|1+^2,1-^1,2+^4,2-^4",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:857117acce875ebec8c8d600a2fa127ce19a95efe44cc9737726055a454cc834",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 1,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:a9c358a7c9d1ece1366910ff4a33eb16c8602d85f79d1465a799d742269f599f"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed1:d=0|1+^3,1-^2,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=0|1+^3,1-^2,2+^3,2-^3",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:82695395497da50466448f22b97fb1f6981de06682ddd6e931eae9ba6c1e0be0",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 2,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:ec07513fc0dc99ba852efedee466723847bc363d7079b98786b583d8872475a8"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed1:d=0|1+^4,1-^3,2+^2,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=0|1+^4,1-^3,2+^2,2-^2",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:3b40cefa4758536d764679f71eff2ee305031ec533f173600212ad90bd63c72f",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 3,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:f0350de7a93cd4406ce20e6c0c6a95deb0c029dc97de54225ecfed5522b614bd"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed1:d=0|1+^5,1-^4,2+^1,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=0|1+^5,1-^4,2+^1,2-^1",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:778bf4c6b5111db9dede4e8c14e2f85c83c405acf87d3551a2ccad08f1f1c92a",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 4,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:6bf9f50ab432f4c3569a82de9b7f102c55322aa7233582beb32fa1b2e0d033c8"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed1:d=0|1+^6,1-^5",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=0|1+^6,1-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:de83d4796ec174339c3750930f6487ad7c86a586f490aa26bd6603a8cbd92775",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 6,
+          "1-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:62a41d7843e020293d7abdbe71b827774ffae3c69d2ea286aa9ae0b4758ac823"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed2:d=0|1+^1,1-^1,2+^5,2-^4",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=0|1+^1,1-^1,2+^5,2-^4",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:892d389c755444b224361f3585bbd1d66fb8511c304ef1c0ef32041fadbea71f",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 5,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:5b785dff4dbaa15d42b5332349f3f407cce719e9ffa1208ecbd7e1dca3899ea2"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed2:d=0|1+^2,1-^2,2+^4,2-^3",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=0|1+^2,1-^2,2+^4,2-^3",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:262a67c86fddafcc0de2cbdb5433c4c77738a51796cbcffe98afd6313dd0bd2f",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 4,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:88d319137483f055965b4ac120fcf680128d63590887395bed8c08c7423d332e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed2:d=0|1+^3,1-^3,2+^3,2-^2",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=0|1+^3,1-^3,2+^3,2-^2",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:a4e3611a79fc8a39407592fc514dd5a4850a8d8fa7debbe1e5353fbd385df5fa",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 3,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:e9cbbe4a70eb52c59b3dcf27bfab5c02e0a47e2c8bd1d7198bdccedd2e8e7eba"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed2:d=0|1+^4,1-^4,2+^2,2-^1",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=0|1+^4,1-^4,2+^2,2-^1",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:9010648df0cea6f0eec4d9ef6aed454cc04638ccc62dca85bba8cb478dd9d21c",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 2,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:8e2acd7e4d4629a15fbb022b918810dd32708b943604fce961b05c4fe13df311"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed2:d=0|1+^5,1-^5,2+^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=0|1+^5,1-^5,2+^1",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:728604f1c6951e2d17771b18742faad8fdb2c1e7b55be6ba8217b48b33be4a85",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5,
+          "2+": 1
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:45d9e12b739334dc6a2c22ac9b8c4636070f2f788ee4d1b8aa91433bccd7002e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order11:seed2:d=0|2+^6,2-^5",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          2,
+          4,
+          6,
+          8,
+          10
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=0|2+^6,2-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:8babea10215034d3d42535c494a82d96b0dd2c0a68b8cebf518442f65a34e945",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "2+": 6,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:c4f04e2dee1994a797576b011b32d620b2e954beb27f7221cbe4a1e0076326ff"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 24
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed0:d=0|1+^1,1-^1,2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 1260,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 1296,
+        "output_signature": "d=0|1+^1,1-^1,2+^5,2-^5",
+        "path_count": 36,
+        "path_interface_sha256": "sha256:f4ba517cd64787767eb4d60ee413985184dbbf91a989a68dd5be7a4cde8fff16",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 666,
+        "upper_triangle_pair_interface_sha256": "sha256:d05f5b3dbfc44a901b5ce34dec87611cf5af9a2cde58c534ffb04f16032b0719"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 45,
+          "1": 45
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed0:d=0|1+^2,1-^2,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 8010,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 8100,
+        "output_signature": "d=0|1+^2,1-^2,2+^4,2-^4",
+        "path_count": 90,
+        "path_interface_sha256": "sha256:c68a8becf7e53aa28cfec1479f9402a3ab977fc5105a6a96a145e22825b7b795",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 4095,
+        "upper_triangle_pair_interface_sha256": "sha256:37077a26bfe51741e8be61389b6b52d0bfa671765735211becd8b86705eb3c39"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 40,
+          "1": 80
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed0:d=0|1+^3,1-^3,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 14280,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 14400,
+        "output_signature": "d=0|1+^3,1-^3,2+^3,2-^3",
+        "path_count": 120,
+        "path_interface_sha256": "sha256:9b8dc8786ea224c684c95bbf11e732c56056e63f10c19c39f28cf9db2fffc1a1",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 7260,
+        "upper_triangle_pair_interface_sha256": "sha256:fde520c92e07da84f6b3b77180ce17809655ee7693258ac94d5212311c3fd93c"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 45,
+          "1": 45
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed0:d=0|1+^4,1-^4,2+^2,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 8010,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 8100,
+        "output_signature": "d=0|1+^4,1-^4,2+^2,2-^2",
+        "path_count": 90,
+        "path_interface_sha256": "sha256:e7f7a0e3feaef483eb446f47698eef75e1f52377032a09257fe6bdbbcc6a7bc1",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 4095,
+        "upper_triangle_pair_interface_sha256": "sha256:35aa94175a74d560b3fd6b177c904d04a586ff5006a377e0cc13fa0086ad6f11"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 24
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed0:d=0|1+^5,1-^5,2+^1,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 1260,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 1296,
+        "output_signature": "d=0|1+^5,1-^5,2+^1,2-^1",
+        "path_count": 36,
+        "path_interface_sha256": "sha256:626dc14fd0b11b29ab3cea99d18171212b7f7f77331d7c338796975dee36103f",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 666,
+        "upper_triangle_pair_interface_sha256": "sha256:e9addbd4442655f777868b3449abff0fc2850df6e1dc3b023ec3cac7c7e32b74"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed0:d=0|1+^6,1-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 30,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 36,
+        "output_signature": "d=0|1+^6,1-^6",
+        "path_count": 6,
+        "path_interface_sha256": "sha256:197eaa9c5094f53c11bb1976993982cd3e4380f6289328716c01064947f15118",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "1+": 6,
+          "1-": 6
+        },
+        "upper_triangle_gram_entries": 21,
+        "upper_triangle_pair_interface_sha256": "sha256:5522dd520a51715e8f58bf1be8f0ff0ee8fa18149645dca50c2449a58073cbc6"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed0:d=0|2+^6,2-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 30,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 36,
+        "output_signature": "d=0|2+^6,2-^6",
+        "path_count": 6,
+        "path_interface_sha256": "sha256:8f45fff24bf0a8b638ec4326bb8be6ace8bbf6f45e9be12498e7d30446e7f109",
+        "seed_impurity": 0,
+        "species_multiplicities": {
+          "2+": 6,
+          "2-": 6
+        },
+        "upper_triangle_gram_entries": 21,
+        "upper_triangle_pair_interface_sha256": "sha256:9818c209ebf8323de86a5b36959664d6e0f61bd2b5af0515adfe92f2cad78770"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 5
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=1|1+^1,1-^1,2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 110,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 121,
+        "output_signature": "d=1|1+^1,1-^1,2+^5,2-^5",
+        "path_count": 11,
+        "path_interface_sha256": "sha256:4dbb2b59e238db027adfd3b2c4fed530e809d5b55a6f6a9cd4ed89a2dba7095a",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 66,
+        "upper_triangle_pair_interface_sha256": "sha256:521dbcf9df0b902121466da654600fe6252d799ef08cba526ae09a5c9de703d0"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 25
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=1|1+^2,1-^2,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 1560,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 1600,
+        "output_signature": "d=1|1+^2,1-^2,2+^4,2-^4",
+        "path_count": 40,
+        "path_interface_sha256": "sha256:fb1fdf26f3c75ac8b96b4eab916fad7aa058a563b7e48d37a5800eedd2438453",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 820,
+        "upper_triangle_pair_interface_sha256": "sha256:f1d61a39a1656d58d8c6a54b452e435a4d49da3f0cdc41e555d4526f02ac8119"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 40,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=1|1+^3,1-^3,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 4830,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 4900,
+        "output_signature": "d=1|1+^3,1-^3,2+^3,2-^3",
+        "path_count": 70,
+        "path_interface_sha256": "sha256:5ec9f0b96d7fa43c749395cea54cbd0e86cd3f550f267d4b10cf7fc3feb67cfa",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 2485,
+        "upper_triangle_pair_interface_sha256": "sha256:99106a5b6765b997fd1aa3de93b17acae19039e29e9b4851ddeda8cdd6b87025"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 35
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=1|1+^4,1-^4,2+^2,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 4160,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 4225,
+        "output_signature": "d=1|1+^4,1-^4,2+^2,2-^2",
+        "path_count": 65,
+        "path_interface_sha256": "sha256:e4a9ee26dbbaeaee569a2728218a10f4f0fc3baa095ef90536ad8f68755a409e",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 2145,
+        "upper_triangle_pair_interface_sha256": "sha256:3373e7f85c120fd953719dcb5826c0a6f0dca90686303d1e1a02e4bc03b7233e"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 18,
+          "1": 13
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=1|1+^5,1-^5,2+^1,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 930,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 961,
+        "output_signature": "d=1|1+^5,1-^5,2+^1,2-^1",
+        "path_count": 31,
+        "path_interface_sha256": "sha256:3ca4c484b19124268293bb812e518281bdcbbed6b91d5e9ed842a03243056b96",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 496,
+        "upper_triangle_pair_interface_sha256": "sha256:36e156032c3a92e50c40541e5efb3f9faa801a6c5ba5df4b406d74e709af8a2f"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=1|1+^6,1-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 30,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 36,
+        "output_signature": "d=1|1+^6,1-^6",
+        "path_count": 6,
+        "path_interface_sha256": "sha256:525acece02a2d03f11b7b12b029ab07e8ea7a01d30817b70e84082c990aaada2",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 6,
+          "1-": 6
+        },
+        "upper_triangle_gram_entries": 21,
+        "upper_triangle_pair_interface_sha256": "sha256:c4e1178aac448718d8e0334990a0becc2bfff2a36ddba623674ee941264e94d7"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 1
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=1|2+^6,2-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 0,
+        "old_position_support": [
+          1
+        ],
+        "ordered_quadratic_terms": 1,
+        "output_signature": "d=1|2+^6,2-^6",
+        "path_count": 1,
+        "path_interface_sha256": "sha256:2f3c765b6eacb37fbc5c6626e2d63f7152390b258f6ac11c35018d8d8747f7d6",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "2+": 6,
+          "2-": 6
+        },
+        "upper_triangle_gram_entries": 1,
+        "upper_triangle_pair_interface_sha256": "sha256:f89a21d79c34cb342c04c38f22d09f8e7426d9abc65a266d6f0b034ff2453548"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 2
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=2|1+^1,2+^5,2-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=2|1+^1,2+^5,2-^6",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:ae7540021c13c56593b6116eb576d993a1500b5cb4aa8d0046e5a8cc5e8e844a",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 1,
+          "2+": 5,
+          "2-": 6
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:f3b42c511f206f19514048f08b82f65328275a832fdbb1cd4328350088aac8a9"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 12,
+          "1": 13
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=2|1+^2,1-^1,2+^4,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=2|1+^2,1-^1,2+^4,2-^5",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:c67e7614c06f1330ae1a47e18f7da9b1b400deb52e9a71c076b78029c1ad9838",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 1,
+          "2+": 4,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:0119ab44b94c20f7e3070f39a8cfcd5dabb8e64d1b5189dda68b16b9e868c841"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=2|1+^3,1-^2,2+^3,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=2|1+^3,1-^2,2+^3,2-^4",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:243503b6552b2db4c0aa6ddaef879e8df0fa39b212b9bbc4b400bd8952fd5d14",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 2,
+          "2+": 3,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:921cdf1e673d0845503b08624169c9ce805d670dbd99c7d72bad8f974a5d6077"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=2|1+^4,1-^3,2+^2,2-^3",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=2|1+^4,1-^3,2+^2,2-^3",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:2e5a76e6a3099809853d7dc6cd1b3be9dc504f50a4230c6826e77c2fd969c8be",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 3,
+          "2+": 2,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:4be585ac812d87dbeb1100def59fa9371310bac20425184ce571dd5bd2cd98cd"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 10
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=2|1+^5,1-^4,2+^1,2-^2",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=2|1+^5,1-^4,2+^1,2-^2",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:bddbea597bae7d4be8cec403c71fe359b08e459f384647ba685ebeca07dc6e35",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 4,
+          "2+": 1,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:a4a4299d2dbe4ffd8618ba7ff88169074b279c2fcd16f6f6c170641f7de7417b"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 5
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed1:d=2|1+^6,1-^5,2-^1",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=2|1+^6,1-^5,2-^1",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:7db05228ffc50c5995ce1e1e564a6a28e0f890c246a0abc1efe4ac37d7755080",
+        "seed_impurity": 1,
+        "species_multiplicities": {
+          "1+": 6,
+          "1-": 5,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:929fe39d76b36e8f855a498243c50785cc10d3c21a45745cc45ceb8f46ab3a66"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 10,
+          "1": 15
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=1|1+^1,1-^2,2+^5,2-^4",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=1|1+^1,1-^2,2+^5,2-^4",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:8fcac936a8f87a176356acc2e3ed7dfa21bf977dab2cfd2e3cbf70c7f0edd494",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 2,
+          "2+": 5,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:5c8f42b793563674125ef5189add2abe2d766a24ec519af633ed6e4d2bf1d3f4"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 20
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=1|1+^2,1-^3,2+^4,2-^3",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=1|1+^2,1-^3,2+^4,2-^3",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:11d3427f3a856a4c044b26e5800e671fbb51d870b76596b78967cb728731d6c9",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 3,
+          "2+": 4,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:2eb38b60fc7012f6b69270fff4ae9e6b75861ea72fb82ba31544a0c53e886b17"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 20,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=1|1+^3,1-^4,2+^3,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 2450,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 2500,
+        "output_signature": "d=1|1+^3,1-^4,2+^3,2-^2",
+        "path_count": 50,
+        "path_interface_sha256": "sha256:859b9c38493f30b26c4d0e252c44c22dbacd36e8d8019bbabee9fca2b101f967",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 4,
+          "2+": 3,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 1275,
+        "upper_triangle_pair_interface_sha256": "sha256:ad500d3e06d37f21b50f7174bf7e6a0c404c480cdaf976a3ea11505a148fad4f"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 13,
+          "1": 12
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=1|1+^4,1-^5,2+^2,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 600,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 625,
+        "output_signature": "d=1|1+^4,1-^5,2+^2,2-^1",
+        "path_count": 25,
+        "path_interface_sha256": "sha256:1b7e03988c9c8c8622466d76f6fc4825b99f22452c97a02a03bd51f5f99a2bb7",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 5,
+          "2+": 2,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 325,
+        "upper_triangle_pair_interface_sha256": "sha256:1712d9100a43b7cdbe51113598e89babb61f723131708ea19b94cabd109f6147"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 2,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=1|1+^5,1-^6,2+^1",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=1|1+^5,1-^6,2+^1",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:a537c2022d7b3b43f6b5ef7f32876473a2aef0a1c837b1e01d59c8db4273503f",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 6,
+          "2+": 1
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:897c2930c6b8b23a0d8c9b842222966dc67d3c43699fa1ad9181762eb15a8e2c"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 5
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=1|1-^1,2+^6,2-^5",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 20,
+        "old_position_support": [
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 25,
+        "output_signature": "d=1|1-^1,2+^6,2-^5",
+        "path_count": 5,
+        "path_interface_sha256": "sha256:1578706fcbc21d34ef49f7702dea8976d28dbef841b94e7becbbd66cad096f80",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1-": 1,
+          "2+": 6,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 15,
+        "upper_triangle_pair_interface_sha256": "sha256:059ddb2450f7acbde13261cd1e1ed52bfe8738ca206508d408b8c7106ef44d2a"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 18,
+          "1": 13
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=2|1+^1,1-^1,2+^5,2-^5",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 930,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 961,
+        "output_signature": "d=2|1+^1,1-^1,2+^5,2-^5",
+        "path_count": 31,
+        "path_interface_sha256": "sha256:41c7ff26490b656f448ade6f3fe5e739b7cf306e37996790c4f9d8a0836e6ae6",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 1,
+          "1-": 1,
+          "2+": 5,
+          "2-": 5
+        },
+        "upper_triangle_gram_entries": 496,
+        "upper_triangle_pair_interface_sha256": "sha256:973bfe760bbc25af492010467bb070e118d0c7701c0b81bc94e9c08db62b5d76"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 30,
+          "1": 35
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=2|1+^2,1-^2,2+^4,2-^4",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 4160,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 4225,
+        "output_signature": "d=2|1+^2,1-^2,2+^4,2-^4",
+        "path_count": 65,
+        "path_interface_sha256": "sha256:664918d375a74c576d7cb59a73b0cc6a24d26558434900fc8b750696d673630f",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 2,
+          "1-": 2,
+          "2+": 4,
+          "2-": 4
+        },
+        "upper_triangle_gram_entries": 2145,
+        "upper_triangle_pair_interface_sha256": "sha256:6d5bd58761ba65d7e592c4e0fff5627a858827be9f2e5857fb33723bcad7c667"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 40,
+          "1": 30
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=2|1+^3,1-^3,2+^3,2-^3",
+        "maximum_species_determinant_rank": 3,
+        "off_diagonal_ordered_cross_terms": 4830,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 4900,
+        "output_signature": "d=2|1+^3,1-^3,2+^3,2-^3",
+        "path_count": 70,
+        "path_interface_sha256": "sha256:d46563fc74491158b60de6f10edc9399116ca7290709b75183f795d577fa6b60",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 3,
+          "1-": 3,
+          "2+": 3,
+          "2-": 3
+        },
+        "upper_triangle_gram_entries": 2485,
+        "upper_triangle_pair_interface_sha256": "sha256:16d26b6ad360a4ef5d829f82a2b68e2426e776facd1f73352f3f897e1a7c5787"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 15,
+          "1": 25
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=2|1+^4,1-^4,2+^2,2-^2",
+        "maximum_species_determinant_rank": 4,
+        "off_diagonal_ordered_cross_terms": 1560,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 1600,
+        "output_signature": "d=2|1+^4,1-^4,2+^2,2-^2",
+        "path_count": 40,
+        "path_interface_sha256": "sha256:53f0cf4921fb72b0130e33ff452ef61e292f413c5c5201ce1db3dfeed5a9f70c",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 4,
+          "1-": 4,
+          "2+": 2,
+          "2-": 2
+        },
+        "upper_triangle_gram_entries": 820,
+        "upper_triangle_pair_interface_sha256": "sha256:c0892081cc0fe31d9f4335c7b10f877716732297f995060667694a2d6e0d8b48"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 6,
+          "1": 5
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=2|1+^5,1-^5,2+^1,2-^1",
+        "maximum_species_determinant_rank": 5,
+        "off_diagonal_ordered_cross_terms": 110,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 121,
+        "output_signature": "d=2|1+^5,1-^5,2+^1,2-^1",
+        "path_count": 11,
+        "path_interface_sha256": "sha256:7db28e69d3bcda6bbdeb9107d652983c84d33b91392853c6566fe86b94c605ec",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 5,
+          "1-": 5,
+          "2+": 1,
+          "2-": 1
+        },
+        "upper_triangle_gram_entries": 66,
+        "upper_triangle_pair_interface_sha256": "sha256:a9f16cb3f0d21f844a456d4f6797e0b0678920d2c9569643b90072a8c514c45d"
+      },
+      {
+        "coefficient_histogram": {
+          "1": 1
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=2|1+^6,1-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 0,
+        "old_position_support": [
+          1
+        ],
+        "ordered_quadratic_terms": 1,
+        "output_signature": "d=2|1+^6,1-^6",
+        "path_count": 1,
+        "path_interface_sha256": "sha256:4c59b6b3711b2245ce0ed816622063c66d6c6fca8d8e36b2778d28d443704028",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "1+": 6,
+          "1-": 6
+        },
+        "upper_triangle_gram_entries": 1,
+        "upper_triangle_pair_interface_sha256": "sha256:7b523cefc1917a913f748f86b94f5ee1493ab5ef81ed06e60c95c0cb5626a6aa"
+      },
+      {
+        "coefficient_histogram": {
+          "-1": 3,
+          "1": 3
+        },
+        "coherent_quadratic_form": "c_G^T K_G c_G; form the complete group value before absolute enclosure",
+        "group_id": "order12:seed2:d=2|2+^6,2-^6",
+        "maximum_species_determinant_rank": 6,
+        "off_diagonal_ordered_cross_terms": 30,
+        "old_position_support": [
+          1,
+          3,
+          5,
+          7,
+          9,
+          11
+        ],
+        "ordered_quadratic_terms": 36,
+        "output_signature": "d=2|2+^6,2-^6",
+        "path_count": 6,
+        "path_interface_sha256": "sha256:6be027b5d3f5b9e2ab84c87fb85fe6e050b3f798db3f67a875bcdf3e30bd5ef7",
+        "seed_impurity": 2,
+        "species_multiplicities": {
+          "2+": 6,
+          "2-": 6
+        },
+        "upper_triangle_gram_entries": 21,
+        "upper_triangle_pair_interface_sha256": "sha256:5bb0d6acd3de3eebb279150c22905dfbb6abd0a01b2725f1b36ffb99af97d066"
+      }
+    ],
+    "occurrencewise_absolute_value_permitted": false,
+    "upper_triangle_reconstruction": "diagonal entries once and off-diagonal entries twice; equivalently retain every ordered path pair"
+  },
+  "fixed_control": {
+    "complete_group_interface_sha256": "sha256:53cfc9cd0fa36fbe0ac8d8521fba21fe366cb6911829507327a4f0f082a37995",
+    "higher_order_groups": 128,
+    "higher_order_ordered_quadratic_terms": 114932,
+    "higher_order_paths": 2720,
+    "higher_order_upper_triangle_gram_entries": 58826,
+    "orders": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "predecessor_manifests": [
+      "lab/process/k179-matched-normal-order-coefficient-family-wave.json",
+      "lab/process/k279-higher-order-andreief-structural-closure.json",
+      "lab/process/k305-order-seven-coherent-bordered-functional-compiler.json",
+      "lab/process/k341-order-seven-complete-barycentric-value.json"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "orders": [
+    {
+      "K280_rank_at_most_four_calculus_suffices": true,
+      "crude_origin_power_after_bessel_factors": 7,
+      "group_interface_sha256": "sha256:e89b29f7d8a8d08cf3e900dc0a50d189cfc8fd515d5403c18d30e2431aa6ae6f",
+      "groups": 23,
+      "maximum_species_determinant_rank": 4,
+      "native_prefactor": "(2*pi)^-10",
+      "new_rank_calculus_required": [],
+      "off_diagonal_ordered_cross_terms": 2208,
+      "old_position_support": [
+        1,
+        3,
+        5,
+        7
+      ],
+      "order": 8,
+      "ordered_quadratic_terms": 2400,
+      "paths": 192,
+      "positive_time_variables": 18,
+      "radial_jacobian_power": 17,
+      "upper_triangle_gram_entries": 1296
+    },
+    {
+      "K280_rank_at_most_four_calculus_suffices": false,
+      "crude_origin_power_after_bessel_factors": 8,
+      "group_interface_sha256": "sha256:dfd3739e40330a6619a8d1c7f59a4dbf58c3ccd892df0e32db0acd45e04051b8",
+      "groups": 20,
+      "maximum_species_determinant_rank": 5,
+      "native_prefactor": "(2*pi)^-11",
+      "new_rank_calculus_required": [
+        5
+      ],
+      "off_diagonal_ordered_cross_terms": 4224,
+      "old_position_support": [
+        2,
+        4,
+        6,
+        8
+      ],
+      "order": 9,
+      "ordered_quadratic_terms": 4480,
+      "paths": 256,
+      "positive_time_variables": 20,
+      "radial_jacobian_power": 19,
+      "upper_triangle_gram_entries": 2368
+    },
+    {
+      "K280_rank_at_most_four_calculus_suffices": false,
+      "crude_origin_power_after_bessel_factors": 9,
+      "group_interface_sha256": "sha256:f1294655dbdf045c28fff9259ef9dde5a41d45a499bcada59a42b83e17d4e2f3",
+      "groups": 28,
+      "maximum_species_determinant_rank": 5,
+      "native_prefactor": "(2*pi)^-12",
+      "new_rank_calculus_required": [
+        5
+      ],
+      "off_diagonal_ordered_cross_terms": 12820,
+      "old_position_support": [
+        1,
+        3,
+        5,
+        7,
+        9
+      ],
+      "order": 10,
+      "ordered_quadratic_terms": 13300,
+      "paths": 480,
+      "positive_time_variables": 22,
+      "radial_jacobian_power": 21,
+      "upper_triangle_gram_entries": 6890
+    },
+    {
+      "K280_rank_at_most_four_calculus_suffices": false,
+      "crude_origin_power_after_bessel_factors": 10,
+      "group_interface_sha256": "sha256:39c31e7c950b0fab858e6b7edc922459918fdc4b5f01894268abb4b33e1e6335",
+      "groups": 24,
+      "maximum_species_determinant_rank": 6,
+      "native_prefactor": "(2*pi)^-13",
+      "new_rank_calculus_required": [
+        5,
+        6
+      ],
+      "off_diagonal_ordered_cross_terms": 24560,
+      "old_position_support": [
+        2,
+        4,
+        6,
+        8,
+        10
+      ],
+      "order": 11,
+      "ordered_quadratic_terms": 25200,
+      "paths": 640,
+      "positive_time_variables": 24,
+      "radial_jacobian_power": 23,
+      "upper_triangle_gram_entries": 12920
+    },
+    {
+      "K280_rank_at_most_four_calculus_suffices": false,
+      "crude_origin_power_after_bessel_factors": 11,
+      "group_interface_sha256": "sha256:a0e96cdf886ec221a949d8ea5699a3de94ae6889dec52334700fc65c7b1899c6",
+      "groups": 33,
+      "maximum_species_determinant_rank": 6,
+      "native_prefactor": "(2*pi)^-14",
+      "new_rank_calculus_required": [
+        5,
+        6
+      ],
+      "off_diagonal_ordered_cross_terms": 68400,
+      "old_position_support": [
+        1,
+        3,
+        5,
+        7,
+        9,
+        11
+      ],
+      "order": 12,
+      "ordered_quadratic_terms": 69552,
+      "paths": 1152,
+      "positive_time_variables": 26,
+      "radial_jacobian_power": 25,
+      "upper_triangle_gram_entries": 35352
+    }
+  ],
+  "release_test": {
+    "all_128_higher_order_groups_replayed": true,
+    "all_2720_higher_order_paths_replayed": true,
+    "all_58826_higher_order_upper_triangle_entries_replayed": true,
+    "all_coefficients_positions_and_cross_terms_retained": true,
+    "false_numeric_extension_rejected": true,
+    "native_K152_interval_emitted": false,
+    "order_eight_rank_four_boundary_proved": true,
+    "order_eleven_rank_six_boundary_proved": true,
+    "order_nine_rank_five_boundary_proved": true
+  },
+  "result_id": "K343-HIGHER-ORDER-VALUE-MODE-TRANSFER-GATE",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  },
+  "transfer_audit": {
+    "K341_is_dimension_free_integrator": false,
+    "first_new_rank_obstruction": "order nine requires species determinants of rank five; orders eleven and twelve require rank six",
+    "literal_K341_extension_to_orders_8_through_12_is_valid": false,
+    "order_eight_status": "algebraically within the existing rank-four Bessel calculus, but still lacks an order-eight native cubature/face atlas and group-level interval evaluator",
+    "order_seven_specific_inputs_not_reusable_as_if_generic": [
+      "K305 four-group D4-times-bordered-B5 compiler",
+      "K299 six-axis barycentric/Peano weights",
+      "K340 eight-split two-sector terminal atlas",
+      "K334 twelve-cell radial/projective cover and checksum",
+      "K341 (2*pi)^-9 normalization and order-seven tail powers"
+    ],
+    "orders_nine_through_twelve_status": "require new zero-safe scaled rank-five/rank-six determinant face calculus before numerical cubature",
+    "reusable": [
+      "factorial-free species-determinant kernel from K279",
+      "complete coherent group assembly before absolute enclosure",
+      "rho-tail versus simplex-face error separation",
+      "scaled zero-safe Bessel entry calculus through determinant rank four"
+    ]
+  }
+}

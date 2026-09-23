@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K343 higher-order value-mode transfer gate
+
+- `channel-swings/k343_higher_order_value_mode_transfer_gate.py` replays every
+  K179 order-eight-through-twelve path, emits the exact coherent quadratic-form
+  interface, and proves where rank-five and rank-six determinant calculus first
+  becomes necessary.
+- `channel-swings/k343_higher_order_value_mode_transfer_gate_probe.py` pins the
+  complete counts, ranks and normalization boundaries and rejects cross-term,
+  coefficient, position, transfer and downstream-overclaim mutations.
+
 ## K340--K342 order-seven value/residual composition
 
 - `channel-swings/k340_order_seven_barycentric_value_atlas.py` builds the two
