@@ -7,6 +7,43 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K383--K387 order-nine node jets and global architecture (2026-09-23)
+
+K383 evaluates complete coherent value, first and second raw-time jets at the
+native order-nine node for all twenty axes. It covers all `89,600` ordered
+axis-entry evaluations, keeps the two off-diagonal orientations separate and
+replays K381's complete value coefficient. Its direct probe passes `8/8`
+controls and rejects `15/15` hostile mutations, including six independent
+finite-difference comparisons. These are local node jets, not global bounds.
+
+K384 proves the exact one-axis positive Peano identity for
+`exp(-256*x) dx`, including kernel continuity, a double zero at the origin and
+exact mass `1/33554432`. Its tensor telescoping yields exactly twenty pure-
+second hybrid integrals with the native preceding-node/following-integration
+order. K384 passes `12/12` controls and rejects `16/16` mutations.
+
+K385 supplies exact rational zero-inclusive envelopes for the value, first and
+second derivatives of `2*K1`, the global `K_256(t)<=t^2/2` Peano majorant and
+the complete degree-eight all-zero radial integrability ledger. It never calls
+a raw Bessel kernel at zero. K385 passes `10/10` controls and rejects `11/11`
+mutations.
+
+K386 compiles exact reachability for all 58 K380 kernel-zero masks and all
+20+20 row/column-coalescence masks in every K384 hybrid domain. Moving
+dimensions descend from twenty to one, only the first hybrid owns the full
+origin, and all 4,480 ordered entries remain explicit on every axis. K386
+passes `10/10` controls and rejects `11/11` mutations.
+
+K387 executes the complete determinant and coherent-group second-derivative
+evaluator on a positive barycentric radial reference cell in all twenty
+hybrids, plus three all-zero barycentric rays with K385's `rho^13` scaling.
+All reference intervals and scaled ray controls are finite, every reference
+argument is strictly positive and K383's `s1` node control replays. K387 passes
+`11/11` controls and rejects `11/11` mutations. This bank is not a projective
+cover: proper-face preconditioners, recursive whole-domain coverage, analytic
+tails, numerical hybrid integrals and the complete order-nine remainder remain
+open.
+
 ## K367--K369 order-eight global face majorants (2026-09-23)
 
 K367 combines K352, K365 and K366 into `2,633` exact rational determinant

@@ -20,6 +20,21 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K383--K387 ORDER-NINE NODE JETS AND GLOBAL ARCHITECTURE.**
+> K383 evaluates complete coherent value/first/second jets on all twenty raw
+> time axes, covering `89,600` ordered axis-entry uses at 180 Arb digits while
+> replaying K381. K384 proves the exact twenty-term positive tensor Peano
+> identity with one-axis kernel mass `1/33554432`. K385 gives zero-inclusive
+> scaled `2*K1` derivative envelopes through order two and closes the
+> degree-eight all-zero radial ledger. K386 compiles every K380 kernel-zero and
+> row/column-coalescence mask across all twenty hybrid domains; K387 executes
+> finite complete-coherent controls on every positive hybrid interior and
+> three all-zero barycentric rays. Next build mask-native proper-face
+> preconditioners, recursive positive-interior cells and analytic radial tails,
+> then integrate the twenty K384 kernels. The reference controls are not a
+> global cover; no complete order-nine remainder, integral, action column,
+> `R_ref`, K152, source/ledger, canon, paper, public or physical claim follows.
+
 > **2026-09-23 K367--K369 ORDER-EIGHT GLOBAL FACE MAJORANTS.** K367 turns
 > K366's exponent interface into `2,633` exact rational rank-compatible
 > confluent determinant envelopes through active derivative order two. Every
@@ -11148,8 +11163,11 @@ strictly positive `(2*pi)^-11` normalized node interval
 `[5.623550454176137e-41, 5.623550454176139e-41]`. K382 retains both ordered
 orientations in the complete twenty-axis differentiation interface.
 
-Next evaluate the complete K382 value/first/second node jets, freeze the exact
-twenty-axis tensor Peano contract, and construct the rank-five zero-safe global
-face/interior cover. Do not promote the positive node to an integral sign,
-reuse order-eight masks or normalization, or begin the action-column/R_ref
-composition before the order-specific global remainder closes.
+K383--K387 now close the complete node-jet bank, exact tensor Peano identity,
+all-zero radial contract, per-hybrid face reachability and complete-coherent
+positive-interior/all-zero-ray reference controls. Next construct mask-native
+proper-face preconditioners, recursive positive-interior cells and analytic
+radial tails, then integrate all twenty K384 kernels. Do not promote K387's
+reference cells to a global cover, promote the positive node to an integral
+sign, reuse order-eight masks or normalization, or begin the action-column/
+`R_ref` composition before the order-specific global remainder closes.
