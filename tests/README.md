@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Corrected observation quotient/slice law and K392
+
+- `channel-swings/corrected_observation_quotient_slice_compatibility.py`
+  proves the exact distinction between descent to a target quotient and a
+  carrier-valued gauge-slice representative; its independent probe rejects
+  eleven hostile mutations.
+- `channel-swings/k392_order_nine_preconditioned_face_cell_bank.py` applies
+  K388's confluent and assignment-dual determinant preconditioners to seven
+  positive-width cells on all 695 K390 faces. Its probe replays one cell per
+  reachable hybrid and rejects twelve hostile mutations.
+
 ## Corrected observation seam and K391
 
 - `channel-swings/corrected_observation_gauge_slice_green_compatibility.py`

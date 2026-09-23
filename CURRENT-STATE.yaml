@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d45b81de9bcc
+revision_basis: 3b8c4bb1831f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,14 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The corrected observation map `P=1-j Gamma` is now exactly classified:
-    `im(P)=ker(Gamma)` and `ker(P)=im(j)`, so it descends through a named
-    action-owned gauge image only when that image equals `im(j)`. Green
-    compatibility is an independent adjoint condition on `j Gamma`; the
-    right-inverse law alone does not supply it. Current K77 artifacts provide
-    no typed intertwiner or image equality. Separately, K391 executes 268,800
-    complete coherent 180-digit Arb controls on the hardest K390 face in all
-    twenty order-nine hybrids. Positive-width cells and tails remain open.
+    The corrected observation seam now distinguishes two exact output types.
+    A quotient-valued observation only needs projected action gauge shifts to
+    remain target gauge shifts; in the August finite fixture `P d0=d0`, so the
+    carrier output changes but its target quotient class does not. A carrier-
+    valued representative selector instead needs `P d_action=0`, equivalently
+    `im(d_action)` contained in `im(j)` and equal to it in the full trace-sized
+    case. Requiring one projector to both fix and kill the same nonzero gauge
+    image is impossible. This reclassifies the fixture without retracting
+    either predecessor theorem. Current K77 artifacts still provide no same-
+    carrier action/observation differential diagram, Green form or closed
+    domain.
+
+    Independently, K392 executes exact determinant-preconditioned positive-
+    width intervals on all 695 K390 reachable order-nine faces. Its seven
+    rational cells partition `rho in [1/4096,1/1024]`; all 4,865 cells retain
+    4,480 ordered descriptors and twenty coherent groups, for 21,795,200
+    descriptor-cell evaluations. All 60 singular and 75 confluent K388
+    templates occur, every argument floor is positive and one direct overlap
+    control passes for each of the eighteen hybrids with faces. The equal-
+    normal chart is not the full projective normal cone. Strip integration,
+    projective coverage, recursive interiors, analytic tails and the complete
+    order-nine integral remain open.
 
     The residual-vector P8 first gate independently enumerates all forty D5
     roots and recovers the compact Cartan trace form `16 I_5`. On the declared

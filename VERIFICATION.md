@@ -7,6 +7,31 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## Corrected-observation quotient/slice law and K392 face cells (2026-09-23)
+
+Exact rational algebra separates two output semantics. Quotient descent needs
+`O d0_A=d0_B u`; in the same-complex August fixture the stronger law
+`P d0=d0` preserves a nonzero gauge shift so its target quotient class is
+unchanged. A carrier-valued representative selector instead needs
+`P d_action=0`. Hence one projector cannot both fix and kill the same nonzero
+differential. The result reclassifies the fixture without retracting the
+quotient theorem or the prior physical-slice criterion. Its producer passes
+eleven exact controls; the independent replay passes `10/10` controls and
+rejects `11/11` hostile mutations. No same-carrier K77 differential, Green
+form, domain or physical quotient is supplied.
+
+K392 evaluates seven exact rational positive-width normal cells on every one
+of K390's 695 reachable faces. All 4,865 cells use K388 confluent divided
+differences and assignment-dual row/column scaling before determinant
+assembly, retain all 4,480 ordered descriptors and twenty coherent groups,
+and have positive argument floors. This covers 21,795,200 ordered descriptor-
+cell evaluations, exercises all 60 singular and 75 confluent templates, and
+passes one direct-evaluator overlap control on each of the eighteen hybrids
+with faces. The independent probe passes `46/46` controls and rejects `12/12`
+mutations. These equal-normal cells are not a full projective normal cone,
+recursive cover, analytic tail, hybrid integral, complete order-nine
+remainder, action column, `R_ref`, K152 result or physical claim.
+
 ## Corrected-observation gauge seam and K391 face bank (2026-09-23)
 
 Exact rational algebra proves `im(1-j Gamma)=ker(Gamma)` and
