@@ -2,10 +2,32 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-22"
+updated_at: "2026-09-23"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K354--K355 order-eight face-program instantiation (2026-09-23)
+
+K354 compiles every one of K350's `517` reachable face instances into an
+executable K352/K353 approach program. All `1,240,800` ordered descriptor-face
+programs are present, and all `4,876,344` determinant-matrix uses resolve to
+the exact `34` singular assignment-dual and `38` confluent divided-difference
+templates. Sixteen hybrids have reachable faces; K350 proves that `v8` and
+`v9` have none, so their selected controls are positive-interior fallbacks.
+
+K355 executes `54` complete 180-digit Arb controls: the hardest reachable face
+in each of the first sixteen hybrids plus the two interior fallbacks, each at
+three face-local levels below the fixed tangential scale. All cumulative
+arguments have positive lower bounds, all reported intervals are finite, and
+every control retains all `2,400` ordered descriptors and a complete `23`-
+group digest. K354 passes `11/11` controls and rejects `12/12` hostile
+mutations; K355 passes `10/10` and rejects `11/11`.
+
+This proves the complete program map and a rigorous selected-control bank. It
+does not prove a face limit or positive-width preconditioned face interval,
+evaluate all 517 faces numerically, cover the positive interior, control the
+tails, or emit any Peano integral or complete order-eight remainder.
 
 ## K352--K353 order-eight proper-face contract (2026-09-22)
 

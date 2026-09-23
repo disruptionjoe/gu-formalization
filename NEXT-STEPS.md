@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-22"
+updated_at: "2026-09-23"
 ---
 
 # Next Steps For Contributors
@@ -19,6 +19,19 @@ updated_at: "2026-09-22"
 > it cannot stop work, reduce scale, or substitute maintenance. See
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
+
+> **2026-09-23 K354--K355 ORDER-EIGHT FACE-PROGRAM INSTANTIATION.** K354
+> compiles all `517` reachable K350 face instances and `1,240,800` ordered
+> descriptor-face programs. Every one of their `4,876,344` determinant-matrix
+> uses resolves to K352's `34` singular and `38` confluent templates. Sixteen
+> hybrids have reachable faces; `v8` and `v9` correctly use positive-interior
+> fallbacks. K355 executes `54` complete 180-digit Arb controls at three
+> face-local levels, preserving all `2,400` ordered descriptors and `23`
+> coherent groups per control. All argument floors are positive and all
+> intervals finite. Next implement actual row/column-scaled and confluent Arb
+> interval face cells for all 517 programs, then join recursive interior cells
+> and analytic tails before integrating K348. These controls are not face
+> intervals, a global cover, Peano integrals, or a complete order-eight result.
 
 > **2026-09-22 K352--K353 ORDER-EIGHT PROPER-FACE CONTRACT.** K352 replays
 > `4,876,344` determinant-matrix/face uses across all `2,400` ordered

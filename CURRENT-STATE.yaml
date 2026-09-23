@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1ec0198dc34f81e4b97bfe404605c5de8a670abd
+revision_basis: fef730c1533e0a7fdada90a56134b3e968dbe829
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -386,6 +386,20 @@ current_result:
     not recursive positive-interior coverage, analytic tails, any numerical
     Peano integral, the complete order-eight remainder/integral, action column,
     R_ref or K152 interval.
+
+    K354--K355 instantiate that interface without promoting controls into a
+    cover. K354 compiles all 517 reachable faces and 1,240,800 ordered
+    descriptor-face programs; all 4,876,344 determinant-matrix uses resolve to
+    K352's 34 singular and 38 confluent templates. Sixteen hybrids have
+    reachable faces, while K350 proves that v8 and v9 require positive-interior
+    fallbacks. K355 then executes 54 complete 180-digit Arb controls at three
+    face-local levels below the fixed tangential scale. Every argument floor is
+    positive, every interval finite and every control retains all 2,400
+    ordered descriptors and 23 coherent groups. The next gate is a genuine
+    positive-width K352-scaled and confluent interval evaluator for all 517
+    face programs, followed by recursive interior coverage and analytic tails.
+    No Peano integral, complete order-eight remainder/integral, action column,
+    R_ref or K152 interval is emitted.
 
     K307 replaces the premature fixed-x q integration by the joint native
     radius `b=x*q`. The exact density becomes
@@ -9650,8 +9664,13 @@ current_question: >-
   limit, K350 compiles per-hybrid face reachability, K351 supplies complete
   positive-interior and all-zero-ray controls, and K352--K353 provide exact
   determinant-preserving preconditioners plus local integrability on all 517
-  reachable faces. Next instantiate those masks in recursive positive-interior
-  cells and analytic radial tails, then integrate all eighteen K348 kernels.
+  reachable faces. K354 compiles every face into an exact singular/confluent
+  approach program and K355 executes 54 complete coherent Arb controls across
+  all eighteen hybrids, with positive argument floors and no raw zero call.
+  Next replace those selected positive approaches by positive-width K352-scaled
+  and confluent interval cells for all 517 faces, then join recursive positive-
+  interior cells and analytic radial tails and integrate all eighteen K348
+  kernels.
   The K351 reference bank and rays are controls, not a whole-domain cover.
   Join that remainder to K345 only after all eighteen terms close.
   Then build the rank-five order-nine
@@ -9912,12 +9931,16 @@ next_condition: >-
   interface. Treat K349--K351 as the accepted zero-safe radial contract,
   per-hybrid face-reachability atlas and complete coherent reference-control
   bank, and K352--K353 as the accepted determinant-preserving proper-face
-  preconditioner and local-integrability interface.
+  preconditioner and local-integrability interface, and K354--K355 as the
+  accepted complete face-program map plus selected hardest-boundary/interior
+  Arb control bank.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is to instantiate that mask-native interface inside a recursive
-  positive-interior cover and analytic radial tails for the complete
+  next gate is to replace K355's positive approach controls by actual K352
+  row/column-scaled and confluent positive-width interval cells for all 517
+  faces, then join them to a recursive positive-interior cover and analytic
+  radial tails for the complete
   eighteen-axis positive Peano remainder. Preserve both ordered orientations,
   use K350's exact reachable faces, and integrate each K348 pure-second hybrid
   term before joining K345. Do not promote K351's reference cell or rays to a
