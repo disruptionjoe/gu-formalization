@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6de0872843cc
+revision_basis: 78bb1c4347b0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -59,9 +59,12 @@ current_result:
     K389's exact normal powers and K385's Peano coefficients. All contributions
     are finite and positive, the exact partition width is `3/4096`, the global
     minimum normal power is zero, and eighteen hybrids have reachable faces.
-    Distinct face rows overlap and use unit projective angular density, so
-    projective coverage, recursive interiors, analytic tails and the complete
-    order-nine integral remain open.
+    Distinct face rows overlap and use unit projective angular density. K394
+    now supplies the missing exact coordinate cover: 98 unique zero masks,
+    758 maximum-coordinate charts and 4,320 face-program chart uses, with exact
+    inverse and Jacobian controls at all fourteen reachable codimensions. Exact
+    angular measure/boundary routing, evaluated projective cells, recursive
+    interiors, analytic tails and the complete order-nine integral remain open.
 
     The residual-vector P8 first gate independently enumerates all forty D5
     roots and recovers the compact Cartan trace form `16 I_5`. On the declared

@@ -7,6 +7,21 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K394 order-nine normal-projective atlas (2026-09-23)
+
+K394 compiles exact maximum-coordinate charts for all 98 unique K390 zero
+masks and maps all 695 face programs through 4,320 chart uses. The atlas has
+758 charts over fourteen reachable codimensions. Exact rational controls
+verify the inverse coordinate map, simplex normalization, maximum-anchor rule,
+uniform equal-normal corner and Jacobian `(1+sum r)^(-c)` at every reachable
+codimension. The independent probe passes `9/9` controls and rejects `11/11`
+hostile mutations.
+
+This is an exact finite coordinate cover only. Angular masses and zero/tie
+boundary routing, positive-width projective interval evaluation, recursive
+interior coverage, analytic tails, complete order-nine remainder/integral,
+action column, `R_ref`, K152 result and physical interpretation remain open.
+
 ## K393 order-nine near-face strip integration (2026-09-23)
 
 K393 integrates every K392 positive-width cell using K389's exact face-normal

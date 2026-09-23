@@ -20,14 +20,24 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K394 ORDER-NINE NORMAL-PROJECTIVE ATLAS.** K394 compiles every
+> K390 zero mask into exact maximum-coordinate charts: 98 unique masks, 758
+> charts and 4,320 chart uses across all 695 face programs. Exact inverse,
+> canonical tie ownership and Jacobian controls pass at all fourteen reachable
+> codimensions. This is a coordinate cover, not evaluated positive-width
+> projective cells or a hybrid integral. Next freeze K395 chart masses and
+> boundary routing, then execute anisotropic controls and recursive coverage.
+> No action-column, `R_ref`, K152, source, ledger, canon, paper, public or
+> physical claim moves.
+
 > **2026-09-23 K393 ORDER-NINE NEAR-FACE STRIP INTEGRATION.** K393 integrates
 > K392's seven-cell equal-normal chart on every one of 695 reachable faces:
 > all 4,865 contributions are finite and positive, the exact strip width is
 > `3/4096`, K389's global minimum normal power zero replays, and eighteen
 > hybrids have faces while `v9` and `v10` remain interior-only. The rows
 > overlap and use unit projective angular density, so they are not hybrid
-> integrals or a full normal cone. Next build the K394 normal-projective atlas,
-> then route its measure/boundaries before recursive interiors and tails. No
+> integrals. K394 now supplies the full coordinate atlas; next route its exact
+> measure/boundaries before recursive interiors and tails. No
 > action-column, `R_ref`, K152, source, ledger, canon, paper, public or physical
 > claim moves.
 

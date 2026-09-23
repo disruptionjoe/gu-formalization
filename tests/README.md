@@ -4,6 +4,14 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K394 order-nine normal-projective atlas
+
+- `channel-swings/k394_order_nine_normal_projective_atlas.py` compiles all 98
+  order-nine zero masks into 758 exact maximum-coordinate charts and maps all
+  695 face programs through 4,320 chart uses.
+- `channel-swings/k394_order_nine_normal_projective_atlas_probe.py` rebuilds
+  the atlas and rejects eleven hostile mutations.
+
 ## K393 order-nine near-face strip integration
 
 - `channel-swings/k393_order_nine_near_face_strip_integration.py` integrates
