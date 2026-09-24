@@ -7,6 +7,32 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K426--K428 functional exactness and rank-jump category boundary (2026-09-24)
+
+K426 verifies the canonical split form of K419's finite complex: `d0` injects
+into the final 21 middle coordinates and `d1` projects the first 70. Projection
+back to the final 21 and injection from the first 70 satisfy the four chain-
+contraction identities on every basis vector. Tensoring those maps with a
+common coefficient space preserves the identities exactly; in a Hilbert lift
+all four coordinate maps have norm one and both differential ranges are
+closed.
+
+K427 verifies exact polynomial controls for Hadamard division by `1-t` and the
+smooth theorem it models. For the `70 x 91` diagonal family, the global smooth
+kernel is exactly the original 21 zero columns. The extra fiber kernel at
+`t=1` does not globalize, while evaluation of the final target component at
+`t=1` identifies a one-dimensional smooth cokernel.
+
+K428 verifies the exact `L2` witness sequence. The norm-one input
+`sqrt(n) 1_[1-1/n,1]` has squared output norm `1/(3n^2)`, proving the
+multiplier is not bounded below and its range is not closed. Kernel and
+adjoint kernel are zero, hence the range is dense; the constant target is not
+in the range, so it is proper. The unreduced quotient is non-Hausdorff,
+reduced cokernel is zero, and no bounded Green inverse exists. The three probes
+pass `16/16`, `15/15`, and `18/18` controls and reject `12/12`, `11/11`, and
+`13/13` hostile mutations. These exact controls do not select an action-owned
+differential/domain or establish physical cohomology.
+
 ## K423--K425 continuous strata, even BFV targets and transverse completions (2026-09-24)
 
 K423 applies the real Schubert incidence formula to seven-planes in fourteen

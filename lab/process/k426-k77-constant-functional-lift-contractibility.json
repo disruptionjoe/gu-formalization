@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K426-K77-CONSTANT-FUNCTIONAL-LIFT-CONTRACTIBILITY",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_native",
+  "target_claim": "Determine whether a constant function-space lift of K419's finite split exact BFV fixture can acquire boundary or global cohomology without changing its differential or domain compatibility.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "Algebraic and Hilbert tensor lifts of the canonical split exact 21-to-91-to-70 finite fixture with common compatible coefficient domain; no source-owned functional BV/BFV complex is constructed.",
+  "gu_typed_objects": {
+    "result": "constant functional-lift contractibility theorem",
+    "carrier": "F^21 -> F^91 -> F^70 for a common real coefficient vector space or Hilbert function space F; LAYER=conditional functional completion; CHIRALITY=N/A",
+    "pairing": "coordinate Euclidean pairing tensored with the chosen coefficient-space pairing",
+    "real_structure": "real split exact complex",
+    "grading": "stabilizer, gauge-label and orbit degrees",
+    "action_owner": "K419 finite frozen fixture only; the function-space lift is a control completion",
+    "target": "exactness, closed range and bounded contraction MAP-TYPE=chain-complex"
+  },
+  "inputs": {
+    "finite_complex": "lab/process/k419-k77-frozen-stratum-linearized-kt-complex.json",
+    "even_target_boundary": "lab/process/k424-k77-even-bfv-target-cohomology-boundary.json",
+    "canonical_coordinates": "d0 injects R^21 into the final 21 coordinates of R^91; d1 projects R^91 onto its first 70 coordinates"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Test split contractibility before attributing global cohomology to topology or boundary labels; an explicit homotopy settles every unchanged constant lift at once.",
+    "retrieval_collision_result": "K419 proves finite exactness and K424 records zero finite cohomology, but neither states the tensor-lift contraction or closed-range consequence.",
+    "strongest_alternative": "A variable differential, rank-changing family or incompatible domain can evade the contraction; K427 and K428 test that boundary."
+  },
+  "contracting_homotopy": {
+    "h1": "project R^91 onto the final R^21 block",
+    "h2": "inject R^70 into the first R^70 block of R^91",
+    "identities": ["h1 d0 = I_21", "d0 h1 + h2 d1 = I_91", "d1 h2 = I_70", "d1 d0 = 0"],
+    "euclidean_operator_norms": {"d0": 1, "d1": 1, "h1": 1, "h2": 1}
+  },
+  "functional_result": {
+    "coefficient_space": "any real vector space F with all three degrees using the same compatible domain",
+    "lifted_complex": "F^21 -> F^91 -> F^70",
+    "contracting_homotopy": "I_F tensor (h1,h2)",
+    "cohomology": [0, 0, 0],
+    "hilbert_ranges_closed": true,
+    "bounded_contraction_norm": 1
+  },
+  "decision": {
+    "constant_pointwise_tensor_lift_creates_cohomology": false,
+    "boundary_topology_alone_changes_the_split_fixture": false,
+    "required_escape": "coefficient variation, rank loss, incompatible domain or boundary conditions, or nonclosed range",
+    "next_exact_input": "An action-owned variable differential and common functional domain, or an explicitly typed boundary restriction that fails to preserve the contraction."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Concluding that every functional completion of the K77 action is exact.",
+    "strongest_contrary_construction": "A domain restriction not preserved by h1/h2, or a transverse coefficient zero, invalidates the constant split contraction.",
+    "weakest_reproducibility_seam": "The coordinate contraction is exact and executable; its relevance to K77 is conditional on the unconstructed functional lift using this constant compatible domain."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k426_k77_constant_functional_lift_contractibility.py",
+    "probe": "tests/channel-swings/k426_k77_constant_functional_lift_contractibility_probe.py",
+    "controls_passed": 16,
+    "hostile_mutations_rejected": 12
+  },
+  "claim_ceiling": "Exact contractibility and closed-range theorem for constant compatible function-space lifts of K419's canonical split 21-to-91-to-70 fixture. Tensoring the explicit finite contracting homotopy with a common coefficient space preserves zero cohomology and, on Hilbert spaces, closed ranges with contraction norm one. This does not cover variable action differentials, incompatible boundary domains, rank changes or nonclosed operators, and constructs no source-owned functional BV/BFV complex, physical state space, observation map or GU verdict."
+}

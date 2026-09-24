@@ -20,6 +20,22 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K426--K428 FUNCTIONAL EXACTNESS AND RANK-JUMP CATEGORY
+> BOUNDARY.** K426 gives the canonical `21 -> 91 -> 70` split exact fixture an
+> explicit norm-one contracting homotopy. Every unchanged constant lift to a
+> common compatible function space remains exact; Hilbert ranges remain
+> closed. K427 tests the control coefficient `1-t` on smooth functions. The
+> global kernel stays at 21 free columns, but evaluation at `t=1` gives one
+> smooth cokernel class. K428 tests the same coefficient on `L2([0,1])`:
+> multiplication has dense proper nonclosed range, normalized near-endpoint
+> inputs have output norm `1/(sqrt(3)n)`, reduced cokernel is zero and no
+> bounded Green inverse exists. The probes pass `16/16`, `15/15`, and `18/18`
+> controls and reject `12/12`, `11/11`, and `13/13` hostile mutations. Next
+> requires an action-owned variable differential with a proved closed domain,
+> Green operator, pairing and observation descent. None of these controls is a
+> source-owned transverse family or physical BV/BFV cohomology, and no source,
+> ledger, canon, paper, public, novelty or physical verdict moves.
+
 > **2026-09-24 K423--K425 CONTINUOUS-STRATUM, EVEN-TARGET, AND TRANSVERSE
 > COMPLETION BOUNDARY.** K423 computes the continuous observer-overlap
 > Schubert strata in `Gr(7,14)`: overlap at least one, two and three has

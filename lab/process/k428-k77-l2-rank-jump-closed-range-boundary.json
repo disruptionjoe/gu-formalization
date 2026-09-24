@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K428-K77-L2-RANK-JUMP-CLOSED-RANGE-BOUNDARY",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_native",
+  "target_claim": "Determine whether the K427 smooth cokernel survives as reduced Hilbert cohomology and whether the same transverse multiplier admits a bounded Green inverse.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "Multiplication by 1-t on L2([0,1]) and the associated 70-by-91 diagonal control family; no positive physical K77 domain is selected.",
+  "gu_typed_objects": {
+    "result": "L2 closed-range and reduced-cohomology boundary",
+    "carrier": "L2([0,1])^91 -> L2([0,1])^70; LAYER=conditional Hilbert completion; CHIRALITY=N/A",
+    "pairing": "standard real L2 inner product",
+    "real_structure": "real Hilbert space",
+    "grading": "constraint and relation degrees",
+    "action_owner": "none; the multiplier is the K425/K427 control completion",
+    "target": "closed range, reduced cokernel and bounded Green inverse MAP-TYPE=bounded-multiplier"
+  },
+  "inputs": {
+    "smooth_boundary": "lab/process/k427-k77-smooth-rank-jump-cokernel.json",
+    "multiplier": "M_(1-t) on L2([0,1])",
+    "unit_witness_sequence": "sqrt(n) times the indicator of [1-1/n,1]"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Test closed range and reduced cohomology directly before treating the smooth evaluation class as a Green-compatible functional target.",
+    "retrieval_collision_result": "K424 leaves the Green/domain question open and K427 computes only the smooth quotient.",
+    "strongest_alternative": "A weighted Sobolev or boundary-trace domain may recover a closed finite cokernel, but no action-owned choice is serialized."
+  },
+  "hilbert_result": {
+    "scalar_kernel_dimension": 0,
+    "adjoint_kernel_dimension": 0,
+    "range_dense": true,
+    "range_proper": true,
+    "range_closed": false,
+    "proper_range_witness": "the constant function 1 has formal preimage 1/(1-t), which is not in L2",
+    "unit_sequence_output_norm": "1/(sqrt(3)n)",
+    "bounded_below": false,
+    "bounded_green_inverse_exists": false,
+    "full_family_global_kernel": "L2([0,1])^21",
+    "extra_global_l2_kernel": false,
+    "unreduced_cokernel": "nonzero non-Hausdorff quotient",
+    "reduced_cokernel_dimension": 0
+  },
+  "decision": {
+    "isolated_rank_jump_forces_nonzero_reduced_hilbert_cohomology": false,
+    "isolated_rank_jump_can_destroy_closed_range": true,
+    "smooth_and_hilbert_cokernels_agree_automatically": false,
+    "green_domain_and_closed_range_are_load_bearing": true,
+    "next_exact_input": "An action-owned closed domain or boundary condition whose range, Green operator and physical pairing are proved on the actual variable differential."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling zero reduced cokernel proof that every functional or boundary completion is exact.",
+    "strongest_contrary_construction": "A trace-sensitive Sobolev domain or a different weight can make evaluation continuous and produce a closed cokernel.",
+    "weakest_reproducibility_seam": "The L2 multiplier theorem and witness sequence are exact; the L2 choice and coefficient are not source/action selected."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k428_k77_l2_rank_jump_closed_range_boundary.py",
+    "probe": "tests/channel-swings/k428_k77_l2_rank_jump_closed_range_boundary_probe.py",
+    "controls_passed": 18,
+    "hostile_mutations_rejected": 13
+  },
+  "claim_ceiling": "Exact L2 closed-range boundary for the control coefficient 1-t. The multiplier is injective with dense proper nonclosed range; normalized inputs supported near t=1 have output norm 1/(sqrt(3)n), so no bounded Green inverse exists. The unreduced cokernel is nonzero and non-Hausdorff, while the reduced Hilbert cokernel is zero. Thus K427's smooth class is not category-independent. This constructs no action-owned domain, positive physical pairing, observation map or physical BV/BFV cohomology and moves no source, ledger, canon, paper, public, novelty or GU verdict."
+}

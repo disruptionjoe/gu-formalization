@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7bf1186dd94f
+revision_basis: 5524535bd658
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K426--K428 now close the simplest functional-completion consequences of
+    K419/K424/K425. K426 writes an explicit norm-one contracting homotopy for
+    the split exact `21 -> 91 -> 70` fixture. Tensoring it with any common
+    compatible coefficient space preserves exactness; on a Hilbert space the
+    ranges stay closed and the same contraction is bounded. Thus unchanged
+    constant pointwise lifting or boundary topology alone cannot create
+    cohomology. A variable differential, rank loss, incompatible boundary
+    domain or nonclosed range is required.
+
+    K427 then tests the simplest transverse escape, replacing the final unit
+    coefficient by `1-t` over smooth functions. The global kernel remains the
+    original 21 free columns: the extra fiber kernel at `t=1` is not a global
+    smooth syzygy. Hadamard division identifies the range as functions whose
+    final component vanishes at `t=1`, so evaluation gives exactly one smooth
+    cokernel class. K428 shows this class is not category-independent. On
+    `L2([0,1])`, multiplication by `1-t` is injective with dense proper
+    nonclosed range. Unit inputs concentrated in `[1-1/n,1]` have output norm
+    `1/(sqrt(3)n)`, so no bounded Green inverse exists; the unreduced quotient
+    is non-Hausdorff while reduced Hilbert cokernel is zero. These are control
+    completions, not source-owned K77 domains or physical BV/BFV cohomology.
+
     K423--K425 close three structural follow-through questions left by
     K420--K422. K423 replaces coordinate sampling by exact real Schubert
     geometry. In `Gr(7,14)`, the loci where a moving seven-plane meets the
@@ -10286,7 +10307,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K423 as the exact continuous incidence boundary for the selected
+  Treat K426 as the exact constant-lift boundary: the canonical K419 split
+  complex stays contractible on every common compatible coefficient domain,
+  so topology or function-space replication alone is not a cohomology source.
+  Treat K427 as the exact smooth control for one transverse zero: it produces
+  one evaluation cokernel but no global extra smooth syzygy. Treat K428 as the
+  exact Hilbert warning for that same coefficient: its range is dense and
+  nonclosed, its reduced cokernel is zero, and it has no bounded Green
+  inverse. Reopen functional cohomology only with an action-owned variable
+  differential and a specified closed domain/boundary condition, then prove
+  its range, Green operator, pairing and observation descent. Do not transfer
+  a smooth quotient class into reduced Hilbert or physical cohomology. Treat
+  K423 as the exact continuous incidence boundary for the selected
   observer fixture: the K420/K421 common-central-character obstruction lives
   on the codimension-12 overlap-at-least-two locus and is not generic. Reopen
   the open overlap-zero/one stratum only with an action-selected background

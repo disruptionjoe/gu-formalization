@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K427-K77-SMOOTH-RANK-JUMP-COKERNEL",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_native",
+  "target_claim": "Compute the global smooth cohomology created by the simplest K425 transverse rank-zero and distinguish fiber kernel growth from a global smooth syzygy.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "The control family diag(1,...,1,1-t) on C-infinity(R)^91 to C-infinity(R)^70; it is not a source-owned K77 transverse family.",
+  "gu_typed_objects": {
+    "result": "smooth rank-jump cokernel theorem",
+    "carrier": "C-infinity(R)^91 -> C-infinity(R)^70; LAYER=conditional smooth completion; CHIRALITY=N/A",
+    "pairing": "none required for the algebraic smooth quotient",
+    "real_structure": "real smooth functions",
+    "grading": "constraint and relation degrees",
+    "action_owner": "none; K425 control coefficient specialized to 1-t",
+    "target": "global smooth kernel and cokernel MAP-TYPE=multiplication-family"
+  },
+  "inputs": {
+    "finite_complex": "lab/process/k419-k77-frozen-stratum-linearized-kt-complex.json",
+    "transverse_nonidentifiability": "lab/process/k425-k77-transverse-rank-jump-nonidentifiability.json",
+    "coefficient": "1-t"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Compute the quotient by Hadamard division before calling the fiber rank jump a new relation or physical cohomology class.",
+    "retrieval_collision_result": "K425 records a fiber kernel and cokernel jump but deliberately does not compute the global smooth module.",
+    "strongest_alternative": "Hilbert completion can change the quotient topology; K428 tests the same coefficient on L2."
+  },
+  "smooth_result": {
+    "generic_rank": 70,
+    "rank_at_t_equals_1": 69,
+    "fiber_kernel_dimensions": {"generic": 21, "t_equals_1": 22},
+    "global_kernel": "C-infinity(R)^21 from the final 21 zero columns",
+    "extra_global_smooth_syzygy": false,
+    "range": "target vectors whose final component vanishes at t=1",
+    "hadamard_division": "f(1)=0 iff f=(1-t)g for a smooth g",
+    "cokernel": "R via evaluation of the final component at t=1",
+    "cokernel_dimension": 1
+  },
+  "decision": {
+    "rank_jump_creates_smooth_cokernel_class": true,
+    "fiber_kernel_jump_creates_global_smooth_generator": false,
+    "category_and_domain_are_load_bearing": true,
+    "next_exact_input": "A source/action-owned transverse coefficient family and its actual smooth section/domain category before interpreting any local cokernel as BV/BFV cohomology."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the evaluation class a physical state, boundary charge or source-owned cohomology class.",
+    "strongest_contrary_construction": "In the L2 completion the same multiplier has dense range and zero reduced cokernel, so the smooth class is not category-independent.",
+    "weakest_reproducibility_seam": "Hadamard division is exact; the coefficient family and smooth category remain control choices rather than K77-owned data."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k427_k77_smooth_rank_jump_cokernel.py",
+    "probe": "tests/channel-swings/k427_k77_smooth_rank_jump_cokernel_probe.py",
+    "controls_passed": 15,
+    "hostile_mutations_rejected": 11
+  },
+  "claim_ceiling": "Exact smooth-category theorem for the control family with final coefficient 1-t. The global smooth kernel remains the original 21 free columns; the extra fiber kernel at t=1 does not globalize to a smooth syzygy. Evaluation at t=1 identifies a one-dimensional cokernel. This is category-dependent control cohomology, not source-owned K77 data, physical BV/BFV cohomology, a Green domain, an observation map or a source/ledger/canon/public verdict."
+}
