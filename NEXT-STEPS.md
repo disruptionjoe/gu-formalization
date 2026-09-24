@@ -20,6 +20,22 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K418--K419 OBSERVER/STABILIZER FOLLOW-THROUGH.** K418
+> intersects the conditional K77 observer spatial rotations on `(7,8,9)`
+> with the frozen odd-axis `Spin(3,4)` stabilizer. Only the `(7,9)` rotation
+> survives, giving `Spin(2)`, not K416's declared all-factor diagonal
+> `SU(2)`. The source restricts as `56*1 + 7*R_2` and the tested full-spinor
+> target as `64*R_1`; even vector and odd spinor weights have zero equivariant
+> Hom. K419 compiles the frozen exact action and dual sequences with dimensions
+> `21 -> 91 -> 70` and `70 -> 91 -> 21`, identifying 21 first-stage linear
+> relations among 91 labels and 70 independent linearized constraints. The
+> probes pass `22/22` and `24/24` controls and reject `13/13` and `12/12`
+> hostile mutations. Next supply a source/action-selected coupled background
+> or quotient target differential with overlapping common-stabilizer types,
+> and globalize the reducibility data on a controlled orbit-type stratum
+> before claiming nonlinear Koszul--Tate properness or a functional domain.
+> No source, ledger, canon, paper, public, novelty or physical verdict moves.
+
 > **2026-09-24 K416--K417 REPAIR AND COMPLETION BOUNDARY.** K416 proves that
 > every full-stabilizer invariant subquotient and the full maximal-compact
 > restriction still have zero Hom into the tested full-spinor trace target.

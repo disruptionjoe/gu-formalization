@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K419-K77-FROZEN-STRATUM-LINEARIZED-KT-COMPLEX",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "native_to_native",
+  "target_claim": "Compile the exact finite action and reducibility complex determined by the frozen K77 BFV stabilizer and orbit-rank data.",
+  "inputs": {
+    "frozen_bfv_gate": "lab/process/selected-k77-full-bfv-master-equation-gate.json",
+    "gauge_algebra": "so(7,7) with all 91 labelled bivectors",
+    "stabilizer": "all 21 odd-odd bivectors",
+    "orbit_complement": "the remaining 70 labelled bivectors"
+  },
+  "finite_complex": {
+    "primal": "0 -> h_odd-odd -> so(7,7) -> V_orbit -> 0",
+    "dual": "0 -> V_orbit* -> so(7,7)* -> h_odd-odd* -> 0",
+    "gauge_dimension": 91,
+    "stabilizer_dimension": 21,
+    "orbit_dimension": 70,
+    "primal_ranks": [21, 70],
+    "dual_ranks": [70, 21],
+    "Euler_characteristic": 0,
+    "exact": true
+  },
+  "linearized_kt_fixture": {
+    "constraint_generators": 91,
+    "independent_linearized_constraints": 70,
+    "first_stage_relations": 21,
+    "candidate_degree_1_antifields": 91,
+    "candidate_degree_2_reducibility_generators": 21,
+    "finite_complex_exact": true,
+    "interpretation": "At this frozen constant-orbit-type point, the 21 stabilizer directions are exactly the first-stage linear relations among 91 linearized gauge/constraint labels, leaving rank 70."
+  },
+  "decision": {
+    "frozen_linearized_reducibility_fixture_complete": true,
+    "proper_nonlinear_koszul_tate_resolution_complete": false,
+    "next_exact_input": "A source-owned orbit-type stratum with varying stabilizer, nonlinear relation functions and rank control, followed by functional boundary conditions and a common analytic domain."
+  },
+  "boundaries": {
+    "constant_orbit_type_globalized": false,
+    "nonlinear_kt_properness_proved": false,
+    "higher_stage_relations_excluded_off_stratum": false,
+    "functional_bfv_or_common_domain_constructed": false,
+    "physical_cohomology_computed": false,
+    "source_ledger_canon_paper_public_or_physical_effect": false
+  },
+  "claim_ceiling": "Exact finite linearized action/reducibility fixture at the frozen K77 distortion. The labelled bivector basis gives an exact sequence of dimensions 21 -> 91 -> 70 and its dual, identifying 21 first-stage linear relations and 70 independent linearized constraints. This is not a nonlinear Koszul-Tate resolution, does not globalize an orbit-type stratum, exclude higher relations away from the point, construct functional BFV domains or physical cohomology, or move source, ledger, canon, paper, public, novelty or physical GU verdicts."
+}

@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K418--K419 observer/stabilizer follow-through
+
+- `channel-swings/k418_k77_observer_stabilizer_intersection_obstruction.py`
+  and its probe intersect the conditional observer spatial rotations with the
+  frozen odd-axis stabilizer and prove that the resulting `Spin(2)` source and
+  tested full-spinor target have zero equivariant Hom.
+- `channel-swings/k419_k77_frozen_stratum_linearized_kt_complex.py` and its
+  probe enumerate the exact `21 -> 91 -> 70` frozen action sequence and its
+  dual, compiling the finite first-stage linearized reducibility fixture.
+
 ## K416--K417 repair and completion boundary
 
 - `channel-swings/k416_k77_stabilizer_symmetry_breaking_ladder.py` and its

@@ -7,6 +7,36 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K418--K419 observer/stabilizer follow-through (2026-09-24)
+
+K418 uses the conditional K77 observer axes `(0,7,8,9)` and the frozen BFV
+odd-axis stabilizer `{1,3,5,7,9,11,13}`. Of the observer spatial rotation
+generators `(7,8)`, `(7,9)` and `(8,9)`, only `(7,9)` lies in the stabilizer.
+The common group is therefore `Spin(2)`, not K416's declared diagonal `SU(2)`
+across all three maximal-compact factors. In the `Spin(2)` double-cover
+convention, each seven-vector contributes five fixed real lines plus one real
+weight-two plane, while each real spinor contributes weight-one planes. Thus
+the source is `56*1 + 7*R_2`, the tested target is `64*R_1`, and the
+equivariant Hom rank is zero. The producer/probe pass `22/22` controls and
+reject `13/13` hostile mutations. This proves only a conditional
+frozen-background common-symmetry obstruction for the tested full-spinor
+carrier. It does not globalize the observer, test a quotient target
+differential, exclude moving backgrounds or other carriers, or solve the
+Green/domain problem.
+
+K419 enumerates the complete labelled bivector basis of `so(7,7)`, the 21
+odd-odd stabilizer bivectors and the remaining 70 orbit directions. The
+resulting primal sequence `0 -> h -> so(7,7) -> V_orbit -> 0` and its dual are
+exact by explicit basis maps: ranks are `(21,70)` and `(70,21)`, both
+compositions vanish, and both middle kernels equal the preceding images. This
+gives a finite frozen-point linearized fixture with 91 constraint labels, 70
+independent constraints and 21 first-stage relations. The producer/probe pass
+`24/24` controls and reject `12/12` hostile mutations. This is not a nonlinear
+Koszul--Tate resolution, a varying orbit-type stratum, functional BFV
+properness, a common analytic domain or physical cohomology. Neither result
+moves source, ledger, canon, paper, public posture, novelty or a physical GU
+verdict.
+
 ## K416--K417 bridge repair and consumer completion boundary (2026-09-24)
 
 K416 strengthens the K77 frozen-orbit obstruction through every invariant
