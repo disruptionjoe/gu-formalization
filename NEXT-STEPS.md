@@ -20,6 +20,25 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K423--K425 CONTINUOUS-STRATUM, EVEN-TARGET, AND TRANSVERSE
+> COMPLETION BOUNDARY.** K423 computes the continuous observer-overlap
+> Schubert strata in `Gr(7,14)`: overlap at least one, two and three has
+> codimension `5,12,21`. The signature-`(3,4)` locus is open, so K420's
+> common-`Spin(2)`/`Spin(3)` obstruction extends on a codimension-12
+> exceptional locus rather than generically. K424 branches the actual even
+> BFV carriers. The source-to-`g*`, source-to-`h*` and source-to-`V_orbit*`
+> Hom ranks are `3920,686,3234` under `Spin(2)` and `2779,329,2450` under
+> `Spin(3)`, so the odd-character obstruction disappears; however K419's
+> selected finite complex remains exact with zero cohomology. K425 constructs
+> constant and rank-jumping polynomial completions that share arbitrarily
+> long finite transverse jets, proving that K419/K422 do not identify
+> transverse rank behavior or nonlinear relations. The probes pass `15/15`,
+> `14/14`, and `15/15` controls and reject `10/10`, `10/10`, and `11/11`
+> hostile mutations. Next requires an action-selected background in the
+> generic stratum or a non-exact functional target, and a source-owned
+> transverse coefficient family. No functional domain, physical cohomology,
+> source/ledger/canon/paper/public/novelty or physical verdict moves.
+
 > **2026-09-24 K420--K422 MOVING-BACKGROUND, QUOTIENT, AND REDUCIBILITY
 > FOLLOW-THROUGH.** K420 exhausts all 1,225 signature-compatible coordinate
 > conjugates of the frozen `(3,4)` stabilizer plane. Observer-axis overlaps

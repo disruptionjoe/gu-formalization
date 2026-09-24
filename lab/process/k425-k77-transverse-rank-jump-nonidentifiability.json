@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K425-K77-TRANSVERSE-RANK-JUMP-NONIDENTIFIABILITY",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_native",
+  "target_claim": "Determine whether K419's frozen exact complex and K422's homogeneous-orbit transport identify transverse rank jumps or nonlinear relation functions.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "comparator_notice": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Polynomial completion identifiability for a rank-70 map R^91 to R^70 with a 21-dimensional frozen kernel; the constructed completions are controls and are not source-owned K77 families.",
+  "gu_typed_objects": {
+    "result": "transverse rank-jump completion nonidentifiability theorem",
+    "carrier": "polynomial one-parameter families of finite maps R^91 to R^70; LAYER=internal finite control; CHIRALITY=N/A",
+    "pairing": "none required; rank and syzygy module only",
+    "real_structure": "real polynomial coefficients",
+    "grading": "constraint versus first-stage relation degree",
+    "action_owner": "none; constructed control completions are explicitly not source-owned",
+    "target": "transverse rank and fiber-relation behavior MAP-TYPE=polynomial-linear-family"
+  },
+  "inputs": {
+    "frozen_complex": "lab/process/k419-k77-frozen-stratum-linearized-kt-complex.json",
+    "homogeneous_transport": "lab/process/k422-k77-homogeneous-orbit-reducibility-bundle.json",
+    "base_map": "A0=[I_70 0_70x21]: R^91 -> R^70"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Test identifiability by explicit completions before attempting to infer a nonlinear KT complex from constant-rank homogeneous data.",
+    "retrieval_collision_result": "K419 and K422 fence transverse orbit types but do not prove that their frozen/homogeneous data leave arbitrary finite transverse jets underdetermined.",
+    "strongest_alternative": "A source-owned transverse family would decide the actual rank behavior, but no such coefficient family is serialized."
+  },
+  "completion_theorem": {
+    "constant_family": "diag(1,...,1) on the first 70 columns, with rank 70 and kernel dimension 21 everywhere",
+    "rank_jump_family_at_matching_order_N": "diag(1,...,1,1-t^(N+1)) on the first 70 columns, with the same base map and transverse derivatives through order N",
+    "verified_matching_orders": [1, 2, 3, 4, 5, 6, 7, 8],
+    "generic_rank": 70,
+    "rank_at_t_equals_1": 69,
+    "generic_kernel_dimension": 21,
+    "kernel_dimension_at_t_equals_1": 22,
+    "cokernel_dimension_at_t_equals_1": 1,
+    "extra_fiber_relation_at_t_equals_1": true,
+    "global_polynomial_extra_syzygy": false,
+    "arbitrarily_long_finite_jet_nonidentifiability": true
+  },
+  "decision": {
+    "k419_frozen_complex_identifies_transverse_rank_behavior": false,
+    "k422_homogeneous_transport_identifies_transverse_rank_behavior": false,
+    "constant_rank_bundle_extends_across_control_rank_jump": false,
+    "source_owned_transverse_family_still_required": true,
+    "nonlinear_koszul_tate_properness_proved": false,
+    "next_exact_input": "A source/action-owned transverse coefficient family and its nonlinear constraint functions through the first actual rank-changing stratum."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the control family a K77 orbit-type model or inferring that the physical action must have a rank jump.",
+    "strongest_contrary_construction": "The constant completion has no rank jump and matches the same frozen data; a source action could realize it instead.",
+    "weakest_reproducibility_seam": "The finite polynomial theorem is exact, but it establishes nonidentifiability only; it supplies no source-owned transverse coefficients."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k425_k77_transverse_rank_jump_nonidentifiability.py",
+    "probe": "tests/channel-swings/k425_k77_transverse_rank_jump_nonidentifiability_probe.py",
+    "controls_passed": 15,
+    "hostile_mutations_rejected": 11
+  },
+  "claim_ceiling": "Exact polynomial nonidentifiability theorem for transverse completions of K419's finite rank-70 fixture. A constant-rank family and rank-jump families with coefficient 1-t^(N+1) share the same frozen map and can share arbitrarily long finite transverse jets, while the latter acquire a one-dimensional fiber relation and cokernel at t=1 without a global polynomial extra syzygy. K419's point data and K422's homogeneous-orbit transport therefore do not determine transverse rank behavior or nonlinear relations. The control families are not source-owned, prove no actual K77 rank jump or KT properness, construct no functional domain, and move no source, ledger, canon, paper, public, novelty or physical GU verdict."
+}

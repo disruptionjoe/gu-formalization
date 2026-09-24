@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 613c6019ad67
+revision_basis: 7bf1186dd94f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,38 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K423--K425 close three structural follow-through questions left by
+    K420--K422. K423 replaces coordinate sampling by exact real Schubert
+    geometry. In `Gr(7,14)`, the loci where a moving seven-plane meets the
+    observer spatial three-plane in dimension at least one, two or three have
+    codimensions `5,12,21`. The nondegenerate signature-`(3,4)` condition is
+    open and preserves those codimensions. Thus the common `Spin(2)` or
+    `Spin(3)` central-character obstruction extends continuously on the
+    overlap-at-least-two locus, but that locus has codimension 12 and is not
+    generic. Generic backgrounds have no nontrivial connected common observer
+    rotation; this removes the specific representation obstruction without
+    constructing an action-owned map.
+
+    K424 tests the actual even-character carriers already selected by K419's
+    frozen BFV fixture. Under common `Spin(2)`, the orbit source branches as
+    `56*1+7*R_2`, while `g*`, `h*` and `V_orbit*` branch as
+    `67*1+12*R_2`, `11*1+5*R_2` and `56*1+7*R_2`; their real Hom ranks from
+    the source are `3920,686,3234`. Under common `Spin(3)`, the corresponding
+    branches give Hom ranks `2779,329,2450`. These even carriers evade K421's
+    odd-character no-go, but the selected finite `21 -> 91 -> 70` primal and
+    dual sequences remain exact with zero cohomology in every degree. A
+    functional or boundary completion with surviving cohomology, its Green
+    domain and the actual observation map remain open.
+
+    K425 proves that the frozen and homogeneous data do not determine
+    transverse orbit-type behavior. The constant rank-70 completion and the
+    polynomial families with final coefficient `1-t^(N+1)` share the same
+    base map and can share arbitrarily long finite transverse jets. At `t=1`,
+    the latter drop to rank 69 and gain one fiber relation and one cokernel
+    dimension without a global polynomial extra syzygy. These are control
+    completions, not source-owned K77 families; they prove nonidentifiability,
+    not an actual rank jump or nonlinear Koszul--Tate properness.
+
     K420--K422 extend the frozen K77 observer/stabilizer result along three
     exact but still conditional directions. K420 exhausts all 1,225 coordinate
     seven-planes of signature `(3,4)` in the selected `(7,7)` vector fixture.
@@ -10254,20 +10286,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K420 as the complete signature-compatible coordinate-background
-  census for the selected K77 vector fixture: 455 backgrounds retain common
-  Spin(2) or Spin(3) and remain obstructed by central character, while 770
-  lose the nontrivial common rotation used by the test and remain undecided.
-  Treat K421 as the exact no-go for equivariant differentials, subquotients,
-  cohomology and Green-compatible maps built only from the same tested
-  spinor-isotypic target on those 455 backgrounds. Reopen with a source/action-
-  selected even-character target cohomology summand, justified symmetry
-  breaking or a separately justified non-equivariant map, then construct its
-  closed common domain. Treat K422 as the exact constant-rank reducibility
-  bundle over the homogeneous gauge orbit, not a transverse varying-orbit-type
-  theorem. Next control one source-owned transverse family through a rank jump
-  and construct its nonlinear relation functions before any nonlinear
-  Koszul--Tate properness claim. Treat K417 as the exact
+  Treat K423 as the exact continuous incidence boundary for the selected
+  observer fixture: the K420/K421 common-central-character obstruction lives
+  on the codimension-12 overlap-at-least-two locus and is not generic. Reopen
+  the open overlap-zero/one stratum only with an action-selected background
+  and its actual differential; lack of common symmetry alone does not produce
+  a map. Treat K424 as the exact even-carrier repair boundary: the selected
+  bosonic BFV carriers admit large equivariant Hom spaces, but K419's finite
+  complex is exact and has zero cohomology. Next construct an action-selected
+  non-exact target summand or functional/boundary completion with closed
+  cohomology, then supply its Green domain and observation map. Treat K425 as
+  the exact proof that frozen and homogeneous-orbit data leave transverse rank
+  behavior unidentified. Next supply a source/action-owned transverse
+  coefficient family and nonlinear constraint functions through its first
+  actual rank-changing stratum before any nonlinear Koszul--Tate properness
+  claim. Treat K417 as the exact
   scalar-interface completion obstruction matched to K170 and K278. Next
   evaluate the coefficient-complete K156/K139 base action on K170's dyadic
   trial family and serialize either exterior coercivity or a finite action-

@@ -7,6 +7,42 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K423--K425 continuous strata, even BFV targets and transverse completions (2026-09-24)
+
+K423 applies the real Schubert incidence formula to seven-planes in fourteen
+dimensions relative to the conditional observer spatial three-plane. The
+locus with intersection dimension at least `r` has codimension `r(4+r)`,
+giving `0,5,12,21` for `r=0,1,2,3`. Nondegenerate signature `(3,4)` is an open
+condition, so these codimensions persist on the selected signature locus. The
+common `Spin(2)` or `Spin(3)` used by K420/K421 therefore survives on the
+codimension-12 overlap-at-least-two locus, not generically. This does not
+select a physical measure/background or construct a map. The producer/probe
+pass `15/15` controls and reject `10/10` hostile mutations.
+
+K424 branches K419's actual even-character finite BFV carriers. Under
+`Spin(2)`, `V_orbit=56*1+7*R_2`, `g*=67*1+12*R_2`,
+`h*=11*1+5*R_2`, and `V_orbit*=56*1+7*R_2`; real equivariant Hom ranks from
+the source are `3920,686,3234`. Under `Spin(3)`, the corresponding branches
+are `49*1+7*R_3`, `55*1+12*R_3`, `6*1+5*R_3`, and
+`49*1+7*R_3`, with Hom ranks `2779,329,2450`. Thus even central character
+removes K421's representation obstruction. K419's selected finite primal and
+dual sequences remain exact, however, so their cohomology dimensions are
+`0,0,0`. This is not a functional or physical cohomology calculation. The
+producer/probe pass `14/14` controls and reject `10/10` hostile mutations.
+
+K425 compares the constant completion of K419's rank-70 map with polynomial
+completions whose final nonzero coefficient is `1-t^(N+1)`. For every tested
+`N=1,...,8`, the latter share the base map and derivatives through order `N`
+with the constant completion, but at `t=1` their rank drops from 70 to 69,
+their kernel grows from 21 to 22, and their cokernel grows from zero to one.
+Because the polynomial coefficient is nonzero in the global polynomial ring,
+the extra fiber relation at the root is not a global polynomial syzygy. The
+construction proves arbitrary finite-jet nonidentifiability; it is not a
+source-owned K77 transverse family and proves no actual rank jump or nonlinear
+KT properness. The producer/probe pass `15/15` controls and reject `11/11`
+hostile mutations. None of K423--K425 moves source, ledger, canon, paper,
+public posture, novelty or a physical GU verdict.
+
 ## K420--K422 moving-background, quotient and reducibility follow-through (2026-09-24)
 
 K420 enumerates every coordinate seven-plane with signature `(3,4)` in the
