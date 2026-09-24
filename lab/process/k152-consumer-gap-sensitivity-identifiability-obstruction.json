@@ -1,0 +1,344 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K152-CONSUMER-GAP-SENSITIVITY-IDENTIFIABILITY-OBSTRUCTION",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "Determine whether the serialized K139/K152/K168/K270 inputs identify a positive uniform residual budget or integral-uncertainty tolerance for the actual consumer.",
+  "typed_objects": {
+    "carrier": "exact three-dimensional rational conforming control family with G=I_3; not a claimed native K139 trial assembly",
+    "form": "R0(epsilon)=diag(0,epsilon,1) and conditional K168 extension Rref=R0+diag(-2,1,1)",
+    "pairing": "Euclidean Gram G=I_3 in the counterexample family",
+    "real_structure": "real rational Hermitian diagonal controls",
+    "grading": "ground line plus two-dimensional complement",
+    "action_owner": "repository-owned conditional K152/K270 theorem only; native action/operator ownership remains absent"
+  },
+  "serialized_consumer": {
+    "sharp_energy_budget": "e<=d a g/((a+g)(a-d)) for 0<d<a",
+    "residual_decomposition": "sqrt(e)<=r_nominal+kappa(r_I+tau_I)+eta_other",
+    "integral_uncertainty_budget": "r_I+tau_I<=[sqrt(e_budget)-r_nominal-eta_other]/kappa when kappa>0 and the numerator is nonnegative",
+    "K168_reference_diagonal": [
+      "-2",
+      "1",
+      "1"
+    ],
+    "K168_shape_oscillation": "3",
+    "K404_status": "finite_enclosure_without_sign",
+    "K404_role": "proves a finite enclosure only; it supplies no K152 gap, decision margin, or map norm"
+  },
+  "gap_collapse_family": {
+    "definition": "for every integer n>=1, epsilon=1/n, G=I_3, R0=diag(0,epsilon,1), normalized ground trial has rho=0 and residual square zero, while exterior gap g=epsilon",
+    "fixed_controls": {
+      "a": "3",
+      "d": "1"
+    },
+    "budget_formula": "B_n=3/[2(3n+1)]",
+    "all_budgets_positive": true,
+    "sample_budgets_strictly_decrease": true,
+    "infimum": "0",
+    "uniform_positive_budget_identified": false,
+    "K168_effect": "adding W_ref=diag(-2,1,1) preserves its three-unit shape oscillation but imposes no lower bound on the base complement gap",
+    "samples": [
+      {
+        "n": 1,
+        "epsilon": "1",
+        "gram": [
+          "1",
+          "1",
+          "1"
+        ],
+        "R0_diagonal": [
+          "0",
+          "1",
+          "1"
+        ],
+        "rho": "0",
+        "nominal_residual_square": "0",
+        "exterior_gap_g": "1",
+        "a": "3",
+        "d": "1",
+        "sharp_energy_budget": "3/8",
+        "Rref_diagonal_after_K168": [
+          "-2",
+          "2",
+          "2"
+        ],
+        "K168_shape_oscillation": "3"
+      },
+      {
+        "n": 2,
+        "epsilon": "1/2",
+        "gram": [
+          "1",
+          "1",
+          "1"
+        ],
+        "R0_diagonal": [
+          "0",
+          "1/2",
+          "1"
+        ],
+        "rho": "0",
+        "nominal_residual_square": "0",
+        "exterior_gap_g": "1/2",
+        "a": "3",
+        "d": "1",
+        "sharp_energy_budget": "3/14",
+        "Rref_diagonal_after_K168": [
+          "-2",
+          "3/2",
+          "2"
+        ],
+        "K168_shape_oscillation": "3"
+      },
+      {
+        "n": 4,
+        "epsilon": "1/4",
+        "gram": [
+          "1",
+          "1",
+          "1"
+        ],
+        "R0_diagonal": [
+          "0",
+          "1/4",
+          "1"
+        ],
+        "rho": "0",
+        "nominal_residual_square": "0",
+        "exterior_gap_g": "1/4",
+        "a": "3",
+        "d": "1",
+        "sharp_energy_budget": "3/26",
+        "Rref_diagonal_after_K168": [
+          "-2",
+          "5/4",
+          "2"
+        ],
+        "K168_shape_oscillation": "3"
+      },
+      {
+        "n": 8,
+        "epsilon": "1/8",
+        "gram": [
+          "1",
+          "1",
+          "1"
+        ],
+        "R0_diagonal": [
+          "0",
+          "1/8",
+          "1"
+        ],
+        "rho": "0",
+        "nominal_residual_square": "0",
+        "exterior_gap_g": "1/8",
+        "a": "3",
+        "d": "1",
+        "sharp_energy_budget": "3/50",
+        "Rref_diagonal_after_K168": [
+          "-2",
+          "9/8",
+          "2"
+        ],
+        "K168_shape_oscillation": "3"
+      },
+      {
+        "n": 16,
+        "epsilon": "1/16",
+        "gram": [
+          "1",
+          "1",
+          "1"
+        ],
+        "R0_diagonal": [
+          "0",
+          "1/16",
+          "1"
+        ],
+        "rho": "0",
+        "nominal_residual_square": "0",
+        "exterior_gap_g": "1/16",
+        "a": "3",
+        "d": "1",
+        "sharp_energy_budget": "3/98",
+        "Rref_diagonal_after_K168": [
+          "-2",
+          "17/16",
+          "2"
+        ],
+        "K168_shape_oscillation": "3"
+      },
+      {
+        "n": 64,
+        "epsilon": "1/64",
+        "gram": [
+          "1",
+          "1",
+          "1"
+        ],
+        "R0_diagonal": [
+          "0",
+          "1/64",
+          "1"
+        ],
+        "rho": "0",
+        "nominal_residual_square": "0",
+        "exterior_gap_g": "1/64",
+        "a": "3",
+        "d": "1",
+        "sharp_energy_budget": "3/386",
+        "Rref_diagonal_after_K168": [
+          "-2",
+          "65/64",
+          "2"
+        ],
+        "K168_shape_oscillation": "3"
+      },
+      {
+        "n": 256,
+        "epsilon": "1/256",
+        "gram": [
+          "1",
+          "1",
+          "1"
+        ],
+        "R0_diagonal": [
+          "0",
+          "1/256",
+          "1"
+        ],
+        "rho": "0",
+        "nominal_residual_square": "0",
+        "exterior_gap_g": "1/256",
+        "a": "3",
+        "d": "1",
+        "sharp_energy_budget": "3/1538",
+        "Rref_diagonal_after_K168": [
+          "-2",
+          "257/256",
+          "2"
+        ],
+        "K168_shape_oscillation": "3"
+      }
+    ]
+  },
+  "sensitivity_scaling_family": {
+    "definition": "hold a=3,g=2,d=1 so e_budget=3/5; set r_nominal=eta_other=0, kappa=N and u=r_I+tau_I",
+    "uncertainty_law": "u<=sqrt(3/5)/N, equivalently u^2<=3/(5N^2)",
+    "fixed_energy_budget": "3/5",
+    "sample_tolerance_squares_strictly_decrease": true,
+    "infimum_of_tolerance_squared": "0",
+    "uniform_positive_integral_tolerance_identified": false,
+    "samples": [
+      {
+        "N": 1,
+        "a": "3",
+        "g": "2",
+        "d": "1",
+        "fixed_energy_budget": "3/5",
+        "r_nominal": "0",
+        "eta_other": "0",
+        "kappa": "1",
+        "required_uncertainty_law": "u=r_I+tau_I <= sqrt(3/5)/N",
+        "maximum_uncertainty_squared": "3/5"
+      },
+      {
+        "N": 2,
+        "a": "3",
+        "g": "2",
+        "d": "1",
+        "fixed_energy_budget": "3/5",
+        "r_nominal": "0",
+        "eta_other": "0",
+        "kappa": "2",
+        "required_uncertainty_law": "u=r_I+tau_I <= sqrt(3/5)/N",
+        "maximum_uncertainty_squared": "3/20"
+      },
+      {
+        "N": 4,
+        "a": "3",
+        "g": "2",
+        "d": "1",
+        "fixed_energy_budget": "3/5",
+        "r_nominal": "0",
+        "eta_other": "0",
+        "kappa": "4",
+        "required_uncertainty_law": "u=r_I+tau_I <= sqrt(3/5)/N",
+        "maximum_uncertainty_squared": "3/80"
+      },
+      {
+        "N": 8,
+        "a": "3",
+        "g": "2",
+        "d": "1",
+        "fixed_energy_budget": "3/5",
+        "r_nominal": "0",
+        "eta_other": "0",
+        "kappa": "8",
+        "required_uncertainty_law": "u=r_I+tau_I <= sqrt(3/5)/N",
+        "maximum_uncertainty_squared": "3/320"
+      },
+      {
+        "N": 16,
+        "a": "3",
+        "g": "2",
+        "d": "1",
+        "fixed_energy_budget": "3/5",
+        "r_nominal": "0",
+        "eta_other": "0",
+        "kappa": "16",
+        "required_uncertainty_law": "u=r_I+tau_I <= sqrt(3/5)/N",
+        "maximum_uncertainty_squared": "3/1280"
+      },
+      {
+        "N": 64,
+        "a": "3",
+        "g": "2",
+        "d": "1",
+        "fixed_energy_budget": "3/5",
+        "r_nominal": "0",
+        "eta_other": "0",
+        "kappa": "64",
+        "required_uncertainty_law": "u=r_I+tau_I <= sqrt(3/5)/N",
+        "maximum_uncertainty_squared": "3/20480"
+      }
+    ]
+  },
+  "identifiability_decision": {
+    "positive_uniform_K270_energy_budget_from_serialized_inputs": false,
+    "positive_uniform_integral_uncertainty_tolerance_from_serialized_inputs": false,
+    "reason": "the admissible exact gap family drives the energy budget to zero, and the admissible exact sensitivity family drives the allowable uncertainty to zero while holding the energy budget fixed",
+    "further_enclosure_has_decision_defined_target": false,
+    "next_exact_inputs": [
+      "a native conforming form/Gram assembly and coercive shift",
+      "an independent positive exterior gap or complement coercivity bound",
+      "a complete nominal residual and other-error budget",
+      "a finite integral-to-residual map norm kappa",
+      "a declared energy or projection decision margin"
+    ]
+  },
+  "retained_scope": {
+    "K152_theorem_falsified": false,
+    "K168_reference_extension_falsified": false,
+    "K270_sharp_bound_falsified": false,
+    "particular_fully_instantiated_consumer_falsified": false,
+    "native_K152_interval_emitted": false,
+    "source_ledger_canon_paper_public_or_physical_effect": false
+  },
+  "release_test": {
+    "K270_formula_replayed": true,
+    "gap_budget_formula_replayed": true,
+    "all_gap_budgets_positive": true,
+    "sample_gap_budgets_decrease": true,
+    "gap_family_infimum_zero": true,
+    "K168_shape_oscillation_stays_three": true,
+    "sensitivity_formula_replayed": true,
+    "sample_tolerance_squares_decrease": true,
+    "sensitivity_family_infimum_zero": true,
+    "no_theorem_or_instantiated_consumer_falsification": true,
+    "no_source_ledger_canon_paper_public_or_physical_effect": true
+  },
+  "claim_ceiling": "Exact rational counterexample families proving that the currently serialized conditional K152/K168/K270 inputs do not identify a positive uniform residual-energy budget or integral-uncertainty tolerance. Gap collapse sends the sharp K270 budget to zero even with K168's fixed three-unit reference shape, and sensitivity scaling sends allowable integral uncertainty to zero at fixed budget. This does not falsify K152, K168, K270, or any fully instantiated consumer; it supplies no native form, gap, residual, map norm, interval, source/ledger/canon/paper/public/novelty or physical GU verdict."
+}

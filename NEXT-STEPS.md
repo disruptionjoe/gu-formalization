@@ -20,6 +20,25 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K77 STABILIZER BRIDGE AND K152 CONSUMER IDENTIFIABILITY.** The
+> published frozen rank-70 BFV orbit decomposes under its odd-axis
+> `so(3,4)` stabilizer as `21*1 + 7*7`, while the conditional realization of
+> the abstract corrected-observation trace lift as the full K77 spinor is
+> `16*8_spin`. This realization is tested, not source-selected. Exact B3
+> Casimir eigenvalues `0`, `6`, and `21/4`
+> are disjoint between source and target, so the equivariant Hom space is zero.
+> Reopen that representative-slice route only with a reduced gauge image,
+> different quotient differential, justified symmetry breaking, moving
+> background, proper BFV cohomology or another source-owned complement; carry
+> the actual Green pairing and common domain. Independently, the rational
+> families `R0=diag(0,1/n,1)` and `kappa=N` force the K270 energy budget and
+> allowable integral uncertainty respectively to zero infimum. Before more
+> enclosure work, instantiate a native form/Gram, positive gap or coercivity,
+> complete residual, finite map norm and decision margin. The two probes pass
+> `12/12` controls each and reject `15/15` hostile mutations each. These are
+> scoped obstructions, not a general quotient no-go, K152/K168/K270 failure,
+> source/ledger/canon/public move or physical GU verdict.
+
 > **2026-09-24 K413--K415 ORDER-TEN PROPER-FACE PROGRAM ARCHITECTURE.** K413
 > replays 49,544,352 determinant-matrix face uses across all 936 K411 faces and
 > 13,300 ordered descriptors, compiling 60 exact singular and 75 confluent

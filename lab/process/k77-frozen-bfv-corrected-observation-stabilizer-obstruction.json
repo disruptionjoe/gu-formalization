@@ -1,0 +1,115 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K77-FROZEN-BFV-CORRECTED-OBSERVATION-STABILIZER-OBSTRUCTION",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "Test whether the published rank-70 frozen K77 BFV orbit can supply the corrected observation trace-lift gauge image through an odd-axis so(3,4)-equivariant linear intertwiner.",
+  "typed_objects": {
+    "source": "tangent to the full so(7,7) gauge orbit at the published frozen distortion",
+    "source_dimension": 70,
+    "target": "the supplied corrected-observation trace lift im(j_B), identified only with the full K77 real spinor trace carrier S for this frozen representation test",
+    "target_dimension": 128,
+    "pairing": "none used; the selected Green pairing and common analytic domain remain open",
+    "real_structure": "published real Cl(7,7) spinor restricted to the odd-axis Spin(3,4) stabilizer",
+    "grading": "odd-axis stabilizer type: trivial/vector source summands versus spinor target summands",
+    "action_owner": "published frozen K77 full BFV action fixture"
+  },
+  "input_audit": {
+    "bfv_evidence": "lab/process/selected-k77-full-bfv-master-equation-gate.json",
+    "slice_evidence": "lab/process/corrected-observation-gauge-slice-green-compatibility.json",
+    "quotient_evidence": "lab/process/corrected-observation-quotient-slice-compatibility.json",
+    "green_dimension_evidence": "lab/process/selected-k77-coupled-green-domain.json",
+    "gauge_algebra": "so(7,7)",
+    "gauge_dimension": 91,
+    "stabilizer": "odd-axis so(3,4)",
+    "stabilizer_basis": "all 21 odd-odd bivectors",
+    "representative_selection_law": "P is constant on cosets of a gauge image G iff G is contained in im(j)",
+    "quotient_descent_is_distinct": true
+  },
+  "orbit_decomposition": {
+    "ambient_split": "R^(7,7)=E_even direct-sum O_odd with the stabilizer acting only on O_odd",
+    "lie_algebra_split": "Lambda^2(E_even) direct-sum (E_even tensor O_odd) direct-sum Lambda^2(O_odd)",
+    "stabilizer_summand": "Lambda^2(O_odd)=so(3,4)",
+    "stabilizer_dimension": 21,
+    "orbit_summands": "Lambda^2(E_even) direct-sum (E_even tensor O_odd)",
+    "trivial_copies": 21,
+    "trivial_dimension_each": 1,
+    "vector_copies": 7,
+    "vector_dimension_each": 7,
+    "orbit_dimension_replay": 70,
+    "ambient_dimension_replay": 91
+  },
+  "target_restriction": {
+    "full_real_spinor_dimension": 128,
+    "odd_axis_real_spinor_dimension": 8,
+    "odd_axis_spinor_copies": 16,
+    "decomposition": "16 copies of the irreducible real 8-spinor of Spin(3,4)",
+    "trace_lift_has_trivial_or_vector_summand": false
+  },
+  "casimir_certificate": {
+    "complexified_type": "B3=so(7,C)",
+    "normalization": "(lambda,lambda+2*rho) with long roots of squared length 2",
+    "rho": [
+      "5/2",
+      "3/2",
+      "1/2"
+    ],
+    "weights": {
+      "trivial": [
+        "0",
+        "0",
+        "0"
+      ],
+      "vector": [
+        "1",
+        "0",
+        "0"
+      ],
+      "spinor": [
+        "1/2",
+        "1/2",
+        "1/2"
+      ]
+    },
+    "eigenvalues": {
+      "trivial": "0",
+      "vector": "6",
+      "spinor": "21/4"
+    },
+    "source_target_spectra_disjoint": true,
+    "intertwiner_law": "an so(3,4)-equivariant map commutes with the quadratic Casimir"
+  },
+  "decision": {
+    "equivariant_hom_rank": 0,
+    "nonzero_full_orbit_to_trace_intertwiner_exists": false,
+    "full_frozen_orbit_can_equal_trace_lift_image_equivariantly": false,
+    "representative_slice_route": "obstructed for the full frozen rank-70 orbit under odd-axis so(3,4) equivariance",
+    "quotient_descent_route": "open; it may use a different target differential and parameter map u",
+    "green_compatible_route": "open; no Green-self-adjoint right inverse or common analytic domain is derived"
+  },
+  "retained_repairs": [
+    "use a smaller stabilizer-compatible constraint or reduced gauge image rather than the full frozen orbit",
+    "supply a different target differential and test quotient descent P*d_action=d_target*u",
+    "choose and justify a symmetry-broken or non-equivariant representative map",
+    "move off the frozen background and derive the actual differential representation",
+    "construct the proper reducible BFV/Koszul-Tate complex and physical cohomology",
+    "supply a source-owned complement or observation map on a different common carrier"
+  ],
+  "release_test": {
+    "gauge_dimension_is_91": true,
+    "stabilizer_dimension_is_21": true,
+    "orbit_dimension_is_70": true,
+    "orbit_decomposition_replays_70": true,
+    "ambient_decomposition_replays_91": true,
+    "full_spinor_dimension_is_128": true,
+    "target_multiplicity_replays_128": true,
+    "casimir_eigenvalues_are_0_6_21_over_4": true,
+    "source_target_casimirs_are_disjoint": true,
+    "quotient_and_slice_remain_distinct": true,
+    "no_green_domain_claim": true,
+    "no_source_ledger_canon_paper_public_or_physical_effect": true
+  },
+  "claim_ceiling": "Exact representation-theoretic obstruction for an odd-axis so(3,4)-equivariant linear map from the published full rank-70 frozen BFV orbit to the supplied full 128-spinor corrected-observation trace lift: the source is 21 trivial plus seven vector modules, the target is spinor-isotypic, and disjoint quadratic-Casimir spectra force Hom=0. This does not obstruct quotient descent with a different target differential, a reduced gauge image, a non-equivariant or symmetry-broken choice, a moving-background differential, proper BFV cohomology, a different source-owned complement, or any Green-domain construction. No source, ledger, canon, paper, public, novelty or physical GU verdict follows."
+}

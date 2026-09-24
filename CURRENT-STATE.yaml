@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 956c58378389
+revision_basis: 8248345a84f7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,35 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    The September 24 bridge/consumer priority now has two exact negative
+    results. On the published frozen K77 distortion, the rank-70 full BFV
+    orbit restricts under its odd-axis `so(3,4)` stabilizer as twenty-one
+    trivial modules plus seven copies of the seven-vector. The supplied full
+    128-spinor corrected-observation trace lift restricts as sixteen copies of
+    the real eight-spinor. Their exact B3 quadratic-Casimir spectra are
+    `{0,6}` and `{21/4}`, so every stabilizer-equivariant linear orbit-to-trace
+    intertwiner is zero. Here the abstract trace carrier is conditionally
+    realized as the full K77 spinor; that choice is tested, not source-selected.
+    This obstructs the full frozen orbit as the corrected representative-slice
+    image under that realization and equivariance; it does not obstruct
+    quotient descent with a different target differential, a reduced image,
+    symmetry breaking, a moving background, proper BFV cohomology or another
+    source-owned complement. The Green pairing and common domain remain open.
+
+    The actual K152/K270 consumer is independently non-identifiable from the
+    serialized inputs. With `G=I_3` and
+    `R0=diag(0,1/n,1)`, the exact exterior gap is `1/n` and the sharp budget at
+    `a=3,d=1` is `3/[2(3n+1)]`, which has infimum zero; K168's fixed
+    `diag(-2,1,1)` extension retains shape oscillation three but supplies no
+    base-gap floor. At fixed budget `3/5`, setting the integral-to-residual map
+    norm to `N` forces squared allowable uncertainty at most `3/(5N^2)`, also
+    with infimum zero. Thus the present inputs determine neither a positive
+    uniform energy budget nor a positive uniform integral tolerance, and
+    further enclosure refinement has no decision-defined target until a
+    native form/Gram, gap or coercivity, complete residual, map norm and margin
+    are supplied. This does not falsify K152, K168, K270 or any instantiated
+    consumer.
+
     The corrected observation seam now distinguishes two exact output types.
     A quotient-valued observation only needs projected action gauge shifts to
     remain target gauge shifts; in the August finite fixture `P d0=d0`, so the

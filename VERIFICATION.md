@@ -7,6 +7,43 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K77 stabilizer bridge and K152 consumer identifiability (2026-09-24)
+
+The frozen K77 full-BFV artifact supplies a rank-70 orbit with odd-axis
+`so(3,4)` stabilizer of dimension 21. The new exact decomposition replays
+
+```text
+so(7,7) = Lambda^2(E_even) + (E_even tensor O_odd) + Lambda^2(O_odd),
+orbit = 21 trivial + 7 copies of the 7-vector.
+```
+
+For this test the abstract trace carrier is conditionally realized as the full
+real K77 128-spinor; that choice is tested, not source-selected. It restricts
+to sixteen copies of the real eight-spinor. In B3 normalization
+`(lambda,lambda+2 rho)`, the
+trivial, vector and spinor Casimir eigenvalues are exactly `0`, `6`, and
+`21/4`. Equivariant maps commute with the Casimir, so the disjoint source and
+target spectra prove
+`Hom_so(3,4)(orbit,trace_lift)=0`. The producer/probe pass `12/12` controls and
+reject `15/15` hostile mutations. This is only a full-frozen-orbit,
+stabilizer-equivariant representative-slice obstruction. Quotient descent,
+reduced images, symmetry-broken maps, moving backgrounds, proper BFV
+cohomology, other complements and the Green/domain problem remain open.
+
+The K152 consumer result uses two exact rational families. For
+`G=I_3`, `R0=diag(0,1/n,1)`, `a=3` and `d=1`, the exterior gap is `1/n` and
+K270's sharp energy budget is `3/[2(3n+1)]`, positive at every finite `n` but
+with infimum zero. Adding K168's `diag(-2,1,1)` retains its shape oscillation
+three and does not create a base-gap floor. Holding `a=3,g=2,d=1` fixes the
+energy budget at `3/5`; with zero nominal/other residual and `kappa=N`, the
+allowable total integral uncertainty satisfies
+`u^2 <= 3/(5N^2)`, again with infimum zero. The independent producer/probe
+pass `12/12` controls and reject `15/15` hostile mutations. Hence the current
+serialized inputs identify no positive uniform budget or tolerance. K152,
+K168, K270 and every fully instantiated consumer retain their conditional
+validity; a native form/Gram, gap or coercivity, complete residual, map norm
+and decision margin are the next exact inputs.
+
 ## K413--K415 order-ten proper-face program architecture (2026-09-24)
 
 K413 compiles every determinant zero and coalescence pattern induced by the
