@@ -20,13 +20,29 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-23 K395--K397 ORDER-NINE PROJECTIVE EVALUATION INTERFACE.** K395
+> freezes exact maximum-chart masses and terminating zero/tie boundary routing
+> for K394's atlas: 14,540 unique oriented boundaries, 66,288 program-boundary
+> uses and 21,274,406 compactly represented nonempty lower strata. K396 runs
+> one non-equal 180-digit Arb direction at all fourteen reachable codimensions;
+> all controls retain 4,480 ordered descriptors and twenty coherent groups,
+> stay finite with positive argument floors and overlap the direct evaluator.
+> K397 gives all 758 charts strict positive-width pilot cells, maps all 4,320
+> program-chart uses and rigorously integrates one interval per codimension.
+> Its probe passes `9/9` controls and rejects `12/12` mutations; K395 and K396
+> likewise pass `9/9` and reject `10/10` and `12/12`. These are pilots, not a
+> complete chart cover. Next build one-sided zero-safe boundary majorants and
+> disjoint global face ownership before recursive interiors and analytic tails.
+> No action-column, `R_ref`, K152, source, ledger, canon, paper, public or
+> physical claim moves.
+
 > **2026-09-23 K394 ORDER-NINE NORMAL-PROJECTIVE ATLAS.** K394 compiles every
 > K390 zero mask into exact maximum-coordinate charts: 98 unique masks, 758
 > charts and 4,320 chart uses across all 695 face programs. Exact inverse,
 > canonical tie ownership and Jacobian controls pass at all fourteen reachable
 > codimensions. This is a coordinate cover, not evaluated positive-width
-> projective cells or a hybrid integral. Next freeze K395 chart masses and
-> boundary routing, then execute anisotropic controls and recursive coverage.
+> projective cells or a hybrid integral. K395--K397 now supply its exact
+> measure/routing contract, anisotropic controls and pilot-cell interface.
 > No action-column, `R_ref`, K152, source, ledger, canon, paper, public or
 > physical claim moves.
 

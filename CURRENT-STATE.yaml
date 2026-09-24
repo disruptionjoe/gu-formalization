@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 78bb1c4347b0
+revision_basis: 715368f12668
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -62,8 +62,17 @@ current_result:
     Distinct face rows overlap and use unit projective angular density. K394
     now supplies the missing exact coordinate cover: 98 unique zero masks,
     758 maximum-coordinate charts and 4,320 face-program chart uses, with exact
-    inverse and Jacobian controls at all fourteen reachable codimensions. Exact
-    angular measure/boundary routing, evaluated projective cells, recursive
+    inverse and Jacobian controls at all fourteen reachable codimensions. K395
+    freezes the exact chart masses and terminating zero/tie boundary recursion:
+    14,540 unique oriented boundaries, 66,288 program-boundary uses and
+    21,274,406 compactly represented nonempty lower strata. K396 executes one
+    non-equal rational projective direction at each reachable codimension with
+    positive argument floors, finite intervals and direct-evaluator overlap,
+    preserving all 4,480 ordered descriptors and twenty coherent groups. K397
+    gives all 758 charts strict positive-width ratio-cell pilots, maps all
+    4,320 program-chart uses and rigorously integrates one interval at each
+    codimension. The pilots are not a complete chart cover. One-sided zero-safe
+    projective boundary majorants, disjoint global ownership, recursive
     interiors, analytic tails and the complete order-nine integral remain open.
 
     The residual-vector P8 first gate independently enumerates all forty D5
@@ -10098,15 +10107,20 @@ next_condition: >-
   reachability atlas, and K387 as the accepted complete-coherent positive-
   interior and all-zero-ray control bank. Treat K388 as the accepted finite
   singular/confluent determinant-preconditioner bank, K389 as the accepted
-  complete local face-normal integrability atlas, and K390 as the accepted
-  executable proper-face approach-program compiler.
+  complete local face-normal integrability atlas, K390 as the accepted
+  executable proper-face approach-program compiler, K391--K393 as the accepted
+  complete-coherent approach controls, positive-width equal-normal face cells
+  and exact near-face strip integration, and K394--K397 as the accepted exact
+  maximum-chart atlas, angular-measure/boundary-routing contract, anisotropic
+  complete-evaluator control bank and positive-width projective-cell pilot
+  interface.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is complete coherent Arb approach control on the hardest K390
-  face program in every hybrid, followed by row/column-scaled positive-width
-  interval cells and one recursive zero-safe projective/positive-interior/tail
-  cover for all twenty K384 hybrids. Preserve all 256
+  next gate is a one-sided zero-safe projective boundary majorant joined to a
+  disjoint global face-neighborhood owner rule, followed by recursive positive-
+  interior coverage and analytic radial tails for all twenty K384 hybrids.
+  Preserve all 256
   paths, 20 groups,
   2,368 upper-triangle entries, 4,480 ordered terms, 58 kernel-zero masks,
   20+20 coalescence masks, the accepted rank-five gap-free calculus, and

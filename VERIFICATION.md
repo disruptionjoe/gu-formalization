@@ -7,6 +7,35 @@ updated_at: "2026-09-23"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K395--K397 order-nine projective evaluation interface (2026-09-23)
+
+K395 derives exact maximum-chart angular mass `1/c!`, whose `c` chart copies
+sum to the simplex mass `1/(c-1)!`, at all fourteen reachable codimensions.
+It compiles 14,540 unique oriented coordinate boundaries, 66,288
+program-boundary uses and 21,274,406 compactly represented nonempty lower
+strata. Exact zero/tie routing terminates. The independent probe passes `9/9`
+controls and rejects `10/10` hostile mutations.
+
+K396 executes one non-equal positive rational projective direction at every
+reachable codimension using 180-digit Arb. All fourteen controls preserve
+4,480 ordered descriptors and twenty coherent groups, have positive cumulative
+argument floors, remain finite and overlap the direct complete evaluator. Its
+independent probe passes `9/9` controls and rejects `12/12` mutations.
+
+K397 compiles one strict positive-width ratio-cell pilot in every one of
+K394's 758 maximum charts and maps all 4,320 program-chart uses. It rigorously
+executes one radial/projective interval at each reachable codimension, covering
+62,720 ordered descriptor-interval evaluations; every interval contains its
+direct midpoint control. Its independent probe passes `9/9` controls and
+rejects `12/12` mutations.
+
+These results establish an exact measure/routing contract and a rigorous
+positive-width pilot interface, not a complete chart cover. Measure-zero
+boundaries still require one-sided integrand-weighted majorants; disjoint
+global face ownership, recursive interiors, analytic tails, complete K384
+hybrids, the complete order-nine remainder/integral, action column, `R_ref`,
+K152 result and physical interpretation remain open.
+
 ## K394 order-nine normal-projective atlas (2026-09-23)
 
 K394 compiles exact maximum-coordinate charts for all 98 unique K390 zero
