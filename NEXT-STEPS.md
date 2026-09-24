@@ -20,6 +20,24 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K416--K417 REPAIR AND COMPLETION BOUNDARY.** K416 proves that
+> every full-stabilizer invariant subquotient and the full maximal-compact
+> restriction still have zero Hom into the tested full-spinor trace target.
+> The declared diagonal `SU(2)` does reopen a representation-level Hom space
+> of rank 1344, but neither that subgroup nor a map is source/action-selected.
+> Next derive any symmetry reduction from source/action data and test the
+> actual quotient differential, Green pairing and common domain. K417 matches
+> K170's q00 seed constraints inside one fixed sector and q10 separately, yet
+> exact completions retain positive gaps `1/n` with zero infimum and map norms
+> `N` with allowable uncertainty squared `3/(5N^2)`. K278 positivity supplies
+> no missing coupling. Next evaluate the coefficient-complete K156/K139 base
+> action on K170's dyadic trial family and serialize either exterior
+> coercivity or a finite action-column-to-residual map norm. The probes pass
+> `20/20` and `24/24` controls and reject `10/10` and `9/9` hostile mutations.
+> These are scoped representation/scalar-interface boundaries, not a native
+> operator, selected observation map, source/ledger/canon/public move, or
+> physical GU verdict.
+
 > **2026-09-24 K77 STABILIZER BRIDGE AND K152 CONSUMER IDENTIFIABILITY.** The
 > published frozen rank-70 BFV orbit decomposes under its odd-axis
 > `so(3,4)` stabilizer as `21*1 + 7*7`, while the conditional realization of

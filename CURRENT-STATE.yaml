@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8248345a84f7
+revision_basis: c97a125108b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,7 +35,32 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    The September 24 bridge/consumer priority now has two exact negative
+    K416 now closes two retained repairs and locates a third for the tested
+    K77 full-spinor trace realization. Complete reducibility implies that
+    every odd-axis `Spin(3,4)`-invariant subquotient of the frozen orbit has
+    only trivial or seven-vector factors, so its Hom space into the
+    spinor-isotypic target remains zero. Restriction to the maximal compact
+    `Spin(3)xSpin(4)` also leaves no common irreducible. Under the explicitly
+    declared diagonal `SU(2)` in all three compact factors, however, the
+    source becomes `28*1 + 14*3`, the target becomes `32*1 + 32*3`, and the
+    representation-level Hom rank is 1344. This is a repair boundary, not a
+    source/action-selected symmetry reduction or map; quotient descent and
+    the Green-compatible common domain remain open.
+
+    K417 matches K170's exact q00 seed Gram and dressed reference-shape
+    intervals inside one fixed q00 completion, while matching q10 separately
+    as a spectator. Strictly interior rational choices still admit q00 base-
+    form completions with combined generalized spectrum `diag(0,1/n,1)`, so
+    every finite completion has positive exterior gap `1/n` but the family
+    has zero infimum. The unserialized integral-to-residual map can likewise
+    have norm `N`, forcing squared allowable uncertainty `3/(5N^2)` at fixed
+    budget. K278's positive order-six scalar has no serialized coupling to
+    either quantity. Thus K170 and K278 do not change K152's identifiability
+    verdict. The next exact input is the coefficient-complete K156/K139 base
+    action on the same K170 dyadic trial family plus either exterior
+    coercivity or a finite action-column-to-residual map norm.
+
+    The September 24 bridge/consumer priority first established two exact negative
     results. On the published frozen K77 distortion, the rank-70 full BFV
     orbit restricts under its odd-axis `so(3,4)` stabilizer as twenty-one
     trivial modules plus seven copies of the seven-vector. The supplied full
@@ -10176,6 +10201,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K416 as the exact repair ladder for the tested K77 full-spinor trace
+  realization: neither a full-stabilizer invariant subquotient nor maximal-
+  compact restriction repairs the zero Hom, while the declared diagonal
+  SU(2) reopens a 1344-dimensional representation-level comparator space.
+  Do not select that subgroup or a map from this count. Derive any symmetry
+  reduction from source/action data and then test the actual quotient
+  differential, Green pairing and common domain. Treat K417 as the exact
+  scalar-interface completion obstruction matched to K170 and K278. Next
+  evaluate the coefficient-complete K156/K139 base action on K170's dyadic
+  trial family and serialize either exterior coercivity or a finite action-
+  column-to-residual map norm before emitting a native K152 interval.
   Treat K343 as the accepted higher-order transfer gate, K344--K345 as the
   accepted order-eight native node rule and complete coherent evaluator, and
   K346--K348 as the accepted ordered directional-jet and tensor Peano

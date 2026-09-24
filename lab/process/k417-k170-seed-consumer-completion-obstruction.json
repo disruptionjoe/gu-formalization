@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K417-K170-SEED-CONSUMER-COMPLETION-OBSTRUCTION",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "observed_to_native",
+  "target_claim": "Determine whether K170's native q00/q10 seed Gram and reference-shape bounds, together with K278 positivity, remove the K152 gap and map-norm completion freedom.",
+  "inputs": {
+    "native_seed_constraints": "lab/process/k170-direct-gram-reference-shape-slice-wave.json and its exact producer",
+    "positive_integral_scalar": "lab/process/k278-order-six-full-domain-gram-positivity.json",
+    "consumer": "lab/process/k270-k152-sharp-spectral-budget-certificate.json",
+    "predecessor": "lab/process/k152-consumer-gap-sensitivity-identifiability-obstruction.json"
+  },
+  "completion_theorem": {
+    "matched_constraints": [
+      "a strictly positive rational q00 Gram diagonal inside the exact K170 q00 interval, repeated only within one q00 completion sector",
+      "a q00 reference-shape generalized Rayleigh value inside the exact K170 q00 interval, with q10 matched separately as a spectator rather than mixed into the pencil",
+      "K168 form order -2M <= W_ref <= M",
+      "shape residual square no larger than K170's reported upper bounds"
+    ],
+    "free_unserialized_objects": [
+      "coefficient-complete base R0 form",
+      "M-orthogonal complement spectrum",
+      "integral-to-residual map"
+    ],
+    "gap_family": "Inside the fixed q00 sector, choose combined generalized spectrum diag(0,1/n,1) and define base R0 by subtracting the matched q00 shape form; every finite n has positive gap 1/n but the infimum is zero. The separately matched q10 spectator does not enter this pencil.",
+    "map_family": "Hold the K270 energy budget at 3/5 and scale the unserialized map norm by N; allowable integral uncertainty squared is 3/(5N^2) with zero infimum.",
+    "K278_role": "The complete order-six scalar is strictly positive, but no serialized theorem couples that scalar to the base R0 complement gap or the integral-to-residual map norm."
+  },
+  "decision": {
+    "positive_uniform_gap_identified": false,
+    "finite_uniform_map_norm_identified": false,
+    "positive_uniform_integral_tolerance_identified": false,
+    "native_seed_evidence_changes_predecessor_identifiability_verdict": false,
+    "next_exact_input": "Evaluate the coefficient-complete K156/K139 base action on the same K170 dyadic trial family and serialize either an exterior coercivity theorem or a finite action-column-to-residual map norm; seed Gram/shape evidence and integral positivity alone cannot replace either input."
+  },
+  "boundaries": {
+    "K278_positive_scalar_linked_to_gap_or_map_norm": false,
+    "native_K139_operator_completion_constructed": false,
+    "native_complete_residual_constructed": false,
+    "native_K152_interval_emitted": false,
+    "K152_K168_K270_or_K278_falsified": false,
+    "source_ledger_canon_paper_public_or_physical_effect": false
+  },
+  "claim_ceiling": "Exact rational identifiability obstruction matched to the scalar constraints actually serialized by K170: positive Gram entries, dressed reference-shape Rayleigh intervals, K168 form order and residual upper bounds admit base-form completions whose positive exterior gaps tend to zero, while the unserialized propagation map admits arbitrarily large norms. K278's strict positive scalar has no serialized coupling to either quantity. This is not a K139 operator construction, does not falsify K152/K168/K270/K278, emits no native interval and moves no source, ledger, canon, paper, public, novelty or physical GU verdict."
+}

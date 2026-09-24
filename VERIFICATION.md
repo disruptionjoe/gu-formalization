@@ -7,6 +7,35 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K416--K417 bridge repair and consumer completion boundary (2026-09-24)
+
+K416 strengthens the K77 frozen-orbit obstruction through every invariant
+subquotient of the tested source: finite-dimensional complete reducibility
+leaves only trivial and seven-vector factors, so none can map equivariantly
+to the spinor-isotypic tested target. At the maximal compact
+`Spin(3)xSpin(4)=SU(2)_A x SU(2)_B x SU(2)_C`, the source is
+`21*(1,1,1)+7*(3,1,1)+7*(1,2,2)` and the target is
+`16*(2,2,1)+16*(2,1,2)`, again with zero Hom. Restricting instead to the
+explicit diagonal `SU(2)` gives source `28*1+14*3`, target `32*1+32*3`, and
+Hom rank `28*32+14*32=1344`. The producer/probe pass `20/20` controls and
+reject `10/10` hostile mutations. This proves a representation-theoretic
+repair boundary only: the subgroup and map are not source/action-selected,
+and quotient descent, Green compatibility and a common domain remain open.
+
+K417 imports K170's exact q00/q10 Gram and dressed reference-shape intervals,
+chooses strict-interior rational q00 values, and matches q10 separately as a
+spectator. Within the fixed q00 sector, scalar-interface completions with
+combined generalized spectrum `diag(0,1/n,1)` satisfy every serialized seed
+constraint while their positive exterior gaps tend to zero; the base form
+absorbs the difference from the matched shape form. Independently, an
+unserialized map norm `N` forces squared allowable uncertainty
+`3/(5N^2)`. K278 supplies a positive scalar but no serialized theorem tying
+it to either the gap or map norm. The producer/probe pass `24/24` controls
+and reject `9/9` hostile mutations. This is an identifiability result at the
+serialized scalar interface, not a native K139 operator construction. It
+does not falsify K152/K168/K170/K270/K278 or move source, ledger, canon,
+paper, public posture, novelty, or a physical GU verdict.
+
 ## K77 stabilizer bridge and K152 consumer identifiability (2026-09-24)
 
 The frozen K77 full-BFV artifact supplies a rank-70 orbit with odd-axis

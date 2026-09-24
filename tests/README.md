@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K416--K417 repair and completion boundary
+
+- `channel-swings/k416_k77_stabilizer_symmetry_breaking_ladder.py` and its
+  probe extend the K77 obstruction through every full-stabilizer invariant
+  subquotient and the maximal compact, then locate the explicit diagonal
+  `SU(2)` repair boundary with representation-level Hom rank 1344.
+- `channel-swings/k417_k170_seed_consumer_completion_obstruction.py` and its
+  probe match K170's q00 seed constraints inside one fixed completion sector
+  and q10 separately, then construct exact gap-collapse and map-sensitivity
+  families unchanged by uncoupled K278 positivity.
+
 ## K77 stabilizer bridge and K152 consumer identifiability
 
 - `channel-swings/k77_frozen_bfv_corrected_observation_stabilizer_obstruction.py`

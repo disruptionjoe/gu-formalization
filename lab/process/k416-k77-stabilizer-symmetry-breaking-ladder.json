@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K416-K77-STABILIZER-SYMMETRY-BREAKING-LADDER",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "Determine whether the K77 full-orbit intertwiner obstruction is repaired by a smaller stabilizer-invariant image, maximal-compact restriction or one explicit diagonal symmetry breaking.",
+  "inputs": {
+    "predecessor": "lab/process/k77-frozen-bfv-corrected-observation-stabilizer-obstruction.json",
+    "source_orbit": "21*1 + 7*7 under odd-axis Spin(3,4)",
+    "tested_target": "16*8_spin under odd-axis Spin(3,4)",
+    "trace_realization": "full real K77 spinor; tested and not source-selected"
+  },
+  "full_stabilizer": {
+    "semisimplicity": "Finite-dimensional characteristic-zero Spin(3,4) modules are completely reducible after complexification.",
+    "subquotient_factors": ["trivial", "7-vector"],
+    "target_factors": ["8-spinor"],
+    "all_invariant_subquotient_Hom_rank": 0,
+    "decision": "A smaller Spin(3,4)-invariant constraint or gauge image does not repair the tested full-spinor target."
+  },
+  "maximal_compact": {
+    "group": "Spin(3)xSpin(4)=SU(2)_A x SU(2)_B x SU(2)_C",
+    "source": "21*(1,1,1) + 7*(3,1,1) + 7*(1,2,2)",
+    "target": "16*(2,2,1) + 16*(2,1,2)",
+    "common_irreducibles": [],
+    "Hom_rank": 0
+  },
+  "declared_diagonal_breaking": {
+    "group": "diagonal SU(2) in all three maximal-compact factors",
+    "source": "28*1 + 14*3",
+    "target": "32*1 + 32*3",
+    "Hom_rank": 1344,
+    "decision": "Representation-level maps reopen, but this subgroup and any map coefficient remain unselected."
+  },
+  "decision": {
+    "full_stabilizer_subquotient_repair": false,
+    "maximal_compact_repair": false,
+    "diagonal_representation_repair": true,
+    "diagonal_hom_rank": 1344,
+    "next_exact_input": "Derive a source/action-owned symmetry reduction no weaker than an overlap-producing subgroup, then test the actual quotient differential and Green-compatible map rather than choosing one from the 1344-dimensional comparator space."
+  },
+  "boundaries": {
+    "full_spinor_trace_realization_source_selected": false,
+    "action_owned_observation_map_constructed": false,
+    "quotient_descent_solved": false,
+    "green_domain_solved": false,
+    "moving_background_solved": false,
+    "source_ledger_canon_paper_public_or_physical_effect": false
+  },
+  "claim_ceiling": "Exact representation-theoretic repair boundary for the tested full-spinor trace realization. Every odd-axis Spin(3,4)-invariant subquotient of the frozen orbit and the full maximal-compact restriction still have zero equivariant Hom into the target. Under one explicitly declared diagonal SU(2), common trivial and adjoint factors reopen a 1344-dimensional representation-level Hom space. This does not select that symmetry breaking, construct an action-owned observation map, solve quotient descent or a Green domain, or move any source, ledger, canon, paper, public, novelty or physical GU verdict."
+}
