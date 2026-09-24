@@ -2,10 +2,45 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-23"
+updated_at: "2026-09-24"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K398--K400 order-nine zero-boundary majorant interface (2026-09-24)
+
+K398 proves exact one-sided and recursive ratio-zero strip angular-mass
+majorants at `epsilon=1/64` for all fourteen K394 codimensions. The depth-`s`
+unit-density upper is `epsilon^s`, and each union is bounded by both
+`(c-1)epsilon` and exact chart mass `1/c!`. Its independent probe passes `9/9`
+controls and rejects `10/10` hostile mutations. These are measure-only bounds,
+not integrand envelopes.
+
+K399 exhausts all 2,097,150 low-coordinate subsets across the twenty K386
+hybrids. The maximal reachable-mask plus canonical tie rule assigns every
+subset exactly one owner: 2,035,011 are face-owned and 62,139 are interior-
+owned. No unreachable face is invented, and `v9`/`v10` use only the interior
+owner. Its independent probe passes `9/9` controls and rejects `11/11` hostile
+mutations.
+
+K400 composes K374's gap-free rank-five confluence calculus, K375's global
+scaled primitive bank, and all 60 singular plus 75 confluent K388 templates.
+It emits 1,468 rank-compatible zero-inclusive scaled determinant-coefficient
+envelopes through active derivative order two. Every permutation retains its
+base singular exponent, confluent factorials precede enclosure, assignment
+duals replay, complete
+determinants are assembled before absolute bounds, and primitive demand reaches
+exactly order ten. K389/K390 retain ownership of the face-specific active-
+derivative singular powers, so K400 is not a raw determinant bound by itself.
+Its independent probe passes `10/10` controls and rejects `14/14` hostile
+mutations.
+
+These results close the measure, ownership and determinant-coefficient
+interfaces only. They do not yet compose all 695 K390 face programs into
+whole-radial majorants, integrate the K399 owner unions, cover the positive
+interior, prove analytic tails, emit a complete K384 hybrid or order-nine
+integral, or move the action column, `R_ref`, K152, source/ledger, canon, paper,
+public or physical posture.
 
 ## K395--K397 order-nine projective evaluation interface (2026-09-23)
 

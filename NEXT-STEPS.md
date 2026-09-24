@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-23"
+updated_at: "2026-09-24"
 ---
 
 # Next Steps For Contributors
@@ -20,6 +20,24 @@ updated_at: "2026-09-23"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K398--K400 ORDER-NINE ZERO-BOUNDARY MAJORANT INTERFACE.**
+> K398 proves exact one-sided and recursive zero-strip angular-mass majorants
+> at `epsilon=1/64` for all fourteen reachable codimensions. K399 exhausts all
+> 2,097,150 low-coordinate subsets in the twenty K386 hybrids and assigns each
+> one maximal reachable face-neighborhood owner or the interior owner:
+> 2,035,011 are face-owned, 62,139 are interior-owned, and `v9`/`v10` remain
+> interior-only. K400 composes all 60 K388 singular templates, 75 confluent
+> templates and K375 primitive orders zero through ten into 1,468 exact
+> rank-compatible zero-inclusive scaled determinant-coefficient envelopes
+> through derivative order two while retaining complete determinant
+> correlation; K389/K390 still own the face-specific derivative powers. Their
+> probes pass `9/9`, `9/9`, and `10/10` controls and reject `10/10`, `11/11`, and
+> `14/14` hostile mutations. Next compose K400 with every K390 face program
+> into whole-radial face majorants, then stitch those rows to K399's owner
+> unions and the recursive positive interior. No complete K384 hybrid,
+> order-nine integral, action-column, `R_ref`, K152, source, ledger, canon,
+> paper, public or physical claim moves.
+
 > **2026-09-23 K395--K397 ORDER-NINE PROJECTIVE EVALUATION INTERFACE.** K395
 > freezes exact maximum-chart masses and terminating zero/tie boundary routing
 > for K394's atlas: 14,540 unique oriented boundaries, 66,288 program-boundary
@@ -31,8 +49,9 @@ updated_at: "2026-09-23"
 > program-chart uses and rigorously integrates one interval per codimension.
 > Its probe passes `9/9` controls and rejects `12/12` mutations; K395 and K396
 > likewise pass `9/9` and reject `10/10` and `12/12`. These are pilots, not a
-> complete chart cover. Next build one-sided zero-safe boundary majorants and
-> disjoint global face ownership before recursive interiors and analytic tails.
+> complete chart cover. K398--K400 now supply the measure-only zero strips,
+> disjoint global ownership and zero-inclusive determinant constants; whole-
+> radial face-program composition, recursive interiors and tails remain next.
 > No action-column, `R_ref`, K152, source, ledger, canon, paper, public or
 > physical claim moves.
 

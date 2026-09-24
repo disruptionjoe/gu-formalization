@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 715368f12668
+revision_basis: 50dae2489bf0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -71,9 +71,20 @@ current_result:
     preserving all 4,480 ordered descriptors and twenty coherent groups. K397
     gives all 758 charts strict positive-width ratio-cell pilots, maps all
     4,320 program-chart uses and rigorously integrates one interval at each
-    codimension. The pilots are not a complete chart cover. One-sided zero-safe
-    projective boundary majorants, disjoint global ownership, recursive
-    interiors, analytic tails and the complete order-nine integral remain open.
+    codimension. The pilots are not a complete chart cover. K398 proves exact
+    one-sided and recursive zero-strip angular-mass majorants at
+    `epsilon=1/64` for all fourteen codimensions. K399 exhausts all 2,097,150
+    low-coordinate subsets across the twenty K386 hybrids and assigns each
+    exactly one maximal reachable face owner or the interior owner; 2,035,011
+    subsets are face-owned, 62,139 are interior-owned, and `v9`/`v10` remain
+    interior-only. K400 composes all 60 K388 singular templates, 75 confluent
+    templates and K375 primitive orders zero through ten into 1,468 exact
+    rank-compatible zero-inclusive scaled determinant-coefficient envelopes
+    through active derivative order two, retaining complete determinant
+    assembly and each permutation's base singular exponent. K389/K390 still
+    own the face-specific active-derivative powers. Whole-radial face-program
+    majorants, recursive positive-interior integration, analytic tails and the
+    complete order-nine integral remain open.
 
     The residual-vector P8 first gate independently enumerates all forty D5
     roots and recovers the compact Cartan trace form `16 I_5`. On the declared
@@ -10113,13 +10124,19 @@ next_condition: >-
   and exact near-face strip integration, and K394--K397 as the accepted exact
   maximum-chart atlas, angular-measure/boundary-routing contract, anisotropic
   complete-evaluator control bank and positive-width projective-cell pilot
-  interface.
+  interface. Treat K398 as the accepted exact measure-only one-sided and
+  recursive zero-strip majorant, K399 as the accepted exhaustive disjoint
+  global face-neighborhood owner rule, and K400 as the accepted rank-five
+  zero-inclusive singular/confluent scaled determinant-coefficient bank
+  through active derivative order two; face-specific active-derivative powers
+  remain owned by K389/K390.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
-  next gate is a one-sided zero-safe projective boundary majorant joined to a
-  disjoint global face-neighborhood owner rule, followed by recursive positive-
-  interior coverage and analytic radial tails for all twenty K384 hybrids.
+  next gate is to compose K400 with the old-position kernels and all 695 K390
+  face programs into finite whole-radial face majorants, charge each row once
+  on its K399 owner union, and then add recursive positive-interior coverage
+  and analytic radial tails for all twenty K384 hybrids.
   Preserve all 256
   paths, 20 groups,
   2,368 upper-triangle entries, 4,480 ordered terms, 58 kernel-zero masks,
@@ -10129,8 +10146,9 @@ next_condition: >-
   `(2*pi)^-11` normalization. The
   K372 interval is a finiteness enclosure, not a sign result or useful
   downstream numerical margin. Do not promote K351's reference cell or rays,
-  K360's point controls, K361's pilot cells, or K362's angular masses to a
-  global integrand norm, or reuse
+  K360's point controls, K361's pilot cells, K362's angular masses, K398's
+  angular masses, K399's ownership geometry, or K400's determinant constants
+  to a global integrand norm, or reuse
   K305/K299/K340/K334/K341
   order-seven group counts, weights, split atlas, cover or normalization as
   generic inputs, and do not promote the node value to a full integral. After

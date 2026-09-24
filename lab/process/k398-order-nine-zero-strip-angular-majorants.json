@@ -1,0 +1,946 @@
+{
+  "claim_ceiling": "Exact one-sided and recursive ratio-zero strip angular-mass majorants for every reachable K394 codimension at epsilon=1/64. The bounds use only the exact chart density and chart mass and vanish with their declared epsilon order. They do not bound the K388-preconditioned integrand, close zero-inclusive interval evaluation, supply a recursive interior cover, analytic tails, any complete K384 hybrid, the order-nine remainder/integral, action column, R_ref, K152 interval, source/ledger move, canon, paper, public or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "codimension_strip_bank": [
+    {
+      "chart_mass": "1/2",
+      "codimension": 2,
+      "one_coordinate_strip_mass_upper": "1/64",
+      "ratio_coordinates": 1,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/64",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/64"
+    },
+    {
+      "chart_mass": "1/6",
+      "codimension": 3,
+      "one_coordinate_strip_mass_upper": "1/64",
+      "ratio_coordinates": 2,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/64",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/4096",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/32"
+    },
+    {
+      "chart_mass": "1/24",
+      "codimension": 4,
+      "one_coordinate_strip_mass_upper": "1/64",
+      "ratio_coordinates": 3,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/64",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/4096",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/262144",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/24"
+    },
+    {
+      "chart_mass": "1/120",
+      "codimension": 5,
+      "one_coordinate_strip_mass_upper": "1/120",
+      "ratio_coordinates": 4,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/120",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/4096",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/262144",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/16777216",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/120"
+    },
+    {
+      "chart_mass": "1/720",
+      "codimension": 6,
+      "one_coordinate_strip_mass_upper": "1/720",
+      "ratio_coordinates": 5,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/720",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/4096",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/262144",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/16777216",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/1073741824",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/720"
+    },
+    {
+      "chart_mass": "1/5040",
+      "codimension": 7,
+      "one_coordinate_strip_mass_upper": "1/5040",
+      "ratio_coordinates": 6,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/5040",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/5040",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/262144",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/16777216",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/1073741824",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/68719476736",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/5040"
+    },
+    {
+      "chart_mass": "1/40320",
+      "codimension": 8,
+      "one_coordinate_strip_mass_upper": "1/40320",
+      "ratio_coordinates": 7,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/40320",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/40320",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/262144",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/16777216",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/1073741824",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/68719476736",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/4398046511104",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/40320"
+    },
+    {
+      "chart_mass": "1/362880",
+      "codimension": 9,
+      "one_coordinate_strip_mass_upper": "1/362880",
+      "ratio_coordinates": 8,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/362880",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/362880",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/362880",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/16777216",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/1073741824",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/68719476736",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/4398046511104",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        },
+        {
+          "angular_mass_upper": "1/281474976710656",
+          "unit_density_box_upper": "1/281474976710656",
+          "vanishing_order_in_epsilon": 8,
+          "zero_strip_depth": 8
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/362880"
+    },
+    {
+      "chart_mass": "1/3628800",
+      "codimension": 10,
+      "one_coordinate_strip_mass_upper": "1/3628800",
+      "ratio_coordinates": 9,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/3628800",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/3628800",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/3628800",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/16777216",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/1073741824",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/68719476736",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/4398046511104",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        },
+        {
+          "angular_mass_upper": "1/281474976710656",
+          "unit_density_box_upper": "1/281474976710656",
+          "vanishing_order_in_epsilon": 8,
+          "zero_strip_depth": 8
+        },
+        {
+          "angular_mass_upper": "1/18014398509481984",
+          "unit_density_box_upper": "1/18014398509481984",
+          "vanishing_order_in_epsilon": 9,
+          "zero_strip_depth": 9
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/3628800"
+    },
+    {
+      "chart_mass": "1/479001600",
+      "codimension": 12,
+      "one_coordinate_strip_mass_upper": "1/479001600",
+      "ratio_coordinates": 11,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/479001600",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/479001600",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/479001600",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/479001600",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/1073741824",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/68719476736",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/4398046511104",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        },
+        {
+          "angular_mass_upper": "1/281474976710656",
+          "unit_density_box_upper": "1/281474976710656",
+          "vanishing_order_in_epsilon": 8,
+          "zero_strip_depth": 8
+        },
+        {
+          "angular_mass_upper": "1/18014398509481984",
+          "unit_density_box_upper": "1/18014398509481984",
+          "vanishing_order_in_epsilon": 9,
+          "zero_strip_depth": 9
+        },
+        {
+          "angular_mass_upper": "1/1152921504606846976",
+          "unit_density_box_upper": "1/1152921504606846976",
+          "vanishing_order_in_epsilon": 10,
+          "zero_strip_depth": 10
+        },
+        {
+          "angular_mass_upper": "1/73786976294838206464",
+          "unit_density_box_upper": "1/73786976294838206464",
+          "vanishing_order_in_epsilon": 11,
+          "zero_strip_depth": 11
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/479001600"
+    },
+    {
+      "chart_mass": "1/87178291200",
+      "codimension": 14,
+      "one_coordinate_strip_mass_upper": "1/87178291200",
+      "ratio_coordinates": 13,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/87178291200",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/87178291200",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/87178291200",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/87178291200",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/87178291200",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/87178291200",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/4398046511104",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        },
+        {
+          "angular_mass_upper": "1/281474976710656",
+          "unit_density_box_upper": "1/281474976710656",
+          "vanishing_order_in_epsilon": 8,
+          "zero_strip_depth": 8
+        },
+        {
+          "angular_mass_upper": "1/18014398509481984",
+          "unit_density_box_upper": "1/18014398509481984",
+          "vanishing_order_in_epsilon": 9,
+          "zero_strip_depth": 9
+        },
+        {
+          "angular_mass_upper": "1/1152921504606846976",
+          "unit_density_box_upper": "1/1152921504606846976",
+          "vanishing_order_in_epsilon": 10,
+          "zero_strip_depth": 10
+        },
+        {
+          "angular_mass_upper": "1/73786976294838206464",
+          "unit_density_box_upper": "1/73786976294838206464",
+          "vanishing_order_in_epsilon": 11,
+          "zero_strip_depth": 11
+        },
+        {
+          "angular_mass_upper": "1/4722366482869645213696",
+          "unit_density_box_upper": "1/4722366482869645213696",
+          "vanishing_order_in_epsilon": 12,
+          "zero_strip_depth": 12
+        },
+        {
+          "angular_mass_upper": "1/302231454903657293676544",
+          "unit_density_box_upper": "1/302231454903657293676544",
+          "vanishing_order_in_epsilon": 13,
+          "zero_strip_depth": 13
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/87178291200"
+    },
+    {
+      "chart_mass": "1/20922789888000",
+      "codimension": 16,
+      "one_coordinate_strip_mass_upper": "1/20922789888000",
+      "ratio_coordinates": 15,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/20922789888000",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/20922789888000",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/20922789888000",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/20922789888000",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/20922789888000",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/20922789888000",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/20922789888000",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        },
+        {
+          "angular_mass_upper": "1/281474976710656",
+          "unit_density_box_upper": "1/281474976710656",
+          "vanishing_order_in_epsilon": 8,
+          "zero_strip_depth": 8
+        },
+        {
+          "angular_mass_upper": "1/18014398509481984",
+          "unit_density_box_upper": "1/18014398509481984",
+          "vanishing_order_in_epsilon": 9,
+          "zero_strip_depth": 9
+        },
+        {
+          "angular_mass_upper": "1/1152921504606846976",
+          "unit_density_box_upper": "1/1152921504606846976",
+          "vanishing_order_in_epsilon": 10,
+          "zero_strip_depth": 10
+        },
+        {
+          "angular_mass_upper": "1/73786976294838206464",
+          "unit_density_box_upper": "1/73786976294838206464",
+          "vanishing_order_in_epsilon": 11,
+          "zero_strip_depth": 11
+        },
+        {
+          "angular_mass_upper": "1/4722366482869645213696",
+          "unit_density_box_upper": "1/4722366482869645213696",
+          "vanishing_order_in_epsilon": 12,
+          "zero_strip_depth": 12
+        },
+        {
+          "angular_mass_upper": "1/302231454903657293676544",
+          "unit_density_box_upper": "1/302231454903657293676544",
+          "vanishing_order_in_epsilon": 13,
+          "zero_strip_depth": 13
+        },
+        {
+          "angular_mass_upper": "1/19342813113834066795298816",
+          "unit_density_box_upper": "1/19342813113834066795298816",
+          "vanishing_order_in_epsilon": 14,
+          "zero_strip_depth": 14
+        },
+        {
+          "angular_mass_upper": "1/1237940039285380274899124224",
+          "unit_density_box_upper": "1/1237940039285380274899124224",
+          "vanishing_order_in_epsilon": 15,
+          "zero_strip_depth": 15
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/20922789888000"
+    },
+    {
+      "chart_mass": "1/6402373705728000",
+      "codimension": 18,
+      "one_coordinate_strip_mass_upper": "1/6402373705728000",
+      "ratio_coordinates": 17,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        },
+        {
+          "angular_mass_upper": "1/6402373705728000",
+          "unit_density_box_upper": "1/281474976710656",
+          "vanishing_order_in_epsilon": 8,
+          "zero_strip_depth": 8
+        },
+        {
+          "angular_mass_upper": "1/18014398509481984",
+          "unit_density_box_upper": "1/18014398509481984",
+          "vanishing_order_in_epsilon": 9,
+          "zero_strip_depth": 9
+        },
+        {
+          "angular_mass_upper": "1/1152921504606846976",
+          "unit_density_box_upper": "1/1152921504606846976",
+          "vanishing_order_in_epsilon": 10,
+          "zero_strip_depth": 10
+        },
+        {
+          "angular_mass_upper": "1/73786976294838206464",
+          "unit_density_box_upper": "1/73786976294838206464",
+          "vanishing_order_in_epsilon": 11,
+          "zero_strip_depth": 11
+        },
+        {
+          "angular_mass_upper": "1/4722366482869645213696",
+          "unit_density_box_upper": "1/4722366482869645213696",
+          "vanishing_order_in_epsilon": 12,
+          "zero_strip_depth": 12
+        },
+        {
+          "angular_mass_upper": "1/302231454903657293676544",
+          "unit_density_box_upper": "1/302231454903657293676544",
+          "vanishing_order_in_epsilon": 13,
+          "zero_strip_depth": 13
+        },
+        {
+          "angular_mass_upper": "1/19342813113834066795298816",
+          "unit_density_box_upper": "1/19342813113834066795298816",
+          "vanishing_order_in_epsilon": 14,
+          "zero_strip_depth": 14
+        },
+        {
+          "angular_mass_upper": "1/1237940039285380274899124224",
+          "unit_density_box_upper": "1/1237940039285380274899124224",
+          "vanishing_order_in_epsilon": 15,
+          "zero_strip_depth": 15
+        },
+        {
+          "angular_mass_upper": "1/79228162514264337593543950336",
+          "unit_density_box_upper": "1/79228162514264337593543950336",
+          "vanishing_order_in_epsilon": 16,
+          "zero_strip_depth": 16
+        },
+        {
+          "angular_mass_upper": "1/5070602400912917605986812821504",
+          "unit_density_box_upper": "1/5070602400912917605986812821504",
+          "vanishing_order_in_epsilon": 17,
+          "zero_strip_depth": 17
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/6402373705728000"
+    },
+    {
+      "chart_mass": "1/2432902008176640000",
+      "codimension": 20,
+      "one_coordinate_strip_mass_upper": "1/2432902008176640000",
+      "ratio_coordinates": 19,
+      "recursive_intersection_majorants": [
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/64",
+          "vanishing_order_in_epsilon": 1,
+          "zero_strip_depth": 1
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/4096",
+          "vanishing_order_in_epsilon": 2,
+          "zero_strip_depth": 2
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/262144",
+          "vanishing_order_in_epsilon": 3,
+          "zero_strip_depth": 3
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/16777216",
+          "vanishing_order_in_epsilon": 4,
+          "zero_strip_depth": 4
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/1073741824",
+          "vanishing_order_in_epsilon": 5,
+          "zero_strip_depth": 5
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/68719476736",
+          "vanishing_order_in_epsilon": 6,
+          "zero_strip_depth": 6
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/4398046511104",
+          "vanishing_order_in_epsilon": 7,
+          "zero_strip_depth": 7
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/281474976710656",
+          "vanishing_order_in_epsilon": 8,
+          "zero_strip_depth": 8
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/18014398509481984",
+          "vanishing_order_in_epsilon": 9,
+          "zero_strip_depth": 9
+        },
+        {
+          "angular_mass_upper": "1/2432902008176640000",
+          "unit_density_box_upper": "1/1152921504606846976",
+          "vanishing_order_in_epsilon": 10,
+          "zero_strip_depth": 10
+        },
+        {
+          "angular_mass_upper": "1/73786976294838206464",
+          "unit_density_box_upper": "1/73786976294838206464",
+          "vanishing_order_in_epsilon": 11,
+          "zero_strip_depth": 11
+        },
+        {
+          "angular_mass_upper": "1/4722366482869645213696",
+          "unit_density_box_upper": "1/4722366482869645213696",
+          "vanishing_order_in_epsilon": 12,
+          "zero_strip_depth": 12
+        },
+        {
+          "angular_mass_upper": "1/302231454903657293676544",
+          "unit_density_box_upper": "1/302231454903657293676544",
+          "vanishing_order_in_epsilon": 13,
+          "zero_strip_depth": 13
+        },
+        {
+          "angular_mass_upper": "1/19342813113834066795298816",
+          "unit_density_box_upper": "1/19342813113834066795298816",
+          "vanishing_order_in_epsilon": 14,
+          "zero_strip_depth": 14
+        },
+        {
+          "angular_mass_upper": "1/1237940039285380274899124224",
+          "unit_density_box_upper": "1/1237940039285380274899124224",
+          "vanishing_order_in_epsilon": 15,
+          "zero_strip_depth": 15
+        },
+        {
+          "angular_mass_upper": "1/79228162514264337593543950336",
+          "unit_density_box_upper": "1/79228162514264337593543950336",
+          "vanishing_order_in_epsilon": 16,
+          "zero_strip_depth": 16
+        },
+        {
+          "angular_mass_upper": "1/5070602400912917605986812821504",
+          "unit_density_box_upper": "1/5070602400912917605986812821504",
+          "vanishing_order_in_epsilon": 17,
+          "zero_strip_depth": 17
+        },
+        {
+          "angular_mass_upper": "1/324518553658426726783156020576256",
+          "unit_density_box_upper": "1/324518553658426726783156020576256",
+          "vanishing_order_in_epsilon": 18,
+          "zero_strip_depth": 18
+        },
+        {
+          "angular_mass_upper": "1/20769187434139310514121985316880384",
+          "unit_density_box_upper": "1/20769187434139310514121985316880384",
+          "vanishing_order_in_epsilon": 19,
+          "zero_strip_depth": 19
+        }
+      ],
+      "union_bound_replays_zero_when_epsilon_is_zero": true,
+      "union_of_all_zero_strips_mass_upper": "1/2432902008176640000"
+    }
+  ],
+  "created": "2026-09-24",
+  "decision": {
+    "complete_hybrid_integrals_emitted": false,
+    "next_exact_input": "compose K374/K375/K388 scaling into determinant-preserving zero-inclusive envelopes and bind them to K399-owned strips",
+    "one_sided_zero_strip_angular_mass_majorants_complete": true,
+    "recursive_positive_interior_cover_complete": false,
+    "zero_inclusive_integrand_weighted_boundary_majorants_complete": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "codimension_rows": 14,
+    "epsilon": "1/64",
+    "predecessor_manifests": [
+      "lab/process/k394-order-nine-normal-projective-atlas.json",
+      "lab/process/k395-order-nine-projective-measure-and-boundary-routing.json",
+      "lab/process/k397-order-nine-positive-width-projective-cells.json"
+    ],
+    "program_chart_uses": 4320,
+    "reachable_codimensions": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      12,
+      14,
+      16,
+      18,
+      20
+    ],
+    "unique_maximum_charts": 758
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "majorant_contract": {
+    "all_zero_strip_union_bound": "min(1/c!,(c-1)*epsilon)",
+    "depth_s_intersection_unit_density_volume": "epsilon^s",
+    "every_fixed_depth_majorant_vanishes_as_epsilon_to_zero": true,
+    "majorants_control_angular_measure_only": true,
+    "majorants_do_not_bound_the_K388_preconditioned_integrand": true,
+    "one_sided_zero_strip": "0<=r_j<=epsilon",
+    "ratio_density": "(1+sum r)^(-c)<=1 on [0,1]^(c-1)",
+    "uniform_integrand_weighted_boundary_envelope_still_required": true
+  },
+  "release_test": {
+    "all_4320_program_chart_uses_in_scope": true,
+    "all_758_charts_in_scope": true,
+    "all_recursive_intersection_majorants_present": true,
+    "complete_order_nine_remainder_not_overclaimed": true,
+    "epsilon_is_one_over_64": true,
+    "exactly_14_codimension_rows": true,
+    "integrand_weighted_boundary_not_overclaimed": true,
+    "measure_only_scope_explicit": true,
+    "native_K152_interval_not_emitted": true
+  },
+  "result_id": "K398-ORDER-NINE-ZERO-STRIP-ANGULAR-MAJORANTS",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  },
+  "strip_summary": {
+    "all_14_reachable_codimensions_covered": true,
+    "all_majorants_nonnegative_and_no_larger_than_chart_mass": true,
+    "all_recursive_depths_present": true,
+    "all_recursive_orders_strictly_increase": true
+  }
+}
