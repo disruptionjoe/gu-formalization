@@ -20,6 +20,24 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K413--K415 ORDER-TEN PROPER-FACE PROGRAM ARCHITECTURE.** K413
+> replays 49,544,352 determinant-matrix face uses across all 936 K411 faces and
+> 13,300 ordered descriptors, compiling 60 exact singular and 75 confluent
+> rank-one-through-five templates with determinant-preserving assignment duals.
+> K414 replays all 12,448,800 descriptor-face second-derivative product rules;
+> every face is locally integrable, the global minimum normal power is zero,
+> and the all-zero `s1` face reproduces K410's degree nine. K415 compiles all
+> 936 executable approach programs, resolving all 49,544,352 determinant uses;
+> twenty hybrids have faces while `v10` and `v11` retain positive-interior
+> fallbacks. Their probes pass `11/11`, `10/10`, and `11/11` controls and reject
+> `12/12`, `11/11`, and `12/12` hostile mutations. Next execute complete
+> coherent preconditioned Arb controls on the hardest program in every hybrid,
+> then build positive-width face cells, a normal-projective cover, recursive
+> positive interiors and analytic tails. K413--K415 are exact program
+> architecture, not numerical face intervals or a complete order-ten integral,
+> and move no action, `R_ref`, K152, source, ledger, canon, paper, public or
+> physical claim.
+
 > **2026-09-24 K405--K410 ORDER-TEN NUMERICAL FOUNDATION.** A fresh comparison
 > found the typed action/observation and residual-vector alternatives still
 > blocked by missing action-owned form, quotient/domain and Green-pairing data,

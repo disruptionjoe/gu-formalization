@@ -7,6 +7,36 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K413--K415 order-ten proper-face program architecture (2026-09-24)
+
+K413 compiles every determinant zero and coalescence pattern induced by the
+936 K411 reachable proper faces. Across all 13,300 ordered descriptors it
+replays 49,544,352 determinant-matrix face uses and reduces them to 60 exact
+singular plus 75 confluent rank-one-through-five templates. Each singular
+template carries a primal assignment witness and equal-sum row/column dual;
+each confluent template carries repeated-node clusters, Vandermonde orders and
+divided-difference orders. Its independent rebuild passes `11/11` controls
+and rejects `12/12` hostile mutations.
+
+K414 replays the complete value/first/second singular product rule on all
+12,448,800 ordered descriptor-face pairs. Every face-normal exponent is
+locally integrable, the global minimum is zero, and the all-twenty-two-axis
+`s1` face reproduces K410's degree nine. Its probe passes `10/10` controls and
+rejects `11/11` hostile mutations.
+
+K415 compiles every face to a deterministic three-level approach program and
+resolves all 49,544,352 determinant-matrix program uses to K413 templates.
+Twenty hybrids have reachable faces; `v10` and `v11` retain positive-interior
+fallbacks. Its probe passes `11/11` controls and rejects `12/12` hostile
+mutations.
+
+These artifacts release a zero-safe, determinant-preserving evaluator
+schedule. They do not provide a preconditioned numerical face interval,
+normal-projective or recursive cover, analytic radial tail, complete Peano
+remainder or integral, sign, useful K152 margin, action-column value, `R_ref`,
+source/ledger movement, canon, paper, public posture, novelty or physical
+interpretation.
+
 ## K411--K412 order-ten hybrid reference controls (2026-09-24)
 
 K411 compiles the exact order-ten hybrid face atlas on all twenty-two native
