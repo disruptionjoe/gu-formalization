@@ -1,0 +1,447 @@
+{
+  "axis_incidence": [
+    {
+      "axis": "s1",
+      "determinant_matrices_touched": 10528,
+      "determinant_primitive_entry_hits": 30240,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 2772
+    },
+    {
+      "axis": "s2",
+      "determinant_matrices_touched": 23828,
+      "determinant_primitive_entry_hits": 67460,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 2772
+    },
+    {
+      "axis": "s3",
+      "determinant_matrices_touched": 30800,
+      "determinant_primitive_entry_hits": 97120,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 5404
+    },
+    {
+      "axis": "s4",
+      "determinant_matrices_touched": 38100,
+      "determinant_primitive_entry_hits": 134340,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 5404
+    },
+    {
+      "axis": "s5",
+      "determinant_matrices_touched": 42520,
+      "determinant_primitive_entry_hits": 164000,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 8036
+    },
+    {
+      "axis": "s6",
+      "determinant_matrices_touched": 46170,
+      "determinant_primitive_entry_hits": 201220,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 8036
+    },
+    {
+      "axis": "s7",
+      "determinant_matrices_touched": 48760,
+      "determinant_primitive_entry_hits": 230880,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 10668
+    },
+    {
+      "axis": "s8",
+      "determinant_matrices_touched": 50370,
+      "determinant_primitive_entry_hits": 268100,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 10668
+    },
+    {
+      "axis": "s9",
+      "determinant_matrices_touched": 51720,
+      "determinant_primitive_entry_hits": 297760,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 13300
+    },
+    {
+      "axis": "s10",
+      "determinant_matrices_touched": 52326,
+      "determinant_primitive_entry_hits": 334740,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 13300
+    },
+    {
+      "axis": "s11",
+      "determinant_matrices_touched": 52932,
+      "determinant_primitive_entry_hits": 371720,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 13300
+    },
+    {
+      "axis": "v1",
+      "determinant_matrices_touched": 10528,
+      "determinant_primitive_entry_hits": 30240,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 2772
+    },
+    {
+      "axis": "v2",
+      "determinant_matrices_touched": 23828,
+      "determinant_primitive_entry_hits": 67460,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 2772
+    },
+    {
+      "axis": "v3",
+      "determinant_matrices_touched": 30800,
+      "determinant_primitive_entry_hits": 97120,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 5404
+    },
+    {
+      "axis": "v4",
+      "determinant_matrices_touched": 38100,
+      "determinant_primitive_entry_hits": 134340,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 5404
+    },
+    {
+      "axis": "v5",
+      "determinant_matrices_touched": 42520,
+      "determinant_primitive_entry_hits": 164000,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 8036
+    },
+    {
+      "axis": "v6",
+      "determinant_matrices_touched": 46170,
+      "determinant_primitive_entry_hits": 201220,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 8036
+    },
+    {
+      "axis": "v7",
+      "determinant_matrices_touched": 48760,
+      "determinant_primitive_entry_hits": 230880,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 10668
+    },
+    {
+      "axis": "v8",
+      "determinant_matrices_touched": 50370,
+      "determinant_primitive_entry_hits": 268100,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 10668
+    },
+    {
+      "axis": "v9",
+      "determinant_matrices_touched": 51720,
+      "determinant_primitive_entry_hits": 297760,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 13300
+    },
+    {
+      "axis": "v10",
+      "determinant_matrices_touched": 52326,
+      "determinant_primitive_entry_hits": 334740,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 13300
+    },
+    {
+      "axis": "v11",
+      "determinant_matrices_touched": 52932,
+      "determinant_primitive_entry_hits": 371720,
+      "entries_touched": 13300,
+      "maximum_species_determinant_rank_touched": 5,
+      "old_position_kernel_hits": 13300
+    }
+  ],
+  "claim_ceiling": "Exact complete twenty-two-axis differentiation interface for all 480 order-ten paths, 28 coherent groups, 6,890 symmetric-node upper-triangle entries and all 13,300 ordered directional entries. Off-diagonal orientations remain separate, every primitive carries its native axis mask, and the accepted rank-five zero-safe bank is bound to future face evaluation. This emits no node jet bank, global derivative norm, Peano remainder, complete order-ten integral, action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "compiled_entry_interface": {
+    "descriptor_fields": [
+      "coherent group and contraction ids",
+      "exact coefficient product",
+      "two old-position cumulative-time masks",
+      "every species determinant row/column position",
+      "every determinant primitive-entry axis mask"
+    ],
+    "entry_count": 13300,
+    "sha256": "sha256:40d7648036117c87843798e0bd38ceb2adb63b349df0131157e8f4d55e6f78ac"
+  },
+  "created": "2026-09-24",
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K405_face_atlas_sha256": "sha256:908266e32ad7add6f84db4e3cc1388d4978fe324a59be4c77dcfc2ce4d86b312",
+    "K406_entry_interval_sha256": "sha256:5b22154218c7e08b8c37e5fb4ecb860320065a38a7465be2514273f0c34a94c5",
+    "coherent_groups": 28,
+    "maximum_species_determinant_rank": 5,
+    "native_axes": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5",
+      "v6",
+      "v7",
+      "v8",
+      "v9",
+      "v10",
+      "v11"
+    ],
+    "order": 10,
+    "ordered_directional_entries": 13300,
+    "paths": 480,
+    "predecessor_manifests": [
+      "lab/process/k405-order-ten-gauss-laguerre-face-atlas.json",
+      "lab/process/k406-order-ten-group-interval-evaluator.json"
+    ],
+    "upper_triangle_gram_entries_at_symmetric_node": 6890
+  },
+  "group_interface": [
+    {
+      "group_id": "order10:seed0:d=0|1+^1,1-^1,2+^4,2-^4",
+      "ordered_directional_entries": 625,
+      "path_count": 25,
+      "upper_triangle_entries_at_symmetric_node": 325
+    },
+    {
+      "group_id": "order10:seed0:d=0|1+^2,1-^2,2+^3,2-^3",
+      "ordered_directional_entries": 2500,
+      "path_count": 50,
+      "upper_triangle_entries_at_symmetric_node": 1275
+    },
+    {
+      "group_id": "order10:seed0:d=0|1+^3,1-^3,2+^2,2-^2",
+      "ordered_directional_entries": 2500,
+      "path_count": 50,
+      "upper_triangle_entries_at_symmetric_node": 1275
+    },
+    {
+      "group_id": "order10:seed0:d=0|1+^4,1-^4,2+^1,2-^1",
+      "ordered_directional_entries": 625,
+      "path_count": 25,
+      "upper_triangle_entries_at_symmetric_node": 325
+    },
+    {
+      "group_id": "order10:seed0:d=0|1+^5,1-^5",
+      "ordered_directional_entries": 25,
+      "path_count": 5,
+      "upper_triangle_entries_at_symmetric_node": 15
+    },
+    {
+      "group_id": "order10:seed0:d=0|2+^5,2-^5",
+      "ordered_directional_entries": 25,
+      "path_count": 5,
+      "upper_triangle_entries_at_symmetric_node": 15
+    },
+    {
+      "group_id": "order10:seed1:d=1|1+^1,1-^1,2+^4,2-^4",
+      "ordered_directional_entries": 81,
+      "path_count": 9,
+      "upper_triangle_entries_at_symmetric_node": 45
+    },
+    {
+      "group_id": "order10:seed1:d=1|1+^2,1-^2,2+^3,2-^3",
+      "ordered_directional_entries": 676,
+      "path_count": 26,
+      "upper_triangle_entries_at_symmetric_node": 351
+    },
+    {
+      "group_id": "order10:seed1:d=1|1+^3,1-^3,2+^2,2-^2",
+      "ordered_directional_entries": 1156,
+      "path_count": 34,
+      "upper_triangle_entries_at_symmetric_node": 595
+    },
+    {
+      "group_id": "order10:seed1:d=1|1+^4,1-^4,2+^1,2-^1",
+      "ordered_directional_entries": 441,
+      "path_count": 21,
+      "upper_triangle_entries_at_symmetric_node": 231
+    },
+    {
+      "group_id": "order10:seed1:d=1|1+^5,1-^5",
+      "ordered_directional_entries": 25,
+      "path_count": 5,
+      "upper_triangle_entries_at_symmetric_node": 15
+    },
+    {
+      "group_id": "order10:seed1:d=1|2+^5,2-^5",
+      "ordered_directional_entries": 1,
+      "path_count": 1,
+      "upper_triangle_entries_at_symmetric_node": 1
+    },
+    {
+      "group_id": "order10:seed1:d=2|1+^1,2+^4,2-^5",
+      "ordered_directional_entries": 16,
+      "path_count": 4,
+      "upper_triangle_entries_at_symmetric_node": 10
+    },
+    {
+      "group_id": "order10:seed1:d=2|1+^2,1-^1,2+^3,2-^4",
+      "ordered_directional_entries": 256,
+      "path_count": 16,
+      "upper_triangle_entries_at_symmetric_node": 136
+    },
+    {
+      "group_id": "order10:seed1:d=2|1+^3,1-^2,2+^2,2-^3",
+      "ordered_directional_entries": 576,
+      "path_count": 24,
+      "upper_triangle_entries_at_symmetric_node": 300
+    },
+    {
+      "group_id": "order10:seed1:d=2|1+^4,1-^3,2+^1,2-^2",
+      "ordered_directional_entries": 256,
+      "path_count": 16,
+      "upper_triangle_entries_at_symmetric_node": 136
+    },
+    {
+      "group_id": "order10:seed1:d=2|1+^5,1-^4,2-^1",
+      "ordered_directional_entries": 16,
+      "path_count": 4,
+      "upper_triangle_entries_at_symmetric_node": 10
+    },
+    {
+      "group_id": "order10:seed2:d=1|1+^1,1-^2,2+^4,2-^3",
+      "ordered_directional_entries": 256,
+      "path_count": 16,
+      "upper_triangle_entries_at_symmetric_node": 136
+    },
+    {
+      "group_id": "order10:seed2:d=1|1+^2,1-^3,2+^3,2-^2",
+      "ordered_directional_entries": 576,
+      "path_count": 24,
+      "upper_triangle_entries_at_symmetric_node": 300
+    },
+    {
+      "group_id": "order10:seed2:d=1|1+^3,1-^4,2+^2,2-^1",
+      "ordered_directional_entries": 256,
+      "path_count": 16,
+      "upper_triangle_entries_at_symmetric_node": 136
+    },
+    {
+      "group_id": "order10:seed2:d=1|1+^4,1-^5,2+^1",
+      "ordered_directional_entries": 16,
+      "path_count": 4,
+      "upper_triangle_entries_at_symmetric_node": 10
+    },
+    {
+      "group_id": "order10:seed2:d=1|1-^1,2+^5,2-^4",
+      "ordered_directional_entries": 16,
+      "path_count": 4,
+      "upper_triangle_entries_at_symmetric_node": 10
+    },
+    {
+      "group_id": "order10:seed2:d=2|1+^1,1-^1,2+^4,2-^4",
+      "ordered_directional_entries": 441,
+      "path_count": 21,
+      "upper_triangle_entries_at_symmetric_node": 231
+    },
+    {
+      "group_id": "order10:seed2:d=2|1+^2,1-^2,2+^3,2-^3",
+      "ordered_directional_entries": 1156,
+      "path_count": 34,
+      "upper_triangle_entries_at_symmetric_node": 595
+    },
+    {
+      "group_id": "order10:seed2:d=2|1+^3,1-^3,2+^2,2-^2",
+      "ordered_directional_entries": 676,
+      "path_count": 26,
+      "upper_triangle_entries_at_symmetric_node": 351
+    },
+    {
+      "group_id": "order10:seed2:d=2|1+^4,1-^4,2+^1,2-^1",
+      "ordered_directional_entries": 81,
+      "path_count": 9,
+      "upper_triangle_entries_at_symmetric_node": 45
+    },
+    {
+      "group_id": "order10:seed2:d=2|1+^5,1-^5",
+      "ordered_directional_entries": 1,
+      "path_count": 1,
+      "upper_triangle_entries_at_symmetric_node": 1
+    },
+    {
+      "group_id": "order10:seed2:d=2|2+^5,2-^5",
+      "ordered_directional_entries": 25,
+      "path_count": 5,
+      "upper_triangle_entries_at_symmetric_node": 15
+    }
+  ],
+  "jet_algebra": {
+    "K375_rank_five_global_bank_consumed_for_future_faces": true,
+    "complete_group_quadratic_forms_differentiated_before_enclosure": true,
+    "determinants_differentiated_before_group_enclosure": true,
+    "first_derivative": "F'(x)=-(K0(x)+K2(x))",
+    "maximum_bessel_order_required_at_positive_node": 3,
+    "maximum_zero_safe_scaled_primitive_order_available": 10,
+    "occurrencewise_absolute_value_used": false,
+    "off_diagonal_group_entries_kept_in_both_ordered_orientations": true,
+    "primitive_kernel": "F(x)=2*K1(x)",
+    "raw_zero_bessel_evaluation_used": false,
+    "second_derivative": "F''(x)=(3*K1(x)+K3(x))/2",
+    "truncated_series_convention": "[F, dF, d2F/2] in one native raw-time axis",
+    "upper_triangle_doubling_used_for_directional_jets": false
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "next_exact_input": "evaluate the complete compiled group jets on all twenty-two axes, then bind their global second derivatives to K405's positive Peano kernels using K374/K375 on a zero-safe whole-orthant cover",
+  "release_test": {
+    "all_13300_ordered_directional_entries_compiled": true,
+    "all_22_native_axes_compiled": true,
+    "all_28_groups_replayed": true,
+    "all_480_paths_replayed": true,
+    "all_6890_symmetric_node_entries_replayed": true,
+    "complete_order_ten_remainder_emitted": false,
+    "every_axis_touches_an_entry": true,
+    "global_second_derivative_integrals_computed": false,
+    "maximum_rank_remains_five": true
+  },
+  "result_id": "K407-ORDER-TEN-AXIS-JET-COMPILER",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

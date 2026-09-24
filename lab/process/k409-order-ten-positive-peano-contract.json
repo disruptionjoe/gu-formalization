@@ -1,0 +1,337 @@
+{
+  "claim_ceiling": "Exact positive Peano-kernel and tensor-telescoping contract for the native twenty-two-axis order-ten rule. It identifies the twenty-two complete coherent pure-second hybrid integrals, their exact node/integration ordering and kernel mass 1/33554432, and forbids substituting K408's local node jets for global bounds. It emits no numerical remainder, complete order-ten integral, action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "created": "2026-09-24",
+  "decision": {
+    "complete_order_ten_integral_emitted": false,
+    "complete_twenty_two_axis_remainder_formula_emitted": true,
+    "complete_twenty_two_axis_remainder_numerically_bounded": false,
+    "next_required_object": "zero-safe whole-orthant determinant-preserving interval atlas for the twenty-two K407 pure-second coherent functionals",
+    "rank_five_order_ten_global_cover_released": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K405_face_atlas_sha256": "sha256:908266e32ad7add6f84db4e3cc1388d4978fe324a59be4c77dcfc2ce4d86b312",
+    "K407_compiled_entry_interface_sha256": "sha256:40d7648036117c87843798e0bd38ceb2adb63b349df0131157e8f4d55e6f78ac",
+    "axis_node": "1/256",
+    "axis_weight": "1/256",
+    "native_axes": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5",
+      "v6",
+      "v7",
+      "v8",
+      "v9",
+      "v10",
+      "v11"
+    ],
+    "predecessor_manifests": [
+      "lab/process/k405-order-ten-gauss-laguerre-face-atlas.json",
+      "lab/process/k407-order-ten-axis-jet-compiler.json",
+      "lab/process/k408-order-ten-node-directional-jet-bank.json"
+    ],
+    "product_weight": "1/95780971304118053647396689196894323976171195136475136"
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "one_axis_identity": {
+    "kernel_0_le_t_le_1_over_256": "(exp(-256*t)-1+256*t)/256^2",
+    "kernel_continuous_at_node": true,
+    "kernel_mass": "1/33554432",
+    "kernel_mass_check": "I(x^2/2)-Q(x^2/2)=1/(2*256^3)",
+    "kernel_nonnegative": true,
+    "kernel_t_ge_1_over_256": "exp(-256*t)/256^2",
+    "kernel_zero_order_at_origin": 2,
+    "measure": "exp(-256*x) dx on [0,infinity)",
+    "rule": "I(h)=h(1/256)/256 + integral_0^infinity K_256(t) h''(t) dt"
+  },
+  "release_test": {
+    "all_22_axis_contracts_present": true,
+    "complete_order_ten_integral_not_overclaimed": true,
+    "node_controls_not_promoted": true,
+    "only_pure_second_derivatives_required": true,
+    "positive_kernel_mass_exact": true,
+    "preceding_and_following_counts_partition_21": true
+  },
+  "result_id": "K409-ORDER-TEN-POSITIVE-PEANO-CONTRACT",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  },
+  "tensor_telescoping": {
+    "absolute_remainder_bound_requires": "one zero-safe whole-domain integral of each listed complete coherent pure-second functional",
+    "axis_contracts": [
+      {
+        "axis": "s1",
+        "following_axes_integrated_exactly": 21,
+        "hybrid_global_integrand": "abs(partial_s1^2 H) with 0 preceding raw times at 1/256, s1=t against K_256(t), and 21 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "-4.400344686782057e+19",
+        "local_node_second_derivative_upper_control": "-4.400344686782055e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 0,
+        "preceding_node_weight": "1"
+      },
+      {
+        "axis": "s2",
+        "following_axes_integrated_exactly": 20,
+        "hybrid_global_integrand": "abs(partial_s2^2 H) with 1 preceding raw times at 1/256, s2=t against K_256(t), and 20 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "2.4417174130526257e+19",
+        "local_node_second_derivative_upper_control": "2.4417174130526265e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 1,
+        "preceding_node_weight": "1/256"
+      },
+      {
+        "axis": "s3",
+        "following_axes_integrated_exactly": 19,
+        "hybrid_global_integrand": "abs(partial_s3^2 H) with 2 preceding raw times at 1/256, s3=t against K_256(t), and 19 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "3.998624663055196e+19",
+        "local_node_second_derivative_upper_control": "3.998624663055198e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 2,
+        "preceding_node_weight": "1/65536"
+      },
+      {
+        "axis": "s4",
+        "following_axes_integrated_exactly": 18,
+        "hybrid_global_integrand": "abs(partial_s4^2 H) with 3 preceding raw times at 1/256, s4=t against K_256(t), and 18 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "2.5199033794539048e+20",
+        "local_node_second_derivative_upper_control": "2.5199033794539055e+20",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 3,
+        "preceding_node_weight": "1/16777216"
+      },
+      {
+        "axis": "s5",
+        "following_axes_integrated_exactly": 17,
+        "hybrid_global_integrand": "abs(partial_s5^2 H) with 4 preceding raw times at 1/256, s5=t against K_256(t), and 17 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "-1.5236918991631214e+20",
+        "local_node_second_derivative_upper_control": "-1.5236918991631208e+20",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 4,
+        "preceding_node_weight": "1/4294967296"
+      },
+      {
+        "axis": "s6",
+        "following_axes_integrated_exactly": 16,
+        "hybrid_global_integrand": "abs(partial_s6^2 H) with 5 preceding raw times at 1/256, s6=t against K_256(t), and 16 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "-2.5377560871182746e+20",
+        "local_node_second_derivative_upper_control": "-2.537756087118274e+20",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 5,
+        "preceding_node_weight": "1/1099511627776"
+      },
+      {
+        "axis": "s7",
+        "following_axes_integrated_exactly": 15,
+        "hybrid_global_integrand": "abs(partial_s7^2 H) with 6 preceding raw times at 1/256, s7=t against K_256(t), and 15 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "5.853717840341573e+19",
+        "local_node_second_derivative_upper_control": "5.8537178403415745e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 6,
+        "preceding_node_weight": "1/281474976710656"
+      },
+      {
+        "axis": "s8",
+        "following_axes_integrated_exactly": 14,
+        "hybrid_global_integrand": "abs(partial_s8^2 H) with 7 preceding raw times at 1/256, s8=t against K_256(t), and 14 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "1.0110374821636158e+21",
+        "local_node_second_derivative_upper_control": "1.0110374821636161e+21",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 7,
+        "preceding_node_weight": "1/72057594037927936"
+      },
+      {
+        "axis": "s9",
+        "following_axes_integrated_exactly": 13,
+        "hybrid_global_integrand": "abs(partial_s9^2 H) with 8 preceding raw times at 1/256, s9=t against K_256(t), and 13 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "4.067891853571773e+21",
+        "local_node_second_derivative_upper_control": "4.067891853571774e+21",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 8,
+        "preceding_node_weight": "1/18446744073709551616"
+      },
+      {
+        "axis": "s10",
+        "following_axes_integrated_exactly": 12,
+        "hybrid_global_integrand": "abs(partial_s10^2 H) with 9 preceding raw times at 1/256, s10=t against K_256(t), and 12 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "9.99200640561096e+21",
+        "local_node_second_derivative_upper_control": "9.992006405610965e+21",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 9,
+        "preceding_node_weight": "1/4722366482869645213696"
+      },
+      {
+        "axis": "s11",
+        "following_axes_integrated_exactly": 11,
+        "hybrid_global_integrand": "abs(partial_s11^2 H) with 10 preceding raw times at 1/256, s11=t against K_256(t), and 11 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "1.4986884782815963e+22",
+        "local_node_second_derivative_upper_control": "1.4986884782815967e+22",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 10,
+        "preceding_node_weight": "1/1208925819614629174706176"
+      },
+      {
+        "axis": "v1",
+        "following_axes_integrated_exactly": 10,
+        "hybrid_global_integrand": "abs(partial_v1^2 H) with 11 preceding raw times at 1/256, v1=t against K_256(t), and 10 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "-4.400344686782057e+19",
+        "local_node_second_derivative_upper_control": "-4.400344686782055e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 11,
+        "preceding_node_weight": "1/309485009821345068724781056"
+      },
+      {
+        "axis": "v2",
+        "following_axes_integrated_exactly": 9,
+        "hybrid_global_integrand": "abs(partial_v2^2 H) with 12 preceding raw times at 1/256, v2=t against K_256(t), and 9 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "2.4417174130526257e+19",
+        "local_node_second_derivative_upper_control": "2.4417174130526265e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 12,
+        "preceding_node_weight": "1/79228162514264337593543950336"
+      },
+      {
+        "axis": "v3",
+        "following_axes_integrated_exactly": 8,
+        "hybrid_global_integrand": "abs(partial_v3^2 H) with 13 preceding raw times at 1/256, v3=t against K_256(t), and 8 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "3.998624663055196e+19",
+        "local_node_second_derivative_upper_control": "3.998624663055198e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 13,
+        "preceding_node_weight": "1/20282409603651670423947251286016"
+      },
+      {
+        "axis": "v4",
+        "following_axes_integrated_exactly": 7,
+        "hybrid_global_integrand": "abs(partial_v4^2 H) with 14 preceding raw times at 1/256, v4=t against K_256(t), and 7 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "2.5199033794539048e+20",
+        "local_node_second_derivative_upper_control": "2.5199033794539055e+20",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 14,
+        "preceding_node_weight": "1/5192296858534827628530496329220096"
+      },
+      {
+        "axis": "v5",
+        "following_axes_integrated_exactly": 6,
+        "hybrid_global_integrand": "abs(partial_v5^2 H) with 15 preceding raw times at 1/256, v5=t against K_256(t), and 6 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "-1.5236918991631214e+20",
+        "local_node_second_derivative_upper_control": "-1.5236918991631208e+20",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 15,
+        "preceding_node_weight": "1/1329227995784915872903807060280344576"
+      },
+      {
+        "axis": "v6",
+        "following_axes_integrated_exactly": 5,
+        "hybrid_global_integrand": "abs(partial_v6^2 H) with 16 preceding raw times at 1/256, v6=t against K_256(t), and 5 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "-2.5377560871182746e+20",
+        "local_node_second_derivative_upper_control": "-2.537756087118274e+20",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 16,
+        "preceding_node_weight": "1/340282366920938463463374607431768211456"
+      },
+      {
+        "axis": "v7",
+        "following_axes_integrated_exactly": 4,
+        "hybrid_global_integrand": "abs(partial_v7^2 H) with 17 preceding raw times at 1/256, v7=t against K_256(t), and 4 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "5.853717840341573e+19",
+        "local_node_second_derivative_upper_control": "5.8537178403415745e+19",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 17,
+        "preceding_node_weight": "1/87112285931760246646623899502532662132736"
+      },
+      {
+        "axis": "v8",
+        "following_axes_integrated_exactly": 3,
+        "hybrid_global_integrand": "abs(partial_v8^2 H) with 18 preceding raw times at 1/256, v8=t against K_256(t), and 3 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "1.0110374821636158e+21",
+        "local_node_second_derivative_upper_control": "1.0110374821636161e+21",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 18,
+        "preceding_node_weight": "1/22300745198530623141535718272648361505980416"
+      },
+      {
+        "axis": "v9",
+        "following_axes_integrated_exactly": 2,
+        "hybrid_global_integrand": "abs(partial_v9^2 H) with 19 preceding raw times at 1/256, v9=t against K_256(t), and 2 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "4.067891853571773e+21",
+        "local_node_second_derivative_upper_control": "4.067891853571774e+21",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 19,
+        "preceding_node_weight": "1/5708990770823839524233143877797980545530986496"
+      },
+      {
+        "axis": "v10",
+        "following_axes_integrated_exactly": 1,
+        "hybrid_global_integrand": "abs(partial_v10^2 H) with 20 preceding raw times at 1/256, v10=t against K_256(t), and 1 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "9.99200640561096e+21",
+        "local_node_second_derivative_upper_control": "9.992006405610965e+21",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 20,
+        "preceding_node_weight": "1/1461501637330902918203684832716283019655932542976"
+      },
+      {
+        "axis": "v11",
+        "following_axes_integrated_exactly": 0,
+        "hybrid_global_integrand": "abs(partial_v11^2 H) with 21 preceding raw times at 1/256, v11=t against K_256(t), and 0 following raw times under exp(-256*x) dx",
+        "local_control_is_not_a_global_bound": true,
+        "local_node_second_derivative_lower_control": "1.4986884782815963e+22",
+        "local_node_second_derivative_upper_control": "1.4986884782815967e+22",
+        "peano_kernel_mass": "1/33554432",
+        "preceding_axes_fixed_at_node": 21,
+        "preceding_node_weight": "1/374144419156711147060143317175368453031918731001856"
+      }
+    ],
+    "global_entrywise_supremum_before_group_assembly_forbidden": true,
+    "identity": "I^22-Q^22=sum_{a=1}^{22} Q^{a-1} tensor (I-Q)_a tensor I^{22-a}",
+    "mixed_derivatives_required": false,
+    "node_jet_substitution_for_global_integral_forbidden": true,
+    "pure_second_directional_terms": 22
+  }
+}

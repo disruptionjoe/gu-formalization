@@ -1,0 +1,170 @@
+{
+  "all_zero_radial_ledger": {
+    "K279_order_ten_small_rho_power_replayed": true,
+    "active_peano_zero_gain": 2,
+    "complete_second_derivative_degree": -14,
+    "final_radial_degree": 9,
+    "gram_raw_kernel_degree": -12,
+    "origin_integrable": true,
+    "scope": "the all-twenty-two-axis origin of the first K409 hybrid; later hybrids have fixed positive preceding nodes and require the a successor partial-face ledger",
+    "twenty_two_axis_radial_jacobian_degree": 21,
+    "two_active_derivatives_degree_cost": -2
+  },
+  "claim_ceiling": "Exact rational zero-inclusive envelopes for the value, first and second derivatives of 2*K1, a global K_256(t)<=t^2/2 Peano majorant, and the complete degree-nine all-zero radial integrability ledger for the first order-ten hybrid. Partial coalescence-face preconditioners, recursive whole-domain coverage, all twenty-two numerical hybrid integrals, the complete order-ten remainder and integral, action column, R_ref, K152 interval, source/ledger move, canon, paper, public and physical posture remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-24",
+  "decision": {
+    "all_zero_origin_integrability_closed": true,
+    "complete_hybrid_integrals_emitted": false,
+    "global_quadratic_peano_majorant_emitted": true,
+    "next_exact_input": "compile the exact K405 zero and coalescence masks reachable in every K409 hybrid domain, then exercise the complete coherent derivative evaluator away from those faces",
+    "partial_face_preconditioners_emitted": false,
+    "zero_safe_scaled_derivative_bank_emitted": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "maximum_active_axis_derivative_order": 2,
+    "order": 10,
+    "predecessor_manifests": [
+      "lab/process/k279-higher-order-andreief-structural-closure.json",
+      "lab/process/k405-order-ten-gauss-laguerre-face-atlas.json",
+      "lab/process/k409-order-ten-positive-peano-contract.json"
+    ],
+    "raw_kernel_factors_per_gram_entry": 12,
+    "raw_time_axes": 22,
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "peano_majorant": {
+    "controls": [
+      {
+        "contained": true,
+        "kernel_interval": "[2.919102193413980285203284640968451728333878401858248915851840291657596195012389054757660172255468225059306917506427511523368512478563832190083526328249902194688594829259871641449e-8 +/- 2.66e-186]",
+        "quadratic_upper": "1/33554432",
+        "t": "1/4096"
+      },
+      {
+        "contained": true,
+        "kernel_interval": "[1.62552886524404027715758567796601033694333092479228142826678709007349425374982336423717668926985864298132003469908943445644848763371195271821868626323970679790620798518139558826471e-6 +/- 4.43e-186]",
+        "quadratic_upper": "1/524288",
+        "t": "1/512"
+      },
+      {
+        "contained": true,
+        "kernel_interval": "[5.61339479326541628411138565309846294320390519762829337322749026027620690528716740962443961099120550150493355219793693860240136402572828687479634993734891941974173534206143364026854e-6 +/- 2.52e-186]",
+        "quadratic_upper": "1/131072",
+        "t": "1/256"
+      },
+      {
+        "contained": true,
+        "kernel_interval": "[2.06505253962116534262084190326666875316820596175500307416013904806630514681225112819058414444972303398250255111135180988234477038410725461057884422297219857164383281797306186378232e-6 +/- 4.87e-186]",
+        "quadratic_upper": "1/32768",
+        "t": "1/128"
+      },
+      {
+        "contained": true,
+        "kernel_interval": "[1.71715049315275748464622770782664782162385254909750827907943922624339362137500966367911081109937773865961598430928787195906750061643990378607766709340851429286249852101287413716087e-12 +/- 4.34e-193]",
+        "quadratic_upper": "1/512",
+        "t": "1/16"
+      }
+    ],
+    "global_bound": "0<=K_256(t)<=t^2/2 for all t>=0",
+    "join": "t=1/256",
+    "lower_piece_proof": "exp(-x)-1+x<=x^2/2 with x=256*t",
+    "upper_piece_proof": "2*exp(-x)<=x^2 for x>=1"
+  },
+  "release_test": {
+    "all_positive_controls_contained": true,
+    "complete_order_ten_remainder_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "orders_zero_through_two_covered": true,
+    "peano_quadratic_controls_contained": true,
+    "radial_degree_nine_replayed": true,
+    "raw_zero_evaluation_not_used": true,
+    "zero_limits_2_2_4": true
+  },
+  "result_id": "K410-ORDER-TEN-ZERO-SAFE-RADIAL-CONTRACT",
+  "scaled_bessel_bank": {
+    "all_bounds_exact_rational": true,
+    "continuous_zero_limits": [
+      "2",
+      "2",
+      "4"
+    ],
+    "definition": "Phi_m(w)=w^(m+1)*abs((2*K1)^(m)(w))",
+    "derivative_recurrence": "abs((2*K1)^(m)(w)) <= 2^(1-m)*sum_k binom(m,k) K_|1-m+2k|(w)",
+    "positive_order_rule": "w^nu*K_nu(w) decreases from 2^(nu-1)*(nu-1)! for integer nu>0",
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "rows": [
+      {
+        "Phi_abs_uppers": [
+          "2",
+          "129/64",
+          "32771/8192"
+        ],
+        "orders": [
+          0,
+          1,
+          2
+        ],
+        "width": "1/64"
+      },
+      {
+        "Phi_abs_uppers": [
+          "2",
+          "33/16",
+          "2051/512"
+        ],
+        "orders": [
+          0,
+          1,
+          2
+        ],
+        "width": "1/16"
+      },
+      {
+        "Phi_abs_uppers": [
+          "2",
+          "3",
+          "11/2"
+        ],
+        "orders": [
+          0,
+          1,
+          2
+        ],
+        "width": "1"
+      },
+      {
+        "Phi_abs_uppers": [
+          "2",
+          "6",
+          "28"
+        ],
+        "orders": [
+          0,
+          1,
+          2
+        ],
+        "width": "4"
+      }
+    ],
+    "zero_order_rule": "w*K0(w)<=w*K1(w)<=1"
+  },
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

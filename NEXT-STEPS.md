@@ -20,6 +20,25 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K405--K410 ORDER-TEN NUMERICAL FOUNDATION.** A fresh comparison
+> found the typed action/observation and residual-vector alternatives still
+> blocked by missing action-owned form, quotient/domain and Green-pairing data,
+> while K376 supplied an executable order-ten interface. K405 freezes the
+> twenty-two-axis positive one-node rule and complete zero/coalescence face
+> atlas for 480 paths, 28 groups, 6,890 upper-triangle entries and 13,300
+> ordered terms. K406 evaluates the complete coherent node rule at 180 Arb
+> digits, including `256^-22` and `(2*pi)^-12`, in
+> `[6.733833845113549e-47,6.733833845113551e-47]`. K407--K410 compile the
+> twenty-two-axis derivative interface, evaluate all 292,600 ordered axis-
+> entry node jets, freeze the exact twenty-two-term positive Peano tensor, and
+> close the zero-safe radial-origin contract at final degree nine. Their probes
+> pass `13/13`, `12/12`, `12/12`, `8/8`, `12/12`, and `10/10` controls and
+> reject `12/12`, `12/12`, `10/10`, `15/15`, `16/16`, and `11/11` hostile
+> mutations. Next build the order-ten hybrid face atlas and complete coherent
+> positive-interior controls. These local foundations do not enclose the full
+> order-ten integral or move action, `R_ref`, K152, source, ledger, canon,
+> paper, public or physical claims.
+
 > **2026-09-24 K401--K404 COMPLETE CONDITIONAL ORDER-NINE INTEGRAL.** K401
 > composes all 1,468 K400 coefficient envelopes with the two old-position
 > kernels and all 4,480 ordered descriptors into finite exact-rational whole-

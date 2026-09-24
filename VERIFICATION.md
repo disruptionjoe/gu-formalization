@@ -7,6 +7,34 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K405--K410 order-ten numerical foundation (2026-09-24)
+
+K405 replays K376's complete order-ten census: 480 paths, 28 coherent groups,
+6,890 upper-triangle Gram entries, 13,300 ordered terms and rank ceiling five.
+It freezes the native twenty-two-axis positive one-node Gauss--Laguerre rule at
+`1/256`, product weight `256^-22`, and the complete cumulative-time
+zero/coalescence face atlas. K406 evaluates every coherent node contribution at
+180 Arb digits and applies the native `(2*pi)^-12` prefactor exactly once. The
+strictly positive rule value is
+`[6.733833845113549e-47,6.733833845113551e-47]`.
+
+K407 retains both ordered off-diagonal orientations and compiles the exact
+twenty-two-axis derivative incidence/interface. K408 then evaluates the
+complete coherent value, first and pure-second local node jets for all 292,600
+ordered axis-entry uses. Its independent replay also checks six representative
+axes by centered finite differences. K409 proves the exact twenty-two-term
+positive tensor Peano identity, with one-axis kernel mass `1/33554432`. K410
+combines the quadratic Peano zero with the order-ten raw kernel degree `-14`
+and radial Jacobian degree `21`, leaving final small-rho degree nine without a
+raw Bessel call at zero.
+
+The six probes pass 67 controls and reject 76 hostile mutations. The strongest
+overclaim is rejected: the node interval and local jets are not global
+derivative bounds, the Peano tensor is not yet integrated, and no complete
+order-ten integral, sign result, useful K152 margin, action-column value,
+`R_ref` residual, source/ledger move, canon, paper, public posture, novelty or
+physical interpretation follows.
+
 ## K401--K404 complete conditional order-nine integral (2026-09-24)
 
 K401 consumes all 1,468 K400 rank-compatible determinant envelopes and K375's
