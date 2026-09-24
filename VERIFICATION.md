@@ -7,6 +7,40 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K420--K422 moving-background, quotient and reducibility follow-through (2026-09-24)
+
+K420 enumerates every coordinate seven-plane with signature `(3,4)` in the
+selected K77 `(7,7)` coordinate order. There are
+`C(7,3)C(7,4)=1,225`; intersection with observer axes `(7,8,9)` has size
+zero, one, two and three in `140,630,420,35` cases. The last 455 cases retain
+common `Spin(2)` or `Spin(3)`. Their central spin element acts as `+1` on the
+trivial/vector orbit source and `-1` on the tested full-spinor target, so the
+equivariant Hom vanishes. The other 770 cases have no nontrivial connected
+common observer rotation and the argument makes no claim about them. The
+producer/probe pass `23/23` controls and reject `8/8` hostile mutations.
+
+K421 applies the same central-character identity to any equivariant complex
+whose target terms remain spinor-isotypic. Equivariant kernels, images,
+quotients and cohomology inherit target character `-1`; a source map therefore
+satisfies `F=-F` and vanishes in characteristic zero. Green compatibility or
+adjointness selects a subspace of this already-zero equivariant Hom. The
+producer/probe pass `23/23` controls and reject `11/11` hostile mutations.
+This excludes neither another target carrier nor justified symmetry breaking
+or a non-equivariant action-owned map, and constructs no common domain.
+
+K422 transports K419's stabilizer inclusion and orbit action by adjoint
+conjugation. This produces exact primal and dual vector-bundle sequences of
+ranks `21 -> 91 -> 70` and `70 -> 91 -> 21` on the complete homogeneous gauge
+orbit. All 1,225 signature-preserving coordinate permutations independently
+carry stabilizer basis to stabilizer basis and orbit complement to orbit
+complement; block-orientation sign repairs give an `SO(7)xSO(7)` representative
+and hence a `Spin(7,7)` identity-component lift in every case. The
+producer/probe pass `21/21` controls and reject `10/10`
+hostile mutations. Constant rank on one homogeneous orbit is not a transverse
+orbit-type stratification, nonlinear relation complex, functional BFV domain,
+or physical cohomology. None of K420--K422 moves source, ledger, canon, paper,
+public posture, novelty or a physical GU verdict.
+
 ## K418--K419 observer/stabilizer follow-through (2026-09-24)
 
 K418 uses the conditional K77 observer axes `(0,7,8,9)` and the frozen BFV

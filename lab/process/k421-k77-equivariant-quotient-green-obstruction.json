@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K421-K77-EQUIVARIANT-QUOTIENT-GREEN-OBSTRUCTION",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "Determine whether an equivariant differential, quotient/cohomology, or Green-compatible restriction on the same tested full-spinor target can repair K420's surviving common-symmetry obstruction.",
+  "inputs": {
+    "predecessor": "lab/process/k420-k77-coordinate-orbit-observer-stabilizer-census.json",
+    "source": "rank-70 orbit source built from trivial and vector modules",
+    "target": "tested full real K77 spinor and complexes whose terms use only that spinor-isotypic carrier"
+  },
+  "central_character_theorem": {
+    "coordinate_backgrounds": 455,
+    "common_groups": ["Spin(2)", "Spin(3)"],
+    "source_character": 1,
+    "target_character": -1,
+    "intertwiner_equation": "F=-F, hence F=0 in characteristic zero",
+    "equivariant_kernels_images_quotients_and_cohomology_retain_target_character": true,
+    "green_compatible_maps_are_a_subset_of_equivariant_maps": true
+  },
+  "decision": {
+    "same_target_equivariant_differential_repairs_map": false,
+    "same_target_equivariant_quotient_repairs_map": false,
+    "green_pairing_or_adjointness_repairs_map": false,
+    "next_exact_input": "Change the target complex so its cohomology contains an even-central-character summand, derive symmetry breaking that removes the common central element, or justify a non-equivariant action-owned map; then construct the actual closed domain."
+  },
+  "boundaries": {
+    "other_target_carriers_excluded": false,
+    "symmetry_breaking_excluded": false,
+    "nonequivariant_maps_excluded": false,
+    "functional_domain_constructed": false,
+    "source_ledger_canon_paper_public_or_physical_effect": false
+  },
+  "claim_ceiling": "Exact central-character no-go for equivariant quotient and Green repairs on the same tested spinor-isotypic target in the 455 K420 coordinate backgrounds with common Spin(2) or Spin(3). Equivariant subobjects, quotients and cohomology retain odd central character, while the source is even, so every source-to-cohomology intertwiner is zero; Green compatibility can only narrow that zero space. This does not exclude another target carrier, justified symmetry breaking or non-equivariant action-owned maps, construct a functional domain, or move source, ledger, canon, paper, public, novelty or physical GU verdicts."
+}

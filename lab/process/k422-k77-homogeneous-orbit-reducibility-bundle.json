@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K422-K77-HOMOGENEOUS-ORBIT-REDUCIBILITY-BUNDLE",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "direction": "native_to_native",
+  "target_claim": "Transport K419's exact frozen action/reducibility complex across the complete homogeneous gauge orbit of the selected distortion.",
+  "inputs": {
+    "predecessor": "lab/process/k419-k77-frozen-stratum-linearized-kt-complex.json",
+    "transport": "Adjoint conjugation of the stabilizer inclusion and orbit action",
+    "coordinate_controls": "all signature-preserving coordinate permutations of the (3,4) stabilizer plane"
+  },
+  "reducibility_bundle": {
+    "primal": "0 -> stabilizer_bundle -> trivial_so77_bundle -> tangent_orbit_bundle -> 0",
+    "dual": "0 -> cotangent_orbit_bundle -> trivial_so77_dual_bundle -> relation_bundle -> 0",
+    "ranks": [21, 91, 70],
+    "constant_rank": true,
+    "coordinate_transport_controls": 1225,
+    "all_coordinate_controls_pass": true,
+    "all_coordinate_representatives_have_Spin77_identity_component_lifts": true
+  },
+  "decision": {
+    "k419_complex_globalizes_on_homogeneous_orbit": true,
+    "homogeneous_orbit_constant_stabilizer_type": true,
+    "first_stage_relation_bundle_rank": 21,
+    "independent_constraint_bundle_rank": 70,
+    "next_exact_input": "Leave the homogeneous orbit and control a source-owned transverse family through an orbit-type change, including nonlinear relation functions and rank jumps, before claiming nonlinear Koszul-Tate properness."
+  },
+  "boundaries": {
+    "ambient_varying_orbit_type_resolved": false,
+    "transverse_nonlinear_relation_functions_constructed": false,
+    "nonlinear_koszul_tate_properness_proved": false,
+    "functional_bfv_domain_or_physical_cohomology_constructed": false,
+    "source_ledger_canon_paper_public_or_physical_effect": false
+  },
+  "claim_ceiling": "Exact homogeneous-orbit transport of K419's linearized action/reducibility complex. Conjugation carries the rank-21 stabilizer bundle, rank-91 gauge bundle and rank-70 tangent-orbit bundle into exact primal and dual sequences at every point of the selected gauge orbit; all 1,225 signature-compatible coordinate controls pass. This constant-orbit-type result does not cross a transverse orbit-type stratum, construct nonlinear relations or a Koszul-Tate resolution, supply a functional BFV domain or physical cohomology, or move source, ledger, canon, paper, public, novelty or physical GU verdicts."
+}

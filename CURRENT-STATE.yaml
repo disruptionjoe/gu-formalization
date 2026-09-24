@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 48e2548aad6b
+revision_basis: 613c6019ad67
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,34 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K420--K422 extend the frozen K77 observer/stabilizer result along three
+    exact but still conditional directions. K420 exhausts all 1,225 coordinate
+    seven-planes of signature `(3,4)` in the selected `(7,7)` vector fixture.
+    Their overlap with the observer spatial axes has histogram
+    `140,630,420,35` for zero through three axes. The 420 `Spin(2)` and 35
+    `Spin(3)` cases retain the spin central element: it acts evenly on the
+    orbit source and oddly on the tested full-spinor target, so all 455
+    equivariant Hom spaces remain zero. The other 770 coordinate backgrounds
+    have no nontrivial connected common observer rotation and are not decided.
+
+    K421 closes the same-target equivariant quotient repair on those 455
+    backgrounds. Equivariant kernels, images, quotients and cohomology of a
+    spinor-isotypic target complex keep the odd central character, while the
+    orbit source is even; the intertwiner identity reduces to `F=-F`, hence
+    `F=0` in characteristic zero. Green adjointness can only narrow that zero
+    space. This does not exclude another target carrier, justified symmetry
+    breaking or a non-equivariant action-owned map, and it constructs no
+    functional domain.
+
+    K422 transports K419's exact primal and dual complexes by adjoint
+    conjugation over the selected homogeneous gauge orbit. The stabilizer,
+    gauge and tangent-orbit bundles retain ranks `21,91,70`; all 1,225
+    signature-preserving coordinate transport controls pass. This globalizes
+    the finite first-stage relations only on the constant-orbit-type
+    homogeneous orbit. A transverse source-owned family with rank jumps,
+    nonlinear relation functions and analytic boundary data is still required
+    for nonlinear Koszul--Tate properness or physical cohomology.
+
     K418 now tests K416's open representation-level repair against the symmetry
     actually supplied by the conditional K77 observer construction. The
     observer's spatial rotations act on axes `(7,8,9)`, whereas the frozen
@@ -10226,13 +10254,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K416 as the exact repair ladder for the tested K77 full-spinor trace
-  realization: neither a full-stabilizer invariant subquotient nor maximal-
-  compact restriction repairs the zero Hom, while the declared diagonal
-  SU(2) reopens a 1344-dimensional representation-level comparator space.
-  Do not select that subgroup or a map from this count. Derive any symmetry
-  reduction from source/action data and then test the actual quotient
-  differential, Green pairing and common domain. Treat K417 as the exact
+  Treat K420 as the complete signature-compatible coordinate-background
+  census for the selected K77 vector fixture: 455 backgrounds retain common
+  Spin(2) or Spin(3) and remain obstructed by central character, while 770
+  lose the nontrivial common rotation used by the test and remain undecided.
+  Treat K421 as the exact no-go for equivariant differentials, subquotients,
+  cohomology and Green-compatible maps built only from the same tested
+  spinor-isotypic target on those 455 backgrounds. Reopen with a source/action-
+  selected even-character target cohomology summand, justified symmetry
+  breaking or a separately justified non-equivariant map, then construct its
+  closed common domain. Treat K422 as the exact constant-rank reducibility
+  bundle over the homogeneous gauge orbit, not a transverse varying-orbit-type
+  theorem. Next control one source-owned transverse family through a rank jump
+  and construct its nonlinear relation functions before any nonlinear
+  Koszul--Tate properness claim. Treat K417 as the exact
   scalar-interface completion obstruction matched to K170 and K278. Next
   evaluate the coefficient-complete K156/K139 base action on K170's dyadic
   trial family and serialize either exterior coercivity or a finite action-

@@ -20,6 +20,27 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K420--K422 MOVING-BACKGROUND, QUOTIENT, AND REDUCIBILITY
+> FOLLOW-THROUGH.** K420 exhausts all 1,225 signature-compatible coordinate
+> conjugates of the frozen `(3,4)` stabilizer plane. Observer-axis overlaps
+> occur with counts `140,630,420,35`; the 420 common `Spin(2)` and 35 common
+> `Spin(3)` cases retain even source versus odd target spin-central character,
+> so all 455 equivariant Hom spaces are zero. The other 770 backgrounds lack
+> the nontrivial connected common observer rotation used by this test and are
+> not decided. K421 proves that equivariant kernels, images, quotients and
+> cohomology made only from the same spinor-isotypic target retain odd central
+> character. Thus same-target quotient descent and Green compatibility cannot
+> repair the map on those 455 cases. K422 transports the exact K419
+> `21 -> 91 -> 70` complex over the homogeneous gauge orbit and passes all
+> 1,225 coordinate transport controls. The probes pass `23/23`, `23/23`, and
+> `21/21` controls and reject `8/8`, `11/11`, and `10/10` hostile mutations.
+> Next construct a source/action-selected even-character target summand or
+> justified symmetry-breaking/non-equivariant map, and separately control a
+> transverse orbit-type rank jump with nonlinear relations. These results do
+> not exhaust continuous backgrounds, construct a functional domain or
+> nonlinear KT resolution, or move source, ledger, canon, paper, public,
+> novelty or physical verdicts.
+
 > **2026-09-24 K418--K419 OBSERVER/STABILIZER FOLLOW-THROUGH.** K418
 > intersects the conditional K77 observer spatial rotations on `(7,8,9)`
 > with the frozen odd-axis `Spin(3,4)` stabilizer. Only the `(7,9)` rotation

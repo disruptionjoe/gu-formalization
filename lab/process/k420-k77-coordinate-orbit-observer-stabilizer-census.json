@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K420-K77-COORDINATE-ORBIT-OBSERVER-STABILIZER-CENSUS",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "direction": "observed_to_native",
+  "target_claim": "Test K418's common-symmetry obstruction across every signature-compatible coordinate conjugate of the frozen K77 stabilizer plane.",
+  "inputs": {
+    "predecessor": "lab/process/k418-k77-observer-stabilizer-intersection-obstruction.json",
+    "ambient_signature": "(7,7) in the exact selected K77 coordinate order",
+    "stabilizer_plane_signature": "(3,4)",
+    "observer_spatial_axes": [7, 8, 9]
+  },
+  "coordinate_census": {
+    "total": 1225,
+    "overlap_histogram": {"0": 140, "1": 630, "2": 420, "3": 35},
+    "common_generator_histogram": {"0": 770, "1": 420, "3": 35},
+    "tested_by_common_symmetry": 455,
+    "not_decided_by_common_symmetry": 770
+  },
+  "central_character_test": {
+    "Spin2_cases": 420,
+    "Spin3_cases": 35,
+    "source": "trivial and vector modules; the common spin central element acts as +1",
+    "tested_target": "full real K77 spinor; the common spin central element acts as -1",
+    "equivariant_Hom_rank": 0
+  },
+  "decision": {
+    "tested_coordinate_backgrounds_repair_map": false,
+    "original_background_is_one_of_Spin2_cases": true,
+    "full_observer_Spin3_cases_also_obstructed": true,
+    "next_exact_input": "A source/action-selected background outside the retained common-central-character class, an even-character target cohomology summand, or justified symmetry breaking, followed by its actual differential and domain."
+  },
+  "boundaries": {
+    "trivial_common_rotation_cases_decided": false,
+    "continuous_orbit_exhausted": false,
+    "coordinate_backgrounds_source_selected": false,
+    "other_target_carriers_excluded": false,
+    "source_ledger_canon_paper_public_or_physical_effect": false
+  },
+  "claim_ceiling": "Exact finite census of all 1,225 signature-compatible coordinate seven-planes in the selected K77 vector fixture. In the 455 cases retaining common Spin(2) or Spin(3) observer rotations, the orbit source has even spin-central character and the tested full-spinor target has odd character, so the equivariant Hom is zero. The other 770 cases have no nontrivial connected common observer rotation and are not decided. This does not exhaust continuous backgrounds, select a background or target, solve a differential/domain, or move source, ledger, canon, paper, public, novelty or physical GU verdicts."
+}
