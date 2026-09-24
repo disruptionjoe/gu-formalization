@@ -7,6 +7,37 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K401--K404 complete conditional order-nine integral (2026-09-24)
+
+K401 consumes all 1,468 K400 rank-compatible determinant envelopes and K375's
+primitive bank, composes both old-position kernels and every species
+determinant for all 4,480 ordered descriptors, and retains all twenty coherent
+groups. K389's exact nonnegative radial powers and K384's Laguerre/Peano
+measures yield finite exact-rational whole-radial majorants for all 695 K390
+face programs. The rows overlap and are not summed directly. Its independent
+probe passes `11/11` controls and rejects `12/12` hostile mutations.
+
+K402 independently replays all 2,097,150 K399 low-coordinate ownership
+assignments and their exact digests. Every one of the 695 face owners resolves
+to exactly one K401 row, charged once on its owner union. The recursive first-
+maximum low/high construction bounds 801,002 positive-interior max cells; the
+minimum remaining radial exponent is one, and the fixed-node `v9`/`v10`
+fallbacks use K385's degree thirteen. Its probe passes `10/10` controls and
+rejects `11/11` hostile mutations.
+
+K403 sums all twenty disjoint complete-coherent hybrid majorants in K384 tensor
+order. K404 then multiplies the raw remainder by the outward K381
+`(2*pi)^-11` upper exactly once, does not reapply the `256^-20` product weight,
+and joins K381's positive node interval. The rigorous complete conditional
+order-nine enclosure is
+`[-3.54655203130420401e+1214,3.54655203130420401e+1214]`. K403 and K404 pass
+`9/9` and `10/10` controls and reject `9/9` and `11/11` hostile mutations.
+
+The strongest overclaim is rejected: this enormous symmetric interval proves
+finiteness but not sign, numerical usefulness, an action-column value, an
+`R_ref` residual or a K152 margin. The computation does not move source or
+ledger truth, canon, paper, public posture, novelty or physical interpretation.
+
 ## K398--K400 order-nine zero-boundary majorant interface (2026-09-24)
 
 K398 proves exact one-sided and recursive ratio-zero strip angular-mass

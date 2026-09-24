@@ -20,6 +20,24 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K401--K404 COMPLETE CONDITIONAL ORDER-NINE INTEGRAL.** K401
+> composes all 1,468 K400 coefficient envelopes with the two old-position
+> kernels and all 4,480 ordered descriptors into finite exact-rational whole-
+> radial bounds for every one of 695 K390 face programs while retaining twenty
+> coherent groups. K402 replays all 2,097,150 K399 owner subsets, charges each
+> face row once on its unique owner union, and bounds 801,002 recursive
+> positive-interior max cells; the minimum interior radial exponent is one.
+> K403 sums all twenty K384 hybrid bounds. K404 applies `(2*pi)^-11` exactly
+> once and joins K381, enclosing the complete conditional order-nine integral
+> in `[-3.54655203130420401e+1214,3.54655203130420401e+1214]`. Their probes
+> pass `11/11`, `10/10`, `9/9`, and `10/10` controls and reject `12/12`,
+> `11/11`, `9/9`, and `11/11` hostile mutations. The interval proves
+> finiteness, not sign or a useful K152 margin. At the next consequential
+> selection compare the order-ten native numerical interface with the typed
+> observation/action and residual-vector alternatives; do not continue by
+> numerical inertia. No action-column, `R_ref`, K152, source, ledger, canon,
+> paper, public or physical claim moves.
+
 > **2026-09-24 K398--K400 ORDER-NINE ZERO-BOUNDARY MAJORANT INTERFACE.**
 > K398 proves exact one-sided and recursive zero-strip angular-mass majorants
 > at `epsilon=1/64` for all fourteen reachable codimensions. K399 exhausts all
