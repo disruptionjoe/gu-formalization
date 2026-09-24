@@ -39,6 +39,21 @@ updated_at: "2026-09-24"
 > order-ten integral or move action, `R_ref`, K152, source, ledger, canon,
 > paper, public or physical claims.
 
+> **2026-09-24 K411--K412 ORDER-TEN HYBRID REFERENCE CONTROLS.** K411 freezes
+> the exact twenty-two-axis hybrid face atlas over all 13,300 ordered entries
+> per axis, including 71 kernel-zero, 25 row-coalescence and 25 column-
+> coalescence masks, with unique all-axis-origin ownership. K412 then executes
+> the complete coherent second-derivative evaluator at 180 Arb digits on one
+> positive barycentric radial reference cell for every K409 hybrid and three
+> all-zero rays with K410's `rho^14` scaling. All 28 group digests, all 22
+> hybrid rows and all 292,600 ordered axis-entry evaluations are covered. The
+> probes pass `10/10` and `11/11` controls and each rejects `11/11` hostile
+> mutations. Next construct mask-native determinant preconditioners on K411's
+> reachable proper faces, join them to recursive positive-interior cells and
+> analytic radial tails, then integrate all twenty-two K409 kernels. K411--
+> K412 are not a projective cover or complete order-ten integral and move no
+> action, `R_ref`, K152, source, ledger, canon, paper, public or physical claim.
+
 > **2026-09-24 K401--K404 COMPLETE CONDITIONAL ORDER-NINE INTEGRAL.** K401
 > composes all 1,468 K400 coefficient envelopes with the two old-position
 > kernels and all 4,480 ordered descriptors into finite exact-rational whole-

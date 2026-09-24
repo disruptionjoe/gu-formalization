@@ -7,6 +7,30 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K411--K412 order-ten hybrid reference controls (2026-09-24)
+
+K411 compiles the exact order-ten hybrid face atlas on all twenty-two native
+axes. It preserves every one of 13,300 ordered entries per axis, assigns the
+all-axis origin only to the first hybrid, and freezes 71 kernel-zero plus
+25 row- and 25 column-coalescence masks. Its independent probe passes `10/10`
+controls and rejects `11/11` hostile mutations.
+
+K412 executes the complete coherent second-derivative evaluator at 180 Arb
+digits on one positive barycentric radial reference cell for each of the
+twenty-two K409 hybrid domains. All 28 coherent-group digests are present,
+all reference arguments are strictly positive, and all 292,600 ordered
+axis-entry evaluations are covered. Three all-zero barycentric rays at
+`rho=1/64,1/128,1/256` remain finite after K410's `rho^14` scaling, without
+raw Bessel evaluation at zero. Its independent rebuild passes `11/11`
+controls and rejects `11/11` hostile mutations.
+
+These are structural and numerical reference controls, not a projective
+cover. Mask-native proper-face preconditioners, recursive whole-domain
+coverage, analytic radial tails, numerical hybrid integrals, the complete
+order-ten remainder and integral, sign, a useful K152 margin, action-column
+value, `R_ref`, source/ledger movement, canon, paper, public posture, novelty
+and physical interpretation remain open.
+
 ## K405--K410 order-ten numerical foundation (2026-09-24)
 
 K405 replays K376's complete order-ten census: 480 paths, 28 coherent groups,

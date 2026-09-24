@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K411--K412 order-ten hybrid reference controls
+
+- `channel-swings/k411_order_ten_hybrid_face_atlas.py` and its probe compile
+  the exact twenty-two-axis hybrid face atlas, preserve all 13,300 ordered
+  entries per axis and enforce unique all-origin ownership.
+- `channel-swings/k412_order_ten_interior_origin_control.py` and its probe
+  execute the complete coherent 180-digit positive-interior reference bank
+  for all twenty-two hybrids, cover all 292,600 ordered axis-entry
+  evaluations and replay three `rho^14`-scaled all-zero rays without raw zero
+  evaluation.
+
 ## K405--K410 order-ten numerical foundation
 
 - `channel-swings/k405_order_ten_gauss_laguerre_face_atlas.py` and its probe

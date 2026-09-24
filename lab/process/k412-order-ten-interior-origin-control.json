@@ -1,0 +1,505 @@
+{
+  "all_zero_barycentric_ray_controls": [
+    {
+      "all_28_group_intervals_sha256": "sha256:85c0956600e438c4758f5ed2834a4fb65b921e680558d4984f96fb6f5a1a1cd0",
+      "raw_second_derivative_lower": "-1.0875750325419777e+30",
+      "raw_second_derivative_upper": "-1.0875750325419774e+30",
+      "raw_time_per_axis": "1/1408",
+      "rho14_abs_second_upper": "56226.311350965756",
+      "rho_minus9_peano_radial_coefficient_upper": "58.08503238736132",
+      "total_radius": "1/64"
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:fca6432a15948f8eaae66a4fbee77b743571d4a0a0ec5f915e3a71a440836ffe",
+      "raw_second_derivative_lower": "-1.7863649923540075e+34",
+      "raw_second_derivative_upper": "-1.786364992354007e+34",
+      "raw_time_per_axis": "1/2816",
+      "rho14_abs_second_upper": "56367.74019694033",
+      "rho_minus9_peano_radial_coefficient_upper": "58.23113656708712",
+      "total_radius": "1/128"
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:b82490d7c5951c690bf5ca0214fc804f96fa582454b97d8901556b3fe2b8e669",
+      "raw_second_derivative_lower": "-2.9289104737770546e+38",
+      "raw_second_derivative_upper": "-2.928910473777054e+38",
+      "raw_time_per_axis": "1/5632",
+      "rho14_abs_second_upper": "56408.76385876635",
+      "rho_minus9_peano_radial_coefficient_upper": "58.27351638302309",
+      "total_radius": "1/256"
+    }
+  ],
+  "claim_ceiling": "Rigorous 180-digit Arb execution of the complete ordered determinant and coherent-group second-derivative evaluator on a positive barycentric radial reference cell for all twenty-two K409 hybrid domains, plus three all-zero barycentric rays with the K410 rho^14 scaling and a replay of K408's s1 node control. The reference bank is not a projective cover. Proper-face preconditioners, recursive whole-domain coverage, analytic tails, numerical hybrid integrals, the complete order-ten remainder and integral, action column, R_ref, K152 interval, source/ledger move, canon, paper, public and physical posture remain open.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "composition_contract": {
+    "K410_quadratic_peano_majorant_used": true,
+    "all_ordered_orientations_retained": true,
+    "complete_coherent_groups_assembled_before_reported_enclosure": true,
+    "determinants_assembled_before_group_enclosure": true,
+    "moving_axes_share_positive_radial_interval_at_projective_barycenter": true,
+    "preceding_axes_fixed_at_native_node": true,
+    "raw_Bessel_evaluation_at_zero_used": false,
+    "reference_bank_is_not_a_projective_cell_cover": true
+  },
+  "control_summary": {
+    "K408_s1_node_second_derivative_replayed": true,
+    "all_22_hybrid_reference_intervals_finite": true,
+    "all_28_group_digests_present": true,
+    "all_reference_arguments_strictly_positive": true,
+    "all_zero_ray_scaled_controls_finite": true,
+    "complete_hybrid_integrals_emitted": false,
+    "proper_face_preconditioners_complete": false,
+    "recursive_whole_domain_cover_complete": false
+  },
+  "created": "2026-09-24",
+  "decision": {
+    "K408_local_control_replayed": true,
+    "all_zero_scaled_ray_control_executed": true,
+    "complete_coherent_hybrid_interior_evaluator_executed": true,
+    "complete_order_ten_remainder_emitted": false,
+    "next_exact_input": "construct mask-native scaled determinant preconditioners on K411's reachable proper faces, join them to recursive positive-interior cells and analytic radial tails, then integrate all twenty-two K409 kernels",
+    "proper_face_evaluator_released": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "axis_entry_evaluations": 292600,
+    "coherent_groups": 28,
+    "hybrid_terms": 22,
+    "native_axes": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5",
+      "v6",
+      "v7",
+      "v8",
+      "v9",
+      "v10",
+      "v11"
+    ],
+    "ordered_directional_entries_per_axis": 13300,
+    "paths": 480,
+    "predecessor_manifests": [
+      "lab/process/k408-order-ten-node-directional-jet-bank.json",
+      "lab/process/k410-order-ten-zero-safe-radial-contract.json",
+      "lab/process/k411-order-ten-hybrid-face-atlas.json"
+    ],
+    "threads": 1
+  },
+  "hybrid_interior_reference_bank": [
+    {
+      "all_28_group_intervals_sha256": "sha256:8fa87deaa33ee3a5261c8b4dba25bb75babbc83ba6ebc46980a847715221e8af",
+      "axis": "s1",
+      "complete_second_derivative_abs_upper": "1.1020310757553245e+40",
+      "complete_second_derivative_lower": "-1.1020310757553245e+40",
+      "complete_second_derivative_upper": "1.1020310757501765e+40",
+      "minimum_cumulative_argument_lower": "0.0007102272712390086",
+      "moving_dimension": 22,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 0,
+      "projective_point": "barycenter 1/22",
+      "quadratic_peano_majorant_abs_upper": "1.111779171375578e+34",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:d7604c6c6665ff07e63e12ee00c485af8bb078207fccba494f56d529cc754748",
+      "axis": "s2",
+      "complete_second_derivative_abs_upper": "1.0419083285293891e+40",
+      "complete_second_derivative_lower": "-1.0419083285293891e+40",
+      "complete_second_derivative_upper": "1.0419083285268407e+40",
+      "minimum_cumulative_argument_lower": "0.0007440476175751038",
+      "moving_dimension": 21,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 1,
+      "projective_point": "barycenter 1/21",
+      "quadratic_peano_majorant_abs_upper": "1.153615209930943e+34",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:0c4621d7a8b6e724a7c066dc70b4cd90276fba779267b1ce7c674d8b32e87aeb",
+      "axis": "s3",
+      "complete_second_derivative_abs_upper": "6.895762023465014e+39",
+      "complete_second_derivative_lower": "-6.895762023465014e+39",
+      "complete_second_derivative_upper": "6.895762023416118e+39",
+      "minimum_cumulative_argument_lower": "0.0007812499987267073",
+      "moving_dimension": 20,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 2,
+      "projective_point": "barycenter 1/20",
+      "quadratic_peano_majorant_abs_upper": "8.417678381670627e+33",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:31bb701e652fefda52d6d1b0530e3cd3d853eacf4b7ecb513b69931b70c33399",
+      "axis": "s4",
+      "complete_second_derivative_abs_upper": "2.802184802645428e+39",
+      "complete_second_derivative_lower": "-2.802184802645428e+39",
+      "complete_second_derivative_upper": "2.802184802616439e+39",
+      "minimum_cumulative_argument_lower": "0.0008223684198080598",
+      "moving_dimension": 19,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 3,
+      "projective_point": "barycenter 1/19",
+      "quadratic_peano_majorant_abs_upper": "3.7901781599302575e+33",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:41884cbaa066f3ec22c5a86dffd559f22e3ffec25450b50c99b3ad4fa5b28694",
+      "axis": "s5",
+      "complete_second_derivative_abs_upper": "1.096358869213375e+39",
+      "complete_second_derivative_lower": "-1.096358869213375e+39",
+      "complete_second_derivative_upper": "1.096358869175985e+39",
+      "minimum_cumulative_argument_lower": "0.000868055554140786",
+      "moving_dimension": 18,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 4,
+      "projective_point": "barycenter 1/18",
+      "quadratic_peano_majorant_abs_upper": "1.652257670552802e+33",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:c13efb978597a165a84cb6c5161533b221ed644d7b8326150e903d6b85d260f5",
+      "axis": "s6",
+      "complete_second_derivative_abs_upper": "3.003322758580583e+38",
+      "complete_second_derivative_lower": "-3.003322758580583e+38",
+      "complete_second_derivative_upper": "3.0033227585685536e+38",
+      "minimum_cumulative_argument_lower": "0.0009191176453468334",
+      "moving_dimension": 17,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 5,
+      "projective_point": "barycenter 1/17",
+      "quadratic_peano_majorant_abs_upper": "5.07427752937008e+32",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:21162b49ab5c20f20bdad94478d4f150333764c56386959caae61d6a8f367bdd",
+      "axis": "s7",
+      "complete_second_derivative_abs_upper": "9.161224117918209e+37",
+      "complete_second_derivative_lower": "-9.161224116413451e+37",
+      "complete_second_derivative_upper": "9.161224117918209e+37",
+      "minimum_cumulative_argument_lower": "0.0009765624981810105",
+      "moving_dimension": 16,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 6,
+      "projective_point": "barycenter 1/16",
+      "quadratic_peano_majorant_abs_upper": "1.7473648447315925e+32",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:7fd2ca1ca06c370a5b41037d3a31f97c24090a3d2a7cf78cd0ed91ff99ba5e82",
+      "axis": "s8",
+      "complete_second_derivative_abs_upper": "1.8762601196351485e+37",
+      "complete_second_derivative_lower": "-1.876260119240993e+37",
+      "complete_second_derivative_upper": "1.8762601196351485e+37",
+      "minimum_cumulative_argument_lower": "0.0010416666640594484",
+      "moving_dimension": 15,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 7,
+      "projective_point": "barycenter 1/15",
+      "quadratic_peano_majorant_abs_upper": "4.071745115868343e+31",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:b5a01e62bbe3c80266286d3e1debf8e9178a4010f07ad3d56addc528da05f8f5",
+      "axis": "s9",
+      "complete_second_derivative_abs_upper": "5.311435604393099e+36",
+      "complete_second_derivative_lower": "-5.311435603208729e+36",
+      "complete_second_derivative_upper": "5.311435604393099e+36",
+      "minimum_cumulative_argument_lower": "0.0011160714263626554",
+      "moving_dimension": 14,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 8,
+      "projective_point": "barycenter 1/14",
+      "quadratic_peano_majorant_abs_upper": "1.3232012536915755e+31",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:c82f50867c45e99b5e96f1c8d3b65a0768840d6c86816a443ae66fba0c6737e4",
+      "axis": "s10",
+      "complete_second_derivative_abs_upper": "8.184545372917892e+35",
+      "complete_second_derivative_lower": "-8.184545371374652e+35",
+      "complete_second_derivative_upper": "8.184545372917892e+35",
+      "minimum_cumulative_argument_lower": "0.0012019230745443984",
+      "moving_dimension": 13,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 9,
+      "projective_point": "barycenter 1/13",
+      "quadratic_peano_majorant_abs_upper": "2.3647101198148444e+30",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:c91372eae0dc7bb6e7ba8f5efa2409b305b09e7c32169812c4bab7e10d63a37a",
+      "axis": "s11",
+      "complete_second_derivative_abs_upper": "2.0432322409832244e+35",
+      "complete_second_derivative_lower": "-2.0432322408753914e+35",
+      "complete_second_derivative_upper": "2.0432322409832244e+35",
+      "minimum_cumulative_argument_lower": "0.0013020833312111788",
+      "moving_dimension": 12,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 10,
+      "projective_point": "barycenter 1/12",
+      "quadratic_peano_majorant_abs_upper": "6.928277818682057e+29",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:2d10dbfae7c4931e1a4d696b78d34f26220ac398e50987d32c866ba3132ac502",
+      "axis": "v1",
+      "complete_second_derivative_abs_upper": "1.0754854913183773e+32",
+      "complete_second_derivative_lower": "-1.0754854913168562e+32",
+      "complete_second_derivative_upper": "1.0754854913183773e+32",
+      "minimum_cumulative_argument_lower": "0.0014204545424780172",
+      "moving_dimension": 11,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 11,
+      "projective_point": "barycenter 1/11",
+      "quadratic_peano_majorant_abs_upper": "4.339995085248954e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:d1f796f3098a121466822ae7dfbb6dab2818aedbb9fc70b24bbb503109c604a1",
+      "axis": "v2",
+      "complete_second_derivative_abs_upper": "1.4526159967882361e+32",
+      "complete_second_derivative_lower": "-1.4526159967214553e+32",
+      "complete_second_derivative_upper": "1.4526159967882361e+32",
+      "minimum_cumulative_argument_lower": "0.0015624999974534145",
+      "moving_dimension": 10,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 12,
+      "projective_point": "barycenter 1/10",
+      "quadratic_peano_majorant_abs_upper": "7.092851645046473e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:616b33f7e6d6a29fa2fb0691cbef2599599d601a0209b52f49b2a69e36c4c7ea",
+      "axis": "v3",
+      "complete_second_derivative_abs_upper": "1.707159378004856e+32",
+      "complete_second_derivative_lower": "-1.7071593779475477e+32",
+      "complete_second_derivative_upper": "1.707159378004856e+32",
+      "minimum_cumulative_argument_lower": "0.001736111108281572",
+      "moving_dimension": 9,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 13,
+      "projective_point": "barycenter 1/9",
+      "quadratic_peano_majorant_abs_upper": "1.0291036080114894e+27",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:affab1839574694ad6bed29a5cb7e5fa4a4e9387f3561e34092f14b17c78d763",
+      "axis": "v4",
+      "complete_second_derivative_abs_upper": "1.2691849930962283e+32",
+      "complete_second_derivative_lower": "-1.2691849930177734e+32",
+      "complete_second_derivative_upper": "1.2691849930962283e+32",
+      "minimum_cumulative_argument_lower": "0.001953124996362021",
+      "moving_dimension": 8,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 14,
+      "projective_point": "barycenter 1/8",
+      "quadratic_peano_majorant_abs_upper": "9.683113103119008e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:17e52bc8105823840866e9ef51809801f77b81e87f9ed811fc13755d8d578f98",
+      "axis": "v5",
+      "complete_second_derivative_abs_upper": "9.109413845881755e+31",
+      "complete_second_derivative_lower": "-9.109413845881755e+31",
+      "complete_second_derivative_upper": "9.10941384579592e+31",
+      "minimum_cumulative_argument_lower": "0.002232142852725311",
+      "moving_dimension": 7,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 15,
+      "projective_point": "barycenter 1/7",
+      "quadratic_peano_majorant_abs_upper": "9.077461323458057e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:035c77335b8228367f1691cdb20b0a6034d506aee91e487041042257e59eab27",
+      "axis": "v6",
+      "complete_second_derivative_abs_upper": "5.019221784265192e+31",
+      "complete_second_derivative_lower": "-5.019221784265192e+31",
+      "complete_second_derivative_upper": "5.019221784149181e+31",
+      "minimum_cumulative_argument_lower": "0.0026041666624223576",
+      "moving_dimension": 6,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 16,
+      "projective_point": "barycenter 1/6",
+      "quadratic_peano_majorant_abs_upper": "6.807755336040875e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:897627175087175228fb77222e9cfef00927e7397b37beba3e7e107ff8481bfe",
+      "axis": "v7",
+      "complete_second_derivative_abs_upper": "2.711039777433575e+31",
+      "complete_second_derivative_lower": "-2.711039777433575e+31",
+      "complete_second_derivative_upper": "2.711039777426012e+31",
+      "minimum_cumulative_argument_lower": "0.003124999994906829",
+      "moving_dimension": 5,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 17,
+      "projective_point": "barycenter 1/5",
+      "quadratic_peano_majorant_abs_upper": "5.2949996453127036e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:aec8d22b3d497fa56b60ed68d99f6e2e6fd79437e4a6d0abfda8cb3baf87b92b",
+      "axis": "v8",
+      "complete_second_derivative_abs_upper": "1.2129082139420786e+31",
+      "complete_second_derivative_lower": "-1.2129082139319063e+31",
+      "complete_second_derivative_upper": "1.2129082139420786e+31",
+      "minimum_cumulative_argument_lower": "0.003906249992724042",
+      "moving_dimension": 4,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 18,
+      "projective_point": "barycenter 1/4",
+      "quadratic_peano_majorant_abs_upper": "3.7015021465661975e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:26c1c0d40c56250bbaf332568368d6ace129bd24432c3501e81a43841eee8541",
+      "axis": "v9",
+      "complete_second_derivative_abs_upper": "5.48239870842122e+30",
+      "complete_second_derivative_lower": "-5.48239870838062e+30",
+      "complete_second_derivative_upper": "5.48239870842122e+30",
+      "minimum_cumulative_argument_lower": "0.0039062499999999996",
+      "moving_dimension": 3,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 19,
+      "projective_point": "barycenter 1/3",
+      "quadratic_peano_majorant_abs_upper": "2.974391703619333e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:1ffa4211bb1b58a0ec7959b1c80d318f6d6728cdc4863d6b7bbedc84dbf8943e",
+      "axis": "v10",
+      "complete_second_derivative_abs_upper": "2.0606101824733968e+30",
+      "complete_second_derivative_lower": "-2.0606101824671098e+30",
+      "complete_second_derivative_upper": "2.0606101824733968e+30",
+      "minimum_cumulative_argument_lower": "0.0039062499999999996",
+      "moving_dimension": 2,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 20,
+      "projective_point": "barycenter 1/2",
+      "quadratic_peano_majorant_abs_upper": "2.5153933035636145e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    },
+    {
+      "all_28_group_intervals_sha256": "sha256:1f7124ad0c30ff29ebc2616c0525fdb075ffff3e0ee98ab255e861a7fff42d0f",
+      "axis": "v11",
+      "complete_second_derivative_abs_upper": "7.638840237533292e+29",
+      "complete_second_derivative_lower": "-7.63884023752724e+29",
+      "complete_second_derivative_upper": "7.638840237533292e+29",
+      "minimum_cumulative_argument_lower": "0.0039062499999999996",
+      "moving_dimension": 1,
+      "moving_radial_cell": [
+        "1/64",
+        "1/32"
+      ],
+      "preceding_axes_fixed_at_node": 21,
+      "projective_point": "barycenter 1/1",
+      "quadratic_peano_majorant_abs_upper": "3.7299024885560905e+26",
+      "raw_Bessel_evaluation_at_zero_used": false
+    }
+  ],
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "K408_node_control_replayed": true,
+    "all_292600_ordered_axis_entry_evaluations_covered": true,
+    "all_reference_arguments_positive": true,
+    "all_reference_intervals_finite": true,
+    "complete_order_ten_remainder_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "no_raw_zero_evaluation": true,
+    "reference_bank_not_promoted_to_cover": true,
+    "twenty_two_hybrid_rows_present": true
+  },
+  "result_id": "K412-ORDER-TEN-INTERIOR-ORIGIN-CONTROL",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

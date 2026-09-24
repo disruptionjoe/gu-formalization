@@ -109,6 +109,16 @@ current_result:
     tensor and origin controls, not a global face cover, complete order-ten
     integral, sign result or useful K152 margin.
 
+    K411 now compiles the exact twenty-two-axis hybrid face atlas over all
+    13,300 ordered entries per axis, with 71 kernel-zero, 25 row-coalescence
+    and 25 column-coalescence masks and unique all-axis-origin ownership. K412
+    executes the complete coherent second-derivative evaluator at 180 Arb
+    digits on one positive barycentric radial reference cell for every hybrid,
+    covering all 28 group digests and all 292,600 ordered axis-entry
+    evaluations. Three all-zero rays remain finite after K410's `rho^14`
+    scaling without raw zero evaluation. These are reference controls, not a
+    projective cover or complete order-ten integral.
+
     The residual-vector P8 first gate independently enumerates all forty D5
     roots and recovers the compact Cartan trace form `16 I_5`. On the declared
     `(Y,B-L)` plane the exact Gram is `[[10/3,8/3],[8/3,16/3]]`, with
@@ -9864,11 +9874,16 @@ current_question: >-
   node jet bank, exact twenty-two-term Peano tensor identity and zero-safe
   radial-origin contract. The node interval is
   `[6.733833845113549e-47,6.733833845113551e-47]`, but the global order-ten
-  face enclosure and complete integral remain open. Numerical orders eleven
+  face enclosure and complete integral remain open. K411--K412 now supply the
+  exact hybrid face atlas and complete coherent positive-interior/origin
+  reference controls, but not proper-face preconditioners, recursive coverage
+  or analytic tails. Numerical orders eleven
   and twelve, the complete base action column, R_ref residual and native K152
-  interval also remain open. Next build the order-ten hybrid face atlas and
-  complete coherent positive-interior controls; do not promote local jets to
-  global derivative bounds.
+  interval also remain open. Next build mask-native determinant
+  preconditioners on K411's reachable proper faces, join them to recursive
+  positive-interior cells and analytic radial tails, then integrate all
+  twenty-two K409 kernels; do not promote reference controls to a projective
+  cover or global derivative bounds.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
   pointwise bank. Do not reuse K305's four groups, K299's six-axis weights,
@@ -10177,8 +10192,12 @@ next_condition: >-
   zero-safe radial-origin contract. Preserve 480 paths, 28 coherent groups,
   6,890 upper-triangle entries, 13,300 ordered terms, 22 positive time axes,
   node `1/256`, weight `256^-22`, native prefactor `(2*pi)^-12`, rank ceiling
-  five and final origin degree nine. Next close the complete order-ten hybrid
-  face and positive-interior enclosure before integrating the Peano remainder.
+  five and final origin degree nine. Treat K411 as the accepted exact hybrid
+  face-atlas contract and K412 as the accepted complete coherent positive-
+  interior/origin reference bank. Next construct mask-native proper-face
+  determinant preconditioners, recursive positive-interior coverage and
+  analytic radial tails before integrating the twenty-two-term Peano
+  remainder.
   Preserve the exact `1/256` eighteen-axis node, `256^-18` weight, `(2*pi)^-10`
   normalization, 49 kernel-zero masks, 16+16 coalescence masks, all 1,296 Gram
   entries, all 2,400 ordered terms and all 43,200 ordered entry-axis jets. The
