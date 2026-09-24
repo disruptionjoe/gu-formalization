@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5524535bd658
+revision_basis: 34224ada6d92
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,31 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K429--K431 now instantiate the first variable functional differential after
+    K426--K428 on a source-admitted but conditional rank-two reduction of the
+    K77 covariant derivative. K429 uses the exact orthogonal transport
+    `U(t)=(1+t^2)^-1[[1-t^2,-2t],[2t,1-t^2]]`, so
+    `A=-U'U^T` is variable and skew and `D_A(Uv)=Uv'`. On the incoming closed
+    domain `u(0)=0`, `D_A:H1->L2` is bijective. Its Green inverse is the
+    transported Volterra operator, has exact `L2` norm `2/pi`, is bounded into
+    `H1`, and pairs with the outgoing domain `v(1)=0` through the exact endpoint
+    Green identity. Thus a variable connection does not itself force the
+    nonclosed-range behavior of K428; the domain is load-bearing.
+
+    K430 classifies every orthogonal twisted boundary condition
+    `u(1)=R u(0)` by the relative holonomy `S=U(1)^T R U(0)`. Kernel and
+    cokernel are `Fix(S)` and `Fix(S^T)`, so the Fredholm index is zero. For
+    the quarter-turn monodromy of K429, the identity twist is invertible, while
+    the monodromy-matched twist has two-dimensional kernel and cokernel. K431
+    then proves that an orthogonal variable projector descends through `D_A`
+    exactly when `P'+[A,P]=0`, with boundary compatibility
+    `P(1)R=R P(0)` required for Green intertwining. The transported rank-one
+    projector passes on the incoming and monodromy-matched domains; the
+    constant-projector shortcut and identity-twist boundary compatibility
+    fail. The reduction, boundary conditions and projector remain repository
+    choices, not the full K77 operator, corrected Clifford observation or a
+    source-selected physical domain.
+
     K426--K428 now close the simplest functional-completion consequences of
     K419/K424/K425. K426 writes an explicit norm-one contracting homotopy for
     the split exact `21 -> 91 -> 70` fixture. Tensoring it with any common
@@ -10307,6 +10332,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K429 as the exact conditional variable-covariant-domain result: the
+  source-admitted differential form can have a closed surjective realization
+  and bounded Green inverse when an incoming boundary condition is supplied,
+  but neither the rank-two reduction nor that condition is source-selected.
+  Treat K430 as the exact holonomy boundary classification: the same variable
+  differential is invertible for the identity twist and has two-dimensional
+  kernel and cokernel for the monodromy-matched twist, so boundary choice
+  cannot be suppressed. Treat K431 as the exact same-carrier descent law:
+  observation projectors must be parallel and boundary-compatible for their
+  Green operators to intertwine. Next provide a source/action-selected
+  invariant subbundle or a typed intertwiner to the corrected observed
+  one-form-spinor carrier, and derive rather than supply the physical boundary
+  projector. Do not identify the conditional rank-one projector with observed
+  chirality or call its twisted kernel physical BV/BFV cohomology.
   Treat K426 as the exact constant-lift boundary: the canonical K419 split
   complex stays contractible on every common compatible coefficient domain,
   so topology or function-space replication alone is not a cohomology source.

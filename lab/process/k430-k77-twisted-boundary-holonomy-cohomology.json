@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K430-K77-TWISTED-BOUNDARY-HOLONOMY-COHOMOLOGY",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Orthogonal twisted H1 boundary realizations u(1)=R u(0) of K429's conditional rank-two variable covariant differential. The twists are exact mathematical boundary choices, not source-selected K77 boundary physics.",
+  "gu_typed_objects": {
+    "result": "twisted-boundary holonomy cohomology classification",
+    "carrier": "H1_R([0,1],R2) -> L2([0,1],R2); LAYER=conditional action reduction; CHIRALITY=N/A",
+    "pairing": "standard real L2 pairing with orthogonal endpoint twist",
+    "real_structure": "real orthogonal rank-two bundle",
+    "grading": "covariant field and equation degrees",
+    "action_owner": "K429 conditional action-owned D_A; boundary twist R is supplied",
+    "target": "kernel, cokernel, Fredholm index and Green existence MAP-TYPE=twisted-unbounded-operator"
+  },
+  "inputs": {
+    "covariant_domain": "lab/process/k429-k77-covariant-incoming-domain-green.json",
+    "connection_monodromy": "U(1)=J=[[0,-1],[1,0]]",
+    "boundary_family": "u(1)=R u(0), R orthogonal"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Classify the whole orthogonal twist family by monodromy before attributing one domain's exactness or cohomology to the differential itself.",
+    "retrieval_collision_result": "K429 fixes the incoming domain only; K427/K428 show category sensitivity but contain no action connection or boundary holonomy.",
+    "strongest_alternative": "A full K77 Calderon projector could select a physical twist, but that owner remains unconstructed."
+  },
+  "classification_theorem": {
+    "relative_twist": "S=U(1)^T R U(0)",
+    "kernel": "Fix(S)",
+    "cokernel": "Fix(S^T)",
+    "fredholm_index": 0,
+    "range_condition": "integral_0^1 U(s)^T f(s) ds belongs to range(S-I)",
+    "green_exists_exactly_when": "1 is not an eigenvalue of S"
+  },
+  "exact_cases": {
+    "identity_twist": {
+      "relative_twist": "-J",
+      "determinant_S_minus_I": 2,
+      "kernel_dimension": 0,
+      "cokernel_dimension": 0,
+      "bounded_green_exists": true
+    },
+    "monodromy_matched_twist": {
+      "R": "J=U(1)",
+      "relative_twist": "I",
+      "determinant_S_minus_I": 0,
+      "kernel_dimension": 2,
+      "cokernel_dimension": 2,
+      "bounded_green_on_all_L2": false
+    }
+  },
+  "decision": {
+    "same_variable_differential_has_boundary_dependent_cohomology": true,
+    "connection_holonomy_and_boundary_twist_jointly_control_cohomology": true,
+    "boundary_choice_is_source_selected": false,
+    "next_exact_input": "Test which parallel observed subbundles are compatible with each boundary twist and whether their Green operators intertwine."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the two-dimensional twisted kernel a physical BFV state space or source-owned boundary charge.",
+    "strongest_contrary_construction": "The identity twist has zero kernel and cokernel for the same differential because the connection monodromy is a quarter turn.",
+    "weakest_reproducibility_seam": "The fixed-space theorem is exact; no K77 source or action term selects either tested twist."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k430_k77_twisted_boundary_holonomy_cohomology.py",
+    "probe": "tests/channel-swings/k430_k77_twisted_boundary_holonomy_cohomology_probe.py",
+    "controls_passed": 20,
+    "hostile_mutations_rejected": 16
+  },
+  "claim_ceiling": "Exact Fredholm and cohomology classification for orthogonal twisted boundary realizations of K429's conditional action-owned variable differential. Kernel and cokernel equal the fixed spaces of the relative boundary holonomy, so the same D_A is invertible for R=I but has two-dimensional kernel and cokernel for R=U(1). The boundary twists are supplied, not source-selected; no physical BFV cohomology, boundary charge, full K77 domain, chirality, family count, source/ledger move, canon, paper, public posture, novelty or GU verdict follows."
+}

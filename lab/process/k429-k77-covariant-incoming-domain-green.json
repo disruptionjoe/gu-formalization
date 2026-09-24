@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K429-K77-COVARIANT-INCOMING-DOMAIN-GREEN",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "A conditional real rank-two reduction of the source-attested K77 covariant differential D_B on [0,1], with an explicitly chosen incoming H1 boundary domain. The differential form is action-owned; the reduction, coefficient and boundary condition are not source-selected.",
+  "gu_typed_objects": {
+    "result": "variable covariant incoming-domain Green theorem",
+    "carrier": "H1([0,1],R2) -> L2([0,1],R2); LAYER=conditional action reduction; CHIRALITY=N/A",
+    "pairing": "standard real L2 pairing and endpoint Green form",
+    "real_structure": "real orthogonal rank-two bundle",
+    "grading": "one-dimensional covariant field degree",
+    "action_owner": "source-attested D_B covariant derivative form; rank-two transport U and boundary domain are repository choices",
+    "target": "closed domain, range, Green inverse and adjoint boundary MAP-TYPE=unbounded-covariant-differential"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "AC-F1", "RA-F1"],
+    "ledger_effect": "none",
+    "prior_action_boundary": "lab/process/selected-first-order-epsilon-preboundary-compose.json",
+    "prior_functional_boundary": "lab/process/k428-k77-l2-rank-jump-closed-range-boundary.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Use exact orthogonal gauge transport before estimating a variable operator numerically; it decides domain, range, Green and pairing statements at once.",
+    "retrieval_collision_result": "The prior action result proves a compact fixed-metric Dirichlet Green graph but does not serialize an explicit variable coefficient, its inverse or its adjoint boundary domain. K428 treats a non-action-owned multiplier with nonclosed range.",
+    "strongest_alternative": "The full 3860-dimensional K77 Calderon/maximal-dissipative problem has greater physical reach but remains dependency-limited by the moving reality and selected boundary projector."
+  },
+  "variable_connection": {
+    "transport": "U(t)=(1+t^2)^-1 [[1-t^2,-2t],[2t,1-t^2]]",
+    "connection": "A(t)=-U'(t)U(t)^T=[[0,2/(1+t^2)],[-2/(1+t^2),0]]",
+    "orthogonal": true,
+    "skew_connection": true,
+    "variable": true,
+    "conjugation": "D_A(Uv)=U v'"
+  },
+  "incoming_domain_result": {
+    "domain": "u in H1 with u(0)=0",
+    "closed_dense": true,
+    "kernel_dimension": 0,
+    "cokernel_dimension": 0,
+    "range": "all L2([0,1],R2)",
+    "green_formula": "G_in f(t)=U(t) integral_0^t U(s)^T f(s) ds",
+    "green_l2_norm": "2/pi",
+    "bounded_l2_to_h1": true
+  },
+  "pairing_result": {
+    "green_identity": "<D_Au,v>+<u,D_Av>=[u.v]_0^1",
+    "adjoint_domain": "v in H1 with v(1)=0",
+    "outgoing_green": "G_out f(t)=-U(t) integral_t^1 U(s)^T f(s) ds",
+    "adjoint_relation": "G_in^*=-G_out"
+  },
+  "decision": {
+    "variable_action_connection_alone_destroys_closed_range": false,
+    "explicit_incoming_boundary_closes_range": true,
+    "bounded_green_inverse_exists": true,
+    "next_exact_input": "Classify boundary conditions by the same connection holonomy, then require any observed projector to be parallel and boundary-compatible before claiming descent."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the rank-two incoming domain the source-selected physical K77 domain or its Green inverse a physical propagator.",
+    "strongest_contrary_construction": "K430 shows the same differential acquires kernel and cokernel under a monodromy-matched twist, so the boundary choice is load-bearing.",
+    "weakest_reproducibility_seam": "The conjugation and Green formula are exact; transfer to full K77 requires a typed invariant rank-two subbundle and an action-selected boundary law."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k429_k77_covariant_incoming_domain_green.py",
+    "probe": "tests/channel-swings/k429_k77_covariant_incoming_domain_green_probe.py",
+    "controls_passed": 22,
+    "hostile_mutations_rejected": 18
+  },
+  "claim_ceiling": "Exact closed-domain and Green theorem for one conditional rank-two variable K77 covariant differential. The incoming H1 realization is bijective onto L2, its Volterra inverse has norm 2/pi, and the paired outgoing domain gives the exact Green adjoint. This does not select the rank-two reduction or boundary condition, construct the full K77 operator, Calderon projector, BV/BFV quotient, positive physical domain, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

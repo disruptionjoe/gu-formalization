@@ -20,6 +20,24 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K429--K431 VARIABLE COVARIANT DOMAIN AND OBSERVATION DESCENT.**
+> K429 instantiates a source-admitted conditional rank-two K77 covariant
+> differential with exact variable skew connection `A=-U'U^T`. The incoming
+> `H1` domain is bijective onto `L2`; its transported Volterra Green inverse
+> has norm `2/pi`, and the paired outgoing domain satisfies the exact endpoint
+> Green identity. K430 classifies orthogonal twisted domains by relative
+> holonomy: the identity twist is invertible, while the monodromy-matched twist
+> has kernel and cokernel dimension two. K431 proves that same-carrier
+> observation descent requires `P'+[A,P]=0` plus boundary compatibility; the
+> transported rank-one projector intertwines the incoming Green operator and
+> preserves the matched twist, while a constant projector and the identity
+> twist fail their respective tests. Their probes pass `22/22`, `20/20`, and
+> `23/23` controls and reject `18/18`, `16/16`, and `19/19` hostile mutations.
+> Next derive a source/action-selected invariant subbundle or typed map to the
+> corrected observed carrier and an action-selected boundary projector. Do not
+> promote the conditional reduction, twists or rank-one kernel to physical
+> BV/BFV cohomology, chirality, family count or a GU verdict.
+
 > **2026-09-24 K426--K428 FUNCTIONAL EXACTNESS AND RANK-JUMP CATEGORY
 > BOUNDARY.** K426 gives the canonical `21 -> 91 -> 70` split exact fixture an
 > explicit norm-one contracting homotopy. Every unchanged constant lift to a

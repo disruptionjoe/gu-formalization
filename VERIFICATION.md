@@ -7,6 +7,30 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K429--K431 variable covariant domain, holonomy and observation descent (2026-09-24)
+
+K429 verifies an exact rational orthogonal transport at five independent
+points on `[0,1]`, including both endpoints. Its derived connection is skew
+and nonconstant, satisfies `U'+AU=0`, and conjugates `D_A=d/dt+A(t)` to the
+ordinary derivative. The resulting theorem gives the incoming `H1` domain a
+two-sided transported Volterra inverse with exact `L2` norm `2/pi`; the
+outgoing adjoint domain and endpoint Green identity follow from skewness.
+
+K430 verifies the exact relative-twist matrices for two boundary conditions.
+For `R=I`, `det(S-I)=2` and the operator is invertible. For `R=U(1)`, `S=I`,
+so kernel and cokernel both have dimension two. The general fixed-space and
+range formulas follow by conjugating to the derivative and integrating once.
+
+K431 verifies the projector identity at the same exact rational controls.
+`P(t)=U(t)diag(1,0)U(t)^T` is rank-one, orthogonal and parallel, commutes with
+the incoming Green operator, and preserves the monodromy-matched boundary.
+The constant projector has rank-two commutator defect, while the parallel
+projector fails the identity-twist boundary law. The probes pass `22/22`,
+`20/20`, and `23/23` controls and reject `18/18`, `16/16`, and `19/19`
+hostile mutations. These exact conditional results do not identify a full K77
+invariant subbundle, source-selected boundary projector, corrected Clifford
+observation, or physical cohomology.
+
 ## K426--K428 functional exactness and rank-jump category boundary (2026-09-24)
 
 K426 verifies the canonical split form of K419's finite complex: `d0` injects
