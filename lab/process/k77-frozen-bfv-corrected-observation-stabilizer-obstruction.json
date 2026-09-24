@@ -9,18 +9,25 @@
   "typed_objects": {
     "source": "tangent to the full so(7,7) gauge orbit at the published frozen distortion",
     "source_dimension": 70,
-    "target": "the supplied corrected-observation trace lift im(j_B), identified only with the full K77 real spinor trace carrier S for this frozen representation test",
+    "target": "the supplied abstract corrected-observation trace lift im(j_B), conditionally realized as the full K77 real spinor carrier S for this frozen representation test",
     "target_dimension": 128,
     "pairing": "none used; the selected Green pairing and common analytic domain remain open",
     "real_structure": "published real Cl(7,7) spinor restricted to the odd-axis Spin(3,4) stabilizer",
     "grading": "odd-axis stabilizer type: trivial/vector source summands versus spinor target summands",
     "action_owner": "published frozen K77 full BFV action fixture"
   },
+  "assumptions": {
+    "trace_carrier_realization": "choose the abstract corrected-observation trace carrier S to be the full irreducible real 128-spinor of Cl(7,7); this realization is tested, not source-selected",
+    "stabilizer_action": "restrict the standard Spin(7,7) spin action to the published odd-axis Spin(3,4) stabilizer",
+    "map_class": "real linear odd-axis so(3,4)-equivariant maps from the full frozen orbit tangent to im(j_B)",
+    "background": "the one published frozen distortion at which the BFV orbit has rank 70"
+  },
   "input_audit": {
     "bfv_evidence": "lab/process/selected-k77-full-bfv-master-equation-gate.json",
     "slice_evidence": "lab/process/corrected-observation-gauge-slice-green-compatibility.json",
     "quotient_evidence": "lab/process/corrected-observation-quotient-slice-compatibility.json",
     "green_dimension_evidence": "lab/process/selected-k77-coupled-green-domain.json",
+    "K77_real_spinor_type_evidence": "lab/process/w154-w229-k77-action-owner-qualification.json",
     "gauge_algebra": "so(7,7)",
     "gauge_dimension": 91,
     "stabilizer": "odd-axis so(3,4)",
@@ -111,5 +118,5 @@
     "no_green_domain_claim": true,
     "no_source_ledger_canon_paper_public_or_physical_effect": true
   },
-  "claim_ceiling": "Exact representation-theoretic obstruction for an odd-axis so(3,4)-equivariant linear map from the published full rank-70 frozen BFV orbit to the supplied full 128-spinor corrected-observation trace lift: the source is 21 trivial plus seven vector modules, the target is spinor-isotypic, and disjoint quadratic-Casimir spectra force Hom=0. This does not obstruct quotient descent with a different target differential, a reduced gauge image, a non-equivariant or symmetry-broken choice, a moving-background differential, proper BFV cohomology, a different source-owned complement, or any Green-domain construction. No source, ledger, canon, paper, public, novelty or physical GU verdict follows."
+  "claim_ceiling": "Exact representation-theoretic obstruction for an odd-axis so(3,4)-equivariant linear map from the published full rank-70 frozen BFV orbit to the conditional realization of the abstract corrected-observation trace lift as the full real 128-spinor: the source is 21 trivial plus seven vector modules, the target is spinor-isotypic, and disjoint quadratic-Casimir spectra force Hom=0. The full-spinor trace realization is tested, not source-selected. This does not obstruct quotient descent with a different target differential, a reduced gauge image, a non-equivariant or symmetry-broken choice, a moving-background differential, proper BFV cohomology, a different source-owned complement, or any Green-domain construction. No source, ledger, canon, paper, public, novelty or physical GU verdict follows."
 }
