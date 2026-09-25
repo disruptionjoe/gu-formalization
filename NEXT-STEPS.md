@@ -20,6 +20,24 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K435--K437 FULL-CARRIER BOUNDARY COMPATIBILITY.** K435
+> serializes and replays the actual deterministic H640 basis, rank-640
+> observation map/inverse and rank-1920 ambient lift/projector over GF(1009)
+> and GF(1013). K436 constructs the actual selected-K77 rank-1920 time/normal
+> symbols on the declared oriented `x7=0` face, yielding rank-960 ambient and
+> rank-320 H640 incoming projectors with exact orientation reversal. K437
+> compares the transported projector with the corrected Clifford projector on
+> the actual rank-640 observed carrier. Their intersection has rank 192, but
+> the commutator has rank 256 and both preservation defects have rank 128, so
+> the ordered product is not an intersection projector and no common Green
+> domain is proved. The probes pass `18/18`, `18/18`, and `14/14` controls and
+> reject `17/17`, `18/18`, and `14/14` hostile mutations. Next derive an
+> action-owned modified split or boundary law with mutually preserved ranges,
+> then establish closed-domain, Green, constraint and nonlinear BV/KT
+> compatibility. Do not select a fitted repair or promote this conditional
+> principal-symbol obstruction to physical cohomology, chirality, family
+> count, source/ledger/canon/public movement or a GU verdict.
+
 > **2026-09-24 K432--K434 H640 OBSERVED BOUNDARY COMPOSITION.** K432
 > constructs an exact rational two-carrier representative in which an
 > H640-like observation isomorphism intertwines K429's variable differential,

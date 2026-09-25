@@ -7,6 +7,32 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K435--K437 full-carrier boundary compatibility (2026-09-24)
+
+K435 verifies the actual deterministic H640 construction on the conditional
+rank-1920 selected-K77 principal carrier over GF(1009) and GF(1013). The H640
+basis and coordinate-observation restriction have rank 640, the restriction
+is invertible, and the resulting ambient lift and graph projector satisfy the
+two inverse/intertwining laws. Exact shapes, ranks, nonzero counts, generator
+recipe, pivot digest and matrix content digests provide a factorized replay.
+
+K436 verifies the full `D_0` time symbol and `D_7` normal symbol for the
+declared outward conormal `+dx7`. The reduced symbol squares to the identity;
+the incoming/outgoing projectors are complementary rank-960 idempotents. H640
+is invariant and transport through K435 gives complementary rank-320 observed
+projectors. Reversing the conormal exchanges the two halves.
+
+K437 verifies the corrected Clifford projector on the same rank-640 observed
+carrier and compares it with K436's incoming projector. In both
+characteristics their ranks are 512 and 320 and their linear intersection has
+rank 192, but the commutator has rank 256. Each mutual range-preservation
+defect and the ordered-product idempotence defect has rank 128. The probes pass
+`18/18`, `18/18`, and `14/14` controls and reject `17/17`, `18/18`, and
+`14/14` hostile mutations. Therefore no canonical product intersection
+projector or common corrected Green domain is proved. These exact results are
+conditional principal-symbol certificates, not a nonlinear BV/KT complex,
+global physical boundary domain or physical cohomology.
+
 ## K432--K434 H640 observed boundary composition (2026-09-24)
 
 K432 verifies an exact rational two-carrier rank-two fixture representing the

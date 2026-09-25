@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K435--K437 full-carrier boundary compatibility
+
+- `channel-swings/k435_k77_full_h640_observed_map.py` and its probe reconstruct
+  the deterministic rank-640 H640 basis inside the rank-1920 principal
+  carrier and certify the actual observation map, inverse lift and graph
+  projector by exact factorized replay and content digests.
+- `channel-swings/k436_k77_full_action_boundary_projector.py` and its probe
+  instantiate the full time/normal symbols on the oriented `x7=0` face and
+  verify the rank-960 ambient and rank-320 H640 incoming projectors.
+- `channel-swings/k437_k77_clifford_boundary_compatibility.py` and its probe
+  compare the incoming and corrected-Clifford projectors on the actual
+  observed carrier, preserving their rank-256 commutator and rank-128 mutual
+  preservation defects as the scoped common-domain obstruction.
+
 ## K432--K434 H640 observed boundary composition
 
 - `channel-swings/k432_k77_h640_observed_covariant_intertwiner.py` and its

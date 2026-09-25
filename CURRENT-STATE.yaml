@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d15f311bc379
+revision_basis: 136fbdec0ed3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,34 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K435--K437 now replace the compressed bridge and rank-four boundary proxy
+    with the actual conditional selected-K77 principal carriers. K435 gives a
+    deterministic factorized serialization of the rank-640 H640 basis, the
+    invertible rank-640 coordinate-observation restriction, its rank-1920
+    ambient inverse lift and the rank-640 graph projector over GF(1009) and
+    GF(1013). The cross-characteristic shape/rank fingerprint agrees and all
+    matrices carry reproducible content digests. This closes the finite
+    principal-carrier serialization gap, not the nonlinear BV/KT map.
+
+    K436 fixes the declared oriented face `x7=0` with outward conormal `+dx7`
+    and constructs the actual rank-1920 time and normal symbols. Their reduced
+    symbol is involutive, the ambient incoming projector has rank 960, H640 is
+    preserved, and transport through K435 gives an idempotent rank-320
+    observed incoming projector. Normal reversal exchanges incoming and
+    outgoing halves. The face remains a conditional test boundary rather than
+    a source-selected physical boundary.
+
+    K437 compares that incoming projector with the corrected Clifford
+    projector on the actual rank-640 observed carrier. The corrected range has
+    rank 512 and the set-theoretic linear intersection has rank 192, but the
+    projector commutator has rank 256; each mutual preservation defect and the
+    ordered-product idempotence defect has rank 128 in both characteristics.
+    Thus the simple product is not a canonical intersection projector and no
+    common corrected Green domain is derived. The next exact input is an
+    action-owned modified split or boundary law with mutually preserved
+    ranges, followed by closed-domain, Green, constraint and nonlinear BV/KT
+    compatibility.
+
     K432--K434 now compose and delimit the first typed cross-carrier boundary
     continuation after K429--K431. K432 gives an exact rational rank-two
     representative of the inherited H640-to-observed rank-640 isomorphism
@@ -10355,6 +10383,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K435 as the exact conditional full-carrier bridge: the deterministic
+  H640 basis, rank-640 observation map and inverse, rank-1920 ambient lift and
+  graph projector are now serialized and replayed cross-characteristically.
+  Treat K436 as the exact conditional full-symbol boundary split on the
+  declared oriented `x7=0` face: the action-derived incoming projector has
+  rank 960 ambient and rank 320 on H640, and orientation remains load-bearing.
+  Treat K437 as the exact compatibility obstruction on the actual observed
+  carrier: the corrected Clifford and incoming projectors have a rank-192
+  linear intersection but a rank-256 commutator and rank-128 mutual
+  preservation defects, so their product is not an intersection projector and
+  no common Green domain follows. Next derive an action-owned modified split
+  or boundary law whose projectors mutually preserve their ranges, then prove
+  closedness, Green compatibility, constraint invariance and compatibility
+  with the nonlinear BV/Koszul--Tate differential. Do not fit a repair to the
+  fixture or promote the principal-symbol result to physical cohomology,
+  chirality, family count or a GU verdict.
+
   Treat K432 as an exact conditional two-carrier composition witness: an
   H640-like observation isomorphism can intertwine the variable differential,
   incoming domain, parallel projector and Green square when the pairing is

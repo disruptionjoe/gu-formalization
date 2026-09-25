@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K437-K77-CLIFFORD-BOUNDARY-COMPATIBILITY",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact cross-characteristic comparison of the corrected Clifford projector and K436 incoming boundary projector on the actual rank-640 observed carrier. It finds a rank-192 linear intersection but proves noncommutation and rank-128 mutual preservation defects, so the simple product does not define the required common projected Green domain.",
+  "gu_typed_objects": {
+    "result": "corrected-Clifford versus incoming-boundary compatibility obstruction",
+    "carrier": "observed one-form-spinor rank 512 plus zero-form spinor rank 128; LAYER=principal-symbol fixture; CHIRALITY=N/A",
+    "constraint": "Gamma_B on observed one-form-spinors with right inverse j_B",
+    "corrected_projector": "diag(I_512-j_B Gamma_B, I_128), rank 512",
+    "boundary_projector": "K436 transported incoming projector, rank 320",
+    "composition": "ordered product of two noncommuting projectors",
+    "target": "common corrected incoming domain MAP-TYPE=projector-intersection-test"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "map_input": "lab/process/k435-k77-full-h640-observed-map.json",
+    "boundary_input": "lab/process/k436-k77-full-action-boundary-projector.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Test mutual range preservation and commutation before treating the product as an intersection projector or common domain.",
+    "retrieval_collision_result": "Prior corrected-observation and boundary artifacts supplied separate conditional structures; none compared both exact projectors on the same actual rank-640 carrier.",
+    "strongest_alternative": "Selecting a fitted modified split could remove the defect, but no action-owned repair criterion is currently available."
+  },
+  "cross_characteristic_result": {
+    "primes": [1009, 1013],
+    "rank_fingerprint": {
+      "observed_carrier": 640,
+      "corrected_clifford_range": 512,
+      "corrected_trace_lift": 128,
+      "incoming_boundary_range": 320,
+      "common_intersection": 192,
+      "incoming_trace_lift_intersection": 0,
+      "commutator": 256,
+      "boundary_preservation_defect": 128,
+      "corrected_preservation_defect": 128,
+      "ordered_product": 320,
+      "ordered_product_idempotence_defect": 128,
+      "gamma_on_incoming": 128
+    },
+    "gf1009_digests": {
+      "corrected_projector": "sha256:31749251f6a471764356cc3dff4d0cebedd9cad35c26945e0d62f433dbaded76",
+      "incoming_projector": "sha256:3079a08082f1e605f71e483a88c1dc31ea30361dc8ad83bfec845db632ada0d3",
+      "commutator": "sha256:e966434450e6b0ea76d4276bacac4f5d06452349680c46c7c9a545ced302b638"
+    },
+    "gf1013_digests": {
+      "corrected_projector": "sha256:8ceca744858d107cadde500146f1c6f253dc6b444336d86a07b4834339a55e33",
+      "incoming_projector": "sha256:5e32128a7e5d98c99d8a143ecc5ed374e6563d1138fe8016ecef391cb8d18136",
+      "commutator": "sha256:41136270ea4c120e8b9e9a6992ebf596f8d2b18c15ecb96cc3054711959715cd"
+    }
+  },
+  "decision": {
+    "corrected_clifford_projector_constructed_on_actual_observed_carrier": true,
+    "boundary_and_corrected_projectors_commute": false,
+    "boundary_preserves_corrected_range": false,
+    "corrected_split_preserves_incoming_boundary_range": false,
+    "canonical_product_intersection_projector_constructed": false,
+    "nontrivial_set_theoretic_linear_intersection_exists": true,
+    "common_green_domain_derived": false,
+    "repair_selected": false,
+    "next_exact_input": "Derive an action-owned modified split or boundary law whose projectors mutually preserve their ranges, then prove the intersection is closed, Green-compatible, constraint-invariant and compatible with the nonlinear BV/Koszul-Tate differential."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Treating a rank-192 set-theoretic intersection as a canonical projected Green domain despite noncommutation and nonzero preservation defects.",
+    "strongest_contrary_construction": "The commutator has rank 256, each mutual preservation defect has rank 128 and the ordered-product idempotence defect has rank 128 in both characteristics.",
+    "weakest_reproducibility_seam": "The obstruction is exact for the conditional principal-symbol fixture, but an action-owned lower-order repair law and global analytic closure are absent."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k437_k77_clifford_boundary_compatibility.py",
+    "probe": "tests/channel-swings/k437_k77_clifford_boundary_compatibility_probe.py",
+    "controls_passed": 14,
+    "hostile_mutations_rejected": 14
+  },
+  "claim_ceiling": "Exact cross-characteristic principal-symbol obstruction on the actual rank-640 observed carrier: the corrected Clifford and incoming boundary projectors have a rank-192 linear intersection but do not commute or mutually preserve ranges, so their ordered product is not an intersection projector and no common Green domain is derived. This does not exclude an action-owned modified split, and it establishes no nonlinear BV/KT cohomology, physical boundary, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K435-K77-FULL-H640-OBSERVED-MAP",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact factorized serialization of the deterministic H640 basis, coordinate-observation restriction, inverse lift and graph projector inside the conditional rank-1920 selected-K77 principal carrier. It replaces the earlier compressed rank-two stand-in but does not construct the missing lower-order BV/Koszul-Tate differential or physical cohomology.",
+  "gu_typed_objects": {
+    "result": "full-carrier H640-to-observed isomorphism and ambient graph projector",
+    "carrier": "conditional selected-K77 principal carrier of rank 1920 over GF(1009) and GF(1013); LAYER=principal-symbol fixture; CHIRALITY=N/A",
+    "seed": "source-owned Omega0 spinor coordinate seed of rank 128",
+    "observation": "coordinate restriction to slots 0,7,8,9,14",
+    "inverse": "H640 basis times the inverse of the restricted observation map",
+    "grading": "one-form slots plus zero-form slot",
+    "target": "observed rank-640 carrier MAP-TYPE=exact-factorized-linear-isomorphism"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "prior_intertwiner": "lab/process/k432-k77-h640-observed-covariant-intertwiner.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Reconstruct the actual deterministic full-carrier map before testing any boundary or corrected-Clifford compatibility.",
+    "retrieval_collision_result": "Earlier H640 probes generated compatible full matrices but did not serialize the actual observation restriction, inverse lift and graph projector as a reusable certificate.",
+    "strongest_alternative": "A nonlinear BV/KT quasi-isomorphism would have greater physical reach, but the required lower-order differential and global domain remain absent."
+  },
+  "serialization_contract": {
+    "ordered_generators": ["1", "E7", "E8", "E9", "E7E8", "E7E9", "E8E9", "E7E8E9"],
+    "basis_rule": "concatenate each ordered generator word applied to the 128-column zero-form seed, then retain Sage pivot columns in deterministic order",
+    "observed_slots": [0, 7, 8, 9, 14],
+    "pivot_count": 640,
+    "pivot_sha256": "sha256:59301db6310920535eebff32a5cd3667c18b3382aed0a4673029af1954303a4d",
+    "matrix_shape_rank_fingerprint": {
+      "h640_basis": [[1920, 640], 640, 7296],
+      "coordinate_observation": [[640, 1920], 640, 640],
+      "restricted_observation_map": [[640, 640], 640, 2176],
+      "restricted_observation_inverse": [[640, 640], 640, 2176],
+      "ambient_inverse_lift": [[1920, 640], 640, 5760],
+      "ambient_graph_projector": [[1920, 1920], 640, 5760]
+    },
+    "gf1009_digests": {
+      "h640_basis": "sha256:b288425ca040d03b5f1e96303f2fb34e29ace9efa7b8b326e66917e272dccb55",
+      "restricted_observation_map": "sha256:b216ecce64b1bb7562cd8e1db64df209a2425138f6c23705e36ab5c7d462ab45",
+      "restricted_observation_inverse": "sha256:6662e3996500512adfe23e3ca1a57b96ef403864650b669d4925d61dfa581b02",
+      "ambient_inverse_lift": "sha256:e3c6fabfd7270236a8062b10eaca08e39dcf878c2920252d99f45520e35cb307",
+      "ambient_graph_projector": "sha256:ab556696a42267eed1b0930b7494466ad77590484e9f8c1d872875a3d0e9347e"
+    },
+    "gf1013_digests": {
+      "h640_basis": "sha256:b91dd1338b9d6e985ce9035c462a63461daa84376a7794f8c356dec985d972b2",
+      "restricted_observation_map": "sha256:5e5f50f976eba974d6f5f82f0379b63d3363cd8a0d54ecd1fa94dac0dc0b4a9e",
+      "restricted_observation_inverse": "sha256:2574d8a323a0432c370420b808f073f8d50badd374b512c2099e3f854f3c2fbc",
+      "ambient_inverse_lift": "sha256:de3fc0da5034da860c9931f36996f05e3541da31f253b9b2c5752912208cc243",
+      "ambient_graph_projector": "sha256:e7c79c859487f1a1a5de4b1aa90634f9a65baf05eba706c19215714f5a1a8a71"
+    }
+  },
+  "decision": {
+    "actual_rank_640_observation_map_constructed": true,
+    "actual_rank_1920_ambient_inverse_lift_constructed": true,
+    "actual_rank_1920_graph_projector_constructed": true,
+    "compressed_rank_two_surrogate_needed": false,
+    "full_lower_order_bv_kt_differential_constructed": false,
+    "physical_cohomology_constructed": false,
+    "next_exact_input": "Instantiate the actual action time/normal symbols and incoming projector on a specified oriented observed boundary."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling a principal-symbol carrier isomorphism a BV/KT quasi-isomorphism or physical-state identification.",
+    "strongest_contrary_construction": "The deterministic H640 basis is not coordinate-equal to the observed slot lift even though the restricted observation map is invertible.",
+    "weakest_reproducibility_seam": "The exact matrices are factorized through executable Sage construction and digests rather than expanded JSON entries."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k435_k77_full_h640_observed_map.py",
+    "probe": "tests/channel-swings/k435_k77_full_h640_observed_map_probe.py",
+    "controls_passed": 18,
+    "hostile_mutations_rejected": 17
+  },
+  "claim_ceiling": "Exact cross-characteristic factorized construction of the deterministic H640 basis, rank-640 observation map and inverse, rank-1920 ambient lift and rank-640 graph projector for the conditional selected-K77 principal fixture. This is not a nonlinear BV/KT map, common Green domain, physical cohomology, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}
