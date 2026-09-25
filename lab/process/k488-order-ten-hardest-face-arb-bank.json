@@ -1,0 +1,1522 @@
+{
+  "bank_summary": {
+    "all_22_hybrids_executed": true,
+    "all_66_controls_finite": true,
+    "all_controls_retain_28_group_digests": true,
+    "complete_bank_sha256": "sha256:ceb54d9670190fbf2e3252d54f95f5df5dd6c3feee39adbf2c831e46296d7b40",
+    "every_control_has_positive_argument_floor": true
+  },
+  "claim_ceiling": "Rigorous 180-digit Arb positive-approach controls for the selected K487 program in all 22 order-ten hybrid domains at rho=1/1024, 1/2048 and 1/4096. All 13,300 ordered descriptors and 28 coherent groups are assembled per control before scaling. These 66 controls are not face intervals, all-face evaluations, a recursive cover, analytic tails, hybrid integrals, a complete order-ten remainder, K457 cross value, K152 interval, source/ledger move, canon, paper, public or physical claim.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K487_compiled_programs_numerically_exercised": true,
+    "all_936_faces_numerically_evaluated": false,
+    "analytic_radial_tails_complete": false,
+    "complete_hybrid_integrals_emitted": false,
+    "next_exact_input": "replace approach controls by K485 row/column-scaled and confluent interval face cells, extend to all 936 faces, then join recursive positive-interior cells and analytic tails",
+    "preconditioned_interval_face_evaluator_complete": false,
+    "recursive_positive_interior_cover_complete": false,
+    "selected_boundary_or_interior_complete_coherent_arb_bank_executed": true
+  },
+  "direction": "observed_to_native",
+  "execution_contract": {
+    "K410_peano_majorant_applied_after_complete_assembly": true,
+    "K485_K486_template_programs_replayed_by_pointer": true,
+    "all_28_coherent_groups_assembled_before_reported_enclosure": true,
+    "all_ordered_orientations_retained": true,
+    "all_other_raw_times_fixed_at_1_over_256": true,
+    "controls_are_not_a_recursive_cover": true,
+    "controls_are_not_face_intervals": true,
+    "controls_are_not_integrated_hybrid_remainders": true,
+    "each_zeroed_axis_receives_rho_over_codimension": true,
+    "normal_scaling_applied_after_complete_assembly": true,
+    "positive_normal_approach_only": true,
+    "raw_Bessel_evaluation_at_zero_used": false
+  },
+  "fixed_control": {
+    "K487_complete_program_bank_sha256": "sha256:a67d0004f5f3b8072c9ab0fd4213ccb2ca8bd050430701bbb9fabb16e642e7db",
+    "arb_decimal_digits": 180,
+    "complete_arb_controls": 66,
+    "hybrid_terms": 22,
+    "native_axes": [
+      "s1",
+      "s2",
+      "s3",
+      "s4",
+      "s5",
+      "s6",
+      "s7",
+      "s8",
+      "s9",
+      "s10",
+      "s11",
+      "v1",
+      "v2",
+      "v3",
+      "v4",
+      "v5",
+      "v6",
+      "v7",
+      "v8",
+      "v9",
+      "v10",
+      "v11"
+    ],
+    "normal_levels_per_program": 3,
+    "ordered_descriptor_control_evaluations": 877800,
+    "ordered_descriptors_per_control": 13300,
+    "positive_interior_fallback_programs_executed": 2,
+    "predecessor_manifests": [
+      "lab/process/k410-order-ten-zero-safe-radial-contract.json",
+      "lab/process/k487-order-ten-face-program-compiler.json"
+    ],
+    "reachable_face_programs_executed": 20,
+    "selected_boundary_or_interior_programs": 22,
+    "threads": 1
+  },
+  "hardest_face_arb_controls": [
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s1",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "3.707746724527611e+17",
+          "all_28_group_intervals_sha256": "sha256:d00f8c928d7a5de77b30b3a35f95d1c2c0ca4c5a032364b970ff62db3bb82faa",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.85981778677283e+22",
+          "complete_second_derivative_lower": "-4.85981778677283e+22",
+          "complete_second_derivative_upper": "4.85981778677283e+22",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "4.745915807395342e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.0930640591869652e+18",
+          "all_28_group_intervals_sha256": "sha256:f8c00bd6dd0798397b2aae9e626dff01c0f7ac4a466f86ed8fac3e2f12c1816d",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.4327009236575391e+23",
+          "complete_second_derivative_lower": "-1.4327009236575391e+23",
+          "complete_second_derivative_upper": "1.4327009236575391e+23",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "6.9956099787965776e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.65921343948615e+18",
+          "all_28_group_intervals_sha256": "sha256:8a5381fe044556c5f942de0620875d8cb1e3043c65c9dba8b292186f25f8680f",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.485484239403287e+23",
+          "complete_second_derivative_lower": "-3.485484239403287e+23",
+          "complete_second_derivative_upper": "3.485484239403287e+23",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "8.50948300635568e+19"
+        }
+      ],
+      "face_id": "s1:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:9674c9027b212fc22db57e60111972af6b9d619dfae627ce7213ba703d98cef0",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s1:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.4740274085552976",
+        "1.2164032917997993"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s2",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.5092771437632912e+17",
+          "all_28_group_intervals_sha256": "sha256:8bbf88456920a18a51c23864b8384cfa61debc9bb90a9a09626d4b0847205d40",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.978239737873421e+22",
+          "complete_second_derivative_lower": "-1.978239737873421e+22",
+          "complete_second_derivative_upper": "1.978239737873421e+22",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "1.9318747440170127e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.1177141786576966e+17",
+          "all_28_group_intervals_sha256": "sha256:766f94c58831b223fb7f29d5aea0f8bdf28f6437dbe4d9ec86c8cf5a83fa39ff",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.707890328250216e+22",
+          "complete_second_derivative_lower": "-6.707890328250216e+22",
+          "complete_second_derivative_upper": "6.707890328250216e+22",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "3.275337074340926e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.3257478469432497e+18",
+          "all_28_group_intervals_sha256": "sha256:58be09c07c44533284ba78454650c17f1219ff272ed2f29a7290d55e8ab93267",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.7376842179454562e+23",
+          "complete_second_derivative_lower": "-1.7376842179454562e+23",
+          "complete_second_derivative_upper": "1.7376842179454562e+23",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "4.242393110218399e+19"
+        }
+      ],
+      "face_id": "s2:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:e27db6c535296c4f44a8cb18d868fac76a1c25eee522c94d7e84a8cb5b5a19ae",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s2:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.6954189625826397",
+        "1.295253897210585"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s3",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.604061532838949e+17",
+          "all_28_group_intervals_sha256": "sha256:8dabac3cd9dd81aed477deaf684655696a22635fe2139dc025df0c60ad896dcf",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.1024755323226674e+22",
+          "complete_second_derivative_lower": "-2.1024755323226674e+22",
+          "complete_second_derivative_upper": "2.1024755323226674e+22",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "2.053198762033855e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.316774818466745e+17",
+          "all_28_group_intervals_sha256": "sha256:06e4973c0d0dc365ff8e3b5b708fef39103e4e3a110f904e61bdb9fef507f1de",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.968803090060732e+22",
+          "complete_second_derivative_lower": "-6.968803090060732e+22",
+          "complete_second_derivative_upper": "6.968803090060732e+22",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "3.4027358838187168e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.3543549550992855e+18",
+          "all_28_group_intervals_sha256": "sha256:c18a368f6fb8b8e5f116f9b000d792fed765d0ca560b292b0165de0f32450d6a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.7751801267477355e+23",
+          "complete_second_derivative_lower": "-1.7751801267477355e+23",
+          "complete_second_derivative_upper": "1.7751801267477355e+23",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "4.333935856317714e+19"
+        }
+      ],
+      "face_id": "s3:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:0d58a3017815c183b88c9a77176654346e2dff0b9d413d28d5072b6a9f486b7c",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s3:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.6572851819022332",
+        "1.273662136672788"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s4",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.5763643036988154e+17",
+          "all_28_group_intervals_sha256": "sha256:a2d360c4ad513b7e0c7f7d2e57f0a7ba641b25c62928e83be43315a754991115",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.309052220144111e+22",
+          "complete_second_derivative_lower": "7.30905222014411e+22",
+          "complete_second_derivative_upper": "7.309052220144111e+22",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "7.137746308734484e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.2911951585871895e+18",
+          "all_28_group_intervals_sha256": "sha256:babea7ec7ef5ce3b706c371ce4eb29905d6dae464b844c1b6404a8093dc6038a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.692395318263401e+23",
+          "complete_second_derivative_lower": "1.6923953182634004e+23",
+          "complete_second_derivative_upper": "1.692395318263401e+23",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "8.263649014958013e+19"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.69957308530092e+18",
+          "all_28_group_intervals_sha256": "sha256:e74154be75527fc4c10c0eb6ef3bd436954f9ef909edfbf1e9223847fc9ed649",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.5383844343656216e+23",
+          "complete_second_derivative_lower": "3.53838443436562e+23",
+          "complete_second_derivative_upper": "3.5383844343656216e+23",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "8.638633872962943e+19"
+        }
+      ],
+      "face_id": "s4:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:76ee00e7eb524a2ec1bbcfca1c907529bed0c58e0a8a875fd3bde2b15c4f08cb",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s4:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.1577392439467566",
+        "1.045377636117673"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s5",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.6087905558799245e+18",
+          "all_28_group_intervals_sha256": "sha256:cde646da1e22e8abf26be3cebdd9aba3f98c76eb2d0a3c304fa936722b7f2845",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.1086739574029346e+23",
+          "complete_second_derivative_lower": "-2.1086739574029346e+23",
+          "complete_second_derivative_upper": "2.1086739574029346e+23",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "2.0592519115263033e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "4.711150534510262e+18",
+          "all_28_group_intervals_sha256": "sha256:80100b6aec66435fbb97b380ae9b055e7d25dd22e374b79f1b673ae568783eb1",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.174999228593291e+23",
+          "complete_second_derivative_lower": "-6.174999228593291e+23",
+          "complete_second_derivative_upper": "6.174999228593291e+23",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "3.015136342086568e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.1401899843825031e+19",
+          "all_28_group_intervals_sha256": "sha256:eb4087066111237d0f76c45767dd17b664e2c501bc15bcfd4527ae6e0a288ff6",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.4944698163298345e+24",
+          "complete_second_derivative_lower": "-1.4944698163298345e+24",
+          "complete_second_derivative_upper": "1.4944698163298345e+24",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "3.64860795002401e+20"
+        }
+      ],
+      "face_id": "s5:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:0d1c803e2fa1a7f89cafc8a9cab3b774cc15708558ac7b1ea2b52e94e337044d",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s5:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.4641901387634357",
+        "1.2100971684414976"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s6",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.3828149825107249e+18",
+          "all_28_group_intervals_sha256": "sha256:ba10db4f2a8ec4841c8328847ef3781df279b64c99695b9f9378ba67bb5218ad",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.8124832538764573e+23",
+          "complete_second_derivative_lower": "-1.8124832538764573e+23",
+          "complete_second_derivative_upper": "1.8124832538764573e+23",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "1.7700031776137278e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "3.881672384046826e+18",
+          "all_28_group_intervals_sha256": "sha256:f8d206bf2e62f7f558a3d129fc96c52b516efb56a20db744630fa17f644d6c73",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.087785627217856e+23",
+          "complete_second_derivative_lower": "-5.087785627217856e+23",
+          "complete_second_derivative_upper": "5.087785627217856e+23",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "2.4842703257899686e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "9.215215133736705e+18",
+          "all_28_group_intervals_sha256": "sha256:73a5c7c328403161e39a23947aef4a932b6a7857a722cedf49c0d5edf00b1fd4",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.2078566780091374e+24",
+          "complete_second_derivative_lower": "-1.2078566780091374e+24",
+          "complete_second_derivative_upper": "1.2078566780091374e+24",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "2.9488688427957456e+20"
+        }
+      ],
+      "face_id": "s6:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:c93916d150080b342d5f05dba25763e1b8f8c474e21ae2fed3de1a57fee36170",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s6:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.4035400372214006",
+        "1.1870160876546478"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s7",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "3.6516390104512696e+18",
+          "all_28_group_intervals_sha256": "sha256:f2a7dec9fca67185ab9d69627e7eed77c9ce9202a135c716df2ba8db0b0eb01e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.786276283778688e+23",
+          "complete_second_derivative_lower": "4.786276283778687e+23",
+          "complete_second_derivative_upper": "4.786276283778688e+23",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "4.674097933377625e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.1653318741888887e+19",
+          "all_28_group_intervals_sha256": "sha256:ba0c4f6cc91454d1d789ac1d632d6e8d5325c927303e61c1a1c40374eb86e6cc",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.5274237941368602e+24",
+          "complete_second_derivative_lower": "1.5274237941368596e+24",
+          "complete_second_derivative_upper": "1.5274237941368602e+24",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "7.458123994808888e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.947080284619979e+19",
+          "all_28_group_intervals_sha256": "sha256:0b4524d0dd26f09b19d1adfcd18bbda3b6d1b4abd8ce55861c7da97ebed5ecd9",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.862797070657099e+24",
+          "complete_second_derivative_lower": "3.862797070657098e+24",
+          "complete_second_derivative_upper": "3.862797070657099e+24",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "9.430656910783933e+20"
+        }
+      ],
+      "face_id": "s7:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:54fa6cf51bbc946fa64d51144a2ff348b3dbe5584930c1d887103fba6bf844b0",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s7:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.5956285257847507",
+        "1.2644811104438594"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s8",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.287723389893246e+19",
+          "all_28_group_intervals_sha256": "sha256:28ffce683d05e7e0e5b460642ddf669565c8695c414648ddaf755d1501952a16",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.6878448016008753e+24",
+          "complete_second_derivative_lower": "1.6878448016008748e+24",
+          "complete_second_derivative_upper": "1.6878448016008753e+24",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "1.6482859390633548e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "3.896024086835867e+19",
+          "all_28_group_intervals_sha256": "sha256:fecbdbec245dcbef880bd4cdc30d7408bacf43004e7f4593f956982380c945e9",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.106596691097507e+24",
+          "complete_second_derivative_lower": "5.106596691097505e+24",
+          "complete_second_derivative_upper": "5.106596691097507e+24",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "2.493455415574955e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "9.595403144244968e+19",
+          "all_28_group_intervals_sha256": "sha256:e21e3def7109f9e6374d7574337514a876eecea642d7d4ecc6513ecd0999d286",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.2576886809224764e+25",
+          "complete_second_derivative_lower": "1.257688680922476e+25",
+          "complete_second_derivative_upper": "1.2576886809224764e+25",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "3.0705290061583897e+21"
+        }
+      ],
+      "face_id": "s8:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:58c2a3607241dc64f4f2e8944641b9ddb5fff53226f4760a4264dd6a2924d3a4",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s8:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.5127565894251769",
+        "1.231435295365155"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s9",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "4.593595792221797e+19",
+          "all_28_group_intervals_sha256": "sha256:a572f743bbc0a08b3c44511d35ee604b50bf6f06e8bfcc5c5c9b68f693524380",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.020917876780953e+24",
+          "complete_second_derivative_lower": "6.020917876780951e+24",
+          "complete_second_derivative_upper": "6.020917876780953e+24",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "5.8798026140439e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.3791783841420961e+20",
+          "all_28_group_intervals_sha256": "sha256:c193b64315b92e48b39f3f04caa83860344f8a0f1cc17a4e43419882f476ce2e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.8077166916627283e+25",
+          "complete_second_derivative_lower": "1.8077166916627278e+25",
+          "complete_second_derivative_upper": "1.8077166916627283e+25",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "8.826741658509415e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "3.38250291737967e+20",
+          "all_28_group_intervals_sha256": "sha256:f4dac005e83611ab22dbe512d94078460ef6f85f100d60f4628984ebe1a69ccd",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.433514223867881e+25",
+          "complete_second_derivative_lower": "4.433514223867879e+25",
+          "complete_second_derivative_upper": "4.433514223867881e+25",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "1.0824009335614944e+22"
+        }
+      ],
+      "face_id": "s9:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:1c35e7724e5df829227946821b663e38cec0ff4023d1c7c6a9bf2f08f1367b27",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s9:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.5011969343029912",
+        "1.2262746270794123"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "s10",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.1571576593863732e+20",
+          "all_28_group_intervals_sha256": "sha256:9dd862f01c4673f9f7d76d42434591aef3616186a7519746cadfea267d3cfca2",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.5167096873109071e+25",
+          "complete_second_derivative_lower": "1.5167096873109067e+25",
+          "complete_second_derivative_upper": "1.5167096873109071e+25",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "1.4811618040145578e+22"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "3.5140146302442675e+20",
+          "all_28_group_intervals_sha256": "sha256:e104a62941dceea7ca4f57468802d99df2e37e61757bf11c0b89395b08cbbbe2",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.605889256153766e+25",
+          "complete_second_derivative_lower": "4.6058892561537645e+25",
+          "complete_second_derivative_upper": "4.605889256153766e+25",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "2.248969363356331e+22"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "8.678192762419873e+20",
+          "all_28_group_intervals_sha256": "sha256:297e8477f720b30d88f1dc7786846bc621ed5ffd21e11445cc5ca5b4bdea0501",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.1374680817558976e+26",
+          "complete_second_derivative_lower": "1.1374680817558973e+26",
+          "complete_second_derivative_upper": "1.1374680817558976e+26",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "2.7770216839743594e+22"
+        }
+      ],
+      "face_id": "s10:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:37d374ed247a2aa2dc212783f6019e9c76d5a42d7dcd326e0fd3aec1e38b44fc",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 0,
+      "program_id": "s10:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.5183819602022541",
+        "1.2347974717761254"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": true,
+      "axis": "s11",
+      "codimension": 2,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.1362775300200077e+19",
+          "all_28_group_intervals_sha256": "sha256:3359297fd399542c75b237ba51001b3f7c87ea94ee3770309cf4b1baa11d646f",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "9.531786778546077e+25",
+          "complete_second_derivative_lower": "9.531786778546074e+25",
+          "complete_second_derivative_upper": "9.531786778546077e+25",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "8.87716820328131e+16"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.3553115272533905e+19",
+          "all_28_group_intervals_sha256": "sha256:77050be2533bd218a3347c5db3e33cbd7b9d11d5203e0e38cf675f86c2b80c40",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.903114048004004e+26",
+          "complete_second_derivative_lower": "7.903114048004001e+26",
+          "complete_second_derivative_upper": "7.903114048004004e+26",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "9.200435653333557e+16"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "4.738084947129549e+19",
+          "all_28_group_intervals_sha256": "sha256:41477a7c4b91e33510b4efcb37c24b98d79bf3b8d031dfa2bd428b892e471d69",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.359349966747282e+27",
+          "complete_second_derivative_lower": "6.359349966747279e+27",
+          "complete_second_derivative_upper": "6.359349966747282e+27",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "9.2540721623624e+16"
+        }
+      ],
+      "face_id": "s11:kernel_zero:s11,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:72b207a093d4ca21975ed31b6fdf059badc86a1a95527d0eb5b0066e5e9f5f4a",
+      "maximum_second_singular_power": 3,
+      "minimum_face_normal_power": 0,
+      "program_id": "s11:kernel_zero:s11,v11",
+      "successive_scaled_upper_ratios": [
+        "1.0364156049147246",
+        "1.0058297792680515"
+      ],
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v1",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.7356031932056566e+18",
+          "all_28_group_intervals_sha256": "sha256:c7fb5910c9e49e7df6ec63d921e266b6808bb4c4882de0c502d7291ad55aa3e1",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.2748898173985182e+23",
+          "complete_second_derivative_lower": "-2.2748898173985182e+23",
+          "complete_second_derivative_upper": "2.2748898173985182e+23",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "2.2215720873032404e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "4.2836556692693376e+18",
+          "all_28_group_intervals_sha256": "sha256:36ce24024dde8b7c55f4345771eebccd9faa1338229cdefc431c87c47cccf0d1",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.614673158824706e+23",
+          "complete_second_derivative_lower": "-5.614673158824706e+23",
+          "complete_second_derivative_upper": "5.614673158824706e+23",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "2.741539628332376e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "9.344035057736198e+18",
+          "all_28_group_intervals_sha256": "sha256:5dc10c33a87c3b0adf62d39317d54b9310b5015fd7e2c29fb139aad977170511",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.224741363087599e+24",
+          "complete_second_derivative_lower": "-1.224741363087599e+24",
+          "complete_second_derivative_upper": "1.224741363087599e+24",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "2.9900912184755834e+20"
+        }
+      ],
+      "face_id": "v1:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:dc396f696ea884c5c82898f877b0b511e4c6a6817f26d11b02231e5750de701f",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v1:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.2340538684298663",
+        "1.0906613158440452"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v2",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "8.960618571231716e+17",
+          "all_28_group_intervals_sha256": "sha256:c2dbb06cc1a76934912b1b9529b363fc79ce30b205300a4f13808a69e2421a51",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.1744861973684835e+23",
+          "complete_second_derivative_lower": "-1.1744861973684835e+23",
+          "complete_second_derivative_upper": "1.1744861973684835e+23",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "1.1469591771176596e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.369709385252764e+18",
+          "all_28_group_intervals_sha256": "sha256:e0cf894e821c61a3d285869bc2f145a88d1e8e5b504b2306e1791218e63b2c22",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.106025485438503e+23",
+          "complete_second_derivative_lower": "-3.106025485438503e+23",
+          "complete_second_derivative_upper": "3.106025485438503e+23",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "1.516614006561769e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.331810582942982e+18",
+          "all_28_group_intervals_sha256": "sha256:7e8b21a1c60394561567812a00ff24735c8fe0112059e0d403668dce63b2cf21",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.988510767275026e+23",
+          "complete_second_derivative_lower": "-6.988510767275026e+23",
+          "complete_second_derivative_upper": "6.988510767275026e+23",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "1.7061793865417543e+20"
+        }
+      ],
+      "face_id": "v2:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:149dd9d6ac93c510a5f3a25a15fdcdd3b63be92be6b284e0036661986efbbc7a",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v2:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.322291182475267",
+        "1.124992502482381"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v3",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.9795282993538002e+18",
+          "all_28_group_intervals_sha256": "sha256:c2721e34d87f63d567915e229b15d6218007df666ca00718d9fcd42c4052579f",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.594607332529013e+23",
+          "complete_second_derivative_lower": "-2.594607332529013e+23",
+          "complete_second_derivative_upper": "2.594607332529013e+23",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "2.5337962231728642e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.193024273309723e+18",
+          "all_28_group_intervals_sha256": "sha256:6a335fdf8afcae8fb808153d91033209c733453fc06b6bb49afe172c3af89cd0",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.80660077551252e+23",
+          "complete_second_derivative_lower": "-6.80660077551252e+23",
+          "complete_second_derivative_upper": "6.80660077551252e+23",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "3.3235355349182225e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.16563273182413e+19",
+          "all_28_group_intervals_sha256": "sha256:cb897ab90eb8c45ede3bbeb8b8955ece0250bf192c2bb41bf2935dd819b5c160",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.5278181342565237e+24",
+          "complete_second_derivative_lower": "-1.5278181342565237e+24",
+          "complete_second_derivative_upper": "1.5278181342565237e+24",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "3.730024741837216e+20"
+        }
+      ],
+      "face_id": "v3:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:c27237451fccb34e5e92a80af7501888f0f162a7f166962ff3b7f007d6e1dfa6",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v3:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.3116822515255127",
+        "1.1223062617048252"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v4",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.057821092516647e+18",
+          "all_28_group_intervals_sha256": "sha256:fbd7b6d57f94d16093381570484997128e2c2ec8731b7f1e6cb934e2b359f1c9",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.6972272623834194e+23",
+          "complete_second_derivative_lower": "2.6972272623834188e+23",
+          "complete_second_derivative_upper": "2.6972272623834194e+23",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "2.634010998421308e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "4.760840308944979e+18",
+          "all_28_group_intervals_sha256": "sha256:caa7865a043cfcec9ee3714f94b7ceae51fcf7e3313af46d522e56035da20cc4",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.240128609740363e+23",
+          "complete_second_derivative_lower": "6.24012860974036e+23",
+          "complete_second_derivative_upper": "6.240128609740363e+23",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "3.0469377977247865e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.0260165474603071e+19",
+          "all_28_group_intervals_sha256": "sha256:5551ba894d6816d4aae7a082c6a7aa50a1fd981912da1a00f2c5883118ca2e0b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.3448204090871738e+24",
+          "complete_second_derivative_lower": "1.3448204090871732e+24",
+          "complete_second_derivative_upper": "1.3448204090871738e+24",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "3.283252951872983e+20"
+        }
+      ],
+      "face_id": "v4:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:ad5c6ecd025c5e103ada9194b5e9ef4ca3b0932c2af28c1920f7bc1c5a724bb3",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v4:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.1567673026236285",
+        "1.077558246947036"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v5",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "8.849365292812837e+18",
+          "all_28_group_intervals_sha256": "sha256:a94037dfab8781517a070a84439b43fd7e50aaa6a73db0429861ba6d0452296a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.1599040076595642e+24",
+          "complete_second_derivative_lower": "-1.1599040076595642e+24",
+          "complete_second_derivative_upper": "1.1599040076595642e+24",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "1.1327187574800431e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.2174486848034484e+19",
+          "all_28_group_intervals_sha256": "sha256:4a777fd758e090deb8948acf1e33d4c690897dfb6e06ad15b56cf9ddf7205134",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.906454340145576e+24",
+          "complete_second_derivative_lower": "-2.906454340145576e+24",
+          "complete_second_derivative_upper": "2.906454340145576e+24",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "1.419167158274207e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "4.887795407471423e+19",
+          "all_28_group_intervals_sha256": "sha256:95072d7533c6df5a1fda70106e1ddb2d3753af4bcbaf5464c79fe7c044c08656",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.406531196480943e+24",
+          "complete_second_derivative_lower": "-6.406531196480943e+24",
+          "complete_second_derivative_upper": "6.406531196480943e+24",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "1.5640945303908553e+21"
+        }
+      ],
+      "face_id": "v5:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:ea60995fc3dc0e4b95162d1c5344dff8cd0d6d213d784fba1031b8c692955e1f",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v5:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.252885721987535",
+        "1.102121424718487"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v6",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.764905375680424e+18",
+          "all_28_group_intervals_sha256": "sha256:465caff7023c9820844e5c21a63baf6da63e286c3c1b95150f26721f5023fdff",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.556176774011845e+23",
+          "complete_second_derivative_lower": "-7.556176774011845e+23",
+          "complete_second_derivative_upper": "7.556176774011845e+23",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "7.379078880870943e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.3402724250267722e+19",
+          "all_28_group_intervals_sha256": "sha256:dde2111eae14952658b4278affe7e4d20e6d120d266dd742ab8480a3ad5b6bc2",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.7567218729310908e+24",
+          "complete_second_derivative_lower": "-1.7567218729310908e+24",
+          "complete_second_derivative_upper": "1.7567218729310908e+24",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "8.577743520171342e+20"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.832150238569827e+19",
+          "all_28_group_intervals_sha256": "sha256:667b025b7cc9089e778710130e3df492af593a10558e81411d3c4f13f14a09e1",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.712155960698244e+24",
+          "complete_second_derivative_lower": "-3.712155960698244e+24",
+          "complete_second_derivative_upper": "3.712155960698244e+24",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "9.062880763423447e+20"
+        }
+      ],
+      "face_id": "v6:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:549b1b64033733df2b30e7c9769d3e93a9166abd1af5a5fb1f3805d484ccd0cd",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v6:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.1624409575574186",
+        "1.0565576765161213"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v7",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.3746252573970457e+19",
+          "all_28_group_intervals_sha256": "sha256:633b0a083f5da57024bbd21917d6791971e84532f533e0949eb4cc317a5c7b44",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.1124688173754557e+24",
+          "complete_second_derivative_lower": "3.1124688173754546e+24",
+          "complete_second_derivative_upper": "3.1124688173754557e+24",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "3.0395203294682184e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.8318201866665394e+19",
+          "all_28_group_intervals_sha256": "sha256:1ed26a89ba341e2a7711f493797cb26bb653542e678fdfb8bdac80c67a1d6738",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.643883355067567e+24",
+          "complete_second_derivative_lower": "7.643883355067564e+24",
+          "complete_second_derivative_upper": "7.643883355067567e+24",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "3.732364919466585e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.2361232179789527e+20",
+          "all_28_group_intervals_sha256": "sha256:3c9b921dfc3ffd7d5849fc4c073248328051f70563981ced63f3b0f87cb0f335",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.620211424269373e+25",
+          "complete_second_derivative_lower": "1.6202114242693725e+25",
+          "complete_second_derivative_upper": "1.620211424269373e+25",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "3.955594297532649e+21"
+        }
+      ],
+      "face_id": "v7:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:6a59bd5d32b3c8ecf324cbea99635b84dd9c293310971385bf476c7207c18ec6",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v7:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.227945371274942",
+        "1.0598090976854342"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v8",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "6.5567043691339506e+19",
+          "all_28_group_intervals_sha256": "sha256:025649ff1ef673c2883e6ca814543ce92afa2bacb0efe0487feca41964794ec3",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.594003550711252e+24",
+          "complete_second_derivative_lower": "8.59400355071125e+24",
+          "complete_second_derivative_upper": "8.594003550711252e+24",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "8.392581592491457e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.5218973750107564e+20",
+          "all_28_group_intervals_sha256": "sha256:3c62d2802f1113bf8d95edc67ee0d2ab3d02e908c6429457ee289bac963dd6aa",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.9947813273740986e+25",
+          "complete_second_derivative_lower": "1.9947813273740977e+25",
+          "complete_second_derivative_upper": "1.9947813273740986e+25",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "9.74014320006884e+21"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "3.1105452172555164e+20",
+          "all_28_group_intervals_sha256": "sha256:dae71fe0ec361640e6a38495d098b85b4461b5e610da53d76d6a046717822d1e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.0770538271611505e+25",
+          "complete_second_derivative_lower": "4.077053827161149e+25",
+          "complete_second_derivative_upper": "4.0770538271611505e+25",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "9.953744695217652e+21"
+        }
+      ],
+      "face_id": "v8:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:03c51e44a51915836458d6b4f7cff71d99b977e7a39899381888792f05eeb9c9",
+      "maximum_second_singular_power": 1,
+      "minimum_face_normal_power": 1,
+      "program_id": "v8:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.1605658035881354",
+        "1.021930015890044"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": true,
+      "axis": "v9",
+      "codimension": 3,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.1983508665811767e+19",
+          "all_28_group_intervals_sha256": "sha256:37be4037d4ed091edaa648da4858a62b44a27843b11e9600a7a7665f1932d1b2",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.261811524897203e+26",
+          "complete_second_derivative_lower": "2.2618115248972024e+26",
+          "complete_second_derivative_upper": "2.261811524897203e+26",
+          "minimum_cumulative_argument_lower": "0.00032552083333333326",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "2.1064761326622246e+17"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.744310503314862e+19",
+          "all_28_group_intervals_sha256": "sha256:e5388ba71d3dba337dfe5f2728d146ab975a7ec9d0fb109b1d56eb604c175c81",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.0718850538331971e+27",
+          "complete_second_derivative_lower": "2.0718850538331966e+27",
+          "complete_second_derivative_upper": "2.0718850538331971e+27",
+          "minimum_cumulative_argument_lower": "0.00016276041666666663",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "2.411991653304078e+17"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.951036407161466e+19",
+          "all_28_group_intervals_sha256": "sha256:01e03807aa4bbe7d843f2cb1360678427807c6f0d51082c56e3f4d245a42fd87",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.7971528180826134e+28",
+          "complete_second_derivative_lower": "1.797152818082613e+28",
+          "complete_second_derivative_upper": "1.7971528180826134e+28",
+          "minimum_cumulative_argument_lower": "8.138020833333332e-05",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "2.6152015461158784e+17"
+        }
+      ],
+      "face_id": "v9:kernel_zero:v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "face_program_sha256": "sha256:a792ee80ce85df2f5608ad9d9d96a4385f494e407f72cb148dacbfc7c8795933",
+      "maximum_second_singular_power": 3,
+      "minimum_face_normal_power": 1,
+      "program_id": "v9:kernel_zero:v9,v10,v11",
+      "successive_scaled_upper_ratios": [
+        "1.145036307748588",
+        "1.0842498325122447"
+      ],
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v10",
+      "codimension": 0,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "5.320497791931998e+17",
+          "all_28_group_intervals_sha256": "sha256:04db62567e7b08a229dc98814621dc8831685f8ce763de95236cb8363104e6d5",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.4631570341383095e+24",
+          "complete_second_derivative_lower": "4.4631570341383084e+24",
+          "complete_second_derivative_upper": "4.4631570341383095e+24",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "4.4631570341383095e+24"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "2.3089572243022685e+17",
+          "all_28_group_intervals_sha256": "sha256:46d2ca35e83cf15908e3ff995f362c2f7ec8207e8bcd6233531572429b31640b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.747574817375922e+24",
+          "complete_second_derivative_lower": "7.747574817375919e+24",
+          "complete_second_derivative_upper": "7.747574817375922e+24",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "7.747574817375922e+24"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "7.689007495872512e+16",
+          "all_28_group_intervals_sha256": "sha256:82022d36fac7e5ad09fa1a6e67f0a53da25c3554e62e59371dc8253712a42553",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.032001116670978e+25",
+          "complete_second_derivative_lower": "1.0320011166709775e+25",
+          "complete_second_derivative_upper": "1.032001116670978e+25",
+          "minimum_cumulative_argument_lower": "0.00012207031249999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "1.032001116670978e+25"
+        }
+      ],
+      "face_id": null,
+      "face_kind": "positive_interior_fallback",
+      "face_program_sha256": "sha256:ded1b66ebd0b7102acc53b713c0efdcae0f08f463e099560ba9585eced0edd7e",
+      "maximum_second_singular_power": 0,
+      "minimum_face_normal_power": null,
+      "program_id": "v10:positive_interior",
+      "successive_scaled_upper_ratios": [
+        "1.7358956357832316",
+        "1.3320311723307934"
+      ],
+      "zeroed_axes": []
+    },
+    {
+      "active_peano_axis_zeroed": false,
+      "axis": "v11",
+      "codimension": 0,
+      "controls": [
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.1445268149269198e+17",
+          "all_28_group_intervals_sha256": "sha256:7bb02e6c8424cf1738c40f08701682d36a499f569ee5b344cc6bc527f785c2d5",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.4002466989776198e+23",
+          "complete_second_derivative_lower": "2.400246698977619e+23",
+          "complete_second_derivative_upper": "2.4002466989776198e+23",
+          "minimum_cumulative_argument_lower": "0.0009765624999999999",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/1024",
+          "rho_to_K486_second_singular_power_abs_upper": "2.4002466989776198e+23"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "4.8644969241623816e+16",
+          "all_28_group_intervals_sha256": "sha256:7baada5b767b53303741ada924d7dabb0b9300738fb31b470bb7bf8686623a9a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.080635781400395e+23",
+          "complete_second_derivative_lower": "4.0806357814003934e+23",
+          "complete_second_derivative_upper": "4.080635781400395e+23",
+          "minimum_cumulative_argument_lower": "0.00048828124999999995",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/2048",
+          "rho_to_K486_second_singular_power_abs_upper": "4.080635781400395e+23"
+        },
+        {
+          "K410_quadratic_peano_majorant_abs_upper": "1.602850332867566e+16",
+          "all_28_group_intervals_sha256": "sha256:d6bb7005f5fe37b858fa04b8cd3099f445e1ab763efde1fefc760f8152d7e66c",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.378273250038211e+23",
+          "complete_second_derivative_lower": "5.3782732500382095e+23",
+          "complete_second_derivative_upper": "5.378273250038211e+23",
+          "minimum_cumulative_argument_lower": "0.00024414062499999997",
+          "raw_Bessel_evaluation_at_zero_used": false,
+          "rho": "1/4096",
+          "rho_to_K486_second_singular_power_abs_upper": "5.378273250038211e+23"
+        }
+      ],
+      "face_id": null,
+      "face_kind": "positive_interior_fallback",
+      "face_program_sha256": "sha256:74c57b7fcf4eb63c376e940f4981ea14da61d06dd342a7124f6d6c2767d06ac0",
+      "maximum_second_singular_power": 0,
+      "minimum_face_normal_power": null,
+      "program_id": "v11:positive_interior",
+      "successive_scaled_upper_ratios": [
+        "1.700090154540587",
+        "1.3179988458054672"
+      ],
+      "zeroed_axes": []
+    }
+  ],
+  "hybrid_summary": [
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s1",
+      "control_count": 3,
+      "program_id": "s1:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s2",
+      "control_count": 3,
+      "program_id": "s2:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s3",
+      "control_count": 3,
+      "program_id": "s3:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s4",
+      "control_count": 3,
+      "program_id": "s4:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s5",
+      "control_count": 3,
+      "program_id": "s5:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s6",
+      "control_count": 3,
+      "program_id": "s6:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s7",
+      "control_count": 3,
+      "program_id": "s7:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s8",
+      "control_count": 3,
+      "program_id": "s8:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s9",
+      "control_count": 3,
+      "program_id": "s9:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s10",
+      "control_count": 3,
+      "program_id": "s10:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "s11",
+      "control_count": 3,
+      "program_id": "s11:kernel_zero:s11,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v1",
+      "control_count": 3,
+      "program_id": "v1:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v2",
+      "control_count": 3,
+      "program_id": "v2:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v3",
+      "control_count": 3,
+      "program_id": "v3:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v4",
+      "control_count": 3,
+      "program_id": "v4:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v5",
+      "control_count": 3,
+      "program_id": "v5:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v6",
+      "control_count": 3,
+      "program_id": "v6:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v7",
+      "control_count": 3,
+      "program_id": "v7:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v8",
+      "control_count": 3,
+      "program_id": "v8:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v9",
+      "control_count": 3,
+      "program_id": "v9:kernel_zero:v9,v10,v11"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v10",
+      "control_count": 3,
+      "program_id": "v10:positive_interior"
+    },
+    {
+      "all_controls_finite": true,
+      "all_controls_have_28_group_digests": true,
+      "axis": "v11",
+      "control_count": 3,
+      "program_id": "v11:positive_interior"
+    }
+  ],
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_22_hybrids_present": true,
+    "all_877800_ordered_descriptor_controls_executed": true,
+    "all_controls_finite": true,
+    "all_controls_have_28_group_digests": true,
+    "complete_face_cover_not_overclaimed": true,
+    "complete_order_ten_remainder_not_overclaimed": true,
+    "every_argument_floor_positive": true,
+    "exactly_66_arb_controls_present": true,
+    "native_K152_interval_not_emitted": true,
+    "raw_zero_evaluation_absent": true
+  },
+  "result_id": "K488-ORDER-TEN-HARDEST-FACE-ARB-BANK",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

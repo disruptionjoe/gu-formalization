@@ -61,6 +61,36 @@ the complete complement or the K168 component as the combined form. The
 cancellation-safe base `R0` cross, complete K162 complement, K473 floor and
 K152 interval remain open.
 
+## K485--K488 order-ten face preconditioner programs (2026-09-25)
+
+K485 replays all 13,300 ordered K407 descriptors on all 936 K411 reachable
+faces. Its 49,544,352 determinant-matrix uses reduce exactly to 60 singular
+zero-mask templates and 75 confluent divided-difference templates; maximum
+determinant rank is five and maximum row/column divided-difference order is
+four. Its probe passes `8/8` controls and rejects `8/8` hostile mutations.
+
+K486 performs 12,448,800 exact descriptor-face power replays. Every face has
+minimum second-derivative normal power greater than minus one; the global
+minimum is zero and the all-zero face replays power nine. This proves local
+face-normal integrability, not a tangential interval or integrated
+neighborhood. Its probe passes `8/8` and rejects `8/8` mutations.
+
+K487 resolves every descriptor/face and determinant-matrix program to K485's
+exact templates. It selects one hardest reachable-face program for each of
+twenty hybrids and explicit positive-interior fallbacks for v10/v11. Its
+canonical program-bank digest is `a67d0004f5f3b8072c9ab0fd4213ccb2ca8bd050430701bbb9fabb16e642e7db`;
+its probe passes `10/10` and rejects `8/8` mutations.
+
+K488 executes those 22 programs at `rho=1/1024,1/2048,1/4096` with
+python-flint/Arb at 180 digits and one thread. All 66 controls are finite,
+retain complete 28-group digests, and have positive cumulative-argument
+floors; together they account for 877,800 ordered descriptor evaluations.
+Its bank digest is `ceb54d9670190fbf2e3252d54f95f5df5dd6c3feee39adbf2c831e46296d7b40`;
+its probe passes `9/9` and rejects `9/9` mutations. These are positive
+approach-point controls, not face intervals, all-face numerical evaluations,
+a recursive interior cover, analytic tails, complete order-ten hybrid
+integrals, a K457 cross value or a K152 interval.
+
 ## K481--K484 inverse budgets and exactness witnesses (2026-09-25)
 
 K481 inverts K473 for a requested complete-complement floor `t`: the exact

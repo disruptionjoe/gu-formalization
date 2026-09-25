@@ -49,6 +49,21 @@ updated_at: "2026-09-25"
 > complement before applying K473. No combined floor, K152 interval or
 > source/ledger/canon/public/physical claim moves.
 
+> **2026-09-25 K485--K488 ORDER-TEN FACE PRECONDITIONER PROGRAMS.** K485
+> compiles 60 singular and 75 confluent templates for all 49,544,352
+> determinant-matrix uses on K411's 936 reachable faces. K486 replays
+> 12,448,800 descriptor-face power counts and proves every face locally
+> normal-integrable, with minimum power zero and all-zero power nine. K487
+> resolves every template pointer and selects twenty hardest boundary programs
+> plus v10/v11 interior fallbacks. K488 executes all 22 programs at three
+> levels with 180-digit Arb: 66 finite complete 28-group controls and 877,800
+> descriptor-control evaluations with positive argument floors. The probes
+> pass `8/8`, `8/8`, `10/10` and `9/9` controls and reject `8/8`, `8/8`,
+> `8/8` and `9/9` hostile mutations. Next implement interval face cells on
+> all 936 programs, a recursive interior cover and analytic tails. No complete
+> hybrid integral, K457 value, K152 interval or source/ledger/canon/public/
+> physical claim moves.
+
 > **2026-09-25 K481--K484 INVERSE BUDGETS AND EXACTNESS WITNESSES.** K481
 > turns a requested K152 complete-complement floor into the strict acquisition
 > budget `mu^2<(alpha-t)(gamma-t)`. K482 gives the sharp shared radius

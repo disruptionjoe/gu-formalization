@@ -19,6 +19,23 @@ the map: which directory/group supports which claim.
   probe separate the cyclic result from the noncyclic remainder required for
   a complete K162 complement floor.
 
+## K485--K488 order-ten face preconditioner programs
+
+- `channel-swings/k485_order_ten_mask_native_preconditioner_compiler.py` and
+  its probe compile the exact 60 singular and 75 confluent templates needed by
+  every reachable K411 face mask.
+- `channel-swings/k486_order_ten_face_normal_integrability_atlas.py` and its
+  probe replay all 936 faces and certify their local face-normal powers while
+  withholding any whole-domain integral.
+- `channel-swings/k487_order_ten_face_program_compiler.py` and its probe
+  resolve every ordered descriptor/face program and select one hardest
+  reachable-face or positive-interior program per hybrid.
+- `channel-swings/k488_order_ten_hardest_face_arb_bank.py` and its probe
+  execute the selected programs at three positive normal levels using the
+  complete 28-group Arb functional. Run the probes with `--rebuild` only when
+  the corresponding exhaustive producer replay is intended; default mode
+  verifies stored release invariants and hostile mutations.
+
 ## K489--K490 native M-orthogonal split and K168 cross
 
 - `channel-swings/k489_native_neumann_word_m_orthogonalization.py` and its
