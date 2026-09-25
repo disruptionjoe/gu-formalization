@@ -7,6 +7,29 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K495--K497 sharp exchange tail and cross-sign release (2026-09-25)
+
+K495 evaluates the exact K176 kernel
+`J_256(E(p))` by its pair-integral divided difference. Monotone dyadic sums on
+`[-2^40,2^40]`, outward rounding guards and the analytic two-sided
+`(1/9)|p|^(-3/2)` tail give squared norm upper
+`0.002725462560109... < 1/256`. Three independent direct-integral anchors lie
+around the closed form. Its probe passes `10/10` controls and rejects `6/6`
+hostile mutations.
+
+K496 transfers `||J_256||<1/16` through K176's complete sixteen exchange
+monomials. The coefficient falls from `40/3` to `1`, and the complete
+post-left-adjoint exchange tail after order one is `312/125`. Its probe passes
+`11/11` controls and rejects `6/6` hostile mutations.
+
+K497 composes that complete exchange tail with K175's complete matched
+diagonal tail and K493's signed scalar, shape and actual first normal block.
+Both q00 and q10 first corrected-line crosses exclude zero on the negative
+side. The signed K179/K456 order-2-through-12 calculation is therefore not
+needed for this sign decision. The full K492 cyclic-complement floor,
+noncyclic floor and cyclic/noncyclic cross remain open, so no K473 floor, K152
+interval, source, ledger, canon, paper, public or physical conclusion follows.
+
 ## K491--K494 cyclic cross and full-complement boundary (2026-09-25)
 
 K491 proves the exact tail-kernel identities on the K139 Neumann cyclic orbit:

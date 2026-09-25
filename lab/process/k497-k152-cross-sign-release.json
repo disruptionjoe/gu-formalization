@@ -1,0 +1,67 @@
+{
+  "claim_ceiling": "The two first corrected cyclic-line crosses are strictly negative with complete all-order normal tails. This retires the order-2-through-12 calculation only for that sign decision. It does not prove a cyclic or complete-complement floor, K473 beta, K152 interval, source, ledger, canon, paper, public or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition": {
+    "cauchy_schwarz_pairing": "multiply the summed action-column tail by K493's corrected-line H-norm upper",
+    "diagonal_tail": "K175 complete matched diagonal orbit after order one",
+    "exchange_tail": "K496 complete coefficient-level exchange orbit after order one",
+    "finite_orders_2_through_12_evaluated": false,
+    "signed_prefix": "K493 resolved base, shape and actual K172 first normal block"
+  },
+  "created": "2026-09-25",
+  "decision": {
+    "K152_interval_emitted": false,
+    "both_crosses_strictly_negative": true,
+    "cyclic_complement_floor_emitted": false,
+    "next_exact_input": "Use K492's exhaustive cyclic contrast basis to bound the same fixed form on the full cyclic complement, then construct the noncyclic C^perp_M floor and cyclic/noncyclic cross required by K494/K473.",
+    "noncyclic_floor_or_cross_emitted": false,
+    "signed_orders_2_through_12_retired_for_this_decision": true
+  },
+  "direction": "observed_to_native",
+  "native_sector_releases": [
+    {
+      "charge": [
+        0,
+        0
+      ],
+      "complete_all_order_cross_interval": [
+        "-3359921222183871736939362595837039/515553109525527328125000000000000",
+        "-102540643792721773336878172334781396932780915653/258417541170286946723499420143390625000000000000"
+      ],
+      "complete_post_order_1_normal_cross_abs_upper": "291035450360452687/1828125000000000000",
+      "corrected_line_H_norm_upper": "27860741645269/500000000000000",
+      "resolved_through_first_block_interval": [
+        "-35860192767674731/5640239146945940",
+        "-1257510742356862493548916311999/2261705659473280627733875266896"
+      ],
+      "seed": "Omega",
+      "strictly_negative": true,
+      "zero_exclusion_margin": "102540643792721773336878172334781396932780915653/258417541170286946723499420143390625000000000000"
+    },
+    {
+      "charge": [
+        1,
+        0
+      ],
+      "complete_all_order_cross_interval": [
+        "-15904433330172772035051896292879/2542854538373215625000000000000",
+        "-4486056997335300726993730634185704370020033997/22914144590448666937849683294853125000000000000"
+      ],
+      "complete_post_order_1_normal_cross_abs_upper": "44369271769471967/365625000000000000",
+      "corrected_line_H_norm_upper": "4247457882629/100000000000000",
+      "resolved_through_first_block_interval": [
+        "-3455081327949923/563340082347297",
+        "-794992786123075650545030309301/2506846587673016553884409796360"
+      ],
+      "seed": "d_1^*Omega",
+      "strictly_negative": true,
+      "zero_exclusion_margin": "4486056997335300726993730634185704370020033997/22914144590448666937849683294853125000000000000"
+    }
+  ],
+  "result_id": "K497-K152-CROSS-SIGN-RELEASE",
+  "schema_version": "1.0",
+  "scope": "The combined K139/K156 base plus K168 shape cross between each K489 q00/q10 trial seed and its first corrected M-orthogonal cyclic line.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

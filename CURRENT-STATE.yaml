@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c3e810b1c2c8
+revision_basis: e76962bb11b6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K495--K497 replace K176's crude exchange-kernel norm majorant with an
+    outward one-dimensional certificate. The exact divided-difference kernel
+    has squared L2 norm below 1/256, so its norm is below 1/16. Across all
+    sixteen K176 exchange monomials this lowers the orbit coefficient from
+    40/3 to 1. Composed with K493's signed first block and K175's complete
+    diagonal tail, both q00 and q10 corrected-line crosses are strictly
+    negative with complete all-order remainders. The planned signed
+    K179/K456 evaluation through orders 2--12 is therefore retired for this
+    sign decision. A floor on K492's full cyclic contrast basis, the
+    noncyclic floor and cyclic/noncyclic cross remain open; no K473 floor,
+    K152 interval, source, ledger, canon, paper, public-posture or physical
+    conclusion moves.
+
     K491--K494 now close the cancellation-safe base-cross algebra on the
     actual K139 Neumann cyclic orbit and separate it from the still-missing
     full K162 complement. If `a_n=||G^n phi||^2` and

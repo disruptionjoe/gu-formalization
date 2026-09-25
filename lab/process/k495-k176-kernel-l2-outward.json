@@ -1,0 +1,68 @@
+{
+  "analytic_reduction": {
+    "definition": "J_256(e)=int_R dk/((E(k)+256)(E(k)+256+e))/(2*pi)",
+    "even_positive_and_decreasing_in_abs_p": true,
+    "kernel": "J_256(E(p))=pair_integral(256,256+E(p))/(2*pi)",
+    "pair_integral": "2*(F(b)-F(a))/(b-a)",
+    "primitive": "F(a)=a*acosh(a)/sqrt(a^2-1)",
+    "tail_majorant": "J_256(E(p))^2 <= (1/9)*p^(-3/2) for |p|>=R>=1"
+  },
+  "claim_ceiling": "A rigorous outward numerical certificate for one auxiliary exchange kernel norm. It does not evaluate a complete action column, complement floor, K152 interval, physical quotient, source claim, ledger row, canon, paper or public conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K176_norm_upper_improves_from": "5/6",
+    "K176_norm_upper_improves_to": "1/16",
+    "strict_release_test_passed": true
+  },
+  "direction": "observed_to_native",
+  "outward_evaluation": {
+    "analytic_full_line_tail_upper": "4.238552517361111111111111111111111111111111111111111111111111111111111E-7",
+    "decimal_precision": 70,
+    "direct_integral_anchor_controls": [
+      {
+        "closed_form": "0.001240876941840227028918268094355461772351455369431117795459681530465821",
+        "closed_form_inside_direct_enclosure": true,
+        "direct_lower": "0.001226981526597056929100472551649622140528576312246044121545100482455560",
+        "direct_upper": "0.001254971874786255609251453946958670380087020960466158725002494156115248",
+        "momentum": "0"
+      },
+      {
+        "closed_form": "0.001239877533099565286556547026200880101206173160717298088614549258835288",
+        "closed_form_inside_direct_enclosure": true,
+        "direct_lower": "0.001225993294595988098524632842505052156279770617535607199382622782358029",
+        "direct_upper": "0.001253961113330925440022744893841983881021494197177225519466322524285057",
+        "momentum": "1"
+      },
+      {
+        "closed_form": "0.001049566382431487768842164623585111266497702103870126318791010542451806",
+        "closed_form_inside_direct_enclosure": true,
+        "direct_lower": "0.001037810448822947053295033544526929565020924740046538091066642115417227",
+        "direct_upper": "0.001061488147647007761882980656878240238616777006940241085869971464198448",
+        "momentum": "100"
+      }
+    ],
+    "finite_full_line_norm_squared_lower": "0.002490241664049544448211888654524984200426296113476306688387893682102518",
+    "finite_full_line_norm_squared_upper": "0.002725038704857898504438010639132303469002462974638022035282207311029518",
+    "kernel_positive_and_mesh_monotone": true,
+    "margin_to_target": "0.001180787439890365384450878249756585419886425914250866853606681577859371",
+    "mesh_octaves": 40,
+    "mesh_subdivisions_per_octave": 8,
+    "positive_axis_cells": 328,
+    "positive_axis_cutoff": "1099511627776",
+    "rounding_guard_absolute": "1e-60",
+    "rounding_guard_relative": "1e-45",
+    "single_kernel_norm_lower": "0.04990232122907254550081605976104338089746338816311456604692609607381292",
+    "single_kernel_norm_squared_lower": "0.002490241664049544448211888654524984200426296113476306688387893682102518",
+    "single_kernel_norm_squared_upper": "0.002725462560109634615549121750243414580113574085749133146393318422140629",
+    "single_kernel_norm_upper": "0.05220596287886695626011062629525158258489140467240952558174049846721859",
+    "strictly_below_target": true,
+    "target_norm_squared_threshold": "1/256"
+  },
+  "result_id": "K495-K176-KERNEL-L2-OUTWARD",
+  "schema_version": "1.0",
+  "scope": "The exact K176 one-variable kernel J_256(E(p)) on the K162 zero-bath exchange orbit.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

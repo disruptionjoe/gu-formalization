@@ -1,0 +1,35 @@
+{
+  "claim_ceiling": "A sharper norm transfer inside K176's already coefficient-complete exchange orbit. It does not by itself decide a combined cross, complete complement floor, K152 interval, source, ledger, canon, paper, public or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K176_coefficient_reduced_from": "40/3",
+    "K176_coefficient_reduced_to": "1",
+    "signed_orders_2_through_12_still_required_for_cross_decision": false
+  },
+  "direction": "observed_to_native",
+  "premises": {
+    "Hilbert_ratio": "3/8",
+    "cross_polarity_cancellation_used": false,
+    "exchange_monomials": 16,
+    "finite_cutoff_normal_form": "K176-LAST-CONTRACTION-EXCHANGE-ORBIT-TAIL",
+    "kernel_certificate": "K495-K176-KERNEL-L2-OUTWARD",
+    "kernel_norm_upper": "1/16"
+  },
+  "result_id": "K496-K176-SHARP-EXCHANGE-TAIL",
+  "schema_version": "1.0",
+  "scope": "K176's coefficient-complete 16-monomial exchange orbit on K162 zero-bath seeds, using K495's strict kernel norm certificate.",
+  "sharp_tail": {
+    "after_order_1": "312/125",
+    "after_order_12": "9034497/33554432000",
+    "after_order_1_expected": "312/125",
+    "all_order_tail_convergent": true,
+    "coefficient_upper": "1",
+    "formula_after_order_N": "(3/8)^N*((N+1)-N*(3/8))/(1-3/8)^3",
+    "order_n_bound": "n*(3/8)^(n-1)",
+    "strictly_improves_K176_coefficient": true
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

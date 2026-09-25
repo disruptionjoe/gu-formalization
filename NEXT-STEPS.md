@@ -11739,6 +11739,22 @@ All three primary failure conditions from oq-kk1a resolved negatively. Explicit 
 - Do not make broad synthesis essays when a small falsifiable test is possible.
 - Do not use observer-finality language as a no-go theorem escape hatch; state the record protocol and failure mode.
 - Do not frame any positive-constructions-lane output as a Nguyen refutation; these are construction attempts, not counter-proofs.
+
+## K495--K497 retire the finite-order cross-sign detour (2026-09-25)
+
+K495 proves the K176 one-variable exchange kernel has norm below `1/16` by an
+outward exact-reduction/dyadic certificate. K496 propagates that result through
+all sixteen exchange monomials, reducing the complete orbit coefficient from
+`40/3` to `1`. K497 then combines the sharp exchange tail with K175's complete
+diagonal tail and K493's signed first-block interval. Both q00 and q10 first
+corrected-line crosses are strictly negative with complete all-order tails.
+
+Do not spend the next wave evaluating K179/K456 orders 2--12 merely to decide
+those two signs. Instead evaluate the same fixed form on K492's exhaustive
+cyclic contrast basis, then construct the noncyclic `C^perp_M` floor and the
+cyclic/noncyclic same-form cross required by K494 and K473. Do not promote two
+decisive line crosses to a cyclic floor, complete-complement floor or K152
+interval.
 ## K370--K372 release the rank-five order-nine calculus (2026-09-23)
 
 K370 stitches K363's disjoint owner rule to K369's global face constants and a
