@@ -1,0 +1,149 @@
+{
+  "claim_ceiling": "Exact native tail-kernel and cancellation identity on the K139 Neumann cyclic orbit. The signed base scalar is reduced but not numerically evaluated; no full K162 complement, K473 floor, K152 interval, source, ledger, canon, paper, public or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "cancellation_safe_base_cross_reduced": true,
+    "native_scalar_tail_numerically_evaluated": false,
+    "next_exact_input": "Evaluate or enclose the signed scalar E1=sum_(n>=1)<G^n phi,W_n G^n phi> using the K456 prefix and K176 tail, then retain its sign with K490's shape term.",
+    "separate_auxiliary_piece_absolute_values_used": false
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "base_cross": "-112/85",
+    "base_cross_identity": "E1/A",
+    "base_form_matrix": [
+      [
+        "-7/4",
+        "-7/4",
+        "1/4",
+        "-1/4"
+      ],
+      [
+        "-7/4",
+        "5/4",
+        "1/4",
+        "-1/4"
+      ],
+      [
+        "1/4",
+        "1/4",
+        "21/4",
+        "-1/4"
+      ],
+      [
+        "-1/4",
+        "-1/4",
+        "-1/4",
+        "27/4"
+      ]
+    ],
+    "combined_cross": "-61/85",
+    "combined_cross_identity": "(E1+sum_(n>=1)(lambda_n-lambda_0)*a_n)/A",
+    "corrected_first_tail": "e1-(21/85)e0",
+    "identities_verified": true,
+    "metric_matrix": [
+      [
+        "85/64",
+        "21/64",
+        "5/64",
+        "1/64"
+      ],
+      [
+        "21/64",
+        "21/64",
+        "5/64",
+        "1/64"
+      ],
+      [
+        "5/64",
+        "5/64",
+        "5/64",
+        "1/64"
+      ],
+      [
+        "1/64",
+        "1/64",
+        "1/64",
+        "1/64"
+      ]
+    ],
+    "regular_core_tail_scalars": [
+      "-1031/4",
+      "-7/4",
+      "1/4",
+      "-1/4"
+    ],
+    "shape_cross": "3/5",
+    "shape_cross_identity": "sum_(n>=1)(lambda_n-lambda_0)*a_n/A",
+    "shape_form_matrix": [
+      [
+        "-119/64",
+        "9/64",
+        "-7/64",
+        "1/64"
+      ],
+      [
+        "9/64",
+        "9/64",
+        "-7/64",
+        "1/64"
+      ],
+      [
+        "-7/64",
+        "-7/64",
+        "-7/64",
+        "1/64"
+      ],
+      [
+        "1/64",
+        "1/64",
+        "1/64",
+        "1/64"
+      ]
+    ],
+    "shape_tail_scalars": [
+      "-119/64",
+      "9/64",
+      "-7/64",
+      "1/64"
+    ],
+    "tail_masses": [
+      "85/64",
+      "21/64",
+      "5/64",
+      "1/64"
+    ],
+    "word_masses": [
+      "1",
+      "1/4",
+      "1/16",
+      "1/64"
+    ]
+  },
+  "exact_theorem": {
+    "base_cross": "R0(e0,t)=E1/B0",
+    "base_entries": "R0_ij=delta_ij*alpha_i+E_max(i,j), E_j=sum_(n>=j)w_n",
+    "combined_cross": "R_ref(e0,t)=[sum_(n>=1)w_n+sum_(n>=1)(lambda_n-lambda_0)a_n]/B0",
+    "corrected_line": "t=e1-(B1/B0)e0",
+    "metric_entries": "M_ij=B_max(i,j), B_j=sum_(n>=j)a_n",
+    "q00_shape_specialization": "+3O/A",
+    "q10_shape_specialization": "-3O/A",
+    "seed_cancellation": "alpha_0+w_0=0",
+    "shape_cross": "DeltaR(e0,t)=sum_(n>=1)(lambda_n-lambda_0)a_n/B0",
+    "shape_entries": "DeltaR_ij=C_max(i,j), C_j=sum_(n>=j)lambda_n*a_n"
+  },
+  "gu_typed_objects": {
+    "carrier": "closure span{G^n phi:n>=0} inside one K162 q00 or q10 charge sector",
+    "form": "R_ref=A+S*(W+W_ref)S with W bath-number preserving",
+    "pairing": "physical Gram M=S* S",
+    "result": "native cyclic tail-kernel form reduction MAP-TYPE=form-identity",
+    "target": "K489 corrected first-tail cross and later cyclic-complement assembly"
+  },
+  "result_id": "K491-K139-CYCLIC-TAIL-KERNEL-FORM",
+  "schema_version": "1.0",
+  "scope": "The fixed K139/K156 form and K168 shape on one K162 zero-bath Neumann cyclic orbit; no noncyclic K162 vector is included.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

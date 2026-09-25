@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K491--K494 cyclic cross and full-complement boundary
+
+- `channel-swings/k491_k139_cyclic_tail_kernel_form.py` and its probe compile
+  the exact physical-Gram and base-form tail kernels and preserve the signed
+  cancellation-safe cross.
+- `channel-swings/k492_k162_cyclic_m_orthogonal_basis.py` and its probe prove
+  the exhaustive M-orthogonal contrast basis inside one Neumann cyclic
+  closure.
+- `channel-swings/k493_k152_base_cross_prefix_tail_budget.py` and its probe
+  combine the native scalar, shape and first-block terms with rigorous
+  order-one and post-order-12 cross remainders.
+- `channel-swings/k494_k162_full_complement_extension_boundary.py` and its
+  probe separate the cyclic result from the noncyclic remainder required for
+  a complete K162 complement floor.
+
 ## K489--K490 native M-orthogonal split and K168 cross
 
 - `channel-swings/k489_native_neumann_word_m_orthogonalization.py` and its

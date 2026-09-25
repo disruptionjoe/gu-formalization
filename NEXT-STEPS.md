@@ -20,6 +20,22 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K491--K494 CYCLIC CROSS AND FULL-COMPLEMENT BOUNDARY.** K491
+> derives the exact tail kernels `M_ij=B_max(i,j)` and
+> `R0_ij=delta_ij alpha_i+E_max(i,j)`, reducing the corrected-line base cross
+> to the signed scalar `E1/B0`. K492 supplies the exhaustive M-orthogonal
+> cyclic contrast basis `u_j=e_(j-1)-(B_(j-1)/B_j)e_j`. K493 combines the
+> native scalar, K168 shape and K172 first-block terms with K175/K176 tails:
+> both q00/q10 crosses are negative through the first block, but the current
+> order-one remainder remains inconclusive. Its post-order-12 cross bounds are
+> about `2.02e-4` and `1.54e-4`. K494 separates the complete complement as
+> cyclic contrasts plus the noncyclic M-orthogonal remainder. The four probes
+> pass `15/15`, `13/13`, `14/14` and `14/14` controls and reject `8/8`
+> hostile mutations each. Next evaluate only the signed K179/K456 normal
+> orders 2--12, then obtain cyclic and noncyclic same-form floor/cross bounds.
+> No K473 floor, K152 interval or source/ledger/canon/public/physical claim
+> moves.
+
 > **2026-09-25 K489--K490 NATIVE M-ORTHOGONAL SPLIT AND K168 CROSS.** The
 > actual K139 Neumann orbit changes the requested K473 split: with
 > `A=sum_(n>=0)||G^n phi||^2` and `B=A-1`, the Gram block on `(phi,G phi)` is

@@ -7,6 +7,39 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K491--K494 cyclic cross and full-complement boundary (2026-09-25)
+
+K491 proves the exact tail-kernel identities on the K139 Neumann cyclic orbit:
+`M_ij=B_max(i,j)` and
+`R0_ij=delta_ij alpha_i+E_max(i,j)`. K139's seed cancellation therefore
+reduces the base cross on K489's corrected line to `E1/B0`. The compiler keeps
+this scalar signed when adding K490's shape term. Its probe passes `15/15`
+controls and rejects `8/8` hostile mutations.
+
+K492 proves that
+`u_j=e_(j-1)-(B_(j-1)/B_j)e_j` are mutually M-orthogonal, orthogonal to the
+trial seed, and total in its M-orthogonal complement inside the cyclic
+closure. Their exact norms are `a_(j-1)B_(j-1)/B_j`; K489's corrected line is
+proportional to `u_1`. Its probe passes `13/13` controls and rejects `8/8`
+hostile mutations. This proves cyclic exhaustiveness only.
+
+K493 evaluates the actual K172 first normal block and combines it with the
+signed scalar and shape intervals. The q00 and q10 crosses are strictly
+negative through that first block, but the current all-order remainder after
+order one is too large to exclude zero. After the signed K179/K456 orders
+2--12 are evaluated, the rigorous remaining cross-radius is approximately
+`2.02e-4` for q00 and `1.54e-4` for q10. Its probe passes `14/14` controls and
+rejects `8/8` hostile mutations.
+
+K494 proves the exact complete-space boundary
+`phi^perp_M=C0 direct-sum_M C^perp_M`, where `C0` is the cyclic complement.
+It applies the sharp K473 target test to a rational positive control and
+rejects low-floor and excessive-cross controls. Its probe passes `14/14`
+controls and rejects `8/8` hostile mutations. Neither the noncyclic floor nor
+the cyclic/noncyclic same-form cross is evaluated, so no complete K473 floor,
+K152 interval, source, ledger, canon, paper, public or physical conclusion
+follows.
+
 ## K489--K490 native M-orthogonal split and K168 cross (2026-09-25)
 
 K489 uses K170's actual orthogonal Neumann-word sectors. If

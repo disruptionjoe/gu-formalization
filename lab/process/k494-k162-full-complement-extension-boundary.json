@@ -1,0 +1,69 @@
+{
+  "claim_ceiling": "Exact orthogonal decomposition and sharp extension test separating the exhaustive cyclic result from the complete K162 complement. Neither the noncyclic floor nor cyclic/noncyclic cross is evaluated, so K473, K152 and all physical or source conclusions remain open.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K473_released": false,
+    "cyclic_exhaustiveness_upgraded_to_full_K162": false,
+    "cyclic_noncyclic_cross_required": true,
+    "next_exact_input": "Construct a native M-orthogonal description or independent floor for N=C^perp_M inside the selected K162 sector and bound the fixed combined-form C0/N cross; then apply the existing K473/K477 machinery.",
+    "noncyclic_floor_required": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "large_cross": {
+      "cross_norm_upper": "4",
+      "cyclic_floor": "5",
+      "cyclic_gap": "2",
+      "noncyclic_floor": "8",
+      "noncyclic_gap": "5",
+      "passes": false,
+      "squared_slack": "-6",
+      "target": "3"
+    },
+    "low_noncyclic_floor": {
+      "cross_norm_upper": "0",
+      "cyclic_floor": "5",
+      "cyclic_gap": "2",
+      "noncyclic_floor": "2",
+      "noncyclic_gap": "-1",
+      "passes": false,
+      "squared_slack": "-2",
+      "target": "3"
+    },
+    "positive": {
+      "cross_norm_upper": "3",
+      "cyclic_floor": "5",
+      "cyclic_gap": "2",
+      "noncyclic_floor": "8",
+      "noncyclic_gap": "5",
+      "passes": true,
+      "squared_slack": "1",
+      "target": "3"
+    }
+  },
+  "exact_theorem": {
+    "cyclic_basis_role": "K492 can supply coordinates for C0 but no datum about N or the C0/N form cross",
+    "cyclic_closure": "C=closure span{G^n phi:n>=0}",
+    "cyclic_trial_complement": "C0=C intersect phi^perp_M",
+    "full_floor": "(alpha+gamma-sqrt((alpha-gamma)^2+4mu^2))/2",
+    "full_trial_complement": "phi^perp_M=C0 direct_sum_M N",
+    "noncyclic_remainder": "N=C^perp_M",
+    "reason_N_is_inside": "phi belongs to C, hence every N vector is M-orthogonal to phi",
+    "same_form_block_inputs": "alpha=floor on C0, gamma=floor on N, mu=norm of the same-form cross C0<->N",
+    "sharp_target_test": "alpha>b, gamma>b, mu^2<(alpha-b)(gamma-b)"
+  },
+  "gu_typed_objects": {
+    "carrier": "complete K162 charge sector H_q",
+    "form": "same fixed K139/K168 form on both blocks",
+    "pairing": "physical M=S* S",
+    "result": "cyclic-to-full-complement block boundary MAP-TYPE=orthogonal-decomposition",
+    "target": "full trial-M-orthogonal complement floor required by K473"
+  },
+  "result_id": "K494-K162-FULL-COMPLEMENT-EXTENSION-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "One complete K162 charge sector split relative to the K139 Neumann cyclic closure of a trial seed.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 94a837e780ed
+revision_basis: ee422b347ee7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K491--K494 now close the cancellation-safe base-cross algebra on the
+    actual K139 Neumann cyclic orbit and separate it from the still-missing
+    full K162 complement. If `a_n=||G^n phi||^2` and
+    `B_j=sum_(n>=j)a_n`, both the physical Gram and the fixed base form are
+    tail kernels: `M_ij=B_max(i,j)` and
+    `R0_ij=delta_ij alpha_i+E_max(i,j)`, where
+    `E_j=sum_(n>=j)<G^n phi,W_n G^n phi>`. The K139 seed cancellation gives
+    the exact corrected-line base cross `E_1/B_0`; K491 preserves its sign
+    and combines it with K490 rather than bounding the two pieces separately.
+
+    K492 extends K489 to the exhaustive cyclic basis
+    `u_j=e_(j-1)-(B_(j-1)/B_j)e_j`, with mutually M-orthogonal norms
+    `a_(j-1)B_(j-1)/B_j`. K493 evaluates the actual K172 first block and
+    rigorous K175/K176 remainders on the q00/q10 corrected lines. Both signed
+    crosses are negative through the first block, but the existing order-one
+    remainder is too large to exclude zero. The exact next calculation is
+    only the signed K179/K456 normal cross through orders 2--12; the remaining
+    post-order-12 cross bounds are about `2.02e-4` and `1.54e-4`. K494 proves
+    that the complete trial complement is
+    `C0 direct-sum_M C^perp_M`; a noncyclic floor and cyclic/noncyclic
+    same-form cross remain required. No K473 floor, K152 interval, source,
+    ledger, canon, paper, public-posture or physical conclusion moves.
+
     K489--K490 make the first actual September 25 native-complement
     calculation and correct its geometry. On the K139 Neumann orbit of a
     K162 zero-bath seed, write `A=sum_(n>=0)||G^n phi||^2` and `B=A-1`.
@@ -10393,6 +10416,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K491--K494 reduce the native cyclic cross to one sharply bounded signed
+  calculation. Evaluate the K179/K456 normal cross through orders 2--12 on
+  the q00 and q10 corrected lines, combine it with the already signed scalar,
+  shape and K172 pieces, enlarge only by K493's post-order-12 bound, and test
+  whether zero is excluded. In parallel, obtain a same-form floor on K492's
+  exhaustive cyclic contrast basis and a native floor/cross packet for the
+  noncyclic remainder `C^perp_M`. Do not replace either calculation with the
+  full 59,586-entry residual Gram, separate absolute bounds on cancelling
+  pieces, or cyclic exhaustiveness presented as the full K162 complement.
+
   K489--K490 now show that the obvious first Neumann-word tail is not the
   physical M-orthogonal complement needed by K473. On q00/q10 use the corrected
   line `t=G phi-(B/A)phi`; its K168 shape cross is rigorously nonzero and has
@@ -10761,6 +10794,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Evaluate only the signed K179/K456 normal cross through orders 2--12 on the
+  K489 q00/q10 corrected lines. Add K491's scalar base cross, K490's signed
+  shape cross and K172's first block, then enlarge by K493's rigorous
+  post-order-12 remainder and require strict zero exclusion. Separately,
+  evaluate the fixed combined form on K492's exhaustive cyclic contrasts and
+  construct or bound the noncyclic `C^perp_M` block identified by K494. Only
+  the resulting full same-form cyclic/noncyclic packet may feed K473/K477.
+
   Continue the actual native K162 calculation from K489/K490. Evaluate the
   cancellation-safe base `R0` form on `phi` and
   `t=G phi-(B/A)phi`, retain its signed cross with K490's K168 contribution,
