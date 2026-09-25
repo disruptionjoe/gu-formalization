@@ -7,6 +7,27 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K489--K490 native M-orthogonal split and K168 cross (2026-09-25)
+
+K489 uses K170's actual orthogonal Neumann-word sectors. If
+`A=sum_(n>=0)||G^n phi||^2` and `B=A-1`, direct Hilbert pairing gives the
+physical-Gram block `[[A,B],[B,B]]` on `(phi,G phi)`. Hence the naive word
+tail has nonzero M cross `B`; the corrected direction
+`t=G phi-(B/A)phi` has exact norm `<t,Mt>=B/A`. K170's rational outward
+first-word integral and word-two-plus bound give strict positive q00/q10
+intervals. Its probe passes `19/19` controls and rejects `8/8` hostile
+mutations.
+
+K490 substitutes the same corrected line into K168's fixed alternating shape.
+Writing `O` for odd-word mass, the exact q00/q10 crosses are `+3O/A` and
+`-3O/A`, and the M-normalized square is `9O^2/(A^2B)`. The bounds use only
+the rigorous relations `a1<=O<=B`; unknown higher-word parity is not assigned
+favorably. Its probe passes `19/19` controls and rejects `8/8` hostile
+mutations. Independent hostile review rejects treating one corrected line as
+the complete complement or the K168 component as the combined form. The
+cancellation-safe base `R0` cross, complete K162 complement, K473 floor and
+K152 interval remain open.
+
 ## K481--K484 inverse budgets and exactness witnesses (2026-09-25)
 
 K481 inverts K473 for a requested complete-complement floor `t`: the exact

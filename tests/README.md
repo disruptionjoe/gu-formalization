@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K489--K490 native M-orthogonal split and K168 cross
+
+- `channel-swings/k489_native_neumann_word_m_orthogonalization.py` and its
+  probe derive the exact physical-Gram block on `(phi,G phi)`, reject the
+  naive free-word tail as M-orthogonal, and certify outward q00/q10 intervals
+  for the corrected direction `G phi-(B/A)phi`.
+- `channel-swings/k490_k168_native_shape_cross_estimate.py` and its probe
+  evaluate the fixed K168 shape on that corrected line, including the signed
+  q00/q10 cross and normalized cross-square bounds, while withholding the
+  unevaluated base `R0` and combined K139/K168 form.
+
 ## K481--K484 inverse budgets and exactness witnesses
 
 - `channel-swings/k481_k152_inverse_cross_budget.py` and its probe invert the

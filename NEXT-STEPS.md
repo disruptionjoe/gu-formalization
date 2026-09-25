@@ -20,6 +20,19 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K489--K490 NATIVE M-ORTHOGONAL SPLIT AND K168 CROSS.** The
+> actual K139 Neumann orbit changes the requested K473 split: with
+> `A=sum_(n>=0)||G^n phi||^2` and `B=A-1`, the Gram block on `(phi,G phi)` is
+> `[[A,B],[B,B]]`, so the free word tail is not M-orthogonal. K489 constructs
+> `t=G phi-(B/A)phi`, proves `<t,Mt>=B/A`, and certifies outward q00/q10
+> intervals from K170. K490 evaluates K168's shape on the corrected line:
+> the cross is `+3O/A` in q00 and `-3O/A` in q10, with normalized square
+> `9O^2/(A^2B)`. The probes pass `19/19` controls and reject `8/8` hostile
+> mutations each. Next evaluate the cancellation-safe base `R0` form on this
+> same corrected graph, then enlarge it to a complete M-orthogonal K162
+> complement before applying K473. No combined floor, K152 interval or
+> source/ledger/canon/public/physical claim moves.
+
 > **2026-09-25 K481--K484 INVERSE BUDGETS AND EXACTNESS WITNESSES.** K481
 > turns a requested K152 complete-complement floor into the strict acquisition
 > budget `mu^2<(alpha-t)(gamma-t)`. K482 gives the sharp shared radius

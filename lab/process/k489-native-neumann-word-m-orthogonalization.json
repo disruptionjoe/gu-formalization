@@ -1,0 +1,121 @@
+{
+  "claim_ceiling": "Exact native K139/K162 two-vector Gram identity and outward q00/q10 projection intervals. The free bath-word tail is not the physical M-orthogonal tail; the corrected first line is explicit. No complete complement, base R0 form/cross, combined K139/K168 floor, K152 interval, source, ledger, canon, paper, public or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "actual_native_split_attempted": true,
+    "combined_K139_K168_floor_emitted": false,
+    "complete_M_orthogonal_complement_constructed": false,
+    "first_corrected_M_orthogonal_line_constructed": true,
+    "naive_free_word_tail_rejected": true,
+    "next_exact_input": "Evaluate the cancellation-safe base R0 form and its cross on the corrected K489 tail graph, then enlarge the corrected graph to a complete K162 complement before applying K473."
+  },
+  "direction": "observed_to_native",
+  "exact_theorem": {
+    "A": "sum_(n>=0)||v_n||^2",
+    "B": "sum_(n>=1)||v_n||^2=A-1",
+    "M_block": "[[A,B],[B,B]]",
+    "M_orthogonality": "<phi,Mt>=0",
+    "S_G_phi": "sum_(n>=1) v_n",
+    "S_phi": "sum_(n>=0) v_n",
+    "corrected_norm": "<t,Mt>=B/A",
+    "corrected_tail": "t=G phi-(B/A)phi",
+    "free_word_tail_equals_M_orthogonal_tail": false,
+    "orthogonality": "<v_n,v_m>=0 for n!=m",
+    "word_vectors": "v_n=G^n phi"
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "carrier": "K162 q00 and q10 zero-bath seed cyclic Neumann-word subspaces on the K139 positive Fock carrier",
+    "form": "none in K489; K490 evaluates only the K168 shape component",
+    "pairing": "physical Gram M=S* S with S=(1-G_256)^-1",
+    "result": "native first-word M-orthogonalization MAP-TYPE=projection",
+    "target": "first corrected tail line for a future K473 complete-complement split"
+  },
+  "native_sectors": [
+    {
+      "A_total_Gram_interval": [
+        "501243298499573/500000000000000",
+        "282011957347297/275000000000000"
+      ],
+      "B_tail_mass_interval": [
+        "1243298499573/500000000000000",
+        "7011957347297/275000000000000"
+      ],
+      "M_Gram_block_formula": "[[A,B],[B,B]] with A=1+B",
+      "charge": [
+        0,
+        0
+      ],
+      "corrected_projection_coefficient_interval": [
+        "1243298499573/501243298499573",
+        "7011957347297/282011957347297"
+      ],
+      "corrected_tail_M_norm_sq_identity": "<t,Mt>=B/A",
+      "corrected_tail_M_norm_sq_interval": [
+        "1243298499573/501243298499573",
+        "7011957347297/282011957347297"
+      ],
+      "corrected_tail_vector": "t=G phi-(B/A) phi",
+      "first_word_multiplicity": 2,
+      "first_word_norm_sq_interval": [
+        "1243298499573/500000000000000",
+        "62166577027/25000000000000"
+      ],
+      "naive_Gphi_is_M_orthogonal_to_phi": false,
+      "naive_M_cross_interval": [
+        "1243298499573/500000000000000",
+        "7011957347297/275000000000000"
+      ],
+      "seed": "Omega",
+      "two_vector_Gram_determinant_identity": "det([[A,B],[B,B]])=B",
+      "two_vector_Gram_positive": true,
+      "unresolved_word_two_plus_norm_sq_upper": "81/3520"
+    },
+    {
+      "A_total_Gram_interval": [
+        "1001243298499573/1000000000000000",
+        "563340082347297/550000000000000"
+      ],
+      "B_tail_mass_interval": [
+        "1243298499573/1000000000000000",
+        "13340082347297/550000000000000"
+      ],
+      "M_Gram_block_formula": "[[A,B],[B,B]] with A=1+B",
+      "charge": [
+        1,
+        0
+      ],
+      "corrected_projection_coefficient_interval": [
+        "1243298499573/1001243298499573",
+        "13340082347297/563340082347297"
+      ],
+      "corrected_tail_M_norm_sq_identity": "<t,Mt>=B/A",
+      "corrected_tail_M_norm_sq_interval": [
+        "1243298499573/1001243298499573",
+        "13340082347297/563340082347297"
+      ],
+      "corrected_tail_vector": "t=G phi-(B/A) phi",
+      "first_word_multiplicity": 1,
+      "first_word_norm_sq_interval": [
+        "1243298499573/1000000000000000",
+        "62166577027/50000000000000"
+      ],
+      "naive_Gphi_is_M_orthogonal_to_phi": false,
+      "naive_M_cross_interval": [
+        "1243298499573/1000000000000000",
+        "13340082347297/550000000000000"
+      ],
+      "seed": "d_1^*Omega",
+      "two_vector_Gram_determinant_identity": "det([[A,B],[B,B]])=B",
+      "two_vector_Gram_positive": true,
+      "unresolved_word_two_plus_norm_sq_upper": "81/3520"
+    }
+  ],
+  "result_id": "K489-NATIVE-NEUMANN-WORD-M-ORTHOGONALIZATION",
+  "schema_version": "1.0",
+  "scope": "The actual K139 chart and K162 q00/q10 zero-bath seed orbits. The result corrects the first Neumann-word tail to the physical M=S* S orthogonal complement; it is not a complete K162 complement or a combined-form floor.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
