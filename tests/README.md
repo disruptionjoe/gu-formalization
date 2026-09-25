@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K447--K449 K152 Galerkin form-order boundary
+
+- `channel-swings/k447_k152_charge_sector_galerkin_defect_census.py` and its
+  probe compute complete exact raw/regular defects, ranks, supports and LDL
+  inertias across q00/q10/q01.
+- `channel-swings/k448_k152_regular_chart_form_order_obstruction.py` and its
+  probe prove that the regular chart destroys both one-sided Galerkin form
+  orders for independent rediscretization.
+- `channel-swings/k449_k152_compressed_form_repair_interface.py` and its probe
+  verify exact compression repair and finite coordinate two-sided radii while
+  fencing the missing physical-Gram and cofinal inputs.
+
 ## K444--K446 typed boundary squares and properness
 
 - `channel-swings/k444_k77_degree_changing_boundary_squares.py` and its probe

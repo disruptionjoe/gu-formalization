@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 891e48419d78
+revision_basis: da2f0548eb79
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,30 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K447--K449 switch to the strongest executable K152 prerequisite after the
+    K77 action-coupling branch reaches its exact dependency boundary. K447
+    exhausts the physical one-to-two-cell Galerkin defect in the q00, q10 and
+    q01 hard-core charge sectors. The raw independently rebuilt coarse forms
+    have positive-definite full-rank defects with inertias `(8,0,0)`,
+    `(7,0,0)`, `(7,0,0)`. After the nonlinear K139 regular chart, the defects
+    remain full rank but become indefinite with inertias `(5,3,0)`, `(5,2,0)`
+    and `(5,2,0)`; q00 is dense on all 64 entries and q10/q01 have 41 nonzero
+    entries each.
+
+    K448 therefore proves that neither one-sided Galerkin form inequality, and
+    hence no direct min--max or exterior-gap transfer, survives independent
+    rediscretization through the regular chart. K163's first nonzero entry was
+    not an isolated accident. K449 constructs the exact finite repair:
+    adding the complete defect is the unique additive correction that makes
+    each coarse form equal the fine-form compression. It also serializes exact
+    coordinate two-sided radii `451831/727650` for q00 and
+    `673219948537327450574663/1548644690229713556480000` for q10/q01.
+    Those radii are not yet physical-Gram-relative or cofinal. The next exact
+    input is a cofinal physical-Gram-relative two-sided defect bound for the
+    limiting K139 form, followed by the complete shifted residual,
+    coercivity, next-distinct gap and left floor. No native K152 interval,
+    source/ledger/canon/public or physical claim moves.
+
     K444--K446 now resolve the post-K443 logical boundary for general
     degree-changing couplings without inventing an action differential. K444
     proves the correctly typed trace-domain square
@@ -10474,6 +10498,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K447 as the complete finite charge-sector defect census for the
+  physical one-to-two-cell refinement. The raw defects are positive definite
+  and full rank, but after the K139 regular chart all three are full-rank
+  indefinite. Treat K448 as the exact one-sided form-order obstruction:
+  independently rebuilding the coarse regular form supplies neither
+  Galerkin inequality and therefore no min--max or exterior-gap transfer.
+  Treat K449 as the finite repair boundary: exact compression is restored by
+  the unique full defect correction, and the displayed row-sum radii are
+  coordinate two-sided bounds only. Next prove a cofinal
+  physical-Gram-relative two-sided defect bound for the limiting K139 form,
+  then combine it with the complete shifted form-dual residual, coercivity,
+  next-distinct spectrum and native left floor before feeding K152. Do not
+  promote the finite control or coordinate radii to a limiting conforming
+  form, native K152 interval, source/GU physics, Born rule, prediction or
+  confirmation.
+
   Treat K444 as the exact general degree-changing trace-domain theorem:
   `Pi_target D = D Pi_source` is necessary and sufficient, and K443's
   commutator is only its equal-degree special case. Treat K445 as an exact

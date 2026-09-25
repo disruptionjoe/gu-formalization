@@ -2,10 +2,37 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-24"
+updated_at: "2026-09-25"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K447--K449 K152 Galerkin form-order boundary (2026-09-25)
+
+K447 reconstructs the K163 physical one-to-two-cell control in every native
+hard-core charge representative. The independently rebuilt raw coarse forms
+have exact positive-definite full-rank defects: q00 has rank/support 8/8 and
+inertia `(8,0,0)`; q10/q01 have 7/7 and `(7,0,0)`. After the K139 regular
+chart the defects remain full rank but become dense or coupled, with
+rank/support 8/64, 7/41 and 7/41 and exact inertias `(5,3,0)`, `(5,2,0)`,
+`(5,2,0)`. Its probe passes `18/18` controls and rejects `17/17` hostile
+mutations.
+
+K448 derives the exact order consequence: the positive raw form ordering does
+not survive the nonlinear regular pullback. Neither fine compression above
+coarse nor below coarse holds, so no one-sided min--max or exterior-gap
+transfer follows from independent rediscretization. Its probe passes `17/17`
+controls and rejects `17/17` hostile mutations.
+
+K449 verifies that adding the complete defect is the unique additive repair
+that makes the coarse regular form equal exact fine-form compression. The
+finite scaled-coordinate row-sum bounds are `451831/727650` in q00 and
+`673219948537327450574663/1548644690229713556480000` in q10/q01. Its probe
+passes `19/19` controls and rejects `19/19` hostile mutations. These are not
+physical-Gram-relative or cofinal estimates. The limiting form, complete
+shifted residual, coercivity, next-distinct spectrum, left floor and native
+K152 interval remain open; no source, physical, Born, prediction, canon,
+paper or public conclusion follows.
 
 ## K444--K446 typed boundary squares and properness (2026-09-24)
 

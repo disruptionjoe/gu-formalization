@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-24"
+updated_at: "2026-09-25"
 ---
 
 # Next Steps For Contributors
@@ -19,6 +19,19 @@ updated_at: "2026-09-24"
 > it cannot stop work, reduce scale, or substitute maintenance. See
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
+
+> **2026-09-25 K447--K449 K152 GALERKIN FORM-ORDER BOUNDARY.** K447
+> exhausts the exact physical one-to-two-cell defect across q00/q10/q01. Raw
+> independent coarse rebuilds lie strictly below fine compression, but the
+> nonlinear K139 regular chart turns every defect full-rank indefinite, with
+> inertias `(5,3,0)`, `(5,2,0)`, `(5,2,0)`. K448 therefore removes both
+> one-sided Galerkin inequalities and any direct min--max/gap transfer from
+> independent rediscretization. K449 supplies the exact finite repair and
+> coordinate two-sided radii, not a physical-Gram or cofinal bound. Next prove
+> the cofinal physical-Gram-relative two-sided defect estimate on the limiting
+> K139 form, then combine the complete residual, coercivity, next-distinct gap
+> and left floor before K152. No native interval or physical/source move is
+> licensed.
 
 > **2026-09-24 K444--K446 TYPED BOUNDARY SQUARES AND PROPERNESS
 > SEPARATION.** K444 upgrades K443's equal-degree commutator to the correctly
