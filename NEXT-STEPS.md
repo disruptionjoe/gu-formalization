@@ -20,6 +20,24 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K462--K464 COERCIVITY/COUNT COMPOSITION AND K77 PROPERNESS
+> SIEVE.** K462 proves that center-zero shifted coercivity exists on the
+> complete K162 continuum carrier by composing K139, K141, K168, K153 and
+> K156/K162. At `q=3/8` the exact chart factors are `25/64` and `121/64`, but
+> no numerical lower-bound witness is serialized. K463 proves that one
+> same-form packet with `rho<b<beta` and cross norm `eta` gives both rank one
+> below `b` and global floor
+> `(rho+beta-sqrt((beta-rho)^2+4 eta^2))/2`. Next prove and evaluate that
+> complete K162 complement packet, then price K457's 59586 Gram entries only
+> to the demanded accuracy. K464 separately admits a K77 properness test only
+> for coefficient-complete action-owned arrows satisfying demand lineage,
+> typed squares, nilpotence, closed-domain preservation and exact ranks or an
+> adapted contraction. K445 remains unselected, K446's two cohomology defects
+> are rejected, and no actual K77 coefficients exist. The probes pass `34/34`,
+> `35/35` and `27/27` controls; hostile self-tests reject `34/34`, `25/25`
+> and `27/27` mutations. No native K152 interval, action selection, physical
+> cohomology or source/ledger/canon/public/physical claim moves.
+
 > **2026-09-25 K459--K461 K152 COORDINATE COVARIANCE AND SPECTRAL
 > CERTIFICATE BOUNDARY.** K459 composes K166's scalar-extension covariance
 > with the nonlinear K152 lower enclosure. Translating `rho` and `b` by `E`

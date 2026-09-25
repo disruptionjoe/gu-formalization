@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K462-K152-CENTER-ZERO-COERCIVITY-EXTRACTION",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Theorem-level extraction of existential center-zero shifted coercivity for the repository-supplied K139/K141/K168 signed-point reference operator on the complete K156/K162 continuum charge carrier, with exact K153 chart constants and a fail-closed quantitative boundary.",
+  "gu_typed_objects": {
+    "result": "center-zero continuum coercivity extraction MAP-TYPE=certificate-interface",
+    "carrier": "K162 hard-core C3 tensor Gamma_-(L2(R;C4)) charge-sector carrier obtained from the K141 continuum construction and fixed by K156",
+    "pairing": "positive particle/hole exterior-Fock Hilbert pairing; in K153 regular coordinates M=S* S",
+    "real_structure": "CAR adjoint and momentum conjugation with the K162 signed flavor intertwiner",
+    "grading": "conserved incidence charge, hard-core impurity degree, dyadic refinement and scalar-extension coordinate",
+    "action_owner": "repository-construction; Weinstein's source and a GU action do not select the positive polarization, couplings, reference extension, scalar center, domain or state",
+    "target": "K461 center_zero_coercivity_ref at the declared coordinate E=0"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-SM8", "LT-GR6b", "RA-F1", "AC-F1"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "inputs": ["K139", "K141", "K153", "K156", "K162", "K168", "K459", "K461"]
+  },
+  "preflight_bookend": {
+    "route_comparison": "First compose the already-proved common finite lower shift through the actual fixed-W continuum and charge-sector carrier before launching a new absolute lower-bound computation.",
+    "retrieval_collision_result": "K139 proves a common finite lower shift for the signed point family; K141 carries fixed-W operators to one L2(R) continuum carrier; K168 supplies a bounded fixed Hermitian W_ref at the declared scalar coordinate zero; K153 already supplies the exact chart transport; K156/K162 identify the complete continuum charge carrier. No prior packet composes these references or states the missing quantitative witness boundary.",
+    "strongest_alternative": "A fresh finite Galerkin spectrum, K161 cutoff tail or K169 HVZ member would not be the complete-carrier absolute semibound and is unnecessary for the existential composition."
+  },
+  "continuum_composition": {
+    "K139": "After one common finite lower shift the fixed supplied signed point operators are self-adjoint and uniformly semibounded.",
+    "K141": "For every fixed supplied finite W, the matched operators converge after the common shift in norm resolvent to the L2(R) signed point operator.",
+    "K168_center_zero": "Fix W_ref=diag(-2,1,1) and declare the scalar extension coordinate E=0 without treating that coordinate as physical selection.",
+    "K153": "The fixed chart has q<=3/8, M=S* S and exact sign-sensitive regular-to-physical coercivity transport.",
+    "K156_K162": "The two-edge hard-core charge sectors are reducing invariant sectors of the fixed continuum representative on K162's common carrier.",
+    "conclusion": "There exists a finite L0 with H_ref,0>=-L0 on each complete K162 charge sector; choosing s0=L0+1 gives H_ref,0+s0>=1.",
+    "existential_center_zero_coercivity_proved": true,
+    "fixed_extension_is_source_or_action_selected": false,
+    "complete_K162_charge_sector_covered": true
+  },
+  "exact_chart_transport": {
+    "q_upper": "3/8",
+    "one_minus_q_squared": "25/64",
+    "one_plus_q_squared": "121/64",
+    "gram_interval": ["64/121", "64/25"],
+    "nonnegative_regular_floor": "if R_ref,0>=r0>=0 then H_ref,0+s0>=s0+(25/64)r0",
+    "negative_regular_floor": "if R_ref,0>=r0<0 then H_ref,0+s0>=s0+(121/64)r0",
+    "canonical_symbolic_choice": "for r0=-L_R choose s0=1+(121/64)L_R, giving c0=1"
+  },
+  "exact_positive_control": {
+    "regular_lower_bound": "-4",
+    "physical_shift": "137/16",
+    "contraction_upper": "3/8",
+    "negative_factor": "121/64",
+    "physical_coercivity_floor": "1",
+    "control_is_native_K162_value": false
+  },
+  "quantitative_boundary": {
+    "named_exact_or_outward_L0_serialized": false,
+    "named_exact_or_outward_regular_r0_serialized": false,
+    "named_numeric_s0_serialized": false,
+    "named_numeric_c0_serialized": false,
+    "existential_reference_may_be_used_as_numeric_K457_input": false,
+    "K161_tail_may_substitute_for_absolute_anchor": false,
+    "separate_plus_minus_256_bounds_allowed": false,
+    "reason": "K139/K141 prove existence of a common finite lower shift but do not serialize its value; K165 proves that separately bounding the auxiliary +256 and -256 pieces destroys the cancellation and cannot supply the missing anchor."
+  },
+  "coordinate_covariance": {
+    "translation": "H_E=H_0+E I and s_E=s0-E",
+    "positive_shifted_value_is_invariant": true,
+    "relative_coercivity_family_transports": true,
+    "center_zero_coordinate_is_physical_selection": false,
+    "absolute_physical_placement_released": false
+  },
+  "decision": {
+    "existential_center_zero_coercivity_proved": true,
+    "K461_quantitative_center_zero_coercivity_ref_released": false,
+    "K457_numerical_Gram_evaluation_released": false,
+    "rank_one_below_b_certificate_present": false,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Extract one exact or outward cancellation-safe lower-bound witness for the combined fixed K139/K168 center-zero form, and independently prove rank one below a named b on the complete K162 sector."
+  },
+  "postflight_bookend": {
+    "strongest_advance": "The center-zero complete-continuum coercivity obligation is an existing semiboundedness consequence rather than a new spectral existence problem.",
+    "strongest_overclaim": "Calling existential semiboundedness a named numerical K152 coercivity input or treating E=0 as a physically selected scalar center.",
+    "strongest_contrary_construction": "Operators with arbitrarily negative finite lower bounds all satisfy the same existential theorem, so no common numerical s0 follows from existence alone.",
+    "weakest_reproducibility_seam": "The quantitative successor must bound the combined fixed form after normal-order cancellation; K165 forbids separate auxiliary-coordinate estimates."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k462_k152_center_zero_coercivity_extraction.py",
+    "probe": "tests/channel-swings/k462_k152_center_zero_coercivity_extraction_probe.py",
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 34,
+    "analytic_rejections": 3
+  },
+  "claim_ceiling": "Exact repository-owned theorem extraction for the supplied positive-polarization signed-point control: K139/K141 fixed-W semiboundedness applies to K168's declared center-zero reference extension on the complete K156/K162 continuum charge carrier, and K153 transports any regular lower bound with exact q<=3/8 factors. The result proves existence of a positive center-zero shifted form but supplies no named exact or outward lower-bound witness, no numerical shift or coercivity floor, no rank-one-below-b count and no native K152 interval. The operator remains repository-supplied rather than Weinstein/source/GU-action owned; no source, ledger, canon, paper, public, Born, prediction, confirmation or physical GU conclusion moves."
+}

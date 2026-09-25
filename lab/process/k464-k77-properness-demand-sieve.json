@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K464-K77-PROPERNESS-DEMAND-SIEVE",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Demand-lineaged fail-closed admission sieve for a future K77 degree-changing action packet. It composes QD-R1-1 through QD-R1-5 with K444's typed squares, total nilpotence, K445/K446's contrary cohomology controls, exact ranks or an adapted contraction, and preservation of the closed trace domain. It supplies no action coefficients and computes no physical cohomology.",
+  "gu_typed_objects": {
+    "result": "K77 degree-changing action properness demand sieve MAP-TYPE=certificate-interface",
+    "candidate": "one owner-authenticated coefficient-complete pair D2:C2_to_C1 and D1:C1_to_C0 on the corrected K77 trace-domain complex",
+    "complex": "conditional homogeneous-orbit KT product of dimensions 10752->46592->35840",
+    "projectors": "K444 degreewise corrected trace-half projectors Pi2, Pi1 and Pi0",
+    "properness_witness": "exact ranks 10752/35840 or an adapted contraction excluding K446-type surviving cohomology",
+    "domain": "K440/K441 closed trace domain and its moving corrected-boundary transport",
+    "target": "action_complete_ready_for_properness without physical-state identification"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "demand_input": "lab/process/quantum-demand-gpt-k77-classification-wave.json",
+    "typed_square_input": "lab/process/k444-k77-degree-changing-boundary-squares.json",
+    "acyclic_control": "lab/process/k445-k77-compatible-acyclic-coupling-family.json",
+    "contrary_cohomology_control": "lab/process/k446-k77-compatible-nilpotent-cohomology-obstruction.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Derive one admission interface from downstream quantum demands and proved structural boundaries before searching, fitting or accepting action coefficients.",
+    "retrieval_collision_result": "K444 classifies boundary-compatible arrow spaces, K445 gives one acyclic control and K446 gives two nilpotent contrary controls. None composes action custody, demand lineage, rank/contraction evidence and closed-domain preservation into a fail-closed packet classifier.",
+    "strongest_alternative": "Testing a coefficient-complete owner-native action would be stronger, but no such K77 D2/D1 packet is serialized. The sieve therefore rejects the current gap rather than manufacturing coefficients or selecting K445."
+  },
+  "demand_lineage": {
+    "QD-R1-1": "coherent alternatives and nonfactorizable composites",
+    "QD-R1-2": "normalized positive physical event pairing",
+    "QD-R1-3": "causal-domain local instruments and remote marginal invariance",
+    "QD-R1-4": "reversible phase transport and open-system decoherence",
+    "QD-R1-5": "gauge descent of effects, instruments and evolution"
+  },
+  "sieve_contract": {
+    "all_required_fields_must_be_present": true,
+    "complete_QD_R1_1_through_5_lineage_required": true,
+    "K444_both_typed_squares_required": true,
+    "total_nilpotence_required": true,
+    "exact_ranks_or_adapted_contraction_required": true,
+    "K446_contrary_cohomology_must_be_excluded": true,
+    "closed_trace_domain_preservation_required": true,
+    "partial_action_custody_or_coefficients_rejected": true,
+    "classifications": ["rejected", "structurally_admissible_but_unselected", "action_complete_ready_for_properness"]
+  },
+  "exact_controls": {
+    "K445_chain_conjugate": {
+      "classification": "structurally_admissible_but_unselected",
+      "ranks": [10752, 35840],
+      "cohomology_H2_H1_H0": [0, 0, 0],
+      "adapted_contraction": true,
+      "why_not_selected": "no action owner or coefficient-complete D2/D1 packet"
+    },
+    "K446_low_arrow_defect": {
+      "classification": "rejected",
+      "ranks": [10752, 35770],
+      "cohomology_H2_H1_H0": [0, 70, 70]
+    },
+    "K446_high_arrow_defect": {
+      "classification": "rejected",
+      "ranks": [10731, 35840],
+      "cohomology_H2_H1_H0": [21, 21, 0]
+    },
+    "abstract_action_complete_shape": {
+      "classification": "action_complete_ready_for_properness",
+      "control_is_actual_k77_action": false,
+      "meaning": "schema reachability control only; it contains fixture references and no K77 action coefficients"
+    }
+  },
+  "decision": {
+    "current_native_action_gap_classification": "rejected",
+    "actual_action_coefficients_serialized": false,
+    "physical_cohomology_constructed": false,
+    "actual_action_complete_ready_packet_count": 0,
+    "structural_controls_do_not_select_an_action": true,
+    "next_exact_input": "Supply one demand-lineaged, owner-authenticated, coefficient-complete K77 D2/D1 packet on the closed trace domain; then apply the typed-square, nilpotence and exact-rank/adapted-contraction tests without identifying finite control cohomology with physical states."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling K445 the K77 action because it passes the sieve structurally, or calling K446's finite classes physical states.",
+    "strongest_contrary_construction": "K445 and K446 all preserve typed boundary squares and nilpotence, yet have different cohomology; only action custody plus coefficient completeness and a properness witness can select beyond these controls.",
+    "weakest_reproducibility_seam": "The sieve checks exact field presence and finite rank/contraction evidence; it does not inspect unprovided coefficient matrices or infer nonlinear/global properness from the homogeneous-orbit complex."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k464_k77_properness_demand_sieve.py",
+    "probe": "tests/channel-swings/k464_k77_properness_demand_sieve_probe.py",
+    "controls_passed": 27,
+    "hostile_mutations_rejected": 27,
+    "producer_selftest_positive_controls": 2,
+    "producer_selftest_hostile_cases": 23
+  },
+  "claim_ceiling": "Exact demand-lineaged fail-closed certificate interface for admitting a future K77 degree-changing action packet to properness testing. It proves that K444 boundary squares, nilpotence and closed-domain preservation are necessary but not sufficient, uses K445/K446 to require exact ranks or an adapted contraction, and rejects incomplete or partial action packets. It serializes no actual action coefficient, selects no action, proves no nonlinear/global BV/KT properness or physical cohomology, identifies no finite class with a physical state, and moves no source, ledger, canon, paper, public posture, novelty, chirality, family count, positivity, prediction, confirmation or physical GU verdict."
+}

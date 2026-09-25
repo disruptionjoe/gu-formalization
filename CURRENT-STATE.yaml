@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c7e14ba97442
+revision_basis: 1c9a37cb48c5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,33 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K462--K464 sharpen two open certificate fronts without manufacturing their
+    missing native inputs. K462 composes K139 fixed-W semiboundedness, K141's
+    continuum limit, K168's center-zero reference extension, K153's exact
+    chart transport and the complete K156/K162 charge carrier. It proves that
+    a finite center-zero coercive shift exists. At `q=3/8`, regular lower
+    bounds transport with the exact factors `25/64` for a nonnegative bound
+    and `121/64` for a negative bound. The repository still names no exact or
+    outward lower-bound witness, so no numerical shift, K457 evaluation or
+    K152 interval follows.
+
+    K463 proves the exact same-form generalized M-Hilbert block theorem. If a
+    normalized trial has `rho<b`, the complete M-orthogonal complement has
+    floor `beta>b`, and the cross-column norm is at most `eta`, then the rank
+    below `b` is exactly one and the whole form has lower floor
+    `(rho+beta-sqrt((beta-rho)^2+4 eta^2))/2`. One complete K162 block packet
+    can therefore close both the rank-one count and a quantitative coercive
+    shift. No native `rho`, `b`, `beta` or `eta` is evaluated here.
+
+    K464 compiles the K77 properness demand sieve from QD-R1-1--5 and
+    K444--K446. Boundary-compatible typed squares and total nilpotence are
+    necessary but insufficient: a future action packet must also own complete
+    coefficients, preserve the closed corrected trace domain and prove the
+    exact ranks or an adapted contraction. K445 is structurally admissible
+    but unselected, both K446 cohomology defects are rejected, and no actual
+    action-complete packet exists. No physical cohomology or source, ledger,
+    canon, paper, public or physical claim moves.
+
     K459--K461 correct and compress the post-K458 spectral boundary. K459
     composes K166's scalar-extension covariance with the complete nonlinear
     K152 lower-enclosure formula. Under
@@ -10595,6 +10622,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K462 as the existential center-zero coercivity theorem on the complete
+  K162 carrier, including K153's exact sign-sensitive transport factors. Do
+  not treat existential semiboundedness as a numerical lower-bound witness.
+  Treat K463 as the exact composition interface: evaluate `rho`, choose
+  `rho<b`, prove a complete same-form M-orthogonal-complement floor
+  `beta>b`, and enclose the same action-column cross norm `eta`; the resulting
+  two-by-two lower root supplies the global floor while the Schur complement
+  supplies the count. Only then evaluate K457's 59586 Gram entries to the
+  accuracy required by that packet. Treat K464 as a fail-closed K77 admission
+  sieve only when actual action-owned `D2` and `D1` coefficients arrive. Keep
+  compatibility, nilpotence, K445's unselected control and K446's contrary
+  cohomology separate from action selection and physical properness.
+
   Treat K459 as the exact scalar-coordinate covariance theorem for the K152
   form-dual enclosure. A selected extension center is not a prerequisite for a
   relative interval family: translate `rho` and `b` by `E`, translate the

@@ -7,6 +7,39 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K462--K464 coercivity/count composition and K77 properness sieve (2026-09-25)
+
+K462 composes the existing K139/K141 semibounded continuum theorem with
+K168's `E=0` reference extension, K153's regular-to-physical chart and the
+complete K156/K162 charge carrier. It proves existence of a finite shift with
+positive center-zero floor. At `q=3/8`, nonnegative and negative regular lower
+bounds transport with exact factors `25/64` and `121/64`, respectively. The
+repository does not serialize the common lower bound, so the result is not a
+numerical coercivity witness and does not release K457 or K152. Its probe
+passes `34/34` controls; its hostile self-test rejects `34/34` mutations and
+three invalid analytic inputs.
+
+K463 proves the exact generalized M-Hilbert block composition. For an
+M-normalized trial vector, `rho<b<beta`, a complete complement inequality
+`Q R Q>=beta Q_M`, and cross-column norm at most `eta`, Schur congruence gives
+exactly one spectral direction below `b`. The whole form has lower floor
+`lambda_-=(rho+beta-sqrt((beta-rho)^2+4 eta^2))/2`, so one certified rational
+shift also gives coercivity. Nonidentity-M and outward nonsquare controls
+verify the theorem; no native K162 constants are inferred. Its probe passes
+`35/35` controls, rejects `11/11` invalid inputs, and the hostile self-test
+rejects `25/25` mutations.
+
+K464 is a fail-closed K77 properness admission sieve. It joins QD-R1-1--5 to
+K444's typed boundary squares and nilpotence, K445's rank/contraction control,
+and K446's contrary cohomology. Missing or partial packets and both K446
+defects are rejected; K445 is structurally admissible but unselected; only a
+coefficient-complete action-owned packet that also preserves the closed trace
+domain and proves exact ranks or an adapted contraction can become ready for
+properness. The only ready control is an explicitly non-native schema fixture.
+Its probe passes `27/27` controls and rejects `27/27` hostile mutations; the
+producer self-test passes two positive classes and rejects 23 incomplete or
+defective packets. No actual K77 action or physical cohomology is proved.
+
 ## K459--K461 extension covariance and spectral certificate boundary (2026-09-25)
 
 K459 composes K166's exact scalar-extension covariance with K152's complete

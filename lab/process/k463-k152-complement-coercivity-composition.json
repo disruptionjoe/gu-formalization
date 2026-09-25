@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K463-K152-COMPLEMENT-COERCIVITY-COMPOSITION",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact composition theorem converting one complete same-form K162 M-orthogonal-complement floor and bounded trial cross column into both rank one below b and an explicit global lower/coercivity floor.",
+  "gu_typed_objects": {
+    "result": "generalized M-Hilbert rank-one count and coercivity composition MAP-TYPE=certificate-interface",
+    "carrier": "one fixed K162 charge sector inside the fixed limiting K139 form domain",
+    "pairing": "physical positive metric M=S* S",
+    "trial_split": "span(u) direct-sum u^(perp_M), with ||u||_M=1",
+    "target": "K461 rank-one-below-b and center-zero coercivity references"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-SM8", "LT-GR6b", "RA-F1", "AC-F1"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "inputs": ["K152", "K156", "K162", "K165", "K169", "K450", "K456", "K457", "K458", "K461"]
+  },
+  "preflight_bookend": {
+    "route_comparison": "Compose the direct M-orthogonal-complement count with the global block lower bound before evaluating the complete K457 Gram payload.",
+    "retrieval_collision_result": "K156 and K165 already prove the count from a complete complement floor, while K458 proves the trial column alone does not determine that floor. No prior packet composes the count premise with its explicit cross-column global lower bound.",
+    "strongest_alternative": "A same-form Lehmann--Goerisch count remains available if direct complement positivity fails, but K157 finite contours and K169 threshold membership cannot replace the complete native Q block."
+  },
+  "theorem": {
+    "geometry": "generalized self-adjoint form in the physical M-Hilbert space",
+    "decomposition": "span(u) direct-sum u^(perp_M), with ||u||_M=1",
+    "premises": [
+      "rho<b<beta",
+      "Q(R-bM)Q >= (beta-b) Q_M on the complete charge sector",
+      "the cross/action-column functional has M-dual norm at most eta"
+    ],
+    "count_conclusion": "rank 1_(-infinity,b)(R,M)=1 by Schur congruence",
+    "global_floor": "lambda_-=(rho+beta-sqrt((beta-rho)^2+4*eta^2))/2",
+    "coercivity_conclusion": "R+sM >= (lambda_-+s)M>0 whenever s>-lambda_-"
+  },
+  "exact_positive_control": {
+    "physical_metric": [["1", "1", "0"], ["1", "2", "0"], ["0", "0", "1"]],
+    "regular_form": [["-2", "-1/2", "0"], ["-1/2", "3", "0"], ["0", "0", "3"]],
+    "M_orthonormal_coordinates": ["u=e1", "q1=(-1,1,0)", "q2=e3"],
+    "block_form_in_M_orthonormal_coordinates": [["-2", "3/2", "0"], ["3/2", "2", "0"], ["0", "0", "3"]],
+    "full_pencil_inertia_at_b": [1, 0, 2],
+    "exact_generalized_spectrum": ["-5/2", "5/2", "3"],
+    "certificate": {
+      "trial_rayleigh": "-2",
+      "count_threshold": "0",
+      "complete_M_orthogonal_complement_floor": "2",
+      "cross_action_column_norm_upper": "3/2",
+      "strict_order": "rho < b < beta",
+      "spectral_count_strictly_below_b": 1,
+      "count_proof": "positive complete Q block plus negative scalar Schur complement",
+      "global_lower_floor_formula": "lambda_-=(rho+beta-sqrt((beta-rho)^2+4*eta^2))/2",
+      "discriminant": "25",
+      "sqrt_discriminant_outward_interval": ["5", "5"],
+      "global_lower_floor_outward_interval": ["-5/2", "-5/2"],
+      "coercive_shift": "3",
+      "shifted_coercivity_lower": "1/2",
+      "same_fixed_limiting_form": true,
+      "complete_charge_sector_complement": true
+    },
+    "control_is_native_K162_packet": false
+  },
+  "outward_nonsquare_control": {
+    "discriminant_is_nonsquare": true,
+    "dyadic_bits": 16,
+    "certificate": {
+      "trial_rayleigh": "-1",
+      "count_threshold": "0",
+      "complete_M_orthogonal_complement_floor": "2",
+      "cross_action_column_norm_upper": "1",
+      "strict_order": "rho < b < beta",
+      "spectral_count_strictly_below_b": 1,
+      "count_proof": "positive complete Q block plus negative scalar Schur complement",
+      "global_lower_floor_formula": "lambda_-=(rho+beta-sqrt((beta-rho)^2+4*eta^2))/2",
+      "discriminant": "13",
+      "sqrt_discriminant_outward_interval": ["236293/65536", "118147/32768"],
+      "global_lower_floor_outward_interval": ["-85379/65536", "-170757/131072"],
+      "coercive_shift": "2",
+      "shifted_coercivity_lower": "45693/65536",
+      "same_fixed_limiting_form": true,
+      "complete_charge_sector_complement": true
+    },
+    "control_is_native_K162_packet": false
+  },
+  "substitution_boundary": {
+    "K169_HVZ_threshold_member_is_complete_Q_floor": false,
+    "K447_K453_independent_finite_rebuild_is_same_limiting_form": false,
+    "finite_Ritz_rank_is_native_complete_count": false,
+    "K456_K457_trial_column_or_residual_determines_Q_floor": false
+  },
+  "current_native_readiness": {
+    "required_native_references": [
+      "native_trial_rayleigh_ref",
+      "native_threshold_ref",
+      "complete_M_complement_floor_ref",
+      "native_cross_action_norm_ref",
+      "center_zero_coercive_shift_ref"
+    ],
+    "missing_native_references": [
+      "native_trial_rayleigh_ref",
+      "native_threshold_ref",
+      "complete_M_complement_floor_ref",
+      "native_cross_action_norm_ref",
+      "center_zero_coercive_shift_ref"
+    ],
+    "native_rank_one_below_b_certificate_emitted": false,
+    "native_center_zero_coercivity_emitted": false,
+    "K461_relative_readiness_complete": false
+  },
+  "decision": {
+    "composition_theorem_complete": true,
+    "native_constants_evaluated": false,
+    "next_exact_input": "On one fixed K162/K450 restriction, prove native rho<b<beta on the complete M-orthogonal complement and bound eta; the same packet then emits rank one and a center-zero coercive shift for K461."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the exact nonidentity-M control a native K162 spectral certificate or treating a K169 threshold member as beta.",
+    "strongest_contrary_construction": "K460's equal-edge controls contain zero, one or two hidden complement modes, while K458 varies the Q floor at fixed trial column and residual.",
+    "weakest_reproducibility_seam": "The cross norm must be the complete M-dual norm of the same fixed-form action column, and the Q lower bound must cover the full charge-sector complement."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k463_k152_complement_coercivity_composition.py",
+    "probe": "tests/channel-swings/k463_k152_complement_coercivity_composition_probe.py",
+    "controls_passed": 35,
+    "input_rejections_caught": 11,
+    "hostile_mutations_rejected": 25
+  },
+  "claim_ceiling": "Exact generalized M-Hilbert composition theorem and nonidentity-metric control only. Complete same-form complement positivity plus a bounded cross column imply rank one below b and an explicit global lower/coercivity floor. The native K162 values rho, b, beta, eta and shift remain unevaluated; K169 threshold membership, independent finite rebuilds and trial-column data cannot substitute. No native K152 interval, source, ledger, canon, paper, public, Born, prediction, confirmation or physical GU conclusion follows."
+}
