@@ -1,0 +1,89 @@
+{
+  "claim_ceiling": "Exact block reduction only. It removes the scalar and K168 shape from the K494 cyclic/noncyclic cross but supplies neither the normal-action leakage nor the noncyclic floor, so no complete K473 floor, K152 interval, source, ledger, canon, paper, public or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "direction": "observed_to_native",
+  "exact_control": {
+    "bath_number_blocks_preserved": true,
+    "combined_cross": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "3"
+      ]
+    ],
+    "combined_cross_norm": "3",
+    "normal_cross": [
+      [
+        "2",
+        "0"
+      ],
+      [
+        "0",
+        "3"
+      ]
+    ],
+    "scalar_and_shape_cross_zero": true,
+    "scalar_cross": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "shape_cross": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ]
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "repository-supplied conditional operator; no source/GU action selection",
+    "carrier": "one complete K162 charge sector split into cyclic C and N=C^perp_M",
+    "form": "fixed K139/K156 base plus K168 shape",
+    "grading": "bath-particle number and fixed charge",
+    "pairing": "M=S* S transported isometrically to the regular-coordinate Hilbert space",
+    "real_structure": "CAR adjoint on q00 or q10",
+    "result": "noncyclic leakage reduction MAP-TYPE=orthogonal-block-reduction",
+    "target": "K494 cyclic/noncyclic same-form cross norm"
+  },
+  "native_consequence": {
+    "K168_shape_cross_eliminated": true,
+    "K473_released": false,
+    "native_noncyclic_floor_evaluated": false,
+    "native_normal_leakage_evaluated": false,
+    "next_exact_input": "Evaluate or bound the bath-level normal-action leakage and the noncyclic compressed-form floor; combine them with K498/K499's cyclic floor through K494/K473.",
+    "normal_action_leakage_only": true,
+    "scalar_cross_eliminated": true
+  },
+  "result_id": "K500-K162-NONCYCLIC-LEAKAGE-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "K494's cross between the K139 Neumann cyclic closure and its M-orthogonal noncyclic remainder inside one K162 charge sector.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "bath_number_reduction": "because W preserves bath number and v_n lies in level n, P_V W (1-P_V) is the orthogonal direct sum of levelwise leakage blocks",
+    "commutator": "for self-adjoint W, ||P_V W (1-P_V)||=||[P_V,W]||",
+    "isometry": "S maps the M-Hilbert coordinate completion isometrically onto the regular-coordinate Hilbert carrier",
+    "noncyclic_floor": "the compression (1-P_V)R(1-P_V) still needs its own lower floor",
+    "norm": "the full-V leakage norm is sup_n ||P_span(v_n) W_n (1-P_span(v_n))|| and upper-bounds K494's C0/N cross",
+    "normal_cross": "the complete cyclic/noncyclic cross is P_V W (1-P_V), restricted from V to the image of C0",
+    "physical_cyclic_space": "V=closure span{v_n=G^n phi}",
+    "physical_noncyclic_space": "S(N)=V^perp",
+    "scalar_cross": "the -256 identity block has P_V I (1-P_V)=0",
+    "shape_cross": "K491's Lambda v_n=lambda_n v_n and self-adjoint Lambda make V reducing, hence P_V Lambda (1-P_V)=0"
+  }
+}

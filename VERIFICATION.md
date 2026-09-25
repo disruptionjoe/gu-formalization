@@ -7,6 +7,29 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K498--K500 cyclic floor and noncyclic leakage reduction (2026-09-25)
+
+K498 composes K491's tail-kernel form with K492's exhaustive contrasts. In
+that basis the same form is an exact rank-one semiseparable tail plus the
+nearest-neighbor correction inherited from the diagonal `alpha` term. Its
+probe passes `14/14` controls and its self-test passes `10/10`. This is an
+algebraic reduction, not a native coefficient evaluation.
+
+K499 implements the exact-rational no-pivot LDL test for `R_N-b M_N` on a
+finite cyclic prefix. The stored synthetic K498-compatible control certifies
+floor 7 and rejects floor 8. Its probe passes `13/13` controls and its
+self-test passes `9/9`. A native coefficient packet and a rigorous infinite
+tail closure are still required before this can establish the cyclic floor.
+
+K500 uses the Neumann cyclic subspace and its orthogonal complement to show
+that the scalar piece and K168's cyclic diagonal shape piece have exactly zero
+cross. The only remaining same-form cross is bath-number-preserving normal
+action leakage, whose levelwise block norm controls the full cross; equivalently
+it is measured by the commutator with the cyclic projection. Its probe passes
+`17/17` controls and its self-test passes `9/9`. No native leakage bound or
+noncyclic floor is yet supplied, so no complete K473 floor or K152 interval
+follows.
+
 ## K495--K497 sharp exchange tail and cross-sign release (2026-09-25)
 
 K495 evaluates the exact K176 kernel

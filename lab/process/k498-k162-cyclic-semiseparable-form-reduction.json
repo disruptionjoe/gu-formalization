@@ -1,0 +1,122 @@
+{
+  "claim_ceiling": "Exact cyclic-form reduction only. No native infinite cyclic floor, noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K492_basis_composed_with_K491_form": true,
+    "dense_cyclic_Gram_required": false,
+    "native_infinite_cyclic_floor_emitted": false,
+    "next_exact_input": "Supply outward native alpha_n, combined f_n and infinite-tail controls, then apply K499's rational positivity test to expanding prefixes with a certified tail floor."
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "combined_physical_level_scalars": [
+      "-258",
+      "-7/4",
+      "3/8",
+      "-15/64"
+    ],
+    "combined_tail_scalars": [
+      "-16615/64",
+      "-103/64",
+      "9/64",
+      "-15/64"
+    ],
+    "contrast_M_norms": [
+      "85/21",
+      "21/20",
+      "5/16"
+    ],
+    "contrast_ratios": [
+      "85/21",
+      "21/5",
+      "5"
+    ],
+    "dense_entry_count": 9,
+    "formula_matches_dense_congruence": true,
+    "metric_tail_masses": [
+      "85/64",
+      "21/64",
+      "5/64",
+      "1/64"
+    ],
+    "scalar_sequence_count": 16,
+    "semiseparable_left": [
+      "-64/21",
+      "-16/5",
+      "-4"
+    ],
+    "semiseparable_right": [
+      "-5315/21",
+      "-11/5",
+      "21/16"
+    ],
+    "transformed_form": [
+      [
+        "14201/441",
+        "-571/105",
+        "-4"
+      ],
+      [
+        "-571/105",
+        "9089/100",
+        "-126/5"
+      ],
+      [
+        "-4",
+        "-126/5",
+        "1413/8"
+      ]
+    ],
+    "transformed_metric": [
+      [
+        "85/21",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "21/20",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "5/16"
+      ]
+    ],
+    "word_masses": [
+      "1",
+      "1/4",
+      "1/16",
+      "1/64"
+    ]
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "repository-supplied conditional operator; no source/GU action selection",
+    "carrier": "K139 Neumann cyclic closure inside one K162 charge sector",
+    "form": "R_ref with K491 diagonal-plus-max-tail entries",
+    "grading": "bath-particle number and fixed charge",
+    "pairing": "physical positive Gram M=S* S",
+    "real_structure": "CAR adjoint on the fixed q00 or q10 charge sector",
+    "result": "cyclic semiseparable congruence MAP-TYPE=form-reduction",
+    "target": "complete cyclic-complement floor prerequisite for K494/K473"
+  },
+  "result_id": "K498-K162-CYCLIC-SEMISEPARABLE-FORM-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "The fixed K491 same form restricted to K492's exhaustive cyclic M-orthogonal contrast basis; noncyclic K162 states are excluded.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "combined_level_scalar": "f_n=w_n+lambda_n a_n",
+    "combined_tail": "F_j=sum_(n>=j)f_n",
+    "consequence": "the cyclic form needs scalar sequences and tail control, not an independently assembled dense cyclic Gram",
+    "contrast_basis": "u_j=e_(j-1)-r_j e_j with r_j=B_(j-1)/B_j",
+    "diagonal_entry": "alpha_(j-1)+r_j^2 alpha_j+f_(j-1)+(r_j-1)^2 F_j",
+    "metric_diagonal": "M(u_j,u_k)=delta_jk a_(j-1)B_(j-1)/B_j",
+    "offdiagonal_entry": "(1-r_j)(F_(k-1)-r_k F_k)-1_(k=j+1) r_j alpha_j for j<k",
+    "structure": "symmetric rank-one semiseparable tail plus one nearest-neighbor correction"
+  }
+}

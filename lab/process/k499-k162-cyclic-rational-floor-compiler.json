@@ -1,0 +1,60 @@
+{
+  "claim_ceiling": "Exact finite-prefix compiler only. A passing prefix cannot establish the infinite cyclic floor or the full K162 complement floor; no K473 beta, K152 interval, source, ledger, canon, paper, public or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "exact_finite_floor_compiler_released": true,
+    "native_finite_prefix_values_supplied": false,
+    "native_infinite_cyclic_floor_emitted": false,
+    "next_exact_input": "Instantiate K498's native scalar sequences on expanding prefixes and prove a uniform tail floor plus prefix/tail boundary control before emitting the infinite cyclic alpha."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "control_is_native_K162_packet": false,
+    "floor_7_passes": {
+      "exact_rational": true,
+      "ldl_pivots": [
+        "1706/441",
+        "323694/4265",
+        "926505/5872"
+      ],
+      "prefix_dimension": 3,
+      "strictly_positive": true,
+      "target_floor": "7"
+    },
+    "floor_8_fails": {
+      "exact_rational": true,
+      "ldl_pivots": [
+        "-79/441",
+        "391167/1580",
+        "1603975/7096"
+      ],
+      "prefix_dimension": 3,
+      "strictly_positive": false,
+      "target_floor": "8"
+    }
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "repository-supplied conditional operator",
+    "carrier": "finite prefix of the K492 cyclic M-orthogonal contrasts",
+    "form": "K498 transformed same fixed form",
+    "grading": "contrast index/bath-number filtration",
+    "pairing": "diagonal positive K492 M metric",
+    "real_structure": "CAR adjoint on one fixed charge sector",
+    "result": "cyclic rational floor compiler MAP-TYPE=finite-form-certificate",
+    "target": "finite-prefix input toward the infinite cyclic floor"
+  },
+  "result_id": "K499-K162-CYCLIC-RATIONAL-FLOOR-COMPILER",
+  "schema_version": "1.0",
+  "scope": "Exact finite-prefix positivity decision for K498's cyclic contrast form relative to the diagonal K492 metric.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "arithmetic": "rational only; no floating generalized eigensolver",
+    "finite_prefix_only": true,
+    "infinite_release": "combine expanding-prefix certificates with a separately proved uniform tail floor and boundary-cross bound",
+    "test": "R_N-b M_N is strictly positive iff every exact no-pivot LDL diagonal is positive"
+  }
+}

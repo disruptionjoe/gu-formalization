@@ -20,6 +20,20 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K498--K500 CYCLIC FLOOR AND NONCYCLIC LEAKAGE REDUCTION.**
+> K498 composes K491's tail kernels with K492's exhaustive contrasts and gives
+> every entry of the cyclic same-form matrix as a rank-one semiseparable tail
+> plus a nearest-neighbor diagonal correction. K499 supplies an exact-rational
+> no-pivot LDL compiler for any finite prefix; its synthetic control certifies
+> floor 7 and rejects floor 8, without claiming a native or infinite floor.
+> K500 proves that scalar and K168 shape terms cannot couple the cyclic and
+> noncyclic subspaces, leaving only levelwise normal-action leakage; its
+> operator norm bounds the missing cross. The probes pass `14/14`, `13/13`
+> and `17/17` controls, with self-tests `10/10`, `9/9` and `9/9`. Next supply
+> native `alpha/f/F` coefficients plus an infinite-tail closure for K499, and
+> bound the K500 level leakage together with a noncyclic floor. No K473 floor,
+> K152 interval or source/ledger/canon/public/physical claim moves.
+
 > **2026-09-25 K491--K494 CYCLIC CROSS AND FULL-COMPLEMENT BOUNDARY.** K491
 > derives the exact tail kernels `M_ij=B_max(i,j)` and
 > `R0_ij=delta_ij alpha_i+E_max(i,j)`, reducing the corrected-line base cross
@@ -28,11 +42,13 @@ updated_at: "2026-09-25"
 > native scalar, K168 shape and K172 first-block terms with K175/K176 tails:
 > both q00/q10 crosses are negative through the first block, but the current
 > order-one remainder remains inconclusive. Its post-order-12 cross bounds are
-> about `2.02e-4` and `1.54e-4`. K494 separates the complete complement as
+> about `2.02e-4` and `1.54e-4`. K495--K497 subsequently close both signs
+> with complete tails, so that order-2-through-12 calculation is retired for
+> the sign decision. K494 separates the complete complement as
 > cyclic contrasts plus the noncyclic M-orthogonal remainder. The four probes
 > pass `15/15`, `13/13`, `14/14` and `14/14` controls and reject `8/8`
-> hostile mutations each. Next evaluate only the signed K179/K456 normal
-> orders 2--12, then obtain cyclic and noncyclic same-form floor/cross bounds.
+> hostile mutations each. K498--K500 now reduce the remaining work to native
+> cyclic coefficient/tail instantiation and noncyclic floor/leakage bounds.
 > No K473 floor, K152 interval or source/ledger/canon/public/physical claim
 > moves.
 

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e76962bb11b6
+revision_basis: d3658a95959f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K498--K500 convert the K491/K492 cyclic algebra into an exact
+    semiseparable same-form matrix, add an exact-rational no-pivot LDL
+    compiler for finite cyclic prefixes, and reduce the complete
+    cyclic/noncyclic cross. In the K500 split, the scalar and K168 shape
+    pieces have zero cyclic/noncyclic cross; only the bath-number-preserving
+    normal action can leak between the two subspaces, with its levelwise
+    leakage norm giving the required cross bound. The K499 control certifies
+    floor 7 and rejects floor 8, but no native coefficient/tail packet has
+    yet been supplied, so neither an infinite cyclic floor nor a noncyclic
+    floor follows. No K473 floor, K152 interval, source, ledger, canon, paper,
+    public-posture or physical conclusion moves.
+
     K495--K497 replace K176's crude exchange-kernel norm majorant with an
     outward one-dimensional certificate. The exact divided-difference kernel
     has squared L2 norm below 1/256, so its norm is below 1/16. Across all
@@ -62,10 +74,11 @@ current_result:
     `u_j=e_(j-1)-(B_(j-1)/B_j)e_j`, with mutually M-orthogonal norms
     `a_(j-1)B_(j-1)/B_j`. K493 evaluates the actual K172 first block and
     rigorous K175/K176 remainders on the q00/q10 corrected lines. Both signed
-    crosses are negative through the first block, but the existing order-one
-    remainder is too large to exclude zero. The exact next calculation is
-    only the signed K179/K456 normal cross through orders 2--12; the remaining
-    post-order-12 cross bounds are about `2.02e-4` and `1.54e-4`. K494 proves
+    crosses are negative through the first block. K495--K497 now close both
+    signs with complete tails, retiring the signed order-2-through-12
+    calculation for that decision. K498--K500 leave the next native work at
+    coefficient/tail instantiation for the infinite cyclic floor and at the
+    normal-action leakage and floor on the noncyclic remainder. K494 proves
     that the complete trial complement is
     `C0 direct-sum_M C^perp_M`; a noncyclic floor and cyclic/noncyclic
     same-form cross remain required. No K473 floor, K152 interval, source,
@@ -10444,15 +10457,13 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K491--K494 reduce the native cyclic cross to one sharply bounded signed
-  calculation. Evaluate the K179/K456 normal cross through orders 2--12 on
-  the q00 and q10 corrected lines, combine it with the already signed scalar,
-  shape and K172 pieces, enlarge only by K493's post-order-12 bound, and test
-  whether zero is excluded. In parallel, obtain a same-form floor on K492's
-  exhaustive cyclic contrast basis and a native floor/cross packet for the
-  noncyclic remainder `C^perp_M`. Do not replace either calculation with the
-  full 59,586-entry residual Gram, separate absolute bounds on cancelling
-  pieces, or cyclic exhaustiveness presented as the full K162 complement.
+  K498--K500 reduce the remaining K162 complement problem to two native
+  packets. Instantiate K498's exact semiseparable cyclic form with rigorous
+  `alpha`, `f` and tail data, use K499 on controlled prefixes, and close the
+  infinite tail. Separately, bound K500's levelwise normal-action leakage and
+  obtain a floor on the noncyclic restriction. Compose only after both floors
+  and the cross norm are certified. Do not present the synthetic K499 control,
+  a finite prefix, or cyclic exhaustiveness as a complete K473/K152 floor.
 
   K489--K490 now show that the obvious first Neumann-word tail is not the
   physical M-orthogonal complement needed by K473. On q00/q10 use the corrected

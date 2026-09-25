@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K498--K500 cyclic floor and noncyclic leakage reduction
+
+- `channel-swings/k498_k162_cyclic_semiseparable_form_reduction.py` and its
+  probe compose K491/K492 into the exact semiseparable cyclic same-form matrix.
+- `channel-swings/k499_k162_cyclic_rational_floor_compiler.py` and its probe
+  apply exact-rational no-pivot LDL to finite cyclic floor candidates while
+  withholding any native infinite-tail claim.
+- `channel-swings/k500_k162_noncyclic_leakage_reduction.py` and its probe
+  eliminate scalar and K168 cyclic/noncyclic leakage and isolate the remaining
+  levelwise normal-action cross bound.
+
 ## K491--K494 cyclic cross and full-complement boundary
 
 - `channel-swings/k491_k139_cyclic_tail_kernel_form.py` and its probe compile
