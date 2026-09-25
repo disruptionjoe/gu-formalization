@@ -7,6 +7,33 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K450--K452 K152 physical-Gram cofinal form transfer (2026-09-25)
+
+K450 proves the structural restriction theorem for the fixed limiting K139
+regular form on K162's literal nested physical ranges. Both the physical Gram
+and regular-form matrices obey exact refinement congruence. Consequently the
+generalized defect and physical-Gram-relative radius are zero at every level
+and uniformly on every cofinal path. A non-diagonal exact matrix control
+prevents this from being a diagonal-coordinate artifact. Its probe passes
+`18/18` controls and rejects `18/18` hostile mutations.
+
+K451 keeps K447's independent finite rebuild distinct and computes its actual
+K139 physical-Gram-relative bound. The exact induced-infinity radii are
+`23118267391392752342114377141/146346923226707931087360000000` for q00 and
+`565919717438264971286768741333/5268489236161485519144960000000` for q10 and
+q01. Exact rational LDL verifies that both `beta M+D` and `beta M-D` are
+positive definite in all three sectors. These are finite nonconforming
+controls, not cofinal decay estimates. Its probe passes `18/18` controls and
+rejects `18/18` hostile mutations.
+
+K452 separates the two routes in a fail-closed interface. Same-family
+physical-Gram transport, limiting-form transport and the cofinal relative
+form-defect bound are complete. The complete shifted limiting-form dual
+residual, coercivity, next-distinct spectral separation, native left floor and
+K152 interval remain open. Its probe passes `18/18` controls and rejects
+`18/18` hostile mutations. No source, physical, Born, prediction, canon,
+paper or public conclusion follows.
+
 ## K447--K449 K152 Galerkin form-order boundary (2026-09-25)
 
 K447 reconstructs the K163 physical one-to-two-cell control in every native

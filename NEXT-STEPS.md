@@ -20,6 +20,20 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K450--K452 K152 PHYSICAL-GRAM COFINAL FORM TRANSFER.** K450
+> restricts the one fixed limiting K139 physical Gram and regular form to the
+> nested K162 physical ranges. Exact congruence makes the generalized defect
+> and M-relative radius zero at every level and on every cofinal path. K451
+> separately computes exact nonzero physical-Gram-relative two-sided radii for
+> K447's independently rebuilt finite controls: about `0.157969` in q00 and
+> `0.107416` in q10/q01. Those finite rebuilds are not the conforming route.
+> K452 marks same-family Gram/form transfer complete but keeps the complete
+> shifted limiting-form dual residual, coercivity, next-distinct spectral
+> separation and native left floor open. Next assemble that residual on the
+> K162 carrier, then prove the remaining three controls before K152. The three
+> probes pass `18/18` controls and reject `18/18` hostile mutations each. No
+> native interval or physical/source move is licensed.
+
 > **2026-09-25 K447--K449 K152 GALERKIN FORM-ORDER BOUNDARY.** K447
 > exhausts the exact physical one-to-two-cell defect across q00/q10/q01. Raw
 > independent coarse rebuilds lie strictly below fine compression, but the

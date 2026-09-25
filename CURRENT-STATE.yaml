@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: da2f0548eb79
+revision_basis: 9d5586f490ab
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K450--K452 close the K449 form-transfer boundary without identifying two
+    different approximation routes. K450 restricts the one fixed limiting
+    K139 regular form and its physical Gram to the literal nested K162
+    physical ranges. Both matrices obey exact refinement congruence, so the
+    generalized defect and physical-Gram-relative radius are identically zero
+    at every level and along every cofinal path. This is a conforming
+    restriction theorem, not a theorem about independently rebuilt cutoffs.
+
+    K451 separately conjugates K447's nonconforming finite defects by the
+    actual K139 physical Gram. Exact rational two-sided radii are
+    `23118267391392752342114377141/146346923226707931087360000000` in q00 and
+    `565919717438264971286768741333/5268489236161485519144960000000` in q10
+    and q01. Exact LDL certificates make both `beta M+D` and `beta M-D`
+    positive definite. These nonzero finite radii diagnose independent
+    rebuilding and are not a cofinal decay sequence.
+
+    K452 therefore marks same-family physical-Gram and limiting-form transfer
+    complete while leaving the complete shifted limiting-form dual residual,
+    coercivity, next-distinct spectral separation and native left floor open.
+    The next exact input is that complete residual on the K162 carrier,
+    followed by the three remaining spectral controls before K152. No native
+    K152 interval, source/ledger/canon/public or physical claim moves.
+
     K447--K449 switch to the strongest executable K152 prerequisite after the
     K77 action-coupling branch reaches its exact dependency boundary. K447
     exhausts the physical one-to-two-cell Galerkin defect in the q00, q10 and
@@ -10498,6 +10521,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K450 as the exact cofinal form-transfer theorem for the conforming
+  route: restrict the one fixed limiting K139 physical Gram and regular form
+  to K162's nested physical ranges, giving zero generalized defect and zero
+  physical-Gram-relative radius at every level. Treat K451 separately as the
+  exact finite physical-Gram audit of K447's independently rebuilt cutoffs;
+  its nonzero q00/q10/q01 radii are not a cofinal decay sequence and do not
+  modify K450. Treat K452 as the fail-closed readiness interface: same-family
+  Gram and limiting-form transfer are complete, but the complete shifted
+  limiting-form dual residual, coercivity, next-distinct spectral separation
+  and native left floor remain open. Next assemble that complete residual on
+  the K162 carrier, then prove the remaining three spectral controls before
+  feeding K152. Do not identify the conforming and independent-rebuild routes
+  or promote form conformity to a native interval, source/GU physics, Born
+  rule, prediction or confirmation.
+
   Treat K447 as the complete finite charge-sector defect census for the
   physical one-to-two-cell refinement. The raw defects are positive definite
   and full rank, but after the K139 regular chart all three are full-rank
