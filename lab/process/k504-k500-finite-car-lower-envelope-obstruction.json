@@ -1,0 +1,120 @@
+{
+  "claim_ceiling": "A rank/order-of-limits obstruction for one proposed proof route. It does not prove any actual continuum K162 word vanishes, evaluate leakage or a complement floor, move K473/K152, or change source, ledger, canon, paper, public or physical conclusions.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "complete_K500_uniform_leakage_emitted": false,
+    "continuum_words_proved_zero": false,
+    "finite_prefix_values_retracted": false,
+    "fixed_finite_K162_approximant_can_prove_uniform_positive_all_level_envelope": false,
+    "next_exact_input": "A continuum-first or refinement-uniform lower word estimate with the fermionic species rank and order-of-limits explicit.",
+    "route_effect": "Do not infer K500 normalization from a fixed finite exterior cutoff. Prove continuum/refinement-uniform path estimates first."
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "alternating_words": [
+      {
+        "fermionic_word_forced_zero": false,
+        "maximum_total_occupation": 3,
+        "rank_overflow": [
+          false,
+          false
+        ],
+        "species_occupancies": [
+          1,
+          0
+        ],
+        "species_ranks": [
+          2,
+          1
+        ],
+        "word": [
+          0
+        ]
+      },
+      {
+        "fermionic_word_forced_zero": false,
+        "maximum_total_occupation": 3,
+        "rank_overflow": [
+          false,
+          false
+        ],
+        "species_occupancies": [
+          1,
+          1
+        ],
+        "species_ranks": [
+          2,
+          1
+        ],
+        "word": [
+          0,
+          1
+        ]
+      },
+      {
+        "fermionic_word_forced_zero": false,
+        "maximum_total_occupation": 3,
+        "rank_overflow": [
+          false,
+          false
+        ],
+        "species_occupancies": [
+          2,
+          1
+        ],
+        "species_ranks": [
+          2,
+          1
+        ],
+        "word": [
+          0,
+          1,
+          0
+        ]
+      },
+      {
+        "fermionic_word_forced_zero": true,
+        "maximum_total_occupation": 3,
+        "rank_overflow": [
+          false,
+          true
+        ],
+        "species_occupancies": [
+          2,
+          2
+        ],
+        "species_ranks": [
+          2,
+          1
+        ],
+        "word": [
+          0,
+          1,
+          0,
+          1
+        ]
+      }
+    ],
+    "first_overflow_species": 1,
+    "level_four_forced_zero": true,
+    "levels_one_through_three_not_rank_forced_zero": true,
+    "species_ranks": [
+      2,
+      1
+    ]
+  },
+  "result_id": "K504-K500-FINITE-CAR-LOWER-ENVELOPE-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "The proposed K503 lower-word-norm route when evidence is taken from one fixed finite-dimensional K162 exterior approximant.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "continuum_boundary": "The K162 cofinal limit may have nonzero words at every level; K504 does not assert continuum termination.",
+    "fixed_approximant_consequence": "Every fixed finite one-particle approximant has a finite total occupation ceiling, so it cannot carry a strictly positive lower bound for ||G^n phi|| at all n.",
+    "invalid_inference": "Finite-level positivity on one regulator, even at every level below its rank ceiling, is not an all-level continuum lower envelope.",
+    "rank_ceiling": "In Gamma_-(H_1 direct-sum ... direct-sum H_s), a word with more than dim(H_i) creations in species i is exactly zero.",
+    "valid_order_of_limits": "An all-level native lower envelope must be proved on the continuum carrier, or with estimates uniform in refinement before n tends to infinity."
+  }
+}

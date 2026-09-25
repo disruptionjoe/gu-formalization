@@ -1,0 +1,108 @@
+{
+  "claim_ceiling": "An exact sufficient path-Gram criterion plus an exact replay of K170's first bath level. It supplies no all-level native conditioning, uniform K500 leakage, noncyclic or cyclic floor, K473/K152, source, ledger, canon, paper, public or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K170_level_one_replayed": true,
+    "all_level_path_gram_floor_serialized": false,
+    "all_level_path_norm_lowers_serialized": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "next_exact_input": "For every supported q00/q10 bath level, emit a continuum/refinement-uniform path decomposition, path-norm-square lower bounds and epsilon_n for the normalized path Gram, with a uniform comparison to the held absolute residual.",
+    "route_effect": "The lower-word-norm branch is now an explicit conditioning problem. Continue it only by proving refinement-uniform path norms and Gram floors; otherwise attack K501's normalized variance directly.",
+    "valid_native_lower_envelope_interface_released": true
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "control_lower_positive": true,
+    "correlated_two_path": {
+      "certified_gram_floor": "1/3",
+      "coefficients": [
+        "1",
+        "1"
+      ],
+      "normalized_path_gram": [
+        [
+          "1",
+          "-3/5"
+        ],
+        [
+          "-3/5",
+          "1"
+        ]
+      ],
+      "path_count": 2,
+      "path_norm_square_lowers": [
+        "4",
+        "9"
+      ],
+      "shifted_ldl_pivots": [
+        "2/3",
+        "19/150"
+      ],
+      "word_norm_square_lower": "13/3"
+    },
+    "hostile_indefinite_floor_rejected": true
+  },
+  "native_level_one_replay": {
+    "profile_norm_square_lower": "1243298499573/1000000000000000",
+    "q00_matches_K170_lower": true,
+    "q00_two_orthogonal_components": {
+      "certified_gram_floor": "1",
+      "coefficients": [
+        "1",
+        "1"
+      ],
+      "normalized_path_gram": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "orthogonality_proved": true,
+      "path_count": 2,
+      "path_norm_square_lowers": [
+        "1243298499573/1000000000000000",
+        "1243298499573/1000000000000000"
+      ],
+      "shifted_ldl_pivots": [],
+      "word_norm_square_lower": "1243298499573/500000000000000"
+    },
+    "q10_matches_K170_lower": true,
+    "q10_one_component": {
+      "certified_gram_floor": "1",
+      "coefficients": [
+        "1"
+      ],
+      "normalized_path_gram": [
+        [
+          "1"
+        ]
+      ],
+      "orthogonality_proved": true,
+      "path_count": 1,
+      "path_norm_square_lowers": [
+        "1243298499573/1000000000000000"
+      ],
+      "shifted_ldl_pivots": [],
+      "word_norm_square_lower": "1243298499573/1000000000000000"
+    }
+  },
+  "result_id": "K506-K500-PATH-GRAM-LOWER-ENVELOPE-CRITERION",
+  "schema_version": "1.0",
+  "scope": "A sufficient lower-envelope certificate for the coherent CAR path decomposition of each nonzero K500 cyclic word v_n=G^n phi.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "K500_composition": "To certify leakage <=mu, require the derived word lower L_n to satisfy ||(1-P_n)W_n v_n||<=mu L_n uniformly in n.",
+    "criterion": "If C_n>=epsilon_n I and ||x_(n,p)||^2>=s_(n,p), then ||v_n||^2>=epsilon_n sum_p |c_(n,p)|^2 s_(n,p).",
+    "finite_prefix_boundary": "Checking this criterion for finitely many n does not establish the required uniform all-level statement.",
+    "normalized_gram": "C_(p,q)=<x_p,x_q>/(||x_p||||x_q||)",
+    "orthogonal_case": "Mutually orthogonal path ranges have C_n=I and certify the exact sum-of-squares lower bound.",
+    "path_decomposition": "v_n=sum_p c_(n,p) x_(n,p)"
+  }
+}

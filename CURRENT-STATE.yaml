@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8d5859340941
+revision_basis: 4e739166e2dd
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K504--K506 decide the admissibility of K503's proposed native
+    lower-word-norm route before another finite bath-prefix calculation.
+    K504 proves that every fixed finite one-particle CAR approximant has a
+    finite exterior-rank ceiling, so it cannot support a strictly positive
+    all-level word-norm envelope; the continuum K162 words are not claimed to
+    terminate. K505 proves that one nonzero ordered path is not a lower bound
+    for the coherent word because same-endpoint paths can cancel exactly.
+    K506 supplies the valid repair: if the normalized path Gram at level `n`
+    has floor `epsilon_n` and the individual path norm squares have lower
+    bounds `s_(n,p)`, then
+    `||G^n phi||^2 >= epsilon_n sum_p |c_(n,p)|^2 s_(n,p)`.
+    Its orthogonal special case exactly replays K170's q00/q10 first-level
+    lower bounds. No refinement-uniform all-level path norms or Gram floors
+    are yet serialized, so K500's uniform leakage remains open. The next
+    decision is to construct that continuum conditioning packet or switch to
+    a directly normalized K501 variance proof. No K473 floor, K152 interval,
+    source, ledger, canon, paper, public-posture or physical conclusion moves.
+
     K501--K503 convert K500's remaining cross into the exact normalized object
     that must be bounded. For a bath-level cyclic vector `v_n`, the squared
     leakage is
@@ -10479,14 +10497,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K501--K503 show that K500 needs a uniform normalized bath-level variance,
-  not merely an absolute action-orbit tail. Extend K502 beyond bath level one
-  by deriving native lower bounds for every nonzero `||G^n phi||` relative to
-  the K175/K496 residual bounds, or evaluate
-  `||(1-P_n)W_n v_n||^2/||v_n||^2` directly with a uniform tail. Keep the q00
-  and q10 multiplicities separate. A finite set of levels, an upper word-norm
-  bound or the abstract K503 control does not establish the full K500 cross.
-  Independently obtain a floor on the noncyclic compression before K494/K473.
+  K504--K506 show exactly what a valid lower-word-norm continuation requires.
+  Do not use one fixed finite K162 exterior approximant, a finite bath prefix,
+  or one nonzero ordered CAR path as an all-level lower envelope. For every
+  supported q00/q10 bath level, construct a continuum-first or
+  refinement-uniform path decomposition, lower bounds on the path norm
+  squares and a positive lower eigenvalue `epsilon_n` for the normalized path
+  Gram. Compare the resulting K506 word lower directly with the K175/K496
+  absolute residual. If uniform conditioning is not available, switch to a
+  direct uniform bound on K501's normalized variance rather than accumulating
+  more finite levels. Keep the q00/q10 multiplicities separate. Independently
+  obtain a floor on the noncyclic compression before K494/K473.
 
   K498--K500 reduce the remaining K162 complement problem to two native
   packets. Instantiate K498's exact semiseparable cyclic form with rigorous
@@ -10864,15 +10885,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Continue K500 from K501--K503's normalization boundary. Derive an explicit
-  native lower envelope for the nonzero word norms `||G^n phi||` relative to
-  the absolute normal-action residual, or prove the K501 variance bound
-  directly and uniformly in bath level. Reuse K502's q00/q10 level-one bounds
-  as anchors, not as the supremum. Then combine that all-level cross bound
-  only with a separately certified floor on the noncyclic compression.
-  Existing K175/K496 absolute tails remain valid but cannot be divided by an
-  upper word-norm estimate. K503 is a logical control, not a native
-  counterexample.
+  Continue K500 through K506's exact conditioning obligation. On the continuum
+  carrier, or uniformly before refinement is removed, enumerate the q00/q10
+  path ranges at every supported bath level, certify each path norm-square
+  lower bound and a normalized path-Gram floor `epsilon_n`, and prove that the
+  resulting word lower dominates the held K175/K496 absolute residual with a
+  uniform ratio. Fixed finite exterior models and individual paths are now
+  rejected proof routes by K504/K505. If the all-level Gram conditioning is
+  not tractable, evaluate K501's normalized variance directly and uniformly.
+  Reuse K502/K506's exact level-one replay only as an anchor, not as the
+  supremum. Combine any all-level cross only with a separately certified
+  noncyclic floor. K503 remains a logical control, not a native counterexample.
 
   Separately instantiate K498's exact cyclic contrast form with authenticated
   native `alpha`, `f` and `F` intervals on expanding prefixes and close the

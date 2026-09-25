@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "An exact cancellation countercontrol for the proposed individual-path proof route. It is not a native K162 cancellation witness, does not show actual words vanish or leakage is large, and moves no floor, K473/K152, source, ledger, canon, paper, public or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "complete_K500_uniform_leakage_emitted": false,
+    "native_all_level_path_orthogonality_proved": false,
+    "next_exact_input": "Partition every bath level into genuinely orthogonal path ranges or bound the minimum eigenvalue of its normalized path Gram uniformly enough to dominate the absolute residual.",
+    "one_nonzero_path_suffices_for_native_word_lower_bound": false,
+    "orthogonal_path_lower_bound_valid": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cancellation_reaches_zero": true,
+    "cancelling_same_endpoint": {
+      "coherent_sum_norm_square": "0",
+      "each_path_nonzero": true,
+      "path_gram": [
+        [
+          "1",
+          "-1"
+        ],
+        [
+          "-1",
+          "1"
+        ]
+      ],
+      "path_norm_squares": [
+        "1",
+        "1"
+      ],
+      "single_path_norm_is_sum_lower_bound": false
+    },
+    "orthogonal_endpoint": {
+      "coherent_sum_norm_square": "2",
+      "each_path_nonzero": true,
+      "path_gram": [
+        [
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "1"
+        ]
+      ],
+      "path_norm_squares": [
+        "1",
+        "1"
+      ],
+      "single_path_norm_is_sum_lower_bound": true
+    },
+    "orthogonal_sum_is_two": true
+  },
+  "result_id": "K505-K500-PATH-CANCELLATION-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "The inference from one nonzero ordered CAR path inside G^n phi to a positive lower bound on the complete coherent bath-level word.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "coherent_path_sum": "v_n=sum_p x_(n,p) over ordered impurity/polarity histories with the same final carrier label",
+    "norm_identity": "||v_n||^2=sum_(p,q)<x_(n,p),x_(n,q)>",
+    "obstruction": "A nonzero distinguished path does not lower-bound ||v_n|| when another path reaches the same sector with cancelling phase.",
+    "required_repair": "Certify orthogonality or a positive lower bound for the normalized path Gram before using path amplitudes in K500.",
+    "safe_special_case": "If endpoint/species/history labels make the path ranges orthogonal, then ||v_n||^2 is the sum of their squared norms."
+  }
+}

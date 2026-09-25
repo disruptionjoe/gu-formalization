@@ -7,6 +7,32 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K504--K506 all-level lower-envelope admissibility (2026-09-25)
+
+K504 proves the finite exterior-rank boundary: in a fixed finite CAR
+approximant, any word that creates more particles in one species than the
+one-particle rank is exactly zero. Hence no single finite K162 approximant can
+establish a strictly positive lower bound for `||G^n phi||` at every `n`.
+This is an order-of-limits result, not a claim that the continuum words
+terminate. Its probe passes `10/10` controls and rejects `6/6` hostile
+mutations.
+
+K505 proves that one nonzero ordered CAR path cannot lower-bound the complete
+word without a cancellation argument. Its exact same-endpoint control has two
+unit paths whose coherent sum is zero, while the orthogonal-endpoint control
+has norm square two. Its probe passes `11/11` controls and rejects `6/6`
+hostile mutations. This is a proof-route countercontrol, not a native K162
+cancellation witness.
+
+K506 proves the sufficient repair. If the normalized path Gram satisfies
+`C_n >= epsilon_n I` and `||x_(n,p)||^2 >= s_(n,p)`, then
+`||G^n phi||^2 >= epsilon_n sum_p |c_(n,p)|^2 s_(n,p)`. The orthogonal special
+case exactly replays K170's q00 two-component and q10 one-component first-word
+lower bounds. Its probe passes `11/11` controls and rejects `8/8` hostile
+mutations. No all-level path Gram floor or path norm packet is yet available,
+so no uniform K500 leakage, noncyclic floor, K473/K152 or physical conclusion
+follows.
+
 ## K501--K503 native leakage normalization (2026-09-25)
 
 K501 proves the exact rank-one identity

@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K504--K506 all-level lower-envelope admissibility
+
+- `channel-swings/k504_k500_finite_car_lower_envelope_obstruction.py` and its
+  probe reject a fixed finite exterior approximant as evidence for a positive
+  all-level continuum word lower bound.
+- `channel-swings/k505_k500_path_cancellation_obstruction.py` and its probe
+  reject a nonzero distinguished path as a lower bound when coherent
+  same-endpoint cancellation has not been controlled.
+- `channel-swings/k506_k500_path_gram_lower_envelope_criterion.py` and its
+  probe give the exact path-Gram repair and replay K170's q00/q10 first-level
+  lower bounds without claiming all-level conditioning.
+
 ## K501--K503 native leakage normalization
 
 - `channel-swings/k501_k500_rank_one_leakage_variance.py` and its probe prove

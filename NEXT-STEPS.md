@@ -20,6 +20,22 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K504--K506 ALL-LEVEL LOWER-ENVELOPE ADMISSIBILITY.** K504
+> proves that one fixed finite-dimensional CAR approximant terminates above
+> its species-rank ceiling and therefore cannot prove a strictly positive
+> all-level continuum word envelope. K505 gives an exact two-path control in
+> which both paths are nonzero but their coherent same-endpoint sum vanishes,
+> rejecting a distinguished-path lower bound without an orthogonality or
+> conditioning proof. K506 supplies the valid replacement: a normalized
+> path-Gram floor `epsilon_n` and path norm-square lowers `s_(n,p)` imply
+> `||G^n phi||^2 >= epsilon_n sum_p |c_(n,p)|^2 s_(n,p)`. Its orthogonal case
+> exactly replays K170's q00/q10 level-one lower bounds. The probes pass
+> `10/10`, `11/11` and `11/11` controls and reject `6/6`, `6/6` and `8/8`
+> hostile mutations. Next prove this conditioning uniformly on the continuum
+> path family, or switch to a direct normalized K501 variance bound. No
+> uniform K500 leakage, floor, K473/K152 or source/ledger/canon/public/physical
+> conclusion moves.
+
 > **2026-09-25 K501--K503 NATIVE LEAKAGE NORMALIZATION.** K501 proves that
 > K500's bath-level cross is the normalized orthogonal residual of `W_n v_n`;
 > for a multiplier it is exactly a weighted variance and is invariant under
