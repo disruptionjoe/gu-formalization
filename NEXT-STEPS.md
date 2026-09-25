@@ -20,6 +20,25 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K441--K443 MOVING CORRECTED BOUNDARY AND KT DESCENT.** K441
+> transports K439's actual corrected rank-512 split through exact rational
+> orthogonal rotations on all 192 fast and 64 slow sign pairs. The compressed
+> polynomial, cubic sign law, rank-256 halves, normal reversal and K440 Green
+> bound 24 are preserved, with `Pi'+[B,Pi]=0`. K442 forms the exact decoupled
+> product with the proper homogeneous-orbit `21 -> 91 -> 70` KT model; its
+> finite complex stays exact, positive antifield degree stays acyclic and the
+> moving trace halves form closed parallel subcomplexes. K443 proves the
+> degreewise carrier-factor interaction criterion `[Q,Pi_out]=0`, splits the
+> 262144-dimensional carrier endomorphism space into equal compatible and
+> obstructing halves and rejects a rank-128
+> slow-sector exchange. The probes pass `18/18`, `22/22` and `22/22` controls
+> and reject the same numbers of hostile mutations. Next serialize the actual
+> action-derived field/antifield coupling, test the analogous source/target
+> projector square on every degree-changing block and total nilpotence on the
+> closed trace domain, then prove positive-degree acyclicity
+> or identify surviving cohomology. Do not promote the decoupled product to a
+> full BV/KT complex or physical cohomology.
+
 > **2026-09-24 K438--K440 CORRECTED CONSTRAINT BOUNDARY LAW.** K438 compresses
 > K436's actual transported reduced symbol by K437's corrected Clifford
 > projector. On the rank-512 corrected carrier, `A=P S_7 P` obeys

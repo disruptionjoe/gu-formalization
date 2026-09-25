@@ -7,6 +7,37 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K441--K443 moving boundary and KT descent (2026-09-24)
+
+K441 transports K438/K439's exact four-block corrected symbol and projectors
+by the rational orthogonal family used pairwise on all 192 fast and 64 slow
+sign pairs. At four independent rational samples, orthogonality, skewness of
+`B=-U'U^T`, the compressed polynomial, cubic sign identity, projector laws,
+normal reversal and `Pi'+[B,Pi]=0` all hold exactly. Conjugation preserves
+K440's closed trace domain and Green bound 24. The producer and probe pass
+`18/18` controls and reject `18/18` hostile mutations.
+
+K442 forms the graded product with the existing proper homogeneous-orbit
+`21 -> 91 -> 70` KT model. The product dimensions are
+`10752 -> 46592 -> 35840`, with differential ranks 10752 and 35840 and exact
+finite cohomology dimensions `0,0,0`. The local KT normal form remains
+nilpotent and acyclic in positive antifield degree; `H0` is the zero-section
+function algebra with corrected-carrier coefficients. The differential and
+contracting homotopy commute with the moving rank-256 trace halves. Its probe
+passes `22/22` controls and rejects `22/22` hostile mutations.
+
+K443 proves that a degreewise carrier-factor coupling `I_KT tensor Q` preserves
+the boundary KT subcomplex exactly when `[Q,Pi_out]=0`, equivalently both
+off-diagonal incoming/outgoing blocks vanish. The rank-512 carrier endomorphism
+space splits into compatible and obstructing subspaces of dimension 131072
+each. Exchanging the equal rank-64 slow halves gives an exact hostile witness with commutator
+rank 128 and directional leakage rank 64 each way. Its probe passes `22/22`
+controls and rejects `22/22` hostile mutations. A general degree-changing
+field/antifield coupling instead requires the analogous source/target-projector
+intertwining square for every block. These results do not serialize the
+action-derived coupling, prove the full interacting BV/KT
+complex, select a physical boundary or construct physical cohomology.
+
 ## K438--K440 corrected constraint boundary law (2026-09-24)
 
 K438 verifies the actual constraint-compressed boundary endomorphism

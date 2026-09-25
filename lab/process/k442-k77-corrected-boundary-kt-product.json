@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K442-K77-CORRECTED-BOUNDARY-KT-PRODUCT",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_observed",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact graded product of the proper homogeneous-orbit K77 Koszul--Tate model with K441's moving corrected rank-512 carrier. The decoupled differential preserves the parallel rank-256 trace halves and their contracting homotopy; no interacting lower-order field/antifield coupling is supplied.",
+  "gu_typed_objects": {
+    "result": "corrected-boundary homogeneous-orbit KT product",
+    "kt_carrier": "proper homogeneous Spin(7,7)-orbit KT model with 21 stabilizer relations, 91 labels and orbit rank 70; LAYER=conditional homogeneous-orbit resolution",
+    "boundary_carrier": "K441 corrected moving carrier rank 512 with incoming/outgoing ranks 256/256",
+    "differential": "d_KT tensor I_E",
+    "projector": "I_KT tensor Pi_out/in(t)",
+    "connection": "I_KT tensor B(t)",
+    "target": "closed moving trace subcomplex and positive-antifield-degree contraction MAP-TYPE=graded-product-complex"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "kt_input": "lab/process/selected-k77-stabilizer-koszul-tate-resolution-gate.json",
+    "moving_boundary_input": "lab/process/k441-k77-moving-corrected-boundary-transport.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Use the existing proper homogeneous-orbit resolution as the honest nonlinear KT input and form the minimal decoupled product before inventing an interacting full-field differential.",
+    "retrieval_collision_result": "K419/K426 prove finite exactness and constant functional contractibility; the stabilizer gate proves homogeneous-orbit KT properness. None composes that resolution with the actual corrected K439/K441 boundary carrier.",
+    "strongest_alternative": "A full field/antifield BV complex would be stronger but remains dependency-limited by the absent lower-order action coupling, domain and global properness data."
+  },
+  "finite_product_complex": {
+    "base_dimensions": [21, 91, 70],
+    "corrected_carrier_rank": 512,
+    "product_dimensions": [10752, 46592, 35840],
+    "differential_ranks": [10752, 35840],
+    "middle_kernel_dimension": 10752,
+    "finite_cohomology_dimensions": [0, 0, 0],
+    "incoming_dimensions_by_degree": [5376, 23296, 17920],
+    "outgoing_dimensions_by_degree": [5376, 23296, 17920]
+  },
+  "homogeneous_orbit_kt": {
+    "local_normal_form": "delta b_m=p_m; delta p_m=0; delta beta_h=b_h; delta b_h=0",
+    "delta_squared_zero_on_generators": true,
+    "positive_antifield_degree_acyclic": true,
+    "h0": "functions on the cotangent zero section of the selected homogeneous orbit, with corrected-carrier coefficients",
+    "full_nonlinear_k77_properness": false
+  },
+  "boundary_descent": {
+    "differential_projector_commutator_zero": true,
+    "contracting_homotopy_commutes_with_boundary": true,
+    "boundary_projectors_parallel": true,
+    "closed_trace_subcomplex": true
+  },
+  "decision": {
+    "decoupled_kt_boundary_product_constructed": true,
+    "proper_homogeneous_orbit_kt_preserved": true,
+    "moving_boundary_subcomplex_preserved": true,
+    "full_interacting_bv_kt_constructed": false,
+    "physical_cohomology_constructed": false,
+    "next_exact_input": "Classify the lower-order coupling terms Q by the exact boundary condition [Q,Pi]=0 and test a non-preserving slow-sector control."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the decoupled product the complete interacting K77 BV/KT complex or treating its H0 as physical cohomology.",
+    "strongest_contrary_construction": "Any lower-order coupling with incoming/outgoing off-diagonal blocks invalidates the automatic product commutator and can destroy the trace subcomplex.",
+    "weakest_reproducibility_seam": "The 512-fold product is certified factorwise from exact base identities and block ranks rather than expanded as 46,592-dimensional matrices."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k442_k77_corrected_boundary_kt_product.py",
+    "probe": "tests/channel-swings/k442_k77_corrected_boundary_kt_product_probe.py",
+    "controls_passed": 22,
+    "hostile_mutations_rejected": 22
+  },
+  "claim_ceiling": "Exact graded product of the proper homogeneous-orbit KT resolution with the moving corrected boundary carrier. The finite product complex is exact, positive antifield degree remains contractible and the corrected trace halves form closed parallel subcomplexes for the decoupled differential. This is not the full interacting K77 field/antifield BV/KT complex, global properness theorem, physical quotient, physical cohomology, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

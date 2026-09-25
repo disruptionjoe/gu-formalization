@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f2250375a76d
+revision_basis: 611a8b462eed
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,40 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K441--K443 now advance the corrected boundary law from frozen coefficients
+    to an exact moving and homological compatibility boundary. K441 applies a
+    rational orthogonal transport to every one of the 192 fast sign pairs and
+    64 slow sign pairs of K439's actual corrected rank-512 carrier. The
+    transported compressed symbol retains
+    `576 A^4-577 A^2+I=0`, the cubic sign law and rank-256 halves, while
+    `Pi'+[B,Pi]=0` for `B=-U'U^T`. K440's closed trace domain and Green bound
+    24 are therefore preserved by exact conjugation. This is a factorized
+    associated-bundle connection, not the complete lower-order action
+    connection.
+
+    K442 composes that moving carrier with the already proper homogeneous-
+    orbit Koszul--Tate model. The finite product has dimensions
+    `10752 -> 46592 -> 35840`, differential ranks 10752 and 35840 and zero
+    finite cohomology. In the homogeneous-orbit KT algebra, positive
+    antifield degree remains acyclic and `H0` remains functions on the
+    cotangent zero section with corrected-carrier coefficients. Because the
+    differential and contraction act on the KT factor, they commute with the
+    moving rank-256 trace projectors. This is the decoupled product, not the
+    complete interacting field/antifield complex or physical cohomology.
+
+    K443 classifies the missing interaction condition for a degreewise
+    carrier-factor coupling `I_KT tensor Q`. Trace-domain descent is equivalent
+    to `[Q,Pi_out]=0`, or vanishing of both incoming/outgoing off-diagonal
+    blocks. The rank-512 carrier endomorphism space has dimension 262144;
+    the compatible block-diagonal and obstructing off-diagonal subspaces each
+    have dimension 131072. An exact exchange of the rank-64 slow halves has
+    commutator rank
+    128 and directional leakage rank 64 each way. Thus multiplicity matching
+    does not give BV/KT boundary compatibility. The next exact input is the
+    actual action-derived field/antifield coupling, with the analogous
+    source/target-projector intertwining test on every degree-changing block,
+    followed by nilpotence, properness and closed-domain cohomological descent.
+
     K438--K440 now supply the action-and-constraint-owned repair that K437
     left open, without fitting a complement. K438 compresses the actual
     transported reduced boundary symbol by the corrected Clifford projector,
@@ -10412,6 +10446,25 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K441 as the exact factorized moving continuation of the corrected
+  rank-512 split: rational orthogonal conjugation preserves the compressed
+  polynomial, cubic sign projectors, rank-256 halves, normal reversal and the
+  K440 closed trace/Green domain, with `Pi'+[B,Pi]=0`. This supplies the
+  associated-bundle transport law, not the complete lower-order action
+  connection. Treat K442 as the exact decoupled product with the proper
+  homogeneous-orbit KT resolution: its finite carrier complex stays exact,
+  positive antifield degree stays acyclic and the moving trace halves form
+  closed parallel subcomplexes. Treat K443 as the exact interaction boundary
+  for a degreewise carrier-factor term: `I_KT tensor Q` descends iff
+  `[Q,Pi_out]=0`; the rank-128 slow-swap counterexample proves that equal
+  multiplicities do not make this automatic. Next serialize the actual
+  action-derived K77 field/antifield coupling, test every degree-changing
+  source/target-projector square and `delta_total^2=0` on the closed trace
+  domain, and then prove positive-degree acyclicity or identify the surviving
+  cohomology. Do not promote the decoupled product or coupling-space count to
+  a full BV/KT complex, global Calderon domain, physical cohomology, chirality,
+  family count or GU verdict.
+
   Treat K438 as the exact constraint-compressed characteristic result on the
   actual observed carrier: `A=P S_7 P` has fast roots `±1`, slow roots
   `±1/24`, no zero root and a rank-128 involution defect. Treat K439 as the

@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K441-K77-MOVING-CORRECTED-BOUNDARY-TRANSPORT",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_observed",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact factorized associated-bundle transport of K438's corrected compressed symbol, K439's sign projectors and K440's closed trace domain. The rational orthogonal transport acts on all 192 fast sign pairs and all 64 slow sign pairs, proving the moving parallel-projector law without supplying the full action-derived lower-order K77 connection.",
+  "gu_typed_objects": {
+    "result": "moving corrected boundary transport",
+    "carrier": "K439 corrected rank-512 carrier with spectral multiplicities 192,64,192,64; LAYER=conditional associated-bundle transport; CHIRALITY=N/A",
+    "connection": "B(t)=-U'(t)U(t)^T, repeated on 192 fast and 64 slow sign pairs",
+    "operator": "D=d/dt+B(t)+U(t)A0U(t)^T",
+    "projectors": "Pi_out/in(t)=U(t)Pi_out/in(0)U(t)^T",
+    "domain": "transport of K440's closed positive-trace-zero H1 domain",
+    "target": "parallel corrected characteristic split and transported Green domain MAP-TYPE=covariant-conjugation"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "boundary_input": "lab/process/k439-k77-compatible-corrected-boundary-split.json",
+    "functional_input": "lab/process/k440-k77-corrected-boundary-green-domain.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Conjugate the actual corrected spectral data by an exact associated-bundle transport and test the covariant commutator before attempting any global Calderon or nonlinear BV construction.",
+    "retrieval_collision_result": "K429/K431 prove the rank-two transport theorem and K439/K440 supply the actual corrected spectral multiplicities, but no prior artifact composes them on the full factorized rank-512 carrier.",
+    "strongest_alternative": "Directly serializing the complete lower-order K77 connection has greater action fidelity but its coefficients and interacting field/antifield owner are not present."
+  },
+  "factorized_transport": {
+    "spectral_block_ranks": [192, 64, 192, 64],
+    "transport": "U(t)=R(t) on the fast outgoing/incoming pair and R(t) on the slow outgoing/incoming pair, with R(t)=(1+t^2)^-1[[1-t^2,-2t],[2t,1-t^2]]",
+    "sample_points": ["0", "1/3", "1/2", "1"],
+    "transport_orthogonal": true,
+    "connection_skew": true,
+    "compressed_polynomial_preserved": "576 A(t)^4-577 A(t)^2+I=0",
+    "sign_polynomial_preserved": "J(t)=(13823 A(t)-13248 A(t)^3)/575",
+    "projector_parallelism": "Pi'(t)+[B(t),Pi(t)]=0",
+    "orientation_reversal": "A -> -A sends J -> -J and exchanges Pi_out/Pi_in",
+    "fitted_parameters": 0
+  },
+  "functional_result": {
+    "closed_trace_domain_preserved": true,
+    "transport_isometric": true,
+    "green_conjugation": "G_moving=U G_K440 U^T",
+    "l2_green_bound": "24",
+    "l2_to_derivative_bound_in_trivialized_connection_norm": "25"
+  },
+  "decision": {
+    "moving_corrected_projectors_constructed": true,
+    "parallel_transport_proved": true,
+    "closed_trace_domain_preserved": true,
+    "full_lower_order_k77_connection_derived": false,
+    "nonlinear_bv_kt_compatibility_proved": false,
+    "physical_boundary_selected": false,
+    "next_exact_input": "Compose the corrected carrier with the proper homogeneous-orbit Koszul--Tate resolution, then classify which lower-order couplings preserve the moving boundary split."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling an exact associated-bundle conjugation the action-derived full lower-order K77 connection or a global Calderon projector.",
+    "strongest_contrary_construction": "Holding Pi fixed while B mixes incoming and outgoing blocks gives nonzero Pi'+[B,Pi]; the moving conjugated projector is load-bearing.",
+    "weakest_reproducibility_seam": "The rank-512 map is serialized by exact repeated-block factorization rather than an expanded 512-by-512 matrix."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k441_k77_moving_corrected_boundary_transport.py",
+    "probe": "tests/channel-swings/k441_k77_moving_corrected_boundary_transport_probe.py",
+    "controls_passed": 18,
+    "hostile_mutations_rejected": 18
+  },
+  "claim_ceiling": "Exact factorized moving transport of the actual K439 corrected spectral split and K440 closed trace domain. It proves parallel-projector and Green conjugation laws for a conditional associated-bundle connection; it does not derive the complete lower-order K77 action connection, nonlinear BV/KT complex, global Calderon projector, physical cohomology, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}
