@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K482-K152-UNIFORM-UNCERTAINTY-RADIUS",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "scope": "Sharp common radius for certified loss of both target-relative diagonal gaps and growth of the cross norm.",
+  "theorem": "For nominal gaps a,g and cross norm mu, strict margin survives shared radius r exactly while r<(ag-mu^2)/(a+g+2mu).",
+  "exact_control": {
+    "gaps": [4, 7],
+    "cross_norm": 3,
+    "nominal_slack": 19,
+    "sharp_radius_strict": "19/17",
+    "selected_radius": 1,
+    "effective_slack": 2
+  },
+  "native_release": {
+    "native_error_model_present": false,
+    "native_floor_emitted": false,
+    "K152_interval_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k482_k152_uniform_uncertainty_radius.py",
+    "probe": "tests/channel-swings/k482_k152_uniform_uncertainty_radius_probe.py",
+    "controls_passed": 20,
+    "hostile_mutations_rejected": 8,
+    "invalid_inputs_rejected": 8
+  },
+  "claim_ceiling": "Conditional tolerance theorem only; the shared error model is an input and no native K152 interval or physical conclusion follows."
+}

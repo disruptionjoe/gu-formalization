@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K483-K77-SQUARE-DETERMINANT-EXACTNESS",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "Exact determinant criterion for a supplied rational Euler-zero three-term complex.",
+  "theorem": "Under D1 D2=0 and dim C1=dim C2+dim C0, the complex is acyclic iff [D2,D1^T] is invertible.",
+  "exact_controls": {
+    "dimensions": [2, 4, 2],
+    "exact_determinant": 1,
+    "rank_defect_determinant": 0,
+    "non_nilpotent_invertible_concatenation_rejected": true
+  },
+  "K77_application": {
+    "dimensions": [10752, 46592, 35840],
+    "square_certificate_size": 46592,
+    "native_matrices_present": false,
+    "physical_cohomology_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k483_k77_square_determinant_exactness.py",
+    "probe": "tests/channel-swings/k483_k77_square_determinant_exactness_probe.py",
+    "controls_passed": 21,
+    "hostile_mutations_rejected": 9,
+    "invalid_inputs_rejected": 6
+  },
+  "claim_ceiling": "Conditional finite-matrix exactness only; no action-owned maps, physical domain, properness or physical cohomology follows."
+}

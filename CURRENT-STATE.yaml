@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a38a947508e2
+revision_basis: 756fc0ad38e9
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K481--K484 turn the last wave's conditional constructions into exact
+    acquisition and verification interfaces. K481 inverts K473: a requested
+    complete-complement floor `t` gives the strict cross budget
+    `mu^2<(alpha-t)(gamma-t)`. K482 gives the sharp shared uncertainty radius
+    `(ag-mu^2)/(a+g+2mu)` when both certified target-relative gaps may shrink
+    and the cross norm may grow by the same bound. These are tolerance
+    contracts only; no native K162 interval packet or K457 evaluation exists.
+
+    K483 proves that for an Euler-zero rational complex with `D1 D2=0`,
+    acyclicity is equivalent to invertibility of `[D2,D1^T]`. K484 supplies a
+    scalable one-sided exact witness: after clearing denominators, one nonzero
+    determinant modulo a prime proves rational invertibility. For K77 the
+    square certificate would have size `46592`; action-owned matrices and a
+    physical closed domain remain absent. No properness, physical cohomology,
+    source, ledger, canon, paper, public posture or physical verdict moves.
+
     K477--K480 convert the last wave's two-block and rank gates into practical
     staged constructions without inventing native inputs. K477 recursively
     composes K473 on a complete binary M-orthogonal block tree; every leaf
@@ -10716,8 +10732,13 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Apply K477/K478 when a native K162 block decomposition is available. Every
-  leaf must carry an authenticated lower interval on the same fixed form,
+  Apply K481 before evaluating a native K162 cross norm: choose the complete-
+  complement floor required by K474/K469 and derive the exact strict squared
+  cross budget. Compose authenticated floor/target uncertainties into the
+  target-relative gap losses; when one shared bound is valid, require it to be
+  strictly below K482's radius. Then apply K477/K478 to the complete block
+  tree. Every leaf must carry an authenticated lower interval on the same
+  fixed form,
   every internal split must be exhaustive and M-orthogonal, and every cross
   norm must have an authenticated upper interval. Propagate the worst-case
   lower roots upward and require a positive strict margin at every node before
@@ -10727,7 +10748,10 @@ next_condition: >-
   For K77, run K479 after K476 on action-owned declared-nonzero supports and
   reject any unique two-step path immediately. If an action-owned full-column
   D2 with a proved physical closed domain arrives, use K480's annihilator
-  quotient to parameterize nilpotent full-rank D1 candidates, but do not
+  quotient to parameterize nilpotent full-rank D1 candidates. After exact
+  nilpotence is independently proved, apply K483 to `[D2,D1^T]`; K484 may
+  certify its rational invertibility from a denominator-cleared nonzero
+  modular determinant. A zero residue is inconclusive. Do not
   substitute a repository-chosen `A L` for action custody. Exact coefficients,
   total nilpotence, domain preservation and K464/K471/K472 properness checks
   remain mandatory.

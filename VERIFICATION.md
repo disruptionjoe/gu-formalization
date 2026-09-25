@@ -7,6 +7,36 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K481--K484 inverse budgets and exactness witnesses (2026-09-25)
+
+K481 inverts K473 for a requested complete-complement floor `t`: the exact
+strict acquisition budget is `mu^2<(alpha-t)(gamma-t)`. Its rational control
+uses floors `5,8`, requested floor `3` and cross norm `3`, leaving squared
+slack `1`. Its probe passes `19/19`, rejects `8/8` hostile mutations and
+`6/6` invalid inputs.
+
+K482 proves the sharp common uncertainty radius. If the two target-relative
+gaps may each lose `r` and the cross norm may gain `r`, the strict slack is
+`ag-mu^2-r(a+g+2mu)`. The control `a=4,g=7,mu=3` has boundary `19/17`; at
+`r=1` the remaining slack is `2`. Its probe passes `20/20`, rejects `8/8`
+hostile mutations and `8/8` invalid inputs. Neither K481 nor K482 supplies a
+native error model, K162 interval or K152 result.
+
+K483 proves that an Euler-zero rational complex with `D1 D2=0` is acyclic iff
+`[D2,D1^T]` is invertible. The exact `2 -> 4 -> 2` control has determinant
+`1`; a rank defect has determinant zero, while an invertible but non-nilpotent
+control confirms that determinant alone is insufficient. Its probe passes
+`21/21`, rejects `9/9` hostile mutations and `6/6` invalid inputs.
+
+K484 proves a one-sided exact modular witness: after one common denominator
+clears a rational square matrix, any nonzero determinant modulo a prime proves
+rational invertibility. The control has LCM `6`, rational determinant `1/6`
+and cleared determinant residue `1 mod 5`. Its probe passes `17/17`, rejects
+`8/8` hostile mutations and `7/7` invalid or inconclusive inputs, including a
+nonzero determinant divisible by the chosen prime. A zero residue is
+inconclusive. No action-owned K77 matrix, domain, nilpotence, properness,
+physical cohomology or source/ledger/canon/public claim follows.
+
 ## K477--K480 multilevel complement and exactness construction (2026-09-25)
 
 K477 applies K473 recursively to every internal node of a complete binary

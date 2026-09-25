@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K481-K152-INVERSE-CROSS-BUDGET",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "scope": "Exact inverse K473 cross-norm budget for a requested floor on one complete same-form M-orthogonal split.",
+  "theorem": "beta>t iff alpha>t, gamma>t and mu^2<(alpha-t)(gamma-t).",
+  "exact_control": {
+    "alpha": 5,
+    "gamma": 8,
+    "requested_floor": 3,
+    "maximum_cross_norm_squared_strict": 10,
+    "selected_mu": 3,
+    "strict_slack": 1
+  },
+  "native_release": {
+    "native_inputs_present": false,
+    "K457_evaluation_released": false,
+    "K152_interval_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k481_k152_inverse_cross_budget.py",
+    "probe": "tests/channel-swings/k481_k152_inverse_cross_budget_probe.py",
+    "controls_passed": 19,
+    "hostile_mutations_rejected": 8,
+    "invalid_inputs_rejected": 6
+  },
+  "claim_ceiling": "Conditional acquisition budget only; no native K162 floor, cross norm, K457 evaluation, K152 interval or physical conclusion follows."
+}

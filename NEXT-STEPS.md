@@ -20,6 +20,21 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K481--K484 INVERSE BUDGETS AND EXACTNESS WITNESSES.** K481
+> turns a requested K152 complete-complement floor into the strict acquisition
+> budget `mu^2<(alpha-t)(gamma-t)`. K482 gives the sharp shared radius
+> `(ag-mu^2)/(a+g+2mu)` for certified loss of both target-relative gaps and
+> growth of the cross norm. K483 proves that an Euler-zero rational complex
+> with `D1 D2=0` is exact iff `[D2,D1^T]` is invertible; K484 certifies that
+> invertibility from one nonzero prime residue after exact denominator
+> clearing. The probes pass `19/19`, `20/20`, `21/21` and `17/17` controls,
+> reject `8/8`, `8/8`, `9/9` and `8/8` hostile mutations, and reject `6/6`,
+> `8/8`, `6/6` and `7/7` invalid or inconclusive inputs. Next supply
+> authenticated native K162 intervals or action-owned K77 matrices/domain,
+> then apply these gates.
+> No K152 interval, K77 action/properness, source/ledger/canon/public or
+> physical claim moves.
+
 > **2026-09-25 K477--K480 MULTILEVEL COMPLEMENT AND EXACTNESS
 > CONSTRUCTION.** K477 composes K473 through a complete binary M-orthogonal
 > block tree and fails closed at every leaf and internal cross margin. K478

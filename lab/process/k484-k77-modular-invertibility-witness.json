@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K484-K77-MODULAR-INVERTIBILITY-WITNESS",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "One-sided exact finite-field witness for a denominator-cleared rational square concatenation.",
+  "theorem": "A nonzero determinant modulo one prime proves the rational determinant is nonzero; zero modulo a prime is inconclusive.",
+  "exact_control": {
+    "matrix_size": 4,
+    "denominator_lcm": 6,
+    "prime": 5,
+    "cleared_determinant": 216,
+    "determinant_mod_prime": 1,
+    "rational_determinant": "1/6"
+  },
+  "K77_application": {
+    "square_certificate_size": 46592,
+    "nilpotence_still_required": true,
+    "native_matrix_present": false,
+    "physical_cohomology_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k484_k77_modular_invertibility_witness.py",
+    "probe": "tests/channel-swings/k484_k77_modular_invertibility_witness_probe.py",
+    "controls_passed": 17,
+    "hostile_mutations_rejected": 8,
+    "invalid_inputs_rejected": 7
+  },
+  "claim_ceiling": "Conditional arithmetic witness only; no nilpotence, action ownership, physical domain, properness or physical cohomology follows."
+}
