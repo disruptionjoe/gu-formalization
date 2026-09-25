@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 611a8b462eed
+revision_basis: 891e48419d78
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,34 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K444--K446 now resolve the post-K443 logical boundary for general
+    degree-changing couplings without inventing an action differential. K444
+    proves the correctly typed trace-domain square
+    `Pi_target D = D Pi_source`, equivalently vanishing of both rectangular
+    off-diagonal blocks. K443's commutator is its equal-degree special case.
+    For `C2 -> C1`, the full linear-map space has dimension 500957184 and its
+    compatible and obstructing halves each have dimension 250478592. For
+    `C1 -> C0`, the corresponding dimensions are 1669857280 and two halves of
+    834928640. A slow-sector exchange again gives defect rank 128 and
+    directional leakage rank 64 each way.
+
+    K445 supplies a nontrivial positive control. Degreewise block-diagonal
+    conjugators on the fast/slow incoming/outgoing sectors produce transformed
+    `D2` and `D1` satisfying both typed squares and `D1 D2=0`. The transported
+    contraction is exact, differential ranks remain 10752 and 35840 and
+    finite cohomology stays `0,0,0`. This proves compatible acyclic completions
+    exist, but the family is not source-selected or action-derived.
+
+    K446 supplies the contrary exact control. A rank-one defect confined to
+    one slow boundary half preserves both typed squares, the closed trace
+    subcomplex and nilpotence. Defecting `D1` lowers its rank to 35770 and
+    yields `(H2,H1,H0)=(0,70,70)`; defecting `D2` lowers its rank to 10731 and
+    yields `(21,21,0)`. Therefore boundary compatibility plus nilpotence does
+    not imply properness. Current native inputs select neither K445 nor K446,
+    so the actual action must serialize the degree-changing blocks and prove
+    their ranks or a contracting homotopy on the closed trace domain before
+    physical cohomology can be identified.
+
     K441--K443 now advance the corrected boundary law from frozen coefficients
     to an exact moving and homological compatibility boundary. K441 applies a
     rational orthogonal transport to every one of the 192 fast sign pairs and
@@ -10446,6 +10474,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K444 as the exact general degree-changing trace-domain theorem:
+  `Pi_target D = D Pi_source` is necessary and sufficient, and K443's
+  commutator is only its equal-degree special case. Treat K445 as an exact
+  nontrivial acyclic control obtained by degreewise projector-preserving chain
+  conjugation. Treat K446 as the decisive properness obstruction: typed
+  boundary squares and nilpotence can both hold while a rank-one slow-half
+  defect creates `(H2,H1,H0)=(0,70,70)` or `(21,21,0)`. Current action, BFV,
+  KT and boundary artifacts select neither completion. Next serialize the
+  actual action-derived degree-changing field/antifield blocks, verify both
+  typed squares and total nilpotence, then prove their ranks or an adapted
+  contracting homotopy on the closed trace domain. Do not identify the K446
+  classes with physical states or promote either structural control to a full
+  BV/KT complex, global Calderon domain, physical cohomology, chirality,
+  family count or GU verdict.
+
   Treat K441 as the exact factorized moving continuation of the corrected
   rank-512 split: rational orthogonal conjugation preserves the compressed
   polynomial, cubic sign projectors, rank-256 halves, normal reversal and the

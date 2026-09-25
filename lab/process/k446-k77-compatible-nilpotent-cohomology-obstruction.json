@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K446-K77-COMPATIBLE-NILPOTENT-COHOMOLOGY-OBSTRUCTION",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Two exact rank-one carrier-defect completions of K442's corrected-boundary KT product. Each defect lies wholly within one slow trace half, preserves both typed projector squares and D1 D2=0, yet produces explicit finite cohomology. This proves boundary compatibility plus nilpotence does not imply properness and that current native inputs do not determine cohomology.",
+  "gu_typed_objects": {
+    "result": "boundary-compatible nilpotent properness obstruction",
+    "complex": "corrected product C2->C1->C0 of dimensions 10752->46592->35840; LAYER=conditional homogeneous-orbit KT",
+    "low_arrow_defect": "rank-one slow-outgoing carrier kernel applied to D1",
+    "high_arrow_defect": "rank-one slow-incoming carrier kernel applied to D2",
+    "projectors": "Pi2,Pi1,Pi0; both defects are block diagonal within a single trace half",
+    "target": "properness and cohomology non-identifiability MAP-TYPE=graded-chain-counterexample"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "typed_square_input": "lab/process/k444-k77-degree-changing-boundary-squares.json",
+    "acyclic_control": "lab/process/k445-k77-compatible-acyclic-coupling-family.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Attack the implication boundary compatibility plus nilpotence implies properness with the smallest exact rank defect confined to one legal boundary half.",
+    "retrieval_collision_result": "K442 proves exactness for the identity product and K443 separates nilpotence/properness verbally. No prior artifact gives a boundary-compatible nilpotent completion with computed surviving cohomology.",
+    "strongest_alternative": "A nonlinear global failure would be stronger but needs unsupplied action coefficients and domains; a rank-one finite defect already decides the logical implication."
+  },
+  "shared_properties": {
+    "complex_dimensions": [10752, 46592, 35840],
+    "both_typed_projector_squares_hold": true,
+    "D1_D2_zero": true,
+    "closed_trace_halves_are_subcomplexes": true,
+    "rank_defect_per_selected_carrier_line": 1,
+    "source_or_action_selected": false
+  },
+  "low_arrow_defect": {
+    "modified_arrow": "D1:C1_to_C0",
+    "defect": "annihilate one slow-outgoing carrier line on every one of the 70 orbit outputs",
+    "differential_ranks": [10752, 35770],
+    "cohomology_dimensions_H2_H1_H0": [0, 70, 70],
+    "defect_supported_in_one_boundary_half": true
+  },
+  "high_arrow_defect": {
+    "modified_arrow": "D2:C2_to_C1",
+    "defect": "annihilate one slow-incoming carrier line on every one of the 21 stabilizer inputs",
+    "differential_ranks": [10731, 35840],
+    "cohomology_dimensions_H2_H1_H0": [21, 21, 0],
+    "defect_supported_in_one_boundary_half": true
+  },
+  "decision": {
+    "boundary_compatibility_plus_nilpotence_implies_properness": false,
+    "positive_degree_acyclicity_can_fail": true,
+    "surviving_cohomology_computed_exactly": true,
+    "current_native_inputs_select_between_K445_and_K446": false,
+    "actual_action_coupling_tested": false,
+    "physical_cohomology_constructed": false,
+    "next_exact_input": "The action must serialize the degree-changing blocks and prove their ranks or a contracting homotopy on the closed trace domain; otherwise boundary-compatible nilpotent completions have non-identifiable cohomology."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the finite surviving classes physical states or claiming that the actual K77 differential has this rank defect.",
+    "strongest_contrary_construction": "K445 is nontrivial, satisfies the same boundary and nilpotence requirements, and remains acyclic; current inputs select neither completion.",
+    "weakest_reproducibility_seam": "The rank-one defect is factorized across 21 or 70 base directions; the full matrices are not expanded, but every rank and homology dimension follows from the displayed direct-sum normal form."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k446_k77_compatible_nilpotent_cohomology_obstruction.py",
+    "probe": "tests/channel-swings/k446_k77_compatible_nilpotent_cohomology_obstruction_probe.py",
+    "controls_passed": 20,
+    "hostile_mutations_rejected": 20
+  },
+  "claim_ceiling": "Exact counterexamples showing that the typed boundary squares and nilpotence do not force properness: one low-arrow defect gives H2,H1,H0=(0,70,70), while one high-arrow defect gives (21,21,0). These are structural controls, not actual action-derived K77 couplings or physical cohomology, and do not move source, ledger, canon, paper, public posture, novelty, chirality, family count, positivity or a physical GU verdict."
+}

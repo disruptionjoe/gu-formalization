@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K445-K77-COMPATIBLE-ACYCLIC-COUPLING-FAMILY",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_observed",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact nontrivial family of degreewise projector-preserving chain conjugations of K442's corrected-boundary KT product. Every member satisfies both typed boundary squares, nilpotence and the transported contraction, hence retains zero finite cohomology. The family is a structural sufficiency control, not an action-derived or source-selected coupling.",
+  "gu_typed_objects": {
+    "result": "boundary-compatible acyclic chain-conjugate KT family",
+    "complex": "corrected product C2->C1->C0 of dimensions 10752->46592->35840; LAYER=conditional homogeneous-orbit KT",
+    "conjugators": "degreewise invertible G2,G1,G0, each block diagonal on fast-out, slow-out, fast-in and slow-in",
+    "differentials": "D2=G1(d2 tensor I)G2^-1 and D1=G0(d1 tensor I)G1^-1",
+    "projectors": "Pi2,Pi1,Pi0 commuting with their degreewise conjugators",
+    "target": "nontrivial compatible nilpotent and acyclic completion MAP-TYPE=chain-isomorphism"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "typed_square_input": "lab/process/k444-k77-degree-changing-boundary-squares.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Use chain isomorphism to construct a nontrivial positive control whose nilpotence and homology are exact consequences, avoiding coefficient fitting or brute-force expanded matrices.",
+    "retrieval_collision_result": "K442 proves only the decoupled identity-carrier product. No prior artifact constructs a nonidentity degreewise family satisfying the distinct source/target squares with an adapted contraction.",
+    "strongest_alternative": "An action-derived completion has greater physical meaning but is unavailable. K446's rank-defect family is the necessary hostile comparison because compatibility alone cannot select K445."
+  },
+  "construction": {
+    "block_order": ["fast_out_192", "slow_out_64", "fast_in_192", "slow_in_64"],
+    "degreewise_conjugators": {
+      "G2": [2, 3, 5, 7],
+      "G1": [11, 13, 17, 19],
+      "G0": [23, 29, 31, 37]
+    },
+    "D2_block_ratios": ["11/2", "13/3", "17/5", "19/7"],
+    "D1_block_ratios": ["23/11", "29/13", "31/17", "37/19"],
+    "nontrivial_on_every_boundary_block": true,
+    "source_or_action_selected": false
+  },
+  "exact_checks": {
+    "G2_commutes_with_P2": true,
+    "G1_commutes_with_P1": true,
+    "G0_commutes_with_P0": true,
+    "P1_D2_equals_D2_P2": true,
+    "P0_D1_equals_D1_P1": true,
+    "D1_D2_zero": true,
+    "transported_contraction_identity": true
+  },
+  "homology": {
+    "complex_dimensions": [10752, 46592, 35840],
+    "differential_ranks": [10752, 35840],
+    "cohomology_dimensions_H2_H1_H0": [0, 0, 0],
+    "positive_degree_acyclic": true,
+    "closed_trace_halves_are_subcomplexes": true
+  },
+  "decision": {
+    "nontrivial_boundary_compatible_nilpotent_completion_exists": true,
+    "acyclicity_preserved_by_chain_isomorphism": true,
+    "boundary_square_alone_selects_this_family": false,
+    "actual_action_coupling_tested": false,
+    "physical_cohomology_constructed": false,
+    "next_exact_input": "Compare with a boundary-compatible nilpotent rank defect to test whether compatibility and nilpotence alone force properness."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Treating a chain-isomorphic control as the K77 action differential, physical BV/KT complex or evidence that the missing action coupling is harmless.",
+    "strongest_contrary_construction": "K446 preserves the same typed squares and nilpotence while a rank-one boundary-half defect creates cohomology.",
+    "weakest_reproducibility_seam": "The proof uses exact blockwise conjugation and transported homotopy rather than expanded 46,592-dimensional matrices."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k445_k77_compatible_acyclic_coupling_family.py",
+    "probe": "tests/channel-swings/k445_k77_compatible_acyclic_coupling_family_probe.py",
+    "controls_passed": 23,
+    "hostile_mutations_rejected": 23
+  },
+  "claim_ceiling": "Exact nontrivial chain-conjugate family preserving both corrected-boundary typed squares, nilpotence, contraction and zero finite cohomology. It is a sufficiency control and is not source-selected, action-derived, the full nonlinear K77 BV/KT complex, physical cohomology or evidence for chirality, family count, positivity, observables, source/ledger movement, canon, paper, public posture, novelty or a GU verdict."
+}

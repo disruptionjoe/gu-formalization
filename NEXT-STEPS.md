@@ -20,6 +20,24 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K444--K446 TYPED BOUNDARY SQUARES AND PROPERNESS
+> SEPARATION.** K444 upgrades K443's equal-degree commutator to the correctly
+> typed square `Pi_target D = D Pi_source` for each degree-changing KT arrow.
+> Exactly half of each full arrow space is boundary compatible: 250478592 of
+> 500957184 maps for `C2 -> C1`, and 834928640 of 1669857280 maps for
+> `C1 -> C0`. K445 gives a nontrivial degreewise chain-conjugate family that
+> satisfies both squares, remains nilpotent and preserves ranks 10752/35840
+> and zero finite cohomology. K446 gives the hostile completion: one rank-one
+> slow-half defect still satisfies both squares and nilpotence but produces
+> `(H2,H1,H0)=(0,70,70)` on the low arrow or `(21,21,0)` on the high arrow.
+> The probes pass `23/23`, `23/23` and `20/20` controls and reject the same
+> numbers of hostile mutations. Thus compatibility plus nilpotence does not
+> imply properness, and current native inputs select neither completion. Next
+> the action must serialize the actual degree-changing blocks and prove their
+> ranks or an adapted contraction on the closed trace domain. These finite
+> classes are not physical cohomology and no source, ledger, canon, paper,
+> public, novelty or physical GU verdict moves.
+
 > **2026-09-24 K441--K443 MOVING CORRECTED BOUNDARY AND KT DESCENT.** K441
 > transports K439's actual corrected rank-512 split through exact rational
 > orthogonal rotations on all 192 fast and 64 slow sign pairs. The compressed

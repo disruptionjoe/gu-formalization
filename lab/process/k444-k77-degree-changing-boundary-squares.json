@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K444-K77-DEGREE-CHANGING-BOUNDARY-SQUARES",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact source/target-projector theorem for every degree-changing linear block on K442's corrected-boundary KT product. The typed square Pi_target D = D Pi_source is necessary and sufficient for trace-half descent and specializes to K443's commutator only when source and target projectors coincide. No action-derived block is supplied or tested.",
+  "gu_typed_objects": {
+    "result": "degree-changing corrected-boundary KT square theorem",
+    "degree_2_carrier": "rank 21 times corrected rank-512 carrier; trace halves rank 5376 each; LAYER=conditional homogeneous-orbit KT",
+    "degree_1_carrier": "rank 91 times corrected rank-512 carrier; trace halves rank 23296 each",
+    "degree_0_carrier": "rank 70 times corrected rank-512 carrier; trace halves rank 17920 each",
+    "differentials": "D2:C2_to_C1 and D1:C1_to_C0",
+    "projectors": "Pi2, Pi1 and Pi0 induced degreewise from K439/K441's corrected rank-256 boundary halves",
+    "target": "typed trace-domain subcomplex criterion MAP-TYPE=graded-projector-intertwiner"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "product_input": "lab/process/k442-k77-corrected-boundary-kt-product.json",
+    "equal_degree_input": "lab/process/k443-k77-boundary-kt-coupling-obstruction.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Prove the rectangular typed square before searching coefficients; K443's commutator is not well typed for maps between distinct KT degrees.",
+    "retrieval_collision_result": "K431 states the same-carrier parallel-projector law and K443 classifies equal-degree carrier endomorphisms. Neither gives the source/target square or actual arrow-space counts for C2->C1 and C1->C0.",
+    "strongest_alternative": "Testing the actual action blocks would be stronger, but current native artifacts do not serialize those blocks and a fitted substitute would violate action ownership."
+  },
+  "general_theorem": {
+    "typed_square": "Pi_target D = D Pi_source",
+    "block_form_criterion": "Pi_target D (I-Pi_source)=0 and (I-Pi_target) D Pi_source=0",
+    "criterion_necessary_and_sufficient": true,
+    "equal_degree_specialization": "when source=target and Pi_source=Pi_target, this is [D,Pi]=0",
+    "k443_is_strict_special_case": true
+  },
+  "actual_arrow_counts": {
+    "degree_2_to_1": {
+      "source_dimension": 10752,
+      "target_dimension": 46592,
+      "all_linear_maps_dimension": 500957184,
+      "boundary_compatible_maps_dimension": 250478592,
+      "off_diagonal_obstruction_dimension": 250478592
+    },
+    "degree_1_to_0": {
+      "source_dimension": 46592,
+      "target_dimension": 35840,
+      "all_linear_maps_dimension": 1669857280,
+      "boundary_compatible_maps_dimension": 834928640,
+      "off_diagonal_obstruction_dimension": 834928640
+    },
+    "compatible_fraction_each_arrow": "1/2"
+  },
+  "slow_exchange_control": {
+    "representative_defect_rank": 2,
+    "actual_defect_rank": 128,
+    "source_to_target_leak_rank": 64,
+    "target_to_source_leak_rank": 64
+  },
+  "decision": {
+    "both_degree_changing_square_types_classified": true,
+    "boundary_compatibility_implies_nilpotence": false,
+    "boundary_compatibility_implies_properness": false,
+    "actual_action_coupling_tested": false,
+    "next_exact_input": "Test nilpotence and cohomology on contrary boundary-compatible completions, then require the action to select and serialize the actual degree-changing blocks."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the typed square an action-derived differential or treating the compatible half-space as a proper BV/KT complex.",
+    "strongest_contrary_construction": "A block-diagonal map can satisfy every typed square while changing ranks and cohomology; K445 and K446 test both outcomes.",
+    "weakest_reproducibility_seam": "The billion-dimensional spaces are counted from exact tensor dimensions and verified on block representatives rather than expanded matrices."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k444_k77_degree_changing_boundary_squares.py",
+    "probe": "tests/channel-swings/k444_k77_degree_changing_boundary_squares_probe.py",
+    "controls_passed": 23,
+    "hostile_mutations_rejected": 23
+  },
+  "claim_ceiling": "Exact typed source/target-projector criterion and dimension count for the two degree-changing arrows of the corrected homogeneous-orbit KT product, with a slow-sector hostile witness. This does not serialize the action-derived coupling, prove nilpotence or properness, compute physical cohomology, select a boundary, or move source, ledger, canon, paper, public posture, novelty or a physical GU verdict."
+}

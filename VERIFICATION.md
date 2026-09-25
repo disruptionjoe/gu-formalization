@@ -7,6 +7,35 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K444--K446 typed boundary squares and properness (2026-09-24)
+
+K444 proves the rectangular projector-intertwining theorem for a general
+degree-changing block: `Pi_target D = D Pi_source` holds exactly when both
+source-to-target and target-to-source off-diagonal blocks vanish. K443's
+commutator is recovered only when source and target coincide. On the actual
+corrected product, the `C2 -> C1` map space has dimension 500957184 and splits
+into compatible and obstructing halves of dimension 250478592; the
+`C1 -> C0` space has dimension 1669857280 and halves of dimension 834928640.
+The slow-exchange hostile representative has actual defect rank 128. The
+producer and probe pass `23/23` controls and reject `23/23` hostile mutations.
+
+K445 constructs nonidentity degreewise conjugators that are block diagonal on
+the fast/slow outgoing/incoming decomposition. The transformed arrows obey
+both typed squares and `D1 D2=0`; the conjugated contracting homotopy is exact,
+the arrow ranks remain 10752 and 35840, and finite cohomology remains
+`0,0,0`. Its producer and probe pass `23/23` controls and reject `23/23`
+hostile mutations.
+
+K446 gives two minimal contrary completions. A rank-one slow-outgoing defect
+in `D1` preserves the typed squares and nilpotence but changes the arrow ranks
+to 10752 and 35770 and produces `(H2,H1,H0)=(0,70,70)`. A rank-one
+slow-incoming defect in `D2` gives ranks 10731 and 35840 and cohomology
+`(21,21,0)`. Its producer and probe pass `20/20` controls and reject `20/20`
+hostile mutations. Therefore boundary compatibility plus nilpotence does not
+imply properness. K445 and K446 are structural controls, not action-derived
+couplings; current native inputs select neither, and none of these finite
+classes is physical cohomology.
+
 ## K441--K443 moving boundary and KT descent (2026-09-24)
 
 K441 transports K438/K439's exact four-block corrected symbol and projectors
