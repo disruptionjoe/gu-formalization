@@ -7,6 +7,34 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K453--K455 K152 finite consumer and native residual boundary (2026-09-25)
+
+K453 evaluates the finite generalized Rayleigh quotient, shifted form-dual
+residual, first and next-distinct generalized eigenvalue intervals, shifted
+coercivity floor and dual-Temple enclosure on both K447/K451 independent
+rebuilds in q00, q10 and q01. The independently rebuilt physical Gram also
+fails exact compression. Its exact relative defect radius is
+`250965891222458484365769689/6272010995430339903744000000` in q00 and
+`4199762151220437726977241661/150528263890328157689856000000` in q10/q01;
+exact LDL certifies both sides. Its probe passes `18/18` controls and rejects
+`18/18` hostile mutations.
+
+K454 proves the simultaneous form/Gram transfer theorem. If the form defect
+is bounded by beta, the Gram defect by alpha less than one and the shift is s,
+then the shifted form budget is `gamma=beta+s*alpha`. The resulting exact
+rational bounds enclose both ordered generalized eigenvalues, the Rayleigh
+quotient and the shifted dual residual of each target pencil. Thus K451's
+form-only radius is not a complete consumer transfer. Its probe passes `19/19`
+controls and rejects `19/19` hostile mutations.
+
+K455 compiles the native boundary fail-closed. The K450 conforming transfer
+and K453/K454 finite diagnostics are complete, but the complete K156/K171
+continuum action column on K162, its shifted residual, coercivity,
+next-distinct spectral separation and native left floor are not serialized.
+Its probe passes `17/17` controls and rejects `17/17` hostile mutations. No
+native K152 interval, source, ledger, physical, Born, prediction, canon, paper
+or public conclusion follows.
+
 ## K450--K452 K152 physical-Gram cofinal form transfer (2026-09-25)
 
 K450 proves the structural restriction theorem for the fixed limiting K139

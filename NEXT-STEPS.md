@@ -20,6 +20,20 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K453--K455 K152 FINITE CONSUMER AND NATIVE RESIDUAL
+> BOUNDARY.** K453 evaluates the complete finite K152 consumer on both
+> K447/K451 independent rebuilds in q00/q10/q01. Their physical Grams do not
+> compress exactly: the exact relative radii are about `0.04001` in q00 and
+> `0.02790` in q10/q01, and the Rayleigh, residual, spectrum, coercivity and
+> finite dual-Temple outputs change. K454 proves a joint form/Gram transfer
+> with `gamma=beta+s*alpha` and encloses every exact target consumer value.
+> K455 keeps those finite diagnostics out of the native residual packet. Next
+> serialize the complete K156/K171 continuum action column on the fixed K162
+> carrier, evaluate its shifted form-dual residual, then prove coercivity,
+> next-distinct separation and a native left floor before K152. The probes
+> pass `18/18`, `19/19` and `17/17` controls and reject the same counts of
+> hostile mutations. No native interval or physical/source move is licensed.
+
 > **2026-09-25 K450--K452 K152 PHYSICAL-GRAM COFINAL FORM TRANSFER.** K450
 > restricts the one fixed limiting K139 physical Gram and regular form to the
 > nested K162 physical ranges. Exact congruence makes the generalized defect
