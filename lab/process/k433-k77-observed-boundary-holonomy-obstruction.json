@@ -1,0 +1,101 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K433-K77-OBSERVED-BOUNDARY-HOLONOMY-OBSTRUCTION",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_observed",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact rational cross-carrier boundary compatibility for a covariantly parallel isomorphism from K429's conditional rank-two source bundle to a distinct flat rank-two observed comparator bundle. Both endpoint twists and the observed carrier are repository-supplied; neither is the corrected Clifford observation carrier or a source/action-selected K77 boundary law.",
+  "gu_typed_objects": {
+    "result": "cross-carrier covariant boundary-intertwiner classification and relative-holonomy obstruction",
+    "source_carrier": "E=H1([0,1],R2) with K429 transport U and D_E=d/dt+A_E; LAYER=conditional action reduction; CHIRALITY=N/A",
+    "target_carrier": "F=H1([0,1],R2) as a distinct flat observed comparator with V=I and D_F=d/dt; LAYER=conditional observation boundary; CHIRALITY=N/A",
+    "pairing": "separate standard real L2 pairings on E and F with orthogonal endpoint twists",
+    "real_structure": "real orthogonal rank-two source and target bundles",
+    "grading": "source-field to observed-field degree zero",
+    "action_owner": "K429 conditional action-owned source D_E; flat target, cross-carrier map and endpoint twists are repository choices",
+    "target": "bulk covariant intertwining plus boundary-domain preservation MAP-TYPE=cross-carrier-covariant-intertwiner"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "AC-F1", "RA-F1"],
+    "ledger_effect": "NEEDS_UNCHANGED",
+    "reason": "The theorem supplies an exact compatibility gate for any future typed observed carrier map, but the target carrier, map and endpoint twists here are not source/action selected.",
+    "standing_context": "Resolve the live ledger through standing_ledger.ref and human_ref in lab/methods/research-evidence-contract-v1.0.json; this fixture does not edit or move it."
+  },
+  "inputs": {
+    "covariant_source": "lab/process/k429-k77-covariant-incoming-domain-green.json",
+    "relative_holonomy_theorem": "lab/process/k430-k77-twisted-boundary-holonomy-cohomology.json",
+    "same_carrier_descent": "lab/process/k431-k77-parallel-observation-descent.json",
+    "corrected_observation_boundary": "lab/process/corrected-observation-gauge-slice-green-compatibility.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Separate bulk covariant intertwining from boundary-domain preservation and compare relative holonomies rather than raw endpoint twists.",
+    "retrieval_collision_result": "K430 classifies one carrier's twisted domains and K431 classifies same-carrier parallel projectors. Neither proves when a map between distinct covariant carriers preserves both boundary realizations.",
+    "strongest_alternative": "A typed intertwiner to the actual corrected observed one-form-spinor carrier with an action-derived boundary projector would have physical reach, but those inputs remain absent."
+  },
+  "classification_theorem": {
+    "bulk_parallel_form": "For orthogonal transports U on E and V on F, every covariantly parallel map has B(t)=V(t) C U(t)^T.",
+    "source_relative_holonomy": "S_E=U(1)^T R_E U(0)",
+    "target_relative_holonomy": "S_F=V(1)^T R_F V(0)",
+    "boundary_criterion": "B maps Dom(D_E,R_E) into Dom(D_F,R_F) iff C S_E=S_F C.",
+    "invertible_criterion": "An invertible parallel boundary intertwiner exists iff S_E and S_F are conjugate.",
+    "scoped_obstruction": "If S_E and S_F have coprime minimal polynomials, their intertwiner space is zero. This obstructs parallel boundary descent for those supplied realizations, not bulk covariant intertwining or every possible boundary choice."
+  },
+  "exact_fixture": {
+    "source_transport": "K429 U(t), with U(0)=I and U(1)=J",
+    "target_transport": "V(t)=I",
+    "trivialized_intertwiner": "C=H=diag(1,-1)",
+    "covariant_intertwiner": "B(t)=H U(t)^T",
+    "bulk_covariant_intertwining_exact": true,
+    "intertwiner_invertible": true
+  },
+  "exact_cases": {
+    "matched_monodromy_to_flat": {
+      "source_endpoint_twist": "R_E=J",
+      "target_endpoint_twist": "R_F=I",
+      "relative_holonomies": "S_E=I and S_F=I",
+      "boundary_compatible": true,
+      "parallel_boundary_intertwiner_space_dimension": 4
+    },
+    "matched_by_conjugacy": {
+      "source_endpoint_twist": "R_E=I",
+      "target_endpoint_twist": "R_F=J",
+      "relative_holonomies": "S_E=-J and S_F=J, with H S_E=S_F H",
+      "boundary_compatible": true,
+      "parallel_boundary_intertwiner_space_dimension": 2
+    },
+    "mismatched_opposite_scalar": {
+      "source_endpoint_twist": "R_E=J",
+      "target_endpoint_twist": "R_F=-I",
+      "relative_holonomies": "S_E=I and S_F=-I",
+      "boundary_compatible": false,
+      "parallel_boundary_intertwiner_space_dimension": 0,
+      "exact_obstruction": "C I=(-I) C forces 2C=0, hence C=0 over R."
+    }
+  },
+  "decision": {
+    "cross_carrier_boundary_compatibility_classified": true,
+    "raw_endpoint_twist_equality_required": false,
+    "relative_holonomy_conjugacy_controls_invertible_descent": true,
+    "mismatched_relative_holonomy_can_obstruct_every_nonzero_parallel_boundary_map": true,
+    "bulk_covariant_map_alone_implies_boundary_descent": false,
+    "corrected_observed_carrier_or_physical_boundary_constructed": false,
+    "next_exact_input": "Type the actual corrected observed one-form-spinor transport and derive both endpoint domains from the action; then compute their relative holonomies and apply this criterion."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the flat target F the physical observed K77 carrier or promoting the I versus -I mismatch to a no-go for observation.",
+    "strongest_contrary_construction": "Two exact matched cases exist for the same bulk map, including unequal raw endpoint twists whose relative holonomies are conjugate.",
+    "weakest_reproducibility_seam": "The rational bulk and endpoint identities are exact; transfer requires the missing typed physical target transport and action-selected twists."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k433_k77_observed_boundary_holonomy_obstruction.py",
+    "probe": "tests/channel-swings/k433_k77_observed_boundary_holonomy_obstruction_probe.py",
+    "controls_passed": 29,
+    "hostile_mutations_rejected": 23
+  },
+  "claim_ceiling": "Exact rational theorem for one conditional rank-two source carrier and one distinct flat rank-two observed comparator: a covariantly parallel map preserves twisted boundary domains exactly when its trivialized fiber map intertwines the two relative holonomies. Two matched cases pass, while the supplied I versus -I relative-holonomy pair admits only the zero parallel boundary map despite an invertible bulk intertwiner. This is a scoped boundary obstruction, not an obstruction to bulk covariance, alternative twists or carriers. It does not construct the corrected Clifford observation carrier, an action-selected K77 boundary, a physical Green/BV/BFV map, chirality, family count, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

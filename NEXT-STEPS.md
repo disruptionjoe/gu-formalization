@@ -20,6 +20,25 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K432--K434 H640 OBSERVED BOUNDARY COMPOSITION.** K432
+> constructs an exact rational two-carrier representative in which an
+> H640-like observation isomorphism intertwines K429's variable differential,
+> the zero-trace incoming domains, K431's parallel projectors and both full and
+> projected Green operators. The actual rank-640 maps inside the rank-1920
+> carrier are not serialized. K433 proves cross-carrier twisted-boundary
+> descent is equivalent to `C S_E=S_F C`; exact matched examples have
+> intertwiner dimensions four and two, while the supplied `I/-I` mismatch has
+> dimension zero despite an invertible bulk map. K434 derives the incoming
+> spectral projector from the action time/normal symbols and proves rank-half,
+> idempotence, negative flux, maximal nonpositive dimension, orientation
+> reversal and covariant transport on an exact rank-four proxy. Their probes
+> pass `37/37`, `29/29`, and `36/36` controls and reject `25/25`, `23/23`, and
+> `26/26` hostile mutations. Next serialize the actual full H640/observed map
+> and full K77 principal symbols on a specified boundary, then prove common
+> constraint/Green-domain and corrected-Clifford compatibility. No physical
+> BV/BFV cohomology, chirality, family count, source/ledger/canon/public move
+> or GU verdict follows.
+
 > **2026-09-24 K429--K431 VARIABLE COVARIANT DOMAIN AND OBSERVATION DESCENT.**
 > K429 instantiates a source-admitted conditional rank-two K77 covariant
 > differential with exact variable skew connection `A=-U'U^T`. The incoming

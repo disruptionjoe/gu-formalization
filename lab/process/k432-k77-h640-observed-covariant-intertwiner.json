@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K432-K77-H640-OBSERVED-COVARIANT-INTERTWINER",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "An exact rational conditional two-carrier rank-two fixture composing the inherited fact that observation restricts isomorphically from H640 to a distinct rank-640 observed carrier with K429's variable covariant differential and K431's parallel-projector incoming Green descent. The rank-two fixture is a compressed representative only: no actual rank-640 H640/observed matrix or ambient rank-1920 matrix is serialized.",
+  "gu_typed_objects": {
+    "result": "conditional H640-to-observed covariant-intertwiner and incoming Green-square theorem",
+    "native_carrier": "H=Q^2 as a conditional compressed representative of the action-derived H640 graph carrier; inherited full rank=640; LAYER=conditional action/observation interface; CHIRALITY=N/A",
+    "observed_carrier": "O=Q^2 with transported rational Gram matrix as a distinct compressed representative of the coordinate observed carrier; inherited full rank=640; LAYER=conditional observed interface; CHIRALITY=N/A",
+    "ambient_control": "inherited full K77 carrier rank=1920, recorded only as rank metadata and not serialized as a matrix",
+    "pairing": "standard rational Gram matrix on H and H_O=F_obs^{-T}F_obs^{-1} on O, making the observation isomorphism pairing-preserving",
+    "real_structure": "real rational two-carrier transport",
+    "grading": "field and observed-field degrees; no BV ghost or antifield complex constructed",
+    "action_owner": "K429 conditional action-owned D_A supplies the variable covariant form; F_obs, the rank-two compression and incoming boundary are repository-selected",
+    "target": "typed carrier isomorphism, covariant differential square, parallel incoming projector square and Green/boundary descent; MAP-TYPE=conditional-two-carrier-covariant-intertwiner"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger_effect": "none",
+    "h640_observation_input": "lab/process/selected-k77-h640-observation-pullback-bv-typing.json",
+    "variable_projector_input": "lab/process/selected-k77-variable-incoming-projector-descent.json",
+    "green_compatibility_boundary": "lab/process/corrected-observation-gauge-slice-green-compatibility.json",
+    "covariant_green_input": "lab/process/k429-k77-covariant-incoming-domain-green.json",
+    "same_carrier_predecessor": "lab/process/k431-k77-parallel-observation-descent.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Compose the inherited two-carrier observation-isomorphism fact with the already exact K429/K431 differential and Green data on a small rational fixture before claiming an actual full-carrier bridge.",
+    "retrieval_collision_result": "K431 constructs parallel projector descent on one conditional carrier; the H640 artifact proves that its native and observed rank-640 carriers are distinct but isomorphic under observation. No prior artifact serializes a typed variable differential/Green square between those two carriers.",
+    "strongest_alternative": "Serializing and checking the actual rank-640 H640-to-observed isomorphism inside the full rank-1920 action/BV carrier would have greater reach, but those matrices and a selected full common domain are not present."
+  },
+  "inherited_h640_fact": {
+    "ambient_rank": 1920,
+    "native_h640_rank": 640,
+    "observed_rank": 640,
+    "observation_restricts_isomorphically": true,
+    "graph_correction_rank": 128,
+    "full_h640_matrix_serialized_here": false,
+    "full_observed_matrix_serialized_here": false,
+    "full_1920_matrix_serialized_here": false
+  },
+  "exact_rational_fixture": {
+    "native_carrier": "H=Q^2",
+    "observed_carrier": "O=Q^2",
+    "constant_observation_frame": [["1", "1"], ["0", "1"]],
+    "constant_inverse_frame": [["1", "-1"], ["0", "1"]],
+    "observed_gram": [["1", "-1"], ["-1", "2"]],
+    "native_transport": "U(t)=(1+t^2)^-1 [[1-t^2,-2t],[2t,1-t^2]]",
+    "observation": "J(t)=F_obs U(t)^T",
+    "lift": "L(t)=U(t)F_obs^{-1}",
+    "inverse_laws": "J(t)L(t)=I_O and L(t)J(t)=I_H",
+    "pairing_law": "J(t)^T H_O J(t)=I_H",
+    "compression_status": "conditional rank-two representative of the inherited two-carrier isomorphism fact, not a block claim about the full carriers"
+  },
+  "covariant_intertwiner_result": {
+    "native_differential": "D_H=d/dt+A(t), with A=-U'U^T",
+    "observed_differential": "D_O=d/dt",
+    "observation_equation": "J'=J A, hence D_O J=J D_H",
+    "lift_equation": "L'+A L=0, hence D_H L=L D_O",
+    "exact_at_all_rational_samples": true
+  },
+  "incoming_projector_and_green_descent": {
+    "native_projector": "P_H(t)=U(t)diag(1,0)U(t)^T",
+    "observed_projector": [["1", "-1"], ["0", "0"]],
+    "projector_square": "J P_H=P_O J and P_H L=L P_O",
+    "parallelism": "P_H'+[A,P_H]=0 and P_O'=0",
+    "native_incoming_domain": "u in H1([0,1],H) with u(0)=0",
+    "observed_incoming_domain": "x in H1([0,1],O) with x(0)=0",
+    "boundary_descent": "J(0) and L(0) identify the two zero-trace incoming domains",
+    "native_green": "G_H f(t)=U(t) integral_0^t U(s)^T f(s) ds",
+    "observed_green": "G_O g(t)=integral_0^t g(s) ds",
+    "green_intertwining": "J G_H=G_O J",
+    "projected_green_intertwining": "J P_H G_H=P_O G_O J=G_O P_O J"
+  },
+  "controls_and_shortcuts": {
+    "nonorthogonal_observation_frame": "F_obs is not orthogonal in the standard observed pairing, so the transported observed Gram matrix is load-bearing",
+    "same_carrier_shortcut_rejected": true,
+    "constant_native_projector_shortcut_rejected_by": "K431 rank-two commutator defect",
+    "actual_full_matrix_claim_rejected": true,
+    "physical_bv_bfv_claim_rejected": true
+  },
+  "decision": {
+    "conditional_two_carrier_covariant_intertwiner_constructed": true,
+    "incoming_boundary_and_green_square_constructed": true,
+    "parallel_projector_square_constructed": true,
+    "actual_full_h640_intertwiner_constructed": false,
+    "actual_full_1920_control_computed": false,
+    "source_selected_observation_or_boundary_constructed": false,
+    "physical_bv_bfv_cohomology_constructed": false,
+    "next_exact_input": "Serialize the actual H640-to-observed rank-640 map and its inverse in the full rank-1920 action carrier, derive rather than choose the common boundary/Green domain, and test the complete BV/Koszul-Tate differential and corrected Clifford projector on that same typed square."
+  },
+  "ledger_effect": {
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "AC-F1": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "RA-D4": "NEEDS_UNCHANGED",
+    "SC-GEN-02/03": "SOURCE_POLARITY_UNCHANGED",
+    "SC-CHI-01": "SOURCE_POLARITY_UNCHANGED",
+    "reason": "The fixture proves conditional composability of the inherited isomorphism fact with exact covariant/Green squares, but does not instantiate the actual full carriers, select the domain or build BV/BFV cohomology."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Promoting the rank-two representative to the actual H640/observed rank-640 intertwiner or claiming that the ambient rank-1920 BV/action square has been computed.",
+    "strongest_contrary_construction": "The observation frame is deliberately nonorthogonal in the standard observed metric; only the transported Gram matrix restores pairing compatibility, and K431's constant native projector still fails parallel descent.",
+    "weakest_reproducibility_seam": "Every displayed rank-two identity is exact over Q, but F_obs, the compression and incoming boundary are supplied choices rather than matrices derived from the full K77 action/BV data."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k432_k77_h640_observed_covariant_intertwiner.py",
+    "probe": "tests/channel-swings/k432_k77_h640_observed_covariant_intertwiner_probe.py",
+    "controls_passed": 37,
+    "hostile_mutations_rejected": 25
+  },
+  "claim_ceiling": "Exact rational conditional two-carrier rank-two witness showing that an H640-like observation isomorphism can intertwine K429's variable covariant differential, K431's parallel projector, the selected zero-trace incoming domains and their Volterra Green operators when the observed pairing and projector are transported consistently. The inherited full ranks 640/640 inside 1920 are context only: no full rank-640 or rank-1920 matrices are serialized or tested, and no actual K77 H640 intertwiner, selected physical domain, corrected Clifford-projector composition, BV/BFV quotient, physical cohomology, chirality, family count, source/ledger move, canon, paper, public posture, novelty or GU verdict follows."
+}

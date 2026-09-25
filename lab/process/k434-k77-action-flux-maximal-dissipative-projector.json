@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K434-K77-ACTION-FLUX-MAXIMAL-DISSIPATIVE-PROJECTOR",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "An exact rational rank-four conditional proxy for the selected K77 first-order principal system. From an invertible positive time symbol D_t and symmetric normal flux D_n, it derives the spectral incoming projector Pi_in=(I-D_t^-1 D_n)/2 and proves rank-half, idempotence, negative/nonpositive flux, maximal nonpositive dimension, oriented-normal complementarity and covariant transport. The coefficient pair and conormal fixture are repository choices, not source-selected full-K77 data.",
+  "gu_typed_objects": {
+    "result": "action-flux spectral incoming-projector and maximal-dissipative theorem",
+    "carrier": "real rank-four rational bundle; LAYER=conditional low-rank principal-symbol proxy; CHIRALITY=N/A",
+    "pairing": "positive time energy D_t and symmetric oriented normal flux D_n",
+    "real_structure": "real orthogonal covariant transport",
+    "grading": "incoming minus-one and outgoing plus-one spectral halves of D_t^-1 D_n",
+    "action_owner": "the conditional principal coefficient pair owns the family n -> Pi_in(n); the rank-four coefficients themselves are repository-selected",
+    "target": "maximal D_n-nonpositive boundary subspace MAP-TYPE=spectral-incoming-projector"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "AC-F1", "RA-F1"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "source_return": "SOURCE_CONFIRMS_FIRST_ORDER_FOUR_FIELD_PARENT_AND_COVARIANT_GRAMMAR__SOURCE_CORRECTS_NONE__SOURCE_SILENT_ON_INCOMING_PROJECTOR_FAMILY_BOUNDARY_SELECTION_AND_VARIABLE_ANALYTIC_DOMAIN",
+    "prior_projector_family": "lab/process/selected-k77-variable-incoming-projector-descent.json",
+    "prior_green_horn": "lab/process/selected-k77-energy-green-boundary-horn-composition.json",
+    "prior_layer0_domain": "lab/process/selected-k77-observed-cauchy-domain-layer0.json",
+    "prior_covariant_domain": "lab/process/k429-k77-covariant-incoming-domain-green.json",
+    "prior_parallel_descent": "lab/process/k431-k77-parallel-observation-descent.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Derive the projector from the exact generalized normal symbol before supplying any boundary subspace by hand; the flux sign and maximal dimension must follow from the same action coefficients.",
+    "retrieval_collision_result": "The selected K77 projector artifact states the full-rank family formula and ownership boundary. K429 proves a conditional variable Green domain with a supplied endpoint condition, while K431 transports a supplied rank-one projector. None serializes a low-rank exact action-flux derivation proving maximal nonpositivity.",
+    "strongest_alternative": "A full selected-K77 Calderon or maximal-dissipative construction would have greater physical reach, but still lacks the action-selected complete coefficient family, boundary geometry and global analytic domain required for that claim."
+  },
+  "conditional_action_flux_fixture": {
+    "transport": "U(t) is an exact rational orthogonal double-plane rotation at rational t",
+    "time_symbol": "D_t(t)=U(t) diag(2,3,5,7) U(t)^T",
+    "normal_flux": "D_n(t)=U(t) diag(2,3,-5,-7) U(t)^T",
+    "reduced_symbol": "S_n(t)=D_t(t)^-1 D_n(t)=U(t) diag(1,1,-1,-1) U(t)^T",
+    "time_determinant": 210,
+    "normal_flux_signature": [2, 2, 0],
+    "exact_samples": ["0", "1/5", "1/2", "3/4", "1"]
+  },
+  "spectral_projector_result": {
+    "formula": "Pi_in(n)=1/2*(I-D_t^-1 D_n)",
+    "outgoing_formula": "Pi_out(n)=1/2*(I+D_t^-1 D_n)",
+    "rank": 2,
+    "carrier_rank": 4,
+    "rank_fraction": "1/2",
+    "idempotent": true,
+    "incoming_flux_gram": [[-5, 0], [0, -7]],
+    "negative_on_nonzero_incoming_vectors": true,
+    "nonpositive_on_incoming_space": true,
+    "maximal_nonpositive_dimension": 2,
+    "maximality_proof": "If W is D_n-nonpositive, projection W to the negative eigenspace is injective: a kernel vector would lie in the positive eigenspace, where D_n is positive definite. Thus dim(W)<=2, and range(Pi_in) attains the bound.",
+    "orientation_law": "Pi_in(-n)=I-Pi_in(n)=Pi_out(n)",
+    "covariant_transport": "Simultaneous orthogonal transport of D_t and D_n conjugates S_n and Pi_in by U(t)"
+  },
+  "ownership": {
+    "action_owns": "the family map from an oriented unit noncharacteristic conormal n to Pi_in(n), conditional on the principal coefficient pair",
+    "boundary_geometry_owns": "the boundary hypersurface, outward conormal and choice of the corresponding member Pi_in(n)",
+    "physical_domain_selection": "requires the full selected-K77 coefficients, boundary regularity, constraints, common Green domain and global analytic realization; it is not selected by this algebraic family",
+    "independent_projector_datum_needed_for_fixture": false,
+    "unique_global_boundary_selected": false,
+    "physical_domain_selected": false
+  },
+  "decision": {
+    "exact_spectral_projector_derived": true,
+    "rank_half_idempotence_proved": true,
+    "negative_and_nonpositive_flux_proved": true,
+    "maximal_nonpositive_dimension_proved": true,
+    "covariant_transport_proved": true,
+    "full_k77_projector_constructed": false,
+    "physical_boundary_domain_selected": false,
+    "next_exact_input": "Instantiate the full selected-K77 time and normal principal symbols on a specified boundary, then prove that their action-derived maximal nonpositive family preserves the constraint/Green domain and corrected observation pullback."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the rank-four conditional projector the source-selected full K77 boundary condition, Calderon projector or physical state domain.",
+    "strongest_contrary_construction": "Reversing the oriented conormal exchanges the incoming and outgoing halves exactly; boundary geometry is therefore load-bearing even when the action fixes the family.",
+    "weakest_reproducibility_seam": "All rational spectral, flux and covariance identities are exact, but transport from this proxy to the full K77 carrier needs the actual action coefficients and a typed invariant reduction."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k434_k77_action_flux_maximal_dissipative_projector.py",
+    "probe": "tests/channel-swings/k434_k77_action_flux_maximal_dissipative_projector_probe.py",
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 26
+  },
+  "claim_ceiling": "Exact rational action-flux spectral-projector theorem for one conditional rank-four proxy. The invertible positive time symbol and symmetric normal flux give an involutive reduced symbol, so Pi_in=(I-D_t^-1 D_n)/2 is an idempotent rank-two projector. Its flux is negative on nonzero incoming vectors, its range is maximal nonpositive of dimension two, orientation reversal exchanges the spectral halves, and simultaneous orthogonal transport conjugates the family. This proves the algebraic ownership pattern, not the full selected-K77 coefficients, a source-selected boundary, a Calderon projector, constraint/BV/BFV preservation, a global Green domain, a positive physical domain, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

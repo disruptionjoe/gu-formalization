@@ -7,6 +7,29 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K432--K434 H640 observed boundary composition (2026-09-24)
+
+K432 verifies an exact rational two-carrier rank-two fixture representing the
+inherited H640-to-observed isomorphism fact. Its observation/lift pair is
+mutually inverse and pairing-preserving for the transported observed Gram
+matrix. It intertwines the variable covariant differential, incoming boundary
+domains, parallel projectors and both full and projected Volterra Green
+operators. The full rank-640 and rank-1920 matrices are explicitly not
+serialized or claimed.
+
+K433 verifies the cross-carrier boundary theorem
+`B(t)=V(t) C U(t)^T`: endpoint-twisted domains are preserved exactly when
+`C S_E=S_F C`. The two matched fixtures have intertwiner-space dimensions
+four and two; the mismatched `I/-I` fixture has dimension zero, even though
+the bulk covariant map is invertible. K434 derives the incoming spectral
+projector from an exact positive time symbol and symmetric normal flux. Its
+rank is two of four, its nonzero incoming flux is negative, its range is
+maximal nonpositive, orientation reversal exchanges incoming/outgoing halves,
+and orthogonal transport conjugates the full family. The probes pass `37/37`,
+`29/29`, and `36/36` controls and reject `25/25`, `23/23`, and `26/26`
+hostile mutations. These are conditional composition and ownership theorems,
+not a full K77 domain, BV/BFV quotient or physical cohomology.
+
 ## K429--K431 variable covariant domain, holonomy and observation descent (2026-09-24)
 
 K429 verifies an exact rational orthogonal transport at five independent

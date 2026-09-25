@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 34224ada6d92
+revision_basis: d15f311bc379
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K432--K434 now compose and delimit the first typed cross-carrier boundary
+    continuation after K429--K431. K432 gives an exact rational rank-two
+    representative of the inherited H640-to-observed rank-640 isomorphism
+    fact. With a nonorthogonal observation frame and its transported Gram
+    matrix, the map intertwines K429's variable covariant differential, the
+    zero-trace incoming domains, K431's parallel projectors and the Volterra
+    Green operators. The full rank-640 maps inside the rank-1920 carrier are
+    not serialized, so this proves conditional composability rather than the
+    actual K77 H640/observed bridge.
+
+    K433 separates that local/bulk square from boundary descent. For parallel
+    maps `B(t)=V(t) C U(t)^T`, twisted domains are preserved exactly when
+    `C S_E=S_F C` for the two relative holonomies. Two exact matched examples
+    have intertwiner-space dimensions four and two, including unequal raw
+    endpoint twists. The supplied `I` versus `-I` mismatch has dimension zero,
+    so an invertible bulk map alone cannot cross arbitrary boundary domains.
+    K434 independently derives `Pi_in=(I-D_t^-1 D_n)/2` from a conditional
+    rank-four action-flux proxy. It is rank two, idempotent, negative on its
+    nonzero incoming range, maximal nonpositive, exchanged with the outgoing
+    half by normal reversal and covariantly transported. The action owns the
+    projector family conditional on its principal coefficients; boundary
+    geometry selects a member, and the full physical domain remains open.
+
     K429--K431 now instantiate the first variable functional differential after
     K426--K428 on a source-admitted but conditional rank-two reduction of the
     K77 covariant derivative. K429 uses the exact orthogonal transport
@@ -10332,6 +10355,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K432 as an exact conditional two-carrier composition witness: an
+  H640-like observation isomorphism can intertwine the variable differential,
+  incoming domain, parallel projector and Green square when the pairing is
+  transported consistently, but the actual rank-640 maps and rank-1920
+  control remain unserialized. Treat K433 as the exact boundary-holonomy gate:
+  local covariant intertwining descends across twisted domains iff the
+  trivialized map intertwines their relative holonomies; a mismatched pair can
+  force the boundary map to zero. Treat K434 as the exact action-flux ownership
+  boundary: the principal coefficient pair derives a maximal nonpositive
+  incoming projector family, while the oriented boundary geometry selects its
+  member and no physical global domain follows. Next serialize the actual
+  H640-to-observed map in the full K77 carrier, instantiate the full action time
+  and normal symbols on a specified boundary, and prove common
+  constraint/Green-domain and corrected-Clifford compatibility before building
+  the BV/Koszul--Tate quotient or interpreting cohomology. Do not promote the
+  compressed fixtures, relative-holonomy controls or rank-four flux proxy to
+  physical chirality, family count or a GU verdict.
+
   Treat K429 as the exact conditional variable-covariant-domain result: the
   source-admitted differential form can have a closed surjective realization
   and bounded Green inverse when an incoming boundary condition is supplied,
