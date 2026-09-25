@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K440-K77-CORRECTED-BOUNDARY-GREEN-DOMAIN",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Functional lift of K439's corrected split to the frozen constant-coefficient half-line normal operator D_A=d/dr+A. The positive-trace boundary condition is closed in H1 and the four exact spectral blocks yield a two-sided Green operator with L2 bound 24; moving lower-order and nonlinear BV/KT compatibility remain open.",
+  "gu_typed_objects": {
+    "result": "conditional corrected boundary Green domain",
+    "carrier": "K439 corrected rank-512 carrier E=E_plus direct-sum E_minus; LAYER=frozen-normal functional model; CHIRALITY=N/A",
+    "operator": "D_A=d/dr+A on L2(R_plus,E)",
+    "domain": "u in H1(R_plus,E) with Pi_c,out u(0)=0",
+    "green_operator": "forward Volterra kernel on positive blocks and backward decaying kernel on negative blocks",
+    "spectral_gap": "1/24",
+    "target": "closed conditional trace domain and bounded inverse MAP-TYPE=Green-operator"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "split_input": "lab/process/k439-k77-compatible-corrected-boundary-split.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Use the exact four K438/K439 spectral blocks to solve the frozen normal equation and price the slow-block Green cost before attempting a moving nonlinear domain.",
+    "retrieval_collision_result": "K429 supplied a rank-two variable Volterra model and K432 a compressed carrier bridge; neither used the actual K439 rank-512 split or its 1/24 slow block.",
+    "strongest_alternative": "A moving Calderon/BV construction would be stronger but lacks the lower-order K77 connection and nonlinear differential needed to state its invariance equation."
+  },
+  "functional_result": {
+    "spectral_blocks": [
+      {"eigenvalue": "1", "rank": 192, "projector": "fast_outgoing"},
+      {"eigenvalue": "1/24", "rank": 64, "projector": "slow_outgoing"},
+      {"eigenvalue": "-1", "rank": 192, "projector": "fast_incoming"},
+      {"eigenvalue": "-1/24", "rank": 64, "projector": "slow_incoming"}
+    ],
+    "domain_closed_in_h1": true,
+    "domain_dense_in_l2": true,
+    "kernel_dimension": 0,
+    "cokernel_dimension": 0,
+    "l2_green_bound": "24",
+    "l2_to_derivative_bound": "25",
+    "l2_to_h1_sum_bound": "49",
+    "orientation_reversal": "exchanges positive and negative trace halves"
+  },
+  "decision": {
+    "conditional_closed_green_domain_constructed": true,
+    "constraint_preservation_inherited_from_k439": true,
+    "moving_lower_order_domain_constructed": false,
+    "nonlinear_bv_kt_invariance_proved": false,
+    "physical_boundary_selected": false,
+    "physical_cohomology_constructed": false,
+    "next_exact_input": "Construct the lower-order moving K77 connection and nonlinear BV/Koszul-Tate differential on the corrected carrier, then test parallel transport of Pi_c,in/out and invariance of the closed trace domain."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling a frozen normal half-line model the global moving K77 domain or its cohomology physical.",
+    "strongest_contrary_construction": "The slow rank-128 block fixes the Green bound at 24, not 1; deleting it would reproduce K437's incomplete rank-192 intersection.",
+    "weakest_reproducibility_seam": "The analytic theorem uses the exact spectral-block contract rather than an expanded rational 512-dimensional semigroup."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k440_k77_corrected_boundary_green_domain.py",
+    "probe": "tests/channel-swings/k440_k77_corrected_boundary_green_domain_probe.py",
+    "controls_passed": 18,
+    "hostile_mutations_rejected": 18
+  },
+  "claim_ceiling": "Closed-domain and bounded-Green theorem for the conditional frozen-coefficient half-line model built from the actual corrected spectral split. It is not the moving nonlinear K77 operator, a global Calderon projector, a nonlinear BV/KT complex, physical cohomology, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

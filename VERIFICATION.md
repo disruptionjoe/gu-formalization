@@ -7,6 +7,36 @@ updated_at: "2026-09-24"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K438--K440 corrected constraint boundary law (2026-09-24)
+
+K438 verifies the actual constraint-compressed boundary endomorphism
+`A=P S_7 P` over GF(1009) and GF(1013). On the corrected rank-512 carrier it
+has characteristic polynomial `(x^2-1)^192 (x^2-1/576)^64`, minimal
+polynomial `(x^2-1)(x^2-1/576)` and exact identity
+`576 A^4-577 A^2+P=0`. The fast absolute-one block has rank 384 and the slow
+absolute-`1/24` block rank 128. Thus the compression is invertible but not an
+involution.
+
+K439 verifies the unique odd cubic sign functional calculus
+`J=(13823 A-13248 A^3)/575`. It squares to `P`, and
+`(P-J)/2`, `(P+J)/2` are disjoint complementary rank-256 projectors on the
+corrected carrier. Both have zero gamma-trace leakage, the compressed symbol
+preserves both ranges and normal reversal exchanges them. The corrected
+incoming half intersects K436's original incoming half in rank 192 and has a
+rank-64 component outside it.
+
+K440 verifies the exact four-block functional model with rates
+`1,1/24,-1,-1/24` and ranks `192,64,192,64`. Continuity of the `H1` trace
+makes the declared positive-trace-zero domain closed, compactly supported
+interior functions make it dense in `L2`, and the forward/backward exponential
+kernels give a two-sided inverse. The spectral gap gives `||G||<=24`,
+`||u'||<=25||f||` and the sum estimate
+`||u||+||u'||<=49||f||` in the adapted block norm. The probes
+pass `14/14`, `13/13` and `18/18` controls and reject the same numbers of
+hostile mutations. These are exact conditional principal/frozen-normal
+results, not a moving lower-order domain, nonlinear BV/KT complex, global
+Calderon projector, selected physical boundary or physical cohomology.
+
 ## K435--K437 full-carrier boundary compatibility (2026-09-24)
 
 K435 verifies the actual deterministic H640 construction on the conditional

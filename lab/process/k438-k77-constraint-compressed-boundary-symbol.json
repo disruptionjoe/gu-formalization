@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K438-K77-CONSTRAINT-COMPRESSED-BOUNDARY-SYMBOL",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact cross-characteristic compression of K436's transported action boundary symbol by K437's corrected Clifford projector on the actual rank-640 observed carrier. The compressed rank-512 endomorphism has nonzero characteristic roots ±1 and ±1/24 and a canonical fast/slow decomposition; it is not itself an involution.",
+  "gu_typed_objects": {
+    "result": "constraint-compressed characteristic boundary symbol",
+    "carrier": "actual conditional observed H640 carrier rank 640 with corrected Clifford subcarrier rank 512; LAYER=principal-symbol fixture; CHIRALITY=N/A",
+    "constraint": "corrected Clifford projector P with im(P)=ker Gamma_full",
+    "action_symbol": "K436 transported S_7=D_0^-1 D_7 on the declared outward conormal +dx7",
+    "compressed_symbol": "A=P S_7 P",
+    "grading": "fast |lambda|=1 block rank 384 and slow |lambda|=1/24 block rank 128",
+    "target": "canonical constrained characteristic calculus MAP-TYPE=compressed-endomorphism"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "boundary_input": "lab/process/k436-k77-full-action-boundary-projector.json",
+    "constraint_input": "lab/process/k437-k77-clifford-boundary-compatibility.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Compress the already action-owned boundary symbol to the corrected constraint carrier and inspect its exact polynomial before selecting any complement.",
+    "retrieval_collision_result": "K437 measured noncommutation but did not form or classify the constrained compression P S_7 P.",
+    "strongest_alternative": "A fitted graph correction could force compatibility but would add unowned parameters and was rejected."
+  },
+  "cross_characteristic_result": {
+    "primes": [1009, 1013],
+    "exact_identity": "576 A^4 - 577 A^2 + P = 0",
+    "characteristic_polynomial_on_im_P": "(x^2-1)^192 (x^2-1/576)^64",
+    "minimal_polynomial_on_im_P": "(x^2-1)(x^2-1/576)",
+    "rank_fingerprint": {
+      "observed_carrier": 640,
+      "corrected_carrier": 512,
+      "compressed_symbol": 512,
+      "fast_abs_one_block": 384,
+      "slow_abs_one_over_24_block": 128,
+      "uncompressed_involution_defect": 128,
+      "original_constraint_leak": 128
+    },
+    "gf1009_digests": {
+      "compressed_symbol": "sha256:a6e49f196af2cad583f37f6a4f656497285776b155930901c9dd449e577430f5",
+      "fast_projector": "sha256:971f616a52a0f0ad8d93e77868bbb97d8650b8affb659218feb609c4729ff41b",
+      "slow_projector": "sha256:7eca593ca8e208f744e1ce3f7bbbcd60e1d1ad55d3afa1df6ac491f0bfab0147"
+    },
+    "gf1013_digests": {
+      "compressed_symbol": "sha256:069d75c74e5d5ef47fd86afab7b6bbef2bb074dc232e730e3447440e3f6d0bbb",
+      "fast_projector": "sha256:9d5b373a3cdb96c0d584f50a2d84829dea57378ed8aebbb4f0fceacfcc4ce074",
+      "slow_projector": "sha256:bbf39e5239875dad881298638f19735847c80e682e18668dece0b93fb8fd8842"
+    }
+  },
+  "decision": {
+    "constraint_compressed_symbol_constructed": true,
+    "zero_characteristic_root_present": false,
+    "compressed_symbol_is_involution": false,
+    "action_and_constraint_determine_spectral_blocks": true,
+    "physical_boundary_selected": false,
+    "nonlinear_bv_kt_compatibility_proved": false,
+    "next_exact_input": "Apply the unique odd sign polynomial on the four nonzero characteristic roots and test whether its spectral projectors give a corrected constraint-compatible oriented split."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling A an involution or reading its finite characteristic roots as a physical boundary spectrum.",
+    "strongest_contrary_construction": "A^2-P has rank 128, exactly the slow characteristic block, so the unmodified half-projector formula fails on that block.",
+    "weakest_reproducibility_seam": "The rational polynomial fingerprint is certified through exact reductions at two good characteristics rather than an expanded rational 640-by-640 matrix."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k438_k77_constraint_compressed_boundary_symbol.py",
+    "probe": "tests/channel-swings/k438_k77_constraint_compressed_boundary_symbol_probe.py",
+    "controls_passed": 14,
+    "hostile_mutations_rejected": 14
+  },
+  "claim_ceiling": "Exact cross-characteristic principal-symbol classification of the action boundary symbol compressed to the corrected Clifford carrier. It selects no physical boundary and establishes no moving lower-order domain, nonlinear BV/KT complex, physical cohomology, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K439-K77-COMPATIBLE-CORRECTED-BOUNDARY-SPLIT",
+  "created": "2026-09-24",
+  "status": "working_draft_verified",
+  "direction": "native_to_observed",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact cross-characteristic odd functional calculus for K438's compressed symbol. The uniquely interpolated sign involution constructs complementary rank-256 incoming/outgoing projectors inside the corrected rank-512 carrier, with zero Clifford-constraint leakage and exact orientation reversal.",
+  "gu_typed_objects": {
+    "result": "canonical corrected characteristic split",
+    "carrier": "K438 corrected Clifford carrier rank 512 inside observed rank 640; LAYER=principal-symbol fixture; CHIRALITY=N/A",
+    "input": "constraint-compressed boundary symbol A with roots ±1, ±1/24",
+    "sign_involution": "J=(13823 A-13248 A^3)/575 with J^2=P",
+    "incoming_projector": "Pi_c,in=(P-J)/2, rank 256",
+    "outgoing_projector": "Pi_c,out=(P+J)/2, rank 256",
+    "target": "constraint-compatible oriented boundary splitting MAP-TYPE=spectral-projector"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-04", "SC-GEN-02", "SC-GEN-03", "SC-CHI-01", "SC-CHI-51", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-GR6b", "LT-SM8", "AC-F1", "RA-F1", "RA-D4"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "compressed_input": "lab/process/k438-k77-constraint-compressed-boundary-symbol.json"
+  },
+  "preflight_bookend": {
+    "route_comparison": "Use the unique odd cubic taking the four K438 roots to their signs; this supplies no adjustable graph or fitted complement.",
+    "retrieval_collision_result": "No prior artifact applied sign functional calculus to the actual corrected K77 carrier.",
+    "strongest_alternative": "Retaining only the old rank-192 intersection would discard the slow rank-64 incoming block and would not define a complementary split on the corrected carrier."
+  },
+  "cross_characteristic_result": {
+    "primes": [1009, 1013],
+    "rank_fingerprint": {
+      "corrected_carrier": 512,
+      "canonical_incoming": 256,
+      "canonical_outgoing": 256,
+      "old_new_incoming_intersection": 192,
+      "new_incoming_outside_old": 64,
+      "old_incoming_constraint_leak": 128,
+      "new_incoming_constraint_leak": 0
+    },
+    "gf1009_digests": {
+      "sign_involution": "sha256:9cb64b6b5f6a1e242bb74f3667150c80c7c70219fe4507bf6a1fc73325a6674d",
+      "canonical_incoming": "sha256:0d624cfff3c0bb6632e0a3da015f0570899253a267de78751820c3d1abddc452",
+      "canonical_outgoing": "sha256:c925edb98cbe5e7b774d5ac3426cba11e83ddc5b3db63a7c8a2cbef13215a561"
+    },
+    "gf1013_digests": {
+      "sign_involution": "sha256:efc85270badb23a2863bdedd210074a46411fbc1c942814a1c06881ca6528afd",
+      "canonical_incoming": "sha256:13bd7ecd32b3a72b7848dbb2285473c50cd5fb03807f77c9e7a227b22e15d16e",
+      "canonical_outgoing": "sha256:4347f8d37c33cc4fb25e67bf1b60de4efebad5b719689828da6ef168603a556d"
+    }
+  },
+  "decision": {
+    "canonical_constraint_compatible_split_constructed": true,
+    "modified_split_uses_fitted_parameter": false,
+    "mutual_constraint_preservation": true,
+    "orientation_reversal_complementarity": true,
+    "physical_boundary_selected": false,
+    "global_calderon_projector_constructed": false,
+    "next_exact_input": "Lift the corrected spectral split to a closed trace domain and Green model, then test the still-missing moving lower-order and nonlinear BV/KT invariance laws."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Calling the corrected algebraic projector a global Calderon projector or a source-selected physical boundary condition.",
+    "strongest_contrary_construction": "The new incoming space shares only rank 192 with K436's old incoming space and adds rank 64 outside it; the correction changes the boundary law rather than proving the old intersection sufficient.",
+    "weakest_reproducibility_seam": "The unique interpolation statement depends on all four nonzero K438 roots and fails if the slow block degenerates or crosses zero."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k439_k77_compatible_corrected_boundary_split.py",
+    "probe": "tests/channel-swings/k439_k77_compatible_corrected_boundary_split_probe.py",
+    "controls_passed": 13,
+    "hostile_mutations_rejected": 13
+  },
+  "claim_ceiling": "Exact cross-characteristic principal-symbol construction of a canonical constraint-compatible oriented split on the corrected carrier. It is not a global Calderon projector, does not select a physical boundary and establishes no moving nonlinear BV/KT complex, physical cohomology, chirality, family count, observable, source/ledger move, canon, paper, public posture, novelty or GU verdict."
+}

@@ -20,6 +20,26 @@ updated_at: "2026-09-24"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-24 K438--K440 CORRECTED CONSTRAINT BOUNDARY LAW.** K438 compresses
+> K436's actual transported reduced symbol by K437's corrected Clifford
+> projector. On the rank-512 corrected carrier, `A=P S_7 P` obeys
+> `576 A^4-577 A^2+P=0` and has roots `±1` with total rank 384 and `±1/24`
+> with total rank 128. K439 applies the unique odd cubic sign interpolation
+> `J=(13823 A-13248 A^3)/575`, obtaining complementary rank-256 corrected
+> incoming/outgoing projectors with zero constraint leakage and exact normal
+> reversal. The new incoming half shares rank 192 with K436's old half and
+> adds the necessary rank-64 slow component; no fitted repair is used. K440
+> lifts the split to a closed `H1` trace domain for the frozen half-line normal
+> model and a two-sided Green inverse with `L2` bound 24, derivative bound 25
+> and `H1` sum bound 49. The probes pass `14/14`, `13/13` and `18/18`
+> controls and reject `14/14`, `13/13` and `18/18` hostile mutations. Next
+> construct the moving lower-order
+> K77 connection and nonlinear BV/Koszul--Tate differential on the corrected
+> carrier, then test parallel transport and domain invariance. Do not promote
+> the conditional normal model to a global Calderon projector, physical
+> boundary, cohomology, chirality, family count, source/ledger/canon/public
+> movement or a GU verdict.
+
 > **2026-09-24 K435--K437 FULL-CARRIER BOUNDARY COMPATIBILITY.** K435
 > serializes and replays the actual deterministic H640 basis, rank-640
 > observation map/inverse and rank-1920 ambient lift/projector over GF(1009)

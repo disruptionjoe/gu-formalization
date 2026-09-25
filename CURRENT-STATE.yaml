@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 136fbdec0ed3
+revision_basis: f2250375a76d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,35 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K438--K440 now supply the action-and-constraint-owned repair that K437
+    left open, without fitting a complement. K438 compresses the actual
+    transported reduced boundary symbol by the corrected Clifford projector,
+    `A=P S_7 P`. On the rank-512 corrected carrier it is invertible but not
+    involutive: its exact cross-characteristic polynomial is
+    `(x^2-1)^192 (x^2-1/576)^64`, with a rank-384 fast block and rank-128 slow
+    block. The identity `576 A^4-577 A^2+P=0` fixes both blocks and isolates
+    the old rank-128 constraint leak.
+
+    K439 applies the unique odd cubic sign interpolation
+    `J=(13823 A-13248 A^3)/575`. It satisfies `J^2=P` and yields complementary
+    rank-256 corrected incoming/outgoing projectors. Both have zero Clifford
+    constraint leakage, are preserved by the compressed symbol and exchange
+    under normal reversal. The new incoming half meets K436's old incoming
+    half in rank 192 and contains a necessary rank-64 slow correction outside
+    it; no fitted parameter is introduced.
+
+    K440 lifts that exact split to the frozen constant-coefficient half-line
+    normal model. The trace condition `Pi_c,out u(0)=0` is closed in `H1` and
+    dense in `L2`; forward/backward spectral kernels give a two-sided Green
+    inverse. The slow `1/24` block fixes the `L2` bound at 24, the derivative
+    bound at 25 and an `H1` sum bound at 49. This is a conditional closed
+    normal domain, not the
+    moving lower-order K77 operator, nonlinear BV/Koszul--Tate invariance,
+    global Calderon projector or physical cohomology. The next exact input is
+    the lower-order moving connection and nonlinear BV/KT differential on the
+    corrected carrier, followed by parallel-projector and trace-domain
+    invariance tests.
+
     K435--K437 now replace the compressed bridge and rank-four boundary proxy
     with the actual conditional selected-K77 principal carriers. K435 gives a
     deterministic factorized serialization of the rank-640 H640 basis, the
@@ -10383,6 +10412,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K438 as the exact constraint-compressed characteristic result on the
+  actual observed carrier: `A=P S_7 P` has fast roots `±1`, slow roots
+  `±1/24`, no zero root and a rank-128 involution defect. Treat K439 as the
+  canonical non-fitted repair: the unique odd cubic sign map gives
+  complementary rank-256 corrected incoming/outgoing projectors, with zero
+  Clifford leakage and exact normal reversal. Treat K440 as the corresponding
+  conditional functional boundary result: the frozen half-line trace domain
+  is closed and has a two-sided Green inverse with bound 24, controlled by the
+  slow block. Next construct the lower-order moving K77 connection and the
+  nonlinear BV/Koszul--Tate differential on this corrected carrier, then test
+  parallel transport of the projectors, preservation of the closed trace
+  domain and proper cohomological descent. Do not call the frozen normal model
+  a global Calderon domain or promote it to physical cohomology, chirality,
+  family count or a GU verdict.
+
   Treat K435 as the exact conditional full-carrier bridge: the deterministic
   H640 basis, rank-640 observation map and inverse, rank-1920 ambient lift and
   graph projector are now serialized and replayed cross-characteristically.
