@@ -20,6 +20,22 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K459--K461 K152 COORDINATE COVARIANCE AND SPECTRAL
+> CERTIFICATE BOUNDARY.** K459 composes K166's scalar-extension covariance
+> with the nonlinear K152 lower enclosure. Translating `rho` and `b` by `E`
+> and the coercive shift by `-E` preserves `rho+s`, the exterior gap, residual
+> energy and K152 correction, so the interval translates exactly. A selected
+> center is needed for absolute physical placement, not for a relative
+> coordinate-family enclosure. K460 proves that K169's `E_ref(q)+5/2` HVZ
+> member is not a complement floor: exact controls with the same trial and
+> essential edge have one, two or three spectral dimensions below that edge.
+> K461 now requires center-zero shifted coercivity and one complete K162
+> rank-one-below-`b` certificate, obtained by M-orthogonal-complement
+> positivity, native flux or independent spectral count. Only then evaluate
+> K457's 59586 entries to the demanded accuracy. The probes pass `17/17`,
+> `18/18` and `23/23` controls and reject equal hostile counts. No native
+> interval or physical/source move is licensed.
+
 > **2026-09-25 K456--K458 K152 CONTINUUM COLUMN, RESIDUAL REDUCTION AND
 > SPECTRAL INDEPENDENCE.** K456 serializes the complete K156/K171 action
 > column on K162 as the K175 scalar term, the matched diagonal convergent

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c38c20448575
+revision_basis: c7e14ba97442
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,34 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K459--K461 correct and compress the post-K458 spectral boundary. K459
+    composes K166's scalar-extension covariance with the complete nonlinear
+    K152 lower-enclosure formula. Under
+    `rho_E=rho_0+E`, `b_E=b_0+E` and `s_E=s_0-E`, the positive shifted value
+    `a=rho+s`, exterior gap, form-dual residual energy, K152 correction and
+    projection error are invariant, while the complete interval translates by
+    `E`. A selected scalar center is therefore required for absolute physical
+    placement, not for a conditional relative coordinate-family enclosure.
+    Center-zero shifted coercivity or a center-zero left floor remains open.
+
+    K460 proves that K169's `E_ref(q)+5/2` neutral-cluster value is only a
+    member of the HVZ threshold set and an upper cap on a possible complement
+    margin. Exact direct-sum controls share the same trial data and essential
+    edge while carrying zero, one or two hidden discrete complement modes;
+    their ranks below the named edge are one, two and three. Threshold
+    membership is therefore neither first-threshold identification nor a
+    complete K162 M-orthogonal-complement floor.
+
+    K461 releases K456's action column and K457's residual into one fail-closed
+    spectral interface. Relative K152 readiness now requires center-zero
+    shifted coercivity plus one complete K162 proof of rank one below a named
+    `b`, supplied by M-orthogonal-complement positivity, a native equal-rank
+    flux certificate or an independent spectral-count theorem. Absolute
+    physical placement additionally requires selection of the scalar center.
+    Neither missing native input is supplied, the 59586-entry Gram payload is
+    not evaluated, and no native K152 interval or source, ledger, canon, paper,
+    public or physical claim moves.
+
     K456--K458 complete the representation-level K156/K171 action-column and
     shifted-residual fields demanded by K455 while proving that they do not
     determine the three remaining spectral fields. K456 combines K175's
@@ -10567,6 +10595,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K459 as the exact scalar-coordinate covariance theorem for the K152
+  form-dual enclosure. A selected extension center is not a prerequisite for a
+  relative interval family: translate `rho` and `b` by `E`, translate the
+  coercive shift by `-E`, and preserve the residual, gap and K152 correction.
+  Keep absolute physical placement closed until the center is selected. Treat
+  K460 as the exact HVZ/complement boundary: K169's
+  `E_ref(q)+5/2` belongs to the threshold set and caps a possible margin, but
+  it neither identifies the first threshold nor excludes hidden discrete
+  complement modes. Treat K461 as the current readiness interface. Next prove
+  center-zero shifted coercivity and one complete K162 rank-one-below-`b`
+  certificate by M-orthogonal-complement positivity, native equal-rank flux or
+  independent spectral count. Then evaluate K457's 59586-entry Gram payload
+  only to the accuracy that certified packet demands. Do not promote the
+  abstract controls, HVZ member or coordinate family to native K162 values,
+  absolute physical placement, source/GU physics, Born rule, prediction or
+  confirmation.
+
   Treat K453 as the exact finite consumer audit for both K447/K451 independent
   rebuilds. Their physical Grams differ as well as their regular forms, and
   their finite Rayleigh, residual, spectrum, coercivity and dual-Temple values

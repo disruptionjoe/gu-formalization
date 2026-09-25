@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K460-K152-HVZ-MEMBERSHIP-COMPLEMENT-BOUNDARY",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact nonimplication boundary between K169's named neutral-cluster HVZ threshold member and the complete K162 M-orthogonal-complement floor required by K152.",
+  "gu_typed_objects": {
+    "result": "HVZ-membership/complement-floor separation MAP-TYPE=nonimplication-certificate",
+    "controls": "self-adjoint direct sums with one trial line, optional hidden discrete complement modes and a common essential half-line",
+    "target": "K169 E_ref(q)+5/2 threshold member versus K152 rank-one-below-b premise"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-SM8", "LT-GR6b", "RA-F1", "AC-F1"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "inputs": ["K143", "K152", "K156", "K169", "K458"]
+  },
+  "preflight_bookend": {
+    "route_comparison": "Test the cheapest possible use of K169's E_ref(q)+5/2 threshold membership before attempting an operator-valued complement or flux solve.",
+    "retrieval_collision_result": "K169 proves membership and an upper cap on any margin, not first-threshold minimality, exclusion of discrete complement modes or rank one below a chosen b.",
+    "strongest_alternative": "Treating a member of the HVZ threshold set as a lower bound on the whole complement would reverse the logical direction of K169."
+  },
+  "K169_replay": {
+    "reference_ground_symbol": "E_ref(q)",
+    "neutral_cluster_cost": "5/2",
+    "named_threshold_member": "E_ref(q)+5/2",
+    "membership_proves_first_threshold": false,
+    "membership_proves_complete_complement_floor": false
+  },
+  "exact_controls": [
+    {"name": "clean_complement", "trial_Rayleigh": "-2", "trial_residual_square": "0", "essential_spectrum": "[1/2,infinity)", "named_HVZ_threshold_member": "1/2", "hidden_discrete_complement_modes": [], "complete_complement_floor": "1/2", "spectral_count_strictly_below_named_threshold": 1},
+    {"name": "hidden_discrete_complement_mode", "trial_Rayleigh": "-2", "trial_residual_square": "0", "essential_spectrum": "[1/2,infinity)", "named_HVZ_threshold_member": "1/2", "hidden_discrete_complement_modes": ["-1"], "complete_complement_floor": "-1", "spectral_count_strictly_below_named_threshold": 2},
+    {"name": "two_hidden_complement_modes", "trial_Rayleigh": "-2", "trial_residual_square": "0", "essential_spectrum": "[1/2,infinity)", "named_HVZ_threshold_member": "1/2", "hidden_discrete_complement_modes": ["-3/2", "-1"], "complete_complement_floor": "-3/2", "spectral_count_strictly_below_named_threshold": 3}
+  ],
+  "independence": {
+    "same_trial_data": true,
+    "same_named_HVZ_threshold": true,
+    "same_essential_edge": true,
+    "different_complete_complement_floors": true,
+    "different_counts_below_threshold": true
+  },
+  "native_boundary": {
+    "abstract_controls_are_K162_values": false,
+    "K169_membership_may_be_used_as_K162_complement_floor": false,
+    "valid_native_routes": [
+      "complete M-orthogonal-complement positivity at b",
+      "equivalent native flux certificate proving rank 1 below b",
+      "independent native spectral-count certificate rank 1 below b"
+    ]
+  },
+  "decision": {
+    "K169_threshold_cap_retained": true,
+    "K169_threshold_member_released_as_lower_floor": false,
+    "hidden_discrete_complement_modes_must_be_excluded_or_counted": true,
+    "next_exact_input": "Prove rank one below a named b on the complete K162 charge sector by direct M-orthogonal-complement positivity, an equal-rank native flux solve, or an independent spectral-count theorem."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Using E_ref(q)+5/2 as the complement floor merely because it occurs in the HVZ threshold set.",
+    "strongest_contrary_construction": "The same trial, residual and essential edge coexist with zero, one or two hidden discrete complement modes below that edge.",
+    "weakest_reproducibility_seam": "The direct-sum controls are logical witnesses, not K162 values; the probe enforces the distinction."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k460_k152_hvz_membership_complement_boundary.py",
+    "probe": "tests/channel-swings/k460_k152_hvz_membership_complement_boundary_probe.py",
+    "controls_passed": 18,
+    "hostile_mutations_rejected": 18
+  },
+  "claim_ceiling": "Exact logical boundary only: K169's threshold membership and margin cap remain valid, while a complete complement lower bound or rank-one count remains independent. No K162 spectral value, native K152 interval, source, ledger, canon, paper, public, Born, prediction, confirmation or physical GU conclusion follows."
+}

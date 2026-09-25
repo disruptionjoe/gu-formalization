@@ -7,6 +7,38 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K459--K461 extension covariance and spectral certificate boundary (2026-09-25)
+
+K459 composes K166's exact scalar-extension covariance with K152's complete
+shifted form-dual lower enclosure. Under `rho_E=rho_0+E`, `b_E=b_0+E` and
+`s_E=s_0-E`, the positive shifted value `rho+s`, exterior gap, residual
+energy and nonlinear correction are invariant; the interval translates by
+`E`. The exact control sends `[-3,-2]` to `[4,5]` at `E=7` while preserving
+correction one. A selected scalar center is therefore required only for
+absolute physical placement. Center-zero coercivity and the spectral count
+remain open. Its probe passes `17/17` controls and rejects `17/17` hostile
+mutations.
+
+K460 retains K169's exact neutral-cluster cost `5/2` but separates threshold
+membership from a complement lower bound. Three self-adjoint direct-sum
+controls share trial Rayleigh `-2`, zero trial residual and essential spectrum
+`[1/2,infinity)`, yet have complement floors `1/2`, `-1` and `-3/2` and ranks
+one, two and three strictly below the edge. Thus a named HVZ member—even the
+first essential edge in these controls—does not exclude hidden discrete
+complement modes. The controls are logical witnesses, not K162 values. Its
+probe passes `18/18` controls and rejects `18/18` hostile mutations.
+
+K461 compiles the surviving native interface. K456's action column and K457's
+exact residual reduction are released. Relative-family K152 readiness needs
+center-zero shifted coercivity plus one complete proof that the K162 spectral
+projection below a named `b` has rank one. Accepted routes are complete
+M-orthogonal-complement positivity, a native flux certificate producing that
+count, or an independent native spectral-count theorem. Absolute placement
+additionally needs the scalar center. Its abstract positive control passes the
+interface but emits no native interval. Its probe passes `23/23` controls and
+rejects `23/23` hostile mutations. No source, ledger, physical, Born,
+prediction, canon, paper or public conclusion follows.
+
 ## K456--K458 continuum column, residual reduction and spectral independence (2026-09-25)
 
 K456 assembles the complete K156/K171 continuum action column on the fixed
