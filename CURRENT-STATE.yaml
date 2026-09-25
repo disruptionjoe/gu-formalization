@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d3658a95959f
+revision_basis: 8d5859340941
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K501--K503 convert K500's remaining cross into the exact normalized object
+    that must be bounded. For a bath-level cyclic vector `v_n`, the squared
+    leakage is
+    `||W_n v_n||^2/||v_n||^2-|<v_n,W_n v_n>|^2/||v_n||^4`; for a diagonal
+    multiplier it is its weighted variance on the support of `v_n`, and scalar
+    shifts do not contribute. K502 composes this identity with the actual
+    K170/K172 bath-number-one blocks. It gives rigorous leakage upper bounds
+    `6250000000000/3526043816479` for q00 and
+    `12500000000000/3526043816479` for q10. These are native first-level
+    values, not a uniform all-level bound.
+
+    K503 then tests the held K175/K496 absolute orbit tails against K500's
+    normalization requirement. A strict-contraction two-dimensional level
+    control has word norms `(3/8)^n/(n+1)` and absolute residuals `(3/8)^n`
+    while normalized leakage is `n+1`. Therefore an absolute action tail plus
+    only an upper word-norm bound cannot certify K500's supremum. The held
+    tails remain valid; the next exact input is a native lower word-norm
+    envelope relative to the residual or a directly normalized uniform
+    variance estimate. The noncyclic compressed-form floor and K498 infinite
+    cyclic floor also remain open. No K473 floor, K152 interval, source,
+    ledger, canon, paper, public-posture or physical conclusion moves.
+
     K498--K500 convert the K491/K492 cyclic algebra into an exact
     semiseparable same-form matrix, add an exact-rational no-pivot LDL
     compiler for finite cyclic prefixes, and reduce the complete
@@ -10457,6 +10479,15 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K501--K503 show that K500 needs a uniform normalized bath-level variance,
+  not merely an absolute action-orbit tail. Extend K502 beyond bath level one
+  by deriving native lower bounds for every nonzero `||G^n phi||` relative to
+  the K175/K496 residual bounds, or evaluate
+  `||(1-P_n)W_n v_n||^2/||v_n||^2` directly with a uniform tail. Keep the q00
+  and q10 multiplicities separate. A finite set of levels, an upper word-norm
+  bound or the abstract K503 control does not establish the full K500 cross.
+  Independently obtain a floor on the noncyclic compression before K494/K473.
+
   K498--K500 reduce the remaining K162 complement problem to two native
   packets. Instantiate K498's exact semiseparable cyclic form with rigorous
   `alpha`, `f` and tail data, use K499 on controlled prefixes, and close the
@@ -10833,13 +10864,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Evaluate only the signed K179/K456 normal cross through orders 2--12 on the
-  K489 q00/q10 corrected lines. Add K491's scalar base cross, K490's signed
-  shape cross and K172's first block, then enlarge by K493's rigorous
-  post-order-12 remainder and require strict zero exclusion. Separately,
-  evaluate the fixed combined form on K492's exhaustive cyclic contrasts and
-  construct or bound the noncyclic `C^perp_M` block identified by K494. Only
-  the resulting full same-form cyclic/noncyclic packet may feed K473/K477.
+  Continue K500 from K501--K503's normalization boundary. Derive an explicit
+  native lower envelope for the nonzero word norms `||G^n phi||` relative to
+  the absolute normal-action residual, or prove the K501 variance bound
+  directly and uniformly in bath level. Reuse K502's q00/q10 level-one bounds
+  as anchors, not as the supremum. Then combine that all-level cross bound
+  only with a separately certified floor on the noncyclic compression.
+  Existing K175/K496 absolute tails remain valid but cannot be divided by an
+  upper word-norm estimate. K503 is a logical control, not a native
+  counterexample.
+
+  Separately instantiate K498's exact cyclic contrast form with authenticated
+  native `alpha`, `f` and `F` intervals on expanding prefixes and close the
+  infinite tail before treating K499's rational pivots as a cyclic floor.
+  Only the resulting cyclic floor, noncyclic floor and uniform normalized
+  cross may feed K494/K473/K477.
 
   Continue the actual native K162 calculation from K489/K490. Evaluate the
   cancellation-safe base `R0` form on `phi` and

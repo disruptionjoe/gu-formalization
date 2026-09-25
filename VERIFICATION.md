@@ -7,6 +7,31 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K501--K503 native leakage normalization (2026-09-25)
+
+K501 proves the exact rank-one identity
+`||P_v W(1-P_v)||^2=||Wv||^2/||v||^2-|<v,Wv>|^2/||v||^4` for self-adjoint
+`W`. Scalar shifts leave the leakage unchanged; for a diagonal multiplier the
+right side is its weighted variance on the support of `v`. Its probe passes
+`11/11` controls and rejects `6/6` hostile mutations.
+
+K502 composes that identity with K170's outward point-profile norm and K172's
+actual bath-number-one actions. Using `||D_256 h||<=1/16`, it certifies
+leakage upper `6250000000000/3526043816479` in q00 and
+`12500000000000/3526043816479` in q10. Its probe passes `15/15` controls and
+rejects `7/7` hostile mutations. These are native first-level bounds, not the
+supremum over all bath levels.
+
+K503 gives a strict-contraction control with
+`||v_n||=(3/8)^n/(n+1)` and absolute residual `(3/8)^n`, but normalized
+leakage `n+1`. Thus K175/K496's absolute orbit tails cannot supply K500's
+uniform cross when only upper word-norm estimates are available. Their native
+tail results are not retracted, and the control is not a native K162
+counterexample. A native relative word-norm lower bound or directly normalized
+uniform variance estimate remains required, as does the noncyclic floor. Its
+probe passes `12/12` controls and rejects `7/7` hostile mutations. No K473
+floor, K152 interval or source/ledger/canon/public/physical conclusion follows.
+
 ## K498--K500 cyclic floor and noncyclic leakage reduction (2026-09-25)
 
 K498 composes K491's tail-kernel form with K492's exhaustive contrasts. In

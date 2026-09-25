@@ -1,0 +1,55 @@
+{
+  "claim_ceiling": "Exact rank-one leakage identity only. It supplies no native uniform all-level bound, noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K500_leakage_reduced_to_one_vector_variance_per_level": true,
+    "full_level_matrix_required": false,
+    "native_all_level_variances_evaluated": false,
+    "next_exact_input": "Bound the normalized orthogonal residual of W_n v_n uniformly in n, or supply word-norm lower bounds that convert existing absolute action-column estimates into normalized leakage bounds."
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "constant_multiplier_variance": "0",
+    "diagonal_multiplier": [
+      "2",
+      "-1",
+      "4"
+    ],
+    "leakage_square_direct": "36/25",
+    "scalar_shift": "7",
+    "shifted_leakage_square": "36/25",
+    "support_weights": [
+      "1",
+      "4"
+    ],
+    "vector": [
+      "1",
+      "2",
+      "0"
+    ],
+    "weighted_mean": "-2/5",
+    "weighted_variance": "36/25"
+  },
+  "gu_typed_objects": {
+    "carrier": "one K162 bath-number level in the regular-coordinate Hilbert image",
+    "form": "the self-adjoint bath-level normal action W_n",
+    "pairing": "regular Hilbert pairing transported from physical M=S* S",
+    "result": "rank-one normal-action leakage MAP-TYPE=orthogonal-block-norm",
+    "target": "the levelwise K500 cyclic/noncyclic cross norm"
+  },
+  "result_id": "K501-K500-RANK-ONE-LEAKAGE-VARIANCE",
+  "schema_version": "1.0",
+  "scope": "One bath-number block in K500's regular-coordinate cyclic/noncyclic split, with a one-dimensional cyclic line and self-adjoint normal action.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "leakage_square": "||P_v W(1-P_v)||^2=||(1-P_v)Wv||^2/||v||^2=||Wv||^2/||v||^2-|<v,Wv>|^2/||v||^4",
+    "multiplier_specialization": "for v components with weights a_i and diagonal multipliers m_i, leakage squared is the weighted variance of m_i",
+    "projection": "P_v=|v><v|/||v||^2 for nonzero v",
+    "scalar_shift_invariance": "replacing W by W+cI leaves the leakage unchanged",
+    "self_adjoint_orientation": "||P_v W(1-P_v)||=||(1-P_v)W P_v||",
+    "zero_test": "leakage vanishes exactly when Wv lies in span(v); for a multiplier this means constant multiplier on the support of v"
+  }
+}

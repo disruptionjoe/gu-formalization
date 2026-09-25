@@ -1,0 +1,64 @@
+{
+  "claim_ceiling": "Rigorous native upper bounds on the bath-number-one leakage only. They do not control the supremum over all levels, the noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public or physical conclusions.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K473_released": false,
+    "actual_native_level_evaluated": true,
+    "complete_K500_uniform_leakage_emitted": false,
+    "next_exact_input": "Produce a uniform normalized all-level variance bound, or native lower word norms sufficient to divide the held absolute action-orbit tails; separately bound the noncyclic compressed-form floor.",
+    "noncyclic_floor_emitted": false,
+    "q00_and_q10_first_level_leakage_finite": true
+  },
+  "direction": "observed_to_native",
+  "native_sector_bounds": [
+    {
+      "D_h_norm_upper": "1/16",
+      "D_multiplicity": 1,
+      "bath_level": 1,
+      "charge": [
+        0,
+        0
+      ],
+      "components": 2,
+      "cyclic_level_vector": "v_1=G_256 phi",
+      "derivation": "K501 scalar-shift invariance and orthogonal-residual contraction give leakage <=m*||D_256 h||/||h||; identical orthogonal components cancel from the ratio",
+      "normal_leakage_norm_upper": "6250000000000/3526043816479",
+      "normal_multiplier": "256-1*D_256(omega(p))",
+      "profile_norm_lower": "3526043816479/100000000000000",
+      "scalar_256_contributes_to_leakage": false,
+      "seed": "vacuum",
+      "uniform_all_level_bound": false
+    },
+    {
+      "D_h_norm_upper": "1/16",
+      "D_multiplicity": 2,
+      "bath_level": 1,
+      "charge": [
+        1,
+        0
+      ],
+      "components": 1,
+      "cyclic_level_vector": "v_1=G_256 phi",
+      "derivation": "K501 scalar-shift invariance and orthogonal-residual contraction give leakage <=m*||D_256 h||/||h||; identical orthogonal components cancel from the ratio",
+      "normal_leakage_norm_upper": "12500000000000/3526043816479",
+      "normal_multiplier": "256-2*D_256(omega(p))",
+      "profile_norm_lower": "3526043816479/100000000000000",
+      "scalar_256_contributes_to_leakage": false,
+      "seed": "one_impurity",
+      "uniform_all_level_bound": false
+    }
+  ],
+  "premises": {
+    "correction_norm": "K172 rigorous ||D_256 h||<=1/16",
+    "normal_action": "K172 exact W_1 g_1=(256-m D_256)h block",
+    "rank_one_identity": "K501-K500-RANK-ONE-LEAKAGE-VARIANCE",
+    "word_norm": "K170 exact outward continuum point-profile interval"
+  },
+  "result_id": "K502-K172-NATIVE-FIRST-LEVEL-LEAKAGE-BOUND",
+  "schema_version": "1.0",
+  "scope": "The actual bath-number-one blocks generated from the K162 q00 vacuum and q10 one-impurity zero-bath seeds in the fixed K139 chart.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

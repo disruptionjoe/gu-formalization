@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K501--K503 native leakage normalization
+
+- `channel-swings/k501_k500_rank_one_leakage_variance.py` and its probe prove
+  the exact rank-one leakage/weighted-variance identity used by K500.
+- `channel-swings/k502_k172_native_first_level_leakage_bound.py` and its probe
+  combine K170/K172 into native q00/q10 bath-level-one leakage bounds while
+  withholding any uniform all-level conclusion.
+- `channel-swings/k503_k500_normalized_tail_insufficiency.py` and its probe
+  reject substitution of absolute orbit tails plus upper word-norm estimates
+  for the normalized uniform leakage K500 actually requires.
+
 ## K498--K500 cyclic floor and noncyclic leakage reduction
 
 - `channel-swings/k498_k162_cyclic_semiseparable_form_reduction.py` and its

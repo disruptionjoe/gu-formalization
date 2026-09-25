@@ -20,6 +20,22 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K501--K503 NATIVE LEAKAGE NORMALIZATION.** K501 proves that
+> K500's bath-level cross is the normalized orthogonal residual of `W_n v_n`;
+> for a multiplier it is exactly a weighted variance and is invariant under
+> scalar shifts. K502 applies the actual K170/K172 first-bath-level blocks and
+> certifies q00/q10 leakage uppers
+> `6250000000000/3526043816479` and
+> `12500000000000/3526043816479`. K503 proves by a strict-contraction control
+> that geometric absolute residual tails plus only upper word-norm bounds do
+> not imply a uniform normalized leakage: absolute residuals can decay as
+> `(3/8)^n` while the unit-vector leakage grows as `n+1`. The probes pass
+> `11/11`, `15/15` and `12/12` controls and reject `6/6`, `7/7` and `7/7`
+> hostile mutations. Next derive native lower word norms relative to the held
+> residual tails or directly bound the normalized K501 variance uniformly,
+> then separately prove the noncyclic floor. No K473 floor, K152 interval or
+> source/ledger/canon/public/physical claim moves.
+
 > **2026-09-25 K498--K500 CYCLIC FLOOR AND NONCYCLIC LEAKAGE REDUCTION.**
 > K498 composes K491's tail kernels with K492's exhaustive contrasts and gives
 > every entry of the cyclic same-form matrix as a rank-one semiseparable tail
