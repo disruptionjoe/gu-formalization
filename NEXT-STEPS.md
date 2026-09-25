@@ -20,6 +20,22 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K456--K458 K152 CONTINUUM COLUMN, RESIDUAL REDUCTION AND
+> SPECTRAL INDEPENDENCE.** K456 serializes the complete K156/K171 action
+> column on K162 as the K175 scalar term, the matched diagonal convergent
+> series, all 2958 K179 exchange coefficients through order 12 and K176's
+> exact later-order tail `<1/250`. K457 reduces the complete shifted residual
+> to 59586 coherent finite Gram entries plus that tail; 59234 high-order
+> entries already exist in K279, while 352 lower-order entries remain in the
+> typed payload. Neither result claims numerical evaluation. K458 proves that
+> identical trial columns and residuals can coexist with different complement
+> floors, next spectra, coercivity and global left floors. Next prove one
+> complete K162 M-orthogonal-complement or action-flux floor and a
+> selected-center native left floor; evaluate only the Gram accuracy those
+> bounds demand. The probes pass `16/16`, `20/20` and `21/21` controls and
+> reject equal hostile counts. No native interval or physical/source move is
+> licensed.
+
 > **2026-09-25 K453--K455 K152 FINITE CONSUMER AND NATIVE RESIDUAL
 > BOUNDARY.** K453 evaluates the complete finite K152 consumer on both
 > K447/K451 independent rebuilds in q00/q10/q01. Their physical Grams do not

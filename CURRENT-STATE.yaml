@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 25337741e16e
+revision_basis: c38c20448575
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,31 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K456--K458 complete the representation-level K156/K171 action-column and
+    shifted-residual fields demanded by K455 while proving that they do not
+    determine the three remaining spectral fields. K456 combines K175's
+    scalar component, the K172/K175 matched diagonal series and all 2958
+    coefficient-complete K179 exchange terms through order 12. K176 supplies
+    the rigorous post-order-12 norm tail
+    `3011499/838860800 < 1/250`. This is a complete convergent representation
+    of the action column, not a numerical evaluation of its finite vector
+    integrals.
+
+    K457 reduces the complete shifted form-dual residual to 2958 finite
+    vectors in 201 coherent groups, requiring 59586 self/cross Gram entries,
+    plus the same post-order-12 tail. K279 already supplies 59234 entries for
+    orders 7--12; 352 lower-order entries remain in the typed finite payload.
+    The residual is therefore serialized exactly but not numerically
+    evaluated.
+
+    K458 gives three exact self-adjoint controls with the same trial Gram,
+    action column, Rayleigh value and zero residual but different complement
+    floors, next-distinct spectra, shifted coercivity and native left floors.
+    Hence those fields require an independent complete K162 M-orthogonal
+    complement or action-flux floor plus a selected-center native left floor.
+    No native K152 interval or source, ledger, canon, paper, public or
+    physical claim moves.
+
     K453--K455 execute the complete finite K152 consumer before opening the
     continuum residual packet. K453 evaluates the generalized Rayleigh
     quotient, shifted form-dual residual, first and next-distinct generalized

@@ -7,6 +7,37 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K456--K458 continuum column, residual reduction and spectral independence (2026-09-25)
+
+K456 assembles the complete K156/K171 continuum action column on the fixed
+K162 carrier as a convergent representation. It combines the K175 scalar
+term, the K172/K175 matched diagonal series, all 2958 exact K179 exchange
+coefficients through order 12 and K176's rigorous post-order-12 norm tail
+`3011499/838860800 < 1/250`. The representation is coefficient- and
+all-order-complete, but its finite vector integrals are not numerically
+evaluated. Its probe passes `16/16` controls and rejects `16/16` hostile
+mutations.
+
+K457 derives `r=r_12+t_>12` and reduces `||r_12||^2` to the complete coherent
+finite Gram sum. The payload contains 2958 vectors in 201 coherent groups and
+59586 self/cross entries: 59234 entries for orders 7--12 are already typed by
+K279 and 352 belong to orders 2--6. The tail gives the exact enclosure
+`max(0,sqrt(Q_12)-epsilon)^2 <= ||r||^2 <=
+(sqrt(Q_12)+epsilon)^2`. This serializes the residual without numerically
+evaluating the Gram payload. Its probe passes `20/20` controls and rejects
+`20/20` hostile mutations.
+
+K458 supplies three exact self-adjoint diagonal controls with identical unit
+trial Gram, action column `(-2,0,0)`, Rayleigh value `-2` and zero trial
+residual. Their orthogonal-complement floors, next-distinct spectra, shifted
+coercivity and global left floors differ. Thus the column and residual do not
+determine the remaining spectral fields. These controls are logical witnesses,
+not K162 values. Its probe passes `21/21` controls and rejects `21/21` hostile
+mutations. A complete K162 M-orthogonal-complement or action-flux floor and a
+selected-center native left floor remain necessary before any native K152
+interval; no source, ledger, physical, Born, prediction, canon, paper or
+public conclusion follows.
+
 ## K453--K455 K152 finite consumer and native residual boundary (2026-09-25)
 
 K453 evaluates the finite generalized Rayleigh quotient, shifted form-dual

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K458-K152-SPECTRAL-INDEPENDENCE-BOUNDARY",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact nonimplication controls separating one trial action column and residual from complement coercivity, next-distinct spectrum and native left floor.",
+  "gu_typed_objects": {
+    "result": "spectral independence boundary MAP-TYPE=nonimplication-certificate",
+    "controls": "three exact self-adjoint 3-by-3 diagonal completions",
+    "shared_trial_space": "span(e_1) with unit Gram",
+    "target": "K455 coercivity_ref, next_distinct_spectrum_ref and native_left_floor_ref"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-SM8", "LT-GR6b", "RA-F1", "AC-F1"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "inputs": ["K152", "K455", "K456", "K457"]
+  },
+  "preflight_bookend": {
+    "route_comparison": "Test whether the newly complete trial-column and residual references logically determine the three remaining spectral fields.",
+    "retrieval_collision_result": "No existing artifact proves the complete K162 orthogonal-complement spectrum, action flux floor or selected-center left floor.",
+    "strongest_alternative": "A zero trial residual might be mistaken for a spectral gap or a global lower bound."
+  },
+  "shared_trial_data": {
+    "trial_Gram": "1",
+    "trial_action_column": ["-2", "0", "0"],
+    "trial_Rayleigh": "-2",
+    "trial_shifted_residual_square": "0"
+  },
+  "exact_controls": [
+    {"name": "near_complement", "matrix_diagonal": ["-2", "-1", "3"], "orthogonal_compression_floor": "-1", "next_distinct_above_trial": "-1", "shifted_coercivity_floor": "4", "native_left_floor": "-2"},
+    {"name": "far_complement", "matrix_diagonal": ["-2", "4", "5"], "orthogonal_compression_floor": "4", "next_distinct_above_trial": "4", "shifted_coercivity_floor": "4", "native_left_floor": "-2"},
+    {"name": "lower_hidden_mode", "matrix_diagonal": ["-2", "-5", "4"], "orthogonal_compression_floor": "-5", "next_distinct_above_trial": "4", "shifted_coercivity_floor": "1", "native_left_floor": "-5"}
+  ],
+  "independence": {
+    "all_trial_data_identical": true,
+    "orthogonal_compression_floor_not_determined": true,
+    "shifted_coercivity_not_determined": true,
+    "next_distinct_spectrum_not_determined": true,
+    "native_left_floor_not_determined": true
+  },
+  "native_boundary": {
+    "abstract_controls_are_K162_values": false,
+    "action_column_plus_residual_implies_coercivity": false,
+    "action_column_plus_residual_implies_next_distinct_spectrum": false,
+    "action_column_plus_residual_implies_native_left_floor": false,
+    "required_next_native_input": "one independently proved complete K162 M-orthogonal complement or flux floor plus a selected-center native left floor"
+  },
+  "K455_readiness_after_K456_K458": {
+    "complete_continuum_action_column_serialized": true,
+    "complete_shifted_form_dual_residual_serialized": true,
+    "coercivity_serialized": false,
+    "next_distinct_spectrum_serialized": false,
+    "native_left_floor_serialized": false,
+    "native_K152_interval_emitted": false
+  },
+  "decision": {
+    "K455_column_reference_released": true,
+    "K455_residual_reference_released": true,
+    "K455_spectral_references_released": false,
+    "next_exact_input": "Prove one complete K162 M-orthogonal complement or action-flux floor independently of the trial column, and a selected-center native left floor."
+  },
+  "postflight_bookend": {
+    "strongest_overclaim": "Inferring global or complement spectral data from one complete trial action column and its residual.",
+    "strongest_contrary_construction": "Three exact self-adjoint completions share identical trial data while changing the complement floor, next spectrum, coercivity and global left floor.",
+    "weakest_reproducibility_seam": "The controls are abstract logical witnesses, not K162 values; the probe enforces that distinction."
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k458_k152_spectral_independence_boundary.py",
+    "probe": "tests/channel-swings/k458_k152_spectral_independence_boundary_probe.py",
+    "controls_passed": 21,
+    "hostile_mutations_rejected": 21
+  },
+  "claim_ceiling": "The controls prove only nonimplication. They are not K162 spectral values, and no coercivity, next spectrum, left floor, native K152 interval or source, ledger, canon, paper, public or physical claim moves."
+}
