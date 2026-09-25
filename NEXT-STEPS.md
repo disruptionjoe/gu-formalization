@@ -20,6 +20,23 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K473--K476 RECURSIVE COMPLEMENT AND STRUCTURAL-RANK GATES.**
+> K473 splits the complete K162 complement as `F direct-sum_M T`: floors
+> `alpha,gamma` and cross norm `mu` give
+> `beta=(alpha+gamma-sqrt((alpha-gamma)^2+4mu^2))/2`, with sharp target test
+> `alpha>b`, `gamma>b`, `mu^2<(alpha-b)(gamma-b)`. K474 composes this with
+> K469 and K457, releasing the 59,586-entry finite-Gram accuracy only after
+> both the recursive floor and residual budget pass. K475 derives the unique
+> acyclic K77 ranks `10752` and `35840`; K476 rejects coefficient supports
+> whose maximum matching cannot reach those ranks. A passing support graph
+> does not prove actual rank, nilpotence, domain preservation or action
+> custody. The probes pass `21/21`, `17/17`, `20/20` and `20/20` controls,
+> reject `12/12`, `9/9`, `9/9` and `8/8` hostile mutations, and reject `7/7`,
+> `5/5`, `4/4` and `3/3` invalid inputs. Next supply a native K162
+> slice/tail/cross packet plus target, or action-owned K77 supports and
+> coefficients. No native interval, properness or source/ledger/canon/public/
+> physical claim moves.
+
 > **2026-09-25 K469--K472 DIRECT M-DUAL CONSUMER AND EFFECTIVE K77
 > HOMOLOGY.** K469 consumes K463's complete same-form complement theorem
 > directly: with gap `beta-rho`, cross M-dual norm `eta` and target deficit

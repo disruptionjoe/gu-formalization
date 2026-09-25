@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K473-K152-RECURSIVE-COMPLEMENT-FLOOR",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "scope": "Exact same-form two-block lower theorem on the complete M-orthogonal K162 complement. It reduces the missing beta to a finite-slice floor alpha, complete-tail floor gamma and cross norm mu, but supplies none of those native values.",
+  "gu_typed_objects": {
+    "result": "recursive complete-complement floor",
+    "carrier": "one complete K162 charge sector split as trial line plus F plus T",
+    "pairing": "positive physical M=S* S Hilbert geometry",
+    "grading": "trial, finite complement slice and complete tail",
+    "action_owner": "repository-construction; physical owner absent",
+    "target": "K463 complete complement floor beta"
+  },
+  "theorem": {
+    "decomposition": "Q_M=F direct-sum_M T on the complete K162 complement",
+    "premises": ["F R F>=alpha F_M", "T R T>=gamma T_M", "||F R T||<=mu"],
+    "floor": "beta=(alpha+gamma-sqrt((alpha-gamma)^2+4*mu^2))/2",
+    "target_test": "alpha>b, gamma>b, mu^2<(alpha-b)(gamma-b)",
+    "sharp_for_scalar_two_block": true
+  },
+  "exact_square_control": {
+    "alpha": "3", "gamma": "6", "mu": "2", "b": "1",
+    "discriminant": "25", "beta": "2", "strict_beta_above_b": true
+  },
+  "outward_nonsquare_control": {
+    "alpha": "3", "gamma": "5", "mu": "1", "b": "5/2",
+    "discriminant": "8",
+    "sqrt_outward_interval": ["185363/65536", "46341/16384"],
+    "beta_outward_interval": ["84731/32768", "338925/131072"]
+  },
+  "native_release": {
+    "finite_slice_packet_present": false,
+    "complete_tail_packet_present": false,
+    "cross_packet_present": false,
+    "native_beta_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k473_k152_recursive_complement_floor.py",
+    "probe": "tests/channel-swings/k473_k152_recursive_complement_floor_probe.py",
+    "controls_passed": 21,
+    "hostile_mutations_rejected": 12,
+    "invalid_inputs_rejected": 7
+  },
+  "claim_ceiling": "Exact conditional recursive M-complement floor only. A finite slice, complete analytic tail and their same-form cross norm can compose to beta; no native K162 floor, K457 accuracy, K152 interval, source, ledger, canon, paper, public or physical conclusion follows."
+}

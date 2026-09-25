@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K474-K152-HIERARCHICAL-ACCURACY-SCHEDULER",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "scope": "Fail-closed composition of K473's recursive complete-complement floor with K469's direct M-dual ground-deficit budget and K457's exact tail.",
+  "theorem": {
+    "inputs": ["K473 finite/tail/cross complement packet", "K469 rho,d,eta packet", "K457 certified norm tail"],
+    "tests": ["mu^2<(alpha-b)(gamma-b)", "eta^2<=d(beta-rho+d)"],
+    "release": "sqrt(Q12)<=sqrt(d(beta-rho+d))-tail only after both tests pass"
+  },
+  "exact_control": {
+    "rho": "-2", "b": "1", "alpha": "3", "gamma": "6", "mu": "2",
+    "beta": "2", "d": "1/2", "eta_sq": "9/4",
+    "residual_square_budget": "9/4",
+    "certified_tail": "3011499/838860800",
+    "finite_Gram_sqrt_allowance": "1255279701/838860800",
+    "finite_Gram_entries": 59586
+  },
+  "native_release": {
+    "native_hierarchical_packet_present": false,
+    "native_target_deficit_present": false,
+    "K457_evaluation_started": false,
+    "native_K152_interval_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k474_k152_hierarchical_accuracy_scheduler.py",
+    "probe": "tests/channel-swings/k474_k152_hierarchical_accuracy_scheduler_probe.py",
+    "controls_passed": 17,
+    "hostile_mutations_rejected": 9,
+    "invalid_inputs_rejected": 5
+  },
+  "claim_ceiling": "Exact conditional accuracy scheduler only. It does not supply native hierarchical block data, choose a target deficit, evaluate any K457 Gram entry or emit a native K152 interval or physical conclusion."
+}

@@ -7,6 +7,40 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K473--K476 recursive complement and structural-rank gates (2026-09-25)
+
+K473 proves an exact two-block lower theorem on the complete M-orthogonal
+K162 complement. Finite-slice floor `alpha`, complete-tail floor `gamma` and
+cross norm `mu` give
+`beta=(alpha+gamma-sqrt((alpha-gamma)^2+4mu^2))/2`; the sharp strict test for
+`beta>b` is `alpha>b`, `gamma>b`, `mu^2<(alpha-b)(gamma-b)`. The square control
+`(alpha,gamma,mu,b)=(3,6,2,1)` gives `beta=2`; a nonsquare control is outward
+enclosed dyadically. Its probe passes `21/21`, rejects `12/12` hostile
+mutations and rejects `7/7` invalid inputs.
+
+K474 composes K473 with K469 and K457. It releases
+`sqrt(Q12)<=sqrt(d(beta-rho+d))-tail` only after both the recursive-complement
+test and `eta^2<=d(beta-rho+d)` pass. The exact control has `rho=-2`,
+`beta=2`, `d=1/2`, `eta^2=9/4`, certified tail
+`3011499/838860800` and finite allowance `1255279701/838860800`. Its probe
+passes `17/17`, rejects `9/9` hostile mutations and rejects `5/5` invalid
+inputs. No native hierarchical packet or target deficit is supplied.
+
+K475 proves that a nilpotent three-term complex with dimensions
+`10752 -> 46592 -> 35840` can be acyclic only at the unique ranks
+`rank(D2)=10752`, `rank(D1)=35840`. It reproduces K446's homology defects
+`(0,70,70)` and `(21,21,0)`. Its probe passes `20/20`, rejects `9/9` hostile
+mutations and rejects `4/4` invalid inputs.
+
+K476 computes structural rank as maximum bipartite matching size. A future
+K77 D2 support must cover every C2 source and D1 support every C0 target;
+Hall deficiency is therefore a coefficient-independent rejection. Passing
+support does not establish actual rank, nilpotence, domain preservation,
+action custody, properness or physical cohomology. Its probe passes `20/20`,
+rejects `8/8` hostile mutations and rejects `3/3` invalid inputs. No native
+K162 block packet, action-owned K77 support or source/ledger/canon/public claim
+follows.
+
 ## K469--K472 direct M-dual consumer and effective K77 homology (2026-09-25)
 
 K469 composes K463 directly with K457. A complete M-orthogonal-complement

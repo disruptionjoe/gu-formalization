@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K476-K77-STRUCTURAL-RANK-SUPPORT-SIEVE",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "Bipartite-support structural-rank and Hall-deficiency prefilter for future owner-authenticated K77 degree-changing coefficient blocks.",
+  "theorem": {
+    "structural_rank": "maximum bipartite matching size of the coefficient support graph",
+    "hall_use": "support rank below the K475 required rank is a coefficient-independent rejection",
+    "ceiling": "passing support does not prove actual rank, nilpotence, domain preservation or action custody"
+  },
+  "K77_application": {
+    "D2_required_rank": 10752,
+    "D2_required_support_property": "matching covers every C2 source",
+    "D1_required_rank": 35840,
+    "D1_required_support_property": "matching covers every C0 target",
+    "native_D2_support_present": false,
+    "native_D1_support_present": false,
+    "native_packet_accepted": false
+  },
+  "exact_controls": {
+    "full_column_structural_rank": 3,
+    "hall_deficient_structural_rank": 2,
+    "hall_deficiency": 1,
+    "full_row_structural_rank": 3,
+    "actual_rank_proved_by_support": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k476_k77_structural_rank_support_sieve.py",
+    "probe": "tests/channel-swings/k476_k77_structural_rank_support_sieve_probe.py",
+    "controls_passed": 20,
+    "hostile_mutations_rejected": 8,
+    "invalid_inputs_rejected": 3
+  },
+  "claim_ceiling": "Exact structural-support prefilter only. Hall deficiency can reject an impossible rank before numerical expansion; a passing support graph does not prove numerical rank, nilpotence, closed-domain preservation, action ownership, properness or physical cohomology."
+}

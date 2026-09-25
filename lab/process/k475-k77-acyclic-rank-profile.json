@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K475-K77-ACYCLIC-RANK-PROFILE",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "Exact finite-dimensional rank necessity for the corrected-boundary K77 three-term complex. It derives the unique acyclic ranks from dimensions and nilpotence but supplies no action coefficients.",
+  "theorem": {
+    "complex": "C2 --D2--> C1 --D1--> C0 with D1 D2=0",
+    "homology_dimensions": ["n2-r2", "n1-r2-r1", "n0-r1"],
+    "acyclic_rank_recurrence": "r2=n2; r1=n1-r2; require r1=n0",
+    "euler_zero_necessary": true
+  },
+  "K77_profile": {
+    "dimensions_C2_C1_C0": [10752, 46592, 35840],
+    "euler_characteristic": 0,
+    "required_rank_D2": 10752,
+    "required_rank_D1": 35840,
+    "unique": true
+  },
+  "exact_controls": {
+    "acyclic_homology": [0, 0, 0],
+    "K446_low_arrow_defect": [0, 70, 70],
+    "K446_high_arrow_defect": [21, 21, 0],
+    "nonzero_euler_dimensions": [2, 4, 3],
+    "nonzero_euler_acyclic_possible": false
+  },
+  "native_release": {
+    "action_coefficients_present": false,
+    "nilpotence_from_coefficients_checked": false,
+    "physical_cohomology_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k475_k77_acyclic_rank_profile.py",
+    "probe": "tests/channel-swings/k475_k77_acyclic_rank_profile_probe.py",
+    "controls_passed": 20,
+    "hostile_mutations_rejected": 9,
+    "invalid_inputs_rejected": 4
+  },
+  "claim_ceiling": "Exact finite rank-profile necessity only. The K77 dimensions force ranks 10752 and 35840 for acyclicity, but ranks do not construct coefficients, prove action custody, domain preservation, nonlinear/global properness or physical cohomology."
+}

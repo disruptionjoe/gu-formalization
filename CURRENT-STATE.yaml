@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: c5356d401c70
+revision_basis: f840fd336f80
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K473--K476 turn the two still-missing native packets into sharper staged
+    rejection and release gates. K473 recursively bounds the complete K162
+    complement after an M-orthogonal split `F direct-sum_M T`: finite-slice
+    floor `alpha`, complete-tail floor `gamma` and cross norm `mu` give
+    `beta=(alpha+gamma-sqrt((alpha-gamma)^2+4mu^2))/2`, with the sharp strict
+    target test `alpha>b`, `gamma>b`, `mu^2<(alpha-b)(gamma-b)`. K474 composes
+    that test with K469's direct M-dual budget and releases a K457 finite-Gram
+    accuracy only after both the recursive floor and residual tests pass. No
+    native slice, tail, cross, target deficit or Gram evaluation is supplied.
+
+    K475 derives the unique acyclic ranks of the corrected-boundary K77
+    three-term complex from its dimensions: `rank(D2)=10752` and
+    `rank(D1)=35840`. K476 adds a coefficient-independent support prefilter:
+    maximum bipartite matching must cover every C2 source for D2 and every C0
+    target for D1. Hall deficiency rejects a packet before numerical rank;
+    passing the support sieve proves neither actual rank nor nilpotence,
+    domain preservation, action custody, properness or physical cohomology.
+    No native action coefficients or supports are present, and source
+    polarity, ledger, canon, paper, public posture and physical verdicts do
+    not move.
+
     K469--K472 remove one avoidable metric conversion from the selected K152
     consumer and extend the independent K77 certificate route beyond an
     acyclic base. K469 observes that K463's complete same-form block theorem
@@ -10676,6 +10697,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K473 as the next complete-floor construction on the same fixed
+  K139/K168 form and M-orthogonal decomposition. Evaluate a finite-slice
+  floor `alpha`, complete-tail floor `gamma` and their cross norm `mu`, then
+  require `alpha>b`, `gamma>b` and `mu^2<(alpha-b)(gamma-b)`. Under K474,
+  also choose native `rho,d`, compute the resulting `beta`, and require
+  `eta^2<=d(beta-rho+d)` before evaluating K457's 59586 Gram entries to the
+  released accuracy. Finite truncations alone do not supply the complete
+  tail packet.
+
+  When action-owned K77 coefficient supports arrive, apply K475's necessary
+  ranks `10752` and `35840` and K476's Hall/matching support sieve before
+  numerical rank expansion. Reject any deficient support immediately, but
+  do not accept a passing support graph without exact coefficients,
+  nilpotence, closed-domain preservation and the remaining K464/K471/K472
+  properness checks.
+
   Treat K469 as the preferred consumer when the K463 complete-complement route
   supplies numerical `rho<beta` and the complete M-dual cross norm `eta`.
   Choose a concrete ground target deficit `d` and require
