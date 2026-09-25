@@ -20,6 +20,23 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K469--K472 DIRECT M-DUAL CONSUMER AND EFFECTIVE K77
+> HOMOLOGY.** K469 consumes K463's complete same-form complement theorem
+> directly: with gap `beta-rho`, cross M-dual norm `eta` and target deficit
+> `d`, the sharp budget is `eta^2<=d(beta-rho+d)`. This bypasses the K466
+> shifted-metric conversion on that route and prices K457 only after a native
+> `beta` and target arrive. K470 supplies the matching complete-ground-
+> eigenspace bound and projection budget
+> `eta^2<=p^2(beta-rho)^2/(1-p^2)^2`. K471 transfers a typed K77 perturbation
+> of a deformation retract to an exact effective homology differential;
+> K472 accepts properness only when that transferred complex is acyclic.
+> Small coefficients can still leave cohomology `(1,1)`. The probes pass
+> `17/17`, `15/15`, `21/21` and `21/21` controls, reject `15/15`, `13/13`,
+> `19/19` and `19/19` hostile mutations, and reject `3/3`, `4/4`, `1/1` and
+> `1/1` invalid inputs. No native K162 floor, Gram evaluation, K152 interval,
+> action-owned K77 packet, physical cohomology or source/ledger/canon/public/
+> physical claim moves.
+
 > **2026-09-25 K465--K468 RESIDUAL METRIC CORRECTION, ACCURACY BRIDGE AND
 > K77 CONTRACTION.** K465 corrects K457's 59,586-entry payload: because
 > `M=S^*S`, `||S^(-*)ell||^2=ell^*M^(-1)ell`, an M-dual residual, not K152's

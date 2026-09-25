@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f184930547ee
+revision_basis: c5356d401c70
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,35 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K469--K472 remove one avoidable metric conversion from the selected K152
+    consumer and extend the independent K77 certificate route beyond an
+    acyclic base. K469 observes that K463's complete same-form block theorem
+    already gives the exact ground interval
+    `[rho-delta,rho]`, where
+    `delta=(sqrt((beta-rho)^2+4 eta^2)-(beta-rho))/2`. Hence a target deficit
+    `d` releases the sharp direct M-dual budget
+    `eta^2<=d(beta-rho+d)`. On this complete-complement route K457's 59,586
+    entries need no shift or K466 conversion. K466/K467 remain valid for
+    other coercivity routes. K470 gives the matching complete-ground-
+    eigenspace bound
+    `sin_M^2<=delta/(beta-rho+delta)` and target budget
+    `eta^2<=p^2(beta-rho)^2/(1-p^2)^2`. Neither result supplies the still-
+    missing numerical complete-sector K162 floor, target deficit or projection
+    tolerance, so no Gram evaluation or native K152 interval is released.
+
+    K471 applies the finite basic perturbation lemma to a deformation retract
+    with nonzero base homology. It transfers a typed nilpotent perturbation to
+    `d_H'=p(1+delta h)^(-1)delta i` and supplies exact adapted inclusion,
+    projection and homotopy maps. K472 compiles the result into a fail-closed
+    properness boundary: the total complex is acyclic only when the exact
+    transferred homology complex is acyclic. Exact controls give effective
+    differential `17/18` in the positive case and zero with cohomology `(1,1)`
+    in both an obstruction and an arbitrarily small-coefficient example.
+    Smallness alone therefore does not establish properness when base homology
+    is present. No action-owned coefficients, closed native domain, K77 action
+    selection or physical cohomology follows. Source polarity, ledger, canon,
+    paper, public posture and physical verdicts do not move.
+
     K465--K468 correct the K152 residual metric boundary and make two pending
     certificate routes constructive without inventing their native inputs.
     K465 proves that K457's vector `S^(-*)ell`, with `M=S^*S`, has squared
@@ -10647,17 +10676,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Treat K465 as the governing correction to K457: the 59586-entry payload is
-  an M-dual residual, not yet K152's shifted form-dual residual. Preserve its
-  exact combinatorics and tail, but do not release the shifted metric without
-  K466's quantitative coercivity constant. Use K467 only after a complete
-  K162 packet supplies `rho<b<beta`, `eta`, a chosen shift and hence
-  `c=lambda_-+s>0`; combine that with a concrete K152 target deficit before
-  evaluating any Gram entry. Treat K468 as a constructive conditional route
-  through K464 only for an actual coefficient-complete action perturbation
-  that separately proves typed squares, nilpotence and closed-domain
-  preservation. Its abstract controls do not select a K77 action or prove
-  physical cohomology.
+  Treat K469 as the preferred consumer when the K463 complete-complement route
+  supplies numerical `rho<beta` and the complete M-dual cross norm `eta`.
+  Choose a concrete ground target deficit `d` and require
+  `sqrt(Q12)+tail<=sqrt(d(beta-rho+d))`; only then evaluate K457's 59586 Gram
+  entries to the released accuracy. If a complete complement floor is not the
+  available spectral route, K466/K467 remain the valid shifted-coercivity
+  bridge. Apply K470 only when a complete ground-eigenspace projection
+  tolerance `p` is actually required. Finite Ritz values, HVZ membership and
+  independent rebuilds do not supply `beta`.
+
+  Treat K471/K472 as the constructive extension of K468 for a future K77
+  packet whose base complex has homology. Require complete action-owned
+  coefficients, typed squares, total nilpotence, closed-domain preservation,
+  a proved deformation retract and invertible perturbation factors. Transfer
+  to the exact effective homology complex and accept properness only when that
+  complex is acyclic. Coefficient smallness alone is not enough. The finite
+  controls do not select a K77 action or prove physical cohomology.
 
   Treat K462 as the existential center-zero coercivity theorem on the complete
   K162 carrier, including K153's exact sign-sensitive transport factors. Do

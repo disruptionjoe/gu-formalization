@@ -7,6 +7,40 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K469--K472 direct M-dual consumer and effective K77 homology (2026-09-25)
+
+K469 composes K463 directly with K457. A complete M-orthogonal-complement
+floor `beta>rho` and complete cross M-dual norm `eta` give ground deficit
+`delta=(sqrt((beta-rho)^2+4 eta^2)-(beta-rho))/2`; therefore
+`eta^2<=d(beta-rho+d)` is the sharp target-`d` budget. The exact two-block
+control `rho=-2`, `beta=2`, `eta=3/2` has ground `-5/2` and saturates the
+`d=1/2` budget. This route needs neither a shift nor K466, but still needs a
+native complete-sector `beta`. Its probe passes `17/17`, rejects `15/15`
+hostile mutations and rejects `3/3` invalid inputs.
+
+K470 derives the matching complete-ground-eigenspace bound
+`sin_M^2<=delta/(beta-rho+delta)`. A target angle `p` is certified by
+`eta^2<=p^2(beta-rho)^2/(1-p^2)^2`; the same two-block control saturates
+`p=1/3` with squared angle `1/9`. A finite Ritz vector is not a substitute for
+the complete ground projection. Its probe passes `15/15`, rejects `13/13`
+hostile mutations and rejects `4/4` invalid inputs.
+
+K471 gives an exact finite basic-perturbation transfer from a deformation
+retract to the effective homology differential
+`d_H'=p(1+delta h)^(-1)delta i`, with adapted inclusion, projection and
+homotopy. Its rational Schur control has pivot `3/2`, effective differential
+`17/18` and exact retract identities. Its probe passes `21/21`, rejects
+`19/19` hostile mutations and rejects the singular pivot.
+
+K472 compiles that transfer into a properness decision. The positive control
+has determinant `17/12` and zero cohomology; a zero effective differential
+has cohomology `(1,1)`. The small packet `a=0,b=c=1/10,t=1/100` also has zero
+effective differential, proving coefficient smallness alone does not remove
+base homology. Its probe passes `21/21`, rejects `19/19` hostile mutations and
+rejects the singular pivot. No action-owned coefficients, native K77 complex,
+physical cohomology, native K152 interval or source/ledger/canon/public claim
+follows.
+
 ## K465--K468 residual metric correction and K77 contraction (2026-09-25)
 
 K465 audits the Riesz map in K457. With `M=S^*S`, the stored vector
