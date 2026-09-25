@@ -20,6 +20,23 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K477--K480 MULTILEVEL COMPLEMENT AND EXACTNESS
+> CONSTRUCTION.** K477 composes K473 through a complete binary M-orthogonal
+> block tree and fails closed at every leaf and internal cross margin. K478
+> makes the same test robust to certified intervals by using diagonal lower
+> bounds, a cross-norm upper bound and a target upper bound; its rational
+> control has strict slack `1251/256`. K479 rejects any future declared-
+> nonzero K77 support with a unique two-step path in one `D1 D2` entry. K480
+> proves that, after a full-column `D2` is supplied in an Euler-zero complex,
+> exactness is equivalent to the descended `D1:C1/im(D2)->C0` being an
+> isomorphism and constructs all such completions as `D1=A L`. The probes pass
+> `21/21`, `19/19`, `18/18` and `23/23` controls, reject `10/10`, `9/9`,
+> `8/8` and `9/9` hostile mutations, and reject `6/6`, `7/7`, `5/5` and
+> `5/5` invalid inputs. Next supply authenticated native K162 leaf/cross
+> intervals, or an action-owned K77 `D2`, domain and coefficient support. No
+> native K152 interval, K77 action, properness, source/ledger/canon/public or
+> physical claim moves.
+
 > **2026-09-25 K473--K476 RECURSIVE COMPLEMENT AND STRUCTURAL-RANK GATES.**
 > K473 splits the complete K162 complement as `F direct-sum_M T`: floors
 > `alpha,gamma` and cross norm `mu` give

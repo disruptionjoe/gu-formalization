@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K478-K152-ROBUST-INTERVAL-MARGIN",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "scope": "Outward interval version of the K473 strict complement-margin test, using lower diagonal floors, upper cross norm and upper target threshold.",
+  "gu_typed_objects": {
+    "result": "robust interval complete-complement margin",
+    "carrier": "one complete same-form M-orthogonal two-block split",
+    "pairing": "positive physical M=S* S Hilbert geometry",
+    "grading": "diagonal blocks and cross block",
+    "action_owner": "repository construction; native interval owner absent",
+    "target": "robust K473 threshold release"
+  },
+  "theorem": {
+    "substitution": "Use alpha_lower, gamma_lower, mu_upper and b_upper.",
+    "strict_test": "(alpha_lower-b_upper)(gamma_lower-b_upper)-mu_upper^2>0",
+    "release": "A positive worst-case slack and outward beta_lower>b_upper certify every value in the authenticated intervals."
+  },
+  "rational_error_control": {
+    "alpha_lower": "47/16",
+    "gamma_lower": "95/16",
+    "mu_upper": "33/16",
+    "threshold_upper": "17/16",
+    "strict_schur_slack": "1251/256",
+    "beta_lower": "8105566561/4294967296",
+    "robust_release": true
+  },
+  "native_release": {
+    "native_intervals_present": false,
+    "native_beta_emitted": false,
+    "K457_evaluation_released": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k478_k152_robust_interval_margin.py",
+    "probe": "tests/channel-swings/k478_k152_robust_interval_margin_probe.py",
+    "controls_passed": 19,
+    "hostile_mutations_rejected": 9,
+    "invalid_inputs_rejected": 7
+  },
+  "claim_ceiling": "Exact robust conditional margin only. The control intervals are synthetic; no native K162 floor, K457 evaluation, K152 interval, source, ledger, canon, public or physical conclusion follows."
+}

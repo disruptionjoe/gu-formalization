@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f840fd336f80
+revision_basis: a38a947508e2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K477--K480 convert the last wave's two-block and rank gates into practical
+    staged constructions without inventing native inputs. K477 recursively
+    composes K473 on a complete binary M-orthogonal block tree; every leaf
+    needs a proof reference and every internal split retains same-form,
+    exhaustiveness and strict cross-margin obligations. K478 supplies the
+    monotone outward interval test using diagonal lower bounds, cross-norm
+    upper bounds and a target upper bound. Its rational error control has
+    strict Schur slack `1251/256`, but no native K162 interval packet exists.
+
+    K479 gives the future K77 support packet a second coefficient-independent
+    rejection: one declared-nonzero two-step path in any `D1 D2` entry makes
+    nilpotence impossible. K480 proves that after a full-column D2 is supplied
+    in an Euler-zero three-term complex, acyclicity is equivalent to the
+    descended `D1:C1/im(D2)->C0` being an isomorphism, and constructs all such
+    completions as `D1=A L`. For K77 the quotient dimension is `35840`. No
+    action-owned D2, domain or coefficient packet exists, so nilpotence,
+    properness and physical cohomology remain open. Source polarity, ledger,
+    canon, paper, public posture and physical verdicts do not move.
+
     K473--K476 turn the two still-missing native packets into sharper staged
     rejection and release gates. K473 recursively bounds the complete K162
     complement after an M-orthogonal split `F direct-sum_M T`: finite-slice
@@ -10697,6 +10716,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Apply K477/K478 when a native K162 block decomposition is available. Every
+  leaf must carry an authenticated lower interval on the same fixed form,
+  every internal split must be exhaustive and M-orthogonal, and every cross
+  norm must have an authenticated upper interval. Propagate the worst-case
+  lower roots upward and require a positive strict margin at every node before
+  treating the root as K463's complete-complement floor. Only then apply K474
+  and evaluate K457 to the released accuracy.
+
+  For K77, run K479 after K476 on action-owned declared-nonzero supports and
+  reject any unique two-step path immediately. If an action-owned full-column
+  D2 with a proved physical closed domain arrives, use K480's annihilator
+  quotient to parameterize nilpotent full-rank D1 candidates, but do not
+  substitute a repository-chosen `A L` for action custody. Exact coefficients,
+  total nilpotence, domain preservation and K464/K471/K472 properness checks
+  remain mandatory.
+
   Treat K473 as the next complete-floor construction on the same fixed
   K139/K168 form and M-orthogonal decomposition. Evaluate a finite-slice
   floor `alpha`, complete-tail floor `gamma` and their cross norm `mu`, then

@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K479-K77-UNIQUE-PATH-NILPOTENCE-SIEVE",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "Coefficient-independent rejection sieve for future declared-nonzero supports of the K77 degree-changing blocks.",
+  "gu_typed_objects": {
+    "result": "unique two-step path nilpotence obstruction",
+    "carrier": "support graphs for D2:C2_to_C1 and D1:C1_to_C0",
+    "pairing": "ordered source-middle-target incidence",
+    "grading": "homological degrees 2, 1 and 0",
+    "action_owner": "absent until an owner-authenticated coefficient packet is supplied",
+    "target": "necessary support compatibility with D1 D2=0"
+  },
+  "theorem": {
+    "obstruction": "A target-source entry with exactly one declared-nonzero two-step path contains one nonzero product and cannot vanish.",
+    "necessary_rule": "Every connected target-source pair needs zero or at least two support paths before nilpotence is possible.",
+    "ceiling": "Zero or multiple paths do not prove coefficient-level nilpotence."
+  },
+  "exact_controls": {
+    "unique_path_obstructions": 1,
+    "hostile_support_rejected": true,
+    "all_pairs_two_paths_obstructions": 0,
+    "multiple_path_support_nilpotence_proved": false
+  },
+  "K77_application": {
+    "D2_shape": [46592, 10752],
+    "D1_shape": [35840, 46592],
+    "native_support_present": false,
+    "native_nilpotence_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k479_k77_unique_path_nilpotence_sieve.py",
+    "probe": "tests/channel-swings/k479_k77_unique_path_nilpotence_sieve_probe.py",
+    "controls_passed": 18,
+    "hostile_mutations_rejected": 8,
+    "invalid_inputs_rejected": 5
+  },
+  "claim_ceiling": "Exact necessary support rejection only. Passing the sieve does not prove nilpotence, actual rank, domain preservation, action ownership, properness or physical cohomology."
+}

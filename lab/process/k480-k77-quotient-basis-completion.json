@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K480-K77-QUOTIENT-BASIS-COMPLETION",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "scope": "Exact finite-dimensional construction and iff criterion for completing a supplied full-column D2 into an acyclic Euler-zero three-term complex.",
+  "gu_typed_objects": {
+    "result": "quotient-basis exactness construction",
+    "carrier": "finite three-term complex C2 to C1 to C0",
+    "pairing": "exact rational linear algebra",
+    "grading": "homological degrees 2, 1 and 0",
+    "action_owner": "absent; construction does not select GU action coefficients",
+    "target": "acyclic completion after a full-column D2 is supplied"
+  },
+  "theorem": {
+    "fixed_D2": "If D2 has full column rank, D1 D2=0 makes D1 descend to C1/im(D2).",
+    "euler_zero": "When dim(C1)-dim(C2)=dim(C0), the complex is acyclic iff the descended D1 is an isomorphism.",
+    "construction": "Choose a row basis L of the annihilator of im(D2) and any invertible A; D1=A L is an exact completion.",
+    "ceiling": "The construction starts after D2 and its domain are supplied and does not select physical coefficients."
+  },
+  "exact_controls": {
+    "dimensions_C2_C1_C0": [2, 4, 2],
+    "ranks_D2_D1": [2, 2],
+    "homology_dimensions": [0, 0, 0],
+    "rank_defect_homology_dimensions": [0, 1, 1],
+    "construction_det_A": 1
+  },
+  "K77_application": {
+    "dimensions_C2_C1_C0": [10752, 46592, 35840],
+    "quotient_dimension_after_full_rank_D2": 35840,
+    "required_descended_D1_rank": 35840,
+    "native_D2_present": false,
+    "native_D1_present": false,
+    "physical_cohomology_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k480_k77_quotient_basis_completion.py",
+    "probe": "tests/channel-swings/k480_k77_quotient_basis_completion_probe.py",
+    "controls_passed": 23,
+    "hostile_mutations_rejected": 9,
+    "invalid_inputs_rejected": 5
+  },
+  "claim_ceiling": "Exact conditional finite-dimensional construction only. No action-owned D2, physical domain, properness or physical cohomology follows."
+}

@@ -7,6 +7,37 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K477--K480 multilevel complement and exactness construction (2026-09-25)
+
+K477 applies K473 recursively to every internal node of a complete binary
+M-orthogonal block tree. Its four-leaf exact control has child floors `2` and
+`3`, root cross norm `1/2`, and an outward root floor strictly above target
+`1`. Every leaf requires a proof reference and every internal node requires
+the same fixed form, exhaustive partition and strict margin. Its probe passes
+`21/21`, rejects `10/10` hostile mutations and `6/6` invalid inputs.
+
+K478 proves the outward interval version of the same test. It substitutes
+`alpha_lower`, `gamma_lower`, `mu_upper` and `b_upper`; positive worst-case
+Schur slack plus an outward `beta_lower>b_upper` certifies the full supplied
+box. The rational control uses `47/16`, `95/16`, `33/16`, `17/16` and has
+slack `1251/256`. Its probe passes `19/19`, rejects `9/9` hostile mutations
+and `7/7` invalid inputs. Neither K477 nor K478 supplies native intervals.
+
+K479 proves a coefficient-independent nilpotence obstruction: a declared-
+nonzero K77 support with exactly one two-step path for any target-source pair
+cannot satisfy `D1 D2=0`. Zero or multiple paths do not prove nilpotence. Its
+probe passes `18/18`, rejects `8/8` hostile mutations and `5/5` invalid
+inputs.
+
+K480 proves that, for full-column `D2` and Euler-zero dimensions, nilpotence
+makes `D1` descend to `C1/im(D2)` and the complex is acyclic iff the descended
+map is an isomorphism. A row basis `L` of the annihilator of `im(D2)` and any
+invertible `A` give `D1=A L`. The exact `2 -> 4 -> 2` control is acyclic; its
+rank-defect control has homology `(0,1,1)`. For K77 the quotient dimension is
+`46592-10752=35840`. Its probe passes `23/23`, rejects `9/9` hostile
+mutations and `5/5` invalid inputs. No action-owned D2, domain, coefficients,
+properness, physical cohomology or source/ledger/canon/public claim follows.
+
 ## K473--K476 recursive complement and structural-rank gates (2026-09-25)
 
 K473 proves an exact two-block lower theorem on the complete M-orthogonal

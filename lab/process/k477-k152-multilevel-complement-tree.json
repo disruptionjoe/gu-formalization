@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K477-K152-MULTILEVEL-COMPLEMENT-TREE",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "scope": "Recursive K473 composition on a finite complete binary tree of M-orthogonal blocks. Every leaf floor and every cross norm remains a separately authenticated same-form premise.",
+  "gu_typed_objects": {
+    "result": "multilevel complete-complement floor tree",
+    "carrier": "one complete K162 complement partitioned into a finite binary tree of M-orthogonal blocks",
+    "pairing": "positive physical M=S* S Hilbert geometry",
+    "grading": "tree depth and block ownership",
+    "action_owner": "repository construction; physical owner absent",
+    "target": "K463 complete-complement floor beta"
+  },
+  "theorem": {
+    "composition": "Apply K473 at every internal node using the certified child lower floors and that split's cross-norm upper bound.",
+    "release": "The root floor is certified only if the leaves exhaust the complete complement and every strict internal margin passes.",
+    "ceiling": "Tree recursion supplies no native leaf floor, cross norm or completeness witness."
+  },
+  "four_leaf_control": {
+    "leaf_floors": [3, 6, 4, 7],
+    "child_cross_norms": [2, 2],
+    "root_cross_norm": "1/2",
+    "left_floor": 2,
+    "right_floor": 3,
+    "target_threshold": 1,
+    "root_strict_margin_product": 2,
+    "root_cross_norm_square": "1/4",
+    "root_floor_lower": "1925104435/1073741824",
+    "strict_above_target": true
+  },
+  "native_release": {
+    "native_leaf_packets_present": false,
+    "native_cross_packets_present": false,
+    "native_complete_floor_emitted": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k477_k152_multilevel_complement_tree.py",
+    "probe": "tests/channel-swings/k477_k152_multilevel_complement_tree_probe.py",
+    "controls_passed": 21,
+    "hostile_mutations_rejected": 10,
+    "invalid_inputs_rejected": 6
+  },
+  "claim_ceiling": "Exact conditional multilevel composition only. No native K162 block values, K457 evaluation, K152 interval, source, ledger, canon, public or physical conclusion follows."
+}
