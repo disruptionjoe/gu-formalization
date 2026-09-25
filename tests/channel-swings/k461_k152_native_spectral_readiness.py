@@ -12,8 +12,9 @@ COMMON_REFS = (
     "fixed_limiting_form_ref",
     "cofinal_physical_Gram_ref",
     "complete_continuum_action_column_ref",
-    "complete_shifted_form_dual_residual_ref",
+    "complete_M_dual_residual_ref",
     "center_zero_coercivity_ref",
+    "shifted_form_dual_residual_bridge_ref",
 )
 
 
@@ -47,8 +48,9 @@ def demo() -> dict[str, Any]:
         fixed_limiting_form_ref="K450#fixed-limiting-form",
         cofinal_physical_Gram_ref="K450#physical-Gram",
         complete_continuum_action_column_ref="K456#complete-column",
-        complete_shifted_form_dual_residual_ref="K457#finite-Gram-plus-tail",
+        complete_M_dual_residual_ref="K457#finite-Gram-plus-tail",
         center_zero_coercivity_ref=None,
+        shifted_form_dual_residual_bridge_ref=None,
         complete_M_orthogonal_complement_ref=None,
         native_flux_count_ref=None,
         native_spectral_count_ref=None,
@@ -59,8 +61,9 @@ def demo() -> dict[str, Any]:
         fixed_limiting_form_ref="control#form",
         cofinal_physical_Gram_ref="control#Gram",
         complete_continuum_action_column_ref="control#column",
-        complete_shifted_form_dual_residual_ref="control#residual",
+        complete_M_dual_residual_ref="control#M-dual-residual",
         center_zero_coercivity_ref="control#H0-plus-s0-positive",
+        shifted_form_dual_residual_bridge_ref="K466#inverse-order-bridge",
         native_flux_count_ref="control#equal-rank-flux",
         spectral_count_below_b=1,
         selected_extension_center_ref=None,
@@ -79,10 +82,11 @@ def demo() -> dict[str, Any]:
         "exact_positive_control": positive_control,
         "decision": {
             "K456_column_released": True,
-            "K457_residual_released": True,
+            "K457_M_dual_residual_released": True,
+            "K152_shifted_form_dual_residual_released": False,
             "K169_HVZ_membership_released_as_complement_floor": False,
             "selected_center_removed_from_relative_readiness": True,
-            "next_exact_input": "Prove center-zero shifted coercivity and one complete K162 rank-one-below-b certificate by M-orthogonal complement positivity, native flux, or independent spectral count; then evaluate K457 only to the accuracy that packet requires.",
+            "next_exact_input": "Evaluate one quantitative K162 rank-one/coercivity packet, apply K466/K467 to set the shifted-form-dual residual budget, then evaluate K457 only to that accuracy.",
         },
     }
 

@@ -36,7 +36,9 @@
     "fixed_limiting_form_serialized": true,
     "cofinal_physical_Gram_serialized": true,
     "complete_continuum_action_column_serialized": true,
-    "complete_shifted_form_dual_residual_serialized": true,
+    "complete_M_dual_residual_serialized": true,
+    "complete_shifted_form_dual_residual_serialized": false,
+    "shifted_form_dual_residual_bridge_serialized": true,
     "center_zero_coercivity_serialized": false,
     "spectral_route": null,
     "rank_one_count_below_b": false,
@@ -61,10 +63,11 @@
   },
   "decision": {
     "K456_column_released": true,
-    "K457_residual_released": true,
+    "K457_M_dual_residual_released": true,
+    "K152_shifted_form_dual_residual_released": false,
     "K169_HVZ_membership_released_as_complement_floor": false,
     "selected_center_removed_from_relative_readiness": true,
-    "next_exact_input": "Prove center-zero shifted coercivity and one complete K162 rank-one-below-b certificate by M-orthogonal complement positivity, native flux, or independent spectral count; then evaluate K457 only to the accuracy that packet requires."
+    "next_exact_input": "Evaluate one quantitative K162 rank-one/coercivity packet, apply K466/K467 to set the shifted-form-dual residual budget, then evaluate K457 only to that accuracy."
   },
   "postflight_bookend": {
     "strongest_overclaim": "Calling the compiler complete because an abstract positive control satisfies it.",
@@ -74,8 +77,8 @@
   "controls": {
     "producer": "tests/channel-swings/k461_k152_native_spectral_readiness.py",
     "probe": "tests/channel-swings/k461_k152_native_spectral_readiness_probe.py",
-    "controls_passed": 23,
-    "hostile_mutations_rejected": 23
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 24
   },
-  "claim_ceiling": "Exact fail-closed readiness interface. K456/K457 remain released, selected center is removed only from relative-family readiness, and center-zero coercivity plus one complete rank-one-below-b certificate remain open. No native interval, absolute physical placement, source, ledger, canon, paper, public, Born, prediction, confirmation or physical GU conclusion follows."
+  "claim_ceiling": "Exact fail-closed readiness interface. K456 and K457's M-dual payload remain released, but K152's shifted form-dual residual is held behind a quantitative K466 bridge. Selected center is removed only from relative-family readiness, and a numerical coercivity/rank-one packet remains open. No native interval, absolute physical placement, source, ledger, canon, paper, public, Born, prediction, confirmation or physical GU conclusion follows."
 }

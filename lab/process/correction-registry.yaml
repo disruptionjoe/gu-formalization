@@ -10,6 +10,23 @@
 # This registry is the propagation ledger, not the correction text. The prose banners in the owning
 # files remain the human-facing record.
 corrections:
+  - id: K457-DUAL-METRIC-20260925
+    owner: explorations/conditional-build/k465-k152-residual-metric-type-correction-2026-09-25.md
+    meaning: >-
+      K457's vector S^(-*)ell has squared norm ell^*M^(-1)ell because
+      M=S^*S. It is the physical-M-dual/Hilbert residual, not K152's shifted
+      form-dual residual ell^*(R+sM)^(-1)ell. The 2,958-vector, 201-group,
+      59,586-entry finite-Gram payload and tail bound survive with the corrected
+      metric type. K466 supplies the conditional coercivity bridge; K467
+      releases a numerical accuracy only after native spectral constants arrive.
+    canonical_since: "2026-09-25"
+    topic_signature:
+      - K457
+      - shifted form-dual residual
+      - M-dual residual
+      - K466
+      - K467
+    enforce: false
   - id: K290-SPLIT-BOUNDARY-20260922
     owner: explorations/conditional-build/k301-order-seven-terminal-split-boundary-correction-2026-09-22.md
     meaning: >-

@@ -20,6 +20,23 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K465--K468 RESIDUAL METRIC CORRECTION, ACCURACY BRIDGE AND
+> K77 CONTRACTION.** K465 corrects K457's 59,586-entry payload: because
+> `M=S^*S`, `||S^(-*)ell||^2=ell^*M^(-1)ell`, an M-dual residual, not K152's
+> shifted form-dual residual `ell^*(R+sM)^(-1)ell`. The exact payload and tail
+> survive; the former metric label does not. K466 proves the sharp bridge
+> `(R+sM)^(-1)<=c^(-1)M^(-1)` when `R+sM>=cM>0`. K467 combines K270's target
+> energy budget, K463's future `c=lambda_-+s`, K466 and K457 into
+> `sqrt(Q12)+tail<=sqrt(c E_budget)`. Next obtain one numerical complete K162
+> rank-one/coercivity packet and a K152 target deficit; only then evaluate the
+> Gram entries to the released accuracy. K468 separately gives K464's future
+> coefficient-complete action packet an explicit adapted contraction under a
+> strict Neumann norm, but does not supply coefficients, domain preservation,
+> action selection or physical cohomology. The probes pass `16/16`, `15/15`,
+> `16/16` and `21/21` controls and reject equal hostile counts; K466/K467/K468
+> additionally reject `2/2`, `4/4` and `2/2` invalid inputs. No native K152
+> interval or source/ledger/canon/public/physical claim moves.
+
 > **2026-09-25 K462--K464 COERCIVITY/COUNT COMPOSITION AND K77 PROPERNESS
 > SIEVE.** K462 proves that center-zero shifted coercivity exists on the
 > complete K162 continuum carrier by composing K139, K141, K168, K153 and
@@ -58,16 +75,17 @@ updated_at: "2026-09-25"
 > SPECTRAL INDEPENDENCE.** K456 serializes the complete K156/K171 action
 > column on K162 as the K175 scalar term, the matched diagonal convergent
 > series, all 2958 K179 exchange coefficients through order 12 and K176's
-> exact later-order tail `<1/250`. K457 reduces the complete shifted residual
-> to 59586 coherent finite Gram entries plus that tail; 59234 high-order
+> exact later-order tail `<1/250`. As corrected by K465, K457 reduces the
+> complete M-dual residual—not K152's shifted form-dual residual—to 59586
+> coherent finite Gram entries plus that tail; 59234 high-order
 > entries already exist in K279, while 352 lower-order entries remain in the
 > typed payload. Neither result claims numerical evaluation. K458 proves that
 > identical trial columns and residuals can coexist with different complement
 > floors, next spectra, coercivity and global left floors. Next prove one
 > complete K162 M-orthogonal-complement or action-flux floor and a
 > selected-center native left floor; evaluate only the Gram accuracy those
-> bounds demand. The probes pass `16/16`, `20/20` and `21/21` controls and
-> reject equal hostile counts. No native interval or physical/source move is
+> bounds demand after K466/K467. The corrected probes pass `16/16`, `22/22`
+> and `21/21` controls and reject equal hostile counts. No native interval or physical/source move is
 > licensed.
 
 > **2026-09-25 K453--K455 K152 FINITE CONSUMER AND NATIVE RESIDUAL

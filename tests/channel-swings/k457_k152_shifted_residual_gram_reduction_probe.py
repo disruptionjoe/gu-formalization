@@ -16,7 +16,7 @@ def controls(packet):
     decision = packet.get("decision", {})
     return [
         ("schema", packet.get("schema_version") == "1.0"),
-        ("id", packet.get("result_id") == "K457-K152-SHIFTED-RESIDUAL-GRAM-REDUCTION"),
+        ("id", packet.get("result_id") == "K457-K152-M-DUAL-RESIDUAL-GRAM-REDUCTION"),
         ("classification", packet.get("classification") == "INTERNAL_STRUCTURAL_ONLY"),
         ("direction", packet.get("direction") == "observed_to_native"),
         ("vectors", gram.get("resolved_vectors") == 2958),
@@ -29,12 +29,14 @@ def controls(packet):
         ("epsilon", tail.get("epsilon") == "3011499/838860800"),
         ("post adjoint", tail.get("post_left_adjoint") is True),
         ("control", exact.get("contains_finite_square") is True),
-        ("residual serialized", release.get("complete_shifted_form_dual_residual_serialized") is True),
-        ("not evaluated", release.get("complete_shifted_form_dual_residual_numerically_evaluated") is False),
+        ("M residual serialized", release.get("complete_M_dual_residual_serialized") is True),
+        ("M residual not evaluated", release.get("complete_M_dual_residual_numerically_evaluated") is False),
+        ("shifted residual not serialized", release.get("complete_shifted_form_dual_residual_serialized") is False),
         ("no coercivity", release.get("coercivity_serialized") is False),
         ("no interval", release.get("native_K152_interval_emitted") is False),
         ("column released", decision.get("K455_column_reference_released") is True),
-        ("residual released", decision.get("K455_residual_reference_released") is True),
+        ("M residual released", decision.get("K455_M_dual_residual_reference_released") is True),
+        ("shifted residual held", decision.get("K455_shifted_form_dual_residual_reference_released") is False),
     ]
 
 
@@ -56,12 +58,14 @@ def main() -> int:
         lambda d: d["tail_budget"].__setitem__("epsilon", "0"),
         lambda d: d["tail_budget"].__setitem__("post_left_adjoint", False),
         lambda d: d["exact_control"].__setitem__("contains_finite_square", False),
-        lambda d: d["release_test"].__setitem__("complete_shifted_form_dual_residual_serialized", False),
-        lambda d: d["release_test"].__setitem__("complete_shifted_form_dual_residual_numerically_evaluated", True),
+        lambda d: d["release_test"].__setitem__("complete_M_dual_residual_serialized", False),
+        lambda d: d["release_test"].__setitem__("complete_M_dual_residual_numerically_evaluated", True),
+        lambda d: d["release_test"].__setitem__("complete_shifted_form_dual_residual_serialized", True),
         lambda d: d["release_test"].__setitem__("coercivity_serialized", True),
         lambda d: d["release_test"].__setitem__("native_K152_interval_emitted", True),
         lambda d: d["decision"].__setitem__("K455_column_reference_released", False),
-        lambda d: d["decision"].__setitem__("K455_residual_reference_released", False),
+        lambda d: d["decision"].__setitem__("K455_M_dual_residual_reference_released", False),
+        lambda d: d["decision"].__setitem__("K455_shifted_form_dual_residual_reference_released", True),
     ]
     rejected = 0
     for mutate in mutations:

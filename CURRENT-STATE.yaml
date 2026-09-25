@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1c9a37cb48c5
+revision_basis: f184930547ee
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,30 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K465--K468 correct the K152 residual metric boundary and make two pending
+    certificate routes constructive without inventing their native inputs.
+    K465 proves that K457's vector `S^(-*)ell`, with `M=S^*S`, has squared
+    norm `ell^*M^(-1)ell`: it is the physical-M-dual/Hilbert residual, not
+    K152's shifted form-dual residual `ell^*(R+sM)^(-1)ell`. The complete
+    2,958-vector, 201-group and 59,586-entry finite-Gram payload survives with
+    the corrected metric type; the former shifted-form-dual serialization
+    claim is retracted under `K457-DUAL-METRIC-20260925`.
+
+    K466 proves the exact sharp bridge: if `R+sM>=cM>0`, then inverse order
+    gives `(R+sM)^(-1)<=c^(-1)M^(-1)`. K467 composes that bridge with K463's
+    future `c=lambda_-+s`, K270's target-deficit energy budget and K457's
+    finite-plus-tail norm bound. The 59,586 entries now have a precise
+    demand-derived scheduler, but no native accuracy is released because no
+    numerical K162 coercivity/count packet exists.
+
+    K468 proves K464's adapted-contraction route quantitatively. A nilpotent
+    coefficient-complete perturbation of an acyclic complex with strict
+    Neumann norm inherits the explicit contraction
+    `h_delta=h(1+delta h)^(-1)`. The norm-one singular boundary control is
+    rejected. No actual action coefficients, closed native domain, K77 action
+    selection or physical cohomology follows. Source polarity, ledger, canon,
+    paper, public posture and physical verdicts do not move.
+
     K462--K464 sharpen two open certificate fronts without manufacturing their
     missing native inputs. K462 composes K139 fixed-W semiboundedness, K141's
     continuum limit, K168's center-zero reference extension, K153's exact
@@ -100,12 +124,13 @@ current_result:
     of the action column, not a numerical evaluation of its finite vector
     integrals.
 
-    K457 reduces the complete shifted form-dual residual to 2958 finite
+    K457 reduces the complete physical-M-dual residual to 2958 finite
     vectors in 201 coherent groups, requiring 59586 self/cross Gram entries,
     plus the same post-order-12 tail. K279 already supplies 59234 entries for
     orders 7--12; 352 lower-order entries remain in the typed finite payload.
-    The residual is therefore serialized exactly but not numerically
-    evaluated.
+    This M-dual payload is serialized exactly but not numerically evaluated;
+    K465 retracts its former shifted-form-dual label and K466 owns the missing
+    conditional bridge.
 
     K458 gives three exact self-adjoint controls with the same trial Gram,
     action column, Rayleigh value and zero residual but different complement
@@ -10622,6 +10647,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  Treat K465 as the governing correction to K457: the 59586-entry payload is
+  an M-dual residual, not yet K152's shifted form-dual residual. Preserve its
+  exact combinatorics and tail, but do not release the shifted metric without
+  K466's quantitative coercivity constant. Use K467 only after a complete
+  K162 packet supplies `rho<b<beta`, `eta`, a chosen shift and hence
+  `c=lambda_-+s>0`; combine that with a concrete K152 target deficit before
+  evaluating any Gram entry. Treat K468 as a constructive conditional route
+  through K464 only for an actual coefficient-complete action perturbation
+  that separately proves typed squares, nilpotence and closed-domain
+  preservation. Its abstract controls do not select a K77 action or prove
+  physical cohomology.
+
   Treat K462 as the existential center-zero coercivity theorem on the complete
   K162 carrier, including K153's exact sign-sensitive transport factors. Do
   not treat existential semiboundedness as a numerical lower-bound witness.

@@ -7,6 +7,41 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K465--K468 residual metric correction and K77 contraction (2026-09-25)
+
+K465 audits the Riesz map in K457. With `M=S^*S`, the stored vector
+`S^(-*)ell` has squared norm `ell^*M^(-1)ell`; K152's shifted form-dual energy
+is instead `ell^*(R+sM)^(-1)ell`. Exact diagonal controls keep M-dual square
+`5/6` while changing shifted squares from `5/12` to `11/24`. The finite
+2,958-vector, 201-group, 59,586-entry reduction survives with the corrected
+metric type. Correction `K457-DUAL-METRIC-20260925` retracts only the former
+shifted-form-dual label. The probe passes `16/16` controls and rejects `16/16`
+hostile mutations.
+
+K466 proves the sharp inverse-order bridge. Under `R+sM>=cM>0`,
+`(R+sM)^(-1)<=c^(-1)M^(-1)`, hence the K152 residual energy is at most the
+K457 M-dual energy divided by `c`. Its nonidentity-M control has M-dual square
+`5`, shifted square `17/12` and ceiling `5/3`; equality occurs at `R+sM=cM`.
+The probe passes `15/15`, rejects `15/15` hostile mutations and rejects `2/2`
+invalid inputs. No numerical native `c` is supplied.
+
+K467 composes K270's target-deficit energy budget, K463's global-floor formula,
+K466's bridge and K457's norm tail. The sufficient finite-payload condition is
+`sqrt(Q12)+epsilon_tail<=sqrt(c E_budget)`. The rational control yields
+`E_budget=3/5`, M-dual square budget `1` and an exact finite-Gram-square
+budget. The probe passes `16/16`, rejects `16/16` hostile mutations and rejects
+`4/4` invalid inputs. No native accuracy is released before numerical K162
+and K152 target constants arrive.
+
+K468 applies the basic perturbation lemma to K464's adapted-contraction route.
+An acyclic complex with `dh+hd=I`, a differential `D=d+delta`, and strict
+Neumann norm inherits
+`h_delta=h(1+delta h)^(-1)=(1+h delta)^(-1)h`. The exact two-term control is
+acyclic; the norm-one `delta=-I` boundary is singular with cohomology `(2,2)`
+and is rejected. The probe passes `21/21`, rejects `21/21` hostile mutations
+and rejects `2/2` invalid inputs. Actual action coefficients, typed-domain
+preservation and physical cohomology remain open.
+
 ## K462--K464 coercivity/count composition and K77 properness sieve (2026-09-25)
 
 K462 composes the existing K139/K141 semibounded continuum theorem with
@@ -83,14 +118,16 @@ all-order-complete, but its finite vector integrals are not numerically
 evaluated. Its probe passes `16/16` controls and rejects `16/16` hostile
 mutations.
 
-K457 derives `r=r_12+t_>12` and reduces `||r_12||^2` to the complete coherent
+K457 derives `r=r_12+t_>12` and reduces the physical-M-dual
+`||r_12||^2` to the complete coherent
 finite Gram sum. The payload contains 2958 vectors in 201 coherent groups and
 59586 self/cross entries: 59234 entries for orders 7--12 are already typed by
 K279 and 352 belong to orders 2--6. The tail gives the exact enclosure
 `max(0,sqrt(Q_12)-epsilon)^2 <= ||r||^2 <=
-(sqrt(Q_12)+epsilon)^2`. This serializes the residual without numerically
-evaluating the Gram payload. Its probe passes `20/20` controls and rejects
-`20/20` hostile mutations.
+(sqrt(Q_12)+epsilon)^2`. K465 corrects the metric type: this serializes an
+M-dual residual, not K152's shifted form-dual residual, without numerically
+evaluating the Gram payload. Its corrected probe passes `22/22` controls and
+rejects `22/22` hostile mutations.
 
 K458 supplies three exact self-adjoint diagonal controls with identical unit
 trial Gram, action column `(-2,0,0)`, Rayleigh value `-2` and zero trial

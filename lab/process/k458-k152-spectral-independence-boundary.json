@@ -31,7 +31,8 @@
     "trial_Gram": "1",
     "trial_action_column": ["-2", "0", "0"],
     "trial_Rayleigh": "-2",
-    "trial_shifted_residual_square": "0"
+    "trial_M_dual_residual_square": "0",
+    "trial_shifted_form_dual_residual_square": "0 (the zero control agrees in both metrics and does not identify them)"
   },
   "exact_controls": [
     {"name": "near_complement", "matrix_diagonal": ["-2", "-1", "3"], "orthogonal_compression_floor": "-1", "next_distinct_above_trial": "-1", "shifted_coercivity_floor": "4", "native_left_floor": "-2"},
@@ -54,7 +55,8 @@
   },
   "K455_readiness_after_K456_K458": {
     "complete_continuum_action_column_serialized": true,
-    "complete_shifted_form_dual_residual_serialized": true,
+    "complete_M_dual_residual_serialized": true,
+    "complete_shifted_form_dual_residual_serialized": false,
     "coercivity_serialized": false,
     "next_distinct_spectrum_serialized": false,
     "native_left_floor_serialized": false,

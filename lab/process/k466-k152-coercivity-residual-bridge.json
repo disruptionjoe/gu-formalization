@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "result_id": "K466-K152-COERCIVITY-RESIDUAL-BRIDGE",
+  "created": "2026-09-25",
+  "status": "working_draft_verified",
+  "direction": "observed_to_native",
+  "target_claim": "NONE-NOT-A-KILL",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING — scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "scope": "Exact inverse-order bridge from K457's M-dual residual to K152's shifted form-dual residual under a quantitative coercivity witness.",
+  "gu_typed_objects": {
+    "result": "coercivity residual bridge MAP-TYPE=conditional-theorem",
+    "source_norm": "ell^*M^(-1)ell",
+    "target_norm": "ell^*(R+sM)^(-1)ell"
+  },
+  "source_and_ledger_context": {
+    "source_claims": ["SC-ACT-01", "SC-ACT-02", "SC-ACT-06", "SC-META-53"],
+    "source_polarity_effect": "none",
+    "physics_rows": ["LT-SM8", "LT-GR6b", "RA-F1", "AC-F1"],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "inputs": ["K152", "K457", "K463", "K465"]
+  },
+  "theorem": {
+    "hypothesis": "R+sM >= cM > 0",
+    "inverse_order": "(R+sM)^(-1) <= c^(-1)M^(-1)",
+    "residual_bound": "ell^*(R+sM)^(-1)ell <= c^(-1)ell^*M^(-1)ell",
+    "requires_quantitative_c": true
+  },
+  "nonidentity_metric_control": {
+    "M_diagonal": ["2", "3"],
+    "shifted_form_diagonal": ["6", "12"],
+    "ell": ["2", "3"],
+    "c": "3",
+    "M_dual_square": "5",
+    "shifted_form_dual_square": "17/12",
+    "bridge_ceiling": "5/3",
+    "bound_holds": true
+  },
+  "sharp_control": {
+    "shifted_form_equals_cM": true,
+    "shifted_form_dual_square": "5/3",
+    "bridge_ceiling": "5/3",
+    "equality_holds": true
+  },
+  "native_status": {
+    "K463_formula_can_supply_c": true,
+    "native_quantitative_c_serialized": false,
+    "K152_shifted_residual_numerically_bounded": false
+  },
+  "controls": {
+    "producer": "tests/channel-swings/k466_k152_coercivity_residual_bridge.py",
+    "probe": "tests/channel-swings/k466_k152_coercivity_residual_bridge_probe.py",
+    "controls_passed": 15,
+    "hostile_mutations_rejected": 15,
+    "invalid_inputs_rejected": 2
+  },
+  "claim_ceiling": "The bridge is exact and sharp but conditional on a positive numerical c. No native K162 c, shifted residual value, K152 interval or source, ledger, canon, paper, public or physical claim follows."
+}

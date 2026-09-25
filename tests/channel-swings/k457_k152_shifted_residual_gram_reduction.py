@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""K457 exact finite-Gram reduction of the complete shifted residual."""
+"""K457 exact finite-Gram reduction of the complete M-dual residual."""
 
 from __future__ import annotations
 
@@ -57,7 +57,7 @@ def demo() -> dict[str, Any]:
     control_lower, control_upper = residual_square_interval(Fraction(9, 16), tail)
     return {
         "schema_version": "1.0",
-        "result_id": "K457-K152-SHIFTED-RESIDUAL-GRAM-REDUCTION",
+        "result_id": "K457-K152-M-DUAL-RESIDUAL-GRAM-REDUCTION",
         "classification": "INTERNAL_STRUCTURAL_ONLY",
         "direction": "observed_to_native",
         "residual_identity": {
@@ -66,6 +66,8 @@ def demo() -> dict[str, Any]:
             "complete_residual": "r=r_12+t_>12",
             "finite_square": "Q_12=sum_(i,j in coherent groups) c_i*c_j*<v_i,v_j>",
             "two_sided_bound": "max(0,sqrt(Q_12)-epsilon)^2 <= ||r||^2 <= (sqrt(Q_12)+epsilon)^2",
+            "metric_type": "M-dual/Hilbert residual ell^*M^(-1)ell",
+            "K152_shifted_form_dual_type": "ell^*(R+sM)^(-1)ell",
         },
         "finite_gram_payload": {
             "resolved_vectors": len(terms),
@@ -88,8 +90,9 @@ def demo() -> dict[str, Any]:
             "contains_finite_square": control_lower <= Fraction(9, 16) <= control_upper,
         },
         "release_test": {
-            "complete_shifted_form_dual_residual_serialized": True,
-            "complete_shifted_form_dual_residual_numerically_evaluated": False,
+            "complete_M_dual_residual_serialized": True,
+            "complete_M_dual_residual_numerically_evaluated": False,
+            "complete_shifted_form_dual_residual_serialized": False,
             "finite_gram_payload_fully_typed": True,
             "finite_gram_payload_numerically_complete": False,
             "coercivity_serialized": False,
@@ -99,8 +102,9 @@ def demo() -> dict[str, Any]:
         },
         "decision": {
             "K455_column_reference_released": True,
-            "K455_residual_reference_released": True,
-            "next_exact_input": "Evaluate or rigorously enclose the 59,586 coherent finite Gram entries only to the accuracy demanded by an independently proved complement-spectrum and left-floor packet.",
+            "K455_M_dual_residual_reference_released": True,
+            "K455_shifted_form_dual_residual_reference_released": False,
+            "next_exact_input": "Supply a quantitative coercivity constant and K152 energy budget, apply K466/K467, then evaluate or rigorously enclose the 59,586 coherent finite Gram entries only to the resulting accuracy.",
         },
     }
 

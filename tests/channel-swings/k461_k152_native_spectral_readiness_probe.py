@@ -18,7 +18,7 @@ def controls(packet):
         ("classification", packet.get("classification") == "INTERNAL_STRUCTURAL_ONLY"),
         ("direction", packet.get("direction") == "observed_to_native"),
         ("three routes", len(packet.get("accepted_spectral_routes", [])) == 3),
-        ("missing coercivity", current.get("missing_common_references") == ["center_zero_coercivity_ref"]),
+        ("missing coercivity and bridge", current.get("missing_common_references") == ["center_zero_coercivity_ref", "shifted_form_dual_residual_bridge_ref"]),
         ("no current route", current.get("spectral_route") is None),
         ("current relative not ready", current.get("relative_coordinate_family_ready") is False),
         ("current absolute not ready", current.get("absolute_physical_axis_ready") is False),
@@ -32,10 +32,11 @@ def controls(packet):
         ("no native relative interval", current.get("native_K152_relative_interval_emitted") is False),
         ("no native absolute interval", current.get("native_K152_absolute_interval_emitted") is False),
         ("column released", decision.get("K456_column_released") is True),
-        ("residual released", decision.get("K457_residual_released") is True),
+        ("M residual released", decision.get("K457_M_dual_residual_released") is True),
+        ("shifted residual held", decision.get("K152_shifted_form_dual_residual_released") is False),
         ("no HVZ substitution", decision.get("K169_HVZ_membership_released_as_complement_floor") is False),
         ("center correction", decision.get("selected_center_removed_from_relative_readiness") is True),
-        ("next exact", "rank-one-below-b certificate" in decision.get("next_exact_input", "")),
+        ("next exact", "quantitative K162 rank-one/coercivity packet" in decision.get("next_exact_input", "")),
     ]
 
 
@@ -62,7 +63,8 @@ def main() -> int:
         lambda d: d["current_native_readiness"].__setitem__("native_K152_relative_interval_emitted", True),
         lambda d: d["current_native_readiness"].__setitem__("native_K152_absolute_interval_emitted", True),
         lambda d: d["decision"].__setitem__("K456_column_released", False),
-        lambda d: d["decision"].__setitem__("K457_residual_released", False),
+        lambda d: d["decision"].__setitem__("K457_M_dual_residual_released", False),
+        lambda d: d["decision"].__setitem__("K152_shifted_form_dual_residual_released", True),
         lambda d: d["decision"].__setitem__("K169_HVZ_membership_released_as_complement_floor", True),
         lambda d: d["decision"].__setitem__("selected_center_removed_from_relative_readiness", False),
         lambda d: d["decision"].__setitem__("next_exact_input", "repeat finite audit"),
