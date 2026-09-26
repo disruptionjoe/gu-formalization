@@ -7,6 +7,34 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K507--K509 native path positivity and selected order-ten strips (2026-09-25)
+
+K507 proves an exact exception to K505's generic cancellation warning for the
+K177 equal-coupling positive-Fock family. Every transition block has even
+fermion parity; paths with the same output impurity and occupation signature
+have one CAR sign; distinct signatures are orthogonal; and same-order
+heat-kernel moment determinants are nonnegative by Andreief. Therefore the
+native all-ones ray satisfies
+`||v_n||^2 >= sum_p ||x_(n,p)||^2 >= ||x_(n,p0)||^2`. Its probe passes `15/15`
+controls and rejects `8/8` hostile mutations. K505 remains a valid generic
+countercontrol, and K507 supplies no refinement-uniform all-level path-norm
+rate, uniform K500 leakage, cyclic/noncyclic floor, K473 or K152 conclusion.
+
+K508 executes seven exact rational positive-width cells on one selected
+reachable face for each of twenty order-ten hybrids. All 140 cells, 1,862,000
+ordered descriptor-cell evaluations and twenty direct overlaps are finite
+with positive argument floors at 180 Arb digits. Its probe passes `15/15`
+controls and rejects `8/8` hostile mutations.
+
+K509 composes those cells with K486's normal powers and K410's Peano
+coefficients. All 140 selected equal-normal strip contributions are finite
+and positive over exact total rho width `3/4096`; its probe passes `13/13`
+controls and rejects `8/8` hostile mutations. These results cover 20 of 936
+reachable faces, not the remaining 916 faces, a projective normal-cone cover,
+the origin, recursive positive interior, analytic tails or a complete hybrid
+integral. No K457 value, K152 interval, source/ledger/canon/public/physical
+conclusion follows.
+
 ## K504--K506 all-level lower-envelope admissibility (2026-09-25)
 
 K504 proves the finite exterior-rank boundary: in a fixed finite CAR

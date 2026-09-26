@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 4e739166e2dd
+revision_basis: dd473bc62a58
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,31 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K507 resolves the cancellation branch left by K505/K506 for the exact
+    K177 equal-coupling positive-Fock family. Every admitted transition has
+    even fermion parity; paths with one output impurity and occupation
+    signature have one CAR sign; different signatures are orthogonal; and
+    the same-order heat-kernel moment determinants are nonnegative by the
+    Andreief representation. Consequently every same-signature native path
+    cross term is nonnegative and, on the actual all-ones coefficient ray,
+    `||v_n||^2 >= sum_p ||x_(n,p)||^2 >= ||x_(n,p0)||^2`. The generic K505
+    cancellation control remains valid but does not apply to this exact
+    family, and K506's complete normalized-Gram floor is unnecessary here.
+    K507 does not yet provide a refinement-uniform all-level norm rate for a
+    chosen path, so K500's uniform leakage remains open.
+
+    K508--K509 independently advance the order-ten face route. K508 evaluates
+    seven positive-width rational cells on one selected reachable face in
+    each of twenty hybrid domains: all 140 cells, 1,862,000 ordered
+    descriptor-cell evaluations and twenty direct overlaps are finite with
+    positive argument floors. K509 integrates those equal-normal strips over
+    exact total rho width `3/4096`; all 140 contributions are finite and
+    positive. This covers only 20 of 936 reachable faces. The remaining 916
+    faces, projective normal-cone cover, origin, recursive interior and
+    analytic tails remain open, so no complete hybrid integral, K457 value or
+    K152 interval follows. No source, ledger, canon, paper, public-posture or
+    physical conclusion moves.
+
     K504--K506 decide the admissibility of K503's proposed native
     lower-word-norm route before another finite bath-prefix calculation.
     K504 proves that every fixed finite one-particle CAR approximant has a
@@ -10497,16 +10522,27 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K504--K506 show exactly what a valid lower-word-norm continuation requires.
-  Do not use one fixed finite K162 exterior approximant, a finite bath prefix,
-  or one nonzero ordered CAR path as an all-level lower envelope. For every
-  supported q00/q10 bath level, construct a continuum-first or
-  refinement-uniform path decomposition, lower bounds on the path norm
-  squares and a positive lower eigenvalue `epsilon_n` for the normalized path
-  Gram. Compare the resulting K506 word lower directly with the K175/K496
-  absolute residual. If uniform conditioning is not available, switch to a
-  direct uniform bound on K501's normalized variance rather than accumulating
-  more finite levels. Keep the q00/q10 multiplicities separate. Independently
+  K507 removes the complete path-Gram conditioning burden on the exact K177
+  equal-coupling all-ones ray: same-signature cross terms are nonnegative and
+  different signatures are orthogonal. Choose one explicit nonzero continuum
+  path at every supported q00/q10 bath level, derive a refinement-uniform
+  lower sequence for its norm, and compare that sequence directly with the
+  K175/K496 absolute residual. Preserve K505 as the generic cancellation
+  countercontrol; do not export K507 beyond the exact equal-coupling family.
+
+  On the independent order-ten route, extend K508/K509 from the selected
+  twenty reachable faces to the remaining 916 under a separately measured
+  resource plan, then construct the normal-projective partition and join it
+  to recursive positive-interior cells and analytic tails. Do not treat the
+  selected equal-normal strips as an all-face cover or hybrid integral.
+
+  K504--K506 still govern generic path families outside K507's exact
+  equal-coupling scope. Do not use one fixed finite K162 exterior approximant,
+  a finite bath prefix, or one nonzero ordered path without an orthogonality,
+  positivity or conditioning proof. If the native coefficients or carrier
+  leave K507's scope, return to continuum-first path norm lowers plus a
+  normalized path-Gram floor `epsilon_n`, or switch to a direct uniform K501
+  variance bound. Keep q00/q10 multiplicities separate and independently
   obtain a floor on the noncyclic compression before K494/K473.
 
   K498--K500 reduce the remaining K162 complement problem to two native
@@ -10885,17 +10921,30 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Continue K500 through K506's exact conditioning obligation. On the continuum
-  carrier, or uniformly before refinement is removed, enumerate the q00/q10
-  path ranges at every supported bath level, certify each path norm-square
-  lower bound and a normalized path-Gram floor `epsilon_n`, and prove that the
-  resulting word lower dominates the held K175/K496 absolute residual with a
-  uniform ratio. Fixed finite exterior models and individual paths are now
-  rejected proof routes by K504/K505. If the all-level Gram conditioning is
-  not tractable, evaluate K501's normalized variance directly and uniformly.
-  Reuse K502/K506's exact level-one replay only as an anchor, not as the
-  supremum. Combine any all-level cross only with a separately certified
-  noncyclic floor. K503 remains a logical control, not a native counterexample.
+  Continue K500 from K507's exact native positivity theorem. Select an
+  explicit nonzero K177 path at every q00/q10 level, prove a
+  refinement-uniform lower norm sequence, and show that its ratio to the
+  K175/K496 absolute residual remains uniformly controlled. A full normalized
+  path-Gram eigenvalue is not required for this equal-coupling coefficient
+  ray, but K507 supplies no quantitative rate by itself. Combine any resulting
+  cross bound only with separately certified cyclic and noncyclic floors.
+
+  Continue the order-ten route by evaluating the remaining 916 reachable
+  face programs under an explicit resource plan, then build the
+  normal-projective cover, origin control, recursive positive-interior cover
+  and analytic tails. K508/K509 release only twenty selected equal-normal
+  strips of width `3/4096`; they do not release a complete hybrid integral,
+  K457 cross or K152 interval.
+
+  Retain K506's full conditioning obligation for generic families outside
+  K507's exact positivity scope. On such a carrier, certify path norm-square
+  lowers and a normalized path-Gram floor `epsilon_n`, or evaluate K501's
+  normalized variance directly and uniformly. Fixed finite exterior models
+  remain rejected by K504, while individual paths require K507's exact
+  positivity or another explicit no-cancellation proof. Reuse K502/K506's
+  level-one replay only as an anchor, and combine any all-level cross only
+  with a separately certified noncyclic floor. K503 remains a logical
+  control, not a native counterexample.
 
   Separately instantiate K498's exact cyclic contrast form with authenticated
   native `alpha`, `f` and `F` intervals on expanding prefixes and close the

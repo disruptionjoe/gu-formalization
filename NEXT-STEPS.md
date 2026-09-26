@@ -20,6 +20,24 @@ updated_at: "2026-09-25"
 > `lab/process/reverse-scaffold-method-contract.json` and the active
 > `CONDITIONAL-BUILD-REVERSE-SCAFFOLD` agenda item.
 
+> **2026-09-25 K507--K509 NATIVE PATH POSITIVITY AND SELECTED ORDER-TEN
+> STRIPS.** K507 proves that the exact K177 equal-coupling positive-Fock path
+> family is cancellation-free on its native all-ones coefficient ray:
+> same-signature paths have one CAR sign and nonnegative heat-kernel moment
+> cross terms, while distinct signatures are orthogonal. Thus one selected
+> native path norm lower-bounds the complete word, without K506's full Gram
+> floor. Its probe passes `15/15` controls and rejects `8/8` hostile
+> mutations. The next input is an explicit path at every q00/q10 level with a
+> refinement-uniform norm lower sequence compared directly with K175/K496.
+> Independently, K508 evaluates 140 positive-width cells on twenty selected
+> order-ten faces, covering 1,862,000 descriptor-cell evaluations and twenty
+> direct overlaps; K509 integrates those selected equal-normal strips over
+> exact total rho width `3/4096`. Their probes pass `15/15` and `13/13`
+> controls and each rejects `8/8` hostile mutations. The remaining 916 faces,
+> projective/origin/interior coverage, tails, complete hybrid integrals,
+> K457, K152 and all source/ledger/canon/public/physical conclusions remain
+> open.
+
 > **2026-09-25 K504--K506 ALL-LEVEL LOWER-ENVELOPE ADMISSIBILITY.** K504
 > proves that one fixed finite-dimensional CAR approximant terminates above
 > its species-rank ceiling and therefore cannot prove a strictly positive

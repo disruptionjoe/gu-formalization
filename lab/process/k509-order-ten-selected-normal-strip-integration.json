@@ -1,0 +1,2088 @@
+{
+  "claim_ceiling": "Exact outward integration of K508's seven-cell equal-normal chart on rho in [1/4096,1/1024] for the twenty K487 selected reachable-face programs. Each contribution uses K486's face-normal power and K410's quadratic Peano coefficient. This is selected-program backend evidence only: 916 reachable faces, the normal-projective cover, origin rho<1/4096, positive interior, analytic tails, complete order-ten remainder/integral, K457 value, K152 interval, source/ledger move, canon, paper, public and physical posture remain open.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "all_selected_equal_normal_near_face_strips_integrated": true,
+    "analytic_radial_tails_complete": false,
+    "complete_hybrid_integrals_emitted": false,
+    "full_projective_normal_cone_complete": false,
+    "next_exact_input": "Execute the remaining all-face bank under a measured resource plan, then construct the normal-projective partition and join it to recursive positive-interior cells and analytic tails.",
+    "recursive_positive_interior_cover_complete": false,
+    "remaining_916_faces_integrated": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K508_complete_selected_bank_sha256": "sha256:fe2489c4b2ab443a20563daae93117283e9b122b6b52a00c94fd1b90d61ece26",
+    "active_peano_face_count": 2,
+    "arb_decimal_digits": 180,
+    "cells_per_selected_face": 7,
+    "exact_partition_width": "3/4096",
+    "integrated_selected_face_cells": 140,
+    "normal_strip": [
+      "1/4096",
+      "1/1024"
+    ],
+    "predecessor_manifest": "lab/process/k508-order-ten-selected-face-cell-bank.json",
+    "selected_reachable_face_programs": 20,
+    "threads": 1
+  },
+  "hybrid_summary": [
+    {
+      "axis": "s1",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "2.5677101946109843e+17",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s2",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "8.700877984887532e+17",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s3",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "1.8707110779791972e+18",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s4",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "3.49337878314857e+18",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s5",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "5.819029356982614e+18",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s6",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "9.352662443422726e+18",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s7",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "1.4626946405766445e+19",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s8",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "2.2909554775081468e+19",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s9",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "4.0047647921437925e+19",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s10",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "7.575554943698192e+19",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "s11",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "3.5827741075186786e+19",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v1",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "35749798996109.74",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v2",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "113413871488123.66",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v3",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "257708104277973.75",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v4",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "472170272856013.4",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v5",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "845974156149736.2",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v6",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "1354106310502332.2",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v7",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "2541769926967196.0",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v8",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "4038591425940429.5",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v9",
+      "selected_face_count": 1,
+      "selected_face_equal_normal_strip_abs_upper": "774335903648822.1",
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v10",
+      "selected_face_count": 0,
+      "selected_face_equal_normal_strip_abs_upper": null,
+      "selected_row_is_not_a_hybrid_integral": true
+    },
+    {
+      "axis": "v11",
+      "selected_face_count": 0,
+      "selected_face_equal_normal_strip_abs_upper": null,
+      "selected_row_is_not_a_hybrid_integral": true
+    }
+  ],
+  "integration_contract": {
+    "K410_quadratic_peano_factor_used": true,
+    "K486_face_normal_jacobian_power_used": true,
+    "K508_scaled_second_upper_used": true,
+    "active_zeroed_axis_factor_is_rho_squared_over_2c_squared": true,
+    "nonzeroed_active_axis_factor_is_1_over_2_times_256_squared": true,
+    "selected_equal_normal_strip_is_not_full_projective_normal_cone": true,
+    "selected_face_rows_are_not_complete_hybrid_integrals": true,
+    "seven_cells_exactly_partition_declared_strip": true,
+    "seven_cells_pairwise_disjoint_up_to_boundaries": true,
+    "unit_projective_angular_density_only": true
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "release_test": {
+    "all_contributions_finite_positive": true,
+    "all_face_cover_not_overclaimed": true,
+    "all_selected_normal_powers_integrable": true,
+    "complete_order_ten_remainder_not_overclaimed": true,
+    "declared_strip_exactly_partitioned": true,
+    "exactly_140_integrated_cells_present": true,
+    "exactly_20_hybrids_have_selected_reachable_faces": true,
+    "exactly_20_selected_face_strip_rows_present": true,
+    "full_normal_cone_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "v10_v11_have_no_invented_faces": true
+  },
+  "result_id": "K509-ORDER-TEN-SELECTED-NORMAL-STRIP-INTEGRATION",
+  "schema_version": "1.0",
+  "selected_face_strip_bank": [
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s1",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "1.3420739667007864e+16",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "2.078094381858856e+16",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "2.823636903386521e+16",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "3.5371849078469076e+16",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "6.0794176495580744e+16",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "8.779797838455283e+16",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "1.0368962983034166e+16",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "2.5677101946109843e+17",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s1:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s2",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "4.5877437688387544e+16",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "7.089844733474689e+16",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "9.612199553257808e+16",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "1.2011683291001506e+17",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "2.0587340437134502e+17",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "2.963271486748856e+17",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "3.487253197679486e+16",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "8.700877984887532e+17",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s2:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s3",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "9.822872377202067e+16",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "1.5194864108392157e+17",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "2.0622132265864867e+17",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "2.579921164610199e+17",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "4.42795853349168e+17",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "6.383484672014272e+17",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "7.517595345299109e+16",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "1.8707110779791972e+18",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s3:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s4",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "1.841415309212032e+17",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "2.8461950781660826e+17",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "3.859126061998112e+17",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "4.8226451435820525e+17",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "8.266599563707048e+17",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "1.1898717314650734e+18",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "1.3990893601696395e+17",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "3.49337878314857e+18",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s4:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s5",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "3.05697605254797e+17",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "4.728640934901075e+17",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "6.416910076248284e+17",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "8.026499911664909e+17",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "1.3774006251148598e+18",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "1.9851656694604165e+18",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "2.3356036487111427e+17",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "5.819029356982614e+18",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s5:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s6",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "4.931232086691378e+17",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "7.6226204905595e+17",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "1.033504931926859e+18",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "1.2913831082054065e+18",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "2.2133295609735762e+18",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "3.1849335675583626e+18",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "3.74126017033433e+17",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "9.352662443422726e+18",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s6:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s7",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "7.685865408109414e+17",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "1.188919928386567e+18",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "1.6133737656675407e+18",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "2.0179220338025341e+18",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "3.4624120449960084e+18",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "4.988944190070716e+18",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "5.867879020321371e+17",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "1.4626946405766445e+19",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s7:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s8",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "1.2119394546954967e+18",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "1.8721227282811377e+18",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "2.536291086000164e+18",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "3.166226516149766e+18",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "5.420361137310551e+18",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "7.788627915445426e+18",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "9.139859371989252e+17",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "2.2909554775081468e+19",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s8:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s9",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "2.115614009323543e+18",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "3.2691566118418386e+18",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "4.430715368493507e+18",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "5.533462722727109e+18",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "9.477085519029764e+18",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "1.3623168348984293e+19",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "1.5984453410378703e+18",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "4.0047647921437925e+19",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s9:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": false,
+      "axis": "s10",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "4.127270536261433e+18",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "6.335264778933451e+18",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "8.520275752455664e+18",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "1.054857908899256e+19",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "1.7880606325366508e+19",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "2.5391606499768513e+19",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "2.9519464552037873e+18",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "7.575554943698192e+19",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "s10:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 0,
+      "active_peano_axis_zeroed": true,
+      "axis": "s11",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/8",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "1/16384",
+          "integrated_abs_upper": "1.8630027856269215e+18",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/8",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "5/65536",
+          "integrated_abs_upper": "2.8980510721782134e+18",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/8",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "3.9183727492156524e+18",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/8",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "7/65536",
+          "integrated_abs_upper": "4.868388329284765e+18",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/8",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "9/65536",
+          "integrated_abs_upper": "8.543371044897253e+18",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/8",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "11/65536",
+          "integrated_abs_upper": "1.2448815412304593e+19",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/8",
+          "K486_normal_power": 0,
+          "exact_normal_power_mass": "3/32768",
+          "integrated_abs_upper": "1.287739681679387e+18",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 2,
+      "complete_selected_equal_normal_strip_abs_upper": "3.5827741075186786e+19",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 3,
+      "program_id": "s11:kernel_zero:s11,v11",
+      "zeroed_axes": [
+        "s11",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v1",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "302804412131.2411",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "745679309615.2767",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "1594651593003.232",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "3126640946363.596",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "8247263563264.82",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "18660861371272.223",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "3071897800459.354",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "35749798996109.74",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v1:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v2",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "961749738163.2242",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "2369413500519.377",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "5068887487274.434",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "9928405294589.01",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "26191162306685.426",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "59172167903569.16",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "9722085257323.03",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "113413871488123.66",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v2:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v3",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "2181775644733.1133",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "5378223051821.331",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "11511149576698.16",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "22552895451001.49",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "59515794901206.31",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "134485411186663.1",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "22082854465850.254",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "257708104277973.75",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v3:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v4",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "4002633554105.7295",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "9867229201425.92",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "21117447821567.844",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "41352273625784.94",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "109099470562695.64",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "246325974457950.4",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "40405243632482.914",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "472170272856013.4",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v4:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v5",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "7140813264834.088",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "17629507905811.895",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "37772043978166.4",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "74031000817664.86",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "195483669738983.38",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "441606951635528.2",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "72310168808747.39",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "845974156149736.2",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v5:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v6",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "11476369177951.31",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "28315796788284.74",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "60622390478989.84",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "118695698571286.45",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "313109854631103.9",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "706345075520453.9",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "115541125334262.3",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "1354106310502332.2",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v6:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v7",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "21452214668030.992",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "53029636360907.95",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "113721850896169.64",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "222883919429908.88",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "588236127699535.1",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "1326153057408888.5",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "216293120503754.72",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "2541769926967196.0",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v7:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": false,
+      "axis": "v8",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "34512356091211.65",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "85094784683317.2",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "182017525551183.9",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "355717148338365.5",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "935994548994002.6",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "2102779227896218.0",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/131072",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "342475834386131.0",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "4038591425940429.5",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 1,
+      "program_id": "v8:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "K486_normal_power": 1,
+      "active_peano_axis_zeroed": true,
+      "axis": "v9",
+      "cells": [
+        {
+          "K410_peano_coefficient": "1/18",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "9/536870912",
+          "integrated_abs_upper": "6976958091016.901",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "normal_width": "1/16384"
+        },
+        {
+          "K410_peano_coefficient": "1/18",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "225/8589934592",
+          "integrated_abs_upper": "16944065845545.227",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "normal_width": "5/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/18",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "21/536870912",
+          "integrated_abs_upper": "35180947217965.938",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "normal_width": "3/32768"
+        },
+        {
+          "K410_peano_coefficient": "1/18",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "483/8589934592",
+          "integrated_abs_upper": "67195041318890.61",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "normal_width": "7/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/18",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "765/8589934592",
+          "integrated_abs_upper": "179859240947486.1",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "normal_width": "9/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/18",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "1155/8589934592",
+          "integrated_abs_upper": "411213581275467.3",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "normal_width": "11/65536"
+        },
+        {
+          "K410_peano_coefficient": "1/18",
+          "K486_normal_power": 1,
+          "exact_normal_power_mass": "183/2147483648",
+          "integrated_abs_upper": "56966068952450.016",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "normal_width": "3/32768"
+        }
+      ],
+      "codimension": 3,
+      "complete_selected_equal_normal_strip_abs_upper": "774335903648822.1",
+      "face_kind": "kernel_zero",
+      "maximum_second_singular_power": 3,
+      "program_id": "v9:kernel_zero:v9,v10,v11",
+      "zeroed_axes": [
+        "v9",
+        "v10",
+        "v11"
+      ]
+    }
+  ],
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  },
+  "strip_summary": {
+    "all_140_cell_contributions_finite_positive": true,
+    "all_20_selected_face_strips_integrated": true,
+    "complete_selected_strip_bank_sha256": "sha256:0d9b154e8ae82dc849670bb2377c995d45c2ca6720ee827ae08ffd66c0a6b00f",
+    "minimum_selected_K486_normal_power": 0,
+    "selected_hybrids_with_reachable_faces": 20,
+    "selected_hybrids_without_reachable_faces": [
+      "v10",
+      "v11"
+    ]
+  }
+}
