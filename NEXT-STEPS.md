@@ -2,10 +2,22 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-25"
+updated_at: "2026-09-26"
 ---
 
 # Next Steps For Contributors
+
+> **2026-09-26 K516 ORDER-TEN FACE SHARDS 025--032.** K516 executes the
+> next eight exact K511 shards through the certified 180-digit, one-thread
+> backend. All 32 programs, 224 positive-width cells, 2,979,200 ordered
+> descriptor-cell evaluations, 9,206,736 divided-difference operations and
+> 32 direct overlaps pass with positive cumulative-argument floors. The
+> stored-result probe passes `21/21` controls and rejects `11/11` hostile
+> mutations. Together with K512--K515, 132 of the 916 K508-omitted programs
+> are now executed and 784 remain. Continue at shard 033 under serialized
+> resource control before constructing the projective normal cone, recursive
+> interior and analytic tails. No complete face bank, hybrid integral,
+> K500/K473, K457/K152 or source/ledger/canon/public/physical result follows.
 
 > **2026-09-25 K515 ORDER-TEN FACE SHARDS 017--024.** K515 executes the
 > next eight exact K511 shards through the certified 180-digit, one-thread
