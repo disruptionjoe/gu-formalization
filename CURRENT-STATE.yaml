@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dd473bc62a58
+revision_basis: be6be3ee4aee
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K510--K512 sharpen both continuations left by K507--K509. K510 selects an
+    explicit nonzero single-flavor alternating K177 path at every q00/q10
+    level, but proves that a lower certificate retaining an uncancelled
+    ordered-simplex `1/n!` penalty cannot normalize K496 uniformly: the exact
+    residual-to-template ratio grows as
+    `n!*(((n+1)-3n/8)/(5/8)^3)`. This rejects only that proof template; it
+    does not bound the actual native path norm or retract K507. K511 partitions
+    the exact 916 unexecuted K487 faces into 229 deterministic four-program
+    shards with no overlap or omission. K512 executes shard 000 at 180 Arb
+    digits and one thread: all four programs, 28 cells, 372,400 descriptor-cell
+    evaluations and four direct overlaps pass. The observed 471.4 seconds
+    extrapolates linearly to about 30 hours for all 916 programs, as resource
+    evidence rather than a runtime bound. The other 912 faces and every
+    projective/interior/tail obligation remain open. No K500 uniform leakage,
+    K473 floor, K457 value, K152 interval or source/physical result moves.
+
     K507 resolves the cancellation branch left by K505/K506 for the exact
     K177 equal-coupling positive-Fock family. Every admitted transition has
     even fermion parity; paths with one output impurity and occupation
@@ -10522,19 +10538,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K507 removes the complete path-Gram conditioning burden on the exact K177
-  equal-coupling all-ones ray: same-signature cross terms are nonnegative and
-  different signatures are orthogonal. Choose one explicit nonzero continuum
-  path at every supported q00/q10 bath level, derive a refinement-uniform
-  lower sequence for its norm, and compare that sequence directly with the
-  K175/K496 absolute residual. Preserve K505 as the generic cancellation
-  countercontrol; do not export K507 beyond the exact equal-coupling family.
+  K510 shows that K507's explicit alternating q00/q10 paths are nonzero at
+  every level, but a lower proof that pays the full ordered-simplex `1/n!`
+  volume cannot dominate K496's geometric residual. Seek a quantitative
+  total-positivity/determinant lower that avoids factorial loss, or switch to
+  a directly normalized K501 variance bound. Do not reinterpret K510's proof
+  template as an upper or lower bound on the actual native path norm, and do
+  not retract K507's exact positivity theorem.
 
-  On the independent order-ten route, extend K508/K509 from the selected
-  twenty reachable faces to the remaining 916 under a separately measured
-  resource plan, then construct the normal-projective partition and join it
-  to recursive positive-interior cells and analytic tails. Do not treat the
-  selected equal-normal strips as an all-face cover or hybrid integral.
+  On the independent order-ten route, K511 now owns 229 exact four-program
+  shards for the 916 faces omitted by K508. K512 completes shard 000 and
+  measures about 118 seconds per program on this host. Execute the remaining
+  shards under serialized resource control, then construct the
+  normal-projective partition and join it to recursive positive-interior cells
+  and analytic tails. Do not treat one shard, or its linear timing estimate,
+  as the all-face cover or hybrid integral.
 
   K504--K506 still govern generic path families outside K507's exact
   equal-coupling scope. Do not use one fixed finite K162 exterior approximant,
@@ -10921,19 +10939,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  Continue K500 from K507's exact native positivity theorem. Select an
-  explicit nonzero K177 path at every q00/q10 level, prove a
-  refinement-uniform lower norm sequence, and show that its ratio to the
-  K175/K496 absolute residual remains uniformly controlled. A full normalized
-  path-Gram eigenvalue is not required for this equal-coupling coefficient
-  ray, but K507 supplies no quantitative rate by itself. Combine any resulting
-  cross bound only with separately certified cyclic and noncyclic floors.
+  Continue K500 beyond K510's simplex-volume obstruction. Either prove a
+  determinant-aware refinement-uniform lower for the explicit alternating
+  q00/q10 paths whose ratio to K496 remains uniformly controlled, or attack
+  K501's normalized variance directly. Do not repeat a lower certificate with
+  an uncancelled `1/n!` factor. Combine any resulting cross bound only with
+  separately certified cyclic and noncyclic floors.
 
-  Continue the order-ten route by evaluating the remaining 916 reachable
-  face programs under an explicit resource plan, then build the
+  Continue the order-ten route by executing K511 shards 001--228 under
+  serialized resource control, then build the
   normal-projective cover, origin control, recursive positive-interior cover
-  and analytic tails. K508/K509 release only twenty selected equal-normal
-  strips of width `3/4096`; they do not release a complete hybrid integral,
+  and analytic tails. K508/K509 plus K512 release only 24 face programs;
+  they do not release the other 912 programs, a complete hybrid integral,
   K457 cross or K152 interval.
 
   Retain K506's full conditioning obligation for generic families outside

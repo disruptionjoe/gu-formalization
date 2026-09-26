@@ -1,0 +1,617 @@
+{
+  "all_level_path": {
+    "admitted_by_hard_core_automaton_for_every_n": true,
+    "charge_preserving_for_every_n": true,
+    "common_CAR_sign_with_its_K507_signature_block": true,
+    "continuum_CAR_state_nonzero_for_every_n": true,
+    "orders_zero_through_twelve_replayed": true,
+    "q00": "(1-,1+) repeated, truncated after n letters",
+    "q10": "(1+,1-) repeated, truncated after n letters"
+  },
+  "claim_ceiling": "An exact all-level native path selection and a rate obstruction for one natural certificate family. It does not bound the actual path norm above or below by the tested template, decide K500 leakage, supply a noncyclic/cyclic floor, move K473/K152, or change source, ledger, canon, paper, public, novelty or physical conclusions.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-25",
+  "decision": {
+    "K507_native_positivity_retracted": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "determinant_aware_or_direct_variance_work_required": true,
+    "next_exact_input": "Exploit quantitative total positivity of the actual heat-kernel moment determinant strongly enough to avoid factorial loss, or switch to a directly normalized K501 variance estimate; do not repeat a simplex-volume-only lower.",
+    "simplex_volume_only_selected_path_certificate_sufficient_for_K500": false,
+    "uniform_all_level_native_path_lower_emitted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_paths_nonzero": true,
+    "order_12_ratio_exceeds_order_1": true,
+    "row_count": 26,
+    "rows": [
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "0",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [],
+        "order": 0,
+        "output_impurity": 0,
+        "seed_impurity": 0,
+        "simplex_volume_template": "1",
+        "tail_to_template_ratio": "0"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "312/125",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-"
+        ],
+        "order": 1,
+        "output_impurity": 1,
+        "seed_impurity": 0,
+        "simplex_volume_template": "3/8",
+        "tail_to_template_ratio": "832/125"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "162/125",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+"
+        ],
+        "order": 2,
+        "output_impurity": 0,
+        "seed_impurity": 0,
+        "simplex_volume_template": "9/128",
+        "tail_to_template_ratio": "2304/125"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "621/1000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 3,
+        "output_impurity": 1,
+        "seed_impurity": 0,
+        "simplex_volume_template": "9/1024",
+        "tail_to_template_ratio": "8832/125"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "567/2000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 4,
+        "output_impurity": 0,
+        "seed_impurity": 0,
+        "simplex_volume_template": "27/32768",
+        "tail_to_template_ratio": "43008/125"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "8019/64000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 5,
+        "output_impurity": 1,
+        "seed_impurity": 0,
+        "simplex_volume_template": "81/1310720",
+        "tail_to_template_ratio": "50688/25"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "13851/256000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 6,
+        "output_impurity": 0,
+        "seed_impurity": 0,
+        "simplex_volume_template": "81/20971520",
+        "tail_to_template_ratio": "350208/25"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "94041/4096000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 7,
+        "output_impurity": 1,
+        "seed_impurity": 0,
+        "simplex_volume_template": "243/1174405120",
+        "tail_to_template_ratio": "2774016/25"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "19683/2048000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 8,
+        "output_impurity": 0,
+        "seed_impurity": 0,
+        "simplex_volume_template": "729/75161927680",
+        "tail_to_template_ratio": "24772608/25"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "1043199/262144000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 9,
+        "output_impurity": 1,
+        "seed_impurity": 0,
+        "simplex_volume_template": "243/601295421440",
+        "tail_to_template_ratio": "246177792/25"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "1712421/1048576000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 10,
+        "output_impurity": 0,
+        "seed_impurity": 0,
+        "simplex_volume_template": "729/48103633715200",
+        "tail_to_template_ratio": "538804224/5"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "11160261/16777216000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 11,
+        "output_impurity": 1,
+        "seed_impurity": 0,
+        "simplex_volume_template": "2187/4233119766937600",
+        "tail_to_template_ratio": "6437781504/5"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "9034497/33554432000",
+        "charge": [
+          0,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 12,
+        "output_impurity": 0,
+        "seed_impurity": 0,
+        "simplex_volume_template": "2187/135459832542003200",
+        "tail_to_template_ratio": "83384598528/5"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "0",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [],
+        "order": 0,
+        "output_impurity": 1,
+        "seed_impurity": 1,
+        "simplex_volume_template": "1",
+        "tail_to_template_ratio": "0"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "312/125",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+"
+        ],
+        "order": 1,
+        "output_impurity": 0,
+        "seed_impurity": 1,
+        "simplex_volume_template": "3/8",
+        "tail_to_template_ratio": "832/125"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "162/125",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-"
+        ],
+        "order": 2,
+        "output_impurity": 1,
+        "seed_impurity": 1,
+        "simplex_volume_template": "9/128",
+        "tail_to_template_ratio": "2304/125"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "621/1000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 3,
+        "output_impurity": 0,
+        "seed_impurity": 1,
+        "simplex_volume_template": "9/1024",
+        "tail_to_template_ratio": "8832/125"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "567/2000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 4,
+        "output_impurity": 1,
+        "seed_impurity": 1,
+        "simplex_volume_template": "27/32768",
+        "tail_to_template_ratio": "43008/125"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "8019/64000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 5,
+        "output_impurity": 0,
+        "seed_impurity": 1,
+        "simplex_volume_template": "81/1310720",
+        "tail_to_template_ratio": "50688/25"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "13851/256000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 6,
+        "output_impurity": 1,
+        "seed_impurity": 1,
+        "simplex_volume_template": "81/20971520",
+        "tail_to_template_ratio": "350208/25"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "94041/4096000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 7,
+        "output_impurity": 0,
+        "seed_impurity": 1,
+        "simplex_volume_template": "243/1174405120",
+        "tail_to_template_ratio": "2774016/25"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "19683/2048000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 8,
+        "output_impurity": 1,
+        "seed_impurity": 1,
+        "simplex_volume_template": "729/75161927680",
+        "tail_to_template_ratio": "24772608/25"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "1043199/262144000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 9,
+        "output_impurity": 0,
+        "seed_impurity": 1,
+        "simplex_volume_template": "243/601295421440",
+        "tail_to_template_ratio": "246177792/25"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "1712421/1048576000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 10,
+        "output_impurity": 1,
+        "seed_impurity": 1,
+        "simplex_volume_template": "729/48103633715200",
+        "tail_to_template_ratio": "538804224/5"
+      },
+      {
+        "CAR_sign": 1,
+        "K496_post_order_tail": "11160261/16777216000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+"
+        ],
+        "order": 11,
+        "output_impurity": 0,
+        "seed_impurity": 1,
+        "simplex_volume_template": "2187/4233119766937600",
+        "tail_to_template_ratio": "6437781504/5"
+      },
+      {
+        "CAR_sign": -1,
+        "K496_post_order_tail": "9034497/33554432000",
+        "charge": [
+          1,
+          0
+        ],
+        "exact_state_nonzero": true,
+        "letters": [
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-",
+          "1+",
+          "1-"
+        ],
+        "order": 12,
+        "output_impurity": 1,
+        "seed_impurity": 1,
+        "simplex_volume_template": "2187/135459832542003200",
+        "tail_to_template_ratio": "83384598528/5"
+      }
+    ],
+    "sample_ratios_strictly_increase_by_level": true
+  },
+  "rate_theorem": {
+    "K496_tail": "R_n=(3/8)^n*((n+1)-n*(3/8))/(1-3/8)^3",
+    "consequence": "Any selected-path lower proof with an uncancelled 1/n! simplex-volume penalty cannot normalize K496 uniformly, even though K507 makes that path a valid positive word lower.",
+    "exact_ratio": "R_n/L_n=n!*(((n+1)-n*(3/8))/(1-3/8)^3)",
+    "ratio_diverges": true,
+    "template_status": "proof template only; not asserted to be the sharp native path norm",
+    "template_under_test": "L_n=(3/8)^n/n!",
+    "what_is_not_proved": "No native path norm has been shown to equal or lie below L_n; the result rejects a certificate family, not the K507 path route or K500 itself.",
+    "why_this_template": "It is the strongest geometric factor available if an attempted lower proof retains K139's 3/8 scale but pays the full ordered-simplex volume without a determinant-aware compensation."
+  },
+  "result_id": "K510-K500-SELECTED-PATH-RATE-DISCRIMINATOR",
+  "schema_version": "1.0",
+  "scope": "The lexicographically fixed single-flavor alternating K177 path in q00 and q10 at every bath level, and the proof strength of a lower certificate that retains only the ordered-simplex volume factor.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

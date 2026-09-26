@@ -7,6 +7,31 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K510--K512 selected-path rate and order-ten face shards (2026-09-25)
+
+K510 selects the unique single-flavor alternating K177 path for q00 and q10
+at every level and replays nonzero exact CAR states through order twelve. For
+the proof template `L_n=(3/8)^n/n!`, the exact K496 tail ratio is
+`n!*(((n+1)-3n/8)/(5/8)^3)` and diverges. Thus a selected-path lower proof
+that retains the full simplex-volume factorial cannot establish uniform K500
+normalization. K510 does not assert that the actual path norm equals or is
+bounded by this template. Its probe passes `12/12` controls and rejects `6/6`
+hostile mutations.
+
+K511 excludes K508's exact twenty program IDs and partitions all 916 remaining
+K487 programs into 229 deterministic four-program shards. The union is all
+936 programs, with no overlap and no omission. Its probe passes `12/12`
+controls and rejects `5/5` hostile mutations.
+
+K512 executes shard 000 through the complete K508 backend at 180 Arb digits
+and one thread. All four programs, 28 cells, 372,400 descriptor-cell
+evaluations, 881,104 divided-difference operations and four direct overlaps
+pass with positive argument floors. Observed wall time is 471.4 seconds; the
+roughly 30-hour linear extrapolation for 916 programs is resource evidence,
+not a runtime bound. Its probe passes `14/14` controls and rejects `6/6`
+hostile mutations. The other 912 programs and every projective, origin,
+interior, tail, K457, K152, source and physical conclusion remain open.
+
 ## K507--K509 native path positivity and selected order-ten strips (2026-09-25)
 
 K507 proves an exact exception to K505's generic cancellation warning for the

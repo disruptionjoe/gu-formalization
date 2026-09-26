@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K510--K512 selected-path rate and order-ten face shards
+
+- `channel-swings/k510_k500_selected_path_rate_discriminator.py` and its probe
+  select explicit all-level q00/q10 paths and reject the simplex-volume-only
+  factorial lower template without claiming an actual native path bound.
+- `channel-swings/k511_order_ten_face_shard_plan.py` and its probe partition
+  the 916 K508-omitted programs into exact four-program shards.
+- `channel-swings/k512_order_ten_representative_face_shard.py` and its probe
+  execute shard 000 through the 180-digit K508 backend while withholding the
+  other 912 faces and every whole-domain conclusion.
+
 ## K507--K509 native path positivity and selected order-ten strips
 
 - `channel-swings/k507_k500_native_car_path_positivity.py` and its probe prove

@@ -7,6 +7,21 @@ updated_at: "2026-09-25"
 
 # Next Steps For Contributors
 
+> **2026-09-25 K510--K512 PATH-RATE DISCRIMINATOR AND ORDER-TEN SHARDS.**
+> K510 selects one explicit nonzero alternating K177 path at every q00/q10
+> level and proves that a lower certificate retaining the ordered-simplex
+> `1/n!` penalty cannot normalize K496 uniformly. This rejects that proof
+> template, not K507 or the actual path route. K511 partitions the 916 faces
+> omitted by K508 into 229 deterministic four-program shards with exact
+> no-overlap/no-omission custody. K512 executes shard 000 at 180 Arb digits:
+> all four programs, 28 cells, 372,400 descriptor-cell evaluations and four
+> direct overlaps pass in 471.4 seconds. Its roughly 30-hour linear all-face
+> extrapolation is scheduling evidence only. Next seek a determinant-aware
+> path lower or direct normalized variance, and execute shards 001--228 before
+> projective/interior/tail composition. No uniform K500 leakage, complete
+> order-ten cover, K473/K457/K152 or source/ledger/canon/public/physical result
+> follows.
+
 > **ACTIVE SELECTION CONTROL — 2026-08-31.** The entries below are an
 > append-only result and reopener history; they are not a forward dependency
 > queue. Current work starts from observed phenomena and builds backward:
