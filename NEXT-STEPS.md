@@ -7,6 +7,18 @@ updated_at: "2026-09-25"
 
 # Next Steps For Contributors
 
+> **2026-09-25 K514 ORDER-TEN FACE SHARDS 009--016.** K514 executes the
+> next eight exact K511 shards through the unchanged 180-digit, one-thread
+> K508 backend. All 32 programs, 224 positive-width cells, 2,979,200 ordered
+> descriptor-cell evaluations, 10,632,608 divided-difference operations and
+> 32 direct overlaps pass with positive cumulative-argument floors. The
+> stored-result probe passes `21/21` controls and rejects `11/11` hostile
+> mutations. Together with K512/K513, 68 of the 916 K508-omitted programs are
+> now executed and 848 remain. Continue at shard 017 under serialized resource
+> control before constructing the projective normal cone, recursive interior
+> and analytic tails. No complete face bank, hybrid integral, K500/K473,
+> K457/K152 or source/ledger/canon/public/physical result follows.
+
 > **2026-09-25 K513 ORDER-TEN FACE SHARDS 001--008.** K513 executes the
 > next eight exact K511 shards through the unchanged 180-digit, one-thread
 > K508 backend. All 32 programs, 224 positive-width cells, 2,979,200 ordered
