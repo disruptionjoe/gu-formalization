@@ -7,6 +7,23 @@ updated_at: "2026-09-25"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K513 order-ten face shards 001--008 (2026-09-25)
+
+K513 executes the exact 32 programs in K511 shards 001 through 008 through
+the unchanged K508 interval backend at 180 Arb digits and one thread. All 224
+positive-width normal cells are finite, have strictly positive cumulative
+arguments and preserve all 28 coherent groups. The batch accounts for
+2,979,200 ordered descriptor-cell evaluations and 10,681,664
+divided-difference operations; all 32 independent first-cell direct K412
+overlaps pass. Observed wall time is 3,621.85 seconds, or 113.18 seconds per
+program, as host evidence rather than a runtime bound. The stored-result probe
+passes `21/21` controls and rejects `11/11` hostile mutations.
+
+Together with K512, this executes 36 of the 916 programs omitted by K508; 880
+remain. K513 does not establish a complete face bank, projective normal-cone
+cover, recursive positive-interior cover, analytic tails, complete hybrid
+integral, K457 value, K152 interval, source result or physical conclusion.
+
 ## K510--K512 selected-path rate and order-ten face shards (2026-09-25)
 
 K510 selects the unique single-flavor alternating K177 path for q00 and q10

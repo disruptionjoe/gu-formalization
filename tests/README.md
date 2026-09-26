@@ -4,6 +4,13 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K513 order-ten face shards 001--008
+
+- `channel-swings/k513_order_ten_face_shards_001_008.py` and its probe execute
+  the next eight K511 shards through the 180-digit K508 backend, retain every
+  ordered descriptor and coherent group, and withhold the other 880 programs
+  plus all projective, interior, tail and complete-integral conclusions.
+
 ## K510--K512 selected-path rate and order-ten face shards
 
 - `channel-swings/k510_k500_selected_path_rate_discriminator.py` and its probe
