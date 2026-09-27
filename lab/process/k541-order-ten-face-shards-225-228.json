@@ -1,0 +1,5064 @@
+{
+  "bank_summary": {
+    "all_112_cells_finite": true,
+    "all_16_direct_overlaps_pass": true,
+    "all_16_programs_executed": true,
+    "bank_sha256": "sha256:963beeec0be8fc2bd68fd400d9bc98090539cdf0aba424dba589d54ae3ec142a",
+    "divided_difference_operation_uses": 4837168,
+    "every_cell_has_positive_argument_floor": true,
+    "executed_confluent_template_ids": [
+      "C00",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C17",
+      "C18",
+      "C19",
+      "C23",
+      "C24",
+      "C25",
+      "C27",
+      "C28",
+      "C29",
+      "C30",
+      "C31",
+      "C32",
+      "C33",
+      "C34",
+      "C35",
+      "C36",
+      "C37",
+      "C40",
+      "C41",
+      "C48",
+      "C49",
+      "C55",
+      "C56",
+      "C60",
+      "C61",
+      "C62",
+      "C63",
+      "C64",
+      "C65",
+      "C66",
+      "C68",
+      "C69",
+      "C70",
+      "C71",
+      "C72",
+      "C73",
+      "C74"
+    ],
+    "executed_singular_template_ids": [
+      "S00",
+      "S01",
+      "S02",
+      "S03",
+      "S04",
+      "S05",
+      "S06",
+      "S07",
+      "S08",
+      "S09",
+      "S10",
+      "S11",
+      "S12",
+      "S13",
+      "S14",
+      "S15",
+      "S16",
+      "S17",
+      "S18",
+      "S19",
+      "S20",
+      "S21",
+      "S22",
+      "S23",
+      "S24",
+      "S25",
+      "S26",
+      "S27",
+      "S28",
+      "S30",
+      "S31",
+      "S32",
+      "S34",
+      "S35",
+      "S36",
+      "S37",
+      "S38",
+      "S40",
+      "S41",
+      "S42",
+      "S43",
+      "S46",
+      "S47",
+      "S51",
+      "S52",
+      "S56",
+      "S57"
+    ],
+    "expected_program_ids_match_exactly": true
+  },
+  "claim_ceiling": "Rigorous 180-digit K508-backend evidence for the final 16 exact programs in K511 shards 225 through 228, across 112 positive-width normal cells. Together with K512--K540 this executes all 916 K508-omitted programs, and their union with K508 covers all 936 fixed reachable-face programs. It is not a projective/interior/tail cover, hybrid integral, K457 value, K152 interval, or source/physical result.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "created": "2026-09-27",
+  "decision": {
+    "all_916_remaining_faces_executed": true,
+    "analytic_radial_tails_complete": false,
+    "complete_K508_plus_K511_reachable_face_program_bank": true,
+    "complete_hybrid_integrals_emitted": false,
+    "cumulative_K511_shards_executed_including_K512": 229,
+    "cumulative_remaining_face_programs_executed": 916,
+    "full_projective_normal_cone_complete": false,
+    "next_exact_input": "Construct the determinant-preserving normal-projective partition over the complete K508 plus K511 reachable-face program bank before recursive positive-interior and analytic-tail composition.",
+    "recursive_positive_interior_cover_complete": false,
+    "shards_225_through_228_released": true,
+    "unexecuted_remaining_face_programs": 0
+  },
+  "direct_overlap_controls": [
+    {
+      "intervals_overlap": true,
+      "program_id": "v3:column_coalescence:v3,v4,v5,v6,v7,v8",
+      "shard_id": "order10-face-225"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s4:column_coalescence:v5,v6,v7,v8,v9,v10",
+      "shard_id": "order10-face-225"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s11:column_coalescence:v1,v2,v3,v4,v5,v6",
+      "shard_id": "order10-face-225"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s7:column_coalescence:v2,v3,v4,v5,v6,v7",
+      "shard_id": "order10-face-225"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s8:kernel_zero:v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-226"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s2:kernel_zero:s9,s10,s11,v9,v10,v11",
+      "shard_id": "order10-face-226"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s4:kernel_zero:s10,s11,v6,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-226"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s1:kernel_zero:s9,s10,s11,v5,v6,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-226"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s2:column_coalescence:v7,v8",
+      "shard_id": "order10-face-227"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s9:column_coalescence:v3,v4,v5,v6,v7,v8",
+      "shard_id": "order10-face-227"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s1:column_coalescence:v2,v3,v4,v5,v6,v7",
+      "shard_id": "order10-face-227"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s2:column_coalescence:v3,v4,v5,v6,v7,v8,v9,v10",
+      "shard_id": "order10-face-227"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "v2:column_coalescence:v7,v8",
+      "shard_id": "order10-face-228"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s1:kernel_zero:s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-228"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s9:column_coalescence:v7,v8,v9,v10",
+      "shard_id": "order10-face-228"
+    },
+    {
+      "intervals_overlap": true,
+      "program_id": "s1:kernel_zero:s4,s5,s6,s7,s8,s9,s10,s11,v6,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-228"
+    }
+  ],
+  "direction": "observed_to_native",
+  "face_cell_bank": [
+    {
+      "axis": "v3",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:d374f065a50a006a872babdbe5e4523fd8657fb0a27208dc2a435054f2c4434a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.7532579811441001e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.753257984833449e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:399ae069a74a6509f5bcf887166f47f3746c1d42300bf2f3b69689ca371c2e78",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.2080649798394067e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.2080649872181043e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:fb075161dc7e6878e46746231a54d721fa55b95891c362355b32b4fb2cab0840",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.5134425639038823e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.51344257128258e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:6b6bf90aac2490e5780ba268b69e7b2b51486ebbcf120753af25f51038152758",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.7256047288031568e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.7256047361818544e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:5d37e7f8752ef04b68614eada783c3a04b8b8d3f963a365d9e440aa1b864e7f8",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.7663373936070977e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.7663374009857954e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:ba0a35b8ed6325eae5b3e6d257a31a78b1f85adb59188a335ee48c967cacd336",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.587852840487808e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.587852855245203e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:3cf9c3bcf7444a155f6787f991908b3f74883ea1e86b6791a743493d697d2780",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.636915039334323e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "8.636915057781067e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 6,
+      "face_id": "v3:column_coalescence:v3,v4,v5,v6,v7,v8",
+      "face_kind": "column_coalescence",
+      "program_id": "v3:column_coalescence:v3,v4,v5,v6,v7,v8",
+      "shard_id": "order10-face-225",
+      "zeroed_axes": [
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8"
+      ]
+    },
+    {
+      "axis": "s4",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:cbfcaa385071b49f9e190bc5d6412a9b62748643386a9491830a4042017b4369",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.055533319746661e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C31",
+            "C34",
+            "C36",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 42512,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "8.055533338193405e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:4e10774c7b2c53ff77cc2aead9020383499a1a3097da98d5060c1993b202e019",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.2242117397661095e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C31",
+            "C34",
+            "C36",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 42512,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.2242117434554583e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:4cb6a32023c572b52a41ecd87728394eca967f33d259e9e036e74a075cdeaadb",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.675341422178505e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C31",
+            "C34",
+            "C36",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 42512,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.6753414258678537e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:7f830390cfc53fad1e969ca1cf7569b77b9e2e481ce423573e17b518287c16df",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.1489342439897514e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C31",
+            "C34",
+            "C36",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 42512,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.148934251368449e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:847cfb684af0385ceb7600290ea66a52d6da4c9dba4a9f7deb3448b8f28ab509",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.4375689714482586e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C31",
+            "C34",
+            "C36",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 42512,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.437568978826956e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:f95f163a43545ea7337e098f0d1c2846ba8f53861919a0f17f44af31191ed728",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.831918153071352e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C31",
+            "C34",
+            "C36",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 42512,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.831918167828747e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:737840273dca4938534676c1ec241357af6a1e512f653d93f05449c0a1e843b2",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.085495561399759e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C31",
+            "C34",
+            "C36",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 42512,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.085495565089108e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 6,
+      "face_id": "s4:column_coalescence:v5,v6,v7,v8,v9,v10",
+      "face_kind": "column_coalescence",
+      "program_id": "s4:column_coalescence:v5,v6,v7,v8,v9,v10",
+      "shard_id": "order10-face-225",
+      "zeroed_axes": [
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ]
+    },
+    {
+      "axis": "s11",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:24755ddb0fad3c34fe7fd8e3ee8eed52000bbe24f4628229da12efb68fa7a727",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.223060589171476e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C65",
+            "C66"
+          ],
+          "divided_difference_operation_uses": 39696,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "5.223060600700691e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:2501f007f45709a317c03c6070d51c943a3e7a3cda46c0213ca7f4c6767f49f5",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.107840653413038e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C65",
+            "C66"
+          ],
+          "divided_difference_operation_uses": 39696,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "8.107840676471469e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:cd8cbcef13af1fe5ba85db5924d6b350414f2727923c3a3379c530f114f8848d",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.1324988030606949e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C65",
+            "C66"
+          ],
+          "divided_difference_operation_uses": 39696,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.1324988053665379e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:1a7a36ccec8c4f62118a94fdb169ba4c02d3b1b355995dcf21a13de66e90397a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.507148345286486e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C65",
+            "C66"
+          ],
+          "divided_difference_operation_uses": 39696,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.507148349898172e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:b0b30ee0c11566c52efd2780bed3da4f92c27de68c93f5e1797086eec9a16123",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.483105438021652e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C65",
+            "C66"
+          ],
+          "divided_difference_operation_uses": 39696,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.483105447245024e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e6e52049e8fdcd1c60b43946b5c4cb45dbb459a9cfad2bef8676f36f2a04ce1b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.6705892607353305e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C65",
+            "C66"
+          ],
+          "divided_difference_operation_uses": 39696,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.6705892699587025e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:581f3b48c2577844de0db8d5de58d4dfbde2fea1e13c97ab01fb0f194690eb3d",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.67850895423591e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C65",
+            "C66"
+          ],
+          "divided_difference_operation_uses": 39696,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "8.67850897729434e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 6,
+      "face_id": "s11:column_coalescence:v1,v2,v3,v4,v5,v6",
+      "face_kind": "column_coalescence",
+      "program_id": "s11:column_coalescence:v1,v2,v3,v4,v5,v6",
+      "shard_id": "order10-face-225",
+      "zeroed_axes": [
+        "v1",
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6"
+      ]
+    },
+    {
+      "axis": "s7",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:b75d7bedbd60ce01e0af9dd673d228032a4e7b5bac5e01a24eed1efb802dc4fc",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.325308425377944e+24",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "8.325308443392342e+24",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:c9c3301312fed6927d24ad22703546a8afb21b4679db81c7a2da79a09f4fcfd6",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.6061551315704705e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.6061551351733502e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:00b88995aaf3a562cde51b44f6dcc0170bbeb285d2697139e154884b24e40d16",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.6995492382078898e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.699549245413649e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:b4fa81139cb21cdb9f57fafa159d6cdc74de0fdd9432f42c066ed3e05582bf07",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.229279566849584e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.229279581261103e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e9b862d4bdeadd07c953edbee532cc5f944a03f39e9fbb3cc271e9194eedbf3e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.746758582672633e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "8.74675861149567e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:97ab68204cfc6dc9ad557fffd1ae8bf28cc6ec0ba2e86cbe8e2b81f0dbdbedae",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.565990325268394e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.5659903310330014e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e134071384e5f05456a87ef70fa82aac8ba70c222e74d7c7ec00a29ed8668a5b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.905214268073292e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.9052142752790513e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 6,
+      "face_id": "s7:column_coalescence:v2,v3,v4,v5,v6,v7",
+      "face_kind": "column_coalescence",
+      "program_id": "s7:column_coalescence:v2,v3,v4,v5,v6,v7",
+      "shard_id": "order10-face-225",
+      "zeroed_axes": [
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7"
+      ]
+    },
+    {
+      "axis": "s8",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:87b9d4a2da333895215d396ff99a31d4934d9d537a37e35a8fdcd8d03469fd2c",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.5001061596894793e+31",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "4.88281249801048e-05",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.577960715168931e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:93bc31ec3b99b055caa355c5412b117c28da87d2b5a4f5ccd4c4e0cbb5700891",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.8081489640520679e+31",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "6.1035156221578284e-05",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "6.89754093804418e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:6300d64faf6c01c29148ef5e040364d1d49e852f556a3a240b28712667a618f0",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.9651260013018363e+31",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "7.629394527555176e-05",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "9.295487403977562e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:8a7e192a059edef74e924f77b0c1f525f2628bfc86f30ec8243f2462b824cd9c",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.0152544999517167e+31",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "9.460449214202526e-05",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.168513053763688e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:19ac8e93518f11d73dddd1bc638b5fab2bbc67a6c98831ff97202d3ba9b820b6",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.594620032095292e+31",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.00011596679684089394",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.8607657202944518e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:c27d1482c766231a961dff04d304c6bf567bf43a729e08f3122d6c20da475b7b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.8991808223760915e+31",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0001434326171363409",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.5658033536245205e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:fd79012bc0a5f778356f921dddf34313839178198fc6a05e1aeaa88ea1bab289",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.574292257454945e+30",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.00017700195308805174",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "5.443644814393e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 5,
+      "face_id": "s8:kernel_zero:v7,v8,v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "program_id": "s8:kernel_zero:v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-226",
+      "zeroed_axes": [
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "axis": "s2",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:4a3c9f0696a6956f6ec6ef7e62229be00def7e23c0a94e36a19f1f410331609e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.189622597053544e+37",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C10",
+            "C11",
+            "C14",
+            "C15",
+            "C29",
+            "C30",
+            "C36",
+            "C37",
+            "C62",
+            "C63",
+            "C73",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 9376,
+          "minimum_cumulative_argument_lower": "4.069010415008733e-05",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.8991948798811478e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S11",
+            "S12",
+            "S17",
+            "S18",
+            "S19",
+            "S22",
+            "S23",
+            "S35",
+            "S36",
+            "S40",
+            "S41"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:c7011ef6561b86811d12ece035205b6271bbf1860b07eecee24176c0aea426e8",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "9.676871648156856e+36",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C10",
+            "C11",
+            "C14",
+            "C15",
+            "C29",
+            "C30",
+            "C36",
+            "C37",
+            "C62",
+            "C63",
+            "C73",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 9376,
+          "minimum_cumulative_argument_lower": "5.086263019649095e-05",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.0491572897522158e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S11",
+            "S12",
+            "S17",
+            "S18",
+            "S19",
+            "S22",
+            "S23",
+            "S35",
+            "S36",
+            "S40",
+            "S41"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e30d10030a34a6cfd2bc79669a2da85e223ffeab6218f78b7288cedde71d5d5a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.9832282900042195e+36",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C10",
+            "C11",
+            "C14",
+            "C15",
+            "C29",
+            "C30",
+            "C36",
+            "C37",
+            "C62",
+            "C63",
+            "C73",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 9376,
+          "minimum_cumulative_argument_lower": "6.35782877177841e-05",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.9941703430395493e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S11",
+            "S12",
+            "S17",
+            "S18",
+            "S19",
+            "S22",
+            "S23",
+            "S35",
+            "S36",
+            "S40",
+            "S41"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e9c23a5e26af560f68103ce5211f593490b092789792d3f6dc26035e7bc507fc",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.6384464200259196e+36",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C10",
+            "C11",
+            "C14",
+            "C15",
+            "C29",
+            "C30",
+            "C36",
+            "C37",
+            "C62",
+            "C63",
+            "C73",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 9376,
+          "minimum_cumulative_argument_lower": "7.88370767992319e-05",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.8520252816921255e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S11",
+            "S12",
+            "S17",
+            "S18",
+            "S19",
+            "S22",
+            "S23",
+            "S35",
+            "S36",
+            "S40",
+            "S41"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:75d241f3eaf8dfb33545b847a09e0a124969fd51d7fb0579301cc2578fe1500b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.891342329869168e+35",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C10",
+            "C11",
+            "C14",
+            "C15",
+            "C29",
+            "C30",
+            "C36",
+            "C37",
+            "C62",
+            "C63",
+            "C73",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 9376,
+          "minimum_cumulative_argument_lower": "9.663899735320075e-05",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.352009351474012e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S11",
+            "S12",
+            "S17",
+            "S18",
+            "S19",
+            "S22",
+            "S23",
+            "S35",
+            "S36",
+            "S40",
+            "S41"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:f166c2a7afd701b3ad3c0f0e4d55470062976a19a9fd395962c064253be3b489",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.189042128292206e+35",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C10",
+            "C11",
+            "C14",
+            "C15",
+            "C29",
+            "C30",
+            "C36",
+            "C37",
+            "C62",
+            "C63",
+            "C73",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 9376,
+          "minimum_cumulative_argument_lower": "0.00011952718095642466",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.5698453123382335e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S11",
+            "S12",
+            "S17",
+            "S18",
+            "S19",
+            "S22",
+            "S23",
+            "S35",
+            "S36",
+            "S40",
+            "S41"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:344c083e3dee50e5ceee2056dd7e5be17a28944ed942781e7f94268ee3b40257",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.8048464202656654e+34",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C10",
+            "C11",
+            "C14",
+            "C15",
+            "C29",
+            "C30",
+            "C36",
+            "C37",
+            "C62",
+            "C63",
+            "C73",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 9376,
+          "minimum_cumulative_argument_lower": "0.00014750162756153407",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.460487676518456e+22",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S11",
+            "S12",
+            "S17",
+            "S18",
+            "S19",
+            "S22",
+            "S23",
+            "S35",
+            "S36",
+            "S40",
+            "S41"
+          ]
+        }
+      ],
+      "codimension": 6,
+      "face_id": "s2:kernel_zero:s9,s10,s11,v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "program_id": "s2:kernel_zero:s9,s10,s11,v9,v10,v11",
+      "shard_id": "order10-face-226",
+      "zeroed_axes": [
+        "s9",
+        "s10",
+        "s11",
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "axis": "s4",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:3a72ae4031ccf45f1e4a847a27b0e8a04074320ea39e3d8a5e846c93e89438b3",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.0941915112611873e+38",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 30752,
+          "minimum_cumulative_argument_lower": "3.0517578110789142e-05",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.1098793423264963e+27",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S36",
+            "S37"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:567647c0766215d0f24c4010b8bc290ccb8a238518a38f3c6ed3d43bebf2027f",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.736220634540037e+37",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 30752,
+          "minimum_cumulative_argument_lower": "3.814697264203914e-05",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.1842421330323043e+27",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S36",
+            "S37"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:2039c975f503f2d6c24c5637b442d19f7778e45118a50d419abeb912a0a4c2a4",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.738459154114736e+37",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 30752,
+          "minimum_cumulative_argument_lower": "4.768371580610164e-05",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.8983548735474806e+27",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S36",
+            "S37"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:4058f98cd5a92fd9132bb2f4d1951bb9f7ac17122dbf08898a7dc050d9f23516",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.2773819259149545e+37",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 30752,
+          "minimum_cumulative_argument_lower": "5.912780760297664e-05",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.490185892660743e+27",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S36",
+            "S37"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:08e11bf4c38206278227b050f719218475cce21dedcb241ca21590620c933bb4",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.985993412287286e+36",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 30752,
+          "minimum_cumulative_argument_lower": "7.247924801845328e-05",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.9456607858543506e+27",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S36",
+            "S37"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:5d61db7b2673366a765348d69f149d70c51abe1a9df3cf86dd53ee0fa87a44c6",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.226726489867776e+36",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 30752,
+          "minimum_cumulative_argument_lower": "8.964538571376578e-05",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.929869913574259e+27",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S36",
+            "S37"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:f05269552c842dbed3f2ad51ce29380ad1729fedec553c3c0c46b0807ca9e62c",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.569301647715866e+35",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 30752,
+          "minimum_cumulative_argument_lower": "0.00011062622068891413",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.3241712229028635e+26",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S17",
+            "S18",
+            "S19",
+            "S20",
+            "S36",
+            "S37"
+          ]
+        }
+      ],
+      "codimension": 8,
+      "face_id": "s4:kernel_zero:s10,s11,v6,v7,v8,v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "program_id": "s4:kernel_zero:s10,s11,v6,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-226",
+      "zeroed_axes": [
+        "s10",
+        "s11",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "axis": "s1",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:65828ea3aca13a5fe24663793c3522b47eb4a3c64b3247fedf9e482a95c8e9c3",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.6102092394451084e+40",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C27",
+            "C28",
+            "C29",
+            "C31",
+            "C34",
+            "C36",
+            "C60",
+            "C61",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 47200,
+          "minimum_cumulative_argument_lower": "2.44140624900524e-05",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.3966338959552953e+26",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S17",
+            "S19",
+            "S20",
+            "S21",
+            "S23",
+            "S24",
+            "S25",
+            "S37",
+            "S38",
+            "S42",
+            "S43"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:7346569b7523498dcb18fb3da0f69a21a8fc423a7232e4389b588144680b89b8",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.683550525558668e+39",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C27",
+            "C28",
+            "C29",
+            "C31",
+            "C34",
+            "C36",
+            "C60",
+            "C61",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 47200,
+          "minimum_cumulative_argument_lower": "3.0517578110789142e-05",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.4152968837311155e+26",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S17",
+            "S19",
+            "S20",
+            "S21",
+            "S23",
+            "S24",
+            "S25",
+            "S37",
+            "S38",
+            "S42",
+            "S43"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:0f8ad959c2265e147341b98f294570c8252c9e9dea17738bd42fab92a2d2fe88",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.4774363383356758e+39",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C27",
+            "C28",
+            "C29",
+            "C31",
+            "C34",
+            "C36",
+            "C60",
+            "C61",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 47200,
+          "minimum_cumulative_argument_lower": "3.814697263777588e-05",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.2403080408469389e+26",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S17",
+            "S19",
+            "S20",
+            "S21",
+            "S23",
+            "S24",
+            "S25",
+            "S37",
+            "S38",
+            "S42",
+            "S43"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:3c488b2c3cff718a8c6f9684f51daf232ac4496eded13e7469e9b541a466a574",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.962357567358965e+38",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C27",
+            "C28",
+            "C29",
+            "C31",
+            "C34",
+            "C36",
+            "C60",
+            "C61",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 47200,
+          "minimum_cumulative_argument_lower": "4.730224607101263e-05",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.0130641189001332e+26",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S17",
+            "S19",
+            "S20",
+            "S21",
+            "S23",
+            "S24",
+            "S25",
+            "S37",
+            "S38",
+            "S42",
+            "S43"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:ea2e3ee8d6aa0b991954709955ecd2f762252d4ebc3bc32717738cf448ed33bd",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.587421236393977e+38",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C27",
+            "C28",
+            "C29",
+            "C31",
+            "C34",
+            "C36",
+            "C60",
+            "C61",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 47200,
+          "minimum_cumulative_argument_lower": "5.798339842044697e-05",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.213501543557212e+26",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S17",
+            "S19",
+            "S20",
+            "S21",
+            "S23",
+            "S24",
+            "S25",
+            "S37",
+            "S38",
+            "S42",
+            "S43"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:3b7ddd29faa08ffeeac594545abe6bc3159f90f45d7b1576b980533c5d18541f",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.91683705929847e+38",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C27",
+            "C28",
+            "C29",
+            "C31",
+            "C34",
+            "C36",
+            "C60",
+            "C61",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 47200,
+          "minimum_cumulative_argument_lower": "7.171630856817045e-05",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.175919118270223e+26",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S17",
+            "S19",
+            "S20",
+            "S21",
+            "S23",
+            "S24",
+            "S25",
+            "S37",
+            "S38",
+            "S42",
+            "S43"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:5dac5c88b2d1d93bdab4d6faf021c4a489ba5243a9fe0e9a4367de500301e5b7",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.0527144961477719e+37",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C27",
+            "C28",
+            "C29",
+            "C31",
+            "C34",
+            "C36",
+            "C60",
+            "C61",
+            "C68",
+            "C71"
+          ],
+          "divided_difference_operation_uses": 47200,
+          "minimum_cumulative_argument_lower": "8.850097654402587e-05",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "9.574382609377113e+24",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S17",
+            "S19",
+            "S20",
+            "S21",
+            "S23",
+            "S24",
+            "S25",
+            "S37",
+            "S38",
+            "S42",
+            "S43"
+          ]
+        }
+      ],
+      "codimension": 10,
+      "face_id": "s1:kernel_zero:s9,s10,s11,v5,v6,v7,v8,v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "program_id": "s1:kernel_zero:s9,s10,s11,v5,v6,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-226",
+      "zeroed_axes": [
+        "s9",
+        "s10",
+        "s11",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "axis": "s2",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:351eae9677f2b60a4e5949c56b80be423cc4a5bfb6e9d945bfe843d04a6b99dd",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.7388200375321845e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "6.738820051943703e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:53e14c1f909a3ae77f658a1af2e8c9f357949c68d54810fde4384797683d26a9",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.0334059976537643e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.0334060005360681e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:f9007f449685e96339087076b586dbe1340707bc44b3485e8dd50a4b7c3a67b7",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.451062292091007e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.4510622949733107e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:d1cb284f938f92866f57f3b6bffe5497e3808aa206baf5944de7a4c089b8cfb0",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.9163029954996406e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.916303001264248e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:7ad1435049e401cc9f11ffb081712befaf6fa83e62997269d1b82bdb415d048f",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.0794762389904165e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.079476244755024e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:78d02b2e2f71ebf20e464ac4d8b16e1b158a63e59055ea222841e02d78142bb4",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.420328194203112e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.420328205732327e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:0ebb07dfcc6eb9c6231bbef27d7360a9daf9e12fcb3f8adf6f00fd547d9cc25c",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.2203061964701454e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.2203061993524491e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 2,
+      "face_id": "s2:column_coalescence:v7,v8",
+      "face_kind": "column_coalescence",
+      "program_id": "s2:column_coalescence:v7,v8",
+      "shard_id": "order10-face-227",
+      "zeroed_axes": [
+        "v7",
+        "v8"
+      ]
+    },
+    {
+      "axis": "s9",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:769a370250509a26a8a3749e56bc1d862ef74133fb3e6482eef072d03534ad58",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.2425738407104962e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.2425738453221822e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:2bd0f223fa29d0c8f8c448374809a67cf0fa93e34bc6458915aa0d98b35b4913",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.4645422739761795e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.4645422831995515e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:c07a94d26f8ef89e6bc1ed7e2b5c111d35cbc4f5f0e49063b0af57e3819cc696",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.824962837167009e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.824962846390381e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:7cee5b1c3d13449052cfa6a42de8fc57d295f8b172f4579d5c27b6f7f842df1b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "6.351988803547532e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "6.351988821994276e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e8de7d17d061ca5b0b026aa040039922904ace09d2680010a95e986910f53222",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.0415968135246193e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.0415968172139681e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:71d63d0ff93b6e70a61035d17b4ed803df811cc913a9838be74d75686ef3ac04",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.5183664135011768e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.5183664171905256e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:4bee45b557a404720653c760f8cf4b497290bca1abd34236a0f3dd16e81e6363",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.5318945390930106e+27",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C34",
+            "C35",
+            "C65",
+            "C69"
+          ],
+          "divided_difference_operation_uses": 39216,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.5318945483163826e+27",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 6,
+      "face_id": "s9:column_coalescence:v3,v4,v5,v6,v7,v8",
+      "face_kind": "column_coalescence",
+      "program_id": "s9:column_coalescence:v3,v4,v5,v6,v7,v8",
+      "shard_id": "order10-face-227",
+      "zeroed_axes": [
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8"
+      ]
+    },
+    {
+      "axis": "s1",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:6e2b85c524e720c5b00d6a2c7fdf651d74e0f5e24ab7b08d5da6c339a189f590",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.4840332911404568e+23",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.4840332939552065e+23",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:4fe01fb33965a28cecf6a84c21092ec83147f36ce7157ea83861cbcd82367aa0",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.8626309817986863e+23",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.8626309874281858e+23",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:533429d519bdc56f0e5f0ec2b4faddd1dc1f3770f63496fef97425a1291b317b",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.80725389000183e+23",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.807253901260829e+23",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:7e97879ca64eb8961c1237bc1394017f4a8c82420c3f6eda726d6e8e70f93a37",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.541554824283352e+23",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "7.54155484680135e+23",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:4b7f8b025c514bb4a72b68b9ff4c0d31b160ebd20ee5e518ac0b369b3389c1b6",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.5579175922804943e+24",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.557917596784094e+24",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:9b3b6a680517d6e9133a3a90ca01bc83b6cf0cf9c43ecdf721ea91a72c4d4dcc",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.7928607801930647e+24",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.792860789200264e+24",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:992178def03b015bf9493e6122193b4d58ed84f9ec8b7a01c0cb8f1e7646dee2",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.19967522460862e+23",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C13",
+            "C14",
+            "C15",
+            "C31",
+            "C32",
+            "C33",
+            "C34",
+            "C35",
+            "C37",
+            "C65",
+            "C66",
+            "C69",
+            "C70"
+          ],
+          "divided_difference_operation_uses": 46608,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "5.199675235867619e+23",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 6,
+      "face_id": "s1:column_coalescence:v2,v3,v4,v5,v6,v7",
+      "face_kind": "column_coalescence",
+      "program_id": "s1:column_coalescence:v2,v3,v4,v5,v6,v7",
+      "shard_id": "order10-face-227",
+      "zeroed_axes": [
+        "v2",
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7"
+      ]
+    },
+    {
+      "axis": "s2",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:7f1b754496978dd18d6b2f58449c938b916b457f99d28e53f38e5256d0aa115e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.3893913262882533e+24",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C31",
+            "C34",
+            "C64",
+            "C68"
+          ],
+          "divided_difference_operation_uses": 75728,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.3893913352954526e+24",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e3b7662a08adef96997b0037d2ee2d1c437ba6f409e99045af2d9fb696879dcf",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.0308338051861397e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C31",
+            "C34",
+            "C64",
+            "C68"
+          ],
+          "divided_difference_operation_uses": 75728,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.0308338087890194e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:324b6faa9c04363e5f87f682c84d95d17654514021edb406f92cebc11c364114",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.0390560457582767e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C31",
+            "C34",
+            "C64",
+            "C68"
+          ],
+          "divided_difference_operation_uses": 75728,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.039056052964036e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:88badee29014d26764f52e83f910c9f1497625323716b7996cc08b32b019a6bd",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.5884468446139295e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C31",
+            "C34",
+            "C64",
+            "C68"
+          ],
+          "divided_difference_operation_uses": 75728,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.588446851819689e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:98751c422d600f16f7bba17d53df1a65d6b2ba4fe9ef0b536bf03973320e5966",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "9.133393931944157e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C31",
+            "C34",
+            "C64",
+            "C68"
+          ],
+          "divided_difference_operation_uses": 75728,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "9.133393960767195e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:54c4b90cdab36c1dab889064efafadde964dcb7039ca419c11c90645380bb289",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.8760513241802357e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C31",
+            "C34",
+            "C64",
+            "C68"
+          ],
+          "divided_difference_operation_uses": 75728,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.8760513299448433e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:2abd5c01fb864da26acc6b0bdec5656acf4909de2ee14fe991f2fbf75a9d8dfd",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.4241427330820303e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C31",
+            "C34",
+            "C64",
+            "C68"
+          ],
+          "divided_difference_operation_uses": 75728,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.4241427402877897e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 8,
+      "face_id": "s2:column_coalescence:v3,v4,v5,v6,v7,v8,v9,v10",
+      "face_kind": "column_coalescence",
+      "program_id": "s2:column_coalescence:v3,v4,v5,v6,v7,v8,v9,v10",
+      "shard_id": "order10-face-227",
+      "zeroed_axes": [
+        "v3",
+        "v4",
+        "v5",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ]
+    },
+    {
+      "axis": "v2",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:30720c5196e2f4493fc591447552ce16023e814957756b322b4262d656bfeff4",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.514779743895984e+25",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "8.514779772719022e+25",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:d8a96e98c80c3330e1c0b26fc3eef883b7bd6d013ce05a81711371b6c9fb9185",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.3040359532242878e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.3040359561065916e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e62b00459608179d517911d9174a7ff84f4a1350c7b46204caf4fb88638709a1",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.828268946199038e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.8282689519636457e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e42e9190210ab33626eb6e27e8883ed804a3e5c4ccd6c4fccabdd2005f5338f7",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.4101047883746275e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.410104794139235e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:56561fff91a509c2fdf6f960a23a554af7ddfffaa4867be49282be51e854313e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.863438966278964e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.863438977808179e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:17c3179e1e863333e5152d6a09cb2ff7d41a0e7581ff47b85c8c17382a6d7e6d",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.529324236661598e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "5.529324248190813e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:147febfb09dca698d8f4f988292738cb32481ef51a0a7590f018ad42e007b798",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.5240958093254187e+26",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C13",
+            "C14",
+            "C15",
+            "C35",
+            "C36",
+            "C37",
+            "C72",
+            "C74"
+          ],
+          "divided_difference_operation_uses": 3536,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.5240958122077225e+26",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 2,
+      "face_id": "v2:column_coalescence:v7,v8",
+      "face_kind": "column_coalescence",
+      "program_id": "v2:column_coalescence:v7,v8",
+      "shard_id": "order10-face-228",
+      "zeroed_axes": [
+        "v7",
+        "v8"
+      ]
+    },
+    {
+      "axis": "s1",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:c9b4c46cea19f17ba103f00da7d21a232c29fec87914503ede947bdc44702390",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.7121357483009187e+51",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C05",
+            "C06",
+            "C07",
+            "C17",
+            "C18",
+            "C19",
+            "C40",
+            "C41"
+          ],
+          "divided_difference_operation_uses": 138192,
+          "minimum_cumulative_argument_lower": "1.5258789055394571e-05",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.0403841889317743e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S05",
+            "S06",
+            "S07",
+            "S14",
+            "S15",
+            "S16",
+            "S30",
+            "S31",
+            "S32",
+            "S56",
+            "S57"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:c11b6dadff410927b572e39132a7392f21900482732098b356d689175241e7fd",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.7716687874439784e+50",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C05",
+            "C06",
+            "C07",
+            "C17",
+            "C18",
+            "C19",
+            "C40",
+            "C41"
+          ],
+          "divided_difference_operation_uses": 138192,
+          "minimum_cumulative_argument_lower": "1.907348632101957e-05",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.5881058230366827e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S05",
+            "S06",
+            "S07",
+            "S14",
+            "S15",
+            "S16",
+            "S30",
+            "S31",
+            "S32",
+            "S56",
+            "S57"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:e70e09019b6df78e50462309c596d7129b331e2c05c2d3dadd8234165d1eb20e",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.788462236255952e+49",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C05",
+            "C06",
+            "C07",
+            "C17",
+            "C18",
+            "C19",
+            "C40",
+            "C41"
+          ],
+          "divided_difference_operation_uses": 138192,
+          "minimum_cumulative_argument_lower": "2.384185790305082e-05",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.2027590823505255e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S05",
+            "S06",
+            "S07",
+            "S14",
+            "S15",
+            "S16",
+            "S30",
+            "S31",
+            "S32",
+            "S56",
+            "S57"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:befb5ff98bef269cedb2f34cd1174758265fd1bab292506e91caa86b21023ca8",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.2099208997508763e+49",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C05",
+            "C06",
+            "C07",
+            "C17",
+            "C18",
+            "C19",
+            "C40",
+            "C41"
+          ],
+          "divided_difference_operation_uses": 138192,
+          "minimum_cumulative_argument_lower": "2.956390380148832e-05",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.5459174967765543e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S05",
+            "S06",
+            "S07",
+            "S14",
+            "S15",
+            "S16",
+            "S30",
+            "S31",
+            "S32",
+            "S56",
+            "S57"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:bdf5d72238a5081b5f5fb5c61932e07035b9dbf97c936e3b83ce9b366ceec94a",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.429274271218514e+48",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C05",
+            "C06",
+            "C07",
+            "C17",
+            "C18",
+            "C19",
+            "C40",
+            "C41"
+          ],
+          "divided_difference_operation_uses": 138192,
+          "minimum_cumulative_argument_lower": "3.623962400922664e-05",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.0993883617052276e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S05",
+            "S06",
+            "S07",
+            "S14",
+            "S15",
+            "S16",
+            "S30",
+            "S31",
+            "S32",
+            "S56",
+            "S57"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:f7e6eaafd8c3e040c10f8e0216b4c3d1d9616c4ab3cae329a3da8d4c04bcea60",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "9.401306849134359e+47",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C05",
+            "C06",
+            "C07",
+            "C17",
+            "C18",
+            "C19",
+            "C40",
+            "C41"
+          ],
+          "divided_difference_operation_uses": 138192,
+          "minimum_cumulative_argument_lower": "4.482269285688289e-05",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "3.538121443172448e+23",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S05",
+            "S06",
+            "S07",
+            "S14",
+            "S15",
+            "S16",
+            "S30",
+            "S31",
+            "S32",
+            "S56",
+            "S57"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:ea5c8f362febd8a8efcc9d1e076d41863561ba4e58ed97852841a113fad5f5ec",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "8.868255533349692e+44",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C05",
+            "C06",
+            "C07",
+            "C17",
+            "C18",
+            "C19",
+            "C40",
+            "C41"
+          ],
+          "divided_difference_operation_uses": 138192,
+          "minimum_cumulative_argument_lower": "5.5313110344457066e-05",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "7.335649093898319e+20",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S05",
+            "S06",
+            "S07",
+            "S14",
+            "S15",
+            "S16",
+            "S30",
+            "S31",
+            "S32",
+            "S56",
+            "S57"
+          ]
+        }
+      ],
+      "codimension": 16,
+      "face_id": "s1:kernel_zero:s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,v7,v8,v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "program_id": "s1:kernel_zero:s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-228",
+      "zeroed_axes": [
+        "s1",
+        "s2",
+        "s3",
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11"
+      ]
+    },
+    {
+      "axis": "s9",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:4fb8d54bcdc029b81d499442341c676733c69639729f287af0337b6ee267c51c",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "7.018103986470632e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "7.018104001228027e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:0a22b76dd43346106694279b3830efc9b6e55e5aff729f648b42492ce3b733f1",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.0632754685530845e+29",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.0632754715045635e+29",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:61db89ffbf9f2647dd7cda62fcf05159778b68b3b48691139e4c04d69bdf5120",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.4599224036161704e+29",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.4599224065676494e+29",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:50f6e3a838a6b91a7c2447e3bab9c3fe3ff42dd79ec2d1772adc8ae97611f66d",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.8737189267169844e+29",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "1.8737189326199425e+29",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:810f476444fd8c389b18a87f983de0e7e0dcdd4f01eeb75df2afbfc7b81a40c3",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.976163598543544e+29",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.976163604446502e+29",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:bfe2107a85320b3356b6dc0176ee271fc500ba6ef4e0b940b50f90202172e4d8",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.155670906481345e+29",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.1556709182872614e+29",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:9981a40111968e26a213b0cd675d281d6ef84fb090dea471a06032d4f4ca9d04",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "9.988332354372648e+28",
+          "confluent_template_ids": [
+            "C00",
+            "C03",
+            "C04",
+            "C12",
+            "C14",
+            "C15",
+            "C34",
+            "C36",
+            "C37",
+            "C71",
+            "C73"
+          ],
+          "divided_difference_operation_uses": 18832,
+          "minimum_cumulative_argument_lower": "0.0039062499999999996",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "9.988332383887438e+28",
+          "singular_template_ids": [
+            "S00",
+            "S02",
+            "S07",
+            "S17",
+            "S34"
+          ]
+        }
+      ],
+      "codimension": 4,
+      "face_id": "s9:column_coalescence:v7,v8,v9,v10",
+      "face_kind": "column_coalescence",
+      "program_id": "s9:column_coalescence:v7,v8,v9,v10",
+      "shard_id": "order10-face-228",
+      "zeroed_axes": [
+        "v7",
+        "v8",
+        "v9",
+        "v10"
+      ]
+    },
+    {
+      "axis": "s1",
+      "cells": [
+        {
+          "all_28_group_intervals_sha256": "sha256:b1fc910154cca9602c6540a2a2d17a608dfc48ee39b22a2c59d019dc0673d7bd",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "2.723402033360648e+49",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C19",
+            "C23",
+            "C24",
+            "C25",
+            "C28",
+            "C29",
+            "C30",
+            "C48",
+            "C49",
+            "C55",
+            "C56"
+          ],
+          "divided_difference_operation_uses": 91184,
+          "minimum_cumulative_argument_lower": "1.743861606280055e-05",
+          "normal_interval": [
+            "1/4096",
+            "5/16384"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "6.713704460923324e+24",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S22",
+            "S23",
+            "S24",
+            "S26",
+            "S27",
+            "S28",
+            "S30",
+            "S31",
+            "S32",
+            "S46",
+            "S47",
+            "S51",
+            "S52"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:61625a2cee34b28312986bd6177e543a55338757552d9d1105cd2b4665883fac",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "5.7560166534840287e+48",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C19",
+            "C23",
+            "C24",
+            "C25",
+            "C28",
+            "C29",
+            "C30",
+            "C48",
+            "C49",
+            "C55",
+            "C56"
+          ],
+          "divided_difference_operation_uses": 91184,
+          "minimum_cumulative_argument_lower": "2.1798270081165223e-05",
+          "normal_interval": [
+            "5/16384",
+            "25/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "6.766165132651169e+24",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S22",
+            "S23",
+            "S24",
+            "S26",
+            "S27",
+            "S28",
+            "S30",
+            "S31",
+            "S32",
+            "S46",
+            "S47",
+            "S51",
+            "S52"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:3abe982281c778abbb869feb94a8411ee5de7671449bbd36380345d4f2e0b758",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "9.14140767300714e+47",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C19",
+            "C23",
+            "C24",
+            "C25",
+            "C28",
+            "C29",
+            "C30",
+            "C48",
+            "C49",
+            "C55",
+            "C56"
+          ],
+          "divided_difference_operation_uses": 91184,
+          "minimum_cumulative_argument_lower": "2.724783760399418e-05",
+          "normal_interval": [
+            "25/65536",
+            "31/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.843791324315863e+24",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S22",
+            "S23",
+            "S24",
+            "S26",
+            "S27",
+            "S28",
+            "S30",
+            "S31",
+            "S32",
+            "S46",
+            "S47",
+            "S51",
+            "S52"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:9af2489c6cf890aaef790b1caf9bd195dfb498373e9da8f0daa08e9bff0343f2",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "1.3512914677370745e+47",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C19",
+            "C23",
+            "C24",
+            "C25",
+            "C28",
+            "C29",
+            "C30",
+            "C48",
+            "C49",
+            "C55",
+            "C56"
+          ],
+          "divided_difference_operation_uses": 91184,
+          "minimum_cumulative_argument_lower": "3.378731861707657e-05",
+          "normal_interval": [
+            "31/65536",
+            "19/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.977657214870543e+24",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S22",
+            "S23",
+            "S24",
+            "S26",
+            "S27",
+            "S28",
+            "S30",
+            "S31",
+            "S32",
+            "S46",
+            "S47",
+            "S51",
+            "S52"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:f9980b02028e455fe976e531cc7c32e3c94525113527fb1153ff160bc966e17d",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "4.5184723343601755e+46",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C19",
+            "C23",
+            "C24",
+            "C25",
+            "C28",
+            "C29",
+            "C30",
+            "C48",
+            "C49",
+            "C55",
+            "C56"
+          ],
+          "divided_difference_operation_uses": 91184,
+          "minimum_cumulative_argument_lower": "4.141671314934163e-05",
+          "normal_interval": [
+            "19/32768",
+            "47/65536"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.408766758880076e+24",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S22",
+            "S23",
+            "S24",
+            "S26",
+            "S27",
+            "S28",
+            "S30",
+            "S31",
+            "S32",
+            "S46",
+            "S47",
+            "S51",
+            "S52"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:1755dc94df9feff6f062de0b59f8034cd7a7e6a578055795b9e5537e19fbe259",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "9.468164585102423e+45",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C19",
+            "C23",
+            "C24",
+            "C25",
+            "C28",
+            "C29",
+            "C30",
+            "C48",
+            "C49",
+            "C55",
+            "C56"
+          ],
+          "divided_difference_operation_uses": 91184,
+          "minimum_cumulative_argument_lower": "5.122593469764069e-05",
+          "normal_interval": [
+            "47/65536",
+            "29/32768"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "4.026263963512571e+24",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S22",
+            "S23",
+            "S24",
+            "S26",
+            "S27",
+            "S28",
+            "S30",
+            "S31",
+            "S32",
+            "S46",
+            "S47",
+            "S51",
+            "S52"
+          ]
+        },
+        {
+          "all_28_group_intervals_sha256": "sha256:9eb4b3b231ff3782bc2441b80a26bfa94d8b7084e52b0159c6e769ece83986d1",
+          "coherent_group_count": 28,
+          "complete_second_derivative_abs_upper": "3.302190714523978e+43",
+          "confluent_template_ids": [
+            "C00",
+            "C01",
+            "C02",
+            "C03",
+            "C04",
+            "C05",
+            "C06",
+            "C07",
+            "C09",
+            "C10",
+            "C11",
+            "C12",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C19",
+            "C23",
+            "C24",
+            "C25",
+            "C28",
+            "C29",
+            "C30",
+            "C48",
+            "C49",
+            "C55",
+            "C56"
+          ],
+          "divided_difference_operation_uses": 91184,
+          "minimum_cumulative_argument_lower": "6.321498324776288e-05",
+          "normal_interval": [
+            "29/32768",
+            "1/1024"
+          ],
+          "rho_to_K486_second_singular_power_abs_upper": "2.7970643511931298e+22",
+          "singular_template_ids": [
+            "S00",
+            "S01",
+            "S02",
+            "S03",
+            "S04",
+            "S05",
+            "S06",
+            "S07",
+            "S08",
+            "S09",
+            "S10",
+            "S11",
+            "S12",
+            "S13",
+            "S14",
+            "S15",
+            "S16",
+            "S22",
+            "S23",
+            "S24",
+            "S26",
+            "S27",
+            "S28",
+            "S30",
+            "S31",
+            "S32",
+            "S46",
+            "S47",
+            "S51",
+            "S52"
+          ]
+        }
+      ],
+      "codimension": 14,
+      "face_id": "s1:kernel_zero:s4,s5,s6,s7,s8,s9,s10,s11,v6,v7,v8,v9,v10,v11",
+      "face_kind": "kernel_zero",
+      "program_id": "s1:kernel_zero:s4,s5,s6,s7,s8,s9,s10,s11,v6,v7,v8,v9,v10,v11",
+      "shard_id": "order10-face-228",
+      "zeroed_axes": [
+        "s4",
+        "s5",
+        "s6",
+        "s7",
+        "s8",
+        "s9",
+        "s10",
+        "s11",
+        "v6",
+        "v7",
+        "v8",
+        "v9",
+        "v10",
+        "v11"
+      ]
+    }
+  ],
+  "fixed_control": {
+    "K511_plan_digest": "sha256:7f47a33ffb9211d9321ce5c4d9b6df2e7055836b199597e6c642570a32ea4f25",
+    "arb_decimal_digits": 180,
+    "cells_per_program": 7,
+    "coherent_groups_per_cell": 28,
+    "complete_positive_width_cells": 112,
+    "first_shard_id": "order10-face-225",
+    "last_shard_id": "order10-face-228",
+    "ordered_descriptor_cell_evaluations": 1489600,
+    "ordered_descriptors_per_cell": 13300,
+    "program_count": 16,
+    "shard_count": 4,
+    "threads": 1
+  },
+  "measurement": {
+    "measurement_is_host_evidence_not_a_runtime_bound": true,
+    "per_shard": [
+      {
+        "cell_count": 28,
+        "program_count": 4,
+        "program_digest": "sha256:dfdd5aaddc499d7a3b96a9d621b61d4191d26e9a80c7e49ddd78323cbedff1a5",
+        "program_ids": [
+          "v3:column_coalescence:v3,v4,v5,v6,v7,v8",
+          "s4:column_coalescence:v5,v6,v7,v8,v9,v10",
+          "s11:column_coalescence:v1,v2,v3,v4,v5,v6",
+          "s7:column_coalescence:v2,v3,v4,v5,v6,v7"
+        ],
+        "program_rows_sha256": "sha256:6783490732991eb31fe5a208d245d0defd849b565ff8e68ebf74f6ad10bd443d",
+        "shard_id": "order10-face-225",
+        "wall_seconds_observed": 549.321271
+      },
+      {
+        "cell_count": 28,
+        "program_count": 4,
+        "program_digest": "sha256:9d8fa6f7566167fa97b4a48b01db9efd120a434f3f9c669dd8df4aaeea1a5baf",
+        "program_ids": [
+          "s8:kernel_zero:v7,v8,v9,v10,v11",
+          "s2:kernel_zero:s9,s10,s11,v9,v10,v11",
+          "s4:kernel_zero:s10,s11,v6,v7,v8,v9,v10,v11",
+          "s1:kernel_zero:s9,s10,s11,v5,v6,v7,v8,v9,v10,v11"
+        ],
+        "program_rows_sha256": "sha256:5e4e137da6e83814cdcbd0006783d1446dde7536bc4784d604ee5805ed962dce",
+        "shard_id": "order10-face-226",
+        "wall_seconds_observed": 373.367653
+      },
+      {
+        "cell_count": 28,
+        "program_count": 4,
+        "program_digest": "sha256:c553fe6a99189ad7672185f300524a3ae1f09a1c71d9456084f1c2ea20646a9b",
+        "program_ids": [
+          "s2:column_coalescence:v7,v8",
+          "s9:column_coalescence:v3,v4,v5,v6,v7,v8",
+          "s1:column_coalescence:v2,v3,v4,v5,v6,v7",
+          "s2:column_coalescence:v3,v4,v5,v6,v7,v8,v9,v10"
+        ],
+        "program_rows_sha256": "sha256:82f7b9aac2f0df04bff8c54d45c2be5b0cf418c012ed8a66ae2a6f2e9bbcba3b",
+        "shard_id": "order10-face-227",
+        "wall_seconds_observed": 394.586081
+      },
+      {
+        "cell_count": 28,
+        "program_count": 4,
+        "program_digest": "sha256:a929f39d95373f68250f2f0c98a0e7b3117b208e6cd7bd29421ee9f97ee8bc43",
+        "program_ids": [
+          "v2:column_coalescence:v7,v8",
+          "s1:kernel_zero:s1,s2,s3,s4,s5,s6,s7,s8,s9,s10,s11,v7,v8,v9,v10,v11",
+          "s9:column_coalescence:v7,v8,v9,v10",
+          "s1:kernel_zero:s4,s5,s6,s7,s8,s9,s10,s11,v6,v7,v8,v9,v10,v11"
+        ],
+        "program_rows_sha256": "sha256:513ec93dc35289f94fed57e500fd94d7f4a4d3d4834df9884cc15d08c697c06b",
+        "shard_id": "order10-face-228",
+        "wall_seconds_observed": 402.474582
+      }
+    ],
+    "program_seconds_observed": 107.484726,
+    "wall_seconds_observed": 1719.755609
+  },
+  "result_id": "K541-ORDER-TEN-FACE-SHARDS-225-228",
+  "schema_version": "1.0",
+  "source_and_ledger_effect": "none"
+}

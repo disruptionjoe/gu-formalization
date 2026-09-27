@@ -7,6 +7,19 @@ updated_at: "2026-09-27"
 
 # Next Steps For Contributors
 
+> **2026-09-27 K541 FINAL ORDER-TEN FACE SHARDS 225--228.** K541 executes
+> the final four exact K511 shards through the certified 180-digit, one-thread
+> backend. All 16 programs, 112 positive-width cells, 1,489,600 ordered
+> descriptor-cell evaluations, 4,837,168 divided-difference operations and
+> 16 direct overlaps pass with positive cumulative-argument floors. The
+> stored-result probe passes `22/22` controls and rejects `11/11` hostile
+> mutations. Together with K512--K540, all 916 K508-omitted programs are now
+> executed; their union with K508 covers all 936 fixed reachable-face
+> programs. Next construct the determinant-preserving normal-projective
+> partition, then the recursive positive interior and analytic tails. No
+> projective/interior/tail cover, complete hybrid integral, K500/K473,
+> K457/K152 or source/ledger/canon/public/physical result follows.
+
 > **2026-09-27 K540 ORDER-TEN FACE SHARDS 217--224.** K540 executes the
 > next eight exact K511 shards through the certified 180-digit, one-thread
 > backend. All 32 programs, 224 positive-width cells, 2,979,200 ordered
