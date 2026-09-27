@@ -7,6 +7,19 @@ updated_at: "2026-09-27"
 
 # Next Steps For Contributors
 
+> **2026-09-27 K545--K546 ORDER-TEN GLOBAL OWNERSHIP AND NESTED-DUAL
+> OBSTRUCTION.** K545 exhausts all 8,388,606 low-coordinate subsets across 22
+> hybrid domains, assigning 8,225,856 to reachable face owners and 162,750 to
+> the interior; v10/v11 are interior-only. Its probe passes `9/9` and rejects
+> `11/11`. K546 exhausts 371 comparable K413 template pairs and finds 42
+> monotone-optimal dual-nesting obstructions: 40 scalar repairs falsely
+> overextract one power and two overextract two. Together with K414's zero
+> margin, this requires determinant-preserving multiscale fronts and a
+> zero-safe scaled-kernel bank through derivative order ten. Its probe passes
+> `11/11` and rejects `11/11`. Build those two interfaces next; no uniform
+> boundary envelope, recursive interior/tail cover, complete hybrid integral,
+> K500/K473/K457/K152 or source/ledger/canon/public/physical result follows.
+
 > **2026-09-27 K543--K544 ORDER-TEN PROJECTIVE PILOTS AND ZERO STRIPS.** K543
 > maps one strict positive-width pilot box in all 1,022 K542 charts and all
 > 6,337 program-chart uses, then executes one 180-digit interval control at

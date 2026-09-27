@@ -7,6 +7,33 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K545--K546 order-ten global ownership and nested-dual obstruction (2026-09-27)
+
+K545 exhausts all 8,388,606 low-coordinate subsets across the 22 K411 hybrid
+domains under epsilon `1/64`. The deterministic rule selects the largest
+reachable mask contained in the low-coordinate set and breaks ties in
+canonical `s1..s11,v1..v11` order; if none exists it selects `INTERIOR`.
+Exactly 8,225,856 subsets are face-owned and 162,750 are interior-owned, with
+v10 and v11 interior-only. Every subset has exactly one owner and no
+unreachable face is invented. Independent regeneration passes `9/9` controls
+and rejects `11/11` hostile mutations.
+
+K546 replays all 60 K413 singular templates and exhausts all 371 same-rank
+entrywise-comparable pairs. Forty-two pairs admit neither coordinatewise
+monotone optimal binary duals nor such optimal integral-gauge duals. The least
+scalar repairs overextract one inner power for 40 pairs and two powers for two
+pairs; K414's zero global face-normal margin licenses neither false power. The
+75 K413 confluent templates plus the active second derivative require scaled
+`2*K1` derivatives through order ten. Independent regeneration passes `11/11`
+controls and rejects `11/11` hostile mutations.
+
+K546 rejects naive scalar-dual nesting, not the determinant or the order-ten
+route. A zero-safe derivative bank through order ten, complete bivariate
+determinant permutation-exponent Newton fronts, their numerical envelope, a
+uniform integrand-weighted boundary bound, recursive positive-interior cells,
+tails, complete hybrid integrals, K500/K473/K457/K152, source/ledger movement
+and physical conclusions remain open.
+
 ## K543--K544 order-ten projective pilots and zero strips (2026-09-27)
 
 K543 compiles one exact strict positive-width ratio box in each of K542's
