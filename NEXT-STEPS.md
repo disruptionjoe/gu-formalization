@@ -7,6 +7,19 @@ updated_at: "2026-09-27"
 
 # Next Steps For Contributors
 
+> **2026-09-27 K543--K544 ORDER-TEN PROJECTIVE PILOTS AND ZERO STRIPS.** K543
+> maps one strict positive-width pilot box in all 1,022 K542 charts and all
+> 6,337 program-chart uses, then executes one 180-digit interval control at
+> each of the 16 reachable codimensions. All controls are finite, preserve 28
+> coherent groups, keep positive argument floors and contain their direct
+> midpoint replays; the probe passes `9/9` and rejects `12/12`. K544 supplies
+> exact one-sided and recursive ratio-zero angular-mass majorants at epsilon
+> `1/64`; its probe passes `8/8` and rejects `10/10`. Next construct uniform
+> K413-preconditioned integrand-weighted boundary envelopes before recursive
+> interior and analytic-tail composition. The pilots do not cover the charts,
+> and the strip bounds control measure only; no complete hybrid integral,
+> K500/K473/K457/K152 or source/ledger/canon/public/physical result follows.
+
 > **2026-09-27 K542 ORDER-TEN NORMAL-PROJECTIVE PARTITION.** K542 binds
 > every one of the 936 fixed K415 face programs and all 6,552 certified
 > K508-plus-K512--K541 normal cells exactly once to 121 zero-mask atlases,

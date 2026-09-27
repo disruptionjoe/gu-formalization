@@ -7,6 +7,31 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K543--K544 order-ten projective pilots and zero strips (2026-09-27)
+
+K543 compiles one exact strict positive-width ratio box in each of K542's
+1,022 maximum-coordinate charts and maps all 6,337 program-chart uses. At 180
+Arb digits and one thread it evaluates one K413-preconditioned anisotropic
+radial/projective interval at every one of the 16 reachable codimensions,
+covering 212,800 ordered descriptor-interval evaluations. Every control is
+finite, has a strictly positive cumulative-argument floor, preserves all 28
+coherent groups and contains its direct midpoint complete-evaluator replay.
+The chart-cell bank digest is
+`sha256:a911e6efcb97b2fcb2ab0feeee5f3512d7e606d692171db77bc57ba80b9e3519`.
+Independent regeneration passes `9/9` controls and rejects `12/12` hostile
+mutations.
+
+K544 uses K542's exact chart density and mass to bound one-sided ratio-zero
+strips and all recursive intersections at epsilon `1/64` for every reachable
+codimension. Each fixed-depth bound vanishes at its declared epsilon order;
+the probe passes `8/8` controls and rejects `10/10` hostile mutations. These
+are angular-measure bounds only. K543's boxes are pilots rather than a complete
+chart cover, and K544 does not bound the K413-preconditioned integrand at zero.
+Uniform integrand-weighted boundary envelopes, recursive positive-interior
+coverage, analytic tails, the twenty-two hybrid integrals, the complete
+order-ten remainder/integral, K500/K473/K457/K152, source/ledger movement and
+physical conclusions remain open.
+
 ## K542 order-ten normal-projective partition (2026-09-27)
 
 K542 establishes the exact structural normal-projective interface over the
