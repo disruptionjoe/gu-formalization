@@ -7,6 +7,28 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K542 order-ten normal-projective partition (2026-09-27)
+
+K542 establishes the exact structural normal-projective interface over the
+complete order-ten reachable-face bank. It reconciles all 936 K415 program
+identities with all 6,552 certified K508-plus-K512--K541 positive-width normal
+cells, preserving each K413 singular/confluent preconditioner identity and
+binding every stored face-cell payload by digest. The 121 distinct zero masks
+induce 1,022 maximum-coordinate charts and 6,337 program-chart uses across the
+16 reachable codimensions 2--12, 14, 16, 18, 20 and 22. Exact rational controls
+verify the inverse coordinate map, the `(1+sum(r))^-c` angular Jacobian and the
+identity `c/c! = 1/(c-1)!` for every reachable codimension. Deterministic
+smallest-axis tie ownership makes chart interiors disjoint; compact zero/tie
+boundary routing terminates. The independent probe passes `11/11` controls and
+rejects `15/15` hostile mutations.
+
+This is coordinate, ownership and measure structure—not a positive-width
+projective ratio-cell evaluation. Measure-zero routing does not provide
+one-sided zero-safe boundary majorants. Recursive positive-interior coverage,
+analytic tails, the twenty-two hybrid integrals, the complete order-ten
+remainder/integral, K500 leakage, K473 floor, K457 value, K152 interval,
+source/ledger movement and physical conclusions remain open.
+
 ## K541 final order-ten face shards 225--228 (2026-09-27)
 
 K541 executes the final 16 programs in K511 shards 225 through 228 through
