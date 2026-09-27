@@ -7,6 +7,33 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K547--K548 order-ten zero-safe derivatives and bivariate fronts (2026-09-27)
+
+K547 independently recomputes K375's exact-rational compact-plus-tail bounds
+for `w^(m+1)*abs((2*K1)^(m)(w))` through derivative order ten. It replays all
+four K410 width rows through order two exactly, satisfies K546's row-four plus
+column-four plus active-second-derivative demand, and passes 121 positive
+200-digit Arb controls with one thread. No raw Bessel function is evaluated at
+zero and no order-eight or order-nine face atlas is reused. Independent
+regeneration passes `9/9` controls and rejects `10/10` hostile mutations.
+
+K548 replays all 60 K413 singular templates and all 371 same-rank comparable
+pairs. It retains every rank-one-through-five determinant permutation's
+coupled outer and inner exponent, then extracts the Pareto-maximal bivariate
+Newton front without substituting a scalar power. Front sizes have histogram
+125/212/34 at one/two/three points and 36 unique signatures. Every one of
+K546's 42 scalar-nesting obstructions has a nonempty multiscale front. The
+complete bank digest is
+`sha256:9ff931fa0b4fefeadbcb6c67e0890ec8583995f49437da26c36d5997d39a7d97`.
+Independent regeneration passes `11/11` controls and rejects `11/11` hostile
+mutations.
+
+K547 and K548 close the primitive derivative and determinant-exponent
+interfaces only. They do not emit a zero-inclusive numerical determinant
+envelope, uniform integrand-weighted boundary majorant, recursive
+positive-interior cells, tails, complete hybrid integrals,
+K500/K473/K457/K152, source/ledger movement or physical conclusions.
+
 ## K545--K546 order-ten global ownership and nested-dual obstruction (2026-09-27)
 
 K545 exhausts all 8,388,606 low-coordinate subsets across the 22 K411 hybrid

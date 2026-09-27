@@ -7,6 +7,21 @@ updated_at: "2026-09-27"
 
 # Next Steps For Contributors
 
+> **2026-09-27 K547--K548 ORDER-TEN ZERO-SAFE DERIVATIVES AND BIVARIATE
+> DETERMINANT FRONTS.** K547 recomputes the global compact-plus-tail scaled
+> `2*K1` bank through order ten, replays K410 orders zero through two exactly,
+> meets K546's row-four plus column-four plus active-second demand and passes
+> 121 positive 200-digit Arb controls. Its probe passes `9/9` and rejects
+> `10/10`. K548 compiles all 371 K413 comparable pairs into exact
+> same-permutation bivariate exponent supports and Pareto fronts. The front
+> sizes are `125/212/34` at one/two/three with 36 signatures; all 42 scalar
+> obstructions retain fronts. Its probe passes `11/11` and rejects `11/11`.
+> Next combine these interfaces with K413's confluent factors in a
+> zero-inclusive uniform integrand-weighted face-envelope compiler. Neither
+> artifact is that numerical evaluator or a recursive interior/tail cover,
+> complete hybrid integral, K500/K473/K457/K152 or
+> source/ledger/canon/public/physical result.
+
 > **2026-09-27 K545--K546 ORDER-TEN GLOBAL OWNERSHIP AND NESTED-DUAL
 > OBSTRUCTION.** K545 exhausts all 8,388,606 low-coordinate subsets across 22
 > hybrid domains, assigning 8,225,856 to reachable face owners and 162,750 to
