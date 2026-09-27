@@ -2,10 +2,29 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-26"
+updated_at: "2026-09-27"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K525 order-ten face shards 097--104 (2026-09-27)
+
+K525 executes the exact 32 programs in K511 shards 097 through 104 through
+the certified K524/K508 interval backend at 180 Arb digits and one thread.
+All 224 positive-width normal cells are finite, have strictly positive
+cumulative arguments and preserve all 28 coherent groups. The batch accounts
+for 2,979,200 ordered descriptor-cell evaluations, 8,588,384 divided-difference
+operations and 32 direct K412 overlaps. The bank digest is
+`sha256:330a77005714ddec2abc528cefae6da133418302387c260ae28ec330e4607576`.
+Observed wall time was 3,611.348108 seconds, or 112.854628 seconds per
+program, as host evidence rather than a runtime bound. The stored-result probe
+passes `21/21` controls and rejects `11/11` hostile mutations.
+
+Together with K512--K524, this executes 420 of the 916 programs omitted by
+K508; 496 remain. K525 does not establish a complete face bank, projective
+normal-cone cover, recursive positive-interior cover, analytic tails, complete
+hybrid integral, K500 leakage, K473 floor, K457 value, K152 interval, source
+result or physical conclusion.
 
 ## K524 order-ten face shards 089--096 (2026-09-26)
 
