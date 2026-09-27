@@ -7,6 +7,25 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K537 order-ten face shards 193--200 (2026-09-27)
+
+K537 executes the exact 32 programs in K511 shards 193 through 200 through
+the certified K536/K508 interval backend at 180 Arb digits and one thread.
+All 224 positive-width normal cells are finite, have strictly positive
+cumulative arguments and preserve all 28 coherent groups. The batch accounts
+for 2,979,200 ordered descriptor-cell evaluations, 11,465,664
+divided-difference operations and 32 direct K412 overlaps. The bank digest is
+`sha256:91b2d0f621ed9a714763ee559994efcef90d254198c0cbc24e0a243104980276`.
+Observed wall time was 3,276.469300 seconds, or 102.389666 seconds per
+program, as host evidence rather than a runtime bound. The stored-result probe
+passes `21/21` controls and rejects `11/11` hostile mutations.
+
+Together with K512--K536, this executes 804 of the 916 programs omitted by
+K508; 112 remain. K537 does not establish a complete face bank, projective
+normal-cone cover, recursive positive-interior cover, analytic tails, complete
+hybrid integral, K500 leakage, K473 floor, K457 value, K152 interval, source
+result or physical conclusion.
+
 ## K536 order-ten face shards 185--192 (2026-09-27)
 
 K536 executes the exact 32 programs in K511 shards 185 through 192 through
