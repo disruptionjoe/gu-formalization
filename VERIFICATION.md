@@ -7,6 +7,25 @@ updated_at: "2026-09-26"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K524 order-ten face shards 089--096 (2026-09-26)
+
+K524 executes the exact 32 programs in K511 shards 089 through 096 through
+the certified K523/K508 interval backend at 180 Arb digits and one thread.
+All 224 positive-width normal cells are finite, have strictly positive
+cumulative arguments and preserve all 28 coherent groups. The batch accounts
+for 2,979,200 ordered descriptor-cell evaluations, 9,978,864 divided-difference
+operations and 32 direct K412 overlaps. The bank digest is
+`sha256:e0bacebd41633560d657138aa23dd15a0f51fd37928eab01fe630b8fc5404801`.
+Observed wall time was 3,667.146511 seconds, or 114.598328 seconds per
+program, as host evidence rather than a runtime bound. The stored-result probe
+passes `21/21` controls and rejects `11/11` hostile mutations.
+
+Together with K512--K523, this executes 388 of the 916 programs omitted by
+K508; 528 remain. K524 does not establish a complete face bank, projective
+normal-cone cover, recursive positive-interior cover, analytic tails, complete
+hybrid integral, K500 leakage, K473 floor, K457 value, K152 interval, source
+result or physical conclusion.
+
 ## K523 order-ten face shards 081--088 (2026-09-26)
 
 K523 executes the exact 32 programs in K511 shards 081 through 088 through

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 397ccb6d0fe8
+revision_basis: e991d7bf1126
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K524 executes K511 shards 089 through 096 through the certified K523/K508
+    backend at 180 Arb digits and one thread. All 32 exact programs, 224
+    positive-width cells, 2,979,200 ordered descriptor-cell evaluations,
+    9,978,864 divided-difference operations and 32 direct overlaps pass with
+    positive cumulative-argument floors. Observed wall time is 3,667.15
+    seconds, or 114.60 seconds per program. Together with K512--K523, 388 of
+    the 916 K508-omitted programs are now executed; 528 remain. The projective
+    normal cone, recursive positive interior, analytic tails and complete
+    hybrid integrals remain open. No K500 leakage, K473 floor, K457 value,
+    K152 interval, source, ledger, canon, paper, public-posture or physical
+    conclusion moves.
+
     K523 executes K511 shards 081 through 088 through the certified K522/K508
     backend at 180 Arb digits and one thread. All 32 exact programs, 224
     positive-width cells, 2,979,200 ordered descriptor-cell evaluations,
@@ -10683,8 +10695,8 @@ current_question: >-
   017--024, K516 completes shards 025--032, K517 completes shards 033--040,
   K518 completes shards 041--048, K519 completes shards 049--056, K520
   completes shards 057--064, K521 completes shards 065--072, K522 completes
-  shards 073--080 and K523 completes shards 081--088; the twelve results cover
-  356 programs, leaving 560. Continue at shard 089 under
+  shards 073--080, K523 completes shards 081--088 and K524 completes shards
+  089--096; the thirteen results cover 388 programs, leaving 528. Continue at shard 097 under
   serialized resource
   control, then construct the
   normal-projective partition and join it to recursive positive-interior cells
@@ -11083,11 +11095,11 @@ next_condition: >-
   an uncancelled `1/n!` factor. Combine any resulting cross bound only with
   separately certified cyclic and noncyclic floors.
 
-  Continue the order-ten route by executing K511 shards 089--228 under
+  Continue the order-ten route by executing K511 shards 097--228 under
   serialized resource control, then build the
   normal-projective cover, origin control, recursive positive-interior cover
-  and analytic tails. K508/K509 plus K512--K523 release only 376 face
-  programs; they do not release the other 560 programs, a complete hybrid integral,
+  and analytic tails. K508/K509 plus K512--K524 release only 408 face
+  programs; they do not release the other 528 programs, a complete hybrid integral,
   K457 cross or K152 interval.
 
   Retain K506's full conditioning obligation for generic families outside
