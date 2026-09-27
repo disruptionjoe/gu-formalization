@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: cf0ab41c6e35
+revision_basis: e87d22649442
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,18 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K540 executes K511 shards 217 through 224 through the certified K539/K508
+    backend at 180 Arb digits and one thread. All 32 exact programs, 224
+    positive-width cells, 2,979,200 ordered descriptor-cell evaluations,
+    10,132,416 divided-difference operations and 32 direct overlaps pass with
+    positive cumulative-argument floors. Observed wall time is 4,624.83
+    seconds, or 144.53 seconds per program. Together with K512--K539, 900 of
+    the 916 K508-omitted programs are now executed; 16 remain. The projective
+    normal cone, recursive positive interior, analytic tails and complete
+    hybrid integrals remain open. No K500 leakage, K473 floor, K457 value,
+    K152 interval, source, ledger, canon, paper, public-posture or physical
+    conclusion moves.
+
     K539 executes K511 shards 209 through 216 through the certified K538/K508
     backend at 180 Arb digits and one thread. All 32 exact programs, 224
     positive-width cells, 2,979,200 ordered descriptor-cell evaluations,
