@@ -1,0 +1,172 @@
+{
+  "budget_identity": {
+    "complete_upper": "||r||^2 <= (sqrt(Q_2_to_7+Q_8_to_12)+epsilon_sharp)^2",
+    "equal_share_is_sufficient_not_required": true,
+    "finite_square_split": "Q_12=Q_2_to_7+Q_8_to_12",
+    "high_order_sufficient_condition": "Q_8_to_12 <= (sqrt(B)-epsilon_sharp)^2-U_2_to_7"
+  },
+  "claim_ceiling": "Exact sufficient residual-budget allocation only. It identifies which current order bands must tighten for K573's named consumers, but supplies no improved high-order enclosure, complete floor, K152 shifted-form residual, native K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "consumer_targets": [
+    {
+      "complete_residual_square_budget": "7/2",
+      "current_low_order_and_tail_leave_positive_high_order_allowance": true,
+      "equal_share_orders_8_through_12_exact_rational": null,
+      "equal_share_orders_8_through_12_scientific": "6.745598374589E-1",
+      "high_order_allowance_exact_expression": "28301541243042978390728485615272633673117/8388608000000000000000000000000000000000-9034497/16777216000*sqrt(7/2)",
+      "high_order_allowance_exact_rational": null,
+      "high_order_allowance_radical_coefficient": "9034497/16777216000",
+      "high_order_allowance_radicand": "7/2",
+      "high_order_allowance_rational_base": "28301541243042978390728485615272633673117/8388608000000000000000000000000000000000",
+      "high_order_allowance_scientific": "3.372799187295E+0",
+      "rational_square_root": null,
+      "requires_low_order_tightening_even_if_high_orders_vanish": false,
+      "target": "1",
+      "target_kind": "ground_deficit"
+    },
+    {
+      "complete_residual_square_budget": "3/2",
+      "current_low_order_and_tail_leave_positive_high_order_allowance": true,
+      "equal_share_orders_8_through_12_exact_rational": null,
+      "equal_share_orders_8_through_12_scientific": "2.746294204261E-1",
+      "high_order_allowance_exact_expression": "11524325243042978390728485615272633673117/8388608000000000000000000000000000000000-9034497/16777216000*sqrt(3/2)",
+      "high_order_allowance_exact_rational": null,
+      "high_order_allowance_radical_coefficient": "9034497/16777216000",
+      "high_order_allowance_radicand": "3/2",
+      "high_order_allowance_rational_base": "11524325243042978390728485615272633673117/8388608000000000000000000000000000000000",
+      "high_order_allowance_scientific": "1.373147102131E+0",
+      "rational_square_root": null,
+      "requires_low_order_tightening_even_if_high_orders_vanish": false,
+      "target": "1/2",
+      "target_kind": "ground_deficit"
+    },
+    {
+      "complete_residual_square_budget": "13/50",
+      "current_low_order_and_tail_leave_positive_high_order_allowance": true,
+      "equal_share_orders_8_through_12_exact_rational": null,
+      "equal_share_orders_8_through_12_scientific": "2.670640872045E-2",
+      "high_order_allowance_exact_expression": "1122451323042978390728485615272633673117/8388608000000000000000000000000000000000-9034497/16777216000*sqrt(13/50)",
+      "high_order_allowance_exact_rational": null,
+      "high_order_allowance_radical_coefficient": "9034497/16777216000",
+      "high_order_allowance_radicand": "13/50",
+      "high_order_allowance_rational_base": "1122451323042978390728485615272633673117/8388608000000000000000000000000000000000",
+      "high_order_allowance_scientific": "1.335320436022E-1",
+      "rational_square_root": null,
+      "requires_low_order_tightening_even_if_high_orders_vanish": false,
+      "target": "1/10",
+      "target_kind": "ground_deficit"
+    },
+    {
+      "complete_residual_square_budget": "25/9",
+      "current_low_order_and_tail_leave_positive_high_order_allowance": true,
+      "equal_share_orders_8_through_12_exact_rational": "200120160459886805516556370537453703058053/377487360000000000000000000000000000000000",
+      "equal_share_orders_8_through_12_scientific": "5.301373811825E-1",
+      "high_order_allowance_exact_expression": "200187919187386805516556370537453703058053/75497472000000000000000000000000000000000-9034497/16777216000*sqrt(25/9)",
+      "high_order_allowance_exact_rational": "200120160459886805516556370537453703058053/75497472000000000000000000000000000000000",
+      "high_order_allowance_radical_coefficient": "9034497/16777216000",
+      "high_order_allowance_radicand": "25/9",
+      "high_order_allowance_rational_base": "200187919187386805516556370537453703058053/75497472000000000000000000000000000000000",
+      "high_order_allowance_scientific": "2.650686905912E+0",
+      "rational_square_root": "5/3",
+      "requires_low_order_tightening_even_if_high_orders_vanish": false,
+      "target": "1/2",
+      "target_kind": "projection_sine"
+    },
+    {
+      "complete_residual_square_budget": "225/256",
+      "current_low_order_and_tail_leave_positive_high_order_allowance": true,
+      "equal_share_orders_8_through_12_exact_rational": "6309978322574228390728485615272633673117/41943040000000000000000000000000000000000",
+      "equal_share_orders_8_through_12_scientific": "1.504416065830E-1",
+      "high_order_allowance_exact_expression": "6314213243042978390728485615272633673117/8388608000000000000000000000000000000000-9034497/16777216000*sqrt(225/256)",
+      "high_order_allowance_exact_rational": "6309978322574228390728485615272633673117/8388608000000000000000000000000000000000",
+      "high_order_allowance_radical_coefficient": "9034497/16777216000",
+      "high_order_allowance_radicand": "225/256",
+      "high_order_allowance_rational_base": "6314213243042978390728485615272633673117/8388608000000000000000000000000000000000",
+      "high_order_allowance_scientific": "7.522080329149E-1",
+      "rational_square_root": "15/16",
+      "requires_low_order_tightening_even_if_high_orders_vanish": false,
+      "target": "1/3",
+      "target_kind": "projection_sine"
+    },
+    {
+      "complete_residual_square_budget": "625/9801",
+      "current_low_order_and_tail_leave_positive_high_order_allowance": false,
+      "equal_share_orders_8_through_12_exact_rational": null,
+      "equal_share_orders_8_through_12_scientific": null,
+      "high_order_allowance_exact_expression": "-5132328804935768792470112484712917369780283/82216747008000000000000000000000000000000000-9034497/16777216000*sqrt(625/9801)",
+      "high_order_allowance_exact_rational": "-5143508994973268792470112484712917369780283/82216747008000000000000000000000000000000000",
+      "high_order_allowance_radical_coefficient": "9034497/16777216000",
+      "high_order_allowance_radicand": "625/9801",
+      "high_order_allowance_rational_base": "-5132328804935768792470112484712917369780283/82216747008000000000000000000000000000000000",
+      "high_order_allowance_scientific": "-6.256035640127E-2",
+      "rational_square_root": "25/99",
+      "requires_low_order_tightening_even_if_high_orders_vanish": true,
+      "target": "1/10",
+      "target_kind": "projection_sine"
+    }
+  ],
+  "controls": {
+    "loosest_projection_25_over_9_high_order_allowance_exact": "200120160459886805516556370537453703058053/75497472000000000000000000000000000000000",
+    "low_order_tightening_required_count": 1,
+    "low_order_tightening_target_labels": [
+      "projection_sine=1/10"
+    ],
+    "positive_high_order_allowance_count": 5,
+    "positive_target_labels": [
+      "ground_deficit=1",
+      "ground_deficit=1/2",
+      "ground_deficit=1/10",
+      "projection_sine=1/2",
+      "projection_sine=1/3"
+    ],
+    "target_count": 6
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "complete_reference_specific_floor_still_required": true,
+    "equal_share_is_a_planning_allocation_not_a_mathematical_necessity": true,
+    "first_cancellation_aware_milestone": "Enclose the coherent aggregate Q_8_to_12 below the K576 projection-sine-one-half allowance while retaining the accepted Q_2_to_7 upper and sharp tail.",
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Replace the order-eight-through-twelve absolute Peano ceilings by coherent cancellation-aware enclosures whose aggregate is below the selected exact allowance; if targeting projection sine 1/10, tighten orders two through seven as well. Complete K494/K500's independent reference-specific floor before K152 transfer.",
+    "orders_eight_through_twelve_are_the_first_target_for_projection_sine_one_half": true,
+    "orders_two_through_seven_already_fit_projection_sine_one_half_budget": true,
+    "projection_sine_one_tenth_also_requires_low_order_tightening": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "one fixed complete K162 charge sector",
+    "form": "fixed K139/K168 reference form",
+    "pairing": "positive physical metric M=S* S",
+    "result": "orthogonal high-order residual budget MAP-TYPE=decision-budget",
+    "target": "future coherent order-eight-through-twelve residual or action-flux certificate"
+  },
+  "orthogonal_partition": {
+    "all_high_order_coherent_cross_terms_must_be_retained": true,
+    "all_low_order_coherent_cross_terms_retained": true,
+    "high_orders": [
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "low_order_complete_square_upper_exact": "252386895439463780114988359737227/2000000000000000000000000000000000",
+    "low_order_complete_square_upper_scientific": "1.26193447719731899e-01",
+    "low_orders": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "reason": "K179 output signatures retain particle order, so unequal orders occupy orthogonal exterior sectors.",
+    "sharp_post_order_twelve_tail_norm_upper_exact": "9034497/33554432000"
+  },
+  "result_id": "K576-K152-HIGH-ORDER-RESIDUAL-BUDGET",
+  "schema_version": "1.0",
+  "scope": "Cancellation-aware accuracy allocation between K569 orders two through seven, orders eight through twelve and K574's post-order-twelve tail for K573's named K469/K470 consumers.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

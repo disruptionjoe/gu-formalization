@@ -7,6 +7,34 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K574--K576 sharp residual tail and high-order budget (2026-09-28)
+
+K574 reconciles K496's coefficient-complete sixteen-monomial K176 exchange
+orbit with the same post-left-adjoint interface used by K457 and K570.  The
+kernel norm `1/16` sharpens the tail coefficient from `40/3` to `1`, so the
+exact post-order-twelve tail is `9034497/33554432000`, smaller by the exact
+factor `40/3` than `3011499/838860800`.  No finite Gram entry changes.
+
+K575 recomposes K569's finite interval with that sharp tail.  Because the
+certified finite lower norm now exceeds the tail, the complete M-dual
+residual norm square has the strict enclosure
+`[1.14743497404061634e-7,2.48890514834555913e+2347]`.  Thus the fixed
+repository trial is not an exact eigenvector of the fixed operator in the
+M-dual metric.  This is not a K152 shifted-form residual lower, spectral-error
+lower or native K152 interval.
+
+K576 splits K573's six named budgets between the certified order-two-through-
+seven ceiling and a coherent order-eight-through-twelve square.  Five targets
+retain positive high-order allowances.  In particular, projection sine at
+most `1/2` is sufficient if the high-order square is at most
+`200120160459886805516556370537453703058053/75497472000000000000000000000000000000000`.
+Projection sine at most `1/10` still requires tightening the present low-order
+ceiling even if the high-order part vanished.  The three probes pass 51/51
+controls and reject 29/29 hostile mutations.  These are exact certificate
+requirements, not improved high-order estimates; K494/K500's reference-
+specific floor and all source, ledger, canon, paper, public, novelty,
+prediction, confirmation and physical conclusions remain open or unchanged.
+
 ## K571--K573 K152 residual-feasibility certificates (2026-09-28)
 
 K571 composes K466's shifted-coercivity bridge with K152's residual-energy

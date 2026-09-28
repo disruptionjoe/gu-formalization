@@ -7,6 +7,23 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K574--K576 SHARP RESIDUAL TAIL AND HIGH-ORDER BUDGET.** K574
+> reconciles K496's coefficient-complete K176 exchange orbit with K457's
+> post-left-adjoint tail, replacing coefficient `40/3` by `1` and sharpening
+> the tail to `9034497/33554432000`. K575 therefore gives the strict complete
+> M-dual residual-square enclosure
+> `[1.14743497404061634e-7,2.48890514834555913e+2347]`: the fixed trial is not
+> exact in that metric. K576 assigns K573's budgets to the low- and high-order
+> bands. Five targets retain positive order-eight-through-twelve allowances;
+> projection sine `1/2` permits
+> `200120160459886805516556370537453703058053/75497472000000000000000000000000000000000`,
+> while projection sine `1/10` also needs a tighter low-order ceiling. The
+> probes pass `51/51` controls and reject `29/29` hostile mutations. Next
+> construct cancellation-aware order-eight-through-twelve enclosures under
+> the `25/9` allocation and complete K494/K500's reference-specific floor.
+> Do not retype the M-dual lower as a K152 shifted-form or spectral-error lower;
+> source, ledger, canon, public and physical claims remain unchanged.
+
 > **2026-09-28 K571--K573 K152 RESIDUAL-FEASIBILITY CERTIFICATES.** K571
 > proves that normalized shifted coercivity has `c<=a=rho+s`, so K466's
 > K152 residual-energy upper `(a/c) eta^2` cannot improve K469's direct

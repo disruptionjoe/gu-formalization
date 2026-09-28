@@ -52,18 +52,23 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
-        check("K571--K573" in live, "K571--K573 live result missing")
+        check("K574--K575" in live, "K574--K575 live result missing")
+        check("K576" in live, "K576 live budget missing")
         check("cancellation-aware" in live, "live residual route missing")
         check("K494/K500 reference-specific" in live, "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
+        check("shifted-form or spectral-error lower" in live,
+              "live M-dual claim ceiling missing")
         for marker in surface["stale_live_markers_forbidden"]:
             check(marker not in live, f"stale marker remains live: {marker}")
     if isinstance(history, str):
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K571--K573 rerank the K152 route" in summary, "current K152 result lost")
-    check("certificate insufficiency" in summary, "current claim ceiling lost")
+    check("K574--K576 sharpen and repartition the K152 residual route" in summary,
+          "current K574--K576 result lost")
+    check("The M-dual lower is not a K152 shifted-form or" in summary,
+          "current claim ceiling lost")
 
     question = current.get("current_question", "")
     check(
@@ -86,11 +91,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
     check(
-        "K571 proves" in data["agenda"].get("latest_result_2026_09_28_k571_k573", ""),
-        "agenda K571--K573 result is not current",
+        "K574 reconciles" in data["agenda"].get("latest_result_2026_09_28_k574_k576", ""),
+        "agenda K574--K576 result is not current",
     )
     check(
-        "cancellation-aware complete residual or action-flux certificate"
+        "cancellation-aware orders-eight-through-twelve enclosures"
         in data["agenda"].get("refresh_note", ""),
         "agenda residual route is not current",
     )
@@ -153,7 +158,7 @@ def selftest(base: dict) -> tuple[int, int]:
     add("agenda-stale", lambda d: d["agenda"].__setitem__(
         "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
     add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
-        "latest_result_2026_09_28_k571_k573", "K570 remains the latest result."))
+        "latest_result_2026_09_28_k574_k576", "K573 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
         item for item in d["agenda"]["work_items"]
         if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"

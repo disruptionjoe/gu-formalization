@@ -1,0 +1,50 @@
+{
+  "claim_ceiling": "Exact compatibility and tail sharpening for K457's M-dual residual interface. It changes no finite Gram entry and does not by itself emit a complete residual interval, K152 shifted-form residual, spectrum, source, ledger, canon, paper, public, novelty or physical conclusion.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "compatibility_replay": {
+    "K176_all_16_exchange_monomials": true,
+    "K176_post_left_adjoint": true,
+    "K176_seed_scope": "K162_zero_bath_seed_orbits",
+    "K176_tail_formula": "(40/3)*(3/8)^N*((N+1)-N*(3/8))/(1-3/8)^3",
+    "K457_consumed_K176_tail": "3011499/838860800",
+    "K496_cross_polarity_cancellation_used": false,
+    "K496_seed_scope_unchanged": true,
+    "K496_tail_formula": "(3/8)^N*((N+1)-N*(3/8))/(1-3/8)^3",
+    "same_geometric_tail_shape": true,
+    "same_post_left_adjoint_location": true
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "K152_shifted_form_residual_emitted": false,
+    "K569_finite_square_unchanged": true,
+    "K570_tail_input_superseded": true,
+    "next_exact_input": "Reapply K457's two-sided Hilbert triangle bound to K569's unchanged finite-square enclosure using the sharp post-left-adjoint tail exactly once.",
+    "recompose_complete_M_dual_residual": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "K162 zero-bath q00/q10 seed exchange orbits",
+    "form": "K176 coefficient-complete sixteen-monomial exchange tail",
+    "pairing": "regular-coordinate Hilbert pairing induced by M=S* S",
+    "result": "sharp post-left-adjoint tail reconciliation MAP-TYPE=norm-tail-transfer",
+    "target": "K457/K570 complete M-dual residual tail budget"
+  },
+  "result_id": "K574-K176-SHARP-POST-ADJOINT-TAIL-RECONCILIATION",
+  "schema_version": "1.0",
+  "scope": "K457's complete M-dual residual tail after exchange orders through twelve on the fixed K139/K162 zero-bath seed orbits.",
+  "sharp_tail": {
+    "exact_improvement_factor": "40/3",
+    "exchange_monomials": 16,
+    "old_coefficient": "40/3",
+    "old_kernel_norm_upper": "5/6",
+    "old_tail_norm_upper": "3011499/838860800",
+    "resolved_through_order": 12,
+    "sharp_coefficient": "1",
+    "sharp_kernel_norm_upper": "1/16",
+    "sharp_tail_norm_upper": "9034497/33554432000",
+    "sharp_tail_strictly_smaller": true
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

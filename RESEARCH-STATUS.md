@@ -8,6 +8,32 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K574--K576 sharp residual tail and high-order budget
+
+K574 proves that K496's coefficient-complete sixteen-monomial K176 exchange
+orbit is exactly compatible with K457's post-left-adjoint tail interface.  Its
+`1/16` kernel norm reduces the coefficient from `40/3` to `1`, sharpening the
+post-order-twelve tail to `9034497/33554432000` by the exact factor `40/3`
+without changing any finite Gram entry.
+
+K575 recomposes K569 with that sharp tail.  The finite lower norm now exceeds
+the tail, producing the strict complete M-dual residual-square enclosure
+`[1.14743497404061634e-7,2.48890514834555913e+2347]`.  The fixed trial is
+therefore not an exact eigenvector of the fixed operator in the M-dual metric.
+This does not supply a K152 shifted-form residual or spectral-error lower.
+
+K576 turns K573's six consumer targets into exact band budgets.  The current
+order-two-through-seven ceiling leaves positive coherent order-eight-through-
+twelve allowance for five targets, including
+`200120160459886805516556370537453703058053/75497472000000000000000000000000000000000`
+for projection sine at most `1/2`.  The `1/10` projection target also needs a
+tighter low-order ceiling.  The probes pass 51/51 controls and reject 29/29
+hostile mutations.  Next construct cancellation-aware order-eight-through-
+twelve enclosures under the `25/9` allocation while completing K494/K500's
+reference-specific floor.  K152 and all source, ledger, canon, paper, public,
+novelty, prediction, confirmation and physical conclusions remain open or
+unchanged.
+
 ## 2026-09-28 — K571--K573 K152 residual-feasibility certificates
 
 K571 proves a route-changing dominance fact for the existing K466 bridge.
