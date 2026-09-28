@@ -7,6 +7,23 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K594--K595 NATIVE ACTION-JET TYPING AND VECTOR-DATA
+> SUFFICIENCY.** K594 reuses the selected-I1B cubic bank rather than treating
+> K592's generic control as the action. The native third jet already has
+> nonzero exact slots, including `D3_ttt=8736`,
+> `D3_tvv=-(56/3)<V,*V>` and K124's TT coefficient, but these are scalar
+> trilinears on the `t/h/v` field tangent. No serialized injection, Riesz map
+> or degree-sector soldering turns them into deformations of K589's arrows on
+> K441's rank-512 boundary carrier, so neither nonfactorized K444 square is yet
+> typed. K595 proves K583 needs only three moments of `W_n v_n`, not a full
+> operator matrix or spectral diameter; it also proves K177's support/sign
+> census cannot replace coefficient amplitudes. Fixed exchange support admits
+> leakage squares `1,4,25`. The probes pass `55/55` controls and reject `55/55`
+> hostile mutations. Next construct one action-owned field-to-boundary
+> soldering packet and, independently, evaluate the coefficient-weighted K177
+> action column with rigorous exchange integrals and an all-level tail. The
+> complete-sector numerical floor remains separately required.
+
 > **2026-09-28 K592--K593 ACTION-JET IDENTIFIABILITY AND NATIVE SPECTRAL
 > DIAMETER OBSTRUCTION.** K592 gives an exact action family whose stationary
 > Hessian is fixed while the first field-dependent carrier coupling ranges

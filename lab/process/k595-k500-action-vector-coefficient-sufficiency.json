@@ -1,0 +1,106 @@
+{
+  "claim_ceiling": "Exact data-sufficiency boundary for K583: the complete spectrum and full W_n matrix are unnecessary; the three moments ||v_n||^2, <v_n,W_n v_n> and ||W_n v_n||^2, equivalently W_n v_n, suffice. K177's support/sign/path census through order twelve does not serialize the coefficient-weighted action column, and identical exchange support can have leakage squares 1,4,25 under amplitude scaling. Thus the direct vector route remains live but no uniform K500 bound, noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion is emitted.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "K177_support_census_alone_bounds_leakage": false,
+    "K473_released": false,
+    "K583_direct_vector_route_preserved": true,
+    "K593_spectral_diameter_route_reopened": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "next_exact_input": "Evaluate the coefficient-weighted K177 action column W_n v_n, with rigorous exchange-amplitude integrals and tail control, and bound its three normalized moments uniformly; do not construct the unused full W_n matrix or return to spectral diameter.",
+    "required_successor_narrowed_to_three_moments_or_action_vector": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_rows_same_exchange_support_count": true,
+    "expected_square_law": true,
+    "fixed_support_family": [
+      {
+        "exchange_scale": "1",
+        "exchange_support_count": 4,
+        "leakage_square": "1"
+      },
+      {
+        "exchange_scale": "2",
+        "exchange_support_count": 4,
+        "leakage_square": "4"
+      },
+      {
+        "exchange_scale": "5",
+        "exchange_support_count": 4,
+        "leakage_square": "25"
+      }
+    ],
+    "leakage_changes_with_amplitude": true,
+    "leakage_squares": [
+      "1",
+      "4",
+      "25"
+    ]
+  },
+  "gu_typed_objects": {
+    "carrier": "one K162 q00 or q10 bath-number level with cyclic vector v_n",
+    "form": "self-adjoint native normal action W_n including diagonal and K177 matched exchange contributions",
+    "pairing": "regular positive Hilbert pairing transported from M=S* S",
+    "result": "action-vector coefficient sufficiency boundary MAP-TYPE=vector-orbit-data",
+    "target": "uniform K583 ratio ||W_n v_n tensor v_n-v_n tensor W_n v_n||^2/(2||v_n||^4)"
+  },
+  "native_K177_inventory": {
+    "all_levels_beyond_order_12_serialized": false,
+    "coefficient_complete_base_action_column_evaluated": false,
+    "exchange_topology_and_CAR_signs_serialized": true,
+    "laplace_simplex_integral_representation_serialized": true,
+    "orders_resolved": [
+      0,
+      12
+    ],
+    "outward_numerical_prefix_integrals_evaluated": false,
+    "rows": [
+      {
+        "charge": [
+          0,
+          0
+        ],
+        "matched_exchange_coordinates_through_order_12": 1158,
+        "resolved_prefix_coordinates_through_order_12": 253,
+        "seed": "Omega"
+      },
+      {
+        "charge": [
+          1,
+          0
+        ],
+        "matched_exchange_coordinates_through_order_12": 900,
+        "resolved_prefix_coordinates_through_order_12": 190,
+        "seed": "d_1^*Omega"
+      }
+    ]
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The fixed-support W_c family has identical support topology and arbitrarily different leakage, so coefficient amplitudes are load-bearing.",
+    "strongest_overclaim": "Treating exchange counts as amplitude bounds, or calling a twelve-order topology census an all-level vector estimate.",
+    "weakest_reproducibility_seam": "The successor still needs rigorous continuum exchange integrals and an all-level tail; K595 narrows the data object but does not evaluate it."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K177 serializes exchange paths, signs and integral representations through order twelve, but explicitly leaves the coefficient-complete base action column unevaluated.",
+    "route_comparison": "After K593, test whether K177 already contains the vector-specific amplitudes needed by K583 before launching an all-level operator enclosure.",
+    "strongest_alternative": "Bounding the full operator matrix or spectrum is stronger and more expensive than K583 requires; three moments of W_n v_n suffice."
+  },
+  "result_id": "K595-K500-ACTION-VECTOR-COEFFICIENT-SUFFICIENCY",
+  "schema_version": "1.0",
+  "scope": "The exact data needed to execute K583's vector-specific K500 leakage certificate after K593 retired a spectral-diameter bound, with K177's higher-level matched exchange topology retained.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "coefficient_weighted_action_vector_required": true,
+    "fixed_support_scaling_family": "W_c=[[0,c,0],[c,0,1],[0,1,0]], v=e0 has the same four off-diagonal support entries for every nonzero c, but lambda(W_c,v)^2=c^2.",
+    "full_operator_matrix_not_required": true,
+    "minimum_sufficient_data": "For each supported n it is sufficient to serialize ||v_n||^2, <v_n,W_n v_n>, and ||W_n v_n||^2, or equivalently the coefficient-weighted vector W_n v_n; the full spectrum and full matrix of W_n are unnecessary.",
+    "spectral_diameter_not_required": true,
+    "topology_is_insufficient": "Exchange-coordinate counts, support and CAR signs do not bound the coefficient-weighted action vector without amplitude estimates."
+  }
+}

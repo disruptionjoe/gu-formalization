@@ -7,6 +7,25 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K594--K595 native action-jet typing and vector-data sufficiency (2026-09-28)
+
+K594 composes the exact K122/K124 native coefficients with K441/K589/K590's
+declared types. The selected action's native third jet is genuinely nonzero,
+but a scalar field-space trilinear does not by itself define an endomorphism of
+the corrected rank-512 carrier or a deformation of either lifted KT arrow.
+The audit explicitly checks that the required field/carrier injection,
+degree-sector map and pairing/Riesz return are absent. The result does not say
+such maps cannot exist; it prevents an untyped 512-by-512 commutator test.
+
+K595 independently derives the three-moment sufficiency formula from K583 and
+replays K177's release flags. A fixed-support exact matrix family proves that
+exchange support and CAR topology alone do not control leakage amplitudes.
+Consequently the next calculation is the coefficient-weighted vector
+`W_n v_n` with exchange integrals and tail control, not a full spectral
+enclosure. The two probes pass 55/55 controls and reject 55/55 hostile
+mutations. No K444 nonfactorized square, K500 uniform bound, noncyclic floor,
+K473 beta, K152 interval or protected scientific/public conclusion follows.
+
 ## K592--K593 action-jet identifiability and native spectral obstruction (2026-09-28)
 
 K592 exactly differentiates a cubic action family with a common stationary

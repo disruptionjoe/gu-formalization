@@ -8,6 +8,36 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K594--K595 native action-jet typing and vector-data sufficiency
+
+K594 resolves the literal first half of K592's wake without inventing a
+corrected-carrier map. K122/K124 already serialize selected-I1B third
+derivatives: `D3_ttt=8736`, `D3_tvv=-(56/3)<V,*V>`, the principal TT slot
+`C_thh=-12 q^2 <H1,H2>_DW`, and 120 zero selected mixed TT/vertical
+evaluations. These are components of the scalar symmetric trilinear
+`D3I1B` on native field directions `t/h/v`. K441 instead supplies a distinct
+rank-512 boundary carrier, and K589 supplies coefficient degrees
+`21 -> 91 -> 70`. A nonfactorized K590 deformation requires typed maps in
+`Hom(H^21 tensor E,Q^91 tensor E)` and
+`Hom(Q^91 tensor E,M^70 tensor E)`. No field-to-carrier injection,
+degree-sector soldering or action Riesz return map is serialized, so composing
+the known scalar trilinear with either corrected-carrier arrow is not yet
+defined. This is a type/ownership boundary, not a zero-jet or no-go theorem.
+
+K595 sharpens the independent K583 successor after K593. The tensor identity
+can be evaluated from only `||v_n||^2`, `<v_n,W_n v_n>` and
+`||W_n v_n||^2`; neither the full matrix nor the spectrum of `W_n` is needed.
+K177 does serialize exchange paths, CAR signs and Laplace-simplex integral
+representations through order twelve, but explicitly does not evaluate the
+coefficient-complete base action column. The exact family
+`W_c=[[0,c,0],[c,0,1],[0,1,0]]`, `v=e0`, keeps the same four off-diagonal
+support entries while its leakage square is `c^2`, giving controls `1,4,25`.
+Thus topology/counts cannot supply an amplitude bound. The two probes pass
+55/55 controls and reject 55/55 hostile mutations. No K444 nonfactorized
+square, K500 uniform leakage, noncyclic floor, K473 beta, K152 interval,
+source, ledger, canon, paper, public, novelty, prediction, confirmation or
+physical conclusion moves.
+
 ## 2026-09-28 — K592--K593 action-jet identifiability and native spectral obstruction
 
 K592 tests whether the stationary Hessian used by K585/K588 determines the

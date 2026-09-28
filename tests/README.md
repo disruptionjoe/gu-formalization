@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K594--K595 native action-jet typing and vector-data sufficiency
+
+- `channel-swings/k594_k77_native_third_jet_carrier_typing.py` composes the
+  exact selected-I1B cubic bank with K441/K589/K590's declared carriers and
+  proves the missing object is a field-to-boundary soldering/Riesz interface,
+  not the native scalar third jet itself.
+- `channel-swings/k595_k500_action_vector_coefficient_sufficiency.py` proves
+  K583 needs only three normalized moments of `W_n v_n` and that K177 exchange
+  counts/support cannot bound them without coefficient amplitudes.
+- The two `_probe.py` files pass 55 exact controls and reject 55 hostile
+  mutations while preserving all source, ledger and downstream claim fences.
+
 ## K592--K593 action-jet identifiability and native spectral obstruction
 
 - `channel-swings/k592_k77_hessian_carrier_coupling_identifiability.py`

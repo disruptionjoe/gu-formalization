@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9716977a90d5
+revision_basis: afcf09fd0fa8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K594--K595 resolve the two exact post-K592/K593 data questions without
+    inventing missing physics. K594 verifies that the selected I1B native
+    third jet is already nonzero and partly serialized: D3_ttt=8736,
+    D3_tvv=-(56/3)<V,*V>, K124's TT coefficient and 120 zero mixed TT/vertical
+    evaluations. Those objects are scalar trilinears on native t/h/v field
+    directions, not endomorphisms of K441's rank-512 boundary carrier or
+    deformations of K589's 21->91->70 arrows. The necessary field-to-carrier
+    injections, degree-sector soldering and action Riesz return are not
+    serialized, so the nonfactorized K444 squares remain untyped rather than
+    failed. K595 proves K583 requires only ||v_n||^2, <v_n,W_n v_n> and
+    ||W_n v_n||^2, while a fixed-support scaling family shows K177's
+    exchange counts/signs cannot bound those amplitudes. The probes pass
+    55/55 controls and reject 55/55 hostile mutations. Next build one
+    action-owned soldering packet and independently evaluate the
+    coefficient-weighted K177 action column with rigorous exchange integrals
+    and an all-level tail. The separate complete-sector floor remains open;
+    no protected scientific or public conclusion moves.
+
     K592--K593 close two false identifiability routes while preserving their
     correctly typed successors. K592 proves that K585/K588's stationary
     Hessian does not determine the first field-dependent nonfactorized
@@ -11075,19 +11093,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K588--K590 close the finite homogeneous-orbit and factorized corrected-
-  carrier endpoint selected by K587. The next action-side question is whether
-  a source/action-owned nonfactorized lower-order carrier coupling exists and
-  remains nilpotent/proper beyond that tensor product. Do not relabel the
-  Euclidean minimal-norm off-image extension as uniquely source-selected, or
-  finite/factorized exactness as nonlinear functional BV/KT properness or
-  physical cohomology.
+  K594 verifies the selected action's native third jet is nonzero and partly
+  serialized, but it is a scalar trilinear on t/h/v field directions rather
+  than an owned deformation of K589's arrows on K441's corrected rank-512
+  carrier. The next K77 route must construct one source/action-owned
+  field-to-boundary injection, degree-sector soldering and action Riesz return,
+  then test both nonfactorized K444 squares. Do not relabel the missing typed
+  composition as a zero third jet, or the Euclidean minimal-norm off-image
+  extension as uniquely source-selected.
 
-  Independently, K591 reduces K500's complete leakage upper to a native
-  uniform spectral-diameter problem for the full self-adjoint normal blocks,
-  including exchange terms. Prove those actual all-level widths uniformly or
-  evaluate the normalized action vectors directly. The separate numerical
-  noncyclic floor remains required before K473 or K152 can move.
+  Independently, K595 proves K583's direct route needs only the three moments
+  ||v_n||^2, <v_n,W_n v_n> and ||W_n v_n||^2, not a full normal-action matrix
+  or spectral diameter. Evaluate that coefficient-weighted action vector with
+  K177's exchange amplitudes and a rigorous all-level tail. Support counts,
+  CAR signs and twelve resolved orders do not bound amplitudes. The separate
+  numerical noncyclic floor remains required before K473 or K152 can move.
 
   K510 shows that K507's explicit alternating q00/q10 paths are nonzero at
   every level, but a lower proof that pays the full ordered-simplex `1/n!`
@@ -11559,15 +11579,16 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, serialize the selected action's third Frechet derivative
-  at the same stationary background, restrict its carrier legs to the
-  K589/K441 complex, and test both K444 squares, nilpotence and properness.
-  K592 proves this coupling cannot be inferred from the stationary Hessian.
-  On the K500 route, retire the finite native spectral-width route rejected by
-  K593 and directly bound K583's normalized antisymmetrized action vectors
-  uniformly while retaining K177's exchange blocks. Separately serialize a
-  named cancellation-safe complete-sector lower witness. Preserve K588's
-  off-image ownership fence and K590's factorized-only ceiling.
+  On the K77 route, construct one action-owned field-to-boundary soldering and
+  Riesz packet that maps a declared selected-I1B native variation into the
+  K589/K441 complex, then test both K444 squares, nilpotence and properness.
+  K594 proves the nonzero native scalar third jet alone does not type this
+  composition. On the K500 route, keep the finite native spectral-width route
+  retired and bound K583's normalized antisymmetrized action vectors from the
+  three coefficient-weighted moments of W_n v_n, retaining K177's exchange
+  amplitudes and an all-level tail. Separately serialize a named cancellation-
+  safe complete-sector lower witness. Preserve K588's off-image ownership
+  fence and K590's factorized-only ceiling.
 
   Continue K500 beyond K510's simplex-volume obstruction. Either prove a
   determinant-aware refinement-uniform lower for the explicit alternating
