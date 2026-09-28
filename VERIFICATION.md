@@ -7,6 +7,32 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K568--K570 complete M-dual residual enclosure (2026-09-28)
+
+K568 independently replays K179's coherent-group census against K180--K184.
+It retains all 142 lower-order vectors, 57 groups and 352 upper-triangle
+entries, including every cross term already enclosed inside the certified
+group intervals. Its probe passes 10/10 controls and rejects 10/10 mutations.
+
+K569 composes exactly one complete normalized enclosure for each order two
+through twelve. It uses nonnegativity only after each input is typed as a
+Hilbert norm square and uses cross-order orthogonality only because K179's
+output signatures retain particle order. All 2,958 vectors, 201 groups and
+59,586 entries are covered. Its probe passes 10/10 controls and rejects 11/11
+mutations.
+
+K570 encloses both square roots outward with rational scale `10^80`, applies
+K457's exact post-left-adjoint tail once, and obtains the complete M-dual
+residual norm-square interval `[0,2.48890514834555913e+2347]`. Its probe passes
+11/11 controls and rejects 11/11 mutations. The zero lower endpoint is
+necessary because the tail upper exceeds the certified finite lower norm.
+
+This proves conditional finiteness of the complete M-dual residual. It does
+not prove a positive residual floor, a useful downstream margin, a K466
+shifted coercivity value, K152's shifted form-dual residual, a native K152
+interval, or any source, ledger, canon, paper, public, novelty, prediction,
+confirmation or physical claim.
+
 ## K562--K567 complete higher-order conditional integrals (2026-09-28)
 
 K562 applies K560's exact singular and confluent preconditioning before
@@ -157,11 +183,10 @@ Independent probes pass `10/10`, `11/11`, `10/10`, `9/9` and `10/10`
 controls and reject `10/10`, `11/11`, `11/11`, `9/9` and `11/11` hostile
 mutations. This proves finiteness of the repository's conditional order-ten
 coherent integral. The enclosure is too broad to decide sign or provide a
-useful K152 margin. K555/K556 subsequently close the order-eleven/twelve node
-values and ordered axis interfaces, but not their node jets or complete
-integrals. The complete base action column, R_ref residual,
-K500/K473/K457/K152, source/ledger movement, canon, paper, public posture,
-novelty and physical conclusions remain open.
+useful K152 margin. K555--K567 subsequently close the complete
+order-eleven/twelve integrals, and K568--K570 compose every order into the
+complete M-dual residual enclosure. K500/K473/K152, source/ledger movement,
+canon, paper, public posture, novelty and physical conclusions remain open.
 
 ## K547--K548 order-ten zero-safe derivatives and bivariate fronts (2026-09-27)
 

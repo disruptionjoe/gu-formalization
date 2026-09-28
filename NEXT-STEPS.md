@@ -7,6 +7,20 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K568--K570 COMPLETE M-DUAL RESIDUAL ENCLOSURE.** K568
+> reconciles all K179 order-two-through-six inputs against K180--K184: 142
+> vectors, 57 coherent groups and 352 upper-triangle entries. K569 composes
+> them with the complete order-seven-through-twelve enclosures, retaining all
+> 2,958 vectors, 201 groups and 59,586 entries. The finite square lies in
+> `[3.69648298925257427e-7,2.48890514834555913e+2347]`. K570 applies K457's
+> exact tail `3011499/838860800` once and encloses the complete M-dual residual
+> norm square in `[0,2.48890514834555913e+2347]`. The three probes pass `31/31`
+> controls and reject `32/32` hostile mutations. This proves conditional
+> finiteness, not a positive floor or useful margin. K465 forbids retyping the
+> result as K152's shifted form-dual residual; next supply a quantitative K466
+> coercivity bridge and a useful complete-complement or action-flux floor.
+> Source, ledger, canon, public and physical claims remain unchanged.
+
 > **2026-09-28 K562--K567 COMPLETE CONDITIONAL ORDERS ELEVEN/TWELVE.**
 > K562 compiles 3,540 rank-compatible global determinant envelopes through
 > primitive order twelve. K563 majorizes all 2,733 reachable faces while

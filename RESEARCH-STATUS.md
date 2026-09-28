@@ -8,6 +8,33 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K568--K570 complete M-dual residual enclosure
+
+K568 replays K179's complete order-two-through-six coefficient family and
+reconciles K180--K184's certified coherent norm-square intervals. All 142
+resolved vectors, 57 coherent groups and 352 upper-triangle Gram entries are
+retained; the combined lower-order finite-square interval is
+`[3.69648298925257427e-7,1.21715981535117503e-1]`.
+
+K569 composes those inputs with K342, K372, K404, K553 and K567. Unequal
+orders are orthogonal exterior sectors because particle order is part of the
+K179 output signature. The resulting Q_12 enclosure covers all 2,958 vectors,
+201 groups and 59,586 entries and is
+`[3.69648298925257427e-7,2.48890514834555913e+2347]`.
+
+K570 uses outward 80-decimal rational square-root bounds and applies K457's
+exact post-left-adjoint tail `3011499/838860800` once. The tail can cancel the
+certified finite lower norm, so the complete M-dual residual norm-square
+interval is `[0,2.48890514834555913e+2347]`. The three probes pass 31/31
+controls and reject 32/32 hostile mutations.
+
+This closes numerical enclosure and conditional finiteness of K457's M-dual
+residual, but gives no positive floor or useful spectral margin. K465's metric
+correction remains binding: K152 needs a quantitative K466 shifted-coercivity
+bridge plus a useful complete-complement or action-flux floor. Source/physics
+ledgers, canon, papers, public posture, novelty and physical claims remain
+unchanged.
+
 ## 2026-09-28 — K562--K567 complete higher-order conditional integrals
 
 K562 coefficients every rank-compatible K560 singular/confluent template with
@@ -32,9 +59,10 @@ and `[-2.48890514834555913e+2347,2.48890514834555913e+2347]` at order twelve.
 They prove finiteness but not sign or a useful downstream margin. The six
 probes pass 60/60 controls and reject 61/61 hostile mutations.
 
-The next exact consumer is the typed complete base action column and `R_ref`
-residual. K500/K473/K457/K152 and source/physics ledgers, canon, papers,
-public posture, novelty and physical claims remain open or unchanged.
+K568--K570 subsequently consume these complete enclosures into Q_12 and the
+complete M-dual residual interval. K500/K473/K152 and source/physics ledgers,
+canon, papers, public posture, novelty and physical claims remain open or
+unchanged.
 
 ## 2026-09-28 — K559--K561 higher-order zero-safe face interfaces
 

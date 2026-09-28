@@ -1,0 +1,175 @@
+{
+  "claim_ceiling": "Complete exact aggregation of the already certified K180--K184 order-two-through-six coherent norm-square intervals, with K179's 142 vectors, 57 groups and 352 upper-triangle entries replayed. This does not yet compose the full Q_12, evaluate the complete residual, transfer to K152's shifted metric, or move source, ledger, canon, paper, public, novelty or physical claims.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-09-28",
+  "decision": {
+    "K152_shifted_form_dual_residual_emitted": false,
+    "complete_M_dual_residual_emitted": false,
+    "full_Q_12_emitted": false,
+    "next_exact_input": "compose these 352 entries with the complete order-seven-through-twelve enclosures into the full 59,586-entry finite square",
+    "orders_two_through_six_numerically_complete": true
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "coherent_groups": 57,
+    "orders": [
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "predecessor_manifests": [
+      "lab/process/k180-order-two-outward-exchange-kernel-wave.json",
+      "lab/process/k181-order-three-determinant-exchange-wave.json",
+      "lab/process/k182-order-four-coherent-gram-wave.json",
+      "lab/process/k183-order-five-coherent-gram-compression-wave.json",
+      "lab/process/k184-order-six-certified-low-rank-wave.json"
+    ],
+    "resolved_vectors": 142,
+    "upper_triangle_gram_entries": 352
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED"
+  },
+  "lower_order_finite_square": {
+    "all_352_entries_reconciled": true,
+    "cross_terms_retained_inside_coherent_group_intervals": true,
+    "interval_exact": [
+      "924120747313143567898534149175900000000000000002017553817145954570540539079735459504303043698110430533037270599528056035009277217/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+      "243431963070235006114988359737227/2000000000000000000000000000000000"
+    ],
+    "interval_scientific": [
+      "3.69648298925257427e-7",
+      "1.21715981535117503e-1"
+    ]
+  },
+  "order_reconciliation": [
+    {
+      "coherent_groups": 6,
+      "complete_norm_square_interval_exact": [
+        "923949465617429144929109691/2500000000000000000000000000000000",
+        "4701804988130730569997343011/10000000000000000000000000000000000"
+      ],
+      "complete_norm_square_interval_scientific": [
+        "3.69579786246971658e-7",
+        "4.70180498813073057e-7"
+      ],
+      "group_size_histogram": {
+        "1": 6
+      },
+      "interval_nonnegative_and_ordered": true,
+      "order": 2,
+      "resolved_vectors": 6,
+      "source": "lab/process/k180-order-two-outward-exchange-kernel-wave.json",
+      "source_group_keys_replayed": false,
+      "upper_triangle_gram_entries": 6
+    },
+    {
+      "coherent_groups": 8,
+      "complete_norm_square_interval_exact": [
+        "1712816957144229694244581759/25000000000000000000000000000000000000",
+        "56384484607993204950335781/2500000000000000000000000000000000"
+      ],
+      "complete_norm_square_interval_scientific": [
+        "6.85126782857691878e-11",
+        "2.25537938431972820e-8"
+      ],
+      "group_size_histogram": {
+        "1": 8
+      },
+      "interval_nonnegative_and_ordered": true,
+      "order": 3,
+      "resolved_vectors": 8,
+      "source": "lab/process/k181-order-three-determinant-exchange-wave.json",
+      "source_group_keys_replayed": false,
+      "upper_triangle_gram_entries": 8
+    },
+    {
+      "coherent_groups": 13,
+      "complete_norm_square_interval_exact": [
+        "80702152685837589129400932239974440672746999892305667745406561/100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "2295350410847572079/250000000000000000000000"
+      ],
+      "complete_norm_square_interval_scientific": [
+        "8.07021526858375891e-55",
+        "9.18140164339028832e-6"
+      ],
+      "group_size_histogram": {
+        "1": 6,
+        "2": 4,
+        "3": 2,
+        "4": 1
+      },
+      "interval_nonnegative_and_ordered": true,
+      "order": 4,
+      "resolved_vectors": 24,
+      "source": "lab/process/k182-order-four-coherent-gram-wave.json",
+      "source_group_keys_replayed": true,
+      "upper_triangle_gram_entries": 40
+    },
+    {
+      "coherent_groups": 12,
+      "complete_norm_square_interval_exact": [
+        "14842305515763264282227189441855542579905202106574528056035009277217/2500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "16260451138023549/1250000000000000000000000"
+      ],
+      "complete_norm_square_interval_scientific": [
+        "5.93692220630530571e-69",
+        "1.30083609104188392e-8"
+      ],
+      "group_size_histogram": {
+        "2": 8,
+        "4": 4
+      },
+      "interval_nonnegative_and_ordered": true,
+      "order": 5,
+      "resolved_vectors": 32,
+      "source": "lab/process/k183-order-five-coherent-gram-compression-wave.json",
+      "source_group_keys_replayed": true,
+      "upper_triangle_gram_entries": 64
+    },
+    {
+      "coherent_groups": 18,
+      "complete_norm_square_interval_exact": [
+        "52359081301474634226301044671/12500000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "760664339942628413/6250000000000000000"
+      ],
+      "complete_norm_square_interval_scientific": [
+        "4.18872650411797074e-81",
+        "1.21706294390820546e-1"
+      ],
+      "group_size_histogram": {
+        "1": 2,
+        "2": 4,
+        "3": 4,
+        "4": 2,
+        "5": 2,
+        "7": 2,
+        "9": 2
+      },
+      "interval_nonnegative_and_ordered": true,
+      "order": 6,
+      "resolved_vectors": 72,
+      "source": "lab/process/k184-order-six-certified-low-rank-wave.json",
+      "source_group_keys_replayed": true,
+      "upper_triangle_gram_entries": 234
+    }
+  ],
+  "release_test": {
+    "K152_not_overclaimed": true,
+    "all_142_lower_order_vectors_retained": true,
+    "all_352_lower_order_entries_retained": true,
+    "all_57_lower_order_groups_retained": true,
+    "all_intervals_nonnegative_and_ordered": true,
+    "all_source_group_keys_replayed_where_explicit": true,
+    "full_Q_12_not_overclaimed": true
+  },
+  "result_id": "K568-LOWER-ORDER-FINITE-GRAM-RECONCILIATION",
+  "schema_version": "1.0",
+  "scope": "Complete reconciliation of K179 orders two through six against K180--K184's certified coherent norm-square intervals.",
+  "source_routing": "SC-ACT-01/02/06 ASSERTS and SC-META-53 UNCERTAIN remain unchanged."
+}

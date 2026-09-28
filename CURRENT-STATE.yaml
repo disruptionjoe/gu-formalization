@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1be61dd8b462
+revision_basis: da720083737c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K568--K570 close the complete numerical M-dual residual enclosure. K568
+    replays K179 orders two through six against K180--K184 and reconciles all
+    142 vectors, 57 coherent groups and 352 upper-triangle entries. K569 joins
+    those inputs to the complete order-seven-through-twelve enclosures without
+    reapplying any native prefactor, covering all 2,958 vectors, 201 groups and
+    59,586 self/cross entries. The finite square Q_12 lies in
+    `[3.69648298925257427e-7,2.48890514834555913e+2347]`. K570 then applies
+    K457's exact post-order-twelve tail `3011499/838860800` once, giving the
+    complete M-dual residual norm-square interval
+    `[0,2.48890514834555913e+2347]`. The three probes pass `31/31` controls and
+    reject `32/32` hostile mutations. This proves conditional finiteness, not
+    a positive floor or useful margin. K465 remains binding: the result is not
+    K152's shifted form-dual residual without a quantitative K466 coercivity
+    bridge. K500/K473/K152 and all source, ledger, canon, paper,
+    public-posture, novelty and physical conclusions remain open.
+
     K562--K567 close both remaining higher-order conditional integrals. K562
     compiles 3,540 rank-compatible K560/K378 determinant envelopes through
     primitive order twelve. K563 emits finite exact-rational whole-radial rows
@@ -48,10 +64,10 @@ current_result:
     `[-2.80422529299512063e+2161,2.80422529299512063e+2161]` and
     `[-2.48890514834555913e+2347,2.48890514834555913e+2347]`. They prove
     conditional finiteness, not sign or a useful downstream margin. The six
-    probes pass `60/60` controls and reject `61/61` hostile mutations. Next
-    reconcile all complete order-specific enclosures with the remaining typed
-    base-action inputs, then construct the complete action column and R_ref.
-    K500/K473/K457/K152 and all source, ledger, canon, paper, public-posture,
+    probes pass `60/60` controls and reject `61/61` hostile mutations. These
+    complete order-specific enclosures are subsequently reconciled by
+    K568--K570 into Q_12 and the complete M-dual residual interval.
+    K500/K473/K152 and all source, ledger, canon, paper, public-posture,
     novelty and physical conclusions remain open.
 
     K549--K553 close the complete conditional order-ten boundary-to-integral
@@ -11039,7 +11055,11 @@ current_question: >-
   coefficient all 3,540 compatible templates, emit every whole-radial face
   row, account for all 167,772,156 logical owner states, bound all fifty
   hybrids and enclose both complete conditional integrals. Continue with the
-  typed complete base action column and R_ref residual. Do not
+  K568--K570 now reconcile the complete lower-order inputs, enclose all 59,586
+  finite Gram entries and compose the exact tail into a complete M-dual
+  residual interval. Next supply a quantitative K466 shifted-coercivity bridge
+  and a useful complete-complement or action-flux floor before any K152
+  transfer. Do not
   treat K543's
   pilots as a complete projective cover, K544's measure-only bounds as
   integrand control, K546's obstruction as a determinant failure, or K548's
@@ -11184,10 +11204,12 @@ current_question: >-
   every reachable hybrid face and the complete local rank-six interface.
   K562--K567 complete the global coefficient, whole-radial, symbolic-owner,
   recursive-interior, remainder and normalized-integral chain for both orders.
-  The complete base action column, R_ref residual and native K152 interval
-  remain open. Next reconcile the remaining typed action-column inputs; do not
-  promote finite but extremely coarse integral enclosures to a sign or useful
-  spectral margin.
+  K568--K570 then reconcile the complete lower-order payload, enclose Q_12 and
+  propagate the exact tail into the complete M-dual residual interval. The
+  shifted K152 residual and native K152 interval remain open. Next supply
+  quantitative K466 shifted coercivity and a useful complete-complement or
+  action-flux floor; do not promote the coarse M-dual upper bound to a sign or
+  useful spectral margin.
   Do not return to fixed-x q extraction, detached cofactors, occurrencewise
   absolute values, a global remaining-entry supremum, or K290's superseded
   pointwise bank. Do not reuse K305's four groups, K299's six-axis weights,
@@ -11457,10 +11479,14 @@ next_condition: >-
   instances and their exact rank-six local interface. K562--K567 then emit
   3,540 global coefficient envelopes, all 2,733 finite whole-radial rows, an
   exact partition of 167,772,156 logical owner states, all fifty hybrid bounds
-  and the complete normalized order-eleven/twelve intervals. Next assemble
-  the typed complete base action column and R_ref residual before any
-  K457/K152 conclusion. Do not infer sign, a useful margin, source status or
-  physical significance from these extremely coarse finite enclosures.
+  and the complete normalized order-eleven/twelve intervals. K568--K570 then
+  reconcile all 352 lower-order entries, sum all eleven complete order
+  enclosures into Q_12 and apply K457's exact tail once. Retain the resulting
+  complete M-dual residual interval as a finiteness result only. Next produce
+  the quantitative K466 shifted-coercivity bridge and a useful complete-
+  complement or action-flux floor before any K152 conclusion. Do not infer
+  sign, a useful margin, source status or physical significance from the
+  extremely coarse upper bound.
 
   Retain K506's full conditioning obligation for generic families outside
   K507's exact positivity scope. On such a carrier, certify path norm-square
@@ -11608,9 +11634,11 @@ next_condition: >-
   modify K450. Treat K452 as the fail-closed readiness interface: same-family
   Gram and limiting-form transfer are complete, but the complete shifted
   limiting-form dual residual, coercivity, next-distinct spectral separation
-  and native left floor remain open. Next assemble that complete residual on
-  the K162 carrier, then prove the remaining three spectral controls before
-  feeding K152. Do not identify the conforming and independent-rebuild routes
+  and native left floor remain open. K568--K570 now enclose the complete
+  M-dual residual on K162, but K465 prevents transfer to the shifted form-dual
+  metric. Next prove quantitative K466 shifted coercivity and the remaining
+  spectral controls before feeding K152. Do not identify the conforming and
+  independent-rebuild routes
   or promote form conformity to a native interval, source/GU physics, Born
   rule, prediction or confirmation.
 
