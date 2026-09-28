@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f2b286f84200
+revision_basis: 3ebafc279005
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,25 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K579--K581 execute the first native successors to K577--K578. K579
-    partitions all 2,400 order-eight ordered descriptors into the 23 coherent
-    groups and replays K369's 517 whole-radial face rows, K370's 524,286-cell
-    disjoint owner cover and all eighteen Peano hybrids for each group. The
-    group derivative sums and remainders conserve the exact K369/K371 totals.
-    Every group now has a rigorous complete noncompact-domain upper, but all
-    23 miss K577's target: the smallest is `3.3517369355256e+678`, about
-    `1.4541504193713e+680` times its allowance. K580 instantiates K578 on the
-    actual bath-level-one q00/q10 profile measures and multipliers and uses
-    `D_256(omega(p))>=14/2928805` to subtract a strict positive mean square,
-    sharpening both K502 leakage-square uppers. K581 proves that K462's
-    complete-sector semibound compresses to the native noncyclic space
-    `N=C^perp_M`, so a floor exists, but no named numerical `gamma` is
-    available for K494/K473. The three probes pass `53/53` controls and reject
-    `33/33` hostile mutations. Next build group-adaptive order-eight
-    determinant/radial bounds, derive the actual higher-level pairwise kernels
-    uniformly in bath number, and extract a cancellation-safe quantitative
-    noncyclic floor. No K152 interval or source, ledger, canon, paper,
-    public-posture, novelty or physical conclusion moves.
+    K582--K584 execute the next native K577/K500 discriminators. K582 replays
+    K579's complete K363/K370 owner cover with determinant-transition maxima
+    restricted to the ranks actually present in each coherent group. Thirteen
+    of 23 complete order-eight uppers strictly improve, by factors up to about
+    `4.48e319`; all remain above their K577 targets, with the best target ratio
+    still about `2.03e361`. K583 proves the all-level identity
+    `lambda(W,v)^2=||Wv tensor v-v tensor Wv||^2/(2||v||^4)` for the full
+    self-adjoint normal action. K177 supplies 1,158 q00 and 900 q10 matched
+    exchange coordinates at orders two through twelve, so K580's scalar-
+    multiplier formula is exact at level one but cannot be copied unchanged to
+    higher levels. K584 proves that a cyclic floor, cross norm and qualitative
+    semiboundedness do not determine a numerical noncyclic `gamma`; any named
+    complete-sector lower witness would descend conservatively through K581.
+    The three probes pass `63/63` controls and reject `36/36` hostile
+    mutations. Next use descriptor- and face-mask-specific determinant bounds,
+    bound K583's actual antisymmetrized vectors uniformly in bath number, and
+    extract a named cancellation-safe complete-sector lower witness. No K152
+    interval or source, ledger, canon, paper, public-posture, novelty or
+    physical conclusion moves.
 
     K568--K570 close the complete numerical M-dual residual enclosure. K568
     replays K179 orders two through six against K180--K184 and reconciles all
@@ -11079,17 +11079,20 @@ current_question: >-
   finite Gram entries and compose the exact tail into a complete M-dual
   residual interval. K577 now freezes exact sufficient complete-integral
   targets for all 128 coherent order-eight-through-twelve groups under K576's
-  positive `25/9` allowance; every native node rule fits. K579 now certifies
-  complete noncompact-domain uppers for all 23 order-eight groups, but every
-  resulting ceiling remains too coarse for K577's target. K578 independently
-  releases a direct pairwise-variance certificate for K500 that avoids K510's
-  factorial selected-path loss, and K580 instantiates its actual q00/q10
-  first-level energies with strict improvements over K502. K581 proves the
-  noncyclic compression inherits an existential semibound from K462, but emits
-  no quantitative floor. Next tighten the order-eight complete uppers, extend
-  the native pairwise energy uniformly across bath levels and quantify the
-  compressed-form floor before any K152 transfer; the projection-sine-`1/10`
-  target also needs low-order tightening.
+  positive `25/9` allowance; every native node rule fits. K579 certifies
+  complete noncompact-domain uppers for all 23 order-eight groups. K582 now
+  tightens thirteen of them by restricting determinant transitions to each
+  group's actual rank set, by factors up to about `4.48e319`, but all remain
+  too coarse for K577. K578--K580 release and instantiate the level-one direct
+  pairwise-variance route. K583 replaces its invalid higher-level multiplier
+  extrapolation by an exact antisymmetrized tensor identity for the full normal
+  action, retaining K177's 1,158 q00 and 900 q10 exchange coordinates. K581
+  proves the noncyclic compression inherits an existential semibound; K584
+  proves cyclic alpha, cross mu and qualitative semiboundedness cannot identify
+  a number. Next use descriptor/mask-specific face bounds, certify K583's
+  tensor numerator uniformly and serialize a named complete-sector lower
+  witness before any K152 transfer; the projection-sine-`1/10` target also
+  needs low-order tightening.
   Do not
   treat K543's
   pilots as a complete projective cover, K544's measure-only bounds as
@@ -11526,13 +11529,18 @@ next_condition: >-
   endpoint still misses its `25/9` allocation by at least about `1.45e680`.
   K580 instantiates the actual q00/q10 bath-level-one pairwise energies with a
   strict improvement over K502, while K581 proves existential semiboundedness
-  of the noncyclic compression without a numerical floor. Next replace K579's
-  shared worst-case transition/interior constants by group-adaptive bounds,
-  derive the higher-level K580 kernels uniformly in bath number, and extract a
-  cancellation-safe named noncyclic `gamma` before any K494/K473/K152
-  conclusion. Do not infer a K152 shifted-form residual or spectral-error
-  bound, source status or physical significance from these certificates or
-  the M-dual lower.
+  of the noncyclic compression without a numerical floor. K582 restricts the
+  K579 transition maximum to each group's actual determinant ranks and
+  strictly improves thirteen complete uppers, but none reaches K577. K583
+  supplies the exact higher-level tensor-pair leakage identity required by
+  K177's off-diagonal exchange blocks, without yet bounding it uniformly.
+  K584 proves that cyclic alpha and leakage mu cannot identify the missing
+  noncyclic `gamma`; a named complete-sector lower witness would suffice by
+  K581. Next tighten descriptor/mask-specific face and interior constants,
+  bound the native tensor pairs uniformly and extract that cancellation-safe
+  witness before any K494/K473/K152 conclusion. Do not infer a K152
+  shifted-form residual or spectral-error bound, source status or physical significance
+  from these certificates or the M-dual lower.
 
   Retain K506's full conditioning obligation for generic families outside
   K507's exact positivity scope. On such a carrier, certify path norm-square

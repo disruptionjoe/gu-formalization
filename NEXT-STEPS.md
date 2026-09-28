@@ -7,6 +7,22 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K582--K584 ADAPTIVE UPPERS, ALL-LEVEL LEAKAGE, AND FLOOR
+> IDENTIFIABILITY.** K582 restricts K579's nested determinant-transition
+> maximum to each coherent group's actual matrix ranks while preserving the
+> full K363/K370 owner cover. Thirteen of 23 complete uppers improve, by up to
+> about `4.48e319`, but all remain above K577; the best ratio is still about
+> `2.03e361`. K583 proves the exact all-level tensor-pair formula for K500
+> leakage. K177 has 1,158 q00 and 900 q10 matched exchange coordinates at
+> orders two through twelve, so K580's scalar multiplier is a level-one base
+> case, not the all-level kernel. K584 proves cyclic alpha, cross mu and
+> qualitative semiboundedness cannot identify a numerical noncyclic `gamma`;
+> any named complete-sector `r0` would descend conservatively through K581.
+> The probes pass `63/63` controls and reject `36/36` hostile mutations. Next
+> tighten determinant bounds by descriptor and face mask, bound K583's native
+> tensor pairs uniformly, and extract a named cancellation-safe `r0`. K152 and
+> all source, ledger, canon, public and physical claims remain unchanged.
+
 > **2026-09-28 K579--K581 GROUP UPPERS AND NATIVE K500 BRIDGES.** K579
 > certifies complete noncompact-domain uppers for all 23 order-eight coherent
 > groups by partitioning all 2,400 ordered descriptors and replaying the exact

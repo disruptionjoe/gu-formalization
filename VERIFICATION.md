@@ -7,6 +7,35 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K582--K584 adaptive uppers, all-level leakage, and floor identifiability (2026-09-28)
+
+K582 recomputes every K579 group face contribution using the maximum K369
+determinant derivative envelope only over matrix ranks present in that group.
+It retains all 2,400 descriptors, 517 face programs, 18 hybrids and the exact
+K363/K370 owner cover. Positive-interior bounds are scaled only by the exact
+group second-derivative share because they contain no nested determinant
+transition factor. Exact regeneration proves no group upper grows; thirteen
+strictly improve and ten rank-4-bearing groups remain unchanged. None meets
+K577, so this is a rigorous tightening, not a signed integral evaluation.
+
+K583 proves by direct Hilbert-space expansion that normalized rank-one leakage
+is the squared norm of the antisymmetrized tensor pair divided by
+`2||v||^4`. Exact diagonal, off-diagonal exchange, reducing-line and scalar-
+shift controls pass. K177's q00/q10 census proves the level-one multiplier
+specialization is exchange-free while higher levels are not. The theorem
+therefore supplies the correctly typed all-level certificate but no numerical
+uniform tensor bound.
+
+K584 supplies an exact block family with fixed cyclic floor and fixed cross
+norm, a common explicit semibound control, distinct noncyclic floors and
+different target outcomes. It proves numerical non-identifiability from the
+currently serialized K498/K500/K581 inputs. It does not deny the native floor:
+K581 proves existence, and any named complete-sector lower witness would be a
+valid conservative `gamma`. The three probes pass 63/63 controls and reject
+36/36 hostile mutations. No K494 target test, K473 beta, K152 interval or
+source, ledger, canon, paper, public, novelty, prediction, confirmation or
+physical conclusion follows.
+
 ## K579--K581 group uppers and native K500 bridges (2026-09-28)
 
 K579 proves a groupwise linear replay theorem for the already certified K369

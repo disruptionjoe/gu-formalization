@@ -1,0 +1,178 @@
+{
+  "claim_ceiling": "An exact all-level tensor-pair identity for K500 normalized leakage that remains valid for the full self-adjoint normal action when higher matched exchange blocks invalidate a scalar-multiplier description. It supplies the correct native uniform certificate but no numerical uniform upper, complete K500 leakage, noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "actual_uniform_tensor_pair_upper_emitted": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "higher_level_multiplier_assumption_rejected": true,
+    "native_K152_interval_emitted": false,
+    "native_all_level_leakage_identity_emitted": true,
+    "next_exact_input": "Bound the actual antisymmetrized vectors W_n v_n tensor v_n-v_n tensor W_n v_n uniformly relative to ||v_n||^2, retaining K177's exchange terms; K580 remains the exact n=1 base case.",
+    "noncyclic_floor_emitted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "K501_diagonal_value_replayed": true,
+    "all_scalar_shift_controls_pass": true,
+    "all_tensor_identities_pass": true,
+    "off_diagonal_exchange_control_present": true,
+    "reducing_line_zero_replayed": true,
+    "row_count": 3,
+    "rows": [
+      {
+        "direct_leakage_square": "36/25",
+        "identity_passes": true,
+        "matrix": [
+          [
+            "2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "4"
+          ]
+        ],
+        "name": "K501 diagonal",
+        "off_diagonal_exchange_present": false,
+        "scalar_shift": 7,
+        "scalar_shift_invariant": true,
+        "tensor_identity_rhs": "72",
+        "tensor_pair_square": "72",
+        "vector": [
+          "1",
+          "2",
+          "0"
+        ],
+        "vector_norm_square": "5"
+      },
+      {
+        "direct_leakage_square": "31/18",
+        "identity_passes": true,
+        "matrix": [
+          [
+            "0",
+            "2",
+            "-1"
+          ],
+          [
+            "2",
+            "1",
+            "3"
+          ],
+          [
+            "-1",
+            "3",
+            "4"
+          ]
+        ],
+        "name": "exchange block",
+        "off_diagonal_exchange_present": true,
+        "scalar_shift": 7,
+        "scalar_shift_invariant": true,
+        "tensor_identity_rhs": "124",
+        "tensor_pair_square": "124",
+        "vector": [
+          "1",
+          "-2",
+          "1"
+        ],
+        "vector_norm_square": "6"
+      },
+      {
+        "direct_leakage_square": "0",
+        "identity_passes": true,
+        "matrix": [
+          [
+            "3",
+            "2",
+            "0"
+          ],
+          [
+            "2",
+            "3",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-4"
+          ]
+        ],
+        "name": "reducing line",
+        "off_diagonal_exchange_present": true,
+        "scalar_shift": 7,
+        "scalar_shift_invariant": true,
+        "tensor_identity_rhs": "0",
+        "tensor_pair_square": "0",
+        "vector": [
+          "1",
+          "1",
+          "0"
+        ],
+        "vector_norm_square": "2"
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "carrier": "one K162 q00 or q10 bath-number level in the regular-coordinate Hilbert image",
+    "form": "self-adjoint full normal action W_n, diagonal plus matched exchange blocks",
+    "pairing": "regular Hilbert pairing transported from physical M=S* S",
+    "result": "all-level tensor-pair leakage identity MAP-TYPE=orthogonal-block-norm",
+    "target": "the levelwise K500 cyclic/noncyclic cross norm"
+  },
+  "native_exchange_typing": {
+    "K177_rows": [
+      {
+        "charge": [
+          0,
+          0
+        ],
+        "higher_level_scalar_multiplier_specialization_complete": false,
+        "level_one_scalar_multiplier_specialization_valid": true,
+        "order_1_matched_exchange_coordinates": 0,
+        "orders_2_through_12_matched_exchange_coordinates": 1158,
+        "seed": "Omega"
+      },
+      {
+        "charge": [
+          1,
+          0
+        ],
+        "higher_level_scalar_multiplier_specialization_complete": false,
+        "level_one_scalar_multiplier_specialization_valid": true,
+        "order_1_matched_exchange_coordinates": 0,
+        "orders_2_through_12_matched_exchange_coordinates": 900,
+        "seed": "d_1^*Omega"
+      }
+    ],
+    "K580_first_level_result_preserved": true,
+    "K580_scalar_multiplier_formula_extended_unchanged_to_all_levels": false,
+    "higher_exchange_coordinates_present_for_q00_q10": true,
+    "level_one_exchange_free_for_q00_q10": true
+  },
+  "result_id": "K583-K500-ALL-LEVEL-TENSOR-PAIR-LEAKAGE",
+  "schema_version": "1.0",
+  "scope": "Every K500 bath-number block with cyclic vector v_n and self-adjoint native normal action W_n, including levels where K177 matched exchange contractions make W_n non-diagonal in continuum coordinates.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "all_level_uniform_certificate": "certify ||W_n v_n tensor v_n-v_n tensor W_n v_n||^2 <= 2 mu^2 ||v_n||^4 for every supported n; then the complete K500 leakage is at most mu",
+    "cyclic_projection": "P_v=|v><v|/||v||^2 for v!=0",
+    "diagonal_multiplier_not_required": true,
+    "multiplier_specialization": "K578's pairwise multiplier formula is the diagonal-coordinate specialization of this tensor identity",
+    "rank_one_leakage": "lambda(W,v)^2=||(1-P_v)Wv||^2/||v||^2",
+    "scalar_shift_invariance": "the antisymmetrized tensor cancels every scalar multiple of v",
+    "self_adjoint_orientation": "for self-adjoint W, ||P_v W(1-P_v)||=||(1-P_v)W P_v||=lambda(W,v)",
+    "tensor_pair_identity": "lambda(W,v)^2=||Wv tensor v-v tensor Wv||^2/(2||v||^4)",
+    "word_norm_lower_not_required": true
+  }
+}

@@ -1,0 +1,176 @@
+{
+  "claim_ceiling": "An exact identifiability theorem: a fixed cyclic floor, fixed cyclic/noncyclic cross norm and qualitative semiboundedness do not determine K581's numerical noncyclic floor. Any named complete-sector lower witness would nevertheless descend as a conservative gamma. The actual native floor is not disproved, and no K494 target, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "K473_native_beta_emitted": false,
+    "K494_target_test_released": false,
+    "K498_cyclic_floor_plus_K500_cross_determine_gamma": false,
+    "K581_existential_floor_preserved": true,
+    "current_native_named_gamma_emitted": false,
+    "current_native_named_r0_serialized": false,
+    "named_complete_sector_r0_would_supply_conservative_gamma": true,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Extract a named cancellation-safe complete-sector lower witness r0 from the fixed K139/K168 form and inherit it through K581, or prove a sharper direct noncyclic compression bound; cyclic alpha and leakage mu cannot replace that input."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_rows_semibounded": true,
+    "all_rows_share_cross_norm": true,
+    "all_rows_share_cyclic_floor": true,
+    "alpha": "5",
+    "family_rows": [
+      {
+        "K473_beta_formula": "(5+(-10)-sqrt((5-(-10))^2+4))/2",
+        "cyclic_compression_floor_alpha": "5",
+        "cyclic_noncyclic_cross_norm_mu": "1",
+        "matrix": [
+          [
+            "5",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "-10",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-9"
+          ]
+        ],
+        "noncyclic_compression_floor_gamma": "-10",
+        "parameter_t": "-10",
+        "shared_complete_sector_floor_control": "-11",
+        "shared_complete_sector_floor_valid": true,
+        "shared_floor_shifted_leading_minor_1": "16",
+        "shared_floor_shifted_leading_minor_2": "15",
+        "shared_floor_shifted_third_diagonal": "2",
+        "zero_target_positive_by_Schur_test": false
+      },
+      {
+        "K473_beta_formula": "(5+(0)-sqrt((5-(0))^2+4))/2",
+        "cyclic_compression_floor_alpha": "5",
+        "cyclic_noncyclic_cross_norm_mu": "1",
+        "matrix": [
+          [
+            "5",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1"
+          ]
+        ],
+        "noncyclic_compression_floor_gamma": "0",
+        "parameter_t": "0",
+        "shared_complete_sector_floor_control": "-11",
+        "shared_complete_sector_floor_valid": true,
+        "shared_floor_shifted_leading_minor_1": "16",
+        "shared_floor_shifted_leading_minor_2": "175",
+        "shared_floor_shifted_third_diagonal": "12",
+        "zero_target_positive_by_Schur_test": false
+      },
+      {
+        "K473_beta_formula": "(5+(2)-sqrt((5-(2))^2+4))/2",
+        "cyclic_compression_floor_alpha": "5",
+        "cyclic_noncyclic_cross_norm_mu": "1",
+        "matrix": [
+          [
+            "5",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "2",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "3"
+          ]
+        ],
+        "noncyclic_compression_floor_gamma": "2",
+        "parameter_t": "2",
+        "shared_complete_sector_floor_control": "-11",
+        "shared_complete_sector_floor_valid": true,
+        "shared_floor_shifted_leading_minor_1": "16",
+        "shared_floor_shifted_leading_minor_2": "207",
+        "shared_floor_shifted_third_diagonal": "14",
+        "zero_target_positive_by_Schur_test": true
+      },
+      {
+        "K473_beta_formula": "(5+(20)-sqrt((5-(20))^2+4))/2",
+        "cyclic_compression_floor_alpha": "5",
+        "cyclic_noncyclic_cross_norm_mu": "1",
+        "matrix": [
+          [
+            "5",
+            "1",
+            "0"
+          ],
+          [
+            "1",
+            "20",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "21"
+          ]
+        ],
+        "noncyclic_compression_floor_gamma": "20",
+        "parameter_t": "20",
+        "shared_complete_sector_floor_control": "-11",
+        "shared_complete_sector_floor_valid": true,
+        "shared_floor_shifted_leading_minor_1": "16",
+        "shared_floor_shifted_leading_minor_2": "495",
+        "shared_floor_shifted_third_diagonal": "32",
+        "zero_target_positive_by_Schur_test": true
+      }
+    ],
+    "mu": "1",
+    "noncyclic_floors_are_distinct": true,
+    "one_explicit_shared_floor_control": "-11",
+    "parameters": [
+      "-10",
+      "0",
+      "2",
+      "20"
+    ],
+    "zero_target_outcomes_differ": true
+  },
+  "gu_typed_objects": {
+    "carrier": "one complete K162 charge sector split as C direct-sum N in the M-Hilbert coordinate",
+    "form": "self-adjoint block form with fixed cyclic compression and fixed cross norm",
+    "pairing": "identity control for the transported positive M pairing",
+    "result": "noncyclic-floor identifiability obstruction MAP-TYPE=logical-independence",
+    "target": "K500/K494 quantitative noncyclic floor gamma"
+  },
+  "result_id": "K584-K581-NONCYCLIC-FLOOR-IDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "The logical information supplied to K494/K473 by a fixed cyclic floor, fixed cyclic/noncyclic cross norm and qualitative complete-sector semiboundedness, compared with the missing numerical floor of K581's noncyclic compression.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "family": "R_t=[[alpha,mu,0],[mu,t,0],[0,0,t+1]] on C=span(e0), N=span(e1,e2)",
+    "fixed_data": "alpha=5 and ||P_C R_t P_N||=mu=1 for every t",
+    "identifiability_conclusion": "cyclic floor alpha, cross norm mu and existence of some complete-sector lower bound do not determine any named numerical gamma",
+    "not_an_absence_theorem": "the actual native gamma exists by K581; only its numerical value is absent from the serialized premises",
+    "qualitative_semiboundedness": "every finite-dimensional R_t is semibounded, while gamma_t=inf spec(P_N R_t P_N)=t varies",
+    "sufficient_missing_input": "one named complete-sector lower witness r0 is already a valid conservative noncyclic gamma by K581; alternatively prove a sharper direct lower bound on N"
+  }
+}

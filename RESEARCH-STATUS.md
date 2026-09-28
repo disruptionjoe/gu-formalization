@@ -8,6 +8,35 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K582--K584 adaptive uppers, all-level leakage, and floor identifiability
+
+K582 performs the first group-adaptive replay of K579 without changing the
+certified noncompact cover. Matrix size is invariant under K367's confluent
+transitions, so each coherent group may use the maximum exact determinant
+derivative envelope only over ranks that actually occur in that group. The
+complete K363 face-owner and K370 positive-interior regions remain unchanged.
+Thirteen of 23 complete uppers strictly improve: rank-{1,3} groups gain about
+`1.04e160`, and rank-2-only groups gain about `4.48e319`. All 23 still exceed
+their K577 targets; the best remaining ratio is about `2.03e361`.
+
+K583 replaces the proposed higher-level scalar-multiplier extrapolation by the
+exact identity
+`lambda(W,v)^2=||Wv tensor v-v tensor Wv||^2/(2||v||^4)`, valid for the full
+self-adjoint normal action. K177 records zero matched exchange coordinates at
+level one but 1,158 q00 and 900 q10 coordinates at orders two through twelve.
+Thus K580 remains correct and useful at level one, while every all-level proof
+must retain the higher off-diagonal exchange blocks.
+
+K584 fixes cyclic floor `alpha=5` and cross norm `mu=1` across an exact
+semibounded block family while its noncyclic floor varies through
+`-10,0,2,20` and its zero-target outcomes differ. This proves that K498/K500
+data plus K581's qualitative existence statement cannot determine a number.
+A named complete-sector lower witness would already descend as a conservative
+noncyclic floor; the native witness remains absent. The three probes pass
+63/63 controls and reject 36/36 hostile mutations. K494/K473/K152 and all
+source, ledger, canon, paper, public, novelty, prediction, confirmation and
+physical conclusions remain open or unchanged.
+
 ## 2026-09-28 — K579--K581 group uppers and native K500 bridges
 
 K579 resolves the first K577 integration obligation at the level of rigorous

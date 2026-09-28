@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K582--K584 adaptive uppers, all-level leakage, and floor identifiability
+
+- `channel-swings/k582_k579_group_rank_adaptive_complete_uppers.py` replays
+  every K579 complete group upper with determinant transitions restricted to
+  ranks actually present in that group while retaining the K363/K370 cover.
+- `channel-swings/k583_k500_all_level_tensor_pair_leakage.py` proves the exact
+  antisymmetrized tensor-pair formula for rank-one leakage of a general
+  self-adjoint normal action and types K177's higher exchange blocks.
+- `channel-swings/k584_k581_noncyclic_floor_identifiability.py` proves that
+  cyclic floor, cross norm and qualitative semiboundedness do not identify a
+  numerical noncyclic floor, while recording the sufficient named-r0 route.
+- The three `_probe.py` files deterministically rebuild the artifacts, pass
+  63 exact controls and reject 36 hostile mutations.
+
 ## K579--K581 group uppers and native K500 bridges
 
 - `channel-swings/k579_k577_order_eight_group_complete_uppers.py` partitions

@@ -52,10 +52,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
-        check("K579" in live, "K579 live group upper missing")
-        check("K580" in live, "K580 live variance route missing")
-        check("K581" in live, "K581 live compression result missing")
-        check("group-adaptive" in live, "live residual route missing")
+        check("K582" in live, "K582 live group upper missing")
+        check("K583" in live, "K583 live leakage route missing")
+        check("K584" in live, "K584 live floor result missing")
+        check("descriptor/mask-specific" in live, "live residual route missing")
         check("noncyclic `gamma`" in live, "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
@@ -66,8 +66,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K579--K581 execute the first native successors" in summary,
-          "current K579--K581 result lost")
+    check("K582--K584 execute the next native" in summary,
+          "current K582--K584 result lost")
     check("No K152 interval or source" in summary,
           "current claim ceiling lost")
 
@@ -92,16 +92,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
     check(
-        "K579 partitions" in data["agenda"].get("latest_result_2026_09_28_k579_k581", ""),
-        "agenda K579--K581 result is not current",
+        "K582 replays" in data["agenda"].get("latest_result_2026_09_28_k582_k584", ""),
+        "agenda K582--K584 result is not current",
     )
     check(
-        "group-adaptive certificates"
+        "descriptor/mask-specific"
         in data["agenda"].get("refresh_note", ""),
         "agenda residual route is not current",
     )
     check(
-        "quantitative noncyclic floor" in data["agenda"].get("refresh_note", ""),
+        "named r0" in data["agenda"].get("refresh_note", ""),
         "agenda complete-complement route is not current",
     )
 
@@ -159,7 +159,7 @@ def selftest(base: dict) -> tuple[int, int]:
     add("agenda-stale", lambda d: d["agenda"].__setitem__(
         "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
     add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
-        "latest_result_2026_09_28_k579_k581", "K578 remains the latest result."))
+        "latest_result_2026_09_28_k582_k584", "K581 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
         item for item in d["agenda"]["work_items"]
         if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"
