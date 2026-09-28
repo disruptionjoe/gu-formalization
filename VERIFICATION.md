@@ -7,6 +7,30 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K555--K556 node values and ordered jet interfaces (2026-09-27)
+
+K555 rigorously evaluates both complete K554 positive one-node rules at 180
+Arb digits. It retains all 1,792 paths, 57 coherent groups, 48,272
+upper-triangle Gram entries and 94,752 ordered terms under their separate
+24/26-dimensional product weights and `(2*pi)^-13`/`(2*pi)^-14` prefactors.
+The normalized order-eleven interval is
+`[3.230725260108269e-53,3.230725260108270e-53]`; the order-twelve interval is
+`[1.9669765082168108e-59,1.9669765082168113e-59]`. Both are strictly positive.
+The independent probe passes 9/9 controls and rejects 10/10 hostile mutations.
+
+K556 emits exact ordered differentiation interfaces for all 94,752 terms on
+the 24 order-eleven and 26 order-twelve axes. It keeps both off-diagonal
+orientations, derives every primitive incidence mask from the recorded
+cumulative-time start, retains rank six and binds the K378 zero-safe scaled
+primitive bank through derivative order twelve. Its independent probe passes
+11/11 controls and rejects 11/11 hostile mutations.
+
+This proves the two rigorous node intervals and the completeness of the
+ordered differentiation interface. It does not evaluate the first/second node
+jets, bound a global Peano remainder, enclose either complete integral,
+construct the base action column or `R_ref`, emit a K152 interval, or move
+source, ledger, canon, paper, public, novelty or physical posture.
+
 ## K554 orders eleven/twelve native rules and face atlases (2026-09-27)
 
 K554 consumes K379's accepted rank-six transfer and emits separate native
@@ -47,9 +71,11 @@ Independent probes pass `10/10`, `11/11`, `10/10`, `9/9` and `10/10`
 controls and reject `10/10`, `11/11`, `11/11`, `9/9` and `11/11` hostile
 mutations. This proves finiteness of the repository's conditional order-ten
 coherent integral. The enclosure is too broad to decide sign or provide a
-useful K152 margin. Numerical orders eleven and twelve, the complete base
-action column, R_ref residual, K500/K473/K457/K152, source/ledger movement,
-canon, paper, public posture, novelty and physical conclusions remain open.
+useful K152 margin. K555/K556 subsequently close the order-eleven/twelve node
+values and ordered axis interfaces, but not their node jets or complete
+integrals. The complete base action column, R_ref residual,
+K500/K473/K457/K152, source/ledger movement, canon, paper, public posture,
+novelty and physical conclusions remain open.
 
 ## K547--K548 order-ten zero-safe derivatives and bivariate fronts (2026-09-27)
 

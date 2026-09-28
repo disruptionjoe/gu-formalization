@@ -1,0 +1,765 @@
+{
+  "claim_ceiling": "Rigorous 180-digit Arb interval evaluation of both complete K554 positive one-node rules. All 48,272 upper-triangle Gram entries and 94,752 ordered coefficient terms are replayed in 57 coherent groups with separate 24/26-dimensional product weights and (2*pi)^-13/(2*pi)^-14 prefactors. Both normalized node values are strictly positive. Their positive Peano remainders are not yet bounded, so neither value encloses a complete integral and no complete action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public, novelty or physical claim follows.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "composition_contract": {
+    "complete_group_quadratic_forms_precede_enclosure": true,
+    "occurrencewise_absolute_value_used": false,
+    "off_diagonal_terms_doubled_once_at_symmetric_node": true,
+    "order_specific_dimensions_prefactors_and_counts_retained": true,
+    "order_ten_normalization_reused": false,
+    "raw_Bessel_zero_evaluation_used": false
+  },
+  "created": "2026-09-27",
+  "decision": {
+    "complete_R_ref_residual_evaluated": false,
+    "complete_base_action_column_evaluated": false,
+    "complete_order_eleven_group_evaluator_emitted": true,
+    "complete_order_eleven_integral_emitted": false,
+    "complete_order_twelve_group_evaluator_emitted": true,
+    "complete_order_twelve_integral_emitted": false,
+    "native_K152_interval_emitted": false,
+    "normalized_order_eleven_one_node_value_emitted": true,
+    "normalized_order_twelve_one_node_value_emitted": true,
+    "ordered_axis_jet_interfaces_emitted": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "arb_decimal_digits": 180,
+    "combined_groups": 57,
+    "combined_ordered_terms": 94752,
+    "combined_paths": 1792,
+    "combined_upper_triangle_entries": 48272,
+    "orders": [
+      11,
+      12
+    ],
+    "predecessor_manifests": [
+      "lab/process/k379-orders-eleven-twelve-rank-six-transfer.json",
+      "lab/process/k554-orders-eleven-twelve-gauss-laguerre-face-atlas.json"
+    ],
+    "threads": 1
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "order_evaluations": [
+    {
+      "assembly_contract": {
+        "all_coefficients_retained": true,
+        "all_coherent_cross_terms_retained": true,
+        "all_contracted_positions_retained": true,
+        "all_ordered_terms_replayed": true,
+        "all_transpose_symmetry_checks_pass": true,
+        "all_upper_triangle_entries_evaluated": true,
+        "complete_group_quadratic_form_precedes_enclosure": true,
+        "occurrencewise_absolute_value_used": false,
+        "off_diagonal_terms_doubled_exactly_once": true,
+        "order_ten_weight_or_prefactor_reused": false,
+        "raw_Bessel_zero_evaluation_used": false,
+        "strictly_positive_individual_gram_entries": 12920
+      },
+      "coherent_group_values": [
+        {
+          "coherent_node_value_lower": "9385239903025.838",
+          "coherent_node_value_upper": "9385239903025.842",
+          "entry_interval_sha256": "sha256:c7e91a65fbabf41bb3c71d95ca2843d00d2bc13e627107b356c74f2122d6b380",
+          "group_id": "order11:seed0:d=1|1+^1,1-^2,2+^4,2-^4",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "525882864692104.75",
+          "coherent_node_value_upper": "525882864692104.9",
+          "entry_interval_sha256": "sha256:edeb218eb83fe8d04e104055abafa6fb203e7259722803e356df2685d385ce25",
+          "group_id": "order11:seed0:d=1|1+^2,1-^3,2+^3,2-^3",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "129805735886022.45",
+          "coherent_node_value_upper": "129805735886022.48",
+          "entry_interval_sha256": "sha256:9650b1a446f554496a5c010468bcb073a4c1a7fbe4b502531f7e1c4cdb84c2ec",
+          "group_id": "order11:seed0:d=1|1+^3,1-^4,2+^2,2-^2",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "183943027.0516187",
+          "coherent_node_value_upper": "183943027.05161875",
+          "entry_interval_sha256": "sha256:c1335c156f93a578ec1555096e5a2856c9c5503e8036cf5b0cf33aebde579546",
+          "group_id": "order11:seed0:d=1|1+^4,1-^5,2+^1,2-^1",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "5.529283197860606e-05",
+          "coherent_node_value_upper": "5.529283197860608e-05",
+          "entry_interval_sha256": "sha256:6178fc6fa85f1a5b10fb7a5e91d3b696215cb1acf032a42acf3a619644acb220",
+          "group_id": "order11:seed0:d=1|1+^5,1-^6",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "1829276.57314483",
+          "coherent_node_value_upper": "1829276.5731448305",
+          "entry_interval_sha256": "sha256:be43e34b6f34023b51d80e32c1ca028d4f2e0acafa39978fd6b1fb014b842b82",
+          "group_id": "order11:seed0:d=1|1-^1,2+^5,2-^5",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "183943027.0516187",
+          "coherent_node_value_upper": "183943027.05161875",
+          "entry_interval_sha256": "sha256:b8542abd2fe2265975c9b00cc8f34c91707acda8b230633556c7f04afc5ce4da",
+          "group_id": "order11:seed0:d=2|1+^1,1-^1,2+^4,2-^5",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "129805735886022.45",
+          "coherent_node_value_upper": "129805735886022.48",
+          "entry_interval_sha256": "sha256:b867497b657f786930a6f3f8ed717b690df974b69130312c6cda5e9c9a90acbc",
+          "group_id": "order11:seed0:d=2|1+^2,1-^2,2+^3,2-^4",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "525882864692104.75",
+          "coherent_node_value_upper": "525882864692104.9",
+          "entry_interval_sha256": "sha256:9bd4672cbd126df67a0a1fca96d8c4f0b711857cbeeba2c464ffb155745422a8",
+          "group_id": "order11:seed0:d=2|1+^3,1-^3,2+^2,2-^3",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "9385239903025.838",
+          "coherent_node_value_upper": "9385239903025.842",
+          "entry_interval_sha256": "sha256:b167fe94ed02a6a163b32984141a75666d4326ce12d8ada877c8f8369a733402",
+          "group_id": "order11:seed0:d=2|1+^4,1-^4,2+^1,2-^2",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "1829276.57314483",
+          "coherent_node_value_upper": "1829276.5731448305",
+          "entry_interval_sha256": "sha256:8a87599144fe73f6fd379dd4bb95270c93c50bda4a12fce9ab59ff130f9bac32",
+          "group_id": "order11:seed0:d=2|1+^5,1-^5,2-^1",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "5.529283197860606e-05",
+          "coherent_node_value_upper": "5.529283197860608e-05",
+          "entry_interval_sha256": "sha256:f68ce3fb11b0d7334b3aa46fc8d96efd8de9aa3c59a3b590f7f6f62344e7155c",
+          "group_id": "order11:seed0:d=2|2+^5,2-^6",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "12.112050489510407",
+          "coherent_node_value_upper": "12.11205048951041",
+          "entry_interval_sha256": "sha256:2c0d87761ca9d9ff35c64832d48967f7f872258d14b593b661f5028a8feaac78",
+          "group_id": "order11:seed1:d=0|1+^1,2+^5,2-^5",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "191552393062.16693",
+          "coherent_node_value_upper": "191552393062.167",
+          "entry_interval_sha256": "sha256:92b1ebaad9366bcd97c5327c2176ba26f21c3227620697663f53b52fde92a54d",
+          "group_id": "order11:seed1:d=0|1+^2,1-^1,2+^4,2-^4",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "1532638495782930.0",
+          "coherent_node_value_upper": "1532638495782930.5",
+          "entry_interval_sha256": "sha256:1e2b49d8f4b5f0a20dd65a64513de53fd79cd2076a8bf212e848cbc9a9fc8c75",
+          "group_id": "order11:seed1:d=0|1+^3,1-^2,2+^3,2-^3",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "214041171824813.06",
+          "coherent_node_value_upper": "214041171824813.12",
+          "entry_interval_sha256": "sha256:b42a53fbe850c9757b0003bba715a1719d642b7b4242051f5b3b926463135b54",
+          "group_id": "order11:seed1:d=0|1+^4,1-^3,2+^2,2-^2",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "239721604.62656918",
+          "coherent_node_value_upper": "239721604.62656924",
+          "entry_interval_sha256": "sha256:bdbe80f085876360299c3f4fa49239064df3763a3916bdeeec8d9b81b01542c4",
+          "group_id": "order11:seed1:d=0|1+^5,1-^4,2+^1,2-^1",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "5.529283197860606e-05",
+          "coherent_node_value_upper": "5.529283197860608e-05",
+          "entry_interval_sha256": "sha256:9d27b762ac5921edd6c51a318e4761f941f1aa10157d426c68a0a234f592dafc",
+          "group_id": "order11:seed1:d=0|1+^6,1-^5",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "239721604.62656918",
+          "coherent_node_value_upper": "239721604.62656924",
+          "entry_interval_sha256": "sha256:deec0019bcf3c959f01fd9c80b3ee6d82e148ea776ff63248b84c307da51b759",
+          "group_id": "order11:seed2:d=0|1+^1,1-^1,2+^5,2-^4",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "214041171824813.06",
+          "coherent_node_value_upper": "214041171824813.12",
+          "entry_interval_sha256": "sha256:1632d03f4408b4de9ac21be59d6c55830659791c6858f4726efa0539b43404fe",
+          "group_id": "order11:seed2:d=0|1+^2,1-^2,2+^4,2-^3",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "1532638495782930.0",
+          "coherent_node_value_upper": "1532638495782930.5",
+          "entry_interval_sha256": "sha256:5bf8d30c2556519ffe47655e20f3ec0506e62c38b05f39c0992000c70a2baa91",
+          "group_id": "order11:seed2:d=0|1+^3,1-^3,2+^3,2-^2",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "191552393062.16693",
+          "coherent_node_value_upper": "191552393062.167",
+          "entry_interval_sha256": "sha256:0d3df6cebb4b5e11a7772f5273b67dd56a27415d43b89b0d4ec42b8a8d595a62",
+          "group_id": "order11:seed2:d=0|1+^4,1-^4,2+^2,2-^1",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "12.112050489510407",
+          "coherent_node_value_upper": "12.11205048951041",
+          "entry_interval_sha256": "sha256:17853a673274f0875fb275c1c483f3eb073d95768fae22661ecb44f0f01b09b0",
+          "group_id": "order11:seed2:d=0|1+^5,1-^5,2+^1",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "5.529283197860606e-05",
+          "coherent_node_value_upper": "5.529283197860608e-05",
+          "entry_interval_sha256": "sha256:eb1da4df2b20ebb0b288c768434ab83e02bc5e558a4d4ae77ddddca6ce70c855",
+          "group_id": "order11:seed2:d=0|2+^6,2-^5",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        }
+      ],
+      "complete_node_evaluation": {
+        "all_entry_interval_sha256": "sha256:05f33bb4bae30ea88699a59e0a6d5001d67fb2bc38dab248bb0e8b373cafc42c",
+        "native_prefactor_interval_lower": "4.2039903585503356e-11",
+        "native_prefactor_interval_upper": "4.203990358550337e-11",
+        "native_product_weight": "1/6277101735386680763835789423207666416102355444464034512896",
+        "normalized_one_node_rule_lower": "3.230725260108269e-53",
+        "normalized_one_node_rule_upper": "3.23072526010827e-53",
+        "raw_complete_quadratic_form_lower": "4823890971951757.0",
+        "raw_complete_quadratic_form_upper": "4823890971951759.0",
+        "signed_rule_value_is_strictly_positive": true,
+        "symmetric_enclosure_if_sign_is_discarded": [
+          "-3.23072526010827e-53",
+          "3.23072526010827e-53"
+        ]
+      },
+      "fixed_control": {
+        "K379_complete_entry_interface_sha256": "sha256:897d17101fd3c694fc939f6b3e169dcbc11af1ab4cf848e17c4b573e4c09273b",
+        "K554_face_atlas_sha256": "sha256:85dd4ea47a78072eea7dfd2b23b2c959664d656a1eda43a594571245d9ac7632",
+        "coherent_groups": 24,
+        "maximum_species_determinant_rank": 6,
+        "native_prefactor": "(2*pi)^-13",
+        "native_product_weight": "1/6277101735386680763835789423207666416102355444464034512896",
+        "native_time_node": [
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256"
+        ],
+        "ordered_quadratic_terms": 25200,
+        "paths": 640,
+        "positive_time_variables": 24,
+        "side_count": 12,
+        "unique_positive_node_gram_patterns": 25200,
+        "upper_triangle_gram_entries": 12920
+      },
+      "order": 11,
+      "release_test": {
+        "all_groups_replayed": true,
+        "all_ordered_terms_replayed": true,
+        "all_paths_replayed": true,
+        "all_upper_triangle_entries_evaluated": true,
+        "every_gram_entry_is_strictly_positive_at_the_native_node": true,
+        "normalized_rule_value_is_finite_positive": true,
+        "upper_triangle_equals_full_ordered_replay": true
+      }
+    },
+    {
+      "assembly_contract": {
+        "all_coefficients_retained": true,
+        "all_coherent_cross_terms_retained": true,
+        "all_contracted_positions_retained": true,
+        "all_ordered_terms_replayed": true,
+        "all_transpose_symmetry_checks_pass": true,
+        "all_upper_triangle_entries_evaluated": true,
+        "complete_group_quadratic_form_precedes_enclosure": true,
+        "occurrencewise_absolute_value_used": false,
+        "off_diagonal_terms_doubled_exactly_once": true,
+        "order_ten_weight_or_prefactor_reused": false,
+        "raw_Bessel_zero_evaluation_used": false,
+        "strictly_positive_individual_gram_entries": 35352
+      },
+      "coherent_group_values": [
+        {
+          "coherent_node_value_lower": "282733.70499981765",
+          "coherent_node_value_upper": "282733.70499981777",
+          "entry_interval_sha256": "sha256:c5ea704087d38c5113e6ce7c1495f5fce89befdcac02a168fc66c166c506dbfc",
+          "group_id": "order12:seed0:d=0|1+^1,1-^1,2+^5,2-^5",
+          "ordered_quadratic_terms": 1296,
+          "path_count": 36,
+          "upper_triangle_entries": 666
+        },
+        {
+          "coherent_node_value_lower": "7123349940072.547",
+          "coherent_node_value_upper": "7123349940072.549",
+          "entry_interval_sha256": "sha256:07f2e5d8f74ccaa0f5ccc3300148577d830337bfbb44940a77e10c4163b49c13",
+          "group_id": "order12:seed0:d=0|1+^2,1-^2,2+^4,2-^4",
+          "ordered_quadratic_terms": 8100,
+          "path_count": 90,
+          "upper_triangle_entries": 4095
+        },
+        {
+          "coherent_node_value_lower": "1041983035745122.9",
+          "coherent_node_value_upper": "1041983035745123.1",
+          "entry_interval_sha256": "sha256:92247158cf1e9596fdfc50da387c38e38165c562e867b6aeff32c8827c8833c0",
+          "group_id": "order12:seed0:d=0|1+^3,1-^3,2+^3,2-^3",
+          "ordered_quadratic_terms": 14400,
+          "path_count": 120,
+          "upper_triangle_entries": 7260
+        },
+        {
+          "coherent_node_value_lower": "7123349940072.547",
+          "coherent_node_value_upper": "7123349940072.549",
+          "entry_interval_sha256": "sha256:9d92137a8db91cb035b0d9a6ae05e25064076e395a851ae72f1a1a5b76ab8695",
+          "group_id": "order12:seed0:d=0|1+^4,1-^4,2+^2,2-^2",
+          "ordered_quadratic_terms": 8100,
+          "path_count": 90,
+          "upper_triangle_entries": 4095
+        },
+        {
+          "coherent_node_value_lower": "282733.70499981765",
+          "coherent_node_value_upper": "282733.70499981777",
+          "entry_interval_sha256": "sha256:b356de5c9ec2d7f9f18f878aed774d5b0c83c9094193189dd12d70453734d332",
+          "group_id": "order12:seed0:d=0|1+^5,1-^5,2+^1,2-^1",
+          "ordered_quadratic_terms": 1296,
+          "path_count": 36,
+          "upper_triangle_entries": 666
+        },
+        {
+          "coherent_node_value_lower": "1.7406447997796668e-09",
+          "coherent_node_value_upper": "1.7406447997796672e-09",
+          "entry_interval_sha256": "sha256:85545c29292397254f26ab3a4ca863b6099e1bdd87e5445f62f6227e4b707c58",
+          "group_id": "order12:seed0:d=0|1+^6,1-^6",
+          "ordered_quadratic_terms": 36,
+          "path_count": 6,
+          "upper_triangle_entries": 21
+        },
+        {
+          "coherent_node_value_lower": "1.7406447997796668e-09",
+          "coherent_node_value_upper": "1.7406447997796672e-09",
+          "entry_interval_sha256": "sha256:241ed9da930c3f0222196511cbda19685385f1ccff898dd87f860cd2474217f2",
+          "group_id": "order12:seed0:d=0|2+^6,2-^6",
+          "ordered_quadratic_terms": 36,
+          "path_count": 6,
+          "upper_triangle_entries": 21
+        },
+        {
+          "coherent_node_value_lower": "3976905.708879153",
+          "coherent_node_value_upper": "3976905.7088791537",
+          "entry_interval_sha256": "sha256:8ec2fb09a2e2206a8cad38ac956e9118a6f468bdd7062c351730cf692bca1354",
+          "group_id": "order12:seed1:d=1|1+^1,1-^1,2+^5,2-^5",
+          "ordered_quadratic_terms": 121,
+          "path_count": 11,
+          "upper_triangle_entries": 66
+        },
+        {
+          "coherent_node_value_lower": "1714353029421.976",
+          "coherent_node_value_upper": "1714353029421.9766",
+          "entry_interval_sha256": "sha256:508d1d05549869b3c6d50ce7760381640173bacc631acc9629b99379918bfdf6",
+          "group_id": "order12:seed1:d=1|1+^2,1-^2,2+^4,2-^4",
+          "ordered_quadratic_terms": 1600,
+          "path_count": 40,
+          "upper_triangle_entries": 820
+        },
+        {
+          "coherent_node_value_lower": "43835862399601.3",
+          "coherent_node_value_upper": "43835862399601.31",
+          "entry_interval_sha256": "sha256:c6ebb40227035b0b0702dfb7e00be37e79bb358ff040cc509b0486088a61ca35",
+          "group_id": "order12:seed1:d=1|1+^3,1-^3,2+^3,2-^3",
+          "ordered_quadratic_terms": 4900,
+          "path_count": 70,
+          "upper_triangle_entries": 2485
+        },
+        {
+          "coherent_node_value_lower": "1271491261840.9058",
+          "coherent_node_value_upper": "1271491261840.9062",
+          "entry_interval_sha256": "sha256:05e61f1b688673d6d52ce0f96b34dfe34fc76c2dead26867a3dfdc16da4e34d0",
+          "group_id": "order12:seed1:d=1|1+^4,1-^4,2+^2,2-^2",
+          "ordered_quadratic_terms": 4225,
+          "path_count": 65,
+          "upper_triangle_entries": 2145
+        },
+        {
+          "coherent_node_value_lower": "123222.69747287637",
+          "coherent_node_value_upper": "123222.6974728764",
+          "entry_interval_sha256": "sha256:88db47e3df81649f34300c67c4c549aac7f396c9cad0b8e132472a982d092eca",
+          "group_id": "order12:seed1:d=1|1+^5,1-^5,2+^1,2-^1",
+          "ordered_quadratic_terms": 961,
+          "path_count": 31,
+          "upper_triangle_entries": 496
+        },
+        {
+          "coherent_node_value_lower": "1.7406447997796668e-09",
+          "coherent_node_value_upper": "1.7406447997796672e-09",
+          "entry_interval_sha256": "sha256:a935d34178f9c1b020f98e03acfed25a72f24b96117ef5927c587b50329c805f",
+          "group_id": "order12:seed1:d=1|1+^6,1-^6",
+          "ordered_quadratic_terms": 36,
+          "path_count": 6,
+          "upper_triangle_entries": 21
+        },
+        {
+          "coherent_node_value_lower": "3.194880006884864e-06",
+          "coherent_node_value_upper": "3.194880006884865e-06",
+          "entry_interval_sha256": "sha256:17176e00de4890dd812d1090770565415fa59b5e2b4aa277d710f0c72561d95f",
+          "group_id": "order12:seed1:d=1|2+^6,2-^6",
+          "ordered_quadratic_terms": 1,
+          "path_count": 1,
+          "upper_triangle_entries": 1
+        },
+        {
+          "coherent_node_value_lower": "0.0010725146138500145",
+          "coherent_node_value_upper": "0.001072514613850015",
+          "entry_interval_sha256": "sha256:b11e0d2c32d67f00aefc83532e1927683d615c0158491a0066aca0f2dffb99b0",
+          "group_id": "order12:seed1:d=2|1+^1,2+^5,2-^6",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "229100927.20779157",
+          "coherent_node_value_upper": "229100927.20779163",
+          "entry_interval_sha256": "sha256:d1602ff7309ae6271aa6b3179be0cb5bd7e38400467d2fe21da9f7f9eecfce06",
+          "group_id": "order12:seed1:d=2|1+^2,1-^1,2+^4,2-^5",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "15028652148189.385",
+          "coherent_node_value_upper": "15028652148189.389",
+          "entry_interval_sha256": "sha256:1aac3d0925bc006d6d61e2266c7603b595a3f36db4edeac27181528683262b03",
+          "group_id": "order12:seed1:d=2|1+^3,1-^2,2+^3,2-^4",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "14668913558078.895",
+          "coherent_node_value_upper": "14668913558078.898",
+          "entry_interval_sha256": "sha256:e94696babbc8e490b1bdf1174de0bde2f609a5f2646d0ef0d70c876028162c21",
+          "group_id": "order12:seed1:d=2|1+^4,1-^3,2+^2,2-^3",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "46779411668.53164",
+          "coherent_node_value_upper": "46779411668.531654",
+          "entry_interval_sha256": "sha256:4fbe3d31a0849c7f651f13e950c9c9440342d13bbde2419c788043226dab3005",
+          "group_id": "order12:seed1:d=2|1+^5,1-^4,2+^1,2-^2",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "738.4780708928655",
+          "coherent_node_value_upper": "738.4780708928657",
+          "entry_interval_sha256": "sha256:8e742c81d18de9a3ce6b0a96a19db245378c279fbad763073cd945dcc56bd4a0",
+          "group_id": "order12:seed1:d=2|1+^6,1-^5,2-^1",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "46779411668.53164",
+          "coherent_node_value_upper": "46779411668.531654",
+          "entry_interval_sha256": "sha256:bac524ccb969717c725c90d54e36aa3208853514efe4fe1c09414051bf0d66b6",
+          "group_id": "order12:seed2:d=1|1+^1,1-^2,2+^5,2-^4",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "14668913558078.895",
+          "coherent_node_value_upper": "14668913558078.898",
+          "entry_interval_sha256": "sha256:073245dd6da237b00d7f341aab848ca606abfdcd1648266368eefe76163d621b",
+          "group_id": "order12:seed2:d=1|1+^2,1-^3,2+^4,2-^3",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "15028652148189.385",
+          "coherent_node_value_upper": "15028652148189.389",
+          "entry_interval_sha256": "sha256:6c40602e17a4fa61872771781d8736e82817e72995984a9ebb16e7bbaceae71e",
+          "group_id": "order12:seed2:d=1|1+^3,1-^4,2+^3,2-^2",
+          "ordered_quadratic_terms": 2500,
+          "path_count": 50,
+          "upper_triangle_entries": 1275
+        },
+        {
+          "coherent_node_value_lower": "229100927.20779157",
+          "coherent_node_value_upper": "229100927.20779163",
+          "entry_interval_sha256": "sha256:08cd8386e7a992b87b63424781daba666c05ca5fd386e49b1fc3751c249a2a3b",
+          "group_id": "order12:seed2:d=1|1+^4,1-^5,2+^2,2-^1",
+          "ordered_quadratic_terms": 625,
+          "path_count": 25,
+          "upper_triangle_entries": 325
+        },
+        {
+          "coherent_node_value_lower": "0.0010725146138500145",
+          "coherent_node_value_upper": "0.001072514613850015",
+          "entry_interval_sha256": "sha256:4f13cd813b06f7e8207ec8af0b7267975d1035a940a7031cd0813b03e27c216a",
+          "group_id": "order12:seed2:d=1|1+^5,1-^6,2+^1",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "738.4780708928655",
+          "coherent_node_value_upper": "738.4780708928657",
+          "entry_interval_sha256": "sha256:91d09c142128af3b98c7dfdae8ac2e2dfaf13388d17102e922decf9be6a8dd2e",
+          "group_id": "order12:seed2:d=1|1-^1,2+^6,2-^5",
+          "ordered_quadratic_terms": 25,
+          "path_count": 5,
+          "upper_triangle_entries": 15
+        },
+        {
+          "coherent_node_value_lower": "123222.69747287637",
+          "coherent_node_value_upper": "123222.6974728764",
+          "entry_interval_sha256": "sha256:ca7f2ae75a70dd927ea82e9e7350e931a6f52b157adb3b2ae609cc778a68be3c",
+          "group_id": "order12:seed2:d=2|1+^1,1-^1,2+^5,2-^5",
+          "ordered_quadratic_terms": 961,
+          "path_count": 31,
+          "upper_triangle_entries": 496
+        },
+        {
+          "coherent_node_value_lower": "1271491261840.9058",
+          "coherent_node_value_upper": "1271491261840.9062",
+          "entry_interval_sha256": "sha256:1860f00b8196d08daedc2fa7f76e7619d6c8c0bb3af8f9ba18aa99306243cc2c",
+          "group_id": "order12:seed2:d=2|1+^2,1-^2,2+^4,2-^4",
+          "ordered_quadratic_terms": 4225,
+          "path_count": 65,
+          "upper_triangle_entries": 2145
+        },
+        {
+          "coherent_node_value_lower": "43835862399601.3",
+          "coherent_node_value_upper": "43835862399601.31",
+          "entry_interval_sha256": "sha256:8ac436ad3cc4c7ebaf20ebc27e15a296fb6f774d205f61d5f43fb0d2bd06894d",
+          "group_id": "order12:seed2:d=2|1+^3,1-^3,2+^3,2-^3",
+          "ordered_quadratic_terms": 4900,
+          "path_count": 70,
+          "upper_triangle_entries": 2485
+        },
+        {
+          "coherent_node_value_lower": "1714353029421.976",
+          "coherent_node_value_upper": "1714353029421.9766",
+          "entry_interval_sha256": "sha256:4f90693d0200d46f462a31b29a4f098cceb79a9564cf1f34abf1e2c75ed13d6b",
+          "group_id": "order12:seed2:d=2|1+^4,1-^4,2+^2,2-^2",
+          "ordered_quadratic_terms": 1600,
+          "path_count": 40,
+          "upper_triangle_entries": 820
+        },
+        {
+          "coherent_node_value_lower": "3976905.708879153",
+          "coherent_node_value_upper": "3976905.7088791537",
+          "entry_interval_sha256": "sha256:80f54c753451dad342deae7134095f588f2cd35d6f67fcb68eb5c502a1730c22",
+          "group_id": "order12:seed2:d=2|1+^5,1-^5,2+^1,2-^1",
+          "ordered_quadratic_terms": 121,
+          "path_count": 11,
+          "upper_triangle_entries": 66
+        },
+        {
+          "coherent_node_value_lower": "3.194880006884864e-06",
+          "coherent_node_value_upper": "3.194880006884865e-06",
+          "entry_interval_sha256": "sha256:5a3aad990e78725aad7035f897ee892f433b6337173559a9e1624a0aaa2a563a",
+          "group_id": "order12:seed2:d=2|1+^6,1-^6",
+          "ordered_quadratic_terms": 1,
+          "path_count": 1,
+          "upper_triangle_entries": 1
+        },
+        {
+          "coherent_node_value_lower": "1.7406447997796668e-09",
+          "coherent_node_value_upper": "1.7406447997796672e-09",
+          "entry_interval_sha256": "sha256:5237d923ddc318a2a40e13c04ece65d05ebd4589b6cef4f372dda3a93c988d04",
+          "group_id": "order12:seed2:d=2|2+^6,2-^6",
+          "ordered_quadratic_terms": 36,
+          "path_count": 6,
+          "upper_triangle_entries": 21
+        }
+      ],
+      "complete_node_evaluation": {
+        "all_entry_interval_sha256": "sha256:5c98df579cc4bd494b8f90abd14d02e941fc13b56cbb894835e0414bcfef7a21",
+        "native_prefactor_interval_lower": "6.690858462739554e-12",
+        "native_prefactor_interval_upper": "6.690858462739556e-12",
+        "native_product_weight": "1/411376139330301510538742295639337626245683966408394965837152256",
+        "normalized_one_node_rule_lower": "1.9669765082168108e-59",
+        "normalized_one_node_rule_upper": "1.9669765082168113e-59",
+        "raw_complete_quadratic_form_lower": "1209362306211925.5",
+        "raw_complete_quadratic_form_upper": "1209362306211926.0",
+        "signed_rule_value_is_strictly_positive": true,
+        "symmetric_enclosure_if_sign_is_discarded": [
+          "-1.9669765082168113e-59",
+          "1.9669765082168113e-59"
+        ]
+      },
+      "fixed_control": {
+        "K379_complete_entry_interface_sha256": "sha256:8833d0e52b93b8cd5f5cda07b37cb053145355a5dae1d44e3f0d6ddffbe1263d",
+        "K554_face_atlas_sha256": "sha256:e4307eb909e46033b54481e1bae2bcba36bbca74c9121cedbbf4ff6bc1fa25fc",
+        "coherent_groups": 33,
+        "maximum_species_determinant_rank": 6,
+        "native_prefactor": "(2*pi)^-14",
+        "native_product_weight": "1/411376139330301510538742295639337626245683966408394965837152256",
+        "native_time_node": [
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256"
+        ],
+        "ordered_quadratic_terms": 69552,
+        "paths": 1152,
+        "positive_time_variables": 26,
+        "side_count": 13,
+        "unique_positive_node_gram_patterns": 68628,
+        "upper_triangle_gram_entries": 35352
+      },
+      "order": 12,
+      "release_test": {
+        "all_groups_replayed": true,
+        "all_ordered_terms_replayed": true,
+        "all_paths_replayed": true,
+        "all_upper_triangle_entries_evaluated": true,
+        "every_gram_entry_is_strictly_positive_at_the_native_node": true,
+        "normalized_rule_value_is_finite_positive": true,
+        "upper_triangle_equals_full_ordered_replay": true
+      }
+    }
+  ],
+  "release_test": {
+    "all_1792_paths_replayed": true,
+    "all_48272_upper_triangle_entries_evaluated": true,
+    "all_57_groups_replayed": true,
+    "all_94752_ordered_terms_replayed": true,
+    "both_normalized_rule_values_finite_positive": true,
+    "complete_integrals_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "rank_six_boundary_retained_both_orders": true,
+    "separate_native_prefactors_retained": true
+  },
+  "remainder_boundary": {
+    "K554_face_atlases_consumed_for_node_evaluation": true,
+    "K554_positive_Peano_axes": [
+      24,
+      26
+    ],
+    "complete_order_eleven_remainder_radius_emitted": false,
+    "complete_order_twelve_remainder_radius_emitted": false,
+    "global_second_derivative_integrals_computed": false,
+    "next_exact_input": "compile both complete ordered 24/26-axis group differentiation interfaces, then evaluate their first/second node jets before constructing zero-safe global Peano closures",
+    "one_node_rule_values_are_not_complete_integrals": true
+  },
+  "result_id": "K555-ORDERS-ELEVEN-TWELVE-GROUP-INTERVAL-EVALUATOR",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}

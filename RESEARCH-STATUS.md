@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-27 — K555--K556 node values and ordered jet interfaces
+
+K555 evaluates both complete K554 positive one-node rules at 180 Arb digits,
+retaining all 1,792 paths, 57 coherent groups, 48,272 upper-triangle Gram
+entries and 94,752 ordered coefficient terms. The normalized order-eleven node
+interval is `[3.230725260108269e-53,3.230725260108270e-53]`; the order-twelve
+interval is `[1.9669765082168108e-59,1.9669765082168113e-59]`. Both are
+strictly positive. Its independent probe passes 9/9 controls and rejects 10/10
+hostile mutations.
+
+K556 compiles the complete ordered differentiation interface over those 94,752
+terms and all 50 separate native raw-time axes (24 for order eleven, 26 for
+order twelve). It preserves both off-diagonal orientations, derives every
+primitive incidence mask from its recorded cumulative-time start, retains
+maximum determinant rank six and binds the available zero-safe K378 derivative
+bank through order twelve. Its probe passes 11/11 controls and rejects 11/11
+hostile mutations.
+
+These results are node values and exact jet interfaces, not node-jet banks or
+complete integrals. Next evaluate the complete value/first/second node jets for
+2,413,152 ordered axis-entry uses, then build separate zero-safe Peano, face,
+interior and tail closures. The base action column, `R_ref`, K152,
+source/physics ledgers, canon, papers, public posture and physical claims remain
+open or unchanged.
+
 ## 2026-09-27 — K554 orders eleven/twelve native numerical interface
 
 K554 instantiates separate native positive one-node Gauss--Laguerre rules and

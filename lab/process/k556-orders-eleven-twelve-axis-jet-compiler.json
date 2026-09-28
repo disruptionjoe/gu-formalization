@@ -1,0 +1,955 @@
+{
+  "claim_ceiling": "Exact complete ordered differentiation interfaces for the native order-eleven and order-twelve one-node rules: all 1,792 paths, 57 coherent groups, 48,272 symmetric-node upper-triangle entries, 94,752 ordered directional entries and 50 separate raw-time axes are retained with rank six. Off-diagonal orientations remain separate and every primitive axis mask is derived from its recorded cumulative-time start. This emits no node jet bank, global derivative norm, Peano remainder, complete integral, action column, R_ref residual, K152 interval, source/ledger move, canon, paper, public, novelty or physical claim.",
+  "classification": "INTERNAL_NUMERICAL_CONTROL_ONLY",
+  "created": "2026-09-27",
+  "decision": {
+    "complete_first_second_node_jets_evaluated": false,
+    "complete_order_eleven_axis_interface_emitted": true,
+    "complete_order_eleven_integral_emitted": false,
+    "complete_order_eleven_remainder_emitted": false,
+    "complete_order_twelve_axis_interface_emitted": true,
+    "complete_order_twelve_integral_emitted": false,
+    "complete_order_twelve_remainder_emitted": false,
+    "global_second_derivative_integrals_computed": false,
+    "native_K152_interval_emitted": false
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "K378_bank_result_id": "K378-RANK-SIX-GLOBAL-SCALED-BESSEL-BANK",
+    "K378_maximum_derivative_order": 12,
+    "combined_groups": 57,
+    "combined_native_axes": 50,
+    "combined_ordered_directional_entries": 94752,
+    "combined_paths": 1792,
+    "combined_symmetric_node_entries": 48272,
+    "orders": [
+      11,
+      12
+    ],
+    "predecessor_manifests": [
+      "lab/process/k378-rank-six-global-scaled-bessel-bank.json",
+      "lab/process/k554-orders-eleven-twelve-gauss-laguerre-face-atlas.json",
+      "lab/process/k555-orders-eleven-twelve-group-interval-evaluator.json"
+    ]
+  },
+  "jet_algebra": {
+    "K378_rank_six_global_bank_consumed_for_future_faces": true,
+    "axis_masks_derived_from_recorded_cumulative_time_starts": true,
+    "complete_group_quadratic_forms_differentiated_before_enclosure": true,
+    "determinants_differentiated_before_group_enclosure": true,
+    "first_derivative": "F'(x)=-(K0(x)+K2(x))",
+    "maximum_bessel_order_required_at_positive_node": 3,
+    "maximum_zero_safe_scaled_primitive_order_available": 12,
+    "occurrencewise_absolute_value_used": false,
+    "off_diagonal_group_entries_kept_in_both_ordered_orientations": true,
+    "primitive_kernel": "F(x)=2*K1(x)",
+    "raw_zero_bessel_evaluation_used": false,
+    "second_derivative": "F''(x)=(3*K1(x)+K3(x))/2",
+    "truncated_series_convention": "[F, dF, d2F/2] in one native raw-time axis",
+    "upper_triangle_doubling_used_for_directional_jets": false
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "next_exact_input": "evaluate the complete value/first/second node jets for all 94,752 ordered entries on their 24/26 native axes, then construct separate zero-safe Peano, face, interior and tail closures",
+  "order_interfaces": [
+    {
+      "axis_incidence": [
+        {
+          "axis": "s1",
+          "determinant_matrices_touched": 25200,
+          "determinant_primitive_entry_hits": 85960,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 0
+        },
+        {
+          "axis": "s2",
+          "determinant_matrices_touched": 45360,
+          "determinant_primitive_entry_hits": 141960,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 5040
+        },
+        {
+          "axis": "s3",
+          "determinant_matrices_touched": 58380,
+          "determinant_primitive_entry_hits": 225120,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 5040
+        },
+        {
+          "axis": "s4",
+          "determinant_matrices_touched": 71820,
+          "determinant_primitive_entry_hits": 281120,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 10080
+        },
+        {
+          "axis": "s5",
+          "determinant_matrices_touched": 78680,
+          "determinant_primitive_entry_hits": 364280,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 10080
+        },
+        {
+          "axis": "s6",
+          "determinant_matrices_touched": 87080,
+          "determinant_primitive_entry_hits": 420280,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 15120
+        },
+        {
+          "axis": "s7",
+          "determinant_matrices_touched": 90390,
+          "determinant_primitive_entry_hits": 503440,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 15120
+        },
+        {
+          "axis": "s8",
+          "determinant_matrices_touched": 95190,
+          "determinant_primitive_entry_hits": 559440,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 20160
+        },
+        {
+          "axis": "s9",
+          "determinant_matrices_touched": 96600,
+          "determinant_primitive_entry_hits": 642600,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 20160
+        },
+        {
+          "axis": "s10",
+          "determinant_matrices_touched": 99000,
+          "determinant_primitive_entry_hits": 698600,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 25200
+        },
+        {
+          "axis": "s11",
+          "determinant_matrices_touched": 99500,
+          "determinant_primitive_entry_hits": 781200,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 25200
+        },
+        {
+          "axis": "s12",
+          "determinant_matrices_touched": 100500,
+          "determinant_primitive_entry_hits": 851200,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 25200
+        },
+        {
+          "axis": "v1",
+          "determinant_matrices_touched": 25200,
+          "determinant_primitive_entry_hits": 85960,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 0
+        },
+        {
+          "axis": "v2",
+          "determinant_matrices_touched": 45360,
+          "determinant_primitive_entry_hits": 141960,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 5040
+        },
+        {
+          "axis": "v3",
+          "determinant_matrices_touched": 58380,
+          "determinant_primitive_entry_hits": 225120,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 5040
+        },
+        {
+          "axis": "v4",
+          "determinant_matrices_touched": 71820,
+          "determinant_primitive_entry_hits": 281120,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 10080
+        },
+        {
+          "axis": "v5",
+          "determinant_matrices_touched": 78680,
+          "determinant_primitive_entry_hits": 364280,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 10080
+        },
+        {
+          "axis": "v6",
+          "determinant_matrices_touched": 87080,
+          "determinant_primitive_entry_hits": 420280,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 15120
+        },
+        {
+          "axis": "v7",
+          "determinant_matrices_touched": 90390,
+          "determinant_primitive_entry_hits": 503440,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 15120
+        },
+        {
+          "axis": "v8",
+          "determinant_matrices_touched": 95190,
+          "determinant_primitive_entry_hits": 559440,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 20160
+        },
+        {
+          "axis": "v9",
+          "determinant_matrices_touched": 96600,
+          "determinant_primitive_entry_hits": 642600,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 20160
+        },
+        {
+          "axis": "v10",
+          "determinant_matrices_touched": 99000,
+          "determinant_primitive_entry_hits": 698600,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 25200
+        },
+        {
+          "axis": "v11",
+          "determinant_matrices_touched": 99500,
+          "determinant_primitive_entry_hits": 781200,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 25200
+        },
+        {
+          "axis": "v12",
+          "determinant_matrices_touched": 100500,
+          "determinant_primitive_entry_hits": 851200,
+          "entries_touched": 25200,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 25200
+        }
+      ],
+      "compiled_entry_interface": {
+        "descriptor_fields": [
+          "coherent group and contraction ids",
+          "exact coefficient product",
+          "two old-position cumulative-time starts",
+          "every species determinant row/column position",
+          "every native axis mask derived exactly as the suffix from its recorded start position"
+        ],
+        "entry_count": 25200,
+        "stream_sha256": "sha256:0f46f6dfdebde2c062132cf2cb11f9a56b4a3854e6d8b117a1715a8bfce342a6"
+      },
+      "fixed_control": {
+        "K554_face_atlas_sha256": "sha256:85dd4ea47a78072eea7dfd2b23b2c959664d656a1eda43a594571245d9ac7632",
+        "K555_entry_interval_sha256": "sha256:05f33bb4bae30ea88699a59e0a6d5001d67fb2bc38dab248bb0e8b373cafc42c",
+        "coherent_groups": 24,
+        "maximum_species_determinant_rank": 6,
+        "native_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "s11",
+          "s12",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10",
+          "v11",
+          "v12"
+        ],
+        "ordered_directional_entries": 25200,
+        "paths": 640,
+        "positive_time_variables": 24,
+        "side_count": 12,
+        "upper_triangle_gram_entries_at_symmetric_node": 12920
+      },
+      "group_interface": [
+        {
+          "group_id": "order11:seed0:d=1|1+^1,1-^2,2+^4,2-^4",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed0:d=1|1+^2,1-^3,2+^3,2-^3",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed0:d=1|1+^3,1-^4,2+^2,2-^2",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed0:d=1|1+^4,1-^5,2+^1,2-^1",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed0:d=1|1+^5,1-^6",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order11:seed0:d=1|1-^1,2+^5,2-^5",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order11:seed0:d=2|1+^1,1-^1,2+^4,2-^5",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed0:d=2|1+^2,1-^2,2+^3,2-^4",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed0:d=2|1+^3,1-^3,2+^2,2-^3",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed0:d=2|1+^4,1-^4,2+^1,2-^2",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed0:d=2|1+^5,1-^5,2-^1",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order11:seed0:d=2|2+^5,2-^6",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order11:seed1:d=0|1+^1,2+^5,2-^5",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order11:seed1:d=0|1+^2,1-^1,2+^4,2-^4",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed1:d=0|1+^3,1-^2,2+^3,2-^3",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed1:d=0|1+^4,1-^3,2+^2,2-^2",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed1:d=0|1+^5,1-^4,2+^1,2-^1",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed1:d=0|1+^6,1-^5",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order11:seed2:d=0|1+^1,1-^1,2+^5,2-^4",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed2:d=0|1+^2,1-^2,2+^4,2-^3",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed2:d=0|1+^3,1-^3,2+^3,2-^2",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order11:seed2:d=0|1+^4,1-^4,2+^2,2-^1",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order11:seed2:d=0|1+^5,1-^5,2+^1",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order11:seed2:d=0|2+^6,2-^5",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        }
+      ],
+      "order": 11,
+      "release_test": {
+        "all_groups_replayed": true,
+        "all_native_axes_compiled": true,
+        "all_ordered_directional_entries_compiled": true,
+        "all_paths_replayed": true,
+        "all_symmetric_node_entries_replayed": true,
+        "every_axis_touches_an_entry": true,
+        "maximum_rank_remains_six": true
+      }
+    },
+    {
+      "axis_incidence": [
+        {
+          "axis": "s1",
+          "determinant_matrices_touched": 57540,
+          "determinant_primitive_entry_hits": 194040,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 12012
+        },
+        {
+          "axis": "s2",
+          "determinant_matrices_touched": 127092,
+          "determinant_primitive_entry_hits": 422912,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 12012
+        },
+        {
+          "axis": "s3",
+          "determinant_matrices_touched": 163296,
+          "determinant_primitive_entry_hits": 612976,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 23520
+        },
+        {
+          "axis": "s4",
+          "determinant_matrices_touched": 200928,
+          "determinant_primitive_entry_hits": 841848,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 23520
+        },
+        {
+          "axis": "s5",
+          "determinant_matrices_touched": 223020,
+          "determinant_primitive_entry_hits": 1031912,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 35028
+        },
+        {
+          "axis": "s6",
+          "determinant_matrices_touched": 241836,
+          "determinant_primitive_entry_hits": 1260784,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 35028
+        },
+        {
+          "axis": "s7",
+          "determinant_matrices_touched": 254408,
+          "determinant_primitive_entry_hits": 1450848,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 46536
+        },
+        {
+          "axis": "s8",
+          "determinant_matrices_touched": 262904,
+          "determinant_primitive_entry_hits": 1679720,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 46536
+        },
+        {
+          "axis": "s9",
+          "determinant_matrices_touched": 269406,
+          "determinant_primitive_entry_hits": 1869784,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 58044
+        },
+        {
+          "axis": "s10",
+          "determinant_matrices_touched": 272742,
+          "determinant_primitive_entry_hits": 2098656,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 58044
+        },
+        {
+          "axis": "s11",
+          "determinant_matrices_touched": 275664,
+          "determinant_primitive_entry_hits": 2288720,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 69552
+        },
+        {
+          "axis": "s12",
+          "determinant_matrices_touched": 276740,
+          "determinant_primitive_entry_hits": 2516472,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 69552
+        },
+        {
+          "axis": "s13",
+          "determinant_matrices_touched": 277816,
+          "determinant_primitive_entry_hits": 2744224,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 69552
+        },
+        {
+          "axis": "v1",
+          "determinant_matrices_touched": 57540,
+          "determinant_primitive_entry_hits": 194040,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 12012
+        },
+        {
+          "axis": "v2",
+          "determinant_matrices_touched": 127092,
+          "determinant_primitive_entry_hits": 422912,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 12012
+        },
+        {
+          "axis": "v3",
+          "determinant_matrices_touched": 163296,
+          "determinant_primitive_entry_hits": 612976,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 23520
+        },
+        {
+          "axis": "v4",
+          "determinant_matrices_touched": 200928,
+          "determinant_primitive_entry_hits": 841848,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 23520
+        },
+        {
+          "axis": "v5",
+          "determinant_matrices_touched": 223020,
+          "determinant_primitive_entry_hits": 1031912,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 35028
+        },
+        {
+          "axis": "v6",
+          "determinant_matrices_touched": 241836,
+          "determinant_primitive_entry_hits": 1260784,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 35028
+        },
+        {
+          "axis": "v7",
+          "determinant_matrices_touched": 254408,
+          "determinant_primitive_entry_hits": 1450848,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 46536
+        },
+        {
+          "axis": "v8",
+          "determinant_matrices_touched": 262904,
+          "determinant_primitive_entry_hits": 1679720,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 46536
+        },
+        {
+          "axis": "v9",
+          "determinant_matrices_touched": 269406,
+          "determinant_primitive_entry_hits": 1869784,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 58044
+        },
+        {
+          "axis": "v10",
+          "determinant_matrices_touched": 272742,
+          "determinant_primitive_entry_hits": 2098656,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 58044
+        },
+        {
+          "axis": "v11",
+          "determinant_matrices_touched": 275664,
+          "determinant_primitive_entry_hits": 2288720,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 69552
+        },
+        {
+          "axis": "v12",
+          "determinant_matrices_touched": 276740,
+          "determinant_primitive_entry_hits": 2516472,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 69552
+        },
+        {
+          "axis": "v13",
+          "determinant_matrices_touched": 277816,
+          "determinant_primitive_entry_hits": 2744224,
+          "entries_touched": 69552,
+          "maximum_species_determinant_rank_touched": 6,
+          "old_position_kernel_hits": 69552
+        }
+      ],
+      "compiled_entry_interface": {
+        "descriptor_fields": [
+          "coherent group and contraction ids",
+          "exact coefficient product",
+          "two old-position cumulative-time starts",
+          "every species determinant row/column position",
+          "every native axis mask derived exactly as the suffix from its recorded start position"
+        ],
+        "entry_count": 69552,
+        "stream_sha256": "sha256:96413e92157f727e91554a214e2c35838d42fe3e15c266471a431470e2fb5c80"
+      },
+      "fixed_control": {
+        "K554_face_atlas_sha256": "sha256:e4307eb909e46033b54481e1bae2bcba36bbca74c9121cedbbf4ff6bc1fa25fc",
+        "K555_entry_interval_sha256": "sha256:5c98df579cc4bd494b8f90abd14d02e941fc13b56cbb894835e0414bcfef7a21",
+        "coherent_groups": 33,
+        "maximum_species_determinant_rank": 6,
+        "native_axes": [
+          "s1",
+          "s2",
+          "s3",
+          "s4",
+          "s5",
+          "s6",
+          "s7",
+          "s8",
+          "s9",
+          "s10",
+          "s11",
+          "s12",
+          "s13",
+          "v1",
+          "v2",
+          "v3",
+          "v4",
+          "v5",
+          "v6",
+          "v7",
+          "v8",
+          "v9",
+          "v10",
+          "v11",
+          "v12",
+          "v13"
+        ],
+        "ordered_directional_entries": 69552,
+        "paths": 1152,
+        "positive_time_variables": 26,
+        "side_count": 13,
+        "upper_triangle_gram_entries_at_symmetric_node": 35352
+      },
+      "group_interface": [
+        {
+          "group_id": "order12:seed0:d=0|1+^1,1-^1,2+^5,2-^5",
+          "ordered_directional_entries": 1296,
+          "path_count": 36,
+          "upper_triangle_entries_at_symmetric_node": 666
+        },
+        {
+          "group_id": "order12:seed0:d=0|1+^2,1-^2,2+^4,2-^4",
+          "ordered_directional_entries": 8100,
+          "path_count": 90,
+          "upper_triangle_entries_at_symmetric_node": 4095
+        },
+        {
+          "group_id": "order12:seed0:d=0|1+^3,1-^3,2+^3,2-^3",
+          "ordered_directional_entries": 14400,
+          "path_count": 120,
+          "upper_triangle_entries_at_symmetric_node": 7260
+        },
+        {
+          "group_id": "order12:seed0:d=0|1+^4,1-^4,2+^2,2-^2",
+          "ordered_directional_entries": 8100,
+          "path_count": 90,
+          "upper_triangle_entries_at_symmetric_node": 4095
+        },
+        {
+          "group_id": "order12:seed0:d=0|1+^5,1-^5,2+^1,2-^1",
+          "ordered_directional_entries": 1296,
+          "path_count": 36,
+          "upper_triangle_entries_at_symmetric_node": 666
+        },
+        {
+          "group_id": "order12:seed0:d=0|1+^6,1-^6",
+          "ordered_directional_entries": 36,
+          "path_count": 6,
+          "upper_triangle_entries_at_symmetric_node": 21
+        },
+        {
+          "group_id": "order12:seed0:d=0|2+^6,2-^6",
+          "ordered_directional_entries": 36,
+          "path_count": 6,
+          "upper_triangle_entries_at_symmetric_node": 21
+        },
+        {
+          "group_id": "order12:seed1:d=1|1+^1,1-^1,2+^5,2-^5",
+          "ordered_directional_entries": 121,
+          "path_count": 11,
+          "upper_triangle_entries_at_symmetric_node": 66
+        },
+        {
+          "group_id": "order12:seed1:d=1|1+^2,1-^2,2+^4,2-^4",
+          "ordered_directional_entries": 1600,
+          "path_count": 40,
+          "upper_triangle_entries_at_symmetric_node": 820
+        },
+        {
+          "group_id": "order12:seed1:d=1|1+^3,1-^3,2+^3,2-^3",
+          "ordered_directional_entries": 4900,
+          "path_count": 70,
+          "upper_triangle_entries_at_symmetric_node": 2485
+        },
+        {
+          "group_id": "order12:seed1:d=1|1+^4,1-^4,2+^2,2-^2",
+          "ordered_directional_entries": 4225,
+          "path_count": 65,
+          "upper_triangle_entries_at_symmetric_node": 2145
+        },
+        {
+          "group_id": "order12:seed1:d=1|1+^5,1-^5,2+^1,2-^1",
+          "ordered_directional_entries": 961,
+          "path_count": 31,
+          "upper_triangle_entries_at_symmetric_node": 496
+        },
+        {
+          "group_id": "order12:seed1:d=1|1+^6,1-^6",
+          "ordered_directional_entries": 36,
+          "path_count": 6,
+          "upper_triangle_entries_at_symmetric_node": 21
+        },
+        {
+          "group_id": "order12:seed1:d=1|2+^6,2-^6",
+          "ordered_directional_entries": 1,
+          "path_count": 1,
+          "upper_triangle_entries_at_symmetric_node": 1
+        },
+        {
+          "group_id": "order12:seed1:d=2|1+^1,2+^5,2-^6",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order12:seed1:d=2|1+^2,1-^1,2+^4,2-^5",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order12:seed1:d=2|1+^3,1-^2,2+^3,2-^4",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order12:seed1:d=2|1+^4,1-^3,2+^2,2-^3",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order12:seed1:d=2|1+^5,1-^4,2+^1,2-^2",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order12:seed1:d=2|1+^6,1-^5,2-^1",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order12:seed2:d=1|1+^1,1-^2,2+^5,2-^4",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order12:seed2:d=1|1+^2,1-^3,2+^4,2-^3",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order12:seed2:d=1|1+^3,1-^4,2+^3,2-^2",
+          "ordered_directional_entries": 2500,
+          "path_count": 50,
+          "upper_triangle_entries_at_symmetric_node": 1275
+        },
+        {
+          "group_id": "order12:seed2:d=1|1+^4,1-^5,2+^2,2-^1",
+          "ordered_directional_entries": 625,
+          "path_count": 25,
+          "upper_triangle_entries_at_symmetric_node": 325
+        },
+        {
+          "group_id": "order12:seed2:d=1|1+^5,1-^6,2+^1",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order12:seed2:d=1|1-^1,2+^6,2-^5",
+          "ordered_directional_entries": 25,
+          "path_count": 5,
+          "upper_triangle_entries_at_symmetric_node": 15
+        },
+        {
+          "group_id": "order12:seed2:d=2|1+^1,1-^1,2+^5,2-^5",
+          "ordered_directional_entries": 961,
+          "path_count": 31,
+          "upper_triangle_entries_at_symmetric_node": 496
+        },
+        {
+          "group_id": "order12:seed2:d=2|1+^2,1-^2,2+^4,2-^4",
+          "ordered_directional_entries": 4225,
+          "path_count": 65,
+          "upper_triangle_entries_at_symmetric_node": 2145
+        },
+        {
+          "group_id": "order12:seed2:d=2|1+^3,1-^3,2+^3,2-^3",
+          "ordered_directional_entries": 4900,
+          "path_count": 70,
+          "upper_triangle_entries_at_symmetric_node": 2485
+        },
+        {
+          "group_id": "order12:seed2:d=2|1+^4,1-^4,2+^2,2-^2",
+          "ordered_directional_entries": 1600,
+          "path_count": 40,
+          "upper_triangle_entries_at_symmetric_node": 820
+        },
+        {
+          "group_id": "order12:seed2:d=2|1+^5,1-^5,2+^1,2-^1",
+          "ordered_directional_entries": 121,
+          "path_count": 11,
+          "upper_triangle_entries_at_symmetric_node": 66
+        },
+        {
+          "group_id": "order12:seed2:d=2|1+^6,1-^6",
+          "ordered_directional_entries": 1,
+          "path_count": 1,
+          "upper_triangle_entries_at_symmetric_node": 1
+        },
+        {
+          "group_id": "order12:seed2:d=2|2+^6,2-^6",
+          "ordered_directional_entries": 36,
+          "path_count": 6,
+          "upper_triangle_entries_at_symmetric_node": 21
+        }
+      ],
+      "order": 12,
+      "release_test": {
+        "all_groups_replayed": true,
+        "all_native_axes_compiled": true,
+        "all_ordered_directional_entries_compiled": true,
+        "all_paths_replayed": true,
+        "all_symmetric_node_entries_replayed": true,
+        "every_axis_touches_an_entry": true,
+        "maximum_rank_remains_six": true
+      }
+    }
+  ],
+  "release_test": {
+    "all_1792_paths_replayed": true,
+    "all_48272_symmetric_node_entries_replayed": true,
+    "all_50_native_axes_compiled": true,
+    "all_57_groups_replayed": true,
+    "all_94752_ordered_directional_entries_compiled": true,
+    "complete_integrals_not_overclaimed": true,
+    "global_remainders_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "off_diagonal_orientations_retained": true,
+    "rank_six_boundary_retained_both_orders": true
+  },
+  "result_id": "K556-ORDERS-ELEVEN-TWELVE-AXIS-JET-COMPILER",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}
