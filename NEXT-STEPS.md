@@ -2,10 +2,25 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-27"
+updated_at: "2026-09-28"
 ---
 
 # Next Steps For Contributors
+
+> **2026-09-28 K559--K561 ORDERS ELEVEN/TWELVE ZERO-SAFE FACE
+> INTERFACES.** K559 compiles all 2,733 reachable face instances across the
+> fifty K558 hybrids: 1,198 at order eleven and 1,535 at order twelve. K560
+> covers 546,846,560 logical determinant matrix-face uses with 97 exact
+> singular rank-one-through-six assignment-dual templates and 131 confluent
+> templates. K561 accounts for 136,951,920 logical ordered-descriptor face
+> replays and proves every face locally integrable, with minimum normal power
+> zero and complete-origin degrees ten/eleven. The probes pass `10/10 + 12/12
+> + 12/12` controls and reject `10/10 + 11/11 + 12/12` hostile mutations.
+> Next coefficient K560 with K378, emit finite whole-radial face rows and
+> stitch disjoint recursive interiors plus analytic tails for all fifty
+> hybrids. Local integrability is not a numerical cover or complete integral;
+> base action, `R_ref`, K152, source, ledger, canon, public and physical claims
+> remain open or unchanged.
 
 > **2026-09-27 K557--K558 ORDERS ELEVEN/TWELVE NODE JETS AND PEANO
 > CONTRACTS.** K557 evaluates every coherent value/first/second directional

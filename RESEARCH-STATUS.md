@@ -2,11 +2,39 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-27"
+updated_at: "2026-09-28"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+## 2026-09-28 — K559--K561 higher-order zero-safe face interfaces
+
+K559 compiles every K554 kernel-zero and determinant row/column coalescence
+mask reachable in the fifty K558 Peano hybrids. The exact fixed-node rule
+leaves 1,198 order-eleven and 1,535 order-twelve face instances while
+preserving their separate 24/26-axis order and complete-origin ownership.
+
+K560 covers 546,846,560 logical determinant matrix-face uses with a finite
+shared bank of 97 singular rank-one-through-six templates and 131 confluent
+divided-difference templates. Every singular template carries an exact primal
+assignment witness and equal row/column scaling dual; the maximum row and
+column confluence orders are both five. Raw Bessel evaluation at zero remains
+forbidden.
+
+K561 structurally deduplicates and accounts for 136,951,920 logical ordered-
+descriptor face replays. K378 scaled primitives and K560 assignment duals
+prove all 2,733 faces locally integrable. The global minimum certified normal
+power is zero; the complete 24- and 26-axis origins replay degrees ten and
+eleven. The three probes pass 10/10, 12/12 and 12/12 controls while rejecting
+10/10, 11/11 and 12/12 hostile mutations.
+
+These results release the exact rank-six mask-native local evaluator but do
+not supply global determinant coefficient envelopes, whole-radial face rows,
+recursive positive interiors, analytic tails, any of the fifty numerical
+hybrid bounds or either complete higher-order integral. Those global closures
+come next before the base action column, `R_ref` and K152. Source/physics
+ledgers, canon, papers, public posture and physical claims remain unchanged.
 
 ## 2026-09-27 — K557--K558 node jets and positive Peano contracts
 

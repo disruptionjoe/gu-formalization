@@ -2,10 +2,42 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-27"
+updated_at: "2026-09-28"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K559--K561 higher-order zero-safe face interfaces (2026-09-28)
+
+K559 exactly filters the K554 zero/coalescence atlas against every K558 hybrid
+domain's preceding positive nodes. It produces 1,198 order-eleven and 1,535
+order-twelve reachable face instances, preserves all fifty axes and all 94,752
+ordered descriptors, and independently replays each complete K554 atlas in
+the first hybrid. Its probe passes 10/10 controls and rejects 10/10 hostile
+mutations.
+
+K560 derives every determinant entry mask from the recorded cumulative-time
+positions and compiles all induced rank-one-through-six singular and
+confluent patterns. Ninety-seven singular templates carry exact maximum-
+assignment witnesses and matching binary row/column duals; 131 confluent
+templates carry the repeated-node clusters and Vandermonde orders. This bank
+covers 546,846,560 logical matrix-face uses through exact structural
+deduplication. Its probe passes 12/12 controls and rejects 11/11 mutations.
+
+K561 forms the complete product singular power from both old-position kernels
+and every species determinant before maximizing over each order's ordered
+descriptors. If the active hybrid axis vanishes, the safe two-power derivative
+loss is canceled by the Peano kernel's exact quadratic zero; otherwise an
+active primitive cannot be zero on that face. All 2,733 faces are therefore
+locally integrable, with minimum certified normal power zero and complete-
+origin degrees ten and eleven. It accounts for 136,951,920 logical descriptor-
+face replays, passes 12/12 controls and rejects 12/12 hostile mutations.
+
+This proves reachability, determinant-preserving preconditioning and local
+face-normal integrability. It does not prove a finite whole-domain hybrid
+majorant, recursive cover, analytic tail, global remainder, complete order-
+eleven/twelve integral, base action column, `R_ref`, K152 interval, or any
+source, ledger, canon, paper, public, novelty or physical claim.
 
 ## K557--K558 node jets and positive Peano contracts (2026-09-27)
 
