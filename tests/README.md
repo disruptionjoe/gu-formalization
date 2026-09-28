@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K600--K601 carrier no-selector and order-two moment reduction
+
+- `channel-swings/k600_k77_corrected_carrier_stabilizer_no_selector.py`
+  proves the current scalar-plus-projector datum has no natural nonzero vector,
+  covector or rank-one selector and identifies the exact action-owned escape.
+- `channel-swings/k601_k500_order_two_moment_symmetry_reduction.py`
+  reduces the six K179 order-two exchange terms to three common scalar
+  integrals and derives the q00/q10/q01 truncation leakage identities.
+- The two `_probe.py` files pass 40 exact controls and reject 43 hostile
+  mutations while preserving every protected downstream boundary.
+
 ## K598--K599 covariant soldering and sharp-tail moment interface
 
 - `channel-swings/k598_k77_covariant_rank_one_soldering_interface.py`

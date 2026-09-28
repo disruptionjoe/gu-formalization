@@ -8,6 +8,29 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K600--K601 carrier no-selector and order-two moment reduction
+
+K600 closes the possibility of extracting K598's missing initial packet from
+the currently serialized scalar-plus-projector data alone. K594's scalar
+third-jet coefficients, K441's positive pairing and its corrected half-
+projector are invariant under `O(256)xO(256)`. Independent sign reversals make
+the fixed vector and covector spaces zero, while the endomorphism commutant is
+exactly `a I_+ direct-sum b I_-`; because both halves have rank 256, it contains
+no nonzero rank-one map. A named action-owned injection, boundary field or
+other stabilizer-reducing datum can escape the theorem and remains the exact
+live reopener. The selected action is not rejected.
+
+K601 replays K179's complete first nonzero exchange family. Equal-coupling
+flavor symmetry plus impurity/exterior-sector orthogonality reduce its six
+order-two terms to three scalar integrals `n,a,b`. The q00 moments are
+`(2n,2a,2b)` and q10/q01 are `(2n,-a,2b)`, so their truncation leakage squares
+are respectively `b/n-a^2/n^2` and `b/n-a^2/(4n^2)`. In particular q10/q01
+exceed q00 by `3a^2/(4n^2)` and are at least `3b/(4n)>0`. Higher-order
+interference remains, so this is not a numerical finite-moment or complete
+uniform leakage result. The two probes pass 40/40 controls and reject 43/43
+hostile mutations. The noncyclic floor, K473, K152 and all protected source,
+ledger, canon, paper, public and physical conclusions remain open.
+
 ## 2026-09-28 — K598--K599 covariant soldering and sharp-tail moment interface
 
 K598 removes the transport part of K594/K596's missing soldering interface.

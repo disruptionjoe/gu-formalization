@@ -7,6 +7,26 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K600--K601 carrier no-selector and order-two moment reduction (2026-09-28)
+
+K600 verifies the no-selector theorem in the exact K441/K594/K598 types. The
+analytic result uses the full corrected-half stabilizer; a dependency-free
+`3+3` signed-permutation control reconstructs zero invariant vectors and the
+two-dimensional block-identity commutant. This proves only that the present
+scalar coefficients, pairing and projector do not canonically select the
+missing vectors, covectors or nonzero rank-one packet. It does not exclude an
+additional action-owned symmetry-breaking datum.
+
+K601 enumerates all six K179 order-two terms and checks their coefficients,
+impurity signatures, exterior species, normalization and three-resolvent
+structure. Exact orthogonality removes unequal signatures and flavor symmetry
+identifies the remaining norms and overlaps, leaving `n,a,b`. Rational
+controls verify the q00 and q10/q01 moment formulas, their difference and the
+strict q10/q01 truncation lower. The probes pass 40/40 controls and reject
+43/43 hostile mutations. No numerical integral, complete finite action vector,
+uniform K500 bound, noncyclic floor, K473 beta, K152 interval or protected
+scientific/public conclusion follows.
+
 ## K598--K599 covariant soldering and sharp-tail moment interface (2026-09-28)
 
 K598 composes K596's fibrewise rank-one discriminator with K441's exact

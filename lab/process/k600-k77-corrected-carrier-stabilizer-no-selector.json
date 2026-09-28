@@ -1,0 +1,97 @@
+{
+  "claim_ceiling": "Exact no-selector theorem for the currently serialized K594/K441 data: scalar third-jet coefficients, the positive corrected-carrier pairing and its rank-256 half-projector have full O(256)xO(256) stabilizer, whose fixed-vector and fixed-covector spaces are zero and whose endomorphism commutant contains no nonzero rank-one map. Thus those inputs cannot canonically supply K598's initial vectors or Riesz return. An additional action-owned stabilizer-reducing datum remains live; no source action is rejected and no nonlinear properness, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion moves.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-28",
+  "decision": {
+    "K590_factorized_completion_retracted": false,
+    "K598_conditional_transport_preserved": true,
+    "additional_action_owned_symmetry_breaking_datum_required": true,
+    "next_exact_input": "Supply a named action-owned field-to-carrier injection, boundary field or equivalent stabilizer-reducing datum and its K441 Riesz return; only then apply K596 at the initial fibre and K598 for transport. Do not search the scalar-plus-projector data for a canonical direction.",
+    "nonzero_rank_one_packet_natural_from_current_inputs": false,
+    "scalar_third_jet_selects_nonzero_Riesz_return": false,
+    "scalar_third_jet_selects_nonzero_initial_vector": false,
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "block_identity_basis_recovered": true,
+    "commutant_basis_ranks": [
+      3,
+      3
+    ],
+    "commutant_dimension": 2,
+    "generator_count": 10,
+    "invariant_vector_dimension": 0,
+    "nonzero_rank_one_commutant_exists": false,
+    "sign_commuting_matrix_units": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        3,
+        3
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "toy_carrier_rank": 6,
+    "toy_half_rank": 3
+  },
+  "gu_typed_objects": {
+    "available_action_data": "the K594 scalar coefficients D3_ttt=8736 and D3_tvv=-(56/3)<V,*V>, with no field-to-carrier injection or K441 Riesz return",
+    "carrier": "K441 corrected real rank-512 carrier E=E_+ direct-sum E_- with dim(E_+)=dim(E_-)=256",
+    "naturality_group": "O(E_+) x O(E_-), already preserving the pairing, projector and scalar coefficients",
+    "pairing": "K441 transported positive boundary pairing",
+    "projector": "Pi with image E_+ and kernel E_-",
+    "result": "stabilizer no-selector theorem MAP-TYPE=natural-transformation-obstruction",
+    "target": "a nonzero initial corrected-carrier vector or rank-one coupling for either K589 arrow"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Adjoining one nonzero action-owned vector immediately reduces the stabilizer and makes K596/K598 evaluable.",
+    "strongest_overclaim": "Treating the no-selector theorem as nonexistence of every action-derived soldering map.",
+    "weakest_reproducibility_seam": "The general 256+256 proof is analytic; the exact matrix control uses a 3+3 faithful signed-permutation subgroup."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K594 supplies only scalar native-field trilinears and K598 supplies transport conditional on initial vectors; neither breaks the corrected-half stabilizer.",
+    "route_comparison": "Test naturality under the full stabilizer before choosing a coordinate vector or expanding a 512-by-512 matrix.",
+    "strongest_alternative": "An independently action-owned boundary injection can reduce the stabilizer and remains the exact live reopener."
+  },
+  "result_id": "K600-K77-CORRECTED-CARRIER-STABILIZER-NO-SELECTOR",
+  "schema_version": "1.0",
+  "scope": "The maximal corrected-carrier datum naturally determined by K594's serialized scalar selected-I1B third-jet coefficients, K441's positive pairing and one corrected half-projector, before any additional action-owned field/carrier injection or symmetry-breaking datum is supplied.",
+  "selected_action_replay": {
+    "D3_t_t_t": "8736",
+    "D3_t_v_v_over_native_norm": "-56/3",
+    "K598_actual_action_owned_packet_constructed": false,
+    "K598_conditional_covariant_packet_constructed": true,
+    "K598_rank512_factorization_replayed": false,
+    "action_Riesz_map_on_K441_pairing_serialized": false,
+    "field_to_carrier_soldering_map_serialized": false
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "conditional_escape": "A nonzero K598 packet therefore requires an additional action-owned vector, injection, boundary field, or other datum that reduces the stabilizer; scalar nonvanishing alone cannot supply it.",
+    "covector_selector": "The same argument applies after the positive Riesz identification E*=E; no nonzero Riesz return is selected by these data.",
+    "dimension_mismatch_alone_used": false,
+    "endomorphism_commutant": "Every equivariant endomorphism is a*I_(E_+) direct-sum b*I_(E_-).",
+    "rank_one_consequence": "Because both half-ranks are 256, the only rank-at-most-one equivariant endomorphism is zero.",
+    "vector_selector": "Any vector determined equivariantly from only scalar data, the positive pairing and Pi must be fixed by O(E_+) x O(E_-). Independent sign reversals force every coordinate to zero."
+  }
+}

@@ -7,6 +7,22 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K600--K601 CARRIER NO-SELECTOR AND ORDER-TWO MOMENT
+> REDUCTION.** K600 proves that K594's scalar third-jet coefficients, K441's
+> positive pairing and the corrected half-projector retain the full
+> `O(256)xO(256)` stabilizer. That datum fixes no nonzero vector or covector,
+> and its equivariant endomorphisms are block scalars, so it cannot naturally
+> select K598's initial rank-one packet. The exact reopener is a named
+> action-owned stabilizer-reducing injection, boundary field or equivalent
+> datum and its K441 Riesz return. K601 reduces all six K179 order-two exchange
+> terms to three common integrals `n,a,b`; q00 has moments `(2n,2a,2b)`, while
+> q10/q01 have `(2n,-a,2b)`. Their truncation leakage squares are therefore
+> `b/n-a^2/n^2` and `b/n-a^2/(4n^2)`. The two probes pass `40/40` controls and
+> reject `43/43` hostile mutations. Next outwardly enclose `n,a,b` once and
+> extend the symmetry reduction through orders three through twelve before
+> composing K599/K574. Do not promote the truncation lower to a complete
+> leakage bound; the uniform bound and complete-sector floor remain open.
+
 > **2026-09-28 K598--K599 COVARIANT SOLDERING AND SHARP-TAIL MOMENT
 > INTERFACE.** K598 transports any matching-half K596 initial packet by
 > K441's exact `U(t)`, proving both conditional K444 squares and covariant

@@ -1,0 +1,242 @@
+{
+  "K179_replay": {
+    "charge_conjugate_coefficients": [
+      "-1",
+      "-1"
+    ],
+    "common_normalization_prefactor": true,
+    "common_output_variable_provenance": true,
+    "common_three_resolvent_denominators": true,
+    "complete_order_two_term_count": 6,
+    "cyclic_overlap_allowed_per_seed": {
+      "0": 2,
+      "1": 1,
+      "2": 1
+    },
+    "one_impurity_coefficients": [
+      "-1",
+      "-1"
+    ],
+    "rows": [
+      {
+        "charge": [
+          0,
+          0
+        ],
+        "contraction_id": "seed-0-order-2-path-1-contraction-1",
+        "cyclic_overlap_allowed": true,
+        "denominator_count": 3,
+        "exact_operator_coefficient": "1",
+        "input_impurity": 0,
+        "input_signature": "d=0|1+^1,1-^1",
+        "normalization_prefactor": "(2*pi)^(-4/2)",
+        "output_impurity": 0,
+        "output_signature": "d=0|1+^1,1-^1",
+        "seed_impurity": 0,
+        "variable_provenance": [
+          2,
+          3
+        ]
+      },
+      {
+        "charge": [
+          0,
+          0
+        ],
+        "contraction_id": "seed-0-order-2-path-2-contraction-1",
+        "cyclic_overlap_allowed": true,
+        "denominator_count": 3,
+        "exact_operator_coefficient": "1",
+        "input_impurity": 0,
+        "input_signature": "d=0|2+^1,2-^1",
+        "normalization_prefactor": "(2*pi)^(-4/2)",
+        "output_impurity": 0,
+        "output_signature": "d=0|2+^1,2-^1",
+        "seed_impurity": 0,
+        "variable_provenance": [
+          2,
+          3
+        ]
+      },
+      {
+        "charge": [
+          1,
+          0
+        ],
+        "contraction_id": "seed-1-order-2-path-1-contraction-1",
+        "cyclic_overlap_allowed": true,
+        "denominator_count": 3,
+        "exact_operator_coefficient": "-1",
+        "input_impurity": 1,
+        "input_signature": "d=1|1+^1,1-^1",
+        "normalization_prefactor": "(2*pi)^(-4/2)",
+        "output_impurity": 1,
+        "output_signature": "d=1|1+^1,1-^1",
+        "seed_impurity": 1,
+        "variable_provenance": [
+          2,
+          3
+        ]
+      },
+      {
+        "charge": [
+          1,
+          0
+        ],
+        "contraction_id": "seed-1-order-2-path-2-contraction-1",
+        "cyclic_overlap_allowed": false,
+        "denominator_count": 3,
+        "exact_operator_coefficient": "-1",
+        "input_impurity": 2,
+        "input_signature": "d=2|1+^1,2-^1",
+        "normalization_prefactor": "(2*pi)^(-4/2)",
+        "output_impurity": 1,
+        "output_signature": "d=1|2+^1,2-^1",
+        "seed_impurity": 1,
+        "variable_provenance": [
+          2,
+          3
+        ]
+      },
+      {
+        "charge": [
+          0,
+          1
+        ],
+        "contraction_id": "seed-2-order-2-path-1-contraction-1",
+        "cyclic_overlap_allowed": false,
+        "denominator_count": 3,
+        "exact_operator_coefficient": "-1",
+        "input_impurity": 1,
+        "input_signature": "d=1|1-^1,2+^1",
+        "normalization_prefactor": "(2*pi)^(-4/2)",
+        "output_impurity": 2,
+        "output_signature": "d=2|1+^1,1-^1",
+        "seed_impurity": 2,
+        "variable_provenance": [
+          2,
+          3
+        ]
+      },
+      {
+        "charge": [
+          0,
+          1
+        ],
+        "contraction_id": "seed-2-order-2-path-2-contraction-1",
+        "cyclic_overlap_allowed": true,
+        "denominator_count": 3,
+        "exact_operator_coefficient": "-1",
+        "input_impurity": 2,
+        "input_signature": "d=2|2+^1,2-^1",
+        "normalization_prefactor": "(2*pi)^(-4/2)",
+        "output_impurity": 2,
+        "output_signature": "d=2|2+^1,2-^1",
+        "seed_impurity": 2,
+        "variable_provenance": [
+          2,
+          3
+        ]
+      }
+    ],
+    "terms_per_seed": {
+      "0": 2,
+      "1": 2,
+      "2": 2
+    },
+    "vacuum_coefficients": [
+      "1",
+      "1"
+    ]
+  },
+  "claim_ceiling": "Exact first-nonzero K179 moment reduction: the six order-two exchange terms collapse by equal-coupling symmetry and impurity/exterior-sector orthogonality to three scalar integrals n,a,b. The q00 moments are (2n,2a,2b), while q10 and q01 are (2n,-a,2b); hence their order-two leakage exceeds q00 by 3a^2/(4n^2) and is at least 3b/(4n)>0. This is a truncation-level structural result, not a numerical K456 moment evaluation or a complete uniform K500 leakage bound; higher-order interference, K574 tail composition, the noncyclic floor, K473, K152 and all source, ledger, canon, paper, public, novelty and physical conclusions remain open.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-09-28",
+  "decision": {
+    "K473_released": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "complete_finite_K456_moments_emitted": false,
+    "first_nonzero_exchange_family_reduced": true,
+    "minimum_order_two_scalar_integrals": [
+      "n",
+      "a",
+      "b"
+    ],
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "next_exact_input": "Outwardly enclose the three common order-two integrals n,a,b once, then extend the same impurity/exterior signature reduction to orders three through twelve before applying K599 with K574's sharp tail exactly once.",
+    "numerical_order_two_moments_emitted": false,
+    "q10_q01_order_two_leakage_strictly_positive": true,
+    "six_terms_require_six_independent_quadratures": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "a": "3",
+    "b": "2",
+    "cauchy_condition": true,
+    "difference_identity_passes": true,
+    "n": "5",
+    "q00_leakage_square": "1/25",
+    "q00_nonnegative": true,
+    "q10_leakage_square": "31/100",
+    "q10_lower_from_cauchy": "3/10",
+    "q10_lower_passes": true,
+    "q10_minus_q00": "27/100",
+    "q10_strictly_positive": true
+  },
+  "gu_typed_objects": {
+    "action_vector": "the six K179 order-two matched-exchange output kernels",
+    "carrier": "K162 order-two q00/q10/q01 cyclic path sectors in normalized CAR exterior coordinates",
+    "pairing": "regular Hilbert pairing transported from M=S* S, orthogonal across unequal impurity or exterior species signatures",
+    "result": "first-nonzero moment block reduction MAP-TYPE=orthogonal-sector-decomposition",
+    "target": "the order-two contribution to K599's N, A_F and B_F moments"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Higher orders can enter the same output sectors and interfere, so the complete action vector still requires orders three through twelve plus K574's tail.",
+    "strongest_overclaim": "Treating the symbolic n,a,b reduction or the positive order-two truncation as a complete finite or all-level leakage bound.",
+    "weakest_reproducibility_seam": "The scalar integrals are exactly identified but not yet outwardly evaluated."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K179 serializes all six order-two coefficients and sectors but does not reduce their three K599 moments.",
+    "route_comparison": "Delete exact zero Gram products and quotient flavor copies before commissioning continuum quadrature.",
+    "strongest_alternative": "Termwise quadrature of six copies is correct but duplicates isometric kernels and obscures the q10 cyclic-overlap deficit."
+  },
+  "result_id": "K601-K500-ORDER-TWO-MOMENT-SYMMETRY-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "K179's complete first nonzero matched-exchange family at order two on the q00, q10 and charge-conjugate q01 K162 seeds, reduced before quadrature by exact impurity/exterior-sector orthogonality and equal-coupling flavor symmetry.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "symmetry_reduction": {
+    "common_scalar_integrals": {
+      "a": "unsigned overlap of the same-flavor cyclic path with its order-two exchange image",
+      "b": "squared norm of one order-two exchange output kernel",
+      "constraints": [
+        "n>0",
+        "b>0",
+        "a^2<=n*b"
+      ],
+      "n": "squared norm of one order-two cyclic path kernel"
+    },
+    "q00_leakage_square": "b/n-a^2/n^2",
+    "q00_moments": {
+      "A_2": "2*a",
+      "B_2": "2*b",
+      "N_2": "2*n"
+    },
+    "q01_moments": {
+      "A_2": "-a",
+      "B_2": "2*b",
+      "N_2": "2*n"
+    },
+    "q10_minus_q00": "3*a^2/(4*n^2)",
+    "q10_moments": {
+      "A_2": "-a",
+      "B_2": "2*b",
+      "N_2": "2*n"
+    },
+    "q10_q01_leakage_square": "b/n-a^2/(4*n^2)",
+    "q10_strict_lower": "lambda_2(q10)^2>=3*b/(4*n)>0 by Cauchy and nonzero positive exchange kernel",
+    "zero_cross_terms_removed": "All cyclic/action overlaps with unequal impurity or exterior signatures, and all action/action products between distinct output signatures."
+  },
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -53,12 +53,14 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K598" in live, "K77 covariant soldering interface missing")
-        check("initial corrected-carrier vectors" in live, "K77 action-owned initial datum missing")
-        check("finite native spectral-width route" in live,
-              "K500 native-width obstruction missing")
-        check("N, A_F and B_F moments" in live,
-              "K500 finite three-moment route missing")
+        check("K600" in live, "K77 no-selector boundary missing")
+        check("stabilizer-reducing" in live, "K77 action-owned reopener missing")
+        check("K596" in live and "K598" in live,
+              "K77 discriminator/transport succession missing")
+        check("K601" in live and "n, a and b" in live,
+              "K500 order-two three-integral route missing")
+        check("orders three through twelve" in live,
+              "K500 higher-order reduction route missing")
         check("sharp tail once" in live, "K500 single-tail composition missing")
         check("complete-sector lower witness" in live,
               "live complete-complement route missing")
@@ -71,8 +73,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K598--K599 convert K596/K597's successors" in summary,
-          "current K598--K599 result lost")
+    check("K600--K601 sharpen both live successors" in summary,
+          "current K600--K601 result lost")
     check("complete-sector floor remains" in summary,
           "current claim ceiling lost")
 
@@ -97,16 +99,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
     check(
-        "K598 composes" in data["agenda"].get("latest_result_2026_09_28_k598_k599", ""),
-        "agenda K598--K599 result is not current",
+        "K600 proves" in data["agenda"].get("latest_result_2026_09_28_k600_k601", ""),
+        "agenda K600--K601 result is not current",
     )
     check(
-        "initial corrected-carrier vectors"
+        "stabilizer-reducing"
         in data["agenda"].get("refresh_note", ""),
         "agenda K77 route is not current",
     )
     check(
-        "N/A_F/B_F moment formulas"
+        "order-two n/a/b integrals"
         in data["agenda"].get("refresh_note", ""),
         "agenda K500 route is not current",
     )
@@ -165,7 +167,7 @@ def selftest(base: dict) -> tuple[int, int]:
     add("agenda-stale", lambda d: d["agenda"].__setitem__(
         "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
     add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
-        "latest_result_2026_09_28_k598_k599", "K597 remains the latest result."))
+        "latest_result_2026_09_28_k600_k601", "K599 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
         item for item in d["agenda"]["work_items"]
         if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"
