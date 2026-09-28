@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K602--K603 order-two numerical moments and all-order signature sparsity
+
+- `channel-swings/k602_k500_order_two_numerical_moment_enclosure.py`
+  outwardly encloses K601's cyclic norm and cyclic/action overlap, reuses
+  K180's certified exchange norm once, and derives q00/q10/q01 truncation
+  leakage intervals.
+- `channel-swings/k603_k500_all_order_signature_sparsity.py` replays every
+  K177 cyclic path and K179 action term through order twelve and compiles the
+  exact impurity/exterior-signature zero-product atlas.
+- The two `_probe.py` files deterministically replay both artifacts, pass 10
+  headline controls and reject 40 hostile mutations while preserving every
+  downstream claim fence.
+
 ## K600--K601 carrier no-selector and order-two moment reduction
 
 - `channel-swings/k600_k77_corrected_carrier_stabilizer_no_selector.py`

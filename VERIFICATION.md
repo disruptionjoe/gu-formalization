@@ -7,6 +7,25 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K602--K603 order-two numerical moments and all-order signature sparsity (2026-09-28)
+
+K602 independently replays the K180 contracted exchange kernel and uses its
+stored certified `b` interval exactly once. A 60,516-cell monotone enclosure
+plus analytic cyclic and Cauchy cross tails produces positive outward
+intervals for `n` and `a`; interval arithmetic verifies the q00 and q10/q01
+truncation formulas, including the strict q10/q01 lower. Its probe passes 5/5
+headline controls and rejects 19/19 hostile mutations.
+
+K603 replays the complete K177 word and K179 coefficient generators. Exact
+impurity/exterior signatures partition every cyclic-cyclic, cyclic-action and
+action-action pairing through order twelve. The census retains all 2,958
+action terms, reproduces K601's order-two surviving counts `2,1,1`, and proves
+109,732 exact-zero cyclic/action products. Its probe passes 5/5 headline
+controls and rejects 21/21 hostile mutations. Surviving higher-order products
+remain unevaluated, so neither artifact supplies a complete finite or uniform
+K500 bound, noncyclic floor, K473/K152 result, or protected scientific/public
+conclusion.
+
 ## K600--K601 carrier no-selector and order-two moment reduction (2026-09-28)
 
 K600 verifies the no-selector theorem in the exact K441/K594/K598 types. The

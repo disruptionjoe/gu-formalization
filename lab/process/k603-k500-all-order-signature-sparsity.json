@@ -1,0 +1,1896 @@
+{
+  "claim_ceiling": "Exact finite orthogonality and sparsity atlas through order twelve. It removes only products forced to zero by impurity/exterior signatures; it does not evaluate any surviving higher-order moment, control within-block interference, prove a uniform K500 bound, supply the noncyclic floor, release K473/K152, or move source, ledger, canon, paper, public, novelty or physical conclusions.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "complete_census": {
+    "action_terms": 2958,
+    "all_2958_action_terms_retained": true,
+    "cyclic_action_exact_zero_pairs": 109732,
+    "cyclic_action_pairs_surviving": 21344,
+    "cyclic_action_pairs_total": 131076,
+    "cyclic_paths": 626,
+    "exact_zero_fraction": "109732/131076",
+    "orders": [
+      2,
+      12
+    ],
+    "seed_order_blocks": 33
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "K473_released": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "complete_finite_K456_moments_emitted": false,
+    "exact_zero_cyclic_action_products_removed_before_quadrature": true,
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "next_exact_input": "Group the surviving order-three-through-twelve cyclic/action pairs by their determinant-simplex kernel, outwardly enclose each distinct block with coefficient signs retained, and compose N/A_F/B_F before K599 and K574 are applied once.",
+    "order_two_through_twelve_signature_sparsity_complete": true,
+    "surviving_higher_order_moments_numerically_evaluated": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_vectors": "the coefficient-complete K179 matched-exchange coordinates through order twelve",
+    "cyclic_vectors": "the K177 G^n path coordinates for the three K162 zero-bath seeds",
+    "pairing": "normalized CAR exterior pairing, orthogonal across unequal impurity or species multiplicity signatures",
+    "result": "finite-moment sparsity atlas MAP-TYPE=orthogonal-sector-decomposition",
+    "target": "the surviving N, A_F and B_F Gram blocks required by K599"
+  },
+  "order_summary": [
+    {
+      "action_norm_pairs_surviving": 6,
+      "action_terms": 6,
+      "cyclic_action_exact_zero_pairs": 8,
+      "cyclic_action_pairs_surviving": 4,
+      "cyclic_action_pairs_total": 12,
+      "cyclic_paths": 6,
+      "order": 2
+    },
+    {
+      "action_norm_pairs_surviving": 8,
+      "action_terms": 8,
+      "cyclic_action_exact_zero_pairs": 16,
+      "cyclic_action_pairs_surviving": 8,
+      "cyclic_action_pairs_total": 24,
+      "cyclic_paths": 8,
+      "order": 3
+    },
+    {
+      "action_norm_pairs_surviving": 40,
+      "action_terms": 24,
+      "cyclic_action_exact_zero_pairs": 70,
+      "cyclic_action_pairs_surviving": 26,
+      "cyclic_action_pairs_total": 96,
+      "cyclic_paths": 12,
+      "order": 4
+    },
+    {
+      "action_norm_pairs_surviving": 64,
+      "action_terms": 32,
+      "cyclic_action_exact_zero_pairs": 144,
+      "cyclic_action_pairs_surviving": 48,
+      "cyclic_action_pairs_total": 192,
+      "cyclic_paths": 16,
+      "order": 5
+    },
+    {
+      "action_norm_pairs_surviving": 234,
+      "action_terms": 72,
+      "cyclic_action_exact_zero_pairs": 448,
+      "cyclic_action_pairs_surviving": 128,
+      "cyclic_action_pairs_total": 576,
+      "cyclic_paths": 24,
+      "order": 6
+    },
+    {
+      "action_norm_pairs_surviving": 408,
+      "action_terms": 96,
+      "cyclic_action_exact_zero_pairs": 912,
+      "cyclic_action_pairs_surviving": 240,
+      "cyclic_action_pairs_total": 1152,
+      "cyclic_paths": 32,
+      "order": 7
+    },
+    {
+      "action_norm_pairs_surviving": 1296,
+      "action_terms": 192,
+      "cyclic_action_exact_zero_pairs": 2482,
+      "cyclic_action_pairs_surviving": 590,
+      "cyclic_action_pairs_total": 3072,
+      "cyclic_paths": 48,
+      "order": 8
+    },
+    {
+      "action_norm_pairs_surviving": 2368,
+      "action_terms": 256,
+      "cyclic_action_exact_zero_pairs": 5024,
+      "cyclic_action_pairs_surviving": 1120,
+      "cyclic_action_pairs_total": 6144,
+      "cyclic_paths": 64,
+      "order": 9
+    },
+    {
+      "action_norm_pairs_surviving": 6890,
+      "action_terms": 480,
+      "cyclic_action_exact_zero_pairs": 12728,
+      "cyclic_action_pairs_surviving": 2632,
+      "cyclic_action_pairs_total": 15360,
+      "cyclic_paths": 96,
+      "order": 10
+    },
+    {
+      "action_norm_pairs_surviving": 12920,
+      "action_terms": 640,
+      "cyclic_action_exact_zero_pairs": 25680,
+      "cyclic_action_pairs_surviving": 5040,
+      "cyclic_action_pairs_total": 30720,
+      "cyclic_paths": 128,
+      "order": 11
+    },
+    {
+      "action_norm_pairs_surviving": 35352,
+      "action_terms": 1152,
+      "cyclic_action_exact_zero_pairs": 62220,
+      "cyclic_action_pairs_surviving": 11508,
+      "cyclic_action_pairs_total": 73728,
+      "cyclic_paths": 192,
+      "order": 12
+    }
+  ],
+  "result_id": "K603-K500-ALL-ORDER-SIGNATURE-SPARSITY",
+  "schema_version": "1.0",
+  "scope": "Exact impurity/exterior-signature sparsity of K177 cyclic vectors and K179 finite exchange action vectors for q00/q10/q01 through order twelve.",
+  "seed_order_rows": [
+    {
+      "action_norm_pairs_surviving": 2,
+      "action_norm_pairs_total": 3,
+      "action_signatures": 2,
+      "action_terms": 2,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 2,
+      "cyclic_action_pairs_surviving": 2,
+      "cyclic_action_pairs_total": 4,
+      "cyclic_norm_pairs_surviving": 2,
+      "cyclic_norm_pairs_total": 3,
+      "cyclic_paths": 2,
+      "cyclic_signatures": 2,
+      "order": 2,
+      "seed_impurity": 0,
+      "shared_signatures": 2,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^1,1-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^1,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 2,
+      "action_norm_pairs_total": 3,
+      "action_signatures": 2,
+      "action_terms": 2,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 3,
+      "cyclic_action_pairs_surviving": 1,
+      "cyclic_action_pairs_total": 4,
+      "cyclic_norm_pairs_surviving": 2,
+      "cyclic_norm_pairs_total": 3,
+      "cyclic_paths": 2,
+      "cyclic_signatures": 2,
+      "order": 2,
+      "seed_impurity": 1,
+      "shared_signatures": 1,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=1|2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 0,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 2,
+      "action_norm_pairs_total": 3,
+      "action_signatures": 2,
+      "action_terms": 2,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 3,
+      "cyclic_action_pairs_surviving": 1,
+      "cyclic_action_pairs_total": 4,
+      "cyclic_norm_pairs_surviving": 2,
+      "cyclic_norm_pairs_total": 3,
+      "cyclic_paths": 2,
+      "cyclic_signatures": 2,
+      "order": 2,
+      "seed_impurity": 2,
+      "shared_signatures": 1,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 0,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=2|1+^1,1-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^1,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 4,
+      "action_norm_pairs_total": 10,
+      "action_signatures": 4,
+      "action_terms": 4,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 12,
+      "cyclic_action_pairs_surviving": 4,
+      "cyclic_action_pairs_total": 16,
+      "cyclic_norm_pairs_surviving": 4,
+      "cyclic_norm_pairs_total": 10,
+      "cyclic_paths": 4,
+      "cyclic_signatures": 4,
+      "order": 3,
+      "seed_impurity": 0,
+      "shared_signatures": 4,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^2"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,1-^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^1,2-^2"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 2,
+      "action_norm_pairs_total": 3,
+      "action_signatures": 2,
+      "action_terms": 2,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 2,
+      "cyclic_action_pairs_surviving": 2,
+      "cyclic_action_pairs_total": 4,
+      "cyclic_norm_pairs_surviving": 2,
+      "cyclic_norm_pairs_total": 3,
+      "cyclic_paths": 2,
+      "cyclic_signatures": 2,
+      "order": 3,
+      "seed_impurity": 1,
+      "shared_signatures": 2,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^1,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^2,1-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 2,
+      "action_norm_pairs_total": 3,
+      "action_signatures": 2,
+      "action_terms": 2,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 2,
+      "cyclic_action_pairs_surviving": 2,
+      "cyclic_action_pairs_total": 4,
+      "cyclic_norm_pairs_surviving": 2,
+      "cyclic_norm_pairs_total": 3,
+      "cyclic_paths": 2,
+      "cyclic_signatures": 2,
+      "order": 3,
+      "seed_impurity": 2,
+      "shared_signatures": 2,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^1,1-^1,2+^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^2,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 16,
+      "action_norm_pairs_total": 36,
+      "action_signatures": 3,
+      "action_terms": 8,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 20,
+      "cyclic_action_pairs_surviving": 12,
+      "cyclic_action_pairs_total": 32,
+      "cyclic_norm_pairs_surviving": 5,
+      "cyclic_norm_pairs_total": 10,
+      "cyclic_paths": 4,
+      "cyclic_signatures": 3,
+      "order": 4,
+      "seed_impurity": 0,
+      "shared_signatures": 3,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 2,
+          "signature": "d=0|1+^1,1-^1,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^2,1-^2"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^2,2-^2"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 12,
+      "action_norm_pairs_total": 36,
+      "action_signatures": 5,
+      "action_terms": 8,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 25,
+      "cyclic_action_pairs_surviving": 7,
+      "cyclic_action_pairs_total": 32,
+      "cyclic_norm_pairs_surviving": 4,
+      "cyclic_norm_pairs_total": 10,
+      "cyclic_paths": 4,
+      "cyclic_signatures": 4,
+      "order": 4,
+      "seed_impurity": 1,
+      "shared_signatures": 4,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^1,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^2,1-^2"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=1|2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^2,1-^1,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 12,
+      "action_norm_pairs_total": 36,
+      "action_signatures": 5,
+      "action_terms": 8,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 25,
+      "cyclic_action_pairs_surviving": 7,
+      "cyclic_action_pairs_total": 32,
+      "cyclic_norm_pairs_surviving": 4,
+      "cyclic_norm_pairs_total": 10,
+      "cyclic_paths": 4,
+      "cyclic_signatures": 4,
+      "order": 4,
+      "seed_impurity": 2,
+      "shared_signatures": 4,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^2,2+^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,1-^1,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=2|1+^2,1-^2"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^2,2-^2"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 32,
+      "action_norm_pairs_total": 136,
+      "action_signatures": 6,
+      "action_terms": 16,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 104,
+      "cyclic_action_pairs_surviving": 24,
+      "cyclic_action_pairs_total": 128,
+      "cyclic_norm_pairs_surviving": 10,
+      "cyclic_norm_pairs_total": 36,
+      "cyclic_paths": 8,
+      "cyclic_signatures": 6,
+      "order": 5,
+      "seed_impurity": 0,
+      "shared_signatures": 6,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 2,
+          "signature": "d=1|1+^1,1-^2,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^2,1-^3"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 2,
+          "signature": "d=2|1+^1,1-^1,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^2,1-^2,2-^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^2,2-^3"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 16,
+      "action_norm_pairs_total": 36,
+      "action_signatures": 3,
+      "action_terms": 8,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 20,
+      "cyclic_action_pairs_surviving": 12,
+      "cyclic_action_pairs_total": 32,
+      "cyclic_norm_pairs_surviving": 5,
+      "cyclic_norm_pairs_total": 10,
+      "cyclic_paths": 4,
+      "cyclic_signatures": 3,
+      "order": 5,
+      "seed_impurity": 1,
+      "shared_signatures": 3,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^1,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 2,
+          "signature": "d=0|1+^2,1-^1,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^3,1-^2"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 16,
+      "action_norm_pairs_total": 36,
+      "action_signatures": 3,
+      "action_terms": 8,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 20,
+      "cyclic_action_pairs_surviving": 12,
+      "cyclic_action_pairs_total": 32,
+      "cyclic_norm_pairs_surviving": 5,
+      "cyclic_norm_pairs_total": 10,
+      "cyclic_paths": 4,
+      "cyclic_signatures": 3,
+      "order": 5,
+      "seed_impurity": 2,
+      "shared_signatures": 3,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 2,
+          "signature": "d=0|1+^1,1-^1,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^2,1-^2,2+^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^3,2-^2"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 102,
+      "action_norm_pairs_total": 300,
+      "action_signatures": 4,
+      "action_terms": 24,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 132,
+      "cyclic_action_pairs_surviving": 60,
+      "cyclic_action_pairs_total": 192,
+      "cyclic_norm_pairs_surviving": 14,
+      "cyclic_norm_pairs_total": 36,
+      "cyclic_paths": 8,
+      "cyclic_signatures": 4,
+      "order": 6,
+      "seed_impurity": 0,
+      "shared_signatures": 4,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=0|1+^1,1-^1,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=0|1+^2,1-^2,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^3,1-^3"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^3,2-^3"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 66,
+      "action_norm_pairs_total": 300,
+      "action_signatures": 7,
+      "action_terms": 24,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 158,
+      "cyclic_action_pairs_surviving": 34,
+      "cyclic_action_pairs_total": 192,
+      "cyclic_norm_pairs_surviving": 10,
+      "cyclic_norm_pairs_total": 36,
+      "cyclic_paths": 8,
+      "cyclic_signatures": 6,
+      "order": 6,
+      "seed_impurity": 1,
+      "shared_signatures": 6,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^1,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 7,
+          "cyclic_multiplicity": 2,
+          "signature": "d=1|1+^2,1-^2,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^3,1-^3"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=1|2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,2+^2,2-^3"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 2,
+          "signature": "d=2|1+^2,1-^1,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^3,1-^2,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 66,
+      "action_norm_pairs_total": 300,
+      "action_signatures": 7,
+      "action_terms": 24,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 158,
+      "cyclic_action_pairs_surviving": 34,
+      "cyclic_action_pairs_total": 192,
+      "cyclic_norm_pairs_surviving": 10,
+      "cyclic_norm_pairs_total": 36,
+      "cyclic_paths": 8,
+      "cyclic_signatures": 6,
+      "order": 6,
+      "seed_impurity": 2,
+      "shared_signatures": 6,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 2,
+          "signature": "d=1|1+^1,1-^2,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^2,1-^3,2+^1"
+        },
+        {
+          "action_multiplicity": 2,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^3,2-^2"
+        },
+        {
+          "action_multiplicity": 7,
+          "cyclic_multiplicity": 2,
+          "signature": "d=2|1+^1,1-^1,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^2,1-^2,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=2|1+^3,1-^3"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^3,2-^3"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 204,
+      "action_norm_pairs_total": 1176,
+      "action_signatures": 8,
+      "action_terms": 48,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 648,
+      "cyclic_action_pairs_surviving": 120,
+      "cyclic_action_pairs_total": 768,
+      "cyclic_norm_pairs_surviving": 28,
+      "cyclic_norm_pairs_total": 136,
+      "cyclic_paths": 16,
+      "cyclic_signatures": 8,
+      "order": 7,
+      "seed_impurity": 0,
+      "shared_signatures": 8,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=1|1+^1,1-^2,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=1|1+^2,1-^3,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^3,1-^4"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=2|1+^1,1-^1,2+^2,2-^3"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=2|1+^2,1-^2,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^3,1-^3,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^3,2-^4"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 102,
+      "action_norm_pairs_total": 300,
+      "action_signatures": 4,
+      "action_terms": 24,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 132,
+      "cyclic_action_pairs_surviving": 60,
+      "cyclic_action_pairs_total": 192,
+      "cyclic_norm_pairs_surviving": 14,
+      "cyclic_norm_pairs_total": 36,
+      "cyclic_paths": 8,
+      "cyclic_signatures": 4,
+      "order": 7,
+      "seed_impurity": 1,
+      "shared_signatures": 4,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^1,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=0|1+^2,1-^1,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=0|1+^3,1-^2,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^4,1-^3"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 102,
+      "action_norm_pairs_total": 300,
+      "action_signatures": 4,
+      "action_terms": 24,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 132,
+      "cyclic_action_pairs_surviving": 60,
+      "cyclic_action_pairs_total": 192,
+      "cyclic_norm_pairs_surviving": 14,
+      "cyclic_norm_pairs_total": 36,
+      "cyclic_paths": 8,
+      "cyclic_signatures": 4,
+      "order": 7,
+      "seed_impurity": 2,
+      "shared_signatures": 4,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=0|1+^1,1-^1,2+^3,2-^2"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=0|1+^2,1-^2,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^3,1-^3,2+^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^4,2-^3"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 592,
+      "action_norm_pairs_total": 2080,
+      "action_signatures": 5,
+      "action_terms": 64,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 744,
+      "cyclic_action_pairs_surviving": 280,
+      "cyclic_action_pairs_total": 1024,
+      "cyclic_norm_pairs_surviving": 43,
+      "cyclic_norm_pairs_total": 136,
+      "cyclic_paths": 16,
+      "cyclic_signatures": 5,
+      "order": 8,
+      "seed_impurity": 0,
+      "shared_signatures": 5,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=0|1+^1,1-^1,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 24,
+          "cyclic_multiplicity": 6,
+          "signature": "d=0|1+^2,1-^2,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=0|1+^3,1-^3,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^4,1-^4"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^4,2-^4"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 352,
+      "action_norm_pairs_total": 2080,
+      "action_signatures": 9,
+      "action_terms": 64,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 869,
+      "cyclic_action_pairs_surviving": 155,
+      "cyclic_action_pairs_total": 1024,
+      "cyclic_norm_pairs_surviving": 28,
+      "cyclic_norm_pairs_total": 136,
+      "cyclic_paths": 16,
+      "cyclic_signatures": 8,
+      "order": 8,
+      "seed_impurity": 1,
+      "shared_signatures": 8,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 7,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^1,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 15,
+          "cyclic_multiplicity": 3,
+          "signature": "d=1|1+^2,1-^2,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 13,
+          "cyclic_multiplicity": 3,
+          "signature": "d=1|1+^3,1-^3,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^4,1-^4"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=1|2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,2+^3,2-^4"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=2|1+^2,1-^1,2+^2,2-^3"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=2|1+^3,1-^2,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^4,1-^3,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 352,
+      "action_norm_pairs_total": 2080,
+      "action_signatures": 9,
+      "action_terms": 64,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 869,
+      "cyclic_action_pairs_surviving": 155,
+      "cyclic_action_pairs_total": 1024,
+      "cyclic_norm_pairs_surviving": 28,
+      "cyclic_norm_pairs_total": 136,
+      "cyclic_paths": 16,
+      "cyclic_signatures": 8,
+      "order": 8,
+      "seed_impurity": 2,
+      "shared_signatures": 8,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=1|1+^1,1-^2,2+^3,2-^2"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 3,
+          "signature": "d=1|1+^2,1-^3,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^3,1-^4,2+^1"
+        },
+        {
+          "action_multiplicity": 3,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^4,2-^3"
+        },
+        {
+          "action_multiplicity": 13,
+          "cyclic_multiplicity": 3,
+          "signature": "d=2|1+^1,1-^1,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 15,
+          "cyclic_multiplicity": 3,
+          "signature": "d=2|1+^2,1-^2,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 7,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^3,1-^3,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=2|1+^4,1-^4"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^4,2-^4"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 1184,
+      "action_norm_pairs_total": 8256,
+      "action_signatures": 10,
+      "action_terms": 128,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 3536,
+      "cyclic_action_pairs_surviving": 560,
+      "cyclic_action_pairs_total": 4096,
+      "cyclic_norm_pairs_surviving": 86,
+      "cyclic_norm_pairs_total": 528,
+      "cyclic_paths": 32,
+      "cyclic_signatures": 10,
+      "order": 9,
+      "seed_impurity": 0,
+      "shared_signatures": 10,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=1|1+^1,1-^2,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 24,
+          "cyclic_multiplicity": 6,
+          "signature": "d=1|1+^2,1-^3,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=1|1+^3,1-^4,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^4,1-^5"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=2|1+^1,1-^1,2+^3,2-^4"
+        },
+        {
+          "action_multiplicity": 24,
+          "cyclic_multiplicity": 6,
+          "signature": "d=2|1+^2,1-^2,2+^2,2-^3"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=2|1+^3,1-^3,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^4,1-^4,2-^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^4,2-^5"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 592,
+      "action_norm_pairs_total": 2080,
+      "action_signatures": 5,
+      "action_terms": 64,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 744,
+      "cyclic_action_pairs_surviving": 280,
+      "cyclic_action_pairs_total": 1024,
+      "cyclic_norm_pairs_surviving": 43,
+      "cyclic_norm_pairs_total": 136,
+      "cyclic_paths": 16,
+      "cyclic_signatures": 5,
+      "order": 9,
+      "seed_impurity": 1,
+      "shared_signatures": 5,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^1,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=0|1+^2,1-^1,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 24,
+          "cyclic_multiplicity": 6,
+          "signature": "d=0|1+^3,1-^2,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=0|1+^4,1-^3,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^5,1-^4"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 592,
+      "action_norm_pairs_total": 2080,
+      "action_signatures": 5,
+      "action_terms": 64,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 744,
+      "cyclic_action_pairs_surviving": 280,
+      "cyclic_action_pairs_total": 1024,
+      "cyclic_norm_pairs_surviving": 43,
+      "cyclic_norm_pairs_total": 136,
+      "cyclic_paths": 16,
+      "cyclic_signatures": 5,
+      "order": 9,
+      "seed_impurity": 2,
+      "shared_signatures": 5,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=0|1+^1,1-^1,2+^4,2-^3"
+        },
+        {
+          "action_multiplicity": 24,
+          "cyclic_multiplicity": 6,
+          "signature": "d=0|1+^2,1-^2,2+^3,2-^2"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=0|1+^3,1-^3,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^4,1-^4,2+^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^5,2-^4"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 3230,
+      "action_norm_pairs_total": 12880,
+      "action_signatures": 6,
+      "action_terms": 160,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 3860,
+      "cyclic_action_pairs_surviving": 1260,
+      "cyclic_action_pairs_total": 5120,
+      "cyclic_norm_pairs_surviving": 142,
+      "cyclic_norm_pairs_total": 528,
+      "cyclic_paths": 32,
+      "cyclic_signatures": 6,
+      "order": 10,
+      "seed_impurity": 0,
+      "shared_signatures": 6,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=0|1+^1,1-^1,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=0|1+^2,1-^2,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=0|1+^3,1-^3,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=0|1+^4,1-^4,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^5,1-^5"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^5,2-^5"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 1830,
+      "action_norm_pairs_total": 12880,
+      "action_signatures": 11,
+      "action_terms": 160,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 4434,
+      "cyclic_action_pairs_surviving": 686,
+      "cyclic_action_pairs_total": 5120,
+      "cyclic_norm_pairs_surviving": 86,
+      "cyclic_norm_pairs_total": 528,
+      "cyclic_paths": 32,
+      "cyclic_signatures": 10,
+      "order": 10,
+      "seed_impurity": 1,
+      "shared_signatures": 10,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^1,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 26,
+          "cyclic_multiplicity": 4,
+          "signature": "d=1|1+^2,1-^2,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 34,
+          "cyclic_multiplicity": 6,
+          "signature": "d=1|1+^3,1-^3,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 21,
+          "cyclic_multiplicity": 4,
+          "signature": "d=1|1+^4,1-^4,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^5,1-^5"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=1|2+^5,2-^5"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,2+^4,2-^5"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=2|1+^2,1-^1,2+^3,2-^4"
+        },
+        {
+          "action_multiplicity": 24,
+          "cyclic_multiplicity": 6,
+          "signature": "d=2|1+^3,1-^2,2+^2,2-^3"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=2|1+^4,1-^3,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^5,1-^4,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 1830,
+      "action_norm_pairs_total": 12880,
+      "action_signatures": 11,
+      "action_terms": 160,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 4434,
+      "cyclic_action_pairs_surviving": 686,
+      "cyclic_action_pairs_total": 5120,
+      "cyclic_norm_pairs_surviving": 86,
+      "cyclic_norm_pairs_total": 528,
+      "cyclic_paths": 32,
+      "cyclic_signatures": 10,
+      "order": 10,
+      "seed_impurity": 2,
+      "shared_signatures": 10,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=1|1+^1,1-^2,2+^4,2-^3"
+        },
+        {
+          "action_multiplicity": 24,
+          "cyclic_multiplicity": 6,
+          "signature": "d=1|1+^2,1-^3,2+^3,2-^2"
+        },
+        {
+          "action_multiplicity": 16,
+          "cyclic_multiplicity": 4,
+          "signature": "d=1|1+^3,1-^4,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^4,1-^5,2+^1"
+        },
+        {
+          "action_multiplicity": 4,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^5,2-^4"
+        },
+        {
+          "action_multiplicity": 21,
+          "cyclic_multiplicity": 4,
+          "signature": "d=2|1+^1,1-^1,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 34,
+          "cyclic_multiplicity": 6,
+          "signature": "d=2|1+^2,1-^2,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 26,
+          "cyclic_multiplicity": 4,
+          "signature": "d=2|1+^3,1-^3,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 9,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^4,1-^4,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=2|1+^5,1-^5"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^5,2-^5"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 6460,
+      "action_norm_pairs_total": 51360,
+      "action_signatures": 12,
+      "action_terms": 320,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 17960,
+      "cyclic_action_pairs_surviving": 2520,
+      "cyclic_action_pairs_total": 20480,
+      "cyclic_norm_pairs_surviving": 284,
+      "cyclic_norm_pairs_total": 2080,
+      "cyclic_paths": 64,
+      "cyclic_signatures": 12,
+      "order": 11,
+      "seed_impurity": 0,
+      "shared_signatures": 12,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=1|1+^1,1-^2,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=1|1+^2,1-^3,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=1|1+^3,1-^4,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=1|1+^4,1-^5,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^5,1-^6"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^5,2-^5"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=2|1+^1,1-^1,2+^4,2-^5"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=2|1+^2,1-^2,2+^3,2-^4"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=2|1+^3,1-^3,2+^2,2-^3"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=2|1+^4,1-^4,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^5,1-^5,2-^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^5,2-^6"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 3230,
+      "action_norm_pairs_total": 12880,
+      "action_signatures": 6,
+      "action_terms": 160,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 3860,
+      "cyclic_action_pairs_surviving": 1260,
+      "cyclic_action_pairs_total": 5120,
+      "cyclic_norm_pairs_surviving": 142,
+      "cyclic_norm_pairs_total": 528,
+      "cyclic_paths": 32,
+      "cyclic_signatures": 6,
+      "order": 11,
+      "seed_impurity": 1,
+      "shared_signatures": 6,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^1,2+^5,2-^5"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=0|1+^2,1-^1,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=0|1+^3,1-^2,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=0|1+^4,1-^3,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=0|1+^5,1-^4,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^6,1-^5"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 3230,
+      "action_norm_pairs_total": 12880,
+      "action_signatures": 6,
+      "action_terms": 160,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 3860,
+      "cyclic_action_pairs_surviving": 1260,
+      "cyclic_action_pairs_total": 5120,
+      "cyclic_norm_pairs_surviving": 142,
+      "cyclic_norm_pairs_total": 528,
+      "cyclic_paths": 32,
+      "cyclic_signatures": 6,
+      "order": 11,
+      "seed_impurity": 2,
+      "shared_signatures": 6,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=0|1+^1,1-^1,2+^5,2-^4"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=0|1+^2,1-^2,2+^4,2-^3"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=0|1+^3,1-^3,2+^3,2-^2"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=0|1+^4,1-^4,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^5,1-^5,2+^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^6,2-^5"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 16824,
+      "action_norm_pairs_total": 73920,
+      "action_signatures": 7,
+      "action_terms": 384,
+      "charge": [
+        0,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 19032,
+      "cyclic_action_pairs_surviving": 5544,
+      "cyclic_action_pairs_total": 24576,
+      "cyclic_norm_pairs_surviving": 494,
+      "cyclic_norm_pairs_total": 2080,
+      "cyclic_paths": 64,
+      "cyclic_signatures": 7,
+      "order": 12,
+      "seed_impurity": 0,
+      "shared_signatures": 7,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 36,
+          "cyclic_multiplicity": 6,
+          "signature": "d=0|1+^1,1-^1,2+^5,2-^5"
+        },
+        {
+          "action_multiplicity": 90,
+          "cyclic_multiplicity": 15,
+          "signature": "d=0|1+^2,1-^2,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 120,
+          "cyclic_multiplicity": 20,
+          "signature": "d=0|1+^3,1-^3,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 90,
+          "cyclic_multiplicity": 15,
+          "signature": "d=0|1+^4,1-^4,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 36,
+          "cyclic_multiplicity": 6,
+          "signature": "d=0|1+^5,1-^5,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 6,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|1+^6,1-^6"
+        },
+        {
+          "action_multiplicity": 6,
+          "cyclic_multiplicity": 1,
+          "signature": "d=0|2+^6,2-^6"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 9264,
+      "action_norm_pairs_total": 73920,
+      "action_signatures": 13,
+      "action_terms": 384,
+      "charge": [
+        1,
+        0
+      ],
+      "cyclic_action_exact_zero_pairs": 21594,
+      "cyclic_action_pairs_surviving": 2982,
+      "cyclic_action_pairs_total": 24576,
+      "cyclic_norm_pairs_surviving": 284,
+      "cyclic_norm_pairs_total": 2080,
+      "cyclic_paths": 64,
+      "cyclic_signatures": 12,
+      "order": 12,
+      "seed_impurity": 1,
+      "shared_signatures": 12,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 11,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^1,1-^1,2+^5,2-^5"
+        },
+        {
+          "action_multiplicity": 40,
+          "cyclic_multiplicity": 5,
+          "signature": "d=1|1+^2,1-^2,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 70,
+          "cyclic_multiplicity": 10,
+          "signature": "d=1|1+^3,1-^3,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 65,
+          "cyclic_multiplicity": 10,
+          "signature": "d=1|1+^4,1-^4,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 31,
+          "cyclic_multiplicity": 5,
+          "signature": "d=1|1+^5,1-^5,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 6,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^6,1-^6"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=1|2+^6,2-^6"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^1,2+^5,2-^6"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=2|1+^2,1-^1,2+^4,2-^5"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=2|1+^3,1-^2,2+^3,2-^4"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=2|1+^4,1-^3,2+^2,2-^3"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=2|1+^5,1-^4,2+^1,2-^2"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^6,1-^5,2-^1"
+        }
+      ]
+    },
+    {
+      "action_norm_pairs_surviving": 9264,
+      "action_norm_pairs_total": 73920,
+      "action_signatures": 13,
+      "action_terms": 384,
+      "charge": [
+        0,
+        1
+      ],
+      "cyclic_action_exact_zero_pairs": 21594,
+      "cyclic_action_pairs_surviving": 2982,
+      "cyclic_action_pairs_total": 24576,
+      "cyclic_norm_pairs_surviving": 284,
+      "cyclic_norm_pairs_total": 2080,
+      "cyclic_paths": 64,
+      "cyclic_signatures": 12,
+      "order": 12,
+      "seed_impurity": 2,
+      "shared_signatures": 12,
+      "signature_blocks": [
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=1|1+^1,1-^2,2+^5,2-^4"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=1|1+^2,1-^3,2+^4,2-^3"
+        },
+        {
+          "action_multiplicity": 50,
+          "cyclic_multiplicity": 10,
+          "signature": "d=1|1+^3,1-^4,2+^3,2-^2"
+        },
+        {
+          "action_multiplicity": 25,
+          "cyclic_multiplicity": 5,
+          "signature": "d=1|1+^4,1-^5,2+^2,2-^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1+^5,1-^6,2+^1"
+        },
+        {
+          "action_multiplicity": 5,
+          "cyclic_multiplicity": 1,
+          "signature": "d=1|1-^1,2+^6,2-^5"
+        },
+        {
+          "action_multiplicity": 31,
+          "cyclic_multiplicity": 5,
+          "signature": "d=2|1+^1,1-^1,2+^5,2-^5"
+        },
+        {
+          "action_multiplicity": 65,
+          "cyclic_multiplicity": 10,
+          "signature": "d=2|1+^2,1-^2,2+^4,2-^4"
+        },
+        {
+          "action_multiplicity": 70,
+          "cyclic_multiplicity": 10,
+          "signature": "d=2|1+^3,1-^3,2+^3,2-^3"
+        },
+        {
+          "action_multiplicity": 40,
+          "cyclic_multiplicity": 5,
+          "signature": "d=2|1+^4,1-^4,2+^2,2-^2"
+        },
+        {
+          "action_multiplicity": 11,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|1+^5,1-^5,2+^1,2-^1"
+        },
+        {
+          "action_multiplicity": 1,
+          "cyclic_multiplicity": 0,
+          "signature": "d=2|1+^6,1-^6"
+        },
+        {
+          "action_multiplicity": 6,
+          "cyclic_multiplicity": 1,
+          "signature": "d=2|2+^6,2-^6"
+        }
+      ]
+    }
+  ],
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "action_norm_pairs": "sum_s a_s(a_s+1)/2",
+    "coefficient_signs_and_within_block_determinants_remain_required": true,
+    "cyclic_action_pairs": "sum_s c_s a_s",
+    "cyclic_norm_pairs": "sum_s c_s(c_s+1)/2",
+    "surviving_pair_is_not_evaluated": true,
+    "zero_rule": "Different output impurity or exterior species-multiplicity signatures are exactly orthogonal."
+  }
+}

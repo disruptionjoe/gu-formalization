@@ -7,6 +7,21 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K602--K603 ORDER-TWO NUMERICAL MOMENTS AND ALL-ORDER
+> SIGNATURE SPARSITY.** K602 encloses K601's common order-two moments as
+> `n in [6.8632403655301529e-7,8.7261345444545247e-7]`,
+> `a in [1.9350847130320616e-7,2.4603748407218119e-7]`, and reused K180
+> `b in [6.1596631041161942e-8,7.8363416468845510e-8]`. The q10/q01
+> truncation leakage square is therefore strictly enclosed in
+> `[0.05294150926223116,0.10188436896151036]`; q00 lies in
+> `[0,0.06500211807648015]`. K603 retains all 626 cyclic paths and 2,958
+> action terms through order twelve while proving 109,732 of 131,076 possible
+> cyclic/action products are exact signature zeros, leaving 21,344. The probes
+> pass `10/10` headline controls and reject `40/40` hostile mutations. Next
+> group the survivors by exact determinant-simplex kernel and outwardly
+> enclose the distinct signed blocks before composing K599/K574 once. These
+> are truncation/sparsity results, not a complete uniform leakage bound.
+
 > **2026-09-28 K600--K601 CARRIER NO-SELECTOR AND ORDER-TWO MOMENT
 > REDUCTION.** K600 proves that K594's scalar third-jet coefficients, K441's
 > positive pairing and the corrected half-projector retain the full

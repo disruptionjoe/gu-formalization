@@ -8,6 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K602--K603 order-two numerical moments and all-order signature sparsity
+
+K602 composes K601 with K180's certified exchange kernel rather than
+recomputing it. Monotone dyadic rectangles and analytic outside-box bounds
+enclose the cyclic norm and cyclic/action overlap; the existing K180 exchange
+norm supplies the third moment. The q10/q01 order-two truncation leakage square
+is strictly between `0.05294150926223116` and `0.10188436896151036`, while
+q00 remains between zero and `0.06500211807648015`.
+
+K603 extends the exact impurity/exterior signature reduction across all 33
+seed/order blocks from order two through twelve. It retains 626 cyclic paths
+and all 2,958 K179 action terms, removes 109,732 of 131,076 cyclic/action
+products as exact zeros, and leaves 21,344 surviving products. The surviving
+blocks are not numerically evaluated. The probes pass 10/10 headline controls
+and reject 40/40 hostile mutations. Complete finite moments, K574 tail
+composition, uniform K500 leakage, the noncyclic floor, K473/K152 and every
+source, ledger, canon, paper, public, novelty and physical conclusion remain
+open.
+
 ## 2026-09-28 — K600--K601 carrier no-selector and order-two moment reduction
 
 K600 closes the possibility of extracting K598's missing initial packet from

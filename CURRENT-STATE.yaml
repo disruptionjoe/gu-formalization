@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1f75231320a6
+revision_basis: de3234b9b7a1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K602--K603 execute both K601 successors without reserializing K456 or
+    redoing K180. K602 outwardly encloses the three common order-two moments:
+    n lies in [6.8632403655301529e-7,8.7261345444545247e-7], a in
+    [1.9350847130320616e-7,2.4603748407218119e-7], and K180's reused b in
+    [6.1596631041161942e-8,7.8363416468845510e-8]. This gives a strict
+    numerical q10/q01 truncation leakage-square lower
+    0.05294150926223116 and upper 0.10188436896151036; q00 remains enclosed
+    only between zero and 0.06500211807648015. K603 retains all 626 cyclic
+    paths and 2,958 K179 action terms through order twelve while proving
+    109,732 of 131,076 possible cyclic/action products vanish exactly by
+    impurity/exterior-signature orthogonality; 21,344 survive for determinant
+    quadrature. The probes pass 10/10 headline controls and reject 40/40
+    hostile mutations. No complete finite or uniform leakage, noncyclic floor
+    or protected scientific/public conclusion moves.
+
     K600--K601 sharpen both live successors before any expensive numerical
     work. K600 proves that K594's scalar third-jet coefficients together with
     K441's positive pairing and corrected half-projector retain the full
@@ -11151,15 +11166,18 @@ current_question: >-
   direction or reinterpret this no-selector theorem as rejection of the
   selected action.
 
-  Independently, K601 reduces K179's six order-two exchange terms to three
-  common integrals n, a and b. Outwardly enclose those three integrals once,
-  then extend the same impurity/exterior-sector symmetry reduction through
-  orders three through twelve before applying K599 with K574's sharp tail
-  once. Do not treat the strict q10/q01 order-two truncation lower as a
-  complete finite or all-level leakage bound, reserialize the column,
-  double-charge the tail or substitute K575's differently typed M-dual
-  residual. The separate numerical noncyclic floor remains required before
-  K473 or K152 can move.
+  Independently, K602 now outwardly encloses K601's order-two n,a,b moments
+  and gives a strict numerical q10/q01 truncation leakage-square interval.
+  K603 removes 109,732 exact-zero cyclic/action products through order twelve
+  and leaves 21,344 surviving pairs. Group those survivors by their exact
+  determinant-simplex kernel, outwardly enclose the distinct blocks with
+  signs and within-block interference retained, compose the finite N,A_F,B_F
+  moments, then apply K599 with K574's sharp tail once and prove the supported-
+  level upper uniform. Do not treat K602's truncation interval or K603's pair
+  counts as a complete finite or all-level leakage bound, reserialize the
+  column, double-charge the tail or substitute K575's differently typed
+  M-dual residual. The separate numerical noncyclic floor remains required
+  before K473 or K152 can move.
 
   K510 shows that K507's explicit alternating q00/q10 paths are nonzero at
   every level, but a lower proof that pays the full ordered-simplex `1/n!`
@@ -11637,12 +11655,14 @@ next_condition: >-
   nilpotence and properness. K600 forbids selecting a canonical direction from
   only K594's scalar coefficients, K441's pairing and the corrected
   half-projector; it does not reject an independently action-owned datum. On
-  the K500 route, outwardly enclose K601's three common order-two integrals n,
-  a and b once, extend its exact sector reduction through orders three through
-  twelve, then apply K599 with K574's sharp tail once and prove the normalized
-  upper uniform. Do not treat the order-two truncation lower as a complete
-  leakage bound, reserialize the coefficient-complete column, double-charge
-  the tail or substitute K575's M-dual residual. Separately serialize a named
+  the K500 route, use K602's enclosed order-two n,a,b block and K603's exact
+  21,344 surviving cyclic/action pairs. Group the order-three-through-twelve
+  survivors by determinant-simplex kernel, outwardly enclose each distinct
+  signed block, compose the finite N,A_F,B_F moments, then apply K599 with
+  K574's tail once and prove the normalized upper uniform. Do not treat the
+  order-two truncation interval or signature counts as a complete leakage
+  bound, reserialize the coefficient-complete column, double-charge the tail
+  or substitute K575's M-dual residual. Separately serialize a named
   cancellation-safe complete-sector lower witness. Preserve K588's off-image
   ownership fence and K590's factorized-only ceiling.
 

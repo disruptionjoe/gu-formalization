@@ -1,0 +1,127 @@
+{
+  "analytic_reduction": {
+    "a": "int_R2 h*g",
+    "b": "int_R2 g^2",
+    "b_reused_without_requadrature": true,
+    "coordinatewise_positive_and_decreasing": true,
+    "cyclic_kernel": "h(p,q)=(2*pi)^-1/[(256+E_p)(256+E_p+E_q)]",
+    "exchange_kernel": "g(p,q)=(2*pi)^-2 K180.common_kernel(p,q)",
+    "n": "int_R2 h^2",
+    "tail_rule": "cyclic tail is analytic; cross tail uses Cauchy on the common outside-box domain"
+  },
+  "claim_ceiling": "Certified outward numerical intervals for K601's three common order-two moments and the q00/q10/q01 truncation leakages only. Higher-order interference, complete finite moments, K574 tail composition, a uniform K500 bound, the noncyclic floor, K473, K152 and all source, ledger, canon, paper, public, novelty and physical conclusions remain open.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-09-28",
+  "decision": {
+    "K180_exchange_norm_reused_once": true,
+    "K473_released": false,
+    "K601_order_two_moments_numerically_enclosed": true,
+    "complete_K500_uniform_leakage_emitted": false,
+    "complete_finite_K456_moments_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "next_exact_input": "Evaluate the surviving order-three-through-twelve cyclic/action signature blocks from K603, compose their finite N/A_F/B_F intervals, then apply K599 with K574's tail once and prove a uniform supported-level bound.",
+    "q10_q01_order_two_leakage_strictly_positive_numerically": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_vector": "its same-signature K179 older-letter exchange kernel",
+    "cyclic_vector": "one normalized K177 order-two G^2 path kernel",
+    "pairing": "positive physical Fock Hilbert pairing in one fixed impurity/exterior signature",
+    "result": "order-two moment enclosure MAP-TYPE=outward-integral-certificate",
+    "target": "the order-two contribution to K599's N, A_F and B_F moments"
+  },
+  "outward_evaluation": {
+    "a_interval": [
+      "1.9350847130320616895543206144363292840807161551471E-7",
+      "2.4603748407218118755290037624048595796976158729764E-7"
+    ],
+    "b_interval_reused_from_K180": [
+      "6.1596631041161942995273979400326229057504328025831E-8",
+      "7.8363416468845509499955716843682814006946741664477E-8"
+    ],
+    "cauchy_consistency": true,
+    "cross_finite_raw_interval": [
+      "0.000011999954402418136779074467676389630129405712428461",
+      "0.000015257083253015954539585717439610134641840721275639"
+    ],
+    "cross_full_tail_upper_by_cauchy": "5.3111297635215395929068028592992294439645434348255E-12",
+    "cyclic_finite_raw_interval": [
+      "0.0000067737467317370535376497326632344137512594403272933",
+      "0.0000086123495868919125018799918103403698385521816103543"
+    ],
+    "cyclic_full_raw_tail_upper": "1.4210854716856364941758168723819472347984375510549E-14",
+    "decimal_precision": 50,
+    "mesh_octaves": 40,
+    "mesh_subdivisions_per_octave": 6,
+    "n_interval": [
+      "6.8632403655301528935824694375633555531450399978973E-7",
+      "8.7261345444545246348303392177195783389018807161713E-7"
+    ],
+    "positive_axis_cutoff": "1099511627776.0000000000000000000000000000000000000",
+    "positive_quadrant_cells": 60516,
+    "q00_truncation_leakage_square_interval": [
+      "0",
+      "0.065002118076480149334457679173206124790230926667991"
+    ],
+    "q10_minus_q00_interval": [
+      "0.036882250885030201758874239652541050193321098946791",
+      "0.096384100780373703736988547314647948655461647112138"
+    ],
+    "q10_q01_truncation_leakage_square_interval": [
+      "0.052941509262231168309587801642936034523467825991266",
+      "0.10188436896151035109333191882574717498355202561478"
+    ],
+    "q10_strict_lower_uses_cauchy": "0.052941509262231168309587801642936034523467825991266"
+  },
+  "result_id": "K602-K500-ORDER-TWO-NUMERICAL-MOMENT-ENCLOSURE",
+  "schema_version": "1.0",
+  "scope": "K601's three common order-two q00/q10/q01 cyclic/action moments on the fixed K139--K179 equal-coupling point control.",
+  "seed_moment_intervals": {
+    "q00": {
+      "A_2": [
+        "3.870169426064123379108641229E-7",
+        "4.920749681443623751058007525E-7"
+      ],
+      "B_2": [
+        "1.231932620823238859905479588E-7",
+        "1.567268329376910189999114337E-7"
+      ],
+      "N_2": [
+        "0.000001372648073106030578716493888",
+        "0.000001745226908890904926966067844"
+      ]
+    },
+    "q01": {
+      "A_2": [
+        "-2.460374840721811875529003762E-7",
+        "-1.935084713032061689554320614E-7"
+      ],
+      "B_2": [
+        "1.231932620823238859905479588E-7",
+        "1.567268329376910189999114337E-7"
+      ],
+      "N_2": [
+        "0.000001372648073106030578716493888",
+        "0.000001745226908890904926966067844"
+      ]
+    },
+    "q10": {
+      "A_2": [
+        "-2.460374840721811875529003762E-7",
+        "-1.935084713032061689554320614E-7"
+      ],
+      "B_2": [
+        "1.231932620823238859905479588E-7",
+        "1.567268329376910189999114337E-7"
+      ],
+      "N_2": [
+        "0.000001372648073106030578716493888",
+        "0.000001745226908890904926966067844"
+      ]
+    }
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

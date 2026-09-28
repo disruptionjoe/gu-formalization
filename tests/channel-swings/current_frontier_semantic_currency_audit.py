@@ -57,11 +57,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("stabilizer-reducing" in live, "K77 action-owned reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
-        check("K601" in live and "n, a and b" in live,
-              "K500 order-two three-integral route missing")
-        check("orders three through twelve" in live,
-              "K500 higher-order reduction route missing")
-        check("sharp tail once" in live, "K500 single-tail composition missing")
+        check("K602" in live and "n,a,b" in live,
+              "K500 order-two numerical enclosure missing")
+        check("K603" in live and "21,344" in live,
+              "K500 exact signature-sparsity route missing")
+        check("K574's tail once" in live, "K500 single-tail composition missing")
         check("complete-sector lower witness" in live,
               "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
@@ -73,8 +73,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K600--K601 sharpen both live successors" in summary,
-          "current K600--K601 result lost")
+    check("K602--K603 execute both K601 successors" in summary,
+          "current K602--K603 result lost")
     check("complete-sector floor remains" in summary,
           "current claim ceiling lost")
 
@@ -103,12 +103,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         "agenda K600--K601 result is not current",
     )
     check(
+        "109,732" in data["agenda"].get("latest_result_2026_09_28_k602_k603", ""),
+        "agenda K602--K603 result is not current",
+    )
+    check(
         "stabilizer-reducing"
         in data["agenda"].get("refresh_note", ""),
         "agenda K77 route is not current",
     )
     check(
-        "order-two n/a/b integrals"
+        "K602 now encloses K601's order-two n/a/b moments"
         in data["agenda"].get("refresh_note", ""),
         "agenda K500 route is not current",
     )
