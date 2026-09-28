@@ -7,6 +7,31 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K557--K558 node jets and positive Peano contracts (2026-09-27)
+
+K557 rigorously evaluates the complete coherent value, first derivative and
+second derivative at the native positive node for every order-eleven and
+order-twelve raw-time axis. It covers all 2,413,152 ordered axis-entry uses,
+retains both off-diagonal orientations and independently replays both K555
+complete node values. All 50 axis jets are finite. Some early-axis coherent
+second derivatives are negative, so neither pointwise convexity nor integral
+positivity is asserted. Direct finite differences on representative early,
+middle and terminal axes independently reproduce the stored derivatives. The
+probe passes 11/11 controls and rejects 18/18 hostile mutations.
+
+K558 proves the exact one-axis positive Peano identity with kernel mass
+`1/33554432` and tensors it into separate 24- and 26-term telescoping
+identities. Mixed derivatives are unnecessary. The artifact preserves the
+required complete coherent pure-second hybrid functionals and forbids both
+local-node substitution and entrywise enclosure before group assembly. Its
+probe passes 12/12 controls and rejects 18/18 hostile mutations.
+
+This certifies complete local node jets and exact remainder formulas. It does
+not supply zero-safe whole-domain derivative integrals, global remainders,
+complete order-eleven/twelve integrals, the base action column, `R_ref`, a K152
+interval, or any source, ledger, canon, paper, public, novelty or physical
+claim.
+
 ## K555--K556 node values and ordered jet interfaces (2026-09-27)
 
 K555 rigorously evaluates both complete K554 positive one-node rules at 180

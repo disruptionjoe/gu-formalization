@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-27 — K557--K558 node jets and positive Peano contracts
+
+K557 evaluates complete coherent value/first/second directional jets at 180
+Arb digits for all 24 order-eleven and 26 order-twelve native axes. The bank
+covers all 2,413,152 ordered axis-entry uses, preserves both off-diagonal
+orientations and replays both K555 complete node values. Every interval is
+finite. The coherent second derivatives are not all nonnegative at the node,
+which is retained as numerical evidence rather than converted into a sign
+claim. Independent finite-difference controls plus deterministic regeneration
+pass 11/11 controls and reject 18/18 hostile mutations.
+
+K558 supplies the exact positive one-axis Peano kernel and separate 24- and
+26-term tensor-telescoping identities. The kernel mass is exactly
+`1/33554432`; only pure second directional functionals are required. Its probe
+passes 12/12 controls and rejects 18/18 hostile mutations.
+
+These results complete the local node-jet and remainder-identity inputs. They
+do not bound any whole-domain second-derivative integral or enclose either
+complete higher-order integral. Next construct order-specific zero-safe
+determinant-preserving face atlases, recursive positive interiors and analytic
+tails for all fifty pure-second hybrid integrals. The base action column,
+`R_ref`, K152, source/physics ledgers, canon, papers, public posture and
+physical claims remain open or unchanged.
+
 ## 2026-09-27 — K555--K556 node values and ordered jet interfaces
 
 K555 evaluates both complete K554 positive one-node rules at 180 Arb digits,

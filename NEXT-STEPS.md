@@ -7,6 +7,21 @@ updated_at: "2026-09-27"
 
 # Next Steps For Contributors
 
+> **2026-09-27 K557--K558 ORDERS ELEVEN/TWELVE NODE JETS AND PEANO
+> CONTRACTS.** K557 evaluates every coherent value/first/second directional
+> jet at 180 Arb digits on the separate 24/26 native axes, covering all
+> 2,413,152 ordered axis-entry uses and replaying both K555 node values. Every
+> jet is finite; the local second derivatives are not all nonnegative. Its
+> deterministic and independent finite-difference probe passes `11/11`
+> controls and rejects `18/18` hostile mutations. K558 freezes the exact
+> 24- and 26-term positive tensor-Peano identities with one-axis kernel mass
+> `1/33554432`; its probe passes `12/12` and rejects `18/18`. Next construct
+> separate zero-safe determinant-preserving face, recursive-interior and
+> analytic-tail enclosures for all fifty complete coherent pure-second hybrid
+> integrals. Local node jets are not global bounds, and neither artifact moves
+> a complete integral, base action, `R_ref`, K152, source, ledger, canon,
+> public or physical claim.
+
 > **2026-09-27 K555--K556 ORDERS ELEVEN/TWELVE NODE VALUES AND JET
 > INTERFACES.** K555 evaluates both complete positive one-node rules at 180
 > Arb digits, retaining all 1,792 paths, 57 groups, 48,272 upper-triangle
