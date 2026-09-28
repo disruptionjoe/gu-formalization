@@ -4,6 +4,15 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K554 orders eleven/twelve native rules and face atlases
+
+- `channel-swings/k554_orders_eleven_twelve_gauss_laguerre_face_atlas.py`
+  emits separate 24- and 26-axis positive one-node rules and complete
+  cumulative-time zero/coalescence face atlases for all order-eleven/twelve
+  paths, groups and Gram entries without reusing the order-ten census or
+  prefactor. Its independent probe replays all counts and rejects rank,
+  normalization, omission and overclaim mutations.
+
 ## K549--K553 complete conditional order-ten integral
 
 - `channel-swings/k549_order_ten_zero_inclusive_determinant_envelope.py`

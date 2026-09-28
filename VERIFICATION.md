@@ -7,6 +7,22 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K554 orders eleven/twelve native rules and face atlases (2026-09-27)
+
+K554 consumes K379's accepted rank-six transfer and emits separate native
+positive one-node Gauss--Laguerre rules plus complete cumulative-time
+zero/coalescence face atlases for orders eleven and twelve. It replays all
+1,792 K179 paths, 57 coherent groups, 48,272 upper-triangle Gram entries and
+94,752 ordered terms while preserving the 24/26-dimensional measures,
+`(2*pi)^-13`/`(2*pi)^-14` prefactors and maximum determinant rank six.
+
+The independent probe passes 8/8 controls and rejects 8/8 hostile mutations.
+This certifies the two order-specific native node and boundary interfaces. It
+does not evaluate either coherent node value, bound either global Peano
+remainder, enclose either complete integral, construct the base action column
+or `R_ref`, emit a K152 interval, or move source, ledger, canon, paper, public,
+novelty or physical posture.
+
 ## K549--K553 complete conditional order-ten integral (2026-09-27)
 
 K549 combines K547's global scaled derivative bounds, all 371 K548 bivariate

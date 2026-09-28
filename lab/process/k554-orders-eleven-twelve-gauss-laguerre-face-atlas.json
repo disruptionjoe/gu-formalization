@@ -1,0 +1,5342 @@
+{
+  "claim_ceiling": "Exact native positive one-node Gauss--Laguerre rules and cumulative-time zero/coalescence face atlases for all 1,792 order-eleven/twelve K179 paths, 57 coherent groups, 48,272 upper-triangle Gram entries and 94,752 ordered terms. The rules retain separate 24/26-dimensional measures and (2*pi)^-13/(2*pi)^-14 prefactors. They do not evaluate node values, bound Peano remainders, enclose complete integrals, construct the base action column or R_ref, emit a K152 interval, or move source, ledger, canon, paper, public, novelty or physical posture.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition_contract": {
+    "complete_group_quadratic_form_precedes_absolute_enclosure": true,
+    "occurrencewise_absolute_value_permitted": false,
+    "order_specific_dimensions_prefactors_and_counts_retained": true,
+    "order_ten_rule_atlas_or_prefactor_reused": false,
+    "raw_Bessel_zero_evaluation_permitted": false
+  },
+  "created": "2026-09-27",
+  "decision": {
+    "complete_order_eleven_integral_emitted": false,
+    "complete_order_twelve_integral_emitted": false,
+    "complete_zero_and_coalescence_face_atlases_emitted": true,
+    "group_level_node_evaluators_emitted": false,
+    "native_order_eleven_positive_value_rule_emitted": true,
+    "native_order_twelve_positive_value_rule_emitted": true,
+    "next_exact_input": "evaluate every order-eleven and order-twelve upper-triangle Gram entry at its native 1/256 node, restoring each coherent quadratic form before compiling the 24/26-axis Peano interfaces"
+  },
+  "direction": "observed_to_native",
+  "fixed_control": {
+    "combined_groups": 57,
+    "combined_ordered_terms": 94752,
+    "combined_paths": 1792,
+    "combined_upper_triangle_entries": 48272,
+    "laplace_shift": 256,
+    "orders": [
+      11,
+      12
+    ],
+    "predecessor_manifests": [
+      "lab/process/k377-rank-six-confluent-determinant-calculus.json",
+      "lab/process/k378-rank-six-global-scaled-bessel-bank.json",
+      "lab/process/k379-orders-eleven-twelve-rank-six-transfer.json"
+    ]
+  },
+  "ledger_effect": {
+    "AC-F1": "NEEDS_UNCHANGED",
+    "LT-GR6b": "NEEDS_UNCHANGED",
+    "LT-SM8": "NEEDS_UNCHANGED",
+    "RA-F1": "NEEDS_UNCHANGED",
+    "SC-ACT-01": "ASSERTS_UNCHANGED",
+    "SC-ACT-02": "ASSERTS_UNCHANGED",
+    "SC-ACT-06": "ASSERTS_UNCHANGED",
+    "SC-META-53": "UNCERTAIN_UNCHANGED"
+  },
+  "order_interfaces": [
+    {
+      "K379_complete_entry_interface_sha256": "sha256:897d17101fd3c694fc939f6b3e169dcbc11af1ab4cf848e17c4b573e4c09273b",
+      "coherent_groups": 24,
+      "cumulative_time_face_atlas": {
+        "atlas_sha256": "sha256:85dd4ea47a78072eea7dfd2b23b2c959664d656a1eda43a594571245d9ac7632",
+        "column_coalescence_faces": [
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 4512,
+            "zeroed_axes": [
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3552,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3488,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3424,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3360,
+            "zeroed_axes": [
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3520,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3456,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3392,
+            "zeroed_axes": [
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 4560,
+            "zeroed_axes": [
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3488,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3424,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 4608,
+            "zeroed_axes": [
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 3456,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 4656,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 6180,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 4704,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          }
+        ],
+        "determinant_kernel_entry_uses": 437120,
+        "kernel_zero_faces": [
+          {
+            "codimension": 2,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7320,
+            "zeroed_axes": [
+              "s12",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 3,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2456,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 3,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2712,
+            "zeroed_axes": [
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5824,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7320,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5632,
+            "zeroed_axes": [
+              "s12",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 5,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2520,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 5,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2648,
+            "zeroed_axes": [
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4736,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5680,
+            "zeroed_axes": [
+              "s12",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5776,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 7,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2584,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 7,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2584,
+            "zeroed_axes": [
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4608,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5728,
+            "zeroed_axes": [
+              "s12",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5728,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4544,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7320,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 9,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2648,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 9,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2520,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4640,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5776,
+            "zeroed_axes": [
+              "s12",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5680,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4512,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4736,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 11,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2712,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 11,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 2456,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4672,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5824,
+            "zeroed_axes": [
+              "s12",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5632,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7090,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4480,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4544,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7320,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4608,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6740,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4704,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6740,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4448,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4512,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4736,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4640,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4480,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4544,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7320,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4608,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4672,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4512,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4736,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7160,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4640,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4544,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 7320,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4608,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 4736,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6810,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 24,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 10120,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          }
+        ],
+        "old_kernel_uses": 25840,
+        "row_coalescence_faces": [
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 4704,
+            "zeroed_axes": [
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3360,
+            "zeroed_axes": [
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3424,
+            "zeroed_axes": [
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3488,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3552,
+            "zeroed_axes": [
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3392,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3456,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3520,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 4656,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3424,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5900,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3488,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 4608,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 6250,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 3456,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 5830,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 4560,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 6180,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 4512,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          }
+        ],
+        "unique_column_coalescence_masks": 30,
+        "unique_kernel_zero_masks": 82,
+        "unique_row_coalescence_masks": 30,
+        "upper_triangle_entries_covered": 12920
+      },
+      "maximum_species_determinant_rank": 6,
+      "native_prefactor": "(2*pi)^-13",
+      "order": 11,
+      "ordered_quadratic_terms": 25200,
+      "paths": 640,
+      "positive_product_rule": {
+        "all_weights_strictly_positive": true,
+        "axis_node": "1/256",
+        "axis_rule": "integral exp(-256*x)h(x)dx=h(1/256)/256+integral K_256(t)h''(t)dt",
+        "axis_weight": "1/256",
+        "measure": "product of 24 exp(-256*x) dx factors",
+        "multiaffine_exact": true,
+        "node": [
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256"
+        ],
+        "peano_kernel_mass": "1/33554432",
+        "peano_kernel_nonnegative": true,
+        "peano_kernel_zero_order_at_origin": 2,
+        "product_weight": "1/6277101735386680763835789423207666416102355444464034512896",
+        "separately_affine_exact": true
+      },
+      "positive_time_variables": 24,
+      "radial_angular_replay": {
+        "combined_angular_weight": "1/25852016738884976640000",
+        "radial_density": "exp(-256*rho)*rho^23",
+        "radial_node": "3/32",
+        "radial_times_angular_equals_product_weight": true,
+        "radial_weight": "49308808782358125/11972621413014756705924586149611790497021399392059392"
+      },
+      "remainder_interface": {
+        "global_second_derivative_integrals_computed": false,
+        "mixed_derivatives_required": false,
+        "positive_kernel_all_axes": true,
+        "pure_second_derivative_axes": 24
+      },
+      "side_count": 12,
+      "upper_triangle_gram_entries": 12920
+    },
+    {
+      "K379_complete_entry_interface_sha256": "sha256:8833d0e52b93b8cd5f5cda07b37cb053145355a5dae1d44e3f0d6ddffbe1263d",
+      "coherent_groups": 33,
+      "cumulative_time_face_atlas": {
+        "atlas_sha256": "sha256:e4307eb909e46033b54481e1bae2bcba36bbca74c9121cedbbf4ff6bc1fa25fc",
+        "column_coalescence_faces": [
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 11304,
+            "zeroed_axes": [
+              "v1",
+              "v2"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 13170,
+            "zeroed_axes": [
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v2",
+              "v3"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10788,
+            "zeroed_axes": [
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10692,
+            "zeroed_axes": [
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10596,
+            "zeroed_axes": [
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10500,
+            "zeroed_axes": [
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 11256,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10740,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10644,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10548,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 13234,
+            "zeroed_axes": [
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 11208,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10692,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10596,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 13298,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 11160,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 10644,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 13362,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 11112,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 13426,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "determinant_column_coalescence",
+            "usage_count": 14050,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12"
+            ]
+          }
+        ],
+        "determinant_kernel_entry_uses": 1396304,
+        "kernel_zero_faces": [
+          {
+            "codimension": 2,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19672,
+            "zeroed_axes": [
+              "s13",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 3,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5610,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13"
+            ]
+          },
+          {
+            "codimension": 3,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6090,
+            "zeroed_axes": [
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16332,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19672,
+            "zeroed_axes": [
+              "s12",
+              "s13",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16012,
+            "zeroed_axes": [
+              "s13",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 5,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5706,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13"
+            ]
+          },
+          {
+            "codimension": 5,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5994,
+            "zeroed_axes": [
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13780,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s12",
+              "s13",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16076,
+            "zeroed_axes": [
+              "s13",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16268,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 7,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5802,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13"
+            ]
+          },
+          {
+            "codimension": 7,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5898,
+            "zeroed_axes": [
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19672,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13540,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s12",
+              "s13",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16140,
+            "zeroed_axes": [
+              "s13",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16204,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13444,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 9,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5898,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13"
+            ]
+          },
+          {
+            "codimension": 9,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5802,
+            "zeroed_axes": [
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13588,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s12",
+              "s13",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16204,
+            "zeroed_axes": [
+              "s13",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16140,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13396,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13780,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 11,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5994,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13"
+            ]
+          },
+          {
+            "codimension": 11,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5706,
+            "zeroed_axes": [
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13636,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s12",
+              "s13",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16268,
+            "zeroed_axes": [
+              "s13",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 16076,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13348,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13444,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19672,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13540,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 13,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 6342,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13"
+            ]
+          },
+          {
+            "codimension": 13,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 5862,
+            "zeroed_axes": [
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 15200,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13684,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s12",
+              "s13",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 15520,
+            "zeroed_axes": [
+              "s13",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19244,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13300,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13396,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13780,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 14,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13588,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12552,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13032,
+            "zeroed_axes": [
+              "s11",
+              "s12",
+              "s13",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13348,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13444,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19672,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13540,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 16,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13636,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12600,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13396,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13780,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13588,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 18,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12984,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12648,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13444,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19672,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13540,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 20,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12936,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12696,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 13780,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19384,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 22,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12888,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 24,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12744,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 24,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19672,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 24,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 12840,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          },
+          {
+            "codimension": 26,
+            "face_kind": "bessel_argument_zero",
+            "usage_count": 19380,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12",
+              "s13",
+              "v1",
+              "v2",
+              "v3",
+              "v4",
+              "v5",
+              "v6",
+              "v7",
+              "v8",
+              "v9",
+              "v10",
+              "v11",
+              "v12",
+              "v13"
+            ]
+          }
+        ],
+        "old_kernel_uses": 70704,
+        "row_coalescence_faces": [
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10920,
+            "zeroed_axes": [
+              "s1",
+              "s2"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 13490,
+            "zeroed_axes": [
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s2",
+              "s3"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10596,
+            "zeroed_axes": [
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10692,
+            "zeroed_axes": [
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10788,
+            "zeroed_axes": [
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 2,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10884,
+            "zeroed_axes": [
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10968,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10644,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10740,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10836,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 4,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 13426,
+            "zeroed_axes": [
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 11016,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10692,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10788,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 6,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 13362,
+            "zeroed_axes": [
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 11064,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16248,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 10740,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 8,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 13298,
+            "zeroed_axes": [
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 11112,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 16108,
+            "zeroed_axes": [
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11"
+            ]
+          },
+          {
+            "codimension": 10,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 13234,
+            "zeroed_axes": [
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          },
+          {
+            "codimension": 12,
+            "face_kind": "determinant_row_coalescence",
+            "usage_count": 13730,
+            "zeroed_axes": [
+              "s1",
+              "s2",
+              "s3",
+              "s4",
+              "s5",
+              "s6",
+              "s7",
+              "s8",
+              "s9",
+              "s10",
+              "s11",
+              "s12"
+            ]
+          }
+        ],
+        "unique_column_coalescence_masks": 36,
+        "unique_kernel_zero_masks": 97,
+        "unique_row_coalescence_masks": 36,
+        "upper_triangle_entries_covered": 35352
+      },
+      "maximum_species_determinant_rank": 6,
+      "native_prefactor": "(2*pi)^-14",
+      "order": 12,
+      "ordered_quadratic_terms": 69552,
+      "paths": 1152,
+      "positive_product_rule": {
+        "all_weights_strictly_positive": true,
+        "axis_node": "1/256",
+        "axis_rule": "integral exp(-256*x)h(x)dx=h(1/256)/256+integral K_256(t)h''(t)dt",
+        "axis_weight": "1/256",
+        "measure": "product of 26 exp(-256*x) dx factors",
+        "multiaffine_exact": true,
+        "node": [
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256",
+          "1/256"
+        ],
+        "peano_kernel_mass": "1/33554432",
+        "peano_kernel_nonnegative": true,
+        "peano_kernel_zero_order_at_origin": 2,
+        "product_weight": "1/411376139330301510538742295639337626245683966408394965837152256",
+        "separately_affine_exact": true
+      },
+      "positive_time_variables": 26,
+      "radial_angular_replay": {
+        "combined_angular_weight": "1/15511210043330985984000000",
+        "radial_density": "exp(-256*rho)*rho^25",
+        "radial_node": "13/128",
+        "radial_times_angular_equals_product_weight": true,
+        "radial_weight": "3698160658676859375/98079714615416886934934209737619787751599303819750539264"
+      },
+      "remainder_interface": {
+        "global_second_derivative_integrals_computed": false,
+        "mixed_derivatives_required": false,
+        "positive_kernel_all_axes": true,
+        "pure_second_derivative_axes": 26
+      },
+      "side_count": 13,
+      "upper_triangle_gram_entries": 35352
+    }
+  ],
+  "release_test": {
+    "all_1792_paths_replayed": true,
+    "all_48272_upper_triangle_entries_covered": true,
+    "all_57_groups_replayed": true,
+    "all_94752_ordered_terms_retained": true,
+    "all_face_masks_nonempty": true,
+    "complete_integrals_not_overclaimed": true,
+    "native_K152_interval_not_emitted": true,
+    "rank_six_boundary_retained_both_orders": true,
+    "separate_24_26_axis_rules_retained": true,
+    "separate_native_prefactors_retained": true
+  },
+  "result_id": "K554-ORDERS-ELEVEN-TWELVE-GAUSS-LAGUERRE-FACE-ATLAS",
+  "schema_version": "1.0",
+  "source_routing": {
+    "classification": "INTERNAL_STRUCTURAL_ONLY",
+    "conditional_repository_Fock_construction_only": true,
+    "source_native_GU_mechanism_tested": false
+  }
+}
