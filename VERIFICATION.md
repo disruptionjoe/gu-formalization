@@ -7,6 +7,35 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K588--K591 action-orbit completion and spectral-diameter boundary (2026-09-28)
+
+K588 exactly reconstructs K585's `1470 x 91` rank-91 block and verifies
+`B^T B=(50/257049)I`. Thus `B+=(257049/50)B^T` is a left inverse. Composing
+the existing source-owned orbit quotient with it yields a sparse rank-70
+`L: R^1470 -> M^70` satisfying `LB=A` and vanishing on the Euclidean
+orthogonal complement of `im(B)`. The induced `D1` is source-owned on the
+Hessian image; the chosen off-image zero extension is pairing/convention
+dependent and is not promoted to unique source ownership.
+
+K589 replays the labelled odd-odd stabilizer inclusion rather than selecting
+an arbitrary nullspace basis. It has rank 21, composes to zero with the rank-70
+`D1`, and its image equals `ker(D1)`, proving zero homology in all three finite
+degrees. K590 verifies the factorized rank-512 lift symbolically and on exact
+rational moving-projector representatives. Both degree-changing K444 squares
+have zero defect and the lifted complex remains exact. Expansion of the full
+large matrices is unnecessary because the carrier action is the common
+identity factor. No claim is made for a nonfactorized interaction or nonlinear
+functional properness.
+
+K591 proves Popoviciu's sharp variance bound in the precise K583/K500 typing
+and checks diagonal, three-level, exchange-block and reducing-line controls.
+It is a conditional certificate: a native uniform spectral width `<=2 mu`
+would imply leakage `<=mu`. No such all-level width is currently serialized,
+and this theorem does not supply the separately missing noncyclic numerical
+floor. The four probes pass 95/95 exact controls and reject 33/33 hostile
+mutations. No K473 beta, K152 interval, source, ledger, canon, paper, public,
+novelty, prediction, confirmation or physical conclusion follows.
+
 ## K585--K587 action-derived KT completion boundary (2026-09-28)
 
 K585 deterministically rebuilds the selected first-action Hessian cross from

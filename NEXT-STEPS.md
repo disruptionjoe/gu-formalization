@@ -7,6 +7,22 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K588--K591 ACTION-ORBIT COMPLETION AND SPECTRAL-DIAMETER
+> BOUNDARY.** K588 composes K585's Hessian embedding with the source-owned
+> orbit quotient through the exact minimal-norm reduction
+> `L=(257049/50)AB^T`, giving `LB=A` and rank 70. K589 joins the independently
+> source-owned odd-odd stabilizer inclusion to obtain the exact finite complex
+> `0 -> H^21 -> Q^91 -> M^70 -> 0`. K590 lifts both arrows factorwise through
+> the corrected rank-512 carrier and proves both K444 squares, with ranks
+> 10752 and 35840. K591 independently proves the sharp all-level conditional
+> leakage bound `lambda(W,v)<=diam(spec W)/2`, including exchange blocks, but
+> current native artifacts contain no uniform spectral diameter. The four
+> probes pass `95/95` controls and reject `33/33` hostile mutations. Next derive
+> a nonfactorized lower-order carrier coupling, prove a native uniform normal-
+> action diameter or evaluate normalized action vectors directly, and extract
+> the separate complete-sector floor. Do not promote finite/factorized
+> exactness to full BV/KT properness or physical cohomology.
+
 > **2026-09-28 K585--K587 ACTION-DERIVED KT COMPLETION BOUNDARY.** K585
 > reconstructs the selected first-action moving-Shiab Hessian cross as an exact
 > `1470 x 91` rank-91 block with 182 nonzeros, all in the grade-one connection

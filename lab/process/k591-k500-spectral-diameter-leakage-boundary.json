@@ -1,0 +1,213 @@
+{
+  "claim_ceiling": "Sharp self-adjoint spectral-diameter certificate: each K500 level satisfies lambda(W_n,v_n)<=diam(spec W_n)/2, equivalently the K583 tensor numerator is at most diam(spec W_n)^2 ||v_n||^4/2. A uniform diameter at most 2 mu would prove complete leakage at most mu. Current native artifacts do not serialize that all-level diameter, and the separate noncyclic floor remains absent; no K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "probe": "tests/channel-swings/k591_k500_spectral_diameter_leakage_boundary_probe.py",
+    "producer": "tests/channel-swings/k591_k500_spectral_diameter_leakage_boundary.py"
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "K473_beta_emitted": false,
+    "complete_native_K500_uniform_leakage_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "next_exact_input": "Prove a uniform spectral interval width for the actual all-level normal blocks W_n, or evaluate the normalized action vectors directly; separately serialize the complete-sector/noncyclic numerical floor required by K584.",
+    "sharp_coefficient_free_leakage_certificate_emitted": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_bounds_hold": true,
+    "off_diagonal_exchange_control_present": true,
+    "reducing_line_zero_present": true,
+    "row_count": 4,
+    "rows": [
+      {
+        "bound_holds": true,
+        "diameter_bound_square": "9",
+        "leakage_square": "9",
+        "matrix": [
+          [
+            "-2",
+            "0"
+          ],
+          [
+            "0",
+            "4"
+          ]
+        ],
+        "name": "sharp endpoints",
+        "sharp": true,
+        "spectral_diameter": "6",
+        "spectral_interval": [
+          "-2",
+          "4"
+        ],
+        "tensor_bound_holds": true,
+        "tensor_bound_rhs": "72",
+        "tensor_pair_square": "72",
+        "vector": [
+          "1",
+          "1"
+        ]
+      },
+      {
+        "bound_holds": true,
+        "diameter_bound_square": "16",
+        "leakage_square": "304/49",
+        "matrix": [
+          [
+            "-3",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "5"
+          ]
+        ],
+        "name": "interior three-level",
+        "sharp": false,
+        "spectral_diameter": "8",
+        "spectral_interval": [
+          "-3",
+          "5"
+        ],
+        "tensor_bound_holds": true,
+        "tensor_bound_rhs": "6272",
+        "tensor_pair_square": "2432",
+        "vector": [
+          "1",
+          "2",
+          "3"
+        ]
+      },
+      {
+        "bound_holds": true,
+        "diameter_bound_square": "121/4",
+        "leakage_square": "31/18",
+        "matrix": [
+          [
+            "0",
+            "2",
+            "-1"
+          ],
+          [
+            "2",
+            "1",
+            "3"
+          ],
+          [
+            "-1",
+            "3",
+            "4"
+          ]
+        ],
+        "name": "exchange block",
+        "sharp": false,
+        "spectral_diameter": "11",
+        "spectral_interval": [
+          "-3",
+          "8"
+        ],
+        "tensor_bound_holds": true,
+        "tensor_bound_rhs": "2178",
+        "tensor_pair_square": "124",
+        "vector": [
+          "1",
+          "-2",
+          "1"
+        ]
+      },
+      {
+        "bound_holds": true,
+        "diameter_bound_square": "81/4",
+        "leakage_square": "0",
+        "matrix": [
+          [
+            "3",
+            "2",
+            "0"
+          ],
+          [
+            "2",
+            "3",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-4"
+          ]
+        ],
+        "name": "reducing line",
+        "sharp": false,
+        "spectral_diameter": "9",
+        "spectral_interval": [
+          "-4",
+          "5"
+        ],
+        "tensor_bound_holds": true,
+        "tensor_bound_rhs": "162",
+        "tensor_pair_square": "0",
+        "vector": [
+          "1",
+          "1",
+          "0"
+        ]
+      }
+    ],
+    "sharp_endpoint_control_present": true
+  },
+  "gu_typed_objects": {
+    "carrier": "one K162 q00 or q10 bath-number level in the regular-coordinate Hilbert image",
+    "form": "self-adjoint full normal action W_n, including matched exchange blocks",
+    "pairing": "regular Hilbert pairing transported from physical M=S* S",
+    "result": "spectral-diameter leakage certificate MAP-TYPE=orthogonal-block-norm-bound",
+    "target": "uniform K500 cyclic/noncyclic cross norm"
+  },
+  "native_applicability": {
+    "K168_shape_oscillation_supplies_normal_action_diameter": false,
+    "K177_higher_level_exchange_terms_retained": true,
+    "K580_level_one_result_preserved": true,
+    "K583_all_level_tensor_identity_reused": true,
+    "finite_orders_through_12_supply_all_level_uniform_bound": false,
+    "native_each_level_spectral_interval_serialized": false,
+    "native_uniform_spectral_diameter_serialized": false,
+    "reason": "K500 eliminates the scalar and K168 shape cross; the remaining normal action includes K177 exchange blocks, and current artifacts serialize neither complete all-level W_n spectra nor a uniform diameter theorem."
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Self-adjoint blocks can have arbitrarily large diameter while preserving the abstract tensor identity; the theorem needs a native uniform interval and does not create one.",
+    "strongest_overclaim": "Treating the width-three K168 shape operator or finite order-twelve census as a uniform spectral diameter for K500's distinct full normal action.",
+    "weakest_reproducibility_seam": "The infinite-level application is conditional on spectral intervals; exact finite controls test the theorem, not native all-level interval availability."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K578 proves the diagonal multiplier variance formula and K583 the all-level tensor identity; neither states the sharp spectral-diameter certificate or audits native availability of its uniform input.",
+    "route_comparison": "Apply the sharp variance bound to K583's exact tensor identity; it retains exchange blocks and requires only a true spectral interval, unlike the invalid higher-level scalar-multiplier extrapolation.",
+    "strongest_alternative": "Direct action-vector evaluation can beat the diameter bound but still needs normalized all-level coefficients and denominators not presently serialized."
+  },
+  "result_id": "K591-K500-SPECTRAL-DIAMETER-LEAKAGE-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "Every self-adjoint K500 bath-level normal-action block W_n with nonzero cyclic vector v_n and a certified spectral interval [a_n,b_n], including off-diagonal exchange blocks.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "diagonal_multiplier_required": false,
+    "exchange_blocks_allowed": true,
+    "hypotheses": "W=W* on a Hilbert space, v nonzero, and spec(W) subset [a,b] with finite a<=b",
+    "leakage_bound": "lambda(W,v) <= (b-a)/2",
+    "popoviciu_bound": "lambda(W,v)^2 <= (b-a)^2/4",
+    "rank_one_leakage": "lambda(W,v)^2=||(1-P_v)Wv||^2/||v||^2",
+    "scalar_shift_invariant": true,
+    "sharp": true,
+    "spectral_measure_variance": "lambda(W,v)^2 is the variance of the spectral measure of W in the normalized state v/||v||",
+    "tensor_pair_bound": "||Wv tensor v-v tensor Wv||^2 <= ((b-a)^2/2)||v||^4",
+    "uniform_release": "if sup_n(b_n-a_n)<=2 mu then K500's complete cyclic/noncyclic cross norm is at most mu"
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "claim_ceiling": "Exact factorized corrected-carrier completion: K589's coefficient arrows tensor the identity on K441's rank-512 moving carrier, have ranks 10,752 and 35,840, remain exact, and satisfy both K444 typed projector squares for every common parallel carrier projector. This reaches K587's factorized endpoint only; it supplies no nonfactorized lower-order action coupling, full nonlinear BV/KT complex, physical boundary, physical cohomology, or source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "probe": "tests/channel-swings/k590_k77_corrected_carrier_completion_squares_probe.py",
+    "producer": "tests/channel-swings/k590_k77_corrected_carrier_completion_squares.py"
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "K587_both_K444_squares_pass": true,
+    "K587_corrected_carrier_action_identified": true,
+    "K587_factorized_completion_endpoint_reached": true,
+    "next_exact_input": "Derive a nonfactorized lower-order action coupling on the corrected carrier, or move to the strongest independent falsification route; do not relabel the factorized product as the full interacting BV/KT complex.",
+    "source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "factorized_completion": {
+    "D1_typed_square_factor_identity": "(I_70 tensor Pi)(D1 tensor I_512)=(D1 tensor I_512)(I_91 tensor Pi)",
+    "D2_typed_square_factor_identity": "(I_91 tensor Pi)(D2 tensor I_512)=(D2 tensor I_512)(I_21 tensor Pi)",
+    "all_sample_D1_defects_zero": true,
+    "all_sample_D2_defects_zero": true,
+    "both_K444_squares_hold_for_all_parallel_projectors": true,
+    "carrier_half_ranks": [
+      256,
+      256
+    ],
+    "carrier_rank": 512,
+    "degree_dimensions": [
+      10752,
+      46592,
+      35840
+    ],
+    "homology_dimensions": [
+      0,
+      0,
+      0
+    ],
+    "lifted_D1_rank": 35840,
+    "lifted_D2_rank": 10752,
+    "lifted_nilpotence": true,
+    "middle_kernel_dimension": 10752,
+    "rational_transport_samples": [
+      {
+        "D1_square_defect_rank": 0,
+        "D2_square_defect_rank": 0,
+        "projector_idempotent": true,
+        "projector_rank_on_pair": 1,
+        "t": "0",
+        "transport_orthogonal": true
+      },
+      {
+        "D1_square_defect_rank": 0,
+        "D2_square_defect_rank": 0,
+        "projector_idempotent": true,
+        "projector_rank_on_pair": 1,
+        "t": "1/3",
+        "transport_orthogonal": true
+      },
+      {
+        "D1_square_defect_rank": 0,
+        "D2_square_defect_rank": 0,
+        "projector_idempotent": true,
+        "projector_rank_on_pair": 1,
+        "t": "1/2",
+        "transport_orthogonal": true
+      },
+      {
+        "D1_square_defect_rank": 0,
+        "D2_square_defect_rank": 0,
+        "projector_idempotent": true,
+        "projector_rank_on_pair": 1,
+        "t": "1",
+        "transport_orthogonal": true
+      }
+    ]
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "CHIRALITY": "N/A",
+    "LAYER": "homogeneous-orbit KT times corrected boundary carrier",
+    "MAP-TYPE": "factorized corrected-boundary chain map",
+    "base_complex": "H^21 --D2--> Q^91 --D1--> M^70 from K589",
+    "carrier": "K441 corrected moving rank-512 carrier with parallel rank-256 incoming/outgoing projectors",
+    "lifted_arrows": "D2 tensor I_512 and D1 tensor I_512",
+    "typed_squares": "Pi1(D2 tensor I)=(D2 tensor I)Pi2 and Pi0(D1 tensor I)=(D1 tensor I)Pi1"
+  },
+  "ownership_boundary": {
+    "base_coefficients_from_K589": true,
+    "carrier_action_is_K441_factorized_identity_transport": true,
+    "full_nonlinear_BV_KT_constructed": false,
+    "nonfactorized_interacting_carrier_action_constructed": false,
+    "physical_boundary_selected": false,
+    "physical_cohomology_constructed": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "K443/K446 show boundary-compatible perturbations can change nilpotence or cohomology once nonfactorized carrier couplings are introduced.",
+    "strongest_overclaim": "Calling exact factorized boundary descent the full interacting action-derived BV/KT complex or physical cohomology.",
+    "weakest_reproducibility_seam": "The rank-512 identities are proved factorwise and sampled on rank-two moving representatives rather than expanded billion-entry products."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K442 proves the abstract product and K444 the general typed-square theorem; K590 is the first coefficient-level instantiation using K589's action-coupled base arrows.",
+    "route_comparison": "Use the common degreewise carrier identity and moving parallel projectors; expanding 46,592-dimensional matrices adds no information and risks obscuring the tensor identity.",
+    "strongest_alternative": "A nonfactorized lower-order carrier coupling would be stronger but remains absent and cannot be inferred from the factorized completion."
+  },
+  "result_id": "K590-K77-CORRECTED-CARRIER-COMPLETION-SQUARES",
+  "schema_version": "1.0",
+  "scope": "Factorized lift of K589's exact 21-to-91-to-70 base complex through K441's corrected moving rank-512 carrier, with both K444 source/target projector squares checked exactly by the common carrier action.",
+  "source_and_ledger_context": {
+    "base_input": "lab/process/k589-k77-action-kt-exact-completion.json",
+    "carrier_input": "lab/process/k441-k77-moving-corrected-boundary-transport.json",
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none",
+    "square_input": "lab/process/k444-k77-degree-changing-boundary-squares.json"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

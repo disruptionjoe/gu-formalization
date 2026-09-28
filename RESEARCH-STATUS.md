@@ -8,6 +8,37 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K588--K591 action-orbit completion and spectral-diameter boundary
+
+K588 uses K586's exact scalar Gram matrix to form the Euclidean pseudoinverse
+`B+=(257049/50)B^T` and composes it with the source-owned orbit quotient
+`A:Q^91 -> M^70`. The resulting minimal-norm reduction
+`L=AB+:R^1470 -> M^70` has rank 70 and satisfies `LB=A` exactly. This is the
+unique zero extension from `im(B)` under the current Euclidean pairing, not a
+uniquely source-selected map on the full receiver: any `K` with `KB=0` changes
+the off-image extension without changing the induced arrow.
+
+K589 supplies the independently source-owned odd-odd stabilizer inclusion
+`D2:H^21 -> Q^91`. Together with `D1=LB=A`, it proves
+`D1D2=0`, `im(D2)=ker(D1)` and zero homology for the finite
+`21 -> 91 -> 70` homogeneous-orbit complex. K590 tensors both arrows with the
+identity on K441's corrected rank-512 carrier. The lifted dimensions are
+`10752 -> 46592 -> 35840`, the arrow ranks are 10752 and 35840, and both K444
+moving-projector squares hold factorwise. This closes K587's stated finite and
+factorized endpoint, but does not construct a nonfactorized lower-order
+carrier coupling, nonlinear functional BV/KT properness, a physical boundary
+or physical cohomology.
+
+K591 advances the independent K500 route. For every self-adjoint normal block
+with spectrum in `[a,b]`, the rank-one leakage is a spectral-measure variance,
+so `lambda^2 <= (b-a)^2/4`; equivalently K583's tensor numerator is at most
+`(b-a)^2 ||v||^4/2`. The bound is sharp and retains off-diagonal exchange
+blocks. Current artifacts serialize neither each complete all-level spectrum
+nor a uniform diameter, so no numerical K500 release, noncyclic floor, K473
+beta or K152 interval follows. The four probes pass 95/95 controls and reject
+33/33 hostile mutations. Source, ledger, canon, paper, public, novelty,
+prediction, confirmation and physical conclusions remain unchanged.
+
 ## 2026-09-28 — K585--K587 action-derived KT completion boundary
 
 K585 replays the selected first-action calculation and reconstructs its actual

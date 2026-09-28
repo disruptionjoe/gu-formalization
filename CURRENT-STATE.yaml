@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8431ca9b7ed0
+revision_basis: fffb6349d7e8
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K588--K591 close K587's finite and factorized completion endpoint and
+    sharpen the independent K500 route. K588 uses
+    `B^T B=(50/257049)I_91` to define the Euclidean minimal-norm reduction
+    `L=(257049/50)AB^T:R^1470->M^70`, with rank 70 and `LB=A` exactly. K589
+    joins the independently source-owned rank-21 odd-odd stabilizer inclusion
+    to prove exactness of `0->H^21->Q^91->M^70->0`. K590 tensors both arrows
+    through the corrected rank-512 carrier, obtains ranks 10752 and 35840 and
+    verifies both K444 moving-projector squares. This is finite homogeneous-
+    orbit and factorized-carrier exactness, not a nonfactorized lower-order
+    coupling, nonlinear functional BV/KT properness or physical cohomology.
+    K591 proves the sharp conditional K500 certificate
+    `lambda(W,v)<=diam(spec W)/2` for self-adjoint blocks including exchange
+    terms, while recording that no native uniform all-level diameter or
+    separate noncyclic floor is serialized. The probes pass `95/95` controls
+    and reject `33/33` hostile mutations. Source, ledger, canon, paper, public
+    and physical claims do not move.
+
     K585--K587 execute the action-derived corrected-boundary coupling attempt
     selected by the September 28 literature-applicability restock. K585
     reconstructs the selected first-action moving-Shiab Hessian cross as an
@@ -11043,6 +11060,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K588--K590 close the finite homogeneous-orbit and factorized corrected-
+  carrier endpoint selected by K587. The next action-side question is whether
+  a source/action-owned nonfactorized lower-order carrier coupling exists and
+  remains nilpotent/proper beyond that tensor product. Do not relabel the
+  Euclidean minimal-norm off-image extension as uniquely source-selected, or
+  finite/factorized exactness as nonlinear functional BV/KT properness or
+  physical cohomology.
+
+  Independently, K591 reduces K500's complete leakage upper to a native
+  uniform spectral-diameter problem for the full self-adjoint normal blocks,
+  including exchange terms. Prove those actual all-level widths uniformly or
+  evaluate the normalized action vectors directly. The separate numerical
+  noncyclic floor remains required before K473 or K152 can move.
+
   K510 shows that K507's explicit alternating q00/q10 paths are nonzero at
   every level, but a lower proof that pays the full ordered-simplex `1/n!`
   volume cannot dominate K496's geometric residual. Seek a quantitative
@@ -11513,6 +11544,14 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the K77 route, derive an action-owned nonfactorized lower-order coupling
+  on the corrected rank-512 carrier and test both K444 squares, nilpotence and
+  properness without substituting an arbitrary matrix. On the K500 route,
+  certify a uniform spectral width for the actual all-level normal blocks or
+  compute their normalized action-vector leakage directly, and separately
+  serialize a named cancellation-safe complete-sector lower witness. Preserve
+  K588's off-image ownership fence and K590's factorized-only ceiling.
+
   Continue K500 beyond K510's simplex-volume obstruction. Either prove a
   determinant-aware refinement-uniform lower for the explicit alternating
   q00/q10 paths whose ratio to K496 remains uniformly controlled, or attack

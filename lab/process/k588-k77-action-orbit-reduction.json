@@ -1,0 +1,110 @@
+{
+  "claim_ceiling": "Exact action-orbit composition under the current Euclidean pairing: the minimal-norm reduction L=(257049/50)AB^T has rank 70 and satisfies LB=A exactly. This constructs the missing coefficient-level D1 while recording that the zero extension away from im(B) is a canonical repository convention, not a uniquely source-selected full action reduction. It does not yet supply D2 exactness, the corrected-carrier lift, a full interacting BV/KT complex, physical cohomology, or any source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "probe": "tests/channel-swings/k588_k77_action_orbit_reduction_probe.py",
+    "producer": "tests/channel-swings/k588_k77_action_orbit_reduction.py"
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "D1_coefficient_matrix_serialized_by_exact_factorization": true,
+    "K587_rank70_reduction_constructed": true,
+    "next_exact_input": "Compose D1=A with the independently source-owned odd-odd stabilizer inclusion D2 and prove exactness; then lift both arrows through the corrected rank-512 carrier and test the moving K444 squares.",
+    "source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "exact_reduction": {
+    "B_gram_scalar": "50/257049",
+    "B_pseudoinverse_is_left_inverse": true,
+    "B_pseudoinverse_shape": [
+      91,
+      1470
+    ],
+    "B_rank": 91,
+    "B_shape": [
+      1470,
+      91
+    ],
+    "annihilates_orthogonal_complement_of_image_B": true,
+    "image_projector_idempotent": true,
+    "image_projector_rank": 91,
+    "image_projector_shape": [
+      1470,
+      1470
+    ],
+    "image_projector_symmetric": true,
+    "induced_D1_equals_orbit_quotient": true,
+    "induced_D1_rank": 70,
+    "induced_D1_sparse_content_digest": "sha256:03fd2dd44e3d056006b2a4553b270039c50816f14a0d7f5526f6e979749f3d52",
+    "orbit_quotient_nonzero_entries": 70,
+    "orbit_quotient_rank": 70,
+    "orbit_quotient_shape": [
+      70,
+      91
+    ],
+    "reduction_formula": "L=A(B^T B)^-1 B^T=(257049/50) A B^T",
+    "reduction_nonzero_entries": 140,
+    "reduction_rank": 70,
+    "reduction_shape": [
+      70,
+      1470
+    ],
+    "reduction_sparse_content_digest": "sha256:e49bae3146593cfdef53df860db5b1833ec6236a9c010d403321ea543f94a573"
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "CHIRALITY": "N/A",
+    "LAYER": "selected first-action tangent plus homogeneous-orbit quotient",
+    "MAP-TYPE": "minimal-norm action-orbit reduction",
+    "action_embedding": "B:Q^91->R^1470 selected first-action moving-Shiab Hessian cross",
+    "induced_arrow": "D1=LB=A:Q^91->M^70",
+    "orbit_quotient": "A:Q^91->M^70 canonical complement quotient of the selected Spin(7,7) orbit",
+    "pairing": "current exact Euclidean coordinate pairing used by K586",
+    "reduction": "L=A(B^T B)^-1 B^T:R^1470->M^70",
+    "source": "Q^91 primitive epsilon variations"
+  },
+  "ownership_boundary": {
+    "A_source_owned_homogeneous_orbit_map": true,
+    "B_selected_action_owned": true,
+    "L_off_image_extension": "Euclidean minimal-norm zero extension on im(B)^perp",
+    "L_reproduces_A_on_image_B": true,
+    "L_unique_given_current_pairing_and_zero_extension": true,
+    "L_uniquely_selected_by_source_on_all_R1470": false,
+    "full_interacting_action_reduction_constructed": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Adding any map K with KB=0 changes L off im(B) while preserving LB=A; the selected minimal-norm convention is therefore load-bearing.",
+    "strongest_overclaim": "Calling the Euclidean zero extension on im(B)^perp a uniquely source-selected full receiver reduction.",
+    "weakest_reproducibility_seam": "B is rebuilt through the exact predecessor probe rather than stored as an expanded matrix; its K585 digest and the new L digest bind the replay."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K419 and the stabilizer gate already own the quotient A and K585 owns B; no predecessor composes them or records the off-image extension boundary.",
+    "route_comparison": "Exploit B^T B=(50/257049)I before searching arbitrary 70-by-1470 coefficients; it gives the unique Euclidean minimal-norm extension of the already owned orbit quotient from im(B).",
+    "strongest_alternative": "An arbitrary left reduction can force rank 70 but would fit coefficients and erase action custody."
+  },
+  "result_id": "K588-K77-ACTION-ORBIT-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact composition of K585's selected first-action Hessian embedding with the source-owned homogeneous-orbit quotient. The reduction is the Euclidean minimal-norm extension from the Hessian image and is not claimed to be the unique source-selected map on all 1470 receiver directions.",
+  "source_and_ledger_context": {
+    "action_input": "lab/process/k585-k77-action-boundary-coupling-typing.json",
+    "gram_input": "lab/process/k586-k77-hessian-adjoint-nilpotence-obstruction.json",
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "orbit_input": "lab/process/selected-k77-stabilizer-koszul-tate-resolution-gate.json",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

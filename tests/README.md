@@ -4,6 +4,23 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K588--K591 action-orbit completion and spectral-diameter boundary
+
+- `channel-swings/k588_k77_action_orbit_reduction.py` constructs the exact
+  minimal-norm rank-70 reduction from K585's action embedding to the existing
+  source-owned orbit quotient and records the off-image ownership boundary.
+- `channel-swings/k589_k77_action_kt_exact_completion.py` joins the labelled
+  odd-odd stabilizer inclusion and proves exactness of the finite
+  `21 -> 91 -> 70` complex.
+- `channel-swings/k590_k77_corrected_carrier_completion_squares.py` lifts both
+  arrows through the corrected rank-512 carrier and verifies both K444 moving
+  projector squares.
+- `channel-swings/k591_k500_spectral_diameter_leakage_boundary.py` proves the
+  sharp self-adjoint spectral-diameter leakage certificate while preserving
+  the missing-native-uniform-diameter boundary.
+- The four `_probe.py` files pass 95 exact controls and reject 33 hostile
+  mutations.
+
 ## K585--K587 action-derived KT completion boundary
 
 - `channel-swings/k585_k77_action_boundary_coupling_typing.py` reconstructs

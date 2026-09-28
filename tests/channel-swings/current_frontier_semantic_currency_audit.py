@@ -52,11 +52,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
-        check("K582" in live, "K582 live group upper missing")
-        check("K583" in live, "K583 live leakage route missing")
-        check("K584" in live, "K584 live floor result missing")
-        check("descriptor/mask-specific" in live, "live residual route missing")
-        check("noncyclic `gamma`" in live, "live complete-complement route missing")
+        check("K77 route" in live, "K77 nonfactorized route missing")
+        check("uniform spectral width" in live, "K500 spectral-width route missing")
+        check("complete-sector lower witness" in live,
+              "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -66,8 +65,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K582--K584 execute the next native" in summary,
-          "current K582--K584 result lost")
+    check("K588--K591 close K587's finite" in summary,
+          "current K588--K591 result lost")
     check("No K152 interval or source" in summary,
           "current claim ceiling lost")
 
@@ -92,17 +91,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
     check(
-        "K582 replays" in data["agenda"].get("latest_result_2026_09_28_k582_k584", ""),
-        "agenda K582--K584 result is not current",
+        "K588 composes" in data["agenda"].get("latest_result_2026_09_28_k588_k591", ""),
+        "agenda K588--K591 result is not current",
     )
     check(
-        "descriptor/mask-specific"
+        "nonfactorized functional properness"
         in data["agenda"].get("refresh_note", ""),
-        "agenda residual route is not current",
+        "agenda K77 route is not current",
     )
     check(
-        "named r0" in data["agenda"].get("refresh_note", ""),
-        "agenda complete-complement route is not current",
+        "uniform all-level diameter" in data["agenda"].get("refresh_note", ""),
+        "agenda K500 route is not current",
     )
 
     b5 = next(
@@ -159,7 +158,7 @@ def selftest(base: dict) -> tuple[int, int]:
     add("agenda-stale", lambda d: d["agenda"].__setitem__(
         "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
     add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
-        "latest_result_2026_09_28_k582_k584", "K581 remains the latest result."))
+        "latest_result_2026_09_28_k588_k591", "K587 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
         item for item in d["agenda"]["work_items"]
         if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"
