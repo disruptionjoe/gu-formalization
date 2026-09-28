@@ -8,6 +8,35 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K596--K597 soldering discriminator and action-column reconciliation
+
+K596 converts K594's missing-interface result into a minimal exact test. For a
+conditional rank-one coupling `C=c|y><x|`, the K444 defect is
+`Pi_target C-C Pi_source`. If the declared source and target vectors lie in
+matching projector halves the defect vanishes; if they lie in opposite halves
+the defect has rank one and Hilbert--Schmidt norm `|c|`. The already nonzero
+K594 coefficients `8736` and `-56/3` exercise both cases for both K589 arrow
+types. Thus coefficient nonvanishing alone neither proves nor obstructs a
+typed square. The existing rank-10 physical soldering chain and second
+observation jets do not own K441's corrected rank-512 carrier, K589's degree
+arrows or the missing action Riesz return, so no actual nonfactorized square is
+released.
+
+K597 corrects the retrieval scope of K595's successor. K456 already serializes
+a coefficient-complete convergent action column: 2,958 finite exchange terms
+through order twelve, zero unresolved required field instances and a rigorous
+all-order tail. K574 sharpens that tail from `3011499/838860800` to
+`9034497/33554432000`, exactly by `40/3`. These facts preserve K595's proof
+that support/counts alone do not determine amplitudes, while showing that the
+column and tail need not be reserialized. What remains is numerical enclosure
+of the finite vector integrals in `||v_n||^2`, `<v_n,W_n v_n>` and
+`||W_n v_n||^2`, plus a uniform normalized bound. K575's fixed M-dual residual
+uses a different typed target and cannot replace those moments. The two probes
+pass 59/59 controls and reject 59/59 hostile mutations. No K444 nonfactorized
+square, K500 uniform leakage, noncyclic floor, K473 beta, K152 interval,
+source, ledger, canon, paper, public, novelty, prediction, confirmation or
+physical conclusion moves.
+
 ## 2026-09-28 — K594--K595 native action-jet typing and vector-data sufficiency
 
 K594 resolves the literal first half of K592's wake without inventing a

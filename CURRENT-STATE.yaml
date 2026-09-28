@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K596--K597 convert the two K594/K595 boundaries into exact cheaper
+    successors without inventing the missing physics. K596 proves that a
+    conditional rank-one corrected-carrier coupling C=c|y><x| has zero K444
+    typed-square defect when x and y occupy matching projector halves, and a
+    rank-one defect of norm |c| when they occupy opposite halves. The nonzero
+    K594 coefficients 8736 and -56/3 exercise both outcomes for both K589
+    arrow types, so scalar nonvanishing alone does not decide either square.
+    Existing rank-10 physical soldering and second-observation jets do not own
+    K441's rank-512 carrier, K589's arrows or the missing action Riesz return.
+    K597 retrieves K456's coefficient-complete 2,958-term action column and
+    K574's sharp post-order-twelve tail 9034497/33554432000. The action column
+    and all-level tail therefore need not be rebuilt; the remaining K583 work
+    is numerical evaluation of ||v_n||^2, <v_n,W_n v_n> and ||W_n v_n||^2
+    with the sharp tail composed once and a uniform normalized bound. K575's
+    fixed M-dual residual is not substitutable. The probes pass 59/59 controls
+    and reject 59/59 hostile mutations. The complete-sector floor remains
+    independently open; no protected scientific or public conclusion moves.
+
     K594--K595 resolve the two exact post-K592/K593 data questions without
     inventing missing physics. K594 verifies that the selected I1B native
     third jet is already nonzero and partly serialized: D3_ttt=8736,
@@ -11093,21 +11111,24 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K594 verifies the selected action's native third jet is nonzero and partly
-  serialized, but it is a scalar trilinear on t/h/v field directions rather
-  than an owned deformation of K589's arrows on K441's corrected rank-512
-  carrier. The next K77 route must construct one source/action-owned
-  field-to-boundary injection, degree-sector soldering and action Riesz return,
-  then test both nonfactorized K444 squares. Do not relabel the missing typed
-  composition as a zero third jet, or the Euclidean minimal-norm off-image
-  extension as uniquely source-selected.
+  K596 supplies the exact rank-one discriminator for the missing K77
+  interface: matching corrected-carrier halves give zero K444 defect, while
+  opposite halves give rank-one defect of norm |c|. The next K77 route must
+  supply one source/action-owned field-to-boundary injection, degree-sector
+  soldering and action Riesz return naming the actual source and target
+  vectors, apply the discriminator to one K589 arrow, and repeat for the
+  other. Do not relabel the existing rank-10 physical observation soldering,
+  a nonzero K594 scalar coefficient or the Euclidean minimal-norm off-image
+  extension as the missing rank-512 action-owned interface.
 
-  Independently, K595 proves K583's direct route needs only the three moments
-  ||v_n||^2, <v_n,W_n v_n> and ||W_n v_n||^2, not a full normal-action matrix
-  or spectral diameter. Evaluate that coefficient-weighted action vector with
-  K177's exchange amplitudes and a rigorous all-level tail. Support counts,
-  CAR signs and twelve resolved orders do not bound amplitudes. The separate
-  numerical noncyclic floor remains required before K473 or K152 can move.
+  Independently, K597 proves K456 already owns the coefficient-complete 2,958-
+  term action column and K574 already owns the sharp all-level exchange tail.
+  Numerically enclose the finite vector integrals in ||v_n||^2,
+  <v_n,W_n v_n> and ||W_n v_n||^2, compose the K574 tail exactly once, and
+  prove the resulting normalized bound uniformly over supported q00/q10
+  levels. Do not reserialize the column or tail, and do not substitute K575's
+  differently typed M-dual residual. The separate numerical noncyclic floor
+  remains required before K473 or K152 can move.
 
   K510 shows that K507's explicit alternating q00/q10 paths are nonzero at
   every level, but a lower proof that pays the full ordered-simplex `1/n!`
@@ -11580,15 +11601,17 @@ contribution_path:
   - NEXT-STEPS.md
 next_condition: >-
   On the K77 route, construct one action-owned field-to-boundary soldering and
-  Riesz packet that maps a declared selected-I1B native variation into the
-  K589/K441 complex, then test both K444 squares, nilpotence and properness.
-  K594 proves the nonzero native scalar third jet alone does not type this
-  composition. On the K500 route, keep the finite native spectral-width route
-  retired and bound K583's normalized antisymmetrized action vectors from the
-  three coefficient-weighted moments of W_n v_n, retaining K177's exchange
-  amplitudes and an all-level tail. Separately serialize a named cancellation-
-  safe complete-sector lower witness. Preserve K588's off-image ownership
-  fence and K590's factorized-only ceiling.
+  Riesz packet that names corrected-carrier source and target vectors for a
+  declared selected-I1B variation. Apply K596's rank-one defect immediately to
+  one K589 arrow, repeat for the other, then test nilpotence and properness.
+  K596 proves the nonzero native scalar coefficient alone does not decide the
+  square. On the K500 route, keep the finite native spectral-width route
+  retired and numerically enclose K456's 2,958 finite vector integrals in the
+  three K583 moments, composing K574's sharp all-level tail exactly once and
+  proving a uniform normalized bound. Do not reserialize the coefficient-
+  complete column or substitute K575's M-dual residual. Separately serialize
+  a named cancellation-safe complete-sector lower witness. Preserve K588's
+  off-image ownership fence and K590's factorized-only ceiling.
 
   Continue K500 beyond K510's simplex-volume obstruction. Either prove a
   determinant-aware refinement-uniform lower for the explicit alternating

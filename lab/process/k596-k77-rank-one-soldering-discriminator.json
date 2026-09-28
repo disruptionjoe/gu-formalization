@@ -1,0 +1,161 @@
+{
+  "claim_ceiling": "Exact conditional rank-one K444 discriminator: a matching-half coupling has zero typed-square defect, while an opposite-half normalized coupling has rank-one defect of norm |c|. The nonzero K594 coefficients exercise both outcomes for both arrow types, but no action-owned corrected-carrier coupling is constructed and no K444 square, source, ledger, canon, paper, public, novelty or physical conclusion moves.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-28",
+  "decision": {
+    "K590_factorized_completion_retracted": false,
+    "K590_nonfactorized_square_test_released": false,
+    "actual_action_owned_soldering_constructed": false,
+    "conditional_rank_one_discriminator_emitted": true,
+    "next_exact_input": "Supply one action-owned field-to-corrected-carrier injection/Riesz packet naming source vector x and target vector y for either K589 arrow; then apply Delta(C) immediately and repeat for the other arrow.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "both_K444_arrow_types_exercised": true,
+    "cross_half_rows_rank_one": true,
+    "nonzero_K594_coefficients_replayed": [
+      "8736",
+      "-56/3"
+    ],
+    "rows": [
+      {
+        "coefficient": "8736",
+        "defect_frobenius_norm_square": "0",
+        "defect_rank": 0,
+        "name": "D2 same-half",
+        "source_vector": [
+          1,
+          0
+        ],
+        "target_vector": [
+          1,
+          0
+        ],
+        "typed_square_defect": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "coefficient": "8736",
+        "defect_frobenius_norm_square": "76317696",
+        "defect_rank": 1,
+        "name": "D2 cross-half",
+        "source_vector": [
+          1,
+          0
+        ],
+        "target_vector": [
+          0,
+          1
+        ],
+        "typed_square_defect": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "-8736",
+            "0"
+          ]
+        ]
+      },
+      {
+        "coefficient": "-56/3",
+        "defect_frobenius_norm_square": "0",
+        "defect_rank": 0,
+        "name": "D1 same-half",
+        "source_vector": [
+          0,
+          1
+        ],
+        "target_vector": [
+          0,
+          1
+        ],
+        "typed_square_defect": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0"
+          ]
+        ]
+      },
+      {
+        "coefficient": "-56/3",
+        "defect_frobenius_norm_square": "3136/9",
+        "defect_rank": 1,
+        "name": "D1 cross-half",
+        "source_vector": [
+          1,
+          0
+        ],
+        "target_vector": [
+          0,
+          1
+        ],
+        "typed_square_defect": [
+          [
+            "0",
+            "0"
+          ],
+          [
+            "56/3",
+            "0"
+          ]
+        ]
+      }
+    ],
+    "same_half_rows_zero": true
+  },
+  "existing_candidate_audit": {
+    "K594_action_Riesz_on_K441_pairing_serialized": false,
+    "existing_candidate_releases_actual_K444_square": false,
+    "physical_chain_owns_K441_rank512_carrier": false,
+    "physical_chain_scope": "local principal observation/metric receiver chain",
+    "physical_soldering_observation_rank": 10,
+    "second_observation_jets_own_K589_degree_arrows": false,
+    "second_observation_jets_serialized": true
+  },
+  "gu_typed_objects": {
+    "carrier": "declared source and target degree sectors tensored with K441 corrected-carrier halves",
+    "conditional_coupling": "C=c |y><x| after an action-owned injection/Riesz/soldering packet supplies x and y",
+    "projectors": "Pi_source and Pi_target on the declared corrected source and target carriers",
+    "result": "rank-one K444 discriminator MAP-TYPE=typed-square-defect",
+    "target": "both K444 arrow types H->Q and Q->M"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The same nonzero scalar gives zero defect for matching halves and rank-one defect for opposite halves; carrier placement, not scalar nonvanishing, decides the square.",
+    "strongest_overclaim": "Treating a nonzero K594 scalar coefficient or the rank-10 physical soldering chain as the missing corrected-carrier map.",
+    "weakest_reproducibility_seam": "The discriminator is conditional until an action-owned injection/Riesz packet supplies the actual corrected-carrier vectors."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "Existing physical soldering artifacts own a rank-10 local observation chain, not K441's corrected carrier or K589's degree arrows.",
+    "route_comparison": "Derive the cheapest exact discriminator before constructing any 512-by-512 deformation.",
+    "strongest_alternative": "A full action-owned soldering construction remains necessary for an actual square, but its first rank-one component can now be tested without expanding the full matrix."
+  },
+  "result_id": "K596-K77-RANK-ONE-SOLDERING-DISCRIMINATOR",
+  "schema_version": "1.0",
+  "scope": "The exact K444 typed-square defect for any future conditional rank-one action-owned coupling between declared corrected-carrier source and target halves, evaluated with two already nonzero K594 scalar coefficients.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "actual_owned_vectors_required": true,
+    "nonzero_scalar_is_not_a_soldering": true,
+    "opposite_half_result": "If Pi_source x=epsilon x and Pi_target y=(1-epsilon)y for normalized x,y, Delta has rank one and Hilbert-Schmidt norm |c|.",
+    "rank_one_formula": "For C=c|y><x|, Delta=c(|Pi_target y><x|-|y><Pi_source x|).",
+    "same_half_result": "If Pi_source x=epsilon x and Pi_target y=epsilon y for the same epsilon in {0,1}, Delta=0.",
+    "typed_square_defect": "Delta(C)=Pi_target C-C Pi_source"
+  }
+}

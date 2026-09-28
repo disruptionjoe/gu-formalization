@@ -1,0 +1,84 @@
+{
+  "K456_representation_replay": {
+    "all_order_tail_complete": true,
+    "coefficient_complete": true,
+    "complete_continuum_action_column_numerically_evaluated": false,
+    "complete_continuum_action_column_serialized": true,
+    "old_post_order_12_tail_norm_upper": "3011499/838860800",
+    "resolved_orders": [
+      2,
+      12
+    ],
+    "resolved_term_count": 2958,
+    "unresolved_required_field_instances": 0
+  },
+  "K574_tail_replay": {
+    "exact_improvement_factor": "40/3",
+    "resolved_through_order": 12,
+    "same_geometric_tail_shape": true,
+    "same_post_left_adjoint_location": true,
+    "sharp_post_order_12_tail_norm_upper": "9034497/33554432000",
+    "sharp_tail_strictly_smaller": true
+  },
+  "claim_ceiling": "Exact retrieval reconciliation: K456 already supplies a coefficient-complete convergent action-column representation with 2,958 resolved exchange terms and an all-order tail, and K574 sharpens that tail from 3011499/838860800 to 9034497/33554432000. The remaining K583 burden is numerical evaluation of three normalized moments and a uniform level bound. K575's fixed M-dual residual is not substitutable. No leakage bound, floor, K473 beta, source, ledger, canon, paper, public, novelty or physical conclusion is emitted.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition_theorem": {
+    "K574_sharpens_but_does_not_create_representation_completeness": true,
+    "K595_global_next_input_corrected_by_K456_retrieval": true,
+    "K595_support_only_diagnosis_preserved_for_K177": true,
+    "all_level_exchange_tail_already_serialized": true,
+    "coefficient_serialization_already_complete": true,
+    "finite_vector_integrals_still_numerically_unevaluated": true,
+    "full_operator_matrix_not_required": true,
+    "full_spectrum_not_required": true,
+    "minimum_remaining_numeric_payload": [
+      "||v_n||^2",
+      "<v_n,W_n v_n>",
+      "||W_n v_n||^2"
+    ]
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "K473_released": false,
+    "K583_direct_vector_route_preserved": true,
+    "coefficient_reserialization_required": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "new_all_level_tail_derivation_required_before_numerics": false,
+    "next_exact_input": "Numerically enclose the 2958 finite K456 vector integrals in the three K583 moment contractions, compose K574's sharp tail exactly once, and prove a uniform normalized bound over the supported q00/q10 levels; do not reserialize the action column or substitute K575's M-dual residual.",
+    "numerical_three_moment_evaluation_required": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_column": "coefficient-complete convergent W_n v_n representation inherited from K456",
+    "carrier": "K162 zero-bath q00/q10 seed exchange orbits and their K500 supported bath levels",
+    "pairing": "regular Hilbert pairing transported from M=S* S",
+    "result": "action-column/tail reconciliation MAP-TYPE=certificate-composition-boundary",
+    "target": "the three normalized K583 moments ||v_n||^2, <v_n,W_n v_n>, ||W_n v_n||^2"
+  },
+  "non_substitutability": {
+    "K575_interval_can_replace_K583_moments": false,
+    "K575_is_a_K583_three_moment_evaluation": false,
+    "K575_metric_type": "M-dual/Hilbert residual ell* M^(-1) ell",
+    "K575_object": "complete M-dual residual norm square for a fixed trial vector",
+    "K583_object": "orthogonal leakage of W_n v_n from the cyclic line, uniformly over supported n",
+    "reason": "The M-dual residual norm uses a different typed target and fixed trial-vector residual; it neither supplies <v_n,W_n v_n> nor separates the cyclic projection uniformly across K500 levels."
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Two action vectors can share a residual-norm enclosure while having different cyclic inner products and hence different leakage.",
+    "strongest_overclaim": "Calling coefficient completeness a numerical evaluation, or importing K575's residual interval as a K583 leakage bound.",
+    "weakest_reproducibility_seam": "The 2958 finite vector integrals remain unevaluated in the required moment contractions and uniformity over all supported levels remains open."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K456 already serializes every finite coefficient through order 12 and a complete later-order tail; K574 sharpens that same tail by 40/3.",
+    "route_comparison": "Retrieve coefficient-complete action-column and tail artifacts before commissioning new serialization or operator-wide work.",
+    "strongest_alternative": "K575 numerically encloses a nearby M-dual residual, but its typed object cannot substitute for K583's cyclic-projection moments."
+  },
+  "result_id": "K597-K500-ACTION-COLUMN-TAIL-RECONCILIATION",
+  "schema_version": "1.0",
+  "scope": "The exact overlap and non-overlap among K456's coefficient-complete continuum action column, K574's sharp post-order-12 exchange tail, K575's M-dual residual enclosure and K595's three-moment K583 leakage interface.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

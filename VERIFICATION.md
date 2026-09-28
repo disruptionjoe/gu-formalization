@@ -7,6 +7,27 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K596--K597 soldering discriminator and action-column reconciliation (2026-09-28)
+
+K596 evaluates the K444 typed-square defect exactly on four rational rank-one
+controls: matching and opposite corrected-carrier halves for each of the two
+degree-changing arrow types. Matching halves give rank zero; opposite halves
+give rank one with squared norm `c^2`, including the exact K594 coefficients
+`8736` and `-56/3`. This is a conditional discriminator, not construction of
+the missing action-owned vectors or Riesz map. The audit also prevents the
+existing rank-10 physical observation soldering from being relabelled as the
+rank-512 corrected-carrier interface.
+
+K597 replays K456's coefficient-complete 2,958-term action-column manifest and
+K574's sharp post-order-twelve tail, verifying the exact `40/3` improvement.
+It then checks the object boundary against K575: a fixed M-dual residual norm
+does not provide K583's cyclic inner product or three levelwise moments. The
+remaining executable work is therefore numerical integration in those three
+contractions plus uniform normalization, not coefficient or tail
+reserialization. The two probes pass 59/59 controls and reject 59/59 hostile
+mutations. No K444 square, K500 uniform bound, complete-sector floor, K473
+beta, K152 interval or protected scientific/public conclusion follows.
+
 ## K594--K595 native action-jet typing and vector-data sufficiency (2026-09-28)
 
 K594 composes the exact K122/K124 native coefficients with K441/K589/K590's

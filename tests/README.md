@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K596--K597 soldering discriminator and action-column reconciliation
+
+- `channel-swings/k596_k77_rank_one_soldering_discriminator.py` derives and
+  checks the rank-one K444 defect for matching and opposite carrier halves on
+  both degree-changing arrow types.
+- `channel-swings/k597_k500_action_column_tail_reconciliation.py` proves K456
+  already owns the coefficient-complete action column, composes K574's sharper
+  tail boundary and separates K575's non-substitutable M-dual residual.
+- The two `_probe.py` files pass 59 exact controls and reject 59 hostile
+  mutations while preserving every source, ledger and downstream claim fence.
+
 ## K594--K595 native action-jet typing and vector-data sufficiency
 
 - `channel-swings/k594_k77_native_third_jet_carrier_typing.py` composes the

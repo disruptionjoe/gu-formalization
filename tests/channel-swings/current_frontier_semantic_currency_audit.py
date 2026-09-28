@@ -56,8 +56,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("field-to-boundary soldering" in live, "K77 soldering route missing")
         check("finite native spectral-width route" in live,
               "K500 native-width obstruction missing")
-        check("normalized antisymmetrized action vectors" in live,
-              "K500 direct-vector route missing")
+        check("three K583 moments" in live,
+              "K500 three-moment route missing")
         check("complete-sector lower witness" in live,
               "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
@@ -69,9 +69,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K594--K595 resolve the two exact post-K592/K593 data questions" in summary,
-          "current K594--K595 result lost")
-    check("separate complete-sector floor remains open" in summary,
+    check("K596--K597 convert the two K594/K595 boundaries" in summary,
+          "current K596--K597 result lost")
+    check("complete-sector floor remains" in summary,
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
@@ -95,16 +95,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
     check(
-        "K594 reuses" in data["agenda"].get("latest_result_2026_09_28_k594_k595", ""),
-        "agenda K594--K595 result is not current",
+        "K596 derives" in data["agenda"].get("latest_result_2026_09_28_k596_k597", ""),
+        "agenda K596--K597 result is not current",
     )
     check(
-        "field/carrier soldering"
+        "typed injection/soldering/Riesz packet"
         in data["agenda"].get("refresh_note", ""),
         "agenda K77 route is not current",
     )
     check(
-        "three moments"
+        "three K583 moments"
         in data["agenda"].get("refresh_note", ""),
         "agenda K500 route is not current",
     )
@@ -163,7 +163,7 @@ def selftest(base: dict) -> tuple[int, int]:
     add("agenda-stale", lambda d: d["agenda"].__setitem__(
         "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
     add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
-        "latest_result_2026_09_28_k594_k595", "K593 remains the latest result."))
+        "latest_result_2026_09_28_k596_k597", "K595 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
         item for item in d["agenda"]["work_items"]
         if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"

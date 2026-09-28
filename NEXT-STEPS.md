@@ -7,6 +7,25 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K596--K597 RANK-ONE SOLDERING DISCRIMINATOR AND ACTION-COLUMN
+> RECONCILIATION.** K596 derives the exact conditional defect
+> `Delta(c|y><x|)=Pi_target C-C Pi_source`. A matching-half coupling has zero
+> defect; an opposite-half normalized coupling has rank one and norm `|c|`.
+> The nonzero K594 coefficients exercise both outcomes for both K444 arrow
+> types, proving that scalar nonvanishing does not decide the square. Existing
+> rank-10 physical soldering and second-observation jets do not own K441's
+> rank-512 carrier, K589's arrows or the missing action Riesz return. K597
+> retrieves K456's coefficient-complete 2,958-term action column and K574's
+> sharper all-order tail `9034497/33554432000`; these objects need not be
+> rebuilt. The remaining K583 burden is numerical evaluation of the three
+> normalized moments with the sharp tail composed exactly once. K575's fixed
+> M-dual residual is a different typed object and cannot substitute. The two
+> probes pass `59/59` controls and reject `59/59` hostile mutations. Next
+> supply one action-owned corrected-carrier injection/Riesz packet and,
+> independently, numerically enclose K456's finite integrals in the three K583
+> contractions uniformly over supported levels. The complete-sector numerical
+> floor remains separately open.
+
 > **2026-09-28 K594--K595 NATIVE ACTION-JET TYPING AND VECTOR-DATA
 > SUFFICIENCY.** K594 reuses the selected-I1B cubic bank rather than treating
 > K592's generic control as the action. The native third jet already has
