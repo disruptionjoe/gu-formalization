@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K579--K581 group uppers and native K500 bridges
+
+K579 resolves the first K577 integration obligation at the level of rigorous
+upper certificates. It partitions K369's 2,400 ordered descriptors exactly
+among all 23 native order-eight groups and reuses the full K370 face-owner and
+recursive-interior cover. The group second-derivative bounds and raw Peano
+remainders sum exactly to the prior complete totals. All 23 resulting complete
+noncompact-domain upper endpoints exceed their K577 targets; the smallest is
+`3.3517369355256e+678`, so the shared worst-case determinant/transition cover
+must be replaced rather than merely reallocated.
+
+K580 specializes K578 to the actual K172 q00/q10 bath-level-one measures. A
+uniform exact lower `D_256(omega(p))>=14/2928805` makes the positive mean-square
+subtraction explicit and strictly sharpens both K502 leakage-square uppers.
+This remains one level, not the K500 supremum. K581 composes K462 with K500:
+the complete-sector semibound restricts to `N=C^perp_M`, proving an existential
+noncyclic floor, but K462 supplies no named value usable in K494. The three
+probes pass 53/53 controls and reject 33/33 hostile mutations. K152 and all
+source, ledger, canon, paper, public, novelty, prediction, confirmation and
+physical conclusions remain open or unchanged.
+
 ## 2026-09-28 — K577--K578 coherent targets and pairwise variance
 
 K577 converts K576's projection-sine-one-half high-order allowance into a

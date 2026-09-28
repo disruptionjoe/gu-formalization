@@ -7,6 +7,21 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K579--K581 GROUP UPPERS AND NATIVE K500 BRIDGES.** K579
+> certifies complete noncompact-domain uppers for all 23 order-eight coherent
+> groups by partitioning all 2,400 ordered descriptors and replaying the exact
+> K369/K370 owner cover. The group results conserve the complete derivative and
+> remainder totals, but all 23 fail K577; even the smallest upper is
+> `3.3517369355256e+678`. K580 instantiates the actual q00/q10 bath-level-one
+> K578 energy and strictly sharpens K502 using
+> `D_256(omega(p))>=14/2928805`. K581 proves the K500 noncyclic compression has
+> an existential native floor inherited from K462, but no numerical `gamma`.
+> The probes pass `53/53` controls and reject `33/33` hostile mutations. Next
+> build group-adaptive determinant/radial bounds, derive uniform higher-level
+> pairwise kernels, and extract a cancellation-safe quantitative noncyclic
+> floor. K152 and all source, ledger, canon, public and physical claims remain
+> unchanged.
+
 > **2026-09-28 K577--K578 COHERENT TARGET ATLAS AND PAIRWISE VARIANCE.**
 > K577 replays all 2,720 high-order K179 vectors, 128 coherent groups and
 > 58,826 upper-triangle Gram entries. It conserves K576's exact

@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "The fixed native K162 noncyclic compression is proved semibounded because it is a closed compression of K462's semibounded complete-sector form. K462 supplies no named numerical lower witness, so this emits no quantitative gamma, K494 target test, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "K462_complete_sector_semibound_reused_without_retraction": true,
+    "K473_native_beta_emitted": false,
+    "K494_target_test_released": false,
+    "K500_noncyclic_floor_existence_emitted": true,
+    "named_quantitative_noncyclic_floor_emitted": false,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Extract a cancellation-safe named lower witness r0 for the combined fixed form or a sharper direct compression bound on N, then compare that quantitative gamma with the cyclic floor and leakage in K494."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "complete_diagonal": [
+      "-4",
+      "2",
+      "5"
+    ],
+    "complete_floor": "-4",
+    "compression_may_improve_the_floor": true,
+    "existence_without_numeric_uniformity_family": [
+      {
+        "complete_sector_has_a_finite_lower_bound": true,
+        "noncyclic_floor": "-100",
+        "parameter": "-100"
+      },
+      {
+        "complete_sector_has_a_finite_lower_bound": true,
+        "noncyclic_floor": "-3",
+        "parameter": "-3"
+      },
+      {
+        "complete_sector_has_a_finite_lower_bound": true,
+        "noncyclic_floor": "7",
+        "parameter": "7"
+      }
+    ],
+    "family_noncyclic_floors_are_distinct": true,
+    "inherited_complete_floor_is_valid_on_noncyclic_space": true,
+    "noncyclic_floor": "2",
+    "noncyclic_indices": [
+      1,
+      2
+    ]
+  },
+  "gu_typed_objects": {
+    "carrier": "one complete K162 charge sector with cyclic closure C and N=C^perp_M",
+    "form": "fixed K139/K168 center-zero reference form from K462",
+    "pairing": "physical positive M=S* S Hilbert pairing",
+    "result": "noncyclic semibound inheritance MAP-TYPE=form-compression",
+    "target": "K500/K494 noncyclic compressed-form floor gamma"
+  },
+  "native_composition": {
+    "complete_sector_input": "K462 proves that there exists a finite regular lower bound r0 for the fixed center-zero form on each complete K162 charge sector.",
+    "compression_identity": "for every n in N, <n,R_N n>=<n,R n>",
+    "existential_native_noncyclic_floor_proved": true,
+    "inherited_inequality": "R>=r0 M on H_q implies P_N R P_N>=r0 P_N M P_N on N",
+    "named_quantitative_gamma_available": false,
+    "named_quantitative_r0_available": false,
+    "noncyclic_space_input": "K500 identifies N=C^perp_M as a closed M-orthogonal subspace of that same complete sector."
+  },
+  "result_id": "K581-K500-NONCYCLIC-SEMIBOUND-INHERITANCE",
+  "schema_version": "1.0",
+  "scope": "K500's noncyclic closed subspace N=C^perp_M inside one complete K162 q00 or q10 sector for the fixed K139/K168 center-zero form.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -7,6 +7,29 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K579--K581 group uppers and native K500 bridges (2026-09-28)
+
+K579 proves a groupwise linear replay theorem for the already certified K369
+and K370 noncompact cover. Every face and interior upper is linear in K369's
+complete coherent second-derivative sum, so replacing that sum by the exact
+descriptor partition for one group preserves all face owners, transition
+depths and Peano terms. The 23 group derivative bounds and remainders sum
+exactly to K369/K371. Every complete group upper is finite, but none meets its
+K577 target; this is a rigorous failure of the current coarse cover, not a
+failure of the native group integral.
+
+K580 proves the actual level-one K578 identity for the q00/q10 K172 profile
+measure and multiplier. Restricting the defining D integral to `|k|<=1` gives
+the exact positive lower `14/2928805`, so
+`Var(D)<=||Dh||^2/||h||^2-(14/2928805)^2`. This is strictly sharper than K502
+but does not control higher bath levels. K581 proves that any complete-sector
+lower form bound restricts to the closed noncyclic compression, then uses a
+finite exact family to show why existential semiboundedness supplies no common
+numerical floor. The three probes pass 53/53 controls and reject 33/33 hostile
+mutations. No K494 target test, K473 beta, K152 interval or source, ledger,
+canon, paper, public, novelty, prediction, confirmation or physical conclusion
+follows.
+
 ## K577--K578 coherent targets and pairwise variance (2026-09-28)
 
 K577 independently rebuilds the K179 order-eight-through-twelve group census:

@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K579--K581 group uppers and native K500 bridges
+
+- `channel-swings/k579_k577_order_eight_group_complete_uppers.py` partitions
+  all 2,400 K369 descriptors into 23 groups and replays the complete K370
+  noncompact owner cover, conserving the complete derivative and remainder
+  totals while testing every K577 order-eight target.
+- `channel-swings/k580_k578_native_first_level_pairwise_energy.py` instantiates
+  the actual q00/q10 level-one pairwise energies and strictly sharpens K502 by
+  subtracting a certified positive mean square.
+- `channel-swings/k581_k500_noncyclic_semibound_inheritance.py` proves that
+  K462's complete-sector semibound compresses to K500's noncyclic space while
+  preserving the missing quantitative-floor boundary.
+- The three `_probe.py` files replay the exact conservation, native multiplier
+  and compression controls and reject 33 hostile mutations.
+
 ## K577--K578 coherent targets and pairwise variance
 
 - `channel-swings/k577_k152_high_order_coherent_group_target_atlas.py`

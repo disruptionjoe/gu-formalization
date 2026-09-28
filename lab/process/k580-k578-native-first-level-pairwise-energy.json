@@ -1,0 +1,87 @@
+{
+  "claim_ceiling": "A rigorous direct K578 pairwise-energy instantiation for the actual q00/q10 bath-number-one blocks, strictly sharper than K502 by a positive mean-square subtraction. It is not an all-level K500 bound, noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "actual_q00_q10_first_level_pairwise_energy_upper_emitted": true,
+    "actual_q00_q10_pairwise_measures_instantiated": true,
+    "complete_K500_uniform_leakage_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_uniform_all_level_variance_emitted": false,
+    "next_exact_input": "Derive the actual higher-level q00/q10 normal-action pairwise kernels and a bound uniform in bath number; the level-one measure now serves as the exact base case, not as the supremum.",
+    "noncyclic_floor_emitted": false,
+    "strictly_sharper_than_K502": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "K162 q00 or q10 bath-number-one regular-coordinate block",
+    "form": "self-adjoint K172 normal action W_1",
+    "pairing": "normalized positive profile measure induced by h(p)",
+    "result": "native pairwise leakage energy MAP-TYPE=orthogonal-block-norm",
+    "target": "the level-one K500 cyclic/noncyclic cross block"
+  },
+  "native_sector_pairwise_energy": [
+    {
+      "D_multiplicity": 1,
+      "D_pointwise_lower_exact": "14/2928805",
+      "D_second_moment_upper_exact": "39062500000000000000000000/12432984995729791831957441",
+      "D_variance_upper_exact": "335074169061039697440836960800936341564/106648886180424491411945767699833984025",
+      "K502_second_moment_square_upper_exact": "39062500000000000000000000/12432984995729791831957441",
+      "actual_multiplier": "256-1*D_256(omega(p))",
+      "actual_profile_measure": "dmu_h(p)=|h(p)|^2 dp / ||h||^2",
+      "bath_level": 1,
+      "charge": [
+        0,
+        0
+      ],
+      "components": 2,
+      "normal_leakage_square_upper_exact": "335074169061039697440836960800936341564/106648886180424491411945767699833984025",
+      "pairwise_kernel": "1^2*(D_256(omega(p))-D_256(omega(q)))^2/2",
+      "seed": "vacuum",
+      "strict_improvement_exact": "196/8577898728025",
+      "strictly_improves_K502": true,
+      "uniform_all_level_bound": false
+    },
+    {
+      "D_multiplicity": 2,
+      "D_pointwise_lower_exact": "14/2928805",
+      "D_second_moment_upper_exact": "39062500000000000000000000/12432984995729791831957441",
+      "D_variance_upper_exact": "335074169061039697440836960800936341564/106648886180424491411945767699833984025",
+      "K502_second_moment_square_upper_exact": "156250000000000000000000000/12432984995729791831957441",
+      "actual_multiplier": "256-2*D_256(omega(p))",
+      "actual_profile_measure": "dmu_h(p)=|h(p)|^2 dp / ||h||^2",
+      "bath_level": 1,
+      "charge": [
+        1,
+        0
+      ],
+      "components": 1,
+      "normal_leakage_square_upper_exact": "1340296676244158789763347843203745366256/106648886180424491411945767699833984025",
+      "pairwise_kernel": "2^2*(D_256(omega(p))-D_256(omega(q)))^2/2",
+      "seed": "one_impurity",
+      "strict_improvement_exact": "784/8577898728025",
+      "strictly_improves_K502": true,
+      "uniform_all_level_bound": false
+    }
+  ],
+  "pairwise_theorem": {
+    "K502_relation": "K502 used only Var(D)<=E[D^2]; the positive d0 term is a strict certified improvement on the same actual block.",
+    "K578_specialization": "lambda_1^2=(m^2/2) int int (D(p)-D(q))^2 dmu_h(p)dmu_h(q)=m^2 Var_mu_h(D)",
+    "identical_q00_components_cancel_from_normalization": true,
+    "scalar_256_cancels": true,
+    "strict_upper": "Var(D)=E[D^2]-E[D]^2 <= ||D h||^2/||h||^2-d0^2"
+  },
+  "pointwise_lower_certificate": {
+    "D_definition": "D_256(e)=int_R e/((omega(k)+256)(omega(k)+256+e)) dk/(2*pi)",
+    "pi_bound": "pi<22/7",
+    "restriction": "on |k|<=1, omega(k)<=sqrt(2)<3/2; for e=omega(p)>=1 the integrand increases in e",
+    "result": "D_256(omega(p))>=14/(11*515*517) for every p",
+    "strict_positive_mean": true
+  },
+  "result_id": "K580-K578-NATIVE-FIRST-LEVEL-PAIRWISE-ENERGY",
+  "schema_version": "1.0",
+  "scope": "The actual K172 bath-number-one q00 and q10 cyclic measures and normal-action multipliers in the fixed K139 chart.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
