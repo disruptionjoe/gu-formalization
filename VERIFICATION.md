@@ -7,6 +7,27 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K604--K605 determinant-kernel atlas and factorwise selector obstruction (2026-09-28)
+
+K604 replays the complete K177 path and K179 coefficient generators, then
+builds the CAR exterior pairing specieswise as determinants of
+`kappa(s_i+r_j)`. It preserves simplex ranks, contracted heat times, exact
+signs and Gram symmetry factors before quotienting flavor-isometric kernels.
+Its `12/12` controls reconcile all 83,282 K603-surviving unordered products;
+`10/10` hostile mutations reject moved counts, erased classes and numerical or
+downstream overclaims. The artifact is an exact integral-class atlas, not a
+quadrature result.
+
+K605 proves the coefficient-independent tensor identity
+`(I tensor g)(D tensor I)=(D tensor I)(I tensor g)` and applies it to both K590
+arrows. The executable control checks 20 equivariance squares for two
+rectangular arrows against the faithful `3+3` signed-permutation subgroup,
+with zero entrywise defect, zero invariant-vector dimension and the unchanged
+two-dimensional block-identity commutant. Its `23/23` controls pass and
+`13/13` hostile mutations are rejected. This strengthens K600 only for
+factorwise maps; a genuinely carrier-dependent action datum remains outside
+the theorem and can reopen K598.
+
 ## K602--K603 order-two numerical moments and all-order signature sparsity (2026-09-28)
 
 K602 independently replays the K180 contracted exchange kernel and uses its

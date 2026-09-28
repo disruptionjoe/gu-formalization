@@ -1,0 +1,92 @@
+{
+  "K590_replay": {
+    "K590_factorized_completion_endpoint_reached": true,
+    "both_K444_squares_hold_for_all_parallel_projectors": true,
+    "carrier_half_ranks": [
+      256,
+      256
+    ],
+    "carrier_rank": 512,
+    "lifted_D1_rank": 35840,
+    "lifted_D2_rank": 10752
+  },
+  "K600_replay": {
+    "commutant_basis_ranks": [
+      3,
+      3
+    ],
+    "commutant_dimension": 2,
+    "invariant_vector_dimension": 0,
+    "nonzero_rank_one_commutant_exists": false
+  },
+  "claim_ceiling": "Exact strengthening of K600 for the K590 factorized action completion: every D_i tensor I_E intertwines the full O(E_+)xO(E_-) carrier action, so those nonzero action-owned base maps do not reduce the carrier stabilizer and cannot naturally select a nonzero vector, covector or rank-one packet on E. K590 remains exact and K598 remains conditionally live; only an additional datum acting nontrivially on E can reopen the route. No nonlinear properness, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion moves.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-28",
+  "decision": {
+    "K590_factorized_completion_retracted": false,
+    "K598_conditional_transport_preserved": true,
+    "K600_no_selector_theorem_strengthened": true,
+    "factorwise_base_maps_reduce_carrier_stabilizer": false,
+    "factorwise_base_maps_select_nonzero_carrier_data": false,
+    "next_exact_input": "Supply an action-owned datum that acts nontrivially on E itself--for example a named field-to-carrier injection, boundary vector/field or nonfactorized carrier coupling--together with its K441 Riesz return. Further multiplicity-space coefficient data tensored with I_E cannot reopen K598.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_factorwise_lifts_equivariant": true,
+    "base_arrow_shapes": [
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        2
+      ]
+    ],
+    "carrier_commutant_basis_ranks_after_adjoining_lifts": [
+      3,
+      3
+    ],
+    "carrier_commutant_dimension_after_adjoining_lifts": 2,
+    "carrier_generator_count": 10,
+    "equivariance_square_count": 20,
+    "invariant_vector_dimension_after_adjoining_lifts": 0,
+    "maximum_entrywise_equivariance_defect": 0,
+    "nonzero_rank_one_carrier_commutant_exists": false,
+    "toy_carrier_rank": 6,
+    "toy_half_rank": 3
+  },
+  "gu_typed_objects": {
+    "adjoined_action_maps": "K590's D2 tensor I_E and D1 tensor I_E",
+    "base_complex": "K589's exact H^21 --D2--> Q^91 --D1--> M^70 action-coupled coefficient complex",
+    "carrier": "K441's corrected rank-512 E=E_+ direct-sum E_- with half-ranks 256+256",
+    "naturality_group": "O(E_+) x O(E_-), acting trivially on base multiplicity spaces and in the defining way on E",
+    "result": "factorwise selector obstruction MAP-TYPE=equivariant-tensor-factor no-go",
+    "target": "a nonzero K598 initial carrier vector/covector or rank-one carrier packet"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Adjoin a named nonzero carrier vector or a genuinely E-dependent action map; the full stabilizer is then reduced and K596/K598 can be evaluated.",
+    "strongest_overclaim": "Treating the obstruction as rejection of every action-derived soldering or of K590's exact base complex.",
+    "weakest_reproducibility_seam": "The 256+256 result is the general tensor identity; the executable control instantiates two rectangular base arrows against a faithful signed-permutation subgroup on 3+3 carrier coordinates."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K590 proves exact factorized action arrows and K600 proves the scalar-plus-projector no-selector theorem; neither artifact had tested whether those arrows reduce the carrier stabilizer.",
+    "route_comparison": "Test the tensor-factor commutant identity before searching K590's nonzero coefficients for a preferred carrier direction.",
+    "strongest_alternative": "A nonfactorized action map touching E can reduce the stabilizer and remains outside the present data."
+  },
+  "result_id": "K605-K77-FACTORWISE-SELECTOR-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Whether adjoining K590's exact action-derived base arrows D2 tensor I_E and D1 tensor I_E to K600's corrected-carrier data reduces O(E_+) x O(E_-) enough to select a nonzero carrier vector, covector or rank-one packet.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "coefficient_nonvanishing_is_irrelevant_to_carrier_naturality": true,
+    "endomorphism_consequence": "Every natural carrier endomorphism remains a*I_(E_+) direct-sum b*I_(E_-); since both blocks have rank 256, no nonzero rank-one carrier packet results.",
+    "factorwise_action_is_not_stabilizer_reducing": true,
+    "intertwining_identity": "For every base map D and every g in O(E_+) x O(E_-), (I_cod tensor g)(D tensor I_E)=(D tensor I_E)(I_dom tensor g).",
+    "stabilizer_consequence": "Adjoining D1 tensor I_E and D2 tensor I_E leaves the entire K600 carrier stabilizer unbroken.",
+    "vector_and_covector_consequence": "Every natural carrier vector or covector remains fixed by all independent half-space sign reversals and is therefore zero."
+  }
+}

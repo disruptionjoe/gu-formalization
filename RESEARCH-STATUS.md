@@ -8,6 +8,27 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K604--K605 determinant-kernel atlas and factorwise selector obstruction
+
+K604 preserves every K177/K179 coordinate, coefficient, ordered simplex,
+contracted scalar heat factor and specieswise exterior determinant while
+quotienting only identical flavor-isometric kernels. The 83,282 surviving
+unordered `N/A_F/B_F` products reduce to 41,063 exact kernel classes. Their
+split is 1,161 norm, 10,606 mixed and 29,296 action-norm classes; exact signed
+multiplicities cancel 1,625 mixed classes, leaving 39,438 nonzero classes for
+outward enclosure. No higher-order kernel value or finite moment is claimed.
+
+K605 proves that K590's action-derived factorwise maps cannot supply K600's
+missing carrier selector. Every `D_i tensor I_E` intertwines the full
+`O(E_+)xO(E_-)` action, so adjoining the nonzero base arrows leaves the carrier
+stabilizer intact. Natural vectors and covectors remain zero and natural
+carrier endomorphisms remain block scalars, with no nonzero rank-one packet.
+The probes pass 35/35 controls and reject 23/23 hostile mutations. K590 is not
+retracted and K598 remains conditionally live; the exact K77 reopener must act
+nontrivially on `E`. Complete finite and uniform K500 leakage, the noncyclic
+floor and every protected source, ledger, canon, paper, public or physical
+conclusion remain open.
+
 ## 2026-09-28 — K602--K603 order-two numerical moments and all-order signature sparsity
 
 K602 composes K601 with K180's certified exchange kernel rather than

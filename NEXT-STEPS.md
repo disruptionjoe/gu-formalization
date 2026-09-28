@@ -7,6 +7,20 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K604--K605 DETERMINANT-KERNEL ATLAS AND FACTORWISE SELECTOR
+> OBSTRUCTION.** K604 compiles all 83,282 K603-surviving `N/A_F/B_F`
+> unordered products into 41,063 exact determinant-simplex classes: 1,161
+> norm, 10,606 mixed and 29,296 action-norm classes. Exact signed
+> multiplicities cancel 1,625 mixed classes, leaving 39,438 nonzero classes
+> for outward quadrature. K605 proves every K590 arrow `D_i tensor I_E`
+> intertwines the full `O(E_+)xO(E_-)` carrier action, so the nonzero
+> factorwise action maps do not reduce K600's stabilizer or select a carrier
+> vector, covector or rank-one packet. The probes pass `35/35` controls and
+> reject `23/23` hostile mutations. Next outwardly enclose the nonzero K604
+> kernels before K599/K574 composition, and on K77 supply a genuinely
+> `E`-dependent action datum and K441 Riesz return. Neither result moves the
+> source register, ledger, complete leakage or complete-sector floor.
+
 > **2026-09-28 K602--K603 ORDER-TWO NUMERICAL MOMENTS AND ALL-ORDER
 > SIGNATURE SPARSITY.** K602 encloses K601's common order-two moments as
 > `n in [6.8632403655301529e-7,8.7261345444545247e-7]`,

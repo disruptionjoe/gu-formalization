@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K604--K605 determinant-kernel atlas and factorwise selector obstruction
+
+- `channel-swings/k604_k500_determinant_simplex_kernel_atlas.py` compiles
+  every K603-surviving finite Gram product into exact flavor-isometry-quotiented
+  determinant-simplex classes with signed multiplicities.
+- `channel-swings/k605_k77_factorwise_selector_obstruction.py` proves K590's
+  factorwise action arrows leave K600's full carrier stabilizer intact and
+  cannot select a nonzero carrier packet.
+- The two `_probe.py` files pass 35 exact controls and reject 23 hostile
+  mutations while preserving the numerical, source, ledger and physical
+  claim fences.
+
 ## K602--K603 order-two numerical moments and all-order signature sparsity
 
 - `channel-swings/k602_k500_order_two_numerical_moment_enclosure.py`
