@@ -7,6 +7,29 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K577--K578 coherent targets and pairwise variance (2026-09-28)
+
+K577 independently rebuilds the K179 order-eight-through-twelve group census:
+2,720 vectors, 128 coherent groups, 58,826 upper-triangle Gram entries and
+114,932 ordered quadratic terms. It allocates K576's exact high-order
+allowance equally across the five orders and then across each order's native
+groups; both levels sum exactly to the aggregate. This is a sufficient
+planning allocation, not a mathematical necessity. All five rigorous native
+one-node upper endpoints lie below their order targets, while all current
+complete Peano upper endpoints exceed them. The result therefore identifies
+the exact groupwise completion test but does not enclose a full integral.
+
+K578 proves the weighted-variance pairwise identity and Popoviciu oscillation
+bound used by the direct K501 route. Its exact controls reproduce K501's
+`36/25` variance, preserve it under a scalar shift, and check a nontrivial
+three-value case plus the constant-multiplier zero case. A uniform K500 bound
+still requires the actual q00/q10 cyclic weight measures and normal-action
+pairwise energy at every supported level; the noncyclic floor is separate.
+The two probes pass 34/34 controls and reject 23/23 hostile mutations. No
+K152 interval or source, ledger, canon, paper, public, novelty, prediction,
+confirmation or physical conclusion follows.
+
+
 ## K574--K576 sharp residual tail and high-order budget (2026-09-28)
 
 K574 reconciles K496's coefficient-complete sixteen-monomial K176 exchange

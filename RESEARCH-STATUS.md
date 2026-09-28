@@ -8,6 +8,26 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K577--K578 coherent targets and pairwise variance
+
+K577 converts K576's projection-sine-one-half high-order allowance into a
+complete native integration target atlas. It replays 2,720 K179 vectors, 128
+coherent groups, 58,826 upper-triangle entries and 114,932 ordered quadratic
+terms across orders eight through twelve. Exact equal order/group allocations
+sum back to the accepted aggregate allowance. Every rigorous native one-node
+rule fits its order target, but all five complete Peano ceilings exceed them;
+the node values are not complete-integral bounds.
+
+K578 gives the independent K500 route an exact normalized certificate. For
+weights `a_i=|v_i|^2`, the K501 leakage square is
+`sum_(i<j) a_i a_j (m_i-m_j)^2/(sum_i a_i)^2` and is at most one quarter of
+the multiplier oscillation squared. This avoids a separate lower bound on the
+word norm and therefore bypasses K510's factorial-loss template, but the
+actual q00/q10 all-level pairwise energy and noncyclic compressed-form floor
+remain unproved. The two probes pass 34/34 controls and reject 23/23 hostile
+mutations. K152 and all source, ledger, canon, paper, public, novelty,
+prediction, confirmation and physical conclusions remain open or unchanged.
+
 ## 2026-09-28 — K574--K576 sharp residual tail and high-order budget
 
 K574 proves that K496's coefficient-complete sixteen-monomial K176 exchange

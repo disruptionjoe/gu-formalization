@@ -7,6 +7,21 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K577--K578 COHERENT TARGET ATLAS AND PAIRWISE VARIANCE.**
+> K577 replays all 2,720 high-order K179 vectors, 128 coherent groups and
+> 58,826 upper-triangle Gram entries. It conserves K576's exact
+> `200120160459886805516556370537453703058053/75497472000000000000000000000000000000000`
+> allowance through exact sufficient order and group targets. All five native
+> one-node rules lie below their targets; none is a complete integral, and the
+> current Peano uppers remain too coarse. K578 proves K501 leakage is the
+> pairwise multiplier-difference variance and admits the oscillation-square/
+> four bound, bypassing K510's factorial-loss template without yet bounding
+> the actual all-level q00/q10 variance. The probes pass `34/34` controls and
+> reject `23/23` hostile mutations. Next certify complete K577 group uppers,
+> beginning at order eight, and instantiate K578 on the actual cyclic measures
+> while separately proving the noncyclic compressed-form floor. K152 and all
+> source, ledger, canon, public and physical claims remain unchanged.
+
 > **2026-09-28 K574--K576 SHARP RESIDUAL TAIL AND HIGH-ORDER BUDGET.** K574
 > reconciles K496's coefficient-complete K176 exchange orbit with K457's
 > post-left-adjoint tail, replacing coefficient `40/3` by `1` and sharpening

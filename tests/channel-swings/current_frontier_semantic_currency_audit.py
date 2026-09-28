@@ -52,22 +52,22 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
-        check("K574--K575" in live, "K574--K575 live result missing")
-        check("K576" in live, "K576 live budget missing")
-        check("cancellation-aware" in live, "live residual route missing")
-        check("K494/K500 reference-specific" in live, "live complete-complement route missing")
+        check("K577" in live, "K577 live target atlas missing")
+        check("K578" in live, "K578 live variance route missing")
+        check("complete noncompact-domain" in live, "live residual route missing")
+        check("noncyclic compressed-form floor" in live, "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
-        check("shifted-form or spectral-error lower" in live,
-              "live M-dual claim ceiling missing")
+        check("shifted-form residual or spectral-error bound" in live,
+              "live K152 claim ceiling missing")
         for marker in surface["stale_live_markers_forbidden"]:
             check(marker not in live, f"stale marker remains live: {marker}")
     if isinstance(history, str):
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K574--K576 sharpen and repartition the K152 residual route" in summary,
-          "current K574--K576 result lost")
-    check("The M-dual lower is not a K152 shifted-form or" in summary,
+    check("K577--K578 turn both live K152 prerequisites" in summary,
+          "current K577--K578 result lost")
+    check("No K152 interval or source" in summary,
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
@@ -91,16 +91,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
     check(
-        "K574 reconciles" in data["agenda"].get("latest_result_2026_09_28_k574_k576", ""),
-        "agenda K574--K576 result is not current",
+        "K577 replays" in data["agenda"].get("latest_result_2026_09_28_k577_k578", ""),
+        "agenda K577--K578 result is not current",
     )
     check(
-        "cancellation-aware orders-eight-through-twelve enclosures"
+        "complete noncompact-domain K577 group uppers"
         in data["agenda"].get("refresh_note", ""),
         "agenda residual route is not current",
     )
     check(
-        "reference-specific floor" in data["agenda"].get("refresh_note", ""),
+        "noncyclic compressed-form floor" in data["agenda"].get("refresh_note", ""),
         "agenda complete-complement route is not current",
     )
 
@@ -158,7 +158,7 @@ def selftest(base: dict) -> tuple[int, int]:
     add("agenda-stale", lambda d: d["agenda"].__setitem__(
         "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
     add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
-        "latest_result_2026_09_28_k574_k576", "K573 remains the latest result."))
+        "latest_result_2026_09_28_k577_k578", "K576 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
         item for item in d["agenda"]["work_items"]
         if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"

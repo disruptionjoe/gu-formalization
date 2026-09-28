@@ -1,0 +1,115 @@
+{
+  "claim_ceiling": "Exact pairwise and oscillation identities for K501 normalized leakage, plus a sufficient all-level certificate interface. No native uniform pairwise-energy bound, complete K500 leakage, noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "K510_factorial_path_template_bypassed": true,
+    "complete_K500_uniform_leakage_emitted": false,
+    "direct_normalized_variance_route_released": true,
+    "native_K152_interval_emitted": false,
+    "native_uniform_all_level_variance_emitted": false,
+    "next_exact_input": "Instantiate the pairwise energy for the actual q00/q10 K177/K500 cyclic measures and prove a uniform-in-level upper; separately certify the K500 noncyclic compressed-form floor.",
+    "noncyclic_floor_emitted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "K501_control_replayed": true,
+    "all_oscillation_bounds_pass": true,
+    "all_pairwise_identities_pass": true,
+    "row_count": 3,
+    "rows": [
+      {
+        "identity_passes": true,
+        "multipliers": [
+          "2",
+          "-1"
+        ],
+        "oscillation_bound_passes": true,
+        "oscillation_upper": "9/4",
+        "pairwise_variance": "36/25",
+        "weighted_variance": "36/25",
+        "weights": [
+          "1",
+          "4"
+        ]
+      },
+      {
+        "identity_passes": true,
+        "multipliers": [
+          "-3",
+          "1",
+          "4"
+        ],
+        "oscillation_bound_passes": true,
+        "oscillation_upper": "49/4",
+        "pairwise_variance": "33/4",
+        "weighted_variance": "33/4",
+        "weights": [
+          "1",
+          "1",
+          "2"
+        ]
+      },
+      {
+        "identity_passes": true,
+        "multipliers": [
+          "9",
+          "9",
+          "9",
+          "9"
+        ],
+        "oscillation_bound_passes": true,
+        "oscillation_upper": "0",
+        "pairwise_variance": "0",
+        "weighted_variance": "0",
+        "weights": [
+          "3",
+          "5",
+          "7",
+          "11"
+        ]
+      }
+    ],
+    "scalar_shifted_K501_control": "36/25"
+  },
+  "gu_typed_objects": {
+    "carrier": "one K162 bath-number level with cyclic vector v_n",
+    "form": "self-adjoint normal action W_n",
+    "pairing": "regular Hilbert pairing transported from physical M=S* S",
+    "result": "pairwise normalized-leakage certificate MAP-TYPE=orthogonal-block-norm",
+    "target": "the levelwise K500 cyclic/noncyclic cross norm"
+  },
+  "native_data_contract": {
+    "forbidden_substitutions": [
+      "K175/K496 absolute residual divided by an upper word-norm estimate",
+      "K510 simplex-volume-only selected-path lower",
+      "one finite bath prefix presented as the all-level supremum"
+    ],
+    "required_per_level": [
+      "a positive normalized or unnormalized weight measure induced by the actual v_n",
+      "the actual self-adjoint normal-action multiplier or a certified pairwise-difference kernel",
+      "an outward upper bound on the pairwise energy uniform in n"
+    ],
+    "sufficient_routes": [
+      "direct pairwise-energy enclosure",
+      "uniform multiplier oscillation bound",
+      "weighted Poincare or Efron-Stein bound proved for the actual v_n measure"
+    ]
+  },
+  "result_id": "K578-K500-PAIRWISE-VARIANCE-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "K501's normalized rank-one leakage on every discrete or discretized bath-number level, expressed without division by a separately estimated word-norm lower.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "K501_variance": "lambda_n^2=sum_i p_i(m_i-mubar)^2",
+    "continuum_extension": "replace the finite pair sum by one half of the product-measure integral of |m(x)-m(y)|^2",
+    "no_word_lower_required": true,
+    "normalized_weights": "p_i=a_i/A with a_i=|v_i|^2 and A=sum_i a_i",
+    "oscillation_bound": "lambda_n^2<=(max_i m_i-min_i m_i)^2/4",
+    "pairwise_identity": "lambda_n^2=sum_(i<j) a_i*a_j*(m_i-m_j)^2/A^2",
+    "scalar_shift_invariance": "all pairwise differences and lambda_n are unchanged by m_i -> m_i+c",
+    "uniform_K500_certificate": "for every supported level n, certify the pairwise numerator <=mu^2*A_n^2; then sup_n lambda_n<=mu"
+  }
+}
