@@ -61,7 +61,8 @@ def main() -> None:
         elif kind == 2:
             a["andreief_time_gram_certificate"]["gram_entries"].pop()
         elif kind == 3:
-            first = next(iter(a["localized_interval_witnesses"]["groups"]))
+            first = next(iter(a["localized_interval_witnesses"]["groups"]), None)
+            assert first is not None
             a["localized_interval_witnesses"]["groups"][first]["certified_full_space_norm_squared_lower"] = "-1E-99"
         else:
             c["terms"] = 1863

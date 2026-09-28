@@ -52,17 +52,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
-        check(len(live) < 2400, "live next_condition is not bounded")
-        check("strongest disjoint non-B2 gate" in live, "live selection route missing")
-        check("current named B2 action-root set is empty" in live, "empty B2 root missing")
-        check("91 terminal" in live and "ledger v0.263" in live, "protected live facts missing")
+        check("K571--K573" in live, "K571--K573 live result missing")
+        check("cancellation-aware" in live, "live residual route missing")
+        check("K494/K500 reference-specific" in live, "live complete-complement route missing")
+        check("25/9" in live, "live residual target missing")
         for marker in surface["stale_live_markers_forbidden"]:
             check(marker not in live, f"stale marker remains live: {marker}")
     if isinstance(history, str):
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("91 terminal and 0 open rows" in summary, "current exhaustion result lost")
+    check("K571--K573 rerank the K152 route" in summary, "current K152 result lost")
+    check("certificate insufficiency" in summary, "current claim ceiling lost")
 
     question = current.get("current_question", "")
     check(
@@ -84,16 +85,19 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
-    agenda_item = next(
-        item for item in data["agenda"]["work_items"]
-        if item["id"] == "CONDITIONAL-BUILD-REVERSE-SCAFFOLD"
+    check(
+        "K571 proves" in data["agenda"].get("latest_result_2026_09_28_k571_k573", ""),
+        "agenda K571--K573 result is not current",
     )
-    check("current named root-candidate set is empty" in agenda_item["current_authority"],
-          "agenda root authority is not current")
-    check("W154/W229 is nonadmitted" in agenda_item["latest_result"],
-          "agenda latest result is not current")
-    check("strongest disjoint non-B2 native gate" in agenda_item["next_swing"],
-          "agenda next swing is not the live route")
+    check(
+        "cancellation-aware complete residual or action-flux certificate"
+        in data["agenda"].get("refresh_note", ""),
+        "agenda residual route is not current",
+    )
+    check(
+        "reference-specific floor" in data["agenda"].get("refresh_note", ""),
+        "agenda complete-complement route is not current",
+    )
 
     b5 = next(
         item for item in data["agenda"]["work_items"]
@@ -146,10 +150,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("terminal-count-moved", lambda d: d["dispositions"]["exhaustion_evaluation"].__setitem__(
         "terminal_rows", 90))
     add("b2-gate-reversed", lambda d: d["b2"]["basis"].__setitem__("b2_selectable", False))
-    add("agenda-stale", lambda d: d["agenda"]["work_items"][2].__setitem__(
-        "next_swing", "Qualify the only named materially distinct candidate"))
-    add("agenda-latest-stale", lambda d: d["agenda"]["work_items"][2].__setitem__(
-        "latest_result", "The hourly invariant-gapping campaign is complete"))
+    add("agenda-stale", lambda d: d["agenda"].__setitem__(
+        "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
+    add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
+        "latest_result_2026_09_28_k571_k573", "K570 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
         item for item in d["agenda"]["work_items"]
         if item["id"] == "B5-INDEPENDENT-RECONSTRUCTION"

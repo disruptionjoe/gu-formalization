@@ -32,12 +32,13 @@ def main() -> None:
     }
     source = EXTRACTION.read_text()
     register = REGISTER.read_text()
+    register_flat = " ".join(register.split())
     assert source.count("southeast-zero") == 5
     assert "SE=0` is the displayed 2021 candidate" in source
     assert "SE!=0` is explicitly source-admitted" in source
     assert "neither source supplies a uniqueness theorem" in source
-    assert "- id: SC-OP-04\n  polarity: ASSERTS" in register
-    assert "- id: SC-OP-05\n  polarity: UNCERTAIN" in register
+    assert "- id: SC-OP-04 polarity: ASSERTS" in register_flat
+    assert "- id: SC-OP-05 polarity: UNCERTAIN" in register_flat
     assert record["source_selection"]["decision"].endswith("unique full fermion operator")
 
     with redirect_stdout(StringIO()) as log:

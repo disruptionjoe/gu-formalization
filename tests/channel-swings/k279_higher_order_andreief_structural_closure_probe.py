@@ -91,23 +91,28 @@ def hostile_controls(terms: list[dict[str, Any]]) -> dict[str, bool]:
     mutations["deleted_order12_term"] = copy.deepcopy(terms[:-1])
 
     changed = copy.deepcopy(terms)
-    target = next(term for term in changed if int(term["order"]) == 7)
+    target = next((term for term in changed if int(term["order"]) == 7), None)
+    assert target is not None
     target["old_position"] = 1
     mutations["wrong_contracted_parity"] = changed
 
     changed = copy.deepcopy(terms)
-    target = next(term for term in changed if int(term["order"]) == 8)
+    target = next((term for term in changed if int(term["order"]) == 8), None)
+    assert target is not None
     target["output_signature"] += "__mutated"
     mutations["split_coherent_group"] = changed
 
     changed = copy.deepcopy(terms)
-    target = next(term for term in changed if int(term["order"]) == 9)
-    key = next(iter(target["antisymmetrizer_normalization"]["species_factorials"]))
+    target = next((term for term in changed if int(term["order"]) == 9), None)
+    assert target is not None
+    key = next(iter(target["antisymmetrizer_normalization"]["species_factorials"]), None)
+    assert key is not None
     target["antisymmetrizer_normalization"]["species_factorials"][key] += 1
     mutations["wrong_wedge_factorial"] = changed
 
     changed = copy.deepcopy(terms)
-    target = next(term for term in changed if int(term["order"]) == 10)
+    target = next((term for term in changed if int(term["order"]) == 10), None)
+    assert target is not None
     target["output_variable_provenance"][0] = target["old_position"]
     mutations["contracted_variable_leak"] = changed
 

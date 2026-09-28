@@ -99,7 +99,9 @@ def main():
     # neither a raw sign mutation nor uniform-dt moments reproduce the record.
     degree_nine_tail = scale*alternate_tail(groups, ORDER)
     assert degree_nine_tail > HEADROOM
-    mutated = raw[4] + next(iter(raw[4].terms()))[1]
+    first_term = next(iter(raw[4].terms()), None)
+    assert first_term is not None
+    mutated = raw[4] + first_term[1]
     assert coefficient_hash(mutated) != coefficient_hash(raw[4])
     assert moment_polynomials(5)[0] == [fmpq(12, 5)]  # product-cosh measure
     assert moment_polynomials(5)[0] != [fmpq(1)]      # hostile uniform-dt unit

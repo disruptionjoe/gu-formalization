@@ -200,12 +200,14 @@ def manifest_failures(data: dict[str, Any]) -> list[str]:
 
 
 def hostile_controls(data: dict[str, Any]) -> dict[str, bool]:
+    first_pattern = next(iter(data["factor_patterns"]), None)
+    assert first_pattern is not None
     mutations = (
         ("drop_entry", lambda d: d["complete_factorization_inventory"]["entries"].pop()),
         ("break_size_four_count", lambda d: d["complete_factorization_inventory"]["size_histogram"].__setitem__("4", 23)),
         ("erase_size_four_pattern", lambda d: d["complete_factorization_inventory"]["unique_patterns_by_size"].__setitem__("4", 0)),
         ("break_entry_sign", lambda d: d["complete_factorization_inventory"]["entries"][0].__setitem__("entry_integrand_sign", -1)),
-        ("break_gap_support", lambda d: d["factor_patterns"][next(iter(d["factor_patterns"]))].__setitem__("cauchy_denominator_supports", [])),
+        ("break_gap_support", lambda d: d["factor_patterns"][first_pattern].__setitem__("cauchy_denominator_supports", [])),
         ("break_cauchy", lambda d: d["factorization_certificate"]["exact_cauchy_controls"][3].__setitem__("exact_equality", False)),
         ("break_divided", lambda d: d["independent_controls"]["mixed_divided_difference"].__setitem__("maximum_relative_difference", "1")),
         ("break_stress", lambda d: d["independent_controls"]["stress"].__setitem__("all_positive", False)),

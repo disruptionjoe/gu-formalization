@@ -51,6 +51,34 @@ NAMED_LIBRARY_SEEDS = frozenset({
 # Import threshold above which a tracked tests module counts as a library.
 LIBRARY_IMPORTER_THRESHOLD = 3
 
+# These modules are deliberately executable certificates/producers even though
+# later certificates reuse their helpers often enough to cross the library
+# importer threshold.  Each must retain an executable ``__main__`` guard; if
+# that guard disappears, detection treats it as a library again and the
+# allowlist/harness agreement fails closed.
+EXECUTABLE_CERTIFICATE_OVERRIDES = frozenset({
+    "tests/channel-swings/k219_order_six_signed_auxiliary_cell_enclosure.py",
+    "tests/channel-swings/k221_order_six_signed_quadratic_cell_enclosure.py",
+    "tests/channel-swings/k221_order_six_signed_quadratic_cell_enclosure_probe.py",
+    "tests/channel-swings/k222_order_six_first_middle_shell_cover.py",
+    "tests/channel-swings/k225_order_six_diagonal_cancellation.py",
+    "tests/channel-swings/k230_order_six_permutation_projection_probe.py",
+    "tests/channel-swings/k242_order_six_third_shell_signed_taylor.py",
+    "tests/channel-swings/k243_order_six_budget_composition_q6_method_limit.py",
+    "tests/channel-swings/k244_order_six_exact_corner_shell_ladder.py",
+    "tests/channel-swings/k262_order_six_low_through_three_high_multiplicity_integral.py",
+    "tests/channel-swings/k262_order_six_low_through_three_high_multiplicity_integral_probe.py",
+    "tests/channel-swings/k265_order_nine_complete_binary_low_high_union_probe.py",
+    "tests/channel-swings/k267_order_nine_exchangeable_axis_middle_collar.py",
+    "tests/channel-swings/k429_k77_covariant_incoming_domain_green.py",
+    "tests/channel-swings/k435_k77_full_h640_observed_map.py",
+    "tests/channel-swings/k436_k77_full_action_boundary_projector.py",
+    "tests/channel-swings/k437_k77_clifford_boundary_compatibility.py",
+    "tests/channel-swings/k447_k152_charge_sector_galerkin_defect_census.py",
+    "tests/channel-swings/k473_k152_recursive_complement_floor.py",
+    "tests/channel-swings/k477_k152_multilevel_complement_tree.py",
+})
+
 # The explicit allowlist. Must equal NAMED_LIBRARY_SEEDS union the modules
 # detected programmatically (imported by >= LIBRARY_IMPORTER_THRESHOLD other
 # tracked tests modules) — test_allowlist_matches_programmatic_detection
@@ -178,6 +206,26 @@ def main_guard_calls(tree: ast.AST, function_name: str) -> bool:
     return False
 
 
+def has_main_guard(tree: ast.AST) -> bool:
+    """Return whether a module has an executable ``__main__`` branch."""
+    for node in tree.body:
+        if not isinstance(node, ast.If):
+            continue
+        test = node.test
+        if (
+            isinstance(test, ast.Compare)
+            and isinstance(test.left, ast.Name)
+            and test.left.id == "__name__"
+            and len(test.ops) == 1
+            and isinstance(test.ops[0], ast.Eq)
+            and len(test.comparators) == 1
+            and isinstance(test.comparators[0], ast.Constant)
+            and test.comparators[0].value == "__main__"
+        ):
+            return bool(node.body)
+    return False
+
+
 def silent_scipy_expm_fallbacks(files: list[str]) -> list[str]:
     """Find SciPy ``expm`` imports whose exception path defines another expm."""
     violations: list[str] = []
@@ -243,7 +291,12 @@ def detect_library_modules(files: list[str]) -> tuple[frozenset[str], list[str]]
                     "resolve by renaming before allowlisting"
                 )
             else:
-                detected.add(candidates[0])
+                candidate = candidates[0]
+                if candidate in EXECUTABLE_CERTIFICATE_OVERRIDES:
+                    if not has_main_guard(parse(candidate)):
+                        detected.add(candidate)
+                else:
+                    detected.add(candidate)
     return frozenset(detected), errors
 
 

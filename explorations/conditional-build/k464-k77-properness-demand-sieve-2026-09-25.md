@@ -1,6 +1,7 @@
 ---
 title: "K464 K77 properness demand sieve"
 status: working_draft_verified
+claim_verdict: working_draft_verified
 doc_type: conditional_build
 created: "2026-09-25"
 result_id: K464-K77-PROPERNESS-DEMAND-SIEVE

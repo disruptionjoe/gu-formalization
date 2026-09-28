@@ -48,7 +48,11 @@ def main() -> int:
     ]
     # Independently replay one narrow cell on each reachable hybrid.
     for row in selected:
-        program = next(item for item in json.loads(module.K354.read_text())["face_programs"] if item["program_id"] == row["program_id"])
+        program = next(
+            (item for item in json.loads(module.K354.read_text())["face_programs"] if item["program_id"] == row["program_id"]),
+            None,
+        )
+        assert program is not None
         left, right = (Fraction(value) for value in row["cells"][0]["normal_interval"])
         second, groups, _, _, _ = module.complete_second(program, module.interval(left, right), singular, confluent)
         checks.extend([second.is_finite(), len(groups) == 23])

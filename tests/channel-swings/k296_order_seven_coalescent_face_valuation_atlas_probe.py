@@ -48,8 +48,18 @@ def main() -> int:
         if name == "occurrences": candidate["occurrence_census"] = candidate["occurrence_census"][:value]
         elif name == "one": candidate["projective_face_atlas"] = [row for row in candidate["projective_face_atlas"] if row["codimension"] != 1][:] + [row for row in candidate["projective_face_atlas"] if row["codimension"] == 1][:value]
         elif name == "two": candidate["projective_face_atlas"] = [row for row in candidate["projective_face_atlas"] if row["codimension"] != 2][:] + [row for row in candidate["projective_face_atlas"] if row["codimension"] == 2][:value]
-        elif name == "cauchy": next(row for row in candidate["projective_face_atlas"] if row["codimension"] == 1)["common_size_four_cauchy_valuation"] = value
-        elif name == "native": next(row for row in candidate["projective_face_atlas"] if row["codimension"] == 1)["native_gap_product_valuation"] = value
+        elif name in {"cauchy", "native"}:
+            face = next(
+                (row for row in candidate["projective_face_atlas"] if row["codimension"] == 1),
+                None,
+            )
+            if face is None:
+                rejected += 1
+                continue
+            if name == "cauchy":
+                face["common_size_four_cauchy_valuation"] = value
+            else:
+                face["native_gap_product_valuation"] = value
         elif name == "combined": candidate["decision"]["one_gap_native_plus_cauchy_valuation"] = value
         elif name == "all_companion": candidate["decision"]["all_one_gap_faces_have_companion_zero"] = value
         elif name == "uniform_join": candidate["decision"]["companion_zero_is_uniform_on_terminal_endpoint_join"] = value

@@ -60,9 +60,12 @@ def main() -> None:
     wrong, _ = quadrature(groups, MULTIPLICITY, 2, wrong_measure=True)
     assert absolute > q2 > 0 and wrong != q2
     assert abs(q3 - sum(boxes3.values())) < 1e-42
-    dropped = q3 - next(iter(boxes3.values()))
+    first_q3_box = next(iter(boxes3.values()), None)
+    assert first_q3_box is not None
+    dropped = q3 - first_q3_box
     assert dropped < 0 < q3
-    single_box = next(iter(boxes2.values()))
+    single_box = next(iter(boxes2.values()), None)
+    assert single_box is not None
     assert single_box != q2 and len(boxes2) == 15
 
     declared = record["certificate"]["declared_strict_positive_mass_lower"]

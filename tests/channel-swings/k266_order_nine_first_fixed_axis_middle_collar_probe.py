@@ -251,7 +251,8 @@ def main() -> None:
     assert abs(normalized_q3 - normalized_q2) < abs(normalized_q3) * 2e-3
 
     dominant_name = "axis1_middle_axis0_high"
-    dominant = next(row for row in BLOCKS if row[0] == dominant_name)
+    dominant = next((row for row in BLOCKS if row[0] == dominant_name), None)
+    assert dominant is not None
     absolute_q2 = quadrature_block(
         groups, dominant[1], dominant[2], 2, absolute_weights=True
     )

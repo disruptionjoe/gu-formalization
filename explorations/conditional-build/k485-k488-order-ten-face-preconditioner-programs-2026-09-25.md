@@ -1,6 +1,7 @@
 ---
 title: "K485--K488 Order-Ten Face Preconditioner Programs"
 status: conditional_research_result
+claim_verdict: conditional_research_result
 doc_type: exploration
 updated_at: "2026-09-25"
 direction: observed_to_native

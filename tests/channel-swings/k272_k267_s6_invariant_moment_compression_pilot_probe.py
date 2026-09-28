@@ -110,7 +110,8 @@ def replay_held_out(groups, geometry):
 def main():
     ctx.prec = 256
     record = json.loads(RECORD.read_text())
-    held = next(layer for layer in record["layers"] if layer["role"] == "held_out")
+    held = next((layer for layer in record["layers"] if layer["role"] == "held_out"), None)
+    assert held is not None
     source = json.loads(K185.read_text())
     groups = independent_groups(list(raw_terms(source)))
     projection = json.loads(K230.read_text())
@@ -135,7 +136,9 @@ def main():
     assert {tuple(p) for p in permutations} == {tuple(p) for p in held["representative_to_box_permutations"]}; exact += 1
 
     hostile = 0
-    assert digest != next(layer for layer in record["layers"] if layer["role"] == "pilot")["aggregate_coefficient_sha256"]; hostile += 1
+    pilot = next((layer for layer in record["layers"] if layer["role"] == "pilot"), None)
+    assert pilot is not None
+    assert digest != pilot["aggregate_coefficient_sha256"]; hostile += 1
     assert aggregate_count < enum_count; hostile += 1
     assert held["cost"]["compressed_box_recurrence_updates"] == held["cost"]["enumerated_box_recurrence_updates"]; hostile += 1
     assert held["cost"]["compressed_tail_orbit_evaluations"] == held["cost"]["enumerated_tail_orbit_evaluations"]; hostile += 1
