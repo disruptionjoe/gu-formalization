@@ -7,6 +7,34 @@ updated_at: "2026-09-27"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K549--K553 complete conditional order-ten integral (2026-09-27)
+
+K549 combines K547's global scaled derivative bounds, all 371 K548 bivariate
+fronts and all 75 K413 confluent templates into 10,958 rank-compatible global
+zero-inclusive determinant envelopes. All 42 scalar-nesting obstructions are
+retained and the maximum primitive derivative order used is ten. K550 loads
+that bank, retains all 13,300 ordered descriptors and 28 coherent groups, and
+emits a finite exact-rational whole-radial majorant for each of K415's 936 face
+programs. The K549 bank digest is
+`sha256:996754e0bfb15ddae152820caaee0c25ccd6fbcb1ad0e149dab8ee9d537c4914`.
+
+K551 independently replays all 8,388,606 K545 low-coordinate assignments and
+their owner digests. It charges each of the 936 used face-owner unions once
+and bounds 2,332,997 recursive positive-interior max cells across all 22
+hybrids; the minimum interior radial power is one. K552 sums all 22 complete
+hybrid bounds under K409's tensor Peano identity. K553 then applies K406's
+native outward `(2*pi)^-12` prefactor exactly once and joins the complete node
+interval. The final conditional order-ten enclosure is
+`[-2.75046607788040236e+1340,2.75046607788040236e+1340]`.
+
+Independent probes pass `10/10`, `11/11`, `10/10`, `9/9` and `10/10`
+controls and reject `10/10`, `11/11`, `11/11`, `9/9` and `11/11` hostile
+mutations. This proves finiteness of the repository's conditional order-ten
+coherent integral. The enclosure is too broad to decide sign or provide a
+useful K152 margin. Numerical orders eleven and twelve, the complete base
+action column, R_ref residual, K500/K473/K457/K152, source/ledger movement,
+canon, paper, public posture, novelty and physical conclusions remain open.
+
 ## K547--K548 order-ten zero-safe derivatives and bivariate fronts (2026-09-27)
 
 K547 independently recomputes K375's exact-rational compact-plus-tail bounds

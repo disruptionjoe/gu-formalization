@@ -4,6 +4,26 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K549--K553 complete conditional order-ten integral
+
+- `channel-swings/k549_order_ten_zero_inclusive_determinant_envelope.py`
+  compiles every rank-compatible K413/K548 pair-confluent global determinant
+  envelope; its probe rejects coupling, confluence, derivative-order and
+  overclaim mutations.
+- `channel-swings/k550_order_ten_whole_radial_face_majorants.py` emits finite
+  exact-rational majorants for all 936 K415 face programs while retaining all
+  13,300 ordered descriptors and 28 groups; its probe rejects overlap and
+  census mutations.
+- `channel-swings/k551_order_ten_disjoint_owner_hybrid_majorants.py` replays
+  all K545 owner digests, charges each face-owner union once and bounds every
+  recursive positive interior; its probe rejects ownership and integrability
+  mutations.
+- `channel-swings/k552_order_ten_complete_peano_remainder.py` sums all 22
+  K409 hybrid bounds, and
+  `channel-swings/k553_order_ten_complete_integral_enclosure.py` applies the
+  native order-ten prefactor exactly once. Their probes reject omitted terms,
+  reordering, double normalization and K152 overclaims.
+
 ## K547--K548 order-ten zero-safe derivatives and bivariate fronts
 
 - `channel-swings/k547_order_ten_zero_safe_scaled_derivative_bank.py` and its

@@ -7,6 +7,21 @@ updated_at: "2026-09-27"
 
 # Next Steps For Contributors
 
+> **2026-09-27 K549--K553 COMPLETE CONDITIONAL ORDER-TEN INTEGRAL.** K549
+> compiles 10,958 global zero-inclusive pair-confluent determinant envelopes;
+> K550 emits finite whole-radial rows for all 936 K415 face programs while
+> retaining 13,300 ordered descriptors and 28 coherent groups. K551 replays
+> all 8,388,606 K545 owner subsets, charges 936 face-owner unions once and
+> bounds 2,332,997 recursive interior max cells across 22 hybrids. K552 sums
+> all 22 Peano terms and K553 applies `(2*pi)^-12` exactly once, enclosing the
+> complete conditional order-ten integral in
+> `[-2.75046607788040236e+1340,2.75046607788040236e+1340]`. The five probes
+> pass `50/50` controls and reject `52/52` hostile mutations. This proves
+> finiteness, not sign or a useful K152 margin. Build the native numerical
+> order-eleven and order-twelve closures next, then the complete base action
+> column and R_ref residual; no source/ledger/canon/public/physical claim
+> moves.
+
 > **2026-09-27 K547--K548 ORDER-TEN ZERO-SAFE DERIVATIVES AND BIVARIATE
 > DETERMINANT FRONTS.** K547 recomputes the global compact-plus-tail scaled
 > `2*K1` bank through order ten, replays K410 orders zero through two exactly,
