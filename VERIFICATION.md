@@ -7,6 +7,26 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K598--K599 covariant soldering and sharp-tail moment interface (2026-09-28)
+
+K598 composes K596's fibrewise rank-one discriminator with K441's exact
+moving corrected-carrier transport. If matching-half initial vectors are
+supplied, `C(t)=U(t)C(0)U(t)^T` remains covariantly parallel and satisfies
+both transported K444 squares for the K589 arrow types. Holding the initial
+vectors fixed while the projector moves fails at the mixed rational controls,
+and opposite-half initial data remain obstructed. This constructs the minimal
+conditional transport packet, not the action-owned initial vectors or Riesz
+return.
+
+K599 gives the exact perturbation interface for K583's three moments. From
+finite enclosures of `N=||v||^2`, `A_F=<v,w_F>` and `B_F=||w_F||^2` plus
+`||t||<=epsilon`, it encloses the complete signed moment and norm, then the
+normalized leakage, charging K574's sharp tail exactly once. Parallel,
+orthogonal and negative-cross controls all lie in the derived intervals.
+The probes pass 24/24 controls and reject 26/26 hostile mutations. The finite
+K456 moments, action-owned initial carrier vectors, uniform leakage,
+complete-sector floor and protected scientific/public conclusions remain open.
+
 ## K596--K597 soldering discriminator and action-column reconciliation (2026-09-28)
 
 K596 evaluates the K444 typed-square defect exactly on four rational rank-one

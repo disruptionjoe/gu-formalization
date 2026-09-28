@@ -7,6 +7,20 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K598--K599 COVARIANT SOLDERING AND SHARP-TAIL MOMENT
+> INTERFACE.** K598 transports any matching-half K596 initial packet by
+> K441's exact `U(t)`, proving both conditional K444 squares and covariant
+> parallelism for the K589 arrows. A fixed-vector shortcut fails at mixed
+> fibres, while opposite-half data remain obstructed. The only missing K77
+> input is now the selected action's initial corrected-carrier vectors and
+> Riesz return; K441 supplies the rest of the transport. K599 derives exact
+> outward formulas that compose finite `N`, `A_F`, `B_F` moment enclosures
+> with K574's sharp tail once and retain the signed cyclic subtraction. The
+> two probes pass `24/24` controls and reject `26/26` hostile mutations. Next
+> extract the action-owned initial data for D2 and D1, and independently
+> numerically enclose K456's finite moments levelwise before applying K599.
+> The uniform leakage and complete-sector floor remain open.
+
 > **2026-09-28 K596--K597 RANK-ONE SOLDERING DISCRIMINATOR AND ACTION-COLUMN
 > RECONCILIATION.** K596 derives the exact conditional defect
 > `Delta(c|y><x|)=Pi_target C-C Pi_source`. A matching-half coupling has zero

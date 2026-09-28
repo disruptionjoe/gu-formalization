@@ -4,6 +4,18 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K598--K599 covariant soldering and sharp-tail moment interface
+
+- `channel-swings/k598_k77_covariant_rank_one_soldering_interface.py`
+  composes K596 with K441's exact transport, tests both K589 arrows, and
+  rejects fixed-vector and opposite-half shortcuts without inventing the
+  action-owned initial datum.
+- `channel-swings/k599_k500_sharp_tail_moment_enclosure_interface.py`
+  derives the outward three-moment perturbation formulas and composes K574's
+  sharp tail exactly once while preserving the signed cyclic subtraction.
+- The two `_probe.py` files pass 24 exact controls and reject 26 hostile
+  mutations while preserving every protected downstream boundary.
+
 ## K596--K597 soldering discriminator and action-column reconciliation
 
 - `channel-swings/k596_k77_rank_one_soldering_discriminator.py` derives and

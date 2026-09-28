@@ -1,0 +1,150 @@
+{
+  "K574_application": {
+    "complete_uniform_leakage_emitted": false,
+    "exact_improvement_factor": "40/3",
+    "finite_moments_numerically_enclosed": false,
+    "resolved_through_order": 12,
+    "same_post_left_adjoint_location": true,
+    "sharp_tail_norm_upper": "9034497/33554432000"
+  },
+  "claim_ceiling": "Exact sharp-tail composition theorem for K583's three moments: finite N, A_F and B_F enclosures plus K574's tail norm produce complete A, B and leakage enclosures with the tail charged once. The theorem supplies the numerical acceptance interface but not the finite moment values, a uniform all-level leakage bound, noncyclic floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty or physical conclusion.",
+  "classification": "INTERNAL_CONDITIONAL_MATHEMATICS",
+  "created": "2026-09-28",
+  "decision": {
+    "K473_released": false,
+    "complete_K500_uniform_leakage_emitted": false,
+    "duplicate_tail_charge_forbidden": true,
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "next_exact_input": "For each supported q00/q10 level, outwardly enclose N, A_F and B_F from K456's finite vector integrals, then apply K599 with K574's epsilon once. Prove the resulting leakage upper uniform in level; separately supply the noncyclic floor.",
+    "numerical_finite_moment_evaluation_still_required": true,
+    "sharp_tail_composition_interface_emitted": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_A_contained": true,
+    "all_B_contained": true,
+    "all_leakage_contained": true,
+    "parallel_orthogonal_and_negative_cross_present": true,
+    "row_count": 3,
+    "rows": [
+      {
+        "A_complete_interval": [
+          "75/4",
+          "85/4"
+        ],
+        "A_contained": true,
+        "A_finite": "20",
+        "B_complete_interval": [
+          "361/16",
+          "441/16"
+        ],
+        "B_contained": true,
+        "B_finite": "25",
+        "N": "25",
+        "actual_A_complete": "21",
+        "actual_B_complete": "441/16",
+        "actual_leakage_square": "3969/10000",
+        "leakage_contained": true,
+        "leakage_square_upper": "27/50",
+        "name": "parallel tail",
+        "tail_epsilon": "1/4",
+        "tail_norm": "1/4"
+      },
+      {
+        "A_complete_interval": [
+          "75/4",
+          "85/4"
+        ],
+        "A_contained": true,
+        "A_finite": "20",
+        "B_complete_interval": [
+          "361/16",
+          "441/16"
+        ],
+        "B_contained": true,
+        "B_finite": "25",
+        "N": "25",
+        "actual_A_complete": "83/4",
+        "actual_B_complete": "401/16",
+        "actual_leakage_square": "196/625",
+        "leakage_contained": true,
+        "leakage_square_upper": "27/50",
+        "name": "orthogonal tail",
+        "tail_epsilon": "1/4",
+        "tail_norm": "1/4"
+      },
+      {
+        "A_complete_interval": [
+          "75/4",
+          "85/4"
+        ],
+        "A_contained": true,
+        "A_finite": "20",
+        "B_complete_interval": [
+          "361/16",
+          "441/16"
+        ],
+        "B_contained": true,
+        "B_finite": "25",
+        "N": "25",
+        "actual_A_complete": "19",
+        "actual_B_complete": "361/16",
+        "actual_leakage_square": "3249/10000",
+        "leakage_contained": true,
+        "leakage_square_upper": "27/50",
+        "name": "negative cross tail",
+        "tail_epsilon": "1/4",
+        "tail_norm": "1/4"
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "carrier": "one K500 supported bath level with cyclic vector v_n",
+    "finite_action_vector": "w_F,n=(W_n v_n) through exchange order 12",
+    "pairing": "regular Hilbert pairing transported from M=S* S",
+    "result": "sharp-tail moment enclosure MAP-TYPE=orthogonal-block-norm-bound",
+    "tail": "t_n=(W_n v_n)-w_F,n with ||t_n||<=epsilon_n",
+    "target": "lambda_n^2=||W_n v_n||^2/||v_n||^2-|<v_n,W_n v_n>|^2/||v_n||^4"
+  },
+  "non_substitutability": {
+    "K575_residual_substitution_allowed": false,
+    "K597_three_moments_preserved": [
+      "||v_n||^2",
+      "<v_n,W_n v_n>",
+      "||W_n v_n||^2"
+    ],
+    "a_complete_norm_enclosure_without_A_does_not_determine_leakage": true,
+    "reason": "The cyclic subtraction depends on the signed interval for <v,Wv>; a norm-only residual interval can share B while producing different leakage."
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Equal complete norms with different signed cyclic moments give different leakage, so K575 cannot replace A_F.",
+    "strongest_overclaim": "Calling the moment interface a numerical uniform bound before N, A_F and B_F are enclosed at every supported level.",
+    "weakest_reproducibility_seam": "Production use requires outward square-root endpoints consistent with the finite B_F enclosure."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K574 supplies a norm tail, K583 supplies the three-moment identity and K597 proves the finite moments remain unevaluated; no predecessor composes them.",
+    "route_comparison": "Freeze the exact tail-to-moment formulas before expensive finite quadrature so every integral has a named consumer and the tail is not double counted.",
+    "strongest_alternative": "Direct tensor-pair quadrature is equivalent but duplicates more cross products and obscures the signed cyclic subtraction."
+  },
+  "result_id": "K599-K500-SHARP-TAIL-MOMENT-ENCLOSURE-INTERFACE",
+  "schema_version": "1.0",
+  "scope": "Rigorous composition of finite K456/K583 moment enclosures with K574's one post-order-12 norm tail for each supported q00/q10 level.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "A_complete": "A in A_F + [-sqrt(N) epsilon,+sqrt(N) epsilon]",
+    "B_complete": "B in [max(0,sqrt(B_F)_lower-epsilon)^2,(sqrt(B_F)_upper+epsilon)^2]",
+    "finite_inputs": [
+      "N=||v||^2",
+      "A_F=<v,w_F>",
+      "B_F=||w_F||^2"
+    ],
+    "full_operator_matrix_not_required": true,
+    "leakage_upper": "lambda^2 <= B_upper/N_lower - dist(0,A_interval)^2/N_upper^2, with outward interval arithmetic and consistent N endpoints",
+    "scalar_moment_sign_retained": true,
+    "tail_charged_once": true,
+    "tail_input": "||t||<=epsilon"
+  }
+}

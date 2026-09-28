@@ -8,6 +8,31 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K598--K599 covariant soldering and sharp-tail moment interface
+
+K598 removes the transport part of K594/K596's missing soldering interface.
+For K441's rational orthogonal transport `U(t)` and connection
+`B=-U'U^T`, every matching-half initial rank-one packet
+`C(0)=c|y_0><x_0|` has the unique transported representative
+`C(t)=U(t)C(0)U(t)^T`. It obeys
+`C'+B_target C-C B_source=0` and the moving K444 square at all four exact
+sample points for both K589 arrows and both K594 coefficients. Fixed vectors
+fail when the projector is genuinely mixed, and opposite-half data remain
+obstructed. K441 owns this covariance; it does not own the selected action's
+initial corrected-carrier vectors or Riesz return.
+
+K599 turns K597's numerical successor into an exact acceptance interface.
+For `w=w_F+t`, `||t||<=epsilon`, it encloses
+`A=<v,w>` by `A_F +/- sqrt(N)epsilon` and `B=||w||^2` by the outward
+square of `sqrt(B_F) +/- epsilon`; these feed the signed three-moment leakage
+formula without a full operator matrix. K574's
+`9034497/33554432000` tail is therefore composed once, after finite K456
+moment quadrature. Parallel, orthogonal and negative-cross controls pass.
+The two probes pass 24/24 controls and reject 26/26 hostile mutations. No
+finite moments, uniform K500 bound, noncyclic floor, K473 beta, K152 interval,
+source, ledger, canon, paper, public, novelty, prediction, confirmation or
+physical conclusion moves.
+
 ## 2026-09-28 — K596--K597 soldering discriminator and action-column reconciliation
 
 K596 converts K594's missing-interface result into a minimal exact test. For a

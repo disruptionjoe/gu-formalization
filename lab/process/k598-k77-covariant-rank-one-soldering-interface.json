@@ -1,0 +1,233 @@
+{
+  "claim_ceiling": "Exact minimal covariant completion of K596 on K441: a matching-half initial rank-one packet transports through every corrected-carrier fibre, remains parallel and satisfies both conditional K444 squares; a fixed-vector shortcut fails and an opposite-half packet stays obstructed. K441 transport does not action-own the initial vectors or Riesz return, so no actual selected-action square, nonlinear properness, source, ledger, canon, paper, public, novelty or physical conclusion moves.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-28",
+  "decision": {
+    "K590_factorized_completion_retracted": false,
+    "K596_extended_from_one_fibre_to_K441_transport": true,
+    "actual_action_owned_soldering_constructed": false,
+    "both_conditional_covariant_K444_squares_emitted": true,
+    "fixed_vector_shortcut_rejected": true,
+    "next_exact_input": "Supply, for one declared selected-I1B variation, action-owned initial corrected-carrier vectors x_0,y_0 and the Riesz return for D2 and D1. K598 then transports them uniquely and K596 decides the initial square; no expanded 512-by-512 search is required.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "K441_sample_points_replayed": [
+      "0",
+      "1/3",
+      "1/2",
+      "1"
+    ],
+    "both_K589_arrows_exercised": true,
+    "fixed_vector_shortcut_fires_at_mixed_points": true,
+    "matching_half_all_covariantly_parallel": true,
+    "matching_half_all_squares_pass": true,
+    "matching_half_rows": [
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "0",
+        "t": "0",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      },
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "21979496448/625",
+        "t": "1/3",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      },
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "21979496448/625",
+        "t": "1/2",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      },
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "0",
+        "t": "1",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "0",
+        "t": "0",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "100352/625",
+        "t": "1/3",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "100352/625",
+        "t": "1/2",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "0",
+        "t": "1",
+        "transported_square_passes": true,
+        "transported_typed_square_defect_norm_square": "0"
+      }
+    ],
+    "opposite_half_all_squares_fail": true,
+    "opposite_half_rows": [
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "76317696",
+        "t": "0",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "76317696"
+      },
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "25719063552/625",
+        "t": "1/3",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "76317696"
+      },
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "25719063552/625",
+        "t": "1/2",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "76317696"
+      },
+      {
+        "arrow": "D2",
+        "coefficient": "8736",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "76317696",
+        "t": "1",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "76317696"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "3136/9",
+        "t": "0",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "3136/9"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "1056832/5625",
+        "t": "1/3",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "3136/9"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "1056832/5625",
+        "t": "1/2",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "3136/9"
+      },
+      {
+        "arrow": "D1",
+        "coefficient": "-56/3",
+        "covariant_derivative_norm_square": "0",
+        "covariantly_parallel": true,
+        "fixed_vector_shortcut_defect_norm_square": "3136/9",
+        "t": "1",
+        "transported_square_passes": false,
+        "transported_typed_square_defect_norm_square": "3136/9"
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "carrier": "one K441 fast/slow outgoing-incoming sign pair, repeated factorwise on the corrected rank-512 carrier",
+    "connection": "B(t)=-U'(t)U(t)^T",
+    "coupling": "C(t)=U(t)C(0)U(t)^T with C(0)=c|y_0><x_0|",
+    "projector": "Pi(t)=U(t)Pi(0)U(t)^T",
+    "result": "covariant rank-one soldering interface MAP-TYPE=graded-projector-intertwiner",
+    "target": "both K589 arrows D2:H^21->Q^91 and D1:Q^91->M^70 after corrected-carrier lift"
+  },
+  "ownership_boundary": {
+    "K441_owns_transport_and_moving_projector": true,
+    "K589_owns_base_degree_arrows": true,
+    "K596_owns_initial_rank_one_discriminator": true,
+    "actual_action_owned_packet_constructed": false,
+    "conditional_covariant_packet_constructed": true,
+    "selected_action_owns_K441_Riesz_return": false,
+    "selected_action_owns_initial_corrected_vectors": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Opposite-half initial data remain obstructed at every transported fibre with the same rank-one defect norm.",
+    "strongest_overclaim": "Calling the conditional transported packet action-owned, or holding the initial vectors fixed while the corrected projector moves.",
+    "weakest_reproducibility_seam": "The exact rank-512 statement uses K441's repeated two-dimensional factorization rather than an expanded matrix."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K596 decides one fibre and K441 owns transport; neither owns the action-selected initial vector/Riesz datum.",
+    "route_comparison": "Use K441's already exact associated-bundle transport before searching an unconstrained 512-by-512 coupling.",
+    "strongest_alternative": "A full-field third derivative can supply the initial action datum but should not redundantly reconstruct the known carrier transport."
+  },
+  "result_id": "K598-K77-COVARIANT-RANK-ONE-SOLDERING-INTERFACE",
+  "schema_version": "1.0",
+  "scope": "The minimal K441-covariant extension of a declared initial rank-one corrected-carrier packet for each K589 arrow, separating transport from action ownership of the initial vectors and Riesz return.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "covariant_parallelism": "C'(t)+B_target(t)C(t)-C(t)B_source(t)=0",
+    "fixed_vectors_are_not_covariant": "Holding C(0) fixed while Pi(t) moves generally creates a nonzero defect.",
+    "opposite_half_initial_packet": "K596 rejects the initial square with rank-one defect norm |c|",
+    "rank512_extension": "Repeat the exact two-dimensional identity on K441's 192 fast and 64 slow sign pairs and tensor with the K589 degree arrow.",
+    "same_half_initial_packet": "K596 supplies the initial square for matching corrected-carrier halves",
+    "transported_typed_square": "Pi_target(t)C(t)=C(t)Pi_source(t) whenever the initial square holds"
+  }
+}
