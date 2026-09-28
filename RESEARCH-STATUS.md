@@ -8,6 +8,34 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K562--K567 complete higher-order conditional integrals
+
+K562 coefficients every rank-compatible K560 singular/confluent template with
+K378 global primitives through derivative order two and primitive order
+twelve, producing 3,540 exact-rational envelopes. K563 assembles the complete
+coherent derivative bounds separately for orders eleven and twelve and emits
+finite whole-radial majorants for all 2,733 K561 face instances while retaining
+all 94,752 ordered descriptors and 57 groups.
+
+K564 replaces infeasible cube materialization with exact hypergraph
+independence polynomials. It accounts for all 167,772,156 logical low-
+coordinate subsets across the fifty hybrids: 166,229,943 are assigned to
+2,733 nonempty canonical first-match face-owner unions and 1,542,213 to the
+interior. K565 charges each face row once and bounds 25,949,861 recursive
+positive-interior max cells with finite exact-rational order-specific bounds.
+
+K566 sums the separate 24- and 26-term tensor-Peano remainders. K567 applies
+the outward native `(2*pi)^-13` and `(2*pi)^-14` prefactors exactly once and
+joins the K555 node intervals. The resulting complete conditional intervals
+are `[-2.80422529299512063e+2161,2.80422529299512063e+2161]` at order eleven
+and `[-2.48890514834555913e+2347,2.48890514834555913e+2347]` at order twelve.
+They prove finiteness but not sign or a useful downstream margin. The six
+probes pass 60/60 controls and reject 61/61 hostile mutations.
+
+The next exact consumer is the typed complete base action column and `R_ref`
+residual. K500/K473/K457/K152 and source/physics ledgers, canon, papers,
+public posture, novelty and physical claims remain open or unchanged.
+
 ## 2026-09-28 — K559--K561 higher-order zero-safe face interfaces
 
 K559 compiles every K554 kernel-zero and determinant row/column coalescence

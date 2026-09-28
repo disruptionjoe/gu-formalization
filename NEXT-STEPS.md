@@ -7,6 +7,22 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K562--K567 COMPLETE CONDITIONAL ORDERS ELEVEN/TWELVE.**
+> K562 compiles 3,540 rank-compatible global determinant envelopes through
+> primitive order twelve. K563 majorizes all 2,733 reachable faces while
+> retaining 94,752 ordered descriptors and 57 coherent groups. K564 accounts
+> for all 167,772,156 logical low-coordinate states by exact symbolic
+> first-match ownership; K565 charges 2,733 owner unions once and bounds
+> 25,949,861 recursive interior cells. K566 sums the separate 24/26-term
+> remainders and K567 applies `(2*pi)^-13`/`(2*pi)^-14` once, enclosing the
+> complete conditional integrals in symmetric radii
+> `2.80422529299512063e+2161` and `2.48890514834555913e+2347`. The six probes
+> pass `60/60` controls and reject `61/61` hostile mutations. Finiteness is
+> proved; neither sign nor a useful action-column/K152 margin follows. Next
+> reconcile the remaining typed base-action inputs and construct the complete
+> action column plus `R_ref`. Source, ledger, canon, public and physical claims
+> remain unchanged.
+
 > **2026-09-28 K559--K561 ORDERS ELEVEN/TWELVE ZERO-SAFE FACE
 > INTERFACES.** K559 compiles all 2,733 reachable face instances across the
 > fifty K558 hybrids: 1,198 at order eleven and 1,535 at order twelve. K560

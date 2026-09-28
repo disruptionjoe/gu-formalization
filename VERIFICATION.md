@@ -7,6 +7,35 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K562--K567 complete higher-order conditional integrals (2026-09-28)
+
+K562 applies K560's exact singular and confluent preconditioning before
+coefficient enclosure, compiling 3,540 rank-compatible templates through
+active derivative order two and K378 primitive order twelve. K563 assembles
+all 94,752 ordered descriptors and 57 coherent groups before emitting finite
+exact-rational whole-radial majorants for every one of the 2,733 K561 faces.
+Their probes each pass 10/10 controls and reject 10/10 hostile mutations.
+
+K564 proves an exact canonical first-match partition using hypergraph
+independence polynomials rather than materializing the complete 24/26-bit
+cubes. All 167,772,156 logical low-coordinate states are retained: 2,733
+nonempty face-owner unions cover 166,229,943 states and the remaining
+1,542,213 are interior. K565 charges each owner row once and bounds all
+25,949,861 recursive positive-interior max cells; no overlapping face rows are
+summed directly. Both probes pass 10/10 controls and reject 10/10 mutations.
+
+K566 exactly sums the separate 24- and 26-term raw Peano remainders. K567
+applies each native prefactor once and encloses the complete conditional
+order-eleven/twelve integrals in symmetric radii
+`2.80422529299512063e+2161` and `2.48890514834555913e+2347`. Their probes pass
+10/10 controls each and reject 10/10 plus 11/11 hostile mutations.
+
+This proves conditional finiteness of both complete higher-order coherent
+integrals. The coarse absolute enclosures do not decide sign, construct the
+complete base action column or `R_ref`, provide a useful K152 margin, or move
+any source, ledger, canon, paper, public, novelty, prediction, confirmation or
+physical claim.
+
 ## K559--K561 higher-order zero-safe face interfaces (2026-09-28)
 
 K559 exactly filters the K554 zero/coalescence atlas against every K558 hybrid
