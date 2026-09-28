@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K571--K573 K152 residual-feasibility certificates
+
+K571 proves a route-changing dominance fact for the existing K466 bridge.
+For normalized trial `u`, the shifted trial value is `a=rho+s`, while
+`R+sM>=cM` implies `c<=a`.  K466 followed by K152 therefore yields the
+residual-energy upper `(a/c) eta^2>=eta^2`: quantitative shifted coercivity
+cannot improve the direct M-dual upper used by K469, although the actual
+shifted dual may be smaller than this comparison bound.
+
+K572 then composes K570 with K169's best admissible gap cap `g=5/2` and the
+sharp K469/K470 consumers.  The current residual upper cannot certify ground
+deficit at most one, deficit within the gap cap, or projection sine at most
+one half.  K573 makes the required accuracy explicit: the loosest named
+projection target needs residual square at most `25/9`, an improvement by
+more than `10^2346` over K570's present upper.  The probes pass 31/31 controls
+and reject 18/18 hostile mutations.
+
+The next productive route is a cancellation-aware complete M-dual residual
+or action-flux certificate below the K573 target table, in parallel with the
+K494/K500 reference-specific complete-complement floor.  This is failure of
+the current certificate, not a lower bound on the actual residual or an
+accuracy verdict.  K152 and all source, ledger, canon, paper, public, novelty,
+prediction, confirmation and physical conclusions remain open or unchanged.
+
 ## 2026-09-28 — K568--K570 complete M-dual residual enclosure
 
 K568 replays K179's complete order-two-through-six coefficient family and

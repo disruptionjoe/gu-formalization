@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K571--K573 K152 residual-feasibility certificates
+
+- `channel-swings/k571_k152_shifted_coercivity_dominance.py` proves that the
+  K466 bridge cannot improve the direct M-dual residual-energy upper because
+  normalized shifted coercivity satisfies `c<=rho+s`.
+- `channel-swings/k572_k152_best_case_gap_feasibility.py` composes K570 with
+  K169 and the exact K469/K470 consumers at the best admissible gap.
+- `channel-swings/k573_k152_residual_accuracy_targets.py` emits exact ground-
+  deficit and projection-angle residual-square budgets for the next complete
+  residual or action-flux certificate.
+- The three `_probe.py` files replay every composition and reject bridge,
+  gap-cap, budget, direction and overclaim mutations.
+
 ## K568--K570 complete M-dual residual enclosure
 
 - `channel-swings/k568_lower_order_finite_gram_reconciliation.py` replays the

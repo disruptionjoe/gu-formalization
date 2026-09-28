@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "Exact conditional comparison of two certificate routes on the same normalized fixed form. K466 remains a correct metric bridge, but its K152 residual-energy upper carries factor (rho+s)/c>=1 and therefore cannot beat K469's direct M-dual upper. This does not lower the actual native residual, supply a complete complement floor, emit K152, or change source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusions.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "K466_remains_valid_for_shifted_form_typing": true,
+    "K469_direct_M_dual_consumer_is_weakly_dominant": true,
+    "K570_coarse_upper_not_repaired_by_shift": true,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Pursue a useful reference-specific complete-complement/action-flux floor and a much tighter complete M-dual residual upper; do not chase a large shift as a residual-accuracy repair.",
+    "quantitative_K466_c_needed_to_improve_residual_accuracy": false
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_classification": "INTERNAL_ONLY__NO_SOURCE_NATIVE_OR_CONVENTIONAL_PARTICLE_VERDICT",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "repository construction; no source/GU action selects the extension or scalar center",
+    "carrier": "one fixed complete K162 charge sector",
+    "form": "A_s=R+sM with A_s>=cM>0",
+    "grading": "trial line plus complete M-orthogonal complement",
+    "pairing": "positive physical metric M=S* S",
+    "real_structure": "CAR adjoint on the fixed charge sector",
+    "result": "shifted-coercivity residual dominance MAP-TYPE=conditional-theorem",
+    "target": "K466/K467 shifted residual energy versus K469 direct M-dual residual square"
+  },
+  "result_id": "K571-K152-SHIFTED-COERCIVITY-DOMINANCE",
+  "schema_version": "1.0",
+  "scope": "The K465/K466 conversion of a complete M-dual trial residual into K152 shifted-form residual energy on the same fixed generalized-M form packet consumed directly by K469.",
+  "sharp_control": {
+    "K466_residual_energy_upper": "5",
+    "M": "I_2",
+    "M_dual_square": "5",
+    "a": "3",
+    "actual_shifted_residual_energy": "5",
+    "all_equal": true,
+    "c": "3",
+    "control_is_native_K162_packet": false,
+    "covector": [
+      "1",
+      "2"
+    ],
+    "direct_M_dual_upper": "5",
+    "shifted_form": "3 I_2",
+    "shifted_form_dual_square": "5/3",
+    "trial": "e1"
+  },
+  "source_and_ledger_context": {
+    "inputs": [
+      "K465",
+      "K466",
+      "K467",
+      "K469",
+      "K570"
+    ],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "K152_residual_energy_upper": "a*ell*(R+sM)^(-1)ell<=a*eta^2/c",
+    "K466_shifted_dual_upper": "ell*(R+sM)^(-1)ell<=eta^2/c, eta^2=ell*M^(-1)ell",
+    "actual_shifted_dual_may_be_smaller_than_bridge_upper": true,
+    "coercivity_hypothesis": "R+sM>=cM>0",
+    "complete_complement_floor_still_required_by_K469": true,
+    "dominance": "a/c>=1, so the K466-derived residual-energy upper is never smaller than the direct M-dual upper eta^2 used by K469",
+    "normalization": "<u,Mu>=1 and rho=<u,Ru>",
+    "shift_can_rescue_coarse_M_dual_upper": false,
+    "shifted_trial_value": "a=rho+s=<u,(R+sM)u>",
+    "variational_ceiling": "c<=a"
+  }
+}

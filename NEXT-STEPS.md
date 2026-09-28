@@ -7,6 +7,20 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K571--K573 K152 RESIDUAL-FEASIBILITY CERTIFICATES.** K571
+> proves that normalized shifted coercivity has `c<=a=rho+s`, so K466's
+> K152 residual-energy upper `(a/c) eta^2` cannot improve K469's direct
+> M-dual upper `eta^2`. K572 composes K570, K169 and K469/K470: even at the
+> best admissible gap `g=5/2`, the current upper misses the `7/2` ground-
+> deficit-one and `25/9` projection-sine-one-half budgets. K573 emits exact
+> accuracy targets; the three probes pass `31/31` controls and reject `18/18`
+> hostile mutations. Next replace the global absolute-value residual ceiling
+> with cancellation-aware coherent evaluation or a smaller complete action-
+> flux error, targeting residual square `<=25/9`, while completing K494/K500's
+> reference-specific floor. This is certificate insufficiency, not an actual
+> residual lower bound or trial-accuracy verdict; K152 and all source, ledger,
+> canon, public and physical claims remain unchanged.
+
 > **2026-09-28 K568--K570 COMPLETE M-DUAL RESIDUAL ENCLOSURE.** K568
 > reconciles all K179 order-two-through-six inputs against K180--K184: 142
 > vectors, 57 coherent groups and 352 upper-triangle entries. K569 composes

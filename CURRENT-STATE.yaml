@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K571--K573 rerank the K152 route. K571 proves that normalized shifted
+    coercivity satisfies `c<=a=rho+s`, so K466's residual-energy upper
+    `(a/c) eta^2` cannot improve the direct M-dual upper `eta^2` used by K469.
+    K572 composes K570 with K169's most favorable admissible gap `g=5/2` and
+    shows that the current upper fails the exact `7/2` ground-deficit-one,
+    `25/2` deficit-within-gap and `25/9` projection-sine-one-half budgets.
+    K573 emits the full named target table. The three probes pass `31/31`
+    controls and reject `18/18` hostile mutations. This is certificate
+    insufficiency, not an actual residual lower bound or trial-accuracy
+    verdict. Next construct a cancellation-aware complete residual or
+    action-flux certificate below `25/9` while completing K494/K500's
+    reference-specific complete-complement floor. K152 and all source,
+    ledger, canon, paper, public-posture, novelty and physical conclusions
+    remain open or unchanged.
+
     K568--K570 close the complete numerical M-dual residual enclosure. K568
     replays K179 orders two through six against K180--K184 and reconciles all
     142 vectors, 57 coherent groups and 352 upper-triangle entries. K569 joins

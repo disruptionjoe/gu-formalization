@@ -1,0 +1,90 @@
+{
+  "best_case_tests": {
+    "ground_deficit_at_most_1": {
+      "current_upper_passes": false,
+      "maximum_allowed_residual_square": "7/2"
+    },
+    "ground_deficit_at_most_gap_cap": {
+      "current_upper_passes": false,
+      "maximum_allowed_residual_square": "25/2"
+    },
+    "necessary_best_case_ground_deficit": "d>=(sqrt((5/2)^2+4U)-5/2)/2",
+    "projection_sine_at_most_1_over_2": {
+      "current_upper_passes": false,
+      "maximum_allowed_residual_square": "25/9"
+    }
+  },
+  "claim_ceiling": "Exact composition of existing native certificate bounds only. Even granting the largest complete-complement gap compatible with K169, K570's current residual upper cannot certify a ground deficit at most one, a deficit within the 5/2 gap cap, or projection sine at most one half. This is failure of the current upper certificate, not a lower bound on the actual residual or proof that the native trial is inaccurate. No K152 interval or source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion moves.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition": {
+    "K169_cap_is_complete_floor": false,
+    "K169_relative_gap_cap": "5/2",
+    "K469_ground_target_test": "U<=d(g+d)",
+    "K470_projection_target_test": "U<=p^2 g^2/(1-p^2)^2",
+    "K570_M_dual_square_upper_exact": "248890514834555913427304355046048443898598823351385100786659180611773518694027401023638718275667327404543556208552353685796947542258902391473719035143341621799211789889785867720378955327832346925856417684423234384160473362652152265078172189642508360172227656835678711863994855949089141176318008287080566480509352704392738224670591847546569999555310618993498247229698580639029607130932350984901513388971664501353211361681529863484384892388078341414804719913829434592553267158955757624052109542853974805514358860840762708162407194795436024386655664511626029166067921988128205616912949316346107454654505272898623598073343187031653688319727794569182159882002425846331857546866779171491560363136549441341120640806864065620511967352781087564986708143394794269299725397744278643203970056856225163876727198027410042992674052559709233203671036999880640722719850960419941489943451693497569822495914014251978725802465196858187382860720129279011008993122488869382758300650925797050695615402477732440339404714135134461833943071373458565846997366267258652559805477139981190814874918321753080882444414737472100823390800556951454561787908083056622112885937199010695645018060178825043875729798056495764179877729391182070756573195914245746054375167592852329284035085214302714184404431829097130251554319237351671649850720779753282550798317291502554889266735099713571498082367031396669513792714268053336099814527526114843924184230780727569646441252074328433383499820198697914960750361764858394019462053989385707858689000902235498244906840909246849492432024373054559076716754104348182911922561251054963687196952357074860426016705774484893095999750415010243694759722188048217359748866654344356998758489167037789700633635000628542125012309203053205173460623286350889946068477434379451504243742441496289828865064682660371879928144251044363798876254658547203019853170661065806103569431733465755316586612299429520057782392394287319399809531587715283312105260264006911241061719899563429437777839377427157039398179914519277279284231245723371872065177644958260236424759836089521869368838435410326168036765122259574682901593020636064783456301114301493437205264969957465624995509531496677553941418254398714458108814954906046210500816090331034085649639593729837520939519059280140926732527653979449851911167548666404221949153706683990360457711661367349731113764298605857404881563879002934342820287866842019970322176062261807788044439957852901911076961734610214628695422842060522776539821496467765800761059964155465591010925508347619110909801/10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "K570_M_dual_square_upper_scientific": "2.48890514834555913e+2347",
+    "best_case_substitution": "g=5/2 maximizes both right-hand budgets over every admissible 0<g<=5/2"
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "complete_complement_floor_still_required": true,
+    "current_upper_certifies_ground_deficit_at_most_1": false,
+    "current_upper_certifies_ground_deficit_within_gap_cap": false,
+    "current_upper_certifies_projection_sine_at_most_1_over_2": false,
+    "failure_is_certificate_insufficiency_not_actual_residual_lower": true,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Tighten the complete M-dual residual upper by cancellation-aware evaluation or construct an action-flux certificate with a smaller native error quantity, while separately proving a positive reference-specific complete-complement floor below the K169 threshold cap."
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_classification": "INTERNAL_ONLY__NO_SOURCE_NATIVE_OR_CONVENTIONAL_PARTICLE_VERDICT",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "repository construction; no source/GU action selection",
+    "carrier": "one fixed K162 charge sector and finite trial line",
+    "form": "fixed K139/K168 reference form",
+    "grading": "trial/complement split with fixed total charge",
+    "pairing": "positive physical metric M=S* S",
+    "real_structure": "CAR adjoint and signed-flavor intertwiner",
+    "result": "best-case residual/gap feasibility MAP-TYPE=certificate-obstruction",
+    "target": "K469 ground deficit and K470 complete-ground-eigenspace angle"
+  },
+  "result_id": "K572-K152-BEST-CASE-GAP-FEASIBILITY",
+  "schema_version": "1.0",
+  "scope": "Best-case certificate feasibility after composing K570's complete M-dual residual upper with K169's 5/2 native complete-complement gap cap and the K469/K470 sharp two-block consumers.",
+  "sharp_control": {
+    "M_dual_square": "9/4",
+    "both_equalities_hold": true,
+    "control_is_native_K162_packet": false,
+    "gap": "4",
+    "ground_budget": "9/4",
+    "ground_deficit": "1/2",
+    "projection_budget": "9/4",
+    "projection_sine": "1/3"
+  },
+  "source_and_ledger_context": {
+    "inputs": [
+      "K169",
+      "K469",
+      "K470",
+      "K570",
+      "K571"
+    ],
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

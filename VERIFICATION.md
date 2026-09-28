@@ -7,6 +7,32 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K571--K573 K152 residual-feasibility certificates (2026-09-28)
+
+K571 composes K466's shifted-coercivity bridge with K152's residual-energy
+normalization.  For a normalized trial, `a=rho+s` is itself the shifted-form
+Rayleigh value, so every valid coercivity constant satisfies `c<=a`.  Hence
+the bridged residual-energy upper `(a/c) eta^2` is never smaller than the
+direct M-dual upper `eta^2` already accepted by K469.  A shift may still make
+the actual shifted dual smaller; K571 proves only that this particular upper
+bound cannot rescue K570's coarse certificate.
+
+K572 combines K570 with K169's most favorable admissible relative gap
+`g=5/2`.  Even in that best case, the current upper fails the exact K469
+budgets `7/2` for ground deficit at most one and `25/2` for deficit within the
+gap cap, and it fails K470's `25/9` budget for projection sine at most one
+half.  K573 emits exact target tables: ground-deficit budgets `7/2`, `3/2`,
+`13/50` at deficits `1`, `1/2`, `1/10`, and projection budgets `25/9`,
+`225/256`, `625/9801` at sines `1/2`, `1/3`, `1/10`.  The three probes pass
+31/31 controls and reject 18/18 hostile mutations.
+
+These are certificate-feasibility results, not lower bounds on the actual
+residual and not evidence that the native trial is inaccurate.  K169 is a gap
+cap, not a floor.  A reference-specific complete-complement floor and a
+cancellation-aware residual or action-flux certificate below the target table
+remain required.  No K152 interval or source, ledger, canon, paper, public,
+novelty, prediction, confirmation or physical conclusion moves.
+
 ## K568--K570 complete M-dual residual enclosure (2026-09-28)
 
 K568 independently replays K179's coherent-group census against K180--K184.
