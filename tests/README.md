@@ -4,6 +4,16 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## Recent-literature applicability controls (2026-09-28)
+
+- `channel-swings/literature_applicability_2026_09_28.py` derives the exact
+  corrected spectral sign control, reconstructs compatible but non-proper
+  finite chains, and checks a Euclidean boundary-moving metric mode.
+  Includes coefficient, nilpotence and decay-rate negative controls.
+- Scope and primary links: `lab/sources/literature-applicability-2026-09-28.md`.
+  These reuse existing native results and test comparator applicability;
+  they do not construct GU's missing action coupling or prove a physics claim.
+
 ## K582--K584 adaptive uppers, all-level leakage, and floor identifiability
 
 - `channel-swings/k582_k579_group_rank_adaptive_complete_uppers.py` replays
