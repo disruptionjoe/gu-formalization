@@ -1,0 +1,107 @@
+{
+  "claim_ceiling": "Exact native applicability obstruction: the K172 level-one multipliers in both q00 and q10 have spectrum unbounded below because D_256(e)>=(2*pi)^-1 log(e/257) for e>257. Their spectral diameter is already infinite, so K591's finite-width sufficient route cannot yield a native uniform K500 bound. K591's abstract theorem and K580's finite profile-weighted variances remain valid; the direct K583 action-vector route and the separate noncyclic floor remain open. No K473/K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-28",
+  "decision": {
+    "K473_released": false,
+    "K580_finite_weighted_leakage_retracted": false,
+    "K591_abstract_theorem_retracted": false,
+    "actual_native_level_one_tested": true,
+    "complete_K500_uniform_leakage_emitted": false,
+    "finite_spectral_diameter_route_survives": false,
+    "native_K152_interval_emitted": false,
+    "native_noncyclic_floor_emitted": false,
+    "next_exact_input": "Derive a bath-level-uniform bound on ||W_n v_n tensor v_n-v_n tensor W_n v_n||^2/(2||v_n||^4), retaining K177 exchange terms, and separately serialize the complete-sector/noncyclic numerical floor.",
+    "route_effect": "Retire the native finite-spectral-width route. Continue with K583's directly normalized antisymmetrized action vectors or an equivalent weighted pairwise estimate; unbounded off-support spectrum is irrelevant if those vector ratios are uniformly finite."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "repository-supplied K139/K172 conditional operator; no source/GU action selection",
+    "carrier": "K162 q00 or q10 bath-number-one regular-coordinate block",
+    "form": "self-adjoint K172 multiplication block W_1",
+    "grading": "bath number one and fixed charge",
+    "pairing": "positive L2(dp) pairing and K580's normalized profile measure",
+    "real_structure": "real scalar multiplication in momentum coordinates",
+    "result": "native spectral-diameter applicability obstruction MAP-TYPE=multiplication-spectrum",
+    "target": "K591 finite-width route to complete K500 leakage"
+  },
+  "native_kernel": {
+    "continuous": true,
+    "definition": "D_256(e)=int_R e/((omega(k)+256)(omega(k)+256+e)) dk/(2*pi), omega(k)=sqrt(1+k^2)",
+    "lower_bound": "for e>257, D_256(e)>=(1/(2*pi))*log(e/257)",
+    "lower_bound_derivation": "on 0<=k<=e-257, omega(k)+256<=k+257<=e, so e/(a(a+e))>=1/(2a)>=1/(2(k+257)); use evenness",
+    "sampled_lower_bounds": [
+      {
+        "D_lower": "0.110317800076326",
+        "e": "514"
+      },
+      {
+        "D_lower": "0.220635600152652",
+        "e": "1028"
+      },
+      {
+        "D_lower": "0.330953400228977",
+        "e": "2056"
+      },
+      {
+        "D_lower": "0.441271200305303",
+        "e": "4112"
+      }
+    ],
+    "strict_monotonicity": "dD_256/de=int_R 1/(omega(k)+256+e)^2 dk/(2*pi)>0",
+    "unbounded": true,
+    "upper_bound_reused": "D_256(e)<=(1/pi)*log(1+e/256) from K172"
+  },
+  "native_level_one_sectors": [
+    {
+      "K580_weighted_leakage_square_upper_exact": "335074169061039697440836960800936341564/106648886180424491411945767699833984025",
+      "actual_action_on_cyclic_profile": "(256-1*D_256(omega(p)))*h(p)",
+      "charge": [
+        0,
+        0
+      ],
+      "multiplication_spectrum": "(-infinity, 256-1*D_256(1)]",
+      "multiplicity": 1,
+      "multiplier_formula": "w_1(p)=256-1*D_256(omega(p))",
+      "seed": "vacuum",
+      "spectral_diameter": "infinity",
+      "weighted_leakage_finite": true
+    },
+    {
+      "K580_weighted_leakage_square_upper_exact": "1340296676244158789763347843203745366256/106648886180424491411945767699833984025",
+      "actual_action_on_cyclic_profile": "(256-2*D_256(omega(p)))*h(p)",
+      "charge": [
+        1,
+        0
+      ],
+      "multiplication_spectrum": "(-infinity, 256-2*D_256(1)]",
+      "multiplicity": 2,
+      "multiplier_formula": "w_2(p)=256-2*D_256(omega(p))",
+      "seed": "one_impurity",
+      "spectral_diameter": "infinity",
+      "weighted_leakage_finite": true
+    }
+  ],
+  "postflight_bookend": {
+    "strongest_contrary_construction": "K580 is the native contrary construction: the same unbounded multiplier has a finite h-weighted variance at level one.",
+    "strongest_overclaim": "Calling infinite spectral diameter infinite K500 leakage, or treating the conditional operator as source/GU selected.",
+    "weakest_reproducibility_seam": "The all-level direct vector ratio remains open; K593 kills only finite spectral width and does not extrapolate K580 unchanged through exchange levels."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K172 records a logarithmic pointwise upper and K580 a finite weighted variance, but neither proves the matching logarithmic lower or identifies the multiplication spectrum.",
+    "route_comparison": "Test K591 on K172's actual first native multiplier before attempting higher-level spectral enclosures; one infinite-width block kills a uniform finite-width route.",
+    "strongest_alternative": "The K583 vector-specific tensor ratio can remain finite for an unbounded operator and is the required successor rather than a wider spectral search."
+  },
+  "result_id": "K593-K500-NATIVE-SPECTRAL-DIAMETER-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "The actual K172 bath-number-one q00 and q10 normal multipliers used by K580, tested against K591's finite spectral-diameter applicability condition.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "K591_applicability": "K591's finite-width sufficient route cannot apply to the actual native family because it already fails at bath level one",
+    "essential_range": "because omega(p) covers [1,infinity), D_256 is continuous, strictly increasing and unbounded, w_m(p)=256-mD_256(omega(p)) has essential range (-infinity,256-mD_256(1)]",
+    "spectral_consequence": "the self-adjoint multiplication operator W_1 has infinite spectral diameter in both native sectors",
+    "weighted_vector_boundary": "infinite operator spectral width does not imply infinite leakage on h: K172 proves ||D_256 h||<=1/16 and K580 gives finite weighted variances"
+  }
+}

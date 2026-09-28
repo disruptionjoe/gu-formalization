@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: fffb6349d7e8
+revision_basis: 9716977a90d5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K592--K593 close two false identifiability routes while preserving their
+    correctly typed successors. K592 proves that K585/K588's stationary
+    Hessian does not determine the first field-dependent nonfactorized
+    corrected-carrier coupling: the exact family
+    `S_T(x,z)=x^2/2+<z,z>/2+x<z,Tz>/2` has the same Hessian at the stationary
+    background for every symmetric `T`, while its selected third derivative
+    `d_x d_z^2 S_T=T` can commute with the K441 projector or exchange its two
+    rank-64 halves. K593 proves that K172's actual level-one multipliers have
+    infinite spectral diameter because `D_256(e)` is continuous, strictly
+    increasing and unbounded. Thus K591 remains correct but cannot release
+    K500 by a finite native width; K583's direct normalized action-vector
+    route remains live. The probes pass `47/47` controls and reject `46/46`
+    hostile mutations. No source, ledger, canon, paper, public or physical
+    claim moves.
+
     K588--K591 close K587's finite and factorized completion endpoint and
     sharpen the independent K500 route. K588 uses
     `B^T B=(50/257049)I_91` to define the Euclidean minimal-norm reduction
@@ -11544,13 +11559,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, derive an action-owned nonfactorized lower-order coupling
-  on the corrected rank-512 carrier and test both K444 squares, nilpotence and
-  properness without substituting an arbitrary matrix. On the K500 route,
-  certify a uniform spectral width for the actual all-level normal blocks or
-  compute their normalized action-vector leakage directly, and separately
-  serialize a named cancellation-safe complete-sector lower witness. Preserve
-  K588's off-image ownership fence and K590's factorized-only ceiling.
+  On the K77 route, serialize the selected action's third Frechet derivative
+  at the same stationary background, restrict its carrier legs to the
+  K589/K441 complex, and test both K444 squares, nilpotence and properness.
+  K592 proves this coupling cannot be inferred from the stationary Hessian.
+  On the K500 route, retire the finite native spectral-width route rejected by
+  K593 and directly bound K583's normalized antisymmetrized action vectors
+  uniformly while retaining K177's exchange blocks. Separately serialize a
+  named cancellation-safe complete-sector lower witness. Preserve K588's
+  off-image ownership fence and K590's factorized-only ceiling.
 
   Continue K500 beyond K510's simplex-volume obstruction. Either prove a
   determinant-aware refinement-uniform lower for the explicit alternating

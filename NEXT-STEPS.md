@@ -7,6 +7,20 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K592--K593 ACTION-JET IDENTIFIABILITY AND NATIVE SPECTRAL
+> DIAMETER OBSTRUCTION.** K592 gives an exact action family whose stationary
+> Hessian is fixed while the first field-dependent carrier coupling ranges
+> from projector-commuting to rank-128 exchange. The coupling is the selected
+> third Frechet derivative, so it cannot be recovered from K585/K588's Hessian
+> alone. K593 evaluates the actual K172 level-one multiplier structure and
+> proves `D_256(e)` is continuous, strictly increasing and unbounded. Both
+> q00 and q10 multiplication blocks therefore have infinite spectral diameter;
+> K591's theorem remains valid but its finite-width native release is closed.
+> The two probes pass `47/47` controls and reject `46/46` hostile mutations.
+> Next extract the selected action's third jet on the K589/K441 carrier and
+> directly bound K583's normalized action vectors while retaining K177's
+> exchange blocks. The separate complete-sector floor remains required.
+
 > **2026-09-28 K588--K591 ACTION-ORBIT COMPLETION AND SPECTRAL-DIAMETER
 > BOUNDARY.** K588 composes K585's Hessian embedding with the source-owned
 > orbit quotient through the exact minimal-norm reduction

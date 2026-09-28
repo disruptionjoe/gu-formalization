@@ -8,6 +8,28 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K592--K593 action-jet identifiability and native spectral obstruction
+
+K592 tests whether the stationary Hessian used by K585/K588 determines the
+first nonfactorized corrected-carrier coupling. The exact family
+`S_T(x,z)=x^2/2+<z,z>/2+x<z,Tz>/2` has the same Hessian `diag(1,I)` at the
+stationary background for every symmetric `T`, but its selected third
+Frechet derivative is `d_x d_z^2 S_T=T`. A block-diagonal `T` commutes with
+the corrected projector, while a symmetric exchange between the two rank-64
+halves has commutator rank 128. The stationary Hessian therefore cannot own
+this coupling; the actual selected third action jet must be serialized.
+
+K593 applies K591 to K172's actual level-one multiplier
+`w_m(p)=256-m D_256(omega(p))`, for `m=1,2`. It proves
+`D_256'(e)=integral (omega(k)+256+e)^-2 dk/(2*pi)>0` and, for `e>257`,
+`D_256(e)>=(2*pi)^-1 log(e/257)`. Since `omega(p)` covers `[1,infinity)`, each
+multiplier has essential range `(-infinity,256-m D_256(1)]` and infinite
+spectral diameter. K591 remains a correct conditional theorem, but no finite
+native level-one width exists. K580's finite leakage and K583's direct
+normalized action-vector route remain valid. The two probes pass 47/47
+controls and reject 46/46 hostile mutations. No source, ledger, canon, paper,
+public, novelty, prediction, confirmation or physical conclusion moves.
+
 ## 2026-09-28 — K588--K591 action-orbit completion and spectral-diameter boundary
 
 K588 uses K586's exact scalar Gram matrix to form the Euclidean pseudoinverse

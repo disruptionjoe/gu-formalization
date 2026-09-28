@@ -1,0 +1,202 @@
+{
+  "claim_ceiling": "Exact variational identifiability boundary: K585/K588's selected stationary Hessian fixes the linear action-orbit block but cannot determine the first nonfactorized corrected-carrier dependence, which is a third action jet. Exact symmetric cubic controls share the same Hessian while giving either zero or rank-128 linearized boundary-square defect. This does not show that the selected action lacks such a jet, does not choose either control, and does not construct the nonlinear BV/KT complex or move source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusions.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-28",
+  "decision": {
+    "K585_K588_hessian_determines_nonfactorized_carrier_coupling": false,
+    "K590_factorized_completion_retracted": false,
+    "actual_selected_third_action_jet_tested": false,
+    "next_exact_input": "Serialize the selected first action's third Frechet derivative at the same stationary background on the K441 corrected carrier, restrict it to the K589 degree sectors, and test both linearized K444 squares before nilpotence and properness.",
+    "source_action_rejected": false,
+    "third_action_jet_is_necessary_input": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_actions_share_background_hessian": true,
+    "all_three_third_jets_distinct": true,
+    "compatible_control": {
+      "action": "x^2/2+z_out^2/2+z_in^2/2+2*x*z_out^2/2+3*x*z_in^2/2",
+      "background_hessian": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "carrier_third_jet": [
+        [
+          "2",
+          "0"
+        ],
+        [
+          "0",
+          "3"
+        ]
+      ],
+      "typed_square_defect": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "typed_square_defect_rank": 0
+    },
+    "hostile_exchange_actual_commutator_rank": 128,
+    "hostile_exchange_control": {
+      "action": "x^2/2+z_out^2/2+z_in^2/2+1*x*z_out*z_in",
+      "background_hessian": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "carrier_third_jet": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "1",
+          "0"
+        ]
+      ],
+      "typed_square_defect": [
+        [
+          "0",
+          "1"
+        ],
+        [
+          "-1",
+          "0"
+        ]
+      ],
+      "typed_square_defect_rank": 2
+    },
+    "zero_control": {
+      "action": "x^2/2+z_out^2/2+z_in^2/2",
+      "background_hessian": [
+        [
+          "1",
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "1",
+          "0"
+        ],
+        [
+          "0",
+          "0",
+          "1"
+        ]
+      ],
+      "carrier_third_jet": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "typed_square_defect": [
+        [
+          "0",
+          "0"
+        ],
+        [
+          "0",
+          "0"
+        ]
+      ],
+      "typed_square_defect_rank": 0
+    }
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "K585/K588 own the selected second action derivative only; a third action derivative is not serialized",
+    "carrier": "K441 corrected moving rank-512 boundary carrier, represented in the exact control by one outgoing and one incoming line",
+    "grading": "base field x versus corrected-carrier trace halves",
+    "pairing": "real symmetric action Hessian pairing at the selected stationary background",
+    "real_structure": "real polynomial control; the selected K77 real form remains unchanged",
+    "result": "action-jet ownership boundary MAP-TYPE=variational-identifiability",
+    "target": "first nonfactorized carrier dependence of the K590 degree-changing arrows"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A selected nonzero third action jet could choose the compatible control and close the squares, or the hostile control and fail them, without changing K585's Hessian.",
+    "strongest_overclaim": "Saying the selected action has no nonfactorized coupling, rather than that its serialized Hessian does not determine one.",
+    "weakest_reproducibility_seam": "The exact control proves jet-level non-identifiability on a minimal trace pair; applying it to the selected action requires serializing that action's actual third derivative."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K443--K446 classify arbitrary compatible controls and K590 instantiates the factorized Hessian-owned complex, but no predecessor proves that the selected Hessian cannot own the missing carrier dependence.",
+    "route_comparison": "Test variational identifiability before expanding any 46,592-dimensional nonfactorized arrow; the action Hessian and the first variation of that Hessian are different jets.",
+    "strongest_alternative": "Directly differentiate the complete selected action a third time; this is the positive successor once its carrier and stationary background are fixed."
+  },
+  "result_id": "K592-K77-HESSIAN-CARRIER-COUPLING-IDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "Identifiability of the first field-dependent, nonfactorized corrected-carrier coupling from K585/K588's selected stationary action Hessian data.",
+  "selected_native_inputs": {
+    "actual_nonfactorized_third_action_jet_serialized": false,
+    "factorized_carrier_rank": 512,
+    "first_action_block_reused": "K585-K77-ACTION-BOUNDARY-COUPLING-TYPING",
+    "hessian_block_rank": 91,
+    "hessian_block_shape": [
+      1470,
+      91
+    ],
+    "hessian_gram_scalar": "50/257049"
+  },
+  "source_and_ledger_context": {
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "background": "For S_T(x,z)=x^2/2+<z,z>/2+x<z,Tz>/2 at (0,0), the Hessian is diag(1,I) for every real symmetric T.",
+    "full_rank_transfer": "On K441's 64+64 slow trace pair, the hostile exchange has commutator rank 128 while a block-diagonal third jet has rank-zero defect.",
+    "identifiability": "The stationary Hessian does not determine the first field-dependence of its carrier block; that dependence is a third action jet.",
+    "third_jet": "d_x d_z^2 S_T(0,0)=T.",
+    "typed_square": "For the fixed boundary projector Pi, the first carrier coupling obeys the linearized K444 square exactly when [Pi,T]=0."
+  }
+}

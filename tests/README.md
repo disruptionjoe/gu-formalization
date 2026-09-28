@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K592--K593 action-jet identifiability and native spectral obstruction
+
+- `channel-swings/k592_k77_hessian_carrier_coupling_identifiability.py`
+  proves by an exact action family that a stationary Hessian cannot determine
+  the selected third-jet carrier coupling or its projector commutator.
+- `channel-swings/k593_k500_native_spectral_diameter_obstruction.py` proves
+  the actual K172 level-one multipliers have unbounded essential range and
+  hence infinite spectral diameter.
+- The two `_probe.py` files pass 47 exact controls and reject 46 hostile
+  mutations while preserving the third-jet and direct-vector successor routes.
+
 ## K588--K591 action-orbit completion and spectral-diameter boundary
 
 - `channel-swings/k588_k77_action_orbit_reduction.py` constructs the exact

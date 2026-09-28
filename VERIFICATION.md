@@ -7,6 +7,25 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K592--K593 action-jet identifiability and native spectral obstruction (2026-09-28)
+
+K592 exactly differentiates a cubic action family with a common stationary
+background. Every member has the same Hessian, while the selected mixed third
+derivative equals the freely chosen symmetric carrier operator `T`. The K441
+projector commutator has rank zero for a block-diagonal control, rank two on
+the representative two-coordinate exchange, and rank 128 on the actual
+rank-64/rank-64 exchange. This is an identifiability obstruction, not evidence
+that the selected GU action lacks a third derivative or a compatible coupling.
+
+K593 derives the positive derivative and logarithmic lower bound for K172's
+`D_256`, then uses the native dispersion range to identify the exact unbounded
+essential range of both level-one multipliers. Hence their spectral diameters
+are infinite. This rejects only K591's proposed finite-width instantiation;
+the theorem itself, K580's level-one leakage estimate and K583's direct vector
+identity remain intact. The two probes pass 47/47 controls and reject 46/46
+hostile mutations. No K473 beta, K152 interval, source, ledger, canon, paper,
+public, novelty, prediction, confirmation or physical conclusion follows.
+
 ## K588--K591 action-orbit completion and spectral-diameter boundary (2026-09-28)
 
 K588 exactly reconstructs K585's `1470 x 91` rank-91 block and verifies
