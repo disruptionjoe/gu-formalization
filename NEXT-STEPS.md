@@ -7,6 +7,20 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K585--K587 ACTION-DERIVED KT COMPLETION BOUNDARY.** K585
+> reconstructs the selected first-action moving-Shiab Hessian cross as an exact
+> `1470 x 91` rank-91 block with 182 nonzeros, all in the grade-one connection
+> receiver. Its 91-dimensional source matches K442's middle base factor, but
+> its receiver matches neither adjacent factor, and the identity-512 lift is
+> likewise mistyped. K586 proves the simplest Euclidean-adjoint completion is
+> non-nilpotent: `B^T B=(50/257049)I_91`. K587 isolates the minimal remaining
+> source-authenticated interface: derive `L:R^1470->M^70` with `rank(LB)=70`
+> and an independent rank-21 `D2:H^21->Q^91` satisfying `(LB)D2=0`, then test
+> the corrected carrier action in both K444 squares. The probes pass `51/51`
+> controls and reject `27/27` hostile mutations. Direct and Euclidean-adjoint
+> completions are rejected; the source action, other BV/KT completions, source,
+> ledger, canon, public and physical claims remain open or unchanged.
+
 > **2026-09-28 K582--K584 ADAPTIVE UPPERS, ALL-LEVEL LEAKAGE, AND FLOOR
 > IDENTIFIABILITY.** K582 restricts K579's nested determinant-transition
 > maximum to each coherent group's actual matrix ranks while preserving the

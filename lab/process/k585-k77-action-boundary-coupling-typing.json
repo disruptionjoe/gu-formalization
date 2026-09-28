@@ -1,0 +1,111 @@
+{
+  "actual_action_block": {
+    "all_live_receivers_are_grade_one": true,
+    "column_support_set": [
+      2
+    ],
+    "grade_one_receiver_dimension": 196,
+    "grade_two_receiver_dimension": 1274,
+    "name": "moving-Shiab first-action Hessian cross",
+    "nonzero_entries": 182,
+    "nonzero_receiver_rows": 182,
+    "predecessor_rank": 91,
+    "rank": 91,
+    "shape": [
+      1470,
+      91
+    ],
+    "sparse_content_digest": "sha256:b655ac501cd3b86599ee4b3190fec4d57aae0fa7dd07f77d66917f82f2ff01e6",
+    "tangent_grade_one_dimension": 196
+  },
+  "claim_ceiling": "Exact reconstruction and typing of one selected first-action 1470-by-91 rank-91 Hessian cross. It proves that direct identification and the identity-512 tensor lift do not instantiate K444's corrected-boundary arrows. It does not prove that no action-owned reduction or BV/KT completion exists, serialize D2/D1, select a physical boundary, construct physical cohomology, or move source, ledger, canon, paper, public posture, novelty, prediction, confirmation or a physical GU verdict.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "probe": "tests/channel-swings/k585_k77_action_boundary_coupling_typing_probe.py",
+    "producer": "tests/channel-swings/k585_k77_action_boundary_coupling_typing.py"
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "absence_is_now_exactly_typed": true,
+    "actual_action_block_instantiates_K444": false,
+    "actual_action_block_nontrivial": true,
+    "actual_action_block_reconstructed": true,
+    "next_exact_input": "Derive an action-owned rank-70 reduction L from the 1470 connection-Euler receiver to the orbit target, then derive an independent action-owned rank-21 adjacent block into ker(LB); separately identify the corrected rank-512 carrier action and test both K444 projector squares.",
+    "source_action_rejected": false,
+    "specified_completion_rejected": "direct identification or identity-512 tensor lift of the 1470-by-91 Hessian cross with either K444 arrow"
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action_owner": "repository-selected source-shaped first transgression action; not a complete source-selected BV master action",
+    "kt_product": "homogeneous-orbit base factors 21 to 91 to 70 tensored with the corrected rank-512 boundary carrier",
+    "pairing": "selected first-action Shiab/Hodge pairing at the common stationary connection branch",
+    "result": "actual action-coupling typing attempt MAP-TYPE=typed-interface-audit",
+    "source": "91 primitive epsilon variations of the selected first action; LAYER=field-tangent variation; CHIRALITY=N/A",
+    "target": "1470 connection Euler receiver directions split as Clifford grades 196 plus 1274; MAP-TYPE=Hessian-cross"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The current block's receiver has dimension 1470 and its identity-512 lift has target dimension 752640, not K444's degree-zero or degree-one target.",
+    "strongest_overclaim": "Calling the rank-91 Hessian cross a field/antifield differential merely because its source has dimension 91.",
+    "weakest_reproducibility_seam": "The exact matrix is rebuilt through the large predecessor probe rather than stored independently; its sparse digest and support/rank fingerprint bind that replay."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K464/K475/K476/K479 provide admission, rank, support and nilpotence interfaces but explicitly serialize no native D2/D1 coefficients.",
+    "route_comparison": "Reconstruct the only current coefficient-bearing action cross block before applying any abstract BV or boundary theorem.",
+    "strongest_alternative": "Tensoring or projecting an arbitrary control into K444 would create coefficients rather than test the selected action and was rejected."
+  },
+  "result_id": "K585-K77-ACTION-BOUNDARY-COUPLING-TYPING",
+  "schema_version": "1.0",
+  "scope": "Exact reconstruction and Layer-0 typing of the selected first-action moving-Shiab Hessian cross block against K442/K444's corrected-boundary homogeneous-orbit KT product. It identifies the actual source and receiver and tests direct arrow compatibility without inventing a reduction, tensor factorization or BV grading.",
+  "source_and_ledger_context": {
+    "action_input": "lab/process/selected-k77-common-first-action-epsilon-hessian.json",
+    "kt_input": "lab/process/k442-k77-corrected-boundary-kt-product.json",
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none",
+    "tangent_input": "lab/process/selected-k77-first-action-tangent-closure.json",
+    "typed_square_input": "lab/process/k444-k77-degree-changing-boundary-squares.json"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "typed_map_attempt": {
+    "actual_block_directly_types_as_K444_D1_or_D2": false,
+    "actual_receiver_matches_degree_two_base_dimension": false,
+    "actual_receiver_matches_degree_zero_base_dimension": false,
+    "actual_source_matches_middle_base_dimension": true,
+    "corrected_boundary_carrier_map_present": false,
+    "corrected_boundary_rank": 512,
+    "dimension_coincidence_1470_equals_21_times_70": true,
+    "dimension_coincidence_is_typed_factorization": false,
+    "kt_base_dimensions": [
+      21,
+      91,
+      70
+    ],
+    "kt_product_dimensions": [
+      10752,
+      46592,
+      35840
+    ],
+    "owner_authenticated_1470_to_70_reduction_present": false,
+    "owner_authenticated_21_to_91_adjacent_block_present": false,
+    "tensor_with_identity_512_matches_D1": false,
+    "tensor_with_identity_512_matches_D2": false,
+    "tensor_with_identity_512_shape": [
+      752640,
+      46592
+    ]
+  }
+}

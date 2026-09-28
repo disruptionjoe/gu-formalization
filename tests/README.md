@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K585--K587 action-derived KT completion boundary
+
+- `channel-swings/k585_k77_action_boundary_coupling_typing.py` reconstructs
+  the exact selected first-action `1470 x 91` Hessian cross and tests its direct
+  and identity-512-lifted K444 arrow types.
+- `channel-swings/k586_k77_hessian_adjoint_nilpotence_obstruction.py` proves
+  the Euclidean-adjoint composition is the nonzero scalar identity
+  `B^T B=(50/257049)I_91`.
+- `channel-swings/k587_k77_action_kt_completion_interface.py` derives the
+  minimal rank/kernel obligations for an action-owned `21 -> 91 -> 70`
+  completion and its corrected-carrier lift.
+- The three `_probe.py` files pass 51 exact controls and reject 27 hostile
+  mutations while fencing source, ledger and physical overreach.
+
 ## Recent-literature applicability controls (2026-09-28)
 
 - `channel-swings/literature_applicability_2026_09_28.py` derives the exact

@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "The exact Euclidean-transpose completion B followed by B^T is not nilpotent: B^T B is a positive scalar identity. This rejects that specified completion only. It does not reject the selected source action, an action-owned quotient/reduction, a different pairing, or every possible BV/KT complex; it does not move source, ledger, canon, paper, public posture, novelty, prediction, confirmation or a physical GU verdict.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "probe": "tests/channel-swings/k586_k77_hessian_adjoint_nilpotence_obstruction_probe.py",
+    "producer": "tests/channel-swings/k586_k77_hessian_adjoint_nilpotence_obstruction.py"
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "all_bv_kt_completions_rejected": false,
+    "canonical_adjoint_completion_rejected": true,
+    "next_exact_input": "An independently action-owned reduction and adjacent arrow whose composition vanishes; neither arrow may be inferred solely from the Euclidean transpose of B.",
+    "reason": "B^T B equals (50/257049) times the 91-dimensional identity and therefore has rank 91 rather than zero.",
+    "source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "exact_adjoint_test": {
+    "block_rank": 91,
+    "block_shape": [
+      1470,
+      91
+    ],
+    "gram_is_scalar_identity": true,
+    "gram_is_zero": false,
+    "gram_nonzero_entries": 91,
+    "gram_rank": 91,
+    "gram_scalar": "50/257049",
+    "gram_shape": [
+      91,
+      91
+    ],
+    "gram_sparse_content_digest": "sha256:93321e27067a84041a7fefe39f353cc67a31c0c2074ac8306219284c8a8426b0",
+    "gram_trace": "350/19773",
+    "nilpotence_holds": false,
+    "nilpotence_required_for_two_arrow_complex": true,
+    "positive_definite_over_reals": true,
+    "reverse_composition_rank": 91,
+    "reverse_composition_shape": [
+      1470,
+      1470
+    ]
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "CHIRALITY": "N/A",
+    "LAYER": "selected first-action Hessian tangent data",
+    "MAP-TYPE": "canonical-adjoint completion obstruction",
+    "block": "B: Q^91 epsilon variations -> R^1470 connection-Euler receivers",
+    "candidate_adjacent_arrow": "B^T: R^1470 -> Q^91 under the current exact coordinate pairing",
+    "tested_composition": "B^T B: Q^91 -> Q^91"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A nontrivial quotient or action-owned reduction L can change the target and kernel before an adjacent arrow is selected.",
+    "strongest_overclaim": "Promoting failure of the Euclidean-adjoint completion to failure of every BV/KT completion.",
+    "weakest_reproducibility_seam": "The coordinate pairing is inherited from the selected-action probe; a different source-authenticated pairing would require a new test."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "No prior artifact tested B^T B for the selected first-action matrix.",
+    "route_comparison": "Test the only coefficient-preserving adjacent map supplied without new action data: the exact transpose under the current pairing.",
+    "strongest_alternative": "Inventing an unrelated rank-70 projection could force a complex but would not be action-derived."
+  },
+  "result_id": "K586-K77-HESSIAN-ADJOINT-NILPOTENCE-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact nilpotence test for the simplest metric-adjoint two-arrow completion of K585's selected first-action 1470-by-91 Hessian cross. The test is confined to the repository's current Euclidean coordinate pairing and does not claim that a source-selected BV pairing must be this adjoint.",
+  "source_and_ledger_context": {
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none",
+    "typed_input": "lab/process/k585-k77-action-boundary-coupling-typing.json"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

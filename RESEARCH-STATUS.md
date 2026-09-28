@@ -8,6 +8,30 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+## 2026-09-28 — K585--K587 action-derived KT completion boundary
+
+K585 replays the selected first-action calculation and reconstructs its actual
+moving-Shiab Hessian cross `B:Q^91 -> R^1470`. It has rank 91, 182 nonzero
+entries, two per column, and every live receiver lies in the 196-dimensional
+grade-one connection sector. This is a coefficient-bearing action result, but
+only its source dimension matches K442's `21 -> 91 -> 70` base complex. The
+receiver is neither adjacent factor, and tensoring `B` with the corrected
+rank-512 carrier produces a `752640 x 46592` map rather than either K444 arrow.
+
+K586 tests the only coefficient-preserving adjacent map available without new
+action data: the exact transpose under the current coordinate pairing. It
+finds `B^T B=(50/257049)I_91`, so the composition has rank 91 and cannot be a
+nilpotent two-arrow complex. K587 then proves the minimal completion interface.
+An action-owned reduction `L:R^1470->M^70` must make `D1=LB` surjective; an
+independently authenticated `D2:H^21->Q^91` must have rank 21 and satisfy
+`D1D2=0`. Those conditions force `im(D2)=ker(D1)`, and their factorized
+identity-512 lift has ranks 10752 and 35840. A nonfactorized carrier action
+still owes both K444 typed squares. The three probes pass 51/51 controls and
+reject 27/27 hostile mutations. This rejects direct and Euclidean-adjoint
+completions only; no source action, general BV/KT completion, source, ledger,
+canon, paper, public, novelty, prediction, confirmation or physical conclusion
+is rejected or promoted.
+
 ## 2026-09-28 — K582--K584 adaptive uppers, all-level leakage, and floor identifiability
 
 K582 performs the first group-adaptive replay of K579 without changing the

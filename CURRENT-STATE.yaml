@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d547dbe826449
+revision_basis: 8431ca9b7ed0
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K585--K587 execute the action-derived corrected-boundary coupling attempt
+    selected by the September 28 literature-applicability restock. K585
+    reconstructs the selected first-action moving-Shiab Hessian cross as an
+    exact `1470 x 91` rank-91 map with 182 nonzero entries, all landing in the
+    196-dimensional grade-one connection receiver. Its source matches K442's
+    91-dimensional middle base factor, but its receiver does not match either
+    adjacent K442/K444 factor; neither direct identification nor tensoring by
+    the rank-512 carrier is typed. K586 proves the canonical Euclidean-adjoint
+    completion is non-nilpotent because `B^T B=(50/257049) I_91`. K587 derives
+    the minimal remaining interface: an action-owned `L:R^1470->M^70` with
+    `rank(LB)=70`, an independent rank-21 `D2:H^21->Q^91` satisfying
+    `(LB)D2=0`, and then the K444 carrier-square checks. The probes pass `51/51`
+    controls and reject `27/27` hostile mutations. This rejects only direct
+    and Euclidean-adjoint completions, not the source action or every BV/KT
+    completion; source, ledger, canon, paper, public and physical claims do not
+    move.
+
     K582--K584 execute the next native K577/K500 discriminators. K582 replays
     K579's complete K363/K370 owner cover with determinant-transition maxima
     restricted to the ranks actually present in each coherent group. Thirteen

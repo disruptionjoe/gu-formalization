@@ -1,0 +1,118 @@
+{
+  "base_completion_interface": {
+    "B_injective_is_sufficient_to_select_L": false,
+    "coefficient_bearing_inputs_present": false,
+    "derived_D1_shape": [
+      70,
+      91
+    ],
+    "dimensions": {
+      "H": 21,
+      "M": 70,
+      "Q": 91,
+      "R": 1470
+    },
+    "euclidean_adjoint_supplies_D2": false,
+    "exactness_equivalence": "rank(LB)=70, rank(D2)=21, and (LB)D2=0; then im(D2)=ker(LB) because both have dimension 21",
+    "observed_B_rank": 91,
+    "required_D1_rank": 70,
+    "required_D2_rank": 21,
+    "required_D2_shape": [
+      91,
+      21
+    ],
+    "required_L_shape": [
+      70,
+      1470
+    ],
+    "required_kernel_dimension_if_D1_surjective": 21,
+    "required_nilpotence_equation": "(L B) D2 = 0"
+  },
+  "claim_ceiling": "For the current 21-to-91-to-70 base dimensions, an action-owned exact completion requires a rank-70 D1=LB and a rank-21 D2 with (LB)D2=0; these conditions are sufficient for base exactness, and their identity-512 lift has the K442 ranks. The artifact does not supply L or D2, authenticate factorization, construct the selected action's BV/KT complex, or move source, ledger, canon, paper, public posture, novelty, prediction, confirmation or a physical GU verdict.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "probe": "tests/channel-swings/k587_k77_action_kt_completion_interface_probe.py",
+    "producer": "tests/channel-swings/k587_k77_action_kt_completion_interface.py"
+  },
+  "corrected_carrier_lift": {
+    "K444_square_count": 2,
+    "carrier_rank": 512,
+    "commutes_with_degreewise_identical_projectors": true,
+    "degree_dimensions": [
+      10752,
+      46592,
+      35840
+    ],
+    "factorized_exactness_follows_from_base": true,
+    "factorized_nilpotence_follows_from_base": true,
+    "nonfactorized_action_requires_K444_typed_square_checks": true,
+    "required_product_D1_rank": 35840,
+    "required_product_D2_rank": 10752
+  },
+  "created": "2026-09-28",
+  "decision": {
+    "canonical_adjoint_obstruction_respected": true,
+    "minimal_completion_interface_derived": true,
+    "next_exact_input": "Derive an action-owned L with rank(LB)=70 and an independent action-owned D2 of rank 21 satisfying (LB)D2=0; then identify the boundary-carrier action and run both K444 typed square checks.",
+    "selected_action_completion_constructed": false,
+    "source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "CHIRALITY": "N/A",
+    "LAYER": "source-action tangent/BV boundary",
+    "MAP-TYPE": "minimal exact-completion interface",
+    "base_complex": "0 -> H^21 --D2--> Q^91 --D1--> M^70 -> 0",
+    "factorized_lift": "tensor both base arrows with identity on the corrected rank-512 carrier",
+    "observed_block": "B: Q^91 -> R^1470, rank 91",
+    "required_adjacent_arrow": "D2: H^21 -> Q^91, independently owned by the selected action or its authenticated gauge/BV completion",
+    "required_reduction": "L: R^1470 -> M^70, owned by the selected action; D1 = L B"
+  },
+  "logical_control": {
+    "D1_D2_zero": true,
+    "D1_control": "canonical projection of Q onto M",
+    "D2_control": "canonical inclusion of H into Q",
+    "control_is_action_derived": false,
+    "control_proves_interface_consistent": true,
+    "decomposition": "Q^91 = H^21 direct-sum M^70",
+    "rank_D1": 70,
+    "rank_D2": 21
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Many reductions L can make LB surjective; B's full column rank alone singles out none of them and supplies no D2.",
+    "strongest_overclaim": "Treating the logical direct-sum control as coefficients selected by Weinstein's action.",
+    "weakest_reproducibility_seam": "The interface is finite-dimensional linear algebra; the open seam is source authentication of L, D2 and the carrier action, not arithmetic."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K442/K444 supply target dimensions and square obligations; K475 supplies abstract rank fingerprints; none supplies L or D2 for the selected action.",
+    "route_comparison": "After rejecting direct and adjoint identifications, derive the smallest coefficient-level obligations that would actually instantiate the accepted abstract KT carrier.",
+    "strongest_alternative": "A hand-chosen coordinate projection realizes the dimensions but has no source authority and is retained only as a logical control."
+  },
+  "result_id": "K587-K77-ACTION-KT-COMPLETION-INTERFACE",
+  "schema_version": "1.0",
+  "scope": "Necessary-and-sufficient finite-dimensional rank/kernel interface for completing K585's injective action block into K442's 21-to-91-to-70 base complex, followed by the exact factorized rank-512 lift already specified by K442/K444. It specifies obligations but supplies no missing action coefficients.",
+  "source_and_ledger_context": {
+    "kt_input": "lab/process/k442-k77-corrected-boundary-kt-product.json",
+    "ledger": "lab/process/conditional-physics-ledger-v0.263.json",
+    "ledger_effect": "none",
+    "obstruction_input": "lab/process/k586-k77-hessian-adjoint-nilpotence-obstruction.json",
+    "physics_rows": [
+      "LT-SM8",
+      "LT-GR6b",
+      "RA-F1",
+      "AC-F1"
+    ],
+    "source_claims": [
+      "SC-ACT-01",
+      "SC-ACT-02",
+      "SC-ACT-06",
+      "SC-META-53"
+    ],
+    "source_polarity_effect": "none",
+    "typed_input": "lab/process/k585-k77-action-boundary-coupling-typing.json",
+    "typed_square_input": "lab/process/k444-k77-degree-changing-boundary-squares.json"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

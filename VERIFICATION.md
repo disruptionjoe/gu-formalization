@@ -7,6 +7,31 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K585--K587 action-derived KT completion boundary (2026-09-28)
+
+K585 deterministically rebuilds the selected first-action Hessian cross from
+the existing coefficient-bearing predecessor. The exact sparse fingerprint is
+`1470 x 91`, rank 91, 182 nonzero entries and two nonzeros per column; all 182
+live receiver rows have Clifford grade one. Its direct and identity-512-lifted
+dimensions fail both K444 arrow types. The numerical coincidence `1470=21*70`
+does not provide an owned factorization or reduction.
+
+K586 computes the exact Gram composition. It is diagonal and equals
+`(50/257049)I_91`, hence is positive definite and nonzero. The canonical
+Euclidean transpose therefore cannot supply a nilpotent adjacent differential.
+This computation is pairing-specific and does not exclude a distinct
+source-authenticated BV pairing, reduction or quotient.
+
+K587 proves the finite-dimensional completion criterion. With `D1=LB`, base
+exactness is equivalent to `rank(D1)=70`, `rank(D2)=21` and `D1D2=0`; the
+kernel then has dimension 21 and equals the image. Tensoring an authenticated
+base complex with the corrected rank-512 carrier gives dimensions
+`10752 -> 46592 -> 35840` and ranks 10752/35840. The logical direct-sum control
+shows consistency but is explicitly not action-derived. The three probes pass
+51/51 controls and reject 27/27 hostile mutations. No actual `L`, `D2`, carrier
+action, physical cohomology, source, ledger, canon, paper, public, novelty,
+prediction, confirmation or physical conclusion follows.
+
 ## K582--K584 adaptive uppers, all-level leakage, and floor identifiability (2026-09-28)
 
 K582 recomputes every K579 group face contribution using the maximum K369
