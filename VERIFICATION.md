@@ -7,6 +7,28 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K615--K616 zero-form stationarity and unsplit packet (2026-09-29)
+
+K615 reuses K614's exact zero-form inclusion and evaluates it against K438's
+actual compressed symbol. Exact reductions at both good characteristics give
+rank 128 for `A J0` and for its incoming, outgoing, fast and slow projections.
+K440 independently supplies zero kernel and cokernel for `D_A` on its corrected
+H1 trace domain. Hence the frozen model has no nonzero stationary zero-form
+value, and the direct sum of the source's four independent barred/unbarred
+slots still has zero kernel. This statement does not cover a moving lower-order
+or nonlinear operator, another domain or a source-selected physical boundary.
+Its producer and probe pass 31/31 controls and reject 26/26 hostile mutations.
+
+K616 composes those injective half-projections with K596. For every nonzero
+chosen `v`, the natural unsplit packet `C_v=|A J0 v><J0 v|` has defect
+`|y_out><x_in|-|y_in><x_out|`. The terms occupy disjoint cross-half blocks, so
+the defect has rank two. K598 orthogonal transport conjugates it and preserves
+that rank. A matching-half sum has zero defect, but differs from `C_v` by
+deleting both cross terms and is not action-owned. The exact rational control
+and independent probe pass 30/30 controls and reject 28/28 hostile mutations.
+This is a route obstruction for the natural frozen packet, not a general no-go
+for moving nonlinear or differently owned odd action data.
+
 ## K614 zero-form corrected-carrier injection (2026-09-29)
 
 K614 composes the source-owned fermion field `Omega^0(S)` with K438's

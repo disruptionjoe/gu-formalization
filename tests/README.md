@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K615--K616 zero-form stationarity and unsplit packet
+
+- `channel-swings/k615_k77_zero_form_stationarity_obstruction.py` composes
+  K614 with the exact K438/K440 frozen action model at both good
+  characteristics and proves the restricted and closed-domain kernels vanish.
+- `channel-swings/k615_k77_zero_form_stationarity_obstruction_probe.py`
+  independently checks 31 rank, domain, ownership and claim-ceiling controls
+  and rejects 26 hostile mutations.
+- `channel-swings/k616_k77_unsplit_rank_one_transport_obstruction.py` derives
+  the rank-two K596 defect of the natural unsplit packet and proves K598
+  transport preserves it while the unowned matching-half sum remains
+  conditional.
+- `channel-swings/k616_k77_unsplit_rank_one_transport_obstruction_probe.py`
+  checks 30 controls and rejects 28 hostile mutations.
+
 ## K614 zero-form corrected-carrier injection
 
 - `channel-swings/k614_k77_zero_form_corrected_carrier_injection.py` composes

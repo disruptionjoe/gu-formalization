@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k615": json.loads((ROOT / "lab/process/k615-k77-zero-form-stationarity-obstruction.json").read_text()),
+        "k616": json.loads((ROOT / "lab/process/k616-k77-unsplit-rank-one-transport-obstruction.json").read_text()),
         "k614": json.loads((ROOT / "lab/process/k614-k77-zero-form-corrected-carrier-injection.json").read_text()),
         "k612": json.loads((ROOT / "lab/process/k612-k139-quantitative-semibound-custody-audit.json").read_text()),
         "k613": json.loads((ROOT / "lab/process/k613-k77-central-parity-tensor-network-obstruction.json").read_text()),
@@ -56,9 +58,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K614" in live and "K441" in live, "K77 zero-form injection boundary missing")
-        check("nonzero" in live and "zero-form fermion" in live,
-              "K77 nonzero-background reopener missing")
+        check("K615--K616" in live and "K614" in live, "K77 frozen zero-form route result missing")
+        check("rank-two K596 defect" in live and "K598" in live,
+              "K77 unsplit-packet obstruction missing")
+        check("moving nonlinear/source-owned odd datum" in live and "nonzero" in live,
+              "K77 moving odd-data reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
         check("K609" in live and "below 1/3" in live,
@@ -76,6 +80,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K615--K616 close K614's natural frozen-background successor" in summary,
+          "current K615--K616 result lost")
     check("K614 closes the map half of K613's cheapest odd-data reopener" in summary,
           "current K614 result lost")
     check("K612--K613 close two post-K611/K610 extraction routes" in summary,
@@ -103,6 +109,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "rank-two K596 defect" in data["agenda"].get("latest_result_2026_09_29_k615_k616", ""),
+        "agenda K615--K616 result is not current",
+    )
     check(
         "rank-128 zero-form inclusion" in data["agenda"].get("latest_result_2026_09_29_k614", ""),
         "agenda K614 result is not current",
@@ -170,6 +180,35 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k615 = data["k615"]
+    k615_r = k615["rank_fingerprint"]
+    k615_f = k615["fibrewise_stationarity_theorem"]
+    k615_c = k615["closed_domain_stationarity_theorem"]
+    k615_d = k615["decision"]
+    check(len(k615["cross_characteristic_packets"]) == 2, "K615 characteristic packet count moved")
+    check(k615_r["action_euler_image"] == 128, "K615 Euler image rank moved")
+    check(k615_r["outgoing_zero_form"] == k615_r["incoming_zero_form"] == 128, "K615 zero-form half ranks moved")
+    check(k615_r["outgoing_euler"] == k615_r["incoming_euler"] == 128, "K615 Euler half ranks moved")
+    check(k615_r["fast_euler"] == k615_r["slow_euler"] == 128, "K615 fast/slow Euler ranks moved")
+    check(k615_f["kernel_dimension"] == 0 and not k615_f["nonzero_zero_form_value_is_stationary"], "K615 fibrewise stationarity moved")
+    check(k615_c["K440_kernel_dimension"] == k615_c["K440_cokernel_dimension"] == 0, "K615 K440 kernel/cokernel moved")
+    check(k615_c["four_source_fermion_slots_direct_sum_kernel_dimension"] == 0, "K615 four-field consequence moved")
+    check(not k615_c["moving_lower_order_or_nonlinear_operator_covered"], "K615 scope broadened")
+    check(not any((k615_d["nonzero_stationary_zero_form_in_K440_model_exists"], k615_d["four_field_frozen_stationary_background_nonzero"], k615_d["moving_nonlinear_nonzero_background_excluded"], k615_d["selected_source_action_rejected"], k615_d["K596_K598_released_by_stationarity"])), "K615 decision ceiling moved")
+
+    k616 = data["k616"]
+    k616_i = k616["input_injectivity"]
+    k616_u = k616["unsplit_defect_theorem"]
+    k616_m = k616["matching_half_repair"]
+    k616_t = k616["transport_theorem"]
+    k616_d = k616["decision"]
+    check([k616_i[k] for k in ("outgoing_x_rank", "incoming_x_rank", "outgoing_y_rank", "incoming_y_rank")] == [128, 128, 128, 128], "K616 input half ranks moved")
+    check(k616_i["every_nonzero_v_has_all_four_components_nonzero"], "K616 injectivity consequence moved")
+    check(k616_u["rank_for_every_nonzero_v"] == 2 and not k616_u["natural_unsplit_packet_satisfies_K596"], "K616 unsplit defect moved")
+    check(k616_m["typed_square_defect_rank"] == 0 and not k616_m["equals_natural_unsplit_packet"] and not k616_m["split_is_action_owned"], "K616 matching-half boundary moved")
+    check(k616_t["rank_preserved"] and k616_t["rank_at_every_transport_fibre"] == 2 and not k616_t["moving_nonlinear_action_coupling_covered"], "K616 transport ceiling moved")
+    check(k616_d["natural_unsplit_packet_rejected_in_frozen_model"] and not any((k616_d["matching_half_action_ownership_constructed"], k616_d["K596_actual_action_owned_packet_released"], k616_d["K598_actual_action_owned_packet_released"], k616_d["selected_source_action_rejected"])), "K616 decision ceiling moved")
 
     k614 = data["k614"]
     k614_f = k614["cross_characteristic_rank_fingerprint"]
@@ -267,6 +306,31 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k615-euler-rank", lambda d: d["k615"]["rank_fingerprint"].__setitem__("action_euler_image", 127))
+    add("k615-zero-half", lambda d: d["k615"]["rank_fingerprint"].__setitem__("incoming_zero_form", 127))
+    add("k615-euler-half", lambda d: d["k615"]["rank_fingerprint"].__setitem__("outgoing_euler", 127))
+    add("k615-fast", lambda d: d["k615"]["rank_fingerprint"].__setitem__("fast_euler", 127))
+    add("k615-fibre-kernel", lambda d: d["k615"]["fibrewise_stationarity_theorem"].__setitem__("kernel_dimension", 1))
+    add("k615-stationary", lambda d: d["k615"]["fibrewise_stationarity_theorem"].__setitem__("nonzero_zero_form_value_is_stationary", True))
+    add("k615-domain-kernel", lambda d: d["k615"]["closed_domain_stationarity_theorem"].__setitem__("K440_kernel_dimension", 1))
+    add("k615-four-field", lambda d: d["k615"]["closed_domain_stationarity_theorem"].__setitem__("four_source_fermion_slots_direct_sum_kernel_dimension", 1))
+    add("k615-scope", lambda d: d["k615"]["closed_domain_stationarity_theorem"].__setitem__("moving_lower_order_or_nonlinear_operator_covered", True))
+    add("k615-overclaim", lambda d: d["k615"]["decision"].__setitem__("selected_source_action_rejected", True))
+    add("k615-release", lambda d: d["k615"]["decision"].__setitem__("K596_K598_released_by_stationarity", True))
+
+    add("k616-x-rank", lambda d: d["k616"]["input_injectivity"].__setitem__("outgoing_x_rank", 127))
+    add("k616-y-rank", lambda d: d["k616"]["input_injectivity"].__setitem__("incoming_y_rank", 127))
+    add("k616-components", lambda d: d["k616"]["input_injectivity"].__setitem__("every_nonzero_v_has_all_four_components_nonzero", False))
+    add("k616-defect", lambda d: d["k616"]["unsplit_defect_theorem"].__setitem__("rank_for_every_nonzero_v", 1))
+    add("k616-pass", lambda d: d["k616"]["unsplit_defect_theorem"].__setitem__("natural_unsplit_packet_satisfies_K596", True))
+    add("k616-repair", lambda d: d["k616"]["matching_half_repair"].__setitem__("equals_natural_unsplit_packet", True))
+    add("k616-owner", lambda d: d["k616"]["matching_half_repair"].__setitem__("split_is_action_owned", True))
+    add("k616-transport", lambda d: d["k616"]["transport_theorem"].__setitem__("rank_preserved", False))
+    add("k616-transport-rank", lambda d: d["k616"]["transport_theorem"].__setitem__("rank_at_every_transport_fibre", 0))
+    add("k616-scope", lambda d: d["k616"]["transport_theorem"].__setitem__("moving_nonlinear_action_coupling_covered", True))
+    add("k616-release", lambda d: d["k616"]["decision"].__setitem__("K596_actual_action_owned_packet_released", True))
+    add("k616-action", lambda d: d["k616"]["decision"].__setitem__("selected_source_action_rejected", True))
 
     add("k614-rank", lambda d: d["k614"]["cross_characteristic_rank_fingerprint"].__setitem__("corrected_image", 127))
     add("k614-fast", lambda d: d["k614"]["cross_characteristic_rank_fingerprint"].__setitem__("fast_projection", 127))

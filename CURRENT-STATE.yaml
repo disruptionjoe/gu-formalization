@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 74d32bc24ea2
+revision_basis: a1ff09555594
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K615--K616 close K614's natural frozen-background successor without
+    rejecting a moving nonlinear completion. K615 composes the rank-128
+    zero-form injection with K438's action symbol: `A J0` has rank 128 at
+    both good characteristics, its incoming/outgoing and fast/slow
+    projections remain injective, and K440's corrected H1 domain has zero
+    kernel and cokernel. Thus neither one zero-form slot nor the direct sum of
+    the source's four barred/unbarred slots has a nonzero stationary
+    background in this frozen model. K616 then tests the natural unsplit
+    packet `|A J0 v><J0 v|`: every nonzero `v` has both corrected halves, so
+    its K596 defect is the sum of two disjoint cross-half rank-one blocks and
+    has rank two; K598 transport preserves the defect. A matching-half sum
+    passes algebraically but deletes the cross terms and is not action-owned.
+    The probes pass 61/61 controls and reject 54/54 hostile mutations. No
+    protected scientific or public conclusion moves.
+
     K614 closes the map half of K613's cheapest odd-data reopener without
     inventing a background. The source-owned `Omega^0(S)` fermion field has a
     canonical rank-128 inclusion into H640. Exact reductions at both good
@@ -11239,16 +11254,17 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the K77 route, K614 constructs the source-owned `Omega^0(S)` injection
-  into K438's corrected carrier and proves its fast, slow, incoming and
-  outgoing projections are injective. The remaining missing datum is no
-  longer the map: it is one action-owned nonzero stationary zero-form fermion
-  background and its K441-compatible Riesz return. The active zero-fermion
-  branch evaluates the exact injection at zero. Construct that background and
-  pairing, or supply a different genuinely odd action datum, then apply K596
-  at the initial fibre and K598 for transport and test total nilpotence and
-  properness. Do not reinterpret the rank-128 field space as a selected field
-  value or K614 as retracting K613's homogeneous central-parity obstruction.
+  On the K77 route, K615--K616 test K614's exact `Omega^0(S)` injection in the
+  frozen K438/K440 action model. `A J0` has rank 128 and K440's corrected H1
+  domain has zero kernel, so no nonzero zero-form or four-field stationary
+  background exists there. For any chosen nonzero `v`, the natural unsplit
+  rank-one packet `|A J0 v><J0 v|` has a rank-two K596 defect because both
+  corrected halves are nonzero; K598 transport preserves it. The matching-
+  half sum passes only after deleting cross terms that the current action does
+  not own. Reopen with a moving nonlinear/source-owned odd datum that solves
+  its own stationarity equation and owns a matching-half coupling. Do not
+  reinterpret the frozen-domain obstruction as a rejection of all GU fermion
+  backgrounds or silently action-own the projected repair.
 
   On the K500 route, K612 proves that K139's current matched-form proof record
   does not serialize enough quantitative custody to identify its existential
@@ -11732,14 +11748,15 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, K614 supplies the exact source-owned field-to-carrier map:
-  the rank-128 `Omega^0(S)` inclusion lies in the corrected carrier and meets
-  all four action spectral/sign blocks. Supply and action-own one nonzero
-  stationary zero-form fermion value together with its K441-compatible Riesz
-  return, or a different genuinely odd datum. The active zero-fermion branch
-  sends the map to zero and cannot release K596/K598. After a nonzero datum is
-  owned, apply K596 at the initial fibre and K598 for transport, then test
-  total nilpotence and properness. On the K500 route, K612 closes constant
+  On the K77 route, K615--K616 close the natural frozen zero-form attempt:
+  `A J0` is injective, K440 has zero kernel, and the natural unsplit nonzero
+  `|A J0 v><J0 v|` packet has rank-two K596 defect preserved by K598. A
+  matching-half projection is algebraically compatible but not action-owned.
+  Reopen only with a moving nonlinear/source-owned odd datum that is nonzero
+  on shell and independently owns the matching-half coupling and common
+  domain; then test total nilpotence and properness. Preserve K614's injection,
+  K613's homogeneous central-parity obstruction and the conditional K596/K598
+  interface. On the K500 route, K612 closes constant
   extraction from the present K139/K156 proof record: its chart constants and
   qualitative semibound do not include a quantitative complete cancelled-core
   estimate. Derive that estimate directly on the physical form or construct a

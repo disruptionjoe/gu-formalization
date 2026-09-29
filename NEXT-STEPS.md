@@ -7,6 +7,20 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K615--K616 ZERO-FORM STATIONARITY AND UNSPLIT-PACKET
+> OBSTRUCTIONS.** K615 composes K614 with the actual frozen K438/K440 action
+> model. `A J0` has rank 128 at both good characteristics and K440's corrected
+> H1 domain has zero kernel and cokernel, so neither one zero-form slot nor the
+> source's four-field direct sum has a nonzero stationary background there.
+> K616 tests the natural unsplit packet `|A J0 v><J0 v|`: both corrected halves
+> are nonzero for every `v != 0`, giving two disjoint cross-half blocks and an
+> exact rank-two K596 defect that K598 transport preserves. The matching-half
+> sum passes only after an unowned deletion of cross terms. The probes pass
+> `61/61` controls and reject `54/54` hostile mutations. Next supply a moving
+> nonlinear/source-owned odd datum that is nonzero on shell and independently
+> owns its matching-half coupling and common domain. Do not treat this frozen-
+> model route kill as a rejection of every GU fermion background.
+
 > **2026-09-29 K614 ZERO-FORM CORRECTED-CARRIER INJECTION.** K614 composes
 > the source-owned `Omega^0(S)` fermion field with K438/K439. Its canonical
 > rank-128 inclusion lies in the corrected carrier; fast, slow, incoming and

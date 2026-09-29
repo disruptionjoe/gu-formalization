@@ -1,0 +1,114 @@
+{
+  "claim_ceiling": "Exact obstruction for the frozen K438/K440 corrected normal model: A restricted to K614's zero-form image is injective at both good characteristics, and D_A on the corrected H1 trace domain has zero kernel and cokernel. Hence neither one zero-form slot nor the direct sum of the source's four independent fermion slots has a nonzero stationary background in this model. A nonzero chosen value has a nonzero Euler/Riesz representative but is off shell; the only stationary value has zero representative. This does not exclude a moving nonlinear operator/domain, reject the source action, or move source, ledger, canon, paper, public, novelty, prediction, confirmation, or physical conclusions.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "closed_domain_stationarity_theorem": {
+    "K440_cokernel_dimension": 0,
+    "K440_kernel_dimension": 0,
+    "equation": "D_A u=0 with Pi_c,out u(0)=0 and u in H1(R_+,E)",
+    "four_source_fermion_slots_direct_sum_kernel_dimension": 0,
+    "moving_lower_order_or_nonlinear_operator_covered": false,
+    "only_corrected_domain_solution": "u=0",
+    "source_selected_physical_boundary_covered": false
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "checks": {
+        "both_euler_halves_are_injective": true,
+        "both_zero_form_halves_are_injective": true,
+        "fast_and_slow_euler_images_are_injective": true,
+        "zero_form_restriction_has_zero_kernel": true
+      },
+      "prime": 1009,
+      "ranks": {
+        "action_euler_image": 128,
+        "fast_euler": 128,
+        "incoming_euler": 128,
+        "incoming_zero_form": 128,
+        "outgoing_euler": 128,
+        "outgoing_zero_form": 128,
+        "slow_euler": 128,
+        "zero_form_injection": 128
+      }
+    },
+    {
+      "checks": {
+        "both_euler_halves_are_injective": true,
+        "both_zero_form_halves_are_injective": true,
+        "fast_and_slow_euler_images_are_injective": true,
+        "zero_form_restriction_has_zero_kernel": true
+      },
+      "prime": 1013,
+      "ranks": {
+        "action_euler_image": 128,
+        "fast_euler": 128,
+        "incoming_euler": 128,
+        "incoming_zero_form": 128,
+        "outgoing_euler": 128,
+        "outgoing_zero_form": 128,
+        "slow_euler": 128,
+        "zero_form_injection": 128
+      }
+    }
+  ],
+  "decision": {
+    "K440_green_domain_retracted": false,
+    "K596_K598_released_by_stationarity": false,
+    "K614_field_injection_retracted": false,
+    "four_field_frozen_stationary_background_nonzero": false,
+    "moving_nonlinear_nonzero_background_excluded": false,
+    "next_exact_input": "Test the natural unsplit off-shell rank-one packet built from J0 v and its A J0 v Euler/Riesz image against K596/K598. Any surviving on-shell route requires a different moving nonlinear operator/domain or a genuinely different odd action datum.",
+    "nonzero_stationary_zero_form_in_K440_model_exists": false,
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "fibrewise_stationarity_theorem": {
+    "equation": "A J0 v = 0",
+    "kernel_dimension": 0,
+    "nonzero_zero_form_value_has_nonzero_euler_covector": true,
+    "nonzero_zero_form_value_is_stationary": false,
+    "only_solution": "v=0",
+    "rank_AJ0": 128
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "carrier": "K438 corrected real rank-512 carrier E inside the conditional H640 carrier",
+    "domain": "K440 H1(R_+,E) domain with Pi_c,out u(0)=0",
+    "operator": "K438 compressed frozen normal action symbol A and K440 D_A=d/dr+A",
+    "pairing": "K441 transported positive corrected-carrier pairing used only to represent the Euler covector",
+    "result": "frozen zero-form stationarity obstruction MAP-TYPE=restricted-kernel theorem",
+    "source_field": "K614 canonical zero-form inclusion J0: Omega0(S)_128 -> E",
+    "target": "a nonzero stationary Omega0 background for K596/K598"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Changing the lower-order/nonlinear operator or its boundary domain can create kernel; those data are outside K438/K440 and remain open.",
+    "strongest_overclaim": "Promoting a frozen corrected-domain zero-kernel theorem into a rejection of every GU fermion background or physical boundary.",
+    "weakest_reproducibility_seam": "The rank-128 restricted-kernel statement is certified at two good characteristics, while the H1 zero-kernel step reuses K440's exact four-block Green theorem."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K614 proves injection but does not compose it with K440 stationarity; K440 proves zero kernel on all E but does not state the zero-form or four-field consequence.",
+    "route_comparison": "Use K438's no-zero-root symbol and K440's already proved zero kernel before searching for a nonlinear background.",
+    "strongest_alternative": "A moving nonlinear fermion operator could have nonzero stationary solutions, but its lower-order coefficients and common domain are not constructed."
+  },
+  "rank_fingerprint": {
+    "action_euler_image": 128,
+    "fast_euler": 128,
+    "incoming_euler": 128,
+    "incoming_zero_form": 128,
+    "outgoing_euler": 128,
+    "outgoing_zero_form": 128,
+    "slow_euler": 128,
+    "zero_form_injection": 128
+  },
+  "result_id": "K615-K77-ZERO-FORM-STATIONARITY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "The K614 source-owned Omega0(S) injection evaluated against K438's frozen corrected action symbol and K440's corrected half-line Green domain, including the direct sum of the source's four independent barred/unbarred fermion slots.",
+  "source_and_ledger_effect": "none",
+  "stationarity_riesz_dichotomy": {
+    "nonzero_stationary_K441_Riesz_packet_released": false,
+    "nonzero_v": "the positive-pairing representative of the frozen Euler covector is nonzero because rank(AJ0)=128, but v is off shell",
+    "stationary_v": "the only stationary value is v=0, whose Euler covector and Riesz representative are zero"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
