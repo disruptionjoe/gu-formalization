@@ -7,6 +7,27 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K641--K642 spectator-boundary and operator-graph results (2026-09-29)
+
+K641 replays K179's 2,958 terms after K639's quotient. All six surviving
+normal-order monomials recur at every order two through twelve, and their
+remaining output-kernel arity equals the order. K148 independently proves the
+native self-energy acts on full bath Fock space and K159 requires an
+operator-valued spectator denominator. Current data therefore reject direct
+identification of the complete native boundary form with a scalar Hermitian
+`6x6` matrix. The probe checks 26 controls and rejects 23 hostile mutations.
+This preserves K639's algebraic rank six and K640's parameterized model.
+
+K642 works on `H_b=C^6 tensor H_spec` for arbitrary Hilbert `H_spec`. The
+matched Bochner trace has the same `beta^2<1/256` bound independent of
+spectator dimension. Any self-adjoint boundary form `B>=m` gives
+`q_B>=min(1/2,m-1/128)||.||_G^2`; a same-domain remainder bounded below by
+`-alpha||a phi||^2-delta||c||^2`, with `alpha<1/2`, gives floor
+`min(1/2-alpha,m-delta-1/128)`. The probe checks 28 controls and rejects 25
+hostile mutations. No native intertwiner, coefficient form `B`, or constants
+`m,alpha,delta` are yet identified, so no native complete-sector floor, K473
+beta or K152 interval follows.
+
 ## K639--K640 actual quotient and cancellation-graph lower theorem (2026-09-29)
 
 K639 replays all 2,958 terms of K179's orders-two-through-twelve family against

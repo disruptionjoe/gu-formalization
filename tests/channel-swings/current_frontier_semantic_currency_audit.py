@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k641": json.loads((ROOT / "lab/process/k641-k500-spectator-boundary-type-audit.json").read_text()),
+        "k642": json.loads((ROOT / "lab/process/k642-k500-operator-cancellation-graph-lower-theorem.json").read_text()),
         "k639": json.loads((ROOT / "lab/process/k639-k500-k179-channel-quotient.json").read_text()),
         "k640": json.loads((ROOT / "lab/process/k640-k500-cancellation-graph-lower-theorem.json").read_text()),
         "k637": json.loads((ROOT / "lab/process/k637-k77-natural-commutant-selection-ceiling.json").read_text()),
@@ -122,14 +124,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K500 constructed cancellation topology missing")
         check("K638" in live and "sixteen labels" in live,
               "K500 vector cancellation coordinate missing")
-        check("K639" in live and "six algebraically independent" in live and
-              "ten-dimensional bookkeeping kernel" in live,
+        check("K639" in live and "algebraically independent" in live and
+              "spectator Fock" in live,
               "K500 actual K179 quotient missing")
-        check("K640" in live and "min(1/2,m-1/128)" in live and
-              "six-channel Hermitian lower" in live,
-              "K500 parameterized graph lower theorem missing")
-        check("actual complete" in live and "regular-core representation" in live,
-              "live complete-form identification route missing")
+        check("K641" in live and "spectator Fock" in live and "C^6 tensor H_spec" in live,
+              "K500 native spectator type correction missing")
+        check("K642" in live and "min(1/2,m-1/128)" in live and
+              "min(1/2-alpha,m-delta-1/128)" in live,
+              "K500 operator-valued graph lower theorem missing")
+        check("native K139/K168 intertwiner" in live and "m,alpha,delta" in live,
+              "live operator-form identification route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -139,11 +143,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K639--K640 advance K638's coefficient/range" in summary,
-          "current K639--K640 result lost")
-    check("K637--K638 remain the direct predecessors" in summary,
+    check("K641--K642 correct and extend K640's native coefficient-space" in summary,
+          "current K641--K642 result lost")
+    check("K639--K640 remain the direct predecessors" in summary,
+          "K639--K640 predecessor result lost")
+    check("K637--K638 remain earlier direct predecessors" in summary,
           "K637--K638 predecessor result lost")
-    check("K635--K636 remain earlier direct predecessors" in summary,
+    check("K635--K636 remain earlier predecessors" in summary,
           "K635--K636 predecessor result lost")
     check("K633--K634 advance two independent post-K632 fronts" in summary,
           "K633--K634 predecessor result lost")
@@ -192,6 +198,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "corrected coefficient space is C^6 tensor H_spec"
+        in data["agenda"].get("latest_result_2026_09_29_k641_k642", ""),
+        "agenda K641--K642 result is not current",
+    )
     check(
         "rank six and kernel dimension ten"
         in data["agenda"].get("latest_result_2026_09_29_k639_k640", ""),
@@ -317,6 +328,57 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k641 = data["k641"]
+    k641_f = k641["complete_family_replay"]
+    k641_t = k641["native_type_theorem"]
+    k641_r = k641["K640_reconciliation"]
+    check(k641_f["term_count"] == 2958 and
+          k641_f["surviving_monomial_count"] == 6 and
+          k641_f["every_surviving_monomial_occurs_at_every_order"] and
+          k641_f["remaining_variable_arity_by_order"] == {str(order): order for order in range(2, 13)},
+          "K641 complete family type census moved")
+    check(k641_t["K639_algebraic_rank_six_preserved"] and
+          k641_t["K179_output_kernels_retain_spectator_variables"] and
+          k641_t["K148_native_self_energy_acts_on_full_bath_Fock_space"] and
+          k641_t["K159_operator_valued_spectator_denominator_required"] and
+          k641_t["constant_6x6_native_identification_rejected_by_current_typing"] and
+          k641_t["minimal_corrected_coefficient_space"] == "C^6 tensor H_spec" and
+          not k641_t["native_complete_boundary_operator_identified_with_constant_6x6_matrix"],
+          "K641 native type theorem moved")
+    check(k641_r["spectator_amplification_required"] and
+          k641_r["operator_valued_lower_bound_required"] and
+          not k641_r["parameterized_scalar_matrix_theorem_retracted"] and
+          not k641_r["reference_control_is_native_floor"],
+          "K641 K640 reconciliation moved")
+
+    k642 = data["k642"]
+    k642_a = k642["spectator_amplification_theorem"]
+    k642_o = k642["operator_lower_theorem"]
+    k642_e = k642["controlled_extension_theorem"]
+    k642_n = k642["native_interface_status"]
+    check(not k642_a["spectator_dimension_restricted"] and
+          k642_a["matched_Bochner_trace_continuous"] and
+          k642_a["beta_squared_strictly_below_one_over_256"] and
+          k642_a["proof_constant_independent_of_H_spec"],
+          "K642 spectator amplification moved")
+    check(k642_o["floor_function"] == "min(1/2,m-1/128)" and
+          k642_o["dimension_free"] and
+          not k642_o["finite_boundary_matrix_required"] and
+          not k642_o["reference_control_is_actual_K139_K168_floor"],
+          "K642 operator lower theorem moved")
+    check(k642_e["floor_function"] == "min(1/2-alpha,m-delta-1/128)" and
+          k642_e["same_cancellation_domain_required"] and
+          not k642_e["mixed_incompatible_graphs_used"] and
+          all(row["passes"] for row in k642_e["finite_controls"]),
+          "K642 controlled extension theorem moved")
+    check(not k642_n["actual_K139_K168_to_D_op_intertwiner_identified"] and
+          not k642_n["actual_complete_boundary_form_B_identified"] and
+          not k642_n["actual_operator_lower_m_identified"] and
+          not k642_n["actual_remainder_alpha_delta_identified"] and
+          not k642_n["named_complete_sector_floor_emitted"] and
+          not k642_n["K473_released"],
+          "K642 native interface ceiling moved")
 
     k639 = data["k639"]
     k639_f = k639["complete_family_replay"]

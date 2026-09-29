@@ -1,0 +1,298 @@
+{
+  "K640_reconciliation": {
+    "direct_native_substitution_of_scalar_B_rejected": true,
+    "operator_valued_lower_bound_required": true,
+    "parameterized_scalar_matrix_theorem_retracted": false,
+    "reference_control_is_native_floor": false,
+    "reference_control_m_minus_two_retracted": false,
+    "same_domain_remainder_control_required": true,
+    "spectator_amplification_required": true
+  },
+  "claim_ceiling": "Exact native carrier/type audit. K639's six algebraically independent monomial labels survive, but K179's kernels retain growing spectator-variable sectors and K148/K159 prove that the native boundary object acts operator-valuedly on spectator Fock space. Therefore current data do not identify the complete K139/K168 boundary form with a scalar Hermitian 6x6 matrix; the faithful coefficient space is C^6 tensor H_spec unless a separate reduction is proved. K640 remains a valid parameterized finite-channel theorem, but direct native substitution is rejected. No numerical complete-sector floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_replay": {
+    "channel_census": [
+      {
+        "distinct_ordered_kernel_formulas": 61,
+        "operator_monomial": "W_ex[h1,h1]",
+        "orders_present": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "single_scalar_channel_coefficient": false,
+        "term_counts_by_order": {
+          "10": 80,
+          "11": 160,
+          "12": 192,
+          "2": 1,
+          "3": 2,
+          "4": 4,
+          "5": 8,
+          "6": 12,
+          "7": 24,
+          "8": 32,
+          "9": 64
+        },
+        "total_terms": 579
+      },
+      {
+        "distinct_ordered_kernel_formulas": 61,
+        "operator_monomial": "W_ex[h2,h2]",
+        "orders_present": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "single_scalar_channel_coefficient": false,
+        "term_counts_by_order": {
+          "10": 80,
+          "11": 160,
+          "12": 192,
+          "2": 1,
+          "3": 2,
+          "4": 4,
+          "5": 8,
+          "6": 12,
+          "7": 24,
+          "8": 32,
+          "9": 64
+        },
+        "total_terms": 579
+      },
+      {
+        "distinct_ordered_kernel_formulas": 64,
+        "operator_monomial": "W_ex[p1,p1]",
+        "orders_present": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "single_scalar_channel_coefficient": false,
+        "term_counts_by_order": {
+          "10": 80,
+          "11": 80,
+          "12": 192,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "5": 4,
+          "6": 12,
+          "7": 12,
+          "8": 32,
+          "9": 32
+        },
+        "total_terms": 450
+      },
+      {
+        "distinct_ordered_kernel_formulas": 64,
+        "operator_monomial": "W_ex[p1,p2]",
+        "orders_present": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "single_scalar_channel_coefficient": false,
+        "term_counts_by_order": {
+          "10": 80,
+          "11": 80,
+          "12": 192,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "5": 4,
+          "6": 12,
+          "7": 12,
+          "8": 32,
+          "9": 32
+        },
+        "total_terms": 450
+      },
+      {
+        "distinct_ordered_kernel_formulas": 59,
+        "operator_monomial": "W_ex[p2,p1]",
+        "orders_present": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "single_scalar_channel_coefficient": false,
+        "term_counts_by_order": {
+          "10": 80,
+          "11": 80,
+          "12": 192,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "5": 4,
+          "6": 12,
+          "7": 12,
+          "8": 32,
+          "9": 32
+        },
+        "total_terms": 450
+      },
+      {
+        "distinct_ordered_kernel_formulas": 59,
+        "operator_monomial": "W_ex[p2,p2]",
+        "orders_present": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "single_scalar_channel_coefficient": false,
+        "term_counts_by_order": {
+          "10": 80,
+          "11": 80,
+          "12": 192,
+          "2": 1,
+          "3": 1,
+          "4": 4,
+          "5": 4,
+          "6": 12,
+          "7": 12,
+          "8": 32,
+          "9": 32
+        },
+        "total_terms": 450
+      }
+    ],
+    "every_surviving_monomial_occurs_at_every_order": true,
+    "family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "orders_covered": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "remaining_variable_arity_by_order": {
+      "10": 10,
+      "11": 11,
+      "12": 12,
+      "2": 2,
+      "3": 3,
+      "4": 4,
+      "5": 5,
+      "6": 6,
+      "7": 7,
+      "8": 8,
+      "9": 9
+    },
+    "surviving_monomial_count": 6,
+    "surviving_operator_monomials": [
+      "W_ex[h1,h1]",
+      "W_ex[h2,h2]",
+      "W_ex[p1,p1]",
+      "W_ex[p1,p2]",
+      "W_ex[p2,p1]",
+      "W_ex[p2,p2]"
+    ],
+    "term_count": 2958
+  },
+  "controls": {
+    "controls_passed": 26,
+    "hostile_mutations_rejected": 23,
+    "probe": "tests/channel-swings/k641_k500_spectator_boundary_type_audit_probe.py",
+    "producer": "tests/channel-swings/k641_k500_spectator_boundary_type_audit.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "finite_matrix_native_route_closed": true,
+    "next_exact_input": "Amplify K640 to C^6 tensor H_spec and prove a dimension-free lower theorem for a self-adjoint operator-valued boundary form plus a controlled same-domain remainder; native use then requires an explicit K139/K168 intertwiner, coefficient operator and quantitative lower constants.",
+    "operator_valued_graph_route_open": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "algebraic_channel_coordinate": "K639 C^6 labels for six independent normal-order monomials",
+    "native_boundary_coefficient_space": "C^6 tensor H_spec with H_spec a charge-sector spectator-Fock space",
+    "native_boundary_operator": "self-adjoint operator/form on C^6 tensor H_spec, not a scalar Hermitian 6x6 matrix unless a separate reduction is proved",
+    "native_carrier": "hard-core C3 tensor Gamma_-(L2(R;C4))",
+    "result": "native boundary carrier audit MAP-TYPE=type obstruction and corrected interface",
+    "target": "the coefficient space and operator type needed before applying a cancellation-graph lower theorem to K139/K168"
+  },
+  "ledger_no_change_reason": "This corrects the carrier type of a conditional repository model. It constructs no GU action-owned physical quotient, state, observable or source mechanism.",
+  "native_type_theorem": {
+    "K148_native_self_energy_acts_on_full_bath_Fock_space": true,
+    "K148_native_self_energy_commutes_with_every_bath_occupation": false,
+    "K159_operator_valued_spectator_denominator_required": true,
+    "K179_kernel_arity_grows_from_two_through_twelve": true,
+    "K179_output_kernels_retain_spectator_variables": true,
+    "K639_algebraic_rank_six_preserved": true,
+    "K639_separating_functionals_identify_physical_channel_ranges": false,
+    "constant_6x6_native_identification_rejected_by_current_typing": true,
+    "finite_six_channel_model_remains_valid_as_parameterized_control": true,
+    "minimal_corrected_coefficient_space": "C^6 tensor H_spec",
+    "native_complete_boundary_operator_identified_with_constant_6x6_matrix": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Every surviving monomial occurs at every order two through twelve, while its output kernel retains order-many spectator variables; K148 independently proves occupation-dependent full-Fock action.",
+    "strongest_overclaim": "Reading algebraic independence of six normal-order monomials as a reduction of the complete spectator-Fock boundary form to a scalar Hermitian six-by-six matrix.",
+    "weakest_reproducibility_seam": "The census covers K179's exact through-order-twelve family and uses K148/K159 for the all-sector carrier type; a future native finite-rank reduction would require its own proved intertwiner."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K159 already requires an operator-valued spectator denominator for the Weyl route, but no prior artifact reconciles that theorem with K639/K640's newer six-label cancellation graph and K179's growing kernel arities.",
+    "route_comparison": "Testing K640's native type against already-held K148/K159 spectator-Fock theorems is cheaper and more decisive than estimating a scalar six-by-six matrix that the native carrier does not currently supply.",
+    "strongest_alternative": "A complete native floor would be stronger, but K612 withholds the actual coefficient operator and constants; the type audit determines the correct object those data must describe."
+  },
+  "result_id": "K641-K500-SPECTATOR-BOUNDARY-TYPE-AUDIT",
+  "schema_version": "1.0",
+  "scope": "Exact carrier/type reconciliation between K640's parameterized six-channel scalar-matrix graph and the native K139/K148/K159/K179 spectator-Fock boundary family.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

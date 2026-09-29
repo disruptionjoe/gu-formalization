@@ -1,0 +1,148 @@
+{
+  "claim_ceiling": "Exact dimension-free lower theorem on the spectator-amplified six-channel cancellation graph. For any Hilbert H_spec and self-adjoint boundary form B>=m on C^6 tensor H_spec, the matched Bochner trace obeys beta^2<1/256 and q_B>=min(1/2,m-1/128)||.||_G^2. A same-domain remainder bounded below by -alpha||a phi||^2-delta||c||^2 gives floor min(1/2-alpha,m-delta-1/128). This repairs K640's native coefficient-space type but does not supply the K139/K168 intertwiner, B, m, alpha or delta. The m=-2 and -257/128 row remains a reference control; no native complete-sector floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controlled_extension_theorem": {
+    "finite_control_floor": "3/8",
+    "finite_control_parameters": {
+      "alpha": "1/8",
+      "delta": "1/16",
+      "m": "3"
+    },
+    "finite_controls": [
+      {
+        "coefficient_dimension": 6,
+        "cutoff": 4,
+        "exact_slack": "40467173459/637863720",
+        "floor": "3/8",
+        "matrix_lower_m": "3",
+        "passes": true,
+        "remainder_alpha": "1/8",
+        "remainder_delta": "1/16",
+        "spectator_dimension": 1
+      },
+      {
+        "coefficient_dimension": 12,
+        "cutoff": 4,
+        "exact_slack": "202335867295/1786018416",
+        "floor": "3/8",
+        "matrix_lower_m": "3",
+        "passes": true,
+        "remainder_alpha": "1/8",
+        "remainder_delta": "1/16",
+        "spectator_dimension": 2
+      },
+      {
+        "coefficient_dimension": 30,
+        "cutoff": 4,
+        "exact_slack": "40467173459/148834868",
+        "floor": "3/8",
+        "matrix_lower_m": "3",
+        "passes": true,
+        "remainder_alpha": "1/8",
+        "remainder_delta": "1/16",
+        "spectator_dimension": 5
+      },
+      {
+        "coefficient_dimension": 48,
+        "cutoff": 4,
+        "exact_slack": "768876295721/1786018416",
+        "floor": "3/8",
+        "matrix_lower_m": "3",
+        "passes": true,
+        "remainder_alpha": "1/8",
+        "remainder_delta": "1/16",
+        "spectator_dimension": 8
+      }
+    ],
+    "floor_function": "min(1/2-alpha,m-delta-1/128)",
+    "inequality": "q_B+r>=min(1/2-alpha,m-delta-1/128)||.||_G^2",
+    "mixed_incompatible_graphs_used": false,
+    "remainder_hypothesis": "r[phi,c]>=-alpha||a phi||^2-delta||c||^2 with 0<=alpha<1/2 and delta>=0",
+    "same_cancellation_domain_required": true,
+    "separate_singular_factor_bounds_used": false
+  },
+  "controls": {
+    "controls_passed": 28,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k642_k500_operator_cancellation_graph_lower_theorem_probe.py",
+    "producer": "tests/channel-swings/k642_k500_operator_cancellation_graph_lower_theorem.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "K612_data_custody_obstruction_retracted": false,
+    "correct_operator_valued_analytic_interface_constructed": true,
+    "finite_matrix_type_obstruction_bypassed": true,
+    "next_exact_input": "Construct the native K139/K168 intertwiner into D_op, identify the self-adjoint coefficient form B on C^6 tensor H_spec and a same-domain remainder, then certify m, alpha and delta. Only those data can instantiate the displayed native floor.",
+    "quantitative_native_complete_form_part_released": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "base_domain": "D_a tensor H_b with a_k=k+256",
+    "boundary_coefficient_space": "H_b=C^6 tensor H_spec",
+    "boundary_form": "q_B=||a phi||^2+2 Re<c,L_op phi>+b[c]",
+    "cancellation_domain": "D_op=(D_a tensor H_b) direct_sum (h tensor Dom(|B|^(1/2)))",
+    "graph_norm": "||phi+h tensor c||_G^2=||a phi||^2+||c||^2",
+    "matched_trace": "L_op(phi+h tensor c)=sum_k phi_k in H_b",
+    "result": "operator-valued cancellation-graph lower theorem MAP-TYPE=closed-form estimate",
+    "spectator_space": "arbitrary Hilbert space H_spec",
+    "target": "the correctly typed analytic interface preceding a native K139/K168 form identity"
+  },
+  "ledger_no_change_reason": "The theorem repairs an internal analytic interface without supplying the native coefficient operator, a physical quotient, state, observable or source-owned action result.",
+  "native_interface_status": {
+    "K159_operator_valued_boundary_typing_compatible": true,
+    "K473_released": false,
+    "K640_finite_channel_theorem_strictly_extended": true,
+    "K641_corrected_coefficient_space_consumed": true,
+    "actual_K139_K168_to_D_op_intertwiner_identified": false,
+    "actual_complete_boundary_form_B_identified": false,
+    "actual_operator_lower_m_identified": false,
+    "actual_remainder_alpha_delta_identified": false,
+    "named_complete_sector_floor_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_same_domain_form_identity_proved": false
+  },
+  "operator_lower_theorem": {
+    "bounded_boundary_operator_required": false,
+    "dimension_free": true,
+    "finite_boundary_matrix_required": false,
+    "floor_function": "min(1/2,m-1/128)",
+    "form_domain": "(D_a tensor H_b) direct sum (h tensor Dom(|B|^(1/2)))",
+    "hypothesis": "B is self-adjoint on H_b with closed quadratic form b and b[c]>=m||c||^2",
+    "inequality": "q_B>=1/2||a phi||^2+(m-2 beta^2)||c||^2>=min(1/2,m-1/128)||.||_G^2",
+    "operator_valued_spectator_action_allowed": true,
+    "reference_control_floor": "-257/128",
+    "reference_control_is_actual_K139_K168_floor": false,
+    "reference_control_m": "-2",
+    "young_parameter": "1/2"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "An operator-valued boundary form may have arbitrarily negative lower m or an uncontrolled same-domain remainder; spectator amplification alone supplies neither constant.",
+    "strongest_overclaim": "Calling the dimension-free theorem a native lower bound without identifying the K139/K168 intertwiner, coefficient form B and constants m, alpha and delta.",
+    "weakest_reproducibility_seam": "Native application depends on a future exact form identity, not merely agreement of channel counts, finite spectator controls or resolvent typing."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K159 gives an operator-valued resolvent compiler, not a same-domain quadratic lower theorem; K640 gives the lower theorem only for C^6. No prior packet proves the spectator-amplified form estimate or the controlled remainder formula.",
+    "route_comparison": "After K641 rejects direct scalar-matrix substitution, tensor amplification and a Bochner-trace Young estimate are the cheapest exact route that preserves K640's cancellation mechanism on the correctly typed coefficient space.",
+    "strongest_alternative": "Numerically evaluating K179 kernels would be stronger only after a native form intertwiner specifies how those columns assemble into B and the remainder; current custody does not provide that map."
+  },
+  "result_id": "K642-K500-OPERATOR-CANCELLATION-GRAPH-LOWER-THEOREM",
+  "schema_version": "1.0",
+  "scope": "Dimension-free same-domain lower theorem for K641's spectator-amplified six-channel cancellation graph, a self-adjoint operator-valued boundary form and a quantitatively controlled remainder.",
+  "source_and_ledger_effect": "none",
+  "spectator_amplification_theorem": {
+    "base_domain_dense": true,
+    "beta_squared_definition": "sum_(k>=1)(k+256)^-2",
+    "beta_squared_integral_test_upper": "258/66049",
+    "beta_squared_strictly_below_one_over_256": true,
+    "cancellation_domain_dense_when_B_form_domain_dense": true,
+    "coefficient_projection_continuous_with_norm": "1",
+    "direct_sum_decomposition_unique": true,
+    "finite_or_infinite_spectator_space_allowed": true,
+    "matched_Bochner_trace_continuous": true,
+    "proof_constant_independent_of_H_spec": true,
+    "spectator_dimension_restricted": false,
+    "trace_bound": "||L_op phi||<=beta||a phi||"
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

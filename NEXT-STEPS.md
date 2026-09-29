@@ -7,6 +7,21 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K641--K642 SPECTATOR-BOUNDARY TYPE CORRECTION AND
+> OPERATOR-VALUED LOWER THEOREM.** K641 reconciles K639/K640 with K148/K159.
+> Each of the six surviving K179 monomials occurs at every order two through
+> twelve, while its output kernel retains order-many spectator variables.
+> The native full-Fock boundary object is therefore not currently identified
+> with a scalar Hermitian `6x6` matrix; the faithful coefficient space is
+> `C^6 tensor H_spec` unless a separate reduction is proved. K642 amplifies
+> the cancellation graph to arbitrary `H_spec`. For self-adjoint `B >= m`,
+> `q_B >= min(1/2,m-1/128)||.||_G^2`; a same-domain remainder bounded below
+> by `-alpha||a phi||^2-delta||c||^2` gives floor
+> `min(1/2-alpha,m-delta-1/128)`. Next construct the native K139/K168
+> intertwiner, identify `B` and the remainder, and certify `m,alpha,delta`.
+> The dimension-free theorem alone is not a native floor, K473 beta or K152
+> interval.
+
 > **2026-09-29 K639--K640 ACTUAL K179 QUOTIENT AND PARAMETERIZED
 > CANCELLATION-GRAPH LOWER THEOREM.** K639 maps K179's complete 2,958-term
 > family through K638's sixteen bookkeeping labels. Only four plus-plus
