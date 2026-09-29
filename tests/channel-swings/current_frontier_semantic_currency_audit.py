@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k637": json.loads((ROOT / "lab/process/k637-k77-natural-commutant-selection-ceiling.json").read_text()),
+        "k638": json.loads((ROOT / "lab/process/k638-k500-vector-cancellation-coordinate.json").read_text()),
         "k635": json.loads((ROOT / "lab/process/k635-k77-full-commutant-source-stabilizer.json").read_text()),
         "k636": json.loads((ROOT / "lab/process/k636-k500-non-equivalent-cancellation-graph.json").read_text()),
         "k633": json.loads((ROOT / "lab/process/k633-k77-zero-form-polynomial-endomorphism-obstruction.json").read_text()),
@@ -78,9 +80,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
+        check("K637" in live and "basis-naturality" in live,
+              "K77 natural commutant selection ceiling missing")
         check("K633" in live and "scalar stabilizer" in live,
               "K77 polynomial source-seed stabilizer missing")
-        check("K635" in live and "full-commutant" in live and "8,192" in live,
+        check("K635" in live and "full-commutant" in live,
               "K77 full-commutant source stabilizer missing")
         check("outside `R[A]`" in live and "unselected full-commutant freedom" in live,
               "K77 post-commutant selected-input reopener missing")
@@ -112,8 +116,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K500 quantitative-custody obstruction missing")
         check("K634" in live and "equivalent-norm" in live and "bounded-correlation" in live,
               "K500 equivalent-domain closure missing")
-        check("K636" in live and "genuinely non-equivalent cancellation domain" in live,
+        check("K636" in live and "scalar domain" in live,
               "K500 constructed cancellation topology missing")
+        check("K638" in live and "sixteen labels" in live and "Identity matching" in live,
+              "K500 vector cancellation coordinate missing")
         check("cancellation-adapted" in live,
               "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
@@ -125,8 +131,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K635--K636 advance the two independent fronts" in summary,
-          "current K635--K636 result lost")
+    check("K637--K638 advance the two independent fronts" in summary,
+          "current K637--K638 result lost")
+    check("K635--K636 remain the direct predecessors" in summary,
+          "K635--K636 predecessor result lost")
     check("K633--K634 advance two independent post-K632 fronts" in summary,
           "K633--K634 predecessor result lost")
     check("K631--K632 prove that the post-K630 demand for new owned input" in summary,
@@ -174,6 +182,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "two-dimensional block center"
+        in data["agenda"].get("latest_result_2026_09_29_k637_k638", ""),
+        "agenda K637--K638 result is not current",
+    )
     check(
         "polynomial route"
         in data["agenda"].get("latest_result_2026_09_29_k633_k634", ""),
@@ -289,6 +302,47 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k637 = data["k637"]
+    k637_t = k637["naturality_theorem"]
+    k637_o = k637["ownership_reconciliation"]
+    k637_d = k637["decision"]
+    check(len(k637["cross_characteristic_packets"]) == 2 and
+          all(packet["single_block_fixed_dimension"] == 1 and
+              packet["independent_two_block_fixed_dimension"] == 2 and
+              packet["block_exchange_fixed_dimension"] == 1
+              for packet in k637["cross_characteristic_packets"]),
+          "K637 cross-characteristic naturality fingerprint moved")
+    check(k637_t["internal_basis_gauge_fixed_dimension"] == 2 and
+          k637_t["unlabeled_exchange_fixed_dimension"] == 1 and
+          k637_t["labeled_grading_is_basis_natural"] and
+          not k637_t["action_only_selected_nonscalar_operator"],
+          "K637 naturality theorem moved")
+    check(not k637_o["independently_action_owned_source_endomorphism_found"] and
+          not k637_o["K596_K598_released"] and
+          not k637_d["existing_data_selects_a_unique_nonscalar_operator"],
+          "K637 ownership ceiling moved")
+
+    k638 = data["k638"]
+    k638_c = k638["native_coordinate_census"]
+    k638_t = k638["vector_graph_theorem"]
+    k638_m = k638["matrix_matching_uniqueness"]
+    k638_r = k638["dependency_reconciliation"]
+    check(k638_c["declared_label_count"] == 16 and
+          k638_c["all_sixteen_monomials_included"] and
+          not k638_c["bookkeeping_dimension_proved_minimal"],
+          "K638 native coordinate census moved")
+    check(k638_t["vector_cancellation_domain_strictly_larger"] and
+          k638_t["matched_vector_trace_continuous"] and
+          k638_t["K636_scalar_graph_is_one_coordinate_restriction"],
+          "K638 vector graph theorem moved")
+    check(k638_m["componentwise_matching_is_unique_on_declared_coordinate"] and
+          k638_m["every_nonidentity_subtraction_matrix_has_a_divergent_direction"] and
+          not k638_m["complete_matched_combination_lower_bounded"],
+          "K638 matrix matching boundary moved")
+    check(k638_r["actual_K176_label_census_bound_to_graph"] and
+          not k638_r["named_complete_sector_floor_emitted"],
+          "K638 dependency ceiling moved")
 
     k635 = data["k635"]
     k635_t = k635["stabilizer_theorem"]

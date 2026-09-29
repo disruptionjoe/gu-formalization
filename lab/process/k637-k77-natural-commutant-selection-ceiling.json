@@ -1,0 +1,94 @@
+{
+  "claim_ceiling": "Exact conditional naturality theorem at both declared good characteristics. Independent basis covariance reduces K635's 8,192-dimensional induced algebra to the two-dimensional block center. The labeled grading is basis-natural but not an action polynomial and its coefficients/orientation are not action-selected; imposing an additional unlabeled block exchange leaves only common scalars. No K596/K598 release or source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "controls_passed": 27,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k637_k77_natural_commutant_selection_ceiling_probe.py",
+    "producer": "tests/channel-swings/k637_k77_natural_commutant_selection_ceiling.py"
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "block_exchange_fixed_dimension": 1,
+      "block_size": 64,
+      "cyclic_shift_generator": true,
+      "distinct_diagonal_generator": true,
+      "independent_two_block_fixed_dimension": 2,
+      "labeled_grading_involution_fixed_by_block_exchange": false,
+      "labeled_grading_involution_fixed_by_internal_basis_gauge": true,
+      "labeled_grading_involution_squares_to_identity": true,
+      "labeled_grading_involution_trace": 0,
+      "prime": 1009,
+      "single_block_fixed_dimension": 1
+    },
+    {
+      "block_exchange_fixed_dimension": 1,
+      "block_size": 64,
+      "cyclic_shift_generator": true,
+      "distinct_diagonal_generator": true,
+      "independent_two_block_fixed_dimension": 2,
+      "labeled_grading_involution_fixed_by_block_exchange": false,
+      "labeled_grading_involution_fixed_by_internal_basis_gauge": true,
+      "labeled_grading_involution_squares_to_identity": true,
+      "labeled_grading_involution_trace": 0,
+      "prime": 1013,
+      "single_block_fixed_dimension": 1
+    }
+  ],
+  "decision": {
+    "basis_gauge_reduces_8192_dimensions_to_two": true,
+    "existing_data_selects_a_unique_nonscalar_operator": false,
+    "full_internal_basis_naturality_classified": true,
+    "next_exact_input": "Supply an independently owned coefficient distinguishing the two labeled slow summands, an action-owned orientation/normalization for the seed grading, or a new same-background mixed Hessian/third action jet with field Riesz return and common BV/Green domain.",
+    "optional_label_exchange_reduces_two_to_one": true
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action": "K438 corrected frozen normal symbol A on E_512",
+    "induced_algebra": "End(K_slow_out) direct sum End(K_slow_in)",
+    "naturality_group": "GL(K_slow_out) x GL(K_slow_in), optionally extended by slow-label exchange",
+    "result": "basis-natural selection ceiling MAP-TYPE=gauge-fixed-subspace classification",
+    "source_seed": "K614 J0 with K635 complementary labeled slow kernels",
+    "target": "an independently action-owned nontrivial source-domain operator"
+  },
+  "ledger_no_change_reason": "Naturality under seed-block basis changes classifies what existing conditional data can express without coordinates; it does not supply an independently selected action coefficient, stationary field, physical interpretation or domain packet.",
+  "naturality_theorem": {
+    "action_only_selected_nonscalar_operator": false,
+    "induced_algebra_dimension": 8192,
+    "internal_basis_gauge_fixed_algebra": "F*I_out direct_sum F*I_in",
+    "internal_basis_gauge_fixed_dimension": 2,
+    "labeled_grading_involution": "Gamma=I_out direct_sum (-I_in)",
+    "labeled_grading_is_action_polynomial": false,
+    "labeled_grading_is_basis_natural": true,
+    "normalization_selects_unique_nonscalar_member": false,
+    "unlabeled_exchange_fixed_algebra": "F*(I_out direct_sum I_in)",
+    "unlabeled_exchange_fixed_dimension": 1
+  },
+  "ownership_reconciliation": {
+    "K596_K598_released": false,
+    "K633_polynomial_scalar_ceiling_retracted": false,
+    "K635_large_algebra_retracted": false,
+    "block_coefficients_selected_by_action": false,
+    "independently_action_owned_source_endomorphism_found": false,
+    "relative_sign_selected_without_label_orientation": false,
+    "seed_labeled_block_grading_available": true
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Retaining the two slow labels leaves the central nonscalar grading basis-natural; forgetting their orientation collapses the fixed algebra to common scalars.",
+    "strongest_overclaim": "Calling the seed-labeled grading action-selected, or treating optional block exchange as an actual symmetry of the labeled action data.",
+    "weakest_reproducibility_seam": "The center calculation is exact at both declared good characteristics; ownership and label orientation remain semantic inputs rather than finite-field rank facts."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K627 classifies invariant ambient symmetric pairings and K633 classifies action polynomials. Neither classifies conjugation-natural elements of K635's induced source algebra.",
+    "route_comparison": "K635 exposes a large induced algebra. Its fixed subspace under the full internal basis gauge is the cheapest exact test of whether that freedom contains any coordinate-independent nonscalar choice.",
+    "strongest_alternative": "A newly computed action jet could directly select coefficients, but no current same-background owned jet and common-domain packet is serialized."
+  },
+  "result_id": "K637-K77-NATURAL-COMMUTANT-SELECTION-CEILING",
+  "schema_version": "1.0",
+  "scope": "Exact good-characteristic naturality classification inside K635's induced End(64) direct-sum End(64) source algebra under independent internal block-basis changes and optional exchange of the two slow-kernel labels.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

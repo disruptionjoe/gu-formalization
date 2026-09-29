@@ -7,6 +7,32 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K637--K638 naturality and vector-cancellation results (2026-09-29)
+
+K637 classifies the fixed elements of K635's induced
+`End(64) direct_sum End(64)` algebra. In each 64-dimensional block, covariance
+under a distinct-diagonal generator and a cyclic-shift generator forces an
+endomorphism to be scalar. Independent block-basis covariance therefore
+leaves the two-dimensional center. The labeled grading
+`I_out direct_sum (-I_in)` is basis-natural and squares to one, but it is not
+an action polynomial and its two coefficients or relative orientation are not
+independently action-owned. If an additional automorphism exchanges the two
+slow labels, the fixed algebra is one-dimensional common scalars. The exact
+calculation agrees at GF(1009) and GF(1013). The probe checks 27 controls and
+rejects 24 hostile mutations. This is a naturality ceiling, not K596/K598
+release or physical selection.
+
+K638 binds K636's scalar graph to K176's exact bookkeeping census of four
+ordered edge pairs and four polarity blocks per pair. On
+`ell2(N) tensor C^16`, it adjoins the sixteen labeled profiles
+`h tensor e_r` to the vector trace graph. The matched vector trace is
+continuous and kills every boundary coordinate. At cutoff `N`, a general
+subtraction matrix leaves `(I_16-Alpha)c H_N`; finiteness for every coefficient
+vector therefore requires `Alpha=I_16`. The probe checks 31 controls and
+rejects 26 hostile mutations. The sixteen labels are not proved to be linearly
+independent physical channel ranges, and the theorem supplies no complete
+K139/K168 lower bound, numerical floor, K473 beta or K152 interval.
+
 ## K635--K636 full-commutant and cancellation-graph results (2026-09-29)
 
 K635 classifies the complete K438 commutant stabilizer of K614's canonical

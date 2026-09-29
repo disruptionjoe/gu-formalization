@@ -7,6 +7,21 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K637--K638 NATURALITY CEILING AND VECTOR CANCELLATION
+> COORDINATE.** K637 reduces K635's 8,192-dimensional induced source algebra
+> under independent block-basis covariance to the two-dimensional block
+> center. The labeled grading is basis-natural relative to K614's slow-kernel
+> labels but not an action polynomial; its coefficients and orientation are
+> not independently action-owned. If the labels are additionally exchanged,
+> only common scalars remain, so no unique nonscalar operator is selected.
+> K638 lifts K636's scalar graph to K176's four ordered edge-pair by four
+> polarity labels. Identity subtraction is the unique matrix matching that
+> cancels harmonic divergence for every sixteen-component coefficient vector.
+> Next bind those labels to K179's actual coefficient/range maps, quotient any
+> proved range relations and estimate the complete matched K139/K168 form on
+> the correlated graph. Do not call the labels independent physical channels
+> or the continuous vector trace a numerical floor, K473 beta or K152 interval.
+
 > **2026-09-29 K635--K636 FULL-COMMUTANT AND NON-EQUIVALENT CANCELLATION
 > CLOSURE.** K635 classifies every source-domain endomorphism induced by the
 > full K438 action commutant on K614's source seed. The fast blocks are

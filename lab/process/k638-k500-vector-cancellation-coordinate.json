@@ -1,0 +1,130 @@
+{
+  "claim_ceiling": "Exact internal vector-topology theorem on K176's declared sixteen exchange labels. The dense graph extension adjoins one K636 boundary profile per label; identity matching is the unique subtraction matrix that cancels harmonic divergence for every coefficient vector. This binds the scalar topology to the native coefficient census but proves neither physical channel independence nor the complete K139/K168 quadratic lower bound, numerical floor, K473 beta or K152 interval, and moves no source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 31,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k638_k500_vector_cancellation_coordinate_probe.py",
+    "producer": "tests/channel-swings/k638_k500_vector_cancellation_coordinate.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "coefficient_bookkeeping_coordinate_identified": true,
+    "next_exact_input": "Bind the sixteen labeled boundary coordinates to the actual K179 coefficient/range maps, quotient any proved range relations, and bound the complete matched K139/K168 quadratic form on that correlated graph before separating singular exchange factors.",
+    "quantitative_complete_form_part_released": false,
+    "vector_topological_reopener_released": true
+  },
+  "dependency_reconciliation": {
+    "K174_diagonal_weight_obstruction_retracted": false,
+    "K473_released": false,
+    "K611_mixed_graph_splice_obstruction_retracted": false,
+    "K634_equivalent_domain_obstruction_retracted": false,
+    "K636_scalar_topology_retracted": false,
+    "actual_K176_label_census_bound_to_graph": true,
+    "complete_K139_K168_core_controlled": false,
+    "named_complete_sector_floor_emitted": false,
+    "native_K152_interval_emitted": false
+  },
+  "direction": "observed_to_native",
+  "exact_finite_controls": [
+    {
+      "cutoff": 8,
+      "harmonic_partial": "4521481779176569/147219359273826840",
+      "matched_vector_equals_core": true,
+      "mismatched_zero_subtraction_has_nonzero_divergent_direction": true
+    },
+    {
+      "cutoff": 32,
+      "harmonic_partial": "316228668503658149558319851032828760202422066293669/2689790348624282857810601881317453768917991015045600",
+      "matched_vector_equals_core": true,
+      "mismatched_zero_subtraction_has_nonzero_divergent_direction": true
+    },
+    {
+      "cutoff": 128,
+      "harmonic_partial": "418153919630554378727658467351306160529919508126584927868133308982745876647684722085507456700593851039944767287499476890609094456722240118823/1032951235131012943663081602713853923897497901922874101507515842051058698739166752794425700241049520843711178305024756923297394130222637168000",
+      "matched_vector_equals_core": true,
+      "mismatched_zero_subtraction_has_nonzero_divergent_direction": true
+    },
+    {
+      "cutoff": 512,
+      "harmonic_partial": "1046899267731559308257940573148548911728484854226523470769532089876342730580688007389318682266238410953500562249405640808263434904025416167589236025169500985937817625231663780374029097632375820075920425763893465743093014779078981612610008078365560273841617860268538042831362298247933833576239215716526383499180361714164121682619747/954058555447451437003652492186906450325205141827700730310241363486073072202833983648814585281595077419976211049450416265516412606522333403949774963318397350923883203485024258715298709161155679422497934245391171988333920229306990623406582672726534649005323042288749515445799033419765847046769884560608574337374446648220035974720000",
+      "matched_vector_equals_core": true,
+      "mismatched_zero_subtraction_has_nonzero_divergent_direction": true
+    }
+  ],
+  "gu_typed_objects": {
+    "ambient_carrier": "ell2(N) tensor C^16 in the declared exchange bookkeeping coordinate",
+    "boundary_profiles": "h tensor e_r for sixteen K176 labels",
+    "cancellation_domain": "D_vec=(D_a tensor C^16) direct_sum (h tensor C^16)",
+    "renormalized_trace": "L_vec(phi+h tensor c)=componentwise sum(phi)",
+    "result": "native-labeled vector cancellation coordinate MAP-TYPE=IBC-style coefficient graph",
+    "target": "the coefficient-specific common domain needed before a complete K139/K168 lower estimate",
+    "trace_domain": "D_a tensor C^16 with a_k=k+256"
+  },
+  "ledger_no_change_reason": "The result identifies and controls a coefficient bookkeeping topology, not the complete multiparticle quadratic form, its absolute constants, a physical state or a source-owned action conclusion.",
+  "matrix_matching_uniqueness": {
+    "complete_matched_combination_lower_bounded": false,
+    "componentwise_matching_is_unique_on_declared_coordinate": true,
+    "cross_channel_mixing_can_cancel_all_inputs_without_identity": false,
+    "cutoff_expression": "L_N(phi+h tensor c)-Alpha*c*H_N = L_N(phi)+(I_16-Alpha)c H_N",
+    "every_nonidentity_subtraction_matrix_has_a_divergent_direction": true,
+    "finite_limit_for_every_coefficient_vector_requires": "Alpha=I_16",
+    "separate_singular_exchange_factors_bounded": false
+  },
+  "native_coordinate_census": {
+    "all_sixteen_monomials_included": true,
+    "bookkeeping_dimension_proved_minimal": false,
+    "cross_polarity_cancellation_required": false,
+    "declared_exchange_labels": [
+      "edge_pair_1:++",
+      "edge_pair_1:+-",
+      "edge_pair_1:-+",
+      "edge_pair_1:--",
+      "edge_pair_2:++",
+      "edge_pair_2:+-",
+      "edge_pair_2:-+",
+      "edge_pair_2:--",
+      "edge_pair_3:++",
+      "edge_pair_3:+-",
+      "edge_pair_3:-+",
+      "edge_pair_3:--",
+      "edge_pair_4:++",
+      "edge_pair_4:+-",
+      "edge_pair_4:-+",
+      "edge_pair_4:--"
+    ],
+    "declared_label_count": 16,
+    "linear_independence_of_physical_channel_ranges_proved": false,
+    "ordered_edge_pairs": 4,
+    "polarity_blocks_per_pair": 4
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Any nonidentity subtraction matrix leaves a coefficient direction with harmonic divergence; cross-channel mixing cannot replace matched identity subtraction for all inputs.",
+    "strongest_overclaim": "Calling sixteen bookkeeping labels sixteen independent physical channels, or calling vector trace continuity a complete K139/K168 numerical floor.",
+    "weakest_reproducibility_seam": "The topology uses K176's exact label census, but the physical range relations and complete quadratic coefficients still require K179-level binding and estimates."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K176 supplies the sixteen-monomial census and orbit tail, while K456 supplies a coefficient-complete column representation. Neither binds those labels to an explicit common cancellation graph.",
+    "route_comparison": "K636 proves one scalar cancellation graph. K176's exact 4-by-4 exchange census makes the vector lift the cheapest native coefficient identification before attempting a complete lower estimate.",
+    "strongest_alternative": "A direct complete-form estimate would be stronger, but K612 proves the current serialized custody lacks its absolute cancelled-core constants."
+  },
+  "result_id": "K638-K500-VECTOR-CANCELLATION-COORDINATE",
+  "schema_version": "1.0",
+  "scope": "Exact sixteen-labeled-channel graph extension for K139/K176's four ordered edge-pair by four polarity exchange bookkeeping coordinate, lifting K636's scalar cancellation theorem without asserting channel independence or a complete quadratic-form lower bound.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "vector_graph_theorem": {
+    "K636_scalar_graph_is_one_coordinate_restriction": true,
+    "all_labeled_boundary_profiles_in_ambient_Hilbert_space": true,
+    "base_domain_dense": true,
+    "direct_sum_decomposition_unique": true,
+    "each_boundary_coordinate_maps_to_zero": true,
+    "matched_vector_trace_bound": "||L_vec||_2 <= (sum_(k>=1)(k+256)^-2)^(1/2) ||a phi||_(ell2 tensor C16)",
+    "matched_vector_trace_continuous": true,
+    "no_nonzero_labeled_boundary_profile_in_base_trace_domain": true,
+    "same_domain_equivalent_norm_repair": false,
+    "vector_cancellation_domain_dense": true,
+    "vector_cancellation_domain_strictly_larger": true
+  }
+}
