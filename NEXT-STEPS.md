@@ -7,6 +7,21 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K647--K648 NATIVE COMMON DOMAIN AND TOTAL-PARITY FORM
+> INTERFACE.** K647 closes K646's remaining domain hypothesis for the frozen
+> equal-coupling K139/K168 model. From `JG=GJ`, the chart `U=I-G`, inverse
+> `S=U^-1`, physical Gram `M=S*S`, regular pullbacks and the recursive domain
+> `D_K139=S Dom(H0)` all intertwine the flavor involution, so the actual common
+> form domain is J invariant and the K153 same-form identity reduces there.
+> K648 serializes the two native total-parity compression forms. Because total
+> parity is channel swap times spectator swap, each sign retains two
+> three-channel spectator quadrants and their allowed internal coupling; it is
+> not a three-scalar-channel reduction. Next derive the twelve parity-local
+> diagonal-floor rows and thirty parity-local coupling majorants on the actual
+> form, prove independent uniform tails `t_plus,t_minus`, and certify the
+> same-domain remainder constants `alpha,delta`. No native numerical floor,
+> K473 beta, K152 interval, source, ledger or physical conclusion moves.
+
 > **2026-09-29 K645--K646 FLAVOR COVARIANCE AND PARITY-SECTOR LOWER
 > REDUCTION.** K645 proves the exact flavor-exchange covariance of K179's
 > frozen equal-coupling family. Its 2,958 terms form 1,479 two-element

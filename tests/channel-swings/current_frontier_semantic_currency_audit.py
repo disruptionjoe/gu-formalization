@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k647": json.loads((ROOT / "lab/process/k647-k500-common-domain-flavor-intertwiner.json").read_text()),
+        "k648": json.loads((ROOT / "lab/process/k648-k500-native-parity-form-interface.json").read_text()),
         "k645": json.loads((ROOT / "lab/process/k645-k500-flavor-exchange-covariance.json").read_text()),
         "k646": json.loads((ROOT / "lab/process/k646-k500-parity-sector-lower-reduction.json").read_text()),
         "k643": json.loads((ROOT / "lab/process/k643-k500-bath-sector-boundary-reduction.json").read_text()),
@@ -146,9 +148,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K646" in live and "m_n=min(m_n^+,m_n^-)" in live and
               "m=min(inf_n m_n^+,inf_n m_n^-)" in live,
               "K500 parity lower reduction missing")
-        check("native K139/K168 sectorwise intertwiner" in live and
-              "J invariant" in live and "parity" in live and "alpha,delta" in live,
-              "live operator-form identification route missing")
+        check("K647" in live and "D_K139=S Dom(H0)" in live and
+              "same-form identity" in live and "J invariance" in live,
+              "live native common-domain theorem missing")
+        check("K648" in live and "product of channel swap and spectator swap" in live and
+              "twelve" in live and "thirty" in live and "alpha,delta" in live,
+              "live native parity-form interface or numerical handoff missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -158,8 +163,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K645--K646 expose and use the exact discrete symmetry" in summary,
-          "current K645--K646 result lost")
+    check("K647--K648 close the native common-domain and total-parity form interface" in summary,
+          "current K647--K648 result lost")
+    check("K645--K646 remain the direct predecessors" in summary,
+          "K645--K646 predecessor result lost")
     check("K643--K644 remain the direct predecessors" in summary,
           "current K643--K644 result lost")
     check("K641--K642 remain the direct predecessors" in summary,
@@ -217,6 +224,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "twelve parity-local diagonal-floor rows"
+        in data["agenda"].get("latest_result_2026_09_29_k647_k648", ""),
+        "agenda K647--K648 result is not current",
+    )
     check(
         "1,479 two-element orbits"
         in data["agenda"].get("latest_result_2026_09_29_k645_k646", ""),
@@ -331,6 +343,45 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         in data["agenda"].get("latest_result_2026_09_28_k606_k607", ""),
         "agenda K606--K607 result is not current",
     )
+
+    k647 = data["k647"]
+    k647_t = k647["intertwiner_theorem"]
+    k647_n = k647["native_interface_status"]
+    check(k647_t["recursive_domain"] == "D_K139=S Dom(H0)" and
+          k647_t["recursive_domain_invariance"] == "J D_K139=D_K139" and
+          k647_t["physical_gram_covariance"] == "JM=MJ for M=S*S" and
+          "single common free-form domain" in k647_t["same_form_identity"],
+          "K647 native common-domain intertwiner moved")
+    check(k647_n["actual_K139_recursive_domain_J_invariant"] and
+          k647_n["actual_K139_K168_same_form_identity_J_invariant"] and
+          k647_n["actual_physical_gram_J_invariant"] and
+          not k647_n["actual_parity_block_floors_identified"] and
+          not k647_n["native_global_m_identified"] and
+          not k647_n["K473_released"],
+          "K647 native interface ceiling moved")
+
+    k648 = data["k648"]
+    k648_c = k648["total_parity_carriers"]
+    k648_q = k648["quantitative_certificate_schema"]
+    k648_n = k648["native_interface_status"]
+    check("C^6_+ tensor H_n^(U,+)" in k648_c["total_plus"] and
+          "C^6_- tensor H_n^(U,+)" in k648_c["total_minus"] and
+          not k648_c["three_scalar_channel_reduction"],
+          "K648 total-parity product carriers moved")
+    check("six operator blocks" in k648_q["per_total_parity_blocks"] and
+          "1<=i<j<=6" in k648_q["required_coupling_rows"] and
+          "i=1,...,6" in k648_q["required_diagonal_rows"] and
+          len(k648_q["uniform_tail_rows"]) == 2 and
+          not k648_q["finite_prefix_is_tail"],
+          "K648 quantitative certificate schema moved")
+    check(k648_n["actual_K139_K168_common_domain_identity_proved"] and
+          k648_n["actual_total_parity_compression_forms_serialized"] and
+          k648_n["actual_channel_spectator_quadrants_serialized"] and
+          not k648_n["actual_parity_block_floors_identified"] and
+          not k648_n["actual_uniform_parity_tails_identified"] and
+          not k648_n["native_global_m_identified"] and
+          not k648_n["K473_released"],
+          "K648 native interface ceiling moved")
 
     k645 = data["k645"]
     k645_r = k645["complete_family_replay"]
@@ -1027,6 +1078,17 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k647-domain", lambda d: d["k647"]["intertwiner_theorem"].__setitem__("recursive_domain", "Dom(H0)"))
+    add("k647-invariance", lambda d: d["k647"]["intertwiner_theorem"].__setitem__("recursive_domain_invariance", "unknown"))
+    add("k647-gram", lambda d: d["k647"]["intertwiner_theorem"].__setitem__("physical_gram_covariance", "unknown"))
+    add("k647-same-form", lambda d: d["k647"]["native_interface_status"].__setitem__("actual_K139_K168_same_form_identity_J_invariant", False))
+    add("k647-floor", lambda d: d["k647"]["native_interface_status"].__setitem__("native_global_m_identified", True))
+    add("k648-plus", lambda d: d["k648"]["total_parity_carriers"].__setitem__("total_plus", "C^3"))
+    add("k648-scalar", lambda d: d["k648"]["total_parity_carriers"].__setitem__("three_scalar_channel_reduction", True))
+    add("k648-couplings", lambda d: d["k648"]["quantitative_certificate_schema"].__setitem__("required_coupling_rows", "none"))
+    add("k648-tail", lambda d: d["k648"]["quantitative_certificate_schema"].__setitem__("finite_prefix_is_tail", True))
+    add("k648-floor", lambda d: d["k648"]["native_interface_status"].__setitem__("native_global_m_identified", True))
 
     add("k645-term-count", lambda d: d["k645"]["complete_family_replay"].__setitem__("terms", 2957))
     add("k645-orbits", lambda d: d["k645"]["complete_family_replay"].__setitem__("two_element_orbits", 1478))

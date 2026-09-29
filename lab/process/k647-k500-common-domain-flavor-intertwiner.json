@@ -1,0 +1,100 @@
+{
+  "claim_ceiling": "Exact common-domain flavor intertwiner for the frozen equal-coupling K139/K168 conditional model. K645 covariance and K139's common recursive chart imply J commutes with U=I-G, S=U^-1, the physical Gram M=S*S, the base regular pullback and K168's reference pullback; hence D_K139=S Dom(H0) is J invariant and the same native form reduces over total flavor parity. This is not physical family selection and supplies no parity block floor, uniform tail, m, alpha, delta, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k647_k500_common_domain_flavor_intertwiner_probe.py",
+    "producer": "tests/channel-swings/k647_k500_common_domain_flavor_intertwiner.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "K646_native_domain_hypothesis_closed_for_frozen_equal_coupling_model": true,
+    "next_exact_input": "Serialize the two native compression forms with the coupled channel-parity/spectator-parity decomposition, then certify their actual K644 block floors and independent uniform tails before setting m; separately bound the same-domain remainder constants alpha and delta."
+  },
+  "dependency_reconciliation": {
+    "K139_common_recursive_domain_consumed": true,
+    "K153_same_form_pullback_consumed": true,
+    "K168_flavor_symmetric_extension_consumed": true,
+    "K645_CAR_covariance_consumed": true,
+    "K646_domain_invariance_hypothesis_discharged_for_frozen_model": true,
+    "physical_flavor_symmetry_claimed": false,
+    "source_selected_family_interpretation_claimed": false
+  },
+  "direction": "observed_to_native",
+  "finite_exact_control": {
+    "J_commutes_with_G": true,
+    "J_commutes_with_H": true,
+    "J_commutes_with_R": true,
+    "J_commutes_with_U": true,
+    "J_commutes_with_U_inverse": true,
+    "J_commutes_with_delta_regular": true,
+    "J_commutes_with_metric": true,
+    "J_commutes_with_reference_regular": true,
+    "J_is_self_adjoint": true,
+    "J_squared_is_identity": true,
+    "all_exact_checks_pass": true,
+    "charge_pair": [
+      "q=(1,0)",
+      "q=(0,1)"
+    ],
+    "direct_sum_dimension": 14,
+    "finite_regulator_control_only": true,
+    "one_mode_charge_block_dimension_each": 7
+  },
+  "gu_typed_objects": {
+    "boundary_chart": "U=I-G and S=U^-1 on K139's common recursive boundary domain",
+    "carrier": "hard-core C3 impurity tensor signed particle/hole exterior Fock space",
+    "form": "the fixed K139 regular pullback plus K168 Delta R=S*W_ref S",
+    "free_domain": "the K139 positive free-operator domain Dom(H0)",
+    "involution": "K645's self-adjoint second-quantized flavor swap J",
+    "pairing": "the positive physical Gram M=S*S",
+    "result": "common-domain flavor intertwiner MAP-TYPE=closed-form-domain unitary equivalence",
+    "target": "the native same-form hypothesis required by K642/K644/K646"
+  },
+  "intertwiner_theorem": {
+    "base_pullback_covariance": "JR0=R0J when JH_base=H_baseJ",
+    "base_pullback_identity": "R0=S* H_base S on Dom(H0)",
+    "boundary_covariance": "JG=GJ for equal couplings and matched profiles, including the K645 CAR phase",
+    "chart_covariance": "JU=UJ for U=I-G",
+    "closed_form_consequence": "the K139/K168 common form domain is J invariant and the closed form reduces under (I+J)/2 and (I-J)/2",
+    "complete_form_covariance": "r_ref(J phi,J psi)=r_ref(phi,psi) and a_ref(J x,J y)=a_ref(x,y)",
+    "free_domain_invariance": "J Dom(H0)=Dom(H0) because the free dispersion is flavor blind",
+    "inverse_covariance": "JS=SJ for S=U^-1 by the bounded inverse identity",
+    "physical_gram_covariance": "JM=MJ for M=S*S",
+    "recursive_domain": "D_K139=S Dom(H0)",
+    "recursive_domain_invariance": "J D_K139=D_K139",
+    "reference_pullback_covariance": "J Delta R=Delta R J because JW_ref=W_ref J",
+    "reference_pullback_identity": "Delta R=S*W_ref S",
+    "same_form_identity": "a_ref(S phi,S psi)=r_ref(phi,psi) on the single common free-form domain"
+  },
+  "ledger_no_change_reason": "This closes a domain/intertwining obligation inside a repository-supplied conditional point-Fock model; it supplies no action-owned physical state, observable, quotient or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_K139_K168_same_form_identity_J_invariant": true,
+    "actual_K139_recursive_domain_J_invariant": true,
+    "actual_parity_block_floors_identified": false,
+    "actual_parity_compression_forms_serialized": false,
+    "actual_physical_gram_J_invariant": true,
+    "actual_uniform_parity_tails_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Unequal flavor couplings or unmatched profiles break JG=GJ, so the proof does not transfer to those models and their cross-parity blocks must be restored.",
+    "strongest_overclaim": "Calling a domain intertwiner for the frozen equal-coupling control a physical family symmetry or a numerical semibound.",
+    "weakest_reproducibility_seam": "The continuum step uses K139's proved common recursive chart and K153 pullback identity; the finite exact matrix is only an algebraic control and supplies no continuum floor."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K139 owns the common recursive domain, K153 owns the same-form pullback, K168 owns flavor symmetry and K645 owns the CAR-correct involution, but no prior artifact composes all four into the native domain theorem.",
+    "route_comparison": "K645--K646 left one exact theorem hypothesis between the existing K139 chart and parity reduction. Composing the chart with J is cheaper and more decisive than estimating numerical blocks on an unproved domain.",
+    "strongest_alternative": "A direct parity floor would be stronger numerically, but K612/K644 show its constants are absent and its use depended first on this domain identity."
+  },
+  "result_id": "K647-K500-COMMON-DOMAIN-FLAVOR-INTERTWINER",
+  "schema_version": "1.0",
+  "scope": "The frozen equal-coupling K139 recursive boundary chart with K168's flavor-symmetric reference extension, composed with K645's second-quantized flavor involution.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

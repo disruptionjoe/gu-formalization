@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: dc2459c9dd94
+revision_basis: e1b6f1c88c5b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,7 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K645--K646 expose and use the exact discrete symmetry of the frozen
+    K647--K648 close the native common-domain and total-parity form interface
+    for the frozen equal-coupling K139/K168 model without moving a protected
+    claim. K647 proves that `JG=GJ` propagates through `U=I-G`, `S=U^-1`, the
+    physical Gram `M=S*S`, the regular pullbacks and the recursive domain
+    `D_K139=S Dom(H0)`. The actual common domain is therefore J invariant and
+    the K153 same-form identity reduces there. K648 serializes the two native
+    total-parity compression forms. Total parity is channel swap times
+    spectator swap, so each sign retains two three-channel spectator
+    quadrants and their allowed internal coupling rather than collapsing to
+    three scalar channels. The exact remaining numerical packet is twelve
+    parity-local diagonal floors, thirty parity-local coupling majorants, two
+    independent uniform tails and the same-domain constants `alpha,delta`.
+    None is supplied here. No native complete-sector floor, K473 beta, K152
+    interval, source, ledger, canon, paper, public or physical conclusion
+    moves.
+
+    K645--K646 remain the direct predecessors and expose and use the exact
+    discrete symmetry of the frozen
     equal-coupling operator family without moving a protected claim. K645
     replays all 2,958 K179 terms under the second-quantized exchange of flavor
     labels one and two. They form 1,479 two-element orbits; 516 terms acquire
@@ -11534,10 +11551,16 @@ current_question: >-
   two-element orbits and 516 require the nontrivial fermionic output-wedge
   sign. K646 splits any invariant native common-domain form into total parity
   compressions with `m_n=min(m_n^+,m_n^-)` and
-  `m=min(inf_n m_n^+,inf_n m_n^-)`. Next construct the native K139/K168
-  sectorwise intertwiner, prove its common domain is J invariant, serialize
-  both parity forms and certify their block data and independent uniform
-  tails, then certify the same-domain remainder constants `alpha,delta`.
+  `m=min(inf_n m_n^+,inf_n m_n^-)`. K647 now proves the actual frozen-model
+  intertwiner: `JG=GJ` propagates through `U=I-G`, `S=U^-1`, `M=S*S`, both
+  regular pullbacks and `D_K139=S Dom(H0)`, so the common domain is J invariant
+  and the same-form identity reduces there. K648 serializes both native total-
+  parity forms. Because total parity is channel swap times spectator swap,
+  each sign retains two three-channel spectator quadrants and their allowed
+  coupling. Next derive the twelve parity-local diagonal floors and thirty
+  parity-local coupling majorants on the actual form, prove independent
+  uniform tails `t_plus,t_minus`, and certify the same-domain remainder
+  constants `alpha,delta`.
   K612's custody
   gap remains. Do not collapse spectator Fock
   space to `C^6`, call algebraic labels physical ranges, import K168's
@@ -12054,12 +12077,16 @@ next_condition: >-
   involution: all 2,958 terms form 1,479 two-element orbits, including 516
   nontrivial output-wedge signs. K646 reduces an invariant form to its
   total-parity compressions and gives `m_n=min(m_n^+,m_n^-)` and
-  `m=min(inf_n m_n^+,inf_n m_n^-)`.
-  Construct the native K139/K168 sectorwise intertwiner, prove its common
-  domain is J invariant, serialize both parity forms, certify their block data
-  and independent uniform tails, then certify `alpha,delta`; this exact
-  same-form packet, not a scalar three-channel substitution or finite-prefix
-  minimum, is the next input.
+  `m=min(inf_n m_n^+,inf_n m_n^-)`. K647 proves the actual K139/K168
+  common-domain intertwiner and J invariance for the frozen equal-coupling
+  model, including `D_K139=S Dom(H0)` and the same-form identity. K648
+  serializes the two native total-parity forms as the product of channel swap
+  and spectator swap; each sign retains two three-channel spectator quadrants
+  and their internal couplings. Derive the twelve parity-local diagonal-floor
+  rows and thirty parity-local coupling majorants on the actual form, prove
+  independent uniform tails `t_plus,t_minus`, then certify `alpha,delta`;
+  this numerical packet, not a scalar three-channel substitution or finite
+  prefix minimum, is the next input.
   K612's cancelled-core custody gap remains, so neither `m=-2` nor
   `-257/128` is a native complete-sector floor. Retain K609's complete leakage-square upper
   below 1/3 and the `25/9` target, but combine them only after an independently

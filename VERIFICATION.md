@@ -7,6 +7,29 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K647--K648 common domain and native parity-form interface (2026-09-29)
+
+K647 composes K139's recursive chart with K645's exact flavor involution. The
+equal-coupling boundary map commutes with J, hence so do `U=I-G`, `S=U^-1`,
+the physical Gram `M=S*S`, the base regular pullback and the K168 reference
+pullback. Since the flavor-blind free domain is J invariant,
+`D_K139=S Dom(H0)` is J invariant and the same-form identity holds on one
+common domain. The exact finite control passes 32 checks and rejects 26
+hostile mutations. This is an internal operator theorem, not a physical-family
+symmetry or source-selected interpretation.
+
+K648 writes the actual total-parity carriers and compression forms. If `P_6`
+is channel swap and `U_n` spectator flavor swap, total J is
+`P_6 tensor U_n`: its plus carrier pairs channel-even with spectator-even and
+channel-odd with spectator-odd, while its minus carrier pairs the opposite
+signs. Thus each total-parity form contains six operator blocks, not three
+scalar channels. The exact rational control passes 40 checks and rejects 27
+hostile mutations, including a nonzero allowed within-parity quadrant
+coupling. The remaining quantitative certificate has twelve diagonal-floor
+rows, thirty coupling-majorant rows, two independent uniform tails and the
+same-domain `alpha,delta` remainder bounds. None is numerically supplied here,
+so `m`, K473 and K152 remain open.
+
 ## K645--K646 flavor covariance and parity lower reduction (2026-09-29)
 
 K645 replays the complete 2,958-term K179 family under exchange of flavor
