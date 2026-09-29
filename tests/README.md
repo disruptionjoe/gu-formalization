@@ -4,6 +4,15 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K612--K613 quantitative custody and central parity
+
+- `channel-swings/current_frontier_semantic_currency_audit.py` replays the
+  K612 quantitative-custody manifest and its same-interface countermodel
+  family, then checks K613 central parity and the four-block stabilizer.
+- Its coupled result checks pass 25 controls and reject 36 result-specific
+  hostile mutations while preserving new cancellation-adapted estimates and
+  genuinely odd action data as live escapes.
+
 ## K611 graph-splice floor obstruction
 
 - `channel-swings/k611_k584_graph_splice_floor_obstruction.py` audits the

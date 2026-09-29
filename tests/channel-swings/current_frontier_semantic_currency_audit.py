@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k612": json.loads((ROOT / "lab/process/k612-k139-quantitative-semibound-custody-audit.json").read_text()),
+        "k613": json.loads((ROOT / "lab/process/k613-k77-central-parity-tensor-network-obstruction.json").read_text()),
     }
 
 
@@ -53,15 +55,15 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K610" in live and "K438" in live, "K77 factorwise-algebra boundary missing")
-        check("global sign" in live, "K77 residual-symmetry reopener missing")
+        check("K613" in live and "K441" in live, "K77 central-parity boundary missing")
+        check("genuinely odd" in live, "K77 odd-datum reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
         check("K609" in live and "below 1/3" in live,
               "K500 complete leakage route missing")
-        check("K611" in live and "K174" in live,
-              "K500 mixed-graph floor obstruction missing")
-        check("cancellation-adapted physical-form lower estimate" in live,
+        check("K612" in live and "cancelled-core" in live,
+              "K500 quantitative-custody obstruction missing")
+        check("cancellation-adapted" in live,
               "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
@@ -72,8 +74,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K611 rejects the first cancellation-preserving numerical-floor attempt" in summary,
-          "current K611 result lost")
+    check("K612--K613 close two post-K611/K610 extraction routes" in summary,
+          "current K612--K613 result lost")
     check("no named" in summary and "floor" in summary,
           "current claim ceiling lost")
 
@@ -97,6 +99,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "central parity" in data["agenda"].get("latest_result_2026_09_29_k612_k613", ""),
+        "agenda K612--K613 result is not current",
+    )
     check(
         "K600 proves" in data["agenda"].get("latest_result_2026_09_28_k600_k601", ""),
         "agenda K600--K601 result is not current",
@@ -157,6 +163,46 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
 
+    k612 = data["k612"]
+    k612_s = k612["serialized_numeric_custody"]
+    k612_m = k612["missing_quantitative_custody"]
+    k612_c = k612["same_interface_countermodels"]
+    k612_r = k612["dependency_reconciliation"]
+    k612_d = k612["decision"]
+    check(k612_s["chart_contraction_upper"] == "3/8", "K612 chart constant moved")
+    check(k612_s["chart_inverse_norm_upper"] == "8/5", "K612 inverse constant moved")
+    check(k612_s["physical_gram_interval"] == ["64/121", "64/25"], "K612 Gram interval moved")
+    check(k612_s["existential_complete_sector_semibound"] and k612_s["matched_counterterm_cancellation_identified"], "K612 existential/cancellation input lost")
+    check(not k612_s["raw_counterterm_separately_convergent"], "K612 raw counterterm incorrectly converges")
+    check(not any((k612_m["named_regular_lower_bound_r0"], k612_m["named_complete_lower_bound_L0"], k612_m["named_graph_relative_bound_for_complete_cancelled_X"], k612_m["named_identity_constant_for_complete_cancelled_X"], k612_m["named_common_domain_for_chart_and_complete_core"])), "K612 missing custody fabricated")
+    check(k612_c["floors_are_distinct"] and k612_c["no_uniform_floor_follows_from_serialized_interface"], "K612 countermodel conclusion lost")
+    check(len(k612_c["rows"]) == 4, "K612 countermodel family size moved")
+    check([row["native_floor"] for row in k612_c["rows"]] == ["-3", "-9", "-66", "-1026"], "K612 countermodel floors moved")
+    check(not any((k612_r["K139_semiboundedness_retracted"], k612_r["K462_existential_coercivity_retracted"], k612_r["K581_noncyclic_inheritance_retracted"])), "K612 dependency retraction invented")
+    check(k612_r["K611_mixed_graph_obstruction_preserved"] and k612_r["new_cancellation_adapted_estimate_still_live"], "K612 live escape lost")
+    check(k612_d["K139_constant_extraction_from_current_serialized_custody_rejected"] and not any((k612_d["named_complete_sector_floor_emitted"], k612_d["named_noncyclic_floor_emitted"], k612_d["K473_released"], k612_d["native_K152_interval_emitted"])), "K612 decision ceiling moved")
+
+    k613 = data["k613"]
+    k613_p = k613["carrier_parity"]
+    k613_s = k613["full_stabilizer_consequence"]
+    k613_k = k613["K594_replay"]
+    k613_r = k613["reopener"]
+    k613_x = k613["dependency_reconciliation"]
+    k613_d = k613["decision"]
+    check(k613_p["all_available_generators_have_even_carrier_parity"], "K613 generator parity moved")
+    check(k613_p["allowed_contractions_remove_carrier_slots_in_pairs"], "K613 contraction parity moved")
+    check(k613_p["homogeneous_tensor_networks_preserve_even_carrier_parity"], "K613 tensor parity moved")
+    check(not k613_p["nonzero_natural_vector_or_covector_from_even_inputs"], "K613 vector selector invented")
+    check(k613_s["spectral_block_ranks"] == [192, 192, 64, 64], "K613 block ranks moved")
+    check(k613_s["minimum_nonzero_invariant_endomorphism_rank"] == 64, "K613 minimum invariant rank moved")
+    check(k613_s["possible_invariant_idempotent_ranks"] == [0, 64, 128, 192, 256, 320, 384, 448, 512], "K613 invariant ranks moved")
+    check(not k613_s["rank_one_natural_endomorphism_from_current_tensors"], "K613 rank-one selector invented")
+    check(k613_s["arbitrary_tensor_contraction_stronger_than_K610_factorwise_scope"], "K613 scope regression")
+    check(not any((k613_k["one_carrier_slot_component_serialized"], k613_k["odd_carrier_valence_background_contraction_serialized"], k613_k["existing_third_jet_breaks_central_parity"])), "K613 K594 odd datum invented")
+    check(not k613_r["affine_field_dependent_or_odd_action_data_ruled_out"], "K613 live odd escape lost")
+    check(not any((k613_d["all_current_homogeneous_tensor_networks_select_vector_or_covector"], k613_d["all_current_homogeneous_tensor_networks_select_rank_one_packet"], k613_d["K598_released"])), "K613 decision ceiling moved")
+    check(not any((k613_x["K590_factorized_complex_retracted"], k613_x["K600_no_selector_retracted"], k613_x["K607_action_symbol_refinement_retracted"], k613_x["K610_factorwise_obstruction_retracted"], k613_x["K598_actual_action_owned_packet_constructed"], k613_x["selected_source_action_rejected"])), "K613 dependency boundary moved")
+
     if check_digests:
         for name, entry in registry["basis"].items():
             if "path" in entry:
@@ -192,6 +238,41 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k612-chart", lambda d: d["k612"]["serialized_numeric_custody"].__setitem__("chart_contraction_upper", "1/2"))
+    add("k612-inverse", lambda d: d["k612"]["serialized_numeric_custody"].__setitem__("chart_inverse_norm_upper", "2"))
+    add("k612-gram", lambda d: d["k612"]["serialized_numeric_custody"].__setitem__("physical_gram_interval", ["1", "1"]))
+    add("k612-raw", lambda d: d["k612"]["serialized_numeric_custody"].__setitem__("raw_counterterm_separately_convergent", True))
+    for key in ("named_regular_lower_bound_r0", "named_complete_lower_bound_L0", "named_graph_relative_bound_for_complete_cancelled_X", "named_identity_constant_for_complete_cancelled_X", "named_common_domain_for_chart_and_complete_core"):
+        add("k612-missing-" + key, lambda d, key=key: d["k612"]["missing_quantitative_custody"].__setitem__(key, True))
+    add("k612-distinct", lambda d: d["k612"]["same_interface_countermodels"].__setitem__("floors_are_distinct", False))
+    add("k612-uniform", lambda d: d["k612"]["same_interface_countermodels"].__setitem__("no_uniform_floor_follows_from_serialized_interface", False))
+    add("k612-row", lambda d: d["k612"]["same_interface_countermodels"]["rows"][0].__setitem__("native_floor", "0"))
+    add("k612-family", lambda d: d["k612"]["same_interface_countermodels"].__setitem__("rows", d["k612"]["same_interface_countermodels"]["rows"][:3]))
+    for key in ("K139_semiboundedness_retracted", "K462_existential_coercivity_retracted", "K581_noncyclic_inheritance_retracted"):
+        add("k612-retract-" + key, lambda d, key=key: d["k612"]["dependency_reconciliation"].__setitem__(key, True))
+    add("k612-k611", lambda d: d["k612"]["dependency_reconciliation"].__setitem__("K611_mixed_graph_obstruction_preserved", False))
+    add("k612-escape", lambda d: d["k612"]["dependency_reconciliation"].__setitem__("new_cancellation_adapted_estimate_still_live", False))
+    add("k612-decision", lambda d: d["k612"]["decision"].__setitem__("K139_constant_extraction_from_current_serialized_custody_rejected", False))
+    add("k612-floor", lambda d: d["k612"]["decision"].__setitem__("named_complete_sector_floor_emitted", True))
+    add("k612-k473", lambda d: d["k612"]["decision"].__setitem__("K473_released", True))
+
+    add("k613-even", lambda d: d["k613"]["carrier_parity"].__setitem__("all_available_generators_have_even_carrier_parity", False))
+    add("k613-contract", lambda d: d["k613"]["carrier_parity"].__setitem__("allowed_contractions_remove_carrier_slots_in_pairs", False))
+    add("k613-network", lambda d: d["k613"]["carrier_parity"].__setitem__("homogeneous_tensor_networks_preserve_even_carrier_parity", False))
+    add("k613-vector", lambda d: d["k613"]["carrier_parity"].__setitem__("nonzero_natural_vector_or_covector_from_even_inputs", True))
+    add("k613-blocks", lambda d: d["k613"]["full_stabilizer_consequence"].__setitem__("spectral_block_ranks", [256, 256]))
+    add("k613-minrank", lambda d: d["k613"]["full_stabilizer_consequence"].__setitem__("minimum_nonzero_invariant_endomorphism_rank", 1))
+    add("k613-ranks", lambda d: d["k613"]["full_stabilizer_consequence"].__setitem__("possible_invariant_idempotent_ranks", [0, 1, 512]))
+    add("k613-rankone", lambda d: d["k613"]["full_stabilizer_consequence"].__setitem__("rank_one_natural_endomorphism_from_current_tensors", True))
+    add("k613-scope", lambda d: d["k613"]["full_stabilizer_consequence"].__setitem__("arbitrary_tensor_contraction_stronger_than_K610_factorwise_scope", False))
+    add("k613-slot", lambda d: d["k613"]["K594_replay"].__setitem__("one_carrier_slot_component_serialized", True))
+    add("k613-background", lambda d: d["k613"]["K594_replay"].__setitem__("odd_carrier_valence_background_contraction_serialized", True))
+    add("k613-thirdjet", lambda d: d["k613"]["K594_replay"].__setitem__("existing_third_jet_breaks_central_parity", True))
+    add("k613-escape", lambda d: d["k613"]["reopener"].__setitem__("affine_field_dependent_or_odd_action_data_ruled_out", True))
+    add("k613-decision-vector", lambda d: d["k613"]["decision"].__setitem__("all_current_homogeneous_tensor_networks_select_vector_or_covector", True))
+    add("k613-decision-rank", lambda d: d["k613"]["decision"].__setitem__("all_current_homogeneous_tensor_networks_select_rank_one_packet", True))
+    add("k613-release", lambda d: d["k613"]["decision"].__setitem__("K598_released", True))
 
     caught = 0
     for name, case in mutations:

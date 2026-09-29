@@ -1,0 +1,176 @@
+{
+  "claim_ceiling": "Exact data-custody obstruction for the existing K139 semibound chain. The serialized q=3/8 chart, Gram interval, cancellation identity, qualitative semiboundedness and K168 form order do not determine a numerical complete-sector floor because the absolute cancelled-core constants and a valid common quantitative domain are absent. This does not refute semiboundedness or exclude a new cancellation-adapted estimate; no K473/K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "controls": {
+    "probe": "tests/channel-swings/current_frontier_semantic_currency_audit.py",
+    "result_controls": 12,
+    "hostile_mutations": 20
+  },
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K139_constant_extraction_from_current_serialized_custody_rejected": true,
+    "K473_released": false,
+    "named_complete_sector_floor_emitted": false,
+    "named_noncyclic_floor_emitted": false,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Derive and serialize a new same-form quantitative estimate for the complete cancelled regular core (or a correlated non-diagonal domain); the existing qualitative K139/K156 proof record cannot be algebraically mined into a number."
+  },
+  "dependency_reconciliation": {
+    "K139_semiboundedness_retracted": false,
+    "K462_existential_coercivity_retracted": false,
+    "K581_noncyclic_inheritance_retracted": false,
+    "K611_mixed_graph_obstruction_preserved": true,
+    "new_cancellation_adapted_estimate_still_live": true,
+    "original_proof_text_alone_names_native_floor": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "complete K162 q00/q10/q01 charge sectors on the K141 continuum carrier",
+    "form": "fixed K139 regular pullback with K168 W_ref=diag(-2,1,1) at scalar center zero",
+    "pairing": "physical M=S* S metric from the K153 chart",
+    "result": "quantitative semibound custody audit MAP-TYPE=data-sufficiency obstruction",
+    "target": "K462/K581 named complete-sector and noncyclic lower witness"
+  },
+  "missing_quantitative_custody": {
+    "named_common_domain_for_chart_and_complete_core": false,
+    "named_complete_lower_bound_L0": false,
+    "named_graph_relative_bound_for_complete_cancelled_X": false,
+    "named_identity_constant_for_complete_cancelled_X": false,
+    "named_regular_lower_bound_r0": false,
+    "reason": "K139 asserts that one common finite shift exists; K156 identifies the cancelled core qualitatively; K173/K174/K611 prove that the available numeric chart and core bounds cannot be multiplied because they live on incompatible diagonal graphs."
+  },
+  "result_id": "K612-K139-QUANTITATIVE-SEMIBOUND-CUSTODY-AUDIT",
+  "same_interface_countermodels": {
+    "description": "Finite controls retain q=3/8, M=I within K153's Gram interval, qualitative semiboundedness and K168's exact [-2,1] form-order window while the complete lower floor varies without bound across the family.",
+    "floors_are_distinct": true,
+    "no_uniform_floor_follows_from_serialized_interface": true,
+    "rows": [
+      {
+        "base_regular_form": [
+          [
+            "-1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "extension_order_R0_minus_2M_to_R0_plus_M_preserved": true,
+        "metric": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "native_floor": "-3",
+        "parameter_L": "1",
+        "qualitatively_semibounded": true
+      },
+      {
+        "base_regular_form": [
+          [
+            "-7",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "extension_order_R0_minus_2M_to_R0_plus_M_preserved": true,
+        "metric": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "native_floor": "-9",
+        "parameter_L": "7",
+        "qualitatively_semibounded": true
+      },
+      {
+        "base_regular_form": [
+          [
+            "-64",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "extension_order_R0_minus_2M_to_R0_plus_M_preserved": true,
+        "metric": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "native_floor": "-66",
+        "parameter_L": "64",
+        "qualitatively_semibounded": true
+      },
+      {
+        "base_regular_form": [
+          [
+            "-1024",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "extension_order_R0_minus_2M_to_R0_plus_M_preserved": true,
+        "metric": [
+          [
+            "1",
+            "0"
+          ],
+          [
+            "0",
+            "1"
+          ]
+        ],
+        "native_floor": "-1026",
+        "parameter_L": "1024",
+        "qualitatively_semibounded": true
+      }
+    ]
+  },
+  "schema_version": "1.0",
+  "scope": "Whether the constants actually serialized in K139/K153/K156/K168/K462 determine a cancellation-safe numerical lower witness for the fixed K139/K168 center-zero form.",
+  "serialized_numeric_custody": {
+    "chart_contraction_upper": "3/8",
+    "chart_inverse_norm_upper": "8/5",
+    "existential_complete_sector_semibound": true,
+    "matched_counterterm_cancellation_identified": true,
+    "physical_gram_interval": [
+      "64/121",
+      "64/25"
+    ],
+    "raw_counterterm_separately_convergent": false,
+    "reference_extension_order": "R_0-2M<=R_ref<=R_0+M",
+    "reference_shape_spectrum": [
+      "-2",
+      "1",
+      "1"
+    ]
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
