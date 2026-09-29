@@ -4,6 +4,19 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K617--K618 moving-varpi corrected-carrier revival gate
+
+- `channel-swings/k617_k77_moving_varpi_corrected_carrier_descent.py` composes
+  both historical Pin graph candidates with the current observed slots,
+  K438 corrected projector and K439 split at GF(1009) and GF(1013).
+- `channel-swings/k617_k77_moving_varpi_corrected_carrier_descent_probe.py`
+  checks 28 custody/type/rank controls and rejects 25 hostile mutations.
+- `channel-swings/k618_k77_moving_varpi_corrected_action_hull.py` computes the
+  exact K438 Krylov/spectral hull, complement ranks and the bounded-route
+  ownership reconciliation.
+- `channel-swings/k618_k77_moving_varpi_corrected_action_hull_probe.py` checks
+  37 controls and rejects 28 hostile mutations.
+
 ## K615--K616 zero-form stationarity and unsplit packet
 
 - `channel-swings/k615_k77_zero_form_stationarity_obstruction.py` composes

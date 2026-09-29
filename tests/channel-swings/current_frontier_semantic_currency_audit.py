@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k617": json.loads((ROOT / "lab/process/k617-k77-moving-varpi-corrected-carrier-descent.json").read_text()),
+        "k618": json.loads((ROOT / "lab/process/k618-k77-moving-varpi-corrected-action-hull.json").read_text()),
         "k615": json.loads((ROOT / "lab/process/k615-k77-zero-form-stationarity-obstruction.json").read_text()),
         "k616": json.loads((ROOT / "lab/process/k616-k77-unsplit-rank-one-transport-obstruction.json").read_text()),
         "k614": json.loads((ROOT / "lab/process/k614-k77-zero-form-corrected-carrier-injection.json").read_text()),
@@ -58,11 +60,14 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K615--K616" in live and "K614" in live, "K77 frozen zero-form route result missing")
-        check("rank-two K596 defect" in live and "K598" in live,
-              "K77 unsplit-packet obstruction missing")
-        check("moving nonlinear/source-owned odd datum" in live and "nonzero" in live,
-              "K77 moving odd-data reopener missing")
+        check("K617--K618" in live and "rank-384 K438 polynomial module" in live,
+              "K77 moving-varpi corrected action hull missing")
+        check("unrestricted-four-field Euler-image" in live and "mixed-Hessian" in live,
+              "K77 current reopener/ownership fence missing")
+        check("K614--K616" in live, "K77 frozen zero-form route preservation missing")
+        check("K596/K598" in live, "K77 unsplit-packet interface missing")
+        check("unrestricted four-field southeast rival" in live and "moving stationary background" in live,
+              "K77 unrestricted/moving reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
         check("K609" in live and "below 1/3" in live,
@@ -80,6 +85,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K617--K618 test the strongest already-owned moving-background candidate" in summary,
+          "current K617--K618 result lost")
     check("K615--K616 close K614's natural frozen-background successor" in summary,
           "current K615--K616 result lost")
     check("K614 closes the map half of K613's cheapest odd-data reopener" in summary,
@@ -109,6 +116,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "Krylov ranks are 128,256,384,384,384"
+        in data["agenda"].get("latest_result_2026_09_29_k617_k618", ""),
+        "agenda K617--K618 result is not current",
+    )
     check(
         "rank-two K596 defect" in data["agenda"].get("latest_result_2026_09_29_k615_k616", ""),
         "agenda K615--K616 result is not current",
@@ -180,6 +192,34 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k617 = data["k617"]
+    k617_t = k617["descent_theorem"]
+    k617_o = k617["ownership_reconciliation"]
+    k617_d = k617["decision"]
+    check(len(k617["cross_characteristic_packets"]) == 2, "K617 characteristic packet count moved")
+    check(k617_t["both_pin_candidates_descend_injectively"] and k617_t["pin_candidates_become_identical_after_correction"], "K617 descent/collapse moved")
+    check(k617_t["corrected_graph_rank"] == 128, "K617 corrected graph rank moved")
+    check(k617_t["corrected_graph_intersection_K614_zero_seed_rank"] == 0 and k617_t["corrected_graph_join_K614_zero_seed_rank"] == 256, "K617 zero-seed relation moved")
+    check(k617_t["all_four_frozen_spectral_sign_blocks_met"], "K617 spectral/sign coverage moved")
+    check(k617_t["frozen_action_residual_rank"] == 128 and not k617_t["stationary_for_frozen_K438_action"], "K617 frozen-action residual moved")
+    check(not any((k617_o["historical_graph_is_source_selected"], k617_o["bounded_graph_route_action_owned_by_unrestricted_four_field_action"], k617_o["corrected_descent_reverses_prior_action_ownership_kill"], k617_o["moving_differential_BV_Green_domain_constructed"], k617_o["mixed_hessian_Riesz_packet_constructed"])), "K617 ownership ceiling moved")
+    check(k617_d["moving_graph_has_nontrivial_corrected_descent"] and not any((k617_d["K615_frozen_stationarity_obstruction_retracted"], k617_d["K616_unsplit_packet_obstruction_retracted"], k617_d["moving_graph_revives_bounded_action_owned_route"], k617_d["selected_source_action_rejected"])), "K617 decision ceiling moved")
+
+    k618 = data["k618"]
+    k618_h = k618["action_hull_theorem"]
+    k618_o = k618["ownership_and_typing"]
+    k618_r = k618["revival_gate"]
+    k618_d = k618["decision"]
+    check(len(k618["cross_characteristic_packets"]) == 2, "K618 characteristic packet count moved")
+    check(k618_h["krylov_ranks_A0_through_A4"] == [128, 256, 384, 384, 384], "K618 Krylov ranks moved")
+    check(k618_h["minimal_action_hull_rank"] == 384 and k618_h["corrected_carrier_complement_rank"] == 128 and not k618_h["action_hull_is_full_corrected_carrier"], "K618 hull/complement moved")
+    check([k618_h[key] for key in ("fast_outgoing_missing_rank", "fast_incoming_missing_rank", "slow_outgoing_missing_rank", "slow_incoming_missing_rank")] == [64, 64, 0, 0], "K618 block complement moved")
+    check(k618_o["spectral_vector_components_are_action_derived"] and not k618_o["action_derived_vector_split_owns_mixed_hessian_coupling"], "K618 vector/coupling ownership boundary moved")
+    check(not k618_o["equal_rank_identifies_historical_and_current_hulls"] and not k618_o["bounded_route_action_owned"], "K618 rank coincidence or route ownership moved")
+    check(k618_r["corrected_carrier_supplies_nontrivial_diagnostic_module"] and not k618_r["corrected_carrier_revives_historical_bounded_graph_as_action_subsystem"], "K618 revival gate moved")
+    check(k618_r["K616_vector_projection_ownership_narrowed"] and not k618_r["K616_core_unsplit_packet_obstruction_retracted"], "K618 K616 reconciliation moved")
+    check(not any((k618_d["K617_nontrivial_descent_retracted"], k618_d["K615_frozen_zero_form_obstruction_retracted"], k618_d["prior_unrestricted_Euler_route_kill_retracted"], k618_d["rank384_coincidence_promoted_to_identity"], k618_d["actual_K596_K598_packet_released"], k618_d["selected_source_action_rejected"])), "K618 decision ceiling moved")
 
     k615 = data["k615"]
     k615_r = k615["rank_fingerprint"]
@@ -306,6 +346,21 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k617-rank", lambda d: d["k617"]["descent_theorem"].__setitem__("corrected_graph_rank", 127))
+    add("k617-collapse", lambda d: d["k617"]["descent_theorem"].__setitem__("pin_candidates_become_identical_after_correction", False))
+    add("k617-zero-seed", lambda d: d["k617"]["descent_theorem"].__setitem__("corrected_graph_intersection_K614_zero_seed_rank", 128))
+    add("k617-stationary", lambda d: d["k617"]["descent_theorem"].__setitem__("stationary_for_frozen_K438_action", True))
+    add("k617-ownership", lambda d: d["k617"]["ownership_reconciliation"].__setitem__("bounded_graph_route_action_owned_by_unrestricted_four_field_action", True))
+    add("k617-revival", lambda d: d["k617"]["decision"].__setitem__("moving_graph_revives_bounded_action_owned_route", True))
+    add("k618-krylov", lambda d: d["k618"]["action_hull_theorem"].__setitem__("krylov_ranks_A0_through_A4", [128, 256, 512, 512, 512]))
+    add("k618-complement", lambda d: d["k618"]["action_hull_theorem"].__setitem__("corrected_carrier_complement_rank", 0))
+    add("k618-slow-missing", lambda d: d["k618"]["action_hull_theorem"].__setitem__("slow_incoming_missing_rank", 64))
+    add("k618-coupling-owned", lambda d: d["k618"]["ownership_and_typing"].__setitem__("action_derived_vector_split_owns_mixed_hessian_coupling", True))
+    add("k618-rank-identity", lambda d: d["k618"]["ownership_and_typing"].__setitem__("equal_rank_identifies_historical_and_current_hulls", True))
+    add("k618-route-revived", lambda d: d["k618"]["revival_gate"].__setitem__("corrected_carrier_revives_historical_bounded_graph_as_action_subsystem", True))
+    add("k618-k616-retracted", lambda d: d["k618"]["revival_gate"].__setitem__("K616_core_unsplit_packet_obstruction_retracted", True))
+    add("k618-packet", lambda d: d["k618"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
 
     add("k615-euler-rank", lambda d: d["k615"]["rank_fingerprint"].__setitem__("action_euler_image", 127))
     add("k615-zero-half", lambda d: d["k615"]["rank_fingerprint"].__setitem__("incoming_zero_form", 127))

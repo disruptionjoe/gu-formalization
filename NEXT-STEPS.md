@@ -7,6 +7,22 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K617--K618 MOVING-VARPI CORRECTED DESCENT AND ACTION HULL.**
+> K617 composes the historical displayed-southeast-zero moving-`varpi` graph
+> with K438/K439. Both Pin candidates become the same rank-128 corrected image,
+> disjoint from K614's zero-form seed; all four spectral-sign blocks are met,
+> but the K438 frozen-action residual remains rank 128. K618 computes exact
+> Krylov ranks `128,256,384,384,384`: the module exhausts both slow sign blocks,
+> occupies rank 128 of each rank-192 fast sign block and leaves a rank-128
+> corrected complement. The spectral vector split is action-derived, but no
+> mixed-Hessian matching-half bilinear coupling is owned. The new rank-384
+> module is not the historical rank-384 ambient receiver, and the prior
+> unrestricted-Euler route kill remains in force. The probes pass `65/65`
+> controls and reject `53/53` hostile mutations. Next return to the unrestricted
+> four-field southeast rival, or construct an independently action-owned moving
+> odd mixed Hessian and BV/Green domain. Do not revive the bounded graph through
+> equal rank or post-variation projection.
+
 > **2026-09-29 K615--K616 ZERO-FORM STATIONARITY AND UNSPLIT-PACKET
 > OBSTRUCTIONS.** K615 composes K614 with the actual frozen K438/K440 action
 > model. `A J0` has rank 128 at both good characteristics and K440's corrected

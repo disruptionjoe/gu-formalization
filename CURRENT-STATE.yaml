@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a1ff09555594
+revision_basis: 4bda38a9bf43
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K617--K618 test the strongest already-owned moving-background candidate
+    against the corrected K438/K439 carrier without reviving a historically
+    killed bounded subsystem. K617 composes the exact displayed-southeast-zero
+    moving-`varpi` graph with the current observed slots and corrected
+    projector. At both good characteristics the two historical Pin candidates
+    collapse to the same rank-128 corrected image, disjoint from K614's
+    zero-form image; all four spectral-sign projections are nonzero, but the
+    K438 frozen-action residual has rank 128. K618 proves its K438 Krylov ranks
+    are `128,256,384,384,384`: the module exhausts both slow rank-64 sign
+    blocks, occupies rank 128 of each rank-192 fast sign block and leaves a
+    rank-128 corrected complement. The spectral vector split is action-derived
+    because the projectors are polynomials in `A`, but no mixed-Hessian
+    matching-half bilinear coupling is owned. Its rank 384 is not identified
+    with the historical rank-384 ambient equation receiver, and the prior
+    unrestricted-Euler action-ownership kill remains in force. The probes pass
+    65/65 controls and reject 53/53 hostile mutations. No protected scientific
+    or public conclusion moves.
+
     K615--K616 close K614's natural frozen-background successor without
     rejecting a moving nonlinear completion. K615 composes the rank-128
     zero-form injection with K438's action symbol: `A J0` has rank 128 at
@@ -11254,17 +11272,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the K77 route, K615--K616 test K614's exact `Omega^0(S)` injection in the
-  frozen K438/K440 action model. `A J0` has rank 128 and K440's corrected H1
-  domain has zero kernel, so no nonzero zero-form or four-field stationary
-  background exists there. For any chosen nonzero `v`, the natural unsplit
-  rank-one packet `|A J0 v><J0 v|` has a rank-two K596 defect because both
-  corrected halves are nonzero; K598 transport preserves it. The matching-
-  half sum passes only after deleting cross terms that the current action does
-  not own. Reopen with a moving nonlinear/source-owned odd datum that solves
-  its own stationarity equation and owns a matching-half coupling. Do not
-  reinterpret the frozen-domain obstruction as a rejection of all GU fermion
-  backgrounds or silently action-own the projected repair.
+  On the K77 route, K617--K618 compose the historical nonzero moving-`varpi`
+  algebraic graph with K438/K439. Both historical Pin candidates descend to
+  one rank-128 corrected image, disjoint from K614's zero-form image, but K438
+  acts on it with rank-128 residual. Its polynomial action hull has ranks
+  `128,256,384,384,384`, exhausts both slow sign blocks, misses rank 64 in each
+  fast sign and leaves a rank-128 corrected complement. The spectral vector
+  split is now action-derived, narrowing K616's missing ownership to the
+  bilinear mixed-Hessian coupling; it does not make the graph stationary for
+  K438 or reverse the older unrestricted-four-field Euler-image kill. Next
+  return to the unrestricted four-field southeast rival, or construct an
+  independently action-owned mixed-Hessian odd coupling plus the moving
+  differential BV/Green domain. Do not identify the current rank-384 module
+  with the historical rank-384 ambient receiver or use post-variation
+  projection to revive the bounded graph route.
 
   On the K500 route, K612 proves that K139's current matched-form proof record
   does not serialize enough quantitative custody to identify its existential
@@ -11748,15 +11769,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, K615--K616 close the natural frozen zero-form attempt:
-  `A J0` is injective, K440 has zero kernel, and the natural unsplit nonzero
-  `|A J0 v><J0 v|` packet has rank-two K596 defect preserved by K598. A
-  matching-half projection is algebraically compatible but not action-owned.
-  Reopen only with a moving nonlinear/source-owned odd datum that is nonzero
-  on shell and independently owns the matching-half coupling and common
-  domain; then test total nilpotence and properness. Preserve K614's injection,
-  K613's homogeneous central-parity obstruction and the conditional K596/K598
-  interface. On the K500 route, K612 closes constant
+  On the K77 route, K617--K618 close the corrected-carrier revival attempt for
+  the historical moving-`varpi` graph. The graph has a genuine common rank-128
+  corrected image and a rank-384 K438 polynomial module, but it is not
+  stationary for K438, does not own a mixed-Hessian matching-half coupling and
+  does not reverse the unrestricted-four-field Euler-image action-ownership
+  kill. K439's polynomial projectors do action-own the vector decomposition;
+  preserve that narrowing without relabelling it as ownership of the bilinear
+  packet. Reopen through the unrestricted four-field southeast rival, or an
+  independently action-owned moving stationary background, odd mixed Hessian
+  and common BV/Green domain; then apply K596/K598 and properness. Preserve
+  K614--K616, K613's homogeneous central-parity obstruction and the rank-384
+  ambient-type nonidentity fence. On the K500 route, K612 closes constant
   extraction from the present K139/K156 proof record: its chart constants and
   qualitative semibound do not include a quantitative complete cancelled-core
   estimate. Derive that estimate directly on the physical form or construct a

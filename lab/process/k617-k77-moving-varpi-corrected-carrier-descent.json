@@ -1,0 +1,198 @@
+{
+  "claim_ceiling": "Exact cross-characteristic descent of the historical moving-varpi algebraic graph into the current corrected carrier. Both Pin candidates collapse to the same rank-128 corrected image, disjoint from K614's zero-form image, and meet every K438/K439 spectral-sign block. K438's frozen action has rank-128 residual on that image, so the graph is not stationary for the frozen model. The newer carrier does not reverse the prior unrestricted-action ownership kill or construct a moving differential BV/Green domain or mixed-Hessian/Riesz packet. No source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion moves.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "checks": {
+        "all_four_spectral_sign_blocks_are_met": true,
+        "both_graphs_descend_injectively": true,
+        "corrected_graph_differs_from_zero_seed": true,
+        "correction_removes_nonzero_trace": true,
+        "frozen_action_does_not_annihilate_graph": true,
+        "pin_candidates_collapse_after_correction": true
+      },
+      "prime": 1009,
+      "rows": {
+        "column_pin": {
+          "corrected_graph_rank": 128,
+          "corrected_zero_seed_difference_rank": 128,
+          "corrected_zero_seed_intersection_rank": 0,
+          "corrected_zero_seed_join_rank": 256,
+          "fast_incoming_rank": 128,
+          "fast_outgoing_rank": 128,
+          "fast_rank": 128,
+          "frozen_action_residual_rank": 128,
+          "incoming_rank": 128,
+          "observed_clifford_trace_rank": 128,
+          "observed_graph_rank": 128,
+          "outgoing_rank": 128,
+          "removed_trace_rank": 128,
+          "slow_incoming_rank": 64,
+          "slow_outgoing_rank": 64,
+          "slow_rank": 128
+        },
+        "row_pin": {
+          "corrected_graph_rank": 128,
+          "corrected_zero_seed_difference_rank": 128,
+          "corrected_zero_seed_intersection_rank": 0,
+          "corrected_zero_seed_join_rank": 256,
+          "fast_incoming_rank": 128,
+          "fast_outgoing_rank": 128,
+          "fast_rank": 128,
+          "frozen_action_residual_rank": 128,
+          "incoming_rank": 128,
+          "observed_clifford_trace_rank": 128,
+          "observed_graph_rank": 128,
+          "outgoing_rank": 128,
+          "removed_trace_rank": 128,
+          "slow_incoming_rank": 64,
+          "slow_outgoing_rank": 64,
+          "slow_rank": 128
+        }
+      }
+    },
+    {
+      "checks": {
+        "all_four_spectral_sign_blocks_are_met": true,
+        "both_graphs_descend_injectively": true,
+        "corrected_graph_differs_from_zero_seed": true,
+        "correction_removes_nonzero_trace": true,
+        "frozen_action_does_not_annihilate_graph": true,
+        "pin_candidates_collapse_after_correction": true
+      },
+      "prime": 1013,
+      "rows": {
+        "column_pin": {
+          "corrected_graph_rank": 128,
+          "corrected_zero_seed_difference_rank": 128,
+          "corrected_zero_seed_intersection_rank": 0,
+          "corrected_zero_seed_join_rank": 256,
+          "fast_incoming_rank": 128,
+          "fast_outgoing_rank": 128,
+          "fast_rank": 128,
+          "frozen_action_residual_rank": 128,
+          "incoming_rank": 128,
+          "observed_clifford_trace_rank": 128,
+          "observed_graph_rank": 128,
+          "outgoing_rank": 128,
+          "removed_trace_rank": 128,
+          "slow_incoming_rank": 64,
+          "slow_outgoing_rank": 64,
+          "slow_rank": 128
+        },
+        "row_pin": {
+          "corrected_graph_rank": 128,
+          "corrected_zero_seed_difference_rank": 128,
+          "corrected_zero_seed_intersection_rank": 0,
+          "corrected_zero_seed_join_rank": 256,
+          "fast_incoming_rank": 128,
+          "fast_outgoing_rank": 128,
+          "fast_rank": 128,
+          "frozen_action_residual_rank": 128,
+          "incoming_rank": 128,
+          "observed_clifford_trace_rank": 128,
+          "observed_graph_rank": 128,
+          "outgoing_rank": 128,
+          "removed_trace_rank": 128,
+          "slow_incoming_rank": 64,
+          "slow_outgoing_rank": 64,
+          "slow_rank": 128
+        }
+      }
+    }
+  ],
+  "cross_characteristic_rows": {
+    "column_pin": {
+      "corrected_graph_rank": 128,
+      "corrected_zero_seed_difference_rank": 128,
+      "corrected_zero_seed_intersection_rank": 0,
+      "corrected_zero_seed_join_rank": 256,
+      "fast_incoming_rank": 128,
+      "fast_outgoing_rank": 128,
+      "fast_rank": 128,
+      "frozen_action_residual_rank": 128,
+      "incoming_rank": 128,
+      "observed_clifford_trace_rank": 128,
+      "observed_graph_rank": 128,
+      "outgoing_rank": 128,
+      "removed_trace_rank": 128,
+      "slow_incoming_rank": 64,
+      "slow_outgoing_rank": 64,
+      "slow_rank": 128
+    },
+    "row_pin": {
+      "corrected_graph_rank": 128,
+      "corrected_zero_seed_difference_rank": 128,
+      "corrected_zero_seed_intersection_rank": 0,
+      "corrected_zero_seed_join_rank": 256,
+      "fast_incoming_rank": 128,
+      "fast_outgoing_rank": 128,
+      "fast_rank": 128,
+      "frozen_action_residual_rank": 128,
+      "incoming_rank": 128,
+      "observed_clifford_trace_rank": 128,
+      "observed_graph_rank": 128,
+      "outgoing_rank": 128,
+      "removed_trace_rank": 128,
+      "slow_incoming_rank": 64,
+      "slow_outgoing_rank": 64,
+      "slow_rank": 128
+    }
+  },
+  "decision": {
+    "K615_frozen_stationarity_obstruction_retracted": false,
+    "K616_unsplit_packet_obstruction_retracted": false,
+    "moving_graph_has_nontrivial_corrected_descent": true,
+    "moving_graph_revives_bounded_action_owned_route": false,
+    "next_exact_input": "Classify the K438 polynomial action hull of the descended graph and its blockwise complement. Treat the action-derived vector split separately from ownership of a mixed-Hessian bilinear coupling, and preserve the earlier unrestricted-Euler route kill.",
+    "selected_source_action_rejected": false
+  },
+  "descent_theorem": {
+    "all_four_frozen_spectral_sign_blocks_met": true,
+    "both_nonzero_bosonic_branches_covered_historically": true,
+    "both_pin_candidates_descend_injectively": true,
+    "corrected_graph_equals_K614_zero_seed": false,
+    "corrected_graph_intersection_K614_zero_seed_rank": 0,
+    "corrected_graph_join_K614_zero_seed_rank": 256,
+    "corrected_graph_rank": 128,
+    "frozen_action_residual_rank": 128,
+    "historical_graph_nullity": 128,
+    "pin_candidates_become_identical_after_correction": true,
+    "stationary_for_frozen_K438_action": false
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "constraint": "K438 corrected Clifford projector on the observed H640 carrier",
+    "frozen_action": "K438 compressed normal symbol A, which is not the historical moving-varpi algebraic operator",
+    "historical_input": "repository-constructed displayed-southeast-zero moving-varpi algebraic kernel graph on both certified nonzero bosonic stationary branches",
+    "observation": "K435 coordinate observation to slots 0,7,8,9 and Omega0",
+    "result": "moving-varpi corrected-carrier descent MAP-TYPE=historical-kernel-to-current-carrier comparison",
+    "target": "a genuinely action-owned moving nonlinear corrected-carrier background and mixed-Hessian/Riesz packet"
+  },
+  "ownership_reconciliation": {
+    "bounded_graph_route_action_owned_by_unrestricted_four_field_action": false,
+    "corrected_descent_reverses_prior_action_ownership_kill": false,
+    "historical_graph_is_repository_constructed": true,
+    "historical_graph_is_source_selected": false,
+    "mixed_hessian_Riesz_packet_constructed": false,
+    "moving_differential_BV_Green_domain_constructed": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The two historical Pin graphs collapse to one corrected rank-128 image, but K438 acts injectively on it and the unrestricted action still owns the full nonnull Euler image.",
+    "strongest_overclaim": "Calling nontrivial corrected descent a source-selected stationary solution or a revival of the already-killed bounded graph action.",
+    "weakest_reproducibility_seam": "The descent is exact at both current good characteristics; its historical stationary premise remains tied to the separately certified displayed-southeast-zero algebraic operator."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "The August graph predates K438/K439; later work killed it as an action-owned bounded subsystem but did not test its corrected-carrier image.",
+    "route_comparison": "Reuse the exact historical moving-varpi graph before inventing a new nonlinear background, but compose it with the current corrected carrier and prior action-ownership kill.",
+    "strongest_alternative": "Construct the unrestricted four-field southeast rival and full BV complex; that remains larger because the current test can first decide whether the old graph supplies any corrected input at all."
+  },
+  "result_id": "K617-K77-MOVING-VARPI-CORRECTED-CARRIER-DESCENT",
+  "schema_version": "1.0",
+  "scope": "Exact descent of the historical displayed-southeast-zero moving-varpi Omega0-to-gamma-trace stationary graph through the current observed slots and K438 corrected carrier, compared with K614's zero-form seed and K438/K439 frozen spectral split.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

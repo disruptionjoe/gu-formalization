@@ -7,6 +7,31 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K617--K618 moving-varpi corrected descent and action hull (2026-09-29)
+
+K617 reuses the exact historical displayed-southeast-zero moving-`varpi`
+algebraic graph on both nonzero bosonic stationary branches and composes it
+with the current observed slots and K438 corrected projector. At GF(1009) and
+GF(1013), both historical Pin candidates descend injectively and become the
+same rank-128 corrected image. That image is disjoint from K614's zero-form
+image, meets all four fast/slow-by-sign blocks and has rank-128 residual under
+K438's frozen symbol. It is therefore a genuine corrected diagnostic image,
+not a stationary background for the frozen action. The producer and probe
+pass 28/28 controls and reject 25/25 hostile mutations.
+
+K618 computes the exact K438 polynomial orbit of that image. The cumulative
+Krylov ranks are `128,256,384,384,384`; equivalently, the module contains rank
+128 in each fast sign block and all rank 64 in each slow sign block, leaving a
+rank-128 complement in the corrected carrier. K438/K439 action-polynomial
+projectors own this vector decomposition, but no current action mixed Hessian
+owns the matching-half bilinear coupling. Its rank 384 is not an identification
+with the differently typed historical rank-384 receiver inside the ambient
+1920-dimensional equation space. The unrestricted four-field Euler image
+remains full rank at nonnull covectors, so the old bounded graph route remains
+not action-owned. The producer and probe pass 37/37 controls and reject 28/28
+hostile mutations. Neither result constructs the moving differential BV/Green
+domain, releases K596/K598, or moves a protected claim.
+
 ## K615--K616 zero-form stationarity and unsplit packet (2026-09-29)
 
 K615 reuses K614's exact zero-form inclusion and evaluates it against K438's
