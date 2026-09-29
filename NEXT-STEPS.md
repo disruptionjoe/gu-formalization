@@ -7,6 +7,19 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K608--K610 ANALYTIC ENVELOPES, COMPLETE LEAKAGE AND
+> FACTORWISE ALGEBRA.** K608 covers all 1,614 K606 diagonal self norms with
+> rational analytic upper envelopes. K609 propagates them through the exact
+> seed/sign data, reuses K602 and charges K574's tail once, proving complete
+> leakage-square uppers `0.3226055535604902531` (q00) and
+> `0.3226018384281308772` (q10/q01), uniformly below `1/3`. K610 proves the
+> whole available K590-by-K438 factorwise algebra has minimum nonzero carrier
+> idempotent rank 64 and selects no K598 packet. The probes pass `24/24`
+> controls and reject `36/36` mutations. Next serialize a named
+> cancellation-safe complete-sector lower witness before K494/K473/K152, and
+> independently supply genuinely nonfactorized action-owned
+> field-to-carrier/Riesz data for K77.
+
 > **2026-09-28 K606--K607 SELF-NORM COMPRESSION AND ACTION-SYMBOL
 > STABILIZER.** K606 proves strict total positivity of K604's raw determinant
 > kernels and maps all 39,438 nonzero signed classes to 1,614 positive

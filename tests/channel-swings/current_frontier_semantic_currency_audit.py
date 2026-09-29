@@ -53,12 +53,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K607" in live and "K438" in live, "K77 action-symbol boundary missing")
+        check("K610" in live and "K438" in live, "K77 factorwise-algebra boundary missing")
         check("global sign" in live, "K77 residual-symmetry reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
-        check("K606" in live and "1,323" in live,
-              "K500 diagonal self-norm route missing")
+        check("K609" in live and "below 1/3" in live,
+              "K500 complete leakage route missing")
         check("K574's tail once" in live, "K500 single-tail composition missing")
         check("complete-sector lower witness" in live,
               "live complete-complement route missing")
@@ -71,8 +71,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K606--K607 execute both live post-K604/K605 successors" in summary,
-          "current K606--K607 result lost")
+    check("K608--K610 complete the live numerical K500 cross-term successor" in summary,
+          "current K608--K610 result lost")
     check("complete-sector floor remains" in summary,
           "current claim ceiling lost")
 
@@ -105,13 +105,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         "agenda K602--K603 result is not current",
     )
     check(
-        "global sign"
-        in data["agenda"].get("refresh_note", ""),
+        "minimum nonzero carrier-idempotent rank is 64"
+        in data["agenda"].get("latest_result_2026_09_28_k608_k610", ""),
         "agenda K77 route is not current",
     )
     check(
-        "K606 maps all 39,438"
-        in data["agenda"].get("refresh_note", ""),
+        "uniformly below 1/3"
+        in data["agenda"].get("latest_result_2026_09_28_k608_k610", ""),
         "agenda K500 route is not current",
     )
     check(
@@ -177,7 +177,7 @@ def selftest(base: dict) -> tuple[int, int]:
         "terminal_rows", 90))
     add("b2-gate-reversed", lambda d: d["b2"]["basis"].__setitem__("b2_selectable", False))
     add("agenda-stale", lambda d: d["agenda"].__setitem__(
-        "refresh_note", "Repeat the superseded K466 shifted-coercivity bridge."))
+        "latest_result_2026_09_28_k608_k610", "Repeat the superseded K466 shifted-coercivity bridge."))
     add("agenda-latest-stale", lambda d: d["agenda"].__setitem__(
         "latest_result_2026_09_28_k600_k601", "K599 remains the latest result."))
     add("b5-rb6-repeat", lambda d: next(
