@@ -53,12 +53,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K605" in live and "K590" in live, "K77 factorwise no-selector boundary missing")
-        check("acts nontrivially" in live, "K77 carrier-dependent reopener missing")
+        check("K607" in live and "K438" in live, "K77 action-symbol boundary missing")
+        check("global sign" in live, "K77 residual-symmetry reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
-        check("K604" in live and "39,438" in live,
-              "K500 determinant-kernel atlas route missing")
+        check("K606" in live and "1,323" in live,
+              "K500 diagonal self-norm route missing")
         check("K574's tail once" in live, "K500 single-tail composition missing")
         check("complete-sector lower witness" in live,
               "live complete-complement route missing")
@@ -71,8 +71,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K604--K605 execute the two exact post-K603/K600 successors" in summary,
-          "current K604--K605 result lost")
+    check("K606--K607 execute both live post-K604/K605 successors" in summary,
+          "current K606--K607 result lost")
     check("complete-sector floor remains" in summary,
           "current claim ceiling lost")
 
@@ -105,12 +105,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         "agenda K602--K603 result is not current",
     )
     check(
-        "nontrivially on E"
+        "global sign"
         in data["agenda"].get("refresh_note", ""),
         "agenda K77 route is not current",
     )
     check(
-        "K604 compiles all 83,282"
+        "K606 maps all 39,438"
         in data["agenda"].get("refresh_note", ""),
         "agenda K500 route is not current",
     )
@@ -118,6 +118,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         "41,063 exact determinant-simplex classes"
         in data["agenda"].get("latest_result_2026_09_28_k604_k605", ""),
         "agenda K604--K605 result is not current",
+    )
+    check(
+        "1,614 positive diagonal self norms"
+        in data["agenda"].get("latest_result_2026_09_28_k606_k607", ""),
+        "agenda K606--K607 result is not current",
     )
 
     b5 = next(

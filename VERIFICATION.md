@@ -7,6 +7,25 @@ updated_at: "2026-09-28"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K606--K607 self-norm compression and action-symbol stabilizer (2026-09-28)
+
+K606 replays every K604 class and constructs both exact diagonal endpoints
+from its left/right descriptors. All 39,438 nonzero classes are covered with
+no missing endpoint and collapse to 1,614 unique self norms, eliminating
+37,824 direct cross integrations. A rational positive-mixture control checks
+the total-positivity sign, while the theorem keeps each species determinant
+intact. Its `12/12` controls pass and `20/20` hostile mutations are rejected.
+This is an exact closure map, not outward numerical quadrature.
+
+K607 replays K438/K439's exact spectral data and checks the polynomial sign
+formula, four spectral projectors, `D_i tensor A` K444 squares and lifted
+nilpotence on an exact rational control. The full argument uses spectral
+multiplicities `192,192,64,64`, surviving global sign and the rank-64 minimum
+nonzero idempotent; the executable toy uses ranks `2,2,2,2`. Its `13/13`
+controls pass and `21/21` hostile mutations are rejected. It narrows the
+missing action datum but does not construct K598's initial packet or a full
+nonlinear BV/KT coupling.
+
 ## K604--K605 determinant-kernel atlas and factorwise selector obstruction (2026-09-28)
 
 K604 replays the complete K177 path and K179 coefficient generators, then

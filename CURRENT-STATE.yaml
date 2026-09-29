@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ba6a4184c312
+revision_basis: e0805e1d43a4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K606--K607 execute both live post-K604/K605 successors without moving a
+    protected claim. K606 proves strict total positivity for the K604 raw
+    determinant kernels and maps all 39,438 nonzero signed classes through
+    exterior-Gram Cauchy--Schwarz to 1,614 positive diagonal self norms: 291
+    cyclic and 1,323 action norms. This removes 37,824 direct cross-integral
+    obligations while retaining exact signed multiplicities and determinant
+    interference, but emits no diagonal numerical enclosure. K607 tests
+    K438's actual action-owned carrier symbol A. Its four spectral blocks of
+    ranks 192,192,64,64 reduce K600's two-block stabilizer and make
+    D_i tensor A exact K444-compatible candidates, yet global sign symmetry
+    and minimum nonzero polynomial rank 64 prevent a natural vector,
+    covector or rank-one K598 packet. The probes pass 25/25 controls and
+    reject 41/41 hostile mutations. No finite higher-order moment, uniform
+    leakage, carrier packet, noncyclic floor or protected scientific/public
+    conclusion moves.
+
     K604--K605 execute the two exact post-K603/K600 successors. K604 compiles
     all 83,282 K603-surviving unordered N/A_F/B_F products into 41,063 exact
     determinant-simplex kernel classes while preserving signs, contraction
@@ -11169,26 +11185,26 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  K605 strengthens K600 against the exact K590 factorwise action completion.
-  Every nonzero base arrow D_i tensor I_E still intertwines the full
-  O(256)xO(256) carrier action, so those maps do not reduce the stabilizer or
-  naturally select a nonzero initial carrier vector, covector or rank-one
-  coupling. The next K77 route must supply a named action-owned datum that
-  acts nontrivially on E itself--a field-to-carrier injection, boundary
-  vector/field or nonfactorized carrier coupling--and its K441 Riesz return.
-  Only then apply K596 at the initial fibre and K598 for transport. Do not
-  reinterpret this factorwise obstruction as rejection of K590 or of every
-  action-derived soldering.
+  K607 tests the exact K438 action-owned carrier symbol left open by K605.
+  Its four spectral blocks reduce K600's two-block stabilizer and the maps
+  D_i tensor A satisfy the factorwise K444 squares, but the surviving global
+  sign and internal multiplicities 192,192,64,64 select no vector, covector
+  or rank-one K598 packet. The next K77 route must supply an action-owned
+  inhomogeneous vector/covector, simple spectral block, or field-to-carrier
+  injection and K441 Riesz return that breaks those symmetries. Polynomials
+  in A, including K439's projector, cannot do so. Then apply K596 at the
+  initial fibre and K598 for transport. Do not reinterpret this as rejection
+  of K438, K590 or every action-derived soldering.
 
   Independently, K602 now outwardly encloses K601's order-two n,a,b moments
   and gives a strict numerical q10/q01 truncation leakage-square interval.
-  K604 now compiles all 83,282 K603-surviving N/A_F/B_F unordered products
-  into 41,063 exact determinant-simplex classes, including 1,625 mixed classes
-  with zero signed multiplicity and 39,438 nonzero classes. Outwardly enclose
-  those nonzero blocks with within-determinant interference retained, compose
-  the finite N,A_F,B_F moments, then apply K599 with K574's sharp tail once
-  and prove the supported-level upper uniform. Do not treat K602's truncation
-  interval or K604's exact integral atlas as a complete finite or all-level
+  K606 maps all 39,438 K604 nonzero classes to 1,614 positive diagonal self
+  norms while preserving determinant interference and exact signed
+  multiplicities. Outwardly enclose the 291 cyclic and 1,323 action diagonal
+  norms, infer every cross interval through K606, compose the finite
+  N,A_F,B_F moments, then apply K599 with K574's sharp tail once and prove the
+  supported-level upper uniform. Do not treat total positivity or the
+  self-norm closure as numerical quadrature or a complete finite/all-level
   leakage bound, reserialize the column, double-charge the tail or substitute
   K575's differently typed M-dual residual. The separate numerical noncyclic
   floor remains required before K473 or K152 can move.
@@ -11663,20 +11679,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, supply a named action-owned datum that acts nontrivially
-  on the corrected carrier E--a field-to-carrier injection, boundary
-  vector/field or nonfactorized carrier coupling--and its K441 Riesz return
-  for D2 and D1. Apply K596 at the initial fibre and K598 for transport, then
-  test total nilpotence and properness. K605 proves K590's factorwise maps
-  leave K600's full carrier stabilizer intact; it does not retract K590 or
-  reject a genuinely E-dependent action datum. On the K500 route, outwardly
-  enclose K604's 39,438 nonzero signed determinant-simplex classes, compose
-  the finite N,A_F,B_F moments, then apply K599 with K574's tail once and
-  prove the normalized upper uniform. Do not treat K602's order-two interval
-  or K604's exact atlas as a complete leakage bound, reserialize the
-  coefficient-complete column, double-charge the tail or substitute K575's
-  M-dual residual. Separately serialize a named cancellation-safe complete-
-  sector lower witness. Preserve K588's off-image ownership fence and K590's
+  On the K77 route, supply an action-owned inhomogeneous vector/covector,
+  simple spectral block, or field-to-carrier/Riesz map that breaks K607's
+  surviving global sign and internal spectral multiplicities. Apply K596 at
+  the initial fibre and K598 for transport, then test total nilpotence and
+  properness. K607 proves polynomials in K438's A, including K439's projector,
+  cannot select the rank-one packet; it does not retract K438 or K590. On the
+  K500 route, outwardly enclose K606's 291 cyclic and 1,323 action positive
+  diagonal self norms, propagate the 39,438 class intervals through its exact
+  closure, compose finite N,A_F,B_F, then apply K599 with K574's tail once and
+  prove the normalized upper uniform. Do not treat K606 as numerical
+  quadrature or a complete leakage bound, reserialize the coefficient-complete
+  column, double-charge the tail or substitute K575's M-dual residual.
+  Separately serialize a named cancellation-safe complete-sector lower
+  witness. Preserve K588's off-image ownership fence and K590's
   factorized-only ceiling.
 
   Continue K500 beyond K510's simplex-volume obstruction. Either prove a

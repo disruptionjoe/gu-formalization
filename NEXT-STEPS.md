@@ -7,6 +7,19 @@ updated_at: "2026-09-28"
 
 # Next Steps For Contributors
 
+> **2026-09-28 K606--K607 SELF-NORM COMPRESSION AND ACTION-SYMBOL
+> STABILIZER.** K606 proves strict total positivity of K604's raw determinant
+> kernels and maps all 39,438 nonzero signed classes to 1,614 positive
+> diagonal self norms--291 cyclic and 1,323 action norms--through exact
+> exterior-Gram Cauchy--Schwarz. It eliminates 37,824 direct cross-integral
+> obligations but emits no numerical diagonal value. K607 tests K438's actual
+> action-owned symbol `A`: its ranks `192,192,64,64` reduce the two-block
+> stabilizer and make `D_i tensor A` K444-compatible, but global sign symmetry
+> and minimum nonzero polynomial rank 64 still select no K598 rank-one packet.
+> The probes pass `25/25` controls and reject `41/41` hostile mutations. Next
+> enclose the 1,614 diagonal norms and, independently, supply action-owned
+> inhomogeneous carrier/Riesz data that break K607's residual symmetries.
+
 > **2026-09-28 K604--K605 DETERMINANT-KERNEL ATLAS AND FACTORWISE SELECTOR
 > OBSTRUCTION.** K604 compiles all 83,282 K603-surviving `N/A_F/B_F`
 > unordered products into 41,063 exact determinant-simplex classes: 1,161

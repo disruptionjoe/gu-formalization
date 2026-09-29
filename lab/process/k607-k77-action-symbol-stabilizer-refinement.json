@@ -1,0 +1,89 @@
+{
+  "K590_K605_reconciliation": {
+    "K438_physical_boundary_selected": false,
+    "K590_actual_homology_dimensions": [
+      0,
+      0,
+      0
+    ],
+    "K590_factorized_identity_completion_retracted": false,
+    "K598_actual_action_owned_initial_packet_constructed": false,
+    "K605_factorwise_identity_obstruction_retracted": false,
+    "K605_open_nontrivial_carrier_datum_tested": true,
+    "K605_prior_full_half_stabilizer_unbroken": true,
+    "action_symbol_reduces_two_block_stabilizer": true,
+    "action_symbol_selects_nonzero_rank_one_packet": false,
+    "action_symbol_selects_nonzero_vector_or_covector": false
+  },
+  "actual_action_symbol_replay": {
+    "action_and_constraint_determine_spectral_blocks": true,
+    "carrier_rank": 512,
+    "minimal_polynomial": "576 A^4 - 577 A^2 + P = 0",
+    "projector_is_polynomial_in_A": "J=(13823 A-13248 A^3)/575 with J^2=P",
+    "spectral_multiplicities": [
+      192,
+      192,
+      64,
+      64
+    ],
+    "spectral_values": [
+      "1",
+      "-1",
+      "1/24",
+      "-1/24"
+    ],
+    "zero_eigenvalue_absent": true
+  },
+  "claim_ceiling": "Exact test of the existing K438 action-owned nontrivial corrected-carrier symbol. It reduces K600's two-block stabilizer to four spectral blocks and yields compatible exact D_i tensor A candidates, but the generated algebra has minimum nonzero rank 64 and surviving global sign symmetry, so no vector, covector or rank-one K598 packet is selected. No full nonlinear BV/KT coupling, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion moves.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-28",
+  "decision": {
+    "K598_released": false,
+    "K605_missing_datum_narrowed": true,
+    "actual_K438_action_symbol_tested_against_K605": true,
+    "next_exact_input": "Supply an action-owned inhomogeneous vector/covector, a simple spectral block, or a field-to-carrier/Riesz map that breaks the surviving global sign and internal spectral multiplicities. Polynomials in K438's A, including K439's projector and D_i tensor p(A), cannot produce K598's rank-one initial packet.",
+    "nontrivial_carrier_action_is_not_sufficient_for_selection": true,
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "D1_tensor_A_square_passes": true,
+    "D2_tensor_A_square_passes": true,
+    "action_symbol_commutes_with_projector": true,
+    "lifted_nilpotence": true,
+    "sign_polynomial_equals_expected_projector_split": true,
+    "smallest_nonzero_polynomial_projector_rank": 2,
+    "spectral_projectors_sum_to_identity": true,
+    "toy_carrier_rank": 8,
+    "toy_spectral_block_ranks": [
+      2,
+      2,
+      2,
+      2
+    ]
+  },
+  "gu_typed_objects": {
+    "action_symbol": "A=P S_7 P with eigenvalues +1,-1,+1/24,-1/24 and multiplicities 192,192,64,64",
+    "base_complex": "K589's exact H^21 to Q^91 to M^70 coefficient complex",
+    "carrier": "K438 corrected Clifford carrier E of rank 512 inside the observed H640 carrier",
+    "projector": "K439 Pi_+=(I+sign(A))/2, with sign(A)=(13823 A-13248 A^3)/575",
+    "result": "action-symbol stabilizer refinement MAP-TYPE=spectral-algebra no-selector theorem",
+    "target": "K598 initial corrected-carrier vector/Riesz/rank-one packet and nonfactorized K444 coupling"
+  },
+  "result_id": "K607-K77-ACTION-SYMBOL-STABILIZER-REFINEMENT",
+  "schema_version": "1.0",
+  "scope": "Whether K438's already action-owned nontrivial corrected-carrier symbol A supplies the stabilizer-reducing datum left open by K605 and thereby selects K598 initial carrier vectors, covectors or a rank-one packet.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "A_lift_exactness": "A is invertible, so replacing I_E by A in both K590 arrows preserves nilpotence, ranks and exactness of the tensor-product base complex.",
+    "carrier_stabilizer_is_reduced": "A refines K600's two rank-256 halves into four spectral blocks of ranks 192,192,64,64.",
+    "factorwise_action_symbol_square": "For p(A) in R[A], D_i tensor p(A) satisfies K444 because p(A) commutes with Pi.",
+    "generated_algebra": "R[A] has the four spectral projectors as its idempotent basis; Pi is already a cubic polynomial in A and adds no new selector.",
+    "global_sign_symmetry_survives": "-I_E preserves the pairing, Pi and A, so every vector or covector natural from these homogeneous data is zero.",
+    "minimum_nonzero_rank_in_generated_algebra": 64,
+    "nonzero_rank_one_packet_in_generated_algebra": false,
+    "ownership_ceiling": "The canonical D_i tensor A candidate composes already owned blocks but is not a selected full nonlinear BV/KT coupling and does not supply K598's initial vectors or field-space Riesz return."
+  }
+}

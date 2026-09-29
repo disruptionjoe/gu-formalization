@@ -4,6 +4,17 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K606--K607 self-norm compression and action-symbol stabilizer
+
+- `channel-swings/k606_k500_self_norm_quadrature_compression.py` proves raw
+  determinant positivity and maps every K604 nonzero class to its two exact
+  diagonal self norms without expanding determinants.
+- `channel-swings/k607_k77_action_symbol_stabilizer_refinement.py` tests
+  K438's actual action symbol, its residual symmetry and its exact factorwise
+  K444-compatible lift.
+- The two `_probe.py` files pass 25 exact controls and reject 41 hostile
+  mutations while preserving every numerical and protected claim fence.
+
 ## K604--K605 determinant-kernel atlas and factorwise selector obstruction
 
 - `channel-swings/k604_k500_determinant_simplex_kernel_atlas.py` compiles
