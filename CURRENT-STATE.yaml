@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f06788686b2d
+revision_basis: 45d15e836f30
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K627--K628 sharpen the ambient-pairing result without manufacturing a
+    selector. K627 proves the full K626 block gauge has no nonzero invariant
+    symmetric form: scalar matrices already force every invariant block form
+    to vanish. Positive pairings therefore form the 41,216-dimensional
+    homogeneous space `GL(192)/O(192)` twice times `GL(64)/O(64)` twice, and
+    selecting one is extra orthogonal-reduction data. K625's `H_Sigma`
+    remains one valid canonical projector-induced point. K628 then tests
+    K622's exact stored row-basis domain map against every nondegenerate
+    restricted pairing. At GF(1009) and GF(1013), both fast induced
+    automorphisms and the slow-outgoing full-block transport have determinant
+    square unequal to one, so no change of positive Gram can make that
+    serialized witness isometric; the slow-incoming identity survives. This
+    does not test every member of K622's unselected domain-map family or
+    construct source/action ownership, a mixed Hessian, stationary background,
+    common BV/Green domain, or a protected scientific/public conclusion.
+
     K625--K626 resolve the ambient-pairing seam left by K623--K624 without
     inventing a physical selector. K625 proves that `H_Sigma=sum_i P_i^T P_i`
     gives one exact canonical realization of K441's factorized positive
@@ -11346,25 +11362,24 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the K77 route, K625 now constructs the missing canonical ambient bridge:
-  `H_Sigma=sum_i P_i^T P_i` orthogonalizes the four actual K438 eigenspaces,
-  so blockwise orthonormalization realizes K441's Euclidean factor model,
-  rational rotations, closed trace domain and Green conjugation on the actual
-  corrected carrier. K624 therefore obstructs the K622 seed orbit in this
-  canonical projector realization. K626 also proves why that result cannot be
-  universalized: K441 leaves an ambient-embedding gauge
-  `GL(192)xGL(192)xGL(64)xGL(64)`, and eight exact within-block shears preserve
-  its abstract four-root transport while changing both seeds' normalized
-  Gram-trace fingerprints at GF(1009) and GF(1013). Preserve K621's fixed-
-  domain full-commutant obstruction, K622's nonisometric abstract orbit and
-  K624's exact `H_Sigma` theorem. Reopen a broader pairing claim only with a
-  source/action-owned ambient embedding or Gram, or supply genuinely new,
-  independently action-owned data: a source-domain endomorphism or mixed-
-  Hessian odd adapter on a nonzero stationary moving background, followed by
-  its K441 Riesz return and common BV/Green domain before K596/K598. Do not
-  infer a successful orbit from gauge dependence, call an arbitrary embedding
-  action-selected, retract K614--K625, or replay the already banked
-  v0.163--v0.165 unrestricted southeast/ordinary-gauge BV route.
+  On the K77 route, K627 now proves that K441's full unselected
+  `GL(192)xGL(192)xGL(64)xGL(64)` ambient-embedding gauge has no nonzero
+  invariant symmetric form. Positive block Grams form a 41,216-dimensional
+  homogeneous space, so choosing one is additional orthogonal-reduction data;
+  K625's `H_Sigma` remains the canonical projector-induced point. K628 also
+  closes the cheapest same-witness repair: for K622's exact stored row-basis
+  domain map, the induced transports in both fast blocks and the slow-outgoing
+  block have determinant square unequal to one at GF(1009) and GF(1013),
+  excluding every nondegenerate restricted pairing for that witness. Preserve
+  K622's nonisometric abstract orbit and the untested alternative domain-map
+  family. Reopen a broader orbit only by solving that simultaneous-isometry
+  family or, more consequentially, by supplying a source/action-owned ambient
+  Gram, source-domain endomorphism or mixed-Hessian odd adapter on a nonzero
+  stationary moving background, followed by its K441 Riesz return and common
+  BV/Green domain before K596/K598. Do not universalize K628 beyond the
+  serialized map, call an arbitrary Gram action-selected, retract K614--K627,
+  or replay the already banked v0.163--v0.165 unrestricted southeast/ordinary-
+  gauge BV route.
 
   On the K500 route, K612 proves that K139's current matched-form proof record
   does not serialize enough quantitative custody to identify its existential
@@ -11848,24 +11863,25 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, K625 identifies `H_Sigma=sum_i P_i^T P_i` with one exact
-  canonical ambient realization of K441's factorized positive pairing by
-  blockwise spectral isometry. K624 therefore excludes a K622 commutant/domain
-  orbit in that canonical realization. K626 proves the full abstract K441
-  block model still leaves `GL(192)xGL(192)xGL(64)xGL(64)` ambient-embedding
-  gauge: eight exact block shears change the normalized Gram-trace fingerprints
-  while preserving the action, projectors and self-adjointness. Preserve
-  K621's fixed-domain full-commutant obstruction, K622's nonisometric abstract
-  orbit, K619's common rank-384 module and K620's polynomial obstruction.
-  Reopen a broader pairing verdict only with a source/action-owned ambient
-  embedding or Gram, or supply a genuinely new independently action-owned
-  source-domain endomorphism or mixed-Hessian odd adapter on a nonzero
-  stationary moving background, then prove its K441 Riesz return and common
-  BV/Green domain before K596/K598 and properness. Do not infer a successful
-  pairing-preserving orbit from gauge dependence, treat an arbitrary embedding
-  as action-selected, broaden K624 beyond `H_Sigma`, retract K614--K625 or
-  K613's central-parity ceiling, or replay the already banked v0.163--v0.165
-  unrestricted southeast/ordinary-gauge BV route. On the
+  On the K77 route, K627 proves that no nonzero symmetric form is invariant
+  under K626's full blockwise embedding gauge; selecting a positive Gram is a
+  41,216-parameter orthogonal reduction not supplied by K441. K625's
+  projector-induced `H_Sigma` remains exact. Preserve K621's fixed-domain
+  full-commutant obstruction, K619's common rank-384 module and K620's
+  polynomial obstruction. K628 proves that K622's specific
+  serialized row-basis domain map cannot be repaired merely by choosing
+  another nondegenerate Gram: both fast transports and the slow-outgoing
+  transport have determinant square unequal to one at both good
+  characteristics. Preserve K622's nonisometric abstract orbit and its
+  untested high-dimensional alternative domain-map family. The strongest
+  honest continuation is either a simultaneous-isometry classification of
+  that family or a genuinely new, independently action-owned source-domain
+  endomorphism or mixed-Hessian odd adapter on a nonzero stationary moving
+  background, followed by its K441 Riesz return and common BV/Green domain
+  before K596/K598 and properness. Do not universalize K628, treat arbitrary
+  pairing reduction as action ownership, retract K614--K627 or K613's central-
+  parity ceiling, or replay the already banked v0.163--v0.165 unrestricted
+  southeast/ordinary-gauge BV route. On the
   K500 route, K612 closes constant
   extraction from the present K139/K156 proof record: its chart constants and
   qualitative semibound do not include a quantitative complete cancelled-core

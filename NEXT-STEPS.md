@@ -7,6 +7,22 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K627--K628 PAIRING-GAUGE NONSELECTION AND SERIALIZED-MAP
+> OBSTRUCTION.** K627 proves that the full
+> `GL(192)xGL(192)xGL(64)xGL(64)` embedding gauge has no nonzero invariant
+> symmetric form: scalar block changes already force an invariant form to
+> vanish. Positive block Grams form a 41,216-dimensional homogeneous space,
+> so selecting one is extra orthogonal-reduction data; K625's `H_Sigma`
+> remains one valid projector-induced point. K628 tests K622's exact stored
+> row-basis domain map at both good characteristics. The two fast induced
+> automorphisms and slow-outgoing transport have determinant square unequal
+> to one, excluding every nondegenerate restricted pairing for that witness;
+> slow-incoming remains the identity. Next either classify the separate
+> high-dimensional alternative domain-map family or supply a source/action-
+> owned Gram or mixed-Hessian/domain adapter on a nonzero stationary moving
+> background. Do not universalize K628 or call an arbitrary pairing reduction
+> physical.
+
 > **2026-09-29 K625--K626 CANONICAL PAIRING REALIZATION AND EMBEDDING
 > GAUGE.** K625 closes the exact bridge left by K624: the projector form
 > `H_Sigma=sum_i P_i^T P_i` makes the four K438 eigenspaces mutually

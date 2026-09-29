@@ -7,6 +7,30 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K627--K628 pairing-gauge nonselection and serialized-map obstruction (2026-09-29)
+
+K627 closes the canonicity question left by K626 at the structural level. On
+every positive-rank block, invariance under all scalar matrices in `GL(n)`
+would require `lambda^2 H=H`; taking `lambda=2` forces `H=0`. Hence the full
+`GL(192)xGL(192)xGL(64)xGL(64)` gauge has no nonzero invariant symmetric
+form. Positive forms instead comprise
+`GL(192)/O(192)` twice times `GL(64)/O(64)` twice, with total real dimension
+41,216. Choosing one is a reduction to an orthogonal stabilizer. K625's
+`H_Sigma` remains a valid canonical projector-induced point, but K441 does not
+select it. K627's probe passes 21 controls and rejects 21 hostile mutations.
+
+K628 then tests K622's exact deterministic row-basis domain map without
+choosing a Gram. For an isometry `C^T H C=H` with nondegenerate restricted
+form, `det(C)^2=1` is necessary. At GF(1009), both fast induced transports have
+determinant 874 with square 63, while slow-outgoing has determinant 993 with
+square 256. At GF(1013), the corresponding values are 160 with square 275 and
+327 with square 564. All three blocks therefore obstruct every nondegenerate
+restricted pairing for this serialized map; slow-incoming is the identity at
+both primes. This excludes repair by changing only the positive Gram for that
+witness. It does not test every member of K622's unselected domain-map family
+or construct a source/action-owned Gram, stationary mixed Hessian, common
+BV/Green domain, source, ledger, canon, paper, public or physical conclusion.
+
 ## K625--K626 canonical pairing realization and embedding gauge (2026-09-29)
 
 K625 supplies the exact ambient bridge deliberately left open by K623--K624.
