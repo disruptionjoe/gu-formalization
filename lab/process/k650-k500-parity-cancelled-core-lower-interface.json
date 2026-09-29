@@ -1,0 +1,165 @@
+{
+  "cancelled_quadrant_theorem": {
+    "comparison_matrix": "Q_s,n=[[a_s,n,-kappa_s,n],[-kappa_s,n,d_s,n]]",
+    "complete_cancelled_quadrant_bounds_required": true,
+    "coupling_hypothesis": "|C_s,n[x,y]|<=rho_s,n sqrt(A_s,n[x]D_s,n[y])+kappa_s,n||x||||y||",
+    "decomposition": "q_s,n[x,y]=a_s,n||x||^2+d_s,n||y||^2+A_s,n[x]+D_s,n[y]+2 Re C_s,n[x,y]",
+    "nonnegative_parts": "A_s,n>=0 and D_s,n>=0 are complete cancelled-form remainders after the named diagonal floors are removed",
+    "nonnegative_relative_remainder": "A+D-2 rho sqrt(A D)>=0",
+    "relative_range": "0<=rho_s,n<=1",
+    "rho_equal_one_allowed": true,
+    "row_floor": "g_s,n=min(a_s,n-kappa_s,n,d_s,n-kappa_s,n)<=ell_s,n",
+    "same_domain_required": true,
+    "sector_floor": "ell_s,n=lambda_min(Q_s,n)",
+    "separately_singular_raw_channel_bounds_required": false
+  },
+  "claim_ceiling": "Exact cancellation-adapted lower theorem for the two complete quadrants inside each frozen K139/K168 total-parity form. After matched cancellation, two quadrant floors plus a relative complete-form coupling rho<=1 and residual Hilbert coupling kappa give the two-by-two comparison floor. This is an alternative sufficient route to K644's separately bounded raw rows, not a native numerical estimate. The actual quadrant floors, rho, kappa, independent tails, m, alpha and delta remain absent; no K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k650_k500_parity_cancelled_core_lower_interface_probe.py",
+    "producer": "tests/channel-swings/k650_k500_parity_cancelled_core_lower_interface.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "native_numeric_floor_emitted": false,
+    "next_exact_input": "On each actual K139/K168 parity sector, choose the two complete cancelled quadrant floors, prove rho<=1 and bound kappa on the same graph domain, then establish independent plus/minus uniform tails. Only afterward set m and certify alpha,delta.",
+    "parity_quantitative_route_repaired_to_preserve_cancellation": true
+  },
+  "dependency_reconciliation": {
+    "K612_custody_obstruction_retracted": false,
+    "K642_complete_graph_lower_theorem_consumed": true,
+    "K644_sufficient_block_theorem_retracted": false,
+    "K648_two_quadrant_parity_carriers_consumed": true,
+    "K649_matching_uniqueness_consumed": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": [
+    {
+      "certified_row_floor": "5/3",
+      "diagonal_floors": [
+        "2",
+        "3"
+      ],
+      "exact_psd_slack_determinant": "29/12",
+      "hilbert_residual_kappa": "1/3",
+      "name": "strict relative plus residual",
+      "nonnegative_form_coefficients": [
+        "1",
+        "1"
+      ],
+      "passes": true,
+      "relative_coupling_rho": "1/2"
+    },
+    {
+      "certified_row_floor": "-1",
+      "diagonal_floors": [
+        "-1",
+        "2"
+      ],
+      "exact_psd_slack_determinant": "3",
+      "hilbert_residual_kappa": "0",
+      "name": "endpoint relative coupling",
+      "nonnegative_form_coefficients": [
+        "1",
+        "1"
+      ],
+      "passes": true,
+      "relative_coupling_rho": "1"
+    }
+  ],
+  "gu_typed_objects": {
+    "carrier": "one K643 bath sector and one K648 total-parity sign, decomposed into its two three-channel spectator quadrants",
+    "cross_form": "the internal coupling between the two total-parity quadrants on the same form domain",
+    "diagonal_forms": "the two complete cancelled quadrant forms, not separately singular raw exchange factors",
+    "domain": "the common K649 matched cancellation graph domain after complete singular subtraction",
+    "result": "parity cancelled-core lower interface MAP-TYPE=relative-form Schur domination",
+    "target": "parity-sector floors and independent uniform tails consumable by K642/K646"
+  },
+  "ledger_no_change_reason": "This is an internal form theorem for a conditional cancellation graph and supplies no action-owned physical quotient, state, observable or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_cancelled_quadrant_floors_identified": false,
+    "actual_relative_coupling_constants_identified": false,
+    "actual_uniform_parity_tails_identified": false,
+    "cancellation_adapted_parity_lower_theorem_proved": true,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "native_quantitative_schema": {
+    "K642_composition": "min(1/2-alpha,m-delta-1/128)",
+    "finite_prefix_is_tail": false,
+    "global_boundary_floor": "m>=min(min_(n<=N,s)ell_s,n,t_plus,t_minus)",
+    "per_sign_inputs": [
+      "two complete cancelled-quadrant floors a_s,n and d_s,n",
+      "one relative cancelled-form constant rho_s,n<=1",
+      "one Hilbert residual cross constant kappa_s,n"
+    ],
+    "per_sign_output": "ell_s,n or the cheaper g_s,n",
+    "raw_rows_remain_valid_if_independently_same_domain_bounded": true,
+    "raw_twelve_plus_thirty_rows_mandatory_for_this_route": false,
+    "uniform_tail_rows": [
+      "inf_(n>N) ell_+,n>=t_plus",
+      "inf_(n>N) ell_-,n>=t_minus"
+    ]
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "If rho exceeds one, the relative cross term can overturn the nonnegative cancelled energies; if kappa is unbounded, the two-by-two comparison has no finite uniform tail.",
+    "strongest_overclaim": "Reporting the synthetic controls, the theorem's symbols, or rho<=1 without native proof as an actual K139/K168 floor.",
+    "weakest_reproducibility_seam": "The native complete cancelled quadrant forms and their constants are not serialized; this theorem fixes the admissible certificate shape only."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K642 treats one complete six-channel form and K644 treats bounded raw blocks; no prior artifact gives the two-quadrant relative-form route forced by K648/K649.",
+    "route_comparison": "K649 shows parity cannot justify separated singular rows. Estimating complete cancelled quadrants and their relative coupling is the cheapest theorem that preserves the native topology while retaining K648's internal coupling.",
+    "strongest_alternative": "A direct native complete-sector estimate would be stronger, but it must prove exactly the missing cancelled-form constants this interface now names."
+  },
+  "result_id": "K650-K500-PARITY-CANCELLED-CORE-LOWER-INTERFACE",
+  "route_comparison": {
+    "K644_route": "six raw blocks per sign with Hilbert-bounded off-diagonal rows, sufficient when those bounds are independently proved",
+    "K650_route": "two complete cancelled quadrants per sign with one relative-form and one residual coupling constant",
+    "advantage": "preserves K638/K649 cancellation before estimating and admits unbounded form couplings controlled relative to the cancelled diagonal energies",
+    "strictly_claimed_better_numerically": false
+  },
+  "schema_version": "1.0",
+  "scope": "A sufficient same-domain lower theorem for the two complete cancelled quadrants inside each K648 total-parity compression form, including their allowed internal coupling.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "uniform_tail_control": {
+    "all_rows_at_least_two": true,
+    "rows": [
+      {
+        "a": "19/9",
+        "d": "3",
+        "kappa": "1/10",
+        "n": 8,
+        "row_floor": "181/90"
+      },
+      {
+        "a": "67/33",
+        "d": "3",
+        "kappa": "1/34",
+        "n": 32,
+        "row_floor": "2245/1122"
+      },
+      {
+        "a": "259/129",
+        "d": "3",
+        "kappa": "1/130",
+        "n": 128,
+        "row_floor": "33541/16770"
+      },
+      {
+        "a": "1027/513",
+        "d": "3",
+        "kappa": "1/514",
+        "n": 512,
+        "row_floor": "527365/263682"
+      }
+    ],
+    "synthetic_not_native": true,
+    "uniform_tail_lower": "2"
+  }
+}

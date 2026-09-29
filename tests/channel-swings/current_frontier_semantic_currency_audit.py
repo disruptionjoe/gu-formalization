@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k649": json.loads((ROOT / "lab/process/k649-k500-parity-cancellation-matching.json").read_text()),
+        "k650": json.loads((ROOT / "lab/process/k650-k500-parity-cancelled-core-lower-interface.json").read_text()),
         "k647": json.loads((ROOT / "lab/process/k647-k500-common-domain-flavor-intertwiner.json").read_text()),
         "k648": json.loads((ROOT / "lab/process/k648-k500-native-parity-form-interface.json").read_text()),
         "k645": json.loads((ROOT / "lab/process/k645-k500-flavor-exchange-covariance.json").read_text()),
@@ -154,6 +156,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K648" in live and "product of channel swap and spectator swap" in live and
               "twelve" in live and "thirty" in live and "alpha,delta" in live,
               "live native parity-form interface or numerical handoff missing")
+        check("K649" in live and "unique identity" in live and "harmonic divergent" in live,
+              "live parity cancellation matching missing")
+        check("K650" in live and "a_s,n,d_s,n" in live and "rho_s,n<=1" in live and
+              "kappa_s,n" in live and "two-by-two comparison" in live,
+              "live cancelled-quadrant lower interface missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -163,8 +170,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K647--K648 close the native common-domain and total-parity form interface" in summary,
-          "current K647--K648 result lost")
+    check("K649--K650 close the parity-cancellation topology question" in summary,
+          "current K649--K650 result lost")
+    check("K647--K648 remain the direct predecessors" in summary,
+          "K647--K648 predecessor result lost")
     check("K645--K646 remain the direct predecessors" in summary,
           "K645--K646 predecessor result lost")
     check("K643--K644 remain the direct predecessors" in summary,
@@ -224,6 +233,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "harmonic divergent direction"
+        in data["agenda"].get("latest_result_2026_09_29_k649_k650", ""),
+        "agenda K649--K650 result is not current",
+    )
     check(
         "twelve parity-local diagonal-floor rows"
         in data["agenda"].get("latest_result_2026_09_29_k647_k648", ""),
@@ -343,6 +357,43 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         in data["agenda"].get("latest_result_2026_09_28_k606_k607", ""),
         "agenda K606--K607 result is not current",
     )
+
+    k649 = data["k649"]
+    k649_t = k649["parity_matching_theorem"]
+    k649_r = k649["quantitative_route_consequence"]
+    k649_n = k649["native_interface_status"]
+    check(k649_t["new_matching_condition"].endswith("Alpha=I_6") and
+          k649_t["each_mismatched_parity_component_has_harmonic_divergent_direction"] and
+          not k649_t["parity_change_makes_separate_singular_factors_bounded"] and
+          k649_t["complete_matched_combination_remains_the_valid_object"],
+          "K649 parity matching theorem moved")
+    check(not k649_r["K644_raw_row_route_disproved"] and
+          not k649_r["K644_raw_row_route_automatically_available_from_parity"] and
+          k649_r["cancellation_adapted_complete_parity_form_route_live"] and
+          k649_n["native_parity_cancellation_matching_proved"] and
+          not k649_n["native_global_m_identified"] and
+          not k649_n["K473_released"],
+          "K649 native interface ceiling moved")
+
+    k650 = data["k650"]
+    k650_t = k650["cancelled_quadrant_theorem"]
+    k650_q = k650["native_quantitative_schema"]
+    k650_n = k650["native_interface_status"]
+    check(k650_t["relative_range"] == "0<=rho_s,n<=1" and
+          k650_t["rho_equal_one_allowed"] and
+          not k650_t["separately_singular_raw_channel_bounds_required"] and
+          k650_t["complete_cancelled_quadrant_bounds_required"] and
+          k650_t["same_domain_required"],
+          "K650 cancelled-quadrant theorem moved")
+    check(len(k650_q["uniform_tail_rows"]) == 2 and
+          not k650_q["finite_prefix_is_tail"] and
+          not k650_q["raw_twelve_plus_thirty_rows_mandatory_for_this_route"] and
+          k650_q["raw_rows_remain_valid_if_independently_same_domain_bounded"] and
+          k650_n["cancellation_adapted_parity_lower_theorem_proved"] and
+          not k650_n["actual_cancelled_quadrant_floors_identified"] and
+          not k650_n["native_global_m_identified"] and
+          not k650_n["K473_released"],
+          "K650 native interface ceiling moved")
 
     k647 = data["k647"]
     k647_t = k647["intertwiner_theorem"]
@@ -1089,6 +1140,17 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k648-couplings", lambda d: d["k648"]["quantitative_certificate_schema"].__setitem__("required_coupling_rows", "none"))
     add("k648-tail", lambda d: d["k648"]["quantitative_certificate_schema"].__setitem__("finite_prefix_is_tail", True))
     add("k648-floor", lambda d: d["k648"]["native_interface_status"].__setitem__("native_global_m_identified", True))
+
+    add("k649-matching", lambda d: d["k649"]["parity_matching_theorem"].__setitem__("new_matching_condition", "unknown"))
+    add("k649-divergence", lambda d: d["k649"]["parity_matching_theorem"].__setitem__("each_mismatched_parity_component_has_harmonic_divergent_direction", False))
+    add("k649-bounded", lambda d: d["k649"]["parity_matching_theorem"].__setitem__("parity_change_makes_separate_singular_factors_bounded", True))
+    add("k649-raw-route", lambda d: d["k649"]["quantitative_route_consequence"].__setitem__("K644_raw_row_route_automatically_available_from_parity", True))
+    add("k649-floor", lambda d: d["k649"]["native_interface_status"].__setitem__("native_global_m_identified", True))
+    add("k650-rho", lambda d: d["k650"]["cancelled_quadrant_theorem"].__setitem__("relative_range", "rho>1"))
+    add("k650-raw", lambda d: d["k650"]["cancelled_quadrant_theorem"].__setitem__("separately_singular_raw_channel_bounds_required", True))
+    add("k650-domain", lambda d: d["k650"]["cancelled_quadrant_theorem"].__setitem__("same_domain_required", False))
+    add("k650-tail", lambda d: d["k650"]["native_quantitative_schema"].__setitem__("finite_prefix_is_tail", True))
+    add("k650-floor", lambda d: d["k650"]["native_interface_status"].__setitem__("native_global_m_identified", True))
 
     add("k645-term-count", lambda d: d["k645"]["complete_family_replay"].__setitem__("terms", 2957))
     add("k645-orbits", lambda d: d["k645"]["complete_family_replay"].__setitem__("two_element_orbits", 1478))

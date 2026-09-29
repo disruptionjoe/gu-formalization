@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e1b6f1c88c5b
+revision_basis: d9a41f5cf6a5
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,7 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K647--K648 close the native common-domain and total-parity form interface
+    K649--K650 close the parity-cancellation topology question and construct a
+    cancellation-adapted parity lower interface without moving a protected
+    claim. K649 transports K638's unique vector matching through K648's exact
+    channel-parity basis. Identity subtraction remains identity on both total-
+    parity carriers, and every nonidentity matching retains a harmonic
+    divergent coefficient direction. Parity therefore does not make the
+    separated singular channel factors Hilbert bounded or automatically
+    provide K644's twelve diagonal and thirty coupling rows. K650 instead
+    works after complete matched cancellation. For the two quadrants inside
+    one total-parity sector, complete cancelled-quadrant floors `a_s,n,d_s,n`,
+    relative form coupling `rho_s,n<=1` and residual Hilbert coupling
+    `kappa_s,n` give the exact two-by-two comparison floor
+    `lambda_min([[a_s,n,-kappa_s,n],[-kappa_s,n,d_s,n]])`. The native
+    quadrant constants, independent tails `t_plus,t_minus`, `m`, `alpha` and
+    `delta` remain absent. No native complete-sector floor, K473 beta, K152
+    interval, source, ledger, canon, paper, public or physical conclusion
+    moves.
+
+    K647--K648 remain the direct predecessors and close the native common-domain and total-parity form interface
     for the frozen equal-coupling K139/K168 model without moving a protected
     claim. K647 proves that `JG=GJ` propagates through `U=I-G`, `S=U^-1`, the
     physical Gram `M=S*S`, the regular pullbacks and the recursive domain
@@ -11557,10 +11575,18 @@ current_question: >-
   and the same-form identity reduces there. K648 serializes both native total-
   parity forms. Because total parity is channel swap times spectator swap,
   each sign retains two three-channel spectator quadrants and their allowed
-  coupling. Next derive the twelve parity-local diagonal floors and thirty
-  parity-local coupling majorants on the actual form, prove independent
-  uniform tails `t_plus,t_minus`, and certify the same-domain remainder
-  constants `alpha,delta`.
+  coupling. K649 now proves that K638's unique identity matching survives the
+  exact parity basis and both total-parity carriers; every nonidentity
+  matching retains a harmonic divergent direction, so parity does not make
+  separated singular channel factors Hilbert bounded. K650 replaces that
+  unjustified shortcut with a lower interface on the already-cancelled graph.
+  In each total-parity sign, prove complete cancelled-quadrant floors
+  `a_s,n,d_s,n`, relative form coupling `rho_s,n<=1`, and residual Hilbert
+  coupling `kappa_s,n` on the same domain. Their two-by-two comparison floor
+  supplies the sector lower. Then prove independent uniform tails
+  `t_plus,t_minus` and certify the same-domain remainder constants
+  `alpha,delta`. The raw K644 twelve-plus-thirty route remains valid only if
+  its separated factors are independently proved same-domain bounded.
   K612's custody
   gap remains. Do not collapse spectator Fock
   space to `C^6`, call algebraic labels physical ranges, import K168's
@@ -12082,11 +12108,19 @@ next_condition: >-
   model, including `D_K139=S Dom(H0)` and the same-form identity. K648
   serializes the two native total-parity forms as the product of channel swap
   and spectator swap; each sign retains two three-channel spectator quadrants
-  and their internal couplings. Derive the twelve parity-local diagonal-floor
-  rows and thirty parity-local coupling majorants on the actual form, prove
-  independent uniform tails `t_plus,t_minus`, then certify `alpha,delta`;
-  this numerical packet, not a scalar three-channel substitution or finite
-  prefix minimum, is the next input.
+  and their internal couplings. K649 now proves that K638's unique identity
+  matching survives this exact parity change of basis: every nonidentity
+  subtraction retains a harmonic divergent direction, so parity alone does
+  not make the twelve raw diagonal and thirty raw coupling rows available.
+  K650 gives the cancellation-adapted alternative. On each actual parity
+  sector, bound the two complete cancelled quadrants by `a_s,n,d_s,n`, prove
+  the same-domain relative coupling `rho_s,n<=1`, bound the residual cross
+  constant `kappa_s,n`, and establish independent tails `t_plus,t_minus`.
+  Their two-by-two comparison floors then determine `m`; only afterward
+  certify `alpha,delta`. The raw K644 rows remain a valid sufficient route if
+  their same-domain boundedness is independently proved. Neither route may
+  split the singular exchange factors before cancellation, substitute a
+  scalar three-channel model or treat a finite prefix as a tail.
   K612's cancelled-core custody gap remains, so neither `m=-2` nor
   `-257/128` is a native complete-sector floor. Retain K609's complete leakage-square upper
   below 1/3 and the `25/9` target, but combine them only after an independently

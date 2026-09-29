@@ -7,6 +7,22 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K649--K650 PARITY CANCELLATION MATCHING AND CANCELLED-CORE
+> LOWER INTERFACE.** K649 transports K638's unique matched vector subtraction
+> through K648's exact channel-parity basis and total-parity carriers. Identity
+> matching remains identity, while every nonidentity matching retains a
+> harmonic divergent coefficient direction. Parity therefore does not make
+> separated singular channel factors Hilbert bounded or automatically supply
+> K644's twelve diagonal and thirty coupling rows. K650 gives the valid
+> alternative on the already-cancelled graph: for each total-parity sign, two
+> complete cancelled-quadrant floors `a_s,n,d_s,n`, relative form coupling
+> `rho_s,n<=1` and residual Hilbert coupling `kappa_s,n` give a two-by-two
+> comparison floor. Next derive those native same-domain constants and
+> independent tails `t_plus,t_minus`, then set `m` and certify `alpha,delta`.
+> The K644 raw-row route remains sufficient if its same-domain boundedness is
+> independently proved. No native numerical floor, K473 beta, K152 interval,
+> source, ledger or physical conclusion moves.
+
 > **2026-09-29 K647--K648 NATIVE COMMON DOMAIN AND TOTAL-PARITY FORM
 > INTERFACE.** K647 closes K646's remaining domain hypothesis for the frozen
 > equal-coupling K139/K168 model. From `JG=GJ`, the chart `U=I-G`, inverse

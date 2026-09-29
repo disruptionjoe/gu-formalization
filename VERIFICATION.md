@@ -7,6 +7,29 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K649--K650 parity cancellation and cancelled-core lower interface (2026-09-29)
+
+K649 composes K638's unique vector matching with K648's exact parity basis.
+The unnormalised parity transform has rank six, inverse one-half its transpose,
+and conjugates identity subtraction to identity on both three-coordinate
+channel-parity blocks. Tensoring with spectator parity preserves that result
+on both total-parity carriers. Every nonidentity subtraction remains
+nonidentity and retains a harmonic divergent coefficient direction. The probe
+passes 30 exact controls and rejects 25 hostile mutations. This does not
+retract K644's sufficient block theorem; it proves only that parity rotation
+does not itself establish the separately singular Hilbert-block bounds.
+
+K650 supplies a same-domain alternative after complete matched cancellation.
+Write one total-parity sector as two complete cancelled quadrants with floors
+`a_s,n,d_s,n`, nonnegative shifted forms `A_s,n,D_s,n`, and cross form bounded
+by `rho_s,n sqrt(A_s,n D_s,n)+kappa_s,n||x||||y||`, where `rho_s,n<=1`.
+The relative part is nonnegative after a two-term square estimate, leaving the
+comparison matrix `[[a_s,n,-kappa_s,n],[-kappa_s,n,d_s,n]]`. Its least
+eigenvalue is a sector floor. The probe passes 32 exact controls and rejects
+26 hostile mutations. The controls are synthetic: actual cancelled-quadrant
+floors, `rho`, `kappa`, plus/minus tails, `m`, `alpha` and `delta` remain open,
+so no K473 release or K152 interval follows.
+
 ## K647--K648 common domain and native parity-form interface (2026-09-29)
 
 K647 composes K139's recursive chart with K645's exact flavor involution. The

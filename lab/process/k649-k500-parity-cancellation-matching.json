@@ -1,0 +1,107 @@
+{
+  "claim_ceiling": "Exact basis-covariant cancellation theorem for the frozen K139/K168/K648 interface. K638's unique identity subtraction remains the identity in the K648 parity basis and on both total-parity carriers; every mismatched parity component retains a harmonic divergent direction. Parity therefore does not make separated singular channel factors bounded or supply K644's numerical rows. The complete matched parity forms remain live, but their floors, relative coupling, tails, m, alpha and delta remain absent; no K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k649_k500_parity_cancellation_matching_probe.py",
+    "producer": "tests/channel-swings/k649_k500_parity_cancellation_matching.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "independent_raw_row_extraction_not_authorized": true,
+    "next_exact_input": "Bound the two complete cancelled quadrants inside each total-parity form and their internal relative form coupling on the same graph domain; then prove parity-specific uniform tails before setting m.",
+    "parity_does_not_remove_the_cancellation_domain_obligation": true
+  },
+  "dependency_reconciliation": {
+    "K612_quantitative_custody_obstruction_retracted": false,
+    "K638_matching_uniqueness_preserved": true,
+    "K644_sufficient_Hilbert_block_theorem_retracted": false,
+    "K648_total_parity_forms_preserved": true
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "T_T_transpose_equals_2I": true,
+    "cross_parity_matching_blocks_zero": true,
+    "dimension": 6,
+    "identity_matching_is_basis_invariant": true,
+    "inverse_is_half_transpose": true,
+    "mismatched_divergent_direction_exists": true,
+    "nonidentity_matching_remains_nonidentity": true,
+    "parity_minus_block_identity": true,
+    "parity_plus_block_identity": true,
+    "partial_witnesses": [
+      {
+        "cutoff": 8,
+        "harmonic_partial": "4521481779176569/147219359273826840",
+        "mismatched_residual_nonzero": true
+      },
+      {
+        "cutoff": 32,
+        "harmonic_partial": "316228668503658149558319851032828760202422066293669/2689790348624282857810601881317453768917991015045600",
+        "mismatched_residual_nonzero": true
+      },
+      {
+        "cutoff": 128,
+        "harmonic_partial": "418153919630554378727658467351306160529919508126584927868133308982745876647684722085507456700593851039944767287499476890609094456722240118823/1032951235131012943663081602713853923897497901922874101507515842051058698739166752794425700241049520843711178305024756923297394130222637168000",
+        "mismatched_residual_nonzero": true
+      }
+    ],
+    "transform_rank": 6
+  },
+  "gu_typed_objects": {
+    "ambient_carrier": "ell2(N) tensor C^6 tensor H_spec",
+    "basis": "K648 channel-even/channel-odd basis combined with spectator flavor parity",
+    "cancellation_domain": "(D_a tensor C^6 tensor H_spec) direct sum (h tensor C^6 tensor H_spec)",
+    "renormalized_trace": "the K638 matched vector trace after the exact invertible parity change of coordinate",
+    "result": "parity cancellation matching MAP-TYPE=basis-covariant graph identity",
+    "target": "the admissible quantitative decomposition of the K648 parity compression forms"
+  },
+  "ledger_no_change_reason": "This is a basis-covariant cancellation-domain theorem inside the conditional K139/K168 control and supplies no physical state, observable or source-owned mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_parity_block_floors_identified": false,
+    "actual_uniform_parity_tails_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_parity_cancellation_matching_proved": true,
+    "native_remainder_alpha_delta_identified": false,
+    "separated_singular_channel_bounds_identified": false
+  },
+  "parity_matching_theorem": {
+    "basis_change": "T Alpha T^-1 on the K648 even/odd channel coordinate",
+    "complete_matched_combination_remains_the_valid_object": true,
+    "cross_total_parity_subtraction_required": false,
+    "each_mismatched_parity_component_has_harmonic_divergent_direction": true,
+    "minus_coordinate_matching": "I_3 on channel-even tensor spectator-minus and I_3 on channel-odd tensor spectator-plus",
+    "new_matching_condition": "T Alpha T^-1=I_6 iff Alpha=I_6",
+    "old_matching_condition": "Alpha=I_6 on the K639 quotient coordinate",
+    "parity_change_makes_separate_singular_factors_bounded": false,
+    "plus_coordinate_matching": "I_3 on channel-even tensor spectator-plus and I_3 on channel-odd tensor spectator-minus",
+    "total_parity_extension": "tensoring with the spectator involution preserves identity matching on both total-parity carriers"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Conjugating any nonidentity subtraction matrix by the exact parity transform leaves it nonidentity and therefore leaves a harmonic divergent coefficient direction.",
+    "strongest_overclaim": "Saying parity compression makes every raw channel block Hilbert bounded or supplies a numerical floor.",
+    "weakest_reproducibility_seam": "The theorem fixes cancellation topology, not the complete native cancelled-core coefficients or their lower constants."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K638 proves matching uniqueness before parity reduction and K648 serializes parity carriers, but no prior artifact composes the two or tests the separated-row shortcut.",
+    "route_comparison": "Before attempting forty-two native scalar rows, test whether the K648 parity basis changes K638's unique subtraction topology; exact conjugation is cheaper and decides that prerequisite.",
+    "strongest_alternative": "Direct native constants would be stronger, but K612 shows they are not in current custody and K638 forbids estimating separated singular factors without a new same-domain proof."
+  },
+  "quantitative_route_consequence": {
+    "K644_raw_row_route_automatically_available_from_parity": false,
+    "K644_raw_row_route_disproved": false,
+    "basis_rotation_alone_supplies_numeric_rows": false,
+    "cancellation_adapted_complete_parity_form_route_live": true,
+    "separate_channel_Hilbert_bounds_require_new_proof": true,
+    "twelve_diagonal_and_thirty_coupling_rows_may_be_used_only_after_same_domain_boundedness_is_proved": true
+  },
+  "result_id": "K649-K500-PARITY-CANCELLATION-MATCHING",
+  "schema_version": "1.0",
+  "scope": "K638's matched six-coordinate cancellation graph transported through K648's exact channel-parity basis and total-parity quadrant decomposition.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
