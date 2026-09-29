@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k645": json.loads((ROOT / "lab/process/k645-k500-flavor-exchange-covariance.json").read_text()),
+        "k646": json.loads((ROOT / "lab/process/k646-k500-parity-sector-lower-reduction.json").read_text()),
         "k643": json.loads((ROOT / "lab/process/k643-k500-bath-sector-boundary-reduction.json").read_text()),
         "k644": json.loads((ROOT / "lab/process/k644-k500-operator-block-lower-certificate.json").read_text()),
         "k641": json.loads((ROOT / "lab/process/k641-k500-spectator-boundary-type-audit.json").read_text()),
@@ -138,7 +140,14 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K500 bath-sector lower reduction missing")
         check("K644" in live and "lambda_min(C_n)" in live and "fifteen" in live,
               "K500 operator-block comparison certificate missing")
-        check("native K139/K168 sectorwise intertwiner" in live and "alpha,delta" in live,
+        check("K645" in live and "2,958" in live and "1,479" in live and
+              "516" in live and "output-wedge" in live,
+              "K500 exact flavor covariance missing")
+        check("K646" in live and "m_n=min(m_n^+,m_n^-)" in live and
+              "m=min(inf_n m_n^+,inf_n m_n^-)" in live,
+              "K500 parity lower reduction missing")
+        check("native K139/K168 sectorwise intertwiner" in live and
+              "J invariant" in live and "parity" in live and "alpha,delta" in live,
               "live operator-form identification route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
@@ -149,7 +158,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K643--K644 reduce K642's missing operator lower constant" in summary,
+    check("K645--K646 expose and use the exact discrete symmetry" in summary,
+          "current K645--K646 result lost")
+    check("K643--K644 remain the direct predecessors" in summary,
           "current K643--K644 result lost")
     check("K641--K642 remain the direct predecessors" in summary,
           "current K641--K642 result lost")
@@ -206,6 +217,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "1,479 two-element orbits"
+        in data["agenda"].get("latest_result_2026_09_29_k645_k646", ""),
+        "agenda K645--K646 result is not current",
+    )
     check(
         "global lower m=inf_n m_n"
         in data["agenda"].get("latest_result_2026_09_29_k643_k644", ""),
@@ -315,6 +331,53 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         in data["agenda"].get("latest_result_2026_09_28_k606_k607", ""),
         "agenda K606--K607 result is not current",
     )
+
+    k645 = data["k645"]
+    k645_r = k645["complete_family_replay"]
+    k645_t = k645["finite_order_theorem"]
+    k645_l = k645["limit_interface"]
+    k645_n = k645["native_interface_status"]
+    check(k645_r["terms"] == 2958 and
+          k645_r["two_element_orbits"] == 1479 and
+          k645_r["fixed_terms"] == 0 and
+          k645_r["output_wedge_phase_counts"] == {"-1": 516, "1": 2442} and
+          k645_r["swap_is_involutive"] and
+          k645_r["all_partners_present"] and
+          k645_r["CAR_coefficients_transform_by_output_wedge_phase"] and
+          k645_r["naive_sign_preservation_is_false"],
+          "K645 exact family covariance moved")
+    check("every finite N" in k645_t["operator_identity"] and
+          "commutes with total bath number" in k645_t["bath_number_compatibility"],
+          "K645 finite-order or sector theorem moved")
+    check(not k645_l["physical_flavor_symmetry_claimed"] and
+          not k645_l["source_selected_family_interpretation_claimed"] and
+          k645_n["equal_coupling_coefficient_covariance_proved"] and
+          not k645_n["full_native_K139_K168_to_K642_form_identity_proved"] and
+          not k645_n["native_global_m_identified"] and
+          not k645_n["K473_released"],
+          "K645 native interface ceiling moved")
+
+    k646 = data["k646"]
+    k646_t = k646["parity_reduction_theorem"]
+    k646_c = k646["K644_composition"]
+    k646_n = k646["native_interface_status"]
+    check(k646_t["sector_floor"] == "m_n=min(m_n^+,m_n^-)" and
+          k646_t["global_floor"] == "m=min(inf_n m_n^+,inf_n m_n^-)" and
+          k646_t["cross_parity_identity"] == "b_n[P_n^+x,P_n^-y]=0" and
+          "does not identify" in k646_t["no_scalar_matrix_reduction"],
+          "K646 parity reduction theorem moved")
+    check("independent uniform parity tails" in k646_c["global_output"] and
+          k646_c["K642_base_floor"] == "min(1/2,m-1/128)" and
+          k646_c["K642_controlled_floor"] == "min(1/2-alpha,m-delta-1/128)",
+          "K646 K644/K642 composition moved")
+    check(k646_n["cross_parity_blocks_eliminated_under_invariant_domain_hypothesis"] and
+          not k646_n["actual_K139_K168_common_domain_identity_proved"] and
+          not k646_n["actual_parity_compression_forms_identified"] and
+          not k646_n["actual_parity_floors_identified"] and
+          not k646_n["actual_uniform_parity_tails_identified"] and
+          not k646_n["native_global_m_identified"] and
+          not k646_n["K473_released"],
+          "K646 native interface ceiling moved")
 
     k643 = data["k643"]
     k643_r = k643["native_replay"]
@@ -964,6 +1027,17 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k645-term-count", lambda d: d["k645"]["complete_family_replay"].__setitem__("terms", 2957))
+    add("k645-orbits", lambda d: d["k645"]["complete_family_replay"].__setitem__("two_element_orbits", 1478))
+    add("k645-phase", lambda d: d["k645"]["complete_family_replay"]["output_wedge_phase_counts"].__setitem__("-1", 0))
+    add("k645-naive", lambda d: d["k645"]["complete_family_replay"].__setitem__("naive_sign_preservation_is_false", False))
+    add("k645-native", lambda d: d["k645"]["native_interface_status"].__setitem__("native_global_m_identified", True))
+    add("k646-sector", lambda d: d["k646"]["parity_reduction_theorem"].__setitem__("sector_floor", "m_n=m_n^+"))
+    add("k646-global", lambda d: d["k646"]["parity_reduction_theorem"].__setitem__("global_floor", "m=inf_n m_n^+"))
+    add("k646-cross", lambda d: d["k646"]["parity_reduction_theorem"].__setitem__("cross_parity_identity", "unknown"))
+    add("k646-domain", lambda d: d["k646"]["native_interface_status"].__setitem__("actual_K139_K168_common_domain_identity_proved", True))
+    add("k646-floor", lambda d: d["k646"]["native_interface_status"].__setitem__("native_global_m_identified", True))
 
     add("k643-term-count", lambda d: d["k643"]["native_replay"].__setitem__("term_count", 2957))
     add("k643-number", lambda d: d["k643"]["native_replay"].__setitem__("total_bath_number_preserved_by_every_exchange_monomial", False))

@@ -7,6 +7,23 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K645--K646 FLAVOR COVARIANCE AND PARITY-SECTOR LOWER
+> REDUCTION.** K645 proves the exact flavor-exchange covariance of K179's
+> frozen equal-coupling family. Its 2,958 terms form 1,479 two-element
+> orbits; 516 terms acquire a negative output-wedge phase, so a label-only
+> coefficient comparison would be false. The covariance holds at every
+> finite order and commutes with bath number. K646 then proves, conditionally
+> on a J-invariant native common form domain, that every bath-sector form
+> splits into total-flavor parity compressions, with
+> `m_n=min(m_n^+,m_n^-)` and
+> `m=min(inf_n m_n^+,inf_n m_n^-)`. K644's comparison certificates and the
+> uniform-tail obligation may therefore be discharged paritywise. Next build
+> the actual K139/K168 sectorwise intertwiner, prove the common domain is J
+> invariant, serialize both native parity forms, and certify their block
+> floors, independent uniform tails and remainder constants `alpha,delta`.
+> This is not a scalar three-channel reduction, a physical-family symmetry,
+> or a native numerical floor.
+
 > **2026-09-29 K643--K644 BATH-SECTOR REDUCTION AND OPERATOR-BLOCK LOWER
 > CERTIFICATE.** K643 replays K179's complete 2,958-term family and proves
 > every matched exchange monomial preserves total bath number. A future closed

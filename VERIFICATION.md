@@ -7,6 +7,29 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K645--K646 flavor covariance and parity lower reduction (2026-09-29)
+
+K645 replays the complete 2,958-term K179 family under exchange of flavor
+labels one and two. Every term belongs to one of 1,479 two-element orbits.
+The analytic kernel bodies are invariant, while 516 terms require a negative
+fermionic output-wedge phase; incorporating that exact CAR phase makes the
+coefficients covariant. The hard-core word automaton gives the same identity
+at every finite order, and the involution commutes with bath number. The probe
+passes 31 exact controls and rejects 25 hostile mutations. An order-fourteen
+control checks 7,182 terms and 3,591 orbits but does not extend the serialized
+native family beyond K179.
+
+K646 proves the conditional lower-form consequence. On a J-invariant common
+form domain each K643 bath sector splits orthogonally into total-flavor even
+and odd compressions. Its lower is `m_n=min(m_n^+,m_n^-)`, and the global
+lower is `m=min(inf_n m_n^+,inf_n m_n^-)`. K644's comparison theorem and
+uniform tails may be applied separately in the two parity sectors. A rational
+synthetic control has plus, minus and global row lowers `9/2`, `7/4` and
+`7/4`; it is not native data. The probe passes 30 exact controls and rejects
+25 hostile mutations. The native K139/K168 same-form identity, J-invariant
+domain, parity forms, block floors, tails, `m`, `alpha` and `delta` remain
+open, so no K473 release or K152 interval follows.
+
 ## K643--K644 bath-sector and operator-block lower certificates (2026-09-29)
 
 K643 replays the complete 2,958-term K179 family. Every normal-order exchange

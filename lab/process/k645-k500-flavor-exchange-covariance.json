@@ -1,0 +1,117 @@
+{
+  "claim_ceiling": "Exact flavor-exchange covariance for the frozen equal-coupling K179 family. All 2,958 serialized terms form 1,479 two-element swap orbits; 516 terms require a negative output-wedge phase, so naive coefficient matching is false. The hard-core automaton and flavor-blind kernels give the same covariance at every finite order, and the symmetric K139 cutoff/K168 limit interface reduces over total flavor parity once the missing native same-form identity is supplied. This is not physical family selection and supplies no parity floor, uniform tail, m, alpha, delta, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_replay": {
+    "CAR_coefficients_transform_by_output_wedge_phase": true,
+    "all_partners_present": true,
+    "analytic_kernel_bodies_invariant": true,
+    "family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "fixed_terms": 0,
+    "monomial_orbit_counts": {
+      "W_ex[h1,h1] <-> W_ex[h2,h2]": 579,
+      "W_ex[p1,p1] <-> W_ex[p2,p2]": 450,
+      "W_ex[p1,p2] <-> W_ex[p2,p1]": 450
+    },
+    "naive_sign_preservation_is_false": true,
+    "orbits_by_order": {
+      "10": 240,
+      "11": 320,
+      "12": 576,
+      "2": 3,
+      "3": 4,
+      "4": 12,
+      "5": 16,
+      "6": 36,
+      "7": 48,
+      "8": 96,
+      "9": 128
+    },
+    "orders": [
+      2,
+      12
+    ],
+    "output_wedge_phase_counts": {
+      "-1": 516,
+      "1": 2442
+    },
+    "swap_is_involutive": true,
+    "terms": 2958,
+    "two_element_orbits": 1479
+  },
+  "controls": {
+    "controls_passed": 31,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k645_k500_flavor_exchange_covariance_probe.py",
+    "producer": "tests/channel-swings/k645_k500_flavor_exchange_covariance.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "flavor_swap_is_exact_operator_symmetry_for_frozen_equal_coupling_family": true,
+    "naive_term_sign_matching_rejected": true,
+    "next_exact_input": "Use the J-invariant common domain to split each K643 bath sector into total flavor parity, identify the actual K139/K168 form on those compressions, and certify parity-local block floors and uniform tails before setting m=min(m_plus,m_minus)."
+  },
+  "direction": "observed_to_native",
+  "extended_controls": {
+    "all_controls_pass": true,
+    "control_extends_serialized_family_truth": false,
+    "maximum_order": 14,
+    "terms_checked": 7182,
+    "two_element_orbits": 3591
+  },
+  "finite_order_theorem": {
+    "automaton_equivariance": "0<->i hard-core words and their matched older-letter contractions are carried bijectively by 1<->2 at every finite order",
+    "bath_number_compatibility": "J commutes with total bath number, so the covariance restricts to every K643 sector",
+    "coefficient_identity": "c(swap(term))=epsilon_out(term)c(term), where epsilon_out is the exact output-wedge permutation phase",
+    "fermionic_phase": "the canonical exterior basis acquires the sign of the induced permutation on occupied impurity and bath orbitals",
+    "kernel_equivariance": "the cumulative resolvent denominators and momentum-variable incidence are flavor blind at equal couplings",
+    "monomial_orbits": [
+      "W_ex[h1,h1]<->W_ex[h2,h2]",
+      "W_ex[p1,p1]<->W_ex[p2,p2]",
+      "W_ex[p1,p2]<->W_ex[p2,p1]"
+    ],
+    "operator_identity": "J W_ex^(<=N) J=W_ex^(<=N) for every finite N in the equal-coupling family"
+  },
+  "gu_typed_objects": {
+    "carrier": "hard-core C3 impurity tensor Gamma_-(L2(R;C4)) with the two impurity and four signed bath species exchanged flavorwise",
+    "form": "the equal-coupling K179 matched normal-order exchange family and flavor-symmetric K168 reference extension",
+    "involution": "the second-quantized unitary flavor permutation J with J^2=I",
+    "pairing": "the normalized CAR exterior Hilbert pairing in the fixed global orbital order",
+    "result": "flavor-exchange covariance MAP-TYPE=unitary term-orbit intertwiner",
+    "target": "a symmetry reduction of K643/K644's sector-local operator-valued lower problem"
+  },
+  "ledger_no_change_reason": "This is an internal symmetry of a repository-supplied equal-coupling conditional model; it neither identifies physical families nor supplies an action-owned state or observable.",
+  "limit_interface": {
+    "K168_rule": "diag(-2,1,1) commutes with interchange of impurity labels one and two",
+    "conditional_complete_form_consequence": "the frozen equal-coupling K139/K168 reference form has a J-invariant closed domain and reduces over J parity, provided the native same-form identification required by K642/K644 is made on that domain",
+    "cutoff_rule": "equal flavor couplings, matched profiles, flavor-blind free energy and the doubled symmetric endpoint counterterm make every K139 cutoff commute with J",
+    "norm_resolvent_rule": "a norm-resolvent limit of self-adjoint J-commuting cutoffs commutes with bounded J",
+    "physical_flavor_symmetry_claimed": false,
+    "source_selected_family_interpretation_claimed": false
+  },
+  "native_interface_status": {
+    "K473_released": false,
+    "K643_sector_compatibility_proved": true,
+    "equal_coupling_coefficient_covariance_proved": true,
+    "full_native_K139_K168_to_K642_form_identity_proved": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_parity_floors_identified": false,
+    "native_uniform_tail_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Five hundred sixteen serialized terms change coefficient sign under the swap because the canonical exterior basis reorders; a label-only coefficient comparison gives the wrong covariance test.",
+    "strongest_overclaim": "Calling conditional equal-coupling flavor covariance a physical family symmetry, a source-selected observation, or a numerical lower bound.",
+    "weakest_reproducibility_seam": "The exact replay covers the serialized orders two through twelve; the all-finite-order statement uses the unchanged automaton and equal-coupling kernel formula, while native use still needs the complete common-domain form identity."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K168 declares flavor symmetry and K179 serializes all coefficient signs, but no current artifact checks the fermionic permutation phase or proves covariance of the complete term family.",
+    "route_comparison": "Before estimating twenty-one unknown K644 block constants, test the exact equal-coupling discrete symmetry already present in K179; a proved reducing involution removes cross-parity obligations without replacing the operator-valued spectator carrier.",
+    "strongest_alternative": "Direct numerical parity floors would be stronger, but K612/K644 show the same-form block data are not serialized; the symmetry test is the cheapest native reduction available now."
+  },
+  "result_id": "K645-K500-FLAVOR-EXCHANGE-COVARIANCE",
+  "schema_version": "1.0",
+  "scope": "The frozen equal-coupling K139/K168/K179 conditional point-Fock family under interchange of flavor labels one and two, including the normalized fermionic exterior-basis phase.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
