@@ -1,0 +1,593 @@
+{
+  "claim_ceiling": "Exact sufficient lower theorem for closed six-channel operator block forms on each K643 bath sector. Diagonal floors and symmetric off-diagonal Hilbert-form bounds define C_n, giving m_n>=lambda_min(C_n) and the cheaper row certificate g_n. A uniform sector infimum composes with K642's floors. The actual K139/K168 block identity, diagonal floors, coupling bounds, uniform tail, native m, alpha and delta remain missing; no native complete-sector floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k644_k500_operator_block_lower_certificate_probe.py",
+    "producer": "tests/channel-swings/k644_k500_operator_block_lower_certificate.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "K642_native_m_obligation_reduced_to_explicit_sector_block_data": true,
+    "finite_synthetic_controls_are_native_inputs": false,
+    "next_exact_input": "Construct the actual sectorwise K139/K168 coefficient map and common form identity. For each sector certify six diagonal floors and fifteen coupling majorants, or the sharper comparison eigenvalue, and prove a uniform analytic tail. Then set m=inf_n m_n and separately certify alpha and delta for the same-domain remainder."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "K642_base_floor_control": "-193/128",
+    "K642_controlled_floor_control": "-201/128",
+    "all_controls_pass": true,
+    "controlled_parameters": {
+      "alpha": "1/8",
+      "delta": "1/16"
+    },
+    "controls_are_synthetic_not_native": true,
+    "global_m_control": "-3/2",
+    "prefix_sector_lowers": [
+      "9/2",
+      "-11/8",
+      "-1",
+      "128/35"
+    ],
+    "rows": [
+      {
+        "all_test_slacks_nonnegative": true,
+        "comparison_matrix": [
+          [
+            "5",
+            "-1/2",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1/2",
+            "6",
+            "-1/3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "-1/3",
+            "7",
+            "-1/4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1/4",
+            "8",
+            "-1/5",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1/5",
+            "9",
+            "-1/6"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/6",
+            "10"
+          ]
+        ],
+        "coupling_majorants": [
+          [
+            "0",
+            "1/2",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1/2",
+            "0",
+            "1/3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "1/3",
+            "0",
+            "1/4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/4",
+            "0",
+            "1/5",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1/5",
+            "0",
+            "1/6"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/6",
+            "0"
+          ]
+        ],
+        "diagonal_floors": [
+          "5",
+          "6",
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "exact_test_slacks": [
+          "1/2",
+          "3/2",
+          "5/2",
+          "7/2",
+          "9/2",
+          "11/2",
+          "151/10",
+          "209/10",
+          "697/10"
+        ],
+        "name": "strict positive",
+        "row_sum_lower": "9/2"
+      },
+      {
+        "all_test_slacks_nonnegative": true,
+        "comparison_matrix": [
+          [
+            "-1",
+            "-1/4",
+            "0",
+            "0",
+            "0",
+            "-1/8"
+          ],
+          [
+            "-1/4",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "3",
+            "0",
+            "-1/3",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "4",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1/3",
+            "0",
+            "5",
+            "0"
+          ],
+          [
+            "-1/8",
+            "0",
+            "0",
+            "0",
+            "0",
+            "6"
+          ]
+        ],
+        "coupling_majorants": [
+          [
+            "0",
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "1/8"
+          ],
+          [
+            "1/4",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/3",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/3",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1/8",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "diagonal_floors": [
+          "-1",
+          "2",
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "exact_test_slacks": [
+          "3/8",
+          "27/8",
+          "35/8",
+          "43/8",
+          "51/8",
+          "59/8",
+          "155/6",
+          "82/3",
+          "821/8"
+        ],
+        "name": "negative diagonal allowed",
+        "row_sum_lower": "-11/8"
+      },
+      {
+        "all_test_slacks_nonnegative": true,
+        "comparison_matrix": [
+          [
+            "2",
+            "-3",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-3",
+            "2",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "3",
+            "-1/2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "-1/2",
+            "3",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "4",
+            "-1/2"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "-1/2",
+            "4"
+          ]
+        ],
+        "coupling_majorants": [
+          [
+            "0",
+            "3",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "3",
+            "0",
+            "0",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1/2",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "1/2",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/2"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "0",
+            "1/2",
+            "0"
+          ]
+        ],
+        "diagonal_floors": [
+          "2",
+          "2",
+          "3",
+          "3",
+          "4",
+          "4"
+        ],
+        "exact_test_slacks": [
+          "3",
+          "3",
+          "4",
+          "4",
+          "5",
+          "5",
+          "16",
+          "32",
+          "66"
+        ],
+        "name": "large coupling exposed",
+        "row_sum_lower": "-1"
+      },
+      {
+        "all_test_slacks_nonnegative": true,
+        "comparison_matrix": [
+          [
+            "4",
+            "-1/5",
+            "-1/7",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "-1/5",
+            "5",
+            "0",
+            "-1/6",
+            "0",
+            "0"
+          ],
+          [
+            "-1/7",
+            "0",
+            "6",
+            "0",
+            "-1/8",
+            "0"
+          ],
+          [
+            "0",
+            "-1/6",
+            "0",
+            "7",
+            "0",
+            "-1/9"
+          ],
+          [
+            "0",
+            "0",
+            "-1/8",
+            "0",
+            "8",
+            "-1/10"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "-1/9",
+            "-1/10",
+            "9"
+          ]
+        ],
+        "coupling_majorants": [
+          [
+            "0",
+            "1/5",
+            "1/7",
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "1/5",
+            "0",
+            "0",
+            "1/6",
+            "0",
+            "0"
+          ],
+          [
+            "1/7",
+            "0",
+            "0",
+            "0",
+            "1/8",
+            "0"
+          ],
+          [
+            "0",
+            "1/6",
+            "0",
+            "0",
+            "0",
+            "1/9"
+          ],
+          [
+            "0",
+            "0",
+            "1/8",
+            "0",
+            "0",
+            "1/10"
+          ],
+          [
+            "0",
+            "0",
+            "0",
+            "1/9",
+            "1/10",
+            "0"
+          ]
+        ],
+        "diagonal_floors": [
+          "4",
+          "5",
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "exact_test_slacks": [
+          "12/35",
+          "47/35",
+          "82/35",
+          "117/35",
+          "152/35",
+          "187/35",
+          "19361/1260",
+          "20873/1260",
+          "7264/105"
+        ],
+        "name": "dense rational",
+        "row_sum_lower": "128/35"
+      }
+    ],
+    "uniform_tail_lower": "-3/2"
+  },
+  "gu_typed_objects": {
+    "diagonal_data": "b_ii,n[x]>=d_i,n||x||^2",
+    "off_diagonal_data": "|b_ij,n[x,y]|<=a_ij,n||x||||y|| with a_ij,n=a_ji,n>=0",
+    "result": "operator-block comparison lower certificate MAP-TYPE=form-domination",
+    "sector_carrier": "H_b,n=direct_sum_(i=1)^6 H_n",
+    "sector_form": "closed self-adjoint six-by-six block form b_n=(b_ij,n) on a common product form domain",
+    "target": "sector constants m_n and the uniform m required by K642"
+  },
+  "ledger_no_change_reason": "This is a sufficient analytic certificate for a conditional operator form and supplies none of its missing native numerical inputs.",
+  "native_interface_status": {
+    "K473_released": false,
+    "K642_floor_formula_consumed": true,
+    "K643_sector_reduction_consumed": true,
+    "actual_K139_K168_common_domain_identity_proved": false,
+    "actual_diagonal_sector_floors_identified": false,
+    "actual_off_diagonal_sector_bounds_identified": false,
+    "actual_uniform_tail_lower_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_sector_floor_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false,
+    "six_channel_operator_certificate_constructed": true
+  },
+  "operator_block_theorem": {
+    "cheap_certificate": "b_n>=g_n I on H_b,n",
+    "closedness": "the finite sum of Hilbert-bounded off-diagonal forms preserves closedness and semiboundedness of the diagonal form sum",
+    "comparison_matrix": "C_n has (C_n)_ii=d_i,n and (C_n)_ij=-a_ij,n for i!=j",
+    "failed_row_sum_is_not_a_negative_spectrum_proof": true,
+    "form_domination": "b_n[x]>=y^T C_n y for y_i=||x_i||",
+    "hypotheses": "Each diagonal form is closed and bounded below on its channel domain; every off-diagonal block form is bounded by a_ij,n in the Hilbert norms on the same product domain.",
+    "no_bounded_diagonal_operator_requirement": true,
+    "off_diagonal_hilbert_bound_is_sufficient_not_necessary": true,
+    "row_sum_floor": "g_n=min_i(d_i,n-sum_(j!=i)a_ij,n) <= lambda_min(C_n)",
+    "sharp_comparison_floor": "m_n>=lambda_min(C_n)"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A block form can have a useful positive least comparison eigenvalue even when a crude row bound is weak; conversely a single actual sector below a proposed m rejects that uniform m.",
+    "strongest_overclaim": "Reporting a synthetic comparison row, a finite prefix minimum or a failed diagonal-dominance lower as the native complete-sector floor.",
+    "weakest_reproducibility_seam": "Native use depends on proving that the K139/K168 form has these six blocks on one common sector domain and on supplying uniform tail estimates."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K158 uses a finite Gershgorin control for a different generalized pencil, while no current artifact gives a block-form comparison theorem for K642's six-channel spectator sectors or composes it with the uniform sector infimum.",
+    "route_comparison": "Once K643 localizes B by bath number, a six-by-six scalar comparison matrix is the cheapest rigorous route from operator blocks to m; it retains operator-valued spectator action instead of reverting to K640's scalar native misidentification.",
+    "strongest_alternative": "A direct spectral calculation of every B_n would be sharper, but it is more expensive and still requires the same missing K139/K168 block identity and tail control."
+  },
+  "result_id": "K644-K500-OPERATOR-BLOCK-LOWER-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "A sufficient lower certificate for each six-channel bath-sector coefficient form in K643 and its exact composition with K642's operator cancellation graph.",
+  "sector_to_global_composition": {
+    "K642_base_floor": "min(1/2,m-1/128)",
+    "K642_controlled_floor": "min(1/2-alpha,m-delta-1/128)",
+    "certificate_failure_boundary": "g_n<=target does not prove the true form floor is <=target; sharpen C_n or the block estimates before a negative verdict",
+    "global_output": "m=inf_n m_n, with a separately proved uniform tail beyond any finite prefix",
+    "one_sector_falsifier": "if lambda_min(C_n)<m_candidate for one actual sector, that comparison data reject m_candidate",
+    "sector_inputs": "for every n, six diagonal floors d_i,n and fifteen symmetric coupling majorants a_ij,n on the actual common form domain",
+    "sector_output": "m_n may be lambda_min(C_n) or the cheaper certified g_n"
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

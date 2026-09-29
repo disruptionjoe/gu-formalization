@@ -1,0 +1,134 @@
+{
+  "claim_ceiling": "Exact bath-number sector reduction for any future self-adjoint K139/K168 coefficient form assembled from K179's six number-preserving exchange monomials on C^6 tensor H_spec. Its global lower constant is the uniform infimum of sector floors, and a finite prefix requires an independent tail lower. The actual intertwiner, sector forms, sector floors, uniform tail, m, alpha and delta remain absent; no native complete-sector floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 29,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k643_k500_bath_sector_boundary_reduction_probe.py",
+    "producer": "tests/channel-swings/k643_k500_bath_sector_boundary_reduction.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "finite_sector_checks_suffice_for_native_global_m": false,
+    "next_exact_input": "For every bath sector, identify the actual six-channel K139/K168 coefficient blocks on a common form domain. Bound their sector floors uniformly, including an analytic tail beyond the serialized order-twelve family, then take m=inf_n m_n and compose it with K642.",
+    "operator_floor_problem_reduced_to_sector_local_data_plus_uniform_tail": true,
+    "through_order_twelve_is_complete_uniform_tail": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "combined_is_minimum": true,
+    "combined_uniform_floor": "-2",
+    "displayed_nonuniform_prefix_minima": [
+      "-1",
+      "-2",
+      "-3",
+      "-4",
+      "-5",
+      "-6"
+    ],
+    "each_nonuniform_sector_semibounded": true,
+    "finite_prefix_floor": "-2",
+    "finite_sector_floors": [
+      "-2",
+      "1",
+      "3",
+      "5"
+    ],
+    "nonuniform_continuation_has_no_finite_global_lower": true,
+    "nonuniform_sector_family": [
+      "-1",
+      "-2",
+      "-3",
+      "-4",
+      "-5",
+      "-6"
+    ],
+    "tail_floor": "-1"
+  },
+  "gu_typed_objects": {
+    "coefficient_space": "C^6 tensor H_spec=direct_sum_(n>=0)(C^6 tensor H_n)",
+    "form": "a future self-adjoint coefficient form B assembled from the fixed number-preserving exchange family",
+    "native_monomials": "K639's six K179 normal-order exchange monomials",
+    "result": "bath-sector boundary reduction MAP-TYPE=orthogonal-form-direct-sum",
+    "spectator_decomposition": "H_spec=direct_sum_(n>=0) H_n by total bath particle number",
+    "target": "sector-local lower constants whose uniform infimum can instantiate K642's m"
+  },
+  "ledger_no_change_reason": "This is a form-domain reduction inside a repository-supplied conditional point-Fock model; it supplies no action-owned physical state, observable or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "K642_operator_valued_carrier_preserved": true,
+    "actual_K139_K168_intertwiner_identified": false,
+    "actual_sector_floors_m_n_identified": false,
+    "actual_sector_forms_B_n_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false,
+    "sector_localization_of_future_B_proved": true,
+    "uniform_tail_lower_identified": false
+  },
+  "native_replay": {
+    "K603_all_action_terms_retained": true,
+    "K603_signature_blocks_replayed": 33,
+    "family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "matched_polarity_for_every_term": true,
+    "one_bath_creation_and_one_bath_annihilation_per_exchange_monomial": true,
+    "orders_present": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "remaining_variable_arity_equals_order": true,
+    "term_count": 2958,
+    "term_counts_by_order": {
+      "10": 480,
+      "11": 640,
+      "12": 1152,
+      "2": 6,
+      "3": 8,
+      "4": 24,
+      "5": 32,
+      "6": 72,
+      "7": 96,
+      "8": 192,
+      "9": 256
+    },
+    "total_bath_number_preserved_by_every_exchange_monomial": true
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The family m_n=-n is semibounded on every sector while its direct sum has no finite lower bound.",
+    "strongest_overclaim": "Treating through-order-twelve sector checks, or separate semiboundedness of every sector, as a uniform global lower bound.",
+    "weakest_reproducibility_seam": "The reduction applies to a future B assembled from the fixed matched exchange family; the actual K139/K168 coefficient map and its closed sector-complete domain remain unbuilt."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K500 uses bath-number blocks for cyclic leakage and K603 uses signature blocks for finite moments, but neither states the direct-sum lower-form equivalence required to instantiate K642's operator m.",
+    "route_comparison": "The exact number grading is already preserved by every K179 exchange monomial, so sector reduction is cheaper and more decisive than estimating an unspecified full-Fock operator globally.",
+    "strongest_alternative": "Directly compute B and m; K612/K642 show those native data are not serialized, so the reduction first exposes the smallest valid quantitative obligations."
+  },
+  "result_id": "K643-K500-BATH-SECTOR-BOUNDARY-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "The operator-valued coefficient form required by K642 when specialized to the bath-number-preserving K179 matched-exchange family on C^6 tensor H_spec.",
+  "sector_reduction_theorem": {
+    "coefficient_sector": "H_b,n=C^6 tensor H_n",
+    "finite_prefix_consequence": "floors on finitely many sectors prove only the compressed prefix bound unless a uniform tail lower is also proved",
+    "form_domain": "Dom(b) is the closed sector-complete form-sum domain on which sum_n b_n[c_n] is defined after a proved common lower shift; existence of that shift is exactly the uniform-tail obligation",
+    "global_lower_constant": "m=inf_(n>=0)m_n",
+    "intertwiner_constraint": "a native K139/K168-to-K642 form identity may be chosen sectorwise only after its coefficient map is proved number-preserving and common-domain compatible",
+    "reducing_property": "B assembled as a self-adjoint form from these monomials is the orthogonal form sum B=direct_sum_n B_n whenever its closed form domain is sector-complete",
+    "sector_lower_hypothesis": "b_n[c_n]>=m_n||c_n||^2 on H_b,n",
+    "sector_projections": "P_n onto H_n; [P_n,W_ex[r,s]]=0 for each of the six matched exchange monomials",
+    "single_bad_sector_consequence": "one sector with lower constant below a proposed m rejects that global m",
+    "tail_composition": "if min_(n<=N)m_n=m_prefix and inf_(n>N)m_n>=m_tail, then B>=min(m_prefix,m_tail)",
+    "uniform_equivalence": "B>=m I iff every sector B_n>=m I with the same m"
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

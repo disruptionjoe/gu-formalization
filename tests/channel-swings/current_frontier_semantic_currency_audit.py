@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k643": json.loads((ROOT / "lab/process/k643-k500-bath-sector-boundary-reduction.json").read_text()),
+        "k644": json.loads((ROOT / "lab/process/k644-k500-operator-block-lower-certificate.json").read_text()),
         "k641": json.loads((ROOT / "lab/process/k641-k500-spectator-boundary-type-audit.json").read_text()),
         "k642": json.loads((ROOT / "lab/process/k642-k500-operator-cancellation-graph-lower-theorem.json").read_text()),
         "k639": json.loads((ROOT / "lab/process/k639-k500-k179-channel-quotient.json").read_text()),
@@ -132,7 +134,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K642" in live and "min(1/2,m-1/128)" in live and
               "min(1/2-alpha,m-delta-1/128)" in live,
               "K500 operator-valued graph lower theorem missing")
-        check("native K139/K168 intertwiner" in live and "m,alpha,delta" in live,
+        check("K643" in live and "m=inf_n m_n" in live and "uniform tail" in live,
+              "K500 bath-sector lower reduction missing")
+        check("K644" in live and "lambda_min(C_n)" in live and "fifteen" in live,
+              "K500 operator-block comparison certificate missing")
+        check("native K139/K168 sectorwise intertwiner" in live and "alpha,delta" in live,
               "live operator-form identification route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
@@ -143,7 +149,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K641--K642 correct and extend K640's native coefficient-space" in summary,
+    check("K643--K644 reduce K642's missing operator lower constant" in summary,
+          "current K643--K644 result lost")
+    check("K641--K642 remain the direct predecessors" in summary,
           "current K641--K642 result lost")
     check("K639--K640 remain the direct predecessors" in summary,
           "K639--K640 predecessor result lost")
@@ -198,6 +206,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "global lower m=inf_n m_n"
+        in data["agenda"].get("latest_result_2026_09_29_k643_k644", ""),
+        "agenda K643--K644 result is not current",
+    )
     check(
         "corrected coefficient space is C^6 tensor H_spec"
         in data["agenda"].get("latest_result_2026_09_29_k641_k642", ""),
@@ -302,6 +315,49 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         in data["agenda"].get("latest_result_2026_09_28_k606_k607", ""),
         "agenda K606--K607 result is not current",
     )
+
+    k643 = data["k643"]
+    k643_r = k643["native_replay"]
+    k643_t = k643["sector_reduction_theorem"]
+    k643_n = k643["native_interface_status"]
+    check(k643_r["term_count"] == 2958 and
+          k643_r["matched_polarity_for_every_term"] and
+          k643_r["one_bath_creation_and_one_bath_annihilation_per_exchange_monomial"] and
+          k643_r["total_bath_number_preserved_by_every_exchange_monomial"] and
+          k643_r["K603_all_action_terms_retained"],
+          "K643 native number-preservation replay moved")
+    check(k643_t["global_lower_constant"] == "m=inf_(n>=0)m_n" and
+          "same m" in k643_t["uniform_equivalence"] and
+          "tail" in k643_t["finite_prefix_consequence"] and
+          "min(m_prefix,m_tail)" in k643_t["tail_composition"],
+          "K643 sector lower theorem moved")
+    check(k643_n["sector_localization_of_future_B_proved"] and
+          not k643_n["actual_K139_K168_intertwiner_identified"] and
+          not k643_n["uniform_tail_lower_identified"] and
+          not k643_n["native_global_m_identified"] and
+          not k643_n["K473_released"],
+          "K643 native interface ceiling moved")
+
+    k644 = data["k644"]
+    k644_t = k644["operator_block_theorem"]
+    k644_c = k644["sector_to_global_composition"]
+    k644_n = k644["native_interface_status"]
+    check(k644_t["sharp_comparison_floor"] == "m_n>=lambda_min(C_n)" and
+          "g_n=min_i" in k644_t["row_sum_floor"] and
+          k644_t["no_bounded_diagonal_operator_requirement"] and
+          k644_t["failed_row_sum_is_not_a_negative_spectrum_proof"],
+          "K644 operator-block theorem moved")
+    check(k644_c["global_output"] == "m=inf_n m_n, with a separately proved uniform tail beyond any finite prefix" and
+          k644_c["K642_base_floor"] == "min(1/2,m-1/128)" and
+          k644_c["K642_controlled_floor"] == "min(1/2-alpha,m-delta-1/128)",
+          "K644 K642 composition moved")
+    check(k644_n["six_channel_operator_certificate_constructed"] and
+          not k644_n["actual_K139_K168_common_domain_identity_proved"] and
+          not k644_n["actual_diagonal_sector_floors_identified"] and
+          not k644_n["actual_off_diagonal_sector_bounds_identified"] and
+          not k644_n["native_global_m_identified"] and
+          not k644_n["native_complete_sector_floor_emitted"],
+          "K644 native interface ceiling moved")
 
     b5 = next(
         item for item in data["agenda"]["work_items"]
@@ -908,6 +964,19 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k643-term-count", lambda d: d["k643"]["native_replay"].__setitem__("term_count", 2957))
+    add("k643-number", lambda d: d["k643"]["native_replay"].__setitem__("total_bath_number_preserved_by_every_exchange_monomial", False))
+    add("k643-global", lambda d: d["k643"]["sector_reduction_theorem"].__setitem__("global_lower_constant", "m=m_0"))
+    add("k643-tail", lambda d: d["k643"]["native_interface_status"].__setitem__("uniform_tail_lower_identified", True))
+    add("k643-native-m", lambda d: d["k643"]["native_interface_status"].__setitem__("native_global_m_identified", True))
+    add("k644-comparison", lambda d: d["k644"]["operator_block_theorem"].__setitem__("sharp_comparison_floor", "m_n=max_i d_i"))
+    add("k644-row-negative", lambda d: d["k644"]["operator_block_theorem"].__setitem__("failed_row_sum_is_not_a_negative_spectrum_proof", False))
+    add("k644-global", lambda d: d["k644"]["sector_to_global_composition"].__setitem__("global_output", "m=min prefix"))
+    add("k644-common-domain", lambda d: d["k644"]["native_interface_status"].__setitem__("actual_K139_K168_common_domain_identity_proved", True))
+    add("k644-diagonals", lambda d: d["k644"]["native_interface_status"].__setitem__("actual_diagonal_sector_floors_identified", True))
+    add("k644-couplings", lambda d: d["k644"]["native_interface_status"].__setitem__("actual_off_diagonal_sector_bounds_identified", True))
+    add("k644-floor", lambda d: d["k644"]["native_interface_status"].__setitem__("native_complete_sector_floor_emitted", True))
 
     add("k635-join", lambda d: d["k635"]["cross_characteristic_packets"][0].__setitem__("slow_kernel_join_rank", 64))
     add("k635-algebra", lambda d: d["k635"]["stabilizer_theorem"].__setitem__("induced_source_algebra_dimension", 1))

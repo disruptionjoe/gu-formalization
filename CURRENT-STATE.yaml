@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8b27cb2f850b
+revision_basis: c177b830424a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,7 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K641--K642 correct and extend K640's native coefficient-space interface
+    K643--K644 reduce K642's missing operator lower constant to explicit
+    sector-local obligations without moving a protected claim. K643 replays
+    all 2,958 K179 terms and proves every matched exchange monomial preserves
+    total bath number. Therefore any future closed self-adjoint coefficient
+    form assembled from that family reduces on
+    `C^6 tensor H_spec=direct_sum_n(C^6 tensor H_n)`. Its global lower
+    constant is `m=inf_n m_n`; finitely many sector floors prove only a prefix
+    bound until an independent uniform tail lower is supplied. K644 proves a
+    sufficient six-channel operator-block certificate on each sector. If the
+    diagonal blocks have floors `d_i,n` and the off-diagonal block forms have
+    symmetric Hilbert bounds `a_ij,n`, the comparison matrix
+    `(C_n)_ii=d_i,n`, `(C_n)_ij=-a_ij,n` gives
+    `m_n>=lambda_min(C_n)`, with the cheaper row bound
+    `g_n=min_i(d_i,n-sum_(j!=i)a_ij,n)`. A uniform sector infimum composes
+    with K642's `min(1/2,m-1/128)` and controlled-remainder floor. The actual
+    K139/K168 intertwiner, common-domain block identity, diagonal floors,
+    coupling bounds, analytic tail and constants `m,alpha,delta` remain
+    absent. No native complete-sector floor, K473 beta, K152 interval, source,
+    ledger, canon, paper, public or physical conclusion moves.
+
+    K641--K642 remain the direct predecessors. They correct and extend K640's native coefficient-space interface
     without moving a protected claim. K641 replays K179's 2,958 terms and
     proves every one of K639's six surviving monomials recurs at every order
     two through twelve while the remaining output-kernel arity grows from two
@@ -11483,9 +11503,18 @@ current_question: >-
   boundary form `B >= m` it proves the dimension-free estimate
   `q_B >= min(1/2,m-1/128)||.||_G^2`; a same-domain remainder with lower
   control `(alpha,delta)` yields
-  `min(1/2-alpha,m-delta-1/128)`. Next construct the native K139/K168
-  intertwiner into this graph, identify `B` and the remainder, and certify
-  `m,alpha,delta`. K612's custody gap remains. Do not collapse spectator Fock
+  `min(1/2-alpha,m-delta-1/128)`. K643 now proves that every K179 exchange
+  monomial preserves bath number, so a future closed coefficient form reduces
+  as `B=direct_sum_n B_n` and its global lower is the uniform infimum
+  `m=inf_n m_n`; a finite prefix is not a tail bound. K644 gives the exact
+  sector certificate: six diagonal floors `d_i,n` and fifteen symmetric
+  coupling bounds `a_ij,n` define a comparison matrix `C_n`, with
+  `m_n>=lambda_min(C_n)` and the cheaper row lower
+  `g_n=min_i(d_i,n-sum_(j!=i)a_ij,n)`. Next construct the native K139/K168
+  sectorwise intertwiner and common-domain block identity, certify those
+  diagonal and coupling data plus a uniform analytic tail, and separately
+  certify the same-domain remainder constants `alpha,delta`. K612's custody
+  gap remains. Do not collapse spectator Fock
   space to `C^6`, call algebraic labels physical ranges, import K168's
   three-dimensional `m=-2`, report `-257/128` as native or apply K642 without
   the missing same-form identity.
@@ -11992,9 +12021,15 @@ next_condition: >-
   carries spectator Fock degrees of freedom. K642 constructs the corresponding
   operator-valued graph theorem on `C^6 tensor H_spec`: `B >= m` gives floor
   `min(1/2,m-1/128)`, and a controlled same-domain remainder gives
-  `min(1/2-alpha,m-delta-1/128)`. Construct the native K139/K168 intertwiner,
-  identify `B` and the remainder, and certify `m,alpha,delta`; this exact
-  same-form packet, not a scalar-matrix substitution, is the next input.
+  `min(1/2-alpha,m-delta-1/128)`. K643 reduces the missing boundary form to
+  bath-number sectors and proves `m=inf_n m_n`, with a required uniform tail.
+  K644 reduces each `m_n` to the actual six-channel diagonal floors and
+  fifteen off-diagonal coupling bounds through a scalar comparison matrix,
+  with `m_n>=lambda_min(C_n)`.
+  Construct the native K139/K168 sectorwise intertwiner and common-domain
+  block identity, certify those block data and the uniform tail, then certify
+  `alpha,delta`; this exact same-form packet, not a scalar-matrix substitution
+  or finite-prefix minimum, is the next input.
   K612's cancelled-core custody gap remains, so neither `m=-2` nor
   `-257/128` is a native complete-sector floor. Retain K609's complete leakage-square upper
   below 1/3 and the `25/9` target, but combine them only after an independently

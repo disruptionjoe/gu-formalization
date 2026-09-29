@@ -7,6 +7,20 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K643--K644 BATH-SECTOR REDUCTION AND OPERATOR-BLOCK LOWER
+> CERTIFICATE.** K643 replays K179's complete 2,958-term family and proves
+> every matched exchange monomial preserves total bath number. A future closed
+> coefficient form therefore reduces as `B=direct_sum_n B_n` on
+> `C^6 tensor H_spec`, with global lower `m=inf_n m_n`; a finite sector prefix
+> needs a separately proved uniform tail. K644 supplies the sector certificate.
+> Diagonal floors `d_i,n` and fifteen symmetric off-diagonal bounds `a_ij,n`
+> define a real comparison matrix `C_n`, giving
+> `m_n>=lambda_min(C_n)` and the cheaper row lower
+> `min_i(d_i,n-sum_(j!=i)a_ij,n)`. Next build the actual K139/K168 sectorwise
+> intertwiner and common-domain block identity, certify those block data and
+> the analytic tail, then certify the same-domain remainder `alpha,delta`.
+> Synthetic controls and finite prefixes are not a native floor.
+
 > **2026-09-29 K641--K642 SPECTATOR-BOUNDARY TYPE CORRECTION AND
 > OPERATOR-VALUED LOWER THEOREM.** K641 reconciles K639/K640 with K148/K159.
 > Each of the six surviving K179 monomials occurs at every order two through

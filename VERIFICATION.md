@@ -7,6 +7,25 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K643--K644 bath-sector and operator-block lower certificates (2026-09-29)
+
+K643 replays the complete 2,958-term K179 family. Every normal-order exchange
+monomial has one bath creation and one same-polarity bath annihilation, hence
+preserves total bath number. For any future closed self-adjoint coefficient
+form assembled from this family, the `C^6 tensor H_spec` carrier reduces over
+bath sectors and the global lower constant is the uniform infimum of sector
+floors. The probe passes 29 exact controls and rejects 25 hostile mutations,
+including false finite-prefix, invented-tail and invented-native-floor claims.
+
+K644 proves a sufficient lower theorem for a closed six-channel operator block
+form on each sector. Diagonal lower bounds and symmetric off-diagonal
+Hilbert-form bounds dominate the form by a real `6x6` comparison matrix; its
+least eigenvalue is a valid sector floor, and diagonal dominance gives a
+cheaper exact row certificate. Four rational controls include positive,
+negative, large-coupling and dense cases. The probe passes 30 exact controls
+and rejects 25 hostile mutations. The actual K139/K168 common-domain identity,
+block constants, uniform tail, `m`, `alpha` and `delta` are not supplied.
+
 ## K641--K642 spectator-boundary and operator-graph results (2026-09-29)
 
 K641 replays K179's 2,958 terms after K639's quotient. All six surviving
