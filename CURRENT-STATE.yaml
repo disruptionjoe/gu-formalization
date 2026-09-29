@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 29bce3744285
+revision_basis: 31098e671c8b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,16 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K611 rejects the first cancellation-preserving numerical-floor attempt
+    after K609. Its rational Neumann arithmetic reaches 87/100, but the
+    operator product is ill-typed: the free-energy graph controls K156's
+    normal-ordered core without a finite chart contraction, while the
+    particle-number graph controls the chart without a finite core bound.
+    K174 rules out every positive diagonal-weight repair. K462/K581
+    existential semiboundedness and K609 leakage remain valid, but no named
+    complete-sector or noncyclic floor, K473 beta or K152 interval is emitted.
+    The probe passes 10/10 controls and rejects 14/14 hostile mutations.
+
     K608--K610 complete the live numerical K500 cross-term successor and the
     available factorwise K77 algebra test without moving a protected claim.
     K608 covers all 1,614 K606 diagonal self norms with rational analytic
@@ -11208,14 +11218,14 @@ current_question: >-
   and properness. Do not reinterpret K610 as rejection of K438, K590 or every
   action-derived soldering.
 
-  On the K500 route, K609 closes the complete q00/q10/q01 cross-term upper
-  uniformly below 1/3 by propagating K608 through K606 and applying K574's
-  tail once. Serialize a named cancellation-safe complete-sector lower
-  witness, then combine it with the separately certified cyclic floor and
-  K609 only through K494/K473's guarded interface. Do not substitute K581's
-  existential semiboundedness, K575's differently typed M-dual residual, or
-  double-charge the tail. The numerical noncyclic floor remains required
-  before K473 or K152 can move.
+  On the K500 route, K611 proves that the first proposed numerical-floor
+  estimate illegally splices a free-energy-graph core bound with a
+  particle-number/Hilbert chart inverse. K174 also rules out every positive
+  diagonal-weight repair. Extract explicit constants from K139's original
+  matched physical-form semiboundedness proof, prove a direct cancellation-
+  adapted quadratic-form lower bound, or construct a correlated non-diagonal
+  common domain. Retain K609's complete cross upper below 1/3, but combine it
+  through K494/K473 only after a separately valid named floor exists.
 
   K510 shows that K507's explicit alternating q00/q10 paths are nonzero at
   every level, but a lower proof that pays the full ordered-simplex `1/n!`
@@ -11693,15 +11703,16 @@ next_condition: >-
   K596 at the initial fibre and K598 for transport, then test total nilpotence
   and properness. K610 proves polynomials in K438's A, K439's projector and
   all base-only factorwise closure operations cannot select the rank-one
-  packet; it does not retract K438 or K590. On the K500 route, retain K609's
-  complete q00/q10/q01 leakage-square upper below 1/3 and separately
-  serialize a named cancellation-safe complete-sector lower witness. Combine
-  only that witness, the separately certified cyclic floor and K609 through
-  K494/K473's guarded interface. Do not reinterpret K608's envelopes as
-  quadrature values, reserialize the coefficient-complete column,
-  double-charge K574's tail once or substitute K575's M-dual residual.
-  Preserve K588's off-image ownership fence and K590's factorized-only
-  ceiling.
+  packet; it does not retract K438 or K590. On the K500 route, K611 rejects
+  the mixed free-energy/particle-number graph route to K584's named floor and
+  K174 excludes every positive diagonal-weight repair. Extract a same-domain,
+  cancellation-adapted physical-form lower estimate or construct a correlated
+  non-diagonal common domain. Retain K609's complete leakage-square upper below
+  1/3, but combine it with the cyclic floor only after that independently
+  valid named floor exists. Do not reinterpret K608's envelopes as quadrature
+  values, reserialize the coefficient-complete column, double-charge K574's
+  tail or substitute K575's M-dual residual. Preserve K588's off-image
+  ownership fence and K590's factorized-only ceiling.
 
   Continue K500 beyond K510's simplex-volume obstruction. Either prove a
   determinant-aware refinement-uniform lower for the explicit alternating

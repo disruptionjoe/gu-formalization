@@ -1,6 +1,7 @@
 ---
 title: "K602-K603 order-two moments and all-order signature sparsity"
 status: working_draft_verified
+status_axis: operational_state
 classification: INTERNAL_CONDITIONAL_MATHEMATICS
 direction: observed_to_native
 target_claim: NONE-NOT-A-KILL

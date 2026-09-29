@@ -59,8 +59,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K77 discriminator/transport succession missing")
         check("K609" in live and "below 1/3" in live,
               "K500 complete leakage route missing")
-        check("K574's tail once" in live, "K500 single-tail composition missing")
-        check("complete-sector lower witness" in live,
+        check("K611" in live and "K174" in live,
+              "K500 mixed-graph floor obstruction missing")
+        check("cancellation-adapted physical-form lower estimate" in live,
               "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
@@ -71,9 +72,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K608--K610 complete the live numerical K500 cross-term successor" in summary,
-          "current K608--K610 result lost")
-    check("complete-sector floor remains" in summary,
+    check("K611 rejects the first cancellation-preserving numerical-floor attempt" in summary,
+          "current K611 result lost")
+    check("no named" in summary and "floor" in summary,
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
@@ -113,6 +114,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         "uniformly below 1/3"
         in data["agenda"].get("latest_result_2026_09_28_k608_k610", ""),
         "agenda K500 route is not current",
+    )
+    check(
+        "operator product is ill-typed"
+        in data["agenda"].get("latest_result_2026_09_29_k611", ""),
+        "agenda K611 floor obstruction is not current",
     )
     check(
         "41,063 exact determinant-simplex classes"

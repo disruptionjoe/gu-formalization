@@ -2,10 +2,22 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-28"
+updated_at: "2026-09-29"
 ---
 
 # Next Steps For Contributors
+
+> **2026-09-29 K611 GRAPH-SPLICE FLOOR OBSTRUCTION.** K611 audits the first
+> cancellation-preserving numerical-floor attempt after K609. Its rational
+> Neumann arithmetic reaches `87/100`, but the operator product is ill-typed:
+> the free-energy graph controls the normal-ordered core and not the chart,
+> while the particle-number graph controls the chart and not the core. K174
+> rules out every positive diagonal-weight repair. The probe passes `10/10`
+> controls and rejects `14/14` mutations. Next extract constants from K139's
+> original matched physical-form semiboundedness proof, prove a direct
+> cancellation-adapted quadratic-form lower bound, or build a correlated
+> non-diagonal common domain. Do not splice graph constants or bound singular
+> exchange factors separately.
 
 > **2026-09-28 K608--K610 ANALYTIC ENVELOPES, COMPLETE LEAKAGE AND
 > FACTORWISE ALGEBRA.** K608 covers all 1,614 K606 diagonal self norms with

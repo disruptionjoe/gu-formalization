@@ -2,10 +2,24 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-28"
+updated_at: "2026-09-29"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K611 graph-splice floor obstruction (2026-09-29)
+
+K611 independently recomputes the rejected proposal's exact rational
+arithmetic (`3/4` core contribution and `87/100` total), then typechecks every
+operator factor against K173/K174. The free-energy, particle-number and
+quarter-energy graphs each fail one required premise, and K174's reciprocity
+theorem excludes the full positive diagonal-weight family. Thus the numerical
+floor is not certified even though the scalar arithmetic is correct.
+
+The probe reads K173, K174, K462, K581, K584 and K609, passes 10/10 controls
+and rejects 14/14 hostile mutations. It preserves the existing existential
+semibounds and complete leakage result. A cancellation-adapted physical-form
+estimate or correlated non-diagonal domain remains conjectural and open.
 
 ## K608--K610 analytic envelopes, complete leakage and factorwise algebra (2026-09-28)
 

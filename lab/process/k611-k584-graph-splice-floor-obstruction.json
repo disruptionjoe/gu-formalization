@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Exact topology audit of one proposed numerical floor route. Its rational Neumann arithmetic reaches 87/100, but the operator product is ill-typed because the chart and complete normal-ordered core bounds live on incompatible graphs; K174 rules out every positive diagonal-weight repair. K462/K581 existential semiboundedness and K609 leakage remain valid, while no numerical floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K473_released": false,
+    "mixed_graph_numerical_floor_route_rejected": true,
+    "named_complete_sector_floor_emitted": false,
+    "named_noncyclic_floor_emitted": false,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Produce one cancellation-adapted same-domain lower estimate for the complete matched form; do not multiply particle-number/Hilbert chart bounds by free-energy-graph core bounds or estimate the singular exchange factors separately.",
+    "surviving_routes": [
+      "extract explicit constants from K139's original matched physical-form semiboundedness proof",
+      "prove a direct cancellation-adapted quadratic-form lower bound on the physical IBC domain",
+      "construct a correlated non-diagonal domain on which the complete cancelled core and chart are jointly controlled"
+    ]
+  },
+  "dependency_reconciliation": {
+    "K139_or_K156_retracted": false,
+    "K462_existential_complete_sector_semibound_preserved": true,
+    "K581_existential_noncyclic_floor_preserved": true,
+    "K584_identifiability_obstruction_preserved": true,
+    "K609_reused_as_floor_evidence": false,
+    "K609_uniform_leakage_preserved": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "K162 hard-core C3 tensor antisymmetric Fock q00/q10/q01 sectors",
+    "form": "the fixed K139/K168 center-zero form after exact endpoint cancellation",
+    "pairing": "physical positive M=S* S Hilbert geometry",
+    "result": "same-domain floor-route obstruction MAP-TYPE=topology-typecheck",
+    "target": "K584's missing named complete-sector lower witness"
+  },
+  "rejected_candidate_arithmetic": {
+    "arithmetic_is_internally_consistent": true,
+    "candidate_floor_certified": false,
+    "free_graph_chart_contraction_assumed": "1/3",
+    "hilbert_chart_contraction_assumed": "1/6",
+    "normal_ordered_core_graph_relative_assumed": "5/12",
+    "operator_norm_product_is_well_typed": false,
+    "proposed_core_resolvent_piece": "3/4",
+    "proposed_total": "87/100",
+    "scalar_resolvent_piece": "3/25"
+  },
+  "result_id": "K611-K584-GRAPH-SPLICE-FLOOR-OBSTRUCTION",
+  "same_domain_audit": {
+    "all_positive_diagonal_weight_graphs_ruled_out": true,
+    "free_energy_failure": "G sends the vacuum to a dressed point profile h with omega*h outside L2.",
+    "free_energy_graph_controls_normal_ordered_core": true,
+    "free_energy_graph_has_finite_chart_contraction": false,
+    "non_diagonal_or_cancellation_adapted_domains_ruled_out": false,
+    "one_domain_required_for_X_and_right_S": true,
+    "particle_number_failure": "The exact one-bath diagonal core contains D_256(omega), and D_256(e) has a logarithmically divergent lower bound.",
+    "particle_number_graph_chart_contraction_upper": "3/4",
+    "particle_number_graph_has_finite_core_bound": false,
+    "quarter_graph_chart_contraction_upper": "131/300",
+    "quarter_graph_has_complete_core_bound": false,
+    "required_product": "||S||_(H->H) ||X||_(D->H) ||S||_(D->D)"
+  },
+  "schema_version": "1.0",
+  "scope": "The proposed K584 numerical complete-sector floor obtained by multiplying a K139 Hilbert/number-graph chart inverse bound with a K156 free-energy-graph normal-ordered-core bound.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
