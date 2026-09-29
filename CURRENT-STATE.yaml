@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a32a3a661893
+revision_basis: e96be17c501d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K633--K634 advance two independent post-K632 fronts without moving a
+    protected claim. K633 classifies the complete K438 polynomial
+    self-stabilizer of K614's source-owned zero-form seed. At GF(1009) and
+    GF(1013), `J0` and `A J0` are transverse rank-128 images and the quotient
+    classes of `A J0`, `A^2 J0` and `A^3 J0` are independent. Hence every
+    polynomial preserving `J0(V_128)` is constant modulo K438's four-root
+    minimal polynomial and induces only a scalar identity; the frozen action
+    calculus supplies no new owned `V_128 -> V_128` endomorphism. K634
+    independently proves that boundary-profile membership and point-trace
+    continuity are invariant under every equivalent norm on the same
+    diagonal graph domain. Boundedly invertible similarities, invertible
+    bounded finite-rank perturbations and bounded block correlations therefore
+    cannot repair K174/K611's common-domain mismatch. The full commutant, new
+    mixed Hessians, genuinely non-equivalent cancellation domains and
+    cancellation-first complete-form estimates remain open. No source,
+    ledger, canon, paper, public or physical conclusion moves.
+
     K631--K632 prove that the post-K630 demand for new owned input is not a
     retrieval gap in the current serialized K77 repository state. K631 types
     eight strongest candidates: the canonical `H_Sigma`, partial stationary
@@ -11398,35 +11415,29 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the K77 route, K631 exhausts the eight strongest current serialized
-  pairing, Hessian, complex, action and seed candidates against the exact
-  post-K630 reopener types. K632 exhausts their current typed compositions.
-  Two nondegenerate source pullback forms and the factorized K590 complex are
-  real positive content, but no current expression reaches an action-owned
-  `E_512` Gram, an owned `V_128 -> V_128` endomorphism, or a nonzero stationary
-  odd adapter with K441 Riesz return and a common BV/Green domain. Therefore
-  construct genuinely new selected-action data: serialize the same-background
-  third action jet/nonfactorized mixed Hessian and its field Riesz map, or
-  construct an independently owned source-domain operator. Otherwise switch
-  to the independent K500 quantitative-floor route. Preserve K629--K630's
-  family obstruction, K627's 41,216-dimensional pairing nonselection,
-  K625's canonical `H_Sigma`, K590's factorized complex, K614's source-owned
-  injection and both nondegenerate pullback forms. Do not turn relative
-  current-operation closure into a universal source-action no-go, insert an
-  arbitrary Riesz identification, retract K614--K630, or replay the already
+  On the K77 route, K633 sharpens K631--K632: the complete K438 polynomial
+  calculus preserves K614's source seed only through constants, so it induces
+  no nontrivial owned `V_128 -> V_128` endomorphism. Construct genuinely new
+  selected-action data outside `R[A]`: a same-background third action jet or
+  other nonfactorized mixed Hessian on `E_512` with its field Riesz return and
+  common BV/Green domain, or an independently action-owned source-domain
+  operator. Preserve the scalar identity, K625's canonical `H_Sigma`, K590's
+  factorized complex, K614's injection, the two nondegenerate pullback forms
+  and K629--K630. Do not inflate the polynomial stabilizer theorem into a
+  full-commutant, nonlinear-action or universal source-action no-go, insert
+  an arbitrary Riesz identification, retract K614--K633, or replay the already
   banked v0.163--v0.165 unrestricted southeast/ordinary-gauge BV route.
 
-  On the K500 route, K612 proves that K139's current matched-form proof record
-  does not serialize enough quantitative custody to identify its existential
-  lower shift: the missing data are a same-form bound for the complete
-  cancelled core and a valid common numerical domain. K611 already rejects
-  the mixed free-energy/particle-number graph splice and K174 excludes every
-  positive diagonal-weight repair. Derive a new direct cancellation-adapted
-  quadratic-form lower bound or construct a correlated non-diagonal common
-  domain; do not continue trying to algebraically extract a number from the
-  present qualitative proof record. Retain K609's complete cross upper below
-  1/3, but combine it through K494/K473 only after a separately valid named
-  floor exists.
+  On the K500 route, K634 sharpens K174/K611/K612: equivalent renormings and
+  boundedly invertible correlations of every rejected diagonal graph preserve
+  the boundary-profile membership and point-trace continuity failures. Build
+  a genuinely non-equivalent cancellation domain, a constraint graph that
+  removes separately singular directions, or a direct lower estimate for the
+  complete matched physical form before factor separation. Do not relabel a
+  bounded similarity, finite-rank bounded perturbation or block rotation as a
+  new correlated topology. Retain K609's complete cross upper below 1/3, but
+  combine it through K494/K473 only after a separately valid named floor
+  exists.
 
   K510 shows that K507's explicit alternating q00/q10 paths are nonzero at
   every level, but a lower proof that pays the full ordered-simplex `1/n!`
@@ -11898,34 +11909,34 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, K631 proves that none of the eight strongest current
-  serialized candidates alone supplies the post-K630 owned interface. K632
-  proves the same for their complete current typed operation closure. The
-  nondegenerate `J0^* H_Sigma J0` and `X^* H_Sigma X` forms remain unowned,
-  K590's corrected-carrier complex remains factorized, the partial stationary
-  Gram remains on `F_34`, and neither seed owns a nonzero stationary value plus
-  Riesz/domain packet. Next serialize genuinely new selected-action input:
-  the same-background third action jet or another nonfactorized mixed Hessian
-  on `E_512` together with its field Riesz map, or an independently owned
-  `V_128 -> V_128` operator. Then test K596/K598 and build the common BV/Green
-  domain. If that input cannot be constructed, switch priority to the
-  independent K500 quantitative-floor route. Preserve K625, K590, K614,
-  K617 and K629--K630, K622's nonisometric abstract orbit and K627's
-  41,216-dimensional orthogonal reduction. A genuinely new independently
-  action-owned nonzero stationary moving background remains live. Do not
-  promote current relative closure to a universal no-go, infer ownership from
-  nondegeneracy, insert an arbitrary Riesz map, or replay the already banked
-  v0.163--v0.165 unrestricted southeast and ordinary-gauge BV route. On the
-  K500 route, K612 closes constant
-  extraction from the present K139/K156 proof record: its chart constants and
-  qualitative semibound do not include a quantitative complete cancelled-core
-  estimate. Derive that estimate directly on the physical form or construct a
-  correlated non-diagonal common domain. Retain K609's complete leakage-square
-  upper below 1/3, but combine it with the cyclic floor only after an
-  independently valid named floor exists. Do not reinterpret K608's envelopes
-  as quadrature values, double-charge K574's tail or substitute K575's M-dual
-  residual. Preserve K588's off-image ownership fence and K590's
-  factorized-only ceiling.
+  On the K77 route, K633 proves that the frozen K438 polynomial calculus has
+  only the scalar stabilizer on K614's source seed. The complete current typed
+  operation closure from K631--K632 still contains the nondegenerate
+  `J0^* H_Sigma J0` and
+  `X^* H_Sigma X` forms and K590's factorized complex, but no nontrivial owned
+  source-domain endomorphism or stationary odd Riesz/domain packet. Next
+  serialize genuinely new selected-action input outside `R[A]`: the
+  same-background third action jet or another nonfactorized mixed Hessian on
+  `E_512` with its field Riesz return and common BV/Green domain, or an
+  independently action-owned source-domain operator. Preserve K625, K590,
+  K614, K617 and K629--K630, K622's nonisometric abstract orbit and K627's
+  41,216-dimensional orthogonal reduction. Do not promote the polynomial
+  stabilizer result to a full-commutant, nonlinear-action or universal no-go,
+  infer ownership from nondegeneracy, insert an arbitrary Riesz map, or replay
+  the already banked v0.163--v0.165 route. A genuinely new independently
+  action-owned nonzero stationary moving background remains live; only after
+  it owns the required packet should K596/K598 be applied. On the K500 route,
+  K634 sharpens K612's missing complete cancelled-core custody and closes all
+  equivalent-norm and bounded-correlation repairs of K174's rejected diagonal
+  graphs. Construct a genuinely non-equivalent cancellation domain or derive
+  a direct lower estimate for the complete matched form before separating the
+  singular factors. Retain K609's complete leakage-square upper below 1/3,
+  but combine it with the cyclic floor only after an independently valid named
+  floor exists. Do not reinterpret a bounded similarity, finite-rank bounded
+  perturbation or block rotation as a new topology; do not reinterpret K608's
+  envelopes as quadrature values, double-charge K574's tail or substitute
+  K575's M-dual residual. Preserve K588's off-image ownership fence and
+  K590's factorized-only ceiling.
 
   Continue K500 beyond K510's simplex-volume obstruction. Either prove a
   determinant-aware refinement-uniform lower for the explicit alternating

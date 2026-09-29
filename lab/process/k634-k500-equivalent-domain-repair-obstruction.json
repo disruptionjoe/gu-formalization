@@ -1,0 +1,111 @@
+{
+  "bounded_correlation_corollary": {
+    "bounded_correlation_is_genuinely_new_domain": false,
+    "chart_membership_repaired": false,
+    "construction": "||x||_T=||Tx||_D with T and T^-1 bounded",
+    "equivalence_constants": {
+      "lower": "1/||T^-1||",
+      "upper": "||T||"
+    },
+    "point_trace_continuity_repaired": false,
+    "same_domain_K611_product_well_typed": false
+  },
+  "claim_ceiling": "Exact topology-invariance extension of K174/K611: on the same diagonal graph domain, membership of the dressed boundary profile and continuity of the singular point trace are invariant under every equivalent norm, hence under boundedly invertible similarities, invertible bounded finite-rank perturbations and bounded block correlations. None can repair the common-domain failure. Genuinely non-equivalent, unbounded, constraint-graph and cancellation-first constructions remain open; no numerical floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k634_k500_equivalent_domain_repair_obstruction_probe.py",
+    "producer": "tests/channel-swings/k634_k500_equivalent_domain_repair_obstruction.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "K473_released": false,
+    "all_correlated_domains_ruled_out": false,
+    "bounded_equivalent_domain_repair_route_closed": true,
+    "named_complete_sector_floor_emitted": false,
+    "native_K152_interval_emitted": false,
+    "next_exact_input": "Construct a genuinely non-equivalent cancellation domain or estimate the complete matched physical form before separating its singular factors; bounded correlations of any already rejected diagonal graph cannot change the membership/continuity obstruction."
+  },
+  "dependency_reconciliation": {
+    "K174_diagonal_weight_obstruction_retracted": false,
+    "K462_existential_semibound_retracted": false,
+    "K581_existential_noncyclic_floor_retracted": false,
+    "K609_uniform_leakage_retracted": false,
+    "K611_mixed_graph_splice_obstruction_retracted": false,
+    "K612_quantitative_custody_gap_retracted": false,
+    "positive_diagonal_repair_class_strictly_extended": true
+  },
+  "direction": "observed_to_native",
+  "equivalent_norm_theorem": {
+    "continuity_of_every_linear_trace_is_invariant": true,
+    "excluded_repairs": [
+      "equivalent renorming of a rejected diagonal graph",
+      "boundedly invertible similarity on the same graph domain",
+      "invertible finite-rank bounded perturbation of identity",
+      "bounded block correlation or rotation on a finite direct sum of the same component domains"
+    ],
+    "hypothesis": "m||x||_D <= ||x||_tilde <= M||x||_D for fixed 0<m<=M<infinity on the same vector domain D",
+    "membership_of_boundary_profile_is_unchanged": true,
+    "proof_continuity_forward": "|ell(x)|<=C||x||_D implies |ell(x)|<=(C/m)||x||_tilde",
+    "proof_continuity_reverse": "|ell(x)|<=C||x||_tilde implies |ell(x)|<=(CM)||x||_D",
+    "unbounded_trace_cannot_become_bounded": true,
+    "underlying_domain_set_is_unchanged": true
+  },
+  "gu_typed_objects": {
+    "base_domains": "positive diagonal one-particle multiplication-weight graphs D_a",
+    "boundary_profile": "h=(2*pi)^(-1/2)/(omega+256)",
+    "candidate_repairs": "equivalent norms ||.||_tilde and boundedly invertible T with ||x||_T=||Tx||_D_a",
+    "result": "equivalent-domain obstruction MAP-TYPE=topological invariance theorem",
+    "singular_trace": "the unsmeared point annihilation trace in a nonzero K156 exchange block",
+    "target": "one common domain controlling the K139 chart and complete cancelled K156 core"
+  },
+  "ledger_no_change_reason": "This theorem narrows an internal functional-analytic proof strategy. It neither computes the missing native floor nor changes a source claim, ledger verdict, physical observable or selected-action conclusion.",
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A non-equivalent graph relation can remove separately singular directions or control only their cancelled combination, so its continuity theory need not match any D_a.",
+    "strongest_overclaim": "Calling equivalent-norm invariance a no-go for every non-diagonal or cancellation-adapted domain.",
+    "weakest_reproducibility_seam": "The theorem is topological and exact, but applying it to a future proposed domain requires proving that proposal is actually norm-equivalent through a boundedly invertible transform."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K174 proves reciprocal divergence for every positive diagonal weight, but does not state the invariance of that failure under all equivalent norms and boundedly invertible correlations.",
+    "route_comparison": "K611 leaves a correlated non-diagonal domain open. First separate a genuinely new topology from a bounded coordinate correlation of the diagonal graphs K174 already rejects.",
+    "strongest_alternative": "An unbounded graph transform or a domain defined by cross-channel cancellation may change the underlying topology and remains a live construction route."
+  },
+  "reciprocity_witness": {
+    "finite_interval_lower": "H_R*T_R >= log(R/257)^2/4",
+    "lower_is_unbounded": true,
+    "positive_diagonal_domain_with_both_requirements_exists": false,
+    "samples": [
+      {
+        "product_lower": "1.000000000000",
+        "radius": "257*exp(2)"
+      },
+      {
+        "product_lower": "4.000000000000",
+        "radius": "257*exp(4)"
+      },
+      {
+        "product_lower": "16.000000000000",
+        "radius": "257*exp(8)"
+      },
+      {
+        "product_lower": "64.000000000000",
+        "radius": "257*exp(16)"
+      }
+    ]
+  },
+  "result_id": "K634-K500-EQUIVALENT-DOMAIN-REPAIR-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Topology-invariance closure of K174/K611 for graph norms on the same diagonal one-particle domain, including norms obtained by boundedly invertible correlations, bounded similarities, finite-rank invertible perturbations and bounded block mixing.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "surviving_domain_class": {
+    "coefficient_specific_native_tail_not_excluded": true,
+    "complete_matched_form_estimated_before_factor_separation_not_excluded": true,
+    "constraint_graph_encoding_cross_channel_cancellation_not_excluded": true,
+    "genuinely_non_equivalent_correlated_domain_not_excluded": true,
+    "named_quantitative_floor_constructed": false,
+    "unbounded_or_noninvertible_change_of_topology_not_excluded": true
+  },
+  "target_claim": "NONE-NOT-A-KILL"
+}

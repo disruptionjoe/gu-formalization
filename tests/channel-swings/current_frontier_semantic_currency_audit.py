@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k633": json.loads((ROOT / "lab/process/k633-k77-zero-form-polynomial-endomorphism-obstruction.json").read_text()),
+        "k634": json.loads((ROOT / "lab/process/k634-k500-equivalent-domain-repair-obstruction.json").read_text()),
         "k631": json.loads((ROOT / "lab/process/k631-k77-owned-input-type-census.json").read_text()),
         "k632": json.loads((ROOT / "lab/process/k632-k77-owned-input-composition-closure.json").read_text()),
         "k629": json.loads((ROOT / "lab/process/k629-k77-domain-family-determinant-line-obstruction.json").read_text()),
@@ -74,6 +76,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
+        check("K633" in live and "scalar stabilizer" in live,
+              "K77 polynomial source-seed stabilizer missing")
+        check("outside `R[A]`" in live and "full-commutant" in live,
+              "K77 polynomial-scope reopener missing")
         check("K631" in live and "K632" in live and "current typed operation closure" in live,
               "K77 current-owned-input closure missing")
         check("J0^* H_Sigma J0" in live and "X^* H_Sigma X" in live,
@@ -100,6 +106,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K500 complete leakage route missing")
         check("K612" in live and "cancelled-core" in live,
               "K500 quantitative-custody obstruction missing")
+        check("K634" in live and "equivalent-norm" in live and "bounded-correlation" in live,
+              "K500 equivalent-domain closure missing")
+        check("genuinely non-equivalent cancellation domain" in live,
+              "K500 surviving topology class missing")
         check("cancellation-adapted" in live,
               "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
@@ -111,6 +121,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K633--K634 advance two independent post-K632 fronts" in summary,
+          "current K633--K634 result lost")
     check("K631--K632 prove that the post-K630 demand for new owned input" in summary,
           "current K631--K632 result lost")
     check("K629--K630 close the alternative K622 domain-map family" in summary,
@@ -156,6 +168,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "polynomial route"
+        in data["agenda"].get("latest_result_2026_09_29_k633_k634", ""),
+        "agenda K633--K634 result is not current",
+    )
     check(
         "eight strongest current serialized K77 candidates"
         in data["agenda"].get("latest_result_2026_09_29_k631_k632", ""),
@@ -266,6 +283,59 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k633 = data["k633"]
+    k633_t = k633["stabilizer_theorem"]
+    k633_o = k633["ownership_reconciliation"]
+    k633_d = k633["decision"]
+    check(len(k633["cross_characteristic_packets"]) == 2,
+          "K633 characteristic packet count moved")
+    check(all(packet["seed_action_seed_join_rank"] == 256 and
+              packet["nonconstant_quotient_coefficient_rank"] == 3 and
+              packet["nonconstant_stabilizer_nullity"] == 0
+              for packet in k633["cross_characteristic_packets"]),
+          "K633 quotient fingerprint moved")
+    check(k633_t["polynomial_stabilizer_dimension"] == 1 and
+          k633_t["polynomial_stabilizer_basis"] == ["identity"] and
+          k633_t["every_induced_source_endomorphism_is_scalar"],
+          "K633 stabilizer theorem moved")
+    check(not k633_t["nontrivial_owned_source_endomorphism_obtained"] and
+          not k633_o["arbitrary_commutant_or_mixed_hessian_excluded"],
+          "K633 ownership or scope ceiling moved")
+    check(k633_d["frozen_action_polynomial_route_to_new_V128_endomorphism_closed"] and
+          not any((k633_d["independently_owned_V128_endomorphism_found"],
+                   k633_d["actual_K596_K598_packet_released"],
+                   k633_d["selected_source_action_rejected"])),
+          "K633 decision boundary moved")
+
+    k634 = data["k634"]
+    k634_t = k634["equivalent_norm_theorem"]
+    k634_c = k634["bounded_correlation_corollary"]
+    k634_s = k634["surviving_domain_class"]
+    k634_d = k634["decision"]
+    check(k634["reciprocity_witness"]["lower_is_unbounded"] and
+          not k634["reciprocity_witness"]["positive_diagonal_domain_with_both_requirements_exists"],
+          "K634 reciprocity input moved")
+    check(k634_t["underlying_domain_set_is_unchanged"] and
+          k634_t["membership_of_boundary_profile_is_unchanged"] and
+          k634_t["continuity_of_every_linear_trace_is_invariant"] and
+          k634_t["unbounded_trace_cannot_become_bounded"],
+          "K634 equivalent-norm theorem moved")
+    check(not any((k634_c["chart_membership_repaired"],
+                   k634_c["point_trace_continuity_repaired"],
+                   k634_c["same_domain_K611_product_well_typed"],
+                   k634_c["bounded_correlation_is_genuinely_new_domain"])),
+          "K634 bounded-correlation corollary moved")
+    check(k634_s["genuinely_non_equivalent_correlated_domain_not_excluded"] and
+          k634_s["complete_matched_form_estimated_before_factor_separation_not_excluded"] and
+          not k634_s["named_quantitative_floor_constructed"],
+          "K634 surviving domain class moved")
+    check(k634_d["bounded_equivalent_domain_repair_route_closed"] and
+          not any((k634_d["all_correlated_domains_ruled_out"],
+                   k634_d["named_complete_sector_floor_emitted"],
+                   k634_d["K473_released"],
+                   k634_d["native_K152_interval_emitted"])),
+          "K634 decision boundary moved")
 
     k631 = data["k631"]
     k631_t = k631["census_theorem"]
@@ -612,6 +682,18 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k633-join", lambda d: d["k633"]["cross_characteristic_packets"][0].__setitem__("seed_action_seed_join_rank", 128))
+    add("k633-quotient", lambda d: d["k633"]["cross_characteristic_packets"][0].__setitem__("nonconstant_quotient_coefficient_rank", 2))
+    add("k633-stabilizer", lambda d: d["k633"]["stabilizer_theorem"].__setitem__("polynomial_stabilizer_dimension", 2))
+    add("k633-endomorphism", lambda d: d["k633"]["stabilizer_theorem"].__setitem__("nontrivial_owned_source_endomorphism_obtained", True))
+    add("k633-scope", lambda d: d["k633"]["ownership_reconciliation"].__setitem__("arbitrary_commutant_or_mixed_hessian_excluded", True))
+    add("k633-release", lambda d: d["k633"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k634-membership", lambda d: d["k634"]["equivalent_norm_theorem"].__setitem__("membership_of_boundary_profile_is_unchanged", False))
+    add("k634-continuity", lambda d: d["k634"]["equivalent_norm_theorem"].__setitem__("continuity_of_every_linear_trace_is_invariant", False))
+    add("k634-repair", lambda d: d["k634"]["bounded_correlation_corollary"].__setitem__("point_trace_continuity_repaired", True))
+    add("k634-scope", lambda d: d["k634"]["decision"].__setitem__("all_correlated_domains_ruled_out", True))
+    add("k634-floor", lambda d: d["k634"]["surviving_domain_class"].__setitem__("named_quantitative_floor_constructed", True))
 
     add("k631-count", lambda d: d["k631"].__setitem__("candidate_count", 7))
     add("k631-ambient", lambda d: d["k631"]["census_theorem"].__setitem__("single_candidate_matching_ambient_gram", True))

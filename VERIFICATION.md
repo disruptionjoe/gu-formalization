@@ -7,6 +7,33 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K633--K634 polynomial and equivalent-domain obstructions (2026-09-29)
+
+K633 classifies the self-stabilizer of K614's canonical source seed inside
+K438's four-dimensional polynomial functional calculus. At GF(1009) and
+GF(1013), `J0` and `A J0` each have rank 128 and their joined image has rank
+256. Modulo `im(J0)`, the three matrices `A J0`, `A^2 J0` and `A^3 J0` give
+an independent coefficient system of rank three. Consequently any
+degree-below-four `p(A)` satisfying `p(A)J0=J0R` has zero nonconstant
+coefficients; `p` is constant modulo the minimal polynomial and `R` is the
+corresponding scalar identity. This closes only the frozen polynomial route
+to a new source-domain endomorphism. The full commutant, nonlinear action
+jets, mixed Hessians and moving stationary backgrounds are not excluded. The
+producer checks both good characteristics; the independent probe checks 28
+controls and rejects 24 hostile mutations.
+
+K634 proves the topological closure of K174/K611. On a fixed vector domain,
+two equivalent graph norms have exactly the same convergent vectors and the
+same continuous linear functionals. Therefore membership of the dressed
+boundary profile and continuity of the unsmeared point trace cannot change
+under boundedly invertible similarities, invertible bounded finite-rank
+perturbations or bounded block correlations. These repairs cannot make the
+K611 chart/core product well typed. This does not exclude an unbounded or
+non-equivalent graph transform, a constraint domain enforcing cross-channel
+cancellation, or a direct estimate of the complete matched form before
+singular-factor separation. No numerical floor is emitted. The independent
+probe checks 30 controls and rejects 25 hostile mutations.
+
 ## K631--K632 current-owned-input type and composition closure (2026-09-29)
 
 K631 types the eight strongest current serialized K77 candidates against the

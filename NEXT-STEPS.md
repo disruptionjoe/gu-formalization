@@ -7,6 +7,22 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K633--K634 FROZEN POLYNOMIAL AND EQUIVALENT-DOMAIN
+> CLOSURE.** K633 tests the complete degree-below-four functional calculus of
+> K438's frozen action against K614's source-owned injection. At both good
+> characteristics, `J0` and `A J0` are transverse and the quotient classes of
+> `A J0`, `A^2 J0` and `A^3 J0` are independent. Thus the polynomial
+> stabilizer of `J0(V_128)` is exactly the constants and induces only scalar
+> identities—no new owned `V_128 -> V_128` operator. The full commutant and
+> genuinely new mixed-Hessian data remain open. Independently, K634 proves
+> that K174's boundary-profile membership and point-trace discontinuity are
+> invariant under every equivalent norm on the same diagonal graph domain.
+> Boundedly invertible similarities, invertible bounded finite-rank changes
+> and bounded block correlations therefore cannot repair K611's common-domain
+> mismatch. Next construct genuinely new selected-action data on K77, or on
+> K500 use a genuinely non-equivalent cancellation domain or estimate the
+> complete matched form before separating its singular factors.
+
 > **2026-09-29 K631--K632 CURRENT-OWNED-INPUT TYPE AND COMPOSITION
 > CLOSURE.** K631 exhausts eight strongest current serialized candidates
 > against the post-K630 K77 reopener signatures: `H_Sigma`, the partial
