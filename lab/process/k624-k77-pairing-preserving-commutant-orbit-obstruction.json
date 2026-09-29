@@ -1,0 +1,408 @@
+{
+  "claim_ceiling": "Exact cross-characteristic obstruction to every common-domain, blockwise K438-commuting orbit equivalence that preserves the projector-induced action-self-adjoint pairing H_Sigma: the four normalized pullback-Gram operators must be pairwise similar, but already their first traces differ for every block at GF(1009) and GF(1013). K622's abstract nonisometric orbit remains valid. H_Sigma is not identified with K441's separately factorized positive pairing, so K441 preservation remains open. No different action-owned mixed Hessian, stationary background, common BV/Green domain, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is settled.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "controls_passed": 29,
+    "hostile_mutations_rejected": 21,
+    "probe": "tests/channel-swings/k624_k77_pairing_preserving_commutant_orbit_obstruction_probe.py",
+    "producer": "tests/channel-swings/k624_k77_pairing_preserving_commutant_orbit_obstruction.py"
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "block_order": [
+        "fast_outgoing",
+        "fast_incoming",
+        "slow_outgoing",
+        "slow_incoming"
+      ],
+      "checks": {
+        "block_gram_rank_profiles_match": true,
+        "both_total_pullback_forms_nondegenerate": true,
+        "every_block_has_trace_invariant_mismatch": true,
+        "first_trace_already_obstructs_every_block": true,
+        "simultaneous_pairing_congruence_is_impossible": true
+      },
+      "moving_seed": {
+        "block_gram_ranks": [
+          128,
+          128,
+          64,
+          64
+        ],
+        "normalized_operator_sha256": [
+          "sha256:f512e84b75009759cbe5379b70db9bef75ceac1c816a82f5d6cd574388cf0706",
+          "sha256:213cff9a78efee26d531f44931cd98f77386f59c75c50799308d979ffa34acc8",
+          "sha256:07ba8480f17a638480ee79cb815986d8d776a95fc6e00b59efc1dfa9ff1502e2",
+          "sha256:1a5c93f60564b6778aef0e91bec4a070546284087d4bc9cd626566cc117714be"
+        ],
+        "normalized_trace_powers": [
+          [
+            359,
+            528,
+            420,
+            452
+          ],
+          [
+            359,
+            528,
+            420,
+            452
+          ],
+          [
+            714,
+            271,
+            744,
+            44
+          ],
+          [
+            714,
+            271,
+            744,
+            44
+          ]
+        ],
+        "total_gram_sha256": "sha256:b9bffac9f30347cdee0e65206235886e4da7283af65d6167405664419e762562",
+        "total_rank": 128
+      },
+      "prime": 1009,
+      "similarity_invariant_mismatches": [
+        {
+          "all_four_trace_powers_match": false,
+          "block": "fast_outgoing",
+          "moving_seed_trace_powers_1_to_4": [
+            359,
+            528,
+            420,
+            452
+          ],
+          "trace_power_1_delta": 971,
+          "zero_seed_trace_powers_1_to_4": [
+            321,
+            239,
+            0,
+            124
+          ]
+        },
+        {
+          "all_four_trace_powers_match": false,
+          "block": "fast_incoming",
+          "moving_seed_trace_powers_1_to_4": [
+            359,
+            528,
+            420,
+            452
+          ],
+          "trace_power_1_delta": 971,
+          "zero_seed_trace_powers_1_to_4": [
+            321,
+            239,
+            0,
+            124
+          ]
+        },
+        {
+          "all_four_trace_powers_match": false,
+          "block": "slow_outgoing",
+          "moving_seed_trace_powers_1_to_4": [
+            714,
+            271,
+            744,
+            44
+          ],
+          "trace_power_1_delta": 38,
+          "zero_seed_trace_powers_1_to_4": [
+            752,
+            477,
+            626,
+            808
+          ]
+        },
+        {
+          "all_four_trace_powers_match": false,
+          "block": "slow_incoming",
+          "moving_seed_trace_powers_1_to_4": [
+            714,
+            271,
+            744,
+            44
+          ],
+          "trace_power_1_delta": 38,
+          "zero_seed_trace_powers_1_to_4": [
+            752,
+            477,
+            626,
+            808
+          ]
+        }
+      ],
+      "zero_seed": {
+        "block_gram_ranks": [
+          128,
+          128,
+          64,
+          64
+        ],
+        "normalized_operator_sha256": [
+          "sha256:190ee58c7256f1bc5bea5dbc2e9bb1cc295411175750068e19d6ef8cf3773001",
+          "sha256:9fe3396a39eaa57735b9104e24c4a2fd301e737e319bb70d4c0ca086ef54b1c1",
+          "sha256:46b85f81809a5d118913e7f53350204d9f97782d34cbda5586317103e03ed561",
+          "sha256:49241435e3334d7216b9e1d8374efc5d227baa9596968eb00877d4e976593dda"
+        ],
+        "normalized_trace_powers": [
+          [
+            321,
+            239,
+            0,
+            124
+          ],
+          [
+            321,
+            239,
+            0,
+            124
+          ],
+          [
+            752,
+            477,
+            626,
+            808
+          ],
+          [
+            752,
+            477,
+            626,
+            808
+          ]
+        ],
+        "total_gram_sha256": "sha256:30a6d2f71f55a95a9c628bb3dfea127275bb2851a90740f65649755558b19bd8",
+        "total_rank": 128
+      }
+    },
+    {
+      "block_order": [
+        "fast_outgoing",
+        "fast_incoming",
+        "slow_outgoing",
+        "slow_incoming"
+      ],
+      "checks": {
+        "block_gram_rank_profiles_match": true,
+        "both_total_pullback_forms_nondegenerate": true,
+        "every_block_has_trace_invariant_mismatch": true,
+        "first_trace_already_obstructs_every_block": true,
+        "simultaneous_pairing_congruence_is_impossible": true
+      },
+      "moving_seed": {
+        "block_gram_ranks": [
+          128,
+          128,
+          64,
+          64
+        ],
+        "normalized_operator_sha256": [
+          "sha256:a396196c82fe95a709bc79f2275f2bcc5a84e67fde4f6c36201395ab4c075544",
+          "sha256:26fed164b79a08a1541c75a8d4d848701de7ad182864164621437b56baaefa2a",
+          "sha256:74b92064684c106a853a0afc5ec89e99c49c98d44381771f33f353c0de7d0915",
+          "sha256:716693916b9af55eae4c4463538dcccc94dcd5ab16d9393fbfaa40331bf41817"
+        ],
+        "normalized_trace_powers": [
+          [
+            182,
+            333,
+            864,
+            549
+          ],
+          [
+            182,
+            333,
+            864,
+            549
+          ],
+          [
+            895,
+            773,
+            266,
+            63
+          ],
+          [
+            895,
+            773,
+            266,
+            63
+          ]
+        ],
+        "total_gram_sha256": "sha256:f842e675e015962a132f104c7b70d548a2f6831faea30aa7fa66e7e870e9c572",
+        "total_rank": 128
+      },
+      "prime": 1013,
+      "similarity_invariant_mismatches": [
+        {
+          "all_four_trace_powers_match": false,
+          "block": "fast_outgoing",
+          "moving_seed_trace_powers_1_to_4": [
+            182,
+            333,
+            864,
+            549
+          ],
+          "trace_power_1_delta": 345,
+          "zero_seed_trace_powers_1_to_4": [
+            527,
+            652,
+            801,
+            715
+          ]
+        },
+        {
+          "all_four_trace_powers_match": false,
+          "block": "fast_incoming",
+          "moving_seed_trace_powers_1_to_4": [
+            182,
+            333,
+            864,
+            549
+          ],
+          "trace_power_1_delta": 345,
+          "zero_seed_trace_powers_1_to_4": [
+            527,
+            652,
+            801,
+            715
+          ]
+        },
+        {
+          "all_four_trace_powers_match": false,
+          "block": "slow_outgoing",
+          "moving_seed_trace_powers_1_to_4": [
+            895,
+            773,
+            266,
+            63
+          ],
+          "trace_power_1_delta": 668,
+          "zero_seed_trace_powers_1_to_4": [
+            550,
+            36,
+            853,
+            413
+          ]
+        },
+        {
+          "all_four_trace_powers_match": false,
+          "block": "slow_incoming",
+          "moving_seed_trace_powers_1_to_4": [
+            895,
+            773,
+            266,
+            63
+          ],
+          "trace_power_1_delta": 668,
+          "zero_seed_trace_powers_1_to_4": [
+            550,
+            36,
+            853,
+            413
+          ]
+        }
+      ],
+      "zero_seed": {
+        "block_gram_ranks": [
+          128,
+          128,
+          64,
+          64
+        ],
+        "normalized_operator_sha256": [
+          "sha256:dc4ae0867a4fb1ff22a4d0e882ba04f5780a3329ad7ee559edf676b1ea99d157",
+          "sha256:da404f6ea648186c35bf8bb56d07277d3ccc3ecdc18a6c1db50cd68d1fbc968a",
+          "sha256:f0b51eaecd8317aeffc361ba8025d780c37ad289f6a3e1bae8397bcb38a05fe2",
+          "sha256:f322a6739cb5afd22c9f23d7978551ab5fd580cc6c8ef4906d2af879897b746f"
+        ],
+        "normalized_trace_powers": [
+          [
+            527,
+            652,
+            801,
+            715
+          ],
+          [
+            527,
+            652,
+            801,
+            715
+          ],
+          [
+            550,
+            36,
+            853,
+            413
+          ],
+          [
+            550,
+            36,
+            853,
+            413
+          ]
+        ],
+        "total_gram_sha256": "sha256:a4253d902ea691c5bd2200fb41f46cfd106a4754b6b0f5028507d6866d6ca590",
+        "total_rank": 128
+      }
+    }
+  ],
+  "decision": {
+    "K441_pairing_preservation_decided": false,
+    "actual_K596_K598_packet_released": false,
+    "current_seed_identification_can_preserve_projector_pairing": false,
+    "next_exact_input": "Either serialize the exact ambient embedding/Gram that identifies K441's factorized positive pairing with the K438/K614/K617 coordinate model, or supply genuinely new action-owned data: a source-domain endomorphism or mixed-Hessian odd adapter on a nonzero stationary moving background. Only then test its K441 Riesz return and common BV/Green domain.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "block_forms": "the four source pullbacks J_i^T J_i and X_i^T X_i for K438's fast/slow outgoing/incoming eigenspaces",
+    "carrier_adapter": "four hypothetical H_Sigma-isometries T_i, one per K438 eigenspace",
+    "domain_adapter": "one hypothetical common R in GL(128)",
+    "pairing": "the projector-induced action-self-adjoint form H_Sigma=sum_i P_i^T P_i; no ambient identification with K441's factorized positive pairing is serialized",
+    "result": "full pairing-preserving commutant-orbit obstruction MAP-TYPE=simultaneous-congruence similarity invariant",
+    "target": "existence of T_i J_i R = X_i with every T_i pairing-preserving"
+  },
+  "ledger_no_change_reason": "The theorem closes the arbitrary isometric orbit of two repository-owned conditional seed maps. It does not test a selected nonlinear action, stationary solution, gauge-reduced class, physical domain, observation map or cohomology, so SC-ACT-01/02, SC-CHI-01/51 and every v0.263 row remain unchanged.",
+  "ownership_reconciliation": {
+    "K621_fixed_domain_obstruction_retracted": false,
+    "K622_abstract_orbit_equivalence_retracted": false,
+    "K623_specific_witness_failure_strengthened": true,
+    "common_BV_Green_domain_constructed": false,
+    "different_action_owned_mixed_hessian_excluded": false,
+    "nonzero_stationary_background_constructed": false,
+    "projector_pairing_preserving_same_data_repair_excluded": true
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "K622's nonisometric abstract orbit remains nonempty; another symmetrizing pairing can differ within each action eigenspace, and K441's ambient Gram has not been serialized.",
+    "strongest_overclaim": "Calling the H_Sigma obstruction a decision about K441's separately factorized pairing, every field-dependent mixed Hessian, every pairing, or the selected source action.",
+    "weakest_reproducibility_seam": "The obstruction is exact at two good characteristics and uses first traces of normalized 128-by-128 operators rather than a characteristic-zero symbolic determinant identity."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K623 rejects only K622's explicit witness. No predecessor normalizes and compares the complete four-form pullback tuple for J0 and X.",
+    "route_comparison": "Replace arbitrary-map search by the simultaneous-congruence invariants forced by H_Sigma isometry; this decides every common domain reparameterization for the exact projector-induced pairing at once.",
+    "strongest_alternative": "Constructing a new action-owned mixed Hessian is physically stronger but requires missing stationary/action data and is not supplied by an arbitrary pairing repair."
+  },
+  "result_id": "K624-K77-PAIRING-PRESERVING-COMMUTANT-ORBIT-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact necessary-invariant test for any common GL(128) source reparameterization and blockwise K438-commuting isometries carrying K614 J0 to K617 X while preserving the projector-induced pairing H_Sigma=sum_i P_i^T P_i.",
+  "simultaneous_congruence_theorem": {
+    "K441_factorized_pairing_identification_serialized": false,
+    "abstract_nonisometric_K622_orbit_exists": true,
+    "all_four_first_traces_mismatch_at_both_primes": true,
+    "necessary_equations": "R^T G_i(J) R = G_i(X) for all four blocks",
+    "necessary_similarity": "H_i(X)=R^-1 H_i(J) R",
+    "normalization": "H_i(J)=G(J)^-1 G_i(J) and H_i(X)=G(X)^-1 G_i(X)",
+    "pairing_model": "projector_induced_H_Sigma",
+    "projector_pairing_preserving_commutant_and_domain_orbit_exists": false,
+    "total_pullback_forms_are_nondegenerate": true,
+    "trace_is_similarity_invariant": true
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

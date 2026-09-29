@@ -7,6 +7,27 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K623--K624 PROJECTOR-PAIRING ORBIT OBSTRUCTION.** K623
+> constructs `H_Sigma=sum_i P_i^T P_i`, an exact rank-512 positive real form
+> making K438 and its four spectral projectors self-adjoint. This form is not
+> yet identified with K441's separately factorized pairing: K438 is not
+> self-adjoint for the raw coordinate dot product, and K441 supplies no
+> ambient Gram/embedding. K622's explicit domain map has rank-96 coordinate-
+> orthogonality defect, and its fast-outgoing, fast-incoming and slow-outgoing
+> `H_Sigma` pullback Gram defects have ranks `128,128,64`; only the
+> slow-incoming identity holds. K624 removes the witness choice: any common
+> source map plus blockwise `H_Sigma` isometries would simultaneously congrue
+> the four pullback Gram forms,
+> so the normalized operators must be similar. Their first traces differ in
+> every block at GF(1009) and GF(1013). Thus the present K614/K617 seeds have
+> no `H_Sigma`-preserving commutant/domain orbit, while K622's abstract
+> nonisometric orbit remains valid. Next either serialize the exact ambient
+> K441 pairing bridge, or supply genuinely new action-owned data: a source-
+> domain endomorphism or mixed-Hessian odd adapter on a nonzero stationary
+> moving background, then prove its K441 Riesz return and common BV/Green
+> domain before K596/K598. Do not call the `H_Sigma` obstruction a K441
+> theorem or broaden it into a rejection of every nonlinear action completion.
+
 > **2026-09-29 K621--K622 FULL COMMUTANT AND DOMAIN-ORBIT
 > CLASSIFICATION.** K621 tests all 81,920 dimensions of the K438 action
 > commutant, not only polynomials in `A`. With the common source coordinates

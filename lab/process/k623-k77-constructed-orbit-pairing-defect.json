@@ -1,0 +1,204 @@
+{
+  "claim_ceiling": "Exact cross-characteristic failure of the explicit K622 orbit witness to preserve the projector-induced action-self-adjoint pairing H_Sigma: its source map has rank-96 coordinate-orthogonality defect and three of four block pullback Gram identities fail. K622's abstract orbit equivalence remains valid. H_Sigma is not identified with K441's separately factorized positive pairing, so K441 preservation remains open. No different common source map, action-owned adapter, common domain, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is settled.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k623_k77_constructed_orbit_pairing_defect_probe.py",
+    "producer": "tests/channel-swings/k623_k77_constructed_orbit_pairing_defect.py"
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "checks": {
+        "K622_domain_map_is_invertible": true,
+        "K622_domain_map_is_not_orthogonal": true,
+        "action_is_self_adjoint_for_projector_pairing": true,
+        "all_spectral_projectors_are_self_adjoint_for_projector_pairing": true,
+        "both_fast_block_gram_identities_fail": true,
+        "constructed_orbit_is_not_projector_pairing_isometric": true,
+        "projector_pairing_is_symmetric": true,
+        "projector_pairing_rank_is_corrected_carrier_rank": true,
+        "three_of_four_block_gram_identities_fail": true
+      },
+      "domain_orthogonality_defect_rank": 96,
+      "domain_orthogonality_defect_sha256": "sha256:a01cfa380d885d912ad5c83a06dbf9e2162168425e81b422a2ce5a1aedc5e2fe",
+      "domain_reparameterization_rank": 128,
+      "domain_reparameterization_sha256": "sha256:58c2fcb1d4db7d4fff8f6fadce0aa6958af2b409c2e47c1d7fade28255a59227",
+      "eigenblock_pairing_rows": {
+        "fast_incoming": {
+          "moved_rank": 128,
+          "projector_pairing_isometry_necessary_gram_identity": false,
+          "pullback_gram_defect_rank": 128,
+          "pullback_gram_defect_sha256": "sha256:4b590c3a455b89c4fd27b85926f733ad729b06cdab797c5c1619129884d0e00a",
+          "target_rank": 128
+        },
+        "fast_outgoing": {
+          "moved_rank": 128,
+          "projector_pairing_isometry_necessary_gram_identity": false,
+          "pullback_gram_defect_rank": 128,
+          "pullback_gram_defect_sha256": "sha256:dc6ea44435c4ffc758d6174207ca5dea239033febf58fbda971be495d6d462f1",
+          "target_rank": 128
+        },
+        "slow_incoming": {
+          "moved_rank": 64,
+          "projector_pairing_isometry_necessary_gram_identity": true,
+          "pullback_gram_defect_rank": 0,
+          "pullback_gram_defect_sha256": "sha256:9ce917220c83b2acc1777855362b3bc847536057b77e28be14a69994afaba75c",
+          "target_rank": 64
+        },
+        "slow_outgoing": {
+          "moved_rank": 64,
+          "projector_pairing_isometry_necessary_gram_identity": false,
+          "pullback_gram_defect_rank": 64,
+          "pullback_gram_defect_sha256": "sha256:ed83f919eabec2c8a49dfb4a1516a5a2d06f81aa59e9f8f7eef9edaa05a209d1",
+          "target_rank": 64
+        }
+      },
+      "prime": 1009,
+      "projector_pairing_rank": 512,
+      "projector_pairing_sha256": "sha256:2f4fecca7ddc809b6ee137336ac49b5faa111cedbc8834ab2ebe957c8ec3c90c"
+    },
+    {
+      "checks": {
+        "K622_domain_map_is_invertible": true,
+        "K622_domain_map_is_not_orthogonal": true,
+        "action_is_self_adjoint_for_projector_pairing": true,
+        "all_spectral_projectors_are_self_adjoint_for_projector_pairing": true,
+        "both_fast_block_gram_identities_fail": true,
+        "constructed_orbit_is_not_projector_pairing_isometric": true,
+        "projector_pairing_is_symmetric": true,
+        "projector_pairing_rank_is_corrected_carrier_rank": true,
+        "three_of_four_block_gram_identities_fail": true
+      },
+      "domain_orthogonality_defect_rank": 96,
+      "domain_orthogonality_defect_sha256": "sha256:f88e853e1721131d251e66103761685774bfb8539bbb007c245882eaab23735f",
+      "domain_reparameterization_rank": 128,
+      "domain_reparameterization_sha256": "sha256:603d56e98d361d4a02353d539ca854c110390a40a3c509d9ea701b0cdb70d2fe",
+      "eigenblock_pairing_rows": {
+        "fast_incoming": {
+          "moved_rank": 128,
+          "projector_pairing_isometry_necessary_gram_identity": false,
+          "pullback_gram_defect_rank": 128,
+          "pullback_gram_defect_sha256": "sha256:bbcecf3115b6f92f9b124474a029432e08bbc6c05b55130f0f9719d8a64754d1",
+          "target_rank": 128
+        },
+        "fast_outgoing": {
+          "moved_rank": 128,
+          "projector_pairing_isometry_necessary_gram_identity": false,
+          "pullback_gram_defect_rank": 128,
+          "pullback_gram_defect_sha256": "sha256:e306d76d2a9a289b0e3722589e37198e9ee90962ce822ba7555f9ca9e2500666",
+          "target_rank": 128
+        },
+        "slow_incoming": {
+          "moved_rank": 64,
+          "projector_pairing_isometry_necessary_gram_identity": true,
+          "pullback_gram_defect_rank": 0,
+          "pullback_gram_defect_sha256": "sha256:9ce917220c83b2acc1777855362b3bc847536057b77e28be14a69994afaba75c",
+          "target_rank": 64
+        },
+        "slow_outgoing": {
+          "moved_rank": 64,
+          "projector_pairing_isometry_necessary_gram_identity": false,
+          "pullback_gram_defect_rank": 64,
+          "pullback_gram_defect_sha256": "sha256:aed3c07ffa8ede1b50f0bce9b48935e20565828ef7590db1d894f90f76b074f6",
+          "target_rank": 64
+        }
+      },
+      "prime": 1013,
+      "projector_pairing_rank": 512,
+      "projector_pairing_sha256": "sha256:37f91b7272301359185b5dfe3b723a62bb8f601499b0e6f46fa8b8a0e559b227"
+    }
+  ],
+  "decision": {
+    "K441_pairing_preservation_decided": false,
+    "actual_K596_K598_packet_released": false,
+    "constructed_K622_witness_passes_pairing_gate": false,
+    "selected_source_action_rejected": false,
+    "strongest_same_data_repair": "Allow an arbitrary common source-domain automorphism and test simultaneous congruence of all four pullback Gram forms."
+  },
+  "direction": "observed_to_native",
+  "eigenblock_pairing_fingerprint": {
+    "fast_incoming": {
+      "moved_rank": 128,
+      "projector_pairing_isometry_necessary_gram_identity": false,
+      "pullback_gram_defect_rank": 128,
+      "pullback_gram_defect_sha256": "sha256:4b590c3a455b89c4fd27b85926f733ad729b06cdab797c5c1619129884d0e00a",
+      "target_rank": 128
+    },
+    "fast_outgoing": {
+      "moved_rank": 128,
+      "projector_pairing_isometry_necessary_gram_identity": false,
+      "pullback_gram_defect_rank": 128,
+      "pullback_gram_defect_sha256": "sha256:dc6ea44435c4ffc758d6174207ca5dea239033febf58fbda971be495d6d462f1",
+      "target_rank": 128
+    },
+    "slow_incoming": {
+      "moved_rank": 64,
+      "projector_pairing_isometry_necessary_gram_identity": true,
+      "pullback_gram_defect_rank": 0,
+      "pullback_gram_defect_sha256": "sha256:9ce917220c83b2acc1777855362b3bc847536057b77e28be14a69994afaba75c",
+      "target_rank": 64
+    },
+    "slow_outgoing": {
+      "moved_rank": 64,
+      "projector_pairing_isometry_necessary_gram_identity": false,
+      "pullback_gram_defect_rank": 64,
+      "pullback_gram_defect_sha256": "sha256:ed83f919eabec2c8a49dfb4a1516a5a2d06f81aa59e9f8f7eef9edaa05a209d1",
+      "target_rank": 64
+    }
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "carrier_adapter": "a hypothetical blockwise H_Sigma-isometry commuting with K438",
+    "domain_adapter": "the explicit noncanonical K622 R in GL(128)",
+    "pairing": "the projector-induced form H_Sigma=sum_i P_i^T P_i, positive definite on the corrected real carrier and exact over both finite-field controls",
+    "result": "constructed-orbit pairing obstruction MAP-TYPE=pullback-Gram mismatch",
+    "seed_maps": "K614 J0 and K617 X from the common abstract Omega0(S)_128 source into K438's four action eigenspaces",
+    "target": "whether K622's witness preserves the exact projector-induced pairing; identification with K441's factorized positive pairing is separately unproved"
+  },
+  "ledger_no_change_reason": "The result rejects one noncanonical abstract orbit witness only. It constructs no action-owned mixed Hessian, stationary background, gauge-reduced class, observation map, physical cohomology or source mechanism; every v0.263 row remains unchanged.",
+  "ownership_reconciliation": {
+    "K622_abstract_orbit_equivalence_retracted": false,
+    "K622_constructed_domain_map_is_source_selected": false,
+    "common_BV_Green_domain_constructed": false,
+    "nonzero_stationary_background_constructed": false,
+    "pairing_failure_supplies_action_owned_adapter": false
+  },
+  "pairing_theorem": {
+    "K622_constructed_orbit_preserves_projector_pairing": false,
+    "arbitrary_domain_map_and_projector_pairing_isometric_orbit_excluded": false,
+    "block_order": [
+      "fast_outgoing",
+      "fast_incoming",
+      "slow_outgoing",
+      "slow_incoming"
+    ],
+    "block_pullback_gram_defect_ranks": [
+      128,
+      128,
+      64,
+      0
+    ],
+    "domain_orthogonality_defect_rank": 96,
+    "projector_pairing_identified_with_K441_factorized_pairing": false,
+    "projector_pairing_is_action_self_adjoint": true,
+    "three_of_four_necessary_gram_identities_fail": true
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The slow-incoming block happens to satisfy the Gram identity exactly even though the other three blocks fail.",
+    "strongest_overclaim": "Calling failure for H_Sigma either failure of every pairing-preserving domain/commutant orbit or a decision about K441's separately factorized pairing.",
+    "weakest_reproducibility_seam": "The finite-field packets certify algebraic self-adjointness and Gram defects; positivity is the real-coordinate statement sum_i ||P_i v||^2, and no K441 ambient identification is claimed."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K622 explicitly leaves pairing preservation open; K441 serializes a factorized positive pairing but no ambient Gram/embedding identifying it with the K438 coordinate model.",
+    "route_comparison": "Test K622's actual witness against the exact projector-induced self-adjoint pairing before searching a new adapter or claiming compatibility with K441.",
+    "strongest_alternative": "The failure could depend on K622's chosen row bases, so K624 must test the arbitrary common-domain orbit invariantly."
+  },
+  "result_id": "K623-K77-CONSTRUCTED-ORBIT-PAIRING-DEFECT",
+  "schema_version": "1.0",
+  "scope": "Exact test of whether K622's explicit GL(128) source reparameterization can be completed by blockwise isometries of the canonical projector-induced pairing H_Sigma=sum_i P_i^T P_i on the corrected carrier.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7a09b4bb942c
+revision_basis: 56a98d79487e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K623--K624 close the projector-induced pairing repair left open by K622
+    without retracting its abstract orbit theorem. K623 constructs
+    `H_Sigma=sum_i P_i^T P_i`, an exact rank-512 form making K438 and its four
+    spectral projectors self-adjoint and positive on the corrected real
+    carrier. It is not identified with K441's separately factorized pairing:
+    K438 has coordinate-transpose defect rank 256 and K441 serializes no
+    ambient Gram/embedding. K622's explicit `GL(128)` domain map has rank-96
+    coordinate-orthogonality defect; its fast-outgoing, fast-incoming and
+    slow-outgoing `H_Sigma` pullback Gram defects have ranks `128,128,64`,
+    while only the slow-incoming identity holds. K624 removes that witness
+    choice. Any common source map and blockwise K438-commuting `H_Sigma`
+    isometries would simultaneously congrue the four pullback Gram forms.
+    After normalization by each nonsingular total form, the four operators
+    would be similar, but already their first traces differ in every block at
+    GF(1009) and GF(1013). Thus the current K614/K617 seeds have no
+    `H_Sigma`-preserving commutant/domain orbit. Their abstract nonisometric
+    orbit remains valid, K441 preservation remains open pending an ambient
+    pairing bridge, and a genuinely new action-owned mixed Hessian or source-
+    domain endomorphism on a nonzero stationary background also remains open.
+    No common BV/Green domain, K596/K598 packet or protected scientific or
+    public conclusion moves.
+
     K621--K622 classify the complete nonpolynomial commutant escape left open
     by K620. K621 uses the four K438 eigenspaces to test the full
     81,920-dimensional commutant, not only `R[A]`. With the common
@@ -11306,23 +11328,25 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the K77 route, K621--K622 now settle both abstract commutant questions
-  left open by K620. With the shared `Omega^0(S)_128` coordinates fixed, no
-  endomorphism commuting with K438's action sends K614's zero-form seed to
-  K617's moving-`varpi` seed: the two rank-64 slow-block row spaces are
-  disjoint in both signs, even though both fast blocks admit large solution
-  families. Allowing an arbitrary invertible source-domain reparameterization
-  removes that obstruction. Each seed's outgoing/incoming slow row spaces are
-  complementary, so one domain map matches both pairs and invertible
-  commutant transports then exist in every block. This proves only a highly
-  nonunique abstract orbit equivalence. Neither the domain map nor any of the
-  carrier transports is source-selected, action-owned, K441-pairing
-  preserving or common-domain compatible. Reopen through an independently
-  action-owned source-domain endomorphism or mixed-Hessian odd adapter on a
-  nonzero stationary moving background, then prove K441 pairing and common
-  BV/Green-domain preservation before K596/K598. Do not promote orbit
-  equivalence to seed identity, action selection or physical equivalence, and
-  do not retract K615/K616 or replay the v0.163--v0.165 unrestricted route.
+  On the K77 route, K623--K624 now close the projector-induced pairing repair
+  of K622's abstract orbit. K623 constructs the rank-512 action-self-adjoint
+  form `H_Sigma=sum_i P_i^T P_i`; it is not identified with K441's separately
+  factorized positive pairing because the ambient Gram/embedding is absent.
+  The explicit K622 domain map has rank-96 coordinate-orthogonality defect and
+  fails three of four `H_Sigma` pullback-Gram identities. K624 tests every
+  common source reparameterization: blockwise `H_Sigma` isometries
+  would force simultaneous congruence of the four seed Gram forms, hence
+  similarity of their total-normalized operators, but the first traces differ
+  in all four blocks at both good characteristics. Preserve K621's fixed-
+  domain full-commutant obstruction and K622's nonisometric abstract orbit;
+  neither selects or identifies the seeds. Reopen only with genuinely new,
+  independently action-owned data: a source-domain endomorphism or mixed-
+  Hessian odd adapter on a nonzero stationary moving background, followed by
+  either an exact ambient bridge to K441's pairing or its own K441 Riesz
+  return and common BV/Green domain before K596/K598. Do not call the
+  `H_Sigma` obstruction a K441 theorem, broaden it into a rejection of every
+  nonlinear action completion, retract K614--K622, or replay the already
+  banked v0.163--v0.165 unrestricted southeast/ordinary-gauge BV route.
 
   On the K500 route, K612 proves that K139's current matched-form proof record
   does not serialize enough quantitative custody to identify its existential
@@ -11806,20 +11830,26 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, K621 excludes every fixed-domain adapter in the full K438
-  commutant: both slow-sign block row spaces of `J0` and `X` are disjoint.
-  K622 also proves the exact limitation of that obstruction. An arbitrary
-  invertible `GL(128)` change of source coordinates can match both ordered
-  slow decompositions, after which invertible blockwise commutant transports
-  exist, so the seed maps are abstractly orbit-equivalent but not canonically
-  identified. Preserve K619's common rank-384 module and K620's polynomial
-  obstruction. Reopen only with an independently action-owned source-domain
-  endomorphism or mixed-Hessian odd adapter on a nonzero stationary moving
-  background, then prove that exact adapter preserves the K441 pairing and a
-  common BV/Green domain before applying K596/K598 and properness. Do not
-  infer action ownership from arbitrary orbit equivalence, do not retract
-  K614--K620 or K613's central-parity ceiling, and do not replay the already
-  banked v0.163--v0.165 unrestricted southeast/ordinary-gauge BV route. On the
+  On the K77 route, K623 constructs the exact rank-512 projector-induced form
+  `H_Sigma=sum_i P_i^T P_i`, which makes K438 and its projectors self-adjoint
+  but is not identified with K441's separately factorized pairing. K622's
+  explicit domain map has rank-96 coordinate-orthogonality defect and fails
+  three of four `H_Sigma` pullback-Gram identities. K624 closes the arbitrary
+  same-data `H_Sigma`-isometric repair: any common source map and blockwise
+  K438-commuting `H_Sigma` isometries would simultaneously congrue
+  the four seed Gram forms, but the first traces of their total-normalized
+  operators differ in every block at GF(1009) and GF(1013). Preserve K621's
+  fixed-domain full-commutant obstruction, K622's nonisometric abstract orbit,
+  K619's common rank-384 module and K620's polynomial obstruction. Reopen only
+  either an exact ambient K441 pairing bridge or a genuinely new independently
+  action-owned source-domain endomorphism or mixed-Hessian odd adapter on a
+  nonzero stationary moving background, then prove its K441 Riesz return and
+  common BV/Green domain before K596/K598 and properness. Do not infer action
+  ownership from abstract orbit equivalence, call the `H_Sigma` result a K441
+  theorem, broaden the same-seed pairing obstruction to every nonlinear
+  completion, or retract K614--K622 or K613's central-parity
+  ceiling, and do not replay the already banked v0.163--v0.165 unrestricted
+  southeast/ordinary-gauge BV route. On the
   K500 route, K612 closes constant
   extraction from the present K139/K156 proof record: its chart constants and
   qualitative semibound do not include a quantitative complete cancelled-core

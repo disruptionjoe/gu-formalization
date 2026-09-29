@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k623": json.loads((ROOT / "lab/process/k623-k77-constructed-orbit-pairing-defect.json").read_text()),
+        "k624": json.loads((ROOT / "lab/process/k624-k77-pairing-preserving-commutant-orbit-obstruction.json").read_text()),
         "k621": json.loads((ROOT / "lab/process/k621-k77-full-action-commutant-seed-adapter-obstruction.json").read_text()),
         "k622": json.loads((ROOT / "lab/process/k622-k77-domain-reparameterized-commutant-orbit.json").read_text()),
         "k619": json.loads((ROOT / "lab/process/k619-k77-zero-form-moving-graph-common-action-module.json").read_text()),
@@ -64,19 +66,25 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K621" in live and "full K438 commutant" in live,
+        check("K623" in live and "rank-96" in live,
+              "K77 constructed-orbit pairing defect missing")
+        check("K624" in live and "simultaneously congrue" in live and "H_Sigma" in live,
+              "K77 projector-pairing orbit obstruction missing")
+        check("first traces" in live and "every block" in live,
+              "K77 similarity invariant missing")
+        check("K621" in live and "fixed-domain full-commutant" in live,
               "K77 full-commutant obstruction missing")
-        check("K622" in live and "orbit-equivalent" in live,
+        check("K622" in live and "nonisometric abstract orbit" in live,
               "K77 domain-orbit repair missing")
         check("v0.163--v0.165" in live and "already banked" in live,
               "K77 completed unrestricted/BV route repeat fence missing")
-        check("Preserve K619's common rank-384 module" in live and "K620's polynomial" in live,
+        check("K619's common rank-384 module" in live and "K620's polynomial obstruction" in live,
               "K77 predecessor action-hull custody missing")
         check("mixed-Hessian" in live and "common BV/Green domain" in live,
               "K77 current reopener/ownership fence missing")
-        check("Do not infer action ownership from arbitrary orbit equivalence" in live,
+        check("Do not infer action ownership from abstract orbit" in live,
               "K77 orbit-equivalence ownership fence missing")
-        check("K614--K620" in live, "K77 frozen zero-form route preservation missing")
+        check("K614--K622" in live, "K77 frozen zero-form route preservation missing")
         check("K596/K598" in live, "K77 unsplit-packet interface missing")
         check("nonzero stationary moving background" in live and "independently action-owned" in live,
               "K77 moving reopener missing")
@@ -97,6 +105,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K623--K624 close the projector-induced pairing repair" in summary,
+          "current K623--K624 result lost")
     check("K621--K622 classify the complete nonpolynomial commutant escape" in summary,
           "current K621--K622 result lost")
     check("K619--K620 compose K614's source-owned zero-form seed" in summary,
@@ -132,6 +142,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "pullback Gram forms" in data["agenda"].get("latest_result_2026_09_29_k623_k624", ""),
+        "agenda K623--K624 result is not current",
+    )
     check(
         "full K438 action commutant"
         in data["agenda"].get("latest_result_2026_09_29_k621_k622", ""),
@@ -218,6 +232,32 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k623 = data["k623"]
+    k623_t = k623["pairing_theorem"]
+    k623_o = k623["ownership_reconciliation"]
+    k623_d = k623["decision"]
+    check(len(k623["cross_characteristic_packets"]) == 2, "K623 characteristic packet count moved")
+    check(k623_t["domain_orthogonality_defect_rank"] == 96, "K623 domain orthogonality defect moved")
+    check(k623_t["block_pullback_gram_defect_ranks"] == [128, 128, 64, 0], "K623 block Gram defects moved")
+    check(k623_t["three_of_four_necessary_gram_identities_fail"] and not k623_t["K622_constructed_orbit_preserves_projector_pairing"], "K623 pairing verdict moved")
+    check(not k623_t["arbitrary_domain_map_and_projector_pairing_isometric_orbit_excluded"], "K623 scope broadened")
+    check(k623_t["projector_pairing_is_action_self_adjoint"] and not k623_t["projector_pairing_identified_with_K441_factorized_pairing"], "K623 projector/K441 pairing boundary moved")
+    check(not any((k623_o["K622_abstract_orbit_equivalence_retracted"], k623_o["K622_constructed_domain_map_is_source_selected"], k623_o["pairing_failure_supplies_action_owned_adapter"], k623_o["common_BV_Green_domain_constructed"], k623_o["nonzero_stationary_background_constructed"])), "K623 ownership ceiling moved")
+    check(not any((k623_d["constructed_K622_witness_passes_pairing_gate"], k623_d["K441_pairing_preservation_decided"], k623_d["actual_K596_K598_packet_released"], k623_d["selected_source_action_rejected"])), "K623 decision ceiling moved")
+
+    k624 = data["k624"]
+    k624_t = k624["simultaneous_congruence_theorem"]
+    k624_o = k624["ownership_reconciliation"]
+    k624_d = k624["decision"]
+    check(len(k624["cross_characteristic_packets"]) == 2, "K624 characteristic packet count moved")
+    check(k624_t["total_pullback_forms_are_nondegenerate"] and k624_t["trace_is_similarity_invariant"], "K624 normalized-form theorem moved")
+    check(k624_t["all_four_first_traces_mismatch_at_both_primes"], "K624 trace obstruction moved")
+    check(not k624_t["projector_pairing_preserving_commutant_and_domain_orbit_exists"] and k624_t["abstract_nonisometric_K622_orbit_exists"], "K624 orbit boundary moved")
+    check(k624_t["pairing_model"] == "projector_induced_H_Sigma" and not k624_t["K441_factorized_pairing_identification_serialized"], "K624 projector/K441 pairing boundary moved")
+    check(k624_o["projector_pairing_preserving_same_data_repair_excluded"] and not k624_o["different_action_owned_mixed_hessian_excluded"], "K624 same-data/new-data boundary moved")
+    check(not any((k624_o["K621_fixed_domain_obstruction_retracted"], k624_o["K622_abstract_orbit_equivalence_retracted"], k624_o["common_BV_Green_domain_constructed"], k624_o["nonzero_stationary_background_constructed"])), "K624 ownership ceiling moved")
+    check(not any((k624_d["current_seed_identification_can_preserve_projector_pairing"], k624_d["K441_pairing_preservation_decided"], k624_d["actual_K596_K598_packet_released"], k624_d["selected_source_action_rejected"])), "K624 decision ceiling moved")
 
     k621 = data["k621"]
     k621_t = k621["commutant_theorem"]
@@ -423,6 +463,25 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k623-domain-defect", lambda d: d["k623"]["pairing_theorem"].__setitem__("domain_orthogonality_defect_rank", 0))
+    add("k623-gram-defects", lambda d: d["k623"]["pairing_theorem"].__setitem__("block_pullback_gram_defect_ranks", [0, 0, 0, 0]))
+    add("k623-pairing", lambda d: d["k623"]["pairing_theorem"].__setitem__("K622_constructed_orbit_preserves_projector_pairing", True))
+    add("k623-scope", lambda d: d["k623"]["pairing_theorem"].__setitem__("arbitrary_domain_map_and_projector_pairing_isometric_orbit_excluded", True))
+    add("k623-self-adjoint", lambda d: d["k623"]["pairing_theorem"].__setitem__("projector_pairing_is_action_self_adjoint", False))
+    add("k623-k441-identification", lambda d: d["k623"]["pairing_theorem"].__setitem__("projector_pairing_identified_with_K441_factorized_pairing", True))
+    add("k623-k441-decision", lambda d: d["k623"]["decision"].__setitem__("K441_pairing_preservation_decided", True))
+    add("k623-retract", lambda d: d["k623"]["ownership_reconciliation"].__setitem__("K622_abstract_orbit_equivalence_retracted", True))
+    add("k623-release", lambda d: d["k623"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k624-trace", lambda d: d["k624"]["simultaneous_congruence_theorem"].__setitem__("all_four_first_traces_mismatch_at_both_primes", False))
+    add("k624-isometric-orbit", lambda d: d["k624"]["simultaneous_congruence_theorem"].__setitem__("projector_pairing_preserving_commutant_and_domain_orbit_exists", True))
+    add("k624-pairing-model", lambda d: d["k624"]["simultaneous_congruence_theorem"].__setitem__("pairing_model", "K441_factorized_pairing"))
+    add("k624-k441-identification", lambda d: d["k624"]["simultaneous_congruence_theorem"].__setitem__("K441_factorized_pairing_identification_serialized", True))
+    add("k624-abstract-orbit", lambda d: d["k624"]["simultaneous_congruence_theorem"].__setitem__("abstract_nonisometric_K622_orbit_exists", False))
+    add("k624-new-data", lambda d: d["k624"]["ownership_reconciliation"].__setitem__("different_action_owned_mixed_hessian_excluded", True))
+    add("k624-domain", lambda d: d["k624"]["ownership_reconciliation"].__setitem__("common_BV_Green_domain_constructed", True))
+    add("k624-release", lambda d: d["k624"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k624-k441-decision", lambda d: d["k624"]["decision"].__setitem__("K441_pairing_preservation_decided", True))
 
     add("k621-dimension", lambda d: d["k621"]["commutant_theorem"].__setitem__("full_commutant_dimension", 4))
     add("k621-fast-solutions", lambda d: d["k621"]["commutant_theorem"].__setitem__("fast_block_solution_affine_dimensions", [0, 0]))

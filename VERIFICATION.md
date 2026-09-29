@@ -7,6 +7,39 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K623--K624 projector-pairing orbit obstruction (2026-09-29)
+
+K623 first constructs the exact projector-induced form
+`H_Sigma=sum_i P_i^T P_i`. It has rank 512, makes K438 and all four spectral
+projectors self-adjoint, and is positive definite on the corrected real
+carrier because it is a sum of squared projected norms. It is not identified
+with K441's separately factorized positive pairing: the actual K438 action
+has coordinate-transpose defect rank 256, and K441 serializes no ambient
+Gram/embedding into the K438/K614/K617 coordinates. K623 tests the explicit
+K622 source-domain reparameterization against `H_Sigma`. At GF(1009) and
+GF(1013), the domain map has rank-96 coordinate-orthogonality defect. A
+blockwise `H_Sigma` isometry would preserve each seed map's source pullback
+Gram matrix. The
+fast-outgoing, fast-incoming and slow-outgoing Gram defects have ranks 128,
+128 and 64; only the slow-incoming identity happens to hold. Thus the
+constructed K622 witness does not preserve `H_Sigma`. Its producer and probe
+pass 30 controls and reject 26 hostile mutations.
+
+K624 removes dependence on that chosen witness. Let `G_i(J)` and `G_i(X)` be
+the four block pullback Gram forms and let `G(J)`, `G(X)` be their nonsingular
+sums. Any common source map `R` and blockwise `H_Sigma` isometries satisfying
+`T_i J_i R=X_i` while preserving `H_Sigma` would force simultaneous congruences
+`R^T G_i(J) R=G_i(X)`. Hence the normalized operators
+`G(J)^-1 G_i(J)` and `G(X)^-1 G_i(X)` must be similar. Already their first
+traces differ in all four blocks at both primes. Therefore no common-domain,
+K438-commuting orbit equivalence of the current seeds preserves the exact
+projector-induced pairing. K622's abstract nonisometric orbit remains valid,
+and K441 preservation remains open until its factorized pairing is embedded
+into the actual carrier coordinates. K624's producer and probe pass 29
+controls and reject 21 hostile mutations. Neither result excludes a genuinely
+new action-owned mixed Hessian, constructs a nonzero stationary background or
+common BV/Green domain, or moves a source, ledger or physical conclusion.
+
 ## K621--K622 full commutant and domain-orbit classification (2026-09-29)
 
 K621 tests the complete commutant of K438's four-root action, of dimension
