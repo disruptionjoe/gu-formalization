@@ -1,0 +1,137 @@
+{
+  "claim_ceiling": "K629's slow-fast determinant-line mismatch is invariant under every common source-coordinate change and independent common ambient basis change in the four K438 eigenspaces. Exact nontrivial shear controls at GF(1009) and GF(1013) change matrix hashes while preserving slow ratio squares 949 and 1004, fast determinant squares one, and the obstruction quotient. The result does not select a positive Gram, source-domain operator, action-owned mixed Hessian, stationary background, common BV/Green domain, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 23,
+    "probe": "tests/channel-swings/k630_k77_determinant_line_gauge_invariance_probe.py",
+    "producer": "tests/channel-swings/k630_k77_determinant_line_gauge_invariance.py"
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "base_slow_ratio_square": "949",
+      "checks": {
+        "at_least_one_fast_serialization_changes": true,
+        "both_slow_ambient_gauges_are_invertible": true,
+        "combined_slow_ratio_is_invariant": true,
+        "combined_slow_ratio_square_is_invariant": true,
+        "fast_determinants_are_invariant": true,
+        "fast_transports_transform_by_source_conjugacy": true,
+        "nonunit_obstruction_survives_every_tested_gauge": true,
+        "slow_fast_obstruction_ratios_are_invariant": true,
+        "source_gauge_is_invertible": true
+      },
+      "fast_rows": {
+        "fast_incoming": {
+          "base_transport_sha256": "sha256:7b90091be1ddb574c3220d5571a89ff08e973e627b4af31a3d50604d7c2fbb00",
+          "determinant_is_invariant": true,
+          "determinant_square_is_invariant": true,
+          "obstruction_ratio_is_invariant": true,
+          "transformation_is_source_conjugacy": true,
+          "transformed_transport_sha256": "sha256:7b90091be1ddb574c3220d5571a89ff08e973e627b4af31a3d50604d7c2fbb00"
+        },
+        "fast_outgoing": {
+          "base_transport_sha256": "sha256:a0c8d5f399bc45210448efa0f1eb198db0e9a85c7a5ecc6fec15a094345c8291",
+          "determinant_is_invariant": true,
+          "determinant_square_is_invariant": true,
+          "obstruction_ratio_is_invariant": true,
+          "transformation_is_source_conjugacy": true,
+          "transformed_transport_sha256": "sha256:37329a85c8f49b948e90e1dc883a7f9cdc1122598cb357ec1cbc4f79be41fd2e"
+        }
+      },
+      "prime": 1009,
+      "slow_ambient_gauge_sha256": "sha256:a895324541f179cca91e9a7552024246413837cdbc659dca6ebdc656ad723151",
+      "source_gauge_sha256": "sha256:71f89ad2402afb4aaba40a629e93dedfc1551c3365c18c548c6a5aa410977015",
+      "transformed_slow_ratio_square": "949"
+    },
+    {
+      "base_slow_ratio_square": "1004",
+      "checks": {
+        "at_least_one_fast_serialization_changes": true,
+        "both_slow_ambient_gauges_are_invertible": true,
+        "combined_slow_ratio_is_invariant": true,
+        "combined_slow_ratio_square_is_invariant": true,
+        "fast_determinants_are_invariant": true,
+        "fast_transports_transform_by_source_conjugacy": true,
+        "nonunit_obstruction_survives_every_tested_gauge": true,
+        "slow_fast_obstruction_ratios_are_invariant": true,
+        "source_gauge_is_invertible": true
+      },
+      "fast_rows": {
+        "fast_incoming": {
+          "base_transport_sha256": "sha256:5f30968957b5a4f5a285acc0257924be366459ed05c269869e4ccb0a33bdf90e",
+          "determinant_is_invariant": true,
+          "determinant_square_is_invariant": true,
+          "obstruction_ratio_is_invariant": true,
+          "transformation_is_source_conjugacy": true,
+          "transformed_transport_sha256": "sha256:5f30968957b5a4f5a285acc0257924be366459ed05c269869e4ccb0a33bdf90e"
+        },
+        "fast_outgoing": {
+          "base_transport_sha256": "sha256:dd81c6ecfd46b6087f71390d4dc48640bcf5de6c8c3ac57abce248c5bcb18acf",
+          "determinant_is_invariant": true,
+          "determinant_square_is_invariant": true,
+          "obstruction_ratio_is_invariant": true,
+          "transformation_is_source_conjugacy": true,
+          "transformed_transport_sha256": "sha256:3159a3ebb521b7d1bd8939827bbfa24f21309fc03e795db8683241dee90016dd"
+        }
+      },
+      "prime": 1013,
+      "slow_ambient_gauge_sha256": "sha256:a895324541f179cca91e9a7552024246413837cdbc659dca6ebdc656ad723151",
+      "source_gauge_sha256": "sha256:71f89ad2402afb4aaba40a629e93dedfc1551c3365c18c548c6a5aa410977015",
+      "transformed_slow_ratio_square": "1004"
+    }
+  ],
+  "decision": {
+    "K629_obstruction_survives_allowed_coordinate_changes": true,
+    "actual_K596_K598_packet_released": false,
+    "admissible_common_basis_or_pivot_change_reopens_K622_pairing_family": false,
+    "next_exact_input": "Only new owned data can reopen the route: a source/action-owned Gram or source-domain endomorphism, or a genuinely new mixed-Hessian odd adapter on a nonzero stationary background, followed by K441 Riesz and common BV/Green-domain checks.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "gauge_invariance_theorem": {
+    "K628_serialized_row_basis_witness_is_required_for_K629": false,
+    "K629_family_obstruction_is_coordinate_artifact": false,
+    "all_tested_source_and_ambient_gauges_preserve_obstruction": true,
+    "common_ambient_change_law": "J_i->L_i J_i and X_i->L_i X_i; every L_i cancels from the determinant ratio or fast transport equation",
+    "common_source_change_law": "J_i->J_i Q and X_i->X_i Q; the slow ratio cancels Q and C_f0 transforms by Q^-1 C_f0 Q",
+    "fast_pivot_independence": "J_f is injective, so J_f C_f0=X_f has a unique solution; pivot rows compute rather than choose C_f0",
+    "invariant_slow_ratio_squares": [
+      949,
+      1004
+    ]
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "ambient_gauge": "independent common left basis changes on each K438 eigenspace, applied to both seed maps",
+    "invariant": "Delta_f=(det(X_s)/det(J_s))^2/det(C_f0)^2",
+    "result": "determinant-line gauge-invariance theorem MAP-TYPE=coordinate-free obstruction",
+    "source_gauge": "one common Q in GL(128) applied to both seed maps",
+    "target": "whether K629 can be removed by row pivots, source coordinates, or ambient embedding coordinates"
+  },
+  "ledger_no_change_reason": "Coordinate invariance hardens an internal algebraic obstruction but supplies no action-owned coefficients, stationary field, observation map, source mechanism, or physical cohomology.",
+  "ownership_reconciliation": {
+    "K629_family_obstruction_retracted": false,
+    "ambient_gauge_invariance_selects_a_positive_Gram": false,
+    "common_BV_Green_domain_constructed": false,
+    "mixed_hessian_or_stationary_background_constructed": false,
+    "source_coordinate_invariance_selects_a_source_endomorphism": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The nontrivial gauges change the serialized matrices and at least one fast-transport hash at each prime, but the determinant-line quotient remains unchanged.",
+    "strongest_overclaim": "Calling coordinate invariance source selection, positivity, action ownership, or a physical no-go beyond the admitted K622 family.",
+    "weakest_reproducibility_seam": "The executable gauges are exact representative controls at two good characteristics; the general result follows algebraically from determinant cancellation and conjugacy."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K627 proves pairing nonselection and K628 tests one row-basis witness; neither proves invariance of the K629 slow-fast determinant quotient.",
+    "route_comparison": "Before treating K629 as family-wide, remove the strongest artifact hypothesis: dependence on row pivots, common source coordinates, or ambient eigenspace bases.",
+    "strongest_alternative": "A second arbitrary K622 witness would not quantify over gauges and would be weaker than the transformation-law proof."
+  },
+  "result_id": "K630-K77-DETERMINANT-LINE-GAUGE-INVARIANCE",
+  "schema_version": "1.0",
+  "scope": "Exact proof and cross-characteristic controls that K629's squared slow-fast determinant-line mismatch is invariant under common source-coordinate changes and independent common ambient basis changes in all four action blocks.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k629": json.loads((ROOT / "lab/process/k629-k77-domain-family-determinant-line-obstruction.json").read_text()),
+        "k630": json.loads((ROOT / "lab/process/k630-k77-determinant-line-gauge-invariance.json").read_text()),
         "k627": json.loads((ROOT / "lab/process/k627-k77-block-gauge-positive-pairing-nonselection.json").read_text()),
         "k628": json.loads((ROOT / "lab/process/k628-k77-k622-domain-map-pairing-obstruction.json").read_text()),
         "k625": json.loads((ROOT / "lab/process/k625-k77-canonical-projector-pairing-realization.json").read_text()),
@@ -74,19 +76,21 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K77 block-gauge pairing nonselection missing")
         check("K625" in live and "H_Sigma" in live,
               "K77 canonical projector point missing")
-        check("K628" in live and "determinant square unequal to one" in live,
-              "K77 serialized domain-map pairing obstruction missing")
-        check("K622" in live and "nonisometric abstract orbit" in live and "untested" in live,
-              "K77 abstract orbit/family boundary missing")
+        check("K629" in live and "8,192-dimensional" in live and "949" in live and "1004" in live,
+              "K77 family-wide determinant-line obstruction missing")
+        check("K630" in live and "source coordinates" in live and "ambient block bases" in live,
+              "K77 determinant-line gauge invariance missing")
+        check("K622" in live and "nonisometric abstract orbit" in live,
+              "K77 abstract nonisometric orbit boundary missing")
         check("v0.163--v0.165" in live and "already banked" in live,
               "K77 completed unrestricted/BV route repeat fence missing")
         check("K619's common rank-384 module" in live and "K620's polynomial obstruction" in live,
               "K77 predecessor action-hull custody missing")
         check("mixed-Hessian" in live and "common BV/Green domain" in live,
               "K77 current reopener/ownership fence missing")
-        check("Do not universalize K628" in live and "action ownership" in live,
-              "K77 serialized-map scope/ownership fence missing")
-        check("K614--K627" in live, "K77 frozen zero-form route preservation missing")
+        check("family obstruction" in live and "source-action no-go" in live,
+              "K77 family scope/ownership fence missing")
+        check("K614--K629" in live, "K77 frozen zero-form route preservation missing")
         check("K596/K598" in live, "K77 unsplit-packet interface missing")
         check("nonzero stationary moving background" in live and "independently action-owned" in live,
               "K77 moving reopener missing")
@@ -107,6 +111,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K629--K630 close the alternative K622 domain-map family" in summary,
+          "current K629--K630 result lost")
     check("K627--K628 sharpen the ambient-pairing result" in summary,
           "current K627--K628 result lost")
     check("K625--K626 resolve the ambient-pairing seam" in summary,
@@ -148,6 +154,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "8,192-dimensional family"
+        in data["agenda"].get("latest_result_2026_09_29_k629_k630", ""),
+        "agenda K629--K630 result is not current",
+    )
     check(
         "41,216-dimensional homogeneous space"
         in data["agenda"].get("latest_result_2026_09_29_k627_k628", ""),
@@ -248,6 +259,28 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k629 = data["k629"]
+    k629_t = k629["determinant_line_theorem"]
+    k629_o = k629["ownership_reconciliation"]
+    k629_d = k629["decision"]
+    check(len(k629["cross_characteristic_packets"]) == 2, "K629 characteristic packet count moved")
+    check(k629_t["family_parameter_group_dimension"] == 8192, "K629 family dimension moved")
+    check(k629_t["combined_slow_ratio_squares"] == [949, 1004] and k629_t["both_fast_ratio_squares"] == [1, 1], "K629 determinant-line fingerprint moved")
+    check(k629_t["every_K622_family_member_tested"] and k629_t["alternative_domain_map_family_excluded_for_simultaneous_nondegenerate_block_isometry"], "K629 family theorem moved")
+    check(k629_t["K622_abstract_nonisometric_orbit_exists"] and not k629_o["K622_abstract_orbit_retracted"], "K629 abstract-orbit boundary moved")
+    check(not any((k629_o["family_wide_pairing_obstruction_is_action_selection"], k629_o["source_owned_domain_map_or_Gram_constructed"], k629_o["mixed_hessian_or_stationary_background_constructed"], k629_o["common_BV_Green_domain_constructed"])), "K629 ownership ceiling moved")
+    check(k629_d["broader_K622_family_pairing_orbit_decided"] and not k629_d["K622_family_contains_pairing_preserving_repair"] and not any((k629_d["actual_K596_K598_packet_released"], k629_d["selected_source_action_rejected"])), "K629 decision ceiling moved")
+
+    k630 = data["k630"]
+    k630_t = k630["gauge_invariance_theorem"]
+    k630_o = k630["ownership_reconciliation"]
+    k630_d = k630["decision"]
+    check(len(k630["cross_characteristic_packets"]) == 2, "K630 characteristic packet count moved")
+    check(k630_t["invariant_slow_ratio_squares"] == [949, 1004] and k630_t["all_tested_source_and_ambient_gauges_preserve_obstruction"], "K630 gauge fingerprint moved")
+    check(not k630_t["K629_family_obstruction_is_coordinate_artifact"] and not k630_t["K628_serialized_row_basis_witness_is_required_for_K629"], "K630 coordinate/pivot theorem moved")
+    check(not any((k630_o["K629_family_obstruction_retracted"], k630_o["ambient_gauge_invariance_selects_a_positive_Gram"], k630_o["source_coordinate_invariance_selects_a_source_endomorphism"], k630_o["mixed_hessian_or_stationary_background_constructed"], k630_o["common_BV_Green_domain_constructed"])), "K630 ownership ceiling moved")
+    check(k630_d["K629_obstruction_survives_allowed_coordinate_changes"] and not k630_d["admissible_common_basis_or_pivot_change_reopens_K622_pairing_family"] and not any((k630_d["actual_K596_K598_packet_released"], k630_d["selected_source_action_rejected"])), "K630 decision ceiling moved")
 
     k627 = data["k627"]
     k627_t = k627["pairing_nonselection_theorem"]
@@ -525,6 +558,18 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k629-dimension", lambda d: d["k629"]["determinant_line_theorem"].__setitem__("family_parameter_group_dimension", 4096))
+    add("k629-slow-ratios", lambda d: d["k629"]["determinant_line_theorem"].__setitem__("combined_slow_ratio_squares", [1, 1]))
+    add("k629-fast-ratios", lambda d: d["k629"]["determinant_line_theorem"].__setitem__("both_fast_ratio_squares", [949, 1004]))
+    add("k629-family", lambda d: d["k629"]["determinant_line_theorem"].__setitem__("every_K622_family_member_tested", False))
+    add("k629-repair", lambda d: d["k629"]["decision"].__setitem__("K622_family_contains_pairing_preserving_repair", True))
+    add("k629-owner", lambda d: d["k629"]["ownership_reconciliation"].__setitem__("family_wide_pairing_obstruction_is_action_selection", True))
+    add("k630-ratios", lambda d: d["k630"]["gauge_invariance_theorem"].__setitem__("invariant_slow_ratio_squares", [1, 1]))
+    add("k630-invariant", lambda d: d["k630"]["gauge_invariance_theorem"].__setitem__("all_tested_source_and_ambient_gauges_preserve_obstruction", False))
+    add("k630-artifact", lambda d: d["k630"]["gauge_invariance_theorem"].__setitem__("K629_family_obstruction_is_coordinate_artifact", True))
+    add("k630-pivot", lambda d: d["k630"]["decision"].__setitem__("admissible_common_basis_or_pivot_change_reopens_K622_pairing_family", True))
+    add("k630-owner", lambda d: d["k630"]["ownership_reconciliation"].__setitem__("ambient_gauge_invariance_selects_a_positive_Gram", True))
 
     add("k627-dimension", lambda d: d["k627"]["pairing_nonselection_theorem"].__setitem__("total_positive_pairing_family_dimension", 41215))
     add("k627-invariant", lambda d: d["k627"]["pairing_nonselection_theorem"].__setitem__("full_block_gauge_has_nonzero_invariant_symmetric_form", True))

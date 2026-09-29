@@ -7,6 +7,21 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K629--K630 FAMILY-WIDE DETERMINANT-LINE OBSTRUCTION.** K629
+> closes the alternative K622 domain-map family left open by K628. Every
+> admissible map is parametrized by two `GL(64)` slow transports. If those
+> preserve nondegenerate block pairings, they force `det(R)^2` to the combined
+> slow ratio square, equal to `949` and `1004` at GF(1009) and GF(1013). Either
+> fast common-image isometry instead forces `det(R)^2=1`. Thus no member of the
+> 8,192-dimensional family preserves simultaneous nondegenerate restricted
+> block pairings, including positive Grams. K630 proves the mismatch is
+> invariant under common source-coordinate changes, independent ambient block
+> bases and fast pivot choice. K622's abstract nonisometric orbit remains
+> valid. Reopen only with new owned data outside that family: a source/action-
+> owned Gram or source-domain endomorphism, or a genuinely new mixed-Hessian
+> adapter on a nonzero stationary background with K441 Riesz and common
+> BV/Green-domain control.
+
 > **2026-09-29 K627--K628 PAIRING-GAUGE NONSELECTION AND SERIALIZED-MAP
 > OBSTRUCTION.** K627 proves that the full
 > `GL(192)xGL(192)xGL(64)xGL(64)` embedding gauge has no nonzero invariant

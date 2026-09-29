@@ -7,6 +7,31 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K629--K630 family-wide determinant-line obstruction (2026-09-29)
+
+K629 closes the simultaneous-isometry family left open by K628. Write the
+combined slow maps as invertible `J_s,X_s`. Every K622-compatible domain map
+has the form `R=J_s^-1 diag(T_so,T_si)^-1 X_s`. If the two slow transports
+preserve nondegenerate restricted forms, their determinant squares are one,
+so `det(R)^2=(det(X_s)/det(J_s))^2`. On either common rank-128 fast image the
+unique seed transport `C_f0` satisfies `J_f C_f0=X_f`, while a family member
+has ambient restriction `C_f0 R^-1` in the `J_f` coordinates (equivalently a
+conjugate right transport `R^-1 C_f0`); fast isometry therefore requires
+`det(R)^2=det(C_f0)^2`. The slow squares are 949 and 1004 at GF(1009) and
+GF(1013), while both fast squares are one. Hence all 8,192 dimensions of the
+`GL(64)xGL(64)` family are excluded for simultaneous nondegenerate block
+isometry. Positive block Grams are a strict subclass. K629's probe checks 25
+controls and rejects 23 hostile mutations.
+
+K630 proves this quotient is coordinate-free under the admitted gauges.
+Common source changes conjugate `C_f0`, common ambient block changes cancel,
+and injectivity makes the fast solution independent of pivot rows. Exact shear
+controls at both primes alter serialized matrices and at least one fast hash
+while preserving the slow squares and obstruction. K622's abstract
+nonisometric orbit is not retracted, and no source/action-owned Gram, domain
+operator, mixed Hessian, stationary background, common BV/Green domain,
+source, ledger, canon, paper, public or physical conclusion is created.
+
 ## K627--K628 pairing-gauge nonselection and serialized-map obstruction (2026-09-29)
 
 K627 closes the canonicity question left by K626 at the structural level. On
