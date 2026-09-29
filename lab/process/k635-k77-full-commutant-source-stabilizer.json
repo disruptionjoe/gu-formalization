@@ -1,0 +1,156 @@
+{
+  "claim_ceiling": "Exact conditional full-commutant stabilizer theorem at both declared good characteristics. The two slow seed kernels are complementary 64-planes, so the induced source algebra is End(64) direct-sum End(64), dimension 8,192; fast-block lift freedom adds 24,576 dimensions, giving a 32,768-dimensional commutant seed stabilizer. An explicit nonscalar involution exists. This is algebraic availability, not independent action ownership or selection, and moves no source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "controls_passed": 29,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k635_k77_full_commutant_source_stabilizer_probe.py",
+    "producer": "tests/channel-swings/k635_k77_full_commutant_source_stabilizer.py"
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "checks": {
+        "fast_blocks_are_source_injective": true,
+        "nonscalar_involution_has_zero_trace": true,
+        "nonscalar_involution_preserves_every_block_kernel": true,
+        "nonscalar_involution_squares_to_identity": true,
+        "slow_kernels_are_complementary": true
+      },
+      "eigenblock_rows": {
+        "fast_incoming": {
+          "eigenspace_rank": 192,
+          "free_lift_dimension_for_fixed_R": 12288,
+          "seed_block_rank": 128,
+          "source_kernel_dimension": 0
+        },
+        "fast_outgoing": {
+          "eigenspace_rank": 192,
+          "free_lift_dimension_for_fixed_R": 12288,
+          "seed_block_rank": 128,
+          "source_kernel_dimension": 0
+        },
+        "slow_incoming": {
+          "eigenspace_rank": 64,
+          "free_lift_dimension_for_fixed_R": 0,
+          "seed_block_rank": 64,
+          "source_kernel_dimension": 64
+        },
+        "slow_outgoing": {
+          "eigenspace_rank": 64,
+          "free_lift_dimension_for_fixed_R": 0,
+          "seed_block_rank": 64,
+          "source_kernel_dimension": 64
+        }
+      },
+      "fixed_R_lift_dimension": 24576,
+      "full_stabilizer_dimension": 32768,
+      "induced_algebra_dimension": 8192,
+      "nonscalar_involution_rank": 128,
+      "nonscalar_involution_trace": 0,
+      "prime": 1009,
+      "slow_kernel_intersection_rank": 0,
+      "slow_kernel_join_rank": 128
+    },
+    {
+      "checks": {
+        "fast_blocks_are_source_injective": true,
+        "nonscalar_involution_has_zero_trace": true,
+        "nonscalar_involution_preserves_every_block_kernel": true,
+        "nonscalar_involution_squares_to_identity": true,
+        "slow_kernels_are_complementary": true
+      },
+      "eigenblock_rows": {
+        "fast_incoming": {
+          "eigenspace_rank": 192,
+          "free_lift_dimension_for_fixed_R": 12288,
+          "seed_block_rank": 128,
+          "source_kernel_dimension": 0
+        },
+        "fast_outgoing": {
+          "eigenspace_rank": 192,
+          "free_lift_dimension_for_fixed_R": 12288,
+          "seed_block_rank": 128,
+          "source_kernel_dimension": 0
+        },
+        "slow_incoming": {
+          "eigenspace_rank": 64,
+          "free_lift_dimension_for_fixed_R": 0,
+          "seed_block_rank": 64,
+          "source_kernel_dimension": 64
+        },
+        "slow_outgoing": {
+          "eigenspace_rank": 64,
+          "free_lift_dimension_for_fixed_R": 0,
+          "seed_block_rank": 64,
+          "source_kernel_dimension": 64
+        }
+      },
+      "fixed_R_lift_dimension": 24576,
+      "full_stabilizer_dimension": 32768,
+      "induced_algebra_dimension": 8192,
+      "nonscalar_involution_rank": 128,
+      "nonscalar_involution_trace": 0,
+      "prime": 1013,
+      "slow_kernel_intersection_rank": 0,
+      "slow_kernel_join_rank": 128
+    }
+  ],
+  "decision": {
+    "algebraic_existence_releases_K596_K598": false,
+    "full_frozen_commutant_stabilizer_classified": true,
+    "next_exact_input": "Supply an independently selected member of the 8,192-dimensional induced algebra, or a genuinely new same-background mixed Hessian/third action jet with field Riesz return and common BV/Green domain. Commutation and seed preservation alone leave an End(64)\u2295End(64) choice rather than selecting an operator.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action": "K438 corrected frozen normal symbol A on E_512 with eigenspace ranks 192,192,64,64",
+    "candidate_endomorphism": "R:V_128->V_128 for which some T in End_A(E_512) satisfies T J0=J0 R",
+    "commutant": "End_A(E_512), the complete 81,920-dimensional block-diagonal action commutant",
+    "result": "full-commutant source-stabilizer theorem MAP-TYPE=spectral-block kernel invariance",
+    "source_seed": "K614 canonical injection J0:V_128=Omega0(S)->E_512",
+    "target": "an independently action-owned nontrivial source-domain operator"
+  },
+  "ledger_no_change_reason": "The theorem classifies algebraic freedom inside a conditional frozen action representation. It supplies neither an independently selected action coefficient nor a stationary field, domain, quotient observable or source interpretation.",
+  "ownership_reconciliation": {
+    "K621_fixed_domain_J0_to_X_obstruction_retracted": false,
+    "K633_polynomial_scalar_stabilizer_retracted": false,
+    "common_BV_Green_domain_constructed": false,
+    "commutation_alone_selects_a_unique_nonscalar_operator": false,
+    "full_commutant_contains_nonscalar_seed_stabilizers": true,
+    "independently_action_owned_source_endomorphism_found": false,
+    "same_background_mixed_hessian_constructed": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The complementary slow kernels give an explicit nonscalar involution, proving the polynomial scalar result is not the full commutant result.",
+    "strongest_overclaim": "Calling a large commutant stabilizer an action-owned physical adapter or a release of the stationary BV/Green packet.",
+    "weakest_reproducibility_seam": "The dimensions and explicit involution agree at the two declared good characteristics; no unqualified characteristic-zero selection theorem is claimed."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K621 tests transport from J0 to X under the full commutant, while K633 tests only polynomials stabilizing J0. Neither classifies all T with T J0 contained in im(J0).",
+    "route_comparison": "K633 leaves the full commutant open. Classifying its entire seed stabilizer is the cheapest exact test of whether existing action symmetry already yields a nontrivial source-domain operator.",
+    "strongest_alternative": "A new mixed Hessian may select one operator from this algebra, but no current same-background coefficient and domain packet supplies that selection."
+  },
+  "result_id": "K635-K77-FULL-COMMUTANT-SOURCE-STABILIZER",
+  "schema_version": "1.0",
+  "scope": "Exact good-characteristic classification of source-domain endomorphisms induced on K614's zero-form seed by every endomorphism commuting with K438's frozen four-root action symbol.",
+  "source_and_ledger_effect": "none",
+  "stabilizer_theorem": {
+    "every_induced_operator_is_selected_by_the_action": false,
+    "explicit_nonscalar_involution_exists": true,
+    "fast_seed_blocks_are_injective": true,
+    "fixed_R_lift_dimension": 24576,
+    "full_commutant_seed_stabilizer_dimension": 32768,
+    "induced_source_algebra": "End(K_slow_out) direct_sum End(K_slow_in)",
+    "induced_source_algebra_dimension": 8192,
+    "polynomial_induced_subalgebra_dimension": 1,
+    "slow_seed_kernel_dimensions": [
+      64,
+      64
+    ],
+    "slow_seed_kernels_are_complementary": true
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

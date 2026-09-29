@@ -1,0 +1,104 @@
+{
+  "cancellation_graph_theorem": {
+    "boundary_profile_in_ell2": true,
+    "boundary_profile_in_trace_domain": false,
+    "boundary_profile_renormalized_trace": "L_cancel(h)=0",
+    "boundedly_invertible_same-domain_correlation": false,
+    "cancellation_domain_dense_in_ell2": true,
+    "cancellation_domain_strictly_contains_trace_domain": true,
+    "direct_sum_decomposition_unique": true,
+    "equivalent_norm_repair": false,
+    "renormalized_trace_bound": "|L_cancel(phi+c h)| <= (sum_(k>=1)(k+256)^-2)^(1/2) ||a phi||_2",
+    "renormalized_trace_continuous": true,
+    "same_underlying_domain_as_rejected_diagonal_graph": false,
+    "trace_domain_dense_in_ell2": true
+  },
+  "claim_ceiling": "Exact internal construction of a genuinely non-equivalent dense cancellation graph. Adjoining h_k=1/(k+256) to the trace graph gives D_cancel=D_a direct-sum span{h}; the matched renormalized trace is continuous and sends h to zero, while every mismatched subtraction leaves a harmonic divergence. This releases the topology-only part of K634's reopener but not a complete K139/K168 core estimate, numerical floor, K473 beta or K152 interval, and moves no source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k636_k500_non_equivalent_cancellation_graph_probe.py",
+    "producer": "tests/channel-swings/k636_k500_non_equivalent_cancellation_graph.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "minimal_subtraction_coefficient_is_unique": true,
+    "next_exact_input": "Identify the actual K139/K156 coefficient-specific boundary coordinate and prove that the complete matched regular core is bounded below on the corresponding graph-extension domain; the abstract unique subtraction alone emits no numerical floor.",
+    "non_equivalent_cancellation_topology_exists": true,
+    "quantitative_complete_form_part_released": false,
+    "topological_part_of_K634_reopener_released": true
+  },
+  "dependency_reconciliation": {
+    "K174_diagonal_weight_obstruction_retracted": false,
+    "K473_released": false,
+    "K611_mixed_graph_splice_obstruction_retracted": false,
+    "K634_equivalent_domain_obstruction_retracted": false,
+    "complete_K139_K168_core_controlled": false,
+    "genuinely_non_equivalent_domain_constructed": true,
+    "named_complete_sector_floor_emitted": false,
+    "native_K152_interval_emitted": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "ambient_carrier": "ell2(N)",
+    "boundary_profile": "h_k=1/(k+256), which lies in ell2 but not D_a",
+    "cancellation_domain": "D_cancel=D_a direct_sum span{h} with psi=phi+c h",
+    "renormalized_trace": "L_cancel(phi+c h)=sum_k phi_k",
+    "result": "non-equivalent cancellation graph MAP-TYPE=IBC-style graph extension",
+    "target": "a common topology containing the dressed boundary profile and controlling only the cancelled trace combination",
+    "trace_domain": "D_a={phi:(k+256)phi_k in ell2} with graph norm"
+  },
+  "ledger_no_change_reason": "The result constructs an exact internal topology for cancellation but neither identifies the full native K139/K168 coefficient map nor supplies a complete-sector lower constant, physical state, observable or source-owned action conclusion.",
+  "matching_uniqueness": {
+    "cancelled_combination_bounded": true,
+    "cutoff_expression": "L_N(phi+c h)-alpha*c*H_N = L_N(phi)+(1-alpha)c H_N",
+    "every_mismatched_coefficient_diverges_for_c_nonzero": true,
+    "matched_coefficient": "alpha=1",
+    "matched_limit_on_core": "sum_k phi_k",
+    "separate_singular_factors_bounded": false
+  },
+  "partial_trace_witness": {
+    "diverges": true,
+    "formula": "H_N=sum_(k=1)^N 1/(k+256)",
+    "integral_lower": "H_N>log((N+257)/257)",
+    "samples": [
+      {
+        "boundary_trace_partial": "0.692171571732",
+        "cutoff": 256,
+        "integral_lower": "0.691199760276"
+      },
+      {
+        "boundary_trace_partial": "1.607876633135",
+        "cutoff": 1024,
+        "integral_lower": "1.606320217002"
+      },
+      {
+        "boundary_trace_partial": "2.831376375926",
+        "cutoff": 4096,
+        "integral_lower": "2.829544456657"
+      },
+      {
+        "boundary_trace_partial": "4.172465464235",
+        "cutoff": 16384,
+        "integral_lower": "4.170548723828"
+      }
+    ]
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The matched coefficient alpha=1 cancels the entire harmonic divergence; every alpha not equal to one leaves (1-alpha)c H_N and diverges.",
+    "strongest_overclaim": "Calling continuity of the renormalized model trace a numerical lower bound for the complete K139/K168 form or a K152 spectral certificate.",
+    "weakest_reproducibility_seam": "The theorem fixes the exact asymptotic profile and trace but not the complete multiparticle coefficients, domains and residual terms of the native operator."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K139 uses an IBC-style dressed domain qualitatively, K174 proves no diagonal weight controls both singular pieces, and K611/K612 retain the missing complete quantitative constant. No prior packet isolates the minimal graph extension and proves uniqueness of its subtraction coefficient.",
+    "route_comparison": "K634 closes every same-domain equivalent renorming. The cheapest surviving test is to adjoin the missing dressed profile as an explicit graph coordinate and renormalize only the matched trace combination.",
+    "strongest_alternative": "A direct coefficient-specific lower estimate of the complete matched physical form would be stronger, but the current serialized custody does not contain its needed constants."
+  },
+  "result_id": "K636-K500-NON-EQUIVALENT-CANCELLATION-GRAPH",
+  "schema_version": "1.0",
+  "scope": "Exact minimal graph-extension model for K174/K611's dressed boundary profile h_k=1/(k+256) and singular point trace, proving that a unique subtraction yields a dense non-equivalent cancellation domain while leaving the complete K139/K168 coefficient-specific floor open.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

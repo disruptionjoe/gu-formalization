@@ -7,6 +7,31 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K635--K636 full-commutant and cancellation-graph results (2026-09-29)
+
+K635 classifies the complete K438 commutant stabilizer of K614's canonical
+source seed at GF(1009) and GF(1013). In both characteristics the two fast
+seed blocks are injective and the two slow source kernels have dimension 64,
+zero intersection and rank-128 join. Hence an induced source endomorphism must
+preserve the two complementary slow kernels and is otherwise arbitrary:
+`End(64) direct_sum End(64)`, dimension 8,192. For each such endomorphism the
+two fast ambient blocks contribute 12,288 free lift dimensions each, giving a
+32,768-dimensional full seed stabilizer. A conjugated `diag(I_64,-I_64)` is an
+explicit nonscalar involution. The result proves algebraic availability, not
+independent action ownership or physical selection. The producer checks both
+good characteristics; the probe checks 29 controls and rejects 24 mutations.
+
+K636 constructs a strict graph extension for K174/K611's model singular pair.
+For `a_k=k+256`, the trace graph `D_a` controls `sum phi_k`, while
+`h_k=1/(k+256)` lies in `ell2` but not `D_a`. The dense direct sum
+`D_cancel=D_a direct_sum span{h}` therefore changes the underlying domain and
+cannot be an equivalent-norm or bounded same-domain repair. Defining
+`L_cancel(phi+c h)=sum phi_k` gives a continuous renormalized trace with
+`L_cancel(h)=0`. At cutoff `N`, any subtraction coefficient `alpha != 1`
+leaves `(1-alpha)c sum_(k<=N)1/(k+256)`, which diverges; the matching is
+unique. This does not control the complete K139/K168 core or emit a numerical
+floor. The probe checks 30 controls and rejects 25 mutations.
+
 ## K633--K634 polynomial and equivalent-domain obstructions (2026-09-29)
 
 K633 classifies the self-stabilizer of K614's canonical source seed inside

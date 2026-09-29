@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k635": json.loads((ROOT / "lab/process/k635-k77-full-commutant-source-stabilizer.json").read_text()),
+        "k636": json.loads((ROOT / "lab/process/k636-k500-non-equivalent-cancellation-graph.json").read_text()),
         "k633": json.loads((ROOT / "lab/process/k633-k77-zero-form-polynomial-endomorphism-obstruction.json").read_text()),
         "k634": json.loads((ROOT / "lab/process/k634-k500-equivalent-domain-repair-obstruction.json").read_text()),
         "k631": json.loads((ROOT / "lab/process/k631-k77-owned-input-type-census.json").read_text()),
@@ -78,8 +80,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K77 route" in live, "K77 nonfactorized route missing")
         check("K633" in live and "scalar stabilizer" in live,
               "K77 polynomial source-seed stabilizer missing")
-        check("outside `R[A]`" in live and "full-commutant" in live,
-              "K77 polynomial-scope reopener missing")
+        check("K635" in live and "full-commutant" in live and "8,192" in live,
+              "K77 full-commutant source stabilizer missing")
+        check("outside `R[A]`" in live and "unselected full-commutant freedom" in live,
+              "K77 post-commutant selected-input reopener missing")
         check("K631" in live and "K632" in live and "current typed operation closure" in live,
               "K77 current-owned-input closure missing")
         check("J0^* H_Sigma J0" in live and "X^* H_Sigma X" in live,
@@ -108,8 +112,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K500 quantitative-custody obstruction missing")
         check("K634" in live and "equivalent-norm" in live and "bounded-correlation" in live,
               "K500 equivalent-domain closure missing")
-        check("genuinely non-equivalent cancellation domain" in live,
-              "K500 surviving topology class missing")
+        check("K636" in live and "genuinely non-equivalent cancellation domain" in live,
+              "K500 constructed cancellation topology missing")
         check("cancellation-adapted" in live,
               "live complete-complement route missing")
         check("25/9" in live, "live residual target missing")
@@ -121,8 +125,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K635--K636 advance the two independent fronts" in summary,
+          "current K635--K636 result lost")
     check("K633--K634 advance two independent post-K632 fronts" in summary,
-          "current K633--K634 result lost")
+          "K633--K634 predecessor result lost")
     check("K631--K632 prove that the post-K630 demand for new owned input" in summary,
           "current K631--K632 result lost")
     check("K629--K630 close the alternative K622 domain-map family" in summary,
@@ -283,6 +289,51 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k635 = data["k635"]
+    k635_t = k635["stabilizer_theorem"]
+    k635_o = k635["ownership_reconciliation"]
+    k635_d = k635["decision"]
+    check(len(k635["cross_characteristic_packets"]) == 2 and
+          all(packet["slow_kernel_join_rank"] == 128 and
+              packet["slow_kernel_intersection_rank"] == 0 and
+              packet["induced_algebra_dimension"] == 8192 and
+              packet["full_stabilizer_dimension"] == 32768
+              for packet in k635["cross_characteristic_packets"]),
+          "K635 cross-characteristic stabilizer fingerprint moved")
+    check(k635_t["induced_source_algebra_dimension"] == 8192 and
+          k635_t["full_commutant_seed_stabilizer_dimension"] == 32768 and
+          k635_t["explicit_nonscalar_involution_exists"],
+          "K635 stabilizer theorem moved")
+    check(not k635_t["every_induced_operator_is_selected_by_the_action"] and
+          k635_o["full_commutant_contains_nonscalar_seed_stabilizers"] and
+          not k635_o["independently_action_owned_source_endomorphism_found"],
+          "K635 ownership ceiling moved")
+    check(k635_d["full_frozen_commutant_stabilizer_classified"] and
+          not k635_d["algebraic_existence_releases_K596_K598"],
+          "K635 decision boundary moved")
+
+    k636 = data["k636"]
+    k636_t = k636["cancellation_graph_theorem"]
+    k636_m = k636["matching_uniqueness"]
+    k636_r = k636["dependency_reconciliation"]
+    k636_d = k636["decision"]
+    check(k636["partial_trace_witness"]["diverges"] and
+          k636_t["cancellation_domain_strictly_contains_trace_domain"] and
+          k636_t["renormalized_trace_continuous"] and
+          not k636_t["equivalent_norm_repair"],
+          "K636 non-equivalent graph theorem moved")
+    check(k636_m["matched_coefficient"] == "alpha=1" and
+          k636_m["every_mismatched_coefficient_diverges_for_c_nonzero"] and
+          k636_m["cancelled_combination_bounded"],
+          "K636 matching uniqueness moved")
+    check(k636_r["genuinely_non_equivalent_domain_constructed"] and
+          not k636_r["complete_K139_K168_core_controlled"] and
+          not k636_r["named_complete_sector_floor_emitted"],
+          "K636 dependency boundary moved")
+    check(k636_d["topological_part_of_K634_reopener_released"] and
+          not k636_d["quantitative_complete_form_part_released"],
+          "K636 decision boundary moved")
 
     k633 = data["k633"]
     k633_t = k633["stabilizer_theorem"]
@@ -682,6 +733,19 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k635-join", lambda d: d["k635"]["cross_characteristic_packets"][0].__setitem__("slow_kernel_join_rank", 64))
+    add("k635-algebra", lambda d: d["k635"]["stabilizer_theorem"].__setitem__("induced_source_algebra_dimension", 1))
+    add("k635-stabilizer", lambda d: d["k635"]["stabilizer_theorem"].__setitem__("full_commutant_seed_stabilizer_dimension", 8192))
+    add("k635-selected", lambda d: d["k635"]["stabilizer_theorem"].__setitem__("every_induced_operator_is_selected_by_the_action", True))
+    add("k635-owner", lambda d: d["k635"]["ownership_reconciliation"].__setitem__("independently_action_owned_source_endomorphism_found", True))
+    add("k635-release", lambda d: d["k635"]["decision"].__setitem__("algebraic_existence_releases_K596_K598", True))
+    add("k636-domain", lambda d: d["k636"]["cancellation_graph_theorem"].__setitem__("cancellation_domain_strictly_contains_trace_domain", False))
+    add("k636-equivalent", lambda d: d["k636"]["cancellation_graph_theorem"].__setitem__("equivalent_norm_repair", True))
+    add("k636-alpha", lambda d: d["k636"]["matching_uniqueness"].__setitem__("matched_coefficient", "alpha=0"))
+    add("k636-core", lambda d: d["k636"]["dependency_reconciliation"].__setitem__("complete_K139_K168_core_controlled", True))
+    add("k636-floor", lambda d: d["k636"]["dependency_reconciliation"].__setitem__("named_complete_sector_floor_emitted", True))
+    add("k636-release", lambda d: d["k636"]["decision"].__setitem__("quantitative_complete_form_part_released", True))
 
     add("k633-join", lambda d: d["k633"]["cross_characteristic_packets"][0].__setitem__("seed_action_seed_join_rank", 128))
     add("k633-quotient", lambda d: d["k633"]["cross_characteristic_packets"][0].__setitem__("nonconstant_quotient_coefficient_rank", 2))

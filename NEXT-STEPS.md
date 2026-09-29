@@ -7,6 +7,22 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K635--K636 FULL-COMMUTANT AND NON-EQUIVALENT CANCELLATION
+> CLOSURE.** K635 classifies every source-domain endomorphism induced by the
+> full K438 action commutant on K614's source seed. The fast blocks are
+> injective and the two slow kernels are complementary 64-planes at both good
+> characteristics, so the induced algebra is `End(64) direct_sum End(64)`,
+> dimension 8,192; lift freedom gives a 32,768-dimensional commutant seed
+> stabilizer and an explicit nonscalar involution. This is algebraic freedom,
+> not independent action ownership or selection. K636 constructs the first
+> exact non-equivalent graph left open by K634:
+> `D_cancel=D_a direct_sum span{h}` with `h_k=1/(k+256)`. Its matched
+> renormalized trace is continuous, while every mismatched subtraction retains
+> harmonic divergence. Next supply selected action data on K77, or identify
+> the native K139/K156 boundary coordinate and prove the complete matched
+> K139/K168 form bounded below on the cancellation graph. K636 emits no
+> numerical floor, K473 beta or K152 interval.
+
 > **2026-09-29 K633--K634 FROZEN POLYNOMIAL AND EQUIVALENT-DOMAIN
 > CLOSURE.** K633 tests the complete degree-below-four functional calculus of
 > K438's frozen action against K614's source-owned injection. At both good
