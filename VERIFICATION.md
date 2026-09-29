@@ -7,6 +7,28 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K619--K620 common action module and functional calculus (2026-09-29)
+
+K619 compares two exact rank-128 maps into K438's corrected carrier: K614's
+source-owned zero-form injection and K617's corrected historical moving-`varpi`
+graph. At GF(1009) and GF(1013) their seed images have zero intersection. After
+one action step their rank-256 Krylov hulls intersect in rank 128; after two
+steps both hulls have rank 384 and their join still has rank 384, proving
+equality. The equality persists at higher powers and leaves the same rank-128
+corrected complement. It is equality of generated image subspaces, not of the
+seed maps, backgrounds or variational owners.
+
+K620 uses K438's four distinct roots. A polynomial in `A` is scalar on each
+fast/slow-by-sign eigenspace. The common module exhausts the two rank-64 slow
+eigenspaces but occupies only rank 128 of each rank-192 fast eigenspace.
+Therefore no polynomial projector has the common module or its rank-128
+complement as image. Independently, the K614 and K617 seed maps are nonzero
+and not scalar proportional in every eigenspace, so no scalar polynomial
+`p(A)` sends one map to the other. This does not test a larger commutant,
+domain endomorphism or nonlinear mixed Hessian. No stationary background,
+K596/K598 packet, BV/Green domain, source/ledger move or physical conclusion
+is produced.
+
 ## K617--K618 moving-varpi corrected descent and action hull (2026-09-29)
 
 K617 reuses the exact historical displayed-southeast-zero moving-`varpi`

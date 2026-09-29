@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K619--K620 common action module and functional-calculus gate
+
+- `channel-swings/k619_k77_zero_form_moving_graph_common_action_module.py`
+  compares the complete K438 Krylov filtrations of K614's zero-form seed and
+  K617's moving-graph seed at both good characteristics.
+- `channel-swings/k619_k77_zero_form_moving_graph_common_action_module_probe.py`
+  checks the disjoint seeds, rank-128 depth-two intersection, common rank-384
+  depth-three module and ownership ceiling under hostile mutations.
+- `channel-swings/k620_k77_action_functional_calculus_selection_obstruction.py`
+  tests module projectability and seed transport in the exact four-root
+  functional calculus `R[A]`.
+- `channel-swings/k620_k77_action_functional_calculus_selection_obstruction_probe.py`
+  checks the proper fast-eigenspace slices, nonproportional seed blocks and
+  no-selector/no-adapter conclusion under hostile mutations.
+
 ## K617--K618 moving-varpi corrected-carrier revival gate
 
 - `channel-swings/k617_k77_moving_varpi_corrected_carrier_descent.py` composes

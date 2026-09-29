@@ -1,0 +1,206 @@
+{
+  "claim_ceiling": "Exact cross-characteristic action-module comparison: K614's source-owned zero-form seed and K617's historically constructed moving-graph seed are disjoint rank-128 subspaces, their depth-two K438 hulls intersect in rank 128, and their depth-three Krylov hulls are the same rank-384 subspace of the corrected rank-512 carrier. This equality does not identify the seed maps, select a nonzero stationary background, own a mixed-Hessian coupling, release K596/K598, or move source, ledger, canon, paper, public, novelty, prediction, confirmation, or physical conclusions.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "common_module_theorem": {
+    "corrected_carrier_complement_rank": 128,
+    "depth_2_hull_ranks": {
+      "moving_graph": 256,
+      "zero_form": 256
+    },
+    "depth_2_intersection_rank": 128,
+    "depth_3_hull_ranks": {
+      "moving_graph": 384,
+      "zero_form": 384
+    },
+    "depth_3_intersection_rank": 384,
+    "depth_3_join_rank": 384,
+    "filtrations_equal_from_depth_3": true,
+    "minimal_common_action_module_rank": 384,
+    "seed_intersection_rank": 0,
+    "seed_ranks": {
+      "moving_graph": 128,
+      "zero_form": 128
+    }
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "checks": {
+        "both_filtrations_reach_rank_384_at_depth_3": true,
+        "both_filtrations_stabilize": true,
+        "depth_3_hulls_are_equal": true,
+        "first_action_extensions_intersect_in_rank_128": true,
+        "seeds_are_disjoint": true
+      },
+      "filtration_rows": [
+        {
+          "depth": 1,
+          "graph_hull_rank": 128,
+          "intersection_rank": 0,
+          "joined_hull_rank": 256,
+          "zero_form_hull_rank": 128
+        },
+        {
+          "depth": 2,
+          "graph_hull_rank": 256,
+          "intersection_rank": 128,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 256
+        },
+        {
+          "depth": 3,
+          "graph_hull_rank": 384,
+          "intersection_rank": 384,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 384
+        },
+        {
+          "depth": 4,
+          "graph_hull_rank": 384,
+          "intersection_rank": 384,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 384
+        },
+        {
+          "depth": 5,
+          "graph_hull_rank": 384,
+          "intersection_rank": 384,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 384
+        }
+      ],
+      "prime": 1009
+    },
+    {
+      "checks": {
+        "both_filtrations_reach_rank_384_at_depth_3": true,
+        "both_filtrations_stabilize": true,
+        "depth_3_hulls_are_equal": true,
+        "first_action_extensions_intersect_in_rank_128": true,
+        "seeds_are_disjoint": true
+      },
+      "filtration_rows": [
+        {
+          "depth": 1,
+          "graph_hull_rank": 128,
+          "intersection_rank": 0,
+          "joined_hull_rank": 256,
+          "zero_form_hull_rank": 128
+        },
+        {
+          "depth": 2,
+          "graph_hull_rank": 256,
+          "intersection_rank": 128,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 256
+        },
+        {
+          "depth": 3,
+          "graph_hull_rank": 384,
+          "intersection_rank": 384,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 384
+        },
+        {
+          "depth": 4,
+          "graph_hull_rank": 384,
+          "intersection_rank": 384,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 384
+        },
+        {
+          "depth": 5,
+          "graph_hull_rank": 384,
+          "intersection_rank": 384,
+          "joined_hull_rank": 384,
+          "zero_form_hull_rank": 384
+        }
+      ],
+      "prime": 1013
+    }
+  ],
+  "decision": {
+    "K614_zero_form_injection_retracted": false,
+    "K615_stationarity_obstruction_retracted": false,
+    "K617_nontrivial_descent_retracted": false,
+    "K618_action_hull_retracted": false,
+    "actual_K596_K598_packet_released": false,
+    "next_exact_input": "Test whether the four-root K438 functional calculus can project onto the common rank-384 module or map J0 to X. Equality of orbit spans alone does not provide either selection or transport.",
+    "selected_source_action_rejected": false,
+    "two_disjoint_seeds_generate_same_A_module": true
+  },
+  "direction": "observed_to_native",
+  "filtration_fingerprint": [
+    {
+      "depth": 1,
+      "graph_hull_rank": 128,
+      "intersection_rank": 0,
+      "joined_hull_rank": 256,
+      "zero_form_hull_rank": 128
+    },
+    {
+      "depth": 2,
+      "graph_hull_rank": 256,
+      "intersection_rank": 128,
+      "joined_hull_rank": 384,
+      "zero_form_hull_rank": 256
+    },
+    {
+      "depth": 3,
+      "graph_hull_rank": 384,
+      "intersection_rank": 384,
+      "joined_hull_rank": 384,
+      "zero_form_hull_rank": 384
+    },
+    {
+      "depth": 4,
+      "graph_hull_rank": 384,
+      "intersection_rank": 384,
+      "joined_hull_rank": 384,
+      "zero_form_hull_rank": 384
+    },
+    {
+      "depth": 5,
+      "graph_hull_rank": 384,
+      "intersection_rank": 384,
+      "joined_hull_rank": 384,
+      "zero_form_hull_rank": 384
+    }
+  ],
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action": "K438 compressed frozen normal symbol A on the corrected rank-512 carrier",
+    "filtrations": "span{J0,A J0,...} and span{X,A X,...} as image subspaces of E",
+    "historical_seed": "K617 common corrected image X of the two displayed-southeast-zero moving-varpi Pin graphs",
+    "result": "common corrected action-module theorem MAP-TYPE=Krylov-subspace comparison",
+    "source_owned_seed": "K614 canonical zero-form injection J0: Omega0(S)_128 -> E",
+    "target": "ownership of a stationary background, seed adapter, and mixed-Hessian bilinear coupling"
+  },
+  "ledger_no_change_reason": "The exact result compares two existing conditional corrected-carrier constructions below action-owned stationary, BV-reduced, or observable altitude. SC-ACT-01/02 and SC-CHI-01/51 keep their source polarity and every v0.263 ledger row keeps its verdict, reason, distance, trigger, and evidence.",
+  "ownership_reconciliation": {
+    "common_module_is_stationary_solution_space": false,
+    "common_module_supplies_mixed_hessian_coupling": false,
+    "equality_of_generated_subspaces_identifies_seed_maps": false,
+    "historical_moving_graph_is_source_selected": false,
+    "local_full_field_ordinary_gauge_bv_already_completed": true,
+    "source_owns_zero_form_field_space": true,
+    "source_selects_nonzero_zero_form_background": false,
+    "unrestricted_southeast_route_already_completed": true
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The two seed images are disjoint at depth one despite producing the same rank-384 module at depth three.",
+    "strongest_overclaim": "Calling equality of generated subspaces equality of seed maps, a source-selected background, or an action-owned bilinear coupling.",
+    "weakest_reproducibility_seam": "The equality is certified by mutual inclusion through equal ranks at two good characteristics; no characteristic-zero seed isomorphism is claimed."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "The unrestricted southeast and local full-field ordinary-gauge BV successors named by K618 already exist as v0.163--v0.165; no predecessor compares the K614 and K617 Krylov filtrations.",
+    "route_comparison": "Before constructing new moving nonlinear data, compare the already-owned source zero-form and historical moving-graph seeds under the same exact corrected action.",
+    "strongest_alternative": "A genuine moving mixed Hessian and common BV/Green domain would address action ownership directly, but those coefficients and a nonzero stationary background are not currently serialized."
+  },
+  "result_id": "K619-K77-ZERO-FORM-MOVING-GRAPH-COMMON-ACTION-MODULE",
+  "schema_version": "1.0",
+  "scope": "Exact comparison of the K438 Krylov filtrations generated by K614's source-owned zero-form injection and K617's historically constructed moving-varpi corrected graph inside the same rank-512 corrected carrier.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

@@ -7,6 +7,21 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K619--K620 COMMON ACTION MODULE AND FUNCTIONAL-CALCULUS
+> OBSTRUCTION.** K619 compares K614's source-owned zero-form seed with K617's
+> historically constructed moving-`varpi` seed. They are disjoint rank-128
+> images, their depth-two K438 hulls intersect in rank 128, and their
+> depth-three hulls coincide as one rank-384 module at both good
+> characteristics. K620 proves that `R[A]` does not select it: the module fills
+> both slow rank-64 eigenspaces but only rank 128 of each rank-192 fast
+> eigenspace, so no polynomial in `A` projects onto it or its rank-128
+> complement. The seed maps are nonproportional in all four eigenspaces, so no
+> scalar `p(A)` sends `J0` to the moving graph. Next supply an independently
+> action-owned within-fast adapter or mixed Hessian on a nonzero stationary
+> moving background together with its common BV/Green domain. The unrestricted
+> southeast and local full-field ordinary-gauge BV route already exists at
+> v0.163--v0.165; do not repeat it or promote common reachability to selection.
+
 > **2026-09-29 K617--K618 MOVING-VARPI CORRECTED DESCENT AND ACTION HULL.**
 > K617 composes the historical displayed-southeast-zero moving-`varpi` graph
 > with K438/K439. Both Pin candidates become the same rank-128 corrected image,

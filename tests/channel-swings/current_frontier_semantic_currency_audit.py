@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k619": json.loads((ROOT / "lab/process/k619-k77-zero-form-moving-graph-common-action-module.json").read_text()),
+        "k620": json.loads((ROOT / "lab/process/k620-k77-action-functional-calculus-selection-obstruction.json").read_text()),
         "k617": json.loads((ROOT / "lab/process/k617-k77-moving-varpi-corrected-carrier-descent.json").read_text()),
         "k618": json.loads((ROOT / "lab/process/k618-k77-moving-varpi-corrected-action-hull.json").read_text()),
         "k615": json.loads((ROOT / "lab/process/k615-k77-zero-form-stationarity-obstruction.json").read_text()),
@@ -60,14 +62,20 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K617--K618" in live and "rank-384 K438 polynomial module" in live,
-              "K77 moving-varpi corrected action hull missing")
-        check("unrestricted-four-field Euler-image" in live and "mixed-Hessian" in live,
+        check("K619--K620" in live and "same rank-384 K438 module" in live,
+              "K77 common action module missing")
+        check("not images of polynomial projectors in `A`" in live and "no scalar polynomial" in live,
+              "K77 functional-calculus obstruction missing")
+        check("v0.163--v0.165" in live and "not the next construction" in live,
+              "K77 completed unrestricted/BV route repeat fence missing")
+        check("Preserve K614--K618" in live and "rank-384 K438 module" in live,
+              "K77 predecessor action-hull custody missing")
+        check("mixed-Hessian" in live and "common BV/Green domain" in live,
               "K77 current reopener/ownership fence missing")
-        check("K614--K616" in live, "K77 frozen zero-form route preservation missing")
+        check("Preserve K614--K618" in live, "K77 frozen zero-form route preservation missing")
         check("K596/K598" in live, "K77 unsplit-packet interface missing")
-        check("unrestricted four-field southeast rival" in live and "moving stationary background" in live,
-              "K77 unrestricted/moving reopener missing")
+        check("nonzero stationary moving background" in live and "independently action-owned" in live,
+              "K77 moving reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
         check("K609" in live and "below 1/3" in live,
@@ -85,6 +93,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K619--K620 compose K614's source-owned zero-form seed" in summary,
+          "current K619--K620 result lost")
     check("K617--K618 test the strongest already-owned moving-background candidate" in summary,
           "current K617--K618 result lost")
     check("K615--K616 close K614's natural frozen-background successor" in summary,
@@ -116,6 +126,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "same rank-384 K438 module"
+        in data["agenda"].get("latest_result_2026_09_29_k619_k620", ""),
+        "agenda K619--K620 result is not current",
+    )
     check(
         "Krylov ranks are 128,256,384,384,384"
         in data["agenda"].get("latest_result_2026_09_29_k617_k618", ""),
@@ -192,6 +207,34 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k619 = data["k619"]
+    k619_t = k619["common_module_theorem"]
+    k619_o = k619["ownership_reconciliation"]
+    k619_d = k619["decision"]
+    check(len(k619["cross_characteristic_packets"]) == 2, "K619 characteristic packet count moved")
+    check(k619_t["seed_intersection_rank"] == 0, "K619 seed intersection moved")
+    check(k619_t["depth_2_intersection_rank"] == 128, "K619 depth-two intersection moved")
+    check(k619_t["depth_3_join_rank"] == k619_t["depth_3_intersection_rank"] == 384, "K619 common hull equality moved")
+    check(k619_t["filtrations_equal_from_depth_3"] and k619_t["corrected_carrier_complement_rank"] == 128, "K619 stabilization/complement moved")
+    check(k619_o["source_owns_zero_form_field_space"] and not k619_o["source_selects_nonzero_zero_form_background"], "K619 source ownership boundary moved")
+    check(not any((k619_o["historical_moving_graph_is_source_selected"], k619_o["equality_of_generated_subspaces_identifies_seed_maps"], k619_o["common_module_is_stationary_solution_space"], k619_o["common_module_supplies_mixed_hessian_coupling"])), "K619 ownership ceiling moved")
+    check(k619_o["unrestricted_southeast_route_already_completed"] and k619_o["local_full_field_ordinary_gauge_bv_already_completed"], "K619 prior-route currency moved")
+    check(k619_d["two_disjoint_seeds_generate_same_A_module"] and not any((k619_d["K615_stationarity_obstruction_retracted"], k619_d["actual_K596_K598_packet_released"], k619_d["selected_source_action_rejected"])), "K619 decision ceiling moved")
+
+    k620 = data["k620"]
+    k620_m = k620["module_projector_theorem"]
+    k620_a = k620["seed_adapter_theorem"]
+    k620_o = k620["ownership_reconciliation"]
+    k620_d = k620["decision"]
+    check(len(k620["cross_characteristic_packets"]) == 2, "K620 characteristic packet count moved")
+    check(k620_m["fast_eigenspace_ranks"] == [192, 192] and k620_m["common_module_fast_ranks"] == [128, 128], "K620 fast block ranks moved")
+    check(k620_m["slow_eigenspace_ranks"] == k620_m["common_module_slow_ranks"] == [64, 64], "K620 slow block ranks moved")
+    check(not any((k620_m["common_module_is_union_of_full_eigenspaces"], k620_m["polynomial_projector_with_image_common_module_exists"], k620_m["polynomial_projector_with_image_rank128_complement_exists"])), "K620 module-projector obstruction moved")
+    check(k620_a["each_seed_meets_all_four_eigenspaces"] and not k620_a["corresponding_seed_maps_scalar_proportional_in_any_eigenspace"] and not k620_a["scalar_polynomial_p_with_pA_J0_equals_X_exists"], "K620 seed-adapter obstruction moved")
+    check(not k620_a["arbitrary_commutant_or_domain_endomorphism_tested"] and not k620_a["mixed_hessian_bilinear_adapter_constructed"], "K620 scope broadened")
+    check(k620_o["A_owns_four_spectral_projectors"] and not any((k620_o["A_owns_common_module_projector"], k620_o["A_owns_seed_identification"], k620_o["A_invariance_of_common_module_implies_action_selection"], k620_o["nonpolynomial_action_owned_adapter_excluded"], k620_o["moving_nonlinear_mixed_hessian_excluded"])), "K620 ownership ceiling moved")
+    check(not any((k620_d["K619_common_module_retracted"], k620_d["common_module_selected_by_frozen_action"], k620_d["zero_form_and_moving_graph_seeds_identified"], k620_d["actual_K596_K598_packet_released"], k620_d["selected_source_action_rejected"])), "K620 decision ceiling moved")
 
     k617 = data["k617"]
     k617_t = k617["descent_theorem"]
@@ -361,6 +404,19 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k618-route-revived", lambda d: d["k618"]["revival_gate"].__setitem__("corrected_carrier_revives_historical_bounded_graph_as_action_subsystem", True))
     add("k618-k616-retracted", lambda d: d["k618"]["revival_gate"].__setitem__("K616_core_unsplit_packet_obstruction_retracted", True))
     add("k618-packet", lambda d: d["k618"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k619-seed-intersection", lambda d: d["k619"]["common_module_theorem"].__setitem__("seed_intersection_rank", 128))
+    add("k619-depth2", lambda d: d["k619"]["common_module_theorem"].__setitem__("depth_2_intersection_rank", 0))
+    add("k619-depth3", lambda d: d["k619"]["common_module_theorem"].__setitem__("depth_3_join_rank", 512))
+    add("k619-seed-identity", lambda d: d["k619"]["ownership_reconciliation"].__setitem__("equality_of_generated_subspaces_identifies_seed_maps", True))
+    add("k619-stationary", lambda d: d["k619"]["ownership_reconciliation"].__setitem__("common_module_is_stationary_solution_space", True))
+    add("k619-packet", lambda d: d["k619"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k620-fast", lambda d: d["k620"]["module_projector_theorem"].__setitem__("common_module_fast_ranks", [192, 192]))
+    add("k620-module-projector", lambda d: d["k620"]["module_projector_theorem"].__setitem__("polynomial_projector_with_image_common_module_exists", True))
+    add("k620-complement-projector", lambda d: d["k620"]["module_projector_theorem"].__setitem__("polynomial_projector_with_image_rank128_complement_exists", True))
+    add("k620-seed-proportional", lambda d: d["k620"]["seed_adapter_theorem"].__setitem__("corresponding_seed_maps_scalar_proportional_in_any_eigenspace", True))
+    add("k620-seed-adapter", lambda d: d["k620"]["seed_adapter_theorem"].__setitem__("scalar_polynomial_p_with_pA_J0_equals_X_exists", True))
+    add("k620-commutant-excluded", lambda d: d["k620"]["ownership_reconciliation"].__setitem__("nonpolynomial_action_owned_adapter_excluded", True))
+    add("k620-action-selects", lambda d: d["k620"]["decision"].__setitem__("common_module_selected_by_frozen_action", True))
 
     add("k615-euler-rank", lambda d: d["k615"]["rank_fingerprint"].__setitem__("action_euler_image", 127))
     add("k615-zero-half", lambda d: d["k615"]["rank_fingerprint"].__setitem__("incoming_zero_form", 127))
