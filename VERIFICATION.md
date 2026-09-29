@@ -7,6 +7,24 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K614 zero-form corrected-carrier injection (2026-09-29)
+
+K614 composes the source-owned fermion field `Omega^0(S)` with K438's
+corrected rank-512 carrier and K439's exact spectral/sign split. Exact
+reductions at both good characteristics prove that the canonical rank-128
+zero-form inclusion lies in the corrected carrier. Its fast, slow, incoming
+and outgoing projections all have rank 128, while the slow incoming and slow
+outgoing block projections each have rank 64. Thus every nonzero zero-form
+field value has nonzero components in both corrected halves, and all four
+action spectral/sign blocks are genuinely met.
+
+This closes the injection part of K613's reopener, not the background or Riesz
+parts. The active action branch is zero fermion: the inclusion is evaluated at
+zero, and the existing action result has zero fermion-current and mixed-Hessian
+ranks. No nonzero stationary `Omega^0(S)` value or K441-compatible action
+Riesz return is owned, so K596/K598 remain conditional. The producer and
+independent probe pass 37/37 controls and reject 28/28 hostile mutations.
+
 ## K611 graph-splice floor obstruction (2026-09-29)
 
 K611 independently recomputes the rejected proposal's exact rational

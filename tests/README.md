@@ -4,6 +4,15 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K614 zero-form corrected-carrier injection
+
+- `channel-swings/k614_k77_zero_form_corrected_carrier_injection.py` composes
+  the source-owned `Omega^0(S)` inclusion with K438/K439 at both exact good
+  characteristics and records the corrected, fast/slow and sign-block ranks.
+- `channel-swings/k614_k77_zero_form_corrected_carrier_injection_probe.py`
+  independently checks 37 custody, rank, background and claim-ceiling controls
+  and rejects 28 hostile mutations.
+
 ## K612--K613 quantitative custody and central parity
 
 - `channel-swings/current_frontier_semantic_currency_audit.py` replays the

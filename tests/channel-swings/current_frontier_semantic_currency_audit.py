@@ -34,6 +34,7 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k614": json.loads((ROOT / "lab/process/k614-k77-zero-form-corrected-carrier-injection.json").read_text()),
         "k612": json.loads((ROOT / "lab/process/k612-k139-quantitative-semibound-custody-audit.json").read_text()),
         "k613": json.loads((ROOT / "lab/process/k613-k77-central-parity-tensor-network-obstruction.json").read_text()),
     }
@@ -55,8 +56,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K613" in live and "K441" in live, "K77 central-parity boundary missing")
-        check("genuinely odd" in live, "K77 odd-datum reopener missing")
+        check("K614" in live and "K441" in live, "K77 zero-form injection boundary missing")
+        check("nonzero" in live and "zero-form fermion" in live,
+              "K77 nonzero-background reopener missing")
         check("K596" in live and "K598" in live,
               "K77 discriminator/transport succession missing")
         check("K609" in live and "below 1/3" in live,
@@ -74,6 +76,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K614 closes the map half of K613's cheapest odd-data reopener" in summary,
+          "current K614 result lost")
     check("K612--K613 close two post-K611/K610 extraction routes" in summary,
           "current K612--K613 result lost")
     check("no named" in summary and "floor" in summary,
@@ -99,6 +103,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "rank-128 zero-form inclusion" in data["agenda"].get("latest_result_2026_09_29_k614", ""),
+        "agenda K614 result is not current",
+    )
     check(
         "central parity" in data["agenda"].get("latest_result_2026_09_29_k612_k613", ""),
         "agenda K612--K613 result is not current",
@@ -162,6 +170,27 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k614 = data["k614"]
+    k614_f = k614["cross_characteristic_rank_fingerprint"]
+    k614_t = k614["injection_theorem"]
+    k614_b = k614["background_and_riesz_reconciliation"]
+    k614_d = k614["decision"]
+    check(len(k614["cross_characteristic_packets"]) == 2, "K614 characteristic packet count moved")
+    check(k614_f["source_zero_form"] == k614_f["corrected_image"] == 128, "K614 corrected injection rank moved")
+    check(k614_f["fast_projection"] == k614_f["slow_projection"] == 128, "K614 fast/slow ranks moved")
+    check(k614_f["incoming_projection"] == k614_f["outgoing_projection"] == 128, "K614 sign-half ranks moved")
+    check([k614_f[key] for key in ("fast_incoming_projection", "fast_outgoing_projection", "slow_incoming_projection", "slow_outgoing_projection")] == [128, 128, 64, 64], "K614 four-block ranks moved")
+    check(k614_t["source_owned_zero_form_field"] and k614_t["image_lies_in_corrected_carrier"], "K614 source/injection ownership lost")
+    check(k614_t["incoming_projection_is_injective"] and k614_t["outgoing_projection_is_injective"], "K614 sign-half injectivity lost")
+    check(k614_t["fast_projection_is_injective"] and k614_t["slow_projection_is_injective"], "K614 speed injectivity lost")
+    check(k614_t["all_four_action_spectral_sign_blocks_met"], "K614 spectral/sign coverage lost")
+    check(k614_t["field_space_is_not_a_selected_field_value"], "K614 field/value distinction lost")
+    check(k614_b["active_background"] == "zero fermion" and k614_b["injection_evaluated_on_active_background_is_zero"], "K614 zero-background boundary moved")
+    check(k614_b["zero_fermion_current_rank"] == k614_b["zero_fermion_mixed_hessian_rank"] == 0, "K614 zero-background action ranks moved")
+    check(not any((k614_b["nonzero_fermion_stationary_solution_owned"], k614_b["K441_action_Riesz_return_for_zero_form_background_owned"], k614_b["K596_actual_rank_one_packet_released"], k614_b["K598_actual_covariant_packet_released"])), "K614 missing background/Riesz packet invented")
+    check(k614_d["source_owned_zero_form_injection_constructed"] and k614_d["K613_hypothetical_field_to_carrier_map_narrowed"], "K614 decision advance lost")
+    check(not any((k614_d["action_owned_nonzero_background_constructed"], k614_d["actual_action_owned_soldering_constructed"], k614_d["K590_factorized_completion_retracted"], k614_d["K613_central_parity_obstruction_retracted"], k614_d["selected_source_action_rejected"])), "K614 decision ceiling moved")
 
     k612 = data["k612"]
     k612_s = k612["serialized_numeric_custody"]
@@ -238,6 +267,22 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k614-rank", lambda d: d["k614"]["cross_characteristic_rank_fingerprint"].__setitem__("corrected_image", 127))
+    add("k614-fast", lambda d: d["k614"]["cross_characteristic_rank_fingerprint"].__setitem__("fast_projection", 127))
+    add("k614-incoming", lambda d: d["k614"]["cross_characteristic_rank_fingerprint"].__setitem__("incoming_projection", 127))
+    add("k614-block", lambda d: d["k614"]["cross_characteristic_rank_fingerprint"].__setitem__("slow_incoming_projection", 0))
+    add("k614-source", lambda d: d["k614"]["injection_theorem"].__setitem__("source_owned_zero_form_field", False))
+    add("k614-carrier", lambda d: d["k614"]["injection_theorem"].__setitem__("image_lies_in_corrected_carrier", False))
+    add("k614-half", lambda d: d["k614"]["injection_theorem"].__setitem__("incoming_projection_is_injective", False))
+    add("k614-field-value", lambda d: d["k614"]["injection_theorem"].__setitem__("field_space_is_not_a_selected_field_value", False))
+    add("k614-background", lambda d: d["k614"]["background_and_riesz_reconciliation"].__setitem__("injection_evaluated_on_active_background_is_zero", False))
+    add("k614-current", lambda d: d["k614"]["background_and_riesz_reconciliation"].__setitem__("zero_fermion_current_rank", 1))
+    add("k614-stationary", lambda d: d["k614"]["background_and_riesz_reconciliation"].__setitem__("nonzero_fermion_stationary_solution_owned", True))
+    add("k614-riesz", lambda d: d["k614"]["background_and_riesz_reconciliation"].__setitem__("K441_action_Riesz_return_for_zero_form_background_owned", True))
+    add("k614-release", lambda d: d["k614"]["background_and_riesz_reconciliation"].__setitem__("K596_actual_rank_one_packet_released", True))
+    add("k614-decision", lambda d: d["k614"]["decision"].__setitem__("source_owned_zero_form_injection_constructed", False))
+    add("k614-overclaim", lambda d: d["k614"]["decision"].__setitem__("actual_action_owned_soldering_constructed", True))
 
     add("k612-chart", lambda d: d["k612"]["serialized_numeric_custody"].__setitem__("chart_contraction_upper", "1/2"))
     add("k612-inverse", lambda d: d["k612"]["serialized_numeric_custody"].__setitem__("chart_inverse_norm_upper", "2"))

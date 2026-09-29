@@ -7,6 +7,18 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K614 ZERO-FORM CORRECTED-CARRIER INJECTION.** K614 composes
+> the source-owned `Omega^0(S)` fermion field with K438/K439. Its canonical
+> rank-128 inclusion lies in the corrected carrier; fast, slow, incoming and
+> outgoing projections are all injective, and the four fast/slow sign blocks
+> have image ranks `128,128,64,64`. The field-to-carrier injection is therefore
+> no longer hypothetical. It is not a selected nonzero vector: the active
+> branch is zero fermion and evaluates the inclusion at zero, with zero current
+> and mixed-Hessian ranks. The checks pass `37/37` controls and reject `28/28`
+> hostile mutations. Next construct and action-own one nonzero stationary
+> zero-form fermion background plus its K441-compatible Riesz return, or supply
+> a different genuinely odd action datum; only then apply K596/K598.
+
 > **2026-09-29 K611 GRAPH-SPLICE FLOOR OBSTRUCTION.** K611 audits the first
 > cancellation-preserving numerical-floor attempt after K609. Its rational
 > Neumann arithmetic reaches `87/100`, but the operator product is ill-typed:
