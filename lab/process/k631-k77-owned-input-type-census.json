@@ -1,0 +1,167 @@
+{
+  "candidate_count": 8,
+  "candidates": [
+    {
+      "exact_positive_content": "canonical projector-induced K441 realization",
+      "first_failed_obligation": "ownership",
+      "id": "H_SIGMA",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "K625/K623",
+      "source_or_action_owned": false,
+      "stationary_background_owned": false,
+      "type": "E_512 -> E_512^* nondegenerate positive form"
+    },
+    {
+      "exact_positive_content": "ranks 22,22,14 on timelike, spacelike,null strata",
+      "first_failed_obligation": "carrier_type_and_field_Riesz",
+      "id": "PARTIAL_STATIONARY_GRAM_34",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "selected-k77-stationary-gram-boundary-strata",
+      "source_or_action_owned": true,
+      "stationary_background_owned": "partial_second_action_only",
+      "type": "F_34 -> F_34^* covector-valued partial second-action symbol"
+    },
+    {
+      "exact_positive_content": "selected first-action coefficient block with 182 nonzeros",
+      "first_failed_obligation": "corrected_carrier_map_and_complete_stationarity",
+      "id": "FIRST_ACTION_EPSILON_CROSS",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "K585/selected-k77-common-first-action-epsilon-hessian",
+      "source_or_action_owned": true,
+      "stationary_background_owned": "connection_branch_only_metric_Euler_open",
+      "type": "Q_91 -> R_1470 rectangular rank-91 Hessian cross"
+    },
+    {
+      "exact_positive_content": "exact finite homogeneous-orbit coefficient complex",
+      "first_failed_obligation": "wrong_domains_and_no_carrier_dependence",
+      "id": "FINITE_BASE_COMPLEX",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "K588/K589",
+      "source_or_action_owned": true,
+      "stationary_background_owned": false,
+      "type": "H_21 -> Q_91 -> M_70"
+    },
+    {
+      "exact_positive_content": "both moving K444 projector squares",
+      "first_failed_obligation": "identity_only_carrier_dependence",
+      "id": "FACTORIZED_CARRIER_COMPLEX",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "K590",
+      "source_or_action_owned": true,
+      "stationary_background_owned": false,
+      "type": "(H_21 -> Q_91 -> M_70) tensor I_E512"
+    },
+    {
+      "exact_positive_content": "four-root corrected constrained characteristic calculus",
+      "first_failed_obligation": "ambient_not_source_domain_and_no_odd_background",
+      "id": "COMPRESSED_ACTION_A",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "K438",
+      "source_or_action_owned": true,
+      "stationary_background_owned": false,
+      "type": "E_512 -> E_512 action endomorphism"
+    },
+    {
+      "exact_positive_content": "source-owned zero-form field inclusion",
+      "first_failed_obligation": "nonzero_stationary_value_and_Riesz",
+      "id": "ZERO_FORM_SEED_J0",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "K614",
+      "source_or_action_owned": true,
+      "stationary_background_owned": false,
+      "type": "V_128 -> E_512 injective seed map"
+    },
+    {
+      "exact_positive_content": "nonzero corrected descent meeting all four spectral blocks",
+      "first_failed_obligation": "action_ownership_stationarity_and_Riesz",
+      "id": "MOVING_VARPI_SEED_X",
+      "reopener_matches": [],
+      "riesz_or_common_domain_complete": false,
+      "source": "K617",
+      "source_or_action_owned": false,
+      "stationary_background_owned": false,
+      "type": "V_128 -> E_512 injective historical graph"
+    }
+  ],
+  "census_theorem": {
+    "composition_loophole_left_for_K632": true,
+    "current_new_owned_input_dependency_is_not_a_retrieval_gap_at_single_object_level": true,
+    "every_strong_current_candidate_typed": true,
+    "single_candidate_matching_ambient_gram": false,
+    "single_candidate_matching_source_domain_endomorphism": false,
+    "single_candidate_matching_stationary_odd_adapter": false
+  },
+  "claim_ceiling": "Exact current-artifact census: none of eight strongest serialized candidates alone has the signature, ownership, stationarity, Riesz and common-domain data required for a post-K630 K77 revival. This establishes a single-object typed dependency, not a composition theorem or a universal no-go, and preserves every candidate's positive conditional content.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "controls": {
+    "controls_passed": 27,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k631_k77_owned_input_type_census_probe.py",
+    "producer": "tests/channel-swings/k631_k77_owned_input_type_census.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "next_exact_input": "Test the strongest typed compositions of current objects. If closure still contains no owned E_512 Gram, V_128 endomorphism or nonzero stationary odd adapter with Riesz/domain data, genuinely new action coefficients or a new selected stationary background are required.",
+    "single_current_object_reopens_K596_K598": false
+  },
+  "direction": "observed_to_native",
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action": "current selected first-action cross, partial stationary second-action Gram and K438 compressed symbol",
+    "actual_carrier": "K438 corrected real carrier E of rank 512",
+    "pairing": "K625 projector-induced H_Sigma, distinguished from action ownership",
+    "result": "owned-input census MAP-TYPE=typed-interface exhaustion",
+    "source_domain": "Omega0(S) coordinate domain V of rank 128",
+    "target": "one of the three exact post-K630 reopener signatures"
+  },
+  "ledger_no_change_reason": "The census reconciles already serialized conditional objects and their ownership ceilings. It creates no stationary solution, action coefficient, gauge-reduced class, observation map, physical cohomology or source interpretation.",
+  "ownership_reconciliation": {
+    "H_Sigma_retracted": false,
+    "K590_factorized_completion_retracted": false,
+    "K614_source_owned_injection_retracted": false,
+    "K617_corrected_descent_retracted": false,
+    "K629_K630_family_obstruction_retracted": false,
+    "partial_stationary_Grams_retracted": false,
+    "source_or_action_rejected": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "K590 is a genuine action-related corrected-carrier complex and K625 is a genuine nondegenerate carrier pairing; K632 must test their compositions rather than dismiss them by labels.",
+    "strongest_overclaim": "Treating a failure of every single current candidate as a universal no-go under composition or future action data.",
+    "weakest_reproducibility_seam": "The census relies on declared types and exact decision fields from current artifacts; K632 independently enforces composition rules and target reachability."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "The candidates are real but occupy different typed domains; no predecessor jointly checks them against all three post-K630 signatures.",
+    "route_comparison": "Before constructing new data, exhaust whether the repository already contains the required owned interface under older Gram, Hessian, complex or seed vocabulary.",
+    "strongest_alternative": "Immediately building another arbitrary Gram would repeat K627's unowned orthogonal-reduction problem and was rejected."
+  },
+  "required_reopener_signatures": {
+    "ambient_gram": {
+      "analytic": "compatible common BV/Green domain",
+      "ownership": "selected source/action owns the form or its Riesz map",
+      "signature": "nondegenerate symmetric E_512 -> E_512^* form"
+    },
+    "source_domain_endomorphism": {
+      "analytic": "pairing and domain preservation on the same background",
+      "ownership": "selected source/action owns the operator",
+      "signature": "V_128 -> V_128"
+    },
+    "stationary_odd_adapter": {
+      "analytic": "K441-compatible Riesz return and common BV/Green domain",
+      "ownership": "selected action owns background, mixed Hessian and matching-half coupling",
+      "signature": "nonzero odd datum on a stationary background with map into E_512"
+    }
+  },
+  "result_id": "K631-K77-OWNED-INPUT-TYPE-CENSUS",
+  "schema_version": "1.0",
+  "scope": "Complete type-and-ownership census of the strongest current serialized K77 Grams, Hessian blocks, base-complex arrows, factorwise carrier lifts, characteristic endomorphism and rank-128 seed maps against the exact post-K630 reopener signatures.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

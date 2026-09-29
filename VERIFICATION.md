@@ -7,6 +7,36 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K631--K632 current-owned-input type and composition closure (2026-09-29)
+
+K631 types the eight strongest current serialized K77 candidates against the
+three exact post-K630 reopener signatures: an action-owned nondegenerate form
+on the corrected rank-512 carrier, an owned endomorphism of the rank-128 source
+domain, or a nonzero stationary odd adapter with its K441 Riesz return and
+common BV/Green domain. The census includes `H_Sigma`, the partial stationary
+34-field Gram, the rank-91 first-action Hessian cross, the 21-to-91-to-70 base
+complex, K590's factorized carrier lift, K438's action endomorphism, K614's
+zero-form seed and K617's moving-`varpi` seed. Every candidate retains genuine
+positive content, but each fails at least one exact type, ownership,
+stationarity, Riesz or domain obligation. K631's probe checks 27 controls and
+rejects 24 hostile mutations.
+
+K632 closes the strongest current composition loophole. The exact pullbacks
+`J0^T H_Sigma J0` and `X^T H_Sigma X` are nondegenerate rank-128 forms at both
+good characteristics, but `H_Sigma` is not action-owned and no owned
+`V_128^* -> V_128` Riesz map is serialized. Action/commutant composition with
+the seeds creates more maps `V_128 -> E_512`, not a nonzero stationary value
+or matching-half mixed-Hessian packet. K590's base arrows tensored by
+`I_E` or `p(A)` remain factorwise and select no carrier vector, Gram or
+rank-one packet. The partial stationary adjoint-square remains on `F_34` and
+has no typed map to `E_512` or `V_128`. Hence no expression in the current
+serialized typed operation closure supplies the owned post-K630 input. K632's
+probe checks 30 controls and rejects 25 hostile mutations. This is a relative
+closure theorem, not a no-go for a future third action jet, new stationary
+solution, nonfactorized Hessian or source-selected Riesz map. K590, K614,
+K617, K625 and K629--K630 are not retracted, and no source, ledger, canon,
+paper, public or physical conclusion moves.
+
 ## K629--K630 family-wide determinant-line obstruction (2026-09-29)
 
 K629 closes the simultaneous-isometry family left open by K628. Write the

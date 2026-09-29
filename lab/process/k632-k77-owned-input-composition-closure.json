@@ -1,0 +1,156 @@
+{
+  "allowed_operations": [
+    {
+      "input": "E_512 -> E_512 and V_128 -> E_512",
+      "operation": "action_polynomial_or_full_commutant_on_E",
+      "output": "E_512 -> E_512 or V_128 -> E_512",
+      "ownership_rule": "does not create a source-domain operator, background value or pairing"
+    },
+    {
+      "input": "f:S->E_512 and H:E_512->E_512^*",
+      "operation": "pairing_pullback",
+      "output": "f^* H f:S->S^*",
+      "ownership_rule": "output ownership is no stronger than both f and H; a bilinear form is not an endomorphism without a separately owned Riesz map"
+    },
+    {
+      "input": "J:F_34->R_1470 and residual pairing K",
+      "operation": "stationary_adjoint_square",
+      "output": "J^* K J:F_34->F_34^*",
+      "ownership_rule": "stays on F_34 and inherits the partial-stationarity and field-Riesz/domain ceilings"
+    },
+    {
+      "input": "D:B->C and I_or_p_of_A:E_512->E_512",
+      "operation": "factorwise_tensor_lift",
+      "output": "D tensor I_or_p_of_A:B tensor E -> C tensor E",
+      "ownership_rule": "carrier dependence remains factorwise and selects no vector, covector, Gram or rank-one packet"
+    },
+    {
+      "input": "codomain and domain exactly equal",
+      "operation": "typed_composition",
+      "output": "composite with the same weakest ownership/stationarity/domain ceiling",
+      "ownership_rule": "dimensional coincidence and arbitrary isomorphisms are forbidden"
+    }
+  ],
+  "claim_ceiling": "Exact relative closure theorem: under the current serialized typed operations, nondegenerate source pullback forms and factorwise corrected-carrier complexes exist, but no expression acquires all obligations of an action-owned E_512 Gram, V_128 endomorphism, or nonzero stationary odd adapter with Riesz and common-domain data. This proves that post-K630 revival needs genuinely new owned input relative to the current repository state; it is not a universal no-go for future actions or stationary backgrounds.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "closure_theorem": {
+    "current_serialized_operation_set_exhausted": true,
+    "factorized_action_complex_reachable": true,
+    "nondegenerate_unowned_source_pullback_forms_reachable": true,
+    "owned_ambient_Gram_reachable": false,
+    "owned_source_domain_endomorphism_reachable": false,
+    "owned_stationary_odd_adapter_with_Riesz_and_domain_reachable": false,
+    "post_K630_dependency_requires_genuinely_new_owned_input": true,
+    "universal_future_action_no_go": false
+  },
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k632_k77_owned_input_composition_closure_probe.py",
+    "producer": "tests/channel-swings/k632_k77_owned_input_composition_closure.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "actual_K596_K598_packet_released": false,
+    "composition_loophole_closed_for_current_serialized_objects": true,
+    "next_exact_input": "A genuinely new selected-action object is now required: either an action-owned nondegenerate form/Riesz map on E_512, an owned V_128 endomorphism, or a nonzero stationary odd mixed-Hessian adapter with its K441 Riesz return. Only then construct the common BV/Green domain; otherwise switch to the independent K500 quantitative-floor route."
+  },
+  "direction": "observed_to_native",
+  "forbidden_generation_rules": [
+    "no ownership upgrade under composition",
+    "no vector-space identification from equal dimension",
+    "no endomorphism from a bilinear form without an owned Riesz map",
+    "no nonzero background value from a field inclusion",
+    "no nonfactorized carrier coupling from tensoring by the identity or p(A)",
+    "no closed common domain from finite-dimensional rank or principal-symbol data"
+  ],
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "base_complex": "H_21 -> Q_91 -> M_70 with factorwise E_512 lift",
+    "carrier": "K438 corrected E_512 with action A and K625 H_Sigma kept as separately typed objects",
+    "partial_stationary_field": "F_34 with covector-valued Gram J^* K J",
+    "result": "typed composition closure MAP-TYPE=ownership-monotone reachability",
+    "source_domain": "V_128 of K614/K617",
+    "target": "owned carrier Gram, owned V_128 endomorphism, or owned nonzero stationary odd adapter with Riesz/domain data"
+  },
+  "ledger_no_change_reason": "The closure theorem propagates exact type and ownership ceilings through current conditional mathematics. It adds no field value, action coefficient, stationary solution, quotient, observable or source interpretation.",
+  "ownership_reconciliation": {
+    "K590_factorized_completion_retracted": false,
+    "K614_source_owned_injection_retracted": false,
+    "K617_historical_descent_retracted": false,
+    "K625_H_Sigma_retracted": false,
+    "K629_K630_family_obstruction_retracted": false,
+    "common_BV_Green_domain_constructed": false,
+    "selected_source_action_rejected": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "J0^*H_Sigma J0 and X^*H_Sigma X are genuine nondegenerate source-domain forms, and K590 is a genuine corrected-carrier complex; their failure is ownership/type-specific rather than mathematical emptiness.",
+    "strongest_overclaim": "Calling closure of the current serialized operation set a no-go for a future third action jet, new stationary solution, nonfactorized Hessian or source-selected Riesz map.",
+    "weakest_reproducibility_seam": "The theorem depends on the operation inventory being complete for current serialized objects; every newly serialized action map must trigger a fresh reachability pass rather than inheriting this closure result."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K623/K624 already show both seed pullback Grams are nondegenerate, while K590/K600/K610 already show factorwise corrected-carrier action. No predecessor composes these facts into one ownership-monotone reachability theorem.",
+    "route_comparison": "The strongest objection to K631 is that individually insufficient objects may compose. Test the complete current typed operation set before declaring a genuinely new input necessary.",
+    "strongest_alternative": "An arbitrary Riesz identification would trivially turn a pullback form into an endomorphism, but it is exactly the missing owned datum and therefore cannot be inserted as an operation."
+  },
+  "reachable_signature_counts": {
+    "E_512_to_E_512_action_endomorphisms": "nonempty",
+    "F_34_to_F_34_dual_partial_Grams": 1,
+    "V_128_to_E_512_seed_maps": "nonempty",
+    "V_128_to_V_128_dual_pullback_forms": 2,
+    "factorwise_base_times_E_chain_maps": "nonempty",
+    "owned_V_128_to_V_128_endomorphisms": 0,
+    "owned_nondegenerate_E_512_to_E_512_dual_Grams": 0,
+    "owned_nonzero_stationary_odd_adapters_with_Riesz_and_domain": 0
+  },
+  "result_id": "K632-K77-OWNED-INPUT-COMPOSITION-CLOSURE",
+  "schema_version": "1.0",
+  "scope": "Typed closure of the K631 current-object census under the presently serialized action/commutant, pullback, stationary adjoint-square, factorwise tensor-lift and exact composition operations, with ownership, stationarity, Riesz and domain ceilings propagated monotonically.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "strongest_compositions": [
+    {
+      "exact_positive_content": "nondegenerate pullback form of rank 128 at both good characteristics",
+      "expression": "J0^* H_Sigma J0",
+      "failure": "H_Sigma is not action-owned and no owned V_128^*->V_128 Riesz map is serialized",
+      "target_reached": false,
+      "type": "V_128 -> V_128^*"
+    },
+    {
+      "exact_positive_content": "nondegenerate pullback form of rank 128 at both good characteristics",
+      "expression": "X^* H_Sigma X",
+      "failure": "both the historical seed selection and H_Sigma ownership are absent; X is nonstationary for the frozen action",
+      "target_reached": false,
+      "type": "V_128 -> V_128^*"
+    },
+    {
+      "exact_positive_content": "action/commutant orbit of the source-owned seed",
+      "expression": "p(A) J0 or T J0 with T in End_A(E)",
+      "failure": "composition creates neither a nonzero stationary field value nor a matching-half mixed-Hessian/Riesz packet; K621-K630 close the current adapter family",
+      "target_reached": false,
+      "type": "V_128 -> E_512"
+    },
+    {
+      "exact_positive_content": "factorwise corrected-carrier chain maps and K444 squares",
+      "expression": "(D2 tensor p(A), D1 tensor p(A))",
+      "failure": "base-degree arrows remain factorwise on E and the K600/K610 stabilizer obstruction selects no carrier vector, Gram or rank-one packet",
+      "target_reached": false,
+      "type": "H_21 tensor E -> Q_91 tensor E -> M_70 tensor E"
+    },
+    {
+      "exact_positive_content": "exact stratified ranks 22,22,14",
+      "expression": "J^* K J for the partial stationary residual map",
+      "failure": "typed composition remains on F_34; no map between F_34 and E_512 or V_128, full stationary tangent, field Riesz or common domain is serialized",
+      "target_reached": false,
+      "type": "F_34 -> F_34^*"
+    },
+    {
+      "exact_positive_content": "none",
+      "expression": "arbitrary dimension-matching identification",
+      "failure": "would create precisely the unowned bridge or coefficient forbidden by current artifact ceilings",
+      "target_reached": false,
+      "type": "not an admitted operation"
+    }
+  ],
+  "target_claim": "NONE-NOT-A-KILL"
+}

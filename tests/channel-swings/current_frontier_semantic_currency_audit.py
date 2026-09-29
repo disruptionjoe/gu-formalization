@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k631": json.loads((ROOT / "lab/process/k631-k77-owned-input-type-census.json").read_text()),
+        "k632": json.loads((ROOT / "lab/process/k632-k77-owned-input-composition-closure.json").read_text()),
         "k629": json.loads((ROOT / "lab/process/k629-k77-domain-family-determinant-line-obstruction.json").read_text()),
         "k630": json.loads((ROOT / "lab/process/k630-k77-determinant-line-gauge-invariance.json").read_text()),
         "k627": json.loads((ROOT / "lab/process/k627-k77-block-gauge-positive-pairing-nonselection.json").read_text()),
@@ -72,25 +74,23 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
+        check("K631" in live and "K632" in live and "current typed operation closure" in live,
+              "K77 current-owned-input closure missing")
+        check("J0^* H_Sigma J0" in live and "X^* H_Sigma X" in live,
+              "K77 nondegenerate pullback-form custody missing")
         check("K627" in live and "41,216" in live and "orthogonal reduction" in live,
               "K77 block-gauge pairing nonselection missing")
         check("K625" in live and "H_Sigma" in live,
               "K77 canonical projector point missing")
-        check("K629" in live and "8,192-dimensional" in live and "949" in live and "1004" in live,
-              "K77 family-wide determinant-line obstruction missing")
-        check("K630" in live and "source coordinates" in live and "ambient block bases" in live,
-              "K77 determinant-line gauge invariance missing")
-        check("K622" in live and "nonisometric abstract orbit" in live,
-              "K77 abstract nonisometric orbit boundary missing")
+        check("K629--K630" in live, "K77 family-wide determinant-line predecessor missing")
         check("v0.163--v0.165" in live and "already banked" in live,
               "K77 completed unrestricted/BV route repeat fence missing")
-        check("K619's common rank-384 module" in live and "K620's polynomial obstruction" in live,
-              "K77 predecessor action-hull custody missing")
-        check("mixed-Hessian" in live and "common BV/Green domain" in live,
+        check("mixed Hessian" in live and "common BV/Green" in live,
               "K77 current reopener/ownership fence missing")
-        check("family obstruction" in live and "source-action no-go" in live,
-              "K77 family scope/ownership fence missing")
-        check("K614--K629" in live, "K77 frozen zero-form route preservation missing")
+        check("universal" in live and "no-go" in live,
+              "K77 relative-closure scope fence missing")
+        check("K614" in live and "K617" in live and "K625" in live,
+              "K77 current positive-content preservation missing")
         check("K596/K598" in live, "K77 unsplit-packet interface missing")
         check("nonzero stationary moving background" in live and "independently action-owned" in live,
               "K77 moving reopener missing")
@@ -111,8 +111,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K631--K632 prove that the post-K630 demand for new owned input" in summary,
+          "current K631--K632 result lost")
     check("K629--K630 close the alternative K622 domain-map family" in summary,
-          "current K629--K630 result lost")
+          "current K629--K630 predecessor lost")
     check("K627--K628 sharpen the ambient-pairing result" in summary,
           "current K627--K628 result lost")
     check("K625--K626 resolve the ambient-pairing seam" in summary,
@@ -154,6 +156,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "eight strongest current serialized K77 candidates"
+        in data["agenda"].get("latest_result_2026_09_29_k631_k632", ""),
+        "agenda K631--K632 result is not current",
+    )
     check(
         "8,192-dimensional family"
         in data["agenda"].get("latest_result_2026_09_29_k629_k630", ""),
@@ -259,6 +266,53 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k631 = data["k631"]
+    k631_t = k631["census_theorem"]
+    k631_o = k631["ownership_reconciliation"]
+    check(k631["candidate_count"] == 8 and len(k631["candidates"]) == 8,
+          "K631 candidate census moved")
+    check(k631_t["every_strong_current_candidate_typed"] and
+          k631_t["current_new_owned_input_dependency_is_not_a_retrieval_gap_at_single_object_level"],
+          "K631 census theorem moved")
+    check(not any((k631_t["single_candidate_matching_ambient_gram"],
+                   k631_t["single_candidate_matching_source_domain_endomorphism"],
+                   k631_t["single_candidate_matching_stationary_odd_adapter"])),
+          "K631 reopener invented")
+    check(k631_t["composition_loophole_left_for_K632"] and
+          not any((k631_o["H_Sigma_retracted"], k631_o["K590_factorized_completion_retracted"],
+                   k631_o["K614_source_owned_injection_retracted"],
+                   k631_o["K617_corrected_descent_retracted"],
+                   k631_o["K629_K630_family_obstruction_retracted"],
+                   k631_o["source_or_action_rejected"])),
+          "K631 ownership/continuation boundary moved")
+
+    k632 = data["k632"]
+    k632_t = k632["closure_theorem"]
+    k632_o = k632["ownership_reconciliation"]
+    k632_d = k632["decision"]
+    check(k632_t["current_serialized_operation_set_exhausted"] and
+          k632_t["post_K630_dependency_requires_genuinely_new_owned_input"],
+          "K632 closure theorem moved")
+    check(not any((k632_t["owned_ambient_Gram_reachable"],
+                   k632_t["owned_source_domain_endomorphism_reachable"],
+                   k632_t["owned_stationary_odd_adapter_with_Riesz_and_domain_reachable"],
+                   k632_t["universal_future_action_no_go"])),
+          "K632 target or universal no-go invented")
+    check(k632_t["nondegenerate_unowned_source_pullback_forms_reachable"] and
+          k632_t["factorized_action_complex_reachable"],
+          "K632 positive current content lost")
+    check(k632_d["composition_loophole_closed_for_current_serialized_objects"] and
+          not k632_d["actual_K596_K598_packet_released"],
+          "K632 decision boundary moved")
+    check(not any((k632_o["K590_factorized_completion_retracted"],
+                   k632_o["K614_source_owned_injection_retracted"],
+                   k632_o["K617_historical_descent_retracted"],
+                   k632_o["K625_H_Sigma_retracted"],
+                   k632_o["K629_K630_family_obstruction_retracted"],
+                   k632_o["selected_source_action_rejected"],
+                   k632_o["common_BV_Green_domain_constructed"])),
+          "K632 ownership ceiling moved")
 
     k629 = data["k629"]
     k629_t = k629["determinant_line_theorem"]
@@ -558,6 +612,17 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k631-count", lambda d: d["k631"].__setitem__("candidate_count", 7))
+    add("k631-ambient", lambda d: d["k631"]["census_theorem"].__setitem__("single_candidate_matching_ambient_gram", True))
+    add("k631-composition", lambda d: d["k631"]["census_theorem"].__setitem__("composition_loophole_left_for_K632", False))
+    add("k631-retract", lambda d: d["k631"]["ownership_reconciliation"].__setitem__("K614_source_owned_injection_retracted", True))
+    add("k632-exhausted", lambda d: d["k632"]["closure_theorem"].__setitem__("current_serialized_operation_set_exhausted", False))
+    add("k632-gram", lambda d: d["k632"]["closure_theorem"].__setitem__("owned_ambient_Gram_reachable", True))
+    add("k632-pullback", lambda d: d["k632"]["closure_theorem"].__setitem__("nondegenerate_unowned_source_pullback_forms_reachable", False))
+    add("k632-universal", lambda d: d["k632"]["closure_theorem"].__setitem__("universal_future_action_no_go", True))
+    add("k632-release", lambda d: d["k632"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k632-retract", lambda d: d["k632"]["ownership_reconciliation"].__setitem__("K625_H_Sigma_retracted", True))
 
     add("k629-dimension", lambda d: d["k629"]["determinant_line_theorem"].__setitem__("family_parameter_group_dimension", 4096))
     add("k629-slow-ratios", lambda d: d["k629"]["determinant_line_theorem"].__setitem__("combined_slow_ratio_squares", [1, 1]))

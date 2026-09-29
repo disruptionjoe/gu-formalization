@@ -7,6 +7,25 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K631--K632 CURRENT-OWNED-INPUT TYPE AND COMPOSITION
+> CLOSURE.** K631 exhausts eight strongest current serialized candidates
+> against the post-K630 K77 reopener signatures: `H_Sigma`, the partial
+> stationary 34-field Gram, the rank-91 first-action Hessian cross, the exact
+> 21-to-91-to-70 base complex, K590's factorized carrier lift, K438's action
+> endomorphism, K614's zero-form seed and K617's moving-`varpi` seed. None
+> alone combines the required type, ownership, stationarity, Riesz and common-
+> domain obligations. K632 closes the strongest current composition loophole.
+> `J0^* H_Sigma J0` and `X^* H_Sigma X` are genuine nondegenerate rank-128
+> forms, and K590 remains a genuine corrected-carrier complex, but ownership
+> cannot strengthen under composition; a bilinear form is not an endomorphism
+> without an owned Riesz map, a field inclusion does not select a nonzero
+> stationary value, and a tensor-identity lift does not create nonfactorized
+> carrier dependence. Next serialize genuinely new selected-action data: the
+> same-background third action jet/nonfactorized mixed Hessian and its field
+> Riesz map, or an independently owned `V_128 -> V_128` operator. Only then
+> apply K596/K598 and build the common BV/Green domain. This closure is
+> relative to current serialized operations, not a no-go for future actions.
+
 > **2026-09-29 K629--K630 FAMILY-WIDE DETERMINANT-LINE OBSTRUCTION.** K629
 > closes the alternative K622 domain-map family left open by K628. Every
 > admissible map is parametrized by two `GL(64)` slow transports. If those

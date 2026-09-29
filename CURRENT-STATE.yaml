@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 219be9e45594
+revision_basis: a32a3a661893
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K631--K632 prove that the post-K630 demand for new owned input is not a
+    retrieval gap in the current serialized K77 repository state. K631 types
+    eight strongest candidates: the canonical `H_Sigma`, partial stationary
+    34-field Gram, rank-91 first-action Hessian cross, exact 21-to-91-to-70
+    base complex, its factorized rank-512 carrier lift, K438 action
+    endomorphism, K614 zero-form seed and K617 moving-`varpi` seed. None alone
+    has the required combination of carrier/domain signature, source/action
+    ownership, complete stationarity, Riesz return and common BV/Green
+    domain. K632 closes the strongest composition loophole under every current
+    serialized typed operation. The pullbacks `J0^* H_Sigma J0` and
+    `X^* H_Sigma X` are genuine nondegenerate rank-128 forms and K590 remains
+    a genuine factorized corrected-carrier complex, but composition cannot
+    upgrade ownership, turn a form into an endomorphism without an owned
+    Riesz map, create a nonzero stationary value from an inclusion, or create
+    nonfactorized carrier dependence from a tensor-identity lift. Therefore a
+    K77 revival now requires genuinely new selected-action data relative to
+    current repository state. This is not a universal no-go for future action
+    jets, stationary backgrounds or source-selected Riesz maps, and no source,
+    ledger, canon, paper, public or physical conclusion moves.
+
     K629--K630 close the alternative K622 domain-map family left open by K628
     without retracting K622's abstract nonisometric orbit. Every admissible
     domain map is parametrized by two invertible slow `GL(64)` transports. If
@@ -11378,19 +11398,22 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the K77 route, K629 now closes K622's complete alternative domain-map
-  family for simultaneous pairing preservation. Slow-block isometries force
-  `det(R)^2` to `949` and `1004` at the two good characteristics, while either
-  fast common-image isometry forces `det(R)^2=1`. K630 proves this mismatch is
-  invariant under common source coordinates, independent ambient block bases
-  and pivot choice. Preserve K622's nonisometric abstract orbit, K627's
-  41,216-dimensional pairing nonselection, and K625's canonical `H_Sigma`
-  point. A revival now requires new owned data outside the K622 family: a
-  source/action-owned Gram or source-domain endomorphism, or a genuinely new
-  mixed-Hessian odd adapter on a nonzero stationary moving background,
-  followed by its K441 Riesz return and common BV/Green domain before
-  K596/K598. Do not call the family obstruction a source-action no-go, treat an
-  arbitrary Gram as action-selected, retract K614--K629, or replay the already
+  On the K77 route, K631 exhausts the eight strongest current serialized
+  pairing, Hessian, complex, action and seed candidates against the exact
+  post-K630 reopener types. K632 exhausts their current typed compositions.
+  Two nondegenerate source pullback forms and the factorized K590 complex are
+  real positive content, but no current expression reaches an action-owned
+  `E_512` Gram, an owned `V_128 -> V_128` endomorphism, or a nonzero stationary
+  odd adapter with K441 Riesz return and a common BV/Green domain. Therefore
+  construct genuinely new selected-action data: serialize the same-background
+  third action jet/nonfactorized mixed Hessian and its field Riesz map, or
+  construct an independently owned source-domain operator. Otherwise switch
+  to the independent K500 quantitative-floor route. Preserve K629--K630's
+  family obstruction, K627's 41,216-dimensional pairing nonselection,
+  K625's canonical `H_Sigma`, K590's factorized complex, K614's source-owned
+  injection and both nondegenerate pullback forms. Do not turn relative
+  current-operation closure into a universal source-action no-go, insert an
+  arbitrary Riesz identification, retract K614--K630, or replay the already
   banked v0.163--v0.165 unrestricted southeast/ordinary-gauge BV route.
 
   On the K500 route, K612 proves that K139's current matched-form proof record
@@ -11875,26 +11898,24 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, K629 proves that K622's complete 8,192-dimensional
-  alternative domain-map family cannot preserve simultaneous nondegenerate
-  block pairings: slow isometry requires determinant-ratio squares `949` and
-  `1004`, while either fast common-image isometry requires one. K630 proves
-  the mismatch is invariant under source coordinates, ambient block bases and
-  fast pivot choice. Preserve K622's nonisometric abstract orbit and K627's
-  full-gauge pairing nonselection: choosing a positive Gram remains a
-  41,216-dimensional orthogonal reduction. Preserve K625's exact projector-
-  induced `H_Sigma`,
-  K621's fixed-domain obstruction, K619's common rank-384 module and K620's
-  polynomial obstruction. The strongest honest continuation requires new
-  owned data outside the K622 family: a source/action-owned Gram or source-
-  domain endomorphism, or a genuinely new independently action-owned
-  mixed-Hessian adapter on a nonzero stationary moving background, followed
-  by its K441 Riesz return and common BV/Green domain before K596/K598 and
-  properness.
-  Do not turn the family obstruction into a source-action no-go, treat an
-  arbitrary pairing reduction as action ownership, retract K614--K629 or
-  K613's central-parity ceiling, or replay the already banked v0.163--v0.165
-  unrestricted southeast/ordinary-gauge BV route. On the
+  On the K77 route, K631 proves that none of the eight strongest current
+  serialized candidates alone supplies the post-K630 owned interface. K632
+  proves the same for their complete current typed operation closure. The
+  nondegenerate `J0^* H_Sigma J0` and `X^* H_Sigma X` forms remain unowned,
+  K590's corrected-carrier complex remains factorized, the partial stationary
+  Gram remains on `F_34`, and neither seed owns a nonzero stationary value plus
+  Riesz/domain packet. Next serialize genuinely new selected-action input:
+  the same-background third action jet or another nonfactorized mixed Hessian
+  on `E_512` together with its field Riesz map, or an independently owned
+  `V_128 -> V_128` operator. Then test K596/K598 and build the common BV/Green
+  domain. If that input cannot be constructed, switch priority to the
+  independent K500 quantitative-floor route. Preserve K625, K590, K614,
+  K617 and K629--K630, K622's nonisometric abstract orbit and K627's
+  41,216-dimensional orthogonal reduction. A genuinely new independently
+  action-owned nonzero stationary moving background remains live. Do not
+  promote current relative closure to a universal no-go, infer ownership from
+  nondegeneracy, insert an arbitrary Riesz map, or replay the already banked
+  v0.163--v0.165 unrestricted southeast and ordinary-gauge BV route. On the
   K500 route, K612 closes constant
   extraction from the present K139/K156 proof record: its chart constants and
   qualitative semibound do not include a quantitative complete cancelled-core
