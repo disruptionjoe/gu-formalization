@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d166dfbb2ff4
+revision_basis: 5c35b158670e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,25 +35,32 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K637--K638 advance the two independent fronts left by K635--K636 without
-    moving a protected claim. K637 classifies coordinate-independent choices
-    inside K635's induced `End(64) direct_sum End(64)` algebra. Independent
-    internal basis covariance reduces 8,192 dimensions to the two-dimensional
-    block center. The labeled grading `I_out direct_sum (-I_in)` is natural
-    relative to K614's two slow-kernel labels but is not an action polynomial,
-    and its coefficients or orientation are not independently action-owned.
-    If the two labels are additionally exchanged, only common scalars remain.
-    Thus existing data still select no unique nonscalar operator. K638 binds
-    K636's scalar graph to K176's actual exchange bookkeeping census: four
-    ordered edge pairs times four polarity blocks. The vector graph adjoins
-    one boundary profile for each of sixteen labels, and identity subtraction
-    is the unique matrix matching that cancels harmonic divergence for every
-    coefficient vector. Sixteen labels are not asserted to be independent
-    physical channels, and vector trace continuity is not a complete
-    K139/K168 form estimate. No numerical floor, K473 beta, K152 interval,
-    source, ledger, canon, paper, public or physical conclusion moves.
+    K639--K640 advance K638's coefficient/range and quantitative-form frontier
+    without moving a protected claim. K639 replays K179's complete 2,958-term
+    family through K638's sixteen labels. Only four plus-plus ordered edge
+    pairs and two diagonal minus-minus labels occur. Exact finite-particle
+    separating functionals prove the six corresponding normal-order monomials
+    independent, so the current algebraic coordinate has rank six and kernel
+    dimension ten. This is not physical range independence. K640 constructs
+    the six-channel cancellation graph and proves that every Hermitian
+    boundary matrix `B >= m I_6` gives
+    `q_B >= min(1/2,m-1/128)||.||_G^2`, using `beta^2 < 1/256` on one common
+    graph. No current artifact identifies the complete K139/K168 regular core
+    with this parameterized form or supplies its actual six-channel lower
+    `m`; `m=-2` and `-257/128` are reference controls only. No native
+    complete-sector floor, K473 beta, K152 interval, source, ledger, canon,
+    paper, public or physical conclusion moves.
 
-    K635--K636 remain the direct predecessors. K635 classifies the complete
+    K637--K638 remain the direct predecessors. K637 reduces K635's induced
+    `End(64) direct_sum End(64)` algebra under internal basis covariance to
+    the two-dimensional block center while withholding action ownership.
+    K638 binds K636's scalar graph to K176's sixteen-label bookkeeping
+    coordinate and proves identity subtraction uniquely cancels every
+    coefficient vector. K639 now resolves minimality only for K179's current
+    algebraic monomials; K640 supplies a parameterized lower theorem while
+    preserving the missing native-form identification.
+
+    K635--K636 remain earlier direct predecessors. K635 classifies the complete
     K438 full-commutant self-stabilizer of K614's source-owned zero-form seed,
     with induced algebra dimension 8,192 and ambient stabilizer dimension
     32,768. K636 constructs `D_cancel=D_a direct_sum span{h}` for
@@ -11449,16 +11456,20 @@ current_question: >-
   nonzero stationary moving background remains an independently action-owned
   reopener.
 
-  On the K500 route, K638 identifies the K176 coefficient bookkeeping
-  coordinate as sixteen labels and lifts K636's scalar domain to the vector
-  graph. Identity matching is the unique subtraction matrix that cancels the
-  divergence for every coefficient vector. Next bind those labels to K179's
-  actual coefficient and range maps, quotient any proved range relations and
-  derive a cancellation-adapted lower estimate for the complete matched
-  K139/K168 form before separating singular factors. K612's cancelled-core
-  custody gap remains: neither the scalar nor vector topology is a named
-  complete-sector floor. Do not call the sixteen labels independent physical
-  channels or transfer the vector trace bound to the full operator.
+  On the K500 route, K639 binds K638's sixteen labels to K179's complete
+  coefficient family. Six operator-valued normal-order monomials survive and
+  are algebraically independent on a separating finite-particle family; ten
+  bookkeeping directions vanish. K640 constructs their non-equivalent
+  six-channel cancellation graph and proves the parameterized same-domain
+  estimate `q_B >= min(1/2,m-1/128)||.||_G^2` whenever the Hermitian boundary
+  matrix obeys `B >= m I_6`. Next derive the actual complete K139/K168
+  regular-core representation on this graph, prove that it has the displayed
+  form or a controlled extension and certify its six-channel lower `m`.
+  K612's cancelled-core custody gap remains: algebraic monomial independence
+  is not physical range independence, and the parameterized theorem is not a
+  named native floor. Do not import K168's three-dimensional reference
+  `m=-2`, report `-257/128` as physical or transfer the graph estimate to the
+  full operator without the missing form identity.
   Retain K609's complete leakage-square upper below 1/3 and the `25/9`
   residual target, but combine them through K494/K473 only after a separately
   valid named floor; no shifted-form residual or spectral-error bound follows.
@@ -11955,14 +11966,16 @@ next_condition: >-
   route. A genuinely new independently action-owned nonzero stationary moving
   background remains live; only after it owns the required packet should
   K596/K598 be applied. On the K500 route, K634's equivalent-norm and
-  bounded-correlation closure remains valid, while K636 constructs a
-  genuinely non-equivalent scalar domain and K638 lifts it to K176's sixteen
-  labels in the exchange coordinate. Identity matching is unique
-  for every coefficient vector, but the bookkeeping dimension is not proved
-  physically minimal. Bind the labels to K179's coefficient/range maps,
-  quotient proved relations and derive a cancellation-adapted lower estimate
-  for the complete matched K139/K168 form. K612's cancelled-core custody gap
-  remains, so K638 is not a named complete-sector floor. Retain K609's complete leakage-square upper
+  bounded-correlation closure remains valid, K636 constructs a genuinely
+  non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.
+  K639 now quotients the actual K179 family to six algebraically independent
+  operator monomials with a ten-dimensional bookkeeping kernel. K640 proves
+  on their common cancellation graph that `B >= m I_6` implies the
+  parameterized floor `min(1/2,m-1/128)`. Derive the actual complete
+  K139/K168 regular-core representation on this graph and certify its
+  six-channel Hermitian lower `m`; this identification, not another model
+  substitution, is the next exact input. K612's cancelled-core custody gap remains, so
+  neither `m=-2` nor `-257/128` is a native complete-sector floor. Retain K609's complete leakage-square upper
   below 1/3 and the `25/9` target, but combine them only after an independently
   valid floor exists; no shifted-form residual or spectral-error bound follows.
   Do not reinterpret K608's envelopes as quadrature values, double-charge

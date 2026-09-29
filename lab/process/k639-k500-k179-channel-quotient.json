@@ -1,0 +1,350 @@
+{
+  "claim_ceiling": "Exact algebraic quotient of K638's sixteen bookkeeping labels through K179's complete 2,958-term coefficient family. Only four plus-plus ordered edge pairs and two diagonal minus-minus labels occur; separating finite-particle matrix elements prove their six operator-valued normal-order monomials independent, giving rank six and a ten-dimensional kernel. This is minimal only as the current algebraic operator coordinate, not as physical channel ranges, and it supplies no complete K139/K168 floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "complete_family_replay": {
+    "all_terms_map_to_declared_K638_labels": true,
+    "all_terms_map_to_surviving_labels": true,
+    "family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "orders_covered": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "surviving_label_counts": {
+      "edge_pair_1:++": 450,
+      "edge_pair_1:--": 579,
+      "edge_pair_2:++": 450,
+      "edge_pair_3:++": 450,
+      "edge_pair_4:++": 450,
+      "edge_pair_4:--": 579
+    },
+    "surviving_monomial_counts": {
+      "W_ex[h1,h1]": 579,
+      "W_ex[h2,h2]": 579,
+      "W_ex[p1,p1]": 450,
+      "W_ex[p1,p2]": 450,
+      "W_ex[p2,p1]": 450,
+      "W_ex[p2,p2]": 450
+    },
+    "term_count": 2958
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k639_k500_k179_channel_quotient_probe.py",
+    "producer": "tests/channel-swings/k639_k500_k179_channel_quotient.py"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "actual_K179_operator_coordinate_identified": true,
+    "next_exact_input": "Construct the six-channel cancellation graph and prove a same-domain lower theorem there; then identify the actual complete K139/K168 regular-core coefficient form before claiming a native complete-sector floor.",
+    "ten_bookkeeping_directions_quotiented": true
+  },
+  "dependency_reconciliation": {
+    "K179_coefficient_family_retracted": false,
+    "K473_released": false,
+    "K638_physical_minimality_warning_resolved_only_algebraically": true,
+    "K638_sixteen_label_bookkeeping_retracted": false,
+    "complete_K139_K168_core_controlled": false,
+    "named_complete_sector_floor_emitted": false,
+    "native_K152_interval_emitted": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "carrier": "K139 hard-core C3 impurity tensor finite-particle CAR core over four signed bath species",
+    "coefficient_map": "K179 older-letter contraction family through order twelve",
+    "declared_coordinate": "K638 R^16 edge-pair by polarity bookkeeping coordinate",
+    "quotient": "six-dimensional operator-valued normal-order monomial coordinate",
+    "result": "actual coefficient/operator-map quotient MAP-TYPE=coordinate projection",
+    "target": "the minimal algebraic boundary coordinate available before a complete K139/K168 same-domain estimate"
+  },
+  "ledger_no_change_reason": "This is an exact quotient inside a repository-supplied conditional point-Fock control. It constructs no GU action-owned physical state, observable, quotient or source mechanism.",
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The ten null directions remain valid bookkeeping labels in K161/K638's conservative component bound; they vanish only after specialization to the current K179 matched contraction family.",
+    "strongest_overclaim": "Calling the six algebraically independent normal-order monomials six independent physical channels or observables.",
+    "weakest_reproducibility_seam": "The quotient inherits K179's current equal-coupling, two-edge, through-order-twelve family and must be replayed if that operator family changes."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K179 serializes all terms and K638 explicitly withholds minimality, but no prior artifact computes the induced sixteen-to-operator quotient or proves independence of its surviving monomials.",
+    "route_comparison": "The latest continuation asks for K179 coefficient/range binding. Replaying the complete term generator against K638's declared labels is cheaper and more decisive than estimating a sixteen-channel graph whose null directions are unknown.",
+    "strongest_alternative": "A complete native floor would be stronger, but K612 proves its actual regular-core constants and common quantitative form are not in current custody."
+  },
+  "quotient_theorem": {
+    "declared_dimension": 16,
+    "independent_physical_channel_ranges_proved": false,
+    "kernel_dimension": 10,
+    "minimal_algebraic_operator_coordinate_proved": true,
+    "null_labels": [
+      "edge_pair_1:+-",
+      "edge_pair_1:-+",
+      "edge_pair_2:+-",
+      "edge_pair_2:-+",
+      "edge_pair_2:--",
+      "edge_pair_3:+-",
+      "edge_pair_3:-+",
+      "edge_pair_3:--",
+      "edge_pair_4:+-",
+      "edge_pair_4:-+"
+    ],
+    "off_diagonal_minus_minus_null_labels": [
+      "edge_pair_2:--",
+      "edge_pair_3:--"
+    ],
+    "opposite_polarity_null_labels": [
+      "edge_pair_1:+-",
+      "edge_pair_1:-+",
+      "edge_pair_2:+-",
+      "edge_pair_2:-+",
+      "edge_pair_3:+-",
+      "edge_pair_3:-+",
+      "edge_pair_4:+-",
+      "edge_pair_4:-+"
+    ],
+    "quotient_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "quotient_matrix_rank": 6,
+    "separating_functional_matrix": [
+      [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ]
+    ],
+    "separating_functional_rank": 6,
+    "surviving_basis": [
+      {
+        "finite_particle_action_signature": [
+          1,
+          "1+",
+          1,
+          "1+"
+        ],
+        "label": "edge_pair_1:++",
+        "operator_monomial": "W_ex[p1,p1]",
+        "separating_functional": "<impurity 1| T |impurity 1> on the matching plus bath species"
+      },
+      {
+        "finite_particle_action_signature": [
+          1,
+          "2+",
+          2,
+          "1+"
+        ],
+        "label": "edge_pair_2:++",
+        "operator_monomial": "W_ex[p2,p1]",
+        "separating_functional": "<impurity 2| T |impurity 1> on the matching plus bath species"
+      },
+      {
+        "finite_particle_action_signature": [
+          2,
+          "1+",
+          1,
+          "2+"
+        ],
+        "label": "edge_pair_3:++",
+        "operator_monomial": "W_ex[p1,p2]",
+        "separating_functional": "<impurity 1| T |impurity 2> on the matching plus bath species"
+      },
+      {
+        "finite_particle_action_signature": [
+          2,
+          "2+",
+          2,
+          "2+"
+        ],
+        "label": "edge_pair_4:++",
+        "operator_monomial": "W_ex[p2,p2]",
+        "separating_functional": "<impurity 2| T |impurity 2> on the matching plus bath species"
+      },
+      {
+        "finite_particle_action_signature": [
+          0,
+          "1-",
+          0,
+          "1-"
+        ],
+        "label": "edge_pair_1:--",
+        "operator_monomial": "W_ex[h1,h1]",
+        "separating_functional": "<vacuum impurity, one 1- bath| T |same>"
+      },
+      {
+        "finite_particle_action_signature": [
+          0,
+          "2-",
+          0,
+          "2-"
+        ],
+        "label": "edge_pair_4:--",
+        "operator_monomial": "W_ex[h2,h2]",
+        "separating_functional": "<vacuum impurity, one 2- bath| T |same>"
+      }
+    ],
+    "surviving_dimension": 6,
+    "surviving_operator_monomials_linearly_independent_on_finite_particle_core": true
+  },
+  "result_id": "K639-K500-K179-CHANNEL-QUOTIENT",
+  "schema_version": "1.0",
+  "scope": "Exact algebraic quotient from K638's sixteen exchange bookkeeping labels to the operator-valued normal-order monomials that actually occur in K179's complete 2,958-term equal-coupling family.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

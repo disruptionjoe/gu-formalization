@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k639": json.loads((ROOT / "lab/process/k639-k500-k179-channel-quotient.json").read_text()),
+        "k640": json.loads((ROOT / "lab/process/k640-k500-cancellation-graph-lower-theorem.json").read_text()),
         "k637": json.loads((ROOT / "lab/process/k637-k77-natural-commutant-selection-ceiling.json").read_text()),
         "k638": json.loads((ROOT / "lab/process/k638-k500-vector-cancellation-coordinate.json").read_text()),
         "k635": json.loads((ROOT / "lab/process/k635-k77-full-commutant-source-stabilizer.json").read_text()),
@@ -118,10 +120,16 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K500 equivalent-domain closure missing")
         check("K636" in live and "scalar domain" in live,
               "K500 constructed cancellation topology missing")
-        check("K638" in live and "sixteen labels" in live and "Identity matching" in live,
+        check("K638" in live and "sixteen labels" in live,
               "K500 vector cancellation coordinate missing")
-        check("cancellation-adapted" in live,
-              "live complete-complement route missing")
+        check("K639" in live and "six algebraically independent" in live and
+              "ten-dimensional bookkeeping kernel" in live,
+              "K500 actual K179 quotient missing")
+        check("K640" in live and "min(1/2,m-1/128)" in live and
+              "six-channel Hermitian lower" in live,
+              "K500 parameterized graph lower theorem missing")
+        check("actual complete" in live and "regular-core representation" in live,
+              "live complete-form identification route missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -131,9 +139,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
-    check("K637--K638 advance the two independent fronts" in summary,
-          "current K637--K638 result lost")
-    check("K635--K636 remain the direct predecessors" in summary,
+    check("K639--K640 advance K638's coefficient/range" in summary,
+          "current K639--K640 result lost")
+    check("K637--K638 remain the direct predecessors" in summary,
+          "K637--K638 predecessor result lost")
+    check("K635--K636 remain earlier direct predecessors" in summary,
           "K635--K636 predecessor result lost")
     check("K633--K634 advance two independent post-K632 fronts" in summary,
           "K633--K634 predecessor result lost")
@@ -182,6 +192,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "rank six and kernel dimension ten"
+        in data["agenda"].get("latest_result_2026_09_29_k639_k640", ""),
+        "agenda K639--K640 result is not current",
+    )
     check(
         "two-dimensional block center"
         in data["agenda"].get("latest_result_2026_09_29_k637_k638", ""),
@@ -302,6 +317,50 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k639 = data["k639"]
+    k639_f = k639["complete_family_replay"]
+    k639_q = k639["quotient_theorem"]
+    k639_r = k639["dependency_reconciliation"]
+    check(k639_f["term_count"] == 2958 and
+          k639_f["all_terms_map_to_declared_K638_labels"] and
+          len(k639_f["surviving_label_counts"]) == 6,
+          "K639 complete family replay moved")
+    check(k639_q["declared_dimension"] == 16 and
+          k639_q["surviving_dimension"] == 6 and
+          k639_q["kernel_dimension"] == 10 and
+          k639_q["quotient_matrix_rank"] == 6 and
+          k639_q["separating_functional_rank"] == 6 and
+          k639_q["surviving_operator_monomials_linearly_independent_on_finite_particle_core"] and
+          not k639_q["independent_physical_channel_ranges_proved"],
+          "K639 quotient theorem moved")
+    check(not k639_r["complete_K139_K168_core_controlled"] and
+          not k639_r["named_complete_sector_floor_emitted"] and
+          not k639_r["K473_released"],
+          "K639 dependency ceiling moved")
+
+    k640 = data["k640"]
+    k640_t = k640["trace_and_domain_theorem"]
+    k640_l = k640["parameterized_lower_theorem"]
+    k640_n = k640["native_interface_status"]
+    check(k640_t["channel_dimension"] == 6 and
+          k640_t["cancellation_domain_strictly_larger"] and
+          k640_t["matched_trace_continuous"] and
+          k640_t["beta_squared_strictly_below_one_over_256"],
+          "K640 trace/domain theorem moved")
+    check(k640_l["floor_function"] == "min(1/2,m-1/128)" and
+          k640_l["all_finite_Hermitian_boundary_matrices_semibounded_on_same_graph"] and
+          not k640_l["reference_control_is_actual_K139_K168_floor"] and
+          not k640_l["diagonal_weight_graph_splice_used"] and
+          not k640_l["separate_singular_factor_estimates_used"],
+          "K640 parameterized lower theorem moved")
+    check(k640_n["K639_actual_six_channel_coordinate_consumed"] and
+          k640_n["same_domain_lower_method_constructed"] and
+          not k640_n["actual_K139_K168_form_equal_to_parameterized_q_B_proved"] and
+          not k640_n["actual_complete_regular_core_lower_m_identified"] and
+          not k640_n["named_complete_sector_floor_emitted"] and
+          not k640_n["K473_released"],
+          "K640 native interface ceiling moved")
 
     k637 = data["k637"]
     k637_t = k637["naturality_theorem"]

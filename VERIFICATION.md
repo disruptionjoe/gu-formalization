@@ -7,6 +7,28 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K639--K640 actual quotient and cancellation-graph lower theorem (2026-09-29)
+
+K639 replays all 2,958 terms of K179's orders-two-through-twelve family against
+K638's sixteen edge-pair/polarity labels. Only four plus-plus ordered pairs and
+the two diagonal minus-minus labels occur. Matrix elements on a finite-particle
+separating family give the identity matrix on the six surviving normal-order
+monomials, proving algebraic rank six and a ten-dimensional kernel. The probe
+checks 34 controls and rejects 28 hostile mutations. This is minimal only for
+the current K179 algebraic operator coordinate; it does not prove independent
+physical channel ranges or observables.
+
+K640 uses that six-dimensional coordinate on
+`D_6=(D_a tensor C^6) direct_sum (h tensor C^6)`. The matched trace and
+coefficient projection are continuous in the graph norm, and
+`beta^2=sum_(k>=1)(k+256)^-2 < 1/256`. For every Hermitian `B >= m I_6`, a
+single Young estimate on the same graph proves
+`q_B >= min(1/2,m-1/128)||.||_G^2`. The probe checks 32 controls and rejects 27
+hostile mutations. No current artifact proves that the complete K139/K168
+regular core equals this `q_B` or supplies its actual six-channel lower `m`.
+The `m=-2` row and floor `-257/128` are reference controls only, not a native
+complete-sector floor, K473 beta or K152 interval.
+
 ## K637--K638 naturality and vector-cancellation results (2026-09-29)
 
 K637 classifies the fixed elements of K635's induced

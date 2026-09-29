@@ -7,6 +7,22 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K639--K640 ACTUAL K179 QUOTIENT AND PARAMETERIZED
+> CANCELLATION-GRAPH LOWER THEOREM.** K639 maps K179's complete 2,958-term
+> family through K638's sixteen bookkeeping labels. Only four plus-plus
+> ordered edge pairs and two diagonal minus-minus labels occur, and exact
+> finite-particle separating functionals prove the six corresponding
+> normal-order monomials independent. The induced algebraic coordinate
+> therefore has rank six and kernel dimension ten. This does not prove six
+> independent physical channel ranges. K640 constructs the six-channel
+> non-equivalent cancellation graph and proves that every Hermitian boundary
+> matrix `B >= m I_6` gives
+> `q_B >= min(1/2,m-1/128)||.||_G^2`, using `beta^2 < 1/256` on one common
+> graph. Next derive the actual complete K139/K168 regular-core form on this
+> graph and certify its six-channel Hermitian lower `m`. Do not substitute
+> K168's three-dimensional reference value `m=-2`: `-257/128` is a control,
+> not a native floor, K473 beta or K152 interval.
+
 > **2026-09-29 K637--K638 NATURALITY CEILING AND VECTOR CANCELLATION
 > COORDINATE.** K637 reduces K635's 8,192-dimensional induced source algebra
 > under independent block-basis covariance to the two-dimensional block
