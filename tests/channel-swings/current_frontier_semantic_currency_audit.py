@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k625": json.loads((ROOT / "lab/process/k625-k77-canonical-projector-pairing-realization.json").read_text()),
+        "k626": json.loads((ROOT / "lab/process/k626-k77-ambient-pairing-embedding-gauge.json").read_text()),
         "k623": json.loads((ROOT / "lab/process/k623-k77-constructed-orbit-pairing-defect.json").read_text()),
         "k624": json.loads((ROOT / "lab/process/k624-k77-pairing-preserving-commutant-orbit-obstruction.json").read_text()),
         "k621": json.loads((ROOT / "lab/process/k621-k77-full-action-commutant-seed-adapter-obstruction.json").read_text()),
@@ -66,12 +68,14 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K623" in live and "rank-96" in live,
-              "K77 constructed-orbit pairing defect missing")
-        check("K624" in live and "simultaneously congrue" in live and "H_Sigma" in live,
-              "K77 projector-pairing orbit obstruction missing")
-        check("first traces" in live and "every block" in live,
-              "K77 similarity invariant missing")
+        check("K625" in live and "canonical ambient realization" in live and "H_Sigma" in live,
+              "K77 canonical pairing realization missing")
+        check("K624" in live and "canonical realization" in live,
+              "K77 canonical projector-pairing obstruction missing")
+        check("K626" in live and "GL(192)xGL(192)xGL(64)xGL(64)" in live,
+              "K77 ambient embedding gauge missing")
+        check("normalized Gram-trace fingerprints" in live,
+              "K77 embedding-gauge discriminator missing")
         check("K621" in live and "fixed-domain full-commutant" in live,
               "K77 full-commutant obstruction missing")
         check("K622" in live and "nonisometric abstract orbit" in live,
@@ -82,9 +86,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K77 predecessor action-hull custody missing")
         check("mixed-Hessian" in live and "common BV/Green domain" in live,
               "K77 current reopener/ownership fence missing")
-        check("Do not infer action ownership from abstract orbit" in live,
-              "K77 orbit-equivalence ownership fence missing")
-        check("K614--K622" in live, "K77 frozen zero-form route preservation missing")
+        check("Do not infer a successful" in live and "gauge dependence" in live,
+              "K77 embedding-gauge ownership fence missing")
+        check("K614--K625" in live, "K77 frozen zero-form route preservation missing")
         check("K596/K598" in live, "K77 unsplit-packet interface missing")
         check("nonzero stationary moving background" in live and "independently action-owned" in live,
               "K77 moving reopener missing")
@@ -105,6 +109,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K625--K626 resolve the ambient-pairing seam" in summary,
+          "current K625--K626 result lost")
     check("K623--K624 close the projector-induced pairing repair" in summary,
           "current K623--K624 result lost")
     check("K621--K622 classify the complete nonpolynomial commutant escape" in summary,
@@ -142,6 +148,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "ambient-embedding gauge"
+        in data["agenda"].get("latest_result_2026_09_29_k625_k626", ""),
+        "agenda K625--K626 result is not current",
+    )
     check(
         "pullback Gram forms" in data["agenda"].get("latest_result_2026_09_29_k623_k624", ""),
         "agenda K623--K624 result is not current",
@@ -232,6 +243,30 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k625 = data["k625"]
+    k625_t = k625["real_pairing_theorem"]
+    k625_o = k625["ownership_reconciliation"]
+    k625_d = k625["decision"]
+    check(len(k625["cross_characteristic_packets"]) == 2, "K625 characteristic packet count moved")
+    check(k625_t["four_eigenspaces_are_H_Sigma_orthogonal"] and k625_t["restricted_pairing_is_positive_definite_on_each_block"], "K625 positive orthogonal split moved")
+    check(k625_t["isometric_factorized_coordinate_map_exists"] and k625_t["K441_rational_pair_rotations_pull_back_to_H_Sigma_isometries"], "K625 factorized bridge moved")
+    check(k625_t["K441_closed_trace_domain_and_Green_conjugation_pull_back"] and not k625_t["ambient_coordinate_map_is_unique"], "K625 transport/nonuniqueness boundary moved")
+    check(k625_o["K624_applies_to_canonical_projector_realization"] and not any((k625_o["K623_projector_pairing_retracted"], k625_o["K624_H_Sigma_obstruction_retracted"], k625_o["K441_selects_this_realization_uniquely"], k625_o["canonical_projector_realization_is_action_owned_adapter"], k625_o["stationary_background_or_mixed_hessian_constructed"])), "K625 ownership ceiling moved")
+    check(k625_d["missing_ambient_pairing_bridge_constructed"] and k625_d["canonical_K441_realization_available"] and not any((k625_d["all_K441_ambient_realizations_identified"], k625_d["actual_K596_K598_packet_released"], k625_d["selected_source_action_rejected"])), "K625 decision ceiling moved")
+
+    k626 = data["k626"]
+    k626_t = k626["embedding_gauge_theorem"]
+    k626_o = k626["ownership_reconciliation"]
+    k626_d = k626["decision"]
+    check(len(k626["cross_characteristic_packets"]) == 2, "K626 characteristic packet count moved")
+    check(k626_t["gauge_group"] == "GL(192) x GL(192) x GL(64) x GL(64)", "K626 gauge group moved")
+    check(k626_t["all_blockwise_changes_preserve_four_root_action_up_to_factorized_coordinates"] and not k626_t["K441_serializes_one_ambient_embedding"], "K626 abstract-model gauge boundary moved")
+    check(k626_t["H_Sigma_is_a_canonical_projector_point_in_the_family"] and not k626_t["K624_normalized_trace_fingerprints_are_embedding_gauge_invariant"], "K626 canonical/gauge-invariance boundary moved")
+    check(k626_t["actual_carrier_shears_tested"] == 8 and k626_t["every_tested_shear_changes_both_seed_fingerprints"], "K626 shear discriminator moved")
+    check(not any((k626_o["K625_canonical_realization_retracted"], k626_o["K624_H_Sigma_obstruction_retracted"], k626_o["K624_universalized_to_every_K441_embedding"], k626_o["K441_abstract_transport_selects_an_ambient_Gram"], k626_o["embedding_gauge_is_source_or_action_selection"], k626_o["pairing_gauge_constructs_mixed_hessian_or_stationary_background"])), "K626 ownership ceiling moved")
+    check(k626_d["canonical_projector_realization_classified"] and not k626_d["abstract_K441_pairing_alone_decides_K622_orbit"] and k626_d["source_or_action_owned_embedding_required_for_broader_verdict"], "K626 decision boundary moved")
+    check(not any((k626_d["actual_K596_K598_packet_released"], k626_d["selected_source_action_rejected"])), "K626 protected decision moved")
 
     k623 = data["k623"]
     k623_t = k623["pairing_theorem"]
@@ -463,6 +498,26 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k625-orthogonal", lambda d: d["k625"]["real_pairing_theorem"].__setitem__("four_eigenspaces_are_H_Sigma_orthogonal", False))
+    add("k625-positive", lambda d: d["k625"]["real_pairing_theorem"].__setitem__("restricted_pairing_is_positive_definite_on_each_block", False))
+    add("k625-bridge", lambda d: d["k625"]["real_pairing_theorem"].__setitem__("isometric_factorized_coordinate_map_exists", False))
+    add("k625-rotation", lambda d: d["k625"]["real_pairing_theorem"].__setitem__("K441_rational_pair_rotations_pull_back_to_H_Sigma_isometries", False))
+    add("k625-unique", lambda d: d["k625"]["real_pairing_theorem"].__setitem__("ambient_coordinate_map_is_unique", True))
+    add("k625-k624", lambda d: d["k625"]["ownership_reconciliation"].__setitem__("K624_applies_to_canonical_projector_realization", False))
+    add("k625-action-owner", lambda d: d["k625"]["ownership_reconciliation"].__setitem__("canonical_projector_realization_is_action_owned_adapter", True))
+    add("k625-all-embeddings", lambda d: d["k625"]["decision"].__setitem__("all_K441_ambient_realizations_identified", True))
+    add("k625-release", lambda d: d["k625"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k626-gauge", lambda d: d["k626"]["embedding_gauge_theorem"].__setitem__("gauge_group", "O(512)"))
+    add("k626-embedding-selected", lambda d: d["k626"]["embedding_gauge_theorem"].__setitem__("K441_serializes_one_ambient_embedding", True))
+    add("k626-invariant", lambda d: d["k626"]["embedding_gauge_theorem"].__setitem__("K624_normalized_trace_fingerprints_are_embedding_gauge_invariant", True))
+    add("k626-shears", lambda d: d["k626"]["embedding_gauge_theorem"].__setitem__("actual_carrier_shears_tested", 4))
+    add("k626-fingerprints", lambda d: d["k626"]["embedding_gauge_theorem"].__setitem__("every_tested_shear_changes_both_seed_fingerprints", False))
+    add("k626-universalize", lambda d: d["k626"]["ownership_reconciliation"].__setitem__("K624_universalized_to_every_K441_embedding", True))
+    add("k626-action-owner", lambda d: d["k626"]["ownership_reconciliation"].__setitem__("embedding_gauge_is_source_or_action_selection", True))
+    add("k626-orbit", lambda d: d["k626"]["decision"].__setitem__("abstract_K441_pairing_alone_decides_K622_orbit", True))
+    add("k626-requirement", lambda d: d["k626"]["decision"].__setitem__("source_or_action_owned_embedding_required_for_broader_verdict", False))
+    add("k626-release", lambda d: d["k626"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
 
     add("k623-domain-defect", lambda d: d["k623"]["pairing_theorem"].__setitem__("domain_orthogonality_defect_rank", 0))
     add("k623-gram-defects", lambda d: d["k623"]["pairing_theorem"].__setitem__("block_pullback_gram_defect_ranks", [0, 0, 0, 0]))

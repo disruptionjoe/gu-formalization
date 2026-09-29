@@ -7,6 +7,23 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K625--K626 CANONICAL PAIRING REALIZATION AND EMBEDDING
+> GAUGE.** K625 closes the exact bridge left by K624: the projector form
+> `H_Sigma=sum_i P_i^T P_i` makes the four K438 eigenspaces mutually
+> orthogonal and positive with ranks `192,192,64,64`, so blockwise
+> orthonormalization realizes K441's Euclidean factor model and pulls back its
+> rational rotations, closed trace domain and Green conjugation. K624 is
+> therefore decisive for this canonical projector realization. K626 then
+> classifies the unselected `GL(192)xGL(192)xGL(64)xGL(64)` ambient-embedding
+> gauge. Eight exact rank-one square-zero block shears preserve the action,
+> projectors, rank and self-adjointness at both good characteristics while
+> changing both seeds' normalized Gram-trace fingerprints. Thus K624 is not a
+> theorem about every unselected realization of K441's abstract block model.
+> Next supply a source/action-owned ambient embedding or Gram, or a genuinely
+> new action-owned mixed Hessian/domain adapter on a nonzero stationary moving
+> background. Do not infer an alternative isometric orbit from gauge
+> dependence or call an arbitrary embedding physical.
+
 > **2026-09-29 K623--K624 PROJECTOR-PAIRING ORBIT OBSTRUCTION.** K623
 > constructs `H_Sigma=sum_i P_i^T P_i`, an exact rank-512 positive real form
 > making K438 and its four spectral projectors self-adjoint. This form is not

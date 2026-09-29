@@ -7,6 +7,32 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K625--K626 canonical pairing realization and embedding gauge (2026-09-29)
+
+K625 supplies the exact ambient bridge deliberately left open by K623--K624.
+On the corrected real carrier, `H_Sigma=sum_i P_i^T P_i` has the strict
+sum-of-squares identity `v^T H_Sigma v=sum_i ||P_i v||^2`. The four K438
+eigenspaces are mutually `H_Sigma`-orthogonal and have ranks
+`192,192,64,64`; blockwise orthonormalization therefore identifies the actual
+carrier isometrically with K441's factorized Euclidean model. K441's rational
+pair rotations, closed trace domain and Green conjugation pull back along that
+map. K624 consequently excludes the K622 orbit for this canonical projector
+realization. The producer passes 27 controls and rejects 25 hostile mutations.
+
+K626 classifies the remaining coordinate choice. K441 does not serialize one
+ambient embedding; independent invertible changes inside its four spectral
+blocks form a `GL(192)xGL(192)xGL(64)xGL(64)` gauge and pull Euclidean pairing
+back to a family of positive ambient Grams. At GF(1009) and GF(1013), one
+rank-one square-zero shear in each block preserves the action, every spectral
+projector, rank 512 and self-adjointness while changing both seeds' normalized
+pullback-Gram trace fingerprints. All eight shears pass. Hence K624's
+fingerprint is not invariant under the full unselected embedding gauge. This
+does not construct an alternative pairing-preserving orbit: K624 remains exact
+at `H_Sigma`, while a broader verdict requires a source/action-owned embedding
+or Gram. K626's probe passes 33 controls and rejects 31 hostile mutations. No
+stationary background, mixed Hessian, common BV/Green domain, source, ledger,
+canon, paper, public or physical conclusion moves.
+
 ## K623--K624 projector-pairing orbit obstruction (2026-09-29)
 
 K623 first constructs the exact projector-induced form

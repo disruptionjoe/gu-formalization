@@ -1,0 +1,415 @@
+{
+  "claim_ceiling": "Exact cross-characteristic proof that K441's abstract factorized transport leaves a full blockwise ambient-embedding gauge and that K624's normalized pullback-Gram trace fingerprints are not invariant under it. Eight actual-carrier rank-one square-zero shears preserve the four-root action, all spectral projectors, nondegeneracy and self-adjointness while changing both seed fingerprints. K624 remains decisive for K625's canonical H_Sigma realization but cannot be universalized to every unselected K441 embedding. No alternative pairing-preserving orbit, source/action-owned Gram, mixed Hessian, stationary background, common BV/Green domain, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is constructed or settled.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "prime": 1009,
+      "shear_rows": {
+        "fast_incoming": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "359",
+            "fast_outgoing": "359",
+            "slow_incoming": "714",
+            "slow_outgoing": "714"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "321",
+            "fast_outgoing": "321",
+            "slow_incoming": "752",
+            "slow_outgoing": "752"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "230",
+            "fast_outgoing": "727",
+            "slow_incoming": "72",
+            "slow_outgoing": "108"
+          },
+          "changed_pairing_sha256": "sha256:6dfeee303f56d046de9b9d3b1bcfb5c3c9f571ea2dd4ad9bf14668fcf0039fe7",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "288",
+            "fast_outgoing": "675",
+            "slow_incoming": "752",
+            "slow_outgoing": "431"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 192,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:8bcccde14640cf6980469f1332e1653b8ca31e48b379cade4f7e53433e4c497d"
+        },
+        "fast_outgoing": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "359",
+            "fast_outgoing": "359",
+            "slow_incoming": "714",
+            "slow_outgoing": "714"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "321",
+            "fast_outgoing": "321",
+            "slow_incoming": "752",
+            "slow_outgoing": "752"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "396",
+            "fast_outgoing": "614",
+            "slow_incoming": "408",
+            "slow_outgoing": "728"
+          },
+          "changed_pairing_sha256": "sha256:2cf3b79ddadaa79004513850a13d64327b7886c3dd070ce32d7c9450c02ac9a9",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "162",
+            "fast_outgoing": "278",
+            "slow_incoming": "752",
+            "slow_outgoing": "954"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 192,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:691f874e78a25ba58e695310602d6513249806b013064fd65c304ac5ce78a6d0"
+        },
+        "slow_incoming": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "359",
+            "fast_outgoing": "359",
+            "slow_incoming": "714",
+            "slow_outgoing": "714"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "321",
+            "fast_outgoing": "321",
+            "slow_incoming": "752",
+            "slow_outgoing": "752"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "968",
+            "fast_outgoing": "383",
+            "slow_incoming": "848",
+            "slow_outgoing": "956"
+          },
+          "changed_pairing_sha256": "sha256:c89e8169196d72903310f793f3d967408d18371788d7e58c511f30183bab961c",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "229",
+            "fast_outgoing": "926",
+            "slow_incoming": "239",
+            "slow_outgoing": "752"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 64,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:4eb83c902da3480592e684a67c78672f53fc195af6aedb1a3a545762b08a0cff"
+        },
+        "slow_outgoing": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "359",
+            "fast_outgoing": "359",
+            "slow_incoming": "714",
+            "slow_outgoing": "714"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "321",
+            "fast_outgoing": "321",
+            "slow_incoming": "752",
+            "slow_outgoing": "752"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "480",
+            "fast_outgoing": "536",
+            "slow_incoming": "700",
+            "slow_outgoing": "430"
+          },
+          "changed_pairing_sha256": "sha256:b02d0a3dcb2a89ec4ff035a32bb6eb00214d63501d3c215b4a19dc4a59aaf2b3",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "965",
+            "fast_outgoing": "206",
+            "slow_incoming": "752",
+            "slow_outgoing": "223"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 64,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:b45846bfa901228364147cd438c658c2ad0a889c4330523cebc757432cf3f15e"
+        }
+      }
+    },
+    {
+      "prime": 1013,
+      "shear_rows": {
+        "fast_incoming": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "182",
+            "fast_outgoing": "182",
+            "slow_incoming": "895",
+            "slow_outgoing": "895"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "527",
+            "fast_outgoing": "527",
+            "slow_incoming": "550",
+            "slow_outgoing": "550"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "270",
+            "fast_outgoing": "698",
+            "slow_incoming": "473",
+            "slow_outgoing": "713"
+          },
+          "changed_pairing_sha256": "sha256:52cf6466ef20fcfb4147fd3cc33aae243fafb38a5f07ecac7795d580e3d38fe9",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "727",
+            "fast_outgoing": "881",
+            "slow_incoming": "550",
+            "slow_outgoing": "1009"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 192,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:49e091dd7c47fabeac9bc0d76b211f7341016d76ebe25672832ed87222538ca0"
+        },
+        "fast_outgoing": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "182",
+            "fast_outgoing": "182",
+            "slow_incoming": "895",
+            "slow_outgoing": "895"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "527",
+            "fast_outgoing": "527",
+            "slow_incoming": "550",
+            "slow_outgoing": "550"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "618",
+            "fast_outgoing": "606",
+            "slow_incoming": "402",
+            "slow_outgoing": "528"
+          },
+          "changed_pairing_sha256": "sha256:3e0655aae763cfc90ec088f4afc5d995e3b68ca727ebd969877877b1375c421d",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "690",
+            "fast_outgoing": "957",
+            "slow_incoming": "550",
+            "slow_outgoing": "970"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 192,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:cb2a58ed292543efdabfb983b07ea9212417202832342d71586c0df8b6f14fde"
+        },
+        "slow_incoming": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "182",
+            "fast_outgoing": "182",
+            "slow_incoming": "895",
+            "slow_outgoing": "895"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "527",
+            "fast_outgoing": "527",
+            "slow_incoming": "550",
+            "slow_outgoing": "550"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "132",
+            "fast_outgoing": "89",
+            "slow_incoming": "1011",
+            "slow_outgoing": "922"
+          },
+          "changed_pairing_sha256": "sha256:9efe67af410606282ead5789e0391ecdd54c95e9f15d02e05ca87f3c24ebf1f4",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "575",
+            "fast_outgoing": "788",
+            "slow_incoming": "241",
+            "slow_outgoing": "550"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 64,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:ac7940ce393e1ea56a2a48461e7f58326ee19f18c1d3e5d28ba8aa8836d23589"
+        },
+        "slow_outgoing": {
+          "base_graph_seed_normalized_traces": {
+            "fast_incoming": "182",
+            "fast_outgoing": "182",
+            "slow_incoming": "895",
+            "slow_outgoing": "895"
+          },
+          "base_zero_seed_normalized_traces": {
+            "fast_incoming": "527",
+            "fast_outgoing": "527",
+            "slow_incoming": "550",
+            "slow_outgoing": "550"
+          },
+          "changed_graph_seed_normalized_traces": {
+            "fast_incoming": "522",
+            "fast_outgoing": "894",
+            "slow_incoming": "447",
+            "slow_outgoing": "291"
+          },
+          "changed_pairing_sha256": "sha256:80f5a1c368a85d03dbb25328ccabb8ffceb7b4500e632f4163fcbfbd332b6007",
+          "changed_zero_seed_normalized_traces": {
+            "fast_incoming": "735",
+            "fast_outgoing": "286",
+            "slow_incoming": "550",
+            "slow_outgoing": "583"
+          },
+          "checks": {
+            "action_self_adjoint_for_changed_pairing": true,
+            "all_projectors_self_adjoint_for_changed_pairing": true,
+            "changed_pairing_rank_512": true,
+            "commutes_with_action": true,
+            "commutes_with_all_projectors": true,
+            "corrected_carrier_preserved": true,
+            "explicit_inverse": true,
+            "graph_seed_normalized_traces_change": true,
+            "nilpotent_square_zero": true,
+            "rank_one_block_shear": true,
+            "zero_seed_normalized_traces_change": true
+          },
+          "eigenspace_rank": 64,
+          "nilpotent_rank": 1,
+          "nilpotent_sha256": "sha256:a27703df82902184dc7e41a9c6709e9daf8afa2b6cb09d5d54a5477e101086d2"
+        }
+      }
+    }
+  ],
+  "decision": {
+    "abstract_K441_pairing_alone_decides_K622_orbit": false,
+    "actual_K596_K598_packet_released": false,
+    "canonical_projector_realization_classified": true,
+    "next_exact_input": "Supply a source/action-owned ambient embedding or Gram for the corrected carrier, or a genuinely new action-owned source-domain endomorphism or mixed-Hessian odd adapter on a nonzero stationary moving background. Then test its K441 Riesz return, pairing and common BV/Green domain. K624 remains decisive for the canonical H_Sigma realization only.",
+    "selected_source_action_rejected": false,
+    "source_or_action_owned_embedding_required_for_broader_verdict": true
+  },
+  "direction": "native_to_observed",
+  "embedding_gauge_theorem": {
+    "H_Sigma_is_a_canonical_projector_point_in_the_family": true,
+    "K441_serializes_one_ambient_embedding": false,
+    "K624_normalized_trace_fingerprints_are_embedding_gauge_invariant": false,
+    "actual_carrier_shears_tested": 8,
+    "all_blockwise_changes_preserve_four_root_action_up_to_factorized_coordinates": true,
+    "every_tested_shear_changes_both_seed_fingerprints": true,
+    "gauge_group": "GL(192) x GL(192) x GL(64) x GL(64)",
+    "moving_transport_family": "U_C=F^-1 C^-1 U C F; its projector parallelism, isometry, closed-domain and Green-conjugation laws are coordinate conjugates of K441",
+    "pulled_back_pairing_family": "H_C=F^T C^T C F, positive definite on the real corrected carrier for every invertible real C"
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "abstract_model": "K441 four spectral blocks with Euclidean pairing, rational pair rotation and closed-domain Green conjugation",
+    "actual_probe": "rank-one square-zero shears S_i=I+N_i inside each K438 eigenspace, with H_i=S_i^T H_Sigma S_i",
+    "ambient_realization": "an isomorphism F from the actual corrected carrier to the abstract factorized blocks, pulling Euclidean pairing back to H_F=F^T F",
+    "embedding_gauge": "independent invertible block changes C_i in GL(192), GL(192), GL(64), GL(64), with F replaced by C F and the abstract transport conjugated accordingly",
+    "result": "ambient pairing nonidentifiability MAP-TYPE=blockwise congruence gauge",
+    "target": "whether K624's H_Sigma orbit obstruction is intrinsic to K441's abstract factorized data"
+  },
+  "ledger_no_change_reason": "The result exposes coordinate/metric freedom in a conditional boundary transport and narrows an internal orbit obstruction. It selects no embedding from the source action and constructs no stationary solution, mixed Hessian, gauge-reduced class, observation map or physical cohomology.",
+  "ownership_reconciliation": {
+    "K441_abstract_transport_selects_an_ambient_Gram": false,
+    "K624_H_Sigma_obstruction_retracted": false,
+    "K624_universalized_to_every_K441_embedding": false,
+    "K625_canonical_realization_retracted": false,
+    "embedding_gauge_is_source_or_action_selection": false,
+    "pairing_gauge_constructs_mixed_hessian_or_stationary_background": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The canonical H_Sigma point is exact and K624 remains a complete obstruction there; gauge variation changes its necessary fingerprints but does not itself produce a successful orbit.",
+    "strongest_overclaim": "Calling gauge dependence proof that some alternative positive pairing makes the K622 orbit isometric, or calling arbitrary C source/action selected.",
+    "weakest_reproducibility_seam": "The actual-carrier shear fingerprints are certified over both good characteristics; positivity of H_C over the real carrier follows by congruence from H_Sigma and is not a finite-field order claim."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K623/K624 mention another symmetrizing pairing but do not classify K441's embedding gauge or test their invariants under actual-carrier block shears.",
+    "route_comparison": "After K625 constructs one canonical realization, test the entire missing coordinate-choice seam by exact within-eigenspace congruences rather than treating H_Sigma as silently unique.",
+    "strongest_alternative": "Finding one source/action-owned Gram would collapse the gauge physically, but no such selector is serialized."
+  },
+  "result_id": "K626-K77-AMBIENT-PAIRING-EMBEDDING-GAUGE",
+  "schema_version": "1.0",
+  "scope": "Exact classification of the blockwise ambient-coordinate gauge left unselected by K441's abstract factorized Euclidean model, with actual-carrier rank-one shears testing whether K624's normalized pullback-Gram fingerprints are invariant under that gauge.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
