@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k621": json.loads((ROOT / "lab/process/k621-k77-full-action-commutant-seed-adapter-obstruction.json").read_text()),
+        "k622": json.loads((ROOT / "lab/process/k622-k77-domain-reparameterized-commutant-orbit.json").read_text()),
         "k619": json.loads((ROOT / "lab/process/k619-k77-zero-form-moving-graph-common-action-module.json").read_text()),
         "k620": json.loads((ROOT / "lab/process/k620-k77-action-functional-calculus-selection-obstruction.json").read_text()),
         "k617": json.loads((ROOT / "lab/process/k617-k77-moving-varpi-corrected-carrier-descent.json").read_text()),
@@ -62,17 +64,19 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     if isinstance(live, str):
         check("K77 route" in live, "K77 nonfactorized route missing")
-        check("K619--K620" in live and "same rank-384 K438 module" in live,
-              "K77 common action module missing")
-        check("not images of polynomial projectors in `A`" in live and "no scalar polynomial" in live,
-              "K77 functional-calculus obstruction missing")
-        check("v0.163--v0.165" in live and "not the next construction" in live,
+        check("K621" in live and "full K438 commutant" in live,
+              "K77 full-commutant obstruction missing")
+        check("K622" in live and "orbit-equivalent" in live,
+              "K77 domain-orbit repair missing")
+        check("v0.163--v0.165" in live and "already banked" in live,
               "K77 completed unrestricted/BV route repeat fence missing")
-        check("Preserve K614--K618" in live and "rank-384 K438 module" in live,
+        check("Preserve K619's common rank-384 module" in live and "K620's polynomial" in live,
               "K77 predecessor action-hull custody missing")
         check("mixed-Hessian" in live and "common BV/Green domain" in live,
               "K77 current reopener/ownership fence missing")
-        check("Preserve K614--K618" in live, "K77 frozen zero-form route preservation missing")
+        check("Do not infer action ownership from arbitrary orbit equivalence" in live,
+              "K77 orbit-equivalence ownership fence missing")
+        check("K614--K620" in live, "K77 frozen zero-form route preservation missing")
         check("K596/K598" in live, "K77 unsplit-packet interface missing")
         check("nonzero stationary moving background" in live and "independently action-owned" in live,
               "K77 moving reopener missing")
@@ -93,6 +97,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K621--K622 classify the complete nonpolynomial commutant escape" in summary,
+          "current K621--K622 result lost")
     check("K619--K620 compose K614's source-owned zero-form seed" in summary,
           "current K619--K620 result lost")
     check("K617--K618 test the strongest already-owned moving-background candidate" in summary,
@@ -126,6 +132,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "full K438 action commutant"
+        in data["agenda"].get("latest_result_2026_09_29_k621_k622", ""),
+        "agenda K621--K622 result is not current",
+    )
     check(
         "same rank-384 K438 module"
         in data["agenda"].get("latest_result_2026_09_29_k619_k620", ""),
@@ -207,6 +218,29 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(data["b2"]["basis"]["b2_selectable"] is True, "B2 selectability history moved")
     check(all(value is False for value in registry["protected_effects"].values()),
           "protected movement field changed")
+
+    k621 = data["k621"]
+    k621_t = k621["commutant_theorem"]
+    k621_o = k621["ownership_reconciliation"]
+    k621_d = k621["decision"]
+    check(len(k621["cross_characteristic_packets"]) == 2, "K621 characteristic packet count moved")
+    check(k621_t["full_commutant_dimension"] == 81920, "K621 commutant dimension moved")
+    check(k621_t["fast_block_solution_affine_dimensions"] == [12288, 12288], "K621 fast solution dimensions moved")
+    check(k621_t["slow_block_row_space_intersections"] == [0, 0] and k621_t["slow_block_row_space_joins"] == [128, 128], "K621 slow row-space obstruction moved")
+    check(not k621_t["fixed_domain_commuting_adapter_exists"], "K621 fixed-domain adapter obstruction moved")
+    check(k621_o["fixed_domain_nonpolynomial_commutant_adapter_excluded"] and not any((k621_o["full_commutant_is_action_owned_as_a_selected_adapter"], k621_o["source_domain_reparameterization_tested"], k621_o["mixed_hessian_or_domain_adapter_excluded"], k621_o["nonzero_stationary_background_constructed"])), "K621 ownership ceiling moved")
+    check(k621_d["K620_functional_calculus_obstruction_strengthened"] and not any((k621_d["K619_common_module_retracted"], k621_d["actual_K596_K598_packet_released"], k621_d["selected_source_action_rejected"])), "K621 decision ceiling moved")
+
+    k622 = data["k622"]
+    k622_t = k622["orbit_theorem"]
+    k622_o = k622["ownership_reconciliation"]
+    k622_d = k622["decision"]
+    check(len(k622["cross_characteristic_packets"]) == 2, "K622 characteristic packet count moved")
+    check(k622_t["zero_seed_slow_row_pair_is_direct_sum"] and k622_t["moving_seed_slow_row_pair_is_direct_sum"], "K622 slow decompositions moved")
+    check(k622_t["one_invertible_domain_reparameterization_matches_both_slow_rows"] and k622_t["invertible_commutant_and_domain_orbit_equivalence_exists"], "K622 orbit existence moved")
+    check(not k622_t["fixed_domain_commutant_adapter_exists"] and k622_t["block_transport_affine_freedom_for_constructed_domain_map"] == 24576 and not k622_t["orbit_equivalence_selects_unique_adapter"], "K622 nonuniqueness/fixed-domain boundary moved")
+    check(not any((k622_o["K621_fixed_domain_obstruction_retracted"], k622_o["domain_reparameterization_is_source_selected"], k622_o["commutant_transport_is_action_selected"], k622_o["orbit_equivalence_identifies_seed_constructions"], k622_o["pairing_or_Green_domain_preservation_proved"], k622_o["mixed_hessian_or_stationary_background_constructed"])), "K622 ownership ceiling moved")
+    check(k622_d["full_abstract_commutant_orbit_is_nonempty"] and not any((k622_d["K619_common_module_retracted"], k622_d["actual_K596_K598_packet_released"], k622_d["selected_source_action_rejected"])), "K622 decision ceiling moved")
 
     k619 = data["k619"]
     k619_t = k619["common_module_theorem"]
@@ -389,6 +423,23 @@ def selftest(base: dict) -> tuple[int, int]:
     ).__setitem__("next_swing", "Step 0: recertify the remaining RB6 null with exact derivatives."))
     add("protected-effect-moved", lambda d: d["registry"]["protected_effects"].__setitem__(
         "ledger_verdict_change", True))
+
+    add("k621-dimension", lambda d: d["k621"]["commutant_theorem"].__setitem__("full_commutant_dimension", 4))
+    add("k621-fast-solutions", lambda d: d["k621"]["commutant_theorem"].__setitem__("fast_block_solution_affine_dimensions", [0, 0]))
+    add("k621-slow-intersection", lambda d: d["k621"]["commutant_theorem"].__setitem__("slow_block_row_space_intersections", [64, 64]))
+    add("k621-slow-join", lambda d: d["k621"]["commutant_theorem"].__setitem__("slow_block_row_space_joins", [64, 64]))
+    add("k621-adapter", lambda d: d["k621"]["commutant_theorem"].__setitem__("fixed_domain_commuting_adapter_exists", True))
+    add("k621-owner", lambda d: d["k621"]["ownership_reconciliation"].__setitem__("full_commutant_is_action_owned_as_a_selected_adapter", True))
+    add("k621-domain-tested", lambda d: d["k621"]["ownership_reconciliation"].__setitem__("source_domain_reparameterization_tested", True))
+    add("k621-release", lambda d: d["k621"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
+    add("k622-slow-pair", lambda d: d["k622"]["orbit_theorem"].__setitem__("zero_seed_slow_row_pair_is_direct_sum", False))
+    add("k622-domain-map", lambda d: d["k622"]["orbit_theorem"].__setitem__("one_invertible_domain_reparameterization_matches_both_slow_rows", False))
+    add("k622-orbit", lambda d: d["k622"]["orbit_theorem"].__setitem__("invertible_commutant_and_domain_orbit_equivalence_exists", False))
+    add("k622-fixed-domain", lambda d: d["k622"]["orbit_theorem"].__setitem__("fixed_domain_commutant_adapter_exists", True))
+    add("k622-unique", lambda d: d["k622"]["orbit_theorem"].__setitem__("orbit_equivalence_selects_unique_adapter", True))
+    add("k622-source-selected", lambda d: d["k622"]["ownership_reconciliation"].__setitem__("domain_reparameterization_is_source_selected", True))
+    add("k622-pairing", lambda d: d["k622"]["ownership_reconciliation"].__setitem__("pairing_or_Green_domain_preservation_proved", True))
+    add("k622-release", lambda d: d["k622"]["decision"].__setitem__("actual_K596_K598_packet_released", True))
 
     add("k617-rank", lambda d: d["k617"]["descent_theorem"].__setitem__("corrected_graph_rank", 127))
     add("k617-collapse", lambda d: d["k617"]["descent_theorem"].__setitem__("pin_candidates_become_identical_after_correction", False))

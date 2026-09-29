@@ -1,0 +1,205 @@
+{
+  "claim_ceiling": "Exact cross-characteristic orbit equivalence after adjoining an arbitrary invertible Omega0(S)_128 domain reparameterization: both seeds define ordered complementary rank-64 slow row-space pairs, and one domain map makes every action-eigenblock row space agree, after which invertible block transports exist. The construction is highly nonunique and neither source-selected nor action-owned; it proves no pairing, Green-domain, stationarity, BV/KT, source, ledger, canon, paper, public, novelty, prediction, confirmation, or physical conclusion.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "checks": {
+        "all_block_row_spaces_match_after_reparameterization": true,
+        "both_slow_pairs_are_direct_decompositions": true,
+        "domain_reparameterization_is_invertible": true,
+        "domain_reparameterization_matches_both_slow_rows": true,
+        "invertible_commutant_transport_exists_after_reparameterization": true
+      },
+      "domain_reparameterization_rank": 128,
+      "domain_reparameterization_sha256": "sha256:58c2fcb1d4db7d4fff8f6fadce0aa6958af2b409c2e47c1d7fade28255a59227",
+      "eigenblock_rows": {
+        "fast_incoming": {
+          "block_transport_solution_affine_dimension": 12288,
+          "eigenspace_rank": 192,
+          "graph_seed_block_rank": 128,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 128,
+          "row_space_join_rank_after_domain_map": 128,
+          "row_spaces_equal_after_domain_map": true
+        },
+        "fast_outgoing": {
+          "block_transport_solution_affine_dimension": 12288,
+          "eigenspace_rank": 192,
+          "graph_seed_block_rank": 128,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 128,
+          "row_space_join_rank_after_domain_map": 128,
+          "row_spaces_equal_after_domain_map": true
+        },
+        "slow_incoming": {
+          "block_transport_solution_affine_dimension": 0,
+          "eigenspace_rank": 64,
+          "graph_seed_block_rank": 64,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 64,
+          "row_space_join_rank_after_domain_map": 64,
+          "row_spaces_equal_after_domain_map": true
+        },
+        "slow_outgoing": {
+          "block_transport_solution_affine_dimension": 0,
+          "eigenspace_rank": 64,
+          "graph_seed_block_rank": 64,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 64,
+          "row_space_join_rank_after_domain_map": 64,
+          "row_spaces_equal_after_domain_map": true
+        }
+      },
+      "prime": 1009,
+      "slow_pair_ranks": {
+        "moving_graph": 128,
+        "zero_seed": 128
+      }
+    },
+    {
+      "checks": {
+        "all_block_row_spaces_match_after_reparameterization": true,
+        "both_slow_pairs_are_direct_decompositions": true,
+        "domain_reparameterization_is_invertible": true,
+        "domain_reparameterization_matches_both_slow_rows": true,
+        "invertible_commutant_transport_exists_after_reparameterization": true
+      },
+      "domain_reparameterization_rank": 128,
+      "domain_reparameterization_sha256": "sha256:603d56e98d361d4a02353d539ca854c110390a40a3c509d9ea701b0cdb70d2fe",
+      "eigenblock_rows": {
+        "fast_incoming": {
+          "block_transport_solution_affine_dimension": 12288,
+          "eigenspace_rank": 192,
+          "graph_seed_block_rank": 128,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 128,
+          "row_space_join_rank_after_domain_map": 128,
+          "row_spaces_equal_after_domain_map": true
+        },
+        "fast_outgoing": {
+          "block_transport_solution_affine_dimension": 12288,
+          "eigenspace_rank": 192,
+          "graph_seed_block_rank": 128,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 128,
+          "row_space_join_rank_after_domain_map": 128,
+          "row_spaces_equal_after_domain_map": true
+        },
+        "slow_incoming": {
+          "block_transport_solution_affine_dimension": 0,
+          "eigenspace_rank": 64,
+          "graph_seed_block_rank": 64,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 64,
+          "row_space_join_rank_after_domain_map": 64,
+          "row_spaces_equal_after_domain_map": true
+        },
+        "slow_outgoing": {
+          "block_transport_solution_affine_dimension": 0,
+          "eigenspace_rank": 64,
+          "graph_seed_block_rank": 64,
+          "invertible_block_transport_exists": true,
+          "moved_zero_seed_block_rank": 64,
+          "row_space_join_rank_after_domain_map": 64,
+          "row_spaces_equal_after_domain_map": true
+        }
+      },
+      "prime": 1013,
+      "slow_pair_ranks": {
+        "moving_graph": 128,
+        "zero_seed": 128
+      }
+    }
+  ],
+  "decision": {
+    "K619_common_module_retracted": false,
+    "actual_K596_K598_packet_released": false,
+    "full_abstract_commutant_orbit_is_nonempty": true,
+    "next_exact_input": "An actual revival now requires an independently action-owned source-domain endomorphism or mixed-Hessian odd adapter on a nonzero stationary moving background, plus proof that the chosen adapter preserves the K441 pairing and common BV/Green domain. Abstract GL(128) by End_A(E) orbit equivalence cannot select those data.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "eigenblock_fingerprint": {
+    "fast_incoming": {
+      "block_transport_solution_affine_dimension": 12288,
+      "eigenspace_rank": 192,
+      "graph_seed_block_rank": 128,
+      "invertible_block_transport_exists": true,
+      "moved_zero_seed_block_rank": 128,
+      "row_space_join_rank_after_domain_map": 128,
+      "row_spaces_equal_after_domain_map": true
+    },
+    "fast_outgoing": {
+      "block_transport_solution_affine_dimension": 12288,
+      "eigenspace_rank": 192,
+      "graph_seed_block_rank": 128,
+      "invertible_block_transport_exists": true,
+      "moved_zero_seed_block_rank": 128,
+      "row_space_join_rank_after_domain_map": 128,
+      "row_spaces_equal_after_domain_map": true
+    },
+    "slow_incoming": {
+      "block_transport_solution_affine_dimension": 0,
+      "eigenspace_rank": 64,
+      "graph_seed_block_rank": 64,
+      "invertible_block_transport_exists": true,
+      "moved_zero_seed_block_rank": 64,
+      "row_space_join_rank_after_domain_map": 64,
+      "row_spaces_equal_after_domain_map": true
+    },
+    "slow_outgoing": {
+      "block_transport_solution_affine_dimension": 0,
+      "eigenspace_rank": 64,
+      "graph_seed_block_rank": 64,
+      "invertible_block_transport_exists": true,
+      "moved_zero_seed_block_rank": 64,
+      "row_space_join_rank_after_domain_map": 64,
+      "row_spaces_equal_after_domain_map": true
+    }
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action": "K438 corrected frozen normal symbol A and its complete four-block commutant",
+    "carrier_adapter": "an arbitrary invertible T in End_A(E), block diagonal on the four action eigenspaces",
+    "domain": "the shared abstract Omega0(S)_128 coordinate domain of K614 J0 and K617 X",
+    "domain_adapter": "an arbitrary invertible R in GL(128), not source-selected or action-owned",
+    "result": "domain-reparameterized commutant orbit theorem MAP-TYPE=paired-subspace equivalence",
+    "target": "existence versus ownership of T J0 R = X"
+  },
+  "ledger_no_change_reason": "The positive orbit theorem uses arbitrary unowned changes of source coordinates and carrier blocks; it neither constructs nor rejects the source action, a stationary solution, a gauge-reduced class, an observation map, or physical cohomology. SC-ACT-01/02 and SC-CHI-01/51 and every v0.263 ledger row remain unchanged.",
+  "orbit_theorem": {
+    "block_transport_affine_freedom_for_constructed_domain_map": 24576,
+    "fast_rows_remain_full_after_reparameterization": true,
+    "fixed_domain_commutant_adapter_exists": false,
+    "invertible_commutant_and_domain_orbit_equivalence_exists": true,
+    "moving_seed_slow_row_pair_is_direct_sum": true,
+    "one_invertible_domain_reparameterization_matches_both_slow_rows": true,
+    "orbit_equivalence_selects_unique_adapter": false,
+    "zero_seed_slow_row_pair_is_direct_sum": true
+  },
+  "ownership_reconciliation": {
+    "K621_fixed_domain_obstruction_retracted": false,
+    "commutant_transport_is_action_selected": false,
+    "domain_reparameterization_is_source_selected": false,
+    "mixed_hessian_or_stationary_background_constructed": false,
+    "orbit_equivalence_identifies_seed_constructions": false,
+    "pairing_or_Green_domain_preservation_proved": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "K621 proves no carrier commutant map works while the source coordinates are fixed; the positive result requires changing that domain simultaneously.",
+    "strongest_overclaim": "Calling existence of arbitrary GL(128) and block-GL transports an action-selected mixed Hessian, a canonical seed identification, or a common analytic domain.",
+    "weakest_reproducibility_seam": "The constructed reparameterization depends on deterministic row bases over two good characteristics; only existence and rank fingerprints, not a characteristic-zero canonical matrix, are claimed."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "No predecessor combines an arbitrary source-domain automorphism with the full K438 commutant for the K614/K617 seed pair.",
+    "route_comparison": "K621's slow-row obstruction might be only a fixed-parameterization artifact; classify the ordered slow subspace pairs before broadening the no-go.",
+    "strongest_alternative": "A pairing-preserving or action-derived adapter is physically stronger but cannot be inferred from abstract orbit equivalence and remains the next owned input."
+  },
+  "result_id": "K622-K77-DOMAIN-REPARAMETERIZED-COMMUTANT-ORBIT",
+  "schema_version": "1.0",
+  "scope": "Exact orbit test allowing one invertible reparameterization of the Omega0(S)_128 seed domain together with an arbitrary invertible endomorphism in the full K438 action commutant.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

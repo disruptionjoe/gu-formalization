@@ -7,6 +7,22 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K621--K622 FULL COMMUTANT AND DOMAIN-ORBIT
+> CLASSIFICATION.** K621 tests all 81,920 dimensions of the K438 action
+> commutant, not only polynomials in `A`. With the common source coordinates
+> fixed, each fast block admits a 12,288-dimensional affine family of
+> transports, but the K614 and K617 row spaces are disjoint in both slow
+> rank-64 eigenspaces. Thus no commuting `T` satisfies `T J0=X`. K622 tests
+> the strongest same-data repair: both seeds' outgoing/incoming slow row
+> spaces are complementary decompositions of the source domain, so an
+> arbitrary invertible `GL(128)` reparameterization matches them and
+> invertible commutant transports then exist in every block. This is highly
+> nonunique abstract orbit equivalence, not action selection. Next supply an
+> independently action-owned source-domain endomorphism or mixed-Hessian odd
+> adapter on a nonzero stationary moving background and prove it preserves the
+> K441 pairing and a common BV/Green domain before applying K596/K598. Do not
+> identify the seeds or promote arbitrary orbit equivalence to physics.
+
 > **2026-09-29 K619--K620 COMMON ACTION MODULE AND FUNCTIONAL-CALCULUS
 > OBSTRUCTION.** K619 compares K614's source-owned zero-form seed with K617's
 > historically constructed moving-`varpi` seed. They are disjoint rank-128

@@ -7,6 +7,32 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K621--K622 full commutant and domain-orbit classification (2026-09-29)
+
+K621 tests the complete commutant of K438's four-root action, of dimension
+81,920 over each good characteristic. For an operator `T` commuting with `A`,
+the equation `T J0=X` splits over the four eigenspaces and is solvable in one
+block exactly when the row space of the corresponding `X` block lies in the
+row space of the `J0` block. Both rank-192 fast blocks have full
+128-dimensional domain row space and each admits an affine solution family of
+dimension 12,288. In each rank-64 slow block, however, the two rank-64 row
+spaces are disjoint and their join has rank 128. Therefore no fixed-domain
+commutant adapter exists. This strengthens K620 beyond `R[A]` without testing
+a source-domain endomorphism or nonlinear mixed Hessian.
+
+K622 supplies the required hostile repair. For each seed, the outgoing and
+incoming slow row spaces are complementary and sum to the full
+128-dimensional source domain. An explicit invertible source-domain map sends
+the ordered K614 pair to the ordered K617 pair at GF(1009) and GF(1013).
+After that reparameterization, the row spaces agree in every eigenspace and
+invertible blockwise commutant transports exist; for the constructed domain
+map the two fast blocks alone retain 24,576 dimensions of affine transport
+freedom. This proves abstract orbit equivalence, not a canonical adapter. The
+domain map and transports are not source-selected, action-owned, shown to
+preserve K441's pairing or common Green domain, or evaluated on a nonzero
+stationary background. No K596/K598 packet, source/ledger move or physical
+conclusion is produced.
+
 ## K619--K620 common action module and functional calculus (2026-09-29)
 
 K619 compares two exact rank-128 maps into K438's corrected carrier: K614's

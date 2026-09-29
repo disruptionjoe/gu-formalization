@@ -1,0 +1,200 @@
+{
+  "claim_ceiling": "Exact cross-characteristic obstruction for fixed-domain transport by the full K438 action commutant. The two rank-64 slow block row spaces are disjoint, so no A-commuting T satisfies T J0=X, despite large solution families in both fast blocks. This does not exclude a simultaneous source-domain reparameterization, field-dependent mixed Hessian, nonstationary construction, or common BV/Green domain and moves no source, ledger, canon, paper, public, novelty, prediction, confirmation, or physical conclusion.",
+  "classification": "BRIDGE_OR_SEMANTIC_BOUNDARY",
+  "commutant_theorem": {
+    "block_equation_criterion": "T_i J_i = X_i is solvable iff row(X_i) is contained in row(J_i)",
+    "distinct_roots_force_block_diagonal_commutant": true,
+    "fast_block_solution_affine_dimensions": [
+      12288,
+      12288
+    ],
+    "fixed_domain_commuting_adapter_exists": false,
+    "full_commutant_dimension": 81920,
+    "obstruction_location": "both rank-64 slow eigenspaces",
+    "polynomial_functional_calculus_dimension": 4,
+    "slow_block_row_space_intersections": [
+      0,
+      0
+    ],
+    "slow_block_row_space_joins": [
+      128,
+      128
+    ]
+  },
+  "created": "2026-09-29",
+  "cross_characteristic_packets": [
+    {
+      "checks": {
+        "fast_blocks_admit_fixed_domain_transport": true,
+        "full_fixed_domain_transport_is_obstructed": true,
+        "slow_blocks_obstruct_fixed_domain_transport": true,
+        "slow_row_spaces_are_disjoint": true
+      },
+      "eigenblock_rows": {
+        "fast_incoming": {
+          "eigenspace_rank": 192,
+          "fixed_domain_commutant_transport_exists": true,
+          "graph_seed_block_rank": 128,
+          "row_space_intersection_rank": 128,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": 12288,
+          "zero_seed_block_rank": 128
+        },
+        "fast_outgoing": {
+          "eigenspace_rank": 192,
+          "fixed_domain_commutant_transport_exists": true,
+          "graph_seed_block_rank": 128,
+          "row_space_intersection_rank": 128,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": 12288,
+          "zero_seed_block_rank": 128
+        },
+        "slow_incoming": {
+          "eigenspace_rank": 64,
+          "fixed_domain_commutant_transport_exists": false,
+          "graph_seed_block_rank": 64,
+          "row_space_intersection_rank": 0,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": null,
+          "zero_seed_block_rank": 64
+        },
+        "slow_outgoing": {
+          "eigenspace_rank": 64,
+          "fixed_domain_commutant_transport_exists": false,
+          "graph_seed_block_rank": 64,
+          "row_space_intersection_rank": 0,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": null,
+          "zero_seed_block_rank": 64
+        }
+      },
+      "prime": 1009
+    },
+    {
+      "checks": {
+        "fast_blocks_admit_fixed_domain_transport": true,
+        "full_fixed_domain_transport_is_obstructed": true,
+        "slow_blocks_obstruct_fixed_domain_transport": true,
+        "slow_row_spaces_are_disjoint": true
+      },
+      "eigenblock_rows": {
+        "fast_incoming": {
+          "eigenspace_rank": 192,
+          "fixed_domain_commutant_transport_exists": true,
+          "graph_seed_block_rank": 128,
+          "row_space_intersection_rank": 128,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": 12288,
+          "zero_seed_block_rank": 128
+        },
+        "fast_outgoing": {
+          "eigenspace_rank": 192,
+          "fixed_domain_commutant_transport_exists": true,
+          "graph_seed_block_rank": 128,
+          "row_space_intersection_rank": 128,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": 12288,
+          "zero_seed_block_rank": 128
+        },
+        "slow_incoming": {
+          "eigenspace_rank": 64,
+          "fixed_domain_commutant_transport_exists": false,
+          "graph_seed_block_rank": 64,
+          "row_space_intersection_rank": 0,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": null,
+          "zero_seed_block_rank": 64
+        },
+        "slow_outgoing": {
+          "eigenspace_rank": 64,
+          "fixed_domain_commutant_transport_exists": false,
+          "graph_seed_block_rank": 64,
+          "row_space_intersection_rank": 0,
+          "row_space_join_rank": 128,
+          "solution_affine_dimension_if_nonempty": null,
+          "zero_seed_block_rank": 64
+        }
+      },
+      "prime": 1013
+    }
+  ],
+  "decision": {
+    "K619_common_module_retracted": false,
+    "K620_functional_calculus_obstruction_strengthened": true,
+    "actual_K596_K598_packet_released": false,
+    "next_exact_input": "Test the strongest same-data repair: allow one invertible endomorphism of the Omega0(S)_128 source domain and ask whether the two seeds then lie in the same End_A(E) orbit. Even a positive orbit result remains noncanonical and does not supply action ownership, a stationary background, or a common BV/Green domain.",
+    "selected_source_action_rejected": false
+  },
+  "direction": "observed_to_native",
+  "eigenblock_fingerprint": {
+    "fast_incoming": {
+      "eigenspace_rank": 192,
+      "fixed_domain_commutant_transport_exists": true,
+      "graph_seed_block_rank": 128,
+      "row_space_intersection_rank": 128,
+      "row_space_join_rank": 128,
+      "solution_affine_dimension_if_nonempty": 12288,
+      "zero_seed_block_rank": 128
+    },
+    "fast_outgoing": {
+      "eigenspace_rank": 192,
+      "fixed_domain_commutant_transport_exists": true,
+      "graph_seed_block_rank": 128,
+      "row_space_intersection_rank": 128,
+      "row_space_join_rank": 128,
+      "solution_affine_dimension_if_nonempty": 12288,
+      "zero_seed_block_rank": 128
+    },
+    "slow_incoming": {
+      "eigenspace_rank": 64,
+      "fixed_domain_commutant_transport_exists": false,
+      "graph_seed_block_rank": 64,
+      "row_space_intersection_rank": 0,
+      "row_space_join_rank": 128,
+      "solution_affine_dimension_if_nonempty": null,
+      "zero_seed_block_rank": 64
+    },
+    "slow_outgoing": {
+      "eigenspace_rank": 64,
+      "fixed_domain_commutant_transport_exists": false,
+      "graph_seed_block_rank": 64,
+      "row_space_intersection_rank": 0,
+      "row_space_join_rank": 128,
+      "solution_affine_dimension_if_nonempty": null,
+      "zero_seed_block_rank": 64
+    }
+  },
+  "gu_comparator_routing": "GU-COMPARATOR-ROUTING \u2014 scope before inference. This artifact contains or borders a conventional particle-physics comparator. Any result about a standard Higgs/VEV, ordinary family index or net chirality, SO(10) `126` Majorana mechanism, anomaly selector, VEV-only breaking or familiar vector-mass route binds only that named model. It is not evidence for or against Weinstein's source-native mechanism without an explicit typed bridge. Read `lab/methods/source-native-comparator-routing.md` and follow its source-native pointers before reusing this result.",
+  "gu_typed_objects": {
+    "action": "K438 corrected frozen normal symbol A with eigenspace ranks 192,192,64,64",
+    "commutant": "End_A(E), the complete block-diagonal endomorphism algebra on the four distinct A eigenspaces",
+    "result": "fixed-domain full-commutant obstruction MAP-TYPE=eigenblock row-space criterion",
+    "seed_maps": "K614 J0 and K617 X as maps from the same fixed Omega0(S)_128 coordinate domain into E",
+    "target": "an A-commuting corrected-carrier endomorphism T satisfying T J0 = X"
+  },
+  "ledger_no_change_reason": "The obstruction is internal to the conditional frozen corrected-carrier model and tests no stationary solution, mixed Hessian, gauge-reduced class, observation map, or physical cohomology. SC-ACT-01/02 and SC-CHI-01/51 and every v0.263 ledger row remain unchanged.",
+  "ownership_reconciliation": {
+    "K620_polynomial_obstruction_retracted": false,
+    "fixed_domain_nonpolynomial_commutant_adapter_excluded": true,
+    "full_commutant_is_action_owned_as_a_selected_adapter": false,
+    "mixed_hessian_or_domain_adapter_excluded": false,
+    "nonzero_stationary_background_constructed": false,
+    "source_domain_reparameterization_tested": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Both fast blocks admit large affine families of fixed-domain solutions; the obstruction comes only from the two disjoint slow-domain row spaces.",
+    "strongest_overclaim": "Calling failure of T J0=X for a fixed source parameterization failure of every block-commutant orbit equivalence or field-dependent adapter.",
+    "weakest_reproducibility_seam": "The conclusion is cross-characteristic and depends on exact spectral projectors plus row-space joins rather than a characteristic-zero expanded matrix proof."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K607/K610/K613 classify natural homogeneous action data and K620 classifies R[A], but no predecessor tests End_A(E) against the particular K614/K617 seed maps.",
+    "route_comparison": "K620 leaves arbitrary commutants open; the exact row-space criterion tests the complete commutant without fitting or serializing an arbitrary 512-by-512 operator.",
+    "strongest_alternative": "A source-domain reparameterization or moving mixed Hessian may avoid the fixed-coordinate equation and is tested or retained separately."
+  },
+  "result_id": "K621-K77-FULL-ACTION-COMMUTANT-SEED-ADAPTER-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Exact test of whether any endomorphism commuting with K438's four-root action sends K614's fixed-parameter zero-form seed map to K617's moving-graph seed map.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

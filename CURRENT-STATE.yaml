@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K621--K622 classify the complete nonpolynomial commutant escape left open
+    by K620. K621 uses the four K438 eigenspaces to test the full
+    81,920-dimensional commutant, not only `R[A]`. With the common
+    `Omega^0(S)_128` parameterization fixed, both fast blocks admit
+    12,288-dimensional affine solution families, but in each slow rank-64
+    block the K614 and K617 row spaces are disjoint and have rank-128 join.
+    Hence no `A`-commuting endomorphism satisfies `T J0=X`. K622 tests the
+    strongest same-data repair rather than broadening that obstruction: each
+    seed's two slow row spaces form a direct decomposition of the
+    128-dimensional source domain, so an arbitrary invertible domain map can
+    match both pairs simultaneously. After that reparameterization, invertible
+    block transports exist in all four eigenspaces, with at least 24,576
+    dimensions of carrier-map freedom. The seeds are therefore abstractly in
+    the same `GL(128)`-by-commutant orbit but no adapter is canonical,
+    source-selected, action-owned, pairing-preserving or domain-compatible.
+    No nonzero stationary background, mixed Hessian, K596/K598 packet or
+    protected scientific/public conclusion moves.
+
     K619--K620 compose K614's source-owned zero-form seed with K617's
     historically constructed moving-`varpi` seed under the same K438 action.
     Although the two rank-128 seed images are disjoint, their depth-two
@@ -11288,22 +11306,23 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the K77 route, K619--K620 now prove that K614's source-owned zero-form
-  seed and K617's historically constructed moving-`varpi` seed generate the
-  same rank-384 K438 module despite being disjoint at depth one. Their
-  depth-two hulls intersect in rank 128 and their depth-three hulls coincide.
-  The common module is not a spectral image of `A`: it exhausts both slow
-  rank-64 eigenspaces but occupies only rank 128 of each rank-192 fast
-  eigenspace. Consequently no polynomial in `A` projects onto the module or
-  its rank-128 complement, and nonproportional seed maps in all four
-  eigenspaces rule out `p(A) J0=X`. K438 owns the coarse four-way spectral
-  split but neither the common-module projector nor a seed identification.
-  The unrestricted southeast and local full-field ordinary-gauge BV route was
-  already completed by v0.163--v0.165; do not replay it. Reopen through an
-  independently action-owned operator inside the fast multiplicities, a
-  mixed-Hessian odd coupling on a nonzero stationary moving background and
-  its common BV/Green domain. Do not promote common reachability to action
-  selection or retract K615/K616.
+  On the K77 route, K621--K622 now settle both abstract commutant questions
+  left open by K620. With the shared `Omega^0(S)_128` coordinates fixed, no
+  endomorphism commuting with K438's action sends K614's zero-form seed to
+  K617's moving-`varpi` seed: the two rank-64 slow-block row spaces are
+  disjoint in both signs, even though both fast blocks admit large solution
+  families. Allowing an arbitrary invertible source-domain reparameterization
+  removes that obstruction. Each seed's outgoing/incoming slow row spaces are
+  complementary, so one domain map matches both pairs and invertible
+  commutant transports then exist in every block. This proves only a highly
+  nonunique abstract orbit equivalence. Neither the domain map nor any of the
+  carrier transports is source-selected, action-owned, K441-pairing
+  preserving or common-domain compatible. Reopen through an independently
+  action-owned source-domain endomorphism or mixed-Hessian odd adapter on a
+  nonzero stationary moving background, then prove K441 pairing and common
+  BV/Green-domain preservation before K596/K598. Do not promote orbit
+  equivalence to seed identity, action selection or physical equivalence, and
+  do not retract K615/K616 or replay the v0.163--v0.165 unrestricted route.
 
   On the K500 route, K612 proves that K139's current matched-form proof record
   does not serialize enough quantitative custody to identify its existential
@@ -11787,20 +11806,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the K77 route, K619--K620 close the frozen action-polynomial adapter
-  attempt. K614's zero-form seed and K617's moving-`varpi` seed are disjoint
-  but generate the same rank-384 K438 module by depth three. That common
-  module is proper inside both rank-192 fast eigenspaces, so it and its
-  rank-128 complement are not images of polynomial projectors in `A`; the
-  seed maps are nonproportional in every eigenspace, so no scalar polynomial
-  sends `J0` to `X`. Preserve K438/K439 ownership of the coarse spectral split
-  without promoting it to ownership of the within-fast module slices, seed
-  adapter or bilinear packet. The unrestricted southeast and local full-field
-  ordinary-gauge BV construction is already banked at v0.163--v0.165 and is
-  not the next construction. Reopen only with an independently action-owned
-  nonpolynomial commutant or mixed-Hessian odd adapter on a nonzero stationary
-  moving background plus its common BV/Green domain; then apply K596/K598 and
-  properness. Preserve K614--K618 and K613's central-parity ceiling. On the
+  On the K77 route, K621 excludes every fixed-domain adapter in the full K438
+  commutant: both slow-sign block row spaces of `J0` and `X` are disjoint.
+  K622 also proves the exact limitation of that obstruction. An arbitrary
+  invertible `GL(128)` change of source coordinates can match both ordered
+  slow decompositions, after which invertible blockwise commutant transports
+  exist, so the seed maps are abstractly orbit-equivalent but not canonically
+  identified. Preserve K619's common rank-384 module and K620's polynomial
+  obstruction. Reopen only with an independently action-owned source-domain
+  endomorphism or mixed-Hessian odd adapter on a nonzero stationary moving
+  background, then prove that exact adapter preserves the K441 pairing and a
+  common BV/Green domain before applying K596/K598 and properness. Do not
+  infer action ownership from arbitrary orbit equivalence, do not retract
+  K614--K620 or K613's central-parity ceiling, and do not replay the already
+  banked v0.163--v0.165 unrestricted southeast/ordinary-gauge BV route. On the
   K500 route, K612 closes constant
   extraction from the present K139/K156 proof record: its chart constants and
   qualitative semibound do not include a quantitative complete cancelled-core
