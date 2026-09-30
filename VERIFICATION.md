@@ -7,6 +7,28 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K651--K652 parity-tail identifiability and all-order certificate (2026-09-29)
+
+K651 tests the exact logical gap between K179's finite coefficient custody and
+K650's all-sector tails. For every finite prefix and every requested adverse
+depth, two closed diagonal cancelled-form families can use one common domain,
+commute with total parity, set `rho=kappa=0`, and agree on every prefix sector,
+while one retains a positive tail and the other has a later floor below the
+requested depth. The checked K179 prefix is exactly orders two through twelve
+with 2,958 terms. The probe passes 20 exact controls and rejects 15 hostile
+mutations. This proves finite-prefix nonidentifiability only; it does not show
+the fixed native operator is unbounded or exclude an all-order estimate.
+
+K652 proves that constructive estimate. On each parity sign, native complete-
+quadrant lower functions `A_s(n),D_s(n)`, relative form coupling at most one,
+and residual upper `K_s(n)` imply
+`ell_s,n>=min(A_s(n)-K_s(n),D_s(n)-K_s(n))`. The eventual infimum is a valid
+tail `t_s`, and the two tails compose with certified finite sectors exactly as
+required by K646/K650. A rational control gives synthetic plus/minus tails `2`
+and `7/4`; it is not native data. The probe passes 21 exact controls and
+rejects 17 hostile mutations. Native all-order functions, both tails, `m`,
+`alpha` and `delta` remain open, so no K473 release or K152 interval follows.
+
 ## K649--K650 parity cancellation and cancelled-core lower interface (2026-09-29)
 
 K649 composes K638's unique vector matching with K648's exact parity basis.

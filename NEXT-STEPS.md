@@ -7,6 +7,21 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K651--K652 PARITY-TAIL PREFIX NONIDENTIFIABILITY AND ALL-ORDER
+> CERTIFICATE.** K651 proves that K179's complete serialized orders two
+> through twelve do not determine K650's independent uniform parity tails.
+> Exact closed, parity-covariant same-domain cancelled-form families can agree
+> on the entire prefix while their later floors differ without bound. This is
+> a data-sufficiency result, not a claim that the fixed native K139/K168 form
+> lacks a floor. K652 supplies the constructive repair: native all-order lower
+> functions `A_s(n),D_s(n)`, relative coupling `rho_s,n<=1`, and residual
+> upper `K_s(n)` give the sector row floor
+> `min(A_s(n)-K_s(n),D_s(n)-K_s(n))`; its eventual infimum supplies `t_s`.
+> Next derive those functions on the K647 common domain for both signs,
+> compose their tails with certified finite sectors, then prove `alpha,delta`.
+> The exact controls are synthetic; no native `m`, K473 beta, K152 interval,
+> source, ledger or physical conclusion moves.
+
 > **2026-09-29 K649--K650 PARITY CANCELLATION MATCHING AND CANCELLED-CORE
 > LOWER INTERFACE.** K649 transports K638's unique matched vector subtraction
 > through K648's exact channel-parity basis and total-parity carriers. Identity

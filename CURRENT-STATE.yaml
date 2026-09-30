@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d9a41f5cf6a5
+revision_basis: 7ceafcbbf92a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,9 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
-    K649--K650 close the parity-cancellation topology question and construct a
-    cancellation-adapted parity lower interface without moving a protected
-    claim. K649 transports K638's unique vector matching through K648's exact
+    K651--K652 close the finite-prefix tail-identifiability question and the
+    abstract all-order repair without moving a protected claim. K651 proves
+    that K179's complete serialized orders two through twelve do not determine
+    either K650 uniform parity tail: exact closed, parity-covariant same-domain
+    cancelled-form families can agree on that entire prefix while later floors
+    differ without bound. This does not say the fixed native operator lacks a
+    floor. K652 gives the constructive all-order certificate. If the two
+    complete cancelled quadrants have native lower functions `A_s(n),D_s(n)`,
+    relative coupling `rho_s,n<=1`, and residual upper `K_s(n)`, then
+    `g_s,n>=min(A_s(n)-K_s(n),D_s(n)-K_s(n))`; its eventual infimum supplies
+    `t_s`, and the two tails compose with the certified finite sectors. The
+    native all-order functions, `t_plus,t_minus`, `m`, `alpha` and `delta`
+    remain absent. No native complete-sector floor, K473 beta, K152 interval,
+    source, ledger, canon, paper, public or physical conclusion moves.
+
+    K649--K650 remain the direct predecessors and close the parity-cancellation
+    topology question with a cancellation-adapted parity lower interface,
+    without moving a protected claim. K649 transports K638's unique vector matching through K648's exact
     channel-parity basis. Identity subtraction remains identity on both total-
     parity carriers, and every nonidentity matching retains a harmonic
     divergent coefficient direction. Parity therefore does not make the
@@ -11583,9 +11598,16 @@ current_question: >-
   In each total-parity sign, prove complete cancelled-quadrant floors
   `a_s,n,d_s,n`, relative form coupling `rho_s,n<=1`, and residual Hilbert
   coupling `kappa_s,n` on the same domain. Their two-by-two comparison floor
-  supplies the sector lower. Then prove independent uniform tails
-  `t_plus,t_minus` and certify the same-domain remainder constants
-  `alpha,delta`. The raw K644 twelve-plus-thirty route remains valid only if
+  supplies the sector lower. K651 now proves that no finite sector prefix,
+  including K179's complete serialized orders two through twelve, determines
+  the independent tails: same-prefix parity-covariant cancelled forms can have
+  arbitrarily different later floors. K652 closes the abstract all-order
+  repair: prove native lower functions `A_s(n),D_s(n)` and residual uppers
+  `K_s(n)` on the common domain; then
+  `min(A_s(n)-K_s(n),D_s(n)-K_s(n))` gives each tail row. Derive those native
+  all-order functions, compose their eventual infima with the finite sectors,
+  and only then certify the same-domain remainder constants `alpha,delta`.
+  The raw K644 twelve-plus-thirty route remains valid only if
   its separated factors are independently proved same-domain bounded.
   K612's custody
   gap remains. Do not collapse spectator Fock
@@ -12115,8 +12137,13 @@ next_condition: >-
   K650 gives the cancellation-adapted alternative. On each actual parity
   sector, bound the two complete cancelled quadrants by `a_s,n,d_s,n`, prove
   the same-domain relative coupling `rho_s,n<=1`, bound the residual cross
-  constant `kappa_s,n`, and establish independent tails `t_plus,t_minus`.
-  Their two-by-two comparison floors then determine `m`; only afterward
+  constant `kappa_s,n`. K651 proves that K179's orders two through twelve, or
+  any finite extension by itself, cannot establish independent tails. K652
+  gives the exact all-order sufficient route: prove native lower functions
+  `A_s(n),D_s(n)` and residual uppers `K_s(n)` with explicit eventual infima;
+  the row `min(A_s(n)-K_s(n),D_s(n)-K_s(n))` then supplies each parity tail.
+  Their two-by-two comparison floors compose those tails with certified finite
+  sectors to determine `m`; only afterward
   certify `alpha,delta`. The raw K644 rows remain a valid sufficient route if
   their same-domain boundedness is independently proved. Neither route may
   split the singular exchange factors before cancellation, substitute a

@@ -1,0 +1,521 @@
+{
+  "claim_ceiling": "Exact prefix-specific data-sufficiency obstruction for K650. K179's serialized orders two through twelve, even with total-parity covariance and the same cancelled-form interface, do not determine independent uniform parity tails: exact closed families can agree on that entire prefix while their later floors differ without bound. This does not deny a floor for the fixed native K139/K168 operator or exclude a new all-order estimate. No native m, alpha, delta, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K612_custody_obstruction_sharpened_to_K650_parity_interface": true,
+    "another_finite_order_extension_alone_closes_the_tail": false,
+    "next_exact_input": "Prove an all-order same-domain asymptotic lower for both complete cancelled quadrants and an all-order residual-coupling upper in each parity sign; then compose them through K650 rather than extrapolating a finite prefix.",
+    "orders_two_through_twelve_are_not_a_tail_certificate": true
+  },
+  "dependency_reconciliation": {
+    "K179_prefix_retracted": false,
+    "K612_data_custody_obstruction_retracted": false,
+    "K643_uniform_tail_requirement_consumed": true,
+    "K650_cancelled_quadrant_interface_consumed": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": [
+    {
+      "adverse_complete_tail_floor_at_most": "-2",
+      "adverse_tail": [
+        {
+          "minus_floor": "-2",
+          "n": 13,
+          "plus_floor": "-1"
+        },
+        {
+          "minus_floor": "-2",
+          "n": 14,
+          "plus_floor": "-1"
+        },
+        {
+          "minus_floor": "-2",
+          "n": 15,
+          "plus_floor": "-1"
+        },
+        {
+          "minus_floor": "-2",
+          "n": 16,
+          "plus_floor": "-1"
+        }
+      ],
+      "parity_covariant": true,
+      "positive_complete_tail_floor": "7/4",
+      "positive_tail": [
+        {
+          "minus_floor": "7/4",
+          "n": 13,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 14,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 15,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 16,
+          "plus_floor": "2"
+        }
+      ],
+      "prefix": [
+        {
+          "minus_floor": "7/4",
+          "n": 2,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 3,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 4,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 5,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 6,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 7,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 8,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 9,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 10,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 11,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 12,
+          "plus_floor": "2"
+        }
+      ],
+      "prefixes_identical": true,
+      "relative_coupling_rho": "0",
+      "residual_coupling_kappa": "0",
+      "same_domain": "C^2 in every bath/parity sector"
+    },
+    {
+      "adverse_complete_tail_floor_at_most": "-9",
+      "adverse_tail": [
+        {
+          "minus_floor": "-9",
+          "n": 13,
+          "plus_floor": "-8"
+        },
+        {
+          "minus_floor": "-9",
+          "n": 14,
+          "plus_floor": "-8"
+        },
+        {
+          "minus_floor": "-9",
+          "n": 15,
+          "plus_floor": "-8"
+        },
+        {
+          "minus_floor": "-9",
+          "n": 16,
+          "plus_floor": "-8"
+        }
+      ],
+      "parity_covariant": true,
+      "positive_complete_tail_floor": "7/4",
+      "positive_tail": [
+        {
+          "minus_floor": "7/4",
+          "n": 13,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 14,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 15,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 16,
+          "plus_floor": "2"
+        }
+      ],
+      "prefix": [
+        {
+          "minus_floor": "7/4",
+          "n": 2,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 3,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 4,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 5,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 6,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 7,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 8,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 9,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 10,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 11,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 12,
+          "plus_floor": "2"
+        }
+      ],
+      "prefixes_identical": true,
+      "relative_coupling_rho": "0",
+      "residual_coupling_kappa": "0",
+      "same_domain": "C^2 in every bath/parity sector"
+    },
+    {
+      "adverse_complete_tail_floor_at_most": "-65",
+      "adverse_tail": [
+        {
+          "minus_floor": "-65",
+          "n": 13,
+          "plus_floor": "-64"
+        },
+        {
+          "minus_floor": "-65",
+          "n": 14,
+          "plus_floor": "-64"
+        },
+        {
+          "minus_floor": "-65",
+          "n": 15,
+          "plus_floor": "-64"
+        },
+        {
+          "minus_floor": "-65",
+          "n": 16,
+          "plus_floor": "-64"
+        }
+      ],
+      "parity_covariant": true,
+      "positive_complete_tail_floor": "7/4",
+      "positive_tail": [
+        {
+          "minus_floor": "7/4",
+          "n": 13,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 14,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 15,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 16,
+          "plus_floor": "2"
+        }
+      ],
+      "prefix": [
+        {
+          "minus_floor": "7/4",
+          "n": 2,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 3,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 4,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 5,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 6,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 7,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 8,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 9,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 10,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 11,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 12,
+          "plus_floor": "2"
+        }
+      ],
+      "prefixes_identical": true,
+      "relative_coupling_rho": "0",
+      "residual_coupling_kappa": "0",
+      "same_domain": "C^2 in every bath/parity sector"
+    },
+    {
+      "adverse_complete_tail_floor_at_most": "-1025",
+      "adverse_tail": [
+        {
+          "minus_floor": "-1025",
+          "n": 13,
+          "plus_floor": "-1024"
+        },
+        {
+          "minus_floor": "-1025",
+          "n": 14,
+          "plus_floor": "-1024"
+        },
+        {
+          "minus_floor": "-1025",
+          "n": 15,
+          "plus_floor": "-1024"
+        },
+        {
+          "minus_floor": "-1025",
+          "n": 16,
+          "plus_floor": "-1024"
+        }
+      ],
+      "parity_covariant": true,
+      "positive_complete_tail_floor": "7/4",
+      "positive_tail": [
+        {
+          "minus_floor": "7/4",
+          "n": 13,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 14,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 15,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 16,
+          "plus_floor": "2"
+        }
+      ],
+      "prefix": [
+        {
+          "minus_floor": "7/4",
+          "n": 2,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 3,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 4,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 5,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 6,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 7,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 8,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 9,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 10,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 11,
+          "plus_floor": "2"
+        },
+        {
+          "minus_floor": "7/4",
+          "n": 12,
+          "plus_floor": "2"
+        }
+      ],
+      "prefixes_identical": true,
+      "relative_coupling_rho": "0",
+      "residual_coupling_kappa": "0",
+      "same_domain": "C^2 in every bath/parity sector"
+    }
+  ],
+  "gu_typed_objects": {
+    "carrier": "K643 bath sectors split by K648 total parity into K650's two complete cancelled quadrants",
+    "form": "the complete same-domain cancelled-quadrant form, not separated singular exchange factors",
+    "prefix": "K179's coefficient-complete orders two through twelve",
+    "result": "parity-tail prefix nonidentifiability MAP-TYPE=finite-data obstruction",
+    "target": "the independent uniform tails t_plus,t_minus required by K646/K650"
+  },
+  "k179_prefix": {
+    "all_order_tail_serialized": false,
+    "family_sha256": "ee24469ef5c6bb8d606efe1d529b294cbc7097b14adc51df80a51627aa7eb686",
+    "maximum_order": 12,
+    "orders": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "term_count": 2958
+  },
+  "ledger_no_change_reason": "This is a finite-data theorem inside a repository-supplied conditional point-Fock operator model and supplies no action-owned physical state, observable or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_uniform_parity_tails_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A separately proved closed generating function or all-order graph estimate can distinguish the two counterfamilies and certify a native tail.",
+    "strongest_overclaim": "Saying the fixed native K139/K168 form is unbounded below rather than saying its current finite coefficient prefix does not prove a tail.",
+    "weakest_reproducibility_seam": "The exact controls are abstract same-interface families; they audit data sufficiency rather than evaluate the native kernels."
+  },
+  "prefix_nonidentifiability_theorem": {
+    "construction": "two closed parity-covariant same-domain diagonal cancelled-form families agree in every sector n<=N; one has both tails bounded below while the other has a later parity floor below -L",
+    "finite_prefix_determines_uniform_tail": false,
+    "finite_prefix_plus_qualitative_semiboundedness_determines_numeric_tail": false,
+    "fixed_native_operator_has_no_floor": false,
+    "future_all_order_estimate_excluded": false,
+    "preserves_K650_relative_interface": true,
+    "preserves_total_parity_reduction": true,
+    "quantifier": "for every finite prefix N and every L>0",
+    "uses_separately_singular_raw_rows": false
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K612 proves broad quantitative custody insufficiency, but does not give the prefix-matched parity-covariant counterfamily on K650's exact interface.",
+    "route_comparison": "K650 makes independent all-sector parity tails load bearing; before extending the finite coefficient bank, test whether any finite extension can logically certify that tail.",
+    "strongest_alternative": "A direct native all-order estimate is stronger and remains live; K651 prevents a finite prefix from being mistaken for it."
+  },
+  "result_id": "K651-K500-PARITY-TAIL-PREFIX-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "Whether K179's currently serialized orders two through twelve determine either independent K650 total-parity tail.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
