@@ -1,0 +1,91 @@
+{
+  "claim_ceiling": "Exact real-congruence obstruction and complex-continuation separation. It does not deny a source-owned Wick rotation, construct the native tuple, prove the full symbol, Fredholm domain, moduli theorem, prediction, confirmation, canon or public verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 27,
+    "probe": "tests/channel-swings/k709_sc_act_06_real_frame_euclideanization_obstruction_probe.py",
+    "producer": "tests/channel-swings/k709_sc_act_06_real_frame_euclideanization_obstruction.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "k706_can_create_the_continuation": false,
+    "k706_can_transport_future_euclidean_symbol_after_continuation": true,
+    "next_exact_input": "Supply the source-owned analytic continuation/real form or a different positive-definite total carrier, then transport the complete symbol coherently within that fixed Euclidean real structure."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "complex_bilinear_equals_identity": true,
+    "complex_hermitian_equals_source_metric": true,
+    "complex_rotation_determinant": "i",
+    "complex_rotation_preserves_standard_real_subspace": false,
+    "lambda_half_fibre_inertia": [
+      9,
+      1,
+      0
+    ],
+    "lambda_zero_fibre_inertia": [
+      10,
+      0,
+      0
+    ],
+    "real_shear_congruence_determinant": -1,
+    "real_shear_determinant": 1,
+    "real_shear_inertia": [
+      13,
+      1,
+      0
+    ],
+    "source_inertia": [
+      13,
+      1,
+      0
+    ],
+    "target_inertia": [
+      14,
+      0,
+      0
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "source-native lambda=1/2 pairing; no source-owned continuation map",
+    "carrier": "real fourteen-dimensional tangent/cotangent fibre of the Euclidean-base metric bundle",
+    "grading": "thirteen positive directions plus the DeWitt trace line",
+    "pairing": "K708 total form of inertia `(13,1,0)`",
+    "real_structure": "standard real form before continuation; trace-line multiplication by i changes it",
+    "target": "real frame transport versus complex Euclidean continuation MAP-TYPE=field-frame isomorphism"
+  },
+  "ledger_no_change_reason": "Sylvester inertia excludes a real-frame shortcut but leaves source-owned analytic continuation open.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "authenticated_real_euclidean_frame_constructed": false,
+    "complete_full_field_symbol_constructed": false,
+    "source_owned_complex_real_structure_constructed": false,
+    "source_owned_lambda_change_constructed": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The complex-bilinear trace rotation exactly produces the identity form, but it leaves the original real carrier and is therefore additional structure.",
+    "strongest_overclaim": "No Euclidean continuation exists.",
+    "weakest_reproducibility_seam": "Transpose and conjugate-transpose continuations must not be conflated; the former changes the real structure and the latter preserves inertia."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "Existing signature work records indefinite carriers but does not bind the K706 frame theorem to SC-ACT-06's continuation debt.",
+    "route_comparison": "K706 proves invariance under coherent invertible Euclidean frames; K709 tests whether that theorem can manufacture the missing Euclidean real form and answers no.",
+    "strongest_alternative": "Change the DeWitt coefficient below 1/4, which produces a different real pairing rather than a congruent frame description."
+  },
+  "result_id": "K709-SC-ACT-06-REAL-FRAME-EUCLIDEANIZATION-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Whether K706's coherent real frame transport can turn K708's source-native `(13,1)` total metric into a Euclidean `(14,0)` metric.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "changing_lambda_is_frame_transport": false,
+    "complex_trace_rotation_gives_bilinear_identity": true,
+    "complex_trace_rotation_is_real_invertible": false,
+    "hermitian_congruence_keeps_negative_trace_sign": true,
+    "k706_transport_supplies_signature_continuation": false,
+    "real_congruence_preserves_inertia": true,
+    "real_invertible_frame_can_map_13_1_to_14_0": false
+  }
+}

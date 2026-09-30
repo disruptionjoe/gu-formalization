@@ -1,0 +1,171 @@
+{
+  "claim_ceiling": "Exact distinction between algebraic Koszul exactness and indefinite metric-adjoint gauge-fixed ellipticity. It proves neither the complete GU complex nor a source no-go, Fredholm domain, moduli theorem, prediction, confirmation, canon or public verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 33,
+    "probe": "tests/channel-swings/k710_sc_act_06_null_symbol_ellipticity_boundary_probe.py",
+    "producer": "tests/channel-swings/k710_sc_act_06_null_symbol_ellipticity_boundary.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "k705_koszul_criterion_survives_as_algebra": true,
+    "native_indefinite_hodge_gauge_fixing_can_instantiate_euclidean_claim": false,
+    "next_exact_input": "Supply the authenticated Euclidean continuation and recompute the complete gauge, Euler, redundancy and gauge-fixing symbols on that one real carrier before any Fredholm or moduli step."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "dimension": 14,
+    "euclideanized_laplacian_rank": 14,
+    "null_covector": {
+      "auxiliary_contracting_vector_pairing": 1,
+      "clifford_identity_exact": true,
+      "covector": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "curvature_rank": 13,
+      "gauge_rank": 1,
+      "metric_laplacian_rank_on_one_forms": 0,
+      "metric_norm": 0,
+      "middle_cohomology": 0
+    },
+    "null_koszul_exact": true,
+    "null_metric_laplacian_rank": 0,
+    "pseudo_signature": [
+      13,
+      1,
+      0
+    ],
+    "same_null_coordinates_after_euclidean_continuation": {
+      "auxiliary_contracting_vector_pairing": 1,
+      "clifford_identity_exact": true,
+      "covector": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "curvature_rank": 13,
+      "gauge_rank": 1,
+      "metric_laplacian_rank_on_one_forms": 14,
+      "metric_norm": 2,
+      "middle_cohomology": 0
+    },
+    "spacelike_covector": {
+      "auxiliary_contracting_vector_pairing": 1,
+      "clifford_identity_exact": true,
+      "covector": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "curvature_rank": 13,
+      "gauge_rank": 1,
+      "metric_laplacian_rank_on_one_forms": 14,
+      "metric_norm": 1,
+      "middle_cohomology": 0
+    },
+    "timelike_covector": {
+      "auxiliary_contracting_vector_pairing": 1,
+      "clifford_identity_exact": true,
+      "covector": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "curvature_rank": 13,
+      "gauge_rank": 1,
+      "metric_laplacian_rank_on_one_forms": 14,
+      "metric_norm": -1,
+      "middle_cohomology": 0
+    }
+  },
+  "gu_typed_objects": {
+    "action_owner": "bare connection/Bianchi symbol skeleton only; complete GU Euler symbol remains unowned",
+    "carrier": "real exterior algebra of a fourteen-dimensional `(13,1)` cotangent fibre",
+    "grading": "Lambda^0 to Lambda^1 to Lambda^2 and its metric contraction homotopy",
+    "pairing": "pseudo-Riemannian metric adjoint from the K708 total signature",
+    "real_structure": "real `(13,1)` carrier before any authenticated Euclidean continuation",
+    "target": "null-covector obstruction to the native metric-adjoint gauge-fixed symbol MAP-TYPE=principal symbol"
+  },
+  "ledger_no_change_reason": "The null-symbol result blocks one native metric-adjoint shortcut while preserving metric-independent complex exactness and every unconstructed continuation.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "authenticated_euclidean_metric_adjoint_constructed": false,
+    "complete_full_field_symbol_constructed": false,
+    "distinguished_B_epsilon_Y_tuple_constructed": false,
+    "fredholm_domain_constructed": false,
+    "nonlinear_moduli_theorem_proved": false,
+    "source_independent_row_projector_supplied": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The same nonzero null covector leaves the Koszul complex exact through an auxiliary nonmetric contracting vector.",
+    "strongest_overclaim": "The null Hodge symbol proves the source deformation complex is nonexact.",
+    "weakest_reproducibility_seam": "The future full-field Euler/redundancy symbol may not be the bare exterior complex, and its gauge fixing must be tested on the continued carrier actually chosen."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K705 checks exterior exactness and K708 checks inertia; no prior artifact composes them through the null Hodge-symbol identity.",
+    "route_comparison": "A signature mismatch matters only if it changes the actual symbol test; K710 locates the change at the metric-adjoint gauge fixing, not the exterior complex itself.",
+    "strongest_alternative": "Use an auxiliary positive-definite metric solely for elliptic gauge fixing, which remains a distinct extra choice requiring compatibility with the full GU symbol."
+  },
+  "result_id": "K710-SC-ACT-06-NULL-SYMBOL-ELLIPTICITY-BOUNDARY",
+  "schema_version": "1.0",
+  "scope": "The distinction between metric-independent exactness of K705's exterior symbol and ellipticity of the gauge-fixed symbol formed with K708's indefinite native metric.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "koszul_exact_for_every_nonzero_covector_without_metric": true,
+    "koszul_exactness_alone_is_refuted_by_indefinite_signature": false,
+    "metric_hodge_symbol_equals_covector_norm_times_identity": true,
+    "native_metric_gauge_fixed_symbol_is_elliptic": false,
+    "nonzero_null_covectors_exist_for_13_1": true,
+    "pseudo_metric_dual_is_a_contracting_homotopy_at_null_covector": false,
+    "source_claim_is_refuted_by_null_symbol": false
+  }
+}

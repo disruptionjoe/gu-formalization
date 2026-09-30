@@ -1,0 +1,186 @@
+{
+  "claim_ceiling": "Exact real-signature theorem for the source-native DeWitt pairing over a Euclidean four-base. It proves a missing continuation prerequisite, not a source no-go, full symbol, Fredholm domain, moduli theorem, prediction, confirmation, canon or public verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 27,
+    "probe": "tests/channel-swings/k708_sc_act_06_euclidean_dewitt_signature_gate_probe.py",
+    "producer": "tests/channel-swings/k708_sc_act_06_euclidean_dewitt_signature_gate.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_euclidean_base_total_is_riemannian": false,
+    "new_exact_input": "Specify an authenticated Euclidean continuation of the trace-reversed fibre metric (or a different source-owned Euclidean carrier) before instantiating K705--K707.",
+    "source_claim_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "base_dimension": 4,
+    "classification_controls": {
+      "dimensions_2_through_6": {
+        "2": {
+          "above": [
+            2,
+            1,
+            0
+          ],
+          "at": [
+            2,
+            0,
+            1
+          ],
+          "below": [
+            3,
+            0,
+            0
+          ]
+        },
+        "3": {
+          "above": [
+            5,
+            1,
+            0
+          ],
+          "at": [
+            5,
+            0,
+            1
+          ],
+          "below": [
+            6,
+            0,
+            0
+          ]
+        },
+        "4": {
+          "above": [
+            9,
+            1,
+            0
+          ],
+          "at": [
+            9,
+            0,
+            1
+          ],
+          "below": [
+            10,
+            0,
+            0
+          ]
+        },
+        "5": {
+          "above": [
+            14,
+            1,
+            0
+          ],
+          "at": [
+            14,
+            0,
+            1
+          ],
+          "below": [
+            15,
+            0,
+            0
+          ]
+        },
+        "6": {
+          "above": [
+            20,
+            1,
+            0
+          ],
+          "at": [
+            20,
+            0,
+            1
+          ],
+          "below": [
+            21,
+            0,
+            0
+          ]
+        }
+      },
+      "lambda_native": [
+        9,
+        1,
+        0
+      ],
+      "lambda_threshold": [
+        9,
+        0,
+        1
+      ],
+      "lambda_zero": [
+        10,
+        0,
+        0
+      ]
+    },
+    "euclidean_base_signature": [
+      4,
+      0,
+      0
+    ],
+    "fibre_dimension": 10,
+    "native_diagonal_basis_gram_determinant": -64,
+    "native_fibre_signature": [
+      9,
+      1,
+      0
+    ],
+    "native_lambda": "1/2",
+    "native_total_signature": [
+      13,
+      1,
+      0
+    ],
+    "native_trace_norm_coefficient": "-1/4",
+    "native_trace_vector_norm": -4,
+    "threshold": "1/4"
+  },
+  "gu_typed_objects": {
+    "action_owner": "source-native gimmel/DeWitt metric with lambda=1/2; SC-ACT-06 supplies no Euclidean-continuation map",
+    "carrier": "T_h Met(X)=Sym^2(T_x^*X) over a positive-definite four-dimensional base metric h",
+    "grading": "trace line direct-sum h-traceless symmetric tensors",
+    "pairing": "G_lambda(A,B)=tr(h^-1 A h^-1 B)-lambda tr(h^-1 A)tr(h^-1 B)",
+    "real_structure": "real symmetric tensors; no trace-line Wick rotation",
+    "target": "Euclidean-signature prerequisite for the complete deformation-symbol test"
+  },
+  "ledger_no_change_reason": "The signature obstruction types a missing continuation datum; it neither supplies the full Euclidean complex nor disproves the source assertion.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "complete_full_field_symbol_constructed": false,
+    "distinguished_B_epsilon_Y_tuple_constructed": false,
+    "positive_definite_total_Y_metric_constructed": false,
+    "real_euclidean_continuation_supplied": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Changing lambda below `1/4` makes the real fibre positive definite, but changes the native pairing rather than transporting it by a real frame.",
+    "strongest_overclaim": "The `(13,1)` result disproves every possible Euclidean continuation of SC-ACT-06.",
+    "weakest_reproducibility_seam": "The source ownership of lambda=1/2 and the meaning of Euclidean continuation must remain separate from this exact inertia calculation."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "W168 proves the lambda=1/4 conformal threshold on the Lorentzian K77 fibre; K708 newly composes the same invariant with a positive-definite base and SC-ACT-06.",
+    "route_comparison": "The native tuple cannot be tested as Euclidean until the metric-on-metrics signature is checked; this structural test precedes coefficient expansion.",
+    "strongest_alternative": "Assume an unprinted Euclideanized total carrier and proceed directly to the complete principal symbol."
+  },
+  "result_id": "K708-SC-ACT-06-EUCLIDEAN-DEWITT-SIGNATURE-GATE",
+  "schema_version": "1.0",
+  "scope": "The signature of the source-native metric-on-metrics carrier after making the four-dimensional base metric Euclidean.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "decomposed_form": "G_lambda(A,A)=tr((h^-1 A_0)^2)+(1/n-lambda)(tr_h A)^2",
+    "euclidean_base_implies_euclidean_total_for_native_lambda": false,
+    "one_negative_trace_direction_above_threshold": true,
+    "orthogonal_decomposition": "A=A_0+(tr_h A/n)h with tr_h A_0=0",
+    "positive_definite_iff_lambda_below_one_over_n": true,
+    "source_native_lambda_is_one_half": true,
+    "trace_null_at_lambda_equal_one_over_n": true
+  }
+}

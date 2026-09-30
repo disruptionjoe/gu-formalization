@@ -62,6 +62,15 @@ def load_inputs() -> dict:
         "k707": json.loads(
             (ROOT / "lab/process/k707-sc-act-06-coupled-symbol-homotopy-compiler.json").read_text()
         ),
+        "k708": json.loads(
+            (ROOT / "lab/process/k708-sc-act-06-euclidean-dewitt-signature-gate.json").read_text()
+        ),
+        "k709": json.loads(
+            (ROOT / "lab/process/k709-sc-act-06-real-frame-euclideanization-obstruction.json").read_text()
+        ),
+        "k710": json.loads(
+            (ROOT / "lab/process/k710-sc-act-06-null-symbol-ellipticity-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -413,6 +422,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K706" in live and "invertible Euclidean chain transport" in live and
               "K707" in live and "Euler-after-gauge" in live,
               "live K705--K707 SC-ACT-06 symbol routes missing")
+        check("K708" in live and "DeWitt `lambda=1/2` trace line" in live and
+              "K709" in live and "real frame shortcut" in live and
+              "K710" in live and "indefinite Hodge adjoint" in live,
+              "live K708--K710 SC-ACT-06 signature boundary missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -422,6 +435,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K708--K710 expose the Euclidean-signature datum" in summary,
+          "current K708--K710 result lost")
     check("K705--K707 switch the active construction front" in summary,
           "current K705--K707 result lost")
     check("K702--K704 compose the post-K701 robustness results" in summary,
@@ -508,6 +523,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "total Y=Met(X) carrier has signature (13,1)" in data["agenda"].get("latest_result_2026_09_30_k708_k710", "")
+        and "real coherent frame transport preserves that inertia" in data["agenda"].get("latest_result_2026_09_30_k708_k710", "")
+        and "metric-adjoint gauge-fixed symbol collapses" in data["agenda"].get("latest_result_2026_09_30_k708_k710", ""),
+        "agenda K708--K710 result is not current",
+    )
     check(
         "rank-13 curvature image" in data["agenda"].get("latest_result_2026_09_30_k705_k707", "")
         and "singular equation frame drops to rank 12" in data["agenda"].get("latest_result_2026_09_30_k705_k707", "")
@@ -1315,6 +1336,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k707_n["native_mixed_principal_coupling_supplied"] and
           not k707_n["SC_ACT_06_ellipticity_proved"],
           "K707 coupled-symbol theorem or source ceiling moved")
+
+    k708 = data["k708"]
+    k708_t = k708["theorem"]
+    k708_n = k708["native_interface_status"]
+    check(k708_t["positive_definite_iff_lambda_below_one_over_n"] and
+          k708_t["one_negative_trace_direction_above_threshold"] and
+          not k708_t["euclidean_base_implies_euclidean_total_for_native_lambda"] and
+          k708["exact_controls"]["native_total_signature"] == [13, 1, 0] and
+          not k708_n["real_euclidean_continuation_supplied"] and
+          not k708_n["SC_ACT_06_ellipticity_proved"],
+          "K708 DeWitt signature boundary or source ceiling moved")
+
+    k709 = data["k709"]
+    k709_t = k709["theorem"]
+    k709_n = k709["native_interface_status"]
+    check(k709_t["real_congruence_preserves_inertia"] and
+          not k709_t["real_invertible_frame_can_map_13_1_to_14_0"] and
+          k709_t["complex_trace_rotation_gives_bilinear_identity"] and
+          not k709_t["complex_trace_rotation_is_real_invertible"] and
+          not k709_n["authenticated_real_euclidean_frame_constructed"] and
+          not k709_n["SC_ACT_06_ellipticity_proved"],
+          "K709 real-frame Euclideanization boundary or source ceiling moved")
+
+    k710 = data["k710"]
+    k710_t = k710["theorem"]
+    k710_n = k710["native_interface_status"]
+    check(k710_t["koszul_exact_for_every_nonzero_covector_without_metric"] and
+          k710_t["metric_hodge_symbol_equals_covector_norm_times_identity"] and
+          not k710_t["native_metric_gauge_fixed_symbol_is_elliptic"] and
+          not k710_t["source_claim_is_refuted_by_null_symbol"] and
+          k710["exact_controls"]["null_metric_laplacian_rank"] == 0 and
+          k710["exact_controls"]["euclideanized_laplacian_rank"] == 14 and
+          not k710_n["SC_ACT_06_ellipticity_proved"],
+          "K710 null-symbol boundary or source ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2481,6 +2536,12 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k706-native", lambda d: d["k706"]["native_interface_status"].__setitem__("native_frame_map_authenticated", True))
     add("k707-coupling", lambda d: d["k707"]["theorem"].__setitem__("off_diagonal_coupling_must_annihilate_gauge_image", False))
     add("k707-native", lambda d: d["k707"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
+    add("k708-signature", lambda d: d["k708"]["exact_controls"].__setitem__("native_total_signature", [14, 0, 0]))
+    add("k708-native", lambda d: d["k708"]["native_interface_status"].__setitem__("real_euclidean_continuation_supplied", True))
+    add("k709-inertia", lambda d: d["k709"]["theorem"].__setitem__("real_invertible_frame_can_map_13_1_to_14_0", True))
+    add("k709-native", lambda d: d["k709"]["native_interface_status"].__setitem__("authenticated_real_euclidean_frame_constructed", True))
+    add("k710-koszul", lambda d: d["k710"]["theorem"].__setitem__("koszul_exact_for_every_nonzero_covector_without_metric", False))
+    add("k710-native", lambda d: d["k710"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

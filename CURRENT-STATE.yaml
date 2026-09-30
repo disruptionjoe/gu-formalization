@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: ba985f23e0f7
+revision_basis: 71e6f09a7389
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K708--K710 expose the Euclidean-signature datum that must precede a native
+    K705--K707 instantiation. K708 decomposes the source-native DeWitt form on
+    `Sym^2(T*X)` into its nine-dimensional traceless part and one trace line.
+    Over a positive four-dimensional base its `lambda=1/2` fibre signature is
+    `(9,1)`, so the total metric-bundle carrier is `(13,1)`, not `(14,0)`;
+    positivity would require `lambda<1/4`, while `lambda=1/4` is degenerate.
+    K709 proves by real-congruence inertia that K706's coherent invertible
+    frame transport cannot Euclideanize that carrier. Multiplying the negative
+    trace coordinate by `i` produces the identity only as a complex-bilinear
+    continuation that changes the real structure; Hermitian congruence keeps
+    the negative sign. K710 then separates two notions that must not be
+    collapsed: the bare exterior/Koszul symbol remains exact at every nonzero
+    covector without using a metric, but the `(13,1)` metric-adjoint
+    gauge-fixed symbol is `g^-1(xi,xi)I` and has rank zero on nonzero null
+    covectors. Thus the native indefinite Hodge adjoint cannot instantiate the
+    asserted Euclidean elliptic route without an authenticated continuation,
+    but neither the algebraic complex nor SC-ACT-06 is refuted. No source,
+    ledger, canon, paper, public or physical verdict moves.
+
     K705--K707 switch the active construction front from the exhausted K500
     conditional-margin chain to SC-ACT-06's unproved Euclidean deformation
     claim. K705 extracts the coordinate-free reduction test from K276: at a
@@ -11946,6 +11965,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K708 proves that Euclideanizing the four-dimensional
+  base alone leaves the source-native total DeWitt carrier at signature
+  `(13,1)`. K709 proves that K706's real coherent frame transport cannot
+  change that inertia; a trace-line Wick rotation or a change from
+  `lambda=1/2` is new real-structure/pairing data. K710 proves the bare Koszul
+  symbol still has zero middle cohomology at nonzero null covectors, while the
+  native metric-adjoint gauge-fixed symbol collapses there. Supply an
+  authenticated source-owned Euclidean continuation (or different positive
+  total carrier), then construct the distinguished stationary `B(epsilon)/Y`
+  tuple and complete bosonic, fermionic, mixed, gauge and redundancy symbols
+  on that same real carrier. Do not treat base Euclidean signature, a real
+  frame change, algebraic Koszul exactness or the indefinite Hodge adjoint as
+  that missing continuation.
+
   On the SC-ACT-06 route, K705 now gives the exact independent-row criterion,
   K706 makes it Euclidean-frame natural, and K707 gives the first two-block
   full-field composition rule. Construct the actual distinguished Euclidean
@@ -12637,6 +12670,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the SC-ACT-06 route, the first exact input is now an authenticated
+  Euclidean continuation of the complete source-native carrier. It must state
+  the continued real structure and pairing, explain whether the DeWitt
+  `lambda=1/2` trace line is Wick-rotated or the pairing is changed, and prove
+  compatibility with the distinguished `B(epsilon)` construction, moving
+  `Y=Met(X)` coefficients, gauge action and Euler/redundancy maps. Only then
+  instantiate K705--K707 with the complete bosonic, fermionic and mixed
+  principal blocks and both independent-row projectors at every nonzero
+  covector. K708 excludes base-only Euclideanization, K709 excludes a real
+  frame shortcut, and K710 excludes the native indefinite Hodge adjoint as an
+  elliptic gauge fixing while preserving metric-independent Koszul exactness.
+  Fredholm and nonlinear-moduli work remains downstream. SC-ACT-06 remains
+  ASSERTS; no native continuation or full coefficient packet has been supplied.
+
   On the SC-ACT-06 route, instantiate K705--K707 with native data. Supply one
   legal Euclidean stationary `B(epsilon)/Y` tuple; the complete bosonic,
   fermionic and mixed principal symbols; and both explicit independent-row

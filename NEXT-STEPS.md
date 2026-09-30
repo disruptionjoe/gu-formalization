@@ -7,6 +7,21 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K708--K710 SC-ACT-06 EUCLIDEAN-SIGNATURE BOUNDARY.** K708
+> proves that the source-native `lambda=1/2` DeWitt fibre over a Euclidean
+> four-base has signature `(9,1)`, hence total signature `(13,1)`, not
+> `(14,0)`. K709 proves no real coherent frame transport can change that
+> inertia; the exact complex trace-line rotation changes the real structure,
+> while changing `lambda` changes the pairing. K710 proves the exterior/Koszul
+> symbol is still exact at every nonzero covector, including null covectors,
+> but the native metric-adjoint gauge-fixed symbol collapses on the null cone.
+> Next supply an authenticated Euclidean continuation/real form compatible
+> with `B(epsilon)`, moving `Y=Met(X)` coefficients and every full-field map;
+> only then instantiate K705--K707 and proceed toward Fredholm or moduli claims.
+> See `lab/process/k708-sc-act-06-euclidean-dewitt-signature-gate.json`,
+> `lab/process/k709-sc-act-06-real-frame-euclideanization-obstruction.json`,
+> and `lab/process/k710-sc-act-06-null-symbol-ellipticity-boundary.json`.
+
 > **2026-09-30 K705--K707 SC-ACT-06 EUCLIDEAN SYMBOL CRITERIA.** K705 turns
 > K276's coordinate examples into the exact criterion: for every nonzero
 > Euclidean covector the redundant-Euler reduction must be injective on the

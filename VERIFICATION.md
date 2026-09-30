@@ -7,6 +7,44 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K708--K710 SC-ACT-06 Euclidean-signature boundary (2026-09-30)
+
+K708 proves the exact signature classification of the DeWitt family
+
+`G_lambda(A,B)=tr(h^-1 A h^-1 B)-lambda tr(h^-1 A)tr(h^-1 B)`
+
+on symmetric tensors over a positive-definite `n`-metric. The traceless
+subspace is positive and the trace coefficient is `1/n-lambda`; positivity is
+therefore equivalent to `lambda<1/n`. At the source-native `n=4`,
+`lambda=1/2`, the fibre signature is `(9,1)` and the total Euclidean-base
+metric-bundle signature is `(13,1)`. The exact diagonal-basis determinant is
+`-64`. This is a continuation obstruction, not a source no-go.
+
+K709 applies Sylvester inertia to K706's frame theorem. Every real invertible
+field frame preserves `(13,1)`, so no such frame produces `(14,0)`. The exact
+complex diagonal map that multiplies the negative trace coordinate by `i`
+sends the complex-bilinear form to the identity, but it is not a real frame
+and does not preserve the standard real subspace. Under conjugate-transpose
+Hermitian congruence the negative sign remains. Changing `lambda` below
+`1/4` likewise changes the pairing rather than transporting it.
+
+K710 composes the signature result with the symbol route. Exterior
+multiplication by every nonzero covector still has gauge rank one, curvature
+rank thirteen and zero middle cohomology, independent of a metric. For the
+`(13,1)` metric adjoint, however, the degree-one Hodge symbol is
+`g^-1(xi,xi)I`. At the exact nonzero null control `xi=e_0+e_13` it has rank
+zero, while the Koszul complex remains exact via an auxiliary nonmetric
+contracting vector. The same coordinates have norm two and full rank after an
+actual Euclidean continuation.
+
+The probes pass 34/36/38 controls and reject 27/27, 27/27 and 33/33 hostile
+mutations. The results require an authenticated continued real structure and
+pairing before the native full-field symbol can be called Euclidean. They do
+not supply that continuation, the distinguished stationary `B(epsilon)/Y`
+tuple, complete symbol, reduction projectors, Fredholm domain or nonlinear
+moduli theorem. SC-ACT-06 remains ASSERTS; no ledger, canon, paper, public,
+prediction, confirmation or physical conclusion moves.
+
 ## K705--K707 SC-ACT-06 Euclidean symbol criteria (2026-09-30)
 
 K705 proves the exact reduction criterion for the fourteen-dimensional bare
