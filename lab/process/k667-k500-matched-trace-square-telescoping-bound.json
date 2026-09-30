@@ -1,0 +1,121 @@
+{
+  "claim_ceiling": "Exact complete-tail sharpening of K642's matched-trace square: 1/257<beta^2<2/513<258/66049<1/256, uniformly over the spectator Hilbert space. This closes beta^2 custody for the conditional K663/K666 compiler but supplies no complete native A or B margin, determinant margin, complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k667_k500_matched_trace_square_telescoping_bound_probe.py",
+    "producer": "tests/channel-swings/k667_k500_matched_trace_square_telescoping_bound.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "matched_trace_square_burden_closed": true,
+    "next_exact_input": "Certify complete A_lower and complete parity-cofinal B_lower on K647's common domain; K668 then tests any rational target floor using beta^2<2/513.",
+    "remaining_native_margin_burdens": [
+      "complete A_lower",
+      "complete B_lower"
+    ]
+  },
+  "dependency_reconciliation": {
+    "K642_complete_domain_retained": true,
+    "K642_series_consumed": true,
+    "K642_spectator_independence_retained": true,
+    "K663_beta_squared_input_sharpened": true,
+    "K665_A_B_burdens_unchanged": true,
+    "K666_matched_trace_input_no_longer_wholly_missing": true
+  },
+  "direction": "observed_to_native",
+  "exact_bounds": {
+    "lower": "1/257",
+    "new_upper_strictly_below_one_over_256": true,
+    "new_upper_strictly_improves_old": true,
+    "old_K642_upper": "258/66049",
+    "old_minus_new_upper": "256/33883137",
+    "start_index": 257,
+    "upper": "2/513",
+    "width": "1/131841"
+  },
+  "exact_controls": {
+    "finite_controls_are_checks_not_tail_evidence": true,
+    "finite_partial_controls": [
+      {
+        "count": 1,
+        "exact_sum": "1/66049",
+        "lower_sum": "1/66306",
+        "start": 257,
+        "strictly_enclosed": true,
+        "upper_sum": "4/264195"
+      },
+      {
+        "count": 2,
+        "exact_sum": "132613/4396485636",
+        "lower_sum": "2/66563",
+        "start": 257,
+        "strictly_enclosed": true,
+        "upper_sum": "8/265221"
+      },
+      {
+        "count": 8,
+        "exact_sum": "2555672423884125714978368333581/21673539744996104798572258304385600",
+        "lower_sum": "8/68105",
+        "start": 257,
+        "strictly_enclosed": true,
+        "upper_sum": "32/271377"
+      },
+      {
+        "count": 32,
+        "exact_sum": "3128615404240493638124795096174557819243027252895749097777030792676131748983967607496232193338028981/7234972119552341115111355791432829509517614607287233184415296905032762559822648327346051005570079360000",
+        "lower_sum": "32/74273",
+        "start": 257,
+        "strictly_enclosed": true,
+        "upper_sum": "128/296001"
+      }
+    ],
+    "termwise_lower_strict_at_start": true,
+    "termwise_upper_strict_at_start": true,
+    "upper_telescoping_identity_at_start": true
+  },
+  "gu_typed_objects": {
+    "carrier": "K642's complete base domain D_a tensor (C^6 tensor H_spec)",
+    "form": "the matched Bochner trace L_op with weights a_k=k+256",
+    "pairing": "the complete K642 graph norm, uniformly in arbitrary spectator Hilbert space H_spec",
+    "result": "matched-trace square enclosure MAP-TYPE=complete telescoping tail bound",
+    "target": "the beta^2 input in K663/K666 without a synthetic beta replacement"
+  },
+  "ledger_no_change_reason": "This tightens an internal analytic trace constant on an already declared conditional graph and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "complete_matched_trace_beta_squared_upper_identified": true,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Positive trace control cannot prevent an arbitrarily negative uncontrolled diagonal form margin.",
+    "strongest_overclaim": "Calling the trace-square bound a positive complete K139/K168 floor without the independently missing A and B margins.",
+    "weakest_reproducibility_seam": "The index shift k>=1 to n>=257 must remain exact; starting at 256 would bind a different series."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K642's valid 258/66049 integral-test upper is retained as predecessor evidence; no current artifact records the sharper half-integer telescoping enclosure.",
+    "route_comparison": "K666 listed beta with the missing A/B margins, but K642 already owns its complete series; exact telescoping is the cheapest way to close that custody mismatch before seeking new native form data.",
+    "strongest_alternative": "Constructing native A or B would be more decisive, but K612/K665 show those require new complete-form or tail data not serialized in the current interface."
+  },
+  "result_id": "K667-K500-MATCHED-TRACE-SQUARE-TELESCOPING-BOUND",
+  "schema_version": "1.0",
+  "scope": "The complete matched-trace square series already owned by K642 on its spectator-amplified cancellation graph.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "telescoping_theorem": {
+    "complete_infinite_tail_controlled": true,
+    "finite_partial_sum_promoted_to_complete_bound": false,
+    "lower_telescoping_sum": "sum_(n=N)^infinity 1/(n(n+1))=1/N",
+    "lower_term": "1/(n(n+1))<1/n^2",
+    "series": "beta^2=sum_(n=257)^infinity 1/n^2",
+    "spectator_dimension_independent": true,
+    "strict_complete_enclosure": "1/257<beta^2<2/513",
+    "upper_telescoping_sum": "sum_(n=N)^infinity [1/(n-1/2)-1/(n+1/2)]=1/(N-1/2)",
+    "upper_term": "1/n^2<1/((n-1/2)(n+1/2))"
+  }
+}

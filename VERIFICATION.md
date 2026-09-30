@@ -7,6 +7,29 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K667--K668 matched-trace custody and rational floor target (2026-09-30)
+
+K667 closes the matched-trace numerical input already implicit in K642. With
+`n=k+256`, its complete square norm is
+`beta^2=sum_(n=257)^infinity 1/n^2`. Exact termwise telescoping gives
+`1/257<beta^2<2/513`, strictly sharpening K642's valid
+`258/66049<1/256` upper. The proof controls the complete tail and is uniform
+in the spectator Hilbert space; finite partial sums are checks only.
+
+K668 composes that owned upper into K663/K666 without a square-root
+calculation. A rational target `mu` is certified strictly when the complete
+same-domain margins satisfy `A_lower>=mu`, `B_lower>=mu`, and
+`(A_lower-mu)(B_lower-mu)>=2/513`. Equivalently, for `A_lower>mu`, require
+`B_lower>=mu+(2/513)/(A_lower-mu)`. The synthetic control
+`A_lower=3/4`, `B_lower=21/32`, `mu=5/8` clears the shifted determinant by
+`1/131328`, so the analytic trace certifies strictly more than `5/8` for that
+control row. Native use still requires complete `A_lower` and `B_lower`.
+
+The K667 and K668 probes each pass 24 controls and reject 20/20 hostile
+mutations. Neither result supplies native form margins, a complete floor,
+K473/K152 release, source, ledger, canon, paper, public, prediction,
+confirmation or physical conclusions.
+
 ## K665--K666 parity-cofinal margin and complete floor certificate (2026-09-30)
 
 K665 composes direct lower certificates for the effective combined form

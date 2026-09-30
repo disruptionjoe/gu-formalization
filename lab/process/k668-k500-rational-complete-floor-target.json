@@ -1,0 +1,114 @@
+{
+  "claim_ceiling": "Exact conditional rational-floor compiler for K663/K666 using K667's owned complete trace-square upper beta^2<2/513. A target mu is certified strictly when complete same-domain margins satisfy A_lower>=mu, B_lower>=mu and (A_lower-mu)(B_lower-mu)>=2/513. The synthetic 3/4,21/32 row clears mu=5/8 by exact shifted-determinant slack 1/131328. No native A or B margin, complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k668_k500_rational_complete_floor_target_probe.py",
+    "producer": "tests/channel-swings/k668_k500_rational_complete_floor_target.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "next_exact_input": "Certify complete A_lower and complete parity-cofinal B_lower on K647's common domain. For any desired rational floor mu, require A_lower>=mu and B_lower>=mu+(2/513)/(A_lower-mu); positivity alone is the mu=0 case.",
+    "remaining_native_inputs": [
+      "complete A_lower",
+      "complete parity-cofinal B_lower"
+    ],
+    "remaining_native_inputs_exactly_two": true
+  },
+  "dependency_reconciliation": {
+    "K642_complete_trace_series_consumed": true,
+    "K663_sharp_matrix_theorem_consumed": true,
+    "K665_complete_B_interface_retained": true,
+    "K666_end_to_end_typing_retained": true,
+    "K667_trace_square_upper_consumed": true,
+    "matched_trace_no_longer_a_missing_native_numeric_input": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "B_control_excess_over_threshold": "1/16416",
+    "B_threshold_at_A_3_over_4_mu_5_over_8": "2693/4104",
+    "K663_synthetic_five_eighths_target_retained": true,
+    "analytic_trace_certifies_strictly_more_than_five_eighths_for_control_margins": true,
+    "below_threshold_row": {
+      "A_gap": "1/8",
+      "A_lower": "3/4",
+      "B_gap": "511/16416",
+      "B_lower": "10771/16416",
+      "beta_square_upper": "2/513",
+      "certifies_floor_strictly_above_target": false,
+      "determinant_slack_against_upper": "-1/131328",
+      "shifted_product": "511/131328",
+      "target_mu": "5/8"
+    },
+    "below_threshold_row_rejected": true,
+    "positive_row": {
+      "A_gap": "1/8",
+      "A_lower": "3/4",
+      "B_gap": "1/32",
+      "B_lower": "21/32",
+      "beta_square_upper": "2/513",
+      "certifies_floor_strictly_above_target": true,
+      "determinant_slack_against_upper": "1/131328",
+      "shifted_product": "1/256",
+      "target_mu": "5/8"
+    },
+    "synthetic_input_only": true,
+    "threshold_row": {
+      "A_gap": "1/8",
+      "A_lower": "3/4",
+      "B_gap": "16/513",
+      "B_lower": "2693/4104",
+      "beta_square_upper": "2/513",
+      "certifies_floor_strictly_above_target": true,
+      "determinant_slack_against_upper": "0",
+      "shifted_product": "2/513",
+      "target_mu": "5/8"
+    },
+    "threshold_row_passes_strictly_for_actual_beta": true
+  },
+  "gu_typed_objects": {
+    "carrier": "K647's one complete K642/K663 cancellation domain",
+    "form": "the conservative comparison matrix with complete margins A_lower and B_lower and K667 matched-trace square upper",
+    "pairing": "the fixed complete graph norm used by K642 through K667",
+    "result": "rational target-floor certificate MAP-TYPE=shifted two-by-two positive-semidefinite test",
+    "target": "an exact rational acceptance test for any requested complete floor mu"
+  },
+  "ledger_no_change_reason": "This compiles internal conditional analytic constants and supplies no source-owned action, physical state, quotient, observable or empirical consequence.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_native_target_floor_certified": false,
+    "complete_matched_trace_beta_squared_upper_identified": true,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "If either complete margin falls below the target or the shifted product misses the trace-square budget, the requested floor is not certified.",
+    "strongest_overclaim": "Treating the synthetic A=3/4 and B=21/32 control as measured or native K139/K168 margins.",
+    "weakest_reproducibility_seam": "Strictness comes from K667's strict beta^2 upper; replacing it by a non-strict or finite-sample assertion changes the endpoint logic."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K663 gives the sharp radical and K666 gives the three-input compiler, but neither consumes K642's actual complete trace series into a rational target-floor budget.",
+    "route_comparison": "With beta^2 now owned, a shifted determinant test is cheaper and more reproducible than repeated radical evaluation and exposes the exact A/B budget future native work must meet.",
+    "strongest_alternative": "A direct native complete-form lower proof would bypass the compiler, but current custody supplies neither its A nor B margin."
+  },
+  "rational_target_theorem": {
+    "K667_sufficient_strict_test": "A_lower>=mu, B_lower>=mu, (A_lower-mu)(B_lower-mu)>=2/513",
+    "comparison_matrix": "[[A_lower,-beta],[-beta,B_lower]]",
+    "complete_A_B_same_domain_required": true,
+    "equivalent_B_budget_for_A_above_mu": "B_lower>=mu+(2/513)/(A_lower-mu)",
+    "finite_prefix_only_sufficient": false,
+    "floor_at_least_mu_iff_with_exact_beta": "A_lower>=mu, B_lower>=mu, (A_lower-mu)(B_lower-mu)>=beta^2",
+    "square_root_evaluation_required": false,
+    "strict_reason": "K667 proves beta^2<2/513, so equality against the rational upper still leaves positive shifted determinant",
+    "uncontrolled_complement_allowed": false
+  },
+  "result_id": "K668-K500-RATIONAL-COMPLETE-FLOOR-TARGET",
+  "schema_version": "1.0",
+  "scope": "K663/K666's complete two-component comparison after replacing the synthetic beta value by K667's owned complete trace-square upper.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

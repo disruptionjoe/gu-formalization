@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k667": json.loads(
+            (ROOT / "lab/process/k667-k500-matched-trace-square-telescoping-bound.json").read_text()
+        ),
+        "k668": json.loads(
+            (ROOT / "lab/process/k668-k500-rational-complete-floor-target.json").read_text()
+        ),
         "k665": json.loads(
             (ROOT / "lab/process/k665-k500-parity-cofinal-effective-margin-composition.json").read_text()
         ),
@@ -246,6 +252,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K666" in live and "A_lower B_lower>beta_upper^2" in live and
               "determinant endpoint" in live,
               "live complete cancellation-floor certificate missing")
+        check("K667" in live and "1/257<beta^2<2/513" in live and
+              "K668" in live and "(A_lower-mu)(B_lower-mu)>=2/513" in live,
+              "live matched-trace custody or rational floor target missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -255,6 +264,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K667--K668 close the matched-trace custody mismatch" in summary,
+          "current K667--K668 result lost")
     check("K665--K666 close the abstract composition" in summary,
           "current K665--K666 result lost")
     check("K663--K664 sharpen the independent K642 complete-domain lower route" in summary,
@@ -315,6 +326,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "1/257<beta^2" in data["agenda"].get("latest_result_2026_09_30_k667_k668", "")
+        and "1/131328" in data["agenda"].get("latest_result_2026_09_30_k667_k668", ""),
+        "agenda K667--K668 result is not current",
+    )
     check(
         registry["live_frontier"]["current_question_contains"] in question,
         "current_question disagrees with live frontier",
@@ -781,6 +797,44 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k666_c["negative_determinant_rejected"] and
           not k666_n["native_complete_floor_emitted"],
           "K666 control or native-interface ceiling moved")
+
+    k667 = data["k667"]
+    k667_t = k667["telescoping_theorem"]
+    k667_b = k667["exact_bounds"]
+    k667_n = k667["native_interface_status"]
+    check(k667_t["strict_complete_enclosure"] == "1/257<beta^2<2/513" and
+          k667_t["complete_infinite_tail_controlled"] and
+          not k667_t["finite_partial_sum_promoted_to_complete_bound"] and
+          k667_t["spectator_dimension_independent"],
+          "K667 complete trace-square theorem moved")
+    check(k667_b["lower"] == "1/257" and k667_b["upper"] == "2/513" and
+          k667_b["width"] == "1/131841" and
+          k667_b["new_upper_strictly_improves_old"] and
+          k667_n["complete_matched_trace_beta_squared_upper_identified"] and
+          not k667_n["actual_complete_A_lower_identified"] and
+          not k667_n["actual_complete_B_lower_identified"] and
+          not k667_n["native_complete_floor_emitted"],
+          "K667 bounds or native-interface ceiling moved")
+
+    k668 = data["k668"]
+    k668_t = k668["rational_target_theorem"]
+    k668_c = k668["exact_controls"]
+    k668_n = k668["native_interface_status"]
+    check(k668_t["K667_sufficient_strict_test"].endswith(">=2/513") and
+          not k668_t["square_root_evaluation_required"] and
+          k668_t["complete_A_B_same_domain_required"] and
+          not k668_t["finite_prefix_only_sufficient"] and
+          not k668_t["uncontrolled_complement_allowed"],
+          "K668 rational target theorem moved")
+    check(k668_c["positive_row"]["determinant_slack_against_upper"] == "1/131328" and
+          k668_c["B_control_excess_over_threshold"] == "1/16416" and
+          k668_c["threshold_row_passes_strictly_for_actual_beta"] and
+          k668_c["below_threshold_row_rejected"] and
+          k668_n["complete_matched_trace_beta_squared_upper_identified"] and
+          not k668_n["actual_complete_A_lower_identified"] and
+          not k668_n["actual_complete_B_lower_identified"] and
+          not k668_n["native_complete_floor_emitted"],
+          "K668 controls or native-interface ceiling moved")
 
     k661 = data["k661"]
     k661_i = k661["interval_control"]
@@ -1685,6 +1739,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k666-floor", lambda d: d["k666"]["exact_control"].__setitem__("certified_floor", "1/4"))
     add("k666-endpoint", lambda d: d["k666"]["exact_control"]["endpoint_control"].__setitem__("certified_floor", "1/8"))
     add("k666-native", lambda d: d["k666"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k667-tail", lambda d: d["k667"]["telescoping_theorem"].__setitem__("complete_infinite_tail_controlled", False))
+    add("k667-upper", lambda d: d["k667"]["exact_bounds"].__setitem__("upper", "1/256"))
+    add("k667-native-A", lambda d: d["k667"]["native_interface_status"].__setitem__("actual_complete_A_lower_identified", True))
+    add("k667-floor", lambda d: d["k667"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k668-test", lambda d: d["k668"]["rational_target_theorem"].__setitem__("K667_sufficient_strict_test", "A>=mu"))
+    add("k668-domain", lambda d: d["k668"]["rational_target_theorem"].__setitem__("complete_A_B_same_domain_required", False))
+    add("k668-slack", lambda d: d["k668"]["exact_controls"]["positive_row"].__setitem__("determinant_slack_against_upper", "0"))
+    add("k668-native", lambda d: d["k668"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
     add("k663-floor", lambda d: d["k663"]["exact_control"].__setitem__("sharp_conservative_floor", "1/4"))
     add("k663-threshold", lambda d: d["k663"]["sharp_floor_theorem"].__setitem__("positive_floor_iff", "A>0 and B>0"))
     add("k663-native", lambda d: d["k663"]["native_interface_status"].__setitem__("actual_complete_effective_A_identified", True))

@@ -7,6 +7,21 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K667--K668 MATCHED-TRACE CUSTODY AND RATIONAL FLOOR TARGET.**
+> K667 consumes K642's already-owned complete trace-square series and proves
+> the exact telescoping enclosure `1/257<beta^2<2/513`, improving the prior
+> `258/66049<1/256` bound without using a finite-tail surrogate. K668 turns
+> that bound into a rational acceptance test: to certify a target floor `mu`,
+> prove complete same-domain margins `A_lower>=mu`, `B_lower>=mu`, and
+> `(A_lower-mu)(B_lower-mu)>=2/513`. For `A_lower>mu`, the exact required
+> budget is `B_lower>=mu+(2/513)/(A_lower-mu)`. The synthetic
+> `3/4,21/32,5/8` row clears this test by `1/131328`; those margins remain
+> controls, not native data. The live native obligation is now exactly two
+> inputs: one complete `A_lower` and one complete parity-cofinal `B_lower` on
+> K647's common domain. See
+> `lab/process/k667-k500-matched-trace-square-telescoping-bound.json` and
+> `lab/process/k668-k500-rational-complete-floor-target.json`.
+
 > **2026-09-30 K665--K666 PARITY-COFINAL MARGIN AND COMPLETE FLOOR
 > CERTIFICATE.** K665 composes the already-combined effective form margin
 > `B=m-delta` across K648's two total-parity compressions and every K643 bath

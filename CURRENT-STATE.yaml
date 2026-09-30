@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 87203d81611e
+revision_basis: 595dbeba868e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K667--K668 close the matched-trace custody mismatch and reduce the live
+    K666 numerical burden to exactly two native margins without moving a
+    protected claim. K667 consumes K642's complete series
+    `beta^2=sum_(n=257)^infinity 1/n^2` and proves by exact half-integer
+    telescoping that `1/257<beta^2<2/513`, strictly improving the prior
+    `258/66049<1/256` upper with complete-tail, spectator-independent custody.
+    K668 compiles that strict upper into a rational target-floor test: a target
+    `mu` is certified when complete same-domain margins satisfy
+    `A_lower>=mu`, `B_lower>=mu`, and
+    `(A_lower-mu)(B_lower-mu)>=2/513`. The synthetic
+    `A_lower=3/4`, `B_lower=21/32`, `mu=5/8` row clears the shifted determinant
+    by `1/131328`, so the analytic trace certifies strictly more than `5/8` for
+    that control. Native `A_lower` and parity-cofinal `B_lower` remain absent.
+    No complete floor, K473/K152 release, source, ledger, canon, paper, public
+    or physical conclusion moves.
+
     K665--K666 close the abstract composition from K648's native parity-form
     interface to K663's sharp complete cancellation floor without moving a
     protected claim. K665 works directly with the effective combined form
@@ -11713,7 +11729,13 @@ current_question: >-
   complete `A_lower` and same-domain `beta_upper` into K663's exact floor and
   determinant test. Finite prefixes, one-parity evidence and uncontrolled
   complements remain insufficient; the displayed `21/32`, `125/256` and
-  `5/8` are synthetic controls only. K643 now proves that every K179 exchange
+  `5/8` are synthetic controls only. K667 now authenticates K642's actual
+  complete matched-trace series with
+  `1/257<beta^2<2/513<258/66049<1/256`. K668 therefore removes `beta` from the
+  missing-input list and gives the rational target test
+  `(A_lower-mu)(B_lower-mu)>=2/513`; only complete native `A_lower` and
+  parity-cofinal `B_lower` remain. The synthetic `3/4,21/32` row clears
+  `mu=5/8` by `1/131328`, not as a native margin. K643 now proves that every K179 exchange
   monomial preserves bath number, so a future closed coefficient form reduces
   as `B=direct_sum_n B_n` and its global lower is the uniform infimum
   `m=inf_n m_n`; a finite prefix is not a tail bound. K644 gives the exact
@@ -12321,7 +12343,12 @@ next_condition: >-
   complete `A_lower` and same-domain `beta_upper`; strict positivity is exactly
   `A_lower B_lower>beta_upper^2`. The synthetic row gives `B_lower=21/32`,
   determinant margin `125/256` and floor `5/8`; the determinant endpoint gives
-  floor zero. No native row or tail is supplied. K643 reduces the missing boundary form to
+  floor zero. K667 now proves the actual K642 trace-square enclosure
+  `1/257<beta^2<2/513`, and K668 compiles it into the exact rational target
+  budget `A_lower>=mu`, `B_lower>=mu`,
+  `(A_lower-mu)(B_lower-mu)>=2/513`. Thus the remaining native K666 inputs are
+  exactly complete `A_lower` and complete parity-cofinal `B_lower`; no native
+  row or tail is supplied. K643 reduces the missing boundary form to
   bath-number sectors and proves `m=inf_n m_n`, with a required uniform tail.
   K644 reduces each `m_n` to the actual six-channel diagonal floors and
   fifteen off-diagonal coupling bounds through a scalar comparison matrix,
@@ -12381,7 +12408,8 @@ next_condition: >-
   has bounded `U,C` before certifying the real-level margin.
   Independently certify complete `A=1-alpha` directly and certify
   `B=m-delta` either as one unsplit complete bound or through K665's finite-row
-  plus two-tail packet; then use K666 with the matched-trace upper. Do not
+  plus two-tail packet; then use K668's K667-owned trace-square budget to test
+  the desired K666 target. Do not
   invent separate constants when only their effective margins are controlled.
   This is the remaining effective-margin obligation in compressed form. The raw
   K644 rows remain a valid sufficient route if
