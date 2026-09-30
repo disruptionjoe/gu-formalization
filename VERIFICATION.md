@@ -7,6 +7,31 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K659--K660 chart-floor custody and denominator covariance (2026-09-29)
+
+K659 proves a custody-relative nonidentifiability result. K139 explicitly
+compensates its auxiliary resolvent parameter in the regular operator, so
+changing the Neumann chart leaves the expanded target operator and its
+spectrum unchanged. Three exact controls hold one floor fixed while using
+chart shifts `4`, `256` and `4096`. Three further semibounded controls share
+the same qualitative existence interface but have floors `-1`, `-7` and
+`-100`. The probe passes 20 exact controls and rejects 16 hostile mutations.
+This proves that the displayed `256` and qualitative semiboundedness do not
+identify K657's numerical `s`; it does not prove the fixed native operator is
+unbounded below.
+
+K660 proves the exact covariance theorem for a bounded self-adjoint boundary
+translation on the complete boundary Hilbert space. With
+`Gamma_0'=Gamma_0` and `Gamma_1'=Gamma_1+C Gamma_0`, one has
+`M'=M+C`, `W'=W+C`, and therefore `D'=W'-M'=W-M=D`. The reference extension,
+real resolvent level, complete denominator order and a jointly translated
+K658 approximation error are unchanged. The probe passes 22 exact controls
+and rejects 23 hostile mutations. The theorem preserves a Friedrichs status
+that was independently proved; it cannot create that proof, does not cover
+unbounded or finite-impurity-only translations, and does not authenticate
+K139's regulator coordinates. No native `s`, denominator, `d_N`, `eta_N`,
+`r0`, `b`, `m`, `alpha`, `delta`, K473 release or K152 interval follows.
+
 ## K657--K658 boundary/Weyl base-floor certificate (2026-09-29)
 
 K657 instantiates Theorem A.7(i) of *Boundary Triplets and Weyl Functions*,

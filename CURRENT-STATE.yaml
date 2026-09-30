@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 60fd9a55546b
+revision_basis: 998cdf5b841f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K659--K660 close the auxiliary-chart custody question and isolate the
+    invariant boundary packet without moving a protected claim. K659 proves
+    that K139's auxiliary resolvent parameter is exactly compensated in the
+    regular operator: enlarging the Neumann chart, including the displayed
+    value `256`, leaves the expanded target operator and its spectrum
+    unchanged. K139's qualitative uniform semiboundedness therefore proves
+    existence of some finite lower shift but does not identify a numerical
+    `s`; exact same-interface controls can have arbitrary negative floors.
+    This does not say the fixed native operator lacks a floor. K660 proves
+    the bounded self-adjoint ordinary-boundary-triple translation law
+    `Gamma_0'=Gamma_0`, `Gamma_1'=Gamma_1+C Gamma_0`,
+    `M'=M+C`, `W'=W+C`. The complete denominator is invariant:
+    `W'-M'=W-M`, as are its order and K658's jointly translated cofinal
+    error. The reference extension and a previously proved Friedrichs status
+    are preserved, but translation cannot create the missing Friedrichs
+    proof. K139's regulator coordinates are not yet authenticated as this
+    translation. No native `s`, denominator, `d_N`, `eta_N`, `r0`, `b`, tail,
+    `m`, `alpha` or `delta` is supplied. No K473 beta, K152 interval, source,
+    ledger, canon, paper, public or physical conclusion moves.
+
     K657--K658 convert K656's missing base floor into one exact
     boundary/Weyl certificate path without moving a protected claim. K657
     states the ordinary-boundary-triple equivalence in a declared sign
@@ -11676,7 +11696,17 @@ current_question: >-
   `D_N(-s)>=d_N I` and `||D_N(-s)-D(-s)||<=eta_N` imply
   `D(-s)>=(d_N-eta_N)I`; require `d_N>=eta_N`. Derive one actual native `s`,
   same-coordinate `d_N`, complete-space `eta_N`, and verify K657's Friedrichs,
-  bounded-Weyl and sign premises; then separately certify `alpha,delta`. Finite impurity
+  bounded-Weyl and sign premises. K659 now forbids substituting K139's
+  compensated auxiliary chart parameter, including `256`, for that spectral
+  `s`: changing the chart leaves the expanded operator fixed, and qualitative
+  semiboundedness supplies existence but no number. K660 identifies the
+  coordinate-invariant packet. Under a bounded self-adjoint joint boundary
+  translation, `M` and `W` shift together while `D=W-M`, its order and K658's
+  error remain unchanged. Construct K139's actual complete ordinary boundary
+  maps, prove the `Gamma_0` reference is Friedrichs, authenticate any
+  regulator/counterterm change as that joint translation, then choose a
+  separate real `-s` and prove the invariant `D_N(-s),d_N,eta_N` packet.
+  Separately certify `alpha,delta`. Finite impurity
   matrices, sampled sectors, uncontrolled complements and Synthetic controls
   do not supply `r0` or `b`.
   The raw K644 twelve-plus-thirty route remains valid only if
@@ -12231,8 +12261,16 @@ next_condition: >-
   Friedrichs-reference, bounded-Weyl and sign premises, then prove a same-coordinate full-boundary
   approximant floor `d_N` and complete operator-norm error `eta_N` with
   `d_N>=eta_N`. This yields `D(-s)>=0`, `r0=-s` and `b=-s-2`. A finite
-  impurity block or uncontrolled spectator complement cannot close it. Only
-  afterward certify `alpha,delta`. The raw
+  impurity block or uncontrolled spectator complement cannot close it. K659
+  proves that K139's compensated auxiliary chart parameter, including `256`,
+  cannot be substituted for this spectral `s`: the expanded operator is held
+  fixed, and qualitative semiboundedness supplies existence but no number.
+  K660 isolates the coordinate-invariant packet under a bounded joint boundary
+  translation: `M` and `W` shift together while `D=W-M`, its order and K658's
+  cofinal error remain unchanged. Construct the actual complete boundary maps,
+  prove the reference is Friedrichs, authenticate any regulator/counterterm
+  change as that translation, and then prove the invariant real-level margin.
+  Only afterward certify `alpha,delta`. The raw
   K644 rows remain a valid sufficient route if
   their same-domain boundedness is independently proved. Neither route may
   split the singular exchange factors before cancellation, substitute a

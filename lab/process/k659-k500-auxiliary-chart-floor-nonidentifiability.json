@@ -1,0 +1,132 @@
+{
+  "claim_ceiling": "Exact custody-relative nonidentifiability result. K139's compensated auxiliary resolvent-chart parameter changes the Neumann coordinate but not the expanded target operator, so lambda=256 and arbitrarily large chart shifts cannot be promoted to K657's spectral s. Qualitative uniform semiboundedness proves existence of some finite lower shift but does not identify its value; exact synthetic families share that interface with arbitrary negative floors. This does not say the fixed native operator lacks a floor. No native s, denominator, r0, b, d_N, eta_N, tail, m, alpha, delta, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "compensated_chart_theorem": {
+    "K139_identity": "changing auxiliary lambda moves a bounded diagonal term between the free resolvent chart and the regular operator while the expanded target operator is held fixed",
+    "arbitrarily_large_chart_shift_improves_floor": false,
+    "chart_contraction_implies_positive_operator": false,
+    "lambda_256_is_native_floor": false,
+    "same_target_operator_required": true,
+    "spectral_consequence": "the spectrum and lower floor of the fixed expanded operator are independent of the compensated chart parameter"
+  },
+  "created": "2026-09-29",
+  "decision": {
+    "K139_auxiliary_shift_rejected_as_native_s": true,
+    "K139_semiboundedness_retained": true,
+    "native_floor_supplied": false,
+    "next_exact_input": "Authenticate one K139 ordinary boundary triple and derive an invariant complete denominator D_W(-s) at a separately proposed real level; K660 specifies the harmless boundary translations and K658 specifies the required complete-space margin."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "chart_rows": [
+      {
+        "auxiliary_chart_shift": "4",
+        "chart_shift_equals_spectral_floor": false,
+        "expanded_operator_floor": "-7/3",
+        "expanded_operator_unchanged": true,
+        "regular_compensation": "-4"
+      },
+      {
+        "auxiliary_chart_shift": "256",
+        "chart_shift_equals_spectral_floor": false,
+        "expanded_operator_floor": "-7/3",
+        "expanded_operator_unchanged": true,
+        "regular_compensation": "-256"
+      },
+      {
+        "auxiliary_chart_shift": "4096",
+        "chart_shift_equals_spectral_floor": false,
+        "expanded_operator_floor": "-7/3",
+        "expanded_operator_unchanged": true,
+        "regular_compensation": "-4096"
+      }
+    ],
+    "chart_rows_preserve_one_floor": true,
+    "controls_are_synthetic": true,
+    "displayed_256_rejected_as_floor": true,
+    "qualitative_rows_have_distinct_floors": true,
+    "qualitative_rows_share_interface": true,
+    "semibounded_rows": [
+      {
+        "control_depth_L": 1,
+        "qualitatively_semibounded": true,
+        "some_finite_lower_shift_exists": true,
+        "spectral_floor": "-1"
+      },
+      {
+        "control_depth_L": 7,
+        "qualitatively_semibounded": true,
+        "some_finite_lower_shift_exists": true,
+        "spectral_floor": "-7"
+      },
+      {
+        "control_depth_L": 100,
+        "qualitatively_semibounded": true,
+        "some_finite_lower_shift_exists": true,
+        "spectral_floor": "-100"
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "carrier": "K139's complete positive particle/hole Fock carrier with spectator degrees of freedom",
+    "domain": "the common recursive K139 boundary domain represented in different auxiliary resolvent charts",
+    "form": "the expanded minimally countertermed target operator held fixed while its Neumann boundary chart is changed and exactly compensated",
+    "result": "chart/floor custody obstruction MAP-TYPE=nonidentifiability",
+    "target": "one actual numerical s for K657, not an auxiliary chart coordinate"
+  },
+  "ledger_no_change_reason": "This is a custody result inside the repository-supplied point-Fock control; it neither selects a physical extension nor constructs a positive physical state space.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_native_base_floor_r0_identified": false,
+    "actual_native_denominator_serialized": false,
+    "actual_native_s_identified": false,
+    "actual_native_target_b_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "One fixed operator with floor -7/3 admits compensated charts at 4, 256 and 4096; the chart improves while the spectrum does not move.",
+    "strongest_overclaim": "Using lambda=256, or any larger Neumann-chart parameter, as K657's native s.",
+    "weakest_reproducibility_seam": "K139 states existence of a common finite lower shift but does not serialize its value or the estimates needed to recover it."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K139 proves qualitative uniform semiboundedness but records no numerical lower constant for the limiting expanded operator.",
+    "route_comparison": "K657 needs a numerical spectral level, while K139's displayed auxiliary lambda is explicitly compensated and can be enlarged without changing the target operator.",
+    "strongest_alternative": "K652's cancelled-form all-order route remains available if no invariant real-level boundary denominator can be constructed."
+  },
+  "result_id": "K659-K500-AUXILIARY-CHART-FLOOR-NONIDENTIFIABILITY",
+  "schema_version": "1.0",
+  "scope": "A custody-relative obstruction to reading K139's compensated auxiliary boundary-chart shift or qualitative uniform semiboundedness as K657's native numerical real-level floor.",
+  "semiboundedness_nonidentifiability": {
+    "best_floor_identified": false,
+    "control_family": [
+      {
+        "control_depth_L": 1,
+        "qualitatively_semibounded": true,
+        "some_finite_lower_shift_exists": true,
+        "spectral_floor": "-1"
+      },
+      {
+        "control_depth_L": 7,
+        "qualitatively_semibounded": true,
+        "some_finite_lower_shift_exists": true,
+        "spectral_floor": "-7"
+      },
+      {
+        "control_depth_L": 100,
+        "qualitatively_semibounded": true,
+        "some_finite_lower_shift_exists": true,
+        "spectral_floor": "-100"
+      }
+    ],
+    "existence_consequence": "there exists at least one finite s with A>=-s",
+    "fixed_native_operator_has_no_floor": false,
+    "numerical_s_identified": false,
+    "same_qualitative_interface_allows_arbitrary_negative_floors": true,
+    "serialized_native_statement": "a common finite lower shift makes the regular operators self-adjoint and uniformly semibounded"
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

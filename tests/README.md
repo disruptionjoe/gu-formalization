@@ -4,6 +4,21 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K659--K660 chart-floor custody and denominator covariance
+
+- `channel-swings/k659_k500_auxiliary_chart_floor_nonidentifiability.py`
+  proves that K139's compensated auxiliary chart parameter and qualitative
+  semiboundedness do not identify a numerical spectral floor.
+- `channel-swings/k659_k500_auxiliary_chart_floor_nonidentifiability_probe.py`
+  checks 20 chart, semiboundedness and claim-ceiling controls and rejects 16
+  hostile mutations.
+- `channel-swings/k660_k500_boundary_translation_denominator_covariance.py`
+  proves exact denominator and cofinal-error invariance under bounded
+  self-adjoint joint translations of one complete ordinary boundary triple.
+- `channel-swings/k660_k500_boundary_translation_denominator_covariance_probe.py`
+  checks 22 covariance, scope and native-interface controls and rejects 23
+  hostile mutations.
+
 ## K657--K658 boundary/Weyl base-floor certificate
 
 - `channel-swings/k657_k500_boundary_weyl_base_floor_certificate.py` states

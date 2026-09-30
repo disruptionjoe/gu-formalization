@@ -7,6 +7,24 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K659--K660 AUXILIARY-CHART FLOOR CUSTODY AND INVARIANT
+> DENOMINATOR.** K659 proves that K139's auxiliary resolvent parameter is a
+> compensated Neumann-chart coordinate, not a spectral floor: changing it,
+> including to the displayed value `256`, leaves the expanded target operator
+> unchanged. Qualitative uniform semiboundedness proves that some finite lower
+> shift exists but does not identify its value; this does not deny a floor for
+> the fixed native operator. K660 proves the exact bounded self-adjoint
+> boundary-translation law `Gamma_0'=Gamma_0`,
+> `Gamma_1'=Gamma_1+C Gamma_0`, `M'=M+C`, `W'=W+C`, hence
+> `D'=W'-M'=D`. The reference extension, denominator order and K658 cofinal
+> error are preserved, while a previously unproved Friedrichs premise remains
+> unproved. Next serialize K139's actual complete ordinary boundary maps,
+> prove the `Gamma_0` reference is Friedrichs, authenticate any regulator or
+> counterterm change as a joint bounded translation, then choose a separate
+> real `-s` and prove the invariant complete `D_N(-s),d_N,eta_N` packet. No
+> native floor, K473 beta, K152 interval, source, ledger or physical conclusion
+> moves.
+
 > **2026-09-29 K657--K658 BOUNDARY/WEYL BASE-FLOOR CERTIFICATE AND COFINAL
 > MARGIN TRANSFER.** K657 converts K656's missing `r0` into a precise
 > ordinary-boundary-triple test. In one declared sign convention, with a

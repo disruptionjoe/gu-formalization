@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k659": json.loads(
+            (ROOT / "lab/process/k659-k500-auxiliary-chart-floor-nonidentifiability.json").read_text()
+        ),
+        "k660": json.loads(
+            (ROOT / "lab/process/k660-k500-boundary-translation-denominator-covariance.json").read_text()
+        ),
         "k657": json.loads(
             (ROOT / "lab/process/k657-k500-boundary-weyl-base-floor-certificate.json").read_text()
         ),
@@ -198,6 +204,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "live boundary/Weyl floor certificate missing")
         check("K658" in live and "d_N>=eta_N" in live and "complete operator-norm" in live,
               "live cofinal denominator-margin transfer missing")
+        check("K659" in live and "compensated auxiliary chart parameter" in live and
+              "qualitative semiboundedness supplies existence but no number" in live,
+              "live auxiliary-chart floor custody missing")
+        check("K660" in live and "coordinate-invariant packet" in live and
+              "D=W-M" in live and "joint boundary translation" in live,
+              "live boundary-translation denominator covariance missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -207,6 +219,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K659--K660 close the auxiliary-chart custody question" in summary,
+          "current K659--K660 result lost")
     check("K657--K658 convert K656's missing base floor" in summary,
           "current K657--K658 result lost")
     check("K655--K656 resolve the target-selection question" in summary,
@@ -278,6 +292,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "auxiliary resolvent parameter" in data["agenda"].get("latest_result_2026_09_29_k659_k660", "")
+        and "D=W-M" in data["agenda"].get("latest_result_2026_09_29_k659_k660", ""),
+        "agenda K659--K660 result is not current",
+    )
     check(
         "ordinary-boundary-triple criterion"
         in data["agenda"].get("latest_result_2026_09_29_k657_k658", "")
@@ -571,6 +590,54 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k656_n["native_global_m_identified"] and
           not k656_n["K473_released"],
           "K656 native interface ceiling moved")
+
+    k659 = data["k659"]
+    k659_t = k659["compensated_chart_theorem"]
+    k659_s = k659["semiboundedness_nonidentifiability"]
+    k659_c = k659["exact_controls"]
+    k659_n = k659["native_interface_status"]
+    check(not k659_t["lambda_256_is_native_floor"] and
+          not k659_t["arbitrarily_large_chart_shift_improves_floor"] and
+          not k659_t["chart_contraction_implies_positive_operator"] and
+          k659_t["same_target_operator_required"] and
+          k659_c["chart_rows_preserve_one_floor"] and
+          k659_c["displayed_256_rejected_as_floor"],
+          "K659 compensated-chart theorem moved")
+    check(not k659_s["numerical_s_identified"] and
+          not k659_s["best_floor_identified"] and
+          k659_s["same_qualitative_interface_allows_arbitrary_negative_floors"] and
+          not k659_s["fixed_native_operator_has_no_floor"] and
+          not k659_n["actual_native_s_identified"] and
+          not k659_n["actual_native_denominator_serialized"] and
+          not k659_n["actual_native_base_floor_r0_identified"] and
+          not k659_n["K473_released"],
+          "K659 native interface ceiling moved")
+
+    k660 = data["k660"]
+    k660_t = k660["translation_theorem"]
+    k660_c = k660["exact_controls"]
+    k660_x = k660["composition"]
+    k660_n = k660["native_interface_status"]
+    check(k660_t["denominator_identity"] == "D'_W(z)=W'-M'(z)=W-M(z)=D_W(z)" and
+          k660_t["reference_extension_unchanged"] and
+          k660_t["reference_resolvent_level_unchanged"] and
+          k660_t["friedrichs_status_preserved_if_previously_proved"] and
+          not k660_t["friedrichs_status_created_by_translation"] and
+          k660_t["complete_denominator_order_unchanged"] and
+          k660_t["same_coordinate_approximant_error_unchanged"] and
+          not k660_t["finite_impurity_translation_sufficient"] and
+          not k660_t["unbounded_translation_covered"],
+          "K660 boundary-translation theorem moved")
+    check(k660_c["denominator_invariant"] and
+          k660_c["approximant_denominator_invariant"] and
+          k660_c["operator_norm_error_invariant"] and
+          not k660_x["K139_regulator_coordinates_already_authenticated_as_boundary_translation"] and
+          not k660_n["actual_native_boundary_triple_serialized"] and
+          not k660_n["actual_native_translation_law_proved"] and
+          not k660_n["actual_native_s_identified"] and
+          not k660_n["actual_native_denominator_serialized"] and
+          not k660_n["K473_released"],
+          "K660 native interface ceiling moved")
 
     k657 = data["k657"]
     k657_t = k657["ordinary_boundary_triple_theorem"]
@@ -1389,6 +1456,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k655-target", lambda d: d["k655"]["native_interface_status"].__setitem__("actual_native_target_b_identified", True))
     add("k656-formula", lambda d: d["k656"]["base_floor_lift_theorem"].__setitem__("selected_target", "b=r0"))
     add("k656-r0", lambda d: d["k656"]["native_interface_status"].__setitem__("actual_native_base_floor_r0_identified", True))
+    add("k659-promote-256", lambda d: d["k659"]["compensated_chart_theorem"].__setitem__("lambda_256_is_native_floor", True))
+    add("k659-improve-floor", lambda d: d["k659"]["compensated_chart_theorem"].__setitem__("arbitrarily_large_chart_shift_improves_floor", True))
+    add("k659-invent-s", lambda d: d["k659"]["semiboundedness_nonidentifiability"].__setitem__("numerical_s_identified", True))
+    add("k659-deny-floor", lambda d: d["k659"]["semiboundedness_nonidentifiability"].__setitem__("fixed_native_operator_has_no_floor", True))
+    add("k660-denominator", lambda d: d["k660"]["translation_theorem"].__setitem__("denominator_identity", "D'=D+C"))
+    add("k660-create-friedrichs", lambda d: d["k660"]["translation_theorem"].__setitem__("friedrichs_status_created_by_translation", True))
+    add("k660-unbounded", lambda d: d["k660"]["translation_theorem"].__setitem__("unbounded_translation_covered", True))
+    add("k660-authenticate-regulator", lambda d: d["k660"]["composition"].__setitem__("K139_regulator_coordinates_already_authenticated_as_boundary_translation", True))
+    add("k660-native-translation", lambda d: d["k660"]["native_interface_status"].__setitem__("actual_native_translation_law_proved", True))
     add("k657-equivalence", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("equivalence", "false"))
     add("k657-basis", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("theorem_basis", "unknown"))
     add("k657-shift", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("scalar_shift", "unknown"))
