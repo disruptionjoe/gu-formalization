@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 74080f809cf4
+revision_basis: ba985f23e0f7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K705--K707 switch the active construction front from the exhausted K500
+    conditional-margin chain to SC-ACT-06's unproved Euclidean deformation
+    claim. K705 extracts the coordinate-free reduction test from K276: at a
+    nonzero Euclidean covector, the reduced Euler symbol is middle-exact iff
+    the reduction is injective on the thirteen-dimensional curvature image.
+    Thirteen independent rows give kernel dimension one; twelve rows still
+    compose with gauge but leave one middle cohomology class. K706 proves the
+    test is invariant under coherent invertible field and equation frame
+    changes; its exact control preserves rank thirteen and determinant witness
+    `-2`, while a singular equation frame drops to rank twelve. K707 composes
+    two exact reduced blocks with a nonzero gauge-compatible triangular mixed
+    symbol. The coupled rank is 26 on a 28-dimensional field space with gauge
+    rank two and zero middle cohomology. If one diagonal drops rank, every
+    gauge-compatible coupling leaves one class; the planted rank repair works
+    only by breaking Euler-after-gauge composition. These are conditional
+    source-native-route symbol theorems, not the missing distinguished
+    `B(epsilon)/Y` background, complete GU linearization, Fredholm domain or
+    nonlinear moduli theorem. SC-ACT-06 remains ASSERTS and no ledger, canon,
+    paper, public or physical verdict moves.
+
     K702--K704 compose the post-K701 robustness results into the actual
     complete-margin consumers. K702 pays separate outward errors on the
     seed, complement and cross estimates before applying K700's Schur test;
@@ -11926,6 +11946,16 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K705 now gives the exact independent-row criterion,
+  K706 makes it Euclidean-frame natural, and K707 gives the first two-block
+  full-field composition rule. Construct the actual distinguished Euclidean
+  `B(epsilon)/Y` stationary tuple, serialize the complete bosonic, fermionic
+  and mixed principal blocks plus the explicit redundant-Euler reduction
+  projectors, and test every nonzero covector. A rank-thirteen row count,
+  Lorentzian K77 defect, singular frame change or coupling that violates
+  Euler-after-gauge composition is not a substitute. Then supply the global
+  Fredholm domain and nonlinear moduli argument before moving SC-ACT-06.
+
   On the K77 route, K637 closes the basis-naturality question inside K635's
   full-commutant source algebra, sharpening K633's scalar stabilizer in
   `R[A]`. Internal block-basis covariance leaves the
@@ -12607,6 +12637,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the SC-ACT-06 route, instantiate K705--K707 with native data. Supply one
+  legal Euclidean stationary `B(epsilon)/Y` tuple; the complete bosonic,
+  fermionic and mixed principal symbols; and both explicit independent-row
+  reduction projectors. For every nonzero Euclidean covector, prove each
+  reduced diagonal has rank thirteen and gauge kernel one, transport all maps
+  in coherent frames, and prove the mixed block annihilates the actual gauge
+  image. K705 proves that twelve rows leave one middle class even when
+  composition vanishes. K706 proves only invertible Euclidean chain transport,
+  not signature continuation. K707 proves legal triangular mixing cannot hide
+  a deficient diagonal: a planted rank repair breaks Euler-after-gauge
+  composition. Only after the complete symbol is exact should the route build
+  its Fredholm domain and nonlinear moduli theorem. SC-ACT-06 remains ASSERTS;
+  no native coefficient packet has yet been supplied.
+
   On the K77 route, K637 closes the basis-naturality question inside K635's
   full-commutant source-seed stabilizer, sharpening K633's scalar stabilizer.
   Its induced

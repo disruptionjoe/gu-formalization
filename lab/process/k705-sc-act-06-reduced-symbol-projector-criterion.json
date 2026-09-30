@@ -1,0 +1,123 @@
+{
+  "claim_ceiling": "Exact conditional principal-symbol criterion for the bare Euclidean exterior skeleton. It supplies no native B(epsilon)/Y tuple, full GU Euler symbol, Fredholm domain, moduli theorem, physical quotient, prediction, confirmation, canon or public verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 28,
+    "hostile_mutations_rejected": 21,
+    "probe": "tests/channel-swings/k705_sc_act_06_reduced_symbol_projector_criterion_probe.py",
+    "producer": "tests/channel-swings/k705_sc_act_06_reduced_symbol_projector_criterion.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "bare_exterior_skeleton_has_coordinate_free_acceptance_test": true,
+    "next_exact_input": "Supply the native nonzero-covector full Euler symbol and its explicit independent-row projector, then test injectivity on the actual curvature image at every Euclidean covector.",
+    "source_claim_settled": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "coordinate_receipts": [
+      {
+        "composition_zero": true,
+        "covector": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "kernel_dimension": 1,
+        "selected_rank": 13,
+        "selected_row_count": 13,
+        "short_middle_cohomology": 1,
+        "short_rank": 12
+      },
+      {
+        "composition_zero": true,
+        "covector": [
+          1,
+          -2,
+          3,
+          0,
+          5,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "kernel_dimension": 1,
+        "selected_rank": 13,
+        "selected_row_count": 13,
+        "short_middle_cohomology": 1,
+        "short_rank": 12
+      }
+    ],
+    "dimension": 14,
+    "exact_kernel_dimension": 1,
+    "exact_reduced_rank": 13,
+    "full_curvature_rank": 13,
+    "gauge_rank": 1,
+    "short_middle_cohomology": 1,
+    "short_reduced_rank": 12
+  },
+  "gu_typed_objects": {
+    "action_owner": "SC-ACT-06 source assertion; full GU Euler linearization remains unowned",
+    "carrier": "one Euclidean fourteen-dimensional cotangent fibre at nonzero covector xi",
+    "grading": "gauge degree 0 to field degree 1 to reduced Euler degree 2",
+    "pairing": "exact rational coordinate pairing used only to compute symbol ranks",
+    "real_structure": "real Euclidean principal-symbol skeleton; no Lorentzian K77 transfer",
+    "target": "independent-row reduction projector MAP-TYPE=quotient of the curvature symbol image"
+  },
+  "ledger_no_change_reason": "The criterion types the missing principal-symbol datum but does not supply the distinguished Euclidean background or full GU linearization.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "complete_full_field_symbol_constructed": false,
+    "distinguished_B_epsilon_Y_tuple_constructed": false,
+    "fredholm_domain_constructed": false,
+    "nonlinear_moduli_theorem_proved": false,
+    "source_independent_row_projector_supplied": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A twelve-rank reduction still composes with gauge but leaves one middle cohomology class.",
+    "strongest_overclaim": "The exact bare exterior skeleton proves the source's complete Euclidean deformation complex is elliptic.",
+    "weakest_reproducibility_seam": "A future projector must be tested on the actual curvature image for every nonzero covector, not inferred from its nominal row count."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "No prior artifact states injectivity of the reduction on the curvature image as the exact acceptance criterion.",
+    "route_comparison": "K276 exhibits one 13-row pass and one 12-row failure; K705 extracts the coordinate-free necessary-and-sufficient projector test needed by a future native coefficient packet.",
+    "strongest_alternative": "Construct the complete native SC-ACT-06 Euler complex directly and compute its symbol cohomology without a reduced-skeleton interface."
+  },
+  "result_id": "K705-SC-ACT-06-REDUCED-SYMBOL-PROJECTOR-CRITERION",
+  "schema_version": "1.0",
+  "scope": "The principal-symbol criterion for discarding redundant Euler rows in the source-asserted Euclidean deformation complex.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "criterion": "For xi!=0, ker(xi wedge:Lambda1->Lambda2)=span{xi}; a reduction R gives exact 0->Lambda0->Lambda1->W->0 iff rank(R(xi wedge))=13.",
+    "gauge_composition_must_vanish": true,
+    "lorentzian_defect_transfers_to_euclidean_claim": false,
+    "nonzero_covector_required": true,
+    "rank_thirteen_is_necessary_and_sufficient_for_middle_exactness": true,
+    "reduction_must_be_injective_on_curvature_image": true,
+    "row_count_alone_is_sufficient": false,
+    "twelve_rows_can_be_elliptic": false
+  }
+}

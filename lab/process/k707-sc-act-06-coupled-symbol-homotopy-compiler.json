@@ -1,0 +1,74 @@
+{
+  "claim_ceiling": "Exact conditional coupled Euclidean symbol theorem. It supplies no native full-field linearization, background, Fredholm domain, nonlinear moduli theorem, physical quotient, prediction, confirmation, canon or public verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 25,
+    "probe": "tests/channel-swings/k707_sc_act_06_coupled_symbol_homotopy_compiler_probe.py",
+    "producer": "tests/channel-swings/k707_sc_act_06_coupled_symbol_homotopy_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "coupled_exactness_reduces_to_typed_diagonals_and_chain_compatible_mixing": true,
+    "missing_diagonal_rank_cannot_be_hidden_by_legal_mixing": true,
+    "next_exact_input": "Serialize the native bosonic, fermionic and mixed principal blocks plus both reduction projectors; check each diagonal with K705 and the mixed block on the actual gauge image.",
+    "source_claim_settled": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "coupling_nonzero": true,
+    "exact_composition_zero": true,
+    "exact_coupled_rank": 26,
+    "exact_kernel_dimension": 2,
+    "exact_middle_cohomology": 0,
+    "field_dimension": 28,
+    "gauge_rank": 2,
+    "illegal_repair_composition_rank": 1,
+    "illegal_repair_rank": 26,
+    "short_compatible_middle_cohomology": 1,
+    "short_compatible_rank": 25
+  },
+  "gu_typed_objects": {
+    "action_owner": "future complete SC-ACT-06 full-field linearization",
+    "carrier": "two fourteen-dimensional field-symbol blocks with two gauge inputs and two thirteen-dimensional reduced Euler outputs",
+    "grading": "two-term gauge-to-field-to-reduced-Euler complex",
+    "pairing": "none required for symbol cohomology",
+    "real_structure": "real Euclidean block symbol",
+    "target": "gauge-compatible triangular coupling MAP-TYPE=extension of exact symbol complexes"
+  },
+  "ledger_no_change_reason": "The theorem gives a full-field composition test but no native coefficient block or background.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "full_symbol_exactness_proved": false,
+    "native_bosonic_symbol_supplied": false,
+    "native_fermionic_symbol_supplied": false,
+    "native_mixed_principal_coupling_supplied": false,
+    "native_reduction_projectors_supplied": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A coupling along the gauge covector restores total rank only by making the Euler-after-gauge composition nonzero.",
+    "strongest_overclaim": "Any nonzero mixed coupling repairs a missing Euler row.",
+    "weakest_reproducibility_seam": "Diagonal exactness, mixed-block gauge annihilation and the actual reduction projectors must be checked in the same native frames."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K442--K446 concern the Lorentzian K77 boundary KT carrier, not this Euclidean SC-ACT-06 principal-symbol extension.",
+    "route_comparison": "K705 decides one reduced exterior block. K707 asks the next full-field question: when does a mixed boson/fermion principal coupling preserve rather than fake exactness?",
+    "strongest_alternative": "Build the complete native symbol matrix and compute its cohomology directly at each nonzero covector."
+  },
+  "result_id": "K707-SC-ACT-06-COUPLED-SYMBOL-HOMOTOPY-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A two-block exactness theorem for a future coupled boson/fermion Euclidean principal symbol built from K705-compatible diagonal blocks.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "arbitrary_off_diagonal_coupling_is_sufficient": false,
+    "both_diagonal_blocks_must_be_exact": true,
+    "criterion": "With surjective rank-13 diagonal symbols and injective rank-1 gauge maps, a triangular coupling C preserves exactness iff Cg=0; if one diagonal drops rank, every gauge-compatible C leaves cohomology.",
+    "off_diagonal_coupling_must_annihilate_gauge_image": true,
+    "one_exact_diagonal_is_sufficient": false,
+    "rank_repair_that_breaks_chain_is_rejected": true,
+    "total_row_count_is_sufficient": false,
+    "triangular_gauge_compatible_extension_preserves_exactness": true
+  }
+}

@@ -7,6 +7,22 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K705--K707 SC-ACT-06 EUCLIDEAN SYMBOL CRITERIA.** K705 turns
+> K276's coordinate examples into the exact criterion: for every nonzero
+> Euclidean covector the redundant-Euler reduction must be injective on the
+> rank-thirteen curvature image. Twelve rows can still compose with gauge but
+> leave one middle class. K706 proves coherent invertible field/equation frame
+> changes preserve rank, kernel and the determinant witness; singular or
+> one-sided transport does not. K707 proves a gauge-compatible triangular
+> coupling of two exact blocks remains exact, while a deficient diagonal
+> cannot be repaired legally. Next construct the native distinguished
+> `B(epsilon)/Y` stationary tuple, complete bosonic/fermionic/mixed principal
+> blocks and explicit reduction projectors, then apply these tests at every
+> nonzero Euclidean covector before Fredholm or nonlinear-moduli claims. See
+> `lab/process/k705-sc-act-06-reduced-symbol-projector-criterion.json`,
+> `lab/process/k706-sc-act-06-euclidean-frame-transport.json`, and
+> `lab/process/k707-sc-act-06-coupled-symbol-homotopy-compiler.json`.
+
 > **2026-09-30 K702--K704 ROBUST COMPLETE-MARGIN COMPOSITION.** K702 pays
 > outward errors on all three K700 block inputs before applying the Schur test;
 > the synthetic effective `13/50,3/200,1/50` packet gives

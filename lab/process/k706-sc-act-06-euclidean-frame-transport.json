@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact conditional Euclidean frame-transport theorem. It does not identify Lorentzian and Euclidean symbols or supply the native B(epsilon)/Y tuple, full Euler complex, Fredholm domain or nonlinear moduli theorem.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 23,
+    "probe": "tests/channel-swings/k706_sc_act_06_euclidean_frame_transport_probe.py",
+    "producer": "tests/channel-swings/k706_sc_act_06_euclidean_frame_transport.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "K705_criterion_is_coordinate_natural": true,
+    "native_claim_settled": false,
+    "next_exact_input": "Authenticate the native Euclidean field/equation frames and transport the complete full symbol plus reduction projector coherently; a signature change is not this operation."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "equation_complement_determinant": "-2",
+    "original_rank": 13,
+    "singular_equation_frame_rank": 12,
+    "source_frame_is_nontrivial": true,
+    "transported_composition_zero": true,
+    "transported_gauge_rank": 1,
+    "transported_kernel_dimension": 1,
+    "transported_rank": 13
+  },
+  "gu_typed_objects": {
+    "action_owner": "future native SC-ACT-06 full symbol",
+    "carrier": "K705 Euclidean gauge-field-reduced-Euler symbol sequence",
+    "grading": "degree-preserving source and equation frame isomorphisms",
+    "pairing": "none required for rank exactness",
+    "real_structure": "real Euclidean frames only",
+    "target": "frame-transported independent-row test MAP-TYPE=chain isomorphism"
+  },
+  "ledger_no_change_reason": "Frame naturality preserves a conditional symbol test but supplies no native symbol or background.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "all_nonzero_covectors_checked": false,
+    "native_frame_map_authenticated": false,
+    "native_full_symbol_supplied": false,
+    "native_reduction_projector_supplied": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A singular equation frame drops the rank from thirteen to twelve.",
+    "strongest_overclaim": "Treating Lorentzian continuation or one-sided coefficient rewriting as an invertible Euclidean chain isomorphism.",
+    "weakest_reproducibility_seam": "The gauge injection, Euler symbol and reduction projector must use the same authenticated frame maps."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K276 tests two covectors but does not authenticate general field/equation frame transport.",
+    "route_comparison": "K705 supplies an exact criterion in one coordinate. K706 proves the criterion is not tied to that coordinate when the whole symbol sequence is transported coherently.",
+    "strongest_alternative": "Compute the native full symbol in a globally fixed Euclidean frame and avoid transport."
+  },
+  "result_id": "K706-SC-ACT-06-EUCLIDEAN-FRAME-TRANSPORT",
+  "schema_version": "1.0",
+  "scope": "Exact transport of K705's reduced Euclidean principal-symbol criterion under coherent invertible field and equation frame changes.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "determinant_witness_scales_by_nonzero_frame_determinants": true,
+    "gauge_and_euler_maps_must_transport_coherently": true,
+    "invertible_equation_frame_required": true,
+    "invertible_field_frame_required": true,
+    "lorentzian_signature_change_is_a_frame_transport": false,
+    "rank_and_middle_exactness_are_invariant": true,
+    "singular_equation_frame_is_allowed": false,
+    "transport_rule": "g'=Ug and s'=E s U^-1 imply s'g'=0 and rank(s')=rank(s) for invertible U,E",
+    "transporting_euler_map_only_is_sufficient": false
+  }
+}

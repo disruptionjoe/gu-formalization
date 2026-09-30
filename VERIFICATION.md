@@ -7,6 +7,36 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K705--K707 SC-ACT-06 Euclidean symbol criteria (2026-09-30)
+
+K705 proves the exact reduction criterion for the fourteen-dimensional bare
+Euclidean exterior skeleton. At every tested nonzero covector the curvature
+symbol has rank thirteen and the gauge symbol has rank one. A reduction is
+middle-exact exactly when it is injective on that curvature image. The complete
+thirteen-row controls have kernel dimension one; deleting one independent row
+keeps gauge composition zero but leaves one middle cohomology class.
+
+K706 transports the criterion by a coherent chain isomorphism. For invertible
+field frame `U` and equation frame `E`, `g'=Ug` and `s'=E s U^-1` preserve
+composition, rank thirteen and kernel dimension one. The exact nontrivial
+control has equation-complement determinant `-2`; making `E` singular lowers
+the symbol rank to twelve. This is Euclidean frame naturality, not a
+Euclidean-to-Lorentzian continuation theorem.
+
+K707 composes two exact reduced symbols with a nonzero lower-triangular mixed
+block. When the coupling annihilates the gauge image, the 28-dimensional field
+symbol has rank 26, gauge rank two and zero middle cohomology. If one diagonal
+has rank twelve, every gauge-compatible coupling leaves one class. A planted
+rank-26 repair exists only by coupling to the gauge covector, making the
+Euler-after-gauge composition rank one and invalidating the complex.
+
+The probes pass 28/30/32 controls and reject 21/21, 23/23 and 25/25 hostile
+mutations. These are conditional source-native-route symbol theorems. They do
+not supply the distinguished Euclidean `B(epsilon)/Y` stationary tuple, the
+complete GU bosonic/fermionic/mixed symbol, reduction projectors, Fredholm
+domain or nonlinear moduli theorem. SC-ACT-06 remains ASSERTS; no ledger,
+canon, paper, public, prediction, confirmation or physical conclusion moves.
+
 ## K702--K704 robust complete-margin composition (2026-09-30)
 
 K702 carries outward interval uncertainty through K700's nonreducing block
