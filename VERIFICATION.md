@@ -7,6 +7,43 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K675--K677 seed operator and complete-complement compiler (2026-09-30)
+
+K675 constructs the finite-rank operator that K609's three seed calculations
+actually own. On the graph-orthonormal q00/q10/q01 seed basis, `L_seed` sends
+each seed to its normalized action-vector residual. Charge grading keeps both
+the input lines and output residual sectors orthogonal. K609's complete
+outward residual enclosures therefore give
+`L_seed^*L_seed<=diag(lambda_q00,lambda_q10,lambda_q01)` and
+`||L_seed||^2<=max_q lambda_q=lambda_K609<1/3`. The entries are a Gram
+majorant, not exact singular values, and this construction does not identify
+`L_seed` with native `R P_seed` or extend it to K647's complete domain.
+
+K676 gives the exact finite native comparison. The strongest route proves the
+three action identities `R e_q=L_seed e_q`. A 3-by-3 Hermitian Gram domination
+is sufficient for the norm bound. If a native charge intertwiner proves that
+the three `R e_q` occupy orthogonal charge sectors, three linewise squared-norm
+bounds suffice. Without that intertwiner linewise bounds give only the sum of
+the three K609 uppers, approximately `0.9678`, which is not below `1/3`; an
+aligned-output control attains squared norm `1/3` from three line values
+`1/9`.
+
+K677 gives two complete complement certificates. For graph-orthogonal
+cofinal projections `E_N` inside `Q_seed`, bounds
+`||R E_N||^2<=u_N` and `||R(Q_seed-E_N)||^2<=v_N` imply
+`||R Q_seed||^2<=u_N+v_N` without output-range orthogonality. Alternatively,
+if the bath decomposition is proved to reduce `R^*R`, the complete norm is the
+supremum of the sector norms, so finite rows plus one uniform tail suffice.
+K643 proves bath preservation for the K179 monomials used in its boundary
+form; it does not prove reduction for the still-unidentified factor
+`R=T a^-1`.
+
+The K675 probe passes 28 controls and rejects 22/22 hostile mutations. K676
+passes 30 and rejects 24/24; K677 passes 32 and rejects 26/26. No native `R`
+action, charge or bath intertwiner, complement row, tail, `A`, `B`, complete
+floor, K473/K152 release, source, ledger, canon, paper, public, prediction,
+confirmation or physical conclusion follows.
+
 ## K673--K674 seed-line custody and compressed leakage complement budget (2026-09-30)
 
 K673 separates two meanings of completeness. K609 controls every serialized

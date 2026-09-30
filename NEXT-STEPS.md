@@ -7,6 +7,26 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K675--K677 SEED OPERATOR, NATIVE THREE-LINE CRITERION AND
+> COMPLEMENT COMPILER.** K675 constructs K609's charge-graded seed leakage
+> operator `L_seed` from its three normalized residual vectors and proves its
+> squared norm is bounded by the maximum, not the sum, of the q00/q10/q01
+> leakage uppers. K676 shows exactly how to compare native `R=T a^-1` with it:
+> prove `R e_q=L_seed e_q` on all three graph-normalized seeds, or prove the
+> complete 3-by-3 Gram domination. Three linewise norm bounds are enough only
+> after a native charge intertwiner proves orthogonal output sectors; without
+> it their sum is not below `1/3`. K677 turns K674's complement input into an
+> executable complete certificate: prove a cofinal core bound `u_N` and
+> complete tail `v_N` with `u_N+v_N<=1/100`, or first prove that bath number
+> reduces `R^*R` and then bound every finite sector plus the uniform tail by
+> `1/100`. K643's exchange-monomial bath preservation does not supply that
+> native reduction. No native action row or tail is proved. Next serialize
+> `R`, its charge/bath intertwining and the three seed actions, then execute one
+> K677 complete complement packet. See
+> `lab/process/k675-k500-seed-leakage-operator.json`,
+> `lab/process/k676-k500-three-line-native-compression-criterion.json`, and
+> `lab/process/k677-k500-complement-cofinal-norm-certificate.json`.
+
 > **2026-09-30 K673--K674 SEED-LINE CUSTODY AND COMPRESSED LEAKAGE
 > COMPLEMENT BUDGET.** K673 proves that K609's all-order q00/q10/q01
 > leakage bounds are complete on three orthogonal zero-bath seed lines, not a

@@ -34,6 +34,15 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k675": json.loads(
+            (ROOT / "lab/process/k675-k500-seed-leakage-operator.json").read_text()
+        ),
+        "k676": json.loads(
+            (ROOT / "lab/process/k676-k500-three-line-native-compression-criterion.json").read_text()
+        ),
+        "k677": json.loads(
+            (ROOT / "lab/process/k677-k500-complement-cofinal-norm-certificate.json").read_text()
+        ),
         "k673": json.loads(
             (ROOT / "lab/process/k673-k500-seed-line-leakage-custody.json").read_text()
         ),
@@ -282,6 +291,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K673" in live and "three" in live and "seed" in live and
               "K674" in live and "1/3-lambda_K609" in live and "1/100" in live,
               "live seed-line custody or compressed complement budget missing")
+        check("K675" in live and "L_seed" in live and
+              "K676" in live and "3-by-3 Gram" in live and
+              "K677" in live and "u_N+v_N<=1/100" in live,
+              "live seed operator, native comparison or complement compiler missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -291,6 +304,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K675--K677 turn K674's two abstract missing inputs" in summary,
+          "current K675--K677 result lost")
     check("K673--K674 resolve how K609 can honestly contribute" in summary,
           "current K673--K674 result lost")
     check("K671--K672 close the auxiliary-chart shortcut" in summary,
@@ -359,6 +374,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "charge-graded three-line seed leakage operator" in data["agenda"].get("latest_result_2026_09_30_k675_k677", "")
+        and "u_N+v_N" in data["agenda"].get("latest_result_2026_09_30_k675_k677", "")
+        and "K643 does not itself prove" in data["agenda"].get("latest_result_2026_09_30_k675_k677", ""),
+        "agenda K675--K677 result is not current",
+    )
     check(
         "hidden graph-orthogonal complement" in data["agenda"].get("latest_result_2026_09_30_k673_k674", "")
         and "1/3-lambda_K609" in data["agenda"].get("latest_result_2026_09_30_k673_k674", "")
@@ -848,6 +869,47 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k666_c["negative_determinant_rejected"] and
           not k666_n["native_complete_floor_emitted"],
           "K666 control or native-interface ceiling moved")
+
+    k675 = data["k675"]
+    k675_t = k675["seed_operator_theorem"]
+    k675_n = k675["native_interface_status"]
+    check(k675_t["input_charge_lines_orthogonal"] and
+          k675_t["output_charge_sectors_orthogonal"] and
+          k675_t["operator_norm_square_is_maximum_of_line_uppers"] and
+          not k675_t["sum_of_line_uppers_used"] and
+          not k675_t["complete_domain_extension_claimed"] and
+          not k675_t["native_R_compression_identity_claimed"] and
+          not k675_n["actual_seed_compression_identity_proved"] and
+          not k675_n["native_A_above_two_thirds_proved"],
+          "K675 seed leakage operator or native ceiling moved")
+
+    k676 = data["k676"]
+    k676_t = k676["three_line_criterion"]
+    k676_n = k676["native_interface_status"]
+    check(k676_t["exact_identity_route_sufficient"] and
+          k676_t["gram_domination_route_sufficient_for_norm_bound"] and
+          k676_t["charge_preserving_shortcut_requires_native_charge_intertwiner"] and
+          not k676_t["ungraded_linewise_sum_below_one_third"] and
+          not k676_t["K609_alone_supplies_native_R_actions"] and
+          not k676_n["native_charge_intertwiner_proved"] and
+          not k676_n["native_compression_identity_proved"] and
+          not k676_n["native_A_above_two_thirds_proved"],
+          "K676 three-line native criterion or ceiling moved")
+
+    k677 = data["k677"]
+    k677_g = k677["general_cofinal_theorem"]
+    k677_b = k677["bath_reducing_shortcut"]
+    k677_n = k677["native_interface_status"]
+    check(k677_g["two_column_conclusion"] == "||R Q_seed||^2<=u_N+v_N" and
+          not k677_g["output_range_orthogonality_required"] and
+          not k677_g["finite_rows_without_complete_tail_sufficient"] and
+          not k677_b["K643_exchange_bath_preservation_proves_R_reduction"] and
+          k677_b["native_reduction_must_be_proved_for_R"] and
+          not k677_b["individual_sector_bounds_without_reduction_sufficient"] and
+          not k677_n["native_R_bath_reduction_proved"] and
+          not k677_n["native_tau2_at_most_one_over_one_hundred_proved"] and
+          not k677_n["native_A_above_two_thirds_proved"],
+          "K677 complement cofinal certificate or native ceiling moved")
 
     k673 = data["k673"]
     k673_t = k673["coverage_theorem"]

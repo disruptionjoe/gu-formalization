@@ -1,0 +1,109 @@
+{
+  "bath_reducing_shortcut": {
+    "K643_exchange_bath_preservation_proves_R_reduction": false,
+    "complete_result": "||R Q_seed||^2<=tau2",
+    "conclusion": "||R Q_seed||^2=sup_n ||R Q_n||^2",
+    "extra_hypothesis": "Q_m R^*R Q_n=0 for m!=n on Q_seed H_G, equivalently the declared bath decomposition reduces R^*R",
+    "finite_rows": "prove ||R Q_n||^2<=tau2 for every n<=N",
+    "individual_sector_bounds_without_reduction_sufficient": false,
+    "native_reduction_must_be_proved_for_R": true,
+    "uniform_tail": "prove sup_(n>N)||R Q_n||^2<=tau2"
+  },
+  "claim_ceiling": "Exact cofinal certificate shape for K674's complete Q_seed complement norm. A finite/cofinal core bound plus a complete tail gives tau2<=u+v without output-range orthogonality; if native R^*R reduction by bath number is proved, sectorwise rows compose by a supremum. K643 does not itself prove that reduction for R, and no native core row or tail is supplied. No native tau2, A or B, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k677_k500_complement_cofinal_norm_certificate_probe.py",
+    "producer": "tests/channel-swings/k677_k500_complement_cofinal_norm_certificate.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "complete_complement_obligation_reduced_to_executable_rows_and_tail": true,
+    "finite_prefix_alone_rejected": true,
+    "next_exact_input": "Serialize Q_seed and R=T a^-1 on one cofinal graph decomposition. Either prove a finite-prefix operator bound plus a complete tail whose sum is at most 1/100, or prove the decomposition reduces R^*R and bound every finite sector and the uniform tail by 1/100."
+  },
+  "dependency_reconciliation": {
+    "K643_bath_decomposition_consumed_as_candidate_only": true,
+    "K643_monomial_invariance_promoted_to_R_invariance": false,
+    "K672_finite_complement_logic_retained": true,
+    "K674_tau2_budget_consumed": true,
+    "native_complement_rows_added": false,
+    "native_complete_tail_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "nonreducing_aligned_two_sector_counterexample": {
+      "complete_norm_square": "1/100",
+      "each_sector_norm_square": "1/200",
+      "sector_max_would_be_wrong": true
+    },
+    "reducing_direct_sum_norm_square": "1/256",
+    "reducing_direct_sum_rows": [
+      "1/256",
+      "1/400",
+      "1/900"
+    ],
+    "synthetic_general_composed_upper": "1/200",
+    "synthetic_general_core_upper": "1/400",
+    "synthetic_general_meets_one_over_one_hundred": true,
+    "synthetic_general_tail_upper": "1/400"
+  },
+  "exact_native_target": {
+    "K674_exact_budget": "52041158057017460082449928346592403641535293332461600354606582016146953509886727163565773799657587059821645297630121887573526806623504186566062742615637868660491070066950929781906564783243068977965076560411819453179538102050369928795687814560919/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+    "K674_simple_sufficient_target": "1/100",
+    "required_native_objects": [
+      "the complete graph projection Q_seed",
+      "one cofinal projection family E_N or an exact R-reducing bath decomposition",
+      "all finite/core operator-norm rows used",
+      "one complete unsampled tail bound"
+    ],
+    "strict_budget_positive": true,
+    "target_is_conditional_not_native": true
+  },
+  "general_cofinal_theorem": {
+    "complete_tail_input": "||R(Q_seed-E_N)||^2<=v_N",
+    "finite_core_input": "||R E_N||^2<=u_N",
+    "finite_rows_without_complete_tail_sufficient": false,
+    "hypotheses": "E_N are graph-orthogonal finite/cofinal projections with E_N strongly increasing to Q_seed",
+    "output_range_orthogonality_required": false,
+    "sampled_tail_sufficient": false,
+    "simple_target_test": "u_N+v_N<=1/100",
+    "strict_target_test": "u_N+v_N<1/3-lambda_K609",
+    "two_column_conclusion": "||R Q_seed||^2<=u_N+v_N"
+  },
+  "gu_typed_objects": {
+    "bath_route": "orthogonal bath-sector projections Q_n only after native R^*R reduction is proved",
+    "cofinal_projections": "E_N increasing strongly to Q_seed on the declared graph Hilbert space",
+    "complement": "Q_seed H_G",
+    "operator": "R=T a^-1 on K647's complete graph carrier",
+    "result": "complete complement norm certificate MAP-TYPE=cofinal projection compiler",
+    "target": "K674's tau2 complement input"
+  },
+  "ledger_no_change_reason": "This is a conditional complete-domain operator certificate inside a repository-supplied point-Fock model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "cofinal_certificate_shape_closed": true,
+    "native_A_above_two_thirds_proved": false,
+    "native_Q_seed_projection_serialized": false,
+    "native_R_bath_reduction_proved": false,
+    "native_complete_tail_bound_proved": false,
+    "native_finite_core_bound_proved": false,
+    "native_tau2_at_most_one_over_one_hundred_proved": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Two orthogonal input sectors mapped to the same output direction can double the squared norm relative to either sector row; sectorwise bounds need reduction or a complete prefix estimate.",
+    "strongest_overclaim": "Using K643's monomial bath preservation as if it proved reduction for the still-unidentified factor R=T a^-1.",
+    "weakest_reproducibility_seam": "The cofinal projections, graph pairing, R domain, cross-sector reduction and unsampled tail must all be serialized on the same complete carrier."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K643 proves bath preservation for each K179 monomial and K652 treats B-form parity tails; neither proves that R=T a^-1 reduces bath sectors or compiles K674's Q_seed norm.",
+    "route_comparison": "K674 names a complete complement norm but not a reproducible proof shape. Cofinal graph projections turn it into finite/core rows plus one explicit tail, while an actual reducing bath decomposition yields the sharper supremum rule.",
+    "strongest_alternative": "A direct K672 finite/tail/cross A-form proof remains valid if native form rows appear before R is serialized."
+  },
+  "result_id": "K677-K500-COMPLEMENT-COFINAL-NORM-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "A complete cofinal certificate for K674's Q_seed complement norm, with a general finite-prefix/tail route and a sharper bath-reducing direct-sum route.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
