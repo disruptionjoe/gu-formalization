@@ -1,0 +1,86 @@
+{
+  "claim_ceiling": "Exact conditional outward complete-floor theorem. K702's synthetic A>=5113/7050, nominal B>=7/10 with downward error 1/200, and beta^2<=2/513 with upward error 1/10000 retain shifted determinant 1455697/482220000 and certify the complete floor >=105532769/164194200>5/8. No native A, B, beta, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k703_k500_interval_complete_cancellation_floor_compiler_probe.py",
+    "producer": "tests/channel-swings/k703_k500_interval_complete_cancellation_floor_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_complete_floor_proved": false,
+    "next_exact_input": "On one native complete graph domain, combine an outward A lower, both-parity cofinal B lower and outward matched-trace-square upper. Their shifted determinant at mu=5/8 must remain positive after every error.",
+    "outward_complete_packet_can_supply_floor_above_five_eighths": true
+  },
+  "dependency_reconciliation": {
+    "K663_exact_eigenvalue_route_preserved": true,
+    "K668_matched_trace_target_consumed": true,
+    "K702_robust_A_consumed": true,
+    "native_interval_data_added": false,
+    "outward_complete_floor_composition_added": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "A_lower_from_K702": "5113/7050",
+    "A_shifted_gap": "2827/28200",
+    "B_outward_error": "1/200",
+    "B_shifted_gap": "7/100",
+    "accepted": true,
+    "beta_square_outward_error": "1/10000",
+    "certified_floor_lift": "1455697/82097100",
+    "complete_floor_lower": "105532769/164194200",
+    "controls_are_synthetic": true,
+    "effective_B_lower": "139/200",
+    "effective_beta_square_upper": "20513/5130000",
+    "matched_trace_square_upper": "2/513",
+    "nominal_B_lower": "7/10",
+    "nominal_only_counterexample": "A downward diagonal error or upward cross-square error can consume a narrow shifted determinant while every nominal input remains favorable.",
+    "shifted_determinant_slack": "1455697/482220000",
+    "shifted_trace": "4801/28200",
+    "target_mu": "5/8"
+  },
+  "gu_typed_objects": {
+    "cross": "K667 matched-trace coupling square",
+    "diagonal_A": "complete lower for I-R*R",
+    "diagonal_B": "complete parity-cofinal boundary lower",
+    "result": "interval complete cancellation-floor compiler MAP-TYPE=shifted two-block determinant order",
+    "target": "K642/K668 complete cancellation graph above mu=5/8"
+  },
+  "ledger_no_change_reason": "This is a conditional complete operator-order composition and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_A_enclosure_proved": false,
+    "actual_native_B_enclosure_proved": false,
+    "actual_native_beta_square_enclosure_proved": false,
+    "actual_native_common_domain_proved": false,
+    "native_complete_floor_emitted": false,
+    "native_floor_above_five_eighths_proved": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The same nominal matrix can cross mu when the diagonal intervals move down and the cross interval moves up coherently.",
+    "strongest_overclaim": "Calling nominal diagonal and cross estimates a complete floor without testing the shifted determinant after all errors.",
+    "weakest_reproducibility_seam": "A, B and beta must act on the same complete graph-domain two-block form."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K664 carries one-sided cofinal A/B bounds but no outward beta-square error and no K702 interval-A composition into a positive target floor.",
+    "route_comparison": "K668 gives a sharp exact target but its synthetic margin is fragile. K703 composes K702's robust A route with error-bearing B and beta inputs at the actual cancellation consumer.",
+    "strongest_alternative": "Prove exact native A, B and beta and use K663's sharp eigenvalue directly."
+  },
+  "result_id": "K703-K500-INTERVAL-COMPLETE-CANCELLATION-FLOOR-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete outward-interval composition from robust A and B lowers plus a matched-trace-square upper to a cancellation floor above 5/8.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "A_and_B_errors_paid_downward_required": true,
+    "beta_norm_and_beta_square_interchangeable": false,
+    "beta_square_error_paid_upward_required": true,
+    "finite_parity_prefix_sufficient": false,
+    "nominal_values_without_errors_sufficient": false,
+    "quantitative_floor_rule": "floor>=mu+[((A-mu)(B-mu)-beta^2)/((A-mu)+(B-mu))]",
+    "same_complete_graph_domain_required": true,
+    "separate_domains_substitutable": false,
+    "shifted_determinant_test": "(A-mu)(B-mu)>beta^2"
+  }
+}

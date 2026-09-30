@@ -7,6 +7,22 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K702--K704 ROBUST COMPLETE-MARGIN COMPOSITION.** K702 pays
+> outward errors on all three K700 block inputs before applying the Schur test;
+> the synthetic effective `13/50,3/200,1/50` packet gives
+> `A>=5113/7050`. K703 composes that A lower with effective
+> `B>=139/200` and `beta^2<=20513/5130000` on one complete domain, retaining
+> floor `105532769/164194200>5/8`. K704 transports K701's boundary margin
+> through an authenticated K662 coordinate map with `||U||<=6/5` and outward
+> residual `1/1000`, retaining `1993/1020000`. Next instantiate one native
+> packet: the complete seed/complement/cross enclosures plus parity-cofinal B
+> rows and tails, or one authenticated triple, K701 enclosure, coordinate map
+> and complete residual. See
+> `lab/process/k702-k500-interval-cross-coupled-a-margin-compiler.json`,
+> `lab/process/k703-k500-interval-complete-cancellation-floor-compiler.json`,
+> and
+> `lab/process/k704-k500-coordinate-transported-boundary-margin-compiler.json`.
+
 > **2026-09-30 K699--K701 ROBUST NATIVE-INSTANTIATION MARGINS.** K699 replaces
 > K696's exact form identity for quantitative `A` control by a complete
 > `a`-relative mismatch: `B*B<=bI` and

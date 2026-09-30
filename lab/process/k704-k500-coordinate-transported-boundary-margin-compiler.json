@@ -1,0 +1,80 @@
+{
+  "claim_ceiling": "Exact conditional coordinate-transport theorem. K701's synthetic margin 9039/2125000, an authenticated reference-preserving map with ||U||<=6/5, and outward complete residual 1/1000 retain target margin 1993/1020000. No native triple, coordinate map, norm, residual, denominator, r0, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k704_k500_coordinate_transported_boundary_margin_compiler_probe.py",
+    "producer": "tests/channel-swings/k704_k500_coordinate_transported_boundary_margin_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "authenticated_bounded_coordinate_change_can_preserve_positive_margin": true,
+    "native_transported_denominator_proved": false,
+    "next_exact_input": "After proving K701 in one native coordinate, authenticate the reference-preserving U,C map to the working coordinate, bound ||U|| on the complete boundary space, and prove the outward residual is smaller than the congruence-reduced margin."
+  },
+  "dependency_reconciliation": {
+    "K662_reference_preserving_group_consumed": true,
+    "K701_same_coordinate_margin_consumed": true,
+    "K701_same_coordinate_requirement_preserved_at_source": true,
+    "bounded_coordinate_robustness_added": true,
+    "native_coordinate_data_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "K701_source_margin": "9039/2125000",
+    "accepted": true,
+    "condition_square_upper": "36/25",
+    "controls_are_synthetic": true,
+    "coordinate_operator_norm_upper": "6/5",
+    "exact_congruence_margin": "3013/1020000",
+    "one_sided_transport_counterexample": "Moving W but not M changes D rather than representing the same extension, so positivity can be manufactured or destroyed by coordinates.",
+    "outward_coordinate_residual": "1/1000",
+    "transported_target_margin": "1993/1020000"
+  },
+  "gu_typed_objects": {
+    "coordinate_map": "Gamma_0'=U Gamma_0 and Gamma_1'=U^{-*}(Gamma_1+C Gamma_0)",
+    "result": "coordinate-transported boundary-margin compiler MAP-TYPE=congruence order with residual",
+    "source_denominator": "K701 complete D_W(lambda_t) in one authenticated boundary coordinate",
+    "target": "K657/K680 coordinate-invariant target denominator positivity",
+    "transported_denominator": "D'=U^{-*} D U^-1",
+    "uncertainty": "outward complete-space operator-order residual after transport"
+  },
+  "ledger_no_change_reason": "This is a conditional complete boundary-coordinate theorem and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_boundary_triple_authenticated": false,
+    "actual_native_complete_residual_proved": false,
+    "actual_native_coordinate_map_authenticated": false,
+    "actual_native_coordinate_norm_bound_proved": false,
+    "actual_native_target_denominator_nonnegative": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Unbounded or badly conditioned U can drive the congruence floor to zero while preserving abstract positivity.",
+    "strongest_overclaim": "Treating the raw lower bound as invariant under a nonunitary coordinate change or transporting only one side of W-M.",
+    "weakest_reproducibility_seam": "The same authenticated U,C map must transport the reference, Weyl function, extension parameter and complete residual norm."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K662 proves qualitative congruence covariance but does not consume K701's numerical target margin or pay an outward post-transport error.",
+    "route_comparison": "K701 forbids mixed coordinates. K704 supplies the exact authenticated exception by composing K662's reference-preserving group with an explicit condition-number and residual budget.",
+    "strongest_alternative": "Recompute and certify the complete denominator directly in the final native coordinate."
+  },
+  "result_id": "K704-K500-COORDINATE-TRANSPORTED-BOUNDARY-MARGIN-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete boundary-denominator margin transfer through an authenticated reference-preserving coordinate change and outward residual error.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "bounded_invertible_U_required": true,
+    "complete_residual_error_required": true,
+    "coordinate_name_without_map_sufficient": false,
+    "finite_boundary_block_error_sufficient": false,
+    "joint_W_and_M_transport_required": true,
+    "perturbed_rule": "D_tilde>=m/K^2-e_coord",
+    "raw_floor_invariant_under_nonunitary_U": false,
+    "reference_preserving_coordinate_authentication_required": true,
+    "transport_rule": "D>=mI and ||U||<=K imply U^{-*}DU^-1 >= (m/K^2)I",
+    "transporting_W_without_M_sufficient": false
+  }
+}

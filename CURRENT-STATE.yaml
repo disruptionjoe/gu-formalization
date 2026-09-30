@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K702--K704 compose the post-K701 robustness results into the actual
+    complete-margin consumers. K702 pays separate outward errors on the
+    seed, complement and cross estimates before applying K700's Schur test;
+    its synthetic effective packet `s=13/50`, `t=3/200`, `k=1/50` has
+    determinant slack `413/18000` and gives `A>=5113/7050`. K703 combines
+    that robust A lower with an outward B lower and matched-trace-square upper
+    on one complete graph domain. Its synthetic packet retains shifted
+    determinant `1455697/482220000` and complete floor
+    `105532769/164194200>5/8`. K704 composes K701 with K662's authenticated
+    reference-preserving boundary-coordinate group: a synthetic
+    `||U||<=6/5` and outward residual `1/1000` retain target denominator
+    margin `1993/1020000`. No native remainder transform, enclosure, B row or
+    tail, boundary triple, coordinate map, denominator, `A`, `B`, floor,
+    K473/K152 release, source, ledger, canon, paper, public or physical
+    conclusion moves.
+
     K699--K701 replace three brittle exact-input seams in K696--K698 with
     complete quantitative robustness certificates. K699 proves that a uniform
     `a`-relative form mismatch `epsilon` between the column square and native
@@ -12659,7 +12675,14 @@ next_condition: >-
   seed square, complement square and cross norm with the strict Schur
   determinant inequality. K701 permits outward boundary uncertainty only on
   the complete space for the same boundary triple, interval, coordinate and
-  fixed `W`; its synthetic controls are not native evidence. K634's equivalent-norm and
+  fixed `W`; its synthetic controls are not native evidence. K702 further
+  requires every seed/complement/cross error to be outward and complete-space
+  before the strict determinant is tested. K703 requires outward A and B
+  lowers plus an outward beta-square upper on one complete graph domain before
+  any floor above `5/8` is credited. K704 permits a coordinate transfer only
+  through an authenticated reference-preserving `U,C` map, a complete
+  `||U||` bound and an outward residual smaller than the congruence-reduced
+  margin. Their synthetic packets are not native evidence. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely
   non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.
   K639 quotients the actual K179 family to six algebraically independent

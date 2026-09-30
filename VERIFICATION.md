@@ -7,6 +7,34 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K702--K704 robust complete-margin composition (2026-09-30)
+
+K702 carries outward interval uncertainty through K700's nonreducing block
+test. Nominal seed, complement and cross uppers are increased by their separate
+complete-space errors before the Schur determinant is formed. The synthetic
+effective bounds `s=13/50`, `t=3/200`, `k=1/50` have determinant slack
+`413/18000`; the determinant/trace lower gives `A>=5113/7050`.
+
+K703 composes that robust A lower into the K663/K668 cancellation consumer.
+The B error is paid downward and the matched-trace-square error upward before
+the shifted determinant at `mu=5/8` is tested. The synthetic effective packet
+`A>=5113/7050`, `B>=139/200`, `beta^2<=20513/5130000` retains determinant
+`1455697/482220000` and complete floor
+`105532769/164194200>5/8`.
+
+K704 composes K701's same-coordinate margin with K662's authenticated
+reference-preserving coordinate group. From `D>=mI` and `||U||<=K`, the
+congruence satisfies `U^{-*}DU^-1>=(m/K^2)I`; an outward complete residual is
+then subtracted. The synthetic `K=6/5`, residual `1/1000` packet retains target
+margin `1993/1020000`.
+
+The probes pass 40/42/40 controls and reject 34/34, 36/36 and 34/34 hostile
+mutations. These are conditional internal structural certificates. No native
+remainder transform, interval enclosure, parity-cofinal B packet, boundary
+triple, coordinate map, denominator, `A`, `B`, floor, K473/K152 release,
+source, ledger, canon, paper, public, novelty, prediction, confirmation or
+physical conclusion follows.
+
 ## K699--K701 robust native-instantiation compilers (2026-09-30)
 
 K699 proves an operator-order stability theorem for K696. If the bounded
