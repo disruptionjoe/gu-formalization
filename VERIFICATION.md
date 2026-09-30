@@ -7,6 +7,25 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K653--K654 shifted-Schur target and all-order parity-tail certificate (2026-09-29)
+
+K653 proves a sharp target-relative lower theorem for one complete K650
+cancelled quadrant. After shifting both diagonal forms by a proposed floor
+`b`, their nonnegativity and a same-domain cross bound with `theta<=1` imply
+the full block form is at least `b`. For scalar blocks the criterion is exactly
+`a>=b`, `d>=b`, `|c|^2<=(a-b)(d-b)`. Strict, endpoint, excessive-cross and
+negative-shifted-diagonal rational controls distinguish all four cases. The
+probe passes 20 exact controls and rejects 15 hostile mutations.
+
+K654 composes K653 uniformly over every later sector of both total-parity
+signs. If one target `b` passes the shifted test everywhere beyond a cutoff and
+all finite sectors also have floor at least `b`, then both tails and the global
+boundary lower are at least `b`. Four exact rows per sign plus finite sectors
+pass at synthetic `b=5/4`; this is not native data. The probe passes 22 exact
+controls and rejects 18 hostile mutations. Native shifted positivity and
+contraction estimates, a target, both tails, `m`, `alpha` and `delta` remain
+open, so no K473 release or K152 interval follows.
+
 ## K651--K652 parity-tail identifiability and all-order certificate (2026-09-29)
 
 K651 tests the exact logical gap between K179's finite coefficient custody and

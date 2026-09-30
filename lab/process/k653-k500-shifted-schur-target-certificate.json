@@ -1,0 +1,122 @@
+{
+  "claim_ceiling": "Exact same-domain shifted-Schur target theorem for one K650 complete cancelled quadrant. It gives a sharp scalar criterion and a cancellation-preserving form certificate at a prescribed b without requiring separately singular rows or prior absolute A,D,K serialization. No native target b, shifted positivity, shifted contraction, parity tail, m, alpha or delta is supplied. No K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K652_absolute_envelope_route_remains_valid": true,
+    "direct_target_route_closed_abstractly": true,
+    "native_target_floor_emitted": false,
+    "next_exact_input": "Choose a native target b and prove the two shifted diagonal forms are nonnegative plus the shifted cross contraction on K647's common domain for every sector of both parity signs; then combine with the finite prefix and separately prove alpha,delta."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "endpoint_pass": {
+      "a": "4",
+      "abs_c": "2",
+      "cross_square": "4",
+      "d": "7",
+      "gap_product": "4",
+      "left_gap": "1",
+      "right_gap": "4",
+      "target_b": "3",
+      "target_floor_certified": true,
+      "theta_square": "1"
+    },
+    "excessive_cross_fail": {
+      "a": "4",
+      "abs_c": "5/2",
+      "cross_square": "25/4",
+      "d": "7",
+      "gap_product": "4",
+      "left_gap": "1",
+      "right_gap": "4",
+      "target_b": "3",
+      "target_floor_certified": false,
+      "theta_square": "25/16"
+    },
+    "expected_pattern": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "negative_shifted_diagonal_fail": {
+      "a": "2",
+      "abs_c": "1",
+      "cross_square": "1",
+      "d": "5",
+      "gap_product": "-2",
+      "left_gap": "-1",
+      "right_gap": "2",
+      "target_b": "3",
+      "target_floor_certified": false,
+      "theta_square": null
+    },
+    "observed_pattern": [
+      true,
+      true,
+      false,
+      false
+    ],
+    "strict_pass": {
+      "a": "5",
+      "abs_c": "3",
+      "cross_square": "9",
+      "d": "9",
+      "gap_product": "12",
+      "left_gap": "2",
+      "right_gap": "6",
+      "target_b": "3",
+      "target_floor_certified": true,
+      "theta_square": "3/4"
+    },
+    "synthetic_not_native": true
+  },
+  "gu_typed_objects": {
+    "carrier": "one K643 bath sector and one K648 total-parity sign",
+    "domain": "one common K647 graph form domain J for both diagonal forms and the cross form",
+    "form": "K650's complete cancellation-preserving two-quadrant form q",
+    "result": "shifted Schur target certificate MAP-TYPE=exact form inequality",
+    "target": "a prescribed sector floor b without separately serializing absolute A,D,K envelopes"
+  },
+  "ledger_no_change_reason": "This is an abstract exact theorem for a conditional internal operator form; its scalar controls are synthetic and supply no action-owned quotient, state, observable or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "K647_common_domain_consumed": true,
+    "K650_cancelled_quadrant_interface_consumed": true,
+    "actual_native_shifted_cross_contraction_proved": false,
+    "actual_native_shifted_diagonal_positivity_proved": false,
+    "actual_native_target_b_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false,
+    "shifted_target_certificate_shape_complete": true
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A negative shifted diagonal or cross square larger than the gap product defeats the target even when the unshifted block is positive.",
+    "strongest_overclaim": "Treating the synthetic target three as a native GU lower bound or assuming the shifted hypotheses from unshifted positivity.",
+    "weakest_reproducibility_seam": "Native shifted form estimates are not serialized; the theorem closes only the exact proof shape."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "No existing artifact states the sharp target-relative same-domain criterion on K650's complete quadrants.",
+    "route_comparison": "K652's A,D,K route is sufficient but may serialize more absolute information than a concrete target test needs; shifting first preserves cancellation and asks only for positivity relative to b.",
+    "strongest_alternative": "A direct spectral theorem for the fixed operator would be stronger, but a target-relative form argument is the shortest exact certificate when its native hypotheses can be proved."
+  },
+  "result_id": "K653-K500-SHIFTED-SCHUR-TARGET-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "An exact same-domain lower-target certificate for either K650 complete cancelled quadrant, stated after shifting by a proposed floor b.",
+  "shifted_schur_theorem": {
+    "absolute_A_D_K_serialization_required": false,
+    "conclusion": "q[x,y]>=b(||x||^2+||y||^2)",
+    "cross_hypothesis": "|c[x,y]|<=theta*sqrt((a[x]-b||x||^2)(d[y]-b||y||^2)) with 0<=theta<=1",
+    "proof_identity": "q-b||x,y||^2>=p_b+d_b-2*theta*sqrt(p_b*d_b)>=(1-theta)(p_b+d_b)>=0",
+    "same_domain_required": true,
+    "scalar_sharp_iff": "a>=b, d>=b, and |c|^2<=(a-b)(d-b)",
+    "separately_singular_raw_rows_required": false,
+    "shifted_diagonal_hypotheses": "a[x]-b||x||^2>=0 and d[y]-b||y||^2>=0 on one common form domain",
+    "theta_endpoint_allowed": true
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

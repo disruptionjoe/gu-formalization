@@ -1,0 +1,194 @@
+{
+  "all_order_shifted_tail_theorem": {
+    "absolute_A_D_K_envelopes_required": false,
+    "all_order_shifted_hypotheses_required": true,
+    "equivalent_native_burden_is_not_removed": true,
+    "finite_prefix_alone_sufficient": false,
+    "finite_prefix_composition": "m>=b",
+    "hypotheses": [
+      "for one b and cutoff N, every n>N and sign s has both shifted diagonal forms nonnegative on one common domain",
+      "the shifted cross form is contractive with theta_s,n<=1 in every such sector",
+      "every finite sector n<=N in both parity signs has a certified floor at least b"
+    ],
+    "sector_conclusion": "ell_s,n>=b for every n>N and s in {+,-}",
+    "single_target_may_be_tested_directly": true,
+    "tail_conclusion": "t_plus>=b and t_minus>=b"
+  },
+  "claim_ceiling": "Exact all-order composition theorem for K653 on K650's two total-parity signs. Uniform same-domain shifted positivity and cross contraction at one prescribed b give both parity tails and, with finite-sector floors, m>=b. The synthetic b=5/4 controls are not native, and the theorem does not remove the all-order native proof burden exposed by K651. No native b, tail, m, alpha or delta is supplied. No K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K651_prefix_obstruction_consumed": true,
+    "K653_target_certificate_consumed": true,
+    "direct_all_order_target_route_closed_abstractly": true,
+    "native_uniform_floor_emitted": false,
+    "next_exact_input": "On the actual K650 forms, choose one target b and prove the K653 shifted diagonal positivity and shifted cross contraction for all sectors of both parity signs, plus finite-sector floors at b; or exhibit the first failing target row. Then prove alpha,delta independently."
+  },
+  "dependency_reconciliation": {
+    "K612_custody_obstruction_retracted": false,
+    "K651_finite_prefix_obstruction_preserved": true,
+    "K652_absolute_envelope_route_retracted": false,
+    "K653_shifted_target_route_consumed": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_tail_rows_pass": true,
+    "finite_sector_floors": [
+      "3/2",
+      "7/4"
+    ],
+    "finite_sectors_at_least_target": true,
+    "minus": {
+      "rows": [
+        {
+          "a": "7/4",
+          "abs_c": "3/4",
+          "cross_square": "9/16",
+          "d": "59/20",
+          "gap_product": "17/20",
+          "left_gap": "1/2",
+          "n": 4,
+          "right_gap": "17/10",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "45/68"
+        },
+        {
+          "a": "7/4",
+          "abs_c": "3/4",
+          "cross_square": "9/16",
+          "d": "103/36",
+          "gap_product": "29/36",
+          "left_gap": "1/2",
+          "n": 8,
+          "right_gap": "29/18",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "81/116"
+        },
+        {
+          "a": "7/4",
+          "abs_c": "3/4",
+          "cross_square": "9/16",
+          "d": "367/132",
+          "gap_product": "101/132",
+          "left_gap": "1/2",
+          "n": 32,
+          "right_gap": "101/66",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "297/404"
+        },
+        {
+          "a": "7/4",
+          "abs_c": "3/4",
+          "cross_square": "9/16",
+          "d": "1423/516",
+          "gap_product": "389/516",
+          "left_gap": "1/2",
+          "n": 128,
+          "right_gap": "389/258",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "1161/1556"
+        }
+      ],
+      "sign": "-",
+      "target_b": "5/4"
+    },
+    "plus": {
+      "rows": [
+        {
+          "a": "49/20",
+          "abs_c": "1/2",
+          "cross_square": "1/4",
+          "d": "13/4",
+          "gap_product": "12/5",
+          "left_gap": "6/5",
+          "n": 4,
+          "right_gap": "2",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "5/48"
+        },
+        {
+          "a": "85/36",
+          "abs_c": "1/2",
+          "cross_square": "1/4",
+          "d": "13/4",
+          "gap_product": "20/9",
+          "left_gap": "10/9",
+          "n": 8,
+          "right_gap": "2",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "9/80"
+        },
+        {
+          "a": "301/132",
+          "abs_c": "1/2",
+          "cross_square": "1/4",
+          "d": "13/4",
+          "gap_product": "68/33",
+          "left_gap": "34/33",
+          "n": 32,
+          "right_gap": "2",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "33/272"
+        },
+        {
+          "a": "1165/516",
+          "abs_c": "1/2",
+          "cross_square": "1/4",
+          "d": "13/4",
+          "gap_product": "260/129",
+          "left_gap": "130/129",
+          "n": 128,
+          "right_gap": "2",
+          "target_b": "5/4",
+          "target_floor_certified": true,
+          "theta_square": "129/1040"
+        }
+      ],
+      "sign": "+",
+      "target_b": "5/4"
+    },
+    "synthetic_not_native": true,
+    "target_b": "5/4"
+  },
+  "gu_typed_objects": {
+    "carrier": "all K643 bath sectors beyond one cutoff, separately in each K648 total-parity sign",
+    "domain": "the K647 common graph form domain sector by sector",
+    "form": "K650's complete cancellation-preserving quadrant form in every sector",
+    "result": "all-order shifted-Schur tail certificate MAP-TYPE=uniform target composition",
+    "target": "one proposed uniform floor b shared by both parity tails"
+  },
+  "ledger_no_change_reason": "This all-order composition theorem and its synthetic controls remain inside a conditional internal operator model and provide no action-owned physical state, observable or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_all_order_shifted_hypotheses_proved": false,
+    "actual_native_target_b_identified": false,
+    "actual_uniform_parity_tails_identified": false,
+    "all_order_shifted_tail_shape_complete": true,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "One later sector with a negative shifted diagonal or supercontractive cross invalidates the uniform tail while preserving every finite prefix.",
+    "strongest_overclaim": "Reporting synthetic b=5/4 as native m or claiming that the target-relative route avoids all-order native estimates.",
+    "weakest_reproducibility_seam": "The theorem is exact, but the actual all-order shifted forms and a native target remain unserialized."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K652 gives an absolute-envelope route, but no artifact composes a prescribed shifted target without first serializing A_s,D_s,K_s.",
+    "route_comparison": "K651 forbids finite-prefix extrapolation; K653 permits a direct target test. Uniformly applying that test in both parity signs is the shortest target-specific tail certificate.",
+    "strongest_alternative": "K652 remains the more informative route if reusable absolute envelopes can be proved; K654 is narrower and potentially cheaper for one target b."
+  },
+  "result_id": "K654-K500-ALL-ORDER-SHIFTED-SCHUR-TAIL",
+  "schema_version": "1.0",
+  "scope": "Composition of K653 target-relative sector certificates into K650 independent total-parity tails and a finite-prefix global lower bound.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

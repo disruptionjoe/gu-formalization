@@ -7,6 +7,21 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K653--K654 SHIFTED-SCHUR TARGET AND ALL-ORDER PARITY-TAIL
+> CERTIFICATE.** K653 gives the exact cancellation-preserving test for one
+> proposed floor `b`: on K647's common domain, both diagonal forms shifted by
+> `b` must be nonnegative and the cross form must be contractive in their
+> geometric mean with `theta<=1`. The scalar condition
+> `a>=b`, `d>=b`, `|c|^2<=(a-b)(d-b)` is sharp. K654 applies that test in every
+> later sector of both parity signs and composes it with finite-sector floors,
+> yielding `t_plus,t_minus>=b` and `m>=b` conditionally. This is a direct-target
+> alternative to K652's absolute-envelope route, not an escape from K651's
+> all-order obligation. Next choose a native target `b`, prove the shifted
+> hypotheses on the actual K650 forms for both signs or exhibit the first
+> failing row, then certify `alpha,delta`. The `b=5/4` controls are synthetic;
+> no native floor, K473 beta, K152 interval, source, ledger or physical
+> conclusion moves.
+
 > **2026-09-29 K651--K652 PARITY-TAIL PREFIX NONIDENTIFIABILITY AND ALL-ORDER
 > CERTIFICATE.** K651 proves that K179's complete serialized orders two
 > through twelve do not determine K650's independent uniform parity tails.

@@ -34,6 +34,8 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k653": json.loads((ROOT / "lab/process/k653-k500-shifted-schur-target-certificate.json").read_text()),
+        "k654": json.loads((ROOT / "lab/process/k654-k500-all-order-shifted-schur-tail.json").read_text()),
         "k651": json.loads((ROOT / "lab/process/k651-k500-parity-tail-prefix-nonidentifiability.json").read_text()),
         "k652": json.loads((ROOT / "lab/process/k652-k500-all-order-parity-tail-certificate.json").read_text()),
         "k649": json.loads((ROOT / "lab/process/k649-k500-parity-cancellation-matching.json").read_text()),
@@ -169,6 +171,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K652" in live and "A_s(n),D_s(n)" in live and "K_s(n)" in live and
               "min(A_s(n)-K_s(n),D_s(n)-K_s(n))" in live,
               "live all-order parity-tail certificate missing")
+        check("K653" in live and "target-relative" in live and
+              "|c|^2<=(a-b)(d-b)" in live and "theta<=1" in live,
+              "live shifted-Schur target certificate missing")
+        check("K654" in live and "both parity signs" in live and
+              "Synthetic" in live and "not a native floor" in live,
+              "live all-order shifted-Schur composition missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -178,6 +186,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K653--K654 add a target-relative all-order route" in summary,
+          "current K653--K654 result lost")
     check("K651--K652 close the finite-prefix tail-identifiability question" in summary,
           "current K651--K652 result lost")
     check("K649--K650 remain the direct predecessors" in summary,
@@ -243,6 +253,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "shifted-Schur target certificate"
+        in data["agenda"].get("latest_result_2026_09_29_k653_k654", ""),
+        "agenda K653--K654 result is not current",
+    )
     check(
         "orders two through twelve do not determine"
         in data["agenda"].get("latest_result_2026_09_29_k651_k652", ""),
@@ -444,6 +459,47 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k652_n["native_global_m_identified"] and
           not k652_n["K473_released"],
           "K652 native interface ceiling moved")
+
+    k653 = data["k653"]
+    k653_t = k653["shifted_schur_theorem"]
+    k653_c = k653["exact_controls"]
+    k653_n = k653["native_interface_status"]
+    check(k653_t["theta_endpoint_allowed"] and
+          k653_t["same_domain_required"] and
+          not k653_t["separately_singular_raw_rows_required"] and
+          not k653_t["absolute_A_D_K_serialization_required"] and
+          "|c|^2<=(a-b)(d-b)" in k653_t["scalar_sharp_iff"],
+          "K653 shifted-Schur theorem moved")
+    check(k653_c["synthetic_not_native"] and
+          k653_c["observed_pattern"] == [True, True, False, False] and
+          k653_n["shifted_target_certificate_shape_complete"] and
+          not k653_n["actual_native_target_b_identified"] and
+          not k653_n["actual_native_shifted_diagonal_positivity_proved"] and
+          not k653_n["actual_native_shifted_cross_contraction_proved"] and
+          not k653_n["native_global_m_identified"] and
+          not k653_n["K473_released"],
+          "K653 native interface ceiling moved")
+
+    k654 = data["k654"]
+    k654_t = k654["all_order_shifted_tail_theorem"]
+    k654_c = k654["exact_controls"]
+    k654_n = k654["native_interface_status"]
+    check(k654_t["single_target_may_be_tested_directly"] and
+          not k654_t["absolute_A_D_K_envelopes_required"] and
+          k654_t["all_order_shifted_hypotheses_required"] and
+          not k654_t["finite_prefix_alone_sufficient"] and
+          k654_t["equivalent_native_burden_is_not_removed"],
+          "K654 all-order shifted tail theorem moved")
+    check(k654_c["synthetic_not_native"] and
+          k654_c["target_b"] == "5/4" and
+          k654_c["all_tail_rows_pass"] and
+          k654_c["finite_sectors_at_least_target"] and
+          k654_n["all_order_shifted_tail_shape_complete"] and
+          not k654_n["actual_native_target_b_identified"] and
+          not k654_n["actual_uniform_parity_tails_identified"] and
+          not k654_n["native_global_m_identified"] and
+          not k654_n["K473_released"],
+          "K654 native interface ceiling moved")
 
     k647 = data["k647"]
     k647_t = k647["intertwiner_theorem"]
@@ -1207,6 +1263,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k652-row", lambda d: d["k652"]["all_order_tail_theorem"].__setitem__("sector_row_floor", "g>=min(A,D)"))
     add("k652-prefix", lambda d: d["k652"]["all_order_tail_theorem"].__setitem__("finite_prefix_alone_sufficient", True))
     add("k652-native", lambda d: d["k652"]["native_interface_status"].__setitem__("actual_uniform_parity_tails_identified", True))
+    add("k653-domain", lambda d: d["k653"]["shifted_schur_theorem"].__setitem__("same_domain_required", False))
+    add("k653-target", lambda d: d["k653"]["native_interface_status"].__setitem__("actual_native_target_b_identified", True))
+    add("k654-prefix", lambda d: d["k654"]["all_order_shifted_tail_theorem"].__setitem__("finite_prefix_alone_sufficient", True))
+    add("k654-native", lambda d: d["k654"]["native_interface_status"].__setitem__("actual_uniform_parity_tails_identified", True))
 
     add("k645-term-count", lambda d: d["k645"]["complete_family_replay"].__setitem__("terms", 2957))
     add("k645-orbits", lambda d: d["k645"]["complete_family_replay"].__setitem__("two_element_orbits", 1478))
