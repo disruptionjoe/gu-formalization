@@ -7,6 +7,19 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K655--K656 SHIFTED-TARGET CUSTODY OBSTRUCTION AND BASE-FLOOR
+> LIFT.** K655 proves that no finite target `b` can be selected from the
+> currently serialized K612/K168 interface alone. For every proposed `b`, the
+> allowed same-interface control `L=|b|+3` has complete negative-direction
+> value `-L-2<b`, so K653's first shifted diagonal fails. This is a
+> data-sufficiency obstruction, not an actual native sector or a denial of the
+> fixed operator's qualitative semibound. K656 gives the sharp repair: prove
+> one complete same-domain base lower `R0>=r0 M`; K168's exact order then gives
+> `R_ref>=(r0-2)M`, so `b=r0-2` holds on every bath/parity compression. Next
+> derive that native numerical `r0`, then certify `alpha,delta`. No numerical
+> `r0`, target, tail, `m`, K473 beta, K152 interval, source, ledger or physical
+> conclusion moves.
+
 > **2026-09-29 K653--K654 SHIFTED-SCHUR TARGET AND ALL-ORDER PARITY-TAIL
 > CERTIFICATE.** K653 gives the exact cancellation-preserving test for one
 > proposed floor `b`: on K647's common domain, both diagonal forms shifted by

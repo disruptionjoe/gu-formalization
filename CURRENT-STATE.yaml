@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 246524fac5a8
+revision_basis: 6dfbf7959f5d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,20 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K655--K656 resolve the target-selection question left by K653--K654
+    without moving a protected claim. K655 composes K612's custody family
+    with the shifted test: for every finite proposed `b` inferred only from
+    the serialized interface, the allowed control `L=|b|+3` has complete
+    negative-direction value `-L-2<b`, so the first shifted diagonal already
+    fails. These are same-interface controls, not sectors of the fixed native
+    operator; they do not deny its qualitative semibound. K656 gives the
+    sharp repair from actual native evidence: one complete same-domain base
+    lower `R0>=r0 M`, combined with K168's exact `R_ref>=R0-2M`, yields
+    `b=r0-2` on the complete form and every bath/parity compression. The
+    two-unit loss is sharp. No numerical `r0`, `b`, tail, `m`, `alpha` or
+    `delta` is supplied. No K473 beta, K152 interval, source, ledger, canon,
+    paper, public or physical conclusion moves.
+
     K653--K654 add a target-relative all-order route without moving a
     protected claim. K653 proves the exact shifted-Schur certificate on
     K647's common domain: if both diagonal forms shifted by a proposed floor
@@ -11625,13 +11639,19 @@ current_question: >-
   nonnegativity of both shifted diagonal forms and a same-domain shifted cross
   contraction `theta<=1`; the sharp scalar test is
   `|c|^2<=(a-b)(d-b)`. K654 composes that test all-order in both parity signs
-  with the finite sectors. Choose a native target `b` and prove these shifted
-  hypotheses everywhere, or exhibit the first failing target row. Synthetic
-  `b=5/4` is a control only and is not a native floor.
+  with the finite sectors. K655 now proves that the currently serialized
+  K612/K168 interface cannot choose any such number: for every finite `b`, a
+  same-interface control with `L=|b|+3` has first shifted diagonal
+  `-L-2-b<0`. This is not an actual native sector or a proof that the fixed
+  operator lacks a floor. K656 identifies the sharp repair: prove one
+  complete same-domain base lower `R0>=r0 M`; K168 then gives
+  `R_ref>=(r0-2)M`, so `b=r0-2` holds on the complete form and every parity
+  and bath compression. Derive that actual native `r0`, then separately
+  certify `alpha,delta`. Synthetic controls do not supply `r0` or `b`.
   The raw K644 twelve-plus-thirty route remains valid only if
   its separated factors are independently proved same-domain bounded.
-  K612's custody
-  gap remains. Do not collapse spectator Fock
+  K612's custody gap is now sharpened to the single complete base-floor input
+  `r0`. Do not collapse spectator Fock
   space to `C^6`, call algebraic labels physical ranges, import K168's
   three-dimensional `m=-2`, report `-257/128` as native or apply K642 without
   the missing same-form identity.
@@ -12164,17 +12184,23 @@ next_condition: >-
   `A_s(n),D_s(n)` and residual uppers `K_s(n)` with explicit eventual infima;
   the row `min(A_s(n)-K_s(n),D_s(n)-K_s(n))` then supplies each parity tail.
   Their two-by-two comparison floors compose those tails with certified finite
-  sectors to determine `m`. K653 gives a narrower target-relative alternative
-  and K654 composes it all-order: choose a native `b`, prove both diagonals shifted by `b` are
-  nonnegative and the shifted cross is contractive with `theta<=1` for every
-  sector of both parity signs, then combine with finite-sector floors at `b`.
-  The sharp scalar test is `|c|^2<=(a-b)(d-b)`. Synthetic `b=5/4` is a control
-  only and not a native floor. Only afterward
-  certify `alpha,delta`. The raw K644 rows remain a valid sufficient route if
+  sectors to determine `m`. K653 gives the target-relative scalar test
+  `a>=b`, `d>=b`, `|c|^2<=(a-b)(d-b)` and relative-form test `theta<=1`.
+  K654 composes it all-order across both parity signs; its Synthetic control
+  remains an interface witness, not a native floor. K655 proves that no
+  numerical `b` follows from the currently serialized K612/K168 interface:
+  every proposed finite target has a same-interface control whose first
+  shifted diagonal fails.
+  These are not actual native sectors. K656 gives the sharp new-data route:
+  derive one complete same-domain base lower `R0>=r0 M`, then use K168's
+  order to set `b=r0-2` simultaneously on the complete form and every
+  bath/parity compression. Only afterward certify `alpha,delta`. The raw
+  K644 rows remain a valid sufficient route if
   their same-domain boundedness is independently proved. Neither route may
   split the singular exchange factors before cancellation, substitute a
   scalar three-channel model or treat a finite prefix as a tail.
-  K612's cancelled-core custody gap remains, so neither `m=-2` nor
+  K612's cancelled-core custody gap now reduces to obtaining the numerical
+  complete base lower `r0`; until it is proved, neither `m=-2` nor
   `-257/128` is a native complete-sector floor. Retain K609's complete leakage-square upper
   below 1/3 and the `25/9` target, but combine them only after an independently
   valid floor exists; no shifted-form residual or spectral-error bound follows.

@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k655": json.loads(
+            (ROOT / "lab/process/k655-k500-shifted-target-custody-obstruction.json").read_text()
+        ),
+        "k656": json.loads(
+            (ROOT / "lab/process/k656-k500-base-floor-target-lift.json").read_text()
+        ),
         "k653": json.loads((ROOT / "lab/process/k653-k500-shifted-schur-target-certificate.json").read_text()),
         "k654": json.loads((ROOT / "lab/process/k654-k500-all-order-shifted-schur-tail.json").read_text()),
         "k651": json.loads((ROOT / "lab/process/k651-k500-parity-tail-prefix-nonidentifiability.json").read_text()),
@@ -177,6 +183,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K654" in live and "both parity signs" in live and
               "Synthetic" in live and "not a native floor" in live,
               "live all-order shifted-Schur composition missing")
+        check("K655" in live and "same-interface control" in live and
+              "first shifted diagonal fails" in live,
+              "live shifted-target custody obstruction missing")
+        check("K656" in live and "R0>=r0 M" in live and "b=r0-2" in live,
+              "live base-floor target lift missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -186,6 +197,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K655--K656 resolve the target-selection question" in summary,
+          "current K655--K656 result lost")
     check("K653--K654 add a target-relative all-order route" in summary,
           "current K653--K654 result lost")
     check("K651--K652 close the finite-prefix tail-identifiability question" in summary,
@@ -253,6 +266,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "every finite target b" in data["agenda"].get("latest_result_2026_09_29_k655_k656", "")
+        and "b=r0-2" in data["agenda"].get("latest_result_2026_09_29_k655_k656", ""),
+        "agenda K655--K656 result is not current",
+    )
     check(
         "shifted-Schur target certificate"
         in data["agenda"].get("latest_result_2026_09_29_k653_k654", ""),
@@ -500,6 +518,41 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k654_n["native_global_m_identified"] and
           not k654_n["K473_released"],
           "K654 native interface ceiling moved")
+
+    k655 = data["k655"]
+    k655_t = k655["interface_theorem"]
+    k655_c = k655["exact_controls"]
+    k655_n = k655["native_interface_status"]
+    check(k655_t["all_finite_targets_defeated_over_interface_class"] and
+          not k655_t["actual_native_sector_row_identified"] and
+          not k655_t["fixed_native_operator_proved_unbounded_below"] and
+          "-L-2-b<0" in k655_t["first_failure"],
+          "K655 shifted-target custody theorem moved")
+    check(k655_c["same_interface_not_native"] and
+          k655_c["all_rows_fail_first_shifted_diagonal"] and
+          all(row["first_K653_hypothesis_fails"] for row in k655_c["rows"]) and
+          not k655_n["actual_native_target_b_identified"] and
+          not k655_n["native_global_m_identified"] and
+          not k655_n["K473_released"],
+          "K655 native interface ceiling moved")
+
+    k656 = data["k656"]
+    k656_t = k656["base_floor_lift_theorem"]
+    k656_c = k656["exact_controls"]
+    k656_n = k656["native_interface_status"]
+    check(k656_t["selected_target"] == "b=r0-2" and
+          k656_t["same_domain_required"] and
+          k656_t["two_unit_loss_sharp_over_declared_reference_class"] and
+          not k656_t["K653_sector_search_required_after_global_base_lower"],
+          "K656 base-floor target lift moved")
+    check(k656_c["conditional_not_native_number"] and
+          k656_c["all_rows_pass"] and k656_c["all_rows_sharp"] and
+          not k656_n["actual_native_base_floor_r0_identified"] and
+          not k656_n["actual_native_target_b_identified"] and
+          not k656_n["actual_uniform_parity_tails_identified"] and
+          not k656_n["native_global_m_identified"] and
+          not k656_n["K473_released"],
+          "K656 native interface ceiling moved")
 
     k647 = data["k647"]
     k647_t = k647["intertwiner_theorem"]
@@ -1267,6 +1320,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k653-target", lambda d: d["k653"]["native_interface_status"].__setitem__("actual_native_target_b_identified", True))
     add("k654-prefix", lambda d: d["k654"]["all_order_shifted_tail_theorem"].__setitem__("finite_prefix_alone_sufficient", True))
     add("k654-native", lambda d: d["k654"]["native_interface_status"].__setitem__("actual_uniform_parity_tails_identified", True))
+    add("k655-native-row", lambda d: d["k655"]["interface_theorem"].__setitem__("actual_native_sector_row_identified", True))
+    add("k655-target", lambda d: d["k655"]["native_interface_status"].__setitem__("actual_native_target_b_identified", True))
+    add("k656-formula", lambda d: d["k656"]["base_floor_lift_theorem"].__setitem__("selected_target", "b=r0"))
+    add("k656-r0", lambda d: d["k656"]["native_interface_status"].__setitem__("actual_native_base_floor_r0_identified", True))
 
     add("k645-term-count", lambda d: d["k645"]["complete_family_replay"].__setitem__("terms", 2957))
     add("k645-orbits", lambda d: d["k645"]["complete_family_replay"].__setitem__("two_element_orbits", 1478))

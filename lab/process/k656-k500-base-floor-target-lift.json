@@ -1,0 +1,151 @@
+{
+  "base_floor_lift_theorem": {
+    "K653_sector_search_required_after_global_base_lower": false,
+    "composition": "R_ref=R0+Delta R>=(r0-2)M",
+    "compression_consequence": "every bath-number and total-parity compression has floor at least b",
+    "existing_native_order": "-2M<=Delta R<=M from K168",
+    "new_input": "R0>=r0 M on the complete common form domain",
+    "same_domain_required": true,
+    "selected_target": "b=r0-2",
+    "sharpness_witness": "R0=r0 M on a vector in W_ref's -2 eigenspace",
+    "two_unit_loss_sharp_over_declared_reference_class": true
+  },
+  "claim_ceiling": "Exact conditional target lift for the fixed K139/K168 common form. A separately proved complete base lower R0>=r0 M combines with K168's sharp order R_ref>=R0-2M to give b=r0-2 on the complete form and every bath/parity compression. The two-unit loss is sharp over the declared reference-shape class. No numerical r0 or b, native tail, m, alpha, delta, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K655_custody_obstruction_consumed": true,
+    "minimal_numerical_repair_identified": true,
+    "native_base_floor_r0_supplied": false,
+    "native_target_floor_emitted": false,
+    "next_exact_input": "Derive one numerical complete same-domain base lower r0 for the fixed K139 regular form. Then set b=r0-2, compose through every K643/K648 compression, and separately prove the K642 remainder constants alpha,delta."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_rows_pass": true,
+    "all_rows_sharp": true,
+    "conditional_not_native_number": true,
+    "row_count": 4,
+    "rows": [
+      {
+        "all_shifted_gaps_nonnegative": true,
+        "base_floor_r0": "-7",
+        "complete_values_on_sharp_control": [
+          "-9",
+          "-6",
+          "-6"
+        ],
+        "negative_reference_direction_saturates": true,
+        "reference_eigenvalues": [
+          "-2",
+          "1",
+          "1"
+        ],
+        "shifted_gaps": [
+          "0",
+          "3",
+          "3"
+        ],
+        "target_b": "-9"
+      },
+      {
+        "all_shifted_gaps_nonnegative": true,
+        "base_floor_r0": "0",
+        "complete_values_on_sharp_control": [
+          "-2",
+          "1",
+          "1"
+        ],
+        "negative_reference_direction_saturates": true,
+        "reference_eigenvalues": [
+          "-2",
+          "1",
+          "1"
+        ],
+        "shifted_gaps": [
+          "0",
+          "3",
+          "3"
+        ],
+        "target_b": "-2"
+      },
+      {
+        "all_shifted_gaps_nonnegative": true,
+        "base_floor_r0": "3",
+        "complete_values_on_sharp_control": [
+          "1",
+          "4",
+          "4"
+        ],
+        "negative_reference_direction_saturates": true,
+        "reference_eigenvalues": [
+          "-2",
+          "1",
+          "1"
+        ],
+        "shifted_gaps": [
+          "0",
+          "3",
+          "3"
+        ],
+        "target_b": "1"
+      },
+      {
+        "all_shifted_gaps_nonnegative": true,
+        "base_floor_r0": "11/4",
+        "complete_values_on_sharp_control": [
+          "3/4",
+          "15/4",
+          "15/4"
+        ],
+        "negative_reference_direction_saturates": true,
+        "reference_eigenvalues": [
+          "-2",
+          "1",
+          "1"
+        ],
+        "shifted_gaps": [
+          "0",
+          "3",
+          "3"
+        ],
+        "target_b": "3/4"
+      }
+    ]
+  },
+  "gu_typed_objects": {
+    "carrier": "the complete K139 common form domain and all of its K643/K648 reducing compressions",
+    "domain": "the single K647 common graph form domain",
+    "form": "R_ref=R0+S*W_ref*S with M=S*S and W_ref=diag(-2,1,1)",
+    "result": "base-floor target lift MAP-TYPE=sharp form-order transfer",
+    "target": "a native K653/K654 candidate b derived from a separately proved base lower r0"
+  },
+  "ledger_no_change_reason": "This conditional form-order transfer remains inside the repository-supplied K139/K168 mathematical control and supplies no action-owned state, observable, quotient or physical positivity result.",
+  "native_interface_status": {
+    "K168_order_consumed": true,
+    "K473_released": false,
+    "actual_native_base_floor_r0_identified": false,
+    "actual_native_target_b_identified": false,
+    "actual_uniform_parity_tails_identified": false,
+    "conditional_target_formula_complete": true,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "K655's family shows that without a proved r0 the formula selects no number; the conditional lift cannot repair absent custody by itself.",
+    "strongest_overclaim": "Substituting an invented or finite-control r0 into b=r0-2 and reporting the result as native m or physical positivity.",
+    "weakest_reproducibility_seam": "The transfer is exact and sharp, but the only new numerical input r0 remains entirely unserialized for the fixed operator."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K168 states the order interval and K612 states the missing base lower, but no prior artifact composes them into the sharp native target formula and all-compression consequence.",
+    "route_comparison": "After K655, guessing b is unproductive. K168 already makes one complete base lower sufficient, so isolating r0 is cheaper and stronger than independent per-sector target tests.",
+    "strongest_alternative": "K652's all-order A_s,D_s,K_s envelopes remain useful if a global base lower is unavailable; they require more sectorwise information but may succeed on a correlated domain."
+  },
+  "result_id": "K656-K500-BASE-FLOOR-TARGET-LIFT",
+  "schema_version": "1.0",
+  "scope": "The sharp lower-target consequence of one separately proved same-domain numerical lower R0>=r0 M for K139's fixed base regular form under K168's reference extension.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

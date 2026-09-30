@@ -7,6 +7,27 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K655--K656 shifted-target custody and base-floor lift (2026-09-29)
+
+K655 composes K612's same-interface countermodel family with K653's first
+shifted hypothesis. For every finite proposed target `b`, choosing
+`L=|b|+3` gives a complete negative-direction value `-L-2<b`, hence shifted
+gap `-L-2-b<0`. Five exact rational controls include targets `-100`, `-3`,
+`-2`, `0` and `5/4`. The probe passes 20 exact controls and rejects 13 hostile
+mutations. This proves target nonidentifiability from the serialized interface
+only; the controls are not sectors of the fixed native K139/K168 operator and
+do not show that operator is unbounded below.
+
+K656 proves the sharp repair. On the complete common form domain, a separately
+proved base lower `R0>=r0 M` combines with K168's
+`-2M<=Delta R<=M` to give `R_ref>=(r0-2)M`. Thus the conditional target
+`b=r0-2` passes to every bath-number and total-parity compression without a
+separate sector search. Equality on the `-2` reference eigendirection proves
+the two-unit loss is sharp over this declared class. Four exact controls pass;
+the probe rejects 15 hostile mutations. The native `r0` remains absent, so no
+numerical target, tail, `m`, `alpha`, `delta`, K473 release or K152 interval
+follows.
+
 ## K653--K654 shifted-Schur target and all-order parity-tail certificate (2026-09-29)
 
 K653 proves a sharp target-relative lower theorem for one complete K650

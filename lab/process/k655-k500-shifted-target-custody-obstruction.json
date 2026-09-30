@@ -1,0 +1,106 @@
+{
+  "claim_ceiling": "Exact data-custody obstruction for K653 target selection. For every finite b inferred only from the currently serialized K612/K168 interface, a same-interface control has first shifted diagonal -L-2-b<0, so no numerical target follows from those data. These controls are not sectors of the fixed native K139/K168 operator, do not deny its qualitative semibound, and do not exclude a new same-domain estimate. No native b, tail, m, alpha, delta, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K653_consumed": true,
+    "another_target_guess_before_new_native_evidence_is_decision_grade": false,
+    "current_custody_selects_numerical_target": false,
+    "next_exact_input": "Prove one numerical same-domain base lower R0>=r0 M (or an equivalent complete-form lower) for the fixed K139 operator; K168 then supplies the sharp target b=r0-2."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_rows_fail_first_shifted_diagonal": true,
+    "rows": [
+      {
+        "base_regular_value": "-103",
+        "complete_diagonal_value": "-105",
+        "first_K653_hypothesis_fails": true,
+        "parameter_L": "103",
+        "reference_negative_direction": "-2",
+        "shifted_gap": "-5",
+        "target_b": "-100"
+      },
+      {
+        "base_regular_value": "-6",
+        "complete_diagonal_value": "-8",
+        "first_K653_hypothesis_fails": true,
+        "parameter_L": "6",
+        "reference_negative_direction": "-2",
+        "shifted_gap": "-5",
+        "target_b": "-3"
+      },
+      {
+        "base_regular_value": "-5",
+        "complete_diagonal_value": "-7",
+        "first_K653_hypothesis_fails": true,
+        "parameter_L": "5",
+        "reference_negative_direction": "-2",
+        "shifted_gap": "-5",
+        "target_b": "-2"
+      },
+      {
+        "base_regular_value": "-3",
+        "complete_diagonal_value": "-5",
+        "first_K653_hypothesis_fails": true,
+        "parameter_L": "3",
+        "reference_negative_direction": "-2",
+        "shifted_gap": "-5",
+        "target_b": "0"
+      },
+      {
+        "base_regular_value": "-17/4",
+        "complete_diagonal_value": "-25/4",
+        "first_K653_hypothesis_fails": true,
+        "parameter_L": "17/4",
+        "reference_negative_direction": "-2",
+        "shifted_gap": "-15/2",
+        "target_b": "5/4"
+      }
+    ],
+    "same_interface_not_native": true,
+    "target_count": 5
+  },
+  "gu_typed_objects": {
+    "carrier": "K612 same-interface two-dimensional controls, not sectors of the fixed native operator",
+    "domain": "one common finite control domain with M=I",
+    "form": "a base regular diagonal plus K168's sharp negative reference direction -2M",
+    "result": "shifted-target custody obstruction MAP-TYPE=data-sufficiency countermodel",
+    "target": "the first shifted-diagonal hypothesis in K653"
+  },
+  "interface_theorem": {
+    "actual_native_sector_row_identified": false,
+    "all_finite_targets_defeated_over_interface_class": true,
+    "first_failure": "the first K653 shifted diagonal has value -L-2-b<0",
+    "fixed_native_operator_proved_unbounded_below": false,
+    "new_same_domain_estimate_can_reopen": true,
+    "statement": "For every finite target b chosen from the currently serialized interface alone, the K612 family contains an allowed member with L=|b|+3 and complete negative-direction value -L-2<b."
+  },
+  "ledger_no_change_reason": "This is a data-sufficiency result for a repository-supplied conditional point-Fock operator interface; the countermodels are not physical states or the fixed native operator.",
+  "native_interface_status": {
+    "K473_released": false,
+    "K612_custody_obstruction_sharpened_to_K653": true,
+    "actual_native_shifted_cross_contraction_proved": false,
+    "actual_native_shifted_diagonal_positivity_proved": false,
+    "actual_native_target_b_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A newly proved same-domain base lower immediately defeats this nonidentifiability and permits a target; the obstruction is custody-relative, not operator-absolute.",
+    "strongest_overclaim": "Calling an interface countermodel an actual K139/K168 sector or concluding that the fixed operator has no lower bound.",
+    "weakest_reproducibility_seam": "The family preserves only the serialized interface fields. It intentionally does not reconstruct every unrecorded property of the fixed native operator."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K612 proves numerical-floor nonidentifiability and K653 gives the shifted target test; no prior artifact exhibits the exact first K653 failure for every proposed target.",
+    "route_comparison": "K654 asks for a native target, but K612 says the available interface has no quantitative base floor. Composing the two first decides whether target search is meaningful before attempting new sector estimates.",
+    "strongest_alternative": "K652's absolute all-order envelopes remain valid but require strictly more native quantitative input than the single base lower isolated here."
+  },
+  "result_id": "K655-K500-SHIFTED-TARGET-CUSTODY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Whether the quantitative interface currently serialized by K612 and consumed by K653 can select any finite numerical target b for the fixed K139/K168 reference form.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
