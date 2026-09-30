@@ -7,6 +7,25 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K693--K695 GRAPH EQUIVALENCE, MONOTONE GRAM CLOSURE AND
+> FRIEDRICHS-DEFECT COFINALITY.** K693 makes the complete-column construction
+> direct: a two-sided equivalence `m||a u||<=||C u||<=M||a u||` on
+> `Dom(C)=Dom(a)`, with `m>0`, closes `C` and bounds `C a^-1`; an upper bound
+> alone does not. K694 extends bounded-transform partial-Gram order from one
+> dense core to the complete monotone positive Gram and retains an explicit
+> positive tail plus `Q_seed` compression; its control totals `33/5000`, below
+> `1/100` by `17/5000`. K695 identifies the ordinary-triple reference with the
+> Friedrichs extension by complete self-adjoint-domain inclusion, then turns
+> finite/tail/cross defect-trace estimates into a whole-space lower. Its
+> synthetic `6,6,11` comparison gives floor `25`, trace coercivity `5`, gamma
+> anchor `1/5` and reference gap `1/2`. Next serialize the native component
+> column and prove K693 plus K691, then prove K694 and K676's seed actions.
+> Separately serialize the minimal operator and boundary maps, prove K695's
+> domain inclusion and complete trace blocks, and add the nearby denominator.
+> See `lab/process/k693-k500-graph-equivalent-column-compiler.json`,
+> `lab/process/k694-k500-monotone-gram-closure-compiler.json`, and
+> `lab/process/k695-k500-friedrichs-defect-cofinal-compiler.json`.
+
 > **2026-09-30 K690--K692 SUMMABLE CORE, FORM IDENTIFICATION AND FRIEDRICHS-
 > TRACE ANCHOR.** K690 makes K687's density input executable: one dense common
 > core with `||C_j u||<=b_j||a u||` and `sum b_j^2<infinity` lies in the

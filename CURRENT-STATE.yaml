@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 28ff7165036b
+revision_basis: 6da7f1c01170
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K693--K695 make the post-K692 native obligations cofinal and executable
+    without claiming that the native data are present. K693 proves that a
+    complete column defined on `Dom(a)` is closed, and that `C a^-1` is
+    bounded, when its norm is uniformly equivalent to the graph weight from
+    both sides. An upper graph estimate alone is insufficient: the zero
+    operator restricted to the proper nonclosed domain of an unbounded closed
+    `a` obeys every upper bound but is not closed. K694 extends uniform
+    positive partial-Gram order for bounded transforms from one dense common
+    core to the whole Hilbert space, takes the monotone strong Gram limit, and
+    preserves one complete positive tail and `Q_seed` compression. Its exact
+    control totals `33/5000`, leaving `17/5000` below `1/100`. K695
+    authenticates a boundary-triple reference as Friedrichs from inclusion of
+    the complete Friedrichs operator domain into `ker(Gamma_0)` and
+    self-adjoint maximality. It derives whole-defect trace coercivity from
+    finite, tail and cross bounds through a two-by-two comparison; the
+    synthetic `6,6,11` packet gives comparison floor `25`, coercivity `5`,
+    anchor norm `1/5` and reference gap `1/2`. No native component family,
+    graph equivalence, Gram tail, minimal operator, boundary map, trace block,
+    denominator, `r_free`, `T`, `R`, `A`, `B`, row, complete floor,
+    K473/K152 release, source, ledger, canon, paper, public or physical
+    conclusion moves.
+
     K690--K692 convert K687--K689's last abstract native inputs into three
     exact proof packets without claiming that GU currently supplies them.
     K690 proves density of the maximal square-summable column domain from one
@@ -11947,7 +11969,14 @@ current_question: >-
   `C* C=H` and `T=|C|` from equality of the column and native remainder forms
   on one common form core for both. K692 reduces K689's two remaining inputs
   to a complete Friedrichs form lower above the selected interval and a
-  coercive `Gamma_0` trace on the whole anchor defect space.
+  coercive `Gamma_0` trace on the whole anchor defect space. K693 now closes
+  the complete column directly from a two-sided graph equivalence on
+  `Dom(a)`, while retaining K691's independent same-form identity. K694
+  extends bounded-transform partial-Gram orders from one dense core to the
+  complete positive Gram and keeps the full tail plus `Q_seed` compression.
+  K695 authenticates the Friedrichs reference by complete self-adjoint-domain
+  inclusion and reduces whole-defect trace coercivity to finite, tail and
+  cross estimates.
   K671 now rejects the auxiliary-chart contraction as that direct `A`: the
   compensating regular form can vary independently. K672 gives the invariant
   replacement: on one complete graph-domain finite/complement split, prove
@@ -12566,17 +12595,21 @@ next_condition: >-
   `D_W(341/170)>=0` and every reference, resolvent and sign premise. K683
   permits a nearby complete denominator row only with a same-coordinate
   complete Weyl difference budget or authenticated monotone interval. Serialize
-  the K687 native component family on one fixed carrier and instantiate K690:
-  prove one dense common core, a complete square-summable component graph
-  domination and component closedness. Then instantiate K691 by proving that
+  the K687 native component family on one fixed carrier and instantiate K693:
+  prove `Dom(C)=Dom(a)` and one complete two-sided graph equivalence with
+  positive lower and finite upper constants. Alternatively instantiate K690
+  with a dense common core, square-summable component graph domination and
+  component closedness. Then instantiate K691 by proving that
   the column form and native closed `h=-r_free` form share one form core and
-  agree there. Prove K688's complete positive partial-Gram and tail orders
-  globally and after `Q_seed`, together with K676's three seed actions and
+  agree there. Instantiate K694 by proving the bounded native transforms,
+  their uniform dense-core positive partial-Gram orders and the complete
+  positive tail globally and after `Q_seed`, together with K676's three seed actions and
   exact intertwiners. Alternatively serialize the K681
   form family and prove K682's packet, or prove K672 directly. Independently
-  authenticate K686's boundary triple and instantiate K692: prove the
-  `Gamma_0` reference is Friedrichs, its complete form lower lies above
-  `21/10`, and `Gamma_0` is coercive on the complete defect space at that
+  authenticate K686's boundary triple and instantiate K695: serialize the
+  minimal operator and Friedrichs form, prove the complete Friedrichs domain
+  lies in `ker(Gamma_0)`, prove its form lower lies above `21/10`, and prove
+  finite, tail and cross trace bounds on the complete defect space at that
   anchor. Add one same-coordinate nearby denominator margin and instantiate
   K683/K680, and then every K665 finite row plus both parity tails. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely

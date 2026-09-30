@@ -1,0 +1,80 @@
+{
+  "claim_ceiling": "Exact conditional graph-equivalence theorem: on Dom(a), a complete two-sided column/graph estimate makes C closed and C a^-1 bounded; the upper estimate alone does not. Current native custody supplies no component family, common domain, lower graph constant or remainder identity. No native r_free, T, R, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k693_k500_graph_equivalent_column_compiler_probe.py",
+    "producer": "tests/channel-swings/k693_k500_graph_equivalent_column_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_closed_column_constructed": false,
+    "next_exact_input": "Serialize the native complete component family on Dom(a) and prove both graph inequalities with m>0 and finite M; then prove K691's common-form-core identity before using the resulting bounded transform.",
+    "two_sided_graph_equivalence_suffices_for_closed_column": true
+  },
+  "dependency_reconciliation": {
+    "K684_bounded_C_a_inverse_supplied_conditionally": true,
+    "K687_component_route_sharpened_to_graph_equivalence": true,
+    "K690_upper_summable_domination_not_promoted_to_closedness": true,
+    "K691_common_form_core_identity_still_required": true,
+    "native_component_or_graph_constants_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "a_norm_square": "73",
+    "bounded_transform": "C a^-1=diag(1/2,3/4)",
+    "column_norm_square": "153/4",
+    "controls_are_synthetic": true,
+    "lower_graph_constant": "1/2",
+    "model": "H=C^2, a=diag(1,2), C=diag(1/2,3/2), Dom(a)=H",
+    "test_vector": "u=(3,4)",
+    "upper_graph_constant": "3/4",
+    "upper_only_counterexample": "on l2, take unbounded closed a with proper Dom(a) and C=0 restricted to Dom(a); ||Cu||<=M||au|| holds but the zero operator on the nonclosed domain is not closed"
+  },
+  "graph_equivalence_theorem": {
+    "bounded_everywhere_a_inverse_required": true,
+    "bounded_transform_consequence": "B=C a^-1 is bounded with ||B||<=M and bounded below by m",
+    "closed_graph_weight_required": true,
+    "closedness_consequence": "C is closed because C-Cauchy implies a-Cauchy; closedness of a identifies the limit and the upper inequality identifies C u",
+    "domain_identity": "Dom(C)=Dom(a)",
+    "equivalence_on_nondense_or_noncore_tests_sufficient": false,
+    "finite_component_equivalence_sufficient_for_complete_column": false,
+    "form_identity_with_native_remainder_automatic": false,
+    "strict_lower_inequality": "m||a u||<=||C u|| for every u in Dom(a), with m>0",
+    "upper_bound_alone_sufficient_for_closedness": false,
+    "upper_inequality": "||C u||<=M||a u|| for every u in Dom(a)"
+  },
+  "gu_typed_objects": {
+    "carrier": "one Hilbert carrier H with a densely defined closed bijective graph weight a and bounded inverse",
+    "column": "C:Dom(a)->direct_sum_j K_j, defined by the complete native component family",
+    "result": "graph-equivalent column compiler MAP-TYPE=closed complete operator",
+    "target": "K684/K687's closed column and bounded C a^-1 inputs before K691 identification"
+  },
+  "ledger_no_change_reason": "This is a conditional complete-operator theorem and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_DomC_equals_Doma_proved": false,
+    "actual_native_bounded_C_a_inverse_proved": false,
+    "actual_native_closed_column_proved": false,
+    "actual_native_components_serialized": false,
+    "actual_native_remainder_identity_proved": false,
+    "actual_native_two_sided_graph_equivalence_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The zero operator restricted to the proper nonclosed domain of an unbounded closed a obeys every upper graph bound but is not closed.",
+    "strongest_overclaim": "Using K690's upper domination alone as if it made a column closed or identified its square with the native remainder.",
+    "weakest_reproducibility_seam": "The lower inequality must cover the complete column norm on the exact full Dom(a), not a finite prefix or merely a dense algebraic test set."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K684 assumes a closed column and K687 derives it from closed components; no prior packet proves closedness directly from one full-domain graph equivalence.",
+    "route_comparison": "K690 supplies only an upper core domination. A two-sided graph equivalence on the full proposed domain is the cheapest direct closedness certificate and simultaneously constructs C a^-1.",
+    "strongest_alternative": "Prove every component closed and density through K687/K690, or construct the remainder form first through K681."
+  },
+  "result_id": "K693-K500-GRAPH-EQUIVALENT-COLUMN-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete-domain sufficient packet making a column on Dom(a) closed and its bounded transform C a^-1 well defined from a two-sided graph equivalence.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

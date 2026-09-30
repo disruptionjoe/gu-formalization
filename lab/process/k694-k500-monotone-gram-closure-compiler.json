@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "Exact conditional monotone-Gram theorem: uniform positive partial-Gram order for bounded transforms on one dense core extends to H and converges to the complete positive Gram; one complete tail order and compression then give the global and Q_seed bounds. Current native custody supplies no bounded component transforms, core order, tail or seed actions. No native R, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k694_k500_monotone_gram_closure_compiler_probe.py",
+    "producer": "tests/channel-swings/k694_k500_monotone_gram_closure_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "dense_core_uniform_Gram_order_extends_to_complete_space": true,
+    "native_complete_Gram_packet_constructed": false,
+    "next_exact_input": "After K693 supplies bounded native B_j, prove the uniform positive partial-Gram order on one dense core and an operator-order tail globally and after Q_seed; then combine with K676's three native seed actions."
+  },
+  "dependency_reconciliation": {
+    "K677_Q_seed_target_reproduced": true,
+    "K685_complete_tail_requirement_retained": true,
+    "K688_dense_core_order_made_executable": true,
+    "K693_bounded_transform_consumed_conditionally": true,
+    "native_gram_or_tail_data_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "K677_target": "1/100",
+    "Q_seed_upper": "33/5000",
+    "accepted": true,
+    "complete_global_upper": "33/5000",
+    "complete_tail_upper": "1/400",
+    "controls_are_synthetic": true,
+    "finite_partial_upper": "41/10000",
+    "finite_prefix_counterexample": "after any fixed prefix append B_j=I forever; every recorded prefix is unchanged but the complete column diverges",
+    "model": "H=C^2; B1=diag(1/20,1/25), B2=diag(1/25,1/20), B3=(1/20)I and B_j=0 for j>=4",
+    "nondense_core_counterexample": "on C^2 test only span(e1); diag(0,L) is invisible there and has arbitrary complete norm",
+    "target_slack": "17/5000"
+  },
+  "gu_typed_objects": {
+    "component_transforms": "B_j=C_j a^-1 in B(H,K_j)",
+    "positive_grams": "G_N=sum_(j<=N) B_j*B_j on H",
+    "result": "monotone Gram closure compiler MAP-TYPE=complete positive operator order",
+    "seed_compression": "Q_seed* G Q_seed on the complete seed complement",
+    "target": "K688's global and Q_seed complete Gram/tail inputs"
+  },
+  "ledger_no_change_reason": "This is a conditional positive-operator convergence theorem and supplies no source-owned action, physical quotient, state or observable.",
+  "monotone_gram_theorem": {
+    "bounded_component_transforms_required": true,
+    "column_consequence": "B=(B_j)_j is bounded and ||B||^2=||G||<=g",
+    "component_norms_without_positive_gram_order_sufficient": false,
+    "core_partial_order": "sum_(j<=N)||B_j u||^2<=g||u||^2 for every u in D0 and every finite N",
+    "extension_consequence": "each finite positive Gram order extends by continuity from dense D0 to H",
+    "finite_prefix_without_complete_tail_sufficient": false,
+    "monotone_limit_consequence": "G_N increases strongly to one bounded positive G<=gI",
+    "one_dense_core_required": true,
+    "order_on_nondense_test_space_sufficient": false,
+    "sampled_vectors_sufficient": false,
+    "seed_compression": "Q_seed*GQ_seed<=g_seed Q_seed; compression preserves positive order",
+    "strong_limit_without_uniform_order_sufficient": false,
+    "tail_order": "G-G_N0<=tau^2 I on H, proved independently or as a complete positive remainder bound"
+  },
+  "native_interface_status": {
+    "actual_native_Bj_serialized": false,
+    "actual_native_K677_target_proved": false,
+    "actual_native_Q_seed_order_proved": false,
+    "actual_native_complete_tail_proved": false,
+    "actual_native_dense_core_order_proved": false,
+    "actual_native_monotone_Gram_limit_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "An unchanged finite prefix can be followed by infinitely many identity components, while a nondense test space can hide an arbitrarily large orthogonal block.",
+    "strongest_overclaim": "Treating a finite Gram, scalar component norms or sampled vectors as a complete positive operator order.",
+    "weakest_reproducibility_seam": "Every B_j must already be bounded on H, the same dense core must serve all N, and the tail must cover the entire omitted positive sum in operator order."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K685/K688 require complete bounds but do not state the dense-core continuity passage or monotone positive limit as one certificate.",
+    "route_comparison": "K688 states the full partial-Gram interface. K694 makes it checkable on one dense core for bounded transforms and isolates the omitted positive tail as the only complete-space remainder.",
+    "strongest_alternative": "Prove the complete column norm directly, or use K677's cofinal core/tail estimate without component Grams."
+  },
+  "result_id": "K694-K500-MONOTONE-GRAM-CLOSURE-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A dense-core-to-complete-space positive partial-Gram theorem for bounded component transforms, including an explicit positive operator tail and Q_seed compression.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

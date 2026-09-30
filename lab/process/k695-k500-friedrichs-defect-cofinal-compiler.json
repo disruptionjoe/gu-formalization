@@ -1,0 +1,100 @@
+{
+  "claim_ceiling": "Exact conditional boundary theorem: self-adjoint extension inclusion identifies the ordinary-triple reference with the Friedrichs extension, and finite/tail/cross trace estimates give a complete defect-space coercivity lower through a two-by-two comparison. The synthetic packet reproduces K692's gap 1/2 and anchor norm 1/5. Current native custody supplies no minimal operator, boundary maps, domain inclusion, trace blocks or denominator. No native r0, B, parity tail, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k695_k500_friedrichs_defect_cofinal_compiler_probe.py",
+    "producer": "tests/channel-swings/k695_k500_friedrichs_defect_cofinal_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "finite_tail_cross_packet_suffices_for_complete_trace_coercivity": true,
+    "native_boundary_packet_constructed": false,
+    "next_exact_input": "Serialize the native minimal operator, Friedrichs form and ordinary boundary maps; prove Dom(A_F) is contained in ker(Gamma_0), then establish the finite, tail and cross trace bounds on the complete anchor defect space and one same-coordinate nearby denominator margin.",
+    "self_adjoint_domain_inclusion_authenticates_Friedrichs_reference": true
+  },
+  "defect_cofinal_theorem": {
+    "coercivity": "||T_mu f||>=sqrt(lambda_min)||f|| when lambda_min>0",
+    "comparison_matrix": "[[a^2,-k],[-k,d^2]]",
+    "complete_lower": "lambda_min of the comparison matrix",
+    "cross_upper": "|Re<T_mu x,T_mu y>|<=k||x||||y||",
+    "finite_block_without_tail_sufficient": false,
+    "finite_lower": "||T_mu x||>=a||x|| on E_N",
+    "one_parity_or_sector_sufficient": false,
+    "orthogonal_split": "N_mu=E_N direct_sum F_N",
+    "sampled_defect_vectors_sufficient": false,
+    "separate_block_lowers_without_cross_control_sufficient": false,
+    "tail_lower": "||T_mu y||>=d||y|| on F_N"
+  },
+  "dependency_reconciliation": {
+    "K661_reference_ambiguity_closed_conditionally_by_domain_inclusion": true,
+    "K683_nearby_denominator_still_required": true,
+    "K689_anchor_norm_reproduced": true,
+    "K692_complete_trace_input_reduced_to_three_cofinal_bounds": true,
+    "native_minimal_operator_boundary_or_blocks_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "accepted": true,
+    "anchor_gamma_norm_upper": "1/5",
+    "anchor_mu": "21/10",
+    "comparison_floor": "25",
+    "complete_trace_coercivity": "5",
+    "controls_are_synthetic": true,
+    "cross_upper": "11",
+    "finite_only_counterexample": "diag(6,1/n) on l2 is uniformly coercive on every fixed leading block but has no positive complete lower",
+    "finite_trace_lower": "6",
+    "friedrichs_lower": "13/5",
+    "reference_counterexample": "K661's Dirichlet/Neumann interval pair shows ordinary-triple validity and semiboundedness do not select Friedrichs",
+    "reference_gap_lower": "1/2",
+    "tail_trace_lower": "6"
+  },
+  "friedrichs_authentication_theorem": {
+    "complete_domain_inclusion": "Dom(A_F) subset ker(Gamma_0)=Dom(A0), with A_F f=S* f=A0 f",
+    "core_or_sampled_boundary_vanishing_sufficient": false,
+    "different_boundary_coordinate_substitutable": false,
+    "equal_lower_bounds_sufficient": false,
+    "friedrichs_operator_self_adjoint_required": true,
+    "maximality_consequence": "A_F subset A0 and both self-adjoint imply A_F=A0",
+    "ordinary_triple_reference_self_adjoint_required": true,
+    "ordinary_triple_validity_alone_sufficient": false
+  },
+  "gu_typed_objects": {
+    "defect_trace": "T_mu=Gamma_0 restricted to N_mu with one orthogonal finite/tail split",
+    "friedrichs_operator": "A_F associated with the closure of S's lower form",
+    "minimal_operator": "one densely defined closed semibounded symmetric S on the complete native carrier",
+    "reference": "A0=S* restricted to ker(Gamma_0) from one authenticated ordinary boundary triple",
+    "result": "Friedrichs-defect cofinal compiler MAP-TYPE=self-adjoint reference plus complete trace lower",
+    "target": "K692's reference authentication and complete defect-space coercivity inputs"
+  },
+  "ledger_no_change_reason": "This is a conditional operator-extension and trace theorem and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_Friedrichs_domain_inclusion_proved": false,
+    "actual_native_boundary_triple_authenticated": false,
+    "actual_native_complete_form_lower_proved": false,
+    "actual_native_complete_trace_coercivity_proved": false,
+    "actual_native_cross_trace_bound_proved": false,
+    "actual_native_denominator_margin_proved": false,
+    "actual_native_finite_trace_lower_proved": false,
+    "actual_native_minimal_operator_serialized": false,
+    "actual_native_tail_trace_lower_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Valid Dirichlet and Neumann references remain distinct, and diag(6,1/n) is coercive on every fixed leading block while its complete lower vanishes.",
+    "strongest_overclaim": "Using boundary vanishing on a core, equal semibounds or a finite defect block as if it authenticated the complete reference and trace inverse.",
+    "weakest_reproducibility_seam": "The domain inclusion must cover Dom(A_F), and the trace tail and cross estimates must use the same complete defect space, norm and boundary coordinate as the finite block."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K661 proves ambiguity and K692 states the desired inequalities; no prior packet composes self-adjoint maximality with finite/tail/cross trace coercivity.",
+    "route_comparison": "K692 names Friedrichs authentication and whole-defect coercivity. Self-adjoint-domain inclusion is the cheapest exact reference proof, while a two-block comparison is the cheapest cofinal replacement for an unavailable direct infinite-dimensional singular value.",
+    "strongest_alternative": "Prove one-point resolvent equality A0=A_F directly and compute the complete minimum singular value of the defect trace without splitting."
+  },
+  "result_id": "K695-K500-FRIEDRICHS-DEFECT-COFINAL-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete certificate authenticating the ordinary-triple reference as Friedrichs by self-adjoint extension inclusion and deriving whole-defect trace coercivity from finite/tail/cross bounds.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

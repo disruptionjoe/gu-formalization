@@ -26,6 +26,15 @@ def load_inputs() -> dict:
         "current": yaml.safe_load(CURRENT.read_text(encoding="utf-8")),
         "registry": registry,
         "agenda": json.loads((ROOT / basis["research_agenda"]["path"]).read_text()),
+        "k693": json.loads(
+            (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
+        ),
+        "k694": json.loads(
+            (ROOT / "lab/process/k694-k500-monotone-gram-closure-compiler.json").read_text()
+        ),
+        "k695": json.loads(
+            (ROOT / "lab/process/k695-k500-friedrichs-defect-cofinal-compiler.json").read_text()
+        ),
         "k690": json.loads(
             (ROOT / "lab/process/k690-k500-summable-core-density-compiler.json").read_text()
         ),
@@ -348,10 +357,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K682" in live and "complete relative form inequality" in live and
               "K683" in live and "complete Weyl difference budget" in live,
               "live monotone-form, graph-relative or Weyl robustness compiler missing")
-        check("K690" in live and "complete square-summable component graph domination" in live and
-              "K691" in live and "share one form core" in live and
-              "K692" in live and "`Gamma_0` is coercive" in live,
-              "live summable-core, form-identity or Friedrichs-trace compiler missing")
+        check("K693" in live and "two-sided graph equivalence" in live and
+              "K694" in live and "dense-core positive partial-Gram" in live and
+              "K695" in live and "complete Friedrichs domain" in live,
+              "live graph-equivalence, Gram-closure or boundary-cofinal compiler missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -361,6 +370,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K693--K695 make the post-K692 native obligations" in summary,
+          "current K693--K695 result lost")
     check("K684--K686 turn the two K681--K683 abstract routes" in summary,
           "current K684--K686 result lost")
     check("K681--K683 convert the K678--K680 missing-input frontier" in summary,
@@ -437,6 +448,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "uniformly equivalent to the graph weight" in data["agenda"].get("latest_result_2026_09_30_k693_k695", "")
+        and "monotone complete Gram limit" in data["agenda"].get("latest_result_2026_09_30_k693_k695", "")
+        and "comparison floor 25" in data["agenda"].get("latest_result_2026_09_30_k693_k695", ""),
+        "agenda K693--K695 result is not current",
+    )
     check(
         "dense common core" in data["agenda"].get("latest_result_2026_09_30_k690_k692", "")
         and "common form core" in data["agenda"].get("latest_result_2026_09_30_k690_k692", "")
@@ -1077,6 +1094,41 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k692_n["actual_native_anchor_gamma_norm_proved"] and
           not k692_n["native_complete_floor_emitted"],
           "K692 Friedrichs-trace compiler or native ceiling moved")
+
+    k693 = data["k693"]
+    k693_t = k693["graph_equivalence_theorem"]
+    k693_n = k693["native_interface_status"]
+    check(k693_t["closed_graph_weight_required"] and
+          k693_t["bounded_everywhere_a_inverse_required"] and
+          not k693_t["upper_bound_alone_sufficient_for_closedness"] and
+          not k693_t["form_identity_with_native_remainder_automatic"] and
+          not k693_n["actual_native_closed_column_proved"] and
+          not k693_n["native_complete_floor_emitted"],
+          "K693 graph-equivalent column compiler or native ceiling moved")
+
+    k694 = data["k694"]
+    k694_t = k694["monotone_gram_theorem"]
+    k694_n = k694["native_interface_status"]
+    check(k694_t["bounded_component_transforms_required"] and
+          k694_t["one_dense_core_required"] and
+          not k694_t["finite_prefix_without_complete_tail_sufficient"] and
+          not k694_t["order_on_nondense_test_space_sufficient"] and
+          not k694_n["actual_native_complete_tail_proved"] and
+          not k694_n["native_complete_floor_emitted"],
+          "K694 monotone Gram compiler or native ceiling moved")
+
+    k695 = data["k695"]
+    k695_f = k695["friedrichs_authentication_theorem"]
+    k695_t = k695["defect_cofinal_theorem"]
+    k695_n = k695["native_interface_status"]
+    check(k695_f["ordinary_triple_reference_self_adjoint_required"] and
+          not k695_f["ordinary_triple_validity_alone_sufficient"] and
+          not k695_f["core_or_sampled_boundary_vanishing_sufficient"] and
+          not k695_t["finite_block_without_tail_sufficient"] and
+          not k695_t["separate_block_lowers_without_cross_control_sufficient"] and
+          not k695_n["actual_native_complete_trace_coercivity_proved"] and
+          not k695_n["native_complete_floor_emitted"],
+          "K695 Friedrichs-defect cofinal compiler or native ceiling moved")
 
     k687 = data["k687"]
     k687_t = k687["countable_column_theorem"]
@@ -2176,6 +2228,17 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
+    add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))
+    add("k693-floor", lambda d: d["k693"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k694-tail", lambda d: d["k694"]["monotone_gram_theorem"].__setitem__("finite_prefix_without_complete_tail_sufficient", True))
+    add("k694-core", lambda d: d["k694"]["monotone_gram_theorem"].__setitem__("order_on_nondense_test_space_sufficient", True))
+    add("k694-native", lambda d: d["k694"]["native_interface_status"].__setitem__("actual_native_complete_tail_proved", True))
+    add("k695-reference", lambda d: d["k695"]["friedrichs_authentication_theorem"].__setitem__("ordinary_triple_validity_alone_sufficient", True))
+    add("k695-tail", lambda d: d["k695"]["defect_cofinal_theorem"].__setitem__("finite_block_without_tail_sufficient", True))
+    add("k695-cross", lambda d: d["k695"]["defect_cofinal_theorem"].__setitem__("separate_block_lowers_without_cross_control_sufficient", True))
+    add("k695-native", lambda d: d["k695"]["native_interface_status"].__setitem__("actual_native_complete_trace_coercivity_proved", True))
 
     add("k690-density", lambda d: d["k690"]["summable_core_theorem"].__setitem__("dense_common_core_required", False))
     add("k690-sum", lambda d: d["k690"]["summable_core_theorem"].__setitem__("complete_square_sum_required", False))

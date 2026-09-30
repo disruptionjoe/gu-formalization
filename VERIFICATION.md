@@ -7,6 +7,42 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K693--K695 graph-equivalence, Gram-closure and boundary-cofinal compilers (2026-09-30)
+
+K693 proves a direct complete-column criterion. Let `a` be closed with bounded
+everywhere inverse, define `C` on `Dom(a)`, and assume
+`m||a u||<=||C u||<=M||a u||` with `m>0`. A convergent graph sequence for `C`
+is then graph-Cauchy for `a`; closedness of `a` and the upper estimate prove
+that `C` is closed. Consequently `C a^-1` is bounded by `M` and bounded below
+by `m`. The lower estimate is essential: `C=0` restricted to the proper
+nonclosed domain of an unbounded closed `a` obeys every upper estimate but is
+not a closed operator.
+
+K694 proves the dense-core closure of K688's positive-Gram interface. For
+bounded `B_j=C_j a^-1`, a uniform order
+`sum_(j<=N)||B_j u||^2<=g||u||^2` on one dense common core extends to the full
+space for every finite `N`. The positive Grams increase strongly to a bounded
+complete Gram `G<=gI`. An independently proved complete positive tail and
+compression by `Q_seed` preserve the order. The synthetic finite part is
+`41/10000`, the tail is `1/400`, and the total `33/5000` leaves `17/5000`
+below the `1/100` target. A finite prefix or nondense test space cannot see an
+arbitrarily large omitted block.
+
+K695 gives two boundary certificates. If the ordinary-triple reference
+`A_0=S*|ker(Gamma_0)` and the Friedrichs operator `A_F` are self-adjoint and
+`Dom(A_F)` is contained in `ker(Gamma_0)`, then `A_F subset A_0`; maximality of
+self-adjoint operators gives `A_F=A_0`. On a complete defect-space split
+`E_N direct_sum F_N`, trace lowers `a,d` and cross upper `k` give the comparison
+matrix `[[a^2,-k],[-k,d^2]]`. Its least eigenvalue is a complete trace-square
+lower. The synthetic `a=d=6,k=11` packet has floor `25`, trace coercivity `5`,
+gamma norm `1/5`, and the retained Friedrichs lower gives gap `1/2`.
+
+The K693 probe passes 36 controls and rejects 30/30 hostile mutations. K694
+passes 38 and rejects 32/32; K695 passes 40 and rejects 34/34. No native
+component family, graph equivalence, Gram tail, minimal operator, boundary
+map, trace block, denominator, `A`, `B`, floor, source, ledger, canon, paper,
+public, prediction, confirmation or physical conclusion follows.
+
 ## K690--K692 summable-core, form-identity and Friedrichs-trace compilers (2026-09-30)
 
 K690 proves a direct density packet for K687. If one dense common core `D0`
