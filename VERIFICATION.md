@@ -7,6 +7,33 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K671--K672 auxiliary-chart custody and direct-A cofinal certificate (2026-09-30)
+
+K671 applies K659's compensated-coordinate lesson to K663's invariant total
+free-coordinate margin. A chart decomposition may move equal bounded form
+content between its regular and negative-remainder terms while leaving the
+total form and optimal `A` unchanged. Conversely, the same raw auxiliary
+ratio `1/16` is compatible with synthetic invariant margins `1/3`, `3/4` and
+`5/4` when the compensating regular term changes. An auxiliary contraction
+therefore does not identify `A` or imply `A>2/3`. This does not retract K139
+semiboundedness or deny that the native invariant margin may exceed `2/3`.
+
+K672 supplies a chart-invariant complete certificate. Split K647's common
+domain graph-orthogonally into finite `P_N` and full complement `Q_N`. If the
+invariant total form has diagonal lowers `a_N,a_tail` and its polarized cross
+is bounded by `kappa`, its complete lower is the least eigenvalue of
+`[[a_N,-kappa],[-kappa,a_tail]]`. Thus `A>2/3` follows exactly from positive
+shifted diagonals and
+`(a_N-2/3)(a_tail-2/3)>kappa^2`. The synthetic
+`a_N=3/4,a_tail=1,kappa=1/12` row has shifted determinant `1/48`, shifted
+trace `5/12`, and proves `A>43/60`. At `kappa=1/6` the exact least eigenvalue
+is `2/3`, showing strict determinant slack is necessary.
+
+The K671 and K672 probes each pass 24 controls and reject 20/20 hostile
+mutations. Neither result supplies native finite, complement or cross inputs,
+`A`, `B`, a complete floor, K473/K152 release, source, ledger, canon, paper,
+public, prediction, confirmation or physical conclusions.
+
 ## K669--K670 leakage bridge and asymmetric native-margin target (2026-09-30)
 
 K669 closes the type-level question left by K668 without claiming the missing

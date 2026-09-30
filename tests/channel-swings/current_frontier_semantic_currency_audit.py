@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k671": json.loads(
+            (ROOT / "lab/process/k671-k500-auxiliary-chart-a-margin-custody.json").read_text()
+        ),
+        "k672": json.loads(
+            (ROOT / "lab/process/k672-k500-direct-a-cofinal-certificate.json").read_text()
+        ),
         "k669": json.loads(
             (ROOT / "lab/process/k669-k500-leakage-remainder-factorization-bridge.json").read_text()
         ),
@@ -264,6 +270,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K669" in live and "A>2/3" in live and
               "K670" in live and "B>=1/170" in live and "2/58653" in live,
               "live leakage bridge or asymmetric native-margin target missing")
+        check("K671" in live and "auxiliary-chart" in live and
+              "K672" in live and "kappa^2<(a_N-2/3)(a_tail-2/3)" in live,
+              "live auxiliary-chart custody or direct-A certificate missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -273,6 +282,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K671--K672 close the auxiliary-chart shortcut" in summary,
+          "current K671--K672 result lost")
     check("K669--K670 expose the exact K609-to-A bridge" in summary,
           "current K669--K670 result lost")
     check("K667--K668 close the matched-trace custody mismatch" in summary,
@@ -337,6 +348,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "same raw auxiliary ratio" in data["agenda"].get("latest_result_2026_09_30_k671_k672", "")
+        and "(a_N-2/3)(a_tail-2/3)>kappa^2" in data["agenda"].get("latest_result_2026_09_30_k671_k672", "")
+        and "43/60" in data["agenda"].get("latest_result_2026_09_30_k671_k672", ""),
+        "agenda K671--K672 result is not current",
+    )
     check(
         "A>2/3" in data["agenda"].get("latest_result_2026_09_30_k669_k670", "")
         and "B>=1/170" in data["agenda"].get("latest_result_2026_09_30_k669_k670", "")
@@ -814,6 +831,48 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k666_c["negative_determinant_rejected"] and
           not k666_n["native_complete_floor_emitted"],
           "K666 control or native-interface ceiling moved")
+
+    k671 = data["k671"]
+    k671_t = k671["compensated_margin_theorem"]
+    k671_c = k671["exact_controls"]
+    k671_n = k671["native_interface_status"]
+    check(k671_t["contraction_can_change_while_A_fixed"] and
+          k671_t["same_contraction_can_coexist_with_distinct_A"] and
+          not k671_t["auxiliary_contraction_alone_identifies_A"] and
+          not k671_t["smaller_auxiliary_contraction_implies_A_above_two_thirds"] and
+          k671_t["K659_semiboundedness_retained"] and
+          not k671_t["fixed_native_A_denied"] and
+          k671_t["complete_common_domain_required"],
+          "K671 auxiliary-chart A custody moved")
+    check(k671_c["fixed_A"] == "3/4" and
+          k671_c["all_compensated_rows_preserve_fixed_A"] and
+          k671_c["same_chart_ratio"] == "1/16" and
+          k671_c["same_chart_rows_have_distinct_A"] and
+          not k671_n["actual_compensating_regular_form_lower_identified"] and
+          not k671_n["actual_invariant_total_A_lower_identified"] and
+          not k671_n["native_complete_floor_emitted"],
+          "K671 controls or native-interface ceiling moved")
+
+    k672 = data["k672"]
+    k672_t = k672["direct_A_theorem"]
+    k672_c = k672["exact_controls"]
+    k672_n = k672["native_interface_status"]
+    check(k672_t["comparison_matrix"] == "[[a_N,-kappa],[-kappa,a_tail]]" and
+          "(a_N-2/3)(a_tail-2/3)>kappa^2" in k672_t["two_thirds_test"] and
+          not k672_t["finite_prefix_only_sufficient"] and
+          not k672_t["sampled_complement_sufficient"] and
+          not k672_t["uncontrolled_cross_allowed"] and
+          not k672_t["auxiliary_chart_contraction_substitutable_for_total_form_bound"] and
+          k672_t["complete_common_domain_required"],
+          "K672 direct-A theorem moved")
+    check(k672_c["passing_control"]["shifted_determinant"] == "1/48" and
+          k672_c["passing_shifted_det_over_trace"] == "1/20" and
+          k672_c["passing_complete_A_strict_lower"] == "43/60" and
+          k672_c["endpoint_control"]["shifted_determinant"] == "0" and
+          k672_c["endpoint_exact_complete_A"] == "2/3" and
+          not k672_n["actual_complete_A_lower_identified"] and
+          not k672_n["native_complete_floor_emitted"],
+          "K672 controls or native-interface ceiling moved")
 
     k669 = data["k669"]
     k669_t = k669["factorization_bridge_theorem"]
@@ -1805,6 +1864,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k670-floor", lambda d: d["k670"]["exact_controls"].__setitem__("det_over_trace_floor", "0"))
     add("k670-tail", lambda d: d["k670"]["asymmetric_target_theorem"].__setitem__("both_total_parity_tails_required", False))
     add("k670-native", lambda d: d["k670"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k671-identifies", lambda d: d["k671"]["compensated_margin_theorem"].__setitem__("auxiliary_contraction_alone_identifies_A", True))
+    add("k671-native", lambda d: d["k671"]["native_interface_status"].__setitem__("actual_invariant_total_A_lower_identified", True))
+    add("k672-determinant", lambda d: d["k672"]["exact_controls"]["passing_control"].__setitem__("shifted_determinant", "0"))
+    add("k672-native", lambda d: d["k672"]["native_interface_status"].__setitem__("actual_complete_A_lower_identified", True))
     add("k667-tail", lambda d: d["k667"]["telescoping_theorem"].__setitem__("complete_infinite_tail_controlled", False))
     add("k667-upper", lambda d: d["k667"]["exact_bounds"].__setitem__("upper", "1/256"))
     add("k667-native-A", lambda d: d["k667"]["native_interface_status"].__setitem__("actual_complete_A_lower_identified", True))

@@ -7,6 +7,24 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K671--K672 AUXILIARY-CHART CUSTODY AND DIRECT-A COFINAL
+> CERTIFICATE.** K671 closes the tempting shortcut from K139's auxiliary
+> chart contraction to K663's `A`: compensated chart terms can vary while the
+> invariant total free-coordinate form and `A` remain fixed, and the same raw
+> chart ratio can coexist with different `A` values. K672 gives the correct
+> complete-domain replacement. For one graph-orthogonal finite/complement
+> split, certify finite lower `a_N`, complete-complement lower `a_tail`, and
+> same-domain cross bound `kappa`; then `A` is bounded by the least eigenvalue
+> of `[[a_N,-kappa],[-kappa,a_tail]]`. In particular, prove
+> `a_N>2/3`, `a_tail>2/3`, and
+> `(a_N-2/3)(a_tail-2/3)>kappa^2`. The synthetic
+> `3/4,1,1/12` control gives `A>43/60`, while `kappa=1/6` is the exact
+> `A=2/3` endpoint. Native inputs remain absent. Next prove this packet or the
+> K669 factorization/intertwiner; after `A>2/3`, prove K665's complete
+> `B>=1/170` rows and both parity tails. See
+> `lab/process/k671-k500-auxiliary-chart-a-margin-custody.json` and
+> `lab/process/k672-k500-direct-a-cofinal-certificate.json`.
+
 > **2026-09-30 K669--K670 LEAKAGE BRIDGE AND ASYMMETRIC NATIVE-MARGIN
 > TARGET.** K669 identifies the exact proof needed before K609's complete
 > leakage-square upper can become K663's `A` margin: on K647's complete common

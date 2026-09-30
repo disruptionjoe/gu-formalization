@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 8f8a5884fa92
+revision_basis: bbb485462c82
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K671--K672 close the auxiliary-chart shortcut and provide the invariant
+    direct-`A` certificate without moving a protected claim. K671 specializes
+    K659's compensated-chart custody to K663: an auxiliary remainder ratio can
+    change while the invariant total free-coordinate form and its margin `A`
+    stay fixed, and one fixed auxiliary ratio is compatible with distinct `A`
+    values when the compensating regular form is unknown. Thus chart
+    contraction alone cannot imply `A>2/3`; K139 semiboundedness and the
+    possibility of a native margin remain intact. K672 supplies the correct
+    complete-domain route. For a graph-orthogonal finite/complement split,
+    finite lower `a_N`, complete-complement lower `a_tail`, and same-domain
+    cross bound `kappa`, the exact lower is the least eigenvalue of
+    `[[a_N,-kappa],[-kappa,a_tail]]`. Hence `A>2/3` follows when both diagonals
+    exceed `2/3` and
+    `(a_N-2/3)(a_tail-2/3)>kappa^2`. The synthetic
+    `a_N=3/4,a_tail=1,kappa=1/12` row gives shifted determinant `1/48` and
+    proves `A>43/60`; `kappa=1/6` is the exact `A=2/3` endpoint. No native
+    finite, complement or cross input, `A`, `B`, complete floor, K473/K152
+    release, source, ledger, canon, paper, public or physical conclusion moves.
+
     K669--K670 expose the exact K609-to-A bridge and its asymmetric complete-B
     target without moving a protected claim. K669 proves the conditional
     transfer rule: only if K642's negative free-coordinate remainder is
@@ -11757,8 +11776,13 @@ current_question: >-
   `A>2/3`; that factorization is absent. K670 conditionally combines this with
   K667: a complete `B>=1/170` from every finite K665 row and both parity tails
   would give determinant slack above `1/43605` and floor above `2/58653`.
-  Prove the K669 bridge or a direct complete `A`, then prove that K665 packet;
-  do not report any of these conditional margins as native. K643 now proves that every K179 exchange
+  K671 now rejects the auxiliary-chart contraction as that direct `A`: the
+  compensating regular form can vary independently. K672 gives the invariant
+  replacement: on one complete graph-domain finite/complement split, prove
+  native `a_N>2/3`, `a_tail>2/3`, and
+  `kappa^2<(a_N-2/3)(a_tail-2/3)`, or prove the K669 bridge. Then prove K665's
+  complete `B>=1/170` packet; do not report any conditional margin as native.
+  K643 now proves that every K179 exchange
   monomial preserves bath number, so a future closed coefficient form reduces
   as `B=direct_sum_n B_n` and its global lower is the uniform infimum
   `m=inf_n m_n`; a finite prefix is not a tail bound. K644 gives the exact
@@ -12377,8 +12401,15 @@ next_condition: >-
   complete leakage map; that bridge is absent. K670 then sets the conditional
   remaining target: complete `B>=1/170`, with every finite row and both parity
   tails, would give determinant slack above `1/43605` and floor above
-  `2/58653`. Prove that bridge or a direct complete `A`, then certify K665's
-  full `B` packet; neither margin is native yet. K643 reduces the missing boundary form to
+  `2/58653`. K671 now rejects the auxiliary-chart contraction as a direct
+  `A`: compensated chart terms can change with invariant `A` fixed, and one
+  chart ratio can coexist with distinct `A` values. K672 gives the correct
+  chart-invariant packet: on one complete graph-domain finite/complement split,
+  prove native `a_N>2/3`, `a_tail>2/3`, and
+  `kappa^2<(a_N-2/3)(a_tail-2/3)`. Its synthetic
+  `3/4,1,1/12` control gives `A>43/60`, not a native bound. Prove that packet
+  or the K669 bridge, then certify K665's full `B>=1/170` packet; neither
+  margin is native yet. K643 reduces the missing boundary form to
   bath-number sectors and proves `m=inf_n m_n`, with a required uniform tail.
   K644 reduces each `m_n` to the actual six-channel diagonal floors and
   fifteen off-diagonal coupling bounds through a scalar comparison matrix,

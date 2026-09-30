@@ -1,0 +1,116 @@
+{
+  "claim_ceiling": "Exact custody result for K663's A margin. Compensated auxiliary-chart remainder ratios may change while the invariant total free-coordinate form and A remain fixed, and one fixed chart ratio is compatible with distinct A values when the compensating regular form is not known. K139 semiboundedness and the possibility of a native A>2/3 remain intact. No native A, B, complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "compensated_margin_theorem": {
+    "K659_semiboundedness_retained": true,
+    "auxiliary_contraction_alone_identifies_A": false,
+    "chart_decomposition": "F=(regular chart margin)-(auxiliary negative remainder ratio) in normalized graph coordinates",
+    "compensation_law": "changing the auxiliary chart moves equal bounded form content between the two displayed terms and leaves F and its optimal lower A fixed",
+    "complete_common_domain_required": true,
+    "contraction_can_change_while_A_fixed": true,
+    "fixed_native_A_denied": false,
+    "invariant_object": "the total free-coordinate form F[phi]=||a phi||^2+r_free[phi] on K647's complete domain",
+    "same_contraction_can_coexist_with_distinct_A": true,
+    "smaller_auxiliary_contraction_implies_A_above_two_thirds": false
+  },
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k671_k500_auxiliary_chart_a_margin_custody_probe.py",
+    "producer": "tests/channel-swings/k671_k500_auxiliary_chart_a_margin_custody.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "auxiliary_chart_to_A_inference_rejected": true,
+    "direct_invariant_A_route_required": true,
+    "next_exact_input": "Either prove K669's complete-domain factorization/intertwiner, or lower-bound the invariant total free-coordinate form directly by a complete finite-plus-complement certificate such as K672. Do not promote an auxiliary chart contraction to A."
+  },
+  "dependency_reconciliation": {
+    "K139_semiboundedness_retracted": false,
+    "K609_complete_leakage_bound_retained": true,
+    "K659_compensated_chart_invariance_consumed": true,
+    "K663_A_is_total_form_margin_retained": true,
+    "K669_factorization_route_retained": true,
+    "native_A_above_two_thirds_claimed": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_compensated_rows_preserve_fixed_A": true,
+    "auxiliary_remainder_ratios_are_distinct": true,
+    "fixed_A": "3/4",
+    "fixed_A_compensated_rows": [
+      {
+        "auxiliary_negative_remainder_ratio": "1/2",
+        "compensating_regular_margin": "5/4",
+        "identity": "compensating_regular_margin-auxiliary_negative_remainder_ratio=invariant_total_A",
+        "invariant_total_A": "3/4"
+      },
+      {
+        "auxiliary_negative_remainder_ratio": "1/4",
+        "compensating_regular_margin": "1",
+        "identity": "compensating_regular_margin-auxiliary_negative_remainder_ratio=invariant_total_A",
+        "invariant_total_A": "3/4"
+      },
+      {
+        "auxiliary_negative_remainder_ratio": "1/16",
+        "compensating_regular_margin": "13/16",
+        "identity": "compensating_regular_margin-auxiliary_negative_remainder_ratio=invariant_total_A",
+        "invariant_total_A": "3/4"
+      }
+    ],
+    "same_chart_distinct_A_rows": [
+      {
+        "compensating_regular_margin": "19/48",
+        "invariant_total_A": "1/3",
+        "same_auxiliary_negative_remainder_ratio": "1/16"
+      },
+      {
+        "compensating_regular_margin": "13/16",
+        "invariant_total_A": "3/4",
+        "same_auxiliary_negative_remainder_ratio": "1/16"
+      },
+      {
+        "compensating_regular_margin": "21/16",
+        "invariant_total_A": "5/4",
+        "same_auxiliary_negative_remainder_ratio": "1/16"
+      }
+    ],
+    "same_chart_ratio": "1/16",
+    "same_chart_rows_have_distinct_A": true,
+    "synthetic_controls_only": true
+  },
+  "gu_typed_objects": {
+    "carrier": "K647's complete K139/K168 common cancellation domain",
+    "coordinate": "a compensated K139 auxiliary resolvent-chart decomposition of that fixed total form",
+    "form": "the invariant total free-coordinate quadratic form ||a phi||^2+r_free[phi]",
+    "result": "auxiliary-chart A-margin custody MAP-TYPE=compensated-form nonidentifiability",
+    "target": "one native complete lower A for K663, not a raw chart contraction or remainder coefficient"
+  },
+  "ledger_no_change_reason": "This separates an auxiliary analytic coordinate from an invariant internal form margin and supplies no source-owned action, state, observable or empirical consequence.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_K669_factorization_identified": false,
+    "actual_auxiliary_chart_contraction_serialized": true,
+    "actual_compensating_regular_form_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_invariant_total_A_lower_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Keep the auxiliary ratio at 1/16 while varying the compensating regular margin so the invariant total A is 1/3, 3/4 or 5/4.",
+    "strongest_overclaim": "Reading a small auxiliary chart contraction as A>2/3 without controlling the compensating regular form on the complete domain.",
+    "weakest_reproducibility_seam": "Every proposed A bound must name the invariant total form and complete domain, not only one term of a compensated decomposition."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "No current artifact identifies K139's chart contraction with the full K663 free-coordinate form after the compensating regular term is included.",
+    "route_comparison": "K669 left a direct-A alternative open; K659 already proves that compensated auxiliary chart data do not determine a spectral floor, so the cheapest next test is whether the same custody defect infects A.",
+    "strongest_alternative": "The K669 same-domain factorization remains valid if its native operator identity is proved; K671 rejects only chart-only inference."
+  },
+  "result_id": "K671-K500-AUXILIARY-CHART-A-MARGIN-CUSTODY",
+  "schema_version": "1.0",
+  "scope": "Custody of K663's invariant total free-coordinate margin A under the compensated auxiliary boundary-chart changes already isolated by K659.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
