@@ -1,0 +1,89 @@
+{
+  "claim_ceiling": "Exact conditional ordinary-boundary-triple result: the gamma resolvent identity propagates one complete anchor norm to lambda=341/170 when the same authenticated Friedrichs reference has a quantitative spectral-distance lower on the real interval. The synthetic control then supplies K686's two gamma bounds and a positive transferred margin. Current native custody supplies no authenticated triple, reference, interval, spectral distance, anchor norm or denominator. No native denominator, r0, B, parity tail, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k689_k500_gamma_anchor_propagation_compiler_probe.py",
+    "producer": "tests/channel-swings/k689_k500_gamma_anchor_propagation_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_target_denominator_proved": false,
+    "next_exact_input": "Authenticate K139's complete ordinary boundary triple and Friedrichs reference on a real interval containing 341/170 and one anchor mu. Prove a quantitative distance from that interval to sigma(A_0), bound one complete gamma(mu), propagate the target gamma norm with K689, then combine with one nearby denominator margin through K686/K683.",
+    "one_anchor_plus_reference_gap_suffices_for_K686_gamma_pair": true
+  },
+  "dependency_reconciliation": {
+    "K657_Friedrichs_reference_requirement_retained": true,
+    "K683_same_coordinate_denominator_requirement_retained": true,
+    "K686_two_complete_gamma_norms_reduced_to_one_anchor_plus_gap": true,
+    "native_gamma_anchor_or_gap_added": false
+  },
+  "direction": "observed_to_native",
+  "failing_control": {
+    "anchor_gamma_norm": "1/5",
+    "lesson": "resolvent membership without a useful quantitative distance need not preserve K686's margin",
+    "propagated_target_gamma_norm_exceeds_one": true,
+    "reference_spectral_distance_lower": "1/100"
+  },
+  "gamma_resolvent_theorem": {
+    "anchor_from_different_boundary_triple_substitutable": false,
+    "complete_boundary_space_required": true,
+    "endpoint_membership_without_quantitative_gap_sufficient": false,
+    "finite_sector_gap_sufficient": false,
+    "identity": "gamma(lambda)=[I+(lambda-mu)(A_0-lambda)^-1] gamma(mu)",
+    "norm_bound": "||gamma(lambda)||<=[1+|lambda-mu|/dist(lambda,sigma(A_0))]||gamma(mu)||",
+    "real_interval_inside_reference_resolvent_required": true,
+    "same_boundary_coordinate_required": true,
+    "same_reference_required": true,
+    "uniform_interval_bound": "if dist(I,sigma(A_0))>=d>0, then one anchor g_mu gives ||gamma(lambda)||<=[1+|lambda-mu|/d]g_mu for every lambda in I"
+  },
+  "gu_typed_objects": {
+    "anchor": "one complete gamma(mu) norm at a real mu in rho(A_0)",
+    "reference": "the same complete Friedrichs reference A_0 used by K657 and K686",
+    "result": "gamma anchor propagation compiler MAP-TYPE=reference resolvent identity",
+    "spectral_gap": "a complete lower d(lambda)<=dist(lambda,sigma(A_0))",
+    "target": "gamma(lambda) at lambda=341/170 in the same boundary coordinate"
+  },
+  "ledger_no_change_reason": "This is a conditional ordinary-boundary-triple resolvent identity inside a repository-supplied operator model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_Friedrichs_reference_proved": false,
+    "actual_native_anchor_gamma_norm_proved": false,
+    "actual_native_boundary_triple_authenticated": false,
+    "actual_native_denominator_margin_proved": false,
+    "actual_native_real_interval_authenticated": false,
+    "actual_native_reference_spectral_distance_proved": false,
+    "actual_native_target_gamma_norm_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "As the target approaches reference spectrum the resolvent factor diverges, so one bounded anchor gamma norm alone gives no useful target bound.",
+    "strongest_overclaim": "Using qualitative resolvent membership, a finite-sector gap or a gamma norm from a different boundary coordinate as the complete propagation input.",
+    "weakest_reproducibility_seam": "The reference, trace coordinate, interval, spectral distance, anchor norm, fixed W and denominator margin must all be authenticated on the complete spectator-Fock boundary space."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K159 and K686 require gamma control but no current artifact propagates a native real anchor norm or supplies the complete reference spectral distance.",
+    "route_comparison": "K686 asks for complete gamma norms at two levels. The exact gamma resolvent identity reduces that to one anchor norm plus a quantitative reference spectral gap, which is cheaper than two independent norm estimates.",
+    "strongest_alternative": "Compute D_W(341/170) directly, bypassing gamma propagation, nearby-level transport and the reference gap estimate."
+  },
+  "result_id": "K689-K500-GAMMA-ANCHOR-PROPAGATION-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete ordinary-boundary-triple certificate that propagates one gamma-field anchor norm to K686's target level using an authenticated real reference-resolvent interval and spectral-distance lower bound.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_composition": {
+    "K686_weyl_variation_upper": "808/180625",
+    "accepted": true,
+    "anchor_gamma_norm": "1/5",
+    "anchor_mu": "21/10",
+    "controls_are_synthetic": true,
+    "level_distance": "8/85",
+    "nearby_denominator_margin": "1/100",
+    "propagation_factor": "101/85",
+    "reference_spectral_distance_lower": "1/2",
+    "target_gamma_norm_upper": "101/425",
+    "target_lambda": "341/170",
+    "transferred_target_margin": "3993/722500"
+  }
+}

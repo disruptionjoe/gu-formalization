@@ -7,6 +7,38 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K687--K689 countable-column, partial-Gram and gamma-anchor compilers (2026-09-30)
+
+K687 proves the constructive countable-column route. Closed component
+operators `C_j` define a closed Hilbert direct-sum column on the maximal domain
+`D_col={u in intersection Dom(C_j):sum_j||C_j u||^2<infinity}` whenever that
+domain is dense. A common graph core can prove density and completeness, but a
+finite coefficient bank, formal componentwise convergence or individual
+domain density cannot.
+
+K688 proves the exact positive partial-Gram interface. For
+`B_j=C_j a^-1` or `C_j a^-1 Q_seed`, uniform bounds on
+`G_N=sum_(j<=N)B_j^*B_j` construct and bound the complete column. One finite
+`G_N<=41/10000 I` plus complete tail `E_N<=1/400 I` gives
+`B^*B<=33/5000 I`, clearing `1/100` by `17/5000`. Sampled diagonal values and
+finite prefixes fail because a hidden positive rank-one direction or later
+component can have arbitrary norm.
+
+K689 proves the one-anchor gamma route. In one authenticated complete ordinary
+boundary triple,
+`gamma(lambda)=[I+(lambda-mu)(A_0-lambda)^-1]gamma(mu)`. A quantitative
+reference spectral distance therefore propagates one complete anchor norm to
+K686's target level. For `lambda=341/170`, `mu=21/10`, distance `1/2` and
+anchor norm `1/5`, the propagated norm is `101/425`; K686's variation is
+`808/180625` and a nearby margin `1/100` transfers to `3993/722500`.
+
+The K687 probe passes 32 controls and rejects 26/26 hostile mutations. K688
+passes 33 and rejects 27/27; K689 passes 34 and rejects 28/28. No native
+component family, dense square domain, Gram order, tail, boundary triple,
+Friedrichs proof, reference gap, gamma norm, denominator, `A`, `B`, floor,
+source, ledger, canon, paper, public, prediction, confirmation or physical
+conclusion follows.
+
 ## K684--K686 coefficient and gamma-field compilers (2026-09-30)
 
 K684 proves the closed-column route. A densely defined closed operator

@@ -26,6 +26,15 @@ def load_inputs() -> dict:
         "current": yaml.safe_load(CURRENT.read_text(encoding="utf-8")),
         "registry": registry,
         "agenda": json.loads((ROOT / basis["research_agenda"]["path"]).read_text()),
+        "k687": json.loads(
+            (ROOT / "lab/process/k687-k500-countable-closed-column-compiler.json").read_text()
+        ),
+        "k688": json.loads(
+            (ROOT / "lab/process/k688-k500-partial-gram-bound-compiler.json").read_text()
+        ),
+        "k689": json.loads(
+            (ROOT / "lab/process/k689-k500-gamma-anchor-propagation-compiler.json").read_text()
+        ),
         "dispositions": json.loads(
             (ROOT / basis["phenomenology_disposition_register"]["path"]).read_text()
         ),
@@ -330,10 +339,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K682" in live and "complete relative form inequality" in live and
               "K683" in live and "complete Weyl difference budget" in live,
               "live monotone-form, graph-relative or Weyl robustness compiler missing")
-        check("K684" in live and "closed column" in live and
-              "K685" in live and "component-square" in live and
-              "K686" in live and "complete gamma bounds" in live,
-              "live closed-column, component-budget or gamma-variation compiler missing")
+        check("K687" in live and "square-summable common domain" in live and
+              "K688" in live and "positive partial-Gram" in live and
+              "K689" in live and "anchor gamma norm" in live,
+              "live countable-column, partial-Gram or gamma-anchor compiler missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -419,6 +428,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "countably many closed component operators" in data["agenda"].get("latest_result_2026_09_30_k687_k689", "")
+        and "positive partial-Gram interface" in data["agenda"].get("latest_result_2026_09_30_k687_k689", "")
+        and "one complete gamma anchor" in data["agenda"].get("latest_result_2026_09_30_k687_k689", ""),
+        "agenda K687--K689 result is not current",
+    )
     check(
         "closed-column construction route" in data["agenda"].get("latest_result_2026_09_30_k684_k686", "")
         and "component operator bounds" in data["agenda"].get("latest_result_2026_09_30_k684_k686", "")
@@ -1014,6 +1029,37 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k680_n["actual_complete_B_lower_identified"] and
           not k680_n["native_complete_floor_emitted"],
           "K680 reference base-floor target or native ceiling moved")
+
+    k687 = data["k687"]
+    k687_t = k687["countable_column_theorem"]
+    k687_n = k687["native_interface_status"]
+    check(k687_t["density_hypothesis"] == "D_col is dense in H" and
+          not k687_t["finite_prefix_proves_complete_domain"] and
+          not k687_t["individual_component_density_proves_common_domain_density"] and
+          not k687_n["actual_native_column_closed"] and
+          not k687_n["native_complete_floor_emitted"],
+          "K687 countable-column compiler or native ceiling moved")
+
+    k688 = data["k688"]
+    k688_t = k688["partial_gram_theorem"]
+    k688_n = k688["native_interface_status"]
+    check(k688_t["identity"] == "||B x||^2=sum_j||B_j x||^2=sup_N <x,G_N x>" and
+          not k688_t["finite_partial_gram_without_tail_sufficient"] and
+          not k688_t["diagonal_matrix_elements_on_sampled_vectors_sufficient"] and
+          not k688_n["actual_native_partial_gram_order_proved"] and
+          not k688_n["native_complete_floor_emitted"],
+          "K688 partial-Gram compiler or native ceiling moved")
+
+    k689 = data["k689"]
+    k689_t = k689["gamma_resolvent_theorem"]
+    k689_n = k689["native_interface_status"]
+    check(k689_t["same_reference_required"] and
+          k689_t["complete_boundary_space_required"] and
+          not k689_t["finite_sector_gap_sufficient"] and
+          not k689_t["endpoint_membership_without_quantitative_gap_sufficient"] and
+          not k689_n["actual_native_target_gamma_norm_proved"] and
+          not k689_n["native_complete_floor_emitted"],
+          "K689 gamma-anchor compiler or native ceiling moved")
 
     k684 = data["k684"]
     k684_t = k684["closed_column_theorem"]
@@ -2082,6 +2128,19 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("k687-density", lambda d: d["k687"]["countable_column_theorem"].__setitem__("density_hypothesis", "optional"))
+    add("k687-prefix", lambda d: d["k687"]["countable_column_theorem"].__setitem__("finite_prefix_proves_complete_domain", True))
+    add("k687-native", lambda d: d["k687"]["native_interface_status"].__setitem__("actual_native_column_closed", True))
+    add("k687-floor", lambda d: d["k687"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k688-prefix", lambda d: d["k688"]["partial_gram_theorem"].__setitem__("finite_partial_gram_without_tail_sufficient", True))
+    add("k688-sampled", lambda d: d["k688"]["partial_gram_theorem"].__setitem__("diagonal_matrix_elements_on_sampled_vectors_sufficient", True))
+    add("k688-native", lambda d: d["k688"]["native_interface_status"].__setitem__("actual_native_partial_gram_order_proved", True))
+    add("k688-floor", lambda d: d["k688"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k689-reference", lambda d: d["k689"]["gamma_resolvent_theorem"].__setitem__("same_reference_required", False))
+    add("k689-gap", lambda d: d["k689"]["gamma_resolvent_theorem"].__setitem__("endpoint_membership_without_quantitative_gap_sufficient", True))
+    add("k689-native", lambda d: d["k689"]["native_interface_status"].__setitem__("actual_native_target_gamma_norm_proved", True))
+    add("k689-floor", lambda d: d["k689"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
 
     add("k684-closed", lambda d: d["k684"]["closed_column_theorem"].__setitem__("unclosed_column_sufficient", True))
     add("k684-bounded", lambda d: d["k684"]["bounded_realization"].__setitem__("factorization_without_bounded_column_sufficient", True))

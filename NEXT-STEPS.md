@@ -7,6 +7,24 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K687--K689 COUNTABLE COLUMN, POSITIVE PARTIAL GRAM AND GAMMA
+> ANCHOR.** K687 constructs K684's closed column from countably many closed
+> component operators on the dense maximal square-summable common domain; a
+> finite bank or formal common core is not enough. K688 gives the exact
+> positive-operator bound: uniform finite partial Grams, or one finite Gram
+> plus a complete positive tail, control both `C a^-1` and
+> `C a^-1 Q_seed`. The synthetic complement row is again `33/5000`, below
+> `1/100` by `17/5000`. K689 uses the gamma resolvent identity to propagate
+> one complete anchor norm across the same authenticated Friedrichs-reference
+> interval from a quantitative spectral-distance lower; its control leaves
+> margin `3993/722500` at `341/170`. Next serialize the native components,
+> dense maximal domain, same-form remainder identity and complete positive
+> Gram/tail orders; separately authenticate the boundary triple and prove one
+> anchor gamma norm, reference spectral gap and nearby denominator margin. See
+> `lab/process/k687-k500-countable-closed-column-compiler.json`,
+> `lab/process/k688-k500-partial-gram-bound-compiler.json`, and
+> `lab/process/k689-k500-gamma-anchor-propagation-compiler.json`.
+
 > **2026-09-30 K684--K686 CLOSED COLUMN, COMPONENT-SQUARE BUDGET AND GAMMA-
 > FIELD VARIATION.** K684 gives the coefficient-native construction route for
 > K681/K682: a densely defined closed complete column `C` produces

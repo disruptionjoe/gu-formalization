@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: aac4c52acc2d
+revision_basis: 010233c2ca5a
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K687--K689 reduce the remaining K684--K686 abstractions to component,
+    positive-Gram and one-anchor data without claiming native inputs. K687
+    proves that countably many closed component operators define a closed
+    Hilbert column on their maximal square-summable common domain once that
+    domain is independently dense; a complete graph core is one sufficient
+    construction route. Finite prefixes, formal components and individual
+    domain density do not prove the complete column. K688 replaces K685's
+    potentially wasteful scalar norm sum by the exact positive partial-Gram
+    interface: uniform bounds on every finite `sum B_j^*B_j`, or one finite
+    bound plus a complete positive tail, bound both `C a^-1` and
+    `C a^-1 Q_seed`. Its exact control again totals `33/5000`, below `1/100`
+    by `17/5000`. K689 reduces K686's two gamma norms to one complete anchor
+    norm plus a quantitative distance from the same Friedrichs reference
+    spectrum. Its synthetic anchor propagates by `101/85` and leaves target
+    denominator margin `3993/722500`. No native component family, dense
+    square domain, Gram order, tail, boundary triple, reference gap, gamma
+    norm, denominator, `r_free`, `T`, `R`, `A`, `B`, row, complete floor,
+    K473/K152 release, source, ledger, canon, paper, public or physical
+    conclusion moves.
+
     K684--K686 turn the two K681--K683 abstract routes into coefficient-level
     proof obligations. K684 shows that one explicitly supplied densely defined
     closed complete column `C` constructs `h[u]=||C u||^2`, its canonical
@@ -11896,7 +11916,13 @@ current_question: >-
   then reduces K677's complement row to complete component operator bounds and
   one square-tail budget totaling at most `1/100`. K686 independently reduces
   K683's Weyl-difference input to complete gamma-field norm bounds on one
-  authenticated real reference-resolvent interval.
+  authenticated real reference-resolvent interval. K687 now constructs the
+  closed column from individually closed `C_j` on the dense maximal domain
+  `D_col={u:sum_j||C_j u||^2<infinity}`. K688 turns uniform positive
+  partial-Gram order, or one finite Gram plus a complete positive tail, into
+  the required global and `Q_seed` bounds. K689 turns one complete gamma
+  anchor plus a quantitative distance to `sigma(A_0)` into both gamma norms
+  required by K686.
   K671 now rejects the auxiliary-chart contraction as that direct `A`: the
   compensating regular form can vary independently. K672 gives the invariant
   replacement: on one complete graph-domain finite/complement split, prove
@@ -12515,11 +12541,15 @@ next_condition: >-
   `D_W(341/170)>=0` and every reference, resolvent and sign premise. K683
   permits a nearby complete denominator row only with a same-coordinate
   complete Weyl difference budget or authenticated monotone interval. Serialize
-  the K684 native closed column and prove its bounded graph realization and
-  intertwiners; then execute K685's complete component-square complement packet
-  together with K676's three seed actions. Alternatively serialize the K681
+  the K687 native component family on one fixed carrier, prove the maximal
+  square-summable common domain dense and identify its column square with the
+  invariant remainder. Then prove K688's complete positive partial-Gram and
+  tail orders globally and after `Q_seed`, together with K676's three seed
+  actions and exact intertwiners. Alternatively serialize the K681
   form family and prove K682's packet, or prove K672 directly. Independently
-  authenticate K686's boundary triple and complete gamma bounds, instantiate
+  authenticate K686's boundary triple, Friedrichs reference and real interval,
+  then prove K689's one anchor gamma norm and quantitative reference spectral
+  gap plus one nearby denominator margin; instantiate
   K683/K680, and then every K665 finite row plus both parity tails. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely
   non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.

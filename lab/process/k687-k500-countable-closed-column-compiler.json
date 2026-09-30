@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "Exact conditional countable-column theorem: closed components C_j define a closed Hilbert direct-sum column on the maximal square-summable common domain, provided that domain is dense; a proved common graph core is one sufficient construction route. Finite prefixes, formal components and individual density do not prove the complete domain. Current native custody supplies no complete component family, dense maximal domain, graph-core equality or remainder identity. No native r_free, T, R, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k687_k500_countable_closed_column_compiler_probe.py",
+    "producer": "tests/channel-swings/k687_k500_countable_closed_column_compiler.py"
+  },
+  "core_route": {
+    "algebraic_common_core_without_graph_completeness_sufficient": false,
+    "finite_order_coefficient_bank_alone_sufficient": false,
+    "graph_completion_consequence": "the graph completion of D0 identifies the maximal closed column only after equality with D_col is proved",
+    "sufficient_core_packet": "supply a common dense core D0 subset D_col, prove every C_j closed on its declared maximal domain, and prove D0 is a core for the column graph norm ||u||^2+sum_j||C_j u||^2"
+  },
+  "countable_column_theorem": {
+    "closable_components_without_closure_sufficient": false,
+    "closedness_argument": "if u_n->u and C u_n->y in the Hilbert direct sum, then C_j u_n->y_j for every j; closedness of every C_j gives u in Dom(C_j), C_j u=y_j, and y in the direct sum gives u in D_col",
+    "component_hypothesis": "every C_j is closed",
+    "conclusion": "C is densely defined and closed, so K684 applies",
+    "density_hypothesis": "D_col is dense in H",
+    "domain_definition": "D_col={u in intersection_j Dom(C_j): sum_j ||C_j u||^2<infinity}",
+    "finite_prefix_proves_complete_domain": false,
+    "formal_componentwise_convergence_proves_square_summability": false,
+    "individual_component_density_proves_common_domain_density": false
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "countable_components_can_construct_K684_column": true,
+    "native_column_constructed": false,
+    "next_exact_input": "Serialize every native coefficient operator C_j on one fixed carrier, define the maximal square-summable common domain, prove it dense (preferably from a graph core), prove each component closed, and identify sum_j||C_j u||^2 with -r_free[u] on the complete K647 domain."
+  },
+  "dependency_reconciliation": {
+    "K678_custody_obstruction_retracted": false,
+    "K684_closed_column_hypothesis_reduced_to_component_data": true,
+    "K684_native_identification_requirement_retained": true,
+    "K685_complete_tail_requirement_retained": true,
+    "native_component_family_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "bounded_component_ratio": "sup_j j/(j+1)=1",
+    "column_closed": true,
+    "common_density_counterexample": "a countable family of closed densely defined operators can still have a nondense or trivial maximal square-summable common domain; density of that column domain must be proved in the fixed H",
+    "controls_are_synthetic": true,
+    "diagonal_domain": "D_col={u:sum_j j^2|u_j|^2<infinity}",
+    "diagonal_model": "H=l2(N), K_j=C, C_j u=j u_j",
+    "finite_prefix_counterexample": "for every N the first N components vanish on the basis vector e_(N+1), while the complete column norm is N+1",
+    "finite_sequences_dense": true,
+    "weight": "a_j=j+1"
+  },
+  "gu_typed_objects": {
+    "column": "C:D_col -> direct_sum_j K_j, C u=(C_j u)_j",
+    "components": "closed operators C_j from the invariant remainder carrier H into Hilbert component spaces K_j",
+    "maximal_domain": "D_col={u in intersection_j Dom(C_j): sum_j ||C_j u||^2<infinity}",
+    "result": "countable closed-column compiler MAP-TYPE=Hilbert direct-sum graph",
+    "target": "K684's densely defined closed complete coefficient column"
+  },
+  "ledger_no_change_reason": "This is a conditional Hilbert-column domain theorem inside a repository-supplied operator model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_column_closed": false,
+    "actual_native_common_domain_dense": false,
+    "actual_native_components_serialized": false,
+    "actual_native_maximal_square_domain_defined": false,
+    "actual_native_remainder_identified": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Every finite prefix misses an arbitrarily large later diagonal component, and common-domain density is logically independent of individual closedness.",
+    "strongest_overclaim": "Treating closed finite components, a formal coefficient list or an algebraic common core as a dense closed complete column.",
+    "weakest_reproducibility_seam": "The native component domains must live in one fixed carrier and the maximal square sum, density, graph-core equality and same-form remainder identity must all be explicit."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K179 serializes a finite coefficient family and K638--K648 serialize algebraic channel structure, but no current artifact defines the complete square-summable component domain or identifies its column square with the invariant remainder.",
+    "route_comparison": "K684 assumes one closed column. The cheapest constructive successor is the maximal square-summable domain theorem for closed components, rather than another abstract form family.",
+    "strongest_alternative": "K681 constructs the remainder from increasing closed forms and K672 bypasses factorization with a direct finite/complement/cross lower certificate."
+  },
+  "result_id": "K687-K500-COUNTABLE-CLOSED-COLUMN-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete countable-component construction of K684's closed coefficient column from individually closed operators on their maximal square-summable common domain.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

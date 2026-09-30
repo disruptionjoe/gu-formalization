@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "Exact conditional positive partial-Gram result: uniform order bounds on all finite sums of B_j*B_j define and bound the complete column, while one finite partial order plus a complete positive tail gives the same conclusion. Applied to C_j a^-1 and C_j a^-1 Q_seed this supplies K684's global boundedness and K685's complement budget without summing scalar operator norms. Current native custody supplies no such components, operator orders or tail. No native R, complement, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 33,
+    "hostile_mutations_rejected": 27,
+    "probe": "tests/channel-swings/k688_k500_partial_gram_bound_compiler_probe.py",
+    "producer": "tests/channel-swings/k688_k500_partial_gram_bound_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_graph_or_complement_bound_proved": false,
+    "next_exact_input": "After K687's native column is identified, prove a positive operator bound for every finite partial Gram of C_j a^-1 (and separately after Q_seed), or prove one finite partial bound plus a complete positive tail. For the complement require total order at most 1/100, then add K676's three seed actions and charge intertwiner.",
+    "positive_partial_grams_are_complete_bound_interface": true
+  },
+  "dependency_reconciliation": {
+    "K677_one_over_one_hundred_target_consumed": true,
+    "K684_bounded_column_interface_reduced": true,
+    "K685_sum_of_component_norms_replaced_by_sharper_operator_order_option": true,
+    "K687_complete_column_domain_consumed": true,
+    "native_partial_gram_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "accepted": true,
+    "complete_column_square_upper": "33/5000",
+    "complete_tail_gram_upper": "1/400",
+    "controls_are_synthetic": true,
+    "finite_partial_gram_upper": "41/10000",
+    "hidden_tail_counterexample": "append one undisplayed component of arbitrary norm after N while preserving G_N exactly",
+    "sampled_diagonal_counterexample": "the positive rank-one operator L|w><w| vanishes on every sampled vector orthogonal to w while its norm is L",
+    "slack": "17/5000",
+    "target": "1/100"
+  },
+  "gu_typed_objects": {
+    "bounded_components": "B_j=C_j a^-1 or B_j=C_j a^-1 Q_seed on one fixed input Hilbert space",
+    "partial_gram": "G_N=sum_(j<=N) B_j* B_j",
+    "result": "partial-Gram complete-column compiler MAP-TYPE=positive operator order",
+    "tail_gram": "E_N=sum_(j>N) B_j* B_j as a positive strong-form tail",
+    "targets": "K684 bounded C a^-1 and K685 ||C a^-1 Q_seed||^2<=1/100"
+  },
+  "ledger_no_change_reason": "This is a conditional positive-operator norm certificate inside a repository-supplied model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_bounded_components_serialized": false,
+    "actual_native_complete_tail_gram_proved": false,
+    "actual_native_global_graph_bound_proved": false,
+    "actual_native_partial_gram_order_proved": false,
+    "actual_native_seed_complement_below_one_over_one_hundred": false,
+    "native_complete_floor_emitted": false
+  },
+  "partial_gram_theorem": {
+    "component_scalar_coefficients_without_operator_domains_sufficient": false,
+    "diagonal_matrix_elements_on_sampled_vectors_sufficient": false,
+    "finite_partial_gram_without_tail_sufficient": false,
+    "finite_plus_tail_bound": "G_N<=g_N I and E_N<=v_N I imply B*B<= (g_N+v_N) I",
+    "global_consequence": "the same theorem with B_j=C_j a^-1 gives K684's bounded graph realization",
+    "identity": "||B x||^2=sum_j||B_j x||^2=sup_N <x,G_N x>",
+    "localized_consequence": "the same theorem with B_j=C_j a^-1 Q_seed gives K685's complete complement bound",
+    "uniform_partial_bound": "G_N<=q I for every N implies a bounded complete column B with ||B||^2<=q",
+    "weak_or_uncontrolled_tail_sufficient": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A hidden positive rank-one direction or one undisplayed component preserves every sampled or finite-prefix value while making the complete norm arbitrarily large.",
+    "strongest_overclaim": "Using one finite Gram prefix, sampled diagonal elements or a weakly described tail as a complete operator-order certificate.",
+    "weakest_reproducibility_seam": "Every B_j must share the same input domain and output direct-sum typing; the partial-Gram inequality and tail order must hold on the complete input space."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K609 and K685 contain scalar or component-square controls, but no current artifact proves a uniform complete positive partial-Gram order for the invariant remainder column.",
+    "route_comparison": "K685's sum of scalar component norms is sufficient but can be wasteful. Positive partial-Gram order is the exact complete-column quantity and covers both the global and localized graph bounds.",
+    "strongest_alternative": "K672 can certify A directly from finite/complement/cross form bounds without constructing any coefficient column."
+  },
+  "result_id": "K688-K500-PARTIAL-GRAM-BOUND-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete positive-operator certificate for K684's global graph realization and K685's seed-complement bound using finite partial Grams plus a rigorous full tail.",
+  "seed_composition": {
+    "K676_seed_actions_still_required": true,
+    "charge_intertwiner_still_required": true,
+    "partial_gram_bound_proves_native_remainder_identification": false,
+    "partial_gram_bound_proves_seed_identity": false
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
