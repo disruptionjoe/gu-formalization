@@ -3,6 +3,11 @@
   "artifact_type": "probe_authorship_domain_precondition_wave_certificate",
   "created": "2026-08-25",
   "status": "PASS",
+  "measurement_scope": {
+    "kind": "immutable_historical_wave",
+    "as_of": "2026-08-25",
+    "note": "The before/after counts below certify this wave only; they are not live corpus totals."
+  },
   "method_ref": "process_gates/probe_authorship_lint.py",
   "before": {
     "violations": 107,
@@ -59,6 +64,11 @@
       "empty_source_case_bank",
       "inconsistent_source_case_parts"
     ]
+  },
+  "live_control": {
+    "source": "process_gates/probe_authorship_lint.py",
+    "violation_assertion": "current violations do not exceed the live gate baseline, and the terminal zero baseline may not be raised",
+    "inventory_assertion": "current probe inventory is at least the historical after.probe_corpus; later probes are governed by the live gate rather than added to this certificate"
   },
   "effect": {
     "scientific_verdict_change": "none",

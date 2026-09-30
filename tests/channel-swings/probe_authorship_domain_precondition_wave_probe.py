@@ -38,10 +38,16 @@ violations = [
 ]
 
 check(data["schema_version"] == "1.0" and data["status"] == "PASS", "certificate schema and status")
+check(data["measurement_scope"]["kind"] == "immutable_historical_wave" and
+      data["measurement_scope"]["as_of"] == data["created"],
+      "certificate counts are explicitly historical")
 check(data["before"] == {"violations": 107, "probe_corpus": 983, "baseline": 107}, "entering ratchet frozen")
 check(data["after"]["repaired_violations"] == 9, "nine repairs recorded")
-check(len(violations) == baseline == data["after"]["violations"], "global lint matches the lowered ratchet")
-check(len(probe_paths) == data["after"]["probe_corpus"], "probe inventory matches the certificate")
+check(not violations and not baseline, "live lint remains at the terminal zero ratchet")
+check(len(probe_paths) >= data["after"]["probe_corpus"], "live probe inventory contains the historical wave")
+check(data["live_control"]["source"] == data["method_ref"] and
+      "live gate baseline" in data["live_control"]["violation_assertion"],
+      "live-control source and assertion are explicit")
 check(sum(packet["repaired_violations"] for packet in data["repair_packets"]) == 9, "packet repair counts close")
 
 touched = sorted({path for packet in data["repair_packets"] for path in packet["paths"]})

@@ -49,12 +49,15 @@ frontier_failures = frontier["audit"](frontier_data)
 
 check(data["schema_version"] == "1.0" and data["status"] == "PASS",
       "certificate schema and status")
+check(data["measurement_scope"]["kind"] == "immutable_historical_wave" and
+      data["measurement_scope"]["as_of"] == data["created"],
+      "certificate measurements are explicitly historical")
 check(data["typed_object_custody"]["before_red"] == 46,
       "entering typed-object red count frozen")
 check(typed_code == 0 and typed_stats["red"] == 0,
       "typed-object audit closes at zero reds")
-check(typed_stats["blocks"] == data["typed_object_custody"]["after_blocks"] == 181,
-      "typed-object block inventory closes")
+check(typed_stats["blocks"] >= data["typed_object_custody"]["after_blocks"] == 181,
+      "live typed-object inventory contains the historical wave")
 check(len(data["typed_object_custody"]["paths"]) == 15,
       "fifteen typed-object paths recorded")
 check(all((ROOT / path).is_file() for path in data["typed_object_custody"]["paths"]),
@@ -76,10 +79,18 @@ check(all("target_claim: NONE-NOT-A-KILL" in (ROOT / path).read_text(encoding="u
 agenda = ROOT / "lab/process/RESEARCH-AGENDA.json"
 agenda_digest = hashlib.sha256(agenda.read_bytes()).hexdigest()
 check(not frontier_failures, "current-frontier semantic currency passes")
-check(agenda_digest == data["frontier_currency"]["agenda_sha256"],
-      "agenda digest matches coupled certificate")
+check(data["frontier_currency"]["agenda_sha256"] ==
+      "7134940d4fbb51d280245cd567a316de56fc1a0b7ae05d38809641cf097b020a",
+      "historical agenda digest remains frozen")
+check(agenda_digest == frontier_data["registry"]["basis"]["research_agenda"]["sha256"],
+      "live agenda digest matches the current-frontier registry")
 check(data["frontier_currency"]["probe_authorship_state"] == "107/983",
-      "live authorship state is current")
+      "historical authorship state remains frozen")
+authorship = runpy.run_path(str(ROOT / "process_gates/probe_authorship_lint.py"))
+check(not authorship["LINT_BASELINE"],
+      "live probe-authorship control remains at the terminal zero ratchet")
+check("own live registry" in data["live_control"]["frontier_assertion"],
+      "live frontier-currency semantics are explicit")
 
 valid_block = """result: fixture
 carrier: object LAYER=toy CHIRALITY=N/A

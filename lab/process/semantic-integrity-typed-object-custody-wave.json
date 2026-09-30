@@ -3,6 +3,11 @@
   "artifact_type": "semantic_integrity_typed_object_custody_certificate",
   "created": "2026-08-25",
   "status": "PASS",
+  "measurement_scope": {
+    "kind": "immutable_historical_wave",
+    "as_of": "2026-08-25",
+    "note": "Wave counts, agenda digest, and authorship state below are historical measurements, not live corpus totals."
+  },
   "method_refs": [
     "process_gates/typed_carrier_declaration_audit.py",
     "process_gates/kill_target_claim_audit.py",
@@ -61,6 +66,11 @@
       "untyped_negative_target",
       "stale_agenda_digest"
     ]
+  },
+  "live_control": {
+    "typed_object_assertion": "the current typed-carrier audit has zero reds and at least the historical after_blocks inventory",
+    "frontier_assertion": "the current-frontier semantic-currency audit passes against its own live registry and agenda digest",
+    "authorship_assertion": "the current probe-authorship gate retains its terminal zero baseline"
   },
   "excluded_author_reserved_backlog": {
     "source_native_comparator_unclassified": 5,
