@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0a8bd5cf7bd2
+revision_basis: bc262a63d21b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K663--K664 sharpen the independent K642 complete-domain lower route and
+    add its certified cofinal compiler without moving a protected claim. K663
+    replaces K642's fixed Young parameter by the exact least eigenvalue
+    `lambda_-=(A+B-sqrt((A-B)^2+4 beta^2))/2` of the two-by-two comparison,
+    where `A=1-alpha`, `B=m-delta` and K642 gives `beta^2<1/256`. Strict
+    positivity is equivalent to `A>0`, `B>0`, `A B>beta^2`. The exact
+    synthetic control improves the certified floor from `1/4` to `5/8` and
+    proves sharpness with an exact Rayleigh vector. K664 transfers one-sided
+    complete-space approximation bounds through
+    `A_lower=1-alpha_hat-e_alpha` and
+    `B_lower=m_hat-e_m-delta_hat-e_delta`; its three synthetic controls give
+    monotone floors `1/2`, `9/16`, `5/8`. Direct complete `A,B` certificates
+    are admissible, so native use need not identify `m` and `delta`
+    separately. Finite blocks, sampled sectors and uncontrolled complements
+    fail closed. No native `A`, `B`, error packet, complete floor, `s`,
+    denominator, `r0`, `b`, tail, `m`, `alpha` or `delta` is supplied. No
+    K473 beta, K152 interval, source, ledger, canon, paper, public or physical
+    conclusion moves.
+
     K661--K662 close the Friedrichs-reference custody inference and classify
     the full bounded reference-preserving coordinate group without moving a
     protected claim. K661 gives one exact semibounded interval-Laplacian
@@ -11663,7 +11682,14 @@ current_question: >-
   boundary form `B >= m` it proves the dimension-free estimate
   `q_B >= min(1/2,m-1/128)||.||_G^2`; a same-domain remainder with lower
   control `(alpha,delta)` yields
-  `min(1/2-alpha,m-delta-1/128)`. K643 now proves that every K179 exchange
+  `min(1/2-alpha,m-delta-1/128)`. K663 now sharpens this to
+  `lambda_-=(A+B-sqrt((A-B)^2+4 beta^2))/2` for `A=1-alpha` and
+  `B=m-delta`, with strict positivity exactly when
+  `A>0`, `B>0`, `A B>beta^2`. K664 compiles complete one-sided cofinal
+  bounds into `A_lower,B_lower`; finite blocks, sampled sectors and
+  uncontrolled spectator complements fail closed. Direct complete `A,B`
+  certificates are allowed, so separate `m,delta` identification is not
+  required. K643 now proves that every K179 exchange
   monomial preserves bath number, so a future closed coefficient form reduces
   as `B=direct_sum_n B_n` and its global lower is the uniform infimum
   `m=inf_n m_n`; a finite prefix is not a tail bound. K644 gives the exact
@@ -12255,7 +12281,16 @@ next_condition: >-
   carries spectator Fock degrees of freedom. K642 constructs the corresponding
   operator-valued graph theorem on `C^6 tensor H_spec`: `B >= m` gives floor
   `min(1/2,m-1/128)`, and a controlled same-domain remainder gives
-  `min(1/2-alpha,m-delta-1/128)`. K643 reduces the missing boundary form to
+  `min(1/2-alpha,m-delta-1/128)`. K663 now sharpens this to the exact
+  two-by-two floor
+  `lambda_-=(A+B-sqrt((A-B)^2+4 beta^2))/2`, with `A=1-alpha`,
+  `B=m-delta`; a strict positive floor is equivalent to
+  `A>0`, `B>0`, `A B>beta^2`. K664 gives the fail-closed cofinal compiler:
+  certify complete one-sided lower margins `A_lower,B_lower` and the fixed
+  `beta_upper`, including all spectator complements, then apply the same
+  formula. Direct native `A,B` certificates are sufficient; separate `m` and
+  `delta` identification is not required. Finite blocks and sampled sectors
+  remain insufficient. K643 reduces the missing boundary form to
   bath-number sectors and proves `m=inf_n m_n`, with a required uniform tail.
   K644 reduces each `m_n` to the actual six-channel diagonal floors and
   fifteen off-diagonal coupling bounds through a scalar comparison matrix,
@@ -12313,7 +12348,10 @@ next_condition: >-
   precise: serialize the minimal closed form and complete trace maps, identify
   its Friedrichs operator with `ker(Gamma_0)`, and prove every regulator change
   has bounded `U,C` before certifying the real-level margin.
-  Only afterward certify `alpha,delta`. The raw
+  Independently certify complete `A=1-alpha` and `B=m-delta` directly or by
+  K664's one-sided cofinal packet; do not invent separate constants when only
+  their effective margins are controlled. This is the remaining
+  `alpha,delta` obligation in compressed form. The raw
   K644 rows remain a valid sufficient route if
   their same-domain boundedness is independently proved. Neither route may
   split the singular exchange factors before cancellation, substitute a

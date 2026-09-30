@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k663": json.loads(
+            (ROOT / "lab/process/k663-k500-sharp-cancellation-graph-floor.json").read_text()
+        ),
+        "k664": json.loads(
+            (ROOT / "lab/process/k664-k500-cofinal-effective-margin-transfer.json").read_text()
+        ),
         "k661": json.loads(
             (ROOT / "lab/process/k661-k500-friedrichs-reference-nonidentifiability.json").read_text()
         ),
@@ -222,6 +228,11 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K662" in live and "D'=U^{-*}DU^{-1}" in live and
               "condition-number bounds" in live,
               "live reference-preserving coordinate group missing")
+        check("K663" in live and "lambda_-" in live and "A B>beta^2" in live,
+              "live sharp cancellation-graph floor missing")
+        check("K664" in live and "A_lower,B_lower" in live and
+              "spectator complements" in live,
+              "live cofinal effective-margin transfer missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -231,6 +242,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K663--K664 sharpen the independent K642 complete-domain lower route" in summary,
+          "current K663--K664 result lost")
     check("K661--K662 close the Friedrichs-reference custody inference" in summary,
           "current K661--K662 result lost")
     check("K659--K660 close the auxiliary-chart custody question" in summary,
@@ -306,6 +319,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "optimal scalar-information floor"
+        in data["agenda"].get("latest_result_2026_09_30_k663_k664", "")
+        and "A_lower=1-alpha_hat-e_alpha"
+        in data["agenda"].get("latest_result_2026_09_30_k663_k664", ""),
+        "agenda K663--K664 result is not current",
+    )
     check(
         "symplectically swapped Neumann non-Friedrichs reference"
         in data["agenda"].get("latest_result_2026_09_30_k661_k662", "")
@@ -659,6 +679,49 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k660_n["actual_native_denominator_serialized"] and
           not k660_n["K473_released"],
           "K660 native interface ceiling moved")
+
+    k663 = data["k663"]
+    k663_t = k663["sharp_floor_theorem"]
+    k663_c = k663["exact_control"]
+    k663_n = k663["native_interface_status"]
+    check(k663_t["comparison_matrix"] == "[[A,-beta],[-beta,B]]" and
+          k663_t["sharp_for_declared_scalar_information"] and
+          k663_t["dimension_free"] and
+          k663_t["complete_spectator_space_required"] and
+          k663_t["positive_floor_iff"] == "A>0, B>0 and A*B>beta^2" and
+          k663_t["young_optimization_recovers_lambda_minus"],
+          "K663 sharp floor theorem moved")
+    check(k663_c["sharp_conservative_floor"] == "5/8" and
+          k663_c["K642_fixed_floor"] == "1/4" and
+          k663_c["strict_improvement"] and
+          k663_c["determinant_margin"] == "125/256" and
+          k663_c["rayleigh_equals_floor"] and
+          not k663_n["actual_complete_effective_A_identified"] and
+          not k663_n["actual_complete_effective_B_identified"] and
+          not k663_n["named_complete_sector_floor_emitted"],
+          "K663 control or native-interface ceiling moved")
+
+    k664 = data["k664"]
+    k664_t = k664["transfer_theorem"]
+    k664_c = k664["exact_controls"]
+    k664_n = k664["native_interface_status"]
+    check(k664_t["same_complete_domain_required"] and
+          k664_t["complete_spectator_complement_required"] and
+          not k664_t["finite_block_only_sufficient"] and
+          not k664_t["sampled_sector_only_sufficient"] and
+          not k664_t["uncontrolled_complement_allowed"] and
+          k664_t["one_sided_error_orientation_required"],
+          "K664 cofinal transfer theorem moved")
+    check(k664_c["all_rows_positive"] and
+          k664_c["floors_monotone"] and
+          k664_c["floors"] == ["1/2", "9/16", "5/8"] and
+          k664_c["terminal_floor_matches_K663_control"] and
+          k664_c["finite_block_only_rejected"] and
+          k664_c["sampled_sector_only_rejected"] and
+          k664_c["uncontrolled_complement_rejected"] and
+          not k664_n["actual_native_cofinal_packet_identified"] and
+          not k664_n["named_complete_sector_floor_emitted"],
+          "K664 controls or native-interface ceiling moved")
 
     k661 = data["k661"]
     k661_i = k661["interval_control"]
@@ -1555,6 +1618,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k662-nonunitary-invariant", lambda d: d["k662"]["coordinate_group_theorem"].__setitem__("numerical_floor_invariant_for_general_U", True))
     add("k662-error", lambda d: d["k662"]["exact_controls"].__setitem__("error_bound_holds", False))
     add("k662-authenticate", lambda d: d["k662"]["composition"].__setitem__("K139_regulator_coordinates_already_authenticated_in_group", True))
+    add("k663-floor", lambda d: d["k663"]["exact_control"].__setitem__("sharp_conservative_floor", "1/4"))
+    add("k663-threshold", lambda d: d["k663"]["sharp_floor_theorem"].__setitem__("positive_floor_iff", "A>0 and B>0"))
+    add("k663-native", lambda d: d["k663"]["native_interface_status"].__setitem__("actual_complete_effective_A_identified", True))
+    add("k663-sharp", lambda d: d["k663"]["exact_control"].__setitem__("rayleigh_equals_floor", False))
+    add("k664-finite", lambda d: d["k664"]["transfer_theorem"].__setitem__("finite_block_only_sufficient", True))
+    add("k664-sampled", lambda d: d["k664"]["transfer_theorem"].__setitem__("sampled_sector_only_sufficient", True))
+    add("k664-floors", lambda d: d["k664"]["exact_controls"].__setitem__("floors", ["1/2"]))
+    add("k664-complement", lambda d: d["k664"]["exact_controls"].__setitem__("uncontrolled_complement_rejected", False))
+    add("k664-native", lambda d: d["k664"]["native_interface_status"].__setitem__("actual_native_cofinal_packet_identified", True))
     add("k657-equivalence", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("equivalence", "false"))
     add("k657-basis", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("theorem_basis", "unknown"))
     add("k657-shift", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("scalar_shift", "unknown"))

@@ -1,0 +1,138 @@
+{
+  "claim_ceiling": "Exact conditional cofinal transfer for K663's complete-space floor. Certified one-sided estimates give A_lower=1-alpha_hat-e_alpha and B_lower=m_hat-e_m-delta_hat-e_delta; together with beta<=beta_upper they yield the displayed sharp conservative floor and the determinant positivity test. Direct complete A,B certificates are equally admissible, so separate native identification of m and delta is unnecessary if their effective difference is controlled. Finite blocks, sampled sectors and uncontrolled complements fail closed. The synthetic rows certify floors 1/2, 9/16 and 5/8 only as controls. No native margin packet, complete-sector floor, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition": {
+    "K642_complete_space_typing_retained": true,
+    "K647_same_domain_identity_not_replaced": true,
+    "K648_native_parity_form_interface_not_replaced": true,
+    "K663_sharp_floor_consumed": true,
+    "native_effective_margin_packet_supplied": false
+  },
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k664_k500_cofinal_effective_margin_transfer_probe.py",
+    "producer": "tests/channel-swings/k664_k500_cofinal_effective_margin_transfer.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "cofinal_effective_margin_shape_complete": true,
+    "native_floor_supplied": false,
+    "next_exact_input": "On K647's complete common domain, serialize either direct complete lower margins A_N,B_N or one-sided alpha_N,m_N,delta_N estimates with complete complement error radii. Require A_N B_N>beta^2 uniformly or at one certified terminal index, then compose the resulting floor through K648/K646.",
+    "separate_alpha_delta_m_packet_strictly_required": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_rows_positive": true,
+    "beta_upper": "1/16",
+    "controls_are_synthetic": true,
+    "finite_block_only_rejected": true,
+    "floors": [
+      "1/2",
+      "9/16",
+      "5/8"
+    ],
+    "floors_monotone": true,
+    "rows": [
+      {
+        "A_lower": "5/8",
+        "B_lower": "17/32",
+        "alpha_error": "1/16",
+        "alpha_hat": "5/16",
+        "beta_upper": "1/16",
+        "certified_floor": "1/2",
+        "delta_error": "1/32",
+        "delta_hat": "1/8",
+        "determinant_margin": "21/64",
+        "index": 4,
+        "m_error": "1/16",
+        "m_hat": "3/4",
+        "positive_floor": true
+      },
+      {
+        "A_lower": "11/16",
+        "B_lower": "19/32",
+        "alpha_error": "1/32",
+        "alpha_hat": "9/32",
+        "beta_upper": "1/16",
+        "certified_floor": "9/16",
+        "delta_error": "1/32",
+        "delta_hat": "1/16",
+        "determinant_margin": "207/512",
+        "index": 8,
+        "m_error": "1/32",
+        "m_hat": "23/32",
+        "positive_floor": true
+      },
+      {
+        "A_lower": "3/4",
+        "B_lower": "21/32",
+        "alpha_error": "1/64",
+        "alpha_hat": "15/64",
+        "beta_upper": "1/16",
+        "certified_floor": "5/8",
+        "delta_error": "1/32",
+        "delta_hat": "9/128",
+        "determinant_margin": "125/256",
+        "index": 16,
+        "m_error": "1/128",
+        "m_hat": "49/64",
+        "positive_floor": true
+      }
+    ],
+    "sampled_sector_only_rejected": true,
+    "terminal_floor": "5/8",
+    "terminal_floor_matches_K663_control": true,
+    "uncontrolled_complement_rejected": true
+  },
+  "gu_typed_objects": {
+    "carrier": "the complete K642/K663 common spectator-Fock cancellation domain, unchanged across the cofinal family",
+    "form": "one-sided certified intervals for alpha, m and delta, or directly for A=1-alpha and B=m-delta",
+    "pairing": "the same complete graph norm and fixed matched-trace constant beta at every index",
+    "result": "cofinal effective-margin certificate MAP-TYPE=interval lower transfer",
+    "target": "a machine-checkable sufficient packet for a native K663 floor without separately resolving m and delta when B is certified directly"
+  },
+  "ledger_no_change_reason": "The transfer theorem only compiles hypothetical complete internal estimates and supplies no native estimates, physical quotient, state, observable or source-owned action result.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_native_cofinal_packet_identified": false,
+    "actual_native_error_radii_identified": false,
+    "named_complete_sector_floor_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "An arbitrarily negative uncontrolled complement can preserve every sampled lower row while destroying the global floor.",
+    "strongest_overclaim": "Using finite parity blocks or sampled bath sectors as if their error radii controlled the complete spectator complement.",
+    "weakest_reproducibility_seam": "The control rows are synthetic; native use begins only after complete-domain one-sided error certificates are serialized."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K658 transfers a Weyl denominator in operator norm, but no current artifact transfers K642/K663's effective same-domain form margins with the correct one-sided error directions.",
+    "route_comparison": "After K663 removes the analytic loss, a cofinal error compiler is the cheapest exact bridge between future native estimates and the sharp complete-space floor.",
+    "strongest_alternative": "Direct complete A and B proofs remain stronger and are explicitly accepted by this interface without forcing separate m and delta bookkeeping."
+  },
+  "result_id": "K664-K500-COFINAL-EFFECTIVE-MARGIN-TRANSFER",
+  "schema_version": "1.0",
+  "scope": "Certified complete-space transfer from cofinal one-sided estimates for K663's two effective margins to a conservative sharp cancellation-graph floor.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "transfer_theorem": {
+    "certified_floor": "(A_lower+B_lower-sqrt((A_lower-B_lower)^2+4 beta_upper^2))/2",
+    "complete_spectator_complement_required": true,
+    "direct_A_B_certificates_allowed": true,
+    "effective_lower_A": "A_lower=1-alpha_hat-e_alpha",
+    "effective_lower_B": "B_lower=m_hat-e_m-delta_hat-e_delta",
+    "endpoint_zero_floor_allowed": true,
+    "finite_block_only_sufficient": false,
+    "input_bounds": "alpha<=alpha_hat+e_alpha; m>=m_hat-e_m; delta<=delta_hat+e_delta; beta<=beta_upper",
+    "one_sided_error_orientation_required": true,
+    "positive_floor_iff": "A_lower>0, B_lower>0 and A_lower*B_lower>beta_upper^2",
+    "same_complete_domain_required": true,
+    "sampled_sector_only_sufficient": false,
+    "separate_m_delta_identification_required": false,
+    "uncontrolled_complement_allowed": false
+  }
+}

@@ -7,6 +7,22 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K663--K664 SHARP CANCELLATION FLOOR AND COFINAL EFFECTIVE
+> MARGINS.** K663 optimizes K642's complete same-domain graph estimate. With
+> `A=1-alpha`, `B=m-delta` and matched-trace norm `beta`, the sharp floor from
+> the declared scalar information is
+> `lambda_-=(A+B-sqrt((A-B)^2+4 beta^2))/2`; it is strictly positive exactly
+> when `A>0`, `B>0`, `A B>beta^2`. The exact synthetic control improves the
+> old fixed-Young floor from `1/4` to `5/8`. K664 compiles certified one-sided
+> complete-space approximants into lower margins `A_lower,B_lower` and applies
+> the same formula; its synthetic floors are `1/2`, `9/16`, `5/8`. Direct
+> complete `A,B` estimates are allowed, so native work need not split `m` and
+> `delta` when only their difference is controlled. Next serialize either
+> direct complete margins or cofinal one-sided estimates with every spectator
+> complement controlled, then compose the certified floor through K648/K646.
+> Finite blocks and sampled sectors do not suffice. No native floor, K473 beta,
+> K152 interval, source, ledger or physical conclusion moves.
+
 > **2026-09-30 K661--K662 FRIEDRICHS-REFERENCE CUSTODY AND COMPLETE SAFE
 > COORDINATE GROUP.** K661 proves that ordinary-boundary-triple validity,
 > semiboundedness and even exact norm-resolvent convergence do not identify a

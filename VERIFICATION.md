@@ -7,6 +7,34 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K663--K664 sharp cancellation floor and cofinal effective margins (2026-09-30)
+
+K663 sharpens K642 on the same complete spectator-Fock cancellation domain.
+Writing `A=1-alpha`, `B=m-delta` and
+`beta=||L_op a^-1||`, the exact two-coordinate comparison matrix is
+`[[A,-beta],[-beta,B]]`. Its least eigenvalue is
+`lambda_-=(A+B-sqrt((A-B)^2+4 beta^2))/2`, which is the optimal lower bound
+obtainable from those scalar margins. Strict positivity is equivalent to
+`A>0`, `B>0`, `A B>beta^2`. An exact synthetic control with
+`A=3/4`, `B=21/32`, `beta=1/16` has floor `5/8`, achieved by the Rayleigh
+vector `(1,-2)`; K642's fixed-Young bound on the same row is only `1/4`.
+The producer passes 22 controls and its independent probe rejects 18/18
+hostile mutations.
+
+K664 proves the one-sided interval transfer. Certified bounds
+`alpha<=alpha_hat+e_alpha`, `m>=m_hat-e_m`,
+`delta<=delta_hat+e_delta` give
+`A_lower=1-alpha_hat-e_alpha` and
+`B_lower=m_hat-e_m-delta_hat-e_delta`; substituting these and a certified
+`beta_upper` in K663's formula yields a conservative complete-space floor.
+Direct complete `A,B` certificates are also admissible, so separate native
+identification of `m` and `delta` is unnecessary. Three exact synthetic rows
+give monotone floors `1/2`, `9/16`, `5/8`. The producer passes 24 controls and
+its independent probe rejects 20/20 hostile mutations. Finite blocks, sampled
+sectors and uncontrolled spectator complements are explicitly insufficient.
+No native effective margins, error radii, complete floor, K473 release or K152
+interval follows.
+
 ## K661--K662 Friedrichs custody and safe coordinate group (2026-09-30)
 
 K661 proves a custody-relative nonidentifiability result. For the minimal

@@ -1,0 +1,98 @@
+{
+  "claim_ceiling": "Exact sharp refinement of K642's conditional complete-space cancellation-graph theorem. With effective margins A=1-alpha and B=m-delta and matched-trace norm beta, the optimal scalar-information floor is the least eigenvalue lambda_- of [[A,-beta],[-beta,B]], and strict positivity is equivalent to A>0, B>0 and A*B>beta^2. The synthetic exact control improves K642's fixed-Young floor from 1/4 to 5/8. No native A, B, m, alpha, delta, complete-sector floor, K473 beta, K152 interval, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition": {
+    "K642_complete_space_typing_retained": true,
+    "K642_native_constants_created": false,
+    "K642_trace_bound_retained": true,
+    "K664_consumes_effective_margin_intervals": true,
+    "effective_margin_A": "1-alpha",
+    "effective_margin_B": "m-delta",
+    "separate_native_m_and_delta_not_required_if_B_is_certified_directly": true
+  },
+  "controls": {
+    "controls_passed": 22,
+    "hostile_mutations_rejected": 18,
+    "probe": "tests/channel-swings/k663_k500_sharp_cancellation_graph_floor_probe.py",
+    "producer": "tests/channel-swings/k663_k500_sharp_cancellation_graph_floor.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "K642_fixed_floor_strictly_sharpened": true,
+    "native_data_burden_reduced_to_two_effective_margins": true,
+    "native_floor_supplied": false,
+    "next_exact_input": "Certify complete-space lower A=1-alpha and B=m-delta directly, or provide cofinal lower approximants and one-sided error radii to K664. Positivity then requires A*B>beta^2 with K642's fixed beta^2<1/256."
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "A": "3/4",
+    "B": "21/32",
+    "K642_fixed_floor": "1/4",
+    "alpha": "1/4",
+    "beta_upper": "1/16",
+    "beta_upper_squared": "1/256",
+    "controls_are_synthetic": true,
+    "delta": "3/32",
+    "determinant_margin": "125/256",
+    "discriminant": "25/1024",
+    "discriminant_sqrt": "5/32",
+    "m": "3/4",
+    "positive_floor_test_passes": true,
+    "rayleigh_equals_floor": true,
+    "sharp_conservative_floor": "5/8",
+    "sharp_vector": [
+      "1",
+      "-2"
+    ],
+    "sharp_vector_rayleigh_quotient": "5/8",
+    "strict_improvement": true
+  },
+  "gu_typed_objects": {
+    "carrier": "K642's complete spectator-amplified cancellation domain with graph coordinates x=||a phi|| and y=||c||",
+    "form": "q_B+r bounded by A x^2+2 beta x y+B y^2 with A=1-alpha and B=m-delta",
+    "pairing": "the graph norm x^2+y^2 on the single K642 common domain",
+    "result": "sharp cancellation-graph lower theorem MAP-TYPE=two-by-two Rayleigh quotient",
+    "target": "the strongest floor inferable from complete effective margins A,B and the matched-trace norm beta"
+  },
+  "ledger_no_change_reason": "This sharpens a conditional internal lower theorem but supplies no native coefficient margins, physical quotient, state, observable or source-owned action result.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_effective_A_identified": false,
+    "actual_complete_effective_B_identified": false,
+    "actual_native_alpha_delta_identified": false,
+    "actual_native_m_identified": false,
+    "named_complete_sector_floor_emitted": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "If A*B<=beta^2 with A,B positive, the two-by-two comparison has a nonpositive direction, so separate positive diagonal margins do not suffice.",
+    "strongest_overclaim": "Calling the optimized conditional floor a native K139/K168 lower bound without complete A and B certificates.",
+    "weakest_reproducibility_seam": "The theorem is sharp for the declared scalar margins; native use still requires complete-space rather than sampled or finite-sector certificates."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K642 proves min(1/2-alpha,m-delta-1/128) but does not optimize its two graph coordinates or state the exact determinant threshold.",
+    "route_comparison": "The K139 Friedrichs route remains data-blocked, while K642's independent complete-domain theorem contains an avoidable fixed-Young loss that can be removed exactly.",
+    "strongest_alternative": "A native K652 all-order form floor would be stronger but still lacks complete A_s,D_s,K_s inputs."
+  },
+  "result_id": "K663-K500-SHARP-CANCELLATION-GRAPH-FLOOR",
+  "schema_version": "1.0",
+  "scope": "Sharp optimization of K642's complete same-domain two-component cancellation-graph lower theorem on C^6 tensor H_spec.",
+  "sharp_floor_theorem": {
+    "K642_fixed_epsilon_is_valid_but_not_sharp": true,
+    "comparison_matrix": "[[A,-beta],[-beta,B]]",
+    "complete_spectator_space_required": true,
+    "dimension_free": true,
+    "finite_boundary_matrix_required": false,
+    "hypotheses": "A=1-alpha, B=m-delta, beta=||L_op a^-1||, all on K642's one complete common form domain",
+    "positive_floor_iff": "A>0, B>0 and A*B>beta^2",
+    "semibounded_floor_requires_positive_A_B": false,
+    "sharp_floor": "lambda_-=(A+B-sqrt((A-B)^2+4 beta^2))/2",
+    "sharp_for_declared_scalar_information": true,
+    "young_family": "min(A-epsilon,B-beta^2/epsilon), epsilon>0",
+    "young_optimization_recovers_lambda_minus": true
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
