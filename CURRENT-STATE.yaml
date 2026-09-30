@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6dfbf7959f5d
+revision_basis: 60fd9a55546b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K657--K658 convert K656's missing base floor into one exact
+    boundary/Weyl certificate path without moving a protected claim. K657
+    states the ordinary-boundary-triple equivalence in a declared sign
+    convention: when the underlying symmetric operator is semibounded by
+    `-s`, the `Gamma_0` reference is its Friedrichs extension, `-s` lies in
+    that reference resolvent, `M(-s)` is bounded, the target extension is
+    self-adjoint and `D_W(-s)=W-M(-s)` is complete on the full spectator-Fock
+    boundary space, `D_W(-s)>=0` is equivalent to `A_W>=-s`. This would give
+    K656 `r0=-s` and `b=-s-2`; a finite impurity matrix or sampled sectors do
+    not suffice. K658 proves the exact cofinal transfer: if the same-coordinate
+    complete-space approximant has `D_N(-s)>=d_N I` and
+    `||D_N(-s)-D(-s)||<=eta_N`, then
+    `D(-s)>=(d_N-eta_N)I`. Thus `d_N>=eta_N` closes K657 conditionally,
+    including the zero-margin endpoint. An uncontrolled spectator-Fock
+    complement fails the certificate even when the displayed finite block is
+    positive. No native `s`, `d_N`, `eta_N`, denominator, `r0`, `b`, tail,
+    `m`, `alpha` or `delta` is supplied. No K473 beta, K152 interval, source,
+    ledger, canon, paper, public or physical conclusion moves.
+
     K655--K656 resolve the target-selection question left by K653--K654
     without moving a protected claim. K655 composes K612's custody family
     with the shifted test: for every finite proposed `b` inferred only from
@@ -11646,12 +11665,25 @@ current_question: >-
   operator lacks a floor. K656 identifies the sharp repair: prove one
   complete same-domain base lower `R0>=r0 M`; K168 then gives
   `R_ref>=(r0-2)M`, so `b=r0-2` holds on the complete form and every parity
-  and bath compression. Derive that actual native `r0`, then separately
-  certify `alpha,delta`. Synthetic controls do not supply `r0` or `b`.
+  and bath compression. K657 now gives the exact boundary/Weyl floor
+  criterion at a proposed real level `-s`: in one declared ordinary-boundary-
+  triple sign convention, with a semibounded underlying symmetric operator,
+  the `Gamma_0` reference equal to its Friedrichs extension, `-s` in that
+  reference resolvent, bounded `M(-s)`, a self-adjoint target extension and
+  the full spectator-Fock denominator,
+  `D_W(-s)>=0` is equivalent to `A_W>=-s`, hence `r0=-s` and `b=-s-2`.
+  K658 gives the cofinal proof shape on that complete boundary space:
+  `D_N(-s)>=d_N I` and `||D_N(-s)-D(-s)||<=eta_N` imply
+  `D(-s)>=(d_N-eta_N)I`; require `d_N>=eta_N`. Derive one actual native `s`,
+  same-coordinate `d_N`, complete-space `eta_N`, and verify K657's Friedrichs,
+  bounded-Weyl and sign premises; then separately certify `alpha,delta`. Finite impurity
+  matrices, sampled sectors, uncontrolled complements and Synthetic controls
+  do not supply `r0` or `b`.
   The raw K644 twelve-plus-thirty route remains valid only if
   its separated factors are independently proved same-domain bounded.
-  K612's custody gap is now sharpened to the single complete base-floor input
-  `r0`. Do not collapse spectator Fock
+  K612's custody gap is now sharpened to one complete operator-denominator
+  margin packet at a proposed `-s`, which would supply the base-floor input
+  `r0=-s`. Do not collapse spectator Fock
   space to `C^6`, call algebraic labels physical ranges, import K168's
   three-dimensional `m=-2`, report `-257/128` as native or apply K642 without
   the missing same-form identity.
@@ -12194,13 +12226,20 @@ next_condition: >-
   These are not actual native sectors. K656 gives the sharp new-data route:
   derive one complete same-domain base lower `R0>=r0 M`, then use K168's
   order to set `b=r0-2` simultaneously on the complete form and every
-  bath/parity compression. Only afterward certify `alpha,delta`. The raw
+  bath/parity compression. K657--K658 now give a precise boundary/Weyl route
+  to that input: at one proposed `-s`, verify the ordinary-boundary-triple
+  Friedrichs-reference, bounded-Weyl and sign premises, then prove a same-coordinate full-boundary
+  approximant floor `d_N` and complete operator-norm error `eta_N` with
+  `d_N>=eta_N`. This yields `D(-s)>=0`, `r0=-s` and `b=-s-2`. A finite
+  impurity block or uncontrolled spectator complement cannot close it. Only
+  afterward certify `alpha,delta`. The raw
   K644 rows remain a valid sufficient route if
   their same-domain boundedness is independently proved. Neither route may
   split the singular exchange factors before cancellation, substitute a
   scalar three-channel model or treat a finite prefix as a tail.
-  K612's cancelled-core custody gap now reduces to obtaining the numerical
-  complete base lower `r0`; until it is proved, neither `m=-2` nor
+  K612's cancelled-core custody gap now reduces to obtaining one numerical
+  complete denominator-margin packet and the resulting base lower `r0=-s`;
+  until it is proved, neither `m=-2` nor
   `-257/128` is a native complete-sector floor. Retain K609's complete leakage-square upper
   below 1/3 and the `25/9` target, but combine them only after an independently
   valid floor exists; no shifted-form residual or spectral-error bound follows.

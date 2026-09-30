@@ -1,0 +1,122 @@
+{
+  "claim_ceiling": "Exact conditional ordinary-boundary-triple floor interface. For a semibounded symmetric operator, under one declared sign convention with Gamma_0 reference equal to the Friedrichs extension A_F, lambda=-s in rho(A_F), bounded M(lambda), and a fixed self-adjoint target extension, A_W>=-s exactly when its complete spectator-Fock denominator D_W(-s)=W-M(-s) is nonnegative. This would provide K656 with r0=-s and b=-s-2. The controls are synthetic. No native s, denominator, r0, b, tail, m, alpha, delta, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "created": "2026-09-29",
+  "decision": {
+    "K159_boundary_weyl_route_consumed": true,
+    "K656_missing_base_floor_retyped": true,
+    "native_floor_supplied": false,
+    "next_exact_input": "Choose a proposed s, identify the K139 boundary triple whose Gamma_0 reference is the Friedrichs extension, verify bounded M(-s), and prove the full spectator-Fock denominator D_W(-s)>=0 in the actual extension coordinate and sign convention; K658 gives the admissible cofinal transfer shape."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "accepted_rows": 2,
+    "controls_are_synthetic": true,
+    "negative_margin_rejected": true,
+    "rejected_rows": 1,
+    "rows": [
+      {
+        "certificate_accepts": true,
+        "denominator_eigenvalues": [
+          "1/3",
+          "7/4"
+        ],
+        "denominator_margin": "1/3",
+        "k656_target_b": "-7",
+        "proposed_base_floor_r0": "-5",
+        "proposed_s": "5"
+      },
+      {
+        "certificate_accepts": true,
+        "denominator_eigenvalues": [
+          "0",
+          "2"
+        ],
+        "denominator_margin": "0",
+        "k656_target_b": "-7/2",
+        "proposed_base_floor_r0": "-3/2",
+        "proposed_s": "3/2"
+      },
+      {
+        "certificate_accepts": false,
+        "denominator_eigenvalues": [
+          "-1/8",
+          "3"
+        ],
+        "denominator_margin": "-1/8",
+        "k656_target_b": "-6",
+        "proposed_base_floor_r0": "-4",
+        "proposed_s": "4"
+      }
+    ],
+    "zero_margin_accepts_non_strict_floor": true
+  },
+  "fail_closed_admission": {
+    "finite_impurity_only_reject": true,
+    "missing_any_field_rejects": true,
+    "pointwise_sector_samples_reject": true,
+    "required_fields": [
+      "ordinary boundary triple",
+      "declared sign convention",
+      "semibounded underlying symmetric operator",
+      "Friedrichs reference extension",
+      "self-adjoint reference and extension",
+      "lambda in reference resolvent set",
+      "reference floor at lambda",
+      "bounded Weyl value M(lambda)",
+      "full spectator-Fock boundary denominator",
+      "complete denominator nonnegativity"
+    ],
+    "synthetic_controls_are_native_evidence": false
+  },
+  "gu_typed_objects": {
+    "carrier": "the complete spectator-Fock boundary Hilbert space of K159, never the finite impurity factor alone",
+    "domain": "one fixed self-adjoint extension coordinate W with lambda=-s in the reference resolvent set",
+    "form": "D_W(lambda)=W-M(lambda) in one fixed ordinary-boundary-triple sign convention",
+    "result": "boundary-denominator floor certificate MAP-TYPE=operator-order equivalence",
+    "target": "the K656 same-domain base inequality R0>=-s M and consequent reference target b=-s-2"
+  },
+  "ledger_no_change_reason": "This conditional analytic certificate remains inside the repository-supplied K139/K159 point-Fock control and supplies no action-owned state, quotient, observable or physical positivity result.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_native_base_floor_r0_identified": false,
+    "actual_native_denominator_nonnegative": false,
+    "actual_native_denominator_serialized": false,
+    "actual_native_s_identified": false,
+    "actual_native_target_b_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "ordinary_boundary_triple_theorem": {
+    "accepted_consequence": "D_W(-s)>=0 implies A_W>=-s, hence r0=-s for K656 and b=-s-2 after K168",
+    "boundary_space_premise": "M(lambda) is bounded and D_W(lambda) is the complete self-adjoint operator/form on the full spectator-Fock boundary space",
+    "common_free_form_domain_required": false,
+    "equivalence": "A_W>=lambda iff D_W(lambda)>=0",
+    "extension_premise": "A_W and W are self-adjoint in the declared ordinary boundary triple",
+    "finite_impurity_denominator_sufficient": false,
+    "kernel_boundary": "semidefinite D_W(-s) is admitted and may place -s at the extension spectrum; strict positivity is not required for a non-strict floor",
+    "native_sign_convention_may_be_inferred": false,
+    "reference_premise": "A_ref=ker(Gamma_0) is the Friedrichs extension A_F and lambda=-s lies in rho(A_F)",
+    "scalar_shift": "apply the nonnegative theorem to A-lambda I at zero, so its Weyl value is M_A(lambda)",
+    "sign_convention": "A_W is defined by Gamma_1 f=W Gamma_0 f and D_W(lambda)=W-M(lambda)",
+    "symmetric_operator_premise": "the underlying densely defined closed symmetric operator is semibounded below by lambda=-s",
+    "theorem_basis": "Boundary Triplets and Weyl Functions, Appendix A, Theorem A.7(i)"
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "An uncontrolled negative direction in the spectator-Fock complement invalidates the floor even when every displayed finite impurity block is positive.",
+    "strongest_overclaim": "Treating a finite impurity matrix, sampled bath sectors or an undeclared sign convention as positivity of the complete native denominator.",
+    "weakest_reproducibility_seam": "K139/K159 do not serialize the actual complete denominator at any proposed real -s or prove the Friedrichs-reference, bounded-Weyl, sign-convention and positivity packet."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K159 records a contour-resolvent error interface but does not state the real-level denominator-order equivalence that directly emits K656's r0.",
+    "route_comparison": "K656 needs one global base floor. K159's boundary/Weyl route is the only tested continuation that avoids the killed common free-form topology, so the cheapest strong move is to state its exact lower-bound criterion.",
+    "strongest_alternative": "K652's cancellation-adapted all-order parity envelopes remain available if the complete real-level denominator cannot be controlled."
+  },
+  "result_id": "K657-K500-BOUNDARY-WEYL-BASE-FLOOR-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "A conditional ordinary-boundary-triple certificate converting positivity of the complete operator-valued Weyl denominator at one proposed real level into a lower floor for K139's fixed base extension.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

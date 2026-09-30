@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k657": json.loads(
+            (ROOT / "lab/process/k657-k500-boundary-weyl-base-floor-certificate.json").read_text()
+        ),
+        "k658": json.loads(
+            (ROOT / "lab/process/k658-k500-cofinal-denominator-margin-transfer.json").read_text()
+        ),
         "k655": json.loads(
             (ROOT / "lab/process/k655-k500-shifted-target-custody-obstruction.json").read_text()
         ),
@@ -188,6 +194,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "live shifted-target custody obstruction missing")
         check("K656" in live and "R0>=r0 M" in live and "b=r0-2" in live,
               "live base-floor target lift missing")
+        check("K657--K658" in live and "D(-s)>=0" in live and "r0=-s" in live,
+              "live boundary/Weyl floor certificate missing")
+        check("K658" in live and "d_N>=eta_N" in live and "complete operator-norm" in live,
+              "live cofinal denominator-margin transfer missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -197,6 +207,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K657--K658 convert K656's missing base floor" in summary,
+          "current K657--K658 result lost")
     check("K655--K656 resolve the target-selection question" in summary,
           "current K655--K656 result lost")
     check("K653--K654 add a target-relative all-order route" in summary,
@@ -266,6 +278,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "ordinary-boundary-triple criterion"
+        in data["agenda"].get("latest_result_2026_09_29_k657_k658", "")
+        and "d_N-eta_N" in data["agenda"].get("latest_result_2026_09_29_k657_k658", ""),
+        "agenda K657--K658 result is not current",
+    )
     check(
         "every finite target b" in data["agenda"].get("latest_result_2026_09_29_k655_k656", "")
         and "b=r0-2" in data["agenda"].get("latest_result_2026_09_29_k655_k656", ""),
@@ -553,6 +571,53 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k656_n["native_global_m_identified"] and
           not k656_n["K473_released"],
           "K656 native interface ceiling moved")
+
+    k657 = data["k657"]
+    k657_t = k657["ordinary_boundary_triple_theorem"]
+    k657_g = k657["fail_closed_admission"]
+    k657_n = k657["native_interface_status"]
+    check(k657_t["equivalence"] == "A_W>=lambda iff D_W(lambda)>=0" and
+          "Theorem A.7(i)" in k657_t["theorem_basis"] and
+          "A-lambda I" in k657_t["scalar_shift"] and
+          "Friedrichs extension" in k657_t["reference_premise"] and
+          "M(lambda) is bounded" in k657_t["boundary_space_premise"] and
+          not k657_t["common_free_form_domain_required"] and
+          not k657_t["finite_impurity_denominator_sufficient"] and
+          not k657_t["native_sign_convention_may_be_inferred"],
+          "K657 boundary/Weyl floor theorem moved")
+    check(k657_g["missing_any_field_rejects"] and
+          k657_g["pointwise_sector_samples_reject"] and
+          k657_g["finite_impurity_only_reject"] and
+          not k657_g["synthetic_controls_are_native_evidence"] and
+          not k657_n["actual_native_denominator_nonnegative"] and
+          not k657_n["actual_native_base_floor_r0_identified"] and
+          not k657_n["actual_native_target_b_identified"] and
+          not k657_n["K473_released"],
+          "K657 native interface ceiling moved")
+
+    k658 = data["k658"]
+    k658_t = k658["cofinal_margin_theorem"]
+    k658_c = k658["exact_controls"]
+    k658_n = k658["native_interface_status"]
+    check(k658_t["order_consequence"] == "D(-s)>=(d_N-eta_N)I" and
+          k658_t["same_s_required"] and
+          k658_t["same_extension_coordinate_required"] and
+          k658_t["self_adjointness_required"] and
+          k658_t["complete_boundary_coverage_required"] and
+          not k658_t["finite_impurity_only_sufficient"] and
+          not k658_t["sectorwise_pointwise_convergence_sufficient"] and
+          not k658_t["uncontrolled_complement_sufficient"],
+          "K658 cofinal denominator-margin theorem moved")
+    check(k658_c["zero_transferred_margin_accepts"] and
+          k658_c["negative_transferred_margin_rejects"] and
+          k658_c["incomplete_coverage_rejects_despite_large_margin"] and
+          not k658_n["actual_native_s_identified"] and
+          not k658_n["actual_native_d_n_identified"] and
+          not k658_n["actual_native_eta_n_identified"] and
+          not k658_n["actual_complete_boundary_coverage_proved"] and
+          not k658_n["actual_native_base_floor_r0_identified"] and
+          not k658_n["K473_released"],
+          "K658 native interface ceiling moved")
 
     k647 = data["k647"]
     k647_t = k647["intertwiner_theorem"]
@@ -1324,6 +1389,16 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k655-target", lambda d: d["k655"]["native_interface_status"].__setitem__("actual_native_target_b_identified", True))
     add("k656-formula", lambda d: d["k656"]["base_floor_lift_theorem"].__setitem__("selected_target", "b=r0"))
     add("k656-r0", lambda d: d["k656"]["native_interface_status"].__setitem__("actual_native_base_floor_r0_identified", True))
+    add("k657-equivalence", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("equivalence", "false"))
+    add("k657-basis", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("theorem_basis", "unknown"))
+    add("k657-shift", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("scalar_shift", "unknown"))
+    add("k657-friedrichs", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("reference_premise", "generic reference"))
+    add("k657-weyl", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("boundary_space_premise", "unbounded M"))
+    add("k657-impurity", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("finite_impurity_denominator_sufficient", True))
+    add("k657-r0", lambda d: d["k657"]["native_interface_status"].__setitem__("actual_native_base_floor_r0_identified", True))
+    add("k658-order", lambda d: d["k658"]["cofinal_margin_theorem"].__setitem__("order_consequence", "D>=d+eta"))
+    add("k658-coverage", lambda d: d["k658"]["cofinal_margin_theorem"].__setitem__("complete_boundary_coverage_required", False))
+    add("k658-native", lambda d: d["k658"]["native_interface_status"].__setitem__("actual_native_d_n_identified", True))
 
     add("k645-term-count", lambda d: d["k645"]["complete_family_replay"].__setitem__("terms", 2957))
     add("k645-orbits", lambda d: d["k645"]["complete_family_replay"].__setitem__("two_element_orbits", 1478))

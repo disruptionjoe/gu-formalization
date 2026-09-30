@@ -7,6 +7,24 @@ updated_at: "2026-09-29"
 
 # Next Steps For Contributors
 
+> **2026-09-29 K657--K658 BOUNDARY/WEYL BASE-FLOOR CERTIFICATE AND COFINAL
+> MARGIN TRANSFER.** K657 converts K656's missing `r0` into a precise
+> ordinary-boundary-triple test. In one declared sign convention, with a
+> symmetric operator semibounded by `-s`, the `Gamma_0` reference equal to its
+> Friedrichs extension, `-s` in that reference resolvent, bounded `M(-s)`, and
+> a self-adjoint target extension, the target has floor `-s` exactly when its complete
+> spectator-Fock denominator `D_W(-s)=W-M(-s)` is nonnegative. K658 supplies
+> the cofinal transfer: on the same complete boundary space and extension
+> coordinate, `D_N(-s)>=d_N I` and
+> `||D_N(-s)-D(-s)||<=eta_N` give
+> `D(-s)>=(d_N-eta_N)I`. Next select a native `s`, serialize the actual
+> same-coordinate operator-valued denominator, prove `d_N>=eta_N` with full
+> spectator-Fock coverage, and verify K657's Friedrichs/bounded-Weyl/sign premises. Then
+> set `r0=-s`, `b=-s-2` and separately certify `alpha,delta`. Finite impurity
+> blocks, sampled sectors and uncontrolled complements do not suffice. No
+> native floor, K473 beta, K152 interval, source, ledger or physical
+> conclusion moves.
+
 > **2026-09-29 K655--K656 SHIFTED-TARGET CUSTODY OBSTRUCTION AND BASE-FLOOR
 > LIFT.** K655 proves that no finite target `b` can be selected from the
 > currently serialized K612/K168 interface alone. For every proposed `b`, the

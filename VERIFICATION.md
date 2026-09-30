@@ -7,6 +7,31 @@ updated_at: "2026-09-29"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K657--K658 boundary/Weyl base-floor certificate (2026-09-29)
+
+K657 instantiates Theorem A.7(i) of *Boundary Triplets and Weyl Functions*,
+using the scalar shift `A-lambda I`, in the declared ordinary-boundary-triple
+convention `D_W(lambda)=W-M(lambda)`. If the underlying symmetric
+operator is semibounded by `lambda=-s`, the `Gamma_0` reference is its
+Friedrichs extension, `lambda` lies in that reference resolvent, `M(lambda)`
+is bounded, the target extension and coordinate are self-adjoint, and
+`D_W(-s)` is complete on the full spectator-Fock boundary space, then
+`A_W>=-s` iff `D_W(-s)>=0`. A semidefinite denominator is sufficient for the
+non-strict floor. Three exact rational controls include positive, zero and
+negative margins. The probe passes 21 exact controls and rejects 22 hostile
+mutations. The theorem does not infer the native sign convention, reference
+premises or complete denominator, and a finite impurity matrix is insufficient.
+
+K658 proves the exact complete-space perturbation transfer. A same-coordinate
+self-adjoint approximation satisfying `D_N(-s)>=d_N I` and
+`||D_N(-s)-D(-s)||<=eta_N` on the entire boundary space yields
+`D(-s)>=(d_N-eta_N)I`. Thus `d_N>=eta_N` composes through K657 to `r0=-s`
+and through K656 to `b=-s-2`. Four exact controls accept positive and zero
+transferred margins and reject a negative margin and a large positive finite
+block with uncontrolled complement. The probe passes 20 exact controls and
+rejects 20 hostile mutations. No native `s`, `d_N`, `eta_N`, denominator,
+`r0`, `b`, tail, `m`, `alpha`, `delta`, K473 release or K152 interval follows.
+
 ## K655--K656 shifted-target custody and base-floor lift (2026-09-29)
 
 K655 composes K612's same-interface countermodel family with K653's first
