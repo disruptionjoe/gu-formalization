@@ -1,0 +1,83 @@
+{
+  "claim_ceiling": "Exact conditional stability theorem: a complete a-relative mismatch epsilon between the native remainder form and column square gives ||R*R-B*B||<=epsilon and A>=(1-b-epsilon)I. The synthetic b=1/4, epsilon=1/100 packet yields A>=37/50, above 2/3 by 11/150. No native column, mismatch, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k699_k500_approximate_form_a_margin_compiler_probe.py",
+    "producer": "tests/channel-swings/k699_k500_approximate_form_a_margin_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "approximate_form_identity_can_supply_complete_A_margin": true,
+    "native_A_margin_constructed": false,
+    "next_exact_input": "On one native Dom(a), serialize B=C a^-1 and the closed native h=-r_free, prove a complete outward bound on |h[u]-||Cu||^2|/||a u||^2 and a complete B*B upper. If their sum is below 1/3, emit the native A lower without requiring exact form equality."
+  },
+  "dependency_reconciliation": {
+    "K668_A_input_closed_conditionally": true,
+    "K682_complete_relative_form_interface_consumed": true,
+    "K696_exact_identity_no_longer_only_quantitative_A_route": true,
+    "K696_exact_identity_route_preserved": true,
+    "native_a_relative_mismatch_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "A_lower": "37/50",
+    "a_relative_form_mismatch": "1/100",
+    "accepted": true,
+    "column_gram_upper": "1/4",
+    "controls_are_synthetic": true,
+    "finite_test_counterexample": "rank-one defects supported in successive orthogonal complement directions vanish on every fixed finite test set while retaining norm epsilon",
+    "matrix_control": "B*B=diag(1/4,9/100), R*R=B*B+diag(1/100,-1/200)",
+    "native_gram_upper": "13/50",
+    "strict_slack": "11/150",
+    "target_A_lower": "2/3"
+  },
+  "gu_typed_objects": {
+    "column_transform": "B=C a^-1, bounded on H",
+    "graph_weight": "one positive closed a with bounded everywhere inverse on H",
+    "mismatch": "the complete a-relative quadratic-form defect h-q_C on Dom(a)",
+    "native_transform": "R=T a^-1 for the closed native remainder form h[u]=||T u||^2",
+    "result": "approximate-form A-margin compiler MAP-TYPE=bounded self-adjoint Gram comparison",
+    "target": "K668/K670's complete A lower without exact form equality"
+  },
+  "ledger_no_change_reason": "This is a conditional complete form-comparison theorem and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_column_gram_upper_proved": false,
+    "actual_native_column_transform_serialized": false,
+    "actual_native_complete_mismatch_proved": false,
+    "actual_native_remainder_transform_serialized": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A rank-one defect can hide in every inspected finite complement while preserving a fixed operator norm.",
+    "strongest_overclaim": "Replacing the complete a-relative defect by agreement on finitely many vectors or by componentwise errors without a complete sum.",
+    "weakest_reproducibility_seam": "Both forms and the graph weight must use one domain, and the mismatch bound must be uniform over that complete domain."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K682 bounds one native form by a; K696 identifies exact equality. No prior packet transfers a nonzero native/column form defect into the complete A margin.",
+    "route_comparison": "K696's exact identity is sufficient but brittle. A complete a-relative mismatch is the cheaper quantitative input when native data arrive as analytic or interval bounds.",
+    "strongest_alternative": "Prove K696's exact common-form-core identity and use K697 directly."
+  },
+  "result_id": "K699-K500-APPROXIMATE-FORM-A-MARGIN-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete quantitative replacement for K696's exact common-form identity when the native remainder form and column square are close in the graph-weight norm.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "A_transfer": "A=I-R*R>=(1-b-epsilon)I",
+    "column_transform_bounded_required": true,
+    "complete_a_relative_mismatch_required": true,
+    "complete_domain_map_required": true,
+    "componentwise_mismatch_without_complete_sum_sufficient": false,
+    "conjugated_gram_consequence": "||R*R-B*B||<=epsilon",
+    "exact_common_form_identity_required_for_quantitative_A": false,
+    "finite_test_equality_sufficient": false,
+    "mismatch_hypothesis": "|h[u]-||C u||^2|<=epsilon||a u||^2 for every u in Dom(a)",
+    "native_form_closed_nonnegative_required": true,
+    "one_sided_domain_inclusion_sufficient": false,
+    "upper_transfer": "B*B<=b I implies R*R<=(b+epsilon)I"
+  }
+}

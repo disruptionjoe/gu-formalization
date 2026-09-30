@@ -35,6 +35,15 @@ def load_inputs() -> dict:
         "k698": json.loads(
             (ROOT / "lab/process/k698-k500-boundary-denominator-end-to-end-compiler.json").read_text()
         ),
+        "k699": json.loads(
+            (ROOT / "lab/process/k699-k500-approximate-form-a-margin-compiler.json").read_text()
+        ),
+        "k700": json.loads(
+            (ROOT / "lab/process/k700-k500-cross-coupled-a-margin-compiler.json").read_text()
+        ),
+        "k701": json.loads(
+            (ROOT / "lab/process/k701-k500-interval-boundary-denominator-compiler.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -374,6 +383,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K697" in live and "P_seed" in live and
               "K698" in live and "boundary chain" in live,
               "live K696--K698 end-to-end composition missing")
+        check("K699" in live and "a`-relative form" in live and
+              "K700" in live and "strict Schur" in live and
+              "K701" in live and "outward boundary uncertainty" in live,
+              "live K699--K701 robustness routes missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -383,6 +396,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K699--K701 replace three brittle exact-input seams" in summary,
+          "current K699--K701 result lost")
     check("K696--K698 compose the post-K695 certificates" in summary,
           "current K696--K698 result lost")
     check("K693--K695 make the post-K692 native obligations" in summary,
@@ -463,6 +478,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "||R*R-B*B||<=epsilon" in data["agenda"].get("latest_result_2026_09_30_k699_k701", "")
+        and "A>=134/183" in data["agenda"].get("latest_result_2026_09_30_k699_k701", "")
+        and "9039/2125000" in data["agenda"].get("latest_result_2026_09_30_k699_k701", ""),
+        "agenda K699--K701 result is not current",
+    )
     check(
         "polar-decomposition norm identity" in data["agenda"].get("latest_result_2026_09_30_k696_k698", "")
         and "A>=3/4" in data["agenda"].get("latest_result_2026_09_30_k696_k698", "")
@@ -1148,6 +1169,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k698_n["actual_native_target_denominator_nonnegative"] and
           not k698_n["native_complete_floor_emitted"],
           "K698 boundary denominator chain or native ceiling moved")
+
+    k699 = data["k699"]
+    k699_t = k699["theorem"]
+    k699_n = k699["native_interface_status"]
+    check(k699_t["complete_a_relative_mismatch_required"] and
+          not k699_t["finite_test_equality_sufficient"] and
+          not k699_t["componentwise_mismatch_without_complete_sum_sufficient"] and
+          not k699_n["actual_native_complete_mismatch_proved"] and
+          not k699_n["native_A_above_two_thirds_proved"] and
+          not k699_n["native_complete_floor_emitted"],
+          "K699 approximate-form margin or native ceiling moved")
+
+    k700 = data["k700"]
+    k700_t = k700["theorem"]
+    k700_n = k700["native_interface_status"]
+    check(k700_t["complete_cross_bound_required_without_reduction"] and
+          not k700_t["individual_compression_bounds_alone_sufficient"] and
+          not k700_t["finite_complement_prefix_sufficient"] and
+          not k700_n["actual_native_cross_bound_proved"] and
+          not k700_n["native_A_above_two_thirds_proved"] and
+          not k700_n["native_complete_floor_emitted"],
+          "K700 cross-coupled margin or native ceiling moved")
+
+    k701 = data["k701"]
+    k701_t = k701["theorem"]
+    k701_n = k701["native_interface_status"]
+    check(k701_t["outward_denominator_error_required"] and
+          k701_t["same_boundary_coordinate_and_fixed_W_required"] and
+          not k701_t["point_estimates_without_outward_error_sufficient"] and
+          not k701_t["finite_defect_or_sector_errors_sufficient"] and
+          not k701_n["actual_native_complete_denominator_enclosure_proved"] and
+          not k701_n["actual_native_target_denominator_nonnegative"] and
+          not k701_n["native_complete_floor_emitted"],
+          "K701 interval boundary denominator or native ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2293,6 +2348,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k698-trace", lambda d: d["k698"]["end_to_end_theorem"].__setitem__("finite_trace_block_without_tail_and_cross_sufficient", True))
     add("k698-coordinate", lambda d: d["k698"]["end_to_end_theorem"].__setitem__("same_boundary_coordinate_and_fixed_W_required", False))
     add("k698-native", lambda d: d["k698"]["native_interface_status"].__setitem__("actual_native_target_denominator_nonnegative", True))
+    add("k699-finite", lambda d: d["k699"]["theorem"].__setitem__("finite_test_equality_sufficient", True))
+    add("k699-complete", lambda d: d["k699"]["theorem"].__setitem__("complete_a_relative_mismatch_required", False))
+    add("k699-native", lambda d: d["k699"]["native_interface_status"].__setitem__("native_A_above_two_thirds_proved", True))
+    add("k700-cross", lambda d: d["k700"]["theorem"].__setitem__("complete_cross_bound_required_without_reduction", False))
+    add("k700-blocks", lambda d: d["k700"]["theorem"].__setitem__("individual_compression_bounds_alone_sufficient", True))
+    add("k700-native", lambda d: d["k700"]["native_interface_status"].__setitem__("actual_native_cross_bound_proved", True))
+    add("k701-error", lambda d: d["k701"]["theorem"].__setitem__("outward_denominator_error_required", False))
+    add("k701-coordinate", lambda d: d["k701"]["theorem"].__setitem__("same_boundary_coordinate_and_fixed_W_required", False))
+    add("k701-native", lambda d: d["k701"]["native_interface_status"].__setitem__("actual_native_target_denominator_nonnegative", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

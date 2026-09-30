@@ -7,6 +7,36 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K699--K701 robust native-instantiation compilers (2026-09-30)
+
+K699 proves an operator-order stability theorem for K696. If the bounded
+column transform has `B*B<=bI` and the native closed remainder form differs
+from the column square by at most `epsilon||a u||^2` on the complete
+`Dom(a)`, conjugation by `a^-1` gives `||R*R-B*B||<=epsilon` and hence
+`A>=1-b-epsilon`. The synthetic `b=1/4`, `epsilon=1/100` control gives
+`A>=37/50`, with slack `11/150` above `2/3`.
+
+K700 proves the nonreducing seed/complement alternative to K697. Complete
+diagonal square bounds `s,t` and cross norm `k` give `R*R<qI` whenever
+`s,t<q` and `k^2<(q-s)(q-t)`. At `q=1/3`, the synthetic
+`s=1/4`, `t=1/100`, `k=1/60` packet has Schur determinant slack `2/75`;
+the determinant/trace bound yields `A>=134/183` without claiming exact
+reduction.
+
+K701 converts K698's exact rational chain into an outward interval packet.
+With one authenticated complete triple, interval, coordinate and fixed `W`,
+the nearby denominator lower is reduced by its outward error and by
+`|mu-lambda| ||gamma(mu)|| ||gamma(lambda)||`. The synthetic outward bounds
+give Weyl variation `5043/1062500` and retain target margin
+`9039/2125000`.
+
+The probes pass 34/36/38 controls and reject 28/28, 30/30 and 32/32 hostile
+mutations. These are conditional internal structural certificates. No native
+column, complete mismatch, seed/complement/cross packet, boundary triple,
+interval enclosure, denominator, `A`, `B`, floor, K473/K152 release, source,
+ledger, canon, paper, public, novelty, prediction, confirmation or physical
+conclusion follows.
+
 ## K696--K698 end-to-end K500 composition compilers (2026-09-30)
 
 K696 proves the exact composition from a graph-equivalent complete column to

@@ -7,6 +7,23 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K699--K701 ROBUST NATIVE-INSTANTIATION MARGINS.** K699 replaces
+> K696's exact form identity for quantitative `A` control by a complete
+> `a`-relative mismatch: `B*B<=bI` and
+> `|h[u]-||Cu||^2|<=epsilon||au||^2` give
+> `A>=1-b-epsilon`. Its synthetic `1/4,1/100` row yields `37/50`. K700
+> permits a nonzero seed/complement cross: `s,t<1/3` and
+> `k^2<(1/3-s)(1/3-t)` imply `A>2/3`; the synthetic
+> `1/4,1/100,1/60` row certifies `A>=134/183`. K701 propagates outward
+> complete-space uncertainty through K698's one-coordinate boundary chain;
+> its synthetic enclosure retains target margin `9039/2125000`. Next prove
+> one of these packets with native data: the complete form mismatch plus
+> column Gram upper, the complete seed/complement/cross bounds, or the
+> same-coordinate gamma and denominator enclosures. See
+> `lab/process/k699-k500-approximate-form-a-margin-compiler.json`,
+> `lab/process/k700-k500-cross-coupled-a-margin-compiler.json`, and
+> `lab/process/k701-k500-interval-boundary-denominator-compiler.json`.
+
 > **2026-09-30 K696--K698 COLUMN/REMAINDER INTEGRATION, A-MARGIN AND TARGET
 > DENOMINATOR.** K696 composes K693 with K691: two-sided graph equivalence
 > closes the complete column, equality with `h=-r_free` on one common form

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6cae4c8e01a3
+revision_basis: 74080f809cf4
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K699--K701 replace three brittle exact-input seams in K696--K698 with
+    complete quantitative robustness certificates. K699 proves that a uniform
+    `a`-relative form mismatch `epsilon` between the column square and native
+    remainder gives `||R*R-B*B||<=epsilon`; its synthetic `b=1/4`,
+    `epsilon=1/100` packet yields `A>=37/50`, above `2/3` by `11/150`, without
+    exact form equality. K700 keeps a nonzero seed/complement cross block: the
+    strict Schur test `k^2<(1/3-s)(1/3-t)` is sufficient for `A>2/3`; its
+    synthetic `s=1/4`, `t=1/100`, `k=1/60` packet certifies
+    `A>=134/183`. K701 carries outward uncertainty through K698's one-coordinate
+    boundary chain. Its synthetic gamma and denominator enclosures retain the
+    positive target margin `9039/2125000`. No native column, form mismatch,
+    seed/complement/cross packet, boundary triple, interval enclosure,
+    denominator, `A`, `B`, floor, K473/K152 release, source, ledger, canon,
+    paper, public or physical conclusion moves.
+
     K696--K698 compose the post-K695 certificates into three end-to-end
     acceptance packets without claiming native instantiation. K696 combines
     K693's graph-equivalent closed column with K691's common-form-core identity:
@@ -12637,7 +12652,14 @@ next_condition: >-
   `P_seed` reduces `R*R` or a complete cross bound. Only then credit
   `A>2/3`. K698 is the exact boundary chain: keep the minimal operator,
   Friedrichs reference, trace map, real interval, boundary coordinate, `W`
-  and nearby denominator in one complete packet. K634's equivalent-norm and
+  and nearby denominator in one complete packet. K699 permits an approximate
+  form route only when one complete packet proves the `a`-relative form
+  mismatch and the column Gram bound with their sum below `1/3`. K700 permits
+  nonzero seed/complement coupling only when one complete packet proves the
+  seed square, complement square and cross norm with the strict Schur
+  determinant inequality. K701 permits outward boundary uncertainty only on
+  the complete space for the same boundary triple, interval, coordinate and
+  fixed `W`; its synthetic controls are not native evidence. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely
   non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.
   K639 quotients the actual K179 family to six algebraically independent

@@ -1,0 +1,87 @@
+{
+  "claim_ceiling": "Exact conditional Schur theorem: complete seed square s, complement square t and cross k give A>2/3 whenever s,t<1/3 and k^2<(1/3-s)(1/3-t). The synthetic s=1/4, t=1/100, k=1/60 packet has determinant slack 2/75 and certifies A>=134/183. No native R, cross, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k700_k500_cross_coupled_a_margin_compiler_probe.py",
+    "producer": "tests/channel-swings/k700_k500_cross_coupled_a_margin_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_A_margin_constructed": false,
+    "next_exact_input": "After constructing native R, prove complete seed and complement square bounds plus ||P_seed R*R Q_seed||. It is enough that the cross square lie strictly below (1/3-s)(1/3-t); exact reduction is not required.",
+    "nonzero_cross_packet_can_supply_A_above_two_thirds": true
+  },
+  "dependency_reconciliation": {
+    "K676_seed_interface_consumed": true,
+    "K677_complete_complement_interface_consumed": true,
+    "K697_nonreducing_repair_instantiated": true,
+    "K697_reducing_maximum_route_preserved": true,
+    "native_cross_data_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "A_lower": "134/183",
+    "accepted": true,
+    "aligned_output_counterexample": "Small diagonal compressions can still produce a large complete norm when the off-diagonal block is uncontrolled.",
+    "certified_q_minus_gram_floor": "4/61",
+    "complement_norm_square_upper": "1/100",
+    "complement_target_gap": "97/300",
+    "controls_are_synthetic": true,
+    "cross_square": "1/3600",
+    "cross_upper": "1/60",
+    "schur_determinant_slack": "2/75",
+    "schur_trace": "61/150",
+    "seed_norm_square_upper": "1/4",
+    "seed_target_gap": "1/12",
+    "target_A_lower": "2/3",
+    "target_R_norm_square_upper": "1/3"
+  },
+  "gu_typed_objects": {
+    "complement": "Q_seed=I-P_seed",
+    "cross": "P_seed R*R Q_seed",
+    "operator": "bounded native R=T a^-1",
+    "result": "cross-coupled A-margin compiler MAP-TYPE=two-block Schur order",
+    "seed_projection": "orthogonal P_seed",
+    "target": "K668/K670's complete A lower"
+  },
+  "ledger_no_change_reason": "This is a conditional complete operator-block theorem and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_R_constructed": false,
+    "actual_native_complete_complement_bound_proved": false,
+    "actual_native_cross_bound_proved": false,
+    "actual_native_seed_bound_proved": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Aligned seed and complement outputs can saturate an uncontrolled cross and double the one-block estimate.",
+    "strongest_overclaim": "Using only the seed and complement diagonal bounds when the cross block is nonzero.",
+    "weakest_reproducibility_seam": "All three bounds must use the same native R, projections and complete graph Hilbert norm."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K697 names the two-by-two repair but does not freeze the strict A>2/3 Schur budget or a positive rational floor.",
+    "route_comparison": "K697's maximum rule is sharp under reduction but native reduction is unowned. A direct cross estimate is the cheaper robust alternative when the split only approximately reduces R*R.",
+    "strongest_alternative": "Prove exact P_seed reduction and use the K697 maximum rule."
+  },
+  "result_id": "K700-K500-CROSS-COUPLED-A-MARGIN-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete seed/complement block certificate for A=I-R*R that permits a nonzero off-diagonal block instead of requiring exact reduction.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "theorem": {
+    "A_consequence": "A>=1-q+determinant/trace",
+    "complete_complement_bound_required": true,
+    "complete_cross_bound_required_without_reduction": true,
+    "complete_seed_bound_required": true,
+    "exact_reduction_required": false,
+    "finite_complement_prefix_sufficient": false,
+    "hypotheses": "P R*R P<=sP, Q R*R Q<=tQ, ||P R*R Q||<=k",
+    "individual_compression_bounds_alone_sufficient": false,
+    "quantitative_floor": "qI-R*R is bounded below by the smaller eigenvalue of [[q-s,-k],[-k,q-t]], and at least determinant/trace",
+    "strict_target_test": "s<q, t<q and k^2<(q-s)(q-t) imply R*R<qI",
+    "zero_cross_assumption_required": false
+  }
+}
