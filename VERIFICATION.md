@@ -7,6 +7,28 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K665--K666 parity-cofinal margin and complete floor certificate (2026-09-30)
+
+K665 composes direct lower certificates for the effective combined form
+margin `B=m-delta` across K648's two total-parity compressions and K643's bath
+direct sum. All finite rows through one `N` and an independent tail lower for
+each parity are required; their minimum is the complete `B_lower`. The exact
+synthetic control gives plus lower `11/16`, minus lower `21/32` and global
+`B_lower=21/32`. A hidden sector with lower `-9` certifies the finite-prefix
+failure mode.
+
+K666 consumes one complete `A_lower`, K665's `B_lower` and a same-domain
+matched-trace `beta_upper`. Its certificate returns K663's exact least
+eigenvalue and requires `A_lower B_lower>beta_upper^2` for a strict positive
+floor. The synthetic row `A_lower=3/4`, `B_lower=21/32`, `beta_upper=1/16`
+has determinant margin `125/256` and floor `5/8`. The exact endpoint
+`A_lower=1/2`, `B_lower=1/8`, `beta_upper=1/4` has determinant and floor zero.
+
+The K665 and K666 probes each pass 24 controls and reject 20/20 hostile
+mutations. These are compiler certificates, not native numerical estimates:
+they supply no actual finite row, parity tail, complete `A` or `B`, determinant
+margin, K473 beta, K152 interval or physical conclusion.
+
 ## K663--K664 sharp cancellation floor and cofinal effective margins (2026-09-30)
 
 K663 sharpens K642 on the same complete spectator-Fock cancellation domain.

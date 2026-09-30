@@ -1,0 +1,91 @@
+{
+  "certificate_theorem": {
+    "K647_common_domain_required": true,
+    "K648_both_total_parities_required": true,
+    "K665_finite_rows_and_two_tails_required": true,
+    "endpoint_zero_floor_allowed": true,
+    "finite_prefix_only_sufficient": false,
+    "floor": "lambda_lower=(A_lower+B_lower-sqrt((A_lower-B_lower)^2+4 beta_upper^2))/2",
+    "inputs": "complete A_lower; complete parity-cofinal B_lower; matched-trace beta_upper",
+    "matched_trace_same_domain_required": true,
+    "one_parity_only_sufficient": false,
+    "positive_floor_iff": "A_lower>0, B_lower>0 and A_lower*B_lower>beta_upper^2",
+    "uncontrolled_complement_allowed": false
+  },
+  "claim_ceiling": "Exact conditional end-to-end certificate for K663's complete-space cancellation floor. A complete A lower, K665's two-parity finite-plus-tail B lower and a same-domain matched-trace beta upper yield the sharp least-eigenvalue floor; strict positivity is exactly the positive-diagonal determinant test. The endpoint control has zero floor, and larger beta fails positivity. The synthetic 5/8 row tests the compiler only. No native A, B, tail, determinant margin, floor, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k666_k500_complete_cancellation_floor_certificate_probe.py",
+    "producer": "tests/channel-swings/k666_k500_complete_cancellation_floor_certificate.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "end_to_end_certificate_shape_closed": true,
+    "native_floor_supplied": false,
+    "next_exact_input": "Supply a complete A lower, K665's complete finite-row plus two-tail B packet, and the matched-trace beta bound on K647's one common domain. Verify A_lower*B_lower>beta_upper^2; then K666 emits the native complete floor. Current artifacts supply the theorem and typing but not those native numbers."
+  },
+  "dependency_reconciliation": {
+    "K642_complete_graph_typing_retained": true,
+    "K647_common_domain_identity_consumed": true,
+    "K648_parity_completeness_consumed": true,
+    "K663_sharp_floor_consumed": true,
+    "K664_direct_effective_margin_interface_consumed": true,
+    "K665_parity_cofinal_B_consumed": true
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "A_lower": "3/4",
+    "B_arrives_from_K665": true,
+    "B_lower": "21/32",
+    "beta_upper": "1/16",
+    "certified_floor": "5/8",
+    "controls_are_synthetic": true,
+    "determinant_margin": "125/256",
+    "endpoint_control": {
+      "A_lower": "1/2",
+      "B_lower": "1/8",
+      "beta_upper": "1/4",
+      "certified_floor": "0",
+      "determinant_margin": "0",
+      "zero_endpoint_passes": true
+    },
+    "matches_K663_sharp_control": true,
+    "negative_determinant_rejected": true,
+    "positive_floor_test_passes": true
+  },
+  "gu_typed_objects": {
+    "carrier": "the complete K647 common domain with both K648 total-parity compressions and every K643 bath sector",
+    "form": "K663's complete two-component cancellation graph with effective margins A and B",
+    "pairing": "the fixed complete graph norm and matched-trace operator bound beta on that same domain",
+    "result": "complete cancellation-floor certificate MAP-TYPE=end-to-end determinant and least-eigenvalue composition",
+    "target": "one machine-checkable sufficient certificate for a positive K642/K663 complete-space lower"
+  },
+  "ledger_no_change_reason": "The certificate composes conditional internal lower-form data and supplies no action-owned physical state, quotient, observable or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_matched_trace_beta_upper_newly_identified": false,
+    "actual_positive_determinant_margin_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "At determinant equality the certified floor is exactly zero; increasing beta past that boundary makes positivity fail despite positive diagonal margins.",
+    "strongest_overclaim": "Reporting the synthetic 5/8 control as a native K139/K168 floor or omitting one parity/tail from B.",
+    "weakest_reproducibility_seam": "Native execution still needs independently certified complete A, B and beta inputs; the exact controls test only the compiler."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K663 owns the sharp scalar theorem and K664 owns cofinal margin transfer, but neither checks that B was assembled from both native parity tails on K647's exact common domain.",
+    "route_comparison": "After K665 closes the parity/tail assembly, direct end-to-end composition is the cheapest way to prevent future native estimates from losing domain, parity or determinant hypotheses between K648 and K663.",
+    "strongest_alternative": "A direct unsplit operator lower on the complete graph would bypass this certificate and remains stronger if available."
+  },
+  "result_id": "K666-K500-COMPLETE-CANCELLATION-FLOOR-CERTIFICATE",
+  "schema_version": "1.0",
+  "scope": "End-to-end composition of complete A, parity-cofinal B and matched-trace beta certificates into K663's sharp cancellation-graph floor.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

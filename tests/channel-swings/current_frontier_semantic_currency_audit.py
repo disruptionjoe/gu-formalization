@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k665": json.loads(
+            (ROOT / "lab/process/k665-k500-parity-cofinal-effective-margin-composition.json").read_text()
+        ),
+        "k666": json.loads(
+            (ROOT / "lab/process/k666-k500-complete-cancellation-floor-certificate.json").read_text()
+        ),
         "k663": json.loads(
             (ROOT / "lab/process/k663-k500-sharp-cancellation-graph-floor.json").read_text()
         ),
@@ -188,7 +194,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "same-form identity" in live and "J invariance" in live,
               "live native common-domain theorem missing")
         check("K648" in live and "product of channel swap and spectator swap" in live and
-              "twelve" in live and "thirty" in live and "alpha,delta" in live,
+              "twelve" in live and "thirty" in live and
+              "effective-margin obligation" in live,
               "live native parity-form interface or numerical handoff missing")
         check("K649" in live and "unique identity" in live and "harmonic divergent" in live,
               "live parity cancellation matching missing")
@@ -233,6 +240,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K664" in live and "A_lower,B_lower" in live and
               "spectator complements" in live,
               "live cofinal effective-margin transfer missing")
+        check("K665" in live and "finite" in live and "tail lower" in live and
+              "B_lower" in live,
+              "live parity-cofinal effective-margin composition missing")
+        check("K666" in live and "A_lower B_lower>beta_upper^2" in live and
+              "determinant endpoint" in live,
+              "live complete cancellation-floor certificate missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -242,6 +255,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K665--K666 close the abstract composition" in summary,
+          "current K665--K666 result lost")
     check("K663--K664 sharpen the independent K642 complete-domain lower route" in summary,
           "current K663--K664 result lost")
     check("K661--K662 close the Friedrichs-reference custody inference" in summary,
@@ -319,6 +334,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "common minimum" in data["agenda"].get("latest_result_2026_09_30_k665_k666", "")
+        and "determinant margin 125/256"
+        in data["agenda"].get("latest_result_2026_09_30_k665_k666", ""),
+        "agenda K665--K666 result is not current",
+    )
     check(
         "optimal scalar-information floor"
         in data["agenda"].get("latest_result_2026_09_30_k663_k664", "")
@@ -722,6 +743,44 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k664_n["actual_native_cofinal_packet_identified"] and
           not k664_n["named_complete_sector_floor_emitted"],
           "K664 controls or native-interface ceiling moved")
+
+    k665 = data["k665"]
+    k665_t = k665["composition_theorem"]
+    k665_c = k665["exact_control"]
+    k665_n = k665["native_interface_status"]
+    check(k665_t["complete_domain_required"] and
+          k665_t["both_total_parities_required"] and
+          k665_t["all_finite_rows_through_N_required"] and
+          k665_t["independent_tail_for_each_parity_required"] and
+          not k665_t["finite_prefix_only_sufficient"] and
+          not k665_t["sampled_sectors_only_sufficient"] and
+          not k665_t["uncontrolled_complement_allowed"],
+          "K665 parity-cofinal composition theorem moved")
+    check(k665_c["plus_lower"] == "11/16" and
+          k665_c["minus_lower"] == "21/32" and
+          k665_c["global_B_lower"] == "21/32" and
+          k665_c["finite_prefix_counterexample"]["destroys_global_lower"] and
+          not k665_n["actual_complete_B_lower_identified"],
+          "K665 control or native-interface ceiling moved")
+
+    k666 = data["k666"]
+    k666_t = k666["certificate_theorem"]
+    k666_c = k666["exact_control"]
+    k666_n = k666["native_interface_status"]
+    check(k666_t["K647_common_domain_required"] and
+          k666_t["K648_both_total_parities_required"] and
+          k666_t["K665_finite_rows_and_two_tails_required"] and
+          k666_t["matched_trace_same_domain_required"] and
+          not k666_t["finite_prefix_only_sufficient"] and
+          not k666_t["one_parity_only_sufficient"] and
+          not k666_t["uncontrolled_complement_allowed"],
+          "K666 complete cancellation certificate moved")
+    check(k666_c["determinant_margin"] == "125/256" and
+          k666_c["certified_floor"] == "5/8" and
+          k666_c["endpoint_control"]["certified_floor"] == "0" and
+          k666_c["negative_determinant_rejected"] and
+          not k666_n["native_complete_floor_emitted"],
+          "K666 control or native-interface ceiling moved")
 
     k661 = data["k661"]
     k661_i = k661["interval_control"]
@@ -1618,6 +1677,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k662-nonunitary-invariant", lambda d: d["k662"]["coordinate_group_theorem"].__setitem__("numerical_floor_invariant_for_general_U", True))
     add("k662-error", lambda d: d["k662"]["exact_controls"].__setitem__("error_bound_holds", False))
     add("k662-authenticate", lambda d: d["k662"]["composition"].__setitem__("K139_regulator_coordinates_already_authenticated_in_group", True))
+    add("k665-one-parity", lambda d: d["k665"]["composition_theorem"].__setitem__("both_total_parities_required", False))
+    add("k665-tail", lambda d: d["k665"]["composition_theorem"].__setitem__("independent_tail_for_each_parity_required", False))
+    add("k665-lower", lambda d: d["k665"]["exact_control"].__setitem__("global_B_lower", "3/4"))
+    add("k665-native", lambda d: d["k665"]["native_interface_status"].__setitem__("actual_complete_B_lower_identified", True))
+    add("k666-domain", lambda d: d["k666"]["certificate_theorem"].__setitem__("K647_common_domain_required", False))
+    add("k666-floor", lambda d: d["k666"]["exact_control"].__setitem__("certified_floor", "1/4"))
+    add("k666-endpoint", lambda d: d["k666"]["exact_control"]["endpoint_control"].__setitem__("certified_floor", "1/8"))
+    add("k666-native", lambda d: d["k666"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
     add("k663-floor", lambda d: d["k663"]["exact_control"].__setitem__("sharp_conservative_floor", "1/4"))
     add("k663-threshold", lambda d: d["k663"]["sharp_floor_theorem"].__setitem__("positive_floor_iff", "A>0 and B>0"))
     add("k663-native", lambda d: d["k663"]["native_interface_status"].__setitem__("actual_complete_effective_A_identified", True))

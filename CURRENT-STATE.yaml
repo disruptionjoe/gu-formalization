@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bc262a63d21b
+revision_basis: 87203d81611e
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K665--K666 close the abstract composition from K648's native parity-form
+    interface to K663's sharp complete cancellation floor without moving a
+    protected claim. K665 works directly with the effective combined form
+    margin `B=m-delta`: certified finite bath rows through one `N` and one
+    independent complete-complement tail lower for each total parity give
+    `B_lower=min(B_plus,B_minus)`. Finite prefixes, sampled sectors, one-parity
+    evidence and uncontrolled complements fail closed. K666 then consumes one
+    complete `A_lower`, K665's complete `B_lower` and a same-domain
+    `beta_upper`; its exact floor is K663's `lambda_-`, with strict positivity
+    exactly when `A_lower>0`, `B_lower>0` and
+    `A_lower B_lower>beta_upper^2`. The synthetic control assembles
+    `B_lower=21/32`, determinant margin `125/256` and floor `5/8`; the endpoint
+    control has determinant and floor zero. No native `A`, `B`, finite row,
+    tail, determinant margin or complete floor is supplied. No K473 beta,
+    K152 interval, source, ledger, canon, paper, public or physical conclusion
+    moves.
+
     K663--K664 sharpen the independent K642 complete-domain lower route and
     add its certified cofinal compiler without moving a protected claim. K663
     replaces K642's fixed Young parameter by the exact least eigenvalue
@@ -11689,7 +11706,14 @@ current_question: >-
   bounds into `A_lower,B_lower`; finite blocks, sampled sectors and
   uncontrolled spectator complements fail closed. Direct complete `A,B`
   certificates are allowed, so separate `m,delta` identification is not
-  required. K643 now proves that every K179 exchange
+  required. K665 now composes the direct effective `B` margin through K648's
+  two total-parity forms and K643's bath decomposition: certify every finite
+  row through `N` and one independent complete-complement tail lower for each
+  parity, then take their common minimum. K666 composes that `B_lower` with a
+  complete `A_lower` and same-domain `beta_upper` into K663's exact floor and
+  determinant test. Finite prefixes, one-parity evidence and uncontrolled
+  complements remain insufficient; the displayed `21/32`, `125/256` and
+  `5/8` are synthetic controls only. K643 now proves that every K179 exchange
   monomial preserves bath number, so a future closed coefficient form reduces
   as `B=direct_sum_n B_n` and its global lower is the uniform infimum
   `m=inf_n m_n`; a finite prefix is not a tail bound. K644 gives the exact
@@ -12290,7 +12314,14 @@ next_condition: >-
   `beta_upper`, including all spectator complements, then apply the same
   formula. Direct native `A,B` certificates are sufficient; separate `m` and
   `delta` identification is not required. Finite blocks and sampled sectors
-  remain insufficient. K643 reduces the missing boundary form to
+  remain insufficient. K665 now gives the exact parity-cofinal direct-`B`
+  compiler: certify all finite combined effective-form rows through `N` and
+  one independent complete-complement tail lower for each K648 total parity,
+  then set `B_lower` to their common minimum. K666 composes that value with a
+  complete `A_lower` and same-domain `beta_upper`; strict positivity is exactly
+  `A_lower B_lower>beta_upper^2`. The synthetic row gives `B_lower=21/32`,
+  determinant margin `125/256` and floor `5/8`; the determinant endpoint gives
+  floor zero. No native row or tail is supplied. K643 reduces the missing boundary form to
   bath-number sectors and proves `m=inf_n m_n`, with a required uniform tail.
   K644 reduces each `m_n` to the actual six-channel diagonal floors and
   fifteen off-diagonal coupling bounds through a scalar comparison matrix,
@@ -12348,10 +12379,11 @@ next_condition: >-
   precise: serialize the minimal closed form and complete trace maps, identify
   its Friedrichs operator with `ker(Gamma_0)`, and prove every regulator change
   has bounded `U,C` before certifying the real-level margin.
-  Independently certify complete `A=1-alpha` and `B=m-delta` directly or by
-  K664's one-sided cofinal packet; do not invent separate constants when only
-  their effective margins are controlled. This is the remaining
-  `alpha,delta` obligation in compressed form. The raw
+  Independently certify complete `A=1-alpha` directly and certify
+  `B=m-delta` either as one unsplit complete bound or through K665's finite-row
+  plus two-tail packet; then use K666 with the matched-trace upper. Do not
+  invent separate constants when only their effective margins are controlled.
+  This is the remaining effective-margin obligation in compressed form. The raw
   K644 rows remain a valid sufficient route if
   their same-domain boundedness is independently proved. Neither route may
   split the singular exchange factors before cancellation, substitute a

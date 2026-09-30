@@ -7,6 +7,22 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K665--K666 PARITY-COFINAL MARGIN AND COMPLETE FLOOR
+> CERTIFICATE.** K665 composes the already-combined effective form margin
+> `B=m-delta` across K648's two total-parity compressions and every K643 bath
+> sector. Certified finite rows through `N` plus one independent tail lower for
+> each parity give `B_lower=min(B_plus,B_minus)`; finite prefixes, one-parity
+> evidence and uncontrolled complements fail closed. K666 combines that
+> `B_lower` with one complete `A_lower` and same-domain `beta_upper` through
+> K663's exact least-eigenvalue formula. Its positive floor criterion is
+> `A_lower>0`, `B_lower>0`, `A_lower B_lower>beta_upper^2`. Synthetic controls
+> assemble `B_lower=21/32`, determinant margin `125/256` and floor `5/8`; the
+> determinant endpoint has floor zero. Native use now requires actual complete
+> `A`, both finite-row/tail `B` inputs and the matched-trace upper on K647's one
+> common domain. No native margin, floor or protected scientific conclusion is
+> supplied. See `lab/process/k665-k500-parity-cofinal-effective-margin-composition.json`
+> and `lab/process/k666-k500-complete-cancellation-floor-certificate.json`.
+
 > **2026-09-30 K663--K664 SHARP CANCELLATION FLOOR AND COFINAL EFFECTIVE
 > MARGINS.** K663 optimizes K642's complete same-domain graph estimate. With
 > `A=1-alpha`, `B=m-delta` and matched-trace norm `beta`, the sharp floor from

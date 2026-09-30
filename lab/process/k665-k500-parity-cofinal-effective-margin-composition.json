@@ -1,0 +1,101 @@
+{
+  "claim_ceiling": "Exact conditional complete-direct-sum composition for K664's effective B margin. Certified finite combined-form rows through N and one independent tail lower for each K648 total parity give B_lower as their common minimum. Finite prefixes, sampled sectors, one-parity evidence and uncontrolled complements fail closed. The synthetic control yields B_lower=21/32 only as a test. No native B row, parity tail, m, delta, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition_theorem": {
+    "all_finite_rows_through_N_required": true,
+    "both_total_parities_required": true,
+    "complete_domain_required": true,
+    "direct_B_certificate_allowed": true,
+    "finite_prefix_only_sufficient": false,
+    "global_lower": "B_lower=min(B_plus,B_minus)",
+    "independent_tail_for_each_parity_required": true,
+    "per_parity_lower": "B_s=min(min_(0<=n<=N)b_s,n,t_s)",
+    "same_effective_form_required": true,
+    "sampled_sectors_only_sufficient": false,
+    "separate_m_delta_identification_required": false,
+    "uncontrolled_complement_allowed": false
+  },
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k665_k500_parity_cofinal_effective_margin_composition_probe.py",
+    "producer": "tests/channel-swings/k665_k500_parity_cofinal_effective_margin_composition.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "complete_B_composition_shape_closed": true,
+    "native_B_supplied": false,
+    "next_exact_input": "On K647's common domain, certify every finite combined effective B row for both K648 total parities through one N and one independent complete-complement tail lower for each parity; then take their minimum and compose it with a complete A lower and beta upper through K666."
+  },
+  "dependency_reconciliation": {
+    "K643_complete_bath_direct_sum_consumed": true,
+    "K646_two_parity_infimum_consumed": true,
+    "K647_common_domain_identity_consumed": true,
+    "K648_total_parity_forms_consumed": true,
+    "K651_finite_prefix_obstruction_respected": true,
+    "K652_uniform_tail_shape_consumed": true,
+    "K664_direct_B_interface_consumed": true
+  },
+  "direction": "observed_to_native",
+  "exact_control": {
+    "N": 2,
+    "controls_are_synthetic": true,
+    "finite_prefix_counterexample": {
+      "adversarial_hidden_lower": "-9",
+      "destroys_global_lower": true,
+      "same_visible_rows": true,
+      "uncontrolled_sector": 3
+    },
+    "global_B_lower": "21/32",
+    "matches_K663_control_B": true,
+    "minus_finite_rows": [
+      "5/6",
+      "4/5",
+      "23/32"
+    ],
+    "minus_lower": "21/32",
+    "minus_tail": "21/32",
+    "plus_finite_rows": [
+      "7/8",
+      "13/16",
+      "3/4"
+    ],
+    "plus_lower": "11/16",
+    "plus_tail": "11/16",
+    "weakest_row_is_minus_tail": true
+  },
+  "gu_typed_objects": {
+    "carrier": "K647's complete common form domain, reduced by K648 into both total-parity compressions and by K643 into every bath-number sector",
+    "form": "the already-combined effective lower form whose global margin is B=m-delta; no separate native m or delta is required",
+    "pairing": "K647's complete physical Gram on the same domain in every finite row and tail certificate",
+    "result": "parity-cofinal effective-margin composition MAP-TYPE=complete direct-sum infimum",
+    "target": "the complete B_lower input accepted by K664 and K663"
+  },
+  "ledger_no_change_reason": "This is a conditional complete-domain lower-form composition and supplies no native coefficient, action-owned state, physical quotient, observable or source mechanism.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_finite_B_rows_identified": false,
+    "actual_minus_tail_identified": false,
+    "actual_plus_tail_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Keep every visible finite row fixed and set one first uncontrolled bath sector to -9; the claimed global lower is destroyed.",
+    "strongest_overclaim": "Calling a finite bath prefix or one parity compression a complete B certificate.",
+    "weakest_reproducibility_seam": "All numerical rows are synthetic; native use begins only with complete same-form rows and separately certified tails."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K646 composes parity floors for m and K652 states a tail shape, but no artifact composes the already-combined effective B margin required by K664 across both parity tails.",
+    "route_comparison": "K664 already accepts direct B certificates, so composing the native K648 parity/bath decomposition directly into B is cheaper and less lossy than separately identifying m and delta.",
+    "strongest_alternative": "A direct unsplit complete-form B proof is stronger and remains admissible; K665 is the fail-closed route when evidence arrives sectorwise."
+  },
+  "result_id": "K665-K500-PARITY-COFINAL-EFFECTIVE-MARGIN-COMPOSITION",
+  "schema_version": "1.0",
+  "scope": "Complete direct-sum composition of certified effective B=m-delta lower rows across K648 total parity and K643 bath number, including independent cofinal tails.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
