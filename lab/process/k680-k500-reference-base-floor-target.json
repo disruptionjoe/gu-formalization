@@ -1,0 +1,99 @@
+{
+  "base_floor_target_theorem": {
+    "K168_reference_loss": "2",
+    "K670_complete_B_target": "1/170",
+    "complete_common_domain_required": true,
+    "composition": "R_ref>=R0-2M>=(r0-2)M",
+    "equality_check": "341/170-2=1/170",
+    "finite_base_rows_sufficient": false,
+    "one_parity_tail_sufficient": false,
+    "required_complete_base_floor": "r0>=341/170",
+    "target_is_sharp_over_K168_reference_class": true
+  },
+  "claim_ceiling": "Exact conditional target composition: because K168 can lower the base form by two M-units, K670's complete B>=1/170 requires the sharp base target r0>=341/170. Under K657's convention this corresponds to lambda=-s=341/170 and a complete D_W(341/170)>=0 packet with all reference premises. No native r0, denominator, B row, parity tail, A, complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k680_k500_reference_base_floor_target_probe.py",
+    "producer": "tests/channel-swings/k680_k500_reference_base_floor_target.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "complete_base_floor_target_now_exact": true,
+    "native_B_target_satisfied": false,
+    "next_exact_input": "Prove R0>=(341/170)M on the complete K647 domain directly, or instantiate K657 at lambda=341/170 with the proved Friedrichs reference, resolvent/sign premises and complete D_W(341/170)>=0. Then transport the bound through K168 and still verify every K665 finite row plus both parity tails on the same domain."
+  },
+  "dependency_reconciliation": {
+    "K656_sharp_two_unit_lift_consumed": true,
+    "K657_boundary_denominator_equivalence_consumed_conditionally": true,
+    "K665_every_finite_row_and_two_tail_requirement_retained": true,
+    "K667_matched_trace_bound_retained": true,
+    "K669_conditional_A_requirement_retained": true,
+    "K670_complete_B_target_consumed": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "B_target": "1/170",
+    "above_target_control": {
+      "composed_B": "1",
+      "meets_K670_target": true,
+      "r0": "3"
+    },
+    "base_floor_target": "341/170",
+    "below_target_control": {
+      "composed_B": "0",
+      "meets_K670_target": false,
+      "r0": "2"
+    },
+    "composed_B": "1/170",
+    "controls_are_conditional_not_native": true,
+    "reference_loss": "2",
+    "s_target": "-341/170"
+  },
+  "gu_typed_objects": {
+    "base_form": "K656's complete fixed K139 regular form R0 relative to M=S*S",
+    "boundary_denominator": "K657's D_W(lambda)=W-M(lambda) on the full spectator-Fock boundary space",
+    "effective_margin": "B, the complete same-domain coefficient-form margin consumed by K663/K670",
+    "reference_shape": "K168's W_ref=diag(-2,1,1), whose worst complete form shift is -2M",
+    "result": "reference base-floor target MAP-TYPE=sharp rational budget composition",
+    "target": "K665's complete finite-plus-two-tail B packet at 1/170"
+  },
+  "ledger_no_change_reason": "This is a rational lower-bound budget inside a repository-supplied conditional operator model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_native_base_floor_r0_identified": false,
+    "actual_native_denominator_at_target_serialized": false,
+    "actual_native_denominator_nonnegative": false,
+    "actual_plus_minus_B_tails_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A complete base floor r0=2 survives only to B>=0 after K168 and misses K670's strict positive determinant budget.",
+    "strongest_overclaim": "Reporting r0=341/170, B=1/170 or denominator positivity as native merely because the target arithmetic is exact.",
+    "weakest_reproducibility_seam": "K657 must be instantiated at positive lambda=341/170 with its exact sign convention and full spectator-Fock denominator; its existing negative-floor controls do not supply this row."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K656 states b=r0-2 and K670 states B>=1/170, but no current packet computes the consequent r0 or K657 real-level target.",
+    "route_comparison": "The A route is blocked one object earlier at r_free custody, while K656 already makes one complete base lower sufficient for every parity/bath compression. Composing it with K670 exposes the cheapest exact independent B target.",
+    "strongest_alternative": "K652's parity-local all-order cancellation bounds can prove B directly without a global R0 floor, but require more rows and two tails."
+  },
+  "result_id": "K680-K500-REFERENCE-BASE-FLOOR-TARGET",
+  "schema_version": "1.0",
+  "scope": "The sharp complete K139 base-form and K657 real-level denominator targets sufficient to survive K168's two-unit reference-shape loss and meet K670's complete effective B>=1/170 requirement.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "weyl_target_translation": {
+    "K657_parameterization": "lambda=-s and r0=-s",
+    "positive_lambda_forbidden_by_K657": false,
+    "required_denominator_test": "D_W(341/170)>=0 on the complete spectator-Fock boundary space",
+    "required_reference_test": "341/170 lies in rho(A_F) for the proved Friedrichs reference and the underlying symmetric operator is bounded below by 341/170",
+    "sign_convention_may_be_inferred": false,
+    "synthetic_negative_floor_rows_supply_target": false,
+    "target_lambda": "341/170",
+    "target_s": "-341/170"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "claim_ceiling": "Exact conditional functional-analytic result: a densely defined closed symmetric nonpositive complete remainder form canonically factorizes through T=(-r_free)^(1/2), and complete form reduction shared with the graph weight passes charge or bath projections to R=T a^-1. Current native custody supplies none of those form premises, boundedness or K609 identity. No native A, B, complement estimate, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 33,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k679_k500_closed_form_square_root_symmetry_compiler_probe.py",
+    "producer": "tests/channel-swings/k679_k500_closed_form_square_root_symmetry_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "abstract_factorization_no_longer_requires_independent_T_guess": true,
+    "native_premises_currently_owned": false,
+    "next_exact_input": "Serialize the invariant complete r_free and prove it is densely defined, closed, symmetric and nonpositive. Check cross-form reduction for every charge projection and, if using K677's shortcut, every bath projection; prove the graph weight a shares those reductions and that T a^-1 is bounded. Then compare its seed actions with K675 and bound its complete complement."
+  },
+  "dependency_reconciliation": {
+    "K669_factorization_requirement_reduced_to_closed_nonpositive_form": true,
+    "K669_map_identification_requirement_retained": true,
+    "K676_charge_intertwiner_reduced_to_form_and_weight_reduction": true,
+    "K677_bath_reduction_reduced_to_form_and_weight_reduction": true,
+    "K678_missing_native_form_custody_retained": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "R_norm_square": "1/64",
+    "canonical_T_diagonal": [
+      "1/4",
+      "1/5"
+    ],
+    "controls_are_synthetic": true,
+    "nonreducing_counterexample": {
+      "H_matrix": [
+        [
+          "1",
+          "1/2"
+        ],
+        [
+          "1/2",
+          "1"
+        ]
+      ],
+      "diagonal_invariance_alone_does_not_hold": true,
+      "projection_cross_form": "1/2"
+    },
+    "projection_cross_form": "0",
+    "reducing_graph_weight_a_diagonal": [
+      "2",
+      "5"
+    ],
+    "reducing_two_line_form_H_diagonal": [
+      "1/16",
+      "1/25"
+    ],
+    "resulting_R_diagonal": [
+      "1/8",
+      "1/25"
+    ]
+  },
+  "gu_typed_objects": {
+    "factor": "T=H^(1/2), so r_free[u]=-||T u||^2 on Dom(T)",
+    "form": "one densely defined closed symmetric nonpositive r_free on K647's complete graph Hilbert space",
+    "graph_operator": "R=T a^-1 after the domain map and bounded graph realization are separately proved",
+    "positive_form": "h=-r_free with associated nonnegative self-adjoint operator H",
+    "result": "closed-form square-root and symmetry compiler MAP-TYPE=representation-plus-functional-calculus",
+    "target": "K669 factorization, K676 charge shortcut and K677 reducing direct sum"
+  },
+  "ledger_no_change_reason": "This is a conditional functional-analytic compiler for an internal repository model and supplies no source-owned action, state, quotient or observable.",
+  "native_interface_status": {
+    "actual_K609_map_identity_proved": false,
+    "actual_native_R_bounded": false,
+    "actual_native_T_constructed": false,
+    "actual_native_bath_reduction_proved": false,
+    "actual_native_charge_reduction_proved": false,
+    "actual_native_closed_nonpositive_r_free_proved": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A positive off-diagonal form can have invariant diagonal line values while a coordinate projection has nonzero cross form, so linewise or sector labels alone do not imply reduction.",
+    "strongest_overclaim": "Invoking a square root before proving that the complete native remainder form is closed, symmetric, nonpositive and represented on the same domain.",
+    "weakest_reproducibility_seam": "The projection must reduce both h and a on their complete domains; algebraic bath preservation of another monomial family is not a substitute."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K669 states factorization as a premise; no current packet proves that closed symmetric nonpositive form custody canonically produces T or that reducing form symmetries pass through its square root.",
+    "route_comparison": "After K678 finds T unowned, the cheapest valid construction is not to guess T but to use the representation theorem on the actual invariant remainder form once serialized.",
+    "strongest_alternative": "K672 bypasses factorization by lower-bounding the invariant total form directly."
+  },
+  "projection_reduction_theorem": {
+    "K643_monomial_preservation_alone_sufficient": false,
+    "associated_operator_reduction": "P reduces H and every bounded spectral function of H",
+    "bath_consequence": "the bath projections reduce R and R^*R, enabling K677's sector-supremum rule",
+    "charge_consequence": "the three charge projections make R e_q occupy orthogonal output sectors, enabling K676's linewise shortcut",
+    "form_invariance_without_cross_reduction_sufficient": false,
+    "form_reduction_hypothesis": "P Dom(h) subset Dom(h) and h(Pu,(I-P)v)=0=h((I-P)u,Pv)",
+    "graph_operator_consequence": "P R subset R P for R=T a^-1 after bounded realization",
+    "square_root_reduction": "P T subset T P on Dom(T)",
+    "weight_reduction_hypothesis": "P reduces the positive graph weight a and its inverse on the declared carrier"
+  },
+  "result_id": "K679-K500-CLOSED-FORM-SQUARE-ROOT-SYMMETRY-COMPILER",
+  "schema_version": "1.0",
+  "scope": "The exact conditional representation and symmetry theorem that would construct K669's factor T from a newly serialized complete closed symmetric nonpositive remainder form and transfer charge/bath reductions to R=T a^-1.",
+  "source_and_ledger_effect": "none",
+  "square_root_theorem": {
+    "K609_map_identity_follows_from_factorization_alone": false,
+    "bounded_R_follows_from_factorization_alone": false,
+    "canonical_factor": "T=H^(1/2)",
+    "closed_nonpositive_form_suffices_for_factorization": true,
+    "factorization": "r_free[u]=-||T u||^2 for u in Dom(T)",
+    "factorization_requires_guessing_T": false,
+    "representation": "h=-r_free is represented by a unique nonnegative self-adjoint H",
+    "required_form_closedness": true,
+    "required_form_density": true,
+    "required_form_sign": "r_free[u]<=0 on the complete domain",
+    "required_form_symmetry": true
+  },
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

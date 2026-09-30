@@ -7,6 +7,27 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K678--K680 NATIVE REMAINDER CUSTODY, SQUARE-ROOT SYMMETRY
+> COMPILER AND REFERENCE BASE-FLOOR TARGET.** K678 performs the construction
+> attempt required after K677 and finds the exact earlier seam: K139/K168/K612
+> do not yet serialize K642's invariant complete `r_free`, so no native `T` or
+> `R=T a^-1` exists as an owned object on which to compute K676 seed rows or
+> K677 complement rows. This is a custody result, not nonexistence. K679 proves
+> the cheapest valid repair. A densely defined closed symmetric nonpositive `r_free`
+> canonically gives `T=(-r_free)^(1/2)`; complete cross-form reduction shared
+> with the graph weight `a` passes charge/bath projections to bounded `R`,
+> releasing the K676 linewise and K677 direct-sum shortcuts. Separately, K680
+> sharpens the independent `B` route: K168's two-unit loss means K670's
+> complete `B>=1/170` target requires `r0>=341/170`; through K657 this is a
+> complete `D_W(341/170)>=0` test at `lambda=-s=341/170`, with all Friedrichs,
+> resolvent and sign premises. Next construct the invariant same-domain
+> `r_free` and check its reductions, or prove K672 directly; in parallel prove
+> the K680 base-floor/denominator packet and still execute every K665 finite
+> row plus both parity tails. See
+> `lab/process/k678-k500-native-remainder-custody-audit.json`,
+> `lab/process/k679-k500-closed-form-square-root-symmetry-compiler.json`, and
+> `lab/process/k680-k500-reference-base-floor-target.json`.
+
 > **2026-09-30 K675--K677 SEED OPERATOR, NATIVE THREE-LINE CRITERION AND
 > COMPLEMENT COMPILER.** K675 constructs K609's charge-graded seed leakage
 > operator `L_seed` from its three normalized residual vectors and proves its

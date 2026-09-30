@@ -7,6 +7,43 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K678--K680 native remainder custody and base-floor target (2026-09-30)
+
+K678 audits the actual objects owned by K139, K168 and K612 before attempting
+K676's requested native action rows. K139 owns a common recursive boundary
+domain and norm-resolvent limit; K168 owns the bounded reference perturbation
+and exact order `R0-2M<=R_ref<=R0+M`; K612 proves the named complete cancelled-
+core quantitative data are absent. None of them defines K642's invariant
+negative free-coordinate form `r_free` on K647's complete graph domain. Hence
+an associated `T`, bounded `R=T a^-1`, its seed actions and its complement
+rows are not currently owned. This does not prove that a native remainder or
+factorization is nonexistent.
+
+K679 closes the abstract construction step. If a future invariant `r_free` is
+dense, closed, symmetric and nonpositive, then the representation theorem gives a unique
+nonnegative self-adjoint `H` and canonical `T=H^(1/2)` with
+`r_free[u]=-||T u||^2`. No independent guess of `T` is needed. If an
+orthogonal projection reduces the complete form and also reduces the positive
+graph weight `a`, functional calculus passes that projection through `T` and
+bounded `R=T a^-1`. Charge projections then justify K676's orthogonal linewise
+shortcut; bath projections reduce `R^*R` and justify K677's sector supremum.
+K643's preservation of another monomial family does not establish these
+form-reduction premises.
+
+K680 composes the independent complete-`B` route. K656's sharp lift is
+`B>=r0-2`; K670 requires `B>=1/170`. Therefore the exact base target is
+`r0>=341/170`, with equality giving `341/170-2=1/170`. Under K657's convention
+`lambda=-s` and `r0=-s`, this is a positive real-level test at
+`lambda=341/170`, requiring the proved Friedrichs reference, resolvent and
+sign hypotheses and complete spectator-Fock `D_W(341/170)>=0`. Existing
+synthetic negative-floor rows do not supply that packet.
+
+The K678 probe passes 30 controls and rejects 24/24 hostile mutations. K679
+passes 32 and rejects 26/26; K680 passes 32 and rejects 24/24. No native
+`r_free`, `T`, `R`, charge/bath reduction, seed action, complement estimate,
+denominator, `A`, `B`, floor, K473/K152 release, source, ledger, canon, paper,
+public, prediction, confirmation or physical conclusion follows.
+
 ## K675--K677 seed operator and complete-complement compiler (2026-09-30)
 
 K675 constructs the finite-rank operator that K609's three seed calculations

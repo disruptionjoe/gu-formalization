@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 2e1d2f38d223
+revision_basis: 26e11185f24b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,29 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K678--K680 resolve the next native-input fork without inventing the missing
+    objects. K678 audits K139/K168/K612 custody and finds that those artifacts
+    own a common recursive chart, norm-resolvent limit and bounded reference
+    shape, but do not yet define K642's invariant negative free-coordinate
+    form `r_free`, an associated factor `T`, or the bounded graph operator
+    `R=T a^-1`. Thus K676's native seed rows and K677's native complement rows
+    are not executable from current custody. This is data insufficiency, not a
+    proof that the native remainder or factorization cannot exist. K679 gives
+    the exact constructive repair: a densely defined closed symmetric nonpositive
+    complete `r_free` canonically yields `T=(-r_free)^(1/2)`; if each charge or
+    bath projection reduces both that form and the graph weight `a`, functional
+    calculus makes `R` preserve the corresponding decomposition after its
+    bounded realization is proved. This would release K676's linewise shortcut
+    and K677's sector-supremum rule, but none of the native premises or K609 map
+    identity is yet owned. Independently, K680 composes K656, K657 and K670:
+    surviving K168's sharp two-unit loss while proving complete `B>=1/170`
+    requires `R0>=r0 M` with the sharp target `r0>=341/170`. In K657's sign
+    convention this means `lambda=-s=341/170` and a complete
+    `D_W(341/170)>=0` packet with the Friedrichs, resolvent and sign premises.
+    No native `r_free`, `T`, `R`, denominator, `A`, `B`, row, tail, complete
+    floor, K473/K152 release, source, ledger, canon, paper, public or physical
+    conclusion moves.
+
     K675--K677 turn K674's two abstract missing inputs into typed executable
     certificates without claiming the native data. K675 constructs the actual
     charge-graded finite-rank seed leakage operator `L_seed` from K609's three
@@ -11812,6 +11835,15 @@ current_question: >-
   `A>2/3`; that factorization is absent. K670 conditionally combines this with
   K667: a complete `B>=1/170` from every finite K665 row and both parity tails
   would give determinant slack above `1/43605` and floor above `2/58653`.
+  K678 now audits the attempted native continuation and proves current
+  K139/K168/K612 custody does not yet define the invariant complete `r_free`,
+  its factor `T`, or bounded `R=T a^-1`; this is data insufficiency, not
+  nonexistence. K679 proves that a future densely defined closed symmetric nonpositive
+  `r_free` canonically yields `T=(-r_free)^(1/2)`, with charge/bath reduction
+  inherited when the complete form and graph weight share those reducing
+  projections. K680 independently sharpens the B route: K168's two-unit loss
+  converts `B>=1/170` into `r0>=341/170`, or K657's complete positive-level
+  denominator packet at `lambda=-s=341/170`.
   K671 now rejects the auxiliary-chart contraction as that direct `A`: the
   compensating regular form can vary independently. K672 gives the invariant
   replacement: on one complete graph-domain finite/complement split, prove
@@ -12414,7 +12446,21 @@ next_condition: >-
   insert an arbitrary Riesz map, or replay the already banked v0.163--v0.165
   route. A genuinely new independently action-owned nonzero stationary moving
   background remains live; only after it owns the required packet should
-  K596/K598 be applied. On the K500 route, K634's equivalent-norm and
+  K596/K598 be applied. On the K500 route, K678 proves that current
+  K139/K168/K612 custody does not yet define K642's invariant complete
+  `r_free`, its factor `T`, or bounded `R=T a^-1`; K676's seed actions and
+  K677's complement rows therefore cannot be computed from the currently
+  serialized native objects. This is data insufficiency, not nonexistence.
+  K679 gives the constructive conditional repair: a densely defined closed
+  symmetric nonpositive `r_free` canonically yields `T=(-r_free)^(1/2)`, and charge/bath
+  projections pass through bounded `R` when they reduce both the complete
+  form and graph weight `a`. K680 gives the independent complete-B target:
+  K168's two-unit loss means K670's `B>=1/170` requires `r0>=341/170`; K657
+  would instantiate it at `lambda=-s=341/170` with complete
+  `D_W(341/170)>=0` and every reference, resolvent and sign premise. Construct
+  the invariant remainder form and its reductions, or prove K672 directly;
+  independently prove the K680 base-floor packet and then every K665 finite
+  row plus both parity tails. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely
   non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.
   K639 quotients the actual K179 family to six algebraically independent

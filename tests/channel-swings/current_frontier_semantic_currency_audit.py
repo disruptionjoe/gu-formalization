@@ -34,6 +34,15 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k678": json.loads(
+            (ROOT / "lab/process/k678-k500-native-remainder-custody-audit.json").read_text()
+        ),
+        "k679": json.loads(
+            (ROOT / "lab/process/k679-k500-closed-form-square-root-symmetry-compiler.json").read_text()
+        ),
+        "k680": json.loads(
+            (ROOT / "lab/process/k680-k500-reference-base-floor-target.json").read_text()
+        ),
         "k675": json.loads(
             (ROOT / "lab/process/k675-k500-seed-leakage-operator.json").read_text()
         ),
@@ -295,6 +304,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K676" in live and "3-by-3 Gram" in live and
               "K677" in live and "u_N+v_N<=1/100" in live,
               "live seed operator, native comparison or complement compiler missing")
+        check("K678" in live and "r_free" in live and
+              "K679" in live and "closed" in live and
+              "K680" in live and "341/170" in live,
+              "live native remainder custody, square-root compiler or base-floor target missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -304,6 +317,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K678--K680 resolve the next native-input fork" in summary,
+          "current K678--K680 result lost")
     check("K675--K677 turn K674's two abstract missing inputs" in summary,
           "current K675--K677 result lost")
     check("K673--K674 resolve how K609 can honestly contribute" in summary,
@@ -374,6 +389,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "current native artifacts do not yet define" in data["agenda"].get("latest_result_2026_09_30_k678_k680", "")
+        and "341/170" in data["agenda"].get("latest_result_2026_09_30_k678_k680", "")
+        and "data insufficiency" in data["agenda"].get("latest_result_2026_09_30_k678_k680", ""),
+        "agenda K678--K680 result is not current",
+    )
     check(
         "charge-graded three-line seed leakage operator" in data["agenda"].get("latest_result_2026_09_30_k675_k677", "")
         and "u_N+v_N" in data["agenda"].get("latest_result_2026_09_30_k675_k677", "")
@@ -910,6 +931,47 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k677_n["native_tau2_at_most_one_over_one_hundred_proved"] and
           not k677_n["native_A_above_two_thirds_proved"],
           "K677 complement cofinal certificate or native ceiling moved")
+
+    k678 = data["k678"]
+    k678_t = k678["custody_theorem"]
+    k678_n = k678["native_interface_status"]
+    check(not k678_t["current_native_r_free_defined"] and
+          not k678_t["current_native_T_defined"] and
+          not k678_t["current_native_R_defined"] and
+          not k678_t["absence_proves_native_remainder_nonexistent"] and
+          not k678_t["absence_proves_factorization_impossible"] and
+          not k678_n["actual_native_R_serialized"] and
+          not k678_n["native_A_above_two_thirds_proved"],
+          "K678 native remainder custody or claim ceiling moved")
+
+    k679 = data["k679"]
+    k679_s = k679["square_root_theorem"]
+    k679_r = k679["projection_reduction_theorem"]
+    k679_n = k679["native_interface_status"]
+    check(k679_s["required_form_closedness"] and
+          k679_s["required_form_density"] and
+          k679_s["required_form_symmetry"] and
+          k679_s["closed_nonpositive_form_suffices_for_factorization"] and
+          not k679_s["bounded_R_follows_from_factorization_alone"] and
+          not k679_s["K609_map_identity_follows_from_factorization_alone"] and
+          not k679_r["K643_monomial_preservation_alone_sufficient"] and
+          not k679_n["actual_native_T_constructed"] and
+          not k679_n["native_A_above_two_thirds_proved"],
+          "K679 square-root symmetry compiler or native ceiling moved")
+
+    k680 = data["k680"]
+    k680_t = k680["base_floor_target_theorem"]
+    k680_w = k680["weyl_target_translation"]
+    k680_n = k680["native_interface_status"]
+    check(k680_t["required_complete_base_floor"] == "r0>=341/170" and
+          k680_t["equality_check"] == "341/170-2=1/170" and
+          k680_t["target_is_sharp_over_K168_reference_class"] and
+          k680_w["target_lambda"] == "341/170" and
+          k680_w["target_s"] == "-341/170" and
+          not k680_w["synthetic_negative_floor_rows_supply_target"] and
+          not k680_n["actual_complete_B_lower_identified"] and
+          not k680_n["native_complete_floor_emitted"],
+          "K680 reference base-floor target or native ceiling moved")
 
     k673 = data["k673"]
     k673_t = k673["coverage_theorem"]

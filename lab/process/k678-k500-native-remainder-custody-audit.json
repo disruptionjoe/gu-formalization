@@ -1,0 +1,90 @@
+{
+  "claim_ceiling": "Exact custody result: current K139/K168/K612 artifacts do not define K642's invariant negative free-coordinate remainder, an associated factor T, or the bounded graph operator R=T a^-1, so K676 native seed rows and K677 native complement rows cannot yet be computed from those artifacts. This is data insufficiency, not nonexistence or an impossibility theorem. No native A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_CUSTODY_ONLY",
+  "controls": {
+    "controls_passed": 30,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k678_k500_native_remainder_custody_audit_probe.py",
+    "producer": "tests/channel-swings/k678_k500_native_remainder_custody_audit.py"
+  },
+  "created": "2026-09-30",
+  "custody_rows": {
+    "K139": {
+      "K642_invariant_r_free_decomposition_owned": false,
+      "associated_T_owned": false,
+      "common_recursive_boundary_domain_owned": true,
+      "norm_resolvent_limit_owned": true
+    },
+    "K168": {
+      "K642_invariant_r_free_decomposition_owned": false,
+      "base_R0_numerical_lower_owned": false,
+      "bounded_reference_shape_owned": true,
+      "complete_reference_form_order_owned": true
+    },
+    "K612": {
+      "current_numeric_custody_audited": true,
+      "named_complete_cancelled_core_relative_bound_owned": false,
+      "named_regular_lower_r0_owned": false,
+      "new_same_form_estimate_required": true
+    }
+  },
+  "custody_theorem": {
+    "K609_map_can_be_compared_to_current_native_R": false,
+    "K676_seed_rows_currently_executable": false,
+    "K677_core_tail_rows_currently_executable": false,
+    "absence_proves_factorization_impossible": false,
+    "absence_proves_native_remainder_nonexistent": false,
+    "current_native_R_defined": false,
+    "current_native_T_defined": false,
+    "current_native_r_free_defined": false,
+    "exact_repair": "serialize one complete closed invariant r_free on K647's common graph domain, its sign and representation data, the graph weight a, and the bounded realization R=T a^-1 before action or complement rows are claimed"
+  },
+  "decision": {
+    "direct_R_serialization_from_current_custody_rejected": true,
+    "next_exact_input": "Construct the invariant same-domain remainder form itself, not merely an auxiliary chart term. If it is closed and nonpositive, use K679's canonical square-root compiler; otherwise pursue K672's direct total-form certificate. The independent K680 base-floor target remains executable.",
+    "route_killed": false
+  },
+  "dependency_reconciliation": {
+    "K139_common_domain_retained": true,
+    "K168_reference_order_retained": true,
+    "K612_quantitative_custody_obstruction_consumed": true,
+    "K669_factorization_shape_retained": true,
+    "K676_native_seed_action_request_deferred_for_missing_object": true,
+    "K677_native_complement_request_deferred_for_missing_object": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "owned_chart": "K139's common recursive signed point-Fock boundary chart",
+    "owned_reference_shape": "K168's bounded W_ref=diag(-2,1,1) perturbation with R0-2M<=R_ref<=R0+M",
+    "requested_form": "K642/K669's invariant negative free-coordinate form r_free on K647's complete graph domain",
+    "requested_operator": "R=T a^-1 after r_free=-T*T on that same domain",
+    "result": "native remainder custody audit MAP-TYPE=owner-and-domain provenance check",
+    "target": "the native inputs requested by K676 and K677"
+  },
+  "ledger_no_change_reason": "This audits ownership inside a repository-supplied conditional point-Fock model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_R_serialized": false,
+    "actual_native_T_serialized": false,
+    "actual_native_complement_bound_proved": false,
+    "actual_native_r_free_serialized": false,
+    "actual_native_seed_compression_identity_proved": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A future closed symmetric nonpositive same-domain remainder could canonically define T and reopen the full K669/K674 route without changing K139 or K168.",
+    "strongest_overclaim": "Treating the absence of a serialized r_free as proof that no native factorization exists.",
+    "weakest_reproducibility_seam": "The audit is about explicit owned objects and domains; notation such as remainder, regular part or leakage cannot substitute for an equality on K647's complete form domain."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K612 already rejects mining a numerical complete lower from K139/K168; K678 asks the distinct operator-provenance question for K669's r_free, T and R.",
+    "route_comparison": "K676 requests three native R actions, but the cheaper prerequisite test is whether current native custody defines R at all.",
+    "strongest_alternative": "K672 can certify the invariant total form directly without splitting off r_free if native finite, complement and cross rows become available."
+  },
+  "result_id": "K678-K500-NATIVE-REMAINDER-CUSTODY-AUDIT",
+  "schema_version": "1.0",
+  "scope": "Whether current K139/K168/K612 native custody defines K642's invariant negative free-coordinate remainder, an associated factor T, and the bounded graph operator R=T a^-1 needed by K676/K677.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
