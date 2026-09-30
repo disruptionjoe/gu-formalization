@@ -1,0 +1,98 @@
+{
+  "claim_ceiling": "Exact compressed leakage-to-A certificate. If K609 is proved to be the P_seed compression of K669's R=T a^-1 and the complete graph-orthogonal complement satisfies ||R Q_seed||^2<=tau2, then ||R||^2<=lambda_K609+tau2 and A>2/3 follows from tau2<1/3-lambda_K609. The current exact residual budget is positive and exceeds 1/100, but no native compression identity or complement bound is supplied. No native A, B, complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "compressed_bridge_theorem": {
+    "K672_cross_input": "kappa^2<=lambda*tau2",
+    "K672_diagonal_inputs": "a_N=1-lambda and a_tail=1-tau2",
+    "complete_A_lower": "A>=1-lambda-tau2",
+    "complete_complement_bound_required": "||R Q_seed||^2<=tau2 on every vector of the complete graph-orthogonal complement",
+    "finite_or_sampled_complement_sufficient": false,
+    "range_orthogonality_required": false,
+    "seed_compression_identity_required": "R P_seed is unitarily the direct sum of K609's three normalized seed-line leakage maps",
+    "strict_two_thirds_test": "lambda+tau2<1/3",
+    "two_column_bound": "||R||^2<=lambda+tau2 by ||Rp+Rq||<=sqrt(lambda)||p||+sqrt(tau2)||q|| and Cauchy-Schwarz",
+    "two_thirds_shifted_determinant": "(1/3-lambda)(1/3-tau2)-lambda*tau2=1/9-(lambda+tau2)/3",
+    "uncontrolled_complement_allowed": false
+  },
+  "controls": {
+    "controls_passed": 26,
+    "hostile_mutations_rejected": 22,
+    "probe": "tests/channel-swings/k674_k500_compressed_leakage_complement_budget_probe.py",
+    "producer": "tests/channel-swings/k674_k500_compressed_leakage_complement_budget.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "compressed_K609_route_shape_closed": true,
+    "full_K669_identity_required_for_this_route": false,
+    "native_A_above_two_thirds_proved": false,
+    "next_exact_input": "Identify K609 with R P_seed on K647's graph domain and prove ||R Q_seed||^2<=1/100 (or any exact value below the displayed residual budget). This would prove A>2/3 without a full-domain unitary identification. Then certify K665's complete B>=1/170 packet."
+  },
+  "dependency_reconciliation": {
+    "K609_exact_seed_bound_consumed_conditionally": true,
+    "K663_A_definition_consumed": true,
+    "K669_full_map_identity_no_longer_required_for_compressed_route": true,
+    "K670_complete_B_target_retained_conditionally": true,
+    "K672_finite_complement_certificate_instantiated_conditionally": true,
+    "K673_seed_coverage_ceiling_respected": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "attained_complete_norm_square": "65/196",
+    "complete_A": "131/196",
+    "complete_A_above_two_thirds": true,
+    "endpoint_A": "2/3",
+    "endpoint_lambda_plus_tau2": "1/3",
+    "endpoint_strict_target_rejected": true,
+    "lambda": "16/49",
+    "lambda_plus_tau2": "65/196",
+    "synthetic_aligned_range_control": true,
+    "tau2": "1/196",
+    "two_column_bound_sharp_without_range_orthogonality": true
+  },
+  "exact_native_target": {
+    "K609_lambda_strictly_below_one_third": true,
+    "K609_uniform_seed_lambda": "1564980541958284422414661385284885596252906950125050279632912644198704827840183685154364013137694233062662970323845344543370262869788735994026327947822532126202108342714497153320468484658497324531909816782331118146820461897949630071204312185439081/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+    "exact_remaining_tau2_budget": "52041158057017460082449928346592403641535293332461600354606582016146953509886727163565773799657587059821645297630121887573526806623504186566062742615637868660491070066950929781906564783243068977965076560411819453179538102050369928795687814560919/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+    "exact_remaining_tau2_budget_decimal": "0.010727779772843081",
+    "simple_sufficient_tau2_target": "1/100",
+    "simple_target_A_lower": "3237573907087162168601759216200604063433586512943760003930019457659404962769525439429887454066240672701116338071936790756532792469155617342333072402778832758539811913246403653493585412183471644192418616445615406525179538102050369928795687814560919/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+    "simple_target_A_strictly_above_two_thirds": true,
+    "simple_target_excess_above_two_thirds": "3530507056558403607536588937648063644702026028736243954981005229701400069384614794027880191537032456147106828985857894645213116331136981148291021902492768814613087683507487288835313299990857172668829760129531325179538102050369928795687814560919/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+    "simple_target_strictly_inside_budget": true,
+    "target_is_conditional_not_native": true
+  },
+  "gu_typed_objects": {
+    "complement_data": "||R Q_seed||^2<=tau2 on the complete graph-orthogonal complement",
+    "compressed_data": "||R P_seed||^2<=lambda after a native compression identity with K609",
+    "operator": "R=T a^-1 from K669 on K647's complete free-coordinate graph carrier",
+    "projection": "graph-orthogonal P_seed onto K673's q00, q10 and q01 seed lines, with Q_seed=I-P_seed",
+    "result": "compressed leakage complement certificate MAP-TYPE=two-column operator norm bound",
+    "target": "the complete A=1-alpha margin consumed by K663/K670"
+  },
+  "ledger_no_change_reason": "This is a conditional operator-norm composition inside a repository-supplied point-Fock model and supplies no source-owned action, physical state, quotient, observable or empirical consequence.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_complete_complement_tau2_identified": false,
+    "actual_seed_compression_identity_proved": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "At lambda+tau2=1/3 with aligned output ranges, the complete norm square reaches one third and A equals exactly two thirds, so the strict budget cannot be weakened to a non-strict one.",
+    "strongest_overclaim": "Reporting the positive residual budget or the convenient 1/100 target as an already proved native complement estimate.",
+    "weakest_reproducibility_seam": "The compression identity and Q_seed norm must use the same graph pairing and complete domain; charge-orthogonal input lines do not imply orthogonal output ranges."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K672 supplies the general finite/complement determinant test but does not exploit the factorized negative form R^*R or K609's exact seed compression.",
+    "route_comparison": "K673 rejects full-domain reuse from three seed lines but does not erase their value; a two-column compression/complement estimate is the sharpest honest route that converts the existing number into a smaller native obligation.",
+    "strongest_alternative": "A direct invariant-form K672 packet remains valid and may be easier if native diagonal form lowers appear before the operator compression identity."
+  },
+  "result_id": "K674-K500-COMPRESSED-LEAKAGE-COMPLEMENT-BUDGET",
+  "schema_version": "1.0",
+  "scope": "A complete-domain A-margin certificate that reuses K609 only as the compression of K669's remainder factor to K673's three seed lines and separately controls the graph-orthogonal complement.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

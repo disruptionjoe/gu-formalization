@@ -7,6 +7,37 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K673--K674 seed-line custody and compressed leakage complement budget (2026-09-30)
+
+K673 separates two meanings of completeness. K609 controls every serialized
+order plus its certified tail for the normalized leakage vectors at the three
+orthogonal q00/q10/q01 zero-bath seed lines. It does not serialize an operator
+norm on K647's complete free-coordinate graph domain. The exact positive Gram
+family `R_M^*R_M=diag(lambda_q00,lambda_q10,lambda_q01,M)` preserves all three
+seed-line values while its complete norm square is
+`max(lambda_seed,M)`. At `M=1` the same seed evidence is compatible with
+complete norm square one. This proves data insufficiency, not that the native
+operator has such a hidden direction.
+
+K674 proves the compressed repair. Let `R=T a^-1`, let `P_seed` project onto
+those three lines in the graph pairing and let `Q_seed=I-P_seed`. If a native
+intertwiner identifies `R P_seed` with K609 and
+`||R Q_seed||^2<=tau2` on the complete complement, then the two-column
+Cauchy--Schwarz estimate gives
+`||R||^2<=lambda_K609+tau2`, even when the two output ranges are not
+orthogonal. Equivalently K672 receives `a_N=1-lambda`,
+`a_tail=1-tau2` and `kappa^2<=lambda tau2`; its shifted determinant reduces
+to `1/9-(lambda+tau2)/3`. Hence `A>2/3` exactly when
+`lambda+tau2<1/3`. The current K609 value leaves the exact positive budget
+`1/3-lambda_K609`, approximately `0.010727779772843081`, and `tau2<=1/100`
+is a convenient sufficient target. It is not a proved native tail estimate.
+
+The K673 probe passes 24 controls and rejects 20/20 hostile mutations. The
+K674 probe passes 26 controls and rejects 22/22 hostile mutations. Neither
+result supplies the native compression identity, complement bound, `A`, `B`,
+a complete floor, K473/K152 release, source, ledger, canon, paper, public,
+prediction, confirmation or physical conclusions.
+
 ## K671--K672 auxiliary-chart custody and direct-A cofinal certificate (2026-09-30)
 
 K671 applies K659's compensated-coordinate lesson to K663's invariant total

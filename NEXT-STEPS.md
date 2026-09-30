@@ -7,6 +7,22 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K673--K674 SEED-LINE CUSTODY AND COMPRESSED LEAKAGE
+> COMPLEMENT BUDGET.** K673 proves that K609's all-order q00/q10/q01
+> leakage bounds are complete on three orthogonal zero-bath seed lines, not a
+> complete-domain operator norm on K647's graph carrier. A hidden complement
+> can change that norm arbitrarily without changing any seed value. K674
+> retains the calculation honestly: if K609 is the native compression
+> `R P_seed` of K669's `R=T a^-1` and the complete complement satisfies
+> `||R Q_seed||^2<=tau2`, then `||R||^2<=lambda_K609+tau2` and
+> `A>2/3` follows from `tau2<1/3-lambda_K609`. The exact residual budget is
+> about `0.010727779772843081`; the simple conditional target
+> `tau2<=1/100` is sufficient. Neither the compression identity nor the tail
+> estimate is native yet. Prove those two inputs, or prove K672's direct form
+> packet; then prove K665's complete `B>=1/170` rows and both parity tails.
+> See `lab/process/k673-k500-seed-line-leakage-custody.json` and
+> `lab/process/k674-k500-compressed-leakage-complement-budget.json`.
+
 > **2026-09-30 K671--K672 AUXILIARY-CHART CUSTODY AND DIRECT-A COFINAL
 > CERTIFICATE.** K671 closes the tempting shortcut from K139's auxiliary
 > chart contraction to K663's `A`: compensated chart terms can vary while the

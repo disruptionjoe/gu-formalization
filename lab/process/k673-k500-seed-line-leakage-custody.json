@@ -1,0 +1,92 @@
+{
+  "claim_ceiling": "Exact carrier-coverage custody for K609. Its q00/q10/q01 leakage enclosures are complete in truncation order and tail on three orthogonal seed lines, but those values do not determine a bounded operator on K647's complete free-coordinate domain: a hidden complement can change the complete norm arbitrarily while preserving all three values. This does not deny a native complete extension and preserves compressed reuse. No native factorization, complement bound, A, B, complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k673_k500_seed_line_leakage_custody_probe.py",
+    "producer": "tests/channel-swings/k673_k500_seed_line_leakage_custody.py"
+  },
+  "coverage_theorem": {
+    "K609_complete_domain_operator_norm_proved": false,
+    "K609_complete_in_truncation_order": true,
+    "K609_complete_on_named_seed_lines": true,
+    "named_seed_lines": [
+      "q00",
+      "q10",
+      "q01"
+    ],
+    "native_complete_extension_denied": false,
+    "required_repair": "either prove the K669 full complete-domain intertwiner or retain K609 only as a P_seed compression and control its complete complement separately",
+    "seed_line_bounds_alone_identify_K669_map": false,
+    "seed_line_bounds_determine_hidden_complement": false,
+    "seed_lines_pairwise_orthogonal_by_charge": true
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "K609_full_complete_domain_reuse_from_current_artifact_rejected": true,
+    "K609_seed_compression_reuse_remains_live": true,
+    "next_exact_input": "Prove that K609 is the P_seed compression of K669's R=T a^-1, then prove a complete graph-orthogonal complement norm square below K674's residual budget; or prove the full K669 identity directly."
+  },
+  "dependency_reconciliation": {
+    "K609_all_order_tail_retained": true,
+    "K609_exact_seed_values_retained": true,
+    "K647_complete_domain_retained": true,
+    "K669_full_identity_not_claimed": true,
+    "K672_compression_complement_route_open": true
+  },
+  "direction": "observed_to_native",
+  "exact_seed_data": {
+    "all_order_tail_charged_once": true,
+    "line_leakage_square_uppers": {
+      "q00": "1564980541958284422414661385284885596252906950125050279632912644198704827840183685154364013137694233062662970323845344543370262869788735994026327947822532126202108342714497153320468484658497324531909816782331118146820461897949630071204312185439081/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+      "q01": "6055509002285547590783845990413907083222121508095281903228013885529087063885444273764382271218345007188134931152143031428726049/18770844678972874892492295073678151930769791649035987613639375890428792366105163722734226636800000000000000000000000000000000000",
+      "q10": "6055509002285547590783845990413907083222121508095281903228013885529087063885444273764382271218345007188134931152143031428726049/18770844678972874892492295073678151930769791649035987613639375890428792366105163722734226636800000000000000000000000000000000000"
+    },
+    "uniform_seed_square_strictly_below_one_third": true,
+    "uniform_seed_square_upper": "1564980541958284422414661385284885596252906950125050279632912644198704827840183685154364013137694233062662970323845344543370262869788735994026327947822532126202108342714497153320468484658497324531909816782331118146820461897949630071204312185439081/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000"
+  },
+  "gu_typed_objects": {
+    "complete_carrier": "K647's complete free-coordinate graph domain, containing P_seed and an uncontrolled graph-orthogonal complement",
+    "result": "seed-line coverage custody MAP-TYPE=operator-extension nonidentifiability",
+    "seed_data": "three complete-in-order normalized action-vector leakage Rayleigh bounds",
+    "seed_subspace": "P_seed=direct sum of the three orthogonal q00, q10 and q01 zero-bath cyclic seed lines used by K609",
+    "target": "the complete K669 map T a^-1 required to control K663's A margin"
+  },
+  "hidden_complement_countermodel": {
+    "all_seed_line_values_unchanged_for_every_M_nonnegative": true,
+    "complete_norm_square": "max(lambda_seed,M)",
+    "displayed_A_upper_at_most": "0",
+    "displayed_complete_norm_square": "1",
+    "displayed_hidden_M": "1",
+    "positive_gram_operator": "R_M^* R_M=diag(lambda_q00,lambda_q10,lambda_q01,M) on P_seed direct_sum C e_hidden",
+    "proves_seed_data_insufficient_not_native_A_nonpositive": true,
+    "same_seed_data_can_have_complete_norm_at_least_one": true
+  },
+  "ledger_no_change_reason": "This is an operator-domain custody result inside a repository-supplied conditional point-Fock model; it changes no source-owned action, physical state, quotient, observable or empirical consequence.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_complement_norm_identified": false,
+    "actual_complete_extension_identified": false,
+    "actual_seed_compression_identity_proved": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The hidden-complement diagonal M=1 preserves every K609 seed-line value while making the complete norm square one.",
+    "strongest_overclaim": "Calling an all-order bound on three orthogonal seed lines the operator norm on the complete graph domain.",
+    "weakest_reproducibility_seam": "A future bridge must serialize the projection P_seed, prove charge-sector orthogonality in the graph pairing and identify the compressed native operator, not only compare three numbers."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K609 names exactly three zero-bath seed levels and K669 names K647's complete domain; no artifact proves these carriers coincide.",
+    "route_comparison": "K609 owns an exact number below one third, but K669 requires a complete-domain operator identity; resolving whether 'complete' refers to perturbative order or carrier coverage precedes any numerical reuse.",
+    "strongest_alternative": "A direct K672 finite/complement form proof bypasses K609 but currently has no native diagonal or cross inputs."
+  },
+  "result_id": "K673-K500-SEED-LINE-LEAKAGE-CUSTODY",
+  "schema_version": "1.0",
+  "scope": "The carrier coverage of K609's all-order normalized leakage enclosures relative to K669's required complete-domain operator identity.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

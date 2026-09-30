@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: bbb485462c82
+revision_basis: a49e07db63f1
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,23 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K673--K674 resolve how K609 can honestly contribute to K663's native
+    `A` margin without promoting three seed values to a complete-domain norm.
+    K673 proves the carrier-coverage boundary: K609 is complete in truncation
+    order and tail on the three orthogonal q00/q10/q01 zero-bath seed lines,
+    but a hidden graph-orthogonal complement can change the full operator norm
+    arbitrarily while preserving every seed-line value. This rejects only
+    unproved full-domain reuse; it does not deny a native extension. K674 then
+    salvages the exact computation as a compression. If K609 is identified
+    with `R P_seed` for K669's `R=T a^-1`, and the complete complement obeys
+    `||R Q_seed||^2<=tau2`, then `||R||^2<=lambda_K609+tau2` without assuming
+    orthogonal output ranges. Thus `A>2/3` follows from
+    `tau2<1/3-lambda_K609`. The exact remaining budget is about
+    `0.010727779772843081`, so the simple conditional target `tau2<=1/100`
+    suffices. No native compression identity, complement estimate, `A`, `B`,
+    complete floor, K473/K152 release, source, ledger, canon, paper, public or
+    physical conclusion moves.
+
     K671--K672 close the auxiliary-chart shortcut and provide the invariant
     direct-`A` certificate without moving a protected claim. K671 specializes
     K659's compensated-chart custody to K663: an auxiliary remainder ratio can
@@ -11780,7 +11797,14 @@ current_question: >-
   compensating regular form can vary independently. K672 gives the invariant
   replacement: on one complete graph-domain finite/complement split, prove
   native `a_N>2/3`, `a_tail>2/3`, and
-  `kappa^2<(a_N-2/3)(a_tail-2/3)`, or prove the K669 bridge. Then prove K665's
+  `kappa^2<(a_N-2/3)(a_tail-2/3)`. K673 now proves that K609's three
+  all-order seed-line bounds do not determine K669's complete operator norm:
+  an uncontrolled graph-orthogonal complement can carry arbitrary norm while
+  preserving every seed value. K674 gives the strict compressed repair. Prove
+  the native identity `R P_seed=K609`, with `R=T a^-1`, and a complete
+  complement estimate `||R Q_seed||^2<=1/100` (or any value below the exact
+  residual budget `1/3-lambda_K609`); then `A>2/3` follows without the full
+  K669 unitary identity. Alternatively prove K672 directly. Then prove K665's
   complete `B>=1/170` packet; do not report any conditional margin as native.
   K643 now proves that every K179 exchange
   monomial preserves bath number, so a future closed coefficient form reduces
@@ -12408,8 +12432,11 @@ next_condition: >-
   prove native `a_N>2/3`, `a_tail>2/3`, and
   `kappa^2<(a_N-2/3)(a_tail-2/3)`. Its synthetic
   `3/4,1,1/12` control gives `A>43/60`, not a native bound. Prove that packet
-  or the K669 bridge, then certify K665's full `B>=1/170` packet; neither
-  margin is native yet. K643 reduces the missing boundary form to
+  directly, or use K673--K674's compressed route: identify K609 with
+  `R P_seed` and prove the complete complement square below
+  `1/3-lambda_K609` (the simple target `1/100` suffices). Three seed values
+  alone do not determine the complete norm. Then certify K665's full
+  `B>=1/170` packet; neither margin is native yet. K643 reduces the missing boundary form to
   bath-number sectors and proves `m=inf_n m_n`, with a required uniform tail.
   K644 reduces each `m_n` to the actual six-channel diagonal floors and
   fifteen off-diagonal coupling bounds through a scalar comparison matrix,
