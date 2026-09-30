@@ -7,6 +7,45 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K681--K683 complete-form and denominator robustness compilers (2026-09-30)
+
+K681 closes an abstract construction gap left deliberately open by K679. For
+an increasing sequence of densely defined closed nonnegative forms `h_N`, the
+finite-supremum domain
+`D(h)={u in intersection D(h_N): sup_N h_N[u]<infinity}` must itself be dense.
+Under that premise `h[u]=sup_N h_N[u]` is a closed nonnegative form, has a
+unique associated nonnegative self-adjoint `H`, and gives
+`T=H^(1/2)`. Exact reductions and a uniform graph-relative upper pass to the
+limit. A finite prefix is not complete evidence; the pointwise supremum of
+non-ordered forms need not even be quadratic.
+
+K682 proves the missing bounded-realization criterion. If `Dom(a)` maps into
+`Dom(T)` and `h[u]=||T u||^2<=c^2||a u||^2` for every `u` in the complete
+domain, then `R=T a^-1` extends boundedly and `||R||<=c`. Conversely a bounded
+realization implies that inequality. If a charge or bath projection reduces
+both `h` and `a`, it reduces `R` and `R^*R`; this is the exact hypothesis needed
+for K676's orthogonal-line shortcut and K677's sector-supremum shortcut. A
+three-line control with squared norm `1/64` verifies the algebra, while a
+`diag(1,100)` counterexample shows that one seed bound does not control the
+complete norm.
+
+K683 extends K658 from same-level approximation to real-level transport. In a
+single ordinary-boundary-triple coordinate with fixed `W`, if
+`D_W(lambda_1)>=d_1 I` and
+`||M(lambda_1)-M(341/170)||<=omega` on the complete spectator-Fock boundary
+space, then `D_W(341/170)>=(d_1-omega)I`. Thus `d_1>=omega` admits K680's
+target. On an authenticated connected reference-resolvent interval, ordinary
+Weyl operator monotonicity also transfers a complete nonnegative denominator
+downward from `lambda_1>=341/170`. A synthetic row at `lambda_1=21/10` transfers
+margin `1/20-1/100=1/25`; a row `1/100-1/50=-1/100` correctly fails.
+
+The K681 probe passes 32 controls and rejects 26/26 hostile mutations. K682
+passes 34 and rejects 28/28; K683 passes 32 and rejects 26/26. No native
+monotone form family, `r_free`, `T`, bounded `R`, reduction, seed identity,
+complement estimate, denominator, `A`, `B`, floor, K473/K152 release, source,
+ledger, canon, paper, public, prediction, confirmation or physical conclusion
+follows.
+
 ## K678--K680 native remainder custody and base-floor target (2026-09-30)
 
 K678 audits the actual objects owned by K139, K168 and K612 before attempting

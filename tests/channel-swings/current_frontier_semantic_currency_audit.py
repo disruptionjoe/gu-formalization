@@ -34,6 +34,15 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k681": json.loads(
+            (ROOT / "lab/process/k681-k500-monotone-remainder-form-compiler.json").read_text()
+        ),
+        "k682": json.loads(
+            (ROOT / "lab/process/k682-k500-graph-relative-bounded-reduction-compiler.json").read_text()
+        ),
+        "k683": json.loads(
+            (ROOT / "lab/process/k683-k500-weyl-target-level-robustness.json").read_text()
+        ),
         "k678": json.loads(
             (ROOT / "lab/process/k678-k500-native-remainder-custody-audit.json").read_text()
         ),
@@ -308,6 +317,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K679" in live and "closed" in live and
               "K680" in live and "341/170" in live,
               "live native remainder custody, square-root compiler or base-floor target missing")
+        check("K681" in live and "finite-supremum" in live and
+              "K682" in live and "complete relative form inequality" in live and
+              "K683" in live and "complete Weyl difference budget" in live,
+              "live monotone-form, graph-relative or Weyl robustness compiler missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -317,6 +330,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K681--K683 convert the K678--K680 missing-input frontier" in summary,
+          "current K681--K683 result lost")
     check("K678--K680 resolve the next native-input fork" in summary,
           "current K678--K680 result lost")
     check("K675--K677 turn K674's two abstract missing inputs" in summary,
@@ -389,6 +404,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "monotone complete-form construction" in data["agenda"].get("latest_result_2026_09_30_k681_k683", "")
+        and "h[u]<=c^2" in data["agenda"].get("latest_result_2026_09_30_k681_k683", "")
+        and "341/170" in data["agenda"].get("latest_result_2026_09_30_k681_k683", ""),
+        "agenda K681--K683 result is not current",
+    )
     check(
         "current native artifacts do not yet define" in data["agenda"].get("latest_result_2026_09_30_k678_k680", "")
         and "341/170" in data["agenda"].get("latest_result_2026_09_30_k678_k680", "")
@@ -972,6 +993,47 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k680_n["actual_complete_B_lower_identified"] and
           not k680_n["native_complete_floor_emitted"],
           "K680 reference base-floor target or native ceiling moved")
+
+    k681 = data["k681"]
+    k681_t = k681["monotone_form_theorem"]
+    k681_r = k681["reduction_and_bound_inheritance"]
+    k681_n = k681["native_interface_status"]
+    check(k681_t["limit_density_required"] and
+          not k681_t["finite_prefix_sufficient"] and
+          not k681_t["pointwise_nonmonotone_family_sufficient"] and
+          not k681_t["native_identification_follows_from_abstract_convergence"] and
+          not k681_r["stagewise_bath_labels_without_form_reduction_sufficient"] and
+          not k681_n["actual_native_r_free_identified"] and
+          not k681_n["native_complete_floor_emitted"],
+          "K681 monotone remainder-form compiler or native ceiling moved")
+
+    k682 = data["k682"]
+    k682_t = k682["boundedness_theorem"]
+    k682_r = k682["projection_reduction_theorem"]
+    k682_n = k682["native_interface_status"]
+    check(k682_t["complete_domain_required"] and
+          not k682_t["factorization_alone_sufficient"] and
+          not k682_t["finite_seed_rows_sufficient"] and
+          not k682_t["sampled_bath_rows_sufficient"] and
+          not k682_r["K643_monomial_preservation_substitutable"] and
+          not k682_r["reduction_of_h_without_reduction_of_a_sufficient"] and
+          not k682_n["actual_native_R_bounded"] and
+          not k682_n["native_complete_floor_emitted"],
+          "K682 graph-relative bounded reduction compiler or native ceiling moved")
+
+    k683 = data["k683"]
+    k683_t = k683["level_transfer_theorem"]
+    k683_m = k683["monotone_shortcut"]
+    k683_n = k683["native_interface_status"]
+    check(k683_t["same_boundary_coordinate_required"] and
+          k683_t["same_target_extension_W_required"] and
+          k683_t["complete_boundary_coverage_required"] and
+          not k683_t["pointwise_or_finite_block_variation_sufficient"] and
+          not k683_t["raw_floor_transport_across_nonunitary_coordinate_change_allowed"] and
+          not k683_m["reference_interval_and_sign_may_be_inferred"] and
+          not k683_n["actual_native_target_denominator_nonnegative"] and
+          not k683_n["native_complete_floor_emitted"],
+          "K683 Weyl target-level robustness or native ceiling moved")
 
     k673 = data["k673"]
     k673_t = k673["coverage_theorem"]
@@ -1965,6 +2027,19 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("k681-density", lambda d: d["k681"]["monotone_form_theorem"].__setitem__("limit_density_required", False))
+    add("k681-finite-prefix", lambda d: d["k681"]["monotone_form_theorem"].__setitem__("finite_prefix_sufficient", True))
+    add("k681-native-r-free", lambda d: d["k681"]["native_interface_status"].__setitem__("actual_native_r_free_identified", True))
+    add("k681-native-floor", lambda d: d["k681"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k682-complete-domain", lambda d: d["k682"]["boundedness_theorem"].__setitem__("complete_domain_required", False))
+    add("k682-factorization", lambda d: d["k682"]["boundedness_theorem"].__setitem__("factorization_alone_sufficient", True))
+    add("k682-native-R", lambda d: d["k682"]["native_interface_status"].__setitem__("actual_native_R_bounded", True))
+    add("k682-native-floor", lambda d: d["k682"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k683-coordinate", lambda d: d["k683"]["level_transfer_theorem"].__setitem__("same_boundary_coordinate_required", False))
+    add("k683-finite-block", lambda d: d["k683"]["level_transfer_theorem"].__setitem__("pointwise_or_finite_block_variation_sufficient", True))
+    add("k683-native-denominator", lambda d: d["k683"]["native_interface_status"].__setitem__("actual_native_target_denominator_nonnegative", True))
+    add("k683-native-floor", lambda d: d["k683"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
 
     add("live-key-missing", lambda d: d["current"].pop("next_condition"))
     add("history-key-missing", lambda d: d["current"].pop("prior_conditions"))

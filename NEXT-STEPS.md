@@ -7,6 +7,25 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K681--K683 MONOTONE REMAINDER, GRAPH-RELATIVE BOUNDEDNESS
+> AND WEYL TARGET-LEVEL ROBUSTNESS.** K681 turns K678's missing complete
+> `r_free` into a construction packet: an increasing family of densely defined
+> closed nonnegative forms `h_N=-r_free,N` with dense finite-supremum domain
+> has a closed limit `h`, canonical `T=H^(1/2)`, inherited exact reductions and
+> every uniform graph bound. K682 proves the exact next row:
+> `h[u]<=c^2||a u||^2` on the complete domain makes `R=T a^-1` bounded with
+> `||R||<=c`; shared reduction of `h` and `a` passes to `R` and `R^*R`, while
+> localized inequalities feed K676/K677. K683 independently transfers a
+> complete denominator lower at a nearby real level into K680's target
+> `lambda=341/170` after paying a complete-space Weyl variation budget; a
+> proved monotone real interval gives a sharper downward shortcut. Next
+> serialize the native K681 family, prove K682's domain/relative/reduction
+> packet and execute the K676 seed plus K677 complement rows. In parallel,
+> instantiate K683/K680 and then every K665 finite row plus both parity tails.
+> See `lab/process/k681-k500-monotone-remainder-form-compiler.json`,
+> `lab/process/k682-k500-graph-relative-bounded-reduction-compiler.json`, and
+> `lab/process/k683-k500-weyl-target-level-robustness.json`.
+
 > **2026-09-30 K678--K680 NATIVE REMAINDER CUSTODY, SQUARE-ROOT SYMMETRY
 > COMPILER AND REFERENCE BASE-FLOOR TARGET.** K678 performs the construction
 > attempt required after K677 and finds the exact earlier seam: K139/K168/K612

@@ -1,0 +1,124 @@
+{
+  "boundedness_theorem": {
+    "complete_domain_required": true,
+    "conclusion": "R=T a^-1 extends to a bounded operator with ||R||<=c",
+    "converse": "if bounded R satisfies T u=R a u on Dom(a), then h[u]<=||R||^2||a u||^2",
+    "domain_hypothesis": "Dom(a) subset Dom(T) and a^-1 maps the complete Hilbert carrier into Dom(a)",
+    "factorization_alone_sufficient": false,
+    "finite_seed_rows_sufficient": false,
+    "relative_form_hypothesis": "h[u]=||T u||^2<=c^2||a u||^2 for every u in Dom(a)",
+    "sampled_bath_rows_sufficient": false
+  },
+  "claim_ceiling": "Exact conditional graph-relative result: on one complete domain, h[u]=||T u||^2<=c^2||a u||^2 makes R=T a^-1 bounded with norm at most c; shared reduction of h and a passes to R and R^*R, while localized inequalities give seed or complement bounds. Current native custody supplies none of those form/domain inequalities or reductions. No native R, seed identity, complement estimate, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k682_k500_graph_relative_bounded_reduction_compiler_probe.py",
+    "producer": "tests/channel-swings/k682_k500_graph_relative_bounded_reduction_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "bounded_R_obligation_reduced_to_one_complete_relative_form_inequality": true,
+    "native_bounded_R_constructed": false,
+    "next_exact_input": "After K681 supplies a native h, prove Dom(a) subset Dom(T), the complete relative inequality h[u]<=c^2||a u||^2, and shared charge/bath reductions of h and a. Then evaluate the three K676 seed identities and prove the Q_seed localized bound at or below 1/100 through K677."
+  },
+  "dependency_reconciliation": {
+    "K609_map_identity_requirement_retained": true,
+    "K676_charge_intertwiner_reduced_to_shared_form_weight_reduction": true,
+    "K677_bath_reduction_reduced_to_shared_form_weight_reduction": true,
+    "K679_factorization_consumed_conditionally": true,
+    "K681_uniform_bound_transfer_consumed_conditionally": true,
+    "native_relative_form_row_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "H_diagonal": [
+      "1/16",
+      "1/25",
+      "1/36"
+    ],
+    "R_diagonal": [
+      "1/8",
+      "1/25",
+      "1/18"
+    ],
+    "T_diagonal": [
+      "1/4",
+      "1/5",
+      "1/6"
+    ],
+    "a_diagonal": [
+      "2",
+      "5",
+      "3"
+    ],
+    "controls_are_synthetic": true,
+    "coordinate_projections_reduce_h_a_R_and_R_star_R": true,
+    "relative_form_inequality_verified": true,
+    "seed_only_counterexample": {
+      "H_diagonal": [
+        "1",
+        "100"
+      ],
+      "a_diagonal": [
+        "1",
+        "1"
+      ],
+      "complete_R_norm_squared": "100",
+      "seed_bound_proves_complete_boundedness_at_one": false,
+      "tested_seed_bound_squared": "1"
+    },
+    "sharp_global_c_squared": "1/64"
+  },
+  "gu_typed_objects": {
+    "form": "h=-r_free=||T .||^2 on K647's complete graph carrier",
+    "graph_operator": "R=T a^-1, first defined through the complete relative form inequality and then extended boundedly",
+    "graph_weight": "the positive self-adjoint graph weight a with a^-1 mapping the Hilbert carrier into Dom(a) subset Dom(T)",
+    "reductions": "the charge and bath orthogonal projections that reduce both h and a",
+    "result": "graph-relative bounded reduction compiler MAP-TYPE=complete form inequality equivalence",
+    "target": "K676 native charge shortcut and K677 native bath/direct-sum or cofinal complement packet"
+  },
+  "ledger_no_change_reason": "This is a conditional graph-norm theorem internal to a repository-supplied operator model and supplies no source-owned action, state, quotient or observable.",
+  "localized_bounds": {
+    "complement_application": "apply the test on Q_seed to K677's cofinal core and complete tail; a finite prefix alone remains insufficient",
+    "one_over_one_hundred_target": "h[a^-1 x]<=(1/100)||x||^2 for every x in Q_seed H is a direct sufficient K674 complement row",
+    "projection_test": "for an orthogonal projection Q, ||R Q||<=c_Q follows exactly from h[a^-1 x]<=c_Q^2||x||^2 for every x in QH",
+    "seed_application": "apply the test on P_seed only after P_seed, a^-1 and the native K675/K676 identities are typed on one carrier"
+  },
+  "native_interface_status": {
+    "actual_K609_map_identity_proved": false,
+    "actual_native_R_bounded": false,
+    "actual_native_a_inverse_domain_map_proved": false,
+    "actual_native_bath_reduction_proved": false,
+    "actual_native_charge_reduction_proved": false,
+    "actual_native_h_identified": false,
+    "actual_native_uniform_relative_bound_proved": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "On diag(1,100) with a=I, the first seed line has squared bound one while the complete operator norm squared is one hundred.",
+    "strongest_overclaim": "Treating factorization r_free=-T*T or three seed-line values as proof that T a^-1 is bounded on the complete carrier.",
+    "weakest_reproducibility_seam": "The domains of T, a and a^-1, the complete relative inequality and exact reduction of both h and a must be checked before commuting R with a projection."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K674--K677 state seed and complement operator targets but do not state the domain-exact inequality equivalent to boundedness of T a^-1.",
+    "route_comparison": "K679 constructs T only after h exists but correctly leaves R boundedness open. A complete relative form inequality is the shortest exact bridge from T to bounded R and simultaneously localizes the K676/K677 obligations.",
+    "strongest_alternative": "K672 bypasses bounded R by proving the invariant total A form directly with finite/complement/cross bounds."
+  },
+  "projection_reduction_theorem": {
+    "K643_monomial_preservation_substitutable": false,
+    "bath_consequence": "the K677 sectorwise supremum rule becomes valid after every bath projection satisfies the hypothesis",
+    "charge_consequence": "mutually orthogonal charge sectors make the three K676 line images orthogonal after their native action identities are proved",
+    "conclusion": "P R=R P and P reduces R^*R",
+    "hypothesis": "P reduces h (equivalently T by K679) and strongly reduces a and a^-1 on the declared domains",
+    "reduction_of_h_without_reduction_of_a_sufficient": false
+  },
+  "result_id": "K682-K500-GRAPH-RELATIVE-BOUNDED-REDUCTION-COMPILER",
+  "schema_version": "1.0",
+  "scope": "The exact complete-domain inequality and symmetry packet sufficient to turn K679/K681's factor T into a bounded graph operator R=T a^-1 and to make charge or bath projections reduce R and R^*R.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

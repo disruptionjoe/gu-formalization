@@ -1,0 +1,101 @@
+{
+  "claim_ceiling": "Exact conditional real-level robustness result: in one fixed complete ordinary-boundary-triple coordinate, D_W(lambda_1)>=d_1 I and ||M(lambda_1)-M(341/170)||<=omega imply D_W(341/170)>=(d_1-omega)I; authenticated Weyl monotonicity gives a sharper downward transfer from a higher level. Current native custody supplies no such denominator, interval or complete variation row. No native r0, B, parity tail, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition": {
+    "K657_reference_Friedrichs_resolvent_and_sign_premises_retained": true,
+    "K665_every_finite_row_and_two_tail_requirement_retained": true,
+    "if_target_denominator_nonnegative": "K657 gives A_W>=341/170 and K680/K656 give B>=1/170 after K168",
+    "native_target_row_supplied": false,
+    "target_lambda": "341/170"
+  },
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 26,
+    "probe": "tests/channel-swings/k683_k500_weyl_target_level_robustness_probe.py",
+    "producer": "tests/channel-swings/k683_k500_weyl_target_level_robustness.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_target_denominator_proved": false,
+    "nearby_level_rows_now_reusable_under_exact_budget": true,
+    "next_exact_input": "In K139's proved Friedrichs boundary coordinate, choose a complete real reference-resolvent interval containing 341/170 and one computable lambda_1. Prove D_W(lambda_1)>=d_1 I and either a complete Weyl difference bound omega<=d_1 or the valid operator-monotone ordering for lambda_1>=341/170. Then apply K657 and still execute K665's complete finite-plus-two-tail packet."
+  },
+  "dependency_reconciliation": {
+    "K657_real_level_equivalence_consumed_conditionally": true,
+    "K658_extended_to_nearby_real_level_with_weyl_variation": true,
+    "K658_same_level_transfer_retained": true,
+    "K680_exact_target_consumed": true,
+    "native_denominator_row_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "accepted": true,
+    "complete_weyl_variation_omega": "1/100",
+    "controls_are_synthetic": true,
+    "coordinate_mismatch_rejects": true,
+    "failing_row": {
+      "accepted": false,
+      "complete_weyl_variation_omega": "1/50",
+      "nearby_complete_margin_d_1": "1/100",
+      "transferred_target_margin": "-1/100"
+    },
+    "nearby_complete_margin_d_1": "1/20",
+    "nearby_lambda_1": "21/10",
+    "target_lambda": "341/170",
+    "transferred_target_margin": "1/25"
+  },
+  "gu_typed_objects": {
+    "boundary_coordinate": "one fixed ordinary boundary triple with Friedrichs reference and target extension parameter W",
+    "denominator": "D_W(lambda)=W-M(lambda) on the complete spectator-Fock boundary space",
+    "result": "Weyl target-level robustness MAP-TYPE=complete operator-order perturbation",
+    "target": "K680's complete D_W(341/170)>=0 base-floor packet",
+    "target_level": "lambda_0=341/170 from K680",
+    "weyl_family": "the bounded self-adjoint real-level Weyl values M(lambda) on one connected reference-resolvent interval"
+  },
+  "ledger_no_change_reason": "This is a conditional real-level denominator transfer inside a repository-supplied boundary model and supplies no source-owned action, physical state, quotient or observable.",
+  "level_transfer_theorem": {
+    "complete_boundary_coverage_required": true,
+    "conclusion": "D_W(lambda_0)>=(d_1-omega)I",
+    "connected_reference_resolvent_interval_required": true,
+    "nearby_lower_hypothesis": "D_W(lambda_1)>=d_1 I on the complete boundary space",
+    "pointwise_or_finite_block_variation_sufficient": false,
+    "raw_floor_transport_across_nonunitary_coordinate_change_allowed": false,
+    "same_boundary_coordinate_required": true,
+    "same_target_extension_W_required": true,
+    "target_admission": "d_1>=omega implies D_W(lambda_0)>=0",
+    "weyl_variation_hypothesis": "||M(lambda_1)-M(lambda_0)||<=omega on that same complete space"
+  },
+  "monotone_shortcut": {
+    "consequence": "a complete nonnegative denominator at lambda_1 transfers to lambda_0 without spending a norm-variation margin",
+    "finite_sector_monotonicity_sufficient": false,
+    "hypothesis": "lambda_1>=lambda_0 and the ordinary-boundary-triple Weyl family is operator monotone on the complete real reference-resolvent interval",
+    "order": "M(lambda_1)>=M(lambda_0), hence D_W(lambda_0)>=D_W(lambda_1)",
+    "reference_interval_and_sign_may_be_inferred": false
+  },
+  "native_interface_status": {
+    "actual_complete_B_lower_identified": false,
+    "actual_native_base_floor_r0_identified": false,
+    "actual_native_complete_weyl_variation_bound": false,
+    "actual_native_monotone_interval_authenticated": false,
+    "actual_native_nearby_denominator_serialized": false,
+    "actual_native_nearby_lower_identified": false,
+    "actual_native_target_denominator_nonnegative": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A nearby margin 1/100 with complete Weyl variation 1/50 transfers to -1/100, so nearby positivity alone does not certify the target.",
+    "strongest_overclaim": "Moving a finite-sector or differently coordinated denominator lower between real levels without a complete-space Weyl bound or authenticated monotonicity interval.",
+    "weakest_reproducibility_seam": "The same W, boundary coordinate, full spectator-Fock carrier, reference-resolvent interval, sign convention and complete Weyl variation must be serialized at both levels."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K658 transfers approximants only at the same real level; no current packet transports complete denominator order between two real levels.",
+    "route_comparison": "K680 fixes one exact real level, while native calculation may naturally land on a nearby rational level. Paying a complete Weyl-variation budget is the cheapest honest way to reuse such a row without changing the target.",
+    "strongest_alternative": "Compute D_W(341/170) directly, bypassing any level transfer and its variation burden."
+  },
+  "result_id": "K683-K500-WEYL-TARGET-LEVEL-ROBUSTNESS",
+  "schema_version": "1.0",
+  "scope": "A complete-space perturbation and monotonicity certificate that can transport a denominator lower proved at one nearby real level into K680's exact lambda=341/170 target in the same ordinary-boundary-triple coordinate.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
