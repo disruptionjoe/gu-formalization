@@ -7,6 +7,30 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K669--K670 leakage bridge and asymmetric native-margin target (2026-09-30)
+
+K669 closes the type-level question left by K668 without claiming the missing
+native identification. K609's complete leakage-square upper may bound K642's
+remainder constant only if the negative free-coordinate remainder is exactly
+`-T*T` on K647's complete common domain and the native intertwiner identifies
+`T a^-1` with K609's complete leakage map. Under those hypotheses,
+`alpha<=lambda_K609<1/3`, so `A=1-alpha>2/3`. Equal dimensions, labels,
+finite controls or an equal numerical norm do not establish this bridge. The
+current repository does not prove the required factorization or intertwiner.
+
+K670 conditionally composes that margin with K667's strict
+`beta^2<2/513`. At the conservative `A=2/3` corner, `B=1/171` has zero
+determinant slack. A separately certified complete same-domain `B>=1/170`
+instead gives slack above `1/43605`; monotonicity of the least eigenvalue and
+the conservative trace corner `343/510` then give a complete floor above
+`2/58653`. Every finite K665 row and both independent parity tails are still
+required.
+
+The K669 and K670 probes each pass 24 controls and reject 20/20 hostile
+mutations. Neither result supplies a native factorization, `A`, `B`, finite
+row, parity tail, complete floor, K473/K152 release, source, ledger, canon,
+paper, public, prediction, confirmation or physical conclusion.
+
 ## K667--K668 matched-trace custody and rational floor target (2026-09-30)
 
 K667 closes the matched-trace numerical input already implicit in K642. With

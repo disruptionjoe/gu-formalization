@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 595dbeba868e
+revision_basis: 8f8a5884fa92
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K669--K670 expose the exact K609-to-A bridge and its asymmetric complete-B
+    target without moving a protected claim. K669 proves the conditional
+    transfer rule: only if K642's negative free-coordinate remainder is
+    exactly `-T*T` on K647's complete common domain and the native intertwiner
+    identifies `T a^-1` with K609's complete leakage map may K609's strict
+    leakage-square upper below `1/3` yield `alpha<1/3` and hence `A>2/3`.
+    That factorization and map identity are not currently proved. K670 then
+    combines this conditional margin with K667's `beta^2<2/513`: a separately
+    certified complete same-domain `B>=1/170`, including every finite row and
+    both parity tails, would give determinant slack above `1/43605` and a
+    complete floor above `2/58653`. `B=1/171` is the zero-slack threshold at
+    the conservative `A=2/3` corner. No native factorization, `A`, `B`, row,
+    tail, complete floor, K473/K152 release, source, ledger, canon, paper,
+    public or physical conclusion moves.
+
     K667--K668 close the matched-trace custody mismatch and reduce the live
     K666 numerical burden to exactly two native margins without moving a
     protected claim. K667 consumes K642's complete series
@@ -11735,7 +11750,15 @@ current_question: >-
   missing-input list and gives the rational target test
   `(A_lower-mu)(B_lower-mu)>=2/513`; only complete native `A_lower` and
   parity-cofinal `B_lower` remain. The synthetic `3/4,21/32` row clears
-  `mu=5/8` by `1/131328`, not as a native margin. K643 now proves that every K179 exchange
+  `mu=5/8` by `1/131328`, not as a native margin. K669 now isolates the exact
+  reuse condition for K609: K642's negative free-coordinate remainder must
+  factor as `-T*T` on K647's complete domain and the native intertwiner must
+  identify `T a^-1` with K609's complete leakage map. Only then does K609 give
+  `A>2/3`; that factorization is absent. K670 conditionally combines this with
+  K667: a complete `B>=1/170` from every finite K665 row and both parity tails
+  would give determinant slack above `1/43605` and floor above `2/58653`.
+  Prove the K669 bridge or a direct complete `A`, then prove that K665 packet;
+  do not report any of these conditional margins as native. K643 now proves that every K179 exchange
   monomial preserves bath number, so a future closed coefficient form reduces
   as `B=direct_sum_n B_n` and its global lower is the uniform infimum
   `m=inf_n m_n`; a finite prefix is not a tail bound. K644 gives the exact
@@ -12348,7 +12371,14 @@ next_condition: >-
   budget `A_lower>=mu`, `B_lower>=mu`,
   `(A_lower-mu)(B_lower-mu)>=2/513`. Thus the remaining native K666 inputs are
   exactly complete `A_lower` and complete parity-cofinal `B_lower`; no native
-  row or tail is supplied. K643 reduces the missing boundary form to
+  row or tail is supplied. K669 now shows that K609 can supply `A>2/3` only if
+  K642's negative free-coordinate remainder is exactly `-T*T` on K647's
+  complete domain and the native intertwiner identifies `T a^-1` with K609's
+  complete leakage map; that bridge is absent. K670 then sets the conditional
+  remaining target: complete `B>=1/170`, with every finite row and both parity
+  tails, would give determinant slack above `1/43605` and floor above
+  `2/58653`. Prove that bridge or a direct complete `A`, then certify K665's
+  full `B` packet; neither margin is native yet. K643 reduces the missing boundary form to
   bath-number sectors and proves `m=inf_n m_n`, with a required uniform tail.
   K644 reduces each `m_n` to the actual six-channel diagonal floors and
   fifteen off-diagonal coupling bounds through a scalar comparison matrix,

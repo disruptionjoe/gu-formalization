@@ -1,0 +1,89 @@
+{
+  "asymmetric_target_theorem": {
+    "both_total_parity_tails_required": true,
+    "complete_B_input": "B>=1/170 on the same domain, including every finite row and both parity tails",
+    "conditional_A_input": "A>2/3 from K669 only after its native factorization bridge is proved",
+    "determinant_slack_against_trace_upper": "1/43605",
+    "finite_prefix_only_sufficient": false,
+    "floor_argument": "lambda_min is monotone in the two diagonal lowers and decreasing in |beta|; at the conservative corner lambda_min=det/lambda_max>det/trace",
+    "matched_trace_input": "beta^2<2/513 from K667",
+    "positivity_threshold_at_A_two_thirds": "B=1/171",
+    "same_domain_required": true,
+    "selected_rational_B_target": "1/170",
+    "strict_complete_floor": "lambda_->2/58653",
+    "uncontrolled_complement_allowed": false,
+    "worst_corner_trace": "343/510"
+  },
+  "claim_ceiling": "Exact conditional asymmetric margin target for K663. If K669's native factorization bridge is proved, then A>2/3; together with K667's beta^2<2/513, a complete same-domain B>=1/170 yields determinant slack above 1/43605 and a complete floor above 2/58653. The factorization, native A, finite B rows and both parity tails remain absent, so no native complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k670_k500_asymmetric_native_margin_target_probe.py",
+    "producer": "tests/channel-swings/k670_k500_asymmetric_native_margin_target.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "conditional_B_target_now_rational_and_explicit": true,
+    "native_B_target_satisfied": false,
+    "next_exact_input": "First prove K669's same-domain factorization or certify A directly. If A>2/3 is obtained, certify the complete effective B form at 1/170 through K665: every finite row through one N and independent plus/minus tail lowers. Those inputs would give a complete floor above 2/58653."
+  },
+  "dependency_reconciliation": {
+    "K609_complete_leakage_number_retained": true,
+    "K663_sharp_comparison_consumed": true,
+    "K665_complete_B_composition_retained": true,
+    "K667_strict_trace_square_upper_consumed": true,
+    "K668_rational_target_logic_sharpened_for_mu_zero": true,
+    "K669_bridge_consumed_conditionally": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "A_conservative": "2/3",
+    "B_target_excess_over_threshold": "1/29070",
+    "beta_square_upper": "2/513",
+    "det_over_trace_floor": "2/58653",
+    "determinant_slack": "1/43605",
+    "selected_B_target": "1/170",
+    "strictness_sources": [
+      "K669 conditional A>2/3",
+      "K667 beta^2<2/513"
+    ],
+    "synthetic_or_conditional_only": true,
+    "trace_corner": "343/510",
+    "zero_slack_B_threshold": "1/171"
+  },
+  "gu_typed_objects": {
+    "carrier": "K647's complete common cancellation domain across both K648 total parities and every K643 bath sector",
+    "form": "the K663 comparison with conditional A>2/3 and a separately certified complete effective B margin",
+    "pairing": "the same complete graph norm and matched trace used by K642 through K669",
+    "result": "asymmetric native-margin target MAP-TYPE=rational two-by-two lower certificate",
+    "target": "one concrete complete B threshold for K665's finite-plus-two-tail packet"
+  },
+  "ledger_no_change_reason": "This conditionally reallocates internal analytic margin budgets and supplies no source-owned action, physical state, quotient, observable or empirical consequence.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_K669_native_factorization_identified": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_finite_B_rows_identified": false,
+    "actual_plus_minus_B_tails_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Hold every finite B row above 1/170 and place one uncontrolled parity-tail sector below it; the complete target and floor both fail.",
+    "strongest_overclaim": "Reporting B>=1/170, A>2/3 or the 2/58653 floor as native before the K669 factorization and K665 complete rows/tails are proved.",
+    "weakest_reproducibility_seam": "The determinant uses beta squared while the floor estimate uses determinant over trace at the conservative matrix corner; mixing beta with beta squared changes the result."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K668 gives the general A/B tradeoff, but no current artifact composes K609's possible A margin into a concrete parity-cofinal B target and rational floor.",
+    "route_comparison": "Once K609 can supply A>2/3, the weakest useful next demand is not a symmetric large B margin but the exact determinant budget. The 1/170 target is a cheap rational certificate with explicit positive floor.",
+    "strongest_alternative": "A direct full-form lower proof bypasses the split target and remains stronger; K670 is the fail-closed sectorwise route when B evidence arrives through K665."
+  },
+  "result_id": "K670-K500-ASYMMETRIC-NATIVE-MARGIN-TARGET",
+  "schema_version": "1.0",
+  "scope": "K663's complete two-coordinate comparison under K669's conditional A>2/3 bridge and K667's strict beta^2<2/513 bound.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

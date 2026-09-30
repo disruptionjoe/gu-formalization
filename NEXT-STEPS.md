@@ -7,6 +7,21 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K669--K670 LEAKAGE BRIDGE AND ASYMMETRIC NATIVE-MARGIN
+> TARGET.** K669 identifies the exact proof needed before K609's complete
+> leakage-square upper can become K663's `A` margin: on K647's complete common
+> domain, the negative free-coordinate remainder must be `-T*T`, and the
+> native intertwiner must identify `T a^-1` with K609's complete leakage map.
+> Under that unproved bridge, K609 gives `A>2/3`. K670 combines only that
+> conditional input with K667's `beta^2<2/513`: a separately certified
+> complete `B>=1/170`, covering every finite K665 row and independent tails
+> for both total parities, would give determinant slack above `1/43605` and a
+> complete floor above `2/58653`. The bridge and `B` packet are absent. Next
+> prove the K669 factorization/intertwiner or a direct complete `A`, then prove
+> K665's full `B>=1/170` packet. See
+> `lab/process/k669-k500-leakage-remainder-factorization-bridge.json` and
+> `lab/process/k670-k500-asymmetric-native-margin-target.json`.
+
 > **2026-09-30 K667--K668 MATCHED-TRACE CUSTODY AND RATIONAL FLOOR TARGET.**
 > K667 consumes K642's already-owned complete trace-square series and proves
 > the exact telescoping enclosure `1/257<beta^2<2/513`, improving the prior

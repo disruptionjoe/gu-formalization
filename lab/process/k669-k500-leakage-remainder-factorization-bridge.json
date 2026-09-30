@@ -1,0 +1,98 @@
+{
+  "claim_ceiling": "Exact conditional factorization bridge for reusing K609's complete leakage-square upper in K642/K663. If the negative free-coordinate remainder on K647's complete common domain is -T*T and the native intertwiner identifies T a^-1 with K609's complete leakage map, then alpha<1/3 and A=1-alpha>2/3. The required factorization and map identification are not currently proved, so no native A or B margin, complete floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 24,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k669_k500_leakage_remainder_factorization_bridge_probe.py",
+    "producer": "tests/channel-swings/k669_k500_leakage_remainder_factorization_bridge.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "K609_to_A_native_transfer_completed": false,
+    "K609_to_A_transfer_shape_closed": true,
+    "next_exact_input": "On K647's common domain, either prove that the negative free-coordinate remainder factorizes as -T*T and that T a^-1 is the complete K609 leakage map, yielding A>2/3, or certify A directly. Do not reuse K609's number without this map identity."
+  },
+  "dependency_reconciliation": {
+    "K609_complete_leakage_bound_consumed_conditionally": true,
+    "K609_map_equals_K642_remainder_factor_claimed": false,
+    "K642_same_domain_remainder_type_consumed": true,
+    "K647_common_domain_retained": true,
+    "K663_effective_A_definition_consumed": true,
+    "K668_target_compiler_retained": true
+  },
+  "direction": "observed_to_native",
+  "exact_bounds": {
+    "K609_complete_leakage_square_upper": "1564980541958284422414661385284885596252906950125050279632912644198704827840183685154364013137694233062662970323845344543370262869788735994026327947822532126202108342714497153320468484658497324531909816782331118146820461897949630071204312185439081/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+    "K609_upper_strictly_below_one_third": true,
+    "conditional_A_strictly_above_two_thirds": true,
+    "conditional_exact_A_lower": "3286084558087621225076672555609548403430419780247485360329645034445850516210027551799425347674361227304790876540581054749461106159447984547750844123491977858385689895629847095986656663666723855997714863245897694653179538102050369928795687814560919/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+    "conservative_rational_A_lower": "2/3"
+  },
+  "exact_controls": {
+    "T_diagonal": [
+      "1/4",
+      "1/3"
+    ],
+    "a_diagonal": [
+      "2",
+      "3"
+    ],
+    "certified_A": "63/64",
+    "certified_alpha": "1/64",
+    "control_A_above_two_thirds": true,
+    "operator_norm_square_T_a_inverse": "1/64",
+    "remainder_identity": "r_free[phi]=-||T phi||^2",
+    "synthetic_factorization_only": true,
+    "unidentified_map_counterexample": {
+      "independent_remainder_ratio": "1",
+      "proves_numeric_reuse_without_identification_invalid": true,
+      "same_reported_K609_leakage_upper": "1564980541958284422414661385284885596252906950125050279632912644198704827840183685154364013137694233062662970323845344543370262869788735994026327947822532126202108342714497153320468484658497324531909816782331118146820461897949630071204312185439081/4851065100045905647491333940894433999683326730372535639962557678644555344050211236953789360812055460367453846864426399292831369029236720541777172071314509984587798238344344249307125148325221180529624680028228812800000000000000000000000000000000000",
+      "would_force_A_at_most": "0"
+    }
+  },
+  "factorization_bridge_theorem": {
+    "K609_strict_consequence": "lambda_K609<1/3 implies A>2/3",
+    "effective_margin": "A=1-alpha>=1-lambda_K609",
+    "equal_numerical_norm_without_map_identity_sufficient": false,
+    "finite_or_sampled_identification_sufficient": false,
+    "required_domain_statement": "Dom(a) is carried into Dom(T) by the native K647 intertwiner, with no uncontrolled complement",
+    "required_map_identification": "T a^-1 is unitarily the complete K609 normalized leakage map",
+    "required_native_identity": "r_free[phi]=-||T phi||^2 on K647's complete common domain",
+    "transfer": "alpha<=||T a^-1||^2<=lambda_K609",
+    "uncontrolled_complement_allowed": false
+  },
+  "gu_typed_objects": {
+    "carrier": "K647's complete K139/K168 cancellation domain, not K609's finite moment bookkeeping by itself",
+    "form": "the negative free-coordinate part of K642's same-domain remainder r[phi,c]",
+    "pairing": "K642's graph coordinate ||a phi|| and K609's normalized action-vector Hilbert leakage pairing",
+    "result": "leakage-to-remainder bridge MAP-TYPE=same-domain factorization and intertwiner",
+    "target": "the native effective margin A=1-alpha consumed by K663/K668"
+  },
+  "ledger_no_change_reason": "This is a conditional same-domain analytic bridge inside a repository-supplied point-Fock model; it supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_complete_A_lower_identified": false,
+    "actual_complete_B_lower_identified": false,
+    "actual_native_factorization_identified": false,
+    "actual_native_map_intertwiner_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Keep K609's reported leakage map fixed but choose an independent same-domain negative remainder with ratio one; then A can be zero despite the unchanged K609 number.",
+    "strongest_overclaim": "Calling K609's leakage upper the native alpha constant without proving the factorization and intertwiner.",
+    "weakest_reproducibility_seam": "The bridge must bind operators and complete domains, not merely equal dimensions, labels or numerical norms on finite controls."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K609 explicitly closes only normalized action-vector leakage and K642 explicitly requires a negative same-domain form bound; no current artifact identifies their operators or domains.",
+    "route_comparison": "K609 already owns a complete number below one third, so testing its exact type-level compatibility with K642 is cheaper than recomputing a second norm and can sharply reduce the A burden if the native map identity exists.",
+    "strongest_alternative": "A direct complete A lower avoids the factorization bridge and remains admissible; K669 only exposes the cheapest route for reusing K609."
+  },
+  "result_id": "K669-K500-LEAKAGE-REMAINDER-FACTORIZATION-BRIDGE",
+  "schema_version": "1.0",
+  "scope": "The exact same-domain operator identification required before K609's complete normalized leakage-square upper may bound K642/K663's negative free-coordinate remainder.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
