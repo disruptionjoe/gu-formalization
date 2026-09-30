@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 010233c2ca5a
+revision_basis: 28ff7165036b
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,26 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K690--K692 convert K687--K689's last abstract native inputs into three
+    exact proof packets without claiming that GU currently supplies them.
+    K690 proves density of the maximal square-summable column domain from one
+    actually dense common core and a complete summable graph domination;
+    individually closed or uniformly bounded components are insufficient,
+    as the constant family `C_j=I` has maximal column domain `{0}`. K691
+    identifies the complete column square with `h=-r_free` only when the two
+    closed nonnegative forms agree on one common form core for both. Equality
+    on an algebraically dense test space does not select a self-adjoint
+    extension: Dirichlet and Neumann forms agree on compactly supported smooth
+    tests but have different closed domains. K692 derives K689's reference
+    gap from a complete Friedrichs form lower and its gamma anchor from
+    coercivity of `Gamma_0` on the complete anchor defect space. The exact
+    synthetic packet has gap `1/2`, anchor norm `1/5`, propagated target norm
+    `101/425` and transferred denominator margin `3993/722500`. No native
+    component family, common core, form identity, boundary triple, Friedrichs
+    lower, trace coercivity, denominator, `r_free`, `T`, `R`, `A`, `B`, row,
+    complete floor, K473/K152 release, source, ledger, canon, paper, public or
+    physical conclusion moves.
+
     K687--K689 reduce the remaining K684--K686 abstractions to component,
     positive-Gram and one-anchor data without claiming native inputs. K687
     proves that countably many closed component operators define a closed
@@ -11922,7 +11942,12 @@ current_question: >-
   partial-Gram order, or one finite Gram plus a complete positive tail, into
   the required global and `Q_seed` bounds. K689 turns one complete gamma
   anchor plus a quantitative distance to `sigma(A_0)` into both gamma norms
-  required by K686.
+  required by K686. K690 now puts a dense core inside K687's maximal domain
+  from one complete square-summable graph domination. K691 identifies
+  `C* C=H` and `T=|C|` from equality of the column and native remainder forms
+  on one common form core for both. K692 reduces K689's two remaining inputs
+  to a complete Friedrichs form lower above the selected interval and a
+  coercive `Gamma_0` trace on the whole anchor defect space.
   K671 now rejects the auxiliary-chart contraction as that direct `A`: the
   compensating regular form can vary independently. K672 gives the invariant
   replacement: on one complete graph-domain finite/complement split, prove
@@ -12541,15 +12566,18 @@ next_condition: >-
   `D_W(341/170)>=0` and every reference, resolvent and sign premise. K683
   permits a nearby complete denominator row only with a same-coordinate
   complete Weyl difference budget or authenticated monotone interval. Serialize
-  the K687 native component family on one fixed carrier, prove the maximal
-  square-summable common domain dense and identify its column square with the
-  invariant remainder. Then prove K688's complete positive partial-Gram and
-  tail orders globally and after `Q_seed`, together with K676's three seed
-  actions and exact intertwiners. Alternatively serialize the K681
+  the K687 native component family on one fixed carrier and instantiate K690:
+  prove one dense common core, a complete square-summable component graph
+  domination and component closedness. Then instantiate K691 by proving that
+  the column form and native closed `h=-r_free` form share one form core and
+  agree there. Prove K688's complete positive partial-Gram and tail orders
+  globally and after `Q_seed`, together with K676's three seed actions and
+  exact intertwiners. Alternatively serialize the K681
   form family and prove K682's packet, or prove K672 directly. Independently
-  authenticate K686's boundary triple, Friedrichs reference and real interval,
-  then prove K689's one anchor gamma norm and quantitative reference spectral
-  gap plus one nearby denominator margin; instantiate
+  authenticate K686's boundary triple and instantiate K692: prove the
+  `Gamma_0` reference is Friedrichs, its complete form lower lies above
+  `21/10`, and `Gamma_0` is coercive on the complete defect space at that
+  anchor. Add one same-coordinate nearby denominator margin and instantiate
   K683/K680, and then every K665 finite row plus both parity tails. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely
   non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.

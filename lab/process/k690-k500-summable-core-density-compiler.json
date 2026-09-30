@@ -1,0 +1,78 @@
+{
+  "claim_ceiling": "Exact conditional density theorem: a single dense common core with complete square-summable component domination lies in K687's maximal column domain, hence makes it dense; component closedness then gives the closed column. Finite prefixes, separate cores, pointwise finiteness and nonsummable bounds do not suffice. Current native custody supplies no component family, common core, summable domination or remainder identity. No native r_free, T, R, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 35,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k690_k500_summable_core_density_compiler_probe.py",
+    "producer": "tests/channel-swings/k690_k500_summable_core_density_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_dense_column_constructed": false,
+    "next_exact_input": "Serialize a single dense native core D0, one complete closed component family C_j and one graph weight a; prove D0 lies in every component domain and derive a square-summable sequence b_j with ||C_j u||<=b_j||a u|| on D0.",
+    "summable_core_domination_suffices_for_K687_density": true
+  },
+  "dependency_reconciliation": {
+    "K687_component_closedness_requirement_retained": true,
+    "K687_density_hypothesis_reduced_to_complete_core_bounds": true,
+    "K688_partial_gram_requirement_retained": true,
+    "native_common_core_or_component_family_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "column_square_identity": "sum_j||C_j u||^2=(1/3)||a u||^2",
+    "complete_square_sum": "1/3",
+    "component_bound": "b_j=2^-j",
+    "controls_are_synthetic": true,
+    "finite_sequences_dense": true,
+    "maximal_domain": "D_col=Dom(a)",
+    "model": "H=l2(N), a e_n=(n+1)e_n, D0=finite sequences, C_j=2^-j a on Dom(a)",
+    "nonsummable_counterexample": "C_j=I for every j has an individually closed uniformly bounded family, but every nonzero u has sum_j||C_j u||^2=infinity and D_col={0}"
+  },
+  "gu_typed_objects": {
+    "common_core": "a dense linear D0 in the invariant remainder carrier H, contained in Dom(a) and every Dom(C_j)",
+    "component_domination": "||C_j u|| <= b_j ||a u|| on D0 with sum_j b_j^2 finite",
+    "maximal_domain": "D_col={u in intersection_j Dom(C_j): sum_j ||C_j u||^2<infinity}",
+    "result": "summable-core density compiler MAP-TYPE=complete graph domination",
+    "target": "K687's density hypothesis for the complete closed column"
+  },
+  "ledger_no_change_reason": "This is a conditional Hilbert-domain theorem inside a repository-supplied operator model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_common_core_dense": false,
+    "actual_native_common_core_serialized": false,
+    "actual_native_complete_square_sum_proved": false,
+    "actual_native_components_serialized": false,
+    "actual_native_maximal_domain_dense": false,
+    "actual_native_remainder_identified": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The constant family C_j=I is closed and uniformly bounded componentwise but has maximal square-summable domain {0}.",
+    "strongest_overclaim": "Treating individual closedness, one core per component, a finite prefix or a nonsummable uniform bound as proof that the complete maximal column domain is dense.",
+    "weakest_reproducibility_seam": "The same D0, carrier H, graph weight a, component domains and complete coefficient square sum must be explicit; asymptotic or sampled bounds do not suffice."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K179's finite coefficient bank and K687's formal maximal domain do not provide a dense complete core or a summable all-component graph bound.",
+    "route_comparison": "K687 leaves density as an independent hypothesis. A complete summable domination on one already dense native core is the cheapest checkable sufficient packet.",
+    "strongest_alternative": "Prove density directly by an explicit approximation theorem for the maximal domain, or use K681's monotone-form route instead of components."
+  },
+  "result_id": "K690-K500-SUMMABLE-CORE-DENSITY-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A sufficient complete-domain packet placing one dense native common core inside K687's maximal square-summable component domain.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "summable_core_theorem": {
+    "closedness_composition": "if every C_j is closed, K687 then makes the maximal column C closed and densely defined",
+    "complete_square_sum_required": true,
+    "dense_common_core_required": true,
+    "domain_consequence": "D0 subset D_col, hence D_col is dense in H",
+    "finite_prefix_bounds_sufficient": false,
+    "inequality": "sum_j||C_j u||^2 <= (sum_j b_j^2)||a u||^2 for every u in D0",
+    "nonsummable_uniform_component_bounds_sufficient": false,
+    "pointwise_finite_component_values_sufficient": false,
+    "same_graph_weight_required": true,
+    "separate_component_cores_without_one_common_dense_core_sufficient": false
+  },
+  "target_claim": "NONE-NOT-A-KILL"
+}

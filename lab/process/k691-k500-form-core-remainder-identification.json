@@ -1,0 +1,79 @@
+{
+  "claim_ceiling": "Exact conditional closed-form uniqueness theorem: a densely defined closed column C and a native closed nonnegative form h=-r_free define the same complete form and operator when they agree on one common form core for both. Equality on an algebraically dense set, a core for only one extension, finite components or pointwise values without domain control is insufficient. Current native custody supplies no common form core or same-form identity. No native r_free, T, R, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k691_k500_form_core_remainder_identification_probe.py",
+    "producer": "tests/channel-swings/k691_k500_form_core_remainder_identification.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "common_form_core_identity_suffices_for_native_remainder_identification": true,
+    "native_remainder_identified": false,
+    "next_exact_input": "After constructing the native closed column, serialize h=-r_free as a closed nonnegative form and prove one D0 is a form core for both h and q_C; then prove their sesquilinear values agree on D0 before invoking C* C=H and T=|C|."
+  },
+  "dependency_reconciliation": {
+    "K682_relative_bound_and_reduction_requirements_retained": true,
+    "K684_native_remainder_identity_reduced_to_common_form_core": true,
+    "K687_closed_column_consumed": true,
+    "K690_density_packet_consumed": true,
+    "native_remainder_identity_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "column_square": "145/36",
+    "controls_are_synthetic": true,
+    "extension_counterexample": "Dirichlet and Neumann Laplacian forms agree as integral |u'|^2 on C_c^infinity(0,1), which is L2-dense, but their closed form domains and self-adjoint operators differ because that test space is not a form core for the Neumann form",
+    "model": "H=C^2, C=diag(1/2,1/3), H=C* C=diag(1/4,1/9), D0=C^2",
+    "native_form_value": "145/36",
+    "operators_identical": true,
+    "test_vector": "u=(3,4)"
+  },
+  "form_core_theorem": {
+    "algebraically_dense_test_space_sufficient": false,
+    "closed_dense_column_required": true,
+    "closed_form_consequence": "q_C=h with Dom(C)=Dom(H^(1/2))",
+    "closed_nonnegative_native_form_required": true,
+    "core_for_only_column_form_sufficient": false,
+    "core_for_only_native_form_sufficient": false,
+    "finite_component_identity_sufficient": false,
+    "one_common_form_core_for_both_required": true,
+    "operator_consequence": "C* C=H and |C|=H^(1/2)=T",
+    "pointwise_quadratic_values_without_domain_identity_sufficient": false,
+    "same_form_identity": "q_C[u,v]=h[u,v] for all u,v in D0 (equivalently quadratic equality plus polarization)"
+  },
+  "gu_typed_objects": {
+    "column_form": "q_C[u,v]=<C u,C v> on Dom(C) for K687's densely defined closed column C",
+    "common_form_core": "D0 contained in Dom(C) intersect Dom(h), dense in both form norms",
+    "native_form": "h[u,v]=-r_free[u,v], a densely defined closed nonnegative form with associated operator H",
+    "result": "form-core identification compiler MAP-TYPE=closed nonnegative form uniqueness",
+    "target": "K684's exact native identity C* C=H and T=H^(1/2)=|C|"
+  },
+  "ledger_no_change_reason": "This is a conditional uniqueness theorem for closed nonnegative forms inside a repository-supplied operator model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_CstarC_equals_H": false,
+    "actual_native_T_identified": false,
+    "actual_native_column_serialized": false,
+    "actual_native_common_form_core_proved": false,
+    "actual_native_remainder_form_serialized": false,
+    "actual_native_same_form_identity_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Dirichlet and Neumann Laplacians agree on compactly supported smooth tests but are distinct self-adjoint extensions with different closed form domains.",
+    "strongest_overclaim": "Identifying closed operators because their quadratic expressions agree on an algebraically dense test space that is not a form core for both closures.",
+    "weakest_reproducibility_seam": "The native forms, their complete domains, both form norms, one shared core and the same-form polarization identity must be explicit in one fixed carrier."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K678--K690 contain conditional forms, columns and domains, but no current artifact proves that a native column form and native r_free form have one common form core or agree there.",
+    "route_comparison": "K687 constructs a closed column but does not identify its square with the invariant remainder. Common-form-core equality is the exact uniqueness interface and is cheaper than global operator equality.",
+    "strongest_alternative": "Construct h directly by K681 and bypass component identification, or prove equality of the associated self-adjoint operators by resolvents."
+  },
+  "result_id": "K691-K500-FORM-CORE-REMAINDER-IDENTIFICATION",
+  "schema_version": "1.0",
+  "scope": "A closed-form uniqueness packet identifying a complete closed coefficient column square with the native nonnegative invariant remainder.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

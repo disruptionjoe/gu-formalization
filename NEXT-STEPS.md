@@ -7,6 +7,24 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K690--K692 SUMMABLE CORE, FORM IDENTIFICATION AND FRIEDRICHS-
+> TRACE ANCHOR.** K690 makes K687's density input executable: one dense common
+> core with `||C_j u||<=b_j||a u||` and `sum b_j^2<infinity` lies in the
+> maximal column domain. The closed uniformly bounded family `C_j=I` is the
+> contrary control: its complete column domain is `{0}`. K691 identifies
+> `C* C=H` and `T=|C|` only when the column form and native
+> `h=-r_free` agree on a common form core for both; algebraic density alone
+> cannot choose between Dirichlet and Neumann extensions. K692 derives K689's
+> gap from a complete Friedrichs lower and its gamma anchor from coercivity of
+> `Gamma_0` on the whole defect space. Its control reproduces target gamma norm
+> `101/425` and margin `3993/722500`. Next serialize the native components,
+> common core, summable domination and same-form identity. Separately
+> authenticate the boundary triple and prove the Friedrichs lower, complete
+> defect-trace coercivity and one nearby denominator margin. See
+> `lab/process/k690-k500-summable-core-density-compiler.json`,
+> `lab/process/k691-k500-form-core-remainder-identification.json`, and
+> `lab/process/k692-k500-friedrichs-trace-anchor-compiler.json`.
+
 > **2026-09-30 K687--K689 COUNTABLE COLUMN, POSITIVE PARTIAL GRAM AND GAMMA
 > ANCHOR.** K687 constructs K684's closed column from countably many closed
 > component operators on the dense maximal square-summable common domain; a

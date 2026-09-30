@@ -26,6 +26,15 @@ def load_inputs() -> dict:
         "current": yaml.safe_load(CURRENT.read_text(encoding="utf-8")),
         "registry": registry,
         "agenda": json.loads((ROOT / basis["research_agenda"]["path"]).read_text()),
+        "k690": json.loads(
+            (ROOT / "lab/process/k690-k500-summable-core-density-compiler.json").read_text()
+        ),
+        "k691": json.loads(
+            (ROOT / "lab/process/k691-k500-form-core-remainder-identification.json").read_text()
+        ),
+        "k692": json.loads(
+            (ROOT / "lab/process/k692-k500-friedrichs-trace-anchor-compiler.json").read_text()
+        ),
         "k687": json.loads(
             (ROOT / "lab/process/k687-k500-countable-closed-column-compiler.json").read_text()
         ),
@@ -339,10 +348,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K682" in live and "complete relative form inequality" in live and
               "K683" in live and "complete Weyl difference budget" in live,
               "live monotone-form, graph-relative or Weyl robustness compiler missing")
-        check("K687" in live and "square-summable common domain" in live and
-              "K688" in live and "positive partial-Gram" in live and
-              "K689" in live and "anchor gamma norm" in live,
-              "live countable-column, partial-Gram or gamma-anchor compiler missing")
+        check("K690" in live and "complete square-summable component graph domination" in live and
+              "K691" in live and "share one form core" in live and
+              "K692" in live and "`Gamma_0` is coercive" in live,
+              "live summable-core, form-identity or Friedrichs-trace compiler missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -428,6 +437,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "dense common core" in data["agenda"].get("latest_result_2026_09_30_k690_k692", "")
+        and "common form core" in data["agenda"].get("latest_result_2026_09_30_k690_k692", "")
+        and "complete Friedrichs form lower" in data["agenda"].get("latest_result_2026_09_30_k690_k692", ""),
+        "agenda K690--K692 result is not current",
+    )
     check(
         "countably many closed component operators" in data["agenda"].get("latest_result_2026_09_30_k687_k689", "")
         and "positive partial-Gram interface" in data["agenda"].get("latest_result_2026_09_30_k687_k689", "")
@@ -1029,6 +1044,39 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k680_n["actual_complete_B_lower_identified"] and
           not k680_n["native_complete_floor_emitted"],
           "K680 reference base-floor target or native ceiling moved")
+
+    k690 = data["k690"]
+    k690_t = k690["summable_core_theorem"]
+    k690_n = k690["native_interface_status"]
+    check(k690_t["dense_common_core_required"] and
+          k690_t["complete_square_sum_required"] and
+          not k690_t["nonsummable_uniform_component_bounds_sufficient"] and
+          not k690_n["actual_native_maximal_domain_dense"] and
+          not k690_n["native_complete_floor_emitted"],
+          "K690 summable-core compiler or native ceiling moved")
+
+    k691 = data["k691"]
+    k691_t = k691["form_core_theorem"]
+    k691_n = k691["native_interface_status"]
+    check(k691_t["one_common_form_core_for_both_required"] and
+          not k691_t["algebraically_dense_test_space_sufficient"] and
+          not k691_t["core_for_only_native_form_sufficient"] and
+          not k691_n["actual_native_CstarC_equals_H"] and
+          not k691_n["native_complete_floor_emitted"],
+          "K691 form-core identification or native ceiling moved")
+
+    k692 = data["k692"]
+    k692_g = k692["friedrichs_gap_theorem"]
+    k692_t = k692["defect_trace_theorem"]
+    k692_n = k692["native_interface_status"]
+    check(k692_g["authenticated_friedrichs_reference_required"] and
+          k692_g["complete_form_lower_required"] and
+          not k692_g["finite_sector_lower_sufficient"] and
+          k692_t["complete_defect_space_required"] and
+          not k692_t["sampled_trace_vectors_sufficient"] and
+          not k692_n["actual_native_anchor_gamma_norm_proved"] and
+          not k692_n["native_complete_floor_emitted"],
+          "K692 Friedrichs-trace compiler or native ceiling moved")
 
     k687 = data["k687"]
     k687_t = k687["countable_column_theorem"]
@@ -2128,6 +2176,19 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("k690-density", lambda d: d["k690"]["summable_core_theorem"].__setitem__("dense_common_core_required", False))
+    add("k690-sum", lambda d: d["k690"]["summable_core_theorem"].__setitem__("complete_square_sum_required", False))
+    add("k690-nonsummable", lambda d: d["k690"]["summable_core_theorem"].__setitem__("nonsummable_uniform_component_bounds_sufficient", True))
+    add("k690-native", lambda d: d["k690"]["native_interface_status"].__setitem__("actual_native_maximal_domain_dense", True))
+    add("k691-core", lambda d: d["k691"]["form_core_theorem"].__setitem__("one_common_form_core_for_both_required", False))
+    add("k691-dense", lambda d: d["k691"]["form_core_theorem"].__setitem__("algebraically_dense_test_space_sufficient", True))
+    add("k691-native", lambda d: d["k691"]["native_interface_status"].__setitem__("actual_native_CstarC_equals_H", True))
+    add("k691-floor", lambda d: d["k691"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k692-reference", lambda d: d["k692"]["friedrichs_gap_theorem"].__setitem__("authenticated_friedrichs_reference_required", False))
+    add("k692-sector", lambda d: d["k692"]["friedrichs_gap_theorem"].__setitem__("finite_sector_lower_sufficient", True))
+    add("k692-trace", lambda d: d["k692"]["defect_trace_theorem"].__setitem__("sampled_trace_vectors_sufficient", True))
+    add("k692-native", lambda d: d["k692"]["native_interface_status"].__setitem__("actual_native_anchor_gamma_norm_proved", True))
 
     add("k687-density", lambda d: d["k687"]["countable_column_theorem"].__setitem__("density_hypothesis", "optional"))
     add("k687-prefix", lambda d: d["k687"]["countable_column_theorem"].__setitem__("finite_prefix_proves_complete_domain", True))

@@ -7,6 +7,40 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K690--K692 summable-core, form-identity and Friedrichs-trace compilers (2026-09-30)
+
+K690 proves a direct density packet for K687. If one dense common core `D0`
+lies in every component domain and
+`||C_j u||<=b_j||a u||` there with `sum_j b_j^2<infinity`, then
+`D0` lies in the maximal square-summable column domain, so that domain is
+dense. With closed components, K687 then gives a densely defined closed
+column. Componentwise closedness or uniform boundedness alone is not enough:
+the family `C_j=I` has complete column domain `{0}`.
+
+K691 proves the exact native-identification interface. For a densely defined
+closed column, `q_C[u,v]=<Cu,Cv>` is a closed nonnegative form. If the native
+closed form `h=-r_free` and `q_C` agree on one common form core for both, their
+closed forms and domains agree, hence `C* C=H` and `|C|=H^(1/2)=T`.
+Algebraic density is insufficient: Dirichlet and Neumann Laplacian forms agree
+on `C_c^infinity(0,1)` but define different closed form domains and operators.
+
+K692 turns K689's remaining abstract inputs into native inequalities. If the
+authenticated `Gamma_0` reference is the Friedrichs extension and its complete
+form is at least `c I`, then an interval below `c` is at distance at least
+`c-sup(I)` from its spectrum. If
+`||Gamma_0 f||>=kappa||f||` on the entire defect space `N_mu`, then
+`gamma(mu)=(Gamma_0|N_mu)^-1` has norm at most `1/kappa`. The synthetic values
+`c=13/5`, `mu=21/10`, `kappa=5` give gap `1/2`, anchor norm `1/5`, propagated
+target norm `101/425`, Weyl variation `808/180625` and transferred margin
+`3993/722500`.
+
+The K690 probe passes 35 controls and rejects 29/29 hostile mutations. K691
+passes 36 and rejects 30/30; K692 passes 38 and rejects 32/32. No native
+component family, core, form identity, boundary triple, Friedrichs proof,
+complete form lower, trace coercivity, gamma norm, denominator, `A`, `B`,
+floor, source, ledger, canon, paper, public, prediction, confirmation or
+physical conclusion follows.
+
 ## K687--K689 countable-column, partial-Gram and gamma-anchor compilers (2026-09-30)
 
 K687 proves the constructive countable-column route. Closed component
