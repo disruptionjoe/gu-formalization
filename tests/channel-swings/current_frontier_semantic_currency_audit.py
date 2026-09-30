@@ -34,6 +34,12 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k661": json.loads(
+            (ROOT / "lab/process/k661-k500-friedrichs-reference-nonidentifiability.json").read_text()
+        ),
+        "k662": json.loads(
+            (ROOT / "lab/process/k662-k500-reference-preserving-boundary-coordinate-group.json").read_text()
+        ),
         "k659": json.loads(
             (ROOT / "lab/process/k659-k500-auxiliary-chart-floor-nonidentifiability.json").read_text()
         ),
@@ -210,6 +216,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K660" in live and "coordinate-invariant packet" in live and
               "D=W-M" in live and "joint boundary translation" in live,
               "live boundary-translation denominator covariance missing")
+        check("K661" in live and "Friedrichs premise" in live and
+              "norm-resolvent convergence" in live,
+              "live Friedrichs-reference custody result missing")
+        check("K662" in live and "D'=U^{-*}DU^{-1}" in live and
+              "condition-number bounds" in live,
+              "live reference-preserving coordinate group missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -219,6 +231,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K661--K662 close the Friedrichs-reference custody inference" in summary,
+          "current K661--K662 result lost")
     check("K659--K660 close the auxiliary-chart custody question" in summary,
           "current K659--K660 result lost")
     check("K657--K658 convert K656's missing base floor" in summary,
@@ -292,6 +306,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     )
     check(qual.get("candidate_admitted") is False, "W154/W229 unexpectedly admitted")
 
+    check(
+        "symplectically swapped Neumann non-Friedrichs reference"
+        in data["agenda"].get("latest_result_2026_09_30_k661_k662", "")
+        and "D transforms by U^{-*} D U^{-1}"
+        in data["agenda"].get("latest_result_2026_09_30_k661_k662", ""),
+        "agenda K661--K662 result is not current",
+    )
     check(
         "auxiliary resolvent parameter" in data["agenda"].get("latest_result_2026_09_29_k659_k660", "")
         and "D=W-M" in data["agenda"].get("latest_result_2026_09_29_k659_k660", ""),
@@ -638,6 +659,66 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k660_n["actual_native_denominator_serialized"] and
           not k660_n["K473_released"],
           "K660 native interface ceiling moved")
+
+    k661 = data["k661"]
+    k661_i = k661["interval_control"]
+    k661_c = k661["exact_controls"]
+    k661_t = k661["custody_theorem"]
+    k661_n = k661["native_interface_status"]
+    check(k661_i["green_identity_exact_on_polynomial_controls"] and
+          k661_i["dirichlet_is_friedrichs"] and
+          k661_i["swapped_green_identity_valid"] and
+          not k661_i["swapped_reference_is_friedrichs"] and
+          k661_i["same_minimal_operator"] and
+          k661_i["both_references_self_adjoint_and_semibounded"],
+          "K661 interval boundary-triple control moved")
+    check(k661_c["constant_is_neumann_not_dirichlet"] and
+          k661_c["dirichlet_witness_is_dirichlet_not_neumann"] and
+          k661_c["both_constant_families_norm_resolvent_converge"] and
+          not k661_t["ordinary_boundary_triple_alone_selects_friedrichs"] and
+          not k661_t["semibounded_reference_alone_selects_friedrichs"] and
+          not k661_t["norm_resolvent_convergence_alone_selects_friedrichs"] and
+          not k661_t["profile_universality_alone_selects_friedrichs"] and
+          not k661_t["fixed_native_reference_is_not_friedrichs"] and
+          not k661_n["actual_native_reference_proved_friedrichs"] and
+          not k661_n["actual_native_s_identified"] and
+          not k661_n["K473_released"],
+          "K661 custody or native-interface ceiling moved")
+
+    k662 = data["k662"]
+    k662_t = k662["coordinate_group_theorem"]
+    k662_q = k662["quantitative_transport"]
+    k662_c = k662["exact_controls"]
+    k662_x = k662["composition"]
+    k662_n = k662["native_interface_status"]
+    check(k662_t["reference_extension_unchanged"] and
+          k662_t["friedrichs_status_preserved_if_previously_proved"] and
+          not k662_t["friedrichs_status_created"] and
+          k662_t["denominator_transform"] == "D'(z)=U^{-*}D(z)U^{-1}" and
+          k662_t["complete_denominator_nonnegativity_equivalent"] and
+          k662_t["strict_positivity_equivalent"] and
+          k662_t["numerical_floor_invariant_for_unitary_U"] and
+          not k662_t["numerical_floor_invariant_for_general_U"] and
+          not k662_t["K661_symplectic_swap_covered"],
+          "K662 reference-preserving coordinate theorem moved")
+    check(k662_q["floor_hypothesis"] == "d>=0 and d_N>=0" and
+          k662_q["if_D_ge_nonnegative_d_then"] == "D'>=d/||U||^2" and
+          k662_q["if_error_le_eta_then"] == "||D_N'-D'||<=||U^{-1}||^2 eta" and
+          k662_c["congruence_identity"] and
+          k662_c["floor_bound_holds"] and
+          k662_c["approximant_congruence_identity"] and
+          k662_c["error_bound_holds"] and
+          k662_c["approximant_floor_bound_holds"] and
+          k662_c["conservative_margin_nonnegative"] and
+          k662_c["original_denominator_floor"] == "1" and
+          k662_c["transformed_denominator_floor"] == "3/8" and
+          k662_c["operator_norm_error"] == "1/20" and
+          k662_c["transformed_operator_norm_error"] == "2/25" and
+          not k662_x["K139_regulator_coordinates_already_authenticated_in_group"] and
+          not k662_n["actual_native_coordinate_group_law_proved"] and
+          not k662_n["actual_native_s_identified"] and
+          not k662_n["K473_released"],
+          "K662 quantitative or native-interface ceiling moved")
 
     k657 = data["k657"]
     k657_t = k657["ordinary_boundary_triple_theorem"]
@@ -1465,6 +1546,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k660-unbounded", lambda d: d["k660"]["translation_theorem"].__setitem__("unbounded_translation_covered", True))
     add("k660-authenticate-regulator", lambda d: d["k660"]["composition"].__setitem__("K139_regulator_coordinates_already_authenticated_as_boundary_translation", True))
     add("k660-native-translation", lambda d: d["k660"]["native_interface_status"].__setitem__("actual_native_translation_law_proved", True))
+    add("k661-green", lambda d: d["k661"]["interval_control"].__setitem__("green_identity_exact_on_polynomial_controls", False))
+    add("k661-swap-friedrichs", lambda d: d["k661"]["interval_control"].__setitem__("swapped_reference_is_friedrichs", True))
+    add("k661-convergence-selects", lambda d: d["k661"]["custody_theorem"].__setitem__("norm_resolvent_convergence_alone_selects_friedrichs", True))
+    add("k661-deny-native", lambda d: d["k661"]["custody_theorem"].__setitem__("fixed_native_reference_is_not_friedrichs", True))
+    add("k662-denominator", lambda d: d["k662"]["coordinate_group_theorem"].__setitem__("denominator_transform", "D'=D"))
+    add("k662-create-friedrichs", lambda d: d["k662"]["coordinate_group_theorem"].__setitem__("friedrichs_status_created", True))
+    add("k662-nonunitary-invariant", lambda d: d["k662"]["coordinate_group_theorem"].__setitem__("numerical_floor_invariant_for_general_U", True))
+    add("k662-error", lambda d: d["k662"]["exact_controls"].__setitem__("error_bound_holds", False))
+    add("k662-authenticate", lambda d: d["k662"]["composition"].__setitem__("K139_regulator_coordinates_already_authenticated_in_group", True))
     add("k657-equivalence", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("equivalence", "false"))
     add("k657-basis", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("theorem_basis", "unknown"))
     add("k657-shift", lambda d: d["k657"]["ordinary_boundary_triple_theorem"].__setitem__("scalar_shift", "unknown"))

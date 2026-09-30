@@ -2,10 +2,42 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-29"
+updated_at: "2026-09-30"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K661--K662 Friedrichs custody and safe coordinate group (2026-09-30)
+
+K661 proves a custody-relative nonidentifiability result. For the minimal
+interval Laplacian, the exact endpoint maps
+`Gamma_0 f=(f(0),f(1))`, `Gamma_1 f=(f'(0),-f'(1))` give the Dirichlet
+Friedrichs reference. The valid symplectic swap
+`Gamma_0'=Gamma_1`, `Gamma_1'=-Gamma_0` instead gives the Neumann reference,
+which is not Friedrichs. Three exact polynomial pairs satisfy both Green
+identities; constant and `x(1-x)` witnesses separate the two reference
+domains. Constant approximant families have zero norm-resolvent error to
+either extension. The producer passes 12 controls and its independent probe
+rejects 9/9 hostile mutations. This proves only that the current serialized
+interface does not select the Friedrichs reference; the interval control is
+not a K139 sector and does not show K139's fixed reference is non-Friedrichs.
+
+K662 proves the complete displayed bounded reference-preserving coordinate
+law. For boundedly invertible complete-boundary `U` and bounded self-adjoint
+`C`, `Gamma_0'=U Gamma_0` and
+`Gamma_1'=U^{-*}(Gamma_1+C Gamma_0)` preserve the Green identity and
+`ker(Gamma_0)`. They give
+`M'=U^{-*}(M+C)U^{-1}`, `W'=U^{-*}(W+C)U^{-1}` and
+`D'=U^{-*}DU^{-1}`. Positivity and strict positivity are equivalent by
+congruence. For nonunitary `U`, a nonnegative floor `d` transports at least as
+`d/||U||^2`, while an error `eta` transports at most as
+`||U^{-1}||^2 eta`; unitary `U` recovers exact margin invariance. The exact
+`U=diag(2,1/2)` control moves a floor from `1` to `3/8` and an error norm
+from `1/20` to `2/25`. The producer passes 18 controls and its independent
+probe rejects 14/14 hostile mutations. K139's trace maps, minimal form and
+regulator coordinate law remain unserialized, so no native `s`, denominator,
+`d_N`, `eta_N`, `r0`, `b`, `m`, `alpha`, `delta`, K473 release or K152
+interval follows.
 
 ## K659--K660 chart-floor custody and denominator covariance (2026-09-29)
 

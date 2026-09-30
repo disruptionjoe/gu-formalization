@@ -2,10 +2,31 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-29"
+updated_at: "2026-09-30"
 ---
 
 # Next Steps For Contributors
+
+> **2026-09-30 K661--K662 FRIEDRICHS-REFERENCE CUSTODY AND COMPLETE SAFE
+> COORDINATE GROUP.** K661 proves that ordinary-boundary-triple validity,
+> semiboundedness and even exact norm-resolvent convergence do not identify a
+> Friedrichs reference. For one minimal interval Laplacian, exact polynomial
+> Green identities support both the Dirichlet Friedrichs reference and a
+> symplectically swapped Neumann non-Friedrichs reference; constant
+> approximants converge perfectly to either. This is a custody control, not a
+> K139 sector or a denial that K139 has a correct Friedrichs reference. K662
+> characterizes the bounded reference-preserving group:
+> `Gamma_0'=U Gamma_0`,
+> `Gamma_1'=U^{-*}(Gamma_1+C Gamma_0)` gives
+> `D'=U^{-*}DU^{-1}`. Positivity is equivalent by congruence. Raw numerical
+> floors and errors are invariant only for unitary `U`; a general boundedly
+> invertible `U` incurs explicit condition-number bounds. Next serialize
+> K139's minimal symmetric restriction, closed minimal form and complete trace
+> maps; prove that `ker(Gamma_0)` is the operator associated with the closed
+> Friedrichs form; represent every regulator/counterterm coordinate change by
+> bounded `U,C`; then choose `-s` and prove the complete
+> `D_N(-s),d_N,eta_N` packet in one authenticated coordinate. No native floor,
+> K473 beta, K152 interval, source, ledger or physical conclusion moves.
 
 > **2026-09-29 K659--K660 AUXILIARY-CHART FLOOR CUSTODY AND INVARIANT
 > DENOMINATOR.** K659 proves that K139's auxiliary resolvent parameter is a

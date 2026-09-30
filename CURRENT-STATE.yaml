@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 998cdf5b841f
+revision_basis: 0a8bd5cf7bd2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,30 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K661--K662 close the Friedrichs-reference custody inference and classify
+    the full bounded reference-preserving coordinate group without moving a
+    protected claim. K661 gives one exact semibounded interval-Laplacian
+    control: the Dirichlet ordinary boundary triple has Friedrichs reference,
+    while the valid symplectic swap has Neumann reference and is not
+    Friedrichs. Exact polynomial Green identities hold in both coordinates,
+    and constant approximant families converge in norm resolvent to either.
+    Thus ordinary-triple validity, semiboundedness, recursive-domain existence,
+    norm-resolvent convergence and profile universality do not identify the
+    Friedrichs reference. The control is not a K139 sector and does not deny
+    that a correct native reference exists. K662 proves that every displayed
+    bounded reference-preserving change
+    `Gamma_0'=U Gamma_0`,
+    `Gamma_1'=U^{-*}(Gamma_1+C Gamma_0)` retains `ker(Gamma_0)` and sends
+    `D` to `U^{-*} D U^{-1}`. Positivity is congruence invariant. Numerical
+    floors and error norms are exactly invariant only for unitary `U`; general
+    `U` carries explicit condition-number bounds. The exact nonunitary control
+    moves the floor from `1` to `3/8` and the error norm from `1/20` to
+    `2/25`. No current artifact authenticates K139's trace maps, minimal form
+    or regulator coordinates against this group. No native `s`, denominator,
+    `d_N`, `eta_N`, `r0`, `b`, tail, `m`, `alpha` or `delta` is supplied. No
+    K473 beta, K152 interval, source, ledger, canon, paper, public or physical
+    conclusion moves.
+
     K659--K660 close the auxiliary-chart custody question and isolate the
     invariant boundary packet without moving a protected claim. K659 proves
     that K139's auxiliary resolvent parameter is exactly compensated in the
@@ -11706,6 +11730,17 @@ current_question: >-
   maps, prove the `Gamma_0` reference is Friedrichs, authenticate any
   regulator/counterterm change as that joint translation, then choose a
   separate real `-s` and prove the invariant `D_N(-s),d_N,eta_N` packet.
+  K661 now proves that ordinary-triple validity, semiboundedness and
+  norm-resolvent convergence cannot supply the missing Friedrichs proof: one
+  exact interval minimal operator admits both the Dirichlet Friedrichs
+  reference and a valid symplectically swapped Neumann non-Friedrichs
+  reference. K662 gives the complete bounded safe coordinate shape:
+  `Gamma_0'=U Gamma_0`,
+  `Gamma_1'=U^{-*}(Gamma_1+C Gamma_0)` preserves the reference and transports
+  `D` by congruence. Positivity is invariant, but a nonunitary `U` changes raw
+  floors and errors according to explicit condition-number bounds. Serialize
+  K139's minimal form and trace maps, prove `ker(Gamma_0)` is its Friedrichs
+  extension, then authenticate `U,C` before using the real-level packet.
   Separately certify `alpha,delta`. Finite impurity
   matrices, sampled sectors, uncontrolled complements and Synthetic controls
   do not supply `r0` or `b`.
@@ -12270,6 +12305,14 @@ next_condition: >-
   cofinal error remain unchanged. Construct the actual complete boundary maps,
   prove the reference is Friedrichs, authenticate any regulator/counterterm
   change as that translation, and then prove the invariant real-level margin.
+  K661 proves that the still-missing Friedrichs premise cannot be recovered
+  from ordinary-triple validity, semiboundedness or norm-resolvent convergence
+  alone. K662 extends K660 to the full displayed bounded reference-preserving
+  group and shows `D'=U^{-*}DU^{-1}`: positivity survives, while nonunitary
+  coordinates pay exact condition-number bounds. The native input is now
+  precise: serialize the minimal closed form and complete trace maps, identify
+  its Friedrichs operator with `ker(Gamma_0)`, and prove every regulator change
+  has bounded `U,C` before certifying the real-level margin.
   Only afterward certify `alpha,delta`. The raw
   K644 rows remain a valid sufficient route if
   their same-domain boundedness is independently proved. Neither route may

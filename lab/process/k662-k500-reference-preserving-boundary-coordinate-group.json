@@ -1,0 +1,166 @@
+{
+  "claim_ceiling": "Exact complete-boundary coordinate theorem. Every bounded reference-preserving affine ordinary-boundary change of the displayed form Gamma_0'=U Gamma_0 and Gamma_1'=U^{-*}(Gamma_1+C Gamma_0), with U boundedly invertible and C bounded self-adjoint, retains ker(Gamma_0), transports M and W jointly, and sends D to U^{-*}DU^{-1}. Denominator nonnegativity and strict positivity are equivalent; exact numerical floors and cofinal-error norms are invariant only for unitary U, while general U incurs explicit condition-number bounds for the nonnegative K657--K658 margins. This preserves but cannot create a Friedrichs proof and does not authenticate K139's regulator coordinates. No native s, denominator, d_N, eta_N, r0, b, tail, m, alpha, delta, K473, K152, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion is supplied.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition": {
+    "K139_regulator_coordinates_already_authenticated_in_group": false,
+    "K657_order_test_coordinate_independent_within_group": true,
+    "K658_packet_transports_with_condition_number_bounds": true,
+    "K660_translation_subgroup": "U=I",
+    "K661_current_interface_does_not_select_friedrichs": true
+  },
+  "coordinate_group_theorem": {
+    "K661_symplectic_swap_covered": false,
+    "boundary_maps": "Gamma_0'=U Gamma_0; Gamma_1'=U^{-*}(Gamma_1+C Gamma_0)",
+    "complete_denominator_nonnegativity_equivalent": true,
+    "denominator_transform": "D'(z)=U^{-*}D(z)U^{-1}",
+    "extension_transform": "W'=U^{-*}(W+C)U^{-1}",
+    "friedrichs_status_created": false,
+    "friedrichs_status_preserved_if_previously_proved": true,
+    "green_identity_preserved": true,
+    "hypotheses": "U boundedly invertible on the complete boundary Hilbert space; C bounded self-adjoint",
+    "numerical_floor_invariant_for_general_U": false,
+    "numerical_floor_invariant_for_unitary_U": true,
+    "reference_extension_unchanged": true,
+    "reference_kernel_identity": "ker(Gamma_0')=ker(Gamma_0)",
+    "strict_positivity_equivalent": true,
+    "weyl_transform": "M'(z)=U^{-*}(M(z)+C)U^{-1}"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "general_boundary_symplectic_changes_rejected_as_reference_safe": true,
+    "maximal_bounded_reference_preserving_affine_coordinate_shape_serialized": true,
+    "native_coordinate_law_authenticated": false,
+    "native_floor_supplied": false,
+    "next_exact_input": "Construct K139's complete Gamma_0 and Gamma_1, prove ker(Gamma_0) is the Friedrichs extension from the closed minimal form, and represent every regulator/counterterm coordinate change by boundedly invertible U and bounded self-adjoint C on the complete boundary space. Then serialize D_N(-s), d_N and eta_N in one coordinate and apply the exact condition-number transport if needed."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "C_diagonal": [
+      "3/2",
+      "-2/3"
+    ],
+    "M_diagonal": [
+      "-1",
+      "2"
+    ],
+    "U_diagonal": [
+      "2",
+      "1/2"
+    ],
+    "U_inverse_diagonal": [
+      "1/2",
+      "2"
+    ],
+    "W_diagonal": [
+      "1/2",
+      "3"
+    ],
+    "approximant_congruence_identity": true,
+    "approximant_floor_bound_holds": true,
+    "approximant_floor_lower_bound": "49/200",
+    "cofinal_approximant_diagonal": [
+      "31/20",
+      "49/50"
+    ],
+    "cofinal_error_diagonal": [
+      "1/20",
+      "-1/50"
+    ],
+    "congruence_identity": true,
+    "conservative_margin": "9/200",
+    "conservative_margin_nonnegative": true,
+    "controls_are_synthetic": true,
+    "denominator_diagonal": [
+      "3/2",
+      "1"
+    ],
+    "error_bound_holds": true,
+    "error_upper_bound": "1/5",
+    "floor_bound_holds": true,
+    "floor_lower_bound": "1/4",
+    "norm_U": "2",
+    "norm_U_inverse": "2",
+    "operator_norm_error": "1/20",
+    "original_approximant_floor": "49/50",
+    "original_denominator_floor": "1",
+    "transformed_M_diagonal": [
+      "1/8",
+      "16/3"
+    ],
+    "transformed_W_diagonal": [
+      "1/2",
+      "28/3"
+    ],
+    "transformed_approximant_floor": "31/80",
+    "transformed_cofinal_approximant_diagonal": [
+      "31/80",
+      "98/25"
+    ],
+    "transformed_cofinal_error_diagonal": [
+      "1/80",
+      "-2/25"
+    ],
+    "transformed_denominator_diagonal": [
+      "3/8",
+      "4"
+    ],
+    "transformed_denominator_floor": "3/8",
+    "transformed_operator_norm_error": "2/25",
+    "unitary_swap_denominator_diagonal": [
+      "1",
+      "3/2"
+    ],
+    "unitary_swap_error_norm_invariant": true,
+    "unitary_swap_floor_invariant": true
+  },
+  "gu_typed_objects": {
+    "carrier": "one complete spectator-Fock boundary Hilbert space with boundedly invertible coordinate map U",
+    "domain": "the unchanged reference extension ker(Gamma_0')=ker(Gamma_0) and the same target extension in transformed coordinates",
+    "form": "Gamma_0'=U Gamma_0 and Gamma_1'=U^{-*}(Gamma_1+C Gamma_0), with bounded self-adjoint C",
+    "result": "reference-preserving boundary-coordinate covariance MAP-TYPE=bounded congruence equivalence",
+    "target": "the complete denominator order and cofinal approximation packet under every bounded reference-preserving coordinate change"
+  },
+  "ledger_no_change_reason": "The theorem classifies internal boundary coordinates for the repository-supplied point-Fock control; it supplies no source-selected action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "K473_released": false,
+    "actual_native_base_floor_r0_identified": false,
+    "actual_native_boundary_triple_serialized": false,
+    "actual_native_coordinate_group_law_proved": false,
+    "actual_native_d_n_identified": false,
+    "actual_native_denominator_serialized": false,
+    "actual_native_eta_n_identified": false,
+    "actual_native_friedrichs_form_serialized": false,
+    "actual_native_minimal_operator_serialized": false,
+    "actual_native_reference_proved_friedrichs": false,
+    "actual_native_s_identified": false,
+    "actual_native_target_b_identified": false,
+    "native_K152_interval_emitted": false,
+    "native_global_m_identified": false,
+    "native_remainder_alpha_delta_identified": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The exact U=diag(2,1/2) control preserves positivity by congruence but moves the denominator floor from 1 to 3/8 and the cofinal error norm from 1/20 to 2/25.",
+    "strongest_overclaim": "Calling a nonunitary coordinate change margin-invariant, or treating an arbitrary symplectic boundary-map change as reference-preserving.",
+    "weakest_reproducibility_seam": "K139 does not serialize U, C or complete trace maps, so membership of its regulator coordinates in this group remains unproved."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K660 covers translations with U=I but not complete boundary-space basis changes or their quantitative condition-number cost.",
+    "route_comparison": "K661 proves that unrestricted ordinary-boundary reparameterization can change the reference; the useful follow-through is to characterize exactly the bounded coordinate changes that cannot.",
+    "strongest_alternative": "A direct complete-form proof under K652 bypasses all boundary-coordinate transport."
+  },
+  "quantitative_transport": {
+    "condition_number_cost_is_coordinate_not_operator_physics": true,
+    "conservative_transferred_margin": "d_N/||U||^2-||U^{-1}||^2 eta_N",
+    "floor_hypothesis": "d>=0 and d_N>=0",
+    "if_DN_ge_nonnegative_dN_then": "D_N'>=d_N/||U||^2",
+    "if_D_ge_nonnegative_d_then": "D'>=d/||U||^2",
+    "if_error_le_eta_then": "||D_N'-D'||<=||U^{-1}||^2 eta",
+    "unitary_case_recovers_K660_exact_margin_invariance": true
+  },
+  "result_id": "K662-K500-REFERENCE-PRESERVING-BOUNDARY-COORDINATE-GROUP",
+  "schema_version": "1.0",
+  "scope": "The complete bounded invertible ordinary-boundary coordinate class that preserves one already authenticated reference extension, and its exact congruence transport of K657--K658's complete denominator packet.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
