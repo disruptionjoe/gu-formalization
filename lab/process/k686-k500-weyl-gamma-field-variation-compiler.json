@@ -1,0 +1,91 @@
+{
+  "claim_ceiling": "Exact conditional ordinary-boundary-triple result: on one authenticated complete real reference-resolvent interval, the two-point gamma identity bounds Weyl variation by |lambda_1-lambda_0| times the two complete gamma norms, while M'=gamma*gamma gives operator monotonicity. This converts K683's variation input at lambda_0=341/170 into a concrete gamma-field norm obligation. Current native custody supplies no authenticated triple, interval, gamma norms or denominator margin. No native denominator, r0, B, parity tail, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 35,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k686_k500_weyl_gamma_field_variation_compiler_probe.py",
+    "producer": "tests/channel-swings/k686_k500_weyl_gamma_field_variation_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "complete_gamma_norms_are_sufficient_variation_input": true,
+    "native_target_denominator_proved": false,
+    "next_exact_input": "Authenticate K139's complete ordinary boundary triple and Friedrichs reference on a real interval containing 341/170 and one computable lambda_1. Bound the complete gamma fields at both levels (or uniformly on the interval), prove D_W(lambda_1)>=d_1 I, and check |lambda_1-341/170| g_0 g_1<=d_1 before invoking K683/K657."
+  },
+  "dependency_reconciliation": {
+    "K159_complete_operator_valued_gamma_requirement_retained": true,
+    "K657_Friedrichs_reference_resolvent_and_sign_premises_retained": true,
+    "K683_monotone_shortcut_derived_from_gamma_identity": true,
+    "K683_unstructured_weyl_variation_reduced_to_gamma_norms": true,
+    "native_gamma_bound_added": false
+  },
+  "direction": "observed_to_native",
+  "failing_control": {
+    "accepted": false,
+    "complete_weyl_variation_omega": "8/85",
+    "gamma_norm_at_both_levels": "1",
+    "nearby_denominator_margin_d_1": "1/100",
+    "transferred_target_margin": "-143/1700"
+  },
+  "gamma_field_identity": {
+    "complete_boundary_space_required": true,
+    "connected_reference_resolvent_interval_required": true,
+    "derivative_identity": "M'(lambda)=gamma(lambda)* gamma(lambda)>=0",
+    "finite_sector_gamma_bounds_sufficient": false,
+    "monotonicity_consequence": "M is operator monotone increasing on the authenticated real interval",
+    "nonreal_contour_bound_substitutable_without_real_interval_proof": false,
+    "norm_consequence": "||M(lambda_1)-M(lambda_0)||<=|lambda_1-lambda_0| ||gamma(lambda_0)|| ||gamma(lambda_1)||",
+    "same_boundary_coordinate_required": true,
+    "two_point_identity": "M(lambda_1)-M(lambda_0)=(lambda_1-lambda_0) gamma(lambda_0)* gamma(lambda_1)",
+    "uniform_interval_consequence": "if sup_(lambda in I)||gamma(lambda)||<=g then the Weyl variation is at most |lambda_1-lambda_0| g^2"
+  },
+  "gu_typed_objects": {
+    "boundary_triple": "one authenticated ordinary boundary triple with Friedrichs reference A_0 on the complete spectator-Fock boundary space",
+    "denominator": "D_W(lambda)=W-M(lambda) for one fixed target extension parameter W",
+    "gamma_field": "the complete Hilbert-bounded gamma(lambda) for real lambda in one connected interval I subset rho(A_0)",
+    "result": "Weyl gamma-field variation compiler MAP-TYPE=boundary-triple identity",
+    "target": "K683's complete omega budget from lambda_1 to lambda_0=341/170",
+    "weyl_family": "the corresponding complete operator-valued M(lambda) in the same coordinate"
+  },
+  "ledger_no_change_reason": "This is a conditional ordinary-boundary-triple identity inside a repository-supplied operator model and supplies no source-owned action, physical state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_Friedrichs_reference_proved": false,
+    "actual_native_boundary_triple_authenticated": false,
+    "actual_native_complete_gamma_norms_proved": false,
+    "actual_native_nearby_denominator_margin_proved": false,
+    "actual_native_real_interval_authenticated": false,
+    "actual_native_target_denominator_nonnegative": false,
+    "actual_native_weyl_variation_bound_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "With unit gamma bounds over the same level gap, omega=8/85 exceeds a nearby margin 1/100 and transfers to -143/1700, so interval membership alone is not enough.",
+    "strongest_overclaim": "Using finite-sector, nonreal-contour or differently coordinated gamma bounds as a complete real-interval Weyl variation certificate.",
+    "weakest_reproducibility_seam": "The native boundary maps, Friedrichs reference, real resolvent interval, complete gamma norms, fixed W and denominator lower must all use one authenticated coordinate."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K159 requires complete gamma/Weyl control on a nonreal contour but does not derive the real-level two-point variation bound used by K683.",
+    "route_comparison": "K683 leaves a complete Weyl-difference norm as an input. The ordinary-boundary-triple two-point gamma identity is the cheapest exact route to that norm and simultaneously explains the monotonicity shortcut.",
+    "strongest_alternative": "Compute D_W(341/170) directly, bypassing nearby-level transport and all gamma variation budgets."
+  },
+  "result_id": "K686-K500-WEYL-GAMMA-FIELD-VARIATION-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete ordinary-boundary-triple certificate converting gamma-field norm bounds on one real reference-resolvent interval into K683's Weyl-variation budget at lambda=341/170.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL",
+  "target_composition": {
+    "accepted": true,
+    "complete_weyl_variation_omega": "2/425",
+    "composition": "K683 gives D_W(lambda_0)>=(d_1-omega)I",
+    "controls_are_synthetic": true,
+    "gamma_norm_at_lambda_0": "1/4",
+    "gamma_norm_at_lambda_1": "1/5",
+    "level_distance": "8/85",
+    "nearby_denominator_margin_d_1": "1/100",
+    "nearby_lambda_1": "21/10",
+    "target_lambda_0": "341/170",
+    "transferred_target_margin": "9/1700"
+  }
+}

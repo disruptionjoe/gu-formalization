@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 0dc05eb2fe34
+revision_basis: aac4c52acc2d
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,21 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K684--K686 turn the two K681--K683 abstract routes into coefficient-level
+    proof obligations. K684 shows that one explicitly supplied densely defined
+    closed complete column `C` constructs `h[u]=||C u||^2`, its canonical
+    `T=|C|`, and—when `C a^-1` is bounded—the graph operator `R=T a^-1` with
+    exactly the same norm; exact column intertwiners pass charge and bath
+    reductions. K685 converts component operator bounds plus one complete
+    square-tail bound into K677's complement target
+    `||R Q_seed||^2<=1/100`; finite prefixes and coherent same-codomain sums
+    do not suffice. K686 converts complete gamma-field norms on one
+    authenticated real ordinary-boundary-triple interval into K683's Weyl
+    variation budget, with `M'=gamma*gamma` explaining the monotone shortcut.
+    No native column, component budget, gamma bound, denominator, `r_free`,
+    `T`, `R`, `A`, `B`, row, tail, complete floor, K473/K152 release, source,
+    ledger, canon, paper, public or physical conclusion moves.
+
     K681--K683 convert the K678--K680 missing-input frontier into three exact
     executable certificate shapes without claiming the inputs. K681 proves
     that an explicitly supplied increasing family of complete dense closed
@@ -11875,6 +11890,13 @@ current_question: >-
   robustness transfer from a nearby complete denominator lower into
   `D_W(341/170)>=0`, after paying the complete Weyl-variation budget or proving
   operator monotonicity on one authenticated reference-resolvent interval.
+  K684 now provides a coefficient-native construction route: serialize one
+  densely defined closed complete remainder column `C`, prove `Dom(C)=Dom(a)`
+  and `C a^-1` bounded, and prove exact charge/bath column intertwiners. K685
+  then reduces K677's complement row to complete component operator bounds and
+  one square-tail budget totaling at most `1/100`. K686 independently reduces
+  K683's Weyl-difference input to complete gamma-field norm bounds on one
+  authenticated real reference-resolvent interval.
   K671 now rejects the auxiliary-chart contraction as that direct `A`: the
   compensating regular form can vary independently. K672 gives the invariant
   replacement: on one complete graph-domain finite/complement split, prove
@@ -12493,9 +12515,12 @@ next_condition: >-
   `D_W(341/170)>=0` and every reference, resolvent and sign premise. K683
   permits a nearby complete denominator row only with a same-coordinate
   complete Weyl difference budget or authenticated monotone interval. Serialize
-  the K681 native form family and prove K682's complete relative/reduction
-  packet, or prove K672 directly; independently instantiate K683/K680 and then
-  every K665 finite row plus both parity tails. K634's equivalent-norm and
+  the K684 native closed column and prove its bounded graph realization and
+  intertwiners; then execute K685's complete component-square complement packet
+  together with K676's three seed actions. Alternatively serialize the K681
+  form family and prove K682's packet, or prove K672 directly. Independently
+  authenticate K686's boundary triple and complete gamma bounds, instantiate
+  K683/K680, and then every K665 finite row plus both parity tails. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely
   non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.
   K639 quotients the actual K179 family to six algebraically independent

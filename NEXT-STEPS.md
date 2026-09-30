@@ -7,6 +7,24 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K684--K686 CLOSED COLUMN, COMPONENT-SQUARE BUDGET AND GAMMA-
+> FIELD VARIATION.** K684 gives the coefficient-native construction route for
+> K681/K682: a densely defined closed complete column `C` produces
+> `h[u]=||C u||^2`, `T=|C|`, and, when `C a^-1` is bounded,
+> `R=T a^-1` with the same norm. Exact column intertwiners pass charge and bath
+> reductions. K685 turns complete component operator bounds plus one rigorous
+> square-tail budget into `||R Q_seed||^2<=1/100`; finite prefixes and
+> nonorthogonal same-codomain sums do not suffice. K686 turns complete gamma-
+> field norms on one authenticated real ordinary-boundary-triple interval into
+> K683's Weyl variation budget and derives the monotone shortcut from
+> `M'=gamma*gamma`. Next serialize and close the native coefficient column,
+> prove `C a^-1` bounded and its intertwiners, then execute K685 plus K676's
+> three seed actions. Independently authenticate the native boundary triple,
+> real interval, gamma norms and one nearby denominator margin. See
+> `lab/process/k684-k500-closed-column-remainder-compiler.json`,
+> `lab/process/k685-k500-component-square-budget-compiler.json`, and
+> `lab/process/k686-k500-weyl-gamma-field-variation-compiler.json`.
+
 > **2026-09-30 K681--K683 MONOTONE REMAINDER, GRAPH-RELATIVE BOUNDEDNESS
 > AND WEYL TARGET-LEVEL ROBUSTNESS.** K681 turns K678's missing complete
 > `r_free` into a construction packet: an increasing family of densely defined

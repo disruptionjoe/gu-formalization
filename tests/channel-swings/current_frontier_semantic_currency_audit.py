@@ -34,6 +34,15 @@ def load_inputs() -> dict:
             (ROOT / basis["w154_w229_qualification"]["path"]).read_text()
         ),
         "b5_artifact": (ROOT / registry["b5_agenda_currency"]["result_ref"]).read_text(),
+        "k684": json.loads(
+            (ROOT / "lab/process/k684-k500-closed-column-remainder-compiler.json").read_text()
+        ),
+        "k685": json.loads(
+            (ROOT / "lab/process/k685-k500-component-square-budget-compiler.json").read_text()
+        ),
+        "k686": json.loads(
+            (ROOT / "lab/process/k686-k500-weyl-gamma-field-variation-compiler.json").read_text()
+        ),
         "k681": json.loads(
             (ROOT / "lab/process/k681-k500-monotone-remainder-form-compiler.json").read_text()
         ),
@@ -321,6 +330,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K682" in live and "complete relative form inequality" in live and
               "K683" in live and "complete Weyl difference budget" in live,
               "live monotone-form, graph-relative or Weyl robustness compiler missing")
+        check("K684" in live and "closed column" in live and
+              "K685" in live and "component-square" in live and
+              "K686" in live and "complete gamma bounds" in live,
+              "live closed-column, component-budget or gamma-variation compiler missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -330,6 +343,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K684--K686 turn the two K681--K683 abstract routes" in summary,
+          "current K684--K686 result lost")
     check("K681--K683 convert the K678--K680 missing-input frontier" in summary,
           "current K681--K683 result lost")
     check("K678--K680 resolve the next native-input fork" in summary,
@@ -404,6 +419,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "closed-column construction route" in data["agenda"].get("latest_result_2026_09_30_k684_k686", "")
+        and "component operator bounds" in data["agenda"].get("latest_result_2026_09_30_k684_k686", "")
+        and "gamma-field norm bounds" in data["agenda"].get("latest_result_2026_09_30_k684_k686", ""),
+        "agenda K684--K686 result is not current",
+    )
     check(
         "monotone complete-form construction" in data["agenda"].get("latest_result_2026_09_30_k681_k683", "")
         and "h[u]<=c^2" in data["agenda"].get("latest_result_2026_09_30_k681_k683", "")
@@ -993,6 +1014,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k680_n["actual_complete_B_lower_identified"] and
           not k680_n["native_complete_floor_emitted"],
           "K680 reference base-floor target or native ceiling moved")
+
+    k684 = data["k684"]
+    k684_t = k684["closed_column_theorem"]
+    k684_b = k684["bounded_realization"]
+    k684_n = k684["native_interface_status"]
+    check(k684_t["column_hypothesis"] == "C is densely defined and closed on the complete carrier" and
+          not k684_t["finite_or_formal_component_list_sufficient"] and
+          not k684_t["unclosed_column_sufficient"] and
+          not k684_b["factorization_without_bounded_column_sufficient"] and
+          not k684_n["actual_native_complete_column_serialized"] and
+          not k684_n["native_complete_floor_emitted"],
+          "K684 closed-column compiler or native ceiling moved")
+
+    k685 = data["k685"]
+    k685_t = k685["component_square_theorem"]
+    k685_n = k685["native_interface_status"]
+    check(k685_t["one_over_one_hundred_admission"] == "sum_(j<=N)b_j^2+v_N<=1/100" and
+          not k685_t["finite_prefix_without_tail_sufficient"] and
+          not k685_t["same_codomain_sum_without_cross_Gram_control_sufficient"] and
+          not k685_t["scalar_coefficient_bounds_without_operator_norms_sufficient"] and
+          not k685_n["actual_native_complement_below_one_over_one_hundred"] and
+          not k685_n["native_complete_floor_emitted"],
+          "K685 component-square compiler or native ceiling moved")
+
+    k686 = data["k686"]
+    k686_t = k686["gamma_field_identity"]
+    k686_n = k686["native_interface_status"]
+    check(k686_t["complete_boundary_space_required"] and
+          k686_t["connected_reference_resolvent_interval_required"] and
+          k686_t["same_boundary_coordinate_required"] and
+          not k686_t["finite_sector_gamma_bounds_sufficient"] and
+          not k686_n["actual_native_complete_gamma_norms_proved"] and
+          not k686_n["native_complete_floor_emitted"],
+          "K686 gamma-field variation compiler or native ceiling moved")
 
     k681 = data["k681"]
     k681_t = k681["monotone_form_theorem"]
@@ -2027,6 +2082,19 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("k684-closed", lambda d: d["k684"]["closed_column_theorem"].__setitem__("unclosed_column_sufficient", True))
+    add("k684-bounded", lambda d: d["k684"]["bounded_realization"].__setitem__("factorization_without_bounded_column_sufficient", True))
+    add("k684-native", lambda d: d["k684"]["native_interface_status"].__setitem__("actual_native_complete_column_serialized", True))
+    add("k684-floor", lambda d: d["k684"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k685-tail", lambda d: d["k685"]["component_square_theorem"].__setitem__("finite_prefix_without_tail_sufficient", True))
+    add("k685-geometry", lambda d: d["k685"]["component_square_theorem"].__setitem__("same_codomain_sum_without_cross_Gram_control_sufficient", True))
+    add("k685-native", lambda d: d["k685"]["native_interface_status"].__setitem__("actual_native_complement_below_one_over_one_hundred", True))
+    add("k685-floor", lambda d: d["k685"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
+    add("k686-space", lambda d: d["k686"]["gamma_field_identity"].__setitem__("complete_boundary_space_required", False))
+    add("k686-finite", lambda d: d["k686"]["gamma_field_identity"].__setitem__("finite_sector_gamma_bounds_sufficient", True))
+    add("k686-native", lambda d: d["k686"]["native_interface_status"].__setitem__("actual_native_complete_gamma_norms_proved", True))
+    add("k686-floor", lambda d: d["k686"]["native_interface_status"].__setitem__("native_complete_floor_emitted", True))
 
     add("k681-density", lambda d: d["k681"]["monotone_form_theorem"].__setitem__("limit_density_required", False))
     add("k681-finite-prefix", lambda d: d["k681"]["monotone_form_theorem"].__setitem__("finite_prefix_sufficient", True))

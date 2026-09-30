@@ -7,6 +7,40 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K684--K686 coefficient and gamma-field compilers (2026-09-30)
+
+K684 proves the closed-column route. A densely defined closed operator
+`C:Dom(C) -> direct_sum_j K_j` has closed nonnegative square form
+`h[u]=||C u||^2`, associated operator `H=C* C`, and canonical factor
+`T=|C|` with `Dom(T)=Dom(C)` and `||T u||=||C u||`. If the graph weight maps
+through this domain and `C a^-1` is bounded, then `R=T a^-1` is bounded with
+the identical norm. Exact column intertwiners, together with reduction of the
+weight, pass to `R` and `R*R`. A nonclosed derivative restriction verifies
+that density and formal coefficients alone are insufficient.
+
+K685 proves the complete component-square budget. If every displayed
+`C_j a^-1 Q_seed` has operator norm at most `b_j` and the entire undisplayed
+tail has squared budget `v_N`, then
+`||R Q_seed||^2<=sum_(j<=N)b_j^2+v_N`. The exact synthetic row
+`1/20^2+1/25^2+1/400=33/5000` clears `1/100` by `17/5000`. Two coherent unit
+components in the same codomain give squared norm four rather than the naive
+square sum two, so the direct-sum or full Gram geometry is essential.
+
+K686 proves the ordinary-boundary-triple variation route. On one authenticated
+real reference-resolvent interval,
+`M(lambda_1)-M(lambda_0)=(lambda_1-lambda_0) gamma(lambda_0)* gamma(lambda_1)`.
+Thus complete gamma norms bound the Weyl variation, while
+`M'=gamma*gamma>=0` gives operator monotonicity. For
+`lambda_0=341/170`, `lambda_1=21/10`, gamma norms `1/4` and `1/5`, and nearby
+margin `1/100`, the transferred target margin is `9/1700`; unit gamma bounds
+correctly fail with `-143/1700`.
+
+The K684 probe passes 35 controls and rejects 29/29 hostile mutations. K685
+passes 34 and rejects 28/28; K686 passes 35 and rejects 29/29. No native
+column, component bound, complete tail, boundary triple, gamma norm,
+denominator, `A`, `B`, floor, source, ledger, canon, paper, public, prediction,
+confirmation or physical conclusion follows.
+
 ## K681--K683 complete-form and denominator robustness compilers (2026-09-30)
 
 K681 closes an abstract construction gap left deliberately open by K679. For

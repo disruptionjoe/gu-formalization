@@ -1,0 +1,118 @@
+{
+  "bounded_realization": {
+    "column_hypothesis": "B=C a^-1 extends boundedly to the complete Hilbert carrier",
+    "conclusion": "R=T a^-1 extends boundedly",
+    "factorization_without_bounded_column_sufficient": false,
+    "norm_identity": "||R||=||C a^-1||=||B||",
+    "relative_form_identity": "h[u]=||C u||^2<=||B||^2||a u||^2 on Dom(a)",
+    "seed_only_column_sufficient": false,
+    "weight_hypothesis": "a is the declared positive graph weight and a^-1 maps the complete Hilbert carrier into Dom(a)=Dom(C)"
+  },
+  "claim_ceiling": "Exact conditional closed-column result: one supplied densely defined closed complete coefficient column C constructs h=C* C as a closed form, T=|C| and, when C a^-1 is bounded, R=T a^-1 with the same norm; exact column intertwiners shared with a pass charge/bath reductions to R and R*R. Current native custody supplies no such column, identification, boundedness or intertwiner. No native r_free, T, R, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "closed_column_theorem": {
+    "associated_operator": "H=C* C is nonnegative self-adjoint and T=H^(1/2)=|C|",
+    "column_hypothesis": "C is densely defined and closed on the complete carrier",
+    "domain_identity": "Dom(T)=Dom(C)",
+    "finite_or_formal_component_list_sufficient": false,
+    "form_conclusion": "h[u]=||C u||^2 with Dom(h)=Dom(C) is a densely defined closed nonnegative quadratic form",
+    "native_identification_required": true,
+    "norm_identity": "||T u||=||C u|| for every u in Dom(C)",
+    "unclosed_column_sufficient": false
+  },
+  "controls": {
+    "controls_passed": 35,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k684_k500_closed_column_remainder_compiler_probe.py",
+    "producer": "tests/channel-swings/k684_k500_closed_column_remainder_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "closed_column_bypasses_separate_monotone_approximant_construction": true,
+    "native_column_constructed": false,
+    "next_exact_input": "Serialize the complete native coefficient column C for the invariant remainder, prove it is closed and Dom(C)=Dom(a), prove C a^-1 bounded, and prove its charge/bath intertwiners. Then use K685 to certify the seed complement and K676 to compare the three seed actions."
+  },
+  "dependency_reconciliation": {
+    "K676_charge_reduction_reduced_to_column_intertwining_plus_weight_reduction": true,
+    "K677_bath_reduction_reduced_to_column_intertwining_plus_weight_reduction": true,
+    "K679_closed_form_factorization_consumed": true,
+    "K681_monotone_family_is_one_route_not_required_by_closed_column_route": true,
+    "K682_relative_bound_consumed": true,
+    "native_closed_column_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "C_diagonal": [
+      "1/4",
+      "1/5",
+      "1/6"
+    ],
+    "R_diagonal": [
+      "1/8",
+      "1/25",
+      "1/18"
+    ],
+    "R_norm": "1/8",
+    "R_norm_square": "1/64",
+    "a_diagonal": [
+      "2",
+      "5",
+      "3"
+    ],
+    "controls_are_synthetic": true,
+    "coordinate_projections_intertwine_column_and_reduce_weight": true,
+    "h_diagonal": [
+      "1/16",
+      "1/25",
+      "1/36"
+    ],
+    "nonclosed_counterexample": {
+      "closed": false,
+      "densely_defined": true,
+      "operator": "the derivative on L2(0,1) restricted to smooth compactly supported functions",
+      "square_form_closed_on_that_uncompleted_domain": false
+    }
+  },
+  "gu_typed_objects": {
+    "coefficient_column": "C:Dom(C) subset H -> direct_sum_j K_j, a densely defined closed operator containing every native remainder component",
+    "factor": "T=|C|=(C* C)^(1/2), with Dom(T)=Dom(C) and ||T u||=||C u||",
+    "form": "h[u]=||C u||^2 on Dom(C), identified with -r_free only after a separate native same-form proof",
+    "graph_operator": "R=T a^-1, norm-equivalent to the bounded column C a^-1",
+    "result": "closed-column remainder compiler MAP-TYPE=operator-polar-decomposition",
+    "target": "K681/K682's complete form, bounded realization and charge/bath reduction packet"
+  },
+  "ledger_no_change_reason": "This is a conditional polar-decomposition compiler for an internal repository model and supplies no source-owned action, state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_C_a_inverse_bounded": false,
+    "actual_native_bath_reduction_proved": false,
+    "actual_native_charge_reduction_proved": false,
+    "actual_native_column_closed": false,
+    "actual_native_complete_column_serialized": false,
+    "actual_native_r_free_identified": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A densely defined but nonclosed derivative restriction has a nonclosed square form on its uncompleted domain, so density and component formulas alone do not construct h.",
+    "strongest_overclaim": "Treating a formal or finite coefficient list as a densely defined closed complete column, or identifying its square with r_free without a same-form proof.",
+    "weakest_reproducibility_seam": "The complete column domain, closedness, native same-form identity, bounded C a^-1 and exact projection intertwiners must be serialized on one carrier."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K159 owns an operator-valued gamma/Weyl interface and K456 owns an action column, but neither identifies a closed column whose square is K642's invariant remainder.",
+    "route_comparison": "K681 constructs h from monotone forms, but a native coefficient expansion may arrive more naturally as one closed column. Polar decomposition then constructs h and T without separately proving every finite partial form closed.",
+    "strongest_alternative": "K672 bypasses remainder factorization and proves the invariant total A form directly."
+  },
+  "reduction_theorem": {
+    "component_labels_without_intertwining_sufficient": false,
+    "factor_consequence": "P reduces T=|C|",
+    "form_consequence": "P reduces h and C* C",
+    "graph_consequence": "P reduces R and R*R",
+    "hypothesis": "for orthogonal P on H and Q on the column codomain, C P=Q C on Dom(C), C(I-P)=(I-Q)C, and P strongly reduces a and a^-1"
+  },
+  "result_id": "K684-K500-CLOSED-COLUMN-REMAINDER-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A coefficient-level construction that turns one explicitly supplied densely defined closed complete column operator into K679's closed remainder form and K682's bounded graph realization.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

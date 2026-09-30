@@ -1,0 +1,96 @@
+{
+  "claim_ceiling": "Exact conditional component-square result: complete operator bounds for every displayed component of C a^-1 Q plus a rigorous full square tail bound give ||R Q||^2<=sum b_j^2+v_N and directly admit K677's 1/100 complement target when that total is at most 1/100. Finite prefixes, scalar coefficients and nonorthogonal sums without Gram control do not suffice. Current native custody supplies no component column, bounds, tail or seed identities. No native complement estimate, A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "component_square_theorem": {
+    "column_identity": "||C a^-1 Q x||^2=sum_j ||C_j a^-1 Q x||^2",
+    "component_hypothesis": "||C_j a^-1 Q||<=b_j for every displayed component",
+    "conclusion": "||R Q||^2=||C a^-1 Q||^2<=sum_(j<=N)b_j^2+v_N",
+    "finite_prefix_without_tail_sufficient": false,
+    "one_over_one_hundred_admission": "sum_(j<=N)b_j^2+v_N<=1/100",
+    "same_codomain_sum_without_cross_Gram_control_sufficient": false,
+    "scalar_coefficient_bounds_without_operator_norms_sufficient": false,
+    "tail_hypothesis": "sum_(j>N) ||C_j a^-1 Q x||^2<=v_N||x||^2 for every x in QH"
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k685_k500_component_square_budget_compiler_probe.py",
+    "producer": "tests/channel-swings/k685_k500_component_square_budget_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "complete_component_budget_is_direct_K677_input": true,
+    "native_complement_budget_proved": false,
+    "next_exact_input": "After a native K684 column is owned, bound each displayed C_j a^-1 Q_seed in operator norm and prove one complete square tail for all remaining j with total at most 1/100. Separately prove the three K676 seed action identities and charge orthogonality before composing K674."
+  },
+  "dependency_reconciliation": {
+    "K674_one_over_one_hundred_target_consumed": true,
+    "K676_charge_intertwiner_requirement_retained": true,
+    "K676_seed_identity_requirement_retained": true,
+    "K677_cofinal_core_tail_shape_consumed": true,
+    "K684_closed_column_representation_consumed": true,
+    "native_component_bounds_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "accepted": true,
+    "complete_tail_square_budget": "1/400",
+    "controls_are_synthetic": true,
+    "displayed_component_norms": [
+      "1/20",
+      "1/25"
+    ],
+    "displayed_square_sum": "41/10000",
+    "hidden_tail_counterexample": "append one undisplayed complement component of arbitrary norm while preserving every finite displayed component",
+    "nonorthogonal_counterexample": {
+      "column_or_Gram_typing_required": true,
+      "squared_norm_of_component_sum": "4",
+      "sum_of_individual_squares": "2",
+      "two_same_codomain_unit_components": true
+    },
+    "slack": "17/5000",
+    "target": "1/100",
+    "total_complement_square_budget": "33/5000"
+  },
+  "gu_typed_objects": {
+    "column": "K684's complete closed column C=(C_j)_j on the invariant remainder carrier",
+    "component_bounds": "complete operator bounds b_j>=||C_j a^-1 Q_seed||",
+    "localized_map": "C a^-1 Q_seed from the full seed complement into the Hilbert direct sum of component codomains",
+    "result": "component-square complement compiler MAP-TYPE=Hilbert-column norm budget",
+    "tail": "one rigorous upper on sum_(j>N) b_j^2 covering every undisplayed component",
+    "target": "K677's sufficient ||R Q_seed||^2<=1/100 row"
+  },
+  "ledger_no_change_reason": "This is a conditional Hilbert-column norm budget inside a repository-supplied operator model and supplies no source-owned action, state, quotient or observable.",
+  "native_interface_status": {
+    "actual_native_complement_below_one_over_one_hundred": false,
+    "actual_native_complete_square_tail_proved": false,
+    "actual_native_component_column_serialized": false,
+    "actual_native_component_operator_bounds_proved": false,
+    "actual_native_seed_actions_identified": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Two unit components with the same range have individual square sum two but coherent sum squared norm four; an undisplayed hidden component can make any finite prefix arbitrarily incomplete.",
+    "strongest_overclaim": "Summing displayed scalar coefficients, omitting the complete square tail, or treating a same-codomain sum as an orthogonal column.",
+    "weakest_reproducibility_seam": "Every component must be an operator on the same localized domain, the direct-sum or Gram geometry must be explicit, and the tail must cover the entire undisplayed complement."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K176 and K574 own tails for a different exchange action column; no current result identifies those coefficients with K684's invariant remainder column or supplies the Q_seed component-square tail.",
+    "route_comparison": "K677 accepts an abstract cofinal core/tail bound. K684 exposes a native coefficient column, so the cheapest actionable successor is a square-summable component budget rather than another global norm guess.",
+    "strongest_alternative": "K672 can prove A directly by finite/complement/cross form bounds without identifying a column or seed map."
+  },
+  "result_id": "K685-K500-COMPONENT-SQUARE-BUDGET-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete coefficient-square certificate that turns operator bounds for every component of K684's closed column, including a rigorous infinite tail, into K677's localized seed-complement target.",
+  "seed_composition": {
+    "charge_orthogonality_requirement": "their complete column outputs occupy mutually orthogonal charge sectors",
+    "complement_budget_alone_proves_seed_identity": false,
+    "conclusion": "on P_seed the squared operator norm is the maximum of the three complete linewise component-square sums",
+    "line_identity_requirement": "the three K676 native seed action identities must identify C a^-1 e_q on q00, q10 and q01",
+    "three_untyped_scalar_values_sufficient": false
+  },
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
