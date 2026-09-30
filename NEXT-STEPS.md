@@ -7,6 +7,23 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K696--K698 COLUMN/REMAINDER INTEGRATION, A-MARGIN AND TARGET
+> DENOMINATOR.** K696 composes K693 with K691: two-sided graph equivalence
+> closes the complete column, equality with `h=-r_free` on one common form
+> core gives `H=C* C` and `T=|C|`, and polar decomposition gives bounded
+> `R=T a^-1` with the same norm as `C a^-1`. K697 composes K676 seed control
+> with K677/K694 complement control. The maximum rule is valid only when
+> `P_seed` reduces `R*R`; its synthetic packet gives `A>=3/4`, exceeding
+> `2/3` by `1/12`. K698 freezes the full same-coordinate chain from K695's
+> Friedrichs/trace packet through K692/K689/K686/K683 to
+> `D_W(341/170)>=3993/722500 I` in the synthetic control. Next serialize the
+> native complete column and common form identity, prove the seed/complement
+> reduction packet, and independently serialize the native minimal operator,
+> boundary maps, trace packet and nearby denominator. See
+> `lab/process/k696-k500-column-remainder-integration-compiler.json`,
+> `lab/process/k697-k500-seed-complement-a-margin-compiler.json`, and
+> `lab/process/k698-k500-boundary-denominator-end-to-end-compiler.json`.
+
 > **2026-09-30 K693--K695 GRAPH EQUIVALENCE, MONOTONE GRAM CLOSURE AND
 > FRIEDRICHS-DEFECT COFINALITY.** K693 makes the complete-column construction
 > direct: a two-sided equivalence `m||a u||<=||C u||<=M||a u||` on

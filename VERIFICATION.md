@@ -7,6 +7,37 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K696--K698 end-to-end K500 composition compilers (2026-09-30)
+
+K696 proves the exact composition from a graph-equivalent complete column to
+the native remainder operator. K693 closes `C` and bounds `C a^-1`; K691's
+additional equality of the column form and `h=-r_free` on one common form core
+for both closed forms gives `H=C* C` and `T=|C|`. Polar decomposition then gives
+`R=T a^-1` with `||R||=||C a^-1||`. Shared reductions require both `a` and
+`h`; component labels or domain equality alone do not identify the native
+form or reduce `R*R`.
+
+K697 proves the missing global seed/complement composition. If K676 controls
+`R P_seed`, K677/K694 controls `R Q_seed`, and `P_seed` reduces `R*R`, then
+`||R||^2` is the maximum of the two block bounds and
+`A=I-R*R>=1-max(s,t)`. Without reduction, a complete cross bound is required.
+The synthetic reducing packet has `s=1/4`, `t=1/100`, hence `A>=3/4`, strictly
+above `2/3` by `1/12`.
+
+K698 composes the complete boundary chain in one ordinary-triple coordinate.
+K695's self-adjoint domain inclusion authenticates the Friedrichs reference;
+its finite/tail/cross trace packet gives coercivity `5`. The Friedrichs lower
+`13/5` gives gap `1/2`, the trace inverse gives gamma anchor `1/5`, K689 gives
+target norm `101/425`, K686 gives Weyl variation `808/180625`, and K683
+transfers a nearby `1/100` denominator margin to `3993/722500` at `341/170`.
+
+K696 and K697 each pass 38 controls and reject 32/32 hostile mutations. K698
+passes 42 and rejects 36/36. These are conditional internal structural
+certificates. No native column, common-form identity, seed/complement packet,
+minimal operator, boundary triple, trace packet or denominator is supplied;
+no native `A`, `B`, floor, K473/K152 release, source, ledger, canon, paper,
+public, novelty, prediction, confirmation or physical conclusion follows.
+
 ## K693--K695 graph-equivalence, Gram-closure and boundary-cofinal compilers (2026-09-30)
 
 K693 proves a direct complete-column criterion. Let `a` be closed with bounded

@@ -1,0 +1,106 @@
+{
+  "claim_ceiling": "Exact conditional end-to-end boundary theorem: complete Friedrichs authentication, a form lower, whole-defect trace coercivity and one same-coordinate nearby denominator margin propagate through the gamma and Weyl identities to D_W(341/170)>=3993/722500 I in the synthetic control. Current custody supplies none of the native minimal-operator, boundary, trace or denominator data. No native r0, B, parity tail, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k698_k500_boundary_denominator_end_to_end_compiler_probe.py",
+    "producer": "tests/channel-swings/k698_k500_boundary_denominator_end_to_end_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "complete_boundary_chain_suffices_for_target_denominator": true,
+    "native_target_denominator_proved": false,
+    "next_exact_input": "Serialize the native minimal operator, Friedrichs form and ordinary boundary maps in one coordinate; prove K695's domain inclusion and finite/tail/cross trace packet, the complete form lower 13/5 or another adequate lower, and one same-coordinate nearby denominator margin exceeding the propagated Weyl budget. Then invoke K657/K680 and execute K665's two parity tails."
+  },
+  "dependency_reconciliation": {
+    "K657_target_denominator_input_closed_conditionally": true,
+    "K683_target_transfer_consumed": true,
+    "K686_weyl_variation_consumed": true,
+    "K689_gamma_propagation_consumed": true,
+    "K692_anchor_interface_consumed": true,
+    "K695_reference_and_trace_packet_consumed": true,
+    "native_boundary_or_denominator_data_added": false
+  },
+  "direction": "observed_to_native",
+  "end_to_end_theorem": {
+    "chain": [
+      "self-adjoint domain inclusion gives A_0=A_F",
+      "the complete Friedrichs form lower gives a spectral gap below the interval",
+      "finite/tail/cross trace bounds give whole-defect coercivity and ||gamma(mu)||",
+      "the gamma resolvent identity propagates the anchor norm to lambda=341/170",
+      "the two-point gamma identity bounds the complete Weyl variation",
+      "K683 transfers the nearby denominator lower to the target level"
+    ],
+    "complete_Friedrichs_domain_inclusion_required": true,
+    "complete_Friedrichs_form_lower_required": true,
+    "complete_anchor_defect_trace_packet_required": true,
+    "finite_sector_denominator_margin_sufficient": false,
+    "finite_trace_block_without_tail_and_cross_sufficient": false,
+    "nearby_complete_denominator_margin_required": true,
+    "nearby_margin_in_different_coordinate_substitutable": false,
+    "nearby_margin_without_W_identity_sufficient": false,
+    "ordinary_triple_validity_without_Friedrichs_authentication_sufficient": false,
+    "qualitative_resolvent_membership_without_gap_sufficient": false,
+    "same_boundary_coordinate_and_fixed_W_required": true,
+    "same_real_reference_resolvent_interval_required": true
+  },
+  "exact_controls": {
+    "accepted": true,
+    "anchor_gamma_norm_upper": "1/5",
+    "anchor_mu": "21/10",
+    "complete_weyl_variation_upper": "808/180625",
+    "controls_are_synthetic": true,
+    "cross_upper": "11",
+    "finite_trace_counterexample": "diag(6,1/n) is coercive on every fixed leading defect block but has no complete inverse-trace bound.",
+    "finite_trace_lower": "6",
+    "friedrichs_lower": "13/5",
+    "nearby_denominator_margin": "1/100",
+    "propagation_factor": "101/85",
+    "reference_gap_lower": "1/2",
+    "tail_trace_lower": "6",
+    "target_gamma_norm_upper": "101/425",
+    "target_lambda": "341/170",
+    "trace_coercivity": "5",
+    "trace_comparison_floor": "25",
+    "transferred_target_margin": "3993/722500",
+    "wrong_coordinate_counterexample": "A boundary-coordinate change transforms both M and W; transporting only the numerical lower for W-M has no invariant meaning."
+  },
+  "gu_typed_objects": {
+    "boundary_triple": "one ordinary triple (Gamma_0,Gamma_1) for S* on the complete spectator-Fock boundary space",
+    "denominator": "D_W(lambda)=W-M(lambda)",
+    "minimal_operator": "one closed semibounded symmetric S on the complete native carrier",
+    "reference": "A_0=S*|ker(Gamma_0), authenticated as the Friedrichs extension",
+    "result": "boundary-denominator end-to-end compiler MAP-TYPE=complete reference/trace/resolvent chain",
+    "target": "K657/K680's D_W(341/170)>=0 input",
+    "target_extension": "one fixed self-adjoint boundary parameter W in the same coordinate"
+  },
+  "ledger_no_change_reason": "This is a conditional complete boundary-operator composition and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_Friedrichs_domain_inclusion_proved": false,
+    "actual_native_boundary_triple_authenticated": false,
+    "actual_native_complete_form_lower_proved": false,
+    "actual_native_complete_trace_packet_proved": false,
+    "actual_native_minimal_operator_serialized": false,
+    "actual_native_nearby_denominator_margin_proved": false,
+    "actual_native_real_interval_authenticated": false,
+    "actual_native_target_denominator_nonnegative": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "A finite coercive trace block can hide vanishing tail singular values, while a coordinate change can move M and W separately if not transported jointly.",
+    "strongest_overclaim": "Combining valid-looking rows drawn from different reference extensions, boundary coordinates, intervals, defect spaces or target parameters W.",
+    "weakest_reproducibility_seam": "Every domain, norm, trace, gamma field, Weyl value, W and denominator lower must belong to one authenticated complete triple and coordinate."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K692, K689, K686 and K683 expose separate links; no prior artifact freezes the complete same-coordinate chain and its final positive rational margin in one acceptance packet.",
+    "route_comparison": "K695 makes the reference and trace inputs cofinal. K698 is the cheapest exact composition proving that those rows plus one nearby denominator margin really reach K657's target level.",
+    "strongest_alternative": "Compute D_W(341/170) directly on the complete boundary space and bypass anchor propagation and nearby-level transport."
+  },
+  "result_id": "K698-K500-BOUNDARY-DENOMINATOR-END-TO-END-COMPILER",
+  "schema_version": "1.0",
+  "scope": "An end-to-end complete ordinary-boundary-triple certificate from Friedrichs-domain authentication and cofinal trace bounds to a positive denominator at lambda=341/170.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

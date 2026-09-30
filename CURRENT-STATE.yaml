@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6da7f1c01170
+revision_basis: 6cae4c8e01a3
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K696--K698 compose the post-K695 certificates into three end-to-end
+    acceptance packets without claiming native instantiation. K696 combines
+    K693's graph-equivalent closed column with K691's common-form-core identity:
+    `H=C* C`, `T=|C|`, and polar decomposition gives bounded
+    `R=T a^-1` with `||R||=||C a^-1||`; graph equivalence alone does not
+    identify the native remainder. K697 composes K676 seed control and the
+    K677/K694 complete complement bound. Only after `P_seed` reduces `R*R`
+    does the global squared norm equal the maximum of the two blocks; its
+    synthetic `1/4,1/100` packet gives `A>=3/4`, above `2/3` by `1/12`.
+    K698 composes K695, K692, K689, K686 and K683 in one boundary coordinate.
+    Its synthetic complete chain gives trace floor `25`, coercivity `5`, gamma
+    anchor `1/5`, propagated target norm `101/425`, Weyl variation
+    `808/180625`, and target denominator margin `3993/722500`. No native
+    component family, graph equivalence, common-form identity, seed action,
+    complement tail, reduction, minimal operator, boundary map, trace block,
+    denominator, `r_free`, `T`, `R`, `A`, `B`, complete floor, K473/K152
+    release, source, ledger, canon, paper, public or physical conclusion moves.
+
     K693--K695 make the post-K692 native obligations cofinal and executable
     without claiming that the native data are present. K693 proves that a
     complete column defined on `Dom(a)` is closed, and that `C a^-1` is
@@ -12611,7 +12629,15 @@ next_condition: >-
   lies in `ker(Gamma_0)`, prove its form lower lies above `21/10`, and prove
   finite, tail and cross trace bounds on the complete defect space at that
   anchor. Add one same-coordinate nearby denominator margin and instantiate
-  K683/K680, and then every K665 finite row plus both parity tails. K634's equivalent-norm and
+  K698/K683/K680, and then every K665 finite row plus both parity tails. K696
+  is the exact column-to-`R` composition: prove the K693 graph equivalence and
+  K691 common-form-core identity in one native packet, including shared
+  charge/bath reductions. K697 is the exact `A` composition: prove K676's
+  native seed rows, the K677/K694 complete complement bound, and either that
+  `P_seed` reduces `R*R` or a complete cross bound. Only then credit
+  `A>2/3`. K698 is the exact boundary chain: keep the minimal operator,
+  Friedrichs reference, trace map, real interval, boundary coordinate, `W`
+  and nearby denominator in one complete packet. K634's equivalent-norm and
   bounded-correlation closure remains valid, K636 constructs a genuinely
   non-equivalent scalar domain and K638 lifts it to K176's sixteen labels.
   K639 quotients the actual K179 family to six algebraically independent

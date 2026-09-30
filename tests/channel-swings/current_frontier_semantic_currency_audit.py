@@ -26,6 +26,15 @@ def load_inputs() -> dict:
         "current": yaml.safe_load(CURRENT.read_text(encoding="utf-8")),
         "registry": registry,
         "agenda": json.loads((ROOT / basis["research_agenda"]["path"]).read_text()),
+        "k696": json.loads(
+            (ROOT / "lab/process/k696-k500-column-remainder-integration-compiler.json").read_text()
+        ),
+        "k697": json.loads(
+            (ROOT / "lab/process/k697-k500-seed-complement-a-margin-compiler.json").read_text()
+        ),
+        "k698": json.loads(
+            (ROOT / "lab/process/k698-k500-boundary-denominator-end-to-end-compiler.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -361,6 +370,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K694" in live and "dense-core positive partial-Gram" in live and
               "K695" in live and "complete Friedrichs domain" in live,
               "live graph-equivalence, Gram-closure or boundary-cofinal compiler missing")
+        check("K696" in live and "column-to-`R` composition" in live and
+              "K697" in live and "P_seed" in live and
+              "K698" in live and "boundary chain" in live,
+              "live K696--K698 end-to-end composition missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -370,6 +383,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K696--K698 compose the post-K695 certificates" in summary,
+          "current K696--K698 result lost")
     check("K693--K695 make the post-K692 native obligations" in summary,
           "current K693--K695 result lost")
     check("K684--K686 turn the two K681--K683 abstract routes" in summary,
@@ -448,6 +463,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "polar-decomposition norm identity" in data["agenda"].get("latest_result_2026_09_30_k696_k698", "")
+        and "A>=3/4" in data["agenda"].get("latest_result_2026_09_30_k696_k698", "")
+        and "3993/722500" in data["agenda"].get("latest_result_2026_09_30_k696_k698", ""),
+        "agenda K696--K698 result is not current",
+    )
     check(
         "uniformly equivalent to the graph weight" in data["agenda"].get("latest_result_2026_09_30_k693_k695", "")
         and "monotone complete Gram limit" in data["agenda"].get("latest_result_2026_09_30_k693_k695", "")
@@ -1094,6 +1115,39 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k692_n["actual_native_anchor_gamma_norm_proved"] and
           not k692_n["native_complete_floor_emitted"],
           "K692 Friedrichs-trace compiler or native ceiling moved")
+
+    k696 = data["k696"]
+    k696_t = k696["integration_theorem"]
+    k696_n = k696["native_interface_status"]
+    check(k696_t["complete_two_sided_graph_equivalence_required"] and
+          k696_t["common_form_core_for_column_and_native_form_required"] and
+          not k696_t["graph_equivalence_without_form_identity_sufficient"] and
+          not k696_t["reduction_of_column_labels_alone_reduces_native_R"] and
+          not k696_n["actual_native_R_constructed"] and
+          not k696_n["native_complete_floor_emitted"],
+          "K696 column/remainder integration or native ceiling moved")
+
+    k697 = data["k697"]
+    k697_t = k697["block_theorem"]
+    k697_n = k697["native_interface_status"]
+    check(k697_t["native_seed_compression_required"] and
+          k697_t["complete_complement_bound_required"] and
+          k697_t["R_star_R_reduction_required_for_maximum_rule"] and
+          not k697_t["seed_and_complement_norms_without_cross_or_reduction_sufficient"] and
+          not k697_n["native_A_above_two_thirds_proved"] and
+          not k697_n["native_complete_floor_emitted"],
+          "K697 seed/complement A margin or native ceiling moved")
+
+    k698 = data["k698"]
+    k698_t = k698["end_to_end_theorem"]
+    k698_n = k698["native_interface_status"]
+    check(k698_t["complete_Friedrichs_domain_inclusion_required"] and
+          k698_t["complete_anchor_defect_trace_packet_required"] and
+          k698_t["same_boundary_coordinate_and_fixed_W_required"] and
+          not k698_t["finite_trace_block_without_tail_and_cross_sufficient"] and
+          not k698_n["actual_native_target_denominator_nonnegative"] and
+          not k698_n["native_complete_floor_emitted"],
+          "K698 boundary denominator chain or native ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2228,6 +2282,17 @@ def selftest(base: dict) -> tuple[int, int]:
         case = copy.deepcopy(base)
         fn(case)
         mutations.append((name, case))
+
+    add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
+    add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))
+    add("k696-native", lambda d: d["k696"]["native_interface_status"].__setitem__("actual_native_R_constructed", True))
+    add("k697-cross", lambda d: d["k697"]["block_theorem"].__setitem__("seed_and_complement_norms_without_cross_or_reduction_sufficient", True))
+    add("k697-reduction", lambda d: d["k697"]["block_theorem"].__setitem__("R_star_R_reduction_required_for_maximum_rule", False))
+    add("k697-native", lambda d: d["k697"]["native_interface_status"].__setitem__("native_A_above_two_thirds_proved", True))
+    add("k698-reference", lambda d: d["k698"]["end_to_end_theorem"].__setitem__("complete_Friedrichs_domain_inclusion_required", False))
+    add("k698-trace", lambda d: d["k698"]["end_to_end_theorem"].__setitem__("finite_trace_block_without_tail_and_cross_sufficient", True))
+    add("k698-coordinate", lambda d: d["k698"]["end_to_end_theorem"].__setitem__("same_boundary_coordinate_and_fixed_W_required", False))
+    add("k698-native", lambda d: d["k698"]["native_interface_status"].__setitem__("actual_native_target_denominator_nonnegative", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

@@ -1,0 +1,84 @@
+{
+  "block_theorem": {
+    "A_consequence": "A>=1-max(s,t) under reduction",
+    "R_star_R_reduction_required_for_maximum_rule": true,
+    "bath_labels_without_R_star_R_reduction_sufficient": false,
+    "complete_complement_bound_required": true,
+    "finite_complement_prefix_without_complete_tail_sufficient": false,
+    "linewise_seed_bounds_without_charge_or_Gram_control_sufficient": false,
+    "native_seed_compression_required": true,
+    "nonreducing_repair": "if ||P R*R Q||<=k, then ||R||^2 is bounded by lambda_max([[s,k],[k,t]])",
+    "reduction_consequence": "P_seed R*R Q_seed=0 and ||R||^2=max(||R P_seed||^2,||R Q_seed||^2)",
+    "seed_and_complement_norms_without_cross_or_reduction_sufficient": false,
+    "strict_A_margin_automatic_from_seed_control_alone": false
+  },
+  "claim_ceiling": "Exact conditional two-block theorem: native seed control and a complete complement bound give ||R||^2 by a maximum only when P_seed reduces R*R; otherwise a complete cross bound is required. The synthetic reducing packet gives A>=3/4, exceeding 2/3 by 1/12. Current custody supplies no native R, seed actions, complement tail, reduction or cross row. No native A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k697_k500_seed_complement_a_margin_compiler_probe.py",
+    "producer": "tests/channel-swings/k697_k500_seed_complement_a_margin_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_A_margin_constructed": false,
+    "next_exact_input": "After K696 constructs native R, prove K676's three seed actions or Gram domination, prove K677/K694's complete complement bound, and prove that P_seed reduces R*R (or supply the complete cross norm). Then emit the native A lower for K668/K670.",
+    "reducing_seed_complement_packet_suffices_for_A_above_two_thirds": true
+  },
+  "dependency_reconciliation": {
+    "K668_K670_A_input_closed_conditionally": true,
+    "K676_native_seed_input_consumed_conditionally": true,
+    "K677_complete_complement_input_consumed_conditionally": true,
+    "K694_Q_seed_Gram_route_retained": true,
+    "native_seed_complement_or_reduction_data_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "A_lower": "3/4",
+    "accepted": true,
+    "complement_norm_square_upper": "1/100",
+    "controls_are_synthetic": true,
+    "cross_upper": "0",
+    "global_R_norm_square_upper": "1/4",
+    "nonreducing_counterexample": "R(x,y)=(x+y)/2 has both one-dimensional compression norm-squares 1/4 but complete norm-square 1/2 because the cross block is 1/4.",
+    "seed_norm_square_upper": "1/4",
+    "strict_slack": "1/12",
+    "target_A_lower": "2/3"
+  },
+  "gu_typed_objects": {
+    "complement": "Q_seed=I-P_seed",
+    "margin": "A=I-R*R",
+    "operator": "bounded native R=T a^-1 on H",
+    "result": "seed-complement A-margin compiler MAP-TYPE=complete two-block operator order",
+    "seed_projection": "orthogonal P_seed onto K675's three charge-graded graph-normalized lines",
+    "target": "K668/K670's complete A_lower input"
+  },
+  "ledger_no_change_reason": "This is a conditional complete operator block estimate and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_R_constructed": false,
+    "actual_native_R_star_R_reduction_proved": false,
+    "actual_native_charge_or_Gram_seed_control_proved": false,
+    "actual_native_complete_complement_bound_proved": false,
+    "actual_native_cross_bound_proved": false,
+    "actual_native_seed_actions_computed": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Two individually small columns with aligned output have a nonzero cross block and a complete norm larger than either compression.",
+    "strongest_overclaim": "Taking the maximum of seed and complement norms without proving that the split reduces R*R.",
+    "weakest_reproducibility_seam": "The seed and complement bounds, reduction or cross estimate, and A definition must all use the same native R and complete graph Hilbert norm."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K674 asks for seed and complement budgets but no prior packet derives a complete A lower while guarding the off-diagonal block.",
+    "route_comparison": "K676 and K677 isolate the two diagonal blocks. K697 states the missing global composition rule and makes the reduction/cross obligation explicit before A is credited.",
+    "strongest_alternative": "Prove K672's direct cofinal A certificate without factorizing through R or the seed split."
+  },
+  "result_id": "K697-K500-SEED-COMPLEMENT-A-MARGIN-COMPILER",
+  "schema_version": "1.0",
+  "scope": "A complete seed/complement block certificate turning K676 and K677 into the direct A=I-R*R lower required by K668/K670.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}

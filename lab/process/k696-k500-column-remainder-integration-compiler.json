@@ -1,0 +1,114 @@
+{
+  "claim_ceiling": "Exact conditional integration theorem: complete two-sided graph equivalence closes C; equality of q_C and h on a common form core gives H=C* C and T=|C|; polar decomposition gives bounded R=T a^-1 with ||R||=||C a^-1||. Current native custody supplies none of the component, equivalence, common-core, identity or reduction data. No native A, B, floor, K473/K152 release, source, ledger, canon, paper, public, novelty, prediction, confirmation or physical conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k696_k500_column_remainder_integration_compiler_probe.py",
+    "producer": "tests/channel-swings/k696_k500_column_remainder_integration_compiler.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "graph_equivalence_plus_common_form_core_identifies_T_and_bounded_R": true,
+    "native_column_remainder_packet_constructed": false,
+    "next_exact_input": "Serialize the native complete component column on Dom(a), prove K693's two-sided graph equivalence, and prove equality with h=-r_free on one common form core for both closed forms. Then verify the charge/bath reductions and use K697 on the resulting R."
+  },
+  "dependency_reconciliation": {
+    "K676_K677_native_R_type_now_single_packet": true,
+    "K682_bounded_R_interface_closed_conditionally": true,
+    "K691_common_form_core_identity_consumed": true,
+    "K693_column_closedness_consumed": true,
+    "native_component_or_form_data_added": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "C_a_inverse_norm": "3/4",
+    "H_matrix": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "9"
+      ]
+    ],
+    "R_matrix": [
+      [
+        "1/2",
+        "0"
+      ],
+      [
+        "0",
+        "3/4"
+      ]
+    ],
+    "T_a_inverse_norm": "3/4",
+    "T_matrix": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "3"
+      ]
+    ],
+    "controls_are_synthetic": true,
+    "lower_graph_constant": "1/2",
+    "model": "H=C^2, a=diag(2,4), C=diag(1,3), h[u]=||Cu||^2",
+    "norm_identity": true,
+    "same_closed_column_different_native_form_counterexample": "h_1=||Cu||^2 and h_2=2||Cu||^2 share Dom(C) but have different representing operators; graph equivalence alone chooses neither.",
+    "upper_graph_constant": "3/4"
+  },
+  "gu_typed_objects": {
+    "bounded_remainder": "R=T a^-1 on H",
+    "column": "C:Dom(a) subset H -> direct_sum_j K_j with the complete column norm",
+    "factor": "T=H^(1/2)=|C|",
+    "graph_weight": "one positive closed a with bounded everywhere inverse on H",
+    "native_form": "closed nonnegative h=-r_free on Dom(C), represented by H",
+    "result": "column-remainder integration compiler MAP-TYPE=closed-form representation plus polar decomposition",
+    "target": "the exact native R interface consumed by K676/K677"
+  },
+  "integration_theorem": {
+    "bounded_transform_consequence": "R=T a^-1 and B=C a^-1=U R are bounded with ||R||=||B||",
+    "closed_form_equality_consequence": "q_C=h on their complete common form domain",
+    "column_closedness_identifies_native_remainder_automatically": false,
+    "common_form_core_for_column_and_native_form_required": true,
+    "complete_two_sided_graph_equivalence_required": true,
+    "form_identity_on_algebraically_dense_tests_sufficient": false,
+    "graph_equivalence_without_form_identity_sufficient": false,
+    "polar_decomposition_consequence": "C=U T with U isometric on closure ran(T)",
+    "reduction_consequence": "a projection reducing both a and h reduces H,T,R*R and supplies the corresponding intertwiner",
+    "reduction_of_column_labels_alone_reduces_native_R": false,
+    "representation_consequence": "H=C* C and T=H^(1/2)=|C|",
+    "same_domain_without_common_form_core_sufficient": false
+  },
+  "ledger_no_change_reason": "This is a conditional closed-form and polar-decomposition theorem and supplies no source-owned action, physical quotient, state or observable.",
+  "native_interface_status": {
+    "actual_native_R_constructed": false,
+    "actual_native_common_form_core_proved": false,
+    "actual_native_component_column_serialized": false,
+    "actual_native_form_identity_proved": false,
+    "actual_native_graph_equivalence_proved": false,
+    "actual_native_reductions_proved": false,
+    "native_A_above_two_thirds_proved": false,
+    "native_complete_floor_emitted": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "Two distinct closed nonnegative forms can share the same domain and the same already-closed column carrier.",
+    "strongest_overclaim": "Treating graph equivalence, domain equality or algebraic test equality as if it identified the native closed form.",
+    "weakest_reproducibility_seam": "The equality must hold on one common form core for both closed forms, and every claimed reduction must reduce both a and h."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K684 assumes a closed native column and K682 assumes a native form-relative row; no prior packet composes K693 and K691 through polar decomposition and shared reductions.",
+    "route_comparison": "K693 closes the column and K691 identifies the form. Their composition is the cheapest route to the exact bounded R type used by the seed/complement certificates.",
+    "strongest_alternative": "Construct h directly through K681 and prove K682's relative form bound without component columns."
+  },
+  "result_id": "K696-K500-COLUMN-REMAINDER-INTEGRATION-COMPILER",
+  "schema_version": "1.0",
+  "scope": "An end-to-end complete-operator certificate combining graph-equivalent column closure with common-form-core identification, polar decomposition and shared reductions.",
+  "source_and_ledger_effect": "none",
+  "status": "working_draft_verified",
+  "target_claim": "NONE-NOT-A-KILL"
+}
