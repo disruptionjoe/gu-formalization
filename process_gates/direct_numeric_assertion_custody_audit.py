@@ -61,6 +61,45 @@ def nodes_in_scope(scope: ast.AST) -> list[ast.AST]:
     return nodes
 
 
+def child_nonlocal_writes(scope: ast.AST) -> dict[str, list[int]]:
+    """Return writes made by immediate child scopes through ``nonlocal``.
+
+    A nested function's ordinary local writes must not affect its parent, but
+    an explicit ``nonlocal`` declaration binds the write to that parent scope.
+    Ignoring that declaration makes a genuinely executed counter look like an
+    unchanged literal initializer (K251's raw-support census was the witness).
+    """
+    writes: dict[str, list[int]] = {}
+    for child in ast.iter_child_nodes(scope):
+        if not isinstance(child, (ast.FunctionDef, ast.AsyncFunctionDef, ast.Lambda)):
+            continue
+        child_nodes = nodes_in_scope(child)
+        declared = {
+            name
+            for node in child_nodes
+            if isinstance(node, ast.Nonlocal)
+            for name in node.names
+        }
+        if not declared:
+            continue
+        for node in child_nodes:
+            targets: list[ast.AST] = []
+            if isinstance(node, ast.Assign):
+                targets = list(node.targets)
+            elif isinstance(node, ast.AnnAssign):
+                targets = [node.target]
+            elif isinstance(node, ast.AugAssign):
+                targets = [node.target]
+            elif isinstance(node, (ast.For, ast.AsyncFor)):
+                targets = [node.target]
+            elif isinstance(node, ast.NamedExpr):
+                targets = [node.target]
+            for target in targets:
+                for name in target_names(target) & declared:
+                    writes.setdefault(name, []).append(node.lineno)
+    return writes
+
+
 def scope_literal_only_numeric_assertions(scope: ast.AST) -> set[tuple[str, int | float | complex]]:
     scope_nodes = nodes_in_scope(scope)
     literal_assignments: dict[str, list[tuple[int, int | float | complex]]] = {}
@@ -94,6 +133,9 @@ def scope_literal_only_numeric_assertions(scope: ast.AST) -> set[tuple[str, int 
                 writes.setdefault(name, []).append(node.lineno)
                 if literal is not None:
                     literal_assignments.setdefault(name, []).append((node.lineno, literal))
+
+    for name, lines in child_nonlocal_writes(scope).items():
+        writes.setdefault(name, []).extend(lines)
 
     hits: set[tuple[str, int | float | complex]] = set()
     for node in scope_nodes:
@@ -168,6 +210,18 @@ class DirectNumericAssertionCustody(unittest.TestCase):
             "def child():\n    value = 0\n    value += 1\n    return value\n"
         )
         self.assertEqual({("value", 3)}, literal_only_numeric_assertions(source))
+
+    def test_explicit_nonlocal_mutation_counts_as_parent_write(self) -> None:
+        source = (
+            "def outer():\n"
+            "    count = 0\n"
+            "    def child():\n"
+            "        nonlocal count\n"
+            "        count += 1\n"
+            "    child()\n"
+            "    assert count > 0\n"
+        )
+        self.assertEqual(set(), literal_only_numeric_assertions(source))
 
     def test_tracked_certificates_have_no_literal_only_numeric_assertions(self) -> None:
         defects: list[str] = []

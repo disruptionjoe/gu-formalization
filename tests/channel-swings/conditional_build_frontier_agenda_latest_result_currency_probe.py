@@ -2,6 +2,7 @@
 """Propagation probe for agenda latest-result currency reconciliation."""
 
 import json
+from datetime import date
 from pathlib import Path
 import sys
 
@@ -37,10 +38,14 @@ def validate_current(agenda, live_registry):
     items = {item["id"]: item for item in agenda["work_items"]}
     lead = items["CONDITIONAL-BUILD-REVERSE-SCAFFOLD"]
     b5 = items["B5-INDEPENDENT-RECONSTRUCTION"]
-    check("agenda has superseded historical snapshot", agenda["updated_at"] == "2026-08-25")
-    check("CBRS current root is empty", "current named root-candidate set is empty" in lead["current_authority"])
-    check("CBRS current result is W154 nonadmission", "W154/W229 is nonadmitted" in lead["latest_result"])
-    check("CBRS live route is non-B2 rebuild", "strongest disjoint non-B2 native gate" in lead["next_swing"])
+    check(
+        "agenda remains newer than historical snapshot",
+        date.fromisoformat(agenda["updated_at"]) >= date(2026, 8, 25),
+    )
+    check("CBRS reverse search remains active", "Reverse-scaffold search is active" in lead["current_authority"])
+    check("CBRS empty root limits forward certification", "empty root blocks native forward certification" in lead["current_authority"])
+    check("CBRS historical boundaries remain candidate-local", "W154/W229 remain valid candidate-local boundaries" in lead["current_authority"])
+    check("CBRS live route keeps the authorized scale", "largest honest compatible Big Wave" in lead["next_swing"])
     check("B5 completed RB6/Wave One", "RB6 recertification and the full-20 Gram-adjoint wave completed" in b5["latest_result"])
     check("B5 stale Step 0 retired", not b5["next_swing"].startswith("Step 0: recertify"))
     check("B5 exact reopener current", live_registry["b5_agenda_currency"]["live_reopener"] in b5["next_swing"])

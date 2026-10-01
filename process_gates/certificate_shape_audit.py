@@ -74,9 +74,15 @@ EXECUTABLE_CERTIFICATE_OVERRIDES = frozenset({
     "tests/channel-swings/k435_k77_full_h640_observed_map.py",
     "tests/channel-swings/k436_k77_full_action_boundary_projector.py",
     "tests/channel-swings/k437_k77_clifford_boundary_compatibility.py",
+    "tests/channel-swings/k438_k77_constraint_compressed_boundary_symbol.py",
+    "tests/channel-swings/k439_k77_compatible_corrected_boundary_split.py",
     "tests/channel-swings/k447_k152_charge_sector_galerkin_defect_census.py",
     "tests/channel-swings/k473_k152_recursive_complement_floor.py",
     "tests/channel-swings/k477_k152_multilevel_complement_tree.py",
+    "tests/channel-swings/k617_k77_moving_varpi_corrected_carrier_descent.py",
+    "tests/channel-swings/k619_k77_zero_form_moving_graph_common_action_module.py",
+    "tests/channel-swings/k621_k77_full_action_commutant_seed_adapter_obstruction.py",
+    "tests/channel-swings/k623_k77_constructed_orbit_pairing_defect.py",
 })
 
 # The explicit allowlist. Must equal NAMED_LIBRARY_SEEDS union the modules
