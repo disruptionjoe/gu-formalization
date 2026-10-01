@@ -191,6 +191,18 @@ def load_inputs() -> dict:
         "k750": json.loads(
             (ROOT / "lab/process/k750-sc-act-06-successor-input-gate.json").read_text()
         ),
+        "k751": json.loads(
+            (ROOT / "lab/process/k751-sc-act-06-supercomplex-body-reduction.json").read_text()
+        ),
+        "k752": json.loads(
+            (ROOT / "lab/process/k752-sc-act-06-nonzero-odd-saddle-body-obstruction.json").read_text()
+        ),
+        "k753": json.loads(
+            (ROOT / "lab/process/k753-sc-act-06-even-condensate-reopener-audit.json").read_text()
+        ),
+        "k754": json.loads(
+            (ROOT / "lab/process/k754-sc-act-06-nonzero-fermion-successor-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -708,6 +720,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "finite-free supercomplex" in data["agenda"].get("latest_result_2026_10_01_k751_k754", "")
+        and "98308/98311" in data["agenda"].get("latest_result_2026_10_01_k751_k754", "")
+        and "intrinsic metric equation" in data["agenda"].get("latest_result_2026_10_01_k751_k754", ""),
+        "agenda K751--K754 result is not current",
+    )
     check(
         "131074/131071" in data["agenda"].get("latest_result_2026_10_01_k747_k750", "")
         and "98308/98311" in data["agenda"].get("latest_result_2026_10_01_k747_k750", "")
@@ -2099,6 +2117,37 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k750["decision"]["do_not_retry_same_response_t0_family"],
           "K750 successor input gate moved")
 
+    k751 = data["k751"]
+    check(k751["theorem"]["exact_supercomplex_implies_exact_body_complex"] and
+          k751["theorem"]["nonexact_body_complex_obstructs_exact_supercomplex"] and
+          not k751["theorem"]["nilpotent_off_diagonal_blocks_can_change_body_exactness"] and
+          k751["exact_controls"]["obstructed_fixture_body_middle_cohomology"] == 1,
+          "K751 finite-free body-reduction theorem moved")
+
+    k752 = data["k752"]
+    check(k752["composition_theorem"]["nonzero_odd_saddles_may_exist"] and
+          k752["composition_theorem"]["mixed_boson_fermion_principal_body_zero"] and
+          not k752["composition_theorem"]["minimal_nonzero_odd_saddle_repairs_middle_exactness"] and
+          [row["body_middle_cohomology_lower_bound"] for row in k752["exact_controls"]["cases"]] == [98308, 98311],
+          "K752 nonzero odd-saddle body obstruction moved")
+
+    k753 = data["k753"]
+    check(k753["admission_audit"]["normal_j4_field_plus_condensate_saddles"] == 4 and
+          k753["admission_audit"]["full_metric_stationary_j4_bodies"] == 0 and
+          k753["admission_audit"]["derivative_free_ultralocal_action"] and
+          not k753["admission_audit"]["new_principal_derivative_image"] and
+          not k753["decision"]["minimal_even_condensate_repairs_k749"],
+          "K753 even-condensate reopener audit moved")
+
+    k754 = data["k754"]
+    check(k754["gate_theorem"]["minimal_nonzero_odd_class_closed"] and
+          k754["gate_theorem"]["minimal_even_condensate_candidate_closed"] and
+          not k754["gate_theorem"]["all_nonzero_fermion_or_condensate_actions_excluded"] and
+          not k754["gate_theorem"]["global_SC_ACT_06_refuted"] and
+          k754["decision"]["do_not_retry_minimal_grassmann_bilinear_saddle"] and
+          k754["decision"]["do_not_retry_cbrs1r_ultralocal_condensate"],
+          "K754 narrowed successor gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3360,6 +3409,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k749-cohom", lambda d: d["k749"]["exact_controls"]["cases"][1].__setitem__("full_symbol_middle_cohomology_lower_bound", 0))
     add("k750-global", lambda d: d["k750"]["gate_theorem"].__setitem__("global_SC_ACT_06_refuted", True))
     add("k750-retry", lambda d: d["k750"]["decision"].__setitem__("do_not_retry_same_response_t0_family", False))
+    add("k751-body", lambda d: d["k751"]["theorem"].__setitem__("exact_supercomplex_implies_exact_body_complex", False))
+    add("k751-nilpotent", lambda d: d["k751"]["theorem"].__setitem__("nilpotent_off_diagonal_blocks_can_change_body_exactness", True))
+    add("k752-repair", lambda d: d["k752"]["composition_theorem"].__setitem__("minimal_nonzero_odd_saddle_repairs_middle_exactness", True))
+    add("k752-cohom", lambda d: d["k752"]["exact_controls"]["cases"][0].__setitem__("body_middle_cohomology_lower_bound", 0))
+    add("k753-stationary", lambda d: d["k753"]["admission_audit"].__setitem__("full_metric_stationary_j4_bodies", 1))
+    add("k753-principal", lambda d: d["k753"]["admission_audit"].__setitem__("new_principal_derivative_image", True))
+    add("k754-global", lambda d: d["k754"]["gate_theorem"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k754-all", lambda d: d["k754"]["gate_theorem"].__setitem__("all_nonzero_fermion_or_condensate_actions_excluded", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

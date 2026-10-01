@@ -1,0 +1,93 @@
+{
+  "admission_order": [
+    "prove full Euler stationarity",
+    "freeze one coherent Euclidean real carrier and pairing",
+    "serialize complete principal response and I1B image overlap",
+    "construct actual gauge and redundancy maps",
+    "test middle exactness at every nonzero covector",
+    "only then pursue Fredholm/global-moduli consequences"
+  ],
+  "claim_ceiling": "Exact successor routing after two frozen candidate-class obstructions. No existence/nonexistence theorem for all nonzero-fermion or condensate theories, no source-status change, and no global SC-ACT-06 verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_inputs": [
+    {
+      "evidence": "K751/K752",
+      "input": "minimal nonzero Grassmann-odd saddle in S_B+psibar D(b) psi",
+      "reason": "the current and mixed blocks have zero body, so K749's 98308/98311 body cohomology obstructs finite-free supercomplex exactness"
+    },
+    {
+      "evidence": "CBRS-1Q/K752",
+      "input": "commuting c-number spinor substituted for the source fermion",
+      "reason": "changes field parity and coefficient class; it is not the same source-owned fermion reopener"
+    },
+    {
+      "evidence": "CBRS-1R/K753",
+      "input": "CBRS-1R minimal even condensate quadratic owner",
+      "reason": "repository-owned and ultralocal; normal branches fail full metric stationarity, base branches have no real saddle, and no new principal image is supplied"
+    }
+  ],
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k754_sc_act_06_nonzero_fermion_successor_gate_probe.py",
+    "producer": "tests/channel-swings/k754_sc_act_06_nonzero_fermion_successor_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "do_not_retry_cbrs1r_ultralocal_condensate": true,
+    "do_not_retry_minimal_grassmann_bilinear_saddle": true,
+    "next_route": "NONZERO_T_OR_INDEPENDENT_ACTION_PARENT_OR_NEW_BODY_VALUED_DERIVATIVE_OWNER",
+    "source_silent_classes_not_promoted_to_source_ownership": true,
+    "what_negative_changes": "failure closes only that frozen owner and returns to the remaining independent reopener",
+    "what_positive_changes": "a new owner passing stationarity and principal novelty opens a genuinely new coupled symbol for exactness testing"
+  },
+  "direction": "observed_to_native",
+  "gate_theorem": {
+    "SC_ACT_06_status": "ASSERTS",
+    "all_nonzero_fermion_or_condensate_actions_excluded": false,
+    "finite_free_body_reduction_valid": true,
+    "global_SC_ACT_06_refuted": false,
+    "minimal_even_condensate_candidate_closed": true,
+    "minimal_nonzero_odd_class_closed": true,
+    "nonzero_odd_modes_or_nilpotent_backreaction_forbidden": false
+  },
+  "ledger_no_change_reason": "This gate narrows two repository-tested successor classes without supplying the source's complete first-order Euclidean deformation complex or physical recovery.",
+  "live_reopeners": [
+    {
+      "input": "fully stationary nonhomogeneous nonzero-T or otherwise non-Levi-Civita Euclidean germ",
+      "required_new_fact": "complete metric/epsilon/distortion Euler stationarity and principal response with image outside the closed cap"
+    },
+    {
+      "input": "independently action-owned Dirac-square/path adapter or different Shiab coefficient",
+      "required_new_fact": "source/action ownership, exact path maps, target, response, pairing, and common domain"
+    },
+    {
+      "input": "genuinely new body-valued derivative or nonfactorizing even owner",
+      "required_new_fact": "action ownership before solving, full Euler and intrinsic metric stationarity, nonzero body principal contribution, and complete coupled gauge/redundancy complex"
+    }
+  ],
+  "pinned_inputs": {
+    "k750": {
+      "path": "lab/process/k750-sc-act-06-successor-input-gate.json",
+      "sha256": "abb8806880635cf862a7b8d31d07abc5e36e9665ca6f616a56c2eb4448284ec5"
+    },
+    "k751": {
+      "path": "lab/process/k751-sc-act-06-supercomplex-body-reduction.json",
+      "sha256": "7a15ad10ac25363fdc9819b5f6ce28736f1f2162cbf19930f0ea2ea6c1a748eb"
+    },
+    "k752": {
+      "path": "lab/process/k752-sc-act-06-nonzero-odd-saddle-body-obstruction.json",
+      "sha256": "26e8ecb2599898c9173faf0e1e70514c80350240a06916ef777ed25fb7b512bc"
+    },
+    "k753": {
+      "path": "lab/process/k753-sc-act-06-even-condensate-reopener-audit.json",
+      "sha256": "6999d7e238418160348896c452e4f468eb1e09e85a2bfcc7778240f106560e37"
+    }
+  },
+  "result_id": "K754-SC-ACT-06-NONZERO-FERMION-SUCCESSOR-GATE",
+  "schema_version": "1.0",
+  "scope": "Successor gate after testing the minimal Grassmann-odd bilinear saddle and the frozen CBRS-1R even-condensate candidate against K750.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

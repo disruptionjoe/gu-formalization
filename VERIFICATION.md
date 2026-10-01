@@ -7,6 +7,46 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K751--K754 nonzero-fermion body and condensate gate (2026-10-01)
+
+K751 proves an exact coefficient-algebra theorem for the principal-symbol
+setting. A bounded exact complex of finite free modules over a local
+supercommutative algebra is split exact; reducing its contracting homotopy
+through the nilpotent ideal makes the body complex exact. Consequently a
+nonexact body complex obstructs exactness of the finite-free supercomplex,
+regardless of nilpotent off-diagonal blocks. This does not cover unbounded or
+nonprojective analytic complexes.
+
+K752 composes that theorem with CBRS-1Q's minimal bilinear action class and
+K749's released `T=0` body family. Nonzero Grassmann-odd saddles can exist and
+can carry nonzero nilpotent backreaction, but the bosonic current and mixed
+principal blocks have zero body. The body symbol therefore remains K749's,
+with middle-cohomology lower bounds 98308/98311. Such a saddle cannot repair
+finite-free middle exactness. Fermion zero modes and nilpotent backreaction
+are not excluded.
+
+K753 audits the materially distinct body-valued CBRS-1R scalar owner. It is a
+repository construction, not the source fermion or a source-owned condensate.
+Its four real normal-J4 field/condensate saddles fail the intrinsic metric
+equation, its base-J4 rays have no real saddle, and its derivative-free
+ultralocal action supplies no new principal image. K754 therefore closes only
+the minimal bilinear odd class, a commuting-spinor substitution as a parity
+change, and CBRS-1R as a reopener. It does not exclude all nonzero-fermion or
+condensate theories and does not refute SC-ACT-06.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k751_sc_act_06_supercomplex_body_reduction.py
+python3 tests/channel-swings/k751_sc_act_06_supercomplex_body_reduction_probe.py
+python3 tests/channel-swings/k752_sc_act_06_nonzero_odd_saddle_body_obstruction.py
+python3 tests/channel-swings/k752_sc_act_06_nonzero_odd_saddle_body_obstruction_probe.py
+python3 tests/channel-swings/k753_sc_act_06_even_condensate_reopener_audit.py
+python3 tests/channel-swings/k753_sc_act_06_even_condensate_reopener_audit_probe.py
+python3 tests/channel-swings/k754_sc_act_06_nonzero_fermion_successor_gate.py
+python3 tests/channel-swings/k754_sc_act_06_nonzero_fermion_successor_gate_probe.py
+```
+
 ## K747--K750 released T=0 action-family closure (2026-10-01)
 
 K747 extends the K743 image obstruction from K720's flat germ across K127's

@@ -1,0 +1,51 @@
+{
+  "claim_ceiling": "Exact finite-free body-reduction obstruction only. No claim about unbounded/nonprojective complexes, global domains, BV cohomology, source ownership, or SC-ACT-06 globally.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k751_sc_act_06_supercomplex_body_reduction_probe.py",
+    "producer": "tests/channel-swings/k751_sc_act_06_supercomplex_body_reduction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "applicable_to_finite_dimensional_principal_symbol_complexes": true,
+    "does_not_decide_global_domain_or_fredholm_theory": true,
+    "requires_body_complex_typing_before_nonzero_odd_repair_claim": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "dual_number_nilpotent_perturbation_body_unchanged": true,
+    "obstructed_fixture_body_middle_cohomology": 1,
+    "split_exact_fixture_body_middle_cohomology": 0
+  },
+  "ledger_no_change_reason": "This is a coefficient-algebra transfer theorem; it does not construct a GU stationary saddle or physical recovery.",
+  "proof": [
+    "Start at one end of the bounded exact complex. The terminal surjection onto a finite free module splits because that module is projective.",
+    "Its kernel is therefore a direct summand and projective; induct backward to split every short exact cycle sequence.",
+    "The splittings assemble a contracting homotopy. Reducing all maps and the homotopy through the body quotient preserves dh+hd=1.",
+    "Contraposition: positive body cohomology forbids exactness of the finite-free supercomplex, regardless of nilpotent mixed blocks."
+  ],
+  "result_id": "K751-SC-ACT-06-SUPERCOMPLEX-BODY-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "Bounded complexes of finite free modules over a local supercommutative coefficient algebra with nilpotent ideal and field-valued body.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "bounded_exact_finite_free_complex_is_split_exact": true,
+    "exact_supercomplex_implies_exact_body_complex": true,
+    "nilpotent_off_diagonal_blocks_can_change_body_exactness": false,
+    "nonexact_body_complex_obstructs_exact_supercomplex": true,
+    "split_contracting_homotopy_reduces_mod_nilpotents": true,
+    "unbounded_or_nonprojective_complex_covered": false
+  },
+  "typed_objects": {
+    "action_owner": "theorem only; no action selected",
+    "carrier": "bounded finite free supermodules",
+    "grading": "chain degree and super parity kept distinct",
+    "pairing_or_form": "none required",
+    "real_structure": "body field plus nilpotent ideal",
+    "target": "body reduction of symbol-complex exactness"
+  }
+}

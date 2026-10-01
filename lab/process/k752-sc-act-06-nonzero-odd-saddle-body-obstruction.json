@@ -1,0 +1,76 @@
+{
+  "claim_ceiling": "Exact body obstruction for the minimal bilinear Grassmann-odd action class on the K749 released T=0 body family. Nonzero odd modes and nilpotent backreaction remain possible; no global SC-ACT-06, source, physical-vacuum, BV, domain, spectrum, or condensate conclusion follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "body_symbol_remains_k749": true,
+    "even_even_body_hessian_unchanged": true,
+    "global_SC_ACT_06_refuted": false,
+    "k751_body_obstruction_applies": true,
+    "minimal_nonzero_odd_saddle_repairs_middle_exactness": false,
+    "mixed_boson_fermion_principal_body_zero": true,
+    "nonzero_odd_saddles_may_exist": true,
+    "odd_bilinear_bosonic_backreaction_body_zero": true
+  },
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k752_sc_act_06_nonzero_odd_saddle_body_obstruction_probe.py",
+    "producer": "tests/channel-swings/k752_sc_act_06_nonzero_odd_saddle_body_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "body_valued_even_condensate_is_same_class": false,
+    "commuting_c_number_spinor_is_same_class": false,
+    "fermion_zero_modes_or_nilpotent_backreaction_excluded": false,
+    "k750_nonzero_fermion_reopener_closed_for_minimal_grassmann_bilinear_class": true,
+    "next_exact_input": "A body-valued even composite or altered-parity field needs a separately owned action, stationarity equation, and principal map; otherwise use the nonzero-T/non-Levi-Civita or independent-action-parent reopener."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "body_middle_cohomology_lower_bound": 98308,
+        "case": "native_nonnull",
+        "finite_free_supercomplex_exact": false,
+        "mixed_principal_body_rank": 0,
+        "odd_current_body_rank": 0
+      },
+      {
+        "body_middle_cohomology_lower_bound": 98311,
+        "case": "native_null_auxiliary_nonzero",
+        "finite_free_supercomplex_exact": false,
+        "mixed_principal_body_rank": 0,
+        "odd_current_body_rank": 0
+      }
+    ]
+  },
+  "ledger_no_change_reason": "The result closes one minimal coefficient/parity class on an already rejected body realization; it does not construct or refute the complete first-order theory.",
+  "pinned_inputs": {
+    "cbrs1q": {
+      "path": "lab/process/selected-k77-cbrs1q-grassmann-body-obstruction.json",
+      "sha256": "258a190af43bff1caa4e11617f1e4884dfe6fe6f965a330b3e5d2e6d15506d2f"
+    },
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    },
+    "k751": {
+      "path": "lab/process/k751-sc-act-06-supercomplex-body-reduction.json",
+      "sha256": "7a15ad10ac25363fdc9819b5f6ce28736f1f2162cbf19930f0ea2ea6c1a748eb"
+    }
+  },
+  "result_id": "K752-SC-ACT-06-NONZERO-ODD-SADDLE-BODY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Minimal even bilinear action S_B(b)+psibar D(b) psi on K749's released T=0 body family, with independent barred/unbarred Grassmann-odd fields and any nonzero odd saddle over a local nilpotent coefficient algebra.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "typed_objects": {
+    "action_owner": "released bosonic grammar plus minimal source-adjacent bilinear fermion class",
+    "carrier": "K749 finite body symbol carrier extended by finite free Grassmann coefficients",
+    "grading": "symbol-chain degree, Clifford grade, and super parity kept distinct",
+    "pairing_or_form": "released bosonic action plus even bilinear psibar D(b) psi",
+    "real_structure": "K749 Euclidean body carrier; odd nilpotent extension",
+    "target": "middle exactness of the coupled principal supercomplex"
+  }
+}

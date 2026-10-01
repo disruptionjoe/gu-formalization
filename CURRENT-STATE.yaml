@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: d76861f88ff7
+revision_basis: 1697ca830769
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K751--K754 test the nonzero-fermion successor left by K750. K751 proves
+    that a bounded exact complex of finite free modules over a local
+    supercommutative coefficient algebra is split exact, so its contracting
+    homotopy descends through the body quotient; positive body cohomology
+    therefore obstructs exactness of the full supercomplex. K752 composes
+    that theorem with CBRS-1Q and K749. In the minimal bilinear action
+    `S_B+psibar D(b) psi`, any nonzero Grassmann-odd saddle has body-zero
+    bosonic current and mixed principal blocks, so the body symbol still has
+    middle cohomology at least 98308/98311. Odd modes and nilpotent
+    backreaction may exist, but cannot repair finite-free middle exactness.
+    K753 audits the distinct CBRS-1R body-valued even condensate: its four
+    real normal-J4 field/condensate saddles fail the intrinsic metric equation,
+    its base-J4 rays have no real saddle, and its ultralocal derivative-free
+    owner supplies no new principal image. K754 closes only those two frozen
+    classes. The live inputs are a fully stationary nonzero-`T` or otherwise
+    non-Levi-Civita Euclidean germ with new principal image, an independently
+    action-owned path adapter/different Shiab coefficient, or a genuinely new
+    body-valued derivative/nonfactorizing even owner passing full stationarity
+    and principal novelty. SC-ACT-06 remains `ASSERTS`; no source, ledger,
+    canon, paper, public, prediction, confirmation or physical verdict moves.
+
     K747--K750 close the released-source zero-fermion `T=0` repair family on
     K127's certified local Ricci-flat arbitrary-Weyl stationary germs. K747
     composes K723's normal-frame principal invariance with K740's
@@ -12222,6 +12243,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K751--K754 close the minimal nonzero Grassmann-odd
+  bilinear saddle as a repair of K749. Finite-free supercomplex exactness
+  would descend to the body complex, but the body retains middle cohomology at
+  least 98308/98311 because bilinear odd currents and mixed blocks have zero
+  body. A commuting c-number spinor changes the field-parity class. The
+  distinct CBRS-1R even condensate also fails: its real saddles are not fully
+  metric stationary and its ultralocal owner adds no principal derivative
+  image. Construct a fully stationary nonzero-`T`/non-Levi-Civita Euclidean
+  germ with genuinely new principal image, authenticate an independently
+  action-owned path adapter/different Shiab coefficient, or freeze a genuinely
+  new body-valued derivative/nonfactorizing even owner and pass full
+  stationarity, principal response, gauge/redundancy and all-covector
+  exactness. Do not retry the minimal bilinear odd saddle, a commuting-spinor
+  substitution, or CBRS-1R. SC-ACT-06 remains `ASSERTS`.
+
   On the SC-ACT-06 route, K747--K750 close the released-source zero-fermion
   `T=0` action grammar across K127's certified Ricci-flat arbitrary-Weyl
   stationary germ family. Normal-frame and coherent-frame transport preserve
@@ -13071,6 +13107,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K751--K754 remove the minimal nonzero Grassmann-odd bilinear saddle and the
+  frozen CBRS-1R ultralocal even condensate from K750's live inputs. A future
+  packet must now provide either (1) a source-typed nonhomogeneous nonzero-`T`
+  or otherwise non-Levi-Civita fully stationary Euclidean germ with new
+  principal image, (2) an independently action-owned Dirac-square/path
+  adapter or different Shiab coefficient with exact maps and target, or (3) a
+  genuinely new body-valued derivative/nonfactorizing even owner, frozen
+  before solving, with full Euler and intrinsic metric stationarity plus a
+  nonzero body principal contribution. Then freeze one coherent carrier and
+  pairing, serialize the complete response and I1B overlap, construct actual
+  gauge/redundancy maps, and test middle exactness at every nonzero covector.
+  Nonzero odd modes or nilpotent backreaction are not forbidden, but in the
+  minimal bilinear class they cannot erase the 98308/98311 body classes.
+  SC-ACT-06 remains `ASSERTS`.
+
   K747--K750 force the next SC-ACT-06 input off the released zero-fermion
   `T=0` same-response family. The next admissible packet must be either (1) a
   source-typed nonhomogeneous nonzero-`T` or otherwise non-Levi-Civita

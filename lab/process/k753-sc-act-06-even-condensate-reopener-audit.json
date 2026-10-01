@@ -1,0 +1,66 @@
+{
+  "admission_audit": {
+    "base_j4_real_saddles": 0,
+    "body_valued_even_owner": true,
+    "derivative_free_ultralocal_action": true,
+    "full_metric_stationary_j4_bodies": 0,
+    "new_principal_derivative_image": false,
+    "normal_j4_field_plus_condensate_saddles": 4,
+    "passes_k750_principal_novelty_gate": false,
+    "passes_k750_stationarity_gate": false,
+    "same_class_as_source_fermion": false,
+    "source_owned": false
+  },
+  "claim_ceiling": "Exact reuse audit of CBRS-1R against K750. No theorem against all condensates, body-valued composites, derivative couplings, nonzero-T germs, or the global SC-ACT-06 claim.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k753_sc_act_06_even_condensate_reopener_audit_probe.py",
+    "producer": "tests/channel-swings/k753_sc_act_06_even_condensate_reopener_audit.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "minimal_even_condensate_repairs_k749": false,
+    "next_even_owner_requirement": "Freeze a genuinely new action-owned derivative or nonfactorizing body-valued field before solving; require full Euler/MET(X) stationarity and a complete new principal map without fitted counterterms.",
+    "nonzero_t_or_independent_action_parent_routes_remain_open": true,
+    "reason": "Its real normal-J4 saddles fail the intrinsic metric equation, its base-J4 rays have no real saddle, and its derivative-free ultralocal scalar owner supplies no new principal image."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "complete_tangent_dimension": 230651,
+    "complete_tangent_nullities": [
+      40
+    ],
+    "complete_tangent_ranks": [
+      230611
+    ],
+    "intrinsic_metric_row": "NONZERO",
+    "kernel": "EXACTLY_THE_40_DIMENSIONAL_BROKEN_DIAGONAL_SPIN_ORBIT"
+  },
+  "ledger_no_change_reason": "The audit rejects one repository-owned ultralocal candidate as a reopener; it supplies no source-owned condensate or physical recovery.",
+  "pinned_inputs": {
+    "cbrs1r": {
+      "path": "lab/process/selected-k77-cbrs1r-condensate-mass-owner.json",
+      "sha256": "c49bf31ce9241e2a74d4e4a96c3b13ce2cfc4739ac36709759d4ca217df096a1"
+    },
+    "k750": {
+      "path": "lab/process/k750-sc-act-06-successor-input-gate.json",
+      "sha256": "abb8806880635cf862a7b8d31d07abc5e36e9665ca6f616a56c2eb4448284ec5"
+    }
+  },
+  "result_id": "K753-SC-ACT-06-EVEN-CONDENSATE-REOPENER-AUDIT",
+  "schema_version": "1.0",
+  "scope": "The frozen repository-owned CBRS-1R action C3(T)+phi^2 Q2(T)+(phi^2-1)^2/4, audited only as a candidate body-valued escape from K752.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "typed_objects": {
+    "action_owner": "repository construction, not source ownership",
+    "carrier": "CBRS-1R real J4 point carrier plus one body-valued even scalar",
+    "grading": "scalar is even and is not a Grassmann-odd fermion",
+    "pairing_or_form": "C3(T)+phi^2*Q2(T)+(phi^2-1)^2/4",
+    "real_structure": "real algebraic scalar and normalized real J4 branches",
+    "target": "K750 full-stationarity and new-principal-image admission conditions"
+  }
+}

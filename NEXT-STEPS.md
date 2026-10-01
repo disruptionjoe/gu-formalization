@@ -7,6 +7,24 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K751--K754 NONZERO-FERMION BODY AND CONDENSATE GATE.** K751
+> proves the finite-free body-reduction theorem: exactness of a bounded
+> supercomplex would descend through the nilpotent quotient, so a nonexact
+> body complex cannot be repaired by nilpotent mixed blocks. K752 composes the
+> theorem with CBRS-1Q and K749. In the minimal bilinear action
+> `S_B+psibar D(b) psi`, a genuinely nonzero Grassmann-odd saddle may carry
+> nilpotent backreaction, but its bosonic current and mixed blocks have zero
+> body; the 98308/98311 body middle classes survive. K753 tests the distinct
+> CBRS-1R even condensate: four normal-J4 saddles fail the intrinsic metric
+> row, the base-J4 rays have no real saddle, and the ultralocal scalar owner
+> supplies no new principal image. K754 leaves three honest reopeners: a fully
+> stationary nonzero-`T`/non-Levi-Civita Euclidean germ with new principal
+> image; an independently action-owned path adapter/different Shiab
+> coefficient; or a genuinely new body-valued derivative/nonfactorizing even
+> owner passing full stationarity and principal novelty. Do not substitute a
+> commuting spinor, retry the minimal bilinear odd class, or retry CBRS-1R.
+> SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-01 K747--K750 RELEASED T=0 ACTION-FAMILY CLOSURE.** K747
 > transports K743's exact same-response obstruction across K127's certified
 > Ricci-flat arbitrary-Weyl `T=0` stationary germ family: the coupled image
