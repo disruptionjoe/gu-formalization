@@ -1,0 +1,133 @@
+{
+  "claim_ceiling": "Exact diagonal-background linearization and finite exterior-symbol ranks. No source formula, action ownership, current-carrier repair, ellipticity, physical quotient, prediction, confirmation or SC-ACT-06 verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 33,
+    "probe": "tests/channel-swings/k756_sc_act_06_cyclic_adapter_linearization_probe.py",
+    "producer": "tests/channel-swings/k756_sc_act_06_cyclic_adapter_linearization.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "current_one_connection_complex_reopened": false,
+    "doubled_relative_connection_candidate_constructed": true,
+    "next_exact_input": "Compose all three specializations with K748/K749. Credit only an independently action-owned doubled carrier; do not count diagonal zero or a frozen-background substitution as a new GU parent."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "common_direction_combined_rank": 0,
+        "covector": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "curvature_difference_principal_rank": 13,
+        "one_form_dimension": 14,
+        "relative_direction_combined_rank": 14
+      },
+      {
+        "common_direction_combined_rank": 0,
+        "covector": [
+          1,
+          -2,
+          3,
+          0,
+          5,
+          0,
+          0,
+          7,
+          0,
+          0,
+          0,
+          0,
+          0,
+          11
+        ],
+        "curvature_difference_principal_rank": 13,
+        "one_form_dimension": 14,
+        "relative_direction_combined_rank": 14
+      }
+    ],
+    "dimension": 14,
+    "expected_wedge_rank": 13
+  },
+  "gu_typed_objects": {
+    "action_owner": "unowned doubled-connection reconstruction",
+    "carrier": "two independent fourteen-dimensional connection one-form directions (a,b)",
+    "grading": "common direction c=(a+b)/2 and relative direction r=a-b",
+    "pairing": "none; exact rational symbol ranks",
+    "real_structure": "real fourteen-dimensional exterior algebra",
+    "target": "linearized outputs delta(F_A-F_B)=d_C r and delta(A-B)=r"
+  },
+  "ledger_no_change_reason": "The rank theorem types a reconstruction's carrier enlargement and supplies no source-owned field or physical realization.",
+  "linearization": {
+    "background": "A=B=C",
+    "common_direction": "a=b",
+    "common_direction_killed": true,
+    "connection_difference": "delta(d_A-d_B)=a-b as a zero-order operator",
+    "curvature_difference": "delta(F_A-F_B)=d_C(a-b)",
+    "principal_derivative_part": "xi wedge r",
+    "relative_direction": "r=a-b",
+    "relative_direction_controls_all_outputs": true,
+    "zero_order_part": "r"
+  },
+  "pinned_inputs": {
+    "k748": {
+      "path": "lab/process/k748-sc-act-06-released-action-parent-inventory.json",
+      "sha256": "b061c033f177708969d71aee693c6f741d04f4b0fb0e78abd7598a380362d833"
+    },
+    "k755": {
+      "path": "lab/process/k755-sc-act-06-cyclic-two-connection-square.json",
+      "sha256": "6e35a43ea5e2dd27b59bdaba141619e646ce95fe68fcf5404e8d17f147c9e747"
+    }
+  },
+  "result_id": "K756-SC-ACT-06-CYCLIC-ADAPTER-LINEARIZATION",
+  "schema_version": "1.0",
+  "scope": "Linearization of K755's reconstructed cyclic-square outputs at the diagonal A=B on a fourteen-dimensional form carrier; no action, stationary background or GU carrier identification.",
+  "source_and_ledger_effect": "SC_ACT_03_AND_SC_ACT_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "specializations": [
+    {
+      "name": "DIAGONAL_IDENTIFICATION",
+      "new_current_carrier_response": false,
+      "response": "zero",
+      "rule": "A=B=omega"
+    },
+    {
+      "name": "FREEZE_B_BACKGROUND",
+      "new_current_carrier_response": false,
+      "reason": "ordinary curvature differential plus zero-order identity; the source does not own this freeze as the cyclic action",
+      "response": "(d_C a,a)",
+      "rule": "delta B=0"
+    },
+    {
+      "name": "INDEPENDENT_A_B",
+      "new_current_carrier_response": true,
+      "reason": "requires a doubled field carrier and its own action, gauge, pairing, stationary background and domain",
+      "response": "relative connection derivative plus identity",
+      "rule": "delta A and delta B independent"
+    }
+  ],
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "combined_relative_rank_per_internal_coefficient": 14,
+    "common_kernel_dimension_per_internal_coefficient": 14,
+    "diagonal_specialization_zero": true,
+    "frozen_background_specialization_is_action_owned": false,
+    "independent_specialization_preserves_current_field_dimension": false,
+    "principal_rank_per_internal_coefficient": 13
+  }
+}

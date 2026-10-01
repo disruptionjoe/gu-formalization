@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 1697ca830769
+revision_basis: 5a090c2e6208
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K755--K758 construct and classify the source-bounded cyclic
+    two-connection adapter without promoting it to a released GU formula.
+    Under `d_A^2=F_A`, `d_B^2=F_B`, and `d_A F_B=F_B d_B`, K755 proves
+    `[[d_A,-F_B],[1,-d_B]]^2=[[F_A-F_B,0],[d_A-d_B,0]]`. K756 linearizes at
+    `A=B`: the common direction vanishes, while the relative connection has
+    curvature principal rank 13 and combined derivative-plus-identity rank 14
+    per internal coefficient. K757 shows that identifying the two connections
+    gives zero and freezing one gives no independently action-owned response;
+    the genuinely nonzero relative response instead requires a new doubled
+    carrier, action, stationary background, pairing, gauge/redundancy complex,
+    target, and common domain. It therefore cannot be inserted into K749's
+    current one-connection complex, whose 98308/98311 lower bounds remain.
+    K758 closes only current-carrier cyclic specializations and reranks toward
+    actual native input construction unless an owned doubled/nonzero-`T` or
+    different-Shiab packet appears. SC-ACT-06 remains `ASSERTS`; no source,
+    ledger, canon, paper, public, prediction, confirmation or physical verdict
+    moves.
+
     K751--K754 test the nonzero-fermion successor left by K750. K751 proves
     that a bounded exact complex of finite free modules over a local
     supercommutative coefficient algebra is split exact, so its contracting
@@ -12243,6 +12261,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K755--K758 construct the exact cyclic
+  two-connection square and close its current-carrier reuse. At `A=B`, only
+  the relative direction responds: its curvature symbol has rank 13 and its
+  derivative-plus-identity map rank 14 per internal coefficient. Identifying
+  the connections gives zero; freezing one supplies no independently
+  action-owned parent. The live doubled response changes the field carrier and
+  cannot repair K749 without a new action, stationary background, target,
+  pairing, gauge/redundancy maps, and common domain. Switch to actual native
+  input construction unless that complete doubled packet, a fully stationary
+  nonzero-`T` packet, or a different action-owned Shiab response appears. Do
+  not retry current-carrier cyclic specializations. SC-ACT-06 remains
+  `ASSERTS` and the 98308/98311 current-carrier bounds remain.
+
   On the SC-ACT-06 route, K751--K754 close the minimal nonzero Grassmann-odd
   bilinear saddle as a repair of K749. Finite-free supercomplex exactness
   would descend to the body complex, but the body retains middle cohomology at
@@ -13107,6 +13138,18 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K755--K758 remove current-carrier cyclic path-adapter variations from the
+  live SC-ACT-06 inputs. A successor may credit the relative response only
+  after an independently action-owned doubled-connection packet supplies the
+  second field, typed path target, full stationarity, pairing, gauge and
+  redundancy maps, complete principal response and I1B overlap, and a common
+  analytic domain. Otherwise switch to actual native input construction, such
+  as a complete native K500 A/B packet, unless a fully stationary nonzero-`T`
+  germ or different action-owned Shiab coefficient becomes available. Do not
+  identify both connections, freeze one as an unowned background, or insert
+  the doubled response into the current complex unchanged. SC-ACT-06 remains
+  `ASSERTS`; the current 98308/98311 lower bounds remain.
+
   K751--K754 remove the minimal nonzero Grassmann-odd bilinear saddle and the
   frozen CBRS-1R ultralocal even condensate from K750's live inputs. A future
   packet must now provide either (1) a source-typed nonhomogeneous nonzero-`T`

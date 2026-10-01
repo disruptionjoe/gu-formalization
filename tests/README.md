@@ -4,6 +4,28 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K755--K758 cyclic two-connection adapter boundary
+
+- `channel-swings/k755_sc_act_06_cyclic_two_connection_square.py` proves the
+  exact square of the source-bounded two-connection reconstruction.
+- `channel-swings/k756_sc_act_06_cyclic_adapter_linearization.py` separates
+  common and relative connection directions and computes exact ranks 13/14.
+- `channel-swings/k757_sc_act_06_cyclic_adapter_current_carrier_composition.py`
+  classifies which specializations compose with the current K749 carrier.
+- `channel-swings/k758_sc_act_06_cyclic_adapter_successor_gate.py` freezes the
+  doubled-carrier owner debt and successor routing without moving SC-ACT-06.
+
+```bash
+python3 tests/channel-swings/k755_sc_act_06_cyclic_two_connection_square.py
+python3 tests/channel-swings/k755_sc_act_06_cyclic_two_connection_square_probe.py
+python3 tests/channel-swings/k756_sc_act_06_cyclic_adapter_linearization.py
+python3 tests/channel-swings/k756_sc_act_06_cyclic_adapter_linearization_probe.py
+python3 tests/channel-swings/k757_sc_act_06_cyclic_adapter_current_carrier_composition.py
+python3 tests/channel-swings/k757_sc_act_06_cyclic_adapter_current_carrier_composition_probe.py
+python3 tests/channel-swings/k758_sc_act_06_cyclic_adapter_successor_gate.py
+python3 tests/channel-swings/k758_sc_act_06_cyclic_adapter_successor_gate_probe.py
+```
+
 ## K751--K754 nonzero-fermion body and condensate gate
 
 - `channel-swings/k751_sc_act_06_supercomplex_body_reduction.py` proves that

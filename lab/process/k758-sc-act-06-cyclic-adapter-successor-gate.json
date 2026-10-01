@@ -1,0 +1,109 @@
+{
+  "admission_order": [
+    "prove full Euler stationarity",
+    "freeze one coherent Euclidean real carrier and pairing",
+    "serialize complete principal response and I1B image overlap",
+    "construct actual gauge and redundancy maps",
+    "test middle exactness at every nonzero covector",
+    "only then pursue Fredholm/global-moduli consequences"
+  ],
+  "claim_ceiling": "Exact successor routing after a source-bounded cyclic reconstruction. No nonexistence theorem for two-connection actions, no source-status, ledger, canon, paper, public-posture, prediction, confirmation or physical-verdict effect.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_or_inadmissible_specializations": [
+    {
+      "input": "identify both cyclic connections with the current GU connection",
+      "reason": "relative response is identically zero"
+    },
+    {
+      "input": "freeze the second connection as background on the current carrier",
+      "reason": "ordinary curvature differential plus identity is not a separately action-owned parent and supplies no proved image escape"
+    },
+    {
+      "input": "insert the independent relative connection response into K749 without changing the complex",
+      "reason": "the doubled carrier changes fields, gauge, redundancy, stationarity, pairing and domain"
+    }
+  ],
+  "constructed_but_unowned": {
+    "candidate": "D_AB=[[d_A,-F_B],[1,-d_B]] on a doubled connection carrier",
+    "combined_relative_rank_per_internal_coefficient": 14,
+    "current_carrier_composable": false,
+    "exact_square": "[[F_A-F_B,0],[d_A-d_B,0]]",
+    "formula_grade": "SOURCE_BOUND_RECONSTRUCTION_WITH_EXACT_ALGEBRA",
+    "principal_relative_rank_per_internal_coefficient": 13,
+    "source_action_owner": false,
+    "stationary_background": false
+  },
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k758_sc_act_06_cyclic_adapter_successor_gate_probe.py",
+    "producer": "tests/channel-swings/k758_sc_act_06_cyclic_adapter_successor_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "do_not_retry_current_carrier_cyclic_specializations": true,
+    "next_route": "SWITCH_TO_ACTUAL_NATIVE_INPUT_CONSTRUCTION_UNLESS_A_DOUBLED_ACTION_OWNER_OR_NONZERO_T_PACKET_APPEARS",
+    "what_negative_changes": "failure closes only that frozen owner and preserves the other independent reopeners",
+    "what_positive_changes": "an owned doubled/nonzero-T/different-Shiab packet opens a genuinely new principal complex"
+  },
+  "direction": "observed_to_native",
+  "gate_theorem": {
+    "SC_ACT_06_status": "ASSERTS",
+    "current_98308_98311_bounds_moved": false,
+    "current_one_connection_cyclic_repair_closed": true,
+    "cyclic_formula_globally_refuted": false,
+    "global_SC_ACT_06_refuted": false,
+    "independent_doubled_candidate_exists_as_exact_algebra": true,
+    "independent_doubled_candidate_is_action_owned": false
+  },
+  "ledger_no_change_reason": "The gate narrows current-carrier reuse and records the exact owner debt of a new doubled candidate without moving any source or physics row.",
+  "live_reopeners": [
+    {
+      "input": "independently action-owned doubled cyclic adapter",
+      "required_new_fact": "second connection field/action, typed path target, full stationarity, pairing, gauge/redundancy and common domain"
+    },
+    {
+      "input": "fully stationary nonhomogeneous nonzero-T or otherwise non-Levi-Civita Euclidean germ",
+      "required_new_fact": "compatible field two-jet/moving graph bank, all Euler rows and new principal image"
+    },
+    {
+      "input": "genuinely different action-owned Shiab coefficient",
+      "required_new_fact": "source/action ownership and exact response outside the closed image cap"
+    },
+    {
+      "input": "genuinely new body-valued derivative/nonfactorizing even owner",
+      "required_new_fact": "owner frozen before solving, full stationarity and nonzero body principal contribution"
+    }
+  ],
+  "pinned_inputs": {
+    "k754": {
+      "path": "lab/process/k754-sc-act-06-nonzero-fermion-successor-gate.json",
+      "sha256": "2ec64a9f4baad36aa501f4ada1e6233d6de69b403b68d8bed7628e9a309656cf"
+    },
+    "k755": {
+      "path": "lab/process/k755-sc-act-06-cyclic-two-connection-square.json",
+      "sha256": "6e35a43ea5e2dd27b59bdaba141619e646ce95fe68fcf5404e8d17f147c9e747"
+    },
+    "k756": {
+      "path": "lab/process/k756-sc-act-06-cyclic-adapter-linearization.json",
+      "sha256": "e794b3a1628c6b862d338ba5ae70e7c4d3f1f34871a38854e1005586c3298747"
+    },
+    "k757": {
+      "path": "lab/process/k757-sc-act-06-cyclic-adapter-current-carrier-composition.json",
+      "sha256": "e1c9b6e53eaeb68c6917840f37dd68b2e9ad3d5ce3490b2d2b009f73e2ab840a"
+    }
+  },
+  "reranked_frontier": {
+    "high_confidence_outlier": "a source-typed nonzero-T field two-jet could still outrank K500 if its complete stationarity data become constructible",
+    "incumbent": "native complete K500 A/B packet or another current-ledger route with actual native input",
+    "k218_alternative": "retain only with a consuming cancellation-aware estimate rather than another generic enclosure",
+    "reason": "the cyclic adapter now reaches a precise ownership/carrier dependency and another current-carrier variation would be distance-only repetition",
+    "sc_act_06_revival": "resume only when one live reopener supplies its named new owner/input"
+  },
+  "result_id": "K758-SC-ACT-06-CYCLIC-ADAPTER-SUCCESSOR-GATE",
+  "schema_version": "1.0",
+  "scope": "Successor gate after exact construction and current-carrier composition of the source-bounded cyclic two-connection path adapter.",
+  "source_and_ledger_effect": "SC_ACT_03_AND_SC_ACT_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,109 @@
+{
+  "claim_ceiling": "Exact noncommutative block multiplication under three declared relations. No source-formula attribution, action ownership, stationary background, ellipticity, physical mode, prediction, confirmation or SC-ACT-06 verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 31,
+    "probe": "tests/channel-swings/k755_sc_act_06_cyclic_two_connection_square_probe.py",
+    "producer": "tests/channel-swings/k755_sc_act_06_cyclic_two_connection_square.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "exact_cyclic_square_constructed": true,
+    "new_current_carrier_principal_response_proved": false,
+    "next_exact_input": "Linearize the two surviving difference outputs at A=B, separate common and relative connection directions, and test every one-connection specialization before composing with K748/K749."
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "unowned reconstruction candidate; released sources supply only the two-connection/cancellation motif",
+    "carrier": "a doubled graded form module carrying two connection differentials d_A and d_B",
+    "grading": "two cyclic summands with diagonal differentials and zero-order off-diagonal identity/curvature cells",
+    "pairing": "none selected; operator composition only",
+    "real_structure": "unspecified source-bounded algebraic reconstruction",
+    "target": "whether the cyclic square cancels differential off-diagonal terms and leaves curvature/connection differences"
+  },
+  "ledger_no_change_reason": "The exact algebra tests a repository reconstruction of an unreleased motif and supplies no source-owned action or physical realization.",
+  "operator": {
+    "candidate": "D_AB=[[d_A,-F_B],[1,-d_B]]",
+    "exact_match": true,
+    "expected_square": "[[F_A-F_B,0],[d_A-d_B,0]]",
+    "raw_square": [
+      [
+        [
+          "-1:FB*I",
+          "1:dA*dA"
+        ],
+        [
+          "1:FB*dB",
+          "-1:dA*FB"
+        ]
+      ],
+      [
+        [
+          "1:I*dA",
+          "-1:dB*I"
+        ],
+        [
+          "-1:I*FB",
+          "1:dB*dB"
+        ]
+      ]
+    ],
+    "reduced_square": [
+      [
+        [
+          "1:FA",
+          "-1:FB"
+        ],
+        []
+      ],
+      [
+        [
+          "1:dA",
+          "-1:dB"
+        ],
+        []
+      ]
+    ],
+    "relations": [
+      "d_A^2=F_A",
+      "d_B^2=F_B",
+      "d_A F_B=F_B d_B"
+    ]
+  },
+  "pinned_inputs": {
+    "k748": {
+      "path": "lab/process/k748-sc-act-06-released-action-parent-inventory.json",
+      "sha256": "b061c033f177708969d71aee693c6f741d04f4b0fb0e78abd7598a380362d833"
+    },
+    "source_reinspection": {
+      "path": "lab/sources/gu-up-back-over-square-root-source-reinspection-2026-08-04.md",
+      "sha256": "d008e6394c80000a7c9e1b3cf24f4b15e8f907bf617097457695d0959382a368"
+    },
+    "two_layer_reinspection": {
+      "path": "lab/sources/gu-two-layer-action-source-reinspection-2026-08-04.md",
+      "sha256": "14333eeeb9c7474844a25723021156d8ba6670758580b57101b0b3cabd15afcc"
+    }
+  },
+  "result_id": "K755-SC-ACT-06-CYCLIC-TWO-CONNECTION-SQUARE",
+  "schema_version": "1.0",
+  "scope": "Exact algebra of the source-bounded but unreleased two-connection cyclic D-square reconstruction; no claim that the source states this formula or owns its fields, action, domain or target.",
+  "source_and_ledger_effect": "SC_ACT_03_AND_SC_ACT_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "source_grade": {
+    "exact_formula_released": false,
+    "formula_grade": "SOURCE_BOUND_RECONSTRUCTION_WITH_EXACT_ALGEBRA",
+    "k748_adapter_was_unbuilt": true,
+    "path_cancellation_burden_confirmed": true,
+    "two_connection_cancellation_motif_confirmed": true
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "current_GU_field_carrier_identified": false,
+    "lower_right_cancels_from_dB_square_equals_FB": true,
+    "source_formula_or_action_ownership_proved": false,
+    "surviving_diagonal_output": "F_A-F_B",
+    "surviving_lower_output": "d_A-d_B",
+    "upper_right_cancels_iff_bianchi_intertwining": true
+  }
+}

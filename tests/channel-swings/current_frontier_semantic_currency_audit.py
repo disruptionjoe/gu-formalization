@@ -203,6 +203,18 @@ def load_inputs() -> dict:
         "k754": json.loads(
             (ROOT / "lab/process/k754-sc-act-06-nonzero-fermion-successor-gate.json").read_text()
         ),
+        "k755": json.loads(
+            (ROOT / "lab/process/k755-sc-act-06-cyclic-two-connection-square.json").read_text()
+        ),
+        "k756": json.loads(
+            (ROOT / "lab/process/k756-sc-act-06-cyclic-adapter-linearization.json").read_text()
+        ),
+        "k757": json.loads(
+            (ROOT / "lab/process/k757-sc-act-06-cyclic-adapter-current-carrier-composition.json").read_text()
+        ),
+        "k758": json.loads(
+            (ROOT / "lab/process/k758-sc-act-06-cyclic-adapter-successor-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -394,7 +406,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
 
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
+    check(registry["latest_gu_formalization_result"] ==
+          "K755_K758_SC_ACT_06_CYCLIC_TWO_CONNECTION_ADAPTER_BOUNDARY_CURRENT",
+          "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K755--K758 remove current-carrier cyclic path-adapter variations" in live and
+              "complete native K500 A/B packet" in live and "98308/98311" in live,
+              "live K755--K758 cyclic adapter boundary missing")
         check("K77 route" in live, "K77 nonfactorized route missing")
         check("K637" in live and "basis-naturality" in live,
               "K77 natural commutant selection ceiling missing")
@@ -599,6 +617,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K755--K758 construct and classify" in summary and
+          "rank 13" in summary and "rank 14" in summary and
+          "98308/98311" in summary,
+          "current K755--K758 cyclic adapter result lost")
     check("K743--K746 close every residual-square repair" in summary and
           "131074/131071" in summary and "98308/98311" in summary and
           "122864/61439" in summary and "98308/106568" in summary,
@@ -720,6 +742,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "exact square" in data["agenda"].get("latest_result_2026_10_01_k755_k758", "")
+        and "rank 13" in data["agenda"].get("latest_result_2026_10_01_k755_k758", "")
+        and "98308/98311" in data["agenda"].get("latest_result_2026_10_01_k755_k758", ""),
+        "agenda K755--K758 result is not current",
+    )
     check(
         "finite-free supercomplex" in data["agenda"].get("latest_result_2026_10_01_k751_k754", "")
         and "98308/98311" in data["agenda"].get("latest_result_2026_10_01_k751_k754", "")
@@ -2148,6 +2176,35 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k754["decision"]["do_not_retry_cbrs1r_ultralocal_condensate"],
           "K754 narrowed successor gate moved")
 
+    k755 = data["k755"]
+    check(k755["operator"]["exact_match"] and
+          k755["operator"]["expected_square"] == "[[F_A-F_B,0],[d_A-d_B,0]]" and
+          not k755["source_grade"]["exact_formula_released"] and
+          not k755["decision"]["new_current_carrier_principal_response_proved"],
+          "K755 cyclic two-connection square moved")
+
+    k756 = data["k756"]
+    check(k756["theorem"]["principal_rank_per_internal_coefficient"] == 13 and
+          k756["theorem"]["combined_relative_rank_per_internal_coefficient"] == 14 and
+          k756["linearization"]["common_direction_killed"] and
+          not k756["decision"]["current_one_connection_complex_reopened"],
+          "K756 cyclic adapter linearization moved")
+
+    k757 = data["k757"]
+    check(k757["current_obstruction"]["body_middle_bounds_preserved"] == [98308, 98311] and
+          not k757["composition_theorem"]["current_carrier_reopened"] and
+          not k757["composition_theorem"]["independent_doubled_adapter_can_be_inserted_without_rebuilding_complex"] and
+          not k757["decision"]["cyclic_reconstruction_killed_globally"],
+          "K757 cyclic adapter carrier composition moved")
+
+    k758 = data["k758"]
+    check(k758["gate_theorem"]["current_one_connection_cyclic_repair_closed"] and
+          k758["gate_theorem"]["independent_doubled_candidate_exists_as_exact_algebra"] and
+          not k758["gate_theorem"]["independent_doubled_candidate_is_action_owned"] and
+          not k758["gate_theorem"]["global_SC_ACT_06_refuted"] and
+          k758["decision"]["do_not_retry_current_carrier_cyclic_specializations"],
+          "K758 cyclic adapter successor gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3417,6 +3474,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k753-principal", lambda d: d["k753"]["admission_audit"].__setitem__("new_principal_derivative_image", True))
     add("k754-global", lambda d: d["k754"]["gate_theorem"].__setitem__("global_SC_ACT_06_refuted", True))
     add("k754-all", lambda d: d["k754"]["gate_theorem"].__setitem__("all_nonzero_fermion_or_condensate_actions_excluded", True))
+    add("k755-square", lambda d: d["k755"]["operator"].__setitem__("exact_match", False))
+    add("k755-source", lambda d: d["k755"]["source_grade"].__setitem__("exact_formula_released", True))
+    add("k756-rank", lambda d: d["k756"]["theorem"].__setitem__("combined_relative_rank_per_internal_coefficient", 13))
+    add("k756-reopen", lambda d: d["k756"]["decision"].__setitem__("current_one_connection_complex_reopened", True))
+    add("k757-bounds", lambda d: d["k757"]["current_obstruction"].__setitem__("body_middle_bounds_preserved", [0, 0]))
+    add("k757-insert", lambda d: d["k757"]["composition_theorem"].__setitem__("independent_doubled_adapter_can_be_inserted_without_rebuilding_complex", True))
+    add("k758-owner", lambda d: d["k758"]["gate_theorem"].__setitem__("independent_doubled_candidate_is_action_owned", True))
+    add("k758-global", lambda d: d["k758"]["gate_theorem"].__setitem__("global_SC_ACT_06_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

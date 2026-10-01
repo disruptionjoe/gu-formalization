@@ -7,6 +7,43 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K755--K758 cyclic two-connection adapter boundary (2026-10-01)
+
+K755 is an exact noncommutative block calculation under the declared
+relations `d_A^2=F_A`, `d_B^2=F_B`, and `d_A F_B=F_B d_B`. It proves that the
+source-bounded reconstruction `D_AB=[[d_A,-F_B],[1,-d_B]]` squares to
+`[[F_A-F_B,0],[d_A-d_B,0]]`. The released sources support the two-connection
+cancellation motif, not this exact formula or an action owning it.
+
+K756 performs exact rational rank tests for the diagonal-background
+linearization on a fourteen-dimensional form carrier. The common connection
+direction is killed. The relative direction has exterior-symbol rank 13 and
+combined derivative-plus-identity rank 14 per internal coefficient. K757
+then composes all specializations with the current K743/K749 obstruction:
+diagonal identification is zero, a frozen second connection is not a new
+action owner, and the independent response requires a new doubled carrier and
+complex. Therefore the current 98308/98311 lower bounds do not move.
+
+K758 records the exact successor gate. The cyclic reconstruction is not
+globally refuted, but its current-carrier specializations are closed. An
+independent doubled route remains live only with its own action, fields,
+stationary background, target, pairing, gauge/redundancy maps, response and
+common domain. None of K755--K758 changes a source, ledger, canon, paper,
+public, prediction, confirmation, physical or SC-ACT-06 verdict.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k755_sc_act_06_cyclic_two_connection_square.py
+python3 tests/channel-swings/k755_sc_act_06_cyclic_two_connection_square_probe.py
+python3 tests/channel-swings/k756_sc_act_06_cyclic_adapter_linearization.py
+python3 tests/channel-swings/k756_sc_act_06_cyclic_adapter_linearization_probe.py
+python3 tests/channel-swings/k757_sc_act_06_cyclic_adapter_current_carrier_composition.py
+python3 tests/channel-swings/k757_sc_act_06_cyclic_adapter_current_carrier_composition_probe.py
+python3 tests/channel-swings/k758_sc_act_06_cyclic_adapter_successor_gate.py
+python3 tests/channel-swings/k758_sc_act_06_cyclic_adapter_successor_gate_probe.py
+```
+
 ## K751--K754 nonzero-fermion body and condensate gate (2026-10-01)
 
 K751 proves an exact coefficient-algebra theorem for the principal-symbol

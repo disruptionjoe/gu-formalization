@@ -7,6 +7,22 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K755--K758 CYCLIC TWO-CONNECTION ADAPTER BOUNDARY.** K755
+> constructs the source-bounded reconstruction
+> `D_AB=[[d_A,-F_B],[1,-d_B]]` and proves its exact square is
+> `[[F_A-F_B,0],[d_A-d_B,0]]` under the three declared curvature/Bianchi
+> relations. K756 linearizes at `A=B`: common variations vanish; relative
+> variations have curvature-symbol rank 13 and combined rank 14 per internal
+> coefficient. K757 shows that diagonal identification is zero and freezing
+> one connection is not a new action-owned response. The nonzero relative
+> response requires a genuinely doubled carrier and cannot be inserted into
+> K749 unchanged, so its 98308/98311 bounds remain. K758 closes only those
+> current-carrier cyclic specializations. Next build an actual native input
+> (preferably a complete K500 A/B packet) unless a complete action-owned
+> doubled-connection, nonzero-`T`, or different-Shiab packet appears. Do not
+> treat this reconstruction as a released source formula. SC-ACT-06 remains
+> `ASSERTS`.
+
 > **2026-10-01 K751--K754 NONZERO-FERMION BODY AND CONDENSATE GATE.** K751
 > proves the finite-free body-reduction theorem: exactness of a bounded
 > supercomplex would descend through the nilpotent quotient, so a nonexact
