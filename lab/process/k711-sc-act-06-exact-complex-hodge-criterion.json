@@ -1,0 +1,154 @@
+{
+  "claim_ceiling": "Exact finite-dimensional symbol-complex/Hodge theorem. It does not construct the GU symbol, own an auxiliary metric, prove Fredholmness or nonlinear moduli, or move any source, ledger, canon, prediction, confirmation or public verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k711_sc_act_06_exact_complex_hodge_criterion_probe.py",
+    "producer": "tests/channel-swings/k711_sc_act_06_exact_complex_hodge_criterion.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "next_exact_input": "Construct the complete real GU gauge/Euler/redundancy symbol first, then supply and own positive auxiliary metrics or an authenticated Euclidean continuation and test the criterion at every nonzero covector.",
+    "positive_action_pairing_is_logically_necessary_for_symbol_ellipticity": false,
+    "positive_auxiliary_metric_can_test_an_already_constructed_real_symbol_complex": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "composition_rank": 0,
+    "dimensions": [
+      2,
+      4,
+      2
+    ],
+    "euler_adjoint": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ],
+      [
+        "17/11",
+        "0"
+      ],
+      [
+        "0",
+        "19/13"
+      ]
+    ],
+    "euler_rank": 2,
+    "gauge_adjoint": [
+      [
+        "5/2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "7/3",
+        "0",
+        "0"
+      ]
+    ],
+    "gauge_rank": 2,
+    "hodge_laplacian": [
+      [
+        "5/2",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "7/3",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "17/11",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "19/13"
+      ]
+    ],
+    "hodge_laplacian_rank": 4,
+    "middle_cohomology": 0,
+    "nonexact_control_laplacian_rank": 3,
+    "nonexact_control_middle_cohomology": 1,
+    "positive_metric_diagonals": [
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        7,
+        11,
+        13
+      ],
+      [
+        17,
+        19
+      ]
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "none for the auxiliary metrics; the theorem is conditional mathematical infrastructure",
+    "carrier": "one fibre of a real symbol complex V0 -> V1 -> V2",
+    "grading": "gauge parameters, fields, and independent Euler equations",
+    "pairing": "arbitrary positive-definite auxiliary inner products h0,h1,h2, not the source-native action pairing",
+    "real_structure": "unchanged real carrier; no Wick rotation or complex trace-line continuation",
+    "target": "middle-symbol exactness versus invertibility of Delta1=G G* + E* E MAP-TYPE=principal symbol"
+  },
+  "ledger_no_change_reason": "The theorem separates a general elliptic-complex fact from the still-unconstructed GU symbol and supplies no source-owned gauge metric.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "auxiliary_metric_source_owned": false,
+    "complete_full_field_symbol_constructed": false,
+    "distinguished_B_epsilon_Y_tuple_constructed": false,
+    "fredholm_domain_constructed": false,
+    "nonlinear_moduli_theorem_proved": false,
+    "source_independent_row_projector_supplied": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The nonexact control has one middle cohomology class and its positive Hodge Laplacian loses exactly one rank.",
+    "strongest_overclaim": "Any positive auxiliary metric proves the GU deformation complex is elliptic.",
+    "weakest_reproducibility_seam": "The equivalence assumes E G=0 and positive auxiliary metrics on the actual complete real symbol spaces."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K710 names this auxiliary route but does not prove its exactness equivalence or ownership boundary.",
+    "route_comparison": "K710's null failure concerns the adjoint from the native indefinite form; exact-complex Hodge theory permits an independently chosen positive auxiliary metric.",
+    "strongest_alternative": "Wick-rotate the complete action carrier, which is stronger data than symbol ellipticity alone requires."
+  },
+  "proof": {
+    "converse": "if Delta1 is injective, every v in ker E orthogonal to im G vanishes, so ker E=im G",
+    "energy_identity": "<Delta1 v,v>=||G* v||^2+||E v||^2",
+    "exact_case": "ker E=im G makes the intersection zero",
+    "kernel_identity": "ker Delta1=ker G* intersect ker E=(im G)^perp intersect ker E"
+  },
+  "result_id": "K711-SC-ACT-06-EXACT-COMPLEX-HODGE-CRITERION",
+  "schema_version": "1.0",
+  "scope": "The finite-dimensional principal-symbol theorem relating middle exactness to a positive auxiliary Hodge Laplacian, independently of an action pairing.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "action_pairing_positive_required": false,
+    "action_pairing_used_to_define_auxiliary_adjoint": false,
+    "complex_condition_required": true,
+    "full_GU_symbol_instantiated": false,
+    "holds_for_every_positive_auxiliary_inner_product": true,
+    "middle_exact_iff_positive_hodge_laplacian_invertible": true,
+    "source_claim_proved": false
+  }
+}

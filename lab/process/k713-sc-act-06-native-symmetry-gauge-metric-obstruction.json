@@ -1,0 +1,143 @@
+{
+  "claim_ceiling": "Exact invariant-form obstruction for the standard pseudo-orthogonal carrier. It does not forbid non-invariant gauge fixing, exclude a source-owned symmetry reduction, instantiate the GU symbol, prove Fredholmness or moduli, or move source, ledger, canon, prediction, confirmation or public verdicts.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k713_sc_act_06_native_symmetry_gauge_metric_obstruction_probe.py",
+    "producer": "tests/channel-swings/k713_sc_act_06_native_symmetry_gauge_metric_obstruction.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "auxiliary_positive_metric_is_canonical_under_full_native_symmetry": false,
+    "auxiliary_route_is_mathematically_invalid": false,
+    "next_exact_input": "Construct the complete GU symbol and choose between an authenticated Euclidean continuation or an explicitly owned positive auxiliary metric plus symmetry reduction; then prove every symbol block and projector is compatible at all nonzero covectors.",
+    "ownership_cost": "A positive q must be supplied together with an independently justified compact/symmetry reduction or accepted gauge choice; full O(13,1) invariance cannot select it."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "boost": [
+      [
+        "5/3",
+        "4/3"
+      ],
+      [
+        "4/3",
+        "5/3"
+      ]
+    ],
+    "boost_determinant": "1",
+    "boost_eigenvalues": [
+      "3",
+      "1/3"
+    ],
+    "equation_rank": 2,
+    "full_carrier_native_signature": [
+      13,
+      1,
+      0
+    ],
+    "invariant_symmetric_form_equations": [
+      [
+        "16/9",
+        "40/9",
+        "16/9"
+      ],
+      [
+        "20/9",
+        "32/9",
+        "20/9"
+      ],
+      [
+        "16/9",
+        "40/9",
+        "16/9"
+      ]
+    ],
+    "native_form": [
+      [
+        "1",
+        "0"
+      ],
+      [
+        "0",
+        "-1"
+      ]
+    ],
+    "native_invariance_defect": [
+      [
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0"
+      ]
+    ],
+    "positive_identity_invariance_defect": [
+      [
+        "32/9",
+        "40/9"
+      ],
+      [
+        "40/9",
+        "32/9"
+      ]
+    ],
+    "solution_dimension": 1,
+    "solution_generator_a_b_d": [
+      1,
+      0,
+      -1
+    ],
+    "solution_generator_signature": [
+      1,
+      1,
+      0
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "native pseudo-orthogonal symmetry only; no source-owned compact reduction or positive q supplied",
+    "carrier": "standard real fourteen-dimensional representation with native form of inertia `(13,1)`",
+    "grading": "one positive direction plus the negative trace line embedded in the full carrier",
+    "pairing": "native pseudo-form eta versus a candidate positive auxiliary form q",
+    "real_structure": "unchanged real carrier",
+    "target": "symmetry compatibility of an auxiliary gauge-fixing metric MAP-TYPE=invariant bilinear form"
+  },
+  "ledger_no_change_reason": "The obstruction prices the auxiliary repair's symmetry cost but neither forbids such a gauge choice nor constructs the full GU deformation complex.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "auxiliary_metric_compatibility_with_full_symbol_proved": false,
+    "complete_full_field_symbol_constructed": false,
+    "fredholm_domain_constructed": false,
+    "native_symmetry_reduction_selected": false,
+    "nonlinear_moduli_theorem_proved": false,
+    "positive_auxiliary_metric_source_owned": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The ordinary identity form is positive and repairs the bare symbol, but its nonzero boost defect proves it breaks the full native pseudo-orthogonal symmetry.",
+    "strongest_overclaim": "No positive auxiliary gauge metric may ever be used on the native real carrier.",
+    "weakest_reproducibility_seam": "The full GU deformation problem may already reduce symmetry through a source-owned background; that reduction must be constructed rather than presumed absent."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "Earlier signature work records indefinite carriers, but no SC-ACT-06 artifact supplies the exact rational boost obstruction for auxiliary gauge metrics.",
+    "route_comparison": "K712 opens the auxiliary-positive route; K713 tests whether the native indefinite symmetry makes that choice canonical and proves it does not.",
+    "strongest_alternative": "A source-selected compact subgroup or stationary background could own q, but neither is presently constructed for the complete Euclidean germ."
+  },
+  "result_id": "K713-SC-ACT-06-NATIVE-SYMMETRY-GAUGE-METRIC-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Whether a positive auxiliary gauge metric on the real `(13,1)` carrier can be invariant under the full native pseudo-orthogonal symmetry.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "auxiliary_positive_metric_requires_symmetry_reduction_or_extra_choice": true,
+    "positive_definite_O_13_1_invariant_form_exists": false,
+    "positive_definite_invariant_form_exists_on_boost_plane": false,
+    "rational_boost_preserves_native_1_1_form": true,
+    "rational_boost_preserves_positive_identity": false,
+    "source_claim_refuted": false,
+    "source_selected_reduction_constructed": false,
+    "symmetric_forms_invariant_under_boost_are_scalar_native_forms": true
+  }
+}

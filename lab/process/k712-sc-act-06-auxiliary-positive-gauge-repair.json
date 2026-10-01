@@ -1,0 +1,290 @@
+{
+  "claim_ceiling": "Exact auxiliary-positive repair of the bare exterior symbol on the unchanged real carrier. It does not own the gauge metric, instantiate the full GU complex, prove Fredholmness or moduli, or move source, ledger, canon, prediction, confirmation or public verdicts.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k712_sc_act_06_auxiliary_positive_gauge_repair_probe.py",
+    "producer": "tests/channel-swings/k712_sc_act_06_auxiliary_positive_gauge_repair.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "conditional_auxiliary_route_is_mathematically_open": true,
+    "native_indefinite_adjoint_repaired_without_new_data": false,
+    "next_exact_input": "Either authenticate a Euclidean continuation of the complete carrier, or supply a positive auxiliary gauge metric together with its source/symmetry ownership and prove compatibility with every complete GU gauge, Euler, redundancy and mixed principal block.",
+    "wick_rotation_is_only_possible_elliptic_gauge_route": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "auxiliary_inverse_diagonal": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      2
+    ],
+    "auxiliary_signature": [
+      14,
+      0,
+      0
+    ],
+    "basis_covectors": {
+      "0": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "1": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "10": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "11": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "12": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "13": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 2
+      },
+      "2": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "3": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "4": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "5": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "6": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "7": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "8": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      },
+      "9": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 1
+      }
+    },
+    "dimension": 14,
+    "native_inverse_diagonal": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1
+    ],
+    "native_null_auxiliary_nonnull": {
+      "auxiliary": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 3
+      },
+      "covector": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "native": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 0,
+        "middle_cohomology": 0,
+        "norm": 0
+      }
+    },
+    "native_signature": [
+      13,
+      1,
+      0
+    ],
+    "positive_trace_weight_family": {
+      "1": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 2
+      },
+      "2": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 3
+      },
+      "3": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 4
+      },
+      "5": {
+        "clifford_identity_exact": true,
+        "curvature_rank": 13,
+        "gauge_rank": 1,
+        "laplacian_rank": 14,
+        "middle_cohomology": 0,
+        "norm": 6
+      }
+    }
+  },
+  "gu_typed_objects": {
+    "action_owner": "native action pairing preserved; auxiliary positive metric is mathematically supplied but not source-owned",
+    "carrier": "unchanged real fourteen-dimensional cotangent fibre and its exterior algebra",
+    "grading": "Lambda^0 -> Lambda^1 -> Lambda^2 with auxiliary contraction adjoint",
+    "pairing": "native action form diag(1^13,-1) kept distinct from auxiliary inverse metric diag(1^13,2)",
+    "real_structure": "unchanged real carrier; no Wick rotation",
+    "target": "gauge-fixed degree-one principal symbol MAP-TYPE=principal symbol"
+  },
+  "ledger_no_change_reason": "The explicit auxiliary repair acts only on the bare exterior skeleton and is not owned or tested on the complete GU first-order symbol.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "auxiliary_metric_compatible_with_complete_GU_symbol": false,
+    "auxiliary_metric_source_owned": false,
+    "complete_full_field_symbol_constructed": false,
+    "distinguished_B_epsilon_Y_tuple_constructed": false,
+    "fredholm_domain_constructed": false,
+    "nonlinear_moduli_theorem_proved": false,
+    "source_independent_row_projector_supplied": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The native metric-adjoint still has rank zero at the same nonzero null covector; only the separately chosen auxiliary adjoint has rank fourteen.",
+    "strongest_overclaim": "The displayed auxiliary metric is the source's Euclidean continuation or proves the full GU complex elliptic.",
+    "weakest_reproducibility_seam": "The full GU symbol may use action-dependent mixed maps that are not compatible with this auxiliary adjoint or its symmetry breaking."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K710 named but did not execute this repair; no prior SC-ACT-06 artifact proves it on the same unchanged real carrier.",
+    "route_comparison": "Unlike a trace-line Wick rotation, the auxiliary route keeps the native real action carrier fixed and changes only the positive metric used to form adjoints.",
+    "strongest_alternative": "Continue the complete DeWitt carrier to a positive real form and transport every coefficient, a stronger and still unauthenticated operation."
+  },
+  "result_id": "K712-SC-ACT-06-AUXILIARY-POSITIVE-GAUGE-REPAIR",
+  "schema_version": "1.0",
+  "scope": "An explicit positive auxiliary gauge-fixing metric on K710's unchanged real fourteen-dimensional exterior symbol, while the native DeWitt action form remains `(13,1)`.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "auxiliary_hodge_symbol_full_rank_for_every_nonzero_covector": true,
+    "auxiliary_metric_is_source_owned": false,
+    "auxiliary_positive_metric_exists_on_same_real_carrier": true,
+    "complete_GU_symbol_instantiated": false,
+    "native_action_pairing_remains_indefinite": true,
+    "native_null_covector_is_auxiliary_nonnull": true,
+    "real_structure_changed": false,
+    "source_claim_proved": false
+  }
+}

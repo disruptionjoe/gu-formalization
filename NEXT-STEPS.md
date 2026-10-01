@@ -7,6 +7,22 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K711--K713 SC-ACT-06 AUXILIARY-POSITIVE GAUGE ROUTE.** K711
+> proves that middle exactness of a finite real symbol complex is equivalent
+> to invertibility of its Hodge Laplacian for any positive auxiliary inner
+> products; the action pairing itself need not be positive. K712 keeps the
+> native `(13,1)` real carrier fixed and gives the bare exterior skeleton an
+> auxiliary positive metric, restoring rank fourteen at K710's native-null
+> covector without a Wick rotation. K713 proves no positive metric is invariant
+> under full `O(13,1)`, so this repair requires an independently owned gauge
+> choice or symmetry reduction. Next construct the complete stationary
+> `B(epsilon)/Y` principal complex and authenticate either that auxiliary route
+> on every block or a coherent Euclidean continuation. SC-ACT-06 remains
+> `ASSERTS`; no source, ledger, canon or physical verdict moves. See
+> `lab/process/k711-sc-act-06-exact-complex-hodge-criterion.json`,
+> `lab/process/k712-sc-act-06-auxiliary-positive-gauge-repair.json`, and
+> `lab/process/k713-sc-act-06-native-symmetry-gauge-metric-obstruction.json`.
+
 > **2026-09-30 K708--K710 SC-ACT-06 EUCLIDEAN-SIGNATURE BOUNDARY.** K708
 > proves that the source-native `lambda=1/2` DeWitt fibre over a Euclidean
 > four-base has signature `(9,1)`, hence total signature `(13,1)`, not

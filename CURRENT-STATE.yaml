@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 71e6f09a7389
+revision_basis: a56bfcddbbca
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,24 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K711--K713 refine K710's Euclidean-signature boundary by proving the
+    auxiliary-positive gauge route exactly and pricing its ownership cost.
+    K711 proves that for any finite real symbol complex `V0 -> V1 -> V2`,
+    middle exactness is equivalent to invertibility of
+    `Delta_1=G G*+E* E` for every choice of positive auxiliary inner products;
+    positivity of the action pairing is not required. K712 applies this to
+    the unchanged real fourteen-dimensional exterior skeleton: while the
+    native `(13,1)` adjoint still collapses at `xi=e_0+e_13`, the auxiliary
+    inverse metric `diag(1^13,2)` gives norm `3` and rank fourteen there, with
+    no Wick rotation. K713 proves this repair is not canonical under full
+    native `O(13,1)`: the rational boost with entries `5/3,4/3` preserves the
+    native `(1,1)` plane, but its invariant symmetric forms are only scalar
+    multiples of that indefinite form. Thus SC-ACT-06 may be tested either
+    after an authenticated Euclidean continuation or with an independently
+    owned positive gauge metric plus symmetry reduction, but neither route is
+    currently supplied on the complete GU symbol. No source, ledger, canon,
+    paper, public, prediction, confirmation or physical verdict moves.
+
     K708--K710 expose the Euclidean-signature datum that must precede a native
     K705--K707 instantiation. K708 decomposes the source-native DeWitt form on
     `Sym^2(T*X)` into its nine-dimensional traceless part and one trace line.
@@ -11965,6 +11983,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K711--K713 show that positivity of the native action
+  pairing is not logically necessary for ellipticity of an already exact real
+  deformation complex. An auxiliary positive bundle metric can form an
+  invertible Hodge gauge fixing on K710's bare exterior skeleton while keeping
+  the `(13,1)` action form and real carrier unchanged. But full `O(13,1)`
+  invariance cannot own such a positive metric, so this is new gauge/symmetry-
+  reduction data, not a free repair or source-selected continuation. Construct
+  the actual distinguished stationary `B(epsilon)/Y` tuple and complete
+  bosonic, fermionic, mixed, gauge and redundancy symbols, then choose and
+  authenticate one of two coherent routes on all blocks: a Euclidean
+  continuation of the complete carrier, or a positive auxiliary gauge metric
+  with its owning symmetry reduction. Test middle exactness at every nonzero
+  covector before any Fredholm or nonlinear-moduli claim.
+
   On the SC-ACT-06 route, K708 proves that Euclideanizing the four-dimensional
   base alone leaves the source-native total DeWitt carrier at signature
   `(13,1)`. K709 proves that K706's real coherent frame transport cannot
@@ -12670,6 +12702,21 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the SC-ACT-06 route, the first exact input is the complete real principal
+  complex for one distinguished stationary `B(epsilon)/Y` germ: all bosonic,
+  fermionic and mixed blocks, gauge map, redundant Euler map and both
+  independent-row projectors. Its gauge fixing must then take one explicitly
+  owned route. Either authenticate a Euclidean continuation/real form for the
+  complete carrier and transport every coefficient, or retain the native
+  `(13,1)` action form and supply a positive auxiliary metric together with
+  the compact/symmetry reduction or gauge choice that owns it. K711 proves the
+  latter is mathematically sufficient once the complex is exact; K712 gives
+  the bare exterior control; K713 proves full `O(13,1)` cannot canonically own
+  the positive metric. An arbitrary `q`, base-only Euclideanization, real
+  frame change, or algebraic Koszul exactness alone is not the complete GU
+  deformation complex. Fredholm and nonlinear-moduli work remains downstream;
+  SC-ACT-06 remains `ASSERTS`.
+
   On the SC-ACT-06 route, the first exact input is now an authenticated
   Euclidean continuation of the complete source-native carrier. It must state
   the continued real structure and pairing, explain whether the DeWitt

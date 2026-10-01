@@ -7,6 +7,40 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K711--K713 SC-ACT-06 auxiliary-positive gauge route (2026-09-30)
+
+K711 proves the finite-dimensional Hodge criterion for a real principal-symbol
+complex `V0 --G--> V1 --E--> V2`. For arbitrary positive inner products,
+`<Delta_1 v,v>=||G* v||^2+||E v||^2`, so
+`ker Delta_1=(im G)^perp intersect ker E`. Under `E G=0`, middle exactness is
+therefore equivalent to invertibility of `Delta_1=G G*+E* E`. The exact
+`2 -> 4 -> 2` control has Laplacian diagonal
+`(5/2,7/3,17/11,19/13)` and rank four; deleting one Euler row leaves one
+middle class and rank three. No positive action pairing enters the theorem.
+
+K712 applies that separation to K710's real fourteen-dimensional exterior
+symbol. It keeps the native action form `diag(1^13,-1)` and its real structure
+unchanged, but forms the adjoint with the positive auxiliary inverse metric
+`diag(1^13,2)`. The native-null covector `e_0+e_13` has auxiliary norm `3`,
+and the degree-one Hodge symbol is `3 I` with rank fourteen. All fourteen basis
+covectors and four positive trace weights pass. This is an explicit
+mathematical gauge repair, not a Wick rotation or a source-owned GU datum.
+
+K713 proves the ownership cost. The rational Lorentz boost
+`[[5/3,4/3],[4/3,5/3]]` has determinant one, eigenvalues `3,1/3`, and exactly
+preserves `diag(1,-1)`. Solving its invariant symmetric-form equations gives
+the one-dimensional span of `diag(1,-1)`, so no positive form is invariant on
+that plane and hence none is invariant under the full standard `O(13,1)`
+action. A positive auxiliary metric must therefore come with an independently
+justified compact/symmetry reduction or gauge choice.
+
+The producers pass 32/36/34 controls and their probes reject 28/28, 32/32 and
+30/30 hostile mutations. The results do not construct the distinguished
+stationary `B(epsilon)/Y` tuple, complete bosonic/fermionic/mixed symbol,
+projectors, source-owned auxiliary metric or symmetry reduction, Fredholm
+domain, or nonlinear moduli theorem. SC-ACT-06 remains `ASSERTS`; no source,
+ledger, canon, prediction, confirmation, public or physical conclusion moves.
+
 ## K708--K710 SC-ACT-06 Euclidean-signature boundary (2026-09-30)
 
 K708 proves the exact signature classification of the DeWitt family
