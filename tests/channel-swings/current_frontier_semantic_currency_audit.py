@@ -89,6 +89,15 @@ def load_inputs() -> dict:
         "k716": json.loads(
             (ROOT / "lab/process/k716-sc-act-06-compact-reduction-selection-boundary.json").read_text()
         ),
+        "k717": json.loads(
+            (ROOT / "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json").read_text()
+        ),
+        "k718": json.loads(
+            (ROOT / "lab/process/k718-sc-act-06-bosonic-projected-principal-complex.json").read_text()
+        ),
+        "k719": json.loads(
+            (ROOT / "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -452,6 +461,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K715" in live and "null-direction Hodge ranks" in live and
               "K716" in live and "abstract auxiliary-metric feasibility" in live,
               "live K714--K716 SC-ACT-06 compact-reduction boundary missing")
+        check("K717" in live and "flat Euclidean `Y=Met(X)` germ" in live and
+              "K718" in live and "exterior/Koszul" in live and
+              "K719" in live and "mixed boson--fermion principal blocks vanish" in live,
+              "live K717--K719 SC-ACT-06 native flat-germ reduction missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -461,6 +474,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K717--K719 construct the first native flat Euclidean germ" in summary,
+          "current K717--K719 result lost")
     check("K714--K716 close the abstract ownership shape" in summary,
           "current K714--K716 result lost")
     check("K711--K713 refine K710's Euclidean-signature boundary" in summary,
@@ -553,6 +568,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "local source-typed flat Euclidean Y=Met(X) germ" in data["agenda"].get("latest_result_2026_09_30_k717_k719", "")
+        and "zero mixed Hessian" in data["agenda"].get("latest_result_2026_09_30_k717_k719", "")
+        and "both complete action-owned diagonal symbols" in data["agenda"].get("latest_result_2026_09_30_k717_k719", ""),
+        "agenda K717--K719 result is not current",
+    )
     check(
         "compact reduction of the native real (13,1) carrier" in data["agenda"].get("latest_result_2026_09_30_k714_k716", "")
         and "eigenvalue pairs (1,1), (9,1/9), and (81,1/81)" in data["agenda"].get("latest_result_2026_09_30_k714_k716", "")
@@ -1479,6 +1500,45 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k716["exact_controls"]["plane_eigenvalue_pairs"] == [["1", "1"], ["9", "1/9"], ["81", "1/81"]] and
           not k716_n["SC_ACT_06_ellipticity_proved"],
           "K716 compact-reduction selection boundary or source ceiling moved")
+
+    k717 = data["k717"]
+    k717_t = k717["theorem"]
+    k717_n = k717["native_interface_status"]
+    check(k717_t["source_connection_formula_instantiated"] and
+          k717_t["native_curvature_orbit_identity_holds"] and
+          k717_t["background_frobenius_q_equals_eta_theta"] and
+          k717_t["reduction_is_O4_natural"] and
+          not k717_t["full_O13_1_canonical_selection_follows"] and
+          k717["exact_controls"]["total_signature"] == [13, 1] and
+          not k717_t["SC_ACT_06_ellipticity_proved"] and
+          not k717_n["euclidean_fermion_symbol"],
+          "K717 flat Euclidean gimmel germ or source ceiling moved")
+
+    k718 = data["k718"]
+    k718_t = k718["theorem"]
+    k718_n = k718["native_interface_status"]
+    check(k718_t["field_transverse_projector_constructed"] and
+          k718_t["independent_euler_row_projector_constructed"] and
+          k718_t["native_null_covectors_are_included"] and
+          k718["exact_controls"]["all_cases_projector_ranks"] == [[13, 13], [13, 13], [13, 13]] and
+          k718["exact_controls"]["all_cases_middle_cohomology"] == [0, 0, 0] and
+          not k718_t["complete_action_owned_bosonic_symbol_constructed"] and
+          not k718_t["full_SC_ACT_06_ellipticity_proved"] and
+          not k718_n["action_owned_bosonic_euler_symbol"],
+          "K718 projected exterior complex or source ceiling moved")
+
+    k719 = data["k719"]
+    k719_t = k719["theorem"]
+    k719_n = k719["native_interface_status"]
+    check(k719_t["boson_fermion_mixed_hessian_vanishes_at_zero_fermion"] and
+          k719_t["gauge_symbol_has_zero_fermion_component_at_zero_fermion"] and
+          k719_t["middle_cohomology_splits_boson_plus_fermion"] and
+          k719_t["full_exactness_requires_both_action_bosonic_and_fermion_exactness"] and
+          k719["exact_controls"]["exact_total_middle_cohomology"] == 0 and
+          k719["exact_controls"]["deficient_total_middle_cohomology"] == 1 and
+          not k719_t["full_SC_ACT_06_ellipticity_proved"] and
+          not k719_n["complete_full_field_symbol"],
+          "K719 zero-fermion full-symbol reduction or source ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2663,6 +2723,12 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k715-native", lambda d: d["k715"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
     add("k716-selection", lambda d: d["k716"]["theorem"].__setitem__("native_eta_selects_a_unique_reduction", True))
     add("k716-native", lambda d: d["k716"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
+    add("k717-owned", lambda d: d["k717"]["theorem"].__setitem__("background_frobenius_q_equals_eta_theta", False))
+    add("k717-native", lambda d: d["k717"]["theorem"].__setitem__("SC_ACT_06_ellipticity_proved", True))
+    add("k718-projector", lambda d: d["k718"]["theorem"].__setitem__("independent_euler_row_projector_constructed", False))
+    add("k718-native", lambda d: d["k718"]["native_interface_status"].__setitem__("action_owned_bosonic_euler_symbol", True))
+    add("k719-mixed", lambda d: d["k719"]["theorem"].__setitem__("boson_fermion_mixed_hessian_vanishes_at_zero_fermion", False))
+    add("k719-native", lambda d: d["k719"]["native_interface_status"].__setitem__("complete_full_field_symbol", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

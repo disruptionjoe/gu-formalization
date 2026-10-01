@@ -7,6 +7,23 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K717--K719 SC-ACT-06 NATIVE FLAT GERM AND DIAGONAL-SYMBOL
+> REDUCTION.** K717 constructs the constant Euclidean `Y=Met(X)` germ with
+> `epsilon=1`, flat `Gamma_0`, `B=varpi=T=0`, and zero fermions. Its
+> trace/traceless involution turns the native `(13,1)` DeWitt form into the
+> positive Frobenius auxiliary metric and is owned naturally by the `O(4)`
+> background, not by bare `O(13,1)`. K718 constructs the transverse-field and
+> rank-thirteen independent-Euler projectors for the exterior/Koszul skeleton
+> at every nonzero covector, including native-null directions. K719 proves the
+> mixed Hessian and fermionic gauge image vanish at zero fermion, so the actual
+> full-symbol question splits into bosonic and fermionic diagonal blocks.
+> Next serialize both action-owned diagonal symbols and their row projectors;
+> do not identify the exact exterior skeleton with the missing bosonic action
+> block. SC-ACT-06 remains `ASSERTS`; no source, ledger, canon or physical
+> verdict moves. See `lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json`,
+> `lab/process/k718-sc-act-06-bosonic-projected-principal-complex.json`, and
+> `lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json`.
+
 > **2026-09-30 K714--K716 SC-ACT-06 COMPACT-REDUCTION SELECTION BOUNDARY.**
 > K714 makes the auxiliary route's ownership datum exact: an
 > `eta`-orthogonal Cartan involution, equivalently an `O(13)xO(1)` reduction,

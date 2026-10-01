@@ -1,0 +1,79 @@
+{
+  "claim_ceiling": "Exact zero-fermion block-diagonalization and cohomology-splitting theorem with finite controls. K718 supplies only the exterior skeleton, not the complete action-owned bosonic block. This result constructs neither diagonal full block, proves no Fredholmness or moduli, and moves no source, ledger, canon, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 33,
+    "probe": "tests/channel-swings/k719_sc_act_06_zero_fermion_full_symbol_reduction_probe.py",
+    "producer": "tests/channel-swings/k719_sc_act_06_zero_fermion_full_symbol_reduction.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "flat_germ_route_is_ready_for_more_abstract_bosonic_work": false,
+    "mixed_block_question_closed_at_zero_fermion_principal_grade": true,
+    "next_exact_input": "Construct the complete action-owned bosonic Euler/redundancy symbol and the source-owned Euclidean fermion carrier, principal Euler/gauge/redundancy maps and row projector on the same flat germ. Mixed blocks vanish at this grade, but a deficient diagonal block leaves cohomology and cannot be repaired by the other exact block.",
+    "remaining_local_symbol_debt_isolated_to_two_diagonal_blocks_and_their_rows": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cohomology_difference_equals_fermion_defect": 1,
+    "deficient_completion": {
+      "composition_zero": true,
+      "euler_rank": 2,
+      "fermion_rank": 1,
+      "gauge_rank": 1,
+      "middle_cohomology_dimension": 1
+    },
+    "deficient_total_middle_cohomology": 1,
+    "even_action_model": "S_F(B,psi)=1/2 <psi,D(B)psi>; d_B d_psi S_F at psi=0 is zero",
+    "exact_completion": {
+      "composition_zero": true,
+      "euler_rank": 3,
+      "fermion_rank": 2,
+      "gauge_rank": 1,
+      "middle_cohomology_dimension": 0
+    },
+    "exact_total_middle_cohomology": 0,
+    "gauge_model": "delta_c psi=rho(c)psi; at psi=0 its symbol is zero",
+    "shared_bosonic_euler_rank": 1,
+    "shared_bosonic_gauge_rank": 1
+  },
+  "gu_typed_objects": {
+    "action_owner": "source-displayed fermion terms are even/bilinear, so their first bosonic derivative and gauge action vanish at zero fermion",
+    "carrier": "K718 bosonic rank-fourteen field symbol direct-sum the as-yet uninstantiated Euclidean fermion field symbol",
+    "grading": "bosonic gauge/field/equation plus fermionic field/equation, with zero mixed Hessian at psi=0",
+    "pairing": "K717 auxiliary q on the bosonic block; fermion pairing and Euclidean real form remain unconstructed",
+    "real_structure": "bosonic real structure fixed; fermionic Euclidean continuation open",
+    "target": "complete middle cohomology MAP-TYPE=direct-sum reduction"
+  },
+  "ledger_no_change_reason": "Zero-fermion parity removes the mixed-symbol ambiguity but does not instantiate the Euclidean fermion operator, analytic domain, interacting quotient or positive physical space.",
+  "native_interface_status": {
+    "action_owned_bosonic_euler_symbol": false,
+    "action_owned_bosonic_redundancy_projector": false,
+    "complete_full_field_symbol": false,
+    "euclidean_fermion_carrier": false,
+    "euclidean_fermion_euler_symbol": false,
+    "fermion_positive_auxiliary_pairing": false,
+    "fermion_redundancy_projector": false,
+    "fredholm_domain": false,
+    "nonlinear_moduli": false
+  },
+  "result_id": "K719-SC-ACT-06-ZERO-FERMION-FULL-SYMBOL-REDUCTION",
+  "schema_version": "1.0",
+  "scope": "The structural full-field principal-symbol consequence of expanding the source's even bilinear fermion sector at K717's zero-fermion germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "boson_fermion_mixed_hessian_vanishes_at_zero_fermion": true,
+    "bosonic_exactness_repairs_a_deficient_fermion_block": false,
+    "current_source_data_selects_the_complete_euclidean_fermion_symbol": false,
+    "fermion_boson_mixed_hessian_vanishes_at_zero_fermion": true,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "full_exactness_requires_both_action_bosonic_and_fermion_exactness": true,
+    "full_principal_symbol_is_block_diagonal_at_this_germ": true,
+    "gauge_symbol_has_zero_fermion_component_at_zero_fermion": true,
+    "if_action_bosonic_block_matches_K718_then_remaining_exactness_is_fermionic": true,
+    "middle_cohomology_splits_boson_plus_fermion": true
+  }
+}

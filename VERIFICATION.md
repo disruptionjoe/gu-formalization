@@ -7,6 +7,46 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K717--K719 SC-ACT-06 native flat germ and diagonal-symbol reduction (2026-09-30)
+
+K717 constructs one explicit local native tuple over the constant positive
+metric on `R^4`: the constant section of `Y=Met(X)`, `epsilon=1`, flat
+`Gamma_0`, `B(epsilon)=0`, `varpi=0`, `T=0`, and zero fermions. The source
+connection formula and curvature-orbit identity hold exactly. The
+`lambda=1/2` DeWitt fibre has signature `(9,1)` and the total action form has
+signature `(13,1)`. The Euclidean background nevertheless owns a natural
+trace/traceless involution. Multiplying the action form by that involution
+gives exactly the positive Frobenius form on `Sym^2(R^4)`, while leaving the
+real carrier and action pairing unchanged. This reduction is `O(4)`-natural;
+it is not a full-`O(13,1)` canonical choice or a global uniqueness theorem.
+
+K718 uses that positive metric to construct two covector-dependent
+projectors for the exterior/Koszul skeleton. On fields,
+`P_perp=I-xi xi^*/|xi|^2` has rank thirteen and kills the gauge image. On
+two-form equations, `P_E=(xi wedge)(xi wedge)^*/|xi|^2` is the rank-thirteen
+orthogonal projector onto the independent curvature rows. For every nonzero
+covector, `P_E E=E`, `E G=0`, the Bianchi symbol after `E` vanishes, middle
+cohomology is zero and `G G^*+E^*E=|xi|^2 I`. Exact controls include a
+native-`eta`-null covector, whose auxiliary norm is two. This proves the
+exterior skeleton result only; it does not identify the complete action-owned
+bosonic Euler/redundancy linearization.
+
+K719 applies zero-fermion parity. For an even bilinear fermion action,
+`d_B d_psi S_F=0` at `psi=0`, and the infinitesimal gauge action
+`delta_c psi=rho(c)psi` also vanishes there. Thus the actual principal symbol
+is block diagonal and its middle cohomology splits into the bosonic and
+fermionic summands. Finite exact controls share one exact bosonic block while
+using rank-two versus rank-one fermion blocks; the total cohomology changes
+from zero to one. One exact diagonal cannot repair a deficient other diagonal.
+Because K718 is only the exterior skeleton, the action-owned bosonic block and
+the Euclidean fermion block both remain to be constructed.
+
+The producers pass 40/42/38 controls and their probes reject 34/34, 37/37 and
+33/33 hostile mutations. The results prove no Fredholm domain, nonlinear
+moduli theorem, positive physical quotient, source-status change, prediction
+or confirmation. SC-ACT-06 remains `ASSERTS`; the physics ledger, canon and
+public posture remain unchanged.
+
 ## K714--K716 SC-ACT-06 compact-reduction selection boundary (2026-09-30)
 
 K714 identifies the finite-dimensional ownership datum required by K713. For

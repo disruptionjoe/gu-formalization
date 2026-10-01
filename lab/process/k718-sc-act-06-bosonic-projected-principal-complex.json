@@ -1,0 +1,198 @@
+{
+  "claim_ceiling": "Exact exterior/Koszul skeleton projectors and middle exactness at every nonzero covector on the K717 germ. This does not identify the complete action-owned bosonic Euler linearization; no complete fermion/mixed complex, Fredholmness, moduli, source-status move or physical result follows.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 37,
+    "probe": "tests/channel-swings/k718_sc_act_06_bosonic_projected_principal_complex_probe.py",
+    "producer": "tests/channel-swings/k718_sc_act_06_bosonic_projected_principal_complex.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "exterior_skeleton_exactness_decides_action_bosonic_or_full_field_exactness": false,
+    "exterior_skeleton_row_ambiguity_closed_on_flat_germ": true,
+    "next_exact_input": "Use zero-fermion parity to decide the mixed blocks, while retaining both diagonal debts: the action-owned bosonic Euler/redundancy linearization and the source-owned Euclidean fermion gauge/Euler/redundancy symbol."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "all_cases_middle_cohomology": [
+      0,
+      0,
+      0
+    ],
+    "all_cases_projector_ranks": [
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ],
+      [
+        13,
+        13
+      ]
+    ],
+    "all_cases_rank_triple": [
+      [
+        1,
+        13,
+        78
+      ],
+      [
+        1,
+        13,
+        78
+      ],
+      [
+        1,
+        13,
+        78
+      ]
+    ],
+    "cases": [
+      {
+        "auxiliary_norm_squared": "1",
+        "equation_projector_idempotent": true,
+        "equation_projector_rank": 13,
+        "euler_after_gauge_zero": true,
+        "euler_rank": 13,
+        "field_projector_idempotent": true,
+        "field_projector_kills_gauge": true,
+        "field_projector_rank": 13,
+        "gauge_rank": 1,
+        "hodge_equals_norm_identity": true,
+        "middle_cohomology_dimension": 0,
+        "native_eta_norm_squared": "1",
+        "projected_euler_unchanged": true,
+        "redundancy_after_euler_zero": true,
+        "redundancy_rank": 78,
+        "xi": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "auxiliary_norm_squared": "2",
+        "equation_projector_idempotent": true,
+        "equation_projector_rank": 13,
+        "euler_after_gauge_zero": true,
+        "euler_rank": 13,
+        "field_projector_idempotent": true,
+        "field_projector_kills_gauge": true,
+        "field_projector_rank": 13,
+        "gauge_rank": 1,
+        "hodge_equals_norm_identity": true,
+        "middle_cohomology_dimension": 0,
+        "native_eta_norm_squared": "0",
+        "projected_euler_unchanged": true,
+        "redundancy_after_euler_zero": true,
+        "redundancy_rank": 78,
+        "xi": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1
+        ]
+      },
+      {
+        "auxiliary_norm_squared": "1027",
+        "equation_projector_idempotent": true,
+        "equation_projector_rank": 13,
+        "euler_after_gauge_zero": true,
+        "euler_rank": 13,
+        "field_projector_idempotent": true,
+        "field_projector_kills_gauge": true,
+        "field_projector_rank": 13,
+        "gauge_rank": 1,
+        "hodge_equals_norm_identity": true,
+        "middle_cohomology_dimension": 0,
+        "native_eta_norm_squared": "305",
+        "projected_euler_unchanged": true,
+        "redundancy_after_euler_zero": true,
+        "redundancy_rank": 78,
+        "xi": [
+          2,
+          -3,
+          5,
+          0,
+          7,
+          0,
+          0,
+          11,
+          0,
+          0,
+          13,
+          0,
+          17,
+          19
+        ]
+      }
+    ],
+    "dimension": 14,
+    "equation_dimension": 91,
+    "native_null_auxiliary_norm": "2",
+    "native_null_case_index": 1,
+    "redundancy_dimension": 364
+  },
+  "gu_typed_objects": {
+    "action_owner": "source B(epsilon) gauge variation and curvature/Bianchi exterior skeleton on the flat zero-residual germ; complete action Euler ownership remains open",
+    "carrier": "real rank-fourteen cotangent symbol of the local flat Y=Met(X) germ",
+    "grading": "Lambda^0 -> Lambda^1 -> Lambda^2 -> Lambda^3",
+    "pairing": "K717 background Frobenius q for field adjoints and covector contractions; native eta retained only as the action pairing",
+    "real_structure": "unchanged real carrier",
+    "target": "bosonic independent Euler rows MAP-TYPE=covector-dependent orthogonal projection"
+  },
+  "ledger_no_change_reason": "The bosonic projected complex is exact locally but the physical ledger requires the interacting full-field quotient, domain and positivity.",
+  "native_interface_status": {
+    "action_owned_bosonic_euler_symbol": false,
+    "complete_full_field_projectors": false,
+    "fermion_euler_symbol": false,
+    "fermion_gauge_symbol": false,
+    "fermion_redundancy_symbol": false,
+    "fredholm_domain": false,
+    "mixed_principal_blocks": false,
+    "nonlinear_moduli": false
+  },
+  "result_id": "K718-SC-ACT-06-BOSONIC-PROJECTED-PRINCIPAL-COMPLEX",
+  "schema_version": "1.0",
+  "scope": "The one-generator bosonic exterior/Koszul principal skeleton on K717's flat germ, reduced by the K717 background-owned positive metric; this is not the complete action-owned Euler linearization.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "complete_action_owned_bosonic_symbol_constructed": false,
+    "complete_fermionic_and_mixed_symbol_constructed": false,
+    "field_transverse_projector_constructed": true,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "independent_euler_row_projector_constructed": true,
+    "native_null_covectors_are_included": true,
+    "positive_hodge_symbol_is_invertible": true,
+    "projectors_are_action_independent_auxiliary_gauge_data": true,
+    "projectors_are_defined_at_every_nonzero_covector": true,
+    "reduced_bosonic_middle_exactness_holds": true
+  }
+}
