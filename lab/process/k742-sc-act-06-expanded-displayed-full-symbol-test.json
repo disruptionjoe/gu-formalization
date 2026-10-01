@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Exact direct-sum disposition of the Spin obstruction and full-carrier threshold survivor. No full-carrier ellipticity, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "complete_moving_SC_ACT_06_ellipticity_proved": false,
+    "displayed_fermion_candidate_is_exact": true,
+    "exact_fermion_block_can_remove_spin_bosonic_cohomology": false,
+    "middle_cohomology_is_direct_sum": true,
+    "mixed_boson_fermion_principal_blocks_vanish": true,
+    "rank_threshold_clearance_proves_full_bosonic_exactness": false
+  },
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 27,
+    "probe": "tests/channel-swings/k742_sc_act_06_expanded_displayed_full_symbol_test_probe.py",
+    "producer": "tests/channel-swings/k742_sc_act_06_expanded_displayed_full_symbol_test.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "action_owned_full_carrier_plus_displayed_fermion_is_excluded_by_rank": false,
+    "action_owned_full_carrier_plus_displayed_fermion_is_proved_elliptic": false,
+    "expanded_parent_frontier": "SPIN_HORN_CLOSED__ACTION_OWNED_FULL_CARRIER_HORN_SURVIVES_NECESSARY_RANK_TEST",
+    "grade_saturated_spin_plus_displayed_fermion_realization_is_elliptic": false,
+    "next_exact_input": "Serialize the action-owned full-carrier residual pairing and Hessian on the same stationary Euclidean germ as K720, compute its image overlap with I1B, and construct the actual gauge/redundancy maps. The full carrier survives; the Spin truncation does not.",
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "action_owned_full_bosonic_rank_only_lower": 0,
+        "action_owned_full_displayed_symbol_exact_proved": false,
+        "case": "native_nonnull",
+        "fermion_middle_cohomology_dimension": 0,
+        "spin_bosonic_middle_cohomology_lower": 37775,
+        "spin_displayed_full_symbol_exact_possible": false,
+        "spin_full_middle_cohomology_lower": 37775
+      },
+      {
+        "action_owned_full_bosonic_rank_only_lower": 0,
+        "action_owned_full_displayed_symbol_exact_proved": false,
+        "case": "native_null_auxiliary_nonzero",
+        "fermion_middle_cohomology_dimension": 0,
+        "spin_bosonic_middle_cohomology_lower": 45939,
+        "spin_displayed_full_symbol_exact_possible": false,
+        "spin_full_middle_cohomology_lower": 45939
+      }
+    ],
+    "fermion_two_block_rank": 1920
+  },
+  "ledger_no_change_reason": "The exact displayed fermion block preserves the Spin obstruction and cannot upgrade the full-carrier rank threshold into bosonic exactness.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k721": {
+      "path": "lab/process/k721-sc-act-06-eq916-euclidean-fermion-symbol.json",
+      "sha256": "38e0c60674ade17a32d4ad6ef1d61ebbf53e6eb42e6dd9d810e2f67c3d98e481"
+    },
+    "k741": {
+      "path": "lab/process/k741-sc-act-06-expanded-bosonic-repair-test.json",
+      "sha256": "89abd9bb49215791bd1541cf62b005b1da28f8cf90e4d66c00c3aa605c4084dc"
+    }
+  },
+  "result_id": "K742-SC-ACT-06-EXPANDED-DISPLAYED-FULL-SYMBOL-TEST",
+  "schema_version": "1.0",
+  "scope": "Zero-fermion direct-sum composition of K741's expanded-parent bosonic rank outcomes with the displayed exact equation-(9.16) fermion diagonal.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,109 @@
+{
+  "claim_ceiling": "Exact derivative-only connection-response ranks. No residual-square Hessian equality, same-background image placement, gauge/redundancy completion, middle exactness, source-status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 43,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k740_sc_act_06_expanded_principal_response_rank_probe.py",
+    "producer": "tests/channel-swings/k740_sc_act_06_expanded_principal_response_rank.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "actual_hessian_rank_proved_equal_to_response_rank": false,
+    "full_connection_clears_both_required_thresholds_without_metric_epsilon_grant": true,
+    "full_connection_middle_exactness_proved": false,
+    "full_connection_rank": 122864,
+    "next_exact_input": "Compose the exact response ranks with K720's two I1B symbol strata. Exclude the Spin carrier even under favorable placement; preserve the full action-owned carrier only as threshold-capable until same-background image overlap, residual pairing, gauge and redundancy maps are serialized.",
+    "selected_low_grade_connection_rank": 650,
+    "spin_connection_rank": 60594,
+    "spin_fails_both_required_thresholds_even_with_maximal_metric_epsilon_grant": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "native_q_norm_squared": 1,
+        "ranks": {
+          "full_connection": {
+            "domain_dimension": 229376,
+            "nullity": 106512,
+            "rank": 122864,
+            "zero_columns": 16410
+          },
+          "grade_saturated_spin": {
+            "domain_dimension": 113792,
+            "nullity": 53198,
+            "rank": 60594,
+            "zero_columns": 8141
+          },
+          "selected_low_grade": {
+            "domain_dimension": 1470,
+            "nullity": 820,
+            "rank": 650,
+            "zero_columns": 105
+          }
+        }
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "native_q_norm_squared": 0,
+        "ranks": {
+          "full_connection": {
+            "domain_dimension": 229376,
+            "nullity": 106512,
+            "rank": 122864,
+            "zero_columns": 16
+          },
+          "grade_saturated_spin": {
+            "domain_dimension": 113792,
+            "nullity": 53198,
+            "rank": 60594,
+            "zero_columns": 14
+          },
+          "selected_low_grade": {
+            "domain_dimension": 1470,
+            "nullity": 820,
+            "rank": 650,
+            "zero_columns": 0
+          }
+        }
+      }
+    ],
+    "maximum_unserialized_metric_epsilon_rank": 101,
+    "required_total_new_rank_native_null": 106634,
+    "required_total_new_rank_nonnull": 98470
+  },
+  "ledger_no_change_reason": "The full response clears a necessary rank threshold but its residual-square Hessian rank, image placement relative to K720 and complete gauge/redundancy complex remain open.",
+  "operator": {
+    "complete_basis_enumeration": true,
+    "k_lift_rank_preserving": true,
+    "principal_map": "J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))",
+    "rank_field": "Q_IN_PINNED_REAL_U64_64_BASIS",
+    "zero_order_hodge_kappa_u_included": false
+  },
+  "pinned_inputs": {
+    "api": {
+      "path": "tests/channel-swings/k77_exact_bank_api.py",
+      "sha256": "5f9ca5458e55669bce226bf65e82b11a54d81d7cffeb2d18a1fb4635f575cf5b"
+    },
+    "bank": {
+      "path": "tests/fixtures/k77_exact_coefficient_bank_v1.json",
+      "sha256": "af7642876b0f788c4561f977c62b57307783849170031536a9e578102fc382c8"
+    },
+    "k737": {
+      "path": "lab/process/k737-sc-act-06-expanded-parent-dimension-threshold.json",
+      "sha256": "3a575fcf80a8d88985b7afa2d6c24ece1cb995e4aa0ffea4327a9dc148ad9d79"
+    },
+    "k739": {
+      "path": "lab/process/k739-sc-act-06-expanded-action-parent-ownership.json",
+      "sha256": "f7fa722d9e5298f589dd18546a20f532f9b6f14ac515f7efc08d6254a98b2a6c"
+    }
+  },
+  "result_id": "K740-SC-ACT-06-EXPANDED-PRINCIPAL-RESPONSE-RANK",
+  "schema_version": "1.0",
+  "scope": "Exact derivative-only K77 connection-response rank on the selected low-grade, grade-saturated Spin and action-owned full connection carriers at native nonnull and native-null covectors.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -7,6 +7,30 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K739--K742 EXPANDED ACTION PARENT AND PRINCIPAL RANK.**
+> K739 closes the zero-branch field-carrier ownership question: the written
+> action has nonzero Hessian on both the 8128-dimensional B-skew sector and
+> its 8256-dimensional complement, so its connection tangent is the full
+> 229376-direction carrier. This does not select U(32,32)^2 versus U(64,64)
+> symmetry/pairing coordinates. K740 exactly computes the derivative-only
+> principal response `K_LIFT(SHIAB(q wedge u))` on the complete pinned basis.
+> At both native-nonnull and native-null covectors, the selected low-grade,
+> Spin-saturated and full-connection ranks are respectively 650, 60594 and
+> 122864. K741 grants Spin another 101 metric/epsilon ranks and optimal image
+> placement; middle cohomology remains at least 37775/45939, so the Spin horn
+> is closed. The full connection response clears the necessary
+> 98470/106634 thresholds, but rank clearance does not prove its
+> residual-square Hessian rank or image placement. K742 adds the exact
+> displayed fermion block: it cannot remove the Spin obstruction and cannot
+> promote the full carrier to ellipticity. Next serialize the full-carrier
+> residual pairing/Hessian on the same stationary Euclidean germ as K720,
+> compute its exact image overlap with I1B, and build the actual gauge and
+> redundancy maps. See
+> `lab/process/k739-sc-act-06-expanded-action-parent-ownership.json`,
+> `lab/process/k740-sc-act-06-expanded-principal-response-rank.json`,
+> `lab/process/k741-sc-act-06-expanded-bosonic-repair-test.json`, and
+> `lab/process/k742-sc-act-06-expanded-displayed-full-symbol-test.json`.
+
 > **2026-10-01 K735--K738 COMPLETE LOW-GRADE I2B CEILING AND PARENT
 > THRESHOLD.** K735 proves that the complete selected low-grade source-native
 > `Y14` first-jet tangent has dimension 1571: 1470 connection, 91 primitive-

@@ -155,6 +155,18 @@ def load_inputs() -> dict:
         "k738": json.loads(
             (ROOT / "lab/process/k738-sc-act-06-source-low-grade-displayed-full-symbol-obstruction.json").read_text()
         ),
+        "k739": json.loads(
+            (ROOT / "lab/process/k739-sc-act-06-expanded-action-parent-ownership.json").read_text()
+        ),
+        "k740": json.loads(
+            (ROOT / "lab/process/k740-sc-act-06-expanded-principal-response-rank.json").read_text()
+        ),
+        "k741": json.loads(
+            (ROOT / "lab/process/k741-sc-act-06-expanded-bosonic-repair-test.json").read_text()
+        ),
+        "k742": json.loads(
+            (ROOT / "lab/process/k742-sc-act-06-expanded-displayed-full-symbol-test.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -531,6 +543,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K735--K738 prove that the complete selected low-grade" in live and
               "96899/105063" in live and "113893" in live and "229477" in live,
               "live K735--K738 selected low-grade ceiling and parent threshold missing")
+        check("K739--K742 close the Spin horn" in live and
+              "60594" in live and "122864" in live and "37775/45939" in live,
+              "live K739--K742 expanded-parent rank disposition missing")
         check("K732--K734 remain the sharper connection-only" in live and
               "97000/105164" in live and "98470/106634" in live,
               "live K732--K734 all-grade connection I2B ceiling missing")
@@ -547,6 +562,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K739--K742 close the expanded-parent ownership/rank fork" in summary and
+          "60594/113792" in summary and "122864/229376" in summary and
+          "37775/45939" in summary,
+          "current K739--K742 result lost")
     check("K735--K738 close the entire currently certified selected low-grade" in summary and
           "total dimension 1571" in summary and "96899/105063" in summary and
           "Spin 113893" in summary and "full-unitary 229477" in summary,
@@ -660,6 +679,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "full unprojected 16384-coefficient" in data["agenda"].get("latest_result_2026_10_01_k739_k742", "")
+        and "650, 60594 and 122864" in data["agenda"].get("latest_result_2026_10_01_k739_k742", "")
+        and "37775/45939" in data["agenda"].get("latest_result_2026_10_01_k739_k742", ""),
+        "agenda K739--K742 result is not current",
+    )
     check(
         "complete selected low-grade source-native tangent is 1571" in data["agenda"].get("latest_result_2026_10_01_k735_k738", "")
         and "at least 96899/105063" in data["agenda"].get("latest_result_2026_10_01_k735_k738", "")
@@ -1935,6 +1960,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k738_d["source_global_SC_ACT_06_refuted"],
           "K738 selected low-grade displayed full-symbol obstruction moved")
 
+    k739 = data["k739"]
+    check(k739["exact_action_ownership"]["action_owned_connection_coefficient_directions"] == 16384 and
+          k739["exact_action_ownership"]["action_owned_connection_one_form_directions"] == 229376 and
+          not k739["exact_action_ownership"]["hard_spin_reduction_generated_by_written_action"] and
+          k739["decision"]["full_connection_carrier_is_action_owned_at_zero_branch"] and
+          not k739["decision"]["operative_unitary_symmetry_parent_is_selected"],
+          "K739 expanded action-parent ownership moved")
+
+    k740 = data["k740"]
+    for case in k740["exact_controls"]["cases"]:
+        check(case["ranks"]["selected_low_grade"]["rank"] == 650 and
+              case["ranks"]["grade_saturated_spin"]["rank"] == 60594 and
+              case["ranks"]["full_connection"]["rank"] == 122864,
+              "K740 expanded principal-response rank moved")
+    check(not k740["operator"]["zero_order_hodge_kappa_u_included"] and
+          k740["decision"]["spin_fails_both_required_thresholds_even_with_maximal_metric_epsilon_grant"] and
+          k740["decision"]["full_connection_clears_both_required_thresholds_without_metric_epsilon_grant"] and
+          not k740["decision"]["full_connection_middle_exactness_proved"],
+          "K740 principal-response disposition moved")
+
+    k741 = data["k741"]
+    check([row["spin_middle_cohomology_lower"] for row in k741["exact_controls"]["cases"]] == [37775, 45939] and
+          all(row["full_rank_threshold_cleared"] for row in k741["exact_controls"]["cases"]) and
+          k741["decision"]["grade_saturated_spin_parent_excluded_even_under_favorable_metric_epsilon_grant"] and
+          not k741["decision"]["action_owned_full_connection_parent_proves_middle_exactness"],
+          "K741 expanded bosonic repair disposition moved")
+
+    k742 = data["k742"]
+    check(k742["composition_theorem"]["displayed_fermion_candidate_is_exact"] and
+          not k742["decision"]["grade_saturated_spin_plus_displayed_fermion_realization_is_elliptic"] and
+          not k742["decision"]["action_owned_full_carrier_plus_displayed_fermion_is_proved_elliptic"] and
+          k742["decision"]["expanded_parent_frontier"] == "SPIN_HORN_CLOSED__ACTION_OWNED_FULL_CARRIER_HORN_SURVIVES_NECESSARY_RANK_TEST",
+          "K742 expanded displayed full-symbol disposition moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3171,6 +3230,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k738-mixed", lambda d: d["k738"]["composition_theorem"].__setitem__("mixed_boson_fermion_principal_blocks_vanish", False))
     add("k738-exact", lambda d: d["k738"]["composition_theorem"].__setitem__("selected_low_grade_i2b_grant_can_make_full_symbol_exact", True))
     add("k738-global", lambda d: d["k738"]["decision"].__setitem__("source_global_SC_ACT_06_refuted", True))
+    add("k739-owner", lambda d: d["k739"]["decision"].__setitem__("full_connection_carrier_is_action_owned_at_zero_branch", False))
+    add("k739-spin", lambda d: d["k739"]["exact_action_ownership"].__setitem__("hard_spin_reduction_generated_by_written_action", True))
+    add("k740-spin-rank", lambda d: d["k740"]["exact_controls"]["cases"][0]["ranks"]["grade_saturated_spin"].__setitem__("rank", 0))
+    add("k740-full-rank", lambda d: d["k740"]["exact_controls"]["cases"][1]["ranks"]["full_connection"].__setitem__("rank", 0))
+    add("k740-zero-order", lambda d: d["k740"]["operator"].__setitem__("zero_order_hodge_kappa_u_included", True))
+    add("k741-spin-cohom", lambda d: d["k741"]["exact_controls"]["cases"][0].__setitem__("spin_middle_cohomology_lower", 0))
+    add("k741-full-exact", lambda d: d["k741"]["decision"].__setitem__("action_owned_full_connection_parent_proves_middle_exactness", True))
+    add("k742-spin-exact", lambda d: d["k742"]["decision"].__setitem__("grade_saturated_spin_plus_displayed_fermion_realization_is_elliptic", True))
+    add("k742-full-exact", lambda d: d["k742"]["decision"].__setitem__("action_owned_full_carrier_plus_displayed_fermion_is_proved_elliptic", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

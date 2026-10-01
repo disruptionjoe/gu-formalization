@@ -1,0 +1,89 @@
+{
+  "claim_ceiling": "Exact rank obstruction for the Spin carrier and necessary-threshold survival for the full carrier. No full-Hessian rank, same-background placement, middle exactness, source-status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 41,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k741_sc_act_06_expanded_bosonic_repair_test_probe.py",
+    "producer": "tests/channel-swings/k741_sc_act_06_expanded_bosonic_repair_test.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "action_owned_full_connection_parent_clears_necessary_rank_threshold": true,
+    "action_owned_full_connection_parent_proves_middle_exactness": false,
+    "grade_saturated_spin_parent_can_repair_k720_to_middle_exactness": false,
+    "grade_saturated_spin_parent_excluded_even_under_favorable_metric_epsilon_grant": true,
+    "next_exact_input": "Serialize the action-owned full-carrier residual pairing and Hessian on the same stationary Euclidean germ as K720, compute its image overlap with I1B, and construct the actual gauge/redundancy maps. The full carrier survives; the Spin truncation does not.",
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "field_dimension": 229386,
+        "full_combined_rank_upper": 229386,
+        "full_connection_response_rank": 122864,
+        "full_middle_cohomology_lower_from_rank_only": 0,
+        "full_middle_exact_proved": false,
+        "full_rank_threshold_cleared": true,
+        "i1b_rank": 130912,
+        "owned_gauge_image_rank": 4,
+        "spin_combined_rank_upper": 191607,
+        "spin_connection_response_rank": 60594,
+        "spin_i2b_hessian_rank_ceiling": 60695,
+        "spin_kernel_lower": 37779,
+        "spin_maximal_metric_epsilon_grant": 101,
+        "spin_middle_cohomology_lower": 37775,
+        "spin_middle_exact_possible": false
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "field_dimension": 229386,
+        "full_combined_rank_upper": 229386,
+        "full_connection_response_rank": 122864,
+        "full_middle_cohomology_lower_from_rank_only": 0,
+        "full_middle_exact_proved": false,
+        "full_rank_threshold_cleared": true,
+        "i1b_rank": 122748,
+        "owned_gauge_image_rank": 4,
+        "spin_combined_rank_upper": 183443,
+        "spin_connection_response_rank": 60594,
+        "spin_i2b_hessian_rank_ceiling": 60695,
+        "spin_kernel_lower": 45943,
+        "spin_maximal_metric_epsilon_grant": 101,
+        "spin_middle_cohomology_lower": 45939,
+        "spin_middle_exact_possible": false
+      }
+    ]
+  },
+  "factorization_controls": {
+    "complete_gauge_redundancy_complex_serialized": false,
+    "full_connection_response_alone_used": true,
+    "response_image_overlap_with_i1b_proved": false,
+    "same_background_composition_proved": false,
+    "spin_metric_epsilon_unspecified_maximal_grant": 101,
+    "stationary_residual_square_hessian_rank_le_response_rank": true
+  },
+  "ledger_no_change_reason": "Spin is now excluded on the tested strata, but the full action-owned carrier only clears a necessary rank threshold and has not been assembled into an exact symbol complex.",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k739": {
+      "path": "lab/process/k739-sc-act-06-expanded-action-parent-ownership.json",
+      "sha256": "f7fa722d9e5298f589dd18546a20f532f9b6f14ac515f7efc08d6254a98b2a6c"
+    },
+    "k740": {
+      "path": "lab/process/k740-sc-act-06-expanded-principal-response-rank.json",
+      "sha256": "bc1d8b00bf4c58c1cd3a9da36e8933218476ca4a7182a84a10131a058b8867e7"
+    }
+  },
+  "result_id": "K741-SC-ACT-06-EXPANDED-BOSONIC-REPAIR-TEST",
+  "schema_version": "1.0",
+  "scope": "Favorable rank-only composition of K740's exact derivative response with K720's two selected I1B strata. Residual pairing, same-background image overlap and full gauge/redundancy maps are not inferred.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

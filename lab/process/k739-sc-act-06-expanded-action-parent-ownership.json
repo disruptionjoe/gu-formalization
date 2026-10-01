@@ -1,0 +1,66 @@
+{
+  "claim_ceiling": "Exact zero-branch action-owned field-carrier composition. No unique symmetry parent, nonzero-branch stationarity, principal-rank, ellipticity, source-status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 29,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k739_sc_act_06_expanded_action_parent_ownership_probe.py",
+    "producer": "tests/channel-swings/k739_sc_act_06_expanded_action_parent_ownership.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "full_connection_carrier_is_action_owned_at_zero_branch": true,
+    "grade_saturated_spin_is_the_written_action_field_domain": false,
+    "k737_action_ownership_open_is_closed_at_zero_branch_field_carrier_level": true,
+    "next_exact_input": "Compute the derivative-only principal rank of u -> star Shiab(q wedge u) on the action-owned full 229376-direction connection carrier, with the grade-saturated Spin carrier retained as a hostile rival, at native nonnull and native-null covectors.",
+    "nonzero_branch_expanded_parent_is_selected": false,
+    "operative_unitary_symmetry_parent_is_selected": false
+  },
+  "direction": "observed_to_native",
+  "exact_action_ownership": {
+    "action_owned_connection_coefficient_directions": 16384,
+    "action_owned_connection_one_form_directions": 229376,
+    "action_owned_total_with_metric_epsilon": 229477,
+    "complement_coefficient_directions": 8256,
+    "full_quadratic_norm_has_nonzero_hessian_on_complement_sector": true,
+    "full_quadratic_norm_has_nonzero_hessian_on_spin_sector": true,
+    "hard_spin_reduction_generated_by_written_action": false,
+    "moving_spin_is_only_consistent_truncation_or_real_form_posit": true,
+    "spin_coefficient_directions": 8128,
+    "stationary_germ": "K77_ZERO_BRANCH",
+    "written_action_uses_full_unprojected_connection_displacement": true
+  },
+  "ledger_no_change_reason": "This closes zero-branch field-carrier ownership only. It does not select the unitary symmetry/pairing parent, prove the full principal response rank or establish middle exactness.",
+  "parent_typing": {
+    "bosonic_reduction_disposition": "LOCAL_LINEARIZED_CONSISTENT_TRUNCATION_CANDIDATE__DYNAMIC_SELECTION_OPEN",
+    "field_carrier_selected_by_zero_branch_action_hessian": "FULL_16384_COEFFICIENT_CONNECTION_CARRIER",
+    "full_U64_64_symmetry_parent_selected": false,
+    "nonzero_branch_normal_hessian": "OPEN",
+    "symmetry_and_pairing_fork": "OPEN",
+    "two_U32_32_half_symmetry_parent_selected": false
+  },
+  "pinned_inputs": {
+    "closure": {
+      "path": "lab/process/selected-k77-grade5-unitary-parent-euler-closure.json",
+      "sha256": "00f2800cd4a2af6573800460639bde38477e925c81bd158362a6f92f7ca9bf66"
+    },
+    "ownership": {
+      "path": "lab/process/selected-k77-bosonic-parent-action-ownership.json",
+      "sha256": "22771ea9ddd0908c930aa36f8c07372ba6fd8d2afe0624abc24ccfc570c1c9e2"
+    },
+    "threshold": {
+      "path": "lab/process/k737-sc-act-06-expanded-parent-dimension-threshold.json",
+      "sha256": "3a575fcf80a8d88985b7afa2d6c24ece1cb995e4aa0ffea4327a9dc148ad9d79"
+    },
+    "typing": {
+      "path": "lab/process/selected-k77-action-owned-reduction-carrier-typing.json",
+      "sha256": "d943b0198e5f649e21a169bc368db9a6d8937804c1ca1862c198bddea0d6f8d7"
+    }
+  },
+  "result_id": "K739-SC-ACT-06-EXPANDED-ACTION-PARENT-OWNERSHIP",
+  "schema_version": "1.0",
+  "scope": "Composition of previously certified zero-branch Hessian ownership, moving-reduction typing and Euler closure; no new source interpretation or nonzero-branch stationarity claim.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

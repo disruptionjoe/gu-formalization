@@ -4,6 +4,33 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K739--K742 expanded action parent and principal rank
+
+- `channel-swings/k739_sc_act_06_expanded_action_parent_ownership.py` composes
+  the exact zero-branch Hessian ownership and full Euler carrier; its hostile
+  probe rejects false Spin-domain or unique-symmetry-parent promotion.
+- `channel-swings/k740_sc_act_06_expanded_principal_response_rank.py`
+  enumerates the pinned real K77 basis and computes exact derivative-only
+  ranks 650, 60594 and 122864 on both required covector strata. Its artifact
+  probe validates every dimension/rank/nullity identity and hostile mutation.
+- `channel-swings/k741_sc_act_06_expanded_bosonic_repair_test.py` proves the
+  Spin carrier remains short even with a maximal 101-rank metric/epsilon grant
+  while the full carrier clears only the necessary rank threshold.
+- `channel-swings/k742_sc_act_06_expanded_displayed_full_symbol_test.py`
+  composes those outcomes with the exact displayed fermion block and zero
+  mixed symbols without promoting threshold clearance to ellipticity.
+
+```bash
+python3 tests/channel-swings/k739_sc_act_06_expanded_action_parent_ownership.py
+python3 tests/channel-swings/k739_sc_act_06_expanded_action_parent_ownership_probe.py
+python3 tests/channel-swings/k740_sc_act_06_expanded_principal_response_rank.py
+python3 tests/channel-swings/k740_sc_act_06_expanded_principal_response_rank_probe.py
+python3 tests/channel-swings/k741_sc_act_06_expanded_bosonic_repair_test.py
+python3 tests/channel-swings/k741_sc_act_06_expanded_bosonic_repair_test_probe.py
+python3 tests/channel-swings/k742_sc_act_06_expanded_displayed_full_symbol_test.py
+python3 tests/channel-swings/k742_sc_act_06_expanded_displayed_full_symbol_test_probe.py
+```
+
 ## K735--K738 complete low-grade I2B ceiling and parent threshold
 
 - `channel-swings/k735_sc_act_06_source_low_grade_i2b_rank_ceiling.py`

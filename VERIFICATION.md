@@ -7,6 +7,45 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K739--K742 expanded action parent and principal rank (2026-10-01)
+
+K739 composes the existing zero-branch action-Hessian and Euler-carrier
+certificates. The written action norms the full unprojected connection
+displacement and has nonzero Hessian on both B-adjoint sectors of dimensions
+8128 and 8256. Thus the full 16384-coefficient, 229376-direction connection
+carrier is action-owned at this germ; the hard Spin restriction is not an
+action equation. This does not choose between the two-half and full-unitary
+symmetry/pairing descriptions.
+
+K740 performs exact sparse rational elimination after the certified real
+K-lift of `Shiab(q wedge u)`. It enumerates every basis direction on both a
+native-nonnull and a native-null covector. In each stratum the ranks are
+650/1470 for grades 1+2, 60594/113792 for the grade-saturated Spin carrier,
+and 122864/229376 for the full connection carrier. The computation explicitly
+excludes the zero-order Hodge/kappa term.
+
+K741 uses only the residual-square inequality `rank H <= rank J`. Even after
+granting Spin all 101 metric/epsilon directions and optimal placement with
+K720's I1B image, the bosonic middle-cohomology lower bounds are 37775 and
+45939. The full connection response clears both necessary rank thresholds,
+but its Hessian rank, same-background image overlap, and gauge/redundancy maps
+remain unproved. K742 composes these outcomes with K719's zero mixed blocks and
+K721's exact displayed fermion diagonal. The Spin obstruction survives; the
+full carrier remains a threshold-capable candidate, not an ellipticity proof.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k739_sc_act_06_expanded_action_parent_ownership.py
+python3 tests/channel-swings/k739_sc_act_06_expanded_action_parent_ownership_probe.py
+python3 tests/channel-swings/k740_sc_act_06_expanded_principal_response_rank.py
+python3 tests/channel-swings/k740_sc_act_06_expanded_principal_response_rank_probe.py
+python3 tests/channel-swings/k741_sc_act_06_expanded_bosonic_repair_test.py
+python3 tests/channel-swings/k741_sc_act_06_expanded_bosonic_repair_test_probe.py
+python3 tests/channel-swings/k742_sc_act_06_expanded_displayed_full_symbol_test.py
+python3 tests/channel-swings/k742_sc_act_06_expanded_displayed_full_symbol_test_probe.py
+```
+
 ## K735--K738 complete low-grade I2B ceiling and parent threshold (2026-10-01)
 
 K735 composes two prior exact facts without inventing the missing response:
