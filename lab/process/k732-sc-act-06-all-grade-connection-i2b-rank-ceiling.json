@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "Exact rank ceiling for I2B Hessians factored through the existing 1470-dimensional all-grade connection response. No same-background composition, complete moving-field symbol, stationarity theorem, Euclidean owner, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 31,
+    "probe": "tests/channel-swings/k732_sc_act_06_all_grade_connection_i2b_rank_ceiling_probe.py",
+    "producer": "tests/channel-swings/k732_sc_act_06_all_grade_connection_i2b_rank_ceiling.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "existing_connection_all_grade_response_is_stronger_than_serialized_196_bank": true,
+    "existing_response_constructs_complete_moving_i2b_symbol": false,
+    "existing_response_may_be_granted_as_a_favorable_dimension_only_transfer": true,
+    "native_cross_background_composition_proved": false,
+    "next_exact_test": "Grant the full 1470-rank ceiling a maximally favorable embedding into each K720 stratum and compare it with the exact rank required for middle exactness."
+  },
+  "direction": "observed_to_native",
+  "existing_all_grade_connection_response": {
+    "additional_ceiling_beyond_serialized_bank": 1274,
+    "complete_moving_metric_epsilon_i2b_map_serialized": false,
+    "domain_dimension": 1470,
+    "i2b_hessian_rank_ceiling": 1470,
+    "output_coordinate_support": 4330,
+    "response_cokernel_dimension": 2860,
+    "response_nullity": 0,
+    "response_rank": 1470,
+    "same_stationary_background_as_k720_flat_germ": false,
+    "serialized_bank_ceiling": 196,
+    "source_tangent_grades": [
+      1,
+      2
+    ]
+  },
+  "factorization_theorem": {
+    "independent_of_nonzero_overall_weight": true,
+    "independent_of_pairing_signature": true,
+    "injective_J_does_not_imply_elliptic_H_on_a_larger_field_carrier": true,
+    "rank_H_le_rank_J": true,
+    "rank_J_le_domain_dimension": true,
+    "stationary_residual_square_hessian": "H = J^! Q_B J"
+  },
+  "gu_typed_objects": {
+    "action_owner": "source-owned printed-endpoint I2B residual-square grammar factored through the repo's exact all-grade raw-Upsilon response",
+    "carrier": "1470-real Cl1+Cl2 connection tangent mapped into 4330 raw-Upsilon coordinates",
+    "grading": "input Clifford grades 1,2 and output grades 1,2,5",
+    "pairing": "arbitrary nondegenerate or indefinite Q_B in the residual-square factorization; rank theorem does not require positivity",
+    "real_structure": "selected real K77 connection response; K720 comparison, if made, is an explicitly favorable dimension-only grant",
+    "target": "maximum rank of the induced connection-only I2B Hessian"
+  },
+  "ledger_no_change_reason": "This reuses an existing conditional all-grade connection response and proves only a factorization ceiling; it neither constructs the missing moving metric/epsilon map nor changes a physics verdict.",
+  "pinned_inputs": {
+    "all_grade_response": {
+      "path": "lab/process/selected-k77-coupled-all-grade-upsilon-graph.json",
+      "sha256": "b738d1c5d7113bfd12e1e182d4367c34e802e741bbd18076a9e24df71ee281ab"
+    },
+    "serialized_ceiling": {
+      "path": "lab/process/k729-sc-act-06-serialized-i2b-principal-rank-ceiling.json",
+      "sha256": "6e95d50376364e99e5d46a87fdffe0fa81f890a38c5bad45e85dedc3ff36596e"
+    }
+  },
+  "result_id": "K732-SC-ACT-06-ALL-GRADE-CONNECTION-I2B-RANK-CEILING",
+  "schema_version": "1.0",
+  "scope": "Universal rank ceiling for an I2B residual-square Hessian factored through the existing exact all-grade Cl1+Cl2 connection response; no transfer to K720's flat germ is assumed.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

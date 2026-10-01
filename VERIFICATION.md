@@ -7,6 +7,38 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K732--K734 all-grade connection I2B ceiling (2026-10-01)
+
+K732 reuses the exact all-grade `Cl1+Cl2` raw-`Upsilon` response without
+promoting it to the missing moving full-field symbol. At a stationary
+residual-zero background the I2B Hessian factors as `H=J^! Q_B J`, hence
+`rank H <= rank J <= dim domain` for every pairing signature and every
+nonzero overall weight. The existing response has domain dimension and rank
+1470, nullity zero and finite output support 4330, so its connection-only I2B
+rank ceiling is 1470. It belongs to the selected nonzero-`kappa_1` K77
+background and is not natively composed with K720's flat germ.
+
+K733 grants that cross-background transport solely for the strongest possible
+dimension test. With arbitrary relative weight, maximally favorable image
+placement and no assumed overlap with the I1B image, combined Euler ranks are
+at most 132382 and 124218. After the owned rank-four gauge image, bosonic
+middle cohomology is therefore at least 97000 and 105164. The exact minimum
+new ranks required for middle exactness are 98470 and 106634, leaving
+shortfalls 97000 and 105164 after the full connection-response grant.
+
+K734 composes the bound with K719 and K721. The zero-fermion mixed principal
+blocks vanish and the displayed two-block fermion candidate has rank
+1920/1920, so full middle cohomology is a direct sum and retains the same
+lower bounds. The result closes only the connection-only all-grade repair of
+the frozen flat realization. It does not exclude a complete moving metric/
+epsilon/connection I2B map, another stationary germ or another action-owned
+principal packet.
+
+The producers pass 38/42/36 controls and their probes reject 31/31, 33/33 and
+29/29 hostile mutations. SC-ACT-06 remains `ASSERTS`; the source register,
+physics ledger, canon, paper, public posture, prediction, confirmation and
+physical verdicts remain unchanged.
+
 ## K729--K731 serialized I2B repair ceiling (2026-10-01)
 
 K729 reconciles the source owner before using the old I2B packet. The

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9fee32159b7f
+revision_basis: f0759eb3d550
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K732--K734 test the strongest dimension-only use of the already-built
+    all-grade `Cl1+Cl2` connection response after K731. K732 applies the
+    stationary residual-square factorization `H=J^! Q_B J`: the exact raw-
+    `Upsilon` response has domain and rank 1470, so any I2B Hessian factored
+    through it has rank at most 1470, independently of pairing signature or
+    nonzero overall weight. This response belongs to the selected nonzero-
+    `kappa_1` K77 background, not K720's flat germ; no native cross-background
+    composition is claimed. K733 nevertheless grants that entire ceiling an
+    arbitrary-weight, maximally favorable embedding into both K720 strata.
+    Middle cohomology remains at least 97000/105164 after the owned rank-four
+    gauge image. Equivalently, a complete repair needs at least 98470/106634
+    new independent ranks relative to selected I1B, so the granted connection
+    response remains short by 97000/105164. K734 composes the exact displayed
+    equation-(9.16) fermion block through K719's zero mixed blocks; the full
+    symbol retains the same lower bounds. Thus the connection-only all-grade
+    route cannot repair the frozen flat realization by another weight or
+    embedding. The complete moving metric/epsilon/connection I2B map or a
+    genuinely different action-owned principal packet remains open. SC-ACT-06
+    remains `ASSERTS`; no source, ledger, canon, paper, public, prediction,
+    confirmation or physical verdict moves.
+
     K729--K731 test the strongest repair supplied by the currently serialized
     source-owned I2B bank against K720's flat selected-I1B obstruction. K729
     reconciles the printed-endpoint residual square: residual zero kills its
@@ -12107,6 +12128,23 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K732--K734 grant the entire existing rank-1470
+  all-grade `Cl1+Cl2` connection response as a dimension-only repair of K720.
+  Because the residual-square Hessian factors as `J^! Q_B J`, it can add rank
+  at most 1470 for every nonzero weight and every favorable image placement.
+  The augmented bosonic complex still has middle cohomology at least
+  97000/105164, and K719's zero mixed blocks prevent the exact displayed
+  fermion diagonal from repairing it. This is a stronger ceiling than the
+  serialized 196-bank test, but the existing response lives on a different
+  selected nonzero-`kappa_1` background; the comparison deliberately grants
+  transport and does not assert native composition. Construct one stationary
+  source-typed Euclidean germ with the complete moving metric, epsilon and
+  connection I2B principal map contributing at least 98470/106634 new ranks
+  relative to K720's selected-I1B strata, or a genuinely different action-
+  owned principal packet, together with actual gauge/redundancy maps. Do not
+  retry the connection-only response at another weight or call its injectivity
+  ellipticity on the 229386-dimensional coupled carrier.
+
   On the SC-ACT-06 route, K729--K731 grant the entire currently serialized
   source-owned I2B bank as a maximally favorable repair of K720. The bank is
   only 196-dimensional, so for every relative weight and every placement its
@@ -12905,6 +12943,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the SC-ACT-06 route, K732--K734 close the connection-only all-grade
+  residual-square repair of K720 under a maximally favorable dimension grant.
+  The exact rank-1470 raw-`Upsilon` response can induce an I2B Hessian of rank
+  at most 1470, leaving bosonic and full middle cohomology at least
+  97000/105164 after the owned rank-four gauge image. The complete repair
+  threshold is 98470/106634 independent new ranks relative to the selected
+  I1B strata. Construct the missing stationary moving metric/epsilon/
+  connection I2B principal map meeting that threshold, or a genuinely
+  different action-owned principal packet, with its actual gauge and
+  redundancy maps and one coherent Euclidean domain. Only then recompute both
+  diagonal symbols and test `ker E(xi)=im G(xi)` for every nonzero covector.
+  The favorable cross-background transfer used for the ceiling is not a
+  native composition; SC-ACT-06 remains `ASSERTS`.
+
   On the SC-ACT-06 route, K729--K731 reject the strongest possible use of the
   currently serialized 196-direction I2B bank as a repair of K720. Even with
   arbitrary relative weight and maximally favorable image placement, the

@@ -134,6 +134,15 @@ def load_inputs() -> dict:
         "k731": json.loads(
             (ROOT / "lab/process/k731-sc-act-06-i1b-i2b-displayed-full-symbol-obstruction.json").read_text()
         ),
+        "k732": json.loads(
+            (ROOT / "lab/process/k732-sc-act-06-all-grade-connection-i2b-rank-ceiling.json").read_text()
+        ),
+        "k733": json.loads(
+            (ROOT / "lab/process/k733-sc-act-06-all-grade-connection-bosonic-repair-obstruction.json").read_text()
+        ),
+        "k734": json.loads(
+            (ROOT / "lab/process/k734-sc-act-06-all-grade-connection-displayed-full-symbol-obstruction.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -507,6 +516,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K729--K731 reject the strongest possible use" in live and
               "196-direction" in live and "98274/106438" in live,
               "live K729--K731 serialized I2B repair ceiling missing")
+        check("K732--K734 close the connection-only all-grade" in live and
+              "97000/105164" in live and "98470/106634" in live,
+              "live K732--K734 all-grade connection I2B ceiling missing")
         check("K720--K722 reject the frozen K132-selected I1B" in live and
               "98470" in live and "106634" in live and
               "displayed fermion candidate is exact" in live,
@@ -520,6 +532,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K732--K734 test the strongest dimension-only use" in summary and
+          "domain and rank 1470" in summary and "97000/105164" in summary and
+          "98470/106634" in summary,
+          "current K732--K734 result lost")
     check("K729--K731 test the strongest repair supplied" in summary and
           "any-weight serialized I2B" in summary and "98274" in summary and
           "106438" in summary,
@@ -625,6 +641,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "domain and rank are 1470" in data["agenda"].get("latest_result_2026_10_01_k732_k734", "")
+        and "at least 97000/105164" in data["agenda"].get("latest_result_2026_10_01_k732_k734", "")
+        and "98470/106634" in data["agenda"].get("latest_result_2026_10_01_k732_k734", ""),
+        "agenda K732--K734 result is not current",
+    )
     check(
         "bank has dimension 196" in data["agenda"].get("latest_result_2026_10_01_k729_k731", "")
         and "at least 98274/106438" in data["agenda"].get("latest_result_2026_10_01_k729_k731", "")
@@ -1784,6 +1806,52 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k731_d["flat_selected_i1b_plus_any_weight_serialized_i2b_plus_displayed_eq916_realization_rejected_as_elliptic"] and
           not k731_d["source_global_SC_ACT_06_refuted"],
           "K731 displayed full-symbol obstruction or ceiling moved")
+
+    k732 = data["k732"]
+    k732_t = k732["factorization_theorem"]
+    k732_e = k732["existing_all_grade_connection_response"]
+    k732_d = k732["decision"]
+    check(k732_t["rank_H_le_rank_J"] and
+          k732_t["independent_of_pairing_signature"] and
+          k732_e["domain_dimension"] == 1470 and
+          k732_e["response_rank"] == 1470 and
+          k732_e["i2b_hessian_rank_ceiling"] == 1470 and
+          not k732_e["complete_moving_metric_epsilon_i2b_map_serialized"] and
+          not k732_e["same_stationary_background_as_k720_flat_germ"] and
+          k732_d["existing_response_may_be_granted_as_a_favorable_dimension_only_transfer"] and
+          not k732_d["native_cross_background_composition_proved"],
+          "K732 all-grade connection I2B factorization or rank ceiling moved")
+
+    k733 = data["k733"]
+    k733_g = k733["strongest_grant"]
+    k733_c = k733["exact_controls"]
+    k733_d = k733["decision"]
+    check(k733_g["maximally_favorable_image_placement"] and
+          k733_g["cross_background_transport_granted_for_dimension_test_only"] and
+          not k733_g["native_cross_background_composition_claimed"] and
+          k733_c["connection_i2b_rank_ceiling"] == 1470 and
+          k733_c["nonnull_middle_cohomology_lower"] == 97000 and
+          k733_c["native_null_middle_cohomology_lower"] == 105164 and
+          k733_c["cases"][0]["minimum_new_rank_required_for_middle_exactness"] == 98470 and
+          k733_c["cases"][1]["minimum_new_rank_required_for_middle_exactness"] == 106634 and
+          not k733_d["existing_all_grade_connection_response_can_repair_k720_to_middle_exactness"] and
+          k733_d["moving_metric_epsilon_or_other_new_principal_directions_remain_required"],
+          "K733 all-grade connection bosonic repair obstruction moved")
+
+    k734 = data["k734"]
+    k734_t = k734["composition_theorem"]
+    k734_c = k734["exact_controls"]
+    k734_d = k734["decision"]
+    check(k734_t["mixed_boson_fermion_principal_blocks_vanish"] and
+          k734_t["middle_cohomology_is_direct_sum"] and
+          k734_t["displayed_fermion_candidate_is_exact"] and
+          not k734_t["connection_only_i2b_grant_can_make_full_symbol_exact"] and
+          k734_c["fermion_two_block_rank"] == 1920 and
+          k734_c["nonnull_full_cohomology_lower"] == 97000 and
+          k734_c["native_null_full_cohomology_lower"] == 105164 and
+          k734_d["flat_selected_i1b_plus_favorable_all_grade_connection_i2b_plus_displayed_eq916_realization_rejected_as_elliptic"] and
+          not k734_d["source_global_SC_ACT_06_refuted"],
+          "K734 all-grade connection displayed full-symbol obstruction moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -3001,6 +3069,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k731-mixed", lambda d: d["k731"]["composition_theorem"].__setitem__("mixed_boson_fermion_principal_blocks_vanish", False))
     add("k731-exact", lambda d: d["k731"]["composition_theorem"].__setitem__("arbitrary_weight_serialized_i2b_can_make_full_symbol_exact", True))
     add("k731-global", lambda d: d["k731"]["decision"].__setitem__("source_global_SC_ACT_06_refuted", True))
+    add("k732-factor", lambda d: d["k732"]["factorization_theorem"].__setitem__("rank_H_le_rank_J", False))
+    add("k732-rank", lambda d: d["k732"]["existing_all_grade_connection_response"].__setitem__("i2b_hessian_rank_ceiling", 1471))
+    add("k732-background", lambda d: d["k732"]["existing_all_grade_connection_response"].__setitem__("same_stationary_background_as_k720_flat_germ", True))
+    add("k733-grant", lambda d: d["k733"]["strongest_grant"].__setitem__("cross_background_transport_granted_for_dimension_test_only", False))
+    add("k733-cohomology", lambda d: d["k733"]["exact_controls"].__setitem__("nonnull_middle_cohomology_lower", 0))
+    add("k733-repair", lambda d: d["k733"]["decision"].__setitem__("existing_all_grade_connection_response_can_repair_k720_to_middle_exactness", True))
+    add("k734-mixed", lambda d: d["k734"]["composition_theorem"].__setitem__("mixed_boson_fermion_principal_blocks_vanish", False))
+    add("k734-exact", lambda d: d["k734"]["composition_theorem"].__setitem__("connection_only_i2b_grant_can_make_full_symbol_exact", True))
+    add("k734-global", lambda d: d["k734"]["decision"].__setitem__("source_global_SC_ACT_06_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

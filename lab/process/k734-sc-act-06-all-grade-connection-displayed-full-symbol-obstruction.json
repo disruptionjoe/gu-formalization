@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact direct-sum obstruction after a favorable dimension-only transport of the existing all-grade connection response. No complete moving-field no-go, native cross-background composition, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "complete_moving_SC_ACT_06_ellipticity_proved": false,
+    "connection_only_i2b_grant_can_make_full_symbol_exact": false,
+    "displayed_fermion_candidate_is_exact": true,
+    "exact_fermion_block_can_remove_bosonic_cohomology": false,
+    "middle_cohomology_is_direct_sum": true,
+    "mixed_boson_fermion_principal_blocks_vanish": true
+  },
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k734_sc_act_06_all_grade_connection_displayed_full_symbol_obstruction_probe.py",
+    "producer": "tests/channel-swings/k734_sc_act_06_all_grade_connection_displayed_full_symbol_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "connection_only_all_grade_route_should_be_extended_by_more_weight_or_embedding": false,
+    "displayed_fermion_principal_candidate_rejected": false,
+    "flat_selected_i1b_plus_favorable_all_grade_connection_i2b_plus_displayed_eq916_realization_rejected_as_elliptic": true,
+    "next_exact_input": "Construct the missing stationary moving metric/epsilon/connection I2B principal map or a genuinely different action-owned principal packet with at least 98470/106634 independent new ranks relative to K720, together with actual gauge/redundancy maps and one coherent Euclidean domain.",
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "bosonic_middle_cohomology_lower": 97000,
+        "case": "native_nonnull",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_lower": 97000,
+        "full_middle_exact_possible": false
+      },
+      {
+        "bosonic_middle_cohomology_lower": 105164,
+        "case": "native_null_auxiliary_nonzero",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_lower": 105164,
+        "full_middle_exact_possible": false
+      }
+    ],
+    "fermion_two_block_dimension": 1920,
+    "fermion_two_block_rank": 1920,
+    "native_null_full_cohomology_lower": 105164,
+    "nonnull_full_cohomology_lower": 97000
+  },
+  "ledger_no_change_reason": "The result rejects only a strongest-grant connection-only completion of one flat realization. The complete moving field Hessian, different stationary germs and other action-owned principal packets remain open.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k721": {
+      "path": "lab/process/k721-sc-act-06-eq916-euclidean-fermion-symbol.json",
+      "sha256": "38e0c60674ade17a32d4ad6ef1d61ebbf53e6eb42e6dd9d810e2f67c3d98e481"
+    },
+    "k733": {
+      "path": "lab/process/k733-sc-act-06-all-grade-connection-bosonic-repair-obstruction.json",
+      "sha256": "07e123a1ff2a4fb15e63c2595a192bcc1412b468ff57ba21ee306020cfb9f144"
+    }
+  },
+  "result_id": "K734-SC-ACT-06-ALL-GRADE-CONNECTION-DISPLAYED-FULL-SYMBOL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Zero-fermion direct-sum composition of K733's strongest dimension-only all-grade connection repair grant with the displayed pure-contraction equation-(9.16) fermion diagonal.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

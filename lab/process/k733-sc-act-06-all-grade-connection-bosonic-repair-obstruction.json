@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "Exact lower bounds under a maximally favorable dimension-only transport of the existing all-grade connection response. No native cross-background composition, complete moving-I2B no-go, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 33,
+    "probe": "tests/channel-swings/k733_sc_act_06_all_grade_connection_bosonic_repair_obstruction_probe.py",
+    "producer": "tests/channel-swings/k733_sc_act_06_all_grade_connection_bosonic_repair_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "connection_only_i2b_route_meets_required_new_rank_on_either_stratum": false,
+    "existing_all_grade_connection_response_can_repair_k720_to_middle_exactness": false,
+    "moving_metric_epsilon_or_other_new_principal_directions_remain_required": true,
+    "next_exact_input": "A stationary source-typed Euclidean germ whose complete moving metric/epsilon/connection I2B principal map contributes at least 98470/106634 independent new ranks relative to the selected I1B strata, or a different action-owned principal packet, with actual gauge/redundancy maps.",
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "combined_kernel_lower": 97004,
+        "combined_rank_upper": 132382,
+        "granted_connection_i2b_rank_ceiling": 1470,
+        "i1b_rank": 130912,
+        "middle_cohomology_lower": 97000,
+        "middle_exact_possible_under_grant": false,
+        "minimum_new_rank_required_for_middle_exactness": 98470,
+        "owned_gauge_image_rank": 4,
+        "rank_shortfall_after_grant": 97000
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "combined_kernel_lower": 105168,
+        "combined_rank_upper": 124218,
+        "granted_connection_i2b_rank_ceiling": 1470,
+        "i1b_rank": 122748,
+        "middle_cohomology_lower": 105164,
+        "middle_exact_possible_under_grant": false,
+        "minimum_new_rank_required_for_middle_exactness": 106634,
+        "owned_gauge_image_rank": 4,
+        "rank_shortfall_after_grant": 105164
+      }
+    ],
+    "connection_i2b_rank_ceiling": 1470,
+    "field_dimension": 229386,
+    "native_null_middle_cohomology_lower": 105164,
+    "nonnull_middle_cohomology_lower": 97000,
+    "owned_metric_diffeomorphism_rank": 4
+  },
+  "gu_typed_objects": {
+    "action_owner": "I1B and printed-endpoint I2B remain distinct; only their maximum possible ranks are combined",
+    "carrier": "K720 coupled bosonic carrier of complex dimension 229386",
+    "grading": "rank-four metric diffeomorphism gauge -> coupled bosonic fields -> combined Euler rows",
+    "pairing": "selected I1B action form plus a granted arbitrary-weight I2B Hessian factored through the exact rank-1470 connection response",
+    "real_structure": "dimension-only transport grant; no coherent Euclidean cross-background owner inferred",
+    "target": "middle exactness at both K720 covector strata"
+  },
+  "ledger_no_change_reason": "The result excludes only a connection-only dimension transfer into one rejected flat realization; it does not construct or exclude the complete moving field Hessian or another stationary germ.",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k732": {
+      "path": "lab/process/k732-sc-act-06-all-grade-connection-i2b-rank-ceiling.json",
+      "sha256": "7f3d673cfffa3927f3e4be0f7e51115645871f4015a34a3996736c59246be369"
+    }
+  },
+  "result_id": "K733-SC-ACT-06-ALL-GRADE-CONNECTION-BOSONIC-REPAIR-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Dimension-only strongest-grant test that transports the entire existing rank-1470 all-grade connection response into K720 with arbitrary weight and maximally favorable image placement; this is not a native cross-background composition.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "strongest_grant": {
+    "arbitrary_nonzero_relative_weight": true,
+    "cross_background_transport_granted_for_dimension_test_only": true,
+    "formula": "rank(A+cH) <= rank(A)+rank(H)",
+    "maximally_favorable_image_placement": true,
+    "native_cross_background_composition_claimed": false,
+    "no_i1b_i2b_image_overlap_assumed": true
+  },
+  "target_claim": "SC-ACT-06"
+}

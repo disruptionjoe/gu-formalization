@@ -7,6 +7,28 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K732--K734 ALL-GRADE CONNECTION I2B CEILING.** K732 applies
+> the stationary residual-square factorization `H=J^! Q_B J` to the existing
+> exact all-grade `Cl1+Cl2` raw-`Upsilon` response. Its domain and rank are
+> 1470, so every induced connection-only I2B Hessian has rank at most 1470,
+> independently of pairing signature or nonzero weight. The response belongs
+> to a selected nonzero-`kappa_1` K77 background, not K720's flat germ. K733
+> therefore makes only a favorable dimension grant: even if the full ceiling
+> is embedded with arbitrary weight and optimal image placement, bosonic
+> middle cohomology remains at least 97000/105164. A complete repair needs at
+> least 98470/106634 independent new ranks relative to selected I1B. K734
+> composes the exact displayed equation-(9.16) fermion diagonal through the
+> zero mixed-symbol theorem, so the full symbol retains those lower bounds.
+> Do not retry the existing connection response at another weight or infer a
+> native cross-background composition. Next construct the stationary moving
+> metric/epsilon/connection I2B map meeting the rank threshold, or a genuinely
+> different action-owned principal packet, with actual gauge/redundancy maps
+> and one coherent Euclidean domain. See
+> `lab/process/k732-sc-act-06-all-grade-connection-i2b-rank-ceiling.json`,
+> `lab/process/k733-sc-act-06-all-grade-connection-bosonic-repair-obstruction.json`,
+> and
+> `lab/process/k734-sc-act-06-all-grade-connection-displayed-full-symbol-obstruction.json`.
+
 > **2026-10-01 K729--K731 SERIALIZED I2B REPAIR CEILING.** K729 reconciles
 > the source-owned printed-endpoint I2B residual square: residual zero makes
 > its first variation vanish but does not make its Hessian vanish. The
