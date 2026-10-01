@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: a56bfcddbbca
+revision_basis: 5e46845105df
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K714--K716 close the abstract ownership shape left by K713 without
+    supplying the missing GU data. K714 identifies an `O(13)xO(1)` compact
+    reduction with an `eta`-orthogonal Cartan involution `theta`; the form
+    `q(v,w)=eta(v,theta w)` is positive definite while the native `(13,1)`
+    action form and real structure remain unchanged. K715 transports this
+    datum through the exact rational Lorentz boost rather than holding a
+    coordinate identity fixed. The boosted metric has plane matrix
+    `[[41/9,-40/9],[-40/9,41/9]]`, eigenvalues `9,1/9`, satisfies
+    `q eta^-1 q=eta`, and gives auxiliary Hodge ranks fourteen at both native-
+    null directions, with norms `18` and `2/9`. K716 proves availability is
+    not selection: `q_0,q_1,q_2` are distinct exact compatible metrics for the
+    same `eta`, with eigenvalue pairs `(1,1)`, `(9,1/9)`, `(81,1/81)`, and the
+    boost generates infinitely many conjugate compact reductions. Thus route
+    (b) has no finite-dimensional existence obstruction, but it still owes an
+    action/background-owned member and compatibility with the complete
+    stationary GU symbol. The abstract auxiliary-metric arc is closed against
+    further distance-only extension. No source, ledger, canon, paper, public,
+    prediction, confirmation or physical verdict moves.
+
     K711--K713 refine K710's Euclidean-signature boundary by proving the
     auxiliary-positive gauge route exactly and pricing its ownership cost.
     K711 proves that for any finite real symbol complex `V0 -> V1 -> V2`,
@@ -11983,6 +12002,21 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K714--K716 identify the exact ownership datum left
+  implicit by K713. An `eta`-orthogonal Cartan involution, equivalently an
+  `O(13)xO(1)` compact reduction, produces a positive auxiliary metric on the
+  unchanged real `(13,1)` carrier; transporting the reduction transports the
+  metric naturally and keeps the bare Hodge symbol elliptic. But the same
+  native `eta` admits an infinite Lorentz orbit of distinct positive Cartan
+  metrics, so existence and coordinate naturality do not select a source-
+  owned member. Do not extend this abstract auxiliary branch again. Construct
+  one distinguished stationary `B(epsilon)/Y` tuple, the complete bosonic,
+  fermionic and mixed gauge/Euler/redundancy principal complex and both
+  independent-row projectors. Then prove that the background owns one compact
+  reduction (or authenticate a complete Euclidean continuation) and test
+  middle exactness at every nonzero covector before any Fredholm or nonlinear-
+  moduli claim.
+
   On the SC-ACT-06 route, K711--K713 show that positivity of the native action
   pairing is not logically necessary for ellipticity of an already exact real
   deformation complex. An auxiliary positive bundle metric can form an
@@ -12702,6 +12736,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the SC-ACT-06 route, abstract auxiliary-metric feasibility is now closed.
+  K714 constructs the positive metric from a compact reduction, K715 proves
+  its Lorentz-natural transport and null-direction Hodge ranks, and K716 proves
+  the native `(13,1)` form admits infinitely many distinct conjugate choices
+  and selects none. The next exact input must therefore be native: construct
+  one distinguished stationary `B(epsilon)/Y` germ; serialize every bosonic,
+  fermionic and mixed principal block, gauge map, redundant Euler map and both
+  independent-row projectors; and prove the same background/action owns one
+  compact reduction and auxiliary metric, or else authenticate a Euclidean
+  continuation of the complete carrier. Test exactness at every nonzero
+  covector. Do not add another abstract positive metric, compact reduction or
+  bare exterior control. Fredholm and nonlinear-moduli work remains
+  downstream; SC-ACT-06 remains `ASSERTS`.
+
   On the SC-ACT-06 route, the first exact input is the complete real principal
   complex for one distinguished stationary `B(epsilon)/Y` germ: all bosonic,
   fermionic and mixed blocks, gauge map, redundant Euler map and both

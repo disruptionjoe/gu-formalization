@@ -80,6 +80,15 @@ def load_inputs() -> dict:
         "k713": json.loads(
             (ROOT / "lab/process/k713-sc-act-06-native-symmetry-gauge-metric-obstruction.json").read_text()
         ),
+        "k714": json.loads(
+            (ROOT / "lab/process/k714-sc-act-06-cartan-reduction-gauge-metric.json").read_text()
+        ),
+        "k715": json.loads(
+            (ROOT / "lab/process/k715-sc-act-06-lorentz-natural-auxiliary-family.json").read_text()
+        ),
+        "k716": json.loads(
+            (ROOT / "lab/process/k716-sc-act-06-compact-reduction-selection-boundary.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -439,6 +448,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K712" in live and "bare exterior control" in live and
               "K713" in live and "full `O(13,1)`" in live,
               "live K711--K713 SC-ACT-06 auxiliary gauge route missing")
+        check("K714" in live and "compact reduction" in live and
+              "K715" in live and "null-direction Hodge ranks" in live and
+              "K716" in live and "abstract auxiliary-metric feasibility" in live,
+              "live K714--K716 SC-ACT-06 compact-reduction boundary missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -448,6 +461,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K714--K716 close the abstract ownership shape" in summary,
+          "current K714--K716 result lost")
     check("K711--K713 refine K710's Euclidean-signature boundary" in summary,
           "current K711--K713 result lost")
     check("K708--K710 expose the Euclidean-signature datum" in summary,
@@ -538,6 +553,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "compact reduction of the native real (13,1) carrier" in data["agenda"].get("latest_result_2026_09_30_k714_k716", "")
+        and "eigenvalue pairs (1,1), (9,1/9), and (81,1/81)" in data["agenda"].get("latest_result_2026_09_30_k714_k716", "")
+        and "Further abstract metric work is closed" in data["agenda"].get("latest_result_2026_09_30_k714_k716", ""),
+        "agenda K714--K716 result is not current",
+    )
     check(
         "positive auxiliary inner product" in data["agenda"].get("latest_result_2026_09_30_k711_k713", "")
         and "native-null covector norm 3" in data["agenda"].get("latest_result_2026_09_30_k711_k713", "")
@@ -1424,6 +1445,40 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k713["exact_controls"]["solution_generator_signature"] == [1, 1, 0] and
           not k713_n["SC_ACT_06_ellipticity_proved"],
           "K713 native-symmetry gauge-metric obstruction or source ceiling moved")
+
+    k714 = data["k714"]
+    k714_t = k714["theorem"]
+    k714_n = k714["native_interface_status"]
+    check(k714_t["theta_is_involution"] and
+          k714_t["eta_theta_is_symmetric_positive_definite"] and
+          k714_t["compact_stabilizer_is_O13_times_O1"] and
+          not k714_t["compact_reduction_is_source_owned"] and
+          k714["exact_controls"]["q_signature"] == [14, 0, 0] and
+          not k714_n["SC_ACT_06_ellipticity_proved"],
+          "K714 Cartan-reduction gauge metric or source ceiling moved")
+
+    k715 = data["k715"]
+    k715_t = k715["theorem"]
+    k715_n = k715["native_interface_status"]
+    check(k715_t["transported_q_is_positive_definite"] and
+          k715_t["transported_q_equals_L_inverse_transpose_q_L_inverse"] and
+          k715_t["cartan_compatibility_q_eta_inverse_q_equals_eta"] and
+          k715_t["bare_hodge_symbol_full_rank_at_both_native_null_directions"] and
+          not k715_t["coordinate_transport_selects_a_source_owned_reduction"] and
+          k715["exact_controls"]["auxiliary_null_norms"] == ["18", "2/9"] and
+          not k715_n["SC_ACT_06_ellipticity_proved"],
+          "K715 Lorentz-natural auxiliary family or source ceiling moved")
+
+    k716 = data["k716"]
+    k716_t = k716["theorem"]
+    k716_n = k716["native_interface_status"]
+    check(k716_t["cartan_compatible_positive_metrics_exist"] and
+          k716_t["boost_orbit_contains_infinitely_many_distinct_reductions"] and
+          not k716_t["native_eta_selects_a_unique_reduction"] and
+          not k716_t["mathematical_existence_implies_source_ownership"] and
+          k716["exact_controls"]["plane_eigenvalue_pairs"] == [["1", "1"], ["9", "1/9"], ["81", "1/81"]] and
+          not k716_n["SC_ACT_06_ellipticity_proved"],
+          "K716 compact-reduction selection boundary or source ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2602,6 +2657,12 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k712-native", lambda d: d["k712"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
     add("k713-invariant", lambda d: d["k713"]["theorem"].__setitem__("positive_definite_O_13_1_invariant_form_exists", True))
     add("k713-native", lambda d: d["k713"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
+    add("k714-positive", lambda d: d["k714"]["theorem"].__setitem__("eta_theta_is_symmetric_positive_definite", False))
+    add("k714-native", lambda d: d["k714"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
+    add("k715-covariant", lambda d: d["k715"]["theorem"].__setitem__("transported_q_equals_L_inverse_transpose_q_L_inverse", False))
+    add("k715-native", lambda d: d["k715"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
+    add("k716-selection", lambda d: d["k716"]["theorem"].__setitem__("native_eta_selects_a_unique_reduction", True))
+    add("k716-native", lambda d: d["k716"]["native_interface_status"].__setitem__("SC_ACT_06_ellipticity_proved", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

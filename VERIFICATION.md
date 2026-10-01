@@ -7,6 +7,40 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K714--K716 SC-ACT-06 compact-reduction selection boundary (2026-09-30)
+
+K714 identifies the finite-dimensional ownership datum required by K713. For
+the native form `eta=diag(1^13,-1)`, an `eta`-orthogonal involution `theta`
+with thirteen positive and one negative eigendirection defines
+`q(v,w)=eta(v,theta w)`. The standard control has `theta=eta`, `q=I`,
+signature `(14,0)` and determinant one. Its stabilizer is the compact
+`O(13)xO(1)` subgroup. The native action form and real structure are unchanged.
+
+K715 proves that this is a natural family, not a fixed coordinate identity.
+Transporting the standard reduction through the rational Lorentz boost gives
+the auxiliary plane metric
+`[[41/9,-40/9],[-40/9,41/9]]`, with eigenvalues `9,1/9` and determinant one.
+It satisfies `q eta^-1 q=eta`. The two native-null covectors have positive
+auxiliary inverse norms `18` and `2/9`, so the bare degree-one Hodge symbol has
+rank fourteen in both directions. Holding `q=I` fixed is unnecessary; what
+must transport is the supplied reduction.
+
+K716 proves that mathematical availability does not discharge selection.
+The standard metric and its first two boost transports are distinct positive
+Cartan-compatible forms for the same `eta`, with plane eigenvalues `(1,1)`,
+`(9,1/9)` and `(81,1/81)`. Boost powers give infinitely many distinct
+reductions whose compact stabilizers are conjugate. Together with K713's
+no-full-invariant-form result, this proves that route (b) is available but
+noncanonical: a stationary GU background or action must own one member.
+
+The producers pass 36/40/38 controls and their probes reject 31/31, 36/36 and
+34/34 hostile mutations. The results do not construct the distinguished
+stationary `B(epsilon)/Y` tuple, complete bosonic/fermionic/mixed symbol,
+projectors, source-owned reduction, Fredholm domain or nonlinear moduli
+theorem. The abstract auxiliary-metric branch is closed against further
+distance-only extension. SC-ACT-06 remains `ASSERTS`; no source, ledger,
+canon, prediction, confirmation, public or physical conclusion moves.
+
 ## K711--K713 SC-ACT-06 auxiliary-positive gauge route (2026-09-30)
 
 K711 proves the finite-dimensional Hodge criterion for a real principal-symbol

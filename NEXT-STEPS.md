@@ -7,6 +7,23 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K714--K716 SC-ACT-06 COMPACT-REDUCTION SELECTION BOUNDARY.**
+> K714 makes the auxiliary route's ownership datum exact: an
+> `eta`-orthogonal Cartan involution, equivalently an `O(13)xO(1)` reduction,
+> gives `q=eta theta>0` without changing the real native action form. K715
+> transports that datum through the rational Lorentz boost; its auxiliary
+> plane has eigenvalues `9,1/9`, satisfies `q eta^-1 q=eta`, and gives rank
+> fourteen at both native-null directions. K716 constructs three distinct
+> exact members with eigenvalue pairs `(1,1)`, `(9,1/9)`, `(81,1/81)` and an
+> infinite boost orbit. A reduction therefore exists but is not selected by
+> `eta`. Stop extending the abstract metric branch: next construct the
+> stationary complete `B(epsilon)/Y` symbol and prove its background owns one
+> reduction (or a complete Euclidean continuation). SC-ACT-06 remains
+> `ASSERTS`; no source, ledger, canon or physical verdict moves. See
+> `lab/process/k714-sc-act-06-cartan-reduction-gauge-metric.json`,
+> `lab/process/k715-sc-act-06-lorentz-natural-auxiliary-family.json`, and
+> `lab/process/k716-sc-act-06-compact-reduction-selection-boundary.json`.
+
 > **2026-09-30 K711--K713 SC-ACT-06 AUXILIARY-POSITIVE GAUGE ROUTE.** K711
 > proves that middle exactness of a finite real symbol complex is equivalent
 > to invertibility of its Hodge Laplacian for any positive auxiliary inner

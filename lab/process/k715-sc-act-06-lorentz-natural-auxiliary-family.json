@@ -1,0 +1,347 @@
+{
+  "claim_ceiling": "Exact Lorentz-natural family of Cartan-reduction metrics and bare Hodge controls. It does not select a source-owned reduction, instantiate the full GU symbol, prove Fredholmness or moduli, or move source, ledger, canon, prediction, confirmation or public verdicts.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k715_sc_act_06_lorentz_natural_auxiliary_family_probe.py",
+    "producer": "tests/channel-swings/k715_sc_act_06_lorentz_natural_auxiliary_family.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "fixed_identity_metric_is_required_in_every_frame": false,
+    "next_exact_input": "Determine the selection boundary of the reduction family, then require the actual stationary GU background to own one member before testing the complete symbol.",
+    "transported_compact_reduction_is_coordinate_natural": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "auxiliary_null_norms": [
+      "18",
+      "2/9"
+    ],
+    "boost_determinant": "1",
+    "boost_eta_defect_zero": true,
+    "boost_plane": [
+      [
+        "5/3",
+        "4/3"
+      ],
+      [
+        "4/3",
+        "5/3"
+      ]
+    ],
+    "full_auxiliary_eigenvalue_floor": "1/9",
+    "hodge_symbol_ranks": [
+      14,
+      14
+    ],
+    "native_null_norms": [
+      "0",
+      "0"
+    ],
+    "q_determinant": "1",
+    "q_eta_q_defect_zero": true,
+    "q_inverse_check": true,
+    "q_inverse_plane": [
+      [
+        "41/9",
+        "40/9"
+      ],
+      [
+        "40/9",
+        "41/9"
+      ]
+    ],
+    "q_matches_transport": true,
+    "q_plane": [
+      [
+        "41/9",
+        "-40/9"
+      ],
+      [
+        "-40/9",
+        "41/9"
+      ]
+    ],
+    "q_plane_eigenvalues": [
+      "9",
+      "1/9"
+    ],
+    "theta_eta_orthogonality_defect_zero": true,
+    "theta_involution_defect_zero": true,
+    "theta_matrix": [
+      [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "41/9",
+        "-40/9"
+      ],
+      [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "40/9",
+        "-41/9"
+      ]
+    ]
+  },
+  "gu_typed_objects": {
+    "action_owner": "none; the Lorentz map transports a supplied reduction but does not source-select it",
+    "carrier": "unchanged real fourteen-dimensional native carrier",
+    "grading": "transported theta_L eigenspace split",
+    "pairing": "native eta plus transported auxiliary q_L=L^{-T}q_0L^{-1}",
+    "real_structure": "unchanged real carrier",
+    "target": "coordinate-natural auxiliary adjoint and Hodge symbol MAP-TYPE=transported compact reduction"
+  },
+  "ledger_no_change_reason": "Covariant transport shows the auxiliary route is not a coordinate artifact, but no stationary GU background or source rule selects the transported reduction.",
+  "native_interface_status": {
+    "SC_ACT_06_ellipticity_proved": false,
+    "auxiliary_metric_compatible_with_complete_GU_symbol": false,
+    "complete_full_field_symbol_constructed": false,
+    "distinguished_B_epsilon_Y_tuple_constructed": false,
+    "fredholm_domain_constructed": false,
+    "nonlinear_moduli_theorem_proved": false,
+    "source_independent_row_projector_supplied": false,
+    "transported_reduction_source_owned": false
+  },
+  "postflight_bookend": {
+    "strongest_contrary_construction": "The two native-null directions acquire unequal positive auxiliary norms 18 and 2/9, exposing genuine reduction dependence despite full rank.",
+    "strongest_overclaim": "Lorentz-natural transport makes the auxiliary metric invariant or canonically selected.",
+    "weakest_reproducibility_seam": "Only the bare exterior Hodge symbol is evaluated; action-dependent mixed blocks remain absent."
+  },
+  "preflight_bookend": {
+    "retrieval_collision_result": "K706 treats coherent Euclidean frame changes and K713 treats fixed-form invariance; neither constructs this Lorentz orbit of Cartan metrics.",
+    "route_comparison": "Rather than demand one fixed Euclidean identity in every Lorentz frame, transport both theta and q with the supplied reduction.",
+    "strongest_alternative": "Break covariance by holding q=I fixed under boosts; that is a coordinate gauge choice, not a natural family."
+  },
+  "result_id": "K715-SC-ACT-06-LORENTZ-NATURAL-AUXILIARY-FAMILY",
+  "schema_version": "1.0",
+  "scope": "Exact Lorentz-covariant transport of K714's compact reduction and positive auxiliary Hodge metric on the unchanged real (13,1) carrier.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "bare_hodge_symbol_full_rank_at_both_native_null_directions": true,
+    "boost_preserves_native_eta": true,
+    "cartan_compatibility_q_eta_inverse_q_equals_eta": true,
+    "complete_GU_symbol_instantiated": false,
+    "coordinate_transport_selects_a_source_owned_reduction": false,
+    "native_null_covectors_are_auxiliary_nonnull": true,
+    "source_claim_proved": false,
+    "transported_q_equals_L_inverse_transpose_q_L_inverse": true,
+    "transported_q_is_positive_definite": true,
+    "transported_theta_is_eta_orthogonal_involution": true
+  }
+}
