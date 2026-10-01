@@ -107,6 +107,15 @@ def load_inputs() -> dict:
         "k722": json.loads(
             (ROOT / "lab/process/k722-sc-act-06-flat-full-symbol-obstruction.json").read_text()
         ),
+        "k723": json.loads(
+            (ROOT / "lab/process/k723-sc-act-06-t0-curvature-principal-invariance.json").read_text()
+        ),
+        "k724": json.loads(
+            (ROOT / "lab/process/k724-sc-act-06-kappa-zero-order-ellipticity-obstruction.json").read_text()
+        ),
+        "k725": json.loads(
+            (ROOT / "lab/process/k725-sc-act-06-current-bosonic-repair-input-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -486,6 +495,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K723--K725 test every currently serialized alternative bosonic input" in summary,
+          "current K723--K725 result lost")
     check("K720--K722 decide the first frozen full-symbol realization" in summary and
           "rank 192 and kernel 768 per block" in summary,
           "current K720--K722 result lost")
@@ -583,6 +594,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "curvature changes subprincipal or lower-order transport" in data["agenda"].get("latest_result_2026_09_30_k723_k725", "")
+        and "zero-order involution" in data["agenda"].get("latest_result_2026_09_30_k723_k725", "")
+        and "current serialized candidates therefore supply no replacement bosonic principal symbol" in data["agenda"].get("latest_result_2026_09_30_k723_k725", ""),
+        "agenda K723--K725 result is not current",
+    )
     check(
         "Euler ranks 130912 and 122748" in data["agenda"].get("latest_result_2026_09_30_k720_k722", "")
         and "rank 192 and kernel 768 per block" in data["agenda"].get("latest_result_2026_09_30_k720_k722", "")
@@ -1599,6 +1616,44 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k722_d["frozen_flat_selected_i1b_plus_displayed_eq916_realization_rejected_as_elliptic"] and
           not k722_d["source_global_SC_ACT_06_refuted"],
           "K722 flat full-symbol obstruction or realization ceiling moved")
+
+    k723 = data["k723"]
+    k723_t = k723["principal_invariance_theorem"]
+    k723_c = k723["exact_controls"]
+    k723_d = k723["decision"]
+    check(k723_t["selected_t0_principal_ranks_are_curvature_independent"] and
+          not k723_t["curved_subprincipal_transport_can_repair_principal_cohomology"] and
+          k723_c["nonnull_euler_rank"] == 130912 and
+          k723_c["native_null_euler_rank"] == 122748 and
+          k723_c["nonnull_middle_cohomology_dimension"] == 98470 and
+          k723_c["native_null_middle_cohomology_dimension"] == 106634 and
+          not k723_d["k127_ricci_flat_weyl_family_repairs_k722"],
+          "K723 T=0 curvature principal invariance or claim ceiling moved")
+
+    k724 = data["k724"]
+    k724_t = k724["zero_order_theorem"]
+    k724_c = k724["exact_controls"]
+    k724_d = k724["decision"]
+    check(k724_t["K_is_action_owned"] and
+          k724_t["K_is_nondegenerate_on_distortion_carrier"] and
+          k724_t["kappa_term_is_zero_order"] and
+          not k724_t["kappa_changes_principal_symbol"] and
+          not k724_t["nonzero_kappa_repairs_k720"] and
+          k724_c["distortion_K_dimension"] == 229376 and
+          not k724_d["different_nonzero_kappa_is_different_principal_bosonic_data"],
+          "K724 kappa zero-order obstruction or claim ceiling moved")
+
+    k725 = data["k725"]
+    k725_t = k725["nonzero_t_admission_theorem"]
+    k725_d = k725["decision"]
+    check(k725_t["pointwise_connection_hessian_is_full_rank"] and
+          k725_t["nonzero_t_background_missing"] and
+          not k725_t["pointwise_full_rank_implies_principal_ellipticity"] and
+          not k725_t["current_nonzero_t_packet_is_complete_k722_repair_input"] and
+          not k725_d["current_serialized_candidates_supply_new_complete_bosonic_principal_data"] and
+          k725_d["nonzero_t_route_remains_open"] and
+          not k725_d["source_global_SC_ACT_06_refuted"],
+          "K725 current bosonic repair-input gate or source ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2789,6 +2844,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k718-native", lambda d: d["k718"]["native_interface_status"].__setitem__("action_owned_bosonic_euler_symbol", True))
     add("k719-mixed", lambda d: d["k719"]["theorem"].__setitem__("boson_fermion_mixed_hessian_vanishes_at_zero_fermion", False))
     add("k719-native", lambda d: d["k719"]["native_interface_status"].__setitem__("complete_full_field_symbol", True))
+    add("k723-curvature", lambda d: d["k723"]["principal_invariance_theorem"].__setitem__("curved_subprincipal_transport_can_repair_principal_cohomology", True))
+    add("k723-rank", lambda d: d["k723"]["exact_controls"].__setitem__("nonnull_euler_rank", 229382))
+    add("k723-repair", lambda d: d["k723"]["decision"].__setitem__("k127_ricci_flat_weyl_family_repairs_k722", True))
+    add("k724-order", lambda d: d["k724"]["zero_order_theorem"].__setitem__("kappa_term_is_zero_order", False))
+    add("k724-principal", lambda d: d["k724"]["zero_order_theorem"].__setitem__("kappa_changes_principal_symbol", True))
+    add("k724-repair", lambda d: d["k724"]["zero_order_theorem"].__setitem__("nonzero_kappa_repairs_k720", True))
+    add("k725-background", lambda d: d["k725"]["nonzero_t_admission_theorem"].__setitem__("nonzero_t_background_missing", False))
+    add("k725-elliptic", lambda d: d["k725"]["nonzero_t_admission_theorem"].__setitem__("pointwise_full_rank_implies_principal_ellipticity", True))
+    add("k725-input", lambda d: d["k725"]["decision"].__setitem__("current_serialized_candidates_supply_new_complete_bosonic_principal_data", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

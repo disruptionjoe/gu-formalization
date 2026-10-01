@@ -7,6 +7,26 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K723--K725 SC-ACT-06 CURRENT BOSONIC REPAIR-INPUT GATE.**
+> K723 proves that K127's Ricci-flat arbitrary-Weyl `T=0` Levi-Civita
+> stationary germs retain K720's selected-I1B principal ranks: curvature
+> changes subprincipal or lower-order transport, not the highest-order Euler
+> symbol, so the 98470/106634 middle classes survive. K724 proves that the
+> action-owned `kappa_1 K` torsion Hessian is a real nondegenerate
+> grade-preserving zero-order involution. It can remove zero-frequency
+> algebraic kernels but cannot repair principal cohomology. K725 tests the
+> current nonzero-`T` branch: its fixed-geometry connection Hessian is
+> pointwise full rank 229376, but the stationary background, coupled
+> metric/epsilon principal Hessian, gauge/BV complex and Euclidean real
+> carrier are missing. Next construct that complete packet on a source-typed
+> stationary nonzero-`T` or otherwise non-Levi-Civita germ, or authenticate a
+> genuinely different action-owned principal Shiab coefficient. Do not count
+> curvature, a zero-order coefficient or pointwise algebraic rank as an
+> ellipticity repair. See
+> `lab/process/k723-sc-act-06-t0-curvature-principal-invariance.json`,
+> `lab/process/k724-sc-act-06-kappa-zero-order-ellipticity-obstruction.json`,
+> and `lab/process/k725-sc-act-06-current-bosonic-repair-input-gate.json`.
+
 > **2026-09-30 K720--K722 SC-ACT-06 FLAT FULL-SYMBOL OBSTRUCTION.** K720
 > transports K132's selected `comm/symi/symi` I1B coupled action ranks to
 > K717's flat `(13,1)` carrier. The 229386-dimensional bosonic field has

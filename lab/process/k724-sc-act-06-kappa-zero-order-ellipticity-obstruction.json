@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Exact differential-order obstruction for the source-owned kappa_1 torsion Hessian term on the selected T=0 realization. No claim about a different principal Shiab coefficient, nonzero-T stationary symbol, full spectrum, Fredholm domain, source status, prediction, confirmation, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 32,
+    "hostile_mutations_rejected": 27,
+    "probe": "tests/channel-swings/k724_sc_act_06_kappa_zero_order_ellipticity_obstruction_probe.py",
+    "producer": "tests/channel-swings/k724_sc_act_06_kappa_zero_order_ellipticity_obstruction.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "different_nonzero_kappa_is_different_principal_bosonic_data": false,
+    "kappa_term_remains_relevant_to_full_operator_or_domain": true,
+    "next_exact_input": "A different coefficient can repair K722 only if it changes the highest-order Shiab/Euler symbol, not merely the algebraic kappa_1 K term. Supply that source-owned principal coefficient or a stationary germ with genuinely new principal data.",
+    "spacelike_shells_and_null_jordan_data_are_principal_ellipticity_repairs": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "distortion_K_dimension": 229376,
+    "distortion_K_inertia": {
+      "negative": 114688,
+      "null": 0,
+      "positive": 114688
+    },
+    "field_dimension": 229386,
+    "native_null_euler_rank": 122748,
+    "native_null_middle_cohomology_dimension": 106634,
+    "nonnull_euler_rank": 130912,
+    "nonnull_middle_cohomology_dimension": 98470
+  },
+  "gu_typed_objects": {
+    "action_owner": "Hessian of (kappa_1/2)<T,*T>",
+    "carrier": "S^2(T*X) direct-sum Omega1(Cl_14(C)); complex dimension 229386",
+    "grading": "metric diffeomorphism gauge -> coupled metric/distortion field -> Euler rows",
+    "pairing": "selected I1B action pairing with the kappa_1 torsion quadratic term",
+    "real_structure": "K134 real balanced involution on Cl(7,7), transported only for principal-rank comparison",
+    "target": "whether a nonzero algebraic torsion coefficient repairs K720's principal cohomology"
+  },
+  "ledger_no_change_reason": "The action-owned kappa term changes algebraic and spectral pencils but is zero-order, so it cannot change the principal cohomology relevant to SC-ACT-06 ellipticity.",
+  "pinned_inputs": {
+    "k133": {
+      "path": "lab/process/selected-k133-native-i1b-t0-flat-complex-kappa-pencil.json",
+      "sha256": "83a45bbfae9dd5e182be6f7c082f88f469db96f5951271eccc641b65730abc28"
+    },
+    "k134": {
+      "path": "lab/process/selected-k134-native-i1b-t0-kappa-hodge-fingerprint-and-fourier-pencil.json",
+      "sha256": "da08607732e5917d4a205d50b7065854b0938f9921e7c147ea26c865d4b5d7a7"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    }
+  },
+  "result_id": "K724-SC-ACT-06-KAPPA-ZERO-ORDER-ELLIPTICITY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Principal-symbol effect of the source-owned kappa_1 torsion Hessian term on the selected I1B T=0 coupled bosonic operator.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "zero_order_theorem": {
+    "K_is_action_owned": true,
+    "K_is_nondegenerate_on_distortion_carrier": true,
+    "K_is_real_grade_preserving_involution": true,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "kappa_changes_principal_symbol": false,
+    "kappa_term_is_zero_order": true,
+    "nonzero_kappa_can_remove_zero_frequency_algebraic_kernel": true,
+    "nonzero_kappa_repairs_k720": false,
+    "principal_middle_cohomology_is_kappa_independent": true,
+    "zero_frequency_invertibility_implies_ellipticity": false
+  }
+}

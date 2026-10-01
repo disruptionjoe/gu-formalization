@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Exact principal-rank invariance for the selected I1B action over K127's local Ricci-flat T=0 Levi-Civita germ family. No global stationary-background theorem, nonzero-T result, Fredholm/domain theorem, source-status change, prediction, confirmation, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k723_sc_act_06_t0_curvature_principal_invariance_probe.py",
+    "producer": "tests/channel-swings/k723_sc_act_06_t0_curvature_principal_invariance.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "curved_transport_remains_relevant_to_domain_or_propagation": true,
+    "different_curvature_twojet_is_different_principal_bosonic_data": false,
+    "k127_ricci_flat_weyl_family_repairs_k722": false,
+    "next_exact_input": "A stationary branch that changes the highest-order bosonic symbol itself, such as genuinely nonzero distortion data in the principal coefficients or a different action-owned Shiab principal operator; another T=0 curvature two-jet cannot repair K722."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "curved_t0_family_middle_exact": false,
+    "field_dimension": 229386,
+    "native_null_euler_rank": 122748,
+    "native_null_middle_cohomology_dimension": 106634,
+    "nonnull_euler_rank": 130912,
+    "nonnull_middle_cohomology_dimension": 98470,
+    "owned_metric_diffeomorphism_rank": 4
+  },
+  "gu_typed_objects": {
+    "action_owner": "selected I1B comm/symi/symi action at T=0 on the Levi-Civita graph",
+    "carrier": "S^2(T*X) direct-sum Omega1(Cl_14(C)); complex dimension 229386",
+    "grading": "rank-four metric diffeomorphism gauge -> coupled metric/distortion field -> action Euler rows",
+    "pairing": "native lambda=1/2 DeWitt/Clifford action pairing; auxiliary q only quantifies Euclidean nonzero covectors",
+    "real_structure": "positive four-base normal frame with complex rank comparison; no new global Euclidean real form",
+    "target": "middle principal-symbol cohomology across K127's curved stationary two-jet family"
+  },
+  "ledger_no_change_reason": "The theorem closes only the selected T=0 Levi-Civita curved-germ repair class at principal grade; it does not reject nonzero-T stationary branches, other action coefficients, domains, or physical quotients.",
+  "pinned_inputs": {
+    "k127": {
+      "path": "lab/process/selected-k127-native-i1b-ricci-flat-weyl-tt-closure-gate.json",
+      "sha256": "0092d4288e221673795024f09de8c9bfe505b245f556d58cbe0035790f8fd8e4"
+    },
+    "k128": {
+      "path": "lab/process/selected-k128-native-i1b-t0-coupled-hessian-and-schur-domain-gate.json",
+      "sha256": "45de3f1dfe305d3b867562b3f7b8784e5059226ef63af45fd16a5c233a08c6e8"
+    },
+    "k132": {
+      "path": "lab/process/selected-k132-native-i1b-t0-all-grade-noether-complex.json",
+      "sha256": "c2835f33db681168424e95ff0195a5c88813f3d7db073bda45ccfef1c2dbf5b8"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    }
+  },
+  "principal_invariance_theorem": {
+    "coherent_frame_transport_preserves_principal_rank": true,
+    "curvature_enters_mixed_hessian_below_principal_order": true,
+    "curved_subprincipal_transport_can_repair_principal_cohomology": false,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "i1b_vanishes_on_entire_t0_levi_civita_graph": true,
+    "k127_curvature_is_ricci_flat_arbitrary_weyl_twojet": true,
+    "k127_family_proves_global_stationary_background_selection": false,
+    "normal_frame_freezes_same_highest_order_coefficients": true,
+    "pure_metric_graph_derivatives_vanish_to_all_orders": true,
+    "selected_t0_principal_ranks_are_curvature_independent": true
+  },
+  "result_id": "K723-SC-ACT-06-T0-CURVATURE-PRINCIPAL-INVARIANCE",
+  "schema_version": "1.0",
+  "scope": "Principal-symbol test of K127's local Ricci-flat arbitrary-Weyl T=0 Levi-Civita stationary germ family for the selected I1B action.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

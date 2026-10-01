@@ -7,6 +7,43 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K723--K725 SC-ACT-06 current bosonic repair-input gate (2026-09-30)
+
+K723 composes the selected I1B `T=0` action structure with K127's local
+Ricci-flat arbitrary-Weyl stationary family. In a positive-base normal frame,
+the background curvature enters the mixed Hessian at subprincipal or lower
+order; it does not change the highest-order coupled Euler coefficients. Frame
+transport preserves rank, so the nonnull and native-null Euler ranks remain
+130912 and 122748, leaving 98470 and 106634 middle classes after the owned
+rank-four metric-diffeomorphism image. This excludes the current curved
+`T=0` Levi-Civita family as a K722 principal repair, not as a domain or
+propagation input.
+
+K724 tests the source-owned `kappa_1` torsion term. Its Hessian `K` is a real,
+grade-preserving, nondegenerate involution on the 229376-dimensional
+distortion carrier, with inertia `(114688,114688,0)`. But `kappa_1 K` is
+zero-order. It can remove a zero-frequency algebraic kernel and change the
+full Fourier/spectral pencil while leaving the principal ranks and their
+98470/106634 middle cohomology unchanged. Algebraic invertibility at zero
+frequency is therefore not ellipticity.
+
+K725 tests the remaining current candidate rather than declaring the input
+absent abstractly. The existing nonzero-`T` branch has a full-rank 229376
+pointwise connection Hessian at fixed geometry. Its own packet explicitly
+omits the coupled metric/epsilon Hessian, functional derivative and boundary
+domain; the related jet gate says the stationary background is still missing
+and the primitive epsilon row requires a higher field jet. Hence this is not
+yet a complete stationary coupled principal symbol, and its effect on K722 is
+undetermined rather than negative.
+
+The producers pass 36/32/38 controls and their probes reject 30/30, 27/27 and
+32/32 hostile mutations. Together they prove that no currently serialized
+curvature, `kappa`-only or incomplete nonzero-`T` packet supplies replacement
+bosonic principal data. They do not prove that no such stationary germ or
+principal coefficient exists. SC-ACT-06 remains `ASSERTS`; the source
+register, physics ledger, canon, paper, public posture, prediction,
+confirmation and physical verdicts remain unchanged.
+
 ## K720--K722 SC-ACT-06 flat full-symbol obstruction (2026-09-30)
 
 K720 imports the actual selected bosonic rank data rather than identifying

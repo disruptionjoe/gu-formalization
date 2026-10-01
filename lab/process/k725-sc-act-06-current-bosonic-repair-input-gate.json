@@ -1,0 +1,88 @@
+{
+  "candidate_census": [
+    {
+      "action_owned": true,
+      "candidate": "K127 curved Ricci-flat arbitrary-Weyl T=0 Levi-Civita germ",
+      "changes_highest_order_symbol": false,
+      "complete_local_stationary_grade": true,
+      "disposition": "REJECTED_AS_PRINCIPAL_REPAIR__CURVATURE_IS_SUBPRINCIPAL_OR_LOWER_ORDER",
+      "repairs_k722": false
+    },
+    {
+      "action_owned": true,
+      "candidate": "nonzero kappa_1 algebraic torsion Hessian K",
+      "changes_highest_order_symbol": false,
+      "complete_local_stationary_grade": true,
+      "disposition": "REJECTED_AS_PRINCIPAL_REPAIR__ZERO_ORDER_ONLY",
+      "repairs_k722": false
+    },
+    {
+      "action_owned": true,
+      "candidate": "existing nonzero-T Phi1 branch pointwise connection Hessian",
+      "changes_highest_order_symbol": null,
+      "coupled_metric_epsilon_hessian_complete": false,
+      "disposition": "NOT_ADMISSIBLE_YET__POINTWISE_ALGEBRAIC_RANK_IS_NOT_COUPLED_PRINCIPAL_EXACTNESS",
+      "euclidean_real_carrier_complete": false,
+      "gauge_bv_principal_complex_complete": false,
+      "pointwise_connection_hessian_rank": 229376,
+      "repairs_k722": null,
+      "stationary_background_complete": false
+    }
+  ],
+  "claim_ceiling": "Exact current-repository input census after K722: curved T=0 and kappa-only repairs are excluded at principal grade, while the existing nonzero-T pointwise Hessian is not yet a complete stationary coupled symbol. No global nonexistence theorem, source no-go, Fredholm/domain result, prediction, confirmation, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k725_sc_act_06_current_bosonic_repair_input_gate_probe.py",
+    "producer": "tests/channel-swings/k725_sc_act_06_current_bosonic_repair_input_gate.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "current_serialized_candidates_supply_new_complete_bosonic_principal_data": false,
+    "next_exact_input": "Construct one complete source-typed stationary nonzero-T (or otherwise non-Levi-Civita) Euclidean germ, including metric/epsilon/distortion coupled highest-order Euler symbol, gauge and redundancy maps, real carrier and owned positive reduction. Alternatively authenticate a genuinely different action-owned principal Shiab coefficient. Then test whether the Euler kernel equals the gauge image at every nonzero covector.",
+    "nonzero_t_route_remains_open": true,
+    "source_global_SC_ACT_06_refuted": false,
+    "t0_curvature_or_kappa_zero_order_should_be_extended_as_repair": false
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The current candidate census closes curvature and zero-order repairs and finds the nonzero-T input incomplete; it neither proves nonexistence nor changes source or physics status.",
+  "nonzero_t_admission_theorem": {
+    "computed_object_is_only_fixed_geometry_connection_hessian": true,
+    "current_nonzero_t_packet_is_complete_k722_repair_input": false,
+    "functional_derivative_and_boundary_domain_not_computed": true,
+    "metric_or_epsilon_hessian_not_computed": true,
+    "nonzero_t_background_missing": true,
+    "pointwise_connection_hessian_is_full_rank": true,
+    "pointwise_full_rank_implies_principal_ellipticity": false,
+    "primitive_epsilon_requires_higher_field_jet": true
+  },
+  "pinned_inputs": {
+    "k722": {
+      "path": "lab/process/k722-sc-act-06-flat-full-symbol-obstruction.json",
+      "sha256": "44ee48cd04b159d0b2f8b64530997ee1d354790ec14d8877b8188a1185362ca9"
+    },
+    "k723": {
+      "path": "lab/process/k723-sc-act-06-t0-curvature-principal-invariance.json",
+      "sha256": "98c2182329030dd734d4d4738e7e73c64bf432ce64ecd7901f42c79ccf8bf8cb"
+    },
+    "k724": {
+      "path": "lab/process/k724-sc-act-06-kappa-zero-order-ellipticity-obstruction.json",
+      "sha256": "a0660d0167381e06f3f505ce8c418f3a91407fc1e3d5869d0562bc4deeb2a44e"
+    },
+    "nonzero_t_gate": {
+      "path": "lab/process/selected-k77-nonzero-t-epsilon-jet-order-gate.json",
+      "sha256": "8ad8c496bddaa041a795ae8dbd0ab884732ff4dc0fa6bb1fb58bea98d3301557"
+    },
+    "nonzero_t_hessian": {
+      "path": "lab/process/selected-k77-nonzero-branch-parent-hessian.json",
+      "sha256": "bfaf0d9d27cbabcb386ce49a4003d4beac56d20132425ff6f34df2e7c4258da1"
+    }
+  },
+  "result_id": "K725-SC-ACT-06-CURRENT-BOSONIC-REPAIR-INPUT-GATE",
+  "schema_version": "1.0",
+  "scope": "Current-repository admission test for action-owned bosonic data capable of replacing K722's rejected selected flat principal symbol.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
