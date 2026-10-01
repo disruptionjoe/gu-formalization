@@ -7,6 +7,25 @@ updated_at: "2026-09-30"
 
 # Next Steps For Contributors
 
+> **2026-09-30 K720--K722 SC-ACT-06 FLAT FULL-SYMBOL OBSTRUCTION.** K720
+> transports K132's selected `comm/symi/symi` I1B coupled action ranks to
+> K717's flat `(13,1)` carrier. The 229386-dimensional bosonic field has
+> Euler ranks 130912 and 122748 on the nonnull and native-null strata; after
+> the owned rank-four gauge image, middle cohomology dimensions are 98470 and
+> 106634. K721 constructs the displayed equation-(9.16) fermion principal
+> candidate on two mirror 960-dimensional chiral blocks. Pure contraction is
+> invertible on both; the equal contraction/wedge family ratio has rank 192
+> and kernel 768 per block, so the unowned selector is material. K722 uses
+> K719's block-diagonal theorem: the exact displayed fermion candidate cannot
+> repair the selected bosonic defect. The frozen flat realization is therefore
+> rejected as elliptic, while SC-ACT-06 remains `ASSERTS`. Next obtain a
+> different action-owned bosonic coefficient or stationary Euclidean germ;
+> do not spend another packet on projectors, Fredholm theory or nonlinear
+> moduli for this rejected realization. See
+> `lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json`,
+> `lab/process/k721-sc-act-06-eq916-euclidean-fermion-symbol.json`, and
+> `lab/process/k722-sc-act-06-flat-full-symbol-obstruction.json`.
+
 > **2026-09-30 K717--K719 SC-ACT-06 NATIVE FLAT GERM AND DIAGONAL-SYMBOL
 > REDUCTION.** K717 constructs the constant Euclidean `Y=Met(X)` germ with
 > `epsilon=1`, flat `Gamma_0`, `B=varpi=T=0`, and zero fermions. Its

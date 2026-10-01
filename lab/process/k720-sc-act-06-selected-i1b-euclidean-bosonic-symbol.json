@@ -1,0 +1,78 @@
+{
+  "claim_ceiling": "Exact complex rank transport and middle-cohomology obstruction for K132's selected I1B coefficient on K717's flat germ. It neither proves a unique source selector nor rejects every action/background, and it moves no source, ledger, canon, paper, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k720_sc_act_06_selected_i1b_euclidean_bosonic_symbol_probe.py",
+    "producer": "tests/channel-swings/k720_sc_act_06_selected_i1b_euclidean_bosonic_symbol.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "native_null_case_alone_refutes_all_nonzero_covector_exactness": true,
+    "next_exact_input": "Compose with the source-displayed Euclidean equation-(9.16) fermion diagonal using K719's zero-mixed-block theorem; if the fermion diagonal is exact, the bosonic defect still survives.",
+    "result_refutes_every_source_admitted_shiab_or_background": false,
+    "row_projector_can_repair_field_middle_cohomology": false,
+    "selected_flat_bosonic_realization_is_elliptic": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "action_euler_kernel_dimension": 98474,
+        "action_euler_rank": 130912,
+        "auxiliary_q_covector_norm_squared": 1,
+        "case": "native_nonnull",
+        "middle_cohomology_dimension": 98470,
+        "middle_exact": false,
+        "owned_gauge_image_rank": 4
+      },
+      {
+        "action_euler_kernel_dimension": 106638,
+        "action_euler_rank": 122748,
+        "auxiliary_q_covector_norm_squared": 2,
+        "case": "native_null_auxiliary_nonzero",
+        "middle_cohomology_dimension": 106634,
+        "middle_exact": false,
+        "owned_gauge_image_rank": 4
+      }
+    ],
+    "field_dimension": 229386,
+    "native_null_cohomology_dimension": 106634,
+    "native_null_is_auxiliary_q_nonzero": true,
+    "nonnull_cohomology_dimension": 98470,
+    "owned_metric_diffeomorphism_rank": 4
+  },
+  "gu_typed_objects": {
+    "action_owner": "K132 selected I1B comm/symi/symi displayed-family row",
+    "carrier": "S^2(T*X) direct-sum Omega1(Cl_14(C)); complex dimension 229386",
+    "grading": "rank-four metric diffeomorphism gauge -> coupled metric/distortion field -> action Euler rows",
+    "pairing": "K717 native DeWitt action form, not the auxiliary positive q",
+    "real_structure": "rank statement after complexification; no Euclidean reality selector is inferred",
+    "target": "middle principal-symbol cohomology for the frozen selected bosonic realization"
+  },
+  "ledger_no_change_reason": "This rejects one frozen selected flat action realization, not every source-admitted coefficient, nonflat stationary germ, analytic domain or physical quotient.",
+  "pinned_inputs": {
+    "k132_path": "lab/process/selected-k132-native-i1b-t0-all-grade-noether-complex.json",
+    "k132_sha256": "c2835f33db681168424e95ff0195a5c88813f3d7db073bda45ccfef1c2dbf5b8",
+    "k717_path": "lab/process/k717-sc-act-06-flat-euclidean-gimmel-germ.json",
+    "k717_sha256": "9b6f66363ecc489ff9d2eca45c6a130cbbeb949e065414fff04343e79c1f3ed1",
+    "selected_shiab": "comm/symi/symi displayed family row"
+  },
+  "result_id": "K720-SC-ACT-06-SELECTED-I1B-EUCLIDEAN-BOSONIC-SYMBOL",
+  "schema_version": "1.0",
+  "scope": "Complex-principal-symbol transport of K132's selected comm/symi/symi I1B coupled bosonic gauge/Euler rank strata to K717's flat (13,1) action carrier.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "transport_theorem": {
+    "complex_clifford_14_real_forms_are_isomorphic": true,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "independent_row_restriction_preserves_euler_kernel": true,
+    "k717_auxiliary_q_changes_quantification_not_action_rank": true,
+    "k718_exterior_skeleton_equals_selected_action_euler": false,
+    "nonnull_and_null_complex_covector_orbits_are_preserved": true,
+    "selected_bosonic_middle_symbol_is_exact": false,
+    "similarity_and_carrier_changes_preserve_rank": true
+  }
+}

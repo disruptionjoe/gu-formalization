@@ -98,6 +98,15 @@ def load_inputs() -> dict:
         "k719": json.loads(
             (ROOT / "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json").read_text()
         ),
+        "k720": json.loads(
+            (ROOT / "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json").read_text()
+        ),
+        "k721": json.loads(
+            (ROOT / "lab/process/k721-sc-act-06-eq916-euclidean-fermion-symbol.json").read_text()
+        ),
+        "k722": json.loads(
+            (ROOT / "lab/process/k722-sc-act-06-flat-full-symbol-obstruction.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -461,10 +470,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K715" in live and "null-direction Hodge ranks" in live and
               "K716" in live and "abstract auxiliary-metric feasibility" in live,
               "live K714--K716 SC-ACT-06 compact-reduction boundary missing")
-        check("K717" in live and "flat Euclidean `Y=Met(X)` germ" in live and
-              "K718" in live and "exterior/Koszul" in live and
-              "K719" in live and "mixed boson--fermion principal blocks vanish" in live,
-              "live K717--K719 SC-ACT-06 native flat-germ reduction missing")
+        check("K717's flat Euclidean" in live and "K719 makes the full" in live and
+              "block diagonal" in live,
+              "live K717--K719 predecessor custody missing")
+        check("K720--K722 reject the frozen K132-selected I1B" in live and
+              "98470" in live and "106634" in live and
+              "displayed fermion candidate is exact" in live,
+              "live K720--K722 SC-ACT-06 flat full-symbol obstruction missing")
         check("25/9" in live, "live residual target missing")
         check("shifted-form residual or spectral-error bound" in live,
               "live K152 claim ceiling missing")
@@ -474,6 +486,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K720--K722 decide the first frozen full-symbol realization" in summary and
+          "rank 192 and kernel 768 per block" in summary,
+          "current K720--K722 result lost")
     check("K717--K719 construct the first native flat Euclidean germ" in summary,
           "current K717--K719 result lost")
     check("K714--K716 close the abstract ownership shape" in summary,
@@ -568,6 +583,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "Euler ranks 130912 and 122748" in data["agenda"].get("latest_result_2026_09_30_k720_k722", "")
+        and "rank 192 and kernel 768 per block" in data["agenda"].get("latest_result_2026_09_30_k720_k722", "")
+        and "frozen flat selected-I1B realization is rejected as elliptic" in data["agenda"].get("latest_result_2026_09_30_k720_k722", ""),
+        "agenda K720--K722 result is not current",
+    )
     check(
         "local source-typed flat Euclidean Y=Met(X) germ" in data["agenda"].get("latest_result_2026_09_30_k717_k719", "")
         and "zero mixed Hessian" in data["agenda"].get("latest_result_2026_09_30_k717_k719", "")
@@ -1539,6 +1560,45 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k719_t["full_SC_ACT_06_ellipticity_proved"] and
           not k719_n["complete_full_field_symbol"],
           "K719 zero-fermion full-symbol reduction or source ceiling moved")
+
+    k720 = data["k720"]
+    k720_t = k720["transport_theorem"]
+    k720_c = k720["exact_controls"]
+    check(k720_t["complex_clifford_14_real_forms_are_isomorphic"] and
+          k720_t["independent_row_restriction_preserves_euler_kernel"] and
+          not k720_t["selected_bosonic_middle_symbol_is_exact"] and
+          k720_c["field_dimension"] == 229386 and
+          k720_c["owned_metric_diffeomorphism_rank"] == 4 and
+          k720_c["nonnull_cohomology_dimension"] == 98470 and
+          k720_c["native_null_cohomology_dimension"] == 106634 and
+          not k720_t["full_SC_ACT_06_ellipticity_proved"],
+          "K720 selected I1B bosonic transport or source ceiling moved")
+
+    k721 = data["k721"]
+    k721_t = k721["theorem"]
+    k721_c = k721["exact_controls"]
+    check(k721_t["each_pure_contraction_chiral_block_is_invertible"] and
+          k721_t["two_mirror_blocks_are_jointly_invertible"] and
+          k721_t["equal_contraction_wedge_ratio_is_singular"] and
+          not k721_t["source_uniquely_selects_pure_contraction_over_family"] and
+          k721_c["pure_contraction_two_block_rank"] == 1920 and
+          k721_c["equal_ratio_kernel_per_block"] == 768 and
+          not k721_t["full_SC_ACT_06_ellipticity_proved"],
+          "K721 equation-(9.16) fermion symbol or selector ceiling moved")
+
+    k722 = data["k722"]
+    k722_t = k722["composition_theorem"]
+    k722_c = k722["exact_controls"]
+    k722_d = k722["decision"]
+    check(k722_t["middle_cohomology_is_direct_sum"] and
+          k722_t["displayed_fermion_candidate_is_exact"] and
+          not k722_t["selected_bosonic_candidate_is_exact"] and
+          not k722_t["full_frozen_symbol_is_exact_at_every_nonzero_covector"] and
+          k722_c["nonnull_full_cohomology_dimension"] == 98470 and
+          k722_c["native_null_full_cohomology_dimension"] == 106634 and
+          k722_d["frozen_flat_selected_i1b_plus_displayed_eq916_realization_rejected_as_elliptic"] and
+          not k722_d["source_global_SC_ACT_06_refuted"],
+          "K722 flat full-symbol obstruction or realization ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]

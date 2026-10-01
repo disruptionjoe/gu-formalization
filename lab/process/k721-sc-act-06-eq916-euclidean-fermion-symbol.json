@@ -1,0 +1,82 @@
+{
+  "claim_ceiling": "Exact finite-dimensional complex principal-symbol theorem for the displayed pure-contraction equation-(9.16) candidate and a singular control inside its unselected Shiab family. It selects no source coefficient or Euclidean reality/domain and moves no source, ledger, canon, paper, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k721_sc_act_06_eq916_euclidean_fermion_symbol_probe.py",
+    "producer": "tests/channel-swings/k721_sc_act_06_eq916_euclidean_fermion_symbol.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "displayed_canon_fermion_candidate_passes_principal_exactness": true,
+    "fermion_exactness_can_repair_bosonic_cohomology": false,
+    "next_exact_input": "Compose this exact displayed candidate with K720 through K719. Preserve the source-admitted Shiab and southeast-block alternatives as the selector ceiling.",
+    "shiab_selector_is_material_to_ellipticity": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "block_dimension": 960,
+    "equal_ratio_kernel_per_block": 768,
+    "equal_ratio_two_block_kernel": 1536,
+    "minus_to_plus": {
+      "equal_contraction_wedge_full_rank": 192,
+      "equal_contraction_wedge_middle_rank": 64,
+      "opposite_contraction_wedge_full_rank": 960,
+      "opposite_contraction_wedge_middle_rank": 832,
+      "pure_contraction_full_rank": 960,
+      "pure_contraction_middle_rank": 832,
+      "pure_wedge_full_rank": 960,
+      "pure_wedge_middle_rank": 832
+    },
+    "normalization": "T_ratio = T_contract + ratio*T_wedge; Euclidean Clifford wedge uses 1/2{gamma_a,gamma_p gamma_q}",
+    "plus_to_minus": {
+      "equal_contraction_wedge_full_rank": 192,
+      "equal_contraction_wedge_middle_rank": 64,
+      "opposite_contraction_wedge_full_rank": 960,
+      "opposite_contraction_wedge_middle_rank": 832,
+      "pure_contraction_full_rank": 960,
+      "pure_contraction_middle_rank": 832,
+      "pure_wedge_full_rank": 960,
+      "pure_wedge_middle_rank": 832
+    },
+    "pure_contraction_two_block_rank": 1920,
+    "two_block_dimension": 1920
+  },
+  "gu_typed_objects": {
+    "action_owner": "displayed zero-varpi derivative cells and canon pure-contraction Shiab candidate",
+    "carrier": "two mirror complex chiral blocks, each (14*64)+64 = 960",
+    "grading": "Omega1 direct-sum Omega0 with opposite-half row/column grammar",
+    "pairing": "independent barred/unbarred equation-(9.16) action pairing",
+    "real_structure": "complex Euclidean symbol only; no source-selected Euclidean reality condition",
+    "target": "fermion diagonal middle exactness at every nonzero real auxiliary-Euclidean covector"
+  },
+  "ledger_no_change_reason": "The displayed complex principal candidate is exact, but the source does not uniquely select it and no common analytic domain, reality condition, quotient or physical positivity is constructed.",
+  "result_id": "K721-SC-ACT-06-EQ916-EUCLIDEAN-FERMION-SYMBOL",
+  "schema_version": "1.0",
+  "scope": "The zero-varpi principal part of the displayed equation-(9.16) four-field operator, on the K717 auxiliary-Euclideanized fourteen-dimensional carrier.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "source_typing": {
+    "block_input": "Omega1(S_opposite) direct-sum Omega0(S)",
+    "block_output": "Omega1(S) direct-sum Omega0(S_opposite)",
+    "chiral_dimension": 64,
+    "displayed_southeast_block": "zero",
+    "fields": "nu,bar-nu in Omega0(Y,S); zeta,bar-zeta in Omega1(Y,S); barred and unbarred fields independent",
+    "full_dirac_dimension": 128,
+    "mirror_blocks": 2,
+    "source_admits_nontrivial_southeast_variants": true
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "O14_transitivity_reduces_real_nonzero_covectors_to_e0": true,
+    "each_pure_contraction_chiral_block_is_invertible": true,
+    "equal_contraction_wedge_ratio_is_singular": true,
+    "euclidean_clifford_relations_verified_by_parent_anchor": true,
+    "fermion_middle_cohomology_is_zero_for_displayed_candidate": true,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "pure_contraction_candidate_is_O14_equivariant": true,
+    "source_uniquely_selects_pure_contraction_over_family": false,
+    "two_mirror_blocks_are_jointly_invertible": true
+  }
+}

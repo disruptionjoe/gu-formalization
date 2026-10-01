@@ -7,6 +7,49 @@ updated_at: "2026-09-30"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K720--K722 SC-ACT-06 flat full-symbol obstruction (2026-09-30)
+
+K720 imports the actual selected bosonic rank data rather than identifying
+K718's exterior skeleton with the action. Complex Clifford algebras in real
+dimension fourteen have one complex isomorphism class, and similarity plus
+carrier changes preserve principal-symbol rank and the null/nonnull orbit
+split. K132's selected `comm/symi/symi` I1B coupled symbol therefore has field
+dimension 229386 and Euler ranks 130912 on the nonnull stratum and 122748 on
+the null stratum after transport to K717. The corresponding kernels have
+dimensions 98474 and 106638. The only owned gauge generator is rank-four
+metric diffeomorphism, leaving middle cohomology dimensions 98470 and 106634.
+K717's positive auxiliary `q` includes the native-null control with norm two;
+restricting equations to independent rows preserves the Euler kernel and
+cannot repair either defect.
+
+K721 constructs the zero-`varpi` derivative part of the displayed
+equation-(9.16) operator on the source-typed four independent fields. Each
+mirror chiral block maps `Omega1(S_opposite) direct-sum Omega0(S)` to the
+opposite row carrier and has complex dimension 960. After Euclideanizing the
+verified Clifford generators, the canon pure-contraction Shiab gives middle
+rank 832 and full block rank 960 at `xi=e_0`; `O(14)` equivariance and
+transitivity extend this to every nonzero real Euclidean covector. Both mirror
+blocks are therefore exact at principal grade. The exact family control is
+load-bearing: with normalization
+`T_ratio=T_contract+ratio*T_wedge`, ratio one has middle rank 64 and full rank
+192, hence kernel 768 per block, while ratio minus one and pure wedge remain
+rank 960. The source does not uniquely select the pure-contraction member or
+exclude its admitted southeast-block variants.
+
+K722 composes those results with K719. The mixed Hessian and fermionic gauge
+component vanish at the zero-fermion germ, so full middle cohomology is the
+direct sum of the two diagonal cohomologies. The displayed fermion candidate
+contributes zero, while the selected bosonic block contributes 98470 and
+106634 classes on the two covector strata. Thus the frozen K132-selected I1B
+plus displayed equation-(9.16) flat realization is not elliptic. This is a
+realization-level rejection, not a global SC-ACT-06 no-go.
+
+The producers pass 36/42/34 controls and their probes reject 30/30, 34/34 and
+29/29 hostile mutations. The results prove no unique source selector, common
+analytic domain, Fredholm theorem, nonlinear moduli theorem, positive physical
+quotient, source-status change, prediction or confirmation. SC-ACT-06 remains
+`ASSERTS`; the physics ledger, canon and public posture remain unchanged.
+
 ## K717--K719 SC-ACT-06 native flat germ and diagonal-symbol reduction (2026-09-30)
 
 K717 constructs one explicit local native tuple over the constant positive

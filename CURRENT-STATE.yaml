@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5e0bc8eeffc1
+revision_basis: 8c5abdaaf761
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,31 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K720--K722 decide the first frozen full-symbol realization on K717's flat
+    Euclidean germ, and reject that realization as elliptic without promoting
+    the result to a global source no-go. K720 transports K132's selected
+    `comm/symi/symi` I1B coupled bosonic action-symbol ranks through the
+    complex Clifford real-form equivalence. On the 229386-dimensional field
+    carrier, the Euler ranks are 130912 at a native-nonnull covector and
+    122748 at a native-null but auxiliary-`q`-nonzero covector. After the only
+    owned rank-four metric-diffeomorphism image is removed, the middle
+    cohomology dimensions remain 98470 and 106634. An independent-row
+    projector cannot change that kernel. K721 constructs the displayed
+    equation-(9.16) Euclidean fermion principal candidate on two mirror
+    960-dimensional chiral blocks. The canon pure-contraction Shiab gives
+    rank 960 on each block for every nonzero real Euclidean covector, but the
+    equally normalized contraction-plus-wedge family member has rank 192 and
+    kernel 768 per block. Thus the displayed candidate passes principal
+    exactness while the unowned Shiab selector remains material. K722 composes
+    those diagonals through K719's zero-mixed-block theorem: the exact fermion
+    candidate cannot repair the bosonic cohomology, so the frozen K132-selected
+    I1B plus displayed equation-(9.16) flat realization is not elliptic. A live
+    SC-ACT-06 route now requires different action-owned bosonic data—a
+    different selected coefficient or stationary Euclidean germ—before any
+    common-domain, Fredholm or nonlinear-moduli step. SC-ACT-06 remains
+    `ASSERTS`; no source, ledger, canon, paper, public, prediction,
+    confirmation or physical verdict moves.
+
     K717--K719 construct the first native flat Euclidean germ on the
     SC-ACT-06 route and sharply reduce, but do not discharge, the complete-
     symbol debt. K717 takes the constant positive metric on `X=R^4`, the
@@ -12024,20 +12049,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the SC-ACT-06 route, K717 closes the local background-ownership question
-  for one explicit germ: the flat positive four-metric gives a native
-  `Y=Met(X)` section, source-typed `B(epsilon)=0`, and an `O(4)`-natural
-  trace/traceless Cartan reduction whose `q` is positive. K718 closes the
-  corresponding exterior/Koszul row-selection problem at every nonzero
-  covector, but not the complete action Euler linearization. K719 proves the
-  zero-fermion principal symbol is block diagonal, so stop searching for a
-  mixed-block repair. Construct on this same germ the complete action-owned
-  bosonic Euler/redundancy symbol and the Euclidean fermion carrier,
-  gauge/Euler/redundancy symbol and independent-row projector. Then test both
-  diagonal complexes at every nonzero covector. Do not identify K718's
-  exterior skeleton with the missing action block, and do not proceed to
-  Fredholm or nonlinear-moduli claims until both diagonal symbols and a
-  common domain are owned.
+  On the SC-ACT-06 route, K720--K722 reject the frozen K132-selected I1B plus
+  displayed pure-contraction equation-(9.16) realization on K717's flat germ.
+  The actual selected bosonic Euler kernel leaves middle cohomology dimensions
+  98470 and 106634 after the owned rank-four gauge image, including at a
+  native-null but auxiliary-`q`-nonzero covector. The displayed fermion
+  candidate is exact on both 960-dimensional chiral blocks, but K719 makes the
+  full symbol block diagonal, so it cannot repair the bosonic defect. Stop
+  extending projectors or the same flat selected-bosonic route. Supply new
+  action-owned bosonic data: either a different source-selected coefficient
+  or a different stationary Euclidean germ whose complete coupled Euler
+  kernel equals its gauge image. Then rebuild both diagonals on one common
+  analytic domain. Preserve the Shiab-family selector and source-admitted
+  southeast-block variants; do not proceed to Fredholm or nonlinear-moduli
+  claims on this rejected realization.
 
   On the SC-ACT-06 route, K714--K716 identify the exact ownership datum left
   implicit by K713. An `eta`-orthogonal Cartan involution, equivalently an
@@ -12773,18 +12798,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the SC-ACT-06 route, use the K717 flat Euclidean `Y=Met(X)` germ and its
-  background-owned trace/traceless Cartan metric. K718 already supplies exact
-  covector-dependent projectors and middle exactness for the exterior/Koszul
-  skeleton, and K719 proves all mixed boson--fermion principal blocks vanish
-  at zero fermion. The next exact input is therefore the pair of actual
-  diagonal blocks: serialize the complete action-owned bosonic
-  gauge/Euler/redundancy linearization and its independent-row projector, and
-  construct the source-owned Euclidean fermion carrier, principal operator,
-  gauge/redundancy maps and row projector on the same germ. Test both at every
-  nonzero covector. A deficient diagonal leaves full middle cohomology and
-  cannot be repaired by the other exact block. Fredholm domain and nonlinear
-  moduli remain downstream; SC-ACT-06 remains `ASSERTS`.
+  On the SC-ACT-06 route, K720--K722 reject the frozen K132-selected I1B plus
+  displayed pure-contraction equation-(9.16) symbol on K717's flat Euclidean
+  germ. The selected action-owned bosonic diagonal leaves 98470 middle classes
+  on the nonnull stratum and 106634 on the native-null, auxiliary-`q`-nonzero
+  stratum after the owned rank-four gauge image. The displayed fermion
+  candidate is exact on both mirror chiral blocks, but K719 makes the full
+  symbol block diagonal, so it cannot repair that defect. Do not extend row
+  projectors or the same flat selected-bosonic route. The next exact input is
+  different action-owned bosonic data: either another source-selected
+  coefficient or another stationary Euclidean germ whose complete Euler
+  kernel equals its gauge image. Then construct both diagonals on one common
+  analytic domain. Preserve the unowned Shiab selector and admitted southeast
+  variants. Fredholm and nonlinear moduli remain downstream; SC-ACT-06
+  remains `ASSERTS`.
 
   On the SC-ACT-06 route, abstract auxiliary-metric feasibility is now closed.
   K714 constructs the positive metric from a compact reduction, K715 proves

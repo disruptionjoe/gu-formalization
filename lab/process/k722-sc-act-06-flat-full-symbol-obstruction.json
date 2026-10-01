@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Exact direct-sum obstruction for the frozen K132-selected I1B plus displayed pure-contraction equation-(9.16) symbol on K717. This is a realization-level rejection, not a global source no-go, and it moves no source, ledger, canon, paper, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "changing_only_row_projectors_can_remove_defect": false,
+    "displayed_fermion_candidate_is_exact": true,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "full_frozen_symbol_is_exact_at_every_nonzero_covector": false,
+    "middle_cohomology_is_direct_sum": true,
+    "mixed_boson_fermion_principal_blocks_vanish": true,
+    "native_null_auxiliary_nonzero_control_fails": true,
+    "selected_bosonic_candidate_is_exact": false
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k722_sc_act_06_flat_full_symbol_obstruction_probe.py",
+    "producer": "tests/channel-swings/k722_sc_act_06_flat_full_symbol_obstruction.py"
+  },
+  "created": "2026-09-30",
+  "decision": {
+    "displayed_fermion_principal_candidate_rejected": false,
+    "frozen_flat_selected_i1b_plus_displayed_eq916_realization_rejected_as_elliptic": true,
+    "next_exact_input": "A live SC-ACT-06 route now requires new action-owned bosonic data: either a different source-selected coefficient or a different stationary Euclidean germ whose actual coupled Euler kernel equals its gauge image. Only then rebuild both diagonals on a common analytic domain; do not advance to Fredholm or nonlinear moduli on this rejected flat realization.",
+    "same_flat_selected_bosonic_route_needs_more_abstract_projector_work": false,
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "bosonic_middle_cohomology_dimension": 98470,
+        "case": "native_nonnull",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_dimension": 98470,
+        "full_middle_exact": false
+      },
+      {
+        "bosonic_middle_cohomology_dimension": 106634,
+        "case": "native_null_auxiliary_nonzero",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_dimension": 106634,
+        "full_middle_exact": false
+      }
+    ],
+    "fermion_two_block_dimension": 1920,
+    "fermion_two_block_rank": 1920,
+    "native_null_full_cohomology_dimension": 106634,
+    "nonnull_full_cohomology_dimension": 98470
+  },
+  "ledger_no_change_reason": "The certificate rejects one frozen coefficient/background realization. Source-admitted Shiab/southeast variants, other stationary germs, analytic domains and physical positivity remain unselected.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k721": {
+      "path": "lab/process/k721-sc-act-06-eq916-euclidean-fermion-symbol.json",
+      "sha256": "38e0c60674ade17a32d4ad6ef1d61ebbf53e6eb42e6dd9d810e2f67c3d98e481"
+    }
+  },
+  "result_id": "K722-SC-ACT-06-FLAT-FULL-SYMBOL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Block-diagonal composition of the selected K132 I1B bosonic symbol and displayed pure-contraction equation-(9.16) fermion symbol on K717's zero-fermion flat Euclidean germ.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
