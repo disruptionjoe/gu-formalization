@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 413ee8c0e1b9
+revision_basis: 7f3992467960
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,27 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K743--K746 close every residual-square repair that factors through K740's
+    same full-carrier response on K720's flat Euclidean germ. K743 proves the
+    pairing-independent inclusion `im(H_Q) <= im(J^T)` for `H_Q=J^T Q J` and
+    computes exact distortion image-cap rank 131068 on both covector strata
+    and total coupled caps 131074/131071. After the metric coupling and the
+    owned rank-four diffeomorphism gauge,
+    every pairing leaves bosonic middle cohomology at least 98308/98311.
+    K744 supplies the concrete equal-weight full Hodge/Clifford-trace control:
+    its Hessian ranks are 122864/61439, but it adds only 162/66 ranks beyond
+    I1B and leaves cohomology 98308/106568. K745 constructs the actual metric
+    gauge and transpose redundancy maps and verifies both annihilation
+    identities; no independent distortion gauge exists at `T=0`. K746
+    composes the exact displayed fermion diagonal through the zero mixed
+    blocks, so the same bosonic lower bounds survive in the full symbol.
+    The unresolved two-half/full-unitary pairing fork cannot evade the
+    pairing-independent cap. The next live input is a genuinely different
+    action-owned principal response or stationary Euclidean germ whose image
+    leaves `im(E_I1B)+im(J^T)`, together with its actual gauge/redundancy maps.
+    SC-ACT-06 remains `ASSERTS`; no source, ledger, canon, paper, public,
+    prediction, confirmation or physical verdict moves.
+
     K739--K742 close the expanded-parent ownership/rank fork far enough to
     eliminate the grade-saturated Spin horn. K739 composes the prior exact
     zero-branch Hessian and carrier certificates: the written action uses the
@@ -12179,7 +12200,7 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
-  On the SC-ACT-06 route, K739--K742 close the Spin horn and preserve only the action-owned full carrier as a necessary-rank survivor. The written zero-branch action owns the full 229376-direction connection carrier rather than a hard Spin restriction. Exact derivative-only principal-response ranks on both required covector strata are 650 for selected low grade, 60594 for grade-saturated Spin and 122864 for the full carrier. Even after an optimal 101-rank metric/epsilon grant, Spin leaves middle cohomology at least 37775/45939 and is excluded. The full connection response clears 98470/106634, but response rank is only an upper bound on a residual-square Hessian and its image overlap with I1B is unknown. Serialize the full-carrier residual pairing and Hessian on K720's same stationary Euclidean germ, compute the exact combined image, and build the actual gauge/redundancy maps. Do not promote the surviving threshold test to ellipticity or choose the unresolved unitary symmetry/pairing parent.
+  On the SC-ACT-06 route, K743--K746 close every residual-square repair factored through K740's same full-carrier response on K720's flat Euclidean germ. For every residual pairing Q, im(J^T Q J) lies in im(J^T); the exact coupled image caps are 131074/131071, and the actual rank-four gauge leaves middle cohomology at least 98308/98311. The concrete equal-weight full-trace pairing has Hessian ranks 122864/61439, adds only 162/66 ranks beyond I1B, and leaves cohomology 98308/106568. The displayed exact fermion diagonal cannot remove this bosonic obstruction. Construct or authenticate a genuinely different action-owned principal response or stationary Euclidean germ whose image escapes im(E_I1B)+im(J^T), with actual gauge/redundancy maps. Do not vary only the residual pairing or weight on K740's response, promote this local obstruction to a global refutation, or choose the unresolved unitary pairing parent.
 
   On the SC-ACT-06 route, K735--K738 close the complete selected low-grade
   residual-square repair, not merely its serialized connection block. The
@@ -13014,7 +13035,7 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the SC-ACT-06 route, K739--K742 close the Spin horn. The derivative-only principal-response ranks are 650 on selected low grade, 60594 on the grade-saturated Spin carrier and 122864 on the action-owned full connection carrier at both tested covector strata. Even with a maximally favorable 101-rank metric/epsilon grant, Spin leaves middle cohomology at least 37775/45939; the displayed exact fermion block cannot remove it. The full carrier clears the necessary rank threshold only. Construct its residual pairing and Hessian on K720's same stationary Euclidean germ, compute exact image overlap with I1B, and supply actual gauge/redundancy maps before any claim of middle exactness. The unitary symmetry/pairing fork remains open and SC-ACT-06 remains `ASSERTS`.
+  On the SC-ACT-06 route, K743--K746 close every residual-square repair using K740's same full-carrier response on K720's flat germ. The pairing-independent coupled image caps 131074/131071 and actual rank-four gauge force middle cohomology at least 98308/98311; the displayed exact fermion block preserves it. A successor must supply a genuinely different action-owned principal response or stationary Euclidean germ with image outside im(E_I1B)+im(J^T), plus actual gauge/redundancy maps. Another residual pairing or weight on the same response is not a live input. The unitary pairing fork remains unselected and SC-ACT-06 remains `ASSERTS`.
 
   On the SC-ACT-06 route, K735--K738 prove that the complete selected low-grade
   source-native `Y14` tangent, including all 1470 connection, 91 primitive-

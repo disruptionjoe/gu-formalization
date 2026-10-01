@@ -167,6 +167,18 @@ def load_inputs() -> dict:
         "k742": json.loads(
             (ROOT / "lab/process/k742-sc-act-06-expanded-displayed-full-symbol-test.json").read_text()
         ),
+        "k743": json.loads(
+            (ROOT / "lab/process/k743-sc-act-06-residual-square-image-cap.json").read_text()
+        ),
+        "k744": json.loads(
+            (ROOT / "lab/process/k744-sc-act-06-full-trace-hessian-rank.json").read_text()
+        ),
+        "k745": json.loads(
+            (ROOT / "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json").read_text()
+        ),
+        "k746": json.loads(
+            (ROOT / "lab/process/k746-sc-act-06-residual-square-full-symbol-obstruction.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -543,9 +555,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K735--K738 prove that the complete selected low-grade" in live and
               "96899/105063" in live and "113893" in live and "229477" in live,
               "live K735--K738 selected low-grade ceiling and parent threshold missing")
-        check("K739--K742 close the Spin horn" in live and
-              "60594" in live and "122864" in live and "37775/45939" in live,
-              "live K739--K742 expanded-parent rank disposition missing")
+        check("K743--K746 close every residual-square repair" in live and
+              "131074/131071" in live and "98308/98311" in live and
+              "im(E_I1B)+im(J^T)" in live,
+              "live K743--K746 same-response residual-square disposition missing")
         check("K732--K734 remain the sharper connection-only" in live and
               "97000/105164" in live and "98470/106634" in live,
               "live K732--K734 all-grade connection I2B ceiling missing")
@@ -562,6 +575,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K743--K746 close every residual-square repair" in summary and
+          "131074/131071" in summary and "98308/98311" in summary and
+          "122864/61439" in summary and "98308/106568" in summary,
+          "current K743--K746 result lost")
     check("K739--K742 close the expanded-parent ownership/rank fork" in summary and
           "60594/113792" in summary and "122864/229376" in summary and
           "37775/45939" in summary,
@@ -679,6 +696,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "H_Q=J^T Q J" in data["agenda"].get("latest_result_2026_10_01_k743_k746", "")
+        and "131074/131071" in data["agenda"].get("latest_result_2026_10_01_k743_k746", "")
+        and "98308/106568" in data["agenda"].get("latest_result_2026_10_01_k743_k746", ""),
+        "agenda K743--K746 result is not current",
+    )
     check(
         "full unprojected 16384-coefficient" in data["agenda"].get("latest_result_2026_10_01_k739_k742", "")
         and "650, 60594 and 122864" in data["agenda"].get("latest_result_2026_10_01_k739_k742", "")
@@ -1994,6 +2017,39 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k742["decision"]["expanded_parent_frontier"] == "SPIN_HORN_CLOSED__ACTION_OWNED_FULL_CARRIER_HORN_SURVIVES_NECESSARY_RANK_TEST",
           "K742 expanded displayed full-symbol disposition moved")
 
+    k743 = data["k743"]
+    check([row["distortion_universal_image_cap_rank"] for row in k743["exact_controls"]["cases"]] == [131068, 131068] and
+          [row["total_coupled_image_cap_rank"] for row in k743["exact_controls"]["cases"]] == [131074, 131071] and
+          [row["bosonic_middle_cohomology_lower_bound"] for row in k743["exact_controls"]["cases"]] == [98308, 98311] and
+          k743["decision"]["every_same_response_residual_pairing_fails_middle_exactness"] and
+          not k743["decision"]["unitary_pairing_fork_selected"],
+          "K743 pairing-independent residual-square image cap moved")
+
+    k744 = data["k744"]
+    check([row["hessian_rank"] for row in k744["exact_controls"]["cases"]] == [122864, 61439] and
+          [row["rank_gain_over_i1b"] for row in k744["exact_controls"]["cases"]] == [162, 66] and
+          [row["bosonic_middle_cohomology_after_gauge"] for row in k744["exact_controls"]["cases"]] == [98308, 106568] and
+          not k744["decision"]["full_trace_pairing_repairs_middle_exactness"] and
+          k744["decision"]["pairing_independent_k743_is_stronger_scope"],
+          "K744 full-trace Hessian rank control moved")
+
+    k745 = data["k745"]
+    check([row["gauge_rank"] for row in k745["exact_controls"]["cases"]] == [4, 4] and
+          all(row["i1b_euler_times_gauge_rank"] == 0 for row in k745["exact_controls"]["cases"]) and
+          all(row["redundancy_times_i1b_euler_rank"] == 0 for row in k745["exact_controls"]["cases"]) and
+          not k745["decision"]["same_response_residual_square_repair_is_elliptic"] and
+          not k745["decision"]["actual_redundancy_tower_beyond_metric_diffeomorphism_owned"],
+          "K745 actual gauge/redundancy obstruction moved")
+
+    k746 = data["k746"]
+    check(k746["composition_theorem"]["displayed_fermion_candidate_is_exact"] and
+          k746["composition_theorem"]["middle_cohomology_is_direct_sum"] and
+          not k746["composition_theorem"]["same_response_residual_pairing_can_repair_full_symbol"] and
+          [row["universal_full_symbol_middle_cohomology_lower"] for row in k746["exact_controls"]["cases"]] == [98308, 98311] and
+          k746["decision"]["k742_full_carrier_threshold_survivor_is_closed_for_same_response_residual_squares"] and
+          not k746["decision"]["displayed_full_symbol_realization_is_elliptic"],
+          "K746 same-response full-symbol obstruction moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3239,6 +3295,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k741-full-exact", lambda d: d["k741"]["decision"].__setitem__("action_owned_full_connection_parent_proves_middle_exactness", True))
     add("k742-spin-exact", lambda d: d["k742"]["decision"].__setitem__("grade_saturated_spin_plus_displayed_fermion_realization_is_elliptic", True))
     add("k742-full-exact", lambda d: d["k742"]["decision"].__setitem__("action_owned_full_carrier_plus_displayed_fermion_is_proved_elliptic", True))
+    add("k743-cap", lambda d: d["k743"]["exact_controls"]["cases"][0].__setitem__("distortion_universal_image_cap_rank", 0))
+    add("k743-exact", lambda d: d["k743"]["decision"].__setitem__("every_same_response_residual_pairing_fails_middle_exactness", False))
+    add("k744-rank", lambda d: d["k744"]["exact_controls"]["cases"][1].__setitem__("hessian_rank", 0))
+    add("k744-repair", lambda d: d["k744"]["decision"].__setitem__("full_trace_pairing_repairs_middle_exactness", True))
+    add("k745-gauge", lambda d: d["k745"]["exact_controls"]["cases"][0].__setitem__("gauge_rank", 0))
+    add("k745-exact", lambda d: d["k745"]["decision"].__setitem__("same_response_residual_square_repair_is_elliptic", True))
+    add("k746-mixed", lambda d: d["k746"]["composition_theorem"].__setitem__("middle_cohomology_is_direct_sum", False))
+    add("k746-exact", lambda d: d["k746"]["decision"].__setitem__("displayed_full_symbol_realization_is_elliptic", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

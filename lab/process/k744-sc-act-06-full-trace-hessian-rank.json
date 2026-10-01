@@ -1,0 +1,159 @@
+{
+  "claim_ceiling": "Exact full-trace local-pairing control. No source selection, positive norm, formal adjoint/domain, global ellipticity, source-status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k744_sc_act_06_full_trace_hessian_rank_probe.py",
+    "producer": "tests/channel-swings/k744_sc_act_06_full_trace_hessian_rank.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "full_trace_hessian_reaches_response_rank_native_null": false,
+    "full_trace_hessian_reaches_response_rank_nonnull": true,
+    "full_trace_pairing_repairs_middle_exactness": false,
+    "next_exact_input": "Use K743's pairing-independent cap and the actual gauge/redundancy maps; the full-trace control shows that even a nondegenerate concrete residual pairing adds only 162/66 coupled ranks over I1B.",
+    "pairing_independent_k743_is_stronger_scope": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "block_types": [
+          {
+            "combined_rank": 2,
+            "hessian_rank": 1,
+            "i1b_euler_rank": 2,
+            "multiplicity": 1,
+            "response_rank": 1
+          },
+          {
+            "combined_rank": 6,
+            "hessian_rank": 4,
+            "i1b_euler_rank": 6,
+            "multiplicity": 4095,
+            "response_rank": 4
+          },
+          {
+            "combined_rank": 26,
+            "hessian_rank": 25,
+            "i1b_euler_rank": 26,
+            "multiplicity": 13,
+            "response_rank": 25
+          },
+          {
+            "combined_rank": 26,
+            "hessian_rank": 26,
+            "i1b_euler_rank": 24,
+            "multiplicity": 78,
+            "response_rank": 26
+          },
+          {
+            "combined_rank": 26,
+            "hessian_rank": 26,
+            "i1b_euler_rank": 26,
+            "multiplicity": 4005,
+            "response_rank": 26
+          }
+        ],
+        "bosonic_middle_cohomology_after_gauge": 98308,
+        "case": "native_nonnull",
+        "combined_rank": 131068,
+        "hessian_rank": 122864,
+        "i1b_euler_rank": 130912,
+        "local_combined_rank": 104,
+        "local_coupled_rank": 110,
+        "local_hessian_rank": 104,
+        "local_i1b_rank": 98,
+        "local_label_count": 8,
+        "metric_rank_increment": 6,
+        "pairing_independent_image_cap": 131074,
+        "rank_gain_over_i1b": 162,
+        "response_rank": 122864,
+        "total_coupled_rank": 131074
+      },
+      {
+        "block_types": [
+          {
+            "combined_rank": 28,
+            "hessian_rank": 14,
+            "i1b_euler_rank": 28,
+            "multiplicity": 1,
+            "response_rank": 26
+          },
+          {
+            "combined_rank": 30,
+            "hessian_rank": 15,
+            "i1b_euler_rank": 30,
+            "multiplicity": 12,
+            "response_rank": 29
+          },
+          {
+            "combined_rank": 29,
+            "hessian_rank": 15,
+            "i1b_euler_rank": 28,
+            "multiplicity": 66,
+            "response_rank": 30
+          },
+          {
+            "combined_rank": 30,
+            "hessian_rank": 15,
+            "i1b_euler_rank": 30,
+            "multiplicity": 4017,
+            "response_rank": 30
+          }
+        ],
+        "bosonic_middle_cohomology_after_gauge": 106568,
+        "case": "native_null_auxiliary_nonzero",
+        "combined_rank": 122812,
+        "hessian_rank": 61439,
+        "i1b_euler_rank": 122746,
+        "local_combined_rank": 90,
+        "local_coupled_rank": 92,
+        "local_hessian_rank": 45,
+        "local_i1b_rank": 90,
+        "local_label_count": 12,
+        "metric_rank_increment": 2,
+        "pairing_independent_image_cap": 131071,
+        "rank_gain_over_i1b": 66,
+        "response_rank": 122864,
+        "total_coupled_rank": 122814
+      }
+    ],
+    "field_dimension": 229386,
+    "relative_weight": 1
+  },
+  "ledger_no_change_reason": "The equal-weight full-adjoint pairing is a local comparator, and K743 already proves failure for every pairing on this response.",
+  "pairing_horn": {
+    "full_adjoint_invariant_comparator": true,
+    "grade_weights": "EQUAL",
+    "pairing": "DEGREE13_HODGE_TIMES_FULL_CLIFFORD_SCALAR_TRACE",
+    "positive_hilbert_norm": false,
+    "source_selected": false,
+    "weyl_block_product_horn_settled": false
+  },
+  "pinned_inputs": {
+    "k740": {
+      "path": "lab/process/k740-sc-act-06-expanded-principal-response-rank.json",
+      "sha256": "bc1d8b00bf4c58c1cd3a9da36e8933218476ca4a7182a84a10131a058b8867e7"
+    },
+    "k743": {
+      "path": "lab/process/k743-sc-act-06-residual-square-image-cap.json",
+      "sha256": "3e2eb52e889bc575bae556f10a3bc64f86b07c2c382e826e8ada8abc7d9cd0cb"
+    },
+    "k743_script": {
+      "path": "tests/channel-swings/k743_sc_act_06_residual_square_image_cap.py",
+      "sha256": "d93c0ea36158eb4106a08ab610a98172ae6318efb1610d6e103c313e19933a29"
+    },
+    "pairing": {
+      "path": "lab/process/selected-k77-residual-pairing-invariance.json",
+      "sha256": "323abcb4d8b761eab1138152c33b99f2d9a5fe86818c4b6446ceb2a3e046a95a"
+    }
+  },
+  "result_id": "K744-SC-ACT-06-FULL-TRACE-HESSIAN-RANK",
+  "schema_version": "1.0",
+  "scope": "Exact same-background residual Hessian and I1B image overlap for the equal-weight full-adjoint local Hodge/Clifford-trace pairing comparator.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

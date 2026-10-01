@@ -7,6 +7,26 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K743--K746 SAME-RESPONSE RESIDUAL-SQUARE OBSTRUCTION.**
+> K743 proves pairing-independently that every residual-square Hessian
+> `H_Q=J^T Q J` built from K740's same full-carrier response has image inside
+> `im(J^T)`. Its exact overlap with K720's I1B image gives distortion cap
+> 131068 in both strata and total metric-coupled caps 131074/131071. After the
+> actual rank-four metric gauge, bosonic middle cohomology is at least
+> 98308/98311 for every pairing. K744 computes the equal-weight full
+> Hodge/Clifford-trace control: Hessian ranks 122864/61439 yield only 162/66
+> new coupled ranks and cohomology 98308/106568. K745 builds the actual metric
+> gauge and transpose redundancy maps and verifies both complex identities.
+> K746 adds the exact displayed fermion diagonal; the bosonic lower bounds
+> survive in the full symbol. Do not retry the same response with another
+> pairing or weight. Next construct or authenticate a genuinely different
+> action-owned principal response or stationary Euclidean germ whose image
+> escapes `im(E_I1B)+im(J^T)`, with actual gauge/redundancy maps. See
+> `lab/process/k743-sc-act-06-residual-square-image-cap.json`,
+> `lab/process/k744-sc-act-06-full-trace-hessian-rank.json`,
+> `lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json`, and
+> `lab/process/k746-sc-act-06-residual-square-full-symbol-obstruction.json`.
+
 > **2026-10-01 K739--K742 EXPANDED ACTION PARENT AND PRINCIPAL RANK.**
 > K739 closes the zero-branch field-carrier ownership question: the written
 > action has nonzero Hessian on both the 8128-dimensional B-skew sector and

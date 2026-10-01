@@ -1,0 +1,244 @@
+{
+  "claim_ceiling": "Exact finite principal gauge/Euler/redundancy obstruction. No BV/KT tower, global Fredholm domain, nonlinear moduli result, source-status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "complex": {
+    "composition_zero": true,
+    "distortion_radical_relabelled_as_gauge": false,
+    "euler_to_redundancy": "G_q^T",
+    "field_carrier": "S2_BASE_METRIC_DIM10_DIRECT_SUM_OMEGA1_CL14_DIM229376",
+    "field_to_euler": "E_I1B+J^T_Q_J",
+    "gauge_parameter_dimension": 4,
+    "gauge_to_field": "G_q",
+    "independent_distortion_gauge_owned_at_T0": false
+  },
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 31,
+    "probe": "tests/channel-swings/k745_sc_act_06_gauge_redundancy_obstruction_probe.py",
+    "producer": "tests/channel-swings/k745_sc_act_06_gauge_redundancy_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "actual_redundancy_tower_beyond_metric_diffeomorphism_owned": false,
+    "kernel_equals_gauge_image_for_any_same_response_pairing": false,
+    "next_exact_input": "Compose the nonzero bosonic cohomology with the displayed exact fermion diagonal. A successor must change the action-owned principal response or stationary background rather than the residual pairing on K740's J.",
+    "same_response_residual_square_repair_is_elliptic": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "base_covector": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "case": "native_nonnull",
+        "distortion_gauge_columns_at_T0": 0,
+        "full_trace_coupled_euler_rank": 131074,
+        "full_trace_middle_cohomology": 98308,
+        "gauge_map_formula": "G_q(v)_(ab)=q_a v_b+q_b v_a",
+        "gauge_nonzero_entries": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ]
+        ],
+        "gauge_rank": 4,
+        "i1b_euler_times_gauge_rank": 0,
+        "metric_slot_order": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "redundancy_map": "R_q=G_q^T",
+        "redundancy_rank": 4,
+        "redundancy_times_i1b_euler_rank": 0,
+        "residual_hessian_times_gauge_rank": 0,
+        "universal_coupled_euler_rank_upper": 131074,
+        "universal_middle_cohomology_lower": 98308
+      },
+      {
+        "base_covector": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "case": "native_null_auxiliary_nonzero",
+        "distortion_gauge_columns_at_T0": 0,
+        "full_trace_coupled_euler_rank": 122814,
+        "full_trace_middle_cohomology": 106568,
+        "gauge_map_formula": "G_q(v)_(ab)=q_a v_b+q_b v_a",
+        "gauge_nonzero_entries": [
+          [
+            0,
+            0,
+            2
+          ],
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            1
+          ],
+          [
+            3,
+            0,
+            1
+          ],
+          [
+            3,
+            3,
+            1
+          ],
+          [
+            6,
+            1,
+            1
+          ],
+          [
+            8,
+            2,
+            1
+          ],
+          [
+            9,
+            3,
+            2
+          ]
+        ],
+        "gauge_rank": 4,
+        "i1b_euler_times_gauge_rank": 0,
+        "metric_slot_order": [
+          [
+            0,
+            0
+          ],
+          [
+            0,
+            1
+          ],
+          [
+            0,
+            2
+          ],
+          [
+            0,
+            3
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "redundancy_map": "R_q=G_q^T",
+        "redundancy_rank": 4,
+        "redundancy_times_i1b_euler_rank": 0,
+        "residual_hessian_times_gauge_rank": 0,
+        "universal_coupled_euler_rank_upper": 131071,
+        "universal_middle_cohomology_lower": 98311
+      }
+    ],
+    "field_dimension": 229386
+  },
+  "ledger_no_change_reason": "The exact frozen realization fails middle exactness, but SC-ACT-06 quantifies over the complete first-order theory rather than this one residual response/background.",
+  "pinned_inputs": {
+    "k132": {
+      "path": "lab/process/selected-k132-native-i1b-t0-all-grade-noether-complex.json",
+      "sha256": "c2835f33db681168424e95ff0195a5c88813f3d7db073bda45ccfef1c2dbf5b8"
+    },
+    "k743": {
+      "path": "lab/process/k743-sc-act-06-residual-square-image-cap.json",
+      "sha256": "3e2eb52e889bc575bae556f10a3bc64f86b07c2c382e826e8ada8abc7d9cd0cb"
+    },
+    "k744": {
+      "path": "lab/process/k744-sc-act-06-full-trace-hessian-rank.json",
+      "sha256": "6e93c0ad7690bf74c3ceeb442bc6f0ea85ddbba3bfd3e43ed5bbde2f8cd72100"
+    }
+  },
+  "result_id": "K745-SC-ACT-06-GAUGE-REDUNDANCY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Actual principal metric-diffeomorphism gauge generator and transpose Noether redundancy map for K720 plus every K743 same-response residual-square Hessian.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

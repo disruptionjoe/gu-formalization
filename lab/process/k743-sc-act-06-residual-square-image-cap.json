@@ -1,0 +1,145 @@
+{
+  "claim_ceiling": "Exact pairing-independent finite principal-symbol image obstruction on the frozen realization. No unique residual pairing, symmetry parent, global domain, all-background no-go, source-status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 48,
+    "hostile_mutations_rejected": 40,
+    "probe": "tests/channel-swings/k743_sc_act_06_residual_square_image_cap_probe.py",
+    "producer": "tests/channel-swings/k743_sc_act_06_residual_square_image_cap.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "every_same_response_residual_pairing_fails_middle_exactness": true,
+    "full_carrier_rank_threshold_survival_reversed_by_exact_image_overlap": true,
+    "next_exact_input": "Compose the universal bosonic obstruction with the displayed exact fermion diagonal, then seek a genuinely different action-owned principal response or stationary background; no pairing on the same K740 response can repair K720.",
+    "unitary_pairing_fork_selected": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "block_types": [
+          {
+            "i1b_euler_rank": 2,
+            "image_cap_rank": 2,
+            "multiplicity": 1,
+            "response_rank": 1
+          },
+          {
+            "i1b_euler_rank": 6,
+            "image_cap_rank": 6,
+            "multiplicity": 4095,
+            "response_rank": 4
+          },
+          {
+            "i1b_euler_rank": 24,
+            "image_cap_rank": 26,
+            "multiplicity": 78,
+            "response_rank": 26
+          },
+          {
+            "i1b_euler_rank": 26,
+            "image_cap_rank": 26,
+            "multiplicity": 13,
+            "response_rank": 25
+          },
+          {
+            "i1b_euler_rank": 26,
+            "image_cap_rank": 26,
+            "multiplicity": 4005,
+            "response_rank": 26
+          }
+        ],
+        "bosonic_middle_cohomology_lower_bound": 98308,
+        "case": "native_nonnull",
+        "distortion_i1b_euler_rank": 130912,
+        "distortion_universal_image_cap_rank": 131068,
+        "euler_times_gauge_rank": 0,
+        "full_residual_response_rank": 122864,
+        "gauge_rank": 4,
+        "local_image_cap_rank": 104,
+        "local_label_count": 8,
+        "metric_coupled_image_cap_rank": 110,
+        "metric_rank_increment": 6,
+        "redundancy_times_euler_rank": 0,
+        "total_coupled_image_cap_rank": 131074
+      },
+      {
+        "block_types": [
+          {
+            "i1b_euler_rank": 28,
+            "image_cap_rank": 28,
+            "multiplicity": 1,
+            "response_rank": 26
+          },
+          {
+            "i1b_euler_rank": 28,
+            "image_cap_rank": 32,
+            "multiplicity": 66,
+            "response_rank": 30
+          },
+          {
+            "i1b_euler_rank": 30,
+            "image_cap_rank": 32,
+            "multiplicity": 12,
+            "response_rank": 29
+          },
+          {
+            "i1b_euler_rank": 30,
+            "image_cap_rank": 32,
+            "multiplicity": 4017,
+            "response_rank": 30
+          }
+        ],
+        "bosonic_middle_cohomology_lower_bound": 98311,
+        "case": "native_null_auxiliary_nonzero",
+        "distortion_i1b_euler_rank": 122746,
+        "distortion_universal_image_cap_rank": 131068,
+        "euler_times_gauge_rank": 0,
+        "full_residual_response_rank": 122864,
+        "gauge_rank": 4,
+        "local_image_cap_rank": 96,
+        "local_label_count": 12,
+        "metric_coupled_image_cap_rank": 99,
+        "metric_rank_increment": 3,
+        "redundancy_times_euler_rank": 0,
+        "total_coupled_image_cap_rank": 131071
+      }
+    ],
+    "field_dimension": 229386,
+    "owned_metric_diffeomorphism_rank": 4
+  },
+  "image_theorem": {
+    "combined_inclusion": "IMAGE(E_I1B+H_Q)_SUBSET_IMAGE(E_I1B)+IMAGE(J^T)",
+    "complete_invariant_block_enumeration": true,
+    "hessian_form": "H_Q=J^T Q J",
+    "pairing_selection_required_for_cap": false,
+    "relative_weight_required_for_cap": false,
+    "universal_inclusion": "IMAGE(H_Q)_SUBSET_IMAGE(J^T)"
+  },
+  "ledger_no_change_reason": "This closes the same-background residual-square repair class for K740's response, not every stationary germ or action-owned principal packet.",
+  "pinned_inputs": {
+    "backend": {
+      "path": "tests/channel-swings/k77_wave2_moving_shiab_epsilon_ward_green_domain_probe.py",
+      "sha256": "acc72e643032b4927db49963fd4de5b43b0c7f387a078b210a0d759e57e7bdb4"
+    },
+    "k132": {
+      "path": "lab/process/selected-k132-native-i1b-t0-all-grade-noether-complex.json",
+      "sha256": "c2835f33db681168424e95ff0195a5c88813f3d7db073bda45ccfef1c2dbf5b8"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k740": {
+      "path": "lab/process/k740-sc-act-06-expanded-principal-response-rank.json",
+      "sha256": "bc1d8b00bf4c58c1cd3a9da36e8933218476ca4a7182a84a10131a058b8867e7"
+    }
+  },
+  "result_id": "K743-SC-ACT-06-RESIDUAL-SQUARE-IMAGE-CAP",
+  "schema_version": "1.0",
+  "scope": "Pairing-independent exact image cap for every residual-square Hessian factored through the complete K740 derivative response on K720's frozen I1B background.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -7,6 +7,43 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K743--K746 same-response residual-square obstruction (2026-10-01)
+
+K743 proves the pairing-independent image theorem for the action-owned K740
+response on the same K720 germ: `H_Q=J^T Q J` implies
+`im(H_Q) <= im(J^T)` for every residual pairing. Exact blockwise overlap with
+I1B gives distortion image-cap rank 131068 in both covector strata and total
+metric-coupled caps 131074/131071. With the owned rank-four gauge this leaves
+bosonic middle-cohomology lower bounds 98308/98311.
+
+K744 is a concrete control, not a source selection: the equal-weight full
+Hodge/Clifford-trace pairing has Hessian rank 122864 on the nonnull stratum and
+61439 on the native-null stratum. Its coupled ranks are 131074/122814, gains
+of only 162/66 beyond I1B, and its middle cohomology is 98308/106568. K745
+constructs the metric diffeomorphism map `G_q`, its transpose redundancy map,
+and verifies `E G_q=0`, `G_q^T E=0`, and zero distortion gauge columns at
+`T=0`. K746 composes the result with the exact displayed fermion diagonal and
+zero mixed principal blocks, preserving the bosonic obstruction in the full
+symbol.
+
+This closes only residual-square Hessians factored through the same K740
+response on the same flat germ. It neither selects the unresolved unitary
+pairing parent nor refutes global SC-ACT-06. A genuinely different
+action-owned principal response or stationary background remains open.
+
+Run:
+
+```bash
+sage -python tests/channel-swings/k743_sc_act_06_residual_square_image_cap.py
+sage -python tests/channel-swings/k743_sc_act_06_residual_square_image_cap_probe.py
+sage -python tests/channel-swings/k744_sc_act_06_full_trace_hessian_rank.py
+sage -python tests/channel-swings/k744_sc_act_06_full_trace_hessian_rank_probe.py
+python3 tests/channel-swings/k745_sc_act_06_gauge_redundancy_obstruction.py
+python3 tests/channel-swings/k745_sc_act_06_gauge_redundancy_obstruction_probe.py
+python3 tests/channel-swings/k746_sc_act_06_residual_square_full_symbol_obstruction.py
+python3 tests/channel-swings/k746_sc_act_06_residual_square_full_symbol_obstruction_probe.py
+```
+
 ## K739--K742 expanded action parent and principal rank (2026-10-01)
 
 K739 composes the existing zero-branch action-Hessian and Euler-carrier

@@ -1,0 +1,65 @@
+{
+  "claim_ceiling": "Exact displayed full-symbol realization obstruction. No all-background SC-ACT-06 no-go, source-status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "displayed_fermion_candidate_is_exact": true,
+    "middle_cohomology_is_direct_sum": true,
+    "mixed_boson_fermion_principal_blocks_vanish": true,
+    "same_response_residual_pairing_can_repair_full_symbol": false,
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k746_sc_act_06_residual_square_full_symbol_obstruction_probe.py",
+    "producer": "tests/channel-swings/k746_sc_act_06_residual_square_full_symbol_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "different_action_owned_principal_response_or_background_remains_open": true,
+    "displayed_full_symbol_realization_is_elliptic": false,
+    "k742_full_carrier_threshold_survivor_is_closed_for_same_response_residual_squares": true,
+    "next_exact_input": "Construct or authenticate a genuinely different action-owned principal response or stationary Euclidean germ with new image outside im(E_I1B)+im(J^T), together with its actual gauge/redundancy complex; do not vary only the residual pairing or weight on K740's response."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "fermion_middle_cohomology_dimension": 0,
+        "full_symbol_exact": false,
+        "full_trace_bosonic_middle_cohomology": 98308,
+        "full_trace_full_symbol_middle_cohomology": 98308,
+        "universal_bosonic_middle_cohomology_lower": 98308,
+        "universal_full_symbol_middle_cohomology_lower": 98308
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "fermion_middle_cohomology_dimension": 0,
+        "full_symbol_exact": false,
+        "full_trace_bosonic_middle_cohomology": 106568,
+        "full_trace_full_symbol_middle_cohomology": 106568,
+        "universal_bosonic_middle_cohomology_lower": 98311,
+        "universal_full_symbol_middle_cohomology_lower": 98311
+      }
+    ],
+    "fermion_two_block_rank": 1920
+  },
+  "ledger_no_change_reason": "The result excludes the frozen I1B plus every same-response residual-square repair, not every first-order-theory germ or principal packet.",
+  "pinned_inputs": {
+    "k742": {
+      "path": "lab/process/k742-sc-act-06-expanded-displayed-full-symbol-test.json",
+      "sha256": "5c50931d52e722956432c16b96302e7bae0ebe306defdd6c14491e8fe92c0ddd"
+    },
+    "k745": {
+      "path": "lab/process/k745-sc-act-06-gauge-redundancy-obstruction.json",
+      "sha256": "460a3c0981d9cb8fef8e54e4ef1fd5217e4ed922b5bbfdf92416fcc4f8134994"
+    }
+  },
+  "result_id": "K746-SC-ACT-06-RESIDUAL-SQUARE-FULL-SYMBOL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Zero-fermion direct-sum composition of K745's pairing-independent bosonic obstruction with the displayed exact equation-(9.16) fermion diagonal.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
