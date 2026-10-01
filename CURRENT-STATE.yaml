@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: f0759eb3d550
+revision_basis: 53967ddd1b53
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,30 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K735--K738 close the entire currently certified selected low-grade I2B
+    repair class and expose the exact expanded-parent fork. K735 combines the
+    complete source-native `Y14` first-jet tangent certificate with the
+    residual-square factorization: 1470 connection + 91 primitive-epsilon +
+    10 metric directions give total dimension 1571, so every I2B Hessian on
+    that selected low-grade parent has rank at most 1571 even before its
+    moving coefficients are serialized. K736 grants all 1571 directions
+    independent rank, arbitrary weight and optimal image placement against
+    K720. Bosonic middle cohomology remains at least 96899/105063 after the
+    owned rank-four gauge image. Thus an actual repair needs at least that
+    much additional rank from outside the selected low-grade parent. K737
+    classifies the certified parent fork: observed 1131 and source-low-grade
+    1571 are dimensionally insufficient; grade-saturated Spin 113893 and
+    full-unitary 229477 are dimensionally capable, but their operative action
+    parent/projector is unselected and no response rank is proved. K738
+    composes the exact displayed equation-(9.16) fermion block through K719's
+    zero mixed blocks; the full symbol retains the 96899/105063 lower bounds.
+    Stop extending the selected low-grade parent by missing coefficients or
+    weight. The live input is now an action-owned expanded parent on one
+    stationary source-typed Euclidean germ, with complete moving I2B response,
+    actual gauge/redundancy maps and response rank at least 98470/106634.
+    SC-ACT-06 remains `ASSERTS`; no source, ledger, canon, paper, public,
+    prediction, confirmation or physical verdict moves.
+
     K732--K734 test the strongest dimension-only use of the already-built
     all-grade `Cl1+Cl2` connection response after K731. K732 applies the
     stationary residual-square factorization `H=J^! Q_B J`: the exact raw-
@@ -12128,6 +12152,24 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K735--K738 close the complete selected low-grade
+  residual-square repair, not merely its serialized connection block. The
+  certified source-native `Y14` first-jet tangent has exactly 1571 directions:
+  1470 connection, 91 primitive epsilon and 10 metric. Therefore every I2B
+  Hessian supported on that parent has rank at most 1571. Even granting all
+  directions independent rank, arbitrary weight and optimal placement, K720's
+  bosonic and displayed full symbol retain middle cohomology at least
+  96899/105063. Missing low-grade metric/epsilon response coefficients cannot
+  change this dimension ceiling. The observed 1131 and selected low-grade
+  1571 parents are dimensionally insufficient; the certified grade-saturated
+  Spin 113893 and full-unitary 229477 parents are dimensionally capable but
+  unselected, and carrier dimension is not response rank or ellipticity.
+  Select or derive the operative expanded action parent on one stationary
+  source-typed Euclidean germ, serialize its complete moving I2B response and
+  actual gauge/redundancy maps, and prove response rank at least 98470/106634.
+  Do not extend the selected low-grade parent by another coefficient, weight
+  or embedding, and do not infer exactness from expanded-parent dimension.
+
   On the SC-ACT-06 route, K732--K734 grant the entire existing rank-1470
   all-grade `Cl1+Cl2` connection response as a dimension-only repair of K720.
   Because the residual-square Hessian factors as `J^! Q_B J`, it can add rank
@@ -12943,19 +12985,23 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
-  On the SC-ACT-06 route, K732--K734 close the connection-only all-grade
-  residual-square repair of K720 under a maximally favorable dimension grant.
-  The exact rank-1470 raw-`Upsilon` response can induce an I2B Hessian of rank
-  at most 1470, leaving bosonic and full middle cohomology at least
-  97000/105164 after the owned rank-four gauge image. The complete repair
-  threshold is 98470/106634 independent new ranks relative to the selected
-  I1B strata. Construct the missing stationary moving metric/epsilon/
-  connection I2B principal map meeting that threshold, or a genuinely
-  different action-owned principal packet, with its actual gauge and
-  redundancy maps and one coherent Euclidean domain. Only then recompute both
-  diagonal symbols and test `ker E(xi)=im G(xi)` for every nonzero covector.
-  The favorable cross-background transfer used for the ceiling is not a
-  native composition; SC-ACT-06 remains `ASSERTS`.
+  On the SC-ACT-06 route, K735--K738 prove that the complete selected low-grade
+  source-native `Y14` tangent, including all 1470 connection, 91 primitive-
+  epsilon and 10 metric directions, can contribute rank at most 1571. Under a
+  maximally favorable grant the bosonic and displayed full symbol still have
+  middle cohomology at least 96899/105063. No missing coefficient inside that
+  parent can repair the deficit. The grade-saturated Spin 113893 and full-
+  unitary 229477 parents pass the necessary dimension test only; their action
+  selection, stationary Euclidean germ, actual response rank and gauge/
+  redundancy complex remain open. Select or derive one operative expanded
+  parent, construct its complete moving I2B response and prove total new rank
+  at least 98470/106634. Only then recompute both diagonal symbols and test
+  `ker E(xi)=im G(xi)` at every nonzero covector. SC-ACT-06 remains `ASSERTS`.
+
+  K732--K734 remain the sharper connection-only subcase: the existing rank-
+  1470 response, even granted across backgrounds, leaves 97000/105164 middle
+  classes. It is subsumed dimensionally by K735's complete selected low-grade
+  ceiling and should not be retried at another weight or embedding.
 
   On the SC-ACT-06 route, K729--K731 reject the strongest possible use of the
   currently serialized 196-direction I2B bank as a repair of K720. Even with

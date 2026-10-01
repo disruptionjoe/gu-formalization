@@ -1,0 +1,114 @@
+{
+  "candidate_parent_classification": [
+    {
+      "actual_response_rank_proved": false,
+      "candidate": "observed_conditional",
+      "dimension": 1131,
+      "dimension_meets_both_requirements": false,
+      "dimension_meets_native_null_requirement": false,
+      "dimension_meets_nonnull_requirement": false,
+      "middle_exactness_proved": false,
+      "native_null_dimension_margin": -105503,
+      "nonnull_dimension_margin": -97339,
+      "ownership": "conditional conormal restriction or BV differential unowned"
+    },
+    {
+      "actual_response_rank_proved": false,
+      "candidate": "selected_low_grade",
+      "dimension": 1571,
+      "dimension_meets_both_requirements": false,
+      "dimension_meets_native_null_requirement": false,
+      "dimension_meets_nonnull_requirement": false,
+      "middle_exactness_proved": false,
+      "native_null_dimension_margin": -105063,
+      "nonnull_dimension_margin": -96899,
+      "ownership": "selected low-grade source-native tangent"
+    },
+    {
+      "actual_response_rank_proved": false,
+      "candidate": "grade_saturated_spin",
+      "dimension": 113893,
+      "dimension_meets_both_requirements": true,
+      "dimension_meets_native_null_requirement": true,
+      "dimension_meets_nonnull_requirement": true,
+      "middle_exactness_proved": false,
+      "native_null_dimension_margin": 7259,
+      "nonnull_dimension_margin": 15423,
+      "ownership": "proper Euler-closed rival; operative action projector unselected"
+    },
+    {
+      "actual_response_rank_proved": false,
+      "candidate": "full_unitary",
+      "dimension": 229477,
+      "dimension_meets_both_requirements": true,
+      "dimension_meets_native_null_requirement": true,
+      "dimension_meets_nonnull_requirement": true,
+      "middle_exactness_proved": false,
+      "native_null_dimension_margin": 122843,
+      "nonnull_dimension_margin": 131007,
+      "ownership": "source full-U parent; operative action parent unselected"
+    }
+  ],
+  "claim_ceiling": "Exact dimension-only parent classification. No parent selection, response-rank lower bound, stationarity, Euclidean owner, ellipticity, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 46,
+    "hostile_mutations_rejected": 39,
+    "probe": "tests/channel-swings/k737_sc_act_06_expanded_parent_dimension_threshold_probe.py",
+    "producer": "tests/channel-swings/k737_sc_act_06_expanded_parent_dimension_threshold.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "expanded_parent_action_selection_remains_open": true,
+    "expanded_parent_actual_i2b_rank_remains_open": true,
+    "full_unitary_parent_dimensionally_capable": true,
+    "grade_saturated_spin_parent_dimensionally_capable": true,
+    "next_exact_input": "Select or derive the operative expanded action parent on one stationary source-typed Euclidean germ, serialize its complete moving I2B response and actual gauge/redundancy maps, and prove response rank at least 98470/106634 before testing middle exactness.",
+    "observed_and_selected_low_grade_parents_dimensionally_insufficient": true,
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_thresholds": {
+    "minimum_rank_outside_low_grade_native_null": 105063,
+    "minimum_rank_outside_low_grade_nonnull": 96899,
+    "minimum_total_new_rank_native_null": 106634,
+    "minimum_total_new_rank_nonnull": 98470,
+    "selected_low_grade_ceiling": 1571,
+    "spin_directions_outside_low_grade": 112322,
+    "unitary_directions_outside_low_grade": 227906
+  },
+  "ledger_no_change_reason": "The expanded Spin and unitary carriers pass only a necessary dimension test. Their action ownership, stationary background, response rank, Euclidean reduction and symbol complex remain open.",
+  "ownership_controls": {
+    "dimension_is_not_action_ownership": true,
+    "dimension_is_not_middle_exactness": true,
+    "dimension_is_not_response_rank": true,
+    "full_unitary_total_agrees": true,
+    "moving_parent_selection": "OPEN_ACTION_PROJECTOR_OWNERSHIP",
+    "moving_spin_total_agrees": true,
+    "parent_closure_selection": "OPEN"
+  },
+  "pinned_inputs": {
+    "k735": {
+      "path": "lab/process/k735-sc-act-06-source-low-grade-i2b-rank-ceiling.json",
+      "sha256": "bb526362c7f3e04525ea95970c513f5ad90e11fb415d23bc70abd0bfdfa21791"
+    },
+    "k736": {
+      "path": "lab/process/k736-sc-act-06-source-low-grade-bosonic-repair-obstruction.json",
+      "sha256": "0eb69fdb84e544c621f40567bfc44908eca0babf534683b63c9424931255f700"
+    },
+    "moving_parent": {
+      "path": "lab/process/selected-k77-moving-parent-bundle-observation-reduction.json",
+      "sha256": "994b7e3e83d7ee3075bd463612b871875feeb02a436c49d563ac75c2d8a9d73f"
+    },
+    "parent_closure": {
+      "path": "lab/process/selected-k77-grade5-unitary-parent-euler-closure.json",
+      "sha256": "00f2800cd4a2af6573800460639bde38477e925c81bd158362a6f92f7ca9bf66"
+    }
+  },
+  "result_id": "K737-SC-ACT-06-EXPANDED-PARENT-DIMENSION-THRESHOLD",
+  "schema_version": "1.0",
+  "scope": "Dimension-only classification of certified selected and expanded K77 parent carriers against K720's exact repair thresholds; no parent is selected and no response rank is inferred from carrier dimension.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

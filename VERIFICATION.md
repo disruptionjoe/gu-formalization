@@ -7,6 +7,42 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K735--K738 complete low-grade I2B ceiling and parent threshold (2026-10-01)
+
+K735 composes two prior exact facts without inventing the missing response:
+the complete selected low-grade source-native `Y14` first-jet tangent has
+dimension 1571, decomposed as 1470 connection, 91 primitive-epsilon and 10
+metric directions, and a stationary residual-square Hessian factors as
+`H=J^! Q_B J`. Hence every such Hessian supported on this parent has rank at
+most 1571, independently of pairing signature and nonzero overall weight.
+The bound does not cover the grade-saturated Spin or full-unitary parents.
+
+K736 grants all 1571 directions independent image, arbitrary relative weight,
+maximally favorable placement and no overlap with the selected I1B image.
+Combined Euler ranks are still at most 132483 and 124319. After the owned
+rank-four gauge image, bosonic middle cohomology is at least 96899 and 105063.
+Those numbers are also the minimum ranks that must be supplied outside the
+selected low-grade parent.
+
+K737 applies the exact thresholds to certified carrier dimensions. The
+conditional observed tangent 1131 and source-low-grade tangent 1571 fail both
+strata. The grade-saturated Spin total 113893 and full-unitary total 229477
+clear the necessary dimension threshold, by margins 15423/7259 and
+131007/122843 respectively. This is not an action-parent selection or a lower
+bound on response rank: both candidates remain unselected, and no stationary
+Euclidean response or gauge/redundancy complex is constructed.
+
+K738 composes K736 with K719 and K721. Mixed principal blocks vanish at the
+zero-fermion germ and the displayed two-block fermion candidate is exact, so
+the full middle cohomology retains lower bounds 96899/105063. The selected
+low-grade parent is therefore closed as a repair of this flat realization;
+expanded parents and different action-owned principal packets remain open.
+
+The producers pass 44/42/46/38 controls and their probes reject 36/36, 34/34,
+39/39 and 31/31 hostile mutations. SC-ACT-06 remains `ASSERTS`; the source
+register, physics ledger, canon, paper, public posture, prediction,
+confirmation and physical verdicts remain unchanged.
+
 ## K732--K734 all-grade connection I2B ceiling (2026-10-01)
 
 K732 reuses the exact all-grade `Cl1+Cl2` raw-`Upsilon` response without

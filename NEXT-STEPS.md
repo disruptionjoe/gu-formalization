@@ -7,6 +7,29 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K735--K738 COMPLETE LOW-GRADE I2B CEILING AND PARENT
+> THRESHOLD.** K735 proves that the complete selected low-grade source-native
+> `Y14` first-jet tangent has dimension 1571: 1470 connection, 91 primitive-
+> epsilon and 10 metric directions. The residual-square factorization bounds
+> every I2B Hessian on that parent by rank 1571 even before the moving response
+> is serialized. K736 grants all 1571 directions independent rank, arbitrary
+> weight and optimal placement; K720 still has bosonic middle cohomology at
+> least 96899/105063. K737 proves the observed 1131 and selected low-grade 1571
+> parents are dimensionally insufficient, while the grade-saturated Spin
+> 113893 and full-unitary 229477 parents are dimensionally capable only: neither
+> is selected and neither has a proved response rank. K738 composes the exact
+> displayed equation-(9.16) fermion diagonal through the zero mixed-symbol
+> theorem, retaining the same full-symbol lower bounds. Do not extend the
+> selected low-grade parent by missing coefficients, another weight or another
+> embedding. Next select or derive the operative expanded action parent on one
+> stationary source-typed Euclidean germ, construct its complete moving I2B
+> response and actual gauge/redundancy maps, and prove response rank at least
+> 98470/106634 before testing middle exactness. See
+> `lab/process/k735-sc-act-06-source-low-grade-i2b-rank-ceiling.json`,
+> `lab/process/k736-sc-act-06-source-low-grade-bosonic-repair-obstruction.json`,
+> `lab/process/k737-sc-act-06-expanded-parent-dimension-threshold.json`, and
+> `lab/process/k738-sc-act-06-source-low-grade-displayed-full-symbol-obstruction.json`.
+
 > **2026-10-01 K732--K734 ALL-GRADE CONNECTION I2B CEILING.** K732 applies
 > the stationary residual-square factorization `H=J^! Q_B J` to the existing
 > exact all-grade `Cl1+Cl2` raw-`Upsilon` response. Its domain and rank are

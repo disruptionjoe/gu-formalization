@@ -1,0 +1,85 @@
+{
+  "claim_ceiling": "Exact lower bounds after a maximally favorable 1571-rank grant. No expanded-parent obstruction, actual full response, ellipticity, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k736_sc_act_06_source_low_grade_bosonic_repair_obstruction_probe.py",
+    "producer": "tests/channel-swings/k736_sc_act_06_source_low_grade_bosonic_repair_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "complete_selected_low_grade_parent_can_repair_k720_to_middle_exactness": false,
+    "expanded_parent_or_different_action_owned_principal_packet_required": true,
+    "metric_epsilon_completion_inside_selected_low_grade_parent_can_change_that_verdict": false,
+    "next_exact_input": "Select an operative expanded parent and construct a stationary Euclidean I2B response contributing at least 98470/106634 ranks in total, equivalently at least 96899/105063 beyond the selected low-grade tangent grant, with actual gauge/redundancy maps.",
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "combined_kernel_lower": 96903,
+        "combined_rank_upper": 132483,
+        "granted_selected_low_grade_i2b_rank_ceiling": 1571,
+        "i1b_rank": 130912,
+        "middle_cohomology_lower": 96899,
+        "middle_exact_possible_under_grant": false,
+        "minimum_new_rank_required_for_middle_exactness": 98470,
+        "minimum_rank_required_outside_selected_low_grade": 96899,
+        "owned_gauge_image_rank": 4
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "combined_kernel_lower": 105067,
+        "combined_rank_upper": 124319,
+        "granted_selected_low_grade_i2b_rank_ceiling": 1571,
+        "i1b_rank": 122748,
+        "middle_cohomology_lower": 105063,
+        "middle_exact_possible_under_grant": false,
+        "minimum_new_rank_required_for_middle_exactness": 106634,
+        "minimum_rank_required_outside_selected_low_grade": 105063,
+        "owned_gauge_image_rank": 4
+      }
+    ],
+    "field_dimension": 229386,
+    "native_null_middle_cohomology_lower": 105063,
+    "nonnull_middle_cohomology_lower": 96899,
+    "owned_metric_diffeomorphism_rank": 4,
+    "selected_low_grade_i2b_rank_ceiling": 1571
+  },
+  "gu_typed_objects": {
+    "action_owner": "I1B and printed-endpoint I2B remain distinct; only their strongest possible ranks are combined",
+    "carrier": "K720 coupled bosonic carrier of complex dimension 229386",
+    "grading": "rank-four metric diffeomorphism gauge -> coupled bosonic fields -> combined Euler rows",
+    "pairing": "selected I1B form plus arbitrary-weight residual-square Hessian on the complete selected low-grade tangent",
+    "real_structure": "dimension-only transfer grant; no coherent Euclidean cross-background owner inferred",
+    "target": "middle exactness at both K720 covector strata"
+  },
+  "ledger_no_change_reason": "The result excludes only the selected low-grade parent as a repair of one rejected flat realization; expanded action parents and other stationary germs remain open.",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k735": {
+      "path": "lab/process/k735-sc-act-06-source-low-grade-i2b-rank-ceiling.json",
+      "sha256": "bb526362c7f3e04525ea95970c513f5ad90e11fb415d23bc70abd0bfdfa21791"
+    }
+  },
+  "result_id": "K736-SC-ACT-06-SOURCE-LOW-GRADE-BOSONIC-REPAIR-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Dimension-only strongest-grant test of the complete selected low-grade 1571-dimensional I2B parent against K720, with arbitrary weight and maximally favorable placement.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "strongest_grant": {
+    "arbitrary_nonzero_relative_weight": true,
+    "cross_background_transport_granted_for_dimension_test_only": true,
+    "formula": "rank(A+cH) <= rank(A)+rank(H)",
+    "maximally_favorable_image_placement": true,
+    "native_cross_background_composition_claimed": false,
+    "no_i1b_i2b_image_overlap_assumed": true
+  },
+  "target_claim": "SC-ACT-06"
+}

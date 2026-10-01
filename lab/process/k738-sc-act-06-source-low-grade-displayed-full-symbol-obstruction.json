@@ -1,0 +1,75 @@
+{
+  "claim_ceiling": "Exact direct-sum obstruction after a favorable complete selected-low-grade 1571-rank grant. No expanded-parent no-go, actual full response, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "complete_moving_SC_ACT_06_ellipticity_proved": false,
+    "displayed_fermion_candidate_is_exact": true,
+    "exact_fermion_block_can_remove_bosonic_cohomology": false,
+    "expanded_parent_full_symbol_test_performed": false,
+    "middle_cohomology_is_direct_sum": true,
+    "mixed_boson_fermion_principal_blocks_vanish": true,
+    "selected_low_grade_i2b_grant_can_make_full_symbol_exact": false
+  },
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 31,
+    "probe": "tests/channel-swings/k738_sc_act_06_source_low_grade_displayed_full_symbol_obstruction_probe.py",
+    "producer": "tests/channel-swings/k738_sc_act_06_source_low_grade_displayed_full_symbol_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "displayed_fermion_principal_candidate_rejected": false,
+    "flat_selected_i1b_plus_complete_selected_low_grade_i2b_grant_plus_displayed_eq916_realization_rejected_as_elliptic": true,
+    "next_exact_input": "Select or derive the operative expanded action parent on one stationary source-typed Euclidean germ, serialize its complete moving I2B response and actual gauge/redundancy maps, and prove response rank at least 98470/106634 before testing middle exactness.",
+    "selected_low_grade_route_should_be_extended_by_more_weight_or_missing_low_grade_coefficients": false,
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "bosonic_middle_cohomology_lower": 96899,
+        "case": "native_nonnull",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_lower": 96899,
+        "full_middle_exact_possible": false
+      },
+      {
+        "bosonic_middle_cohomology_lower": 105063,
+        "case": "native_null_auxiliary_nonzero",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_lower": 105063,
+        "full_middle_exact_possible": false
+      }
+    ],
+    "fermion_two_block_dimension": 1920,
+    "fermion_two_block_rank": 1920,
+    "native_null_full_cohomology_lower": 105063,
+    "nonnull_full_cohomology_lower": 96899
+  },
+  "ledger_no_change_reason": "The result rejects only the complete selected-low-grade dimension grant on one flat realization. Expanded parents, different stationary germs and other action-owned principal packets remain open.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k721": {
+      "path": "lab/process/k721-sc-act-06-eq916-euclidean-fermion-symbol.json",
+      "sha256": "38e0c60674ade17a32d4ad6ef1d61ebbf53e6eb42e6dd9d810e2f67c3d98e481"
+    },
+    "k736": {
+      "path": "lab/process/k736-sc-act-06-source-low-grade-bosonic-repair-obstruction.json",
+      "sha256": "0eb69fdb84e544c621f40567bfc44908eca0babf534683b63c9424931255f700"
+    },
+    "k737": {
+      "path": "lab/process/k737-sc-act-06-expanded-parent-dimension-threshold.json",
+      "sha256": "3a575fcf80a8d88985b7afa2d6c24ece1cb995e4aa0ffea4327a9dc148ad9d79"
+    }
+  },
+  "result_id": "K738-SC-ACT-06-SOURCE-LOW-GRADE-DISPLAYED-FULL-SYMBOL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Zero-fermion direct-sum composition of K736's strongest complete selected-low-grade I2B grant with the displayed exact equation-(9.16) fermion diagonal.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

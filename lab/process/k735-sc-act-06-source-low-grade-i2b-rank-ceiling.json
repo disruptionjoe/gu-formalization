@@ -1,0 +1,73 @@
+{
+  "claim_ceiling": "Exact dimension ceiling for residual-square Hessians on the selected low-grade 1571-dimensional tangent. No expanded-parent ceiling, actual response rank, same-background composition, ellipticity, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k735_sc_act_06_source_low_grade_i2b_rank_ceiling_probe.py",
+    "producer": "tests/channel-swings/k735_sc_act_06_source_low_grade_i2b_rank_ceiling.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "complete_selected_low_grade_domain_is_dimensionally_closed": true,
+    "expanded_parent_or_different_principal_packet_required_if_1571_is_insufficient": true,
+    "missing_low_grade_metric_epsilon_coefficients_can_raise_rank_above_1571": false,
+    "next_exact_test": "Grant all 1571 selected low-grade directions independent rank with maximally favorable placement against both K720 strata.",
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "factorization_theorem": {
+    "does_not_require_full_response_serialization": true,
+    "independent_of_nonzero_overall_weight": true,
+    "independent_of_pairing_signature": true,
+    "rank_H_le_rank_J": true,
+    "rank_J_le_domain_dimension": true,
+    "stationary_residual_square_hessian": "H = J^! Q_B J"
+  },
+  "gu_typed_objects": {
+    "action_owner": "printed-endpoint I2B residual-square grammar; first-action tangent certificates are used only to bound its selected field domain",
+    "carrier": "complete selected low-grade source-native Y14 first-jet tangent of dimension 1571",
+    "grading": "Cl1+Cl2 connection directions plus primitive epsilon and metric source directions",
+    "pairing": "arbitrary Q_B in the stationary residual-square factorization",
+    "real_structure": "selected real K77 low-grade parent; cross-background K720 use, if any, is a dimension-only grant",
+    "target": "maximum rank of any I2B Hessian supported on the complete selected low-grade tangent"
+  },
+  "ledger_no_change_reason": "This closes only the dimension ceiling of one already certified selected low-grade parent; it neither selects an expanded parent nor constructs a stationary Euclidean symbol complex.",
+  "pinned_inputs": {
+    "epsilon": {
+      "path": "lab/process/selected-k77-moving-epsilon-first-action-completion.json",
+      "sha256": "498c0d812cd7c2941782e207656b30cea325489763bdc90453935be68112635a"
+    },
+    "k732": {
+      "path": "lab/process/k732-sc-act-06-all-grade-connection-i2b-rank-ceiling.json",
+      "sha256": "7f3d673cfffa3927f3e4be0f7e51115645871f4015a34a3996736c59246be369"
+    },
+    "metric": {
+      "path": "lab/process/selected-k77-moving-metric-first-action-hessian.json",
+      "sha256": "260600285301d5e9c160fced503f3958a6fdeb66311c511e367e8a40e9f4bb79"
+    },
+    "tangent": {
+      "path": "lab/process/selected-k77-complete-euler-jet-tangent-closure.json",
+      "sha256": "b72529ec1929c3343ff01e5929845d80fd5f2b08950df62e3ddd4fcf05356c67"
+    }
+  },
+  "result_id": "K735-SC-ACT-06-SOURCE-LOW-GRADE-I2B-RANK-CEILING",
+  "schema_version": "1.0",
+  "scope": "Universal residual-square Hessian rank ceiling on the complete selected low-grade source-native Y14 first-jet tangent; expanded Spin/unitary parents and actual response coefficients are excluded.",
+  "selected_low_grade_tangent": {
+    "complete_moving_response_serialized": false,
+    "component_sum": 1571,
+    "connection_directions": 1470,
+    "connection_only_ceiling": 1470,
+    "expanded_parent_covered": false,
+    "i2b_hessian_rank_ceiling": 1571,
+    "maximum_added_ceiling_from_metric_and_epsilon": 101,
+    "metric_directions": 10,
+    "observed_conditional_tangent": 1131,
+    "primitive_epsilon_directions": 91,
+    "source_native_y14_first_jet_total": 1571
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
