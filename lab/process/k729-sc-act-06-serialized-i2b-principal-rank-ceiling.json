@@ -1,0 +1,68 @@
+{
+  "claim_ceiling": "Exact ownership reconciliation and dimension/rank ceiling for the currently serialized 196-real fixed-natural I2B bank. No claim about the unbuilt moving all-grade I2B map, a stationary background, full Euclidean complex, source status, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k729_sc_act_06_serialized_i2b_principal_rank_ceiling_probe.py",
+    "producer": "tests/channel-swings/k729_sc_act_06_serialized_i2b_principal_rank_ceiling.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "next_exact_test": "Add the full 196-rank ceiling to each K720 stratum by rank subadditivity, allowing arbitrary nonzero weight and maximally favorable placement.",
+    "serialized_i2b_can_be_tested_as_a_favorable_repair": true,
+    "serialized_i2b_is_the_complete_moving_gu_second_action": false
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "source-owned printed-endpoint I2B residual square, not the distinct I1B Euler square rival",
+    "carrier": "196-real selected connection bank embedded in the 229386-dimensional coupled metric/distortion carrier",
+    "grading": "selected connection directions into printed-endpoint residual equations",
+    "pairing": "source-natural fixed-grade Q_B trace/Hodge line up to nonzero scale",
+    "real_structure": "selected real K77 bank; K720 ambient comparison after complexification",
+    "target": "maximum principal rank this already serialized I2B packet can add to K720"
+  },
+  "ledger_no_change_reason": "This types and bounds an already serialized source-owned fixed-grade bank; it neither constructs the moving all-grade I2B symbol nor changes a physics verdict.",
+  "owner_reconciliation": {
+    "fixed_natural_qb_unique_up_to_nonzero_scale": true,
+    "i1b_and_i2b_kept_distinct": true,
+    "i1b_plus_i2b_is_granted_repair_not_source_asserted_sum": true,
+    "printed_endpoint_residual_square_source_owned": true,
+    "residual_zero_first_variation_zero_does_not_force_zero_hessian": true,
+    "stationary_residual_square_hessian": "D Upsilon^! Q_B D Upsilon"
+  },
+  "pinned_inputs": {
+    "i2b_bank": {
+      "path": "lab/process/selected-k77-i2b-moving-higgs-principal-hessian.json",
+      "sha256": "f548bf955c7ffad042dffa894c0cb6d059c5e7360da3ad39d17053b9aaff9ba7"
+    },
+    "i2b_complex": {
+      "path": "explorations/conditional-build/selected-k77-i2b-principal-gauge-complex-2026-08-13.md",
+      "sha256": "56dffe7caf9c851ada69122cf1cfa102567d88f3178642a8eb47e3c692953512"
+    },
+    "i2b_owner": {
+      "path": "explorations/conditional-build/selected-k77-i2b-source-natural-second-action-owner-2026-08-13.md",
+      "sha256": "c71acc6dca55252ed359af0fee7db4d28bb33f9947f7d0f09e35dc9575eb0a63"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    }
+  },
+  "result_id": "K729-SC-ACT-06-SERIALIZED-I2B-PRINCIPAL-RANK-CEILING",
+  "schema_version": "1.0",
+  "scope": "Rank ceiling for the currently serialized fixed-natural printed-endpoint I2B principal bank when embedded in K720's flat coupled bosonic carrier.",
+  "serialized_bank": {
+    "ambient_flat_bosonic_carrier_dimension": 229386,
+    "arbitrary_nonzero_weight_changes_rank_ceiling": false,
+    "complete_moving_all_grade_i2b_symbol_serialized": false,
+    "nonnull_bank_rank": 182,
+    "null_bank_rank": 14,
+    "serialized_connection_bank_dimension": 196,
+    "universal_extension_rank_ceiling": 196,
+    "unknown_embedding_can_increase_rank_beyond_bank_dimension": false
+  },
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

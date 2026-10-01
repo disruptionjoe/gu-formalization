@@ -7,6 +7,25 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K729--K731 SERIALIZED I2B REPAIR CEILING.** K729 reconciles
+> the source-owned printed-endpoint I2B residual square: residual zero makes
+> its first variation vanish but does not make its Hessian vanish. The
+> currently serialized connection bank has dimension 196, ranks 182/14 on
+> the two frozen strata, and can add rank at most 196 in any ambient
+> placement. K730 grants arbitrary relative weight and maximally favorable
+> placement; rank subadditivity still leaves bosonic middle cohomology at
+> least 98274/106438. K731 composes the exact displayed equation-(9.16)
+> fermion block through the zero mixed-symbol theorem, so those lower bounds
+> survive in the full symbol. Do not retry the same bank at another weight.
+> Next construct a stationary source-typed germ and the moving all-grade I2B
+> map, or a different action-owned principal packet outside the serialized
+> 196 directions, with actual gauge/redundancy maps and a coherent Euclidean
+> domain. See
+> `lab/process/k729-sc-act-06-serialized-i2b-principal-rank-ceiling.json`,
+> `lab/process/k730-sc-act-06-i1b-i2b-flat-bosonic-repair-obstruction.json`,
+> and
+> `lab/process/k731-sc-act-06-i1b-i2b-displayed-full-symbol-obstruction.json`.
+
 > **2026-10-01 K726--K728 SC-ACT-06 STATIONARY/PRINCIPAL INPUT GATE.**
 > K726 generalizes the current homogeneous Phi1 branch to arbitrary
 > `kappa_1`: `B=(kappa_1/156)Phi1`, `T=-(kappa_1/78)Phi1` has first-action

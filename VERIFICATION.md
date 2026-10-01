@@ -7,6 +7,38 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K729--K731 serialized I2B repair ceiling (2026-10-01)
+
+K729 reconciles the source owner before using the old I2B packet. The
+printed-endpoint residual square owns the stationary Hessian
+`D Upsilon^! Q_B D Upsilon` up to nonzero scale; residual zero makes its first
+variation vanish but does not force this Hessian to vanish. The currently
+serialized fixed-natural connection bank is 196-dimensional, with recorded
+ranks 182 and 14 on the two covector strata. Consequently its contribution to
+any enlarged Euler map has rank at most 196. This ceiling does not describe
+the unbuilt moving all-grade I2B symbol.
+
+K730 grants the most favorable possible repair: arbitrary relative weight,
+arbitrary image placement, and no assumed overlap with K720's I1B image. The
+inequality `rank(A+cB) <= rank(A)+rank(B)` gives combined-rank upper bounds
+131108 and 122944 in the 229386-dimensional field carrier. After the owned
+rank-four gauge image, middle cohomology is therefore at least 98274 and
+106438. No weight of the serialized I2B bank can make the frozen bosonic
+complex exact.
+
+K731 composes that obstruction with K719 and K721. The zero-fermion mixed
+principal blocks vanish and the displayed two-block fermion candidate has
+rank 1920/1920, so full middle cohomology is the direct sum and retains the
+same bosonic lower bounds. The flat selected-I1B plus any-weight serialized
+I2B plus displayed equation-(9.16) realization is rejected as elliptic.
+
+The producers pass 34/36/34 controls and their probes reject 29/29, 31/31 and
+29/29 hostile mutations. They do not reject a moving all-grade I2B symbol, a
+different action-owned principal packet or a different stationary germ.
+SC-ACT-06 remains `ASSERTS`; the source register, physics ledger, canon,
+paper, public posture, prediction, confirmation and physical verdicts remain
+unchanged.
+
 ## K726--K728 SC-ACT-06 stationary/principal input gate (2026-10-01)
 
 K726 uses the exact homogeneous action polynomial

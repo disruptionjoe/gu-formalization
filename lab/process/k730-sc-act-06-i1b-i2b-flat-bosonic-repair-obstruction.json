@@ -1,0 +1,81 @@
+{
+  "claim_ceiling": "Exact rank-subadditive obstruction for the frozen K720 symbol augmented by the complete currently serialized 196-direction I2B bank. No global I2B no-go, stationary-background theorem, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 31,
+    "probe": "tests/channel-swings/k730_sc_act_06_i1b_i2b_flat_bosonic_repair_obstruction_probe.py",
+    "producer": "tests/channel-swings/k730_sc_act_06_i1b_i2b_flat_bosonic_repair_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "arbitrary_relative_weight_can_repair_k720": false,
+    "current_flat_selected_i1b_plus_serialized_i2b_bosonic_realization_is_elliptic": false,
+    "moving_all_grade_i2b_or_different_principal_owner_remains_open": true,
+    "next_exact_input": "Construct an action-owned moving all-grade I2B or other principal packet with new image outside the serialized 196-direction bank, on a full stationary Euclidean germ with its actual gauge/redundancy complex.",
+    "serialized_i2b_bank_can_repair_k720_to_middle_exactness": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "case": "native_nonnull",
+        "combined_kernel_lower": 98278,
+        "combined_rank_upper": 131108,
+        "i1b_rank": 130912,
+        "i2b_rank_ceiling": 196,
+        "middle_cohomology_lower": 98274,
+        "middle_exact_possible_under_rank_ceiling": false,
+        "owned_gauge_image_rank": 4
+      },
+      {
+        "case": "native_null_auxiliary_nonzero",
+        "combined_kernel_lower": 106442,
+        "combined_rank_upper": 122944,
+        "i1b_rank": 122748,
+        "i2b_rank_ceiling": 196,
+        "middle_cohomology_lower": 106438,
+        "middle_exact_possible_under_rank_ceiling": false,
+        "owned_gauge_image_rank": 4
+      }
+    ],
+    "field_dimension": 229386,
+    "i2b_universal_rank_ceiling": 196,
+    "native_null_middle_cohomology_lower": 106438,
+    "nonnull_middle_cohomology_lower": 98274,
+    "owned_metric_diffeomorphism_rank": 4
+  },
+  "gu_typed_objects": {
+    "action_owner": "I1B and I2B kept distinct; their weighted sum is tested as a strongest repair grant",
+    "carrier": "K720 coupled metric/distortion field carrier of complex dimension 229386",
+    "grading": "rank-four metric diffeomorphism gauge -> coupled bosonic fields -> combined Euler rows",
+    "pairing": "K720 selected I1B action form plus a granted arbitrary-weight fixed-natural I2B endpoint bank",
+    "real_structure": "rank statement after complexification; no Euclidean reality selector inferred",
+    "target": "middle exactness of the augmented flat bosonic principal symbol"
+  },
+  "ledger_no_change_reason": "The theorem rejects only the current serialized low-rank I2B repair of one selected flat I1B realization; it does not exclude a moving all-grade second action or another stationary germ.",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k729": {
+      "path": "lab/process/k729-sc-act-06-serialized-i2b-principal-rank-ceiling.json",
+      "sha256": "6e95d50376364e99e5d46a87fdffe0fa81f890a38c5bad45e85dedc3ff36596e"
+    }
+  },
+  "rank_theorem": {
+    "allows_maximally_favorable_image_placement": true,
+    "formula": "rank(A+cB) <= rank(A)+rank(B)",
+    "nonzero_weight_cannot_exceed_i2b_rank_ceiling": true,
+    "requires_no_assumption_about_i1b_i2b_image_overlap": true,
+    "valid_for_every_scalar_weight": true,
+    "zero_weight_cannot_improve_i1b": true
+  },
+  "result_id": "K730-SC-ACT-06-I1B-I2B-FLAT-BOSONIC-REPAIR-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Rank-subadditive obstruction for augmenting K720's selected flat I1B bosonic symbol by the entire currently serialized 196-direction fixed-natural I2B bank with arbitrary weight and maximally favorable placement.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: b916cf0f68c6
+revision_basis: 9fee32159b7f
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K729--K731 test the strongest repair supplied by the currently serialized
+    source-owned I2B bank against K720's flat selected-I1B obstruction. K729
+    reconciles the printed-endpoint residual square: residual zero kills its
+    first variation but not its Hessian `D Upsilon^! Q_B D Upsilon`. The
+    available bank has dimension 196 and ranks 182 on the nonnull stratum and
+    14 on the native-null stratum, so any embedding contributes rank at most
+    196. K730 grants arbitrary relative weight and maximally favorable image
+    placement. Rank subadditivity still leaves at least 98274 and 106438
+    bosonic middle classes after the owned rank-four gauge image. K731 adds
+    the exact displayed equation-(9.16) fermion block through K719's zero
+    mixed-symbol theorem; full middle cohomology retains the same lower
+    bounds. Thus the flat selected I1B plus any-weight serialized I2B plus
+    displayed fermion realization is not elliptic. This is not a no-go for
+    the unbuilt moving all-grade I2B map. Next construct that map, or a
+    different action-owned principal packet, on a stationary source-typed
+    Euclidean germ with its actual gauge/redundancy complex. SC-ACT-06 remains
+    `ASSERTS`; no source, ledger, canon, paper, public, prediction,
+    confirmation or physical verdict moves.
+
     K726--K728 expose and close the cheapest current stationary-background
     repair on the SC-ACT-06 nonzero-`T` route. K726 generalizes the exact
     homogeneous `B=(kappa_1/156)Phi1`, `T=-(kappa_1/78)Phi1` branch: its first-
@@ -12088,6 +12107,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K729--K731 grant the entire currently serialized
+  source-owned I2B bank as a maximally favorable repair of K720. The bank is
+  only 196-dimensional, so for every relative weight and every placement its
+  addition leaves bosonic middle cohomology at least 98274 on the nonnull
+  stratum and 106438 on the native-null, auxiliary-`q`-nonzero stratum. The
+  displayed exact fermion diagonal cannot remove those classes because the
+  zero-fermion mixed principal blocks vanish. Construct a stationary
+  source-typed germ with the moving all-grade I2B derivative bank, or a
+  different action-owned principal packet whose image is not confined to the
+  serialized 196 directions, together with actual gauge/redundancy maps and
+  one coherent Euclidean domain. Do not retry the same fixed-natural bank at
+  a different weight or count its residual-zero first variation as a zero
+  Hessian.
+
   On the SC-ACT-06 route, K726--K728 separate and test the two gates that the
   current nonzero-`T` candidate must pass. The exact homogeneous Phi1 branch
   is connection-critical on the admitted low-grade tangent and has raw
@@ -12872,6 +12905,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the SC-ACT-06 route, K729--K731 reject the strongest possible use of the
+  currently serialized 196-direction I2B bank as a repair of K720. Even with
+  arbitrary relative weight and maximally favorable image placement, the
+  augmented bosonic complex has middle cohomology at least 98274/106438; the
+  exact displayed equation-(9.16) fermion block cannot repair it across
+  K719's zero mixed blocks. Construct the moving all-grade I2B principal map,
+  or a genuinely different action-owned principal packet, on a full
+  stationary source-typed Euclidean germ with actual gauge and redundancy
+  maps. Only then recompute both diagonal symbols and test
+  `ker E(xi)=im G(xi)` on one coherent domain. The source-owned residual-
+  square Hessian remains open beyond the serialized bank; SC-ACT-06 remains
+  `ASSERTS`.
+
   On the SC-ACT-06 route, the exact surviving input must now pass stationarity
   and principal exactness separately. K726 rejects the current homogeneous
   Phi1 nonzero-`T` branch as a full saddle: for nonzero `kappa_1` its rank-one

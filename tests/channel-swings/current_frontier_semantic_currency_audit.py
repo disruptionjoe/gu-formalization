@@ -125,6 +125,15 @@ def load_inputs() -> dict:
         "k728": json.loads(
             (ROOT / "lab/process/k728-sc-act-06-current-stationary-principal-input-gate.json").read_text()
         ),
+        "k729": json.loads(
+            (ROOT / "lab/process/k729-sc-act-06-serialized-i2b-principal-rank-ceiling.json").read_text()
+        ),
+        "k730": json.loads(
+            (ROOT / "lab/process/k730-sc-act-06-i1b-i2b-flat-bosonic-repair-obstruction.json").read_text()
+        ),
+        "k731": json.loads(
+            (ROOT / "lab/process/k731-sc-act-06-i1b-i2b-displayed-full-symbol-obstruction.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -495,6 +504,9 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
               "K727" in live and "derivative-free algebraic trace repair" in live and
               "K728" in live and "field two-jet" in live,
               "live K726--K728 stationary/principal input gate missing")
+        check("K729--K731 reject the strongest possible use" in live and
+              "196-direction" in live and "98274/106438" in live,
+              "live K729--K731 serialized I2B repair ceiling missing")
         check("K720--K722 reject the frozen K132-selected I1B" in live and
               "98470" in live and "106634" in live and
               "displayed fermion candidate is exact" in live,
@@ -508,6 +520,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K729--K731 test the strongest repair supplied" in summary and
+          "any-weight serialized I2B" in summary and "98274" in summary and
+          "106438" in summary,
+          "current K729--K731 result lost")
     check("K726--K728 expose and close the cheapest current stationary-background" in summary,
           "current K726--K728 result lost")
     check("K723--K725 test every currently serialized alternative bosonic input" in summary,
@@ -609,6 +625,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "bank has dimension 196" in data["agenda"].get("latest_result_2026_10_01_k729_k731", "")
+        and "at least 98274/106438" in data["agenda"].get("latest_result_2026_10_01_k729_k731", "")
+        and "flat selected-I1B plus any-weight serialized-I2B" in data["agenda"].get("latest_result_2026_10_01_k729_k731", ""),
+        "agenda K729--K731 result is not current",
+    )
     check(
         "first-action density 7*kappa_1^3/18252" in data["agenda"].get("latest_result_2026_10_01_k726_k728", "")
         and "rank-91 lower-order moving-epsilon cross" in data["agenda"].get("latest_result_2026_10_01_k726_k728", "")
@@ -1719,6 +1741,49 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k728_d["current_nonzero_t_route_admissible_for_ker_equals_image_test"] and
           k728_d["nonzero_t_route_remains_open"],
           "K728 current stationary/principal input gate or ceiling moved")
+
+    k729 = data["k729"]
+    k729_o = k729["owner_reconciliation"]
+    k729_b = k729["serialized_bank"]
+    k729_d = k729["decision"]
+    check(k729_o["printed_endpoint_residual_square_source_owned"] and
+          k729_o["residual_zero_first_variation_zero_does_not_force_zero_hessian"] and
+          k729_o["i1b_and_i2b_kept_distinct"] and
+          k729_b["serialized_connection_bank_dimension"] == 196 and
+          k729_b["universal_extension_rank_ceiling"] == 196 and
+          not k729_b["complete_moving_all_grade_i2b_symbol_serialized"] and
+          k729_d["serialized_i2b_can_be_tested_as_a_favorable_repair"] and
+          not k729_d["serialized_i2b_is_the_complete_moving_gu_second_action"],
+          "K729 serialized I2B ownership or rank ceiling moved")
+
+    k730 = data["k730"]
+    k730_t = k730["rank_theorem"]
+    k730_c = k730["exact_controls"]
+    k730_d = k730["decision"]
+    check(k730_t["allows_maximally_favorable_image_placement"] and
+          k730_t["valid_for_every_scalar_weight"] and
+          k730_t["requires_no_assumption_about_i1b_i2b_image_overlap"] and
+          k730_c["i2b_universal_rank_ceiling"] == 196 and
+          k730_c["nonnull_middle_cohomology_lower"] == 98274 and
+          k730_c["native_null_middle_cohomology_lower"] == 106438 and
+          not k730_d["serialized_i2b_bank_can_repair_k720_to_middle_exactness"] and
+          k730_d["moving_all_grade_i2b_or_different_principal_owner_remains_open"],
+          "K730 I1B plus I2B rank obstruction or ceiling moved")
+
+    k731 = data["k731"]
+    k731_t = k731["composition_theorem"]
+    k731_c = k731["exact_controls"]
+    k731_d = k731["decision"]
+    check(k731_t["middle_cohomology_is_direct_sum"] and
+          k731_t["mixed_boson_fermion_principal_blocks_vanish"] and
+          k731_t["displayed_fermion_candidate_is_exact"] and
+          not k731_t["arbitrary_weight_serialized_i2b_can_make_full_symbol_exact"] and
+          k731_c["fermion_two_block_rank"] == 1920 and
+          k731_c["nonnull_full_cohomology_lower"] == 98274 and
+          k731_c["native_null_full_cohomology_lower"] == 106438 and
+          k731_d["flat_selected_i1b_plus_any_weight_serialized_i2b_plus_displayed_eq916_realization_rejected_as_elliptic"] and
+          not k731_d["source_global_SC_ACT_06_refuted"],
+          "K731 displayed full-symbol obstruction or ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2927,6 +2992,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k728-background", lambda d: d["k728"]["candidate_census"][0].__setitem__("direct_metric_euler_zero", True))
     add("k728-order", lambda d: d["k728"]["candidate_census"][2].__setitem__("differential_order", "PRINCIPAL"))
     add("k728-input", lambda d: d["k728"]["two_gate_theorem"].__setitem__("current_serialized_packet_passes_both_gates", True))
+    add("k729-owner", lambda d: d["k729"]["owner_reconciliation"].__setitem__("printed_endpoint_residual_square_source_owned", False))
+    add("k729-hessian", lambda d: d["k729"]["owner_reconciliation"].__setitem__("residual_zero_first_variation_zero_does_not_force_zero_hessian", False))
+    add("k729-ceiling", lambda d: d["k729"]["serialized_bank"].__setitem__("universal_extension_rank_ceiling", 197))
+    add("k730-weight", lambda d: d["k730"]["rank_theorem"].__setitem__("valid_for_every_scalar_weight", False))
+    add("k730-cohomology", lambda d: d["k730"]["exact_controls"].__setitem__("nonnull_middle_cohomology_lower", 0))
+    add("k730-repair", lambda d: d["k730"]["decision"].__setitem__("serialized_i2b_bank_can_repair_k720_to_middle_exactness", True))
+    add("k731-mixed", lambda d: d["k731"]["composition_theorem"].__setitem__("mixed_boson_fermion_principal_blocks_vanish", False))
+    add("k731-exact", lambda d: d["k731"]["composition_theorem"].__setitem__("arbitrary_weight_serialized_i2b_can_make_full_symbol_exact", True))
+    add("k731-global", lambda d: d["k731"]["decision"].__setitem__("source_global_SC_ACT_06_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

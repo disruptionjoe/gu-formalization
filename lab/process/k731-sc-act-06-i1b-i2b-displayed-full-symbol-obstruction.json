@@ -1,0 +1,70 @@
+{
+  "claim_ceiling": "Exact direct-sum obstruction for the flat selected I1B realization augmented by the complete serialized 196-direction I2B bank and the displayed exact fermion candidate. No global source no-go, moving-I2B exclusion, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "arbitrary_weight_serialized_i2b_can_make_full_symbol_exact": false,
+    "displayed_fermion_candidate_is_exact": true,
+    "exact_fermion_block_can_remove_bosonic_cohomology": false,
+    "full_SC_ACT_06_ellipticity_proved": false,
+    "middle_cohomology_is_direct_sum": true,
+    "mixed_boson_fermion_principal_blocks_vanish": true
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k731_sc_act_06_i1b_i2b_displayed_full_symbol_obstruction_probe.py",
+    "producer": "tests/channel-swings/k731_sc_act_06_i1b_i2b_displayed_full_symbol_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "displayed_fermion_principal_candidate_rejected": false,
+    "flat_selected_i1b_plus_any_weight_serialized_i2b_plus_displayed_eq916_realization_rejected_as_elliptic": true,
+    "next_exact_input": "Construct a stationary source-typed germ and a moving all-grade I2B or different action-owned principal packet whose new image is not confined to the serialized 196-direction bank; then rebuild gauge/redundancy and both diagonals on one coherent Euclidean domain.",
+    "same_serialized_196_bank_should_be_extended_as_a_repair": false,
+    "source_global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "bosonic_middle_cohomology_lower": 98274,
+        "case": "native_nonnull",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_lower": 98274,
+        "full_middle_exact_possible": false
+      },
+      {
+        "bosonic_middle_cohomology_lower": 106438,
+        "case": "native_null_auxiliary_nonzero",
+        "fermionic_middle_cohomology_dimension": 0,
+        "full_middle_cohomology_lower": 106438,
+        "full_middle_exact_possible": false
+      }
+    ],
+    "fermion_two_block_dimension": 1920,
+    "fermion_two_block_rank": 1920,
+    "native_null_full_cohomology_lower": 106438,
+    "nonnull_full_cohomology_lower": 98274
+  },
+  "ledger_no_change_reason": "The result rejects one enlarged flat realization under a maximally favorable serialized-I2B repair; source-admitted moving/full-field and different-background routes remain open.",
+  "pinned_inputs": {
+    "k719": {
+      "path": "lab/process/k719-sc-act-06-zero-fermion-full-symbol-reduction.json",
+      "sha256": "f5a586ce7071acc0ffec59b66232ed25ab1c1de5f17c0e9d87e392d126f09cd9"
+    },
+    "k721": {
+      "path": "lab/process/k721-sc-act-06-eq916-euclidean-fermion-symbol.json",
+      "sha256": "38e0c60674ade17a32d4ad6ef1d61ebbf53e6eb42e6dd9d810e2f67c3d98e481"
+    },
+    "k730": {
+      "path": "lab/process/k730-sc-act-06-i1b-i2b-flat-bosonic-repair-obstruction.json",
+      "sha256": "217b6706c5ad6563eb3d7c03c6fa6ec1d8e38463a4d82c84ed9435f06da2d7f0"
+    }
+  },
+  "result_id": "K731-SC-ACT-06-I1B-I2B-DISPLAYED-FULL-SYMBOL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Zero-fermion block-diagonal composition of K730's maximally repaired selected flat bosonic symbol with the displayed pure-contraction equation-(9.16) fermion diagonal.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
