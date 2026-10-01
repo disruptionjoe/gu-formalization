@@ -4,6 +4,30 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K747--K750 released T=0 action-family closure
+
+- `channel-swings/k747_sc_act_06_t0_response_invariance.py` transports the
+  K743 image cap across K127's certified local Ricci-flat arbitrary-Weyl
+  `T=0` stationary family.
+- `channel-swings/k748_sc_act_06_released_action_parent_inventory.py` audits
+  released I1B/I2B ownership and preserves the independent path adapter as
+  source-silent and unbuilt.
+- `channel-swings/k749_sc_act_06_t0_full_symbol_obstruction.py` composes that
+  family obstruction with the displayed exact fermion block.
+- `channel-swings/k750_sc_act_06_successor_input_gate.py` freezes the exact
+  successor inputs without changing SC-ACT-06 or a physics verdict.
+
+```bash
+python3 tests/channel-swings/k747_sc_act_06_t0_response_invariance.py
+python3 tests/channel-swings/k747_sc_act_06_t0_response_invariance_probe.py
+python3 tests/channel-swings/k748_sc_act_06_released_action_parent_inventory.py
+python3 tests/channel-swings/k748_sc_act_06_released_action_parent_inventory_probe.py
+python3 tests/channel-swings/k749_sc_act_06_t0_full_symbol_obstruction.py
+python3 tests/channel-swings/k749_sc_act_06_t0_full_symbol_obstruction_probe.py
+python3 tests/channel-swings/k750_sc_act_06_successor_input_gate.py
+python3 tests/channel-swings/k750_sc_act_06_successor_input_gate_probe.py
+```
+
 ## K743--K746 same-response residual-square obstruction
 
 - `channel-swings/k743_sc_act_06_residual_square_image_cap.py` proves the

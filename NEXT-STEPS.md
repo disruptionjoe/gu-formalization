@@ -7,6 +7,21 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K747--K750 RELEASED T=0 ACTION-FAMILY CLOSURE.** K747
+> transports K743's exact same-response obstruction across K127's certified
+> Ricci-flat arbitrary-Weyl `T=0` stationary germ family: the coupled image
+> caps remain 131074/131071 and middle cohomology remains at least
+> 98308/98311 after the actual gauge. K748 audits the released two-layer action
+> grammar: I1B and the residual-square I2B are owned; a genuinely independent
+> Dirac-square/path adapter is source-silent and unbuilt. K749 adds the exact
+> displayed fermion diagonal, which cannot remove the obstruction at zero
+> fermion. K750 freezes three honest reopeners: a fully stationary nonzero-`T`
+> or non-Levi-Civita Euclidean germ with new principal image; an independently
+> action-owned path adapter/different Shiab coefficient; or a nonzero-fermion
+> stationary saddle with action-owned mixed principal blocks. Do not retry a
+> curved `T=0` two-jet, residual pairing, relative weight, zero-order term, or
+> the homogeneous Phi1 branch. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-01 K743--K746 SAME-RESPONSE RESIDUAL-SQUARE OBSTRUCTION.**
 > K743 proves pairing-independently that every residual-square Hessian
 > `H_Q=J^T Q J` built from K740's same full-carrier response has image inside

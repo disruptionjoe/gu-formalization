@@ -1,0 +1,96 @@
+{
+  "admission_order": [
+    "prove full Euler stationarity",
+    "freeze one coherent Euclidean real carrier and pairing",
+    "serialize complete principal response and I1B image overlap",
+    "construct actual gauge and redundancy maps",
+    "test middle exactness at every nonzero covector",
+    "only then pursue Fredholm/global-moduli consequences"
+  ],
+  "claim_ceiling": "Exact successor gate from certified repository results. No existence/nonexistence theorem for the live reopeners, no global SC-ACT-06 verdict, prediction, confirmation or physical result.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_inputs": [
+    {
+      "evidence": "K747/K749",
+      "input": "another Ricci-flat arbitrary-Weyl T=0 two-jet",
+      "reason": "principal coefficients and same-response image cap transport unchanged"
+    },
+    {
+      "evidence": "K743/K748",
+      "input": "another pairing, signature, or relative weight on K740 J",
+      "reason": "H_Q factors through im(J^T)"
+    },
+    {
+      "evidence": "K726",
+      "input": "the homogeneous Phi1 nonzero-T branch",
+      "reason": "rank-one direct metric Euler covector for every nonzero kappa_1"
+    },
+    {
+      "evidence": "K723/K724",
+      "input": "curvature or kappa zero-order algebraic rank",
+      "reason": "subprincipal or zero-order data cannot change principal middle cohomology"
+    }
+  ],
+  "controls": {
+    "controls_passed": 44,
+    "hostile_mutations_rejected": 37,
+    "probe": "tests/channel-swings/k750_sc_act_06_successor_input_gate_probe.py",
+    "producer": "tests/channel-swings/k750_sc_act_06_successor_input_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "do_not_retry_same_response_t0_family": true,
+    "next_route": "NONZERO_T_OR_INDEPENDENT_ACTION_PARENT_OR_NONZERO_FERMION_SADDLE",
+    "unitary_pairing_fork_remains_unselected": true,
+    "what_negative_changes": "a failed concrete reopener narrows that branch only and triggers the next listed independent reopener",
+    "what_positive_changes": "opens a genuinely new coupled principal complex for middle-exactness testing"
+  },
+  "direction": "observed_to_native",
+  "gate_theorem": {
+    "SC_ACT_06_status": "ASSERTS",
+    "current_homogeneous_nonzero_t_branch_rejected": true,
+    "current_stationary_principal_packet_absent": true,
+    "global_SC_ACT_06_refuted": false,
+    "released_source_third_response_absent": true,
+    "released_t0_full_symbol_family_rejected": true
+  },
+  "ledger_no_change_reason": "This gate routes future construction after a realization-family obstruction; it neither changes the source assertion nor supplies physical recovery.",
+  "live_reopeners": [
+    {
+      "input": "nonhomogeneous nonzero-T or otherwise non-Levi-Civita stationary Euclidean germ",
+      "required_new_fact": "complete metric/epsilon/distortion Euler stationarity plus principal response with image outside the closed cap"
+    },
+    {
+      "input": "independently action-owned Dirac-square/path adapter or different Shiab coefficient",
+      "required_new_fact": "source/action ownership, exact path maps, target, response, pairing, and common domain"
+    },
+    {
+      "input": "nonzero-fermion stationary saddle",
+      "required_new_fact": "action-owned nonzero mixed boson-fermion principal blocks and complete coupled gauge/redundancy complex"
+    }
+  ],
+  "pinned_inputs": {
+    "k726": {
+      "path": "lab/process/k726-sc-act-06-homogeneous-nonzero-t-stationarity-obstruction.json",
+      "sha256": "6845d4d5c11d5717a220d43b01972a72a027ab99b2255aa4f15d57165489041a"
+    },
+    "k728": {
+      "path": "lab/process/k728-sc-act-06-current-stationary-principal-input-gate.json",
+      "sha256": "4717bf3a19ed6facf3dc8ce01314a8c75c62c342e69351365836e18792b54c98"
+    },
+    "k748": {
+      "path": "lab/process/k748-sc-act-06-released-action-parent-inventory.json",
+      "sha256": "b061c033f177708969d71aee693c6f741d04f4b0fb0e78abd7598a380362d833"
+    },
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    }
+  },
+  "result_id": "K750-SC-ACT-06-SUCCESSOR-INPUT-GATE",
+  "schema_version": "1.0",
+  "scope": "Decision gate for the next admissible SC-ACT-06 realization after closing the released zero-fermion T=0 same-response family.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

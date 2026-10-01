@@ -7,6 +7,43 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K747--K750 released T=0 action-family closure (2026-10-01)
+
+K747 extends the K743 image obstruction from K720's flat germ across K127's
+certified local Ricci-flat arbitrary-Weyl `T=0` Levi-Civita stationary family.
+K723 proves curvature enters below principal order in normal frames; K740's
+response is the derivative-only map `J_q(u)=K_LIFT(SHIAB(q wedge u))`.
+Simultaneous coherent-frame transport preserves ranks and image intersections,
+so every residual pairing retains total coupled image caps 131074/131071 and
+middle-cohomology lower bounds 98308/98311 after the rank-four gauge.
+
+K748 audits released source ownership. SC-ACT-01 owns I1B; SC-ACT-04 owns the
+I2B residual norm square; SC-ACT-05's total-residual rival is still factorized
+at zero fermion. SC-ACT-03's independent Dirac-square/path adapter would be a
+genuinely different parent only after its paths and target are constructed,
+but those data are source-silent. This is an inventory, not a theorem that no
+other GU action exists.
+
+K749 composes the transported bosonic obstruction with the displayed exact
+equation-(9.16) fermion diagonal and zero mixed principal blocks. The full
+symbol keeps the same 98308/98311 lower bounds. K750 records the exact live
+reopeners and the admission order; it does not prove any reopener exists.
+The four producers pass 42/40/38/44 controls, and their probes reject
+34/34, 35/35, 32/32 and 37/37 hostile mutations.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k747_sc_act_06_t0_response_invariance.py
+python3 tests/channel-swings/k747_sc_act_06_t0_response_invariance_probe.py
+python3 tests/channel-swings/k748_sc_act_06_released_action_parent_inventory.py
+python3 tests/channel-swings/k748_sc_act_06_released_action_parent_inventory_probe.py
+python3 tests/channel-swings/k749_sc_act_06_t0_full_symbol_obstruction.py
+python3 tests/channel-swings/k749_sc_act_06_t0_full_symbol_obstruction_probe.py
+python3 tests/channel-swings/k750_sc_act_06_successor_input_gate.py
+python3 tests/channel-swings/k750_sc_act_06_successor_input_gate_probe.py
+```
+
 ## K743--K746 same-response residual-square obstruction (2026-10-01)
 
 K743 proves the pairing-independent image theorem for the action-owned K740

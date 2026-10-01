@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 7f3992467960
+revision_basis: d76861f88ff7
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,28 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K747--K750 close the released-source zero-fermion `T=0` repair family on
+    K127's certified local Ricci-flat arbitrary-Weyl stationary germs. K747
+    composes K723's normal-frame principal invariance with K740's
+    derivative-only response and K743's exact image cap: coherent frame
+    transport preserves the simultaneous I1B/response intersection ranks, so
+    every residual pairing still leaves middle cohomology at least
+    98308/98311 after the actual rank-four gauge. K748 audits the released
+    two-layer action grammar. It owns I1B and the I2B residual norm square;
+    the total-residual rival remains factorized at zero fermion, while an
+    independent Dirac-square/path adapter is source-silent and unbuilt, not
+    proved nonexistent. K749 composes the certified family obstruction with
+    the exact displayed fermion diagonal and zero mixed principal blocks, so
+    the full symbol retains the same lower bounds. K750 freezes the honest
+    reopeners: a nonhomogeneous nonzero-`T` or otherwise non-Levi-Civita
+    stationary Euclidean germ with new principal image; an independently
+    action-owned path adapter/different Shiab coefficient; or a nonzero-
+    fermion saddle with action-owned mixed principal blocks. Another curved
+    `T=0` two-jet, residual pairing, relative weight, zero-order torsion term,
+    or the nonstationary homogeneous Phi1 branch is not a live input.
+    SC-ACT-06 remains `ASSERTS`; no source, ledger, canon, paper, public,
+    prediction, confirmation or physical verdict moves.
+
     K743--K746 close every residual-square repair that factors through K740's
     same full-carrier response on K720's flat Euclidean germ. K743 proves the
     pairing-independent inclusion `im(H_Q) <= im(J^T)` for `H_Q=J^T Q J` and
@@ -12200,6 +12222,20 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K747--K750 close the released-source zero-fermion
+  `T=0` action grammar across K127's certified Ricci-flat arbitrary-Weyl
+  stationary germ family. Normal-frame and coherent-frame transport preserve
+  K743's coupled image caps 131074/131071, so the actual rank-four gauge leaves
+  full-symbol middle cohomology at least 98308/98311. Released sources own I1B
+  and the residual-square I2B response; an independent Dirac-square/path
+  adapter remains source-silent and unbuilt. Construct one of the three honest
+  reopeners: a fully stationary nonzero-`T`/non-Levi-Civita Euclidean germ with
+  genuinely new principal image, an independently action-owned path adapter or
+  Shiab coefficient, or a nonzero-fermion stationary saddle with action-owned
+  mixed principal blocks. Do not retry another curved `T=0` two-jet, pairing,
+  weight, zero-order term, or the homogeneous Phi1 branch. SC-ACT-06 remains
+  `ASSERTS`.
+
   On the SC-ACT-06 route, K743--K746 close every residual-square repair factored through K740's same full-carrier response on K720's flat Euclidean germ. For every residual pairing Q, im(J^T Q J) lies in im(J^T); the exact coupled image caps are 131074/131071, and the actual rank-four gauge leaves middle cohomology at least 98308/98311. The concrete equal-weight full-trace pairing has Hessian ranks 122864/61439, adds only 162/66 ranks beyond I1B, and leaves cohomology 98308/106568. The displayed exact fermion diagonal cannot remove this bosonic obstruction. Construct or authenticate a genuinely different action-owned principal response or stationary Euclidean germ whose image escapes im(E_I1B)+im(J^T), with actual gauge/redundancy maps. Do not vary only the residual pairing or weight on K740's response, promote this local obstruction to a global refutation, or choose the unresolved unitary pairing parent.
 
   On the SC-ACT-06 route, K735--K738 close the complete selected low-grade
@@ -13035,6 +13071,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K747--K750 force the next SC-ACT-06 input off the released zero-fermion
+  `T=0` same-response family. The next admissible packet must be either (1) a
+  source-typed nonhomogeneous nonzero-`T` or otherwise non-Levi-Civita
+  stationary Euclidean germ with complete metric/epsilon/distortion Euler
+  stationarity and new principal image outside the closed cap, (2) an
+  independently action-owned Dirac-square/path adapter or different Shiab
+  coefficient with exact maps and target, or (3) a nonzero-fermion stationary
+  saddle with nonzero action-owned mixed principal blocks. Then freeze one
+  coherent carrier/pairing, serialize the complete response and I1B overlap,
+  construct actual gauge/redundancy maps, and test middle exactness at every
+  nonzero covector. Another curved `T=0` germ, pairing, weight, zero-order
+  torsion term, or the homogeneous Phi1 branch is closed. SC-ACT-06 remains
+  `ASSERTS`.
+
   On the SC-ACT-06 route, K743--K746 close every residual-square repair using K740's same full-carrier response on K720's flat germ. The pairing-independent coupled image caps 131074/131071 and actual rank-four gauge force middle cohomology at least 98308/98311; the displayed exact fermion block preserves it. A successor must supply a genuinely different action-owned principal response or stationary Euclidean germ with image outside im(E_I1B)+im(J^T), plus actual gauge/redundancy maps. Another residual pairing or weight on the same response is not a live input. The unitary pairing fork remains unselected and SC-ACT-06 remains `ASSERTS`.
 
   On the SC-ACT-06 route, K735--K738 prove that the complete selected low-grade

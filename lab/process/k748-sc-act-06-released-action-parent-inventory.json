@@ -1,0 +1,88 @@
+{
+  "claim_ceiling": "Exact inventory of released source ownership and current repository realizations. No theorem that GU has no other action parent, no source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 35,
+    "probe": "tests/channel-swings/k748_sc_act_06_released_action_parent_inventory_probe.py",
+    "producer": "tests/channel-swings/k748_sc_act_06_released_action_parent_inventory.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "another_pairing_or_weight_is_a_new_action_parent": false,
+    "new_principal_response_requires_new_owned_operator_or_new_stationary_coefficients": true,
+    "next_exact_input": "Authenticate and construct the source-silent Dirac-square/path adapter as a separately typed principal target, or produce a nonzero-T/non-Levi-Civita stationary germ that changes the existing response; do not infer either from the two-layer slogan.",
+    "unresolved_unitary_pairing_horn_is_a_new_response": false
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "This is a released-source ownership inventory. It identifies the current construction boundary without changing any source polarity or physics-row verdict.",
+  "ownership_theorem": {
+    "released_residual_response_formula": "J_q(u)=K_LIFT(SHIAB(q_WEDGE_u))",
+    "released_source_owns_third_independent_bosonic_principal_response": false,
+    "released_t0_derivative_grammar_exhausted_by_i1b_plus_same_response_residual_squares": true,
+    "source_silent_path_adapter_is_proved_nonexistent": false,
+    "source_silent_path_adapter_may_be_used_as_current_action_truth": false,
+    "zero_branch_full_connection_field_carrier_action_owned": true
+  },
+  "pinned_inputs": {
+    "k739": {
+      "path": "lab/process/k739-sc-act-06-expanded-action-parent-ownership.json",
+      "sha256": "f7fa722d9e5298f589dd18546a20f532f9b6f14ac515f7efc08d6254a98b2a6c"
+    },
+    "k740": {
+      "path": "lab/process/k740-sc-act-06-expanded-principal-response-rank.json",
+      "sha256": "bc1d8b00bf4c58c1cd3a9da36e8933218476ca4a7182a84a10131a058b8867e7"
+    },
+    "source_register": {
+      "path": "lab/sources/source-claim-register.yaml",
+      "sha256": "dc3ae173b4cc0eb2a0e343e3d92d5f110b8e4f6eef3e2852a1e897ab4371ade6"
+    },
+    "two_layer_reinspection": {
+      "path": "lab/sources/gu-two-layer-action-source-reinspection-2026-08-04.md",
+      "sha256": "14333eeeb9c7474844a25723021156d8ba6670758580b57101b0b3cabd15afcc"
+    }
+  },
+  "released_parent_inventory": [
+    {
+      "current_realization": "K720/K723",
+      "independent_response": true,
+      "parent": "I1B_FIRST_TRANSGRESSION",
+      "principal_role": "selected first-order I1B Euler symbol",
+      "source_claim": "SC-ACT-01"
+    },
+    {
+      "current_realization": "K740/K743",
+      "independent_response": false,
+      "parent": "I2B_RESIDUAL_NORM_SQUARE",
+      "principal_role": "H_Q=J^T Q J factored through the first-layer residual response",
+      "source_claim": "SC-ACT-04"
+    },
+    {
+      "current_realization": "K719/K746",
+      "independent_response": false,
+      "parent": "TOTAL_RESIDUAL_NORM_RIVAL",
+      "principal_role": "declared rival still norm-square/factorized at zero fermion",
+      "source_claim": "SC-ACT-05"
+    },
+    {
+      "current_realization": "SOURCE_SILENT_UNBUILT",
+      "independent_response": null,
+      "parent": "DIRAC_SQUARE_PATH_ADAPTER",
+      "principal_role": "could be independent only after actual up/back/over maps and target are constructed",
+      "source_claim": "SC-ACT-03"
+    }
+  ],
+  "result_id": "K748-SC-ACT-06-RELEASED-ACTION-PARENT-INVENTORY",
+  "schema_version": "1.0",
+  "scope": "Released-source inventory of bosonic derivative action parents relevant to the current SC-ACT-06 principal-symbol test; absence from released sources is not a nonexistence theorem.",
+  "source_and_ledger_effect": "SC-ACT-01_03_04_05_06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "source_controls": {
+    "dirac_path_adapter_source_silent": true,
+    "independent_k77_second_layer_target_source_silent": true,
+    "norm_square_and_redundancy_confirmed": true,
+    "required_claim_ids_present": true,
+    "two_layer_square_architecture_confirmed": true
+  },
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

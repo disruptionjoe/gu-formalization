@@ -1,0 +1,69 @@
+{
+  "claim_ceiling": "Exact realization-family obstruction for the released zero-fermion T=0 action grammar on K127 germs. No global SC-ACT-06 no-go, source-status change, prediction, confirmation or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "composition_theorem": {
+    "certified_t0_family_same_response_obstruction": true,
+    "displayed_fermion_diagonal_exact": true,
+    "global_SC_ACT_06_refuted": false,
+    "middle_cohomology_direct_sum_at_zero_fermion": true,
+    "released_t0_derivative_grammar_exhausted": true,
+    "released_t0_full_symbol_family_elliptic": false,
+    "zero_fermion_mixed_principal_blocks_vanish": true
+  },
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k749_sc_act_06_t0_full_symbol_obstruction_probe.py",
+    "producer": "tests/channel-swings/k749_sc_act_06_t0_full_symbol_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "another_pairing_or_weight_repairs_released_full_symbol": false,
+    "another_t0_ricci_flat_weyl_germ_repairs_released_full_symbol": false,
+    "independent_action_parent_or_nonzero_t_stationary_germ_remains_open": true,
+    "next_exact_input": "Leave the certified T=0 same-response family. Construct a source-typed nonzero-T/non-Levi-Civita stationary Euclidean germ with new principal image, authenticate an independent path-adapter action parent, or construct a nonzero-fermion saddle whose action-owned mixed principal blocks are nonzero.",
+    "nonzero_fermion_saddle_with_mixed_blocks_remains_open": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "cases": [
+      {
+        "bosonic_middle_cohomology_lower_bound": 98308,
+        "case": "native_nonnull",
+        "fermion_middle_cohomology_dimension": 0,
+        "full_symbol_exact": false,
+        "full_symbol_middle_cohomology_lower_bound": 98308
+      },
+      {
+        "bosonic_middle_cohomology_lower_bound": 98311,
+        "case": "native_null_auxiliary_nonzero",
+        "fermion_middle_cohomology_dimension": 0,
+        "full_symbol_exact": false,
+        "full_symbol_middle_cohomology_lower_bound": 98311
+      }
+    ],
+    "fermion_two_block_rank": 1920,
+    "field_dimension": 229386
+  },
+  "ledger_no_change_reason": "The result rejects the released zero-fermion T=0 realization family, not the global first-order theory, nonzero-T backgrounds, independent action parents, or nonzero-fermion saddles.",
+  "pinned_inputs": {
+    "k746": {
+      "path": "lab/process/k746-sc-act-06-residual-square-full-symbol-obstruction.json",
+      "sha256": "f36819dc8f6f6899803db9231acbecd5e3834287ca975dab694e7e5bf1369c36"
+    },
+    "k747": {
+      "path": "lab/process/k747-sc-act-06-t0-response-invariance.json",
+      "sha256": "7c554b490f248c56ab4fef2ad1b7d0f8690d2ed6747681ad04e086e274174567"
+    },
+    "k748": {
+      "path": "lab/process/k748-sc-act-06-released-action-parent-inventory.json",
+      "sha256": "b061c033f177708969d71aee693c6f741d04f4b0fb0e78abd7598a380362d833"
+    }
+  },
+  "result_id": "K749-SC-ACT-06-T0-FULL-SYMBOL-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Zero-fermion full-symbol composition over K127's certified local Ricci-flat arbitrary-Weyl T=0 stationary family and the released two-layer action grammar.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -179,6 +179,18 @@ def load_inputs() -> dict:
         "k746": json.loads(
             (ROOT / "lab/process/k746-sc-act-06-residual-square-full-symbol-obstruction.json").read_text()
         ),
+        "k747": json.loads(
+            (ROOT / "lab/process/k747-sc-act-06-t0-response-invariance.json").read_text()
+        ),
+        "k748": json.loads(
+            (ROOT / "lab/process/k748-sc-act-06-released-action-parent-inventory.json").read_text()
+        ),
+        "k749": json.loads(
+            (ROOT / "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json").read_text()
+        ),
+        "k750": json.loads(
+            (ROOT / "lab/process/k750-sc-act-06-successor-input-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -696,6 +708,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "131074/131071" in data["agenda"].get("latest_result_2026_10_01_k747_k750", "")
+        and "98308/98311" in data["agenda"].get("latest_result_2026_10_01_k747_k750", "")
+        and "source-silent and unbuilt" in data["agenda"].get("latest_result_2026_10_01_k747_k750", ""),
+        "agenda K747--K750 result is not current",
+    )
     check(
         "H_Q=J^T Q J" in data["agenda"].get("latest_result_2026_10_01_k743_k746", "")
         and "131074/131071" in data["agenda"].get("latest_result_2026_10_01_k743_k746", "")
@@ -2050,6 +2068,37 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k746["decision"]["displayed_full_symbol_realization_is_elliptic"],
           "K746 same-response full-symbol obstruction moved")
 
+    k747 = data["k747"]
+    check(k747["principal_transport_theorem"]["same_response_image_cap_transports_over_certified_family"] and
+          not k747["principal_transport_theorem"]["global_all_t0_stationary_germs_classified"] and
+          [row["total_coupled_image_cap_rank"] for row in k747["exact_controls"]["cases"]] == [131074, 131071] and
+          [row["middle_cohomology_lower_bound"] for row in k747["exact_controls"]["cases"]] == [98308, 98311] and
+          not k747["decision"]["k127_curved_t0_family_repairs_same_response_obstruction"],
+          "K747 T=0 response transport disposition moved")
+
+    k748 = data["k748"]
+    check(k748["ownership_theorem"]["released_t0_derivative_grammar_exhausted_by_i1b_plus_same_response_residual_squares"] and
+          not k748["ownership_theorem"]["released_source_owns_third_independent_bosonic_principal_response"] and
+          not k748["ownership_theorem"]["source_silent_path_adapter_is_proved_nonexistent"] and
+          not k748["decision"]["another_pairing_or_weight_is_a_new_action_parent"],
+          "K748 released action-parent inventory moved")
+
+    k749 = data["k749"]
+    check(k749["composition_theorem"]["certified_t0_family_same_response_obstruction"] and
+          k749["composition_theorem"]["displayed_fermion_diagonal_exact"] and
+          not k749["composition_theorem"]["released_t0_full_symbol_family_elliptic"] and
+          [row["full_symbol_middle_cohomology_lower_bound"] for row in k749["exact_controls"]["cases"]] == [98308, 98311],
+          "K749 T=0 full-symbol obstruction moved")
+
+    k750 = data["k750"]
+    check(k750["gate_theorem"]["current_homogeneous_nonzero_t_branch_rejected"] and
+          k750["gate_theorem"]["current_stationary_principal_packet_absent"] and
+          k750["gate_theorem"]["released_source_third_response_absent"] and
+          k750["gate_theorem"]["released_t0_full_symbol_family_rejected"] and
+          not k750["gate_theorem"]["global_SC_ACT_06_refuted"] and
+          k750["decision"]["do_not_retry_same_response_t0_family"],
+          "K750 successor input gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3303,6 +3352,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k745-exact", lambda d: d["k745"]["decision"].__setitem__("same_response_residual_square_repair_is_elliptic", True))
     add("k746-mixed", lambda d: d["k746"]["composition_theorem"].__setitem__("middle_cohomology_is_direct_sum", False))
     add("k746-exact", lambda d: d["k746"]["decision"].__setitem__("displayed_full_symbol_realization_is_elliptic", True))
+    add("k747-family", lambda d: d["k747"]["principal_transport_theorem"].__setitem__("same_response_image_cap_transports_over_certified_family", False))
+    add("k747-cap", lambda d: d["k747"]["exact_controls"]["cases"][0].__setitem__("total_coupled_image_cap_rank", 0))
+    add("k748-owner", lambda d: d["k748"]["ownership_theorem"].__setitem__("released_source_owns_third_independent_bosonic_principal_response", True))
+    add("k748-nonexistence", lambda d: d["k748"]["ownership_theorem"].__setitem__("source_silent_path_adapter_is_proved_nonexistent", True))
+    add("k749-exact", lambda d: d["k749"]["composition_theorem"].__setitem__("released_t0_full_symbol_family_elliptic", True))
+    add("k749-cohom", lambda d: d["k749"]["exact_controls"]["cases"][1].__setitem__("full_symbol_middle_cohomology_lower_bound", 0))
+    add("k750-global", lambda d: d["k750"]["gate_theorem"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k750-retry", lambda d: d["k750"]["decision"].__setitem__("do_not_retry_same_response_t0_family", False))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))
