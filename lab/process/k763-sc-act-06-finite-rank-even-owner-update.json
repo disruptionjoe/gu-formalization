@@ -1,0 +1,97 @@
+{
+  "claim_ceiling": "Exact finite-dimensional rank theorem for rank-r old-block corrections with m new even fields and unchanged gauge rank. No statement about unbounded-rank owners, changed germs, global domains, source ownership, or SC-ACT-06 globally.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 34,
+    "probe": "tests/channel-swings/k763_sc_act_06_finite_rank_even_owner_update_probe.py",
+    "producer": "tests/channel-swings/k763_sc_act_06_finite_rank_even_owner_update.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "changed_background_or_unbounded_rank_owner_outside_scope": true,
+    "global_SC_ACT_06_refuted": false,
+    "r_plus_m_is_necessary_rank_budget_not_sufficiency": true,
+    "small_rank_nonfactorizing_update_can_be_decisively_bounded": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": [
+    {
+      "gauge_rank": 1,
+      "m": 1,
+      "new_middle": 0,
+      "new_rank": 3,
+      "old_middle": 1,
+      "old_rank": 1,
+      "r": 0
+    },
+    {
+      "gauge_rank": 1,
+      "m": 1,
+      "new_middle": 0,
+      "new_rank": 4,
+      "old_middle": 2,
+      "old_rank": 1,
+      "r": 1
+    },
+    {
+      "gauge_rank": 1,
+      "m": 2,
+      "new_middle": 0,
+      "new_rank": 8,
+      "old_middle": 5,
+      "old_rank": 1,
+      "r": 3
+    },
+    {
+      "gauge_rank": 1,
+      "m": 1,
+      "new_middle": 0,
+      "new_rank": 13,
+      "old_middle": 11,
+      "old_rank": 1,
+      "r": 10
+    }
+  ],
+  "ledger_no_change_reason": "This is an internal symbol-complex rank theorem; it supplies no source-owned action, stationary GU germ, analytic domain, or physical recovery.",
+  "pinned_inputs": {
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    },
+    "k759": {
+      "path": "lab/process/k759-sc-act-06-even-spectator-rank-update-theorem.json",
+      "sha256": "deceb959fba07c8dcab568399d7893179ca5a1e304664d0bcbc1237795ff176d"
+    },
+    "k762": {
+      "path": "lab/process/k762-sc-act-06-even-owner-successor-gate.json",
+      "sha256": "970d76f6ed46a49ede89931806b446e38ac2832e476257f49e1122197f36ab99"
+    }
+  },
+  "result_id": "K763-SC-ACT-06-FINITE-RANK-EVEN-OWNER-UPDATE",
+  "schema_version": "1.0",
+  "scope": "Finite-dimensional principal-symbol extensions with a rank-r correction K to the old V-to-V* block, m new body-valued even fields, and the old gauge embedding preserved.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "allows_arbitrary_mixed_and_new_self_blocks": true,
+    "k759_recovered_at_r_zero": true,
+    "middle_cohomology_bound": "dim H_ext >= dim H_old-r-m",
+    "proof": "Subtract diag(E,0). The old-old correction contributes rank at most r; after quotienting its image, every remaining update column or row factors through the m-dimensional new field space, contributing at most 2m. Rank-nullity and the unchanged gauge rank give the cohomology bound.",
+    "rank_update_bound": "rank(H)-rank(E) <= r+2m",
+    "requires_rank_bound_on_old_block_correction": true,
+    "requires_unchanged_gauge_rank": true,
+    "requires_ward_compatibility": true,
+    "sharp": true
+  },
+  "typed_objects": {
+    "action_owner": "abstract Hessian class; no source or physical owner inferred",
+    "extended_block": "H=[[E+K,B],[B^T,C]] on V+S",
+    "gauge_map": "G_ext=(G,0), with KG=0 and B^T G=0",
+    "grading": "body-valued even extension",
+    "new_even_space": "S of dimension m",
+    "old_block_correction": "K: V -> V* with rank(K)<=r",
+    "old_euler_block": "E: V -> V*"
+  }
+}

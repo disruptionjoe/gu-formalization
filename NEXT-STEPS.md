@@ -7,6 +7,20 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K763--K766 FINITE-RANK DERIVATIVE-EVEN BOUNDARY.** K763
+> extends K759: if an action-owned correction of the old bosonic body block
+> has rank at most `r` and `m` new even fields are adjoined, then
+> `rank(H)-rank(E)<=r+2m` and `dim H_ext>=dim H_old-r-m`. K764 constructs a
+> stationary repository-owned scalar-metric derivative control on the K749
+> flat germ. Its old update is confined to the ten-dimensional metric sector,
+> its connection principal block is unchanged, `m=1`, and its curvature row
+> annihilates the diffeomorphism gauge image on nonnull and native-null
+> controls. K765 leaves 98297/98300 middle classes. K766 closes every such
+> repair with `r+m<98311`, including K764. Next supply a natural high-rank
+> owner fixed before solving, a fully stationary changed germ, an independent
+> action parent/different Shiab response, or a complete native K500 A/B
+> packet. The threshold is necessary only. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-01 K759--K762 FINITE EVEN SPECTATOR BOUNDARY.** K759 proves that
 > adjoining `m` body-valued even spectator directions with arbitrary
 > derivative self/mixed blocks, while keeping the K749 old bosonic block and

@@ -7,6 +7,50 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K763--K766 finite-rank derivative-even boundary (2026-10-01)
+
+K763 is an exact finite-dimensional rank theorem. For
+`H=[[E+K,B],[B^T,C]]`, with `rank(K)<=r`, `dim S=m`, unchanged gauge rank,
+and Ward-compatible `K` and `B`, subtracting `diag(E,0)` separates a rank-`r`
+old-block correction from an update factoring through the `m`-dimensional new
+space. Hence `rank(H)-rank(E)<=r+2m` and
+`dim H_ext>=dim H_old-r-m`. Exact controls attain the bound for
+`(r,m)=(0,1),(1,1),(3,2),(10,1)`.
+
+K764 is a concrete repository control, not a source-selected GU sector. It
+adds
+`integral sqrt(g)[|d phi|^2/2+xi phi R(g)+lambda(phi^2-v^2)^2/4]`
+to the K749 action and uses the flat K717/K749 background with constant
+nonzero `phi=v`. The added scalar, metric, and connection Euler rows vanish
+there. The old-block principal update is supported on the ten metric
+directions, the connection update has rank zero, and the one scalar gives
+`r<=10`, `m=1`. Exact symbolic controls verify that the linearized scalar
+curvature row annihilates all four diffeomorphism gauge images for
+`k=(1,2,0,0)` and the complex native-null `k=(1,i,0,0)`.
+
+K765 grants the control its full ten-dimensional metric support rank and
+composes K763 with K749, leaving lower bounds 98297 and 98300 on the two
+certified strata. K766 therefore closes the K764 control and, more generally,
+every Ward-compatible finite-rank old-block correction plus even extension
+with `r+m<98311` on the frozen K749 body/gauge data. A high-rank natural owner,
+changed stationary germ, independent action parent/different Shiab response,
+or complete native K500 A/B packet remains open. The rank threshold is not
+sufficient. No source, ledger, canon, paper, public, prediction,
+confirmation, physical or SC-ACT-06 verdict changes.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k763_sc_act_06_finite_rank_even_owner_update.py
+python3 tests/channel-swings/k763_sc_act_06_finite_rank_even_owner_update_probe.py
+python3 tests/channel-swings/k764_sc_act_06_scalar_metric_derivative_control.py
+python3 tests/channel-swings/k764_sc_act_06_scalar_metric_derivative_control_probe.py
+python3 tests/channel-swings/k765_sc_act_06_scalar_metric_cohomology_bound.py
+python3 tests/channel-swings/k765_sc_act_06_scalar_metric_cohomology_bound_probe.py
+python3 tests/channel-swings/k766_sc_act_06_derivative_even_successor_gate.py
+python3 tests/channel-swings/k766_sc_act_06_derivative_even_successor_gate_probe.py
+```
+
 ## K759--K762 finite even spectator boundary (2026-10-01)
 
 K759 is an exact finite-dimensional rank theorem. For

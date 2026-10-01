@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 9799d9b66769
+revision_basis: 63fcbb330dd2
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K763--K766 extend the fixed-old-block spectator theorem to every
+    Ward-compatible finite-rank correction of the old bosonic block. If the
+    old-block correction has rank at most `r` and `m` new body-valued even
+    fields are added, K763 proves
+    `rank(H)-rank(E)<=r+2m` and
+    `dim H_ext>=dim H_old-r-m`. K764 constructs a concrete repository-owned
+    stationary scalar-metric derivative control on the K749 flat germ: its
+    old-block correction is supported on the ten-dimensional metric sector,
+    the connection block is unchanged, `m=1`, `r<=10`, and the scalar
+    curvature row annihilates all four diffeomorphism gauge images on both a
+    Euclidean nonnull and a complex native-null covector. K765 therefore
+    leaves at least 98297/98300 middle classes. K766 closes all such finite-rank
+    repairs with `r+m<98311`, including this control, while retaining a
+    high-rank natural owner, a changed stationary germ, an independent action
+    parent/different Shiab response, and complete native K500 A/B input as
+    live routes. The 98311 threshold is necessary only. SC-ACT-06 remains
+    `ASSERTS`; no source, ledger, canon, paper, public, prediction,
+    confirmation or physical verdict moves.
+
     K759--K762 bound the complete fixed-old-block even-spectator repair class.
     For an old bosonic principal block `E:V->V*`, K759 proves that adjoining
     an `m`-dimensional body-valued even space with arbitrary mixed and self
@@ -12277,6 +12296,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K763--K766 prove that a Ward-compatible correction
+  of rank at most `r` to K749's old bosonic body block, together with `m` new
+  body-valued even fields, can remove at most `r+m` old middle classes. Every
+  such repair with `r+m<98311` remains nonexact on the native-null stratum.
+  The stationary repository-owned scalar-metric derivative control K764 has
+  `r<=10`, `m=1`, changes no connection principal image, and leaves certified
+  lower bounds 98297/98300. Do not retry this control or another low-rank
+  derivative-even owner. Build a natural high-rank owner fixed before solving,
+  a fully stationary changed germ, an independently owned action parent or
+  different Shiab response, or a complete native K500 A/B packet, with full
+  Ward, stationarity, gauge/redundancy and all-covector evidence. SC-ACT-06
+  remains `ASSERTS`.
+
   On the SC-ACT-06 route, K759--K762 prove that a body-valued even spectator
   extension of dimension `m`, with arbitrary derivative self/mixed blocks but
   the K749 old block and gauge embedding fixed, can remove at most `m` old
@@ -13167,6 +13199,20 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K763--K766 remove every Ward-compatible finite-rank old-block correction
+  plus `m`-field body-valued even extension with `r+m<98311` from the live
+  K749 repair inputs. This includes the stationary K764 one-scalar
+  metric-derivative control: its old-block update is confined to the
+  ten-dimensional metric sector, so `r<=10`, `m=1`, the connection principal
+  block is unchanged, and K765 leaves 98297/98300 middle classes. A successor
+  must supply a natural high-rank nonfactorizing owner with `r+m>=98311`, a
+  fully stationary changed Euclidean germ, an independent action parent or
+  different Shiab response, or complete native K500 A/B certificates. The
+  rank threshold is necessary only and does not supply ownership,
+  stationarity, a common domain, or all-covector exactness. Do not retry the
+  scalar-metric control or another low-rank derivative-even owner. SC-ACT-06
+  remains `ASSERTS`; protected verdicts remain unchanged.
+
   K759--K762 remove every body-valued even spectator extension with
   `m<98311` from the live K749 fixed-old-block repair inputs, even when its
   derivative self and mixed blocks are arbitrary and Ward-compatible. A

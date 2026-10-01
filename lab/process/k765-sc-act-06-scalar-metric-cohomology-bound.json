@@ -1,0 +1,57 @@
+{
+  "claim_ceiling": "Exact two-stratum lower bounds for K764's stationary scalar-metric derivative control under K763. No exact response-rank claim, source ownership, positive domain, all-action no-go, or global SC-ACT-06 conclusion follows.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composition": {
+    "all_covector_rank_budget_uniform": true,
+    "formula": "H_new >= max(0,H_K749-r-m)",
+    "gauge_rank": 4,
+    "maximum_middle_class_removal_r_plus_m": 11,
+    "new_even_dimension_m": 1,
+    "new_lower_bounds": {
+      "native_nonnull": 98297,
+      "native_null_auxiliary_nonzero": 98300
+    },
+    "old_block_rank_budget_r": 10,
+    "old_bounds": {
+      "native_nonnull": 98308,
+      "native_null_auxiliary_nonzero": 98311
+    }
+  },
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k765_sc_act_06_scalar_metric_cohomology_bound_probe.py",
+    "producer": "tests/channel-swings/k765_sc_act_06_scalar_metric_cohomology_bound.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "connection_principal_defect_reached_by_control": false,
+    "native_null_middle_exact": false,
+    "nonnull_middle_exact": false,
+    "scalar_metric_control_repairs_k749": false,
+    "source_ownership_supplied": false,
+    "stationarity_alone_sufficient_for_ellipticity": false
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The composition excludes one repository-owned scalar-tensor control and does not adjudicate the source's complete first-order Euclidean deformation complex.",
+  "pinned_inputs": {
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    },
+    "k763": {
+      "path": "lab/process/k763-sc-act-06-finite-rank-even-owner-update.json",
+      "sha256": "e4a83a2c61708ed932da1ad5bc086c2c1e3ef0cd0678b890af0cff7aba5093cf"
+    },
+    "k764": {
+      "path": "lab/process/k764-sc-act-06-scalar-metric-derivative-control.json",
+      "sha256": "759cf608f1c7fa87e6d64bd6ab8418d1bacb0587c829f7ee606267e16bf3ae02"
+    }
+  },
+  "result_id": "K765-SC-ACT-06-SCALAR-METRIC-COHOMOLOGY-BOUND",
+  "schema_version": "1.0",
+  "scope": "K749's two certified covector strata after adjoining the stationary K764 scalar-tensor control and granting its full ten-dimensional metric support independent rank.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

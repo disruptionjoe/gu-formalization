@@ -227,6 +227,18 @@ def load_inputs() -> dict:
         "k762": json.loads(
             (ROOT / "lab/process/k762-sc-act-06-even-owner-successor-gate.json").read_text()
         ),
+        "k763": json.loads(
+            (ROOT / "lab/process/k763-sc-act-06-finite-rank-even-owner-update.json").read_text()
+        ),
+        "k764": json.loads(
+            (ROOT / "lab/process/k764-sc-act-06-scalar-metric-derivative-control.json").read_text()
+        ),
+        "k765": json.loads(
+            (ROOT / "lab/process/k765-sc-act-06-scalar-metric-cohomology-bound.json").read_text()
+        ),
+        "k766": json.loads(
+            (ROOT / "lab/process/k766-sc-act-06-derivative-even-successor-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -419,9 +431,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K759_K762_SC_ACT_06_FINITE_EVEN_SPECTATOR_BOUNDARY_CURRENT",
+          "K763_K766_SC_ACT_06_FINITE_RANK_DERIVATIVE_EVEN_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K763--K766 remove every Ward-compatible finite-rank old-block correction" in live and
+              "r+m<98311" in live and "98297/98300" in live,
+              "live K763--K766 finite-rank derivative-even boundary missing")
         check("K759--K762 remove every body-valued even spectator extension" in live and
               "m<98311" in live and "complete native K500 A/B certificates" in live,
               "live K759--K762 finite even spectator boundary missing")
@@ -632,6 +647,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K763--K766 extend the fixed-old-block spectator theorem" in summary and
+          "rank(H)-rank(E)<=r+2m" in summary and "98297/98300" in summary and
+          "r+m<98311" in summary,
+          "current K763--K766 finite-rank derivative-even result lost")
     check("K759--K762 bound the complete fixed-old-block even-spectator repair class" in summary and
           "max(0,98308-m)" in summary and "max(0,98311-m)" in summary and
           "m<98311" in summary,
@@ -761,6 +780,17 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K763--K766 prove that a Ward-compatible correction" in question
+        and "r+m<98311" in question and "98297/98300" in question,
+        "current question lost K763--K766 boundary",
+    )
+    check(
+        "rank-r Ward-compatible correction" in data["agenda"].get("latest_result_2026_10_01_k763_k766", "")
+        and "98297/98300" in data["agenda"].get("latest_result_2026_10_01_k763_k766", "")
+        and "necessary only" in data["agenda"].get("latest_result_2026_10_01_k763_k766", ""),
+        "agenda K763--K766 result is not current",
+    )
     check(
         "rank by at most 2m" in data["agenda"].get("latest_result_2026_10_01_k759_k762", "")
         and "98307/98310" in data["agenda"].get("latest_result_2026_10_01_k759_k762", "")
@@ -2259,6 +2289,36 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k762["decision"]["global_SC_ACT_06_refuted"],
           "K762 even owner successor gate moved")
 
+    k763 = data["k763"]
+    check(k763["theorem"]["rank_update_bound"] == "rank(H)-rank(E) <= r+2m" and
+          k763["theorem"]["middle_cohomology_bound"] == "dim H_ext >= dim H_old-r-m" and
+          k763["theorem"]["requires_rank_bound_on_old_block_correction"] and
+          not k763["decision"]["global_SC_ACT_06_refuted"],
+          "K763 finite-rank even-owner theorem moved")
+
+    k764 = data["k764"]
+    check(k764["stationarity"]["full_background_stationary_relative_to_k749"] and
+          k764["principal_support"]["old_block_correction_rank_upper_r"] == 10 and
+          k764["principal_support"]["new_even_dimension_m"] == 1 and
+          k764["principal_support"]["old_connection_update_rank"] == 0 and
+          not k764["decision"]["owner_is_source_or_GU_selected"],
+          "K764 scalar-metric derivative control moved")
+
+    k765 = data["k765"]
+    check(k765["composition"]["maximum_middle_class_removal_r_plus_m"] == 11 and
+          k765["composition"]["new_lower_bounds"] == {
+              "native_nonnull": 98297,
+              "native_null_auxiliary_nonzero": 98300,
+          } and not k765["decision"]["scalar_metric_control_repairs_k749"],
+          "K765 scalar-metric cohomology bound moved")
+
+    k766 = data["k766"]
+    check(k766["decision"]["SC_ACT_06_status"] == "ASSERTS" and
+          k766["decision"]["do_not_retry_low_rank_scalar_tensor_or_small_derivative_even_owner"] and
+          k766["decision"]["large_rank_or_changed_germ_routes_remain_open"] and
+          not k766["decision"]["global_SC_ACT_06_refuted"],
+          "K766 derivative-even successor gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3544,6 +3604,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k761-sufficient", lambda d: d["k761"]["decision"].__setitem__("m_at_least_98311_sufficient_for_exactness", True))
     add("k762-retry", lambda d: d["k762"]["decision"].__setitem__("do_not_retry_small_spectator_condensate_extension", False))
     add("k762-global", lambda d: d["k762"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k763-rank", lambda d: d["k763"]["theorem"].__setitem__("rank_update_bound", "BROKEN"))
+    add("k763-global", lambda d: d["k763"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k764-rank", lambda d: d["k764"]["principal_support"].__setitem__("old_block_correction_rank_upper_r", 98311))
+    add("k764-source", lambda d: d["k764"]["decision"].__setitem__("owner_is_source_or_GU_selected", True))
+    add("k765-bound", lambda d: d["k765"]["composition"]["new_lower_bounds"].__setitem__("native_null_auxiliary_nonzero", 0))
+    add("k765-repair", lambda d: d["k765"]["decision"].__setitem__("scalar_metric_control_repairs_k749", True))
+    add("k766-retry", lambda d: d["k766"]["decision"].__setitem__("do_not_retry_low_rank_scalar_tensor_or_small_derivative_even_owner", False))
+    add("k766-global", lambda d: d["k766"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))
