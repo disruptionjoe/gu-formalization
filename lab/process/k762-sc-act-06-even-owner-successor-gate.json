@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Exact successor gate for m<98311 spectator extensions of the frozen K749 block. No theorem against nonfactorizing derivative owners, changed stationary germs, enormous extensions, independent action parents, or global SC-ACT-06.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "closed_class": {
+    "class": "m<98311 body-valued even spectator directions with arbitrary self/mixed derivative blocks, unchanged K749 old bosonic block, unchanged old gauge embedding, and Ward-compatible extension",
+    "includes_cbrs1r_plus_any_single_spectator_kinetic_block_without_old_block_change": true,
+    "includes_one_derivative_scalar": true,
+    "reason": "K759 gives H_ext>=H_old-m; K760/K761 leave positive native-null cohomology for every m<98311"
+  },
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 36,
+    "probe": "tests/channel-swings/k762_sc_act_06_even_owner_successor_gate_probe.py",
+    "producer": "tests/channel-swings/k762_sc_act_06_even_owner_successor_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "SC_ACT_06_status": "ASSERTS",
+    "changed_old_block_owner_remains_open": true,
+    "do_not_retry_small_spectator_condensate_extension": true,
+    "fixed_old_block_theorem_not_global_condensate_nogo": true,
+    "global_SC_ACT_06_refuted": false
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The gate eliminates one internal fixed-old-block extension class but does not construct or falsify the source's complete first-order Euclidean deformation complex.",
+  "live_reopeners": [
+    {
+      "input": "nonfactorizing body-valued derivative owner",
+      "required_new_fact": "action-owned correction to the original bosonic-bosonic body principal block, frozen before solving, plus full stationarity and gauge/redundancy maps"
+    },
+    {
+      "input": "enormous even extension with m>=98311",
+      "required_new_fact": "actual owner, Ward-compatible complete symbol, stationarity and all-covector exactness; dimension silence is not sufficiency"
+    },
+    {
+      "input": "fully stationary nonzero-T or non-Levi-Civita Euclidean germ",
+      "required_new_fact": "new old-block principal image and complete coupled Euler/gauge/redundancy complex"
+    },
+    {
+      "input": "independent action parent or different Shiab",
+      "required_new_fact": "source/action ownership, exact maps, target, pairing and common domain"
+    },
+    {
+      "input": "K500 native margin",
+      "required_new_fact": "complete native A/B certificates on one common graph domain"
+    }
+  ],
+  "pinned_inputs": {
+    "k758": {
+      "path": "lab/process/k758-sc-act-06-cyclic-adapter-successor-gate.json",
+      "sha256": "ac31ac4ce27b1ad23cbaebee87e7e8822c1295bcd0a5117875b86747cc5e309f"
+    },
+    "k759": {
+      "path": "lab/process/k759-sc-act-06-even-spectator-rank-update-theorem.json",
+      "sha256": "deceb959fba07c8dcab568399d7893179ca5a1e304664d0bcbc1237795ff176d"
+    },
+    "k760": {
+      "path": "lab/process/k760-sc-act-06-derivative-condensate-cohomology-bound.json",
+      "sha256": "f3428ce385d9bb216311b6f789f5652f696edf5ab43e311829aeef0457bf6e29"
+    },
+    "k761": {
+      "path": "lab/process/k761-sc-act-06-finite-even-extension-threshold.json",
+      "sha256": "a420e03dfe5cc5be49e1f4626abc7f5accf28b9864ba59ad245f488db6e539b8"
+    }
+  },
+  "result_id": "K762-SC-ACT-06-EVEN-OWNER-SUCCESSOR-GATE",
+  "schema_version": "1.0",
+  "scope": "Successor routing after K759--K761 bound fixed-old-block body-valued even spectator extensions of K749.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

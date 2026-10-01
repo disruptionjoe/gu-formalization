@@ -215,6 +215,18 @@ def load_inputs() -> dict:
         "k758": json.loads(
             (ROOT / "lab/process/k758-sc-act-06-cyclic-adapter-successor-gate.json").read_text()
         ),
+        "k759": json.loads(
+            (ROOT / "lab/process/k759-sc-act-06-even-spectator-rank-update-theorem.json").read_text()
+        ),
+        "k760": json.loads(
+            (ROOT / "lab/process/k760-sc-act-06-derivative-condensate-cohomology-bound.json").read_text()
+        ),
+        "k761": json.loads(
+            (ROOT / "lab/process/k761-sc-act-06-finite-even-extension-threshold.json").read_text()
+        ),
+        "k762": json.loads(
+            (ROOT / "lab/process/k762-sc-act-06-even-owner-successor-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -407,9 +419,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K755_K758_SC_ACT_06_CYCLIC_TWO_CONNECTION_ADAPTER_BOUNDARY_CURRENT",
+          "K759_K762_SC_ACT_06_FINITE_EVEN_SPECTATOR_BOUNDARY_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K759--K762 remove every body-valued even spectator extension" in live and
+              "m<98311" in live and "complete native K500 A/B certificates" in live,
+              "live K759--K762 finite even spectator boundary missing")
         check("K755--K758 remove current-carrier cyclic path-adapter variations" in live and
               "complete native K500 A/B packet" in live and "98308/98311" in live,
               "live K755--K758 cyclic adapter boundary missing")
@@ -617,6 +632,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K759--K762 bound the complete fixed-old-block even-spectator repair class" in summary and
+          "max(0,98308-m)" in summary and "max(0,98311-m)" in summary and
+          "m<98311" in summary,
+          "current K759--K762 finite even spectator result lost")
     check("K755--K758 construct and classify" in summary and
           "rank 13" in summary and "rank 14" in summary and
           "98308/98311" in summary,
@@ -742,6 +761,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "rank by at most 2m" in data["agenda"].get("latest_result_2026_10_01_k759_k762", "")
+        and "98307/98310" in data["agenda"].get("latest_result_2026_10_01_k759_k762", "")
+        and "not sufficient" in data["agenda"].get("latest_result_2026_10_01_k759_k762", ""),
+        "agenda K759--K762 result is not current",
+    )
     check(
         "exact square" in data["agenda"].get("latest_result_2026_10_01_k755_k758", "")
         and "rank 13" in data["agenda"].get("latest_result_2026_10_01_k755_k758", "")
@@ -2205,6 +2230,35 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k758["decision"]["do_not_retry_current_carrier_cyclic_specializations"],
           "K758 cyclic adapter successor gate moved")
 
+    k759 = data["k759"]
+    check(k759["theorem"]["update_rank_bound"] == "rank(E_ext)-rank(E) <= 2m" and
+          k759["theorem"]["middle_cohomology_bound"] == "dim H_ext >= dim H_old-m" and
+          k759["theorem"]["requires_fixed_old_block"] and
+          k759["decision"]["one_new_even_field_can_remove_at_most_one_old_middle_class"],
+          "K759 even spectator rank-update theorem moved")
+
+    k760 = data["k760"]
+    check(k760["composed_formula"]["native_nonnull"] == "max(0,98308-m)" and
+          k760["composed_formula"]["native_null_auxiliary_nonzero"] == "max(0,98311-m)" and
+          k760["decision"]["one_scalar_bounds"] == {
+              "native_nonnull": 98307,
+              "native_null_auxiliary_nonzero": 98310,
+          } and not k760["decision"]["one_scalar_repairs_k749"],
+          "K760 derivative-condensate cohomology bound moved")
+
+    k761 = data["k761"]
+    check(k761["threshold"]["minimum_m_not_excluded_by_dimension_on_both_strata"] == 98311 and
+          k761["decision"]["every_m_below_98311_excluded_from_all_covector_exactness_by_native_null_stratum"] and
+          not k761["decision"]["m_at_least_98311_sufficient_for_exactness"],
+          "K761 finite even extension threshold moved")
+
+    k762 = data["k762"]
+    check(k762["decision"]["SC_ACT_06_status"] == "ASSERTS" and
+          k762["decision"]["do_not_retry_small_spectator_condensate_extension"] and
+          k762["decision"]["changed_old_block_owner_remains_open"] and
+          not k762["decision"]["global_SC_ACT_06_refuted"],
+          "K762 even owner successor gate moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -3482,6 +3536,14 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k757-insert", lambda d: d["k757"]["composition_theorem"].__setitem__("independent_doubled_adapter_can_be_inserted_without_rebuilding_complex", True))
     add("k758-owner", lambda d: d["k758"]["gate_theorem"].__setitem__("independent_doubled_candidate_is_action_owned", True))
     add("k758-global", lambda d: d["k758"]["gate_theorem"].__setitem__("global_SC_ACT_06_refuted", True))
+    add("k759-rank", lambda d: d["k759"]["theorem"].__setitem__("update_rank_bound", "BROKEN"))
+    add("k759-fixed", lambda d: d["k759"]["theorem"].__setitem__("requires_fixed_old_block", False))
+    add("k760-formula", lambda d: d["k760"]["composed_formula"].__setitem__("native_null_auxiliary_nonzero", "BROKEN"))
+    add("k760-repair", lambda d: d["k760"]["decision"].__setitem__("one_scalar_repairs_k749", True))
+    add("k761-threshold", lambda d: d["k761"]["threshold"].__setitem__("minimum_m_not_excluded_by_dimension_on_both_strata", 1))
+    add("k761-sufficient", lambda d: d["k761"]["decision"].__setitem__("m_at_least_98311_sufficient_for_exactness", True))
+    add("k762-retry", lambda d: d["k762"]["decision"].__setitem__("do_not_retry_small_spectator_condensate_extension", False))
+    add("k762-global", lambda d: d["k762"]["decision"].__setitem__("global_SC_ACT_06_refuted", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

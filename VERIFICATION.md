@@ -7,6 +7,42 @@ updated_at: "2026-10-01"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K759--K762 finite even spectator boundary (2026-10-01)
+
+K759 is an exact finite-dimensional rank theorem. For
+`E_ext=[[E,B],[B^T,C]]` on `V+S`, with `dim S=m`, fixed old block `E`, and
+unchanged gauge embedding `(G,0)`, the update has image in
+`im(B)+S*` and therefore rank at most `2m`. Rank-nullity gives
+`dim H_ext >= dim H_old-m`. Explicit sharp controls realize equality for
+`m=1,2,3`.
+
+K760 composes that theorem with K749's two certified covector strata. The
+extended middle cohomology is at least `max(0,98308-m)` and
+`max(0,98311-m)`. K761 records the necessary threshold: one derivative scalar
+leaves 98307/98310 classes, and every `m<98311` is excluded from exactness on
+both strata by the native-null bound. The threshold `m>=98311` is not
+sufficient; stationarity, Ward compatibility, ownership, gauge/redundancy
+maps and all-covector exactness remain independent obligations.
+
+K762 closes only the fixed-old-block spectator class below that threshold. It
+does not cover an owner that changes the old bosonic-bosonic body block, a
+changed stationary background, an independently owned action parent, or a
+complete K500 native packet. None of K759--K762 changes a source, ledger,
+canon, paper, public, prediction, confirmation, physical or SC-ACT-06 verdict.
+
+Run:
+
+```bash
+python3 tests/channel-swings/k759_sc_act_06_even_spectator_rank_update_theorem.py
+python3 tests/channel-swings/k759_sc_act_06_even_spectator_rank_update_theorem_probe.py
+python3 tests/channel-swings/k760_sc_act_06_derivative_condensate_cohomology_bound.py
+python3 tests/channel-swings/k760_sc_act_06_derivative_condensate_cohomology_bound_probe.py
+python3 tests/channel-swings/k761_sc_act_06_finite_even_extension_threshold.py
+python3 tests/channel-swings/k761_sc_act_06_finite_even_extension_threshold_probe.py
+python3 tests/channel-swings/k762_sc_act_06_even_owner_successor_gate.py
+python3 tests/channel-swings/k762_sc_act_06_even_owner_successor_gate_probe.py
+```
+
 ## K755--K758 cyclic two-connection adapter boundary (2026-10-01)
 
 K755 is an exact noncommutative block calculation under the declared

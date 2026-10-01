@@ -1,0 +1,84 @@
+{
+  "claim_ceiling": "Exact K749 cohomology lower bounds for K759 spectator extensions only. No claim about changed old bosonic blocks, changed backgrounds, stationarity, source ownership, or global SC-ACT-06.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "composed_formula": {
+    "native_nonnull": "max(0,98308-m)",
+    "native_null_auxiliary_nonzero": "max(0,98311-m)"
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 28,
+    "probe": "tests/channel-swings/k760_sc_act_06_derivative_condensate_cohomology_bound_probe.py",
+    "producer": "tests/channel-swings/k760_sc_act_06_derivative_condensate_cohomology_bound.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "nonfactorizing_old_block_change_tested": false,
+    "one_scalar_bounds": {
+      "native_nonnull": 98307,
+      "native_null_auxiliary_nonzero": 98310
+    },
+    "one_scalar_repairs_k749": false,
+    "source_ownership_supplied": false,
+    "stationarity_supplied": false
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The composition bounds one internal extension class and supplies neither a stationary source-owned owner nor physical recovery.",
+  "original_bounds": {
+    "native_nonnull": 98308,
+    "native_null_auxiliary_nonzero": 98311
+  },
+  "pinned_inputs": {
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    },
+    "k759": {
+      "path": "lab/process/k759-sc-act-06-even-spectator-rank-update-theorem.json",
+      "sha256": "deceb959fba07c8dcab568399d7893179ca5a1e304664d0bcbc1237795ff176d"
+    }
+  },
+  "result_id": "K760-SC-ACT-06-DERIVATIVE-CONDENSATE-COHOMOLOGY-BOUND",
+  "sample_bounds": [
+    {
+      "m": 1,
+      "native_nonnull": 98307,
+      "native_null_auxiliary_nonzero": 98310
+    },
+    {
+      "m": 2,
+      "native_nonnull": 98306,
+      "native_null_auxiliary_nonzero": 98309
+    },
+    {
+      "m": 16,
+      "native_nonnull": 98292,
+      "native_null_auxiliary_nonzero": 98295
+    },
+    {
+      "m": 1024,
+      "native_nonnull": 97284,
+      "native_null_auxiliary_nonzero": 97287
+    },
+    {
+      "m": 98308,
+      "native_nonnull": 0,
+      "native_null_auxiliary_nonzero": 3
+    },
+    {
+      "m": 98310,
+      "native_nonnull": 0,
+      "native_null_auxiliary_nonzero": 1
+    },
+    {
+      "m": 98311,
+      "native_nonnull": 0,
+      "native_null_auxiliary_nonzero": 0
+    }
+  ],
+  "schema_version": "1.0",
+  "scope": "K749 fixed-body principal blocks augmented by m even spectator fields with arbitrary derivative self/mixed blocks satisfying K759.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

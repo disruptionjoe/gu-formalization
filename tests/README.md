@@ -4,6 +4,28 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K759--K762 finite even spectator boundary
+
+- `channel-swings/k759_sc_act_06_even_spectator_rank_update_theorem.py`
+  proves the exact `2m` rank-update and `m` cohomology-loss bounds.
+- `channel-swings/k760_sc_act_06_derivative_condensate_cohomology_bound.py`
+  composes the theorem with K749's two certified strata.
+- `channel-swings/k761_sc_act_06_finite_even_extension_threshold.py` records
+  the sharp necessary 98311-direction threshold.
+- `channel-swings/k762_sc_act_06_even_owner_successor_gate.py` freezes the
+  fixed-old-block spectator class and successor routing.
+
+```bash
+python3 tests/channel-swings/k759_sc_act_06_even_spectator_rank_update_theorem.py
+python3 tests/channel-swings/k759_sc_act_06_even_spectator_rank_update_theorem_probe.py
+python3 tests/channel-swings/k760_sc_act_06_derivative_condensate_cohomology_bound.py
+python3 tests/channel-swings/k760_sc_act_06_derivative_condensate_cohomology_bound_probe.py
+python3 tests/channel-swings/k761_sc_act_06_finite_even_extension_threshold.py
+python3 tests/channel-swings/k761_sc_act_06_finite_even_extension_threshold_probe.py
+python3 tests/channel-swings/k762_sc_act_06_even_owner_successor_gate.py
+python3 tests/channel-swings/k762_sc_act_06_even_owner_successor_gate_probe.py
+```
+
 ## K755--K758 cyclic two-connection adapter boundary
 
 - `channel-swings/k755_sc_act_06_cyclic_two_connection_square.py` proves the

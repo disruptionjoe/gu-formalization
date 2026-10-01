@@ -1,0 +1,52 @@
+{
+  "claim_ceiling": "Sharp necessary dimension threshold for fixed-old-block spectator extensions. It is not sufficient, is not a field-count theorem for nonfactorizing owners, and is not a global SC-ACT-06 result.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 38,
+    "hostile_mutations_rejected": 32,
+    "probe": "tests/channel-swings/k761_sc_act_06_finite_even_extension_threshold_probe.py",
+    "producer": "tests/channel-swings/k761_sc_act_06_finite_even_extension_threshold.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "every_m_below_98311_excluded_from_all_covector_exactness_by_native_null_stratum": true,
+    "m_at_least_98311_sufficient_for_exactness": false,
+    "nonfactorizing_old_block_change_outside_scope": true,
+    "single_or_small_finite_spectator_owner_closed": true
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The threshold is necessary only and does not construct or validate a source-owned stationary extension.",
+  "necessary_conditions": [
+    "m >= 98311 for the K759 dimension bound to become silent on both tested strata",
+    "E_ext G_ext=0, including B^T G=0 for the unchanged gauge embedding",
+    "full Euler and intrinsic metric stationarity",
+    "one coherent Euclidean carrier and pairing",
+    "all-covector exactness, not only the two certified test strata",
+    "source/action ownership before physical or SC-ACT-06 credit"
+  ],
+  "pinned_inputs": {
+    "k759": {
+      "path": "lab/process/k759-sc-act-06-even-spectator-rank-update-theorem.json",
+      "sha256": "deceb959fba07c8dcab568399d7893179ca5a1e304664d0bcbc1237795ff176d"
+    },
+    "k760": {
+      "path": "lab/process/k760-sc-act-06-derivative-condensate-cohomology-bound.json",
+      "sha256": "f3428ce385d9bb216311b6f789f5652f696edf5ab43e311829aeef0457bf6e29"
+    }
+  },
+  "result_id": "K761-SC-ACT-06-FINITE-EVEN-EXTENSION-THRESHOLD",
+  "schema_version": "1.0",
+  "scope": "Necessary dimension test for K759 spectator extensions on both K749 covector strata.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "threshold": {
+    "minimum_m_not_excluded_by_dimension_on_both_strata": 98311,
+    "native_null_threshold": 98311,
+    "nonnull_threshold": 98308,
+    "one_scalar_shortfall": {
+      "native_nonnull": 98307,
+      "native_null_auxiliary_nonzero": 98310
+    }
+  }
+}

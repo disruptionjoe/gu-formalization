@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 5a090c2e6208
+revision_basis: 01a23a60df58
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,22 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K759--K762 bound the complete fixed-old-block even-spectator repair class.
+    For an old bosonic principal block `E:V->V*`, K759 proves that adjoining
+    an `m`-dimensional body-valued even space with arbitrary mixed and self
+    blocks but unchanged old block and gauge embedding can increase rank by at
+    most `2m`; its middle cohomology therefore drops by at most `m`. K760
+    composes this theorem with K749, leaving lower bounds
+    `max(0,98308-m)` and `max(0,98311-m)` on the two certified strata. K761
+    shows that one scalar leaves 98307/98310 classes and every `m<98311`
+    extension is dimensionally excluded from exactness on both strata;
+    `m>=98311` is only a necessary threshold, not sufficiency. K762 closes
+    small finite spectator kinetic or condensate extensions of the frozen
+    K749 block while preserving nonfactorizing old-block changes, changed
+    stationary germs, independently owned action parents and complete native
+    K500 input as live routes. SC-ACT-06 remains `ASSERTS`; no source, ledger,
+    canon, paper, public, prediction, confirmation or physical verdict moves.
+
     K755--K758 construct and classify the source-bounded cyclic
     two-connection adapter without promoting it to a released GU formula.
     Under `d_A^2=F_A`, `d_B^2=F_B`, and `d_A F_B=F_B d_B`, K755 proves
@@ -12261,6 +12277,19 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K759--K762 prove that a body-valued even spectator
+  extension of dimension `m`, with arbitrary derivative self/mixed blocks but
+  the K749 old block and gauge embedding fixed, can remove at most `m` old
+  middle classes. The two certified lower bounds are
+  `max(0,98308-m)` and `max(0,98311-m)`; one scalar leaves 98307/98310, and
+  every `m<98311` is still nonexact on the native-null stratum. Do not treat
+  `m>=98311` as sufficient or retry a small spectator kinetic/condensate
+  extension. Build a nonfactorizing action-owned correction to the original
+  bosonic block, a fully stationary changed germ, an independently owned
+  action parent, or a complete native K500 A/B packet, with full Ward,
+  stationarity, gauge/redundancy and all-covector evidence. SC-ACT-06 remains
+  `ASSERTS`.
+
   On the SC-ACT-06 route, K755--K758 construct the exact cyclic
   two-connection square and close its current-carrier reuse. At `A=B`, only
   the relative direction responds: its curvature symbol has rank 13 and its
@@ -13138,6 +13167,19 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K759--K762 remove every body-valued even spectator extension with
+  `m<98311` from the live K749 fixed-old-block repair inputs, even when its
+  derivative self and mixed blocks are arbitrary and Ward-compatible. A
+  successor must instead supply a nonfactorizing action-owned change to the
+  original bosonic-bosonic body block, a fully stationary nonzero-`T` or
+  otherwise changed Euclidean germ, an independent action parent/different
+  Shiab response, or complete native K500 A/B certificates. An extension with
+  `m>=98311` merely escapes this dimension obstruction and still owes an
+  actual owner, full stationarity, Ward compatibility, one coherent carrier
+  and pairing, gauge/redundancy maps, and exactness at every nonzero covector.
+  Do not retry a single derivative scalar or another small spectator kinetic
+  block. SC-ACT-06 remains `ASSERTS`; protected verdicts remain unchanged.
+
   K755--K758 remove current-carrier cyclic path-adapter variations from the
   live SC-ACT-06 inputs. A successor may credit the relative response only
   after an independently action-owned doubled-connection packet supplies the

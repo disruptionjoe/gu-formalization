@@ -7,6 +7,20 @@ updated_at: "2026-10-01"
 
 # Next Steps For Contributors
 
+> **2026-10-01 K759--K762 FINITE EVEN SPECTATOR BOUNDARY.** K759 proves that
+> adjoining `m` body-valued even spectator directions with arbitrary
+> derivative self/mixed blocks, while keeping the K749 old bosonic block and
+> gauge embedding fixed, raises principal rank by at most `2m` and removes at
+> most `m` old middle classes. K760 gives exact lower bounds
+> `max(0,98308-m)` and `max(0,98311-m)`; one scalar leaves 98307/98310.
+> K761 therefore requires at least 98311 new directions before dimension alone
+> becomes silent on both tested strata, without making that threshold
+> sufficient. K762 closes only `m<98311` fixed-old-block spectator repairs.
+> Next supply a nonfactorizing action-owned old-block change, changed
+> stationary germ, independent action parent/different Shiab response, or a
+> complete native K500 A/B packet, with full stationarity, Ward,
+> gauge/redundancy and all-covector evidence. SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-01 K755--K758 CYCLIC TWO-CONNECTION ADAPTER BOUNDARY.** K755
 > constructs the source-bounded reconstruction
 > `D_AB=[[d_A,-F_B],[1,-d_B]]` and proves its exact square is

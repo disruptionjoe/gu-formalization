@@ -1,0 +1,75 @@
+{
+  "claim_ceiling": "Exact finite-dimensional rank theorem for fixed-old-block spectator extensions. No statement about an owner that changes E itself, a changed stationary background, an enormous extension, analytic domains, or global SC-ACT-06.",
+  "classification": "INTERNAL_STRUCTURAL_ONLY",
+  "controls": {
+    "controls_passed": 36,
+    "hostile_mutations_rejected": 30,
+    "probe": "tests/channel-swings/k759_sc_act_06_even_spectator_rank_update_theorem_probe.py",
+    "producer": "tests/channel-swings/k759_sc_act_06_even_spectator_rank_update_theorem.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "changed_background_or_changed_old_block_outside_scope": true,
+    "finite_spectator_extension_is_not_a_nonfactorizing_old_block_change": true,
+    "one_new_even_field_can_remove_at_most_one_old_middle_class": true
+  },
+  "direction": "observed_to_native",
+  "exact_controls": [
+    {
+      "m": 1,
+      "new_middle": 1,
+      "new_rank": 3,
+      "old_middle": 2,
+      "old_rank": 1
+    },
+    {
+      "m": 2,
+      "new_middle": 2,
+      "new_rank": 5,
+      "old_middle": 4,
+      "old_rank": 1
+    },
+    {
+      "m": 3,
+      "new_middle": 3,
+      "new_rank": 7,
+      "old_middle": 6,
+      "old_rank": 1
+    }
+  ],
+  "ledger_no_change_reason": "This is an internal principal-symbol rank theorem; it supplies no source-owned action, stationary germ, or physical recovery.",
+  "pinned_inputs": {
+    "k749": {
+      "path": "lab/process/k749-sc-act-06-t0-full-symbol-obstruction.json",
+      "sha256": "3e8a8688d7292b1680b08ba3e9c3a21b9ebbf96bbbb18a3fc9cc7825038ca7ca"
+    },
+    "k758": {
+      "path": "lab/process/k758-sc-act-06-cyclic-adapter-successor-gate.json",
+      "sha256": "ac31ac4ce27b1ad23cbaebee87e7e8822c1295bcd0a5117875b86747cc5e309f"
+    }
+  },
+  "result_id": "K759-SC-ACT-06-EVEN-SPECTATOR-RANK-UPDATE-THEOREM",
+  "schema_version": "1.0",
+  "scope": "Finite-dimensional principal-symbol extensions that adjoin m body-valued even fields while leaving the old V-to-V* bosonic block and old gauge embedding unchanged.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "theorem": {
+    "allows_arbitrary_mixed_and_self_blocks": true,
+    "middle_cohomology_bound": "dim H_ext >= dim H_old-m",
+    "proof": "E_ext-diag(E,0) maps into im(B) plus S*, a space of dimension at most 2m; rank subadditivity and rank-nullity give the cohomology bound.",
+    "requires_fixed_old_block": true,
+    "requires_unchanged_old_gauge_embedding": true,
+    "sharp": true,
+    "update_rank_bound": "rank(E_ext)-rank(E) <= 2m"
+  },
+  "typed_objects": {
+    "action_owner": "abstract Hessian class only; no source ownership",
+    "extended_block": "E_ext=[[E,B],[B^T,C]]: V+S -> V*+S*",
+    "gauge_map": "G_ext=(G,0), with E_ext G_ext=0",
+    "grading": "body-valued even extension",
+    "new_even_space": "S of dimension m",
+    "old_euler_block": "E: V -> V*",
+    "old_middle_space": "V"
+  }
+}
