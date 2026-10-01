@@ -1,0 +1,72 @@
+{
+  "claim_ceiling": "Conditional zero-order invariance theorem for a derivative-free trace-cancelling action sector. No source ownership, full stationary background, different principal Shiab coefficient, Euclidean complex, source-status change, prediction, confirmation, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "conditional_trace_repair": {
+    "background_metric_euler_can_be_cancelled_conditionally": true,
+    "linearized_repair_differential_order": 0,
+    "repair_assumption": "A local derivative-free action density contributes the exact negative of K726's metric trace covector on the chosen background.",
+    "repair_changes_gauge_symbol": false,
+    "repair_changes_highest_order_euler_symbol": false,
+    "repair_is_derivative_free": true,
+    "repair_is_source_owned": false,
+    "repair_proves_SC_ACT_06_ellipticity": false,
+    "repair_proves_full_stationarity": false,
+    "required_normalized_metric_covector": "(7*kappa_1^3/18252)*(2,0,0,0,-2,0,0,-2,0,-2)"
+  },
+  "controls": {
+    "controls_passed": 34,
+    "hostile_mutations_rejected": 29,
+    "probe": "tests/channel-swings/k727_sc_act_06_algebraic_trace_repair_principal_invariance_probe.py",
+    "producer": "tests/channel-swings/k727_sc_act_06_algebraic_trace_repair_principal_invariance.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "algebraic_trace_repair_is_sufficient_k722_repair": false,
+    "derivative_bearing_action_data_remains_required": true,
+    "next_exact_input": "An action-owned sector or nonhomogeneous germ whose derivative-bearing variation both closes the complete background Euler equations and changes the coupled highest-order symbol; an algebraic cosmological/VEV trace cancellation alone cannot do both.",
+    "stationarity_and_principal_exactness_are_independent_gates": true
+  },
+  "direction": "observed_to_native",
+  "gu_typed_objects": {
+    "action_owner": "selected I1B/I2B plus a non-source-owned conditional algebraic trace-cancellation sector",
+    "carrier": "the K726 homogeneous B/T branch with ten metric normals and K720's coupled metric/distortion principal carrier",
+    "grading": "metric diffeomorphism gauge -> coupled fields -> Euler rows",
+    "pairing": "selected action pairing plus a conditionally granted derivative-free scalar density",
+    "real_structure": "same real K77 branch; K720 complex rank data used only for principal comparison",
+    "target": "whether cancelling the background metric Euler trace also repairs the principal middle cohomology"
+  },
+  "ledger_no_change_reason": "The repair is a conditional differential-order theorem, not an owned GU action term or stationary solution, and it leaves the known principal defect unchanged.",
+  "pinned_inputs": {
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k724": {
+      "path": "lab/process/k724-sc-act-06-kappa-zero-order-ellipticity-obstruction.json",
+      "sha256": "a0660d0167381e06f3f505ce8c418f3a91407fc1e3d5869d0562bc4deeb2a44e"
+    },
+    "k726": {
+      "path": "lab/process/k726-sc-act-06-homogeneous-nonzero-t-stationarity-obstruction.json",
+      "sha256": "6845d4d5c11d5717a220d43b01972a72a027ab99b2255aa4f15d57165489041a"
+    },
+    "metric_euler": {
+      "path": "lab/process/selected-k77-direct-metric-euler.json",
+      "sha256": "3009b7cf3eb3de63ed30e2dc53dfc4ebd1d71a9369f6904147b7d127cf0fa29a"
+    }
+  },
+  "principal_invariance": {
+    "field_dimension": 229386,
+    "native_null_euler_rank": 122748,
+    "native_null_middle_cohomology_dimension": 106634,
+    "nonnull_euler_rank": 130912,
+    "nonnull_middle_cohomology_dimension": 98470,
+    "owned_metric_diffeomorphism_rank": 4,
+    "principal_middle_exact_after_algebraic_repair": false
+  },
+  "result_id": "K727-SC-ACT-06-ALGEBRAIC-TRACE-REPAIR-PRINCIPAL-INVARIANCE",
+  "schema_version": "1.0",
+  "scope": "Conditional principal-symbol test of a derivative-free local action sector granted solely to cancel K726's rank-one metric trace on the same homogeneous branch.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

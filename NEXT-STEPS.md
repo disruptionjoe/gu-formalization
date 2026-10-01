@@ -2,10 +2,30 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-09-30"
+updated_at: "2026-10-01"
 ---
 
 # Next Steps For Contributors
+
+> **2026-10-01 K726--K728 SC-ACT-06 STATIONARY/PRINCIPAL INPUT GATE.**
+> K726 generalizes the current homogeneous Phi1 branch to arbitrary
+> `kappa_1`: `B=(kappa_1/156)Phi1`, `T=-(kappa_1/78)Phi1` has first-action
+> density `7 kappa_1^3/18252`. Every nonzero member therefore has a nonzero
+> rank-one metric Euler covector, while raw residual zero makes the
+> residual-square second-action variation vanish. It is not a full stationary
+> background; `kappa_1=0` returns to the rejected `T=0` stratum. K727 grants a
+> derivative-free trace cancellation and proves it cannot change K720's
+> 98470/106634 principal classes. K728 adds the known rank-91 lower-order
+> moving-epsilon cross and missing primitive-epsilon field-two-jet. Next build
+> a source-typed nonhomogeneous nonzero-`T` (or otherwise non-Levi-Civita)
+> field two-jet and moving-graph derivative bank that closes all metric,
+> epsilon and distortion Euler rows and supplies a new coupled highest-order
+> symbol, gauge/redundancy maps and coherent Euclidean carrier/reduction. Do
+> not substitute the current homogeneous branch, algebraic trace repair,
+> lower-order epsilon cross or pointwise fixed-geometry Hessian. See
+> `lab/process/k726-sc-act-06-homogeneous-nonzero-t-stationarity-obstruction.json`,
+> `lab/process/k727-sc-act-06-algebraic-trace-repair-principal-invariance.json`,
+> and `lab/process/k728-sc-act-06-current-stationary-principal-input-gate.json`.
 
 > **2026-09-30 K723--K725 SC-ACT-06 CURRENT BOSONIC REPAIR-INPUT GATE.**
 > K723 proves that K127's Ricci-flat arbitrary-Weyl `T=0` Levi-Civita

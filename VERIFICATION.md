@@ -2,10 +2,43 @@
 title: "Verification: What Is Proved, Computed, and Conjectural"
 status: process
 doc_type: verification-map
-updated_at: "2026-09-30"
+updated_at: "2026-10-01"
 ---
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
+
+## K726--K728 SC-ACT-06 stationary/principal input gate (2026-10-01)
+
+K726 uses the exact homogeneous action polynomial
+`7t(624b^2+624bt+208t^2+kappa_1 t)`. Its only critical solutions on the
+Phi1 line are the trivial branch and
+`(b,t)=(kappa_1/156,-kappa_1/78)`. The latter has first-action density
+`7 kappa_1^3/18252` and normalized direct metric Euler
+`(7 kappa_1^3/18252)(-2,0,0,0,2,0,0,2,0,2)`. Thus every nonzero member has
+rank-one metric obstruction. The raw residual vanishes, so the residual-square
+second action has zero first variation and cannot cancel it. This rejects the
+current homogeneous candidate as a full stationary background, not all
+nonzero-`T` germs.
+
+K727 grants the cheapest same-background algebraic repair: a derivative-free
+local density whose first variation is the negative trace covector. That can
+cancel the displayed metric row conditionally, but it is not source-owned and
+its linearization is zero-order. It therefore leaves the selected bosonic
+principal ranks 130912/122748 and middle cohomology 98470/106634 unchanged.
+Stationarity and principal exactness are separate gates.
+
+K728 composes these results with the existing primitive-epsilon data. The
+known mixed cross has rank 91 into grade one but is explicitly lower-order and
+has zero first variation. The principal primitive-epsilon and total-metric
+rows require a compatible field two-jet; the current packet owns only field
+order one. No serialized candidate therefore passes both the stationarity and
+principal gates.
+
+The producers pass 40/34/42 controls and their probes reject 33/33, 29/29 and
+35/35 hostile mutations. They do not construct the missing field two-jet,
+prove a global nonzero-`T` no-go or move SC-ACT-06. The source register,
+physics ledger, canon, paper, public posture, prediction, confirmation and
+physical verdicts remain unchanged.
 
 ## K723--K725 SC-ACT-06 current bosonic repair-input gate (2026-09-30)
 

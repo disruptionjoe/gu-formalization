@@ -1,0 +1,93 @@
+{
+  "claim_ceiling": "Exact obstruction for the repository's homogeneous Phi1 nonzero-T candidate under the selected first action plus residual-square second action. No global nonzero-T no-go, Euclidean-symbol result, source-status change, prediction, confirmation, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 40,
+    "hostile_mutations_rejected": 33,
+    "probe": "tests/channel-swings/k726_sc_act_06_homogeneous_nonzero_t_stationarity_obstruction_probe.py",
+    "producer": "tests/channel-swings/k726_sc_act_06_homogeneous_nonzero_t_stationarity_obstruction.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "current_homogeneous_nonzero_t_branch_admissible_for_k722_retest": false,
+    "kappa_zero_escape_returns_to_rejected_t0_stratum": true,
+    "next_exact_input": "A source-typed nonhomogeneous nonzero-T branch or additional action-owned sector that cancels the complete metric/epsilon Euler covector while retaining genuinely new highest-order bosonic data; then construct its gauge/redundancy principal complex and Euclidean real carrier.",
+    "nonhomogeneous_or_derivative_bearing_branch_remains_open": true,
+    "obstruction": "NONZERO_RANK_ONE_DIRECT_METRIC_EULER_FOR_EVERY_KAPPA_1_NONZERO"
+  },
+  "direction": "observed_to_native",
+  "exact_controls_at_kappa_one": {
+    "A": "-Phi1/156",
+    "B": "Phi1/156",
+    "T": "-Phi1/78",
+    "action_density": "7/18252",
+    "metric_euler": [
+      "-7/9126",
+      "0",
+      "0",
+      "0",
+      "7/9126",
+      "0",
+      "0",
+      "7/9126",
+      "0",
+      "7/9126"
+    ],
+    "metric_euler_kernel_dimension": 9,
+    "metric_euler_rank": 1,
+    "raw_residual_zero": true,
+    "second_action_first_variation_zero": true
+  },
+  "gu_typed_objects": {
+    "action_owner": "selected I1B comm/symi/symi first action with kappa_1 torsion term, plus I2B=norm(Upsilon)^2",
+    "carrier": "homogeneous B=b Phi1, T=t Phi1 branch inside the admitted K77 low-grade connection tangent, plus all ten Sym2(T*X) metric normals",
+    "grading": "connection B/T directions -> ten metric normals -> action Euler covectors",
+    "pairing": "selected first-transgression action pairing and gimmel density; residual-square second action evaluated at raw Upsilon=0",
+    "real_structure": "real labelled K77 fixture at Lorentzian base signature (1,3); no Euclidean continuation claimed",
+    "target": "whether the current homogeneous nonzero-T candidate is a stationary background eligible for SC-ACT-06 principal-symbol testing"
+  },
+  "homogeneous_branch_theorem": {
+    "action_polynomial": "I(b,t;kappa_1)=7*t*(624*b^2+624*b*t+208*t^2+kappa_1*t)",
+    "all_nonzero_T_stationary_germs_excluded": false,
+    "connection_critical_solutions": [
+      "(b,t)=(0,0)",
+      "(b,t)=(kappa_1/156,-kappa_1/78)"
+    ],
+    "first_action_density": "7*kappa_1^3/18252",
+    "kappa_zero_limit_is_nonzero_T": false,
+    "nontrivial_branch_A": "-(kappa_1/156)Phi1",
+    "nontrivial_branch_B": "(kappa_1/156)Phi1",
+    "nontrivial_branch_T": "-(kappa_1/78)Phi1",
+    "nonzero_kappa_branch_is_full_stationary_background": false,
+    "normalized_metric_euler": "(7*kappa_1^3/18252)*(-2,0,0,0,2,0,0,2,0,2)",
+    "normalized_metric_euler_rank_for_nonzero_kappa": 1,
+    "raw_residual_zero": true,
+    "residual_square_cancels_metric_trace": false,
+    "residual_square_first_variation_zero": true
+  },
+  "ledger_no_change_reason": "The theorem rejects only the current homogeneous Phi1 branch as a full stationary background; it does not exclude nonhomogeneous nonzero-T germs or change any source or physics verdict.",
+  "pinned_inputs": {
+    "common_branch": {
+      "path": "lab/process/selected-k77-common-first-action-epsilon-hessian.json",
+      "sha256": "ce6a50bfc7a2742afe1da2226d33f406875053772e184c2b36badf6c290bba82"
+    },
+    "k720": {
+      "path": "lab/process/k720-sc-act-06-selected-i1b-euclidean-bosonic-symbol.json",
+      "sha256": "c0019f3f8ad286995b31b81d571e429487e004b07becb37a73cdf36baba16aaa"
+    },
+    "k725": {
+      "path": "lab/process/k725-sc-act-06-current-bosonic-repair-input-gate.json",
+      "sha256": "3d490a671ef1d06a3e7a93e94ca7071f2512b2e4eb1b6e69c403913351912b2a"
+    },
+    "metric_euler": {
+      "path": "lab/process/selected-k77-direct-metric-euler.json",
+      "sha256": "3009b7cf3eb3de63ed30e2dc53dfc4ebd1d71a9369f6904147b7d127cf0fa29a"
+    }
+  },
+  "result_id": "K726-SC-ACT-06-HOMOGENEOUS-NONZERO-T-STATIONARITY-OBSTRUCTION",
+  "schema_version": "1.0",
+  "scope": "Full-stationarity test of the exact homogeneous Phi1 nonzero-T branch of the selected K77 first action, including the residual-square second action but not an added trace-cancelling sector.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

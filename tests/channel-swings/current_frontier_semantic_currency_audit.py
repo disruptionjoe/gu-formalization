@@ -116,6 +116,15 @@ def load_inputs() -> dict:
         "k725": json.loads(
             (ROOT / "lab/process/k725-sc-act-06-current-bosonic-repair-input-gate.json").read_text()
         ),
+        "k726": json.loads(
+            (ROOT / "lab/process/k726-sc-act-06-homogeneous-nonzero-t-stationarity-obstruction.json").read_text()
+        ),
+        "k727": json.loads(
+            (ROOT / "lab/process/k727-sc-act-06-algebraic-trace-repair-principal-invariance.json").read_text()
+        ),
+        "k728": json.loads(
+            (ROOT / "lab/process/k728-sc-act-06-current-stationary-principal-input-gate.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -482,6 +491,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("K717's flat Euclidean" in live and "K719 makes the full" in live and
               "block diagonal" in live,
               "live K717--K719 predecessor custody missing")
+        check("K726" in live and "rank-one metric Euler" in live and
+              "K727" in live and "derivative-free algebraic trace repair" in live and
+              "K728" in live and "field two-jet" in live,
+              "live K726--K728 stationary/principal input gate missing")
         check("K720--K722 reject the frozen K132-selected I1B" in live and
               "98470" in live and "106634" in live and
               "displayed fermion candidate is exact" in live,
@@ -495,6 +508,8 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K726--K728 expose and close the cheapest current stationary-background" in summary,
+          "current K726--K728 result lost")
     check("K723--K725 test every currently serialized alternative bosonic input" in summary,
           "current K723--K725 result lost")
     check("K720--K722 decide the first frozen full-symbol realization" in summary and
@@ -594,6 +609,12 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "first-action density 7*kappa_1^3/18252" in data["agenda"].get("latest_result_2026_10_01_k726_k728", "")
+        and "rank-91 lower-order moving-epsilon cross" in data["agenda"].get("latest_result_2026_10_01_k726_k728", "")
+        and "no current serialized packet passes both stationarity and principal exactness" in data["agenda"].get("latest_result_2026_10_01_k726_k728", ""),
+        "agenda K726--K728 result is not current",
+    )
     check(
         "curvature changes subprincipal or lower-order transport" in data["agenda"].get("latest_result_2026_09_30_k723_k725", "")
         and "zero-order involution" in data["agenda"].get("latest_result_2026_09_30_k723_k725", "")
@@ -1654,6 +1675,50 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           k725_d["nonzero_t_route_remains_open"] and
           not k725_d["source_global_SC_ACT_06_refuted"],
           "K725 current bosonic repair-input gate or source ceiling moved")
+
+    k726 = data["k726"]
+    k726_t = k726["homogeneous_branch_theorem"]
+    k726_d = k726["decision"]
+    check(k726_t["first_action_density"] == "7*kappa_1^3/18252" and
+          k726_t["normalized_metric_euler_rank_for_nonzero_kappa"] == 1 and
+          k726_t["raw_residual_zero"] and
+          k726_t["residual_square_first_variation_zero"] and
+          not k726_t["residual_square_cancels_metric_trace"] and
+          not k726_t["nonzero_kappa_branch_is_full_stationary_background"] and
+          not k726_d["current_homogeneous_nonzero_t_branch_admissible_for_k722_retest"] and
+          k726_d["nonhomogeneous_or_derivative_bearing_branch_remains_open"],
+          "K726 homogeneous nonzero-T stationarity obstruction or ceiling moved")
+
+    k727 = data["k727"]
+    k727_r = k727["conditional_trace_repair"]
+    k727_c = k727["principal_invariance"]
+    k727_d = k727["decision"]
+    check(k727_r["background_metric_euler_can_be_cancelled_conditionally"] and
+          not k727_r["repair_is_source_owned"] and
+          k727_r["linearized_repair_differential_order"] == 0 and
+          not k727_r["repair_changes_highest_order_euler_symbol"] and
+          k727_c["nonnull_middle_cohomology_dimension"] == 98470 and
+          k727_c["native_null_middle_cohomology_dimension"] == 106634 and
+          not k727_c["principal_middle_exact_after_algebraic_repair"] and
+          not k727_d["algebraic_trace_repair_is_sufficient_k722_repair"],
+          "K727 algebraic trace repair principal invariance or ceiling moved")
+
+    k728 = data["k728"]
+    k728_rows = k728["candidate_census"]
+    k728_t = k728["two_gate_theorem"]
+    k728_d = k728["decision"]
+    check(len(k728_rows) == 4 and
+          not k728_rows[0]["direct_metric_euler_zero"] and
+          not k728_rows[0]["full_stationary_background"] and
+          not k728_rows[1]["changes_complete_principal_symbol"] and
+          k728_rows[2]["rank"] == 91 and
+          k728_rows[2]["differential_order"] == "LOWER_ORDER" and
+          k728_rows[3]["owned_field_order"] == 1 and
+          k728_rows[3]["required_field_order_at_least"] == 2 and
+          not k728_t["current_serialized_packet_passes_both_gates"] and
+          not k728_d["current_nonzero_t_route_admissible_for_ker_equals_image_test"] and
+          k728_d["nonzero_t_route_remains_open"],
+          "K728 current stationary/principal input gate or ceiling moved")
 
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
@@ -2853,6 +2918,15 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k725-background", lambda d: d["k725"]["nonzero_t_admission_theorem"].__setitem__("nonzero_t_background_missing", False))
     add("k725-elliptic", lambda d: d["k725"]["nonzero_t_admission_theorem"].__setitem__("pointwise_full_rank_implies_principal_ellipticity", True))
     add("k725-input", lambda d: d["k725"]["decision"].__setitem__("current_serialized_candidates_supply_new_complete_bosonic_principal_data", True))
+    add("k726-stationary", lambda d: d["k726"]["homogeneous_branch_theorem"].__setitem__("nonzero_kappa_branch_is_full_stationary_background", True))
+    add("k726-trace", lambda d: d["k726"]["homogeneous_branch_theorem"].__setitem__("residual_square_cancels_metric_trace", True))
+    add("k726-input", lambda d: d["k726"]["decision"].__setitem__("current_homogeneous_nonzero_t_branch_admissible_for_k722_retest", True))
+    add("k727-owner", lambda d: d["k727"]["conditional_trace_repair"].__setitem__("repair_is_source_owned", True))
+    add("k727-principal", lambda d: d["k727"]["conditional_trace_repair"].__setitem__("repair_changes_highest_order_euler_symbol", True))
+    add("k727-exact", lambda d: d["k727"]["principal_invariance"].__setitem__("principal_middle_exact_after_algebraic_repair", True))
+    add("k728-background", lambda d: d["k728"]["candidate_census"][0].__setitem__("direct_metric_euler_zero", True))
+    add("k728-order", lambda d: d["k728"]["candidate_census"][2].__setitem__("differential_order", "PRINCIPAL"))
+    add("k728-input", lambda d: d["k728"]["two_gate_theorem"].__setitem__("current_serialized_packet_passes_both_gates", True))
 
     add("k693-lower", lambda d: d["k693"]["graph_equivalence_theorem"].__setitem__("upper_bound_alone_sufficient_for_closedness", True))
     add("k693-native", lambda d: d["k693"]["native_interface_status"].__setitem__("actual_native_closed_column_proved", True))

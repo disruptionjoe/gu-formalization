@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: e13ac1a8910
+revision_basis: b916cf0f68c6
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,25 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K726--K728 expose and close the cheapest current stationary-background
+    repair on the SC-ACT-06 nonzero-`T` route. K726 generalizes the exact
+    homogeneous `B=(kappa_1/156)Phi1`, `T=-(kappa_1/78)Phi1` branch: its first-
+    action density is `7 kappa_1^3/18252`, so every nonzero `kappa_1` member
+    has a nonzero rank-one direct metric Euler covector. Raw residual zero
+    makes the residual-square second-action first variation vanish, so the
+    branch is not a full stationary background. The `kappa_1=0` limit returns
+    to the already rejected `T=0` stratum. K727 grants the cheapest
+    derivative-free trace cancellation; it can cancel that one covector only
+    conditionally, is not source-owned, and is zero-order, so K720's
+    98470/106634 principal middle classes remain. K728 composes the result
+    with the known rank-91 lower-order moving-epsilon cross and the missing
+    primitive-epsilon field-two-jet. The surviving input must close every
+    metric, epsilon and distortion Euler row and introduce genuinely new
+    derivative-bearing highest-order data, together with gauge/redundancy maps
+    and one coherent Euclidean carrier/reduction. SC-ACT-06 remains `ASSERTS`;
+    no source, ledger, canon, paper, public, prediction, confirmation or
+    physical verdict moves.
+
     K723--K725 test every currently serialized alternative bosonic input after
     K722 and sharpen the exact reopener. K723 composes K127--K132 with K720:
     the local Ricci-flat arbitrary-Weyl `T=0` Levi-Civita stationary family has
@@ -12069,6 +12088,25 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  On the SC-ACT-06 route, K726--K728 separate and test the two gates that the
+  current nonzero-`T` candidate must pass. The exact homogeneous Phi1 branch
+  is connection-critical on the admitted low-grade tangent and has raw
+  residual zero, but its first-action density is `7 kappa_1^3/18252`; for
+  every nonzero `kappa_1` its direct metric Euler covector has rank one, while
+  the residual-square layer contributes zero first variation. It is therefore
+  not a full stationary background. A conditionally granted derivative-free
+  trace term can cancel that covector but is not source-owned and cannot alter
+  K720's 98470/106634 principal middle classes. The known rank-91 primitive-
+  epsilon mixed cross is lower-order, while the principal primitive-epsilon
+  row requires an unbuilt field two-jet. Construct one source-typed
+  nonhomogeneous nonzero-`T` (or otherwise non-Levi-Civita) field two-jet and
+  moving-graph derivative bank that closes every metric, epsilon and
+  distortion Euler row and supplies a genuinely new coupled highest-order
+  symbol, gauge/redundancy maps, Euclidean real carrier and owned positive
+  reduction. Do not reuse the homogeneous residual-zero branch, algebraic
+  trace cancellation, rank-91 lower-order cross or fixed-geometry Hessian as
+  that packet.
+
   On the SC-ACT-06 route, K723--K725 close the current curvature-only and
   zero-order repairs and expose the exact nonzero-`T` admission debt. A curved
   Ricci-flat arbitrary-Weyl `T=0` Levi-Civita germ retains K720's principal
@@ -12834,6 +12872,22 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  On the SC-ACT-06 route, the exact surviving input must now pass stationarity
+  and principal exactness separately. K726 rejects the current homogeneous
+  Phi1 nonzero-`T` branch as a full saddle: for nonzero `kappa_1` its rank-one
+  metric Euler covector is nonzero and the raw-residual-square layer cannot
+  cancel it. K727 proves that a derivative-free algebraic trace repair, even
+  if granted, leaves K720's principal cohomology unchanged. K728 proves the
+  known rank-91 moving-epsilon cross is lower-order and the primitive-epsilon
+  principal packet still requires a compatible field two-jet. Construct a
+  source-typed nonhomogeneous nonzero-`T` or otherwise non-Levi-Civita field
+  two-jet and moving-graph derivative bank that closes every metric, epsilon
+  and distortion Euler row and supplies genuinely new coupled highest-order
+  data, gauge and redundancy maps, a Euclidean real carrier and an owned
+  positive reduction. Alternatively authenticate a different action-owned
+  principal Shiab coefficient on a stationary germ. Only then test
+  `ker E(xi)=im G(xi)` for every nonzero covector. SC-ACT-06 remains `ASSERTS`.
+
   On the SC-ACT-06 route, the next exact input is now narrower than a generic
   "different germ." K723 proves every current K127 Ricci-flat arbitrary-Weyl
   `T=0` Levi-Civita germ has K720's same deficient principal ranks. K724 proves

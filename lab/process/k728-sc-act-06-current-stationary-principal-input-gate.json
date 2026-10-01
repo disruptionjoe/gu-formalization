@@ -1,0 +1,100 @@
+{
+  "candidate_census": [
+    {
+      "candidate": "current homogeneous Phi1 nonzero-T branch",
+      "changes_complete_principal_symbol": null,
+      "connection_critical_on_admitted_low_grade_tangent": true,
+      "direct_metric_euler_zero": false,
+      "disposition": "REJECTED_AS_CURRENT_STATIONARY_GERM__RANK_ONE_METRIC_EULER",
+      "full_stationary_background": false,
+      "raw_residual_zero": true
+    },
+    {
+      "candidate": "conditional derivative-free trace cancellation on the homogeneous branch",
+      "changes_complete_principal_symbol": false,
+      "disposition": "CONDITIONAL_BACKGROUND_REPAIR_ONLY__ZERO_ORDER_CANNOT_REPAIR_PRINCIPAL_COHOMOLOGY",
+      "full_stationary_background": false,
+      "metric_trace_can_cancel": true,
+      "source_owned": false
+    },
+    {
+      "candidate": "known moving-Shiab primitive-epsilon mixed cross",
+      "changes_complete_principal_symbol": false,
+      "differential_order": "LOWER_ORDER",
+      "disposition": "RETAINED_LOWER_ORDER_HESSIAN_DATA__NOT_A_PRINCIPAL_REPAIR",
+      "first_variation_zero": true,
+      "rank": 91,
+      "receiver_grade": 1
+    },
+    {
+      "candidate": "primitive epsilon and total metric rows on the nonzero-T branch",
+      "changes_complete_principal_symbol": null,
+      "complete": false,
+      "disposition": "OPEN__COMPATIBLE_FIELD_TWO_JET_AND_MOVING_GRAPH_DERIVATIVE_BANK_REQUIRED",
+      "owned_field_order": 1,
+      "required_field_order_at_least": 2
+    }
+  ],
+  "claim_ceiling": "Exact current-input admission gate after K725--K727. No global nonzero-T no-go, constructed field two-jet, complete Euclidean deformation complex, source-status change, prediction, confirmation, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 42,
+    "hostile_mutations_rejected": 35,
+    "probe": "tests/channel-swings/k728_sc_act_06_current_stationary_principal_input_gate_probe.py",
+    "producer": "tests/channel-swings/k728_sc_act_06_current_stationary_principal_input_gate.py"
+  },
+  "created": "2026-10-01",
+  "decision": {
+    "alternative_surviving_input": "Authenticate a different action-owned principal Shiab coefficient and a stationary germ on which it acts, with the same complete coupled and Euclidean obligations.",
+    "current_nonzero_t_route_admissible_for_ker_equals_image_test": false,
+    "exact_surviving_input": "Construct a source-typed nonhomogeneous nonzero-T (or otherwise non-Levi-Civita) field two-jet and moving-graph derivative bank that closes every metric, epsilon and distortion Euler row and supplies a genuinely new coupled highest-order symbol, gauge map, redundancy map, Euclidean real carrier and owned positive reduction.",
+    "forbidden_substitutions": [
+      "the current homogeneous residual-zero branch",
+      "an algebraic cosmological or VEV trace cancellation alone",
+      "the rank-91 lower-order moving-epsilon cross",
+      "the fixed-geometry pointwise connection Hessian",
+      "curvature or kappa zero-order transport"
+    ],
+    "nonzero_t_route_remains_open": true
+  },
+  "direction": "observed_to_native",
+  "ledger_no_change_reason": "The gate rejects one current branch, one unowned algebraic repair class and one lower-order cross as complete inputs; it preserves derivative-bearing nonhomogeneous and different-principal-coefficient routes.",
+  "pinned_inputs": {
+    "epsilon_cross": {
+      "path": "lab/process/selected-k77-common-first-action-epsilon-hessian.json",
+      "sha256": "ce6a50bfc7a2742afe1da2226d33f406875053772e184c2b36badf6c290bba82"
+    },
+    "epsilon_jet_gate": {
+      "path": "lab/process/selected-k77-nonzero-t-epsilon-jet-order-gate.json",
+      "sha256": "8ad8c496bddaa041a795ae8dbd0ab884732ff4dc0fa6bb1fb58bea98d3301557"
+    },
+    "k725": {
+      "path": "lab/process/k725-sc-act-06-current-bosonic-repair-input-gate.json",
+      "sha256": "3d490a671ef1d06a3e7a93e94ca7071f2512b2e4eb1b6e69c403913351912b2a"
+    },
+    "k726": {
+      "path": "lab/process/k726-sc-act-06-homogeneous-nonzero-t-stationarity-obstruction.json",
+      "sha256": "6845d4d5c11d5717a220d43b01972a72a027ab99b2255aa4f15d57165489041a"
+    },
+    "k727": {
+      "path": "lab/process/k727-sc-act-06-algebraic-trace-repair-principal-invariance.json",
+      "sha256": "89948842f3576dbcc2c76064a0dec19bd35f10758788329fb4a6bc7e6b9c3c30"
+    }
+  },
+  "result_id": "K728-SC-ACT-06-CURRENT-STATIONARY-PRINCIPAL-INPUT-GATE",
+  "schema_version": "1.0",
+  "scope": "Current-repository admission gate for a nonzero-T background that is both stationary and equipped with genuinely new coupled highest-order bosonic data.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "two_gate_theorem": {
+    "algebraic_trace_repair_passes_principal_gate": false,
+    "current_homogeneous_branch_passes_stationarity": false,
+    "current_serialized_packet_passes_both_gates": false,
+    "global_nonzero_t_no_go_proved": false,
+    "known_epsilon_cross_passes_principal_gate": false,
+    "new_principal_data_required_after_stationarity": true,
+    "primitive_epsilon_principal_packet_complete": false,
+    "stationarity_required_before_principal_complex_credit": true
+  }
+}
