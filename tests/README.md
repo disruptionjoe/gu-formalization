@@ -4,6 +4,20 @@ Computational checks for the program's claims. Each file is a standalone audit/g
 with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
 the map: which directory/group supports which claim.
 
+## K839--K842 infinite-dimensional nonlinear admission
+
+- `channel-swings/k839_sc_act_06_finite_cutoff_limit_gate.py` proves that
+  invertible finite cutoffs can converge to a non-Fredholm limit.
+- `channel-swings/k840_sc_act_06_collapsing_nonlinear_radius.py` proves that
+  pointwise inverse-function radii can collapse with the cutoff.
+- `channel-swings/k841_sc_act_06_analytic_hilbert_zero_accumulation.py`
+  constructs one analytic `l2` map whose full zeros accumulate at the origin.
+- `channel-swings/k842_sc_act_06_infinite_dimensional_admission_compiler.py`
+  extends K838 to a 30-row infinite-dimensional admission interface.
+- The matching `_probe.py` files reject 82/82 hostile mutations. These are
+  conditional mathematical controls; they do not construct a GU function-
+  space realization or prove SC-ACT-06.
+
 ## K835--K838 nonlinear-germ category closure
 
 - `channel-swings/k835_sc_act_06_higher_order_kuranishi_obstruction.py`

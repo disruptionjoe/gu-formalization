@@ -1,0 +1,195 @@
+{
+  "claim_ceiling": "Exact generic counterexample to deriving a cutoff-uniform nonlinear local radius from pointwise derivative invertibility; no GU action family, rich-moduli conclusion, physics-ledger move, or global SC-ACT-06 verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "collapsing_family": {
+    "base_point": "x=0",
+    "base_value": "f_N(0)=0",
+    "critical_point": "x=1/(2N)",
+    "derivative": "Df_N(x)=1/N-2x",
+    "derivative_at_base": "Df_N(0)=1/N",
+    "derivative_at_base_invertible_for_every_finite_N": true,
+    "index_set": "positive integers N",
+    "inverse_derivative_norm": "||(Df_N(0))^-1||=N",
+    "inverse_norm_uniformly_bounded": false,
+    "map": "f_N(x)=x/N-x^2",
+    "second_zero": "x_N=1/N",
+    "symmetry": "f_N(x)=f_N(1/N-x)",
+    "zeros": "{0,1/N}"
+  },
+  "controls": {
+    "controls_passed": 47,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k840_sc_act_06_collapsing_nonlinear_radius_probe.py",
+    "producer": "tests/channel-swings/k840_sc_act_06_collapsing_nonlinear_radius.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_cutoff_family_constructed": false,
+    "actual_gu_uniform_nonlinear_radius_proved": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For an authenticated source/action-owned cutoff family and quotient slice, prove cutoff-uniform inverse bounds together with a uniform nonlinear derivative/remainder estimate, or exhibit its actual collapsing branch.",
+    "pointwise_finite_cutoff_local_invertibility_established_for_control_family": true,
+    "uniform_radius_follows_from_pointwise_invertibility": false
+  },
+  "direction": "observed_to_native",
+  "exact_samples": [
+    {
+      "N": 1,
+      "certified_ift_radius": "1/4",
+      "collision_pair_about_critical_point": [
+        "3/8",
+        "5/8"
+      ],
+      "collision_value": "15/64",
+      "derivative_at_zero": "1",
+      "derivative_lower_bound_on_certified_ball": "1/2",
+      "inverse_norm": 1,
+      "second_zero": "1"
+    },
+    {
+      "N": 2,
+      "certified_ift_radius": "1/8",
+      "collision_pair_about_critical_point": [
+        "3/16",
+        "5/16"
+      ],
+      "collision_value": "15/256",
+      "derivative_at_zero": "1/2",
+      "derivative_lower_bound_on_certified_ball": "1/4",
+      "inverse_norm": 2,
+      "second_zero": "1/2"
+    },
+    {
+      "N": 5,
+      "certified_ift_radius": "1/20",
+      "collision_pair_about_critical_point": [
+        "3/40",
+        "1/8"
+      ],
+      "collision_value": "3/320",
+      "derivative_at_zero": "1/5",
+      "derivative_lower_bound_on_certified_ball": "1/10",
+      "inverse_norm": 5,
+      "second_zero": "1/5"
+    },
+    {
+      "N": 10,
+      "certified_ift_radius": "1/40",
+      "collision_pair_about_critical_point": [
+        "3/80",
+        "1/16"
+      ],
+      "collision_value": "3/1280",
+      "derivative_at_zero": "1/10",
+      "derivative_lower_bound_on_certified_ball": "1/20",
+      "inverse_norm": 10,
+      "second_zero": "1/10"
+    },
+    {
+      "N": 100,
+      "certified_ift_radius": "1/400",
+      "collision_pair_about_critical_point": [
+        "3/800",
+        "1/160"
+      ],
+      "collision_value": "3/128000",
+      "derivative_at_zero": "1/100",
+      "derivative_lower_bound_on_certified_ball": "1/200",
+      "inverse_norm": 100,
+      "second_zero": "1/100"
+    }
+  ],
+  "governance": {
+    "artifact_class": "runtime_research_result",
+    "authority_path": "repository_local_research_control",
+    "canon_effect": "none",
+    "construction_route": "generic_real_analytic_control_not_an_identification_with_the_GU_action",
+    "physics_ledger_effect": "none",
+    "protected_conclusions_unchanged": true,
+    "source_claim_effect": "none"
+  },
+  "gu_typed_objects": {
+    "action_owner": "generic mathematical control; application requires an authenticated source/action-owned GU family",
+    "carrier": "one-dimensional real cutoff-indexed local slice control",
+    "grading": "single even scalar control degree",
+    "pairing": "absolute-value norm on source and target R",
+    "real_structure": "real analytic scalar maps",
+    "target": "whether pointwise linearized invertibility supplies a cutoff-uniform nonlinear local radius"
+  },
+  "ledger_no_change_reason": "The exact family is a generic analytic discriminator, not the source-owned GU action, quotient slice, physical observable, prediction or empirical confirmation.",
+  "pinned_inputs": {
+    "k817": {
+      "path": "lab/process/k817-sc-act-06-finite-parameter-schur-gate.json",
+      "sha256": "4b00381e01e8da380e692da1b694d26c777e8450e17a3a39a1a33def970efdd2"
+    },
+    "k822": {
+      "path": "lab/process/k822-sc-act-06-joint-parameter-covector-uniformity.json",
+      "sha256": "697c98e3750f5042eda62a0a324fe48e5c5c5d288881330f286c110827dfd118"
+    },
+    "k838": {
+      "path": "lab/process/k838-sc-act-06-nonlinear-germ-admission-compiler.json",
+      "sha256": "10162181f20a62951f02c33b1685e6ee27d71bdc8540d5275358e13818ac0b35"
+    }
+  },
+  "pointwise_ift_certificate": {
+    "certified_origin_centered_radius": "r_N=1/(4N)",
+    "derivative_lower_bound": "|Df_N(x)|>=1/(2N) for |x|<=1/(4N)",
+    "each_finite_cutoff_has_an_ift_neighborhood": true,
+    "injective_on_certified_ball": true,
+    "largest_open_injectivity_radius": "1/(2N)",
+    "largest_open_zero_isolation_radius": "1/N"
+  },
+  "postflight_bookend": {
+    "checks": [
+      "exact Fraction recomputation of both zeros, the derivative, inverse norm, certified derivative bound and collision pairs",
+      "producer validation and JSON round-trip shape",
+      "hostile semantic mutations of conditioning, radii, uniform conclusions, governance and GU claim ceiling"
+    ],
+    "contrary_control": "g_N(x)=x-x^2 keeps the same quadratic term but has inverse norm 1 and one common radius 1/4.",
+    "overclaim_check": "The result denies only the inference from pointwise cutoff invertibility to a uniform nonlinear radius; it does not deny any individual finite-cutoff IFT neighborhood or adjudicate the absent GU family.",
+    "remaining_seam": "Authenticate the actual source/action-owned family and prove uniform inverse plus nonlinear remainder bounds on its physical quotient and common domain."
+  },
+  "preflight_bookend": {
+    "deduplication": {
+      "k817": "Finite-parameter Schur persistence after an invertible transverse first term; it does not quantify a cutoff-indexed nonlinear neighborhood.",
+      "k822": "Joint parameter/covector uniformity from a uniform gap and remainder; it does not exhibit collapse of an actual nonlinear solution germ across cutoffs.",
+      "k838": "Admission of the actual category-appropriate nonlinear germ; it does not show that pointwise IFT neighborhoods may shrink to zero.",
+      "nonredundant_increment": "An analytic family with invertible derivative at every cutoff, inverse norm N, a second zero at 1/N, and hence collapsing isolation and injectivity radii."
+    },
+    "lenses": {
+      "commercial": "Package a short reproducible discriminator reusable against future cutoff families.",
+      "frontier": "Expose the missing uniform inverse bound and nonlinear remainder control before source-family credit.",
+      "heterodox_rigorous": "Use an exact rational analytic family whose second zero is visible without numerical inference.",
+      "orthodox": "Track the inverse derivative norm and a quantitative inverse-function radius, not invertibility alone.",
+      "philosopher": "Keep pointwise existence distinct from a uniform statement over the cutoff index."
+    },
+    "route_choice": "Test the quantitative nonlinear stability burden by exact scalar counterfamily, then test the diagnosis with the same quadratic nonlinearity and uniformly conditioned linear part."
+  },
+  "result_id": "K840-SC-ACT-06-COLLAPSING-NONLINEAR-RADIUS",
+  "schema_version": "1.0",
+  "scope": "Exact analytic cutoff family separating pointwise inverse-function neighborhoods from any cutoff-uniform zero-isolation or injectivity radius.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06",
+  "uniform_failure_certificate": {
+    "infimum_injectivity_radius": "0",
+    "infimum_zero_isolation_radius": "0",
+    "injectivity_witness": "The same two distinct zeros lie in (-r,r), so f_N is not injective there.",
+    "pointwise_derivative_invertibility_implies_uniform_radius": false,
+    "positive_N_uniform_injectivity_radius_exists": false,
+    "positive_N_uniform_zero_isolation_radius_exists": false,
+    "zero_isolation_witness": "For every r>0 choose N>1/r; then 0<1/N<r and f_N(0)=f_N(1/N)=0."
+  },
+  "well_conditioned_control": {
+    "derivative_at_base": "Dg_N(0)=1",
+    "inverse_derivative_norm": "||(Dg_N(0))^-1||=1",
+    "inverse_norm_uniformly_bounded": true,
+    "map": "g_N(x)=x-x^2",
+    "quadratic_nonlinearity_alone_forces_radius_collapse": false,
+    "same_quadratic_nonlinearity": true,
+    "second_zero": "x=1",
+    "uniform_certified_radius": "1/4",
+    "uniform_derivative_lower_bound": "|Dg_N(x)|>=1/2 for |x|<=1/4",
+    "uniformly_injective_on_certified_ball": true
+  }
+}

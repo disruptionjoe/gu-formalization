@@ -1,7 +1,7 @@
 schema_version: "1.0"
 repository: observerse-research-program
 branch: main
-revision_basis: 6879b0246a45
+revision_basis: 9f97fb62117c
 purpose: >-
   Establish the honest truth-status of the Observerse / Geometric Unity
   program by forcing, falsifying, or precisely locating its claims, while
@@ -35,6 +35,19 @@ research_method_control:
 current_result:
   status: conditional_research_front
   summary: >-
+    K839--K842 close the finite-cutoff shortcut left after K838. K839 gives
+    the exact diagonal Hilbert operator `T(x)_n=x_n/n`: every finite section
+    and capped cutoff is invertible, while inverse norms diverge and the limit
+    has dense nonclosed range. K840 gives the analytic scalar family
+    `f_N(x)=x/N-x^2`; every derivative at zero is invertible, but its second
+    zero and maximal local radii collapse like `1/N`. K841 combines both
+    mechanisms in one actual analytic map on `l2`, whose finite cutoffs isolate
+    zero while the full zero set contains `e_N/N -> 0`. K842 extends K838 to a
+    30-row interface requiring the completed function-space topology, a
+    bounded or tame splitting/right inverse, and uniform nonlinear/limit
+    control. Current GU custody supplies none of those rows. SC-ACT-06 remains
+    `ASSERTS`; no protected conclusion moves.
+
     K835--K838 close the finite-jet shortcut left open by K832--K834.
     K835 gives polynomial obstruction germs whose first nonzero projected
     orders are two, three and four, so a vanishing quadratic obstruction does
@@ -12552,6 +12565,18 @@ current_result:
     - lab/process/literal-observation-gamma-kernel-obstruction-package.json
     - tests/attention-shots/literal_observation_gamma_kernel_obstruction.py
 current_question: >-
+  K839--K842 make the nonlinear rich-moduli obligation genuinely infinite-
+  dimensional. Invertibility and isolated zeros at every finite cutoff do not
+  survive a limit without uniform control: `diag(1/n)` has invertible finite
+  sections but dense nonclosed limiting range, `x/N-x^2` has collapsing
+  inverse-function radii, and the analytic Hilbert polynomial
+  `F(x)_n=x_n/n-x_n^2` has nonzero zeros accumulating at the origin. A future
+  candidate must therefore declare its completed function-space topology,
+  construct a bounded or tame splitting/right inverse, and prove nonlinear
+  estimates uniform through the actual approximation limit, in addition to
+  K838's 27 rows. Current GU custody supplies no such realization, so
+  SC-ACT-06 remains `ASSERTS`.
+
   K835--K838 make the nonlinear-germ obligation category-sensitive. A
   vanishing quadratic obstruction can hide cubic or quartic failure, and in
   the smooth category even the complete formal Taylor series can vanish while
@@ -13676,6 +13701,17 @@ contribution_path:
   - CONTRIBUTING.md
   - NEXT-STEPS.md
 next_condition: >-
+  K839--K842 require a future SC-ACT-06 candidate to cross the cutoff-to-limit
+  boundary on its actual completed function space. Finite-dimensional
+  exactness, pointwise inverse derivatives, analytic formulas and isolated
+  finite-cutoff zeros are insufficient without a bounded or tame
+  splitting/right inverse and nonlinear estimates uniform in the limit.
+  Supply K838's category-complete source/action-owned family on a declared
+  Banach, Hilbert, Sobolev, tame Frechet or otherwise precise scale and pass
+  all 30 rows on that same realization. Current custody supplies neither the
+  family nor the infinite-dimensional controls, so SC-ACT-06 remains
+  `ASSERTS` and no protected conclusion moves.
+
   K835--K838 require a future SC-ACT-06 candidate to declare its regularity
   category and close the actual nonlinear germ. Finite jets are never enough
   without an independent terminating-order theorem; in the smooth category,

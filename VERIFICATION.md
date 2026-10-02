@@ -7,6 +7,49 @@ updated_at: "2026-10-02"
 
 # VERIFICATION -- what is proved, what is computed, what is conjectural
 
+## K839--K842 infinite-dimensional nonlinear admission (2026-10-02)
+
+K839 studies `T:l2->l2`, `(Tx)_n=x_n/n`. Every first-`N` section and the
+capped full-space operator is invertible with inverse norm exactly `N`, and
+the capped operators converge to `T` in operator norm. The limit is injective
+with dense range, but `y=(1/n)` has only the non-square-summable formal
+preimage `(1,1,...)`; the range is therefore nonclosed and `T` is not
+Fredholm. The identity family is the uniform positive control.
+
+K840 studies `f_N(x)=x/N-x^2`. Its derivative at zero is invertible with
+inverse norm `N`, while the second zero lies at `1/N`, the maximal open
+zero-isolation radius is `1/N`, and the maximal injectivity radius is
+`1/(2N)`. Thus every member has a local inverse-function neighborhood but no
+positive radius is uniform in `N`. The same-quadratic family `x-x^2` is the
+well-conditioned control. K841 combines the linear and nonlinear mechanisms
+in the continuous analytic Hilbert polynomial `F(x)_n=x_n/n-x_n^2`. Its
+first-`N` cutoff has exactly `2^N` zeros and isolates the origin, while the
+full map has nonzero zeros `e_N/N` converging to zero.
+
+K842 adds three rows to K838: declared completed function-space topology,
+bounded-or-tame splitting/right inverse, and uniform nonlinear neighborhood
+or limit control. Its complete synthetic control passes all 30 rows; the
+finite-cutoff-only control fails; current GU custody misses all 30 rows.
+
+Run the producers and hostile probes:
+
+```bash
+python3 tests/channel-swings/k839_sc_act_06_finite_cutoff_limit_gate.py --check
+python3 tests/channel-swings/k839_sc_act_06_finite_cutoff_limit_gate_probe.py
+python3 tests/channel-swings/k840_sc_act_06_collapsing_nonlinear_radius.py --check
+python3 tests/channel-swings/k840_sc_act_06_collapsing_nonlinear_radius_probe.py
+python3 tests/channel-swings/k841_sc_act_06_analytic_hilbert_zero_accumulation.py --check
+python3 tests/channel-swings/k841_sc_act_06_analytic_hilbert_zero_accumulation_probe.py
+python3 tests/channel-swings/k842_sc_act_06_infinite_dimensional_admission_compiler.py --check
+python3 tests/channel-swings/k842_sc_act_06_infinite_dimensional_admission_compiler_probe.py
+```
+
+The producers declare 190 controls and the probes reject 82 hostile
+mutations. These are generic exact functional-analytic controls, not a GU
+function-space realization, obstruction map or rich-moduli proof. SC-ACT-06
+remains `ASSERTS`; no source, ledger, canon, paper, public, prediction,
+confirmation or physical verdict moves.
+
 ## K835--K838 nonlinear-germ category closure (2026-10-02)
 
 K835 computes the exact obstruction hierarchy for

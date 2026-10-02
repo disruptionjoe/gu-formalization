@@ -455,6 +455,18 @@ def load_inputs() -> dict:
         "k838": json.loads(
             (ROOT / "lab/process/k838-sc-act-06-nonlinear-germ-admission-compiler.json").read_text()
         ),
+        "k839": json.loads(
+            (ROOT / "lab/process/k839-sc-act-06-finite-cutoff-limit-gate.json").read_text()
+        ),
+        "k840": json.loads(
+            (ROOT / "lab/process/k840-sc-act-06-collapsing-nonlinear-radius.json").read_text()
+        ),
+        "k841": json.loads(
+            (ROOT / "lab/process/k841-sc-act-06-analytic-hilbert-zero-accumulation.json").read_text()
+        ),
+        "k842": json.loads(
+            (ROOT / "lab/process/k842-sc-act-06-infinite-dimensional-admission-compiler.json").read_text()
+        ),
         "k693": json.loads(
             (ROOT / "lab/process/k693-k500-graph-equivalent-column-compiler.json").read_text()
         ),
@@ -647,9 +659,13 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
     check(isinstance(live, str) and bool(live.strip()), "live next_condition missing")
     check(isinstance(history, str) and bool(history.strip()), "prior_conditions history missing")
     check(registry["latest_gu_formalization_result"] ==
-          "K835_K838_SC_ACT_06_NONLINEAR_GERM_CURRENT",
+          "K839_K842_SC_ACT_06_INFINITE_DIMENSIONAL_CURRENT",
           "latest GU result pointer moved")
     if isinstance(live, str):
+        check("K839--K842 require a future SC-ACT-06 candidate" in live and
+              "bounded or tame" in live and
+              "all 30 rows" in live,
+              "live K839--K842 infinite-dimensional admission gate missing")
         check("K835--K838 require a future SC-ACT-06 candidate" in live and
               "actual smooth obstruction germ" in live and
               "convergent analytic expansion" in live,
@@ -931,6 +947,10 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
         check("25 terminal rows and 66 open rows" in history, "historical 25/66 condition lost")
         check("b2_selectable=false" in history, "historical B2 gate condition lost")
     summary = current.get("current_result", {}).get("summary", "")
+    check("K839--K842 close the finite-cutoff shortcut" in summary and
+          "dense nonclosed range" in summary and
+          "30-row interface" in summary,
+          "current K839--K842 infinite-dimensional result lost")
     check("K835--K838 close the finite-jet shortcut" in summary and
           "complete formal data" in summary and
           "27-row interface" in summary,
@@ -1100,6 +1120,18 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           "current claim ceiling lost")
 
     question = current.get("current_question", "")
+    check(
+        "K839--K842 make the nonlinear rich-moduli obligation genuinely infinite" in question
+        and "completed function-space topology" in question
+        and "uniform through the actual approximation limit" in question,
+        "current question lost K839--K842 infinite-dimensional gates",
+    )
+    check(
+        "K839--K842 close the finite-cutoff shortcut" in data["agenda"].get("latest_result_2026_10_02_k839_k842", "")
+        and "30 rows" in data["agenda"].get("latest_result_2026_10_02_k839_k842", "")
+        and "SC-ACT-06 remains ASSERTS" in data["agenda"].get("latest_result_2026_10_02_k839_k842", ""),
+        "agenda K839--K842 result is not current",
+    )
     check(
         "K835--K838 make the nonlinear-germ obligation category-sensitive" in question
         and "complete formal Taylor series" in question
@@ -3424,6 +3456,45 @@ def audit(data: dict, check_digests: bool = True) -> list[str]:
           not k838["decision"]["actual_gu_rich_moduli_admitted"],
           "K838 nonlinear-germ admission compiler moved")
 
+    k839 = data["k839"]
+    check(k839["finite_cutoff_limit_certificate"]["finite_section"]["inverse_norm_rule"] == "N" and
+          k839["finite_cutoff_limit_certificate"]["capped_full_space_cutoff"]["operator_norm_convergence_to_T"] and
+          k839["finite_cutoff_limit_certificate"]["uniform_inverse_bound"] is False and
+          k839["limit_certificate"]["range_dense"] and
+          not k839["limit_certificate"]["range_closed"] and
+          not k839["limit_certificate"]["fredholm"] and
+          not k839["decision"]["actual_gu_cutoff_family_or_limit_domain_constructed"],
+          "K839 finite-cutoff limit gate moved")
+
+    k840 = data["k840"]
+    check(k840["collapsing_family"]["inverse_derivative_norm"] == "||(Df_N(0))^-1||=N" and
+          k840["pointwise_ift_certificate"]["largest_open_zero_isolation_radius"] == "1/N" and
+          not k840["uniform_failure_certificate"]["positive_N_uniform_injectivity_radius_exists"] and
+          k840["well_conditioned_control"]["uniform_certified_radius"] == "1/4" and
+          k840["controls"]["controls_passed"] == 47 and
+          not k840["decision"]["actual_gu_uniform_nonlinear_radius_proved"],
+          "K840 collapsing nonlinear radius gate moved")
+
+    k841 = data["k841"]
+    check(k841["analytic_hilbert_map"]["real_analytic"] and
+          k841["finite_cutoffs"]["zero_count_formula"] == "2^N" and
+          k841["finite_cutoffs"]["origin_is_isolated_for_every_finite_cutoff"] and
+          not k841["full_space_zero_set"]["origin_is_isolated"] and
+          k841["full_space_zero_set"]["norm_limit"] == "1/N -> 0" and
+          not k841["decision"]["actual_gu_hilbert_kuranishi_map_constructed"],
+          "K841 analytic Hilbert zero-accumulation gate moved")
+
+    k842 = data["k842"]
+    check(k842["compiler"]["k838_row_count"] == 27 and
+          k842["compiler"]["new_row_count"] == 3 and
+          k842["compiler"]["total_row_count"] == 30 and
+          not k842["compiler"]["finite_cutoff_exactness_alone_admissible"] and
+          k842["exact_controls"]["infinite_dimensional_complete_admitted"] and
+          not k842["exact_controls"]["finite_cutoff_only_admitted"] and
+          k842["exact_controls"]["current_gu_missing_row_count"] == 30 and
+          not k842["decision"]["actual_gu_rich_moduli_admitted"],
+          "K842 infinite-dimensional admission compiler moved")
+
     k693 = data["k693"]
     k693_t = k693["graph_equivalence_theorem"]
     k693_n = k693["native_interface_status"]
@@ -4590,6 +4661,10 @@ def selftest(base: dict) -> tuple[int, int]:
     add("k836-formal-determines-smooth", lambda d: d["k836"]["theorem"].__setitem__("complete_formal_series_determines_smooth_zero_germ", True))
     add("k837-finite-jet-suffices", lambda d: d["k837"]["analytic_identity_theorem"].__setitem__("finite_jet_order_suffices_without_degree_bound", True))
     add("k838-finite-formal-admissible", lambda d: d["k838"]["compiler"].__setitem__("finite_jet_or_formal_data_alone_admissible", True))
+    add("k839-range-closed", lambda d: d["k839"]["limit_certificate"].__setitem__("range_closed", True))
+    add("k840-uniform-radius", lambda d: d["k840"]["uniform_failure_certificate"].__setitem__("positive_N_uniform_injectivity_radius_exists", True))
+    add("k841-origin-isolated", lambda d: d["k841"]["full_space_zero_set"].__setitem__("origin_is_isolated", True))
+    add("k842-cutoff-admissible", lambda d: d["k842"]["compiler"].__setitem__("finite_cutoff_exactness_alone_admissible", True))
 
     add("k696-form", lambda d: d["k696"]["integration_theorem"].__setitem__("graph_equivalence_without_form_identity_sufficient", True))
     add("k696-reduction", lambda d: d["k696"]["integration_theorem"].__setitem__("reduction_of_column_labels_alone_reduces_native_R", True))

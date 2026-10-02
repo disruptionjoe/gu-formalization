@@ -7,6 +7,18 @@ updated_at: "2026-10-02"
 
 # Next Steps For Contributors
 
+> **2026-10-02 K839--K842 INFINITE-DIMENSIONAL NONLINEAR ADMISSION.**
+> K839 proves that invertibility at every finite cutoff does not imply an
+> invertible or Fredholm limit: `T(x)_n=x_n/n` has inverse cutoff norm `N`
+> and dense nonclosed limiting range. K840 proves that pointwise inverse-
+> function neighborhoods can collapse: `f_N(x)=x/N-x^2` has a second zero at
+> `1/N`. K841 realizes both failures in one analytic polynomial on `l2`, with
+> isolated finite-cutoff origins but full-space zeros `e_N/N -> 0`. K842
+> extends K838 to 30 rows by requiring a declared completed function-space
+> topology, a bounded or tame splitting/right inverse, and uniform nonlinear
+> limit control. Next supply those rows on the same source/action-owned GU
+> family. These controls are not GU evidence; SC-ACT-06 remains `ASSERTS`.
+
 > **2026-10-02 K835--K838 NONLINEAR-GERM CATEGORY CLOSURE.** K835 proves
 > that vanishing quadratic obstruction does not establish integrability:
 > `F_m(x,y)=(y,x^m)` has the same one-dimensional tangent and isolated zero

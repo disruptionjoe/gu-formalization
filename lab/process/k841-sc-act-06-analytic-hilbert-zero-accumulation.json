@@ -1,0 +1,169 @@
+{
+  "analytic_hilbert_map": {
+    "bilinear_bound": "||B(x,y)||_2 <= ||x||_2 ||y||_2",
+    "bilinear_polarization": "B(x,y)_n=x_n*y_n",
+    "coordinate_square_is_continuous_quadratic_l2_to_l2": true,
+    "derivative_at_origin": "DF(0)=D=diag(1/n)",
+    "derivative_bounded_below": false,
+    "derivative_injective": true,
+    "linear_operator_norm": "1",
+    "linear_term": "D(x)_n=x_n/n",
+    "map": "F(x)_n=x_n/n-x_n^2",
+    "polynomial_degree": 2,
+    "quadratic_bound": "||Q(x)||_2 <= ||x||_2^2",
+    "quadratic_term": "Q(x)_n=x_n^2",
+    "real_analytic": true,
+    "space": "real l2(N), indexed by n=1,2,..."
+  },
+  "category_and_limit_boundary": {
+    "analyticity_alone_does_not_make_a_zero_isolated": true,
+    "complete_actual_map_is_explicit": true,
+    "finite_cutoff_isolation_radii_have_no_positive_uniform_lower_bound": true,
+    "k836_smooth_flat_ref": "lab/process/k836-sc-act-06-smooth-flat-obstruction.json",
+    "k837_analytic_category_ref": "lab/process/k837-sc-act-06-analytic-category-closure.json",
+    "k838_nonlinear_germ_compiler_ref": "lab/process/k838-sc-act-06-nonlinear-germ-admission-compiler.json",
+    "k839_finite_cutoff_limit_ref": "lab/process/k839-sc-act-06-finite-cutoff-limit-gate.json",
+    "k840_collapsing_radius_ref": "lab/process/k840-sc-act-06-collapsing-nonlinear-radius.json",
+    "mechanism": "The visible degree-one coefficients 1/n tend to zero, so the nonzero coordinate root 1/n and the exact finite-cutoff isolation radius collapse in the Hilbert limit.",
+    "not_a_smooth_flat_example": true
+  },
+  "claim_ceiling": "Exact analytic l2 polynomial countermodel to cutoff-stable isolation only; no GU obstruction map, cutoff theorem, rich moduli, source, ledger, canon, or physical conclusion.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 56,
+    "hostile_mutations_rejected": 20,
+    "probe": "tests/channel-swings/k841_sc_act_06_analytic_hilbert_zero_accumulation_probe.py",
+    "producer": "tests/channel-swings/k841_sc_act_06_analytic_hilbert_zero_accumulation.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_hilbert_kuranishi_map_constructed": false,
+    "actual_gu_uniform_isolation_radius_proved": false,
+    "analytic_infinite_dimensional_accumulation_constructed": true,
+    "finite_cutoff_isolation_implies_full_space_isolation": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "next_exact_input": "For any GU cutoff-to-Hilbert passage, prove a cutoff-uniform nonlinear isolation radius or exhibit and control the full infinite-dimensional obstruction map; analyticity and isolated finite cutoffs alone do not suffice."
+  },
+  "direction": "observed_to_native",
+  "finite_cutoffs": {
+    "controls": [
+      {
+        "cutoff": 1,
+        "nearest_nonzero_norm": "1",
+        "nearest_nonzero_norm_squared": "1",
+        "nearest_nonzero_zero": "e_1/1",
+        "origin_is_isolated": true,
+        "zero_count": 2
+      },
+      {
+        "cutoff": 2,
+        "nearest_nonzero_norm": "1/2",
+        "nearest_nonzero_norm_squared": "1/4",
+        "nearest_nonzero_zero": "e_2/2",
+        "origin_is_isolated": true,
+        "zero_count": 4
+      },
+      {
+        "cutoff": 3,
+        "nearest_nonzero_norm": "1/3",
+        "nearest_nonzero_norm_squared": "1/9",
+        "nearest_nonzero_zero": "e_3/3",
+        "origin_is_isolated": true,
+        "zero_count": 8
+      },
+      {
+        "cutoff": 4,
+        "nearest_nonzero_norm": "1/4",
+        "nearest_nonzero_norm_squared": "1/16",
+        "nearest_nonzero_zero": "e_4/4",
+        "origin_is_isolated": true,
+        "zero_count": 16
+      },
+      {
+        "cutoff": 6,
+        "nearest_nonzero_norm": "1/6",
+        "nearest_nonzero_norm_squared": "1/36",
+        "nearest_nonzero_zero": "e_6/6",
+        "origin_is_isolated": true,
+        "zero_count": 64
+      }
+    ],
+    "coordinate_zero_rule": "x_n in {0,1/n} for 1<=n<=N",
+    "definition": "F^[N] is F restricted to span{e_1,...,e_N}",
+    "nearest_nonzero_distance": "1/N",
+    "nearest_nonzero_zero": "e_N/N",
+    "open_ball_radius_1_over_N_contains_only_origin": true,
+    "origin_is_isolated_for_every_finite_cutoff": true,
+    "zero_count_formula": "2^N"
+  },
+  "full_space_zero_set": {
+    "accumulating_nonzero_zeros": "z^[N]=e_N/N",
+    "all_coordinate_choice_sequences_lie_in_l2": true,
+    "coordinate_zero_rule": "x_n in {0,1/n} for every n>=1",
+    "exact_norm": "||z^[N]||_2=1/N",
+    "norm_limit": "1/N -> 0",
+    "origin_is_isolated": false,
+    "summability_bound": "sum_{n in S} 1/n^2 <= sum_{n>=1} 1/n^2 <= 2"
+  },
+  "governance": {
+    "artifact_class": "runtime_research_result",
+    "authority_path": "repository_local_research_control",
+    "canon_effect": "none",
+    "construction_route": "generic_real_analytic_Hilbert_control_not_an_identification_with_the_GU_action",
+    "physics_ledger_effect": "none",
+    "protected_conclusions_unchanged": true,
+    "source_claim_effect": "none"
+  },
+  "gu_typed_objects": {
+    "action_owner": "generic mathematical control; no authenticated GU action owner is supplied",
+    "assumptions": [
+      "positive-integer coordinate indexing",
+      "standard l2 norm and topology",
+      "finite cutoffs are the first-N coordinate subspaces"
+    ],
+    "carrier": "real Hilbert space l2(N) for both source and target",
+    "grading": "ungraded",
+    "pairing_or_form": "standard positive inner product sum_n x_n y_n",
+    "real_structure": "identity on the real carrier",
+    "target_object": "stability of zero isolation from finite coordinate cutoffs to the full Hilbert obstruction map"
+  },
+  "pinned_input": {
+    "path": "lab/process/k838-sc-act-06-nonlinear-germ-admission-compiler.json",
+    "sha256": "10162181f20a62951f02c33b1685e6ee27d71bdc8540d5275358e13818ac0b35"
+  },
+  "postflight_bookend": {
+    "checks": [
+      "exact Fraction enumeration of every zero for representative finite cutoffs",
+      "symbolic Hilbert-space norm bounds for the bilinear and quadratic coordinate maps",
+      "exact zero and norm formula for e_N/N",
+      "producer JSON round trip and hostile semantic mutations"
+    ],
+    "contrary_boundary": "If the derivative had a cutoff-uniform lower bound together with controlled nonlinear remainder, the displayed radius-collapse mechanism would be excluded.",
+    "overclaim_check": "The control disproves only finite-cutoff-stable zero isolation without a uniform bound; it neither identifies the GU germ nor contradicts analytic identity for a germ with all coefficients zero.",
+    "remaining_seam": "Construct the authenticated source/action-owned GU Hilbert slice and prove a common-domain uniform isolation estimate or analyze its actual full zero locus."
+  },
+  "preflight_bookend": {
+    "deduplication": {
+      "k836": "A smooth flat finite-dimensional germ invisible to formal series; K841 is a visible degree-two analytic polynomial with a different mechanism.",
+      "k837": "The analytic identity boundary; K841 does not have all Taylor coefficients zero and instead tests isolation in infinite dimension.",
+      "k838": "The nonlinear-germ admission interface; K841 supplies only a generic exact discriminator, not a GU compiler row.",
+      "k839": "The diagonal finite-cutoff/limit linear gate; K841 uses that diagonal as its derivative and adds an explicit nonlinear zero set.",
+      "k840": "The scalar cutoff-indexed collapsing-radius family; K841 realizes all of those coordinate equations simultaneously on l2.",
+      "nonredundant_increment": "One continuous real-analytic polynomial F:l2->l2 with isolated origins on every finite coordinate cutoff and nonzero zeros converging to the origin in the full space."
+    },
+    "lenses": {
+      "commercial": "Package a deterministic finite-cutoff versus full-space discriminator with no numerical dependencies.",
+      "frontier": "Expose spectral collapse of the derivative as a zero-accumulation mechanism that finite truncations cannot see uniformly.",
+      "heterodox_rigorous": "Assemble the scalar collapsing-radius controls into one genuine infinite-dimensional analytic map.",
+      "orthodox": "Check that the nonlinear coordinate square is a continuous Hilbert-space polynomial and solve the zero equation exactly.",
+      "philosopher": "Separate analyticity of the actual germ from compactness or uniform isolation across dimension."
+    },
+    "route_choice": "Prove continuity of the coordinatewise quadratic term, enumerate exact finite zeros, and exhibit the full-space zero sequence e_N/N."
+  },
+  "result_id": "K841-SC-ACT-06-ANALYTIC-HILBERT-ZERO-ACCUMULATION",
+  "schema_version": "1.0",
+  "scope": "Exact real-analytic polynomial control on real l2 whose finite cutoffs have an isolated zero at the origin but whose full zero set accumulates there.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}

@@ -1,0 +1,152 @@
+{
+  "claim_ceiling": "Exact generic ell^2 finite-cutoff/limit counterexample and stable identity control only; no GU operator family, common domain, Fredholm realization, rich moduli, source, ledger, canon, or physical verdict.",
+  "classification": "SOURCE_NATIVE_ROUTE",
+  "controls": {
+    "controls_passed": 47,
+    "hostile_mutations_rejected": 24,
+    "probe": "tests/channel-swings/k839_sc_act_06_finite_cutoff_limit_gate_probe.py",
+    "producer": "tests/channel-swings/k839_sc_act_06_finite_cutoff_limit_gate.py"
+  },
+  "created": "2026-10-02",
+  "decision": {
+    "actual_gu_cutoff_family_or_limit_domain_constructed": false,
+    "global_sc_act_06_proved_or_refuted": false,
+    "k831_closed_global_fredholm_requirement_bypassed": false,
+    "k838_closed_global_fredholm_row_satisfied_by_finite_cutoffs": false,
+    "next_exact_input": "For one source/action-owned GU family on a common closed domain, prove a cutoff-uniform inverse/coercive or Fredholm estimate and identify the limiting kernel, closed range, cokernel, and index before using finite cutoff solvability in K838's 27-row admission compiler."
+  },
+  "direction": "observed_to_native",
+  "exact_controls": {
+    "negative_control": {
+      "every_cutoff_invertible": true,
+      "family": "the capped T_N sequence above",
+      "inverse_norms_uniformly_bounded": false,
+      "limit_fredholm": false,
+      "limit_invertible": false,
+      "operator_norm_convergent": true
+    },
+    "positive_control": {
+      "every_cutoff_invertible": true,
+      "family": "S_N=I on ell^2 for every N",
+      "inverse_norm_rule": "1",
+      "inverse_norms_uniformly_bounded": true,
+      "limit": "I",
+      "limit_fredholm": true,
+      "limit_fredholm_index": 0,
+      "limit_invertible": true,
+      "limit_range_closed": true,
+      "operator_norm_convergent": true
+    }
+  },
+  "finite_cutoff_limit_certificate": {
+    "capped_full_space_cutoff": {
+      "all_positive_integer_cutoffs_invertible": true,
+      "inverse": "T_N^-1 e_n=min(n,N)e_n",
+      "inverse_norm_rule": "N",
+      "operator": "T_N e_n=e_n/min(n,N)",
+      "operator_norm_convergence_to_T": true,
+      "operator_norm_error_rule": "||T_N-T||=1/N"
+    },
+    "compact": true,
+    "finite_section": {
+      "all_positive_integer_cutoffs_invertible": true,
+      "inverse": "diag(1,2,...,N)",
+      "inverse_norm_rule": "N",
+      "operator": "T|H_N=diag(1,1/2,...,1/N)",
+      "subspace": "H_N=span{e_1,...,e_N}",
+      "zero_extended_operator_norm_error_rule": "1/(N+1)"
+    },
+    "inverse_norms_diverge": true,
+    "operator": "T:ell^2->ell^2, (Tx)_n=x_n/n",
+    "operator_norm": "1",
+    "positive": true,
+    "samples": {
+      "capped_operator_norm_errors": [
+        "1",
+        "1/2",
+        "1/4",
+        "1/8",
+        "1/16"
+      ],
+      "cutoffs": [
+        1,
+        2,
+        4,
+        8,
+        16
+      ],
+      "inverse_norms": [
+        "1",
+        "2",
+        "4",
+        "8",
+        "16"
+      ],
+      "zero_extended_compression_errors": [
+        "1/2",
+        "1/3",
+        "1/5",
+        "1/9",
+        "1/17"
+      ]
+    },
+    "self_adjoint": true,
+    "uniform_inverse_bound": false
+  },
+  "gate": {
+    "finite_cutoff_data_may_be_used_as_a_limit_certificate_without_stability": false,
+    "finite_cutoff_invertibility_alone_implies_limit_invertibility": false,
+    "finite_cutoff_invertibility_plus_operator_norm_convergence_implies_limit_fredholmness": false,
+    "uniform_inverse_or_coercive_estimate_is_an_independent_limit_obligation": true
+  },
+  "governance": {
+    "action_owner": "synthetic diagonal operator control only; no GU action owner supplied",
+    "assumptions": [
+      "coordinates are indexed by positive integers",
+      "cutoffs use the first N coordinates or the equivalent capped diagonal regularization",
+      "operator, range, and Fredholm statements use the standard ell^2 topology"
+    ],
+    "carrier": "ell^2(N_{>=1}; C)",
+    "claim_grade": "exact_repository_owned_control",
+    "grading": "ungraded",
+    "pairing_or_form": "standard positive Hilbert inner product sum_n conjugate(x_n)y_n",
+    "protected_scientific_effect": "none",
+    "real_structure": "coordinatewise complex conjugation",
+    "target_object": "finite-cutoff-to-limit Fredholm inference required downstream of K831 and inside K838's closed-global-Fredholm row"
+  },
+  "limit_certificate": {
+    "bounded_below": false,
+    "finite_support_sequences_contained_in_range": true,
+    "finite_support_sequences_dense_in_ell2": true,
+    "formal_preimage_in_ell2": false,
+    "fredholm": false,
+    "fredholm_obstruction": "range_not_closed",
+    "injective": true,
+    "kernel_dimension": 0,
+    "nonrange_witness": "y=(1/n)_n",
+    "nonrange_witness_in_ell2": true,
+    "orthogonal_complement_of_range_dimension": 0,
+    "range_closed": false,
+    "range_closure": "ell^2",
+    "range_dense": true,
+    "range_surjective": false,
+    "unique_formal_preimage": "x=(1,1,...)_n",
+    "unit_vector_witness": "||e_N||=1 and ||T e_N||=1/N -> 0"
+  },
+  "pinned_inputs": {
+    "k831": {
+      "path": "lab/process/k831-sc-act-06-noncompact-fredholm-boundary.json",
+      "sha256": "c7a23cb1192b18d80163e6dbfdb9c1a61638449c962f6f974874316b2c165137"
+    },
+    "k838": {
+      "path": "lab/process/k838-sc-act-06-nonlinear-germ-admission-compiler.json",
+      "sha256": "10162181f20a62951f02c33b1685e6ee27d71bdc8540d5275358e13818ac0b35"
+    }
+  },
+  "result_id": "K839-SC-ACT-06-FINITE-CUTOFF-LIMIT-GATE",
+  "schema_version": "1.0",
+  "scope": "Exact deterministic boundary between invertibility at every finite cutoff and invertibility, closed range, or Fredholmness of the limiting operator.",
+  "source_and_ledger_effect": "SC-ACT-06_ASSERTS_UNCHANGED__LEDGER_UNCHANGED",
+  "status": "working_draft_verified",
+  "target_claim": "SC-ACT-06"
+}
